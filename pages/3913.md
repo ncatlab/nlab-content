@@ -294,7 +294,10 @@ Prop. \ref{ThomSpaceOfExternalProductOfVectorBundles} induces on the [[Thom spec
 
 ### CW-structure
 
-If the base space of the vector bundle carries the structure of a [[CW-complex]], then its Thom space (def. \ref{ThomSpace}) canonically inherits the structure of a CW-complex, too
+If the base space of the vector bundle carries the structure of a [[CW-complex]], then its Thom space (def. \ref{ThomSpace}) canonically inherits the structure of a CW-complex, too:
+
++-- {: .num_lemma #ThomSpaceCWStructure}
+###### Lemma
 
 Let $V \to X$ be a [[vector bundle]] of [[rank]] $n \geq 1$. over a [[CW-complex]] $X$.
 
@@ -314,6 +317,8 @@ Then $Th(V)$ has the structure of a [[CW-complex]] with
      }
      \,.
    $$
+
+=--
 
 (e.g. [Cruz 04, lemma 6](#Cruz04))
 
