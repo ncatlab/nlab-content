@@ -251,6 +251,10 @@ The page [here](http://ncatlab.org/nlab/show/generalized+algebraic+theory#Relati
 
 * A [[torsor]] over some group $G$ may be modeled by a category enriched over the [[discrete category]] on the set $G$, where $\otimes$ is the group operation.  Not every such category determines a torsor, however; it must be nonempty as well as [[Cauchy complete category|Cauchy complete]].
 
+* [[F-categories]] are categories enriched over a subcategory of $Cat^{\to}$, and similarly [[M-categories]] are categories enriched over a subcategory of $Set^{\to}$.
+
+* [[2-categories with contravariance]] (and generalizations such as [[3-categories with contravariance]]) can also be described as enriched categories.
+
 ## Related concepts
 
 * [[enriched monad]]
