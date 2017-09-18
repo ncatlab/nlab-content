@@ -341,7 +341,9 @@ The first statement follows from the [[Tychonoff theorem]]: every [[product topo
 
 +-- {: .num_remark} 
 ###### Remark 
-However, the category of compact spaces does not admit equalizers. An explicit example is where one takes two maps $[0, 1] \to \{0, 1\}$ where the codomain is [[Sierpinski space]], where one of the maps $f$ has $f^{-1}(1) = [0, 1/2)$, and the other is the constant map at $1$. If an equalizer in $Comp$ existed, then $\hom(1, -): Comp \to Set$ would have to preserve it, so set-theoretically it would have to be $[0, 1/2)$. The topology on $[0, 1/2)$ would then have to be the same as or finer than the subspace topology in order for the equalizer map to be continuous. But if the subspace topology isn't compact, then no finer topology would make it compact either. (Here we are invoking the contrapositive of the proposition that if $(X, \tau)$ is compact and $\tau' \subseteq \tau$ is a coarser topology, then $(X, \tau')$ is also compact.) 
+However, the category of compact spaces does not admit [[equalizers]]. An explicit example is where one takes two maps $[0, 1] \to \{0, 1\}$ where the codomain is [[Sierpinski space]], where one of the maps $f$ has $f^{-1}(1) = [0, 1/2)$, and the other is the constant map at $1$. If an equalizer in $Comp$ existed, then $\hom(1, -): Comp \to Set$ would have to preserve it, so set-theoretically it would have to be $[0, 1/2)$. The topology on $[0, 1/2)$ would then have to be the same as or finer than the subspace topology in order for the equalizer map to be continuous. But if the subspace topology isn't compact, then no finer topology would make it compact either. (Here we are invoking the contrapositive of the proposition that if $(X, \tau)$ is compact and $\tau' \subseteq \tau$ is a coarser topology, then $(X, \tau')$ is also compact.) 
+
+On the other hand, the category of [[compactum|compact Hausdorff spaces]] does admit all [[limits]], and this fact does not require the full strength of the axiom of choice, but only a weaker choice principle called the [[ultrafilter principle]]. 
 =-- 
 
 
