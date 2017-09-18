@@ -3519,9 +3519,11 @@ $$
  {#OrientationAndFiberIntegration}
 
 
-**Idea.** From the way the [[Thom isomorphism]] via a [[Thom class]] works in [[ordinary cohomology]] (as [above](#ThomIsomorphism)), one sees what the general concept of [[orientation in generalized cohomology]] and of [[fiber integration in generalized cohomology]] ought to be.
+**Idea.** From the way the [[Thom isomorphism]] via a [[Thom class]] works in [[ordinary cohomology]] (as [above](#ThomIsomorphism)), one sees what the general concept of [[orientation in generalized cohomology]] and of [[fiber integration in generalized cohomology]] is to be.
 
-**Literature.** ([Kochmann 96, section 4.3](#Kochmann96) [Adams 74, part III, section 10](#Adams74), [Lurie 10, lecture 5](#Lurie10))
+An important application is given by taking $E = $ [[KU]] to be [[topological K-theory]]. Then [[orientation in generalized cohomology|orientation]] is [[spin structure]] and fiber integration with coefficients in $E$ is [[fiber integration in K-theory]]. This is classical _[[index theory]]_.
+
+**Literature.** ([Kochmann 96, section 4.3](#Kochmann96), [Adams 74, part III, section 10](#Adams74), [Lurie 10, lecture 5](#Lurie10))
 
 
 
@@ -3529,11 +3531,11 @@ $$
  {#ComplexOrientedCohomologyTheory}
 
 
-**Idea.** Given the concept of [[orientation in generalized cohomology]] as [above](#OrientationAndFiberIntegration), it is clearly of interest to consider [[cohomology theories]] $E$ such that there exists an orientation/[[Thom class]] on the [[associated bundle|associated]] [[vector bundle]] over any [[classifying space]] $B G$ (or rather: on its induced [[spherical fibration]]), for then _all_ $G$-associated vector bundles inherit an orientation.
+**Idea.** Given the concept of [[orientation in generalized cohomology]] as [above](#OrientationAndFiberIntegration), it is clearly of interest to consider [[cohomology theories]] $E$ such that there exists an [[orientation in generalized cohomology|orientation]]/[[Thom class]] on the [[universal vector bundle]] over any [[classifying space]] $B G$ (or rather: on its induced [[spherical fibration]]), because then _all_ $G$-associated vector bundles inherit an orientation.
 
-Considering this for $G = U(n)$ the [[unitary groups]], for all $n \in \mathbb{N}$, with their defining $\mathbb{C}$-[[linear representations]] on $\mathbb{C}^n \simeq_{\mathbb{R}} \mathbb{R}^2 n$ yields the concept of _[[complex oriented cohomology theory]]_. 
+Considering this for $G = U(n)$ the [[unitary groups]] yields the concept of _[[complex oriented cohomology theory]]_. 
 
-It turns out that a complex orientation on a generalized cohomology theory $E$ in this sense is already given by demanding that there is a suitable generalization of the [[first Chern class]] of [[complex line bundles]] in $E$-cohomology. This already implies the existence of [[generalized Chern classes]] of all degrees $2n$, and these are the required universal generalized [[Thom classes]] ([Lurie 10, lecture 5, prop. 6](#Lurie10)).
+It turns out that a complex orientation on a generalized cohomology theory $E$ in this sense is already given by demanding that there is a suitable generalization of the [[first Chern class]] of [[complex line bundles]] in $E$-cohomology. This already implies the existence of [[generalized Chern classes]] of all degrees, and these are the required universal generalized [[Thom classes]].
 
 Where the ordinary [[first Chern class]] in [[ordinary cohomology]] is simply additive under [[tensor product]] of [[complex line bundles]], one finds that the composite of generalized first Chern classes is instead governed by more general commutative [[formal group laws]]. This phenomenon governs much of the theory to follow.
 
@@ -3542,16 +3544,25 @@ Where the ordinary [[first Chern class]] in [[ordinary cohomology]] is simply ad
 
 #### Chern classes
 
-**Literature.** ([Kochmann 96, section 2.3](#Kochmann96))
+**Idea**. In particular [[ordinary cohomology]] [[HA]] is canonically a [[complex oriented cohomology theory]] and the behaviour of general [[Conner-Floyd Chern classes]] to be discussed [below](#ConnerFloydChernClasses) follows closely the behaviour of the ordinary [[Chern classes]]. 
 
-* [[Thom-Gysin sequence]]
+An ordinary [[Chern class]] is a [[characteristic class]] of [[complex vector bundles]], and since there is the [[classifying space]] $B U$ of complex vector bundles, the _universal_ Chern classes are those of the [[universal complex vector bundle]] over the [[classifying space]] $B U$, which in turn are just the [[ordinary cohomology]] classes in $H^\bullet(B U)$
 
-* [[Chern classes]]
+These may be computed inductively by iteratively applying to the [[spherical fibrations]]
 
-* [[splitting principle]]
+$$
+  S^{2n-1} \longrightarrow B U(n-1) \longrightarrow B U(n)
+$$
+
+the [[Thom-Gysin exact sequence]], a special case of the [[Serre spectral sequence]]. 
+
+Pullback of Chern classes along the canonical map $(B U(1))^n \longrightarrow B U(n)$ identifies them with the [[symmetric polynomials]] in the [[first Chern class]] in $H^2(B U(1))$. This is the _[[splitting principle]]_.
+
+**Literature.** ([Kochmann 96, section 2.3](#Kochmann96), [Lurie 10, lecture 5, prop. 6](#Lurie10))
 
 
 #### Conner-Floyd Chern classes
+ {#ConnerFloydChernClasses}
 
 **Literature.** ([Kochmann 96, section 4.3](#Kochmann96) [Adams 74, part I.4, part II.2, part III.10](#Adams74), [Lurie 10, lecture 5](#Lurie10))
 
