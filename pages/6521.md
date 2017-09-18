@@ -1,5 +1,17 @@
 
+Simon Donaldson is professor for pure [[mathematics]] at Imperial College London.
+
+
 * [website](http://www3.imperial.ac.uk/people/s.donaldson)
+
+* [Wikipedia entry](https://en.wikipedia.org/wiki/Simon_Donaldson)
+
+
+## related $n$Lab entries
+
+* [[Donaldson-Thomas invariant]]
+
+* [[Donaldson theory]]
 
 category: people
 
