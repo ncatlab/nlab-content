@@ -1,0 +1,28 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+Given a [[star-algebra]] $(A ,\ast)$ in [[characteristic zero]], then for $a\in A$ any element
+
+* its _real part_ is $Re(a) \coloneqq \frac{1}{2}(a + a^\ast)$;
+
+* its _imaginary part_ is $Im(a) \coloneqq \frac{1}{2}(a - a^\ast)$.
+
+## Examples
+
+Standard situations where real and imaginary parts are considered include the real [[normed division algebra]]
+
+* $A$ the [[complex numbers]];
+
+* $A$ the [[quaternions]];
+
+* $A$ the [[octonions]]
+
+
+[[!redirects real parts]]
+
+[[!redirects imaginary part]]
+[[!redirects imaginary parts]]
