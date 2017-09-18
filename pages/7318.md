@@ -1,5 +1,5 @@
 
-* [webpage](http://www.math.harvard.edu/people/HeutsGijsbert.html)
+* [webpage](http://www.math.ku.dk/english/staff/?pure=en/persons/541041)
 
 ## Related entries
 
