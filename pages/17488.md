@@ -5580,7 +5580,7 @@ $$
 +-- {: .num_lemma #StableHomotopyCategoryIsAbEnriched}
 ###### Lemma
 
-The group structure in def. \ref{GroupStructureOnHomsInStableHomotopyCategory} is [[abelian group|abelian]] and [[composition]] in $Ho(Spectra)$ is [[bilinear map|bilinear]] with respect to this group structure. (Hence this makes $Ho(Spectra)$ an _[[Ab-enriched category]]_.)
+The group structure on $[X,Y]$ in def. \ref{GroupStructureOnHomsInStableHomotopyCategory} is [[abelian group|abelian]] and [[composition]] in $Ho(Spectra)$ is [[bilinear map|bilinear]] with respect to this group structure. (Hence this makes $Ho(Spectra)$ an _[[Ab-enriched category]]_.)
 
 =--
 
@@ -5684,16 +5684,57 @@ for concatenation of loops. This is where we use that we have the standard model
 
 =--
 
+It is conventional ([Adams 74, p. 138](#Adams74)) to furthermore make the following definition:
+
++-- {: .num_defn #GradedAbelianGroupStructureOnHomsInTheHomotopyCategory}
+###### Definition
+
+For $X, Y \in Ho(Spectra)$ two [[spectra]], define the $\mathbb{Z}$-[[graded abelian group]] 
+
+$$
+  [X,Y]_\bullet \; \in Ab^{\mathbb{Z}}
+$$
+
+to be in degree $n$ the abelian hom group of lemma \ref{StableHomotopyCategoryIsAbEnriched} out of $X$ into the $n$-fold [[suspension]] of $Y$ (lemma \ref{IsomorphismBetweenStandardAndAlternativeSuspensionInHomotopyCategory}):
+
+$$
+  [X,Y]_n 
+     \;\coloneqq\;
+  [X, \Sigma^n Y]
+  \,.
+$$
+
+Defining the composition of  $f_1 \in [X,Y]_{n_1}$ with $f_2 \in [Y,Z]_{n_2}$ to be the composite 
+
+$$
+  X 
+    \overset{f_1}{\longrightarrow} 
+  \Sigma^{n_1} Y
+    \overset{\Sigma^{n_2}(f_2)}{\longrightarrow} 
+  \Sigma^{n_2}(\Sigma^{n-1} Z)
+    \simeq
+  \Sigma^{n_1 + n_2} Z
+$$
+
+gives the [[stable homotopy category]] the structure of an $Ab^{\mathbb{Z}}$-[[enriched category]]. 
+
+=--
+
+
+
 +-- {: .num_example #ForASpectrumXGeneralizedECohomology}
 ###### Example
 **(generalized cohomology groups)**
 
-Let $E \in SeqSpec(Top_{cg})$ be an [[Omega-spectrum]] (def. \ref{OmegaSpectrum}) and let $X\in Top^{\ast/}_{cg}$ be a [[pointed topological space]] with $\Sigma^\infty X$ its [[suspension spectrum]] (example \ref{SuspensionSpectrum}). Then the [[graded abelian group]] (by prop. \ref{StableHomotopyCategoryIsAbEnriched})
+Let $E \in SeqSpec(Top_{cg})$ be an [[Omega-spectrum]] (def. \ref{OmegaSpectrum}) and let $X\in Top^{\ast/}_{cg}$ be a [[pointed topological space]] with $\Sigma^\infty X$ its [[suspension spectrum]] (example \ref{SuspensionSpectrum}). Then the [[graded abelian group]] (by prop. \ref{StableHomotopyCategoryIsAbEnriched}, def. \ref{GradedAbelianGroupStructureOnHomsInTheHomotopyCategory})
 
 $$
   \begin{aligned}
     \tilde E^\bullet(X)
      & \coloneqq
+    [\Sigma^\infty X, E]_\bullet
+     \\
+     & =
     [\Sigma^\infty X, \Sigma^\bullet E]
     \\
       & \simeq
@@ -5770,6 +5811,8 @@ $$
   \end{aligned}
   \,.
 $$
+
+(e.g. [Adams 74, prop. 2.8](#Adams74)).
 
 This last expression is sometimes used to define cohomology with coefficients in an arbitrary spectrum. For examples see in the [[Introduction to Stable homotopy theory -- S|part S]] the section _[Orientation in generalized cohomology](Introduction+to+Stable+homotopy+theory+--+S#OrientationAndFiberIntegration)_.
 
