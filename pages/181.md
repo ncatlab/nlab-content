@@ -16,7 +16,7 @@
 ## Definition
 
 In the [most familiar sense](http://en.wikipedia.org/wiki/Coalgebra), a _coalgebra_ is just like an 
-[[associative algebra]], but with all the structure maps 'turned around'.   More precisely, fix a [[ground field]] $k$.    An **algebra** $A$ is a [[vector space]] equipped with a multiplication
+[[associative algebra]], but with all the structure maps 'turned around' (a "[[co-monoid]]").   More precisely, fix a [[ground field]] $k$.   Then an **[[associative algebra]]** $A$ over $k$ is a [[vector space]] equipped with a multiplication
 
 $$m : A \otimes A \to A$$
 
@@ -24,7 +24,7 @@ and a unit
 
 $$i : k \to A $$
 
-satisfying the associative law and left/right unit laws, which can be drawn as commutative diagrams.   Similarly, a **coalgebra** $C$ is a vector space equipped with a **comultiplication** 
+satisfying the [[associativity]] law and left/right [[unit laws]], which can be drawn as [[commutative diagrams]].   Similarly, a **coalgebra** $C$ is a vector space equipped with a **comultiplication** 
 
 $$\Delta : A \to A \otimes A $$
 
@@ -122,6 +122,8 @@ It follows that an [[associative algebra|algebra]], while not itself the filtere
 =--
 
 ## Related concepts
+
+* [[co-monoid]]
 
 * [[cofree coalgebra]]
 
