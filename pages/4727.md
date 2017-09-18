@@ -87,7 +87,7 @@ $$
 
 in which case we call $A$ **flat**.
 
-The [[curvature characteristic form]]s of $A$ are the composite
+The [[curvature characteristic forms]] of $A$ are the composite
 
 $$
   \Omega^\bullet(X)
@@ -203,7 +203,7 @@ For a general $\infty$-Lie algebra $\mathfrak{g}$ the curvature forms $F_A$ them
 =--
 
 
-It is useful to organize the $\mathfrak{g}$-valued form $A$, together with its restriction $A_{vert}$ to [[vertical differential form]]s and with its [[curvature characteristic form]]s in the [[commuting diagram]]
+It is useful to organize the $\mathfrak{g}$-valued form $A$, together with its restriction $A_{vert}$ to [[vertical differential form]]s and with its [[curvature characteristic form]]s in the [[commuting diagram]] (following _[Weil algebra -- Characterization in the smooth infinity-topos](Weil+algebra#CharacterizationInSmoothTopos)_)
 
 $$
     \array{
