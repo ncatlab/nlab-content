@@ -11,6 +11,8 @@
 
 * [[flop transition]]
 
+* [[ADE singularity]]
+
 ## References
 
 Discussion in the context of [[gauged supergravity]] includes
