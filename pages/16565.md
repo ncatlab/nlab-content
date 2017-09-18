@@ -1,0 +1,121 @@
+
+> this page is one chapter of _[[geometry of physics]]_
+
+> previous chapters: _[[geometry of physics -- manifolds and orbifolds|manifolds and orbifolds]]_, _[[geometry of physics -- WZW terms]]_
+
+***
+
++-- {: .num_defn}
+###### Definition
+
+Given $V,E\in \mathbf{H}$, a _$V$-[[fiber ∞-bundle]]_ $E$ over $X$ is a [[bundle]] $E \in \mathbf{H}_{/X}$ such that there exists a [[cover]] (i.e. a [[1-epimorphism]]) $U \longrightarrow X$ and a [[homotopy pullback]] [[diagram]] of the form
+
+$$
+  \array{
+    U \times V &\longrightarrow& E
+    \\
+    \downarrow && \downarrow
+    \\
+    U &\longrightarrow& X
+  }
+  \,.
+$$
+
+=--
+
++-- {: .num_defn #AssociatedBundles}
+###### Definition
+
+Given an [[∞-group]] $G$ and a $G$-[[∞-action]] on $V$, and given an $G$-[[principal ∞-bundle]] $P \in \mathbf{H}_{/X}$ [[modulating morphism|modulated]] by $\mathbf{c} \colon X \longrightarrow \mathbf{B}G$, then the _[[associated ∞-bundle]]_ is $V$-[[fiber ∞-bundle]] $E = P \times_G V$ which is the [[homotopy pullback]] in
+
+$$
+  \array{
+     P \times_G V &\longrightarrow& V/G
+     \\
+     \downarrow && \downarrow
+     \\
+     X &\stackrel{\mathbf{c}}{\longrightarrow}& \mathbf{B}G
+  }
+  \,.
+$$
+
+A $V$-fiber bundle realized this way is said to have _structure group_ $G$.
+
+=--
+
+
++-- {: .num_prop #FiberBundlesAreAssociated}
+###### Proposition
+
+Every $V$-[[fiber ∞-bundle]] is the [[associated ∞-bundle]], def. \ref{AssociatedBundles}, of some $\mathbf{Aut}(V)$-[[principal ∞-bundle]].
+
+=--
+
++-- {: .num_defn #ReductionLiftOfStructureGroup}
+###### Definition
+
+Given a $G$-[[principal ∞-bundle]] $P$ [[modulating morphism|modulated]] by some $\mathbf{c}\colon X \longrightarrow \mathbf{B}G$, and given a [[homomorphism]] of [[∞-groups]] $H \hookrightarrow$, then a _[[reduction and lift of structure group|reduction/lift of the structure group]]_ is a lift $\hat {\mathbf{c}}$ in 
+
+$$
+  \array{
+    && \mathbf{B}G
+    \\
+    &{}^{\mathllap{\hat{\mathbf{c}}}}\nearrow& \downarrow
+    \\
+    X &\stackrel{\simeq}{\longrightarrow}& \mathbf{B}G
+  }
+  \,.
+$$
+
+Similarly for $V$-[[fiber ∞-bundles]] via def. \ref{AssociatedBundles}, prop. \ref{AssociatedBundles}.
+
+=--
+
+
++-- {: .num_prop #FunctionsOnTotalSpacesAreSectionsOfFunctionBundle}
+###### Proposition
+
+Given a a $V$-[[fiber ∞-bundle]] $E$ over $X$, and given any [[coefficient]] $A$, there is a [[natural equivalence]] beween 
+
+* morphisms $E \longrightarrow A$;
+
+* sections of the canonically [[associated ∞-bundle]] $P \times_{\mathbf{Aut}(V)} [V,A]$ over $X$.
+
+=--
+
++-- {: .num_defn #DefiniteSection}
+###### Definition
+
+Given an $F$-[[fiber ∞-bundle]] $E$ over $X$, and a [[global element]] $x\colon \ast \to F$ then a [[section]] $\sigma$ of $E$ is _definite on $x$ if
+
+$$
+  \array{
+    && \ast 
+    \\
+    & \nearrow & \downarrow^{\mathrlap{x}}
+    \\
+    X && \stackrel{\sigma}{\longrightarrow} && F/\mathbf{Aut}(F)
+    \\
+    & \searrow && \swarrow
+    \\
+    && X
+  }
+$$
+
+=--
+
++-- {: .num_prop }
+###### Proposition
+
+Choices of sections definite on $x$ are equivalent to [[reduction of structure groups|reductions of the structure group]], def. \ref{ReductionLiftOfStructureGroup}, along the [[stabilizer group]] map $Stab_\mathbf{Aut}(V)(x)\longrightarrow \mathbf{Aut}(V)$.
+
+=--
+
++-- {: .num_defn }
+###### Definition
+
+Given $\mathbf{c} \colon V \longrightarrow A$, and given a $V$-[[fiber ∞-bundle]] $E$ over $X$, then a _definite globalization of $\mathbf{c}$ over $E$_ is a $\mathbf{c}^E \colon E \longrightarrow A$ such that the section $\sigma_{\mathbf{c}^X}$ coresponding to it via prop. \ref{FunctionsOnTotalSpacesAreSectionsOfFunctionBundle} is definite on $\mathbf{c}$ in the sense of def. \ref{DefiniteSection}.
+
+=--
+
+
