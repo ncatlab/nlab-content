@@ -19,6 +19,7 @@ A method for computing [[scattering amplitudes]] in [[QFT]] and in [[string theo
 
 ## Related entries
 
+* [[shell]]
 * [[string theory results applied elsewhere]]
 
 ## References
