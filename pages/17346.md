@@ -414,7 +414,7 @@ $$
     \mathcal{D}
     &\stackrel{i}{\longrightarrow}&
     \mathcal{D}
-fto     \\
+    \\
     & {}_{\mathllap{k}}\nwarrow & \downarrow^{\mathrlap{j}}
     \\
     && \mathcal{E}
