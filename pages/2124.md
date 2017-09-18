@@ -253,7 +253,11 @@ Specifically for $1/2^n$-BPS states of intersecting [[M-branes]] in 11d there is
 
 see also 
 
+* [[Jerome Gauntlett]], _Intersecting Branes_ ([hep-th/9705011](https://arxiv.org/abs/hep-th/9705011))
+
 * [[Igor Bandos]], [[Jose de Azcarraga]], Jose Izquierdo, Jerzy Lukierski, _BPS states in M-theory and twistorial constituents_, Phys.Rev.Lett.86:4451-4454,2001 ([arXiv:hep-th/0101113](https://arxiv.org/abs/hep-th/0101113))
+
+
 
 Discussion in the context of multiple [[M2-branes]] in the  [[BLG model]] is in
 
