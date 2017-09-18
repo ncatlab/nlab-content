@@ -5,7 +5,7 @@ Of course, classically any subsingleton is either [[empty set|empty]] or a [[sin
 +-- {: .num_remark}
 ###### Remark
 
-Sometimes a slightly different convention is used: There what we call subsingletons are called **subterminals**, and a subset $B$ of $A$ is a *subsingleton* if and only if there exists an element $a \in A$ such that every element of $B$ is equal to $a$. With this nomenclature, any subsingleton is a subterminal, but the converse doesn't hold in general. (See _[[flabby sheaf]]_ for a class of examples where the converse does hold.)
+Sometimes a slightly different convention is used: There what we call subsingletons are called **[[subterminal object|subterminals]]**, and a subset $B$ of $A$ is a *subsingleton* if and only if there exists an element $a \in A$ such that every element of $B$ is equal to $a$. With this nomenclature, any subsingleton is a subterminal, but the converse doesn't hold in general. (See _[[flabby sheaf]]_ for a class of examples where the converse does hold.)
 
 =--
 
