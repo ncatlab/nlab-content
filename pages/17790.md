@@ -78,6 +78,8 @@ More abstractly this means that the [[tensor product of vector spaces]] is the v
 
 ## Related concepts
 
+* [[tensor product of vector bundles]]
+
 * [[graded vector space]]
 
 [[!redirects tensor products of vector spaces]]
