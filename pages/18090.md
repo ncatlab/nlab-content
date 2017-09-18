@@ -47,7 +47,7 @@ abstract concept of "continuous space", this is the concept of _[[topological sp
 Topology is the study if the [[category]] of [[topological spaces]].
 
 
-#### Via epsilontic
+#### Via epsilontic analysis
 
 First recall the basic concepts from [[analysis]]:
 
@@ -71,34 +71,6 @@ such that for all $x,y,z \in X$:
 
 =--
 
-A key source of metric spaces are [[norm|normed]] _[[vector spaces]]_:
-
-+-- {: .num_defn #NormedVectorSpace}
-###### Dedfinition
-**(normed vector space)**
-
-A _[[normed vector space]]_ is
-
-1. [[real vector space]] $V$;
-
-1. a [[function]] (the _[[norm]]_)
-
-   $$
-     {\vert -\vert} \colon V \longrightarrow \mathbb{R}
-   $$
-
-   from the underlying [[set]] of $V$ to the [[real numbers]],
-
-such that for all $c \in \mathbb{R}$, $v , w \in V$ it holds true that
-
-1. (linearity) ${\vert c v\vert} = c {\vert v\vert }$;
-
-1. ([[triangle inequality]]) ${\vert v+w} \leq {\vert v\vert } + {\vert w\vert}$;
-
-1. (non-degenracy) if ${\vert v\vert} = 0$ then $v = 0$.
-
-=--
-
 +-- {: .num_defn #OpenBalls}
 ###### Definition
 
@@ -117,21 +89,51 @@ for the [[open ball]] of [[radius]] $\epsilon$ around $x$.
 =--
 
 
+A key source of metric spaces are [[norm|normed]] _[[vector spaces]]_:
+
++-- {: .num_defn #NormedVectorSpace}
+###### Dedfinition
+**(normed vector space)**
+
+A _[[normed vector space]]_ is
+
+1. [[real vector space]] $V$;
+
+1. a [[function]] (the _[[norm]]_)
+
+   $$
+     {\Vert - \Vert} \colon V \longrightarrow \mathbb{R}
+   $$
+
+   from the underlying [[set]] of $V$ to the [[real numbers]],
+
+such that for all $c \in \mathbb{R}$, $v , w \in V$ it holds true that
+
+1. (linearity) ${\Vert c v \Vert} = c {\Vert v \Vert }$;
+
+1. ([[triangle inequality]]) ${\Vert v+w \Vert} \leq {\Vert v \Vert } + {\Vert w \Vert}$;
+
+1. (non-degenracy) if ${\Vert v \Vert} = 0$ then $v = 0$.
+
+=--
+
+
+
 +-- {: .num_prop #MetricSpaceFromNormedVectorSpace}
 ###### Proposition
 
-Every [[normed vector space]] $(V, {\vert - \vert})$
+Every [[normed vector space]] $(V, {\Vert - \Vert})$
 becomes a [[metric space]] according to def. \ref{MetricSpace} by setting
 
 $$
-  d(x,y) \coloneqq {\vert x-y \vert}
+  d(x,y) \coloneqq {\Vert x-y \Vert}
   \,.
 $$
 
 =--
 
-Examples of normed vector spaces (def. \ref{NormedVectorSpace}) and hence, via prop. \ref{MetricSpaceFromNormedVectorSpace},
-of metric spaces include the following:
+Examples of [[normed vector spaces]] (def. \ref{NormedVectorSpace}) and hence, via prop. \ref{MetricSpaceFromNormedVectorSpace},
+of [[metric spaces]] include the following:
 
 +-- {: .num_example }
 ###### Example
@@ -153,7 +155,7 @@ $$
 carries a [[norm]] (the _Euclidean norm_ ) given by the [[square root]] of the [[sum]] of the [[squares]] of the components:
 
    $$
-     \vert \vec x\vert
+     \Vert \vec x \Vert
        \;\coloneqq\;
      \sqrt{
      \underoverset{i = 1}{n}{\sum}
@@ -167,13 +169,17 @@ carries a [[norm]] (the _Euclidean norm_ ) given by the [[square root]] of the [
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Vector-p-Norms_qtl1.svg/220px-Vector-p-Norms_qtl1.svg.png" width="200">
 </div>
 
-More generally, for $n \in \mathbb{N}$, and $p \in \mathbb{N}$, $p \geq 1$, then the [[Cartesian space]] $\mathbb{R}^n$ carries the [[p-norm]]
+More generally, for $n \in \mathbb{N}$, and $p \in \mathbb{N}$, $p \geq 1$, then the [[Cartesian space]] $\mathbb{R}^n$ carries the _[[p-norm]]_
 
    $$
-     {\vert \vec x \vert}_p  \coloneqq \root p {\sum_i {|x_i|^p}}
+     {\Vert \vec x \Vert}_p  \coloneqq \root p {\sum_i {|x_i|^p}}
    $$
 
 The graphics on the right (grabbed from Wikipedia) shows unit circles in $\mathbb{R}^2$ with respect to various [[p-norms]].
+
+By the [[Minkowski inequality]], 
+the [[p-norm]] generalizes to non-[[finite dimensional vector spaces]] such as [[sequence spaces]] and [[Lebesgue spaces]].
+
 
 =--
 
@@ -407,13 +413,13 @@ Stated more concisely: the [[open balls]] in a metric space constitute a "[[basi
 ###### Definition
 
 Let $(X, \tau)$ be a [[topological space]], def. \ref{TopologicalSpace},
-and let 
+and let
 
 $$
   B \subset \tau
-$$ 
+$$
 
-be a [[subset]] of its set of [[open subsets]]. We say that 
+be a [[subset]] of its set of [[open subsets]]. We say that
 
 1. $B$ is a _[[topological base|basis for the topology]]_ if every open subset $O \in \tau$ is a [[union]] of elements of $B$;
 
@@ -422,7 +428,7 @@ be a [[subset]] of its set of [[open subsets]]. We say that
 
 =--
 
-Often it is convenient to define topologies by defining some (sub-)basis. An example is the definition of the 
+Often it is convenient to define topologies by defining some (sub-)basis. An example is the definition of the
 [[compact-open topology]] on [[mapping spaces]] below in def. \ref{CompactOpenTopology}.
 
 #### Homeomorphism
@@ -905,7 +911,7 @@ $$
 
 One point of the general definition of "[[topological space]]" is that it admits constructions which intuitively should exist on "continuous spaces", but which do not in general exist, for instance, as metric spaces.
 
-We discuss [[universal constructions]] in [[Top]], such as [[limits]]/[[colimits]], etc. 
+We discuss [[universal constructions]] in [[Top]], such as [[limits]]/[[colimits]], etc.
 
 +-- {: .num_defn #InitialAndFinalTopologies}
 ###### Definition
