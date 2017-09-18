@@ -43,11 +43,11 @@ applying the isomorphism $[n+1] \cong [[n],[1]]$ together with [[currying]].
 
 ### Relation to zeta function
 
-Using the formalism of [[incidence algebras]], the zeta polynomial has a simple expression in terms of the _zeta function_ (defined by $\zeta_P(x,y) = 1$ if $x\le y$ and $\zeta_P(x,y) = 0$ otherwise):
+Using the formalism of [[incidence algebras]], the zeta polynomial has a simple expression in terms of the _zeta function_ of $P$ (defined by $\zeta_P(x,y) = 1$ if $x\le y$ and $\zeta_P(x,y) = 0$ otherwise):
 $$Z(P;n) = \sum_{x,y\in P} \zeta_P^n(x,y)$$
-In other words, the zeta polynomial is the sum of the entries in the $n$-fold convolution product of the zeta function (seen as a matrix). This follows immediately from the definition of the convolution product,
+where $\zeta_P^n$ is the $n$-fold convolution product of $\zeta_P$. (In other words, if we view the zeta function as a square matrix, then the zeta polynomial is the sum of the entries in its $n$-fold matrix product.) This follows immediately from the definition of the convolution product,
 $$(f\cdot g)(x,y) = \sum_{x \le z \le y} f(x,z) \cdot g(z,y)$$
-since $\zeta_P^n(x,y)$ is just the number of multichains of length $n$ in $P$ from $x$ to $y$.
+since $\zeta_P^n(x,y)$ computes the number of multichains of length $n$ in $P$ from $x$ to $y$.
  
 As a special case, if $P$ has both a [[bottom]] element 0 and a [[top]] element 1, then
 $$Z(P;n) = \zeta_P^{n+2}(0,1)$$
