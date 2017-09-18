@@ -158,6 +158,8 @@ The [[p-localization]] of $MU$ decomoses into the
 
 ## Related concepts
 
+* [[Thom spectrum]]
+
 * [[equivariant complex cobordism cohomology theory]]
 
 * [[cobordism theory determining homology theory]]
@@ -201,6 +203,7 @@ Lecture notes include
 
 * {#Hopkins99} [[Mike Hopkins]], section 4 of _Complex oriented cohomology theories and the language of stacks_, course notes 1999 ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/coctalos.pdf))
 
+* {#Ebert12} [[Johannes Ebert]], _A lecture course on Cobordism Theory_, 2012 ([pdf](http://wwwmath.uni-muenster.de/u/jeber_02/skripten/bordism-skript.pdf))
 
 * {#Schwede12} [[Stefan Schwede]], Example I.2.8 in _Symmetric spectra_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec.pdf))
 
