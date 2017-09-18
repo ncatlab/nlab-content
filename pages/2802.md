@@ -72,6 +72,7 @@ Section 4.2.1 of
 
 * [[Jacob Lurie]], _[[Higher Algebra]]_
  {#Lurie}
+* [[David Gepner]], [[Rune Haugseng]], _Enriched ∞-categories via non-symmetric ∞-operads_, [arXiv:1312.3178](https://arxiv.org/abs/1312.3178)
 
 ## Discussion
 
