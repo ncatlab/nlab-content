@@ -1,0 +1,11 @@
+
+
+* [webpage](http://www.ugr.es/~bjanssen/)
+
+## related $n$Lab entries
+
+* [[M-brane]]
+
+* [[brane intersection]]
+
+category: people
