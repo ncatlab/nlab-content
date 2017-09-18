@@ -219,4 +219,9 @@ There is also a duality in the _description_ of physics:
 
 [[!include Isbell duality - table]]
 
+## References
+
+* {#Polchinski14} [[Joseph Polchinski]], _Dualities_ ([arXiv:1412.5704](http://arxiv.org/abs/1412.5704))
+
+
 [[!redirects dualities in physics]]
