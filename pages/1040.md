@@ -108,7 +108,12 @@ Equivalences (resp. cores) in an allegory are precisely those symmetric idempote
 
 =--
 
-([[Sketches of an Elephant|Johnstone, B 1.1.9, p.248-249]])
++-- {: .num_remark}
+###### Remark
+From (5.) it follows that the Eilenberg-Moore and the Kleisli categories coincide for an idempotent monad.[^Street]
+=--
+
+[^Street]: This is pointed out by [[Ross Street]] e.g. [here](http://permalink.gmane.org/gmane.science.mathematics.categories/3908).
 
 ## Properties
  {#Properties}
