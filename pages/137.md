@@ -13,42 +13,87 @@
 * table of contents
 {:toc}
 
+## Idea
+
+In [[category theory]] concept of _epimorphism_ is a generalization or strengthening of the concept of _[[surjective functions]]_ between [[sets]] (example \ref{EpimorphismsOfSets} below).
+
+The [[formal duality|formally dual concept]] is that of _[[monomorphism]]_, similarly related to the concept of [[injective function]].
+
 ## Definition
 
-An **epimorphism** in a [[category]] $C$ is a [[morphism]] 
-$f : X \to Y$ 
-such that every contravariant [[hom-functor]] $Hom(-,Z)$ sends it to an [[injection]]
+A [[morphism]]  $f \colon X \to Y$ in some [[category]] is called an _epimorphism_ if for every other [[object]] $Z$ and every [[pair of parallel morphisms]] $g_1,g_2 \colon Y \to Z$ then 
+
 $$
-  \forall Z \in C : \;
-  Hom(Y,Z) \stackrel{f^*}{\hookrightarrow} 
-  Hom(X,Z)
+  \left(
+    g_1\circ f
+    \,=\,
+    g_2 \circ f
+  \right)
+  \;\Rightarrow\;
+  \left(
+    g_1 = g_2
+  \right)
   \,.
 $$
 
-In more elementary terms, $f: X \to Y$ is an epimorphism if, given any $g, h: Y \to Z$, such that the composites $\stackrel{f}{\to} \stackrel{g}{\to} = \stackrel{f}{\to} \stackrel{h}{\to}$ are equal, then already $g = h$:
+Stated more abstractly, this says that $f$ is an epimorphism precisely if for every object $Z$ the [[hom-functor]] $Hom(-,Z)$ sends it to an [[injective function]] 
+
 $$
-\left(\array{
-  &              & Y \\
-  & \nearrow_{f} &   & \searrow^{g} \\
-X &              &   &              & Z \\
-  & \searrow^{f} &   & \nearrow_{h} \\
-  &              & Y \\
-} 
-\right)
-\quad\quad \Rightarrow \quad\quad 
-\left(\array{
-   X 
-     & \overset{f}{\longrightarrow} & 
-   Y 
-     & \underoverset{h}{g}{\rightrightarrows}
-     & 
-   Z \\
-}\right)
+  Hom(Y,Z) 
+   \stackrel{f^*}{\hookrightarrow} 
+  Hom(X,Z)
 $$
+
+between [[hom-sets]]. Since injective functions are the [[monomorphisms]] in [[Set]] (example \ref{EpimorphismsOfSets} below) this means that $f$ is an epimorphism precisely if $Hom(f,Z)$ is a monomorphsm for all $Z$.
+
+Finally, this means that $f$ is an epimorphism in a [[category]] $\mathcal{C}$ precisely if it is a [[monomorphism]] in the [[opposite category]] $\mathcal{C}^{op}$.
 
 ## Examples
 
-The epimorphisms in [[Set]] are the [[surjection|surjective]] functions; thus epimorphisms can be thought of as a categorical notion of surjection.  However, this is frequently not quite right: in categories of sets with [[stuff, structure, property|extra structure]], epimorphisms need not be surjective (unlike the case for [[monomorphism]]s, which are usually injective).  Often, though, the surjections correspond to a stronger notion of epimorphism.
++-- {: .num_example #EpimorphismsOfSets}
+###### Example
+**(epimorphisms of sets)**
+
+The epimorphisms in the category [[Set]] of [[sets]] are precisely the [[surjective functions]]. 
+
+=--
+
+Thus the concept of epimorphism may be thought of as a category-theoretic generalization of the concept of surjection.  
+
+But beware that in categories of sets with [[extra structure]], epimorphisms need not be surjective (in contrast to [[monomorphisms]], which are usually [[injective]]).  
+
++-- {: .num_example #EpimorphismsOfRings}
+###### Example
+**(epimorphisms of rings)**
+
+In the categories [[Ring]] or [[CRing]] of ([[commutative ring|commutative]]) [[rings]] and [[ring homomorphisms]] between them, then very surjective ring homomorphisms is an epimorphism, but not every epimorphism is surjective. 
+
+A counterexample is the defining inclusion $\mathbb{Z} \hookrightarrow \mathbb{Q}$ of the ring of [[integers]] into the ring of [[rational numbers]]. This is an injective epimorphism of rings.
+
+For more see for instance at [[Stacks Project]], _[10.106 Epimorphisms of rings](http://stacks.math.columbia.edu/tag/04VM)_.
+
+=--
+
+Often, though, the surjections correspond to a stronger notion of epimorphism.
+
++-- {: .num_example}
+###### Example
+
+Every [[isomorphism]] is both an epimorphism and a [[monomorphism]].
+
+=--
+
+But beware that the converse fails:
+
++-- {: .num_example}
+###### Example
+
+A morphism that is both an epimorphism and a [[monomorphism]] need not be an [[isomorphism]].
+
+For instance in the categories [[Ring]] or [[CRing]] as in example \ref{EpimorphismsOfRings}, then the defining inclusion $\mathbb{Z} \hookrightarrow \mathbb{Q}$ of the ring of [[integers]] into that of [[rational numbers]] is both a monomorphism and an epimorphism, but clearly not an isomorphism.
+
+=--
+
 
 ## Properties
 
