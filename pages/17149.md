@@ -22,9 +22,9 @@ This page collects links related to
   Chicago Lectures in mathematics, 1974
 
 
-on [[complex cobordism cohomology theory|complex]] [[cobordism theory]], [[complex oriented cohomology theory]], and the [[Adams spectral sequence]]/[[Adams-Novikov spectral sequence]].
+on [[stable homotopy theory]] and [[generalised homology]] theory, with emphasis on [[complex cobordism cohomology theory|complex]] [[cobordism theory]], [[complex oriented cohomology theory]], and the [[Adams spectral sequence]]/[[Adams-Novikov spectral sequence]] (today: "[[chromatic homotopy theory]]").
 
-Consists of three lectures, each meant to be readable on its own, and there is overlap in topics. It's part III that begins with an actual introduction to stable homotopy theory, and the so the beginner might prefer to start reading with Part III.
+Consists of three lectures, each meant to be readable on their own, and there is overlap in topics. It's part III that begins with an actual introduction to stable homotopy theory, and the so the beginner might prefer to start reading with Part III. Also notice that on p. 87 it says that the material there in part II is to be regarded as superseding part I.
 
 The big story emerging here was later further developed in
 
