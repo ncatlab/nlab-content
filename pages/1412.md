@@ -285,7 +285,7 @@ space which matter so much, but they way they hang together.
   
 * So if we are being careful, we should recognize that two sheaves  $X : S^{op} \to Top$ and $Y : S^{op} \to Top$ must characterize essentially the same generalized space if there is a rule $f : X \to Y$ for turning for each test space $U$, probes of $X$ into probes of $Y$, $f_U : X(U) \to Y(U)$, as before, such that for _sufficiently small_ $U$ this comparison map of
   probe spaces does not change the homotopy groups, i.e. so that
-  all induced homomorphism $\pi_n(f_U, x) : \pi_n(X(U)) \to \pi_n(X(V), f_U(x))$ of [[homotopy group]]s are isomorphisms of groups. One says that such $f_U$ is a [[weak homotopy equivalence]].
+  all induced homomorphism $\pi_n(f_U) : \pi_n(X(U), x) \to \pi_n(Y(U), f_U(x))$ of [[homotopy group]]s are isomorphisms of groups. One says that such $f_U$ is a [[weak homotopy equivalence]].
   
 * If a comparison map $f : X \to Y$ exists with these properties (for small enough $U$, recall), then one says that our generalized spaces $X$ and $Y$ defined by these sheaves are _weakly equivalent_ or [[quasi-isomorphism|quasi-isomorphic]].
   
