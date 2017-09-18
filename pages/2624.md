@@ -10,7 +10,7 @@ A _short map_ is a well-behaved sort of [[morphism]] of [[metric spaces]] (or a 
 
 ## Definition
 
-A [[function]] $f\colon X \to Y$ is __short__ if $d(f(a),f(b)) \leq e(a,b)$ for every $a,b \in X$.  Here $d$ and $e$ are (repsectively) the [[metrics]] (or generalisations of metrics) on $X$ and $Y$.  If $X$ and $Y$ are (or may be) [[gauge spaces]] and so have several (pseudo)metrics on them, then we require that, for every gauging distance $d$ on $X$, there exists a gauging distance $e$ on $Y$ such that the above inequality holds for all $a$ and $b$.
+A [[function]] $f\colon X \to Y$ is __short__ if $d(f(a),f(b)) \leq e(a,b)$ for every $a,b \in X$.  Here $d$ and $e$ are (respectively) the [[metrics]] (or generalisations of metrics) on $X$ and $Y$.  If $X$ and $Y$ are (or may be) [[gauge spaces]] and so have several (pseudo)metrics on them, then we require that, for every gauging distance $d$ on $X$, there exists a gauging distance $e$ on $Y$ such that the above inequality holds for all $a$ and $b$.
 
 
 ## The category of metric spaces
