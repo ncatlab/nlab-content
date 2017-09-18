@@ -29,9 +29,18 @@ X &                    &          &                   & Y
 } $$
 Such a span is a relation iff the pairing map from the **domain** $\Delta_r$ to $X \times Y$ is an [[injection]], and such a relation is functional iff the **inclusion** map $\iota_r$ is also an injection. Such a relation is entire iff the inclusion map $\iota_r$ is a [[surjection]]. 
 
-(Total) functions can be characterized as the left adjoints in the bicategory of relations, in other words relations $r: X \to Y$ in $Rel$ for which there exists $s: Y \to X$ satisfying 
+(Total) functions are precisely left adjoints in the bicategory of relations, in other words relations $r: X \to Y$ in $Rel$ for which there exists $s: Y \to X$ satisfying 
 
-$$r \circ s \leq 1_Y; \qquad 1_X \leq s \circ r$$ 
+$$r \circ s \leq 1_Y; \qquad 1_X \leq s \circ r.$$ 
+
+For if a relation $r: X \to Y$ is a function, then 
+
+1. $r r^{op} \leq 1_Y$: this just says that if $r^{op}(y, x)$ and $r(x, y')$, then $y = y'$. Equivalently, if $r(x, y)$ and $r(x, y')$ then $y = y'$: this holds precisely because $r$ is functional or well-defined. 
+
+1. $1_X \leq r^{op} r$: this says that if $x = x'$, then there exists $y$ such that $r(x, y)$ and $r^{op}(y, x')$, i.e., there exists $y$ such that $r(x, y)$ and $r(x', y)$. This holds precisely because a function is an entire relation. 
+
+On the other hand, suppose $r: X \to Y$ is a left adjoint. (...) 
+
 
 in which case it may be proven that $s = r^{op}$. A relation is functional if and only if $r \circ r^{op} \leq 1_Y$, and is entire if and only if $1_X \leq r^{op} \circ r$. 
 
