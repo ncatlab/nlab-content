@@ -37,8 +37,10 @@ The [[philosophy]] of [[physics]].
 
 * Wikipedia, _[Philosophy of physics](http://en.wikipedia.org/wiki/Philosophy_of_physics)_
 
-* [[Jeremy Butterfield]], _[Philosophy of physics: a short reading list](http://www.hps.cam.ac.uk/research/pp.html)_
-  {##ButterfieldList}
+* [[Georg Hegel]], _[[Philosophy of Nature]]_
+
+* {#ButterfieldList} [[Jeremy Butterfield]], _[Philosophy of physics: a short reading list](http://www.hps.cam.ac.uk/research/pp.html)_
+  
 
 * [[Lawrence Sklar]], _Philosophy of Physics_, Oxford University Press (1992)
 
