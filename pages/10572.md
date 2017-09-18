@@ -36,6 +36,8 @@ to flatness. The [[Weyl tensor]] is the specific instance of $\kappa_H$ in confo
 
 ## Related concepts
 
+* [[tractor bundle]]
+
 * [[Schubert calculus]]
 
 * [[twistor space]]
