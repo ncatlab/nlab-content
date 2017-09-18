@@ -375,7 +375,7 @@ $$
   \,.
 $$
 
-Since by prop. \ref{OrdinaryCohomologyOfComplexProjectiveSpace} the [[ordinary cohomology]] with [[integer]] [[coefficients]] of projective space is 
+Since, by prop. \ref{OrdinaryCohomologyOfComplexProjectiveSpace}, the [[ordinary cohomology]] with [[integer]] [[coefficients]] of projective space is 
 
 $$
   H^\bullet(\mathbb{C}P^n, \mathbb{Z}) \simeq \mathbb{Z}[c_1]
@@ -408,13 +408,46 @@ The same argument applied to all elements in $E^\bullet(\ast)[c]$, or else the $
 Since the AHSS of a multiplicative cohomology theory is a [[multiplicative spectral sequence]] ([prop.](multiplicative+cohomology+theory#AHSSForMultiplicativeCohomologyTheoryIsMultiplicative)) this implies that the differentials in fact vanish on all elements of $E^\bullet(\ast) [c_1] / (c_1^{n+1})$, hence that the given AHSS collapses on the second page to give
 
 $$
-  E^\bullet(\mathbb{C}P^n)
+  \mathcal{E}_\infty^{\bullet,\bullet}
   \simeq
   E^\bullet(\ast)[ c_1^{E} ] / ((c_1^E)^{n+1})
+$$
+
+or in more detail:
+
+$$
+  \mathcal{E}_\infty^{p,\bullet}
+  \simeq
+  \left\{
+    \array{
+      E^\bullet(\ast) & \text{if}\; p \leq  2n \; and\; even
+      \\
+      0 & otherwise
+    }
+  \right.
   \,.
 $$
 
-This also implies that the projection maps
+Moreover, since therefore all $\mathcal{E}_\infty^{p,\bullet}$ are [[free modules]] over $E^\bullet(\ast)$, and since the filter stage inclusions $F^{p+1} E^\bullet(X) \hookrightarrow F^{p}E^\bullet(X)$ are $E^\bullet(\ast)$-[[module]] homomorphisms ([prop.](multiplicative+cohomology+theory#RingAndModuleStructureOnCohomologyGroupsOfMultiplicativeCohomplogyTheory)) the [extension problem](spectral+sequence#ExtensionProblem) trivializes, in that all the [[short exact sequences]]
+
+$$
+  0 \to F^{p+1}E^{p+\bullet}(X) \longrightarrow F^{p}E^{p+\bullet}(X) \longrightarrow \mathcal{E}_\infty^{p,\bullet} \to 0
+$$
+
+[[split exact sequence|split]] (since the [[Ext]]-group $Ext^1_{E^\bullet(\ast)}(\mathcal{E}_\infty^{p,\bullet},-) = 0$ vanishes on the [[free module]], hence [[projective module]] $\mathcal{E}_\infty^{p,\bullet}$).
+
+In conclusion, this gives an isomorphism of graded rings
+
+$$
+  E^\bullet(\mathbb{C}P^n)
+  \simeq
+  \underset{p}{\oplus} \mathcal{E}_\infty^{p,\bullet}
+  \simeq
+  E^\bullet(\ast)[ c_1 ] / ((c_1^{E})^{n+1})
+  \,.
+$$
+
+A first consequence is that the projection maps
 
 $$
   E^\bullet((\mathbb{C}P^\infty)_{2n+2})
