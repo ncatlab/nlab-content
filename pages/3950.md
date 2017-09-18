@@ -24,7 +24,7 @@ The idea is to identify a profunctor with its [[collage]], aka its [[cograph of 
 
 ## Definition
 
-Suppose that $K$ is a 2-category with finite [[2-colimits]], and $A,C\in K$.  A **cofibration** from $A$ to $C$ is a [[cospan]] $A\to B \leftarrow C$ which is an [[two-sided fibration|internal two-sided fibration]] in $K^{op}$.  As remarked at [[fibration in a 2-category]], there is a [[2-monad]] on $Span_{K^{op}}(A,C)$ whose algebras are such fibrations.  In other words, there is a *2-comonad* on $Cospan_K(A,C)$ whose *coalgebras* are such fibrations.  This 2-comonad is defined by 
+Suppose that $K$ is a 2-category with finite [[2-colimits]], and $A,C\in K$.  A [[cofibration]] from $A$ to $C$ is a [[cospan]] $A\to B \leftarrow C$ which is an [[two-sided fibration|internal two-sided fibration]] in $K^{op}$.  As remarked at [[fibration in a 2-category]], there is a [[2-monad]] on $Span_{K^{op}}(A,C)$ whose algebras are such fibrations.  In other words, there is a *2-comonad* on $Cospan_K(A,C)$ whose *coalgebras* are such fibrations.  This 2-comonad is defined by 
 $$ (A\to B \leftarrow C) \quad \mapsto\quad (A \to (A\times I) +_A B +_C (C\times I) \leftarrow C) $$
 where $I$ is the [[interval category]] $(0\to 1)$ and $(-\times I)$ denotes the [[copower]] with $I$.  In the pushouts, the map $A\to A\times I$ is the inclusion at $0$ and $C\to C\times I$ is the inclusion at $1$.
 
