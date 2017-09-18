@@ -133,7 +133,7 @@ The condition $\Box _j\lozenge _i=\lozenge _i$ amounts to saying that any i-skel
 
 ### Becoming
 
-**From Faust's study**
+#### From Faust's study
 
 In the context of a **category of being**, aka a (sufficiently) [[cohesive topos]], which has a connected [[subobject classifier]] $\Omega$ and product preserving components functor $\Pi _0$,  there is an opposition $\empty\dashv *$ between _non being_ and _pure being_ whose Aufhebung is the opposition $\flat\dashv \sharp$ ([[flat modality]] $\dashv$ [[sharp modality]]) between _non-becoming_ vs. _pure becoming_ (cf. Lawvere 1989a,1989b, 1991).
 
@@ -144,6 +144,72 @@ Following Lawvere's suggestive terminology and identifying a level with its shea
 The former seems to be somewhat more consequently, as the Aufhebungs relation expresses precisely that the (positive) sheaf part of the higher level $j$ subsumes (the opposition between) the skeleton and the sheaf part of the lower level in a universal way - it is the smallest context in which negative and positive poles of the lower level can positively coexist. To elaborate this intuition somewhat, it is the minimal way to turn the negative part into a positive part yet retaining the positivity of its positive opposite.
 
 For more on the relevant _metaphysical_ modalities see at [[adjoint modality]].
+
+#### Formalization
+ {#ExamplesBecomingFormalization}
+
++-- {: .num_prop #AufhebungOfBecomingMeansOnlyInitialObjectHasNoGlobalPoints}
+###### Proposition
+
+Given a [[topos]] equipped with an [[adjoint modality]] $\flat \dashv \sharp$, then the condition $\sharp \emptyset \simeq \emptyset$ is equivalent to $(\flat X \simeq \emptyset) \Leftrightarrow (X \simeq \emptyset)$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+In a topos the [[initial object]] $\emptyset$ is a [[strict initial object]], and hence $(X \simeq \emptyset) \simeq (X \to \emptyset)$.
+
+In one direction, assuming $\sharp \emptyset \simeq \emptyset$ then
+
+$$
+  \begin{aligned}
+    (X \simeq \emptyset)
+    & \simeq
+    (X \to \emptyset)
+    \\
+    & \simeq (X \to \sharp \emptyset)
+    \\
+    & \simeq (\flat X \to \emptyset)
+    \\
+    & \simeq (\flat X \simeq \emptyset)
+  \end{aligned}
+  \,.
+$$
+
+Conversely, assume that $(\flat X \simeq \emptyset) \Leftrightarrow (X \simeq \emptyset)$. Then for all $X$
+
+$$
+  \begin{aligned}
+    (X\to \emptyset)
+    & \simeq
+    (X\simeq \emptyset)
+   \\
+    & \simeq (\flat X \simeq \emptyset)
+    \\
+    & \simeq (\flat X \to \emptyset)
+    \\
+    & \simeq (X\to \sharp \emptyset)
+  \end{aligned}
+$$
+
+and hence by the [[Yoneda lemma]] $\emptyset \simeq \sharp \emptyset$.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+Let $\mathcal{S}$ be an [[∞-cohesive site]] and $\mathbf{H} = Sh_\infty(S)$ its [[cohesive (∞,1)-topos]]. Then in $\mathbf{H}$ we have $\sharp \emptyset \simeq \emptyset$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By assumption $\mathcal{S}$ has a [[terminal object]] $\ast$ so that $\flat X \simeq X(\ast)$. Moreover by assumption, for every object $U\in \mathcal{S}$ there exists a morphism $i \colon \ast \to U$ hence for every $X\in \mathbf{H}$ and every $U$ there exists a morphism $i^\ast \colon X(U)\to \flat X$. This means that if $\flat X \simeq \emptyset$ then $X(U) \simeq \emptyset$ for all $U \in \mathcal{S}$ and hence $X\simeq \emptyset$. From this the claim follows with prop. \ref{AufhebungOfBecomingMeansOnlyInitialObjectHasNoGlobalPoints}.
+
+=--
 
 ### Simplicial and cubical sets
  {#SimplicialAndCubicalSets}
