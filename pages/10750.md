@@ -4101,12 +4101,14 @@ $$
   \,.
 $$
 
-The structure maps of $X \wedge Y$ are those induced under the coequalizer by
+Finally The structure maps of $X \wedge Y$ are those induced under the coequalizer by
 
 $$
-  X_p \wedge Y_q \wedge S^1
-    \overset{id \wedge \sigma_{p}}{\longrightarrow}
-  X_{p} \wedge Y_{q+1}
+  S^1 \wedge (X_p \wedge Y_q \wedge)
+  \simeq
+  (S^1 \wedge X_p) \wedge Y_q
+    \overset{\sigma^X_{p} \wedge id}{\longrightarrow}
+  X_{p+1} \wedge Y_{q}
   \,.
 $$
 
@@ -4283,6 +4285,11 @@ $$
   \end{aligned}
   \,.
 $$
+
+This last expression is the function on morphisms which precomposes components under the coend with the braiding $\tau_{X_{n_1}, S^{n_2} }^{Top^{\ast/}_{cg}}$ in topological spaces and postcomposes them with the image of the functor $X$ of the braiding in $Sym$. But the braiding in $Sym$ is, by def. \ref{TopologicalDiagramCategoriesForSpectra}, given by the respective shuffle permutations $\tau^{sym}_{n_1,n_2} = \chi_{n_1,n_2}$, and by prop. \ref{DiagramSpectraGiveSymmetricAndOrthogonalSpectra} the image of these under $X$ is via the given $\Sigma_{n_1+n_2}$-action on $X_{n_1+n-2}$.
+
+Finally to see that the structure map is as claimed: By prop. \ref{DiagramSpectraGiveSymmetricAndOrthogonalSpectra} the structure morphisms are the degree-1 components of the $\mathbb{S}_{sym}$-action, and by prop. \ref{TensorProductOfModulesOverCommutativeMonoidObject} the $\mathbb{S}_{sym}$-action on a tensor product of $\mathbb{S}_{sym}$-modules is induced via the action on the left tensor factor.
+
 
 =--
 
@@ -4599,7 +4606,7 @@ for the resulting category of symmetric (orthogonal) $E$-module spectra.
 +-- {: .num_prop #ModuleSpectraAreModuleFunctors}
 ###### Proposition
 
-Under the identification from prop. \ref{RingSpectraAreDayMonoids} of [[commutative ring spectra]] with [[monoids in a symmetric monoidal category|monoids with respect to]] the [[symmetric monoidal smash product of spectra]], the $E$-[[module spectra]] of def. \ref{SymmetricModuleSpectrum} are equivalently the left [[module objects]] (def. \ref{ModulesInMonoidalCategory}) over the respective monoids, i.e. there are [[equivalences of categories]]
+Under the identification from prop. \ref{RingSpectraAreDayMonoids} of [[commutative ring spectra]] with [[commutative monoids in a symmetric monoidal category|commutative monoids with respect to]] the [[symmetric monoidal smash product of spectra]], the $E$-[[module spectra]] of def. \ref{SymmetricModuleSpectrum} are equivalently the left [[module objects]] (def. \ref{ModulesInMonoidalCategory}) over the respective monoids, i.e. there are [[equivalences of categories]]
 
 $$
   E Mod(SymSpec(Top_{cg}))
