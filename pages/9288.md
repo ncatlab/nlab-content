@@ -2,7 +2,7 @@
 
 > This entry contains one chapter of _[[geometry of physics]]_. See there for background and context.
 
-> previous chapter: _[[geometry of physics -- representations and associated bundles|representations and associated bundles]]_
+> previous chapters: _[[geometry of physics -- representations and associated bundles|representations and associated bundles]]_, _[[geometry of physics -- stable homotopy types|stable homotopy types]]_
 
 > next chapters: _[[geometry of physics -- geometric quantization with KU-coefficients|geometric quantization with KU-coefficients]]_
 
@@ -17,6 +17,7 @@
 In the [previous section](geometry+of+physics#AssociatedNBundle) we have seen [[∞-actions]] of [[∞-groups]] on objects in the ambient [[(∞,1)-topos]]. Here we specialize this to an important class of cases and then generalize from [[∞-actions]] to $(\infty,n)$-actions for $n \in \mathbb{N}$. That special case is the one where all objects involved are required to be equipped with _additive structure_ (in generalization of the sense in which [[abelian groups]] are additive) and where all actions are _linear_ (in generalization of the sense of abelian group [[homomorphisms]], hence  [[linear functions]]). Moreover, we equip groups with additional (linear) monoidal structure such as to become higher analogs of [[rings]]. Linear [[actions]] of a [[ring]] are called _[[modules]]_ and hence here we discuss modules and their higher analogs.
 
 Notice the different role of the "$(r,n)$" index:
+
 | $(r,n)$-ring | presentation  |
 |--|--|
 | [[ring]] = 1-ring = $(1,1)$-ring |  compatibly monoidal [[abelian group]] |
