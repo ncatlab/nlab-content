@@ -20,7 +20,13 @@
 
 ## Definition 
 
-A **split idempotent** in a [[category]] $C$ is a [[morphism]] $e: A \to A$ which has a [[retract]], meaning an [[object]] $B$ and morphisms $r: A \to B$ and $s: B \to A$ such that $s \circ r = e$ but $r \circ s = 1_B$.
+A **split idempotent** in a [[category]] $C$ is a [[morphism]] $e: A \to A$ which has a [[retract]], meaning an [[object]] $B$ and morphisms $r: A \to B$ and $s: B \to A$ such that $s \circ r = e$ but $r \circ s = 1_B$. 
+
+In an [[abelian category|abelian]] or [[semi-abelian category]], a _splitting_ of an [[exact sequence]] 
+
+$$1 \to A \stackrel{i}{\to} B \stackrel{q}{\to} C \to 1$$
+
+is given by a [[section]] $j: C \to B$ of $q$. This yields an idempotent $\pi = j \circ q$; in the abelian category case, this yields a further idempotent $1_B - \pi$ which is canonically split by a further retraction of $i: A \to B$. 
 
 ## Properties 
 
