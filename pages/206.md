@@ -32,6 +32,7 @@
 **Algebra** is the manipulation of symbols without (necessarily) regard for their meaning, especially in a way that can be formalized in [[cartesian logic]].  It is often seen as [[duality|dual]] to [[geometry]]. While modern algebra has ties and applications nearly everywhere in mathematics, traditionally closest ties are with the [[number theory]] and [[algebraic geometry]].
 
 The word 'algebra' is often also used for an algebraic structure:
+
 * often by default an [[associative unital algebra]];
 * more generally a [[monoid object]];
 * more generally in a different way, a [[nonassociative algebra]];
