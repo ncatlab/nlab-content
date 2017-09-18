@@ -55,6 +55,9 @@ Countable [[products]] of second-countable spaces are second-countable. [[subspa
 
 For second-countable [[separation axiom|T_3]] spaces $X, Y$, if $X$ is locally compact, then the [[exponentiable space|exponential]] $Y^X$ is second-countable. Cf. [[Urysohn metrization theorem]] and [[Polish space]]. I ([[Todd Trimble]]) am uncertain to what extent the $T_3$ assumption can be removed. 
 
+## Properties
+
+* [[second-countable regular spaces are paracompact]]
 
 ## Related concepts
 
