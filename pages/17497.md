@@ -4203,6 +4203,7 @@ We write $OrthSpec(Top_{cg})$ for the resulting [[category]] of orthogonal spect
 
 =--
 
+(e.g. [Schwede 12, I, def. 7.2](#Schwede12))
 
 +-- {: .num_prop #DiagramSpectraGiveSymmetricAndOrthogonalSpectra}
 ###### Proposition
@@ -8418,6 +8419,31 @@ In conclusion, the right vertical morphism is the pushout of a stable weak homot
 
 =--
 
++-- {: .num_cor #StableMonoidalQuillenSuspensionSpectrumFunctor}
+###### Corollary
+
+The [[strong monoidal Quillen adjunction]] (def. \ref{MonoidalQuillenAdjunction}) $(\Sigma^\infty_{orth} \dashv \Omega^\infty_{orth})$ on the strict model structure (prop. \ref{SuspensionSpectrumStructuredStrictQuillenAdjunction}) descends to a [[strong monoidal Quillen adjunction]] on the stable [[monoidal model category]] from theorem \ref{StableModelStructureWithSymmetricMonoidalSmashProductSatisfiesPushoutProductAxiom}:
+
+$$
+  OrthSpec(Top_{cg})_{stable}
+   \underoverset
+     {\underset{\Omega^\infty_{orth}}{\longrightarrow}}
+     {\overset{\Sigma^\infty_{orth}}{\longleftarrow}}
+     {\bot}
+  (Top^{\ast/}_{cg}, \wedge, S^0)_{Quillen}
+  \,.
+$$
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The stable model structure $OrthSpec(Top_{cg})_{stable}$ is a [[Bousfield localization of model categories|left Bousfield localization]] of the strict model structure ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#BousfieldLocalizationOfModelCategories)) in that it has the same cofibrations and a larger class of acyclic cofibrations. Hence $\Sigma^\infty_{orth}$ is still a left Quillen functor also to the stable model structure.
+
+=--
+
 
 #### The monoidal stable homotopy category
  {#TheMonoidalStableHomotopyCategory}
@@ -9282,7 +9308,32 @@ Proposition \ref{EnHomology} is the key ingredient in the construction of the **
 
 #### Examples
 
+For reference, we consider some basic examples of [[orthogonal ring spectra]] (def. \ref{RingSpectrumInSymmetricAndOrthogonalSpectra}) $E$. By prop. \ref{RingSpectraAreDayMonoids} and corollary \ref{MonoidalStableHomotopyCategory} each of these examples in particular represents a [[homotopy commutstive ring spectrum]] (def. \ref{HomotopyCommutativeRingSpectrum}) in the [[tensor triangulated category|tensor triangulated]] [[stable homotopy category]] (prop. \ref{TensorTriangulatedStructureOnStableHomotopyCategory}). 
 
+We make use of these examples of homotopy commutative ring spectra $E$ in [[Introduction to Stable homotopy theory -- 2|Part 2]] in the computation of $E$-[[Adams spectral sequences]].
+
+For constructing representations as [[orthogonal ring spectra]] of spectra that are already known as [[sequential spectra]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#SequentialSpectra)) two principles are usefully to be kept in mind:
+
+1. by prop. \ref{RingSpectraAreDayMonoids} it is sufficient to give an equivariant  multiplicative pairing $E_{n_1} \wedge E_{n_2} \to E_{n_1 + n_2}$ and equivariant unit maps $S^0 \to E_0$, $S^1 \to E_1$, from these the structure maps $S^{n_1} \wedge E_{n_2}\to E_{n_1+n_2}$ are already uniquely induced;
+
+1. the choice of $O(n)$-action on $E_n$ is governed mainly by the demand that the unit map $S^n \to E_n$ has to be equivariant, with respect to the $O(n)$-action on $S^n$ induced by regarding $S^n$ as the [[one-point compactification]] of the defining $O(n)$-representation on $\mathbb{R}^n$ ("[[representation sphere]]").
+
+##### Sphere spectrum
+
+We already described the orthogonal [[sphere spectrum]] $\mathbb{S}$ as an [[orthogonal ring spectrum]] in lemma \ref{FSPStructuredSphereSpectra}. The component spaces are the spheres $S^n$ with their $O(n)$-action as [[representation spheres]], and the multiplication maps are the canonical identifications
+
+$$
+  S^{n_1} \wedge S^{n_2}
+    \longrightarrow
+  S^{n_1 + n_2}
+  \,.
+$$
+
+More generally, by prop. \ref{SmashProductOfFreeSpectra} the orthogonal [[suspension spectrum]] functor is a [[strong monoidal functor]], and so by prop. \ref{RingSpectraAreDayMonoids} the [[suspension spectrum]] of a monoid in $Top^{\ast/}_{cg}$ (for instance $G_+$ for $G$ a [[topological group]]) canonically carries the structure of an orthogonal ring spectrum.
+
+The orthogonal sphere spectrum is the special case of this with $\mathbb{S}_{orth} \simeq \Sigma^\infty_{orth} S^0$ for $S^0$ the tensor unit in $Top^{\ast/}_{cg}$ (example \ref{PointedTopologicalSpacesWithSmashIsSymmetricMonoidalCategory}) and hence a monoid by example \ref{MonoidGivenByTensorUnit}.
+
+ 
 ##### Eilenberg-MacLane spectra
 
 We discuss the model of [[Eilenberg-MacLane spectra]] as [[symmetric spectra]] and [[orthogonal spectra]]. To that end, notice the following model for [[Eilenberg-MacLane spaces]].
@@ -9439,7 +9490,7 @@ As an [[orthogonal ring spectrum]] (def. \ref{RingSpectrumInSymmetricAndOrthogon
 * component spaces 
 
   $$
-    (M O)_n \coloneqq E O(n) \underset{O(n)}{\wedge} S^n
+    (M O)_n \coloneqq E O(n)_+ \underset{O(n)}{\wedge} S^n
   $$
 
   the [[Thom spaces]] ([def.](Introduction+to+Stable+homotopy+theory+--+S#ThomSpace)) of the [[universal vector bundle]] ([def.](Introduction+to+Stable+homotopy+theory+--+S#EOn)) of [[rank]] $n$;
@@ -9449,11 +9500,11 @@ As an [[orthogonal ring spectrum]] (def. \ref{RingSpectrumInSymmetricAndOrthogon
 * canonical multiplication maps
 
   $$
-    (E O(n_1) \underset{O(n_1)}{\wedge} S^{n_1})
+    (E O(n_1)_+ \underset{O(n_1)}{\wedge} S^{n_1})
       \wedge
-    (E O(n_2) \underset{O(n_2)}{\wedge} S^{n_2}  
+    (E O(n_2)_+ \underset{O(n_2)}{\wedge} S^{n_2}  
       \longrightarrow
-    E O(n_1 + n_2) 
+    E O(n_1 + n_2)_+ 
       \underset{O(n_1 + n_2)}{\wedge} 
     S^{n_1 + n_2}
   $$
@@ -9463,10 +9514,10 @@ As an [[orthogonal ring spectrum]] (def. \ref{RingSpectrumInSymmetricAndOrthogon
   $$
     S^n \simeq O(n)_+ \wedge_{O(n)} S^n
       \longrightarrow
-    E O(n) \wedge_{O(n)} S^n
+    E O(n)_+ \wedge_{O(n)} S^n
   $$
 
-  induced by the fiber inclusion $O(V) \to E O(V)$.
+  induced by the fiber inclusion $O(V) \hookrightarrow E O(V)$.
 
 =--
 
@@ -9552,7 +9603,7 @@ $$
   }
 $$
 
-is a [[strong monoidal Quillen adjunction]] (def. \ref{MonoidalQuillenAdjunction}).
+is a [[strong monoidal Quillen adjunction]] (def. \ref{MonoidalQuillenAdjunction}, corollary \ref{StableMonoidalQuillenSuspensionSpectrumFunctor}).
 
 Under passage to [[homotopy category of a model category|homotopy categories]] this yields a [[commuting diagram]] of [[derived functor|derived]] [[adjoint functors]]
 
@@ -9582,7 +9633,7 @@ $$
   }
 $$
 
-between the (Serre-Quillen-)[[classical homotopy category]] $Ho(Top^{\ast/})$ and the [[stable homotopy category]] $Ho(Spectra)$ (remark \ref{StableHomotopyCategoryStructuredSpectra}). The latter is an [[additive category]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#AdditiveCategory)) with [[direct sum]] the [[wedge sum]] of spectra $\oplus = \vee$ ([lemma](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyCategoryHasCoproducts)[lemma](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyCategoryIsAbEnriched)) and in fact a [[triangulated category]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#CategoryWithCofiberSequences)) with distinguished triangles the [[homotopy cofiber sequences]] of spectra ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyCategoryIsTriangulated)).
+between the (Serre-Quillen-)[[classical homotopy category]] $Ho(Top^{\ast/})$ and the [[stable homotopy category]] $Ho(Spectra)$ (remark \ref{StableHomotopyCategoryStructuredSpectra}). The latter is an [[additive category]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#AdditiveCategory)) with [[direct sum]] the [[wedge sum]] of spectra $\oplus = \vee$ ([lemma](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyCategoryHasCoproducts), [lemma](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyCategoryIsAbEnriched)) and in fact a [[triangulated category]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#CategoryWithCofiberSequences)) with distinguished triangles the [[homotopy cofiber sequences]] of spectra ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyCategoryIsTriangulated)).
 
 While this is the situation already for [[sequential spectra]] ([thm.](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyCategoryIsIndeedStabilizationOfClassicalHomotopyCategory)), in addition we have now that both the [[classical homotopy category]] as well as the [[stable homotopy category]] are [[symmetric monoidal categories]] with respect to derived [[smash product]] of [[pointed topological spaces]] and the derived [[symmetric monoidal smash product of spectra]], respectively (corollary \ref{MonoidalStableHomotopyCategory}).
 
@@ -9641,6 +9692,7 @@ $$
 $$
 
 is a [[strong monoidal adjunction]] from the the derived [[smash product]] of [[pointed topological spaces]] to the derived [[symmetric smash product of spectra]].
+
 
 
 
