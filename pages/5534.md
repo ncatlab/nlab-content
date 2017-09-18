@@ -94,7 +94,7 @@ Under the given assumptions we obtain a [[commuting diagram]] of the form
 
 $$
   \array{
-    \mathbb{A}
+    \mathbb{A}^1
     \\
     \downarrow & \searrow^{\mathrlap{ 0}}
     \\
