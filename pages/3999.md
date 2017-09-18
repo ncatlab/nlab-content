@@ -1,15 +1,23 @@
 
-<div class="rightHandSide toc">
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topology
++-- {: .hide}
 [[!include topology - contents]]
-</div>
+=--
+=--
+=--
 
 
 
 #Contents#
-+ automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea 
+
+A [[topological space]] is called _sequentially compact_ if every [[sequence]] of points in that space has a sub-sequence which [[convergence|converges]]. In general this concept is weaker than that of actual [[compact space|compactness]], but for some types of [[topological spaces]], such as [[metric spaces]], it is equivalent.
 
 [[compact space|Compactness]] is an extremely useful concept in [[topology]].  The basic idea is that a [[topological space]] is [[compact space|compact]] if it isn't "fuzzy around the edges".
 
@@ -69,7 +77,12 @@ In [[metric spaces]] for example both notions coincide.
 
 This is _not_ a contradiction to the statement that compact is equivalent to every [[net]] having a convergent subnet: Given a sequence in a compact space, its convergent _subnet_ need not be a _subsequence_ (see [[net]] for a definition of subnet).
 
-#### A Compact Space that is not Sequentially Compact 
+## Examples and counter-examples
+
+### A Compact Space that is not Sequentially Compact 
+
+This counter-example is based on [Steen-Seebach, item 105](#SteenSeebach)
+
 A famous example of a space that is compact, but not sequentially compact, is the product space
 $$
     \{0,1\}^{I} := \{0, 1\}^{[0, 1]}
@@ -96,11 +109,11 @@ $$
 
 This is a convergent subnet.
 
-#### References 
+## References 
 
-This counterexample is based on the one in item 105 of the book
+* Wikipedia, _[Sequentially compact space](https://en.wikipedia.org/wiki/Sequentially_compact_space)_
 
-* Steen, Seebach: _Counterexamples in Topology_
+* {#SteenSeebach} Steen, Seebach: _Counterexamples in Topology_
 
 
 [[!redirects sequentially compact]]
