@@ -2830,7 +2830,7 @@ $$
     \\
     & \swarrow && \searrow
     \\
-    \mathbb{R}^{2,1|2} && && \mathbb{R}^{2,1\vert 2}
+    \mathbb{R}^{0 \vert 2} && && \mathbb{R}^{0\vert 2}
     \\
     & \searrow && \swarrow
     \\
