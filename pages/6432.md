@@ -25,7 +25,7 @@ where $p_1:T_Z X\times_Z T^*_Z X\to T_Z X$ and $p_2:T_Z X\times_Z T^*_Z X\to T^*
 The $Z$-microlocalization functor is the functor
 $$\mu_Z:=\Phi\circ \nu_Z:D^b(k_X)\to D^b(k_{T^*_Z X}).$$
 
-The microlocalization functor on a variety $M$ is defined as the $Z$-microlocalization associated to the closed immersion $Z=M\subset M\times M=X$. Since $T^*_M (M\times M)\cong T^*M$, this gives a functor
+The microlocalization functor on a variety $M$ is defined as the $Z$-microlocalization associated to the closed immersion $Z=M\subset M\times M=X$. Since $T^*_{\Delta_M} (M\times M)\cong T^*M$, this gives a functor
 $$
 \mu:D^b(k_M)\to D^b(k_{T^*M}).
 $$
