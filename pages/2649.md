@@ -199,7 +199,7 @@ The same method of proof shows that for an arbitrary family of connected spaces 
  
   (This includes categories such as $G Set$, [[permutation representations]] of a [[group]] $G$.)
 
-* A [[scheme]] is connected as a scheme (which by definition means that its underlying topological space is connected) if and only if it a connected as an object of the category of schemes. See [here](http://gausyu.github.io/2016/02/13/Connectedness-of-Schemes/).
+* A [[scheme]] is connected as a scheme (which by definition means that its underlying topological space is connected) if and only if it is connected as an object of the category of schemes. See [here](http://gausyu.github.io/2016/02/13/Connectedness-of-Schemes/).
 
 
 
