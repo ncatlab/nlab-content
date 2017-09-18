@@ -26,80 +26,48 @@ Every [[CW-complex]] is a [[paracompact Hausdorff space]].
 
 For a textbook explanation, see e.g. [Fritsch-Piccinini 90, theorem 1.3.5](#FritschPiccinini90). Below we describe a somewhat more categorically minded approach. 
 
-### CW-complexes are Hausdorff and normal
+### Points are closed in CW-complexes 
 
-+-- {: .num_prop #CWComplexesAreNormal}
-###### Proposition
++-- {: .num_lemma #CWComplexesAreT1}
+###### Lemma 
 
-Every [[CW-complex]] is a [[Hausdorff space]], in fact a [[normal topological space]].
+Every [[CW-complex]] $X$ satisfies the $T_1$ [[separation property]] that [[singletons]] are [[closed subsets]]. 
 
 =--
 
-The proof is broken down in two parts. The first is that each $n$-skeleton $X_n$ of a CW-complex $X$ is normal (throughout we use "normal" to mean normal and Hausdorff), and that the inclusion $X_{n-1} \hookrightarrow X_n$ is a closed embedding. The second is that the colimit 
++-- {: .proof} 
+###### Proof 
+Let $X_n$ denote the $n^{th}$ skeleton of $X$. We argue by [[induction]] that each skeleton is $T_1$. Vacuously $X_{-1} = \emptyset$ is $T_1$. If $X_{n-1}$ is $T_1$, and $X_n$ is formed as an [[attachment space]] along a map $f: \sum_{i \in I} S_i^{n-1} \to X_{n-1}$, so 
 
-$$X_0 \hookrightarrow X_1 \hookrightarrow \ldots$$ 
-
-of the sequence of skeleta and inclusions between them is again normal. 
-
-We give just a sketch of the argument here; for full details see _[[colimits of normal spaces]]_. 
-
-* A basic lemma is that the pushout in $Top$ of a closed embedding $i: X \to Z$ along any map $f: X \to Y$ is again a closed embedding, $j: Y \to Y \cup_X Z$. 
-
-* Recall that a space $W$ is normal iff for any closed subspace $C \subseteq W$ and continuous function $f: C \to \mathbb{R}$, there is a continuous extension of $f$ to a map $g: W \to \mathbb{R}$. This may be exploited to give a simple proof of the following result: if $Y, Z$ are normal and $X \hookrightarrow Z$ is a closed subspace, then given a continuous map $f: X \to Y$, the space $W$ in the 
-topological pushout diagram 
 $$\array{
-X & \stackrel{h}{\hookrightarrow} & Z \\ 
-\mathllap{f} \downarrow & & \downarrow \mathrlap{g} \\ 
-Y & \underset{k}{\to} & W
+\sum_{i \in I} S_i^{n-1} \hookrightarrow \sum_{i \in I} D_i^{n-1} \\ 
+\mathllap{f} \downarrow & po & \downarrow \mathrlap{g} \\ 
+X_{n-1} & \hookrightarrow & X_n
 }$$ 
-is also normal. Sketch of proof: if $C \subseteq W$ is closed and $\phi: C \to \mathbb{R}$ is continuous, first extend the evident map $k^{-1}(C) \to \mathbb{R}$ to a map $\beta: Y \to \mathbb{R}$, and similarly extend a suitable map $h(X) \cup g^{-1}(C) \to \mathbb{R}$ to a map $\theta: Z \to \mathbb{R}$, compatibly with $\beta$ so that the pair $(\beta, \theta)$ induces a map $\psi: W \to \mathbb{R}$ out of the pullback that restricts to $\phi: C \to \mathbb{R}$. 
 
-* Assuming then that the $(n-1)$-skeleton $X_{n-1}$ is normal, and forming an adjunction space $X_n$ by attaching a collection of $n$-disks $\sum_{i \in I} D_i^n$ to $X_{n-1}$ by an attaching map $f: \sum_{i \in I} S_i^{n-1} \to X_{n-1}$, it follows that the space $X_n$ is normal, and the embedding $X_{n-1} \to X_n$ is closed. 
+is a pushout square, then any point $x$ of $X_n$ either belongs to the closed subspace $X_{n-1}$ and is closed there by inductive hypothesis, and so is closed in $X_n$, or else $g^{-1}(x)$ is a singleton in the $T_1$ space $\sum_{i \in I} D_i^n$, so that $g^{-1}(x)$ is closed, making $\{x\}$ closed by definition of the [[pushout]] (as a [[quotient space]]). 
 
-* Finally, one proves without difficulty that the topological colimit of a sequence of normal spaces and closed embeddings between them is again normal. This applies in particular to the sequence of skeleta $X_n$ and the embeddings between them. 
+Then if $X = \bigcup_n X_n$ with the [[colimit]] topology and $x \in X$, each intersection $\{x\} \cap X_n$ is closed in $X_n$, so $\{x\}$ is closed in $X$ by definition of the colimit topology. 
+=-- 
 
 ### CW-complexes are paracompact
 
-As a direct corollary of the above we obtain:
-
-+-- {: .num_prop #CountableCWComplexesAreParacompact}
-###### Proposition
-
-CW-complexes with a [[countable set]] of cells are [[paracompact topological spaces]].
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-Each cell $D^{n}$ is a [[second-countable topological space]], and since [[countable unions of countable sets are countable]] it follows that a CW-complex with a countable set of cells is second-countable.
-
-By prop. \ref{CWComplexesAreNormal} it is also normal, hence in particular [[regular topological space|regular]]. Now the statement follows from the fact that [[second-countable regular spaces are paracompact]].
-
-=-- 
-
-However, the statement holds in full generality: 
 
 +-- {: .num_prop #CWComplexesAreParacompact}
 ###### Proposition
 
-CW-complexes (no restriction on the number of cells) are [[paracompact topological spaces]].
+CW-complexes are [[paracompact topological space|paracompact]] and [[Hausdorff space|Hausdorff]].
 
 =-- 
 
-The proof can again be broken down in two steps, parallel to the discussion after Proposition \ref{CWComplexesAreNormal}. The first is that each $n$-skeleton $X_n$ of a CW-complex $X$ is paracompact (throughout we use "paracompact" to mean paracompact and $T_1$; of course we know from Proposition \ref{CWComplexesAreNormal} that CW-complexes are Hausdorff), and that the inclusion $X_{n-1} \hookrightarrow X_n$ is a closed embedding. The second is that the colimit 
++-- {: .proof} 
+###### Proof 
+First one proves that each $n$-skeleton $X_n$ is paracompact and Hausdorff, by an inductive argument. Here are the ingredients: 
 
-$$X_0 \hookrightarrow X_1 \hookrightarrow \ldots$$ 
-
-of the sequence of skeleta and inclusions between them is again paracompact. 
-
-The proofs for these two steps are pretty simple, once we have in hand a celebrated result from the 1950's: Ernest Michael's [[Michael's theorem|selection criterion]] for paracompactness. Thus there are some technical preliminaries that enter the full argument: 
-
-* The [[paracompact Hausdorff spaces equivalently admit subordinate partitions of unity|proof]] that paracompactness of a space $X$ is equivalent to the statement that every open cover $\mathcal{U}$ admits a subordinate [[partition of unity]] (a result which requires some degree of [[axiom of choice|choice]]); 
-
-* A convenient repackaging of the partition of unity result whereby a subordinate partition of unity is recast as a certain *continuous selection*: a continuous map $X \to L^1(\mathcal{U})$ included inside a suitably constructed [[entire relation]] $R \hookrightarrow X \times L^1(\mathcal{U})$. Abstracting away, the desired results thus involve considering maps $X = colim\; \mathbf{D} \to B$ out of a colimit of some diagram $\mathbf{D}$ of paracompact spaces into a Banach space $B$, and these boil down to [[cocones]] $\mathbf{D} \to B$ which are easily analyzed. 
+* Spheres $S^{n-1}$ and disks $D^n$ are paracompact and Hausdorff since they are compact and Hausdorff, and coproducts of paracompact Hausdorff spaces are paracompact and Hausdorff. Hence 
 
 More details can be found at [[colimits of paracompact spaces]]. 
+=--
 
 ## Related statements
 
