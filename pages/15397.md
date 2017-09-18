@@ -37,14 +37,17 @@ We have the following correspondence between common pseudogroups and kinds of ma
 
 | Topological space | Morphisms | Manifold |
 |--|--|--|
-| [[Cartesian space]] $\mathbb{R}^n$ | [[smooth maps]] | (n-dimensional) [[smooth manifolds]] |
-| [[complex plane]] $\mathbb{C}^n$ | [[analytic functions]] | (n-dimensional) [[complex manifolds]] |
-| Half-plane $H^n = \{(x_1, \ldots, x_n) \in \mathbb{R}^n: x_1 \geq 0\}$ | [[smooth maps]] | [[manifolds with boundary]]|
+| [[real n-dimensional space]] $\mathbb{R}^n$ | [[smooth maps]] | (n-dimensional) [[smooth manifolds]] |
+| [[complex n-dimensional space]] $\mathbb{C}^n$ | [[analytic functions]] | (n-dimensional) [[complex manifolds]] |
+| n-dimensional upper half-space $H^n = \{(x_1, \ldots, x_n) \in \mathbb{R}^n: x_1 \geq 0\}$ | [[smooth maps]] | [[manifolds with boundary]]|
 | the $n$-[[cube]] $I^n = [0, 1]^n$ | [[smooth maps]] | [[manifolds with boundary|manifold with corners]] | 
 
 =--
 
-More generally, an abstract pseudogroup is a sub-[[inverse semigroup]] of the inverse semigroup of partial bijections of a set (or, even more generally, local automorphisms of an object in more general context).
++-- {: .num_defn #AbstractPseudogroup}
+###### Definition
+More generally, an **abstract pseudogroup** is a sub-[[inverse semigroup]] of the inverse semigroup of partial bijections of a set (or, even more generally, local automorphisms of an object in more general context).
+=--
 
 ## Properties
 
