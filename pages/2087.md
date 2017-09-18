@@ -18,6 +18,8 @@ We say 'a' prime ideal theorem (PIT) instead of 'the' prime ideal theorem, since
 
 The usual way to prove a prime ideal theorem is with the help of [[Zorn's Lemma]], unless one is specifically trying to use something weaker like UF (as we do in this article). In fact [[Zorn's lemma]] can be used to prove a [[maximal ideal theorem]], which is stronger: in all the usual examples maximal ideals are prime so that a [[prime ideal theorem]] becomes a corollary. 
 
+There are stronger forms of prime ideal theorems which assert the existence of a prime ideal that does not intersect a given multiplicatively closed subset $\mathfrak{m}$. However, these can often be reduced to an ordinary PIT, by first localizing or inverting the elements in $\mathfrak{m}$, and then applying a PIT to the localization. 
+
 
 ## A ladder of prime ideal theorems 
 
@@ -25,17 +27,16 @@ Prime ideal theorems may be arranged as a sequence of results and techniques tha
 
 A first easy wave of results concerns the equivalence between the Boolean PIT (or BPIT) and UF. While these are easy, the BPIT is a theoretical underpinning of fundamental techniques such as the [[compactness theorem]] for [[first-order logic]], which leads to the next rung on the ladder. 
 
-The next step derives the PIT for distributive lattices as a simple application of the compactness theorem and other model-theoretic techniques. In effect we write down a simple [[propositional theory]] where a [[model]] is tantamount to a prime ideal in a given distributive lattice. Part of the work involves checking finite satisfiability of the theory, where we may invoke a simple [[Stone duality]] between finite distributive lattices and finite posets. 
+The next step derives the PIT for distributive lattices as a simple application of the compactness theorem. In effect we write down a simple [[propositional theory]] where a [[model]] is tantamount to a prime ideal in a given distributive lattice. Part of the work involves checking finite satisfiability of the theory, where we may invoke a simple [[Stone duality]] between finite distributive lattices and finite posets. 
 
 With the PIT for distributive lattices in hand, we prove a key result due to Banaschewski, which may be summarized roughly as saying that a (nontrivial) compact frame admits a prime element. This is an early result in [[Stone Spaces]], related to the spatiality of compact regular locales. 
 
-This last result is a key of entry into prime ideal theorems of quite general type. The general idea is that ideals in a monoid (now in suitably nice monoidal categories) tend to form compact [[quantales]], whose prime elements correspond to prime ideals. One then invokes a simple construction which associates to each compact quantale a quotient compact frame, in such a way that the existence of a prime element in the quantale is reduced to existence of a prime element in the compact frame. As promised, this gives prime ideal theorems of fairly general type (call it "GPIT"). 
+This last result is a key of entry into prime ideal theorems of general type. The general idea is that ideals in a monoid (now in suitably nice monoidal categories) tend to form compact [[quantales]], whose prime elements correspond to prime ideals. One then invokes a simple construction which associates to each compact quantale a quotient compact frame, in such a way that the existence of a prime element in the quantale is reduced to existence of a prime element in the compact frame. As promised, this gives prime ideal theorems of fairly general type (call them collectively "GPIT"). 
 
 As suggested earlier, any one of these prime ideal theorems implies the BPIT as a special case, and so we come full circle: 
 
-$$UF \Rightarrow BPIT \Rightarrow PIT(DistLat) \Rightarrow GPIT \Rightarrow BPIT \Rightarrow UF.$$ 
+$$UF \Rightarrow BPIT \Rightarrow PIT(DistLat) \Rightarrow Banaschewski \Rightarrow GPIT \Rightarrow BPIT \Rightarrow UF.$$ 
 
-Offshoots of this development include stronger forms of a PIT in which a prime ideal is produced that does not intersect a given multiplicatively closed subset $\mathfrak{m}$. However, these can often be reduced to an ordinary PIT, by first localizing or inverting the elements in $\mathfrak{m}$, and then applying a PIT to the localization. 
 
 We now turn to details. 
 
@@ -55,8 +56,6 @@ is contained in an ultrafilter, translates into a special case of the BPIT: ever
 ### BPIT implies prime ideal theorem for distributive lattices 
 
 Now let us prove that the Tychonoff theorem for CH spaces implies the PIT for distributive lattices $D$: that any proper ideal $I$ of $D$ is contained in a prime ideal of $D$. By passing to the quotient lattice $D/I$, it suffices to show that $D/I$ has a prime ideal $P$, since the inverse image $\phi^{-1}(P)$ of a prime ideal $P$ along the quotient map $\phi: D \to D/I$ is again prime. 
-
-The method we use here is a somewhat pedestrian application of the [[compactness theorem]] and the circle of methods surrounding it. 
 
 +-- {: .num_theorem} 
 ###### Theorem 
@@ -116,7 +115,7 @@ When the statement is about compact frames, it can be rephrased as saying that e
 
 To show how Banaschewski's lemma is applied, we consider for example the prime ideal theorem for (possibly noncommutative) rings. We follow the common convention that rings have units. 
 
-Let $R$ be a ring, and let $Idl(R)$ be the sup-lattice of two-sided ideals of $R$. Under multiplication of ideals $A \cdot B$, we obtain a [[quantale]] structure on $Idl(R)$ whose multiplicative unit is the top element $R$. In general we will call a quantale *affine* if its unit is the top element. 
+Let $R$ be a ring, and let $Idl(R)$ be the sup-lattice of two-sided ideals of $R$. Under multiplication of ideals $A \cdot B$, we obtain a [[quantale]] structure on $Idl(R)$ whose multiplicative unit is the top element $R$. In general we will call a quantale *affine* (or [[semicartesian monoidal category|semicartesian]]) if its unit is the top element. 
 
 The top element $1$ of $Idl(R)$ is also a *[[compact element]]*. In general, and generalizing a definition from the theory of [[frames]]/[[locales]], we will say that a quantale is *compact* if its top element is a compact element. 
 
@@ -153,7 +152,7 @@ and we proceed by induction to show $1 = c \vee y_1 \vee \ldots \vee y_n$, which
 
 +-- {: .num_prop #quot} 
 ###### Proposition 
-The quotient quantale $Q/\equiv$ is a nontrivial compact frame. 
+The quantale $\tilde{Q}$ formed as the quotient $Q/\equiv$ is a nontrivial compact frame. 
 =-- 
 
 +-- {: .proof} 
@@ -162,20 +161,20 @@ Clearly $1 \leq x x \vee c$ implies $1 \leq x x \vee c \leq x \vee c$. But also 
 
 $$1 \leq x \vee c = x \cdot 1 \vee c = x\cdot (x \vee c) \vee c = x x \vee x c \vee c = x x \vee c$$ 
 
-and thus $x x \equiv x$ for all $x$. Being an idempotent affine quantale, $Q/\equiv$ is a frame. 
+and thus $x x \equiv x$ for all $x$. Being an idempotent affine quantale, $\tilde{Q}$ is a frame. 
 
-We have $\neg (0 \equiv 1)$ since ($0 \vee c = 1$ iff $1 \vee c = 1$) fails for $c = 0$, under the assumption $Q$ is nontrivial. So $Q/\equiv$ is nontrivial. 
+We have $\neg (0 \equiv 1)$ since ($0 \vee c = 1$ iff $1 \vee c = 1$) fails for $c = 0$, under the assumption $Q$ is nontrivial. So $\tilde{Q}$ is nontrivial. 
 
-To show $Q/\equiv$ is compact, suppose $\{x_i\}_{i \in I}$ is a family in $Q$ such that $\bigvee_i x_i \equiv 1$, in other words such that $c \vee \bigvee_i x_i = 1$ for all $c \in Q$. Setting $c = 0$ and applying compactness of $Q$, there is a finite subfamily $F$ such that $\bigvee_{i \in F} x_i = 1$, and then $\bigvee_{i \in F} x_i \equiv 1$ which proves compactness of $Q/\equiv$. 
+To show $\tilde{Q}$ is compact, suppose $\{x_i\}_{i \in I}$ is a family in $Q$ such that $\bigvee_i x_i \equiv 1$, in other words such that $c \vee \bigvee_i x_i = 1$ for all $c \in Q$. Setting $c = 0$ and applying compactness of $Q$, there is a finite subfamily $F$ such that $\bigvee_{i \in F} x_i = 1$, and then $\bigvee_{i \in F} x_i \equiv 1$ which proves compactness of $\tilde{Q}$. 
 =-- 
 
-The quantale quotient map $Q \to Q/\equiv$ preserves arbitrary sups and thus has a right adjoint $\pi: Q/\equiv \to Q$, by the poset form of the [[adjoint functor theorem]]. If we denote the $\equiv$-class of an element $a \in Q$ by $[a]$, then for $c \in Q/\equiv$ the element $\pi(c)$ is given by the explicit formula 
+The quantale quotient map $Q \to \tilde{Q}$ preserves arbitrary sups and thus has a right adjoint $\pi: \tilde{Q} \to Q$, by the poset form of the [[adjoint functor theorem]]. If we denote the $\equiv$-class of an element $a \in Q$ by $[a]$, then for $c \in \tilde{Q}$ the element $\pi(c)$ is given by the explicit formula 
 
 $$\pi(c) = \bigvee \{y \in Q: [y] \leq c\}.$$ 
 
 +-- {: .num_lemma #inverse} 
 ###### Lemma  
-If $c$ is prime in $Q/\equiv$, then $\pi(c)$ is prime in $Q$. 
+If $c$ is prime in $\tilde{Q}$, then $\pi(c)$ is prime in $Q$. 
 =-- 
 
 +-- {: .proof} 
@@ -184,9 +183,9 @@ For elements $a, b \in Q$ we have
 
 $$\array{
 a b \leq \pi(c) & iff & [a b] \leq c & since \; [-] \dashv \pi \\ 
- & iff & [a] \cdot [b] \leq c & since \; [-]\; is\; a\; quantale\; map \\ 
- & iff & ([a] \leq c) \vee ([b] \leq c) & since \; $c$ \; is\; prime \\ 
- & iff & (a \leq \pi(c)) \vee (b \leq \pi(c))
+ & iff & [a] \cdot [b] \leq c & since \; [-]\; is\; \mathrm{a}\; quantale\; map \\ 
+ & iff & ([a] \leq c) \vee ([b] \leq c) & since \; c \; is\; prime \\ 
+ & iff & (a \leq \pi(c)) \vee (b \leq \pi(c)) & since \; [-] \dashv \pi 
 }$$ 
 
 which completes the proof. 
@@ -196,7 +195,7 @@ The proof of Theorem \ref{quantale} is immediate:
 
 +-- {: .proof} 
 ###### Proof 
-Given that $Q$ is a nontrivial compact affine quantale, $Q/\equiv$ is a nontrivial compact frame by Proposition \ref{quot}. Then $Q/\equiv$ has a prime element $c$ by Banaschewski's lemma, whence $Q$ has a prime element by Lemma \ref{inverse}. 
+Given that $Q$ is a nontrivial compact affine quantale, $\tilde{Q}$ is a nontrivial compact frame by Proposition \ref{quot}. Then $\tilde{Q}$ has a prime element $c$ by Banaschewski's lemma, whence $Q$ has a prime element by Lemma \ref{inverse}. 
 =--
 
 
@@ -214,7 +213,7 @@ See also [Banaschewski-Harting](#BH). We remark that the nucleus $k$ on $Idl(R)$
 
 * $k(J) = 1$ implies $J = 1$. 
 
-These properties are all that is needed to verify that the fixed points of $k$ (corresponding to the quotient $Idl(R)/\equiv$) forms a compact frame to which we can apply Banaschewski's lemma. For example, the nucleus obtained by taking the Jacobson radical has these properties, as do other radicals considered in noncommutative ring theory (Levitski radical, Brown-McCoy radical). 
+These properties are all that is needed to verify that the fixed points of $k$ (corresponding to the quotient $\widetilde{Idl(R)}$) forms a compact frame to which we can apply Banaschewski's lemma. For example, the nucleus obtained by taking the Jacobson radical has these properties, as do other radicals considered in noncommutative ring theory (Levitski radical, Brown-McCoy radical). 
 =-- 
 
 ### Generalized prime ideal theorems 
