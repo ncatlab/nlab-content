@@ -3571,6 +3571,7 @@ where the left vertical morphism is an isomorphism by the nature of $\mathbb{S}_
 
 However, since, by remark \ref{SseqModulesAreSequentialSpectra}, $\mathbb{S}_{seq}$ is not commutative, there is no tensor product induced on $SeqSpec(Top_{cg})$ under the identification in prop. \ref{SseqModulesAreSequentialSpectra}. But since $\mathbb{S}_{orth}$ and $\mathbb{S}_{sym}$ are commutative monoids by remark \ref{SseqModulesAreSequentialSpectra}, it makes sense to consider the following definition.
 
+
 +-- {: .num_defn #SsymModuleSymmetricSpectra}
 ###### Definition
 
@@ -3924,9 +3925,10 @@ $$
 
 ##### As diagram spectra
 
-In the discussion [above](#StrictModelStructureOnSequentialSpectra) we had obtained the strict/level [[model structure on topological sequential spectra]] by identifying the category $SeqSpec(Top_{cg})$ of sequential spectra with a category of [[topologically enriched functors]] with values in $Top^{\ast/}_{cg}$ (prop. \ref{SequentialSpectraAsDiagramSpectra}) and then invoking the general existence of the [[projective model structure on functors]] ([thm.](Introduction+to+Stable+homotopy+theory+--+P#ProjectiveModelStructureOnTopologicalFunctors)).
+In _[[Introduction to Stable homotopy theory -- 1-1]]_ we obtained the strict/level [[model structure on topological sequential spectra]] by identifying the category $SeqSpec(Top_{cg})$ of [[sequential spectra]] with a category of [[topologically enriched functors]] with values in $Top^{\ast/}_{cg}$ ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#SequentialSpectraAsDiagramSpectra)) and then invoking the general existence of the [[projective model structure on functors]] ([thm.](Introduction+to+Stable+homotopy+theory+--+P#ProjectiveModelStructureOnTopologicalFunctors)).
 
-Now we discuss the analogous construction for the more general structured spectra from [above](#SModules).
+Here we discuss the analogous construction for the more general structured spectra from [above](#SModules).
+
 
 +-- {: .num_prop #ModulesForDayConvolutionAsEnrichedFunctors}
 ###### Proposition
@@ -4185,86 +4187,14 @@ These are the objects and hom-spaces of the category $StdSpheres$. It is straigh
 
 
 
-+-- {: .num_prop #StrictModelStructureOnDiagramSpectra}
-###### Proposition
-
-The four categories of 
-
-1. [[pre-excisive functors]] $Exc(Top_{cg})$;
-
-1. [[orthogonal spectra]] $OrthSpec(Top_{cg})$;
-
-1. [[symmetric spectra]] $SymSpec(Top_{cg})$;
-
-1. [[sequential spectra]] $SeqSpec(Top_{cg})$
-
-each admit a [[model category]] structure ([def.](Introduction+to+Stable+homotopy+theory+--+P#ModelCategory)) whose weak equivalences and fibrations are those morphisms which induce on all component spaces weak equivalences or fibrations, respectively, in the [[classical model structure on pointed topological spaces]] $(Top^{\ast/}_{cg})_{Quillen}$. ([thm.](Introduction+to+Stable+homotopy+theory+--+P#ClassicalModelStructureOnCompactlyGeneratedTopologicalSpaces), [prop.](Introduction+to+Stable+homotopy+theory+--+P#ModelStructureOnSliceCategory)).
-These are called the **strict model structures** (or **level model structures**) on [[structured spectra]]. 
-
-Moreover, under the [[equivalences of categories]] of prop. \ref{SseqModulesAreSequentialSpectra} and prop. \ref{DiagramSpectraGiveSymmetricAndOrthogonalSpectra}, the restriction functors in def. \ref{TopologicalDiagramCategoriesForSpectra} constitute [[right adjoints]] of [[Quillen adjunctions]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#QuillenAdjunction)) between these model structures:
 
 
 
-$$
- \array{
-   Exc(Top_{cg})_{strict} && OrthSpec(Top_{cg})_{strict} && SymSpec(Top_{cg})_{strict} && SeqSpec(Top_{cg})_{strict}
-   \\
-   \downarrow^{\mathrlap{\simeq}}
-   && \downarrow^{\mathrlap{\simeq}}
-   && \downarrow^{\mathrlap{\simeq}}
-   && \downarrow^{\mathrlap{\simeq}}
-   \\
-   \mathbb{S} Mod_{strict}
-   &
-     \underoverset
-       {\underset{orth^\ast}{\longrightarrow}}
-       {\overset{orth_!}{\longleftarrow}}
-       {\bot}
-   &
-   \mathbb{S}_{Orth} Mod_{strict}
-   &
-     \underoverset
-       {\underset{sym^\ast}{\longrightarrow}}
-       {\overset{sym_!}{\longleftarrow}}
-       {\bot}
-   &
-   \mathbb{S}_{Sym} Mod_{strict}
-   &
-     \underoverset
-       {\underset{seq^\ast}{\longrightarrow}}
-       {\overset{seq_!}{\longleftarrow}}
-       {\bot}
-   &
-   \mathbb{S}_{Seq} Mod_{strict}
-  }
-  \,.
-$$
-
-=--
-
-
-+-- {: .proof}
-###### Proof
-
-By prop. \ref{ModulesForDayConvolutionAsEnrichedFunctors} all four categories are equivalently categories of pointed [[topologically enriched functors]]
-
-$$
-  \mathbb{S}_{dia}Mod
-   \simeq
-  [ \mathbb{S}_{dia} Free_{dia}Mod, Top^{\ast/}_{cg} ]
-$$
-
-and hence the existence of the model structures with componentwise weak equivalences and fibrations is a special case of the general existence of the [[projective model structure on enriched functors]] ([thm.](Introduction+to+Stable+homotopy+theory+--+P#ProjectiveModelStructureOnTopologicalFunctors)).
-
-The three restriction functors $dia^\ast$ each have a [[left adjoint]] $dia_!$ by topological [[left Kan extension]] (prop. \ref{TopologicalLeftKanExtensionBCoend}).
-
-Moreover, the three right adjoint restriction functors are along inclusions of objects, hence evidently preserve componentwise weak equivalences and fibrations.  Hence these are [[Quillen adjunctions]].
-
-=--
 
 
 
-##### Structured suspension spectra
+
+##### Suspension spectra
  {#FreeSpectra}
 
 The concept of _[[free spectrum]]_ is a generalization of that of _[[suspension spectrum]]_. In fact the [[stable homotopy types]] of free spectra are precisely those of iterated [[loop space objects]] of [[suspension spectra]]. But for the development of the theory what matters is free spectra before passing to stable homotopy types, for as such they play the role of the basic cells for the stable [[model structures on spectra]] analogous to the role of the [[n-spheres]] in the [[classical model structure on topological spaces]] (def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra} below).
@@ -4374,7 +4304,7 @@ $$
   Top^{\ast/}_{cg}
 $$
 
-(saying that evaluation at $c$ is [[right adjoint]] to smash tensoring the fucntor represented by $c$) witnessed by the following composite [[natural isomorphism]]:
+(saying that evaluation at $c$ is [[right adjoint]] to smash tensoring the functor represented by $c$) witnessed by the following composite [[natural isomorphism]]:
 
 $$
   [\mathcal{C}, Top^{\ast/}_{cg}](y(c)\wedge K, F)
@@ -4500,7 +4430,7 @@ $$
   \,.
 $$
 
-In particular for structured [[suspension spectra]] $\Sigma^\infty_{dia}\coloneqq F_0^{dia}$ (def. \ref{FreeStructuredSpectrum}) this gives
+In particular for structured [[suspension spectra]] $\Sigma^\infty_{dia}\coloneqq F_0^{dia}$ (def. \ref{FreeStructuredSpectrum}) this gives isomorphisms
 
 $$
   \Sigma^\infty_{dia}(K_1)
@@ -5036,7 +4966,771 @@ where in the second step we used [this lemma](pushout-product#PushoutProductOfSp
 
 
 
+#### The strict model structure on structured spectra
 
+
++-- {: .num_theorem #StrictModelStructureOnDiagramSpectra}
+###### Theorem
+
+The four categories of 
+
+1. [[pre-excisive functors]] $Exc(Top_{cg})$;
+
+1. [[orthogonal spectra]] $OrthSpec(Top_{cg}) = \mathbb{S}_{orth} Mod$;
+
+1. [[symmetric spectra]] $SymSpec(Top_{cg}) = \mathbb{S}_{sym}Mod$;
+
+1. [[sequential spectra]] $SeqSpec(Top_{cg}) = \mathbb{S}_{seq}Mod$
+
+(from def. \ref{FinitePointedCWComplexes}, prop. \ref{SseqModulesAreSequentialSpectra}, def. \ref{SsymModuleSymmetricSpectra}) each admit a [[model category]] structure ([def.](Introduction+to+Stable+homotopy+theory+--+P#ModelCategory)) whose weak equivalences and fibrations are those morphisms which induce on all component spaces weak equivalences or fibrations, respectively, in the [[classical model structure on pointed topological spaces]] $(Top^{\ast/}_{cg})_{Quillen}$. ([thm.](Introduction+to+Stable+homotopy+theory+--+P#ClassicalModelStructureOnCompactlyGeneratedTopologicalSpaces), [prop.](Introduction+to+Stable+homotopy+theory+--+P#ModelStructureOnSliceCategory)).
+These are called the **strict model structures** (or **level model structures**) on [[structured spectra]]. 
+
+Moreover, under the [[equivalences of categories]] of prop. \ref{SseqModulesAreSequentialSpectra} and prop. \ref{DiagramSpectraGiveSymmetricAndOrthogonalSpectra}, the restriction functors in def. \ref{TopologicalDiagramCategoriesForSpectra} constitute [[right adjoints]] of [[Quillen adjunctions]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#QuillenAdjunction)) between these model structures:
+
+
+
+$$
+ \array{
+   Exc(Top_{cg})_{strict} && OrthSpec(Top_{cg})_{strict} && SymSpec(Top_{cg})_{strict} && SeqSpec(Top_{cg})_{strict}
+   \\
+   \downarrow^{\mathrlap{\simeq}}
+   && \downarrow^{\mathrlap{\simeq}}
+   && \downarrow^{\mathrlap{\simeq}}
+   && \downarrow^{\mathrlap{\simeq}}
+   \\
+   \mathbb{S} Mod_{strict}
+   &
+     \underoverset
+       {\underset{orth^\ast}{\longrightarrow}}
+       {\overset{orth_!}{\longleftarrow}}
+       {\bot}
+   &
+   \mathbb{S}_{Orth} Mod_{strict}
+   &
+     \underoverset
+       {\underset{sym^\ast}{\longrightarrow}}
+       {\overset{sym_!}{\longleftarrow}}
+       {\bot}
+   &
+   \mathbb{S}_{Sym} Mod_{strict}
+   &
+     \underoverset
+       {\underset{seq^\ast}{\longrightarrow}}
+       {\overset{seq_!}{\longleftarrow}}
+       {\bot}
+   &
+   \mathbb{S}_{Seq} Mod_{strict}
+  }
+  \,.
+$$
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{ModulesForDayConvolutionAsEnrichedFunctors} all four categories are equivalently categories of pointed [[topologically enriched functors]]
+
+$$
+  \mathbb{S}_{dia}Mod
+   \simeq
+  [ \mathbb{S}_{dia} Free_{dia}Mod, Top^{\ast/}_{cg} ]
+$$
+
+and hence the existence of the model structures with componentwise weak equivalences and fibrations is a special case of the general existence of the [[projective model structure on enriched functors]] ([thm.](Introduction+to+Stable+homotopy+theory+--+P#ProjectiveModelStructureOnTopologicalFunctors)).
+
+The three restriction functors $dia^\ast$ each have a [[left adjoint]] $dia_!$ by topological [[left Kan extension]] (prop. \ref{TopologicalLeftKanExtensionBCoend}).
+
+Moreover, the three right adjoint restriction functors are along inclusions of objects, hence evidently preserve componentwise weak equivalences and fibrations.  Hence these are [[Quillen adjunctions]].
+
+=--
+
+
+##### Topological enrichment
+
+
+By general properties of the [[projective model structure on functors|projective model structure]] on [[topologically enriched functors]], this implies that the strict model category of structured spectra inherits the structure of an [[enriched model category]], enriched over the [[classical model structure on pointed topological spaces]]. This proceeds verbatim as for sequential spectra ([part 1.1 -- Topological enrichement](Introduction+to+Stable+homotopy+theory+--+1-1#TopologicalEnrichment)), but for ease of reference we make it explicit.
+
+
++-- {: .num_defn #PushoutProductWithRespectToSmashTensoring}
+###### Definition
+
+Let $Dia \in \{Top^{\ast/}_{cg,fin}, Orth, Sym, Seq\}$ one of the shapes for structured spectra from def. \ref{TopologicalDiagramCategoriesForSpectra}.
+
+Let $f \;\colon \; X \to Y$ be a morphism in $\mathbb{S}_{dia}Mod$ (as in prop. \ref{StrictModelStructureOnDiagramSpectra}) and let $i \;\colon\; A \to B$ a morphism in $Top_{cg}^{\ast/}$. 
+
+Their **[[pushout product]] with respect to smash tensoring** is the universal morphism 
+
+$$
+  f \Box i
+    \coloneqq
+  \left((id,i), (f,id)\right)
+$$
+
+in
+
+$$
+  \array{
+    && X \wedge A
+    \\
+    & {}^{\mathllap{(f,id)}}\swarrow && \searrow^{\mathrlap{(id,i)}}
+    \\
+    Y \wedge A && (po) && X \wedge B
+    \\
+    & {}_{\mathllap{}}\searrow && \swarrow
+    \\
+    && (Y \wedge A) \underset{X \wedge A}{\sqcup} (X \wedge B)
+    \\
+    && \downarrow^{\mathrlap{((id, i), (f,id))}}
+    \\
+    && Y \wedge B
+  }
+  \,,
+$$
+
+where 
+
+$$
+  (-)\wedge(-)
+    \;\colon\;
+  \mathbb{S}_{dia}Mod
+   \times
+  Top^{\ast/}_{cg}
+   \simeq
+  [ \mathbb{S}_{dia}Fre_{dia}Mod^{op},\; Top^{\ast/}_{cg}]
+  \times
+  Top^{\ast/}_{cg}
+    \longrightarrow
+  [ \mathbb{S}_{dia}Fre_{dia}Mod^{op},\; Top^{\ast/}_{cg}]
+  \simeq
+  \mathbb{S}_{dia}Mod
+$$ 
+
+denotes the smash tensoring of pointed topologically enriched functors with pointed topological spaces ([def.](Introduction+to+Stable+homotopy+theory+--+P#TensoringAndPoweringOfTopologicallyEnrichedCopresheaves))
+
+Dually, their **pullback powering** is the universal morphism
+
+$$
+  f^{\Box i}
+    \coloneqq
+  (Maps(B,f)_\ast, Maps(i,X)_\ast)
+$$
+
+in
+
+$$
+  \array{
+    && Maps(B,X)_\ast
+    \\
+    && \downarrow^{\mathrlap{(Maps(B,f)_\ast, Maps(i,X)_\ast)}}
+    \\
+    && Maps(B,Y)_\ast \underset{Maps(A,Y)_\ast}{\times} Maps(A,X)_\ast
+    \\
+    & \swarrow && \searrow
+    \\
+    Maps(B,Y)_\ast && (pb) && Maps(A,X)_\ast
+    \\
+    & {}_{\mathllap{Maps(i,Y)_\ast}}\searrow 
+      && 
+    \swarrow_{\mathrlap{Maps(A,p)_\ast}}
+    \\
+    && Maps(A,Y)_\ast
+  }
+  \,,
+$$
+
+where 
+
+$$
+  Maps(-,-)_\ast
+   \;\colon\;
+  (Top^{\ast}_{cg})^{op}
+   \times
+  \mathbb{S}_{dia}Mod
+   \simeq
+  (Top^{\ast/}_{cg})^{op}
+   \times
+  [\mathbb{S}_{dia}Free_{Dia}Mod^{op},Top^{\ast/}_{cg}]
+    \longrightarrow
+  [\mathbb{S}_{dia}Free_{Dia}Mod^{op},Top^{\ast/}_{cg}]
+   \simeq
+  \mathbb{S}_{dia}Mod 
+$$ 
+
+denotes the smash powering ([def.](Introduction+to+Stable+homotopy+theory+--+P#TensoringAndPoweringOfTopologicallyEnrichedCopresheaves)).
+
+Similarly, for $f \colon X \to Y$ and $i \colon A \to B$ both morphisms in $\mathbb{S}_{dia}Mod$, then their pullback powering is the universal morphism 
+
+$$
+  f^{\Box i} \coloneqq (\mathbb{S}_{dia}Mod(B,f), \mathbb{S}_{dia}Mod(i,X))
+$$
+
+in 
+
+$$
+  \array{
+    && \mathbb{S}_{dia}Mod(B,X)
+    \\
+    && \downarrow^{\mathrlap{(\mathbb{S}_{dia}Mod(B,f), \mathbb{S}_{dia}Mod(i,X))}}
+    \\
+    && \mathbb{S}_{dia}Mod(B,Y) \underset{\mathbb{S}_{dia}Mod(A,Y)}{\times} \mathbb{S}_{dia}Mod(A,X)
+    \\
+    & \swarrow && \searrow
+    \\
+    \mathbb{S}_{dia}Mod(B,Y) && (pb) && \mathbb{S}_{dia}Mod(A,X)
+    \\
+    & {}_{\mathllap{\mathbb{S}_{dia}Mod(i,Y)}}\searrow 
+      && 
+    \swarrow_{\mathrlap{\mathbb{S}_{dia}Mod(A,p)}}
+    \\
+    && \mathbb{S}_{dia}Mod(A,Y)
+  }
+  \,,
+$$
+
+where now $\mathbb{S}_{dia}Mod(-,-)$ is the [[hom-space]] functor of $\mathbb{S}_{dia}Mod \simeq [\mathbb{S}_{dia}Free_{Dia}Mod^{op}, Top^{\ast/}_{cg}]$ from def. \ref{PointedTopologicalFunctorCategory}.
+
+=--
+
++-- {: .num_prop #PushoutProductWithRespectToSmashTensoringSatisfiesEnrichedModelCategoryAxioms}
+###### Proposition
+
+The operations of forming pushout products and pullback powering with respect to smash tensoring in def. \ref{PushoutProductWithRespectToSmashTensoring} is compatible with the strict model structure $\mathbb{S}_{dia}Mod_{strict}$ on structured spectra from theorem \ref{StrictModelStructureOnDiagramSpectra} and with the [[classical model structure on pointed topological spaces]] $(Top^{\ast/}_{cg})_{Quillen}$  ([thm.](Introduction+to+Stable+homotopy+theory+--+P#ClassicalModelStructureOnCompactlyGeneratedTopologicalSpaces), [prop.](Introduction+to+Stable+homotopy+theory+--+P#ModelStructureOnSliceCategory)) in that pushout product takes two cofibrations to a cofibration, and to an acyclic cofibration if at least one of the inputs is acyclic, and pullback powering takes a fibration and a cofibration to a fibration, and to an acylic one if at least one of the inputs is acyclic:
+
+$$
+  \begin{aligned}
+    Cof_{strict} \Box Cof_{cl}
+    & \subset\;
+    Cof_{strict}
+    \\
+    Cof_{strict} \Box (Cof_{cl} \Box W_{cl})
+    & \subset\;
+    Cof_{strict} \cap W_{strict}
+    \\
+    (Cof_{strict} \cap W_{strict})
+    \Box
+    Cof_{cl}
+    & \subset\;
+    Cof_{strict} \cap W_{strict}
+  \end{aligned}
+  \,.
+$$
+
+Dually, the pullback powering (def. \ref{PushoutProductWithRespectToSmashTensoring}) satisfies
+
+$$
+  \begin{aligned}
+    Fib_{strict}^{\Box Cof_{cl}}
+    & \subset\;
+    Fib_{strict}
+    \\
+    Fib_{strict}^{\Box ( Cof_{cl} \cap W_{cl})}
+    & \subset\;
+    Fib_{strict}\cap W_{strict}
+    \\
+    (Fib_{strict} \cap W_{strict})^{\Box Cof_{cl}}
+    & \subset\;
+    Fib_{strict} \cap W_{strict}
+  \end{aligned}
+  \,.
+$$
+
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+The statement concering the pullback powering follows directly from the analogous statement for topological spaces ([prop.](Introduction+to+Stable+homotopy+theory+--+P#PullbackPowering)) by the fact that via theorem \ref{StrictModelStructureOnDiagramSpectra} the fibrations and weak equivalences in $\mathbb{S}_{dia}Mod_{strict}$ are degree-wise those in $(Top_{cg}^{\ast/})_{Quillen}$, and since smash tensoring and powering is defined degreewise. From this the statement about the pushout product follows dually by [[Joyal-Tierney calculus]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#JoyalTierneyCalculus)).
+
+=--
+
++-- {: .num_remark #StructuredSpectraIsTopologicallyEnrichedModelCategory}
+###### Remark
+
+In the language of [[model category]]-theory, prop. \ref{PushoutProductWithRespectToSmashTensoringSatisfiesEnrichedModelCategoryAxioms} says that $\mathbb{S}_{dia}Mod_{strict}$ is an _[[enriched model category]]_, the enrichment being over $(Top_{cg}^{\ast/})_{Quillen}$. This is often referred to simply as a "topological model category".
+
+=--
+
+We record some immediate consequences of prop. \ref{PushoutProductWithRespectToSmashTensoringSatisfiesEnrichedModelCategoryAxioms} that will be useful.
+
++-- {: .num_example #StandardReducedCylinderOnStructuredSpectrumIsGood}
+###### Example
+
+Let $X \in \mathbb{S}_{dia}Mod_{strict}$ be a structured spectrum, regarded in the strict model structure of theorem \ref{StrictModelStructureOnDiagramSpectra}.
+
+1. The smash powering of $X$ with the standard topological interval $I_+$ ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#StandardReducedCyclinderInTop)) is a good [[path space object]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#PathAndCylinderObjectsInAModelCategory))
+
+   $$
+     \Delta_X
+      \;\colon\;
+     X 
+       \overset{\in W_{strict}}{\longrightarrow}
+     X^{I_+}
+       \overset{\in Fib_{strict}}{\longrightarrow}
+     X \times X
+     \,.
+   $$
+
+1. If $X$ is cofibrant, then its smash tensoring with the standard topological interval $I_+$ ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#StandardReducedCyclinderInTop)) is a good [[cylinder object]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#PathAndCylinderObjectsInAModelCategory))
+
+   $$
+     \nabla_X
+       \;\colon\;
+     X \vee X 
+       \overset{\in Cof_{strict}}{\longrightarrow}
+     X\wedge (I_+)
+       \overset{\in W_{strict}}{\longrightarrow}
+     X
+     \,.
+   $$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+It is clear that we have weak equivalences as shown ($I \to \ast$ is even a [[homotopy equivalence]]), what requires proof is that the path object is indeed good in that $X^{(I_+)} \to X \times X$ is a fibration, and the cylinder object is indeed good in that $X \vee X \to X\wedge (I_+)$ is indeed a cofibration.
+
+For the first statement, notice that the pullback powering (def. \ref{PushoutProductWithRespectToSmashTensoring}) of $\ast \sqcup \ast \overset{(i_0,i_1)}{\longrightarrow} I$ into the terminal morphism $X \to \ast$ is the same as the powering $X^{(i_0,i_1)}$:
+
+$$
+  ((X\to\ast)^{\Box(i_0,i_1)})
+    \;\simeq\;
+  X^{(i_0,i_1)}
+  \,,.
+$$
+
+But since every object in $\mathbb{S}_{dia}Mod_{strict}$ is fibrant, so that $X \to \ast$ is a fibration, and since $(i_0,i_1)$ is a [[relative cell complex]] inclusion and hence a cofibration in $(Top^{\ast/}_{cg})_{Quilln}$, prop. \ref{PushoutProductWithRespectToSmashTensoringSatisfiesEnrichedModelCategoryAxioms} says that $X^{(i_0,i_1)} \colon X^{I_+}\to X \times X$ is a fibration.
+
+Dually, observe that 
+
+$$
+   (\ast \to X) \Box (i_0, i_1)
+     \;\simeq\;
+   X \wedge (i_0,i_1)
+   \,.
+$$
+
+Hence if $X$ is assumed to be cofibrant, so that $\ast \to X$ is a cofibration, then prop. \ref{PushoutProductWithRespectToSmashTensoringSatisfiesEnrichedModelCategoryAxioms} implies that $X \wedge (i_0,i_1) \colon X \wedge X \to X \wedge (I_+)$ is a cofibration.
+
+=--
+
+
++-- {: .num_prop #PushoutProductOfspectrumWithSpaceInteractingWithHomSpaces}
+###### Proposition
+
+For $X \in \mathbb{S}_{dia}Mod$ a [[structured spectum]], $f \in Mor(\mathbb{S}_{dia}Mod)$ any morphism of structured spectra, and for $g  \in Mor(Top_{cpt}^{\ast/})$ a morphism of [[pointed topological spaces]], then the [[hom-spaces]] of def. \ref{PointedTopologicalFunctorCategory} (via prop. \ref{ModulesForDayConvolutionAsEnrichedFunctors}) interact with the pushout-product and pullback-powering from def. \ref{PushoutProductWithRespectToSmashTensoring} in that there is a [[natural isomorphism]]
+
+$$
+  \mathbb{S}_{dia}Mod(f \Box g, X)
+    \simeq
+  (\mathbb{S}_{dia}Mod(f,X))^{\Box g}
+  \,.
+$$
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+Since the pointed compactly generated [[mapping space]] functor ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#PointedMappingSpace)) 
+
+$$
+  Maps(-,-)_\ast
+  \;\colon\;
+  \left(Top^{\ast/}_{cg}\right)^{op}
+  \times
+  Top^{\ast/}_{cg}
+  \longrightarrow
+  Top^{\ast/}_{cg}
+$$
+
+takes [[colimits]] in the first argument to [[limits]] ([cor.](Introduction+to+Stable+homotopy+theory+--+P#MappingSpacesSendsColimitsInFirstArgumentToLimits)) and [[ends]] in the second argument to ends (remark \ref{MappingSpacePreservesEnds}), and since limits and colimits in $\mathbb{S}_{dia}Mod$ are computed objectswise ([this prop.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedCopresheavesHaveAllLimitsAndColimits) via prop. \ref{ModulesForDayConvolutionAsEnrichedFunctors}) this follows with the [[end]]-formula for the mapping space (def. \ref{PointedTopologicalFunctorCategory}):
+
+$$
+  \begin{aligned}
+    \mathbb{S}_{dia}Mod(f \Box g, X)
+    & =
+    \underset{c}{\int} Maps( (f \Box g)(c), X(c) )_\ast
+    \\
+    & \simeq 
+    \underset{c}{\int} Maps( f(c) \Box g, X(c) )_\ast
+    \\
+    & \simeq
+    \underset{c}{\int} Maps( f(c), X(c))_\ast^{\Box g}
+    \\
+    & \simeq
+    \left(
+       \underset{c}{\int} Maps(f(c), X(c))_\ast
+    \right)^{\Box g}
+    \\
+    & \simeq
+    (\mathbb{S}_{dia}Mod(f,X))^{\Box g}
+  \end{aligned}
+  \,.
+$$
+
+
+=--
+
+
+
+
++-- {: .num_prop #ConnectedComponentOfHomSpaceOfSModsIsLeftHomotopyClasses}
+###### Proposition
+
+For $X,Y \in \mathbb{S}_{dia}Mod(Top_{cg})$ two structured spectra with $X$ cofibrant in the strict model structure of def. \ref{StrictModelStructureOnDiagramSpectra}, then there is a [[natural bijection]]
+
+$$
+  \pi_0 \mathbb{S}_{dia}Mod(X,Y)
+  \simeq
+   [X,Y]_{strict}
+$$
+
+between the [[connected components]] of the [[hom-space]] (def. \ref{PointedTopologicalFunctorCategory} via prop. \ref{ModulesForDayConvolutionAsEnrichedFunctors}) and the [[hom-set]] in the [[homotopy category of a model category|homotopy category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfAModelCategory)) of the strict model structure from theorem \ref{StrictModelStructureOnSequentialPrespectraIsModelCategory}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{UniversalPropertyOfTensoringAndPoweringOfFunctorsToTopcg} the path components of the [[hom-space]] are the [[left homotopy]] classes of morphisms of structured spectra with respect to the standard [[cylinder spectrum]] of def. \ref{StandardCylinderSpectrumSequential}:
+
+$$
+  \frac{
+    I_+ \longrightarrow SeqSpec(X,Y)
+  }{
+    X \wedge (I_+) \longrightarrow Y
+  }
+  \,.
+$$
+
+Moreover, by prop. \ref{StandardReducedCylinderOnStructuredSpectrumIsGood} the degreewise standard [[reduced cylinder]] $X \wedge (I_+)$ of structured spectra is a good [[cylinder object]] on $X$ in $\mathbb{S}_{dia}Mod_{strict}$. Hence hom-sets in the strict [[homotopy category of a model category|homotopy category]] out of a cofibrant into a fibrant object are given by standard [[left homotopy]] classes of morphisms
+
+$$
+  [X,Y]_{strict} \simeq Hom_{\mathbb{S}_{dia}Mod}(X,Y)_{/\sim}
+$$
+
+([this lemma](Introduction+to+Stable+homotopy+theory+--+P#HomsOutOfCofibrantIntoFibrantComputeHomotopyCategory)). Since $X$ is cofibrant by assumption and since every object is fibrant in $\mathbb{S}_{dia}Mod_{strict}$, this is the case. Hence the notion of left homotopy here is that seen by the standard interval, and so the claim follows.
+
+=--
+
+##### Monoidal model structure
+
+We now combine the concepts of [[model category]] and [[monoidal category]].
+
+
++-- {: .num_defn #MonoidalModelCategory}
+###### Definition
+
+A (symmetric) **monoidal model category** is [[model category]] $\mathcal{C}$
+([def.](Introduction+to+Stable+homotopy+theory+--+P#ModelCategory)) equipped with the structure of a  [[closed monoidal category|closed]] (def. \ref{ClosedMonoidalCategory}) [[symmetric monoidal category|symmetric]] (def. \ref{SymmetricMonoidalCategory}) [[monoidal category]] $(\mathcal{C}, \otimes, I)$ (def. \ref{MonoidalCategory}) such that the following two compatibility conditions are satisfied
+
+1. **([[pushout-product axiom]])** For every pair of cofibrations $f \colon X \to Y$ and $f' \colon X' \to Y'$, their [[pushout-product]], hence the induced morphism out of the cofibered [[coproduct]] over ways of forming the tensor product of these objects
+
+   $$
+     (X \otimes Y') \coprod_{X \otimes X'} (Y \otimes X')
+     \longrightarrow
+     Y \otimes Y'
+     \,,
+   $$
+
+   is itself a cofibration, which, furthermore, is acyclic if $f$ or $f'$ is.
+
+   (Equivalently this says that the [[tensor product]] $\otimes \colon \mathcal{C} \times \mathcal{C} \to \mathcal{C}$ is a left [[Quillen bifunctor]].)
+
+1. **(unit axiom)** For every cofibrant object $X$ and every cofibrant resolution $\emptyset \overset{\in Cof}{\longrightarrow} Q 1 \underoverset{p_1}{\in W}{\longrightarrow} \ast$ of the [[tensor unit]] $1$, the resulting morphism
+
+   $$
+     Q I \otimes X 
+       \overset{p_1 \otimes X}{\longrightarrow} 
+     1 \otimes X 
+       \underoverset{\ell}{\in W}{\longrightarrow} 
+     X
+   $$ 
+
+  is a weak equivalence.
+
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+The [[pushout-product axiom]] in def. \ref{MonoidalModelCategory} implies that for $X$ a cofibrant object, then the functor $X \otimes (-)$ preserves cofibrations and acyclic cofibrations.
+
+In particular if the [[tensor unit]] $1$ happens to be cofibrant, then the unit axiom in def. \ref{MonoidalModelCategory} is implied by the pushout-product axiom. 
+
+=--
+
++-- {: .num_defn #MonoidAxiom}
+###### Definition
+
+We say a [[monoidal model category]] (def. \ref{MonoidalModelCategory}) satisfies the **[[monoid axiom]]**,  if every morphism that is obtained as a [[transfinite composition]] of [[pushouts]] of [[tensor products]] $X\otimes f$ of acyclic cofibrations $f$ with any object $X$ is a weak equivalence.
+
+=--
+
+([Schwede-Shipley 00, def. 3.3.](#SchwedeShipley)).
+
+
++-- {: .num_prop #MonoidalStructureOnHomotopyCategoryOfMonoidalModelCategory}
+###### Proposition
+
+Let $(\mathcal{C}, \otimes, I)$ be a [[monoidal model category]] (def. \ref{MonoidalModelCategory}). Then the [[left derived functor]] $\otimes^L$ (def. \ref{Introduction+to+Stable+homotopy+theory+--+P#LeftAndRightDerivedFunctors})of the tensor product $\otimes$ exsists and makes the [[homotopy category of a model category|homotopy category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfAModelCategory)) into a [[monoidal category]] $(Ho(\mathcal{C}), \otimes^L, \gamma(I))$ (def. \ref{MonoidalCategory}).
+
+If in in addition $(\mathcal{C}, \otimes,1 )$ satisfies the [[monoid axiom in a monoidal model category|monoid axiom]] (def. \ref{MonoidAxiom}), then the [[localization]] functor $\gamma\colon \mathcal{C}\to Ho(\mathcal{C})$ ([thm.](Introduction+to+Stable+homotopy+theory+--+P#UniversalPropertyOfHomotopyCategoryOfAModelCategory)) carries the structure of a [[lax monoidal functor]] (def. \ref{LaxMonoidalFunctor})
+
+$$
+  \gamma
+    \;\colon\;
+  (\mathcal{C}, \otimes, 1)
+    \longrightarrow
+  (Ho(\mathcal{C}), \otimes^L , \gamma(1))
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Consider the explicit model of the [[homotopy category of a model category|homotopy category]] $Ho(\mathcal{C})$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfAModelCategory)) as the category of fibrant-cofibrant objects in $\mathcal{C}$ with left/right-homotopy classes of morphisms between them.
+
+A [[derived functor]] exists if its restriction to this subcategory preserves weak equivalences. Now the [[pushout-product axiom]] implies that on the subcategory of cofibrant objects the functor $\otimes$ preserves acyclic cofibrations, and so the preservation of all weak equivalences follows by [[Ken Brown's lemma]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#KenBrownLemma))
+
+Hence $\otimes^L$ exists and its [[associativity]] follows simply by restriction. It remains to see its [[unitality]].
+
+To that end, consider the construction of the localization functor $\gamma$ via a fixed but arbitrary choice of (co-)fibrant replacements $Q$ and $R$, assumed to be the identity on (co-)fibrant objects. We fix notation as follows:
+
+$$
+\emptyset \underoverset{\in Cof}{i_X}{\longrightarrow} Q X \underoverset{\in W \cap Fib}{p_x}{\longrightarrow} X
+\;\;\,,\;\;
+X \underoverset{\in W \cap Cof}{j_X}{\longrightarrow} R X \underoverset{\in Fib}{q_x}{\longrightarrow} \ast
+  \,.
+$$
+
+ 
+Now to see that $\gamma(1)$ is the [[tensor unit]] for $\otimes^L$, notice that in the [[zig-zag]]
+
+$$
+  (R Q 1) \otimes (R Q X)
+    \overset{j_{Q 1} \otimes (R Q X)}{\longleftarrow}
+  (Q 1) \otimes (R Q X)
+    \overset{(Q 1)\otimes j_{Q X}}{\longleftarrow}
+  (Q 1) \otimes (Q X)
+    \overset{p_1 \otimes (Q X)}{\longrightarrow}
+  1 \otimes Q X
+    \simeq
+  Q X
+$$
+
+all morphisms are weak equivalences: For the first two this is due to the [[pushout-product axiom]], for the third this is due to the unit axiom on a monoidal model category. It follows that under $\gamma(-)$ this zig-zig gives an isomorphism
+
+$$
+  \gamma(1) \otimes^L \gamma(X)\simeq \gamma(X)
+$$
+
+and similarly for tensor product with $\gamma(1)$ from the right.
+
+To exhibit lax monoidal structure on $\gamma$, we need to construct a [[natural transformation]]
+
+$$
+  \gamma(X) \otimes^L \gamma(Y) \longrightarrow \gamma(X \otimes Y)
+$$
+
+and show that it satisfies the the appropriate [[associativity]] and [[unitality]] condition.
+
+By the definitions at _[[homotopy category of a model category]]_, the morphism in question is to be of the form
+
+$$
+  (R Q X) \otimes (R Q Y) \longrightarrow R Q (X\otimes Y)
+$$
+
+
+To this end, consider the [[zig-zag]]
+
+$$
+  (R Q X) \otimes (R Q Y)
+   \underoverset{\in Cof \cap W}{j_{Q X} \otimes R Q Y}{\longleftarrow}
+  (Q X) \otimes (R Q Y)
+    \underoverset{\in Cof \cap W}{(Q X) \otimes  j_{Q Y} }{\longleftarrow}
+  (Q X) \otimes (Q Y)
+    \overset{p_X \otimes (Q Y)}{\longrightarrow}
+  X \otimes (Q Y)
+    \overset{Y \otimes p_Y}{\longrightarrow}   
+  X \otimes Y
+  \,,
+$$
+
+and observe that the two morphisms on the left are weak equivalences, as indicated, by the [[pushout-product axiom]] satisfied by $\otimes$.
+
+Hence applying $\gamma$ to this zig-zag, which is given by the two horizontal part of the following digram
+
+$$
+  \array{
+    (R Q X) \otimes (R Q Y) &\longleftarrow& R( Q X \otimes Q Y ) &\longrightarrow& R Q (X \otimes Y)
+    \\
+    \uparrow^{\mathrlap{id}} && \uparrow^{\mathrlap{j_{Q X \otimes Q Y}}} && \uparrow^{\mathrlap{j_{Q(X \otimes Y)}}}
+    \\
+    \downarrow^{\mathrlap{id}} && \downarrow^{\mathrlap{id}} && \downarrow^{\mathrlap{p_{X\otimes Y}}}
+    \\
+    (R Q X) \otimes (R Q Y)
+     &\underoverset{\in Cof \cap W}{j_{Q X} \otimes j_{Q Y}}{\longleftarrow}&
+    (Q X) \otimes (Q Y)
+      &\overset{p_X \otimes p_Y}{\longrightarrow}&
+    X \otimes Y
+  }
+  \,,
+$$
+
+and inverting the first two morphisms, this yields a natural transformation as required. 
+
+
+To see that this satisfies associativity if the monoid axiom holds, tensor the entire diagram above on the right with $(R Q Z)$ and consider the following [[pasting]] composite:
+
+$$
+  \array{
+    (R Q X) \otimes (R Q Y) \otimes (R Q Z) &\longleftarrow& R( Q X \otimes Q Y ) \otimes (R Q Z) &\longrightarrow& (R Q (X \otimes Y)) \otimes (R Q Z)
+    \\
+    \uparrow^{\mathrlap{id}} && \uparrow^{\mathrlap{j_{Q X \otimes Q Y} \otimes id }} && \uparrow^{\mathrlap{j_{Q(X \otimes Y)}\otimes id }}
+    \\
+    && && Q(X \otimes Y) \otimes (R Q Z) &\overset{id \otimes j_{Q Z}}{\longleftarrow}& Q(X\otimes Y) \otimes (Q Z)
+    \\
+       \downarrow^{\mathrlap{id}} && \downarrow^{\mathrlap{id}} 
+    && 
+      \downarrow^{\mathrlap{p_{(X\otimes Y)} \otimes id }} 
+    &(\star)& 
+     \downarrow^{\mathrlap{p_{(X \otimes Y)} \otimes id}}
+    \\
+    (R Q X) \otimes (R Q Y) \otimes (R Q Z)
+     &\underoverset{\in Cof \cap W}{j_{Q X} \otimes j_{Q Y} \otimes id}{\longleftarrow}&
+    (Q X) \otimes (Q Y) \otimes (R Q Z)
+      &\overset{p_X \otimes p_Y \otimes id}{\longrightarrow}&
+    X \otimes Y \otimes (R Q Z)
+      &\underset{id \otimes j_{Q Z}}{\longleftarrow}&
+    X\otimes Y \otimes Q Z 
+      &\overset{id \otimes p_Z}{\longrightarrow}& 
+    X \otimes Y \otimes Z  
+  }
+  \,,
+$$
+
+Observe that under $\gamma$ the total top [[zig-zag]] in this diagram gives
+
+$$
+  (\gamma(X) \otimes^L \gamma(Y)) \otimes^L \gamma(Z)
+  \to \gamma(X\otimes Y)\otimes^L \gamma(Z)
+  \,.
+$$
+
+Now by the [[monoid axiom in a monoidal model category|monoid axiom]] (but not by the pushout-product axiom!), the horizontal maps in the square in the bottom right (labeled $\star$) are weak equivalences. This implies that the total horizontal part of the diagram is a [[zig-zag]] in the first place, and that under $\gamma$ the total top zig-zag is equal to the image of that total bottom zig-zag. But by functoriality of $\otimes$, that image of the bottom zig-zag is 
+
+$$
+  \gamma(p_X \otimes p_Y \otimes p_Z) 
+  \circ 
+  \gamma(j_{Q X} \otimes j_{Q Y} \otimes j_{Q Z})^{-1}
+  \,.
+$$
+
+The same argument applies to left tensoring with $R Q Z$ instead of right tensoring, and so in both cases we reduce to the same morphism in the homotopy category, thus showing the associativity condition on the transformation that exhibits $\gamma$ as a lax monoidal functor.
+
+=--
+
+
++-- {: .num_theorem}
+###### Theorem
+
+Let $Dia\in \{Top^{\ast/}_{cg,fin}, Orth, Sym\}$. The strict model structures $\mathbb{S}_{dia}Mod_{strict}$ from theorem \ref{StrictModelStructureOnDiagramSpectrag} equipped with the [[symmetric monoidal smash product of spectra]] (def. \ref{FinitePointedCWComplexes},, def. \ref{SsymModuleSymmetricSpectra}) is a [[monoidal model category]] (def.\ref{MonoidalModelCategory}).
+
+=--
+
+([MMSS 00, theorem 12.1 (iii) with prop. 12.3](#MMSS00)) 
+
+
++-- {: .proof}
+###### Proof
+
+As in the proof of [this proposition](Introduction+to+Stable+homotopy+theory+--+P#PushoutProductInTopCGSendsCofCofToCof) it is sufficient to check that pushout-product axiom on genrating (acylic) cofibration. These are of the form $F_n (i_k)_+$ and $F_n (j_k)_+$. By prop. \ref{SmashProductOfFreeSpectra} these satisfy
+
+$$
+  F_{n_1} (i_{k_1})_+ \; \Box \; F_{n_2} (i_{k_2})_+
+  \;\simeq\;
+  F_{n_1 + n_2} ( i_{k_1} \Box i_{k_2} )_+
+$$
+
+and
+
+$$
+  F_{n_1} (i_{k_1})_+ \; \Box \; F_{n_2} (j_{k_2})_+
+  \;\simeq\;
+  F_{n_1 + n_2} ( i_{k_1} \Box j_{k_2} )_+
+  \,.
+$$
+
+But $i_{k_1} \Box i_{k_2} = i_{k_1 + k_2}$ and $i_{k_1} \Box j_{k_2} = j_{k_1 + k_2}$ ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#PushoutProductOfITopwithITopAndJTop)).
+
+This shows that 
+
+$$
+  F I_+ \Box F_{I_+} \subset F_{I_+}
+$$
+
+and 
+
+$$
+  F_{I_+} \Box F_{J_+} \subset F_{J_+}
+$$
+
+and so the claim follows.
+
+
+=--
+
+
+
+
+
+##### Suspension and looping
+
++-- {: .num_defn}
+###### Definition
+
+For every $n \in \mathbb{N}$, the functors of extracting the $n$th component space of a structured spectrum, and of forming the [[free structured spectrum]] in degree $n$ (def. \ref{FreeStructuredSpectrum}) constitute a [[Quillen adjunction]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#QuillenAdjunction)) between the strict model structure on structured spectra from theorem \ref{StrictModelStructureOnDiagramSpectra} and the [[classical model structure on pointed topological spaces]] ([thm.](Introduction+to+Stable+homotopy+theory+--+P#ClassicalModelStructureOnCompactlyGeneratedTopologicalSpaces), [prop.](Introduction+to+Stable+homotopy+theory+--+P#ModelStructureOnSliceCategory)):
+
+$$
+  \mathbb{S}_{dia}Mod_{strict}
+    \underoverset
+      {\underset{Ev_n}{\longrightarrow}}
+      {\overset{F^{dia}_n}{\longleftarrow}}
+      {\bot}
+  (Top^{\ast/}_{cg})_{Quillen}
+  \,.
+$$
+
+In particular for $n = 0$ and writing $\Sigma^\infty \coloneqq F_0$ and $\Omega^\infty \coloneqq Ev_0$ this yields a Quillen adjunction
+
+$$
+  \mathbb{S}_{dia}Mod_{strict}
+    \underoverset
+      {\underset{\Omega^\infty}{\longrightarrow}}
+      {\overset{\Sigma^\infty}{\longleftarrow}}
+      {\bot}
+  (Top^{\ast/}_{cg})_{Quillen}
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the very definition of the [[projective model structure on functors]] ([thm.](Introduction+to+Stable+homotopy+theory+--+P#ProjectiveModelStructureOnTopologicalFunctors)) it is immediate that $\Omega^\infty$ preserves fibrations and weak equivalences, hence it is a right Quillen functor. $F_n$ is its left adjoint by definition.
+
+=--
 
 
 
@@ -5372,350 +6066,9 @@ By lemma \ref{StableAcyclicFibrationsAreEquivalentlyStrictAcyclicFibrations} the
 
 
 
+
+
 ##### Monoidal model structure
-
-We now combine the concepts of [[model category]] and [[monoidal category]].
-
-
-+-- {: .num_defn #MonoidalModelCategory}
-###### Definition
-
-A (symmetric) **monoidal model category** is [[model category]] $\mathcal{C}$
-equipped with the structure of a  [[closed monoidal category|closed]] [[symmetric monoidal category]] $(\mathcal{C}, \otimes, I)$
-such that the following two compatibility conditions are satisfied
-
-1. ([[pushout-product axiom]]) For every pair of cofibrations $f \colon X \to Y$ and $f' \colon X' \to Y'$, their [[pushout-product]], hence the induced morphism out of the cofibered [[coproduct]] over ways of forming the tensor product of these objects
-
-   $$
-     (X \otimes Y') \coprod_{X \otimes X'} (Y \otimes X')
-     \longrightarrow
-     Y \otimes Y'
-     \,,
-   $$
-
-   is itself a cofibration, which, furthermore, is acyclic if $f$ or $f'$ is.
-
-   (Equivalently this says that the [[tensor product]] $\otimes : C \times C \to C$ is a left [[Quillen bifunctor]].)
-
-1. (unit axiom) For every cofibrant object $X$ and every cofibrant resolution $\emptyset \hookrightarrow Q I \stackrel{p_I}{\longrightarrow} \ast$ of the [[tensor unit]] $I$, the resulting morphism
-
-   $$
-     Q I \otimes X \stackrel{p_I \otimes X}{\longrightarrow} I\otimes X \stackrel{\simeq}{\longrightarrow} X
-   $$ 
-
-  is a weak equivalence.
-
-
-=--
-
-+-- {: .num_remark }
-###### Remark
-
-The [[pushout-product axiom]] in def. \ref{MonoidalModelCategory} implies that for $X$ a cofibrant object, then the functor $X \otimes (-)$ preserves cofibrations and acyclic cofibrations.
-
-In particular if the [[tensor unit]] $I$ happens to be cofibrant, then the unit axiom in def. \ref{MonoidalModelCategory} is implied by the pushout-product axiom. 
-
-=--
-
-+-- {: .num_defn #MonoidAxiom}
-###### Definition
-
-We say a [[monoidal model category]], def. \ref{MonoidalModelCategory}, satisfies the **[[monoid axiom]]**, def. \ref{MonoidalModelCategory}, if every morphism that is obtained as a [[transfinite composition]] of [[pushouts]] of [[tensor products]] $X\otimes f$ of acyclic cofibrations $f$ with any object $X$ is a weak equivalence.
-
-=--
-
-([Schwede-Shipley 00, def. 3.3.](#SchwedeShipley)).
-
-+-- {: .num_remark}
-###### Remark
-
-In particular, the axiom in def. \ref{MonoidAxiom} says that for every object $X$ the functor $X \otimes (-)$ sends acyclic cofibrations to weak equivalences.
-
-=--
-
-
-+-- {: .num_prop #MonoidalStructureOnHomotopyCategoryOfMonoidalModelCategory}
-###### Proposition
-
-Let $(\mathcal{C}, \otimes, I)$ be a [[monoidal model category]]. Then the [[left derived functor]] of the tensor product exsists and makes the [[homotopy category of a model category|homotopy category]] into a [[monoidal category]] $(Ho(\mathcal{C}), \otimes^L, \gamma(I))$.
-
-If in in addition $(\mathcal{C}, \otimes)$ satisfies the [[monoid axiom in a monoidal model category|monoid axiom]], then the [[localization]] functor $\gamma\colon \mathcal{C}\to Ho(\mathcal{C})$ carries the structure of a [[lax monoidal functor]]
-
-$$
-  \gamma
-  \;\colon\;
-  (\mathcal{C}, \otimes, I)
-   \longrightarrow
-  (Ho(\mathcal{C}), \otimes^L , \gamma(I))
-  \,.
-$$
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-Consider the explicit model of $Ho(\mathcal{C})$ as the category of fibrant-cofibrant objects in $\mathcal{C}$ with left/right-homotopy classes of morphisms between them (discussed at _[[homotopy category of a model category]]_).
-
-A [[derived functor]] exists if its restriction to this subcategory preserves weak equivalences. Now the [[pushout-product axiom]] implies that on the subcategory of cofibrant objects the functor $\otimes$ preserves acyclic cofibrations, and then the preservation of all weak equivalences follows by [[Ken Brown's lemma]]. 
-
-Hence $\otimes^L$ exists and its [[associativity]] follows simply by restriction. It remains to see its [[unitality]].
-
-To that end, consider the construction of the localization functor $\gamma$ via a fixed but arbitrary choice of (co-)fibrant replacements $Q$ and $R$, assumed to be the identity on (co-)fibrant objects. We fix notation as follows:
-
-$$
-\emptyset \underoverset{\in Cof}{i_X}{\longrightarrow} Q X \underoverset{\in W \cap Fib}{p_x}{\longrightarrow} X
-\;\;\,,\;\;
-X \underoverset{\in W \cap Cof}{j_X}{\longrightarrow} R X \underoverset{\in Fib}{q_x}{\longrightarrow} \ast
-  \,.
-$$
-
- 
-Now to see that $\gamma(I)$ is the [[tensor unit]] for $\otimes^L$, notice that in the [[zig-zag]]
-
-$$
-  (R Q I) \otimes (R Q X)
-    \overset{j_{Q I} \otimes (R Q X)}{\longleftarrow}
-  (Q I) \otimes (R Q X)
-    \overset{(Q I)\otimes j_{Q X}}{\longleftarrow}
-  (Q I) \otimes (Q X)
-    \overset{p_I \otimes (Q X)}{\longrightarrow}
-  I \otimes Q X
-    \simeq
-  Q X
-$$
-
-all morphisms are weak equivalences: For the first two this is due to the [[pushout-product axiom]], for the third this is due to the unit axiom on a monoidal model category. It follows that under $\gamma(-)$ this zig-zig gives an isomorphism
-
-$$
-  \gamma(I) \otimes^L \gamma(X)\simeq \gamma(X)
-$$
-
-and similarly for tensoring with $\gamma(I)$ from the right.
-
-To exhibit lax monoidal structure on $\gamma$, we need to construct a [[natural transformation]]
-
-$$
-  \gamma(X) \otimes^L \gamma(Y) \longrightarrow \gamma(X \otimes Y)
-$$
-
-and show that it satisfies the the appropriate [[associativity]] and [[unitality]] condition.
-
-By the definitions at _[[homotopy category of a model category]]_, the morphism in question is to be of the form
-
-$$
-  (R Q X) \otimes (R Q Y) \longrightarrow R Q (X\otimes Y)
-$$
-
-
-To this end, consider the [[zig-zag]]
-
-$$
-  (R Q X) \otimes (R Q Y)
-   \underoverset{\in Cof \cap W}{j_{Q X} \otimes R Q Y}{\longleftarrow}
-  (Q X) \otimes (R Q Y)
-    \underoverset{\in Cof \cap W}{(Q X) \otimes  j_{Q Y} }{\longleftarrow}
-  (Q X) \otimes (Q Y)
-    \overset{p_X \otimes (Q Y)}{\longrightarrow}
-  X \otimes (Q Y)
-    \overset{Y \otimes p_Y}{\longrightarrow}   
-  X \otimes Y
-  \,,
-$$
-
-and observe that the two morphisms on the left are weak equivalences, as indicated, by the [[pushout-product axiom]] satisfied by $\otimes$.
-
-Hence applying $\gamma$ to this zig-zag, which is given by the two horizontal part of the following digram
-
-$$
-  \array{
-    (R Q X) \otimes (R Q Y) &\longleftarrow& R( Q X \otimes Q Y ) &\longrightarrow& R Q (X \otimes Y)
-    \\
-    \uparrow^{\mathrlap{id}} && \uparrow^{\mathrlap{j_{Q X \otimes Q Y}}} && \uparrow^{\mathrlap{j_{Q(X \otimes Y)}}}
-    \\
-    \downarrow^{\mathrlap{id}} && \downarrow^{\mathrlap{id}} && \downarrow^{\mathrlap{p_{X\otimes Y}}}
-    \\
-    (R Q X) \otimes (R Q Y)
-     &\underoverset{\in Cof \cap W}{j_{Q X} \otimes j_{Q Y}}{\longleftarrow}&
-    (Q X) \otimes (Q Y)
-      &\overset{p_X \otimes p_Y}{\longrightarrow}&
-    X \otimes Y
-  }
-  \,,
-$$
-
-and inverting the first two morphisms, this yields a natural transformation as required. 
-
-
-To see that this satisfies associativity if the monoid axiom holds, tensor the entire diagram above on the right with $(R Q Z)$ and consider the following [[pasting]] composite:
-
-$$
-  \array{
-    (R Q X) \otimes (R Q Y) \otimes (R Q Z) &\longleftarrow& R( Q X \otimes Q Y ) \otimes (R Q Z) &\longrightarrow& (R Q (X \otimes Y)) \otimes (R Q Z)
-    \\
-    \uparrow^{\mathrlap{id}} && \uparrow^{\mathrlap{j_{Q X \otimes Q Y} \otimes id }} && \uparrow^{\mathrlap{j_{Q(X \otimes Y)}\otimes id }}
-    \\
-    && && Q(X \otimes Y) \otimes (R Q Z) &\overset{id \otimes j_{Q Z}}{\longleftarrow}& Q(X\otimes Y) \otimes (Q Z)
-    \\
-       \downarrow^{\mathrlap{id}} && \downarrow^{\mathrlap{id}} 
-    && 
-      \downarrow^{\mathrlap{p_{(X\otimes Y)} \otimes id }} 
-    &(\star)& 
-     \downarrow^{\mathrlap{p_{(X \otimes Y)} \otimes id}}
-    \\
-    (R Q X) \otimes (R Q Y) \otimes (R Q Z)
-     &\underoverset{\in Cof \cap W}{j_{Q X} \otimes j_{Q Y} \otimes id}{\longleftarrow}&
-    (Q X) \otimes (Q Y) \otimes (R Q Z)
-      &\overset{p_X \otimes p_Y \otimes id}{\longrightarrow}&
-    X \otimes Y \otimes (R Q Z)
-      &\underset{id \otimes j_{Q Z}}{\longleftarrow}&
-    X\otimes Y \otimes Q Z 
-      &\overset{id \otimes p_Z}{\longrightarrow}& 
-    X \otimes Y \otimes Z  
-  }
-  \,,
-$$
-
-Observe that under $\gamma$ the total top [[zig-zag]] in this diagram gives
-
-$$
-  (\gamma(X) \otimes^L \gamma(Y)) \otimes^L \gamma(Z)
-  \to \gamma(X\otimes Y)\otimes^L \gamma(Z)
-  \,.
-$$
-
-Now by the [[monoid axiom in a monoidal model category|monoid axiom]] (but not by the pushout-product axiom!), the horizontal maps in the square in the bottom right (labeled $\star$) are weak equivalences. This implies that the total horizontal part of the diagram is a [[zig-zag]] in the first place, and that under $\gamma$ the total top zig-zag is equal to the image of that total bottom zig-zag. But by functoriality of $\otimes$, that image of the bottom zig-zag is 
-
-$$
-  \gamma(p_X \otimes p_Y \otimes p_Z) 
-  \circ 
-  \gamma(j_{Q X} \otimes j_{Q Y} \otimes j_{Q Z})^{-1}
-  \,.
-$$
-
-The same argument applies to left tensoring with $R Q Z$ instead of right tensoring, and so in both cases we reduce to the same morphism in the homotopy category, thus showing the associativity condition on the transformation that exhibits $\gamma$ as a lax monoidal functor.
-
-=--
-
-
-+-- {: .num_theorem}
-###### Theorem
-
-The stable model structures from theorem \ref{StableModelStructuresOnDiagramSpectra} on the [[categories of modules]] from prop. \ref{HighlyStructuredSpectraAsDayConvolutionSModules}, remark \ref{PreExcisiveFunctorsAreSModules}
-
-$$
-  \mathbb{S}Mod_r \simeq [Top_{fin}^{\ast/}, Top^{\ast/}]
-$$
-
-$$
-  \mathbb{S}_{Orth} Mod_r \simeq OrthSpec(Top)
-$$
-
-$$
-  \mathbb{S}_{Sym} Mod_r \simeq SymSpec(Top)
-$$
-
-are compatible with their [[monoidal category]] structure given by the [[symmetric monoidal smash product of spectra]] $\wedge$ of def. \ref{SymmetricSmashProductOfDiagramSpectra}, in that $(\mathbb{S}_{dia} Mod_{stable}, \wedge_{\mathbb{S}_{dia}})$ in these cases
-
-1. is a [[stable model category]];
-
-1. satisfying the [[monoid axiom in a monoidal model category]].
-
-=--
-
-([MMSS 00, theorem 12.1 (iii) with prop. 12.3](#MMSS00)) 
-
-We give the proof below (...) after a sequence of lemmas.
-
-+-- {: .num_lemma #PushoutSmashProductOfStableCofibsIsStableCofib}
-###### Lemma
-
-The [[pushout product]] of two cofibrations in $\mathbb{S}_{dia}Mod_{stable}$ is again a cofibration.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-A general abstract fact about [[pushout-products]] ([Hovey-Shipley-Smith 00, prop. 5.3.4](#HoveyShipleySmith00), see _[here](pushout-product#PushoutProductOfCofClassIsCofClassOfPushoutProduct)_) is that for $I_1, I_2$ two classes of morphisms in a [[symmetric monoidal category|closed]] [[symmetric monoidal category]] with [[finite limits]] and [[finite colimits]], and writing $I_i Cof$ for their saturated classes, then under [[pushout-product]] $\Box$:
-
-$$
-  (I_1 Cof) \Box (I_2 Cof)
-  \subset 
-  (I_1 \Box I_2) Cof
-  \,.
-$$
-
-Since the cofibrations of the stable model structure, theorem \ref{StableModelStructuresOnDiagramSpectra}, are elements in
-
-
-$$
-  Cof_{stable} = (F I) Cof
-$$
-
-with $F I$ the class of [[free spectra]] on the class of generating cofibrations $I$ of the [[classical model structure on topological spaces]], def. \ref{GeneratingAndGeneratingAcyclicCofibrationsForDiagramSpectra}, this implies in the present case that 
-
-$$
-  Cof_{stable} \Box Cof_{stable}
-  \subset
-  (F I \Box F I) Cof
-  \,.
-$$
-
-Now lemma \ref{PushoutSmashProductOfFreeSpectraOnGeneratingCofibrationsOfTop} implies that 
-
-$$
-  F I \Box F I
-  =
-  F(I \Box I)
-  =
-  F I 
-$$
-
-and hence the claim follows.
-
-=--
-
-
-
-+-- {: .num_lemma }
-###### Lemma
-
-Let $Y \in \mathbb{S}_{dia} Mod_{stable}$ be cofibrant.
-Then the [[smash product of spectra]]-[[functor]] (def. \ref{SymmetricSmashProductOfDiagramSpectra})
-
-$$
-  X \wedge_{\mathbb{S}_{dia}}(-)
-    \;\colon\;
-  \mathbb{S}_{dia} Mod
-    \longrightarrow
-  \mathbb{S}_{dia} Mod
-$$
-
-preserves [[stable weak homotopy equivalences]] as well as stable equivalences (def. \ref{StableEquivalencesForDiagramSpectra}).
-
-=--
-
-([MMSS 00, prop. 12.3](#MMSS00))
-
-+-- {: .num_lemma }
-###### Lemma
-
-The functor
-
-$$
-  X \wedge_{\mathbb{S}_{dia}}(-)
-    \;\colon\;
-  \mathbb{S}_{dia} Mod
-    \longrightarrow
-  \mathbb{S}_{dia} Mod
-$$
-
-sends acylic cofibrations in the stable model structure to morphisms that are stable equivalences and [[h-cofibrations]].
-
-=--
-
-([MMSS 00, prop. 12.5](#MMSS00))
 
 +-- {: .num_prop #StableModelStructureWithSymmetricMonoidalSmashProductSatisfiesPushoutProductAxiom}
 ###### Proposition
