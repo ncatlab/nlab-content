@@ -63,6 +63,7 @@ of [[context extension]] followed by [[dependent product]].
 
 
 ### Relation to random variables in probability theory
+ {#RelationToRandomVariables}
 
 It makes sense to think of $[W,-]$ as producing spaces of [[random variables]] ([Verdier 14](#Verdier14)) depending on [[possible worlds]] $w\in W$ ([Toronto-McCarthy 10b, slide 24](#TorontoMcCarthy10b)). 
 
