@@ -44,3 +44,4 @@ See also:
 
 * [[lambda calculus]]
 * [[domain theory]]
+* [[lambda theory]]
