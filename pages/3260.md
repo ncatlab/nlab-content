@@ -98,7 +98,7 @@ Consider the following three [[homotopical category|homotopical categories]] tha
      G Top_{loc}
    $$
 
-   for all of $G Top$ equipped with weak equivalences given by those morphisms $(f : X \to Y) \in G Top$ that induce on for all [[subgroups]] $H \subset G$ [[weak homotopy equivalences]] $f^H : X^H \to Y^H$ on the $H$-[[fixed point]] spaces, in the standard [[model structure on topological spaces]] (i.e. inducing [[isomorphism]] on [[homotopy groups]]).
+   for all of $G Top$ equipped with weak equivalences given by those morphisms $(f : X \to Y) \in G Top$ that induce on for all [[subgroups]] $H \subset G$ [[weak homotopy equivalences]] $f^H : X^H \to Y^H$ on the $H$-[[fixed point]] spaces, in the standard [[Quillen model structure on topological spaces]] (i.e. inducing [[isomorphism]] on [[homotopy groups]]).
 
 1. Write
 
@@ -107,7 +107,7 @@ Consider the following three [[homotopical category|homotopical categories]] tha
    $$ 
 
    for the projective [[global model structure on functors]] 
-   from the [[opposite category]] of the [[orbit category]] $O_G$ of $G$ to [[model structure on topological spaces|Top]]. 
+   from the [[opposite category]] of the [[orbit category]] $O_G$ of $G$ to the [[Top]] (with its [[Quillen model structure on topological spaces]]). 
 
 
 =--
