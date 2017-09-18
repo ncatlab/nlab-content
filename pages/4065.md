@@ -79,6 +79,8 @@ Discussion of possible realizations in [[superstring theory]] (specifically [[he
 
 * [[Natalie Paquette]], Daniel Persson, Roberto Volpato, _BPS Algebras, Genus Zero, and the Heterotic Monster_ ([arXiv:1701.05169](https://arxiv.org/abs/1701.05169))
 
+* [[Shamit Kachru]], Arnav Tripathy, _The hidden symmetry of the heterotic string_ ([arXiv:1702.02572](https://arxiv.org/abs/1702.02572))
+
 [[!redirects moonshine]]
 
 [[!redirects Moonshine vertex algebra]]
