@@ -30,7 +30,7 @@
 The [[homotopy groups]] of [[spheres]] $\pi_{n+k}(S^n)$ are the [[homotopy classes]] of maps $S^{n+k} \longrightarrow S^n$
 
 $$
-  \pi_{n+k}(S^n) \coloneqq [S^k, S^n]
+  \pi_{n+k}(S^n) \coloneqq [S^{n+k}, S^n]
   \,.
 $$
 
