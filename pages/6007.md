@@ -235,6 +235,12 @@ which one directly sees is natural in $U$, hence extends to a morphism of simpli
 
 =--
 
+Applications are to
+
+* [[transgression]]
+
+* [[double dimensional reduction]]
+
 ## Properties
 
 ### General
