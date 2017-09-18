@@ -260,6 +260,8 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [Secret Blogging Seminar](http://sbseminar.wordpress.com) run by 8 recent Berkeley Ph.D. graduates. "Sort of like a seminar, but with (even) more rude commentary from the audience."
 
+* [Shadows of simplicity](https://tcjpn.wordpress.com) - algebraic combinatorics, umbral calculus
+
 * [Sketches of Topology](http://sketchesoftopology.wordpress.com) (colorful pictures, "visualizations of low dimensional topology")
 
 * [SymOmega](http://symomega.wordpress.com) (root systems, Weyl groups, buildings, algebraic groups...) 
