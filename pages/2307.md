@@ -66,6 +66,7 @@ Textbook accounts include
 For [[complex cobordism theory]] see the references there. 
 
 
+[[!redirects cobordism cohomology]]
 
 [[!redirects cobordism homology theory]]
 
