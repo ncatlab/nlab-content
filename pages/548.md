@@ -245,6 +245,10 @@ See [[inner automorphism 2-group]].
 
 See [[string 2-group]].
 
+#### Platonic 2-group
+
+See _[[Platonic 2-group]]_
+
 ### Equivalences of 2-groups
  {#ExamplesForEquivalencesOf2Groups}
 
