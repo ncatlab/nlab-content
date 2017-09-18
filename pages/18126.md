@@ -15565,8 +15565,8 @@ Then the following are equivalent:
 ###### Proof
 
 First, observe that $X$ is [[locally compact]] in the strong sense of def. \ref{LocallyCompactSpace}:
-By prop. \ref{LocalPropertiesOfLocallyEuclideanSpace} every locally Euclidean space is locally compact in the weak sense that
-neighbourhood contains a compact neighbourhood, but since $X$ is assumed to be Hausdorff,
+By prop. \ref{LocalPropertiesOfLocallyEuclideanSpace} every locally Euclidean space is locally compact in the weak sense that every
+[[neighbourhood]] contains a compact neighbourhood, but since $X$ is assumed to be Hausdorff,
 this implies the stronger statement by prop. \ref{InHausdorffSpacesDefinitionsOfLocalCompactnessAgree}.
 
 **1) $\Rightarrow$ 2)**
@@ -15661,9 +15661,10 @@ A _topological manifold is a [[topological space]] which is
 
 1. [[paracompact Hausdorff topological space|paracompact Hausdorff]] (def. \ref{HausdorffTopologicalSpace}, def. \ref{ParacompactSpace}).
 
-If the local [[Euclidean spaces]] $\mathbb{R}^n \overset{\simeq}{\to} U \subset X$ are all of [[dimension]] $n$
+If the [[Euclidean spaces|Euclidean]] [[neighbourhoods]] $\mathbb{R}^n \overset{\simeq}{\to} U_x \subset X$ 
+of the points $x \in X$ are all of [[dimension]] $n$
 for some $n \in \mathbb{N}$, then the topological manifold is said to be of dimension $n$, too.
-Sometimes one also says "$n$-fold" in this case.
+Sometimes one also speaks of an "$n$-fold" in this case.
 
 =--
 
@@ -15677,7 +15678,7 @@ is required
 to be [[second-countable topological space|second-countable]] (def. \ref{CountableSecond})
 or [[sigma-compact]] (def. \ref{CompactSigma}). But by
 prop. \ref{RegularityConditionsForTopologicalManifoldsComparison} both
-conditions are implied by def. \ref{TopologicalManifold} if there is a [[countable set]] of [[connected components]].
+conditions are implied by def. \ref{TopologicalManifold} as soon as there is a [[countable set]] of [[connected components]].
 Manifolds with uncountably many connected components are rarely considered in practice.
 The restriction to countably many connected components is strictly necessary
 for several important theorems (beyond the scope of our discussion here) such as:
@@ -15713,27 +15714,22 @@ Given an $n$-dimensional [[topological manifold]] $X$ (def. \ref{TopologicalMani
 </div>
 
 
-1. An [[open subset]] $U \subset X$ and a [[homeomorphism]] $\phi \colon \mathbb{R}^n \overset{\phantom{A}\simeq\phantom{A}}{\to} U$ is also called a _[[local coordinate chart]]_ of $X$.
+1. An [[open subset]] $U \subset X$ and a [[homeomorphism]] $\phi \colon \mathbb{R}^n \overset{\phantom{A}\simeq\phantom{A}}{\to} U$ 
+   from the $n$-dimensional [[Euclidean space]] is also called a _[[local coordinate chart]]_ of $X$.
 
-1. An [[open cover]] of $X$ by local charts $\left\{ \mathbb{R}^n \overset{\phi_i}{\to} U \subset X \right\}_{i \in I}$ is called an _[[atlas]]_ of the topological manifold.
+1. An [[open cover]] of $X$ by local charts $\left\{ \mathbb{R}^n \underoverset{\simeq}{\phi_i}{\to} U \subset X \right\}_{i \in I}$ is called an _[[atlas]]_ of the topological manifold.
 
-1. Denoting for each $i,j \in I$ the [[intersection]] of the $i$th chart with the $j$th chart in such an [[atlas]] by
-
-   $$
-     U_{i j} \coloneqq U_i \cap U_j
-   $$
-
-   then the induced homeomorphism
+1. Given such an [[atlas]] then for each $i,j \in I$ the induced homeomorphism
 
    $$
      \mathbb{R}^n
        \supset
         \phantom{AA}
-     \phi_i^{-1}(U_{i j})
+     \phi_i^{-1}(U_i \cap U_j)
        \overset{\phantom{A}\phi_i\phantom{A}}{\longrightarrow}
-     U_{i j}
+     U_i \cap U_j
        \overset{\phantom{A}\phi_j^{-1}\phantom{A}}{\longrightarrow}
-     \phi_j^{-1}(U_{i j})
+     \phi_j^{-1}(U_i \cap U_j)
        \phantom{AA}
        \subset
      \mathbb{R}^n
