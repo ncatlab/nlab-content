@@ -55,7 +55,7 @@ The topological Yang-Mills action also appears in the [[generalized Chern-Simons
 
 A general account emphasizing the relation to [[Chern-Simons theory]] is
 
-* P van Baal, _An introduction to topological Yang-Mills theory_ , Acta Physica Polonica Vol. B21 ([pdf](http://www.actaphys.uj.edu.pl/vol21/pdf/v21p0073.pdf))
+* P van Baal, _An introduction to topological Yang-Mills theory_ , Acta Physica Polonica Vol. B21 ([pdf](http://www.actaphys.uj.edu.pl/fulltext?series=Reg&vol=21&page=73))
 
 The relation to [[Chern-Simons theory]] on the boundary in an ambient [[string theory|string theoretic]] context is indicated in section 2 (starting around p. 21) of
 
