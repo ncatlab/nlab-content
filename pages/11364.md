@@ -100,7 +100,7 @@ Of course, in some cases there may be more than one $\gamma \in \Gamma$ that fix
 
 As an abstract [[group]], $\Gamma = PSL_2(\mathbb{Z})$ is a [[free product]] $\mathbb{Z}/(2) \ast \mathbb{Z}/(3)$; explicitly, we may take the generator of order $2$ to be given by the Moebius transformation $z \mapsto -1/z$, and the generator of order $3$ to be given by $z \mapsto (z-1)/z$. 
 
-This [[concrete group]] and certain of its subgroups, such as [[congruence subgroups]], are fairly ubiquitous; for example the modular group appears in the theory of [rational tangles](http://ncatlab.org/nlab/show/continued+fraction#rational_tangles), and these groups frequently crop up in the theory of buildings (stuff on hyperbolic buildings to be filled in). 
+This [[concrete group]] and certain of its subgroups, such as [[congruence subgroups]], are fairly ubiquitous; for example the modular group appears in the theory of [rational tangles](http://ncatlab.org/nlab/show/continued+fraction#rational_tangles) and of  [[combinatorial map|trivalent maps]], and these groups frequently crop up in the theory of buildings (stuff on hyperbolic buildings to be filled in). 
 
 It is also worth pointing out that $\Gamma$ is a quotient of the [[braid group]] $B_3$. Consider the standard Artin presentation of $B_3$, with two generators $\sigma_1$, $\sigma_2$ subject to the relation 
 
