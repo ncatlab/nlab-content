@@ -306,7 +306,7 @@ The [[nLab:simplex category|simplex category]] $\Delta$ is equivalent to the [[f
 $$
   i \colon \Delta \hookrightarrow Cat
 $$
-of [[Cat]] on non-empty finite [[linear orders]] regarded as categoris, meaning that the object $[n] \in Obj(\Delta)$ may be identified with the category $[n] = \{0 \to 1 \to 2 \to \cdots \to n\}$. The morphisms of $\Delta$ are all functors between these total linear categories.
+of [[Cat]] on non-empty finite [[linear orders]] regarded as categories, meaning that the object $[n] \in Obj(\Delta)$ may be identified with the category $[n] = \{0 \to 1 \to 2 \to \cdots \to n\}$. The morphisms of $\Delta$ are all functors between these total linear categories.
 
 =--
 
