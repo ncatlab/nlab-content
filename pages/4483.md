@@ -41,7 +41,7 @@ If there is any [[homomorphism]] at all between two fields, then they have the s
 
 ## Examples
 
-If $n$ is a positive natural number, then the characteristic of $\mathbb{N}/n = \mathbb{Z}/n$ is $n$.  This rig is always a [[commutative ring]], and it is a [[field]] if and only if $n$ is prime, in which case it is the [[prime field]] $\mathbb{F}_n$.  More generally, every [[finite field]] has positive prime characteristic.
+If $n$ is a positive natural number, then the characteristic of $\mathbb{N}/n = \mathbb{Z}/n$ is $n$.  This ring is always a [[commutative ring]], and it is a [[field]] if and only if $n$ is prime, in which case it is the [[prime field]] $\mathbb{F}_n$.  More generally, every [[finite field]] has positive prime characteristic.
 
 For $n = 0$, $\mathbb{N}/0 = \mathbb{N}$, $\mathbb{Z}/0 = \mathbb{Z}$, and the prime field $\mathbb{F}_0 = \mathbb{Q}$ (the field of [[rational numbers]]) are no longer all the same, but they still all have characteristic $0$.  Every [[ordered field]] has characteristic $0$.  The [[real numbers]] and [[complex numbers]] each form fields of characteristic $0$.
 
