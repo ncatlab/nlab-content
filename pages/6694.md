@@ -103,6 +103,8 @@ The idea captured by corollary \ref{ContinuousBijectionsFromCompactSpacesToHausd
 
 ## Related statements
 
+* [[proper maps to locally compact spaces are closed]]
+
 * [[a CW-complex is a Hausdorff space]]
 
 * [[Hausdorff implies sober]]
