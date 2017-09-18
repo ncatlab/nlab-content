@@ -29,7 +29,7 @@ $$
  \,.
 $$
 
-As a variable of two arguments, this is actually a _[[Jacobi form]]_. These are the local coordinate expressions of the the covariantly constants sections of the [[Hitchin connection]] (for [[circle group]] [[gauge group]]) on the [[moduli space of elliptic curves]] ([Hitchin 90, remark 4.12](#Hitchin90)). See there for more and see at _[[theta function]]_ for the general idea.
+As a variable of two arguments, this is actually a _[[Jacobi form]]_. These are the local [[coordinate]] expressions of the the [[covariant derivative|covariantly constant]] [[sections]] of the [[Hitchin connection]] (for [[circle group|circle]] [[gauge group]]) on the [[moduli space of elliptic curves]] ([Hitchin 90, remark 4.12](#Hitchin90)). See there for more and see at _[[theta function]]_ for the general idea.
 
 At $z =0$ the function
 
