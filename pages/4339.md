@@ -49,10 +49,4 @@ and so this ring is not [[integral domain|integral]].
 
 This illustrates one advantage of using unbiased rather than [[biased definition|biased]] definitions: if one has replaced "for all $n$" with "for both $0$ and $2$" then it is very easy to forget the "$0$" case and end up with a definition that fails for the trivial case.
 
-In a similar vein we can define [[connected space|path connected]] by
-
-* A space is path connected if for each finite subset there is a path passing through every point of that subset.
-
-Then the empty space is not path connected because it has no paths at all and hence no path through the empty subset.
-
 [[!redirects too simple to be simple]]
