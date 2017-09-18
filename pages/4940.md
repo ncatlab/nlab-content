@@ -23,7 +23,7 @@ $$
   \partial S = \bar S \backslash S^\circ
 $$
 
-Letting $\neg$ denote set-theoretic complementation, $\partial S = \neg (S^\circ \cup (\neg S)^\circ)$. It is a closed set. 
+Letting $\neg$ denote set-theoretic complementation, $\partial S = \neg (S^\circ \cup (\neg S)^\circ)$. It is a closed set. If we consider $\partial$ restricted to closed sets as an operation on closed sets, then it becomes a special case of the boundary operator on a [[co-Heyting algebra]]; see there for further properties. 
 
 ### Of a manifold
 
@@ -31,11 +31,11 @@ In a [[manifold with boundary]] of [[dimension]] $n$ the boundary is the collect
 
 ## Properties 
 
-One reason behind the notation $\partial$ may be this: 
+One reason behind the notation $\partial$ may be this (cf. [[co-Heyting algebra]]): 
 
 +-- {: .num_prop} 
 ###### Proposition 
-Let $X, Y$ be topological spaces. Then for closed subsets $A \subseteq X$ and $B \subseteq Y$, the [[Leibniz identity]] $\partial (A \times B) = (\partial A \times B) \cup (A \times \partial B)$ holds. 
+Let $X, Y$ be topological spaces. Then for closed subsets $A \subseteq X$ and $B \subseteq Y$, the [[Leibniz rule]] $\partial (A \times B) = (\partial A \times B) \cup (A \times \partial B)$ holds. 
 =-- 
 
 Notice the conclusion *must* fail if $A$, $B$ are *not* closed, since in this case $(\partial A \times B) \cup (A \times \partial B)$ is not closed (it doesn't include $\partial A \times \partial B$). 
