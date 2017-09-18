@@ -1,10 +1,13 @@
 
-Jonathan Pridham is a mathematician based in Trinity College, Cambridge.  His publication and preprint list is [here](http://www.dpmms.cam.ac.uk/~jpp24/).
+Jonathan Pridham is a mathematician based in Edinburgh.  
 
+* [webpage](http://www.maths.ed.ac.uk/~jpridham/)
 
-## related entries
+* [publications](http://www.maths.ed.ac.uk/~jpridham/#preprints)
 
-* [[model structure for L-infinity algebra]]
+## related $n$Lab entries
+
+* [[model structure for L-infinity algebras]]
 
 * [[geometric infinity-stacks]]
 
