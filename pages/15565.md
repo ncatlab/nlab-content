@@ -61,7 +61,7 @@ The original articles are
 
 Introduction and survey is in 
 
-* {#Buium13} [[Alexandru Buium]], _Differential calculus with integers_ ([arXiv:1308.5194](http://arxiv.org/abs/1308.5194), [slighly differing pdf](http://www.math.unm.edu/~buium/statupdated.pdf))
+* {#Buium13} [[Alexandru Buium]], _Differential calculus with integers_ ([arXiv:1308.5194](http://arxiv.org/abs/1308.5194), [slightly differing pdf](http://www.math.unm.edu/~buium/statupdated.pdf))
 
 Discussion in the context of the [[function field analogy]] is in 
 
