@@ -107,6 +107,12 @@ In particular, every [[associative algebra]] is alternative.
 
 The properly [[nonassociative algebra]] of [[octonions]] is also alternative. The reason is that it is obtained by a [[double of algebra with involution|doubling procedure]] from the algebra of [[quaternions]] which is associative; and the double of any associative $\mathbf{R}$-algebra with involution is alternative. 
 
+## Related concepts 
+
+* [[Cayley-Dickson construction]] 
+
+* [[composition algebra]]
+
 ## References
 
 * {#Schafer95} R. D. Schafer, chapter III of _Introduction to Non-Associative Algebras_ Dover, New York, 1995. ([web](https://archive.org/details/anintroductionto25156gut))
