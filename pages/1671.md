@@ -15,8 +15,13 @@
 
 ## Idea
 
-The axiom of __countable choice__ ($CC$), also called $AC_\omega$ or $AC_N$, is a weak form of the [[axiom of choice]]; it says that the set of [[natural number]]s is a [[projective object]] in [[Set]].  (Recall that the full axiom of choice states that *every* set is projective.)  All the reasoning in this page is [[constructive mathematics|constructive]].
+The axiom of __countable choice__ ($CC$), also called $AC_\omega$ or $AC_N$, is a weak form of the [[axiom of choice]]; it says that the set of [[natural number]]s is a [[projective object]] in [[Set]].  (Recall that the full axiom of choice states that *every* set is projective.)
 
+In [[classical mathematics]], countable choice is usually accepted because the full axiom of choice is accepted.  In [[constructive mathematics]] the situation is more subtle.  For varying reasons, some schools of constructive mathematics accept countable choice (though they reject the full axiom of choice).  On the other hand, countable choice is not valid in the [[internal logic]] of a general topos, so if one desires this level of generality then it should not be assumed.  There are also philosophical constructivist arguments against it.  [[Fred Richman]] [(RichmanFTA)](#RichmanFTA) has said that
+
+> Countable choice is a blind spot for constructive mathematicians in much the same way as excluded middle is for classical mathematicians.
+
+All the reasoning in this page is [[constructive mathematics|constructive]].
 
 ## Definition
 
@@ -58,6 +63,7 @@ An even weaker form of countable choice was proposed by [Martin Escardo](#Escard
 
 *  {#EscardoCN}Martin Escardo et. al., *Special case of countable choice*, message and discussion to the constructivenews list, [google groups](https://groups.google.com/d/msg/constructivenews/PeLsQWDFJNg/7piOmUHbAAAJ)
 
+*  {#RichmanFTA} [[Fred Richman]], *The fundamental theorem of algebra: a constructive development without choice*.  [pdf](http://math.fau.edu/richman/Docs/Fta.pdf)
 
 category: foundational axiom
 
