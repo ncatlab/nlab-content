@@ -577,7 +577,7 @@ $$
   \,.
 $$
 
-Moreover, given any choice of [[split exact sequence|splitting]] of the underlying short exact sequence of [[vector spaces]] as $\mathfrak{\pois}(X,\omega) \simeq_{vs} HamVect(X,\omeha)\oplus H^0(X)$, which is equivalently a choice of Hamitlonian $H_v$ for each Hamiltonian vector field $v$, the [[Lie algebra cohomology]] 2-[[cocycle]] which classifies this extension is 
+Moreover, given any choice of [[split exact sequence|splitting]] of the underlying short exact sequence of [[vector spaces]] as $\mathfrak{pois}(X,\omega) \simeq_{vs} HamVect(X,\omega)\oplus H^0(X)$, which is equivalently a choice of Hamitlonian $H_v$ for each Hamiltonian vector field $v$, the [[Lie algebra cohomology]] 2-[[cocycle]] which classifies this extension is 
 
 $$
   (v_1, v_2) = \iota_{v_2}\iota_{v_1}\omega - H_{[v_1,v_2]}
@@ -1235,6 +1235,7 @@ The non-vanishing dg-Lie brackets on this complex are given by the evident [[act
 ([FRS 13b, def./prop. 4.2.1](#FRS13b))
 
 One then finds a direct higher analog of corollary \ref{EquivalenceBetweenPoissonBracketAndInfinQuantomorphism} (its proof however is requires a bit more work):
+
 
 +-- {: .num_prop #ComparisonTheorem}
 ###### Proposition
