@@ -93,16 +93,16 @@ Physics-style  surveys include the introductory lecture notes
 * Marcos Marino, _Instantons and Large $N$ -- An introduction to non-perturbative methods in QFT_ ([pdf](http://laces.web.cern.ch/laces/LACES10/notes/instlargen.pdf))
 
 
-* Hilmar Forkel, _A Primer on Instantons in QCD_ ([arXiv:hep-ph/0009136](http://arxiv.org/abs/hep-ph/0009136))
- {#Forkel}
+* {#Forkel} Hilmar Forkel, _A Primer on Instantons in QCD_ ([arXiv:hep-ph/0009136](http://arxiv.org/abs/hep-ph/0009136))
+ 
 
 and the fairly detailed account (with lot of pointers to the literature)
 
-* T. Schaefer, E. Shuryak, _Instantons in QCD_, Rev. Mod. Phys.70:323-426,1998 ([arXiv:hep-ph/9610451](http://arxiv.org/abs/hep-ph/9610451)) 
-  {#SchaeferShuryak98}
+* {#SchaeferShuryak98} T. Schaefer, E. Shuryak, _Instantons in QCD_, Rev. Mod. Phys.70:323-426,1998 ([arXiv:hep-ph/9610451](http://arxiv.org/abs/hep-ph/9610451)) 
+  
 
-  section III D: relation to [[confinement]]
-  {#SchaeferShuryak}
+  {#SchaeferShuryak} section III D: relation to [[confinement]]
+  
 
 * Dmitri Diakonov, _Instantons at work_ ([arXiv:hep-ph/0212026](http://arxiv.org/abs/hep-ph/0212026))
 
@@ -110,10 +110,15 @@ See also the survey in
 
 * Marcus Hutter, _Instantons in QCD: Theory and Application of the Instanton Liquid Model_ ([arXiv:hep-ph/0107098](http://arxiv.org/abs/hep-ph/0107098))
 
+A survey with emphasis on the [[strong CP problem]] is in
+
+* [[Roberto Peccei]], _The Strong CP Problem and Axions_, Lect.Notes Phys.741:3-17,2008 ([arXiv:hep-ph/0607268](http://arxiv.org/abs/hep-ph/0607268))
+
+
 A more mathematically precise account which identifies instanton solutions explicitly equivalence classes of $G$-principal bundles is around Example 9.12 (p.320) and Section 10.5.5 (p.360) of
 
-* Nakahara, _Geometry Topology and Physics_
- {#Nakahara}
+* {#Nakahara} Nakahara, _Geometry Topology and Physics_
+ 
 
 This perspective is for instance also the one used in 
 
