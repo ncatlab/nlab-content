@@ -23,7 +23,8 @@
 
 ## Idea
 
-For $C$ a [[symmetric monoidal model category]] there are various conditions under which the category $CMon(C)$ of [[commutative monoids]] in $C$ inherits a natural [[model structure]] such that the [[weak equivalences]] and [[fibrations]] are defined as in $C$.
+Let $C$ be [[symmetric monoidal category]] and $C$ the category of [[commutative monoids]] in $C$.
+When $C$ is further a [[model category]], there are certain conditions under which there is an induced [[model structure]] on $CMon(C)$, where the [[weak equivalences]] and [[fibrations]] are defined as in $C$.
 
 ## Distinction between E-infinity monoids
 
@@ -36,6 +37,8 @@ For example, take $C$ to be the category of [[chain complexes]] over a [[field]]
 Then the category of [[commutative monoids]] in $C$ is the category of [[commutative dg-algebras]].
 This does not have an induced [[model structure]], as explained in [MO/23885/2503](http://mathoverflow.net/a/23885/2503).
 
+See [Rectification](#Rectification) for some results on when the [[model structures]] on [[E-infinity monoids]] and [[commutative monoids]] are [[Quillen equivalent]], though.
+
 ## Definition
 
 Let $C$ be a [[symmetric monoidal model category]] and let $CMon(C)$ denote the category of [[commutative monoids]] in the underlying category of $C$.
@@ -44,7 +47,21 @@ Below we will give sufficient conditions for this to define a [[model structure]
 
 ## Existence
 
-To state the existence theorem, we will need some set-theoretic assumptions.
++-- {: .un_theorem}
+###### Theorem
+Suppose that
+  * $C$ is [[combinatorial model category|combinatorial]],
+  * $C$ is _freely powered_, i.e.
+    * $C$ satisfies the [[monoid axiom in a monoidal model category]],
+    * $C$ is [[left proper model category|left proper]] and ...
+    * every cofibration in $C$ is a _power cofibration_, i.e. ...
+
+Then the category $CMon(C)$ is a [[combinatorial model category]] with [[weak equivalences]] and [[fibrations]] as defined above.
+=--
+
+See ([Lurie](#LurieHA), Proposition 4.5.4.6).
+
+Next we state a more general version of this result, for which we will require some set-theoretic assumptions.
 Suppose that $C$ is [[cofibrantly generated model category|cofibrantly generated]] by a set of [[cofibrations]] $I$ and a set of [[trivial cofibrations]] $J$.
 Let $I \otimes C$-cell denote the closure of $I \otimes C = \{ i \otimes \id_X : i \in I, X \in Ob(C) \}$ under [[cobase change]] and [[transfinite composition]], and similarly for $J \otimes C$-cell.
 
@@ -56,7 +73,7 @@ Suppose that
   * $C$ satisfies the [[monoid axiom in a monoidal model category]]
   * $C$ satisfies the _commutative monoid axiom_, i.e. ...
 
-Then the category $CMon(C)$ is a [[cofibrantly generated model category]] with [[weak equivalences]] (resp. [[fibrations]]) as defined above.
+Then the category $CMon(C)$ is a [[cofibrantly generated model category]] with [[weak equivalences]] and [[fibrations]] as defined above.
 
 If $C$ is further [[simplicial model category|simplicial]] (resp. [[combinatorial model category|combinatorial]], [[tractable model category|tractable]]), then so is $CMon(C)$.
 =--
@@ -65,12 +82,16 @@ See ([White 14](#White14), Theorem 3.2).
 
 ## Rectification
 
-Rectification is the question whether the [[weak equivalence]] between the [[operads]] [[Comm]] and the [[E-infinity operad]] induces a [[Quillen equivalence]] on the [[model category of algebras over an operad|model categories of algebras]].
+Rectification of $E_\infty$-monoids is the question of whether the [[weak equivalence]] between the [[operads]] [[Comm]] and the [[E-infinity operad]] induces a [[Quillen equivalence]] on the [[model category of algebras over an operad|model categories of algebras]].
+Since the [[model category of algebras over an operad]] over the [[E-infinity operad]] is a presentation of the [[(infinity,1)-category]] of [[commutative monoids in a symmetric monoidal (infinity,1)-category]], rectification for $C$ is equivalent to saying that the [[(infinity,1)-category]] presented by the model structure on [[commutative monoids]] is equivalent to the [[(infinity,1)-category]] of [[commutative monoids in a symmetric monoidal (infinity,1)-category]] in the [[symmetric monoidal (infinity,1)-category]] presented by $C$.
 
-* Rectification holds in the [[model category of symmetric spectra]].
-* It does not hold in the [[model category of simplicial sets]].
+The following cases are particularly interesting.
 
-See ([White 14](#White14), Paragraph 4.2) for more discussion.
+* Rectification holds in the [[model category]] of [[symmetric spectra]].
+* It does not hold in the [[model category]] of [[simplicial sets]] or in the [[model category]] of [[simplicial abelian groups]].
+
+See ([Lurie](#LurieHA), Theorem 4.5.4.7) for sufficient conditions for rectification to hold.
+See also ([White 14](#White14), Paragraph 4.2) for more discussion.
 
 ## Related concepts
 
@@ -88,8 +109,13 @@ See ([White 14](#White14), Paragraph 4.2) for more discussion.
 
 * {#White14} [[David White]], _Model Structures on Commutative Monoids in General Model Categories_, [arXiv:1403.6759](http://arxiv.org/abs/1403.6759).
 
-* [[Jacob Lurie]], _[[Higher Algebra]]_.
+* {#LurieHA} [[Jacob Lurie]], _[[Higher Algebra]]_.
 
-[[!redirects model structure on monoids]]
+[[!redirects commutative monoids in a symmetric monoidal model category]]
 
-[[!redirects model structures on monoids]]
+[[!redirects model structure on commutative monoids]]
+[[!redirects model structures on commutative monoids]]
+[[!redirects model category of commutative monoids]]
+[[!redirects model categories of commutative monoids]]
+[[!redirects model category of commutative monoids in a symmetric monoidal model category]]
+[[!redirects model categories of commutative monoids in a symmetric monoidal model category]]
