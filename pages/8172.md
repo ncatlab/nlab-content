@@ -1225,9 +1225,12 @@ and is reproduced in
 
 Traditional reviews include
 
-* {#Ravenel06} [[Doug Ravenel]], _A Novice's guide to the Adams-Novikov spectral sequence_, in Geometric Applications of Homotopy Theory II Volume 658 of the series Lecture Notes in Mathematics pp 404-475
 
-* {#Ravenel} [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_, 
+* {#Ravenel} [[Doug Ravenel]], _[[Complex cobordism and stable homotopy groups of spheres]]_, 1986 onwards
+
+* {#McCleary01} [[John McCleary]], chapter 9 of _[A user's guide to spectral sequences](https://pages.vassar.edu/mccleary/books/users-guide-to-spectral-sequences/)_, Cambridge University Press, 2001 
+
+* {#Ravenel06} [[Doug Ravenel]], _A Novice's guide to the Adams-Novikov spectral sequence_, in Geometric Applications of Homotopy Theory II Volume 658 of the series Lecture Notes in Mathematics pp 404-475, 2006(?)
 
 * {#Goerss2007} [[Paul Goerss]], _The Adams-Novikov spectral sequence and the Homotopy Groups of Spheres_, lecture notes 2007 ([pdf](http://www.math.northwestern.edu/~pgoerss/papers/stras1.pdf))
 
