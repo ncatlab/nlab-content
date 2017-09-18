@@ -4,7 +4,7 @@
 
 ##Idea
 
-**Eff** is a functional programming language based on algebraic effects and their handlers.
+**Eff** is a functional programming language based on algebraic effects and their [[effect handler|handlers]].
 
 ##References
 
