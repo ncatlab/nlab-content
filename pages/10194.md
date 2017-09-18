@@ -1,4 +1,13 @@
 
 * [webpage](http://www.cardiff.ac.uk/maths/contactsandpeople/profiles/hollandss.html)
 
+## related $n$Lab entries
+
+
+* [[AQFT on curved spacetimes]]
+
+* [[Yang-Mills theory]]
+
+* [[causal perturbation theory]], [[perturbative AQFT]]
+
 category: people
