@@ -35,15 +35,21 @@ $$
 
 =-- 
 
-In other words, the join is the [[pushout]] in [[Top]] of the [[diagram]]
+In other words, the join is the [[colimit]] in [[Top]] of the [[diagram]]
 
-$$\array{
- & & X \times Y & & & & X \times Y & & \\
- & \mathllap{\pi_1} \swarrow & & \searrow \mathrlap{i_0} & & \mathllap{i_1} & & \searrow \mathrlap{\pi_2} & \\ 
-X & & & & X \times I \times Y & & & & Y
-}$$ 
+$$
+  \array{
+   & & X \times Y & & & & X \times Y & & 
+   \\
+   & \mathllap{\pi_1} \swarrow & & \searrow \mathrlap{i_0} & & \mathllap{i_1} \swarrow & & \searrow \mathrlap{\pi_2} & 
+   \\ 
+   X & & & & X \times I \times Y & & & & Y
+}
+$$ 
 
 where $i_0$ is the inclusion $(x, y) \mapsto (x, 0, y)$, and $i_1$ is the inclusion $(x, y) \mapsto (x, 1, y)$. 
+
+(This in turn, by the discussion at _[[mapping cone]]_, is a model for the [[homotopy type]] of the [[homotopy pushout]] of the two projections $X \leftarrow X \times Y \to Y$.)
 
 Intuitively, $X \ast Y$ is the union of all line segments connecting $X$ to $Y$ when these are placed in general position in an ambient [[Euclidean space]]. 
 
