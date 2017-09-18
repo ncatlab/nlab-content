@@ -1,26 +1,46 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
 # Pointed categories
 * table of contents
 {: toc}
 
 ## Definition
 
-A category is (sometimes) called __pointed__ if it has a [[zero object]]. Every such category (at least if [[locally small category|locally small]]) may be interpreted as [[enriched category|enriched]] over the category of [[pointed set]]s using the [[smash product]] as tensor, (but not necessarily the other way around).
+A [[category]] is sometimes called __pointed__ if it has a [[zero object]] (e.g. [Quillen 67, II.2 def. 4](#Quillen67)), i.e. if it has an [[initial object]] and a [[terminal object]] and they are [[isomorphism|isomorphic]]. 
 
+(If the morphism from the [[initial object]] to the [[terminal object]] is not necessarily an [[isomorphism]] but just a [[monomorphism]] then one speaks also of a [[quasi-pointed category]].)
 
-## Remarks
+Every category of [[pointed objects]] is a pointed category in this sense, and this is probably the motivation for the terminology. 
 
-* The terminology certainly comes from the fact that every category of [[pointed object]]s has a [[zero object]]: the point.
+Beware that the concept of _[[pointed objects]] in [[Cat]]_, which may also be called "pointed categories" is more general and more restricted: these are categories with any one [[object]] singled out, with [[functors]] between them preserving these objects.
 
-* In the homotopical context of a [[category of fibrant objects|pointed category of fibrant objects]] many of the familiar constructions from homotopy theory in [[Top]] have analogs.
+Beware also that the concept of _[[well-pointed topos]]_ is unrelated.
 
-* Notice that this notion of pointed is _not_ related to usage such as in [[well-pointed topos]].  Nor is it to be confused with a [[pointed object]] in [[Cat]], which is just a category equipped with a chosen object (which need not be initial or terminal).
+## Properties
 
-* A slight weakening of the concept of a pointed category is that of a [[quasi-pointed category]].
+### Canonical enrichment in pointed sets
+
+Every [[locally small category|locally small]] pointed category is naturally  [[enriched category|enriched]] over the category of [[pointed sets]] using the [[smash product]] as [[tensor product]], (but the converse may fail).
+
 
 ## Related concepts
 
 * [[linear model category]]
+
+## References
+
+* {#Quillen67} [[Daniel Quillen]], chapter I, section 2, def. 4 of _Homotopical algebra_, Lecture Notes in Mathematics __43__, Springer-Verlag 1967, iv+156 pp.
+
 
 [[!redirects pointed category]]
 [[!redirects pointed categories]]
