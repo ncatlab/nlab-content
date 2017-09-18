@@ -19,7 +19,7 @@
 
 ## Idea
 
-The category of [[dg-modules]] over a [[dg-algebra]], or more generally a [[dg-category]], admits dg-[[enriched model category|enriched]] [[model structures]] which present the [[(infinity,1)-category]] or [[dg-category]] of [[dg-modules]].
+The category of [[dg-modules]] over a [[dg-algebra]], or more generally a [[dg-category]], admits [[dg-model structures]] which present the [[derived (infinity,1)-category of dg-modules]].
 
 In the case of [[dg-algebras]] in an [[abelian category]] $\mathcal{A}$, [[dg-modules]] are the same as [[module over an algebra over an operad|modules]] over [[algebra over an operad|algebras]] over the [[associative operad]] in $Ch(\mathcal{A})$. These admit model structures as described in [[model structure on modules over an algebra over an operad]], [[transferred model structure|transferred]] from the [[model structures on chain complexes]] in $\mathcal{A}$.
 
@@ -27,19 +27,17 @@ More generally there are [[model structures]] on [[dg-modules]] over a [[dg-cate
 
 ## Definition
 
-+-- {: .un_defn}
++-- {: .un_theorem}
 ###### Theorem
-There is a projective [[model structure]] on the category of [[dg-modules]], where the [[weak equivalences]] are object-wise [[quasi-isomorphisms]] of [[chain complexes]], and the [[fibrations]] are object-wise [[epimorphisms]].
+There is a [[cofibrantly generated model structure]] on the category of [[dg-modules]], called the **projective model structure**, where the [[weak equivalences]] are object-wise [[quasi-isomorphisms]] of [[chain complexes]], and the [[fibrations]] are object-wise [[epimorphisms]]. This is a [[dg-model structure]].
 =--
 
-+-- {: .un_defn}
++-- {: .un_theorem}
 ###### Theorem
-There is an injective [[model structure]] on the category of [[dg-modules]], where the [[weak equivalences]] are object-wise [[quasi-isomorphisms]] of [[chain complexes]], and the [[cofibrations]] are object-wise [[monomorphisms]].
+There is a [[model structure]] on the category of [[dg-modules]], called the **injective model structure**, where the [[weak equivalences]] are object-wise [[quasi-isomorphisms]] of [[chain complexes]], and the [[cofibrations]] are object-wise [[monomorphisms]].
 =--
 
-The projective model structure is compatible with the canonical dg-[[enriched category|enrichment]] and presents the [[derived (infinity,1)-category of dg-modules]].
-
-See ([Keller](#Keller), Theorem 3.2).
+See ([Toen 04](#Toen), section 3) and ([Keller 06](#Keller06), theorem 3.2). These model structures present the [[derived (infinity,1)-category of dg-modules]].
 
 ## Properties
  {#Properties}
@@ -95,6 +93,18 @@ This follows from ([Bernstein, 10.3.5](#Bernstein)).
 
 ## References
 
+Section 3 of
+
+* {#Toen2004} [[B. Toen]], _The homotopy theory of dg-categories and derived Morita theory_, [arXiv:math/0408337](http://arxiv.org/abs/math/0408337).
+
+Paragraph 3.2 of
+
+* {#Keller2006} [[Bernhard Keller]], _On differential graded categories_, [arXiv:math/0601185](http://arxiv.org/abs/math/0601185).
+
+### For dg-algebras
+
+For the case of [[dg-algebras]], see the references below.
+
 A general account is around section 11.2.5 of 
 
 * [[Benoit Fresse]], _Modules over operads and functors_ Springer Lecture Notes in Mathematics, (2009) ([pdf](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.159.5833&rep=rep1&type=pdf))
@@ -112,6 +122,9 @@ The [[homotopy category]] and [[triangulated category]] of dg-modules is discuss
 {#Bernstein}
 
 [[!redirects model structures on dg-modules]]
+
+[[!redirects dg-model structure on dg-modules]]
+[[!redirects dg-model structures on dg-modules]]
 
 [[!redirects category of dg-modules]]
 [[!redirects categories of dg-modules]]
