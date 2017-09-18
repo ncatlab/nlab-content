@@ -22,7 +22,7 @@
 
 ## Idea
 
-_Bousfield localization of spectra_ refers generally to [[localization of an (∞,1)-category|localizations]] of the [[stable (∞,1)-category of spectra]] at the collection of [[morphisms]] which become [[equivalences]] under [[smash product of spectra|smash product]] with a given [[spectrum]] $E$. Since any such $E$ represents a [[generalized homology theory]], this may also be thought of  _$E$-[[homology localization]]_.
+_Bousfield localization of spectra_ refers generally to [[localization of an (∞,1)-category|localizations]] of the [[stable (∞,1)-category of spectra]] (hence [[Bousfield localization of model categories|Bousfield localization]] of [[model categories of spectra]]) at the collection of [[morphisms]] which become [[equivalences]] under [[smash product of spectra|smash product]] with a given [[spectrum]] $E$. Since any such $E$ represents a [[generalized homology theory]], this may also be thought of  _$E$-[[homology localization]]_.
 
 More specifically, if the [[stable (∞,1)-category of spectra]] is [[presentable (infinity,1)-category|presented]] by a ([[stable model category|stable]]) [[model category]], then the [[localization of an (∞,1)-category|∞-categorical localization]] can be presented by the operation of  _[[Bousfield localization of model categories]]_. The original article ([Bousfield 79](#Bousfield79)) essentially considered localization at the level of [[homotopy categories]].
 
@@ -433,7 +433,7 @@ Original articles are
 
 Lecture notes include
 
-* N. Aramian, _Bousfield Localization_ ([pdf](http://www.math.uiuc.edu/~aramyan2/bousfield.pdf))
+* [[Nerses Aramian]], _Bousfield Localization_ ([pdf](http://www.math.uiuc.edu/~aramyan2/bousfield.pdf))
 
 * {#Bauer11} [[Tilman Bauer]], _Bousfield localization and the Hasse square_, 2011  ([pdf](http://math.mit.edu/conferences/talbot/2007/tmfproc/Chapter09/bauer.pdf))
  
