@@ -214,6 +214,10 @@ Volume 12, Number 1 (1962), 337-341 ([Euclid](http://projecteuclid.org/euclid.pj
 
   (that's section VII.6 of the 1996 _Progress of Mathematics_ edition )
 
+Dicussion in the context of [[categories of fibrant objects]] is in 
+
+* [[Kenneth Brown]], section 5 of _[[Abstract Homotopy Theory and Generalized Sheaf Cohomology]]_, Transactions of the American Mathematical Society, Vol. 186 (1973), 419-458
+
 [[!redirects lim1]]
 
 [[!redirects lim^1]]
