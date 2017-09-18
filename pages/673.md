@@ -22,7 +22,8 @@ You may also find me on
 * _Equivariant bundle gerbes_, [arXiv:1506.07931](http://arxiv.org/abs/1506.07931). 
 Joint with [[nLab:Michael Murray|Michael Murray]], [[nLab:Danny Stevenson|Danny Stevenson]] and [[nLab:Raymond Vozzo|Raymond Vozzo]].
 
-* _A topological fibrewise fundamental groupoid_, [Homology, Homotopy and Applications](http://intlpress.com/site/pub/pages/journals/items/hha/_home/_main/index.html), to appear (accepted April 2015) [arXiv:1411.5779](http://arxiv.org/abs/1411.5779)
+* _A topological fibrewise fundamental groupoid_, [Homology, Homotopy and Applications](http://intlpress.com/site/pub/pages/journals/items/hha/_home/_main/index.html), Volume 17 (2015)
+Number 2, 37-51, doi:[10.4310/HHA.2015.v17.n2.a4](http://dx.doi.org/10.4310/HHA.2015.v17.n2.a4), [arXiv:1411.5779](http://arxiv.org/abs/1411.5779)
 
 * _On certain 2-categories admitting localisation by bicategories of
   fractions_, [Applied Categorical Structures](http://link.springer.com/journal/10485) (2015) doi:[10.1007/s10485-015-9400-4](http://dx.doi.org/10.1007/s10485-015-9400-4) (yet to appear) [arXiv:1402.7108](http://arxiv.org/abs/1402.7108). 
