@@ -189,8 +189,11 @@ The notion of **[[moduli space]]** is closely related to that of classifying spa
 
 A concise introduction of classifying spaces of [[vector bundles]] is around p. 196 of 
 
-* [[Peter May]], _A concise course of algebraic topology_ ([pdf](http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf))
-  {#May}
+* {#May} [[Peter May]], _A concise course of algebraic topology_ ([pdf](http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf))
+  
+A discussion more from the point of view of [[topos theory]] is in
+
+* [[Ieke Moerdijk]], _Classifying spaces and classifying topoi_, Lecture Notes in Math. 1616, Springer-Verlag, New York, 1995.
 
 Discussion of [[universal principal bundles]] over their classifying spaces is in 
 
