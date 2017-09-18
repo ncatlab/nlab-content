@@ -66,5 +66,13 @@ As the term implies, an open neighbourhood is precisely a neighbourhood that is 
 
 [[!redirects open neighborhood]]
 [[!redirects open neighbourhood]]
+
 [[!redirects open neighborhoods]]
 [[!redirects open neighbourhoods]]
+
+[[!redirects closed neighborhood]]
+[[!redirects closed neighbourhood]]
+
+[[!redirects closed neighborhoods]]
+[[!redirects closed neighbourhoods]]
+
