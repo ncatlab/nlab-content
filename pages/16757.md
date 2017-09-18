@@ -29,6 +29,8 @@ These singularities have [[crepant resolutions]], obtained by repeatedly [[blow-
 
 * [[Miles Reid]], _The Du Val Singularities $A_n$, $D_n$, $E_6$, $E_7$, $E_8$_ ([pdf](http://homepages.warwick.ac.uk/~masda/surf/more/DuVal.pdf))
 
+* {#Siegel14} Kyler Siegel, section 6 of _The Ubiquity of the ADE classification in Nature_ , 2014 ([pdf](http://math.stanford.edu/~ksiegel/ADEClassifications.pdf))
+
 * MathOverflow, _[Resolving ADE singularities by blowing up](http://mathoverflow.net/q/186368/381)_
 
 ### In the context of string compactifications
