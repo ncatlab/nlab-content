@@ -27,6 +27,8 @@ In classical [[gravity]] ([[general relativity]]) the _positive energy theorem_ 
 
 * Wikipedia, _[Positive energy theorem](http://en.wikipedia.org/wiki/Positive_energy_theorem)_
 
+* Maung Min-Oo, _Scalar curvature rigidity of certain symmetric spaces_, 1995 ([pdf](http://ms.mcmaster.ca/minoo/mypapers/crm.pdf))
+
 
 [[!redirects positive mass conjecture]]
 
