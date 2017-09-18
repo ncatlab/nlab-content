@@ -9,9 +9,22 @@
 =--
 =--
 
-A (binary) [[relation]] $\sim$ on a set $A$ is __connected__ if any two elements that are related in neither order are [[equality|equal]]:
+# Connected relations
+* table of contents
+{: toc}
+
+## Definitions
+
+A (binary) [[relation]] $\sim$ on a set $A$ is __connected__ (or sometimes __linear__) if any two elements that are related in neither order are [[equality|equal]]:
 $$ \forall (x, y: A),\; x \nsim y \;\wedge\; y \nsim x \;\Rightarrow\; x = y .$$
-This is a basic property of [[linear orders]]; an [[apartness relation]] (or indeed any [[inequality]]) is usually called _tight_ if it is connected, in which case [[equality]] is its [[negation]].
+This is a basic property of [[linear orders]].
+
+An [[apartness relation]] (or indeed any [[inequality]]) is usually called __tight__ if it is connected, in which case [[equality]] is its [[negation]].  Since these are [[symmetric relation|symmetric]], one can use a simpler definition:
+$$ \forall (x, y: A),\; x \nsim y \;\Rightarrow\; x = y .$$
+Thus, one could in principle distinguish _connected_ from _tight_ relations in the nonsymmetric case (with tightness stronger than connectedness), but it\'s not clear that anybody does this.  (That is, it may be that the term 'tight' is only ever applied to symmetric relations.)
+
+
+## Constructive aspects
 
 Using [[excluded middle]], it is equivalent to say that every two elements are related in some order or equal:
 $$ \forall (x, y: A),\; x \sim y \;\vee\; y \sim x \;\vee\; x = y .$$
