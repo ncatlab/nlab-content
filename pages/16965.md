@@ -36,10 +36,19 @@ For $H\subset G$ a [[subgroup]], write
 For $X$ a pointed [[topological G-space]] then its [[equivariant homotopy groups]] are  
 
 $$
-  \pi_\bullet^G(\Sigma^\infty X)
-  \simeq
-  \underset{[H \subset G]}{\oplus}
-  \pi_\bullet^{W H}(\Sigma^\infty (E W H^+ \wedge X^H))
+  \begin{aligned}
+    \pi_\bullet^G(\Sigma^\infty X)
+    & 
+    \simeq
+    \underset{[H \subset G]}{\oplus}
+    \pi_\bullet^{W H}(\Sigma^\infty (E (W H)_+ \wedge X^H))
+    \\
+    &\simeq
+    \pi_\bullet(\Sigma^\infty X^g)
+    \oplus
+    \underset{{[H \subset G]} \atop {H \neq G}}{\oplus}
+    \pi_\bullet^{W H}(\Sigma^\infty (E (W H)_+ \wedge X^H))
+  \end{aligned}
   \,,
 $$
 
