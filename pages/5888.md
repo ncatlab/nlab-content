@@ -27,7 +27,7 @@ A [[geometric morphism]] $f : \mathcal{E} \stackrel{\overset{f^*}{\leftarrow}}{\
 
 A [[sheaf topos]] is called **atomic** if its [[global section]] geometric morphism is atomic.
 
-Generally, a topos over a [[base topos]] $\Gamma : \mathcal{E} \to \mathcal{S}$ is called an **atomic topos** if $\Gamma$ is atomic.
+Generally, a topos over a [[base topos]] $\Gamma : \mathcal{E} \to \mathcal{S}$ is called an [[atomic topos]] if $\Gamma$ is atomic.
 
 =--
 
@@ -74,23 +74,6 @@ If an atomic morphism is also a [[connected geometric morphism|connected]], then
 
 This appears as ([Johnstone, lemma 3.5.4](#Johnstone)).
 
-+-- {: .num_cor}
-###### Corollary
-
-Let $\mathcal{E}$ be a [[Grothendieck topos]] with [[point of a topos|enough points]]. Then $\mathcal{E}$ is a [[Boolean topos]] precisely if it is an atomic topos.
-
-=--
-
-This appears as ([Johnstone, cor. 3.5.2](#Johnstone)).
-
-+-- {: .proof}
-###### Proof
-
-If $\Gamma^*$ logical then it preserves the isomorphism $* \coprod * \simeq \Omega$ characterizing a [[Boolean topos]] and hence $\mathcal{E}$ is Boolean if it is atomic.
-
-For the converse...
-
-=--
 
 
 +-- {: .num_prop}
@@ -109,30 +92,13 @@ Every [[etale geometric morphism]] is atomic.
 
 =--
 
-### Decomposition of atomic toposes
+## Related concepts
 
-Atomic toposes decompose as [[disjoint unions]] of [[connected topos|connected]] atomic toposes. Connected atomic toposes with a [[point of a topos]] are the [[classifying toposes]] of [[localic groups]].
-
-An example of a connected atomic topos without a [[point of a topos]] is given in ([Johnstone, example D3.4.14](#Johnstone})).
-
-## Examples
-
-*  A [[category of presheaves]] $Set^{\mathcal{C}^{op}}$ is atomic precisely iff $\mathcal{C}$ is a groupoid (cf. [Barr-Diaconescu (1980)](#Barr-Diaconescu80)).
-
-* Another example of an atomic Grothendieck topos is the [[Schanuel topos]].
-
+ * [[atomic topos]]
 
 ## References
-
-* {#Barr-Diaconescu80}[[Michael Barr]], [[Radu Diaconescu]], _Atomic Toposes_ , JPAA **17** (1980) pp.1-24.
-
-* [[Olivia Caramello]], _Atomic toposes and countable categoricity_ , Appl. Cat. Struc. **20** no. 4 (2012) pp.379-391. ([arXiv:0811.3547](http://arxiv.org/abs/0811.3547))
 
 * {#Johnstone}[[Peter Johnstone]], _[[Sketches of an Elephant]] vol. 2_ , Oxford UP 2002. (section C3.5, pp.684-695)
  
 
 [[!redirects atomic geometric morphisms]]
-
-[[!redirects atomic topos]]
-[[!redirects atomic toposes]]
-[[!redirects atomic topoi]]
