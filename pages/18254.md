@@ -70,7 +70,7 @@ $$
   U_{n + 1} \coloneqq \underset{x \in J}{\cup} V_x
 $$
 
-is an open neighbourhood of $Q_n$, hence in particular of $Cl(U_n)$. Moreover, since finite unions of compact spaces are compact ([this prop.](compact+space#UnionsAndIntersectionOfCompactSubspaces)), the closure of $U_{n+1}$ is compact:
+is an open neighbourhood of $Q_n$, hence in particular of $Cl(U_n)$. Moreover,  since finite unions of compact spaces are compact ([this prop.](compact+space#UnionsAndIntersectionOfCompactSubspaces)) and since the closure of a finite union is the union of the closures ([this prop.](closed+subspace#ClosureOfAFiniteUnionIsUnionOfTheClosures)), the closure of $U_{n+1}$ is compact:
 
 $$
   \begin{aligned}
