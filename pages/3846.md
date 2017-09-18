@@ -17,7 +17,7 @@
 
 Let $k$ be a [[field]] with [[characteristic]] $char(k) \neq 2$. A **composition algebra** over $k$ consists of a finite-dimensional [[vector space]] $V$ together with a 
 
-* A nondegenerate symmetric [[bilinear form]] $\langle , \rangle: V \otimes V \to k$, 
+* A nondegenerate symmetric [[bilinear form]] $\langle - , - \rangle: V \otimes V \to k$, 
 
 * A multiplication map, i.e., a linear map $- \cdot -: V \otimes V \to V$, 
 
