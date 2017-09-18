@@ -299,11 +299,13 @@ One example of this that we have is the _[[implicit infinity-category theory con
 
 # Special Typesetting Features
 
-## How to leave comments and questions {#query}
+## How to make comments and ask questions {#query}
 
-First of all, you should probably put comments and questions on the [n-Forum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/).  (Some discussions from the very early days may also be found on the [[General Discussion]] page and on an entry at the [n-Cafe](http://golem.ph.utexas.edu/category/2009/01/nlab_general_discussion.html).)  Important answers are being migrated to [[HowTo|this How To]] and the [[FAQ]]; as this is a Wiki, if you find an answer to your question and feel it should be added to one of those, then do so.
+In general, the place to make comments and ask questions is on the [n-Forum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/).  Some information about the n-Forum can be found on [[nlabmeta:HomePage|nlabmeta]]; just find or create a forum discussion about the page you want to talk about and talk away.
 
-If you still want to make a comment or question on the page itself and have it appear as an aside, then you may edit the page and put your comment or question in a __query block__ as shown in this example:
+When questions are answered and discussions are resolved at the n-Forum, the *conclusion* should often be recorded on an nLab page.  If it's about a particular page, then of course put it on that page; if it's a general question then it could be recorded on [[HowTo|this How To]] or the [[FAQ]].  As this is a wiki, you can do this recording yourself when your question is answered.
+
+That said, the wiki software does contain a mechanism for putting questions and comments on a wiki page itself: edit the page and put your comment or question in a __query block__ as shown in this example:
 
     +-- {: .query}
     How do I ask a question?
@@ -315,15 +317,15 @@ which produces
 How do I ask a question?
 =--
 
-Note that a query block should be less permanent than the rest of the page; once your comment is addressed or your question is answered, you can probably remove your query block.
+In general, this is the wrong way to go about asking a question.  When you put a query box on a page, often none of the other contributors will notice it for a long time, so it will take a long time for the question to be answered, and in the meantime it makes the page cluttered and ugly for other readers.  However, *occasionally* it may be appropriate to record a brief question in a query box, if it has already been discussed at the nForum and the conclusion was not satisfactory.  In this case a link to the nForum discussion should be included in the query box in preference to any lengthy detail about the question and discussion.
 
-But if you just put up a query block and don\'t post anything to the Forum, you\'re not very likely to get a quick answer.  Query blocks are really only useful when Forum discussion has been unsatisfactory and some kind of reminder needs to remain on the page.  (There are also a lot of query boxes left from before the Forum, but these are being slowly removed or migrated.)
+(Before the n-Forum existed, it was much more common to ask questions using query boxes.  Some such query boxes still remain undiscovered on various pages, but whenever we find one we generally migrate it to the n-Forum.)
 
 
 ## How to make a standout box
  {#standout}
 
-If you want to make some text stand out (an important theorem, or slogan), you can do it using a __standout box__:
+If you want to make some text stand out (an important theorem, or slogan), you can do it using a __standout box__.  The mechanism is similar to a query box, although the purpose is different: while a query box is for a temporary question and should be removed once that question is resolved, a standout box is a permanent feature of a page that simply emphasizes a small amount of text.  To make a standout box, write:
 
     +-- {: .standout}
     First quantization is a mystery, but second quantization is a functor. 
