@@ -1535,6 +1535,10 @@ See also [[examples in topology]].
 
 ## References
 
+Informal overview includes
+
+* [[Tom Leinster]], _General Topology Course overview_, 2014 ([pdf](http://www.maths.ed.ac.uk/~tl/topology/topology_intro.pdf))
+
 A canonical compendium is
 
 * {#Bourbaki71} [[Nicolas Bourbaki]], chapter 1 _Topological Structures_ of _Elements of Mathematics III: General topology_, Springer 1971, 1990
