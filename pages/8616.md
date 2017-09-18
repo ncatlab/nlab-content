@@ -93,6 +93,8 @@ Under pullback differential forms form a [[presheaf]] on the catories [[CartSp]]
 
 * [[pullback of a distribution]]
 
+* [[change of integration variables]]
+
 ## References
 
 A standard reference is 
