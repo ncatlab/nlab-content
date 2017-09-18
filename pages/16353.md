@@ -17,7 +17,7 @@
 
 On a [[smooth manifold]] $X$ the smooth [[tangent vector fields]] $v \in \Gamma_X(T X)$ are geometrically defined as smoothly varying collections of smooth [[paths]] $\gamma_x \colon \mathbb{R}^1 \to X$ through every point $x \in X$ (i.e. $\gamma(0) = x$), with two such paths regarded as equivalent if their first [[derivative]] $v_x \in T_x X$ at $x$, seen in any [[chart]], coincides.
 
-Now by pre-composing a [[smooth function]] $f \colon  X \longrightarrow \mathbb{R}^1$ which such a path, we obtain a function $f\circ \gamma_x \;\colon\; \mathbb{R}^1 \to \mathbb{R}^1$ from the [[real line]] to itself. Therefore its [[derivative]] 
+By pre-composing a [[smooth function]] $f \colon  X \longrightarrow \mathbb{R}^1$ which such a path, we obtain a function $f\circ \gamma_x \;\colon\; \mathbb{R}^1 \to \mathbb{R}^1$ from the [[real line]] to itself. Therefore its [[derivative]] 
 
 $$
   (D_v f)(x) \coloneqq  d (f \circ \gamma)_0
@@ -65,6 +65,8 @@ $$
   \right\}
 $$
 
+This is prop. \ref{Statemen} below. What makes this work is the _[[Hadamard lemma]]_ see the [proof](#Proof) below for details.
+
 Notice that the concept of derivations is purely a concept of [[algebra]], with no input from the [[topology]] and [[differential geometry]] that goes into the definition and construction of smooth manifolds and their tangent bundles. 
 Therefore the identification of smooth vector fields with derivations is therefore an algebraic incarnation of an aspect of differential geometry which is comparable two two other such phenomena:
 
@@ -72,6 +74,9 @@ Therefore the identification of smooth vector fields with derivations is therefo
 
 * [[smooth Serre-Swan theorem]]
 
+These statement are the basis for the definition of [[formal smooth manifolds]] and the theory of [[synthetic differential geometry]]. For more exposition of this relation see at _[[geometry of physics -- supergeometry]]_.
+
+Beware however that related algebraic properties familiar from [[affine schemes]] may break in differential geometry: For the [[Kähler differential forms]] of $C^\infty(X)$ to come out as the expected smooth [[differential forms]] one needs to refine the plain $\mathbb{R}$-[[commutative algebra]] $C^\nfty(X)$ to the structure of a _[[smooth algebra]]_. See at _[[Kähler differential forms]]_ for discussion of this issue.
 
 
 ## Statements
@@ -106,9 +111,11 @@ $$
 
 =--
 
-+-- {: .proof}
++-- {: .proof #Proof}
 ###### Proof
 
+
+First to discuss that vector fields induce derivations.
 Let $v \in \Gamma_X(T X)$ be a smooth tangent vector field. 
 
 This means first of all that for each $x \in X$ there is a [[smooth function]] $\gamma_x \;\colon\; \mathbb{R}^1 \longrightarrow X$ such that 
@@ -148,6 +155,8 @@ $$
     \left(
       \frac{d}{d t} g(\gamma(t))\vert_{t = 0}
     \right)
+    \\
+    &
     =
     (D_v(f) \cdot g + f \cdot D_v(g))(x) 
   \end{aligned}
@@ -162,9 +171,9 @@ $$
   \left\{ \mathbb{R}^n \underoverset{\simeq}{\phi_i}{\to} U_i \subset X \right\}
 $$
 
-be an [[atlas]] that exhibits the [[smooth structure]] of $X$, hence an [[open cover]] by subsets equiiped with a [[diffeomorphism]] $\phi_i$ from a [[Cartesian space]] $\mathbb{R}^n$ with its standard smooth structure. 
+be an [[atlas]] that exhibits the [[smooth structure]] of $X$, hence an [[open cover]] by subsets equipped with a [[diffeomorphism]] $\phi_i$ from a [[Cartesian space]] $\mathbb{R}^n$ with its standard smooth structure. 
 
-By definition of the [[tangent bundle]] $T X$, its restriction to any [[chart]] of this atlas is diffeomorphic to 
+By definition of the [[tangent bundle]] $T X$, its restriction to any [[chart]] of this atlas is given by a diffeomorphism $\psi_i$ as in the following diagram
 
 $$
   \array{
@@ -176,48 +185,121 @@ $$
     \\
     && U_i
   }
-$$
-
-
-This is true because $C^\infty(\mathbb{R}^n)$ satisfies the [[Hadamard lemma]]. More in detail:
-
-By the existence of [[partitions of unity]] we may restrict to the situation for $X = \mathbb{R}^n$ a [[Cartesian space]].
-By the [[Hadamard lemma]] every [[smooth function]] $f \in C^\infty(\mathbb{R}^n)$ may be written as
-
-$$
-  f(x) = f(0) + \sum_i x_i g_i(x)
-$$
-
-for smooth $\{g_i \in C^\infty(X)\}$ with $g_i(0) = \frac{\partial f}{\partial x_i}(0)$. Since every [[derivation]] $\delta : C^\infty(X) \to C^\infty(X)$ by definition satisfies the Leibniz rule, it follows that
-
-$$
-  \delta(f)(0) = \sum_i \delta(x_i) \frac{\partial f}{\partial x_i}(0)
   \,.
 $$
 
-Similarly, by translation, at all other points. Therefore $\delta$ is already fixed by its action of the coordinate functions $\{x_i \in C^\infty(X)\}$. Let $v_\delta \in T \mathbb{R}^n$ be the [[vector field]] 
+For $D_v(f) \colon X \to \mathbb{R}^1$ to be continuous and smooth, it is sufficient to see that its restrictions
 
 $$
-  v_\delta \coloneqq \sum_i \delta(x_i) \frac{\partial}{\partial x_i}
+  D_v(f) \circ \psi_i
 $$
 
-then it follows that $\delta$ is the derivation coming from $v_\delta$ under $Vect(X) \to Der(C^\infty(X))$.
+are continuous and smooth, for all $i \in I$. (For continuity this follows by [this example](Top#ClosedSubspacesGluing) and for differentiability this is clear from the fact that derivatives at any point may be computed in an arbitrary open neighbourhood).
+
+With respect to this chart the tangent vector field $v \in \Gamma_X(T X)$ is given by a smooth function
+
+$$
+  v_i
+  \;\coloneqq\; 
+  pr_2 \circ \psi_i^{-1}(v \vert_{U_i}) 
+  \;\colon\;
+  U_i
+    \longrightarrow
+  \mathbb{R}^n
+$$
+
+By the identification of tangent vectors on $\mathbb{R}^n$ with elements of $\mathbb{R}^n$, these tangent vectors are represented by straight smooth curves ([this remark](Introduction+to+Topology+--+1EuclideanSpaceTangentBundle)):
+
+$$
+  \gamma_{x, i}
+  \;\colon\;
+  t
+  \mapsto
+  \phi_i^{-1}(x) + t \cdot v_i(x)  
+  \,.
+$$
+
+and for $f_i \coloneqq f \circ \phi_i \;\colon\; \mathbb{R}^n \to \mathbb{R}^1$
+the restriction of the given smooth function, we have, by the [[chain rule]]
+
+$$
+  \frac{d}{d t} ( f_i(\gamma_{x,i}(t)) )\vert_{t = 0}
+  =
+  \sum_{k = 1}^n (v_i)^k(x) \cdot \frac{\partial f_i(y)}{\partial y^k}\vert_{y = x}
+  \,.
+$$
+
+(Here and in the following we are writing $(-)^k$ for the $k$th component of an element of $\mathbb{R}^n$.)
+
+
+This is the value of a function at $x$ with is the sum over the product of two smooth functions, namely the component functions $(v_i)^k$ of the smooth section
+in the given chart, and the derivatives of $f_i$ (which are functions by the assumption that $f$ is smooth). 
+
+This shows that $D_v(f)$ is a smooth function.
+
+Now for the converse. Let $D \in Der(\C^\infty(X))$ be a derivation, we need to show that it arises on each chart $\phi_i$ from smooth vector field $v_i$ as above.
+
+The [[Hadamard lemma]] gives that every [[smooth function]] $f_i \colon \mathbb{R}^n \to \mathbb{R}^1$ may be written for each point $x \in \mathbb{R}^n$ as
+
+$$
+  f(y) = f(y-x) + \sum_{k = 0}^n (y^k - x^k) \cdot g_{x,k}(y)
+$$
+
+for smooth functions
+
+$$
+  \{g_k \in C^\infty(\mathbb{R}^n)\}_{k \in \{1,\cdots, n\}}
+$$
+
+satisfying
+
+$$
+  g_{x,k}(x) = \frac{\partial f(y)}{\partial y^k}\vert_{y = x}
+  \,.
+$$
+
+Now by the derivation property we have
+
+$$
+  \begin{aligned}
+    D(f)(x)
+    & =
+    D
+    \left(
+       f(0) 
+       +
+       \sum_{k = 1}^n  ((-)^k - x^k) \cdot g_{x,k}(-)
+    \right)
+    \\
+    & =
+    \sum_{k = 1}^n 
+      \big(
+        {(D( (-)^k - x^k ))} \cdot g_{x,k}(-)
+        +
+         ((-)^k - x^k) \cdot D g_{x,k}(-)  
+      \big)(x)
+    \\
+    & =
+    \sum_{k = 1}^n (v_i)^k(x) \cdot \frac{\partial f(y)}{\partial y^k}\vert_{y = x}
+  \end{aligned}
+  \,.
+$$
+
+Here in the last step we _defined_
+
+$$
+  (v_i)^k(x) \coloneqq D( (-)^k )(x)
+$$
+
+to be the value at $x$ of the function which the derivation produces when applied to the $k$th coordinate function (which is a smooth function of $x$ by definition of $D$), and we used the above property of the $g_{x,k}$ as well as that $(-)^k - x^k$ vanishes at $x$.
+
+This shows that the derivation $D$ comes, in the chart $\phi_i$, from the vector field $v_i$ as above.
+
 =--
 
-+-- {: .num_remark}
-###### Remark
 
-Via the [[embedding of smooth manifolds into formal duals of R-algebras]] and observing that algebra homomorphisms of the form $C^\infty(X)[\epsilon]/(\epsilon^2)\leftarrow C^\infty(X)$ which are the identity modulo $\epsilon$ are equivalently [[derivations]], 
-theorem \ref{Statement} is the starting point for generalizations of [[smooth manifolds]] to [[formal smooth manifolds]] and more generally of [[differential geometry]] to _[[synthetic differential geometry]]_.
 
-=--
 
-+-- {: .num_remark}
-###### Remark
-
-Beware however that related algebraic properties familiar from [[affine schemes]] may break, notably for the [[Kähler differential forms]] of $C^\infty(X)$ to come out as the expected smooth [[differential forms]] one needs to refine the plain $\mathbb{R}$-[[commutative algebra]] $C^\nfty(X)$ to the structure of a _[[smooth algebra]]_.
-
-=--
 
 
 ## Related theorems
