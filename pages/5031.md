@@ -70,7 +70,7 @@ However, if we regard $Top$ as a [[(1,2)-category]] where the 2-cells are inequa
 
 ### From toposes to higher toposes
 
-There are similar full embeddings $ShTopos \hookrightarrow Sh 2 Topos$ and $ShTopos \hookrightarrow Sh(n,1)Topos$ of sheaf (1-)toposes into [[2-sheaf]] [[2-topos]]es and sheaf [[(n,1)-topos]]es for $2\le n\le \infty$.
+There are similar full embeddings $ShTopos \hookrightarrow Sh 2 Topos$ and $ShTopos \hookrightarrow Sh(n,1)Topos$ of sheaf (1-)toposes into [[2-sheaf]] [[2-topos]]es and sheaf [[(n,1)-topos]]es for $2\le n\le \infty$.  Note that these embeddings are *not* the identity functor on underlying categories: a 1-topos is not itself an $n$-topos, instead we have to take $n$-sheaves on a suitable generating [[site]] for it.
 
 ### From locally presentable categories to toposes
  {#AdjunctionToLocallyPresentable}
@@ -275,6 +275,9 @@ For [[localic toposes]] this reduces to the statement of [[localic reflection]]:
 
 =--
 
+### Free loop spaces
+
+The [[free loop space object]] of a topos in [[Topos]] is called the [[isotropy group of a topos]].
 
 ## Related concepts
 
