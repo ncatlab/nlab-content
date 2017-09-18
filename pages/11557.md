@@ -42,7 +42,7 @@ If so one often says that _the cobordism theory determines the homology theory_ 
 
 ## Examples
 
-Originally this was shown to be the case by ([Connor-Floyd 66](#ConnorFloyd66)) for $E= $[[KU]] with its canonical [[complex oriented cohomology theory|complex orientation]] $MU \to KU$ (they also showed the case for [[KO]] with $M Sp \to KO$). Later the [[Landweber exact functor theorem]] ([Landweber 76](#Landweber76)) generalized this to all [[complex oriented cohomology theories]] $M U \to E$. 
+Originally this was shown to be the case by ([Conner-Floyd 66](#ConnerFloyd66)) for $E= $[[KU]] with its canonical [[complex oriented cohomology theory|complex orientation]] $MU \to KU$ (they also showed the case for [[KO]] with $M Sp \to KO$). Later the [[Landweber exact functor theorem]] ([Landweber 76](#Landweber76)) generalized this to all [[complex oriented cohomology theories]] $M U \to E$. 
 
 The generalization to the actual [[Atiyah-Bott-Shapiro orientations]] of [[topological K-theory]], namely $M Spin^c \to KU$ and $M Spin \to KO$ is due to ([Hopkins-Hovey 92](#HopkinsHovey92)). 
 
@@ -51,7 +51,7 @@ For [[elliptic cohomology]] wih the [[SO orientation of elliptic cohomology]] $M
 
 ## Refereces
 
-* {#ConnorFloyd66} P. Connor, E. Floyd, _The relation of cobordism to K-theories_, Lecture Notes in Mathematics 28, 1966 ([pdf](http://www.maths.ed.ac.uk/~aar/surgery/cf.pdf))
+* {#ConnerFloyd66} P. Conner, E. Floyd, _The relation of cobordism to K-theories_, Lecture Notes in Mathematics 28, 1966 ([pdf](http://www.maths.ed.ac.uk/~aar/surgery/cf.pdf))
 
 * {#Landweber76} [[Peter Landweber]], _Homological properties of comodules over $MU^\ast(MU)$ and $BP^\ast(BP)$_, American Journal of Mathematics (1976): 591-610.
 
