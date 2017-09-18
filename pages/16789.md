@@ -172,7 +172,7 @@ $$
     \begin{aligned}
       f_0 & \mapsto 0
       \\
-      f_2 & \mapsto h_3 \wedge f_0
+      f_2 & \mapsto h_3
       \\
       f_{2p+4} &\mapsto h_3 \wedge f_{2p+2}
       \\
