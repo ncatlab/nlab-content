@@ -8302,6 +8302,81 @@ as required.
 =--
 
 
+The [[closed-projection characterization of compactness]] (prop. \ref{ClosedProjectionCharacterizationOfCompactness})
+yields direct proof of important facts in [[topology]]:
+
+* The _[[tube lemma]]_, prop. \ref{TheTubeLemma} below, 
+
+* The _[[Tychonoff theorem]]_, prop. \ref{TychonoffTheore} below.
+
+
++-- {: .num_lemma #TheTubeLemma}
+###### Lemma
+**([[tube lemma]])**
+
+Let
+
+1. $(X,\tau_X)$ be a [[topological space]],
+
+1. $(Y,\tau_Y)$ a [[compact topological space]],
+
+1. $x \in X$ a point,
+
+1. $W \underset{\text{open}}{\subset} X \times Y$ an open subset in the [[product topology]] (example \ref{BinaryProductTopologicalSpace}, example \ref{TychonoffTheorem}),
+
+such that the $Y$-[[fiber]] over $x$ is contained in $W$:
+
+$$
+  \{x\} \times Y \;\subseteq\; W
+  \,.
+$$
+
+Then there exists an [[open neighborhood]] $U_x$ of $x$ such that the "tube" $U_x \times Y$ around the fiber $\{x \} \times Y$ is still contained:
+
+$$
+  U_x \times Y \subseteq W
+  \,.
+$$
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+Let
+
+$$
+  C \coloneqq (X \times Y) \backslash W
+$$
+
+be the [[complement]] of $W$. Since this is closed, by prop. \ref{ClosedProjectionCharacterizationOfCompactness} also its projection $p_X(C) \subset X$ is closed.
+
+Now
+
+$$
+  \begin{aligned}
+    \{x\} \times Y \subset W
+      & \;\Leftrightarrow\;
+    \{x\} \times Y \; \cap \; C = \emptyset
+    \\
+    & \;\Rightarrow\;
+    \{x\} \cap  p_X(C) = \emptyset
+  \end{aligned}
+$$
+
+and hence by the closure of $p_X(C)$ there is (by [this lemma](Introduction+to+Topology+--+1#UnionOfOpensGivesClosure)) an open neighbourhood $U_x \supset \{x\}$ with
+
+$$
+  U_x \cap p_X(C) = \emptyset
+  \,.
+$$
+
+This means equivalently that $U_x \times Y \cap C = \emptyset$, hence that $U_x \times Y \subset W$.
+
+=--
+
+
 +-- {: .num_prop #TychonoffTheorem}
 ###### Proposition
 **([[Tychonoff theorem]] --  the [[product space]] of [[compact spaces]] is [[compact space|compact]])**
@@ -8312,7 +8387,7 @@ is compact.
 
 =--
 
-We now give a proof of the finitary case of the Tychonoff theorem using the
+We give a proof of the finitary case of the Tychonoff theorem using the
 [[closed-projection characterization of compactness]] from prop. \ref{ClosedProjectionCharacterizationOfCompactness}.
 This elementary proof generalizes fairly directly to an elementary proof of the general case: see [here](closed-projection+characterization+of+compactness#TychonoffTheorem).
 
@@ -8358,7 +8433,6 @@ by induction assumtion. Hence the composite is a closed map.
 
 
 =--
-
 
 
 Of course we also want to claim that [[sequentially compact metric spaces]] (def. \ref{MetricSpaceSequentiallyCompact}) are compact
@@ -8587,23 +8661,32 @@ below work _without_ requiring the Hausdorff property.
 ###### Example
 **(topological [[mapping space]] with [[compact-open topology]])**
 
-For $X$ a [[topological space]] and $Y$ a [[locally compact topological space]] (def. \ref{LocallyCompactSpace})
-then the _[[compact-open topology|mapping space]]_
+For 
+
+1. $(X, \tau_X)$ a [[locally compact topological space]] (def. \ref{LocallyCompactSpace})
+
+1. $(Y,\tau_Y)$ any [[topological space]]  then the _[[compact-open topology|mapping space]]_
+
+their _[[mapping space]]_
 
 $$
+  Maps\left(
+    (X,\tau_X), (Y,\tau_Y)
+  \right)
+   \;\coloneqq\;
   \left(
-    X^Y , \tau_{(X^Y)}
+    Hom_{Top}(X,Y) , \tau_{\text{cpt-op}}
   \right)
 $$
 
 is the [[topological space]]
 
-* whose underlying set $X^Y \coloneqq Hom_Top(Y,X)$ is the set of [[continuous functions]] $Y \to X$;
+* whose underlying set $Hom_Top(X,Y)$ is the set of [[continuous functions]] $X \to Y$;
 
-* whose topology $\tau_{(X^Y)}$ is generated from the [[topological basis|sub-basis for the topology]] (def. \ref{TopologyBase})
+* whose topology $\tau_{\text{cpt-op}}$ is generated from the [[topological basis|sub-basis for the topology]] (def. \ref{TopologyBase})
   which is given by subsets are denoted
 
-  $U^K \subset Hom_{Top}(Y,X)$ for labels
+  $U^K \subset Hom_{Top}(X,Y)$ for labels
 
   * $K \subset Y$ a [[compact topological space|compact]] subset,
 
@@ -8618,26 +8701,188 @@ is the [[topological space]]
       f \colon X \overset{\text{continuous}}{\longrightarrow} Y
       \;\;\;\vert\;\;\;
       \array{
-         K &\hookrightarrow& Y
+         K &\hookrightarrow& X
          \\
          \downarrow && \downarrow^{\mathrlap{f}}
          \\
-         U &\hookrightarrow& X
+         U &\hookrightarrow& Y
       }
     \right\}
       \,.
   $$
 
-Accordingly this topology $\tau_{(X^Y)}$ is called the _[[compact-open topology]]_ on the set of functions.
-
+Accordingly this topology $\tau_{cpt-op}$ is called the _[[compact-open topology]]_ on the set of functions.
 
 =--
+
+
++-- {: .num_prop #UniversalPropertyOfMappingSpace}
+###### Proposition
+**([[universal property]] of the [[mapping space]])**
+
+Let $(X,\tau_X)$, $(Y, \tau_Y)$, $(Z, \tau_Z)$
+be [[topological spaces]], with $X$ [[locally compact topological space|locally compact]] (def. \ref{LocallyCompactSpace}).
+Then
+
+1. The [[evaluation]] function
+
+   $$
+     \array{
+       (X, \tau_X) \times Maps((X,\tau_X), (Y, \tau_Y))
+         & \overset{\phantom{AA} ev \phantom{AA}}{\longrightarrow}&
+       (Y, \tau_Y)
+       \\
+       (x, f)
+         &\overset{\phantom{AAA}}{\mapsto}&
+       f(x)
+     }
+   $$
+
+   is a [[continuous function]].
+
+1. The [[natural bijection]] of [[function sets]]
+
+   $$
+     \array{
+       \underset
+       {Hom_{Set}(X \times Z, Y) }
+       {\underbrace{
+         \left\{
+            X \times Y \longrightarrow Y
+         \right\}
+       }}
+         &\underoverset{}{\phantom{AA}\simeq\phantom{AA}}{\longrightarrow}&
+       \underset
+       {Hom_{Set}\left( Z, Hom_{Set}(X,Y) \right)}
+       {\underbrace{
+         \left\{
+            Z \longrightarrow Hom_{Set}(X,Y)
+         \right\}
+       }}
+       \\
+       \left(f \colon (x,z) \mapsto f(x,z) \right)
+         &\overset{\phantom{AAA}}{\mapsto}&
+       \tilde f
+       \colon
+         z \mapsto (x \mapsto f(x,z))
+     }
+   $$
+
+   restricts to a [[natural bijection]] between sets of [[continuous functions]]
+
+   $$
+     \array{
+       \underset
+         {Hom_{Top}((X, \tau_X) \times (Z, \tau_Z), (Y, \tau_Y))}
+       {\underbrace{\left\{
+          (X,\tau_X) \times (Z, \tau_Z) \overset{cts}{\longrightarrow} (Y, \tau_Y)
+       \right\}}}
+         &\underoverset{}{\phantom{AA}\simeq\phantom{AA}}{\longrightarrow}&
+       \underset
+         {Hom_{Top}\left( (Z, \tau_Z) , Maps((X,\tau_X), (Y, \tau_Y)) \right)}
+       {\underbrace{\left\{
+          (Z, \tau_Z) \overset{cts}{\longrightarrow} Maps( (X,\tau_X), (Y,\tau_Y) )
+       \right\}}}
+     }
+     \,.
+   $$
+
+
+
+Here $Maps((X,\tau_X), (Y,\tau_Y))$ is the [[mapping space]] with [[compact-open topology]] from example \ref{CompactOpenTopology}
+and $(-)\times (-)$ denotes forming the [[product topological space]] (example \ref{BinaryProductTopologicalSpace}, example \ref{InfiniteProductTopologicalSpace}).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+To see the continuity of the evaluation map:
+
+Let $V \subset Y$ be an open subset. We need to show that $ev^{-1}(V) = \{(x, f) \vert f(x) \in V\}$
+is a union of products of the form $U \times V^K$ with $U\subset X$ open and $U^K \subset Hom_{Set}(K,U)$ a basic open according to def. \ref{CompactOpenTopology}.
+
+For $(x, f) \in ev^{-1}(V)$, the preimage $f^{-1}(V) \subset X$ is an open neighbourhood of $x$ in $X$, by continuity of $f$.
+By local compactness of $X$, there is a compact subset $K \subset f^{-1}(V)$ which is still a neighbourhood of $x$.
+Since $f$ also still takes that into $V$,
+we have found an open neighbourhood
+
+$$
+  (x,f) \in {K \times V^K} \underset{\text{open}}{\subset} ev^{-1}(V)
+$$
+
+with respect to the product topology. Since this is still contained in $ev^{-1}(V)$, for all $(x,f)$ as above,
+$ev^{-1}(V)$ is exhibited
+as a union of opens, and is hence itself open.
+
+Regarding the second point:
+
+In one direction, let $f \colon (X, \tau_X) \times (Y, \tau_Y) \to (Z \, \tau_Z)$ be a continuous function, and let $U^K \subset Maps(X,Y)$
+be a sub-basic open. We need to show that the set
+
+$$
+  \tilde f^{-1}(U)
+    =
+  \left\{
+    z \in Z \;\vert\;  f(K,z) \subset U
+  \right\}
+   \;\subset\;
+  Z
+$$
+
+is open. To that end, observe that $f(K,z) \subset U$ means that $K \times \{z\} \subset f^{-1}(U)$, where $f^{-1}(U) \subset X \times Y$ is open by the continuity of $f$.
+Hence in the [[topological subspace]] $K \times Z \subset X \times Y$ the inclusion
+
+$$
+  K \times \{z\} \subset \left( f^{-1}(U) \cap (K \times Z) \right)
+$$
+
+is an open neighbourhood. Since $K$ is compact, the [[tube lemma]] (prop. \ref{TheTubeLemma}) gives an
+open neighbourhood $V_z \supset \{z\}$ in $Y$, hence an open neighbourhood $K \times V_z \subset K \times Y$,
+which is still contained in the original pre-image:
+
+$$
+  K \times V_z \;\subset\; f^{-1}(U) \cap (K \times Z) \;\subset\; f^{-1}(U)
+  \,.
+$$
+
+This shows that with every point $z \in \tilde f^{-1}\left(U^K\right)$ also an open neighbourhood of $z$ is contained in $\tilde f^{-1}\left(U^K\right)$,
+hence that the latter is a union of open subsets, and hence itself open.
+
+In the other direction, assume that $\tilde f \colon Z \to Maps((X,\tau_X),(Y,\tau_Y))$ is continuous:
+We need to show that $f$ is continuous. But observe that $f$ is the [[composition|composite]]
+
+$$
+  f
+  =
+  (X, \tau_X) \times (Z,\tau_Z)
+    \overset{id{(X,\tau_X)} \times \tilde f}{\longrightarrow}
+  (X, \tau_X)
+  \times
+  Maps((X,\tau_X), (Y,\tau_Y))
+    \overset{ev}{\longrightarrow}
+  (X,\tau_X)
+  \,.
+$$
+
+Here the first function $id \times \tilde f$ is continuous since $\tilde f$ is by assumption since the product of two continuous functions
+is again continuous (example \ref{FunctorialProductSpace}). The second function $ev$ is continuous by the first point above.
+hence $f$ is continuous.
+
+=--
+
 
 +-- {: .num_remark}
 ###### Remark
 **(topological mapping space is [[exponential object]])**
 
-The construction of topological mapping spaces in example \ref{CompactOpenTopology}
+In the language of [[category theory]] (remark \ref{TopCategory}), prop. \ref{UniversalPropertyOfMappingSpace}
+says that the [[mapping space]] construction with its [[compact-open topology]] from def. \ref{CompactOpenTopology}
+is an _[[exponential object]]_ or _[[internal hom]]_. This just means that it beahves in all abstract ways just as
+a [[function set]] does for plain functions, but it does so for continuous functions and being itself
+equipped with a topology.
+
+Moreover, the construction of topological mapping spaces in example \ref{CompactOpenTopology}
 extends to a [[functor]] (remark \ref{TopCategory})
 
 $$
@@ -8647,8 +8892,6 @@ $$
 from the [[product category]] of the category [[Top]] of all [[topological spaces]] (remark \ref{TopCategory})
 with the [[opposite category]] of the [[subcategory]] of [[locally compact topological spaces]].
 
-Moreover, for $(Y,X) \in Top^{op}_{lcpt} \times top$ then the mapping space $(X^Y, \tau_{(X^Y)})$
-is an _[[exponential object]]_ in [[Top]].
 
 =--
 
