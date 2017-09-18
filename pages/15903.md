@@ -47,7 +47,10 @@ In applications, such co-occuring pairs of negation operators $\neg$ and $\sim$ 
 
 * For $a\in L$ define its **core** as $\sim\sim a$. Then $a=\partial a\vee\sim\sim a$. Call $a$ with $a=\sim\sim a$ **regular**. Lawvere (1986) proposes in the vein of classical mereology e.g. Tarski 1927 on regions as regular open sets, to consider only regular subbodies as bodies in the full sense.
 
+* Suppose the element $x$ of a co-Heyting algebra has a [[complement]] $a$ i.e. $x\vee a = 1$ and $x\wedge a = 0$, then the complement $a$ conicides with $\sim x$. Because from the definition of $\sim$ follows $\sim x\leq a$; conversely, $\sim x=\sim x\vee (x\wedge a)=(\sim x\vee x)\wedge (\sim x\vee a)=\sim x\vee a$ whence $a\leq \sim x$. {#co-Heyting_complement}
+
 * In a bi-Heyting algebra: $\neg a=\neg a\wedge 1=\neg a\wedge (a\vee\sim a)=(\neg a\wedge a)\vee (\neg a\wedge \sim a)= 0\vee (\neg a\wedge\sim a)=\neg a\wedge\sim a$ hence $\neg a\leq\sim a$ and we see that $\neg$ is more strongly negative than $\sim$.
+
 
 ## Related entries
 
