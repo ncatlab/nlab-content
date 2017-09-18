@@ -142,8 +142,19 @@ So in particular if $X$ is an $n$-coskeletal [[Kan complex]], all its [[simplici
 
 =--
 
+### Compatibility with Kan conditions
 
++-- {: .num_prop}
+###### Proposition
 
+The coskeleton operations $\mathbf{cosk}_n$ preserve [[Kan complexes]].
+
+$\mathbf{cosk}_n$ preserves those [[Kan fibrations]] between [[Kan complexes]]
+whose [[codomains]] have trivial [[homotopy group]] $\pi_n$.
+
+=--
+
+([Math.SE discussion](http://math.stackexchange.com/a/597990/58526))
 
 
 ### Truncation and Postnikov towers {#Truncation}
@@ -151,13 +162,13 @@ So in particular if $X$ is an $n$-coskeletal [[Kan complex]], all its [[simplici
 +-- {: .num_prop}
 ###### Proposition
 
-For each $n \in \mathbb{N}$, the unit of the adjunction
+For each $n \in \mathbb{N}$, the [[unit of an adjunction|unit of the adjunction]]
 
 $$
   X \to \mathbf{cosk}_n(X)
 $$
 
-induces an [[isomorphism]] on all [[simplicial homotopy group]]s in degree $\lt n$.
+induces an [[isomorphism]] on all [[simplicial homotopy groups]] in degree $\lt n$.
 
 =--
 
