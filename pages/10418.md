@@ -82,7 +82,7 @@ For instance
 
 ### Existence and torsion
 
-The [[obstruction]] for a $G$-structure to be integrable is its [[torsion of a G-structure]].
+The [[obstruction]] for a $G$-structure to be integrable to first order is its [[torsion of a G-structure]].
 
 ## References
 
