@@ -1928,6 +1928,7 @@ Accordingly a mophism $\mathbf{Pi}(X) \to A$ may be thought of as assigning
 
 * to each path $\gamma : x_1 \to x_2$ in $X$ an [[equivalence in an (infinity,1)-category|equivalence]] $\nabla(\gamma) : P_{x_1} \to P_{x_2}$ between these fibers (the [[parallel transport]] along $\gamma$);
 
+
 * to each disk $\Sigma$ in $X$ a [[2-morphism|2-equivalalence]] $\nabla(\Sigma)$ between these equivaleces associated to its boundary (the [[higher parallel transport]])
 
 * and so on.
@@ -2794,6 +2795,7 @@ For $G \in \mathbf{H}$ an [[∞-group]], write
 $$
   \theta : G \to \mathbf{\flat}_{dR} \mathbf{B}G
 $$
+
 
 for the $\mathfrak{g}$-[valued](#LieAlgebras) 
 de Rham cocycle on $G$ which is induced by the <a href="http://ncatlab.org/nlab/show/limit+in+a+quasi-category#PushoutPasting">(∞,1)-pullback pasting</a>
@@ -3933,3 +3935,4 @@ For formalizations of some structures in cohesive $(\infty,1)$-toposes in terms 
 [[!redirects structures in a cohesive infinity-topos]]
 
 [[!redirects cohesive topos -- structures]]
+[[!redirects cohesive infinity-topos -- structures]]
