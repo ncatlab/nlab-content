@@ -199,6 +199,28 @@ where the hats denote the [[differential cohomology]] refinement.
 
 See at _[[Becker-Gottlieb transfer]]_.
 
+### Relation to complex volumes and Bloch group
+ {#RelationToComplexVolumes}
+
+> under construction
+
+There is some relation betwee the Borel regulators and [[complex volumes]] of [[hyperbolic manifolds]] via maps out of the [[Bloch group]] ([Neumann-Yang 97, p. 17](#NeumannYang97), [Zickert 07, p. 3](#Zickert07)).
+
+For $k$ an [[algebraic number field]] and $\sigma_1, \cdots, \sigma_{r_2}\colon k \to \mathbb{C}$ its complex embeddings up to [[conjugation]], then write
+
+$$
+  vol_j \coloneqq vol \circ (\sigma_j)\colon H_3(PSL(2,k), \mathbb{Z})
+  \to \mathbb{R}
+$$
+
+Then then map
+
+$$
+  (vol_1, \cdots, vol_{r_2}) \colon H_3(PSL(2,k),\mathbb{Z}) \longrightarrow \mathbb{R}^{r_2}
+$$
+
+is the Borel regulator  ([Neumann 11, p. 6](#Neumann11)).
+
 
 ## Related concepts
 
@@ -272,6 +294,15 @@ See also
 
 Formore references see also at _[[Beilinson conjecture]]_.
 
+Relation of the Borel regulator to [[complex volumes]] of [[hyperbolic manifolds]] is discussed in
+
+
+
+* {#NeumannYang97} [[Walter Neumann]], Jun Yang, _Bloch invariants of hyperbolic 3-manifolds_, Duke Math. J. Volume 96, Number 1 (1999), 29-59. ([arXiv:math/9712224](http://arxiv.org/abs/math/9712224), [Euclid](http://projecteuclid.org/euclid.dmj/1077228942))
+
+* {#Zickert07} [[Christian Zickert]], _The volume and Chern-Simons invariant of a representation_, Duke Math. J., 150 (3):489-532, 2009 ([arXiv:0710.2049](http://arxiv.org/abs/0710.2049), [Euclid](http://projecteuclid.org/euclid.dmj/1259332507))
+
+* {#Neumann11} [[Walter Neumann]], _Realizing arithmetic invariants of hyperbolic 3-manifolds_, Contemporary Math 541 (Amer. Math. Soc. 2011), 233--246 ([arXiv:1108.0062](http://arxiv.org/abs/1108.0062))
 
 [[!redirects Beilinson regulators]]
 
@@ -291,4 +322,3 @@ Formore references see also at _[[Beilinson conjecture]]_.
 [[!redirects regulators in algebraic K-theory]]
 
 [[!redirects higher regulators]]
-
