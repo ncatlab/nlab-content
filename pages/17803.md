@@ -20,7 +20,7 @@ The _smooth Serre-Swan theorem_ states that over a [[smooth manifold]] $X$, smoo
 
 This is the variant for [[differential geometry]] of what the [[Serre-Swan theorem]] asserts in [[algebraic geometry]] and in [[topology]].
 
-Together with the [[embedding of smooth manifolds into formal duals of R-algebras]], the smooth Serre-Swan theorem states that that differential geometry is "more algebraic" than it may supeficially seem.
+Together with the [[embedding of smooth manifolds into formal duals of R-algebras]], the smooth Serre-Swan theorem states that that differential geometry is "more algebraic" than it may superficially seem.
 
 ## Related theorems
 
