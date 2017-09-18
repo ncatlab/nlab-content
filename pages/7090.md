@@ -28,6 +28,18 @@ See _[[characteristic class]]_ for more.
 [[!include extended prequantum field theory - table]]
 
 
+## References
+
+Textbook accounts include
+
+* {#Kochmann96} [[Stanley Kochmann]], section 2.3 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+
+
+
+
+
+
+
 [[!redirects universal characteristic classes]]
 
 
