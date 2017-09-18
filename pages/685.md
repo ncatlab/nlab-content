@@ -172,6 +172,8 @@ Hence the pseudo colimit of $F$ is got by taking its bicategory of elements, app
 
   * [[homotopy limit]]
 
+  * [[lax (∞,1)-colimit]]
+
 * [[coherence for bicategories with finite limits]]
 
 ## References 
