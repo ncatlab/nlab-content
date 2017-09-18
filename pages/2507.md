@@ -30,18 +30,14 @@ Super-Minkowski spacetime is a [[super spacetime]] which is an analog in [[super
 
 ## Definition 
 
-Ordinary $(d+1)$-dimensional [[Minkowski space]] can be understood as the  quotient $ISO(d,1)/(SO(d,1))$ of the [[Poincare group]] by the [[Lorentz group]] -- the [[translation group]].
+Ordinary $(d+1)$-dimensional [[Minkowski space]] may be understood as the  quotient $Iso(\mathbb{R}^{d-1,1})/(SO(d,1))$ of the [[Poincare group]] by the [[Lorentz group]] -- the [[translation group]].
 
-Analogously, the for each $N \in \mathbb{N}$ the
-$N$-extended [[supermanifold]] **Minkowski superspace** or **super Minkowski space** is the quotient of [[supergroups]]
-
-$$
-  \bar Osp(d+1|N)/ (SO(d,1)\times SO(N))
-$$
-
-where $\bar Osp(d+1|N)$ is...
+Analogously, the for each real irreducible [[spin representation]] $N$ the
+$dim(N)$-extended [[supermanifold]] **Minkowski superspace** or **super Minkowski space** is the quotient of [[supergroups]] of the [[super Poincaré group]] by the corresponding [[spin group]]
 
 The _[[super-translation group]]_. See there for more details.
+
+Alternatively, regarded as a [[super Lie algebra]] this is the quotient of the [[super Poincaré Lie algebra]] by the relevant [[Lorentz Lie algebra]].
 
 ## Properties
 
@@ -50,12 +46,12 @@ The _[[super-translation group]]_. See there for more details.
 
 We briefly review some basics of the canonical [[coordinates]] and the super [[Lie algebra cohomology]] of the [[super Poincaré Lie algebra]] and [[super Minkowski space]] (see also at _[[super Cartesian space]]_ and at _[[signs in supergeometry]]_).
 
-By the general discussion at [[Chevalley-Eilenberg algebra]], we may characterize the [[super Poincaré Lie algebra]] $\mathfrak{siso}(D-1,1)$ by its CE-algebra $CE(\mathfrak{siso}(D-1,1))$ "of [[left-invariant 1-forms]]" on its group manifold.
+By the general discussion at [[Chevalley-Eilenberg algebra]], we may characterize the [[super Poincaré Lie algebra]] $\mathfrak{Iso}(\mathbb{R}^{d-1,1|N})$ by its CE-algebra $CE(\mathfrak{Iso}(\mathbb{R}^{d-1,1|N}))$ "of [[left-invariant 1-forms]]" on its group manifold.
 
 +-- {: .num_defn #CEAlgebraOfSuperPoincare}
 ###### Definition
 
-The [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{siso}(d-1,1))$ is generated on 
+The [[Chevalley-Eilenberg algebra]] $CE(\mathfrak{Iso}(\mathbb{R}^{d-1,1|N}))$ is generated on 
 
 * elements $\{e^a\}$ and $\{\omega^{ a b}\}$ of degree $(1,even)$
 
@@ -166,12 +162,39 @@ is a [[cocycle]]. See also the [brane scan](#BraneScan) table below.
 
 =--
 
-
 ### Cohomology and super $p$-branes
 
-As opposed to ordinary [[Minkowski space]], the [[de Rham cohomology]] of super-Minkowski space contains nontrivial exceptional [[cocycles]]. These serve as the [[Wess-Zumino-Witten model|WZW terms]] for the [[Green-Schwarz action functional]] (see there for more) of super-$p$-[[branes]] propagating on super-Minkowski space ([FSS 13](#FSS13)).
+As opposed to ordinary [[Minkowski space]], the [[de Rham cohomology]] of [[left invariant forms]] of super-Minkowski space contains nontrivial exceptional [[cocycles]] (the _[[brane scan]]_). These serve as the [[Wess-Zumino-Witten model|WZW terms]] for the [[Green-Schwarz action functional]] (see there for more) of super-$p$-[[branes]] propagating on super-Minkowski space ([FSS 13](#FSS13)).
 
 The corresponding $L_\infty$-extensions are _[[extended superspacetime]]_.
+
+### As a central extension of the superpoint
+ {#AsCentralExtensionOfTheSuperpoint}
+
+Regarded as a [[super Lie algebra]], super Minkowski spacetime $\mathbb{R}^{d-1,1|N}$ has the single nontrivial super-Lie bracket given by the spinor bilinear pairing
+
+$$
+  \overline{(-)}\Gamma (-)
+  \colon
+  S \otimes S \longrightarrow V
+$$
+
+discussed in detail at _[[spin representation]]_.
+
+Notice that this means that if one regards the [[superpoint]] $\mathbb{R}^{0|dim(N)}$ as an [[abelian super Lie algebra]], then super Minkowski spacetime is the [[Lie algebra extension]] of that by this bilinear pairing regarded as a super-[[Lie algebra cohomology|Lie algebra cocycle]] with [[coefficients]] in $\mathbb{R}^{d}$.
+
+$$
+  \array{
+    \mathbb{R}^{d} &\longrightarrow& \mathbb{R}^{d-1,1|N}
+    \\
+    && \downarrow 
+    \\
+    && \mathbb{R}^{0|dim(N)}
+  }
+$$
+
+
+
 
 ## Related concepts
 
