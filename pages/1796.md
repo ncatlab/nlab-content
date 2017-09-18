@@ -23,4 +23,5 @@ The classical (but not constructive) theory of [[locally compact space|locally c
 
 
 [[!redirects Abstract Stone Duality]]
+[[!redirects abstract stone duality]]
 [[!redirects ASD]]
