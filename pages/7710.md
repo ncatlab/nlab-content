@@ -17,7 +17,7 @@
 
 ## Definition
 
-Definability is most often considered only for a first-order language $L$ (not a theory); a definable set is an equivalence class of formulas which evaluate in the same way in every $L$-structure. It makes sense to do the same for a theory: in that case in the definition of the equivalence relation one restricts to models of $T$. 
+[[definability|Definability]] is most often considered only for a [[first-order language]] $L$ (not a [[theory]]); a _definable set_ is an [[equivalence class]] of [[formulas]] which evaluate in the same way in every $L$-[[structure in model theory|structure]]. It makes sense to do the same for a theory: in that case in the definition of the [[equivalence relation]] one restricts to models of $T$. 
 
 Let $L$ be a first-order language and $T$ a theory in $L$. Any formula $\phi(x_1,\ldots,x_n)$, whose only free variables could be among $x_1,\ldots,x_n$, together with a [[model]] $M$ for $T$ evaluates to a truth value on each $a = (a_1,\ldots,a_n)\in  M^n$, hence it determines the subset $\phi(M)\subset M^n$ of all $a$ such that $\phi(a)$. Two formulas $\phi,\psi$ with the same number of free variables are equivalent if $\phi(M) = \psi(M)$ for every model $M$ of $T$. A __definable set__ $X$ in $T$ is an equivalence class of formulas in $L$ under this relation. Consider the category $\mathcal{M}_{el}(L)$ of $L$-[[structure in model theory|structures]] and [[elementary monomorphism]]s and its full subcategory $\mathcal{M}_{el}(T)$ whose objects are the models of $T$. We can also view a __definable set__ for a theory $T$ as a [[functor]] $\mathcal{M}_{el}(T)\to Set$ which is of the form $M\mapsto\phi(M)$ for some $L$-formula $\phi$. 
 
