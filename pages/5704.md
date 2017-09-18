@@ -95,11 +95,11 @@ closed and $f$-saturated subsets to closed subsets.
 
 * [[image]]
 
-* [[subspace]]
-
-* [[subframe]]
+* [[subspace]], [[subframe]]
 
 * [[quotient]], [[quotient stack]], [[quotient type]]
+
+[[!include universal constructions of topological spaces -- table]]
 
 
 [[!redirects quotient space]]
