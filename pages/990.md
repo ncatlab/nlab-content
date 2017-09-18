@@ -1,4 +1,14 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -32,3 +42,6 @@ The [[octonions]] are a (slightly) non-associative real [[normed division algebr
 [[!redirects nonassociative algebras]]
 [[!redirects non-associative algebra]]
 [[!redirects non-associative algebras]]
+
+[[!redirects not-necessarily associative algebra]]
+[[!redirects not-necessarily associative algebras]]
