@@ -63,3 +63,6 @@ The more familiar form of this recurrence,
 $$\binom{x+1}{k} = \binom{x}{k} + \binom{x}{k-1},$$ 
 
 may be interpreted combinatorially: a $k$-element subset $K$ of $X + 1$ is either entirely contained in $X$, or is determined by the $(k-1)$-element subset of $X$ that is $K \cap X$. 
+
+[[!redirects binomial coefficient]] 
+[[!redirects binomial coefficients]] 
