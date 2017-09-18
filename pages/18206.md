@@ -140,3 +140,6 @@ Conversely, if $f$ is a closed embedding, we only need to show that the embeddin
 
 [[!redirects topological subspace embedding]]
 [[!redirects topological subspace embeddings]]
+
+[[!redirects closed embedding of topological spaces]]
+[[!redirects closed embeddings of topological spaces]]
