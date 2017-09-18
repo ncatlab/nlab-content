@@ -190,3 +190,6 @@ Discussion for [[diffeological spaces]] is in
 [[!redirects tangent spaces]]
 [[!redirects tangent vector spaces]]
 [[!redirects tangent vector fields]]
+
+[[!redirects tangent]]
+[[!redirects tangents]]
