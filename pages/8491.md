@@ -16,10 +16,11 @@
 
 ## Idea
 
-The [[Lie n-algebra]] that generalizes the [[Poisson bracket]] from [[nLab:symplectic geometry]] to [[n-plectic geometry]]: the
-_Poisson bracket $L_\infty$-algebra of local observables_ in [[higher prequantum geometry]].
+The [[Lie n-algebra]] that generalizes the [[Poisson bracket]] from [[symplectic geometry]] to [[n-plectic geometry]]: the _Poisson bracket $L_\infty$-algebra of local observables_ in [[higher prequantum geometry]].
 
-More discussion is [here](http://ncatlab.org/nlab/show/n-plectic+geometry#PoissonLInfinityAlgebras) at _[[n-plectic geometry]]_.
+More discussion is [here](n-plectic+geometry#PoissonLInfinityAlgebras) at _[[n-plectic geometry]]_.
+
+Applied to the symplectic current (in the sense of [[covariant phase space]] theory, [[de Donder-Weyl field theory]]) this is the higher [[current algebra]] (see there) of [[conserved currents]] of a [[prequantum field theory]].
 
 ## Definition
  {#Definition}
@@ -100,6 +101,7 @@ The non-vanishing dg-Lie bracket on this complex are defined to be
 ([FRS 13b, def./prop. 4.2.1](#FRS13b))
 
 
+
 +-- {: .num_prop #ComparisonTheorem}
 ###### Proposition
 
@@ -120,6 +122,51 @@ between the $L_\infty$-algebras of def. \ref{PoissonBracketLienAlgebra} and def.
 =--
 
 ([FRS 13b, theorem 4.2.2](#FRS13b))
+
+## Properties
+
+### The extension theorem
+
++-- {: .num_defn #ExtensionTheorem}
+###### Proposition
+
+Given a [[pre n-plectic manifold]] $(X,\omega_{n+1})$, then the Poisson bracket Lie $n$-algebra $\mathfrak{Pois}(X,\omega)$ from [above](#Definition) is an [[L-infinity algebra cohomology|extension]] of the [[Lie algebra]] of [[Hamiltonian vector fields]] $Vect_{Ham}(X)$, def. \ref{HamiltonianFormsAndVectorFields} by the [[cocycle]] [[infinity-groupoid]] $\mathbf{H}(X,\flat \mathbf{B}^{n-1} \mathbb{R})$ for [[ordinary cohomology]] with [[real number]] [[coefficients]] in that there is a [[homotopy fiber sequence]] in the [[homotopy theory of L-infinity algebras]] of the form
+
+$$
+  \array{
+    \mathbf{H}(X,\flat \mathbf{B}^{d-1}\mathbb{R}) 
+    &\longrightarrow&
+    \mathfrak{Pois}(X,\omega)
+    \\
+    && \downarrow
+    \\
+    && Vect_{Ham}(X,\omega)
+    &\stackrel{\omega[\bullet]}{\longrightarrow}&
+    \mathbf{B} \mathbf{H}(X,\flat \mathbf{B}^{d-1}\mathbb{R})
+  }
+  \,,
+$$
+
+where the [[cocycle]] $\omega[\bullet]$, when realized on the model of def. \ref{PoissonBracketLienAlgebra}, is degreewise given by by contraction with $\omega$.
+
+=--
+
+This is [FRS13b, theorem 3.3.1](#FRS13b).
+
+As a corollary this means that the [[0-truncation]] $\tau_0 \mathfrak{Pois}(X,\omega)$ is a [[Lie algebra extension]] by [[de Rham cohomology]], fitting into a [[short exact sequence]] of [[Lie algebras]]
+
+$$
+  0 \to H^{d-1}_{dR}(X) \longrightarrow \tau_0 \mathfrak{Pois}(X,\omega) \longrightarrow Vect_{Ham}(X) \to 0
+ \,.
+$$
+
++-- {: .num_remark}
+###### Remark
+
+These kinds of extensions are known traditionally form [[current algebras]].
+
+=--
+
 
 ## Related concepts
 
