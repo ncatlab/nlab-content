@@ -125,13 +125,13 @@ As such, the [[quantomorphism group]] naturally [[action|acts]] on the [[space o
 
 ### Infinitesimal symmetries, Poisson bracket and Heisenberg algebra
 
-#### Ordinary Poisson brackets
+#### Traditional prequantum geometry
 
 
 +-- {: .num_defn #PresymplecticManifold}
 ###### Definition
 
-Let $X$ be a [[smooth manifol]]. A closed [[differential 2-form]] $\omega \in \Omega_{cl}^2(X)$ is a _[[symplectic form]]_ if it is non-degenerate in that the [[kernel]] of the operation of contracting with [[vector fields]]
+Let $X$ be a [[smooth manifold]]. A closed [[differential 2-form]] $\omega \in \Omega_{cl}^2(X)$ is a _[[symplectic form]]_ if it is non-degenerate in that the [[kernel]] of the operation of contracting with [[vector fields]]
 
 $$
   \iota_{(-)}\omega \colon Vect(X) \longrightarrow \Omega^1(X)
@@ -225,6 +225,41 @@ $$
   (C^\infty(X),[-,-])
   \,.
 $$
+
+=--
+
++-- {: .num_example}
+###### Example
+
+Let $X = \mathbb{R}^{2n}$ and let $\omega = \sum_{i = 1}^n d p_i \wedge d q^i$ for $\{q^i\}_{i = 1}^n$ the [[canonical coordinates]] on one copy of $\mathbb{R}^n$ and $\{p_i\}_{i = 1}^n$ that on the other ("[[canonical momenta]]"). Hence let $(X,\omega)$ be a [[symplectic vector space]] of dimension $2n$, regarded as a [[symplectic manifold]].
+
+Then $Vect(X)$ is [[linear span|spanned]] over $C^\infty(X)$ by the canonical bases vector fields $\{\partial_{q^i}, \partial_{p^i}\}$. These basis vector fields are manifestly [[Hamiltonian vector fields]] via
+
+$$
+  \iota_{\partial_{q^i}} \omega = - d p_i
+$$
+
+$$
+  \iota_{\partial_{p_i}} \omega = + d q^i
+  \,.  
+$$
+
+Moreover, since $X$ is [[connected topological space|connected]], these Hamiltonians are unique up to a choice of constant function. Write $\mathbf{i} \in C^\infty(X)$ for the unit constant function, then the nontrivial Poisson brackets between the basis vector fields are 
+
+$$
+  [q^i, p_j]
+  \coloneqq
+  [(\partial_{p_i}, q^i), (-\partial_{q^j}, p_j)]
+  =
+  (0, \mathbf{i})
+  =
+  \mathbf{i}
+  \,.
+$$
+
+This is called the [[Heisenberg algebra]].
+
+More generally, the [[Hamiltonian vector fields]] corresponding to [[quadratic Hamiltonians]], i.e. degree-2 [[polynomials]] in the $\{q^i\}$ and $\{p_i\}$, generate the [[affine symplectic group]] of $(X,\omega)$. The freedom to add constant terms to Hamiltonians gives the [[extended affine symplectic group]].
 
 
 =--
