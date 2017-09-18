@@ -38,11 +38,11 @@ Any open cover defined by a (generalized) [[partition of unity]] has a locally f
 
 The following says that if there exists a [[locally finite cover|locally finite]] [[refinement]] of a cover, then in fact there exists one with the same index set as the original cover.
 
-+-- {: .num_lemma #LocallyFiniteRefinementImpliesLocallyFiniteShrinking}
++-- {: .num_lemma #LocallyFiniteRefinementImpliesLocallyFiniteCoverWithOriginalIndexSet}
 ###### Lemma
-**(locally finite refinement induces locally finite shrinking)**
+**(locally finite refinement induces locally finite cover with original index set)**
 
-Let $(X,\tau)$ be a [[topological space]], let $\{U_i \subset X\}_{i \in I}$ be an [[open cover]], and let $(\phi \colon J \to I), \{V_j \subset X\}_{j \in J})$, be a [[refinement]] to a [[locally finite cover]].
+Let $(X,\tau)$ be a [[topological space]], let $\{U_i \subset X\}_{i \in I}$ be an [[open cover]], and let $(\phi \colon J \to I, \{V_j \subset X\}_{j \in J})$, be a [[refinement]] to a [[locally finite cover]].
 
 Then  $\left\{ W_i \subset X \right\}_{i \in I}$ with 
 
