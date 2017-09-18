@@ -24,11 +24,11 @@ Of course, in particular this implies that $I$ is itself cartesian closed.
 +-- {: .num_theorem}
 ###### Theorem
 
-If $I \hookrightarrow C$ is a [[reflective subcategory]], then it is an exponential ideal if and only if its [[reflector]] $C\to I$ preserves finite [[product]]s.
+If $I \hookrightarrow C$ is a [[reflective subcategory]], then it is an exponential ideal if and only if its [[reflector]] $C\to I$ preserves [[finite products]].
 
 =--
 
-This appears for instance as ([Johnstone, A4.3.1](#Johnstone)).
+This appears for instance as ([Johnstone, A4.3.1](#Johnstone)). See also at _[[reflective subuniverse]]_.
 
 
 ## References
