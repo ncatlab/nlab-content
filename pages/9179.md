@@ -27,6 +27,8 @@ On neutrino [[masses]] and the [[standard model of particle physics]] as an [[ef
 
 > I also noted at the same time that interactions between a pair of lepton doublets and a pair of scalar doublets can generate a neutrino mass, which is suppressed only by a factor $M^{-1}$, and that therefore with a reasonable estimate of $M$ could produce observable neutrino oscillations. The subsequent confirmation of neutrino oscillations lends support to the view of the Standard Model as an effective field theory, with M somewhere in the neighborhood of $10^{16} GeV$. ([Weinberg 09, p. 15](#Weinberg09))
 
+In fact this scale is about the standard for [[grand unified theories]], see for instance ([Mohapatra 06](#Mohapatra06)) for more on this relation, and see at _[[seesaw mechanism]]_.
+
 ## History and prediction
 
 The history of the prediction of the neutrino is interesting and may (or may not) contain some general lessons for theoretical physics/[[mathematical physics]].
@@ -83,6 +85,9 @@ Comments on neutrinos masses as a hint for the [[standard model of particle phys
 * [[Steven Weinberg]], _Effective Field Theory, Past and Future_ ([arXiv:0908.1964](http://arxiv.org/abs/0908.1964))
  {#Weinberg09}
 
+And more on this in relation to [[GUT]] models includes
+
+* {#Mohapatra06} R. N. Mohapatra, _Models of Neutrino Masses: A Brief Overview_, 2006 ([pdf](http://lss.fnal.gov/conf/C0606131/2.2mohapat.pdf))
 
 [[!redirects neutrino]]
 [[!redirects neutrinos]]
