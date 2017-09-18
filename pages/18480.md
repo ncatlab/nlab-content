@@ -5,12 +5,7 @@
 
 ***
 
-This page is about a formalization of the concept of [[directed graphs]] that is usual in combinatorics. For the usual definition of directed graph in category theory, see [[quiver]]. 
-For some commentary on how the two formalizations relate to one another, see [[directed graph]].
-
-
-
-See also [[geometric shape for higher structures]].
+This page is about a formalization of the concept of [[directed graphs]] that is usual in combinatorics. For the notion of directed graph as commonly understood in category theory, see [[quiver]]. For some commentary on how the two formalizations relate to one another, see [[directed graph]].
 
 
 ***
@@ -27,14 +22,13 @@ $\,$
 =--
 =--
 
-#Digraphs#
+# Contents
 * table of contents
 {:toc}
 
 ## Idea
 
-**Digraphs** are one way to formalize the idea of directed connections between [[points]]: digraphs use the [[category of sets]] and its limits, and to choose the desired connections from a usually much larger reservoir of possible connections. This has advantages and disadvantages. Other ways of formalization, such as [[quivers]], from the outset start with *only* the desired connections.
-
+In combinatorics, a **digraph** (a shortening of *directed graph*) consists of a [[set]] and a [[binary relation]] on that set that is [[irreflexive relation|irreflexive]]. The elements of the set are called *nodes* or *vertices*, and elements of the relation are called *edges* or *arcs*; the idea is that whenever an ordered pair $(x, y)$ belongs to the relation, then we depict it as an arrow or directed edge going from node $x$ to node $y$. The irreflexivity condition means there is never an edge from a node to itself. 
 
 ## Definitions
 
@@ -47,7 +41,12 @@ A digraph is a [[pair]] $(V,A)$ of [[sets]], with $A\subseteq V\times V\setminus
 Here, $V\times V$ denotes the [[product]], and ${}\setminus{}$ the [[relative complement]] in the [[category of sets]].
 The elements of $V$ are called *vertices*, the elements of $A$ are called *arcs*. 
 
-=--
+=-- 
+
++-- {: .num_example} 
+###### Example 
+A basic example of a digraph is an [[ordinal]] $\ell$ where $V$ is the underlying set of $\ell$ and $A$ is the relation $\{(i, i+1): i, i+1 \in \ell\}$. 
+=-- 
 
 +-- {: .num_defn #Neighbourhoods}
 ###### Definition
@@ -104,8 +103,8 @@ Suppose $D=(V,A)$ is a digraph. A *path* in $D$ is a trail $P$ in $D$ such that 
 
 =--
 
-The standard meaning of "path" in (di)graph theory is *somewhat opposite* to the standard topological meaning of [[path]]. 
-In (di)graph theory, a "path" never has self-intersections, and hence (essentially) is a (di)graph isomorphisms onto its image, while in topology the term *path* signals that self-intersections *are* permitted. 
+Note that the standard meaning of "path" in (di)graph theory is different to the standard topological meaning of [[path]]. 
+In (di)graph theory, a path never has self-intersections, and hence (essentially) is a (di)graph isomorphism onto its image, while in topology the term *path* signals that self-intersections *are* permitted. 
 The standard term in topology for a path which is *free of self-intersections* is [[arc]] (eg [Kowalksky 1965](#Kowalksky65), Definition 29b). 
 As a saving grace, the standard way to rigorously define the arcs of *plane* digraphs uses precisely the topological [[arcs]]. 
 
@@ -163,7 +162,7 @@ While this article makes essential use of the treatment of plane graphs given in
 ## Remarks on the definitions
 
 The *convention* to have digraph imply that there be no loops and no parallel arcs, and resort to other terms such as *directed pseudograph* to signal loops or parallel arcs, is widespread in modern combinatorics. 
-Two modern examples are ([Gutin and Bang-Jensen](#DG2nd)), and ([Csaba et al](#DecompositionProof)).
+For example, see p. 2 of ([Gutin and Bang-Jensen](#DG2nd)), and Section 1.2 of ([Csaba et al](#DecompositionProof)).
 
 Unsurprisingly, while the convention that digraph implies that there be no parallel arrows has been widely adopted nowadays, there is a generous disregard for whether a digraph may contain loops. In this set-theoretical definition given above, this corresponds to the decision whether to allow $A$ to contain elements of the form $(v,v)$. 
 
@@ -177,7 +176,7 @@ The terminology "king" above is standard in modern digraph theory; the term "cok
 A reason for treating the concept of $\infty$-kings here is A. J. Power's proof ([Power 1990](#Power1990)) of a *pasting theorem*, a rigorous justification of the notational practice of [[pasting diagrams]]: therein, both $\infty$-kings and $\infty$-cokings play an important role (Power calls $\infty$-kings "sources" and $\infty$-cokings "sinks"; both these terms clash with two standard technical terms in, respectively, contemporary digraph theory and flow theory, which is why the alternative terms were chosen).
 
 The choice of definitions documented here is biased towards (one of) the uses digraphs are put to in category theory, in particular in giving a rigorous justification of [[pasting diagrams]]. 
-The most salient example of this is the emphasis given to *plane digraphs* in this article.
+The most salient example of this is the emphasis given to *plane digraphs* in this article. 
 
 
 ## Uses of digraphs in category theory 
@@ -189,8 +188,9 @@ Note that there are more than one definition of [[pasting scheme]] in the litera
 E.g. there are M. Johnson's pasting schemes (([Johnson 1987](#Johnson1987), Chapter 2), ([Johnson 1989](#Johnson1989), Section 2)) and Power's pasting schemes ([Power 1990](#Power1990)). 
 The definition which is strictly relevant to the present article is Power's. He defines defines pasting schemes as a special kind of digraph ([Power 1990](#Power1990), Section 3), details will be found at [[pasting scheme]] .
 
+## Related concepts
 
-
+* [[geometric shape for higher structures]]
 
 ## References
 
