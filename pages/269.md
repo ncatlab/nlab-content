@@ -231,6 +231,8 @@ There is a [[model structure on cubical sets]] with the same [[homotopy theory]]
 
 In fact ([Jardine 02, theorem 29, theorem 30](#Jardine02)) gives an [[adjunction]] between the [[model categories]] which, while not quite a [[Quillen adjunction]], does have [[unit of an adjunction|unit]] and [[counit of an adjunction|counit]] being [[weak equivalences]]. Hence by the discussion at _[[adjoint (∞,1)-functor]]_  it should indeed follow that the [[derived functors]] of the adjunction exhibit the [[simplicial localizations]] of cubical sets equivalent to that of simplicial sets, hence make their [[(∞,1)-categories]] [[equivalence of (∞,1)-categories|equivalent]] (hence equivalent to [[∞Grpd]]). 
 
+This generalizes to a local [[model structure on cubical presheaves]] over any [[site]], which has at least the same [[homotopy category]] as the corresponding local [[model structure on simplicial presheaves]].
+
 ## Background
 
 The notion of cubical set and of homology theory and homotopy theory based on singular cubes goes way back in the literature. Serre's work on spectral sequences and fibre spaces was based on cubes. Kan's early work on combinatorial homotopy was based on cubes. However the category of cubical sets was found to have a major disadvantage compared with simplicial sets, in that the [[cartesian product]] in this category failed to have the correct [[homotopy type]]. This is in striking contrast to the cartesian product on [[simplicial set]]s.
@@ -258,6 +260,10 @@ Cubical methods are a key feature in using higher homotopy groupoids to prove ho
 
 ## Related concepts
 
+* [[cubical object]]
+
+* [[model structure on cubical presheaves]]
+
 * [[simplicial set]], [[globular set]], [[cellular set]], [[dendroidal set]]
 
 * [[simplicial object]]
@@ -282,8 +288,8 @@ Math. **54** no.3 (1951), pp.425-505. ([pdf](http://www.college-de-france.fr/med
 
 General introductions of the cube category and of cubical sets are in 
 
-* [[Rick Jardine]], _Cubical sets_ ([pdf](http://www.math.uwo.ca/~jardine/papers/sPre/lecture012.pdf)), Lecture 12 in [Lectures on simplicial presheaves](http://www.math.uwo.ca/~jardine/papers/sPre/index.shtml) 
- {#JardineLecture}
+* {#JardineLecture} [[Rick Jardine]], _Cubical sets_ ([pdf](http://www.math.uwo.ca/~jardine/papers/sPre/lecture012.pdf)), Lecture 12 in [Lectures on simplicial presheaves](http://www.math.uwo.ca/~jardine/papers/sPre/index.shtml) 
+ 
 
 * [[Sjoerd Crans]], section 2 of _Pasting schemes for the monoidal biclosed structure on $\omega$-$\mathbf{Cat}$_ ([web](http://crans.fol.nl/papers/thten.html), [ps](http://crans.fol.nl/papers/thten.ps.gz), [[thten.pdf|pdf:file]])
 
