@@ -133,7 +133,19 @@ $$E \times E' \stackrel{\delta \times 1}{\to} E \times E \times E' \stackrel{1 \
 
 whose category of coalgebras is again (by a basic theorem of topos theory; see for instance [here](http://ncatlab.org/toddtrimble/published/Three+topos+theorems+in+one)) a topos, called the **Artin gluing** construction for $\Phi$, denoted $\mathbf{Gl}(\Phi)$. 
 
-Objects of $\mathbf{Gl}(\Phi)$ are triples $(e, e', f \colon e' \to \Phi(e))$. A morphism from $(e_0, e_0^', f_0)$ to $(e_1, e_1^', f_1)$ consists of a pair of maps $g \colon e_0 \to e_1$, $g': e_0^' \to e_1^'$ which respects the maps $f_0, f_1$ (in the sense of an evident commutative square). In other words, the Artin gluing is just the [[comma category]] $E' \downarrow \Phi$. 
+Objects of $\mathbf{Gl}(\Phi)$ are triples $(e, e', f \colon e' \to \Phi(e))$. A morphism from $(e_0, e_0^', f_0)$ to $(e_1, e_1^', f_1)$ consists of a pair of maps $g \colon e_0 \to e_1$, $g'\colon e_0^' \to e_1^'$ which respects the maps $f_0, f_1$ :
+
+$$
+ \array{
+    e_0^' &\overset{f_0}{\to} & \Phi (e_0)
+    \\
+    g'\downarrow &&\downarrow \Phi(g)
+    \\
+    e_1^' &\underset{f_1}{\to} & \Phi(e_1) 
+  }
+$$
+
+In other words, the Artin gluing is just the [[comma category]] $E' \downarrow \Phi$. 
 
 On the other hand, if $E$ is a topos and $U\in E$ is a [[subterminal object]], then it generates two [[subtoposes]] that are [[complement|complements]] in the [[lattice of subtoposes]], namely, an [[open subtopos]] whose [[reflector]] is $(-)^U$, and a [[closed subtopos]] whose reflector is the [[pushout]] $A\mapsto A +_{A\times U} U$.  If $E=Sh(X)$ is the topos of sheaves on a locale, then $U$ corresponds to an element of $O(X)$, hence an open sublocale with complement $K$ (say), and the open subtopos can be identified with $Sh(U)$ and the closed one with $Sh(K)$.
 
@@ -173,19 +185,50 @@ The sheaves in $\mathbf{Gl}(f)$ corresponding to the open resp. closed subtopose
 
 The [[open subtopos]] corresponding to $E$ is [[dense subtopos|dense]] in $\mathbf{Gl}(f)$ precisely if $f:E\to F$ preserves the initial object since $(0,0,0\to f(0))$ is the initial object in $\mathbf{Gl}(f)$ and $0\to f(0)$ is an isomorphism precisely if $f$ preserves $0$. 
 
-To summarize: given a left exact $f:E\to F$ we get a closed inclusion of $F$ into $\mathbf{Gl}(f)$ with
+To summarize: given a left exact $f\colon E\to F$ we get an open inclusion of $E$ with a further left adjoint:
 
-$$ j_\ast :F\to \mathbf{Gl}(f) \qquad X\mapsto (1,X,X\to 1)$$
+$$ i_\ast \colon E\to \mathbf{Gl}(f) \qquad X\mapsto (X,f(X),id_{f(X)})$$
 
-$$ j^\ast:\mathbf{Gl}(f)\to F \qquad (X,Y,u)\mapsto Y$$
+$$ i^\ast\colon \mathbf{Gl}(f)\to E \qquad (X,Y,u)\mapsto X$$
 
-and an open inclusion of $E$ with a further left adjoint:
+$$ i_{!} \colon E\to \mathbf{Gl}(f) \qquad X\mapsto (X,0,0\to f(X)) \quad ,$$
+ 
+and a closed inclusion of $F$ into $\mathbf{Gl}(f)$ with
 
-$$ i_\ast :E\to \mathbf{Gl}(f) \qquad X\mapsto (X,f(X),id_{f(X)})$$
+$$ j_\ast \colon F\to \mathbf{Gl}(f) \qquad X\mapsto (1,X,X\to 1)$$
 
-$$ i^\ast:\mathbf{Gl}(f)\to E \qquad (X,Y,u)\mapsto X$$
+$$ j^\ast\colon\mathbf{Gl}(f)\to F \qquad (X,Y,u)\mapsto Y$$
 
-$$ i_{!} :E\to \mathbf{Gl}(f) \qquad X\mapsto (X,0,0\to f(X)) \quad .$$
+that will lack the left adjoint $j_!$ in general. The situation when $j_!$ exists is characterized by the following observation:
+
++-- {: .un_thm} 
+######Proposition 
+The closed inclusion $j$ is essential i.e. $j^\ast$ has a left adjoint $j_!$ precisely if the fringe functor $f$ has a left adjoint $l$.
+=--
+
++-- {: .proof} 
+######Proof
+Suppose $j_!$ exists. The fringe functor $f$ is up to natural isomorphism just $j^\ast i_\ast$ and $i^\ast j_!\dashv j^\ast i_\ast$ since adjoints compose.
+
+Conversely, suppose that $l\dashv f$ with $\eta\colon id\to f{l}$ the corresponding unit. Define 
+
+$$ j_{!} \colon F\to \mathbf{Gl}(f) \qquad Y\mapsto (l(Y),Y,\eta_Y\colon Y\to f{l}(Y)) \quad .$$
+
+Now given morphisms $\alpha\colon Y_1\to Y$ and $u\colon Y\to f(X)$ in $F$ by general properties of a unit there is precisely one morphism $\overline{u\circ\alpha}\colon l(Y_1)\to X$ corresponding to $u\circ\alpha$ under the adjunction such that the following diagram commutes:
+
+$$
+ \array{
+    Y_1 &\overset{\eta_{Y_1}}{\to} & f{l}(Y_1)
+    \\
+    \alpha\downarrow &&\downarrow f(\overline{u\circ\alpha})
+    \\
+    Y &\underset{u}{\to} & f(X) 
+  }
+$$
+
+This correspondence between $Y_1\to j^\ast(X,Y,u)$ and $j_!(Y_1)\to (X,Y,u)$ is natural since $\eta$ is.
+
+=--
 
 ### Examples 
 
