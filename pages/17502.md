@@ -1,33 +1,28 @@
+# 3-categories with contravariance
 
-1. A $\mathbb{Z}/2\times\mathbb{Z}/2$-graded $2$-category of $2$-categories, $2$-functors of arbitrary variance, and [[lax natural transformations]]. Instead of giving each commutativity condition for the sixteen kinds of lax natural transformations, let us write down the one that a [[category of V-enriched categories]] comes equipped with: a lax natural transformation $F\stackrel{\alpha}\Rightarrow G\colon$**C**$\to$**D**, where $F$ is a $2$-functor flipping $2$-morphisms, and $G$ is $2$-functor flipping $1$-morphisms, consists of an $\ob(\mathbf{C})$-indexed family of $1$-morphisms $FX\stackrel{\alpha_X}{\to} GX$ in **D**, and for each two objects $X,Y$ of **C**, an $\ob[X,Y]$-indexed family of $2$-morphisms $\alpha_f$, so that for every $2$-morphism $f\stackrel{\gamma}{\Rightarrow} g$, we have the commutative diagram of $2$-moprhisms in **D**:
-$$
-\array{
-&&FX&\stackrel{Ff}{\rightarrow}&FY\\
-&&\alpha_X\downarrow&\stackrel{\alpha_f}{\Rightarrow}&\downarrow\alpha_Y&&FX\\
-&&GX&\stackrel{Gf}{\leftarrow}&GY&&\downarrow Ff\\
-FX&\stackrel{id}{\neArrow}&&&& \stackrel{G\gamma.(\alpha_Y\circ Ff)}{\seArrow}&FY\\
-\alpha_X\downarrow&&&&&&\downarrow\alpha_Y\\
-FY&\stackrel{id}{\seArrow}&&&&\stackrel{(Gg\circ\alpha_Y).F\gamma}{\neArrow}&GY\\
-&&FX&\stackrel{Fg}{\rightarrow}&FY&&\downarrow Gg\\
-&&\alpha_X\downarrow&\stackrel{\alpha_g}{\Rightarrow}&\downarrow\alpha_Y&&GX\\
-&&GX&\stackrel{Gg}{\leftarrow}&GY
-}$$
-where . is whiskering/horizontal composition. Furthermore, given composable $1$-morphisms $X\stackrel{f}{\rightarrow}Y\stackrel{h}{\rightarrow} Z$, the $2$-moprhisms $\alpha_X\stackrel{\alpha_f}{\Rightarrow}Gf\circ\alpha_Y\circ Ff$ and $\alpha_Y\stackrel{\alpha_h}{\Rightarrow}Gh\circ\alpha_Z\circ Fh$ are related via the formula $\alpha_{h\circ f}=(Gf.\alpha_h.Ff)\circ\alpha_f$, which says that the [[pasting diagram]] of $2$-morphisms:
-$$
-\array{
-FX&\stackrel{Ff}{\rightarrow}&FY&\stackrel{Fh}{\rightarrow}&FZ\\
-\alpha_X\downarrow&\stackrel{\alpha_f}{\Rightarrow}&\downarrow\alpha_Y&\stackrel{\alpha_h}{\Rightarrow}&\downarrow\alpha_Z\\
-GX&\stackrel{Gf}{\leftarrow}&GY&\stackrel{Gh}{\leftarrow}&GZ
-}$$
-reduces to
-$$
-\array{
-FX&\stackrel{Fh\circ Ff}{\rightarrow}&FZ\\
-\alpha_X\downarrow&\stackrel{\alpha_{h\circ f}}{\Rightarrow}&\downarrow\alpha_Z\\
-GX&\stackrel{Gh\circ Gf}{\leftarrow}&GZ
-}$$
+* table of contents
+{: toc}
 
-2. A $\mathbb{Z}/2\times\mathbb{Z}/2$-graded $2$-category of $2$-categories, $2$-functors of arbitrary variance, and [[lax natural transformations|oplax natural transformations]].
+## Idea
 
-Somewhat mysteriously, the [[category of V-enriched categories]] is a $2$-category which comes with a [[unit enriched category]] $\mathcal{I}$ and either a lax natural transformation $[\mathcal{I},-]^{op}\Rightarrow[[\mathcal{I},-],V_0]$ (in the case of $\mathcal{V}$ a [[monoidal category|monoidal structure]] on $V$), or a lax natural transformation $[\mathcal{I},-]^{op}\Rightarrow[-,V^e]$ (in the case of $\mathcal{V}$ a [[closed category|closed structure]] on $[\mathcal{I},V^e]\cong V_0$).
+A *3-category with contravariance* is a [[categorification]] of a [[2-category with contravariance]].  It is an abstract structure that generalizes the structure present on the collection of [[2-categories]] and all four sorts of [[contravariant 2-functor]].
 
+## No mixed-variance transformations
+
+As for [[2-category with contravariance]], the simplest case is when we only consider transformations between functors of the same variance.  Thus for each pair of objects $x,y$ we have four disjoint hom-2-categories $hom^{++}(x,y)$, $hom^{+-}(x,y)$, $hom^{-+}(x,y)$, and $hom^{--}(x,y)$, with sixteen composition 2-functors that act like $\mathbb{Z}/2\times \mathbb{Z}/2$ on the gradings and are appropriately variant on their inputs.
+
+Like [[2-categories with contravariance]], these can be described abstractly (at least in the strict case of [[strict 3-categories]], or the [[semistrict n-category|semistrict]] case of [[Gray-categories]]) as [[enriched categories]], in terms of an action of $\mathbb{Z}/2\times \mathbb{Z}/2$ on $2Cat$.  See [Shulman 2016](#Shulman2016) for a few details.  Depending on whether we use the strict cartesian product on $2 Cat$, the usual "pseudo" Gray tensor product, or its lax or colax versions, we would obtain a structure including strict, pseudo, lax, or colax [[2-natural transformations]] (all between 2-functors of the same variance only).
+
+
+## Mixed-variance transformations
+
+We can also attempt to include transformations between 2-functors of different variance.  In this case our hom-2-categories will have a $\mathbb{Z}/2\times\mathbb{Z}/2$-grading on their objects, but include morphisms between objects of different variance, yielding sixteen different kinds of natural transformation.  We could also choose to make these transformations strict, lax, colax, or pseudo.  All these kinds of transformation can also be regarded as special cases of [[2-dinatural transformations]]; see there for an example.
+
+It is natural to then conjecture that there is a tensor product on an appropriate category of $\mathbb{Z}/2\times\mathbb{Z}/2$-graded 2-categories giving rise to a notion of enriched category that described this structure.
+
+## References
+
+* [[Mike Shulman]], *Contravariance through enrichment*, [arXiv](https://arxiv.org/abs/1606.05058), 2016
+ {#Shulman2016}
+
+[[!redirects 3-categories with contravariance]]
