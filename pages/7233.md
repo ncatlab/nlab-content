@@ -56,7 +56,7 @@ $$
 
 for the subset of the set of [[differential 3-forms]] on those that, as [[sections]] to the exterior power of the [[cotangent bundle]], are pointwise in $\Lambda^3_+(\mathbb{R}^7)^\ast$. 
 
-These are also called the _positive forms_ ([Joyce 00, p. 243](Joyce00)) or the _definite forms_ ([Bryant 05, section 3.1.1](#Bryant05)) on $X$.
+These are also called the _positive forms_ ([Joyce 00, p. 243](Joyce00)) or the _[[definite differential forms]]_ ([Bryant 05, section 3.1.1](#Bryant05)) on $X$.
 
 =--
 
@@ -66,7 +66,7 @@ These are also called the _positive forms_ ([Joyce 00, p. 243](Joyce00)) or the 
 ###### Proposition
 
 A $G_2$-structure on $X$, def. \ref{G2Structure}, is equivalently 
-a choice of definite 3-form $\sigma$ on $X$, def. \ref{Definite3Forms}.
+a choice of [[definite 3-form]] $\sigma$ on $X$, def. \ref{Definite3Forms}.
 
 =--
 
@@ -97,7 +97,7 @@ $$
 
 with $(\phi_{a b c})$ the canonical components of the [[associative 3-form]] and with summation over repeated indices understood.
 
-By construction this is such that on a [[chart]] $(U_i \subset X)$ any definite 3-form, def. \ref{Definite3Forms}, restricts to the [[pullback of differential forms|pullback]] of $\phi_u$ via a [[section]] $\sigma_i \colon U_i \to Fr(X)$ and hence is of the form
+By construction this is such that on a [[chart]] $(U_i \subset X)$ any [[definite 3-form]], def. \ref{Definite3Forms}, restricts to the [[pullback of differential forms|pullback]] of $\phi_u$ via a [[section]] $\sigma_i \colon U_i \to Fr(X)$ and hence is of the form
 
 $$
   \phi_{a b c} E_i^a \wedge E_i^b \wedge E_i^c
@@ -146,7 +146,7 @@ $$
 
 which is precisely the defining condition for $g_{i j}$ to take values in $G_2$.
 
-Viewed this way, the definite 3-forms characterizing $G_2$-structures are an example of a more general kind of differential forms obtained from a constant form on some linear model space $V$ by locally contracting with a [[vielbein]] field. For instance on a [[super-spacetime]] solving the [[equations of motion]] of  [[11-dimensional supergravity]] there is a super-4-form part of the [[field strength]] of the [[supergravity C-field]] which is cnstrained to be locally of the form
+Viewed this way, the [[definite 3-forms]] characterizing $G_2$-structures are an example of a more general kind of differential forms obtained from a constant form on some linear model space $V$ by locally contracting with a [[vielbein]] field. For instance on a [[super-spacetime]] solving the [[equations of motion]] of  [[11-dimensional supergravity]] there is a super-4-form part of the [[field strength]] of the [[supergravity C-field]] which is cnstrained to be locally of the form
 
 $$
   \Gamma_{a b \alpha \beta} E_i^a \wedge E_i^b \wedge E_i^\alpha \wedge E_i^\beta
@@ -156,7 +156,7 @@ for $(E^A)= (E^a, E^\alpha) = (E^a, \Psi^\alpha)$ the [[super-vielbein]].  See a
 
 =--
 
-References that write definite 3-forms in this form locally as $\phi_{a b c}E^a \wedge E^b \wedge E^c$ include ([BGGG 01 (2.9)](#BGGG01), ...).
+References that write [[definite 3-forms]] in this form locally as $\phi_{a b c}E^a \wedge E^b \wedge E^c$ include ([BGGG 01 (2.9)](#BGGG01), ...).
 
 The following is important for the analysis:
 
