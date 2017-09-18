@@ -1,4 +1,7 @@
 
+$$
+ x^{\prime\prime}
+$$
 
 $$
   \array{
