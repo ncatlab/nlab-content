@@ -46,7 +46,10 @@ Let $X$ and $Y$ be [[types]].  There is a canonically defined map from the [[ide
 
 **Univalence:** _For any two [[types]] $X,Y$, this map $(X=Y)\to (X\simeq Y)$ is an [[equivalence in homotopy type theory|equivalence]]._
 
+When $X$ and $Y$ are [propositions](propositions+as+types#PropositionsAsSomeTypes), univalence corresponds to [[propositional extensionality]].
+
 Univalence is a commonly assumed [[axiom]] in [[homotopy type theory]], and is central to the proposal ([Voevodsky](#Voevodsky)) that this provides a natively [[homotopy theory|homotopy theoretic]] [[foundation]] of [[mathematics]] (the _Univalent Foundations Project_.)
+
 
 ### In categorical semantics
  {#InCategoricalSemantics}
