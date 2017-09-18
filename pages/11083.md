@@ -157,7 +157,7 @@ Given such an action of a [[discrete group]] on a [[set]], we might be demoted t
 The [[action groupoid]]
 
 $$
-  \Omega^1_{vert}(X\times U)\sslash C^\infty(X \times U, U(1))
+  \Omega^1_{vert}(X\times U)//  C^\infty(X \times U, U(1))
   \coloneqq
   (
     \Omega^1_{vert}(X\times U) \times C^\infty(X \times U, U(1))
@@ -184,7 +184,7 @@ This is the discrete _gauge groupoid_ for $U$-parameterized collections of field
 Let $A_0 \coloneqq 0 \in \Omega^1_{vert}(X \times U)$ be the trivial gauge field. Then its [[automorphism group]] in the gauge groupoid of def. \ref{EMGaugeGroupoidOverU} is the group of [[circle]]-group valued functions on $U$:
 
 $$
-  \pi_1(\Omega^1_{vert}(X\times U)\sslash C^\infty(X \times U, U(1)), A_0)
+  \pi_1(\Omega^1_{vert}(X\times U)// C^\infty(X \times U, U(1)), A_0)
   =
   Aut(A_0)
   \simeq
@@ -231,7 +231,7 @@ We then also want to consider a _smooth action groupoid_.
 Write 
 
 $$
-  \mathbf{\Omega}^1(X) \sslash \mathbf{C}^\infty(X, U(1))
+  \mathbf{\Omega}^1(X) // \mathbf{C}^\infty(X, U(1))
   : 
   CartSp^{op}
   \to 
@@ -241,7 +241,7 @@ $$
 for the [[contravariant functor]] from coordinate systems to the [[category]] of [[groupoids]], which assigns to $U \in CartSp$ the discrete action groupoid of $U$-collections of gauge fields of def. \ref{EMGaugeGroupoidOverU}.
 
 $$
-  U \mapsto \Omega^1_{vert}(X \times U)\sslash C^\infty(X\times U, U(1))
+  U \mapsto \Omega^1_{vert}(X \times U) // C^\infty(X\times U, U(1))
   \,.
 $$
 
@@ -358,12 +358,12 @@ $$
 an [[action]] then  the [[action groupoid]]
  
 $$
-  X \sslash G \in Smooth1Type
+  X // G \in Smooth1Type
 
 $$
 
 $$
-  X \sslash G = 
+  X // G = 
   \left(
     X \times G 
      \stackrel{\overset{\rho}{\longrightarrow}}{\underset{p_1}{\longrightarrow}}
@@ -477,7 +477,7 @@ A **localized diffeomorphism** $\phi \colon \mathbb{R} \to \mathbb{R}$ is a [[di
 Write
 
 $$
-  [\mathbb{R}, \mathbb{R}^k]\sslash Diff(\mathbb{R}) 
+  [\mathbb{R}, \mathbb{R}^k] // Diff(\mathbb{R}) 
   \in 
   Smooth0Type
 $$
