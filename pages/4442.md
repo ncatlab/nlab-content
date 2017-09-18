@@ -208,6 +208,8 @@ Detailed discussion of how [[Green-Schwarz action functionals]] for super $p$-br
 
 * [[Paolo Pasti]], [[Dmitri Sorokin]], Mario Tonin, _Branes in Super-AdS Backgrounds and Superconformal Theories_ ([arXiv:hep-th/9912076](http://arxiv.org/abs/hep-th/9912076))
 
+See also at _[super p-brane -- As part of the AdS-CFT correspondence](Green-Schwarz+action+functional#AsPartOfTheAdSCFTCorrespodence)_.
+
 
 ### Introductions and surveys
 
