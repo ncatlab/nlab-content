@@ -142,6 +142,8 @@ See
 
   * [[complex Lie algebra]]
 
+  * [[restricted Lie algebra]]
+
   * [[Lie group]]
 
   * [[Lie-Poisson structure]]
