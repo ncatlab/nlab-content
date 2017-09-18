@@ -45,7 +45,7 @@ and in [Toronto-McCarthy 10b, slide 35](#TorontoMcCarthy10b):
 
 > you could interpret this by regarding random variables as reader monad computations. 
 
-See also ([Toronto-McCarthy 10b, slide 24](#TorontoMcCarthy10b)). [Toronto-McCarthy 10a, 2.2](#TorontoMcCarthy10a) calls the [[function monad]] the _random variable idiom_.
+See also ([Toronto-McCarthy 10b, slide 24](#TorontoMcCarthy10b)). [Toronto-McCarthy 10a, 2.2](#TorontoMcCarthy10a), [Toronto 14](#Toronto14) call the [[function monad]] the _random variable idiom_.
 
 
 
@@ -72,6 +72,8 @@ Discussion from a point of view of [[type theory]]/[[computer science]] includes
 * {#TorontoMcCarthy10a} [[Neil Toronto]], [[Jay McCarthy]], _From Bayesian notation to pure Racket, via measuretheoretic probability_, in _Implementation and Application of Functional Languages_, 2010 ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.298.4274))
 
 * {#TorontoMcCarthy10b} [[Neil Toronto]], [[Jay McCarthy]], _From Bayesian Notation to Pure Racket_, talk notes 2010 ([pdf](http://jeapostrophe.github.io/home/static/toronto-2010ifl-slides.pdf))
+
+* {#Toronto14} [[Neil Toronto]], _Useful Languages for Probabilistic Modeling and Inference_, PhD Thesis, 2014 ([pdf](http://cs.umd.edu/~ntoronto/papers/toronto-2014diss.pdf), [slides](http://cs.umd.edu/~ntoronto/papers/toronto-2014diss-slides.pdf))
 
 
 * {#Verdier14} [[Olivier Verdier]], _[The Reader and Writer Monads and Comonads](http://www.olivierverdier.com/posts/2014/12/31/reader-writer-monad-comonad/)_, 2014
