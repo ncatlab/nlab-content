@@ -191,6 +191,19 @@ We write $Vect(X)_{/\sim}$ for the [[set]] of [[isomorphism classes]] of this ca
 
 =--
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 +-- {: .num_remark #TerminologyVectorBundles}
 ###### Remark
 **(some terminology)**
@@ -303,10 +316,10 @@ as in def. \ref{TopologicalVectorBundle} constitute a _[[local trivialization]]_
 ###### Example
 **([[section]] of a [[topological vector bundle]])**
 
-Let $E \overset{\pi}{\to} X$ be a topological vector bundle (def. \ref{TopologicalVectorBundle}}).
+Let $E \overset{\pi}{\to} X$ be a topological vector bundle (def. \ref{TopologicalVectorBundle}).
 
 Then a [[homomorphism]] of vector bundles from the [[trivial vector bundle|trivial]] [[line bundle]]
-(example \ref{TrivialTopologicalVectorBundle}, remark \ref{TerminologyVectorBundles}) 
+(example \ref{TrivialTopologicalVectorBundle}, remark \ref{TerminologyVectorBundles})
 
 $$
   f \;\colon\; X \times k \longrightarrow E
