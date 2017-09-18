@@ -51,7 +51,7 @@ A __bounded lower real number__ is a lower real $L$ such that
 
 *  some $b \notin L$.
 
-When treated explicitly as a subset of $\mathbb{Q}$, we call $L$ a __lower set__.  When we interpret $L$ as a one-sided real number $x$, we write $a \lt x$ to mean that $a \in L$.  Conversely, we can interpret any rational number, or even any real number, $x$ as a bounded lower real, specifically as the set of all rational numbers less than $x$.  (A bounded lower real is __located__ if it is the lower real obtained in this way from a real number; classically, every bounded lower real number is located.)  We interpret $\infty$ as the lower real whose lower set is all of $\mathbb{Q}$; we interpret $-\infty$ as the extended lower real whose lower set is empty.
+When treated explicitly as a subset of $\mathbb{Q}$, we call $L$ a __[[lower set]]__.  When we interpret $L$ as a one-sided real number $x$, we write $a \lt x$ to mean that $a \in L$.  Conversely, we can interpret any rational number, or even any real number, $x$ as a bounded lower real, specifically as the set of all rational numbers less than $x$.  (A bounded lower real is __located__ if it is the lower real obtained in this way from a real number; classically, every bounded lower real number is located.)  We interpret $\infty$ as the lower real whose lower set is all of $\mathbb{Q}$; we interpret $-\infty$ as the extended lower real whose lower set is empty.
 
 
 ### Upper reals
@@ -73,7 +73,7 @@ A __bounded upper real number__ is an upper real $U$ such that
 
 *  some $a \notin U$.
 
-When treated explicitly as a subset of $\mathbb{Q}$, we call $U$ an __upper set__.  When we interpret $U$ as a one-sided real number $x$, we write $x \lt b$ to mean that $b \in U$.  Conversely, we can interpret any rational number, or even any real number, $x$ as a bounded upper real, specifically as the set of all rational numbers greater than $x$.  (A bounded upper real is __located__ if it is the upper real obtained in this way from a real number; classically, every bounded upper real number is located.)  We interpret $-\infty$ as the upper real whose upper set is all of $\mathbb{Q}$; we interpret $\infty$ as the extended upper real whose upper set is empty.
+When treated explicitly as a subset of $\mathbb{Q}$, we call $U$ an __[[upper set]]__.  When we interpret $U$ as a one-sided real number $x$, we write $x \lt b$ to mean that $b \in U$.  Conversely, we can interpret any rational number, or even any real number, $x$ as a bounded upper real, specifically as the set of all rational numbers greater than $x$.  (A bounded upper real is __located__ if it is the upper real obtained in this way from a real number; classically, every bounded upper real number is located.)  We interpret $-\infty$ as the upper real whose upper set is all of $\mathbb{Q}$; we interpret $\infty$ as the extended upper real whose upper set is empty.
 
 
 ## Order relations
