@@ -17,3 +17,9 @@ The terminology comes from elementary [[Galois theory]]: every [[polynomial]] eq
 [[!redirects solvable groups]]
 [[!redirects solvable subgroup]]
 [[!redirects solvable subgroups]]
+
+
+[[!redirects soluble group]]
+[[!redirects soluble groups]]
+[[!redirects soluble subgroup]]
+[[!redirects soluble subgroups]]
