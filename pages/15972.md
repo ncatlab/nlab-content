@@ -27,17 +27,16 @@ $$
 Remark that the natural projection $P_Y X\to Y\times Y$ makes $P_Y X$ a groupoid (of paths in $X$) acting on $Y$. In the case of the diagonal immersion $Y=M\hookrightarrow M\times M=X$, we get
 $$P_Y X\cong LX:=\Hom(S^1,X).$$
 There is a natural projection $p:P_Y X\to \Hom(\Delta^1,X)\sim X$ and $P_Y X$ is equiped with the natural structure of a groupoid acting on $Y$ through the projection $P_Y X\to Y\times Y$.
-
-One may pull it back along the diagonal $\Delta:Y\hookrightarrow Y\times Y$ to get the loop space
-$$L_Y X:=\{f\in \Hom(\Delta^1,X),\;f(0)=f(1)\in Y\}.$$
-There is a natural projection $\tau:L_Y X\to Y$.
 A more explicit description of the loop space (that is obtained by using the homotopy $\Delta^1\sim \Delta^0$) is given by the homotopy pullback
 $$L_Y X=Y\times^h_X Y,$$
 which clearly has an interesting meaning only in the setting of derived geometry.
 
+
+Over a base field of characteristic $0$, the [[Hochschild-Kostant-Rosenberg theorem]] implies that $P_Y X\cong T_Y[-1]X$ and $LX\cong T[-1]X$.
+
 The deformation to the normal bundle in strict derived global analytic geometry is then simply given by the formula (with $D^1=\mathbb{M}(R\{X\}^\dagger)$ for $R$ the base ind-Banach ring)
 $$
-\widetilde{L_Y X}:=\{f\in \Hom_{D^1}(\Delta^1\times D^1,X\times D^1),\;f(0,0)=f(1,0)\in Y,\;f(x,t)\in (X\backslash Y)\forall t\neq 0\}.
+\widetilde{L_Y X}:=\{f\in \Hom_{D^1}(\Delta^1\times D^1,X\times D^1),\;f(0,0)\in Y,\; f(1,0)\in Y,\;f(x,t)\in (X\backslash Y)\forall t\neq 0\}.
 $$
 More concretely (maybe false, but to be corrected), this is given by the homotopy pullback (where $U(1)=\mathbb{M}(R\{X,Y\}^\dagger/(XY-1))$)
 $$
@@ -52,5 +51,7 @@ $$
 It has an evident natural projection $t:\widetilde{L_Y X}\to D^1$.
 
 ## References
+
+David Ben-Zvi and David Nadler _Loops spaces and connections_ [arXiv](http://arxiv.org/abs/1002.3636).
 
 Calaque, Caldararu and Tu: _PBW for an inclusion of Lie algebras_ [arXiv](http://arxiv.org/abs/1010.0985).
