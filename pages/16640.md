@@ -113,7 +113,7 @@ Let $G$ be a finite group of order $n$, and suppose that $p$ is a prime that div
 
 A fundamental fact of group theory is that Sylow $p$-subgroups exist and they are all conjugate to one another; also the number of Sylow $p$-subgroups is $\equiv 1 \; mod p$. Existence of Sylow $p$-subgroups can be proven by exploiting the same type of argument as in the proof of Proposition \ref{pgroup}; here we prove a stronger statement: 
 
-+-- {: .num_theorem} 
++-- {: .num_theorem #ppower} 
 ###### Theorem 
 If $G$ has order $n$ and $p^k$ is a prime power dividing $n$, then there is a subgroup of $G$ of order $p^k$. 
 =-- 
