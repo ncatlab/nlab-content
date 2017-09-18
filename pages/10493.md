@@ -114,6 +114,13 @@ This observation is due to [[Charles Rezk]]. It appears as ([Lurie, remark 6.1.1
 +-- {: .num_remark}
 ###### Remark
 
+A [[site]] of definition of $Exc^n(\mathcal{C}, \mathbf{H}) \hookrightarrow PSh(\mathcal{C}^{op}, \mathbf{H})$ is the _[[Weiss topology]]_ on $\mathcal{C}^{op}$.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
 As $n$ ranges, the tower of $n$-excisive approximations of an  $(\infty,1)$-functor, accordding to prop. \ref{nExcisiveApproximations}, forms a tower [[analogy|analogous]] to the the [[Taylor series]] of a [[smooth function]]. This is called the [[Goodwillie-Taylor tower]]
 
 $$
