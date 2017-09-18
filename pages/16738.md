@@ -58,6 +58,11 @@ The proof is essentially that $\bigcup_{\alpha \in On(V)} R(\alpha)$ is an $\in$
 The notation $V$ so widely seen in set theory texts and articles is a kind of visual pun that refers to the cumulative hierarchy: one imagines the V as outlining an angle, with a horizontal cross-section of the space inside the angle at height $\alpha$ suggesting a set $R(\alpha)$, which grows ever wider as $\alpha$ increases; the ordinals $\alpha$ themselves may be pictured as vertebrae of a spine or line therein. All sets in the cumulative hierarchy lie somewhere within the V. 
 =-- 
 
+## Related entries
+
+* [[constructible universe]]
+* [[reflection principle]]
+
 ## References 
 
 * Kenneth Kunen, _Set Theory: An Introduction to Independence Proofs_, Studies in Logic and the Foundations of Mathematics Vol. 102 (2006), Elsevier. 
