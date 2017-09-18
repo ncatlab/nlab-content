@@ -228,6 +228,9 @@ The $\mathbb{F}_p$-[[linear dual]] of the mod $p$-Steenrod algebra (def. \ref{St
 
 =--
 
++-- {: .num_remark}
+###### Remark
+
 There is an isomorphism
 
 $$
@@ -239,42 +242,52 @@ $$
   \,.
 $$
 
+=--
+
 (e.g. [Rognes 12, remark 7.24](#Rognes12))
+
+#### Milnor's theorem
+ {#MilnorTheorem}
+
+We now give the generators-and-relations description of the dual Steenrod algebra $\mathcal{A}^\ast_{\mathbb{F}_p}$ from def. \ref{DualSteenrodAlgebraForHPf}, in terms of linear duals of the generators for $\mathcal{A}_{\mathbb{F}_p}$ itself, according to def. \ref{SteenrodAlgebraForHFp}.
+
+In the following, we use for $p = 2$ the notation 
+
+$$
+  P^n \coloneqq Sq^{2n}
+$$
+
+$$
+  \beta \coloneqq Sq^1
+  \,.
+$$
+
+This serves to unify the expressions  for $p = 2$ and for $p \gt 2$ in the following. Notice that for all $p$
+
+* $P^n$ has even degree $deg(P^n) = 2n(p-1)$;
+
+* $\beta$ has odd degree $deg(\beta) = 1$.
+
 
 +-- {: .num_theorem #MilnorTheoremOnDualSteenrodAlgebra}
 ###### Theorem
+**(Milnor's theorem)**
 
-The dual mod $p$-Steenrod algebra $\mathcal{A}^\ast_{\mathbb{F}_p}$ (def. \ref{DualSteenrodAlgebraForHPf}) is as an [[associative algebra]] 
-
-**for $p= 2$**:
-
-a [[polynomial algebra]]
-
-$$
-  \mathcal{A}^\ast_{\mathbb{F}_2}
-  \simeq
-  \mathbb{F}_2[\xi_1, \xi_2, \cdots]
-$$
-
-where $\xi_n$ is linear dual to $Sq^{2^{n-1}} Sq^{2^{n-2}}\cdots Sp^{2} Sq^1$;
-
-**for $p\gt 2$**:
+The dual mod $p$-Steenrod algebra $\mathcal{A}^\ast_{\mathbb{F}_p}$ (def. \ref{DualSteenrodAlgebraForHPf}) is, as an [[associative algebra]], the free [[graded commutative algebra]]
 
 $$
   \mathcal{A}^\ast_{\mathbb{F}_p}
     \simeq
-  \mathbb{F}_p[\xi_1, \xi_2, \cdots]
-    \otimes
-  \wedge^\bullet_{\mathbb{F}_p}(\tau_0, \tau_1, \cdots)
+  Sym_{\mathbb{F}_p}(\xi_1, \xi_2, \cdots, \;\tau_0, \tau_1, \cdots)
 $$
 
-where 
+on generators:
 
-$\xi_n$ is linear dual to $P^{p^{n-1}} P^{p^{n-2}} \cdots P^p P^1$
+* $\xi_n$ being the linear dual to $P^{p^{n-1}} P^{p^{n-2}} \cdots P^p P^1$;
 
-$\tau_n$ is linear dual to $P^{p^{n-1}} P^{p^{n-2}} \cdots P^p P^1\beta$.
+* $\tau_n$ being linear dual to $P^{p^{n-1}} P^{p^{n-2}} \cdots P^p P^1\beta$.
 
-The coproduct on $\mathcal{A}^\ast_{\mathbb{F}_p}$ is given for all $p$ by
+Moreover, the coproduct on $\mathcal{A}^\ast_{\mathbb{F}_p}$ is given by
 
 $$
   \Psi(\xi_n)
@@ -282,7 +295,7 @@ $$
   \underoverset{k = 0}{n}{\sum} \xi_{n-k}^{p^k} \otimes \xi_k
 $$
 
-and for $p \gt 2$ moreover by
+and
 
 $$
   \Psi(\tau_n)
@@ -294,7 +307,7 @@ $$
   \,,
 $$
 
-where $\xi_0 \coloneqq 1$.
+where we set $\xi_0 \coloneqq 1$.
 
 =--
 
