@@ -157,7 +157,7 @@ $$
 +-- {: .num_lemma #UniversalComplexVectorBundleThomSpace}
 ###### Lemma
 
-For $E$ a [[generalized (Eilenberg-Steenrod) cohomology]] theory, then the $E$-[[reduced cohomology]] of the [[Thom space]] of the complex [[universal vector bundle]] is equivalently the [[relative cohomology]] of $B U(n)$ relative $B U(n-1)$
+For $E$ a [[generalized (Eilenberg-Steenrod) cohomology]] theory, then the $E$-[[reduced cohomology]] of the [[Thom space]] of the complex [[universal vector bundle]] is equivalently the $E$-[[relative cohomology]] of $B U(n)$ relative $B U(n-1)$
 
 $$
   \tilde E^\bullet( Th(E U(n) \underset{U(n)}{\times} \mathbb{C}^n ) )
@@ -200,7 +200,7 @@ $$
   \,.
 $$
 
-Regarding the second statement: the Conner-Floyd classes freely generate the $E$-cohomology of $B U(n)$ for all $n$:
+Regarding the second statement: the [[Conner-Floyd-Chern classes]] freely generate the $E$-cohomology of $B U(n)$ for all $n$ ([prop.](Conner-Floyd+Chern+class#ConnerFloyedClasses)):
 
 $$
   E^\bullet(B U(n))
