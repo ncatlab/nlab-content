@@ -422,6 +422,7 @@ In the context of [[Borger's absolute geometry]]:
 
 
 [[!redirects Witt ring]]
+[[!redirects Witt rings]]
 [[!redirects Witt polynomial]]
 [[!redirects Witt polynomials]]
 [[!redirects group of Witt vectors]]
