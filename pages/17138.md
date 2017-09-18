@@ -184,7 +184,7 @@ We are interested in the [[stable homotopy category]] of [[spectra]], to which w
 
 While the field of [[algebraic topology]] clearly originates in [[topology]], it is not actually interested in [[topological spaces]] regarded up to topological [[isomorphism]], namely [[homeomorphism]], but only in topological spaces regarded up to [[weak homotopy equivalence]] -- hence it is interested only in the "weak [[homotopy types]]" of topological spaces. This is so notably because [[ordinary cohomology]] [[cohomology group|groups]] are [[invariants]] of the (weak) [[homotopy type]] of topological spaces but do not detect their [[homeomorphism]] class. 
 
-The [[category]] of topological spaces obtained by [[localizaton of a category|forcing]] [[weak homotopy equivalences]] to become [[isomorphisms]] is the "classical [[homotopy category]]" [[Ho(Top)]]. This homotopy category however has forgotten a little too much information: homotopy theory really wants the [[weak homotopy equivalences]] not to become plain [[isomorphisms]], but to become actual [[homotopy equivalences]]. The structure that reflects this is called a _[[model category]]_ structure (short for "category of models for [[homotop types]]"). For classical homotopy theory this is accordingly called the _[[classical model structure on topological spaces]]_. This we review here.
+The [[category]] of topological spaces obtained by [[localization of a category|forcing]] [[weak homotopy equivalences]] to become [[isomorphisms]] is the "classical [[homotopy category]]" [[Ho(Top)]]. This homotopy category however has forgotten a little too much information: homotopy theory really wants the [[weak homotopy equivalences]] not to become plain [[isomorphisms]], but to become actual [[homotopy equivalences]]. The structure that reflects this is called a _[[model category]]_ structure (short for "category of models for [[homotopy types]]"). For classical homotopy theory this is accordingly called the _[[classical model structure on topological spaces]]_. This we review here.
 
 **Literature** ([Hirschhorn 15](#Hirschhorn15))
 
@@ -7584,7 +7584,7 @@ An important application is given by taking $E = $ [[KU]] to be [[topological K-
 
 $\,$
 
-### **S.3)** Complex oriented cohomology**
+### **S.3)** Complex oriented cohomology
  {#ComplexOrientedCohomologyTheory}
 
 
