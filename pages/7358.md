@@ -29,7 +29,7 @@ $\Gamma$-spaces differ from [[operad|operadic]] models for $E_\infty$-spaces, su
 
 ## Definition
 
-Let $\Gamma^{op}$ (see [[Segal's category]]) be the [[skeleton]] of the category of [[finite set|finite]] [[pointed sets]].  We write $\underline{n}$ for the finite pointed set with $n$ non-basepoint elements.  Then a **$\Gamma$-space** is a functor $X\colon \Gamma^{op}\to Top$ (or to simplicial sets, or whatever other model one prefers).
+Let $\Gamma^{op}$ (see [[Segal's category]]) be the [[skeleton]] of the category of [[finite set|finite]] [[pointed sets]].  We write $\underline{n}$ for the finite pointed set with $n$ non-basepoint elements.  Then a **$\Gamma$-space** is a functor $X\colon \Gamma^{op}\to Top$ (or to [[simplicial sets]], or whatever other model one prefers).
 
 We think of $X(\underline{1})$ as the "underlying space" of a $\Gamma$-space $X$, with $X(\underline{n})$ being a "model for the cartesian power $X^n$".  In order for this to be valid, and thus for $X$ to present an infinite loop space, a $\Gamma$-space must satisfy the further condition that all the [[Segal map]]s
 $$ X(\underline{n}) \to X(\underline{1}) \times \dots \times X(\underline{1})$$
@@ -47,7 +47,7 @@ The [[topos]] $\Set^{\Gamma^{op}}$ of $\Gamma$-sets is the [[classifying topos]]
 
 ### Model category structure
 
-A [[model category]] structure on $\Gamma$-spaces is due to ([Bousfield-Friedlander 77](#BousfieldFriedlander77))
+A [[model category]] structure on $\Gamma$-spaces is due to ([Bousfield-Friedlander 77](#BousfieldFriedlander77)). See at _[[model structure for connective spectra]]_.
 
 ## Related notions
 
