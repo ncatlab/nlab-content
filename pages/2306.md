@@ -114,7 +114,7 @@ This construction could however break the left exactness condition. However, $E$
 
 * [[Daniel Quillen]], _On the formal group laws of unoriented and complex cobordism theory_, Bull. Amer. Math. Soc. Volume 75, Number 6 (1969), 1293-1298.  ([Euclid](http://projecteuclid.org/euclid.bams/1183530915))
 
-* {#Adams74} [[John Adams]], part II of _Stable homotopy and generalised homology, University of Chicago Press, Chicago, Ill., 1974, Chicago Lectures in Mathematics.
+* {#Adams74} [[John Adams]], part II.5 of _[[Stable homotopy and generalised homology]], University of Chicago Press, Chicago, Ill., 1974, Chicago Lectures in Mathematics.
 
 * {#Hopkins99} [[Mike Hopkins]], _Complex oriented cohomology theories and the language of stacks_, 1999 course notes ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/coctalos.pdf))
 
