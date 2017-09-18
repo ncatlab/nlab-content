@@ -1,0 +1,16 @@
+
+
+## Idea
+
+The fundamental [[mass]] scale of [[gravity]].
+
+## Related entries
+
+* [[Planck length]]
+
+* [string theory -- scales](string+theory#scales)
+
+## References
+
+* Wikipedia, _[Planck mass](http://en.wikipedia.org/wiki/Planck_mass)_
+
