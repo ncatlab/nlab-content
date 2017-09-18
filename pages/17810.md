@@ -1,14 +1,13 @@
 
 > this entry contains one section of _[[geometry of physics -- supergeometry]]_
 
+$\,$
 
 
-
-In [[nLab:Klein geometry]] and [[nLab:Cartan geometry]] the fundamental geometric concept is the [[nLab:symmetry group]] $G$ of the local model [[nLab:space]], which is then recovered as some [[nLab:coset space]] $G/H$. These symmetry groups $G$ are reflected in their [[nLab:categories of representations]] $Rep(G)$, which are certain nice [[nLab:tensor categories]]. In terms of [[nLab:physics]] via [[nLab:Wigner classification]], the [[nLab:irreducible objects]] in  $Rep(G)$ label the possible [[nLab:fundamental particle]] species on the [[nLab:spacetime]] $G/H$. Hence if we regard the [[nLab:tensor category]] $Rep(G)$ as the actual fundamental concept, then the natural question is that of _[[nLab:Tannaka duality|Tannaka reconstruction]]_: Given any nice [[nLab:tensor category]], is it [[nLab:equivalence of categories|equivalent]] to $Rep(G)$ for some symmetry group $G$? For [[nLab:rigid monoidal category|rigid]] [[nLab:tensor categories]] in [[nLab:characteristic zero]] subject only to a mild size constraint this is answered by **[[nLab:Deligne's theorem on tensor categories]]** (theorem \ref{TheTheorem} below) : all of them are, but only if we allow $G$ to be a "[[nLab:supergroup]]".
-
+In [[nLab:Klein geometry]] and [[nLab:Cartan geometry]] the fundamental geometric concept is the [[nLab:symmetry group]] $G$ of the local model [[nLab:space]], which is then recovered as some [[nLab:coset space]] $G/H$. These symmetry groups $G$ are reflected in their [[nLab:categories of representations]] $Rep(G)$, which are certain nice [[nLab:tensor categories]]. In terms of [[nLab:physics]] via [[nLab:Wigner classification]], the [[nLab:irreducible objects]] in  $Rep(G)$ label the possible [[nLab:fundamental particle]] species on the [[nLab:spacetime]] $G/H$. Hence if we regard the [[nLab:tensor category]] $Rep(G)$ as the actual fundamental concept, then the natural question is that of _[[nLab:Tannaka duality|Tannaka reconstruction]]_: Given any nice [[nLab:tensor category]], is it [[nLab:equivalence of categories|equivalent]] to $Rep(G)$ for some symmetry group $G$? For [[nLab:rigid monoidal category|rigid]] [[nLab:tensor categories]] in [[nLab:characteristic zero]] subject only to a mild size constraint this is answered by **[[nLab:Deligne's theorem on tensor categories]]** (theorem \ref{TheTheorem} below): all of them are, but only if we allow $G$ to be a "[[nLab:supergroup]]".
 
 
-#Contents#
+#Superalgebra#
 * table of contents
 {:toc}
 
@@ -1283,7 +1282,7 @@ $$
 
 of the [[symmetric monoidal category]] of [[super vector spaces]] from example \ref{CategoryOfSuperVectorSpaces}, on those of finite total dimension is a [[rigid monoidal category]].
 
-Here we say that a [[super vector space]] $V$ has [[dimension]
+Here we say that a [[super vector space]] $V$ has [[dimension]]
 
 $$
   (p\vert q)
@@ -1312,6 +1311,41 @@ $$
 $$
 
 =--
+
++-- {: .num_prop #CompactClosedMonoidalCategory}
+###### Proposition
+
+Every [[rigid monoidal category|rigid]] (def. \refDualizableObject) [[symmetric monoidal category]] (def. \ref{SymmetricMonoidalCategory})  is a [[closed monoidal category]] (def. \ref{ClosedMonoidalCategory}) with [[internal hom]] between two objects given by the [[tensor product]]
+of the [[codomain]] object with the [[dual object]] of the domain object
+
+$$
+  [A,B] \simeq A^* \otimes B
+  \,.
+$$
+
+
+(The closed monoidal categories arising this way are called **[[compact closed categories]]**).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The [[natural isomorphism]] that characterizes the [[internal hom]] $[A,-]$ as being [[right adjoint]] to the 
+[[tensor product]] $A \otimes (-)$ is given by the [[adjunction]] natural isomorphism that characterizes [[dual objects]]:
+
+$$
+  \mathcal{C}(C,[A,B])
+  \simeq
+  \mathcal{C}(C, A^\ast \otimes B)
+    \simeq
+  \mathcal{C}(C \otimes A, B)
+  \,.
+$$
+
+
+=--
+
 
 There are many [[monoidal categories]] whose "[[tensor product]]" operation is quite unlike the [[tensor product of vector spaces]]. Hence one says _[[tensor category]]_ for monoidal categories that are also $k$-[[linear categories]] and such that the tensor product functor  suitably reflects that linear structure.
 There are slight variants of what people mean by a "[[tensor category]]". Here we mean precisely the following:
@@ -2758,7 +2792,7 @@ Let $\mathcal{C}$ be a [[symmetric monoidal category]] such that
 
 1. it has [[reflexive coequalizers]]
 
-1. that are preserved by the [[tensor product]] functors $A \otimes (-) \colon \mathcal{C} \to \mathcal{C}$ for all objects $A$ in $\mathcal{C}$.
+1. which are preserved by the [[tensor product]] functors $A \otimes (-) \colon \mathcal{C} \to \mathcal{C}$ for all objects $A$ in $\mathcal{C}$.
 
 Then for $f \colon A \to B$ and $g \colon A \to C$ two morphisms in the category $CMon(\mathcal{C})$ of _[[commutative monoids]]_ in $\mathcal{C}$ (def. \ref{MonoidsInMonoidalCategory}), the underlying object in $\mathcal{C}$ of the [[pushout]] in $CMon(\mathcal{C})$ coincides with the [[tensor product]] in the monoidal category $A$[[Mod]] (according to prop. \ref{MonoidalCategoryOfModules}):
 
@@ -2772,15 +2806,37 @@ Here $B$ and $C$ are regarded as equipped with the canonical $A$-module structur
 
 =--
 
+
 This appears for instance as ([[Sketches of an Elephant|Johnstone, page 478, cor. 1.1.9]]).
+
++-- {: .num_remark #AssumptionsOnCoproductInCMonGenericallySatisfied}
+###### Remark
+
+In every [[tensor category]] (def. \ref{TensorCategory}) the conditions
+in prop. \ref{CoproductsInCMon} are satisfied.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By definition, every [[tensor category]] is an [[abelian category]] (def. \ref{AdditiveAndAbelianCategories}).
+The [[coequalizer]] of two [[parallel morphisms]] $f,g$ in an abelian category is isomorphic to the [[cokernel]]
+of the difference $f-g$ (formed in the [[abelian group]] struture on the [[hom-space]]). Hence all 
+coequalizers exist, in particlar the [[split coequalizers]] required in prop. \ref{CoproductsInCMon}.
+
+
+Moreover, by definition every [[tensor category]] is a [[rigid monoidal category]]. This implies that it is
+also a [[closed monoidal categories]], by prop. \ref{CompactClosedMonoidalCategory}, and this means that the
+functors $A \otimes (-)$ are [[left adjoint]] functors, and such preserve all colimits.
+
+=--
 
 +-- {: .num_prop #ProductsInAff}
 ###### Proposition
 
-Let $\mathcal{C}$ be a [[symmetric monoidal category]], let $R \in CMon(\mathcal{C})$
-be a [[commutative monoid]] in $\mathcal{A}$, such that its [[category of modules]]
-$A Mod$ (def. \ref{ModulesInMonoidalCategory}),  has [[reflexive coequalizers]] 
-that are preserved by the [[tensor product]] functor in each variable.
+Let $\mathcal{A}$ be a [[tensor category]], and let $R \in CMon(\mathcal{A})$
+be a [[commutative monoid]] in $\mathcal{A}$.
 
 Then for $A_1, A_2$ two 
 $R$-algebas according to def. \ref{AAlgebra}, regarded as affine schemes
@@ -2800,7 +2856,8 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By prop. \ref{AlgebrasOverAAreMonoidsUnderA} the [[formal dual]] of the statement is given by prop. \ref{CoproductsInCMon}.
+By prop. \ref{AlgebrasOverAAreMonoidsUnderA} the [[formal dual]] of the statement is given by prop. \ref{CoproductsInCMon},
+which does apply, according to remark \ref{AssumptionsOnCoproductInCMonGenericallySatisfied}.
 
 =--
 
@@ -2845,7 +2902,7 @@ where
      \phi_\ast(N) \coloneqq A_2 \otimes_{A_1} N
    $$
 
-   (where we are regarding $A_2$ as a commutative monoid in $A_1$-modules via prop. \ref{AlgebrasOverAAreMonoidsUnderA}) and eqipped by the evident [[action]] induced by the multiplication in $A_2$
+   (where we are regarding $A_2$ as a commutative monoid in $A_1$-modules via prop. \ref{AlgebrasOverAAreMonoidsUnderA}) and equipped with the evident [[action]] induced by the multiplication in $A_2$:
 
 
   $$
@@ -2909,12 +2966,14 @@ and then [[extension of scalars]] according to prop. \ref{ExtensionOfScalars} co
 
 
 
-## (Super-)Groups as (super-)commutative Hopf algebras
+## Super-Groups as super-commutative Hopf algebras
  {#GroupsAsHopfAlgebras}
 
-We are interested in [[groups]] equipped with [[geometry]].
+Above we have considered affine spaces $Spec(A)$ (def. \ref{Affines}) in [[symmetric monoidal categories]] $\mathcal{C}$. 
+Now we discuss what it means to equip these with the stucture of [[group objects]], hence to form 
+affine groups in $\mathcal{C}$.
 
-A familiar example is [[differential geometry]], where one considers groups whose underlying set is promoted to a [[smooth manifold]] and all whose operations (product, inverses) are [[smooth functions]]. These are of course [[Lie groups]].
+A (possibly) familiar example arises in [[differential geometry]], where one considers groups whose underlying set is promoted to a [[smooth manifold]] and all whose operations (product, inverses) are [[smooth functions]]. These are of course the _[[Lie groups]]_.
 
 A **[[linear representation]]** of a [[Lie group]] $G$ on a [[vector space]] $V$ is a [[smooth function]]
 
@@ -2947,23 +3006,10 @@ But here we need to consider groups with more general geometric structure. The k
 In the above example, write $C^\infty(X)$ for the [[smooth algebra]] of [[smooth functions]] on a [[smooth manifold]] $X$. The assignment
 
 $$
-  C^\infty(-) \;\colon\; SmthMfd \longrightarrow SmthAlg_{\mathbb{R}}
+  C^\infty(-) \;\colon\; SmthMfd \hookrightarrow SmthAlg_{\mathbb{R}}^{op}
 $$
 
-is a [[contravariant functor]], which is [[fully faithful functor|fully faithful]].  This means that for
-
-$$
-  f \;\colon\; X \longrightarrow Y
-$$
-
-any [[smooth function]], then precomposition of smooth functions on $Y$ with $f$ yields a homomorphism of smooth algebras going the other way around
-
-$$
-  C^\infty(X) \longleftarrow C^\infty(Y) \;\colon\; f^\ast
-$$
-
-and the associatioon $f \mapsto f^\ast$ is a [[natural bijection]].
-Of course, for any two composable smooth functions $f,g$ then $(g \circ f )^\ast = f^\ast \circ g^\ast$ and if $f = id$ is the identity smooth function, then $f^\ast = id$ is the identity homomomorphism of smooth algebras.
+is the [[embedding of smooth manifolds into formal duals of R-algebras]] from prop. \ref{EmbeddingOfSmoothManifoldsIntoRAlgebras}.
 
 Moreover, the functor $C^\infty(-)$ sends [[Cartesian products]] of smooth manifolds to "completed tensor products" $\otimes^c$ of function algebras (namely to the [[coproduct]] of [[smooth algebras]], see there)
 
@@ -2978,7 +3024,7 @@ $$
   \array{
     product &\colon& G \times G &\longrightarrow& G
     \\
-    && C^\infty(G) \otimes^c C^\infty(G) &\longleftarrow& C^\infty(G) &\colon& product^\ast
+    && C^\infty(G) \otimes^c C^\infty(G) &\longleftarrow& C^\infty(G) &\colon& product^\ast = coproduct
   }
   \,.
 $$
@@ -3102,7 +3148,7 @@ $$
 
 acting as assigning [[inverses]] with respect to $\circ$.
 
-The key basic fact to use now is prop. \ref{CoproductsInCMon} the [[tensor product]] of commutative monoids exhibits the [[cartesian monoidal category]] structure on $CMon(\mathcal{A})^{op}$, :
+The key fact to use now is prop. \ref{ProductsInAff}: the [[tensor product]] of commutative monoids exhibits the [[cartesian monoidal category]] structure on $CMon(\mathcal{A})^{op}$, :
 $$
   Spec(R_1) \underset{Spec(R_3)}{\times} Spec(R_2)
   \simeq
@@ -3151,7 +3197,7 @@ and satisfying [[formal duality|formally dual]] conditions, spelled out as def. 
 
 Generally, in a commutative Hopf algebroid, def. \ref{CommutativeHopfAlgebroid}, the two morphisms $\eta_L, \eta_R\colon A \to \Gamma$ from remark \ref{CommutativeHopfAlgebroidSpelledOut} need not coincide, they make $\Gamma$ genuinely into a [[bimodule]] over $A$, and it is the [[tensor product]] of [[bimodules]] that appears in remark \ref{CommutativeHopfAlgebroidSpelledOut}. But it may happen that they coincide:
 
-An [[internal groupoid]] $\mathcal{G}_1 \stackrel{\overset{s}{\longrightarrow}}{\underset{t}{\longrightarrow}}$ for which the [[domain]] and [[codomain]] morphisms coincide, $s = t$, is euqivalently a [[group object]] in the [[slice category]] over $\mathcal{G}_0$.
+An [[internal groupoid]] $\mathcal{G}_1 \stackrel{\overset{s}{\longrightarrow}}{\underset{t}{\longrightarrow}} \mathcal{G}_0$ for which the [[domain]] and [[codomain]] morphisms coincide, $s = t$, is euqivalently a [[group object]] in the [[slice category]] over $\mathcal{G}_0$.
 
 Dually, a [[commutative Hopf algebroid]] $\Gamma \stackrel{\overset{\eta_L}{\longleftarrow}}{\underset{\eta_R}{\longleftarrow}} A$ for which $\eta_L$ and $\eta_R$ happen to coincide is equivalently a **commutative [[Hopf algebra]]** $\Gamma$ over $A$.
 
@@ -3281,7 +3327,7 @@ such that
 e.g. ([Ravenel 86, def. A1.1.1](commutative+Hopf+algebroid#Ravenel86))
 
 
-By internalizing all of the above from $Vect$ to $sVect$, we obtain the concept of supergrous
+By internalizing all of the above from $Vect$ to $sVect$, we obtain the concept of [[supergroups]]:
 
 +-- {: .num_defn #Supergroup}
 ###### Definition
@@ -3335,7 +3381,7 @@ Dually this mean that an inner pariy is an algebra homomorphism $\epsilon^\ast \
 +-- {: .num_example #InnerParityInBosonicSupergroup}
 ###### Example
 
-For $G$ an ordinary (affine algebraic) group, regarded as a supergroup with trivial odd-graded part, then every element $\epsilon \in Z(G)$ in the [[center]] defines an inner parity, def. \ref{InnerParity}.
+For $G$ an ordinary affine [[algebraic group]], regarded as a supergroup with trivial odd-graded part, then every element $\epsilon \in Z(G)$ in the [[center]] defines an inner parity, def. \ref{InnerParity}.
 
 =--
 
@@ -3353,7 +3399,7 @@ Demanding the existence of inner parity is not actually a restriction of the the
 +-- {: .num_example}
 ###### Example
 
-For $H$ any supergroup, def. \ref{Supergroup}, and $\mathbb{Z}_2 = \{id,par\}$ acting on it by parity involution, def. \ref{ParityAutomorphism}  then the [[semidirect product]] $\mathbb{Z}_2 \ltimes G$ has inner parity, def. \ref{InnerParity}, given by $\epsilon \coloneqq par \in \mathbb{Z}_2 \hookrightarrow \mathbb{Z}_2 \ltimes G$.
+For $H$ any supergroup, def. \ref{Supergroup}, and $\mathbb{Z}_2 = \{id,par\}$ acting on it by parity involution, def. \ref{ParityAutomorphism}  then the [[semidirect product group]] $\mathbb{Z}_2 \ltimes G$ has inner parity, def. \ref{InnerParity}, given by $\epsilon \coloneqq par \in \mathbb{Z}_2 \hookrightarrow \mathbb{Z}_2 \ltimes G$.
 
 =--
 
@@ -4333,6 +4379,11 @@ Commutative algebra internal to symmetric monoidal categories is discussed in
 
 * {#HoveyShipleySmith00} [[Mark Hovey]], [[Brooke Shipley]], [[Jeff Smith]], _Symmetric spectra_, J. Amer. Math. Soc. 13 (2000), 149-208 ([arXiv:math/9801077](http://arxiv.org/abs/math/9801077))
 
+and specifically for [[commutative Hopf algebroids]] in 
+
+* {#Ravenel86} [[Doug Ravenel]], chapter 2 and appendix A.1 of  _[[Complex cobordism and stable homotopy groups of spheres]]_, 1986 ([pdf](http://www.math.rochester.edu/people/faculty/doug/mybooks/ravenelA1.pdf))
+
+
 (These authors are motivated by the application of the general theory of algebra in monoidal categories 
 to "[[higher algebra]]" ("[[brave new algebra]]") in [[stable homotopy theory]].
 This happens to also be a version of [[supercommutative superalgebra]], see at 
@@ -4370,7 +4421,10 @@ Surveys are in
 
 * [EGNO 15, chapter 9.11](#EGNO15) 
 
+The special case of Tannaka duality for ordinary compact groups regarded as supergroups (hence equipped with "inner parity", def. \ref{InnerParity}, just being an involutive central element) is discussed in
 
+* {#Mueger06} [[Michael Müger]], _Abstract Duality Theory for Symmetric Tensor $*$-Categories_ appendix ([pdf](http://www.math.ru.nl/~mueger/PDF/16.pdf)), in [[Hans Halvorson]],  _Algebraic quantum field theory_ ([arXiv:math-ph/0602036](http://arxiv.org/abs/math-ph/0602036)), in J. Butterfield & J. Earman (eds.) _Handbook of Philosophy and Physics_
 
+as a proof of [[Doplicher-Roberts reconstruction]] in [[algebraic quantum field theory]].
 
 
