@@ -448,3 +448,6 @@ A useful survey is in
 [[!redirects piecewise polynomial differential form]]
 [[!redirects piecewise polynomial differential forms]]
 
+[[!redirects polynomial differential forms on the n-simplex]]
+[[!redirects polynomial differential forms on n-simplices]]
+
