@@ -1,4 +1,18 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
 
 ## Definition
 
@@ -15,9 +29,17 @@ $$
   \right\}
 $$
 
+## Examples
+
+* [[metric spaces are fully normal]]
+
 ## Properties
 
 * [[fully normal spaces are equivalently paracompact]]
+
+## Related conceps
+
+* [[separation axiom]]
 
 [[!redirects fully normal topological spaces]]
 
