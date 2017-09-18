@@ -23,7 +23,7 @@ There is a close relationship between
 
 * the four [[normed division algebras]] 
 
-* [[spin geometry]], 
+* [[spin geometry]] and real (Majorana) [[spin representations]];
 
 * the [[Lie algebra cohomology]] of the [[super Poincare Lie algebra]], 
 
