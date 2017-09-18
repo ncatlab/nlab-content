@@ -385,7 +385,7 @@ It has been urged by [[F. W. Lawvere]] on several occasions that this [[Boone co
 
 ## Related concepts
 
-* [[algebraic theory]] / [[generalized algebraic theory]] / **Lawvere theory** /  [[2-Lawvere theory]] [[(∞,1)-algebraic theory]]
+* [[algebraic theory]] / [[generalized algebraic theory]] / **Lawvere theory** /  [[2-Lawvere theory]], [[simplicial Lawvere theory]], [[(∞,1)-algebraic theory]]
 
 * [[globular theory]]
 
