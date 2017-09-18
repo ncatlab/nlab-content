@@ -51,12 +51,12 @@ For $n \geq 1$ the Chern universal [[characteristic classes]] $c_i \in H^{2i}(B 
 
 ## Properties
 
-### General 
+### Existence
 
-+-- {: .num_prop}
++-- {: .num_prop #GeneratorsOfCohomologyOfBunChernClasses}
 ###### Proposition
 
-The [[cohomology ring]] of the [[classifying space]] $B U(n)$ for the [[unitary group]] $U(n)$ is the [[polynomial ring]] on the Chern classes:
+The [[cohomology ring]] of the [[classifying space]] $B U(n)$ (for the [[unitary group]] $U(n)$) is the [[polynomial ring]] on generators $\{c_k\}_{k = 1}^{n}$ of degree 2, called the _Chern classes_
 
 $$
   H^\bullet(B U(n), \mathbb{Z})
@@ -97,7 +97,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-For $n = 1$, in which case $B U(1) \simeq \mathbb{C}P^\infty$ is the infinite [[complex projective space]], we have ([prop](complex projective space#OrdinaryCohomologyOfComplexProjectiveSpace))
+For $n = 1$, in which case $B U(1) \simeq \mathbb{C}P^\infty$ is the infinite [[complex projective space]], we have ([prop](complex+projective+space#OrdinaryCohomologyOfComplexProjectiveSpace))
 
 $$
   H^\bullet(B U(1)) \simeq \mathbb{Z}[ c_1 ]
@@ -106,20 +106,43 @@ $$
 
 where $c_1$ is the [[first Chern class]]. From here we proceed by [[induction]]. So assume that the statement has been shown for $n-1$.
 
-Observe that the canonical map $B U(n-1) \to B U(n)$ has as [[homotopy fiber]]  the [[n-sphere](2n-1)-sphere]] ([prop.](classifying+space#SphereFibrationOverInclusionOfClassifyingSpaces)) hence there is a [[homotopy fiber sequence]] of the form
+Observe that the canonical map $B U(n-1) \to B U(n)$ has as [[homotopy fiber]]  the [[n-sphere|(2n-1)sphere]] ([prop.](classifying+space#SphereFibrationOverInclusionOfClassifyingSpaces)) hence there is a [[homotopy fiber sequence]] of the form
 
 $$
   S^{2n-1} \longrightarrow B U(n-1) \longrightarrow B U(n)
   \,.
 $$
 
-Consider the induced [[Thom-Gysin sequence]]. In odd degrees
+Consider the induced [[Thom-Gysin sequence]]. 
+
+In odd degrees $2k+1 \lt 2n$ it gives the [[exact sequence]]
 
 $$
   \cdots
    \to
   H^{2k}(B U(n-1))
    \longrightarrow
+  \underset{\simeq 0}{\underbrace{H^{2k+1-2n}(B U(n))}}
+   \longrightarrow
+  H^{2k+1}(B U(n))
+   \overset{i^\ast}{\longrightarrow}
+  \underset{\simeq 0}{\underbrace{H^{2k+1}(B U(n-1))}}
+  \to 
+  \cdots
+  \,,
+$$
+
+where the right term vanishes by induction assumption, and the middle term since [[ordinary cohomology]] vanishes in negative degrees. Hence
+
+$$
+  H^{2k+1}(B U(n)) \simeq 0 \;\;\; for \; 2k+1 \lt 2n
+$$
+
+Then for $2k+1 \gt 2n$ the Thom-Gysin sequence gives
+
+$$
+  \cdots
+   \to
   H^{2k+1-2n}(B U(n))
    \longrightarrow
   H^{2k+1}(B U(n))
@@ -127,10 +150,89 @@ $$
   \underset{\simeq 0}{\underbrace{H^{2k+1}(B U(n-1))}}
   \to 
   \cdots
+  \,,
+$$
+
+where again the right term vanishes by the induction assumption. Hence [[exact sequence|exactness]] now gives that 
+
+$$
+  H^{2k+1-2n}(B U(n))
+   \overset{}{\longrightarrow}
+  H^{2k+1}(B U(n))
+$$
+
+is an [[epimorphism]], and so with the previous statement it follows that 
+
+$$
+  H^{2k+1}(B U(n)) \simeq 0
+$$
+
+for all $k$.
+
+Next consider the Thom Gysin sequence in degrees $2k$
+
+$$
+  \cdots
+   \to
+  \underset{\simeq 0}{\underbrace{H^{2k-1}(B U(n-1))}}
+   \longrightarrow
+  H^{2k-2n}(B U(n))
+   \longrightarrow
+  H^{2k}(B U(n))
+   \overset{i^\ast}{\longrightarrow}
+  H^{2k}(B U(n-1))
+   \longrightarrow
+  \underset{\simeq 0}{\underbrace{H^{2k +1 - 2n}(B U(n))}}
+  \to 
+  \cdots
   \,.
 $$
 
-(...)
+Here the left term vanishes by the induction assumption, while the right term vanishes by the previous statement. Hence we have a [[short exact sequence]]
+
+$$
+  0   
+   \to
+  H^{2k-2n}(B U(n))
+   \longrightarrow
+  H^{2k}(B U(n))
+   \overset{i^\ast}{\longrightarrow}
+  H^{2k}(B U(n-1))
+    \to
+  0
+$$
+
+for all $k$. In degrees $\bullet\leq 2n$ this says
+
+$$
+  0   
+   \to
+  \mathbb{Z}
+   \overset{c_n \cup (-)}{\longrightarrow}
+  H^{\bullet \leq 2n}(B U(n))
+   \overset{i^\ast}{\longrightarrow}
+  (\mathbb{Z}[c_1, \cdots, c_{n-1}])_{\bullet \leq 2n}
+    \to
+  0
+$$
+
+for some [[Thom class]] $c_n \in H^{2n}(B U(n))$, which we identify with the next Chern class.
+
+Since [[free abelian groups]] are [[projective objects]] in [[Ab]], their [[extensions]] are all split (the [[Ext]]-group out of them vanishes), hence the above gives a [[direct sum]] decomposition
+
+$$
+  \begin{aligned}
+    H^{\bullet \leq 2n}(B U(n))
+    & \simeq
+    (\mathbb{Z}[c_1, \cdots, c_{n-1}])_{\bullet \leq 2n} \oplus \mathbb{Z}\langle 2n\rangle
+    \\
+    & \simeq
+    (\mathbb{Z}[c_1, \cdots, c_{n}])_{\bullet \leq 2n}
+  \end{aligned}
+  \,.  
+$$
+
+Now by another induction over these short exact sequences, the claim follows. 
 
 =--
 
