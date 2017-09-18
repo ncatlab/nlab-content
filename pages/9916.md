@@ -6,4 +6,9 @@
 
 * [[string phenomenology]]
 
+
+
 category: people
+
+
+[[!redirects Dieter Luest]]
