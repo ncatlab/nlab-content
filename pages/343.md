@@ -70,3 +70,6 @@ respectively, where $e$ stands for the unique morphism to the terminal object an
 
 [[!redirects cartesian monoidal category]]
 [[!redirects cartesian monoidal categories]]
+
+[[!redirects Cartesian monoidal category]]
+[[!redirects Cartesian monoidal categories]]
