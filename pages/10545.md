@@ -195,7 +195,7 @@ and whose coproduct $\Psi$ is subject to the following relations:
 $$
   \Psi(Sq^n)
   \;=\;
-  \underoverset{k = 0}{n}{\sum} Sk^k \otimes Sq^{n-k}
+  \underoverset{k = 0}{n}{\sum} Sq^k \otimes Sq^{n-k}
 $$
 
 **for $p \gt 2$**:
