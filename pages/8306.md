@@ -150,11 +150,55 @@ __Multilinear maps__ are again a generalisation.
 See at _[[tensor product of ∞-modules]]_
 
 
+## Classification
 
+A __[[bilinear form]]__ is a bilinear map $f\colon A, B \to K$ whose target is the [[ground ring]] $K$; more generally, a __[[multilinear form]]__ is multilinear map whose target is $K$.
 
-## Examples
+A bilinear map $f\colon A, A \to K$ whose two sources are the same is __[[symmetric bilinear map|symmetric]]__ if $f(a, b) = f(b, a)$ always; more generally, a multilinear map whose sources are all the same is __[[symmetric multilinear map|symmetric]]__ if $f(a_1, a_2, \ldots, a_n) = f(a_{\sigma(1)}, a_{\sigma(2)}, \ldots, a_{\sigma(n)})$ for each [[permutation]] $\sigma$ in the [[symmetric group]] $S_n$.  (It\'s enough to check the $n-1$ generators of $S_n$ that transpose two adjacent arguments.)  In particular, this defines symmetric [[symmetric bilinear form|bilinear]] and [[symmetric multilinear form|multilinear]] forms.
 
-* For $R = k$ a [[field]], an $R$-[[module]] is a $k$-[[vector space]] and a $R$-bilinear map is a bilinear map out of two vector spaces.
+A bilinear map $f\colon A, A \to K$ whose two sources are the same is __[[antisymmetric bilinear map|antisymmetric]]__ if $f(a, b) = -f(b, a)$ always; more generally, a multilinear map whose sources are all the same is __[[antisymmetric multilinear map|antisymmetric]]__ if $f(a_1, a_2, \ldots, a_n) = (-1)^\sigma f(a_{\sigma(1)}, a_{\sigma(2)}, \ldots, a_{\sigma(n)})$ for each [[permutation]] $\sigma$ in the [[symmetric group]] $S_n$, where $(-1)^\sigma$ is $1$ or $-1$ according as $\sigma$ is an even or odd permutation.  (It\'s enough to check the $n-1$ generators of $S_n$ that transpose two adjacent arguments, which are each odd and so each introduce a factor of $-1$.)  In particular, this defines antisymmetric [[antisymmetric bilinear form|bilinear]] and [[antisymmetric multilinear form|multilinear]] forms.
+
+A bilinear map $f\colon A, A \to K$ whose two sources are the same is __[[alternating bilinear map|alternating]]__ if $f(a, a) = 0$ always; more generally, a multilinear map whose sources are all the same is __[[alternating multilinear map|alternating]]__ if $f(a_1, a_2, \ldots, a_n) = 0$ whenever there exists a nontrivial [[permutation]] $\sigma$ in the [[symmetric group]] $S_n$ such that $(a_1, a_2, \ldots, a_n) = (a_{\sigma(1)}, a_{\sigma(2)}, \ldots, a_{\sigma(n)})$, in other words whenever there exist indexes $i \ne j$ such that $a_i = a_j$.  (It\'s enough to say that $f(a_1, a_2, \ldots, a_n) = 0$ whenever two adjacent arguments are equal, although this is not as trivial as the analogous statements in the previous two paragraphs.)  In particular, this defines alternating [[alternating bilinear form|bilinear]] and [[alternating multilinear form|multilinear]] forms.
+
+In many cases, antisymmetric and alternating maps are equivalent:
+
++-- {: .num_prop #alternationImpliesAntisymmetry}
+###### Proposition
+
+An alternating bilinear (or even multilinear) map must be antisymmetric.
+=--
+
++-- {: .proof}
+###### Proof
+
+If $f$ is an alternating bilinear map, then $f(a + b, a + b) = f(a, a) + f(a, b) + f(b, a) + f(b, b) = 0 + f(a, b) + f(b, a) + 0$, so $f(a, b) + f(b, a) = f(a + b, a + b) = 0$, so $f(a, b) = -f(b, a)$; that is, $f$ is antisymmetric.  The general multilinear case is similar.  (Note that linearity is essential to this proof.)
+=--
+
++-- {: .num_prop #antisymmetryImpliesAlternation}
+###### Proposition
+
+If the ground ring is a [[field]] whose characteristic is not $2$, or more generally if $1/2$ exists in the ground ring, or more generally if $2$ is cancellable in the target of the map in question, then an antisymmetric bilinear (or even multilinear) map must be alternating.
+=--
+
++-- {: .proof}
+###### Proof
+
+If $f$ is an antisymmetric bilinear map, then $f(a, a) = -f(a, a)$, so $2 f(a, a) = f(a, a) + f(a, a) = f(a, a) - f(a, a) = 0$, so $f(a, a) = 0$ (by dividing by $2$, multiplying by $1/2$, or cancelling $2$, as applicable).  The general multilinear case is similar.  (Note that linearity is irrelevant to this proof.)
+=--
+
+The argument that the simplified description of alternation is correct is along the same lines as Proposition \ref{alternationImpliesAntisymmetry} above:
+
++-- {: .num_prop #transpositionsSufficeForAlternation}
+###### Proposition
+
+If a trilinear map is alternating in the first two arguments and in the last two arguments, or more generally if a multilinear map is alternating in every pair of adjacent arguments (or indeed in any set of transpositions that generate the entire symmetric group), then the map is alternating overall.
+=--
+
++-- {: .proof}
+###### Proof
+
+If $f$ is a trilinear map that alternates in each adjacent pair of arguments, then $f(a + b, a + b, a) = f(a, a, a) + f(a, b, a) + f(b, a, a) + f(b, b, a) = 0 + f(a, b, a) + 0 + 0$, so $f(a, b, a) = f(a + b, a + b, a) = 0$; that is, $f$ is alternating in the remaining pair of arguments.  The general multilinear case is similar.  (Again, linearity is essential to this proof.)
+=--
 
 
 ## Related concepts
@@ -164,6 +208,7 @@ See at _[[tensor product of ∞-modules]]_
 * [[binary morphism]], [[multimorphism]]
 
 * [[bifunctor]], [[Quillen bifunctor]]
+
 
 ## References
 
