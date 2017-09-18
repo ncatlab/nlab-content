@@ -289,9 +289,11 @@ since by prop. \ref{PlotsOfMappingSpaceWithNonVaryingBoundary} $\gamma_{(-)}(1)$
 
 ## References 
 
+Exposition of variational calculus in terms of [[jet bundles]] and [[Lepage forms]] and aimed at examples from [[physics]] is in
 
+* {#MusilovaHronek16} [[Jana Musilová]],  [[Stanislav Hronek]], _The calculus of variations on jet bundles as a universal approach for a variational formulation of fundamental physical theories_, Communications in Mathematics, Volume 24, Issue 2 (Dec 2016) ([doi.org/10.1515/cm-2016-0012]( https://doi.org/10.1515/cm-2016-0012))
 
-Fundamental texts of variational calculus include
+Fundamental texts on variational calculus include
 
 * [[Ian Anderson]], _The variational bicomplex_, ([[AndersonVariationalBicomplex.pdf:file]])
 
