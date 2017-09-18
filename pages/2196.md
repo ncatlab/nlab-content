@@ -10,7 +10,7 @@
 =--
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {: toc}
 
 **Functional analysis** can be defined as the study of objects (and their [[homomorphism]]s) with an [[algebra|algebraic]] and a [[topology|topological]] structure such that the algebraic operations are continuous. But usually the algebraic structure is fixed to be the one of a [[vector space]].
