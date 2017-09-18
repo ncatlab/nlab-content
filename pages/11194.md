@@ -77,6 +77,8 @@ For instance the Anderson dual of [[KU]] is (complex conjugation-equivariantly) 
 
 General discussion is in 
 
+* {#BoryachenkoDrinfeld11} [[Mitya Boryachenko]], [[Vladimir Drinfeld]], _A duality formalism  in the spirit of Grothendieck and Verdier_ ([arXiv:1108.6020](http://arxiv.org/abs/1108.6020))
+
 * [[Jacob Lurie]], section 4.2 of _[[Representability Theorems]]_
 
 Reviews of the general concept and then discussion of [[Anderson duality]] is in
