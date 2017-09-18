@@ -50,7 +50,7 @@ For $n = 0$, $\mathbb{N}/0 = \mathbb{N}$, $\mathbb{Z}/0 = \mathbb{Z}$, and the p
 
 * [[freshman's dream]]
 
-* [[positive characteristic]]
+* [[characteristic zero]], [[positive characteristic]]
 
 [[!redirects characteristic]]
 [[!redirects characteristics]]
