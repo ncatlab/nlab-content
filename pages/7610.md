@@ -12,9 +12,11 @@
 =--
 =--
 
-This page is meant to be useful for readers who are interested in [[homotopy theory]] but not (necessarily) in [[homotopy type theory]] as such (its role as a [[symbolic logic]], etc.) but who do care learning about whatever new methods that may make them be better homotopy theorists, and about any new insights into homotopy theory itself that could be gained by applying methods that originate in homotopy type theory. In other words, this page is meant to help answer the question:
+This page on aspects of [[homotopy type theory]] is meant for readers who are interested in [[homotopy theory]] but not (necessarily) in [[formal logic]] and [[formal proof]]. This page is meant to help answer the question:
 
 > I am a homotopy theorist; what can homotopy type theory do for me?
+
+See also at _[[homotopy type theory FAQ]]_ the section _[Why should I care? -- For homotopy theorists](homotopy+type+theory+FAQ#WhyShouldICareForHomotopyTheorists)_.
 
 Since homotopy theory takes place in [[model categories]] and similar categorical structures, the input from homotopy type theory is via its [[categorical semantics]]. In this sense the question which this page is meant to help to answer is
 
@@ -168,7 +170,9 @@ However, after generalization to _[[homotopy type theory]]_ this is rectified: h
 
 We list in the following theorems in homotopy theory together with such proofs of them in terms of homotopy type theory language that are either new (to the best of our knowledge), or else that are at least considerably simpler than earlier proofs with traditional homotopy theory tools.
 
+### Blakers-Massey theorem
 
+see at _[[Blakers-Massey theorem]]_
 
 ### Essential uniquenes of group units
 
