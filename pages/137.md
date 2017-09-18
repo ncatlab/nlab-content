@@ -47,7 +47,7 @@ $$
   Hom(X,Z)
 $$
 
-between [[hom-sets]]. Since injective functions are the [[monomorphisms]] in [[Set]] (example \ref{EpimorphismsOfSets} below) this means that $f$ is an epimorphism precisely if $Hom(f,Z)$ is a monomorphsm for all $Z$.
+between [[hom-sets]]. Since injective functions are the [[monomorphisms]] in [[Set]] (example \ref{EpimorphismsOfSets} below) this means that $f$ is an epimorphism precisely if $Hom(f,Z)$ is a monomorphism for all $Z$.
 
 Finally, this means that $f$ is an epimorphism in a [[category]] $\mathcal{C}$ precisely if it is a [[monomorphism]] in the [[opposite category]] $\mathcal{C}^{op}$.
 
