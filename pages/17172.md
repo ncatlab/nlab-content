@@ -8,7 +8,9 @@ Dehn surgery is a method for constructing one manifold from another, especially 
 
 ## Method 
 
-A standard application of Dehn surgery is surgery along a [[link]] $L$ in a [[3-sphere]] $S^3$. This works in two steps (whose description makes it sound like *Zahn* surgery): 
+A standard application of Dehn surgery is surgery along a [[link]] $L$ in a [[3-sphere]] $S^3$. This works in two steps (whose description makes it sound like *Zahn* surgery[^1]): 
+
+[^1]: Yes, that's supposed to be a little joke. 'Zahn' here is the German word. 
 
 * Remove or excise from $S^3$ a [[tubular neighborhood]] of the embedded link $L \hookrightarrow S^3$, of the form $L \times int(D^2)$. This is called *Dehn drilling*. The result is a 3-manifold with boundary $M$, whose boundary $\partial M \cong L \times S^1$ can be viewed as the boundary of a disjoint union of solid tori $L \times D^2$. 
 
