@@ -23,7 +23,7 @@ For $C$ a [[model category]] and $D$ any [[small category]] there are two "obvio
 
 A related kind of model structure is the [[Reedy model structure]]/[[generalized Reedy model structure]] on functor categories, which applies for *any* model category $C$, but requires $D$ to be a very special sort of category, namely a [[Reedy category]]/[[generalized Reedy category]].
   
-In the special case that $C = $ [[SSet]] is the standard [[model structure on simplicial sets|model category of simplicial sets]] the projective and injective model structure on the functor categories $[D,SSet]$ are described in more detail at [[global model structure on simplicial presheaves]].
+In the special case that $C = $ [[SSet]] is the [[classical structure on simplicial sets]] the projective and injective model structure on the functor categories $[D,SSet]$ are described in more detail at [[global model structure on simplicial presheaves]].
 
 ## Definition
 
