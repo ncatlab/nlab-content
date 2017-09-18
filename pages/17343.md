@@ -646,6 +646,72 @@ On the other hand, without changing any of the following discussion one may just
 
 =--
 
+We take _[[compact topological space]]_ to imply _[[Hausdorff topological space]]_.
+
++-- {: .num_defn #kTop}
+###### Definition
+
+A [[subspace]] $U \subset X$ of a [[topological space]] $X$ is called **compactly open** or **compactly closed**, respectively, if for every [[continuous function]] $f \colon K \longrightarrow X$ out of a [[compact topological space]] the [[preimage]] $f^{-1}(U) \subset K$ is open or closed, respectively.
+
+A topological space $X$ is a **[[compactly generated topological space]]** if each of its compactly closed subspaces is already closed.
+
+Write
+
+$$
+  Top_{cg} \hookrightarrow Top
+$$
+
+for the [[full subcategory]] of [[Top]] on the compactly generated topological spaces.
+
+=--
+
+Often the condition is added that a compactly closed topological space be also a [[weakly Hausdorff topological space]].
+
++-- {: .num_example #ExamplesOfCompactlyGeneratedTopologiclSpaces}
+###### Example
+
+Examples of [[compactly generated topological spaces]], def. \ref{kTop}, include
+
+* every [[compact space]];
+
+* every [[locally compact space]];
+
+* every [[topological manifold]];
+
+* every [[CW-complex]]; 
+
+* every [[first countable space]]
+
+=--
+
++-- {: .num_prop #kTopIsCoreflectiveInTop}
+###### Proposition
+
+The [[subcategory]] $Top_{cg} \hookrightarrow Top$ of def. \ref{kTop} has the following properties
+
+1. It is a [[coreflective subcategory]]
+
+   $$
+     Top_{cg} \stackrel{\hookrightarrow}{\underset{k}{\longleftarrow}} Top
+     \,.
+   $$
+
+   The coreflection $k(X)$ of a topological space is given by adding to the open subsets of $X$ all compactly open subsets, def. \ref{kTop}.
+
+1. It has all small [[limits]] and [[colimits]].
+
+   The colimits are computed in $Top$, the limits are the image under $k$ of the limits as computed in $Top$.
+
+1. It is a [[cartesian closed category]]. 
+
+   The [[cartesian product]] in $Top_{cg}$ is the image under $k$ of the Cartesian product formed in $Top$.
+
+=--
+
+This is due to ([Steenrod 67](compactly+generated+topological+space#Steenrod67)), expanded on in ([Lewis 78, appendix A](compactly+generated+topological+space#Lewis78)). One says that prop. \ref{kTopIsCoreflectiveInTop} with example \ref{ExamplesOfCompactlyGeneratedTopologiclSpaces} makes $Top_{cg}$ a "[[convenient category of topological spaces]]".
+
+
+
 
 ##### Homotopy
 
@@ -5940,45 +6006,7 @@ in example \ref{TopologicalRealizationOfSimplicialSets} takes values in [[CW-com
 
 (e.g. [Goerss-Jardine 99, chapter I, prop. 2.3](#GoerssJardine99))
 
-Thus for a topological space $X$ the [[adjunction counit]] $\epsilon_X \colon {\vert Sing X\vert} \longrightarrow X$ of the [[nerve and realization]]-adjunction is a candidate for a replacement of $X$ by a CW-complex. For this, $\epsilon_X$ should be at least a [[weak homotopy equivalence]], i.e. induce [[isomorphisms]] on all [[homotopy groups]]. Since homotopy groups are built from maps into $X$ out of [[compact topological spaces]] it is plausible that this works if the topology of $X$ is entirely detected by maps out of compact topological spaces into $X$. Topological spaces with this property are called [[compactly generated topological spaces|compactly generated]].
-
-We take _[[compact topological space]]_ to imply _[[Hausdorff topological space]]_.
-
-+-- {: .num_defn #kTop}
-###### Definition
-
-A [[subspace]] $U \subset X$ of a [[topological space]] $X$ is called **compactly open** or **compactly closed**, respectively, if for every [[continuous function]] $f \colon K \longrightarrow X$ out of a [[compact topological space]] the [[preimage]] $f^{-1}(U) \subset K$ is open or closed, respectively.
-
-A topological space $X$ is a **[[compactly generated topological space]]** if each of its compactly closed subspaces is already closed.
-
-Write
-
-$$
-  Top_{cg} \hookrightarrow Top
-$$
-
-for the [[full subcategory]] of [[Top]] on the compactly generated topological spaces.
-
-=--
-
-Often the condition is added that a compactly closed topological space be also a [[weakly Hausdorff topological space]].
-
-+-- {: .num_example #ExamplesOfCompactlyGeneratedTopologiclSpaces}
-###### Example
-
-Examples of [[compactly generated topological spaces]], def. \ref{kTop}, include
-
-* every [[compact space]];
-
-* every [[locally compact space]];
-
-* every [[topological manifold]];
-
-* every [[CW-complex]]; 
-
-* every [[first countable space]]
-
-=--
+Thus for a topological space $X$ the [[adjunction counit]] $\epsilon_X \colon {\vert Sing X\vert} \longrightarrow X$ of the [[nerve and realization]]-adjunction is a candidate for a replacement of $X$ by a CW-complex. For this, $\epsilon_X$ should be at least a [[weak homotopy equivalence]], i.e. induce [[isomorphisms]] on all [[homotopy groups]]. Since homotopy groups are built from maps into $X$ out of [[compact topological spaces]] it is plausible that this works if the topology of $X$ is entirely detected by maps out of compact topological spaces into $X$. Topological spaces with this property are called [[compactly generated topological spaces|compactly generated]], def. \ref{kTop}.
 
 
 +-- {: .num_cor #TopologicalRealizationOfSSetLandsInkTop}
@@ -6003,31 +6031,6 @@ By example \ref{ExamplesOfCompactlyGeneratedTopologiclSpaces} and prop. \ref{Top
 
 =--
 
-+-- {: .num_prop #kTopIsCoreflectiveInTop}
-###### Proposition
-
-The [[subcategory]] $Top_{cg} \hookrightarrow Top$ of def. \ref{kTop} has the following properties
-
-1. It is a [[coreflective subcategory]]
-
-   $$
-     Top_{cg} \stackrel{\hookrightarrow}{\underset{k}{\longleftarrow}} Top
-     \,.
-   $$
-
-   The coreflection $k(X)$ of a topological space is given by adding to the open subsets of $X$ all compactly open subsets, def. \ref{kTop}.
-
-1. It has all small [[limits]] and [[colimits]].
-
-   The colimits are computed in $Top$, the limits are the image under $k$ of the limits as computed in $Top$.
-
-1. It is a [[cartesian closed category]]. 
-
-   The [[cartesian product]] in $Top_{cg}$ is the image under $k$ of the Cartesian product formed in $Top$.
-
-=--
-
-This is due to ([Steenrod 67](compactly+generated+topological+space#Steenrod67)), expanded on in ([Lewis 78, appendix A](compactly+generated+topological+space#Lewis78)). One says that prop. \ref{kTopIsCoreflectiveInTop} with example \ref{ExamplesOfCompactlyGeneratedTopologiclSpaces} makes $Top_{cg}$ a "[[convenient category of topological spaces]]".
 
 
 +-- {: .num_prop #Timesk}
@@ -6255,12 +6258,6 @@ A key aspect of [[homotopy theory]] is that the [[universal constructions]] of [
 
 We consider this here just for the special case of [[homotopy fibers]] and [[homotopy cofibers]], leading to the phenomenon of [[homotopy fiber sequences]] and their induced [[long exact sequences of homotopy groups]] which control much of the theory to follow.
 
-$\,$
-
-**From here we say just "path space object" and "cylinder object" 
-instead of "good path space object" and "good cylinder object".**
-
-$\,$
 
 #### Pointed objects
 
