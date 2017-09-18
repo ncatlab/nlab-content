@@ -15,7 +15,7 @@
 
 ## Idea
 
-In [[computer science]], *polymorphism* is the definition of more than one [[function]] with the same name.  One usually distinguishes two types of polymorphism: *ad hoc polymorphism* and *parametric polymorphism*.
+In [[computer science]], *polymorphism* refers to situations either where the same name is used to refer to more than one [[function]], or where the same function is used at more than one [[type]]. One usually distinguishes these two kinds of polymorphism as  *ad hoc polymorphism* and *parametric polymorphism*, respectively.
 
 
 ## Ad hoc polymorphism
@@ -67,7 +67,7 @@ However, parametric polymorphism makes sense and is very useful even in language
 
 ## References
 
-The distinction between ad hoc and parametric polymorphism is originally to [[Christopher Strachey]]:
+The distinction between ad hoc and parametric polymorphism is originally due to [[Christopher Strachey]]:
 
 * Christopher Strachey, _Fundamental concepts in programming languages_, Lecture Notes from August 1967 (International Summer School in Computer Programming, Copenhagen), later published in Higher-Order and Symbolic Computation, 13, 11-49, 2000. ([pdf](https://www.itu.dk/courses/BPRD/E2009/fundamental-1967.pdf))
 
