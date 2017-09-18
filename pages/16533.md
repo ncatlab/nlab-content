@@ -32,3 +32,5 @@ Plays a central role in the discussion of [[black holes in string theory]].
 * _A review of the D1/D5 system and five dimensional black hole from supergravity and brane viewpoint_ ([arXiv:hep-th/0002184](http://arxiv.org/abs/hep-th/0002184))
 
 [[!redirects D1-D5 brane bound states]]
+
+[[!redirects D1-D5 brane system]]
