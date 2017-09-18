@@ -143,7 +143,7 @@ A **globular object** $X$ [[internalization|in]] a [[category]] $\mathcal{C}$ is
 
 
 
-### Reflexive globular sets
+### Reflexive globular sets {#ReflexiveGlobularSets}
 
 If to the globe category we add additional generating morphisms
 
@@ -235,7 +235,7 @@ See also
 
 * [[Sjoerd Crans]], _On combinatorial models for higher dimensional homotopies_ ([web](http://home.tiscali.nl/secrans/papers/comb.html))
 
-
+* [[R. Street]], _The petit topos of globular sets_ , JPAA **154** (2000) pp.299-315.
 
 
 [[!redirects globular set]]
