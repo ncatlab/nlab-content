@@ -220,6 +220,9 @@ More [[category theory|category theoretically]], the tube lemma \ref{tube} becom
 * {#CT1996} [[Maria Manuel Clementino]] and [[Walter Tholen]], *Tychonoff's theorem in a category*, Proc. Amer. Math. Soc., Vol. 124 No. 11 (Nov. 1996), 3311-3314. ([pdf](http://www.ams.org/journals/proc/1996-124-11/S0002-9939-96-03435-1/S0002-9939-96-03435-1.pdf)) 
 
 * {#Escardo09} [[Martín Escardó]], *Intersections of compactly many open sets are open*, preprint dated May 27, 2009. ([pdf](http://www.cs.bham.ac.uk/~mhe/papers/compactness-submitted.pdf)) 
+
+* {#Milne} [[James Milne]], section 17 of _[[Lectures on Étale Cohomology]]_
+
        
 Much of the material of the present article was earlier collected in 
 
