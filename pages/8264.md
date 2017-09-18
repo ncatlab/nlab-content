@@ -84,20 +84,21 @@ see _[[Starobinsky model of cosmic inflation]]_
 
 ### Original articles
 
-* [[Alan Guth]], Phys. Rev. D 23, 347 (1981).
- {#Guth}
+* Demosthenes Kazanas, _Dynamics of the universe and spontaneous symmetry breaking_, Astrophysical Journal, Part 2 - Letters to the Editor, vol. 241, Oct. 15, 1980, p. L59-L63 ([web](http://adsabs.harvard.edu/doi/10.1086/183361))
 
-* K. Sato, Mon. Not. R. Astron. Soc. 195, 467 (1981); Phys. Lett. 99B, 66 (1981)
- {#Sato}
+* {#Guth} [[Alan Guth]], Phys. Rev. D 23, 347 (1981).
+ 
+* {#Sato} K. Sato, Mon. Not. R. Astron. Soc. 195, 467 (1981); Phys. Lett. 99B, 66 (1981)
+ 
 
-* [[Andrei Linde]], Phys. Lett. 108B, 389 (1982)
- {#Linde}
+* {#Linde} [[Andrei Linde]], Phys. Lett. 108B, 389 (1982)
+ 
 
-* A. Albrecht and [[Paul Steinhardt]], Phys. Rev. Lett. 48, 1220 (1982)
- {#AlbrechtSteinhardt}
+* {#AlbrechtSteinhardt} A. Albrecht and [[Paul Steinhardt]], Phys. Rev. Lett. 48, 1220 (1982)
+ 
 
-* [[Andrei Linde]], Phys. Lett. 129B, 177 (1983).
- {#Linde83}
+* {#Linde83} [[Andrei Linde]], Phys. Lett. 129B, 177 (1983).
+ 
 
 ### Experimantal evidence 
  {#ReferencesExperimentalEvidence}
