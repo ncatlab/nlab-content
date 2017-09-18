@@ -39,4 +39,4 @@ Notice that the Reeb sphere theorem does _not_ speak of [[diffeomorphism]] to an
 
 * [[John Milnor]], theorem 4.1 in _Morse theory_ ([pdf](http://www.maths.ed.ac.uk/~aar/papers/milnmors.pdf))
 
-* {#Milnor64} [[John Milnor]], _Differenial topology_, chapter 6 in T. L. Saaty (ed.) _Lectures On Modern Mathematic II_ 1964 ([web](https://archive.org/details/LecturesOnModernMathematicsIi), [pdf](https://ia801700.us.archive.org/6/items/LecturesOnModernMathematicsIi/Saaty-LecturesOnModernMathematicsIi.pdf)) 
+* {#Milnor64} [[John Milnor]], _Differential topology_, chapter 6 in T. L. Saaty (ed.) _Lectures On Modern Mathematic II_ 1964 ([web](https://archive.org/details/LecturesOnModernMathematicsIi), [pdf](https://ia801700.us.archive.org/6/items/LecturesOnModernMathematicsIi/Saaty-LecturesOnModernMathematicsIi.pdf)) 
