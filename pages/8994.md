@@ -69,7 +69,7 @@ $$\,$$
 
 $$1_{\neg A} = \left( \neg A \cong \neg A \otimes \top \to \neg A \otimes (A \parr \neg A) \stackrel{dist}{\to} (\neg A \otimes A) \parr \neg A \to \bot \parr \neg A \cong \neg A \right).$$ 
 
-Then symmetric linearly distributive categories are the same as $\ast$-autonomous categories; see ([Cockett-Seely 97](#CockettSeely97)).  Moreover, the forgetful functor from $\ast$-autonomous categories to symmetric linearly distributive ones has a left adjoint that "freely adjoins negations".
+Then symmetric linearly distributive categories with negations are the same as $\ast$-autonomous categories; see ([Cockett-Seely 97](#CockettSeely97)).  Moreover, the forgetful functor from $\ast$-autonomous categories to symmetric linearly distributive ones has a left adjoint that "freely adjoins negations".
 
 ### Polycategories
 
