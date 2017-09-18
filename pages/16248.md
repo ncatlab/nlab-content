@@ -16,6 +16,7 @@ The five [[regular polyhedron|regular]] [[convex set|convex]] [[polyhedron]] in 
 [[!include ADE -- table]]
 
 * [[Johannes Kepler]]
+* Plato's [[Timaeus]]
 
 ## References
 
