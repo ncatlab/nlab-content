@@ -16,7 +16,8 @@
 
 ## Idea
 
-A _Weiss topology_ is a type of [[Grothendieck topology]] that provides a [[site]] of definition for [[(infinity,1)-toposes]] as they appear in [[Goodwillie calculus]] (see at _[n-excisive sub-toposes](https://ncatlab.org/nlab/show/n-excisive+%28∞%2C1%29-functor#nExcisiveApproximation)_), [[orthogonal calculus]], [[manifold calculus]] and elsewhere.
+A _Weiss topology_ is a type of [[Grothendieck topology]] that provides a [[site]] of definition for [[(infinity,1)-toposes]] as they appear in [[manifold calculus]].
+
 
 ## Related concepts
 
