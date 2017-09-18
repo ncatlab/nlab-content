@@ -603,9 +603,10 @@ $$
   \,.
 $$
 
-By example \ref{OpenAndClosedIntervals}, all except the last of these pre-images listed is not an open subset.
+By example \ref{OpenAndClosedIntervals}, all except the last of these pre-images listed are open subsets.
 
-This witnesses that the step function is not continuous at $x = 0$.
+The failure of the last of the pre-images listed  to be open 
+witnesses that the step function is not continuous at $x = 0$.
 
 =--
 
@@ -620,6 +621,7 @@ Recall the concept of [[convergence]] of [[sequences]] in [[metric spaces]] via 
 
 +-- {: .num_defn #Sequences}
 ###### Definition
+**([[sequence]])**
 
 Given a [[set]] $X$, then a _[[sequence]]_ of elements in $X$ is a [[function]]
 
@@ -651,6 +653,7 @@ for some [[injection]] $\iota$.
 
 +-- {: .num_defn #Convergence}
 ###### Definition
+**([[convergence]])**
 
 Let $(X,d)$ be a [[metric space]] (def. \ref{MetricSpace}).
 Then a [[sequence]]
@@ -663,23 +666,30 @@ $$
   X
 $$
 
-in the underlying set $X$ (def. \ref{Sequences}) is said to _[[convergence|converge]]_ to a point $y \in X$, denoted
+in the underlying set $X$ (def. \ref{Sequences}) is said to _[[convergence|converge]]_ to a point $x_\infty \in X$, denoted
 
 $$
-  x_i \overset{i \to \infty}{\longrightarrow} y
+  x_i \overset{i \to \infty}{\longrightarrow} x_\infty
 $$
 
-if
+if for every [[positive number|positive]] [[real number]] $\epsilon$, there exists a [[natural number]] $n$, such that 
+all elements in the sequence after the $n$th one have [[distance]] less than $\epsilon$ from $x_\infty$.
 
 $$
-  \underset{ {\epsilon \in \mathbb{R}}  \atop {\epsilon \gt 0} }{\forall}
   \left(
-  \underset{N_\epsilon \in \mathbb{N}}{\exists}
-  \left(
-  \underset{ {i \in \mathbb{N}} \atop {i \gt N_\epsilon} }{\forall}
-  \;
-  d(x_i, y) \leq \epsilon
+    x_i \overset{i \to \infty}{\longrightarrow} x_\infty
   \right)
+   \,\Leftrightarrow\,
+  \left(
+    \underset{ {\epsilon \in \mathbb{R}}  \atop {\epsilon \gt 0} }{\forall}
+    \left(
+    \underset{n \in \mathbb{N}}{\exists}
+    \left(
+    \underset{ {i \in \mathbb{N}} \atop {i \gt n} }{\forall}
+    \;
+    d(x_i, y) \leq \epsilon
+    \right)
+    \right)
   \right)
   \,.
 $$
@@ -688,6 +698,7 @@ $$
 
 +-- {: .num_defn #CauchySequence}
 ###### Definition
+**([[Cauchy sequence]])**
 
 Given a [[metric space]] $(X,d)$ (def. \ref{MetricSpace}), then a [[sequence]] of points in $X$ (def. \ref{Sequences})
 
@@ -695,17 +706,25 @@ $$
   x_{(-)} \;\colon\;  \mathbb{N}  \longrightarrow X
 $$
 
-is called a _[[Cauchy sequence]]_ if
+is called a _[[Cauchy sequence]]_ if for every [[positive number|positive]] [[real number]] $\epsilon$
+there exists a [[natural number]] $n \in \mathbb{N}$ such that the [[distance]] between any two elements
+of the sequence beyond the $n$th one is less than $\epsilon$
 
 $$
-  \underset{{\epsilon \in \mathbb{R}} \atop {\epsilon \gt 0}}{\forall}
   \left(
-  \underset{N_\epsilon \in \mathbb{N}}{\exists}
-  \left(
-  \underset{{i,j \in \mathbb{N}} \atop {i,j \gt N_{\epsilon}}}{\forall}
-  \;
-  d(x_i, x_j) \leq \epsilon
+    x_{(-)} \,\, \text{Cauchy}
   \right)
+  \,\Leftrightarrow\,
+  \left(
+    \underset{{\epsilon \in \mathbb{R}} \atop {\epsilon \gt 0}}{\forall}
+    \left(
+    \underset{N_\epsilon \in \mathbb{N}}{\exists}
+    \left(
+    \underset{{i,j \in \mathbb{N}} \atop {i,j \gt N_{\epsilon}}}{\forall}
+    \;
+    d(x_i, x_j) \leq \epsilon
+    \right)
+    \right)
   \right)
   \,.
 $$
@@ -714,6 +733,7 @@ $$
 
 +-- {: .num_defn #CompleteMetricSpace}
 ###### Definition
+**([[complete metric space]])**
 
 A [[metric space]] $(X,d)$ (def. \ref{MetricSpace}), for which every [[Cauchy sequence]] (def. \ref{CauchySequence})
 [[convergence|converges]] (def. \ref{Convergence}) is called a _[[complete metric space]]_.
