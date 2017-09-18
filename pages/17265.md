@@ -205,14 +205,62 @@ $$
 
 =--
 
-+-- {: .num_example #TopologicalHomotopyEquivalencesAreWeakHomotopyEquivalences}
-###### Example
+
++-- {: .num_prop #TopologicalHomotopyEquivalencesAreWeakHomotopyEquivalences}
+###### Proposition
 
 Every [[homotopy equivalence]], def. \ref{HomotopyEquivalence}, is a weak homotopy equivalence, def. \ref{WeakHomotopyEquivalenceOfTopologicalSpaces}.
 
 In particular a [[deformation retraction]], def. \ref{HomotopyEquivalence}, is a weak homotopy equivalence.
 
 =--
+
++-- {: .proof}
+###### Proof
+
+First observe that for all $X\in$ [[Top]] the inclusion maps 
+
+$$
+  X \overset{(id,\delta_0)}{\longrightarrow} X \times I
+$$
+
+into the standard [[cylinder object]], def. \ref{TopologicalInterval}, are weak homotopy equivalences: by postcomposition with the contracting homotopy of the interval from example \ref{StandardContractionOfStandardInterval} all homotopy groups of $X \times I$ have representatives that factor through this inclusion.
+
+Then given a general [[homotopy equivalence]], apply the homotopy groups functor to the corresponding homotopy diagrams (where for the moment we notationally suppress the choice of basepoint for readability) to get two commuting diagrams
+
+$$
+  \array{
+     \pi_\bullet(X) 
+     \\
+     {}^{\mathllap{\pi_\bullet(id,\delta_0)}}\downarrow & \searrow^{\mathrlap{\pi_\bullet(f)\circ \pi_\bullet(g)}}
+     \\
+     \pi_\bullet(X \times I) &\stackrel{\pi_\bullet(\eta)}{\longrightarrow}& \pi_\bullet(Y)
+     \\
+     {}^{\mathllap{\pi_\bullet(id,\delta_1)}}\uparrow & \nearrow_{\mathrlap{\pi_\bullet(id)}}
+     \\
+     \pi_\bullet(X)
+  }
+  \;\;\;\;\;\;\;
+  \,,
+  \;\;\;\;\;\;\;
+  \array{
+     \pi_\bullet(Y) 
+     \\
+     {}^{\mathllap{\pi_\bullet(id,\delta_0)}}\downarrow & \searrow^{\mathrlap{\pi_\bullet(g)\circ \pi_\bullet(f)}}
+     \\
+     \pi_\bullet(Y \times I) &\stackrel{\pi_\bullet(\eta)}{\longrightarrow}& \pi_\bullet(X)
+     \\
+     {}^{\mathllap{\pi_\bullet(id,\delta_1)}}\uparrow & \nearrow_{\mathrlap{\pi_\bullet(id)}}
+     \\
+     \pi_\bullet(Y)
+  }
+  \,.
+$$
+
+By the previous observation, the vertical morphisms here are isomorphisms, and hence these diagrams exhibit $\pi_\bullet(f)$ as the inverse of $\pi_\bullet(g)$, hence both as isomorphisms.
+
+=--
+
 
 
 +-- {: .num_example #FactoringTopologicalCodiagonalThroughCylinder}
@@ -1193,6 +1241,57 @@ So assume $\beta_{max}\lt \gamma$. Then to construct an  element of $T$ that is 
 
 =--
 
++-- {: .num_lemma #JTopRelativeCellComplexesAreWeakHomotopyEquivalences}
+###### Lemma
+
+Every $J_{Top}$-[[relative cell complex]] (def. \ref{TopologicalGeneratingAcyclicCofibrations}, def. \ref{TopologicalCCellComplex}) is a [[weak homotopy equivalence]], def. \ref{WeakHomotopyEquivalenceOfTopologicalSpaces}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $X \longrightarrow \hat X$ be a $J_{Top}$-relative cell complex. 
+
+Notice that with the elements $D^n \hookrightarrow D^n \times I$ of $J_{Top}$ themselves, also each stage $X_{\alpha} \to X_{\alpha+1}$ in the [[transfinite composition]] defining $\hat X$ is a [[homotopy equivalence]], hence, by prop.  \ref{TopologicalHomotopyEquivalencesAreWeakHomotopyEquivalences}, a weak homotopy equivalence. 
+
+This means that all morphisms in the following diagram (notationally suppressing basepoints and showing only the finite stages)
+
+$$
+  \array{
+    \pi_n(X)
+      &\overset{\simeq}{\longrightarrow}&
+    \pi_n(X_1)
+      &\overset{\simeq}{\longrightarrow}&
+    \pi_n(X_2)
+      &\overset{\simeq}{\longrightarrow}&
+    \pi_n(X_3)
+      &\overset{\simeq}{\longrightarrow}&
+    \cdots
+    \\
+    & {}_{\mathllap{\simeq}}\searrow & 
+      \downarrow^{\mathrlap{\simeq}}
+    & \swarrow_{\mathrlap{\simeq}} & \cdots
+    \\
+    && \underset{\longleftarrow}{\lim}_\alpha \pi_n(X_\alpha)
+  }
+$$
+
+are isomorphisms.
+
+Moreover, lemma \ref{CompactSubsetsAreSmallInCellComplexes} gives that every representative and every null homotopy of elements in $\pi_n(\hat X)$ already exists at some finite stage $X_k$. This means that also the universally induced morphism
+
+$$
+  \underset{\longleftarrow}{\lim}_\alpha \pi_n(X_\alpha)
+  \overset{\simeq}{\longrightarrow}
+  \pi_n(\hat X)
+$$
+
+is an isomorphism. Hence the composite $\pi_n(X) \overset{\simeq}{\longrightarrow} \pi_n(\hat X)$ is an isomorphism.
+
+=--
+
+
 
 +-- {: .num_lemma #AcyclicSerreFibrationsAreTheJTopFibrations}
 ###### Lemma
@@ -1513,10 +1612,11 @@ By lemma \ref{AcyclicSerreFibrationsAreTheJTopFibrations} the map $\hat X \to Y$
 
 =--
 
+
 +-- {: .num_prop #ContinuousFunctionsFactorAsQuillenAcyclicCofibrationFollowedBySerreFibration}
 ###### Proposition
 
-Every morphism $f\colon X \longrightarrow Y$ in [[Top]] factors as an acyclic classical cofibration followed by a fibration, def. \ref{ClassesOfMorhismsInTopQuillen}:
+Every morphism $f\colon X \longrightarrow Y$ in [[Top]] factors as an acyclic classical cofibration followed by a classical fibration, def. \ref{ClassesOfMorhismsInTopQuillen}:
 
 $$
   f
@@ -1533,8 +1633,6 @@ $$
 
 +-- {: .proof}
 ###### Proof
-
-By lemma \ref{TopologicalGeneratingAcyclicCofibrationsAreRelativeCellComplexes} a relative $J_{Top}$-cell complex is in particular a relative $I_{Top}$-cell complex. 
 
 By lemma \ref{CompactSubsetsAreSmallInCellComplexes}
 the set $J_{Top} = \{D^n \hookrightarrow D^n\times I\}$ of 
@@ -1553,10 +1651,7 @@ $$
 
 By definition this makes $\hat X \to Y$ a [[Serre fibration]], hence a fibration.
 
-By lemma \ref{TopologicalGeneratingAcyclicCofibrationsAreRelativeCellComplexes} a relative $J_{Top}$-cell complex is in particular a relative $I_{Top}$-cell complex and hence $X \to \hat X$ is a cofibration.
-
-Finally, to see that relative $J_{Top}$-cell complexes are weak homotopy equivalences, first notice that with the elements $D^n \hookrightarrow D^n \times I$ of $J_{Top}$ themselves, also each stage $X_{k} \to X_{k+1}$ in the construction of $\hat X$ via the [[small object argument]] is a [[strong deformation retract]], hence, by example \ref{TopologicalHomotopyEquivalencesAreWeakHomotopyEquivalences}, a weak homotopy equivalence. Now the [[small object argument]] with lemma \ref{CompactSubsetsAreSmallInCellComplexes} applies once more to give that every representative and every null homotopy of elements in $\pi_n(\hat X)$ already exist at some stage $X_n$, hence that also $\underset{\longrightarrow}{\lim}_{k} \pi_\bullet(X_k)\to \pi_\bullet(\hat X)$ is an isomorphism. (...)
-
+By lemma \ref{TopologicalGeneratingAcyclicCofibrationsAreRelativeCellComplexes} a relative $J_{Top}$-cell complex is in particular a relative $I_{Top}$-cell complex. Hence $X \to \hat X$ is a cofibration. By lemma \ref{JTopRelativeCellComplexesAreWeakHomotopyEquivalences} it is also a weak equivalence.
 
 =--
 
@@ -1675,6 +1770,12 @@ The original article is
 An expository, concise and comprehensive writeup of the proof of the model category axioms is in 
 
 * {#Hirschhorn15} [[Philip Hirschhorn]], _The Quillen model category of topological spaces_, 2015 ([arXiv:1508.01942](http://arxiv.org/abs/1508.01942))
+
+The observation that the proof directly extends to give the [[projective model structures on enriched functors]], enriched over $Top_{Quillen}$, is due to 
+
+* {#Piacenza91} [[Robert Piacenza]]  section 5 of _Homotopy theory of diagrams and CW-complexes over a category_, Can. J. Math. Vol 43 (4), 1991 ([[Piazenza91.pdf:file]])
+
+  also chapter VI of [[Peter May]] et al., _Equivariant homotopy and cohomology theory_, 1996 ([pdf](http://www.math.uchicago.edu/~may/BOOKS/alaska.pdf))
 
 [[!redirects Quillen model structure on topological spaces]]
 [[!redirects Quillen model structure on Top]]
