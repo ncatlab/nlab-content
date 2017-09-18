@@ -442,7 +442,7 @@ Similarly in dimensions 5,6 and 7 mod 8, the minimal real representation is obat
 ### Expression of real representations via real normed division algebras
  {#ExpressionInTermsOfNormedDivisionAlgebras}
 
-The real spinor representations in dimensions $3 \leq d \leq 11$ happen to have a particularly simple expression in terms of [[Hermitian forms]] over the four [[normed division algebras]], the [[real numbers]] $\mathbb{R}$, [[complex numbers]] $\mathbb{C}$, the [[quaternions]] $\mathbb{H}$ and the [[octonions]] $\mathbb{O}$. For more on this see also at _[[supersymmetry and division algebras]]_. We follow ([Baez-Huerta 09](#BaezHuerta09), [Baez-Huerta 10](#BaezHuerta10)).
+The real spinor representations in dimensions $3 \leq d \leq 11$ happen to have a particularly simple expression in terms of [[Hermitian forms]] over the four real [[normed division algebras]], the [[real numbers]] $\mathbb{R}$, [[complex numbers]] $\mathbb{C}$, the [[quaternions]] $\mathbb{H}$ and the [[octonions]] $\mathbb{O}$. For more on this see also at _[[supersymmetry and division algebras]]_. We follow ([Baez-Huerta 09](#BaezHuerta09), [Baez-Huerta 10](#BaezHuerta10)).
 
 Some notation:
 
@@ -457,6 +457,7 @@ Some notation:
 
 
 #### In dimensions 3,4,6,10
+ {#InTermsOfNormedDivisionAlgebraInDimension3To10}
 
 +-- {: .num_defn #CliffordAlgebraInTermsOfNormedDivisionAlgebra}
 ###### Definition
@@ -594,6 +595,7 @@ $$
 
 
 #### In dimensions 4,5,7,11
+  {#InTermsOfNormedDivisionAlgebraInDimension4To11}
 
 
 +-- {: .num_defn #CliffordAlgebraInTermsOfNormedDivisionAlgebraOneDimHigher}
