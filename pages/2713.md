@@ -218,6 +218,10 @@ Also
 * Sebastiano Carpi, Robin Hillier, [[Yasuyuki Kawahigashi]], [[Roberto Longo]], _Spectral Triples and the Super-Virasoro Algebra_ Communications in Mathematical Physics, Volume 295, Number 1 / April 2010 ([Springer pdf](http://www.springerlink.com/content/316wx4r4x885172w/fulltext.pdf))
 
 
+Discussion in the context of [[D-brane]] [[matrix models]] is in
+
+* T. Asakawa, S. Sugimoto, S. Terashima, _D-branes, Matrix Theory and K-homology_, JHEP 0203 (2002) 034 ([arXiv:hep-th/0108085](http://arxiv.org/abs/hep-th/0108085))
+
 ### von Neumann spectral triples 
 
 One variation uses [[von Neumann algebras]] instead of [[C-star algebras]].
