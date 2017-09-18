@@ -84,3 +84,8 @@ For more details, see at [metaplectic group -- (Non-)Triviality of Extensions](m
  
 
 [[!redirects metaplectic structures]]
+
+[[!redirects Mp^c structure]]
+[[!redirects Mp^c structures]]
+[[!redirects Mp^c-structure]]
+[[!redirects Mp^c-structures]]
