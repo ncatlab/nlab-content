@@ -2,7 +2,7 @@
 
 >for the moment all that is here is a (dead) link to an "open letter" that arose in discussion between [[Andrew Stacey]] and [[Urs Schreiber]]. 
 
-* [nForum discussion -- organization of the nLab](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=36)
+* [nForum discussion -- organization of the nLab](https://nforum.ncatlab.org/comments.php?DiscussionID=36)
 
 
 > discussion of this is supposed to take place at the corresponding [nForum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/) thread, any stable results of this discussion should eventually be implemented here, for everyone to see
