@@ -2,6 +2,17 @@
 
 * [Wikipedia entry](http://en.wikipedia.org/wiki/Hassler_Whitney)
 
+
+## related $n$Lab entries
+
+* [[Stiefel-Whitney class]], [[integral Stiefel-Whitney class]]
+
+* [[Whitney sum]]
+
+* [[Whitney extension theorem]]
+
+* [[Alexander-Whitney map]]
+
 category: people
 
 [[!redirects Whitney]]
