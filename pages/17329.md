@@ -29,45 +29,6 @@ By an _$n$-cube_ of a cubical set $X$, or an $m$-truncated cubical set for some 
 
 =--
 
-+-- {: .num_defn #NotationOneCubePictorial}
-###### Notation
-
-Let $f$ be a 1-cube of $X$. We shall often depict $f$ as $f : x_{0} \rightarrow x_{1}$ or as follows. 
-
-$$
-   \array{x_{0} & \overset{f}{\to} & x_{1}}
-$$
-
-In this case, $x_{0}$ is to be understood to be the $0$-cube $f \circ y(i_{0})$ of $X$, and $x_{1}$ is to be understood to be the $1$-cube $f \circ y(i_{1})$ of $X$. 
-
-=--
-
-+-- {: .num_defn #NotationTwoCubePictorial}
-###### Notation
-
-Let $\sigma$ be a 2-cube of $X$. We shall often depict $\sigma$ as follows.
-
-$$
-   \array{
-      x_{0}            & \overset{f_{0}}{\to}  & x_{1} \\
-      f_{2} \downarrow & \sigma                & \downarrow f_{1} \\
-      x_{2}            & \underset{f_{3}}{\to} & x_{3}
-   }
-$$
-
-In this case, $f_{0}$ is to be understood to be the $1$-cube $\sigma \circ y(i_{0} \otimes I^{1})$ of $X$, $f_{1}$ is to be understood to be the $1$-cube $\sigma \circ y(I^{1} \otimes i_{1})$ of $X$, $f_{2}$ is to be understood to be the $1$-cube $\sigma \circ y(I^{1} \otimes i_{0})$ of $X$, and $f_{3}$ is to be understood to be the 1-cube $\sigma \circ y(i_{1} \otimes I^{1})$ of $X$.
-
-It can be checked that this notation is consistent with Notation \ref{NotationOneCubePictorial}.
-
-=--
-
-+-- {: .num_defn}
-###### Terminology
-
-We refer to the four 1-cubes of Notation \ref{NotationTwoCubePictorial} as the _boundary_ of $\sigma$.
-
-=--
-
 ## Fundamental groupoid adjunction
 
 +-- {: .num_defn #NotationFundamentalGroupoid}
