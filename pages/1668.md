@@ -862,7 +862,7 @@ where $\chi(\omega, \ldots, \omega)$ is the evident operation of arity $n m = m 
 
 ### Abstract formulation 
 
-The category $\mathbf{Th}$ of Lawvere theories is endowed with a symmetric monoidal product (called _Kronecker product_; see Freyd's article in the references), 
+The category $\mathbf{Th}$ of Lawvere theories is endowed with a symmetric monoidal product (called _[[tensor product theory|Kronecker product]]_; see Freyd's article in the references), 
 
 $$\otimes \colon \mathbf{Th} \times \mathbf{Th} \to \mathbf{Th},$$ 
 
