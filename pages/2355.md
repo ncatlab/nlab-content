@@ -57,21 +57,21 @@ $$
 $$
 
 is an adjunction, if there exists a _unit transformation_ 
-$\epsilon : Id_C \to R \circ L$ -- a morphism in the [[(∞,1)-category of (∞,1)-functors]] $Func(C,D)$ -- such that for all $c \in C$ and $d \in D$ the induced morphism
+$\epsilon : Id_D \to R \circ L$ -- a morphism in the [[(∞,1)-category of (∞,1)-functors]] $Func(D,D)$ -- such that for all $d \in D$ and $c \in C$ the induced morphism
 
 $$
-  Hom_C(L(c),d)
-   \stackrel{R_{L(c), d}}{\to}  
-  Hom_D(R(L(c)), R(d))
-  \stackrel{Hom_D(\epsilon, R(d))}{\to}
-  Hom_D(c,R(d))
+  Hom_C(L(d),c)
+   \stackrel{R_{L(d), c}}{\to}  
+  Hom_D(R(L(d)), R(c))
+  \stackrel{Hom_D(\epsilon, R(c))}{\to}
+  Hom_D(d,R(c))
 $$
 
 is an [[equivalence of ∞-groupoids]].
 
 =--
 
-In terms of the concrete incarnation of the notion of $(\infty,1)$-category by the notion of [[quasi-category]], we have that $Hom_(C)(L(c),d)$ and $Hom_D(c,R(d))$ are incarnated as [[hom-object in a quasi-category|hom-objects in quasi-categories]], which are [[Kan complexes]], and the above equivalence is a [[homotopy equivalence]] of Kan complexes.
+In terms of the concrete incarnation of the notion of $(\infty,1)$-category by the notion of [[quasi-category]], we have that $Hom_C(L(d),c)$ and $Hom_D(d,R(c))$ are incarnated as [[hom-object in a quasi-category|hom-objects in quasi-categories]], which are [[Kan complexes]], and the above equivalence is a [[homotopy equivalence]] of Kan complexes.
 
 In this form this definition appears as [[Higher Topos Theory|HTT, def. 5.2.2.7]].
 
