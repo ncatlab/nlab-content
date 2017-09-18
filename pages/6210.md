@@ -159,8 +159,12 @@ Twisted differential $\mathbf{c}$-structures appear in various guises in the [[b
 
   * [[twisted Wu structure]]
 
-* [[2-framing]]
+* [[p1-structure]] 
+
+  [[2-framing]]
   
+* [[w4-structure]] 
+
   [[w4-orientation of EO(2)-theory]]
 
 * [[differential T-duality]]
