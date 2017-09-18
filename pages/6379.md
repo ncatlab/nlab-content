@@ -216,11 +216,11 @@ But this is easy to see. Recall that given a permutation $\sigma$ on a linearly 
 
 $$\sign(\sigma) = (-1)^{I(\sigma)}.$$ 
 
-In the present case $\sigma = \beta^{-1} \alpha$, we are thus considering pairs of pairs $(i, j)$, $(i', j')$ where $(i, j) \lt (i', j')$ in dictionary order but $(i, j) \gt (i', j')$ in reverse dictionary order; in other words when $i \lt i'$ but $j' \lt j$. The number of such occurrences is 
+In the present case $\sigma = \beta^{-1} \alpha$, we see $I(\sigma)$ counts pairs of pairs $(i, j)$, $(i', j')$ where $(i, j) \lt (i', j')$ in dictionary order but $(i, j) \gt (i', j')$ in reverse dictionary order; in other words when $i \lt i'$ but $j' \lt j$. The number of such occurrences is 
 
 $$I(\sigma) = \frac{m(m-1)}{2} \frac{n(n-1)}{2}$$ 
 
-whence 
+whence (again since $m, n$ are odd) 
 
 $$(-1)^{I(\sigma)} = (-1)^{\frac{m-1}{2}\frac{n-1}{2}}$$ 
 
