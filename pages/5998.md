@@ -116,6 +116,8 @@ The idea that untyped lambda calculus can be modeled internally to a cartesian c
 
 This followed his earlier work constructing an explicit such model in the category of domains:
 
+* Dana Scott. Outline of a Mathematical Theory of Computation. _Proc. 4th Princeton Conf. on Information Sciences and Systems_, 169--176, 1970. [pdf](http://ropas.snu.ac.kr/~kwang/520/readings/sco70.pdf)
+
 * Dana Scott. Data types as lattices. _SIAM Journal of Computing_, 5(3):522--587, September 1976.
 
 Another, more recent take on pure lambda calculus (as a "semi-closed algebraic theory") can be found in
