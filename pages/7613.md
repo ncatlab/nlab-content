@@ -159,7 +159,7 @@ Discussion of the history includes
 
 An early popular account for a general audience is
 
-* [[Edward Witten]], _Magic, Mystery, and Matrix_, Notices of the AMS, volume 45, number 9 (1998) ([pdf](http://www.sns.ias.edu/~witten/papers/mmm.pdf))
+* [[Edward Witten]], _Magic, Mystery, and Matrix_, Notices of the AMS, volume 45, number 9 (1998) ([pdf](http://www.ams.org/notices/199809/witten.pdf))
 
 More recent review includes
 
