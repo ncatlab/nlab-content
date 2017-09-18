@@ -118,6 +118,10 @@ This bicategory is equivalent to the 2-category whose objects are slice categori
 
 Note that the above bicategory contains, as a locally full sub-bicategory, the usual bicategory of [[spans]].  Thus, as a special case, the bicategory of spans is equivalent to the 2-category of "linear" polynomial functors.  Both of these are instances of [[Lack's coherence theorem]].
 
+There is a particular subclass of the 2-morphism in this bicategory that is also interesting: a 2-morphism corresponds to a [[cartesian natural transformation]] if and only if the map $X' \times_{Y'} Y \to X$ is an isomorphism.  Since anything isomorphic to a pullback is a pullback, in this case the diagram can be drawn more simply by omitting the upper square and merely asking that the lower square *be* a pullback.
+
+Furthermore, this bicategory is actually the horizontal bicategory of a [[double category]], indeed a [[framed bicategory]], in which the vertical arrows are the arrows of $C$, and the cells are diagrams as above but allowing also morphisms $W\to W'$ and $Z\to Z'$ on the left and right.
+
 
 ## Related topics
 
