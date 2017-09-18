@@ -36,7 +36,7 @@ Generally it applies to the [[curvature]] of [[∞-Lie algebroid valued differen
 
 Let $U$ be a [[smooth manifold]]. 
 
-For $A \in \Omega^1(U)$ a differential 1-form, its [[curvature]] 2-form is the de Rham differential $F_a = d A$. The Bianchi identity in this case is the equation
+For $A \in \Omega^1(U)$ a differential 1-form, its [[curvature]] 2-form is the de Rham differential $F_A = d A$. The Bianchi identity in this case is the equation
 
 $$
   d F = 0
