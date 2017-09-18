@@ -278,7 +278,7 @@ Discussion of [[black hole]] horizons includes
 
 ### Truncations and compactifications
 
-* [[Hermann Nicolai]], Krzysztof Pilch, _Consistent truncation of $d = 11$ supergravity on $AdS_4 x S^7$_ ([arXiv:1112.6131](http://arxiv.org/abs/1112.6131))
+* [[Hermann Nicolai]], Krzysztof Pilch, _Consistent truncation of $d = 11$ supergravity on $AdS_4 \times S^7$_ ([arXiv:1112.6131](http://arxiv.org/abs/1112.6131))
 
 ### Topology and anomaly cancellation
 
