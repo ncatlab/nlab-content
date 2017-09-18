@@ -1,6 +1,8 @@
 **[[stable homotopy theory]]**
 
-_[[Introduction to Stable Homotopy Theory]]_
+* [[homological algebra]], [[higher algebra]]
+
+_[[Introduction to Stable Homotopy Theory|Introduction]]_
 
 #Ingredients
 
