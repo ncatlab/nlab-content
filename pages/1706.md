@@ -435,6 +435,8 @@ Lecture notes and reviews on the topic of the cobordisms hypothesis include
 
 * [[Daniel Freed]], _The cobordism hypothesis_ ([arXiv:1210.5100](http://arxiv.org/abs/1210.5100))
 
+* {#SchommerPries13} [[Chris Schommer-Pries]], _Dualizability in Low-Dimensional Higher Category Theory_ ([arXiv:1308.3574](http://arxiv.org/abs/1308.3574))
+
 * {#Teleman14} [[Constantin Teleman]], _Five lectures on topological field theory_, 2014 ([pdf](http://math.berkeley.edu/~teleman/math/barclect.pdf))
 
 
