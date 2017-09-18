@@ -33,6 +33,12 @@ The D0-brane itself comes from the [[M-wave]] in [[11-dimensional supergravity]]
 
 One aspect of the [[M-theory]] conjecture is that [[type IIA string theory]] with a [[condensate]] of [[D0-branes]] behaves like a 10-dimensional theory that develops a further circular dimension of [[radius]] scaling with the density of [[D0-branes]].  ([Banks-Fischler-Shenker-Susskind 97](#BanksFischlerShenkerSusskind97), [Polchinski 99](#Polchinski99)). See also ([FSS 13, section 4.2](#FSS13)).
 
+## Relation to other branes
+
+The [[electric-magnetic duality|electric-magnetic dual]] of the D0 is the [[D6-brane]]
+
+[[!include electric-magnetic duality -- table]]
+
 
 ## Related concepts
 
@@ -56,4 +62,3 @@ Discussion via [[Green-Schwarz sigma-models]] and [[super L-infinity algebras]] 
 
 
 [[!redirects D0-branes]]
-
