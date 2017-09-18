@@ -41,7 +41,7 @@ _is an isomorphism_.
 +-- {: .num_remark}
 ###### Remark
 
-A more intrinsic statement in the language of [[homotopy theory]] of the connectivity part of the theorem is that for $f_1$ and $f_2$ two [[maps]] out of the same [[codomain]] which are $n_1$-[[n-connected morphism|connective]] and $n_2$-connective, respectively, then the canonical map from the [[codomain]] into the [[homotopy pullback]] of their [[homotopy pushout]]
+A more intrinsic statement in the language of [[homotopy theory]] of the connectivity part of the theorem is that for $f_1$ and $f_2$ two [[maps]] out of the same [[domain]] which are $n_1$-[[n-connected morphism|connective]] and $n_2$-connective, respectively, then the canonical map from that domain into the [[homotopy pullback]] of their [[homotopy pushout]]
 
 $$
   \array{
