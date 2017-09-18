@@ -29,6 +29,8 @@ The [[automorphism group]] of the octonions is [[G2]].
 
 * [[Cayley plane]]
 
+* [[octonionic Hopf fibration]]
+
 [[!include exceptional spinors and division algebras -- table]]
 
 
