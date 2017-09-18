@@ -105,7 +105,7 @@ Textbook accounts include
 
 * {#Neukirch92} [[Jürgen Neukirch]], _Algebraische Zahlentheorie_ (1992), English translation _Algebraic Number Theory_,  Grundlehren der Mathematischen Wissenschaften 322, 1999 ([pdf](http://www.plouffe.fr/simon/math/Algebraic%20Number%20Theory.pdf))
 
-* {#Roosen02} Michael Roosen, _Number theory in function fields_, Graduate texts in mathematics, 2002
+* {#Rosen02} Michael Rosen, _Number theory in function fields_, Graduate texts in mathematics, 2002
 
 Tables showing the parallels between number fields and function fields are in
 
