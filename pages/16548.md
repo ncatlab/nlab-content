@@ -76,9 +76,11 @@ The [[Eilenberg-Moore category]] of [[coalgebras]] over the Jet comonad has the 
 
 In the context of [[differential geometry]] the comonad structure on the jet bundle construction, as well as the interpretation of its EM-category as that of partial differential equations, is due to
 
-* {#Marvan86} [[Michal Marvan]], _A note on the category of partial differential equations_, in _Differential geometry and its applications_, Proceedings of the Conference August 24-30, 1986, Brno ([[MarvanJetComonad.pdf:file]])
+* {#Marvan86} [[Michal Marvan]], _A note on the category of partial differential equations_, in _Differential geometry and its applications_, Proceedings of the Conference August 24-30, 1986, Brno ([[MarvanJetComonadPDE.pdf:file]])
 
-  (notice that prop. 1.3 there holds only if the equalizer exists in the first place)
+(Proposition 1.4 in [Marvan 86](#Marvan86) needs an extra transversality condition on the equalizer, this is fixed in ([Marvan's thesis](#MarvanThesis).)
+
+* {#MarvanThesis} [[Michal Marvan]], thesis, 1989 ([[MarvanThesis.pdf:file]])
 
 * {#Marvan89} [[Michal Marvan]], _On the horizontal cohomology with general coefficients_, 1989 ([web announcement](http://old.math.slu.cz/People/MichalMarvan/Annotations/horizontal.php), [web archive](http://dml.cz/dmlcz/701469))
 
