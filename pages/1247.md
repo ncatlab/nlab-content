@@ -29,9 +29,11 @@ In [[Set]], the identity morphisms are the [[identity functions]].
 
 ## Related concepts
 
-* [[equivalence]]
+* [[equality]], [[equivalence]]
 
 * [[identity type]]
+
+* [[identity of indiscernibles]]
 
 [[!redirects identity morphisms]]
 
