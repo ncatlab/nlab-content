@@ -33,12 +33,10 @@ where it appears in example 1.2.3 as a direct consequence of a more general stat
 
 A proof of the general form for arbitrary $m,n,k$, using iterated $(\infty,1)$-categorical enrichment to define $(\infty,n)$-categories, is in
 
-* [[David Gepner]], [[Rune Haugseng]], *Enriched ∞-categories via non-symmetric ∞-operads*, [arXiv](http://arxiv.org/abs/1312.3178)
+* {#GepnerHaugseng13} [[David Gepner]], [[Rune Haugseng]], *Enriched ∞-categories via non-symmetric ∞-operads* ([arXiv:1312.3178](http://arxiv.org/abs/1312.3178))
 
+See also
 
-## References
+* [[Jacob Lurie]], section 5.1.2 _[[Higher Algebra]]_
 
-Section 5.1.2 of 
-
-* [[Jacob Lurie]], _[[Higher Algebra]]_
-
+* {#Batanin15} [[Michael Batanin]], _An operadic proof of Baez-Dolan stabilization hypothesis_ ([arXiv:1511.09130](http://arxiv.org/abs/1511.09130))
