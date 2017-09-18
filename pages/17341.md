@@ -1,46 +1,58 @@
-Hello! My name is Christian Williams (christianwilliams124@tamu.edu). I am a mathematics M.S. at Texas A&M University, conducting independent research that incorporates category theory.
+Hello! My name is Christian Williams (christianwilliams124@tamu.edu). I am a mathematics M.S. at Texas A&M University, conducting very speculative independent research hoping to incorporate category theory.
 
 This page is currently under construction, and will be far from acceptable quality for some time; please don't mind the mess until then. Right now it is just for documentation; the possibility of people seeing my work will focus me, and I prefer this format over developing a LaTeX PDF. Thank you very much!
 
 ### Links ###
 [Schreiber](https://dl.dropboxusercontent.com/u/12630719/dcct.pdf)
-[Lawvere](https://ncatlab.org/nlab/show/William+Lawvere#RelationToPhilosophy) 
-[Long March](https://webusers.imj-prg.fr/~leila.schneps/grothendieckcircle/EsquisseFr.pdf)
+[Lawvere](https://ncatlab.org/nlab/show/William+Lawvere#RelationToPhilosophy)
 [Shulman](https://ncatlab.org/michaelshulman/show/HomePage)
 [Hegel](https://www.marxists.org/reference/archive/hegel/hl_index.htm)
 
+[adjoint](https://ncatlab.org/nlab/show/adjoint+functor)
+[product](https://ncatlab.org/nlab/show/dependent+product)
+[sum](https://ncatlab.org/nlab/show/dependent+sum)
+[end](https://ncatlab.org/nlab/show/end)
+[kan](https://ncatlab.org/nlab/show/%28infinity%2C1%29-Kan+extension)
+[interval](https://ncatlab.org/nlab/show/interval+object)
+[identity](https://ncatlab.org/nlab/show/identity-assigning+morphism)
+[partial function](https://ncatlab.org/nlab/show/partial+function#in_terms_of_the_maybe_monad)
+[decalage](https://ncatlab.org/nlab/show/decalage#DecalageComonad)
+[quasicategory](https://ncatlab.org/nlab/show/quasi-category)
+[multicategory](https://ncatlab.org/nlab/show/generalized+multicategory)
 
-[(co)ends](https://ncatlab.org/nlab/show/end#examples)
-[profunctor adjunction](https://ncatlab.org/nlab/show/profunctor#comparing_fibrations_and_cofibrations)
-[double negation](https://ncatlab.org/nlab/show/dependent+linear+type+theory#FundamentalClasses)
-[function algebras](https://ncatlab.org/nlab/show/function+algebras+on+infinity-stacks)
-[free loop space object](https://ncatlab.org/nlab/show/free+loop+space+object)
 
+[monad](https://ncatlab.org/nlab/show/monad)
+[descent](https://ncatlab.org/nlab/show/monadic+descent)
 [monadicity](https://ncatlab.org/nlab/show/monadicity+theorem)
 [monadic adjunction](https://ncatlab.org/nlab/show/monadic+adjunction)
 [idempotence](https://ncatlab.org/nlab/show/idempotent+adjunction)
 [lax idempotence](https://ncatlab.org/nlab/show/lax-idempotent+2-adjunction)
 [relative adjunction](https://ncatlab.org/nlab/show/relative+adjoint+functor)
 
-[monadescent](https://ncatlab.org/nlab/show/monadic+descent#ForCodomainFibs)
+[fibration](https://ncatlab.org/nlab/show/monadic+descent#ForCodomainFibs)
 [fibrance](https://ncatlab.org/nlab/show/category+of+fibrant+objects)
 [tangence](https://ncatlab.org/nlab/show/tangent+%28infinity%2C1%29-category)
 [bar construction](https://ncatlab.org/nlab/show/bar+construction)
 [homotopy coherent nerve](https://ncatlab.org/nlab/show/homotopy+coherent+nerve)
 
-[oriental](https://ncatlab.org/nlab/show/oriental 
+[oriental](https://ncatlab.org/nlab/show/oriental) 
 [omega-nerve](https://ncatlab.org/nlab/show/omega-nerve)
 [realization](https://ncatlab.org/nlab/show/geometric+realization+of+simplicial+topological+spaces)
 [totalization](https://ncatlab.org/nlab/show/totalization)
 [simplicial model](https://ncatlab.org/nlab/show/model+structure+on+cosimplicial+simplicial+sets)
 [copower](https://ncatlab.org/nlab/show/%28%E2%88%9E%2C1%29-limit) 
 [simplex](https://ncatlab.org/nlab/show/simplex)
-[decalage](https://ncatlab.org/nlab/show/decalage#DecalageComonad)
 
 [simplicial localization](https://ncatlab.org/nlab/show/simplicial+localization)
 [simplicial model category](https://ncatlab.org/nlab/show/simplicial+model+category)
 [weak factorization](https://ncatlab.org/nlab/show/weak+factorization+system)
 [semi-simplicial object](https://ncatlab.org/nlab/show/semi-simplicial+object)
+
+[proarrow](https://ncatlab.org/nlab/show/2-category+equipped+with+proarrows)
+[profunctor adjunction](https://ncatlab.org/nlab/show/profunctor#comparing_fibrations_and_cofibrations)
+[double negation](https://ncatlab.org/nlab/show/dependent+linear+type+theory#FundamentalClasses)
+[function algebras](https://ncatlab.org/nlab/show/function+algebras+on+infinity-stacks)
+[free loop space object](https://ncatlab.org/nlab/show/free+loop+space+object)
 
 [nucleus](https://ncatlab.org/nlab/show/nucleus+of+a+profunctor)
 [LT topology](https://ncatlab.org/nlab/show/Lawvere-Tierney+topology)
@@ -49,9 +61,7 @@ This page is currently under construction, and will be far from acceptable quali
 [Chu](https://ncatlab.org/nlab/show/Chu+construction)
 [Bohr](https://ncatlab.org/nlab/show/Bohr+topos)
 
-[quasicategory](https://ncatlab.org/nlab/show/quasi-category)
 [terminal](https://ncatlab.org/nlab/show/terminal+object+in+a+quasi-category)
-[generalized multicategory](https://ncatlab.org/nlab/show/generalized+multicategory)
 [weak enrichment](https://ncatlab.org/nlab/show/weak+enrichment)
 [internalization](https://ncatlab.org/nlab/show/internalization)
 [hypercomplete topos](https://ncatlab.org/nlab/show/hypercomplete+%28infinity%2C1%29-topos)
@@ -61,13 +71,14 @@ This page is currently under construction, and will be far from acceptable quali
 [deduction theorem](https://ncatlab.org/nlab/show/deduction+theorem) 
 [preset](https://ncatlab.org/nlab/show/preset)
 [class](https://ncatlab.org/nlab/show/proper+class)
+[Grothendieck universe](https://ncatlab.org/nlab/show/Grothendieck+universe)
 [tensionality](https://ncatlab.org/nlab/show/type+theory#ExtensionalIntensional)
 
 [category-type](https://ncatlab.org/nlab/show/relation+between+type+theory+and+category+theory)
 [dependent linear tt](https://ncatlab.org/nlab/show/dependent+linear+type+theory)
 [higher inductive type](https://ncatlab.org/nlab/show/higher+inductive+type)
 [six operations](https://ncatlab.org/nlab/show/six+operations)
-[Grothendieck construction](https://ncatlab.org/nlab/show/Grothendieck+construction)
+[Grothendieck construction](https://ncatlab.org/nlab/show/%28infinity%2C1%29-Grothendieck+construction)
 
 
 [coherent-monads](http://arxiv.org/pdf/1310.8279v4.pdf)
@@ -75,3 +86,7 @@ This page is currently under construction, and will be far from acceptable quali
 [stack-semantics](http://arxiv.org/pdf/1004.3802v1.pdf)
 [transversal homotopy](http://arxiv.org/pdf/0910.3322v1.pdf)
 [lax colimits free fibrations](http://arxiv.org/pdf/1501.02161v2.pdf)
+
+[process-reality](http://www.univpgri-palembang.ac.id/perpus-fkip/Perpustakaan/Filsafat/Epistemologi/Whithead/Process%20and%20Reality%20-%20An%20Essay%20in%20Cosmology.pdf)
+[transcendence](http://iml.univ-mrs.fr/~girard/trsy2.pdf)
+[godel-escher-bach](http://www.physixfan.com/wp-content/files/GEBen.pdf)
