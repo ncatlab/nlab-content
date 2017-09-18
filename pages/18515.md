@@ -204,7 +204,7 @@ Existence was shown in
 
 Review and further deveopments are in 
 
-*  [[Igor Khavkine]], [[Valter Moretti]], _Algebraic QFT in Curved Spacetime and quasifree Hadamard states: an introduction_, Chapter 5, Advances in Algebraic Quantum Field Theory, R. Brunetti et al. (eds.), Springer, 2015 ([arXiv:1412.5945](https://arxiv.org/abs/1412.5945))
+*  [[Igor Khavkine]], [[Valter Moretti]], _Algebraic QFT in Curved Spacetime and quasifree Hadamard states: an introduction_, Chapter 5 in [[Romeo Brunetti]] et al. (eds.) _Advances in Algebraic Quantum Field Theory_, Springer, 2015 ([arXiv:1412.5945](https://arxiv.org/abs/1412.5945))
 
 
 [[!redirects Hadamard distributions]]
