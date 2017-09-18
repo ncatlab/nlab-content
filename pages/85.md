@@ -35,7 +35,7 @@ For $\mathcal{C}$ a  $V$-[[enriched category]], write $[\mathcal{C},V]$ for the 
 +-- {: .num_defn #DayConvolutionProduct}
 ###### Definition
 
-For $(\mathcal{C}, \otimes, I)$ a [[small category|small]] [[monoidal category|monoidal]] $V$-[[enriched category]], the _Day convolution product_ on the [[enriched functor category]] $[\mathcal{C},V]$ is the [[functor]]
+For $(\mathcal{C}, \otimes_{\mathcal{C}}, I)$ a [[small category|small]] [[monoidal category|monoidal]] $V$-[[enriched category]], the _Day convolution product_ on the [[enriched functor category]] $[\mathcal{C},V]$ is the [[functor]]
 
 $$
   \otimes_{Day} \;\colon\; [\mathcal{C},V] \times [\mathcal{C},V] \longrightarrow [\mathcal{C},V]
@@ -48,7 +48,7 @@ $$
   \;\colon\;
   c \mapsto
   \int^{c_1, c_2 \in \mathcal{C}}
-  X(c_1) \otimes Y(c_2) \otimes [c_1 \otimes c_2, c]
+   [c_1 \otimes_{\mathcal{C}} c_2, c] \otimes_V X(c_1) \otimes_V Y(c_2) 
   \,.
 $$
 
@@ -59,19 +59,22 @@ We may think of this equivalently as a [[Kan extension]]:
 +-- {: .num_defn #ExternalTensorProduct}
 ###### Definition
 
-For $(\mathcal{C}, \otimes)$ a [[monoidal category|monoidal]] $V$-[[enriched category]], its _[[external tensor product]]_ is the $V$-functor
+For $(\mathcal{C}, \otimes_{\mathcal{C}})$ a [[monoidal category|monoidal]] $V$-[[enriched category]], its _[[external tensor product]]_ is the $V$-functor
 
 $$
-  \tilde \otimes 
-   \coloneqq
-   \;\colon\; [\mathcal{C},V] \times [\mathcal{C},V] \longrightarrow 
-   [\mathcal{C}\times \mathcal{C}, V]
+  \widetilde \otimes_V 
+    \;\colon\; 
+  [\mathcal{C},V] \times [\mathcal{C},V] 
+    \longrightarrow 
+  [\mathcal{C}\times \mathcal{C}, V]
 $$
 
 given by 
 
 $$
-  X \tilde \otimes Y  \coloneqq \otimes \circ (X,Y)
+  X \widetilde \otimes_V Y  
+    \coloneqq 
+  \otimes_V \circ (X,Y)
   \,.
 $$
 
@@ -81,12 +84,12 @@ $$
 +-- {: .num_prop #DayConvolutionViaKanExtensionOfExternalTensorAlongTensor}
 ###### Proposition
 
-The Day convolution product, def. \ref{DayConvolutionProduct}, is equivalently given by left [[Kan extension]] $Lan_\otimes$ (along the tensor product $\otimes$) of the result of the external tensor product, def. \ref{ExternalTensorProduct}: there is a [[natural isomorphism]]
+The Day convolution product, def. \ref{DayConvolutionProduct}, is equivalently given by left [[Kan extension]] $Lan_{\otimes_{\mathcal{C}}}$ (along the tensor product $\otimes_{\mathcal{C}}$) of the result of the external tensor product, def. \ref{ExternalTensorProduct}: there is a [[natural isomorphism]]
 
 $$
   X \otimes_{Day} Y
   \simeq
-  Lan_\otimes (X \tilde \otimes Y)
+  Lan_{\otimes_{\mathcal{C}}} (X \widetilde \otimes_V Y)
   \,.
 $$
 
@@ -97,7 +100,7 @@ This perspective is highlighted in ([MMSS 00, p. 60](#MMSS00)).
 +-- {: .proof}
 ###### Proof
 
-The general formula for pointwise Kan extension via coends ([here](https://ncatlab.org/nlab/show/Kan%20extension#PointwiseByCoEnds)) says that left Kan extension of any $F \colon \mathcal{D} \to V$ along some $p \colon \mathcal{D} \to \mathcal{E}$ is given by 
+The general formula for pointwise Kan extension via coends ([here](Kan%20extension#PointwiseByCoEnds)) says that left Kan extension of any $F \colon \mathcal{D} \to V$ along some $p \colon \mathcal{D} \to \mathcal{E}$ is given by 
 
 $$
   Lan_p F \;\colon\; e \mapsto \int^{d\in \mathcal{D}} \mathcal{E}(p(d), e) \otimes F(d)
@@ -110,22 +113,22 @@ In our case
 
 * $\mathcal{E} = \mathcal{C}$;
 
-* $p = \otimes$;
+* $p = \otimes_{\mathcal{C}}$;
 
-*  $F = X \tilde \otimes X$ 
+*  $F = X \widetilde \otimes_V X$ 
 
 and hence the general formula here becomes
 
 $$
   \begin{aligned}
-    (Lan_{\otimes} X \tilde \otimes Y)(c)
+    (Lan_{\otimes_{\mathcal{C}}} X \widetilde \otimes_V Y)(c)
     & \simeq
     \int^{(c_1,c_2) \in \mathcal{C}\times \mathcal{C}}
-    \mathcal{C}( c_1 \otimes c_2, c ) \otimes ( (X \tilde \otimes Y)(c_1,c_2) )
+    \mathcal{C}( c_1 \otimes_{\mathcal{C}} c_2, c ) \otimes_V ( (X \widetilde \otimes Y)(c_1,c_2) )
     \\
     & \simeq 
     \int^{(c_1,c_2) \in \mathcal{C}\times \mathcal{C}}
-    \mathcal{C}( c_1 \otimes c_2, c ) \otimes ( X(c_1) \otimes Y(c_2) )
+    \mathcal{C}( c_1 \otimes_{\mathcal{C}} c_2, c ) \otimes_V ( X(c_1) \otimes_V Y(c_2) )
   \end{aligned}
   \,.
 $$
@@ -140,11 +143,14 @@ Day convolution $\otimes_{Day}$, def. \ref{DayConvolutionProduct}, is universall
 $$
   [\mathcal{C},V](X \otimes_{Day} Y, Z) 
     \simeq 
-  [\mathcal{C}\times \mathcal{C},V](X \tilde{\otimes} Y, Z \circ \otimes)
+  [\mathcal{C}\times \mathcal{C},V](
+    X \widetilde{\otimes}_V Y, 
+    Z \circ \otimes_{\mathcal{D}}
+  )
   \,,
 $$
 
-where $\tilde \otimes$ is the external product of def. \ref{ExternalTensorProduct}.
+where $\widetilde \otimes_V$ is the external tensor product of def. \ref{ExternalTensorProduct}.
 
 =--
 
@@ -164,62 +170,6 @@ $$
 for the $V$-[[Yoneda embedding]], so that for $c\in \mathcal{C}$ any [[object]], $y(c)$ is the [[representable functor|corepresented functor]] $y(c)\colon c' \mapsto [c,c']$.
 
 
-+-- {: .num_prop #DayConvolutionYieldsMonoidalCategoryStructure}
-###### Proposition
-
-For $(\mathcal{C}, \otimes, I)$ a [[small category|small]] [[monoidal category|monoidal]] $V$-[[enriched category]],
-the Day convolution product $\otimes_{Day}$ of def. \ref{DayConvolutionProduct} makes
-
-$$
-  ( [\mathcal{C}, V], \otimes, y(I))
-$$
-
-a [[closed monoidal category]] with [[tensor unit]] $y(I)$ co-represented by the tensor unit $I$ of $\mathcal{C}$. 
-=--
-
-+-- {: .proof}
-###### Proof
-
-To see that $y(I)$ is the tensor unit for $\otimes_{Day}$, 
-use the [[Fubini theorem]] for [[coends]] and then twice the [[co-Yoneda lemma]] to get for any $X \in [\mathcal{C},V]$ that
-
-$$
-  \begin{aligned}
-     X \otimes_{Day} y(I)
-     & 
-     =
-     \int^{c_1,c_2 \in \mathcal{C}}
-     X(c_1) \otimes [I,c_2] \otimes [c_1\otimes c_2,-]
-     \\
-     & \simeq 
-     \int^{c_1\in \mathcal{C}}
-      X(c_1) 
-         \otimes  
-      \int^{c_2 \in \mathcal{C}}  [I,c_2] \otimes [c_1\otimes c_2,-]
-    \\
-    & \simeq 
-      \int^{c_1\in \mathcal{C}}
-      X(c_1) 
-         \otimes
-      [c_1 \otimes I, -]
-    \\
-    & \simeq 
-      \int^{c_1\in \mathcal{C}}
-      X(c_1) 
-         \otimes
-      [c_1, -]  
-    \\
-    & \simeq
-    X(-)
-    \\
-    & \simeq 
-    X
-  \end{aligned}
-  \,.
-$$
-
-
-=--
 
 
 
@@ -246,56 +196,70 @@ This is claimed without proof in ([Day 70](#Day70)).
 ### Basic properties
  {#BasicProperties}
 
-Let $j \colon C \to PSh(C)$ be the [[Yoneda embedding]]. 
++-- {: .num_prop #DayConvolutionYieldsMonoidalCategoryStructure}
+###### Proposition
 
-+-- {: .num_lemma #DayConvolutionTensorUnitIsYonedaImageOfTensorUnitInSite}
-###### Lemma
+For $(\mathcal{C}, \otimes_{\mathcal{C}}, I)$ a [[small category|small]] [[monoidal category|monoidal]] $V$-[[enriched category]],
+the Day convolution product $\otimes_{Day}$ of def. \ref{DayConvolutionProduct} makes
 
-With $I \in C$ the [[tensor unit]] of $C$, then the presheaf $j(I)$ that it [[representable functor|represents]] is a tensor unit for the Day convolution product.
+$$
+  ( [\mathcal{C}, V], \otimes_{Day}, y(I))
+$$
 
+a [[monoidal category]] with [[tensor unit]] $y(I)$ co-represented by the tensor unit $I$ of $\mathcal{C}$. 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-Using the [[co-Yoneda lemma]] on the two [[coends]] we have
+To see that $y(I)$ is the tensor unit for $\otimes_{Day}$, 
+use the [[Fubini theorem]] for [[coends]] and then twice the [[co-Yoneda lemma]] to get for any $X \in [\mathcal{C},V]$ that
 
 $$
   \begin{aligned}
-    F \star j(I)
-    &  \simeq
-    \int^{c,d \in C}
-    F(c) \times Hom_C(d,I)
-    \times
-    Hom_C(-, c\otimes d)
+     X \otimes_{Day} y(I)
+     & 
+     =
+     \int^{c_1,c_2 \in \mathcal{C}}
+     X(c_1) \otimes_V [I,c_2] \otimes_V [c_1 \otimes_{\mathcal{C}} c_2,-]
+     \\
+     & \simeq 
+     \int^{c_1\in \mathcal{C}}
+      X(c_1) 
+         \otimes_V  
+      \int^{c_2 \in \mathcal{C}}  [I,c_2] \otimes_V [c_1\otimes_{\mathcal{C}} c_2,-]
+    \\
+    & \simeq 
+      \int^{c_1\in \mathcal{C}}
+      X(c_1) 
+         \otimes_V
+      [c_1 \otimes_{\mathcal{C}} I, -]
+    \\
+    & \simeq 
+      \int^{c_1\in \mathcal{C}}
+      X(c_1) 
+         \otimes_V
+      [c_1, -]  
     \\
     & \simeq
-    \int^{c \in C}
-    F(c) \times Hom_C(-, c \otimes I)
+    X(-)
     \\
-    & \simeq
-    \int^{c \in C}
-    F(c) \times Hom_C(-, c)
-    \\
-    & \simeq
-    F(-)
+    & \simeq 
+    X
   \end{aligned}
   \,.
 $$
 
-=--
 
+=--
 
 +-- {: .num_prop}
 ###### Proposition
 
-For $C$ a small [[monoidal category]], regard the [[category of presheaves]] $(PSh(C), \star, j(I))$ as a [[monoidal category]] with tensor product the Day convolution product and unit the unit of $C$ under the [[Yoneda embedding]] $j : C \hookrightarrow PSh(C)$. 
 
-Then
+1. $([\mathcal{C},V], \otimes_{Day}, j(I))$ is a [[closed monoidal category]];
 
-1. $(PSh(C), \star, j(I))$ is a [[closed monoidal category]];
-
-1. the [[Yoneda embedding]] constitutes a strong [[monoidal functor]] $(C,\otimes, I) \hookrightarrow (PSh(C), \star, j(I))$.
+1. the [[Yoneda embedding]] constitutes a strong [[monoidal functor]] $(\mathcal{C},\otimes_{\mathcal{C}}, I) \hookrightarrow ([\mathcal{C},V], \otimes_{Day}, j(I))$.
 
 =--
 
@@ -303,14 +267,17 @@ Then
 ###### Proof
 
 In analogy to the cartesian [[closed monoidal structure on presheaves]]
-we see that if the [[internal hom]] in $PSh(C)$ exists at all, 
-(with $[F,-]$ [[right adjoint]] to $(-) \star F$) then by the [[Yoneda lemma]] it has to be given by
+we see that if the [[internal hom]] in $[\mathcal{C},V]$ exists at all, 
+(with $[-,F]$ [[right adjoint]] to $(-) \otimes_{Day} F$) then by the [[enriched Yoneda lemma]] it has to be given by
 
 $$
   \begin{aligned}
-    [F,G](c) & \simeq Hom_C(j(c), [F,G])
+    [G,F](c) 
+      & \simeq 
+    \mathcal{C}(j(c), [G,F])
     \\
-    &\simeq Hom_C(j(c)\star F, G)
+    &
+    \simeq \mathcal{C}(j(c) \otimes_{Day} G, F)
   \end{aligned}
   \,.
 $$
