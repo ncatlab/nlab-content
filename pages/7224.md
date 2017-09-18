@@ -107,7 +107,7 @@ There are also relative analogues of [[Eilenberg-Moore category|Eilenberg-Moore]
 
 ### relative adjointness generalizes adjointness ###
 
-The concept of relative adjoint functors is a generalization of the concept of adjoint functors: if a functor $R\colon C\to D$ has a left adjoint in the usual sense, then it also has a $J$-left adjoint (since in the above definition we can take $B=D$ and $J=id_D$ the identity functor on $D$).
+The concept of relative adjoint functors is a generalization of the concept of adjoint functors: if a functor $R\colon C\to D$ has a left adjoint in the usual sense, then it also has a $J$-left adjoint for $J=id_D$.
 
 ## Examples ##
 
