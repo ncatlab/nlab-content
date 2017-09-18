@@ -169,9 +169,12 @@ The original article identifying the role of BPS states in supersymmetric field 
 
 * [[Edward Witten]], [[David Olive]], _Supersymmetry algebras that include topological charges_ (2002) ([journal](http://www.sciencedirect.com/science/article/pii/037026937890357X))
 
-Exposition includes
+Exposition and review includes
 
 * [[Andrew Neitzke]], _What is a BPS state?_, 2012 ([pdf](http://www.ma.utexas.edu/users/neitzke/expos/bps-expos.pdf))
+
+* {#Dimofte10} [[Tudor Dimofte]], _Refined BPS invariants, Chern-Simons theory, and the quantum dilogarithm_, 2010 ([pdf](http://thesis.library.caltech.edu/5808/1/DimofteTDofficial.pdf), [web](http://thesis.library.caltech.edu/5808/))
+
 
 Further developments are in
 
