@@ -116,6 +116,10 @@ $M$ is called **semi-free** if it admits a [[filtration]] whose [[associated gra
 =--
 
 
+## Related concepts
+
+* [[KS-model]]
+
 ## References
 
 
