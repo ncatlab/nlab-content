@@ -23,8 +23,8 @@ $$
     \coloneqq
   \left\{
     (a,\infty),
-    (\infty,a)
-  \right\}_{a \n S}
+    (-\infty,a)
+  \right\}_{a \in S}
   \,.
 $$ 
 
@@ -38,7 +38,7 @@ $$
     s \in S \,\vert\, a \lt s
   \right\}
     \phantom{AAAA}
-  (\infty, a)
+  (-\infty, a)
   \coloneqq
   \left\{
     s \in S \,\vert\, s \lt a
