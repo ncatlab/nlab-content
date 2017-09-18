@@ -58,12 +58,15 @@ In the [[AQFT]] approach to [[quantum field theory]] the observables are the ver
 
 ## References
 
-Careful discussion of observables in [[gravity]]/[[general relativity]] is in 
+Careful discussion of local gauge invariant observables in [[gravity]]/[[general relativity]] is in 
 
 
 * {#Khavkine14} [[Igor Khavkine]],  _Local and gauge invariant observables in gravity_, Class. Quantum Grav. 32 185019, 2015 ([arXiv:1503.03754](https://arxiv.org/abs/1503.03754), [CQG+](http://cqgplus.com/2015/09/16/local-and-gauge-invariant-observables-in-gravity/), [pdf slides](http://www.science.unitn.it/~moretti/convegno/khavkine.pdf) for talk at [Operator and Geometric Analysis on Quantum Theory](http://www.science.unitn.it/~moretti/convegno/convegno.html)
 Levico Terme, Italy, September 2014)
 
-Careful discussion of observables in [[gauge theory]] is in 
+showing that, while there are no globally defined local gauge invariant observables, they do exist on an [[open cover]] of the space of field configuration and form something like a [[sheaf]] of observables (but, hence, one without [[global sections]]).
+
+Careful discussion of observables in abelian [[gauge theory]] ([[electromagnetism]]) is in 
 
 * {#BeniniSchenkelSzabo15} [[Marco Benini]], [[Alexander Schenkel]], [[Richard Szabo]], _Homotopy colimits and global observables in Abelian gauge theory_ ([arXiv:1503.08839](http://arxiv.org/abs/1503.08839))
+
