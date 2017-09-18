@@ -26,6 +26,9 @@ Under further embedding $U(n) \hookrightarrow GL(n,\mathbb{C}) \hookrightarrow G
 
 An [[integrability of G-structure|first-order intgrable]] $U(n)$-structure (almost Hermitian manifold) structure is _[[Kähler manifold]]_ structure.
 
+By the fact (see at _[unitary group -- relation to orthogonal, symplectic and general linear group](unitary+group#RelationToOrthogonalSymplecticAndGeneralLinearGroup)_) that $U(n) \simeq O(2n) \underset{GL(2n,\mathbb{R})}{\times} Sp(2n,\mathbb{R}) \underset{GL(2n,\mathbb{R})}{\times} GL(n,\mathbb{C})$ this means that an almost Hermitian structure is precisely a joint [[orthogonal structure]], [[almost symplectic structure]] and [[almost complex manifold]].
+
+
 ## Properties
 
 ### Relation to almost complex structure
