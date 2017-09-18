@@ -29,8 +29,8 @@ An important example of pro-objects in finite-dimensional smooth manifolds are i
 
 ## Pro-Cartesian spaces
 
-> under construction
 
+### Embedding into smooth loci
 
 +-- {: .num_defn #proCartSp}
 ###### Definition
@@ -110,6 +110,12 @@ Here $Ind(i^{op})$ takes formal filtered colimits in $CartSp^{op}$ to the corres
 
 =--
 
+### The site of towers of Cartesian spaces and pro-morphisms
+ {#SiteOfTowersOfCartesianSpaces}
+
+> under construction
+
+
 +-- {: .num_defn #TowersOfCartesianSpaces}
 ###### Definition
 
@@ -152,7 +158,7 @@ The collection of towers of [[good open covers]] on $TowCartSp$, according to de
 +-- {: .proof}
 ###### Proof
 
-By the definition of [[coverage]] (def. \ref{coverage#ConditionsOnACoverage}) we need to check that for every pro-[[good open cover]] $\{U_i \overset{\phi_i}{\to} U\}$ and for every morphism $V \overset{g}{\longrightarrow} U$ in $TowCartSp$, there exists a pro-[[good open cover]] $\{V_j \overset{\psi_j}{\longrightarrow} V\}$ of $V$ such that for each index $j$ we may find an index $i$ and a morphism $V_j \overset{}{\to} U_i$ such as to make a [[commuting diagram]] of the form
+By the definition of [[coverage]] ([def.](coverage#ConditionsOnACoverage)) we need to check that for every tower of [[good open covers]] $\{U_i \overset{\phi_i}{\to} U\}$ and for every morphism $V \overset{g}{\longrightarrow} U$ in $TowCartSp$, there exists a tower of [[good open covers]] $\{V_j \overset{\psi_j}{\longrightarrow} V\}$ of $V$ such that for each index $j$ we may find an index $i$ and a morphism $V_j \overset{}{\to} U_i$ such as to make a [[commuting diagram]] of the form
 
 $$
   \array{
@@ -167,34 +173,101 @@ $$
   \,.
 $$
 
-Now by [this prop.]() the bottom morphism is represented by a sequence of component morphisms
+Now by [this prop.](tower#ProMorphismsBetweenTowerDiagrams) the bottom morphism is represented by a sequence of component morphisms
 
 $$
-  V^{k_s} \overset{}{\longrightarrow} U^k
+  V^{n(k)} \overset{}{\longrightarrow} U^k
+  \,.
 $$
 
 Since ordinary [[good open covers]] do form a [[coverage]] on [[CartSp]] ([prop.](good+open+cover#GoodOpenCoversFormACoverageOnParacompactSmooothManifolds)) each of these component diagrams may be completed
 
 $$
   \array{
-    \tilde V^{k_s}_j &\overset{}{\longrightarrow}& U^k_i
+    \tilde V^{n(k)}_j &\overset{}{\longrightarrow}& U^k_i
     \\
     \downarrow 
       &&
     \downarrow^{\mathrlap{\phi^k_i}}
     \\
-    V^{k_s} &\underset{g^k}{\longrightarrow}& U^k
+    V^{n(k)} &\underset{g^k}{\longrightarrow}& U^k
   }
 $$
 
-by first forming the [[pullback]] [[open cover]] $(g^k)^\ast U^k_i \to V^{k_s}$ and then refining this to a [[good open cover]] $\tilde V^{k_2}_j \to V^{k_s}$. By the [[universal property]] of the [[pullback]], there are morphisms
+by first forming the [[pullback]] [[open cover]] $(g^k)^\ast U^k_i \to V^{n(k)}$ and then refining this to a [[good open cover]] $\tilde V^{n(k)}_j \to V^{n(k)}$. By the [[universal property]] of the [[pullback]], there are morphisms
 
 $$
-  \tilde V^{k_{s+1}} \longrightarrow (g^k)^\ast U^k_i
+  \tilde V^{n(k+1)} \longrightarrow (g^k)^\ast U^k_i
 $$
 
-that make the evident cube commute. Take $V^{k_0}_j \coloneqq \tilde V^{k_0}_j$ and then inductively define $V^{k_{s+1}}_j$ to be a refinement by a good open cover of the joint refinement of $\{\tilde V^{k_{s+1}}_j\}$ with the pullback of $\{V^{k_s}_j\}$ to $V^{k_{s+1}}$.
+that make the evident cube commute 
 
+$$
+  \array{
+    \tilde V^{n(k+1)}_j &\overset{}{\longrightarrow}& U^{k+1}_i
+    \\
+    \downarrow 
+      &&
+    \downarrow^{\mathrlap{\phi^{k+1}_i}}
+    \\
+    V^{n(k+1)} &\underset{g^{k+1}}{\longrightarrow}& U^{k+1}
+  }  
+  \;\;\;\;\;\;\;\;\;\;\;\;
+  \Rightarrow
+  \;\;\;\;\;\;\;\;\;\;\;\;
+  \array{
+    (g^{k})^\ast U_i^k &\overset{}{\longrightarrow}& U^k_i
+    \\
+    \downarrow 
+      &&
+    \downarrow^{\mathrlap{\phi^k_i}}
+    \\
+    V^{n(k)} &\underset{g^k}{\longrightarrow}& U^k
+  }  
+$$
+
+
+Take 
+
+$$
+  V^{n(0)}_j \coloneqq \tilde V^{n(0)}_j
+$$ 
+
+and then inductively define 
+
+$$
+  V^{n(k+1)}_j
+$$ 
+
+to be a refinement by a good open cover of the joint refinement of $\{\tilde V^{n(k+1)}_j\}$ with the pullback of $\{V^{n(k)}_j\}$ to $V^{n(k+1)}$.
+
+This refines the above commuting cubes to
+
+$$
+  \array{
+    V_j^{n(k+1)} &\overset{}{\longrightarrow}& U^{k+1}_i
+    \\
+    \downarrow 
+      &&
+    \downarrow^{\mathrlap{\phi^{k+1}_i}}
+    \\
+    V^{n(k+1)} &\underset{g^{k+1}}{\longrightarrow}& U^{k+1}
+  }  
+  \;\;\;\;\;\;\;\;\;\;\;\;
+  \Rightarrow
+  \;\;\;\;\;\;\;\;\;\;\;\;
+  \array{
+    V_j^{n(k)} &\overset{}{\longrightarrow}& U^k_i
+    \\
+    \downarrow 
+      &&
+    \downarrow^{\mathrlap{\phi^k_i}}
+    \\
+    V^{n(k)} &\underset{g^k}{\longrightarrow}& U^k
+  }  
+$$
+
+and hence provides components for the reuqired diagram in $TowCartSp$.
 
 
 =--
