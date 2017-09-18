@@ -16,11 +16,11 @@
 
 ## Idea
 
-Just like a right $A$-module can be [[tensor product of modules|tensored]] (over $A$) with a left $A$-module to obtain an abelian group, a functor $T : \mathcal{C}^\op \to \mathcal{V}$ can be tensored (over $\mathcal{C}$) with a functor $S : \mathcal{C} \to \mathcal{V}$ to obtain an object of $\mathcal{V}$. Here, $\mathcal{V}$ can be an arbitrary [[monoidal category]]. A simple case is $\mathcal{V} = Set$ with the [[cartesian product]] as monoidal structure.
+Just like a right $A$-module can be [[tensor product of modules|tensored]] (over $A$) with a left $A$-module to obtain an abelian group, a [[functor]] $T : \mathcal{C}^\op \to \mathcal{V}$ can be tensored (over $\mathcal{C}$) with a functor $S : \mathcal{C} \to \mathcal{V}$ to obtain an object of $\mathcal{V}$. Here, $\mathcal{V}$ can be an arbitrary [[monoidal category]]. A simple case is $\mathcal{V} = Set$ with the [[cartesian product]] as monoidal structure.
 
 ## Definition
 
-Let $\mathcal{C}$ be a category. Let $(\mathcal{V},\otimes)$ be a monoidal category. Let $T : \mathcal{C}^\op \to \mathcal{V}$ and $S : \mathcal{C} \to \mathcal{V}$ be functors. Then their tensor product $T \otimes_{\mathcal{C}} S$ is defined (if it exists) as the [[coend]]
+Let $\mathcal{C}$ be a category. Let $(\mathcal{V},{\otimes})$ be a monoidal category. Let $T : \mathcal{C}^\op \to \mathcal{V}$ and $S : \mathcal{C} \to \mathcal{V}$ be functors. Then their tensor product $T \otimes_{\mathcal{C}} S$ is defined (if it exists) as the [[coend]]
 $$ T \otimes_{\mathcal{C}} S \coloneqq \int^c T(c) \otimes S(c). $$
 
 The following slight variation is also important. Let $\mathcal{C}$ be a category. Let $\mathcal{D}$ be a category with all [[coproducts]], so that the [[copower]] $X \cdot d = \coprod_{x \in X} d \in \mathcal{D}$ exists for any set $X$ and any object $d \in \mathcal{D}$. Let $T : \mathcal{C}^\op \to Set$ and $S : \mathcal{C} \to \mathcal{D}$ be functors. Then their tensor product is (if it exists) the coend
