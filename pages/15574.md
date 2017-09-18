@@ -285,7 +285,18 @@ Moreover by assumption, for every object $U\in \mathcal{S}$ there exists a morph
 
 Let $\mathcal{S}$ be a [[cohesive site]] (or [[∞-cohesive site]]) and $\mathbf{H} = Sh(\mathcal{S})$ its [[cohesive topos|cohesive]] [[sheaf topos]] with values in [[Set]] (or $\mathbf{H} = Sh_\infty(S)$ its [[cohesive (∞,1)-topos]] ). 
 
-Then in $\mathbf{H}$ we have Aufhebung, def. \ref{Aufhebung}, of the [[duality of opposites]] of [[becoming]] $\emptyset \dashv \ast$.
+Then in $\mathbf{H}$ we have Aufhebung, def. \ref{Aufhebung}, of the [[duality of opposites]] of [[becoming]] $\emptyset \dashv \ast$ ("[[Dasein]]").
+
+$$
+  \array{
+     \flat &\dashv& \sharp
+     \\
+     \vee &\nearrow& \vee
+     \\
+     \emptyset &\dashv& \ast
+  }
+$$
+
 
 =--
 
