@@ -108,13 +108,19 @@ In [[constructive mathematics]], however, there are many possible *inequivalent*
 1. A subspace $C\subset X$ is closed if it is the complement of an open subspace, i.e. if $C = X\setminus U$ for some open subspace $U$;
 1. A subspace $C\subset X$ is closed if its complement $X\setminus C$ is open;
 1. A subspace $C\subset X$ is closed if it contains all its [[limit points]], i.e. if for any $x\in X$ such that $U\cap C$ is [[inhabited set|inhabited]] for all [[neighborhoods]] $U$ of $x$, we have $x\in C$.
-1. Finally, we can also consider closed sublocales of the locale corresponding to $X$.
 
-Definition (1) coincides with definition (2) or (3) only if excluded middle holds, since under (2) or (3) every subspace of a [[discrete space]] is closed, while under (1) the only closed subspaces are those that are complements, and if every proposition is a negation then the [[law of double negation]] follows.
+Definition (1) coincides with definition (2) or (3) only if excluded middle holds, since under (2) or (3) every subspace of a [[discrete space]] is closed, while under (1) the only closed subspaces are those that are complements, and if every proposition is a negation then the [[law of double negation]] follows.  On the other hand, Definition (2) is clearly too strong, because even [[closed intervals]] $[a,b]$ in the [[real numbers]] can't be proved constructively to satisfy it (though they do satisfy definitions (1) and (3)).  Note also that Definition (1) always implies Definition (3), since if $C = X\setminus U$ and every open neighborhood of $x$ intersects $C$, then $x\notin U$ and thus $x\in C$.  Thus it is not unreasonable (see also below) to define:
 
-Note also that definition (2) is the classical contrapositive of definition (3): $X\setminus C$ is open if for any $x\notin C$ there exists a neighborhood $U$ of $x$ such that $U\cap C = \emptyset$.  This makes it seem unlikely that they are constructively equivalent, but I do not have a specific example.
+* $C\subset X$ is **strongly closed** if it is the complement of an open subspace.
+* $C\subset X$ is **weakly closed** if it contains all its [[limit points]].
 
-Of the first three "topological" definitions, the closest to the localic one is definition (1), since both are defined as a "complement" of some open subspace.  However, in definition (1) we may not have $X = U \cup (X\setminus U)$ even as sets, whereas it remains true constructively that $X = U \cup \mathsf{C}U$ in the lattice of sublocales.  In fact, we have the following:
+This constructive variety of notions of closed subspace gives rise to a corresponding variety of notions of [[Hausdorff space]] when applied to the diagonal subspace.
+
+Note also that neither of the sensible constructive definitions behaves quite like closed subspaces do classically.  In particular, neither of them is apparently stable under finite unions (though the too-strong Definition (2) is).  The situation is better for locales; see below.
+
+### Locales in constructive mathematics
+
+Of the "topological" definitions of closed subspace above, it is "strongly closed" (and the too-strong Definition (2)) that seem closest to the localic one.  However, in the topological definitions we may not have $X = U \cup (X\setminus U)$ or $X = (X\setminus C) \cup C$ even as sets, whereas it remains true constructively that $X = U \cup \mathsf{C}U$ in the lattice of sublocales.  In fact, we have the following:
 
 +-- {: .un_theorem}
 ###### Theorem
@@ -129,7 +135,25 @@ The following are equivalent:
 We remarked above that (1)$\Rightarrow$(2), and of course (2)$\Rightarrow$(3).  So assume (3).  Every spatial sublocale is a union of its points, and in a discrete space points are open; thus if closed sublocales are spatial, they are also open.  Since $X = U \cup \mathsf{C}U$ is constructively true, it follows that every open set is complemented in the open-set lattice of any discrete locale, which is to say that all powersets are [[Boolean algebras]], i.e. excluded middle holds.
 =--
 
-This constructive variety of notions of closed subspace gives rise to a corresponding variety of notions of [[Hausdorff space]] when applied to the diagonal subspace.
+On the other hand, there is a localic notion of *weakly closed sublocale* that is closely related to topologically weakly closed subspaces (so that the above notion of "closed sublocale" --- the formal complement of an open sublocale --- could also be called *strongly closed*).  It is the specialization of the notion of [[fiberwise closed sublocale]] to locale maps $X\to 1$ into the terminal object.
+
++--{: .un_defn}
+###### Definition
+A sublocale $C\subseteq X$ is **weakly closed** if it is not [[strongly dense sublocale|strongly dense]] in any larger sublocale of $X$.  
+=--
+
+Since strong and weak denseness coincide classically, so do strong and weak closedness.  And as we expect, strong closedness implies weak closedness, since strong density implies weak density.  Moreover, both of them are better-behaved than the corresponding topological notions.  For instance, strongly and weakly closed sublocales are both stable under finite unions (in the lattice of sublocales), even constructively.
+
+However, as we saw above, not every strongly closed sublocale (hence not every weakly closed sublocale either) can be spatial.  But it is shown at [[strongly dense sublocale]] that a subspace of a space is localically strongly dense if and only if it is topologically strongly dense.  This leads us to guess:
+
++--{: .un_theorem}
+###### Conjecture
+A subspace $C\subseteq X$ of a (sober) topological space $X$ is topologically weakly closed if and only if it is the spatial coreflection of a weakly closed sublocale.
+=--
+
+In one direction this is easy: suppose $C$ is topologically weakly closed, and let $D$ be its localic weak closure.  This is, by definition, the largest sublocale of $X$ in which $C$ is localically strongly dense.  Now let $E$ be the spatial coreflection of $D$; since $C$ is spatial we have $C\subseteq E$, and since $C$ is localically strongly dense in $D$, it is also so in $E$, and hence topologically strongly dense.  But $C$ is also topologically weakly closed, hence $C=E$ and is the spatial coreflection of the weakly closed sublocale $D$.
+
+The other direction is harder.
 
 
 ## Related concepts
@@ -167,6 +191,20 @@ This constructive variety of notions of closed subspace gives rise to a correspo
 [[!redirects closed set]]
 [[!redirects closed sets]]
 
+[[!redirects weakly closed subspace]]
+[[!redirects weakly closed subspaces]]
+[[!redirects weakly closed subset]]
+[[!redirects weakly closed subsets]]
+[[!redirects weakly closed set]]
+[[!redirects weakly closed sets]]
+
+[[!redirects strongly closed subspace]]
+[[!redirects strongly closed subspaces]]
+[[!redirects strongly closed subset]]
+[[!redirects strongly closed subsets]]
+[[!redirects strongly closed set]]
+[[!redirects strongly closed sets]]
+
 [[!redirects topological closure]]
 [[!redirects topological closures]]
 
@@ -174,6 +212,16 @@ This constructive variety of notions of closed subspace gives rise to a correspo
 [[!redirects closed sublocales]]
 [[!redirects closed nucleus]]
 [[!redirects closed nuclei]]
+
+[[!redirects strongly closed sublocale]]
+[[!redirects strongly closed sublocales]]
+[[!redirects strongly closed nucleus]]
+[[!redirects strongly closed nuclei]]
+
+[[!redirects weakly closed sublocale]]
+[[!redirects weakly closed sublocales]]
+[[!redirects weakly closed nucleus]]
+[[!redirects weakly closed nuclei]]
 
 [[!redirects closed space]]
 [[!redirects closed spaces]]
