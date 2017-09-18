@@ -45,6 +45,8 @@ See also [[pseudo-Riemannian manifold]]
 
 * [[Ricci tensor]], [[scalar curvature]]
 
+* [[conical singularity]]
+
 * [[hyperbolic manifold]]
 
 * [[analytic torsion]]
