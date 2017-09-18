@@ -278,6 +278,10 @@ See also
 
 * Wikipedia, _[Allegory](http://en.wikipedia.org/wiki/Allegory_%28category_theory%29)_
 
+An introduction headed towards applications in computer science and, in particular, fuzzy controllers can be found in
+
+* Michael Winter, _Goguen Categories_ (2007)
+
 
 [[!redirects tabular allegory]]
 [[!redirects union allegory]]
