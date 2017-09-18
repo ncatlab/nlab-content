@@ -21,15 +21,15 @@
 
 [[Tannaka]] duality or _Tannaka [[reconstruction theorem]]s_ are statements of the form:
 
-if $A$ is a symmetry object (e.g. a [[locally compact topological group]], [[Hopf algebra]]), [[representation|represented]] on objects in a [[category]] $D$, one may _reconstruct_ $A$ from knowledge of the [[endomorphism]]s of the forgetful functor -- the **fiber functor** --
+if $A$ is a symmetry object (e.g. a [[locally compact topological group]], [[Hopf algebra]]), [[representation|represented]] on objects in a [[category]] $D$, one may _reconstruct_ $A$ from knowledge of the [[endomorphism]]s of the forgetful functor -- the **[[fiber functor]]** --
 
 $$
   F : Rep_D(A) \to D
 $$
 
-from the [[category]] $Rep_D(A)$ of [[representation]]s of $A$ on [[object]]s of $D$ that remembers these underlying objects. In a generalization, called mixed Tannakian formalism, not a single fiber functor, but a family of fiber functors over different bases is needed for a reconstruction.
+from the [[category]] $Rep_D(A)$ of [[representation]]s of $A$ on [[object]]s of $D$ that remembers these underlying objects. In a generalization, called mixed Tannakian formalism, not a single [[fiber functor]], but a family of [[fiber functors]] over different bases is needed for a reconstruction.
 
-There is a general-abstract and a concrete aspect to this. The general abstract one says that an algebra $A$ is reconstructible from the fiber functor on the category of _all_ its modules. The concrete one says that in nice cases it is reconstructible from the category of _dualizable_ (finite dimensional) modules, even if it is itself not finite dimensional.
+There is a general-abstract and a concrete aspect to this. The general abstract one says that an algebra $A$ is reconstructible from the [[fiber functor]] on the category of _all_ its modules. The concrete one says that in nice cases it is reconstructible from the category of _dualizable_ (finite dimensional) modules, even if it is itself not finite dimensional.
 
 More precisely, let $V$ be any [[enriched category theory|enriching category]] (a [[locally small category|locally small]] [[closed monoidal category|closed]] [[symmetric monoidal category]] with all [[limit]]s). Then 
 
@@ -40,7 +40,7 @@ More precisely, let $V$ be any [[enriched category theory|enriching category]] (
 
    * $A Mod$ the $V$-[[enriched category]] of _all_ $A$-[[module]]s in $V$;
 
-   * $F : A Mod \to V$ the [[forgetful functor|forgetful]] _fiber functor_ ;
+   * $F : A Mod \to V$ the [[forgetful functor|forgetful]] _[[fiber functor]]_ ;
 
    $A$ can be reconstructed as 
    the object of [[enriched functor category|enriched endomorphisms]] of $F$, 
@@ -127,7 +127,7 @@ $$
   \,.
 $$
 
-The canonical inclusion $i : {*} \to \mathbf{B}G$ induces the fiber functor
+The canonical inclusion $i : {*} \to \mathbf{B}G$ induces the [[fiber functor]]
 
 $$
   Func(i,Set) : Rep_{Set}(G) \to Set
@@ -242,7 +242,7 @@ As before, the same proof actually shows the following more general statement
 ###### Theorem
 **(Tannaka duality for $V$-modules over $V$-algebroids)**
 
-Let $C$ be a $V$-[[enriched category]] (a "$V$-[[algebroid]]"). Write $C Mod := [C,V]$ for the $V$-[[enriched functor category]]. For every [[object]] $c \in C$ write $F_c : C Mod \to V $ for the fiber functor that evaluates at $C$. Then we have [[natural isomorphism]]s
+Let $C$ be a $V$-[[enriched category]] (a "$V$-[[algebroid]]"). Write $C Mod := [C,V]$ for the $V$-[[enriched functor category]]. For every [[object]] $c \in C$ write $F_c : C Mod \to V $ for the [[fiber functor]] that evaluates at $C$. Then we have [[natural isomorphism]]s
 
 $$
   hom(F_c, F_{c'}) \simeq C(c,c')
