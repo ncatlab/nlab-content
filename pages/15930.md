@@ -1,0 +1,27 @@
+
+This page collects material related to
+
+* [[Georg Hegel]]
+
+  _The Phenomenology of Spirit_
+
+  1807
+
+  ([Wikipedia entry](http://en.wikipedia.org/wiki/The_Phenomenology_of_Spirit))
+
+## selected passages
+
+in section _[12 Historical and mathematical proof](https://www.marxists.org/reference/archive/hegel/works/ph/phprefac.htm#12)_ of the Preface the following complaint about mathematical proof might be read as being a complaint about the traditional non-[[constructive mathematics|constructive]] concept of proof and about disregard of [[proof relevance]]:
+
+> All the same, while proof is essential in the case of mathematical
+knowledge, it still does not have the significance and nature of being
+a moment in the result itself; the proof is over when we get the
+result, and has disappeared. The process of mathematical proof does not belong to the object; it is a function that takes place outside the matter in hand.
+
+> [footnote 42](https://www.marxists.org/reference/archive/hegel/help/finpref.htm#m042): Mathematical truths are not thought to be known unless proved true. Their demonstrations are not, however, kept as parts of what they prove, but are only our subjective means towards knowing the latter. In philosophy, however, consequences always form part of the essence made manifest in them, which returns to itself in such expressions.
+
+## related Entries
+
+* [[Georg Hegel]], _[[Science of Logic]]_
+
+category: reference
