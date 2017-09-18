@@ -260,13 +260,141 @@ $$
   \,,
 $$
 
-an element of the 3-dimensional [[complex projective space]].
+an element of the 3-dimensional [[complex projective space]], called _twistor space_.
 
 
-Given such a pair, conversely it defines a point in Minkowski spacetime.
+### Twistor space
+
+To discuss twistor space for Minkowski spacetime, it is useful to work more generally with $d$-dimensional Minkowski spacetime for $d \in \{3,4,6,8\}$. If we also use the corresponding irreducible real [[spin representation]] then by the discussion [there](spin+representation#InTermsOfNormedDivisionAlgebraInDimension3To10), these are equivalently 2-component vectors over the real [[normed division algebras]] $\mathbb{K} \in \{\mathbb{R}, \mathbb{C}, \mathbb{H}, \mathbb{O}\}$, respectively. (See also at _[[supersymmetry and division algebra]]_, we follow [Bengtsson-Cederwall 88](#BengtssonCederwall88)).
+
+With this, the vector space underlying $d$-dimensional [[Minkowski spacetime]] $\mathbb{R}^{d-1,1}$ is identified with the space of $2 \times 2$ [[hermitian matrices]] with entries in $\mathbb{K}$
+
+$$
+  \mathbb{R}^{d-1,1} \simeq_{linear} Mat_{2 \times 2}^{hermitian}(\mathbb{K})
+$$
+
+and the [[Minkowski metric]] [[norm]]-square is then identified with the [[determinant]] of matrices:
+
+$$
+  \eta(v,v) = det(v)  \;\;\; v\in \mathbb{R}^{d-1,1} \simeq_{linear} Mat_{2 \times 2}^{hermitian}(\mathbb{K})
+  \,.
+$$
+
+A choice of [[linear basis]] for this space is provided by the [[Pauli matrices]] with coefficients in $\mathbb{K}$, namely the matrices
+
+$$
+  (\Gamma_0^{\dot \alpha \alpha})
+    \coloneqq
+   \left[
+      \array{
+        1 & 0
+        \\
+        0 & -1
+      }
+   \right]
+   \;\;\,,
+   \;\;\;\;
+  (\Gamma_1^{\dot \alpha \alpha})
+    \coloneqq
+   \left[
+      \array{
+        1 & 0
+        \\
+        0 & 1
+      }
+   \right]
+   \;\;\,,
+   \;\;\;\;
+  (\Gamma_{n+1}^{\dot \alpha \alpha})
+    \coloneqq
+   \left[
+      \array{
+        0 & e_n
+        \\
+        \overline{e}_n & 0
+      }
+   \right]
+$$
+
+where $\{e_n\}_{n = 2}^{d}$ are an [[orthonormal basis]] for the elements of $\mathbb{K}$. Here we write 
+
+$$
+  \overline{(-)}
+  \;\colon\;
+  \mathbb{K}
+    \longrightarrow
+  \mathbb{K}
+$$
+
+for the operation of complex conjugation in $\mathbb{K}$, i.e. the $\mathbb{R}$-linear operation which sends the unit $1$ to itself, and sends imaginary elements to their negative.
+
+In terms of this basis then a $d$-component vector $(X^\mu) \in \mathbb{R}^{d-1,1}$ is identified with the hermitian $2 \times 2$ matrix
+
+$$
+  (X^{\dot \alpha \alpha})
+  \;\coloneqq\;
+  (X^\mu \Gamma_\mu^{\dot \alpha \alpha})
+   \;=\;
+  \left[
+    \array{
+      x^0 + x^1 & x^{n} e_n
+      \\
+      x^n \overline{e}_n & x^0 - x^1
+    }
+  \right]
+  \,.
+$$
+
+This presentation of [[Minkowski spacetime]] by $2 \times 2$ hermitian matrices with coefficients in $\mathbb{K}$ makes it very natural to consider also its "$\mathbb{K}$-ification" (hence [[complexification]] in the case that $d = 4$ and $\mathbb{K} = \mathbb{C}$), namely the space of _all_ $2 \times 2$ [[matrices]] with entries in $\mathbb{K}$:
+
+$$
+  \mathbb{K}\mathbb{R}^{d-1,1}
+    \coloneqq
+   Mat_{2\times 2}(\mathbb{K})
+  \,.
+$$
+
+This space carries the operation of [[Hermitian conjugation]]
+
+$$
+  X \mapsto X^\dagger
+$$
+
+as an [[involution]], and ordinary $d$-dimensional Minkowski spacetime is hence the [[fixed point]] set of this involution.
 
 
-### 4d Klein correspondence
+By the discussion [there](spin+representation#InTermsOfNormedDivisionAlgebraInDimension3To10), the Spin-invariant pairing of two real spinors $\psi, \phi \in \mathbb{K}^2$ to a vector $\overline{\psi} \Gamma \phi \in Mat_{2\times 2}^{hermitian}(\mathbb{K})$ is given by ([prop.](spin+representation#RealSpinorPairingsViaDivisionAlg))
+
+$$
+  (\overline{\psi}\Gamma \phi)
+   \coloneqq
+   \psi \phi^\dagger + \phi \psi^\dagger
+  \,.
+$$
+
+In particular the pairing of a spinor $\psi = (\psi_{\dot \alpha})$ with itself is
+
+$$
+  (\psi \psi^\dagger)_{\alpha \dot\alpha}
+  =
+  2
+  \overline{\psi}_\alpha \psi_{\dot \alpha}
+  \,.
+$$
+
+Since, as hermitian matrices, the $2 \times 2$ matrices arising this way are manifestly precisely the projection operators on 1-dimensional linear subspaces of $\mathbb{K}^2$, these are precisely the $2 \times 2$ hermitian matrices with vanishing determinant. Hence the [[lightlike]] vectors in Minkowski spacetime in $d = \{2,3,4,10\}$ are precisely those that arise as the pairing of a chiral spinor with itself.
+
+Lightlike vectors in $\mathbb{R}^{d-1,1}$ are equivalently lightlike [[geodesics]] through the origin. A general lightlike geodesic in $\mathbb{R}^{d-1,1}$ is parameterized by 
+
+$$
+  X^{\dot \alpha \alpha} + t \overline{\psi}_\alpha \psi_{\dot \alpha}
+$$
+
+hence...
+
+
+
+### Klein correspondence
 
 
 A twistor $(\omega^\alpha, \pi_\beta)$ determines a complex [[plane]] in complexified [[Minkowski spacetime]] whose points $(x^i)$ are characterized by the [[equation]]
@@ -373,7 +501,7 @@ Surveys of the resulting modern application of twistors in field theory include
 
 Discussion of twistors in dimensions 3,4,6 and 10 using the [[normed division algebras]] (as in [[supersymmetry and division algebras]]) is in
 
-* [[Ingemar Bengtsson]], [[Martin Cederwall]], _Particles, Twistors and the Division Algebras_, Nucl.Phys. B302 (1988) 81-103 ([spire](http://inspirehep.net/record/247269))
+* {#BengtssonCederwall88} [[Ingemar Bengtsson]], [[Martin Cederwall]], _Particles, Twistors and the Division Algebras_, Nucl.Phys. B302 (1988) 81-103 ([spire](http://inspirehep.net/record/247269))
 
 #### Application to the 6d self-dual 2-form field
  {#ReferencesApplicationToSelfDual2FormField}
