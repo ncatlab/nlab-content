@@ -7,9 +7,9 @@ The term _torsion_ can denote very different concepts:
 
 * In differential geometry of [[curve]]s, the [[torsion of a curve]] is a measure for how the curve tends to spirals out of the plane spanned by its [[tangent vector]] and the first [[derivative]] of that.
 
-* In [[differential geometry]], the [[torsion of a metric connection]] on a [[tangent bundle]] is a measure for how the [[covariant derivative]] differs from the [[Lie bracket]]. More generally there is [[torsion of a Cartan connection]].
+* In [[differential geometry]], the [[torsion of a metric connection]] on a [[tangent bundle]] is a measure for how the [[covariant derivative]] differs from the [[Lie bracket]]. 
 
-  This notion can also be related/generalized to the [[integrability of G-structures]]
+  More generally for [[Cartan connections]] there is [[torsion of a Cartan connection]]. This expresses the [[obstruction]] to [[integrability of G-structures]].
 
 * There is an invariant in [[homotopy theory]] called [[Reidemeister torsion]]; it is related to [[Whitehead torsion]] used in [[surgery theory]]; it is a topological invariant of a manifold which is a sort of nonabelian class, nowadays understood to relate to things like quantum dilogarithm, scissors congruences and geometry of hyperbolic 3-manifolds. Index theory relates in Riemannian geometry, Reidemeister torsion to the [[analytic torsion|analytic]] or [[Ray-Singer torsion]], more recently studied also by Witten by means of Feynman integral methods. 
 
