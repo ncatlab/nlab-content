@@ -99,6 +99,10 @@ Vogt's Lemma plays a key role in the proof of Vogt's theorem (cf. [[homotopy coh
 * [[weak equivalence]]
 
 * **homotopy equivalence**, [[weak homotopy equivalence]]
+  
+  * [[n-equivalence]]
+
+  * [[stable weak homotopy equivalence]]
 
 * [[homotopy equivalence of toposes]]
 
