@@ -6,30 +6,63 @@
 {:toc}
 
 
-## WZW-Terms on infinitesimal Klein geometry 
+## WZW-Terms on infinitesimal Klein geometries
 
-group,
+Given a [[Lie algebra]] $\mathfrak{g}$.
 
-Lie algebra 3-cocycle
+and [[Lie algebra cocycle|Lie algebra 3-cocycle]] $\omega_{WZW}^{\mathfrak{g}} \in \Omega^3_{LI}(\mathfrak{g})$
 
-### Examples
+consider a potential 2-form $B\in \Omega^2(\mathfrak{f})$ [[B-field]] i.e. $\mathbf{d} B = \omega_{WZW}^{\mathfrak{g}}$.
 
-ubiquity of WZW-models
+For $\Sigma$ a 2-dimensional [[manifold]], consider on the space of [[smooth functions]]
+
+$$
+  \phi \colon \Sigma \longrightarrow \mathfrak{g}
+$$
+
+the [[functional]] ("[[action functional]]") 
+
+$$
+   \phi \mapsto \exp(\tfrac{i}{\hbar} \int_{\Sigma}\phi^\ast B )
+$$
+
+taking this as the [[interaction]] term defines a
+a 2-dimension [[sigma-model]] called the [[Wess-Zumino-Witten model]] or WZW model for short. 
+
+
+Ubiquity of WZW-models
 
 * string on group manifold
 
-* chiral part: current algebra in heterotic string
+* chiral part: [[E8]]-[[current algebra]] of the [[heterotic string]] (i.e. the [[GUT]] group in [heterotic model building](string+phenomenology#HeteroticStandardModels))
 
-* Green-Schwarz superstring
+* [[rational conformal field theory]]: the part of [[2d CFT]] theory that has been pretty thoroughly studied with mathematical precision (notably: [[FRS formalism]])
 
-This works in other dimensions, too!
+But in fact as we pass from the [[NSR superstring]] ([[worldsheet]] [[supersymmetry]]) to the [[Green-Schwarz superstring]] ([[target space]] [[supersymmetry]]), then _every_ model is  WZW model
 
-2-cocycle on [[Galilei group]] induces a 1-d WZW model which gives the free non-relativistic massive particle.
+here $\mathfrak{g} = \mathbb{R}^{d-1,1|N}$ [[super translation Lie algebra]], i.e. [[super Minkowski spacetime]] and $\omega_{WZW}$ is a [[super differential form|super 3-form]]
 
-also in higher dimensions: kappa-symmetry for [[Green-Schwarz sigma models]] gives super WZW terms of degree $(p+1)$ whenever there is a $p$-brane in string/M-theory.
+But of course the general idea of WZW models works in other dimensions, too.
 
+Curious: There is a 2-cocycle on [[Galilei group]] induces a 1-d WZW model which gives the jet-space Lagrabgian of the free non-relativistic massive particle. 
+
+[[Green-Schwarz super p-brane sigma models]]:
+
+whenever there is a [[super p-brane]] in [[string theory]]/[[M-theory]] on a [[target spacetime]] of [[dimension]] $d$ with [[supersymmetry]] "number" $N$ (i.e. real [[spin representation]] $N$), then there is a WZW curvature $\omega_{WZW}$ of degree $p+2$ on the [[super-Minkowski spacetime]] $\mathbb{R}^{d-1,1|N}$. 
+
+The viable combinations $(p,d,N)$ are the content of the _[[brane scan]]_, or rather, the [[schreiber:The brane bouquet]]. Quuite a bit of the usual lore of [[M-theory]] is captured this way in [[super Lie algebra|super]] [[Lie algebra cohomology]] ([[super L-infinity algebra]] [[L-infinity algebra cohomology]]) 
+
+finally: often WZW curvature invariant under sub-Lie algebra $\mathfrak{h} \hookrightarrow \mathfrak{g}$. Then defined on quotient $\mathfrak{g}/\mathfrak{h}$.
+
+Indeed, this is precisely what happens for the super-$p$-branes where $\mathfrak{g} = $ [[super Poincaré Lie algebra]] $\mathfrak{iso}(\mathbb{R}^{d-1,1|N})$ and $\mathfrak{h} $ is the [[Lorentz Lie algebra]] $\mathfrak{o}(\mathbb{R}^{d-1,1|N})$ with
+
+$$
+  \mathbb{R}^{d-1,1|N} \simeq \mathfrak{iso}(\mathbb{R}^{d-1,1|N})/\mathfral{o}(\mathbb{R}^{d-1,1|N})
+$$
 
 ## WZW-terms on Klein geometry
+
+
 
 global definitition of action functional requires refining differential forms to [[differential cohomology]]
 
@@ -37,7 +70,7 @@ besides giving a more general definition that the curvature trick, this is also 
 
 often WZW models pass to [[coset]] $G/H$ "coset models" [[gauged WZW models]]
 
-indeed the [[Green-Schwarz action functionals]] are just of this form, since [[super Minkowski spacetime]] is the quotient of the [[super-Poincare group]] by the [[Lorentz group]]
+indeed the [[Green-Schwarz action functionals]] are just of this form, since [[super Minkowski spacetime]] is the quotient of the [[super-Poincaré  group]] by the [[Lorentz group]]
 
 $$
   \mathbb{R}^{d-1,1|N} \simeq Iso(\mathbb{R}^{d-1,1|N})/O(\mathbb{R}^{d-1,1|N})
