@@ -169,7 +169,7 @@ A concise and yet comprehensive and self-contained re-write of the proof ([Quill
 
 * {#Hirschhorn15} [[Philip Hirschhorn]], _The Quillen model category of topological spaces_ ([arXiv:1508.01942](http://arxiv.org/abs/1508.01942)).
 
-For relevant background on [[algebraic topology]] see also ([Aguilar-Gitler-Prieto 02, chapters 1-6](#AguilarGitlerPrieto02)) below. 
+For relevant background on [[algebraic topology]] see also ([Switzer 75](#Switzer75)) and ([Aguilar-Gitler-Prieto 02, chapters 1-6](#AguilarGitlerPrieto02)) below. 
 
 For general [[model category]] theory a decent concise account is in
 
