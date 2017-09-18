@@ -561,6 +561,8 @@ The [[operator K-theory]] of the convolution $C^\ast$-algebra of a [[topological
 
 ## Related concepts
 
+* [[groupoid quantale]] - an analogue of groupoid ring/algebra where free abelian groups/vector spaces are replaced by free [[sup-lattice]]s
+
 * [[noncommutative topology]], [[noncommutative geometry]]
 
   [[KK-theory]]
