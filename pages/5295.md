@@ -27,7 +27,7 @@
 _Intuitionistic mathematics_ (often abbreviated INT) is the earliest full-blown variety of [[constructive mathematics]], done according to the mathematical principles developed by [[L.E.J. Brouwer]] through his philosophy of _intuitionism_.
 
 +--{: .standout}
-This terminology is not consistent across mathematics.  Not infrequently the word "intuitionistic" is used to refer simply to [[constructive mathematics]] in general, or to [[constructive logic]], or to impredicative [[set theory]] done in constructive logic.  This page is about *Brouwer's intuitionism*, which is a specific variety of constructive mathematics that (unlike "neutral" constructive mathematics) uses axioms that contradict [[classical mathematics]].
+Beware that this terminology is not consistent across mathematics.  Not infrequently the word "intuitionistic" is used to refer simply to [[constructive mathematics]] in general, or to [[constructive logic]], or to [[predicative mathematics|impredicative]] [[set theory]] done in constructive logic.  This page is about *Brouwer's intuitionism*, which is a specific variety of constructive mathematics that (unlike "neutral" constructive mathematics) uses axioms that [[contradiction|contradict]] [[classical mathematics]]. For more on this see at _[Terminology](#Terminology)_ below.
 =--
 
 The first main philosophical idea is that mathematical truth (a true statement) can only be attained in one's mind, by carefully arranging one's concepts and constructions in such a way that there remains absolutely no doubt that every aspect of the statement is verified, unambiguously, without reliance on any 'outside' assumption, for instance about the platonic nature of reality. (The [[principle of excluded middle]] is such an assumption, and Brouwer gave mathematical counterexamples to its validity, eventually leading to the foundational crisis in mathematics (Grundlagenstreit) around 1930, and Brouwer's conflict with Hilbert).
@@ -44,6 +44,7 @@ Kleene & Vesley (in _Foundations of Intuitionistic Mathematics_, 1965) offered a
 
 
 ## Terminology
+ {#Terminology}
 
 
 Terminological ambiguity is often present in [[constructive mathematics]] and its varieties. Intuitionistic mathematics (INT) includes [[axioms]] that contradict [[classical logic]]; but people in non-foundational disciplines often use "intuitionistic" to mean roughly the same as "[[constructive|constructive mathematics]]" (say: mathematics without the [[principle of excluded middle]], usually with computational/algorithmic content and some restriction on impredicativity, but nothing added that contradicts classical mathematics).  
