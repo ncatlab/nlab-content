@@ -84,6 +84,9 @@ The following references discuss aspects of the Kac-Moody [[exceptional geometry
 * [[Hermann Nicolai]], _Infinite dimensional symmetries_ (2009) ([pdf](http://www.itp.uni-hannover.de/~lechtenf/Events/Lectures/nicolai.pdf))
 
 * [[Paul Cook]], _Connections between Kac-Moody algebras and M-theory_ PhD thesis ([arXiv:0711.3498](http://arxiv.org/abs/0711.3498))
+
+* Daniel Persson, Nassiba Tabti, _Lectures on Kac-Moody Algebras with
+Applications in (Super-)Gravity_ ([pdf](http://www.ulb.ac.be/sciences/ptm/pmif/Rencontres/KMModaveLectures2007.pdf))
  
 
 [[!redirects Kac-Moody algebras]]
