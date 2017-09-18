@@ -179,7 +179,7 @@ Surveys of the discussion of E-series [[Kac-Moody algebras]]/[[Kac-Moody groups]
 
 * Sophie de Buyl, _Kac-Moody Algebras in M-theory_, PhD thesis ([pdf](http://theses.ulb.ac.be/ETD-db/collection/available/ULBetd-06072006-153117/unrestricted/kmalgebrasinmth.pdf))
 
-* Paul Cook, _Connections between Kac-Moody algebras and M-theory_ PhD thesis ([arXiv:0711.3498](http://arxiv.org/abs/0711.3498))
+* [[Paul Cook]], _Connections between Kac-Moody algebras and M-theory_ PhD thesis ([arXiv:0711.3498](http://arxiv.org/abs/0711.3498))
 
 ### Cohomological considerations
 
