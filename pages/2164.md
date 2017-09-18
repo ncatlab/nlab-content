@@ -25,7 +25,7 @@
 
 ## Idea 
 
-An _infinitesimal quantity_ is supposed to be a quantity that is infinitely small in size, yet not necessarily perfectly small (zero).  An _infinitesimal space_ is supposed to be a space whose extension is infinitely small, yet not necessarily perfectly small (pointline). 
+An _infinitesimal quantity_ is supposed to be a quantity that is infinitely small in size, yet not necessarily perfectly small (zero).  An _infinitesimal space_ is supposed to be a space whose extension is infinitely small, yet not necessarily perfectly small (pointlike). 
 
 Infinitesimal objects have been conceived and used in one way or other for a long time, notably in [[algebraic geometry]], where [[Grothendieck]] emphasized the now familiar role of [[duality|formal dual]]s ([[affine scheme]]s) of commutative rings $R$ with nilpotent ideals $J\subset R$ as _infinitesimal thickenings_ of the formal dual of the quotient ring $R/J$.
 
@@ -231,7 +231,7 @@ to the [[generalized smooth algebra]] $C^\infty(\mathbb{R})/J^2$ obtained as the
 smooth functions on the real line modulo squares of functions that vanish at the origin.
 
 +-- {: .num_defn}
-###### Definition (the $1$-dimensional infinitesimal space)
+###### Definition (the 1-dimensional infinitesimal space)
 
 In the context of [[generalized smooth algebra]], the $1$-dimensional infinitesimal
 space is the space $D$ whose function algebra is the quotient 
@@ -730,7 +730,7 @@ where
       \,,
     $$  
 
-    where $tilde e$ is obtained from $e$ by replacing each $\epsilon_{i}^j$ 
+    where $\tilde e$ is obtained from $e$ by replacing each $\epsilon_{i}^j$ 
     it contains with $\epsilon_{i+1}^j$.
 
 =--
@@ -746,7 +746,7 @@ and the face maps identify one of these:
 <img src="http://ncatlab.org/nlab/files/3simplex_facemaps.jpg" width = "550"/>.
 
 
-Now oberserve that under the dual [[Dold-Kan correspondence]] the _normalized cochain complex_ of this cosimplicial algebra is, up to isomorphism, the complex that in degree $k$ has the joint [[kernel]] of the co-degeneracy maps.
+Now observe that under the dual [[Dold-Kan correspondence]] the _normalized cochain complex_ of this cosimplicial algebra is, up to isomorphism, the complex that in degree $k$ has the joint [[kernel]] of the co-degeneracy maps.
 But by the above remarks, this joint kernel is precisely 
 
 $$
