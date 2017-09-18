@@ -31,7 +31,7 @@ The _coherence theorem for [[monoidal categories]]_, like many [[coherence theor
 
 1. Every monoidal category is equivalent to an [[unbiased monoidal category]].
 
-1. The forgetful 2-functor $MonCat \to StrMonCat$ has a strict [[left adjoint]] and the components of the unit are equivalences in $MonCat$.
+1. The forgetful 2-functor $StrMonCat \to MonCat$ has a strict [[left adjoint]] and the components of the unit are equivalences in $MonCat$.
 
 ## Proofs
 
