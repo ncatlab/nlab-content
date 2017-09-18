@@ -255,18 +255,466 @@ Such a structure _[[presheaf]]_ of [[groupoids]] is a common joint generalizatio
 ##### Definition
  {#SmoothGroupoids}
 
+
++-- {: .num_remark }
+###### Remark
+**on how not to define smooth groupoids**
+
+One could be tempted to define smooth groupoids to be [[internal groupoids]] in [[smooth sets]]. Restricting this definition to groupoids internal to [[diffeological spaces]] yields the concept of _[[diffeological groupoid]]_, restricting it further to groupoids internal to [[smooth manifolds]] yields the concept of _[[Lie groupoid]]_. While these are respectable definitions in themselves, care needs to be exercized in interpreting them correctly: they do _not_ in themselves exhibit the correct [[homotopy theory]] of smooth groupoids. One may of course fix this by changing the concept of [[morphisms]] to generalized morphisms called _[[Morita morphisms]]_ or _[[bibundles]]_. These are certainly useful tools for working with smooth groupoids, and they serve to present their correct homotopy theory, but they do not serve well as the definition of this homotopy theory. For instance without further insight it is rather impossible to guess form the concept of [[bibundles]] between groupoids its correct generalization to [[smooth 2-groupoids]] etc.
+
+But just as the definition of [[smooth sets]], contrasted with that of [[smooth manifolds]], is not only more powerful but also _simpler_, so there is a definition of smooth groupoids which not only does give the correct homotopy theory, but it does so while being much more transparent than these more traditional presentations.
+
+Now, this definition, given below, amounts to saying that smooth groupoids are stacks on the site of smooth manifolds, and that in turn may tend to not sound like a simple definition at all. But there is a further simplification at work. Traditional texts tend to define stacks in terms of the comparatively intricate structures of [[pseudofunctors]] or (dually under the [[Grothendieck construction]]) [[fibered categories]] satisying [[descent]], and the rich structure of these combinatorial objects tends to become unwieldy already for fairly simple examples. But the theory of [[localization]] of categories turns out to handle the same theory of stacks by much more tractable means (e.g. [Hollander 01](stack#Hollander01)). Here a stack is _presented_ by a plain functor with no [[descent]] condition imposed, something that is hence as simple as a pair of two presheaves. The nature of stacks is then instead just encoded in remembering that some of the morphisms of presheaves of groupoids are to be labeled as [[weak equivalences]], namley those that locally restrict to equivalences of groupoids. 
+
+This style of definition combines the simplicity of the naive definition of Lie groupoids with the full power of [[homotopy theory]], and it immediately generalizes to a definition of [[∞-stacks]] which is just as simple, hence, in the present contex, to a definition of [[smooth ∞-groupoid]].
+
+=--
+
+###### Pre-smooth groupoids
+ {#PreSmoothGroupoids}
+
+
 +-- {: .num_defn }
 ###### Definition
 
-Write [[Grpd]]${}_1$ for the [[category]] of [[groupoids]] and [[functors]] between them. Write then
-
-$$
-  gPsh(CartSp) \coloneqq Funct(CartSp^{op}, Grpd)
-$$
-
-for the [[category]] of [[groupoid]]-valued [[presheaves]].
+Write [[CartSp]] for the [[category]] of [[Cartesian spaces]] $\mathbb{R}^n$, $n \in \mathbb{N}$, with [[smooth functions]] between them. (The [[full subcategory]] of [[SmoothMfd]] on the Cartesian spaces.) Regard this as a [[site]] by equipping it with the [[coverage]] of (differentiably) [[good open covers]].
 
 =--
+
+For more on this see at _[[geometry of physics -- coordinate systems]]_.
+
+
+In view of the [[motivation for sheaves, cohomology and higher stacks]] and in direct [[analogy]] with the discussion at _[[geometry of physics -- smooth sets]]_, just replacing [[sets]] by [[groupoids]] throughout, we set:
+
++-- {: .num_defn #PreSmoothGroupoid}
+###### Definition
+
+A _pre-smooth groupoid_ $X$ is a [[presheaf]] of [[groupoids]] on [[CartSp]], hence a [[functor]]
+
+$$
+  X \colon CartSp^{op} \longrightarrow Grpd
+$$
+
+from [[CartSp]] to the [[1-category]] [[Grpd]].
+
+
+=--
+
++-- {: .num_remark #YonedaIntuition}
+###### Remark
+
+The intuition for def. \ref{PreSmoothGroupoid} is the following: a smooth structure on a groupoid is to be determined by which maps from abstract [[coordinate systems]] $\mathbb{R}^n$ into it are to be regarded as smooth maps. Since, by its groupoidal nature, two such maps may be related by a smooth [[homotopy]]/[[gauge transformation]] (in physics: "twisted sectors"), the collection of all smooth functions from $\mathbb{R}^n$  into the smooth groupoid $X$ is itself a bare groupoid. We here _define_ a pre-smooth groupoid as something that assigns to each abstract coordinate systems a groupoid of would-be smooth maps into it
+
+"$X(\mathbb{R}^n) = \left\{ \array{
+     & \nearrow \searrow^{\mathrlap{smooth}}
+     \\
+    \mathbb{R}^n
+    &\Downarrow&
+    X
+    \\
+    & \searrow \nearrow_{\mathrlap{smooth}}
+ } \right\}$"
+
+We sometimes therefore speak of $X(\mathbb{R}^n)$ as the groupoid of _plots_ or of _probes_ of $X$ (which here is only defined by these!) by $n$-dimensional coordinate systems.
+
+=--
+
+The [[Yoneda lemma]] will turn this intuition into a theorem. For that we need to speak of [[homomorphisms]] of pre-smooth groupoids, hence of "smooth functors" betwen pre-smooth groupoids.
+
++-- {: .num_defn #HomGroupoidsOfPreSmoothGroupoids}
+###### Definition
+
+A [[homomorphism]] or _smooth map_ between pre-smooth groupoids is a [[natural transformation]] between the [[presheaves]] that they are. We write  
+
+$$
+  PreSmooth1Type
+  \coloneqq
+  Funct(CartSp^{op}, Grpd)
+$$ 
+
+for the [[functor category]], the _[[category]] of pre-smooth groupoids_, def. \ref{PreSmoothGroupoid}, regarded naturally as a [[Grpd]]-[[enriched category]].
+
+This means that for $X,Y \in PreSmooth1Type$ two pre-smooth groupoids, then the bare [[hom-groupoid]] 
+
+$$
+  PreSmooth1Type(X,Y)_\bullet
+  \in 
+  Grpd
+$$
+
+betweem them has 
+
+* as [[objects]] the [[natural transformations]] $f \colon X \to Y$ between $X$ and $Y$ regarded as [[functors]], hence collections $\{f(\mathbb{R}^n)\}_{n \in \mathbb{N}}$ of [[functors]] between [[groupoids]] of probes
+
+  $$
+     f(\mathbb{R}^n) \colon X(\mathbb{R}^n) \longrightarrow Y(\mathbb{R}^n)
+  $$
+
+  such that for every [[smooth function]] $\phi \colon \mathbb{R}^{n_1} \to \mathbb{R}^{n_2}$ between abstract coordinate charts, these form a (stricly) [[commuting diagram]] with the probe-pullback functors of $X$ and $Y$:
+
+  $$
+    \array{
+       X(\mathbb{R}^{n_1}) &\overset{f(\mathbb{R}^n)}{\longrightarrow}& Y(\mathbb{R}^{n_1})
+       \\
+       {}^{\mathllap{X(\phi)}}\downarrow && \downarrow^{\mathrlap{Y(\phi)}}
+       \\
+       X(\mathbb{R}^{n_2}) &\overset{f(\mathbb{R}^n)}{\longrightarrow}& Y(\mathbb{R}^{n_2})       
+    }
+    \,;
+  $$
+
+* as [[morphisms]] $H \colon f \rightarrow g$ the "[[modifications]]" of these, hence collections $H(\mathbb{R}^n) \colon f(\mathbb{R}^n)\to g(\mathbb{R}^n)$ of [[natural transformations]], such that for every [[smooth function]] $\phi \colon \mathbb{R}^{n_1} \to \mathbb{R}^{n_2}$ the [[whiskering]] of these satisfies
+
+  $$
+    \array{
+       X(\mathbb{R}^{n_1})
+       \\
+       \downarrow^{\mathrlap{X(\phi)}}
+       \\
+       & \nearrow \searrow^{\mathrlap{f(\mathbb{R}^{n_2})}}
+       \\
+       X(\mathbb{R}^{n_2})
+       &\Downarrow^{H(\mathbb{R}^{n_2})}&
+       Y(\mathbb{R}^{n_2})
+       \\
+       & \searrow \nearrow_{\mathrlap{g(\mathbb{R}^{n_1})}}
+    }
+    \;\;\;
+    =
+    \;\;\;
+    \array{
+       & \nearrow \searrow^{\mathrlap{f(\mathbb{R}^{n_1})}}
+       \\
+       X(\mathbb{R}^{n_1})
+       &\Downarrow^{H(\mathbb{R}^{n_1})}&
+       Y(\mathbb{R}^{n_1})
+       \\
+       & \searrow \nearrow_{\mathrlap{g(\mathbb{R}^{n_1})}}
+       \\
+       && \downarrow^{\mathrlap{Y(\phi)}}
+       \\
+       && Y(\mathbb{R}^{n_2}) 
+    }
+  $$
+ 
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Despite the size of the diagrams in def. \ref{HomGroupoidsOfPreSmoothGroupoids}, what they encode is immediate: this just says that smooth maps between pre-smooth groupoids take all probes of $X$ by abstract coordinate charts to probes of $Y$ by these charts, and gauge transformations between these to gauge transformations between those, in a way that it compatible with changing probes along smooth maps.
+
+=--
+
+
+The following is the [[Yoneda lemma]] in this context, and it says that this intuition in remark \ref{YonedaIntuition} is fully correct:
+
+
++-- {: .num_prop #YonedaForPreSmoothGroupoids}
+###### Proposition
+
+Every [[Cartesian space]] $\mathbb{R}^n$ defines a pre-smooth groupoid $\underline{\mathbb{R}}^n$, def. \ref{PreSmoothGroupoid}, by the assinment
+
+$$
+  \underline{\mathbb{R}}^n \colon \mathbb{R}^k  \mapsto C^\infty(\mathbb{R}^k, \mathbb{R}^n)
+   \in 
+  Set
+  \hookrightarrow
+  Grpd
+$$
+
+where the [[set]] of [[smooth functions]] on the right is regarded as a [[groupoid]] with only [[identity]] morphism. This construction constitutes a [[fully faithful functor]]
+
+$$
+  \underline{(-)}
+  \colon
+  CartSp \hookrightarrow PreSmooth1Type
+$$
+
+making [[CartSp]] a [[full subcategory]] of that of pre-smooth groupoids (the [[Yoneda embedding]]).
+Under this embedding for any pre-smooth groupoid $X\in PreSmooth1Type$ and any Cartesian space $\mathbb{R}^n$, there is a [[natural equivalence]] of [[groupoids]]
+
+$$
+  PreSmooth1Type(\underline{\mathbb{R}}^n, X)
+  \simeq
+  X(\mathbb{R}^n)
+$$
+
+(the [[Yoneda lemma]] proper).
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The last statement of the [[Yoneda lemma]] in prop. \ref{YonedaForPreSmoothGroupoids} expresses just the intuition of remark \ref{YonedaIntuition} and justifies to remove the quotation marks displayed there. It also justifies dropping the extra underline denoting the [[Yoneda embedding]]. We will freely identify from now on $\mathbb{R}^n$ with the pre-smooth groupoid that it represents.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+For $X$ a [[smooth set]] (e.g. a [[smooth manifold]]), hence in particular a functor
+
+$$
+  X \colon CartSp^{op} \to Set
+$$
+
+then its embedding into groupoids
+
+$$
+  X \colon CartSp^{op} \to Set \hookrightarrow Grpd
+$$
+
+is a pre-smooth groupoid.
+
+=--
+
+In fact these will be smooth groupoids proper. To define these, we first need the following
+
++-- {: .num_example #ExternalYonedaEmbeddingsIntoPreSmooth1Type}
+###### Example
+
+Let 
+
+$$
+  \mathcal{G}_\bullet
+  = 
+  \left\{
+    \mathcal{G}_1
+      \stackrel{\overset{s}{\longrightarrow}}{\stackrel{\overset{i}{\longleftarrow}}{\underset{t}{\longrightarrow}}}
+    \mathcal{G}_0
+  \right\}
+$$ 
+
+be an [[internal groupoid]] in [[smooth sets]], hence a pair $\mathcal{G}_0, \mathcal{G}_1 \in Smooth0Type$ of smooth sets, equipped with source,target, identity homomrophisms of smooth sets between them, and equipped with a compatibly unital, associative and invertible composition map $\mathcal{G}_1 \overset{\times}{\mathcal{G}_0} \mathcal{G}_1 \to \mathcal{G}_1$. By definition of [[smooth sets]], this means that for every abstract coordinate system $\mathbb{R}^n$ then 
+
+$$
+  \mathcal{G}(\mathbb{R}^n)_\bullet
+  = 
+  \left\{
+    \mathcal{G}(\mathbb{R}^n)_1
+      \stackrel{\overset{s(\mathbb{R}^n)}{\longrightarrow}}{\stackrel{\overset{i(\mathbb{R}^n)}{\longleftarrow}}{\underset{t(\mathbb{R}^n)}{\longrightarrow}}}
+    \mathcal{G}(\mathbb{R}^n)_0
+  \right\}
+$$ 
+
+is a bare [[groupoid]]. Moreover, this assignment is functorial and hence defines a pre-smooth groupoid
+
+$$
+  \mathbb{R}^n 
+  \mapsto
+  \mathcal{G}(\mathbb{R}^n)_\bullet
+  \,.
+$$
+
+For instance for $G$ a [[Lie group]], we write $\mathbf{B}G \in Grpd(Smooth0Type)$
+for the Lie groupoid which 
+
+$$
+  (\mathbf{B}G)_\bullet
+  =
+  \left(
+     G \stackrel{\longrightarrow}{\stackrel{\overset{i}{\longleftarrow}}{\longrightarrow}}
+    \ast
+  \right)
+$$
+
+whose composition is the product operation in the group (the groupoidal [[delooping]] of $G$).
+
+
+This exhibits sequence of [[full subcategory]] inclusions
+
+$$
+  Grp
+  \hookrightarrow
+  LieGrpd
+  \hookrightarrow
+  DiffGrpd
+  \hookrightarrow
+  Grpd(Smooth0Type)
+  \hookrightarrow
+  PreSmooth1Type
+$$
+
+of [[internal groupoids]] in [[smooth sets]] into pre-smooth groupoids, and hence (by further restriction) also of [[diffeological groupoids]], of [[Lie groupoids]] and of course of just bare [[groupoids]], too. 
+
+Regarding a bare groupoid $\mathcal{G}_\bullet$ as a pre-smooth groupoid this way means to regard it as equipped with [[discrete object|discrete]] [[smooth structure]]. It is given by the [[constant presheaf]]
+
+$$
+  \mathbb{R}^n \mapsto \mathcal{G}_\bullet
+$$
+
+exhibiting the fact that smooth functions from an $\mathbb{R}^n$ into a geometrically discrete space are constant on one of the points of this space, a situation which here is only refined by the fact that every morphism in the groupoid thus gives a [[homotopy]]/[[gauge transformation]] between the two smooth functions that are constant on the two endpoints of this morphism.
+
+=--
+
+
+
+More specifically, the following class of examples plays a special role in the theory, as the encode what it takes for a pre-smooth groupoid to be a genuinely smooth groupoid.
+
++-- {: .num_example #GroupoidOfCover}
+###### Example
+
+For $X$ a [[smooth manifold]], let $\{U_i \to X\}_{i \in I}$ be an [[open cover]] of $X$. Its _[[Cech groupoid]]_ is the [[Lie groupoid]] ([[diffeological groupoid]]) $C(\{U_i\})_\bullet$ whose
+
+* manifold of objects is $C(\{U_i\})_0 \coloneqq \underset{i \in I}{\coprod} U_i$ is the [[disjoint union]] of all the [charts]] of the cover;
+
+* manifold of morphisms is $C(\{U_i\})_1 \coloneqq  \underset{i,j \in I}{\coprod}U_i \underset{X}{\times} U_j$ is the [[disjoint union]] of all [[intersections]] of charts.
+
+and whose source, target and identity maps are the evident inclusions. There is then a _unique_ composition operation.
+
+So a global point $\ast \to C(\{U_i\})_\bullet$ may be thought of as a pair $(x,i)$ of a point in the manifold $X$ and a lable $i$ of a chart $U_i$ that contains it, and there is is precisely one morphism between two such global point $(x,i)\to (y,j)$ whenever $x = y$ in $X$ and both $U_i$ as well as $U_j$ contain $x$, hence one morphism for each point in an intersection of two patches. Composition of morphism is just re-remembering which intersections they sit in, the schematic picture of the Cech groupoid is this this:
+
+$$
+  C(\{U_i\})_\bullet
+  =
+  \left\{
+    \array{
+      && (x,j)
+      \\
+      & \nearrow && \searrow
+      \\
+      (x,i)
+      && \longrightarrow &&
+      (x,k)
+    }
+  \right\}
+  \,.
+$$
+
+Under the embedding of example \ref{ExternalYonedaEmbeddingsIntoPreSmooth1Type} there is an evident morphism of pre-smooth groupoids
+
+$$
+  C(\{U_i\})
+  \longrightarrow
+  X
+$$
+
+from this Cech groupoid of the cover to the manifold that is being covered. This morphism simply forgets the information of which chart or intersection of charts a point is regarded to be in, and just remembers it as a point of $X$. 
+
+$$
+  ((x,i) \to (x,j))
+  \mapsto
+  (x \stackrel{id_x}{\to} x)
+  \,.
+$$
+
+=--
+
++-- {: .num_prop #CechCoyclesAsSmoothMaps}
+###### Proposition
+
+
+Let $X$ a [[smooth manifold]], $\{U_i \to X\}$ an [[open cover]]
+and $C(\{U_i\})$ the corresponding Cech groupoid, def. \ref{GroupoidOfCover}.
+Let $G$ be a [[Lie group]] and $\mathbf{B}G$ its groupoidal [[delooping]] according to example \red{ExternalYonedaEmbeddingsIntoPreSmooth1Type}.
+
+Then the hom-groupoid $PreSmooth1Type(C(\{U_i\}), \mathbf{B}G)$ of maps from $C(\{U_i\})$ to $\mathbf{B}G$, def. \ref{HomGroupoidsOfPreSmoothGroupoids},
+has
+
+* as [[objects]] the [[Cech cohomology|Cech cocycles]] of degree 1 on $X$ relative to the cover and with values in $G$; i.e. collections of smooth functions
+
+  $$
+    g_{ i j} \colon U_i \underset{X}{\times} U_j \longrightarrow G
+  $$
+
+  satisfying on each triple intersection the cocycle condition
+
+  $$
+    g_{i j} g_{j k} = g_{i k}
+  $$
+
+* as [[morphisms]] the [[coboundaries]] between such cocycles $\{g_{i j}\}$ and $\{\tilde g_{j k}\}$, hence  collections of smooth functions 
+
+  $$
+    h_{i} \colon U_i \longrightarrow G
+  $$
+
+  such that on each intersection of charts
+
+  $$
+    g_{i j} h_j  = h_i \tilde g_{i j}
+    \,.
+  $$
+
+In particular the [[connected components]] of the Hom-groupoid is hence the [[Cech cohomology]] itself:
+
+$$ 
+  \pi_0
+  PreSmooth1Type(C(\{U_i\}), \mathbf{B}G)
+  \simeq
+  H^1_{Cech}(X,\{U_i\}; G)
+  \,.
+$$
+
+=--
+
+###### Smooth groupoids proper
+ 
+
+The "bootstrap"-definition of pre-smooth groupoids [above](#PreSmoothGroupoids) works as intended, by prop. \ref{YonedaForPreSmoothGroupoids}, it just needs to be restricted now to something a little less general. The issue is that while this definition consistently identifies a smooth-structure-to-be by what its possible smooth probes are, it does not enforce yet the consistent _gluing_ of probes:
+
+for $X$ a pre-smooth groupoid, then given a probe of it of the form $\sigma \colon \mathbb{R}^n \to X$ and given a [[covering]] $\{U_i \to \mathbb{R}^n\}$ of the probe space by other probe spaces $U_i \simeq \mathbb{R}^n$, then it should be possible to reconstruct $\sigma$ from knowing its restrictions $\sigma_{|U_i}\colon U_i \to X$ to these charts, and the information of how these are identified by gauge transformations on double overlaps.
+
+Such a system of local data and of gauge identification on double overlaps is just what maps out of the Cech groupoid $C(\{U_i\})$, def. \ref{GroupoidOfCover}, encode. This is shown by prop. \ref{CechCoyclesAsSmoothMaps} for the case that $X$ is of the form $\mathbf{B}G$, but this is already the archetypical case. 
+
+In other words, the condition that smooth probes of $X$ by coordinate charts $\mathbb{R}^n$ glue along covers $\{U_i \to \mathbb{R}^n\}$ of these charts is the condition that the groupoid of smooth maps out of $\mathbb{R}^n$ itself
+
+$$
+  \mathbb{R}^n \longrightarrow X
+$$
+
+is equivalent to the groupoid of maps out of the Cech groupoid of any cover
+
+$$
+  C(\{U_i\}) \longrightarrow X
+$$
+
+and is so via the "restriction" map that takes the former and precomposes it with the canonical map $C(\{U_i\}) \to X$.
+
+$$
+  \array{
+    C(\{U_i\}) &\longrightarrow& X
+    \\
+    \downarrow & \nearrow
+    \\
+    X
+  }
+  \,.
+$$
+
+
++-- {: .num_defn }
+###### Definition
+
+A pre-smooth groupoid $X \in PreSmooth1Type$, def. \ref{PreSmoothGroupoid}, is a genuine _smooth groupoid_ if for all $n \in \mathbb{N}$ and for all differentiably [[good open covers]] $\{U_i \to \mathbb{R}^n\}$ of the $n$-dimensional abstract [[coordinate chart]], the functor
+
+$$
+  X(\mathbb{R}^n) \simeq PreSmooth1Type(\mathbb{R}^n, X)
+  \longrightarrow
+  PreSmooth1Type(C(\{U_i\}),X)
+$$
+
+given by pre-composition with $C(\{U_i\}) \to X$, is an [[equivalence of groupoids]].
+
+We write
+
+$$
+  Smooth1Type
+  \hookrightarrow
+  PreSmooth1Type
+$$
+
+for the [[Grpd]]-[[enriched category|enriched]] [[full subcategory]] on the genuine smooth groupoiids.
+
+=--
+
+This is called the _[[stack]] [[property]]_. It generalizes the [[sheaf]] property discussed for [[smooth sets]]. (In fact by embedding pre-smooth sets into pre-smooth groupoids, the fact that there the concept of Cech groupoid is available gives this neat equivalent reformulation of the sheaf condition as usually given more in components.)
+
+This property is not enjoyed by all pre-smooth groupoids. Indeed, this property that pre-composition with a morphism $A \to B$ gives an equivalence of hom-objects $Hom(B,X)\to Hom(A,X)$ for all $X$ is satisfied precisely by the [[isomorphisms]] ([[equivalences]]). But the morphism $C(\{U_i\}) \to X$ is in general far from being an isomorphism of pre-smooth groupoids: unless the cover contains a trivial chart that covers all of $X$, then there is _no_ smooth map back from $X$ to $C(\{U_i\})$. The idea of enforcing the stack condition by [[localization]] is to _force_ these maps to become equivalences. 
+
+(... notation needs to be harmonized for the following ...)
 
 +-- {: .num_defn }
 ###### Definition
