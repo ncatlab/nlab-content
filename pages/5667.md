@@ -221,7 +221,7 @@ On the other hand, at least between $C^\ast$-algebras which are [[algebras of fu
 +-- {: .num_prop #KasparovProductIsAssociative}
 ###### Proposition
 
-The Kasparov product, def. \ref{KasparovProduct}, is [[associativity|associtative]]. Thus under the Kasparov product
+The Kasparov product, def. \ref{KasparovProduct}, is [[associativity|associative]]. Thus under the Kasparov product
 
 $$
   KK(-,-) \;\colon\; C^\ast Alg \times C^\ast Alg \to C^\ast Alg
