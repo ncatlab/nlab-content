@@ -59,11 +59,12 @@ The method is due to
 
 It has been applied in detail to [[quantum electrodynamics]] in
 
-* {#Scharf95} [[Günter Scharf]], _Finite Quantum Electrodynamics: The Causal Approach_, Berlin: Springer-Verlag, 1995, 2nd edition
+* {#Scharf95} [[Günter Scharf]], _[[Finite Quantum Electrodynamics -- The Causal Approach]]_, Berlin: Springer-Verlag, 1995, 2nd edition
 
-and to general [[gauge theories]] in 
+and to [[quantum chromodynamics]] and perturbative [[quantum gravity]] in 
 
-* [[Günter Scharf]], Quantum gauge theories: a true ghost story, Wiley, New York 2001. 
+* {#Scharf01} [[Günter Scharf]], _[[Quantum Gauge Theories -- A True Ghost Story]]_, Wiley 2001
+
 
 The observation that the method naturally leads to [[locally covariant perturbative quantum field theory]] is due to 
 
