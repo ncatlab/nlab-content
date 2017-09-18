@@ -33,9 +33,9 @@ A **dense subtopos** is a [[subtopos]] $i:\mathcal{E}_j\hookrightarrow \mathcal{
 
 ### Relation to double-negation topology
 
-For any topos $\mathcal{E}$, its [double negation topology](double+negation#DoubleNegationTopology) gives the smallest dense subtopos.
+For any topos $\mathcal{E}$, its [double negation topology](double+negation#DoubleNegationTopology) gives the smallest dense subtopos. This agrees with the situation for [[locales]] but contrasts with [[topological space|topological space]] where, in general, smallest dense subspaces do not exist.
 
-+-- {: .num_prop }
++-- {: .num_prop #smallest_dense_subtopos}
 ###### Proposition
 $\mathcal{E}_{\not \not} \hookrightarrow \mathcal{E}$ is the smallest [[dense subtopos]].
 =--
@@ -76,7 +76,7 @@ This is the _[[(dense,closed)-factorization]]_.
 
 ### Relation to Aufhebung
 
-Notice that, since the [[localization]] $L$ corresponding to a subtopos is necessarily a [[left exact functor]], all subtoposes necessarily contain the [[terminal object]] $\ast$ of the ambient topos. Moreover, the [[idempotent comonad]] and [[idempotent monad]] constant on the [[initial object]] and [[terminal object]], respectively, are [[adjoint functor|adjoint]] to each other (forming an [[adjoint modality]]). Denoting by "$\vee$" the inclusion of [[modal objects]], then the general situation for any subtopos localized on by $L$ is depicted by
+Notice that, since the [[localization]] $L$ corresponding to a subtopos is by definition a [[left exact functor]], all subtoposes necessarily contain the [[terminal object]] $\ast$ of the ambient topos. Moreover, the [[idempotent comonad]] and [[idempotent monad]] constant on the [[initial object]] and [[terminal object]], respectively, are [[adjoint functor|adjoint]] to each other (forming an [[adjoint modality]]). Denoting by "$\vee$" the inclusion of [[modal objects]], then the general situation for any subtopos localized on by $L$ is depicted by
 
 $$
   \array{
@@ -89,9 +89,13 @@ $$
   \,.
 $$ 
 
-In view of this, the subtopos being dense says that not only $\ast$, but this whole [[adjoint modality]] that it partipates in sits inside the subtopos. [[Lawvere]] had proposed to call this situation (**resolution** of, or a special minimal version of it,) _[[Aufhebung]]_ of the [[unity of opposites]] expressed by $(\emptyset \dashv \ast)$ ("[[becoming]]"). In other words, for an [[level| essential subtopos]] _being dense is equivalent to resolve_ $\emptyset \dashv \ast$ in the Hegelian calculus of [[level|levels]]!
+In view of this, the subtopos being dense says that not only $\ast$, but this whole [[adjoint modality]] that it partipates in sits inside the subtopos. [[Lawvere]] had proposed to call this situation **resolution** or (a special minimal version of it) _[[Aufhebung]]_ of the [[unity of opposites]] expressed by $\emptyset \dashv \ast$ ("[[becoming]]").
 
-E.g. [Kennett-Riehl-Roy-Zaks (2011)](#KRRZ11) show that in the topos $Set^{\mathcal{G}^{op}}$ of reflexive [[globular sets]] all subtoposes are essential and correspond to dimensional truncations. Then [[level]] $n+1$ is the Aufhebung of $n$ starting from $\emptyset\dashv\ast$ at level $0$. As in general, the Aufhebung $\bar{i}$ of a level $i$ resolves all the levels that $i$ resolves, in $Set^{\mathcal{G}^{op}}$ _all_ subtoposes (above 0) resolve $\emptyset\dashv\ast$ and therefore are dense! Contrast this with the case of a **Boolean topos** which has only itself as a (trivial) dense subtopos (cf. at [[Boolean topos]]).
+In other words, for an [[level| essential subtopos]] _being dense is equivalent to resolve_ $\emptyset \dashv \ast$ in the Hegelian calculus of [[level|levels]]!
+
+E.g. [Kennett-Riehl-Roy-Zaks (2011)](#KRRZ11) show that in the [[gros topos]] $Set^{\mathcal{G}^{op}}$ of reflexive [[globular sets]] all subtoposes are essential and correspond to dimensional truncations. Then [[level]] $n+1$ is the Aufhebung of $n$ starting from $\emptyset\dashv\ast$ at level $0$. In general, the Aufhebung $\bar{l}$ of a level $l$ resolves all the levels that $l$ resolves. Therefore in $Set^{\mathcal{G}^{op}}$ _all_ subtoposes (above 0) resolve $\emptyset\dashv\ast$ and hence are _dense_! Contrast this with the case of a **Boolean topos** which has only itself as a (trivial) dense subtopos[^proof]. 
+
+[^proof]: This follows easily from the above [proposition](#smallest_dense_subtopos): cf. at [[Boolean topos]].
 
 ## Related pages
 
