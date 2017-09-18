@@ -29,6 +29,7 @@ An __$E_\infty$-ring__ is a [[commutative monoid in an (∞,1)-category|commutat
 This means that an $E_\infty$-ring is an [[A-∞ ring]] that is commutative up to [[coherence|coherent]] [[higher homotopies]]. $E_\infty$-rings are the analogue in [[higher algebra]] of the [[commutative rings]] in ordinary [[algebra]].
 
 In terms of [[model categories]], and $E_\infty$-rings may be modeled as ordinary [[commutative monoids]] with respect to the [[symmetric monoidal smash product of spectra]] -- [[highly structured ring spectra]], a fact sometimes referred to as "[[brave new algebra]]".
+For details see _[[Introduction to Stable homotopy theory]]_, _[[Introduction to Stable homotopy theory -- 1-2|Part 1-2 -- Structured spectra]]_.
 
 ## Properties
 
