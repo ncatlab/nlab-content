@@ -442,4 +442,6 @@ as shown in
 [[!redirects L-∞ algebra extension]]
 [[!redirects L-∞ algebra extensions]]
 
+[[!redirects L-infinity algebra extension]]
+[[!redirects L-infinity algebra extensions]]
 
