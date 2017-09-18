@@ -71,7 +71,7 @@ $$
   \,.
 $$
 
-Notice that by further [[reduction of the structure group|reduction]] along the [[maximal compact subgroup]] inclusion of the [[unitary group]] this yields explicitly a unitary/hermitean vector bundle structure
+By further [[reduction of the structure group|reduction]] along the [[maximal compact subgroup]] inclusion of the [[unitary group]] this yields an [[almost Hermitian structure]]
 
 $$
   \array{
