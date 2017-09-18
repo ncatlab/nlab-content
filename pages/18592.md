@@ -36,6 +36,9 @@ However, since on a general [[globally hyperbolic spacetime]] there is no global
 
 ## References
 
+
+* Stephen J. Summers, _Yet More Ado About Nothing: The Remarkable Relativistic Vacuum State_ ([arXiv:0802.1854] (http://xxx.uni-augsburg.de/abs/0802.1854))
+
 * {#BrumFredenhagen13} Marcos Brum, [[Klaus Fredenhagen]], _"Vacuum-like" Hadamard states for quantum fields on curved spacetimes_ ([arXiv:1307.0482](https://arxiv.org/abs/1307.0482))
 
 
