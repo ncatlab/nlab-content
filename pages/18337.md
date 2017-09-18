@@ -1,5 +1,8 @@
-An informal term, usually synonymous with [[operation]], whose being and remaining _undefined_ is the very point of its usefulness: it is a useful catch-all, avoiding terms like [[function]] or [[map]] which are 
+Usually an undefined, informal term, and usually synonymous with [[operation]]. 
+Its being undefined is often the reason for its usefulness: it can serve a useful catch-all, avoiding terms like [[function]] or [[map]] which are 
 
 * usually precisely defined within a given context, 
 
-* sometimes not what one means to say.
+* sometimes not what one means to say. 
+
+Usually, any conception of a _container_ for all the assignments one uses is _irrelevant_, but it is nevertheless useful to have nouns for these assignments available.
