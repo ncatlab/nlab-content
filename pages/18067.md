@@ -86,7 +86,7 @@ $$
     Sym_R(\Sigma^n R)
     & \simeq
     R \wedge \left(
-      \underset{k \in \mathbb{N}}{\coprod} S^k/\Sigma(k)
+      \underset{k \in \mathbb{N}}{\coprod} S^{n k}/\Sigma(k)
     \right)_+
     \\
     & \simeq 
