@@ -144,7 +144,7 @@ Formal geometry is closely related also to the [[rigid analytic geometry]].
 
 ### 1-Dimensional formal groups 
 
-A basuc introduction is in
+A basic introduction is in
 
 * Carl Erickson, _One-dimensional formal groups_ ([pdf](http://people.brandeis.edu/~cwe/pdfs/formal_groups.pdf))
 
