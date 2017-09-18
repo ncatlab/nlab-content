@@ -15,13 +15,13 @@
 
 ### Motivation
 
-The basic principle of [[homotopy theory]] happens to be well familiar, just in slight disguise, in [[physics]]: it is the [[gauge principle]]. This we explain in 
+The basic principle of [[homotopy theory]] happens to be well familiar in [[physics]], just in slight disguise: it is the _[[gauge principle]]_. This we explain in 
 
 * _[Motivation from physics: The gauge principle](#TheGaugePrinciple)_.
 
-The historical route in [[mathematics]] that lead to modern [[homotopy theory]] so happens to run via the study of [[ordinary cohomology]] and [[ordinary homology]] ([[singular hoomology]]) of [[topological spaces]], structures that happen to recognize of a topological space only the [[homotopy type]] that it _represents_ via the [[singular simplicial complex]] construction. This traditional route we recall in 
+The historical route in [[mathematics]] that lead to modern [[homotopy theory]] so happens to run via the study of [[ordinary cohomology]] and [[ordinary homology]] ([[singular homology]]) of [[topological spaces]], structures that happen to recognize of a topological space only the [[homotopy type]] that it _represents_ via the [[singular simplicial complex]] construction. This traditional route we recall in 
 
-* _[Motivation from topological](#SimplicialHomology)_.
+* _[Motivation from topologogy: Singular homology](#SimplicialHomology)_.
 
 While standard and traditional, this story hides a bit how utmost fundamental the principles of [[homotopy theory]] are and tends to misleadingly suggest that homotopy theory is a sub-topic of [[topology]]. Contrary to that, inspection of the [[foundations of mathematics]] reveals the foundational nature of homotopy theory. This we indicate in 
 
@@ -108,9 +108,151 @@ More motivation and exposition along these lines is at _[[schreiber:Higher field
  {#SimplicialHomology}
 
 
-This section discusses how the "abelianization" of a topological space by _[[nLab:singular chains]]_ gives rise to the notion of _[[nLab:chain complexes]]_ and their _[[nLab:homology]]_.
+This section recalls how the "abelianization" of a [[topological space]] by _[[nLab:singular chains]]_ gives rise to the notion of _[[nLab:chain complexes]]_ and their _[[nLab:homology]]_.
 
-Above in def. \ref{SingularSimplex} we saw that to a [[nLab:topological space]] $X$ is associated a sequence of sets 
+This proceeds in three steps: given a [[topological space]], first one passes to the collection of [[simplices]] in it (the curves, triangles, tetrahedra, ...) which together form a _[[simplicial set]]_. Then one "linearizes" this by forming the [[free abelian groups]] on the simplices to obtain a [[simplicial abelian group]]. Finally one turns the resulting [[simplicial abelian group]] into a [[chain complex]]. 
+
+Below in _[Dold-Kan correspondence](#DoldKanCorrespondence)_ we see that this last step is an [[equivalence of categories|equivalent reformulation]], and that from any chain complex (in non-negative degree) one may re-obtain the [[simplicial abelian group]] that it corresponds to. Further below in _[Kan complexes](#KanComplexes)_ we see that (forgetting the group structure on these), these are _[[Kan complexes]]_ and as such objects in [[simplicial homotopy theory]]. This we then turn to further below in _[Simplicial homotopy theory](#SimplicialHomotopyTheory)_.
+
+
+##### Singular simplicial set
+ {#SingularSimplicialSet}
+
+
++-- {: .num_defn #TopologicalSimplex}
+###### Definition
+
+For $n \in \mathbb{N}$, the **[topological n-simplex](http://ncatlab.org/nlab/show/simplex#TopologicalSimplex)** is, 
+up to [[nLab:homeomorphism]], the [[nLab:topological space]] whose underlying set is
+the subset
+
+$$
+  \Delta^n \coloneqq 
+  \{
+    \vec x \in \mathbb{R}^{n+1}
+    |
+    \sum_{i = 0 }^n x_i = 1 \; and \;
+    \forall i . x_i \geq 0 
+  \}
+  \subset \mathbb{R}^{n+1}
+$$
+
+of the [[nLab:Cartesian space]] $\mathbb{R}^{n+1}$, and whose topology is the  [[nLab:subspace topology]] induces from the canonical topology in $\mathbb{R}^{n+1}$.
+
+=--
+
++-- {: .num_example}
+###### Example
+
+For $n = 0$ this is the [[nLab:point]], $\Delta^0 = *$.
+
+For $n = 1$ this is the standard [[nLab:interval object]] $\Delta^1 = [0,1]$.
+
+For $n = 2$ this is the filled triangle.
+
+For $n = 3$ this is the filled tetrahedron.
+
+=--
+
+
++-- {: .num_defn #FaceInclusionInBarycentricCoords}
+###### Definition
+
+For $n \in \mathbb{N}$, $\n \geq 1$ and $0 \leq k \leq n$, the 
+**$k$th $(n-1)$-face (inclusion)**  of the topological $n$-simplex, def. \ref{TopologicalSimplex}, is the subspace inclusion
+
+$$
+  \delta_k : \Delta^{n-1} \hookrightarrow \Delta^n
+$$
+
+induced under the coordinate presentation of def. \ref{TopologicalSimplex},
+by the inclusion 
+
+$$
+  \mathbb{R}^n \hookrightarrow \mathbb{R}^{n+1}
+$$
+
+which "omits" the $k+1$st canonical coordinate:
+
+$$
+  (x_1, \cdots , x_n) \mapsto (x_1, \cdots, x_{k-1} , 0 , x_k, \cdots, x_n)
+  \,.
+$$
+
+=--
+
++-- {: .num_example}
+###### Example
+
+The inclusion 
+
+$$
+  \delta_0 : \Delta^0 \to \Delta^1
+$$ 
+
+is the inclusion
+
+$$
+  \{1\} \hookrightarrow [0,1]
+$$ 
+
+of the "right" end of the standard interval. The other inclusion 
+
+$$
+  \delta_1 : \Delta^0 \to \Delta^1
+$$ 
+
+is that of the "left" end $\{0\} \hookrightarrow [0,1]$.
+
+=--
+
++-- {: .num_defn #DegeneracyProjectionsInBarycentricCoords}
+###### Definition
+
+For $n \in \mathbb{N}$ and $0 \leq k \leq n$ the **$k$th degenerate $(n)$-simplex (projection)** is the surjective map
+
+$$
+  \sigma_k : \Delta^{n} \to \Delta^{n-1}
+$$
+
+induced under the barycentric coordinates of def. \ref{TopologicalSimplex} under the surjection
+
+$$
+  \mathbb{R}^{n+1} \to \mathbb{R}^n
+$$
+
+which sends
+
+$$
+  (x_0, \cdots, x_n) \mapsto (x_0, \cdots, x_{k} + x_{k+1}, \cdots, x_n)
+  \,.
+$$
+
+=--
+
++-- {: .num_defn #SingularSimplex}
+###### Definition
+
+For $X \in $ [[nLab:Top]]  and $n \in \mathbb{N}$, a **singular $n$-simplex** in $X$ is a [[nLab:continuous map]]
+
+$$
+  \sigma : \Delta^n \to X
+$$
+
+from the topological $n$-simplex, def. \ref{TopologicalSimplex}, to $X$.
+
+Write 
+
+$$
+  (Sing X)_n \coloneqq Hom_{Top}(\Delta^n , X)
+$$ 
+
+for the set of singular $n$-simplices of $X$.
+
+=--
+
+
+So to a [[nLab:topological space]] $X$ is associated a sequence of sets 
 
 $$
   (Sing X)_n \coloneqq Hom_{Top}(\Delta^n, X)
@@ -281,6 +423,8 @@ $$
 It turns out that that [[nLab:homotopy type]] of the topological space $X$ is entirely captured by its singular simplicial complex $Sing X$ (this is the content of the _[[nLab:homotopy hypothesis]]-theorem_).  
 
 =--
+
+##### Singular chain complex
 
 Now we [[nLab:abelian group|abelianize]] the singular simplicial complex $(Sing X)_\bullet$ in order to make it _simpler_ and hence more tractable.
 
@@ -8517,6 +8661,8 @@ The basic example is the [[nerve]] $N(C) \in sSet$ of an ordinary [[groupoid]] $
 
 #### Simplicial homotopy theory
  {#SimplicialHomotopyTheory}
+
+[[simplicial homotopy theory]]
 
 ### **Semantic layer**
 
