@@ -24,7 +24,22 @@ If $V$ is an [[inner product space]], then the [[orthogonal complement]] defines
 
 * [[flag variety]], [[Schubert variety]]
 
+* [[Stiefel manifold]]
+
 * [[coset space]]
 
+
+
+## References
+
+Textbook accounts include
+
+* {#Kochmann96} [[Stanley Kochmann]], section 1.3 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
+
 category: geometry, algebra
+
 [[!redirects Grassmannians]]
+
+
+[[!redirects Grassmannian manifold]]
+[[!redirects Grassmannian manifolds]]
