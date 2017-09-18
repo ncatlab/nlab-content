@@ -971,6 +971,9 @@ Generalization to [[supergeometry]] is discussed in:
 
 * Gijs M. Tuynman, _Geometric Quantization of Superorbits: a Case Study_ ([arXiv:0901.1811](http://arxiv.org/abs/0901.1811))
 
+* Alexander Alldridge, Joachim Hilgert, Tilmann Wurzbacher, _Superorbits_ ([arXiv:1502.04375](https://arxiv.org/abs/1502.04375))
+
+
 A generalization to [[higher geometry]] and [[2-group]] [[2-representations]] is proposed in 
 
 * [[Bruce Bartlett]], _On unitary 2-representations of finite groups and topological quantum field theory_ ([arXiv:0901.3975](http://arxiv.org/abs/0901.3975))
