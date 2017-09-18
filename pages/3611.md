@@ -229,7 +229,7 @@ This is ([BergerMoerdijk, prop. 4.3](#BergerMoerdijkHomotopy)).
 +-- {: .num_remark }
 ###### Remark
 
-The relebance of this is in section [Homotopy algebras](#HomotopyAlgebras): this property enters the proof of the statement that the [[model structure on algebras over an operad]] over a $\Sigma$-cofibrant resolution is already Quillen equivalent to that of a full cofibrant resolution.
+The relevance of this is in section [Homotopy algebras](#HomotopyAlgebras): this property enters the proof of the statement that the [[model structure on algebras over an operad]] over a $\Sigma$-cofibrant resolution is already Quillen equivalent to that of a full cofibrant resolution.
 
 Many resolutions of operads that appear in the literature are in fact just $\Sigma$-cofibrant.
 
