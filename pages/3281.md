@@ -123,7 +123,9 @@ If $A$ is an [[Eilenberg-MacLane spectrum]], then this identifies the correspond
 This is ([Schwede-Shipley 03, theorem 5.1.6](#SchwedeShipley03)).
 
 
+## Related concepts
 
+* [[linear model category]]
 
 
 
