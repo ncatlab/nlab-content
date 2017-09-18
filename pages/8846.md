@@ -14,13 +14,13 @@ Let $R$ be a commutative ring, and let $A$ be an $n \times n$ matrix with entrie
 ###### Proof 
 We may as well take $R$ to be the polynomial ring $\mathbb{Z}[a_{i j}]_{1 \leq i, j \leq n}$, since we are then free to interpret the indeterminates $a_{i j}$ however we like along a ring map $\mathbb{Z}[a_{i j}] \to R$. Let $A$ denote the corresponding generic matrix. 
 
-Guided by Cramer's rule, put 
+Guided by Cramer's rule (see [[determinant]]), put 
 
 $$\tilde{A}_{j i} = \det(a_1, \ldots, e_i, \ldots a_n),$$ 
 
 the $a_i$ being columns of $A$ and $e_i$, the column vector with $1$ in the $i^{th}$ row and $0$'s elsewhere, appearing as the $j^{th}$ column. If we pretend $A$ is invertible, then we know $A \tilde{A} = \det(A) \cdot I_n = \tilde{A} A$ by Cramer's rule. We claim this holds for general $A$. 
 
-Indeed, we can interpret this as a polynomial equation in $\mathbb{C}[a_{i j}]$ and check it there. As an equation between polynomial functions on the space of matrices $A \in Mat_n(\mathbb{C}) = Spec(\mathbb{C}[a_{i j}])$, it holds on the dense subset $GL_n(\mathbb{C}) \hookrightarrow Mat_n(\mathbb{C})$. Therefore, by continuity, it holds on all of $Mat_n(\mathbb{C})$. But a polynomial function equation with coefficients in $\mathbb{C}$ implies the corresponding polynomial identity, and the proof is complete. 
+Indeed, we can interpret this as a [[polynomial]] equation in $\mathbb{C}[a_{i j}]$ and check it there. As an equation between polynomial functions on the space of matrices $A \in Mat_n(\mathbb{C}) = Spec(\mathbb{C}[a_{i j}])$, it holds on the dense subset $GL_n(\mathbb{C}) \hookrightarrow Mat_n(\mathbb{C})$. Therefore, by continuity, it holds on all of $Mat_n(\mathbb{C})$. But a polynomial function equation with coefficients in $\mathbb{C}$ implies the corresponding polynomial identity, and the proof is complete. 
 =-- 
 
 
@@ -44,7 +44,7 @@ i.e., $\det(t \cdot I_n - A) \cdot v_i = 0$ for each $i$. Since the $v_i$ form a
 
 The Cayley-Hamilton theorem easily generalizes to finitely generated $R$-modules (not necessarily free) as follows. Let $f \colon V \to V$ be a module endomorphism, and suppose $\pi \colon R^n \to V$ is an epimorphism. Since $R^n$ is projective, the map $f \circ \pi$ can be lifted through $\pi$ to a map $A \colon R^n \to R^n$. Let $P(t)$ be the characteristic polynomial of $A$. 
 
-+-- {: .num_prop}
++-- {: .num_prop #lem}
 ###### Proposition 
 $P(f) = 0$. 
 =-- 
@@ -63,19 +63,18 @@ Suppose $V$ is a finitely generated $R$-module, and $g \colon V \to V$ is a modu
 
 +-- {: .proof} 
 ###### Proof 
-For some finite $n \geq 0$, we have a surjective map $R^n \to M$, and by hypothesis we have a surjective map $I^n \to im(g)$ in 
+For some finite $n \geq 0$, we have a surjective map $p: R^n \to V$, and by hypothesis we have a surjective map $I^n \to im(g)$ in 
 
 $$\array{
- & & & & I^n \\
- & & & & \downarrow \\
-R^n & \to & M & \stackrel{g}{\to} & im(g)
+ & & & & I^n & \hookrightarrow & R^n \\
+ & & & & \downarrow & & \downarrow _\mathrlap{p} \\
+R^n & \stackrel{p}{\to} & V & \stackrel{g}{\to} & im(g) & \hookrightarrow & V 
 }$$
 
-By projectivity of $R^n$, we can lift the bottom composite to a map $R^n \to I^n$ making the diagram commute. Let $A$ be the $R$-module map $R^n \to I^n \hookrightarrow R^n$, regarded as a matrix. Then the characteristic polynomial of $A$ satisfies the conclusion, by the Cayley-Hamilton theorem. 
+By projectivity of $R^n$, we can lift $g \circ p$ to a map $R^n \to I^n$ making the diagram commute. Let $A$ be the $R$-module map $R^n \to I^n \hookrightarrow R^n$, regarded as a matrix. Then the characteristic polynomial of $A$ satisfies the conclusion, by the Cayley-Hamilton theorem and Proposition \ref{lem}. 
 =-- 
 
-+-- {: .num_prop}
-{#surj} 
++-- {: .num_prop #surj}
 ###### Proposition 
 Let $V$ be a finitely generated module over a commutative ring $R$, and let $f \colon V \to V$ be a surjective module map. Then $f$ is an isomorphism. 
 =-- 
@@ -96,13 +95,18 @@ for all $v \in V$, which translates into saying that $1_V = -\sum_i b_i(f) f$, i
 
 ## Examples
 
-* Characteristoc polynomials of [[Frobenius homomorphisms]] acting via [[Galois representations]] constitute [[Artin L-functions]].
+* Characteristic polynomials of [[Frobenius homomorphisms]] acting via [[Galois representations]] constitute [[Artin L-functions]].
 
-## Referemces
+## References
 
 The proof of the Cayley-Hamilton theorem follows the treatment in 
 
 * Serge Lange, _Algebra_ ($3^{rd}$ edition), Addison-Wesley, 1993. 
+
+The proof of Proposition \ref{surj} on surjective endomorphisms of finitely generated modules was extracted from 
+
+* Stacks Project, Commutative Algebra, section 15 ([pdf](http://math.columbia.edu/algebraic_geometry/stacks-git/algebra.pdf))
+
 
 [[!redirects Cayley-Hamilton theorem]]
 
