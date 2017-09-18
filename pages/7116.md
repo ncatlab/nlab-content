@@ -115,6 +115,7 @@ $$
 
 These standard absolute values are archimedean, and with respect to these standard absolute values, both $\mathbb{R}$ and $\mathbb{C}$ are [[complete field|complete]] and hence are complete [[archimedean valued fields]]. Notice that $\mathbb{R}$ is in addition an [[ordered field]] and as such also an [[archimedean field]].
 
+Similar norms exist on the [[quaternions]] and [[octonions]].
 
 ### On the rational numbers
 
