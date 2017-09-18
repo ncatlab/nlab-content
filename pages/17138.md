@@ -1111,11 +1111,11 @@ For instance ([Aguilar-Gitler-Prieto 02, chapters 7,8 and 12](#AguilarGitlerPrie
 
 #### Cobordism theory
 
-For instance ([Rudyak 98](#Rudyak98))
+For instance ([Freed 13](#Freed13))
 
 [[cobordism theory]]
 
-* [[Pontrjagin-Thom construction]]
+* [[Pontrjagin-Thom collapse map]]
 
 * [[Thom isomorphism]]
 
@@ -1196,15 +1196,14 @@ as surveyed in ([Hopkins 99, section 5](#Hopkins99)) and expanded on in
 
 For the case $E =$ [[MU]] we may follow ([Adams 74](#Adams74)).
 
-
-For **S1) Generalized cohomology** there are many standard texts, this one here is a nice modern perspective
+For **S1) Generalized cohomology** there are many standard texts, these here give a nice modern perspective:
 
 * {#AguilarGitlerPrieto02} Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, section 12 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
 
-* {#Rudyak98} [[Yuli Rudyak]], _On Thom spectra, orientability and cobordism_, Springer Monographs in Mathematics, 1998 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/rudyakthom.pdf))
+* {#Freed13} [[Dan Freed]], _Bordism: old and new_, 2013 ([pdf](http://www.ma.utexas.edu/users/dafr/bordism.pdf))
 
 
-For **S2) Complex oriented cohomology** see
+For **S2) Complex oriented cohomology** see:
 
 * {#Adams74} [[Frank Adams]], _Stable homotopy and generalized homology_, Chicago Lectures in mathematics, 1974
 
