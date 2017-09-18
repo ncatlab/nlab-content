@@ -87,7 +87,7 @@ The category of maps (functional relations) of a unitary/unital tabular division
 
 ## Power allegories 
 
-A **power allegory** is, more or less, an allegory $\mathcal{A}$ such that the inclusion functor $i: Map(\mathcal{A}) \to \mathcal{A}$ has a right adjoint $P$. The idea is that $P$ assigns to an object $A$ a power object $P(A)$, as in topos theory; if we summarize the notion of topos as a regular category $\mathbf{E}$ for which the inclusion $i: \mathbf{E} \to Rel(\mathbf{E})$ has a right adjoint $P$, then it becomes apparent that the notion of power allegory is similar except that it takes the "relation side" as primary and derives the "function side" as $Map(\mathcal{A})$, whereas in topos theory it's just the other way around. But in either case the adjunction $i \dashv P$ is fundamental. 
+A **power allegory** is, *more or less*, an allegory $\mathcal{A}$ such that the inclusion functor $i: Map(\mathcal{A}) \to \mathcal{A}$ has a right adjoint $P$. The idea is that $P$ assigns to an object $A$ a power object $P(A)$, as in topos theory; if we summarize the notion of topos as a regular category $\mathbf{E}$ for which the inclusion $i: \mathbf{E} \to Rel(\mathbf{E})$ has a right adjoint $P$, then it becomes apparent that the notion of power allegory is similar except that it takes the "relation side" as primary and derives the "function side" as $Map(\mathcal{A})$, whereas in topos theory it's just the other way around. But in either case the adjunction $i \dashv P$ is fundamental. 
 
 Since the inclusion $i$ is the identity on objects, the counit of the adjunction $i \dashv P$ at an object $B$ may be written 
 
@@ -121,8 +121,10 @@ Nevertheless, the spare elegance of the naive definition gives one something to 
 
 +-- {: .num_defn} 
 ###### Definition 
-A $P$-allegory is an allegory $\mathcal{A}$ with finite coproducts for which the inclusion $i: Map(\mathcal{A}) \to \mathcal{A}$ has a right adjoint $P$. 
+A $P$-allegory is an allegory $\mathcal{A}$ with finite coproducts[^1] for which the inclusion $i: Map(\mathcal{A}) \to \mathcal{A}$ has a right adjoint $P$. 
 =-- 
+
+[^1]: We mean coproducts as certain conical colimits *qua* $Pos$-[[enriched categories]]. 
 
 As before, the counit is denoted $\ni: i P \to 1_{\mathcal{A}}$. It is perhaps surprising that the notion of $P$-allegory is at least as strong as power allegory in the Freyd-Scedrov sense: 
 
