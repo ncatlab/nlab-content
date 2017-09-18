@@ -10,7 +10,9 @@
 
 * [[Thom's transversality theorem]]
 
-* [[Pontrjagin-Thom collaps map]]
+* [[Pontrjagin-Thom collapse map]]
+
+* [[Dold-Thom theorem]]
 
 
 [[!redirects Rene Thom]]
