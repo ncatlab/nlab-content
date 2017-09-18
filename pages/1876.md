@@ -49,6 +49,9 @@ Any comonad on $A$ induces an augmented [[simplicial object|simplicial]] [[endof
 
 * [[jet comonad]]
 
+## Related concepts
+
+* [[model structure on coalgebras over a comonad]]
 
 [[!redirects comonads]]
 [[!redirects cotriple]]
