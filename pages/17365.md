@@ -992,7 +992,9 @@ Now by the assumption that $X$ is a [[CW-spectrum]], each $X_{n}$ is a CW-comple
 
 ### Looping and suspension
 
-The following defines [[tensoring]] and [[powering]] of sequential spectra over [[pointed topological spaces]]/[[pointed simplicial sets]].
+We discuss models for the operation of [[reduced suspension]] and forming [[loop space objects]] of spectra.
+
+First, recall the [[tensoring]] and [[powering]] of sequential spectra over [[pointed topological spaces]]/[[pointed simplicial sets]].
 
 +-- {: .num_defn #TensoringAndPoweringOfSequentialSpectra}
 ###### Definition
@@ -1031,24 +1033,35 @@ For $X$ a [[sequential spectrum]] (def. \ref{SequentialSpectra}) and $k \in \mat
 
 For $X$ a sequential spectrum, then
 
-1. the **real suspension** of $X$ is $X \wedge S^1$ according to def. \ref{TensoringAndPoweringOfSequentialSpectra};
+1. the **standard suspension** of $X$ is $X \wedge S^1$ according to def. \ref{TensoringAndPoweringOfSequentialSpectra};
 
-1. the **real looping** of $X$ is $X^{S^1}$ according to def. \ref{TensoringAndPoweringOfSequentialSpectra}.
+1. the **standard looping** of $X$ is $X^{S^1}$ according to def. \ref{TensoringAndPoweringOfSequentialSpectra}.
 
 =--
+
+The standard suspension is equivalently the [[cofiber]] of the canonical inclusion of boundaries into the [[reduced cylinder]]  
+
+$$
+  X \vee X \longrightarrow X \wedge I_+ \longrightarrow X \wedge S^1
+  \,.
+$$
+
+If $X$ is a [[CW-spectrum]], then by prop. \ref{CylinderSpectrumOverCWSpectrumIsGood} this is a good [[cylinder object]] and so then $X\wedge S^1$ is a homotopy-correct model for the reduced suspension.
+
+But it turns out that for proving the [[stable model category|stability]] of the stable model structure [below](#Stability) it is convenient to replace this by a stably equivalent model:
 
 +-- {: .num_defn #SequentialSpectrumFakeSuspension}
 ###### Definition
 
 For $X$ a [[sequential spectrum]], def. \ref{SequentialSpectra}, then
 
-1. the **fake suspension** of $X$ is the sequential spectrum $\Sigma X$ with
+1. the **alternative suspension** of $X$ is the sequential spectrum $\Sigma X$ with
 
    1. $(\Sigma X)_n \coloneqq S^1 \wedge X_n$
 
    1. $\sigma_n^{\Sigma X} \coloneqq S^1 \wedge (\sigma_n)$.
 
-1. the **fake looping** of $X$ is the sequential spectrum $\Omega X$ with
+1. the **alternative looping** of $X$ is the sequential spectrum $\Omega X$ with
 
    1. $(\Omega X)_n \coloneqq (X_n)^{S^1}$;
 
@@ -1058,7 +1071,8 @@ Here $\tilde \Sigma_n$ denotes the $(\Sigma\dashv \Omega)$-[[adjunct]] of $\sigm
 
 =--
 
-e.g. ([Jardine 15, section 10.4](sequential+spectrum#Jardine15)).
+In some references this "alternative suspension" is called the "fake suspension" e.g. ([Jardine 15, section 10.4](sequential+spectrum#Jardine15)).
+
 
 +-- {: .num_defn #ShiftingCommutesWithLoopingAndSuspensionOfSequentialSpectra}
 ###### Remark
@@ -1148,7 +1162,7 @@ $$
 +-- {: .num_prop #FakeLoopingPreservesOmegaSpectra}
 ###### Proposition
 
-With $\Sigma$ and $\Omega$ the fake suspension and fake looping functors from def. \ref{SequentialSpectrumFakeSuspension}:
+With $\Sigma$ and $\Omega$ the alternative suspension and alternative looping functors from def. \ref{SequentialSpectrumFakeSuspension}:
 
 1. $\Omega$ preserves [[Omega-spectra]] (def. \ref{OmegaSpectrum});
 
@@ -1273,6 +1287,12 @@ $$
 $$
 
 =--
+
+
+### Stability
+ {#Stability}
+
+We discuss that the stable model structure $SeqSpec(Top)_{stable}$ of theorem is indeed a [[stable model category]] in that the canonical [[reduced suspension]] operation induced an [[equivalence of categories]] from the [[stable homotopy category]] to itself.
 
 
 +-- {: .num_prop #FakeSuspensionInducesEquivalenceOfHomotopyCategories}
