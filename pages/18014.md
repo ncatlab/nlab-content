@@ -19,6 +19,9 @@ The central statement of [[rational homotopy theory]] says that the [[rational h
 
 ## References
 
+* {#BousfieldGugenheim76} [[Aldridge Bousfield]], V. K. A. M. Gugenheim, section 9.1 of _On PL deRham theory and rational homotopy type_ , Memoirs of the AMS, vol. 179 (1976)
+
+
 * Wikipedia, _[Nilpotent space](https://en.wikipedia.org/wiki/Nilpotent_space)_
 
 [[!redirects nilpotent topological spaces]]
