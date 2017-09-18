@@ -629,6 +629,8 @@ In the case that $X_\bullet$ is the classifier of the [[codomain fibration]], th
 
 * **inductive type, [[initial algebra of an endofunctor]]
 
+* [[inductive-inductive type]]
+
 * [[inductive family]]
 
 * [[positive type]], [[negative type]]
