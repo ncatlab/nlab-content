@@ -31,6 +31,8 @@ A [[homomorphism]] $f \colon E_1 \longrightarrow E_2$ between two [[G-spectra]],
 
 1. For each $n \in \mathbb{Z}$ and each closed subgroup $H \hookrightarrow G$ the morphism $f$ induces an [[isomorphism]] of [[Mackey functors]] of [[equivariant homotopy groups]] $\pi_n^H(E_1) \stackrel{\simeq}{\longrightarrow} \pi_n^H(E_2)$.
 
+(The equivalence of these conditions is part of the [[equivariant Whitehead theorem]].)
+
 The $G$-equivariant stable homotopy category is the [[homotopy category]] of [[G-spectra]] with respect to these weak equivalences.
 
 ## Properties
