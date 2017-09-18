@@ -22,7 +22,7 @@ _Nullstelle_ means [[zero locus]]. Hilbert's _Nullstellensatz_ (theorem about ze
 
 ## Classical formulation in algebraic geometry 
 
-In classical algebraic geometry over an [[algebraically closed field]] $k$, the Nullstellensatz concerns the [[fixed points]] of a standard [[Galois connection]] between [[ideals]] $I$ of $k[x_1, \ldots, x_n]$ and [[subsets]] $V \subseteq k^n$. The Galois connection is induced by a [[relation]] $I \perp V$ iff $f(x) = 0$ for all $f \in I, x \in V$. Accordingly, letting $Idl(k[x_1, \ldots, x_n])$ be the set of ideals ordered by inclusion and $P(k^n)$ the set of subsets of $k^n$ ordered by inclusion, there are contravariant maps $Ideal: P(k^n) \to Idl(k[x_1, \ldots, x_n])$ and $Var: Idl(k[x_1, \ldots, x_n]) \to P(k^n)$ defined by 
+In classical algebraic geometry over an [[algebraically closed field]] $k$, the Nullstellensatz concerns the [[fixed points]] of a standard [[Galois connection]] between [[ideals]] $I$ of the [[polynomial ring]] $k[x_1, \ldots, x_n]$ and [[subsets]] $V \subseteq k^n$. The Galois connection is induced by a [[relation]] $I \perp V$ iff $f(x) = 0$ for all $f \in I, x \in V$. Accordingly, letting $Idl(k[x_1, \ldots, x_n])$ be the set of ideals ordered by inclusion and $P(k^n)$ the set of subsets of $k^n$ ordered by inclusion, there are contravariant maps $Ideal: P(k^n) \to Idl(k[x_1, \ldots, x_n])$ and $Var: Idl(k[x_1, \ldots, x_n]) \to P(k^n)$ defined by 
 
 $$Ideal(S) = \{f \in k[x_1, \ldots, x_n]: \forall_x x \in S \Rightarrow f(x) = 0\}, \qquad Var(I) = \{x \in k^n: \forall_f f \in I \Rightarrow f(x) = 0\}$$ 
 
