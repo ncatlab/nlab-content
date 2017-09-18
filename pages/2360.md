@@ -1,4 +1,6 @@
 
+> under construction -- needs attention
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -28,6 +30,7 @@ A _formal spectrum_ is a generalization of prime spectrum to adic noetherian rin
 
 ## Definition
 
+> see for instance ([Strickland 00, def. 4.13](#Strickland00))
 
 Assume $R$ is a  [[commutative ring]] and $I \subset R$ is an ideal, such that its powers make a fundamental system of neighborhoods of zero of a complete Hausdorff topology (we say that $R$ is an separated complete ring in the $I$-[[adic topology]]).
 
@@ -52,11 +55,19 @@ The formal spectrum of a separated complete topological $I$-adic ring $R$ depend
 
 ## References
 
+
+* standard references are [[EGA]], Hartshorne
+
+* [[Luc Illusie]], _Grothendieck existence theorem in formal geometry_, in [[FGA explained]] (draft: [pdf](http://cdsagenda5.ictp.it//askArchive.php?categ=a0255&id=a0255s3t3&ifd=15021&down=1&type=lecture_notes))
+
+Discussion more from a [[topos theory]] perspective is in section 4.2 of
+
+* {#Strickland00} [[Neil Strickland]], _Formal schemes and formal groups_, [math.AT/0011121](http://arxiv.org/abs/math.AT/0011121)
+
+For the case of [[formal group laws]] see also
+
 * _[[A Survey of Elliptic Cohomology - formal groups and cohomology]]_
 
-* standard references are EGA, Hartshorne
-
-* Luc Illusie, _Grothendieck existence theorem in formal geometry_, in [[FGA explained]] (draft: [pdf](http://cdsagenda5.ictp.it//askArchive.php?categ=a0255&id=a0255s3t3&ifd=15021&down=1&type=lecture_notes))
 
 [[!redirects formal spectra]]
 
