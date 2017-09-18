@@ -22,7 +22,7 @@
 
 Hochschild (co)homology is a homological construction which makes sense for any [[associative algebra]], or more generally any [[dg-algebra]] or [[ring spectrum]].  It has multiple interpretations in [[higher category theory]].  Presently, everything below pertains to Hochschild homology of *commutative* algebras; an exposition of the noncommutative case remains to be written.
 
-Thus, for $A$ a commutative [[∞-algebra]], its _Hochschild homology complex_ is its [[(∞,1)-colimit|(∞,1)-tensoring]] $S^1 \cdot A$ with the [[∞-groupoid]] incarnation of the circle. More generally, for $S$ any $\infty$-groupoid/simplicial set, $S \cdot A$ is the corresponding _higher order Hochschild homology_ of $X$.
+Thus, for $A$ a commutative [[∞-algebra]], its _Hochschild homology complex_ is its [[(∞,1)-colimit|(∞,1)-tensoring]] $S^1 \cdot A$ with the [[∞-groupoid]] incarnation of the circle. More generally, for $S$ any $\infty$-groupoid/simplicial set, $S \cdot A$ is the corresponding _higher order Hochschild homology_ of $A$.
 
 In the presence of [[function algebras on ∞-stacks]] it may happen that $A = \mathcal{O}(X)$ is the algebra of functions on some [[∞-stack]] $X$ and that $\mathcal{O}(-)$ sends [[powering]]s of  $X$ to tensorings of $\mathcal{O}(X)$. In that case it follows that the Hochschild homology complex of $\mathcal{O}(X)$ is the function complex $\mathcal{O}(\mathcal{L}(X))$ on the [[derived loop space]] $\mathcal{L}X$ of $X$.
 
@@ -199,7 +199,7 @@ This definition of general higher order Hochschild homology by $(\infty,1)$-copo
 
 #### Topological chiral homology {#TopologicalChiralHomology}
 
-Notice that the tensoring that gives the Hochschild homology is given by the $\infty$-colimit ove the constant functor
+Notice that the tensoring that gives the Hochschild homology is given by the $\infty$-colimit over the constant functor
 
 $$
   K \cdot A \simeq {\lim_\to}_K A
@@ -208,7 +208,7 @@ $$
 
 This generalizes to $\infty$-colimits of functors constant on an algebra, but over a genuine [[(∞,1)-category]] diagram.
 
-Specifically let $X$ be framed $n$-manifold, $A$ an [[little k-cubes operad|En-algebra]] and $D_X$ the [[(∞,1)-category]] whose objects are framed embeddings of disjoint uniions of open discs into $X$ and morphisms are inclusions of these. Let $F_A$ be the functor that assigns $A^{k}$ to an object corresponding to $k$ discs in $X$, and iterated products/units to morphisms 
+Specifically let $X$ be framed $n$-manifold, $A$ an [[little k-cubes operad|En-algebra]] and $D_X$ the [[(∞,1)-category]] whose objects are framed embeddings of disjoint unions of open discs into $X$ and morphisms are inclusions of these. Let $F_A$ be the functor that assigns $A^{k}$ to an object corresponding to $k$ discs in $X$, and iterated products/units to morphisms 
 
 Then the [[(∞,1)-colimit]]
 
@@ -224,7 +224,7 @@ For more details see ([GinotTradlerZeinalian](#GinotTradlerZeinalian)).
 
 ### Specific concrete
 
-We unwind the above generall abstract definition in special classes of examples and find more explicit and more traditional definitions of Hochschild homology.
+We unwind the above general abstract definition in special classes of examples and find more explicit and more traditional definitions of Hochschild homology.
 
 #### Pirashvili's higher order Hochschild homology {#PirashviliHigherOrder}
 
