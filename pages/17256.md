@@ -49,6 +49,8 @@ Basic Examples:
 
 * [[stable homotopy groups]]
 
+* [suspension isomorphism](homotopy+group+of+a+spectrum#SuspensionIsomorphismOfStableHomotopyGroups)
+
 ### 3. Basic constructions
 
 #### 3.1 Symmetric spectra of simplicial sets
