@@ -136,7 +136,7 @@ $$M_{\mathbb{N}} \to Set$$
 the existence of an uncountable [[measurable cardinal]] is equivalent (in ZFC) to the fact that the induced codensity monad is not isomorphic to the identity (i.e., the first uncountable measurable cardinal is where the first "jump" takes place). Lawvere gives a couple more examples of a more geometric nature. 
 
 
-## Algebras of the ultrafilter monad
+## Algebras of the ultrafilter monad {#comphaus}
 
 A theorem due to [[Ernest Manes]] is that the [[Eilenberg-Moore category]] of ultrafilter monad is the category of [[compact Hausdorff spaces]] with its obvious forgetful functor to $Set$. 
 
