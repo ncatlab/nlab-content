@@ -45,7 +45,7 @@ Let $L$ denote the long line, and $R$ the long ray.
 4. $R$ is [[sequentially compact space|sequentially compact]] but not [[compact space|compact]]. 
 
 5. The long line is not [[contractible space|contractible]]. Proof sketch: Suppose $H \colon I \times L \to L$ is a homotopy such that $H(0, -)$ is constant and $H(1, -)$ is the identity. For each $t \in [0, 1]$ the image $\im H(t, -)$ is an interval (either bounded or unbounded), since $L$ is [[connected space|connected]]. One may show the set 
-$$\{t \in I: \im H(t, -) \text{is bounded}\}$$ 
+$$\{t \in I: \im H(t, -)\;  \text{is bounded}\}$$ 
 is both closed and open. It also contains $0$, hence is all of $I$. But it can't contain $t = 1$, contradiction. 
 
 ## Related concepts
