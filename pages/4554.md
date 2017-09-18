@@ -380,7 +380,12 @@ In other words, $F$ is a [[homotopical functor]].
 
 +-- {: .num_remark}
 ###### Remark
-If $C$ is the full subcategory of fibrant objects in a [[model category]], then this corollary asserts that a [[Quillen adjunction|right Quillen functor]] $F$, which by its axioms is required only to preserve fibrations and trivial fibrations, preserves also weak equivalences between fibrant objects.
+If $C$ is the full subcategory of fibrant objects in a [[model category]], then this corollary asserts that a [[Quillen adjunction|right Quillen functor]] $G$, which by its axioms is required only to preserve fibrations and trivial fibrations, preserves also weak equivalences between fibrant objects.
+=--
+
++-- {: .num_remark}
+###### Remark
+By the dual nature of [[model categories]], we then get that a [[Quillen adjunction|left Quillen functor]] preserves weak equivalences between cofibrant objects.
 =--
 
 ## Computing a homotopy pullback by means of an ordinary pullback
