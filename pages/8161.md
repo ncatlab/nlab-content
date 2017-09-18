@@ -16,43 +16,88 @@
 
 ## Idea
 
-Generally, in a [[category]] $\mathcal{C}$,  one of the more usual forms of a _filtered object_ encountered is an [[object]] $X$ equipped with a _filtration_. A descending filtration is a sequence of [[monomorphisms]] of the form
+Given a [[category]] $\mathcal{C}$,  then a **filtered object** is an [[object]] $X$ of $\mathcal{C}$ equipped with a _filtration_: 
 
-$$
-   \cdots \hookrightarrow X_{(n)}\hookrightarrow \cdots \hookrightarrow X_{(2)}  
-  \hookrightarrow X_{(1)}
-  \hookrightarrow X_{(0)} =: X
-  \,
-$$
-and an ascending filtration of the form
-$$
-  X_{(0)} \hookrightarrow X_{(1)}\hookrightarrow X_{(2)}\cdots \hookrightarrow X_{(3)}  
-  \hookrightarrow \subset X.
-$$
+A **descending filtration** or **decreasing filtrations** of $X$ is a sequence of [[morphisms]] (often required to be [[monomorphisms]]) of the form
 
-There are variants in which the sequence may be infinite 'to the right'  or may be bounded or stationary in some way to the left. In situations where quotients make sense, extra conditions on the quotients $X_{(n)}/X_{(n+1)}$, are often imposed; see [[associated graded object]]. 
+  $$
+    \cdots
+     \longrightarrow
+    X_{n+1}
+     \longrightarrow
+    X_n
+     \longrightarrow
+    X_{n-1}
+      \longrightarrow
+    \cdots
+      \longrightarrow
+    X
+  $$
 
-In more generality, it is also possible to index using any [[ordered group|ordered abelian group]].
+
+An **ascending filtration** or **increasing filtration** of $X$ is of the form
+
+  $$
+    X 
+      \longrightarrow
+    \cdots
+      \longrightarrow
+    X_{n-1}
+      \longrightarrow
+    X_n
+      \longrightarrow
+    X_{n+1}
+      \longrightarrow
+    \cdots
+  $$
+
+FuIn situations where quotients make sense, extra conditions on the quotients $X_{(n)}/X_{(n+1)}$, are often imposed; see [[associated graded object]]. 
+
+(In more generality, it is also possible to index using any [[ordered group|ordered abelian group]].)
+
+A decreasing filtration $\{X_s\}_s$ of $X$ is called
+
+* **exhaustive** if $\underset{\longrightarrow}{\lim}_s X_s \simeq X$ ($X$ is the [[colimit]]) of the filter stages)
+
+* **Hausdorff** if $\underset{\longleftarrow}{\lim}_s X_s \simeq \emptyset$ (the [[limit]] of the the filter stages is [[initial object|empty]] ([[zero object|zero]] in the case of an [[abelian category]]))
+
+and for a filtration of [[abelian groups]]:
+
+* **complete** if $\underset{\longleftarrow}{\lim}^1_s X_n = 0$ (also the first [[derived functor|derived]] [[limit]] ([[lim^1]]) vanishes)
+
+([Boardman 99, def. 2.1](#Boardman99), see also [Rognes 12, section 2.1](#Rognes12))
+
+Often exhaustiveness is understood by default, and often it is even assumed by default that $X_s = X$ for $s \leq 0$.
 
 ## Examples
 
-* [[filtered topological space]]
-* [[filtered chain complex]]
+* [[filtered topological space]], [[spectral sequence of a tower of fibrations]]
+
+* [[filtered chain complex]], [[spectral sequence of a filtered complex]]
+
 * [[filtered ring]]
+
+* [[conditional convergence]] (of a [[spectral sequence]])
 
 ## Related concepts
 
 * [[associated graded object]]
-* [[stratification]]
-
-* [[spectral sequence of a filtered complex]]
 
 * [[filtered object in an (infinity,1)-category]]
 
   * [[spectral sequence of a filtered stable homotopy type]]
+
+## References
+
+* {#Boardman99} [[Michael Boardman]], section I.1 of _Conditionally convergent spectral sequences_, 1999 ([pdf](http://www.uio.no/studier/emner/matnat/math/MAT9580/v12/undervisningsmateriale/boardman-conditionally-1999.pdf))
+
+* {#Rognes12} [[John Rognes]], _The Adams spectral sequence_ (following [Bruner 09](#Bruner09)), 2012 ([pdf](http://folk.uio.no/rognes/papers/notes.050612.pdf))
 
 
 [[!redirects filtered objects]]
 
 [[!redirects filtration]]
 [[!redirects filtrations]]
+
+[[!redirects filtering]]
+[[!redirects filterings]]
