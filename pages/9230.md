@@ -37,6 +37,8 @@ Feynman graphs play a central role in [[perturbation theory]] in [[quantum field
 
 We discuss Feynman diagrams for a single real [[scalar field]] on a discrete space of $k\in \mathbb{N}$ points. This contains in it already all the key aspects of Feynman diagrams. 
 
+So a [[field (physics)|field]] $\phi$ here is a map $[k]\to \mathbb{R}$ from the $k$-element [[finite set]] to the [[real numbers]], and hence the space of all field configurations is $\mathbb{R}^k$.
+
 Fix a $k \times k$ real-valued [[matrix]] $A \coloneqq (A_{x y}) \in Mat_{k\times k}(\mathbb{R})$ of non-vanishing [[determinant]] $det A \neq 0$. For standard applications this $A$ is a discretized version of the [[Laplacian]] and then the expression 
 
 
@@ -44,7 +46,7 @@ $$
   S_{kin} = E_{kin} \coloneqq 
   \tfrac{1}{2}\sum_{x,y = 1}^k \phi_x A_{x y} \phi_y
 $$ 
-is the [[kinetic energy]] and [[kinetic action]] of the field field configuration $\phi$.
+is the [[kinetic energy]] and [[kinetic action]] of the field configuration $\phi$.
 
 
 A [[sum]] over all values of $\phi$ is the finite (and hence well-defined) analog of a [[path integral]]. The [[Gaussian integral]] of $A$ is called the _[[partition function]]_:
@@ -146,7 +148,7 @@ $$
   \end{aligned}
 $$
 
-where the last [[equality]] is known as [[Wick's theorem]]. This is the source of all Feynman digrammatics.
+where the last [[equality]] is known as [[Wick's theorem]]. Thinking of $A^{-1}_{x y}$ here as labeling an [[edge]] (a "[[worldline]]") from [[vertex]] $x$ to vertex $y$ This is the source of all Feynman digrammatics.
 
 Now consider a [[polynomial]] $V(\phi)$ of degree $\geq 3$.  In applications to field theory this represents the [[potential energy]] or (self)[[interaction]] of the field configuration. The difference of the [[kinetic energy]] and the [[potential energy]] is called the (here: "Wick rotated"/"Euclidean") [[action]]
 
@@ -183,7 +185,7 @@ $$
   \end{aligned}
 $$
 
-By [[Wick's theorem]] stated above, each $\langle V(\phi)^2\rangle$ is equivalently expressed as a sum over products of components of the [[propagator]] $A^{-1}_{x y}$. Thinking of each such propagator term as an edge produces a diagram, this is the corresponding Feynman diagram.
+By [[Wick's theorem]] stated above, each $\langle V(\phi)^\ell\rangle$ is equivalently expressed as a sum over products of components of the [[propagator]] $A^{-1}_{x y}$. Thinking of each such propagator term as an edge produces a diagram, this is the corresponding Feynman diagram.
 
 For instance for a cubic point interaction
 
