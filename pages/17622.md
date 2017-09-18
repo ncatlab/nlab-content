@@ -1,5 +1,8 @@
+[[!redirects Ian Anderson]]
 
 * [institute page](http://www.math.usu.edu/people/ian-anderson)
+
+* [Mathematics Genealogy page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=22869)
 
 * [publications](https://works.bepress.com/ian_anderson/)
 
