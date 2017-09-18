@@ -50,7 +50,7 @@ The second formulation seems to be the one originally given by M&P, below, while
 
 * AMC implies [[WISC]], and therefore also implies that the category of [[anafunctors]] between two [[small categories]] is [[essentially small category|essentially small]].
 
-* A [[ΠW-pretopos]] satisfying the axiom of multiple choice if a _[[predicative topos]]_.
+* A [[ΠW-pretopos]] satisfying the axiom of multiple choice is a _[[predicative topos]]_.
 
 ## References
 
