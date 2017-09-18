@@ -1075,7 +1075,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By definition the statement holds for $p = 0$. Assume then by [[induction]] that it holds for some $p \geq 0$. Since the [[smash product of spectra]]-functor $(-) \wedge \overline{E}^p \wedge Y$ preserves [[homotopy cofiber sequences]] ([lemma](Introduction+to+Stable+homotopy+theory+--+1-2#SmashTensoringWithSpectrumDerivedPreserveshomotopycofibers), this is part of the [[tensor triangulated category|tensor triangulated]] structure of the [[stable homotopy category]]), its application to the homtopy cofiber sequence 
+By definition the statement holds for $p = 0$. Assume then by [[induction]] that it holds for some $p \geq 0$. Since the [[smash product of spectra]]-functor $(-) \wedge \overline{E}^p \wedge Y$ preserves [[homotopy cofiber sequences]] ([lemma](Introduction+to+Stable+homotopy+theory+--+1-2#SmashTensoringWithSpectrumDerivedPreserveshomotopycofibers), this is part of the [[tensor triangulated category|tensor triangulated]] structure of the [[stable homotopy category]]), its application to the [[homotopy cofiber sequence]] 
 
 $$
   \overline{E}
@@ -1284,7 +1284,7 @@ $$
   \,.
 $$
 
-Here the  bottom row is a [[long exact sequence]] since $E \wedge E \wedge (-)$ preserves homotopy cofiber sequences (by [this lemma](Introduction+to+Stable+homotopy+theory+--+1-2#SmashTensoringWithSpectrumDerivedPreserveshomotopycofibers), part of the [[tensor triangulated category|tensor triangulated]] structure on $Ho(Spectra)$ [prop.](Introduction+to+Stable+homotopy+theory+--+1-2#TensorTriangulatedStructureOnStableHomotopyCategory)), and since $[\mathbb{S},-]_\bullet \simeq \pi_\bullet(-)$ sends homtopy cofiber sequences to [[long exact sequences]] ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#LongExactSequenceOfStableHomotopyGroups)). By the same reasoning, $E_\bullet(-)$ of the homotopy cofiber sequence is long exact; and by the assumption that $E_\bullet(E)$ is [[flat module|flat]], the functor $E_\bullet(E)\otimes_{\pi_\bullet(E)}(-)$ preserves this exactness, so that also the top row is a [[long exact sequence]].
+Here the  bottom row is a [[long exact sequence]] since $E \wedge E \wedge (-)$ preserves homotopy cofiber sequences (by [this lemma](Introduction+to+Stable+homotopy+theory+--+1-2#SmashTensoringWithSpectrumDerivedPreserveshomotopycofibers), part of the [[tensor triangulated category|tensor triangulated]] structure on $Ho(Spectra)$ [prop.](Introduction+to+Stable+homotopy+theory+--+1-2#TensorTriangulatedStructureOnStableHomotopyCategory)), and since $[\mathbb{S},-]_\bullet \simeq \pi_\bullet(-)$ sends [[homotopy cofiber sequences]] to [[long exact sequences]] ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#LongExactSequenceOfStableHomotopyGroups)). By the same reasoning, $E_\bullet(-)$ of the homotopy cofiber sequence is long exact; and by the assumption that $E_\bullet(E)$ is [[flat module|flat]], the functor $E_\bullet(E)\otimes_{\pi_\bullet(E)}(-)$ preserves this exactness, so that also the top row is a [[long exact sequence]].
 
 Now by [[induction]] over the cells of $X$, the outer four vertical morphisms are [[isomorphisms]]. Hence the [[5-lemma]] implies that also the middle morphism is an isomorphism.
 
@@ -3180,315 +3180,344 @@ With lemma \ref{CoFreeHopfComodulesAreHomNAcyclicForProjectiveN} the proof of th
 #### Convergence 
  {#Convergence}
 
-We discuss here the convergence properties of $E$-Adams spectral sequences (def. \ref{AdamsEAdamsSpectralSequence}), i.e. the identification of the "limit", in the appropriate sense, of the terms $E_r^{s,t}(X,Y)$ on the $r$th page of the spectral sequnce as $r$ goes to infinity.
+We discuss the convergence of $E$-Adams spectral sequences (def. \ref{AdamsEAdamsSpectralSequence}), i.e. the identification of the "limit", in an appropriate sense, of the terms $E_r^{s,t}(X,Y)$ on the $r$th page of the spectral sequence as $r$ goes to infinity.
 
-**Literature**: ([Bousfield 79](#Bousfield79))
+If an $E$-Adams spectral sequence converges, then it converges not necessarily to the full stable homotopy groups $[X,Y]_\bullet$, but to some [[localization of abelian groups|localization]] of them. This typically means roughly that only certain $p$-[[torsion subgroups]] in $[X,Y]_\bullet$ for some [[prime numbers]] $p$ are retained. We give a precise discussion below in _[Localization and adic completion of abelian groups](#LocalizationOfAbelianGroups)_.
 
-$\,$
+If one knows that $[X,Y]_q$ is a [[finitely generated object|finitely generated]] [[abelian group]] (as is the case notably for $\pi_q^s = [\mathbb{S},\mathbb{S}]_q$ by the [[Serre finiteness theorem]]) then this allows to recover the full information from its pieces: by the _[[fundamental theorem of finitely generated abelian groups]]_ (prop. \ref{FundamentalTheoremOfFinitelyGeneratedAbelianGroups} below) these groups are [[direct sums]] of powers $\mathbb{Z}^n$ of the infinite cyclic group with finite [[cyclic groups]] of the form $\mathbb{Z}/p^k \mathbb{Z}$, and so all one needs to compute is the powers $k$ "one prime $p$ at a time". This we review below in _[Primary decomposition of abelian groups](#PrimaryDecompositionOfAbelianGroups)_.
 
-+-- {: .num_defn}
-###### Definition
+The deeper reason that $E$-Adams spectral sequences tend to converge to [[localization of an abelian group|localizations]] of the abelian groups $[X,Y]_\bullet$ of morphisms of spectra, is that it really converges to the actual homotopy groups but of [[localizations of spectra]]. This is more than just a reformulation, because the localization at the level of spectra determies the [[filtration]] which controls the nature of the convergence. We discuss this localization of spectra below in _[Localization and nilpotent completion of spectra](#LocalizationOfSpectra)_. 
 
-Let $(E, \mu, e)$ be a [[homotopy commutative ring spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyCommutativeRingSpectrum)) and $X,Y \in Ho(Spectra)$ two [[spectra]] with associated $E$-[[Adams spectral sequence]] $\{E_r^{s,t}, d_r\}$ (def. \ref{AdamsEAdamsSpectralSequence}). 
-
-Observe that 
-
-$$
-  if \; r \gt s \; then \; \;
-  E^{s,\bullet}_{r+1}(X,Y)
-   \simeq
-  ker(d_r|_{E_r^{s,\bullet}(X,Y)})
-  \subset
-  E_r^{s,\bullet}(X,Y)  
-$$
-
-since the differential $d_r$ on the $r$th page has bidegree $(r,r-1)$, and since $E_r^{s \lt 0,\bullet(X,Y)} \simeq 0$, so that for $r \gt s$ the image of $d_r$ in $E_r^{s,t}(X,Y)$ vanishes.
-
-Thus define the biraded abelian group
-
-$$
-  E_\infty^{s,t}(X,Y)
-   \coloneqq
-  \underset{r \gt s}{\lim} E_r^{s,t}(X,Y)
-  =
-  \underset{r \gt s}{\cap} E_r^{s,t}(X,Y)
-$$
-
-called the "**infinity page**" of the $E$-Adams spectral sequence
-
-=--
-
-##### $E$-Nilpotent completion
+Then we state convergence properties of $E$-Adams spectral sequences below in _[Convergence statements](#ConvergenceStatements)_.
 
 
 
-For $X$ a spectrum and $E$ a [[ring spectrum]], consider the inverse sequence 
+##### Primary decomposition of abelian groups
+ {#PrimaryDecompositionOfAbelianGroups}
 
-$$
-  \overline{E}^{\wedge^\bullet} \wedge X
-  =
-  \left( X \leftarrow \overline{E}\wedge X \leftarrow \overline{E} \wedge \overline{E} \wedge X \leftarrow \cdots
-  \right)
-$$
+An $E$-[[Adams spectral sequence]] _typically_ converges (discussed [below](#ConvergenceStatements)) not to the full [[stable homotopy groups]] $[X,Y]_\bullet$, but just to some piece which on the [[finite group|finite]] [[direct summands]] consists only of [[p-primary groups]] for some [[prime numbers]] $p$ that depend on the nature of the [[homotopy ring spectrum]] $E$ . Here we review basic facts about $p$-primary decomposition of finite abelian groups and introduce their graphical calculus (remark \ref{pprimarygraphical} below) which will allow to read off these $p$-primary pieces from the stable page of the $E$-Adams spectral sequnce.
 
-associated to the normalized $E$-Adams resolution of $X$, as in example \ref{NormalizedEResolutionAssociatedSequence}. 
-
-+-- {: .num_defn #ENilpotentCompletion}
-###### Definition
-
-For $n \in \mathbb{N}$, write
-
-$$
-  \overline{E}_n 
-   \coloneqq
-  hocof( \overline{E}^n \overset{i^n}{\longrightarrow} \mathbb{S})
-  \,.
-$$
-
-Here $\overline{E}_0 \simeq 0$.
-
-The **[[E-nilpotent completion]]** $X^\wedge E$ of $X$ is the [[homotopy limit]] 
-
-$$
-  X^\wedge_E
-    \coloneqq
-  \underset{\longleftarrow}{\lim}
-  \left(
-    \cdots
-     \longrightarrow
-    \overline{E}_2 \wedge X
-      \longrightarrow
-    \overline{E}_1 \wedge X
-      \longrightarrow
-    \overline{E}_0 \wedge X
-  \right)
-$$
-
-or rather the canonical morphism
-
-$$
-  X \longrightarrow X^\wedge_E
-  \,.
-$$
-
-
-=---
-
-([Bousfield 79, top, middle and bottom of page 272](#Bousfield79), recalled as [Ravenel 84, theorem 1.13](#Ravenel84))
-
-
-([Ravenel 84, example 1.16](#Ravenel84))
-
-+-- {: .num_remark }
-###### Remark
-
-In ([Bousfield 79](#Bousfield79)) the $E$-nilpotent completion of $X$ (def. \ref{ENilpotentCompletion}) this is denoted "$E^\wedge X$". The notation we use here is more common among modern authors.
-
-=--
-
-+-- {: .num_remark #CanonicalMapFromELocalizationToTotalization}
-###### Remark
-
-The nilpotent completion $X^\wedge_E$ is $E$-local.
-This induces a universal morphism
-
-$$
-  L_E X 
-    \overset{}{\longrightarrow} 
-  X^\wedge_E
-$$
-
-from the $E$-[[Bousfield localization of spectra]] of $X$ into the $E$-nilmpotent completion
-
-=--
-
-([Bousfield 79, top of page 273](#Bousfield79))
-
-We consider now conditions for this morphism to be an [[equivalence]].
-
-
-+-- {: .num_prop #SufficientConditionsForTotalizationToBeELocalization}
++-- {: .num_prop #FundamentalTheoremOfFinitelyGeneratedAbelianGroups}
 ###### Proposition
+**([[fundamental theorem of finitely generated abelian groups]])**
 
-Let $E$ be a [[connective spectrum|connective]] [[ring spectrum]] such that the core of $\pi_0(E)$, def. \ref{CoreOfARing}, is either of
-
-* the [[localization of a ring|localization]] of the [[integers]] at a set $J$ of [[primes]], $c \pi_0(E) \simeq \mathbb{Z}[J^{-1}]$;
-
-* $\mathbb{Z}/n\mathbb{Z}$ for $n \geq 2$.
-
-Then the map in remark \ref{CanonicalMapFromELocalizationToTotalization} is an equivalence
+Every [[finitely generated object|finitely generated]] [[abelian group]] $A$ is [[isomorphism|isomorphic]] to a [[direct sum]] of [[p-primary groups|p-primary]] [[cyclic groups]] $\mathbb{Z}/p^k \mathbb{Z}$ (for $p$ a [[prime number]] and $k$ a [[natural number]] ) and copies of the infinite cyclic group $\mathbb{Z}$:
 
 $$
-  L_E X 
-    \stackrel{\simeq}{\longrightarrow} 
-  X^\wedge_E
+  A 
+  \;\simeq\;
+  \mathbb{Z}^n
+   \oplus
+  \underset{i}{\bigoplus}
+   \mathbb{Z}/p_i^{k_i} \mathbb{Z}
   \,.
 $$
 
+The summands of the form  $\mathbb{Z}/p^k \mathbb{Z}$ are also called the _[[p-primary group|p-primary]] components_ of $A$. Notice that the $p_i$ need not all be distinct.
+
+**fundamental theorem of finite abelian groups**:
+
+In particular every [[finite group|finite]] [[abelian group]] is of this form  for $n = 0$, hence is a [[direct sum]] of [[cyclic groups]]. 
+
+**fundamental theorem of cyclic groups**: 
+
+In particular every [[cyclic group]] $\mathbb{Z}/n\mathbb{Z}$ is a [[direct sum]] of cyclic groups of the form
+
+$$
+  \mathbb{Z}/n\mathbb{Z}
+    \simeq
+  \underset{i}{\bigoplus} \mathbb{Z}/ p_i^{k_i} \mathbb{Z}
+$$
+
+where all the $p_i$ are distinct and $k_i$ is the maximal power of the [[prime factor]] $p_i$ in the prime decomposition of $n$.
+
+Specifically, for each natural number $d$ dividing $n$ it contains $\mathbb{Z}/d\mathbb{Z}$ as the [[subgroup]] generated by $n/d \in \mathbb{Z}\to \mathbb{Z}/n\mathbb{Z}$. In fact the [[lattice of subgroups]] of $\mathbb{Z}/n\mathbb{Z}$ is the [[formal dual]] of the lattice of natural numbers $\leq n$ ordered by inclusion.
+
+
+
 =--
 
-([Bousfield 79, theorem 6.5, theorem 6.6](#Bousfield79)).
+(e.g. [Roman 12, theorem 13.4](fundamental+theorem+of+finitely+generated+abelian+groups#Roman12), [Navarro 03](fundamental+theorem+of+finitely+generated+abelian+groups#Navarro03)) for cyclic groups e.g. ([Aluffi 09, pages 83-84](fundamental+theorem+of+finitely+generated+abelian+groups#Aluffi09))
 
 
-+-- {: .num_examples #ExamplesOfEnilpotentLocalizations}
++-- {: .num_example}
 ###### Example
 
-* $E = H \mathbb{F}_p$ the [[Eilenberg-MacLane spectrum]] of a [[prime field]]. For $X$ a [[connective spectrum]], its $H \mathbb{F}_p$-nilpotent completion is its [[p-completion]]
+For $p$ a [[prime number]], there are, up to [[isomorphism]], two [[abelian groups]] of [[order of a group|order]] $p^2$, namely
 
-  $$
-    X^\wedge_{(H\mathbb{F}_p)}
+$$
+  (\mathbb{Z}/p\mathbb{Z}) \otimes (\mathbb{Z}/p\mathbb{Z})
+$$
+
+and
+
+$$
+  \mathbb{Z}/p^2 \mathbb{Z}
+  \,.
+$$
+
+=--
+
++-- {: .num_example}
+###### Example
+
+For $p_1$ and $p_2$ two distinct [[prime numbers]], $p_1 \neq p_2$, then there is, up to isomorphism, precisely one [[abelian group]] of order $p_1 p_2$, namely
+
+$$
+  \mathbb{Z}/p_1 \mathbb{Z}
+  \oplus
+  \mathbb{Z}/p_2 \mathbb{Z}
+  \,.
+$$
+
+This is equivalently the [[cyclic group]] 
+
+$$
+  \mathbb{Z}/p_1 p_2 \mathbb{Z}
     \simeq
-    X^{\hat{}}_p 
-    \coloneqq
-    \underset{\longleftarrow}{\lim}_{n \in \mathbb{N}}
-    X  \wedge M(\mathbb{Z}/p^n)
-  $$
+  \mathbb{Z}/p_1 \mathbb{Z}
+    \oplus
+  \mathbb{Z}/p_2 \mathbb{Z}
+  \,.
+$$
 
-  (where $M A$ denotes the [[Moore spectrum]] of the [[abelian group]] $A$).
-
-* $E = $ [[MU]]. Every spectrum is alreay $MU$-nilpotently complete 
-
-  $$
-    MU\hat{}X \simeq X
-    \,.
-  $$
-
-* $E = $ [[BP]] at prime $p$. For every spectrum $X$ its $BP$-nilpotent completion is its [[p-localization]] 
-
-  $$
-    BP\hat{}X \simeq X_{(p)} \coloneqq X \wedge M \mathbb{Z}_{(p)}
-  $$
-
-  (where $\mathbb{Z}_{(p)}\subset \mathbb{Q}$ is the result of inverting all primes different from $p$).
+The isomorphism is given by sending $1$ to $(p_2,p_1)$.
 
 =--
 
++-- {: .num_example}
+###### Example
 
-For more discussion of [[E-infinity geometry|E-infinity]] (derived) [[formal completions]] via totalizations of [[Amitsur complexes]], see ([Carlsson 07](completion+of+a+module#Carlsson07)).
-
-
-##### Convergence statements
-
-+-- {: .num_defn #CoreOfARing}
-###### Definition
-
-For $R$ a [[ring]], its _[[core of a ring|core]]_ $c R$ is the [[equalizer]] in
+For $n = 12 = 2^2 \cdot 3$ then
 
 $$
-  c R 
-    \longrightarrow 
-  R 
-    \stackrel{\longrightarrow}{\longrightarrow}
-  R \otimes R
+  \mathbb{Z}/12 \mathbb{Z}
+  \simeq
+  \mathbb{Z}/2^2 \mathbb{Z}
+  \oplus 
+  \mathbb{Z}/3\mathbb{Z}
   \,.
 $$
 
 =--
 
-([Bousfield 79, 6.4](#Bousfield79))
++-- {: .num_remark #pprimarygraphical}
+###### Remark
+**(graphical representation of p-primary decompositions)**
 
 
-+-- {: .num_theorem}
-###### Theorem
+Theorem \ref{FundamentalTheoremOfFinitelyGeneratedAbelianGroups} says that for any [[prime number]] $p$, the [[p-primary group|p-primary part]] of any finitely generated abelian group is determined uniquely up to [[isomorphism]] by
 
-Let $(E,\mu,e)$ be a [[homotopy commutative ring spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyCommutativeRingSpectrum)) and let $X,Y \in Ho(Spectra)$ be two [[spectra]] such that
+* a total number $k \in \mathbb{N}$ of powers of $p$;
 
-1. the [[core of a ring|core]] (def. \ref{CoreOfARing}) of the 0-th [[stable homotopy group]] ring of $E$ ([prop.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyGroupsOfHomotopyCommuta
-tiveRingSpectrum)) is the [[localization of a ring|localization]] of the [[integers]] at a set $J$ of primes
+* a [[partition]] $k = k_1 + k_2 + \cdots + k_q$.
 
-   $$
-     c \pi_0(E) \simeq \mathbb{Z}[J^{-1}] \subset \mathbb{Q}
-   $$
-
-1. $X$ is a [[CW-spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#CWSpectrum)) with a [[finite number]] of cells ([rmk.](Introduction+to+Stable+homotopy+theory+--+1-1#StrictModelStructureCellAttachmentToSpectra));
-
-then the $E$-[[Adams spectral sequence]] for $[X,Y]_\bullet$ (def. \ref{AdamsEAdamsSpectralSequence}) _converges completely_ to the localization
+The corresponding [[p-primary group]] is
 
 $$
-  [X, Y^\wedge_E]_\bullet
-    =
-  \mathbb{Z}[J^{-1}] \otimes [X,Y]_\bullet
-$$
+  \underoverset{i = 1}{q}{\bigoplus} \mathbb{Z}/p^{k_i} \mathbb{Z}
+  \,.
+$$ 
 
-of $[X,Y]_\bullet$ in that for
+In the context of [[Adams spectral sequences]] it is conventional to depict this information graphically by
 
-$$
-  F^s [X, Y^\wedge_E]_\bullet
-   \coloneqq
-  ker( \; [X, Y^\wedge_E]_\bullet \to [X,\overline{E}_{s-1}\wedge Y] \; )
-$$
+* $k$ dots;
 
-then 
+* of which sequences of length $k_i$ are connected by vertical lines, for $i \in \{1, \cdots, q\}$.
+
+For example the graphical representation of the $p$-primary group
 
 $$
-  F^s [X, Y^\wedge_E]_{t-s} / F^{s+1} [ X , Y^\wedge_E ]_{t-s}
-    \overset{\simeq}{\longrightarrow}
-  E^{s,t}_\infty(X,Y)
+  \mathbb{Z}/p\mathbb{Z} 
+    \oplus 
+  \mathbb{Z}/p\mathbb{Z}
+    \oplus 
+  \mathbb{Z}/p^3 \mathbb{Z}
+    \oplus
+  \mathbb{Z}/p^4\mathbb{Z}
+$$
+
+is
+
+$$
+  \array{
+      &&& \bullet
+      \\
+      && & \vert
+      \\
+      && \bullet & \bullet
+      \\
+      && \vert & \vert
+      \\
+      && \bullet & \bullet
+      \\
+      && \vert & \vert
+      \\
+     \bullet & \bullet & \bullet & \bullet
+  }
   \,.
 $$
 
+This notation comes from the convention of drawing stable pages of [[multiplicative spectral sequence|multiplicative]] [[Adams spectral sequences]] and reading them as encoding the [extension problem](spectral+sequence#ExtensionProblem) for computing the homotopy groups that the spectral sequence converges to:
+
+* a dot at the top of a vertical sequence of dots denotes the group $\mathbb{Z}/p\mathbb{Z}$;
+
+* inductively, a dot vetically below a sequence of dots denotes a [[group extension]] of $\mathbb{Z}/p\mathbb{Z}$ by the group represented by the sequence of dots above;
+
+* a vertical line between two dots means that the the generator of the group corresponding to the upper dot is, regarded after inclusion into the group extension, the product by $p$ of the generator of the group corresponding to the lower dot, regarded as represented by the generator of the group extension.
+
+So for instance
+
+$$
+  \array{
+    \bullet
+    \\
+    \vert
+    \\
+    \bullet
+  }
+$$
+
+stands for an [[abelian group]] $A$ which forms a [[group extension]] of the form
+
+$$
+  \array{
+    \mathbb{Z}/p\mathbb{Z}
+    \\
+    \downarrow
+    \\
+    A
+    \\
+    \downarrow
+    \\
+    \mathbb{Z}/p\mathbb{Z}
+  }
+$$
+
+such that multiplication by $p$ takes the generator of the bottom copy of $\mathbb{Z}/p\mathbb{Z}$, regarded as represented by the generator of $A$, to the generator of the image of the top copy of $\mathbb{Z}/p\mathbb{Z}$.
+
+This means that of the two possible choices of extensions (by example \ref{TwoFiniteGroupsOfOrderp2}) $A$ corresponds to the non-trivial extension $A = \mathbb{Z}/p^2\mathbb{Z}$. Because then in
+
+$$
+  \array{
+    \mathbb{Z}/p\mathbb{Z} & 
+    \\
+    \downarrow
+    \\
+    \mathbb{Z}/p^2 \mathbb{Z} & 
+    \\
+    \downarrow
+    \\
+    \mathbb{Z}/p\mathbb{Z} & 
+  }
+$$
+
+the image of the generator 1 of the first group in the middle group is $p = p \cdot 1$.
+
+Conversely, the notation
+
+
+$$
+  \array{
+    \bullet
+    \\
+    \\
+    \bullet
+  }
+$$
+
+stands for an [[abelian group]] $A$ which forms a [[group extension]] of the form
+
+$$
+  \array{
+    \mathbb{Z}/p\mathbb{Z}
+    \\
+    \downarrow
+    \\
+    A
+    \\
+    \downarrow
+    \\
+    \mathbb{Z}/p\mathbb{Z}
+  }
+$$
+
+such that multiplication by $p$ of the generator of the top group in the middle group does _not_ yield the generator of the bottom group. 
+
+This means that of the two possible choices (by example \ref{TwoFiniteGroupsOfOrderp2}) $A$ corresponds to the _trivial_ extension $A = \mathbb{Z}/p\mathbb{Z} \oplus \mathbb{Z}/p\mathbb{Z}$. Because then in
+
+$$
+  \array{
+    \mathbb{Z}/p\mathbb{Z}
+    \\
+    \downarrow
+    \\
+    \mathbb{Z}/p\mathbb{Z} 
+      \oplus
+    \mathbb{Z}/p\mathbb{Z}
+    \\
+    \downarrow
+    \\
+    \mathbb{Z}/p\mathbb{Z}
+  }
+$$
+
+the generator 1 of the top group maps to the element $(1,0)$ in the middle group, and multiplication of that by $p$ is $(0,0)$ instead of $(0,1)$, where the latter is the generator of the bottom group.
+
+Similarly 
+
+$$
+  \array{
+    \bullet
+    \\
+    \vert
+    \\
+    \bullet
+    \\
+    \vert
+    \\
+    \bullet
+  }
+$$
+
+is to be read as the result of appending to the previous case a dot _below_, so that this now indicates a group extension of the form
+
+$$
+  \array{
+    \mathbb{Z}/p^2 \mathbb{Z}
+    \\
+    \downarrow
+    \\
+    A
+    \\
+    \downarrow
+    \\
+    \mathbb{Z}/p \mathbb{Z}
+  }
+$$
+
+such that $p$-times the generator of the bottom group, regarded as represented by the generator of the middle group, is the image of the generator of the top group. This is again the case for the unique non-trivial extension, and hence in this case the diagram stands for $A = \mathbb{Z}/p^3 \mathbb{Z}$.
+
+And so on.
+
+
+For example, as we will compute [below](Introduction+to+Stable+homotopy+theory+--+2#ClassicalAdamsSpectralSequence), the stable page of the $H\mathbb{F}_2$-[[classical Adams spectral sequence]] for computation of the [[p-primary group|2-primary part]] of the [[stable homotopy groups of spheres]] $\pi_{t-s}(\mathbb{S})$  has in internal degree $t-s \leq 13$ the following non-trivial entries:
+
+<img src="http://ncatlab.org/nlab/files/ClassicalAdamsSpectralSequence.jpg" width="600" >
+
+(graphics taken from ([[Symmetric spectra|Schwede 12]])))
+
+Ignoring here the diagonal lines (which denote multiplication by the element $h_1$ that encodes the additional [[ring]] structure on $\pi_\bullet(\mathbb{S})$ which here we are not concerned with) and applying the above prescription, we read off for instance that $\pi_3(\mathbb{S}) \simeq \mathbb{Z}/8\mathbb{Z}$ (because all three dots are connected) while $\pi_8(\mathbb{S}) \simeq \mathbb{Z}/2\mathbb{Z}\oplus \mathbb{Z}/2\mathbb{Z} $ (because here the two dots are not connected). In total:
+
+| $k =$ | 0 | 1 | 2 | 3 | 4  | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 | 13 | 
+|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
+| $\pi_k(\mathbb{S})_{(2)} = $ | $\mathbb{Z}_{(2)}$  | $\mathbb{Z}/2$  |  $\mathbb{Z}/2$ |  $\mathbb{Z}/8$ |  $0$ |  $0$ | $\mathbb{Z}/2$ |   $\mathbb{Z}/16$ | $(\mathbb{Z}/2)^2$ |  $(\mathbb{Z}/2)^3$ | $\mathbb{Z}/2$ | $\mathbb{Z}/8$ | $0$ | $0$ | 
+
 =--
 
-([Bousfield 79, theorem 6.5](#Bousfield79))
 
-
-+-- {: .num_theorem}
-###### Theorem
-
-Let $(E,\mu,e)$ be a [[homotopy commutative ring spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyCommutativeRingSpectrum)) and let $X,Y \in Ho(Spectra)$ be two [[spectra]] such that
-
-1. the [[core of a ring|core]] (def. \ref{CoreOfARing}) of the 0-th [[stable homotopy group]] ring of $E$ ([prop.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyGroupsOfHomotopyCommutativeRingSpectrum)) is a [[prime field]]
-
-   $c \pi_0(E) \simeq \mathbb{F}_p$
-
-   for some [[prime number]] $p$;
-
-1. $Y$ is a [[connective spectrum]] in that its [[stable homotopy groups]] $\pi_\bullet(Y)$ vanish in negative degree;
-
-1. $X$ is a [[CW-spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#CWSpectrum)) with a [[finite number]] of cells ([rmk.](Introduction+to+Stable+homotopy+theory+--+1-1#StrictModelStructureCellAttachmentToSpectra));
-
-1. $[X,Y]_\bullet$ is degreewise a [[finitely generated object|finitely generated]] group
- 
-then the $E$-[[Adams spectral sequence]] for $[X,Y]_\bullet$ (def. \ref{AdamsEAdamsSpectralSequence}) _converges completely_ to the $p$-[[adic completion]] 
-
-$$
-  [X, Y^\wedge_E]_\bullet
-    =
-  \underset{\longrightarrow}{\lim}_n [X,Y]_\bullet/p^n[X,Y]_\bullet
-$$
-
-of $[X,Y]_\bullet$ in that for
-
-$$
-  F^s [X, Y^\wedge_E]_\bullet
-   \coloneqq
-  ker( \; [X, Y^\wedge_E]_\bullet \to [X,\overline{E}_{s-1}\wedge Y] \; )
-$$
-
-then 
-
-$$
-  F^s [X, Y^\wedge_E]_{t-s} / F^{s+1} [ X , Y^\wedge_E ]_{t-s}
-    \overset{\simeq}{\longrightarrow}
-  E^{s,t}_\infty(X,Y)
-  \,.
-$$
-
-
-=--
-
-([Bousfield 79, theorem 6.6](#Bousfield79))
-
-
-
-
-
-
-
-
-##### Localization of abelian groups
-
-
+##### Localization and adic completion of abelian groups
+  {#LocalizationOfAbelianGroups}
 
 +-- {: .num_remark #ExtAb}
 ###### Remark
@@ -3555,6 +3584,16 @@ is called an **$A$-localization** if
 
 =--
 
+We now discuss two classes of examples of localization of abelian groups
+
+1. _[Classical localization at/away from primes](#ClassicalLocalizationOfAbelianGroups)_;
+
+1. _[Formal completion at primes](#FormalCompletionOfAbelianGroups)_.
+
+$\,$
+
+**Classical localization at/away from primes**
+{#ClassicalLocalizationOfAbelianGroups}
 
 
 For $n \in \mathbb{N}$, write $\mathbb{Z}/n\mathbb{Z}$ for the [[cyclic group]] of [[order of a group|order]] $n$.
@@ -3712,6 +3751,18 @@ Similarly localization _at_ $p$ is localization away from all points except $p$.
 See also at _[[function field analogy]]_ for more on this.
 
 =--
+
+$\,$
+
+**Formal completion at primes**
+ {#FormalCompletionOfAbelianGroups}
+
+We have seen above in remark \ref{ClassicalLocalizationSeenFromSpecZ} that classical localization of abelian groups at a prime number is geometrically interpreted as restricting a [[quasicoherent sheaf]] over [[Spec(Z)]] to a single point, the point that is labeled by that prime number.
+
+Alternatively one may restrict to the "infinitesimal neighbourhood" of such a point. Technically this is called the _[[formal neighbourhood]]_, because its ring of functions is, by definition, the ring of [[formal power series]] (regarded as an [[adic ring]] or [[pro-ring]]). The corresponding operation on abelian groups is accordingly called _[[formal completion]]_ or _[[adic completion]]_ or just _completion_, for short, of abelian groups.
+
+It turns out that if the abelian group is [[finitely generated object|finitely generated]] then the operation of [[p-completion]] coincides with an operation of _localization_ in the sense of def. \ref{AbelianGroupLocal}, namely localization at the [[p-primary group|p-primary component]] $\mathbb{Z}(p^\infty)$ of the group $\mathbb{Q}/\mathbb{Z}$ (def. \ref{ZpInfinity} below). On the one hand this equivalence is useful for deducing some key properties of [[p-completion]], this we discuss below. On the other hand this situation is a shadow of the relation between [[localization of spectra]] and [[nilpotent completion of spectra]], which is important for characterizing the convergence properties of [[Adams spectral sequences]].
+
 
 
 +-- {: .num_defn  #pInvertedInZ}
@@ -4087,21 +4138,21 @@ $$
   \,.
 $$
 
-Here by def. \ref{pInvertedInZ} and since the [[hom-functor]] takes [[colimits]] in the first argument to [[limits]], the second term is
+Here by def. \ref{pInvertedInZ} and since the [[hom-functor]] takes [[colimits]] in the first argument to [[limits]], the second term is equivalently the [[limit]]
 
 $$
   Hom(\mathbb{Z}[1/p],A)
     \simeq
   \underset{\longleftarrow}{\lim}
   \left(
-     \cdot
+     \cdots
      \to 
      A \overset{p \cdot (-)}{\longrightarrow} A \overset{p \cdot (-)}{\longrightarrow} A
   \right)
   \,.
 $$
 
-But by assumption all these morphisms are [[isomorphisms]], so that the limit collapses to its first term, which means that the morphism $\phi$ in the above sequence is an [[isomorphism]]. But by exactness of the sequence this means that $\delta = 0$.
+But by assumption all these morphisms $p \cdot (-)$ that the limit is over are [[isomorphisms]], so that the limit collapses to its first term, which means that the morphism $\phi$ in the above sequence is an [[isomorphism]]. But by exactness of the sequence this means that $\delta = 0$.
 
 =--
 
@@ -4115,7 +4166,7 @@ For $p$ a [[prime number]], if $A$ is a [[finite abelian group]], then its $p$-c
 +-- {: .proof}
 ###### Proof
 
-$A$ is a finite [[direct sum]] 
+By the [[fundamental theorem of finite abelian groups]] (prop. \ref{FundamentalTheoremOfFinitelyGeneratedAbelianGroups}), $A$ is a finite [[direct sum]] 
 
 $$
   A 
@@ -4140,6 +4191,326 @@ $$
 By theorem \ref{pCompletionOfAbelianGroupsByHomsOutOfZpinfinity} the $i$th factor here is the $p$-completion of $\mathbb{Z}/p_i^{k_i}\mathbb{Z}$, and since $p \cdot(-)$ is an isomorphism on $\mathbb{Z}/p_i^{k_i}\mathbb{Z}$ if $p_i \neq p$, prop. \ref{pDivisibleGroupsHaveVanishingpCompletion} says that in this case the factor vanishes, so that only the factors with $p_i = p$ remain. On these however $Ext^1(\mathbb{Z}(p^\infty),-)$ is the identity by example \ref{pPrimaryGroupsArePComplete}.
 
 =--
+
+
+##### Localization and nilpotent completion of spectra
+ {#LocalizationOfSpectra}
+
+**Literature**: ([Bousfield 79](#Bousfield79))
+
+$\,,$
+
+
+For $X$ a spectrum and $E$ a [[ring spectrum]], consider the inverse sequence 
+
+$$
+  \overline{E}^{\wedge^\bullet} \wedge X
+  =
+  \left( X \leftarrow \overline{E}\wedge X \leftarrow \overline{E} \wedge \overline{E} \wedge X \leftarrow \cdots
+  \right)
+$$
+
+associated to the normalized $E$-Adams resolution of $X$, as in example \ref{NormalizedEResolutionAssociatedSequence}. 
+
++-- {: .num_defn #ENilpotentCompletion}
+###### Definition
+
+For $n \in \mathbb{N}$, write
+
+$$
+  \overline{E}_n 
+   \coloneqq
+  hocof( \overline{E}^n \overset{i^n}{\longrightarrow} \mathbb{S})
+  \,.
+$$
+
+Here $\overline{E}_0 \simeq 0$.
+
+The **[[E-nilpotent completion]]** $X^\wedge E$ of $X$ is the [[homotopy limit]] 
+
+$$
+  X^\wedge_E
+    \coloneqq
+  \underset{\longleftarrow}{\lim}
+  \left(
+    \cdots
+     \longrightarrow
+    \overline{E}_2 \wedge X
+      \longrightarrow
+    \overline{E}_1 \wedge X
+      \longrightarrow
+    \overline{E}_0 \wedge X
+  \right)
+$$
+
+or rather the canonical morphism
+
+$$
+  X \longrightarrow X^\wedge_E
+  \,.
+$$
+
+
+=---
+
+([Bousfield 79, top, middle and bottom of page 272](#Bousfield79), recalled as [Ravenel 84, theorem 1.13](#Ravenel84))
+
+
+([Ravenel 84, example 1.16](#Ravenel84))
+
++-- {: .num_remark }
+###### Remark
+
+In ([Bousfield 79](#Bousfield79)) the $E$-nilpotent completion of $X$ (def. \ref{ENilpotentCompletion}) this is denoted "$E^\wedge X$". The notation we use here is more common among modern authors.
+
+=--
+
++-- {: .num_remark #CanonicalMapFromELocalizationToTotalization}
+###### Remark
+
+The nilpotent completion $X^\wedge_E$ is $E$-local.
+This induces a universal morphism
+
+$$
+  L_E X 
+    \overset{}{\longrightarrow} 
+  X^\wedge_E
+$$
+
+from the $E$-[[Bousfield localization of spectra]] of $X$ into the $E$-nilmpotent completion
+
+=--
+
+([Bousfield 79, top of page 273](#Bousfield79))
+
+We consider now conditions for this morphism to be an [[equivalence]].
+
+
++-- {: .num_prop #SufficientConditionsForTotalizationToBeELocalization}
+###### Proposition
+
+Let $E$ be a [[connective spectrum|connective]] [[ring spectrum]] such that the core of $\pi_0(E)$, def. \ref{CoreOfARing}, is either of
+
+* the [[localization of a ring|localization]] of the [[integers]] at a set $J$ of [[primes]], $c \pi_0(E) \simeq \mathbb{Z}[J^{-1}]$;
+
+* $\mathbb{Z}/n\mathbb{Z}$ for $n \geq 2$.
+
+Then the map in remark \ref{CanonicalMapFromELocalizationToTotalization} is an equivalence
+
+$$
+  L_E X 
+    \stackrel{\simeq}{\longrightarrow} 
+  X^\wedge_E
+  \,.
+$$
+
+=--
+
+([Bousfield 79, theorem 6.5, theorem 6.6](#Bousfield79)).
+
+
++-- {: .num_examples #ExamplesOfEnilpotentLocalizations}
+###### Example
+
+* $E = H \mathbb{F}_p$ the [[Eilenberg-MacLane spectrum]] of a [[prime field]]. For $X$ a [[connective spectrum]], its $H \mathbb{F}_p$-nilpotent completion is its [[p-completion]]
+
+  $$
+    X^\wedge_{(H\mathbb{F}_p)}
+    \simeq
+    X^{\hat{}}_p 
+    \coloneqq
+    \underset{\longleftarrow}{\lim}_{n \in \mathbb{N}}
+    X  \wedge M(\mathbb{Z}/p^n)
+  $$
+
+  (where $M A$ denotes the [[Moore spectrum]] of the [[abelian group]] $A$).
+
+* $E = $ [[MU]]. Every spectrum is alreay $MU$-nilpotently complete 
+
+  $$
+    MU\hat{}X \simeq X
+    \,.
+  $$
+
+* $E = $ [[BP]] at prime $p$. For every spectrum $X$ its $BP$-nilpotent completion is its [[p-localization]] 
+
+  $$
+    BP\hat{}X \simeq X_{(p)} \coloneqq X \wedge M \mathbb{Z}_{(p)}
+  $$
+
+  (where $\mathbb{Z}_{(p)}\subset \mathbb{Q}$ is the result of inverting all primes different from $p$).
+
+=--
+
+
+For more discussion of [[E-infinity geometry|E-infinity]] (derived) [[formal completions]] via totalizations of [[Amitsur complexes]], see ([Carlsson 07](completion+of+a+module#Carlsson07)).
+
+
+##### Convergence statements
+ {#ConvergenceStatements}
+
+**Literature**: ([Bousfield 79](#Bousfield79))
+
+$\,$
+
++-- {: .num_defn}
+###### Definition
+
+Let $(E, \mu, e)$ be a [[homotopy commutative ring spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyCommutativeRingSpectrum)) and $X,Y \in Ho(Spectra)$ two [[spectra]] with associated $E$-[[Adams spectral sequence]] $\{E_r^{s,t}, d_r\}$ (def. \ref{AdamsEAdamsSpectralSequence}). 
+
+Observe that 
+
+$$
+  if \; r \gt s \; then \; \;
+  E^{s,\bullet}_{r+1}(X,Y)
+   \simeq
+  ker(d_r|_{E_r^{s,\bullet}(X,Y)})
+  \subset
+  E_r^{s,\bullet}(X,Y)  
+$$
+
+since the differential $d_r$ on the $r$th page has bidegree $(r,r-1)$, and since $E_r^{s \lt 0,\bullet(X,Y)} \simeq 0$, so that for $r \gt s$ the image of $d_r$ in $E_r^{s,t}(X,Y)$ vanishes.
+
+Thus define the bigraded abelian group
+
+$$
+  E_\infty^{s,t}(X,Y)
+   \coloneqq
+  \underset{r \gt s}{\lim} E_r^{s,t}(X,Y)
+  =
+  \underset{r \gt s}{\cap} E_r^{s,t}(X,Y)
+$$
+
+called the "**infinity page**" of the $E$-Adams spectral sequence.
+
+=--
+
+
+
++-- {: .num_defn #CoreOfARing}
+###### Definition
+
+For $R$ a [[ring]], its _[[core of a ring|core]]_ $c R$ is the [[equalizer]] in
+
+$$
+  c R 
+    \longrightarrow 
+  R 
+    \stackrel{\longrightarrow}{\longrightarrow}
+  R \otimes R
+  \,.
+$$
+
+=--
+
+([Bousfield 79, 6.4](#Bousfield79))
+
+
++-- {: .num_theorem}
+###### Theorem
+
+Let $(E,\mu,e)$ be a [[homotopy commutative ring spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyCommutativeRingSpectrum)) and let $X,Y \in Ho(Spectra)$ be two [[spectra]] such that
+
+1. the [[core of a ring|core]] (def. \ref{CoreOfARing}) of the 0-th [[stable homotopy group]] ring of $E$ ([prop.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyGroupsOfHomotopyCommuta
+tiveRingSpectrum)) is the [[localization of a ring|localization]] of the [[integers]] at a set $J$ of primes
+
+   $$
+     c \pi_0(E) \simeq \mathbb{Z}[J^{-1}] \subset \mathbb{Q}
+   $$
+
+1. $X$ is a [[CW-spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#CWSpectrum)) with a [[finite number]] of cells ([rmk.](Introduction+to+Stable+homotopy+theory+--+1-1#StrictModelStructureCellAttachmentToSpectra));
+
+then the $E$-[[Adams spectral sequence]] for $[X,Y]_\bullet$ (def. \ref{AdamsEAdamsSpectralSequence}) _converges completely_ to the localization
+
+$$
+  [X, Y^\wedge_E]_\bullet
+    =
+  \mathbb{Z}[J^{-1}] \otimes [X,Y]_\bullet
+$$
+
+of $[X,Y]_\bullet$ in that for
+
+$$
+  F^s [X, Y^\wedge_E]_\bullet
+   \coloneqq
+  ker( \; [X, Y^\wedge_E]_\bullet \to [X,\overline{E}_{s-1}\wedge Y] \; )
+$$
+
+then 
+
+$$
+  F^s [X, Y^\wedge_E]_{t-s} / F^{s+1} [ X , Y^\wedge_E ]_{t-s}
+    \overset{\simeq}{\longrightarrow}
+  E^{s,t}_\infty(X,Y)
+  \,.
+$$
+
+=--
+
+([Bousfield 79, theorem 6.5](#Bousfield79))
+
+
++-- {: .num_theorem}
+###### Theorem
+
+Let $(E,\mu,e)$ be a [[homotopy commutative ring spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyCommutativeRingSpectrum)) and let $X,Y \in Ho(Spectra)$ be two [[spectra]] such that
+
+1. the [[core of a ring|core]] (def. \ref{CoreOfARing}) of the 0-th [[stable homotopy group]] ring of $E$ ([prop.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyGroupsOfHomotopyCommutativeRingSpectrum)) is a [[prime field]]
+
+   $c \pi_0(E) \simeq \mathbb{F}_p$
+
+   for some [[prime number]] $p$;
+
+1. $Y$ is a [[connective spectrum]] in that its [[stable homotopy groups]] $\pi_\bullet(Y)$ vanish in negative degree;
+
+1. $X$ is a [[CW-spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#CWSpectrum)) with a [[finite number]] of cells ([rmk.](Introduction+to+Stable+homotopy+theory+--+1-1#StrictModelStructureCellAttachmentToSpectra));
+
+1. $[X,Y]_\bullet$ is degreewise a [[finitely generated object|finitely generated]] group
+ 
+then the $E$-[[Adams spectral sequence]] for $[X,Y]_\bullet$ (def. \ref{AdamsEAdamsSpectralSequence}) _converges completely_ to the $p$-[[adic completion]] 
+
+$$
+  [X, Y^\wedge_E]_\bullet
+    =
+  \underset{\longrightarrow}{\lim}_n [X,Y]_\bullet/p^n[X,Y]_\bullet
+$$
+
+of $[X,Y]_\bullet$ in that for
+
+$$
+  F^s [X, Y^\wedge_E]_\bullet
+   \coloneqq
+  ker( \; [X, Y^\wedge_E]_\bullet \to [X,\overline{E}_{s-1}\wedge Y] \; )
+$$
+
+then 
+
+$$
+  F^s [X, Y^\wedge_E]_{t-s} / F^{s+1} [ X , Y^\wedge_E ]_{t-s}
+    \overset{\simeq}{\longrightarrow}
+  E^{s,t}_\infty(X,Y)
+  \,.
+$$
+
+
+=--
+
+([Bousfield 79, theorem 6.6](#Bousfield79))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
