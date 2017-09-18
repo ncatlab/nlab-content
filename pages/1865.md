@@ -191,7 +191,7 @@ A discussion of more models and their relation in the context of [[cohesive homo
 
 A review is in
 
-* {BunkeSchick10} [[Ulrich Bunke]], [[Thomas Schick]], _Differential K-theory. A survey_ ([arXiv:1011.6663](http://arxiv.org/abs/1011.6663)).
+* {#BunkeSchick10} [[Ulrich Bunke]], [[Thomas Schick]], _Differential K-theory. A survey_ ([arXiv:1011.6663](http://arxiv.org/abs/1011.6663)).
 
 The Simons-Sullivan model is due to
 
@@ -236,6 +236,14 @@ A variant of this definition with the advantage that there is a natural morphism
 
 * Alain Berthomieu, _A version of smooth K-theory adapted to the
 total Chern class_ ([pdf](http://arxiv.org/PS_cache/arxiv/pdf/0806/0806.4728v1.pdf))
+
+Discussion for the [[odd Chern character]] is in
+
+* [[Thomas Tradler]], [[Scott Wilson]], [[Mahmoud Zeinalian]], _An Elementary Differential Extension of Odd K-theory_, J. of K-theory, K-theory and its Applications to Algebra, Geometry, Analysis
+and Topology, ([arXiv:1211.4477](http://arxiv.org/abs/1211.4477))
+
+* [[Scott Wilson]], _A loop group extension of the odd Chern character_ ([arXiv:1311.6393](http://arxiv.org/abs/1311.6393))
+
 
 ### Relation to index theory
 
