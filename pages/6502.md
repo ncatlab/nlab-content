@@ -18,7 +18,7 @@
 
 ## Idea
 
-A _Cartan connection_ is a _[[principal connection]]_ on a [[smooth manifold]] equipped with a certain compatibility condition with the [[tangent bundle]] of the manifold. This combination allows us to express various types of geometric structures on $X$ -- such as notably ([[pseudo-Riemannian metric|pseudo]]-)[[Riemannian geometry]], [[conformal geometry]] and many more (see [below](#TableOfExamples)) -- in terms of [[connection on a bundle|connection]] data, i.e. in terms of [[nonabelian cohomology|nonabelian]] [[differential cohomology]]-data. In particular the [[first order formulation of gravity]] in terms of Cartan connections has been one of the historical motivations ([Cartan 23](#Cartan23)).
+A _Cartan connection_ is a _[[principal connection]]_ on a [[smooth manifold]] equipped with a certain compatibility condition with the [[tangent bundle]] of the manifold. It combines the concept of [[G-structure]] with that of [[soldering form]]. This combination allows us to express various types of geometric structures on $X$ -- such as notably ([[pseudo-Riemannian metric|pseudo]]-)[[Riemannian geometry]], [[conformal geometry]] and many more (see [below](#TableOfExamples)) -- in terms of [[connection on a bundle|connection]] data, i.e. in terms of [[nonabelian cohomology|nonabelian]] [[differential cohomology]]-data. In particular the [[first order formulation of gravity]] in terms of Cartan connections has been one of the historical motivations ([Cartan 23](#Cartan23)).
 
 In a little bit more detail, a Cartan connection on a manifold $X$ for a given [[subgroup]] inclusion $H \hookrightarrow G$ is data that identifies all the [[tangent spaces]] $T_x X$ of $X$ with the tangent space $\mathfrak{g}/\mathfrak{h} = T_{e H} (G/H)$ of the [[coset space]] [[Klein geometry]] $G/H$, such that the choice of these identifications is transported along compatibly.
 
@@ -88,13 +88,27 @@ More explicitly for various component-realizations of principal connections, thi
 
 See also [Wikipedia -- Cartan connection -- As principal connections](http://en.wikipedia.org/wiki/Cartan_connection#Cartan_connections_as_principal_connections).
 
++-- {: .num_defn #Torsion}
+###### Definition
+
+Given a Cartan connection $\nabla$, def. \ref{Traditional}, its [[torsion]] is the image of its [[curvature]] under the projection $\mathfrak{g} \to \mathfrak{g}/\mathfrak{h}$.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+In the case of vanishing torsion, the resulting [[flat connection|flat]] [[parallel transport]] with values in $G/H$ identifies an [[open neighbourhood]] of each point of $X$ with an open neighbourhood in $G/H$.
+
+=--
+
 
 +-- {: .num_remark}
 ###### Remark
 
 The last clause in def. \ref{Traditional} says that the [[tangent space]] of $X$ at any point $x$ is being identified with the tangent space of the [[homogeneous space]] $G/H$ at the base point $e H$. This may be visualized by imagining that $X$ "tangentially touches" $G/H$ at $x\in X$ and $e H \in G/H$.
 
-But by homogeneity, all the tangent spaces of $G/H$ are [[isomorphism|isomorphic]], and canonically so by [[invariant differential form|left translation]]. Hence by the path-lifting property of [[principal connections]], one may visualize the Cartan connection as describing how the $G/H$ touching $X$ at $x$  "rolls" along paths (infinitesimal paths, vectors) through $x$. This picture of "rolling" is particularly vivid for the case that $(H \hookrightarrow G) = (O(n)\hookrightarrow O(n+1))$ is the inclusion of [[orthogonal groups]], which gives that $G/H = S^n$ is the [[n-sphere]] (for more on this see at _[[conformal connection]]_).
+But by homogeneity, all the tangent spaces of $G/H$ are [[isomorphism|isomorphic]], and canonically so by [[invariant differential form|left translation]]. Hence by the path-lifting property of [[principal connections]], one may (at least for vanishing [[torsion]], def. \ref{Torsion}) visualize the Cartan connection as describing how the $G/H$ touching $X$ at $x$  "rolls" along paths (infinitesimal paths, vectors) through $x$. This picture of "rolling" is particularly vivid for the case that $(H \hookrightarrow G) = (O(n)\hookrightarrow O(n+1))$ is the inclusion of [[orthogonal groups]], which gives that $G/H = S^n$ is the [[n-sphere]] (for more on this see at _[[conformal connection]]_).
 
 This picture of model spaces rolling along was influential in the historical development of the concept of Cartan geometry in the spirit of [[Klein geometry]].
 
@@ -252,7 +266,7 @@ We discuss here some weakining of the above definition of Cartan connection that
 
 ...([Kuranishi 95](#Kuranishi95))...
 
-### Semi-Cartan geometry
+### Torsion-free Semi-Cartan geometry
  {#SemiCartanGeometry}
 
 It is useful to decompose the definition of Cartan connection into two states:
