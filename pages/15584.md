@@ -31,7 +31,7 @@ A finite monoid $M$ is called _graphic_ if all $x,y\in M$ satisfy the so called 
 
 * It follows that a commutative graphic monoid is the same as a [[semilattice]], or equivalently, a commutative monoid where every element is idempotent.
 
-* A graphic monoid is the same as a **unital left shelf**, meaning a set equipped with a binary operation that distributes over itself and has an element $1$ serving as a left and right unit.  For a proof see the [n-Cafe](https://golem.ph.utexas.edu/category/2015/05/the_origin_of_the_word_quandle.html#c049149); for the concept of shelf see [[rack]].
+* A graphic monoid is the same as a **unital [[left shelf]]**, meaning a set equipped with a binary operation that distributes over itself and has an element $1$ serving as a left and right unit.  For a proof see the [n-Cafe](https://golem.ph.utexas.edu/category/2015/05/the_origin_of_the_word_quandle.html#c049149)
 
 
 ##Related Pages
