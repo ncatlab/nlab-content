@@ -184,6 +184,99 @@ which is manifestly the naive definition of [[image]].
 =--
 
 
+### Compatibility with limits
+
+
++-- {: .num_prop}
+###### Proposition
+
+In an [[(∞,1)-topos]] $\mathbf{H}$, the $n$-image of a product is the product of $n$-images:
+
+$$
+  im_n\left(X_1 \times X_2 \stackrel{(f,g)}{\longrightarrow}) X_2 \times Y_2\right)
+  \simeq
+  \left(
+     im_n(f) \times im_n(g)
+     \longrightarrow
+     X_2 \times Y_2
+  \right)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The morphism  $(f,g)$ is the product of $(f,id)$ with $(g,id)$ in the [[slice (∞,1)-topos]] over $X_2 \times Y_2$, namely there is a [[homotopy fiber product]] in $\mathbf{H}$ of the form
+
+$$
+  \array{
+     && X_1 \times Y_1
+     \\
+     & {}^{\mathllap{(id,g)}}\swarrow && \searrow^{\mathrlap{(f,id)}}
+     \\
+     X_1 \times Y_2 && \swArrow_{\simeq} && X_2 \times Y_1
+     \\
+     & {}_{\mathllap{(f,id)}}\searrow && \swarrow_{\mathrlap{(id,g)}}
+     \\
+     && X_2 \times Y_2
+  }
+$$
+
+But by [this proposition](n-truncated+object+of+an+infinity-category#nTruncationInToposPreservesFiniteProducts), $n$-truncation in the slice $\infty$-topos preserves products, so that
+
+$$
+  \begin{aligned}
+     im_n(f,g)
+     & = 
+     \tau_n (f,g)
+     \\
+     & \simeq \tau_n ((f,id)\times_{X_2 \times Y_1} (id,g))
+     \\
+     &\simeq (\tau_n(f,id)) \times_{X_2 \times Y_2} (\tau_n(id,g))
+     \\
+     & \simeq (im_n f, id)\times_{X_2 \times Y_2} (id, im_n g)
+     \\
+     & \simeq (im_n f, im_n g)
+  \end{aligned}
+  \,.
+$$
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+The $n$-image of the [[looping]] of a morphism $f \colon X \to Y$ of [[pointed objects]] is the looping of its $(n+1)$-image
+
+$$
+  im_n (\Omega(f))
+  \simeq
+  \Omega(im_{n+1}(f))
+  \,.
+$$
+
+i.e. we have the following diagram, where the columns are [[homotopy fiber sequences]]
+
+$$
+  \array{  
+    \Omega f \colon 
+     & \Omega X &\longrightarrow& im_n(\Omega f) 
+     &\longrightarrow& \Omega Y
+    \\
+    & \downarrow && \downarrow && \downarrow
+    \\
+    id_\ast \colon & \ast &\longrightarrow & im_{n+1}(id_\ast) \simeq \ast &\longrightarrow& \ast
+    \\
+    & \downarrow && \downarrow && \downarrow
+    \\
+    f\colon & X &\stackrel{}{\longrightarrow}& im_{n+1}(f) &\stackrel{}{\longrightarrow}& Y
+  }
+$$
+
+=--
+
 ## Examples
 
 ### Automorphisms
