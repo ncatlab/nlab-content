@@ -754,7 +754,8 @@ For $G$ and $A$ 0-truncated groups, $A$ an [[abelian group]] with $G$-[[module]]
 
 =--
 
-#### Actions in slice
+#### Actions in a slice
+ {#ExamplesActionsInASlice}
 
 Consider an object $B \in \mathbf{H}$ and an object 
 
@@ -784,13 +785,13 @@ $$
   \,.
 $$
 
-Hence the canonical $\mathbf{Aut}(L)$-action on $L$ in the slice pulls back to give an action 
+Hence the canonical $\mathbf{Aut}(L)$-action on $L$ in the slice pulls back to give an action of $B^\ast \mathbf{Aut}_{\mathbf{H}}(L)$ on $L$:
 
 $$
   \array{
      L
      &\longrightarrow&
-     L//\mathbf{Aut}_{\mathbf{H}}(L) 
+     L//(B^\ast\mathbf{Aut}_{\mathbf{H}}(L))
      &\longrightarrow&
      L//\mathbf{Aut}(L)
      \\
@@ -804,11 +805,69 @@ $$
   }
 $$
 
-Since the [[dependent sum]] $\underset{B}{\sum}$ preserves [[fiber products]] (by the discussion [here](limit+in+a+quasi-category#InOvercategories) and using that the inclusion of the [[cospan]] into its cocone is [[final functor|final]])
+
+
++-- {: .num_prop #AutomorphismActionInSliceInducingActionOnSum}
+###### Proposition
+
+Underlying the $B^\ast\mathbf{Aut}_{\mathbf{H}}(L)$-action on  $L$ is an $\mathbf{Aut}_{\mathbf{H}}(L)$-action on 
+
+$$
+  X  \coloneqq \underset{B}{\sum} L
+$$
+
+and 
+
+$$
+  \underset{B}{\sum} \left(L//B^\ast\mathbf{Aut}_{\mathbf{H}}(L)\right)
+  \;\simeq\;
+   X//\mathbf{Aut}_{\mathbf{H}}(L)
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Applying $\underset{B}{\sum}$ to the Cartesian diagram that defines the $\infty$-action on $L$
+
+
+$$
+  \array{
+     L
+     &\longrightarrow&
+     L//\mathbf{Aut}_{\mathbf{H}}(L) 
+     \\
+     \downarrow && \downarrow 
+     \\
+     \ast
+     &\longrightarrow&
+     \mathbf{B}B^\ast \mathbf{Aut}_{\mathbf{H}}(L)
+  }
+$$
+
+yields
+
+$$
+  \array{
+     X
+     &\longrightarrow&
+     \underset{X}{\sum} \left( L//\mathbf{Aut}_{\mathbf{H}}(L)  \right)
+     \\
+     \downarrow && \downarrow 
+     \\
+     B
+     &\longrightarrow&
+     \underset{B}{\sum} B^\ast \mathbf{B} \mathbf{Aut}_{\mathbf{H}}(L)
+  }
+$$
+
+which is still Cartesian, by [this proposition](dependent+sum#AbsoluteDependentSumPreservesFiberProducts). Use that the bottom left object here is equivalently $B \simeq \underset{B}{\sum} B^\ast (\ast)$ and form the
+[[pasting diagram|pasting]] with the [[naturality square]] of the $(\underset{B}{\sum}\dashv B^\ast)$-[[counit of an adjunction|counit]].
 
 $$
   \array{ 
-     X &\longrightarrow& \underset{B}{\sum} L//\mathbf{Aut}_{\mathbf{H}}(L)
+     X &\longrightarrow& \underset{B}{\sum} \left(L//\mathbf{Aut}_{\mathbf{H}}(L)\right)
      \\
      \downarrow && \downarrow
      \\
@@ -820,7 +879,59 @@ $$
      \\
      \ast &\longrightarrow& \mathbf{B}\mathbf{Aut}_{\mathbf{H}}(L)
   }
+  \,.
 $$
+
+By [this proposition](dependent+sum#NaturalitySquareOfCounitIsPullback) also this naturality square is Cartesian. Hence by the [[pasting law]] the total rectangle is Cartesian. This exhibits the $\mathbf{Aut}_{\mathbf{H}}(L)$-action on $X = \underset{B}{\sum} L$.
+
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+Stated more intuitively, prop. \ref{AutomorphismActionInSliceInducingActionOnSum} says that sliced automorphisms of the form
+
+$$
+  \mathbf{Aut}_{\mathbf{H}}(L)
+  =
+  \left\{
+    \array{
+      X & & \stackrel{\simeq}{\longrightarrow} & & X
+      \\
+      & {}_{\mathllap{L}}\searrow &\swArrow_{\simeq}& \swarrow_{\mathrlap{L}}
+      \\
+      && B 
+    }
+  \right\}
+$$
+
+act on $X$ by the evident restriction to the horizontal equivalences, 
+
+$$
+  \left\{
+    \array{
+      X & & \stackrel{\simeq}{\longrightarrow} & & X
+    }
+  \right\}
+$$
+
+and that forming the homotopy quotient of this action on $L$ makes $L$ [[descent]] to the homotopy quotient of $X$ by this action to yield
+
+$$
+  \array{
+     X // \mathbf{Aut}_{\mathbf{H}}(L)
+     \\
+     \downarrow^{\mathrlap{L//\mathbf{Aut}_{\mathbf{H}}(L)}}
+     \\
+     B
+  }
+  \,.
+$$
+
+(For instance if here $B$ is a [[moduli stack]] for some [[prequantum n-bundles]], then this says that the [[quantomorphism n-group]] acting on this gives higher and pre-quantized "[[symplectic reduction]]" of these bundles to the quotient space.)
+
+=--
 
 
 ### Infinitesimally: actions of $L_\infty$-algebroids
