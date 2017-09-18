@@ -28,9 +28,9 @@ In a general [[category]] [[coproducts]] need not have the expected disjointness
 
 Given any family $(A_i)_{i:I}$ of sets, the (external) __disjoint union__ $\biguplus_i A_i$ (also written $\sum_i A_i$, $\coprod_i A_i$, etc) of the family is the set of all (ordered) pairs $(i,a)$ with $i$ in the index set $I$ and $a$ in $A_i$.
 
-As stated, the second element of such a pair depends on the first element, which is natural in [[dependent type theory]] (see at _[[dependent sum type]]_) and certainly feasible in [[material set theory]]; but if you don't like this, then define $\biguplus_i A_i$ to be the set of those elements $x$ of the [[cartesian product]] $\prod_i \mathcal{P}A_i$ of the [[power sets]] such that there is exactly one index $j$ such that $x_j$ is [[inhabited set|inhabited]] and that $x_j$ is a [[singleton]].  If you\'re trying to be [[predicative mathematics|predicative]] too, consider adopting the existence of disjoint unions as an axiom (the __axiom of disjoint unions__) in your [[foundations]].
+As stated, the type of the second element of such a pair depends on the first element, which is natural in [[dependent type theory]] (see at _[[dependent sum type]]_) and no problem for [[material set theory]], but it may be ill formed in a [[structural set theory]] or in some forms of [[type theory]], especially those based on the [[internal language]] of [[topos theory]].  Alternatively, one may define $\biguplus_i A_i$ to be the set of those elements $x$ of the [[cartesian product]] $\prod_i \mathcal{P}A_i$ of the [[power sets]] such that there is exactly one index $j$ such that $x_j$ is [[inhabited set|inhabited]] and that $x_j$ is a [[singleton]].  If you\'re trying to be [[predicative mathematics|predicative]] too, then you may need to simply adopt the existence of disjoint unions as an axiom (the __axiom of disjoint unions__) in your [[foundations]], stating the following facts about it.
 
-There is a natural [[injection]] $A_j \to \biguplus_i A_i$ (mapping $a$ to $(j,a)$) for each index $j$, and it is common to treat $A_j$ as a [[subset]] of $\biguplus_i A_i$. So if no confusion can result (in particular, when the notation for an element of $A_j$ always makes the ambient set clear), one often suppresses the index in the notation for an element of the disjoint union.
+There is a natural [[injection]] $A_j \to \biguplus_i A_i$ (mapping $a$ to $(j,a)$, or mapping $a$ to $(i \mapsto \{a \;|\; i = j\})$) for each index $j$.  Conversely, for each element $x$ of $\biguplus_i A_i$, there is a unique index $j$ and such that $x$ is in the [[image]] of the injection from $A_j$.  It is common to treat $A_j$ as a [[subset]] of $\biguplus_i A_i$; so if no confusion can result (in particular, when the notation for an element of $A_j$ always makes the ambient set clear), one often suppresses the index in the notation for an element of the disjoint union.
 
 
 ## Special cases
@@ -64,6 +64,7 @@ Accordingly, a union of pairwise disjoint subsets may be called an __internal di
 * [[Cartesian product]]
 
 * [[disjoint union topological space]]
+
 
 category: foundational axiom
 
