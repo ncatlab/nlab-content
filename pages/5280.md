@@ -72,7 +72,7 @@ j(y) & = & f^{-1}(y) & \; \text{if} \; y \in \exists_f(A) \\
 j(y) & = & g(y) & \; \text{if} \; y \notin \exists_f(A)
 }$$
 
-That $j$ is inverse to $h$ uses the fact that $\neg S = \exists_g \neg \exists_f(S)$. The rest is obvious. 
+That $j$ is inverse to $h$ uses the fact that $\neg A = \exists_g \neg \exists_f(A)$. The rest is obvious. 
 =--
 
 This classic proof is substantially the proof given in Johnstone's [[Elephant]], D4.1.11. The Boolean condition is not strictly speaking necessary, i.e., the [[principle of excluded middle]] ($EM$) does not logically follow from the Cantor--Schroeder--Bernstein statement since, for example, the latter holds vacuously (every mono is an iso) in the non-Boolean topos 
@@ -89,7 +89,7 @@ A time-honored way of constructing a fixed point of an operator $\phi$ is by tak
 
 +-- {: .num_lemma #chain} 
 ###### Lemma 
-If $g: Y \to X$ is monic, then the operator $\exists_f: P Y \to P X$ preserves limits of inverse chains $\omega^{op} \to P Y$ (i.e. intersections of decreasing sequences). 
+If $g: Y \to X$ is monic, then the operator $\exists_g: P Y \to P X$ preserves limits of inverse chains $\omega^{op} \to P Y$ (i.e. intersections of decreasing sequences). 
 =-- 
 
 +-- {: .proof} 
@@ -98,7 +98,7 @@ More generally, $\exists_g$ preserves [[connected limits]], because it lifts thr
 
 In more detail: by [[Frobenius reciprocity]], we have $\exists_g T \wedge S = \exists_g(T \wedge g^\ast S)$ for elements $S$ of $P X$ and $T$ of $P Y$. Putting $T = 1$, we get $\exists_g 1 \wedge S = \exists_g g^\ast S$, and so the composite 
 
-$$P X \downarrow \exists_g 1 \stackrel{g^\ast}{\to} P Y \stackrel{\exists_g}{\to} P Y \downarrow \exists_g 1$$ 
+$$P X \downarrow \exists_g 1 \stackrel{g^\ast}{\to} P Y \stackrel{\exists_g}{\to} P X \downarrow \exists_g 1$$ 
 
 is the identity. But since $g$ is monic, $g^\ast \exists_g: P Y \to P Y$ is also the identity, which completes the proof. 
 =-- 
