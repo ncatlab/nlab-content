@@ -423,7 +423,7 @@ Given that we made it to this point, we should go one small step further that wi
 
 In the present simple example we worked with a cover given by just two objects $U_1$ and $U_2$. Of course in general the cover will consist of more than just two objects. Then the above kind of notation becomes a bit cumbersome.  But there is a simple reformulation that makes everything look nice again.
 
-Namely, let's come back to the observation that the coproduct $Y(U_1) \amalg Y(U_2)$ does exist. Let's just call this presheaf $\mathbf{U}$. (not in general a [[representable functor|representable]]!).
+Namely, let's come back to the observation that the coproduct $Y(U_1) \amalg Y(U_2)$ does exist. Let's just call this presheaf $\mathbf{U}$ (not in general a [[representable functor|representable]]!).
 
 Then it is easy to see by the same kind of objectwise reasoning that the colimiting presheaf that we are after is equivalently the colimit over the pair of [[parallel morphisms]]
 
