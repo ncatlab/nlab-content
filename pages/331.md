@@ -154,11 +154,17 @@ See also at _[categorical model theory](model%20theory#CategoricalModelTheory)_.
 ## References
 
 ### General
+ {#General}
 
-Historically, in some philosophical circles 'logic' was understood in a broader sense:
+For centuries, logic was [[Aristotle's logic]] of [[deduction]] by [[syllogism]]. In the 19th century the idea of [[objective logic]] as [[metaphysics]] was influential
 
 * [[Hegel]], _Wissenschaft der Logik_ ( _[[Science of Logic]]_ )
 
+This "old logic" was famously criticized 
+
+* [[Bertrand Russell]], _[[Logic as the Essence of Philosophy]]_, 1914
+
+as opposed to the "new logic" of [[Peano]] and [[Frege]], contemporary [[predicate logic]].
 
 
 ### On categorical logic
