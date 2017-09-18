@@ -125,6 +125,36 @@ for $F_m$ a [[finite group]].
 
 The [[Nishida nilpotence theorem]]...
 
+### Relation to the framed bordism ring
+
+By [[Thom's theorem]], for any [[(B,f)-structure]] $\mathcal{B}$, there is an [[isomorphism]] (of [[commutative rings]])
+
+$$
+  \Omega^{\mathcal{B}}_\bullet
+  \overset{\simeq}{\longrightarrow}
+  \pi_\bullet(M\mathcal{B})
+$$
+
+from the [[cobordism ring]] of manifolds with stable normal $\mathcal{B}$-structure to the [[homotopy groups of a spectrum|homotopy groups]] of the universal $\mathcal{B}$-[[Thom spectrum]]. 
+
+Now for $\mathcal{B} = Fr$ bei g [[framing]] structure, then 
+
+$$
+  M Fr \simeq \mathbb{S}
+$$
+
+is equivalently the [[sphere spectrum]]. Hence in this case [[Thom's theorem]] states that there is an isomorphism
+
+$$
+  \Omega^{fr}_\bullet
+  \overset{\simeq}{\longrightarrow}
+  \pi_\bullet(\mathbb{S})
+$$
+
+between the framed cobordism ring and the stable homotopy groups of spheres.
+
+For discussion of computation of $\pi_\bullet(\mathbb{S})$ this way, see for instance ([Wang-Xu 10, section 2](#WangXu10)) and ([Putnam](#Putnam)).
+
 
 ### J-homomorphism and Adams e-invariant
 
@@ -188,11 +218,16 @@ Introductions and surveys include
 
 * Alex Writght, _Homotopy groups of spheres: A very basic introduction_ ([pdf](http://web.stanford.edu/~amwright/HomotopyGroupsOfSoheres.pdf))
 
+* {#WangXu10} [[Guozhen Wang]], Zhouli Xu _A survey of computations of homotopy groups of Spheres and Cobordisms_, 2010 ([pdf](http://math.mit.edu/~guozhen/homotopy%20groups.pdf))
+
+* {#Putnam} [[Andrew Putman]], _Homotopy groups of spheres and low-dimensional topology_ ([pdf](http://www.math.rice.edu/~andyp/notes/HomotopySpheresLowDimTop.pdf))
+
 * {#Hatcher} [[Alan Hatcher]], _Stable homotopy groups of spheres_ ([html](http://www.math.cornell.edu/~hatcher/stemfigs/stems.html))
 
 * [[Mark Mahowald]], [[Doug Ravenel]], _Towards  a Global Understanding of the Homotopy Groups of Spheres_ ([pdf](http://www.math.rochester.edu/people/faculty/doug/mypapers/global.pdf))
 
 * [[Haynes Miller]], [[Doug Ravenel]], _Mark Mahowald's work on the homotopy groups of spheres_ ([pdf](http://www-math.mit.edu/~hrm/ksem/miller-ravenel.pdf))
+
 
 * [[eom]], _[Spheres, homotopy groups of the](http://www.encyclopediaofmath.org/index.php/Spheres,_homotopy_groups_of_the)_
 
