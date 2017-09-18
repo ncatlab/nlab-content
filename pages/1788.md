@@ -10,7 +10,7 @@ For $n \in \mathbb{N}$, define the abelian group
 $$
   (im_{n+1}(f))_n
     \coloneqq      
-   \underset{v_{n-1} \in V_{n-1}}{\oplus}
+   \underset{v_{n-1} \in V_{n-1}}{\sqcup}
     \left\{
       f_n(v_n) \vert \partial v_n = v_{n-1}
     \right\}
