@@ -145,8 +145,9 @@ saying that two such functions are related precisley if either there exists a ch
 
 =--
 
-+-- {: .num_lemma}
++-- {: .num_lemma #TangencyIsEquivalenceRelation}
 ###### Lemma
+**(tangency is equivalence relation)**
 
 The two relations in def. \ref{TangencyRelationOnSmoothCurves} are [[equivalence relations]] and they coincide.
 
@@ -165,14 +166,14 @@ $$
 
 for the intersection of the two charts.
 
-First of all, since the derivative may be computed in any [[open neighbourhood]] around $t = 0$, and since the differentiable functions $\gamma_i$ are in particular [[continuous functions]], we may restrict to 
+First of all, since the derivative may be computed in any [[open neighbourhood]] around $t = 0$, and since the differentiable functions $\gamma_i$ are in particular [[continuous functions]], we may restrict to the open neighbourhood
 
 $$
   V \coloneqq \gamma_1^{-1}( U_{i j} ) \cap \gamma_2^{-1}(U_{i j})
-  \;\subset\; $\mathbb{R}$
+  \;\subset\; \mathbb{R}
 $$
 
-and consider the derivatives of the functions
+of $0 \in \mathbb{R}$ and consider the derivatives of the functions
 
 $$
   \gamma_i^{\phi}
@@ -189,7 +190,7 @@ $$
   \,.
 $$
 
-But then by definition of the smooth [[atlas]], the there is the smooth function
+But then by definition of the differentiable [[atlas]], there is the differentiable function
 
 $$
   \alpha
@@ -233,29 +234,72 @@ $$
 Finally that either relation is an equivalence relation is immediate.
 
 
-
 =--
 
 
 
-+-- {: .num_defn}
++-- {: .num_defn #TangentVector}
+###### Definition
+**([[tangent vector]])
+
+Let $X$ be a [[differentiable manifold]] and $x \in X$ a point. Then a _tangent vector_ on $X$ at $x$ is an [[equivalence class]] of the the tangency equivalence relation (def. \ref{TangencyRelationOnSmoothCurves}, lemma \ref{TangencyIsEquivalenceRelation}).
+
+The set of all tangent vectors at $x \in X$ is denoted $T_x X$.
+
+=--
+
++-- {: .num_lemma #LinearTangentSpace}
+###### Lemma
+
+For $X$ a [[differentiable manifold]] of [[dimension]] $n$ and $x \in X$ any point, 
+and let $\mathbb{R}^n \underoverset{\simeq}{\phi}{\to} U_i \subset X$ be a [[chart]] with $x \in U_i$.
+
+Then there is a [[bijection]] of sets
+
+$$
+  \mathbb{R}^n \overset{\simeq}{\longrightarrow}  T_x X 
+$$
+
+from the $n$-dimensional [[Cartesian space]] to the set of tangent vectors at $x$ (def. \ref{TangentVector}) given by sending $\vec v \in \mathbb{R}^n$ to the equivalence class of the following smooth curve:
+
+$$
+  \array{
+    \mathbb{R}^1 
+      &\overset{\gamma^\phi_{(-)}}{\longrightarrow}& 
+   \mathbb{R}^n
+      &\underoverset{\simeq}{\phi}{\longrightarrow}& 
+    U_i
+    \subset X
+    \\
+    t 
+      &\overset{\phantom{AAA}}{\mapsto}& 
+    t \vec v + \phi(x)
+      &\overset{\phantom{AAA}}{\mapsto}&
+    \phi^{-1}(t \vec v + \phi(x))
+  }
+  \,.
+$$
+
+Moreover, the structure of a [[real vector space]] inherited by $T_x X$ from $\mathbb{R}^n$ via $\phi$ this way is independent of the choice of $\phi$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The bijectivity of the map is immediate from the fact that the first derivative of $\gamma_{\vec v}^\phi$ is $\vec v$. The independency from the choice of chart follows as in the proof of lemma \ref{TangencyIsEquivalenceRelation}.
+
+=--
+
++-- {: .num_defn #TangentSpace}
 ###### Definition
 
-Let $X$ be a [[smooth manifold]] and $x \in X$ a point. The a _tangent vector_ on $X$ at $x$ is an [[equivalence class]] of the set of [[smooth functions]] of the form
-
-$$
-  f \;\colon\; \mathbb{R}^1 \longrightarrow X
-$$
-
-such that $f(0) = x$ under the [[equivalence relation]]
-
-$$
-  (f_1 \sim f_2)
-  \;\Leftrightarrow\;
-  ()
-$$
+For $X$ a [[differentiable manifold]] and $x \in X$ a point, then the _[[tangent space]]_ of $X$ at $x$ is the set $T_x X$ of [[tangent vectors]] at $x$ (def. \ref{TangentVector}) regarded as a [[real vector space]] via lemma \ref{LinearTangentSpace}.
 
 =--
+
+
+
 
 
 A particularly important case is when $c$ is a level curve in some system of local coordinates $(x^1,\ldots,x^n)$ at $a$; that is, $c^i(t)$ is the point whose $i$th coordinate is $t$ and whose other coordinates are the same as at $a$.  The local tangent vector field given by these curves may be written $\partial/\partial{x^i}$ or $\partial_i$ (note the placement of the scripts).  This is because, if a function $f$ defined on that coordinate patch is identified with a function $f(x^1,\ldots,x^n)$ of $n$ real variables, then $\partial_i f$ becomes identified with the partial derivative $\partial{f(x^1,\ldots,x^n)}/\partial{x^i}$.  In general, a local vector field $v$ on such a coordinate patch can be written
