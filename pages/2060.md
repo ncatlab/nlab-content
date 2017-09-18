@@ -60,9 +60,12 @@ $$
 
 =--
 
-The [[∞-functor]] $Z|_{\infty Grpd} \to \infty Grpd^{op}$ is even a [[right fibration]] and it is the _universal right fibration_. 
++-- {: .num_remark }
+###### Remark
 
-It is closely related to the [[object classifier]] in [[∞Grpd]].
+The [[∞-functor]] $Z|_{\infty Grpd} \to \infty Grpd^{op}$ is even a [[right fibration]] and it is the _universal right fibration_. In fact it is (when restricted to small objects) the [[object classifier]] in the [[(∞,1)-topos]] [[∞Grpd]], see at [object classifier -- In ∞Grpd](%28sub%29object+classifier+in+an+%28infinity%2C1%29-topos#ObjectClassifierInInfinityGroupoid).
+
+=--
 
 +-- {: .num_prop }
 ###### Proposition
@@ -137,3 +140,6 @@ The concrete description in terms of model theory on marked simplicial sets is i
 [[!redirects universal right fibration]]
 
 [[!redirects universal Cartesian fibration]]
+
+[[!redirects universal fibration of ∞-groupoids]]
+
