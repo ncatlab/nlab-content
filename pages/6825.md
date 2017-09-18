@@ -22,7 +22,7 @@
 
 The _anti de Sitter group_ is the [[isometry group]] $O(d-1,2)$ of $d$-dimensional [[anti de Sitter spacetime]]. ([[orthogonal group]] for [[signature]] $(d-1,2)$)
 
-This is [[analogy|analogous]] to how the [[Poincare group]] is the isometry groip of [[Minkowski spacetime]].
+This is [[analogy|analogous]] to how the [[Poincare group]] is the isometry group of [[Minkowski spacetime]].
 
 The connected component $SO(d-1,2)$ of the anti de Sitter group is [[isomorphism|isomorphic]] to the connected component of the [[conformal group]] of $\mathbb{R}^{d-2,1}$. This is the basis of the [[AdS-CFT correspondence]].
 
