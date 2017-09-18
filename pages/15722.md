@@ -90,7 +90,9 @@ $$
 
 That the Selberg/Ruelle zeta function is equivalently an [[Euler product]] of [[characteristic polynomials]] is due to ([Gangolli 77, (2.72)](#Gangolli77) [Fried 86, prop. 5](#Fried86)).
 
-That it is in particular the Euler product of characteristic polynomials of the [[determinants]] of the [[monodromies]] of the [[flat connection]] corresponding to the given [[group representation]] is ([Bunke-Olbrich 94, prop. 6.3](#BunkeOlbrich94)) for the even-dimensional case and ([Bunke-Olbrich 94a, def. 4.1](#BunkeOlbrich94a)) for the odd-dimensional case. This is [[analogy|analogous]] to the standard definition of an [[Artin L-function]] if one interprets a) a [[Frobenius map]] $Frob_p$ (as discussed there) as an element of the arithmetic fundamental group of an [[arithmetic curve]] and b) a [[Galois representation]] as a [[flat connection]].
+That it is in particular the Euler product of characteristic polynomials of the [[determinants]] of the [[monodromies]] of the [[flat connection]] corresponding to the given [[group representation]] is ([Bunke-Olbrich 94, prop. 6.3](#BunkeOlbrich94)) for the even-dimensional case and ([Bunke-Olbrich 94a, def. 4.1](#BunkeOlbrich94a)) for the odd-dimensional case. (Or rather, the [[Ruelle zeta function]] ([Bunke-Olbrich 94a, def. 5.1](#BunkeOlbrich94a))).
+
+This is [[analogy|analogous]] to the standard definition of an [[Artin L-function]] if one interprets a) a [[Frobenius map]] $Frob_p$ (as discussed there) as an element of the arithmetic fundamental group of an [[arithmetic curve]] and b) a [[Galois representation]] as a [[flat connection]].
 
 So under this analogy both the Selberg zeta function for hyperbolic 3-manifolds as well as the [[Artin L-function]] for a [[number field]] both are like an [[infinite product]] over primes ([[prime geodesics]] in one case, [[prime ideals]] in the other, see also at _[Spec(Z) -- As a 3-dimensional space conraining knots](Spec%28Z%29#As3dSpaceContainingKnots)_) of determinants of monodromies of the given flat connection.
 
@@ -106,6 +108,17 @@ $$
 $$
 
 ([Millson 78](#Millson78), [Bunke-Olbrich 94a, prop. 4.5](#BunkeOlbrich94a), [Park 01, theorem 1.2](#Park01), [Guillarmou-Moroianu-Park 09](#GuillarmouMoroianuPark09)). 
+
+### Relation to analytic torsion 
+ {#RelationToAnalyticTorsion}
+
+The [[Ruelle zeta function]] at 0 gives a power of [[analytic torsion]]
+
+([Fried 86](#Fried86), [Bunke-Olbrich 94a, theorem 5.5.](#BunkeOlbrich94a))
+
+* [analytic torsion -- relation to Selberg zeta function](analytic+torsion#RelationToSelbergZeta)
+
+
 
 ### Relation to prime geodesic asymptotics
 
@@ -156,6 +169,9 @@ Discussion of the relation between, on the one hand, [[zeta function of an ellip
 * {#BunkeOlbrich94} [[Ulrich Bunke]], Martin Olbrich, _Theta and zeta functions for locally symmetric spaces of rank one_ ([arXiv:dg-ga/9407013](http://arxiv.org/abs/dg-ga/9407013))
 
 and for odd-dimensional spaces also in
+
+* {#Fried86} [[David Fried]], _Analytic torsion and closed geodesics on hyperbolic manifolds_, Invent. math. 84, 523-540 (1986) ([pdf](http://gdz-lucene.tc.sub.uni-goettingen.de/gcs/gcs?&&action=pdf&metsFile=PPN356556735_0084&divID=LOG_0026&pagesize=original&pdfTitlePage=http://gdz.sub.uni-goettingen.de/dms/load/pdftitle/?metsFile=PPN356556735_0084%7C&targetFileName=PPN356556735_0084_LOG_0026.pdf&))
+
 
 * {#Millson78} [[John Millson]], _Closed geodesic and the $\eta$-invariant_, Ann. of Math., 108, (1978) 1-39 ([jstor](http://www.jstor.org/stable/1970928))
 
