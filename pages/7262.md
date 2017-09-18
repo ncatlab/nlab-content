@@ -53,3 +53,8 @@ Reviews include
 
 * {#Nicolai08} [[Hermann Nicolai]], _Wonders of $E_{10}$ and $K(E_{10})$_ (2008) ([pdf](http://ipht.cea.fr/Pisp/pierre.vanhove/Paris08/talk_PDF/nicolai.pdf))
 
+Discussion of [[phenomenology]] includes
+
+* [[Axel Kleinschmidt]], [[Hermann Nicolai]], _Standard model fermions and $K(E_{10})$_ ([arXiv:1504.01586](https://arxiv.org/abs/1504.01586))
+
+
