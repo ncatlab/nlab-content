@@ -34,10 +34,10 @@ A **quasi-category** or **[[weak Kan complex]]** is a [[simplicial set]] $C$ sat
 * the morphism of simplicial sets
 
   $$
-    sSet(\Delta[2],C) \to sSet(\Lambda[2]_1,C)
+    sSet(\Delta[2],C) \to sSet(\Lambda^1[2],C)
   $$
 
-  (induced from the inner [[horn]] inclusion $\Lambda[2]_1 \to \Delta[2]$)
+  (induced from the inner [[horn]] inclusion $\Lambda^1[2] \to \Delta[2]$)
   is an acyclic [[Kan fibration]].
 
 =--
