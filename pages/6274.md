@@ -13,6 +13,8 @@ In terms of [[Cartan geometry]] conformal structure is expressed by [[conformal 
 
 ## Related concepts
 
+* [[conformal transformation]]
+
 * [[CFT]]
 
 * [[twistor space]]
