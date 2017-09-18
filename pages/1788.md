@@ -1,2 +1,60 @@
-
-no sand, nowhere
+$$
+  \array{
+    {Subjektive \atop Logik}{}&&\stackrel{Begriffe}{}
+    \\
+    \\
+    && && &&  && \vdots && \vdots
+    \\
+    && && && 
+    \stackrel{Existenz}{}
+    &\stackrel{Form}{} & &#643; 
+    &
+     \stackrel{Ding}{
+       \stackrel{Materie/Eichfelder}{\dashv}
+     }
+     & \flat &
+     \stackrel{Inhalt}{}
+    \\
+    && && && && \bot && \bot
+    \\
+    && && &&  && \flat &\dashv& \sharp & \stackrel{abs.\,Grund}{}
+    \\
+    && && &&&& \vee &\stackrel{Aufhebung \atop {des\;Widerspruchs}}{}& \vee 
+    \\
+    && &&&&\stackrel{}{}&\stackrel{falsch}{}& \emptyset &\stackrel{abs.\,Widerspruch}{\dashv}& \ast & \stackrel{wahr}{}
+    \\
+    \\
+    && && \stackrel{Wesen}{} && &\stackrel{Moeglichkeit}{}& \lozenge &\stackrel{abs. Wirklichkeit}{\dashv}& \Box & \stackrel{Notwendigkeit}{}
+    \\
+    &&\stackrel{best.\; Reflexionen}{}&& &&  &\stackrel{setzende \atop Reflexion}{} &  &\stackrel{\stackrel{\stackrel{\vdots}{Type_2}}{Type_1}}{Type_0}&  & \stackrel{auessere \atop Reflexion}{} 
+    \\
+    \\
+    && && &&\stackrel{An\& Fuersichsein}{}&& id &\stackrel{}{\dashv}& id
+    \\
+    {Objektive \atop Logik}{} && && &&&& \vee &\stackrel{{Aufhebung \atop {der\;Differenzen}}}{}& \vee 
+    \\
+    && && &&& \stackrel{{Verschwinden\;der}\atop Infinitesimalen}{}& \Re &\stackrel{Realitaet}{\dashv}& &#643;_{inf}
+    \\
+    && && \stackrel{Unendlichkeit}{} &&&& \bot &\stackrel{Idee}{}& \bot 
+    \\
+    && && &&\stackrel{Fuersichsein}{} && &#643;_{inf} 
+    &\stackrel{Idealitaet /}{\stackrel{inf.\,Qualitaet}{\dashv}}& \Im &&\stackrel{Fuer-eines-sein}{}
+    \\
+    && \stackrel{Die\;Kategorien}{}&& &&&& \vee &\stackrel{{Aufhebung \atop {der\;Endlichkeit}}}{}& \vee 
+    \\
+    && && &&\stackrel{Ansichsein}{}&\stackrel{Attraktion}{}& 
+    &#643; 
+    &\stackrel{Etwas}{\stackrel{Qualitaet}{\dashv}}& 
+   \flat & \stackrel{Repulsion}{} & 
+    \stackrel{Sein-fuer-Anderes}{}
+    \\
+    && && &&&& \bot &\stackrel{Eichmass}{}& \bot 
+    \\
+    && && \stackrel{Endlichkeit}{} &&\stackrel{Dasein}{}&\stackrel{Diskretion}{}& \flat &\stackrel{Quantitaet}{\dashv}& \sharp & \stackrel{Kontinuitaet}{}
+    \\
+    && && &&&& \vee &\stackrel{Aufhebung \atop {des\;Werdens}}{}& \vee 
+    \\
+    && &&&&\stackrel{reines\;Sein}{}&\stackrel{Nichts}{}& \emptyset &\stackrel{Werden}{\dashv}& \ast & \stackrel{Sein}{}
+    \\
+  }
+$$
