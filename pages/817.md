@@ -132,9 +132,15 @@ commutes. Evidently, this means that the elements $\eta$ of the [[end]] $\int_{c
 
 ## References
 
-See [section 2.2 p. 29](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf#page=29)
-of the standard
+An original article is
 
-* [[Max Kelly]], _Basic concepts of enriched category theory_ ([pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf))
+* [[Brian Day]] [[Max Kelly]], _Enriched functor categories_, Reports
+of the Midwest Category Seminar III (Lecture Notes in Mathematics, Volume 106, 1969), 178 - 191.
+
+Review includes
+
+* {#Day70} [[Brian Day]], _On closed categories of functors_, Reports of the Midwest Category Seminar IV, Lecture Notes in Mathematics Vol. 137. Springer-Verlag, 1970, pp 1-38 ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/DayReport.pdf))
+
+* [[Max Kelly]], [section 2.2 p. 29](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf#page=29) of _Basic concepts of enriched category theory_ ([pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf))
 
 [[!redirects enriched functor categories]]
