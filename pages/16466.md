@@ -1170,7 +1170,7 @@ such that
 
   $$
     \array{
-       A^\ast \otimes (A \otimes A \ast)
+       A^\ast \otimes (A \otimes A^\ast)
          &\overset{id_{A^\ast} \otimes i_A}{\longleftarrow}&
        A^\ast \otimes 1
        \\
@@ -1211,14 +1211,86 @@ If in a [[monoidal category]] $(\mathcal{C}, \otimes, 1)$ every object has a lef
 =--
 
 
-...[[rigid monoidal category]]...
-
 +-- {: .num_example }
 ###### Example
 
-[[finite dimensional vector spaces]]
+Let 
 
-(duals,....)
+$$
+  FinVect_k \hookrightarrow Vect_k
+$$
+
+be the [[full subcategory]] of that of all [[vector spaces]] (over the given [[ground field]] $k$) on those which are [[finite dimensional vector spaces]].
+
+Clearly the [[tensor product of vector spaces]] (def. \ref{TensorProductOfVectorSpaces}) restricts to those of [[finite number|finite]] [[dimension]], and so there is the induced [[monoidal category]] structure from example \ref{VectAsAMonoidalCategory}
+
+$$
+  (FinVect_k, \otimes = \otimes_k, 1 = k )
+   \hookrightarrow
+  (Vect_k, \otimes_k, k)
+  \,.
+$$
+
+This is a a [[rigid monoidal category]] (def. \ref{DualizableObject}) in that for $V$ any [[finite dimensional vector spaces]], its ordinary linear [[dual vector space]] 
+
+$$
+  V^\ast \coloneqq hom(V,k)
+$$
+
+is a  [[dual object]] in the abstract sense of def. \ref{DualizableObject}. 
+
+Here the evaluation map is literally the defining [[evaluation]] map of linear duals (whence the name of the abstract concept)
+
+$$
+  ev_{V} \;\colon\;  V^\ast \otimes_k V \simeq hom(V,k) \otimes_k k \overset{}{\longrightarrow} k
+$$
+$$
+  ev
+    \;\colon\;
+  (V \stackrel{\phi}{\to} k, v)
+  \;\;\mapsto \;\;
+  \phi(v)
+  \,.
+$$
+
+The co-evaluation map 
+
+$$
+  i_V
+    \;\colon\;
+  k \longrightarrow V \otimes V^\ast
+$$
+
+is the linear map that sends $1 \in k$ to $id_V \in End(V) \simeq V \otimes_k V^\ast$ under the canonical identification of $V \otimes_k V^\ast$ with the linear space of [[linear map|linear]] [[endomorphisms]] of $V$.
+
+If we choose a [[linear basis]] $\{e_i\}$ for $V$ and a corresponding dual bases $\{e^i\}$ of $V^\ast$, then the evaluation map is given by
+
+$$
+  ev \;\colon\; (e^i, e_j) \mapsto e^i(e_j) =  \delta^i_j
+$$
+
+(with the [[Kronecker delta]] on the right) and the co-evaluation map is given by
+
+$$
+  1 \mapsto \underset{i}{\sum} (e_i,  e^i)
+  \,.
+$$
+
+In this perspective the [[triangle identities]] are the statements that
+
+$$
+  \underset{j}{\sum} e^i(e_j) e^j = e^i
+$$
+
+and
+
+$$
+  \underset{j}{\sum} e_j e^j(e_i) = e_i
+  \,.
+$$
+
+Physicists will recognize this as just the basic rules for [[tensor]] calculus in index-notation.
+
 
 =--
 
