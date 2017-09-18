@@ -230,7 +230,7 @@ The operation of $\underset{p \in J}{\otimes} \mathbb{Z}/p\mathbb{Z}$-localizati
 
 Specifically 
 
-1. for $J = \{p\}$ a single prime then $\mathbb[Z}/p\mathbb{Z}$-localization is called **localization away from $p$**;
+1. for $J = \{p\}$ a single prime then $\mathbb{Z}/p\mathbb{Z}$-localization is called **localization away from $p$**;
 
 1. for $J$ the set of all primes except $p$ then $\underset{p \in J}{\otimes} \mathbb{Z}/p\mathbb{Z}$-localization is called **localization at $p$;
 
@@ -407,10 +407,10 @@ This gives the second statement.
 
 =--
 
-+-- {: .num_example}
++-- {: .num_example #pPrimaryGroupsArePComplete}
 ###### Example
 
-For $p$ a [[prime number]], the [[cyclic groups]] of the form $\mathbb{Z}/p^n \mathbb{Z}$ are $p$-complete (def. \ref{AbelianGrouppComplete}).
+For $p$ a [[prime number]], the [[p-primary group|p-primary]] [[cyclic groups]] of the form $\mathbb{Z}/p^n \mathbb{Z}$ are $p$-complete (def. \ref{AbelianGrouppComplete}).
 
 =--
 
@@ -494,13 +494,41 @@ $$
 of an abelian group $A$ (def. \ref{pInvertedInZ}, def. \ref{AbelianGroupLocal}), hence the $p$-completion of $A$ (def. \ref{AbelianGrouppComplete}) is given by the morphism
 
 $$
-  Ext^1(\mathbb{Z} \to \mathbb{Z}(p^\infty), A)
-  \;\colon\;
   A \longrightarrow Ext^1( \mathbb{Z}(p^\infty), A )
+$$
+
+into the first [[Ext]]-group into $A$ out of $\mathbb{Z}(p^\infty)$ (def. \ref{ZpInfinity}), which appears as the first [[connecting homomorphism]] $\delta$ in the [[long exact sequence]] of [[Ext]]-groups 
+
+$$
+  0 
+    \to
+  Hom(\mathbb{Z}(p^\infty),A)
+    \longrightarrow
+  Hom(\mathbb{Z}[1/p],A)
+    \longrightarrow
+  Hom(\mathbb{Z},A)
+    \overset{\delta)}{\longrightarrow}
+  Ext^1(\mathbb{Z}(p^\infty), A)
+    \to
+  \cdots
   \,.
 $$
 
-into the first [[Ext]]-group into $A$ out of $\mathbb{Z}(p^\infty)$.
+that is induced (via [this prop.](derived+functor+in+homological+algebra#LongExactSequenceOfRightDerivedFunctorsFromShortExactSequence)) from the defining [[short exact sequence]]
+
+$$
+  0 
+    \to 
+  \mathbb{Z}
+    \longrightarrow
+  \mathbb{Z}[1/p]
+    \longrightarrow
+  \mathbb{Z}(p^\infty)
+    \to 
+  0
+$$
+
+(def. \ref{ZpInfinity}).
 
 =--
 
@@ -577,6 +605,86 @@ where the second isomorphism is by lemma \ref{OutOfCyclicGroupExt1}.
 
 =--
 
++-- {: .num_prop #pDivisibleGroupsHaveVanishingpCompletion}
+###### Proposition
+
+If $A$ is a $p$-[[divisible group]] in that $A \overset{p \cdot (-)}{\longrightarrow} A$ is an [[isomorphism]], then its $p$-completion (def. \ref{AbelianGrouppComplete}) vanishes.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By theorem \ref{pCompletionOfAbelianGroupsByHomsOutOfZpinfinity} the localization morphism $\delta$ sits in a [[long exact sequence]] of the form
+
+$$
+  0 
+    \to
+  Hom(\mathb{Z}(p^\infty),A)
+    \longrightarrow
+  Hom(\mathbb{Z}[1/p],A)
+    \overset{\phi}{\longrightarrow}
+  Hom(\mathbb{Z},A)
+    \overset{\delta}{\longrightarrow}
+  Ext^1(\mathbb{Z}(p^\infty), A)
+    \to
+  \cdots
+  \,.
+$$
+
+Here by def. \ref{pInvertedInZ} and since the [[hom-functor]] takes [[colimits]] in the first argument to [[limits]], the second term is equivalently the [[limit]]
+
+$$
+  Hom(\mathbb{Z}[1/p],A)
+    \simeq
+  \underset{\longleftarrow}{\lim}
+  \left(
+     \cdots
+     \to 
+     A \overset{p \cdot (-)}{\longrightarrow} A \overset{p \cdot (-)}{\longrightarrow} A
+  \right)
+  \,.
+$$
+
+But by assumption all these morphisms $p \cdot (-)$ that the limit is over are [[isomorphisms]], so that the limit collapses to its first term, which means that the morphism $\phi$ in the above sequence is an [[isomorphism]]. But by exactness of the sequence this means that $\delta = 0$.
+
+=--
+
++-- {: .num_cor}
+###### Corollary
+
+For $p$ a [[prime number]], if $A$ is a [[finite abelian group]], then its $p$-completion (def. \ref{AbelianGrouppComplete}) is equivalently its [[p-primary group|p-primary part]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the [[fundamental theorem of finite abelian groups]], $A$ is a finite [[direct sum]] 
+
+$$
+  A 
+   \simeq
+  \underset{i}{\oplus}
+  \mathbb{Z}/p_i^{k_i}\mathbb{Z}
+$$
+
+
+of [[cyclic groups]] of [[order of a group|ordr]] $p_i^{k_1}$ for $p_i$ [[prime numbers]] and $k_i \in \mathbb{N}$ ([thm.](finite+abelian+group#FiniteAbelianGroupIsDirectSumOfCyclics)). 
+
+Since finite direct sums are equivalently [[products]] ([[biproducts]]: [[Ab]] is an [[additive category]]) this means that
+
+$$
+  Ext^1( \mathbb{Z}(p^\infty), A )
+  \simeq
+  \underset{i}{\prod}
+  Ext^1( \mathbb{Z}(p^\infty), \mathbb{Z}/p_i^{k_1}\mathbb{Z} )
+  \,.
+$$
+
+By theorem \ref{pCompletionOfAbelianGroupsByHomsOutOfZpinfinity} the $i$th factor here is the $p$-completion of $\mathbb{Z}/p_i^{k_i}\mathbb{Z}$, and since $p \cdot(-)$ is an isomorphism on $\mathbb{Z}/p_i^{k_i}\mathbb{Z}$ if $p_i \neq p$, prop. \ref{pDivisibleGroupsHaveVanishingpCompletion} says that in this case the factor vanishes, so that only the factors with $p_i = p$ remain. On these however $Ext^1(\mathbb{Z}(p^\infty),-)$ is the identity by example \ref{pPrimaryGroupsArePComplete}.
+
+=--
 
 
 ## Related concepts
