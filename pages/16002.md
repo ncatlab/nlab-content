@@ -4,7 +4,7 @@
 
 ## Idea
 
-A _germ of a space_ is represented by [[pointed space]], where two such germs are considered isomorphic if they are isomorphic on small open neighbourhoods of the base points.
+A _germ of a space_ is an [[equivalence class]] of [[pointed spaces]], where two such spaces regarded as equivalent if they are isomorphic on small [[open neighbourhoods]] of the base points.
 
 ## Definition
 
@@ -27,6 +27,8 @@ The category of germs of space is the [[localization]] of the category of pointe
  * [[germ]]
 
  * [[microbundle]]
+
+[[!include infinitesimal and local - table]]
 
 ## References
 
