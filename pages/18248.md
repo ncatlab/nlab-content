@@ -1,0 +1,58 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _Mandelbrot set_ is the [[subset]] of the [[complex plane]] on those points $c \in \mathbb{C}$ on which the iteration of the operation "square and add $c$" does not diverge.
+
+This is a famous example of a [[fractal]].
+
+## Definition
+
+For $c \in \mathbb{C}$ a [[complex number]], consider the [[function]] on the [[complex plane]] that squares its argument and adds $c$ to the result:
+
+$$
+  \array{
+     \mathbb{C} &\overset{\phantom{AA}f_c\phantom{AA}}{\longrightarrow}& \mathbb{C}
+     \\
+     z &\overset{\phantom{AA}\phantom{AA}}{\mapsto}& z^2 + c
+  }
+  \,.
+$$
+
+For $n \in \mathbb{N}$ write 
+
+$$
+  f_c^n \coloneqq \underset{n\,\text{factors}}{\underbrace{ f \circ \cdots \circ f \circ f }}
+$$
+
+for the $n$-fold [[composition]] of $f_c$ with itself ($f_c^0 \coloneqq id_{\mathbb{C}}$).
+
+Starting with value $0 \in \mathbb{C}$, this defines a [[sequence]] of points in the complex plane $(f_c^n(0))_{i \in \mathbb{C}}$ for each [[complex number]] $c \in \mathbb{C}$.
+
+The _Mandelbrod set_ $Mdlbrt \subset \mathcal{C}$ is the [[subset]] of the [[complex plane]] on those values of $c$ for which the corresponding [[sequence]] $(f_c^n)_{n \in \mathbb{B}}$ is [[bounded set|bounded]]
+
+$$
+  Mdlbrt 
+   \coloneqq
+  \left\{
+     c \in \mathbb{C}
+     \;\colon\;
+     (f_c^n(0))_{n \in \mathbb{N}}\, \text{is bounded}
+  \right}
+  \;\subset\;
+  \mathbb{C}
+  \,.
+$$
+
+
+<img src="https://ncatlab.org/nlab/files/MandelbrotSet.png" width="400" >
+
+
+## Related concepts
+
+* [[Julia set]]
+
+[[!redirects Mandelbrot sets]]
