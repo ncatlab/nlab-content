@@ -172,8 +172,11 @@ Culminating in
  
 For discussion of the state of the proof see also
 
-* MO, _[Why hasn't anyone proved that the two standard approaches to quantizing Chern-Simons theory are equivalent?](http://mathoverflow.net/questions/86792/why-hasnt-anyone-proved-that-the-two-standard-approaches-to-quantizing-chern-si)_
- {#MODiscussion}
+* {#MODiscussion} MO, _[Why hasn't anyone proved that the two standard approaches to quantizing Chern-Simons theory are equivalent?](http://mathoverflow.net/questions/86792/why-hasnt-anyone-proved-that-the-two-standard-approaches-to-quantizing-chern-si)_
+ 
+Detailed review in the case of abelian Chern-Simons theory includes
+
+* Spencer D. Stirling, _Abelian Chern-Simons theory with toral gauge group, modular tensor categories, and group categories_ ([arXiv:http://arxiv.org/abs/0807.2857v1](http://arxiv.org/abs/0807.2857))
 
 Another approach is
 
