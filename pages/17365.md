@@ -49,13 +49,13 @@ A **[[sequential spectrum|sequential]] [[prespectrum]] in [[topological spaces]]
  A [[homomorphism]] $f \colon X \to Y$ of sequential spectra is a sequence $f_\bullet \colon X_\bullet \to Y_\bullet$ of base point-preserving continuous function, such that all [[diagrams]] of the form
 
 $$
-  \array{
-    S^1 \wedge X_n &\stackrel{S^1 \wedge f_n}{\longrightarrow}& S^1 \wedge Y_n
+\begin{matrix}
+    S^1 \wedge X_n &\xrightarrow{S^1 \wedge f_n}& S^1 \wedge Y_n
     \\
-    \downarrow^{\mathrlap{\sigma_n^X}} && \downarrow^{\mathrlap{\sigma_n^Y}}
+    \left\downarrow\scriptsize{\mathrlap{\sigma_n^X}}\right. && \left\downarrow\scriptsize{\mathrlap{\sigma_n^Y}}\right.
     \\
-    X_{n+1} &\stackrel{f_{n+1}}{\longrightarrow}& Y_{n+1}
-  }
+    X_{n+1} &\xrightarrow{\; f_{n+1}\;}& Y_{n+1}
+\end{matrix}
 $$
 
 [[commuting diagram|commute]].
@@ -69,8 +69,8 @@ Due to the classical [[adjunction]]
 $$
   Top_{cg}^{\ast/}
     \underoverset
-     {\underset{Maps(S^1,-)_\ast}{\longrightarrow}}
-     {\overset{S^1 \wedge (-)}{\longleftarrow}}
+     {\xrightarrow[Maps(S^1,-)_\ast]{}}
+     {\xrightarrow{S^1 \wedge (-)}}
      {\bot}
   Top_{cg}^{\ast/}
 $$
@@ -101,15 +101,15 @@ A **[[sequential spectrum|sequential]] [[prespectrum]] in [[topological spaces]]
  A [[homomorphism]] $f \colon X \to Y$ of sequential spectra is a sequence $\widetilde{f_\bullet} \colon X_\bullet \to Y_\bullet$ of base point-preserving continuous function, such that all [[diagrams]] of the form
 
 $$
-  \array{
-    X_n &\overset{f_n}{\longrightarrow}& Y_n
+\begin{matrix}
+    X_n &\xrightarrow{\space{0}{0}{35} f_n\space{0}{0}{35}}& Y_n
     \\
-    {}^{\mathllap{\tilde \sigma^X_n}}\downarrow && \downarrow^{\mathrlap{\tilde \sigma^Y_n}}
+    \left.\scriptsize{\mathllap{\tilde \sigma^X_n}}\right\downarrow && \left\downarrow\scriptsize{\mathrlap{\tilde \sigma^Y_n}}\right.
     \\
     Maps(S^1, X_{n+1})_\ast
-      &\underset{Maps(S^1,f_{n+1})_\ast}{\longrightarrow}&
+      &\xrightarrow[Maps(S^1,f_{n+1})_\ast]{}&
     Maps(S^1, Y_{n+1})_\ast
-  }
+\end{matrix}
 $$
 
 [[commuting diagram|commute]].
@@ -126,7 +126,7 @@ For $X\in Top^{\ast/_{cg}}$ a [[pointed topological space]], its **[[suspension 
 
 * $(\Sigma^\infty X)_n \coloneqq S^n \wedge X$;
 
-* $\sigma_n \colon S^1 \wedge S^n \wedge X \overset{\simeq}{\longrightarrow} S^{n+1}X$ the canonical [[homeomorphism]].
+* $\sigma_n \colon S^1 \wedge S^n \wedge X \xrightarrow{\simeq} S^{n+1}X$ the canonical [[homeomorphism]].
 
 This construction extends to a [[functor]]
 
@@ -176,7 +176,7 @@ Let $X\in SeqSpec(Top_{cg})$ be a [[sequential spectrum]] (def. \ref{SequentialS
 
    * $(Maps(K,X)_\ast)_n \coloneqq Maps(K,X_n)_\ast$ (compactly generated [[pointed mapping space]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#CompactlyGeneratedMappingSpaces), [def.](Introduction+to+Stable+homotopy+theory+--+P#PointedMappingSpace)))
 
-   * $\sigma_n^{Maps(K,X)_\ast} \colon S^1 \wedge Maps(K,X_n) \to Maps(K,S^1 \wedge X_n)_\ast \overset{Maps(K,\sigma_n)_\ast}{\longrightarrow} Maps(K,X_{n+1})_\ast$.
+   * $\sigma_n^{Maps(K,X)_\ast} \colon S^1 \wedge Maps(K,X_n) \to Maps(K,S^1 \wedge X_n)_\ast \xrightarrow{Maps(K,\sigma_n)_\ast} Maps(K,X_{n+1})_\ast$.
 
 These operations canonically extend to [[functors]]
 
