@@ -240,7 +240,21 @@ one sees that $(R Q g)\circ (R Q f)$ is a lift of $g \circ f$ and hence the same
 +-- {: .num_theorem}
 ###### Theorem
 
-For $\mathcal{C}$ a [[model category]], the functor in def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory} (for any choice of $R$ and $Q$) exhibits $Ho(\mathcal{C})$ as indeed being the [[homotopy category]] of the underlying [[category with weak equivalences]].
+For $\mathcal{C}$ a [[model category]], the functor $\gamma$ in def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory} (for any choice of $R$ and $Q$) exhibits $Ho(\mathcal{C})$ as indeed being the [[homotopy category]] of the underlying [[category with weak equivalences]]: 
+
+For $F \colon \mathcal{C} \longrightarrow D$ any [[functor]] that takes weak equivalences to [[isomorphisms]], it factors through $\gamma$ up to a [[natural isomorphism]]
+
+$$
+  \array{
+    \mathcal{C} && \overset{F}{\longrightarrow} && D
+    \\
+    & {}_{\mathllap{\gamma}}\searrow &\Downarrow^{\rho}& \nearrow_{\mathrlap{\tilde F}}
+    \\
+    && Ho(\mathcal{C})
+  }
+$$
+
+and this factorization is unique up to unique isomorphism, in that for $(\tilde F_1, \rho_1)$ and $(\tilde F_2, \rho_2)$ two such factorizations, then there is a unique [[natural isomorphism]] $\kappa \colon \tilde F_1 \Rightarrow \tilde F_2$ making the evident diagram of natural isomorphisms commute.
 
 =--
 
@@ -265,13 +279,12 @@ Now let $F \colon \mathcal{C}\longrightarrow D$ be any functor that sends weak e
 
 $$
   \array{
-     \mathcal{C} &&\stackrel{F}{\to}& D
-     \\
-     {}^{\mathllap{\gamma_{R,Q}}}\downarrow& \Downarrow^{\rho}& \nearrow_{\tilde F}
-     \\
-     Ho(\mathcal{C})
+    \mathcal{C} && \overset{F}{\longrightarrow} && D
+    \\
+    & {}_{\mathllap{\gamma}}\searrow &\Downarrow^{\rho}& \nearrow_{\mathrlap{\tilde F}}
+    \\
+    && Ho(\mathcal{C})
   }
-  \,,
 $$
 
 uniquely up to unique [[natural isomorphism]]. Now by construction of $R$ and $Q$ in def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory}, $\gamma_{R,Q}$ is the identity on the [[full subcategory]] of fibrant-cofibrant objects. It follows that if $\tilde F$ exists at all, it must satisfy for all $X \stackrel{f}{\to} Y$ with $X$ and $Y$ both fibrant and cofibrant that 
