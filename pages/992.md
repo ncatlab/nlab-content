@@ -277,7 +277,7 @@ This is the stable analog of the statement that every
 [[(∞,1)-category of (∞,1)-sheaves]] is a left exact localization of
 an $(\infty,1)$-category of presheaves.
 
-A more intrinsic [[(∞,1)-topos]]-theoretic version of this statement (not mentioning a choice of [[(∞,1)-site]] is the following:
+A more intrinsic [[(∞,1)-topos]]-theoretic version of this statement (not mentioning a choice of [[(∞,1)-site]]) is the following:
 
 +-- {: .num_prop #StabilizationBySheavesOfSpectra}
 ###### Proposition
