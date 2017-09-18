@@ -159,6 +159,7 @@ $B = X - Z$.
 =--
 
 ### Homotopy invariance
+ {#HomotopyInvariance}
 
 +-- {: .num_defn #HomotopyInvariance}
 ###### Definition
@@ -187,7 +188,7 @@ A [[topological subspace]] inclusion $A \hookrightarrow X$ is called a **good pa
 +-- {: .num_example }
 ###### Example
 
-For $X$ a [[CW complex]], the inclusion of any subcomplex $X' \hookrightarrow X$ is a good pair.
+For $X$ a [[CW complex]], the inclusion of any subcomplex $A \hookrightarrow X$ is a good pair (called a _[[CW-pair]]_ $(X,A)$).
 
 =--
 
