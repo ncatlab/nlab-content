@@ -83,6 +83,41 @@ $$
   \,.
 $$
 
+So far this is the discussion for internal edges. An actual scattering matrix element is of the form
+
+$$
+  \langle \psi_{out} \vert S\left(\tfrac{g}{\hbar} L_{int} \right)
+  \vert \psi_{in} \rangle
+  \,,
+$$
+
+where 
+
+$$
+  \vert \psi_{in}\rangle 
+    \propto
+  \tfrac{1}{\hbar^{n_{in}/2}} 
+  \phi^\dagger(k_1) \cdots \phi^\dagger(k_{n_{in}}) \vert vac \rangle
+$$
+
+is a state of $n_{in}$ free field quanta and similarly
+
+$$
+  \vert \psi_{out}\rangle 
+    \propto
+  \tfrac{1}{\hbar^{n_{out}/2}} 
+  \phi^\dagger(k_1) \cdots \phi^\dagger(k_{n_{out}}) \vert vac \rangle
+$$
+
+is a state of $n_{out}$ field quanta. The normalization of these states, in view of the commutation relation $[\phi(k), \phi^\dagger(q)] \propto \hbar$, yields the given powers of $\hbar$.
+
+This means that an actual [[scattering amplitude]] given by a [[Feynman diagram]] $\Gamma$ with $E_{ext}(\Gamma)$ external vertices scales as
+
+$$
+  \hbar^{L(\Gamma) - 1 + E_{ext}(\Gamma)/2 }
+  \,.
+$$
+
 
 
 
