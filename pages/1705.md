@@ -343,3 +343,7 @@ A useful quick collection of facts can be found at the beginning of Section 2 in
 [[!redirects hammock localization]]
 [[!redirects hammock localizations]]
 
+[[!redirects (infinity,1)-categorical localization]]
+[[!redirects (infinity,1)-categorical localizations]]
+[[!redirects (∞,1)-categorical localization]]
+[[!redirects (∞,1)-categorical localizations]]
