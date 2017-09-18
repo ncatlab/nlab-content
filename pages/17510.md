@@ -1,0 +1,11 @@
+
+
+* [webpage](https://www.ias.edu/scholars/s%C3%B6ren-illman)
+
+* [Mathematics Genealogy Page](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=1346)
+
+## Related $n$Lab entries
+
+* [[G-CW complex]]
+
+category: people
