@@ -1,0 +1,16 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Definition
+
++-- {: .num_defn }
+###### Definition
+
+The **infinitesimally thickened Sierpinski topos** is the topos of presheaves on the ordinal category \mathbf{3}: $\{ 0 \to 1 \to 2 \}$. The name emphasizes the view of this topos as exhibiting [[differential cohesion]] over the cohesive [[Sierpinski topos]] using the coreflective embedding $i : \mathbf{2} \hookrightarrow \mathbf{3}$ sending $0$ to $0$ and $1$ to $2$.
+
+=--
+
+## Properties
