@@ -48,7 +48,7 @@ $$
 
 * [[David Gross]] and M. Perry, Nucl. Phys. B226 (1983) 29.
 
-* {#HanKoh85} Seung Kee Han, I.G. Koh, _$N = 4$ Remaining Supersymmetry in Kaluza-Klein Monopole Background in D=11 Supergravity Theory_, Phys.Rev. D31 (1985) 2503, in [[Michael Duff]] (ed.), _The world in eleven dimensions_ 57-60 ([spire](http://inspirehep.net/record/204521/?ln=en))
+* {#HanKoh85} Seung Kee Han, I.G. Koh, _$N = 4$ Remaining Supersymmetry in Kaluza-Klein Monopole Background in D=11 Supergravity Theory_, Phys.Rev. D31 (1985) 2503, in [[Michael Duff]] (ed.), _[[The World in Eleven Dimensions]]_ 57-60 ([spire](http://inspirehep.net/record/204521/?ln=en))
 
 * [[Katrin Becker]], [[Melanie Becker]], [[John Schwarz]], p. 333 of _String Theory and M-Theory: A Modern Introduction_, 2007
 
