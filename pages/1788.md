@@ -1,23 +1,14 @@
 $$
-   \array{
-      \mathcal{C}_c \times \mathcal{C}_c 
-        &=&  
-      \mathcal{C}_c \times \mathcal{C}_c 
-        &\overset{(-)\otimes (-)}{\longrightarrow}& 
-      \mathcal{C}
-      \\
-     {}^{\mathllap{\gamma_{\mathcal{C} \times \mathcal{C}}}}\downarrow
-     &&
-    {}^{\mathllap{\gamma_{\mathcal{C}} \times \gamma_{\mathcal{C}}}}\downarrow 
-      &\swArrow_\simeq& 
-     \downarrow^{\mathrlap{\gamma_{\mathcal{C}}}}
-    \\
-    Ho(\mathcal{C} \times \mathcal{C})
-    &\simeq&
-   Ho(\mathcal{C})\times Ho(\mathcal{C})
-    &\underset{(-)\otimes^L (-)}{\longrightarrow}&
-   Ho(\mathcal{C})
-   }
+  \cdots
+   \to
+  \underset{\simeq 0}{ \underbrace{H^{2k}(B U(n-1))} }
+    \longrightarrow
+  H^{2k+1-2n}(B U(n))
+   \longrightarrow
+  H^{2k+1}(B U(n))
+   \overset{i^\ast}{\longrightarrow}
+  \underset{\simeq 0}{\underbrace{H^{2k+1}(B U(n-1))}}
+  \to 
+  \cdots
+  \,,
 $$
-
-$$p \mid q$$
