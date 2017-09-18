@@ -5,7 +5,7 @@
 
 He is best known for his groundbreaking work in [[linguistics]]: his introduction of [[type theory]] and _generalized quantifiers_ achieved for _natural language semantics_ the same what [[Gottlob Frege]] had achieved almost a century earlier for the quantification theory of formal languages.
 
-In fact, whereas Frege saw the surface position of quantifiers as a logical defect of natural languages which had to be amended for his _Begriffsschrift_, the powerful techniques of [[lambda calculus]] employed by Montague permitted to interpret quantifiers in situ as well, leading to a theory of linguistic interpretation, called _Montague grammar_, of a mathematical precision and elegance.
+In fact, whereas Frege saw the surface position of quantifiers as a logical defect of natural languages which had to be amended for his _Begriffsschrift_, the powerful techniques of [[lambda calculus]] employed by Montague permitted to interpret quantifiers in situ as well, leading to a theory of linguistic interpretation, called [[Montague grammar]], of a mathematical precision and elegance.
 
 By restricting the analysis to language fragments, Montague overcome obstacles like the semantic paradoxes that prevented his teacher Tarski from applying model-theoretic methods to natural languages.
 
