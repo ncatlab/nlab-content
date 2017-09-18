@@ -1,5 +1,10 @@
-[[!redirects module over a derived stack]]
 ## Idea
+
+This entry is about the notion of [[module]] or [[quasi-coherent sheaf|quasi-coherent]] [[chain complex|complexes]] in the setting of [[higher geometry]] and more specifically, [[E-infinity geometry]] and [[derived algebraic geometry]].
+
+In this setting, modules are already derived, in the sense that modules over an ordinary [[scheme]] or [[stack]], viewed as a discrete [[derived scheme]] or [[derived stack]], are [[complexes]] of [[quasi-coherent sheaves]].
+
+## Definition
 
 Let $Sch^{aff}$ and $Stk$ denote the [[(infinity,1)-categories]] of affine [[derived schemes]] and [[derived stacks]], respectively.
 Consider the [[(infinity,1)-prestack]] of [[stable (infinity,1)-categories]]
@@ -12,6 +17,8 @@ one gets an [[(infinity,1)-prestack]]
   $$ Mod : Stk^{op} \to Cat^{stab}_\infty. $$
 In other words, for a derived stack $X$, $Mod(X)$ is given by the [[limit in an (infinity,1)-category|limit]]
   $$ Mod(X) = lim_{Spec(A) \to X} Mod(A). $$
+
+## In ordinary algebraic geometry
 
 In the case of ordinary [[affine schemes]], [[modules]] in this sense, i.e. [[modules]] over [[Eilenberg-Mac Lane spectra]], correspond by the [[stable Dold-Kan correspondence]] to [[chain complexes]].  The corresponding notion of module over an ordinary [[scheme]] or [[stack]] is then a _quasi-coherent complex_.
 That is, for a [[commutative ring]] $A$,
@@ -44,6 +51,7 @@ In good cases, the [[stable (infinity,1)-category]] $Mod(X)$ is [[compactly gene
 
 * [[B. Toen]], _Derived Azumaya algebras and generators for twisted derived categories_, [arXiv:1002.2599](http://arxiv.org/abs/1002.2599).
 
+[[!redirects module over a derived stack]]
 [[!redirects modules over a derived stack]]
 [[!redirects modules over derived stacks]]
 [[!redirects module over a derived scheme]]
