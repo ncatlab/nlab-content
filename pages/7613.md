@@ -149,7 +149,7 @@ Seet also at _[[cubical structure in M-theory]]_.
 
 * [[F-theory]]
 
-* [[topological M-theory]]
+* [[topological M-theory]], [[bosonic M-theory]]
 
 * [[M2-brane]], [[M5-brane]]
 
