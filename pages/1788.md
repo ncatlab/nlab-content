@@ -1,4 +1,22 @@
+$$
+  \underset{
+    \simeq \underset{\longleftarrow}{\lim}_k  \pi_q \left(\Omega^k X_k\right)
+  }
+  {
+  \underbrace{
+    \underset{\longrightarrow}{\lim}_{k \in \mathbb{N}}  \pi_{q+k}(X_k)
+  }}
+  \longrightarrow
+  \underset{
+    \simeq
+    \pi_q \left(
+      \underset{\longrightarrow}{\lim}_k \Omega^k X_k
+    \right)
+  }{
+  \underbrace{
+    \pi_q \left(
+      (Q X)_0
+    \right)
+  }}
+$$
 
-$$
-  E\hat{}X
-$$
