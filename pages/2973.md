@@ -1,4 +1,13 @@
-[[!redirects weakly Hausdorff space]]
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Topology
++--{: .hide}
+[[!include topology - contents]]
+=--
+=--
+=--
 
 # Weakly Hausdorff spaces
 * table of contents
@@ -10,11 +19,25 @@ A [[topological space]] $X$ is **weakly Hausdorff** (or weak Hausdorff) if for a
 
 We have given the definition for topological spaces, but it also makes sense as stated for [[locales]].  Where these overlap ([[sober spaces]] and [[topological locales]]), they agree given the [[ultrafilter theorem]] (which implies that all compact Hausdorff spaces/locales are sober/topological).
 
+## Properties
 
-## Weak Hausdorffification
+### Weak Hausdorffification
 
 (this is a [[left adjoint]] ...)
 
+
+### Pushouts
+
+Write CGWH for the category of [[compactly generated topological spaces|compactly generated]] weakly Hausdorff topological spaces, and $CGH$ for compactly generated [[Hausdorff topological spaces]]. Both are [[comvenient categories of topological spaces]] that both admit a [[homotopy hypothesis]]-comparison to [[simplicial sets]], but CGWH has a key further property:
+
+The construction of [[pushouts]] is better behaved in CGWH than in CGH. Specifically, CHWH is closed under pushouts, one leg of which is the inclusion of a closed subspace. CGH does not have such nice behavior, and pushouts like that are used all over _The Geometry of Iterated Loop Spaces_, specifically in the construction of a monad from an operad and in the use of geometric realizations of simplicial spaces.
+
+([[Peter May]], [MO comment, April 2015](http://mathoverflow.net/a/204221/381))
+
+
+## References
+
+* [MO discussion](http://mathoverflow.net/q/47702/381)
 
 [[!redirects weak Hausdorff space]]
 [[!redirects weak Hausdorff spaces]]
@@ -22,3 +45,5 @@ We have given the definition for topological spaces, but it also makes sense as 
 [[!redirects weakly Hausdorff spaces]]
 
 [[!redirects weakly Hausdorff topological spaces]]
+
+[[!redirects weakly Hausdorff space]]
