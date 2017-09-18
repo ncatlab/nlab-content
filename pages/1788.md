@@ -1,43 +1,26 @@
+
+There is one object for each natural number. Moreover the 
+
 $$
   \begin{aligned}
-    R FreeMod(c_2, c_1) \otimes_V R FreeMod(c_3, c_2)
-    & =
-    \left(
-    \overset{c_4}{\int} \mathcal{C}(c_1 \otimes_{\mathcal{C}} c_4, c_2)     
-     \otimes_V R(c_4)
-    \right)
-      \otimes_V
-    \left(
-    \overset{c_5}{\int} \mathcal{C}(c_2 \otimes_{\mathcal{C}} c_5, c_3 )
-     \otimes_V R(c_5)
-    \right)
+    \mathbb{S}_{seq} Free_{seq}Mod( 
+       \mathbb{S}_{seq} \otimes_{Day} y_{k_2}
+       ,
+       \mathbb{S}_{seq} \otimes_{Day} y_{k_1}
+    )
+    &  
+    \simeq
+    \overset{n}{\int} Seq(n + k_1 , k_2) \wedge \mathbb{S}_{seq}(n)
     \\
-    & \simeq
-    \overset{c_4, c_5}{\int} 
-      \mathcal{C}(c_1 \otimes_{\mathcal{C}} c_4  , c_2  )
-        \otimes_V 
-      \mathcal{C}(c_2 \otimes_{\mathcal{C}} c_5, c_3)
-        \otimes_V
-      R(c_4) \otimes_V R(c_5)
-    \\
-    & \longrightarrow
-      \overset{c_4,c_5}{\int} 
-      \mathcal{C}(c_1 \otimes_{\mathcal{C}} c_4 \otimes_{\mathcal{C}}  c_5 , c_2 \otimes_{\mathcal{C}} c_5  )
-        \otimes_V 
-      \mathcal{C}(c_2 \otimes c_5, c_3)
-        \otimes_V
-      R(c_4 \otimes_{\mathcal{C}} c_5 )
-     \\
-     & \longrightarrow
-      \overset{c_4, c_5}{\int} 
-      \mathcal{C}(c_1\otimes_{\mathcal{C}} c_4 \otimes_{\mathcal{C}} c_5 , c_3)
-        \otimes_V
-      R(c_4 \otimes_{\mathcal{C}} c_5 )
-     \\
-     & \longrightarrow
-      \overset{c_4}{\int} 
-      \mathcal{C}(c_1 \otimes_{\mathcal{C}} c_4 , c_3)
-        \otimes_V
-      R(c_4 )
+    &
+    \simeq
+    \left\{
+      \array{
+        S^{k_2-k_1} & if \; k_2 \geq k_1
+        \\
+        \ast & otherwise
+      }
+    \right.
   \end{aligned}
+  \,.
 $$
