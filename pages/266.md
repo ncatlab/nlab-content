@@ -731,13 +731,15 @@ $$
   c \mapsto (c, Id_{d} = Id_{f(c)})
 $$
 
-has a [[left adjoint]], given by
+has a [[left adjoint]]. given by
 
 $$
-  (c, f(c) \to d) \mapsto c
-  \,.
+  (c, f(c) \to d) \mapsto c'
+  \,,
 $$
 
+where $c \to c'$ is a coCartesian lift of $f(c) \to d$.
+ 
 Therefore (by the discussion _[here](final+functor#Examples)_) it is a [[cofinal functor]]. Accordingly, the local formula for the left Kan extension 
 
 $$
