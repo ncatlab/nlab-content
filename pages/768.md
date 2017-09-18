@@ -65,10 +65,10 @@ For more details on this construction see the section <a href="http://ncatlab.or
 
 As discussed there, too, this construction generalizes to more general [[simplicial topological group]]s and classifying spaces for their [[principal ∞-bundle]]s.
 
-#### For orthogonal and unitary structure groups
+### For orthogonal and unitary principal bundles
 
 For $G = O(n)$ the [[orthogonal group]] and
-$G = U(n)$ the unitary group, there are standard realizations of the corresponding classifying spaces as [[direct limits]] of [[Grassmannian]] spaces. (See for instance ([May, p. 196](#May)), where some of the following is taken from).
+$G = U(n)$ the unitary group, there are standard realizations of the corresponding classifying spaces as [[direct limits]] of [[Grassmannian]] spaces. 
 
 Let $V_n(\mathbb{R}^q)$ be the [[Stiefel manifold]] of [[orthonormal basis|orthonormal]] $n$-frames in the [[Cartesian space]] $\mathbb{R}^q$. Its points are $n$-[[tuples]] of orthonormal [[vectors]] in $\mathbb{R}^q$, and it is topologized as a [[subspace topology|subspace]] of $(\mathbb{R}^q)^n$,
 or, equivalently, as a subspace of $(S^{q-1})^n$. It is a [[compact space|compact]] [[manifold]]. 
@@ -91,6 +91,136 @@ $$
 $$
 
 is the [[real projective space|real]] [[projective space]] that classifies [[line bundles]].
+
+#### Definitions
+
+In the following we take [[Top]] to denote [[compactly generated topological spaces]]. For these the [[Cartesian product]] $X \times (-)$ is a [[left adjoint]] and hence preserves [[colimits]].
+
+
++-- {: .num_defn #StiefelManifold}
+###### Definition
+
+For $n, k \in \mathbb{N}$ and $n \leq k$, then the $n$th **real [[Stiefel manifold]]** of $\mathbb{R}^k$ is the [[coset]] [[topological space]].
+
+$$
+  V_n(\mathbb{R}^k) \coloneqq O(k)/O(k-n)
+  \,,
+$$
+
+where the [[action]] of $O(k-n)$ is via its canonical embedding $O(k-n)\hookrightarrow O(k)$.
+
+=--
+
++-- {: .num_defn #RealAndComplexGrassmannian}
+###### Definition
+
+For $n, k \in \mathbb{N}$ and $n \leq k$, then the $n$th **[[Grassmannian]]** of $\mathbb{R}^k$ is the [[coset]] [[topological space]].
+
+$$
+  Gr_n(\mathbb{R}^k) \coloneqq O(k)/(O(n) \times O(k-n))
+  \,,
+$$
+
+where the [[action]] of the [[product group]] is via its canonical embedding $O(n)\times O(k-n) \hookrightarrow O(n)$.
+
+=--
+
++-- {: .num_prop #ProjectionFromStiefelManifoldToGrassmannianIsFiberBundle}
+###### Proposition
+
+For all $n \leq k \in \mathbb{N}$, the canonical [[projection]] from the [[Stiefel manifold]] (def. \ref{StiefelManifold}) to the [[Grassmmannian]] is a $O(n)$-[[principal bundle]]
+
+$$
+  \array{
+    O(n) &\hookrightarrow& V_n(\mathbb{R}^k)
+    \\
+    && \downarrow 
+    \\
+    && Gr_n(\mathbb{R}^k)
+  }
+  \,.
+$$
+
+=--
+
+By ([this cor.](coset#QuotientProjectionForCompactLieSubgroupIsPrincipal) and [this prop.](coset#ProjectionOfCosetsIsFiberBundleForClosedSubgroupsOfCompactLieGroup)).
+ 
++-- {: .num_defn #EOn}
+###### Definition
+
+By def. \ref{RealAndComplexGrassmannian} there are canonical inclusions $Gr_n(\mathbb{R}^k) \hookrightarrow Gr_n(\mathbb{R}^{k+1})$. The [[colimit]] (in [[Top]], see there) over these inclusions is denoted
+
+$$
+  B O(n) \coloneqq \underset{\longrightarrow}{\lim}_k Gr_n(\mathbb{R}^k)
+  \,.
+$$
+
+By def. \ref{StiefelManifold} there are canonical inclusions $V_n(k) \hookrightarrow V_n(k+1)$ that are compatible with the $O(n)$-[[action]]. The [[colimit]] (in [[Top]], see there) over these inclusions, regarded as equipped with the induced $O(n)$-[[action]], is denoted
+
+$$
+  E O(n) \coloneqq \underset{\longrightarrow}{\lim}_k V_n(\mathbb{R}^k)
+  \,.
+$$
+
+The inclusions are in fact compatible with the bundle structure from prop. \ref{ProjectionFromStiefelManifoldToGrassmannianIsFiberBundle}, so that there is an induced projection
+
+$$
+  \left(
+  \array{
+    E O(n)
+    \\
+    \downarrow
+    \\
+    B O(n) 
+  }
+  \right)
+  \;\;
+   \simeq
+  \;\;
+  \underset{\longrightarrow}{\lim}_k
+  \left(
+    \array{
+       V_n(\mathbb{R}^k)
+       \\
+       \downarrow
+       \\
+       Gr_n(\mathbb{R}^k)
+    }
+  \right)
+  \,.
+$$
+
+=--
+
+Since the [[Cartesian product]] $O(n)\times (-)$ in [[compactly generated topological spaces]] preserves colimits, it follows that colimiting bundle is still an $O(n)$-[[principal bundle]]
+
+$$
+  \begin{aligned} 
+    (E O(n))/O(n)
+    &
+    \simeq
+    (\underset{\longrightarrow}{\lim}_k V_{n}(\mathbb{R}^k))/O(n)
+    \\
+    & \simeq 
+    \underset{\longrightarrow}{\lim}_k (V_n(\mathbb{R}^k)/O(n))
+    \\
+    & \simeq
+    \underset{\longrightarrow}{\lim}_k Gr_n(\mathbb{R}^k)
+    \\
+    & \simeq B O(n)
+  \end{aligned}
+  \,.
+$$
+
+As such this is the standard presentation for the $O(n)$-[[universal principal bundle]]. Its base space $B O(n)$ is the corresponding _classifying space_.
+
++-- {: .num_defn #RealAndComplexGrassmannian}
+###### Definition
+
+spring
+
+=--
+
 
 ### For crossed complexes
 
