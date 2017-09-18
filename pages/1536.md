@@ -538,7 +538,7 @@ Then we have a [[weak homotopy equivalence]]
 $$
   {\left\vert N\left(\int F \right) \right\vert}
     \simeq
-  hocolim {\vert F(N(-)) \vert}
+  hocolim {\vert N(F(-)) \vert}
 $$
 
 exhibiting the [[homotopy colimit]] in [[Top]] over $\vert N(F (-)) \vert$ as the geometric realization of the [[Grothendieck construction]] $\int F$ of $F$.
