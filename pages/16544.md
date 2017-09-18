@@ -52,3 +52,5 @@ $$
 [[!redirects co-Kleisli categories]]
 [[!redirects coKleisli category]]
 [[!redirects coKleisli categories]]
+[[!redirects Kleisli category of a comonad]] 
+[[!redirects Kleisli category for a comonad]] 
