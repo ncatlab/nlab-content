@@ -79,7 +79,15 @@ But in some [[RO(G)-degrees]] there may appear further non-torsion groups, see a
 
 ## Related concepts
 
-* [[equivariant rational homotopy theory]]
+* [[rational homotopy theory]]
+
+* [[rational equivariant homotopy theory]]
+
+* [[rational equivariant stable homotopy theory]]
+
+* [[rational stable homotopy theory]]
+
+* [[rational parameterized stable homotopy theory]]
 
 ## References
 
