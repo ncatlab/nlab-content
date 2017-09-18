@@ -56,6 +56,8 @@ In particular, this shows how the [[double negation]] [[modality]] can be regard
 
 * [[axiom of choice]]
 
+* [[law of double negation]]
+
 ## References
 
 ### General
