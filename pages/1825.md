@@ -110,7 +110,10 @@ Visualization of the idea of the construction for the 2-sphere is in
 * [[Andrej Bauer]], _HoTT $S^2$_ ([video](https://vimeo.com/119606901))
 
 [[!redirects n-sphere]]
+[[!redirects n-spheres]]
+
 [[!redirects spheres]]
+
 [[!redirects infinite sphere]]
 
 [[!redirects 1-sphere]]
