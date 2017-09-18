@@ -35,7 +35,7 @@ Likewise, there is a standard toplogical $n$-simplex, which is (more or less by 
 
 The _topological $n$-simplex_ $\Delta^n$ is a generalization of the standard filled _[[triangle]]_ in the plane, from [[dimension]] 2 to arbitrary dimensions. Each $\Delta^n$ is [[homeomorphism|homeomorphic]] to the closed $n$-[[ball]] $D^n$, but its defining [[embedding]] into a [[Cartesian space]] equips its [[boundary]] with its cellular decomposition into _faces_, generalizing the way that the triangle has three edges (which are 1-simplices) as faces, and three points (which are 0-simplices) as corners.
 
-The topological $n$-simplex is naturally defined as a subspace of a
+The topological $n$-simplex is naturally defined as a [[subspace]] of a
 [[Cartesian space]] given by some relation on its canonical 
 [[coordinates]]. There are two standard choices for such coordinate
 presentation, which of course define [[homeomorphism|homeomorphic]]
