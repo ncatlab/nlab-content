@@ -261,6 +261,8 @@ This now is true by the assumption that $k$ is a [[field]]: If all factors $f_i(
 
 ### Properties
 
+#### Topological closures
+
 +-- {: .num_prop}
 ###### Proposition
 
@@ -328,6 +330,192 @@ $$
 Here the first equality is the definition of [[topological closure]], the second is the definition of closed subsets in the Zariski topology (def. \ref{ZariskiOpenSubsetsOnAffineSpace}), the third is the expression of intersections of these in terms of unions of polynomials as in the proof of prop. \ref{VerifyingZariskiTopologyOnAffineSpace}, and then the last one is immediate.
 
 =--
+
+#### Relation to ideals
+
++-- {: .num_defn #VanishingIdeal}
+###### Definition
+**([[vanishing ideal]] of Zariski closed subset)**
+
+Let $k$ be a [[field]], and let $n \in \mathbb{N}$. Then for $V(\mathcal{F}) \subset k^n$ a Zariski closed subset, according to def. \ref{ZariskiOpenSubsetsOnAffineSpace}, hence for $\mathcal{F} \subset k[X_1, \cdots, X_n]$ a set of polynomials, write
+
+$$
+  I(V(\mathcal{F}))
+  \subset
+  k[X_1, \cdots, X_n]
+$$
+
+for the maximal subset of polynomials that still has the same joint vanishing set:
+
+$$
+  I(V(\mathcal{F}))
+    \;\coloneqq\;
+  \left\{
+    f \in k[X_1, \cdots, X_n]
+    \,\vert\,
+    \underset{(a_1, \cdots, a_n) \in V(\mathcal{F})}{\forall} f(a_1, \cdots, a_n) = 0
+  \right\}
+  \;\subset
+  \,.
+$$
+
+This set is clearly an [[ideal]] in the [[polynomial]] [[ring]]  $k[X_1, \cdots, X_n]$, called the _[[vanishing ideal]]_ of $V(\mathcal{F})$.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+With [[excluded middle]] then:
+
+Let $k$ be a [[field]], let $n \in \mathbb{N}$, and let $V(\mathcal{F}) \subset k^n$ be a Zarsiki closed subset (def. \ref{ZariskiOpenSubsetsOnAffineSpace}). Then the following are equivalent:
+
+1. $V(\mathcal{F})$ is an [[irreducible closed subset]];
+
+1. The [[vanishing ideal]] $I(V(\mathcal{F}))$ (def. \ref{VanishingIdeal}) is a [[prime ideal]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+In one direction, assume that $V(\beta)$ is irreducible and consider $f,g \in k[X_1, \cdots, X_n]$ with $f \cdot g \in I(V(\mathcal{F}))$. We need to show that then alrady $f \in I(V(\mathcal{F}))$ or $g \in I(V(\mathcal{F}))$.
+
+Now since $k$ is a field, we have 
+
+$$
+  \left(
+    f(a_1, \cdots a_n) \cdot g(a_1, \cdots, a_n) = 0  
+  \right)
+  \Rightarrow
+  \left(
+    \left(
+      f(a_1, \cdots, a_n) = 0
+      \,\text{or}\,
+      g(a_1, \cdots, a_n) = 0
+    \right)
+  \right)
+  \,.
+$$
+
+This implies that 
+
+$$
+  V(\mathcal{F}) \subset V(\{f\}) \cup V(\{g\})
+$$
+
+and hence that 
+
+$$
+  V(\mathcal{F})
+   = 
+  (V(\mathcal{F}) \cap F(\{f\}))
+  \cup
+  (V(\mathcal{F}) \cap F(\{g\}) ) 
+  \,.
+$$
+
+But since $V(\{f\})$, $V(\{g\})$ and  $V(\mathcal{F})$ are all closed, by construction, their intersections are closed and hence this is a decomposition of $V(\mathcal{F})$ as a union of closed subsets. Therefore now the assumption that $V(\mathcal{F})$ is [[irreducible closed subset|irreducible]] implies that
+
+$$
+  \begin{aligned}
+    &
+    \left(
+      \,
+      V(\mathcal{F}) = V(\mathcal{F}) \cap V(\{f\})
+      \,
+    \right)
+    \,\text{or}\,
+    \left(
+      \,
+      V(\mathcal{F}) = V(\mathcal{F}) \cap V(\{g\})
+      \,
+    \right)
+    \\
+    \Leftrightarrow \;
+    &
+    \left(
+       \left(
+         \,
+         V(\mathcal{F}) \subset V(\{f\})
+         \,
+       \right)
+       \,\text{or}\,
+       \left(
+         \,
+         V(\mathcal{F}) \subset V(\{g\})
+         \,
+       \right)
+    \right)
+    \\
+    \Leftrightarrow \,
+    &
+    \left(
+      \left(
+        \,
+        f \in I(X)
+        \,
+      \right)
+      \,\text{or}\,
+      \left(
+        \,
+        g \in I(X)
+        \,
+      \right)
+    \right)
+  \end{aligned}
+  \,.
+$$
+
+Now for the converse, assume that $I(V(\mathcal{F}))$ is a prime ideal, and that $V(\mathcal{F}) = V(\mathcal{F}_1) \cup V(\mathcal{F}_2)$. We need to show that $V(\mathcal{F})  = V(\mathcal{F}_1)$ or that $V(\mathcal{F}) = V(\mathcal{F}_2)$.
+
+Assume on the contrary, that thre existed elements
+
+$$ 
+  (a_1, \cdots, a_n) \in V(\mathcal{F_1}) \backslash V(\mathcal{F}_2)
+  \;\text{and}\;
+  (b_1, \cdots, b_n) \in V(\mathcal{F}_2) \backslash V(\mathcal{F}_1)
+  \,
+$$
+
+Then in particular the vanishing ideals would not contain each other
+
+$$
+  \not\left(
+     I(V(\mathcal{F}_1))
+     \subset
+     I(V(\mathcal{F}_2))
+  \right)
+  \,\,\,\text{and}\,\,\,
+  \not\left(
+     I(V(\mathcal{F}_2))
+     \subset
+     I(V(\mathcal{F}_1))
+  \right)
+$$
+
+and hence there were polynomials 
+
+$$
+  f\in I(V(\mathcal{F}_1)) \backslash I(V(\mathcal{F}_2))
+  \,\,\,\text{and}\,\,\,
+  g \in I(V(\mathcal{F}_2)) \backslash I(V(\mathcal{F}_1))
+  \,.
+$$
+
+But since a product of polynomials vanishes at some point once one of the factors vanishes at that point, it would follows that 
+
+$$
+  f \cdot g \in I(V(\mathcal{F}_1)) \cap I(V(\mathcal{F}_2)) = I(V(\mathcal{F}))
+  \,,
+$$
+
+which were in contradiction to the assumption that $I(V(\mathcal{F}))$ is a prime ideal. Hence we have a [[proof by contradiction]].
+
+
+
+=--
+
 
 
 ## On affine varieties
