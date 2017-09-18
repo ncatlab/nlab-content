@@ -32,9 +32,9 @@ $$
   }
 $$
 
-from the [[algebraic K-theory]] spectrum to the [[topological Hochschild homology]] spectrum and factoring through the [[topological cyclic homology]] spectrum called the _cyclotomic trace_ which much like a [[Chern character]] map for [[algebraic K-theory]].
+from the [[algebraic K-theory]] spectrum to the [[topological Hochschild homology]] spectrum and factoring through the [[topological cyclic homology]] spectrum (a [[cyclotomic spectrum]]) called the _cyclotomic trace_ which much like a [[Chern character]] map for [[algebraic K-theory]].
 
-This is a refinement to [[spectra]] of the [[Dennis trace]].
+This is a refinement to [[spectra]] of the [[Dennis trace]]. 
 
 ## Related concepts
 
