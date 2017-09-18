@@ -26,6 +26,8 @@ Depending whether this condition is satisfied by left ideals, right ideals or tw
 
 A **local Artin algebra** with [[residue field]] $\mathbb{K}$ is a finitely generated $\mathbb{K}$-[[associative algebra|algebra]] $A$, which is a commutative Artin ring (with unit) with a unique maximal ideal $\mathfrak{m}_A$, such that the residue field $A/\mathfrak{m}_A$ is $\mathbb{K}$. As a $\mathbb{K}$ [[vector space]] one has a splitting $A=\mathbb{K}\oplus \mathfrak{m}_A$. Moreover, the descending chain condition implies that $(\mathfrak{m}_A)^n=0$ for some $n\gg 0$. This is a consequence of [[Nakayama lemma]]. 
 
+In [[synthetic differential geometry]] these local Artin algebras are usually known as _[[infinitesimally thickened point|Weil algebras]]_. 
+
 ## Examples
 
 A classical example is the ring of [[dual numbers]] $\mathbb{K}[\epsilon]/(\epsilon^2)$ over a field $\mathbb{K}$.
@@ -33,6 +35,7 @@ A classical example is the ring of [[dual numbers]] $\mathbb{K}[\epsilon]/(\epsi
 Passing from commutative rings to their spectra (in the sense of algebraic geometry), local Artin algebras correspond to infinitesimal pointed spaces. As such, they appear as bases of deformations in [[infinitesimal object|infinitesimal]] [[deformation theory]]. For instance $Spec(\mathbb{K}[\epsilon]/(\epsilon^2))$ is the base space for 1-dimensional first order deformations. Similarly, $Spec(\mathbb{K}[\epsilon]/(\epsilon^{n+1}))$ is the base space for 1-dimensional $n$-th order deformations.
 
 Note that, since a local Artin algebra has a unique [[prime ideal]], its spectrum consists of a single point, i.e., $Spec(A)$ is trivial as a topological space. It is however non-trivial as a ringed space, since its ring of functions is $A$. By this reason spectra of Artin algebras are occasionally called _[[infinitesimally thickened point|fat points]]_ in the literature.
+
 
 ## References
 
