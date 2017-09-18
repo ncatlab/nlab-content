@@ -220,7 +220,7 @@ According to [[Albert Schwarz]],
 
 >I am convinced that the mathematical notion of Morita equivalence of associative algebras and its generalization for differential associative algebras should be regarded as the mathematical foundation of dualities in string/M-theory. ([My life in science](https://www.math.ucdavis.edu/~schwarz/bion.pdf))
 
-Scharz showed that compactifications on Morita equivalent noncommutative tori are physically equivalent ([Schwartz98](#Schwartz98)). This work is followed up in relation to [[T-duality]] in [Pioline99](#Pioline99) and [CNS11](#CNS11).
+Schwarz showed that compactifications on Morita equivalent noncommutative tori are physically equivalent ([Schwarz98](#Schwarz98)). This work is followed up in relation to [[T-duality]] in [Pioline99](#Pioline99) and [CNS11](#CNS11).
 
 [BMRS08](#BMRS08) discusses an axiomatic definition of [[topological T-duality]] generalizing and refining T-duality between noncommutative spaces in terms of Morita equivalence to a special type of [[KK-theory|KK-equivalence]], which defines a T-duality action that is of order two up to Morita equivalence.
 
@@ -251,7 +251,7 @@ There is also a duality in the _description_ of physics:
 
 * {#CNS11} Ee Chang-Young, Hiroaki Nakajima, Hyeonjoon Shin, _Fermionic T-duality and Morita Equivalence_, ([arXiv:1101.0473](http://arxiv.org/abs/1101.0473))
 
-* {#Schwartz98} [[Albert Schwarz]], _Morita equivalence and duality_, ([arXiv:hep-th/9805034](http://arxiv.org/abs/hep-th/9805034))
+* {#Schwarz98} [[Albert Schwarz]], _Morita equivalence and duality_, ([arXiv:hep-th/9805034](http://arxiv.org/abs/hep-th/9805034))
 
 * {#BZBJ15} [[David Ben-Zvi]], Adrien Brochier, David Jordan, _Integrating quantum groups over surfaces: quantum character varieties and topological field theory_, ([arXiv:1501.04652](http://arxiv.org/abs/1501.04652))
 
