@@ -180,7 +180,7 @@ on [[cobordism theory]], [[stable homotopy theory]], [[complex oriented cohomolo
 
 * [[lim^1 and Milnor sequences]]
 
-* [[Atiyah-Hirzebruch spectral sequence]]
+* [[Atiyah-Hirzebruch spectral sequence]], [[multiplicative spectral sequence|multiplicative]]
 
 ### 4.3 MU characteristic classes
 
