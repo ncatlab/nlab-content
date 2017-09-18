@@ -1,14 +1,18 @@
+
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Relations
+#### Graph theory
 +-- {: .hide}
-[[!include relations - contents]]
+[[!include graph theory - contents]]
+=--
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
 =--
 =--
 =--
-
-
 
 
 # Contents
