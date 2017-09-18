@@ -31,6 +31,7 @@
   * [[jet bundle]]
 
 ## Models ##
+{#models_2}
 
 * [[Models for Smooth Infinitesimal Analysis]]
 
