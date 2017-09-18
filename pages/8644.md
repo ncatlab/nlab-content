@@ -37,7 +37,7 @@ An instanton vacuum is argued to account for
 
 * spontaneous [[chiral symmetry breaking]] ([Diakonov 96](#Diakonov96))
 
-* [[baryogenesis]] in the early universe by inducing baryon numbernon-conservation
+* [[baryogenesis]] in the early universe by inducing baryon number non-conservation
 
 ## Critical discussion of the literature
  {#CriticalDiscussionOfTheLiterature}
