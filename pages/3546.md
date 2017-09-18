@@ -3,7 +3,7 @@
 
 ## related $n$-lab entries
 
-* [[topology]]
+* [[topology]], [[algebraic topology]]
 
 * [[Whitehead tower]]
 
