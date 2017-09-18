@@ -1,0 +1,20 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Equality and Equivalence
++-- {: .hide}
+[[!include equality and equivalence - contents]]
+=--
+=--
+=--
+
+* [[equality]]
+
+* [[identity element]]
+
+* [[identity morphism]]
+
+* [[identity type]]
+
+[[!redirects identities]]
