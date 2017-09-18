@@ -28,17 +28,3 @@
 
 * [[vertex coloring]], [[clique]]
 
-
-### Collection of some basic misunderstandings
-
-This section is suppose to collect some elementary explanations furthering mutual understanding between graph-theory and category-theory. 
-
-+-- {: .query}
-(here we could include some elementary explanations furthering mutual understanding between graph-theory and category-theory. 
-
-=--
-
-#### Aren't categories just transitive digraphs? 
-One sometimes gets reactions like "aren't categories just transitive digraphs?": this is not correct, a category is much more than such a graph (and also more than any reasonable decoration of such a graph): while indeed the underlying quiver of any category is a transitive directed (pseudo)-graph, a category itself carries more structure, namely the  "generalized multiplication table" in the background, giving the compositions of the morphisms. The [[forgetful functor]] $\mathsf{CAT}\rightarrow\mathsf{Quiv}$ actually does forget quite a lot.
-
-
