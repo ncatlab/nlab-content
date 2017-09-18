@@ -19,7 +19,7 @@
 +-- {: .num_defn}
 ###### Definition
 
-An [[object]] $U$ in a [[category]] $C$ is **subterminal** if any two [[morphism]]s with [[target]] $U$ but the same source are equal.  In other words, $U$ is subterminal if for any object $X$, there is at most one morphism $X\to U$.
+An [[object]] $U$ in a [[category]] $C$ is **subterminal** if any two [[morphism]]s with [[target]] $U$ and the same source are equal.  In other words, $U$ is subterminal if for any object $X$, there is at most one morphism $X\to U$.
 
 =--
 
