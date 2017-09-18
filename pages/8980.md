@@ -50,6 +50,8 @@ By the discussion at _[idempotent monad -- Properties -- Eilenberg-Moore categor
 
 ## Related concepts
 
+* [[modality]]
+
 * [[reflective subcategory]]
 
 * [[reflective sub-(∞,1)-category]]
