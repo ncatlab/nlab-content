@@ -1,88 +1,25 @@
-+-- {: .num_defn #VectorBundleAssociatedWithBfStructure}
-###### Definition
-
-Given a [[(B,f)-structure]] $\mathcal{B}$ (def. \ref{BfStructure}),  write $V^\mathcal{B}_n$ for the [[pullback]] of the [[universal vector bundle]] (def. \ref{EOn}) pulled back to the corresponding space of the $(B,f)$-structure and with
-
 $$
   \array{
-    V^{\mathcal{B}}
-      &\overset{}{\longrightarrow}&
-    V O(n) \underset{O(n)}{\times} \mathbb{R}^n
+   X &\longrightarrow& X_+ &\hookrightarrow& S^{n + (k-n)}
+   \\
+   \downarrow &(pb)& \downarrow &(pb)& \downarrow
     \\
-    \downarrow &(pb)& \downarrow
+    X &\longrightarrow& X_+ \simeq Th(X) &\overset{Th(0)}{\longrightarrow}& Th(\nu_i)
     \\
-    B_n &\underset{f_n}{\longrightarrow}& B O(n)
+    \downarrow &(pb)& \downarrow &(pb)& \downarrow
+    \\
+    B_{k-n}
+      &\longrightarrow& 
+    (B_{k-n})_+ \simeq Th(B_{k-n}) 
+    &\underset{Th(0)}{\longrightarrow}& Th(V^{\mathcal{B}}_{k-n})
+    \\
+    \downarrow &pb& \downarrow &(pb)& \downarrow
+    \\
+    B O(k-n)
+      &\longrightarrow& 
+    (B O(k-n))_+ \simeq Th(B O(k-n)) 
+      &\longrightarrow& 
+    Th(V_{k-n})
   }
 $$
 
-and we write $e_{n_1,n_2}$ for the maps of total space of vector bundles over the $g_{n_1,n_2}$:
-
-$$
-  \array{
-    V^{\mathcal{B}}_{n_1}
-     &\overset{e_{n_1,n_2}}{\longrightarrow}&
-    V^{\mathcal{B}}_{n_2}
-    \\
-    \downarrow &(pb)& \downarrow
-    \\
-    B_{n_1} &\underset{g_{n_1,n_2}}{\longrightarrow}& B_{n_2}
-  }
-  \,.
-$$
-
-
-=--
-
-Observe that the analog of prop. \ref{PullbackOfUniversalOnBundleUnderCoordinateRestriction} still holds:
-
-+-- {: .num_prop #PullbackOfUniversalBfBundleUnderCoordinateRestriction}
-###### Proposiiton
-
-Given a [[(B,f)-structure]] $\mathcal{B}$ (def. \ref{BfStructure}), then the pullback of its rank-$(n+1)$ vector bundle $V^{\mathcal{B}}_{n+1}$ (def. \ref{VectorBundleAssociatedWithBfStructure}) along the map $g_{n,n+1} \colon B_n \to B_{n+1}$ is the [[direct sum of vector bundles]] of the rank-$n$ bundle $V^{\mathcal{B}}_n$ with the trivial rank-1-bundle: there is a pullback square
-
-$$
-  \array{
-    \mathbb{R} \oplus V^{\mathcal{B}}_n 
-      &\overset{e_{n,n+1}}{\longrightarrow}&
-    V^{\mathcal{B}}_{n+1}
-    \\
-    \downarrow &(pb)& \downarrow
-    \\
-    B_n &\underset{g_{n,n+1}}{\longrightarrow}& B_{n+1}
-  }
-  \,.
-$$
-
-=---
-
-+-- {: .proof}
-###### Proof
-
-Unwinding the definitions, the pullback in question is
-
-$$
-  \begin{aligned}
-    (g_{n,n+1})^\ast V^{\mathcal{B}}_{n+1}
-      & =
-    (g_{n,n+1})^\ast f_{n+1}^\ast (E O(n+1)\underset{O(n+1)}{\times} \mathbb{R}^{n+1})
-    \\
-    & \simeq
-    (g_{n,n+1} \circ f_{n+1})^\ast (E O(n+1)\underset{O(n+1)}{\times} \mathbb{R}^{n+1})
-    \\
-    & \simeq
-    ( f_n \circ i_n )^\ast (E O(n+1)\underset{O(n+1)}{\times} \mathbb{R}^{n+1})
-    \\
-    & \simeq
-    f_n^\ast i_n^\ast (E O(n+1)\underset{O(n+1)}{\times} \mathbb{R}^{n+1})
-    \\
-    & \simeq
-    f_n^\ast (\mathbb{R} \oplus (E O(n)\underset{O(n)}{\times} \mathbb{R}^{n}))
-    \\
-    &\simeq \mathbb{R} \oplus V^{\mathcal{B}_n}
-    \,,
-  \end{aligned}
-$$
-
-where the second but last step is due to prop. \ref{PullbackOfUniversalOnBundleUnderCoordinateRestriction}.
-
-=--
