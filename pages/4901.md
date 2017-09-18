@@ -32,7 +32,7 @@ A **derived loop space** is a [[free loop space object]] in such $\mathbf{H}$.
 
 More specifically, if $T$ is an ordinary [[Lawvere theory]], regarded as a 1-truncated $(\infty,1)$-theory, then $T Alg_{\infty}$ are its simplicial algebras. There is a canonical embedding $T Alg^{op} \hookrightarrow T Alg_\infty^{op}$ of the ordinary algebras into the $\infty$-algebras, so that we may regard $X \in T Alg^{op}$ as an object of $\mathbf{H}$. Then the _derived loop space_ of $X$ is its [[free loop space object]] computed in $\mathbf{H}$.
 
-The point is that the derived loop space of an ordinary $X \in T Alg^{op}$ in general is a significantly richer object than the free loop space object of $X$ as computed just in the underived $(\inftym1)$-topos $(\infty,1)Sh(T Alg^{op})$. In fact, since $X$ is 0-[[truncated]] in $(\infty,1)Sh(T Alg^{op})$, its coincides with its free loop space object there. But the derived loop space does not.
+The point is that the derived loop space of an ordinary $X \in T Alg^{op}$ in general is a significantly richer object than the free loop space object of $X$ as computed just in the underived $(\infty,1)$-topos $(\infty,1)Sh(T Alg^{op})$. In fact, since $X$ is 0-[[truncated]] in $(\infty,1)Sh(T Alg^{op})$, it coincides with its free loop space object there, but the derived loop space does not.
 
 ## Function complexes on derived loop spaces: Hochschild homology
 
@@ -40,7 +40,7 @@ The function complex on the derived loop space $\mathcal{L}X$ is the [[Hochschil
 
 
 
-Also see [[free loop space object]] for more informaiton.
+Also see [[free loop space object]] for more information.
 
 ## Related concepts
 
@@ -52,7 +52,7 @@ Also see [[free loop space object]] for more informaiton.
 
   * [[formal loop space]], **derived loop space**
 
-  * [[derived micorlocalization]]
+  * [[derived microlocalization]]
 
 * [[suspension object]]
 
