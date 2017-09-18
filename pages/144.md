@@ -222,6 +222,6 @@ A kind of review is in
 
 * [[Bill Lawvere]], _[Taking categories seriously](http://www.emis.de/journals/TAC/reprints/articles/8/tr8.pdf)_
 
-
+[[!redirects quantity]]
 [[!redirects space and quantity]]
 [[!redirects duality between space and quantity]]
