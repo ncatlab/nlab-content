@@ -95,17 +95,40 @@ For $p \in \mathbb{N} \cup \{\infty\}$ then a $p$-fold _[[differentiable manifol
 
 1. an [[atlas]] $\{\mathbb{R}^n \overset{\phi_i}{\to} X\}$ (def. \ref{Charts}) all whose [[gluing functions]]  are $p$ times continuously [[differentiable function|differentiable]].
 
-A $p$-fold [[differentiable function]] between $p$-fold differentiable manifolds $(X, \{\mathbb{R}^{n} \overset{\phi_i}{\to} U_i \subset X\}_{i \in I})$ and $(Y, \{\mathbb{R}^{n'} \overset{\spi_j}{\to} V_j \subset\}_{j \in J})$ is a [[continuous function]] $f \colon X \to Y$ such that for all $x \in X$ and charts $U_i \supset \{x\}$, $V_j \supset \{y\}$ then 
+A $p$-fold [[differentiable function]] between $p$-fold differentiable manifolds 
 
 $$
-  \psi_j^{-1} circ f \circ \phi_i 
-$$
+  (X, \{\mathbb{R}^{n} \overset{\phi_i}{\to} U_i \subset X\}_{i \in I})
+   \overset{\phantom{AA}f\phantom{AA}}{\longrightarrow}
+  (Y, \{\mathbb{R}^{n'} \overset{\psi_j}{\to} V_j \subset Y\}_{j \in J})
+$$ 
 
-is $p$-fold differentiable. 
+is 
 
-For $p = \infty$ one speaks of [[smooth manifolds]] with [[smooth functions]] between them 
+* a [[continuous function]] $f \colon X \to Y$ 
+
+such that 
+
+* for all $i \in I$ and $j \in J$ then 
+
+  $$
+     \mathbb{R}^n
+     \supset
+      \phantom{AA}
+     (f\circ \phi_i)^{-1}(V_j)
+       \overset{\phi_i}{\longrightarrow}
+     f^{-1}(V_j)
+      \overset{f}{\longrightarrow}
+     V_j
+       \overset{\psi_j^{-1}}{\longrightarrow}
+     \mathbb{R}^{n'}
+  $$
+
+  is a $p$-fold [[differentiable function]] between open subsets of [[Euclidean space]].
 
 =--
+
+Notice that this in in general  a non-trivial condition even if $X = Y$ and $f$ is the identity function. In this case the above exhibits a passage to a different, but equivalent, differentiable atlas.
 
 
 ## References
