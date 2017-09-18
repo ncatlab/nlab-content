@@ -58,7 +58,23 @@ This is exactly what is needed for the pullback stability axiom to hold, and the
 
 The condition occurring in the proposition is called the (right) [[Ore condition]]. It is a result by [[Peter Johnstone|P. T. Johnstone]] (1979) that $Set^{\mathcal{C}^{op}}$ is a [[De Morgan topos]] precisely if $\mathcal{C}$ satisfies the Ore condition. Whence we see that every [[atomic topos|atomic Grothendieck toposes]] is a ([[Boolean topos|Boolean]]) subtopos of a De Morgan [[presheaf topos]].
 
-Since the atomic topology is just the [[dense topology]] for the categories satisfying the Ore condition and the corresponding sheaf toposes of the dense topology are just the double negation subtoposes of the corresponding presheaf topos we get: 
+Recall that the [[dense topology]] $J_d$ on a category $\mathcal{C}$ consists of all sieves $S\in J_d(C)$ with the property that given $f:D\to C$ there exists $g:E\to D$ such that $f g\in J_d(C)$. The atomic topology is a special case of this:
+
++-- {: .num_prop #atomic_dense}
+###### Proposition
+Let $\mathcal{C}$ be a [[category]] satisfying the [[Ore condition]]. Then the atomic topology $J_{at}$ coincides with the dense topology $J_d$.
+=--
+
++-- {: .proof}
+###### Proof
+For $\mathcal{C}=\emptyset$ the claim is trivial. So let $C\in\mathcal{C}$ be an object and $S$ a sieve on $C$.
+
+Assume $S\in J_d(C)$, then for $id_\mathcal{C}$ there exists $g:E\to C$ with $id_\mathcal{C} g\in J_d(C)$ whence $S\in J_{at}(C)$.
+
+Conversely, assume $S\in J_{at}(C)$ and let $f:D\to C$ be a morphism. Then there exists $g\in S$ by assumption and the diagram $D\overset{f}{\rightarrow} C \overset{g}{\leftarrow} E$ can be completed to a commutative square $f\cdot i = g\cdot h$ but $g h\in S$ since $g\in S$ and $S$ is a sieve. Whence $f i\in S$ and, accordingly, $S\in J_d(C)$.
+=--
+
+In other words, the atomic topology is just the [[dense topology]] on a categories satisfying the Ore condition. Since the corresponding sheaf toposes of the dense topology are just the double negation subtoposes of the corresponding presheaf topos we finally get: 
 
 +-- {: .num_prop}
 ###### Proposition
@@ -83,6 +99,8 @@ For the proof see Mac Lane-Moerdijk ([1994](#MM94), pp.126f).
 * [[dense topology]]
 
 * [[atomic topos]]
+
+* [[atomic geometric morphism]]
 
 * [[Ore condition]]
 
