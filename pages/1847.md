@@ -149,7 +149,7 @@ As with the concept of [[compact topological spaces]] ([this remark](compact#spa
     $\Rightarrow$ [[metric space|metrizable space]]
     $\Rightarrow$ paracompact space
 
-    (the first is Urysohn's metrization theorem, the second is due to A. H. Stone)
+    (the first is Urysohn's metrization theorem, the second is due to A. H. Stone, see also at _[[second-countable regular spaces are paracompact]]_)
 
   * paracompact space and locally metric space
     $\Rightarrow$
