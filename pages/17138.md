@@ -205,6 +205,61 @@ Throughout, let _[[Top]]_ denote the [[category]] whose [[objects]] are [[topolo
 
 To begin with, we recall some basics on [[universal constructions]] in [[Top]]: [[limits]] and [[colimits]] of [[diagrams]] of [[topological spaces]]; [[exponential objects]].
 
+Generally, recall:
+
++-- {: .num_defn #LimitsAndColimits}
+###### Definition
+
+A **[[diagram]]** in a [[category]] $\mathcal{C}$ is a [[small category]] $I$ and a [[functor]]
+
+$$
+  X_\bullet
+  \;\colon\;
+  I \longrightarrow \mathcal{C}
+$$
+
+$$
+  (i \overset{\phi}{\longrightarrow} j)
+  \;
+  \mapsto
+  ( X_i \overset{X(\phi)}{\longrightarrow} X_j)
+  \,.
+$$
+
+A **[[cone]]** over this diagram is an object $Q$ equipped with morphisms $p_i \colon Q \longrightarrow X_i$ for all $i \in I$, such that all these triangles commute:
+
+$$
+  \array{
+     && Q
+     \\
+     & {}^{\mathllap{p_i}}\swarrow && \searrow^{\mathrlap{p_j}}
+     \\
+     X_i && \underset{X(\phi)}{\longrightarrow} && X_j
+  }
+  \,.
+$$
+
+Dually, a **[[co-cone]]** under the diagram is $Q$ equipped with morphisms $q_i \colon X_i \longrightarrow Q$ such that all these triangles commute
+
+$$
+  \array{
+    X_i && \overset{X(\phi)}{\longrightarrow} && X_j
+    \\
+    & {}_{\mathllap{q_i}}\searrow && \swarrow_{\mathrlap{q_j}}
+    \\
+    && Q
+  }
+  \,.
+$$
+
+A **[[limit]]** over the diagram is a universal cone, denoted $\underset{\longrightarrow}{\lim}_{i \in I} X_i$, a cone such that every other cone uniquely factors through it $Q \longrightarrow \underset{\longrightarrow}{\lim}_{i \in I} X_i$, making all the resulting triangles commute.
+
+Dually, a **[[colimit]]** over the diagram is a universal cocone, denoted $\underset{\longrightarrow}{\lim}_{i \in I} X_i$.
+
+=--
+
+We now discuss limits and colimits in $\mathcal{C}= $ [[Top]]. The key for understanding these is the fact that there are initial and final topologies:
+
 +-- {: .num_defn #InitialAndFinalTopologies}
 ###### Definition
 
@@ -295,7 +350,7 @@ Let $I$ be a [[small category]] and let $X_\bullet \colon I \longrightarrow Top$
 +-- {: .proof}
 ###### Proof
 
-The required [[universal property]] of $\left(\underset{\longleftarrow}{\lim}_{i \in I} S_i,\; \tau_{initial}(\{p_i\}_{i \in I})\right)$ is immediate: for 
+The required [[universal property]] of $\left(\underset{\longleftarrow}{\lim}_{i \in I} S_i,\; \tau_{initial}(\{p_i\}_{i \in I})\right)$ (def. \ref{LimitsAndColimits}) is immediate: for 
 
 $$
   \array{
@@ -434,6 +489,39 @@ $$
 of the [[disjoint union]] of $X$ and $Y$ subject to the [[equivalence relation]] which identifies a point in $X$ with a point in $Y$ if they have the same pre-image in $A$.
 
 (graphics from [Aguilar-Gitler-Prieto 02](#AguilarGitlerPrieto02))
+
+Notice that the defining [[universal property]] of this colimit means that completing the [[span]]
+
+$$
+  \array{
+    A &\longrightarrow& Y
+    \\
+    \downarrow
+    \\
+    X
+  }
+$$
+
+to a [[commuting square]]
+
+$$
+  \array{
+    A &\longrightarrow& Y
+    \\
+    \downarrow && \downarrow 
+    \\
+    X &\longrightarrow& Z
+  }
+$$
+
+is equivalent to finding a morphism
+
+$$
+  X \underset{A}{\sqcup} Y \longrightarrow Z
+  \,.
+$$
+
+
 
 =--
 
