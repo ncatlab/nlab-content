@@ -55,4 +55,13 @@ See there for more details.
 
 * [string theory FQA -- Does string theory predict supersymmetry?](string+theory+FAQ#DoesSTPredictSupersymmetry)
 
+## References
+
+Analysis in [[classical field theory]] in terms of [[supergeometry]] is in
+
+* {#Freed01} [[Daniel Freed]], lecture 4 of _Classical field theory and Supersymmetry_, IAS/Park City Mathematics Series Volume 11 (2001) ([pdf](https://www.ma.utexas.edu/users/dafr/pcmi.pdf))
+
+
+
+
 [[!redirects superparticles]]
