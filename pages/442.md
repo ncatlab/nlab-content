@@ -34,7 +34,7 @@ A _[[homomorphism]]_ of such theories $T \to T'$ is a product-preserving [[funct
 +-- {: .un_remark}
 ###### Remark
 
-For $T$ a Lawvere theory, we are to think of the [[hom-set]] $T(n,1)$ as the set of $n$-ary operations definable in the theory. For instance for $T$ the theory of [[abelian group]]s, $T(2,1)$ includes operations like $+ \colon (x, y) \mapsto x + y$, $- \colon (x, y) \mapsto x-y$, and $(x, y) \mapsto 2 x - 3 y$. For $0$-ary or nullary operations, we have $T(0,1) = \{0\}$. 
+For $T$ a Lawvere theory, we are to think of the [[hom-set]] $T(n,1) := T(x^n, x)$ as the set of $n$-ary operations definable in the theory. For instance for $T$ the theory of [[abelian group]]s, $T(2,1)$ includes operations like $+ \colon (x, y) \mapsto x + y$, $- \colon (x, y) \mapsto x-y$, and $(x, y) \mapsto 2 x - 3 y$. For $0$-ary or nullary operations, we have $T(0,1) = \{0\}$. 
 
 =--
 
