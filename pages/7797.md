@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include synthetic differential geometry - contents]]
 =--
+#### Bundles
++-- {: .hide}
+[[!include bundles - contents]]
+=--
 #### Cohomology
 +--{: .hide}
 [[!include cohomology - contents]]
