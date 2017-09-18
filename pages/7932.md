@@ -1040,6 +1040,43 @@ $$
 =--
 
 
+#### Co-Discretization of Actions
+
+Let $\mathbf{H}$ be a [[local (∞,1)-topos]] (for instance a [[cohesive (∞,1)-topos]]) and write $\sharp$ for its [[sharp modality]].
+Write $\sharp_n$ for the [[n-image]] of itd [[unit of a monad|unit]].
+
++-- {: .num_prop #CoDiscretizationOfActions}
+###### Proposition
+
+Given a $G$-action on some $X$, there is canonically induced an $\sharp_n G$-action on $\sharp_n X$ such that the projection $X \to \sharp_n X$ carries the structure of a homomorphism of $G$-actions.
+
+=--
+
+We indicate two proofs, the first non-elementary (making use of the homotopy [[Giraud axioms]]), the second [[elementary (infinity,1)-topos|elementary]]. (Following [this](http://nforum.mathforge.org/discussion/4576/nimage/?Focus=51743#Comment_51743) discussion.)
+
++-- {: .proof}
+###### Proof
+
+Observe that $\sharp_n$ preserves [[products]], since $\sharp$ does (being a [[right adjoint]]) and by [this proposition](n-image#nImagePreservesProducts). Now use that the [[homotopy quotient]] $V/G$ is the realization of the [[simplicial object in an (infinity,1)-category|simplicial object]] $(V/G)_\bullet = G^{\times_{\bullet}} \times V$. So applying $\sharp_n$ to this yields a simplicial object $((\sharp_n V)/(\sharp_n G))_\bullet = (\sharp_n G)^{\times_{\bullet}} \times (\sharp_n V)$ which exhibits the desired action.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Generally, let $A:B\to Type$ be any [[dependent type]] family (speaking [[homotopy type theory]]).  We claim that there is an induced family $A^{\sharp_n} : \sharp_{n+1} B \to Type $ such that $A^{\sharp_n}(\eta_{n+1}(b)) = \sharp_n (A(b))$ for any $b:B$, where $\eta_{n+1} : B \to \sharp_{n+1} B$ is the inclusion.  Applying this when $A \to B$ is $V/G \to \mathbf{B}G$ and when $b$ is (necessarily) [[generalized the|the]] basepoint of $\mathbf{B}G$ gives the desired action on the desired type.
+
+First of all, we have the composite $B \xrightarrow{A} Type \xrightarrow{\sharp} Type_{\sharp}$, where $Type_{\sharp} = \sum_{X:Type} is\sharp(X)$.  Since $Type_{\sharp}$ is itself $\sharp$ (since $\sharp$ is lex), this factors through $\sharp B$, giving a type family $A^\sharp : \sharp B \to Type_{\sharp}$ such that $A^{\sharp}(\eta(b)) = \sharp (A(b))$ for any $b:B$, where $\eta:B\to \sharp B$ is the unit of $\sharp$.
+
+Now fix $y:\sharp B$ and $x:A^\sharp(y)$.  For any $b:B$ and $p:\eta(b)=y$, we can define the type ${\big\Vert \sum_{(a:A(b))} p_\ast (\eta(a)) = x\big\Vert}_n$.  This is an $n$-type, and since the [[type of types|type of]] [[truncated types]] $n\text{-}Type$ is an $(n+1)$-type, as a function of $(b,p) : \sum_{b:B} \eta(b)=y$, this construction factors through $\big\Vert \sum_{b:B} \eta(b)=y\big\Vert_{n+1}$.  Thus, for $y:\sharp B$ and $x:A^\sharp(y)$ and $\xi : {\big\Vert \sum_{(b:B)} \eta(b)=y\big\Vert}_{n+1}$ we have a type $P(y,x,\xi)$, such that
+$$P\big(y,x,{|(b,p)|}_{n+1}\big) = {\left\Vert \sum_{(a:A(b))} p_\ast (\eta(a)) = x\right\Vert}_n.$$
+
+Now by definition, $\sharp_{n+1} B \coloneqq \sum_{(y:\sharp B)} {\big\Vert \sum_{(b:B)} \eta(b)=y\big\Vert}_{n+1}$.  Thus, we can define $A^{\sharp_n} : \sharp_{n+1} B \to Type$ by $A^{\sharp_n}(y,\xi) = \sum_{x:A^\sharp(y)} P(y,x,\xi)$.  And since $\eta_{n+1}(b) = (\eta(b),{|(b,1)|}_{n+1})$, we have $A^{\sharp_n}(\eta_{n+1}(b)) = \sum_{x:\sharp(A(b))} {\big\Vert \sum_{(a:A(b))} \eta(a)) = x\big\Vert}_n$, which is $\sharp_{n}(A(b))$ by definition.
+
+
+=--
+
+
 ### Infinitesimally: actions of $L_\infty$-algebroids
 
 See _[[Lie infinity-algebroid representation]]_.
