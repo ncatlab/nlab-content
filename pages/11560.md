@@ -19,7 +19,18 @@
 
 ## Idea
 
-**Spectral algebraic geometry** is a variant of [[derived algebraic geometry]] developed by [[Jacob Lurie]], where instead of [[simplicial commutative rings]], the spaces are locally modelled on [[E-infinity rings]].  Hence it is more general, and more suited to applications in [[algebraic topology]].
+**Spectral algebraic geometry** is the theory of [[homotopical algebraic geometry]] specialized to the [[(infinity,1)-category of spectra]].
+Hence it is a generalization of ordinary [[algebraic geometry]] where instead of [[commutative rings]], [[spectral schemes]] are locally modelled on [[commutative ring spectra]].
+
+## Applications
+
+### Elliptic cohomology
+
+1.  Universal [[elliptic cohomology]] ([[topological modular forms]]).  See [below](#elliptic_cohomology_29).
+
+Historically, the first application of spectral algebraic geometry was in the study of [[elliptic cohomology]] and [[topological modular forms]].  In particular it allowed the construction and study of the [[tmf]] [[spectrum]] as a certain [[derived moduli stack]] of [[derived elliptic curves]]. This construction is based on the [[Artin-Lurie representability theorem]].  See
+
+* [[Jacob Lurie]], [[A Survey of Elliptic Cohomology]]
 
 ## See also
 
@@ -42,6 +53,10 @@ The foundations of the theory are developed in
 * [[Jacob Lurie]], _DAG XII: Proper morphisms, completions, and the Grothendieck existence theorem_, [pdf](http://www.math.harvard.edu/~lurie/papers/DAG-XII.pdf).
 
 * [[Jacob Lurie]], _DAG XIV: Representability theorems_, [pdf](http://www.math.harvard.edu/~lurie/papers/DAG-XIV.pdf).
+
+See also
+
+* [[Paul Goerss]], [[Topological Algebraic Geometry - A Workshop]]
 
 For the 2014 installment of UOregon's Moursund Lecture Series, Jacob Lurie gave three (video recorded) lectures on spectral algebraic geometry
 
