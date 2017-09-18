@@ -32,18 +32,23 @@ In the [[category]] [[Set]] of [[set]]s, [[limit]]s and [[colimit]]s reduce to t
 * [[subset]]s defined by equations
 * [[quotient set]]s of equivalence classes.
 
-### Terminal object
+### Limits
+
+#### Terminal object
 The [[terminal object]] is the limit of the empty functor $F: \emptyset \to Set$. So a [[terminal object]] of $Set$ is a set $X$ such that there is a unqiue function from any set to $X$. This is given by any [[singleton]] set $\{a\}$, where the unique function $Y \to \{a\}$ from any set $Y$ is the function that sends every element in $Y$ to $a$.
 
-### Initial object
-(...)
-
-### Product
-Given two sets $A, B$, the categorical [[product]] is the usual product of sets, which can be constructed as the set of [[Kuratowski pairs]]
+#### Product
+Given two sets $A, B$, the categorical [[product]] is the limit of the diagram (with no non-trivial maps)
+$$
+\array{
+  A & B
+}.
+$$
+This is given by the usual product of sets, which can be constructed as the set of [[Kuratowski pairs]]
 $$
   A \times B = \{ \{\{a\}, \{a, b\}: a \in A, b \in B\}.
 $$
-We write $(a, b) = \{\{a\}, \{a, b\}\}$.
+We tend to write $(a, b)$ instead of $\{\{a\}, \{a, b\}\}$.
 
 The projection maps $\pi_1: A \times B \to A$ and $\pi_2: A \times B \to B$ are given by
 $$
@@ -55,35 +60,33 @@ $$
   (f, g)(x) = (f(x), g(x)).
 $$
 
-### Coproduct
-(...)
-
-### Equalizer
-Given a diagram
+More generally, given a (possibility infinite) collection of sets $\{A_\alpha\}_{\alpha \in I}$, the product of the discrete diagram consisting of these sets is the usual product $\prod_{\alpha \in I} A_\alpha$. This can be constructed as
+$$
+  \prod_{\alpha \in I} A_\alpha = \left\{f: I \to \bigcup_{\alpha \in I} A_\alpha \mid f(\alpha) \in A_\alpha\;\text{ for all }\;\alpha \in I\right\}.
+$$
+#### Equalizer
+Given a pair of functions $f, g: X \to Y$, the [[equalizer]] is the limit of the diagram
 $$
 \array{
 X & \underset{g}{\overset{f}{\rightrightarrows}} & Y
-},
+}.
 $$
-the limit of the diagram is the [[equalizer]] of the two arrows, is given by
+The limit is given by a map $e: A \to X$ such that given any $a: B \to X$, it factors through $e$ if and only if $f \circ a = g \circ a$. In other words, $a$ factors through $e$ if and only if $\im a \subseteq \{x \in X: f(x) = g(x)\}$. Thus the limit of the diagram is given by
 $$
-  \{x \in X: f(x) = g(x)\}.
+  A = \{x \in X: f(x) = g(x)\},
 $$
-(.. explanation of construction ..)
+and the map $e: A \to X$ is given by the inclusion.
 
-### Coequalizer
-(...)
-
-### Pullback
-The limit of a diagram of the form
+#### Pullback
+Given two maps $f: A \to C$ and $g: B \to C$, the [[pullback]] is the limit of the diagram
 $$
 \array{
   & & A\\
   & & \downarrow^\mathrlap{f}\\
   B & \underset{g}{\to} & C
-}
+}.
 $$
-is also known as the [[pullback]], given by
+This limit is given by
 $$
   \{(a, b) \in A \times B: f(a) = g(b)\},
 $$
@@ -99,27 +102,34 @@ So this is given by restricting $f$ to the elements that are mapped into $B$.
 
 Alternatively, we can view the map $f: A \to C$ as a collection of sets indexed by elements of $C$, where the set indexed by $c \in C$ is given by $A_c = f^{-1}(c)$. Under this interpretation, pulling $f$ back along $g$ gives a collection of sets indexed by elements of $B$, where the set indexed by $b \in B$ is given b $A_{g(b)}$.
 
-### Pushout
-(...)
+#### General limits
+Given a general [[Set]]-valued functor $F : D \to Set$, if the limit $lim F$ exists, then by definition, for any set $A$, a function $f: A \to lim F$ is equivalent to a compatible family of maps $f_d: A \to F(d)$ for each $d \in Obj(d)$.
 
-### General limits
-The limit over a [[Set]]-valued functor $F : D^{op} \to Set$ is a subset of the product $\prod_{d \in Obj(d)} F(d)$ of all objects:
+In particular, since an element of a set $X$ bijects with maps $1 \to X$ from the singleton $1 = \{\emptyset\}$, we have
+$$
+  lim F \cong Set (1, lim F) \cong [D, Set](const_1, F),
+$$
+where $const_1$ is the functor that constantly takes the value $1$. Thus the limit is given by the set of [[natural transformations]] from $const_1$ to $F$.
+
+More concretely, a compatible family of maps $1 \to F(d)$ is given by an element $s_d \in F(d)$ for each $d \in Obj(d)$, satisfying the appropriate compatibility conditions. Thus, the limit can be realized as a subset of the product $\prod_{d \in Obj(d)} F(d)$ of all objects:
 $$
   lim F = \left\{ (s_d)_d \in \prod_d F(d) | \forall (d \stackrel{f}{\to} d') : F(f)(s_{d}) = s_{d'}  \right\}.
 $$
 
-Abstractly, the limit can be described as follows:
+### Colimits
+#### Initial object
+The [[initial object]] in $Set$ is a set $X$ such that there is a unique map from $X$ to any other set. This is given by the empty set $\emptyset$.
 
-  * the limit over any $F : D \to Set$ is the set of [[natural transformations]] from the diagram constant on the [[point]] to $F$, ie.
-$$
-  lim F = [D, Set](const_{pt}, F).
-$$
+#### Coproduct
+(...)
 
-  * This is equivalently the set of [[global elements]] of $F$.
+#### Coequalizer
+(...)
 
-  * Therefore for every set $X$, there is a natural bijection $Set(X, lim F) \simeq lim Set(X,F(-))$, where on the right the limit is taken of the functor $Set(X,F(-)) : D \to Set$.
+#### Pushout
+(...)
 
-### General colimits
+#### General colimits
 The colimit over a [[nLab:Set|Set]]-valued functor $F : D \to Set$ is a quotient set of the disjoint union $\coprod_{d \in Obj(D)} D(d)$: 
   $$ 
     colim F \simeq (\coprod_{d\in D} F(d))/_\sim \,, 
@@ -131,23 +141,23 @@ The colimit over a [[nLab:Set|Set]]-valued functor $F : D \to Set$ is a quotient
   $$
   If $D$ is a [[filtered category]] then the relation $\sim$ already is an equivalence relation.
 
-## Limits and Colimits in Grp
+## Limits and colimits in Grp
 (..)
 
-## Limits and Colimits in Top
+## Limits and colimits in Top
 (..)
 
-## Limits and Colimits in a preordered set
+## Limits and colimits in a preordered set
 (..)
 
-## Limits and Colimits in functor categories
+## Limits and colimits in functor categories
 (..)
 
-#Examples of limits {#examplesoflimits}
+##Examples of limits {#examplesoflimits}
 
 In the following examples, $D$ is a [[small category]], $C$ is any category and the limit is taken over a functor $F : D^{op} \to C$.
 
-## Simple diagrams {#limitssimplediagrams}
+### Simple diagrams {#limitssimplediagrams}
 
 
 * the limit of the empty diagram $D = \emptyset$ in $C$ is, if it exists [[nLab:generalized the|the]] [[nLab:terminal object|terminal object]];
@@ -158,13 +168,13 @@ In the following examples, $D$ is a [[small category]], $C$ is any category and 
 
 * if $D$ has an [[nLab:terminal object|terminal object]] $I$ (so that $I$ is an [[nLab:initial object|initial object]] in $D^{op}$), then the limit of any $F : D^{op} \to C$ is $F(I)$.
 
-## Filtered limits {#filteredlimits}
+### Filtered limits {#filteredlimits}
 
 * if $D$ is a [[nLab:poset|poset]], then the limit over $D^{op}$ is the supremum over the $F(d)$ with respect to $(F(d) \leq F(d')) \Leftrightarrow (F(d) \stackrel{F(\leq)}{\leftarrow} F(d'))$;
 
 * the generalization of this is where the term "limit" for categorical limit (probably) originates from: for $D$ a [[nLab:filtered category|filtered category]], hence $D^{op}$ a cofiltered category, one may think of $(d \stackrel{f}{\to} d') \mapsto (F(d) \stackrel{F(f)}{\leftarrow} F(d')$ as witnessing that $F(d')$ is "larger than" $F(d)$ in some sense, and $lim F$ is then the "largest" of all these objects, the limiting object. This interpretation is perhaps more evident for filtered [[nLab:colimit|colimits]], where the codomain category $C$ is thought of as being the [[nLab:opposite category|opposite]] $C = E^{op}$. See the motivation at [[nLab:ind-object|ind-object]].
 
-## In terms of other operations {#limitsintermsofotherops}
+### In terms of other operations {#limitsintermsofotherops}
 
 If products and equalizers exist in $C$, then limit of $F : D^{op} \to C$ can be exhibited as a [[nLab:subobject|subobject]] of the [[nLab:product|product]] of the $F(d)$, namely the [[nLab:equalizer|equalizer]] of
 
@@ -232,7 +242,7 @@ if $lim F$ exists.
 
 **Warning** The Yoneda embedding does _not_ in general preserve colimits.
 
-## Limits in under-categories {#limitsinundercat}
+### Limits in under-categories {#limitsinundercat}
 
 Limits in [[under category|under categories]] are a special case of limits in [[comma category|comma categories]]. These are explained elsewhere. It may still be useful to spell out some details for the special case of under-categories. This is what the following does.
 
@@ -333,7 +343,7 @@ thus identifies it with $\lim F$.
 
 
 
-# Further resources #
+## Further resources
 
 Pedagogical vidoes that explain limits and colimits are at
 
@@ -347,7 +357,7 @@ More on the inner workings of this program is at [[Paine on a Category Theory De
 
 
 
-#Discussion#
+##Discussion
 
 +--{.query}
 
