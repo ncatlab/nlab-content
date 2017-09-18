@@ -11,11 +11,11 @@ A very tentative plan:
 
 *04.05: Chenchang on Kontsevich's quantization, reference  arXiv:q-alg/9709040
 
-*11.05: Malte on Algebraic/topological profile of deformation quantization, e.g. Deligne conjecture, reference 
+*11.05: no meeting
 
-*18.05: Xiaoyi on homotopy BV algebra and formality conjecture, reference 	[arXiv:math/0002116](http://lanl.arxiv.org/abs/math/0002116)
+*18.05: Malte on Algebraic/topological profile of deformation quantization, e.g. Deligne conjecture, reference 
 
-*25.05: (Whit Monday)
+*26.05 (note different meeting time!): Xiaoyi on homotopy BV algebra and formality conjecture, reference 	[arXiv:math/0002116](http://lanl.arxiv.org/abs/math/0002116)
 
 *01.06: David on Etingof-Kazhdan theory on deformation quantization on Lie bialgebras, reference
 
