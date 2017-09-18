@@ -33,8 +33,12 @@ Under forming [[groupoid convolution algebras]] and their higher analog, at leas
 
 ## Axiomatizations
 
+Let $\mathcal{G}$ be an [[infinity-category]] of "local models" or "test spaces".
+Given the data of a [[Grothendieck topology]] $\tau$ on $\mathcal{G}$, one gets the notion of a [[derived stack|higher stack]] relative to $\mathcal{G}$.
+There are various further structures one can endow on $\mathcal{G}$ in order to get "finer" objects ([[derived schemes|higher schemes]]).
 
-The notion of [[geometry (for structured (∞,1)-toposes)|geometry is formalized]]  in the form of an [[(∞,1)-category]] $\mathcal{G}$ whose objects play the role of test-spaces on which all other [[space]]s are modeled, in a hierarchy of generalized objects:
+One option is the structure of a [[geometry (for structured (∞,1)-toposes)|geometry]].
+This gives a hierarchy of generalized objects:
 
 * [[geometry (for structured (∞,1)-toposes)|test spaces]] $\hookrightarrow$
   [[generalized scheme|spaces locally equivalent to test spaces]]
@@ -54,6 +58,8 @@ technically modeled by:
   [[(∞,1)-topos]] of [[∞-stack]]s on $\mathcal{G}$.
 
 A plethora of proposals for formalizations of higher geometry find their home in this pattern, for instance most of the concepts listed at [[generalized smooth space]].
+
+Alternatively, one can consider the structure of a [[homotopical algebraic geometry]] context on $\mathcal{G}$, which gives a similar hierarchy.
 
 A notable exception to this is possibly the program by [[Maxim Kontsevich]] and others where under the term [[noncommutative geometry]] and [[derived noncommutative geometry]] spaces are modeled as the formal dual to [[A-∞-categories]]. But $A_\infty$-categories are presentations for [[stable (∞,1)-categories]] and by the <a href="http://ncatlab.org/nlab/show/stable+(infinity%2C1)-category#StabGiraud">stable Giraud theorem</a> _presentable_ stable $(\infty,1)$-categories play a very similar role to (unstable) [[∞-stack]] [[(∞,1)-topos]]es. In particular they may be obtained from the latter by [[stabilization]]. 
 
