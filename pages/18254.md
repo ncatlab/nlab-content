@@ -121,7 +121,7 @@ By lemma \ref{LocallyCompactAndSigmaCompactImpliesGoodNestedCover} there exists 
 
 1. $V_n \subset V_{n+1}$.
 
-Notice that the [[complement]] $Cl(V_{n+1}) \setminus V_n$ is compact, since $Cl(V_{n+1})$ is compact and $V_n$ is open.
+Notice that the [[complement]] $Cl(V_{n+1}) \setminus V_n$ is compact, since $Cl(V_{n+1})$ is compact and $V_n$ is open (by [this lemma](compact+space#IntersectionCompactWithOpen)).
 
 By this compactness, the cover $\{U_i \subset X\}_{i \in I}$ regarded as a cover of the [[subspace]] $Cl(V_{n+1})\setminus V_n$ has a finite subcover $\{U_i \subset X\}_{i \in J_n}$ indexed by a finite set $J_n \subset I$, for each $n \in \mathbb{N}$.
 
