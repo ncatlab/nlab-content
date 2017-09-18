@@ -55,7 +55,7 @@ When we regard $E$ as a topos over $S$, so that $f$ is regarded as its [[global 
 $$
   (Disc \dashv \Gamma \dashv Codisc) : 
     E
-    \stackrel{\overset{Disc}{\leftarrow}}{\stackrel{\underset{\Gamma}{\to}}{\underset{Codisc}{\leftarrow}}}
+    \stackrel{\overset{Disc}{\longleftarrow}}{\stackrel{\underset{\Gamma}{\longrightarrow}}{\underset{Codisc}{\longleftarrow}}}
     S
 $$
 
