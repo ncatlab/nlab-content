@@ -193,3 +193,9 @@ Discussion with an eye towards [[special holonomy]] is in
 See also the references at _[[torsion of a Cartan connection]]_ and at _[[torsion constraints in supergravity]]_.
 
 [[!redirects integrability of G-structures]]
+
+[[!redirects integrable G-structure]]
+[[!redirects integrable G-structures]]
+
+[[!redirects integrable G-stucture]]
+[[!redirects integrable G-stuctures]]
