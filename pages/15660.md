@@ -120,6 +120,8 @@ $M$ is called **semi-free** if it admits a [[filtration]] whose [[associated gra
 
 * [[minimal dg-module]]
 
+* [[dg-comodule]]
+
 ## References
 
 
