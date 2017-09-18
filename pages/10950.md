@@ -29,7 +29,9 @@ The [[philosophy]] of [[physics]].
 
 * [[metaphysics]]
 
-* [[philosophy of mathematics]]
+* [[philosophy of science]]
+
+  * [[philosophy of mathematics]]
 
 ## References
 
