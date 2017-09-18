@@ -23,6 +23,11 @@ A [[model structure on spectra]] for [[symmetric spectra]]
 
 The [[category]] of _symmetric spectra_ is a [[presentable (∞,1)-category|presentation]] of the [[symmetric monoidal (∞,1)-category]] [[stable (infinity,1)-category of spectra|of spectra]], with the special property that it implements the [[smash product of spectra]] such as to yield itself a [[symmetric monoidal category|symmetric]] [[monoidal model category|monoidal]] [[model category of spectra]]: the _[[model structure on symmetric spectra]]_. This implies in particular that with respect to this [[symmetric smash product of spectra]] an [[E-∞ ring]] is presented simply as a plain [[commutative monoid]] [[internalization|in]] symmetric spectra.
 
+## Properties
+
+### Relation to the Bousfield-Friedlander model structure on sequential spectra
+
+There is a [[Quillen equivalence]] to the [[Bousfield-Friedlander model structure]] on [[sequential spectra]] ([HoveyShipleySmith 00, section 4.3](#HoveyShipleySmith00)).
 
 
 ## Related concepts
@@ -43,7 +48,7 @@ with [[symmetric monoidal smash product of spectra]]
 
 ## References
 
-* {#HoveyShipleySmith77} [[Mark Hovey]], [[Brooke Shipley]], [[Jeff Smith]], _Symmetric spectra_, J. Amer. Math. Soc. 13 (2000), 149-208 ([arXiv:math/9801077](http://arxiv.org/abs/math/9801077))
+* {#HoveyShipleySmith00} [[Mark Hovey]], [[Brooke Shipley]], [[Jeff Smith]], _Symmetric spectra_, J. Amer. Math. Soc. 13 (2000), 149-208 ([arXiv:math/9801077](http://arxiv.org/abs/math/9801077))
 
 
 * {#Hovey00} [[Mark Hovey]], _Spectra and symmetric spectra in general model categories_ ([arXiv:0004051](http://arxiv.org/abs/math/0004051))
