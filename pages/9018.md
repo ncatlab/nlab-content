@@ -226,7 +226,7 @@ Further discussion of [[string phenomenology]] in terms of $M$-theory on $G_2$-m
 
 * {#Acharya12} [[Bobby Acharya]], _$G_2$-manifolds at the CERN Large Hadron collider and in the Galaxy_, talk at _$G_2$-days_ (2012) ([pdf](http://www.mth.kcl.ac.uk/~tbmadsen/acharya.pdf))
 
-* {#Kane16} [[Gordon Kane]], _String/M-theories About Our World Are Testable in the traditional Physics Way_ ([arXiv:1601.07511](http://arxiv.org/abs/1601.07511))
+* {#Kane16} [[Gordon Kane]], _String/M-theories About Our World Are Testable in the traditional Physics Way_ ([arXiv:1601.07511](http://arxiv.org/abs/1601.07511), [video recording](https://videoonline.edu.lmu.de/en/node/7485))
 
 
 The [[hierarchy problem]] is discussed in
