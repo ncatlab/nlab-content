@@ -39,11 +39,14 @@ The [[Postnikov tower in an (∞,1)-category|Postnikov tower]] of an $E_\infty$-
 
 ## Examples
 
-* [[∞-group ∞-ring]]
+* The [[sphere spectrum]] $\mathbb{S}$ becomes an $E_\infty$-ring via the canonical maps $S^{n_1} \wedge S^{n_2} \stackrel{\simeq}{\longrightarrow} S^{n_1 + n_2}$. As such the sphere spectrum is [[generalized the|the]] [[initial object]] in $E_\infty$-rings.
 
-* [[ring spectrum]]
+* Given any [[∞-group]], there is its [[∞-group ∞-ring]].
+
 
 ## Related concepts
+
+* [[ring spectrum]]
 
 * [[∞-group of units]]
 
