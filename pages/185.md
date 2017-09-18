@@ -299,7 +299,7 @@ Here
 1. the third step expresses that the [[Yoneda embedding]] is a [[full and faithful functor]]
 
 1. the fourth step is the definition of $\mathbb{L}$ as the [[opposite category]] of
-   $C^\infty Ring^{op}$
+   $C^\infty Ring^{fin}$
    
 1. the fifth step expresses that $C^\infty(R^n)$ is the free [[generalized smooth algebra]]
    on $n$ generators ([[Models for Smooth Infinitesimal Analysis|MSIA, chaper I, prop 1.1]])
