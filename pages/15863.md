@@ -1,0 +1,54 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
+=--
+=--
+
+# Contents
+* automatic table of contents goes here
+{:toc}
+
+[[!redirects coHeyting algebra]]
+[[!redirects Co-Heyting algebra]]
+[[!redirects CoHeyting algebra]]
+
+
+##Idea
+When the lattice of open subsets of topological spaces is the primordial example of a [[Heyting algebra]] then its dual lattice of closed subsets is the primodial example of a **co-Heyting algebra**.
+
+Co-Heyting algebras play a role in modal and co-intuitionistic logic, [[linguistics]], [[topos theory]], [[continuum physics]] and in mereology.
+
+##Definition
+A **co-Heyting algebra** is a [[distributive lattice]] $L$ equipped with a binary ('subtraction') operation $ \backslash :L\times L\to L$ such that $x\backslash y\leq z$ iff $x\leq y\backslash z$.
+
+##Properties
+
+* The subtraction operation permits to define a weak negation operator $\sim: L\to L$, called _non a_ in Lawvere (1991), by setting $\sim a:=1\backslash a$. $\sim a$ minimally supplements $a$ to truth in the sense that $\sim a$ is the least $x$ with $a\vee x=1$: it is the missing piece of information. $\sim$ can be used to define a [[co-Heyting boundary|boundary operator]] $\partial :L\to L$.
+
+##Related entries
+
+* [[co-Heyting boundary]]
+* [[Heyting algebra]]
+* [[Heyting category]]
+* [[distributive category]]
+
+##References
+
+* G. Bellin, _Categorical Proof Theory of Co-Intuitionistic Linear Logic_ , arXiv:1407.341 (2014). ([pdf](http://arxiv.org/pdf/1407.3416v1))
+
+* {#Law86} [[William Lawvere|F. W. Lawvere]], _Introduction_ , pp.1-16 in _Categories in Continuum Physics_ , Springer LNM **1174** 1986.
+
+* {#Law91a} F. W. Lawvere, _Intrinsic Co-Heyting Boundaries and the Leibniz Rule in Certain Toposes_ , pp.279-281 in Springer LNM **1488** (1991).
+
+* T. Mormann, _Heyting Mereology as a Framework for Spatial Reasoning_ , Axiomathes **23** no.1 (2013) pp.237-264. ([draft](http://philpapers.org/go.pl?id=MORCMA-3&proxyId=&u=http%3A%2F%2Fphilpapers.org%2Farchive%2FMORCMA-3.pdf))
+
+* C. Rauszer, _Semi-Boolean algebras and their applications to intuitionistic logic with dual operations_ , Fund. Math. **83** no.3 (1974) pp.219-249. ([pdf](http://matwbn.icm.edu.pl/ksiazki/fm/fm83/fm83120.pdf))
