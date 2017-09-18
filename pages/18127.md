@@ -1491,10 +1491,10 @@ $$
   \underset{i \in I}{\prod} \mathcal{G}_i
 $$
 
-whose set of objects is the [[Cartesion product]] of the sets of objects of the factor groupoids
+whose set of objects is the [[Cartesian product]] of the sets of objects of the factor groupoids
 
 $$
- \eft(
+ \left(
    \underset{i \in I}{\prod} \mathcal{G}_i
  \right)_0
    \;\coloneqq\;
@@ -2192,6 +2192,16 @@ and called the set of _[[connected components]]_ of $\mathcal{G}$.
 
 Given a [[groupoid]] $\mathcal{G}$ and an object $x$, then under composition the set $Hom_{\mathcal{G}}(x,x)$ forms a [[group]]. This is called the _[[automorphism group]]_ $Aut_{\mathcal{G}}(x)$ or _vertex group_ or _isotropy group_ of $x$ in $\mathcal{G}$.
 
+For each object $x$ in a groupoid $\mathcal{G}$, there is a canonical groupoid homomorphism
+
+$$
+  B Aut_{\mathcal{G}}(x) \hookrightarrow \mathcal{G}
+$$
+
+from the delooping groupoid (def. \ref{GroupoidFromDelooping}) of the automorphism group. This takes the
+unique object of $B Aut_{\mathcal{G}}(x)$ to $x$ and takes every automorphism of $x$ "to itself",
+regarded now again as a morphism in $\mathcal{G}$.
+
 =--
 
 
@@ -2509,7 +2519,7 @@ def. \ref{EquivalenceOfGroupoids}.
 
 A _covering space_ (def. \ref{CoveringSpace} below) is 
 a "continuous [[fiber bundle]] of sets" over a topological space, in just the same way as
-a [[tpological vector bundle]] is a "continuous [[fiber bundle]] of vector spaces".
+a [[topological vector bundle]] is a "continuous [[fiber bundle]] of vector spaces".
 
 $\,$
 
@@ -3590,10 +3600,52 @@ $$
   \,.
 $$
 
+
 =--
 
-We may also express this in terms of [[group representations]] of [[fundamental groups]]:
++-- {: .num_example #GroupRepresentationsAsDeloopingRepresentations}
+###### Example/Definition
+**([[group representations]] are [[groupoid representations]] of [[delooping]] [[groupoids]])**
 
+If here $\mathcal(G) = B G$ is the [[delooping]] groupoid of a [[group]] $G$ (example \ref{GroupoidFromDelooping}), then
+a [[groupoid representation]] of $B G$ is a _[[group representation]]_ of $G$ (def. \ref{GroupoidRepresentation}), and one writes
+
+$$
+  Rep(G) \coloneqq Rep(B G)
+$$
+
+for the [[representation category|representation groupoid]].
+
+For each object $x \in X$ the canonical inclusion of the delooping groupoid of the [[automorphism group]]
+(from def. \ref{InGrupoidAutomorphismGroup})
+
+$$
+  inc_x \;\colon\; B Aut_{\math} \hookrightarrow \mathcal{G}
+$$
+
+induces by precomposition a homomorphism of representation groupoids:
+
+$$
+  Hom(inc_x, Core(\mathcal{C}))
+    \;\colon\;
+  Rep(\mathcal{G}, \mathcal{C})
+    \longrightarrow
+  Rep(Aut_{\mathcal{G}}(x), \mathcal{C})
+  \,.
+$$
+
+We say that a groupoid representation is _faithful_ or _free_ if for all objects $x$
+its restriction to a group representation of $Azt_{\mathcal{G}}(x)$ this way is transitive or free, 
+respectively.
+
+Here the representation $\rho$ of a group $G$ on some set $S$
+
+1. _[[transitive action|transitive]]_ if for all pairs of elements $s_1, s_2 \in S$ there is a $g \in G$
+   such that $\rho(g)(s_1) = s_2$;
+   
+1. _[[free action|free]]_ if whenever $g(s) = s$ holds for all $s \in S$ then $g$ is the [[neutral elements]].
+
+=--
 
 +-- {: .num_prop #GroupoidRepresentationsAreProductsOfGroupRepresentations}
 ###### Proposition
@@ -3606,6 +3658,7 @@ Let $\mathcal{G}$ be a [[groupoid]]. Then its [[category of representations|grou
 is [[equivalence of groupoids|equivalent]] (def. \ref{EquivalenceOfGroupoids}) to 
 the [[product category|product groupoid]] (example \ref{ProductGroupoid})
 indexed by the set of [[connected components]] $\pi_0(\mathcal{G})$ (def. \ref{GroupoidConnectedComponents}) of [[group representations]]
+(example \ref{GroupRepresentationsAsDeloopingRepresentations})
 of the [[automorphism group]] $G_i \coloneqq Aut_{\mathcal{G}}(x_i)$ (def. \ref{InGrupoidAutomorphismGroup}) for $x_i$ any object in the $i$th
 connected component:
 
@@ -3621,7 +3674,8 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Let $\mathcal{C}$ be the category that the representation is on. Then by definition
+Let $\mathcal{C}$ be the category that the representation is on (e.g. $\mathcal{C} = $ [[Set]] 
+for [[permutation representations]]). Then by definition
 
 $$
   Rep(\mathcal{G}) = Hom_{Grpd}( \mathcal{G} , Core(\mathcal{C})  )
@@ -3814,30 +3868,9 @@ By the uniqueness of the path-lifting, lemma \ref{CoveringSpacePathLifting} and 
 
 =--
 
-+-- {: .num_prop #CoveringConnectivityViaMonodromy}
-###### Proposition
-
-Let $X$ be a [[path-connected topological space]] and let $E \overset{p}{\to} X$ be a [[covering space]]. Then the total space $E$ is
-
-1. [[path-connected topological space|path-connected]] precisely if the [[monodromy]] $Fib_E$ is a [[transitive action]];
-
-1. [[simply connected topological space|simply connected]] precisely if the [[monodromy]] $Fib_E$ is [[free action]].
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-By example \ref{CoveringSpaceFundamentalGroupoid}.
-
-=--
-
-
 
 $\,$
 
-
-The following is a description of the reconstruction in terms of elementary [[point-set topology]].
 
 +-- {: .num_defn #ElementaryReconstructionCoveringSpace}
 ###### Definition
