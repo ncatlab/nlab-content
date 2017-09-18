@@ -12,8 +12,13 @@ The [[field]] of **rational numbers**, $\mathbb{Q}$, is the [[field of fractions
 ## Properties
 
 There are several interesting [[topological space|topologies]] on $\mathbb{Q}$ that make $\mathbb{Q}$ into a [[topological group]] under addition, allowing us to define interesting fields by taking the [[complete space|completion]] with respect to this topology:
+
 1.  The _[[discrete topology]]_ is the most obvious, which is already complete.
-2.  The _absolute-value topology_ is defined by the [[metric space|metric]] $d(x,y) \coloneqq {|x - y|}$; the completion is the field of [[real numbers]].
+
+2.  The _absolute-value topology_ is defined by the [[metric space|metric]] $d(x,y) \coloneqq {|x - y|}$; the completion is the field of [[real numbers]]. 
+
+    (This topology is [[totally disconnected space|totally disconnected]] ([this exmpl.](totally+disconnected+space#RationalNumbersAreTotallyDisconnected)))
+
 3.  Fixing a [[prime number]] $p$, the _$p$-adic topology_ is defined by the [[ultrametric]] $d(x,y) \coloneqq 1/n$ where $n$ is the highest exponent on $p$ in the [[prime factorization]] of ${|x - y|}$; the completion is the field of $p$-[[adic number|adic numbers]].
 
 According to [[Ostrowski's theorem]] this are the only possibilities.
