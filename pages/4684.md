@@ -10,7 +10,7 @@
 +-- {: .hide}
 [[!include manifolds and cobordisms - contents]]
 =--
-=--
+=-- 
 =--
 
 #Contents#
@@ -131,13 +131,58 @@ A locally Euclidean space which is [[connected topological space|connected]] is 
 +-- {: .proof}
 ###### Proof
 
-Fix any $x \in X$. Write $PConn_x \subset X$ for the subset of all those points of $x$ which are connected to $x$ by a path. Since by assumption every point has a Euclidean neighbourhood, and since Euclidean space is path-connected, it follows that $PConn_x \subset X$ is an [[open subset]], but also that its [[complement]] $X \setminus PConn_x$ is open. Hence
+Fix any $x \in X$. Write $PConn_x(X) \subset X$ for the subset of all those points of $x$ which are connected to $x$ by a path, hence 
 
 $$
-  X = PConn_x \sqcup (X \setminus PConn_x)
+  PConn_x(X)
+  \;\colon\;
+  \left\{
+    y \in X
+   \;\vert\;
+   \underset{[0,1] \underoverset{cts}{\gamma}{\to} X }{\exists}
+   \left(
+      \left(\gamma(0) = x\right)
+      \phantom{A} \text{and} \phantom{a}
+      \left(
+        \gamma(1) = y
+      \right)
+   \right)
+  \right\}
+  \,.
 $$
 
-is the [[disjoint union]] of two open subsets. By the assumption that $X$ is connected, one of these needs to be empty. Since $PConn_x$ is not empty, as it contains $x$, it follows that $PConn_x = X$.
+Observe now that both $PConn_x(X) \subset X$ as well as its [[complement]] are [[open subsets]]:
+
+To see this it is sufficient to find for every point $y \on PConn_x(X)$ an [[open neighbourhood]] $U_y \supset \{y\}$ such that $U_y \subset PConn_x(X)$, and similarly for the complement.
+
+Now by assumption every point $y \in X$ has a Euclidean neighbourhood $\mathbb{R}^n \overset{\simeq}{\to} U_y \subset X$. Since Euclidean space is path connected, there is for every $z \in U_y$ a path $\tilde \gamma \colon [0,1] \to X$ connecting $y$ with $z$, i.e. with $\tilde \gamma(0) = y$ and $\tilde \gamma(1) = z$. Accordingly the composite path
+
+$$
+  \array{
+     [0,1] &\overset{\tilde \gamma\cdot\gamma}{\longrightarrow}& X
+     \\
+     t &\overset{\phantom{AAA}}{\mapsto}& 
+    \left\{
+      \array{
+         \gamma(2t) &\vert& t \leq 1/2
+         \\
+         \tilde(2t-1/2) &\vert& t \geq 1/2
+      }
+    \right.
+  }
+$$
+
+connects $x$ with $z \in U_y$. Hence $U_y \subset PConn_x(X)$.
+
+Similarly, if $y$ is not connected to $x$ by a path, then also all point in $U_y$ cannot be connected to $x$ by a path, for if they were, then the analogous concatenation of paths would give a path from $x$ to $y$, contrary to the assumption.
+
+It follows that
+
+$$
+  X = PConn_x(C) \sqcup (X \setminus PConn_x(X))
+$$
+
+is a decomposition of $X$ as the [[disjoint union]] of two open subsets. By the assumption that $X$ is connected, exactly one of these open subsets is empty. Since $PConn_x(X)$ is not empty, as it contains $x$, it follows that its compement is empty, hence that $PConn_x(X) = X$, hence that $(X,\tau)$ is path connected.
 
 =--
 
@@ -150,21 +195,23 @@ Let $X$ be a [[locally Euclidean space]] (def. \ref{LocallyEuclideanSpace}) whic
 
 Then the following are equivalent:
 
-1. $X$ is [[paracompact topological space]] and has a [[countable set]] of [[connected components]],
-
 1. $X$ is [[sigma-compact topological space|sigma-compact]].
 
-1. $X$ is [[second-countable topological space|second countable]]
+1. $X$ is [[paracompact topological space|paracompact]] and has a [[countable set]] of [[connected components]],
+
+
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-First observe that $X$ is locally compact:
-By prop. \ref{LocalPropertiesOfLocallyEuclideanSpace} every locally Euclidean space is locally compact, and since $X$ as assumed to be Hausdorff, this holds for all of the variants of definition of local compactness, by [this prop.](locally+compact+topological+space#InHausdorffSpacesDefinitionsOfLocalCompactnessAgree). 
+Generally, observe that $X$ is [[locally compact]]:
+By prop. \ref{LocalPropertiesOfLocallyEuclideanSpace} every locally Euclidean space is locally compact in the sense that every point has a [[neighbourhood base]] of compact neighbourhoods, and since $X$ is assumed to be Hausdorff, this implies all the other variants of definition of local compactness, by [this prop.](locally+compact+topological+space#InHausdorffSpacesDefinitionsOfLocalCompactnessAgree). 
 
-Let $X$ be sigma-compact. We show that then $X$ is second-countable:
+**1) $\Rightarrow$ 2)**
+
+Let $X$ be sigma-compact. We first show that then $X$ is [[second-countable topological space|second-countable]]:
 
 By sigma-compactness there exists a [[countable set]] $\{K_i \subset X\}_{i \in I}$ of compact subspaces. By $X$ being locally Euclidean, each admits an [[open cover]] by restrictions of [[Euclidean spaces]]. By their compactness, each of these has a subcover $\{ \mathbb{R}^n \overset{\phi_{i,j}}{\to} X \}_{j \in J_i}$ with $J_i$ a finite set. Since [[countable unions of countable sets are countable]], we have obtained  a countable cover by Euclidean spaces $\{ \mathbb{R}^n  \overset{\phi_{i,j}}{\to} X\}_{i \in I, j \in J_i}$. Now Euclidean space itself is second countable (by [this example](second-countable+space#SecondCountableEuclideanSpace)), hence admits a countable set $\beta_{\mathbb{R}^n}$ of base open sets. As a result the union $\underset{{i \in I} \atop {j \in J_i}}{\cup} \phi_{i,j}(\beta_{\mathbb{R}^n})$ is a base of opens for $X$. But this is a countable union of countable sets, and since [[countable unions of countable sets are countable]] we have obtained a countable base for the topology of $X$. This means that $X$ is second-countable.
 
@@ -172,7 +219,9 @@ Let $X$ be sigma-compact. We show that then $X$ is paracompact with a countable 
 
 Since [[locally compact and sigma-compact spaces are paracompact]], it follows that $X$ is paracompact. Since, by the previous statement, $X$ is also second-countable, it cannot have an uncountable set of connected components.
 
-Let $X$ be paracompact with countably many connected components. We show that $X$ is sigma-compact.
+**2) $\Rightarrow$ 1)**
+
+Now let $X$ be paracompact with countably many connected components. We show that $X$ is sigma-compact.
 
 Since $X$ is locally compact, there exists a cover $\{K_i = Cl(U_i) \subset X\}_{i \in I}$ by [[compact topological space|compact]] [[subspaces]].
 By paracompactness there is a locally finite refinement of this cover. Since [[paracompact Hausdorff spaces are normal]], the [[shrinking lemma]] applies to this refinement and yields a locally finite open cover 
@@ -186,7 +235,7 @@ as well as a locally finite cover $\{Cl(V_j) \subset X\}_{j \in J}$ by closed su
 Now fix any $j_0 \in J$. 
 
 We claim that for every $j \in J$ there is a finite sequence of indices $(j_0, j_1, \cdots, j_n = j)$ with the property
-that $V_{j_k} \cap V_{j_{k+1}} \noteq \emptyset$. 
+that $V_{j_k} \cap V_{j_{k+1}} \neq \emptyset$. 
 
 To see this, first obserse that it is sufficient to show sigma-compactness for the case that $X$ is [[connected topological space|connected]]. From this the general statement follows since [[countable unions of countable sets are countable]]. Hence assume that $X$ is connected.
 It follows from lemma \ref{PathConnectedFromConnectedLocallyEuclideanSpace} that  $X$ is [[path-connected topological space|path-connected]].
@@ -203,7 +252,7 @@ which sends each $V_j$ to the [[minimum]] natural number as above.
 
 We claim now that for all $n \in \mathbb{N}$ the [[preimage]] of $\{0,1, \cdots, n\}$ under this function is a [[finite set]]. Since [[countable unions of countable sets are countable]] this implies that $\{ Cl(V_j) \subset X\}_{j \in J}$ is a countable cover of $X$ by compact subspaces, hence that $X$ is sigma-compact.
 
-We proove this last claim by [[induction]]. It is true for $n = 0$ by construction. Assume it is true for some $n \in \mathbb{N}$, hence that $f^{-1}(\{0,1, \cdots, n\})$ is a finite set. Since finite unions of compact subspaces are again compact ([this prop.](compact+space#UnionsAndIntersectionOfCompactSubspaces)) it follows that 
+We prove this last claim by [[induction]]. It is true for $n = 0$ by construction. Assume it is true for some $n \in \mathbb{N}$, hence that $f^{-1}(\{0,1, \cdots, n\})$ is a finite set. Since finite unions of compact subspaces are again compact ([this prop.](compact+space#UnionsAndIntersectionOfCompactSubspaces)) it follows that 
 
 $$
   K_n
@@ -211,7 +260,9 @@ $$
   \underset{V \in f^{-1}(\{0,\cdots, n\})}{\cup} V
 $$
 
-is compact. Now...
+is compact. By local finiteness of the $\{V_j\}_{j \in J}$, every point $x \in K_n$ has an open neighbourhood $W_x$ that intersects only a finite set of the $V_j$. By compactness of $K_n$, the cover $\{W_x \subset X\}_{x \in K_n}$ has a finite subcover. In conclusion this implies that only a finite number of the $V_j$ intersect $K_n$.
+
+Now by definition $f^{-1}(\{0,1,\cdots, n+1\})$ is a subset of those $V_j$ which intersect $K_n$, and hence itself finite.
 
 =--
 
@@ -234,7 +285,14 @@ for a fixed $n \in \mathbb{N}$, then the topological manifold is said to be of d
 
 =--
 
++-- {: .num_remark}
+###### Remark
+**(varying terminology)**
 
+Often a topological manifold (def. \ref{TopologicalManifold}) is required to be [[sigma-compact]]. But by prop. \ref{RegularityConditionsForTopologicalManifoldsComparison} this is not an extra condition as long as there is a [[countable set]] of [[connected components]]. 
+Moreover, manifolds with uncountably many connected components are rarely considered in practice.
+
+=--
 
 
 +-- {: .num_defn #Charts}
@@ -330,10 +388,6 @@ Notice that this in in general  a non-trivial condition even if $X = Y$ and $f$ 
 
 
 ## References
-
-Lecture notes include
-
-* [pdf](http://math.harvard.edu/~hirolee/pdfs/2014-fall-230a-lecture-02-addendum.pdf)
 
 See also
 
