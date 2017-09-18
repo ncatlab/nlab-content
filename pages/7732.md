@@ -9,7 +9,7 @@ Where a [[principal ∞-bundle]] is the "geometric" incarnation of a [[cocycle]]
 
 ## Definition
 
-Let $\mathbf{H}$ be an [[(∞,1)-topos]]. Let $\hat G \to G$ in $Grp(\mathbf{H})$ be a morphism of [[∞-groups]] in $\mathbf{H}$, write $\mathbf{c} : \mathbf{B}\hat G \to \mathbf{G}$ for the corresponding [[delooping]] and $\mathbf{B}A \to \mathbf{B}\hat G$ for the corresponding [[homotopy fiber]], so that we have a universal coefficient bundle
+Let $\mathbf{H}$ be an [[(∞,1)-topos]]. Let $\hat G \to G$ in $Grp(\mathbf{H})$ be a morphism of [[∞-groups]] in $\mathbf{H}$, write $\mathbf{c} : \mathbf{B}\hat G \to \mathbf{B}G$ for the corresponding [[delooping]] and $\mathbf{B}A \to \mathbf{B}\hat G$ for the corresponding [[homotopy fiber]], so that we have a universal coefficient bundle
 
 $$
   \array{
