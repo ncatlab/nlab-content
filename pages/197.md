@@ -37,7 +37,11 @@ The category $Quiv = Set^{X^{op}}$, being a category of [[presheaves]], is a [[t
 
 $$X(-, 0) = \bullet, \qquad X(-, 1) = (x \stackrel{e}{\to} y)$$ 
 
-and from this picture we easily see that $X(-, 0)$ has two subobjects $\emptyset, \bullet$ whereas $X(-, 1)$ has five: $empty, x, y, (x, y), (x \stackrel{e}{\to} y)$. 
+and from this picture we easily see that $X(-, 0)$ has two subobjects $\emptyset, \bullet$ whereas $X(-, 1)$ has five: $empty, x, y, (x, y), (x \stackrel{e}{\to} y)$.
+
+Being a presheaf topos has a lot of nice consequences and instantly yields answer to questions like whether finite [[limit|limits]] of directed graphs exist or how to construct the [[exponential object|exponential]] quiver $Y^X$ of all homomorphisms $X\to Y$ between two quivers $X,Y$ in $Quiv$ since the answers are provided by topos theory.
+
+In the following subsections some of the topos structure in $Quiv$ is worked out explicitly. 
 
 ### The subobject classifier
 
@@ -53,7 +57,7 @@ $$\array{
 
 (so there is one loop labeled "empty" at the vertex $\emptyset$, and two loops at the vertex $\bullet$, one labeled $(x, y)$ and the other $x \stackrel{e}{\to} y$). 
 
-How does $\Omega$ work? Suppose that $X\subseteq Y$ is a subgraph and $\chi_X:Y\to\Omega$ its characteristic map, then $\chi_X$ maps vertices of $Y$ not in $X$ to $\emptyset$ and vertices in $X$ to $\bullet$ (a vertex is either contained in a subgraph or not - the choice is binary and, accordingly, $\Omega$ needs two vertices to represent this). For edges the situation is more complicated since there are five ways (and, accordingly five edges in $\Omega$ to represent this) for an edge $z$ of $Y$ to be related to the subgraph $X$: the most straightforward is when $z$ has neither source nor target in $X$, such $z$ are definitely not in $X$ and are represented in $\Omega$ by the loop at $\emptyset$. Now suppose that $z$ has either source or target vertex in $X$ but not both: $\chi_X$ maps these to the maps $x,y$ between $\emptyset\rightleftarrows\bullet$, respectively. When $z$ has both source and target in $X$, the edge itself might or might not be in $X$, and the corresponding two cases are represented by the two loops at $\bullet$ , respectively.
+How does $\Omega$ work? Suppose that $X\subseteq Y$ is a subgraph and $\chi_X:Y\to\Omega$ its characteristic map, then $\chi_X$ maps vertices of $Y$ not in $X$ to $\emptyset$ and vertices in $X$ to $\bullet$ (a vertex is either contained in a subgraph or not - the choice is binary and, accordingly, $\Omega$ needs two vertices to represent this). For edges the situation is more complicated since there are five ways (and, accordingly five edges in $\Omega$ to represent this) for an edge $z$ of $Y$ to be related to the subgraph $X$: the most straightforward is when $z$ has neither source nor target in $X$, such $z$ are definitely not in $X$ and are represented in $\Omega$ by the loop at $\emptyset$. Now suppose that $z$ has either source or target vertex in $X$ but not both: $\chi_X$ maps these to the maps $x,y$ between $\emptyset\rightleftarrows\bullet$, respectively. When $z$ has both source and target in $X$, the edge itself might or might not be in $X$, and the corresponding two cases are represented by the two loops at $\bullet$ , respectively, with $e$ representing the edges that are contained $X$.
 
 ### (Double) negation
 
@@ -80,6 +84,22 @@ Y &\underset{g}{\to} & X
 $$
 
 A separated quiver $X$ is a $\neg\neg$-sheaf when such a unique $g$ always exists.
+
+Suppose that a quiver $X$ has a pair of parallel edges $w,z$. Then the subgraph $i:S\hookrightarrow X$ that is just like $X$ but has $w,z$ ommitted is dense in $X$. Let $\tau_{zw}:X\to X$ be the automorphism of $X$ that is just like the identity on $X$ but interchanges $w$ and $z$. Then $id_X\circ i=\tau_{zw}\circ i=i$ and one sees that $X$ is not separated.
+
+Conversely, let $X$ be a quiver with at most one edge $x\to y$ between any pair $(x,y)$ of vertices and $f:S\to X$ be a map with $i:S\hookrightarrow Y$ is dense in $Y$. Since $i$ is a bijection on the vertex sets of $S$ and $Y$, if a factorization of $f$ through $g:Y\to X$ and $i$ exists the effect of $g$ on the vertices is uniquely determined by $f$ but since in $X$ there is at most one edge between any pair of vertices the image of any edge $a\to b$ in $Y$ under $g$ is already fixed: it is the unique edge between $g(a)$ and $g(b)$. In particular, one sees that a separated object $X$ is a sheaf precisely when there exists exactly one edge between any pair of vertices since then abitrary edges in abitrary factors $Y$ can be mapped to the appropriate edge in $X$. To sum up:
+
++-- {: .num_prop #negneg_subcats} 
+###### Proposition
+A quiver $X$ is separated for the double negation topology $\neg\neg$ precisely if there exists at most an edge $a\to b$ between any pair $(a,b)$ of vertices. $X$ is a $\neg\neg$-sheaf precisely if there exists a unique edge $a\to b$ between any pair $(a,b)$.$\hfill\Box$
+=--
+
+The corresponding the full subcategories are denoted by $Sep_{\neg\neg}(Quiv)$ and $Sh_{\neg\neg}(Quiv)$ , respectively. By generalities, it follows that $Sep_{\neg\neg}(Quiv)$ is a [[quasitopos]] and $Sh_{\neg\neg}(Quiv)$ is a [[Boolean topos]].
+
+Quivers that have at most one edge between any vertices can be called 'simple' with the caveat that contrary to (the usual concept of) a simple graph they are allowed to have loops.
+
+Since the edges of $\neg\neg$-separated quivers simply encode a binary endorelation on their vertex sets and being a morphism between $\neg\neg$-separated quivers then amounts to preserve that relation one sees that $Sep_{\neg\neg}(Quiv)$ and $Sh_{\neg\neg}(Quiv)$ are equivalent to the categories $EndoRel$ with objects $(X,\rho)$ where $X$ is a set and $\rho$ a binary endorelation on $X$, and, respectively, the category  $TotalRel$ of sets equipped the total relations. The latter can be identified with $Set$ since morphisms between sets equipped with the total relation behave just like ordinary functions between sets. 
+
 
 ## Related entries
 
