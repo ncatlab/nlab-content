@@ -41,7 +41,7 @@ with those of
 ## References 
 
 
-* [[David Yetter]], _Models for synthetic supergeometry_, Cahiers, 29, 2 (1988) ([NUMDAM](http://www.numdam.org/item?id=CTGDC_1988__29_2_87_0))
+* {#Yetter88} [[David Yetter]], _Models for synthetic supergeometry_, Cahiers, 29, 2 (1988) ([NUMDAM](http://www.numdam.org/item?id=CTGDC_1988__29_2_87_0))
 
 
 * {#CarchediRoytenberg12} [[David Carchedi]], [[Dmitry Roytenberg]], _On theories of superalgebras of differentiable functions_, Theory and Applications of Categories, Vol. 28, 2013, No. 30, pp 1022-1098. ([arxiv:1211.6134](http://arxiv.org/abs/1211.6134), [TAC](http://www.tac.mta.ca/tac/volumes/28/30/28-30abs.html))
@@ -49,18 +49,9 @@ with those of
 
 The article
 
-* Anatoly Konechny, [[Albert Schwarz]], _Theory of $(k \oplus l|q)$-dimensional supermanifolds_ Sel. math., New ser. 6 (2000) 471-486
- {#KonechnySchwarz}
+* {#KonechnySchwarz} Anatoly Konechny, [[Albert Schwarz]], _Theory of $(k \oplus l|q)$-dimensional supermanifolds_ Sel. math., New ser. 6 (2000) 471-486
+ 
  
 considers manifolds with odd and even nilpotent functions: formal supermanifolds.
 
 
-Synthetic supergeometry is also discussed in 
-
-* H. Nishimura, _Synthetic differential supergeometry_,  International Journal of Theoretical Physics, 	Volume 37, Number 11 (1998) ([journal](http://www.springerlink.com/content/l226546023178715/))
-
-* H. Nishimura, _Differential forms in synthetic differential supergeometry_, International Journal of Theoretical Physics, Volume 38, Number 2 / February 1999 ([journal](http://www.springerlink.com/content/w732u72q874u740k/))
-
-* H. Nishimura, _Supersmooth topoi_, International Journal of Theoretical Physics, Volume 39, Number 5 ([journal](http://www.springerlink.com/content/v2573726852x6470/))
-
-* H. Nishimura, _Synthetic theory of superconnections_, International Journal of Theoretical Physics, 39 ([journal](http://www.springerlink.com/content/m35085347gw88651/))
