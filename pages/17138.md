@@ -14827,7 +14827,16 @@ such that:
 
    is a [[long exact sequence]] of [[abelian groups]].
 
-1. **([[excision]])** For $S \hookrightarrow U \hookrightarrow X$. the natural inclusion of the pair $i \colon (X-S, U-S) \hookrightarrow (X, U)$ induces an isomorphism $E^n(i) \colon E^n(X-S, U-S) \to E^n(X, U)$.
+1. **([[excision]])** For $U \hookrightarrow A \hookrightarrow X$ such that $\overline{U} \subset Int(A)$, then the natural inclusion of the pair $i \colon (X-U, A-U) \hookrightarrow (X, A)$ induces an isomorphism 
+
+   $$
+     E^\bullet(i) 
+      \;\colon\; 
+     E^n(X, A)
+      \overset{\simeq}{\longrightarrow}
+     E^n(X-U, A-U)  
+     \,.
+   $$
 
 We say $E^\bullet$ is **additive** if it takes [[coproducts]] to [[products]]:
 
@@ -14842,10 +14851,73 @@ We say $E^\bullet$ is **ordinary** if its value on the point is concentrated in 
 e.g. ([AGP 02, def. 12.1.1 ](#AguilarGitlerPrieto02)). 
 
 
++-- {: .num_lemma #EvaluationOfCohomologyTheoryOnGoodPairIsEvaluationOnQuotient}
+###### Lemma
+
+Let $E^\bullet$ be an cohomology theory, def. \ref{GeneralizedCohomologyTheory}, and let $A \hookrightarrow X$ be (the [[retract]] of) a [[relative cell complex]] inclusion. Then the morphism in cohomology induced from the [[quotient]] map $p \;\colon\; (X,A)\longrightarrow (X/A, \ast)$ is an [[isomorphism]]:
+
+$$
+  p^\ast 
+    \;\colon\; 
+  E^\bullet(X/A,\ast)
+    \longrightarrow
+  E^\bullet(X,A)
+  \,.
+$$
+
+=--
+
+(e.g [AGP 02, corollary 12.1.10](#AguilarGitlerPrieto02))
+
+
++-- {: .proof}
+###### Proof
+
+Consider first the quotient of the [[mapping cone]] of the inclusion:
+
+$$
+  ( X\cup Cone(A), Cone(A) ) \longrightarrow (X/A,\ast)
+  \,.
+$$
+
+This is a [[homotopy equivalence]] since $Cone(A)$ is contractible and since by the dual [[factorization lemma]] $X \cup Cone(A)\to X/A$ is a weak homotopy equivalence, hence a homotopy equivalence on CW-complexes.
+
+Then consider $U \coloneqq (Cone(A)-A \times \{0\}) \hookrightarrow Cone(A)$ the cone on $A$ minus the base $A$. We have
+
+$$
+  ( X\cup Cone(A)-U, Cone(A)-U) \simeq (X,A)
+  \,.
+$$
+
+Hence we get a composite isomorphism
+
+$$
+  E^\bullet(X/A,\ast)
+    \overset{\simeq}{\longrightarrow}
+  E^\bullet( X\cup Cone(A), Cone(A) )
+    \overset{\simeq}{\longrightarrow}
+  E^\bullet(X,A)
+  \,,
+$$
+
+where the first morphism is an iso by the homotopy invariance clause on $E^\bullet$, while the second is an iso by excision.
+
+=--
+
 +-- {: .num_example #GeneralizedCohomologyOnHomotopyQuotientMaps}
 ###### Example
 
-Let $E^\bullet$ be a generalized cohomology theory, def. \ref{GeneralizedCohomologyTheory}. Let $(X,x)$ be a [[pointed topological space]]. For $p\colon (Cone(X), X) \to (\Sigma X,\{x\})$ the quotient map from the reduced cone to the [[reduced suspension]], then $E^\bullet(p)$ is an isomorphism.
+As an important special case of : Let $(X,x)$ be a [[pointed topological space|pointed]] [[CW-complex]]. For $p\colon (Cone(X), X) \to (\Sigma X,\{x\})$ the quotient map from the reduced cone on $X$ to the [[reduced suspension]], then 
+
+$$
+  E^\bullet(p)
+  \;\colon\;
+  E^\bullet(Cone(X),X)
+   \overset{\simeq}{\longrightarrow}
+  E^\bullet(\Sigma X, \{x\})
+$$ 
+
+is an isomorphism.
 
 =--
 
