@@ -209,6 +209,8 @@ Note: To maintain the quality and relevance of this list, any new links not cont
 
 * [Mathematical Mischief](http://mathematicalmischief.com) Josh attempts to cover a broad range of high school topics, developing free resources and funny insights into how maths is involved in our everyday world.
 
+* [Mathematical Formalities](http://categorymath.wordpress.com/) This blog is written by [[Sanath Devalapurkar]], presenting some ideas and thoughts on (higher) category theory and $K$-theory.
+
 * [Mathematical Musings](http://matthewkahle.wordpress.com/)
 (Interactions of probability, statistical physics, topology, and combinatorics. Matthew Kahle)
 
