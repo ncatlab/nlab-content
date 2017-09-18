@@ -1,0 +1,13 @@
+
+
+* [webpage uscb](http://web.physics.ucsb.edu/~terler/)
+
+* [webpage lmu](http://www.theorie.physik.uni-muenchen.de/17ls_th_cosmology_en/members/sci_mem/erler/index.html)
+
+## related $n$Lab entries
+
+* [[string field theory]]
+
+category: people
+
+[[!redirects Ted Erler]]
