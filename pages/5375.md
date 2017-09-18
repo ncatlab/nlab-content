@@ -9,7 +9,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -22,7 +21,7 @@ The term "anabelian" is supposed to be alluding to the fact that "the _less_ [[a
 
 Accordingly, an algebraic variety whose [[isomorphism class]] is entirely determined by $\pi^{et}_1(X,x)$ is called an **anabelian variety**.
 
-An early conjecture motivating the theory (in [Grothendieck](#Grothendieck)) was that all [[hyperbolic curves]] over [[number fields]] are anabelian varieties. This was eventually proven by various authors in various cases.  In ([Uchida](#Uchida)) and ([Neukirch](#Neukirch)) it was shown that an isomorphism between [[Galois groups]] of [[number fields]] implies the existence of an isomorphism between those number fields. For algebraic curves over [[finite fields]], over [[number fields]] and over [[p-adic field]] the statement was eventually completed by ([Mochizuki 96](#Mochizuki96)).
+An early conjecture motivating the theory (in [Grothendieck 84](#Grothendieck)) was that all [[hyperbolic curves]] over [[number fields]] are anabelian varieties. This was eventually proven by various authors in various cases.  In ([Uchida](#Uchida)) and ([Neukirch](#Neukirch)) it was shown that an isomorphism between [[Galois groups]] of [[number fields]] implies the existence of an isomorphism between those number fields. For algebraic curves over [[finite fields]], over [[number fields]] and over [[p-adic field]] the statement was eventually completed by ([Mochizuki 96](#Mochizuki96)).
 
 Grothendieck also conjectured the existence of higher-dimensional anabelian varieties, but these are still very mysterious.
 
@@ -42,8 +41,9 @@ group' by Grothendieck.
 
 * [[section conjecture]]
 
+* [[arithmetic geometry]]
 
-##References
+## References
 
 The notion of anabelian geometry originates in 
 
