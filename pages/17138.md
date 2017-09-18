@@ -2622,7 +2622,7 @@ We discuss how the concept of [[homotopy]] is abstractly realized in [[model cat
 
 Let $\mathcal{C}$ be a [[model category]], and $X \in \mathcal{C}$ an [[object]].
 
-* A **[[path object]]** $Path(X)$ for $X$ is a factorization of the [[diagonal]] $\nabla_X \colon X \to X \times X$ as
+* A **[[path space object]]** $Path(X)$ for $X$ is a factorization of the [[diagonal]] $\nabla_X \colon X \to X \times X$ as
 
 $$
   \nabla_X 
@@ -5396,6 +5396,8 @@ $$
 
 Let $\mathcal{C}$ be a [[model category]] and let $X \in \mathcal{C}$ be an [[object]]. Then both the [[slice category]] $\mathcal{C}_{/X}$ as well as the [[coslice category]] $\mathcal{C}^{X/}$, def. \ref{SliceCategory}, carry model structures themselves -- the **[[model structure on a slice category|model structure on a (co-)slice category]]**,  where a morphism is a weak equivalence, fibration or cofibration iff its image under the [[forgetful functor]] $U$ is so in $\mathcal{C}$.
 
+In particular the category $\mathcal{C}^{\ast/}$ of [[pointed objects]], def. \ref{CategoryOfPointedObjects}, in a model category $\mathcal{C}$ becomes itself a model category this way.
+
 =--
 
 +-- {: .proof}
@@ -6284,21 +6286,21 @@ That finally follows now since by assumption the total bottom horizontal morphis
 +-- {: .num_lemma}
 ###### Lemma
 
-Let $\mathcal{C}^{\ast/}$ be the [[category of fibrant objects]], def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}, of a [[model structure on pointed objects]], prop. \ref{ModelStructureOnSliceCategory}. Given any [[commuting diagram]] in $\mathcal{C}^{\ast/}$ of the form
+Let $\mathcal{C}^{}$ be a [[category of fibrant objects]], def. \ref{FullSubcategoriesOfFibrantCofibrantObjects}. Given any [[commuting diagram]] in $\mathcal{C}^{}$ of the form
 
 $$
   \array{
     X'_1 &\overset{t}{\longrightarrow}& X_1 &\stackrel{\overset{f}{\longrightarrow}}{\underset{g}{\longrightarrow}}& X_2
     \\
-    && \donwarrow^{\mathrlap{p_1}}_{\mathrlap{\in Fib}} 
+    && \downarrow^{\mathrlap{p_1}}_{\mathrlap{\in Fib}} 
       && 
     \downarrow^{\mathrlap{p_2}}_{\in Fib}
     \\
-    & C &\overset{u}{\longrightarrow}& C
+    && B &\overset{u}{\longrightarrow}& C
   }
 $$
 
-(meaning: both squares commute and $t$ equalizes $f$ with $g$) then the [[localization]] functor $\gamma \colon \mathcal{C}^{\ast/}\to Ho(\mathcal{C}^{\ast/})$ (def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory}) takes $f$ and $g$ to the same morphism:
+(meaning: both squares commute and $t$ equalizes $f$ with $g$) then the [[localization]] functor $\gamma \colon \mathcal{C}\to Ho(\mathcal{C})$ (def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory}) takes $f$ and $g$ to the same morphism:
 
 $$
   \gamma(f) = \gamma(g)
@@ -6309,6 +6311,61 @@ $$
 
 ([Brown 73, section 4, lemma 4](#Brown73))
 
++-- {: .proof}
+###### Proof
+
+First consider the pullback of $p_2$ along $u$: this forms the same kind of diagram but with the bottom morphism an identity. Hence it is sufficient to consider this special case.
+
+Let then $X\overset{s}{\to}Path(X_2)\overset{(p_0,p_1)}{\to} X_2\times X_2$ be a [[path space object]] for $X_2$, def. \ref{PathAndCylinderObjectsInAModelCategory} and consider the following commuting square
+
+$$
+  \array{
+    X'_1 &\overset{s f t}{\longrightarrow}& Path(X_2)
+    \\
+    {}^{\mathllap{t}}_{\mathllap{\in W}}\downarrow && \downarrow^{\mathrlap{(p_0,p_1)}}_{\mathrlap{\in Fib}}
+    \\
+    X_1 &\overset{(f,g)}{\longrightarrow}& X_2\underset{B}{\times} X_2
+  }
+  \,.
+$$
+
+By factoring this through the pullback $(f,g)^\ast(p_0,p_1)$ and then applying the [[factorization lemma]] \ref{FactorizationLemma} this may be replaced by a commuting square like so:
+
+$$
+  \array{
+    X''_1 &\overset{s f t}{\longrightarrow}& Path(X_2)
+    \\
+    {}^{\mathllap{t}}_{\mathllap{\in W\cap Fib}} \downarrow && \downarrow^{\mathrlap{(p_0,p_1)}}_{\mathrlap{\in Fib}}
+    \\
+    X_1 &\overset{(f,g)}{\longrightarrow}& X_2\underset{B}{\times} X_2
+  }
+  \,.
+$$
+
+Notice that all objects here are equipped with compatible morphisms to $B$, so that this may be regarded as a commuting square in the [[slice category]] $\mathcal{C}_{/B}$, def. \ref{SliceCategory}.
+As such, this diagram exhibits that under [[localization]] $\gamma_B \;\colon\; \mathcal{C}_{/B} \longrightarrow Ho(\mathcal{C}_B)$ (def. \ref{FibrantCofibrantReplacementFunctorToHomotopyCategory}) in the [[slice model structure]] (prop. \ref{ModelStructureOnSliceCategory}) we have
+
+$$
+  \gamma_B(f) = \gamma_B(g)
+  \,.
+$$
+
+The result then follows by observing that we have a commuting square of [[functors]]
+
+$$
+  \array{
+     \mathcal{C}_{/B} &\overset{U}{\longrightarrow}& \mathcal{C}
+     \\
+     \downarrow^{\mathrlap{\gamma_B}} &\swArrow& \downarrow^{\mathrlap{\gamma}}
+     \\
+     Ho(\mathcal{C}_{/B}) &\longrightarrow& Ho(\mathcal{C})
+  }
+  \,,
+$$
+
+because, by prop. \ref{ModelStructureOnSliceCategory}, the top and right composite sends weak equivalences to isomorphisms, and hence the bottom filler exists by theorem \ref{UniversalPropertyOfHomotopyCategoryOfAModelCategory}. This implies the claim.
+
+=--
 
 
 #### Homotopy fibers
@@ -6466,6 +6523,26 @@ $$
 Now by lemma \ref{ComponentMapsOfCylinderAndPathSpaceInGoodSituation} the square here has a lift $\tilde \eta$, as shown. This means that $i_1 \circ\tilde \eta$ is left homotopic to $\alpha$. But by the universal property of the fiber, $i_1 \circ \tilde \eta$ factors through $i \colon hofib(f) \to X$.
 
 =--
+
+Also the loop space construction becomes well-defined on the homotopy category
+
++-- {: .num_prop}
+###### Proposition
+
+Let $\mathcal{C}$ be a [[model category]], def. \ref{ModelCategory}. Then the construction of forming [[loop space objects]] $X\mapsto \Omega X$, def. \ref{SuspensionAndLoopSpaceObject} (which on $\mathcal{C}^{\ast/}$ depends on a choice of [[path space objects]], def. \ref{PathAndCylinderObjectsInAModelCategory}) becomes a [[functor]] on the [[homotopy category of a model category]] (def. \ref{HomotopyCategoryOfAModelCategory}) of the [[slice model structure|model structure on pointed objects]] (prop. \ref{ModelStructureOnSliceCategory}):
+
+$$
+  \Omega 
+    \;\colon\;
+  Ho(\mathcal{C}^{\ast/})
+    \longrightarrow
+  Ho(\mathcal{C}^{\ast/})
+  \,.
+$$
+
+=--
+
+([Brown 73, section 4, theorem 3](#Brown73))
 
 
 (...)
