@@ -21,6 +21,8 @@ In [[type theory]] what is called the _UIP axiom_, the axiom of _uniqueness of i
 The axiom asserts that any two [[terms]] of the same [[identity type]] 
 $Id A(x,y)$ are themselves [[propositional equality|propositionally equal]] (in the corresponding higher identity type).
 
+This is contrary to the [[univalence]] axiom, which makes sense only in the absence of UIP.
+
 ## Statement
 
 $$
