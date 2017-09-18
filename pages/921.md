@@ -142,7 +142,7 @@ There are more and similar characterizations along these lines.  One is an examp
 There are alternative topologies on $\mathbb{R}$ sometimes considered:
 
 * the [[discrete topology]] (not very interesting),
-* the [[order topology]] or [[absolute-value topology]] (the usual topology),
+* the [[order topology]] or [[absolute-value topology]] (the usual topology of a [[Euclidean space|Euclidean]] [[metric space]]),
 * the [[upper-interval topology]] or the [[lower-interval topology]],
 * the [[lower semicontinuous topology]] or the [[upper semicontinuous topology]],
 * the [[K-topology]].
