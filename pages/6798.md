@@ -14,6 +14,10 @@
 +--{: .hide}
 [[!include fields and quanta - table]]
 =--
+#### Super-Geometry
++--{: .hide}
+[[!include supergeometry - contents]]
+=--
 #### $\infty$-Chern-Weil theory
 +--{: .hide}
 [[!include infinity-Chern-Weil theory - contents]]
