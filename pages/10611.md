@@ -108,6 +108,8 @@ $$
 
 ## Related concepts
 
+* [[de dicto and de re]]
+
 * [[monad (in computer science)]]
 
 * [[modal type]], [[anti-modal type]]
