@@ -174,3 +174,5 @@ Since the $\varphi^*_i$ are all quantifier-free, and $\varphi$ was arbitrary, we
 [[!redirects substructure complete theories]]
 
 [[!redirects substructure-complete theories]]
+
+[[!redirects substructure complete]]
