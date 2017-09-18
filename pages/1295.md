@@ -180,6 +180,8 @@ The dependent product plays a role in the definition of [[universe in a topos]].
 
 * [[Kan extension]]
 
+* [[internal limit]]
+
 * [[base change]]
 
   * [[dependent sum]], **dependent product**
