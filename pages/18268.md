@@ -45,7 +45,7 @@ We say that a model $M$ of a first-order theory $T$ is *existentially closed* if
 
 ("The existence of witnesses in a superstructure to existential statements about points in the existentially closed model is reflected to the existentially closed model.")
 
-In the terminology of the passage from ([Hodges93](#Hodges1993)), we say that $M \models T$ is an *existentially closed model* of $T$ if it is existentially closed in the class $\mbf{K} \overset{\operatorname{df}}{=} \mathbf{Mod}(T)$.
+In the terminology of the passage from ([Hodges93](#Hodges1993)), we say that $M \models T$ is an *existentially closed model* of $T$ if it is existentially closed in the class $\mathbf{K} \overset{\operatorname{df}}{=} \mathbf{Mod}(T)$.
 
 We say that a theory $T$ is an "existentially closed theory" (i.e., [[model complete]]) if all of its models are existentially closed.
 
