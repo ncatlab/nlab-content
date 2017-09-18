@@ -44,3 +44,7 @@ Fundamentals of the relevant [[supergeometry]] are in
 
   in [[Pierre Deligne|P. Deligne]], [[Pavel Etingof|P. Etingof]], [[Dan Freed|D.S. Freed]], L. Jeffrey, [[David Kazhdan|D. Kazhdan]], J. Morgan, D.R. Morrison, [[Edward Witten|E. Witten]] (eds.)  _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
 
+Discussion in the context of [[conformal geometry]] is in 
+
+* [[Pierre Anglès]], section 2.2.1.2 of _Conformal Groups in Geometry and Spin Structures_, Progress in Mathematical Physics 2008
+
