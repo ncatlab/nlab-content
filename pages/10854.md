@@ -86,6 +86,8 @@ General discussion includes
 A formalization in [[categorical logic]]/[[topos theory]] is proposed in
 
 * {#Lawvere86} [[William Lawvere]], Introduction to _[[Categories in Continuum Physics]], Lectures given at a Workshop held at SUNY, Buffalo 1982. Lecture Notes in Mathematics 1174. 1986
+
+See also the exposition of his ideas at [Higher toposes of laws of motion](Higher+toposes+of+laws+of+motion#iii_extensiveintensive_duality_and_cohomological_quantization).
  
 Lawvere's terminology is probably (see at _[[objective logic]]_) inspired by  
 
