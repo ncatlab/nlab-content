@@ -143,7 +143,7 @@ Since the [[hom functor]] $\mathcal{C}_{/Y}(\langle F \stackrel{}{\to} Y\rangle,
 
 $$
   \array{
-    \mathcal{C}_{/Y}(\langle F \stackrel{}{\to} Y\rangle, \prod_f \langle E \stackrel{p}{\to} X\rangle &\to& 
+    \mathcal{C}_{/Y}(\langle F \stackrel{}{\to} Y\rangle, \prod_f \langle E \stackrel{p}{\to} X\rangle) &\to& 
   \mathcal{C}_{/Y}(\langle F \stackrel{}{\to} Y\rangle, [\langle X \stackrel{f}{\to}Y \rangle,\langle E \stackrel{p}{\to}X \stackrel{f}{\to} Y\rangle]_{\mathcal{C}_{/Y}})
     \\
     \downarrow && \downarrow
@@ -156,7 +156,7 @@ in [[Set]]. Using the $((-) \times_{\mathcal{C}_{/Y}} \langle X \stackrel{f}{\to
 
 $$
   \array{
-    \mathcal{C}_{/Y}(\langle F \stackrel{}{\to} Y\rangle, \prod_f \langle E \stackrel{p}{\to} X\rangle 
+    \mathcal{C}_{/Y}(\langle F \stackrel{}{\to} Y\rangle, \prod_f \langle E \stackrel{p}{\to} X\rangle) 
     &\to& 
   \mathcal{C}_{/Y}(\langle F \stackrel{}{\to} Y\rangle \times_{\mathcal{C}_{/Y}} \langle X \stackrel{f}{\to}Y \rangle, \langle E \stackrel{p}{\to}X \stackrel{f}{\to} Y\rangle)
     \\
@@ -272,7 +272,7 @@ be two [[display maps]]. Then the
 [[category theory|category theoretic]] identification
 
 $$
-  [X,A]_{B} = \prod_\phi \phi^* \langle A \stackrel{c}{\to} X\rangle
+  [X,A]_{B} = \prod_\phi \phi^* \langle A \stackrel{c}{\to} B\rangle
 $$
 
 from prop. \ref{DependentProductImpliesLocalCartesinClosure} is the [[categorical semantics]] of the [[dependent type theory]] [[syntax]]
@@ -309,7 +309,7 @@ $$
   \,,
 $$
 
-the pullback $f^* \langle A \to B\rangle$ is expressed by [[substitution]]
+the pullback $\phi^* \langle A \to B\rangle$ is expressed by [[substitution]]
 
 $$
    x : X \vdash A(\phi(x)) : Type
@@ -337,7 +337,7 @@ $$
   \,.
 $$
 
-This in now a [[dependent product]] over a type that does not actually depend
+This is now a [[dependent product]] over a type that does not actually depend
 on the context $B$, and hence by definition this is the [[dependent type|dependent]] [[function type]]
 
 $$
