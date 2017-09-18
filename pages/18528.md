@@ -1,3 +1,4 @@
+[[!redirects Ernst Stueckelberg]]
 
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Ernst_Stueckelberg)
 
