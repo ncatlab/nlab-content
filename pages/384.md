@@ -77,7 +77,7 @@ Every CW complex is homotopy equivalent to a space that admits a [[good open cov
 
 +-- {: .num_theorem} 
 ###### Theorem 
-If $Y$ has the [[homotopy type]] of a CW complex and $X$ is a finite CW complex, then the function space $Y^X$ with the [[compact-open topology]] has the homotopy type of a CW complex. 
+If $Y$ has the [[homotopy type]] of a CW complex and $X$ is a [[finite CW complex]], then the function space $Y^X$ with the [[compact-open topology]] has the homotopy type of a CW complex. 
 =-- 
 
 This is proven in [Milnor](#Milnor). 
