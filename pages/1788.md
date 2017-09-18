@@ -1,1 +1,19 @@
-..
+
+
+$$
+  \array{
+    && S^{n-1} &\overset{\alpha}{\longrightarrow}& X
+    \\
+    && \downarrow && \downarrow
+    \\
+    && D^n &\overset{\rho'}{\longrightarrow}& X
+    \\
+    && {}^{\mathllap{(id,\delta_1)}}\downarrow &{}^{\mathllap{\phi'}}\nearrow& \downarrow^{\mathrlap{f}}
+    \\
+    && D^n \times I &\overset{\phi}{\longrightarrow}& Y
+    \\
+    && {}_{\mathllap{(id,\delta_0)}}\uparrow & \nearrow
+    \\
+    && D^n
+  }
+$$
