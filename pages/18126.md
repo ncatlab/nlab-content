@@ -2592,17 +2592,32 @@ produce examples of continuous functions with prescribed "[[universal properties
 ###### Example
 **(point space is [[terminal object|terminal]])**
 
-For $(X,\tau)$ any [[topological space]], then there is a unique continuous function
+For $(X,\tau)$ any [[topological space]], then there is a _unique_ continuous function
 
-$$
-  X \longrightarrow \ast
-$$
+1. from the [[empty topological space]] (def. \ref{Point}) $X$
 
-from $X$ to the [[point topological space]] (def. \ref{Point}).
+   $$
+     \emptyset  
+       \overset{\phantom{AA} \exists ! \phantom{AA} }{\longrightarrow}
+     X
+   $$
+
+1. from $X$ to the [[point topological space]] (def. \ref{Point}).
+
+   $$
+     X \overset{\phantom{AA} \exists ! \phantom{AA}}{\longrightarrow} \ast
+   $$
+
 
 
 In the language of [[category theory]] (remark \ref{TopCategory}), this
-says that the point $\ast$ is the _[[terminal object]]_ in the [[category]] [[Top]] of topological spaces.
+says that 
+
+1. the [[empty topological space]] is the _[[initial object]]_
+
+1. the [[point space]] $\ast$ is the _[[terminal object]]_ 
+
+in the [[category]] [[Top]] of topological spaces.
 
 =--
 
@@ -2824,21 +2839,21 @@ A [[continuous function]] $f \colon (X,\tau_X) \to (Y, \tau_Y)$ (def. \ref{Conti
 
 =--
 
-+-- {: .num_example}
++-- {: .num_example #ProjectionsAreOpenContinuousFunctions}
 ###### Example
-**([[projections]] are open)**
+**([[projections]] are [[open map|open]] [[continuous functions]] )**
 
 For $(X_1,\tau_{X_1})$ and $(X_2,\tau_{X_2})$ two [[topological spaces]], then the projection maps
 
 $$
-  \pi_i \;\colon\; (X_1 \times X_2, \tau_{X_1 \times X_2}) \longrightarrow (X_i, \tau_{X_i})
+  pr_i \;\colon\; (X_1 \times X_2, \tau_{X_1 \times X_2}) \longrightarrow (X_i, \tau_{X_i})
 $$
 
 out of their [[product topological space]] (def. \ref{BinaryProductTopologicalSpace})
 
 $$
   \array{
-    X_1 \times X_2 &\overset{\pi_1}{\longrightarrow}& X_1
+    X_1 \times X_2 &\overset{pr_1}{\longrightarrow}& X_1
     \\
     (x_1, x_2) &\overset{\phantom{AAA}}{\mapsto}& x_1
   }
@@ -2846,16 +2861,45 @@ $$
 
 $$
   \array{
-    X_1 \times X_2 &\overset{\pi_2}{\longrightarrow}& X_2
+    X_1 \times X_2 &\overset{pr_2}{\longrightarrow}& X_2
     \\
     (x_1, x_2) &\overset{\phantom{AAA}}{\mapsto}& x_2
   }
 $$
 
+are [[open maps|open]] [[continuous functions]]  (def. \ref{OpenMap}).
 
-are [[open maps]] (def. \ref{OpenMap}).
+This is because, by definition, every open subset $O \subset X_1 \times X_2$ in the product space topology is a union of products of 
+open subsets $U_i \in X_1$ and $V_i \in X_2$ in the factor spaces
+
+$$
+  O = \underset{i \in I}{\cup} \left( U_i \times V_i  \right)
+$$
+
+and because taking the image of a function preserves unions of subsets
+
+$$
+  \begin{aligned}
+    pr_1\left(
+      \underset{i \in I}{\cup} \left( U_i \times V_i \right)
+    \right)
+    & =
+    \underset{i \in I}{\cup}
+    pr_1
+    \left(
+      U_i \times V_i
+    \right)
+    \\
+    & =
+    \underset{i \in I}{\cup} U_i
+  \end{aligned}
+  \,.
+$$
+
 
 =--
+
+
 
 Below in prop. \ref{MapsFromCompactSpacesToHausdorffSpacesAreClosed} we find a large supply of [[closed maps]].
 
@@ -5732,7 +5776,137 @@ After these general considerations, we finally discuss a [list of examples](#Uni
 
 $\,$
 
-Here is a motivating example of a [[universal property]]:
+To motivate the following generalizations, first observe the [[universal properties]]
+enjoyed by the basic construction principles of topological spaces from [above](#BasicConstructions)
+
++-- {: .num_example #UniversalPropertyOfBinaryProductSpace}
+###### Example
+**([[universal property]] of binary [[product topological space]])
+
+Let $X_1, X_2$ be [[topological spaces]]. Consider their [[product topological space]]
+$X_1 \times X_2$ from example \ref{BinaryProductTopologicalSpace}. By example \ref{ProjectionsAreOpenContinuousFunctions}
+the two [[projections]] out of the product space are [[continuous functions]]
+
+$$
+  \array{
+    X_1 &\overset{pr_1}{\longleftarrow}& X_1 \times X_2 &\overset{pr_2}{\longrightarrow}& X_2
+  }
+  \,.
+$$
+
+Now let $Y$ be any other [[topological space]]. Then, by [[composition]], every [[continuous function]]
+$Y \to X_1 \times X_2$ into the product space yields two continuous component functions $f_1$ and $f_2$:
+
+$$
+  \array{
+    && Y
+    \\
+    & {}^{\mathllap{f_1}}\swarrow & \downarrow & \searrow^{\mathrlap{f_2}}
+    \\
+    X_1 &\underset{pr_1}{\longleftarrow}& X_1 \times X_2 &\underset{pr_2}{\longrightarrow}& X_2
+  }
+  \,.
+$$
+
+But in fact these two components completely characterize the function into the product: There is a 
+([[natural bijection|natural]]) [[bijection]] between continuous functions into the product space
+and pairs of continuous functions into the two factor spaces:
+ 
+$$
+  \array{
+    &
+    \left\{
+       Y \longrightarrow X_1 \times X_2
+    \right\}
+    &\simeq&
+    \left\{
+      \left(
+        \array{
+          Y \longrightarrow X_1,
+          \\
+          Y \longrightarrow X_2
+        }
+      \right)
+    \right\}
+    \\
+    \text{i.e.:}
+    &
+    \\
+    &
+    Hom_{Top}(Y, X_1 \times X_2)
+      &\simeq&
+    Hom_{Top}(Y,X_1) \times Hom_{Top}(Y, X_2)
+  }
+  \,.
+$$
+
+
+=--
+
+
++-- {: .num_example #UniversalPropertyOfDisjointUnionSpace}
+###### Example
+**([[universal property]] of [[disjoint union spaces]])**
+
+Let $X_1, X_2$ be [[topological spaces]]. Consider their [[disjoint union space]]
+$X_1 \sqcup X_2$ from example \ref{DisjointUnionOfTopologicalSpaces}. By definition,
+the two inclusions into the disjoint union space are clearly [[continuous functions]]
+
+$$
+  \array{
+    X_1 &\overset{i_1}{\longrightarrow}& X_1 \sqcup X_2 &\overset{i_2}{\longleftarrow}& X_2
+  }
+  \,.
+$$
+
+Now let $Y$ be any other [[topological space]]. Then by [[composition]] a [[continuous function]]
+$X_1 \sqcup X_2 \longrightarrow Y$ out of the disjoint union space yields two continuous component functions $f_1$ and $f_2$:
+
+$$
+  \array{
+    X_1 &\overset{i_1}{\longleftarrow}& X_1 \sqcup X_2 &\overset{i_2}{\longrightarrow}& X_2
+    \\
+    & {}_{\mathllap{f_1}}\searrow & \downarrow & \swarrow_{\mathrlap{f_2}}
+    \\
+    && Y
+  }
+  \,.
+$$
+
+But in fact these two components completely characterize the function out of the disjoint union: There is a
+([[natural bijection|natural]]) [[bijection]] between continuous functions out of disjoint union spaces
+and pairs of continuous functions out of the two summand spaces:
+
+$$
+  \array{
+    &
+    \left\{
+       X_1 \sqcup X_2 \longrightarrow Y
+    \right\}
+    &\simeq&
+    \left\{
+      \left(
+        \array{
+          X_1 \longrightarrow Y,
+          \\
+          X_2 \longrightarrow Y
+        }
+      \right)
+    \right\}
+    \\
+    \text{i.e.:}
+    \\
+    &
+    Hom_{Top}(X_1 \times X_2, Y)
+      &\simeq&
+    Hom_{Top}(X_1, Y) \times Hom_{Top}(X_2, Y)
+  }
+  \,.
+$$
+
+
+=--
+
 
 +-- {: .num_example #UniversalPropertyOfQuotientSpace}
 ###### Example
@@ -5772,8 +5946,8 @@ $$
   \,.
 $$
 
-(This universal property is often useful, for instance we already used it in the construction of the
-$T_n$-reflection in prop. \ref{HausdorffReflectionViaHomsIntoAllHausdorffSpaces}.)
+(We already made use of this universal property in the construction of the
+$T_n$-reflection in the proof of prop. \ref{HausdorffReflectionViaHomsIntoAllHausdorffSpaces}.)
 
 =--
 
@@ -6369,7 +6543,7 @@ $$
      \left\{
      \array{
        X_i
-         && \underset{f_\alpha}{\longrightarrow} &&
+         && \overset{f_\alpha}{\longrightarrow} &&
        X_j
        \\
        & {}^{\mathllap{q_i}}\searrow && \swarrow^{\mathrlap{q_j}}
@@ -6388,7 +6562,7 @@ $$
      \left\{
      \array{
        X_i
-         && \underset{f_\alpha}{\longrightarrow} &&
+         && \overset{f_\alpha}{\longrightarrow} &&
        X_j
        \\
        & {}^{\mathllap{q'_i}}\searrow && \swarrow_{\mathrlap{q'_j}}
@@ -6444,9 +6618,9 @@ be a [[diagram]] in $\mathcal{C}$.
    components $X_i$:
 
    $$
-     Hom_{\mathcal{C}}(Y, \underset{\longleftarrow}{\lim}_i X_i )
+     Hom_{\mathcal{C}}\left(\,Y\,, \,\underset{\longleftarrow}{\lim}_i X_i \, \right)
       \simeq
-     \underset{\longleftarrow}{\lim}_i Hom_{Set}(Y, X_i)
+     \underset{\longleftarrow}{\lim}_i Hom_{Set}\left(\,Y\,, \,X_i\, \right)
    $$
 
 
@@ -6455,9 +6629,9 @@ be a [[diagram]] in $\mathcal{C}$.
    morphisms out of the components of $X_i$
 
    $$
-     Hom_{\mathcal{C}}(\underset{\longrightarrow}{\lim}_i X_i, Y)
+     Hom_{\mathcal{C}}\left(\,\underset{\longrightarrow}{\lim}_i X_i\,,\, Y\,\right)
        \simeq
-     \underset{\longrightarrow}{\lim} Hom_{Set}( X_i, Y )
+     \underset{\longrightarrow}{\lim} Hom_{Set}\left(\, X_i\,, \,Y\, \right)
      \,.
    $$
 
@@ -6705,15 +6879,15 @@ Observe that with prop. \ref{HomFunctorPreservesLimits} it follows that
 
 1. [[left adjoint functors]] preserve [[colimits]]
 
-1. [[right adjoint fucntors]] preserve [[limits]]
+1. [[right adjoint functors]] preserve [[limits]]
 
 This implies that if we have a [[reflective subcategory]] of topological spaces
 
 $$
   Top_{nice}
     \underoverset
-      {\underset{\iota}{\hookrightarrow}}
-      {\overset{L}{\longleftarrow}}
+      {\underset{\phantom{AA}\iota\phantom{AA}}{\hookrightarrow}}
+      {\overset{\phantom{AA}L\phantom{AA}}{\longleftarrow}}
       {\bot}
   Top
 $$
@@ -6755,6 +6929,19 @@ Consider the [[empty diagram]] (example \ref{DiscreteDiagram}) as a diagram of [
 
 1. The [[colimit]] over the [[empty diagram]] is the [[empty topological space]] $\emptyset$ (example \ref{Point}).
 
+This is because for an empty diagram, the a (co-)cone is just a topological space, without any further data or properties,
+and it is universal precisely if there is a unique continuous function to (respectively from) this space to any other space $X$.
+This is the case for the point space (respectively empty space) by example \ref{TerminalityOfThePoint}:
+
+$$
+  X \overset{\phantom{AA} \exists ! \phantom{AA}}{\longrightarrow} \ast
+$$
+
+$$
+  \emptyset \overset{\phantom{AA} \exists! \phantom{AA}}{\longrightarrow} X
+  \,.
+$$
+
 =--
 
 +-- {: .num_example #DisjointUnionOfTopologicalSpacesIsCoproduct}
@@ -6763,26 +6950,113 @@ Consider the [[empty diagram]] (example \ref{DiscreteDiagram}) as a diagram of [
 
 Consider a [[discrete category|discrete]] [[diagram]] consisting of two objects $X, Y$ (example \ref{DiscreteDiagram}).
 
-Its [[limit]] is called the _[[Cartesian product]]_ $X \times Y$.
-
-Its [[colimit]] is called the _[[coproduct]]_ $x \sqcup Y$.
-
-In topological spaces this yields the binary product topological space (example \ref{BinaryProductTopologicalSpace})
-and the [[disjoint union space]] (example \ref{DisjointUnionOfTopologicalSpaces}).
-
+Its [[limit]] is called the _[[Cartesian product]]_ $X \times Y$. In topological space this limit is the 
+[[product topological space]], by the universal property observed in example \ref{UniversalPropertyOfBinaryProductSpace}.
+[
+Its [[colimit]] is called the _[[coproduct]]_ $X \sqcup Y$. In topological spaces this is the [[disjoint union space]],
+by the universal property observed in example \ref{UniversalPropertyOfDisjointUnionSpace}.
 
 =--
+
+The first important application of the general concept of limits of diagrams of topological spaces
+is now the following example \ref{InfiniteProductTopologicalSpace} of product spaces with an 
+non-[[finite set]] of factors. It turns out that the correct topology on the underlying infinite [[Cartesian product]]
+of sets is _not_ the naive generalization of the binary product topology, but instead is the corresponding
+[[weak topology]], here called the _[[Tychonoff topology]]_.
 
 +-- {: .num_example #InfiniteProductTopologicalSpace}
 ###### Example
-**([[product spaces]] with [[Tychonoff topology]])**
+**(general [[product spaces]] with [[Tychonoff topology]])**
 
-For $\{X_i\}_{i \in I}$ a set of topological spaces, their [[product]] $\underset{i \in I}{\prod} X_i \in Top$ is the [[Cartesian product]] of the underlying sets equipped with the _[[product topology]]_, also called the _[[Tychonoff product]]_.
+Consider an arbitrary [[discrete category|discrete]] [[diagram]] (def. \ref{DiscreteDiagram}), 
+hence a [[set]] $\{X_i\}_{i \in I}$ of topological spaces, indexed by any [[set]] $I$, not necessarily a [[finite set]].
 
-In the case that $S$ is a [[finite set]], such as for binary product spaces $X \times Y$, then a [[basis for a topology|sub-basis]] for the Tychonoff product topology is given by the [[Cartesian products]] of the open subsets of (a basis for) each factor space.
-Hence in this case the Tychonoff topology coincides with that of the binary product space topology in example \ref{BinaryProductTopologicalSpace}.
+The [[limit]] over this diagram is called the _[[product topological space]]_ of the spaces in the diagram, and denoted
+
+$$
+  \underset{i \in I}{\prod} X_i
+  \;\in\;
+  Top
+  \,.
+$$
+
+By prop. \ref{SetLimits} and prop. \ref{TopologicalSubspaceInitial}, the underlying set of this product space is 
+just the [[Cartesian product]] of the underlying sets, hence the set of [[tuples]] $(x_i \in X_i)_{i \in I}$. This comes
+for each $i \in I$ with the [[projection]] map
+
+$$
+  \array{
+    \underset{j \in I}{\prod} X_j &\overset{pr_i}{\longrightarrow}& X_i
+    \\
+    (x_j)_{j \in I} & \overset{\phantom{AA}  \phantom{AA} }{\mapsto} & x_i
+  }
+  \,.
+$$
+
+By prop. \ref{TopologicalSubspaceInitial} and def. \ref{InitialAndFinalTopologies}, the topology on this set 
+is the [[coarse topology|coarsest]] topology such that the [[pre-images]] $pr_i(U)$ of open subsets $U \subset X_i$
+under these projection maps are open. Now one such pre-image is a [[Cartesian product]] of open subsets of the form
+
+$$
+  \underset{j \in I}{\prod} U_i
+  \;\subset\;
+  \underset{j \in J}{\prod} X_j
+$$
+
+where all factors are the corresponding total space, except for the $i$th factor, which is the given $U \subset X_i$:
+
+$$
+  U_j = 
+  \left\{
+    \array{
+      U & \vert \, j = i
+      \\
+      X_j & \vert\, j \neq i
+    }
+  \right.
+  \,.
+$$
+
+The [[coarse topology|coarsest topology]] that contains these open subsets ist that generated by these subsets regarded as 
+a [[topological base|sub-basis for the topology]] (def. \ref{TopologyBase}), hence the arbitrary unions of the finite intersections of 
+subsets of the above form.
+
+Now the finite intersections of subsets of the above form are the subsets of the form
+
+$$
+  \underset{j \in I}{\prod} U_j
+  \;\subset\;
+  \underset{j \in I}{\prod} X_j
+$$
+
+such that there is a [[finite set]] [[subset]] $K \subset J$ with 
+
+$$
+  U_j 
+    =
+  \left\{
+    \array{
+      U_j \subset X_j \, \text{open} &\vert&  j \in K \subset J
+      \\
+      X_j & \vert & \text{otherwise}
+    }
+  \right.
+  \,.
+$$
+
+Hence the product topology is equivalently that generated by these subsets when regarded as a [[basis for the topology]].
+
+This is also known as the _[[Tychonoff topology]]_.
+
+Notice the subtlety: Naively could have considered as open subsets the unions of products of open 
+subsets of the factors, without the constraint that only finitely many of them differ from the corresponding total space.
+This also defines a topology, called the _[[box topology]]_. For a [[finite set|finite index set]] $I$ this coincides with the
+topologgy obtained by applying the binary product topological space construction. But for infinite index sets it does not. 
 
 =--
+
+
+
 
 
 +-- {: .num_example #EqualizerInTop}
@@ -6798,7 +7072,7 @@ $$
   S_Y
 $$
 
-(hence the largets subset of $S_X$ on which both functions coincide) and equipped with the [[subspace topology]], example \ref{TopologicalSubspace}.
+(hence the largets subset of $S_X$ on which both functions coincide) and equipped with the [[subspace topology]], example \ref{SubspaceTopology}.
 
 =--
 
@@ -6816,7 +7090,7 @@ $$
   coeq(f,g)
 $$
 
-(hence the [[quotient set]] by the [[equivalence relation]] generated by $f(x) \sim g(x)$ for all $x \in X$)  and equipped with the [[quotient topology]], example \ref{QuotientTopology}.
+(hence the [[quotient set]] by the [[equivalence relation]] generated by $f(x) \sim g(x)$ for all $x \in X$)  and equipped with the [[quotient topology]], example \ref{QuotientTopologicalSpace}.
 
 =--
 
