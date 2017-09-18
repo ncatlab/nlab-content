@@ -19,11 +19,12 @@
 
 ## Idea
 
-A _loop space_ is a [[loop space object]], typically regarded in [[Top]] (in the context of [[topology]]) or in [[Ho(Top)]] or rather in [[∞Grpd]] (in the context of [[homotopy theory]]).
+In the strict sense of the word a _loop space_ in [[topology]] for a given [[pointed topological space]] $X$ is the [[mapping space]] (with its [[compact-open topology]], se the example [there](compact-open+topology#LoopSpace)) $Maps_\ast(S^1, X)$ of [[continuous functions]] from the [[circle]] to $X$, such that they take the given basepoint of the circle to the prescribed basepoint in $X$ (or if one drops this condition, then one speaks of the _[[free loop space]]_). One such continuous function may be thought of as a continuous loop in $X$, and hence the mapping space is the space of all these loops.
 
-As a topological space it is equivalently a [[mapping space]] from the [[circle]] to some pointed topological space $X$: a space of [[loops]] in $X$. Here $X$ and the loops might be equipped with further geometric structure such as [[smooth structure]] and then one may consider a _[[smooth loop space]]_, etc.
+If here $X$ is equiiped with further structure, such as [[smooth structure]], then (e.g. a [[smooth manifold]]), then one may good cases find such extra structure also on the loop space, for instance to form a _[[smooth loop space]]_, etc. See at _[[manifolds of mapping spaces]]_ for more on this.
 
-Strictly speaking, and as considered here, a loop space consists only of loops that start and end at a fixed base point in $X$. Without this restriction one speaks of a _[[free loop space]]_.
+If one regards this construction not in [[point-set topology]] but in [[classical model structure on topological spaces|classical homotopy theory of topological spaces]] ([[homotopy hypothesis|equivalently]] [[∞Grpd]]), then, up to [[weak homotopy equivalence]], the loop space is equivalence the [[homotopy fiber product]] of the basepoint inclusion $\ast \to X$ along itself.
+
 
 
 
