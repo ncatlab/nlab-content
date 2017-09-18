@@ -251,6 +251,10 @@ In practice this is of particular relevance for the $\infty$-version of [[regula
 
 **Warning.** The same warning as at [[regular epimorphism]] applies: with this definition of regular monomorphism in an [[(∞,1)-category]] these may fail to satisfy various definitions of plain monomorphisms that one might think of. 
 
+## Related pages 
+
+* [[regular epimorphism]] (containing more results which of course have duals that could be added here) 
+
 ## References
 
 * {#AdamekHerrlichStrecker} [[Jiri Adamek]], [[Horst Herrlich]], and [[George Strecker]], _Abstract and concrete categories: the joy of cats_. ([pdf](http://katmat.math.uni-bremen.de/acc/acc.pdf))
