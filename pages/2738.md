@@ -1320,6 +1320,8 @@ Together with the fact that $i^*: dSet \to sSet$ is a [[right Quillen functor]] 
 
 * [[Cartesian fibration of dendroidal sets]]
 
+* [[minimal dendroidal fibration]]
+
 * [[simplicial set]], [[globular set]], [[cubical set]], [[cellular set]]
 
 ## References 
@@ -1329,8 +1331,8 @@ Surveys of the theory as developed currently include:
 
 * [[Ieke Moerdijk]], _Lectures on dendroidal sets_ , lectures given at the Barcelona workshop on _[Simplicial methods in higher categories](http://www.crm.es/HigherCategories/)_ (2008) ([preliminary writeup](http://www.crm.cat/HigherCategories/hc1.pdf))
 
-* [[Ittay Weiss]], _From operads to dendroidal sets_ , in _[[Mathematical Foundations of Quantum Field and Perturbative String Theory]]_, AMS (2011)
- {#Weiss}
+* {#Weiss} [[Ittay Weiss]], _From operads to dendroidal sets_ , in _[[Mathematical Foundations of Quantum Field and Perturbative String Theory]]_, AMS (2011)
+ 
 
 
 Dendroidal sets were introduced in 
