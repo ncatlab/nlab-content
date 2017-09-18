@@ -1,0 +1,85 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Higher algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+#### Stable Homotopy theory
++--{: .hide}
+[[!include stable homotopy theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+A _symmetric ring spectrum_ is a [[ring spectrum]] modeled as a [[symmetric spectrum]]. Equivalently this is a [[monoid object]] with respect to the [[symmetric monoidal smash product of spectra]], for symmetric spectra.
+Morever, if we regard symmetric spectra as $\mathbb{S}_{sym}$-[[modules]], as discussed at _[[Model categories of diagram spectra]]_, then this, in turn, is equivalent to a $\mathbb{S}_{sym}$-algebra, where $\mathbb{S}_{sym}$ is the standard model of the [[sphere spectrum]] as a symmetric spectrum.
+
+There is a [[model structure for ring spectra|model structure for symmetric ring spectra]] ([MMSS 00](#MandellMaySchwedeShipley01)) under which symmetric ring spectra represent genuine [[A-infinity rings]], and commutative symmetric ring spectra represent genuine [[E-infinity rings]]. This fact is one of the key motivation for passing from [[sequential spectra]] to the richer model of [[symmetric spectra]] (and possibly further to other [[highly structured spectra]] such as [[orthogonal spectra]] and [[excisive functors]]).
+
+Despite all this, the component expression of the structure in a symmetric ring spectrum, in the fashion of _[[functors with smash product]]_, is rather straightforward, and directly analogous to the structure in a [[dg-algebra]]: essentially there is for all pairs of indices $n_1, n_2$ a pairing between the component spaces of the spectrum in these degrees
+
+$$
+  E_{n_1}\wedge E_{n_2}\longrightarrow E_{n_1 + n_2}
+$$
+
+such that this respects the given action of the [[symmetric groups]] and of [[suspensions]], and such that it is is [[associativity|associative]] and [[unitality|unital]] in the evident way.
+
+## Definition
+
+Write $Top_{cg}^{\ast}$ for the [[category]] of [[pointed topological space|pointed]] [[compactly generated topological spaces]].
+
+One minimal way to state the definition is as follows:
+
++-- {: .num_defn #SymmetricRingSpectrum}
+###### Definition
+
+A **topological symmetric ring spectrum** $R$ is
+
+1. a sequence of component spaces $R_n \in Top_{cg}^{\ast}$ for $n \in \mathbb{N}$; (the _component spaces_);
+
+1. a basepoint-preserving continuous left [[action]] of the [[symmetric group]] $\Sigma_n$ on $R_n$ for $n \in \mathbb{N}$;
+
+1. $\Sigma_{n_1}\times \Sigma_{n_2}$-equivariant morphisms (the _multiplication maps_)
+
+   $$
+     \mu_{n_1,n_2} 
+     \;\colon\;
+     R_{n_1} \wedge R_{n_2} \longrightarrow R_{n_1 + n_2}
+   $$
+
+   for $n_1, n_2\in \mathbb{N}$;
+
+1. morphisms
+
+   $$
+     e_0 \;\colon\; S^0 \longrightarrow R_0
+   $$
+
+   $$
+     e_1 \;\colon\; S^1 \longrightarrow R_1
+   $$
+
+such that
+
+...
+
+=--
+
+([Schwede 12, def. 1.3](#Schwede12))
+
+
+## References
+
+* {#MandellMaySchwedeShipley01} [[Michael Mandell]], [[Peter May]], [[Stefan Schwede]], [[Brooke Shipley]], _[[Model categories of diagram spectra]]_, Proceedings of the London Mathematical Society, 82 (2001), 441-512 ([pdf](http://www.math.uchicago.edu/~may/PAPERS/mmssLMSDec30.pdf))
+
+* {#Schwede12} [[Stefan Schwede]], _[[Symmetric spectra]]_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf))
+
