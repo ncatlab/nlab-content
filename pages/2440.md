@@ -46,7 +46,7 @@ This means that a super Lie algebra is
 
    that is _graded_ skew-symmetric: it is skew symmetric on $\mathfrak{g}_{even}$ and _symmetric_ on $\mathfrak{g}_{odd}$.
 
-1. that satisfies the $\mathbb{Z}_2$-graded [[Jacobi identity]] in that for any three element $x,y,z \in \mathbb{g}$ of homogeneous degree $deg(x),deg(y),degz)\in \mathbb{Z}$ then
+1. that satisfies the $\mathbb{Z}_2$-graded [[Jacobi identity]] in that for any three element $x,y,z \in \mathbb{g}$ of homogeneous degree $deg(x),deg(y),deg(z))\in \mathbb{Z}$ then
 
    $$
      [x, [y, z]] = [[x,y],z] + (-1)^{deg(x)\cdot deg(y)} [y, [x,z]]
@@ -102,7 +102,7 @@ Another useful survey is
 
 A useful PhD thesis covering Lie superalgebras and superalgebras more generally is 
 
-* D. Westra, _Superrings and supergroups_ ([pdf][http://www.mat.univie.ac.at/~michor/westra_diss.pdf])
+* D. Westra, _Superrings and supergroups_ ([pdf](http://www.mat.univie.ac.at/~michor/westra_diss.pdf))
 
 
 [[!redirects Lie superalgebra]]
