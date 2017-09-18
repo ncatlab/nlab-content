@@ -23,11 +23,12 @@ Any [[group]] $G$ has a [[category]] of finite-dimensional [[complex number|comp
 
 ### In components
 
-More concretely, we get $R(G)$ as follows.  It has a [[basis]] $(e_i)_i$ given by the **irreps** of $G$: that is, $i$ is an index for an irreducible finite-dimensional complex representation of $G$.  It has a product given by 
+More concretely, we get $R(G)$ as follows.  It has a [[basis]] $(e_i)_i$ given by the [[isomorphism classes]] of **[[irreducible representations]]** of $G$: that is, $i$ is an index for an irreducible finite-dimensional complex representation of $G$.  It has a product given by 
 
 $$ e_i e_j = \sum_k m_{i j}^k e_k ,$$
 
-where $m_{i j}^k$ is the multiplicity of the $k$th irrep in the tensor product of the $i$th and $j$th irreps.  
+where $m_{i j}^k$ is the multiplicity of the $k$th irrep in the 
+[[tensor product of representations]] of the $i$th and $j$th irreps.  
 
 In [[physics]] these coefficients are also known as _[[Clebsch-Gordan coefficients]]_ (specifically for $G$ the [[special orthogonal group]] $SO(3)$), and the relations they satisfy are also known as _[[Fierz identities]]_ (specifically for $G$ a [[spin group]]).
 
