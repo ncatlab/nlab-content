@@ -1,1 +1,3 @@
 _Mapping complexes_ of [[dg-categories]] are the direct analogue of [[mapping spaces]] of [[simplicial categories]].
+
+[[!redirects mapping complexes]]
