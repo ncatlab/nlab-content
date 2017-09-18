@@ -1,12 +1,30 @@
 
+
+
+Dominic Joyce is professor for pure [[mathematics]] at Oxford
+
 * [website](http://people.maths.ox.ac.uk/joyce), [publications](http://people.maths.ox.ac.uk/joyce/publ.html)
+
+Warning: distinguish from mathematician David Joyce who worked on knot theory and [[quandles]] (and invented the terminology "quandle")
+
+
+## selected publications
 
 * Dominic Joyce, Yinan Song, _A theory of generalized [[Donaldson-Thomas invariants]]_, [arxiv/0810.5645](http://arxiv.org/abs/0810.5645)
 
 ## related $n$Lab entries
 
-* [[C-infinity-ring]], [[special Lagrangian submanifold]], [[Donaldson-Thomas invariant]]
+* [[special holonomy]]
 
-Warning: distinguish from mathematician David Joyce who worked on knot theory and [[quandle]]s (and invented the terminology "quandle")
+* [[G2-manifolds]]
+
+* [[C-infinity-ring]], 
+
+* [[derived geometry]]
+
+* [[special Lagrangian submanifold]], 
+
+* [[Donaldson-Thomas invariant]]
+
 
 category: people
