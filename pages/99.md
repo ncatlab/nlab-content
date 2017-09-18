@@ -461,6 +461,48 @@ This means that [[homotopy theory|homotopy-theoretically]] the Weil algebra is t
 
 =--
 
+### Characterization in the smooth $\infty$-topos
+ {#CharacterizationInSmoothTopos}
+
+The Weil algebra of a Lie algebra is naturally identified with the
+de Rham algebra of differential forms on the "universal $G$-principal bundle with connection" in its stacky incarnation ([Freed-Hopkins 13](#FreedHopkins13)):
+
+Write $\mathbf{B}G_{conn}\simeq \mathbf{\Omega}(-,\mathfrak{G})///G$ for the universal [[moduli stack]] of $G$-[[principal connections]] (as discussed there), a [[smooth groupoid]]. The quotient projection may be regarded as th universal $G$-connection:
+
+$$
+  \array{
+     && \mathbf{\Omega}_{flat}(-,\mathfrak{g})
+     \\
+     && \downarrow
+     \\
+     \mathbf{E}G_{conn} &\coloneqq & \mathbf{\Omega}(-,\mathfrak{g}) 
+     \\
+     \downarrow && \downarrow
+     \\
+     \mathbf{B}G_{conn} &\coloneqq &\mathbf{\Omega}(-,\mathfrak{g})//G
+  }
+$$
+
+(After forgetting the connection/form data this is just the [[universal principal bundle]] $\mathbf{E}G \to \mathbf{B}G$)
+
+The differential $k$-forms on a [[smooth groupoid]] $X$ are just homs $X \to \mathbf{\Omega}^k(-)$ into the sheaf of $k$-forms. (See at [[geometry of physics -- differential forms]]). These $\Omega^k(X)$ inherit the de Rham differential and hence form the de Rham complex of the stack. (Notice that this is very different from the hom of $X$ into a shift of the full de Rham complex regarded as a sheaf of complexes. The latter is instead a model for the real [[ordinary cohomology]] of $X$, see at _[[smooth infinity-groupoid -- structures]]_ for more on this).
+
+One finds ([Freed-Hopkins 13](#FreedHopkins13)) that the de Rham complex, in this sense, of $\mathbf{E}G_{conn}$ is the Weil algebra:
+
+$$
+  \Omega^\bullet(\mathbf{E}G_{conn})
+  \coloneqq
+  \Omega^\bullet( \mathbf{\Omega}(-,\mathfrak{g}) )
+  \simeq 
+  W(\mathfrak{g})
+  \,.
+$$
+
+
+[[!include Weil algebra abstractly -- table]]
+
+Turning this around, this motivates to algebraically _define_ the [[connection on a principal ∞-bundle]], [via Lie integration](connection+on+a+smooth+principal+infinity-bundle#ByLieIntegration), as discussed there.
+
 ### Relation to Cartan model for equivariant de Rham cohomology
 
 The Weil algebra may be identified with the 
@@ -819,8 +861,11 @@ A survey of Weil algebras for Lie algebras is also available at
 
 Weil algebra for [[L-infinity algebra]]s and their role in defining [[invariant polynomial]]s and [[Chern-Simons element]]s on $\infty$-Lie algebras from [[infinity-Lie algebra cohomology|L-infinity algebra cocycle]] are considered in
 
-* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _$L_{\infty}$ algebra connections and applications to String- and Chern-Simons $n$-transport_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSI">ref</a>)
-{#SSSI}
+* {#SSSI} [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _$L_{\infty}$ algebra connections and applications to String- and Chern-Simons $n$-transport_ (<a href="http://ncatlab.org/schreiber/show/differential+cohomology+in+an+(%E2%88%9E%2C1)-topos+--+references#SSSI">ref</a>)
+
+The abstract characterization is due to
+
+* {#FreedHopkins13} [[Daniel Freed]], [[Michael Hopkins]], _Chern-Weil forms and abstract homotopy theory_, Bull. Amer. Math. Soc. 50 (2013), 431-468 ([arXiv:1301.5959](http://arxiv.org/abs/1301.5959))
 
 
 [[!redirects Weil algebras]]
