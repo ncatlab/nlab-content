@@ -568,9 +568,9 @@ See [[model structure on monoids in a monoidal model category]].
 
 ## References 
 
-A general standard reference is
+A textbook references is
 
-* [[Mark Hovey]], _Model Categories_
+* [[Mark Hovey]], chapter 4 of _Model Categories_ Mathematical Surveys and Monographs, Volume 63, AMS (1999) ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/hovey-model-cats.pdf), [Google books](http://books.google.co.uk/books?id=Kfs4uuiTXN0C&printsec=frontcover))
 
 The monoidal structures for a [[symmetric monoidal smash product of spectra]] are due to 
 
