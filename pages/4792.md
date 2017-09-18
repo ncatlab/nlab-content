@@ -15,7 +15,30 @@
 
 ## Idea
 
-The __octonions__ form the largest of the four [[normed division algebra]]s, denoted $\mathbb{O}$.
+The __octonions__, usually denoted $\mathbb{O}$, form the largest of the four [[normed division algebras]] over the [[real numbers]].
+
+## Definition
+
++-- {: .num_defn}
+###### Definition
+
+The _octonions_ $\mathbb{O}$ is the [[nonassociative algebra]] over the [[real numbers]] which is [[generators and relations|generated]] from seven generators $\{e_1, \cdots, e_7\}$ subject to the [[generators and relations|relations]]
+
+1. for all $i$ 
+
+   $e_i^2 = -1$
+
+1. for $e_i \to e_j \to e_k$ an edge or circle in the following diagram (a labeled version of the [[Fano plane]]) the relations
+ 
+   1. $e_i e_j  = e_k$ 
+
+   1. $e_j e_i  = -e_k$
+
+<img src="https://ncatlab.org/nlab/files/OctonionMultiplicationTable.jpg" width="400" alt="octonion multiplication table">
+
+> (graphics grabbed from [Baez 02](#Baez02))
+
+=--
 
 ## Properties
 
@@ -61,7 +84,7 @@ The set of basic triples, def. \ref{BasicTriple}, forms a [[torsor]] over the [[
 
 =--
 
-(e.g. [Baez, 4.1](#Baez))
+(e.g. [Baez 02, 4.1](#Baez02))
 
 
 ## Related concepts
@@ -81,7 +104,7 @@ The set of basic triples, def. \ref{BasicTriple}, forms a [[torsor]] over the [[
 
 A survey is in
 
-* {#Baez} [[John Baez]], _The Octonions_ ([web](http://math.ucr.edu/home/baez/octonions/octonions.html)) 
+* {#Baez02} [[John Baez]], _The Octonions_,  Bull. Amer. Math. Soc. 39 (2002), 145-205. ([web](http://math.ucr.edu/home/baez/octonions/octonions.html)) 
 
 The concept of "special triples" or ("basic triples") used above seems to go back to 
 
