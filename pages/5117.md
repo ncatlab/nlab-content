@@ -46,6 +46,7 @@ An exposition is in
 
 * [[John Baez]], [Some definitions everyone should know](http://math.ucr.edu/home/baez/qg-fall2004/definitions.pdf).
 
+[[!redirects braided monoidal functors]]
 
 [[!redirects symmetric monoidal functor]]
 [[!redirects symmetric monoidal functors]]
