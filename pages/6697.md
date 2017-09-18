@@ -54,6 +54,8 @@ Asymptotically ant-de Sitter spaces play a central role in the realization of th
 
 * [[super anti de Sitter spacetime]]
 
+* [[near-horizon geometry]]
+
 ## References
 
 * Ingemar Bengtsson, _Anti-de Sitter space_ lecture notes ([pdf](http://www.physto.se/~ingemar/Kurs.pdf))
