@@ -198,6 +198,7 @@ Hence:
 
 [[countably compact metric spaces are equivalently compact metric spaces]]
 
+[[compact spaces equivalently have converging subnet of every net]]
 
 =--
 
