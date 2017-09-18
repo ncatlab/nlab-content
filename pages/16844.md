@@ -14,7 +14,7 @@
 
 ## Idea
 
-__Trigonometry__ is a geometric discipline which comprises the study of metric properties of [[triangles]] (measures of angles, sides and of various auxiliary segments and angles constructed from given triangle), usually on a euclidean or hyperbolic plane or on a unit sphere. Thus we distinguish the usual euclidean from spherical and hyperbolic trigonometry; there are also generalizations to trigonometry over other fields. 
+__Trigonometry__ is a geometric discipline which comprises the study of metric properties of [[triangles]] (measures of angles, sides and of various auxiliary segments and angles constructed from given triangle), usually on a euclidean or hyperbolic plane or on a [[unit sphere]]. Thus we distinguish the usual euclidean from spherical and hyperbolic trigonometry; there are also generalizations to trigonometry over other fields. 
 
 [[trigonometric function|Trigonometric functions]] for real values of argument can be defined in terms of trigonometry of unit triangle (triangle with one of the sides of unit length), where the argument is understood as an angle whose longer side is of unit length. Similarly for [[hyperbolic trigonometric functions]] which can be geometrically defined in terms of hyperbolic unit triangles. 
 
