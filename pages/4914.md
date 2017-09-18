@@ -73,7 +73,7 @@ There is a composite forgetful functor $U \colon E^C \to Cat(E)/C \to E/C_0$.  T
 
 ## Diagrams in an indexed category
 
-An internal diagram as above may take values in any [[Grothendieck fibration]] over $E$.  Given a fibration in the guise of an [[indexed category]] $F : S^{op} \to Cat$, a **$C$-diagram in $F$** is given by
+An internal diagram as above may take values in any [[Grothendieck fibration]] over $E$.  Given a fibration in the guise of an [[indexed category]] $F : E^{op} \to Cat$, a **$C$-diagram in $F$** is given by
 
 * an object $P \in F(C_0)$, together with
 * a morphism $\phi : s^* P \to t^* P$ in $F(C_1)$
