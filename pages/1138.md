@@ -162,7 +162,7 @@ The inverse image $f^{-1} : Sh(Y) \to Sh(X)$
 of sheaves has the following properties:
 
 * it is [[left adjoint]] to the [[direct image]]
-  $(f^{-1} \vdash f_*)$;
+  $(f^{-1} \dashv f_*)$;
 
 * it therefore commutes with small [[colimit]]s but is in addition left [[exact functor|exact]] in that it commutes with finite [[limit]]s.
 
