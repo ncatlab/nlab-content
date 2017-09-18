@@ -19,7 +19,31 @@
 
 ## Idea
 
-_Stereographic projection_ is the name for a specific [[chart]] on a [[sphere]] for the [[complement]] of a [[point]].
+_Stereographic projection_ is the name for a specific [[homeomorphism]] (for any $n \in \mathbb{N}$) from the [[Euclidean space]] $\mathbb{R}^n$ to the [[n-sphere]] $S^n$ with one point $p \in S^n$ removed
+
+$$
+  \mathbb{R}^n \simeq S^n \backslash p
+  \,.
+$$
+
+Namely one thinks of both the $n$-sphere as well as the Euclidean space $\mathbb{R}^n$ as [[topological subspaces]] of $\mathbb{R}^n$, such that they [[intersection|intersect]] at the [[equator]] of the sphere. Take then then point $p \in S^n$ to be one of the resulting "poles", hence a point on the sphere at maximal distance form the equatorial hyperplane. Then consider the relation
+
+"$x \in S^n \backslash p$ and $y \in \mathbb{R}^n$ sit on a straight line with the point $p$."
+
+This relation is the "stereographic projection". It establishes a [[bijection]] between $S^n \backslash p$ and $\mathbb{R}^n$. Inspection shows that this bijection is a [[homeomorphism]].
+
+If one applies stereographic projection to _both_ possible poles $p_+, p_- \in S^n$ of the sphere given a fixed equatorial plane, then one obtains two different [[homeomorphisms]]
+
+$$
+  \left\{
+     \mathbb{R}^n 
+       \underoverset{\simeq}{\phi_i}{\longrightarrow}
+     S^n\backslash \{p_i\}
+  \right\}_{i \in \{+,-\}}
+  \,.
+$$
+
+This constitutes an [[atlas]] that exhibits the [[n-sphere]] as a [[smooth manifold]]. 
 
 ## Definition
 
