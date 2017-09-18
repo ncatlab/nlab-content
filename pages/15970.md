@@ -8,9 +8,9 @@ _[AxiomsOfChoice.org](axiomsofchoice.org)_.
 
 ![From my Haskell code on catamorphisms on Wikipedia](http://i.imgur.com/MYeNCfv.png)
 
-[[BraidDiagramForHomologyOnTripled.jpg:file]]
-
 <img src="http://www.ncatlab.org/nlab/files/BraidDiagramForHomologyOnTripled.jpg" width="500">
+
+[[BraidDiagramForHomologyOnTripled.jpg:file]]
 
 +-- {: .query}
 [[Nikolaj Kuntner]]: how to do a query text
