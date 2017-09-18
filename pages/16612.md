@@ -1,0 +1,9 @@
+
+
+* [webpage](http://math.ucsd.edu/~jrabin/)
+
+## related $n$Lab entries
+
+* [[Green-Schwarz sigma model]]
+
+category: people
