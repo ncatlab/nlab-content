@@ -30,7 +30,7 @@ Let $R$ be a [[commutative ring]]. Let $S \hookrightarrow U(R)$ be a [[multiplic
 
 The following gives the [[universal property]] of the localization.
 
-+-- {: .num_defn }
++-- {: .num_defn #UniversalPropertyOfLocalizationOfARing}
 ###### Definition
 
 The **localization** $L_S \colon R \to R[S^{-1}]$ is a [[homomorphism]] to another commutative ring $R[S^{-1}]$ such that 
@@ -87,6 +87,8 @@ The [[Isbell duality|formal duals]] $Spec(R[S^{-1}]) \longrightarrow Spec(R)$ of
 * [[Cohn localization]]
 
 ## Related concepts
+
+* [[localization of an abelian group]]
 
 * [[localization of a module]]
 
