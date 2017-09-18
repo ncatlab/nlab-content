@@ -16,7 +16,7 @@
 
 ## Idea
 
-The concept of a **open subtopos** generalizes the concept of a open subspace from topology to toposes.
+The concept of an **open subtopos** generalizes the concept of an open subspace from topology to toposes.
 
 ## Definition
 
