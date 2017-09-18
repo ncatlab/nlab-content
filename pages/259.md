@@ -210,7 +210,7 @@ Survey includes
 
 * [[Emily Riehl]], _Categorical homotopy theory_, Lecture notes ([pdf](http://www.math.harvard.edu/~eriehl/266x/lectures.pdf))
 
-* {#Rezk16} [[Charles Rezk]], _Stuff about quasicategories_, 2016 ([pdf](http://math.uiuc.edu/~rezk/595-fal16/quasicats.pdf ))
+* {#Rezk16} [[Charles Rezk]], _Stuff about quasicategories_, Lecture Notes for course at University of Illinois at Urbana-Champaign, 2016, version May 2017,([pdf](http://math.uiuc.edu/~rezk/595-fal16/quasicats.pdf))
 
 An in-depth study of adjunctions between quasi-categories and the monadicity theorem is given in
 
