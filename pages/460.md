@@ -192,7 +192,7 @@ Let $\ast = (\{1\}, \tau_\ast = \left\{\emptyset, \{1\}\right\})$ be the [[point
 
 For $(X,\tau)$ a [[topological space]], then there is a [[bijection]] between 
 the [[irreducible closed subspaces]] of $(X,\tau)$ and the
-[[frame]] [[homomorphisms]] from $\tau_X$ to $\tau_\ast$.
+[[frame]] [[homomorphisms]] from $\tau_X$ to $\tau_\ast$, given bys
 
 $$
   \array{
@@ -406,6 +406,15 @@ which sends an element $x \in X$ to the function which assigns [[inverse images]
 
 To see that $s_X$ is continuous, observe that $s_X^{-1}(\tilde U) = U$, by construction.
 
+Observe that by lemma \ref{FrameHomomorphismsToPointAreIrrClSub} there is an identification $S X \simeq IrrClSub(X)$ and under this identification $s_X$ is identified with the map $x \mapsto Cl(\{x\})$. Hence $s_X$ is 
+
+* a monomorphism precisely if $X$ is $T_0$;
+
+* a bijection precisely if $X$ is sober. 
+
+Moreover, $S X$ is sober. ([Johnstone, lemma II.1.7](#Johnstone))
+
+
 
 
 ### Enough points
@@ -441,6 +450,8 @@ The following non-example shows that sobriety is not a hereditary separation pro
 
 
 ## References
+
+* {#Johnstone} [[Peter Johnstone]], section II.1, from II.1 on in _[[Stone Spaces]]_
 
 * {#MacLaneMoerdijk} [[Saunders MacLane]], [[Ieke Moerdijk]], around definition IX.3.2 in _[[Sheaves in Geometry and Logic]]_
 
