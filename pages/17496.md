@@ -1,4 +1,0 @@
-
-* [webpage](http://www.andrew.cmu.edu/user/ulrikb/)
-
-category: people
