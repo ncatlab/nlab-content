@@ -77,7 +77,7 @@ The case $(2,2)$ is the elementary theory of the 2-category of categories ([[ETC
 ## Todd Trimble's exposition of ETCS
  {#ExpositionByTrimble}
 
-[[Todd Trimble]] has a series of expositional writings on ETCS which provide a very careful introduction and at the same time a wealth of useful details.
+[[Todd Trimble]] has a series of expository writings on ETCS which provide a very careful introduction and at the same time a wealth of useful details.
 
 * Todd Trimble, _ZFC and ETCS: Elementary Theory of the Category of Sets_ ([[Trimble on ETCS I|nLab entry]],  [original blog entry](http://topologicalmusings.wordpress.com/2008/09/01/zfc-and-etcs-elementary-theory-of-the-category-of-sets/))
 
