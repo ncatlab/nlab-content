@@ -101,7 +101,7 @@ Let $(X, \mathcal{O}_{X})$ and $(Y, \mathcal{O}_{Y})$ be [[topological spaces]].
 +-- {: .num_prop}
 ###### Proposition 
 
-Let $(X, \mathcal{O}_{X})$ be a locally compact topological space, def. \ref{LocallyCompact}, and let $(Y, \mathcal{O}_{Y})$ be a [[topological space]]. The map $ev : X \times Y^{X} \rightarrow Y$ given by $(x,f) \mapsto f(x)$ is continuous, where $X \times Y^{X}$ is equipped with the product topology $\mathcal{O}_{X \times Y^{X}}$ with respect to $\mathcal{O}_{X}$ and $\mathcal{O}_{Y^{X}}$ (notation \ref{CompactOpenTopologyNotation}). 
+Let $(X, \mathcal{O}_{X})$ be a locally compact topological space, def. \ref{LocallyCompact}, and let $(Y, \mathcal{O}_{Y})$ be a [[topological space]]. The map $ev : X \times Y^{X} \rightarrow Y$ given by $(x,f) \mapsto f(x)$ is continuous, where $X \times Y^{X}$ is equipped with the [[product topology]] $\mathcal{O}_{X \times Y^{X}}$ with respect to $\mathcal{O}_{X}$ and $\mathcal{O}_{Y^{X}}$ (notation \ref{CompactOpenTopologyNotation}). 
 
 =--
 
@@ -127,7 +127,7 @@ By 3) and 4), we see that we can take $U'$ as the beginning of the proof to be $
 +-- {: .num_prop #alphafIsContinuous}
 ###### Proposition 
 
-Let $(X, \mathcal{O}_{X})$, $(Y, \mathcal{O}_{Y})$, and $(Z, \mathcal{O}_{Z})$ be [[topological spaces]]. Let $f : X \times Y \rightarrow Z$ be a continuous map, where $X \times Y$ is equipped with the product topology $\mathcal{O}_{X \times Y}$ with respect to $\mathcal{O}_{X}$ and $\mathcal{O}_{Y}$. Then the map $\alpha_{f} : X \rightarrow Z^{Y}$ given by $x \mapsto f_{x}$ is continuous, where $f_{x} : Y \rightarrow Z$ is given by $y \mapsto f(x,y)$, and where $Z^{Y}$ is equipped with the compact-open topology $\mathcal{O}_{Z^{Y}}$. 
+Let $(X, \mathcal{O}_{X})$, $(Y, \mathcal{O}_{Y})$, and $(Z, \mathcal{O}_{Z})$ be [[topological spaces]]. Let $f : X \times Y \rightarrow Z$ be a continuous map, where $X \times Y$ is equipped with the [[product topology]] $\mathcal{O}_{X \times Y}$ with respect to $\mathcal{O}_{X}$ and $\mathcal{O}_{Y}$. Then the map $\alpha_{f} : X \rightarrow Z^{Y}$ given by $x \mapsto f_{x}$ is continuous, where $f_{x} : Y \rightarrow Z$ is given by $y \mapsto f(x,y)$, and where $Z^{Y}$ is equipped with the compact-open topology $\mathcal{O}_{Z^{Y}}$. 
 
 =--
 
@@ -159,7 +159,7 @@ We conclude that we can take the required $U'$ of the beginning of the proof to 
 +-- {: .num_prop #alphainvfIsContinuous}
 ###### Proposition 
 
-Let $(X, \mathcal{O}_{X})$, $(Y, \mathcal{O}_{Y})$, and     $(Z, \mathcal{O}_{Z})$ be [[topological spaces]]. Suppose that $(X, \mathcal{O}_{X})$ is locally compact. Let $f : X \rightarrow Z^{Y}$ be a continuous map, where $Z^{Y}$ is equipped with the compact-open topology $\mathcal{O}_{Z^{Y}}$. Then the map $\alpha^{-1}_{f} : X \times Y \rightarrow Z$ given by $(x,y) \mapsto \big( f(x) \big)(y)$ is continuous, where $X \times Y$ is equipped with the product topology $\mathcal{O}_{X \times Y}$. 
+Let $(X, \mathcal{O}_{X})$, $(Y, \mathcal{O}_{Y})$, and     $(Z, \mathcal{O}_{Z})$ be [[topological spaces]]. Suppose that $(X, \mathcal{O}_{X})$ is locally compact. Let $f : X \rightarrow Z^{Y}$ be a continuous map, where $Z^{Y}$ is equipped with the compact-open topology $\mathcal{O}_{Z^{Y}}$. Then the map $\alpha^{-1}_{f} : X \times Y \rightarrow Z$ given by $(x,y) \mapsto \big( f(x) \big)(y)$ is continuous, where $X \times Y$ is equipped with the [[product topology]] $\mathcal{O}_{X \times Y}$. 
 
 =--
 
