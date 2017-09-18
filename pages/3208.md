@@ -105,7 +105,7 @@ There are many different kinds of "theory" depending on the strength of the "log
 
 * [[Horn theory]],  
 
-* [[essentially algebraic logic]], 
+* [[essentially algebraic theory]], 
 
 * [[geometric logic]], 
 
