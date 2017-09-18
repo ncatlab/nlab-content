@@ -449,7 +449,7 @@ We now end this introduction and overview and turn to the in-depth account of _g
 
 **I) Geometry**
 
-We begin by laying the foundations of [[differential geometry]]. Doing this in th natural abstract way seamlessly leads over to the foundations of [[higher differential geometry]] (see also _[[motivation for higher differential geometry]]_). Once this is set up, we discuss the fundamental constructions: [[groups]], [[actions]]/[[representations]], [[fiber bundles]], [[connection on a bundle|connections]], [[Chern-Weil theory]].
+We begin by laying the foundations of [[differential geometry]]. Doing this in the natural abstract way seamlessly leads over to the foundations of [[higher differential geometry]] (see also _[[motivation for higher differential geometry]]_). Once this is set up, we discuss the fundamental constructions: [[groups]], [[actions]]/[[representations]], [[fiber bundles]], [[connection on a bundle|connections]], [[Chern-Weil theory]].
 
 
 
