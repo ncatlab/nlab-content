@@ -105,6 +105,8 @@ Clicking and dragging is designed to work as if you were really 'touching' the s
 
 The most common move to perform is a basic interchanger, where two unrelated critical points with adjacent heights have their heights exchanged. Holding the Shift button while clicking-and-dragging tells _Globular_ to only look for basic interchanger moves. This speeds up the processing, and is particularly useful for applying long chains of interchangers.
 
+In order to undo any change then click the back button in your browser. This feels very counter-intuitive but trust me it works!
+
 ### Changing the view ###
 {#changingtheview}
 
