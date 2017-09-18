@@ -1,16 +1,5 @@
 
-$$
-\array{
-  \text{symmetry of worldsheet theory}
-  \\
-  \array{
-    && \Sigma
-    \\
-    & {}^{\mathllap{\phi}}\swarrow && \searrow^{\mathrlap{\phi'}}
-    \\
-    X &&\underset{\simeq}{\longrightarrow}&& X
-  }
-  \\
-  \text{super-isometry of target spacetime}
-}
-$$
+|   | intersecting branes | charges in [[generalized cohomology theory]]
+|-----|--------------|----------------------|
+| [[string theory]] | [[F1-brane|F1]]/[[D-brane|Dp-branes]] | [[twisted K-theory]] |
+| [[M-theory]]  | [[M2-brane|M2]]/[[M5-branes]] | ??? |
