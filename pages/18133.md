@@ -1,0 +1,30 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Analysis
++-- {: .hide}
+[[!include analysis - contents]]
+=--
+=--
+=--
+
+## Idea
+
+The formulation of [[analysis]] using explicit [[infinitesimal objects]] is sometimes called _infinitesimal analysis_, in contrast to [[epsilontic analysis]].
+
+Formalisms that make infinitesimal analysis precise include
+
+* [[synthetic differential geometry]]
+
+* [[nonstandard analysis]]
+
+## References
+
+* [[Augustin Cauchy]], _[[Cours d'Analyse]]_ (1821)
+
+
+
+category: reference
+
+
