@@ -75,13 +75,16 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 
 * [[simply-connected space]], [[locally simply-connected space]]
 
+* [[cell complex]], [[CW-complex]]
+
 * [[topological vector space]], [[Banach space]], [[Hilbert space]]
 
 * [[topological group]]
 
+* [[topological vector bundle]]
+
 * [[topological manifold]]
 
-* [[cell complex]], [[CW-complex]]
 
 **Examples**
 
