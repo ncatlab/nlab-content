@@ -78,7 +78,7 @@ By the way, every time you edit this page, you wreck the links to external web p
 
 ### Definition
 
-For $S$ a [[set]], write ${|S|}$ for its cardinality. Then the standard operations in the [[category]] [[Set]] induce arithmetic operations on cardinal numbers:
+For $S$ a [[set]], write ${|S|}$ for its cardinality. Then the standard operations in the [[category]] [[Set]] induce [[arithmetic]] operations on cardinal numbers ("[[cardinal arithmetic]]"):
 
 For $S_1$ and $S_2$ two sets, the **sum** of their cardinalities is the cardinality of their [[disjoint union]], the [[coproduct]] in $Set$:
 $$
