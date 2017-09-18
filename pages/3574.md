@@ -23,7 +23,7 @@ Given any central element $x\in Z(R)$, one can define a two term complex
 
 $$ K(x) = (0\to R\stackrel{x}\to R\to 0) $$
 
-concentrated in degrees $1$ and $2$, where the map is the left multiplication by $x$. Given a sequence $(x_1,\ldots,x_r)$ of central elements in $R$ one can define the tensor product 
+concentrated in degrees $0$ and $1$, where the map is the left multiplication by $x$. Given a sequence $(x_1,\ldots,x_r)$ of central elements in $R$ one can define the tensor product 
 
 $$K(x_1,\ldots,x_r) = K(x_1)\otimes_R K(x_2)\otimes_R\cdots \otimes_R K(x_r) $$
 
