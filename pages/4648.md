@@ -227,6 +227,11 @@ and discussed in the bigger picture of [[S-duality]] arising as the conformal in
 
 * {#Witten09} [[Edward Witten]], _Geometric Langlands From Six Dimensions_, in Peter Kotiuga (ed.) _A Celebration of the Mathematical Legacy of Raoul Bott_, AMS 2010 ([arXiv:0905.2720](http://arxiv.org/abs/0905.2720))
 
+Reflections on the history (and possible future) of this insight are in
+
+* interview with [[Edward Witten]] by [[Hirosi Ooguri]], 2014 ([pdf](http://www.ams.org/notices/201505/rnoti-p491.pdf))
+
+
 An exposition of the relation to [[S-duality]] and [[electro-magnetic duality]] is in ([Frenkel 09](#Frenkel09)) and in
 
 * [[Edward Frenkel]],  _What Do Fermat's Last Theorem and Electro-magnetic Duality Have in Common?_ KITP talk 2011 ([web](http://online.kitp.ucsb.edu/online/bblunch/frenkel/))
