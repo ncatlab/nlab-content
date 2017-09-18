@@ -5852,9 +5852,9 @@ $$
     &
     \\
     &
-    Hom_{Top}(Y, X_1 \times X_2)
+    Hom(Y, X_1 \times X_2)
       &\simeq&
-    Hom_{Top}(Y,X_1) \times Hom_{Top}(Y, X_2)
+    Hom(Y,X_1) \times Hom(Y, X_2)
   }
   \,.
 $$
@@ -5916,9 +5916,9 @@ $$
     \text{i.e.:}
     \\
     &
-    Hom_{Top}(X_1 \times X_2, Y)
+    Hom(X_1 \times X_2, Y)
       &\simeq&
-    Hom_{Top}(X_1, Y) \times Hom_{Top}(X_2, Y)
+    Hom(X_1, Y) \times Hom(X_2, Y)
   }
   \,.
 $$
@@ -6039,10 +6039,10 @@ $\,$
 
 A _[[free diagram]]_ $X_\bullet$ of [[sets]] or of [[topological spaces]] is
 
-1. a [[set]] $\{ X_i \}_{i \in I}$ of [[sets]] or [[topological spaces]];
+1. a [[set]] $\{ X_i \}_{i \in I}$ of [[sets]] or of [[topological spaces]], respectively;
 
 1. for every [[pair]] $(i,j) \in I \times I$ of labels, a [[set]]
-   $\{ X_i \overset{ f_\alpha }{\longrightarrow} X_j\}_{\alpha \in I_{i,j}}$ of [[functions]] or [[continuous functions]] between these.
+   $\{ X_i \overset{ f_\alpha }{\longrightarrow} X_j\}_{\alpha \in I_{i,j}}$ of [[functions]] or [[continuous functions]], respectively, between these.
 
 =--
 
@@ -6376,7 +6376,7 @@ $$
 
 Then
 
-1. its _[[limit|limiting cone]]_ (or just _[[limit]]_ for short) is, if it exists,
+1. its _[[limit|limiting cone]]_ (or just _[[limit]]_ for short) is
    [[generalized the|the]] [[cone]]
 
    $$
@@ -6410,7 +6410,7 @@ Then
      \right\}
    $$
 
-   any other [[cone]], then there is a unique continuous function
+   any other [[cone]], then there is a unique function or continuous function, respectively
 
    $$
      \phi \;\colon\; \tilde X \overset{}{\longrightarrow} \underset{\longrightarrow}{\lim}_i X_i
@@ -6436,7 +6436,7 @@ Then
      }
    $$
 
-1. its _[[colimit|colimiting cocone]]_ (or just _[[colimit]]_ for short) is, if it exists,
+1. its _[[colimit|colimiting cocone]]_ (or just _[[colimit]]_ for short) is
    [[generalized the|the]] [[cocone]]
 
    $$
@@ -6471,7 +6471,7 @@ Then
      \right\}
    $$
 
-   any other [[cocone]], then there is a unique continuous function
+   any other [[cocone]], then there is a unique function or continuous function, respectively
 
    $$
      \phi \;\colon\;  \underset{\longrightarrow}{\lim}_i X_i \overset{}{\longrightarrow} \tilde X
@@ -6511,17 +6511,17 @@ Here is a more explicit description
 **([limits and colimits of sets](limits+and+colimits+by+example#limcoliminset))**
 
 Let $\left\{ X_i \overset{f_\alpha}{\longrightarrow} X_j \right\}_{i,j \in I, \alpha \in I_{i,j}}$
-be a [[free diagram]] (def. \ref{Diagram}) of sets (i.e. of [[discrete topological spaces]]). Then
+be a [[free diagram]] of sets  (def. \ref{Diagram}). Then
 
-1. its [[limit|limit cone]] (def. \ref{LimitingCone}) exists and is given by 
-   (the [[discrete topological space]] on) the following [[subset]] of the [[Cartesian product]]
-   $\underset{i \in I}{\times} X_i$
+1. its [[limit|limit cone]] (def. \ref{LimitingCone}) is given by 
+   the following [[subset]] of the [[Cartesian product]]
+   $\underset{i \in I}{\prod} X_i$
    of all the [[sets]] $X_i$ appearing in the diagram
 
    $$
      \underset{\longleftarrow}{\lim}_i X_i
      \,\overset{\phantom{AAA}}{\hookrightarrow}\,
-     \underset{i \in I}{\times} X_i
+     \underset{i \in I}{\prod} X_i
    $$
 
    on those [[tuples]] of elements which match the [[graphs]] of the functions appearing in the diagram:
@@ -6530,7 +6530,7 @@ be a [[free diagram]] (def. \ref{Diagram}) of sets (i.e. of [[discrete topologic
      \underset{\longleftarrow}{\lim}_{i} X_i
      \;\simeq\;
      \left\{
-       (x_i)_{i \in I} \in \underset{i \in I}{\times} X_i
+       (x_i)_{i \in I} \in \underset{i \in I}{\prod} X_i
        \,\vert\,
        \underset{ {i,j \in I} \atop { \alpha \in I_{i,j} } }{\forall}
        \left(
@@ -6579,9 +6579,21 @@ of underlying sets, and then equipping the result with a topology as follows:
 
 Let $\{X_i = (S_i,\tau_i) \in Top\}_{i \in I}$ be a [[class]] of [[topological spaces]], and let $S \in Set$ be a bare [[set]]. Then
 
-* For $\{S \stackrel{f_i}{\to} S_i \}_{i \in I}$ a set of [[functions]] out of $S$, the _[[initial topology]]_ $\tau_{initial}(\{f_i\}_{i \in I})$ is the topology on $S$ with the [[minimum]] collection of [[open subsets]] such that all $f_i \colon (S,\tau_{initial}(\{f_i\}_{i \in I}))\to X_i$ are [[continuous function|continuous]].
+* For 
 
-* For $\{S_i \stackrel{f_i}{\to} S\}_{i \in I}$ a set of [[functions]] into $S$, the _[[final topology]]_ $\tau_{final}(\{f_i\}_{i \in I})$ is the topology on $S$ with the [[maximum]] collection of [[open subsets]] such that all $f_i \colon X_i \to (S,\tau_{final}(\{f_i\}_{i \in I}))$ are [[continuous function|continuous]].
+  $$
+    \{S \overset{\phantom{AA}f_i\phantom{AA}}{\longrightarrow} S_i \}_{i \in I}
+  $$
+  
+  a set of [[functions]] out of $S$, the _[[initial topology]]_ $\tau_{initial}(\{f_i\}_{i \in I})$ is the topology on $S$ with the [[minimum]] collection of [[open subsets]] such that all $f_i \colon (S,\tau_{initial}(\{f_i\}_{i \in I})) \longrightarrow X_i$ are [[continuous function|continuous]].
+
+* For 
+
+  $$
+    \{S_i \overset{\phantom{AA}f_i\phantom{AA}}{\longrightarrow} S\}_{i \in I}
+  $$
+  
+  a set of [[functions]] into $S$, the _[[final topology]]_ $\tau_{final}(\{f_i\}_{i \in I})$ is the topology on $S$ with the [[maximum]] collection of [[open subsets]] such that all $f_i \colon X_i \longrightarrow (S,\tau_{final}(\{f_i\}_{i \in I}))$ are [[continuous function|continuous]].
 
 Other terminology used is shown in this table:
 
@@ -6628,15 +6640,19 @@ Now we have all the ingredients to compute limits and colimits of diagrams of to
 ###### Proposition
 **([limits and colimits of topological spaces](limits+and+colimits+by+example#OfTopologicalSpaces))**
 
-Let
+Let 
 
 $$
-  X_\bullet \;\colon\; \mathcal{I} \longrightarrow Top
+  \left\{ X_i \overset{\phantom{AA}f_\alpha \phantom{AA}}{\longrightarrow} \right\}_{i,j \in I, \alpha \in I_{i,j}}
 $$
 
-be a [[diagram]] of [[topological spaces]] (def. \ref{Diagram}, using the notation from remark \ref{FunctorialDefinitionOfDiagrams}).
+be a [[free diagram]] of [[topological spaces]] (def. \ref{Diagram}.
 
-1. The [[limit]] of $X_\bullet$ exists and is given by [[generalized the|the]] topological space whose underlying set is [[generalized the|the]] limit in [[Set]] of the underlying sets in the diagram, and whose topology is the [[initial topology]], def. \ref{InitialAndFinalTopologies}, for the functions $p_i$ which are the limiting [[cone]] components:
+1. The [[limit]] over this free diagram (def. \ref{of sets }) is given by [[generalized the|the]] topological space 
+
+   1. whose underlying set is [[generalized the|the]] limit of the underlying sets according to prop. \ref{SetLimits} 
+   
+   1. whose topology is the [[initial topology]], def. \ref{InitialAndFinalTopologies}, for the functions $p_i$ which are the limiting [[cone]] components:
 
    $$
      \array{
@@ -6657,7 +6673,11 @@ be a [[diagram]] of [[topological spaces]] (def. \ref{Diagram}, using the notati
      \left(\underset{\longleftarrow}{\lim}_{i \in I} S_i,\; \tau_{initial}(\{p_i\}_{i \in I})\right)
    $$
 
-1. The [[colimit]] of $X_\bullet$ exists and is the topological space whose underlying set is the colimit in [[Set]] of the underlying diagram of sets, and whose topology is the [[final topology]], def. \ref{InitialAndFinalTopologies} for the component maps $\iota_i$ of the colimiting [[cocone]]
+1. The [[colimit]] over the free diagram (def. \ref{LimitingCone}) is [[generalized the|the]] topological space 
+
+   1. whose underlying set is the colimit of sets of the underlying diagram of sets according to prop. \ref{SetLimits}, 
+   
+   1. whose topology is the [[final topology]], def. \ref{InitialAndFinalTopologies} for the component maps $\iota_i$ of the colimiting [[cocone]]
 
    $$
      \array{
