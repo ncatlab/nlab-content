@@ -57,7 +57,7 @@ $$
   }
 $$
 
-The group $ESp(V,\omega)$ is that of those [[quantomorphisms]] which come from [[Hamiltonians]] that are [[polynomials]] of degree-2 in canonical [[coordinates]] on $V$. Those elements covering elements in the [[symplectic group]] instead of the [[affine symplectic group]] come from homogeneous quadratic Hamiltonians. (e.g. [Robbin-Salamon 93, prop. 10.1](#RobbinSalamon93)). In fact $ESp$ is the [[semidirect product]] of the [[metaplectic group]] $Mp(V,\omega)$ with the [[Heisenberg group]] ([ARZ 06, prop. V.1](#ARZ06))
+The group $ESp(V,\omega)$ is that of those [[quantomorphisms]] which come from [[Hamiltonians]] that [[quadratic Hamiltonians]]. Those elements covering elements in the [[symplectic group]] instead of the [[affine symplectic group]] come from [[homogeneously quadratic Hamiltonians]] (e.g. [Robbin-Salamon 93, prop. 10.1](#RobbinSalamon93)). In fact $ESp$ is the [[semidirect product]] of the [[metaplectic group]] $Mp(V,\omega)$ with the [[Heisenberg group]] ([ARZ 06, prop. V.1](#ARZ06))
 
 $$
   ESp(V,\omega) \simeq Heis(V,\omega) \rtimes Mp(V,\omega)
