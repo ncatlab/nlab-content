@@ -578,7 +578,7 @@ $$
   }
 $$
 
-is a [[micorcausal functional]] (def. \ref{MicrocausalFunctionals}).
+is a [[microcausal functional]] (def. \ref{MicrocausalFunctionals}).
 
 If here we think of $\phi(x)^n$ as a point-[[interaction]] term (as for instance in [[phi^4 theory]]) then $g$ is to be thought of as an "[[adiabatic switching|adiabatically switched]]" [[coupling constant]]. These are the relevant interaction terms to be quantized via [[causal perturbation theory]].
 
@@ -587,7 +587,7 @@ If here we think of $\phi(x)^n$ as a point-[[interaction]] term (as for instance
 +-- {: .proof}
 ###### Proof
 
-For notational convenience, consider the case $n = 2$ (the other cases are directly analogous). The distribution in question is the [[delta distribution]]
+For notational convenience, consider the case $n = 2$, the other cases are directly analogous. The distribution in question is the [[delta distribution]]
 
 $$
   \int_X g(x) \phi(x)^2 dvol(x)
@@ -598,17 +598,22 @@ $$
   \,.
 $$
 
-Now for $(x_1, x_2) \in X \times X$ and $\mathbb{R}^{2n} \simeq U \subset X \times X$ a [[chart]] around this  the [[Fourier transform]] of $g \cdot \delta(-,-)$ restricted to this chart is proportional to 
+Now for $(x_1, x_2) \in X \times X$ and $\mathbb{R}^{2n} \simeq U \subset X \times X$ a [[chart]] around this point,  the [[Fourier transform]] of $g \cdot \delta(-,-)$ restricted to this chart is proportional to the Fourier transform $\hat g$ of $g$ evaluated at the sum of the two covectors:
 
 $$
   \begin{aligned}
     (k_1, k_2) 
       & \mapsto 
-     \int g(x_1) \delta(x_1, x_2) \exp( k_1 \cdot x_1 + k_2 \cdot x_2 ) dvol(x_1) dvol(x_2)
+     \int_{\mathbb{R}^{2n}} g(x_1) \delta(x_1, x_2) \exp( k_1 \cdot x_1 + k_2 \cdot x_2 ) dvol(x_1) dvol(x_2)
     \\
-    ...
+    & \propto \hat g(k_1 + k_2)
    \end{aligned}
+  \,.
 $$
+
+Since $g$ is a plain [[bump function]], its Fourier transform $\hat g$ is quickly decaying (in the sense of wave front sets)  with $k_1 + k_2$ ([this prop.](wavefront+set#EmptyWaveFronSetCorrespondsToOrdinaryFunction)). Thus only on the cone $k_1 + k_2 = 0$ that function is in fact constant and in particular not decaying. 
+
+This means that the wave front set consists of the element of the form $(x, (k, -k))$ with $k \neq 0$. Since $k$ and $-k$ are both in the [[future cone]] or both in the past cone precisely if $k = 0$, this situation is excluded in the wave front set and hence the distribution $g \cdot \delta(-,-)$ is microcausal.
 
 =--
 
