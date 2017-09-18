@@ -59,7 +59,7 @@ $$
 The [[hard Lefschetz theorem]] then implies the follows [[isomorphism]], which is the **Lefschetz decomposition**
 
 $$
-  H^{k}(X,\mathbb{C})
+  H^{d}(X,\mathbb{C})
   \simeq
   \underset{k}{\oplus}
   L^k P^{d-2k}(X)
