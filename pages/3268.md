@@ -8,3 +8,5 @@
 * [[stable homotopy theory]]
 
 category: people
+
+[[!redirects N. P. Strickland]]
