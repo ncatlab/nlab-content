@@ -83,7 +83,7 @@ for $U$ the universal model and $f^*$ the [[left adjoint]] part of a [[geometric
 
 More specifically, for any [[cartesian theory]], [[regular theory]] or [[coherent theory]] $\mathbb{T}$ (which in ascending order are special cases of each other and all of geometric theories), the corresponding [[syntactic category]] $\mathcal{C}_{\mathbb{T}}$ comes equipped with the structure of a [[syntactic site]] $(\mathcal{C},\mathbb{T}, J)$ (see there) and the classifying topos for $\mathbb{T}$ is the [[sheaf topos]] $Sh(\mathcal{C}_{\mathbb{T}}, J)$.
 
-Classifying toposes can also be defined over any [[base topos]] $S$ instead of [[Set]].  In that case "Grothendieck topos" is replaced by "bounded $S$-topos."
+Classifying toposes can also be defined over any [[base topos]] $S$ instead of [[Set]].  In that case "Grothendieck topos" is replaced by "[[bounded topos|bounded]] $S$-topos."
 
 If the classifying topos of a geometric theory $T$ is a [[presheaf topos]], one called $T$ a _[[theory of presheaf type]]_.
 
