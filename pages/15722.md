@@ -1,15 +1,86 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Riemannian geometry
++--{: .hide}
+[[!include Riemannian geometry - contents]]
+=--
+=--
+=--
+
+> under construction
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-Motivated by the resemblance of the [[Selberg trace formula]] to Weil's formula for the sum of zeros of the [[Riemann zeta function]], ([Selberg 56](#Selberg56)) defined for any compact hyperbolic [[Riemann surface]] a [[zeta function]]-like expression, the _[[Selberg zeta function of a Riemann surface]]_. (e.g. [Bump, below theorem 19](#Bump)).
+Motivated by the resemblance of the [[Selberg trace formula]] to Weil's formula for the sum of zeros of the [[Riemann zeta function]], ([Selberg 56](#Selberg56)) defined for any compact hyperbolic [[Riemann surface]] a [[zeta function]]-like expression, the _[[Selberg zeta function of a Riemann surface]]_. (e.g. [Bump, below theorem 19](#Bump)). There is also a Selberg zeta function for odd-dimensional manifolds "of odd type" ([Millson 78](#Millson78), [Bunke-Olbrich 94a, prop. 4.5](#BunkeOlbrich94a)).
+
+## Definition
+
+### For even-dimensional manifolds
 
 (...)
 
-There is also a Selberg zeta function for odd-dimensional manifolds "of odd type" ([Millson 78](#Millson78)).
+### For odd-dimensional manifolds
+
+Let 
+
+* $n \in \mathbb{N}$, $n \geq 1$;
+
+* $G = SO(n,1)$ the [[Lorentz group]] or $G = Spin(n,1)$ its [[spin group]];
+
+* $K = SO(n)$ the [[special orthogonal group]] or $K = Spin(n)$ the [[spin group]];
+
+* $K \hookrightarrow G$ the canonical inclusion, exhibiting a [[maximal compact subgroup]];
+
+* $G = K A N$ an [[Iwasawa decomposition]];
+
+* $\Gamma \hookrightarrow G$ a [[discrete group|discrete]] [[subgroup]];
+
+* $E$ a [[complex vector space|complex]] [[finite dimensional vector space]] 
+
+* $\chi colon \Gamma \to U(E)$ a [[unitary representation]] of $\Gamma$.
+
+Then the [[quotient]]
+
+$$
+  X \coloneqq \Gamma \backslash G / K
+$$
+
+is a [[hyperbolic manifold]] of odd [[dimension]] with [[fundamental group]] being $\pi_1(X) \simeq \Gamma$. Accordingly the representation $\chi$ is equivalently a [[flat vector bundle]] on $X$.
+
+Write $Conj(\Gamma)$ for the set of [[conjugacy classes]] of $\Gamma$ and write
+
+$$
+  Prim(\Gamma) \hookrightarrow Conj(\Gamma)
+$$
+
+for the [[subset]] of elements $[g]$ for which $n_\Gamma(g) = 1$. Regarded as elements of the [[fundamental group]] as above, these elements correspond to paths which are [[prime geodesics]] in $X$.
+
+**Definition**
+
+The _Selnerg zeta function_ $\zeta_\chi$ of this data is defined for $Re(s)\gt (n-1)/2$ to be the [[infinite product]]
+
+$$
+  \zeta_\chi(s)
+  \underset{{[g] \in Prim(\Gamma)} \atop {[g] \neq 1}}{\prod}
+  \;
+  \underoverset{k = 0}{\infty}{\prod} 
+  \det\left(
+    1 - 
+    e^{-(\rho + s)l(g)}
+    S^k(Ad(g)^{-1}_{\mathbf{n}})
+    \sigma(m)
+    \;
+    \chi(g)
+  \right)
+$$
+
+(...) ([BunkeOlbrich 94a, def. 4.1](#BunkeOlbrich94a))
 
 ## Properties
 
@@ -18,9 +89,9 @@ There is also a Selberg zeta function for odd-dimensional manifolds "of odd type
 
 That the Selberg/Ruelle zeta function is equivalently an [[Euler product]] of [[characteristic polynomials]] is due to ([Gangolli 77, (2.72)](#Gangolli77) [Fried 86, prop. 5](#Fried86)).
 
-That it is in particular the Euler product of characteristic polynomials of the [[monodromies]]/[[holonomies]] of the [[flat connection]] corresponding to the given [[group representation]] is ([Bunke-Olbrich 94, prop. 6.3](#BunkeOlbrich94)) for the even-dimensional case and ([Bunke-Olbrich 94a, def. 4.1](#BunkeOlbrich94a)) for the odd-dimensional case.
+That it is in particular the Euler product of characteristic polynomials of the [[determinants]] of the [[monodromies]] of the [[flat connection]] corresponding to the given [[group representation]] is ([Bunke-Olbrich 94, prop. 6.3](#BunkeOlbrich94)) for the even-dimensional case and ([Bunke-Olbrich 94a, def. 4.1](#BunkeOlbrich94a)) for the odd-dimensional case. This is [[analogy|analogous]] to the standard definition of an [[Artin L-function]] if one interprets a) a [[Frobenius map]] $Frob_p$ (as discussed there) as an element of the arithmetic fundamental group of an [[arithmetic curve]] and b) a [[Galois representation]] as a [[flat connection]].
 
-Notice that this is analogous to the standard definition of an [[Artin L-function]] if one interprets a) a [[Frobenius map]] $Frob_p$ (as discussed there) as an element of the arithmetic fundamental group of an [[arithmetic curve]] and b) a [[Galois representation]] as a [[flat connection]].
+So under this analogy both the Selberg zeta function for hyperbolic 3-manifolds as well as the [[Artin L-function]] for a [[number field]] both are like an [[infinite product]] over primes ([[prime geodesics]] on one case, [[prime ideals]] in the other) of determinants of monodromies of the given flat connection.
 
 ### Relation to the eta-function
  {#RelationToTheEtaFunction}
@@ -32,6 +103,10 @@ $$
 $$
 
 ([Millson 78](#Millson78), [Bunke-Olbrich 94a, prop. 4.5](#BunkeOlbrich94a), [Park 01, theorem 1.2](#Park01), [Guillarmou-Moroianu-Park 09](#GuillarmouMoroianuPark09)). 
+
+### Relation to prime geodesic asymptotics
+
+The Selberg zeta function controls the [[asymptotics]] of [[prime geodesics]] via the [[prime geodesic theorem]] in direct [[analogy]] to how the [[Riemann zeta function]] controls the asymptotics of [[prime numbers]] via the [[prime number theorem]].
 
 ## Related concepts
 
