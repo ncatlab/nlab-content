@@ -1,1 +1,13 @@
-cannot see any $\TeX$ here, so testing $x^2$
+$$
+  \array{
+    \ast &\longrightarrow& X \sqcup \ast &\overset{(f,id)}{\longrightarrow}& Y \sqcup \ast
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    X \sqcup\ast &\longrightarrow& (X \times I) \sqcup \ast
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    \ast &\longrightarrow& &\longrightarrow& Cone(f_+)  
+  }
+$$
