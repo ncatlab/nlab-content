@@ -294,15 +294,18 @@ Modern accounts of ([[equivariant elliptic cohomology|equivariant]]) elliptic co
 
 Further discussion of [[equivariant elliptic cohomology]] and the relation to [[loop group]] [[representation theory]] is in 
 
-* [[Nora Ganter]], _The elliptic Weyl character formula_ ([arXiv:1206.0528](http://arxiv.org/abs/1206.0528))
- {#Ganter12}
+* {#Ganter12} [[Nora Ganter]], _The elliptic Weyl character formula_ ([arXiv:1206.0528](http://arxiv.org/abs/1206.0528))
+ 
+Surveys include
 
+* [[Charles Rezk]], _Elliptic cohomology and elliptic curves_, Felix Klein Lectures, Bonn  2015 ([web](http://www.hcm.uni-bonn.de/fkl-rezk/))
 
 Discussion of generalization to higher [[chromatic homotopy theory]] is discussed in
 
 * [[Douglas Ravenel]], _Toward higher chromatic analogs of elliptic cohomology_ [pdf](http://www.math.rochester.edu/people/faculty/doug/mypapers/high1.pdf)
 
 * [[Douglas Ravenel]], _Toward higher chromatic analogs of elliptic cohomology II_, Homology, Homotopy and Applications, vol. 10(1), 2008, pp.1{36 ([pdf](http://www.math.rochester.edu/people/faculty/doug/mypapers/high2.pdf), [pdf slides](http://www.math.rochester.edu/people/faculty/doug/mypapers/halifax.pdf))
+
 
 
 ### Relation to quantum field theory
