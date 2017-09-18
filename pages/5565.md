@@ -16,7 +16,7 @@
 
 ## Idea
 
-The _natural_ [[model category]] structure on the 1-[[category]] of [[groupoid]]s and [[functor]]s is a presentation of the [[(2,1)-category]] of [[groupoid]]s, [[functor]]s and [[natural isomorphism]]s.
+The [[canonical model structure]] on the 1-[[category]] of [[groupoids]] and [[functors]] is a presentation of the [[(2,1)-category]] of [[groupoids]], [[functor]]s and [[natural isomorphisms]].
 
 This is one flavor of the various [[natural model structure]]s on categories and higher categories.
 
@@ -94,6 +94,8 @@ and $Grpd_{nat}$ is the [[transferred model structure]] obtained from $sSet_{Qui
 
 ## Related concepts
 
+* [[canonical model structure]]
+
 * [[canonical model structure on Cat]]
 
 * **canonical model structure on $Grpd$**
@@ -109,8 +111,7 @@ and $Grpd_{nat}$ is the [[transferred model structure]] obtained from $sSet_{Qui
 
 This model category structure appears originally in
 
-* D.W. Anderson, _Fibrations and Geometric Realizations_ , Bull. Am. Math Soc. 84, 765-786, (1978), 765-786.
-{#Anderson}
+* {#Anderson78} D.W. Anderson, _Fibrations and Geometric Realizations_ , Bull. Am. Math Soc. 84, 765-786, (1978), 765-786.
 
 and
 
@@ -128,3 +129,6 @@ The model structure on functors with values in $Grpd_{nat}$ (a [[model structure
 {#Hollander}
 
 [[!redirects natural model structure on groupoids]]
+
+
+[[!redirects canonical model structure on Grpd]]
