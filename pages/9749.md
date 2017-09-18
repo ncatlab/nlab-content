@@ -101,7 +101,7 @@ There is a [[monad]] on $MeasureSpaces$, $1 + -: Meas \to Meas$. A probability m
 A categorical approach to probability was developed by  Giry's supervisor [[Bill Lawvere]] in an unpublished manuscript in 1962 which already points out the adjunction structure:
 
 *W. Lawvere, _The category of probabilistic mappings_, ms. 12 pages, 1962 
-([pdf-scans](http://conceptualmathematics.files.wordpress.com/2013/02/lawvereprobability1962.pdf))
+([[lawvereprobability1962.pdf:file]])
 
 ' The key idea ... is that
 random maps between spaces are just maps in a category of convex spaces
