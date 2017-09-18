@@ -79,7 +79,7 @@ The [[adjunction]] of prop. \ref{TheCETangentAdjunction} constitutes a  [[Quille
 
 =--
 
-This is ([Hinich98, theore, 3.2](#Hinich98)).
+This is ([Hinich98, theorem 3.2](#Hinich98)).
 
 
 ## Related concepts
