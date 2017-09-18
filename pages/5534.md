@@ -36,7 +36,7 @@ $$
   \,.
 $$
 
-+-- {: .num_example}
++-- {: .num_example #RealLineExhibitsSmoothCohesion}
 ###### Example
 
 In the [[model]] of [[cohesive homotopy type theory]] called [[Smooth∞Grpd]] we have a [[full and faithful functor|full and faithful]] embedding of [[smooth manifolds]]. Therefore we can embed the [[integers]] $\mathbb{Z}$, the [[rational numbers]] $\mathbb{Q}$ as well as the [[real numbers]] $\mathbb{R}$, all equipped with their canonical [[smooth manifold]] structure. This is [[discrete object|discrete]] for the first two, but not for the last one, and homotopy cohesion can detect this:
@@ -66,6 +66,15 @@ $$
   \mathbf{\Pi}(\mathbb{C}) \simeq *
   \,.
 $$
+
+But the [[real line]] in fact "exhibits the cohesion" (in the sense of [this definition](cohesive+%28infinity%2C1%29-topos#A1ExhibitingCohesion) by [this discussion](cohesive+%28infinity%2C1%29-topos+--+structures#RealLineIsTheContinuum)) in that the [[shape modality]] $\Pi$ is equivalent to [[localization of an (infinity,1)-category|localization]] at $(-) \times \mathbb{R}^1 \longrightarrow (-)$
+
+$$
+  \Pi \simeq L_{\mathbb{R}^1}
+  \,.
+$$
+
+This is not true in smooth cohesion for $\mathbb{R}^1$ replaced by $\mathbb{C}^1$ and in this sense $\mathbb{R}^1$ is "the real continuum" here (in both sense of the word "real").
 
 =--
 
