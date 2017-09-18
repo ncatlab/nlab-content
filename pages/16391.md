@@ -3,3 +3,6 @@
 ## References
 
 * {#Nahm78} [[Werner Nahm]], _[[Supersymmetries and their Representations]]_, Nucl.Phys. B135 (1978) 149 ([spire](https://inspirehep.net/record/120988/), [pdf](http://cds.cern.ch/record/132743/files/197709213.pdf))
+
+
+* [[Andree Lischewski]], _Conformal superalgebras via tractor calculus_, Class.Quant.Grav. 32 (2015) 015020 ([spire](https://inspirehep.net/record/1334198), [arXiv:1408.2238](http://arxiv.org/abs/1408.2238))
