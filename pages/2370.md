@@ -39,7 +39,7 @@ write $\Omega^V X := Maps(S^V,X)$ for the [[topological space]] of basepoint-pre
 continuous maps.
 
 For $V \subset W$ an inclusion of finite dimensional subspaces $V,W \subset U$
-write $W-V$ for the orthogonal complement of $V$ in $W$.
+write $W-V$ for the [[orthogonal complement]] of $V$ in $W$.
 
 +-- {: .num_defn}
 ###### Definition
