@@ -63,7 +63,7 @@ A [[sheaf]] $\mathcal{E}$ on $X$ of $\mathcal{O}$-[[module]]s is
     \to 0\,,
   $$
 
-  where $I_i$ and $J_i$ may be infinite, i.e. of $\mathcal{E}$ is locally the [[cokernel]] of [[free module]]s. For more see [[quasicoherent sheaf]].
+  where $I_i$ and $J_i$ may be infinite, i.e. $\mathcal{E}$ is locally the [[cokernel]] of [[free module]]s. For more see [[quasicoherent sheaf]].
 
 ### Over a structured $(\infty,1)$-topos
 
