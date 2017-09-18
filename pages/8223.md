@@ -271,6 +271,7 @@ Question(axiomatizability) Which of Mor(MonoSimpGph), Mor(RegMonoSimpGph), Mor(I
 
 On Question (inequivalence). 
 So far, not a single _category-theoretic_ property has been mentioned which would distinguish any of the three from the others.
+Needless to say, inequivalence of MonoSimpGph and RegMonoSimpGph cannot follow for _general_ reasons: there are categories $\mathsf{C}$ (like $\mathsf{Set}$) where Mon($\mathsf{C}$) and RegMon($\mathsf{C}$) are _equal_ classes.
 
 (under construction)
 
