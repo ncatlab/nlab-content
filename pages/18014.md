@@ -9,7 +9,7 @@ A [[connected topological space|connected]] [[topological space]] $x$ is called 
 
 1. its [[fundamental group]] $\pi_1(X)$ is a [[nilpotent group]];
 
-1. the [[action]] of $\pi_1(X)$ on the higher [[homotopy groups]] is nilpotent in that...
+1. the [[action]] of $\pi_1(X)$ on the higher [[homotopy groups]] is nilpotent in that the sequence $N_{0,n} \coloneqq \pi_n(X)$, $N_{k+1,n} \coloneqq \{g n - n | n \in N_{k,n}, g \in \pi_1(X)\}$ terminates.
 
 ## Properties
 
