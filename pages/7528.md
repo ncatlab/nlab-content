@@ -21,7 +21,7 @@ Let $X\in H$ be an object. Let
 
 $$X\xrightarrow{r_X}Id(X)\xrightarrow{p_X}X\times X$$
 
-be a factorization of the diagonal $\delta_X\xrightarrow{}X\times X$ into an acyclic cofibration $r_X\in C\cap W$ followed by a fibration $p_X\in F$. We interpret the fibration $p_X$ as
+be a factorization of the diagonal $\delta_X : X \xrightarrow{}X\times X$ into an acyclic cofibration $r_X\in C\cap W$ followed by a fibration $p_X\in F$. We interpret the fibration $p_X$ as
 
 $$x,y:X\vdash I_X(x,y)$$
 
