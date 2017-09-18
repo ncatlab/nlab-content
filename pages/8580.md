@@ -90,7 +90,9 @@ Divided into two parts:
 
 1. [Equations of motion](#EquationsOfMotion)
 
-1. [Classical mechanics via prequantized Lagrangian correspondences](#ClassicalMechanicsByPrequantizedLagrangianCorrespondences)
+1. [Hamilton-Jacobi-Lagrange mechanics via prequantized Lagrangian correspondences](#ClassicalMechanicsByPrequantizedLagrangianCorrespondences)
+
+1. [Hamilton-de Donder-Weyl field theory via Higher correspondences](#HDWFieldTheoryViaHigherCorrespondences)
 
 1. [Local (topological) prequantum field theory](#LocalTopologicalPrequantumFieldTheory)
 
@@ -3287,10 +3289,16 @@ $Sh_{\mathbf{H}}(X)$. This is indeed the standard expression in
 
 "The collection of fields for which the variational derivative equals zero." translates exactly into $\underset{\phi \in [X, \mathbf{Fields}]}{\sum} (S^{-1}\mathbf{d}S \simeq 0)$.
 
-## **Classical mechanics via prequantized Lagrangian correspondences**
+## **Hamilton-Jacobi-Lagrange mechanics via prequantized Lagrangian correspondences**
  {#ClassicalMechanicsByPrequantizedLagrangianCorrespondences}
 
 This chapter is at _[[prequantized Lagrangian correspondence]]_.
+
+## **Hamilton-de Donder-Weyl field theory via Higher correspondences**
+ {#HDWFieldTheoryViaHigherCorrespondences}
+
+This chapter is at _[[Local field theory via Higher correspondences]]_.
+
 
 
 ## **Local (topological) prequantum field theory**
