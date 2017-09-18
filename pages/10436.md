@@ -193,4 +193,4 @@ An announcement was given in
 
 Unwinding to ordinary mathematical language of the computer-checked formal proof of Blakers-Massey (or, for the moment, of the special case that is the Freudenthal suspension theorem) is in 
 
-* {#Rezk14} [[Charles Rezk]], _Proof of Freudenthal suspension_, 2014 ([pdf](http://www.math.uiuc.edu/~rezk/freudenthal.pdf))
+* {#Rezk14} [[Charles Rezk]], _Proof of the Blakers-Massey theorem_, 2014 [pdf](http://www.math.uiuc.edu/~rezk/freudenthal-and-blakers-massey.pdf).
