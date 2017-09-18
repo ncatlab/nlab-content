@@ -29,17 +29,20 @@ An __apartness space__ is a set $X$ equipped with a relation $\bowtie$ between p
 
 1. if $x\bowtie A$, then $x\notin A$.
 2. $x\bowtie (A\cup B)$ iff $x\bowtie A$ and $x\bowtie B$.
-3. If $x \bowtie A$, and $\forall y, (y\bowtie A \to y\notin B)$, then $x\bowtie B$.
+3. $x\bowtie \emptyset$ for any $x$.
+4. If $x \bowtie A$, and $\forall y, (y\bowtie A \to y\notin B)$, then $x\bowtie B$.
 =--
 
 The relation $x\bowtie A$ should be regarded as a "positive" way of saying that $x$ does not belong to the [[closure]] of $A$, i.e. $x\notin \overline{A}$.  Under this interpretation, the above axioms contrapose to become
 
 1. If $x\in A$, then $x\in \overline{A}$, i.e. $A\subseteq \overline{A}$.
 2. $\overline{A} \cup \overline{B} = \overline{A\cup B}$ (and in particular $(A\subseteq B) \to (\overline{A}\subseteq \overline{B})$).
-3. If $B\subseteq \overline{A}$ and $x\in \overline{B}$, then $x\in\overline{A}$, i.e. $\overline{\overline{A}} = \overline{A}$.
+3. $\overline{\emptyset} = \emptyset$.
+4. If $B\subseteq \overline{A}$ and $x\in \overline{B}$, then $x\in\overline{A}$, i.e. $\overline{\overline{A}} = \overline{A}$.
 
 which are precisely the axioms of a [[topology]] expressed in terms of a closure operator.  In constructive mathematics, of course, the law of contraposition does not hold.
 
+The axiom $x\bowtie \emptyset$ is almost unnecessary, since the last axiom ensures that if $x\bowtie A$ for any set $A$ then $x\bowtie\emptyset$.  In particular, this is the case if $X$ is $T_1$ (see below) and for any $x\in X$ there is a $y\in X$ with $x\neq y$.  [Bridges et al](#BSV) omit this axiom.
 
 ## Separation properties
 
