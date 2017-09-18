@@ -202,6 +202,10 @@ $$
 
 ## Related concepts
 
+* [[disjoint union]]
+
+* [[dependent sum type]]
+
 * [[product]], [[coproduct]]
 
 * [[Kan extension]]
@@ -220,14 +224,14 @@ $$
 
 Standard textbook accounts include section A1.5.3 of 
 
-* [[Peter Johnstone]], _[[Sketches of an Elephant]]_
- {#Johnstone}
+* {#Johnstone} [[Peter Johnstone]], _[[Sketches of an Elephant]]_
+ 
 
 and section IV of 
 
-* [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
-  {#MacLaneMoerdijk}
-
+* {#MacLaneMoerdijk}
+ [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
+  
 
 
 
