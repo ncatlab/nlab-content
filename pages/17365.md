@@ -1039,7 +1039,10 @@ For $X$ a sequential spectrum, then
 
 =--
 
-The standard suspension is equivalently the [[cofiber]] of the canonical inclusion of boundaries into the [[reduced cylinder]]  
++-- {: .num_remark #StandardSuspensionIsCorrectSuspension}
+###### Remark
+
+The standard suspension of def. \ref{SequentialSpectrumRealSuspension} is equivalently the [[cofiber]] of the canonical inclusion of boundaries into the [[reduced cylinder]]  
 
 $$
   X \vee X \longrightarrow X \wedge I_+ \longrightarrow X \wedge S^1
@@ -1047,6 +1050,8 @@ $$
 $$
 
 If $X$ is a [[CW-spectrum]], then by prop. \ref{CylinderSpectrumOverCWSpectrumIsGood} this is a good [[cylinder object]] and so then $X\wedge S^1$ is a homotopy-correct model for the reduced suspension.
+
+=--
 
 But it turns out that for proving the [[stable model category|stability]] of the stable model structure [below](#Stability) it is convenient to replace this by a stably equivalent model:
 
@@ -1072,6 +1077,133 @@ Here $\tilde \Sigma_n$ denotes the $(\Sigma\dashv \Omega)$-[[adjunct]] of $\sigm
 =--
 
 In some references this "alternative suspension" is called the "fake suspension" e.g. ([Jardine 15, section 10.4](sequential+spectrum#Jardine15)).
+
++-- {: .num_remark #StandardAndAlternativeSuspensionAreNotDirectlyComparable}
+###### Remark
+
+There is no direct comparison morphism between the standard suspension (def. \ref{SequentialSpectrumRealSuspension}) and the alternative suspension (def. \ref{SequentialSpectrumFakeSuspension}). This is due to the non-trivial "[graded commutativity](smash product of spectra#GradedCommutativityOfSmashOfSpheres)" of smash products of spheres: 
+
+namely a comparison morphism $\Sigma X \longrightarrow X \wedge S^1$ (or alternatively the other way round) would have to make the following diagrams commute:
+
+$$
+  \array{
+     S^1 \wedge S^1 \wedge X_n &\longrightarrow& S^1 \wedge X_n \wedge S^1
+     \\
+     {}^{\mathllap{S^1 \wedge \sigma_n}}\downarrow 
+       &(nc)& 
+     \downarrow^{\mathrlap{\sigma_n \wedge S^1}}
+     \\
+     S^1 \wedge X_{n-1} &\longrightarrow& X_{n-1} \wedge S^1
+  }
+$$
+
+Clearly the only way to go about achieving this is to have the horizontal morphisms be the [[braiding]] homomorphisms of the [[smash product]]. To see this more clearly, consider labeling the two copies of the circle appearing here as $S^1_a$ and $S^1_b$. Then the diagram we are dealing with looks like this:
+
+$$
+  \array{
+     S_a^1 \wedge S_b^1 \wedge X_n &\longrightarrow& S_b^1 \wedge X_n \wedge S_a^1
+     \\
+     {}^{\mathllap{S^1_a \wedge \sigma_n}}\downarrow 
+       &(nc)& 
+     \downarrow^{\mathrlap{\sigma_n \wedge S^1_a}}
+     \\
+     S_a^1 \wedge X_{n-1} &\longrightarrow& X_{n-1} \wedge S_a^1
+  }
+$$
+
+This makes it manifest that as $S^1_a$ passes along the top and right, it has to be braided past $S^1_b$, while this does not occur as $S^1_a$ passes down and left. Since the braiding $S^1_a \wedge S^1_b \to S^1_b \wedge S^1_a$ is nontrivial (the homotopy class of this map differs from the identity by a minus sign in $\p_2(S^2) = \mathbb{Z}$), there is no way to make this diagram commute.
+
+However, we may get around this by considering two consecutive structure maps, such that $S_a^2$ is to be braided around. Then it works.
+
+=--
+
++-- {: .num_lemma #IsomorphismBetweenStandardAndAlternativeSuspensionInHomotopyCategory}
+###### Lemma
+
+There is a [[natural isomorphism]] in the [[stable homotopy category]]  between the standard suspension (def. \ref{SequentialSpectrumRealSuspension}) and the alternative suspension (def. \ref{SequentialSpectrumFakeSuspension}):
+
+$$
+  \Sigma (-)
+  \simeq
+  (-) \wedge S^1
+  \;\;\;
+  \in Ho(SeqSpec(Top))
+$$
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+Let $(L \dashv R) \colon SeqSpec(Top) \leftrightarrow Seq_2Spec(Top)$ for the [[Quillen equivalence]] between standard spectra with structure morphisms $S^1 \wedge X_n \to X_{n+1}$ to doubly-staged sequential spectra with structure morhisms $S^2 \wedge X'_n \to X'_{n+1}$. (...) 
+
+
+Via the discussion in remark \ref{StandardAndAlternativeSuspensionAreNotDirectlyComparable}, there is a [[natural isomorphism]] in $SeqSpec(Top)$ between the image under $R$ of the two suspension operations
+
+$$
+  \tau \colon R (\Sigma(-)) \simeq R((-)\wedge S^1)
+  \,,
+$$
+
+whose components are given by the [[smash product]]-[[braiding]] isomorphisms
+
+$$
+  S^2 \wedge (-) 
+    \overset{\simeq}{\longrightarrow}
+  (-) \wedge S^2
+  \,.
+$$
+
+Let $Q$ be any choice of cofibrant replacement, i.e. a factorization for each object $X \in SeqSpec(Top)_{stable}$ of the initial morphism into it as
+
+$$  
+  \emptyset
+   \overset{\in Cof}{\longrightarrow}
+  Q X
+   \overset{\in W \cap Fib}{\longrightarrow}
+  \,.
+$$
+
+For $f \colon X \to Y$ a morphism, let $Q f$ be given by any choice of lift in 
+
+$$
+  \array{
+    \emptyset && \longrightarrow && Q Y
+    \\
+    \downarrow &{}^{\mathllap{Q f}}\nearrow& \downarrow
+    \\
+    Q X &\to& X &\overset{f}{\to}& Y
+  }
+  \,.
+$$
+
+
+Then because $(L \dahsv R)$ above is a Quillen equivalence, we get the following diagram
+
+$$
+  \array{
+     && L Q R (\Sigma X)
+       &\underoverset{\in W_{st}}{L Q \tau}{\longrightarrow}&
+     L Q R (X\wedge S^1)
+     \\
+     &{}^{\mathllap{\in W_{st}}}
+       \swarrow & \downarrow && \downarrow & 
+       \searrow^{\mathrlap{\in W_{st}}}
+     \\
+     \Sigma X
+     &\longleftarrow& L R (\Sigma X) 
+     & \underoverset{\in Iso \subset W_{st}}{L\tau}{\longrightarrow} &
+     L R (X \wedge S^1)
+     &\longrightarrow&
+     X \wedge S^1
+  }
+  \,.
+$$
+
+This gives an isomorphism $\Sigma X \to X \wedge S^1$ in the homotopy category, and since there the class of $Q f$ is independent of the choice of lift, and since the other morphisms in the diagram are natural, this isomorphism is natural.
+
+=--
 
 
 +-- {: .num_defn #ShiftingCommutesWithLoopingAndSuspensionOfSequentialSpectra}
@@ -1159,8 +1291,8 @@ $$
 
 =--
 
-+-- {: .num_prop #FakeLoopingPreservesOmegaSpectra}
-###### Proposition
++-- {: .num_lemma #FakeLoopingPreservesOmegaSpectra}
+###### Lemma
 
 With $\Sigma$ and $\Omega$ the alternative suspension and alternative looping functors from def. \ref{SequentialSpectrumFakeSuspension}:
 
@@ -1188,8 +1320,8 @@ is an isomorphism, and hence $\Sigma f$ is a stable equivalence.
 =--
 
 
-+-- {: .num_prop #CounitOfFakeSuspensionAndShiftIsStableEquivalence}
-###### Proposition
++-- {: .num_lemma #CounitOfFakeSuspensionAndShiftIsStableEquivalence}
+###### Lemma
 
 For $X$ a [[sequential spectrum]], then (using remark \ref{ShiftingCommutesWithLoopingAndSuspensionOfSequentialSpectra} to suppress parenthesis)
 
@@ -1292,13 +1424,12 @@ $$
 ### Stability
  {#Stability}
 
-We discuss that the stable model structure $SeqSpec(Top)_{stable}$ of theorem is indeed a [[stable model category]] in that the canonical [[reduced suspension]] operation induced an [[equivalence of categories]] from the [[stable homotopy category]] to itself.
+We discuss that the stable model structure $SeqSpec(Top)_{stable}$ of theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory} is indeed a [[stable model category]] in that the canonical [[reduced suspension]] operation induced an [[equivalence of categories]] from the [[stable homotopy category]] to itself.
 
++-- {: .num_lemma #FakeSuspensionInducesEquivalenceOfHomotopyCategories}
+###### Lemma
 
-+-- {: .num_prop #FakeSuspensionInducesEquivalenceOfHomotopyCategories}
-###### Proposition
-
-The total [[derived functor]] of the fake suspension $\Sigma$ (def. \ref{SequentialSpectrumFakeSuspension}) exists and constitutes an [[equivalence of categories]] from the [[stable homotopy category]] to itself:
+The total [[derived functor]] of the alternative suspension operation $\Sigma$ of def. \ref{SequentialSpectrumFakeSuspension} exists and constitutes an [[equivalence of categories]] from the [[stable homotopy category]] to itself:
 
 $$
   \Sigma
@@ -1315,9 +1446,31 @@ $$
 ###### Proof
 
 The total derived functor of $\Sigma$ exists because by prop. \ref{FakeLoopingPreservesOmegaSpectra} $\Sigma$ preserves stable equivalences. Also the shift functor $[-1]$ from def. \ref{ShiftedSpectrum} clearly preserves stable equivalences, hence both descend to the homotopy category. 
-
 There, by prop. \ref{CounitOfFakeSuspensionAndShiftIsStableEquivalence}
 and remark \ref{ShiftingCommutesWithLoopingAndSuspensionOfSequentialSpectra}, they are inverses of each other, up to isomorphism.
+
+=--
+
++-- {: .num_theorem #StableModelStructureOnSequentiaSpectraIsStableModelCategory}
+###### Theorem
+
+The stable model structure $SeqSpec(Top)_{stable}$ from theorem \ref{StableModelStructureOnSequentialSpectraIsModelCategory} indeed gives a [[stable model category]] in that the canonically induced [[reduced suspension]] functor on its [[homotopy category of a model category|homotopy category]] is an [[equivalence of categories]]
+
+$$
+  \Sigma 
+    \;\colon\;
+  Ho(SeqSpec(Top)_{stable})
+   \overset{\simeq}{\longrightarrow}
+  Ho(SeqSpec(Top)_{stable})
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+As in remark \ref{StandardSuspensionIsCorrectSuspension}, on [[CW-spectra]] the canonical suspension functor is given by the "standard suspension" operation of def. \ref{SequentialSpectrumRealSuspension}. By prop. \ref{IsomorphismBetweenStandardAndAlternativeSuspensionInHomotopyCategory} however, this is naturally isomorphic -- on the level of the homotopy category -- to the alternative suspension operation of def. \ref{SequentialSpectrumFakeSuspension}. Therefor the claim follows with prop. \ref{FakeSuspensionInducesEquivalenceOfHomotopyCategories}.
 
 =--
 
