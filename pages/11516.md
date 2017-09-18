@@ -54,6 +54,8 @@ On the other hand there is also the standard homotopy theory of [[infinity-actio
 
 * [[G-set]]
 
+* [[cyclotomic space]]
+
 [[!include equivariant homotopy theory -- table]]
 
 See also
