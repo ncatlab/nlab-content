@@ -1,4 +1,12 @@
+[[!redirects Segal conjecture]]
 
+## Idea 
+
+The Segal theorem relates the [[Burnside ring]] of a finite group $G$ to the stable cohomotopy of the classifying space $BG$.
+
+## Historical Remarks
+
+Segal conjectured this in the 1970s, and it was proved by [[Gunnar Carlsson]] in 1984.
 
 ## Related concepts
 
