@@ -156,8 +156,7 @@ But we have the following useful characterization of morphisms of supermanifolds
 +-- {: .proof}
 ###### Proof
 
-The first statement is a direct extension of the classical fact that the contravariant embedding of ordinary [[smooth manifolds]] into algebras $X \mapsto C^\infty(X)$ is a [[full and faithful functor]].
-
+The first statement is a direct extension of the classical fact that [[smooth manifolds embed into formal duals of R-algebras]].
 =--
 
 ## As manifolds modeled on Grassman algebras
