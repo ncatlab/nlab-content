@@ -34,6 +34,10 @@ For details see at
 
 * [[supermultiplet]]
 
+## References
+
+* Wikipedia, _[Wigner's classification](http://en.wikipedia.org/wiki/Wigner%27s_classification)_
+
 [[!redirects Wigner's classification]]
 
 [[!redirects Wigner-Weyl theory]]
