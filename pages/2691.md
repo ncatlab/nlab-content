@@ -28,29 +28,43 @@ The category of [[dg-algebra]]s is that of [[monoid]]s in a [[category of chain 
 
 Below we spell out special cases, such as restricting to [[commutative monoids]] when working over a [[ground field]] of [[characteristic zero]], or restricting to non-negatively graded cochain dg-algebras.
 
-## Non-negatively graded cochain dg-algebras
+## Projective model structure on Non-negatively graded cochain dgc-algebras
+
+We discuss the projective model structure on non-negatively graded
+[[differential-graded commutative algebras]]. This was introduced in [Bousfield-Gugenheim 76](#BousfieldGugenheim76) as a model for [[rational homotopy theory]].
 
 ### Definition 
 
-Write $dgAlg$ for the [[category]] of cochain [[dg-algebras]] in non-negative degree over a [[field]] $k$ of characteristic 0. Write $C dgAlg \subset dgAlg$ for the [[subcategory]] of [[differential graded-commutative algebras]].
++-- {: .num_defn #dgcCochainAlgebrasInNonNegativeDegrees}
+###### Definition
+
+
+For $k$ a [[field]] of [[characteristic zero]], write 
+
+$$
+  dgcAlg^{\geq 0}_{k}
+$$ 
+
+for the [[category]] of [[differential graded-commutative algebras]] over $k$ in non-negative degrees, equivalently the category of [[commutative monoids]] in the [[symmetric monoidal category]] $Ch^{\geq 0}(k)$ of [[cochain complexes]] in non-negative degrees, equipped with the [[tensor product of chain complexes]].
+
+=--
 
 +-- {: .num_defn #ProjectiveModelStructureOnCdgAlg}
 ###### Definition
 
-The  **projective** [[model category]] structure on $C dgAlg$ and on $dgAlg$ is given by setting:
+Write $(dgcAlg^{\geq 0}_k)_{proj}$ for the catgory of [[dgc-algebras]] from def. \ref{dgcCochainAlgebrasInNonNegativeDegrees} equipped with the following [[classes]] of morphisms:
 
-* weak equivalences are the [[quasi-isomorphism]]s
+* _weak equivalences_ are those [[homomorphisms]] of dg-algebras whose underlying [[chain map]] is  [[quasi-isomorphism]];
 
-* fibrations are the degreewise [[epimorphism|surjections]].
+* _fibrations_ are those [[homomorphisms]] which are degreewise [[surjections]];
 
 =--
 
-+-- {: .num_prop }
++-- {: .num_prop #IndeedProjectiveModelStructureOnCdgAlg}
 ###### Proposition
 
-This indeed defines a [[model category]]. 
+The category $(dgcAlg^{\geq 0}_k})_{proj}$ from def. \ref{ProjectiveModelStructureOnCdgAlg} is a [[model category]]. 
 
-At least on $C dgAlg$ this is a [[cofibrantly generated model category]].
 
 =--
 
@@ -61,17 +75,17 @@ At least on $C dgAlg$ this is a [[cofibrantly generated model category]].
 ###### Remark
 **(category of fibrant objects)**
 
-Evidently every object in $dgAlg$ and in $C dgAlg$ is fibrant. Therefore these model categories structures are in particular also structures of a [[category of fibrant objects]].
+Evidently every object in $(dgcAlg^{\geq 0}_k)_{proj}$ (def. \ref{ProjectiveModelStructureOnCdgAlg}, prop. \ref{IndeedProjectiveModelStructureOnCdgAlg}) is fibrant. Therefore these model categories structures are in particular also structures of a [[category of fibrant objects]].
 
 =--
 
-The nature of the cofibrations is discussed below.
+The nature of the cofibrations is discussed [below](#SullivanAlgebras).
 
 
 ### Properties
 
-#### Cofibrant generation
- {#CofibrantGeneration}
+#### Cofibrations and Sullivan algebras
+ {#SullivanAlgebras}
 
 +-- {: .num_defn }
 ###### Definition
@@ -132,7 +146,7 @@ $$
   J = \{j_n \}_{n \gt 1} 
 $$
 
-are sets of generating cofibrations and acyclic cofibrations, respectively, exhibiting $C dgAlg$ as a [[cofibrantly generated model category]].
+are sets of generating cofibrations and acyclic cofibrations, respectively, exhibiting the model category $(dgcAlg^{\geq 0}_k)_{proj}$ from prop. \ref{IndeedProjectiveModelStructureOnCdgAlg} as a [[cofibrantly generated model category]].
 
 
 =--
@@ -140,9 +154,7 @@ are sets of generating cofibrations and acyclic cofibrations, respectively, exhi
 review includes ([Hess 06, p. 6](#Hess06))
 
 
-#### Cofibrations: Sullivan algebras {#SullivanAlgebras}
-
-In this section we describe the cofibrations in the model structure on $C dgAlg_\mathbb{N}$ of **non-negatively graded** dg-algebras (def. \ref{ProjectiveModelStructureOnCdgAlg}). Notice that it is these that are in the image of the dual [[monoidal Dold-Kan correspondence]].
+In this section we describe the cofibrations in the model structure on $(dgcalg^{\geq 0}_k)_{proj}$ (def. \ref{ProjectiveModelStructureOnCdgAlg}, prop. \ref{IndeedProjectiveModelStructureOnCdgAlg}). Notice that it is these that are in the image of the dual [[monoidal Dold-Kan correspondence]].
 
 Before we characterize the cofibrations, first some notation.
 
@@ -215,15 +227,94 @@ for all $\omega \in V$ and all $v_i \in V^*$.
 ###### Proposition
 **(cofibrations are relative Sullivan algebras)**
 
-The cofibration in $C dgAlg_{\mathbb{N}}$ are precisely the [[retract]]s of [[relative  Sullivan algebras]] $(A,d) \to (A\otimes_k \wedge^\bullet V, d')$.
+The cofibration in $(dgcAlg^{\geq 0}_{k})_{proj}$ are precisely the [[retract]]s of [[relative  Sullivan algebras]] $(A,d) \to (A\otimes_k \wedge^\bullet V, d')$.
 
-Accordingly, the cofibrant objects in $C dgAlg$ are precisely the Sullivan algebras $(\wedge^\bullet V, d)$
+Accordingly, the cofibrant objects in $(dgcAlg^{\geq 0}_{k})_{proj}$ are precisely the Sullivan algebras $(\wedge^\bullet V, d)$
 
 =--
 
 
+#### Hom-complexes
+ {#HomComplexes}
 
-#### Commutative vs. non-commutative dg-algebras {#CommVsNoncomm}
++-- {: .num_defn #MappingSpaceSimOndgcCochainAlgebrasInNonNegDegrees}
+###### Definition
+
+For $A,B \in dgcAlg^{\geq 0}_k$ (def. \ref{dgcCochainAlgebrasInNonNegativeDegrees}), let 
+
+$$
+  Maps(A,B)
+  \in 
+  sSet
+$$
+
+be the [[simplicial set]] whose [[n-simplices]] are the dg-algebra [[homomorphisms]] from $A$ into the [[tensor product]] of $B$ with the de Rham complex of [[polynomial differential forms on the n-simplex]] $\Omega_{poly}^\bullet(\Delta^n)$.
+
+$$
+  Maps(A,B)_n
+   \;\coloneqq\;
+  Hom_{dgcAlg^{\geq 0}_k}
+  \left(
+    A, \; \Omega^\bullet_{poly}(\Delta^n) \otimes_k B 
+  \right)
+$$
+
+and whose face and degeneracy maps are the obvious ones induced from the fact that $\Omega_{poly}^\bullet \colon \Delta^{op} \to dgcAlg^{\geq 0}_k$ is canonically a [[simplicial object]] in dgc-algebras.
+
+We also call this the _simplicial [[mapping space]]_ from $A$ to $B$.
+
+Observe that 
+
+$$
+  Hom_{dgcAlg^{\geq 0}_k}
+  \left(
+    A, \; \Omega^\bullet_{poly}(\Delta^n) \otimes_k B 
+  \right)
+  \;\simeq\;
+  {}_{\Omega^\bullet_{poly}}Hom_{dgcAlg^{\geq 0}_k}
+  \left(
+     \Omega^\bullet_{poly}(\Delta^n) \otimes_k A
+     \,,\,
+     \Omega^\bullet_{poly}(\Delta^n) \otimes_k B
+  \right)  
+  \,,
+$$
+
+where on the right we have those dg-algebra homomorphism which in addition preserves the left [[dg-module]] structure over $\Omega^\bullet_{poly}(\Delta^n)$. This induces for any three $A,B,C \in dgcAlg^{\geq 0}_k$ a [[composition]] homomorphism of [[simplicial sets]] out of the [[Cartesian product]] of mapping spaces
+
+$$
+  \circ^{sSet}_{A,B,C}
+  \;\colon\;
+  Maps(A,B) \times Maps(B,C)
+    \longrightarrow
+  Maps(A,C)
+  \,.
+$$
+
+
+=--
+
+([Bousfield-Gugenheim 76, 5.1](#BousfieldGugenheim76))
+
++-- {: .num_remark}
+###### Remark
+
+The set of 0-simplices of of the [[mapping space]] $Maps(A,B)$ in def. \ref{MappingSpaceSimOndgcCochainAlgebrasInNonNegDegrees} is [[natural isomorphism|naturally isomorphic]] to the ordinary [[hom-set]] of dg-algebras:
+
+
+$$
+  Maps(A,B)_0 \simeq Hom_{dgcAlg^{\geq 0}_k}(A,B)
+$$
+
+and under this identification the two notions of [[composition]] agree.
+
+=--
+
+
+#### Commutative vs. non-commutative dg-algebras 
+ {#CommVsNoncomm}
+
+> this needs harmonization
 
 +-- {: .num_prop }
 ###### Proposition
