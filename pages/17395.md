@@ -2,7 +2,13 @@
 
 **Relevance logics**, also known as **relevant logics**, are non-classical logics designed to avoid what some consider to be paradoxical about classical [[implication]].  In particular, certain hypothetical propositions in which antecedent and consequent are irrelevant to one another occur as [[tautologies]] in [[classical logic]], whereas one might consider that a claim that '$P$ implies $Q$' suggests that the truth of $P$ gives us reason to accept the truth of $Q$.
 
-###Related concepts
+## As a substructural logic
+
+Some relevance logics can, at least roughly, be regarded as a [[substructural logic]] like [[linear logic]] in which the [[contraction rule]] is permitted but not the [[weakening rule]].  Thus in a sense they are the "dual" of [[affine logic]] which permits weakening but not contraction.
+
+Just as linear logic (with the [[exchange rule]], but not contraction or weakening) has semantics in [[symmetric monoidal categories]], and ordinary logic has semantics in [[cartesian monoidal categories]] (both perhaps with extra structure, such as being [[closed monoidal category|closed]] or [[star-autonomous category|star-autonomous]]), affine logic has semantics in [[semicartesian monoidal categories]] while relevance logics have semantics in [[relevance monoidal categories]].
+
+##Related concepts
 
 * [[linear logic]]
 
