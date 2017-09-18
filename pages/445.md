@@ -59,8 +59,27 @@ to the inclusion $M/d \hookrightarrow C/d$.  More generally, an image of a singl
 
   Usually it is better to treat $Cat$ as a 2-category, in which case one can use a more 2-categorical notion of image.  See, for instance, [[full image]], [[essential image]], and [[replete image]].
 
+## Properties
 
-## Relation to factorization systems
+### Basic properties
+
++-- {: .num_example #PreservationOfUnionsAndIntersectionsOfSets}
+###### Example
+**(images preserve [[unions]] but not in general [[intersections]])**
+
+Let $f \colon X \longrightarrow Y$ be a [[function]] between [[sets]]. Let $\{S_i \subset X\}_{i \in I}$ be a set of [[subsets]] of $X$. Then.
+
+1. $im_f\left( \underset{i \in I}{\cup}  S_i\right) = \left(\underset{i \in I}{\cup} im_f(S_i)\right)$
+
+1. $im_f\left( \underset{i \in I}{\cap}  S_i\right) \subset \left(\underset{i \in I}{\cap} im_f(S_i)\right)$ 
+
+The inclusion in the second item is in general proper. If $f$ is an [[injective function]] then this is a bijection:
+
+* $(f\,\text{injective}) \Rightarrow \left(im_f\left( \underset{i \in I}{\cap}  S_i\right) = \left(\underset{i \in I}{\cap} im_f(S_i)\right)\right)$
+
+=--
+
+### Relation to factorization systems
 
 Suppose that $M$ is closed under composition, and that $f = m e$ is an image factorization relative to $M$.  Then $e$ has the property that if $e = n g$ for some $n\in M$, then $n$ is an isomorphism --- for then we would have $f = (m n) g$ and so by universality of images, $m$ would factor through $m n$.  In particular, if $M$ is the class of all monomorphisms and $C$ has [[equalizers]], then $e$ is an [[extremal epimorphism]].
 
@@ -72,13 +91,13 @@ is a commutative square with $n\in M$, then the pullback $k^*n$ is an $M$-morphi
 
 Conversely, it is easy to see that if $(E,M)$ is an OFS on a category $C$, then all $M$-images exist and are given by the factorizations of the OFS.  Therefore, to give a notion of image is more or less equivalent to giving an orthogonal factorization system.
 
-### Duality
+**Duality**
 
 Note that the notion of factorization system is self-dual.  Therefore, if $(E,M)$ is a factorization system and $c \overset{e}{\to} a \overset{m}{\to} d$ is an $(E,M)$-factorization of $f\colon c\to d$, then not only is $m$ the $M$-image of $f$ (the least $M$-subobject through which $f$ factors), but dually $e$ is also the **$E$-coimage** of $f$, i.e. the greatest $E$-quotient through which $f$ factors.
 
 However, see below for additional remarks on the usage of the terms "image" and "coimage."
 
-## Construction using limits 
+### Construction via limits 
  {#AsEqualizer}
 
 Suppose that the category $C$ admits finite [[limits]] and [[colimits]], and that $M=RegMono$ consists of the [[regular monomorphisms]].  Then the $M$-image of a morphism $f : c \to d$ may be constructed as
