@@ -16,7 +16,7 @@ We prove that the Cantor--Schroeder--Bernstein theorem holds in a [[Boolean topo
 
 Throughout we use ordinary [[set theory|set-theoretic]] reasoning which can be translated into the formal theory of toposes. (This can be formalized via the [[Mitchell–Benabou language]], for instance.) 
 
-+-- {: .un_lem}
++-- {: .num_lemma}
 ###### Lemma (Knaster--Tarski fixed-point theorem) 
 Let $f\colon P X \to P X$ be an order-preserving map. Then there exists $S$ in $P X$ for which $f(S) = S$. 
 =-- 
@@ -74,7 +74,7 @@ If $f: X \to Y$ is monic, then the operator $\exists_f: P X \to P Y$ preserves l
 
 +-- {: .proof} 
 ###### Proof 
-More generally, $\exists_f$ preserves [[connected limits]], because it lifts through the inclusion $i: P Y \downarrow \exists_f(1) \hookrightarrow P Y$ to an isomorphism $P X \stackrel{\sim}{\to} P Y \downarrow \exists_f(1)$, and $i$ preserves connected limits. 
+More generally, $\exists_f$ preserves [[connected limits]], because it lifts through the inclusion $i: P Y \downarrow \exists_f(1) \hookrightarrow P Y$ to an isomorphism $P X \stackrel{\sim}{\to} P Y \downarrow \exists_f(1)$ (here $1$ denotes the top element of $P X$, aka $X$), and $i$ preserves connected limits. 
 
 In more detail: by [[Frobenius reciprocity]], we have $\exists_f S \wedge T = \exists_f(S \wedge f^\ast T)$ for elements $S$ of $P X$ and $T$ of $P Y$. Putting $S = 1$, we get $\exists_f 1 \wedge T = \exists_f f^\ast T$, and so the composite 
 
@@ -83,23 +83,13 @@ $$P Y \downarrow \exists_f 1 \stackrel{f^\ast}{\to} P X \stackrel{\exists_f}{\to
 is the identity. But since $f$ is monic, $f^\ast \exists_f: P X \to P X$ is also the identity, which completes the proof. 
 =-- 
 
-Therefore, for $\ldots \subseteq A_2 \subseteq A_1 \subseteq A_0$, we have 
+Note that also $\forall_g = \neg_X \exists_g \neg_Y$ preserves such limits (it preserves all limits, as $g^\ast \dashv \forall_g$). So by the preceding lemma, the composite $\neg_X \exists_g \neg_Y \exists_f$ preserves limits of inverse chains. 
 
-* $\neg_Y \exists_f(\bigcap_{n \geq 0} A_n) = \bigcup_{n \geq 0} \neg_Y \exists_f(A_n)$. 
+Putting now $A_0 = 1$ (the top element of $P X$), $A_1 = \neg_X \exists_g \neg_Y \exists_f(1)$, and generally $A_n = (\neg_X \exists_g \neg_Y \exists_f)^n(1)$, we have $A_{n+1} \subseteq A_n$ (apply the monotone operator $(\neg_X \exists_g \neg_Y \exists_f)^n$ to the inclusion $A_1 \subseteq A_0$), and so $\neg_X \exists_g \neg_Y \exists_f$ preserves the intersection of the inverse chain $\ldots \subseteq A_n \subseteq \ldots \subseteq A_1 \subseteq A_0$,
 
-On the other hand, $\exists_g$ preserves unions as $\exists_g \dashv g^\ast$, and $\neg_X$ takes such unions to intersections. Thus 
-
-* $\neg_X \exists_g \neg_Y \exists_f$ preserves intersections of decreasing sequences. 
-
-Putting now $A_0 = 1$ (the top element of $P X$), $A_1 = \neg_X \exists_g \neg_Y \exists_f(1)$, and generally $A_n = (\neg_X \exists_g \neg_Y \exists_f)^n(1)$, we have $A_{n+1} \subseteq A_n$ (apply the monotone operator $(\neg_X \exists_g \neg_Y \exists_f)^n$ to the inclusion $A_1 \subseteq A_0$), and so $\neg_X \exists_g \neg_Y \exists_f$ preserves the intersection 
-
-$$S = \bigcap_{n \geq 0} (\neg_X \exists_g \neg_Y \exists_f)^n(1)$$ 
+$$S = \bigcap_{n \geq 0} (\neg_X \exists_g \neg_Y \exists_f)^n(1),$$ 
 
 which implies that $S$ is a fixed point of $\neg_X \exists_g \neg_Y \exists_f$, as desired. In fact this $S$ is the maximal fixed point, just as in the conclusion of the Knaster-Tarski lemma (cf. [[terminal coalgebra of an endofunctor]]). 
-
-
-
-
 
 
 ## Failure in toposes 
