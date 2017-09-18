@@ -51,6 +51,12 @@ _Cosmology_ is the study of the [[observable universe]] on its largest [[length 
 
 * Ned Wright, _[Cosmology tutorial](http://www.astro.ucla.edu/~wright/cosmolog.htm)_
 
+Discussion in [[locally covariant perturbative quantum field theory]]:
+
+
+* {#FredenhagenHack13} [[Klaus Fredenhagen]], Thomas-Paul Hack, _Quantum field theory on curved spacetime and the standard cosmological model_ ([arXiv:1308.6773](https://arxiv.org/abs/1308.6773))
+
+* {#BrunettiFredenhagenHackPinamontoRejzner16} [[Romeo Brunetti]], [[Klaus Fredenhagen]], Thomas-Paul Hack, Nicola Pinamonti, [[Katarzyna Rejzner]], _Cosmological perturbation theory and quantum gravity_ ([arXiv:1605.02573](https://arxiv.org/abs/1605.02573))
 
 [[!redirects cosmology]]
 [[!redirects cosmological]]
