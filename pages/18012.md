@@ -72,6 +72,8 @@ hence that the unary operation $l_1$ no longer necessarily squares to zero (no l
 
 ## Related concepts
 
+* [[curved A-infinity algebra]]
+
 * [[curved dg-algebra]]
 
 ## References
