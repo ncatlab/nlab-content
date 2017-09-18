@@ -72,9 +72,9 @@ For each session, there will be one-hour long presentation given by the leader/s
 
 | February 23       |    Leader                        |    Topic                   | 
 | ------------- | --------------------| ---------------- |
-| 12:40 - 13:40   |    Xiaoyi Cui    | Geometric context for quantum BV formalism                                 |
+| 12:40 - 13:40   |    Xiaoyi Cui    | Geometric context for quantum BV formalism.                                 |
 | 13:40 - 14:10   |    tea time                                                     ||
-| 14:10 - 15:10   |    Dmitri Pavlov              |                               |
+| 14:10 - 15:10   |    Dmitri Pavlov              |     1)$1\vert 1$-dimensional field theories and K-theory and/or 2)bundle n-gerbes with connection as field theories.     |
 | 15:10 - 18:00[^1]   |    tea time                                               ||
 
 * Session 2 @ Sitzungssaal
