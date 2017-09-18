@@ -681,6 +681,8 @@ $\{$[[coordinate systems]]$\}$
  $\hookrightarrow$
 $\{$[[smooth manifolds]]$\}$ 
  $\hookrightarrow$
+$\{$[[Fréchet manifolds]]$\}$
+ $\hookrightarrow$
 $\{$[[diffeological spaces]]$\}$ 
  $\hookrightarrow$
 $\{$[[smooth spaces]]$\}$ 
