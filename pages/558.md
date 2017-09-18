@@ -131,7 +131,7 @@ This induces an [[equivalence of (∞,1)-categories]] of the corresponding [[pre
 
 =--
 
-([Quillen 67](#Quillen67)), see e.g. ([Goerss-Jardine 96, section I.11](#GoerssJardine96))
+([Quillen 67](#Quillen67)), see e.g. ([Goerss-Jardine 96, section I.11](#GoerssJardine96), [Joyal-Tierney 05, chapter I](#JoyalTierney05))
 
 ### For algebraic Kan complexes {#ForAlgebraicKanComplexes}
 
@@ -191,6 +191,7 @@ But there is also a direct Quillen equivalence:
 Write $\Delta^n$ and $\Lambda^n_k$ for the topological $n$-[[simplex]] and its $k$-[[horn]].
 
 Fix any choice of [[retract]]s 
+
 
 $$
   R(n,k) : \Delta^n \to \Lambda^n_k
@@ -511,6 +512,8 @@ The original form of the homotopy hypothesis for [[Kan complexes]] is due to
 Textbook accounts include
 
 * {#GoerssJardine96} [[Paul Goerss]], [[Rick Jardine]], section I.11 of _[[Simplicial homotopy theory]]_, 1996
+
+* {#JoyalTierney05} [[André Joyal]], [[Myles Tierney]] _An introduction to simplicial homotopy theory_, 2005  ([chapter I](http://hopf.math.purdue.edu/cgi-bin/generate?/Joyal-Tierney/JT-chap-01), more notes [pdf](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern47.pdf))
 
 
 The homotopy hypothesis for strict $\omega$-categories with weak inverses is discussed in
