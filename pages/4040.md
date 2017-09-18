@@ -84,7 +84,7 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 
 * [[topological group]]
 
-* [[topological vector bundle]]
+* [[topological vector bundle]], [[topological K-theory]]
 
 * [[topological manifold]]
 
