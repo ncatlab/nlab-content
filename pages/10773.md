@@ -13,7 +13,7 @@
 
 #Contents#
 * table of contents
-{:tic}
+{:toc}
 
 ## Idea
 
