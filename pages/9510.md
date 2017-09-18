@@ -19,7 +19,7 @@
 
 A _limit_ of a [[sequence]] (or [[net]]) of points $(x_i)$ in a [[topological space]] (or other [[convergence space]]) $X$ is a point $x$ such that the sequence eventually gets arbitrarily close to $x$.  We can also speak of a limit of a [[filter]] on $X$.
 
-The notion is of particular and historical import in [[analysis]], where it serves to define for instance the notion of [[derivative]].
+The notion is of particular and historical importance in [[analysis]], where it serves to define for instance the notion of [[derivative]].
 
 
 ## Definitions
