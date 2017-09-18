@@ -309,7 +309,7 @@ For instance ([Williams, section 4.2](#Williams)).
 +-- {: .num_prop #KunnethInOrdinaryCohomology}
 ###### Proposition
 
-Let $R$ be a [[ring]] and let $X,Y$ be topological spaces. If $H^k(Y,R)$ is a finitely genrated [[free module]] over $R$, then the comparison map (cross product)
+Let $R$ be a [[ring]] and let $X,Y$ be topological spaces. If $H^k(Y,R)$ is a finitely generated [[free module]] over $R$, then the comparison map (cross product)
 
 $$
   H^\bullet(X,R)
