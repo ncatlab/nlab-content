@@ -129,11 +129,23 @@ Therefore $\{U_{i_s} \to X\}_{s \in S}$ is a finite sub-cover.
 This shows that for metric spaces sequentially compact implies compact.
 
 =-- 
+
+
 ## Remarks
 
 +-- {: .num_defn #weakerAssumptions}
 ###### Remark
 
-In the proof of prop. \ref{sequentiallyCompactMetricSpacesAreEquivCompact} the implication that a compact topological space is sequentially compact requires less of $(X,d)$ than being a metric space. Actually, the proof works for any [[first-countable space]] that is a [[countably compact space]], i. e. any countable open cover admits a finite sub-cover. Hence countably compact metric spaces are equivalently compact metric spaces.
+In the proof of prop. \ref{sequentiallyCompactMetricSpacesAreEquivCompact} the implication that a compact topological space is sequentially compact requires less of $(X,d)$ than being a metric space. Actually, the proof works for any [[first-countable space]] that is a [[countably compact space]], i. e. any countable open cover admits a finite sub-cover. Hence [[countably compact metric spaces are equivalently compact metric spaces]].
 
 =--
+
+## Related statements
+
+* [[countably compact metric spaces are equivalently compact metric spaces]]
+
+* [[sequentially compact metric spaces are totally bounded]]
+
+* [[Lebesgue number lemma]]
+
+
