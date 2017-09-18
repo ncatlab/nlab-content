@@ -1,4 +1,11 @@
 ###Higher Bundle Theory###
 
-1. ####Introduction on Lie groupoids and Lie algebroids####
-1.1 [[Lie groupoid]]
+* ####Introduction on Lie groupoids and Lie algebroids####
+
+  * [[Lie groupoid]]
+
+  * [Lie algebroid](http://ncatlab.org/nlab/show/Lie+groupoid#lie_algebroid)
+
+  * [Morphisms of Lie groupoids](http://ncatlab.org/nlab/show/Lie+groupoid#morphisms_of_lie_groupoids)
+
+  * [Morphisms of Lie algebroids](http://ncatlab.org/nlab/show/Lie+groupoid#morphisms_of_lie_algebroids)
