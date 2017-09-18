@@ -1,11 +1,12 @@
 <div style="float:right;margin:0 20px 10px 20px;"><img  border="1" height="225" width="225" src="https://ncatlab.org/nlab/files/DavidRoberts2014.jpg" alt="David Roberts speaking at Herriot-Watt, June 2014" title="Speaking at Herriot-Watt, June 2014"/></div>
 
-I am currently a visiting fellow at the [Institute for Geometry and its Applications](http://www.iga.adelaide.edu.au/) in the [School of Mathematical Sciences](http://maths.adelaide.edu.au/) at the University of Adelaide.
+I am currently a visiting research fellow at the [Institute for Geometry and its Applications](http://www.iga.adelaide.edu.au/) in the [School of Mathematical Sciences](http://maths.adelaide.edu.au/) at the University of Adelaide.
 
 I work on [[bundle gerbes]], [[principal 2-bundles|2-bundles]], [[geometric stacks]] and [[internal category|internal groupoids and categories]], and [[category theory]] more generally with a side interest in [[foundations]]. I have a particular interest in constructing examples in (low-dimensional) [[higher geometry]].
 
+For the period July-December 2017 I will be a Lecturer at the University of Adelaide.
 
-I was a research associate (i.e. a postdoc) at the University of Adelaide from October 2013 to April 2015.
+I was a Research Associate (i.e. a postdoc) at the University of Adelaide from October 2013 to April 2015.
 
 You may also find me on: [MathOverflow](http://mathoverflow.net/users/4177/david-roberts)|[Google+](https://plus.google.com/+DavidRoberts/)|[arXiv](http://arxiv.org/a/roberts_d_1.html)|[ORCiD](http://orcid.org/0000-0002-3478-0522)|[Publons](publons.com/a/430214/)
 
