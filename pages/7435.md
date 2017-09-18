@@ -16,7 +16,7 @@
 
 ## Idea
 
-A generalization of the notion of [[trace]] in a [[monoidal category]] to a [[bicategory]] context.
+A generalization of the notion of [[trace]] in a [[monoidal category]] to a [[bicategory]] context, based on equipping the bicategory with a "shadow" or categorified trace (including the [[trace of a category]]).
 
 ## Examples
 
