@@ -55,7 +55,15 @@ where
 
 * $\mu$ is the [[charge]] of the monopole.
 
+<div style="float:left;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/TaubNUT.png" width="300">
+</div>
+
+
 Away from $\{0\} \in \mathbb{R}^3$ this gives a [[circle bundle]] with [[first Chern class]] measured by the integral of $R_0 \coloneqq d A$ (the [[RR-field]] of the [[D0-brane]]) over any [[sphere]] surrounding the singular locus in $\mathbb{R}^3 - \{0\}$. By the [[electric-magnetic duality]] between [[D0-branes]] and [[D6-branes]] (due to the [[self-dual higher gauge theory|self-duality]] of the [[RR-field]]) this means, from the 10-dimensional perspective, that at $0 \in \mathbb{R}^3$ a [[D6-brane]] is located.
+
+> graphics grabbed from [Acharya-Gukov 04](#AcharyaGukov04)
+
 
 Notice that the circle bundle away from its degeneration locus as a bundle over $S^2 \hookrightarrow \mathbb{R}^3 -\{0\}$ is necessarily of the form $S^3 \to S^2$, a multiple of the [[complex Hopf fibration]] (see also [Atiyah-Maldacena-Vafa 00, p. 10](#AtiyahMaldacenaVafa00)).
 
