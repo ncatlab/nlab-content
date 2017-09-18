@@ -33,7 +33,7 @@ The [[injective function|injection]] in the second item is in general proper. If
 
 ## Proofs via adjoints 
 
-The properties 1., 2. of Proposition \ref{PreservationOfUnionsAndIntersectionsOfSets} may be proved by appeal to fundamental relationships between [[direct image]] and [[inverse image]] and the like, which category theorists call [[adjunctions]] (not unlike adjoints in linear algebra). The advantage of this type of proof is that, despite its utter simplicity, it generalizes to much wider contexts (beyond elementary classical set theory). 
+The properties 1., 2. of Proposition \ref{PreservationOfUnionsAndIntersectionsOfSets} may be proved by appeal to fundamental relationships between [[direct image]] and [[inverse image]] and the like, which category theorists call [[adjunctions]] (similar in form to adjoints in linear algebra). The advantage of this type of proof is that, despite its utter simplicity, it generalizes to much wider contexts (beyond elementary classical set theory). 
 
 The first such relationship is that, for all subsets $S \subseteq X$ and $T \subseteq Y$, we have 
 
@@ -65,6 +65,21 @@ and again by using the reasoning forward/backward trick, we infer $\bigcap_{i \i
 ###### Remark 
 The "reasoning forward/backward trick" may be summarized by saying that in a [[poset]], we have $A = B$ iff ($A \leq T \Leftrightarrow B \leq T$), or dually that $A = B$ iff ($S \leq A \Leftrightarrow S \leq B$). This trick is vastly extrapolated by the [[Yoneda lemma]]. 
 =-- 
+
++-- {: .num_remark #Lawvere} 
+###### Remark 
+Sometimes people who work with categorial forms of logic denote direct images $f(S)$ instead by $\exists_f(S)$. What this is trying to suggest is that existential quantification corresponds to the taking of a direct image; for example, given a property $P$ of pairs $(x, y)$, i.e. a subset $P \subseteq X \times Y$ where we write $P(x, y)$ to say $(x, y) \in P$ holds, the set of $y$ such that $(\exists_{x \in X})\; P(x, y)$ holds is exactly the direct image $\pi_2(P)$ under the projection map $\pi_2: X \times Y \to Y$. What it is furthermore suggesting is that since ordinary existential quantification is the taking of a direct image along a projection map, we can actually expand the meaning of "existential quantification" to include the taking of direct images along more general maps $f: X \to Y$. With this in mind, category theorists often denote $f(S) = \{y \in Y: (\exists_{x \in X})\; y = f(x) \wedge x \in S$ by $\exists_f(S)$, and regard this as giving an operator $\exists_f: P(X) \to P(Y)$ between power sets. They also regard the taking of inverse images $T \mapsto f^{-1}(T)$ as an operator $f^{-1}: P(Y) \to P(X)$, which they often denote rather by $f^\ast: P(Y) \to P(X)$. Then the adjointness relationship between direct image and inverse image is denoted by $\exists_f \dashv f^\ast$. This is an example of a famous slogan due to Lawvere: "Logical quantification is adjoint to substitution" (with resonances far beyond the purview of logic as ordinarily conceived). 
+=-- 
+
+As for the statement that inverse images of unions are unions of inverse images, it turns out this follows from a second adjunction, this time reading as follows. For a function $f: X \to Y$ and a subset $U \subseteq X$, define 
+
+$$\forall_f(U) = \{y \in Y: (\forall_{x \in X})\; y = f(x) \Rightarrow x \in U\}$$ 
+
+which is analogous to the formula $\exists_f(S) = f(S) = \{y \in Y: (\exists_{x \in X})\; y = f(x) \wedge x \in S$ in Remark \ref{Lawvere}. (Alternatively, in classical logic where the symbol $\neg$ denotes complementation, we have $\forall_f = \neg \exists_f \neg$.) Then the second adjunction reads 
+
+$$f^{-1}(T) \subseteq U \qquad iff \qquad T \subseteq \forall_f (U)$$ 
+
+and then, following the proof of property 1., we infer that the inverse image operator $f^{-1} = f^\ast: P(Y) \to P(X)$ preserves unions. 
 
 
 
