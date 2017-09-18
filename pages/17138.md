@@ -14553,7 +14553,7 @@ from (sufficiently nice) [[topological spaces]] to $\mathbb{Z}$-[[graded abelian
 #### Generalized cohomology functors
  {#GeneralizedHomologyAndCohomologyFunctors}
 
-**Idea.** A [[generalized (Eilenberg-Steenrod) cohomology]] theory is such a contravariant functor which satisfies the key properties exhibited by [[ordinary cohomology]] (as computed for instance by [[singular cohomology]]), notably [[homotopy invariance]] and [[excision]], _except_ that its value on the point is not required to be concentrated in degree 0. Dually for [[generalized homology]]. There are two versions of the axioms, one for [[reduced cohomology]], and while not quite equivalent, they are closely related.
+**Idea.** A [[generalized (Eilenberg-Steenrod) cohomology]] theory is such a contravariant functor which satisfies the key properties exhibited by [[ordinary cohomology]] (as computed for instance by [[singular cohomology]]), notably [[homotopy invariance]] and [[excision]], _except_ that its value on the point is not required to be concentrated in degree 0. Dually for [[generalized homology]]. There are two versions of the axioms, one for [[reduced cohomology]], and they are equivalent if properly set up.
 
 An important example of a generalised cohomology theory other than [[ordinary cohomology]] is [[topological K-theory]]. The other two examples of key relevance below are [[cobordism cohomology]] and [[stable cohomotopy]].
 
@@ -14564,12 +14564,13 @@ $\,$
 
 ##### Reduced cohomology
 
+
 The traditional formulation of reduced generalized cohomology in terms of point-set topology is this:
 
 +-- {: .num_defn #ReducedGeneralizedCohomology}
 ###### Definition
 
-A **reduced [[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology theory]]** is a [[functor]]
+A **reduced [[cohomology theory]]** is a [[functor]]
 
 $$
   \tilde E^\bullet 
@@ -14577,7 +14578,7 @@ $$
   (Top^{\ast/}_{CW})^{op} \longrightarrow Ab^{\mathbb{Z}}
 $$
 
-from the [[opposite category|opposite]] of [[pointed topological spaces]] [[homeomorphism|homeomorphic]] to [[CW-complexes]] to $\mathbb{Z}$-[[graded abelian groups]] ("[[cohomology groups]]"), in components
+from the [[opposite category|opposite]] of [[pointed topological spaces]] ([[CW-complexes]]) to $\mathbb{Z}$-[[graded abelian groups]] ("[[cohomology groups]]"), in components
 
 $$
   \tilde E 
@@ -14590,24 +14591,26 @@ $$
   \,,
 $$
 
-and equipped with [[natural isomorphisms]], to be called the **[[suspension isomorphism]]** of the form
+and equipped with a [[natural isomorphism]] of degree +1, to be called the **[[suspension isomorphism]]**, of the form
 
 $$
+  \sigma
+    \;\colon\;
+  \tilde E^{\bullet +1}(\Sigma -) 
+    \overset{\simeq}{\longrightarrow} 
   \tilde E^\bullet(-) 
-   \overset{\simeq}{\longrightarrow} 
-   \tilde E^{\bullet +1}(\Sigma -) 
 $$
 
 such that:
 
-1. **([[homotopy invariance]])** If $f_1,f_2 \colon X \longrightarrow Y$ are two morphisms of pointed topological spaces such that there is a (base point preserving) [[homotopy]] $f_1 \Rightarrow f_2$ between them (def. \ref{LeftHomotopy}), then the induced [[homomorphisms]] of abelian groups are [[equality|equal]] 
+1. **([[homotopy invariance]])** If $f_1,f_2 \colon X \longrightarrow Y$ are two morphisms of pointed topological spaces such that there is a (base point preserving) [[homotopy]] $f_1 \simeq f_2$ between them, then the induced [[homomorphisms]] of abelian groups are [[equality|equal]] 
 
    $$
      f_1^\ast = f_2^\ast
      \,.
    $$
 
-1. {#ReducedExactnessAxiom} **(exactness)** For $i \colon A \hookrightarrow X$ an inclusion of pointed topological spaces, with $j \colon X \longrightarrow Cone(i)$ the reduced [[mapping cone]] (def. \ref{MappingConeAndMappingCocone}, example \ref{MappingConesInTopologicalSpaces}), then this gives an [[exact sequence]] of graded abelian groups
+1. {#ReducedExactnessAxiom} **(exactness)** For $i \colon A \hookrightarrow X$ an inclusion of pointed topological spaces, with $j \colon X \longrightarrow Cone(i)$ the induced [[mapping cone]], then this gives an [[exact sequence]] of graded abelian groups
 
    $$
      \tilde E^\bullet(Cone(i)) 
@@ -14618,32 +14621,25 @@ such that:
      \,.
    $$
 
-1. **([[wedge axiom|wedge]])** For $\{X_i\}_{i \in I} $ any set of pointed CW-complexes, then the canonical morphism
+We say $\tilde E^\bullet$ is **additive** if in addition
 
-   $$
-     \tilde E^\bullet(\vee_{i \in I} X_i) 
-     \longrightarrow
-     \prod_{i \in I} \tilde E^\bullet(X_i)
-   $$
+* **([[wedge axiom]])** For $\{X_i\}_{i \in I} $ any set of pointed CW-complexes, then the canonical morphism
 
-   from the functor applied to their [[wedge sum]], example \ref{WedgeSumAsCoproduct}, to the [[product]] of its values on the wedge summands, is an [[isomorphism]].
+  $$
+    \tilde E^\bullet(\vee_{i \in I} X_i) 
+    \longrightarrow
+    \prod_{i \in I} \tilde E^\bullet(X_i)
+  $$
 
-If the functor in addition satisfies
+  from the functor applied to their [[wedge sum]], example \ref{WedgeSumAsCoproduct}, to the [[product]] of its values on the wedge summands, is an [[isomorphism]].
 
-* **(dimension)** $\tilde E^{\bullet \neq 0}(S^0) = 0$ 
+We say $\tilde E^\bullet$ is **ordinary** if its value on the [[0-sphere]] $S^0$ is concentrated in degree 0:
 
-then it is called an **ordinary** cohomology theory.
+* **(Dimension)**  $\tilde E^{\bullet\neq 0}(\mathbb{S}^0) \simeq 0$.
 
 =--
 
 (e.g. [AGP 02, def. 12.1.4](#AguilarGitlerPrieto02))
-
-+-- {: .num_remark}
-###### Remark
-
-Sometimes the [[wedge axiom]] in def. \ref{ReducedGeneralizedCohomology} is not taken to be part of the definition of _generalized cohomology theory_ and then including it is said to give _additive_ generalized cohomology theories.
-
-=--
 
 
 This is equivalent (prop. \ref{HomotopyTheoreticVersionOfCohomologyFunctorDefIsEquivalent} below) to the following more succinct homotopy-theoretic definition:
@@ -14792,14 +14788,26 @@ $$
   E^\bullet : (Top_{CW}^{\hookrightarrow})^{op} \to Ab^{\mathbb{Z}}
 $$
 
-to the category of $\mathbb{Z}$-[[graded abelian groups]], as well as a [[natural transformation]] 
+to the category of $\mathbb{Z}$-[[graded abelian groups]], as well as a [[natural transformation]] of degree +1, to be called the **[[connecting homomorphism]]**, of the form
 
 $$
-  \delta \colon  E^\bullet(U, \emptyset) \to E^{\bullet + 1}(X, U)
+  \delta_{(X,U)} 
+    \;\colon\;  
+  E^\bullet(U, \emptyset) \to E^{\bullet + 1}(X, U)
   \,.
 $$ 
 
 such that:
+
+1. **(homotopy invariance)** For $f \colon (X_1,U_1) \to (X_2,U_2)$ a [[homotopy equivalence]] of pairs, then 
+
+   $$
+     E^\bullet(f) 
+      \;\colon\; 
+     E^\bullet(X_2,U_2) \stackrel{\simeq}{\longrightarrow} E^\bullet(X_1,U_1)
+   $$
+
+   is an [[isomorphism]];
 
 1. {#ExactnessUnreduced} **(exactness)** For $U \hookrightarrow X$ the induced sequence
 
@@ -14817,51 +14825,224 @@ such that:
      \cdots 
    $$
 
-   is a [[long exact sequence]] of abelian groups.
-
-1. **(homotopy invariance)** For $f \colon X \to Y$ a [[weak homotopy equivalence]] then 
-
-   $$
-     E^\bullet(f) \colon E^\bullet(Y) \stackrel{\simeq}{\longrightarrow} E^\bullet(X)
-   $$
-
-   is an [[isomorphism]].
+   is a [[long exact sequence]] of [[abelian groups]].
 
 1. **([[excision]])** For $S \hookrightarrow U \hookrightarrow X$. the natural inclusion of the pair $i \colon (X-S, U-S) \hookrightarrow (X, U)$ induces an isomorphism $E^n(i) \colon E^n(X-S, U-S) \to E^n(X, U)$.
 
-We say $E^\bullet$ is **additive** if in addition
+We say $E^\bullet$ is **additive** if it takes [[coproducts]] to [[products]]:
 
 * **(additivity)** If $ (X, U) = \coprod_i (X_i, U_i)$, then the canonical comparison morphism gives $E^n(X, U) \simeq \prod_i E^n(X_i, U_i)$.
 
+We say $E^\bullet$ is **ordinary** if its value on the point is concentrated in degree 0
+
+* **(Dimension)**: $E^{\bullet \neq 0}(\ast,\emptyset) = 0$.
+
 =--
 
-e.g. [AGP 02, def. 12.1.1 ](#AguilarGitlerPrieto02). 
+e.g. ([AGP 02, def. 12.1.1 ](#AguilarGitlerPrieto02)). 
 
-+-- {: .num_defn #UnreducedFromReduced}
-###### Definition
 
-Given a reduced cohomology theory $\tilde E^\bullet$, def. \ref{ReducedGeneralizedCohomologyHomotopyTheoretically}, define an unreduced theory by
++-- {: .num_example #GeneralizedCohomologyOnHomotopyQuotientMaps}
+###### Example
+
+Let $E^\bullet$ be a generalized cohomology theory, def. \ref{GeneralizedCohomologyTheory}. Let $(X,x)$ be a [[pointed topological space]]. For $p\colon (Cone(X), X) \to (\Sigma X,\{x\})$ the quotient map from the reduced cone to the [[reduced suspension]], then $E^\bullet(p)$ is an isomorphism.
+
+=--
+
++-- {: .num_prop #ExactSequenceOfATriple}
+###### Proposition
+**(exact sequence of a triple)**
+
+For $E^\bullet$ an unreduced generalized cohomology theory, def. \ref{GeneralizedCohomologyTheory}, then every inclusion of two consecutive subspaces
 
 $$
-  E^\bullet(X,A)
-  \coloneqq
-  \tilde E^\bullet(X \cup Cone(A))
+  Z \hookrightarrow Y \hookrightarrow X
+$$
+
+induces a [[long exact sequence]] of cohomology groups of the form
+
+$$
+  \cdots
+   \to
+  E^{q-1}(Y,Z) 
+    \stackrel{\bar \delta}{\longrightarrow}
+  E^q(X,Y)
+    \stackrel{}{\longrightarrow}
+  E^q(X,Z)
+    \stackrel{}{\longrightarrow}
+  E^q(Y,Z)
+    \to
+  \cdots
+$$
+
+where 
+
+$$
+  \bar \delta 
+    \;\colon \;
+  E^{q-1}(Y,Z) 
+   \longrightarrow
+  E^{q-1}(Y)
+   \stackrel{\delta}{\longrightarrow}
+  E^{q}(X,Y)
   \,.
 $$
 
 =--
 
++-- {: .proof}
+###### Proof
+
+Apply the [[braid lemma]] to the interlocking long exact sequences of the three pairs $(X,Y)$, $(X,Z)$, $(Y,Z)$. See [here](braid+lemma#ExactSequenceForTripleInGeneralizedHomology) for details.
+
+The dual braid diagram for [[generalized homology]] is this:
+
+<img src="http://www.ncatlab.org/nlab/files/BraidDiagramForHomologyOnTripled.jpg" width="500">
+
+(graphics from [this Maths.SE comment](http://math.stackexchange.com/a/1180681/58526))
+
+=---
+
++-- {: .num_remark}
+###### Remark
+
+The exact sequence of a triple in prop. \ref{ExactSequenceOfATriple} is what gives rise to the [[Cartan-Eilenberg spectral sequence]] for $E$-cohomology of a [[CW-complex]] $X$.
+
+=--
+
++-- {: .num_example #ExtractingSuspensionIsomorphismFromUnreducedCohomology}
+###### Example
+
+For $(X,x)$ a [[pointed topological space]] and $Cone(X) = (X \wedge (I_+))/X$ its reduced [[cone]], the long exact sequence of the triple $(\{x\}, X, Cone(X))$, prop. \ref{ExactSequenceOfATriple},
+
+$$
+   0
+   \simeq
+   E^q(Cone(X), \{x\})
+     \longrightarrow
+   E^q(X,\{x\})
+     \overset{\bar \delta}{\longrightarrow}
+   E^{q+1}(Cone(X),X)
+     \longrightarrow
+   E^{q+1}(Cone(X), \{x\})
+   \simeq 0
+$$
+
+exhibits the [[connecting homomorphism]] $\bar \delta$ here as an [[isomorphism]]
+
+$$
+   \bar \delta
+     \;\colon\;
+   E^q(X,\{x\})
+     \overset{\simeq}{\longrightarrow}
+   E^{q+1}(Cone(X),X)
+  \,.
+$$
+
+This is the _[[suspension isomorphism]]_ extracted from the unreduced cohomology theory, see def. \ref{FromUnreducedToReducedCohomology} below.
+
+=--
+
+##### Relation between unreduced and reduced cohomology
+
++-- {: .num_defn #FromUnreducedToReducedCohomology}
+###### Definition
+
+Let $E^\bullet$ be an unreduced cohomology theory, def. \ref{GeneralizedCohomologyTheory}. Define a reduced cohomology theory, def. \ref{ReducedGeneralizedCohomology} $(\tilde E^\bullet, \sigma)$ as follows.
+
+For $x \colon \ast \to X$ a [[pointed topological space]], set
+
+$$
+  \tilde E^\bullet(X,x) \coloneqq E^\bullet(X,\{x\})
+  \,.
+$$
+
+This is clearly [[functor|functorial]]. Take the [[suspension isomorphism]] to be the composite
+
+$$
+  \sigma 
+   \;\colon\;
+  \tilde E^{\bullet+1}(\Sigma X)
+   =
+  E^{\bullet+1}(\Sigma X, \{x\})
+   \overset{E^\bullet(p)}{\longrightarrow}
+  E^{\bullet+1}(Cone(X),X)
+    \overset{\bar \delta^{-1}}{\longrightarrow}
+  E^\bullet(X,\{x\})
+   =
+  \tilde E^{\bullet}(X)
+$$
+
+of the isomorphism $E^\bullet(p)$ from example \ref{GeneralizedCohomologyOnHomotopyQuotientMaps} and the [[inverse]] of the isomorphism $\bar \delta$ from example \ref{ExtractingSuspensionIsomorphismFromUnreducedCohomology}.
+
+=--
 
 +-- {: .num_prop}
 ###### Proposition
 
-The construction in def. \ref{UnreducedFromReduced} constitutes an [[equivalence of categories]] between reduced cohomology theories, def. \ref{ReducedGeneralizedCohomology}, and unreduced cohomology theories, def. \ref{GeneralizedCohomologyTheory}.
+The construction in def. \ref{FromUnreducedToReducedCohomology} indeed gives a reduced cohomology theory.
 
 =--
 
-(e.g. [Switzer, 7.42, 7.44](#Switzer75)) 
+(e.g [AGP 02, theorem 12.1.12](#AguilarGitlerPrieto02))
 
-(...)
++-- {: .num_prop #UnreducedCohomologyIsReducedPlusPointValue}
+###### Proposition
+
+Let $E^\bullet$ be an unreduced cohomology theory, and $\tilde E^\bullet$ its reduced cohomology theory from def. \ref{FromUnreducedToReducedCohomology}. For $(X,\ast)$ a pointed topological space, then there is an identification
+
+$$
+  E^\bullet(X) \simeq \tilde E^\bullet(X) \oplus E^\bullet(\ast)
+$$
+
+of the unreduced cohomology of $X$ with the [[direct sum]] of the reduced cohomology of $X$ and the unreduced cohomology of the base point.
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The pair $\ast \hookrightarrow X$ induces the seqence
+
+$$
+  \cdots
+   \to 
+  E^{\bullet-1}(\ast)
+    \stackrel{\delta}{\longrightarrow}
+  \tilde E^\bullet(X)
+    \stackrel{}{\longrightarrow}
+  E^\bullet(X) 
+    \stackrel{}{\longrightarrow}
+  E^\bullet(\ast)
+    \stackrel{\delta}{\longrightarrow}
+  \tilde E^{\bullet+1}(X)
+    \to
+  \cdots
+$$
+
+which by the exactness clause in def. \ref{GeneralizedCohomologyTheory} is [[exact sequence|exact]]. 
+
+Now since the composite $\ast \to X \to \ast$ is the identity, the morphism 
+$E^\bullet(X) \to E^\bullet(\ast)$ has a [[section]] and so is in particular an [[epimorphism]]. Therefore, by exactness, the [[connecting homomorphism]] vanishes, $\delta = 0$ and we have a [[short exact sequence]]
+
+$$
+  0 
+    \to 
+  \tilde E^\bullet(X)
+    \stackrel{}{\longrightarrow}
+  E^\bullet(X) 
+    \stackrel{}{\longrightarrow}
+  E^\bullet(\ast)
+    \to
+  0
+$$
+
+with the right map an epimorphism. Hence this is a [[split exact sequence]] and the statement follows.
+
+
+=--
+
 
 
 #### Brown representability theorem
