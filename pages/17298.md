@@ -1096,7 +1096,7 @@ does _not_ become highly connected as $q$ increases, due to the [[discrete topol
 
 Another use of free spectra is that their [[pushout products]] may be explicitly analyzed, and checking the [[pushout-product axiom]] for general cofibrations may be reduced to checking it on morphisms between free spectra.
 
-+-- {: .num_lemma}
++-- {: .num_lemma #SmashProductOfFreeSpectra}
 ###### Lemma
 
 For $A, B \in Top^{\ast/}$ and for $k,\ell \in \mathbb{N}$, then the [[symmetric monoidal smash product of spectra]], def. \ref{SymmetricSmashProductOfDiagramSpectra}, applied to the corresponding [[free spectra]] from def. \ref{FreeStructuredSpectrum} relates to the plain [[smash product]] of [[pointed topological spaces]] via [[natural isomorphisms]]
@@ -1135,6 +1135,92 @@ $$
 $$
 
 where we used the adjoint characterization ([here](Day+convolution#DayConvolutionViaNaturalIsosInvolvingExternalTensorAndTensor)) of the [[Day convolution]]. Since this is natural in $Z$, the [[Yoneda lemma]] implies the claim.
+
+=--
+
++-- {: .num_lemma}
+###### Lemma
+
+The [[symmetric monoidal smash product of spectra]] of the [[free spectrum]] constructions (def. \ref{FreeStructuredSpectrum}) on the generating cofibrations $\{S^{n-1}\overset{i_n}{\hookrightarrow} D^n\}_{n \in \mathbb{B}}$ of the [[classical model structure on topological spaces]] is given by addition of indiuces
+
+$$
+  (F_k i_{n_1}) \Box_{\mathbb{S}_{dia}} (F_\ell i_{n_2})
+  \simeq
+  F_{k+\ell}( i_{n_1 + n_2})
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By lemma \ref{SmashProductOfFreeSpectra} the [[commuting diagram]] defining the [[pushout product]] of [[free]] specta
+
+$$
+  \array{
+    && F_k S^{n_1-1}_+ \wedge_{\mathbb{S}_{dia}} F_{\ell} S^{n_2-1}_+
+    \\
+    & \swarrow && \searrow
+    \\
+    F_k D^{n_1}_+ \wedge_{\mathbb{S}_{dia}} F_{\ell} S^{n_2-1}_+
+    &&
+    &&
+    F_k S^{n_1-1}_+ \wedge_{\mathbb{S}_{dia}} F_{\ell} D^{n_2-1}_+
+    \\
+    & \searrow && \swarrow
+    \\
+    && F_k D^{n_1-1}_+ \wedge_{\mathbb{S}_{dia}} F_k D^{n_2-1}_+
+  }
+  \;\;\;\;
+  \,,
+  \;\;\;\;
+  \array{
+    && F_{k+\ell}((S^{n_1-1}\times S^{n_2-1})_+)
+    \\
+    & \swarrow && \searrow
+    \\
+    F_{k+\ell}((D^{n_1} \times S^{n_2-1})_+)
+    &&
+    &&
+    F_{k+\ell}((S^{n_1-1} \times D^{n_2})_+)
+    \\
+    & \searrow && \swarrow
+    \\
+    && F_{k+ \ell}( (D^{n_1}\times D^{n_2})_+ )
+  }
+$$
+
+(...)
+
+=--
+
++-- {: .num_lemma}
+###### Lemma
+
+The [[pushout product]] of two cofibrations in $\mathbb{S}_{dia}Mod_{stable}$ is again a cofibration.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+$$
+  \array{
+    && F_k S^{n_1-1}_+ \wedge_{\mathbb{S}_{dia}} F_{\ell} S^{n_2-1}_+
+    \\
+    & \swarrow && \searrow
+    \\
+    F_k D^{n_1}_+ \wedge_{\mathbb{S}_{dia}} F_{\ell} S^{n_2-1}_+
+    &&
+    &&
+    F__k S^{n_1-1}_+ \wedge_{\mathbb{S}_{dia}} F_{\ell} D^{n_2-1}_+
+    \\
+    & \searrow && \swarrow
+    \\
+    && F_k D^{n_1-1}_+ \wedge_{\mathbb{S}_{dia}} F_k D^{n_2-1}_+
+  }
+$$
 
 =--
 
