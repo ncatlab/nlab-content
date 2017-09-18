@@ -16,7 +16,7 @@
 =--
 =--
 
-
+> see also _[[super p-brane]]_.
 
 
 #Contents#
@@ -232,4 +232,7 @@ See also [[division algebras and supersymmetry]].
 
 [[!redirects NS-fivebrane]]
 [[!redirects NS-fivebranes]]
+
+[[!redirects p-brane]]
+[[!redirects p-branes]]
 
