@@ -3275,7 +3275,7 @@ Now we may finally state the main proposition on _[[functors with smash product]
 +-- {: .num_prop #DayMonoidsAreLaxMonoidalFunctorsOnTheSite}
 ###### Proposition
 
-Let $(\mathcal{C},\otimes, 1)$ be a pointed [[topologically enriched category]] ([[symmetric monoidal category|symmetric]]) [[monoidal category]] (def. \ref{MonoidalCategory}). Regard $(Top_{cg}^{\ast/}, \wedge , S^0)$ as a topological [[symmetric monoidal category]] as in example \ref{PointedTopologicalSpacesWithSmashIsSymmetricMonoidalCategory}.
+Let $(\mathcal{C},\otimes, 1)$ be a pointed [[topologically enriched category|topologically enriched]] ([[symmetric monoidal category|symmetric]]) [[monoidal category]] (def. \ref{MonoidalCategory}). Regard $(Top_{cg}^{\ast/}, \wedge , S^0)$ as a topological [[symmetric monoidal category]] as in example \ref{PointedTopologicalSpacesWithSmashIsSymmetricMonoidalCategory}.
 
 Then ([[commutative monoid in a symmetric monoidal category|commutative]]) [[monoid in a monoidal category|monoids in]] (def. \ref{MonoidsInMonoidalCategory}) the [[Day convolution]] monoidal category $([\mathcal{C}, Top^{\ast/}_{cg}], \otimes_{Day}, y(1_{\mathcal{C}}))$ of prop. \ref{DayConvolutionYieldsMonoidalCategoryStructure} are equivalent to ([[braided monoidal functor|braided]]) [[lax monoidal functors]] (def. \ref{LaxMonoidalFunctor}) of the form
 
@@ -3412,10 +3412,12 @@ This is an immediate corollary of prop. \ref{DayMonoidsAreLaxMonoidalFunctorsOnT
 
 
 
+
+
 #### $\mathbb{S}$-Modules
  {#SModules}
 
-We now give a unified discussion of the categories of
+We give a unified discussion of the categories of
 
 1. [[sequential spectra]]
 
@@ -3425,7 +3427,7 @@ We now give a unified discussion of the categories of
 
 1. pre-[[excisive functors]]
 
-(all in [[topological spaces]]) as [[categories of modules]] with respect to [[Day convolution]] monoidal structures on [[Top]]-[[enriched functor categories]] over restrictions to [[faithful functor|faithful]] sub-[[sites]] of the canonical representative of the [[sphere spectrum]] as an excisive functor on $Top^{\ast/}_{fin}$.
+(all in [[topological spaces]]) as [[categories of modules]] with respect to [[Day convolution]] monoidal structures on [[Top]]-[[enriched functor categories]] over restrictions to [[faithful functor|faithful]] sub-[[sites]] of the canonical representative of the [[sphere spectrum]] as a pre-excisive functor on $Top^{\ast/}_{fin}$.
 
 This approach is due to ([Mandell-May-Schwede-Shipley 00](#MMSS00)) following ([Hovey-Shipley-Smith 00](HoveyShipleySmith00)).
 
@@ -3433,7 +3435,7 @@ This approach is due to ([Mandell-May-Schwede-Shipley 00](#MMSS00)) following ([
 ##### Pre-Excisive functors
  {#OnPreExcisiveFunctors}
 
-We now consider an almost tautological construction of a pointed topologically enriched category equipped with a closed symmetric monoidal product: the category of _[[pre-excisive functors]]_. Then we show that this tautological category restricts, in a certain sense, to the category of [[sequential spectra]]. However, under this restriction the symmetric monoidal product breaks, witnessing the lack of a functorial [[smash product of spectra]] on sequential spectra. However from inspection of this failure we see that there are categories of [[structured spectra]] "in between" those of all pre-excisive functors and plain sequential spectra, notably the categories of _[[orthogonal spectra]]_ and of _[[symmetric spectra]]_. These intermediate categories retain the concrete tractable nature of sequential spectra, but are rich enough to also retain the symmetric monoidal product inherited from pre-excisive functors: this is the _[[symmetric monoidal smash product of spectra]]_ that we are after.
+We consider an almost tautological construction of a pointed topologically enriched category equipped with a closed symmetric monoidal product: the category of _[[pre-excisive functors]]_. Then we show that this tautological category restricts, in a certain sense, to the category of [[sequential spectra]]. However, under this restriction the symmetric monoidal product breaks, witnessing the lack of a functorial [[smash product of spectra]] on sequential spectra. However from inspection of this failure we see that there are categories of [[structured spectra]] "in between" those of all pre-excisive functors and plain sequential spectra, notably the categories of _[[orthogonal spectra]]_ and of _[[symmetric spectra]]_. These intermediate categories retain the concrete tractable nature of sequential spectra, but are rich enough to also retain the symmetric monoidal product inherited from pre-excisive functors: this is the _[[symmetric monoidal smash product of spectra]]_ that we are after.
 
 **Literature** ([MMSS 00, Part I and Part III](#MMSS00))
 
@@ -3487,7 +3489,7 @@ $$
   \left( 
     Exc(Top_{cg})
     ,\;
-    \wedge_{Day}
+    \wedge \coloneqq \otimes_{Day}
     ,\; 
    \mathbb{S}_{exc}
   \right)
@@ -3507,10 +3509,12 @@ with
 
 =--
 
+We had previewed this in [[Introduction to Stable homotopy theory -- P|Part P]], [this example](Introduction+to+Stable+homotopy+theory+--+P#PreExcisiveFunctors).
+
 +-- {: .num_remark #EveryPreExcisiveFunctorIsSModule}
 ###### Remark
 
-By example \ref{MonoidGivenByTensorUnit} the [[sphere spectrum]] incarnated as a pre-excisive functor $\mathbb{S}_{exc}$ (according to def. \ref{FinitePointedCWComplexes}) is canonically a [[commutative monoid in a symmetric monoidal category|commutative monoid in]] the category of pre-excisive functors  (def. \ref{MonoidsInMonoidalCategory})
+By example \ref{MonoidGivenByTensorUnit} the [[sphere spectrum]] incarnated as a pre-excisive functor $\mathbb{S}_{exc}$ (according to def. \ref{FinitePointedCWComplexes}) is canonically a [[commutative monoid in a symmetric monoidal category|commutative monoid in]] the category of pre-excisive functors  (def. \ref{MonoidsInMonoidalCategory}).
 
 Moreover, by example \ref{EveryObjectIsModuleOverTensorUnit}, every object of $Exc(Top_{cg})$ (def. \ref{FinitePointedCWComplexes}) is canonically a [[module object]] over $\mathbb{S}_{exc}$. We may therefore tautologically identify the category of pre-excisive functors with the [[module category]] over the sphere spectrum:
 
@@ -3546,7 +3550,7 @@ Define the following [[pointed topologically enriched categories|pointed topolog
 
    The tensor product is the addition of natural numbers, $\otimes = +$, and the [[tensor unit]] is 0. The [[braiding]] is, necessarily, the identity.
 
-1. $Sym$ is the standard [[skeletal category|skeleton]] of the [[core]] of [[FinSet]] with [[zero morphisms]] adjoined: its [[objects]] are the [[finite sets]] $\overline{n} \coloneqq \{1, \cdots,n\}$ for $n \in \mathbb{N}$, all non-[[zero morphism|zero]] morphisms are [[automorphisms]] and the [[automorphism group]] of $\{1,\cdots,n\}$ is the [[symmetric group]] $\Sigma(n)$ on $n$ elements, hence the [[hom-spaces]] are the following [[discrete topological spaces]]:
+1. $Sym$ is the standard [[skeletal category|skeleton]] of the [[core]] of [[FinSet]] with [[zero morphisms]] adjoined: its [[objects]] are the [[finite sets]] $\overline{n} \coloneqq \{1, \cdots,n\}$ for $n \in \mathbb{N}$ (hence \overline{0} is the [[empty set]]), all non-[[zero morphism|zero]] morphisms are [[automorphisms]] and the [[automorphism group]] of $\{1,\cdots,n\}$ is the [[symmetric group]] $\Sigma(n)$ on $n$ elements, hence the [[hom-spaces]] are the following [[discrete topological spaces]]:
 
    $$
      Sym(n_1, n_2) 
@@ -3563,17 +3567,17 @@ Define the following [[pointed topologically enriched categories|pointed topolog
    The [[tensor product]] is the [[disjoint union]] of sets, tensor unit is the [[empty set]]. The [[braiding]] 
 
    $$
-     \tau_{n_1 , n_2}
+     \tau^{Sym}_{n_1 , n_2}
      \;\colon\;
      \overline{n_1} \cup \overline{n_2}
        \overset{}{\longrightarrow}
      \overline{n_2} \cup \overline{n_1}
    $$
 
-   is given by the canonical [[permutation]] in $\Sigma_{n_1+n_2}$ that [[shuffle|shuffles]] the first $n_1$ elements past the remaining $n_2$ elements.
+   is given by the canonical [[permutation]] in $\Sigma(n_1+n_2)$ that [[shuffle|shuffles]] the first $n_1$ elements past the remaining $n_2$ elements.
 
 
-1. $Orth$ has as objects finite dimenional real linear [[inner product spaces]] $(V, \langle -,-\rangle)$ and as non-zero morphisms the [[linear map|linear]] [[isometry|isometric]] [[isomorphisms]] between these; hence the [[automorphism group]] of the object $(V, \langle -,-\rangle)$ is the [[orthogonal group]] $O(V)$; the monoidal product is [[direct sum]] of linear spaces, the tensor unit is the 0-vector space; again we turn this into a $Top^{\ast/}$-enriched category by adjoining a basepoint to the hom-spaces;
+1. $Orth$ has as objects finite dimenional real linear [[inner product spaces]] $(V, \langle -,-\rangle)$ and as non-zero morphisms the [[linear map|linear]] [[isometry|isometric]] [[isomorphisms]] between these; hence the [[automorphism group]] of the object $(V, \langle -,-\rangle)$ is the [[orthogonal group]] $O(V)$; the monoidal product is [[direct sum]] of linear spaces, the tensor unit is the 0-vector space; again we turn this into a $Top^{\ast/}_{cg}$-enriched category by adjoining a basepoint to the hom-spaces;
   
    $$
      Orth(V_1,V_2) 
@@ -3587,7 +3591,17 @@ Define the following [[pointed topologically enriched categories|pointed topolog
      \right.
    $$
 
-   The [[tensor product]] is the [[direct sum]] of linear inner product spaces, tensor unit is the 0-vector space. The [[braiding]] is that of $Sym$, under the canonical embedding $\Sigma_{n_1+n_2} \hookrightarrow O(n_1+n_2)$ of the [[symmetric group]] into the [[orthogonal group]].
+   The [[tensor product]] is the [[direct sum]] of linear inner product spaces, tensor unit is the 0-vector space. The [[braiding]] 
+
+   $$
+     \tau^{Orth}_{V_1,V_2}
+     \;\colon\;
+     V_1 \oplus V_2
+     \longrightarrow
+     V_2 \oplus V_1
+   $$
+
+   is the canonical orthogonal transformation that switches the summands.
 
 Notice that in the notation of example \ref{CoendGivesQuotientByDiagonalGroupAction}
 
@@ -3634,11 +3648,11 @@ Here $S^V$ denotes the [[one-point compactification]] of $V$. On morphisms $sym 
 
 Consider the pointed topological diagram categries  (def. \ref{PointedTopologicalFunctorCategory}, [exmpl.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctorsToTopk)) over these categories:
 
-* $[Seq,Top^{\ast/}_{cg}]$ called the category of **sequences** of pointed topological spaces (e.g. [HSS 00, def. 2.3.1](#HoveyShipleySmith00));
+* $[Seq,Top^{\ast/}_{cg}]$ is called the category of **sequences** of pointed topological spaces (e.g. [HSS 00, def. 2.3.1](#HoveyShipleySmith00));
 
-* $[Sym,Top^{\ast/}_{cg}]$ called the category of **symmetric sequences** (e.g. [HSS 00, def. 2.1.1](#HoveyShipleySmith00));
+* $[Sym,Top^{\ast/}_{cg}]$ is called the category of **symmetric sequences** (e.g. [HSS 00, def. 2.1.1](#HoveyShipleySmith00));
 
-* $[Orth, Top^{\ast/}_{cg}]$ called the category of **orthogonal sequences**.
+* $[Orth, Top^{\ast/}_{cg}]$ is called the category of **orthogonal sequences**.
 
 Consider the sequence of restrictions of topological diagram categories, according to prop. \ref{PullbackAlongLaxMonoidalFunctorPreservesMonoidsForDayConvolution} along the above inclusions:
 
@@ -3827,7 +3841,7 @@ $$
 
 =--
 
-([HoveyShipleySmith 00, prop. 2.3.4](#HoveyShipleySmith00))
+([Hovey-Shipley-Smith 00, prop. 2.3.4](#HoveyShipleySmith00))
 
 +-- {: .proof}
 ###### Proof
@@ -3962,7 +3976,7 @@ A topological **[[symmetric spectrum]]** $X$  is
 
 1. a sequence $\{X_n  \in Top_{cg}^{\ast/}\;\vert\; n \in \mathbb{N}\}$ of [[pointed topological space|pointed]] [[compactly generated topological spaces]];
 
-1. a basepoint preserving continuous right [[action]] of the [[symmetric group]] $\Sigma_n$ on $X_n$;
+1. a basepoint preserving continuous right [[action]] of the [[symmetric group]] $\Sigma(n)$ on $X_n$;
 
 1. a sequence of morphisms  $\sigma_n \colon S^1 \wedge X_n  \longrightarrow X_{n+1}$ 
 
@@ -3983,7 +3997,7 @@ such that
     \stackrel{\sigma_{n+k-1}}{\longrightarrow} X_{n+k}
   $$
 
-  [[intertwiner|intertwines]] the $\Sigma_{n} \times \Sigma_k$-[[action]].
+  [[intertwiner|intertwines]] the $\Sigma(n) \times \Sigma(k)$-[[action]].
 
 A [[homomorphism]] of symmetric spectra $f\colon X \longrightarrow Y$ is
 
@@ -7555,6 +7569,10 @@ In conclusion, the right vertical morphism is the pushout of a stable weak homot
 [[!include homological and higher algebra -- table]]
 
 (...)
+
+
+
+
 
 
 
