@@ -256,6 +256,8 @@ This is the simplest in a class of counter-examples discussed in ([McCord](#McCo
 
 * [[homotopy equivalence]], **weak homotopy equivalence**
 
+  * [[n-equivalence]]
+
   [[stable weak homotopy equivalence]]
 
 * [[Bousfield equivalence]]
