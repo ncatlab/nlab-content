@@ -82,7 +82,7 @@ A (unital, non-commutative) **ring** is (equivalently)
 * a [[pointed object|pointed]] [[enriched category|category enriched over]] [[Ab]] with a single [[object]].
 * a [[ringoid]] with a single [[object]].
 
-A **commutative** (unital) ring is an [[commutative monoid]] object in $(Ab, \otimes)$.
+A **commutative** (unital) ring is a [[commutative monoid]] object in $(Ab, \otimes)$.
 
 =--
 
