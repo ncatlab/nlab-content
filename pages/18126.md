@@ -887,6 +887,8 @@ $\,$
 
 Here is some common **further terminology** regarding topological spaces:
 
+There is an evident [[partial ordering]] on the set of topologies that a given set may carry:
+
 +-- {: .num_defn #TopologyFinerCoarser}
 ###### Definition
 **(finer/coarser topologies)**
@@ -907,6 +909,9 @@ one says that
 
 =--
 
+With any kind of [[mathematical structure|structure]] on [[sets]], it is of interest how to 
+"[[generators and relations|generate]]" such structures from a small amount of data:
+
 +-- {: .num_defn #TopologyBase}
 ###### Definition
 **([[basis for the topology]])**
@@ -915,24 +920,41 @@ Let $(X, \tau)$ be a [[topological space]], def. \ref{TopologicalSpace},
 and let
 
 $$
-  B \subset \tau
+  \beta \subset \tau
 $$
 
 be a [[subset]] of its set of [[open subsets]]. We say that
 
-1. $B$ is a _[[topological base|basis for the topology]]_ if every open subset $O \in \tau$ is a [[union]] of elements of $B$;
+1. $\beta$ is a _[[topological base|basis for the topology]]_ if every open subset $O \in \tau$ is a [[union]] of elements of $\beta$;
 
-1. $B$ is a _[[topological base|sub-basis for the topology]]_ if every open subset $O \in \tau $ is a [[union]] of [[finitary intersections|finite intersections]] of elements of $B$.
+1. $\beta$ is a _[[topological base|sub-basis for the topology]]_ if every open subset $O \in \tau $ is a [[union]] of [[finitary intersections|finite intersections]] of elements of $\beta$.
 
-Alternatively, $B \subset \tau$ is a sub-basis for $\tau$ if $\tau$ is the coarsest topology (def. \ref{TopologyFinerCoarser})
-which contains $B$.
 
 =--
 
-Often it is convenient to define topologies by defining some (sub-)basis (def. \ref{TopologyBase}). Examples are the definition 
-of the binary [[product topological space|product topology]] below in def. \ref{BinaryProductTopologicalSpace} below, 
-or of the [[compact-open topology]] on [[mapping spaces]] below in def. \ref{CompactOpenTopology}.
+Often it is convenient to define topologies by defining some (sub-)basis (def. \ref{TopologyBase}). Examples are the 
+the [[metric topology]] below def. \ref{MetricTopology}, 
+the [[product topological space|binary product topology]] below in def. \ref{BinaryProductTopologicalSpace} below, 
+and the [[compact-open topology]] on [[mapping spaces]] below in def. \ref{CompactOpenTopology}.
+To make use of this, we need to recognize sets of open subsets that serve as the basis for some topology:
 
++-- {: .num_lemma }
+###### Lemma
+
+Let $X$ be a set.  
+
+1. A collection $\beta \subset P(X)$ of [[subsets]] of $X$ is a [[basis of a topology|basis]]
+for some topology $\tau \subset P(X)$ (def. \ref{TopologyBase}) precisely if
+
+   1. every point of $X$ is contained in at least one element of $\beta$;
+
+   1. for every two subsets $B_1, B_2 \in \beta$ and for every point $x \in B_1 \cap B_2$ in their intersection, then there exists
+   a $B \in \beta$ that contains $x$ and is contained in the intersection: $x \in B \subset B_1 \cap B_2$.
+
+1. A subset $B \subset \tau$ of opens is a sub-basis for a topology $\tau$ on $X$ precisely if $\tau$ is the coarsest topology (def. \ref{TopologyFinerCoarser}) which contains $B$.
+
+
+=--
 
 
 
@@ -949,9 +971,12 @@ Our motivating example now reads as follows:
 
 Let $(X,d)$ be a [[metric space]] (def. \ref{MetricSpace}). Then the collection of its [[open subsets]] in def. \ref{OpenSubsetsOfAMetricSpace} constitutes a _[[topological space|topology]]_ on the set $X$, making it a _[[topological space]]_ in the sense of def. \ref{TopologicalSpace}. This is called the _[[metric topology]]_.
 
+The [[open balls]] in a metric space constitute a [[basis of a topology]] (def. \ref{TopologyBase}) for the [[metric topology]].
+
+
+
 =--
 
-Stated more concisely: the [[open balls]] in a metric space constitute a "[[basis of a topology|basis]]" for the [[metric topology]]:
 
 
 While the example of [[metric space]] topologies (example \ref{MetricTopology}) is the motivating example
@@ -963,6 +988,7 @@ The following simple example of a (metric) topological space is important for th
 
 +-- {: .num_example #Point}
 ###### Example
+**(the [[point]])**
 
 On a [[singleton]] set $\{1\}$ there exists a unique topology $\tau$
 making it a [[topological space]] according to def. \ref{TopologicalSpace},
@@ -977,9 +1003,6 @@ $$
   \,.
 $$
 
-Of course this is equivalently the [[metric topology]] (example \ref{MetricTopology}) on $\mathbb{R}^0$,
-regarded as the 0-dimensional [[Euclidean space]] (example \ref{EuclideanNorm}).
-
 We write
 
 $$
@@ -991,6 +1014,9 @@ $$
 $$
 
 for this topological space and call it _the [[point]]_.
+
+Of course this is equivalently the [[metric topology]] (example \ref{MetricTopology}) on $\mathbb{R}^0$,
+regarded as the 0-dimensional [[Euclidean space]] (example \ref{EuclideanNorm}).
 
 =--
 
@@ -1342,9 +1368,73 @@ $$
 
 If a [[singleton]] subset $\{x\} \subset X$ is closed, one says that _$x$ is a closed point of $X$_.
 
-Given any subset $S \subset X$, then is _[[topological closure]]_ $Cl(X)$ is the smalled closed subset containing $S$.
+Given any subset $S \subset X$, then is _[[topological closure]]_ $Cl(X)$ is the smallest closed subset containing $S$.
 
 =--
+
++-- {: .num_defn #IntSubset}
+###### Definition
+**([[topological interior]])**
+
+Let $(X,\tau)$ be a [[topological space]] (def. \ref{TopologicalSpace}) and let $S \subset X$ be a [[subset]].
+Then the _[[topological interior]]_ of $S$ is the largest [[open subset]] $Int(S) \in \tau$ still contained in $S$,
+$Int(S) \subset S \subset X$:
+
+$$
+  Int(S) \coloneqq \underset{{U \in \tau} \atop {O \subset S}}{\cup} U
+  \,.
+$$
+
+=--
+
++-- {: .num_lemma #RelationClAndInt}
+###### Lemma
+
+Let $(X,\tau)$ be a [[topological space]] (def. \ref{TopologicalSpaces}) and let $S \subset X$ be a [[subset]].
+Then the [[topological interior]] of $S$ (def. \ref{IntSubset}) equals the [[complement]] of the
+[[topological closure]] $Cl(X\backslash S)$ of the complement of $S$:
+
+$$
+  Int(S) 
+    = 
+  X \backslash Cl\left(
+    X \backslash S
+  \right)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By taking [[complements]] once more, the statement is equivalent to
+
+$$
+  X \backslash Int(S)
+  =
+  Cl( X \backslash S )
+  \,.
+$$
+
+Now we compute:
+
+$$
+  \begin{aligned}
+    X \backslash Int(S)
+    & =
+    X \backslash \left(  \underset{{U \, open} \atop {U \subset S}}{\cup}U \right)
+    \\
+    & = \underset{U \subset S}{\cap} X \backslash U
+    \\
+    & = \underset{{C\, closed} \atop {C \supset X \backslash S}}{\cap} C
+    \\
+    & = Cl(X \backslash S)
+  \end{aligned}
+$$
+
+=--
+
 
 +-- {: .num_prop #ConvergenceInClosedSubspace}
 ###### Proposition
@@ -1425,7 +1515,7 @@ with $U_1 \cap U_2 \subset P$ then $U_1 \subset P$ or $U_2 \subset P$:
 
 $$
   \left(
-    X \backslash P \,\text{irreducible}
+    X \backslash P \,\,\text{irreducible}
   \right)
   \;\Leftrightarrow\;
   \left(
