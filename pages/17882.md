@@ -34,7 +34,13 @@ This idea is mentioned as motivation for developing concepts of causal manifolds
 
 * [[causal set]]
 
+* [[causal closure]]
+
 * [[causal locality]]
+
+* [[causal additivity]]
+
+* [[causal perturbation theory]]
 
 ## References
 
