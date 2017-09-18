@@ -2,4 +2,10 @@
 
 * [webpage](https://people.math.osu.edu/goss.3/)
 
+## related $n$Lab entries
+
+* [[arithmetic geometry]]
+
+* [[Mellin transform]]
+
 category: people
