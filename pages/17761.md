@@ -4,10 +4,11 @@
 
 ## Idea
 
-The **order polynomial** $\Omega(P;n)$ of a finite [[partially ordered set]] $P$ counts the total number of [[order-preserving functions]] from $P$ into any [[linear order]] $\mathbf{n} = \{ 0 \lt 1 \lt \cdots \lt n-1 \}.$
+The **order polynomial** $\Omega(P;n)$ of a finite [[partially ordered set]] $P$ counts the number of ways that $P$ can be extended to a [[linear order]] of size $n$.
 
 ## Definition
 
+By a _linear extension_ of $P$ of size $n$, we mean an [[order-preserving functions]] from $P$ to $\mathbf{n} = \{ 0 \lt 1 \lt \cdots \lt n-1 \}$.
 To see that
 $$\Omega(P;n) = |Hom(P,\mathbf{n})|$$
 defines a [[polynomial]] in $n$, first observe that any function $P \to \mathbf{n}$ factors as a [[surjection]] from $P$ onto some $\mathbf{k} = \{ 0 \lt 1 \lt \cdots \lt k-1 \}$ (where $k \le n$), followed by an [[injection]] from $\mathbf{k}$ to $\mathbf{n}$. The total number of order-preserving functions from $P$ to $\mathbf{n}$ can therefore be calculated explicitly as 
