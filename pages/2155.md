@@ -63,6 +63,7 @@ For example, if one is studying Cartesian spaces as [[inner product space]]s, th
 
 ### Topological structure
 
+
 The [[open n-ball]] is [[homeomorphic]] [[Cartesian space]] $\mathbb{R}^n$
 
 $$
@@ -70,6 +71,7 @@ $$
   \,.
 $$
 
+* [[topological invariance of dimension]]
 
 ### Smooth structures
 
