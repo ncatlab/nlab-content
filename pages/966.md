@@ -97,7 +97,7 @@ In the first two cases, which work by replacing large limits by small ones, it s
 
 Here is a proof of the General Adjoint Functor Theorem: that a functor $R : C \to D$ out of a [[locally small category]] $C$ with all small limits has a left adjoint if it preserves these [[limit]]s and satisfies the [[solution set condition]]. 
 
-From the discussion at <a href="http://ncatlab.org/nlab/show/adjoint%20functor#UniversalArrows">adjoint functors -- In terms of universal arrows</a> we have that the existence of the adjoint is equivalent to the existence for each $d \in D$ of an [[initial object]] $i_d : d \to R L d$ in the [[comma category]] $(d \downarrow R)$: an object such that for each $f : d' \to R d$ there is a unique $\tilde f$ such that 
+From the discussion at <a href="http://ncatlab.org/nlab/show/adjoint%20functor#UniversalArrows">adjoint functors -- In terms of universal arrows</a> we have that the existence of the adjoint is equivalent to the existence for each $d \in D$ of an [[initial object]] $i_d : d \to R L d$ in the [[comma category]] $(d \downarrow R)$: an object such that for each $f : d \to R d'$ there is a unique $\tilde f$ such that 
 
 $$
   \array{
