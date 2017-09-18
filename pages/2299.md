@@ -19,26 +19,21 @@
 
 ## Idea
 
-_Higher geometry_ or _homotopical geometry_ refers to the generalization of [[geometry]] in the context of [[higher category theory]] and [[homotopy theory]]. More specifically, it is the geometry of some [[(infinity,1)-category]] $\mathcal{G}$ of "local models" or "test spaces". Given such a $\mathcal{G}$, together with some additional structure, one gets a hierarchy of "generalized spaces":
+_Higher geometry_ or _homotopical geometry_ is the study of the notions of [[space]] and [[geometry]] in the context of [[higher category theory]] and [[homotopy theory]].
 
-* representable or affine $\mathcal{G}$-stacks
-  $\hookrightarrow$ $\mathcal{G}$-schemes
-  $\hookrightarrow$ $\mathcal{G}$-stacks
-  $\hookrightarrow$ $\mathcal{G}$-prestacks
+Within higher geometry, there are several possible axiomatizations of the notion of [[geometry]] and of [[spaces]] in that geometry. In this entry we discuss some of these axiomatizations, which are built on [[(∞,1)-topos theory]] or [[stable (∞,1)-category|stable (∞,1)-category theory]]. 
 
-Higher geometry is typically built on [[(∞,1)-topos theory]], which (see [[topos]]) provides a general context in which to speak of generalizations of [[topological space]]s. The axioms of higher geometry typically impose extra structures on [[(∞,1)-topos]]es that encode genuine _geometry_ .
+The theory of [[(∞,1)-toposes]] can be used to axiomatize geometry in two different directions: in one direction, an [[(∞,1)-topos]] (with some additional [[structured (∞,1)-topos|structure]]) encodes a [[space]] itself; in another direction, a [[space]] is an object of a ([[cohesive (∞,1)-topos|cohesive]]) [[(∞,1)-topos]] of [[∞-stacks]] on some [[(∞,1)-site]]. These two directions come from the difference between [[big and little topos]]es. This also corresponds to the difference between the two definitions of [[scheme]] in [[algebraic geometry]] via [[locally ringed spaces]] and [[functors of points]].
 
-There are two aspects to this, induced from the two aspects of [[big and little topos]]es:
-
-* A _little $(\infty,1)$-topos_ encodes a [[space]] itself. Axioms for equipping little $(\infty,1)$-toposes with geometric structure have been given in ([Lurie](#Lurie)) in terms of the notion of [[structured (∞,1)-topos]]es.
-
-* A _big $(\infty,1)$-topos_ is an [[(∞,1)-category]] whose _[[object]]s_ are generalized spaces. Axioms for characterizing big [[topos]]es that encode geometry have been given in ([Lawvere](#Lawvere)). Their generalization to $(\infty,1)$-topos theory is given by the notion of a [[cohesive (∞,1)-topos]].
+A third type of axiomatization, used in [[derived noncommutative algebraic geometry]], uses [[stable (∞,1)-categories]] to represent spaces. 
 
 Under forming [[groupoid convolution algebras]] and their higher analog, at least parts of higher geometry translate to [[noncommutative geometry]].
 
 ## Axiomatizations
 
-Let $\mathcal{G}$ be an [[(infinity,1)-category]] of "local models" or "test spaces". Given the data of a [[Grothendieck topology]] $\tau$ on $\mathcal{G}$, one gets the notion of a $\mathcal{G}$-[[infinity-stack|stack]]. In order to get the finer notion of $\mathcal{G}$-[[infinity-scheme]], one needs to consider some further structure on $\mathcal{G}$. For example, one can consider the structure of a [[geometry (for structured (∞,1)-toposes)|geometry]] (in the sense of the linked page), or the structure of a [[homotopical algebraic geometry]] context. In the former case one gets the following hierarchy of generalized spaces:
+### Structured (∞,1)-toposes
+
+Let $\mathcal{G}$ be an [[(∞,1)-category]] whose objects will be viewed as "local models" or "test spaces" for the geometry to be developed. Following [[Jacob Lurie]], a $\mathcal{G}$-[[structured (∞,1)-topos]] is the data of an [[(∞,1)-topos]] together with a [[structure sheaf]] valued in $\mathcal{G}$. Given an appropriate choice of $\mathcal{G}$, one gets the following hierarchy of generalized spaces:
 
 * [[geometry (for structured (∞,1)-toposes)|test spaces]] $\hookrightarrow$
   [[generalized scheme|spaces locally equivalent to test spaces]]
@@ -59,13 +54,23 @@ technically modeled by:
 
 A plethora of proposals for formalizations of higher geometry find their home in this pattern, for instance most of the concepts listed at [[generalized smooth space]].
 
-One notion of generalized [[space]] in higher geometry that does _not_ fit into this pattern is apparently [[derived noncommutative algebraic geometry]] where spaces are modelled as the formal duals to [[dg-categories]]. But dg-categories are presentations for [[stable (∞,1)-categories]] and by the <a href="http://ncatlab.org/nlab/show/stable+(infinity%2C1)-category#StabGiraud">stable Giraud theorem</a> _presentable_ stable $(\infty,1)$-categories play a very similar role to (unstable) [[∞-stack]] [[(∞,1)-topos]]es. In particular they may be obtained from the latter by [[stabilization]]. 
+### Cohesive (∞,1)-toposes
 
+As above, let $\mathcal{G}$ be an [[(∞,1)-site]] whose objects are to be viewed as "local models" for a geometry. Following [[Bill Lawvere]], one can give a set of axioms that capture when it is appropriate to view [[(∞,1)-sheaves]] on $\mathcal{G}$ as generalized geometric spaces. This leads to the notion of [[cohesive (∞,1)-topos]].
 
+Given such a [[cohesive (∞,1)-topos]], one may go further and try to identify even more refined geometric objects within it. For thus, it is necessary to endow $\mathcal{G}$ with some additional structure: namely, that of a collection of [[morphisms]] that dictate how the generalized spaces can be formed from the local models by gluing. This leads to the notion of a [[homotopical algebraic geometry]] context, following [[Bertrand Toen]] and [[Gabriele Vezzosi]].
+
+### Stable (∞,1)-categories
+
+In [[derived noncommutative algebraic geometry]], a [[space]] is an [[idempotent complete (∞,1)-category|idempotent complete]] [[stable (∞,1)-category]], or sometimes an idempotent complete [[pretriangulated dg-category]].
+
+Note that, since by the <a href="http://ncatlab.org/nlab/show/stable+(infinity%2C1)-category#StabGiraud">stable Giraud theorem</a>, any [[presentable (∞,1)-category|presentable]] [[stable (∞,1)-category]] is an accessible left-exact [[localization of an (∞,1)-category|localization]] of the [[stabilization of an (∞,1)-category|stabilization]] of some [[(∞,1)-presheaves|(∞,1)-presheaf topos]], this story is, roughly speaking, a stable version of the story above.
 
 ## Examples
 
-* [[derived algebraic geometry]]
+* [[homotopical algebraic geometry]]
+
+  * [[derived algebraic geometry]]
 
   * [[étale (∞,1)-site]], [[dg-geometry]], [[Hochschild cohomology]] of [[dg-algebra]]s
 
