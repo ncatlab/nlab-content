@@ -100,7 +100,7 @@ by showing how all the basic category-theoretic ideas are already right beneath 
 
 * [Path integral quantization of 1d gauge theory](#PathIntegralQuantizationof1dGaugeTheory)
 
-we show for the simple case of 1-dimensional finite gauge theory how also [[path integral quantization]] of [[prequantum field theory|prequantum]] ([[classical field theory|classical]]) data is naturally organized by monoidal category theory with first bits of [[homotopy theory]] showing up (that will play a more paramount role as one goes upo in dimension).
+we show for the simple case of 1-dimensional finite gauge theory how also [[path integral quantization]] of [[prequantum field theory|prequantum]] ([[classical field theory|classical]]) data is naturally organized by monoidal category theory with first bits of [[homotopy theory]] showing up (that will play a more paramount role as one goes up in dimension).
 
 Then in
 
@@ -152,14 +152,14 @@ The basic idea of [[quantum mechanics]] in the "[[Schrödinger picture]]" is to 
 
 1. assigning to each time $t \in \mathbb{R}$ a [[vector space]] ([[Hilbert space]]) $V_t$ to be thought of as the [[space of quantum states]] (of [[pure states]], that is) of the system at that time;
 
-1. assigning to each pair $[t_1,t_2]$ of times a [[linear operator]] ([[unitary operator]]) $U(t_1,t_2) \colon V_{t_1} \to V_{t_2}$ to be thought of as encodiding the [[time]] evolution of quantum states
+1. assigning to each pair $[t_1,t_2]$ of times a [[linear operator]] ([[unitary operator]]) $U(t_1,t_2) \colon V_{t_1} \to V_{t_2}$ to be thought of as encoding the [[time]] evolution of quantum states
 
 such that 
 
 * this assignment is _local_ in [[time]] in that for all $t_1 \leq t_2 \leq t_3$ one has
 
   $$
-    U(t_1 t_3) = U(t_2, t_3) \circ U(t_1, t_2)
+    U(t_1, t_3) = U(t_2, t_3) \circ U(t_1, t_2)
     \,.
   $$
 
@@ -170,9 +170,9 @@ $$
   \,.
 $$
 
-(While this looks like the most innocent condition, this has technical subtleties for genuine [[quantum field theory]], for which however there exist established tools to deal with.)
+(While this looks like the most innocent condition, this has technical subtleties for genuine [[quantum field theory]], to deal with which however there exist established tools.)
  
-The locality condition intuitively says that "all gobal effects arise by integrating up local effects". Indeed, when assuming in addition that $U(-,-)$ depends [[smooth function|smoothly]] on the time arguments, then the locality condition is equivalent to (see at _[[parallel transport]]_) the existence of a [[Hamiltonian]] $H_t$, a [[self-adjoint operator]] depending smoothly on $t$, such that time evolution is given by the [[Dyson formula]]
+The locality condition intuitively says that "all global effects arise by integrating up local effects". Indeed, when assuming in addition that $U(-,-)$ depends [[smooth function|smoothly]] on the time arguments, then the locality condition is equivalent to (see at _[[parallel transport]]_) the existence of a [[Hamiltonian]] $H_t$, a [[self-adjoint operator]] depending smoothly on $t$, such that time evolution is given by the [[Dyson formula]]
 
 $$
   U(t_1,t_2)
@@ -194,7 +194,7 @@ $$
   \,.
 $$
 
-This is the way that quantum mechancial time evolution is traditionally introduced in the textbooks.
+This is the way that quantum mechanical time evolution is traditionally introduced in the textbooks.
 
 But the equivalent formulation above in terms of locality of $U(-,-)$ is noteworthy. The condition of locality here is precisely what in [[mathematics]] is called _[[functor|functoriality]]_: the condition that a system of [[homomorphisms]] (here: linear/unitary operator) depends on another system of "directed data" (here: the time intervals $[t_1,t_2]$) such that [[composition]] is respected.
 
@@ -264,7 +264,7 @@ If this looks like a trivial reformulation of textbook material, then because it
 
 Besides the time evolution, there is the theory of [[composite systems]].
 
-Given two [[quantum mechanical systems]] (e.g. of two electrons orbiting the same atomic nucleaus), with [[spaces of quantum states]] ([[pure states]]) $V$ and $\tilde V$, respectively, then the space of quantum states of the compound system is given by the [[tensor product of modules|tensor product of vector spaces]] (of [[Hilbert spaces]])
+Given two [[quantum mechanical systems]] (e.g. of two electrons orbiting the same atomic nucleus), with [[spaces of quantum states]] ([[pure states]]) $V$ and $\tilde V$, respectively, then the space of quantum states of the compound system is given by the [[tensor product of modules|tensor product of vector spaces]] (of [[Hilbert spaces]])
 
 $$
   V \otimes \tilde V \in Vect
@@ -286,9 +286,9 @@ $$
 
 Hence (Cartesian or non-cartesian) [[tensor products]] are something like product operations on sets, but on whole [[categories]]. Since binary associative product operations on sets are sometimes called _[[monoids]]_, one says that the category [[Vect]] of vector spaces when equipped with the tensor product of vector spaces is a _[[monoidal category]]_.
 
-Similarly, the categories [[Diff]] or [[Set]] [[smooth manifolds]] or just bare [[sets]] carries a monoidal structure given simply by the [[Cartesian product]] of sets. This is called a [[cartesian monoidal category|cartesian monoidal structure]].
+Similarly, the categories [[Diff]] or [[Set]], of [[smooth manifolds]] or just bare [[sets]], carry a monoidal structure given simply by the [[Cartesian product]] of sets. This is called a [[cartesian monoidal category|cartesian monoidal structure]].
 
-The characteristic property of Cartesian products $X_1 \times X_2$ is that elements of these are equivalently pairs of elements in $X_1$ and $X_2$, respectively. This reflects in turn the characteristic property of compound classical mechanical systems: a state of these is symply a pair of states of the two subsystems.
+The characteristic property of Cartesian products $X_1 \times X_2$ is that elements of these are equivalently pairs of elements in $X_1$ and $X_2$, respectively. This reflects in turn the characteristic property of compound classical mechanical systems: a state of these is simply a pair of states of the two subsystems.
 
 The tensor product on [[Vect]] however is not Cartesian: an element  in $\Psi \in V_1 \otimes V_2$ need not be of the form $\psi_1\otimes \psi_2$, for $\psi_i \in V_i$. Instead, in general it is a [[sum]] of such elements
 
@@ -302,7 +302,7 @@ In terms of [[physics]] such non-cartesian vectors are [[quantum states]] that e
 
 | [[physics]] |  [[category theory]] |
 |-------------|----------------------|
-| [[entanglement]]  |  [[cartesian monoidal category|non-cartesin]] [[monoidal category]] of [[spaces of states]] |
+| [[entanglement]]  |  [[cartesian monoidal category|non-cartesian]] [[monoidal category]] of [[spaces of states]] |
 
 For more exposition of this point see ([Baez 04](#Baez04)).
 
@@ -310,7 +310,7 @@ For more exposition of this point see ([Baez 04](#Baez04)).
 
 Consider now for simplicity of notation an application in [[quantum computing]]/[[quantum information theory]], where the [[spaces of states]] $V$ involved are [[finite dimensional vector spaces]] (spaces of [[qubits]]), such as for instance in the topological sector of the [[quantum Hall effect|quantum Hall system]].
 
-Then for every space of states $V$ there is the [[dual vector space]]  $V^\ast$. In [[physics]] notation the states in $V$ are the [[kets]] $\vert \Psi \rangle$, while those of $V^\ast$ are the "bra-s" $\langle \Psi \vert$.
+Then for every space of states $V$ there is the [[dual vector space]]  $V^\ast$. In [[physics]] notation the states in $V$ are the [[kets]] $\vert \Psi \rangle$, while those of $V^\ast$ are the "bra"s $\langle \Psi \vert$.
 
 
 | [[physics]] |  [[category theory]] |
@@ -321,7 +321,7 @@ Then for every space of states $V$ there is the [[dual vector space]]  $V^\ast$.
 Essentially all of [[quantum information theory]] has a slick reformulation in terms of [[category theory]] for [[symmetric monoidal category]] [[rigid monoidal category|with dual objects]]. More on this is at _[[finite quantum mechanics in terms of dagger-compact categories]]_.
 
 
-While the introduction of bra-ket notation by [[Paul Dirac]] was (while just notation) already quite useful for thinking about the subject, the language of monoidal category in fact reflects the actual physical processes involved even better.
+While the introduction of bra-ket notation by [[Paul Dirac]] was (while just notation) already quite useful for thinking about the subject, the language of monoidal categories in fact reflects the actual physical processes involved even better.
 
 For instance, in quantum mechanics textbooks one often sees the following manipulation of symbols for expressing a [[trace]] in terms of a sum over [[basis of a vector space|basis]] elements
 
@@ -433,7 +433,7 @@ This is striking, because this _picture_ is an accurate reflection of the physic
 In fact, the monoidal category theoretic [[string diagram]]-notation is essentially the [[Feynman diagram]]-notation. This we turn to [below](#QMWithInteractionAndFeynmanDiagrams).
 
 
-For a 1-dimensional [[TQFT]] the Hamiltonian above vanishes. (Or maybe more interestingly: for [[supersymmetric quantum mechanics]] the Hamiltonian may not vanish, but in the [[super trace]] in the [[partition function]] all non-zero energy eigenmodes cancel out by supersymmetry, and only the topological part is left after all).
+For a 1-dimensional [[TQFT]] the Hamiltonian above vanishes. (Or maybe more interestingly: for [[supersymmetric quantum mechanics]] the Hamiltonian may not vanish, but in the [[super trace]] in the [[partition function]] all non-zero energy eigenmodes cancel out by supersymmetry, and only the topological part is left after all.)
 
 In this case the partition function reduces to
 
@@ -453,16 +453,16 @@ $$
 
 which is just the trace on $V$. 
 
-To reflect this in the functorial notation from [above](#TimeEvolutionAndFunctors), notice that also the catefogory $Bord_{1}^{Riem}$ from above is naturally a [[monoidal category]] if we take its objects to consist not just of single point, but of arbitrary collections of points, and to have its morphisms consist of all 1-dimensional [[cobordisms]]. Then a monoidal structure $(Bord_1^{Riem})^\coprod$ is given by [[disjoint union]].
+To reflect this in the functorial notation from [above](#TimeEvolutionAndFunctors), notice that also the category $Bord_{1}^{Riem}$ from above is naturally a [[monoidal category]] if we take its objects to consist not just of single points, but of arbitrary collections of points, and to have its morphisms consist of all 1-dimensional [[cobordisms]]. Then a monoidal structure $(Bord_1^{Riem})^\coprod$ is given by [[disjoint union]].
 
 A 1d TQFT with values in vector spaces is then a [[strong monoidal functor]]
 
 $$
-  (Bord_1^{Riem})^\corpod \longrightarrow Vect^{\otimes}
+  (Bord_1^{Riem})^\coprod \longrightarrow Vect^{\otimes}
   \,.
 $$
 
-Other processes that sucj a 1d 1TQFT encodes include
+Other processes that such a 1d TQFT encodes include
 
 $$
   \array{
@@ -504,11 +504,11 @@ This is the simplest incarnation of the statement that for higher dimensional [[
 ### Path integral quantization of 1d Gauge theory
  {#PathIntegralQuantizationof1dGaugeTheory}
 
-The [[path integral]] tends to be as suggestive in [[quantum field theory]] as it is invoked ubiquituously, and FQFT may be understood as being precisely the axiomatics that a would-be path integral ought to satisfy, thereby decoupling its construction as a suitably regularized integral from its operational definition as yielding a consistent [[S-matrix]] for the QFT.
+The [[path integral]] tends to be as suggestive in [[quantum field theory]] as it is invoked ubiquitously, and FQFT may be understood as being precisely the axiomatics that a would-be path integral ought to satisfy, thereby decoupling its construction as a suitably regularized integral from its operational definition as yielding a consistent [[S-matrix]] for the QFT.
 
 We discuss now the simplest non-trivial example of a [[path integral quantization]], namely for 1-dimensional finite [[gauge theory]], the 1-dimensional [[Dijkgraaf-Witten model]]. This has the two-fold purpose of 
 
-1. indicating how not just the final quantum theory but also its [[prequantum field theory|prequantum data]] is naturally ordganized by monoidal category theory;
+1. indicating how not just the final quantum theory but also its [[prequantum field theory|prequantum data]] is naturally organized by monoidal category theory;
 
 1. motivating and introducing elements of [[homotopy theory]] which become crucial for the understanding of FQFT as one moves up in dimension.
 
@@ -518,7 +518,7 @@ A more detailed version of this section is at _[Local prequantum field theory --
  {#GroupoidsAndBasicHomotopy1TypeTheory}
 
 
-The following is a quick review of basics of [[groupoids]] and their [[homotopy theory]] ([[homotopy 1-type]]-theory), geared towards the constructions and fact needed for 1-dimensional Dijkgraaf-Witten theory. 
+The following is a quick review of basics of [[groupoids]] and their [[homotopy theory]] ([[homotopy 1-type]]-theory), geared towards the constructions and facts needed for 1-dimensional Dijkgraaf-Witten theory. 
 
 +-- {: .num_defn #Groupoid}
 ###### Definition
@@ -895,7 +895,7 @@ which picks any point and sends $n \in \mathbb{Z}$ to the loop based at that poi
 ###### Definition
 
 Given two morphisms of groupoids 
-$X \stackrel{f}{\leftarrow} B \stackrel{g}{\to} Y$
+$X \stackrel{f}{\to} B \stackrel{g}{\leftarrow} Y$
 their _[[homotopy fiber product]]_
 
 $$
@@ -951,7 +951,7 @@ $$
 ###### Example
 
 For $X$ a [[groupoid]], $G$ a [[group]] and $X \to \mathbf{B}G$ a map into its [[delooping]], the [[pullback]] $P \to X$ of the $G$-[[universal principal bundle]] of example \ref{BGGroupoidAsActionGroupoid}
-is equivalently the [[homotopy fiber product]] of $X$ with the point over $\matrhbf{B}G$:
+is equivalently the [[homotopy fiber product]] of $X$ with the point over $\mathbf{B}G$:
 
 $$
   P \simeq X \underset{\mathbf{B}G}{\times} \ast
@@ -1125,7 +1125,7 @@ $$
   \,.
 $$
 
-Unde the [[free loop space object]] construction this becomes
+Under the [[free loop space object]] construction this becomes
 
 $$
   [\Pi(S^1), \mathbf{B}c]
@@ -1221,7 +1221,7 @@ Here the left and right homomorphisms are those which take a field configuration
 
 =--
 
-This should make it plausible that specifying the field content of a 1-dimensional discrete gauge field theory is a functorial assignsment
+This should make it plausible that specifying the field content of a 1-dimensional discrete gauge field theory is a functorial assignment
 
 $$
   \mathbf{Fields}
@@ -1230,9 +1230,9 @@ $$
   \to Span(Grpd)
 $$
 
-from a [[category of cobordisms]] of dimension one into a category of such [[spans]] of groupoids. It sends points to spaces of field configurations on the point and 1-dimensional manifolds such as the circle as spaces of trajectories of field configurations on them.
+from a [[category of cobordisms]] of dimension one into a category of such [[spans]] of groupoids. It sends points to spaces of field configurations on the point and 1-dimensional manifolds such as the circle to spaces of trajectories of field configurations on them.
 
-Moreover, for a _local_ field theory it should be true that the field configurations on the circle, says, are determined from gluing the field configurations on any decomposition of the circle, notably a decomposition into two semi-circles. But since we are dealing with a [[topological field theory]], its field configurations on a contractible interval such as the semicircle will be equivalent to the field configurations on the point itself. 
+Moreover, for a _local_ field theory it should be true that the field configurations on the circle, say, are determined from gluing the field configurations on any decomposition of the circle, notably a decomposition into two semi-circles. But since we are dealing with a [[topological field theory]], its field configurations on a contractible interval such as the semicircle will be equivalent to the field configurations on the point itself. 
 
 The way that the fields on higher spheres in a topological field theory are induced from the fields on the point is by an analog of _[[traces]]_ for spaces of fields, and higher traces of such correspondences (the "[[span trace]]"). This is because by the [[cobordism theorem]], the field configurations on, notably, the [[n-sphere]] are given by the $n$-fold [[span trace]] of the field configurations on the point, the trace of the traces of the ... of the 1-trace. This is because for instance the 1-sphere, hence the [[circle]] is, regarded as a 1-dimensional [[cobordism]] itself pretty much manifestly a [[trace]] on the point in the [[string diagram]] formulation of traces.
 
@@ -1251,7 +1251,7 @@ $$
   \,.
 $$
 
-Here $\ast^+$ is the point with its potitive orientation, and $\ast^-$ is its [[dual object]] in the [[category of cobordisms]], the point with the reverse orientation. Since, by this picture, the construction that produces the circle from the point is one that involves only the [[coevaluation map]] and [[evaluation]] map on the point regarded as a [[dualizable object]], a [[topological field theory]] $Z \colon Bord_n \to Span_n(\mathbf{H})$, since it respects all this structure, takes the circle to precisely the same kind of diagram, but now in $Span_n(\mathbf{H})^\otimes$, where it becomes instead the [[span trace]] on the space $\mathbf{Fields}(\ast)$ over the point. This we discuss now.
+Here $\ast^+$ is the point with its positive orientation, and $\ast^-$ is its [[dual object]] in the [[category of cobordisms]], the point with the reverse orientation. Since, by this picture, the construction that produces the circle from the point is one that involves only the [[coevaluation map]] and [[evaluation]] map on the point regarded as a [[dualizable object]], a [[topological field theory]] $Z \colon Bord_n \to Span_n(\mathbf{H})$, since it respects all this structure, takes the circle to precisely the same kind of diagram, but now in $Span_n(\mathbf{H})^\otimes$, where it becomes instead the [[span trace]] on the space $\mathbf{Fields}(\ast)$ over the point. This we discuss now.
 
 Before talking about correspondences of groupoids, we need to organize the groupoids themselves a bit more.
 
