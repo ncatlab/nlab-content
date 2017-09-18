@@ -2005,7 +2005,6 @@ and if $B$ is any superalgebra,
 
 
 ### $\mathbb{Z}$-Graded Supercommutative superalgebra
- {#ZGradedSupercommutativeSuperalgebra}
 
 
 It may happen that the $\mathbb{Z}/2$-grading of a [[supercommutative superalgebra]] [[lift|lifts]] to a finer grading
@@ -2013,11 +2012,11 @@ with respect to some [[abelian group]] $A$, through a group homomorphism $A \to 
 important special case of this is the lift to $\mathbb{Z}$-grading through the mod-2-reduction
 $\mathbb{Z} \stackrel{mod\,2}{\longrightarrow}\mathbb{Z}/2$. We discuss how the resulting
 $\mathbb{Z}$-graded-commutative algebra is
-related to $\mathbb{Z}/2$-graded-commutative algebra, i.e. [[supercommutative superalgebra]].
+related to $\mathbb{Z}/2$-graded-commutative algebra, i.e. [[supercommutative superalgeba]].
 
 This relation is particularly interesting since there is a natural source
 of $\mathbb{Z}$-graded-commutative algebra: the commutative monoids in [[homological algebra]]
-(called [[dgca]]-s) and more generally in [[stable homotopy theory]] (called [[homotopy commutative ring spectra]])
+(called [[dgca]]-s) and more generally in [[stable hmotopy theory]] (called [[homotopy commutative ring spectra]])
 have shadows on [[chain homology]]/[[homotopy groups]] which are $\mathbb{Z}$-graded-commutative algebras.
 
 
@@ -2095,7 +2094,7 @@ These are often called _$\mathbb{Z}$-graded commutative algebras_.
 
 Of course analogous definitions apply for the [[ground field]] $k$ replaced by any [[ground ring]].
 
-One reason why example \ref{SupercommutativeSuperalgebraZGraded} is of interest is that 
+One reason why example \ref{SupercommutativeSuperalgebraZGraded} is of interest is that
 commutative algebras in [[homological algebra]] and in [[stable homotopy theory]] give examples:
 
 +-- {: .num_example}
@@ -2116,7 +2115,7 @@ $$
   \,.
 $$
 
-See at _[[schreiber:HAI|Introduction to Homological Algebra]]_ the section ...
+See at _[[schreiber:HAI|Introduction to Homological Algebra]]_ the section _[Categories of chain complexes](https://ncatlab.org/schreiber/show/Introduction+to+Homological+algebra#CategoriesOfChainComplexes)_.
 
 A __[[differential graded-commutative algebra]] is a [[commutative monoid]] in $Ch(k)_\bullet$
 (def. \ref{MonoidsInMonoidalCategory}).
@@ -2192,7 +2191,7 @@ Then there are [[strong monoidal functors]]
 
 $$
   k[\beta,\beta^{-1}] Mod
-    \underoverset
+    \underovrset
       {\underset{(-)|_{0,1}}{\longrightarrow}}
       {\overset{}{\longleftarrow}}
       {\simeq}
@@ -2212,7 +2211,7 @@ to the $\mathbb{Z}/2$-graded vector space $V_0 \oplus V_1$.
 ###### Proof
 
 It is clear that the functor $(-)|_{0,1}$ is [[essentially surjective functor|essentially surjective]].
-Hence we need to see that it is [[fully faithful functor|fully faithful]].
+Hence we need to see that it is [[fully fiathful functor|fully faithful]].
 
 Since $\beta$ is multiplicatively invertible, by definition, the [[module]]-property
 implies that for any $N \in k[\beta,\beta^{-1}]Mod$ then the [[action]] by $\beta$
@@ -2290,9 +2289,9 @@ $$
 
 with $\beta$ an invertible generator in degree 2 (the [[complex oriented cohomology theory|coomplex orientation]]).
 
-Accordingly, for $A$ an [[E-infinity algebra]] over $E$, hence an [[E-infinity ring]] equipped with 
+Accordingly, for $A$ an [[E-infinity algebra]] over $E$, hence an [[E-infinity ring]] equipped with
 an $E_\infty$-homomorphism $E \to A$, then its underlying $\mathbb{Z}$-graded commutative algebra
-$\pi_\bullet(E)$ (according to example \ref{HomotopyCommutativeRingSpectrum}) is an algebra over 
+$\pi_\bullet(E)$ (according to example \ref{HomotopyCommutativeRingSpectrum}) is an algebra over
 $\pi_0(E)[\beta, \beta^{-1}]$. Hence via prop. \ref{kbetaModules} $\pi_\bullet(A)$ is canonically
 identified with a [[supercommutative superalgebra]] over $\pi_0(E)[\beta, \beta^{-1}]$.
 
