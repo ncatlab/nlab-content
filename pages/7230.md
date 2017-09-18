@@ -42,14 +42,14 @@ Discussion of [[G2 manifolds]] is in
 
 ### In supergravity
 
-Applications to [[supergravity]] are discussed in 
+Applications to [[KK-compactification]] of [[11d supergravity]] (see also at _[[M-theory on G2-manifolds]]_) is discussed in 
 
-* G. Papadopoulos and [[Paul Townsend]], _Compactifications of $D = 11$ supergravity on spaces of exceptional holonomy_ ([arXiv:hep-th/9506150](http://arxiv.org/abs/hep-th/9506150))
+* [[George Papadopoulos]], [[Paul Townsend]], _Compactifications of $D = 11$ supergravity on spaces of exceptional holonomy_ ([arXiv:hep-th/9506150](http://arxiv.org/abs/hep-th/9506150))
 
 * K. Koepsell, [[Hermann Nicolai]], [[Henning Samtleben]], _An exceptional geometry for d=11 supergravity?_ ([arXiv:hep-th/0006034](http://arxiv.org/abs/hep-th/0006034))
 
-* [[Chris Hull]], _Generalised Geometry for M-Theory_ ([arXiv:hep-th/0701203](http://arxiv.org/abs/hep-th/0701203))
- {#Hull}
+* {#Hull} [[Chris Hull]], _Generalised Geometry for M-Theory_ ([arXiv:hep-th/0701203](http://arxiv.org/abs/hep-th/0701203))
+ 
 
 For more along these lines see the references at _[[exceptional generalized geometry]]_.
 
