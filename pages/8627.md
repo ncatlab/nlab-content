@@ -36,6 +36,8 @@ Note that in a symmetric strict monoidal category, the associators and unitors a
 
 ## References
 
-* [[Saunders Mac Lane]], "Natural associativity and commutativity"
+* [[Saunders Mac Lane]]. "Natural associativity and commutativity". Rice University Studies 49, 28-46 (1963). ([Rice Digital Scholarship Archive](https://scholarship.rice.edu/handle/1911/62865)) 
+
+* [[Saunders Mac Lane]]. [[Categories for the Working Mathematician]] (Chapter 11).
 
 * [[Andre Joyal]] and [[Ross Street]].  "Braided tensor categories".  *Adv. Math* 1993
