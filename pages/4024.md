@@ -5,7 +5,7 @@
 
 ## Idea
 
-A _bornological set_ is a notion of [[space]], where instead of considering [[open sets]] and [[continuous functions]] whose [[inverse images]] preserve open sets as one does for [[topological space]]s, one considers [[bounded sets]] (which constitute a _bornology_) and bounded maps whose [[direct images]] preserve bounded sets. Bornological [[topological vector spaces]], called [[bornological spaces]], are important in [[functional analysis]].
+A _bornological set_ is a notion of [[space]], where instead of considering [[open sets]] and [[continuous functions]] whose [[inverse images]] preserve open sets as one does for [[topological space]]s, one considers [[bounded sets]] (which constitute a _bornology_) and [[bounded maps]] whose [[direct images]] preserve bounded sets. Bornological [[topological vector spaces]], called [[bornological spaces]], are important in [[functional analysis]].
 
 
 ## Definitions
@@ -20,7 +20,7 @@ Let $X$ be a [[set]]. A **bornology** on $X$ is a collection $\mathcal{B} \subse
 
 A **bornological set** is a set $X$ equipped with a bornology. The elements of $\mathcal{B}$ are called the **[[bounded sets]]** of a bornological set. 
 
-If $X$, $Y$ are bornological sets, a [[function]] $f\colon X \to Y$ is said to be **bounded** if $f(B)$ is bounded in $Y$ for every bounded $B$ in $X$. One obtains a category of bornological sets and bounded maps. 
+If $X$, $Y$ are bornological sets, a [[function]] $f\colon X \to Y$ is said to be **[[bounded function|bounded]]** if $f(B)$ is bounded in $Y$ for every bounded $B$ in $X$. One obtains a category of bornological sets and bounded maps. 
 
 
 ## Examples
@@ -87,7 +87,3 @@ Review includes
 [[!redirects bounded space]]
 [[!redirects bounded spaces]]
 
-[[!redirects bounded map]]
-[[!redirects bounded maps]]
-[[!redirects bounded function]]
-[[!redirects bounded functions]]
