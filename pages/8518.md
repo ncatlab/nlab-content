@@ -92,7 +92,9 @@ Then
 * * the diagram is a pullback in $\mathcal{C}$
 
 
-(cf. [[quasitopos]], Section "Properties")
+(cf. [[quasitopos]], Section "Properties"). Note that the result for quasitoposes immediately implies the result for toposes, since all monomorphisms $i: A \to B$ in a topos are regular ($i$ being the equalizer of the arrows $\chi_i, t \circ !: B \to \Omega$ where $\chi_i$ is the classifying map of $i$) and therefore strong. 
+
+
 ### lemmas on equalizers 
 
 **An equalizer diagram implying an equalizer diagram, via monos and a pullback square.**
@@ -109,11 +111,9 @@ O_{0,0} & \to & O_{1,0} & \underoverset{\quad {}_0f_{0} \quad}{ {}_1f_{0} }{\rig
 is a diagram in $\mathcal{C}$ in which 
 
 * * each of $m_0$,$m_1$, $m_2$ is monic
-* * the square is a pullback
+* * the squares on the right are serially commutative 
 * * the lower row is an equalizer
 
 Then 
 
-* * its upper row is an equalizer
-
-
+* * the upper row is an equalizer iff the left square is a pullback. 
