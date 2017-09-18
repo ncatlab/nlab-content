@@ -42,6 +42,8 @@ Note also that if $f:V\to U$ is a single morphism having a [[kernel pair]] $p,q:
 
 * [[canonical topology]]
 
+* [[trivial topology]]
+
 
 [[!redirects subcanonical pretopology]]
 [[!redirects subcanonical site]]
