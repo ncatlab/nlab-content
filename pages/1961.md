@@ -74,7 +74,7 @@ One can also *define* [[tangent vectors]] at $a \in X$ to be [[equivalence class
 
 A particularly important case is when $c$ is a level curve in some system of local coordinates $(x^1,\ldots,x^n)$ at $a$; that is, $c^i(t)$ is the point whose $i$th coordinate is $t$ and whose other coordinates are the same as at $a$.  The local tangent vector field given by these curves may be written $\partial/\partial{x^i}$ or $\partial_i$ (note the placement of the scripts).  This is because, if a function $f$ defined on that coordinate patch is identified with a function $f(x^1,\ldots,x^n)$ of $n$ real variables, then $\partial_i f$ becomes identified with the partial derivative $\partial{f(x^1,\ldots,x^n)}/\partial{x^i}$.  In general, a local vector field $v$ on such a coordinate patch can be written
 $$ v = \sum_i v^i\, \partial_i .$$
-This fact can also be turned into a definition of tanget vector.
+This fact can also be turned into a definition of tangent vector.
 
 (Yet another possible definition comes from the duality with the [[cotangent bundle]]; of course, then you have to pick a definition of *that* that doesn\'t use duality.)
 
