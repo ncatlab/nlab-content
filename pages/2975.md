@@ -5,52 +5,48 @@
 
 ## Idea
 
-_Algebraic cobordism_ is the algebraic or [[motives|motivic]] analogue of [[complex cobordism]].  It was constructed by [[Vladimir Voevodsky]] as the [[generalized cohomology theory]] represented by a certain [[motivic spectrum]] $MGL$, called the _motivic Thom spectrum_.
-
-Over fields of characteristic zero, a geometric description of the $(2n,n)$-graded part of algebraic cobordism, via [[cobordism]] classes, was given by [[Marc Levine]] and [[Fabien Morel]].
+_Algebraic cobordism_ is the bigraded [[generalized cohomology theory]] represented by the [[motivic Thom spectrum]] $MGL$.  Hence it is the algebraic or [[motives|motivic]] analogue of [[complex cobordism]].  The $(2n,n)$-graded part has a geometric description via [[cobordism]] classes, at least over fields of characteristic zero.
 
 ## Definition
 
-### The motivic spectrum
+Let $S$ be a [[scheme]] and $MGL_S$ the [[motivic Thom spectrum]] over $S$.  **Algebraic cobordism** is the [[generalized motivic cohomology theory]] $MGL_S^{*,*}$ represented by $MGL_S$:
 
-In analogy with the [[complex cobordism]] spectrum $MU$, Voevodsky defined the algebraic cobordism spectrum $MGL_S$ in the [[stable motivic homotopy category]] by
+... formula here ...
 
-$$ MGL_S = colim_{n\to\infty} \Sigma_T^{\infty-n} V_n/V_n^\times, $$
+## Properties
 
-where $S$ is the base scheme, $T = \mathbf{A}^1/\mathbf{G}_m$ is the [[Tate sphere]], and $V_n$ is the tautological vector bundle over the infinite Grassmannian of $n$-planes $Gr(n)$. More precisely, $Gr(n)$ is defined as the colimit of the smooth $S$-schemes $Gr(n,k)$ as $k\to\infty$, and $V_n$ is similarly the colimit of the tautological vector bundles over $Gr(n,k)$.
-See [Voevodsky 98](#Voevodsky98).
+### The (2n,n)-graded part
 
-Like the [[motivic Eilenberg-Mac Lane spectrum]] $H\mathbf{Z}$ and the [[algebraic K-theory]] spectrum $KGL$, $MGL$ is an $E_\infty$-motivic [[ring spectrum]].
-
-The spectrum $MGL$ was used by Voevodsky in his proof of the [[Bloch-Kato conjecture]]. It is also the starting point of [[chromatic motivic homotopy theory]].
-
-### The oriented cohomology theory
-
-Over a field $k$ of characteristic zero, a geometric description of the $(2n,n)$-graded part of the [[generalized cohomology theory]] represented by $MGL_k$ was given by [[Marc Levine]] and [[Fabien Morel]].  More precisely, [Levine-Morel](#LevineMorel) constructed the universal _oriented cohomology theory_ $\Omega^* : \Sm_k \to CRing^*$.  Here _oriented_ means the existence of [[direct image]] or [[Gysin homomorphisms]] for [[proper morphisms of schemes]].  This implies the existence of[[Chern classes]] for [[vector bundles]].
+Let $S = Spec(k)$ where $k$ is a field of characteristic zero.
+A geometric description of the $(2n,n)$-graded part of algebraic cobordism was given by [[Marc Levine]] and [[Fabien Morel]].  More precisely, [Levine-Morel](#LevineMorel) constructed the universal _oriented cohomology theory_ $\Omega^* : \Sm_k \to CRing^*$.  Here _oriented_ signifies the existence of [[direct image]] or [[Gysin homomorphisms]] for [[proper morphisms of schemes]].  This implies the existence of[[Chern classes]] for [[vector bundles]].
 
 +-- {: .num_theorem}
-###### Theorem ([Levine-Morel](#LevineMorel))
+###### Theorem
+**([Levine-Morel](#LevineMorel))**.
 There is a canonical isomorphism of graded rings
   $$ \mathbf{L}^* \stackrel{\sim}{\longrightarrow} \Omega^*(\Spec(k)) $$
 where $\mathbf{L}^*$ denotes the [[Lazard ring]] with an appropriate grading.
 =--
 
 +-- {: .num_theorem}
-###### Theorem ([Levine-Morel](#LevineMorel))
+###### Theorem
+**([Levine-Morel](#LevineMorel))**.
 Let $i : Z \hookrightarrow X$ be a [[closed immersion]] of smooth $k$-schemes and $j : U \hookrightarrow X$ the complementary [[open immersion]].  There is a canonical exact sequence of graded abelian groups
   $$ \Omega^{*-d}(Z) \stackrel{i_*}{\to} \Omega^*(X) \stackrel{j^*}{\to} \Omega^*(U) \to 0, $$
 where $d = \codim(Z, X)$.
 =--
 
 +-- {: .num_theorem}
-###### Theorem ([Levine-Morel](#LevineMorel))
+###### Theorem
+**([Levine-Morel](#LevineMorel))**.
 Given an embedding $k \hookrightarrow \mathbf{C}$, the canonical homomorphism of graded rings
   $$ \Omega^*(k) \longrightarrow MU^{2*}(pt) $$
 is invertible.
 =--
 
 +-- {: .num_theorem}
-###### Theorem ([Levine 2008](#Levine2008))
+###### Theorem
+**([Levine 2008](#Levine2008))**.
 The canonical homomorphisms of graded rings
   $$ \Omega^*(X) \longrightarrow MGL^{2*,*}(X) $$
 are invertible for all $X \in \Sm_k$.
@@ -58,15 +54,13 @@ are invertible for all $X \in \Sm_k$.
 
 ## Related concepts
 
-* [[Snaith's theorem]]
-* [[motivic homotopy theory]]
+* [[motivic Thom spectrum]]
 * [[complex cobordism]]
+* [[motivic homotopy theory]]
 * [[motivic cohomology]]
 * [[algebraic K-theory]]
 
 ## References
-
-### The motivic spectrum
 
 * {#Voevodsky98} [[Vladimir Voevodsky]], _$\mathbf{A}^1$-Homotopy Theory_, Doc. Math., Extra Vol. ICM 1998(I), 417-442, [web](http://www.mathematik.uni-bielefeld.de/documenta/xvol-icm/00/Voevodsky.MAN.html).
 
@@ -77,8 +71,6 @@ are invertible for all $X \in \Sm_k$.
 * [[Markus Spitzweck]], _Algebraic cobordism in mixed characteristic_, [arXiv](http://arxiv.org/abs/1404.2542).
 
 * [[Marc Hoyois]], _From algebraic cobordism to motivic cohomology_, [pdf](http://math.mit.edu/~hoyois/papers/hopkinsmorel.pdf), [arXiv](http://arxiv.org/abs/1210.7182).
-
-* {#GepnerSnaith08} [[David Gepner]], [[Victor Snaith]], _On the motivic spectra representing algebraic cobordism and algebraic K-theory_, Documenta Math.  2008 ([arXiv:0712.2817](http://arxiv.org/abs/0712.2817)).
 
 A discussion on MathOverflow:
 
@@ -123,8 +115,3 @@ The close connection of algebraic cobordism with [[K-theory]] is discussed in
 An algebraic analogue of h-cobordism:
 
 * Aravind Asok, Fabien Morel, _Smooth varieties up to $\mathbb{A}^1$-homotopy and algebraic h-cobordisms_, [arXiv:0810.0324](http://arxiv.org/abs/0810.0324)
-
-[[!redirects algebraic cobordism spectrum]]
-[[!redirects motivic Thom spectrum]]
-[[!redirects algebraic Thom complex]]
-[[!redirects MGL]]
