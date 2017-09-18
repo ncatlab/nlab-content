@@ -11,9 +11,7 @@
 
 * organizational meeting for the seminar:
 
-  Friday Feb 19, 12:00
-
-  Endenicher Allee 60, room N0.003
+  Friday Feb 19, 12:00, Endenicher Allee 60, room N0.003
 
 =--
 
