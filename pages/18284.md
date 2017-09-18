@@ -184,3 +184,7 @@ $$i_n: X_{n-1} \to X_n (= X_{n-1} \cup_{S_{n-1}} D_n)$$
 
 and deduce $X_n$ is normal by Theorem \ref{attach}. Then $X = colim_n X_n$ is normal by applying Proposition \ref{sequence}. 
 =--  
+
+## Related entries
+
+* [[colimits of paracompact Hausdorff spaces]]
