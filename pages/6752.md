@@ -94,11 +94,14 @@ Introductions and expository surveys include
 
 * {#MK14} [[Minhyong Kim]], _A superficial introduction to Langlands functoriality_, 2014 ([pdf](http://people.maths.ox.ac.uk/vonk/automorphic/functoriality.pdf))
  
-Discussion with an eye towards [[geometric class field theory]] and [[geometric Langlands duality]] is in 
+Discussion with an eye towards [[geometric class field theory]] and [[geometric Langlands duality]] and [[quantum field theory]] is in 
 
+* {#Kapranov95} [[Mikhail Kapranov]], _Analogies between the Langlands Correspondence and Topological Quantum Field Theory_, in _Functional Analysis on the Eve of the 21st Century_ Progress in Mathematics Volume 131/132, 1995, pp 119-151
+ 
 * {#Toth11} Peter Toth, _Geometric abelian class field theory_, 2011 ([web](http://dspace.library.uu.nl/handle/1874/206061))
 
 * {#Frenkel09} [[Edward Frenkel]], _Gauge Theory and Langlands Duality_ ([arXiv:0906.2747](http://arxiv.org/abs/0906.2747))
+
 
 More resources are at
 
