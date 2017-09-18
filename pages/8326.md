@@ -398,6 +398,22 @@ $$
 
 Or rather, this composite map will factor through $B_1 \underset{C}{\times} A$ and the resulting map to $A$ gives 'Some $B_1$ is $A$'.
 
+We may also treat negative propositions, such as 
+
+> No $B_1$ is $B_2$,
+
+which may be represented by an arrow  $B_1 \underset{C}{\times} B_2 \to 0$. Then, if we have 'All $A$ is $B_2$', there will be a map from the pullback $B_1 \underset{C}{\times} A$ to $B_1 \underset{C}{\times} B_2$, and so to $0$.
+
+This corresponds to the syllogism
+
+> No $B_1$ is $B_2$
+
+> All $A$ is $B_2$
+
+Hence,
+
+> No $B_1$ is $A$.
+
 
 #### The method (absolute Idea)
 
