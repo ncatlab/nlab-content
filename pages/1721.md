@@ -85,7 +85,7 @@ such that:
      \,.
    $$
 
-1. **Exactness** For $i \colon A \hookrightarrow$ an inclusion of pointed topological spaces, with $j \colon X \longrightarrow cone(i)$ the induced [[mapping cone]], then this gives an [[exact sequence]] of graded abelian groups
+1. **Exactness** For $i \colon A \hookrightarrow X$ an inclusion of pointed topological spaces, with $j \colon X \longrightarrow cone(i)$ the induced [[mapping cone]], then this gives an [[exact sequence]] of graded abelian groups
 
    $$
      \tilde E^\bullet(cone(i)) 
