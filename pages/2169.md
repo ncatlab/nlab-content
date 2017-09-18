@@ -91,6 +91,10 @@ However, these algebras do all have some useful algebraic properties; in particu
 
 A __[[normed field]]__ is a commutative normed division algebra; it follows from the preceding that the only normed fields over $\mathbb{R}$ are $\mathbb{R}$ and $\mathbb{C}$ (e.g. [Tornheim 52](#Tornheim52)).
 
+It is in fact true that all _unital_ normed division algebras over $\mathbb{R}$ are already finite dimensional, by ([Urbanik--Wright 1960](#UrbanikWright60)), and the authors give a reference on a non-unital infinite-dimensional normed division algebra.
+
+For purely inseparable characteristic 2 field extensions one can apparently get infinite-dimensional examples; see [this MathOverflow answer](http://mathoverflow.net/a/45655/4177) for reference.
+
 ### Automorphisms
  {#Automorphisms}
 
@@ -138,6 +142,9 @@ General discussion includes includes
 * Silvio Aurora, _On normed rings with monotone multiplication_, Pacific J. Math.
 Volume 33, Number 1 (1970), 15-20 ([JSTOR](http://projecteuclid.org/euclid.pjm/1102977236))
 
+The result about removing the assumption of finite-dimensionality from unital normed division algebras appears in:
+
+* {#UrbanikWright60} Kazimierz Urbanik and Fred B. Wright, _ Absolute-valued algebras_, Proc. Amer. Math. Soc. **11** (1960), 861-866, doi:[10.1090/S0002-9939-1960-0120264-6](https://doi.org/10.1090/S0002-9939-1960-0120264-6)
 
 
 Exposition with emphasis on the [[octonions]] is in
