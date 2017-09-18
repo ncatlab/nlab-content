@@ -28,7 +28,9 @@ A _paracompact Hausdorff topological space_ is a  [[topological space]] such tha
 
 ## Examples
 
-* [[topological manifolds]]
+* [[CW-complexes are paracompact Hausdorff spaces]]
+
+* [[topological manifolds]] are [[locally Euclidean spaces]] which are paracompact Hausdorff (by definition)
 
 ## Related entries
 
