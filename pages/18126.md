@@ -5081,8 +5081,8 @@ is open in $X$. But this is the case by the assumption that $f$ is continuous. H
 continuous function as required.
 
 What remains to be seen is that $T_n X$ as constructed is indeed a $T_n$-topological space.
-Hence assume that $[x] \neq [y] \in T_n X$ are two distinct points. We need to produce open neighbourhoods
-around one or both of these point not containing the other point and possibly disjoint to each other.
+Hence assume that $[x] \neq [y] \in T_n X$ are two distinct points. Depending on the value of $n$,  need to produce open neighbourhoods
+around one or both of these points not containing the other point and possibly disjoint to each other.
 
 Now by definition of $T_n X$ the assumption $[x] \neq [y]$ means that there exists a $T_n$-topological space $Y$ and a surjective continuous function
 $f \colon X \overset{surjective}{\longrightarrow} Y$ such that $f(x) \neq f(y) \in Y$:
@@ -5090,7 +5090,7 @@ $f \colon X \overset{surjective}{\longrightarrow} Y$ such that $f(x) \neq f(y) \
 $$
   ( [x_1] \neq [x_2] )
   \;\Leftrightarrow\;
-  \underset{ { Y \in Top_{T_m}  \atop { X \underoverset{\text{surjective}}{f}{\longrightarrow}  } } }{\exists}
+  \underset{ { Y \in Top_{T_m}  \atop { X \underoverset{\text{surjective}}{f}{\longrightarrow} Y } } }{\exists}
   \left(
     f(x_1) \neq f(x_2)
   \right)
@@ -5120,14 +5120,15 @@ equivalence relation (def. \ref{QuotientTopologicalSpace}) exhibits the $T_0$-re
 =--
 
 A more explicit construction of the Hausdorff quotient than given by prop. \ref{HausdorffReflectionViaHomsIntoAllHausdorffSpaces}
-is rather more involved:
+is rather more involved. The issue is that the relation "$x$ and $y$ are not separated by disjoint open neighbourhoods"
+is not [[transitive transitive|transitive]];
 
 +-- {: .num_prop #HausdorffReflectionViaTransitiveClosureOfDiagonal}
 ###### Proposition
 **(more explicit [[Hausdorff reflection]])**
 
 For $(Y,\tau_Y)$ a [[topological space]], write $r_Y \subset Y \times Y$
-for the [[transitive relation|transitive closure]] of tthe [[relation]] given by the [[topological closure]] $Cl(\Delta_Y)$ of the [[image]] of the [[diagonal]] $\Delta_Y \colon Y \hookrightarrow Y \times Y$.
+for the [[transitive relation|transitive closure]] of the [[relation]] given by the [[topological closure]] $Cl(\Delta_Y)$ of the [[image]] of the [[diagonal]] $\Delta_Y \colon Y \hookrightarrow Y \times Y$.
 
 $$
   r_Y \coloneqq Trans(Cl(Delta_Y))
@@ -5199,7 +5200,7 @@ prop. \ref{T0InTermsOfClosureOfPoints}, prop. \ref{T1InTermsOfTopologicalClosure
 prop. \ref{T3InTermsOfTopologicalClosures} and prop. \ref{T4InTermsOfTopologicalClosures} suggests rather different patterns.
 Therefore it is worthwhile to also consider separation-like axioms that are not among the original list.
 
-In partticular, the alternative characterization of the $T_0$-condition in prop. \ref{T0InTermsOfClosureOfPoints}
+In particular, the alternative characterization of the $T_0$-condition in prop. \ref{T0InTermsOfClosureOfPoints}
 immediately suggests the following strengthening, different from the $T_1$-condition (see example \ref{T1AndSoberIncomparable} below):
 
 +-- {: .num_defn #Sober}
@@ -5245,7 +5246,7 @@ a [[sober topological space]] (def. \ref{Sober}).
 
 More specifically, in a Hausdorff topological space
 the [[irreducible closed subspaces]] (def. \ref{ClosedIrreducible})
-are precisely the [[singleton]] [[subspaces]] (def. \ref{TopologicalSubspace}).
+are precisely the [[singleton]] [[subspaces]] (def. \ref{SubspaceTopology}).
 
 Hence, by example \ref{HausdorffMetricSpace}, in particular
 every [[metric space]] with its [[metric topology]] (example \ref{MetricTopology}) is sober.
@@ -5258,8 +5259,8 @@ every [[metric space]] with its [[metric topology]] (example \ref{MetricTopology
 The second statement clearly implies the first. To see the second
 statement, suppose that $F$ is an irreducible closed subspace which
 contained two distinct points $x \neq y$. Then by the Hausdorff property
-there are disjoint neighbourhoods $U_x, U_y$, and hence it would follow that
-the rlative [[complements]] $F \backslash U_x$ and $F \backslash U_y$ were distinct proper closed subsets of
+there would be disjoint neighbourhoods $U_x, U_y$, and hence it would follow that
+the relative [[complements]] $F \backslash U_x$ and $F \backslash U_y$ were distinct closed proper subsets of
 $F$ with
 
 $$
@@ -5725,8 +5726,7 @@ that we may universally "reflect" any topological space to becomes a $T_n$-space
 The remaining question then is whether this reflection breaks the desired universal property.
 We discuss that this is not the case, that instead the universal construction in all topological spaces
 followed by these reflections gives the correct universal constructions in $T_n$-separated and sober topological
-spaces, respectively. This way we finally obtain various [[convenient categories of topological spaces]]
-to work in.
+spaces, respectively (remark \ref{CoLimitsInNiceTopologicalSpaces} below).
 
 After these general considerations, we finally discuss a [list of examples](#UniversalConstructionsExamples) of universal constructions in topological spaces.
 
@@ -6426,6 +6426,43 @@ $$
 
 =--
 
+Here is a key property of (co-)limits:
+
++-- {: .num_prop #HomFunctorPreservesLimits}
+###### Proposition
+**(homomorphisms into a limit cone are the limit of the homomorphisms into the diagram)**
+
+Let $\mathcal{C}$ be a [[category]] (such as [[Set]] or [[Top]]) and let
+$$
+  X_\bullet \colon \mathcal{I} \longrightarrow \mathcal{C}
+$$
+
+be a [[diagram]] in $\mathcal{C}$.
+
+1. If the [[limit]] $\underset{\longleftarrow}{\lim}_i X_i \in \mathcal{C}$ exists, then
+   the [[set]] of [[homomorphisms]] into this limiting object os the limit over the sets of morphisms into the
+   components $X_i$:
+
+   $$
+     Hom_{\mathcal{C}}(Y, \underset{\longleftarrow}{\lim}_i X_i )
+      \simeq
+     \underset{\longleftarrow}{\lim}_i Hom_{Set}(Y, X_i)
+   $$
+
+
+1. If the [[colimit]] $\underset{\longrightarrow}{\lim}_i X_i \in \mathcal{C}$ exists, then
+   the [[set]] of [[homomorphisms]] out of this colimiting object is the colimit over the sets of
+   morphisms out of the components of $X_i$
+
+   $$
+     Hom_{\mathcal{C}}(\underset{\longrightarrow}{\lim}_i X_i, Y)
+       \simeq
+     \underset{\longrightarrow}{\lim} Hom_{Set}( X_i, Y )
+     \,.
+   $$
+
+=--
+
 
 
 This concludes the general definition of universal constructions. Before we consider explicit
@@ -6476,7 +6513,7 @@ be a [[diagram]] of [[sets]] (def. \ref{Diagram}, using the notation from remark
      \right\}
    $$
 
-1. its [[colimit|colimiting co-cone]] (def. \ref{LimitingCone}) exists and s given by the [[quotient set]] of the [[disjoint union]] $\underset{i \in I}{\sqcup} X_i$ of all the [[sets]] $X_i$ appearing in the diagram
+1. its [[colimit|colimiting co-cone]] (def. \ref{LimitingCone}) exists and is given by the [[quotient set]] of the [[disjoint union]] $\underset{i \in I}{\sqcup} X_i$ of all the [[sets]] $X_i$ appearing in the diagram
 
    $$
      \underset{i \in I}{\sqcup} X_i
@@ -6571,7 +6608,7 @@ $$
   X_\bullet \;\colon\; \mathcal{I} \longrightarrow Top
 $$
 
-be a [[diagram]] of [[topological spaces]] (def. \ref{BasicConstructions}, using the notation from remark \ref{FunctorialDefinitionOfDiagrams}).
+be a [[diagram]] of [[topological spaces]] (def. \ref{Diagram}, using the notation from remark \ref{FunctorialDefinitionOfDiagrams}).
 
 1. The [[limit]] of $X_\bullet$ exists and is given by [[generalized the|the]] topological space whose underlying set is [[generalized the|the]] limit in [[Set]] of the underlying sets in the diagram, and whose topology is the [[initial topology]], def. \ref{InitialAndFinalTopologies}, for the functions $p_i$ which are the limiting [[cone]] components:
 
@@ -6639,6 +6676,60 @@ any [[cone]] over the diagram, then by construction there is a unique function o
 The case of the colimit is [[formal dual|formally dual]].
 
 =--
+
+We discuss a list of examples of (co-)limits of topological spaces in a moment [below](#UniversalConstructionsExamples),
+but first we conclude with the main theoretical impact of the concept of topological (co-)limits for our our purposes.
+
+
+
++-- {: .num_remark #CoLimitsInNiceTopologicalSpaces}
+###### Remark
+**(limits and colimits in categories of [[nice topological spaces]])**
+
+Recall from remark \ref{ReflectiveSubcategory} the concept of [[adjoint functors]]
+
+$$
+  L \colon \mathcal{C} \leftrightarrow \mathcal{D} \colon R
+$$
+
+witnessed by [[natural isomorphisms]]
+
+$$
+  Hom_{\mathcal{D}}(L(c),d)
+    \simeq
+  Hom_{\mathcal{C}}(c,R(d))
+  \,.
+$$
+
+Observe that with prop. \ref{HomFunctorPreservesLimits} it follows that
+
+1. [[left adjoint functors]] preserve [[colimits]]
+
+1. [[right adjoint fucntors]] preserve [[limits]]
+
+This implies that if we have a [[reflective subcategory]] of topological spaces
+
+$$
+  Top_{nice}
+    \underoverset
+      {\underset{\iota}{\hookrightarrow}}
+      {\overset{L}{\longleftarrow}}
+      {\bot}
+  Top
+$$
+
+(where $Top_{nice}$ is for instance $Top_{T_n}$ for $n \in \{0,1,2\}$ or $Top_{sob}$)
+
+then
+
+1. limits in $Top_{nice}$ are computed as limits in $Top$;
+
+1. colimits in $Top_{nice}$ are computed as the reflection $L$ of the colimit in $Top$.
+
+(...)
+
+=--
+
 
 $\,$
 
@@ -8614,8 +8705,6 @@ is a partition of unity as required.
 
 
 
-
-
 ### Manifolds
 
 * [[topological manifold]]
@@ -8629,10 +8718,6 @@ is a partition of unity as required.
 * [[frame bundle]]
 
 * [[G-structure]]
-
-
-
-
 
 
 
@@ -8686,11 +8771,9 @@ Lecture notes include
 
 See also the references at _[[algebraic topology]]_.
 
-
 ### Special topics
 
 The standard literature typically omits the following important topics:
-
 
 Discussion of [[sober topological spaces]] is briefly in
 
