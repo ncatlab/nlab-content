@@ -14,7 +14,9 @@
 {:toc}
 
 
-Karoubi defined [[K-theory]] classes given by Clifford-algebra module bundles, where a $Cl_n$-module represents a class in $K^n$ and represents the trivial class if it extends to a $Cl_{n+1}$-module.
+Karoubi defined [[K-theory]] classes given by [[Clifford module bundles]], where a $Cl_n$-module represents a class in $K^n$ and represents the trivial class if it extends to a $Cl_{n+1}$-module.
+
+(Over the point this is the [[Atiyah-Bott-Shapiro isomorphism]].)
 
 ## Idea 
 
