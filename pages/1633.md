@@ -41,7 +41,7 @@ A locally compact [[Hausdorff space|Hausdorff]] space may also be called a _loca
 
 ### Category-theoretic properties
 
-Perhaps the most important consequence of local compactness (as defined above) for categorical topology is that locally compact spaces are [[exponential object|exponentiable]], i.e., if $Y$ is locally compact, then $Y \times -: Top \to Top$ has a [[adjunction|right adjoint]] $(-)^Y: Top \to Top$. In fact, this is almost an abstract definition of local compactness: for $T_0$ spaces, local compactness is equivalent to being exponentiable. This situation generalises to [[locales]]: a result of Hyland is that locale is [[locally compact locale|locally compact]] if and only if it is exponentiable.  (See [[exponential law for spaces]] for more details.) 
+Perhaps the most important consequence of local compactness (as defined above) for categorical topology is that locally compact spaces are [[exponential object|exponentiable]], i.e., if $Y$ is locally compact, then $Y \times -: Top \to Top$ has a [[adjunction|right adjoint]] $(-)^Y: Top \to Top$. In fact, this is almost an abstract definition of local compactness: for [[sober spaces]], local compactness is equivalent to being exponentiable. Cf. the situation for [[locales]]: a result of Hyland is that locale is [[locally compact locale|locally compact]] if and only if it is exponentiable.  (See [[exponential law for spaces]] and [[compact-open topology]] for more details.) 
 
 As noted above, locally compact spaces form a finitely complete [[full subcategory]] of $Top$. It is not true that arbitrary products of locally compact spaces are locally compact. However, some important examples of locally compact spaces are constructed as restricted direct products, as follows. 
 
