@@ -34,7 +34,11 @@ on [[supergravity]] and [[string theory]] with an emphasis on the [[D'Auria-Fré
 
 * {#DAuriaFre}  [[Riccardo D'Auria]], [[Pietro Fré]] _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B201 (1982) 101-140 
 
+The book is out of print, unfortunately, but check $gen.lib$. The newer book
 
+* [[Pietro Fré]], _Gravity, a Geometrical Course: Volume 2: Black Holes, Cosmology and Introduction to Supergravity_, Springer 2012
+
+is much more brief in compariso, but has more history and exposition, and treats more recent developments, such as aspects related to [[AdS-CFT]].
 
 ## Description
 
