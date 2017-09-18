@@ -28,10 +28,12 @@ For $C$ a [[model category]] and $X \in C$ an [[object]], the [[over category]] 
 
 ## Properties ##
 
+### Cofibrant generation, properness, combinatoriality
+
 +-- {: .num_prop #ModelStructureInheritsGoodProperties}
 ###### Proposition
 
-If $C$ is
+If $\mathcal{C}$ is
 
 * a [[cofibrantly generated model category]]
 
@@ -39,27 +41,32 @@ If $C$ is
 
 * or a [[cellular model category]]
 
-then so are $C/X$ and $X/C$.
+then so are $\mathcal{C}_{/X}$ and $\mathcal{C}^{X/}$.
+
+More in detail, if $I,J \subset Mor(\mathcal{C})$ are the classes of [[generating cofibrations]] and of generating acylic cofibrations of $\mathcal{C}$, respectively, then 
+
+* the generating (acyclic) cofibrations of $\mathcal{C}^{X/}$ are the image under $X \sqcup(-)$ of those of $\mathcal{C}$.
 
 =--
 
-The proofs are in ([OvMod](#OvMod)).
+This is spelled out in ([Hirschhorn 05](#Hirschhorn05)).
 
 +-- {: .num_prop #ModelStructureInheritsCombinatorial}
 ###### Proposition
 
-If $C$ is a [[combinatorial model category]], then so is $C/X$.
+If $\mathcal{C}$ is a [[combinatorial model category]], then so is $\mathcal{C}_{/X}$.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-By [basic properties](http://ncatlab.org/nlab/show/locally+presentable+category#Properties) of [[locally presentable categories]] they are stable under slicing. Hence with $C$ locally presentable also $C/X$ is, 
-and by prop. \ref{ModelStructureInheritsGoodProperties} with $C$ cofibrantly
-generated also $C/X$ is. 
+By [basic properties](locally+presentable+category#Properties) of [[locally presentable categories]] they are stable under slicing. Hence with $\mathcal{C}$ locally presentable also $\mathcal{C}_{/X}$ is, 
+and by prop. \ref{ModelStructureInheritsGoodProperties} with $\mathcal{C}$ cofibrantly generated also $\mathcal{C}_{/X}$ is. 
 
 =--
+
+### Derived hom-spaces
 
 +-- {: .num_prop #PresentationOfSliceInfinityCat}
 ###### Proposition
@@ -175,7 +182,7 @@ This means that this correct hom-space $C/X(a,b) \simeq (C/X)^\circ(a,b) \in sSe
 
 ## References ##
 
-* {#OvMod} [[Philip Hirschhorn]], _Overcategories and undercategories of model categories_ ([pdf](http://www-math.mit.edu/~psh/undercat.pdf))
+* {#Hirschhorn05} [[Philip Hirschhorn]], _Overcategories and undercategories of model categories_, 2005 ([pdf](http://www-math.mit.edu/~psh/undercat.pdf))
 
 
 [[!redirects model structure on an overcategory]]
@@ -194,3 +201,15 @@ This means that this correct hom-space $C/X(a,b) \simeq (C/X)^\circ(a,b) \in sSe
 
 [[!redirects slice model structure]]
 [[!redirects slice model structures]]
+
+[[!redirects coslice model category]]
+[[!redirects coslice model categories]]
+
+[[!redirects coslice model structure]]
+[[!redirects coslice model structures]]
+
+[[!redirects co-slice model category]]
+[[!redirects co-slice model categories]]
+
+[[!redirects co-slice model structure]]
+[[!redirects co-slice model structures]]
