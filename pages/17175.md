@@ -1,3 +1,4 @@
+[[!redirects generalized Chern class]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -16,7 +17,7 @@
 
 ## Idea
 
-The concept of [[Chern classes]] of [[complex vector bundles]] as [[universal characteristic classes]] in [[ordinary cohomology]] generalized to any [[complex oriented cohomology|complex oriented]] [[generalized cohomology theory]] ([Adams 74](#Adams74), [Lurie 10](#Lurie10)):
+The concept of [[Chern classes]] of [[complex vector bundles]] as [[universal characteristic classes]] in [[ordinary cohomology]] generalized to any [[complex oriented cohomology|complex oriented]] [[generalized cohomology theory]]: the _Conner-Floyd Chern classes_ ([Conner-Floyd 66](#ConnerFloyd66), [Adams 74](#Adams74)), review includes ([Kochmann 96, section 4.3](#Kochmann96), [Lurie 10, lectures 4 and 5](#Lurie10)):
 
 for $E$ a [[generalized cohomology theory]], the analog of the [[first Chern class]] in $E$-cohomology is what appears in the very definition of [[complex oriented cohomology]]. The higher generalized Chern classes are induced from this by the [[splitting principle]]. See at _[complex oriented cohomology -- the cohomology ring of BU(n)](complex+oriented+cohomology+theory#TheCohomologyRingOfBUn)_.
 
@@ -25,7 +26,11 @@ The generalized Chern classes serve as the generalized [[Thom classes]] that mak
 
 ## References
 
-* {#Adams74} [[Frank Adams]], part II.2, part III.10 of _[[Stable homotopy and generalised homology]]_, 1974
+* {#ConnerFloyd66} P. E. Conner, E. E. Floyd, _The relation of cobordism to $K$-theories_, Lecture Notes in Mathematics __28__ Springer 1966 v+112 pp. [MR216511](http://www.ams.org/mathscinet-getitem?mr=216511)
+
+* {#Adams74} [[Frank Adams]], part I.4, part II.2, part III.10 of _[[Stable homotopy and generalised homology]]_, 1974
+
+* {#Kochmann96} [[Stanley Kochmann]], section 4.3 of _Bordism, Stable Homotopy and Adams Spectral Sequences_, AMS 1996
 
 * {#Lurie10} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, 2010, lecture 4 ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture4.pdf)) and lecture 5 ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture5.pdf))
 
