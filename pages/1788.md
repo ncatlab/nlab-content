@@ -1,1 +1,1 @@
-$\left\{  h_i{-1}( (0,1] ) \subset X \right\}_{i \in I}$
+(free)
