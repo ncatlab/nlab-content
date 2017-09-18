@@ -66,7 +66,7 @@ is the sum of the [[Euler-Lagrange form]] and the presymplectic current density 
 
 ## References
 
-Lepage was a student of De Donder and did his work on the calculus of variations around the 1930s. Only much later, Krupka was responsible for naming Lepage forms around the 1970s.
+Lepage was a student of [[Théophile de Donder]] and did his work on the [[calculus of variations]] around the 1930s. Only much later, Krupka was responsible for naming Lepage forms around the 1970s.
 
 See for instance
 
