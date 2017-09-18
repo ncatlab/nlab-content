@@ -739,7 +739,7 @@ $$
 $$
 
 Here on the left we are using prop. \ref{OnCompactHausdorffVirtualVectorBundlesAreFormalDifferentcesWithATrivialBundle}
-to represent any element of the K-group as a [[virtual vector bundle|virtual]] difference of a vector bundle $E$ by 
+to represent any element of the K-group as a [[virtual vector bundle|virtual]] difference of a vector bundle $E$ by
 a [[trivial vector bundle]],
 and $rk_x(E) \in \mathbb{N}$ denotes the [[rank of a vector bundle|rank]] of this vector bundle over the [[connected component]]
 of $x \in X$.
@@ -948,7 +948,7 @@ For $X$ a [[pointed topological space]] write
 
 $$
   \tilde K^1(X)
-    \;\colneqq\;
+    \;\coloneqq\;
   \tilde K(\Sigma X)
 $$
 
@@ -1019,7 +1019,94 @@ The analogue is true for the K-groups in degree 1 from def. \ref{GradedKGroups},
 though this is no longer completely trivial:
 
 
+### For non-compact spaces
 
+By prop. \ref{OnCompactHausdorffVirtualVectorBundlesAreFormalDifferentcesWithATrivialBundle} the 
+topological K-theory groups of [[compact topological spaces]] are [[representable functor|represended]]
+by [[homotopy classes]] of [[continuous functions]] into the [[classifying spaces]] $B O \times \mathbb{Z}$ 
+and $B U \times \mathbb{Z}$, respectively (def. \ref{BUn}).
+
+$$
+  \left(
+    X \text{compact}
+  \right)
+    \;\Rightarrow\;
+  \left(
+    K_{\mathbb{C}}(X)
+      \simeq
+    [X \to B U \times \mathbb{Z}]
+    \phantom{AAAAA}
+    K_{\mathbb{R}}(X)
+      \simeq
+    [X, B O \times \mathbb{Z}]
+  \right)
+  \,.
+$$
+
+There are various ways of generalizing this situation to non-compact spaces:
+
++-- {: .num_defn #GrothendieckGroupKTheory}
+###### Definition
+**(Grothendieck group topological K-theory)**
+
+   The [[Grothendieck group]] construction on the [[monoid]] $(Vect(X)/_\sim, \oplus)$
+   of [[isomorphism classes]] of [[topological vector bundles]] makes sense for every 
+   [[topological space]] $X$. For non-compact $X$ this is usually just called that
+   "the Groothencieck group of vector bundles on $X$", sometimes denoted
+   
+   $$
+     \mathbb{K}(X) \coloneqq GrothGroup( Vect(X)/_\sim, \oplus )
+     \,.
+   $$
+
+=--
+
++-- {: .num_defn #RepresntableTopologicalKTheory}
+###### Definition
+**(representable topological K-theory)
+
+   The group of [[homotopy classes]] of [[continuous functions]] into a (classifying) space
+   is of course well defined for any domain space, hence for any topological space $X$ one may set
+   
+   $$
+     K_{\mathbb{C}}(X)_{rep}
+      \;\coloneqq\;
+     [X,B U \times \mathbb{Z}]
+     \phantom{AAAAA}
+     K_{\mathbb{R}}(X)_{rep}
+      \;\coloneqq\;
+     [X,B O \times \mathbb{Z}]
+   $$
+   
+   This is called _representable K-theory_.
+
+=--
+
++-- {: .num_defn #InverseLimitTopologicalKTheory}
+###### Definition
+**(inverse limit topological K-theory)
+
+   Let $X$ be a [[topological space]] with the structure of a [[CW-complex]],
+   hence a [[colimit]] ("[[direct limit]]") $X \simeq \underset{\longrightarrow}{\lim}_n X_n$
+   such that each $X_n$ is a [[finite cell complex]], hence in particular a [[compact topological space]]. 
+   Then the [[limit]] ([[inverse limit]])
+   of the corresponding K-group
+   
+   $$
+     K(X)_{invl} \coloneqq \underset{\longleftarrow}{\lim}_n K(X_n)
+   $$
+   
+   is called the _inverse limit K-theory_ of $X$.
+
+=--
+
+$\,$
+
+Mo two of these definitions are equivalent to each other on all of their domain of defintion
+(e.g. [Anderson-Hodgkin 68](#AndersonHodgkin68), [Jackowski-Oliver](#JackowskiOliver)).
+
+
+   
 
 ## Examples
  {#Examples}
@@ -1762,7 +1849,8 @@ $$
 As a special case this implies the first statement above:
 
 
-For $X = \ast$ the product theorem prop. \ref{FundamentalProductTheorem} says in particular that the first of the two morphisms in the composite is an [[isomorphism]] (example \ref{TopologicalKTheoryRingOfThe2Sphere} below)  and hence by the [[two-out-of-three]]-property for [[isomorphisms]] it follows that
+For $X = \ast$ the product theorem prop. \ref{FundamentalProductTheorem} says in particular that the first of the two morphisms in the composite is an [[isomorphism]] (example \ref{TopologicalKTheoryRingOfThe2Sphere} below)  and
+hence by the [[two-out-of-three]]-property for [[isomorphisms]] it follows that:
 
 +-- {: .num_cor #ExternalProductTheorem}
 ###### Corollary
@@ -2006,6 +2094,7 @@ We discuss how the [[classifying space]] for $\tilde K^0$ is the [[delooping]] o
 
 +-- {: .num_defn #BUn}
 ###### Definition
+**([[classifying space]] of the [[stable unitary group]])**
 
 For $n \in \mathbb{N}$ write $U(n)$ for the [[unitary group]] in dimension $n$ and $O(n)$ for the [[orthogonal group]]
 in dimension $n$, both regarded as [[topological groups]] in the standard way. Write $B U(n) , B O(n)\in$ [[Top]] $ for the corresponding [[classifying space]].
@@ -2209,6 +2298,24 @@ $$
 
 is a model for the [[classifying space]] of reduced K-theory.
 
+
+### Of non-compact spaces
+
+For $G$ a compact Lie group with [[classifying space]] $B G$ (in general non-compact)
+then the map from the [[Grothendieck group]] $\mathbb{K}(B G) \coloneqq Grp(Vect(B G)/_\sim, \oplus)$
+(def. \ref{GrothendieckGroupKTheory})
+to the representable K-theory $K(B G)_{rep} \coloneqq [X, B U \times\mathbb{Z}]$  
+(def. \ref{RepresntableTopologicalKTheory}) is 
+[[injective function|injective]]
+
+$$
+   \mathbb{K}(B G) \hookrightarrow K(B G)_{rep}
+   \,.
+$$
+
+[Jackowski-Oliver](#JackowskiOliver)
+
+
 ### As a generalized cohomology theory
  {#AsAGeneralizedCohomologyTheory}
 
@@ -2246,7 +2353,7 @@ $$
 $$
 
 is the [[Bott element]] $h-1$, the [[virtual vector bundle]] difference between the [[basic complex line bundle on the 2-sphere]]
-and the [[trivial vector bundle|trivial]] [[complex line bundle]] spring.
+and the [[trivial vector bundle|trivial]] [[complex line bundle]].
 
 By the very nature of the [[basic complex line bundle on the 2-sphere]] $h$, it is the restriction of the [[universal complex line bundle]]
 $\mathcal{O}(1)$ on $B U(1) \simeq \mathbb{C}P^\infty$ along the defining cell inclusion $i \colon S^2 \hookrightarrow \mathbb{C}P^\infty \simeq B U(1)$.
@@ -2372,6 +2479,8 @@ See at _[[comparison map between algebraic and topological K-theory]]_.
 
 ## References
 
+### General
+
 The "ring of complex vector bundles" $K(X)$ was introduced in
 
 * {#AtiyahHirzebruch61} [[M. F. Atiyah]], [[F. Hirzebruch]], _Riemann-Roch theorems for differentiable manifolds_, Bull.  Amer. Math Soc. vol. 65 (1959) pp. 276-281.
@@ -2416,10 +2525,6 @@ A textbook account of topological K-theory with an eye towards [[operator K-theo
 
 * [[Bruce Blackadar]], _[[K-Theory for Operator Algebras]]_
 
-A discussion of the topological K-theory of [[classifying spaces]] of [[Lie groups]] is in
-
-* {#JackowskiOliver} Stefan Jackowski and Bob Oliver, _Vector bundles over classifying spaces of compact Lie groups_ ([pdf](http://hopf.math.purdue.edu/Jackowski-Oliver/bg-bu.pdf))
-
 
 The [[comparison map between algebraic and topological K-theory]] is discussed for instance in
 
@@ -2435,6 +2540,20 @@ Discussion from the point of view of [[smooth stacks]] and [[differential K-theo
 The proof of the [[Hopf invariant one]] theorem in terms of topological K-theory is due to
 
 * {#AdamsAtiyah66} [[Frank Adams]], [[Michael Atiyah]], _K-theory and the Hopf invariant_, Quart. J. Math. Oxford (2), 17 (1966), 31-38 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/adamatiy.pdf))
+
+
+### For non-compact spaces
+
+Topological K-theory of [[Eilenberg-MacLane spaces]] is discussed in
+
+* {#AndersonHodgkin68} D.W. Anderson, Luke Hodgkin _The K-theory of Eilenberg-Maclane complexes_, Topology, Volume 7, Issue 3, August 1968, Pages 317-329 ([doi:10.1016/0040-9383(68)90009-8](https://doi.org/10.1016/0040-9383(68)90009-8))
+
+Topological topological K-theory of [[classifying spaces]] of [[Lie groups]] is in
+
+* {#JackowskiOliver} Stefan Jackowski and Bob Oliver, _Vector bundles over classifying spaces of compact Lie groups_ ([pdf](http://hopf.math.purdue.edu/Jackowski-Oliver/bg-bu.pdf))
+
+
+### D-brane charge
 
 For references on [[D-branes]] in terms of [[K-theory]] see [there](D-brane#ReferencesKTheoryDescription).
 
