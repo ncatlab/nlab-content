@@ -196,6 +196,9 @@ with an emphasis on the use of $MU$ in the [[Adams-Novikov spectral sequence]], 
 
 Lecture notes include 
 
+* {#Schwede12} [[Stefan Schwede]], Example I.2.8 in _Symmetric spectra_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec.pdf))
+
+
 * [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_ Lecture series ([lecture notes](http://www.math.harvard.edu/~lurie/252x.html)), Lecture 5 _Complex bordism_ 
 ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture5.pdf))
 
