@@ -10,7 +10,7 @@
 =--
 
 # Contents
-* automatic table of contents goes here
+* table of contents
 {: toc}
 
 ## Idea
@@ -164,6 +164,7 @@ There are many different _models_ for bringing the abstract notion of higher cat
 
     * [[2-poset]]
 
+
   * [[n-groupoid]] = (n,0)-category
 
     * [[2-groupoid]], [[3-groupoid]]
@@ -228,6 +229,8 @@ There are many different _models_ for bringing the abstract notion of higher cat
 
 
 ## Related concepts
+
+* [[opetopic type theory]]
 
 [[!include table of category theories]]
 
