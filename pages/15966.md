@@ -42,6 +42,17 @@ Global analytic index theory should give a setting for index theory on [[global 
 
 The starting point of this approach should be given by the settlement of a global analytic derived version of Kashiwara and Schapira's microlocal formulation of various index theorems. It is essential, for this approach to work, to have a viewpoint on the microlocalization techniques that is very close to Toen and Vezzosi's loop space approach to the Chern character, through Hochschild and negative cyclic homology of rigid symmetric monoidal stacks of $\infty$-categories over $\infty$-stacks, with an additional microlocal fashion. One also needs a version of [[Grothendieck duality]] adapted to global analytic derived geometry, because it is necessary to define microlocal Hochschild homology in Kashiwara and Schapira's approach to index theory.
 
+## An important difficulty
+
+A difficulty to be overcome in the seek for a global analytic index theory is
+that the theory of $D$-modules without denominators, or in characteristic $p$,
+lacks of a good notion of de Rham cohomology: the usual definition of it gives
+etale cohomology with $k$-coefficients on an algebraically closed field $k$ of characteristic $p$ (Ogus' article on the infinitesimal site). There is also not yet a
+clear idea of what the analog of $\mathbb{R}$-constructible coefficients could
+be on a general global analytic space. For example, if one mimicks the approach of Kashiwara and Schapira in the characteristic $p$ setting, one has to replace
+$\mathbb{C}/\mathbb{R}$ by $\bar{\mathbb{F}}_p/\mathbb{F}_p$, which is an infinite extension. The natural analog in this situation of the elliptic pair
+$(\mathcal{O}_X,\mathbb{C}_M)$ associated to $M/\mathbb{R}$, for $M/\mathbb{F}_p$ a projective smooth variety, has de Rham cohomology an $\bar{\mathbb{F}}_p$-module that doesn't seem to be finite dimensional.
+
 ## Pursuing global analytic trace kernels
 
 Recall that a trace kernel in Kashiwara and Schapira's sense
