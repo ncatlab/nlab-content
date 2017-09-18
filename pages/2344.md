@@ -417,6 +417,12 @@ In the paper
 
 it is proven that the 2-category of "[[locally presentable category|locally presentable]]" derivators is equivalent to the [[localization]] of the 2-category of [[combinatorial model categories]] at the [[Quillen equivalences]].  Thus in some sense derivators capture "all the information" about a combinatorial model category, hence also about a [[locally presentable (∞,1)-category]].
 
+Along somewhat similar lines, in
+
+* Kevin Carlson, _An embedding of quasicategories in prederivators_, [arxiv](https://arxiv.org/abs/1612.06980)
+
+it is shown that $(\infty,1)$-categories can be literally embedded in "prederivators" as long as we allow *strict morphisms* between the latter (which is arguably somewhat against the spirit of derivators, but still interesting).
+
 An introductory discussion aimed towards [[stable derivator]]s is also in
 
 * [[Moritz Groth]], _Monoidal derivators and additive derivators_, [arxiv/1203.5071](http://arxiv.org/abs/1203.5071); _Derivators, pointed derivators, and stable derivators_ ([pdf](http://www.math.uni-bonn.de/~mgroth/groth_derivators.pdf))
