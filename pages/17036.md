@@ -1,0 +1,9 @@
+
+
+* [webpage](https://wiki.math.ntnu.no/users/alexasc/start)
+
+## related $n$Lab entries
+
+* [[bisection of a Lie groupoid]]
+
+category: people
