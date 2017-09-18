@@ -22,6 +22,16 @@ A _quark-gluon plasma_ is a certain phase of [[QCD]] which is a [[plasma]] of [[
 
 ### General
 
+Discussion in the broader context of [[non-perturvative effects]] in [[QCD]] is in
+
+* {#Shuryak01} [[Edward Shuryak]], _Nonperturbative QCD and Quark-Gluon Plasma_, lectures at Trieste, 2001 ([pdf](http://users.ictp.it/~pub_off/lectures/lns010/Shuryak/Shuryak.pdf))
+
+Further disucssion in relation to [[instantons in QCD]] includes
+
+* Nikolai Kochelev, _Ultra-light Glueballs in Quark-Gluon Plasma_ ([arXiv:1501.07002](http://arxiv.org/abs/1501.07002))
+
+See also
+
 * Wikipedia, _[Quark-Gluon plasma](http://en.wikipedia.org/wiki/Quark%E2%80%93gluon_plasma)_
 
 ### Description via AdS/CFT
@@ -41,3 +51,4 @@ Orinal articles include:
 * Hovhannes R. Grigoryan, Paul M. Hohler, Mikhail A. Stephanov, _Towards the Gravity Dual of Quarkonium in the Strongly Coupled QCD Plasma_ ([arXiv:1003.1138](http://arxiv.org/abs/1003.1138))
 
 * Brett McInnes, _Holography of the Quark Matter Triple Point_ ([arXiv:0910.4456](http://arxiv.org/abs/0910.4456))
+
