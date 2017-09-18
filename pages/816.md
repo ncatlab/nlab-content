@@ -112,7 +112,7 @@ $$
   \,.
 $$
 
-This follows from the above by by the [[coend]] manipulation
+This follows from the above by the [[coend]] manipulation
 
 $$
   \begin{aligned}
