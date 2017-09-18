@@ -1,30 +1,35 @@
+One consequence of theorem \ref{ProjectiveModelStructureOnTopologicalFunctors} is the model category theoretic incarnation of the theory of [[homotopy colimits]].
+
+Observe that ordinary [[limits]] and [[colimits]] (def. \ref{LimitsAndColimits}) are equivalently characterized in terms of [[adjoint functors]]:
+
+Let $\mathcal{C}$ be any [[category]] and let $I$ be a [[small category]]. Write $[I,\mathcal{C}]$ for the corresponding [[functor category]]. We may think of its objects as $I$-shaped [[diagrams]] in $\mathcal{C}$, and of its morphisms as homomorphisms of these diagrams.  There is a canonical functor
+
 $$
-  \array{
-    S^3 \wedge X_{2n}
-      &\overset{i_0}{\longrightarrow}& 
-   (I_+) \wedge S^3 \wedge X_{2n}
-      &\overset{i_1}{\longleftarrow}& 
-   S^3 \wedge X_{2n}
-     &\overset{\tau_{S^2\wedge X_{2n}, S^1}}{\longleftarrow}&
-   S^2 \wedge X_{2n} \wedge S^1
-   \\
-   & {}_{\mathllap{id}}\searrow 
-     & \downarrow & 
-   \swarrow_{\mathrlap{\tau_{S^2, S^1} \wedge X_n}}
-   && \swarrow_{\mathrlap{(\sigma_{2n+1}\circ (S^1 \wedge \sigma_{2n})) \wedge S^1}}
-   \\
-   && 
-   S^3 \wedge X_{2n} 
-     && 
-   &
-   X_{2n} \wedge S^1
-   \\
-   &&
-   &  {}_{\mathllap{S^1 \wedge (\sigma_{2n+1}\circ (S^1 \wedge \sigma_{2n}))}}\searrow
-   & 
-   \swarrow_{\mathrlap{\tau_{S^1, X_{2n}}}}
-   \\
-   && && S^1 \wedge X_{2(n+1)}
-  }
-  \,.
+  \mathcal{C} \overset{const}{\longrightarrow} [I,\mathcal{C}]
 $$
+
+which sends each object of $\mathcal{C}$ to the diagram that is constant on this object. Then unwinding the definition of the [[universal properties]] of [[limits]] and [[colimits]], one sees that 
+
+1. precisely when $\mathcal{C}$ has all [[colimits]] of shape $I$, then the functor $const$ has a [[left adjoint]] functor, which is the operation of forming these colimits:
+
+   $$
+     [I,\mathcal{C}]
+       \underoverset
+        {\underset{const}{\longleftarrow}}
+        {\overset{\underset{\longrightarrow}{\lim}}{\longrightarrow}}
+        {\bot}
+     \mathcal{C}
+   $$
+
+1. precisely when $\mathcal{C}$ has all [[limits]] of shape $I$, then the functor $const$ has a [[right adjoint]] functor, which is the operation of forming these limits.
+
+   $$
+     [I,\mathcal{C}]
+       \underoverset
+        {\underset{\underset{\longleftarrow}{\lim}}{\longrightarrow}}
+        {\overset{const}{\longleftarrow}}
+     \mathcal{C}
+   $$
+
+
+
