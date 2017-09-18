@@ -39,6 +39,8 @@ A [[super Lie algebra]] which is a [polyvector](super+Poincare+Lie+algebra#Polyv
 
 ## References
 
+* [[Paul Townsend]], _$p$-Brane Democracy_ ([arXiv:hep-th/9507048](http://arxiv.org/abs/hep-th/9507048))
+
 * [[Chris Hull]], section 2 of _Gravitational Duality, Branes and Charges_, Nucl.Phys. B509 (1998) 216-251 ([arXiv:hep-th/9705162](http://arxiv.org/abs/hep-th/9705162))
 
 * Tatsuya Ueno, _BPS States in 10+2 Dimensions_, JHEP 0012:006,2000 ([arXiv:hep-th/9909007](http://arxiv.org/abs/hep-th/9909007))
