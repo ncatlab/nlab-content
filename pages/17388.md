@@ -16,14 +16,12 @@
 
 ## Statement
 
-+-- {: .num_prop }
++-- {: .num_prop #CompactSubspacesOfHausdorffSpacesAreClosed}
 ###### Proposition
 
 A [[compact subspace]] $K$ of a [[Hausdorff topological space]] $X$ is a [[closed subspace]].
 
 =--
-
-To see that this proposition does not hold under milder [[separation axioms|separation assumptions]] consider a [[dense subspace]] of a topological space. For instance the [[affine scheme]] $Spec \mathbb{Z}$ is $T_1$ but the conclusion of the proposition does not hold for the [[generic point]].
 
 +-- {: .proof}
 ###### Proof
@@ -53,8 +51,19 @@ $$
 
 is still open, and by construction it is disjoint from all $U_y$ for $y \in S$, hence in particular disjoint from $K$, and it contains $x$. Hence $U_x$ is an open neighbourhood of $x$ as required.
 
+=--
+
+## Remarks
+
++-- {: .num_defn #NecessityOfHausdorffAssumption}
+###### Remark
+
+The statement of prop. \ref{CompactSubspacesOfHausdorffSpacesAreClosed} does not hold with the Hausdorff condition replaced by weaker [[separation axioms|separation assumptions]].
+
+To see this, consider a [[dense subspace]] of a topological space. For instance the [[affine scheme]] [[Spec(Z)]] is $T_1$ but the conclusion of the proposition does not hold for the [[generic point]].
 
 =--
+
 
 
 ## Related entries
