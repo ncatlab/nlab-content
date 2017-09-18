@@ -322,11 +322,11 @@ Monographs:
 
 
 
-* [[Mark Hovey]], _Model Categories_ Mathematical Surveys and Monographs, Volume 63, AMS (1999) ([Google books](http://books.google.co.uk/books?id=Kfs4uuiTXN0C&printsec=frontcover))
+* [[Mark Hovey]], _Model Categories_ Mathematical Surveys and Monographs, Volume 63, AMS (1999) ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/hovey-model-cats.pdf), [Google books](http://books.google.co.uk/books?id=Kfs4uuiTXN0C&printsec=frontcover))
 
 See 
 
-* P. Hirschhorn, personal website: _[Mathematics](http://www-math.mit.edu/~psh/#Mathematics)_
+* [[Philip Hirschhorn]], personal website: _[Mathematics](http://www-math.mit.edu/~psh/#Mathematics)_
 
 for errata and more. 
 
@@ -335,9 +335,9 @@ for errata and more.
 and Homotopical Categories]]_ , volume 113 of Mathematical Surveys and Monographs
 
 
-For yet another introduction to model categories, with an eye towards their use as [[presentable (infinity,1)-category|presentations]] of $(\infty,1)$-[[(infinity,1)-category|categories]] see Appendix A.2 of
+For yet another introduction to model categories, with an eye towards their use as [[presentable (infinity,1)-category|presentations]] of $(\infty,1)$-[[(infinity,1)-category|categories]] see 
 
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_
+* [[Jacob Lurie]], appendix A.2 of _[[Higher Topos Theory]]_
 
 
 [[!redirects model categories]]
