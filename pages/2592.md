@@ -139,6 +139,8 @@ For fix a unit vector in $\mathbb{R}^{n+1}$. Then its [[orbit]] under the defini
 
 * [[orthogonal calculus]]
 
+* [[Stiefel manifold]], [[Grassmannian]]
+
 * [[stable orthogonal group]]
 
  $\cdots\to$ [[fivebrane group]] $\to$ [[string group]] $\to$ [[spin group]] $\to$ [[special orthogonal group]] $\to$ **orthogonal group**
