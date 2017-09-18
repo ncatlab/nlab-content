@@ -37,6 +37,10 @@ and (p. 13)
 
 * [[photon]], [[laser]]
 
+* [[gravitational wave]]
+
+* [[pp-wave spacetime]]
+
 ## References
 
 * Wikipedia, _[Light](http://en.wikipedia.org/wiki/Light)_
