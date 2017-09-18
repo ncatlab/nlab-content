@@ -32,4 +32,4 @@ See section 8.2 of
 
 and section 4.3 of
 
-* [[B. Toen]], _Lectures on dg-categories_, [pdf](http://ens.math.univ-montp2.fr/~toen/swisk.pdf).
+* [[B. Toen]], _Lectures on dg-categories_, [pdf](http://www.hamilton.tcd.ie/events/swisk.pdf).
