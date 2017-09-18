@@ -1,5 +1,4 @@
 
-> This page is currently being reworked into the more comprehensive discussion at [[Smooth∞Grpd]]
 
 
 +-- {: .rightHandSide}
@@ -27,6 +26,8 @@
 {:toc}
 
 ## Idea
+
+We discuss the refinement to [[higher differential geometry]] of the concept of a [[circle group]]-[[principal connection]] (on a [[circle group]]-[[principal bundle]]). Specifically we indicate how the general abstract definition in terms of [[cohesion]] reproduces in the context of [[smooth ∞-groupoid|smooth cohesion]] to the representation of circle $n$-connections by [[cocycles]] in smooth _[[Deligne cohomology]]_ ([dcct](#dcct)). 
 
 In every [[cohesive (∞,1)-topos]] $\mathbf{H}$ there is an <a href="http://ncatlab.org/nlab/show/cohesive+(infinity%2C1)-topos#DifferentialCohomology">intrinsic notion of differential cohomology</a> with coefficients in an [[abelian group|abelian]] [[group object]] $A \in \mathbf{H}$ that classifies $\mathbf{B}^{n-1}A$-[[principal ∞-bundles]] with [[connection on an ∞-bundle|∞-connection]]. 
 
@@ -1527,7 +1528,7 @@ A general picture of [[bundle n-gerbe]]s (with connection) as something very sim
 
 The above discussion is from 
 
-* [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_ .
+* {#dcct} [[Urs Schreiber]], _[[schreiber:differential cohomology in a cohesive topos]]_ .
 
 
 [[!redirects circle n-bundles with connection]]
@@ -1551,3 +1552,8 @@ The above discussion is from
 
 [[!redirects circle 2-bundle with connection]]
 [[!redirects circle 2-bundles with connection]]
+
+[[!redirects circle n-connection]]
+[[!redirects circle n-connections]]
+
+
