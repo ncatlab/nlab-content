@@ -20,13 +20,18 @@ The term "cohomological field theory" is mostly used for the "Witten style" [[to
 
 Mathematically these topological field theories came to be known as _[[TCFT|TCFTs]]_. With the proof of the [[cobordism hypothesis]] these were understood to be the "non-compact" 2-dimensional [[extended TQFTs]] with codomain an [[(infinity,1)-category of chain complexes]], where "non-compact" refers to all [[cobordisms]] being required to have non-empty outgoing [[boundary]].
 
-For more on all this see at _[[TCFT]]_.
+For more on all this see at _[[TCFT]]_ and at _[[2d TQFT]]_.
 
 
 ## References
 
 * {#Witten91} [[Edward Witten]], _Introduction to cohomological field theory_, InternationalJournal of Modern Physics A, Vol. 6,No 6 (1991) 2775-2792 ([[WittenCQFT.pdf:file]])
 
+[[!redirects cohomological field theories]]
+[[!redirects cohomological quantum field theories]]
+
+
 [[!redirects cohomological quantum field theory]]
 [[!redirects CQFT]]
 [[!redirects cohomology topological field theory]]
+
