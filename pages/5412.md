@@ -166,7 +166,7 @@ Write
 
 * and write $PSh(C)/Y(c)$ for the [[over category]] of [[presheaf|presheaves]] on $C$ over the presheaf $Y(c)$, where $Y : C \to PSh(C)$ is the [[Yoneda embedding]]. 
 
-+-- {: .num_prop}
++-- {: .num_prop #representable_case}
 ###### Proposition
 
 There is an [[equivalence of categories]]
@@ -233,6 +233,30 @@ $
 and hence $F ' = Y(c) \times F$ with respect to the [[closed monoidal structure on presheaves]].
 
 =--
+
++-- {: .num_lemma}
+###### Remark
+
+Consider $\int_C Y(c)$ , the [[category of elements]] of $Y(c):C^{op}\to Set$. This has objects $(d_1,p_1)$ with $p_1\in Y(c)(d_1)$, hence $p_1$ is just an arrow $d_1\to c$ in $C$. A map from $(d_1, p_1)$ to $(d_2, p_2)$ is just a map $u:d_1\to d_2$ such that $p_2\circ u =p_1$ but this is just a morphism from $p_1$ to $p_2$ in $C/c$.
+
+Hence, the above proposition \ref{representable_case} can be rephrased as $PSh(\int_C Y(c))\simeq PSh(C)/Y(c)$ which is an instance of the following formula:
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+Let $P:C^{op}\to Set$ be a presheaf. Then there is an [[equivalence of categories]]
+
+$$
+  PSh(\int_C P) \simeq PSh(C)/P
+  \,.
+$$
+
+=--
+
+For a proof see [Kashiwara-Schapira (2006, p.26)](#KS06). For a more general statement involving slices of Grothendieck toposes see [Mac Lane-Moerdijk (1994, p.157)](#MacLaneMoerdijk).
+
 
 ### Geometric morphisms by slicing {#GeometricMorphismBySlicing}
 
@@ -353,10 +377,9 @@ The claim the follows with the assumption that $\mathcal{E}$ has enough points.
 
 ## References
 
-Section IV.7 of 
+* {#KS06} Masaki Kashiwara, Pierre Schapira, _Categories and Sheaves_ , Springer Heidelberg 2006.
 
-* [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
- {#MacLaneMoerdijk}
+* {#MacLaneMoerdijk} [[Saunders Mac Lane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_ , Springer Heidelberg 1994. (Especially section IV.7)
 
 [[!redirects over topos]]
 [[!redirects over toposes]]
