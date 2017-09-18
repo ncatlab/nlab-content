@@ -17,7 +17,7 @@
 ## Idea
  {#Idea}
 
-For $\mathbf{H}$ a [[topos]], then an [[essential geometric morphism|essential]] [[subtopos]] $\mathbf{H}_l \hookrightarrow \mathbf{H}$ is called a _level_ of $\mathbf{H}$. This is equivalently the inclusion of the [[right adjoint]] of an [[adjoint cylinder]]/[[adjoint modality]].
+For $\mathbf{H}$ a [[topos]], then an [[essential subtopos]]  $\mathbf{H}_l \hookrightarrow \mathbf{H}$ is called a _level_ of $\mathbf{H}$. This is equivalently the inclusion of the [[right adjoint]] of an [[adjoint cylinder]]/[[adjoint modality]].
 
 The terminology is due to the fact ([Kelley-Lawvere 89](#KL89)) that the [[essential geometric morphism|essential]] [[subtoposes]] of a topos form a [[complete lattice]]. 
 
