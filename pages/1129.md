@@ -298,7 +298,11 @@ In any [[topos]], the [[subobject classifier]] $\Omega$ is an injective object, 
 
 In the category [[Top]] of all topological spaces, the injective objects are precisely the [[inhabited set|inhabited]] [[indiscrete spaces]]. 
 
-In the category of $T_0$ spaces (see [[separation axiom]]), the injective objects are precisely those given by Scott topologies on [[continuous lattices]], which as [[locales]] are [[local compactum|locally compact]] and [[spatial locale|spatial]]. 
+In the category of $T_0$ spaces (see [[separation axiom]]), the injective objects are precisely those given by Scott topologies on [[continuous lattices]]; as [[locales]] these are [[local compactum|locally compact]] and [[spatial locale|spatial]]. 
+
+### In Boolean algebras 
+
+Injective objects in the category of Boolean algebras are precisely [[complete Boolean algebras]]. This is the dual form of a theorem of Gleason, saying that the [[projective objects]] in the category of [[Stone spaces]] are the [[extremally disconnected topological space|extremally disconnected]] ones (the closure of every open set is again open). 
 
 ## Properties
 
