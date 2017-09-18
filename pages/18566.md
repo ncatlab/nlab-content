@@ -1,0 +1,13 @@
+
+An intersting guy into theoretical physics.
+
+* [collected comments on Reddit](https://www.reddit.com/r/RonMaimon/)
+
+* [some thoughts on Ron](https://kew1beans.wordpress.com/2014/10/20/167/)
+
+
+## related $n$Lab entries
+
+* [[S-matrix]]
+
+category: people
