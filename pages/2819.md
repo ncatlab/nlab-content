@@ -78,6 +78,18 @@ There is a [[Quillen model category]] structure on [[Top]] where fibrations are 
 
 The concept of Hurewicz fibrations makes sense also more generally in the presence of a (well behaved) [[interval object]], see for instance the early example of such in ([Kamps 72](#Kamps72)) and see ([Williamson 13](#Williamson13)) for review and further developments. Discussion with a view towards [[homotopy type theory]] is in ([Warren 08](#Warren08)).
 
+## Examples
+ {#Examples}
+
+
++-- {: .num_example #CoveringSpaceIsHurewiczFibration}
+###### Example
+**([[covering spaces]] are Hurewicz fibrations)**
+
+Every [[covering space]] projection is a Hurewicz fibration, by [this prop.](covering#space#HomotopyLiftingPropertyOfCoveringSpaces).
+
+=--
+
 
 ## References
 
