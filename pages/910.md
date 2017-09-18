@@ -142,13 +142,15 @@ A comprehensive account careful about the (weakly) Hausdorff assumptions when ne
 
 Many properties of compactly generated Hausdorff spaces are used to establish a variant of the theory of fibrations, cofibrations and deformation retracts in 
 
-* [[Norman Steenrod]], _A convenient category of topological spaces_, Michigan Math. J. 14 (1967) 133--152, [project euclid](http://projecteuclid.org/euclid.mmj/1028999711)
+* {#Steenrod67} [[Norman Steenrod]], _A convenient category of topological spaces_, Michigan Math. J. 14 (1967) 133--152, [project euclid](http://projecteuclid.org/euclid.mmj/1028999711)
 
 Gabriel and Zisman discuss the connection with the exactness of [[geometric realization]] in
 
 * [[Peter Gabriel]], Michel Zisman, _Calculus of Fractions and Homotopy Theory_ , Springer Heidelberg 1967. (ch.III.3-4)
 
 Other and later references include
+
+* {#Lewis78} [[Gaunce Lewis]], _Compactly generated spaces_ ([pdf](http://www.math.uchicago.edu/~may/MISC/GaunceApp.pdf)), appendix A of _The Stable Category and Generalized Thom Spectra_ PhD thesis Chicago, 1978
 
 * [[George Whitehead]], _Elements of homotopy theory_
 
