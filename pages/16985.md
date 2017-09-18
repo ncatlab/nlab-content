@@ -1,0 +1,36 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+_Spherical T-duality_ ([Bouwknegt-Evslin-Mathai 14](#BouwknegtEvslinMathai14)) is the name given to a variation of [[topological T-duality]] where the [[circle group]] $U(1)$ is replaced by the [[special unitary group]] $SU(2)$. Where topological T-duality relates pairs consisting of total spaces of $U(1)$-[[principal bundles]] equipped with a [[cocycle]] in degree-3 [[ordinary cohomology]], spherical T-duality relates pairs consisting of $SU(2)$-[[principal bundles]] equipped with cocycles in degree-7 cohomology. As for topological T-duality, under suitable conditions spherical T-duality lifts to an isomorphism of [[twisted K-theory]] classes of these bundles with twisting by the 7-class.
+
+
+While [[topological T-duality]] is meant to be a formalization of the [[T-duality]] seen in [[2d CFT]] [[sigma-models]]/[[string theory]], the physical meaning of spherical T-duality, if any, remains unclear at this point, for the moment it takes its motivation from the fact that it is mathematically possible. 
+
+On the other hand, a special role is played in the theory by those $SU(2)$-principal bundles which arise as pullbacks of the [[quaternionic Hopf fibration]] along a map from base space to the [[4-sphere]], and this is, at least [[rational homotopy theory|rationally]], just the structure of the [[M2-brane|M2]]/[[M5-brane]] charges ([[schreiber:The WZW term of the M5-brane|Fiorenza-Sati-Schreiber 15]], [[schreiber:Generalized cohomology of M2/M5-branes|Schreiber 15]]). So maybe there is a relation...
+
+## References
+
+* {#BouwknegtEvslinMathai14} [[Peter Bouwknegt]], [[Jarah Evslin]], [[Varghese Mathai]], _Spherical T-Duality_, Commun.Math.Phys.337:909-954,2015 ([arXiv:1405.5844](http://arxiv.org/abs/1405.5844))
+
+* [[Peter Bouwknegt]], [[Jarah Evslin]], [[Varghese Mathai]], _Spherical T-Duality and the spherical Fourier-Mukai transform_ ([arXiv:1502.04444](http://arxiv.org/abs/1502.04444))
+
+[[!redirects spherical T-dualities]]
