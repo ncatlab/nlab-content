@@ -99,7 +99,7 @@ which assigns to $U \in CartSp$ the following 2-groupoid:
     \,.
   $$
 
-* a [[2-morphism]] $f : (\lambda,a) \to (\lambda', a')$ is a function
+* a [[2-morphism]] $f : (g,a) \to (g', a')$ is a function
 
   $$
     f \in C^\infty(U,G_2)
