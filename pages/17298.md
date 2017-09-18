@@ -80,7 +80,7 @@ Throughout part I we are dealing with $(Top^{\ast/},\wedge)$-[[enriched categori
 +-- {: .num_defn #TopologicalDiagramCategoriesForSpectra}
 ###### Definition
 
-Define the following $Top^{\ast/}$-[[enriched categories|enriched]] [[symmetric monoidal category|symmetric]] [[closed monoidal categories]] (the [[tensor product]] is an [[enriched functor]]):
+Define the following [[pointed topologically enriched categories|pointed topologically enriched]] [[symmetric monoidal category|symmetric]] [[closed monoidal categories]] (the [[tensor product]] is a [[pointed topologically enriched functor]]):
 
 1. $Seq$ has as objects the [[natural numbers]] and has only identity morphisms, tensor product is the addition of natural numbers, tensor unit is 0. As a $Top^{\ast/}$-[[enriched category]] the hom-spaces are
 
@@ -577,7 +577,7 @@ $$
   \simeq
   F(k_1)_{k_2} 
   \simeq
-  \left{
+  \left\{
     \array{
       S^{k_2-k_1} & for \; k_2 \geq k_1
       \\
