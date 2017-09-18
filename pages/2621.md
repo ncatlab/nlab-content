@@ -114,6 +114,10 @@ A general introduction on divergence of perturbation theory, asymptotic series a
 
 * [[Marcos Marino]], _Lectures on non-perturbative effects in large N gauge theories, matrix models and strings_ ([arXiv:1206.6272](http://arxiv.org/abs/1206.6272))
 
+See also
+
+* Carl M. Bender, Carlo Heissenberg, _Convergent and Divergent Series in Physics_ ([arXiv:1703.05164](https://arxiv.org/abs/1703.05164))
+
 Further discussion is for instance in
 
 * Physics.Stack exchange discussion, _[Is QCD free from all divergences?](http://physics.stackexchange.com/questions/30105/is-qcd-free-from-all-divergences)_
