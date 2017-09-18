@@ -80,12 +80,12 @@ It follows directly that
 
   $$
     C_{loc} \stackrel{\leftarrow}{\to} C
-    \,.
+    \,,
   $$
 
 =--
 
-And a very special one: the category $C^\circ$ _modeled_ by a model category $C$ is its [[full subcategory]] on fibrant-cofibrant objects. Under left Bousfield localization the fibrant-cofibrant objects of $C_{loc}$ are a subcollection of those of $C$, so that we have the full subcategory
+and a very special one: the category $C^\circ$ _modeled_ by a model category $C$ is its [[full subcategory]] on fibrant-cofibrant objects. Under left Bousfield localization the fibrant-cofibrant objects of $C_{loc}$ are a subcollection of those of $C$, so that we have the full subcategory
 
 $$
   (C_{loc})^\circ \subset C^\circ
@@ -307,8 +307,8 @@ $$
   \array{
     \partial \Delta^n &\to& C(B,X)
     \\
-    \downarrow^{\mathrlap{\in cof_{SSet} \cap W_{SSet}}} 
-    && \downarrow^{\in fib_{SSet}}
+    \downarrow^{\mathllap{\in cof_{SSet} \cap W_{SSet}\quad}} 
+    && \quad \downarrow^{\in fib_{SSet}}
     \\
     \Delta^n &\to& C(A,X)
   }
@@ -325,7 +325,7 @@ Notice that in these arguments we made use of
 
 * and of the [[Quillen bifunctor]] property of the [[copower]]ing which ensures that the fibrations and cofibrations are as indicated. 
 
-Next, again using the [[Quillen bifunctor]] property of the [[copower|tensoring]] of $C$ over [[SSet]] we find that with $A$ cofibrant in $C$ and $\Delta^n$ being cofibrant in [[SSet]] it follows that $A \cdot \Delta^n$ is cofibrant. Similarly for the other cases. And the coproduct of two cofibrants is cofibrant because cofibrations are preserved under pushout. Therefore $Q_f$ is indeed a cofibrant domain of our cofibration.
+Next, again using the [[Quillen bifunctor]] property of the [[copower|tensoring]] of $C$ over [[SSet]] we find that with $A$ cofibrant in $C$ and $\Delta^n$ being cofibrant in [[SSet]] it follows that $A \cdot \Delta^n$ is cofibrant; similarly for the other cases. The coproduct of two cofibrant objects is cofibrant because cofibrations are preserved under pushout. Therefore $Q_f$ is indeed a cofibrant domain of our cofibration.
 
 With $\tilde f$ being a cofibration, we can check $S$-locality by homming into fibrant $S$-local objects and checking if that produces an acyclic Kan fibration.
 
@@ -373,9 +373,7 @@ has a lift.
 We claim now that the the objects of $C$ that have the extension property with respect to our set $S$ are precisely the fibrant and $S$-[[local object]]s.
 The argument proceeds along the same lines as the proof of the above lemma.
 
-In one direction, if $X$ that has the extension property with respect to $S$ it has it in particular with respect to the generating acyclic cofibrations $J \subset S$ and hence is fibrant. 
-
-And it in particular has the extension property with respect to  $\tilde f : A \cdot \Delta^n \coprod_{A \cdot \partial \Delta^n} B \cdot \partial \Delta^n \to B \cdot \Delta^n$. Observe that by the pushout definition of $Q_f$ a morphism
+In one direction, if $X$ that has the extension property with respect to $S$ it has it in particular with respect to the generating acyclic cofibrations $J \subset S$ and hence is fibrant, and it, in particular, has the extension property with respect to  $\tilde f : A \cdot \Delta^n \coprod_{A \cdot \partial \Delta^n} B \cdot \partial \Delta^n \to B \cdot \Delta^n$. Observe that by the pushout definition of $Q_f$ a morphism
 
 $$
   Q_f \to X
@@ -391,10 +389,10 @@ $$
     \\
     \Delta^n &\to& C(A,X)
   }
-  \,.
+  \,,
 $$
 
-And in terms of this a lift 
+and in terms of this a lift 
 
 $$
   \array{
@@ -766,7 +764,7 @@ One elegant way to see this, following [Bar](http://www.math.harvard.edu/~clarkb
 
 * all [[transfinite composition]] colimits in a [[combinatorial model category]] are homotopy colimits (details are [here](http://ncatlab.org/nlab/show/combinatorial+model+category#properties_17))
 
-And by their definition in terms of the [[derived hom space]] functor, $S$-local weak equivalences in $C$ are preserved under [[homotopy limit|homotopy colimit]]s: 
+By their definition in terms of the [[derived hom space]] functor, $S$-local weak equivalences in $C$ are preserved under [[homotopy limit|homotopy colimit]]s: 
 
 for $K \stackrel{}{\to}L$ an $S$-local morphism -- a morphism in $W_{L_S C}$ -- and for
 
