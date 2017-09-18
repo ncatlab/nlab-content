@@ -76,6 +76,7 @@ Note that a quality type yields itself a (pre)cohesive category with (degenerate
 The properties of (pre)cohesive categories are fine-tuned to yield a canonical extensive quality via the Hurewicz construction $\pi (X^Y)$. In the blueprint for this, namely the combinatorial homotopy theory in Gabriel-Zisman ([1967](#GabrielZisman67), chap. III), the category of spaces has objects [[compactly generated space|Kelley spaces]]. In a sense, the concept of continuity can be viewed as a mean to bypass the construction of the [[category of fractions]] necessary in this case.
 
 ### The topos of $\mathbb{F}_1$-actions
+ {#TheToposOfF1Actions}
 
 Lawvere's work on the petit-gros topos distinction ([Lawvere 1976](#Law76)) started with the examination of two toposes of graphs ([Lawvere 1986](#Law86)). The first one of _"irreflexive" [[quiver|graphs]]_ is given by the presheaf topos of actions of the small diagram category $E\rightrightarrows V$ on $Set$ and is an [[étendue]] hence petit. 
 
