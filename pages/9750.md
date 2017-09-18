@@ -20,8 +20,9 @@ What is called _double dimensional reduction_ is a variant of [[Kaluza-Klein mec
 ## Definition
  {#Definition}
 
+### Via fiber integration in ordinary differential cohomology
 
-> The following may be imroved on. See at _[[geometry of physics -- fundamental super p-branes]]_ the _[section on double dimensional reduction](geometry+of+physics+--+fundamental+super+p-branes#DoubleDimensionalReduction)_
+
 
 Let $\mathbf{H}$ be the [[smooth infinity-groupoid|smooth topos]]. For $p+1 \in \mathbb{N}$ write $\mathbf{B}^{p+1}U(1)_{conn} \in \mathbf{H}$ for the universal [[moduli stack]] of [[circle n-bundles with connection]] (given by the [[Deligne complex]]). 
 
@@ -75,6 +76,161 @@ $$
 where the first morphism is the [[unit of an adjunction|unit]] of the ([[Cartesian product]] $\dashv$ [[internal hom]])-[[adjunction]].
 
 =--
+
+### Via cyclic loop spaces
+
+
+> For more on the following see at _[[geometry of physics -- fundamental super p-branes]]_ the _[section on double dimensional reduction](geometry+of+physics+--+fundamental+super+p-branes#DoubleDimensionalReduction)_
+
++-- {: .num_prop #GeneralReduction}
+###### Proposition
+
+Let $\mathbf{H}$ be any  [[(∞,1)-topos]] and let $G$ be an [[∞-group]] in $\mathbf{H}$. There is a pair of [[adjoint ∞-functors]] of the form
+
+$$
+  \mathbf{H}
+    \underoverset
+      {\underset{[G,-]/G}{\longrightarrow}}
+      {\overset{hofib}{\longleftarrow}}
+      {\bot}
+  \mathbf{H}_{/\mathbf{B}G}
+  \,,
+$$
+
+
+where
+
+* $[G,-]$ denotes the [[internal hom]] in $\mathbf{H}$,
+
+* $[G,-]/G$ denotes the [[homotopy quotient]] by the [[conjugation action|conjugation]] [[∞-action]] for $G$ equipped with its canonical [[∞-action]] by left multiplication and the argument
+regarded as equipped with its trivial $G$-$\infty$-action, hence for $G = S^1$ this is the [[cyclic loop space]] construction:
+
+Hence for
+
+* $\hat X \to X$ a $G$ [[principal ∞-bundle]]
+
+* $A$ a [[coefficient]] object, such as for some [[differential cohomology|differential]] [[generalized cohomology theory]]
+
+then there is a [[natural equivalence]]
+
+
+$$
+  \underset{
+    \text{original} \atop \text{fluxes}
+  }{
+  \underbrace{
+    \mathbf{H}(\hat X\;,\; A)
+  }
+  }
+    \;\;
+    \underoverset
+      {\underset{oxidation}{\longleftarrow}}
+      {\overset{reduction}{\longrightarrow}}
+      {\simeq}
+    \;\;
+  \underset{
+     \text{doubly} \atop { \text{dimensionally reduced} \atop \text{fluxes} }
+  }{
+  \underbrace{
+    \mathbf{H}(X \;,\; [G,A]/G)
+  }
+  }
+$$
+
+given by
+
+$$
+  \left(
+     \hat X \longrightarrow A
+  \right)
+  \;\;\;
+    \leftrightarrow
+  \;\;\;
+  \left(
+    \array{
+       X && \longrightarrow && [G,A]/G
+       \\
+       & \searrow && \swarrow
+       \\
+       && \mathbf{B}G
+    }
+  \right)
+$$
+
+=--
+
++-- {: .proof #DimensionalReductionAbstractly}
+###### Proof
+
+
+First observe that the [[conjugation action]] on $[G,X]$ is the [[internal hom]] in
+the [[(∞,1)-category]] of $G$-[[∞-actions]] $Act_G(\mathbf{H})$.
+Under the [[equivalence of (∞,1)-categories]]
+
+$$
+  Act_G(\mathbf{H}) \simeq \mathbf{H}_{/\mathbf{B}G}
+$$
+
+(from [NSS 12](geometry+of+physics+-+fundamental+super+p-branes#NSS12)) then $G$ with its canonical [[∞-action]] is $(\ast \to \mathbf{B}G)$
+and $X$ with the trivial action is $(X \times \mathbf{B}G \to \mathbf{B}G)$.
+
+Hence
+
+$$
+  [G,X]/G
+    \simeq
+  [\ast, X \times \mathbf{B}G]_{\mathbf{B}G}
+  \;\;\;\;\;
+  \in
+   \mathbf{H}_{/\mathbf{B}G}
+  \,.
+$$
+
+Actually, this is the very definition of what $[G,X]/G \in \mathbf{H}_{/\mathbf{B}G}$ is to mean in the first place, abstractly.
+
+But now since the [[slice (∞,1)-topos]] $\mathbf{H}_{/\mathbf{B}G}$ is itself [[cartesian closed (infinity,1)-category|cartesian closed]], via
+
+$$
+  E \times_{\mathbf{B}G}(-)
+  \;\;\;
+   \dashv
+  \;\;\;
+  [E,-]_{\mathbf{B}G}
+$$
+
+it is immediate that
+there is the following sequence of [[natural equivalences]]
+
+$$
+  \begin{aligned}
+   \mathbf{H}_{/\mathbf{B}G}(Y, [G,X]/G)
+   & \simeq
+   \mathbf{H}_{/\mathbf{B}G}(Y, [\ast, X \times \mathbf{B}G]_{\mathbf{B}G})
+   \\
+   & \simeq
+   \mathbf{H}_{/\mathbf{B}G}(
+     Y \times_{\mathbf{B}G} \ast,
+     \underset{p^\ast X}{\underbrace{X \times \mathbf{B}G }}
+  )
+  \\
+  & \simeq
+  \mathbf{H}(
+     \underset{hofib(Y)}{\underbrace{p_!(Y \times_{\mathbf{B}G} \ast)}},
+     X
+  )
+  \\
+  & \simeq
+  \mathbf{H}(hofib(Y),X)
+  \end{aligned}
+$$
+
+Here $p \colon \mathbf{B}G \to \ast$ denotes the terminal morphism and $p_! \dashv p^\ast$
+denotes the [[base change]] along it.
+
+
+=--
+
+
 
 
 ## Examples
@@ -146,8 +302,8 @@ The above "brane scan" table showing the double dimensional reduciton pattern of
 
 * [[Neil Lambert]], Constantinos Papageorgakis, Maximilian Schmidt-Sommerfeld, _M5-Branes, D4-Branes and Quantum 5D super-Yang-Mills_, JHEP 1101:083 (2011) ([arXiv:1012.2882](http://arxiv.org/abs/1012.2882))
 
-* [[Edward Witten]], _Fivebranes and Knots_ ([arXiv:1101.3216](http://arxiv.org/abs/1101.3216)) 
- {#Witten11}
+* {#Witten11} [[Edward Witten]], _Fivebranes and Knots_ ([arXiv:1101.3216](http://arxiv.org/abs/1101.3216)) 
+ 
 
 
 [[!redirects double dimensional reduction]]
