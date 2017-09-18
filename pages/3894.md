@@ -281,6 +281,8 @@ See the list at [[tiwsted differential c-structure]].
 
 * [[integrability of G-structures]]
 
+* [[homothety]]
+
 ## References
 
 ### Traditional
