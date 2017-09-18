@@ -65,6 +65,8 @@ The [[brane intersection]] laws of M-branes are discussed in
 
 Further references include
 
+* [[Arkady Tseytlin]], _Harmonic superpositions of M-branes_, Nucl.Phys.B475:149-163,1996 ([arXiv:hep-th/9604035](https://arxiv.org/abs/hep-th/9604035))
+
 * Chan Park, _2d SCFT from M-branes and its spectral network_ ([pdf](http://theory.caltech.edu/~chan/documents/2013_String_Math_proceedings.pdf))
 
 
