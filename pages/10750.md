@@ -55,889 +55,10 @@ The theory for handling such a problem is _[[categorical algebra]]_. Here we dis
 
 
 
-##### Topological ends and coends
- {#TopologicalEndsAndCoends}
-
-For working with pointed [[topologically enriched functors]], a certain shape of [[limits]]/[[colimits]] is particularly relevant: these are called (pointed topological enriched) _[[ends]]_ and _[[coends]]_. We here introduce these and then derive some of their basic properties, such as notably the expression for topological [[left Kan extension]] in terms of [[coends]] (prop. \ref{TopologicalLeftKanExtensionBCoend} below). Further below it is via left Kan extension along the ordinary smash product of pointed topological spaces ("[[Day convolution]]") that the [[symmetric monoidal smash product of spectra]] is induced.
-
-+-- {: .num_defn #OppositeAndProductOfPointedTopologicallyEnrichedCategory}
-###### Definition
-
-Let $\mathcal{C}, \mathcal{D}$ be pointed [[topologically enriched categories]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopEnrichedCategory)), i.e. [[enriched categories]] over $(Top_{cg}^{\ast/}, \wedge, S^0)$ from example \ref{PointedTopologicalSpacesWithSmashIsSymmetricMonoidalCategory}. 
-
-1. The **pointed topologically enriched [[opposite category]]** $\mathcal{C}^{op}$ is the [[topologically enriched category]] with the same [[objects]] as $\mathcal{C}$, with [[hom-spaces]]
-
-   $$
-     \mathcal{C}^{op}(X,Y)
-     \coloneqq
-     \mathcal{C}(Y,X) 
-   $$
-
-   and with [[composition]] given by [[braiding]] followed by the composition in $\mathcal{C}$:
-
-   $$
-     \mathcal{C}^{op}(X,Y)
-     \wedge
-     \mathcal{C}^{op}(Y,Z)
-     =
-     \mathcal{C}(Y,X)\wedge \mathcal{C}(Z,Y)
-     \underoverset{\simeq}{\tau}{\longrightarrow}
-     \mathcal{C}(Z,Y) \wedge \mathcal{C}(Y,X)
-       \overset{\circ_{Z,Y,X}}{\longrightarrow}
-     \mathcal{C}(Z,X)
-     =
-     \mathcal{C}^{op}(X,Z) 
-     \,.
-   $$
-
-1. the **pointed topological [[product category]]** $\mathcal{C} \times \mathcal{D}$ is the [[topologically enriched category]] whose [[objects]] are [[pairs]] of objects $(c,d)$ with $c \in \mathcal{C}$ and $d\in \mathcal{D}$, whose [[hom-spaces]] are the [[smash product]] of the separate hom-spaces
-
-   $$
-     (\mathcal{C}\times \mathcal{D})((c_1,d_1),\;(c_2,d_2) )
-       \coloneqq
-     \mathcal{C}(c_1,c_2)\wedge \mathcal{D}(d_1,d_2)
-   $$
-
-   and whose [[composition]] operation is the [[braiding]] followed by the [[smash product]] of the separate composition operations:
-
-   $$
-     \array{
-       (\mathcal{C}\times \mathcal{D})((c_1,d_1), \; (c_2,d_2))
-         \wedge
-       (\mathcal{C}\times \mathcal{D})((c_2,d_2), \; (c_3,d_3))
-       \\
-       {}^{\mathllap{=}}\downarrow
-       \\
-       \left(\mathcal{C}(c_1,c_2) \wedge \mathcal{D}(d_1,d_2)\right)
-         \wedge
-       \left(\mathcal{C}(c_2,c_3) \wedge \mathcal{D}(d_2,d_3)\right)
-       \\
-       \downarrow^{\mathrlap{\tau}}_{\mathrlap{\simeq}}
-       \\
-       \left(\mathcal{C}(c_1,c_2)\wedge \mathcal{C}(c_2,c_3)\right)
-         \wedge
-       \left( \mathcal{D}(d_1,d_2)\wedge \mathcal{D}(d_2,d_3)\right)
-         &\overset{
-             (\circ_{c_1,c_2,c_3})\wedge (\circ_{d_1,d_2,d_3})
-           }{\longrightarrow}
-         &
-       \mathcal{C}(c_1,c_3)\wedge \mathcal{D}(d_1,d_3)
-       \\
-       && \downarrow^{\mathrlap{=}}
-       \\
-       && (\mathcal{C}\times \mathcal{D})((c_1,d_1),\; (c_3,d_3))
-     }
-    \,.
-   $$
-
-=--
-
-+-- {: .num_example #PointedTopologicalFunctorOnProductCategory}
-###### Example
-
-A pointed [[topologically enriched functor]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctor)) into $Top^{\ast/}_{cg}$ ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctorsToTopk)) out of a pointed topological [[product category]] as in def. \ref{OppositeAndProductOfPointedTopologicallyEnrichedCategory} 
-
-$$
-  F 
-    \;\colon\;
-  \mathcal{C} \times \mathcal{D}
-    \longrightarrow
-  Top^{\ast/}_{cg}
-$$
-
-(a "pointed topological [[bifunctor]]") has component maps of the form
-
-$$
-  F_{(c_1,d_1),(c_2,d_2)}
-    \;\colon\;
-  \mathcal{C}(c_1,c_2)
-  \wedge
-  \mathcal{D}(d_1,d_2)
-    \longrightarrow
-  Maps(F_0((c_1,d_1)),F_0((c_2,d_2)))_\ast
-  \,.
-$$
-
-By functoriality and under passing to [[adjuncts]] ([cor.](Introduction+to+Stable+homotopy+theory+--+P#SmashHomAdjunctionOnPointedCompactlyGeneratedTopologicalSpaces)) this is equivalent to two commuting _[[actions]]_
-
-
-$$
-  \rho_{c_1,c_2}(d)
-   \;\colon\;
-  \mathcal{C}(c_1,c_2) \wedge F_0((c_1,d)) 
-    \longrightarrow
-  F_0((c_2,d))
-$$
-
-and
-
-$$
-  \rho_{d_1,d_2}(c)
-    \;\colon\;
-  \mathcal{D}(d_1,d_2) \wedge F_0((c,d_1))
-    \longrightarrow
-  F_0((c,d_2))
-  \,.
-$$
-
-In the special case of a functor out of the [[product category]] of some $\mathcal{C}$ with its [[opposite category]] (def. \ref{OppositeAndProductOfPointedTopologicallyEnrichedCategory})
-
-$$
-  F 
-    \;\colon\;
-  \mathcal{C}^{op} \times \mathcal{C}
-    \longrightarrow
-  Top^{\ast/}_{cg}
-$$
-
-then this takes the form of a "pullback action" in the first variable
-
-$$
-  \rho_{c_2,c_1}(d)
-   \;\colon\;
-  \mathcal{C}(c_1,c_2) \wedge F_0((c_2,d)) 
-    \longrightarrow
-  F_0((c_1,d))
-$$
-
-and a "pushforward action" in the second variable
-
-$$
-  \rho_{d_1,d_2}(c)
-    \;\colon\;
-  \mathcal{C}(d_1,d_2) \wedge F_0((c,d_1))
-    \longrightarrow
-  F_0((c,d_2))
-  \,.
-$$
-
-
-=--
-
-
-+-- {: .num_defn #EndAndCoendInTopcgSmash}
-###### Definition
-
-Let $\mathcal{C}$ be a [[small category|small]] pointed [[topologically enriched category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopEnrichedCategory)), i.e. an [[enriched category]] over $(Top_{cg}^{\ast/}, \wedge, S^0)$ from example \ref{PointedTopologicalSpacesWithSmashIsSymmetricMonoidalCategory}. Let
-
-$$
-  F 
-    \;\colon\;
-  \mathcal{C}^{op} \times \mathcal{C}
-    \longrightarrow
-  Top^{\ast/}_{cg}
-$$
-
-be a pointed [[topologically enriched functor]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctor)) out of the pointed topological [[product category]] of $\mathcal{C}$ with its [[opposite category]], according to def. \ref{OppositeAndProductOfPointedTopologicallyEnrichedCategory}.
-
-
-1. The  **[[coend]]** of $F$, denoted $\overset{c \in \mathcal{C}}{\int} F(c,c)$, is the [[coequalizer]] in $Top_{cg}^{\ast}$ ([prop.](Introduction+to+Stable+homotopy+theory+--+P#DescriptionOfLimitsAndColimitsInTop), [exmpl.](Introduction+to+Stable+homotopy+theory+--+P#CoequalizerInTop), [prop.](Introduction+to+Stable+homotopy+theory+--+P#LimitsAndColimitsOfPointedObjects), [cor.](Introduction+to+Stable+homotopy+theory+--+P#kTopIsCoreflectiveSubcategory)) of the two actions encoded in $F$ via example \ref{PointedTopologicalFunctorOnProductCategory}:
-
-   $$
-     \underset{c,d \in \mathcal{C})}{\coprod} \mathcal{C}(c,d) \wedge F(c,d)
-      \underoverset
-        {\underset{\underset{c,d}{\sqcup} \rho_{(d,c)}(c) }{\longrightarrow}}
-        {\overset{\underset{c,d}{\sqcup} \rho_{(c,d)}(d) }{\longrightarrow}}
-        {\phantom{AAAAAAAA}}
-     \underset{c \in \mathcal{C}}{\coprod} F(c,c)
-      \overset{coeq}{\longrightarrow}
-     \overset{c\in \mathcal{C}}{\int} F(c,c)
-     \,.
-   $$
-
-1. The **[[end]]** of $F$, denoted $\underset{c\in \mathcal{C}}{\int} F(c,c)$, is the **[[equalizer]]** in $Top_{cg}^{\ast/}$ ([prop.](Introduction+to+Stable+homotopy+theory+--+P#DescriptionOfLimitsAndColimitsInTop), [exmpl.](Introduction+to+Stable+homotopy+theory+--+P#EqualizerInTop), [prop.](Introduction+to+Stable+homotopy+theory+--+P#LimitsAndColimitsOfPointedObjects), [cor.](Introduction+to+Stable+homotopy+theory+--+P#kTopIsCoreflectiveSubcategory)) of the [[adjuncts]] of the two actions encoded in $F$ via example \ref{PointedTopologicalFunctorOnProductCategory}:
-
-   $$
-     \underset{c\in \mathcal{C}}{\int} F(c,c)
-       \overset{\;\;equ\;\;}{\longrightarrow}
-     \underset{c \in \mathcal{C}}{\prod} F(c,c)
-      \underoverset   
-        {\underset{\underset{c,d}{\sqcup} \tilde \rho_{(c,d)}(d)  }{\longrightarrow}}
-        {\overset{\underset{c,d}{\sqcup} \tilde\rho_{d,c}(c)}{\longrightarrow}}
-        {\phantom{AAAAAAAA}}
-      \underset{c\in \mathcal{C}}{\prod}
-      Maps\left( \mathcal{C}\left(c,d\right), \;  F\left(c,d\right) \right)_\ast
-     \,.
-   $$
-
-=--
-
-+-- {: .num_example #CoendGivesQuotientByDiagonalGroupAction}
-###### Example
-
-Let $G$ be a [[topological group]]. Write $\mathbf{B}(G_+)$ for the pointed [[topologically enriched category]] that has a single object $\ast$, whose single [[hom-space]] is $G_+$ ($G$ with a basepoint freely adjoined ([def.](Introduction+to+Stable+homotopy+theory+--+P#BasePointAdjoined)))
-
-$$
-  \mathbf{B}(G_+)(\ast,\ast) \coloneqq G_+
-$$
-
-and whose composition operation in the product operation $(-)\cdot(-)$ in $G$ under adjoining basepoints ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#WedgeAndSmashOfBasePointAdjoinedTopologicalSpaces))
-
-$$
-  G_+ \wedge G_+
-   \simeq
-  (G \times G)_+
-    \overset{((-)\cdot (-))_+}{\longrightarrow}
-   G_+
-  \,.
-$$
-
-Then a [[topologically enriched functor]]
-
-$$
-  (X,\rho_l) \;\colon\; \mathbf{B}(G_+) \longrightarrow Top^{\ast/}_{cg}
-$$
-
-is a pointed topological space $X \coloneqq F(\ast)$ equipped with a continuous function
-
-$$
-  \rho_l \;\colon\; G_+ \wedge X \longrightarrow X
-$$
-
-satisfying the [[action]] property. Hence this is equivalently a continuous and basepoint-preserving left [[action]] (non-linear [[representation]]) of $G$ on $X$.
-
-The [[opposite category]] (def. \ref{OppositeAndProductOfPointedTopologicallyEnrichedCategory}) $(\mathbf{B}(G_+))^{op}$ comes from the [[opposite group]]
-
-$$
-  (\mathbf{B}(G_+))^{op}
-  =
-  \mathbf{B}(G^{op}_+)
-  \,.
-$$
-
-(The canonical continuous isomorphism $G \simeq G^{op}$ induces a canonical euqivalence of topologically enriched categories $(\mathbf{B}(G_+))^{op} \simeq \mathbf{B}(G_+)$.) 
-
-So a topologically enriched functor
-
-$$
-  (Y,\rho_r) \;\colon\; (\mathbf{B}(G_+))^{op} \longrightarrow Top^{\ast}_{cg}
-$$
-
-is equivalently a basepoint preserving continuous _right_ action of $G$.
-
-Then the [[coend]] of two such functors (def. \ref{EndAndCoendInTopcgSmash}) is equivalently the canonical smash product of a right $G$-action with a left $G$-action, hence the [[quotient topological space|quotient]] of the plain smash product by the [[diagonal action]] of the group $G$:
-
-$$
-  \overset{\ast \in \mathbf{B}(G_+)}{\int}
-   (Y,\rho_r)(\ast) \,\wedge\, (X,\rho_l)(\ast)
-  \;\simeq\;
-  Y \wedge_G X
-  \,.
-$$
-
-
-=--
-
-+-- {: .num_example #NaturalTransformationsViaEnds}
-###### Example
-
-Let $\mathcal{C}$ be a [[small category|small]] pointed [[topologically enriched category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopEnrichedCategory)). For 
-$
-  F,G
-  \;\colon\;
-  \mathcal{C}
-    \longrightarrow
-  Top^{\ast/}_{cg}
-$
-two pointed [[topologically enriched functors]], then the [[end]] (def. \ref{EndAndCoendInTopcgSmash}) of $Maps(F(-),G(-))_\ast$ is a topological space whose underlying [[pointed set]] is the pointed set of [[natural transformations]] $F\to G$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctor)):
-
-$$
-  U
-  \left(
-    \underset{c \in \mathcal{C}}{\int} Maps(F(c),G(c))_\ast
-  \right)
-  \;\simeq\;
-  Hom_{[\mathcal{C},Top^{\ast/}_{cg}]}(F,G)
-  \,.
-$$
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-The underlying pointed set functor $U\colon Top^{\ast/}_{cg}\to Set^{\ast/}$ [[preserved limit|preserves]] all [[limits]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#DescriptionOfLimitsAndColimitsInTop), [prop.](Introduction+to+Stable+homotopy+theory+--+P#LimitsAndColimitsOfPointedObjects), [prop.](Introduction+to+Stable+homotopy+theory+--+P#kTopIsCoreflectiveSubcategory)). Therefore there is an [[equalizer]] diagram in $Set^{\ast/}$ of the form
-
-$$
-  U
-  \left(
-    \underset{c\in \mathcal{C}}{\int}
-    Maps(F(c),G(c))_\ast
-  \right)
-    \overset{equ}{\longrightarrow}
-  \underset{c\in \mathcal{C}}{\prod} Hom_{Top^{\ast/}_{cg}}(F(c),G(c))
-      \underoverset   
-        {\underset{\underset{c,d}{\sqcup} U(\tilde \rho_{(c,d)}(d))  }{\longrightarrow}}
-        {\overset{\underset{c,d}{\sqcup} U(\tilde\rho_{d,c}(c))}{\longrightarrow}}
-        {\phantom{AAAAAAAA}}
-   \underset{c,d\in \mathcal{C}}{\prod}
-    Hom_{Top^{\ast/}_{cg}}(
-      \mathcal{C}(c,d),
-      Maps(F(c),G(d))_\ast
-    )
-  \,.
-$$
-
-Here the object in the middle is just the set of collections of component morphisms $\left\{ F(c)\overset{\eta_c}{\to} G(c)\right\}_{c\in \mathcal{C}}$. The two parallel maps in the equalizer diagram take such a collection to the functions which send any $c \overset{f}{\to} d$ to the result of precomposing
-
-$$
-  \array{
-    F(c)
-    \\
-    {}^{\mathllap{f(f)}}\downarrow
-    \\
-    F(d) &\underset{\eta_d}{\longrightarrow}& G(d)
-  }
-$$
-
-and of postcomposing
-
-$$
-  \array{
-    F(c) &\overset{\eta_c}{\longrightarrow}& G(c)
-    \\
-    && \downarrow^{\mathrlap{G(f)}}
-    \\
-    && G(d)
-  }
-$$
-
-each component in such a collection, respectively. These two functions being equal, hence the collection $\{\eta_c\}_{c\in \mathcal{C}}$ being in the equalizer, means precisley that for all $c,d$ and all $f\colon c \to d$ the square
-
-$$
-  \array{
-    F(c) &\overset{\eta_c}{\longrightarrow}& G(c)
-    \\
-    {}^{\mathllap{F(f)}}\downarrow && \downarrow^{\mathrlap{G(f)}}
-    \\
-    F(d) &\underset{\eta_d}{\longrightarrow}& G(g)
-  }
-$$
-
-is a [[commuting square]]. This is precisley the condition that the collection $\{\eta_c\}_{c\in \mathcal{C}}$ be a [[natural transformation]].
-
-=--
-
-Conversely, example \ref{NaturalTransformationsViaEnds} says that [[ends]] over [[bifunctors]] of the form $Maps(F(-),G(-)))_\ast$ constitute [[hom-spaces]] between pointed [[topologically enriched functors]]:
-
-
-+-- {: .num_defn #PointedTopologicalFunctorCategory}
-###### Definition
-
-Let $\mathcal{C}$ be a [[small category|small]] pointed [[topologically enriched categories]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopEnrichedCategory)). Define the structure of a pointed [[topologically enriched category]] on the category $[\mathcal{C}, Top_{cg}^{\ast/}]$ of pointed [[topologically enriched functors]] to $Top^{\ast/}_{cg}$ ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctorsToTopk)) by taking the [[hom-spaces]] to be given by the [[ends]] (def. \ref{EndAndCoendInTopcgSmash}) of example \ref{NaturalTransformationsViaEnds}:
-
-$$
-  [\mathcal{C},Top^{\ast/}_{cg}](F,G)
-    \;\coloneqq\;
-  \int_{c\in \mathcal{C}} Maps(F(c),G(c))_\ast
-$$
-
-The [[composition]] operation on these is defined to be the one induced by the composite maps
-
-$$
-  \left(
-    \underset{c\in \mathcal{C}}{\int} Maps(F(c),G(c))_\ast
-  \right)
-  \wedge
-  \left(
-    \underset{c \in \mathcal{C}}{\int} Maps(G(c),H(c))_\ast
-  \right)
-    \overset{}{\longrightarrow}
-  \underset{c\in \mathcal{C}}{\prod}
-    Maps(F(c),G(c))_\ast \wedge Maps(G(c),H(c))_\ast
-  \overset{(\circ_{F(c),G(c),H(c)})_{c\in \mathcal{C}}}{\longrightarrow}
-  \underset{c \in \mathcal{C}}{\prod}
-    Maps(F(c),H(c))_\ast
-  \,,
-$$
-
-where the first, morphism is degreewise given by projection out of the limits that defined the ends. This composite evidently equalizes the two relevant adjunct actions (as in the proof of example \ref{NaturalTransformationsViaEnds}) and hence defines a map into the end
-
-$$
-    \left(
-    \underset{c\in \mathcal{C}}{\int} Maps(F(c),G(c))_\ast
-  \right)
-  \wedge
-  \left(
-    \underset{c \in \mathcal{C}}{\int} Maps(G(c),H(c))_\ast
-  \right)
-  \longrightarrow
-  \underset{c\in \mathcal{C}}{\int} Maps(F(c),H(c))_\ast
-  \,.
-$$
-
-
-The resulting pointed [[topologically enriched category]] $[\mathcal{C},Top^{\ast/}_{cg}]$ is also called the **$Top^{\ast/}_{cg}$-[[enriched functor category]]** over $\mathcal{C}$ with coefficients in $Top^{\ast/}_{cg}$.
-
-=--
-
-This yields an equivalent formulation in terms of ends of the pointed topologically [[enriched Yoneda lemma]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedYonedaLemma)):
-
-+-- {: .num_prop #YonedaReductionTopological}
-###### Proposition
-**(topologically [[enriched Yoneda lemma]])**
-
-Let $\mathcal{C}$ be a [[small category|small]] pointed [[topologically enriched categories]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopEnrichedCategory)). For $F \colon \mathcal{C}\to Top^{\ast/}_{cg}$ a pointed [[topologically enriched functor]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctor)) and for $c\in \mathcal{C}$ an object, there is a [[natural isomorphism]]
-
-$$
-  [\mathcal{C}, Top^{\ast/}_{cg}](\mathcal{C}(c,-),\; F)
-  \;\simeq\;
-  F(c)
-$$
-
-between the [[hom-space]] of the pointed topological functor category, according to def. \ref{PointedTopologicalFunctorCategory}, from the [[representable functor|functor represented]] by $c$ to $F$, and the value of $F$ on $c$.
-
-In terms of the [[ends]] (def. \ref{EndAndCoendInTopcgSmash}) defining these [[hom-spaces]], this means that
-
-$$
-  \underset{d\in \mathcal{C}}{\int} Maps(\mathcal{C}(c,d), F(d))_\ast
-    \;\simeq\;
-  F(c)
-  \,.
-$$
-
-In this form the statement is also known as **[[Yoneda reduction]]**.
-
-=--
-
-The **proof** of prop. \ref{YonedaReductionTopological} is essentially dual to the proof of the next prop. \ref{TopologicalCoYonedaLemma}.
-
-Now that [[natural transformations]] are phrased in terms of [[ends]] (example \ref{NaturalTransformationsViaEnds}), as is the Yoneda lemma (prop. \ref{YonedaReductionTopological}), it is natural to consider the [[formal duality|dual]] statement involving [[coends]]:
-
-+-- {: .num_prop #TopologicalCoYonedaLemma}
-###### Proposition
-**([[co-Yoneda lemma]])**
-
-Let $\mathcal{C}$ be a [[small category|small]] pointed [[topologically enriched categories]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopEnrichedCategory)). For $F \colon \mathcal{C}\to Top^{\ast/}_{cg}$ a pointed [[topologically enriched functor]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctor)) and for $c\in \mathcal{C}$ an object, there is a [[natural isomorphism]]
-
-$$
-  F(-)
-    \simeq
-  \overset{c \in \mathcal{C}}{\int}
-  \mathcal{C}(c,-) \wedge F(c)
-  \,.
-$$
-
-Moreover, the morphism that hence exhibits $F(c)$ as the [[coequalizer]] of the two morphisms in def. \ref{EndAndCoendInTopcgSmash} is componentwise the canonical action 
-
-$$
-  \mathcal{C}(d,c) \wedge F(c)
-   \longrightarrow
-  F(d)
-$$
-
-which is [[adjunct]] to the component map $\mathcal{C}(d,c) \to Maps(F(c),F(d))_{\ast}$ of the [[topologically enriched functor]] $F$.
-
-=--
-
-(e.g. [MMSS 00, lemma 1.6](#MMSS00))
-
-+-- {: .proof}
-###### Proof
-
-The coequalizer of pointed topological spaces that we need to consider has underlying it a coequalizer of underlying pointed sets  ([prop.](Introduction+to+Stable+homotopy+theory+--+P#DescriptionOfLimitsAndColimitsInTop), [prop.](Introduction+to+Stable+homotopy+theory+--+P#LimitsAndColimitsOfPointedObjects), [prop.](Introduction+to+Stable+homotopy+theory+--+P#kTopIsCoreflectiveSubcategory)). That in turn is the colimit over the diagram of underlying sets with the basepointe adjoined to the diagram ([prop.](Introduction+to+Stable+homotopy+theory+--+P#LimitsAndColimitsOfPointedObjects)). For a coequalizer diagram adding that extra point to the diagram clearly does not change the colimit, and so we need to consider the plain coequalizer of sets.
-
-That is just the set of [[equivalence classes]] of [[pairs]]
-
-$$
-  ( c \overset{}{\to} c_0,\; x  )
-  \;\; 
-   \in 
-   \mathcal{C}(c,c_0) \wedge F(c)
-  \,,
-$$
-
-where two such pairs
-
-$$
-  ( c \overset{f}{\to} c_0,\; x \in F(c) )
-  \,,\;\;\;\;
-  ( d \overset{g}{\to} c_0,\; y \in F(d) )  
-$$
-
-are regarded as equivalent if there exists
-
-$$
-  c \overset{\phi}{\to} d
-$$
-
-such that 
-
-$$
-  f = g \circ \phi
-  \,,
-  \;\;\;\;\;and\;\;\;\;\;
-  y = \phi(x)
-  \,.
-$$
-
-(Because then the two pairs are the two images of the pair $(g,x)$ under the two morphisms being coequalized.)
-
-But now considering the case that $d = c_0$ and $g = id_{c_0}$, so that $f = \phi$ shows that any pair
-
-$$
-  ( c \overset{\phi}{\to} c_0, \; x \in F(c))
-$$
-
-is identified, in the coequalizer, with the pair
-
-$$
-  (id_{c_0},\; \phi(x) \in F(c_0))
-  \,,
-$$ 
-
-hence with $\phi(x)\in F(c_0)$. 
-
-This shows the claim at the level of the underlying sets. To conclude it is now sufficient ([prop.](Introduction+to+Stable+homotopy+theory+--+P#DescriptionOfLimitsAndColimitsInTop)) to show that the topology on $F(c_0) \in Top^{\ast/}_{cg}$ is the [[final topology]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#InitialAndFinalTopologies)) of the system of component morphisms
-
-$$
-  \mathcal{C}(d,c) \wedge F(c)
-    \longrightarrow
-  \overset{c}{\int} \mathcal{C}(c,c_0) \wedge F(c)
-$$
-
-which we just found. But that system includes 
-
-$$
-  \mathcal{C}(c,c) \wedge F(c) \longrightarrow F(c)
-$$
-
-which is a [[retraction]]
-
-$$
-  id \;\colon\; F(c) \longrightarrow \mathcal{C}(c,c) \wedge F(c)
-  \longrightarrow F(c)
-$$
-
-and so if all the preimages of a given subset of the coequalizer under these component maps is open, it must have already been open in $F(c)$.
-
-
-=--
-
-
-+-- {: .num_remark}
-###### Remark
-
-The statement of the [[co-Yoneda lemma]] in prop. \ref{TopologicalCoYonedaLemma} is a kind of [[categorification]] of the following statement in [[analysis]] (whence the notation with the integral signs):
-
-For $X$ a [[topological space]], $f \colon X \to\mathbb{R}$ a [[continuous function]] and $\delta(-,x_0)$ denoting the [[Dirac distribution]], then
-
-$$
-  \int_{x \in X} \delta(x,x_0) f(x)
-  = 
-  f(x_0)
-  \,.
-$$
-
-=--
-
-It is this analogy that gives the name to the following statement:
-
-+-- {: .num_prop #CoendsCommuteWithEachOther}
-###### Proposition
-**([[Fubini theorem]] for (co)-ends)**
-
-For $F$ a pointed topologically enriched [[bifunctor]] on a small pointed topological [[product category]] $\mathcal{C}_1 \times \mathcal{C}_2$ (def. \ref{OppositeAndProductOfPointedTopologicallyEnrichedCategory}), i.e.
-
-$$
-   F 
-  \;\colon\;
-  \left(
-    \mathcal{C}_1\times\mathcal{C}_2
-  \right)^{op}
-  \times
-  (\mathcal{C}_1 \times\mathcal{C}_2)
-  \longrightarrow
-  Top^{\ast/}_{cg}
-$$
-
-then its [[end]] and [[coend]] (def. \ref{EndAndCoendInTopcgSmash}) is equivalently formed consecutively over each variable, in either order:
-
-$$
-  \overset{(c_1,c_2)}{\int} F((c_1,c_2), (c_1,c_2))
-  \simeq
-  \overset{c_1}{\int}
-  \overset{c_2}{\int}
-  F((c_1,c_2), (c_1,c_2))
-  \simeq
-  \overset{c_2}{\int}
-  \overset{c_1}{\int}
-  F((c_1,c_2), (c_1,c_2))
-$$
-
-and
-
-$$
-  \underset{(c_1,c_2)}{\int} F((c_1,c_2), (c_1,c_2))
-  \simeq
-  \underset{c_1}{\int}
-  \underset{c_2}{\int}
-  F((c_1,c_2), (c_1,c_2))
-  \simeq
-  \underset{c_2}{\int}
-  \underset{c_1}{\int}
-  F((c_1,c_2), (c_1,c_2))
-  \,.
-$$
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-Because [[limits]] commute with limits, and [[colimits]] commute with colimits.
-
-=--
-
-
-
-+-- {: .num_remark #MappingSpacePreservesEnds}
-###### Remark
-
-Since the pointed compactly generated [[mapping space]] functor ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#PointedMappingSpace)) 
-
-$$
-  Maps(-,-)_\ast
-  \;\colon\;
-  \left(Top^{\ast/}_{cg}\right)^{op}
-  \times
-  Top^{\ast/}_{cg}
-  \longrightarrow
-  Top^{\ast/}_{cg}
-$$
-
-takes [[colimits]] in the first argument and [[limits]] in the second argument to limits ([cor.](Introduction+to+Stable+homotopy+theory+--+P#MappingSpacesSendsColimitsInFirstArgumentToLimits)), it in particular takes [[coends]] in the first argument and [[ends]] in the second argument, to ends (def. \ref{EndAndCoendInTopcgSmash}):
-
-$$
-  Maps( X, \; \int_{c} F(c,c))_\ast
-  \simeq
-  \int_c Maps(X, F(c,c)_\ast)
-$$
-
-and
-
-$$
-  Maps( \int^{c} F(c,c),\; Y  )_\ast
-  \simeq
-  \underset{c}{\int} Maps( F(c,c),\; Y )_\ast
-  \,.
-$$
-
-=--
-
-With this [[coend]] calculus in hand, there is an elegant proof of the defining [[universal property]] of the smash [[tensoring]]  of [[topologically enriched functors]] $[\mathcal{C},Top^{\ast}_{cg}]$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#TensoringAndPoweringOfTopologicallyEnrichedCopresheaves))
-
-
-+-- {: .num_prop #UniversalPropertyOfTensoringAndPoweringOfFunctorsToTopcg}
-###### Proposition
-
-For $\mathcal{C}$ a pointed [[topologically enriched category]], there are [[natural isomorphisms]]
-
-$$
-  [\mathcal{C},Top^{\ast/}_{cg}]( X \wedge K ,\, Y )
-    \;\simeq\;
-  Maps(K,\; [\mathcal{C},Top^{\ast/}_{cg}](X,Y))_\ast
-$$
-
-and
-
-$$
-  [\mathcal{C},Top^{\ast/}_{cg}](X,\, Maps(K,Y)_\ast)
-    \;\simeq\;
-  Maps(K,\; [\mathcal{C},Top^{\ast/}_{cg}](X,Y))
-$$
-
-for all $X,Y \in [\mathcal{C},Top^{\ast/}_{cg}]$ and all $K \in Top^{\ast/}_{cg}$.
-
-In particular there is the combined natural isomorphism
-
-$$
-  [\mathcal{C}, Top^{\ast/}_{cg}](X\wedge K, Y)
-   \;\simeq\;
-  [\mathcal{C}, Top^{\ast/}_{cg}](X, Maps(K,Y)_\ast)
-$$
-
-exhibiting a pair of [[adjoint functors]]
-
-$$
-  [\mathcal{C}, Top^{\ast/}_{cg}]
-    \underoverset 
-      {\underset{Maps(K,-)_\ast}{\longrightarrow}}
-      {\overset{(-)\wedge K}{\longleftarrow}}
-      {\bot}
-  [\mathcal{C}, Top^{\ast}_{cg}]
-  \,.
-$$
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-Via the [[end]]-expression for $[\mathcal{C},Top^{\ast/}_{cg}](-,-)$ from def. \ref{PointedTopologicalFunctorCategory} and the fact (remark \ref{MappingSpacePreservesEnds}) that the pointed mapping space construction $Maps(-,-)_\ast$ preserves ends in the second variable, this reduces to the fact that $Maps(-,-)_\ast$ is the [[internal hom]] in the [[closed monoidal category]] $Top^{\ast/}_{cg}$ (example \ref{PointedTopologicalSpacesWithSmashIsSymmetricMonoidalCategory}) and hence satisfies the internal tensor/hom-adjunction isomorphism (prop. \ref{TensorHomAdjunctionIsoInternally}):
-
-$$
-  \begin{aligned}
-    [\mathcal{C},Top^{\ast/}_{cg}](X \wedge K, Y)
-    & =
-    \underset{c}{\int}  
-    Maps(
-      (X \wedge K)(c),
-      Y(c)
-    )_\ast
-    \\
-    & \simeq
-    \underset{c}{\int}
-      Maps(X(c) \wedge K, Y(x))_\ast
-    \\
-    & \simeq
-    \underset{c}{\int}
-      Maps(K,Maps(X(c), Y(c))_\ast)_\ast
-    \\
-    & \simeq
-    Maps(K, \underset{c}{\int} Maps(X(c),Y(c)))_\ast
-    \\
-    & = 
-    Maps(K,[\mathcal{C},Top^{\ast/}_{cg}](X,Y))_\ast
-  \end{aligned}
-$$
-
-and
-
-$$
-  \begin{aligned}
-    [\mathcal{C},Top^{\ast/}_{cg}](X, Y^K)
-    & =
-    \underset{c}{\int}
-      Maps(X(c), (Y^K)(c))_\ast
-    \\
-    & \simeq 
-    \underset{c}{\int}
-     Maps(X(c), Maps(K,Y(c))_\ast)_\ast
-    \\
-    & \simeq
-    \underset{c}{\int} Maps(X(c) \wedge K, Y(c))_\ast
-    \\
-    & \simeq
-    \underset{c}{\int} Maps(K, Maps(X(c),Y(c))_\ast)_\ast
-    \\
-    & \simeq
-    Maps(K, \underset{c}{\int} Maps(X(c),Y(c))_\ast)_\ast
-    \\
-    & \simeq
-    Maps(K, [\mathcal{C},Top^{\ast/}_{cg}](X,Y))_\ast
-    \,.
-  \end{aligned}
-$$
-
-=--
-
-
-
-+-- {: .num_prop #TopologicalLeftKanExtensionBCoend}
-###### Proposition
-**(left Kan extension via coends)**
-
-Let $\mathcal{C}, \mathcal{D}$ be [[small category|small]] pointed [[topologically enriched categories]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopEnrichedCategory)) and let 
-
-$$
-  p \;\colon\; \mathcal{C} \longrightarrow \mathcal{D}
-$$
-
-be a pointed [[topologically enriched functor]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctor)). Then precomposition with $p$ constitutes a functor
-
-$$
-  p^\ast 
-  \;\colon\;
-  [\mathcal{D}, Top^{\ast/}_{cg}]
-  \longrightarrow
-  [\mathcal{C}, Top^{\ast/}_{cg}]
-$$
-
-$G\mapsto G\circ p$. This functor has a [[left adjoint]] $Lan_p$, called **left [[Kan extension]]** along $p$
-
-$$
-  [\mathcal{D}, Top^{\ast/}_{cg}]
-    \underoverset
-      {\underset{p^\ast}{\longrightarrow}}
-      {\overset{Lan_p }{\longleftarrow}}
-      {\bot}
-  [\mathcal{C}, Top^{\ast/}_{cg}]
-$$
-
-which is given objectwise by a [[coend]] (def. \ref{EndAndCoendInTopcgSmash}):
-
-$$
-  (Lan_p F)
-  \;\colon\;
-  c 
-  \;\mapsto \;
-  \overset{c\in \mathcal{C}}{\int}
-   \mathcal{D}(p(c),d) \wedge F(c)
-  \,.
-$$
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-Use the expression of natural transformations in terms of ends (example \ref{NaturalTransformationsViaEnds} and def. \ref{PointedTopologicalFunctorCategory}), then use the respect of $Maps(-,-)_\ast$ for ends/coends (remark \ref{MappingSpacePreservesEnds}),  use the smash/mapping space adjunction ([cor.](Introduction+to+Stable+homotopy+theory+--+P#SmashHomAdjunctionOnPointedCompactlyGeneratedTopologicalSpaces)), use the [[Fubini theorem]] (prop. \ref{CoendsCommuteWithEachOther}) and finally use [[Yoneda reduction]] (prop. \ref{YonedaReductionTopological}) to obtain a sequence of [[natural isomorphisms]] as follows:
-
-$$
-  \begin{aligned}
-    [\mathcal{D},Top^{\ast/}_{cg}]( Lan_p F, \, G )
-    & =
-   \underset{d \in \mathcal{D}}{\int}
-    Maps( (Lan_p F)(d), \, G(d) )_\ast
-   \\
-   & =
-   \underset{d\in \mathcal{D}}{\int}
-   Maps\left(
-     \overset{c \in \mathcal{C}}{\int} \mathcal{D}(p(c),d) \wedge F(c)
-     ,\;
-     G(d)
-   \right)_\ast
-    \\
-  &\simeq
-  \underset{d \in \mathcal{D}}{\int}
-  \underset{c \in \mathcal{C}}{\int}
-  Maps(
-    \mathcal{D}(p(c),d)\wedge F(c) \,,\; G(d)
-  )_\ast
-  \\
-  & \simeq
-  \underset{c\in \mathcal{C}}{\int}
-  \underset{d\in \mathcal{D}}{\int}
-  Maps(F(c), 
-    Maps(
-     \mathcal{D}(p(c),d) , \, G(d)
-    )_\ast
-  )_\ast
-  \\
-  & \simeq
-  \underset{c\in \mathcal{C}}{\int}
-  Maps(F(c), 
-   \underset{d\in \mathcal{D}}{\int}
-   Maps(
-    \mathcal{D}(p(c),d) , \, G(d)
-   )_\ast
-  )_\ast
-  \\
-  & \simeq
-  \underset{c\in \mathcal{C}}{\int}
-  Maps(F(c), G(p(c))
-  )_\ast  
-  \\
-  & =
-  [\mathcal{C}, Top^{\ast/}_{cg}](F,p^\ast G)
-  \end{aligned}
-  \,.
-$$
-
-=--
 
 ##### Monoidal topological categories
+
+We want to lift the concepts of _[[ring]]_ and _[[module]]_ from _[[abelian groups]]_ to _[[spectra]]_. This requires a general idea of what it means to generalize these concepts at all. The abstract theory of such generalizations is that of _[[monoid in a monoidal category]]_.
 
 We recall the basic definitions of [[monoidal categories]] and of [[monoid in a monoidal category|monoids]] and [[module object|modules]] [[internalization|internal]] to monoidal categories. All examples are at the end of this section, starting with example \ref{TopAsASymmetricMonoidalCategory} below.
 
@@ -2088,6 +1209,899 @@ By commutativity and associativity it follows that $\mu_E$ coequalizes the two i
 Finally one checks that these two constructions are inverses to each other, up to isomorphism.
 
 =--
+
+
+##### Topological ends and coends
+ {#TopologicalEndsAndCoends}
+
+For working with pointed [[topologically enriched functors]], a certain shape of [[limits]]/[[colimits]] is particularly relevant: these are called (pointed topological enriched) _[[ends]]_ and _[[coends]]_. We here introduce these and then derive some of their basic properties, such as notably the expression for topological [[left Kan extension]] in terms of [[coends]] (prop. \ref{TopologicalLeftKanExtensionBCoend} below). Further below it is via left Kan extension along the ordinary smash product of pointed topological spaces ("[[Day convolution]]") that the [[symmetric monoidal smash product of spectra]] is induced.
+
++-- {: .num_defn #OppositeAndProductOfPointedTopologicallyEnrichedCategory}
+###### Definition
+
+Let $\mathcal{C}, \mathcal{D}$ be pointed [[topologically enriched categories]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopEnrichedCategory)), i.e. [[enriched categories]] over $(Top_{cg}^{\ast/}, \wedge, S^0)$ from example \ref{PointedTopologicalSpacesWithSmashIsSymmetricMonoidalCategory}. 
+
+1. The **pointed topologically enriched [[opposite category]]** $\mathcal{C}^{op}$ is the [[topologically enriched category]] with the same [[objects]] as $\mathcal{C}$, with [[hom-spaces]]
+
+   $$
+     \mathcal{C}^{op}(X,Y)
+     \coloneqq
+     \mathcal{C}(Y,X) 
+   $$
+
+   and with [[composition]] given by [[braiding]] followed by the composition in $\mathcal{C}$:
+
+   $$
+     \mathcal{C}^{op}(X,Y)
+     \wedge
+     \mathcal{C}^{op}(Y,Z)
+     =
+     \mathcal{C}(Y,X)\wedge \mathcal{C}(Z,Y)
+     \underoverset{\simeq}{\tau}{\longrightarrow}
+     \mathcal{C}(Z,Y) \wedge \mathcal{C}(Y,X)
+       \overset{\circ_{Z,Y,X}}{\longrightarrow}
+     \mathcal{C}(Z,X)
+     =
+     \mathcal{C}^{op}(X,Z) 
+     \,.
+   $$
+
+1. the **pointed topological [[product category]]** $\mathcal{C} \times \mathcal{D}$ is the [[topologically enriched category]] whose [[objects]] are [[pairs]] of objects $(c,d)$ with $c \in \mathcal{C}$ and $d\in \mathcal{D}$, whose [[hom-spaces]] are the [[smash product]] of the separate hom-spaces
+
+   $$
+     (\mathcal{C}\times \mathcal{D})((c_1,d_1),\;(c_2,d_2) )
+       \coloneqq
+     \mathcal{C}(c_1,c_2)\wedge \mathcal{D}(d_1,d_2)
+   $$
+
+   and whose [[composition]] operation is the [[braiding]] followed by the [[smash product]] of the separate composition operations:
+
+   $$
+     \array{
+       (\mathcal{C}\times \mathcal{D})((c_1,d_1), \; (c_2,d_2))
+         \wedge
+       (\mathcal{C}\times \mathcal{D})((c_2,d_2), \; (c_3,d_3))
+       \\
+       {}^{\mathllap{=}}\downarrow
+       \\
+       \left(\mathcal{C}(c_1,c_2) \wedge \mathcal{D}(d_1,d_2)\right)
+         \wedge
+       \left(\mathcal{C}(c_2,c_3) \wedge \mathcal{D}(d_2,d_3)\right)
+       \\
+       \downarrow^{\mathrlap{\tau}}_{\mathrlap{\simeq}}
+       \\
+       \left(\mathcal{C}(c_1,c_2)\wedge \mathcal{C}(c_2,c_3)\right)
+         \wedge
+       \left( \mathcal{D}(d_1,d_2)\wedge \mathcal{D}(d_2,d_3)\right)
+         &\overset{
+             (\circ_{c_1,c_2,c_3})\wedge (\circ_{d_1,d_2,d_3})
+           }{\longrightarrow}
+         &
+       \mathcal{C}(c_1,c_3)\wedge \mathcal{D}(d_1,d_3)
+       \\
+       && \downarrow^{\mathrlap{=}}
+       \\
+       && (\mathcal{C}\times \mathcal{D})((c_1,d_1),\; (c_3,d_3))
+     }
+    \,.
+   $$
+
+=--
+
++-- {: .num_example #PointedTopologicalFunctorOnProductCategory}
+###### Example
+
+A pointed [[topologically enriched functor]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctor)) into $Top^{\ast/}_{cg}$ ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctorsToTopk)) out of a pointed topological [[product category]] as in def. \ref{OppositeAndProductOfPointedTopologicallyEnrichedCategory} 
+
+$$
+  F 
+    \;\colon\;
+  \mathcal{C} \times \mathcal{D}
+    \longrightarrow
+  Top^{\ast/}_{cg}
+$$
+
+(a "pointed topological [[bifunctor]]") has component maps of the form
+
+$$
+  F_{(c_1,d_1),(c_2,d_2)}
+    \;\colon\;
+  \mathcal{C}(c_1,c_2)
+  \wedge
+  \mathcal{D}(d_1,d_2)
+    \longrightarrow
+  Maps(F_0((c_1,d_1)),F_0((c_2,d_2)))_\ast
+  \,.
+$$
+
+By functoriality and under passing to [[adjuncts]] ([cor.](Introduction+to+Stable+homotopy+theory+--+P#SmashHomAdjunctionOnPointedCompactlyGeneratedTopologicalSpaces)) this is equivalent to two commuting _[[actions]]_
+
+
+$$
+  \rho_{c_1,c_2}(d)
+   \;\colon\;
+  \mathcal{C}(c_1,c_2) \wedge F_0((c_1,d)) 
+    \longrightarrow
+  F_0((c_2,d))
+$$
+
+and
+
+$$
+  \rho_{d_1,d_2}(c)
+    \;\colon\;
+  \mathcal{D}(d_1,d_2) \wedge F_0((c,d_1))
+    \longrightarrow
+  F_0((c,d_2))
+  \,.
+$$
+
+In the special case of a functor out of the [[product category]] of some $\mathcal{C}$ with its [[opposite category]] (def. \ref{OppositeAndProductOfPointedTopologicallyEnrichedCategory})
+
+$$
+  F 
+    \;\colon\;
+  \mathcal{C}^{op} \times \mathcal{C}
+    \longrightarrow
+  Top^{\ast/}_{cg}
+$$
+
+then this takes the form of a "pullback action" in the first variable
+
+$$
+  \rho_{c_2,c_1}(d)
+   \;\colon\;
+  \mathcal{C}(c_1,c_2) \wedge F_0((c_2,d)) 
+    \longrightarrow
+  F_0((c_1,d))
+$$
+
+and a "pushforward action" in the second variable
+
+$$
+  \rho_{d_1,d_2}(c)
+    \;\colon\;
+  \mathcal{C}(d_1,d_2) \wedge F_0((c,d_1))
+    \longrightarrow
+  F_0((c,d_2))
+  \,.
+$$
+
+
+=--
+
+
++-- {: .num_defn #EndAndCoendInTopcgSmash}
+###### Definition
+
+Let $\mathcal{C}$ be a [[small category|small]] pointed [[topologically enriched category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopEnrichedCategory)), i.e. an [[enriched category]] over $(Top_{cg}^{\ast/}, \wedge, S^0)$ from example \ref{PointedTopologicalSpacesWithSmashIsSymmetricMonoidalCategory}. Let
+
+$$
+  F 
+    \;\colon\;
+  \mathcal{C}^{op} \times \mathcal{C}
+    \longrightarrow
+  Top^{\ast/}_{cg}
+$$
+
+be a pointed [[topologically enriched functor]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctor)) out of the pointed topological [[product category]] of $\mathcal{C}$ with its [[opposite category]], according to def. \ref{OppositeAndProductOfPointedTopologicallyEnrichedCategory}.
+
+
+1. The  **[[coend]]** of $F$, denoted $\overset{c \in \mathcal{C}}{\int} F(c,c)$, is the [[coequalizer]] in $Top_{cg}^{\ast}$ ([prop.](Introduction+to+Stable+homotopy+theory+--+P#DescriptionOfLimitsAndColimitsInTop), [exmpl.](Introduction+to+Stable+homotopy+theory+--+P#CoequalizerInTop), [prop.](Introduction+to+Stable+homotopy+theory+--+P#LimitsAndColimitsOfPointedObjects), [cor.](Introduction+to+Stable+homotopy+theory+--+P#kTopIsCoreflectiveSubcategory)) of the two actions encoded in $F$ via example \ref{PointedTopologicalFunctorOnProductCategory}:
+
+   $$
+     \underset{c,d \in \mathcal{C}}{\coprod} \mathcal{C}(c,d) \wedge F(d,c)
+      \underoverset
+        {\underset{\underset{c,d}{\sqcup} \rho_{(d,c)}(c) }{\longrightarrow}}
+        {\overset{\underset{c,d}{\sqcup} \rho_{(c,d)}(d) }{\longrightarrow}}
+        {\phantom{AAAAAAAA}}
+     \underset{c \in \mathcal{C}}{\coprod} F(c,c)
+      \overset{coeq}{\longrightarrow}
+     \overset{c\in \mathcal{C}}{\int} F(c,c)
+     \,.
+   $$
+
+1. The **[[end]]** of $F$, denoted $\underset{c\in \mathcal{C}}{\int} F(c,c)$, is the **[[equalizer]]** in $Top_{cg}^{\ast/}$ ([prop.](Introduction+to+Stable+homotopy+theory+--+P#DescriptionOfLimitsAndColimitsInTop), [exmpl.](Introduction+to+Stable+homotopy+theory+--+P#EqualizerInTop), [prop.](Introduction+to+Stable+homotopy+theory+--+P#LimitsAndColimitsOfPointedObjects), [cor.](Introduction+to+Stable+homotopy+theory+--+P#kTopIsCoreflectiveSubcategory)) of the [[adjuncts]] of the two actions encoded in $F$ via example \ref{PointedTopologicalFunctorOnProductCategory}:
+
+   $$
+     \underset{c\in \mathcal{C}}{\int} F(c,c)
+       \overset{\;\;equ\;\;}{\longrightarrow}
+     \underset{c \in \mathcal{C}}{\prod} F(c,c)
+      \underoverset   
+        {\underset{\underset{c,d}{\sqcup} \tilde \rho_{(c,d)}(c)  }{\longrightarrow}}
+        {\overset{\underset{c,d}{\sqcup} \tilde\rho_{d,c}(d)}{\longrightarrow}}
+        {\phantom{AAAAAAAA}}
+      \underset{c\in \mathcal{C}}{\prod}
+      Maps\left( \mathcal{C}\left(c,d\right), \;  F\left(c,d\right) \right)_\ast
+     \,.
+   $$
+
+=--
+
++-- {: .num_example #CoendGivesQuotientByDiagonalGroupAction}
+###### Example
+
+Let $G$ be a [[topological group]]. Write $\mathbf{B}(G_+)$ for the pointed [[topologically enriched category]] that has a single object $\ast$, whose single [[hom-space]] is $G_+$ ($G$ with a basepoint freely adjoined ([def.](Introduction+to+Stable+homotopy+theory+--+P#BasePointAdjoined)))
+
+$$
+  \mathbf{B}(G_+)(\ast,\ast) \coloneqq G_+
+$$
+
+and whose composition operation is the product operation $(-)\cdot(-)$ in $G$ under adjoining basepoints ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#WedgeAndSmashOfBasePointAdjoinedTopologicalSpaces))
+
+$$
+  G_+ \wedge G_+
+   \simeq
+  (G \times G)_+
+    \overset{((-)\cdot (-))_+}{\longrightarrow}
+   G_+
+  \,.
+$$
+
+Then a [[topologically enriched functor]]
+
+$$
+  (X,\rho_l) \;\colon\; \mathbf{B}(G_+) \longrightarrow Top^{\ast/}_{cg}
+$$
+
+is a pointed topological space $X \coloneqq F(\ast)$ equipped with a continuous function
+
+$$
+  \rho_l \;\colon\; G_+ \wedge X \longrightarrow X
+$$
+
+satisfying the [[action]] property. Hence this is equivalently a continuous and basepoint-preserving left [[action]] (non-linear [[representation]]) of $G$ on $X$.
+
+The [[opposite category]] (def. \ref{OppositeAndProductOfPointedTopologicallyEnrichedCategory}) $(\mathbf{B}(G_+))^{op}$ comes from the [[opposite group]]
+
+$$
+  (\mathbf{B}(G_+))^{op}
+  =
+  \mathbf{B}(G^{op}_+)
+  \,.
+$$
+
+(The canonical continuous isomorphism $G \simeq G^{op}$ induces a canonical euqivalence of topologically enriched categories $(\mathbf{B}(G_+))^{op} \simeq \mathbf{B}(G_+)$.) 
+
+So a topologically enriched functor
+
+$$
+  (Y,\rho_r) \;\colon\; (\mathbf{B}(G_+))^{op} \longrightarrow Top^{\ast}_{cg}
+$$
+
+is equivalently a basepoint preserving continuous _right_ action of $G$.
+
+Therefore the [[coend]] of two such functors (def. \ref{EndAndCoendInTopcgSmash}) coequalizes the relation
+
+$$
+  (x g,\;y)
+   \sim
+  (x,\; g y)
+$$
+
+(where juxtaposition denotes left/right action) and hence is equivalently the canonical smash product of a right $G$-action with a left $G$-action, hence the [[quotient topological space|quotient]] of the plain smash product by the [[diagonal action]] of the group $G$:
+
+$$
+  \overset{\ast \in \mathbf{B}(G_+)}{\int}
+   (Y,\rho_r)(\ast) \,\wedge\, (X,\rho_l)(\ast)
+  \;\simeq\;
+  Y \wedge_G X
+  \,.
+$$
+
+
+=--
+
++-- {: .num_example #NaturalTransformationsViaEnds}
+###### Example
+
+Let $\mathcal{C}$ be a [[small category|small]] pointed [[topologically enriched category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopEnrichedCategory)). For 
+$
+  F,G
+  \;\colon\;
+  \mathcal{C}
+    \longrightarrow
+  Top^{\ast/}_{cg}
+$
+two pointed [[topologically enriched functors]], then the [[end]] (def. \ref{EndAndCoendInTopcgSmash}) of $Maps(F(-),G(-))_\ast$ is a topological space whose underlying [[pointed set]] is the pointed set of [[natural transformations]] $F\to G$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctor)):
+
+$$
+  U
+  \left(
+    \underset{c \in \mathcal{C}}{\int} Maps(F(c),G(c))_\ast
+  \right)
+  \;\simeq\;
+  Hom_{[\mathcal{C},Top^{\ast/}_{cg}]}(F,G)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The underlying pointed set functor $U\colon Top^{\ast/}_{cg}\to Set^{\ast/}$ [[preserved limit|preserves]] all [[limits]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#DescriptionOfLimitsAndColimitsInTop), [prop.](Introduction+to+Stable+homotopy+theory+--+P#LimitsAndColimitsOfPointedObjects), [prop.](Introduction+to+Stable+homotopy+theory+--+P#kTopIsCoreflectiveSubcategory)). Therefore there is an [[equalizer]] diagram in $Set^{\ast/}$ of the form
+
+$$
+  U
+  \left(
+    \underset{c\in \mathcal{C}}{\int}
+    Maps(F(c),G(c))_\ast
+  \right)
+    \overset{equ}{\longrightarrow}
+  \underset{c\in \mathcal{C}}{\prod} Hom_{Top^{\ast/}_{cg}}(F(c),G(c))
+      \underoverset   
+        {\underset{\underset{c,d}{\sqcup} U(\tilde \rho_{(c,d)}(c))  }{\longrightarrow}}
+        {\overset{\underset{c,d}{\sqcup} U(\tilde\rho_{d,c}(d))}{\longrightarrow}}
+        {\phantom{AAAAAAAA}}
+   \underset{c,d\in \mathcal{C}}{\prod}
+    Hom_{Top^{\ast/}_{cg}}(
+      \mathcal{C}(c,d),
+      Maps(F(c),G(d))_\ast
+    )
+  \,.
+$$
+
+Here the object in the middle is just the set of collections of component morphisms $\left\{ F(c)\overset{\eta_c}{\to} G(c)\right\}_{c\in \mathcal{C}}$. The two parallel maps in the equalizer diagram take such a collection to the functions which send any $c \overset{f}{\to} d$ to the result of precomposing
+
+$$
+  \array{
+    F(c)
+    \\
+    {}^{\mathllap{f(f)}}\downarrow
+    \\
+    F(d) &\underset{\eta_d}{\longrightarrow}& G(d)
+  }
+$$
+
+and of postcomposing
+
+$$
+  \array{
+    F(c) &\overset{\eta_c}{\longrightarrow}& G(c)
+    \\
+    && \downarrow^{\mathrlap{G(f)}}
+    \\
+    && G(d)
+  }
+$$
+
+each component in such a collection, respectively. These two functions being equal, hence the collection $\{\eta_c\}_{c\in \mathcal{C}}$ being in the equalizer, means precisley that for all $c,d$ and all $f\colon c \to d$ the square
+
+$$
+  \array{
+    F(c) &\overset{\eta_c}{\longrightarrow}& G(c)
+    \\
+    {}^{\mathllap{F(f)}}\downarrow && \downarrow^{\mathrlap{G(f)}}
+    \\
+    F(d) &\underset{\eta_d}{\longrightarrow}& G(g)
+  }
+$$
+
+is a [[commuting square]]. This is precisley the condition that the collection $\{\eta_c\}_{c\in \mathcal{C}}$ be a [[natural transformation]].
+
+=--
+
+Conversely, example \ref{NaturalTransformationsViaEnds} says that [[ends]] over [[bifunctors]] of the form $Maps(F(-),G(-)))_\ast$ constitute [[hom-spaces]] between pointed [[topologically enriched functors]]:
+
+
++-- {: .num_defn #PointedTopologicalFunctorCategory}
+###### Definition
+
+Let $\mathcal{C}$ be a [[small category|small]] pointed [[topologically enriched category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopEnrichedCategory)). Define the structure of a pointed [[topologically enriched category]] on the category $[\mathcal{C}, Top_{cg}^{\ast/}]$ of pointed [[topologically enriched functors]] to $Top^{\ast/}_{cg}$ ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctorsToTopk)) by taking the [[hom-spaces]] to be given by the [[ends]] (def. \ref{EndAndCoendInTopcgSmash}) of example \ref{NaturalTransformationsViaEnds}:
+
+$$
+  [\mathcal{C},Top^{\ast/}_{cg}](F,G)
+    \;\coloneqq\;
+  \int_{c\in \mathcal{C}} Maps(F(c),G(c))_\ast
+$$
+
+The [[composition]] operation on these is defined to be the one induced by the composite maps
+
+$$
+  \left(
+    \underset{c\in \mathcal{C}}{\int} Maps(F(c),G(c))_\ast
+  \right)
+  \wedge
+  \left(
+    \underset{c \in \mathcal{C}}{\int} Maps(G(c),H(c))_\ast
+  \right)
+    \overset{}{\longrightarrow}
+  \underset{c\in \mathcal{C}}{\prod}
+    Maps(F(c),G(c))_\ast \wedge Maps(G(c),H(c))_\ast
+  \overset{(\circ_{F(c),G(c),H(c)})_{c\in \mathcal{C}}}{\longrightarrow}
+  \underset{c \in \mathcal{C}}{\prod}
+    Maps(F(c),H(c))_\ast
+  \,,
+$$
+
+where the first, morphism is degreewise given by projection out of the limits that defined the ends. This composite evidently equalizes the two relevant adjunct actions (as in the proof of example \ref{NaturalTransformationsViaEnds}) and hence defines a map into the end
+
+$$
+    \left(
+    \underset{c\in \mathcal{C}}{\int} Maps(F(c),G(c))_\ast
+  \right)
+  \wedge
+  \left(
+    \underset{c \in \mathcal{C}}{\int} Maps(G(c),H(c))_\ast
+  \right)
+  \longrightarrow
+  \underset{c\in \mathcal{C}}{\int} Maps(F(c),H(c))_\ast
+  \,.
+$$
+
+
+The resulting pointed [[topologically enriched category]] $[\mathcal{C},Top^{\ast/}_{cg}]$ is also called the **$Top^{\ast/}_{cg}$-[[enriched functor category]]** over $\mathcal{C}$ with coefficients in $Top^{\ast/}_{cg}$.
+
+=--
+
+This yields an equivalent formulation in terms of ends of the pointed topologically [[enriched Yoneda lemma]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedYonedaLemma)):
+
++-- {: .num_prop #YonedaReductionTopological}
+###### Proposition
+**(topologically [[enriched Yoneda lemma]])**
+
+Let $\mathcal{C}$ be a [[small category|small]] pointed [[topologically enriched categories]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopEnrichedCategory)). For $F \colon \mathcal{C}\to Top^{\ast/}_{cg}$ a pointed [[topologically enriched functor]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctor)) and for $c\in \mathcal{C}$ an object, there is a [[natural isomorphism]]
+
+$$
+  [\mathcal{C}, Top^{\ast/}_{cg}](\mathcal{C}(c,-),\; F)
+  \;\simeq\;
+  F(c)
+$$
+
+between the [[hom-space]] of the pointed topological functor category, according to def. \ref{PointedTopologicalFunctorCategory}, from the [[representable functor|functor represented]] by $c$ to $F$, and the value of $F$ on $c$.
+
+In terms of the [[ends]] (def. \ref{EndAndCoendInTopcgSmash}) defining these [[hom-spaces]], this means that
+
+$$
+  \underset{d\in \mathcal{C}}{\int} Maps(\mathcal{C}(c,d), F(d))_\ast
+    \;\simeq\;
+  F(c)
+  \,.
+$$
+
+In this form the statement is also known as **[[Yoneda reduction]]**.
+
+=--
+
+The **proof** of prop. \ref{YonedaReductionTopological} is [[formal dual|formally dual]] to the proof of the next prop. \ref{TopologicalCoYonedaLemma}.
+
+Now that [[natural transformations]] are expressed in terms of [[ends]] (example \ref{NaturalTransformationsViaEnds}), as is the Yoneda lemma (prop. \ref{YonedaReductionTopological}), it is natural to consider the [[formal duality|dual]] statement involving [[coends]]:
+
++-- {: .num_prop #TopologicalCoYonedaLemma}
+###### Proposition
+**([[co-Yoneda lemma]])**
+
+Let $\mathcal{C}$ be a [[small category|small]] pointed [[topologically enriched category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopEnrichedCategory)). For $F \colon \mathcal{C}\to Top^{\ast/}_{cg}$ a pointed [[topologically enriched functor]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctor)) and for $c\in \mathcal{C}$ an object, there is a [[natural isomorphism]]
+
+$$
+  F(-)
+    \simeq
+  \overset{c \in \mathcal{C}}{\int}
+  \mathcal{C}(c,-) \wedge F(c)
+  \,.
+$$
+
+Moreover, the morphism that hence exhibits $F(c)$ as the [[coequalizer]] of the two morphisms in def. \ref{EndAndCoendInTopcgSmash} is componentwise the canonical action 
+
+$$
+  \mathcal{C}(c,d) \wedge F(c)
+   \longrightarrow
+  F(d)
+$$
+
+which is [[adjunct]] to the component map $\mathcal{C}(d,c) \to Maps(F(c),F(d))_{\ast}$ of the [[topologically enriched functor]] $F$.
+
+=--
+
+(e.g. [MMSS 00, lemma 1.6](#MMSS00))
+
++-- {: .proof}
+###### Proof
+
+The coequalizer of pointed topological spaces that we need to consider has underlying it a coequalizer of underlying pointed sets  ([prop.](Introduction+to+Stable+homotopy+theory+--+P#DescriptionOfLimitsAndColimitsInTop), [prop.](Introduction+to+Stable+homotopy+theory+--+P#LimitsAndColimitsOfPointedObjects), [prop.](Introduction+to+Stable+homotopy+theory+--+P#kTopIsCoreflectiveSubcategory)). That in turn is the colimit over the diagram of underlying sets with the basepointe adjoined to the diagram ([prop.](Introduction+to+Stable+homotopy+theory+--+P#LimitsAndColimitsOfPointedObjects)). For a coequalizer diagram adding that extra point to the diagram clearly does not change the colimit, and so we need to consider the plain coequalizer of sets.
+
+That is just the set of [[equivalence classes]] of [[pairs]]
+
+$$
+  ( c \overset{}{\to} c_0,\; x  )
+  \;\; 
+   \in 
+   \mathcal{C}(c,c_0) \wedge F(c)
+  \,,
+$$
+
+where two such pairs
+
+$$
+  ( c \overset{f}{\to} c_0,\; x \in F(c) )
+  \,,\;\;\;\;
+  ( d \overset{g}{\to} c_0,\; y \in F(d) )  
+$$
+
+are regarded as equivalent if there exists
+
+$$
+  c \overset{\phi}{\to} d
+$$
+
+such that 
+
+$$
+  f = g \circ \phi
+  \,,
+  \;\;\;\;\;and\;\;\;\;\;
+  y = \phi(x)
+  \,.
+$$
+
+(Because then the two pairs are the two images of the pair $(g,x)$ under the two morphisms being coequalized.)
+
+But now considering the case that $d = c_0$ and $g = id_{c_0}$, so that $f = \phi$ shows that any pair
+
+$$
+  ( c \overset{\phi}{\to} c_0, \; x \in F(c))
+$$
+
+is identified, in the coequalizer, with the pair
+
+$$
+  (id_{c_0},\; \phi(x) \in F(c_0))
+  \,,
+$$ 
+
+hence with $\phi(x)\in F(c_0)$. 
+
+This shows the claim at the level of the underlying sets. To conclude it is now sufficient ([prop.](Introduction+to+Stable+homotopy+theory+--+P#DescriptionOfLimitsAndColimitsInTop)) to show that the topology on $F(c_0) \in Top^{\ast/}_{cg}$ is the [[final topology]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#InitialAndFinalTopologies)) of the system of component morphisms
+
+$$
+  \mathcal{C}(d,c) \wedge F(c)
+    \longrightarrow
+  \overset{c}{\int} \mathcal{C}(c,c_0) \wedge F(c)
+$$
+
+which we just found. But that system includes 
+
+$$
+  \mathcal{C}(c,c) \wedge F(c) \longrightarrow F(c)
+$$
+
+which is a [[retraction]]
+
+$$
+  id \;\colon\; F(c) \longrightarrow \mathcal{C}(c,c) \wedge F(c)
+  \longrightarrow F(c)
+$$
+
+and so if all the preimages of a given subset of the coequalizer under these component maps is open, it must have already been open in $F(c)$.
+
+
+=--
+
+
++-- {: .num_remark}
+###### Remark
+
+The statement of the [[co-Yoneda lemma]] in prop. \ref{TopologicalCoYonedaLemma} is a kind of [[categorification]] of the following statement in [[analysis]] (whence the notation with the integral signs):
+
+For $X$ a [[topological space]], $f \colon X \to\mathbb{R}$ a [[continuous function]] and $\delta(-,x_0)$ denoting the [[Dirac distribution]], then
+
+$$
+  \int_{x \in X} \delta(x,x_0) f(x)
+  = 
+  f(x_0)
+  \,.
+$$
+
+=--
+
+It is this analogy that gives the name to the following statement:
+
++-- {: .num_prop #CoendsCommuteWithEachOther}
+###### Proposition
+**([[Fubini theorem]] for (co)-ends)**
+
+For $F$ a pointed topologically enriched [[bifunctor]] on a small pointed topological [[product category]] $\mathcal{C}_1 \times \mathcal{C}_2$ (def. \ref{OppositeAndProductOfPointedTopologicallyEnrichedCategory}), i.e.
+
+$$
+   F 
+  \;\colon\;
+  \left(
+    \mathcal{C}_1\times\mathcal{C}_2
+  \right)^{op}
+  \times
+  (\mathcal{C}_1 \times\mathcal{C}_2)
+  \longrightarrow
+  Top^{\ast/}_{cg}
+$$
+
+then its [[end]] and [[coend]] (def. \ref{EndAndCoendInTopcgSmash}) is equivalently formed consecutively over each variable, in either order:
+
+$$
+  \overset{(c_1,c_2)}{\int} F((c_1,c_2), (c_1,c_2))
+  \simeq
+  \overset{c_1}{\int}
+  \overset{c_2}{\int}
+  F((c_1,c_2), (c_1,c_2))
+  \simeq
+  \overset{c_2}{\int}
+  \overset{c_1}{\int}
+  F((c_1,c_2), (c_1,c_2))
+$$
+
+and
+
+$$
+  \underset{(c_1,c_2)}{\int} F((c_1,c_2), (c_1,c_2))
+  \simeq
+  \underset{c_1}{\int}
+  \underset{c_2}{\int}
+  F((c_1,c_2), (c_1,c_2))
+  \simeq
+  \underset{c_2}{\int}
+  \underset{c_1}{\int}
+  F((c_1,c_2), (c_1,c_2))
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Because [[limits]] commute with limits, and [[colimits]] commute with colimits.
+
+=--
+
+
+
++-- {: .num_remark #MappingSpacePreservesEnds}
+###### Remark
+
+Since the pointed compactly generated [[mapping space]] functor ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#PointedMappingSpace)) 
+
+$$
+  Maps(-,-)_\ast
+  \;\colon\;
+  \left(Top^{\ast/}_{cg}\right)^{op}
+  \times
+  Top^{\ast/}_{cg}
+  \longrightarrow
+  Top^{\ast/}_{cg}
+$$
+
+takes [[colimits]] in the first argument and [[limits]] in the second argument to limits ([cor.](Introduction+to+Stable+homotopy+theory+--+P#MappingSpacesSendsColimitsInFirstArgumentToLimits)), it in particular takes [[coends]] in the first argument and [[ends]] in the second argument, to ends (def. \ref{EndAndCoendInTopcgSmash}):
+
+$$
+  Maps( X, \; \int_{c} F(c,c))_\ast
+  \simeq
+  \int_c Maps(X, F(c,c)_\ast)
+$$
+
+and
+
+$$
+  Maps( \int^{c} F(c,c),\; Y  )_\ast
+  \simeq
+  \underset{c}{\int} Maps( F(c,c),\; Y )_\ast
+  \,.
+$$
+
+=--
+
+With this [[coend]] calculus in hand, there is an elegant proof of the defining [[universal property]] of the smash [[tensoring]]  of [[topologically enriched functors]] $[\mathcal{C},Top^{\ast}_{cg}]$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#TensoringAndPoweringOfTopologicallyEnrichedCopresheaves))
+
+
++-- {: .num_prop #UniversalPropertyOfTensoringAndPoweringOfFunctorsToTopcg}
+###### Proposition
+
+For $\mathcal{C}$ a pointed [[topologically enriched category]], there are [[natural isomorphisms]]
+
+$$
+  [\mathcal{C},Top^{\ast/}_{cg}]( X \wedge K ,\, Y )
+    \;\simeq\;
+  Maps(K,\; [\mathcal{C},Top^{\ast/}_{cg}](X,Y))_\ast
+$$
+
+and
+
+$$
+  [\mathcal{C},Top^{\ast/}_{cg}](X,\, Maps(K,Y)_\ast)
+    \;\simeq\;
+  Maps(K,\; [\mathcal{C},Top^{\ast/}_{cg}](X,Y))
+$$
+
+for all $X,Y \in [\mathcal{C},Top^{\ast/}_{cg}]$ and all $K \in Top^{\ast/}_{cg}$.
+
+In particular there is the combined natural isomorphism
+
+$$
+  [\mathcal{C}, Top^{\ast/}_{cg}](X\wedge K, Y)
+   \;\simeq\;
+  [\mathcal{C}, Top^{\ast/}_{cg}](X, Maps(K,Y)_\ast)
+$$
+
+exhibiting a pair of [[adjoint functors]]
+
+$$
+  [\mathcal{C}, Top^{\ast/}_{cg}]
+    \underoverset 
+      {\underset{Maps(K,-)_\ast}{\longrightarrow}}
+      {\overset{(-)\wedge K}{\longleftarrow}}
+      {\bot}
+  [\mathcal{C}, Top^{\ast}_{cg}]
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Via the [[end]]-expression for $[\mathcal{C},Top^{\ast/}_{cg}](-,-)$ from def. \ref{PointedTopologicalFunctorCategory} and the fact (remark \ref{MappingSpacePreservesEnds}) that the pointed mapping space construction $Maps(-,-)_\ast$ preserves ends in the second variable, this reduces to the fact that $Maps(-,-)_\ast$ is the [[internal hom]] in the [[closed monoidal category]] $Top^{\ast/}_{cg}$ (example \ref{PointedTopologicalSpacesWithSmashIsSymmetricMonoidalCategory}) and hence satisfies the internal tensor/hom-adjunction isomorphism (prop. \ref{TensorHomAdjunctionIsoInternally}):
+
+$$
+  \begin{aligned}
+    [\mathcal{C},Top^{\ast/}_{cg}](X \wedge K, Y)
+    & =
+    \underset{c}{\int}  
+    Maps(
+      (X \wedge K)(c),
+      Y(c)
+    )_\ast
+    \\
+    & \simeq
+    \underset{c}{\int}
+      Maps(X(c) \wedge K, Y(x))_\ast
+    \\
+    & \simeq
+    \underset{c}{\int}
+      Maps(K,Maps(X(c), Y(c))_\ast)_\ast
+    \\
+    & \simeq
+    Maps(K, \underset{c}{\int} Maps(X(c),Y(c)))_\ast
+    \\
+    & = 
+    Maps(K,[\mathcal{C},Top^{\ast/}_{cg}](X,Y))_\ast
+  \end{aligned}
+$$
+
+and
+
+$$
+  \begin{aligned}
+    [\mathcal{C},Top^{\ast/}_{cg}](X, Maps(K,Y)_\ast)
+    & =
+    \underset{c}{\int}
+      Maps(X(c), (Maps(K,Y)_\ast)(c))_\ast
+    \\
+    & \simeq 
+    \underset{c}{\int}
+     Maps(X(c), Maps(K,Y(c))_\ast)_\ast
+    \\
+    & \simeq
+    \underset{c}{\int} Maps(X(c) \wedge K, Y(c))_\ast
+    \\
+    & \simeq
+    \underset{c}{\int} Maps(K, Maps(X(c),Y(c))_\ast)_\ast
+    \\
+    & \simeq
+    Maps(K, \underset{c}{\int} Maps(X(c),Y(c))_\ast)_\ast
+    \\
+    & \simeq
+    Maps(K, [\mathcal{C},Top^{\ast/}_{cg}](X,Y))_\ast
+    \,.
+  \end{aligned}
+$$
+
+=--
+
+
+
++-- {: .num_prop #TopologicalLeftKanExtensionBCoend}
+###### Proposition
+**(left Kan extension via coends)**
+
+Let $\mathcal{C}, \mathcal{D}$ be [[small category|small]] pointed [[topologically enriched categories]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopEnrichedCategory)) and let 
+
+$$
+  p \;\colon\; \mathcal{C} \longrightarrow \mathcal{D}
+$$
+
+be a pointed [[topologically enriched functor]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctor)). Then precomposition with $p$ constitutes a functor
+
+$$
+  p^\ast 
+  \;\colon\;
+  [\mathcal{D}, Top^{\ast/}_{cg}]
+  \longrightarrow
+  [\mathcal{C}, Top^{\ast/}_{cg}]
+$$
+
+$G\mapsto G\circ p$. This functor has a [[left adjoint]] $Lan_p$, called **left [[Kan extension]]** along $p$
+
+$$
+  [\mathcal{D}, Top^{\ast/}_{cg}]
+    \underoverset
+      {\underset{p^\ast}{\longrightarrow}}
+      {\overset{Lan_p }{\longleftarrow}}
+      {\bot}
+  [\mathcal{C}, Top^{\ast/}_{cg}]
+$$
+
+which is given objectwise by a [[coend]] (def. \ref{EndAndCoendInTopcgSmash}):
+
+$$
+  (Lan_p F)
+  \;\colon\;
+  c 
+  \;\mapsto \;
+  \overset{c\in \mathcal{C}}{\int}
+   \mathcal{D}(p(c),d) \wedge F(c)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Use the expression of natural transformations in terms of ends (example \ref{NaturalTransformationsViaEnds} and def. \ref{PointedTopologicalFunctorCategory}), then use the respect of $Maps(-,-)_\ast$ for ends/coends (remark \ref{MappingSpacePreservesEnds}),  use the smash/mapping space adjunction ([cor.](Introduction+to+Stable+homotopy+theory+--+P#SmashHomAdjunctionOnPointedCompactlyGeneratedTopologicalSpaces)), use the [[Fubini theorem]] (prop. \ref{CoendsCommuteWithEachOther}) and finally use [[Yoneda reduction]] (prop. \ref{YonedaReductionTopological}) to obtain a sequence of [[natural isomorphisms]] as follows:
+
+$$
+  \begin{aligned}
+    [\mathcal{D},Top^{\ast/}_{cg}]( Lan_p F, \, G )
+    & =
+   \underset{d \in \mathcal{D}}{\int}
+    Maps( (Lan_p F)(d), \, G(d) )_\ast
+   \\
+   & =
+   \underset{d\in \mathcal{D}}{\int}
+   Maps\left(
+     \overset{c \in \mathcal{C}}{\int} \mathcal{D}(p(c),d) \wedge F(c)
+     ,\;
+     G(d)
+   \right)_\ast
+    \\
+  &\simeq
+  \underset{d \in \mathcal{D}}{\int}
+  \underset{c \in \mathcal{C}}{\int}
+  Maps(
+    \mathcal{D}(p(c),d)\wedge F(c) \,,\; G(d)
+  )_\ast
+  \\
+  & \simeq
+  \underset{c\in \mathcal{C}}{\int}
+  \underset{d\in \mathcal{D}}{\int}
+  Maps(F(c), 
+    Maps(
+     \mathcal{D}(p(c),d) , \, G(d)
+    )_\ast
+  )_\ast
+  \\
+  & \simeq
+  \underset{c\in \mathcal{C}}{\int}
+  Maps(F(c), 
+   \underset{d\in \mathcal{D}}{\int}
+   Maps(
+    \mathcal{D}(p(c),d) , \, G(d)
+   )_\ast
+  )_\ast
+  \\
+  & \simeq
+  \underset{c\in \mathcal{C}}{\int}
+  Maps(F(c), G(p(c))
+  )_\ast  
+  \\
+  & =
+  [\mathcal{C}, Top^{\ast/}_{cg}](F,p^\ast G)
+  \end{aligned}
+  \,.
+$$
+
+=--
+
+
 
 ##### Topological Day convolution
 
