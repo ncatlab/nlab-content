@@ -146,6 +146,8 @@ The corresponding table has been called the **[[brane scan]]**
 
 ## Related concepts
 
+* [[wrapped brane]]
+
 * [[brane intersection]]
 
 * [[D-brane]], [[fractional D-brane]]
