@@ -202,9 +202,9 @@ Every compact metric space is a continuous image of Cantor space.
 ###### Proof 
 First, every compact metric space $X$ is [[separable space|separable]]: has a [[countable set|countable]] [[dense set]] $\{x_0, x_1, \ldots\}$. Assume, as we may, that the metric $d: X \times X \to [0, \infty)$ is valued in $[0, 1]$. Then the map $y: X \to [0, 1]^\mathbb{N}$ to the [[Hilbert cube]], defined by 
 
-$$y(x) = (d(x, x_n)_{n \in \mathbb{N}}$$ 
+$$y(x) = (d(x, x_n))_{n \in \mathbb{N}}$$ 
 
-(a type of restricted "[[Yoneda embedding]]", regarding [[metric spaces]] as [[enriched categories]]), is continuous and maps $X$ onto a [[closed subspace]] of $I^\mathbb{N}$. As mentioned at [Peano curve](https://ncatlab.org/nlab/show/Peano+curve#construction), there is a continuous surjection $C \to I^\mathbb{N}$. Taking the [[pullback]] 
+(a type of restricted "[[Yoneda embedding]]", regarding [[metric spaces]] as [[enriched categories]]), is continuous and maps $X$ onto a [[closed subspace]] of $I^\mathbb{N}$. As mentioned at [Peano curve](https://ncatlab.org/nlab/show/Peano+curve#construction), there is a continuous surjection $C \to I^\mathbb{N}$. Taking the [[pullback]] in [[Top]] 
 
 $$\array{
 K & \hookrightarrow & C \\ 
