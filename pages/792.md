@@ -59,7 +59,7 @@ $$
   }
 $$
 
-of a certain prescribed [[integral transform]]-form (see [p. 9](http://arxiv.org/PS_cache/math/pdf/0501/0501487v5.pdf#page=9) of ([BunkeRumpfSchick08](#BunkeRumpfSchick08))
+of a certain prescribed [[integral transform]]-form (see [p. 9](http://arxiv.org/PS_cache/math/pdf/0501/0501487v5.pdf#page=9) of ([Bunke-Rumpf-Schick 08](#BunkeRumpfSchick08))).
 
 ## Related concepts
 
@@ -77,7 +77,7 @@ of a certain prescribed [[integral transform]]-form (see [p. 9](http://arxiv.org
 
 The simplest version of topological T-duality, when $X$ is a principal circle bundle, was originally developed in 
 
-* [[Peter Bouwknegt]]-[[Jarah Evslin]]-[[Varghese Mathai]] ([hep-th/0306062](http://arxiv.org/abs/hep-th/0306062)) 
+* [[Peter Bouwknegt]], [[Jarah Evslin]], [[Varghese Mathai]], _T-Duality: Topology Change from H-flux_, Commun.Math.Phys.249:383-415,2004 ([hep-th/0306062](http://arxiv.org/abs/hep-th/0306062)) 
 
 and the torus bundle case was introduced in 
 
@@ -106,7 +106,7 @@ There is a [[C*-algebra]]ic version of toplogical T-duality, discussed for insta
 
 Jonathan Rosenberg has also written a little introductory book for mathematicians:
 
-* Jonathan Rosenberg: _Topology, $C^*$-algebras, and string duality_ ([ZMATH](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:05632075&type=pdf&format=complete))
+* [[Jonathan Rosenberg]], _Topology, $C^*$-algebras, and string duality_ ([ZMATH](http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:05632075&type=pdf&format=complete))
 
 A discussion that instead of noncommutative spaces uses [[topological groupoids]] is in 
 
@@ -118,8 +118,8 @@ The [[bi-brane]] perspective on T-duality is amplified in
 
 The refinement of topology T-duality to [[differential cohomology]], hence to an operation on the [[differential K-theory]] classes that model the [[RR-field]] is in
 
-* [[Alexander Kahle]], [[Alessandro Valentino]], _[[T-Duality and Differential K-Theory]]_ 
- {#KahleValentino}
+* {#KahleValentino} [[Alexander Kahle]], [[Alessandro Valentino]], _[[T-Duality and Differential K-Theory]]_ 
+ 
 
 ## Blog resources
 
