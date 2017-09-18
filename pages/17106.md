@@ -21,7 +21,7 @@ A connection on the $Spin(7)$-manifold is called a _$Spin(7)$-instanton_ it its 
 
 * [[Simon Donaldson]],[[Richard Thomas]], _Gauge theory in higher dimensions_ ([pdf](http://wwwf.imperial.ac.uk/~rpwt/skd.pdf))
 
-* [[Naichung Conan Leung]], Yalong Cao, ...
+* {#Leung02} [[Naichung Conan Leung]], _Riemannian Geometry Over Different Normed Division Algebras_, J. Differential Geom. Volume 61, Number 2 (2002), 289-333. ([publisher page](http://projecteuclid.org/euclid.jdg/1090351387))
 
 [[!redirects Spin(7)-instantons]]
 
