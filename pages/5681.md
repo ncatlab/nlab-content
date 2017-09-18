@@ -148,6 +148,8 @@ This is ([Lurie, lemma 5.2.8.19](#Lurie)).
 
   * **orthogonal factorization system in an (∞,1)-category**
 
+  * [[orthogonal factorization system in a derivator]].
+
 ## References
 
 Section 5.2.8 of 
