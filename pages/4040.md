@@ -77,13 +77,15 @@ see also _[[algebraic topology]]_, _[[functional analysis]]_ and _[[homotopy the
 
 * [[polytope]], [[polyhedron]]
 
-* [[loop space]], [[path space]]
+* [[mapping space]], [[loop space]], [[path space]]
 
 * [[Zariski topology]]
 
 * [[Cantor space]], [[Sierpinski space]]
 
 * [[long line]], [[line with two origins]]
+
+* [[K-topology]]
 
 * [[Warsaw circle]]
 
