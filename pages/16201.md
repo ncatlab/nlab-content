@@ -1,0 +1,33 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Physics
++--{: .hide}
+[[!include physicscontents]]
+=--
+#### Gravity
++--{: .hide}
+[[!include gravity contents]]
+=--
+=--
+=--
+
+
+
+
+## Idea
+
+In the context of [[gravity]] ([[general relativity]]), _higher curvature corrections_ are modificatiosn of the [[Einstein-Hilbert action]] that include not just the linear appearance of the [[scalar curvature]] $R$ but higher scalar powers of the [[Riemann curvature tensor]].
+
+When viewing Einstein-Hilbert [[gravity]] as an [[effective field theory]] valid at low energy, then higher curvature corrections are precisely the terms that may appear at higher energy in pure gravity. Notably the effective field theories induced by [[string theory]] come with infinite towers of higher curvature correcitons.
+
+In the context of [[cosmology]], higher curvature corrections are a candidate for the [[inflaton field]], see at _[[Starobinsky model of cosmic inflation]]_.
+
+## References
+
+Discussion in the context of corrections to [[black hole entropy]] include
+
+* [[Thomas Mohaupt]], _Strings, higher curvature corrections, and black holes_ ([arXiv:hep-th/0512048](http://arxiv.org/abs/hep-th/0512048))
+
+[[!redirects higher order curvature corrections]]
