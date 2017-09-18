@@ -30,7 +30,7 @@ More in detail, there are variants of the icosahedral group corresponding to the
     I_h \hookrightarrow O(3)
   $$
 
-  which is the [[stabilizer subgroup|stabilizer]] of the standard equistant embedding of the [[icosahedron]] into [[Cartesian space]] $\mathbb{R}^3$;
+  which is the [[stabilizer subgroup|stabilizer]] of the standard embedding of the [[icosahedron]] into [[Cartesian space]] $\mathbb{R}^3$;
 
 * the _rotational icosahedral group_ $I \hookrightarrow SO(3)$ is the restriction to orientation-preserving symmetries, hence to [[special orthogonal group|SO(3)]]; this is [[isomorphism|isomorphic]] to the [[alternating group]] $A_5$
 
@@ -64,9 +64,15 @@ The [[subgroup]] of [[orientation]]-preserving symmetries of the [[icosahedron]]
 
 Hence the [[order of a group|order]] of the icosahedral group is $ 60 \times 2 = 120 $.
 
-There is an exceptional isomorphism $I \simeq PSL_2(\mathbb{F}_5)$, with $2I \simeq SL_2(\mathbb{F}_5)$ covering this isomorphism.
+### Exceptional isomorphisms
 
-The homogeneous space $SU(2)/2I$ is the [[Poincare homology sphere]].
+There is an exceptional [[isomorphism]] $I \simeq PSL_2(\mathbb{F}_5)$, with $2I \simeq SL_2(\mathbb{F}_5)$ covering this isomorphism.
+
+($PSL_2$ the [[projective special linear group]], $SL_2$ the [[special linear group]], $\mathbb{F}_5$ the [[prime field]] for $p = 5$)
+
+### Quotient spaces
+
+The [[coset space]] $SU(2)/2I$ is the [[Poincaré homology sphere]].
 
 ### Group cohomology
 
