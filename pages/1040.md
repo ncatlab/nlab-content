@@ -42,9 +42,9 @@ An __idempotent monad__  is a [[monad]] $(T,\mu,\eta)$ on a [[category]] $C$ suc
 
 1. $\mu\colon T T \to T$ is a [[natural isomorphism]]. 
 
-2. All components of $\mu\colon T T \to T$ are [[monomorphisms]].
+2. All components of $\mu \,\colon\, T T \to T$ are [[monomorphisms]].
 
-3. The maps $T\eta, \eta T\colon T \to T T$ are equal. 
+3. The maps $T\eta, \eta T \,\colon\, T \to T T$ are equal. 
 
 4. For every $T$-[[algebra over a monad|algebra]] ($T$-module) $(M,u)$, the corresponding $T$-[[action]] $u\colon T M \to M$ is an [[isomorphism]].
 
@@ -337,7 +337,7 @@ Do 2-monads have associated lax-, colax-, or pseudo-idempotent 2-monads?
 
 * [[idempotent (∞,1)-monad]]
 
-* The analog in [[model category]] theory of the localization at idempotent monad is the content of the [[Bousfield-Friedlander theorem]].
+* The analog in [[model category]] theory of the localization at idempotent monad is the content of the [[Bousfield-Friedlander theorem]] ("[[Quillen idempotent monad]]").
 
 ## References
  {#References}
