@@ -32,7 +32,70 @@ An [[open cover]] $\{U_i \subset X\}_{i \in I}$ of $X$ is called  _locally finit
 
 ## Properties
 
-Any open cover defined by a (generalized) [[partition of unity]] has a locally finite shrinking. 
+
+Any open cover defined by a (generalized) [[partition of unity]] has a locally finite shrinking.  (...details...)
+
+
+The following says that if there exists a [[locally finite cover|locally finite]] [[refinement]] of a cover, then in fact there exists one with the same index set as the original cover.
+
++-- {: .num_lemma #LocallyFiniteRefinementImpliesLocallyFiniteShrinking}
+###### Lemma
+**(locally finite refinement induces locally finite shrinking)**
+
+Let $(X,\tau)$ be a [[topological space]], let $\{U_i \subset X\}_{i \in I}$ be an [[open cover]], and let $(\phi \colon J \to I), \{V_j \subset X\}_{j \in J})$, be a [[refinement]] to a [[locally finite cover]].
+
+Then  $\left\{ W_i \subset X \right\}_{i \in I}$ with 
+
+$$
+  W_i 
+    \;\coloneqq\;
+  \left\{
+    \underset{j \in \phi^{-1}(\{i\})}{\cup} V_j
+  \right\}
+$$
+
+is still a [[refinement]] of $\{U_i \subset X\}_{i \in I}$ to a locally finite cover.
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+It is clear by construction that $W_i \subset U_i$, hence that we have a [[refinement]]. We need to show local finiteness.
+
+Hence consider $x \in X$. By the assumption that $\{V_j \subset X\}_{j \in J}$ is locally finite, it follows that there exists an [[open neighbourhood]] $U_x \supset \{x\}$ and a [[finite set|finitee]] [[subset]] $K \subset J$ such that 
+
+$$
+  \underset{j \in J\backslash K}{\forall} \left( U_x \cap V_j = \emptyset \right)
+  \,.
+$$
+
+Hence by construction 
+
+$$
+  \underset{I \in I\backslash \phi(K)}{\forall} \left( U_x \cap W_i = \emptyset \right)
+  \,.
+$$
+
+Since the [[image]] $\phi(K) \subset I$ is still a [[finite set]], this shows that $\{W_i \subset X\}_{i \in I}$ is locally finite.
+
+
+=--
+
+
++-- {: .num_lemma}
+###### Lemma
+
+Let $(X,\tau)$ be a [[normal topological space]], and let $\{U_i \subset X\}_{i \in I}$ be a [[locally finite cover|locally finite]] [[open cover]]. Then there exists a shrinking to a locally finite open cover $\{V_i \subset X\}_{i \in I}$ whose [[topological closure|closures]] $Cl(-)$ are still contained in the original cover:
+
+$$
+  V_i \suubset Cl(V_i) \subset U_i
+  \,.
+$$
+
+=--
+
 
 ## Related concepts
 
