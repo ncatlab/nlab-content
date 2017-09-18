@@ -534,7 +534,6 @@ The following particular type theories are important enough to (potentially) hav
 
   * [[computational type theory]]
 
-
   * [[geometric type theory]]
 
   * [[linear type theory]]
@@ -542,6 +541,8 @@ The following particular type theories are important enough to (potentially) hav
   * [[canonical form]], [[normal form]], [[beta-reduction]]
 
   * [[Bishop set]], [[predicative topos]]
+
+  * [[coercion]]
  
 * [[relation between category theory and type theory]]
 
