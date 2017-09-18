@@ -87,9 +87,11 @@ Notable families of examples include:
 
 * for $G = U$ the [[unitary group]]: 
 
-  [[Chern classes]];
+  [[Chern classes]], [[Conner-Floyd Chern classes]];
 
-  [[Todd class]]
+  [[Todd class]];
+
+  
 
 * for $G = \mathbf{B}U(1)$ the [[circle n-group|circle 2-group]]: 
 
