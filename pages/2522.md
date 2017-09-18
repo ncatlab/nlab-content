@@ -125,7 +125,7 @@ Therefore, if nothing else, supersymmetric quantum field theories constitute a p
 #### Superconformal symmetry
  {#ClassificationSuperconformal}
 
-There exists [[superconformal]] extensions of the [[isometries]] of [[super Minkowski spacetime]] in [[dimension]] 2,3,4,5,6 as follows:
+There exists [[superconformal]] extensions of the [[isometries]] of [[super Minkowski spacetime]] in [[dimension]] 2,3,4,5,6 as follows (with notation as at _[super Lie algebra -- classification](super%20Lie%20algebra#Classification)_):
 
 | $d$ | $N$ | superconformal [[super Lie algebra]] | [[R-symmetry]] | [[brane]] [[worldvolume]] theory |
 |-----|-----|--|---|--|
@@ -144,7 +144,7 @@ There exists no [[superconformal]] extension of the [[isometries]] of [[super Mi
 
 =--
 
-This is due to ([Shnider 88](#Shnider88)). Review is in ([Minwalla 98, section 4.2](#Minwalla98)).
+This is due to ([Shnider 88](#Shnider88)), see also ([Nahm 78](#Nahm78)). Review is in ([Minwalla 98, section 4.2](#Minwalla98)).
 
 ### Superymmetry multiplets and BPS states
 
