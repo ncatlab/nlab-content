@@ -178,11 +178,15 @@ The basic [[BPS spates]] of 11d SuGra are
 
 ### General
 
-11d supergravity was originally found in
+That there is a maximal dimension $d = 11$ in which supergravity may exist was found in 
+
+* {#Nahm78} [[Werner Nahm]], _[[Supersymmetries and their Representations]]_, Nucl.Phys. B135 (1978) 149 ([spire](https://inspirehep.net/record/120988/), [pdf](http://cds.cern.ch/record/132743/files/197709213.pdf))
+
+The theory was then actually constructed in
 
 * E. Cremmer, [[Bernard Julia]], [[Joël Scherk]], _Supergravity in theory in 11 dimensions_ Phys. Lett. 76B (1978) 409
 
-Formulation in terms of [[supergeometry]] is in 
+Formulation in terms of [[supergeometry]] ("superspace formulation") is in 
 
 * {#Cremmerferrara80} E. Cremmer, S. Ferrara, _Formulation of Eleven-Dimensional Supergravity in Superspace_, Phys.Lett. B91 (1980) 61
 
