@@ -493,6 +493,10 @@ While [[strict omega-groupoids]] in the sense of
 The issue however is somewhat subtle, as very much highlighted by Voevodsky [here](http://ncatlab.org/nlab/show/homotopy+type+theory#VoevodskyIASTalk2014).
 For more on this see at _[[Simpson's conjecture]]_.
 
+### For stratified spaces
+
+See [Ayala-Francis-Rozonblyum](#AFR15).
+
 
 ## References
 
@@ -549,3 +553,7 @@ Cubical methods are also essential in
 topology: filtered spaces, crossed complexes, cubical homotopy
 groupoids_, EMS Tracts in Mathematics Vol. 15, 703 pages. (August
 2011).
+
+A version for [[stratified spaces]] is discussed in
+
+* David Ayala, John Francis, Nick Rozenblyum, *A stratified homotopy hypothesis*, [arXiv](http://arxiv.org/abs/1502.01713)
