@@ -109,4 +109,4 @@ More links that I need to keep in mind:
 
 * [[Mike Fourman]], [[Martin Hyland]] {#FourmanHyland}, _Sheaf models for analysis_. [PDF](https://www.dpmms.cam.ac.uk/~martin/Research/Oldpapers/analysis79.pdf)
 
-[[!redirects fan theorem]]
+[[!redirects Fan theorem]]
