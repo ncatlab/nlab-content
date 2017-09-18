@@ -210,7 +210,7 @@ $$
 
 for the projection of $(n,s)$-forms to the image of the "interior Euler operator" ([Anderson 89, p. 21 (50/318)](#Anderson89)).
 
-+-- {: .num_prop }
++-- {: .num_prop #ELComplexHasSameCohomologyAsDeRhamComplex}
 ###### Proposition
 
 The [[cochain cohomology]] of the Euler-Lagrange complex
