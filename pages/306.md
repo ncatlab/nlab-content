@@ -20,11 +20,18 @@
 
 ## Idea
 
+Subsets $A$ of a set $X$ correspond precisely to maps from $X$ to the set of truth values of classical logic via their [[characteristic function]] $\chi_A:X\to \{0,1\}$ . The concept of a **subobject classifier** generalizes this situation to [[toposes]] other than [[Set]]:
+
 A _subobject classifier_ in a [[topos]] is a morphism 
 $true : * \to \Omega$ such that every [[monomorphism]] $A \hookrightarrow B$ in the topos (hence every [[subobject]]) is the [[pullback]] of this morphism along a unique morphism (the [[characteristic morphism]] of $A$) $B \to \Omega$.
 
-In this sense $\Omega$ is the [[classifying space|classifying object]] for subobjects.
+In this sense $\Omega$ is the [[classifying space|classifying object]] for subobjects and $true : * \to \Omega$ the _generic_ subobject.
 
+That the existence of a subobject classifier in a category is a very powerful property that induces much other structure lies at the heart of [[topos theory]].
+
+By restricting the class of monomorphism appropriately, the concept can be relativized to the concept of an _**M**-subobject classifier_[^weak]: e.g. demanding only classification of strong monomorphisms leads to [[quasitopos|quasitoposes]].
+
+[^weak]: For **M** the class of strong monomorphisms, this is called a _weak subobject classifier_ in Johnstone (2002, p.120).
 
 ## Definition
 
@@ -179,6 +186,8 @@ The subobject classifier always comes with the structure of an internal [[partia
 
 In fact, this internal poset is an internal [[Heyting algebra]]; it\'s an internal [[Boolean algebra]] if and only if the topos is Boolean.
 
+In a topos, the subobject classifier $\Omega$ is always [[injective object|injective]], and, so is the _power object_ $\Omega^X$ for every object $X$. In particular, every object $X$ embeds into an injective object by the singleton monomorphism $X\to\Omega^X$: 'A topos has enough injective objects!'. More generally, injective objects in a topos are percisely the ones that are retracts of some $\Omega^X$ (Cf. [Borceux 1994](#Borceux3), p.315; [Moerdijk-MacLane 1994](#MoerdijkMacLane), p.210).
+
 ## Generalizations: object classifier
 
 In higher topoi the the subobject classifiers are the [[generalized universal bundle|universal fibrations]]:
@@ -199,11 +208,9 @@ the 2-element set $\mathbf{2}$ may be regarded as the [[0-category]] of [[(-1)-c
 
 In the context of [[(∞,1)-topos]] [[Higher Topos Theory|theory]] subobject classifiers are discussed in section 6.1.6 of
 
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_ .
+* [[Jacob Lurie]], _[[Higher Topos Theory]]_ , Princeton UP 2009.
 
-As pointed out there, from some perspective it is not so much a _subobject_ classifier that matters in [[higher topos theory]], but an 
-
-* [[object classifier]].
+Whereas for 1-toposes the _subobject classifier_ is the key structural ingredient (besides the exactness properties), in [[higher topos theory]] this role is taken over by the [[object classifier]], as pointed out in Lurie (2009).
 
 
 ## Related concepts
@@ -223,9 +230,12 @@ As pointed out there, from some perspective it is not so much a _subobject_ clas
 
 ## References#
 
-section I.3 and I.4 in
+* [[Francis Borceux]], _Handbook of Categorical Algebra 3_ , Cambridge UP 1994. {#Borceux3}
 
-* [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_
- {#MacLaneMoerdijk}
+* [[Peter Johnstone]], _Sketches of an Elephant I_ , Oxford UP 2002.
+
+* [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_ , Springer Heidelberg 1994. (section I.3-4)
+ {#MacLaneMoerdijk}  
+
 
 [[!redirects subobject classifiers]]
