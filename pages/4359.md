@@ -43,7 +43,9 @@ $$
   \left(
     \underset{U_1, U_2 \in \tau}{\forall } 
     \left(
-      U_1 \cap U_2 \subset P 
+      \left(
+        U_1 \cap U_2 \subset P
+      \right) 
       \;\Rightarrow\;
       \left(U_1 \subset P \;\text{or}\; U_2 \subset P\right)
     \right)
