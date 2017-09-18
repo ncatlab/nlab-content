@@ -19,6 +19,12 @@ Furthermore, all [[strict pseudo-limits]] are PIE-limits, and therefore any [[st
 
 PIE-limits can also be characterized as the coalgebras for a [[pseudo morphism classifier]] [[comonad]], exhibiting them as a 2-categorical version of the notion of [[rigged limit]].
 
+## References
+
+* Blackwell, [[Max Kelly|Kelly]], and [[John Power|Power]], *Two-dimensional monad theory*, Journal of Pure and Applied Algebra 59 (1989) 1-41
+
+* [[John Power|Power]] and Robinson, *A characterization of pie limits*, Math. Proc. Cam. Phil. Soc. (1991) 110, 33
+
 [[!redirects PIE-limit]]
 [[!redirects PIE limit]]
 [[!redirects PIE-limits]]
