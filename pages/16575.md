@@ -48,3 +48,6 @@ Examples include [[KK-compactification]] of [[M-theory]] on [[K3]] fibers and on
 * [[Mirjam Cvetic]], [[Chris Hull]], _Wrapped Branes and Supersymmetry_, Nucl.Phys.B519:141-158,1998 ([arXiv:hep-th/9709033](http://arxiv.org/abs/hep-th/9709033))
 
 [[!redirects enhanced gauge symmetries]]
+
+[[!redirects gauge enhancement]]
+[[!redirects gauge enhancements]]
