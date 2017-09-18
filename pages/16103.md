@@ -1,0 +1,44 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Symplectic geometry
++--{: .hide}
+[[!include symplectic geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+Given a [[symplectic vector space]] $(V,\omega)$, then its _affine symplectic group_ $ASp(V,\omega)$ is the [[intersection]] of the [[affine group]] of the [[affine space]] $V$ and the [[symplectomorphism group]] of the [[symplectic manifold]] $(X,\omega)$, i.e.the  [[group]] of all those [[affine transformations]] which preserve the [[symplectic form]] $\omega$.
+
+The further restriction to [[linear functions]] gives the [[symplectic group]] proper. 
+
+## Properties
+
+### Extensions
+
+There is a [[circle group|circle]] [[group extension]] $ESp(V,\omega)$ of the affine symplectic group -- -- given by restricting the [[quantomorphism group]] of $(V,\omega)$ to affine transformations. The further restriction of that to elements coming from linear translations is the [[Heisenberg group]]  $Heis(V,\omega)$.
+
+$$
+  \array{
+     Heis(V,\omega)
+     &\hookrightarrow&
+     ESp(V,\omega) &\hookrightarrow& QuantMorph(V,\omega)
+     \\
+     \downarrow && \downarrow && \downarrow
+     \\
+     V
+     &\hookrightarrow&
+     ASp(V,\omega)
+     &\hookrightarrow&
+     HamSympl(V,\omega)
+  }
+$$
+
+[[!redirects affine symplectic groups]]
