@@ -26,36 +26,7 @@ Pasting schemes are one possibility to give a rigorous treatment of  the (older)
 
 More than one definition of *pasting scheme* has been used to give a justification to the practice of [[pasting diagrams]]. 
 
-For example, there exist the *pasting schemes in the sense of Johson*, introduced in ([Johnson 1987](#Johnson1987)), and there are the *pasting schemes in the sense of Power*, introduced in \cite(#Power1990).  
-
-### Pasting schemes in the sense of Power 
-
-
-
-
-A *pasting scheme in the sense of Power* consists of data
-
-* a [[plane digraph|digraph]] $D=(V,A)$
-
-* specified vertices $q_{-\infty}\in V$ and $q_\infty\in V$
-
-
-subject to axioms (terminology from [[digraph]])
-
-1. $q_{-\infty}$ and $q_\infty$ are [[denial inequality|not equal]]
-
-1. $q_{-\infty}$ is an $\omega$-king of $D$ 
-
-1. $q_{\infty}$ is an $\omega$-coking of $D$ 
-
-1. for each facet $F\in\mathrm{Fa}(D)$ there exists vertices $a(F)\in V$ and $b(F)$ such that 
-
-1.1. (..)
-
-
-
-
-
+For example, there exist the *pasting schemes in the sense of  [Johnson 1987](#Johnson1987), and there are the *pasting schemes in the sense of [Power 1990](#Power1990).  
 
 ## Related concepts
 
