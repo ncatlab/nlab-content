@@ -674,7 +674,7 @@ $$
     \\
     &\nearrow& \downarrow^{\mathrlap{[Y,p_1]}}
     \\
-    && X_1 &\stackrel{[Y,\kappa_1]}{\longrightarrow}& [Y,\Omega I_2]
+    && [Y,X_1] &\stackrel{[Y,\kappa_1]}{\longrightarrow}& [Y,\Omega I_2]
     \\
     &\nearrow& \downarrow^{\mathrlap{[Y,p_0]}}
     \\
