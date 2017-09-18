@@ -86,7 +86,7 @@ $$
 
 (One says that this is the solution "in the [[Schrödinger picture]]", whence the subscript.)
 
-However, if $H$ is sufficiently complicated, it may still be very hard to extract from this expression a more explicit formula for $\vert \psi(t) \rangle$, such as, in the example of the free particle on the line, it expression as a function ("[[wave function]]") of $x$ and $t$.
+However, if $H$ is sufficiently complicated, it may still be very hard to extract from this expression a more explicit formula for $\vert \psi(t) \rangle$, such as, in the example of the free particle on the line, its expression as a function ("[[wave function]]") of $x$ and $t$.
 
 But assume that the analogous expression for $H_{free}$ alone is well understood, hence that the operator
 
