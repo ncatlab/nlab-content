@@ -19,7 +19,9 @@ In [[probability theory]] a _random variable_ is meant to be quantity that is su
 
 ## Definition
 
-The modern formalization of this idea is to take a random variable to be a [[measurable function]] $f$ on a [[probability space]] $(X,\mu)$. One thinks of $X$ as the space of all possible configurations (all the "[[possible worlds]]" with respect to the idealized situation under consideration), thinks of the measure $\mu(U)$ of any [[subset]] of it as the [[probability]] that one of the configurations $x \in U \subset X$ is _randomly_ realized, and thinks of $f(x)$ as the value of the given random variable in the situation of that configuration.
+The modern formalization of this idea ([Kolmogorov 33, III](#Kolmogorov33)) is to take a random variable to be a [[measurable function]] $f$ on a [[probability space]] $(X,\mu)$ (e.g. [Grigoryan 08, 3.2](#Grigoryan08), [Dembo 12, 1.2.1](#Dembo12)). 
+
+One thinks of $X$ as the space of all possible configurations (all the "[[possible worlds]]" with respect to the idealized situation under consideration), thinks of the measure $\mu(U)$ of any [[subset]] of it as the [[probability]] that one of the configurations $x \in U \subset X$ is _randomly_ realized, and thinks of $f(x)$ as the value of the given random variable in the situation of that configuration.
 
 Accordingly for instance the [[expectation value]] of the random variable $f$ is the [[integral]]
 
@@ -35,6 +37,16 @@ of $f$ against the [[probability measure]], i.e. the average value of the random
 * [[probability theory]]
 
 ## References
+
+The modern formal concept originates around
+
+* {#Kolmogorov33} [[Andrey Kolmogorov]], _Grundbegriffe der Wahrscheinlichkeitsrechnung_, Ergebnisse der Mathematik und Ihrer Grenzgebiete, Springer Berlin Heidelberg, 1933
+
+Surveys and lecture notes include
+
+* {#Grigoryan08} Alexander Grigoryan, _Measure theory and probability_, 2008 [pdf](https://www.math.uni-bielefeld.de/~grigor/mwlect.pdf)
+
+* {#Dembo12} [[Amir Dembo]], _Probability theory_, 2012 ([pdf](http://statweb.stanford.edu/~adembo/stat-310a/lnotes.pdf))
 
 * Wikipedia, _[Random variable](http://en.wikipedia.org/wiki/Random_variable)_.
 
