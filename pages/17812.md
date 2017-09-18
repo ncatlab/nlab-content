@@ -185,7 +185,7 @@ $$
   \theta^i \theta^j = - \theta^j \theta^i
 $$
 
-for all $i,j \in \{1,\cdots, q\}$. In particular 
+for all $i,j \in \{1,\cdots, q\}$. In particular
 
 $$
   \theta_i \theta_i = 0
@@ -258,7 +258,7 @@ and to develop a geometry induced from these.
 Recall the two magic algebraic properties of [[smooth functions]] that make the above algebraic description of
 [[differential geometry]] work:
 
-1. (**[[embedding of smooth manifolds into formal duals of R-algebras]]**) 
+1. (**[[embedding of smooth manifolds into formal duals of R-algebras]]**)
 
    The functor that assigns [[algebra of functions|algebras of]] [[smooth function]] to [[smooth manifolds]]
 
@@ -270,7 +270,7 @@ Recall the two magic algebraic properties of [[smooth functions]] that make the 
 
    is [[fully faithful functor|fully faithful]].
 
-1. (**[[smooth Serre-Swan theorem]]**) 
+1. (**[[smooth Serre-Swan theorem]]**)
 
    The functor that assigns smooth [[sections]] of smooth [[vector bundles]]
    of [[finite number|finite]] [[rank]]
@@ -482,7 +482,7 @@ $$
 $$
 
 with $V$ a [[nilpotent ideal]] of [[finite number|finite]]-[[dimension]]
-over $\mathbb{R}$ (the [[direct sum]] on the right is that of underlying [[vector spaces]], not of algebras). 
+over $\mathbb{R}$ (the [[direct sum]] on the right is that of underlying [[vector spaces]], not of algebras).
 
 We call this the category of _[[infinitesimally thickened points]]_.
 
@@ -1199,7 +1199,7 @@ and the top three functors on the right coincide with the corresponding functors
 
 In such a situation we also say that in the third row
 
-1. the bottom four functors exhibit $SuperFormalSmoothSet$ as a  [[cohesive topos]];
+1. the bottom four functors exhibit $SuperFormalSmoothSet$ as a  [[cohesive topos]] relative to [[Set]];
 
 1. the middle four functors exhibit $SuperFormalSmoothSet$ as an  _elastic topos_ relative to $SmoothSet$ ([[differential cohesion]]);
 
@@ -1277,13 +1277,17 @@ $$
     \\
     & \simeq
     G(X)(c)
+    \\
+    & \simeq 
+    (G_! X)(c)
   \end{aligned}
   \,.
 $$
 
 Here the first equality is the definition of $F^\ast$, then the first isomorphism is the
 [[Yoneda lemma]], the second isomorphism is the one that characterizes the adjunction
-$F \dashv G$, and the last isomorphism is again the Yoneda lemma.
+$F \dashv G$, the third isomorphism is again the Yoneda lemma and finally the last isomorphism
+is the fact that left Kan extension $G_!$ agrees with $G$ on representables.
 
 This shows that there is a system of [[adjoint quadruples]]
 as shown in the middle row above, but, so far, only on the corresponding [[categories of presheaves]].
@@ -1369,7 +1373,7 @@ it is immediate to see that
 
 1. both form an [[adjoint pair]] themselves: $\overset{\rightrightarrows}{(-)} \dashv \overset{\rightsquigarrow}{(-)}$.
 
-In fact, since, by prop. \ref{SuperSmoothSetsSystemOfAdjunctions}, this adjoint triple between
+Moreover, by prop. \ref{SuperSmoothSetsSystemOfAdjunctions}, this adjoint triple between
 $SuperFormalSmoothSet$ and $FormalSmoothSet$ extends to an
 [[adjoint quadruple]], there is yet one more [[endofunctor]] which is a further [[right adjoint]]  [[idempotent comonad]].
 Later we will see that this further opration is related to the concept of "[[rheonomy]]" in supergravity, and therefore
