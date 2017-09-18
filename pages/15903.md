@@ -20,7 +20,8 @@
 [[!redirects coHeyting negation]]
 [[!redirects Co-Heyting negation]]
 [[!redirects supplement]]
-
+[[!redirects bi-Heyting negation]]
+[[!redirects Brouwerian negation]]
 
 ## Idea
 
@@ -34,8 +35,7 @@ Let $a$ be an element of a [[co-Heyting algebra]] $L$ with subtraction $\backsla
 
 A [[co-Heyting algebra|bi-Heyting algebra]] is naturally equipped with two negation operators: the Heyting complement $\neg$ and the co-Heyting supplement $\sim$. Both coincide in a Boolean algebra considered as a bi-Heyting algebra.
 
-In applications, such cooccuring pairs of negation operators $\neg$ and $\sim$ are the most interesting cases as their combination give rise to [[adjoint modalities]] e.g. in mereology they yield _thickened boundaries_ (Stell&Worboys 1997). Beside [[mereology]] they have found applications in [[linguistics]], [[intuitionistic logic]] and [[physics]].
-
+In applications, such co-occuring pairs of negation operators $\neg$ and $\sim$ are the most interesting cases as their combination give rise to [[adjoint modalities]] e.g. in mereology they yield _thickened boundaries_ (Stell&Worboys 1997). Beside [[mereology]] they have found applications in [[linguistics]], [[intuitionistic logic]] and [[physics]].
 
 ## Properties
 
@@ -47,6 +47,7 @@ In applications, such cooccuring pairs of negation operators $\neg$ and $\sim$ a
 
 * For $a\in L$ define its **core** as $\sim\sim a$. Then $a=\partial a\vee\sim\sim a$. Call $a$ with $a=\sim\sim a$ **regular**. Lawvere (1986) proposes in the vein of classical mereology e.g. Tarski 1927 on regions as regular open sets, to consider only regular subbodies as bodies in the full sense.
 
+* In a bi-Heyting algebra: $\neg a=\neg a\wedge 1=\neg a\wedge (a\vee\sim a)=(\neg a\wedge a)\vee (\neg a\wedge \sim a)= 0\vee (\neg a\wedge\sim a)=\neg\wedge\sim a$ hence $\neg a\leq\sim a$ and we see that $\neg$ is more strongly negative than $\sim$.
 
 ## Related entries
 
@@ -61,7 +62,7 @@ In applications, such cooccuring pairs of negation operators $\neg$ and $\sim$ a
 
 * [[Andreas Döring|A. Döring]], _Topos-based Logic for Quantum Systems and Bi-Heyting Algebras_ , arXiv:1202.2750 (2013). ([pdf](http://arxiv.org/pdf/1202.2750.pdf))
 
-* {#Law86} [[William Lawvere|F. W. Lawvere]], _Introduction_ , pp.1-16 in Lawvere, Schanuel (eds.), _Categories in Continuum Physics_ , Springer LNM **1174** 1986.
+* {#Law86} [[William Lawvere|F. W. Lawvere]], _Introduction_ , pp.1-16 in Lawvere, Schanuel (eds.), _Categories in Continuum Physics_ , LNM **1174** Springer Heidelberg 1986.
 
 * {#Law91a} F. W. Lawvere, _Intrinsic Co-Heyting Boundaries and the Leibniz Rule in Certain Toposes_ , pp.279-281 in Springer LNM **1488** (1991).
 
