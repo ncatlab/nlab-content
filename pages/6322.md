@@ -49,9 +49,10 @@ The corresponding [[effective field theory]] that describes [[bound states]] suc
 
 ## References
 
-(...)
+Introductions include
 
-A quick introduction/survey/reminder is in 
+* Peter Skands, _Introduction to QCD_ ([arXiv:1207.2389](https://arxiv.org/abs/1207.2389))
+
 
 * Y. Kurihara, _QCD at LHC for beginners_ 
 
