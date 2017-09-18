@@ -83,24 +83,68 @@ In $\{a{\searrow}b\}$, the point $a$ is open and point ${b}$ is closed.
 Fix two sets ([[subsets]]) $F$ and $G$ of $S$.
 
 *  The sets $F$ and $G$ are __[[disjoint sets|disjoint]]__ if their [[intersection]] is [[empty set|empty]]:
-   $$ F \cap G = \empty .$$
-   In terms of arrows,  the following map is well-defined: $S_{F,G}: S \longrightarrow  \{F\leftrightarrow G \leftrightarrow \bullet \}$ such that $S_{F,G}{x)=F$ for $x \in F$, $S_{F,G}{x)=G$ for $x \in G$, and $S_{F,G}{x)=\bullet$ for $x \notin F\cup G$.
+
+   $$ 
+     F \cap G = \empty 
+     \,.
+   $$
+ 
+  In terms of arrows,  the following map is well-defined: $S_{F,G}: S \longrightarrow  \{F\leftrightarrow G \leftrightarrow \bullet \}$ such that $S_{F,G}(x)=F$ for $x \in F$, $S_{F,G}(x)=G$ for $x \in G$, and $S_{F,G}(x)=\bullet$ for $x \notin F\cup G$.
+
 *  They are __topologically disjoint__ if there exists a [[neighbourhood]] of one set that is disjoint from the other set:  
-$$ (\exists\; U \stackrel{\circ}\supseteq F,\; U \cap G = \empty) \;\vee\; (\exists\; V \stackrel{\circ}\supseteq G,\; F \cap V = \empty) .$$
-   In terms of arrows,   $S_{F,G}: S \longrightarrow  \{F\leftrightarrow \bullet \leftrightarrow G \}$ factors either as $$ S_{F,G}: S \longrightarrow   \{F \leftrightarrow U \stackrel{\circ} \searrow \bullet \leftrightarrow G\} \longrightarrow  \{F\leftrightarrow  U \stackrel{\circ}=\bullet \leftrightarrow G \}$$ or 
-$$ S_{F,G}: S \longrightarrow  \{F \leftrightarrow \bullet \swarrow V \stackrel{\circ} \leftrightarrow G \} \longrightarrow
-     \{F \leftrightarrow \bullet = V \stackrel{\circ} \leftrightarrow G \} $$ where
-    $ U \stackrel{\circ}$, $ V \stackrel{\circ} $ maps to $\bullet$.
+
+   $$ 
+     (\exists\; U \stackrel{\circ}\supseteq F,\; U \cap G = \empty) 
+     \;\vee\; 
+     (\exists\; V \stackrel{\circ}\supseteq G,\; F \cap V = \empty) 
+     \,.
+   $$
+
+   In terms of arrows,   $S_{F,G}: S \longrightarrow  \{F\leftrightarrow \bullet \leftrightarrow G \}$ factors either as 
+
+   $$ S_{F,G}: S \longrightarrow   \{F \leftrightarrow U \stackrel{\circ} \searrow \bullet \leftrightarrow G\} \longrightarrow  \{F\leftrightarrow  U \stackrel{\circ}=\bullet \leftrightarrow G \}$$ 
+
+   or 
+
+   $$ 
+     S_{F,G}
+      \colon 
+     S \longrightarrow  \{F \leftrightarrow \bullet \swarrow V \stackrel{\circ} \leftrightarrow G \} 
+       \longrightarrow
+     \{F \leftrightarrow \bullet = V \stackrel{\circ} \leftrightarrow G \}   
+   $$ 
+
+   where $U \stackrel{\circ}$, $ V \stackrel{\circ} $ maps to $\bullet$.
    Notice that topologically disjoint sets must be disjoint.
 
 *  They are __separated__ if each set has a neighbourhood that is disjoint from the other set:
-   $$ (\exists\; U \stackrel{\circ}\supseteq F,\; U \cap G = \empty) \;\wedge\; (\exists\; V \stackrel{\circ}\supseteq G,\; F \cap V = \empty)
-   \;\;\equiv\;\;
-   \exists\; U \stackrel{\circ}\supseteq F,\; \exists\; V \stackrel{\circ}\supseteq G,\; U \cap G = \empty \;\wedge\; F \cap V = \empty .$$
+ 
+   $$ 
+     (\exists\; U \stackrel{\circ}\supseteq F,\; U \cap G = \empty)    
+        \;\wedge\; 
+     (\exists\; V \stackrel{\circ}\supseteq G,\; F \cap V = \empty)
+         \;\;\equiv\;\;
+     \exists\; U \stackrel{\circ}\supseteq F,\; \exists\; V \stackrel{\circ}\supseteq G,\; U \cap G = \empty \;\wedge\; F \cap V = \empty 
+     \,.
+   $$
    
-   In terms of arrows,   $S_{F,G}: S \longrightarrow  \{F\leftrightarrow \bullet \leftrightarrow G \}$ factors both as $$ S_{F,G}: S \longrightarrow   \{F \leftrightarrow U \stackrel{\circ} \searrow \bullet \leftrightarrow G\} \longrightarrow  \{F\leftrightarrow  U \stackrel{\circ}=\bullet \leftrightarrow G \}$$
-and as $$ S_{F,G}: S \longrightarrow  \{F \leftrightarrow \bullet \swarrow V \stackrel{\circ} \leftrightarrow G \} \longrightarrow \{F \leftrightarrow \bullet = V \stackrel{\circ} \leftrightarrow G \} $$ where
-    $ U \stackrel{\circ}$, $ V \stackrel{\circ} $ maps to $\bullet$.
+   In terms of arrows,   $S_{F,G}: S \longrightarrow  \{F\leftrightarrow \bullet \leftrightarrow G \}$ factors both as 
+
+   $$ 
+     S_{F,G}
+       \colon 
+     S \longrightarrow  \{F \leftrightarrow U \stackrel{\circ} \searrow \bullet \leftrightarrow G\} \longrightarrow  \{F\leftrightarrow  U \stackrel{\circ}=\bullet \leftrightarrow G \}
+   $$
+
+   and as 
+  
+   $$ 
+     S_{F,G}
+       \colon 
+     S \longrightarrow  \{F \leftrightarrow \bullet \swarrow V \stackrel{\circ} \leftrightarrow G \} \longrightarrow \{F \leftrightarrow \bullet = V \stackrel{\circ} \leftrightarrow G \} 
+   $$ 
+
+   where $ U \stackrel{\circ}$, $V \stackrel{\circ} $ maps to $\bullet$.
    Notice that separated sets must be topologically disjoint.
 
 *  {#SeparatedByNeighbourhoods} They are __separated by neighbourhoods__ if they have disjoint neighbourhoods:
