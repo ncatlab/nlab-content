@@ -67,6 +67,12 @@ a [[homeomorphism]] of pointed [[topological space]]s
 The definition of coordinate free spectrum directly generalizes to that of genuine [[G-spectrum]] modeled on a [[G-universe]], leading from [[stable homotopy theory]] to [[equivariant stable homotopy theory]].
 
 =--
+
+## Related concepts
+
+* [[excisive functor]]
+
+* [[functor with smash product]]
   
 ## References 
 
