@@ -175,6 +175,8 @@ See also [[localization of a simplicial model category]].
 
     * [[p-localization]]
 
+* [[colocalization]]
+
 ## References
 
 The classical reference to localization for categories is the book by Gabriel and Zisman:
