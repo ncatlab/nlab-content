@@ -1,4 +1,9 @@
 
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
 
 Given a [[metric space]] $(X,d)$, the _metric topology_ on $X$ is the structure of a [[topological space]] on $X$ which is generated from the [[basis of a  topology]] given by the [[open balls]] 
 
@@ -8,3 +13,6 @@ $$
 
 for all $x \in X$ and $r \in (0,\infty) \subset \mathbb{R}$.
 
+## Related concepts
+
+* [[continuous function]]
