@@ -87,7 +87,7 @@ $$
   \Gamma \longrightarrow \overline{\Gamma}
 $$
 
-is an $A$-bimodule homomorphism. Moreover, coproduct $\Psi \;\colon\; \Gamma \longrightarrow \Gamma \otimes_A \Gamma$ descends to a coproduct $\overline{\Gamma} \;\colon\; \overline{\Gamma} \longrightarrow \overline{\Gamma} \otimes_A \overline{\Gamma}$ such that the projection intertwines the two coproducts.
+is an $A$-bimodule homomorphism. Moreover, the coproduct $\Psi \;\colon\; \Gamma \longrightarrow \Gamma \otimes_A \Gamma$ descends to a coproduct $\overline{\Gamma} \;\colon\; \overline{\Gamma} \longrightarrow \overline{\Gamma} \otimes_A \overline{\Gamma}$ such that the projection intertwines the two coproducts.
 
 =--
 
