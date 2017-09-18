@@ -26,3 +26,4 @@ Some other examples are related to [[Witt-Burnside functors]], Witt rings in the
 * {#AB15} [[Vigleik Angeltveit]] and [[Anna Marie Bohmann]], _Graded Tambara Functors_, ([arXiv:1504.00668](http://arxiv.org/abs/1504.00668))
 [[!redirects Tambara functors]]
 * {#Ull13} [[John Ullman]], _Tambara Functors and Commutative Ring Spectra_, ([arXiv:1304.4912](http://arxiv.org/abs/1304.4912))
+* [[Michael Hill]], _Derived Equivariant Algebraic Geometry_, ([lecture and notes](https://www.msri.org/workshops/689/schedules/18236))
