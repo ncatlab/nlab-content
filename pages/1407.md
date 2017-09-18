@@ -83,6 +83,27 @@ These aspects have motivated the impression that the string perturbation series 
 
 While therefore the premise of perturbative string theory is conceptually suggestive for various reasons, there is to date no connection to experimental [[phenomenology]] (apart from the fact that conceptual insights into string theory have helped analyze quantum field theoretic data, see at _[[string theory results applied elsewhere]]_). As a result much of the substantial outcome of string theory research is more in [[mathematical physics]] (if done well, at least), exploring the general theory space of [[quantum field theories]] and their [[UV-completions]], than in realistic [[model (in theoretical physics)|model building]] (though there is no lack of trying), where it remains very speculative. This has led to public or semi-public debates about the value of string theory for actual physics. See at _[[criticism of string theory]]_ for pointers.
 
+### Scales and (no) parameters
+ {#Scales}
+
+
+* [[string tension]] $T = 1/(2\pi \alpha')$
+
+* string scale $l_s = \sqrt{\alpha'}$
+
+* string [[coupling constant]] $g_s = e^\lambda$ 
+ 
+  (= radius of [[M-theory]] compactification circle ([Witten 95](http://ncatlab.org/nlab/show/M-theory#Witten95)))
+
+* [[coupling constant]] of [[gravity]]: $\kappa \propto g_s (\alpha')^6 = g_s l_s^{12}$
+
+* [[Newton's constant]] (before compactification) $G_N = \kappa^2/8\pi$
+
+* [[Planck length]] $l_P = (8 \pi G_N)^{1/24} = \kappa^{1/12} \propto l_s g_s^{1/12}$
+
+* [[Planck mass]] $M_p = l_p^{-1}$
+
+(see e.g. [arXiv:0908.0333](http://arxiv.org/abs/0908.0333))
 
 
 
@@ -110,6 +131,8 @@ The [[action functional]] for the [[string]]-[[sigma model]] in general has a [[
       A more detailed analysis of these type II anomalies is in ([DFMI](#DFMI)) and ([DFMII](#DFMII)).
 
       See also _[[Diaconescu-Moore-Witten anomaly]]_.
+
+
 ## Subtopics
 
 
@@ -248,6 +271,7 @@ The [[action functional]] for the [[string]]-[[sigma model]] in general has a [[
 
 * [[Veneziano amplitude]]
 
+
 * [[string scattering amplitude]]
 
 * [[p-adic string theory]]
@@ -293,6 +317,7 @@ A large body of references is organized at the
 For another list of literature see the entry
 
 * [[books about string theory]].
+
 
 A useful survey of the status of string theory as a theory of [[quantum gravity]] is in
 
