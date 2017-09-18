@@ -39,7 +39,7 @@ See
 
 for a survey of his academic path and work. See also
 
-* Interview by Felice Cardone, March 2013 ([pdf](http://conceptualmathematics.files.wordpress.com/2013/02/lawvereinterview.pdf))
+* Interview by Felice Cardone, March 2013 ([link](https://dl.dropboxusercontent.com/u/92056191/Archive/temporary_new_material/lawvere-cardone-2000.html))
 
 for an interview on his contributions to [[categorical logic]].
 
@@ -58,7 +58,7 @@ Lawvere invented [[categorical logic]] and introduced the eponymous [[Lawvere th
 
 
 
-### Mathematics relating to Phyiscs
+### Mathematics relating to Physics
  {#MotivationFromFoundationsOfPhysics}
 
 A central motivation for Lawvere's work is the search for a good  mathematical [[foundations]] of [[physics]], specifically of ([[classical physics|classical]]) [[continuum mechanics]] (or at least some [[kinematics|kinematical]] aspects thereof, Lawvere does not seem to mention [[Hamiltonians]], [[Lagrangians]] or [[action functionals]]).
