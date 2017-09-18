@@ -65,7 +65,7 @@ In the context of [[differential geometry]] the comonad structure on the jet bun
 
 Discussion in [[synthetic differential geometry]] is in
 
-* {#Kock10} [[Anders Kock]], remark 7.3.1_Synthetic geometry of manfiolds_, Cambridge Tracts in Mathematics 180 (2010). ([pdf](http://home.imf.au.dk/kock/SGM-final.pdf))
+* {#Kock10} [[Anders Kock]], remark 7.3.1 _Synthetic geometry of manifolds_, Cambridge Tracts in Mathematics 180 (2010). ([pdf](http://home.imf.au.dk/kock/SGM-final.pdf))
 
 
 In the conext of [[algebraic geometry]] and [[D-geometry]] the comonad structure is observed in 
