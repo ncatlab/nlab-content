@@ -210,6 +210,17 @@ $$
   \,.
 $$
 
+For $f\colon X\to Y$ a morphism in $\mathcal{C}$, we write
+
+$$
+  \epsilon_f
+  \colon
+  \underset{f}{\sum}f^\ast (-)
+  \longrightarrow
+  (-)
+$$
+
+for the [[counit of an adjunction|adjunction counit]] of $(\sum_f \dashv f^\ast)$.
 
 Notice that $\underset{f}{\sum}$ has the interpretation of summing over all the [[fibers]] of the morphism $f$, as the elements in its [[codomain]] vary. Therefore it is sometime suggestive to use the notation
 
@@ -488,6 +499,29 @@ This is semantics for linear homotopy type theory in the sense of def. \ref{Sema
 
 =--
 
++-- {: .num_remark}
+###### Remark
+
+In the case that $E = \mathbb{S}$ is the [[sphere spectrum]], then $\mathbb{S}Mod \simeq Spectra$ is just the plain [[(∞,1)-category of spectra]] and then the above is the theory of plain [[parameterized spectra]].
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+The $\Sigma$-functor, def.\ref{Sigma}, in the model of parameterized $E$-module spectra, prop. \ref{ParameterizedModuleSpectra}, is the [[suspension spectrum]] construction $\Sigma^\infty$ followed by [[smash product]] of spectra with $E$:
+
+$$
+  \Sigma(X) \simeq \Sigma^\infty(X)\wedge E
+  \,.
+$$
+
+This is the $E$-[[generalized homology]]-spectrum of the [[∞-groupoid]] $X$.
+
+This construction does have a [[right adjoint]] $\Omega^\infty$, where $(\Sigma^\infty \dashv \Omega^\infty)$ is the $E$-[[stabiliziation]]-adjunction for [[∞Grpd]]. Hence [[parameterized spectra]] form a model of linear homotopy type theory that has an [[exponential modality]], def. \ref{SemanticsForExponentialModality}.
+
+=--
+
 +-- {: .num_prop #ParameterizedModuleSpectra}
 ###### Proposition
 
@@ -626,7 +660,7 @@ If there is only the [[strong monoidal functor]] $\Sigma \;\colon\; \mathcal{C} 
 
 In ([Ponto-Shulman 12](#PontoShulman12)) it is observed that this in turn is canonically induced if $Mod(\ast)$ is the [[linear type theory]] over the trivial context $\ast$ of a dependent linear type theory ([[indexed closed monoidal category]]) with category of contexts being $\mathcal{C}$: 
 
-+-- {: .num_dern }
++-- {: .num_defn #Sigma}
 ###### Definition
 
 Let $Mod \colon \mathcal{C}^{op} \to MonCat$ be semantics for dependent linear type theory, def. \ref{SemanticsForDependentLinearTypeTheory}. Then for $X \in \mathcal{C}$ an object, set
@@ -635,33 +669,81 @@ Let $Mod \colon \mathcal{C}^{op} \to MonCat$ be semantics for dependent linear t
 $$
   \Sigma(X) \coloneqq \underset{X}{\sum} 1_X
   \in Mod(\ast)
-  \,,
 $$
 
-spring
-
-and to set for $\phi \;\colon\; X \longrightarrow Y$ any [[morphism]] in $S$
+and for $f \;\colon\; Y \longrightarrow X$ a [[morphism]] in $\mathcal{C}$ set
 
 $$
-  \Sigma(\phi) 
+  \Sigma(f) 
     \coloneqq 
-   \Sigma(X)
+   \Sigma(Y)
     =
-  (\pi_X)_! (\pi_X)^\ast 1_\ast
+  \underset{Y}{\sum} 1_Y
   \stackrel{\simeq}{\to}
-  (\pi_Y)_! \phi_! \phi^\ast (\pi_Y)^\ast 1_\ast
-  \stackrel{(\phi_Y)_!(\epsilon_\phi)}{\longrightarrow}
-  (\pi_Y)_! \phi_! (\pi_Y)^\ast 1_\ast
+  \underset{X}{\sum} \underset{f}{\sum} f^\ast 1_X
+  \stackrel{\underset{X}{\sum}(\epsilon_f)}{\longrightarrow}
+  \underset{X}{\sum} 1_X
   =
-  \Sigma(Y)
+  \Sigma(X)
   \,.
 $$
 
+=--
+
 (In the typical kind of model this means to assign to a [[space]] $X$ the linear space of [[sections]] of the trivial [[line bundle]] over it.)
 
-One checks that this indeed makes $\Sigma$ be a [[strong monoidal functor]] ([Ponto-Shulman 12, (4.3)](#PontoShulman12)).
++-- {: .num_prop #SigmaFunctor}
+###### Proposition
 
-The condition that this $\Sigma$ (and its relative/dependent versions) has a [[right adjoint]] may also be understood as saying that the dependent linear type theory satisfies the _[[axiom of comprehension]]_. See at _[comprehension -- Examples -- In dependent linear type theory](http://ncatlab.org/nlab/show/axiom+of+separation#ExamplesDependentLinearTypeTheory)_ for more.
+The construction in def. \ref{Sigma} gives a [[strong monoidal functor]]
+
+$$
+  \Sigma
+  \;\colon\;
+  \mathcal{C}
+  \longrightarrow
+  Mod(\ast)
+$$
+
+=--
+
+This is ([Ponto-Shulman 12, (4.3)](#PontoShulman12)). 
+
++-- {: .num_remark }
+###### Remark
+
+Below in example \ref{SigmaFunctorAsSecondaryTransform} we see that the functor $\Sigma$ in prop. \ref{SigmaFunctor} is a special case of a general construction of secondary integral trasnforms axiomatized in dependent linear type theory.
+
+=--
+
+
+This suggests the following definition.
+
++-- {: .num_defn #SemanticsForExponentialModality}
+###### Definition
+
+Given semantics for dependent linear type theory, def. \ref{SemanticsForDependentLinearTypeTheory} such that the functor $\Sigma$ from prop. \ref{SigmaFunctor} has a strong monoidal [[right adjoint]]
+
+$$
+  \Omega \colon Mod(\ast) \longrightarrow \mathcal{C}
+$$
+
+we say that _semantics for the [[exponential modality]]_ in the [[linear type theory]] over the point, whose semantics is $Mod(\ast)$, is the  [[comonad]] of the $(\Sigma \dashv \Omega)$-[[adjunction]]
+
+$$
+  ! \coloneqq \Sigma \circ \Omega \colon Mod(\ast) \to Mod(\ast)
+  \,.
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+
+The condition in def. \ref{SemanticsForExponentialModality} that $\Sigma$ (and its relative/dependent versions) has a [[right adjoint]] $\Omega$ may also be understood as saying that the dependent linear type theory satisfies the _[[axiom of comprehension]]_. See at _[comprehension -- Examples -- In dependent linear type theory](http://ncatlab.org/nlab/show/axiom+of+separation#ExamplesDependentLinearTypeTheory)_ for more.
+
+=--
 
 ### Dependent linear deMorgan duality
 
@@ -942,7 +1024,7 @@ This is conceptually just how the [[path integral]] in [[physics]] is supposed t
 
 =--
 
-+-- {: .num_example }
++-- {: .num_example #SigmaFunctorAsSecondaryTransform}
 ###### Example
 
 Consider the special case def. \ref{SIT} where the right leg of the correspondence is the identity
@@ -968,19 +1050,26 @@ Then the associated secondary integral transform, def. \ref{SIT}, is the morphis
 
 $$
   \underset{X}{\sum} 1_X
-  \stackrel{\underset{\epsilon}{\sum}}{\longleftarrow}
+  \stackrel{\underset{\epsilon_f}{\sum}}{\longleftarrow}
   \underset{X}{\sum} \underset{f}{\sum} f^\ast 1_X 
   \stackrel{\simeq}{\longleftarrow}
   \underset{Z}{\sum} 1_Z
+  \,.
 $$
 
-which is just the functoriality of the left adjoint $L$ that gives [[exponential modality]] in the interpretation by Ponto-Shulman [above](#TheCanonicalComodality)
+This is just the $\Sigma$-functor of def. \ref{Sigma}:
 
 
-$$
-  L(X)
-  \stackrel{L(f)}{\longleftarrow}
-  L(Z)
+$$ 
+  \mathbb{D}\int_Z id d\mu_f
+  =
+  \Sigma(f)
+  \;
+  \colon
+  \;
+  \Sigma(Z)
+  \stackrel{\Sigma(f)}{\longleftarrow}
+  \Sigma(X)
   \,.
 $$
 
