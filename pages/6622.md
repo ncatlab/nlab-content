@@ -1,4 +1,4 @@
->+-- {: .rightHandSide}
++-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
 #### Monoidal categories
