@@ -59,7 +59,9 @@ Notice that this would mean that baryons "are" a kind of topological twist, diff
 That this process was at least one source of baryogenesis in the early universe is plausible but not certain. The process is heavily suppressed by inverse energy/temperature (e.g. [Dine 90, around (9)](#Dine90)) and out of reach of conceivable experiments in the present age of the universe, but plausibly may have occured in the very early universe -- just as it should be for realistic baryogenesis.
 
 
+## Related concepts
 
+* [[leptogenesis]]
 
 ## References
 
