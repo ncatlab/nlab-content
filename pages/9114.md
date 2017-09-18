@@ -777,9 +777,9 @@ A ([[small category|small]]) _[[groupoid]]_ $\mathcal{G}_\bullet$ is
   $$
     \array{
       \mathcal{G}_1 \times_{\mathcal{G}_0} \mathcal{G}_1
-      &\stackrel{\circ}{\to}&
+      &\stackrel{\circ}{\longrightarrow}&
       \mathcal{G}_1
-      & \stackrel{\overset{t}{\to}}{\stackrel{\overset{i}{\leftarrow}}{\underset{s}{\to}}}&
+      & \stackrel{\overset{t}{\longrightarrow}}{\stackrel{\overset{i}{\leftarrow}}{\underset{s}{\longrightarrow}}}&
       \mathcal{G}_0
     }\,,
   $$
@@ -845,9 +845,9 @@ $$
   \left(
     X 
     \stackrel
-    {\overset{id}{\to}}
+    {\overset{id}{\longrightarrow}}
     {
-      \stackrel{\overset{id}{\leftarrow}}{\underset{id}{\to}}
+      \stackrel{\overset{id}{\longleftarrow}}{\underset{id}{\longrightarrow}}
     }
    X
   \right)
@@ -1948,7 +1948,7 @@ $$
   \,,
 $$
 
-where the function corresponding to this homotopy is that given by the unique factorization through the [[homotopy fiber product] $\flat U(1) \simeq \ast \underset{\mathbf{B}\flat U(1)}{\times} \ast$ (example \ref{LoopSpaceGroupoid}) as shown on the right of 
+where the function corresponding to this homotopy is that given by the unique factorization through the [[homotopy fiber product]] $\flat U(1) \simeq \ast \underset{\mathbf{B}\flat U(1)}{\times} \ast$ (example \ref{LoopSpaceGroupoid}) as shown on the right of 
 
 $$
   \array{
@@ -2437,6 +2437,7 @@ This is easy to see in low dimensions:
 
   $$
     x \stackrel{\phi}{\to} y
+
     \,.
   $$
 
