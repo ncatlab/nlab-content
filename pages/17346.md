@@ -999,10 +999,14 @@ We discuss now how, under favorable conditions, these hom-groups may alternative
 
 The condition needed for this to work is the following.
 
+
+
+##### Flat homotopy ring spectra
+
 +-- {: .num_defn #FlatE}
 ###### Definition
 
-Call a [[homotopy commutative ring spectrum]] $(E,\mu,e)$ ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyCommutativeRingSpectrum)) **flat** if the right $\pi_\bullet(E)$-[[module]] structure on $E_\bullet(E)$ ([prop.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyGroupsOfHomotopyCommutativeRingSpectrum)) is a [[flat module]].
+Call a [[homotopy commutative ring spectrum]] $(E,\mu,e)$ ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyCommutativeRingSpectrum)) **flat** if the canonical right $\pi_\bullet(E)$-[[module]] structure on $E_\bullet(E)$ ([prop.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyGroupsOfHomotopyCommutativeRingSpectrum)), equivalently the canonical left module struture (prop. \ref{EETwoLeftModuleStructures}) is a [[flat module]].
 
 
 =--
@@ -1024,14 +1028,14 @@ $E = $
 
 =--
 
-([Adams 69, lemma 28](#Adams69))
+([Adams 69, lecture 1, lemma 28 (p. 45)](#Adams69))
 
 +-- {: .proof}
-###### Proof
+###### Proof of the first two items
 
-For $\mathbb{S}$ we have $\mathbb{S}_\bullet(\mathbb{S}) \coloneqq \pi_\bullet(\mathbb{S} \wedge \mathbb{S}) \simeq \pi_\bullet(\mathbb{S})$, since the [[sphere spectrum]] $\mathbb{S}$ is the [[tensor unit]] for the derived [[smash product of spectra]] ([cor.](Introduction+to+Stable+homotopy+theory+--+1-2#MonoidalStableHomotopyCategory)). Hence the statement follows since every ring is, clearly, flat over itself.
+For $E = \mathbb{S}$ we have $\mathbb{S}_\bullet(\mathbb{S}) \coloneqq \pi_\bullet(\mathbb{S} \wedge \mathbb{S}) \simeq \pi_\bullet(\mathbb{S})$, since the [[sphere spectrum]] $\mathbb{S}$ is the [[tensor unit]] for the derived [[smash product of spectra]] ([cor.](Introduction+to+Stable+homotopy+theory+--+1-2#MonoidalStableHomotopyCategory)). Hence the statement follows since every ring is, clearly, flat over itself.
 
-For $H \mathbb{F}_p$ we have that $\pi_\bullet(H \mathbb{F}_p) \simeq \mathbb{F}_p$ ([prop.](Introduction+to+Stable+homotopy+theory+--+1-2#StableHomotopyGroupsOfEMSpectrum)), hence a [[field]] (a [[prime field]]). Every module over a field is a [[projective module]] ([prop.](projective+module#ModuleOverAFieldIsProjective)) and every projective module is flat ([prop.](flat+module#ProjectiveModulesAreFlat)).
+For $E = H \mathbb{F}_p$ we have that $\pi_\bullet(H \mathbb{F}_p) \simeq \mathbb{F}_p$ ([prop.](Introduction+to+Stable+homotopy+theory+--+1-2#StableHomotopyGroupsOfEMSpectrum)), hence a [[field]] (a [[prime field]]). Every module over a field is a [[projective module]] ([prop.](projective+module#ModuleOverAFieldIsProjective)) and every projective module is flat ([prop.](flat+module#ProjectiveModulesAreFlat)).
 
 =--
 
@@ -1045,37 +1049,424 @@ Examples of ring spectra that are _not_ flat in the sense of def. \ref{FlatE} in
 
 The key consequence of the assumption that $E$ is flat in the sense of def. \ref{FlatE} is the following.
 
-+-- {: .num_prop #FlatnessOfEImpliesKeyConsequence}
++-- {: .num_prop #EnHomology}
 ###### Proposition
 
-For $E$ a [[homotopy commutative ring spectrum]] which is flat according to def. \ref{FlatE}, then for all spectra $X \in Ho(Spectra)$ the canonical morphism 
+Let $(E,\mu,e)$ be a [[homotopy commutative ring spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyCommutativeRingSpectrum)) and let $X \in Ho(Spectra)$ be any [[spectrum]]. Then there is a [[homomorphism]] of [[graded abelian groups]] of the form
 
 $$
-  E_\bullet(E) \otimes_{\pi_\bullet(E)} E_\bullet(X)
-    \stackrel{}{\longrightarrow}
+  E_\bullet(E)
+   \otimes_{\pi_\bullet(E)}
+  E_\bullet(X)
+    \longrightarrow
+  [\mathbb{S}, E \wedge E \wedge X]_\bullet
+  =
   \pi_\bullet(E \wedge E \wedge X)
 $$
 
-is a [[natural isomorphism]].
+(for $E_\bullet(-)$ the canonical $\pi_\bullet(E)$-modules from [this prop.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyGroupsOfHomotopyCommutativeRingSpectrum))  given on elements
 
+$$
+  \Sigma^{n_1}\mathbb{S}
+   \overset{\alpha_1}{\longrightarrow}
+  E \wedge E
+  \;\;\,,
+  \;\;
+  \Sigma^{n_2} \mathbb{S}
+    \overset{\alpha_2}{\longrightarrow}
+  E \wedge X
+$$
+
+by
+
+$$
+  \alpha_1 \cdot \alpha_2
+    \;\colon\;
+  \Sigma^{n_1 + n_2}\mathbb{S}
+    \overset{\simeq}{\longrightarrow}
+  \Sigma^{n_1} \mathbb{S} \wedge \Sigma^{n_2}\mathbb{S}
+    \overset{\alpha_1 \wedge \alpha_2}{\longrightarrow}
+  E \wedge E \wedge E \wedge X
+    \overset{id_E \wedge \mu \wedge id_X}{\longrightarrow}
+  E \wedge E \wedge X
+  \,.
+$$
+
+If $E_\bullet(E)$ is a [[flat module]] over $\pi_\bullet(E)$ then this is an [[isomorphism]].
 
 =--
 
-(e.g. [Adams 74, part III, lemma 12.5](#Adams74), [Schwede 12, prop. 6.20](#Schwede12))
+
+([Adams 69, lecture 3, lemma 1 (p. 68)](#Adams69), [Adams 74, part III, lemma 12.5](#Adams74))
 
 +-- {: .proof}
 ###### Proof
 
-See the proof of [this prop.](Introduction+to+Stable+homotopy+theory+--+1-2#EnHomology).
+First of all, that the given pairing is a well defined homomorphism (descends from $E_\bullet(E) \times E_\bullet(X)$ to $E_\bullet(E) \otimes_{\pi_\bullet(E)} E_\bullet(X)$) follows from the associativity of $\mu$.
+
+We discuss that it is an isomorphism when $E_\bullet(E)$ is flat over $\pi_\bullet(E)$:
+
+First consider the case that $X \simeq \Sigma^{n} \mathbb{S}$ is a suspension of the [[sphere spectrum]]. Then 
+
+$$
+  E_\bullet(X) = E_\bullet(\Sigma^n X) \simeq \pi_{\bullet-n}(E)
+$$ 
+
+and 
+
+$$
+  \pi_\bullet(E \wedge E \wedge X) 
+    =
+  \pi_\bullet(E \wedge E \wedge \Sigma^n \mathbb{S})
+    \simeq 
+  E_{\bullet-n}(E)
+$$ 
+
+and 
+
+$$
+  E_\bullet(E) \otimes_{\pi_\bullet(E)} \pi_{\bullet-n}(E)
+    \simeq
+  E_{\bullet-n}(E)
+$$
+
+Therefore in this case we have an isomorphism for all $E$.
+
+For general $X$, we may without restriction assume that $X$ is represented by a sequential [[CW-spectrum]] ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#CWApproximationForSequentialSpectra)). Then the [[homotopy cofibers]] of its cell attachment maps are suspensions of the [[sphere spectrum]] ([rmk.](Introduction+to+Stable+homotopy+theory+--+1-1#StrictModelStructureCellAttachmentToSpectra)).
+
+First consider the case that $X$ is a CW-spectrum with finitely many cells. Consider the [[homotopy cofiber sequence]] of the $(k+1)$st cell attachment (by that [remark](Introduction+to+Stable+homotopy+theory+--+1-1#StrictModelStructureCellAttachmentToSpectra)):
+
+$$
+  \array{
+    \Sigma^{n_k-1}\mathbb{S}
+      &\longrightarrow&
+    X_k
+      &\longrightarrow&
+    X_{k+1}
+      &\longrightarrow&
+    \Sigma^{n_k}\mathbb{S}
+      &\longrightarrow&
+    \Sigma X_k
+  }
+$$
+
+and its image under the natural morphism $E_\bullet(E) \otimes_{\pi_\bullet(E)}E_\bullet(-) \to \pi_\bullet([\mathbb{S}, E \wedge E \wedge (-)])$, which is a [[commuting diagram]] of the form
+
+$$
+  \array{
+    E_\bullet(E) \otimes_{\pi_\bullet(E)}E_\bullet(\Sigma^{n_k-1}\mathbb{S})
+      &\longrightarrow&
+    E_\bullet(E) \otimes_{\pi_\bullet(E)}E_\bullet(X_k)
+      &\longrightarrow&
+    E_\bullet(E) \otimes_{\pi_\bullet(E)}E_\bullet(X_{k+1})
+      &\longrightarrow&
+    E_\bullet(E) \otimes_{\pi_\bullet(E)}E_\bullet(\Sigma^{n_k}\mathbb{S})
+      &\longrightarrow&
+    E_\bullet(E) \otimes_{\pi_\bullet(E)}E_\bullet(\Sigma X_k)
+    \\
+    \downarrow
+      &&
+    \downarrow
+      &&
+    \downarrow
+      &&
+    \downarrow
+      &&
+    \downarrow
+    \\
+    [\mathbb{S}, E \wedge E \wedge \Sigma^{n_k-1}\mathbb{S}]_\bullet
+      &\longrightarrow&
+    [\mathbb{S}, E \wedge E \wedge X_k]_{\bullet}
+      &\longrightarrow&
+    [\mathbb{S}, E \wedge E \wedge X_{k+1}]_{\bullet}
+      &\longrightarrow&
+    [\mathbb{S}, E \wedge E \wedge \Sigma^{n_k}\mathbb{S}]_{\bullet}
+      &\longrightarrow&
+    [\mathbb{S}, E \wedge E \wedge \Sigma X_k]_{\bullet}
+  }
+  \,.
+$$
+
+Here the  bottom row is a [[long exact sequence]] since $E \wedge E \wedge (-)$ preserves homotopy cofiber sequences (by [this lemma](Introduction+to+Stable+homotopy+theory+--+1-2#SmashTensoringWithSpectrumDerivedPreserveshomotopycofibers), part of the [[tensor triangulated category|tensor triangulated]] structure on $Ho(Spectra)$ [prop.](Introduction+to+Stable+homotopy+theory+--+1-2#TensorTriangulatedStructureOnStableHomotopyCategory)), and since $[\mathbb{S},-]_\bullet \simeq \pi_\bullet(-)$ sends homtopy cofiber sequences to [[long exact sequences]] ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#LongExactSequenceOfStableHomotopyGroups)). By the same reasoning, $E_\bullet(-)$ of the homotopy cofiber sequence is long exact; and by the assumption that $E_\bullet(E)$ is [[flat module|flat]], the functor $E_\bullet(E)\otimes_{\pi_\bullet(E)}(-)$ preserves this exactness, so that also the top row is a [[long exact sequence]].
+
+Now by [[induction]] over the cells of $X$, the outer four vertical morphisms are [[isomorphisms]]. Hence the [[5-lemma]] implies that also the middle morphism is an isomorphism.
+
+This shows the claim inductively for all finite CW-spectra. For the general statement, now use that
+
+1. every CW-spectrum is the [[filtered colimit]] over its finite CW-subspectra;
+
+1. the [[symmetric monoidal smash product of spectra]] $\wedge$ ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#SsymModuleSymmetricSpectra)) preserves colimits in its arguments separately (since it has a [[right adjoint]] ([prop.](Introduction+to+Stable+homotopy+theory+--+1-2#MonoidalCategoryOfModules)));
+
+1. $[\mathbb{S},-]_\bullet \simeq \pi_\bullet(-)$ commutes over filtered colimits of CW-spectrum inclusions (by [this lemma](Introduction+to+Stable+homotopy+theory+--+P#CompactSubsetsAreSmallInCellComplexes), since spheres are [[compact topological space|compact]]);
+
+1. $E_\bullet(E) \otimes_{\pi_\bullet(E)}(-)$ distributes over colimits (it being a [[left adjoint]]).
+
+
 
 =--
 
-Using prop. \ref{FlatnessOfEImpliesKeyConsequence}, we find below (prop. \ref{ComoduleHomsInE1PageOfEAdamsSpectralSequence}) that the first page of the $E$-Adams spectral sequence may be equivalently rewritten as hom-groups of [[comodules]] over $E_\bullet(E)$ regarded as a [[graded commutative Hopf algebroid]]. We now first discuss what this means. 
+Using prop. \ref{EnHomology}, we find below (prop. \ref{ComoduleHomsInE1PageOfEAdamsSpectralSequence}) that the first page of the $E$-Adams spectral sequence may be equivalently rewritten as hom-groups of [[comodules]] over $E_\bullet(E)$ regarded as a [[graded commutative Hopf algebroid]]. We now first discuss what this means. 
 
 
-##### Garded commutative Hopf algebroids
+##### The $E$-Steenrod algebra
+ {#DualESteenrodAlgebra}
 
-The dual $E$-[[Steenrod algebras]] that we consider [below](#DualESteenrodAlgebra) are not just algebras, but carry a richer alegbraic structure called a _[[commutative Hopf algebroid]] structure_. Below in def. \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents} we say explicitly what this means.  But since it involves a lot of structure, it is useful to know that all this structure is just the dual incarnation of the following simple concept:
+
++-- {: .num_defn #HopfAlgebroidStructureOnDualEOperations}
+###### Definition
+
+Let $(E, \mu, e)$ be a [[homotopy commutative ring spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyCommutativeRingSpectrum)) which is flat according to def. \ref{FlatE}. 
+
+Then the **dual $E$-[[Steenrod algebra]]** is the pair of [[graded abelian groups]]
+
+$$
+  (E_\bullet(E), \pi_\bullet(E))
+$$
+
+([rmk.](Introduction+to+Stable+homotopy+theory+--+1-2#EMHomology)) equipped with the following structure:
+
+1. the [[graded commutative ring]] structure
+
+   $$
+     \pi_\bullet(E) \otimes \pi_\bullet(E)
+       \longrightarrow
+     \pi_\bullet(E)
+   $$
+
+   induced from $E$ being a [[homotopy commutative ring spectrum]] ([prop.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyGroupsOfHomotopyCommutativeRingSpectrum));
+
+1. the [[graded commutative ring]] structure
+
+   $$
+     E_\bullet(E) \otimes E_\bullet(E) \longrightarrow E_\bullet(E)
+   $$
+
+   induced from the fact that with $E$ also $E \wedge E$ is canonically a [[homotopy commutative ring spectrum]] ([exmpl.](Introduction+to+Stable+homotopy+theory+--+1-2#TensorProductOfTwoCommutativeMonoids)), so that also $E_\bullet(E) = \pi_\bullet(E \wedge E)$ is a graded commutative ring ([prop.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyGroupsOfHomotopyCommutativeRingSpectrum));
+
+1. [[homomorphisms]] of graded commutative rings
+
+   $$
+     \eta_L 
+       \;\colon\;
+     \pi_\bullet(E)
+       \longrightarrow
+     E_\bullet(E)
+   $$
+
+   and
+
+   $$
+     \eta_R
+       \;\colon\;
+     \pi_\bullet(E)
+       \longrightarrow
+     E_\bullet(E)
+   $$
+
+   induced from the homomorphisms of commutative ring spectra
+
+   $$
+     E \simeq E \wedge \mathbb{S} 
+       \overset{id \wedge e}{\longrightarrow}
+     E \wedge E
+   $$
+
+   and
+
+   $$
+     E \simeq \mathbb{S} \wedge E
+       \overset{id \wedge e}{\longrightarrow}
+     E \wedge E
+     \,,
+   $$
+
+   respectively ([exmpl.](Introduction+to+Stable+homotopy+theory+--+1-2#TensorProductOfTwoCommutativeMonoids));
+
+1. a homomorphism of graded commutative rings
+
+   $$
+     \epsilon 
+       \;\colon\;
+     E_\bullet(E)
+       \longrightarrow
+     \pi_\bullet(E)
+   $$
+
+   induced from 
+
+   $$
+     \mu \;\colon\;  E \wedge E \longrightarrow E
+   $$
+
+   regarded as a homomorphism of homotopy commutative ring spectra ([exmpl.](Introduction+to+Stable+homotopy+theory+--+1-2#TensorProductOfTwoCommutativeMonoids));
+
+1. a homomorphisms graded rings
+
+   $$
+     c 
+       \;\colon\;
+     E_\bullet(E)
+       \longrightarrow
+     E_\bullet(E)
+   $$
+
+   induced from the [[braiding]]
+
+   $$
+     \tau_{E,E} 
+       \;\colon\; 
+     E \wedge E 
+       \longrightarrow 
+     E \wedge E
+   $$
+
+   regarded as a homomorphism of homotopy commutative ring spectra ([exmpl.](Introduction+to+Stable+homotopy+theory+--+1-2#TensorProductOfTwoCommutativeMonoids));
+
+1. a homomorphism of graded rings
+
+   $$ 
+     \Psi
+       \;\colon\;
+     E_\bullet(E)
+       \longrightarrow
+     E_\bullet(E) \otimes_{\pi_\bullet(E)} E_\bullet(E)
+   $$
+
+   induced from
+
+   $$
+     E \wedge E 
+       \overset{id \wedge e \wedge id}{\longrightarrow}
+     E \wedge E \wedge E
+   $$
+
+   under prop. \ref{EnHomology}.
+
+=--
+
+([Adams 69, lecture 3, pages 66-68](#Adams69))
+
+Notice that (as verified by direct unwinding of the definitions):
+
++-- {: .num_lemma}
+###### Lemma
+
+For $(E, \mu, e)$ a [[homotopy commutative ring spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyCommutativeRingSpectrum)), consider $E_\bullet(E)$ with its canonical left and right $\pi_\bullet(E)$-module structure as in [this prop.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyGroupsOfHomotopyCommutativeRingSpectrum). These module structures coincide with those induced by the ring homomorphisms $\eta_L$ and $\eta_R$ from def. \ref{HopfAlgebroidStructureOnDualEOperations}.
+
+=--
+
+These two actions need not strictly coincide, but they are isomorphic:
+
++-- {: .num_prop #EETwoLeftModuleStructures}
+###### Proposition
+
+For $(E, \mu, e)$ a [[homotopy commutative ring spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyCommutativeRingSpectrum)), consider $E_\bullet(E)$ with its canonical left and right $\pi_\bullet(E)$-module structure ([prop.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyGroupsOfHomotopyCommutativeRingSpectrum)). Since $E$ is a [[commutative monoid]], this right module structure may equivalently be regarded as a left-module, too. Then the [[braiding]]
+
+$$
+  E_\bullet(E)
+   \simeq
+  \pi_\bullet(E \wedge E)
+    \overset{\pi_\bullet(\tau_{E,E})}{\longrightarrow}
+  \pi_\bullet(E \wedge E)
+    \simeq
+  E_\bullet(E)
+$$
+
+constitutes a module isomorphism ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#ModulesInMonoidalCategory)) between these two left module structures.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+On representatives as in the proof of ([this propo.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyGroupsOfHomotopyCommutativeRingSpectrum)), the original left action is given by (we are notationally suppressing [[associators]] throughout)
+
+$$
+  E \wedge E \wedge E
+   \overset{\mu \wedge id}{\longrightarrow}
+  E \wedge E
+  \,,
+$$
+
+while the other left action, induced from the canonical right action, is given by
+
+$$
+  E \wedge E \wedge E
+    \underoverset{\simeq}{\tau_{E, E \wedge E}}{\longrightarrow}
+  E \wedge E \wedge E
+    \overset{id \wedge \mu}{\longrightarrow}
+  E \wedge
+  \,.
+$$
+
+So in order that $\tau_{E,E}$ represents a module homomorphism under $\pi_\bullet(-)$, it is sufficient that the following diagram commutes (we write $E_i \coloneqq E$ for $i \in \{1,2,3\}$ to make the action of the [[braiding]] more manifest)
+
+$$
+  \array{
+    E_1 \wedge E_2 \wedge E_3 
+      &\overset{id \wedge \tau_{E_2,E_3}}{\longrightarrow}&
+    E_1 \wedge E_3 \wedge E_2
+    \\
+    {}^{\mathllap{id}}\downarrow
+      &&
+    \downarrow^{\mathrlap{\tau_{E_1, E_3 \wedge E_2}}}
+    \\
+      &&
+    E_3 \wedge E_2 \wedge E_1
+    \\
+    {}^{\mathllap{\mu \wedge id}}\downarrow
+      &&
+    \downarrow^{\mathrlap{id \wedge \mu}}
+    \\
+    E \wedge E_3 
+     &\underset{\tau_{E,E_3}}{\longrightarrow}&
+    E_3 \wedge E
+  }
+  \,.
+$$
+
+But since $(E,\mu,e)$ is a [[commutative monoid]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#MonoidsInMonoidalCategory)), it satisfies $\mu = \mu \circ \tau$ so that we may factor this diagram as follows:
+
+$$
+  \array{
+    E_1 \wedge E_2 \wedge E_3 
+      &\overset{id \wedge \tau_{E_2,E_3}}{\longrightarrow}&
+    E_1 \wedge E_3 \wedge E_2
+    \\
+    {}^{\mathllap{\tau_{E_1, E_2} \wedge id}}\downarrow
+      &&
+    \downarrow^{\mathrlap{\tau_{E_1, E_3 \wedge E_2}}}
+    \\
+    E_2 \wedge E_1 \wedge E_3
+      &\overset{\tau_{E_2 \wedge E_1, E_3}}{\longrightarrow}&
+    E_3 \wedge E_2 \wedge E_1
+    \\
+    {}^{\mathllap{\mu \wedge id}}\downarrow
+      &&
+    \downarrow^{\mathrlap{id \wedge \mu}}
+    \\
+    E \wedge E_3 
+     &\underset{\tau_{E,E_3}}{\longrightarrow}&
+    E_3 \wedge E
+  }
+  \,.
+$$
+
+Here the top square commutes by [[coherence theorem for symmetric monoidal categories|coherence]] of the braiding ([rmk](Introduction+to+Stable+homotopy+theory+--+1-2#SymmetricMonoidalCategoriesCoherenceTheorem)) since both composite morphisms correspond to the same [[permutation]], while the bottom square commutesm due to the [[natural transformation|naturality]] of the braiding. Hence the total rectangle commutes.
+
+=--
+
+
++-- {: .num_example}
+###### Example
+
+Examples of [[commutative ring spectra]] $E$ for which the dual $E$-[[Steenrod algebra]] $E_\bullet(E)$ over $\pi_\bullet(E)$ of def. \ref{HopfAlgebroidStructureOnDualEOperations} where the left and right action of $\pi_\bullet(E)$ are not just isomorphic (via prop. \ref{EETwoLeftModuleStructures}) but actually equal according to remark \ref{HopfAlgebrasAsHopfAlgebroids}, includes the case $E = $ [[HA|H]]$\mathbb{F}_p$.
+
+=--
+
+
+
+The dual $E$-[[Steenrod algebras]] of def. \ref{HopfAlgebroidStructureOnDualEOperations} evidently carry a lot of structure. In concept organizing this is that of_[[commutative Hopf algebroids]]_.
 
 
 +-- {: .num_defn #CommutativeHopfAlgebroid}
@@ -1161,7 +1552,6 @@ and satisfying [[formal duality|formally dual]] conditions, spelled out as def. 
 * $c$ is called the _[[antipode]]_ or _conjugation_
 
 
-
 =--
 
 +-- {: .num_remark #HopfAlgebrasAsHopfAlgebroids}
@@ -1218,13 +1608,93 @@ such that
 
    1. $c\circ \eta_L = \eta_R$; $c \circ \eta_R = \eta_L$;
 
-   1. the universally induced $\nabla_c \colon \Gamma \otimes_A \Gamma \longrightarrow \Gamma$ satifies
+   1. the morphisms $\alpha$ and $\beta$ induced via the [[coequalizer]] property of the [[tensor product]] from $(-) \cdot c(-)$ and $c(-)\cdot (-)$, respectively
 
-      $\nabla_c \circ \Psi = \epsilon \circ \eta_L = \epsilon \circ \eta_R$.
+      $$
+        \array{
+          \Gamma \otimes A \otimes \Gamma
+            &
+            \underoverset
+              {\longrightarrow}
+              {\longrightarrow}
+              {}
+            &
+          \Gamma \otimes \Gamma
+             &
+             \overset{coeq}{\longrightarrow}
+             &
+          \Gamma \otimes_A \Gamma
+           \\
+           &&
+           {}_{\mathllap{(-)\cdot c(-)}}\downarrow 
+           & 
+            \swarrow_{\mathrlap{\alpha}}
+           \\
+           && \Gamma
+        }
+      $$
+
+      and
+
+      $$
+        \array{
+          \Gamma \otimes A \otimes \Gamma
+            &
+            \underoverset
+              {\longrightarrow}
+              {\longrightarrow}
+              {}
+            &
+          \Gamma \otimes \Gamma
+             &
+             \overset{coeq}{\longrightarrow}
+             &
+          \Gamma \otimes_A \Gamma
+           \\
+           &&
+           {}_{\mathllap{c(-)\cdot (-)}}\downarrow 
+           & 
+            \swarrow_{\mathrlap{\beta}}
+           \\
+           && \Gamma
+        }
+      $$
+
+      satisfy 
+
+      $\alpha \circ \Psi = \eta_L \circ \epsilon $
+
+      and
+
+      $\beta \circ \Psi = \eta_R \circ \epsilon $.
    
 =--
 
-##### Comodules and cotensor product
+([Adams 69, lecture 3, pages 62-66](#Adams69), [Ravenel 86, def. A1.1.1](#Ravenel86))
+
+It is now striaghtforward, if somewhat tedious, to check that:
+
++-- {: .num_prop}
+###### Proposition
+
+Let $(E, \mu, e)$ be a [[homotopy commutative ring spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyCommutativeRingSpectrum)) which is flat according to def. \ref{FlatE}, then the dual $E$-[[Steenrod algebra]] $ (E_\bullet(E), \pi_\bullet(E))$ with the
+structure maps $(\eta_L, \eta_R, \epsilon, c, \Psi)$ from prop. \ref{HopfAlgebroidStructureOnDualEOperations} is a graded commutative Hopf algebroid accoring to def. \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents}.
+
+=--
+
+([Adams 69, lecture 3, pages 67-71](#Adams69))
+
+
++-- {: .num_remark}
+###### Remark
+
+In ([Adams 69, lecture 3, page 60](#Adams69)) the terminology used is "Hopf algebra in a fully satisfactory sense" with emphasis that the left and right module structure may differ. Accoring to ([Ravenel 86, first page of appendix A1](#Ravenel86)) the terminology "Hopf algebroid" for this situation is due to [[Haynes Miller]].
+
+=--
+
+
+##### Comodules over the $E$-Steenrod algebra
+
 
 +-- {: .num_defn #HopfComoduleRing}
 ###### Definition
@@ -1482,76 +1952,8 @@ In computing the second page of $E$-[[Adams spectral sequences]], the second sta
 
 
 
-##### The dual $E$-Steenrod algebra
- {#DualESteenrodAlgebra}
 
-
-Now we identify the [[commutative Hopf algebroids]] (def. \ref{CommutativeHopfAlgebroid}) arising in the $E$-Adams spectral sequence (def. \ref{AdamsEAdamsSpectralSequence}):
-
-+-- {: .num_defn #HopfAlgebroidStructureOnDualEOperations}
-###### Definition
-
-Let $(E, \mu, e)$ be a [[homotopy commutative ring spectrum]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyCommutativeRingSpectrum)) which is flat according to def. \ref{FlatE}. 
-
-Then the **dual $E$-[[Steenrod algebra]]** is the [[commutative Hopf algebroid]] $(E_\bullet(E), \pi_\bullet(E))$ (def. \ref{CommutativeHopfAlgebroidDefinitionInExplicitComponents}) equipped with the following structure maps
-
-$$
-  \array{
-    \pi_\bullet(E\wedge E \wedge E) &\simeq& E_\bullet(E) \otimes_{\pi_\bullet(E)} E_\bullet(E)
-    \\
-    \uparrow^{\mathrlap{\pi_\bullet(id \wedge e \wedge id)}}
-    &&
-    \uparrow^{\mathrlap{\Psi}}
-    \\
-    \pi_\bullet(E \wedge E) &=& E_\bullet(E)
-    \\
-    {}^{\mathllap{\pi_\bullet(e \wedge id)}}\uparrow
-     \downarrow^{\mathrlap{\pi_\bullet(\mu)}}
-     \;\;\;\;\;\;
-     \uparrow^{\mathrlap{\pi_\bullet(id \wedge e)}}
-     &&
-     {}^{\mathllap{\eta_L}}\uparrow 
-     \downarrow^{\mathrlap{\epsilon}} 
-     \uparrow^{\mathrlap{\eta_R}}
-    \\
-    \pi_\bullet(E) &=& \pi_\bullet(E)
-  }
-  \,,
-$$
-
-where the horizontal isomorphisms are form prop. \ref{FlatnessOfEImpliesKeyConsequence}.
-
-Analogously for $X \in Ho(Spectra)$ any spectrum then $E_\bullet(X)$ becomes a [[comodule]] over $(E_\bullet(E), \pi_\bullet(E))$ where the [[coaction]] is induced as on the right of the following diagram
-
-$$
-  \array{
-    \pi_\bullet(E\wedge E \wedge X) &\simeq& E_\bullet(E) \otimes_{\pi_\bullet(E)} E_\bullet(X)
-    \\
-    \uparrow^{\mathrlap{\pi_\bullet(id \wedge e \wedge id)}}
-    &&
-    \uparrow^{\mathrlap{\Psi_X}}
-    \\
-    \pi_\bullet(E \wedge X) &=& E_\bullet(X)
-  }
-  \,.
-$$
-
-
-=--
-
-([Adams 69, pages 60-66](#Adams69))
-
-
-
-
-+-- {: .num_example}
-###### Example
-
-Examples of [[commutative ring spectra]] $E$ for which the dual $E$-[[Steenrod algebra]] $E_\bullet(E)$ over $\pi_\bullet(E)$ of def. \ref{HopfAlgebroidStructureOnDualEOperations} happens to be a [[graded commutative Hopf algebra]] over $\pi_\bullet(E)$ instead of a more general [[graded commutative Hopf algebroid]], according to remark \ref{HopfAlgebrasAsHopfAlgebroids}, includes the case $E = $ [[HA|H]]$\mathbb{F}_p$.
-
-=--
-
-##### The first page via homs of Hopf comodules
+##### Universal coefficient theorem
 
 
 The key use of the Hopf coalgebroid structure of prop. \ref{HopfAlgebroidStructureOnDualEOperations} for the present purpose is that it is extra structure inherited by morphisms in $E$-homology from morphisms of spectra.
@@ -1661,7 +2063,7 @@ $$
 
 where 
 
-1. the right vertical map comes from the isomorphism of prop. \ref{FlatnessOfEImpliesKeyConsequence};
+1. the right vertical map comes from the isomorphism of prop. \ref{EnHomology};
 
 1. the bottom isomorphism is the cofree/forgetful [[adjunction]] isomorphism of prop. \ref{CoFreeComodules};
 
@@ -1884,7 +2286,7 @@ The first page is given by prop. \ref{ComoduleHomsInE1PageOfEAdamsSpectralSequen
 
 We show that $E_\bullet(E) CoMod$ is abelian as prop. \ref{CategoryOfHopfComodulesIsAbelianIfHopfAlgebroidIsFlat} below.
 
-By lemma \ref{ResolutionEWp} we already know that $E_\bullet(A_\bullet)$ is a resolution of $E_\bullet(Y)$. By prop. \ref{FlatnessOfEImpliesKeyConsequence} it is a resolution by cofree comodules (def. \ref{CoFreeComodules}). That these are $F$-acyclic we show as prop. \ref{CoFreeHopfComodulesAreHomNAcyclicForProjectiveN} below.
+By lemma \ref{ResolutionEWp} we already know that $E_\bullet(A_\bullet)$ is a resolution of $E_\bullet(Y)$. By prop. \ref{EnHomology} it is a resolution by cofree comodules (def. \ref{CoFreeComodules}). That these are $F$-acyclic we show as prop. \ref{CoFreeHopfComodulesAreHomNAcyclicForProjectiveN} below.
 
 =--
 
@@ -2212,6 +2614,20 @@ $$
 =--
 
 ([Bousfield 79](#Bousfield79), recalled as [Ravenel 84, theorem 1.15](#Ravenel84))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
