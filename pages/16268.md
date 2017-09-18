@@ -1,0 +1,12 @@
+
+A central part of the [[philosophy]] of [[Plato]].
+
+## References
+
+* Wikipedia, _[Theory of Forms](http://en.wikipedia.org/wiki/Theory_of_Forms)_
+
+* Wikipedia, _[Platonic idealism](http://en.wikipedia.org/wiki/Platonic_idealism)_
+
+* [[Georg Hegel]], section _[The Idea](Science+of+Logic#TheIdea)_ in _[[Science of Logic]]_ 
+
+[[!redirects Platonic idealism]]
