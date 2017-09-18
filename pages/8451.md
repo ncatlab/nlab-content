@@ -78,6 +78,10 @@ Often, for ease of calculation, Beta distributions are chosen as priors on $p$, 
 
 Of course, exchangeability may not represent the strength of one's prior beliefs accurately. For example, in the case of coin tossing, I may have a suspicion of there being something in the tossing mechanism which would make the result of one toss depend on its predecessor. Then it would be quite reasonable for me, say, to have accorded a higher prior probability to the sequence of one hundred heads followed by one hundred tails than to some of its permutations. There are, however, generalizations of de Finetti's representation theorem to Markov chain situations ([Diaconis and Freedman](#DF80})).
 
+## Related entries
+
+* [[Bayesian interpretation of quantum mechanics]]
+
 ## References
 
 * {#Corfield} [[David Corfield]], _Towards a Philosophy of Real Mathematics_, Cambridge University Press, 2003.
