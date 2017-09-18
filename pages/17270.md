@@ -118,13 +118,11 @@ Moreover
 +-- {: .proof}
 ###### Proof
 
-First notice that
+First consider
 
-**a)** _A morphism is an acyclic fibration in $\mathcal{C}_Q$ precisely if it is an acyclic fibration in $\mathcal{C}$._
+**$\star$)** _A morphism is an acyclic fibration in $\mathcal{C}_Q$ precisely if it is an acyclic fibration in $\mathcal{C}$._
 
-It is clear from the definition that an acyclic fibration is also a  $Q$-acyclic $Q$-fibration.
-
-In the other direction, let $f$ be a $Q$-acyclic $Q$-fibration. Consider its factorization into a cofibration followed by an acyclic fibration
+Proof: It is clear from the definition that an acyclic fibration is also a  $Q$-acyclic $Q$-fibration. In the other direction, let $f$ be a $Q$-acyclic $Q$-fibration. Consider its factorization into a cofibration followed by an acyclic fibration
 
 $$
   f \colon \underoverset{\in Cof}{i}{\longrightarrow} \underoverset{\in W \cap Fib}{p}{\longrightarrow}
@@ -132,6 +130,11 @@ $$
 $$
 
 Now the fact that $Q$ preserves weak equivalences together with [[two-out-of-three]] implies that $i$ is a $Q$-weak equivalence, hence a $Q$-acyclic $Q$-cofibration. This means by assumption that $f$ has the [[right lifting property]] against $i$. Hence the [[retract argument]], implies that $f$ is a [[retract]] of the acyclic fibration $p$, and so is itself an acyclic fibration.
+
+Now $\star)$ implies immediately that every morphism factors as a $Q$-cofibration followed by a $Q$-acyclic $Q$-fibration, simply by factoring it as a cofibration followed by an acyclic fibration.
+
+Conversely....
+
 
 
 =--
