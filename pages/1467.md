@@ -100,7 +100,7 @@ $X$ is compact iff for any space $Y$, the [[projection map]] $X \times Y \to Y$ 
 
 =--
 
-Contrary to possible appearance, the equivalence of this with definition \ref{hb} does not require the axiom of choice; see [this MO question](http://mathoverflow.net/questions/42186/does-compact-iff-projections-are-closed-require-some-form-of-choice/42196) and answers, as well as [this page](/toddtrimble/published/Characterizations+of+compactness). See also the page [[compactness and stable closure]] (under construction). 
+Contrary to possible appearance, the equivalence of this with definition \ref{hb} does not require the axiom of choice; see [this MO question](http://mathoverflow.net/questions/42186/does-compact-iff-projections-are-closed-require-some-form-of-choice/42196) and answers, as well as [this page](/toddtrimble/published/Characterizations+of+compactness). See also the page [[compactness and stable closure]] (under construction).  This equivalence is also true for [[locales]], by way of proper maps; see below.
 
 Closely related to the previous definition, a [[logic]]al characterisation of compactness is used in [[Abstract Stone Duality]]:
 
@@ -187,6 +187,13 @@ A [[discrete space]] is compact iff its underlying set is [[finite set|finite]].
 ## In synthetic topology
 
 In [[synthetic topology]], where 'space' means simply 'set' (or [[type]], i.e. the basic objects of our foundational system), one natural notion of "compact space" is a [[covert set]], i.e. a set whose discrete topology is covert.  This includes the expected examples in various [[gros toposes]].
+
+
+## Compact spaces and proper maps
+
+A space $X$ is compact if and only if the unique map $X\to 1$ is [[proper map|proper]].  Thus, properness is a "relativized" version of compactness.
+
+For topological spaces, this is either a definition of "proper map" (closed with compact fibers) or follows from the above characterization of compactness in terms of projections being closed maps (if proper maps are defined to be those that are universally closed).  For locales, it follows from the definition of proper map (a closed map such that $f_*$ preserves directed joins) and the fact that compact locales are automatically [[covert space|covert]] (see [[covert space]] for a proof).
 
 
 ## Related concepts
