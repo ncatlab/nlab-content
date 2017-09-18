@@ -22,7 +22,7 @@ The [[subgroup]] of the octahedral group on the [[orientation]]-preserving symme
 
 ### Group cohomology
 
-The [[group cohomology]] of the orientation-preserbving octahedral group is discussed in [Groupprops](#Groupprops), [Kirdar 13](#Kirdar13).
+The [[group cohomology]] of the orientation-preserving octahedral group is discussed in [Groupprops](#Groupprops), [Kirdar 13](#Kirdar13).
 
 ### As part of the ADE pattern
 
@@ -30,7 +30,7 @@ The [[group cohomology]] of the orientation-preserbving octahedral group is disc
 
 ## References
 
-* Wikipedia, _[Octagedral symmetry](https://en.wikipedia.org/wiki/Octahedral_symmetry)_
+* Wikipedia, _[Octahedral symmetry](https://en.wikipedia.org/wiki/Octahedral_symmetry)_
 
 * {#Groupprops} Groupprops, _[Group cohomology of symmetric group:S4](http://groupprops.subwiki.org/wiki/Group_cohomology_of_symmetric_group:S4)_
 
