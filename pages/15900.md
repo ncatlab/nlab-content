@@ -53,24 +53,58 @@ This follows by applying the [[cohomological functor]] $R\Gamma(X, -)$ to the ab
 ###### Lemma
 There are canonical [[quasi-isomorphisms]]
   $$ \begin{aligned}
-    A(p)_D &\stackrel{\sim}{\longrightarrow} (A(p) \to \mathcal{O} \to \Omega^1 \to \cdots \to \Omega^{p-1}) \\
-    &\stackrel{\sim}{\longrightarrow} (0 \to \mathcal{O}/A(p) \to \Omega^1 \to \cdots \to \Omega^{p-1})
+    A(p)_D &\stackrel{\sim}{\longrightarrow} (A(p) \to \mathcal{O} \to \Omega^1 \to \cdots \to \Omega^{p-1}) & (\ast) \\
+    &\stackrel{\sim}{\longrightarrow} (0 \to \mathcal{O}/A(p) \to \Omega^1 \to \cdots \to \Omega^{p-1}) & 
   \end{aligned} $$
 =--
 
-#### Cup product
+#### Multiplicative structure
 
 +-- {: .num_prop}
 ###### Proposition
 There exists a canonical morphism in $D^+(An)$
   $$ - \cup - : A(i)_D \otimes^L A(j)_D \longrightarrow A(i+j)_D $$
-defining an [[associative]] [[commutative]] multiplication.
+inducing the structure of a [[graded commutative ring]] on $H^*_D(X, A(p))$ for all $X \in An$.
 =--
 
-In fact, one gets a product on $A(\bullet)_D$ immediately by noting that it is identified with the underlying [[cochain complex]] of the [[homotopy pullback]] of $A(\bullet) \to \Omega \leftarrow \Omega^{\ge *}$ (as [[algebra objects]] in [[chain complexes]]).
++-- {: .proof}
+###### Proof
+Beilinson gives an explicit formula using the usual explicit model for the [[mapping cone]].
+He also remarks shortly that the product can be defined by observing that the obvious multiplicative structures on $\Omega^\bullet$, $\Omega^{\ge *}$, $A(*)$, turn each into a [[monoid object]] in the [[symmetric monoidal category]] of [[cochain complexes]] (of [[abelian sheaves]]), that is, into [[dg-algebras]] (of complexes of sheaves).
+Consider then the [[homotopy pullback]] of the diagram $A(*) \to \Omega \leftarrow \Omega^{\ge *}$; Beilinson claims that this is a [[dg-algebra]] whose underlying complex has in degree $p$ the Deligne complex $A(p)_D$ of weight $p$.
+This point is expanded on in [Hopkins-Quick](#HopkinsQuick).
+
+Here we will simply give a formula for the quasi-isomorphic complex $(*)$ of Lemma 1, which we will denote for the moment by $A(p)_E$.
+For $x \in A(p)_E$, $y \in A(q)_E$, define
+
+  $$ x \cup y = \begin{cases} x \cdot y & \deg(x) = 0 \text{ or } \deg(y) = 0 \\ x \wedge (-dy) & \deg(x) \gt 0 \text{ and } \deg(y) = q \gt 0 \\ 0 & \text{otherwise} \end{cases} $$
+
+We omit the various verifications, that this defines a morphism of complexes, is associative, commutative, etc.  Hence one gets a [[dg-algebra]] in the category of cochain complexes of [[abelian sheaves]].  It only remains to see that $R\Gamma(X, -)$ preserves [[dg-algebras]], so that one gets the structure of a [[graded commutative ring]] on the [[hypercohomology]] groups $H^*_D(X, A(p))$ for each $p \in \mathbf{Z}$.
+=--
+
+#### The Bloch regulator
+
+#### Relative cohomology
+
+#### Complexes with logarithmic singularities
+
+#### Deligne cohomology for algebraic varieties
+
+#### Chern classes of vector bundles
+
+#### Homologies
+
+#### Cycles
+
+#### Hodge conjecture for Deligne cohomology
+
+### Regulators
+
+...
 
 +-- {: .num_defn}
 ###### Definition
+
 =--
 
 +-- {: .num_defn}
