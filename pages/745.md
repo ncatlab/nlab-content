@@ -87,10 +87,39 @@ The definition of $(f/g)$ is now complete. But there are two functors defined on
 
 While these are _intuitively_ the simplest ways one can think of to obtain a functor from the comma category to the source categories of the defining cospan, there is also a _categorical_ justification for singling out $H_C$ and $H_D$: these functors are the two projection morphisms of an associated 2-categorical pullback. See the next section for more. 
 
+
+
+### Via a pullback in the 1-category Cat: as a fiber product
+ {#AsAFiberProduct}
+
+Let $I = \{a \to b\}$ be the (directed) [[interval category]] and $E^I = Funct(I,E)$ the [[functor category]]. 
+
+The comma category is the [[pullback]]
+
+$$
+  \array{
+    (f/g) 
+    &\to&
+    E^I
+    \\
+    \downarrow && \downarrow^{\mathrlap{(F\mapsto F(a))\times(F\mapsto F(b))}}
+    \\
+    C \times D
+    &\stackrel{f \times g}{\to}&
+    E \times E
+  }
+$$
+
+(in the 1-category [[Cat]] of categories).
+
+Compare this with the construction of [[homotopy pullback]] ([here](homotopy+pullback#HomotopyPullbackByFactorizationLemma)), hence wth the definition of [[loop space object]] and also with [[generalized universal bundle]].
+
 ### Via 2-category theory: as a 2-pullback
  {#AsA2Pullback}
 
-Equivalently, the comma category is the [[comma object]] of the cospan $C\overset{f}{\rightarrow}E\overset{g}{\leftarrow}D$. (Here, the latter two functors are conceived of as morphisms in the [[2-category]] $Cat$.)
+Equivalently, the comma category is the [[comma object]] of the cospan $C\overset{f}{\rightarrow}E\overset{g}{\leftarrow}D$. 
+
+(Here, the latter two functors are conceived of as morphisms in the [[2-category]] $Cat$.)
 
 Equivalently, the comma category is an appropriate 2-categorical limit of the diagram 
 
@@ -123,30 +152,6 @@ Notably, the "truncation" functors $H_C$ and $H_D$ from the "objectwise" definit
 In terms of the imagery of loop spaces objects, the comma category is the category of [[interval object|directed paths]] in $E$ which start in the image of $f$ and end in the image of $g$.
 
 
-### Via a pullback in the 1-category Cat: as a fiber product
- {#AsAFiberProduct}
-
-Let $I = \{a \to b\}$ be the (directed) [[interval category]] and $E^I = Funct(I,E)$ the [[functor category]]. 
-
-The comma category is the [[pullback]]
-
-$$
-  \array{
-    (f/g) 
-    &\to&
-    E^I
-    \\
-    \downarrow && \downarrow^{\mathrlap{(F\mapsto F(a))\times(F\mapsto F(b))}}
-    \\
-    C \times D
-    &\stackrel{f \times g}{\to}&
-    E \times E
-  }
-$$
-
-(in the 1-category [[Cat]] of categories).
-
-Compare this with the construction of [[homotopy pullback]] ([here](homotopy+pullback#HomotopyPullbackByFactorizationLemma)), hence wth the definition of [[loop space object]] and also with [[generalized universal bundle]].
 
 
 
