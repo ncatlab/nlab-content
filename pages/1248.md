@@ -119,7 +119,7 @@ This interpretation relies on a good relationship between $\leq$ and $=$ on the 
 
 A theorem analogous to Cantor's theorem for sets can be formulated for other [[cartesian closed categories]]. In particular, one may ask whether it is possible to have a surjection $X \to 2^X$ between posets, where the base $2$ is not the discrete poset $\{0, 1\}$ but rather the order $\{0 \leq 1\}$. 
 
-The answer is there is no such surjection $f: X \to 2^X$, but this does not follow from a simple application of Lawvere's fixed-point theorem, where such $f$ would be precluded by existence of a map $2 \to 2$ that has no fixed point. Indeed, the Knaster-Tarski [[fixed point]] theorem says any monotone map between sup-lattices has a fixed point. Nor can we appeal to some crude cardinality argument; for example, if $X$ is the ordinal $\omega$, then $2^X$ is the order $\bot \sqcup \omega^{op}$ (freely adjoin a bottom element $\bot$ to $\omega^{op}$), which has the same cardinality. So some other proof must be sought. 
+The answer is there is no such surjection $f: X \to 2^X$, but this does not follow from a simple application of Lawvere's fixed-point theorem, where such $f$ would be precluded by existence of a map $2 \to 2$ that has no [[fixed point]]. Nor can we appeal to some crude cardinality argument; for example, if $X$ is the ordinal $\omega$, then $2^X$ is the order $\bot \sqcup \omega^{op}$ (freely adjoin a bottom element $\bot$ to $\omega^{op}$), which has the same cardinality. So some other proof must be sought. 
 
 Finding such a proof is an amusing exercise. One line of attack (which internalizes to any topos) may be found [here](https://ncatlab.org/toddtrimble/published/Cantor's+theorem+for+posets). 
 
