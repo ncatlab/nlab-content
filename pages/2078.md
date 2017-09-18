@@ -3,7 +3,7 @@ __Peter T. Johnstone__ is a Professor of Mathematics at the University of Cambri
 
 ## Books
 
-*  _Topos Theory_, 1977.
+*  _[[Topos Theory 1977|Topos Theory]]_, 1977.
 *  _[[Stone Spaces]]_, 1982.
 *  _[[Elephant|Sketches of an elephant: a topos theory compendium]]_, Oxford University Press 2002.
 
