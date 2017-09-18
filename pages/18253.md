@@ -16,112 +16,23 @@
 
 ## Statement
 
-+-- {: .num_lemma}
+
++-- {: .num_lemma #RegularSpacesWherOpenCoveringIsRefinedbyCountableLocallyFiniteConnectionsofOpensAreParacompact}
 ###### Lemma
-
-Let $X$ be a [[topological space]] such that 
-
-1. $X$ is [[Hausdorff topological space|Hausdorff]],
-
-1.  every [[open cover]] of $X$ has a [[refinement]] by a [[locally finite closed cover]].
-
-Then $X$ is [[paracompact topological space|paracompact]].
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-Let $\{U_i \subset X\}_{i \in I}$ be an [[open cover]] of $X$. We need to find a refinement to a locally finite open cover.
-
-By assumption, there exists a locally finite closed refinement $\phi \colon J \to I$,  $\{C_j \subset X\}_{j \in J}$. By definition this means that for each $x \in X$ there is an open neighbourhood $U_x$ which intersects only a finite number of the $C_j$. Choosing such for each $x$ yields an open cover
-
-$$
-  \{U_x \subset X\}_{x \in X}
-  \,.
-$$
-
-Again by assumption, this cover itself has a locally finite closed refinement $\phi \colon H \to X$, $\{C_h \subset X  \}_{h \in H}$. Being a refinement, each $C_h$ still intersects only finitely many of the $C_j$.
-
-Define then
-
-$$
-  V_j
-   \coloneqq
-  X \backslash \left( 
-    \underset
-       {
-         {h \in H}
-         \atop
-         { C_h \cap C_j = \emptyset}
-       }
-       {\cup} C_h
-  \right)
-$$
-
-for each $j \in J$.
-
-Observe that
-
-1. $V_j$ is an open set. 
-
-   To see this, it is sufficient to find for each point $x \in V_j$ an open neighbourhood $V_x \subset V_j$. By the local finiteness of the $C_h$ there exists an open $V_x \subset X$ which intersects only a finite subset of the $C_h$ and among this there is the finite subset $\{C_{h_1}, \cdots, C_{h_n}\}$ of those $C_h$ which do not intersect $C_j$.  Hence $V_x \backslash ( C_{h_1} \cup \cdots \cup C_{h_n} )$ is an open neighbourhood of $x$ contained in $V_j$.
-
-1. $\{V_j \subset X\}_{j \in J}$ is a cover of $X$
-
-   because $V_j \subset C_j$ for each $j$ and since $\{C_j \subset X\}_{j \in J}$ is a cover.
-
-Hence $\{V_j \subset X\}_{j \in J}$ is an open cover of $X$. 
-
-Observe that this cover is locally finite:
-
-(...)
-
-Now by the assumption that $\{C_h \subset X\}_{h \in H}$ is locally finite, there exists an open neighbourhood $U_x$ of $x$ which intersects only finitely many of the $C_h$
-
-
-=--
-
-+-- {: .num_lemma}
-###### Lemma
+**([[Michael's theorem]], [Michael 53, theorem 1](#Michael53))**
 
 Let $X$ be a [[topological space]] such that
 
 1. $X$ is [[regular topological space|regular]];
 
-1. every [[open cover]] of $X$ has a [[refinement]] by a [[locally finite cover]] (not necessarily [[open cover|open]]).
+1. every [[open cover]] of $X$ has a [[refinement]] by a union of a [[countable set]] of 
+
+   [[locally finite sets of subsets|locally finite]] sets of open subsets (not necessarily covering). 
 
 Then $X$ is [[paracompact topological space]].
 
 =--
 
-+-- {: .proof}
-###### Proof
-
-
-
-=--
-
-+-- {: .num_prop }
-###### Proposition
-**([[Michael's theorem]])**
-
-Let $X$ be a [[topological space]] such that
-
-1. $X$ is [[regular topological space|regular]];
-
-1. every [[open cover]] of $X$ has a refinement by a union of a [[countable set]] of [[locally finite sets of subsets]] (not necessarily open, and not necessarily covering). 
-
-Then $X$ is [[paracompact topological space]].
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-
-
-=--
 
 
 +-- {: .num_prop }
@@ -138,12 +49,31 @@ Then $X$ is [[paracompact topological space]].
 
 =--
 
++-- {: .proof}
+###### Proof
+
+Let $\{U_i \subset X\}_{i \in I}$ be an open cover. By [[Michael's theorem]] (lemma \ref{RegularSpacesWherOpenCoveringIsRefinedbyCountableLocallyFiniteConnectionsofOpensAreParacompact}) it is sufficient that we find a [[refinement]] by a [[countable cover]].
+
+By assumption of second-countability, there exists a countable set $\{K_n \subset X\}_{n \in \mathbb{N}}$ of [[compact topological space|compact]] [[subspaces]]. For each $n \in \mathbb{N}$ we may regard $\{U_i \subset X\}_{i \in I}$ as a cover of $K_n$, and hence by compactness there exists a finite set $J_n$ such that $\{U_i \subset X\}_{i \in J_n \subset I}$ is still an open cover of $K_n$. Therefore 
+
+$$
+  \{U_i \subset X\}_{i \in \underset{n \in \mathbb{N}}{\cup} J_n}
+$$
+
+is a countable subcover.
+
+=--
+
 ## Related statement
 
 * [[locally compact and sigma-compact spaces are paracompact]]
 
 
 ## References
+
+
+* {#Michael53} [[Ernest Michael]], _A note on paracompact spaces_, Proc. Amer. Math. Soc. 1953 ([jstor](http://www.jstor.org/stable/2032419), [pdf](http://www.renyi.hu/~descript/papers/Michael_parakompakt.pdf))
+
 
 * [[Akhil Mathew]], _[A theorem of Michael on paracompactness](https://amathew.wordpress.com/2010/08/19/a-theorem-of-michael-on-paracompactness/)_
 
