@@ -50,6 +50,8 @@ There is a bunch of consistency checks on the statement that the [[KK-compactifi
 
 One aspect of this is that [[type IIA string theory]] with a [[condensate]] of [[D0-branes]] behaves like a 10-dimensional theory that develops a further circular dimension of [[radius]] scaling with the density of [[D0-branes]].  ([Banks-Fischler-Shenker-Susskind 97](#BanksFischlerShenkerSusskind97), [Polchinski 99](#Polchinski99)). See also ([FSS 13, section 4.2](#FSS13)).
 
+Discussion of the relation of [[gauge enhancement]] of M-theory at [[ADE singularities]] and the corresponding coincident [[D-brane]] geometries in type IIA string theory is in ([Sen 97](#Sen97)).
+
 More on the decomposition of the [[nLab:supergravity C-field]] in 11d to the [[RR-fields]] and the NS-fields in type IIA is in ([Mathai-Sati 03, section 4](#MathaiSati03)).
 
 For survey of how the components maps see also the table at _[Relation to F-theory](#RelationToFTheory)_.
@@ -210,6 +212,7 @@ Surveys of the discussion of E-series [[Kac-Moody algebras]]/[[Kac-Moody groups]
 
 * [[Paul Cook]], _Connections between Kac-Moody algebras and M-theory_ PhD thesis ([arXiv:0711.3498](http://arxiv.org/abs/0711.3498))
 
+
 ### Cohomological considerations
 
 Discussion of the [[cohomology|cohomological]] charge quantization in type II ([[RR-fields]] as cocycles in [[KR-theory]]) in relation to the M-theory [[supergravity C-field]] is in
@@ -234,6 +237,11 @@ Discussion of M-theory as arising from [[type II string theory]] via the effect 
 
 * [[Joseph Polchinski]], _M-Theory and the Light Cone_,  	Prog.Theor.Phys.Suppl.134:158-170,1999 ([arXiv:hep-th/9903165](http://arxiv.org/abs/hep-th/9903165))
  {#Polchinski99}
+
+### More on the relation to type IIA string theory
+
+* {#Sen97} [[Ashoke Sen]], _A Note on Enhanced Gauge Symmetries in M- and String Theory_, JHEP 9709:001,1997 ([arXiv:hep-th/9707123](http://arxiv.org/abs/hep-th/9707123))
+
 
 ### In terms of higher geometry
 
