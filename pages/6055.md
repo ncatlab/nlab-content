@@ -39,7 +39,7 @@ Let $\mathcal{E}$ be a [[topos]]. Then
     $$
       (U \dashv F)
       : 
-      \mathcal{E} \stackrel{\overset{U}{\leftarrow}}{\underset{F}{\to}}  T CoAlg
+      \mathcal{E} \stackrel{\overset{U}{\leftarrow}}{\underset{F}{\to}}  T CoAlg(\mathcal{E})
     $$
 
     is a [[geometric morphism]].
