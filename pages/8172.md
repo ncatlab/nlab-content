@@ -2318,7 +2318,7 @@ This is the statement of lemma \ref{SmashingMapsWithEFactorsThroughSteenrodComod
 
 In good cases such an approximation of _homotopy_ by _homology_ is in fact accurate, in that $\phi_{UC}$ above is an [[isomorphism]]. In such a case ([Adams 74, part III, section 13](#Adams74)) speaks of a "[[universal coefficient theorem]]" (the [[coefficients]] here being $E$.)
 
-One such case is exhibited by prop. \ref{ComoduleHomForENCohomology} below. This is allows to equivalently re-write the first page of the $E$-Adams spectral sequence in terms of $E$-homology homomorphisms in theorem \ref{ComoduleHomsInE1PageOfEAdamsSpectralSequence} below.
+One such case is exhibited by prop. \ref{ComoduleHomForENCohomology} below. This allows to equivalently re-write the first page of the $E$-Adams spectral sequence in terms of $E$-homology homomorphisms in theorem \ref{ComoduleHomsInE1PageOfEAdamsSpectralSequence} below.
 
 +-- {: .num_lemma #SmashingMapsWithEFactorsThroughSteenrodComoduleHomomorphisms}
 ###### Lemma
@@ -2451,6 +2451,160 @@ is an [[isomorphism]].
 =--
 
 A stronger version of this statement, but also under much stronger assumptions, appears as ([Adams 74, chapter III, prop. 13.5](#Adams74)) (_Adams' [[universal coefficient theorem]]_). For the following we need only the above weaker version ([Schwede 12, chapter II, prop. 6.20](#Schwede12)) (and in fact this is all that ([Adams 74, p. 323](#Adams74)) ends up using, too).
+
++-- {: .proof}
+###### Proof
+
+First of all we claim that the morphism in question factors as
+
+$$
+  [X, E \wedge Y]_\bullet
+    \overset{\simeq}{\longrightarrow}
+  Hom^\bullet_{E Mod}( E \wedge X , E \wedge Y)
+    \overset{\pi_\bullet}{\longrightarrow}
+  Hom^\bullet_{\pi_\bullet(E)}( E_\bullet(X), E_\bullet(Y) )
+  \,,
+$$
+
+where the first morphisms the adjunction isomorphism for forming [[free modules|free]] ([prop.](Introduction+to+Stable+homotopy+theory+--+1-2#MonoidModuleOverItself)) $E$-[[homotopy module spectra]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyCommutativeRingSpectrum)) and the second morphism is the respective component of the composite of the [[forgetful functor]] from $E$-[[homotopy module spectra]] back to $Ho(Spectra)$ with the functor $\pi_\bullet$ that forms [[stable homotopy groups]].
+
+This is because (by [this prop.](Introduction+to+Stable+homotopy+theory+--+1-2#MonoidModuleOverItself)) the first map is given by first smashing with $E$ and then postcomposing with the $E$-action on the free module $E \wedge X$, which is the pairing $E \wedge E \overset{\mu}{\to} E$. 
+
+Hence it is sufficient to show that the morphism on the right is an isomorphism.
+
+We show more generally that for $N_1, N_2$ any two $E$-[[homotopy module spectra]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyCommutativeRingSpectrum)) such that $\pi_\bullet(N_1)$ is a [[projective module]] over $\pi_\bullet(E)$, then
+
+$$
+  Hom^\bullet_{E Mod}( N_1 , N_2)
+    \overset{\pi_\bullet}{\longrightarrow}
+  Hom^\bullet_{\pi_\bullet(E)}( \pi_\bullet(N_1), \pi_\bullet(N_2) )
+$$
+
+is an isomorphism.
+
+
+To see this, first consider the case that $\pi_\bullet(N_1)$ is in fact a $\pi_\bullet(E)$-[[free module]].
+
+This implies that there is a basis $\mathcal{B} = \{x_i\}_{i \in I}$ and a homomorphism
+
+$$
+  \underset{i \in I}{\vee}
+  \Sigma^{\vert x_i\vert} 
+    E \longrightarrow 
+  N_1
+$$ 
+
+of $E$-[[homotopy module spectra]], such that this is a [[stable weak homotopy equivalence]].
+
+Observe that this sits in a [[commuting diagram]] of the form
+
+$$
+  \array{
+    Hom^\bullet_{E Mod}( \underset{i \in I}{\vee} \Sigma^{\vert x_i\vert} E, N_2 )
+     &\overset{\pi_\bullet}{\longrightarrow}&
+    Hom^\bullet_{\pi_\bullet(E)}(\pi_\bullet(\underset{i \in I}{\vee}\Sigma^{\vert x_i\vert} E) , \pi_\bullet(N_2) )
+    \\
+    {}^{\mathllap{\simeq}}\downarrow
+      &&
+    \downarrow^{\mathrlap{\simeq}}
+    \\
+    \underset{i \in I}{\prod} [ \Sigma^{\vert x_i\vert}\mathbb{S}, N_2 ]_\bullet
+     &\underset{\simeq}{\longrightarrow}&
+    \underset{i \in I}{\prod}
+    \pi_{\bullet + \vert x_i \vert}(N_2)
+  }
+$$
+
+where
+
+1. the left vertical isomorphism exhibits [[wedge sum]] of spectra as the [[coproduct]] in the [[stable homotopy category]] ([lemma](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyCategoryHasCoproducts));
+
+1. the bottom isomorphism is from [this prop.](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyGrouspAsHomsOutOfSphereSpectrum);
+
+1. the right vertical isomorphism is that of the [[free-forgetful adjunction]] for modules over $\pi_\bullet(E)$.
+
+Hence the top horizontal morphism is an isomorphism, which was to be shown.
+
+Now consider the general case that $\pi_\bullet(N_1)$ is a [[projective module]] over $\pi_\bullet(E)$. Since (graded) projective modules are precisely the [[retracts]] of (graded) [[free modules]] ([prop.](projective+module#NProjectiveIFFHomNExact)), there exists a diagram of $\pi_\bullet(E)$-modules of the form
+
+$$
+  id
+    \;\colon\;
+  \pi_\bullet(N_1)
+    \longrightarrow
+  \pi_\bullet( \underset{i \in I}{\vee} \Sigma^{\vert x_i \vert} E )
+    \longrightarrow
+  \pi_\bullet(N_1)
+$$
+
+which induces the corresponding [[split idempotent]] of $\pi_\bullet(E)$-modules
+
+$$
+  \pi_\bullet( \underset{i \in I}{\vee} \Sigma^{\vert x_i \vert} E )
+    \longrightarrow
+  \pi_\bullet(N_1)
+     \longrightarrow
+  \pi_\bullet( \underset{i \in I}{\vee} \Sigma^{\vert x_i \vert} E )
+  \,.
+$$
+
+
+As before, by freeness this is actually the image under $\pi_\bullet$ of an idempotent of [[homotopy ring spectra]]
+
+$$
+  e_\bullet
+    \;\colon\;
+  \underset{i \in I}{\vee} \Sigma^{\vert x_i \vert} E
+    \longrightarrow
+  \underset{i \in I}{\vee} \Sigma^{\vert x_i \vert} E
+$$
+
+and so in particular of [[spectra]].
+
+Now in the [[stable homotopy category]] $Ho(Spectra)$ all [[split idempotent|idempotents split]] ([prop.](split+idempotent#InTrinagulatedCategoryWithDirectSumsOfTrianglesAllIdempotentsSplit)), hence there exists a diagram of spectra of the form
+
+$$
+  e
+  \;\colon\;
+  \underset{i \in I}{\vee} \Sigma^{\vert x_i \vert} E
+    \longrightarrow
+   X
+     \longrightarrow
+  \underset{i \in I}{\vee} \Sigma^{\vert x_i \vert} E
+$$
+
+with $\pi_\bullet(e) = e_\bullet$.
+
+Consider the composite
+
+$$
+  X 
+    \longrightarrow
+  \underset{i \in I}{\vee} \Sigma^{\vert x_i \vert} E
+    \longrightarrow
+  N_1
+  \,.  
+$$
+
+Since $\pi_\bullet(e) = e_\bullet$ it follows that under $\pi_\bullet$ this is an isomorphism, then that $X \simeq N_1$ in the [[stable homotopy category]].
+
+In conclusion this exhibits $N_1$ as a [[retract]] of an free $$E$-homotopy module spectrum
+
+$$
+  id
+    \;\colon\;
+  N_1 
+    \longrightarrow 
+  \underset{i \in I}{\vee} \Sigma^{\vert x_i \vert} E
+    \longrightarrow
+  N_1
+  \,,
+$$
+
+hence of a spectrum for which the morphism in question is an isomorphism.
+ Since the morphism in question is [[natural transformation|natural]], its value on $N_1$ is a retract in the [[arrow category]] of an isomorphism, which is itself an isomorphism.
+
+=--
 
 
 With this we finally get the following statement, which serves to identify maps of certain spectra with their induced maps on $E$-homology:
