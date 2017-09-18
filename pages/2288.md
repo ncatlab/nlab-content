@@ -110,6 +110,10 @@ Quick surveys include
 
 * [[Aaron Mazel-Gee]], _An introduction to spectra_ ([pdf](https://math.berkeley.edu/~aaron/writing/an-introduction-to-spectra.pdf))
 
+Lecture notes include
+
+* [[Urs Schreiber]], _[[Introduction to Stable homotopy theory]]_
+
 See also
 
 * Glossary for stable and chromatic honotopy theory ([[StableChromaticGlossary.pdf:file]])
