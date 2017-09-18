@@ -125,6 +125,8 @@ between the $L_\infty$-algebras of def. \ref{PoissonBracketLienAlgebra} and def.
 
 * [[Poisson n-algebra]]
 
+* [[current algebra]]
+
 [[!include slice automorphism groups in higher prequantum geometry - table]]
 
 [[!include geometric quantization extensions - table]]
