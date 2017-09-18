@@ -65,6 +65,12 @@ More recent treatments can be found in:
 
 * Sergei K. Lando and Alexander K. Zvonkin, _Graphs on Surfaces and Their Applications_, Springer, 2004.
 
+* Roman Nedela, _Maps, Hypermaps and Related Topics_, 2007. ([pdf](http://www.savbb.sk/~nedela/CMbook.pdf))
+
+Wikipedia:
+
+* [Graph embedding](https://en.wikipedia.org/wiki/Graph_embedding)
+
 [[!redirects topological maps]]
 [[!redirects embedded graph]]
 [[!redirects embedded graphs]]
