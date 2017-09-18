@@ -45,6 +45,14 @@ $l_m := \{(x, m x)|x \in \mathbb{O}\}$ and $l_{\infty} := \{(0, y)|y \in \mathbb
 
 In this way the fibration $\mathbb{O}^2 \setminus (0, 0) \to S^8 = \{m \in \mathbb{O}\} \union \{\infty\}$ is obtained, with fibers $\mathbb{O} \setminus 0$, and the intersection with the unit sphere $S^{15} \subset \mathbb{O}^2$ provides the octonionic Hopf fibration (see [OPPV, p. 7](#OPPV)).
  
+##Spin(9) action
+
+The subgroup $Spin(9) \subset SO(16)$ acts transitively on the octonionic Hopf fibration, which can be consider as a homogeneous fibration
+
+$$
+\frac{Spin(9)}{Spin(7)} \stackrel{\frac{Spin(8)}{Spin(7)}}{\to} \frac{Spin(9)}{Spin(8)}.
+$$
+
 ## Related concepts
 
 * [[real Hopf fibration]]
