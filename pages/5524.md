@@ -1114,6 +1114,9 @@ following
 [[!redirects formal smooth homotopy type]]
 [[!redirects formal smooth homotopy types]]
 
+[[!redirects formal smooth groupoid]]
+[[!redirects formal smooth groupoids]]
+
 [[!redirects SynthDiff∞Grpd]]
 
 [[!redirects FormalSmooth∞Grpd]]
