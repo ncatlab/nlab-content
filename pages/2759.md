@@ -24,12 +24,13 @@ There is a [[duality]] between [[syntax]] and [[semantics]].
 
 ## Related concepts
 
+* [[Stone duality]]
+
+* [[Gabriel-Ulmer duality]]
+
 * [[relation between category theory and type theory]]
 
 * [[computational trinitarianism]]
-
-* [[Stone duality]]
-
 
 ## References
 
