@@ -1,6 +1,6 @@
 
 
-{:principle: .un_remark style="border:solid #0000cc;background: #add8e6;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
+{:principle: .num_remark style="border:solid #0000cc;background: #add8e6;border-width:2px 1px;padding:0 1em;margin:0 1em;"}
 
 
 +-- {: .rightHandSide}
@@ -58,10 +58,12 @@ The following gives a quick introduction to some of the core concepts and tools 
 
 A detailed introduction is going to be at _[[Introduction to Topology]]_.
 
+
+
 ### Continuity
  {#Continuity}
 
-The key idea of topology is to study [[spaces]] with "[[continuous maps]]" between them. The concept of continuity was made precise first in [[analysis]], in terms of [[epsilontic analysis]] of [[open balls]], recalled as def. \ref{EpsilonDeltaDefinitionOfContinuity} below. Then it was realized that this has a more elegant formulation in terms of the more general concept of _[[open sets]]_, this is prop. \ref{ContinuityBetweenMetricSpacesInTermsOfOpenSets} below. Adopting the latter as the definition leads to the concept of [[topological spaces]], def. \ref{TopologicalSpaces} below.
+The key idea of topology is to study [[spaces]] with "[[continuous maps]]" between them. The concept of continuity was made precise first in [[analysis]], in terms of [[epsilontic analysis]] of [[open balls]], recalled as def. \ref{EpsilonDeltaDefinitionOfContinuity} below. Then it was realized that this has a more elegant formulation in terms of the more general concept of _[[open sets]]_, this is prop. \ref{ContinuityBetweenMetricSpacesInTermsOfOpenSets} below. Adopting the latter as the definition leads to the concept of [[topological spaces]], def. \ref{TopologicalSpace} below.
 
 
 First recall the basic concepts from [[analysis]]:
@@ -87,7 +89,7 @@ such that for all $x,y,z \in X$:
 =--
 
 
-+-- {: .num_example}
++-- {: .num_example #NormedVectorSpaceBecomesMetricSpace}
 ###### Example
 
 Every [[normed vector space]] $(V, {\vert - \vert})$
@@ -137,7 +139,7 @@ We now reformulate this analytic concept in terms of the simple but important co
 
 +-- {: .num_defn #OpenBalls}
 ###### Definition
-**(neighbourhood and open set)**
+**(open ball)**
 
 Let $(X,d)$, be a [[metric space]]. Then for every element $x \in X$ and every  $\epsilon \in \mathbb{R}_+$ a [[positive number|positive]] [[real number]], write
 
@@ -157,6 +159,7 @@ for the [[open ball]] of [[radius]] $\epsilon$ around $x$.
 
 +-- {: .num_defn #OpenSubsetsOfAMetricSpace}
 ###### Definition
+**(neighbourhood and open set)**
 
 Let $(X,d)$ be a [[metric space]] (def. \ref{MetricSpace}). Say that
 
@@ -230,7 +233,7 @@ and
 
 This motivates the following generalized definition:
 
-+-- {: .num_defn #TopologicalSpaces}
++-- {: .num_defn #TopologicalSpace}
 ###### Definition
 **(topological spaces)**
 
@@ -304,7 +307,7 @@ One says that
 
 1. [[continuous maps]] constitute the [[morphisms]] ([[homomorphisms]])
 
-of  a _[[category]]_. The _[[category of topological spaces]]_ (_[[Top]]_, for short).
+of  a _[[category]]_. The _[[category of topological spaces]]_ ("[[Top]]" for short).
 
 It is useful to depict collections of [[objects]] with [[morphisms]] between them
 by [[diagrams]], like this one:
@@ -324,7 +327,7 @@ Our motivating example now reads:
 ###### Example
 **(metric topology)**
 
-Let $(X,d)$ be a [[metric space]]. Then the collection of open subsets in def. \ref{OpenSubsetsOfAMetricSpace} constitutes a _[[topological space|topology]]_ on the set $X$, making it a _[[topological space]]_ in the sense of def. \ref{TopologicalSpaces}. This is called the _[[metric topology]]_.
+Let $(X,d)$ be a [[metric space]]. Then the collection of open subsets in def. \ref{OpenSubsetsOfAMetricSpace} constitutes a _[[topological space|topology]]_ on the set $X$, making it a _[[topological space]]_ in the sense of def. \ref{TopologicalSpace}. This is called the _[[metric topology]]_.
 
 Stated more concisely: the [[open balls]] in a metric space constitute a "[[basis of a topology|basis]]" for the [[metric topology]].
 
@@ -365,7 +368,7 @@ The picture on the right shows two open subsets inside the [[square]], regarded 
 ###### Example
 **(quotient topological space)**
 
-Let $(X,\tau_X)$ be a [[topological space]] (def. \ref{TopologicalSpaces}) and let
+Let $(X,\tau_X)$ be a [[topological space]] (def. \ref{TopologicalSpace}) and let
 
 $$
   R_\sim \subset X \times X
