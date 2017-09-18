@@ -78,9 +78,26 @@ The coset inherits the structure of a group if $H$ is a [[normal subgroup]].
 Unless $G$ is abelian, considering both left and right coset spaces provide different information. 
 
 ### Quotient maps
+ {#QuotientMaps}
 
-+-- {: .num_prop #QuotientProjectionForCompactLieSubgroupIsPrincipal}
++-- {: .num_prop #QuotientProjectionForCompactLieGroupActingFreelyOnManifoldIsPrincipa}
 ###### Proposition
+
+For $X$ a [[smooth manifold]] and $G$ a [[compact Lie group]] equipped with a [[free action|free]] smooth [[action]] on $X$, then the [[quotient]] [[projection]]
+
+$$
+  X \longrightarrow X/G
+$$
+
+is a $G$-[[principal bundle]] (hence in particular a [[Serre fibration]]).
+
+=--
+
+This is originally due to ([Gleason 50](#Gleason50)). See e.g. ([Cohen, theorem 1.3](#Cohen))
+
+
++-- {: .num_cor #QuotientProjectionForCompactLieSubgroupIsPrincipal}
+###### Corollary
 
 For $G$ a [[Lie group]] and $H \subset G$ a [[compact Lie group|compact]] [[subgroup]], then the [[coset]] [[quotient]] [[projection]]
 
@@ -92,31 +109,70 @@ is an $H$-[[principal bundle]] (hence in particular a [[Serre fibration]]).
 
 =--
 
-originally due to ([Samelson 41](#Samelson41)). See e.g. Cohen "The topology of fiber bundles".
+This is originally due to ([Samelson 41](#Samelson41)). 
 
++-- {: .num_prop #ProjectionOfCosetsIsFiberBundleForClosedSubgroupsOfCompactLieGroup}
+###### Proposition
 
-The natural projection $G\to G/H$, mapping the element $g$ to the element $g H$, realizes $G$ as an $H$-[[principal bundle]] over $G/H$ (...). We therefore have a [[homotopy pullback]]
+For $G$ a [[compact Lie group]] and $K \subset H \subseg G$ [[closed subspace|closed]] [[subgroups]], then the [[projection]] map
+
+$$
+  p \;\colon\; G/K \longrightarrow G/H
+$$
+
+is a locally trivial $H/K$-[[fiber bundle]] (hence in particular a [[Serre fibration]]).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Observe that the projection map in question is equivalently
+
+$$
+  G \times_H (H/K) \longrightarrow G/H
+  \,,
+$$
+
+(where on the left we form the [[Cartesian product]] and then divide out the [[diagonal action]] by $H$). This exhibits it as the $H/K$-[[fiber bundle]] [[associated bundle|associated]] to the $H$-[[principal bundle]] of corollary \ref{QuotientProjectionForCompactLieSubgroupIsPrincipal}.
+
+=--
+
+### As a homotopy fiber
+
++-- {: .num_remark}
+###### Remark
+
+In [[geometric homotopy theory]] (in an [[(∞,1)-topos]]), for $H \longrightarrow G$ any homomorphisms of [[∞-group]] objects, then the natural projection $G \longrightarrow G/H$, generally realizes $G$ as an $H$-[[principal ∞-bundle]] over $G/H$. This is exhibited by a [[homotopy pullback]] of the form
+
 $$
   \array{
-   G & \to&* 
+   G & \longrightarrow &* 
    \\
     \downarrow && \downarrow
    \\
-   G/H &\to& \mathbf{B}H
+   G/H &\longrightarrow& \mathbf{B}H
   }
+  \,.
 $$
-where $\mathbf{B}H$ is the [[delooping|delooping groupoid]] of $H$.
+
+where $\mathbf{B}H$ is the [[delooping|delooping groupoid]] of $H$. This also equivalently exhibits the [[∞-action]] of $H$ on $G$ (see there for more).
+
 By the [[pasting law]] for [[homotopy pullbacks]] then we get the [[homotopy pullback]]
 
 $$
   \array{
-   G/H & \to&\mathbf{B}H 
+   G/H & \longrightarrow &\mathbf{B}H 
    \\
     \downarrow && \downarrow
    \\
-   * &\to& \mathbf{B}G
+   * & \longrightarrow & \mathbf{B}G
   }
 $$
+
+which exhibits the coset as the [[homotopy fiber]] of $\mathbf{B}H \to \mathbf{B}G$.
+
+=--
 
 ## Examples
 
@@ -125,22 +181,53 @@ $$
 +-- {: .num_example #nSphereAsCosetSpace}
 ###### Example
 
-The [[n-spheres]] are coset spaces of [[orthogonal groups]]
+The [[n-spheres]] are coset spaces of [[orthogonal groups]]:
 
 $$
   S^n \simeq O(n+1)/O(n)
   \,.
 $$
 
-For fix a unit vector in $\mathbb{R}^{n+1}$. Then its [[orbit]] under the defining $O(n+1)$-[[action]] on $\mathbb{R}^{n+1}$ is clearly the canonical embedding $S^n \hookrightarrow \mathbb{R}^{n+1}$. But precisely the subgroup of $O(n+1)$ that consists of rotations around the axis formed by that unit vector [[stabilizer group|stabilizes]] it, and that subgroup is isomorphic to $O(n)$, hence $S^n \simeq O(n+1)/O(n)$.
+The odd-dimensional spheres are also coset spaces of [[unitary groups]]:
+
+$$
+  S^{2n+1}
+  \simeq
+  U(n+1)/U(n)
+$$
 
 =--
+
++-- {: .proof}
+###### Proof
+
+Regarding the first statement:
+
+Fix a unit vector in $\mathbb{R}^{n+1}$. Then its [[orbit]] under the defining $O(n+1)$-[[action]] on $\mathbb{R}^{n+1}$ is clearly the canonical embedding $S^n \hookrightarrow \mathbb{R}^{n+1}$. But precisely the subgroup of $O(n+1)$ that consists of rotations around the axis formed by that unit vector [[stabilizer group|stabilizes]] it, and that subgroup is isomorphic to $O(n)$, hence $S^n \simeq O(n+1)/O(n)$.
+
+The second statement follows by the same kind of reasoning:
+
+Clearly $U(n+1)$ [[transitive action|acts transitively]] on the unit sphere $S^{2n+1}$ in $\mathbb{C}^{n+1}$. It remains to see that its [[stabilizer subgroup]] of any point on this sphere is $U(n)$. If we take the point with [[coordinates]] $(1,0, 0, \cdots,0)$ and regard elements of $U(n+1)$ as [[matrices]], then the stabilizer subgroup consists of matrices of the block diagonal form
+
+$$
+  \left(
+    \array{
+      1 & \vec 0
+      \\
+      \vec 0 & A
+    }
+  \right)
+$$
+
+where $A \in U(n)$.
+
+=--
+
 
 ### Sequences of coset spaces
  {#QuotientMapsOfCosetSpaces}
 
-For $K \hookrightarrow H \hookrightarrow G$
-two consecutive group inclusions, then there is a [[fiber bundle]] of the form
+Consider $K \hookrightarrow H \hookrightarrow G$ two consecutive group inclusions with their induced coset [[quotient]] [[projections]]
 
 $$
   \array{
@@ -153,7 +240,7 @@ $$
   \,.
 $$
 
-When $G/K \to G/H$ is a [[Serre fibration]] (so that this is indeed a [[homotopy fiber sequence]] with respect to the [[classical model structure on topological spaces]]) then it induces the corresponding [[long exact sequence of homotopy groups]]
+When $G/K \to G/H$ is a [[Serre fibration]], for instance in the situation of prop. \ref{ProjectionOfCosetsIsFiberBundleForClosedSubgroupsOfCompactLieGroup} (so that this is indeed a [[homotopy fiber sequence]] with respect to the [[classical model structure on topological spaces]]) then it induces the corresponding [[long exact sequence of homotopy groups]]
 
 $$
   \cdots
@@ -178,7 +265,7 @@ $$
   \,.
 $$
 
-Then by example \ref{nSphereAsCosetSpace} we have that $O(n+1)/O(n) \simeq S^n$ is the [[n-sphere]] and by prop. \ref{QuotientProjectionForCompactLieSubgroupIsPrincipal} the quotient map is a [[Serre fibration]]. Hence there is a [[long exact sequence of homotopy groups]] of the form 
+Then by example \ref{nSphereAsCosetSpace} we have that $O(n+1)/O(n) \simeq S^n$ is the [[n-sphere]] and by corollary \ref{QuotientProjectionForCompactLieSubgroupIsPrincipal} the quotient map is a [[Serre fibration]]. Hence there is a [[long exact sequence of homotopy groups]] of the form 
 
 $$
   \cdots
@@ -223,6 +310,13 @@ $$
 ## References
 
 * {#Samelson41} H. Samelson, _Beitrage zur Topologie der Gruppenmannigfaltigkeiten_, Ann. of Math. 2, 42, (1941), 1091 - 1137.
+
+* {#Gleason50} [[Andrew Gleason]], _Spaces with a compact Lie group of transformations_, Proc. of A.M.S 1, (1950), 35 - 43.
+
+* {#Steenrod51} [[Norman Steenrod]], section I.7 of _The topology of fibre bundles_, Princeton Mathematical Series 14, Princeton Univ. Press, 1951.
+
+* {#Cohen} R. Cohen, _Topology of fiber bundles_, Lecture notes ([pdf](http://math.stanford.edu/~ralph/fiber.pdf))
+
 
 [[!redirects coset]]
 [[!redirects cosets]]
