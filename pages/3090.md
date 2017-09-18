@@ -19,52 +19,96 @@
 
 ## Definition
 
-+-- {: .num_prop #SerreFibration}
++-- {: .num_defn #SerreFibration}
 ###### Definition
 
 
-A **Serre fibration** is a [[continuous function]] between [[topological spaces]] that has the [[right lifting property]] with respect to all inclusions of the form $i \colon D^n \hookrightarrow D^n \times I$ that include the standard topological [[n-disk]] into its standard [[cylinder object]].
+A **Serre fibration** is a [[continuous function]] between [[topological spaces]] that has the [[right lifting property]] with respect to all inclusions of the form $(id,0) \colon D^n \hookrightarrow D^n \times I$ that include the standard topological [[n-disk]] into its standard [[cylinder object]].
 
 =--
 
-(This condition is a special case of that for a [[Hurewicz fibration]].)
+I.e. $f$ is a Serre fibration if for every [[commuting square]] of [[continuous functions]] of the form
 
-The Serre fibrations serve as the abstract [[fibrations]] in the [[classical model structure on topological spaces]]. See there for more.
+$$
+  \array{
+    D^n  &\longrightarrow& X
+    \\
+    {}^{\mathllap{(id,0)}}\downarrow && \downarrow^{\mathrlap{f}}
+    \\
+    D^n \times I &\longrightarrow& Y
+  }
+$$
+
+then there exists a continuous function $h \colon D^n \to X$ such as to make a [[commuting diagram]] of the form
+
+$$
+  \array{
+    D^n  &\longrightarrow& X
+    \\
+    {}^{\mathllap{(id,0)}}\downarrow 
+    &{}^h\nearrow& 
+    \downarrow^{\mathrlap{f}}
+    \\
+    D^n \times I &\longrightarrow& Y
+  }
+$$
+
++-- {: .num_remark}
+###### Remark
+
+The condition in def. \ref{SerreFibration} is part of the condition on a [[Hurewicz fibration]], hence every [[Hurewicz fibration]] is in particular a Serre fibration.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+
+The class of Serre fibrations serves as the class of abstract [[fibrations]] in the [[classical model structure on topological spaces]] (whence "Serre-Quillen model structure"). 
+
+=--
+
 
 ## Properties
  {#Properties}
 
+### Long exact sequences of homotopy groups
 
 +-- {: .num_prop #SerreFibrationGivesExactSequenceOfHomotopyGroups}
 ###### Proposition
 
-Let $f\colon X \longrightarrow Y$ be a [[Serre fibration]], def. \ref{SerreFibration}, let $x \colon \ast \to Y$ be any point and write 
+Let $f\colon X \longrightarrow Y$ be a [[Serre fibration]], def. \ref{SerreFibration}, let $y \colon \ast \to Y$ be any point and write 
 
 $$
-  F_x \overset{\iota}{\hookrightarrow} X \overset{f}{\longrightarrow} Y
+  F_y \overset{\iota}{\hookrightarrow} X \overset{f}{\longrightarrow} Y
 $$
 
-for the [[fiber]] inclusion over that point. Then for every choice $\hat x \colon \ast \to X$ of lift of the point $x$ to the fiber, the induced sequence of [[homotopy groups]]
+for the [[fiber]] inclusion over that point. Then for every choice $x \colon \ast \to X$ of lift of the point $y$ through $f$, the induced sequence of [[homotopy groups]]
 
 $$
 
-  \pi_{\bullet}(F_x,\hat x)
+  \pi_{\bullet}(F_y, x)
     \overset{\iota_\ast}{\longrightarrow}
-  \pi_\bullet(X, \hat x)
+  \pi_\bullet(X, x)
     \overset{f_\ast}{\longrightarrow}
   \pi_\bullet(Y)
 $$
 
-is [[exact sequence|exact]], in that $ker(f_\ast) \simeq im(\iota_\ast)$.
+is [[exact sequence|exact]], in that the [[kernel]] of $f_\ast$ is canonically identified with the [[image]] of $\iota_\ast$: 
+
+$$
+  ker(f_\ast) \simeq im(\iota_\ast)
+  \,.
+$$
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-It is clear that the image of $\iota_\ast$ is in the kernel of $f_\ast$ (every sphere in $F_x\hookrightarrow X$ becomes constant on $x$, hence contractible, when sent forward to $Y$).
+It is clear that the image of $\iota_\ast$ is in the kernel of $f_\ast$ (every sphere in $F_y\hookrightarrow X$ becomes constant on $y$, hence contractible, when sent forward to $Y$).
 
-For the converse, let $[\alpha]\in \pi_{\bullet}(X,\hat x)$ be represented by some $\alpha \colon S^{n-1} \to X$. Assume that $[\alpha]$ is in the kernel of $f_\ast$. This means equivalently that $\alpha$ fits into a [[commuting diagram]] of the form
+For the converse, let $[\alpha]\in \pi_{\bullet}(X,x)$ be represented by some $\alpha \colon S^{n-1} \to X$. Assume that $[\alpha]$ is in the kernel of $f_\ast$. This means equivalently that $\alpha$ fits into a [[commuting diagram]] of the form
 
 $$
   \array{
@@ -74,10 +118,18 @@ $$
     \\
     D^n &\overset{\kappa}{\longrightarrow}& Y
   }
-  \,.
+  \,,
 $$
 
-Now since $\hat x$ is a lift of $x$, there is a [[left homotopy]] $\eta$ as follows
+where $\kappa$ is the contracting homotopy witnessing that $f_\ast[\alpha] = 0$.
+
+Now since $x$ is a lift of $y$, there exists a [[left homotopy]] 
+
+$$
+  \eta  \;\colon\; \kappa \Rightarrow const_y
+$$ 
+
+as follows:
 
 $$
   \array{
@@ -93,19 +145,21 @@ $$
     \\
     \downarrow && &&  \downarrow
     \\
-    \ast && \overset{x}{\longrightarrow} && Y
+    \ast && \overset{y}{\longrightarrow} && Y
   }
 $$
 
-(for instance regard $D^n$ as embedded in $\mathbb{R}^n$ such that $0 \in \mathbb{R}^n$ is identified with the basepoint on the boundary of $D^n$ and then take $\eta$ to be given by $\eta(\vec v,t) \coloneqq \kappa(t \vec v)$).
+(for instance: regard $D^n$ as embedded in $\mathbb{R}^n$ such that $0 \in \mathbb{R}^n$ is identified with the basepoint on the boundary of $D^n$ and set $\eta(\vec v,t) \coloneqq \kappa(t \vec v)$).
 
-Here the [[pasting]] of the top two squares is equivalent to the following commuting square
+The [[pasting]] of the top two squares that have appeared this way is equivalent to the following commuting square
 
 $$
   \array{
     S^{n-1} &\longrightarrow& &\overset{\alpha}{\longrightarrow}& X
     \\
-    {}^{\mathllap{(id,1)}}\downarrow && && \downarrow^{\mathrlap{f}}
+    {}^{\mathllap{(id,1)}}\downarrow 
+    &&
+    && \downarrow^{\mathrlap{f}}
     \\
     S^{n-1} \times I 
       &\overset{(\iota_n, id)}{\longrightarrow}& 
@@ -116,13 +170,26 @@ $$
   \,.
 $$
 
-Now because $f$ is a [[Serre fibration]], this has a [[lift]] $\tilde \eta$. (Explicitly: consider the restriction of the horizontal maps to the upper and lower hemisphere of $S^{n-1}$, respectively. Both these restricted diagrams have a lift by the immediate definition of Serre fibration, and both lifts glue along the equator and hence give a lift in the above diagram).
+Because $f$ is a [[Serre fibration]], this has a [[lift]] 
+$$
+  \tilde \eta \;\colon\; S^{n-1} \times I \longrightarrow X
+  \,.
+$$
+(Explicitly: consider the restriction of the horizontal maps to the upper and lower hemisphere $S_\pm^{n-1} \simeq D^{n-1}$ of $S^{n-1}$, respectively. Both these restricted diagrams have a lift by the immediate definition of Serre fibration, and both lifts glue along the equator and hence give a lift in the above diagram).
 
-That lift $\tilde \eta$ combined with the previous diagram gives the following commuting diagram
+Notice that $\tilde \eta$ is a basepoint preserving [[left homotopy]] from $\alpha = \tilde \eta|_1$ to some $\alpha' \coloneqq \tilde \eta|_0$. Being homotopic, they represent the same element of $\pi_{n-1}(X,x)$:
+
+$$
+  [\alpha'] = [\alpha]
+  \,.
+$$
+
+But the new representative $\alpha'$ has the special property that its image in $Y$ is not just trivializable, but trivialized:
+combining $\tilde \eta$ with the previous diagram shows that it sits in the following commuting diagram
 
 $$
   \array{
-    \alpha \colon & S^{n-1} &\overset{(id,0)}{\longrightarrow}& S^{n-1}\times I &\overset{\tilde \eta}{\longrightarrow}& X
+    \alpha' \colon & S^{n-1} &\overset{(id,0)}{\longrightarrow}& S^{n-1}\times I &\overset{\tilde \eta}{\longrightarrow}& X
     \\
     & \downarrow^{\iota_n} && \downarrow^{\mathrlap{(\iota_n,id)}} && \downarrow^{\mathrlap{f}}
     \\
@@ -130,12 +197,12 @@ $$
     \\
     & \downarrow && &&  \downarrow
     \\
-    & \ast && \overset{x}{\longrightarrow} && Y
+    & \ast && \overset{y}{\longrightarrow} && Y
   }
   \,.
 $$
 
-From this, the [[universal property]] of [[fibers]] gives that $\alpha$ factors through $F_x\overset{\iota_x}{\hookrightarrow} X$, hence that $[\alpha]$ is in the image of $\iota_\ast$.
+The commutativity of the outer square says that $f_\ast \alpha'$ is constant, hence that $\alpha'$ is entirely contained in the fiber $F_y$. Said more abstractly, the [[universal property]] of [[fibers]] gives that $\alpha'$ factors through $F_y\overset{\iota}{\hookrightarrow} X$, hence that $[\alpha'] = [\alpha]$ is in the image of $\iota_\ast$.
 
 
 =--
