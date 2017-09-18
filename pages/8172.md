@@ -425,7 +425,7 @@ Let $\overline{E}$ denote the [[homotopy fiber]] of the unit of the ring spectru
 
 $$
   \overline{E}
-    \longrightarrow
+    \overset{i}{\longrightarrow}
   \mathbb{S}
     \overset{e}{\longrightarrow}
   E
@@ -1839,9 +1839,8 @@ With prop. \ref{CoFreeHopfComodulesAreHomNAcyclicForProjectiveN} the proof of th
 
 #### Convergence 
 
+##### $E$-Nilpotent completion
 
-+-- {: .num_defn #ENilpotentCompletion}
-###### Definition
 
 For $X$ a spectrum and $E$ a [[ring spectrum]], consider the inverse sequence 
 
@@ -1852,48 +1851,78 @@ $$
   \right)
 $$
 
-associated to the normalized $E$-Adams resolution of $X$, as in example \ref{NormalizedEResolutionAssociatedSequence}. The **[[E-nilpotent completion]]** $E^{\hat{}} X$ of $X$ is the [[homotopy limit]] over the sequence of [[homotopy cofibers]] of this tower:
+associated to the normalized $E$-Adams resolution of $X$, as in example \ref{NormalizedEResolutionAssociatedSequence}. 
+
++-- {: .num_defn #ENilpotentCompletion}
+###### Definition
+
+For $n \in \mathbb{N}$, write
 
 $$
-  E\hat{}X
+  \overline{E}_n 
+   \coloneqq
+  hocof( \overline{E}^n \overset{i^n}{\longrightarrow} \mathbb{S})
+  \,.
+$$
+
+Here $\overline{E}_0 \simeq 0$.
+
+The **[[E-nilpotent completion]]** $X^\wedge E$ of $X$ is the [[homotopy limit]] 
+
+$$
+  X^\wedge_E
     \coloneqq
   \underset{\longleftarrow}{\lim}
   \left(
     \cdots
-    \to
-    cofib(\overline{E}\wedge \overline{E}\wedge X)
-    \to
-    cofib(\overline{E}X \to X)
-    \to
-    0
+     \longrightarrow
+    \overline{E}_2 \wedge X
+      \longrightarrow
+    \overline{E}_1 \wedge X
+      \longrightarrow
+    \overline{E}_0 \wedge X
   \right)
+$$
+
+or rather the canonical morphism
+
+$$
+  X \longrightarrow X^\wedge_E
   \,.
 $$
 
-This exists and comes with a canonical morphism $X \to E\hat{}X$.
 
 =---
 
-([Bousfield 79, prop. 5.5](#Bousfield79), recalled as [Ravenel 84, theorem 1.13](#Ravenel84))
+([Bousfield 79, top, middle and bottom of page 272](#Bousfield79), recalled as [Ravenel 84, theorem 1.13](#Ravenel84))
 
 
 ([Ravenel 84, example 1.16](#Ravenel84)
 
++-- {: .num_defn #SheavesOnCartSp}
+###### Definition
 
+In ([Bousfield 79](#Bousfield79)) the $E$-nilpotent completion of $X$ (def. \ref{ENilpotentCompletion}) this is denoted "$E^\wedge X$". The notation we use here is more common among modern authors.
+
+=--
 
 +-- {: .num_remark #CanonicalMapFromELocalizationToTotalization}
 ###### Remark
 
-There is a canonical map
+The nilpotent completion $X^\wedge_E$ is $E$_local.
+This induces a universal morphism
 
 $$
-  L_E X \stackrel{}{\longrightarrow} \underset{\leftarrow}{\lim}_n (E^{\wedge^{n+1}_S}\wedge_S X)
+  L_E X 
+    \overset{}{\longrightarrow} 
+  X^\wedge_E
 $$
 
-from the $E$-[[Bousfield localization of spectra]] of $X$ into the [[totalization]].
-
+from the $E$-[[Bousfield localization of spectra]] of $X$ into the $E$-nilmpotent completion
 
 =--
+
+([Bousfield 79, top of page 273](#Bousfield79))
 
 We consider now conditions for this morphism to be an [[equivalence]].
 
@@ -1920,19 +1949,21 @@ Let $E$ be a [[connective spectrum|connective]] [[ring spectrum]] such that the 
 
 * the [[localization of a ring|localization]] of the [[integers]] at a set $J$ of [[primes]], $c \pi_0(E) \simeq \mathbb{Z}[J^{-1}]$;
 
-* $\mathbb{Z}_n$ for $n \geq 2$.
+* $\mathbb{Z}/n\mathbb{Z}$ for $n \geq 2$.
 
 Then the map in remark \ref{CanonicalMapFromELocalizationToTotalization} is an equivalence
 
 $$
-  L_E X \stackrel{\simeq}{\longrightarrow} 
-  \underset{\leftarrow}{\lim}_n (E^{\wedge^{n+1}_S}\wedge_S X)
+  L_E X 
+    \stackrel{\simeq}{\longrightarrow} 
+  X^\wedge_E
   \,.
 $$
 
 =--
 
-([Bousfield 79](#Bousfield79)).
+([Bousfield 79, theorem 6.5, theorem 6.6](#Bousfield79)).
+
 
 +-- {: .num_examples #ExamplesOfEnilpotentLocalizations}
 ###### Example
@@ -1940,7 +1971,7 @@ $$
 * $E = H \mathbb{F}_p$ the [[Eilenberg-MacLane spectrum]] of a [[prime field]]. For $X$ a [[connective spectrum]], its $H \mathbb{F}_p$-nilpotent completion is its [[p-completion]]
 
   $$
-    (H\mathbb{F}_p)\hat{}X
+    X^\wedge_{(H\mathbb{F}_p)}
     \simeq
     X^{\hat{}}_p 
     \coloneqq
