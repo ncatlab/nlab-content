@@ -4,6 +4,8 @@
 
 
 
+
+
 ***
 
 This page is a detailed introduction to basic [[topology]].
@@ -81,8 +83,7 @@ Beware that the popular imagery of "[[rubber-sheet geometry]]" only captures par
 in that it invokes spaces that _locally_ still look like [[metric spaces]].
 But the concept of topological spaces is a good bit more general.
 Notably [[finite topological spaces]] are either [[discrete topological space|discrete]] or very much unlike
-[[metric spaces]], they play a role in [[categorical logic]]. Also in [[geometry]] exotic topological
-spaces frequently arise when  forming non-free [[quotients]].
+[[metric spaces]] (example \ref{FiniteT1SpacesAreDiscrete} below), they play a role in [[categorical logic]]. Also in [[geometry]] exotic topological spaces frequently arise when  forming non-free [[quotients]].
 In order to gauge just how many of such "exotic" examples of topological  spaces beyond locally [[metric spaces]] one wishes
 to admit in the theory,
 extra "[[separation axioms]]" are imposed on topological spaces (see [below](#SeparationAxiom)), and the flavour of topology as a field
@@ -180,6 +181,19 @@ for the [[sphere]] of [[radius]] $\epsilon$ around $x$.
 
 =--
 
++-- {: .num_defn #MetricSpaceBoundedSubset}
+###### Definition
+
+For $(X,d)$ a [[metric space]] (def. \ref{MetricSpace}) then a [[subset]] $S \subset X$
+is called a _[[bounded subset]]_ if $S$ is contained in some [[open ball]] (def. \ref{OpenBalls})
+
+$$
+  S \ubset B^\circ_x(r)
+$$
+
+around some $x \in X$ of some [[radius]] $r \in \mathbb{R}$.
+
+=--
 
 A key source of metric spaces are [[norm|normed]] _[[vector spaces]]_:
 
@@ -597,10 +611,9 @@ is complete in this sense is called a _[[Banach space]]_.
 =--
 
 
-Finally recall the concept of [[compactness]] of [[metric spaces]] via [[epsilontic analysis]]:
+Finally recall the concept of _[[compactness]]_ of [[metric spaces]] via [[epsilontic analysis]]:
 
-
-+-- {: .num_defn #SequentiallyCompact}
++-- {: .num_defn #MetricSpaceSequentiallyCompact}
 ###### Definition
 
 A [[metric space]] $(X,d)$ (def. \ref{MetricSpace}) is called _[[sequentially compact space|sequentially compact]]_
@@ -618,13 +631,15 @@ For a [[metric space]] $(X,d)$ (def. \ref{MetricSpace}) the following are equiva
 
 1. $X$ is [[sequentially compact space|sequentially compact]];
 
-1. every [[open cover]] $\{U_i \to X\}_{i \in I}$ of $X$ has
- a _finite subcover_ in that there is a [[finite set|finite]] [[subset]] $J \subset I$ such that
- $\{U_i \to X\}_{i \in J}$ is still a cover of $X$: $\underset{i \in J}{\cup} U_i = X$.
+1. for every [[set]] $\{U_i \subset X\}_{i \in I}$ of [[open subsets]] $U_i$ of $X$ (def. \ref{OpenSubsetsOfAMetricSpace})
+   which cover $X$ in that $X = \underset{i \in I}{\cup} U_i$, then
+   there exists a [[finite set|finite]] [[subset]] $J \subset I$ of these open subsets which still covers
+   $X$ in that also $X = \underset{i \in J \subset I}{\cup} U_i = X$.
 
 =--
 
 For a proof see at _[[sequentially compact metric spaces are equivalently compact metric spaces]]_.
+This proof is most conveniently formulated some of the terminology of topology which we introduce in the following.
 
 
 
@@ -1902,7 +1917,7 @@ All separation axioms are satisfied by [[metric spaces]] (def. \ref{MetricSpace}
 
 
 
-#### $T_n$-Topological spaces
+#### Hausdorff spaces
  {#TnTopologicalSpaces}
 
 
@@ -1949,11 +1964,41 @@ For definiteness, we re-state these conditions formally. Write $x,y \in X$ for p
 
 * **(T2)** $\underset{x \neq y}{\forall} \left( \underset{U_x, U_y}{\exists} \left( U_x \cap U_y = \emptyset\right) \right)$
 
+=--
 
+$\,$
 
++-- {: .num_example}
+###### Example
+**(metric spaces are Hausdorff)**
 
+Every [[metric space]] (def \ref{MetricSpace}), regarded as a [[topological space]] via its [[metric topology]] (def. \ref{MetricTopology})
+is a [[Hausdorff topological space]] (def. \ref{HausdorffTopologicalSpace}).
 
 =--
+
++-- {: .num_example #FiniteT1SpacesAreDiscrete}
+###### Example
+**(finite $T_1$-spaces are discrete)**
+
+For a [[finite topological space]] $(X,\tau)$, hence one for which the underlying set $X$ is a [[finite set]],
+the following are equivalent:
+
+1. $(X,\tau)$ is $T_1$ (def. \ref{HausdorffTopologicalSpace});
+
+1. $(X,\tau)$ is a [[discrete topological space]] (def. \ref{CoDiscreteTopology})
+
+=--
+
++-- {: .num_example}
+###### Example
+
+Let $(X,\tau)$ be a [[topological space]] satisfying the $T_i$ [[separation axiom]] according to 
+def. \ref{HausdorffTopologicalSpace}. Then also every [[topological subspace]] of $(X,\tau)$ (def. \ref{SubspaceTopology}) satisfies $T_i$.
+
+=--
+
+
 
 $\,$
 
@@ -2052,6 +2097,119 @@ not containing the diagonal, i.e. such that $U_x \cap U_y = \emptyset$. Hence $X
 
 
 #### Hausdorff reflection
+ {#HausdorffReflections}
+
+Not every [[universal construction]] of [[topological spaces]] applied to [[Hausdorff topological spaces]]
+results again in a Hausdorff topological space, notably [[quotient space]] constructions need not
+(example \ref{LineWithTwoOrigins} below).
+
+But there is a universal way, called _[[Hausdorff reflection]]_ (prop. \ref{HausdorffReflection} below), 
+to approximate any topological space "from the left" by a Hausdorff topological spaces. 
+
+Hence if one wishes to work withing the [[full subcategory]] of the [[Hausdorff topological spaces]]
+among all [[topological space]], then the correct way to construct quotients and other _[[colimits]]_
+(see [below](#UniversalConstructions)) is to first construct them as usual for topological spaces, 
+and then apply the Hausdorff reflection to the result.
+
+
++-- {: .num_example #LineWithTwoOrigins}
+###### Example
+**([[line with two origins]])**
+
+Consider the [[disjoint union]] $\mathbb{R} \sqcup \mathbb{R}$ of two copies of the [[real line]] $\mathbb{R}$ regarded 
+as the 1-dimensional [[Euclidean space]] (def. \ref{EuclideanNorm}) with its [[metric topology]] (def. \ref{MetricTopology}). Moreover, consider the [[equivalence relation]] on the underlying set which identifies every
+point $x_i$ in the $i$th copy of $\mathbb{R}$ ($i \in \{0,1\}$) with the corresponding point in the other, the $(1-i)$th copy, except when $x = 0$:
+
+$$
+  \left(
+    x_i \sim y_j
+  \right)
+   \;\Leftrightarrow\;
+  \left(
+    \left(
+      x = y
+    \right)
+    \,\text{and}\,
+    \left(
+      \left(
+        x \neq 0
+      \right)
+      \,\text{or}\,
+      \left(
+        i = j
+      \right)
+    \right)
+  \right)
+  \,.
+$$
+
+The [[quotient topological space]] by this equivalence relation (def. \ref{QuotientTopologicalSpace})
+
+$$
+  \left(
+    \mathbb{R} \sqcup \mathbb{R}
+  \right)/\sim
+$$
+
+is called the **line with two origins**.
+
+This is a basic example of a topological space which is a [[non-Hausdorff topological space]]:
+
+Because by definition of the [[quotient topological space|quotient space topology]], the [[open neighbourhoods]] of $0_i \in   \left( \mathbb{R} \sqcup \mathbb{R} \right)/\sim$ are precisely those that contain subsets of the form
+
+$$
+ (-\epsilon, \epsilon)_i
+  \;\coloneqq\;
+ (-\epsilon,0) \cup \{0_i\} \cup (0,\epsilon)
+ \,.
+$$
+
+But this means that the "two origins" $0_0$ and $0_1$ may not be [separated by neighbourhoods](separation+axioms#SeparatedByNeighbourhoods), since the intersection of
+$(-\epsilon, \epsilon)_0$ with $(-\epsilon, \epsilon)_i$ is always non-empty:
+
+$$
+  (-\epsilon, \epsilon)_0
+   \cap
+  (-\epsilon, \epsilon)_1
+  \;=\;
+  (-\epsilon, 0) \cup (0, \epsilon)
+  \,.
+$$
+
+=--
+
++-- {: .num_example #RQuotientedByQ}
+###### Example
+
+Consider the [[real line]] $\mathbb{R}$ regarded
+as the 1-dimensional [[Euclidean space]] (def. \ref{EuclideanNorm}) with its [[metric topology]] (def. \ref{MetricTopology})
+and consider the [[equivalence relation]] $\sim$ on $\mathbb{R}$ which identifies two [[real numbers]] if they
+differ by a [[rational number]]:
+
+$$
+  \left(
+    x \sim y
+  \right)
+    \;\Leftrightarrow\;
+  \left(
+    \underset{p/q \in \mathbb{Q} \subset \mathbb{R}}{\exists}
+      x = y + p/q
+  \right)
+  \,.
+$$
+
+Then the [[quotient topological space]] (def. \ref{QuotientTopologicalSpace})
+
+$$
+  \mathbb{R}/\mathbb{Q}
+    \;\coloneqq\;
+  \mathbb{R}/\sim
+$$
+
+is a [[codiscrete topological space]] (def. \ref{CoDiscreteTopology}), hence in particular a 
+[[non-Hausdorff topological space]] (def. \ref{HausdorffTopologicalSpace}).
+
+=--
 
 +-- {: .num_prop #HausdorffReflection}
 ###### Proposition
@@ -2262,6 +2420,29 @@ To see that every continuous function $f \colon X \longrightarrow Y$ into a Haus
 
 =--
 
++-- {: .num_example}
+###### Example
+
+The [[Hausdorff reflection]] (prop. \ref{HausdorffReflection})
+
+$$
+  H \;\colon\; Top \longrightarrow Top_{Haus}
+$$
+
+of the [[line with two origns]] from example \ref{LineWithTwoOrigins} is the [[real line]] itself:
+
+$$
+  H\left(
+    \left(
+      \mathbb{R} \sqcup \mathbb{R}
+    \right)/\sim
+  \right)
+  \;\simeq\;
+  \mathbb{R}
+  \,.
+$$
+
+=--
 
 
 ### Sober spaces
@@ -2366,7 +2547,7 @@ That neither class is contained in the other is shown by the following counter-e
 
 
 
-#### As locales with enough points
+#### Frames of opens
 
 
 What makes the concept of [[sober topological spaces]] special is that
@@ -2715,17 +2896,64 @@ Here on the right we used again lemma \ref{UnitIntoSXDetectsT0AndSoberity} to fi
 ### Compact spaces
  {#CompactSpaces}
 
-A [[metric space]] is called _[[sequentially compact space|sequntially compact]]_ (recalled below as def. \ref{SequentiallyCompact})
-if every [[sequence]] of points in it has a [[sub-sequence]] which [[convergence|converges]]. Here we discuss how
-to generalize this concept of compactness from [[metric spaces]] to [[topological spaces]].
+From the discussion of [[compact topological space|compact]] [[metric spaces]] in 
+def. \ref{MetricSpaceSequentiallyCompact} and prop. \ref{CompactnessImpliedBySequentialCompactnessForMetricSpace}
+it is now immediate how to generalize these concepts to [[topological spaces]].
 
-The right definition turns out to be this one:
+The most naive version of the definition directly generalizes the concept via converging 
+sequences from def. \ref{MetricSpaceSequentiallyCompact}:
+
++-- {: .num_defn #TopologicalSpaceSequeneConverging}
+###### Definition
+
+Let $(X,\tau)$ be a [[topological space]] (def. \ref{TopologicalSpace}) and let 
+$(x_n)_{n \in \mathbb{N}}$ be a [[sequence]] of points $(x_n)$ in $X$ (def. \ref{Sequences}).
+We say that this sequence _[[convergnce|converges]]_ in $(X,\tau)$ to a point $x_\infty \in X$,
+denoted
+
+$$
+  x_n \overset{n \to \infty}{\longrightarrow} x_\infty
+$$
+
+if for each open [[neighbourhood]] $U_{x_\infty}$ of $x_\infty$ there exists a $k \in \mathbb{N}$ such that
+for all $n \geq k$ then $x_n \in U_{x_\infty}$:
+
+$$
+  \left(
+    x_n \overset{n \to \infty}{\longrightarrow} x_\infty
+  \right)
+   \;\Leftrightarrow\;
+  \underset{U_{x_\infty} \in \tau_X}{\forall}
+  \left(
+    \underset{k \in \mathbb{N}}{\exists}
+    \left(
+      \underset{n \geq k}{\forall}
+        \, x_n \in U_{x_\infty} \,
+    \right)
+  \right)
+  \,.
+$$
+
+=--
+
++-- {: .num_defn }
+###### Definition
+
+Let $(X,\tau)$ be a [[topological space]] (def. \ref{TopologicalSpace}). It is called
+_[[sequentially compact topological space|sequentially compact]]_ if for every [[sequence]]
+of points $(x_n)$ in $X$ (def. \ref{Sequences}) there exists a sub-sequence $(x_{n_k})_{k \in \mathbb{N}}$
+which [[convergence|converges]] acording to def. \ref{TopologicalSpaceSequeneConverging}.
+
+=--
+
+But prop. \ref{CompactnessImpliedBySequentialCompactnessForMetricSpace} suggests to consider
+also another definition of compactness for topological spaces:
 
 +-- {: .num_defn #OpenCover}
 ###### Definition
 
 An _[[open cover]]_ of a [[topological space]] $X$ (def. \ref{TopologicalSpace})
-is a collection $\{U_i \subset X\}_{i \in I}$ of [[open subsets]] $U_i$ of $X$,
+is a [[set]] $\{U_i \subset X\}_{i \in I}$ of [[open subsets]] $U_i$ of $X$,
 indexed by some [[set]] $I$, such that their [[union]] is all of $X$:
 
 $$
@@ -2741,20 +2969,35 @@ $$
 A [[Hausdorff topological space|Hausdorff]] [[topological space]] $X$ (def. \ref{TopologicalSpace}) is called a
  _[[compact topological space]]_ if every [[open cover]] $\{U_i \to X\}_{i \in I}$ (def. \ref{OpenCover}) has
  a _finite subcover_ in that there is a [[finite set|finite]] [[subset]] $J \subset I$ such that
- $\{U_i \to X\}_{i \in J}$ is still a cover of $X$, i.e.  $\underset{i \in J}{\cup} U_i = X$.
+ $\{U_i \to X\}_{i \in J}$ is still a cover of $X$ in that  $\underset{i \in J}{\cup} U_i = X$.
 
 =--
 
++-- {: .num_example }
+###### Example
 
+A [[discrete topological space]] (def. \ref{}) is [[compact topological space|compact]] (def. \ref{CompactTopologicalSpace}) 
+precisely it its underlying set is [[finite set|finite]].
 
+=--
 
 
 +-- {: .num_prop }
 ###### Proposition
+**([[Heine-Borel theorem]])**
 
-The [[Heine-Borel theorem]] asserts that a subspace $S \subset \mathbb{R}^n$ of a [[Cartesian space]] is compact precisely if it is [[closed subset|closed]] and [[bounded subset|bounded]].
+For $n \in \mathbb{N}$, regard $\mathbb{R}^n$ as the $n$-dimensional [[Euxclidean space]] via example \ref{EuclideanNorm},
+regarded as a [[topological space]] via its [[metric topology]] (def. \ref{MetricTopology}).
+
+Then for a [[topological subspace]] $S \subset \mathbb{R}^n$ the following are equivalent: 
+
+1. $S$ is  [[compact topological space|compact]] according to def. \ref{CompactTopologicalSpace},
+
+^. $S$ is [[closed subset|closed]] (def. \ref{ClosedSubset}) and [[bounded subset|bounded]] (def. \ref{MetricSpaceBoundedSubset}).
 
 =--
+
+
 
 +-- {: .num_prop }
 ###### Proposition
@@ -2763,12 +3006,6 @@ The [[Heine-Borel theorem]] asserts that a subspace $S \subset \mathbb{R}^n$ of 
 
 =--
 
-+-- {: .num_prop }
-###### Proposition
-
-A [[discrete space]] is compact iff its underlying set is [[finite set|finite]].  In [[constructive mathematics]], a discrete space is compact iff its underlying set is [[Kuratowski-finite]].
-
-=--
 
 
 
@@ -3875,7 +4112,8 @@ Lecture notes include
 * [[Friedhelm Waldhausen]], _Topologie_ ([pdf](https://www.math.uni-bielefeld.de/~fw/ein.pdf))
 
 * Alex Kuronya, _Introduction to topology_, 2010 ([pdf](https://www.uni-
-frankfurt.de/64271720/TopNotes_Spring10.pdf))
+frankfurt.de/64271720/TopNotes_Spring
+10.pdf))
 
 * Anatole Katok, Alexey Sossinsky, _Introduction to modern topology and geometry_ ([pdf](http://www.personal.psu.edu/axk29/MASS-07/Background-forMASS.pdf))
 
