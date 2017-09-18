@@ -1,0 +1,17 @@
+
+## Idea
+
+There is a proposal for a toy version of the [[AdS-CFT correspondence]] in terms of [[p-adic string theory]]. The [[bulk]] [[spacetime]] is identified with the [[Bruhat-Tits tree]] for the [[projective general linear group]] $PGL(2,\mathbb{Q}_p)$
+
+## Related concepts
+
+* [[holographic entanglement entropy]]
+
+## References
+
+
+* [[Steven Gubser]], Johannes Knaute, Sarthak Parikh, Andreas Samberg, Przemek Witaszczyk, _$p$-adic AdS/CFT_ ([arXiv:1605.01061](https://arxiv.org/abs/1605.01061))
+
+* Matthew Heydeman, [[Matilde Marcolli]], Ingmar Saberi, Bogdan Stoica, _Tensor networks, $p$-adic fields, and algebraic curves: arithmetic and the AdS$_3$/CFT$_2$ correspondence_ ([arXiv:1605.07639](https://arxiv.org/abs/1605.07639))
+
+* [[Steven Gubser]], Sarthak Parikh, _Geodesic bulk diagrams on the Bruhat-Tits tree_ ([arXiv:1704.01149](https://arxiv.org/abs/1704.01149))
