@@ -33,7 +33,7 @@ $$
   (f_! \dashv f^* \dashv f_*) 
   \;\;\; : \;\;\;
   E
-    \stackrel{\overset{f_!}{\to}}{\stackrel{\overset{f^*}{\leftarrow}}{\underset{f_*}{\to}}}
+    \stackrel{\overset{f_!}{\longrightarrow}}{\stackrel{\overset{f^*}{\longleftarrow}}{\underset{f_*}{\longrightarrow}}}
   F
   \,.
 $$
