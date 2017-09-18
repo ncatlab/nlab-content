@@ -44,6 +44,43 @@ of the pointwise [[stabilizer]] of $M$ in $N$ into the full automorphism group o
 
 * A [[first-order theory]] T [[quantifier elimination|eliminates quantifiers]] if and only if it is "substructure-complete": given any model $M$ of $T$ and any _substructure_ $N \subseteq M$, $T_{\mathsf{Diag}(N)}$ is complete.
 
++-- {: .num_remark}
+###### Remark
+
+The process of passing from $T$ to $T_{\mathsf{Diag}(M)}$ (resp. $\mathsf{EDiag}$) is [[functorial]] in the way you would expect the process of passing from a category of models to a co-slice category of models to be on corepresenting objects.
+
+That is (now [[elimination of imaginaries|eliminating imaginaries]] and working with the [[pretopos completion|pretopos completions]] of [[syntactic category|syntactic categories]]): if $T'$ is an $\mathcal{L}'$-theory and $M$ is an $\mathcal{L}'$-structure, and $T$ is an $\mathcal{L}$-theory over $T'$ via an interpretation $T \overset{F}{\to} T'$, then there are naturally-induced interpretations
+
+$$T'_{\mathsf{Diag}(F^*M)} \to T_{\mathsf{Diag}(M)} $$
+
+and
+
+$$T'_{\mathsf{EDiag}(F^*M)} \to T_{\mathsf{EDiag}(M)}.$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The [[interpretation]] $F$ induces a "taking reducts" functor
+
+$$F^* \overset{\operatorname{df}}{=} \mathbf{Mod}(F) = \mathbf{Pretop}(F, \mathbf{Set}) : \mathbf{Mod}(T) \to \mathbf{Mod}(T').$$
+
+We restrict $F^*$ to the full subcategory consisting of those models of $T$ embedding (resp. elementarily embedding) the structure $M$. These are [[elementary class|elementary classes]], and so those full subcategories are sub-[[ultracategory|ultracategories]] of $\mathbf{Mod}(T)$. The restrictions of $F^*$ are ultrafunctors
+
+$$ \underline{\mathbf{Mod}}(T_{\mathsf{Diag}(M)}) \to  \underline{\mathbf{Mod}}(T'_{\mathsf{Diag}(F^*M)})$$
+
+and
+
+$$  \underline{\mathbf{Mod}}(T_{\mathsf{EDiag}(M)}) \to \underline{\mathbf{Mod}}(T'_{\mathsf{EDiag}(F^*M)})$$
+
+because $F^*$ already was, and so by Makkai's [[strong conceptual completeness]], must be reflected by the desired interpretations.
+
+(That the latter functor is well-defined just follows from the fact that specifying an object $c \in \mathbf{C}$ and a functor $G : \mathbf{C} \to \mathbf{D}$ naturally induces a functor on the [[co-slice category|co-slice categories]] $c/\mathbf{C} \to G(c)/\mathbf{D}$. That the former functor is well-defined is less automatic but still trivial to check.)
+
+=--
+
+
 ## Related concepts
 * [[first-order structure]]
 
