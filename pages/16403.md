@@ -203,7 +203,7 @@ $$
 which "omits" the $k$th canonical coordinate:
 
 $$
-  (x_0, \cdots , x_{n-1}) \mapsto (x_0, \cdots, x_{k-1} , 0 , x_{k}, \cdots, x_n)
+  (x_0, \cdots , x_{n-1}) \mapsto (x_0, \cdots, x_{k-1} , 0 , x_{k}, \cdots, x_{n-1})
   \,.
 $$
 
@@ -1446,7 +1446,7 @@ As an important special case we have:
 +-- {: .num_example #BGGroupoidAsActionGroupoid}
 ###### Example
 
-For $G$ a [[discrete]] group and $\rho$ the trivial action of $G$ on the point $\ast$ (the singleton set), the coresponding [[action groupoid]] according to def. \ref{ActionGroupoid} is the [[delooping]] groupoid of $G$ according to def. \ref{DeloopingGroupoid}:
+For $G$ a [[discrete]] group and $\rho$ the trivial action of $G$ on the point $\ast$ (the singleton set), the corresponding [[action groupoid]] according to def. \ref{ActionGroupoid} is the [[delooping]] groupoid of $G$ according to def. \ref{DeloopingGroupoid}:
 
 $$
   (\ast //G)_\bullet = (\mathbf{B}G)_\bullet
