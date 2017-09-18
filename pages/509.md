@@ -395,7 +395,7 @@ be computed. But one readily checks that in this special case this does not affe
 
 Let $\mathcal{C}$ be a [[closed monoidal category]] with [[finite limits]].
 
-For $X, Y \in \mathcal{C}^{\ast}$ two pointed objects in $\mathcal{C}$, their **pointed [[mapping space]]** 
+For $X, Y \in \mathcal{C}^{\ast}$ two pointed objects in $\mathcal{C}$, their **[[pointed mapping space]]** 
 
 $$
   [X,Y]_*
