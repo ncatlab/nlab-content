@@ -111,3 +111,5 @@ See also
 
 * myyn.org (Planetmath) [Thom space](http://myyn.org/m/article/thom-space), [Thom class](http://myyn.org/m/article/thom-class), [Thom isomorphism theorem](http://myyn.org/m/article/thom-isomorphism-theorem)
 
+
+[[!redirects Thom isomorphisms]]
