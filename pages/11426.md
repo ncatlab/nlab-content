@@ -11,6 +11,9 @@ $$
   MO = \underset{\rightarrow}{\lim}(B O \stackrel{J}{\to} B GL_1(\mathbb{S}) \to Spectra)
 $$
 
+
+As a [[symmetric spectrum]]: [Schwede 12, Example I.2.8](#Schwede12)
+
 ## Related concepts
 
 * [[MU]], [[complex cobordism cohomology]]
@@ -19,3 +22,6 @@ $$
 
 * [[KO]]
 
+## References
+
+* {#Schwede12} [[Stefan Schwede]], Example I.2.8 in _Symmetric spectra_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec.pdf))
