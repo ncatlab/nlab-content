@@ -1,0 +1,63 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Philosophy
++-- {: .hide}
+[[!include philosophy - contents]]
+=--
+=--
+=--
+
+
+* [[Kant]]
+
+  _Kritik der Reinen Vernunft_
+
+  (Critique of Pure Reason)
+
+  1781/1787
+
+
+## Contents
+
+....
+
+
+## On Aristotelian logic
+
+
+Regarding [[Aristotelian logic]]:
+
+> _Concepts ... serve as predicates of possible judgements._ ([[Critique of Pure Reason]] A69/B94)
+
+Compare to the identification of concepts with the [[types]] in the sense of [[type theory]], see the references [here](Science+of+Logic#ReferencesConceptLogicAsTypeTheory).
+
+....
+
+
+## Related entries
+
+* [[category (philosophy)]]
+
+* [[Aristotelian logic]]
+
+* [[idealism]]
+
+* [[Science of Logic]]
+
+
+## References
+
+* Wikipedia, _[Critique of Pure Reason](https://en.wikipedia.org/wiki/Critique_of_Pure_Reason)_
+
+
+
+category: reference
+
+
+[[!redirects Kritik der Reinen Vernunft]]
+
+[[!redirects KrV]]
+
+
