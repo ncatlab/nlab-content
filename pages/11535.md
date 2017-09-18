@@ -1,5 +1,10 @@
 <div style="float:left;margin:0 10px 10px 0;"><img src="https://lh4.googleusercontent.com/-Y3_sV_ks7a8/U4PWQ4BtYVI/AAAAAAAAAp0/coMxk-fGceo/w140-h139-p/IMG_20140524_120431.jpg" alt="Sanath Devalapurkar" /></div>
-I am a $14$-year old student aspiring to be a mathematician. I love studying higher category theory. Right now, I'm interested in a version of "$\mathit{K}$-theory" (it's a construction analagous to ordinary algebraic $\mathit{K}$-theory from Quillen's $Q$-construction) of $\mathrm{M}\mathrm{od}^\mathrm{O}_A(\mathrm{C}^\otimes)^\otimes$, where $\mathrm{C}^\otimes$ is a unital $\infty$-operad. [I have taken some notes on the same at my blog.](https://categorymath.files.wordpress.com/2014/08/higher-algebra-k-theory2.pdf) See Lurie's [Higher Algebra](http://www.math.harvard.edu/~lurie/papers/HigherAlgebra.pdf) for terminology.
+I am a $14$-year old student aspiring to be a mathematician. I love studying higher category theory. I've recently been studying the K-theory of $\infty$-operads, and seem to have answered a question posed by Gunnar Carlsson. For more information on this, read my notes available [here](https://www.sharelatex.com/project/54616b63a38cbf0748879f12/output/output.pdf?cache_bust=1418262375589).
+
+More generally, though, what I'm interested in is studying the following interesting analogy:
+><table><tr><th markdown="1">Spectra</th><th markdown="1">$\to$</th><th markdown="1">Stable $\infty$-categories</th></tr></table>
+
+More precisely, I'm interested in studying stable $\infty$-categories like spectra.
 
 **Email:** _[devalapurkarsanath@gmail.com](mailto:devalapurkarsanath@gmail.com)_ or _[categorymath@gmail.com](mailto:categorymath@gmail.com)_ (I would prefer the first).
 
@@ -7,14 +12,6 @@ My websites: [my blog](http://categorymath.wordpress.com), [my page at _Problems
 <hr>
 ##Talk(s) and Notes##
 I will be giving a talk at the AMS Fall Western Sectional Meeting on October 25th at San Francisco State University. I have posted [my notes](https://categorymath.files.wordpress.com/2014/10/ams-fall-western-sectional-meeting-notes.pdf) and [my slides](https://categorymath.files.wordpress.com/2014/10/ams-fall-western-sectional-meeting.pdf) on my blog at the following links. Any comments would be welcome, either on my blog, through email, or on this nlab page itself.
-<hr>
-##Latest Blog Post##
-Here I'll usually post my latest blog post.
-
-###An expanded motivation###
-I recorded a video for this blog post, where I talk about my research, and the motivation for studying the K-theory of infinity operads.
-
-[YouTube video](https://www.youtube.com/watch?v=59HWtdR-QqE).
 <hr>
 Category: people 
 
