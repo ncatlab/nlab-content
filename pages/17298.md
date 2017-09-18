@@ -473,6 +473,7 @@ $$
 ([MMSS 00, prop. 3.4 with construction 2.1](#MMSS00))
 
 ###  Free spectra
+ {#FreeSpectra}
 
 The concept of _[[free spectrum]]_ is a generalization of that of _[[suspension spectrum]]_. In fact the [[stable homotopy types]] of free spectra are precisely those of iterated [[loop space objects]] of [[suspension spectra]]. But for the development of the theory what matters more is free spectra before passing to stable homotopy types, for as such they play the role of the basic cells (as in [[cell complexes]]). Specifically the free spectra on the [[n-spheres]] play the role of generating cells in the stable [[model structures on spectra]] that the plain [[n-spheres]] play in the [[classical model structure on topological spaces]].
 
@@ -516,23 +517,303 @@ $$
 
 ([MMSS 00, section 8](#MMSS00))
 
++-- {: .num_lemma #ExplicitExpressionForFreeSpectra}
+###### Lemma
+
+Under the equivalence of lemma \ref{SModulesAsEnrichedFunctors}
+
+1. the [[free spectrum]] on $K \in Top^{\ast/}$ is 
+
+   $$
+     F^{dia}_n K
+      \;=\;
+     \mathbb{S}_{dia}FreeMod( - , y(n)\wedge \mathbb{S}_{dia} ) \wedge K
+      \;\in\; 
+     [ \mathbb{S}_{dia} FreeMod^{op}, Top^{\ast/}]
+      \;\stackrel{\simeq}{\to}\;
+     \mathbb{S}_{dia}Mod
+     \,,
+   $$
+
+   where $y(n)$ denotes the [[representable functor|functor represented]] by $dia(n)$ (i.e. by $n$ if $dia = Seq$, by $\{1,\cdots,n\}$ if $dia = Sym$, by $\mathbb{R}^n$ if $dia = Orth$ and by $S^n$ if $dia = Top^{\ast/}_{fin}$).
+
+1. On the free $\mathbb{S}_{dia}$-module on $e \in Dia^{op} \stackrel{y}{\hookrightarrow} [Dia, Top^{\ast/}]$ this takes the value
+
+  $$
+    (F^{dia}_n K)(e)
+      \;=\;
+    \underset{\underset{e_1 \otimes e_2 \to e}{\longrightarrow}}{\lim}
+    Dia(n,e_1)\wedge \mathbb{S}_{dia}(e_2) \wedge K
+    \,.
+  $$
+
+=--
+
+([MMSS00, p. 7 with theorem 2.2](#MMSS00))
+
++-- {: .proof}
+###### Proof
+
+Generally, for $\mathcal{C}$ a $V$-[[enriched category|enriched]] [[symmetric monoidal category]], and for $c\in \mathcal{C}$ an object, then there is an [[adjunction]]
+
+$$
+  [\mathcal{C}, V]
+    \stackrel{\overset{y(d)\otimes(-)}{\longleftarrow}}{\underset{(-)_c}{\longrightarrow}}
+  V
+$$
+
+whose characterizing [[natural isomorphism]] is the combination of that of [[tensoring]] with the [[Yoneda embedding]]:
+
+$$
+  [\mathcal{C},V]( y(d) \otimes K, F )
+    \simeq
+  V( K, [\mathcal{C},V]( y(d), F ) )
+    \simeq
+  V(K, F(d))
+  \,.
+$$ 
+
+Specializing this to our case with $V = Top^{\ast/}$ and $\mathcal{C} = \mathbb{S}_{dia} FreeMod^{op}$ yields the first statement. The second follows from similar yoga, see the formula at _[Day convolution -- Modules](Day+convolution#FreeModulesOverAMonoidInDayConvolution)_.
+
+=--
 
 +-- {: .num_prop #ExplicitFormOfFreeSpectra}
 ###### Proposition
 
 Explicitly, the [[free spectra]] according to def. \ref{FreeStructuredSpectrum}, look as follows:
 
-For [[sequential spectra]]: $(F_n K)_q = K \wedge S^{q-n}$;
+For [[sequential spectra]]: $(F^{Seq}_n K)_q \simeq K \wedge S^{q-n}$;
 
-for [[orthogonal spectra]]: $(F_n K)_q = O(q)_+ \wedge_{O(q-n)} K \wedge O^{q-n}$;
+for [[symmetric spectra]]: $(F^{Sym}_n K)_q \simeq \Sigma(q)_+ \wedge_{\Sigma(q-n)} K \wedge S^{q-n}$.
 
-for [[symmetric spectra]]: $(F_n K)_q = \Sigma(q)_+ \wedge_{\Sigma(q-n)} K \wedge S^{q-n}$.
+for [[orthogonal spectra]]: $(F^{Orth}_n K)_q \simeq O(q)_+ \wedge_{O(q-n)} K \wedge S^{q-n}$.
+
+In particular: 
+
+1. $F_0 K = \Sigma^\infty K$;
+
+1. $F_n^{Seq}S^n$ is like the [[suspension spectrum]] of the point (the standard sequential [[sphere spectrum]]) but with its first $n$ components simply removed.
+
 
 =--
 
 (e.g. [Schwede 12, example 3.20](#Schwede12))
 
-(...)
++-- {: .proof}
+###### Proof
+
+By working out the formula in item 2 of lemma \ref{ExplicitExpressionForFreeSpectra}. In the sequential case $(Dia = Seq)$ there exists a morphism $k_1 \otimes k_2 \to k_3$ only if $k_1 + k_2 = k_3$ and then there is a unique such. Hence here the colimit in the formula collapses to
+
+$$
+  \begin{aligned}
+    (F^{Seq}_n K)(q)
+      & \simeq
+    \underset{e_1+e_2 = q}{\coprod} 
+    \underset{\simeq\left\{ \array{S^0 & if\, n = e_1 \\ \ast & otherwise}\right.}{\underbrace{Seq(n,e_1)}} \wedge \mathbb{S}_{dia}(e_2) \wedge K
+    \\
+     & \simeq
+      S^{q-n}\wedge K
+  \end{aligned}
+  \,.
+$$
+
+In the symmetric case ($Dia = Sym$) the formula is similar except that $S^0 = Seq(q,q)_+$ is replaced by $Sym(q,q)_+ = \Sigma(q)_+$ and the colimit goes over the automorphisms that fix $q-n$ elements, thereby producing the partial smash tensor shown in the statement. Analogously for the orthogonal case ($Dia = Orth$).
+
+=--
+
+One use of free spectra, important in the verification of the stable model structures [below](#ProofOfTheStableModelStructure) and in the dicussion of the stable equivalences [further below](#RelatingStableEquivalencesAndStableWeakHomotopyEquivalences), is that they serve to co-represent adjuncts of structure morphisms of spectra. To this end, first consider the following general existence statement.
+
++-- {: .num_lemma #CorepresentingOfAdjunctsOfStructureMapsExists}
+###### Lemma
+
+For each $n \in \mathbb{N}$ there exists a morphism
+
+$$
+  \lambda_n
+    \;\colon\;
+  F_{n+1}^{dia}S^1
+    \longrightarrow
+  F_n^{dia} S^0
+$$
+
+such that for every $X\in \mathbb{S}_{dia} Mod$ precomposition $\lambda_n^\ast$ forms a [[commuting diagram]] of the form
+
+$$
+  \array{
+    \mathbb{S}_{dia}Mod(F^{dia}_n S^0, X) &\simeq& Top^{\ast/}(S^0,X_n) &\simeq& X_n
+    \\
+    \downarrow^{\mathrlap{\lambda_n^\ast}}
+    && &&
+    \downarrow^{\mathrlap{\tilde \sigma^X_n}}
+    \\
+    \mathbb{S}_{dia}Mod(F^{dia}_{n+1} S^1, X)
+    &\simeq&
+    Top^{\ast/}(S^1, X_{n+1})
+    &\simeq&
+    \Omega X_{n+1}
+  }
+  \,,
+$$
+
+where the horizontal equivalences are the [[adjunction]] isomorphisms and the canonical identification, and where the right morphism is the $(\Sigma \dashv \Omega)$-[[adjunct]] of the structure map $\sigma_n$ of the [[sequential spectrum]] $seq^\ast X$ underlying $X$ (def. \ref{NotationForGenericDiagramSpectra}).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Since all prescribed morphisms in the diagram are [[natural transformations]], this is in fact a diagram of copreheaves on $\mathbb{S}_{dia} Mod$
+
+$$
+  \array{
+    \mathbb{S}_{dia}Mod(F^{dia}_n S^0, -) &\simeq& Top^{\ast/}(S^0,(-)_n) &\simeq& (-)_n
+    \\
+    \downarrow^{\mathrlap{}}
+    && &&
+    \downarrow^{\mathrlap{\tilde \sigma^{(-)}_n}}
+    \\
+    \mathbb{S}_{dia}Mod(F^{dia}_{n+1} S^1, -)
+    &\simeq&
+    Top^{\ast/}(S^1, (-)_{n+1})
+    &\simeq&
+    \Omega (-)_{n+1}
+  }
+  \,.
+$$
+
+With this the statement follows by the [[Yoneda lemma]].
+
+=--
+
+Now we say explicitly what these maps are:
+
++-- {: .num_defn #CorepresentationOfAdjunctsOfStructureMaps}
+###### Definition
+
+For $n \in \mathbb{N}$, write
+
+$$
+  \lambda_n \;\colon\; F_{n+1} S^1 \longrightarrow F_n S^0
+$$
+
+for the [[adjunct]] under the ([[free structured spectrum]] $\dashv$ $n$-component)-[[adjunction]] in def. \ref{FreeStructuredSpectrum} of the composite morphism
+
+$$
+  S^1 
+    \stackrel{=}{\to}
+  (F_n^{Seq}(S^0))_{n+1}
+    \stackrel{(f_n^{Seq})_{n+1}}{\hookrightarrow} 
+  (F^{dia}_n S^0)_{n+1}
+  \,,
+$$
+
+where the first morphism is via prop. \ref{ExplicitFormOfFreeSpectra} and the second comes from the adjunction units according to def. \ref{FreeStructuredSpectrum}.
+
+=--
+
+([MMSS 00, def. 8.4](#MMSS00), [Schwede 12, example 4.26](#Schwede12))
+
++-- {: .num_lemma #IndeedCorepresentationOfAdjunctsOfStructureMaps}
+###### Lemma
+
+The morphisms of def. \ref{CorepresentationOfAdjunctsOfStructureMaps} are those whose existence is asserted by prop. \ref{CorepresentingOfAdjunctsOfStructureMapsExists}.
+ 
+=--
+
+([MMSS 00, lemma 8.5](#MMSS00), following [Hovey-Shipley-Smith 00, remark 2.2.12](#HoveyShipleySmith00))
+
+
++-- {: .proof}
+###### Proof
+
+Consider the case $Dia = Seq$ and $n = 0$. All other cases work analogously.
+
+By lemma \ref{ExplicitFormOfFreeSpectra}, in this case the morphism $\lambda_0$ has components like so:
+
+$$
+  \array{
+    \vdots && \vdots
+    \\
+    S^3 &\stackrel{id}{\longrightarrow}& S^3
+    \\
+    S^2 &\stackrel{id}{\longrightarrow}& S^2
+    \\
+    S^1 &\stackrel{id}{\longrightarrow}& S^1
+    \\
+    \ast &\stackrel{0}{\longrightarrow}& S^0
+    \\
+    \underbrace{\,\,\,} && \underbrace{\,\,\,}
+    \\
+    F_1 S^1 &\stackrel{\lambda_0}{\longrightarrow}& F_0 S^0
+  }
+  \,.
+$$
+
+Now for $X$ any sequential spectrum, then a morphism $f \colon F_0 S^0 \to X$ is uniquely determined by its 0th components $f_0 \colon S^0 \to X_0$ (that's of course the very free property of $F_0 S^0$); as the compatibility with the structure maps forces the first component, in particular, to be $\sigma_0^X\circ \Sigma f$:
+
+$$
+  \array{
+    \Sigma S^0 &\stackrel{\Sigma f}{\longrightarrow}& \Sigma X_0
+    \\
+    \downarrow^{\mathrlap{\simeq}} && \downarrow^{\mathrlap{\sigma_0^X}}
+    \\
+    S^1 &\stackrel{\sigma_0^X \circ \Sigma f}{\longrightarrow}& X_1
+  }
+$$
+
+But that first component is just the component that similarly determines the precompositon of $f$ with $\lambda_0$, hence $\lambda_0^\ast f$ is fully fixed as being the map $\sigma_0^X \circ \Sigma f$. Therefore $\lambda_0^\ast$ is the function
+
+$$
+  \lambda_0^\ast
+  \;\colon\;
+  X_0 
+  = 
+  Maps(S^0, X_0)
+  \stackrel{f \mapsto \sigma_0^X \circ \Sigma f}{\longrightarrow}
+  \Maps(S^1, X_1)
+  =
+  \Omega X_1
+  \,.
+$$
+
+It remains to see that this is the $(\Sigma \dashv \Omega)$-[[adjunct]] of $\sigma_0^X$. By the general formula for adjuncts, this is
+
+$$
+  \tilde \sigma_0^X 
+    \;\colon\; 
+  X_0 
+     \stackrel{\eta}{\longrightarrow} 
+  \Omega \Sigma X_0
+     \stackrel{\Omega \sigma_0^X}{\longrightarrow}
+  \Omega X_1
+  \,.
+$$
+
+To compare to the above, we check what this does on points: $S^0 \stackrel{f_0}{\longrightarrow} X_0$ is sent to the composite
+
+$$
+   S^0 
+     \stackrel{f_0}{\longrightarrow}
+   X_0 
+     \stackrel{\eta}{\longrightarrow} 
+   \Omega \Sigma X_0
+     \stackrel{\Omega \sigma_0^X}{\longrightarrow}
+   \Omega X_1
+   \,.
+$$
+
+To identify this as a map $S^1 \to X_1$ we use the adjunction isomorphism once more to throw all the $\Omega$-s on the right back to $\Sigma$-s the left, to finally find that this is indeed
+
+$$
+  \sigma_0^X \circ \Sigma f
+    \;\colon\;
+  S^1 = \Sigma S^0 \stackrel{\Sigma f}{\longrightarrow} \Sigma X_0 \stackrel{\sigma_0^X}{\longrightarrow} X_1
+  \,.
+$$
+
+=--
+
+
 
 ## Part II. Model categories of diagram spectra
  {#PartII}
@@ -697,70 +978,6 @@ We given the proof of theorem \ref{StableModelStructuresOnDiagramSpectra} [below
 
 The generating cofibrations and acylic cofibrations are going to be the those induced via [[tensoring]] of representables from the [[classical model structure on topological spaces]] (giving the strict model structure), together with an additional set of morphisms to the generating acylic cofibrations that will force fibrant objects to be Omega-spectra. To that end we need the following little preliminary.
 
-
-This spring allows to co-represent the [[adjuncts]] of structure morphisms of underlying sequential spectra:
-
-+-- {: .num_lemma #CorepresentingOfAdjunctsOfStructureMapsExists}
-###### Lemma
-
-For each $n \in \mathbb{N}$ there exists a morphism
-
-$$
-  \lambda_n
-  \;\colon\;
-  F_{n+1}^{dia}S^1
-  \longrightarrow
-  F_n^{dia} S^0
-$$
-
-such that for every $X\in \mathbb{S}_{dia} Mod$ precomposition $\lambda_n^\ast$ forms a [[commuting diagram]] of the form
-
-$$
-  \array{
-    \mathbb{S}_{dia}Mod(F^{dia}_n S^0, X) &\simeq& Top^{\ast/}(S^0,X_n) &\simeq& X_n
-    \\
-    \downarrow^{\mathrlap{\lambda_n^\ast}}
-    && &&
-    \downarrow^{\mathrlap{\tilde \sigma^X_n}}
-    \\
-    \mathbb{S}_{dia}Mod(F^{dia}_{n+1} S^1, X)
-    &\simeq&
-    Top^{\ast/}(S^1, X_{n+1})
-    &\simeq&
-    \Omega X_{n+1}
-  }
-  \,,
-$$
-
-where the horizontal equivalences are the [[adjunction]] isomorphisms and the canonical identification, and where the right morphism is the $(\Sigma \dashv \Omega)$-[[adjunct]] of the structure map $\sigma_n$ of the [[sequential spectrum]] $seq^\ast X$ underlying $X$ (def. \ref{NotationForGenericDiagramSpectra}).
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-Since all prescribed morphisms in the diagram are [[natural transformations]], this is in fact a diagram of copreheaves on $\mathbb{S}_{dia} Mod$
-
-$$
-  \array{
-    \mathbb{S}_{dia}Mod(F^{dia}_n S^0, -) &\simeq& Top^{\ast/}(S^0,(-)_n) &\simeq& (-)_n
-    \\
-    \downarrow^{\mathrlap{}}
-    && &&
-    \downarrow^{\mathrlap{\tilde \sigma^{(-)}_n}}
-    \\
-    \mathbb{S}_{dia}Mod(F^{dia}_{n+1} S^1, -)
-    &\simeq&
-    Top^{\ast/}(S^1, (-)_{n+1})
-    &\simeq&
-    \Omega (-)_{n+1}
-  }
-  \,.
-$$
-
-With this the statement follows by the [[Yoneda lemma]].
-
-=--
 
 +-- {: .num_remark #CorepresentingForAdjunctOfStructureMapsAreStableEquivalences}
 ###### Remark
@@ -993,7 +1210,7 @@ By lemma \ref{StableAcyclicFibrationsAreEquivalentlyStrictAcyclicFibrations} the
 #### Stable equivalences 
  {#RelatingStableEquivalencesAndStableWeakHomotopyEquivalences}
 
-Here we discuss that the two concepts of _stable equivalences_ and of _stable weak homotopy equivalences_ in def. \ref{StableEquivalencesForDiagramSpectra} actually agree in the cases of a) pre-[[excisive functors]], b) [[orthogonal spectra]] and v) [[sequential spectra]], while in the case of [[symmetric spectra]] the class of stable equivalences includes but is strictly larger than that of stable weak homotopy equivalences:
+Here we discuss that the two concepts of _stable equivalences_ and of _stable weak homotopy equivalences_ in def. \ref{StableEquivalencesForDiagramSpectra} actually agree in the cases of a) pre-[[excisive functors]], b) [[orthogonal spectra]] and c) [[sequential spectra]], while in the case of [[symmetric spectra]] the class of stable equivalences includes but is strictly larger than that of stable weak homotopy equivalences:
 
 +-- {: .num_theorem #RelationBetweenStableEquivalencesAndStableWeakHomotopyEquivalencesForDiagramSpectra}
 ###### Theorem
@@ -1177,52 +1394,6 @@ Finally, by the second item of lemma \ref{PropertiesOfAKindOfAlmostSpectrificati
 Now for the converse.
 
 
-
-
-+-- {: .num_defn #CorepresentationOfAdjunctsOfStructureMaps}
-###### Definition
-
-For $n \in \mathbb{N}$, write
-
-$$
-  \lambda_n \;\colon\; F_{n+1} S^1 \longrightarrow F_n S^0
-$$
-
-for the [[adjunct]] under the ([[free structured spectrum]] $\dashv$ $n$-component)-[[adjunction]] in def. \ref{FreeStructuredSpectrum} of the composite morphism
-
-$$
-  S^1 
-    \stackrel{=}{\to}
-  (F_n^{Seq}(S^0))_{n+1}
-    \stackrel{(f_n^{Seq})_{n+1}}{\hookrightarrow} 
-  (F^{dia}_n S^0)_{n+1}
-  \,,
-$$
-
-where the first morphism is via prop. \ref{ExplicitFormOfFreeSpectra} and the second comes from the adjunction units according to def. \ref{FreeStructuredSpectrum}.
-
-=--
-
-([MMSS 00, def. 8.4](#MMSS00), [Schwede 12, example 4.26](#Schwede12))
-
-+-- {: .num_lemma #IndeedCorepresentationOfAdjunctsOfStructureMaps}
-###### Lemma
-
-The morphisms of def. \ref{CorepresentationOfAdjunctsOfStructureMaps} are those whose existence is asserted by prop. \ref{CorepresentingOfAdjunctsOfStructureMapsExists}.
- 
-=--
-
-([MMSS 00, lemma 8.5](#MMSS00), following [Hovey-Shipley-Smith 00, remark 2.2.12](#HoveyShipleySmith00))
-
-
-+-- {: .proof}
-###### Proof idea
-
-Check the statement of lemma \ref{CorepresentingOfAdjunctsOfStructureMapsExists} for the special case that $X = F_n^{dia} S^0$. From this the general statement follows by chasing the image of the identity on $F_n^{dia} S^0$.
-
-=--
-
-
 +-- {: .num_lemma #AdjunctsOfFreeSpectrumInclusionsAreOrAreNotStableWeakHomotopyEquivalences}
 ###### Lemma
 
@@ -1304,11 +1475,11 @@ $$
    && \downarrow^{\mathrlap{\simeq}}
    \\
    \mathbb{S} Mod_{stable}
-     &\stackrel{\overset{orth_!}{\longleftarrow}}{\underoverset{orth^\ast}{\simeq_{Qu}}{\longrightarrow}}&
+     &\stackrel{\overset{orth_!}{\longleftarrow}}{\underoverset{orth^\ast}{}{\longrightarrow}}&
    \mathbb{S}_{Orth} Mod_{stable}
-     &\stackrel{\overset{sym_!}{\longleftarrow}}{\underoverset{sym^\ast}{\simeq_{Qu}}{\longrightarrow}}&
+     &\stackrel{\overset{sym_!}{\longleftarrow}}{\underoverset{sym^\ast}{}{\longrightarrow}}&
    \mathbb{S}_{Sym} Mod_{stable}
-      &\stackrel{\overset{seq_!}{\longleftarrow}}{\underoverset{seq^\ast}{\simeq_{Qu}}{\longrightarrow}}&
+      &\stackrel{\overset{seq_!}{\longleftarrow}}{\underoverset{seq^\ast}{}{\longrightarrow}}&
    \mathbb{S}_{Seq} Mod_{stable}
  }
  \,.
@@ -1337,7 +1508,7 @@ In these cases, theorem \ref{RelationBetweenStableEquivalencesAndStableWeakHomot
 
 In such a case, for checking a Quillen equivalence it is sufficient to check that the [[adjunction unit]] is a weak equivalence on all cofibrant objects (...citation...).
 
-Since both adjoints in the presnt case preserve [[colimits]], [[tensoring]] with $Top^{\ast/}$ and the [[homotopy lifting property]], and since (...)
+Since both adjoints in the present case preserve [[colimits]], [[tensoring]] with $Top^{\ast/}$ and the [[homotopy lifting property]], and since (...)
 
 (...)
 
@@ -1360,6 +1531,10 @@ Since both adjoints in the presnt case preserve [[colimits]], [[tensoring]] with
 
 (...)
 
-### Part III. Symmetric monoidal categories and FSPs
+## Part III. Symmetric monoidal categories and FSPs
+
+* [[Day convolution]]
+
+* [[functors with smash product]]
 
 category: reference
