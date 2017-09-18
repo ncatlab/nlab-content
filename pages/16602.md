@@ -4,6 +4,10 @@
 
 ## related $n$Lab entries
 
+* [[special holonomy]]
+
 * [[G2-structure]]
+
+* [[normed division algebra]]
 
 category: people
