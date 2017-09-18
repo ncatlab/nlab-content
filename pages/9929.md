@@ -167,7 +167,7 @@ defines a complex orientation.
 
 ## Properties
 
-### Cohomology ring of $B U(1)$ and its formal group law
+### Cohomology ring of $B U(1)$ 
  {#CohomologyRingOfBU1}
 
 +-- {: .num_prop #CohomologyRingOfBU1ForComplexOrientedCohomologyTheory}
@@ -391,49 +391,150 @@ See also for instance remark 1.1. in [[Jacob Lurie]]: _[[A Survey of Elliptic Co
 =--
 
 
+### Formal group law
+ {#FormalGroupLaw}
+
+Let again $B U(1)$ be the [[classifying space]] for [[complex line bundles]], modeled, in particular, by infinite [[complex projective space]] $\mathbb{C}P^\infty)$.
 
 
-+-- {: .num_prop}
-###### Proposition
++-- {: .num_lemma #BU1HomotopyGroupStructure}
+###### Lemma
 
-Given a complex oriented cohomology theory $(E^\bullet, c_1)$, there is a [[formal group law]] $\mathcal{G}_E$ that describes the $E$-[[first Chern class]] under [[tensor product]] of [[complex line bundles]]:
+There is a [[continuous function]]
 
 $$
-  c_1^E(\mathcal{L}_1 \otimes \mathcal{L}_2)
-  =
-  c_1^E(\mathcal{L}_1) +_{\mathcal{G}_E} c_1^E(\mathcal{L}_2)
-  \,.
+  \mu
+    \;\colon\;
+  \mathbb{C}P^\infty \times \mathbb{C}P
+    \longrightarrow
+  \mathbb{C}P^\infty
 $$
+
+which represents the [[tensor product of line bundles]] in that under the defining equivalence, and for $X$ any [[paracompact topological space]], then
+
+$$
+  \array{
+     [X, \mathbb{C}P^\infty \times \mathbb{C}P^\infty]
+     &\simeq&
+     \mathbb{C}LineBund(X)_{/\sim} \times \mathbb{C}LineBund(X)_{/\sim}
+     \\
+     {}^{\mathllap{[X,\mu]}}\downarrow
+       &&
+     \downarrow^{\mathrlap{\otimes}}
+     \\
+     [X,\mathbb{C}P^\infty]
+       &\simeq&
+     \mathbb{C}LineBund(X)_{/\sim}
+  }
+  \,,
+$$
+
+where $[-,-]$ denotes the [[hom-sets]] in the (Serre-Quillen-)[[classical homotopy category]] and $\mathbb{C}LineBund(X)_{/\sim}$ denotes the set of [[isomorphism classes]] of [[complex line bundles]] on $X$.
+
+Together with the canonical point inclusion $\ast \to \mathbb{C}P^\infty$, this makes $\mathbb{C}P^\infty$ an [[abelian group|abelian]] [[group object]] in the [[classical homotopy category]].
 
 =--
 
-Under different choices of orientation, one obtains isomorphic formal group laws. (...)
++-- {: .proof}
+###### Proof
 
+By the [[Yoneda lemma]] (the [[fully faithful functor|fully faithfulness]] of the [[Yoneda embedding]]) there exists such a morphism $\mathbb{C}P^\infty \times \mathbb{C}P^\infty \longrightarrow \mathbb{C}P^\infty$ in the [[classical homotopy category]]. But since $\mathbb{C}P^\infty$ admits the structure of a [[CW-complex]] ([prop.](complex+projective+space#CellComplexStructureOnComplexProjectiveSpace)) it is cofibrant in the [[standard model structure on topological spaces]], as is its [[Cartesian product]] with itself ([prop.](CW+complex#ClosureOfCWComplexesUnderCartesianProduct)). Since moreover all spaces are fibrant in the [[classical model structure on topological spaces]], it follows (by [this lemma](Introduction+to+Stable+homotopy+theory+--+P#HomsOutOfCofibrantIntoFibrantComputeHomotopyCategory)) that there is an actual [[continuous function]] representing that morphism in the homotopy category.
 
-+-- {: .num_prop}
+That this gives the structure of an [[abelian group|abelian]] [[group object]] now follows via the [[Yoneda lemma]] from the fact that each $\mathbb{C}LineBund(X)_{/\sim}$ has the structure of an [[abelian group]] under [[tensor product of line bundles]], with the [[trivial bundle|trivial]] line bundle (wich is classified by maps factoring through $\ast \to \mathbb{C}P^\infty$) being the neutral element, and that this group structure is [[natural transformation|natural]] in $X$.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The space $B U(1) \simeq \mathbb{C}P^\infty$ has in fact more structure than that of a homotopy group from lemma \ref{BU1HomotopyGroupStructure}. As an object of the [[homotopy theory]] represented by the [[classical model structure on topological spaces]], it is a _[[2-group]]_, a [[truncated object in an (infinity,1)-category|1-truncated]] [[infinity-group]].
+
+=--
+
++-- {: .num_prop #ComplexOrientedCohomologyTheoryFormalGroupLaw}
 ###### Proposition
+
+Let $(E, c_1^E)$ be a [[complex oriented cohomology theory]]. Under the identification
+
+$$
+  E^\bullet(\mathbb{C}P^\infty)
+   \simeq
+  \pi_\bullet(E)[ [ c^E_1 ] ]
+  \;\;\;\,,
+  \;\;\;
+  E^\bullet(\mathbb{C}P^\infty \times \mathbb{C}P^\infty)
+   \simeq
+  \pi_\bullet(E)[ [ c^E_1 \otimes 1 , \, 1 \otimes c^E_1 ] ]
+$$
+
+from prop. \ref{CohomologyRingOfBU1ForComplexOrientedCohomologyTheory}, the operation 
+
+$$
+  \pi_\bullet(E)
+  [ [ c^E_1 ] ]
+    \simeq
+  E^\bullet(\mathbb{C}P^\infty)
+    \longrightarrow
+  E^\bullet( \mathbb{C}P^\infty \times \mathbb{C}P^\infty )
+    \simeq
+  \pi_\bullet(E)[ [ c_1^E \otimes 1, 1 \otimes c_1^E ] ]
+$$
+
+of pullback in $E$-cohomology along the maps from lemma \ref{BU1HomotopyGroupStructure} constitutes a 1-dimensional
+graded-commutative [[formal group law]] ([exmpl.](formal+group#Commutative1DimFormalGroupLaw)) over the [[graded commutative ring]] $\pi_\bullet(E)$ ([prop.](Introduction+to+Stable+homotopy+theory+--+1-2#HomotopyGroupsOfHomotopyCommutativeRingSpectrum)). If we consider $c_1^E$ to be in degree 2, then this formal group law is compatibly graded.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The associativity and commutativity conditions follow directly from the respective properties of the map $\mu$ in lemma \ref{BU1HomotopyGroupStructure}. The grading follows from the nature of the identifications in prop. \ref{CohomologyRingOfBU1ForComplexOrientedCohomologyTheory}.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+That the grading of $c_1^E$ in prop. \ref{ComplexOrientedCohomologyTheoryFormalGroupLaw} is in negative degree is because by definition
+
+$$
+  \pi_\bullet(E) = E_\bullet = E^{-\bullet}
+$$
+
+([rmk.](Introduction+to+Stable+homotopy+theory+--+1-2#EMHomology)).
+
+Under different choices of orientation, one obtains different but isomorphic formal group laws. 
+
+
+=--
+
+
+
+
++-- {: .num_example}
+###### Example
 
 The [[formal group law]] of [[complex cobordism cohomology theory]], example \ref{ComplexCobordism} is [[universal property|universal]] in that for every [[commutative ring]] $R$ there is a [[natural bijection]]
 
 $$
-  CRing(MU^\ast, A)
+  CRing(MU^\bullet, R)
   \simeq
   FormalGroupLaws_{/R}
   \,.
 $$
 
-$MU^\ast$ is the _[[Lazard ring]]_.
+$MU^\bullet$ is the _[[Lazard ring]]_.
+
+This is _[[Milnor-Quillen's theorem on MU]]_ (involving [[Lazard's theorem]]).
+
 
 =--
 
-This is [[Quillen's theorem on MU]]
 
-+-- {: .num_prop}
-###### Proposition
++-- {: .num_example}
+###### Example
 
 The [[formal group law]] of [[Brown-Peterson cohomology theory]], example \ref{BrownPeterson} is [[universal property|universal]] for $p$-local cohomology theories in that $\mathbb{G}_{B P}$ is universal among $p$-local, [[p-typical formal group laws]].
-
-(...)
 
 =--
 
@@ -473,6 +574,8 @@ Use [this proposition](ordinary+homology+spectra+split#WhenGeneralizedHomologySp
 ### Canonical orientation on complex vector bundles
 
 The follows says that complex oriented cohomology theories in the sense of def. \ref{ComplexOrientedCohomologyTheory}, indeed canonically have an [[orientation in generalized cohomology]] for the ([[spherical fibration]] of) any [[complex vector bundle]].
+
+For more details see at _[[universal complex orientation on MU]]_.
 
 +-- {: .num_prop #ThomSpaceOfZetan}
 ###### Proposition
