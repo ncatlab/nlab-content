@@ -94,7 +94,7 @@ $$
     &\to&
     E^I
     \\
-    \downarrow && \downarrow^{(F\mapsto F(a))\times(F\mapsto F(b))}
+    \downarrow && \downarrow^{\mathrlap{(F\mapsto F(a))\times(F\mapsto F(b))}}
     \\
     C \times D
     &\stackrel{f \times g}{\to}&
