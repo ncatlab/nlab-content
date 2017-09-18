@@ -29,7 +29,42 @@ of freedom in a special case ([Nicolai-Helling 98](#NicolaiHelling98)).
 
 In a more modern perspective, the M2-brane [[worldvolume]] theory appears under _[AdS4-CFT3 duality](AdS-CFT#AdS4CFT3)_ as a [[holographic principle|holographic dual]] of a [[4-dimensional Chern-Simons theory]]. Indeed, its [[Green-Schwarz action functional]] is entirely controled by the [[super Lie algebra|super]]-[[Lie algebra cocycle|Lie algebra 4-cocycle]] of [[super Minkowski spacetime]] given by the [[brane scan]]. This exhibits the M2-brane worldvolume theory as a 3-dimensional [[schreiber:∞-Wess-Zumini-Witten theory|higher WZW model]].
 
+## Definition
 
+There are two different incarnations of the M2-brane. On the one hand it is defined as a [[Green-Schwarz sigma model]] with [[target space]] a [[spacetime]] that is a solution to the [[equations of motion]] of [[11-dimensional supergravity]]. One would call this the "fundamental" M2 in analogy with the "fundamental string", if only there were an "M2-perturbation series" which however is essentially ruled out.
+
+On the other hand the M2 also appears as a [[black brane]], hence as a solution to the [[equations of motion]] of [[11-dimensional supergravity]] with [[singularity]] that looks from outside like a charged 2 dimensional object. 
+
+### As a Green-Schwartz sigma model
+
+See at _[[Green-Schwarz sigma model]]_ and _[[brane scan]]_.
+
+### As a black brane
+
+As a [[black brane]] solution to the [[equations of motion]] of [[11-dimensional supergravity]] the M2 is the [[spacetime]] with [[pseudo-Riemannian metric]] being
+
+$$
+  g = H^{-2/3} g_{\mathbb{R}^{2,1}} + H^{1/3}g_{\mathbb{R}^8}
+$$
+
+where 
+
+$$
+  H = \alpha + \frac{\beta}{r^6}
+$$
+
+for $(\alpha,\beta) \in \mathbb{R}^2 - \{(0,0)\}$;
+
+and the [[field strength]] of the [[supergravity C-field]] is 
+
+$$
+  F = d vol_{\mathbb{R}^{2,1}} \wedge d H^{-1}
+  \,.
+$$
+
+For $\alpha \beta \neq 0$ this is a 1/2 [[BPS state]] of 11d sugra.
+
+The [[near horizon geometry]] of this spacetime is [[anti de Sitter spacetime|AdS4]]$\times$[[7-sphere|S7]]. For more see at _[[AdS-CFT]]_.
 
 ## Properties
 
