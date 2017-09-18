@@ -109,7 +109,7 @@ _[AdS4-CFT3 duality](AdS-CFT#AdS4CFT3)_. ([Maldacena 97, section 3.2](#Maldacena
 
 Early speculations trying to model the [[electron]] by a relativistic membrane are due to [[Paul Dirac]]:
 
-* [[Paul Dirac]], _An Extensible Model of the Electron_, Proc. Roy.
+* {#Dirac62} [[Paul Dirac]], _An Extensible Model of the Electron_, Proc. Roy.
 Soc. A268, (1962) 57-67.
 
 * [[Paul Dirac]], _Motion of an Extended Particle in the Gravita-
