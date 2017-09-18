@@ -72,12 +72,12 @@ Let $f: U \to \Omega$ be the classifying map of the mono $1_U: U \to U$, and let
 [[!redirects occupied sets]]
 
 [[!redirects nonempty set]]
-[[!redirects nonempty set]]
-[[!redirects non-empty sets]]
+[[!redirects non-empty set]]
+[[!redirects nonempty sets]]
 [[!redirects non-empty sets]]
 [[!redirects nonempty subset]]
-[[!redirects nonempty subset]]
-[[!redirects non-empty subsets]]
+[[!redirects non-empty subset]]
+[[!redirects nonempty subsets]]
 [[!redirects non-empty subsets]]
 
 [[!redirects nonempty]]
