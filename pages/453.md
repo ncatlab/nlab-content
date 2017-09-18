@@ -119,6 +119,11 @@ However:
 
 ## Properties
 
+
+### Factorization properties 
+
+
+
 +-- {: .un_prop}
 ###### Proposition
 **image factorization**
@@ -152,10 +157,27 @@ The classes of [[regular epimorphism]], [[monomorphism]]s in a regular category 
 =--
 
 
+### Embedding properties 
+
 +-- {: .un_barrembeddingtheorem}
 ###### Proposition
 
 If a regular category is small, it admits particularly nice embeddings into presheaf categories. See [[Barr embedding theorem]] for more. 
+
+
+### Axiomatizability properties 
+
+Roughly speaking, regular categories tend to be relatively well-behaved when it comes to desribing them in formalized logics.
+
+#### Regular functors over a small regular category 
+
+##### A result of Makkai 
+
+
+###### Proposition (Makkai)
+
+If a regular category $\mathcal{R}$ is small, then the full subcategory of the functor category $[\mathcal{R},\mathsf{Set}]$ consisting of the [[regular functors]] only is an [[elementary class]] w.r.t. the signature given by (the underlying graph) of $\mathcal{R}$.
+
 
 =--
 ## Stronger conditions
