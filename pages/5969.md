@@ -237,7 +237,7 @@ and is reviewed in
 
 A lift of the Dickey Lie bracket on equivalence classe of currents (de Rham cohomology classes) to an _[[model structure for L-infinity algebras|L-infinity equivalent]]_ [[L-infinity algebra|L-infinity bracket]] on actual currents (on the [[de Rham complex]]) is constructed, under some assumptions, in
 
-* {#BarnichFulpLadaStasheff97} [[Glenn Barnich]], [[Ronald Fulp]], [[Tom Lada]], [[Jim Stasheff]], _The sh Lie structure of Poisson brackets in field theory_ ([arXiv:hep-th/9702176](http://arxiv.org/abs/hep-th/9702176))
+* {#BarnichFulpLadaStasheff97} [[Glenn Barnich]], [[Ronald Fulp]], [[Tom Lada]], [[Jim Stasheff]], _The sh Lie structure of Poisson brackets in field theory_, Communications in Mathematical Physics 191, 585-601 (1998) ([arXiv:hep-th/9702176](http://arxiv.org/abs/hep-th/9702176))
 
 
 ### In variational calculus
