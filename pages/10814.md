@@ -36,6 +36,12 @@ The term _double field theory_ has come to be used for [[field theory]] ([[prequ
 
 ## References
 
+The idea of "doubled spacetime geometry" is a variant of the idea of [[T-folds]], due to
+
+* {#Hull06} [[Chris Hull]], _Doubled geometry and T-folds_ JHEP0707:080,2007  ([arXiv:hep-th/0605149](http://arxiv.org/abs/hep-th/0605149))
+
+The coinage of the term "double field theory" for field theory on such doubled geometry goes back to
+
 * [[Chris Hull]], [[Barton Zwiebach]], _Double Field Theory_, JHEP 0909:099,2009 ([arXiv:0904.4664](http://arxiv.org/abs/0904.4664))
 
 Discussion in the context of [[L-infinity algebra]] includes
