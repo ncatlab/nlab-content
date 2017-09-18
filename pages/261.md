@@ -53,7 +53,7 @@ A **simplicial set** $S \in sSet$ is
 
 * for each [[surjective map]] $\;\sigma_i :\: [n+1] \to [n]\;$ of totally ordered sets
 
-  a function $\;\sigma_i :\: S_{n} \to S_{n+1}\;$ -- the $i$th **degeneracy map** on $n$-simplices ($n \geq 0$ and $0 \leq i \leq n$);
+  a function $\;s_i :\: S_{n} \to S_{n+1}\;$ -- the $i$th **degeneracy map** on $n$-simplices ($n \geq 0$ and $0 \leq i \leq n$);
 
 such that these functions satisfy the _[[simplicial identities]]_.
 
