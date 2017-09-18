@@ -51,7 +51,7 @@ See ([Ellis 13](#Ellis13), [Ketov 13](#Ketov13)) for brief survey and see ([Keha
 
 Being concerned with pure [[gravity]] (the [[inflaton]] not being an extra [[matter]] field but part of the field of [[gravity]]) the Starobinsky model lends itself to embedding into [[supergravity]] (originally due to [Ceotti 87](#Ceotti87), see e.g. [Farakos-Kehagias-Riotto 13](#FKR13)). Such embedding seems to improve the model further (highlighted e.g. in [Ellis 13](#Ellis13)), for instance by 
 
-* shrinking the necessary initial homogeneous patch from $\sim 10^3$ [[Planck lengths]] (which would be in need of further explanation) down to just $\sim 10^1$ [[Planck lengths]] ([Dalianis-Farakos 15 (68), (72)](#DalianisFarakos15));
+* shrinking the necessary initial homogeneous patch from $\sim 10^3$ [[Planck lengths]] (which would be in need of further explanation) down to just $\sim 10^1$ [[Planck lengths]] ([Dalianis-Farakos 15 equations (68), (72) in v1, equations (4.11), (4.17) in v3](#DalianisFarakos15), reviewed in [Dalianis 16](#Dalianis16));
 
 * naturally subsuming a mechanism for [[supersymmetry breaking]] ([Ferrar-Kehagias 14](#FerrarKehagias14), [DFKRU 14](#DFKRU14)).
 
