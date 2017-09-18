@@ -86,17 +86,24 @@ is bounded on $V$ and its supremum tends to zero. The obtained sheaf $\mathcal{O
 Morphisms of analytic spaces will be those induced by morphisms of
 metrized ring categories.
 
+Remark that the point $d_\infty^\infty$ doesn't even make sense in $\mathcal{D}(\mathbb{Z}_\eta,d_\infty)$, because $d_\infty^t(-1,1)$ tends to infinity.
+However, the associated norm makes sense. Inspired by this remark,
+we define the rig category of analytic functions on $\mathcal{M}(\mathcal{A},d_\mathcal{A}(0,-))$
+as the direct image along
+$$\phi:\mathcal{D}(\mathcal{A},d_\mathcal{A})\to \mathcal{M}(\mathcal{A},d_\mathcal{A}(0,-))$$
+of the structural sheaf we just defined on the space of metrics.
+
 ## Functorial approach: derived stacks over metrized ringed categories
 
 One may define a natural class of ind-metrized ring categories
 by the following process: first, one defines
 the category of metrized power series ring categories over
-$\Z$ in the usual way, using the $L^2$-norm and its real powers.
-Then one defines power series ring categories over $\Z_\eta$ as
-valuation ring categories of power series ring categories over $\R$.
+$\mathbb{Z}$ in the usual way, using the $L^2$-norm and its real powers.
+Then one defines power series ring categories over $\mathbb{Z}_\eta$ as
+valuation ring categories of power series ring categories over $\mathbb{R}$.
 Then we define rational domain algebras over both types of
 power series rings, as coequalizers of morphisms such as $fX$ and $g$
-with $f,g\in \mathrm{End}(1)$. This is where we need the metric
+with $fX,g\in \mathrm{End}(\mathbb{1})$. This is where we need the metric
 structure (because the norm will not allow completion) on morphism spaces.
 This gives a subcategory of ind-metrized ring categories called
 rational domain algebra categories.
@@ -104,15 +111,13 @@ rational domain algebra categories.
 One then gets inspiration from Dubuc's work on synthetic analytic geometry and Lurie's work on general pre-geometries to define general analytic ring categories
 as arbitrary colimits (in the category of ind-metrized ring categories) of rational domain algebra categories, or maybe, as functors of functions that commute with products and standard pullbacks along rational domain embeddings. One may then define a Grothendieck topology on analytic ring categories and use it to define sheaves (functors of points) that will extend (in a sense to be explained) global analytic spaces (in the sense of the paper cited down this page) to a wider class of spaces.
 
-## Analytic geometry over $\mathbb{F}_{\{\pm 1\}}$
-
 In this new category $\An^\dagger_{\mathbb{F}_{\{\pm 1\}}}$, we may define,
 for example
 $$
 \overline{\mathcal{M}(\mathbb{Z})}:=
 \{|2|\geq 3/2\}\coprod_{\{2\geq |2|\geq 3/2\}}\{2\geq |2|\},
 $$
-where the left domain is from $\mathcal{M}(\Z_\eta)$ and all rational others are from $\mathcal{M}(\mathbb{Z})$.
+where the left domain is from $\mathcal{M}(\mathbb{Z}_\eta)$ and the two other domains are from $\mathcal{M}(\mathbb{Z})$.
 
 The gives a category $An^{\dagger,s}_\overline{\mathcal{M}(\mathbb{Z})}$ of Arakelov-type varieties.
 
