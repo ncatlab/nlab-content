@@ -351,9 +351,9 @@ $$
     \\
     \flat_{dR}\exp(\mathfrak{g})_\bullet
     &
-    \stackrel{\flat_{dR}\exp(\mu)_\bullet}{\longrightarrow}
+    \stackrel{\flat_{dR}\exp(\mu)}{\longrightarrow}
     &
-    \flat_{dR}\mathbf{B}^{p+2}\mathbb{R}_\bullet
+    \flat_{dR}\mathbf{B}^{p+2}\mathbb{R}
     \\
     \downarrow && \downarrow
     \\
