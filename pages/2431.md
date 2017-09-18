@@ -58,7 +58,7 @@ In ([Freyd-Heller 93](#FreydHeller93)), it is show that if $G$ is [[Thompson's g
 
 Thus, if $F:Ho(Top)^{op} \to Set$ splits the idempotent $[-,B g]$ of $[-,B G]$, then $F$ satisfies the hypotheses of the Brown representability theorem (being a [[retract]] of a representable functor), but is not representable.  A similar argument using $B G_+$ applies to $Ho(Top_*)$.
 
-There is also another example due to Heller, which fais to be representable for cardinality reasons.
+There is also another example due to Heller, which fails to be representable for cardinality reasons.
 
 * MO questions [non-connected spaces](http://mathoverflow.net/questions/104866/brown-representability-for-non-connected-spaces), [unpointed spaces](http://mathoverflow.net/questions/11456/unpointed-brown-representability-theorem)
 * [blog post](http://golem.ph.utexas.edu/category/2012/08/brown_representability.html)
