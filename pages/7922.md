@@ -1,9 +1,18 @@
 
+#Contents#
+* table of contents
+{:toc}
 
 ## Idea
 
-The [[derived functor]] of a [[tensor product]] functor.
+The [[derived functor]] of a [[tensor product]] [[functor]]. In the context of [[homological algebra]] this is traditionally denoted by _[[Tor]]_
 
+
+## Examples
+
+* [[Tor]]
+
+* [[symmetric monoidal smash product of spectra]]
 
 ## Related concepts
 
