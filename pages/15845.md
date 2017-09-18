@@ -5,12 +5,29 @@
 
 ## Idea
 
-It can be nice to describe the [[kinematics]] of a [[quantum system]] using a [[JBW-algebra]].  (We can add [[dynamics]] by giving the $JBW$-algebra the structure of a [[pointed object|pointed]] [[JLBW-algebra]], that is defining a kind of [[commutator]] and identifying one of the operators in the algebra as the [[Hamiltonian]].)
+It can be nice to describe the [[kinematics]] of a [[quantum system]] using a [[JBW-algebra]].  (Then some extra structure is needed for [[dynamics]].)
+
+
+## Motivation
+
+$JBW$-algebras are arrived at by the confluence of several lines of motivation.
+
+To begin with, the algebraic approach to quantum mechanics (which is also the basis of [[AQFT]]) is a common generalization of [[classical mechanics]] using [[phase spaces]] (or even [[Poisson manifolds]] or even [[Poisson algebras]]) and [[quantum mechanics]] using [[Hilbert spaces]].  In this approach, we have an [[algebra of observables]], of which special cases are the [[commutative algebra]] underlying a Poisson algebra (or its [[complexification]]) and the [[algebra of operators]] on a Hilbert space.  This also allows one to apply [[superselection rule]]s at a fundamental level by restricting to a [[subalgebra]].
+
+More particularly, one may restrict to _bounded_ observables, that is those for which there is a largest possible absolute value that could be observed.  There is a philosophical reason for this, that no measuring device in reality is unbounded; but it also makes the algebra more tractable, and an arbitrary observable $O$ can still be described by a [[sequence]] of bounded observables with increasing cut-offs.
+
+At this point, it\'s natural to expect the algebra of observables to be a [[Banach space]] (and so, being an algebra, some kind of [[Banach algebra]]), with the [[norm]] giving this largest possible absolute value.  In fact, [[complex number|complex]] $C^*$-[[C*-algebra|algebras]] are usually used; both the algebra of bounded [[continuous functions]] on a Poisson manifold (or indeed any [[local compactum]]) and the algebra of [[bounded operators]] on a Hilbert space are $C^*$-algebras.
+
+Then we may further refine from $C^*$-algebras to $W^*$-[[W*-algebra|algebras]].  This actually amounts to generalizing the notion of observable.  Whereas a typical commutative $C^*$-algebra is an algebra of [[continuous functions]], a typical $W^*$-algebra is an algebra of [[measurable functions]].  This is necessary if we want to include [[characteristic functions]], reflecting an observation of whether the system is in some [[measurable subset]] of phase space.  (If it is on the boundary, then we won\'t be able to tell; this is reflected in that the $W^*$-algebra of functions identifies functions that are [[almost equality|equal almost everywhere]].)  The [[functional calculus]] of $W^*$-algebras also allows for [[composition]] of an observable with a measurable function on its [[spectrum]], allowing us to (for example) turn continuous observables into less-precise discrete ones.  Of course, the algebra of bounded operators on a Hilbert space is also a $W^*$-algebra.  Finally, the algebra of observables that respect a class of superselection rules will also typically form a $W^*$-algebra.
+
+There is, however, an objection to all of these algebras of observables, which is that they have many elements that are not observable.  Only the [[self-adjoint element]]s of these algebras are considered to be observable.  (Even if we allow for complex-valued observables, only the [[normal element]]s can be observables.)  By themselves, the self-adjoint operators form a [[Jordan algebra]].  Instead of recovering the classical case when the algebra of operators is [[commutative algebra|commutative]], we recover it when the Jordan algebra of self-adjoint operators is [[associative algebra|associative]] (and specifically we get the classical algebra of real-valued observables immediately).  Thus, the algebra of observables is a Jordan algebra, even if it is viewed as embedded within a larger algebra.
+
+The analytic structure on a Jordan algebra that makes it the algebra of self-adjoint elements in a $W^*$-algebra is captured in the definition of a [[JW-algebra]] (Jordan $W$-algebra, which may be read as a Jordan $W^*$-algebra with trivial [[involution]]) or [[JBW-algebra]] (Jordan--Banach $W$-algebra, which allows exceptional cases such as the [[Albert algebra]]).  This is a loss of structure; a complex $W^*$-algebra can be recovered from a $JBW$-algebra by giving it an additional compatible [[Lie algebra]] structure, making it into a [[JLBW-algebra]], which (as explained there) is equivalent to a complex $W^*$-algebra.  However, the $JBW$-algebra already identifies the observables and the states, so it is a sufficient place to start from.
 
 
 ## Description
 
->This is hastily copied from elsewhere and minimally edited. More work should be done to spell this out.  Also motivation.
+>This is hastily copied from elsewhere and minimally edited. More work should be done to spell this out.
 
 We have:
 
@@ -35,11 +52,19 @@ We might also want to consider generalized (non-normal) states, that is norm-$1$
 
 In particular, if $A$ is the space of [[bounded operators|bounded]] [[self-adjoint operators]] on some [[Hilbert space]] $H$, then $A_*$ is the space of [[trace-class operator|trace-class]] self-adjoint on $H$.  Then a normal state is a trace-class [[density matrix]], while a generalized state is an arbitrary density matrix.  The pure states (of the form ${|\psi\rangle\langle\psi|}$ for $\psi$ a unit vector in $H$) always belong to $A^*$ but only belong to $A_*$ when the dimension of $H$ is finite.
 
+
+## Dynamics
+
+We can add [[dynamics]] by giving the $JBW$-algebra the structure of a [[pointed object|pointed]] [[JLBW-algebra]], that is by defining a kind of [[commutator]] (the 'L') and identifying one of the operators in the algebra as the [[Hamiltonian]] (the 'pointed').  This is mathematically equivalent to a [[complex numbers|complex]] $W^*$-[[W*-algebra|algebra]] equipped with a [[self-adjoint element]].
+
+
 ## Related concepts
 
 * [[interpretation of quantum mechanics]]
 
 * [[finite quantum mechanics in terms of dagger-compact categories]]
+
+* [[AQFT]]
 
 
 [[!redirects JBW-algebras in quantum mechanics]]
