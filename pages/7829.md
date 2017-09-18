@@ -182,8 +182,9 @@ Discussion in relation to [[analytic torsion]] and [[Chern-Simons theory]] inclu
 
 * {#Lott90} [[John Lott]], _Eta and torsion_, 1990 ([pdf](http://math.berkeley.edu/~lott/lhouches.pdf))
 
-* Lisa C. Jeffrey, _Symplectic quantum mechanics and Chern=Simons gauge theory I_,  [arxiv/1210.6635](http://arxiv.org/abs/1210.6635)
+* Lisa Jeffrey, _Symplectic quantum mechanics and Chern-Simons gauge theory I_,  ([arxiv/1210.6635](http://arxiv.org/abs/1210.6635))
 
+* {#Young} M. B. Young, section 2 of _Chern-Simons theory, knots and moduli spaces of connections_ ([pdf](http://www.math.sunysb.edu/~myoung/CS.pdf))
 
 [[!redirects eta invariant]]
 [[!redirects eta invariants]]
