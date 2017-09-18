@@ -13,4 +13,6 @@
 
 * [[Guillemin-Sternberg geometric quantization conjecture]]
 
+* [[integrability of G-structures]]
+
 category: people
