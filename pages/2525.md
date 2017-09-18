@@ -23,7 +23,7 @@
 
 ## Idea
 
-The **Euler-Lagrange [[equations]]** of a [[nonlinear functional]] characterize in [[variational calculus]] the _[[extrema]]_ of that functional, hence its _[[critical locus]]_. 
+The **Euler-Lagrange [[equations]]** of a [[nonlinear functional]] characterize in [[variational calculus]] the _[[extrema]]_ of that functional, hence its _[[critical locus]]_, the "[[shell]]". 
 
 This originates from and is mainly used in [[physics]], where the functional in question is the _[[action functional]]_ of a [[physical system]], and where its critical points encode the physically observable [[particle]] [[trajectories]] and [[field (physics)|field]] configurations by the _[[principle of extremal action]]_.
 
