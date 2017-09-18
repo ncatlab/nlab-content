@@ -312,7 +312,7 @@ We have the following special cases of prop. \ref{InternalHomGeneral}.
 
    which reproduces the [[mapping spectrum]] $SpMap(\Sigma^\infty A, F)$ from prop. \ref{MappingSpectrumOutOfUnstableTypeAsCartesianInternalHom}.
 
-1. If $A = B = \ast$ then then the mapping type is 
+1. If $A = B = \ast$ then the mapping type is 
 
    $$
      \sigma \colon SpMap(E,F) \;\vdash \; F \colon Spectra
