@@ -42,6 +42,10 @@ Gereneral accounts of (perturbative) quantum field theory on curved spacetiems i
 
 * [[Robert Wald]], _Quantum field theory in curved spacetime and black hole thermodynamics_. Univ. of Chicago Press 1994 ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0842.53052&format=complete)).
 
+
+* {#HollandsWald14} [[Stefan Hollands]], [[Robert Wald]], _Quantum fields in curved spacetime_, Physics Reports Volume 574, 16 April 2015, Pages 1-35 ([arXiv:1401.2026](https://arxiv.org/abs/1401.2026))
+
+
 The [[AQFT]]-style axiomatization via [[local nets]] on a category of [[Lorentzian manifolds]] ([[locally covariant perturbative quantum field theory]]) is due to
 
 * [[Romeo Brunetti]], [[Klaus Fredenhagen]], [[Rainer Verch]], _The generally covariant locality principle -- A new paradigm for local quantum physics_ Commun. Math. Phys. 237:31-68 (2003) ([arXiv:math-ph/0112041](http://arxiv.org/abs/math-ph/0112041))
@@ -56,6 +60,7 @@ Reviews with emphasis on this AQFT-point of view include
 * [[Robert  Wald]], _The History and Present Status of Quantum Field Theory in Curved Spacetime_ ([arXiv:gr-qc/0608018](https://arxiv.org/abs/gr-qc/0608018))
 
 * [[Klaus Fredenhagen]], [[Katarzyna Rejzner]], _QFT on curved spacetimes: axiomatic framework and examples_ ([arXiv:1412.5125](http://arxiv.org/abs/1412.5125))
+
 
 
 Papers about the application of [[microlocal analysis]] include
