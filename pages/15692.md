@@ -53,6 +53,8 @@ $$
 
 * [[causal propagator]]
 
+* [[Hadamard distribution]]
+
 ## References
 
 Textbook accounts include
