@@ -40,6 +40,7 @@ $$
 is the classifying $\infty$-topos for [[pointed objects]].
 
 
+
 ### For local structures
 
 A special case of this is the notion of a classifying (∞,1)-topos for a geometry in the sense of [[geometry (for structured (∞,1)-toposes)|structured spaces]]:
