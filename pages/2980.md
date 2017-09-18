@@ -16,3 +16,7 @@ and also here:
 * Jeffrey C. Morton, [Extended TQFT's and Quantum Gravity](http://arxiv.org/abs/0710.0032).
 
 The term 'double bicategory' may be confusing, since while a double category is a category internal to $Cat$, a double bicategory is not the fully general sort of bicategory internal to $Bicat$.  This issue is addressed in Morton's work.
+
+A double bicategory can also be regarded as a special sort of [[intercategory]].
+
+[[!redirects double bicategories]]
