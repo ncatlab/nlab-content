@@ -38,7 +38,7 @@ Moreover:
 
 $\,$
 
-More generally, analogous statements are supposed to hold for general [[reductive algebraic groups]] $G$ other than $GL_n$. Here now a [[L-function]] is assigned to data which in addtion to the [[Galois representation]] consists of a [[linear representation]] ${}^L G \longrightarrow GL_n$ of the [[Langlands dual group]] of $L$. 
+More generally, analogous statements are supposed to hold for general [[reductive algebraic groups]] $G$ other than $GL_n$. Here now an [[L-function]] is assigned to data which in addtion to the [[Galois representation]] consists of a [[linear representation]] ${}^L G \longrightarrow GL_n$ of the [[Langlands dual group]] of $G$. 
 
 First of all:
 
