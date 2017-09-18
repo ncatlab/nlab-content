@@ -110,7 +110,7 @@ If $(X, f \colon X \times X \to X)$ is an [[H-space]], then the Hopf constructio
 
 Consider $X = S^{n-1}$ a [[sphere]]
 
-+-- {: .num_prop}
++-- {: .num_prop #HopfInvariantFromProductOfDegrees}
 ###### Proposition
 
 Given a [[continuous function]]
