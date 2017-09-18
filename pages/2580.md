@@ -376,10 +376,17 @@ Distributions can be alternatively described using [[nonstandard analysis]], see
 
 ## Related concepts
 
+* [[derivative of a distribution]]
+
 * [[order of a distribution]]
+
+* [[support of a distribution]]
 
 * [[scaling degree of a distribution]]
 
+* [point-supported distribution]]
+
+* [[extension of distributions]]
 
 ## References
 
