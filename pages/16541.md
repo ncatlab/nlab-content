@@ -1,0 +1,15 @@
+
+
+* [webpage](http://diffiety.ac.ru/curvita/isk.htm)
+
+## related $n$Lab entries
+
+* [[diffiety]]
+
+* [[variational bicomplex]]
+
+* [[differential operator]]
+
+* [[jet bundle]]
+
+category: people
