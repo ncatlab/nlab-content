@@ -57,6 +57,10 @@ Note that once the Lebesgue measure is known for open sets, the outer regularity
 
 ## References
 
+Named after [[Henri Lebesgue]].
+
+See also
+
 * [Wikipedia](http://en.wikipedia.org/wiki/Lebesgue_measure).
 * [nForum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=1385)
 
