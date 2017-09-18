@@ -19,13 +19,11 @@
 
 ## Idea
 
-The **Elementary Theory of the Category of Sets** ([Lawvere 65](#Lawvere65)), or _ETCS_ for short, is a formulation of [[set theory|set-theoretic]] [[foundations]] in a [[category theory|category-theoretic]] spirit.  As such, it is the prototypical [[structural set theory]].  
+The **Elementary Theory of the Category of Sets** ([Lawvere 65](#Lawvere65)), or _ETCS_ for short, is an axiomatic formulation of [[set theory]] in a [[category theory|category-theoretic]] spirit.  As such, it is the prototypical [[structural set theory]].  Supplemented with an axiomatization for categories it could be viewed as an approach to [[foundations]].[^Law]
+
+[^Law]: It appears that Lawvere had intended ETCS merely as a practical tool taking over the role of material sets in real mathematics i.e. a lightweight axiomatics providing _sets for mathematics_.
 
 More in detail, ETCS is a [[first-order theory]] axiomatizing [[elementary toposes]] and specifically those which are [[well-pointed topos|well-pointed]], have a [[natural numbers object]] and satisfy the [[axiom of choice]]. The idea is, first of all, that traditional mathematics naturally takes place "[[internal logic|inside]]" such a topos, and second that by varying the axioms much of mathematics may be done inside more general toposes: for instance omitting the [[well-pointed topos|well-pointedness]] and the [[axiom of choice]] but adding the [[Kock-Lawvere axiom]] gives a [[smooth topos]] inside which [[synthetic differential geometry]] takes place.
-
-Modern mathematics with emphasis on concepts of [[homotopy theory]] would more directly be founded in this spirit by an axiomatization not just of [[elementary toposes]] but of [[elementary (∞,1)-toposes]]. This is roughly what [[univalence|univalent]] [[homotopy type theory]] accomplishes -- for more on this see at _[relation between type theory and category theory -- Univalent HoTT and Elementary infinity-toposes](relation+between+type+theory+and+category+theory#HomotopyWithUnivalence)_.
-
-Instead of increasing the [[higher category theory|higher categorical dimension]] [[(n,r)-category|(n,r)]] in the first argument, one may also, in this context of elementary foundations, consider raising the second argument. The case $(2,2)$ is the elementary theory of the 2-category of categories ([[ETCC]]).
 
 ## Definition
 
@@ -48,9 +46,18 @@ For more details see
 
 * [[fully formal ETCS]].
 
+## A contemporary perspective
+
+Modern mathematics with its emphasis on concepts from [[homotopy theory]] would more directly be founded in a similar spirit by an axiomatization not just of [[elementary toposes]] but of [[elementary (∞,1)-toposes]]. This is roughly what [[univalence|univalent]] [[homotopy type theory]] accomplishes -- for more on this see at _[relation between type theory and category theory -- Univalent HoTT and Elementary infinity-toposes](relation+between+type+theory+and+category+theory#HomotopyWithUnivalence)_.
+
+Instead of increasing the [[higher category theory|higher categorical dimension]] [[(n,r)-category|(n,r)]] in the first argument, one may also, in this context of elementary foundations, consider raising the second argument. The case $(2,2)$ is the elementary theory of the 2-category of categories ([[ETCC]]).
+
 ## A Constructive View
 
-[[Erik Palmgren]] ([Palmgren 2012](#Palmgren)) has a [[constructive mathematics|constructive]] [[predicative mathematics|predicative]] variant of ETCS, which can be summarized as: $Set$ is a [[well-pointed topos|well-pointed]] $\Pi$-[[Π-pretopos|pretopos]] with a [[NNO]] and [[enough projectives]] (i.e. [[COSHEP]] is satisfied). Here "well-pointed" must be taken in its constructive sense, as including that the [[terminal object]] is indecomposable and projective.
+[[Erik Palmgren]] ([Palmgren 2012](#Palmgren)) has a [[constructive mathematics|constructive]] [[predicative mathematics|predicative]] variant of ETCS, which can be summarized as:
+
+$Set$ is a [[well-pointed topos|well-pointed]] $\Pi$-[[Π-pretopos|pretopos]] with a [[NNO]] and [[enough projectives]] (i.e. [[COSHEP]] is satisfied). Here "well-pointed" must be taken in its constructive sense, as including that the [[terminal object]] is indecomposable and projective.
+
 
 ## Todd Trimble's exposition of ETCS
  {#ExpositionByTrimble}
@@ -101,6 +108,11 @@ Palmgren's ideas can be found here:
 For the relation between the theory of well-pointed toposes and **weak Zermelo set theory** as elucidated by work of [[Julian Cole|J. Cole]], [[Barry Mitchell]], and [[Gerhard Osius|G. Osius]] in the early 1970s see
 
 * [[Peter Johnstone]], _Topos Theory_ , Academic Press New York 1977 (Dover reprint 2014). (sections 9.2-3)
+
+* [[Barry Mitchell]], _Boolean Topoi and the Theory of Sets_ , JPAA **2** (1972) pp.261-274.
+
+* [[Gerhard Osius]], _Categorical Set Theory: A Characterization of the Category of Sets_ , JPAA **4** (1974) pp.79-119.
+
 
 [[!redirects ETCS]]
 [[!redirects etcs]]
