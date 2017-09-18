@@ -43,6 +43,7 @@ A standard textbook is
 
 * R. Sharpe, _Differential Geometry -- Cartan's Generalization of Klein's Erlagen program_ Springer (1997)
 
+For more see the references at _[[Cartan connection]]_.
 
 See also
 
