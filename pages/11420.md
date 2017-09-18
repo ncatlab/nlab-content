@@ -170,8 +170,6 @@ Discussion of formal completion of [[(infinity,1)-modules]] in terms of [[totali
 [[!redirects completion of a commutative ring]]
 [[!redirects completion of commutative rings]]
 
-[[!redirects formal completion]]
-[[!redirects formal completions]]
+[[!redirects formal completion of a ring]]
+[[!redirects formal completion of rings]]
 
-[[!redirects adic completion]]
-[[!redirects adic completions]]
