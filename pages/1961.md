@@ -45,7 +45,7 @@ With a notion of tangent bundle comes the following terminology
 
 The precise definition of tangent bundle depends on the nature of the ambient category of [[space]]s. Below we give first the traditional definitions in ordinary [[differential geometry]]. Then we discuss the construction in more general context of [[smooth toposes]] in [[synthetic differential geometry]] and other categories of [[generalized smooth spaces]].
 
-## Definitions 
+## Definitions
 
 ### Traditional definition
  {#TraditionalDefinition}
@@ -92,7 +92,7 @@ $$
 and
 
 $$
-  (\gamma_1 {\sim^\prime} \gamma_2)
+  (\gamma_1 \sim' \gamma_2)
    \coloneqq
    \underset{
       {  { \mathbb{R}^n  \underoverset{}{\phi \, \text{chart}}{\to} U_i \subset X } } \atop { U_i \supset \{x\} }
@@ -121,9 +121,9 @@ The two relations in def. \ref{TangencyRelationOnSmoothCurves} are [[equivalence
 +-- {: .proof}
 ###### Proof
 
-First to see that they conincide, we need to show that if the derivatives in question coincide in one chart $\mathbb{R}^n \underoverset{\simeq}{\phi}{\to} U_i \subset X$, that then they coincide also in any other chart $\mathbb{R}^n \underoverset{\simeq}{\psi}{\to} U_j \subset X$.
+First to see that they conincide, we need to show that if the derivatives in question coincide in one chart $\mathbb{R}^n \underoverset{\simeq}{\phi_i}{\to} U_i \subset X$, that then they coincide also in any other chart $\mathbb{R}^n \underoverset{\simeq}{\phi_j}{\to} U_j \subset X$.
 
-Write
+For brevity, write
 
 $$
   U_{i j} \coloneqq U_i \cap U_j
@@ -141,57 +141,57 @@ $$
 of $0 \in \mathbb{R}$ and consider the derivatives of the functions
 
 $$
-  \gamma_i^{\phi}
+  \gamma_n^i
   \;\coloneqq\;
-  (\phi\vert_{U_{i j}} \circ \gamma_i\vert_{V}) \;\colon\; V \longrightarrow \phi^{-1}(U_{i j}) \subset \mathbb{R}^n
+  (\phi_i^{-1}\vert_{U_{i j}} \circ \gamma_n\vert_{V}) \;\colon\; V \longrightarrow \phi_i^{-1}(U_{i j}) \subset \mathbb{R}^n
 $$
 
 and
 
 $$
-  \gamma_i^{\psi}
+  \gamma_n^j
   \;\coloneqq\;
-  (\psi\vert_{U_{i j}} \circ \gamma_i \vert _{V}) \;\colon\; V \longrightarrow \psi^{-1}(U_{i j}) \subset \mathbb{R}^n
+  (\phi_j^{-1}\vert_{U_{i j}} \circ \gamma_n \vert _{V}) \;\colon\; V \longrightarrow \psi^{-1}(U_{i j}) \subset \mathbb{R}^n
   \,.
 $$
 
-But then by definition of the differentiable [[atlas]], there is the differentiable function
+But then by definition of the differentiable [[atlas]], there is the differentiable gluing function
 
 $$
   \alpha
   \;\coloneqq\;
-  \phi^{-1}(U_{i j})
-    \underoverset{\simeq}{\phi}{\longrightarrow}
+  \phi_i^{-1}(U_{i j})
+    \underoverset{\simeq}{\phi_i}{\longrightarrow}
   U_{i j}
-    \underoverset{\simeq}{\psi^{-1}}{\longrightarrow}
-  \psi^{-1}(U_i j)
+    \underoverset{\simeq}{\phi_j^{-1}}{\longrightarrow}
+  \phi_j^{-1}(U_{i j})
 $$
 
 such that
 
 
 $$
-  \gamma_i^\psi = \alpha \circ \gamma_i^\phi
+  \gamma_n^j = \alpha \circ \gamma_n^i
 $$
 
-for $i \in \{1,2\}$. The [[chain rule]] now relates the derivatives of these functions as
+for $n \in \{1,2\}$. The [[chain rule]] now relates the derivatives of these functions as
 
 $$
-  \frac{d}{d t} \gamma_i^\psi
+  \frac{d}{d t} \gamma_n^j
     \;=\;
-  (D \alpha) \circ \left(\frac{d}{d t} \gamma_i^\phi\right)
+  (D \alpha) \circ \left(\frac{d}{d t} \gamma_n^i  \right)
   \,.
 $$
 
-Since $\alpha$ is a [[diffeomorphism]] and since derivatives of diffeomorphisms are linear isomorphisms, this says that the derivative of $\gamma_i^\phi$ is related to that of $\gamma_i^\psi$ by a linear isomorphism, and hence
+Since $\alpha$ is a [[diffeomorphism]] and since derivatives of diffeomorphisms are linear isomorphisms, this says that the derivative of $\gamma_n^j$ is related to that of $\gamma_n^i$ by a linear isomorphism , and hence
 
 $$
   \left(
-   \frac{d}{d t}(\gamma_1)^\phi = \frac{d}{d t}(\gamma_2^\phi)
+   \frac{d}{d t} \gamma_1^i  = \frac{d}{d t} \gamma_2^i
   \right)
     \;\Leftrightarrow\;
   \left(
-   \frac{d}{d t}(\gamma_1)^\psi = \frac{d}{d t}(\gamma_2^\psi)
+   \frac{d}{d t} \gamma_1^j = \frac{d}{d t} \gamma_2^\psi
   \right)
   \,.
 $$
@@ -254,7 +254,7 @@ the [[derivative]]
 
 $$
   d \left((\phi')^{-1} \circ \phi  \right)_{ \phi^{-1}(x) }
-  \in 
+  \in
   GL(n,\mathbb{R})
 $$
 
@@ -725,7 +725,7 @@ $$
   }
 $$
 
-descends at each point $x \in X$ to the tangency [[equivalence relation]] (def. \ref{TangencyRelationOnSmoothCurves}, lemma \ref{TangencyIsEquivalenceRelation}) to yield a function on 
+descends at each point $x \in X$ to the tangency [[equivalence relation]] (def. \ref{TangencyRelationOnSmoothCurves}, lemma \ref{TangencyIsEquivalenceRelation}) to yield a function on
 sets of [[tangent vectors]] (def. \ref{TangentVector}), called the _[[differential]]_ $d f_x$ of $f$ at $x$
 
 $$
@@ -741,7 +741,7 @@ Moreover:
 
 1. ([[linear function|linear dependence]] on the tangent vector) these differentials are [[linear functions]] with respect to the vector space structure on the [[tangent spaces]] from lemma \ref{LinearTangentSpace}, def. \ref{TangentSpace};
 
-1. ([[differentiable function|differentiable dependence]] on the base point) globally they 
+1. ([[differentiable function|differentiable dependence]] on the base point) globally they
 yield a [[homomorphism]] of real [[differentiable vector bundles]]  between the [[tangent bundles]] (def. \ref{TangentBundle}, lemma \ref{DifferentiableTangentBundle}), called the global _[[differential]]_ $d f$ of $f$
 
    $$
@@ -771,7 +771,7 @@ yield a [[homomorphism]] of real [[differentiable vector bundles]]  between the 
 +-- {: .proof}
 ###### Proof
 
-All statements are to be tested on charts of an atlas for $X$ and for $Y$. On these charts the 
+All statements are to be tested on charts of an atlas for $X$ and for $Y$. On these charts the
 statement reduces to that of example \ref{EuclideanSpaceTangentBundle}.
 
 =--
@@ -893,7 +893,7 @@ for the tangent vectors $\frac{\partial}{\partial x^1}$ and $\frac{\partial}{\pa
 
 
 
-### In synthetic differential geometry 
+### In synthetic differential geometry
  {#InSDG}
 
 The above definitions in ordinary [[differential geometry]] suggest the slogan
