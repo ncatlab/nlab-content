@@ -156,6 +156,8 @@ The [[p-localization]] of $MU$ decomoses into the
 
 ## Related concepts
 
+* [[equivariant complex cobordism cohomology theory]]
+
 * [[cobordism theory determining homology theory]]
 
 * [[MR-theory]]
