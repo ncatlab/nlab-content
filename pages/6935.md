@@ -458,7 +458,7 @@ commutes. This means precisely that $f$ is the function defined recursively by
 
 The introduction, elimination and computation rules for _[[identity types]]_ are discussed there.
 
-In [[Coq]]-[[syntax]] the [[identity types]] are the inductive types (or more precisely, the inductive *family*) defined by
+In [[Coq]]-[[syntax]] the [[identity types]] are the inductive types (or more precisely, the _[[inductive family]]_) defined by
 
     Inductive id {A} : A -> A -> Type := 
       idpath : forall x, id x x.
@@ -628,6 +628,8 @@ In the case that $X_\bullet$ is the classifier of the [[codomain fibration]], th
 ## Related concepts
 
 * **inductive type, [[initial algebra of an endofunctor]]
+
+* [[inductive family]]
 
 * [[positive type]], [[negative type]]
 
