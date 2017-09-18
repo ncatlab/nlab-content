@@ -1,5 +1,7 @@
 **[[stable homotopy theory]]**
 
+_[[Introduction to Stable Homotopy Theory]]_
+
 #Ingredients
 
 * [[homotopy theory]]
@@ -9,6 +11,8 @@
 * [[loop space object]]
 
 * [[suspension object]]
+
+* [[looping and delooping]]
 
 * [[stable (∞,1)-category]]
 
