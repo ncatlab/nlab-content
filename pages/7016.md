@@ -21,8 +21,7 @@
 
 The principle of functional extensionality states that two [[functions]] are [[equal]] if their values are equal at every argument.
 
-
-## Definition in type theory
+### In type theory
 
 In [[intensional type theory|intensional]] ([[Martin-Löf type theory|Martin-Löf]]) [[dependent type theory]] the existence of [[identity types]] induces a notion on [[path space objects|paths]] between [[terms]] of a given type.
 
@@ -76,6 +75,30 @@ Under reasonable assumptions on the type theory, it turns out that these and oth
 
 ## Properties
 
+### Homotopy categorical semantics
+ {#HomotopyCategoricalSemantics}
+
++-- {: .num_prop #FunExtInFibrationCat}
+###### Proposition
+
+Function extensionality holds in the [[internal language|internal]] [[type theory]] of a [[type-theoretic fibration category]] precisely if [[dependent products]] (i.e. right [[base change]]) along [[fibrations]] preserve [[acyclic fibrations]].
+
+=--
+
+([Shulman 12, lemma 5.9](#Shulman12))
+
++-- {: .num_example #EveryPresentableLocallyCartesinClosedInfinityCatInterpretsHoTTPlusFunExt}
+###### Example
+
+The condition in prop. \ref{FunExtInFibrationCat} holds in particular in [[right proper model category|right proper]] [[Cisinski model structures]], since in these right [[base change]] along fibrations is a [[right Quillen functor]] (see e.g. the proof <a href="https://ncatlab.org/nlab/show/locally+cartesian+closed+(infinity,1)-category#PresentationTheorem">here</a>). 
+
+Notice that every [[presentable (∞,1)-category|presentable]] [[locally Cartesian closed (∞,1)-category]] (by the discussion <a href="locally+cartesian+closed+(infinity,1)-category#PresentationTheorem">there</a>) has a presentation by a [[right proper model category|right proper]] [[Cisinski model category]]. Accordingly we may say that every [[presentable (∞,1)-category|presentable]] [[locally Cartesian closed (∞,1)-category]] interprets [[HoTT]]+FunExt.
+
+=--
+
+
+
+
 ### Relation to interval types
 
 An [[interval type]] in [[homotopy type theory]] (with definitional computation rule for the endpoints) implies function extensionality; see [this blog post](http://homotopytypetheory.org/2011/04/04/an-interval-type-implies-function-extensionality/)
@@ -90,8 +113,8 @@ The [[univalence axiom]] implies function extensionality (this is due to [[Vladi
 
 An introduction to the relevant notions and a guided walk through the formal proof that univalence implies functional extensionality is at
 
-* [[Andrej Bauer]], [[Peter LeFanu Lumsdaine]], _[[Oberwolfach HoTT-Coq tutorial]]_
-  {#BauerLumsdaine}
+* {#BauerLumsdaine} [[Andrej Bauer]], [[Peter LeFanu Lumsdaine]], _[[Oberwolfach HoTT-Coq tutorial]]_
+  
 
 A discussion of various flavors of function extensionality, and how to move between them, can be found in
 
@@ -99,8 +122,18 @@ A discussion of various flavors of function extensionality, and how to move betw
 
 * [[Peter LeFanu Lumsdaine]], [Strong functional extensionality from weak](http://homotopytypetheory.org/2011/12/19/strong-funext-from-weak) (HoTT blog post)
 
+Discussion of the [[categorical semantics]] in the context of [[homotopy type theory]] is in 
+
+* {#Shulman12} [[Michael Shulman]], _Univalence for inverse diagrams and homotopy canonicity_, Mathematical Structures in Computer Science, Volume 25, Issue 5 ( _From type theory and homotopy theory to Univalent Foundations of Mathematics_ ) June 2015 ([arXiv:1203.3253](https://arxiv.org/abs/1203.3253), [doi:/10.1017/S0960129514000565](https://doi.org/10.1017/S0960129514000565))
+
+
+
+See also 
+
 * Coq code in the [HoTT repository](https://github.com/HoTT/HoTT/blob/master/Coq/Funext.v) and [Peter Lumsdaine's fork](https://github.com/peterlefanulumsdaine/HoTT/blob/master/Coq/Funext.v)
 
 
 [[!redirects function extensionality]]
 [[!redirects functional extensionality]]
+
+[[!redirects FunExt]]
