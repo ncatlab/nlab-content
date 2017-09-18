@@ -336,6 +336,27 @@ There is a canonical isomorphism
   $$ H'_D(X, A(p)) = H_D(X, A(p+n))[2n]. $$
 =--
 
++-- {: .proof}
+###### Proof
+Let $(X, \overline{X}) \in \Pi'_*$ be a compactification of $X$.
+We want to evaluate the [[right derived functor]] of [[global sections]] of $A(p)_D$:
+  $$ R\Gamma(\Omega_{X, \overline{X}}, \Omega^{\ge p}_{X, \overline{X}}). $$
+
+Consider the presheaf on $\overline{X}$ of complexes of abelian groups, defined by
+  $$ U \mapsto C'(\overline{X}, A(p))/C'(\overline{X} - (X \cap U), A(p)). $$
+Take its associated sheaf, and consider it as a complex of abelian sheaves, $\overline{C}'_{X, \overline{X}}(A(p))$.
+First of all note that
+  $$ \overline{C}'_{X, \overline{X}}(A(p)) = j_*j^* \overline{C}'_{X, \overline{X}}(A(p)) $$
+where $j : X \hookrightarrow \overline{X}$ is the open immersion.
+Note that $j^* \overline{C}'_{X, \overline{X}}(A(p))$ is a [[flasque resolution]] of the sheaf $A(p+n)[2n]$ on $X$.
+Since the embedding
+  $$ \Omega_{X, \overline{X}} \hookrightarrow \mathcal{D}_{X, \overline{X}}[-2n] $$
+is a [[filtered quasi-isomorphism]], and the [[associated graded objects]] $gr^p \mathcal{D}_{X, \overline{X}}$ are [[soft sheaves]], one gets
+  $$ R\Gamma(\Omega_{X, \overline{X}}, \Omega^{\ge p}_{X, \overline{X}}) = \Gamma(\overline{X}, (\mathcal{D}_{X, \overline{X}}, \mathcal{D}^{\ge p+n}_{X, \overline{X}}))[-2n] $$
+
+=--
+
+
 #### Cycles
 
 #### Hodge conjecture for Deligne cohomology
