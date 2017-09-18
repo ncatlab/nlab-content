@@ -64,6 +64,11 @@ lands in $G$.
 
 This appears as ([Joyce prop. 3.1.8](#Joyce))
 
+
+### Via $\mathbb{O}$-Riemannian manifolds
+
+[[!include normed division algebra Riemannian geometry -- table]]
+
 ## Related concepts
 
 * [[stable form]], [[definite form]]
@@ -99,6 +104,11 @@ For more see
 Discussion of the relation to [[Killing spinors]] includes
 
 * Andrei Moroianu, [[Uwe Semmelmann]], _Parallel spinors and holonomy groups_, Journal of Mathematical Physics 41 (2000), 2395-2402 ([arXiv:math/9903062](http://arxiv.org/abs/math/9903062))
+
+Discussion in terms of [[Riemannian geometry]] modeled on [[normed division algebras]] is in
+
+* {#Leung02} [[Naichung Conan Leung]], _Riemannian Geometry Over Different Normed Division Algebras_, J. Differential Geom. Volume 61, Number 2 (2002), 289-333. ([publisher page](http://projecteuclid.org/euclid.jdg/1090351387))
+
 
 
 [[!redirects manifold with special holonomy]]
