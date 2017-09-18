@@ -19,7 +19,7 @@
 A _commutative monoid_ is a [[monoid]] where the multiplication satisfies the commutative law:
 $$x y = y x.$$
 
-Alternatively, just as a [[monoid]] can be seen as a [[category]] with one object, a commutative monoid can be seen as a [[monoidal category]] with one object and one morphism.
+Alternatively, just as a [[monoid]] can be seen as a [[category]] with one object, a commutative monoid can be seen as a [[bicategory]] with one object and one morphism.
 
 Commutative monoids with [[homomorphisms]] between them form a _[[category of commutative monoids]]_.
 
@@ -49,6 +49,7 @@ Commutative monoids with [[homomorphisms]] between them form a _[[category of co
 
 * [[E-infinity algebra]]
 
+* [[periodic table]]
 
 [[!redirects abelian monoids]]
 [[!redirects commutative monoid]]
