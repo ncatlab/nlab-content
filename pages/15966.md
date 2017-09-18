@@ -50,12 +50,30 @@ $$k_\Delta\to K\to \omega_\Delta$$
 and the corresponding class is a section of $\mu hom(k_\Delta,\omega_\Delta)$.
 
 In the coherent setting, the analog of a trace kernel associated to a coherent $\mathcal{O}$-module $\mathcal{F}$ is given by the sequence
-$$\mathcal{O}_\Delta\to \mathcal{F}\boxtimes D\mathcal{F}\to \omega^{hol}_\Delta.$$
+$$
+\mathcal{O}_\Delta\to \mathcal{F}\boxtimes D\mathcal{F}\to \omega^{hol}_\Delta.
+$$
 
 In the $\mathcal{D}$-module setting, the analog of a trace kernel of a coherent
 $\mathcal{D}$-module $\mathcal{M}$ is given by the sequence
-$$\mathcal{O}_\Delta\to \mathcal{M}\boxtimes D_\mathcal{D}\mathcal{M}\to \omega^{hol}_\Delta$$
-and one sends it to the trace kernel given by taking the de Rham functor (tensor product operation $\omega_{X\times X}\otimes_\mathcal{D}-$.
+$$
+\mathcal{B}_\Delta\to \mathcal{M}\boxtimes D_\mathcal{D}\mathcal{M}\to \mathcal{B}^\vee_\Delta
+$$
+and one sends it to the trace kernel given by taking the de Rham functor (tensor product operation $\omega_{X\times X}\otimes_\mathcal{D}-$. The corresponding microlocal euler class is given by the microlocalization of the above sequence
+$$
+\mathcal{B}_\Delta^E\to \mathcal{M}^E\boxtimes D_\mathcal{E}\mathcal{M}^E\to \mathcal{B}^{E\vee}_\Delta
+$$
+because one has a canonical isomorphism
+$$
+\mathbb{R}Hom(\mathcal{B}_\Delta^E,\mathcal{B}_\Delta^{E\vee})
+\overset{\sim}{\longrightarrow}
+\mu hom(\mathbb{C}_\Delta,\omega_\Delta).
+$$
+
+The problem is now the following: given an $R$-constructible sheaf $F$ on $M$,
+one may define a trace kernel by using the sequence
+$$\mathbb{C}_\Delta\to F\boxtimes DF\to \omega_\Delta.$$
+How can one formulate this construction in terms of $\mathcal{E}$-modules (maybe with an additional structure, such as a kind of filtration, if one takes inspiration from $p$-adic Hodge theory, with filtered modules with connections, or $p$-adic Riemann-Hilbert, with $p$-adic differential equations with Frobenius structure).
 
 ## A possible set of constraints for a coherent theory
 
@@ -74,7 +92,7 @@ One should be able to define global analytic analogs of:
 
 1. The Chern character in various situations, using either the formalism of Toen-Vezzosi or the formalism of Kashiwara-Schapira, applied to the following stacks of rigid (maybe non) symmetric monoidal $\infty$-categories on the $\infty$-topos of derived dagger analytic stacks with its pro-etale, Nisnevich or usual analytic topology:
 * the stack $X\mapsto Perf(X)$ of perfect $\mathcal{O}$-modules (derived analog of coherent modules),
-* the stack $X\mapsto Const_{proet}(X,\mathcal{C})$ of constructible pro-etale sub-analytic sheaves with values in a symmetric monoidal stable presentable $\infty$-category, with their natural tensor product and duality; the problem with this stack is that it doesn't take care of the derived (infinitesimal) information, so its treatment should be given in a Kashiwara-Schapira approach.
+* the stack $X\mapsto Const_{proet}(X,\mathcal{C})$ of constructible pro-etale sub-analytic sheaves with values in a symmetric monoidal stable presentable $\infty$-category, with their natural tensor product and duality; the problem with this stack is that it doesn't take care of the derived (infinitesimal) information, so its treatment should be given in a Kashiwara-Schapira approach, using loop space microlocalization and some additional structure that will probably be necessary to encode an R-constructible sheaf in a microdifferential structure.
 * one would also like to treat the case of (at least holonomic) $\mathcal{D}$-modules, either using the Ran space or another construction. It seems that Toen-Vezzosi's approach has to be modified to treat this case properly because of the compound tensor structure $(\otimes^!,\otimes^*)$ on $\mathcal{D}$-modules on the Ran space.
 
 1. The treatment of $\mathcal{D}$-modules and $\mathcal{D}_q$-modules in a uniform setting may involve the following generalization of the Kashiwara and Schapira approach (in a Toen-Vezzosi type of setting) due to F. Petit: one must work with trace kernels, and compute the trace of their action on the Hochschild or cyclic homology of ---non-symmetric--- monoidal categories of (typically) bimodules on an associative algebra. The proper treatment of this theory will be discussed in the section [[non-commutative global analytic index theory]].
@@ -83,7 +101,9 @@ One should be able to define global analytic analogs of:
 
 Using the methods of [[derived microlocalization]] and Kashiwara and Schapira's [[microlocal formulation of index theory]], one may develop a derived index theory.
 
-## Possible references
+## References
+
+[[Masaki Kashiwara]] and [[Pierre Schapira]] _Microlocal Euler classes and Hochschild homology_ [arXiv](http://arxiv.org/abs/1203.4869)
 
 One may be very tempted to use the following reference, to get a better way of looking at Deligne (or global analytic motivic) cohomology, in use for the Grothendieck-Riemann-Roch theorem:
 
