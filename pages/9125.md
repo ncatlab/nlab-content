@@ -2653,6 +2653,10 @@ The moduli stack of these fields is that of background fields that satisfy the [
 
 ### Lecture notes and expositions
 
+A survey of the main field species is given in 
+
+* {#Kocic16} [[Mikica Kocic]], _Overview of the fields in QFT_, 2016 ([[FieldSpecies.pdf:file]])
+
 Most of the above material as of 2013 was written as part of a lecture series
 
 * [[Urs Schreiber]], _Higher Chern-Simons theory_, lecture series at _[Workshop on Topological Aspects of Quantum Field Theories, Singapore (14 - 18 Jan 2013)](http://www2.ims.nus.edu.sg/Programs/013wquantum/index.php)_ on the first sections at _[geometry of physics, II) Physics](http://ncatlab.org/nlab/show/geometry%20of%20physics#PHYSICS)_
