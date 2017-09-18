@@ -166,7 +166,7 @@ $$
 ## Properties 
 
 
-In the following we write $\underset{\longrightarrow}{\lim}^f$ for the "formal colimits" defining ind-object. I.e. if $\alpha \colon \mathcal{I} \to \mathcal{C}$ is a small [[diagram]] and with $i \colon Ind(\mathcal{C}) \hookrightarrow PSh(\mathcal{C})$ the defining inclusion, then
+In the following we write $\underset{\longrightarrow}{\lim}^f$ for the "formal colimits" defining ind-objects. I.e. if $\alpha \colon \mathcal{I} \to \mathcal{C}$ is a small [[diagram]] and with $i \colon Ind(\mathcal{C}) \hookrightarrow PSh(\mathcal{C})$ the defining inclusion, then
 
 $$
   \underset{\longrightarrow}{\lim}^f (\alpha)
@@ -196,7 +196,7 @@ $Ind(\mathcal{C})$ admits small [[filtered colimits]] and the defining inclusion
 
 The following says that morphisms between ind-objects are represented by [[natural transformation]] of the filtered diagrams that represent them, possibly up to restricting these diagrams first along a [[cofinal functor]].
 
-+-- {: .num_prop}
++-- {: .num_prop #MorphismsRepresentedByCofilteredSystemsOfMorphisms}
 ###### Proposition
 
 Let 
