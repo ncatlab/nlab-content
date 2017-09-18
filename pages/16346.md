@@ -223,7 +223,7 @@ It is an observation from [[experiment]] (from the [[Stern-Gerlach experiment]] 
 +-- {: .num_defn}
 ###### Definition
 
-A _[[super-commutative superalgebra]]_ (or just _[[commutative superalgebra]]_ for short)  is a $\mathbb{Z}/2\mathbb{Z}$-[[graded algebra|graded]] [[associative algebra]] $A = A_{even} \oplus A_{odd}$ such that for $a,b$ any two elements in homogeneous degree $deg(a), deg(b)\in \mathbb{Z}/2\mathbb{Z}$, then their product is related by ([[Ausdehnunglehre|Grassmann 1844, §37, §55]])
+A _[[super-commutative superalgebra]]_ (or just _[[commutative superalgebra]]_ for short)  is a $\mathbb{Z}/2\mathbb{Z}$-[[graded algebra|graded]] [[associative algebra]] $A = A_{even} \oplus A_{odd}$ such that for $a,b$ any two elements in homogeneous degree $deg(a), deg(b)\in \mathbb{Z}/2\mathbb{Z}$, then their product is related by ([[Ausdehnungslehre|Grassmann 1844, §37, §55]])
 
 $$
   a \cdot b = (-1)^{deg(a) deg(b)} b \cdot a
@@ -672,7 +672,7 @@ $$
     \\
     && \vee && \vee
     \\
-    &\stackrel{fermionic}{}& \e &\dashv& \rightsquigarrow & \stackrel{bosonic}{}
+    &\stackrel{fermionic}{}& \rightrightarrows  &\dashv& \rightsquigarrow & \stackrel{bosonic}{}
     \\
     && \bot && \bot
     \\
@@ -708,7 +708,7 @@ We pronounce the operations in corollary \ref{SystemOfModalities} as follows.
 
 * [[solidity]]
 
-  * **[[fermionic modality]] $\e$** -- the spaces it sends to the point are purely fermionic, the [[odd line]];
+  * **[[fermionic modality]] $\rightrightarrows$** -- the spaces it sends to the point are purely fermionic, the [[odd line]];
 
   * **[[bosonic modality]] $\rightsquigarrow$** -- sends a super-space to the underlying bosonic space;
 
@@ -737,7 +737,7 @@ We pronounce the operations in corollary \ref{SystemOfModalities} as follows.
 
 * For $X \in SmoothMfd \hookrightarrow Smooth0Type \hookrightarrow FormalSmooth0Type \hookrightarrow SuperFormalSmooth0Type$  any ordinary [[smooth manifold]], this is a [[bosonic modality|bosonic]] [[modal type]] $\stackrel{\rightsquigarrow}{X} \simeq X$.
 
-* The [[odd line]] $\mathbb{R}^{0|1}$ is purely [[fermionic modality|fermionic]] in that it is an $\e$-[[comodal type]]: $\e(\mathbb{R}^{0|1})\simeq \ast$.
+* The [[odd line]] $\mathbb{R}^{0|1}$ is purely [[fermionic modality|fermionic]] in that it is an $\e$-[[comodal type]]: $\stackrel{\rightrightarrows}{\mathbb{R}^{0|1}}\simeq \ast$.
 
 * All [[super Cartesian spaces]] $\mathbb{R}^{p|q}$ have [[contractible]] [[shape]] in that $\int \mathbb{R}^{p|q} \simeq \ast$.
 
@@ -829,10 +829,10 @@ $$
   \begin{aligned}
     \mathbf{H}(U \times D_s , \stackrel{\rightsquigarrow}{\Im X})
     & \simeq
-    \mathbf{H}(\e(U \times D_s) , \Im X)
+    \mathbf{H}(\stackrel{\rightrightarrows}{U \times D_s} , \Im X)
     \\
     &\simeq 
-    \mathbf{H}(\Re(\e(U \times D_s)) , X)
+    \mathbf{H}(\Re(\stackrel{\rightrightarrows}{U \times D_s}) , X)
     \\
     & \simeq
     \mathbf{H}(U, X)
@@ -1064,7 +1064,7 @@ $$
 +-- {: .num_defn #Framing}
 ###### Definition
 
-A [[framing]] of a $V$-manifold is a trivialization of its [[frame bundle]], prop. \ref{FrameBundle}, hence a diagram in $\mathbf{H}$ of the fomr
+A [[framing]] of a $V$-manifold is a trivialization of its [[frame bundle]], prop. \ref{FrameBundle}, hence a diagram in $\mathbf{H}$ of the form
 
 $$
   \array{
@@ -1095,7 +1095,7 @@ in $\mathbf{H}_{/\mathbf{B}GL(V)}$.
 +-- {: .num_prop #LeftTranslationFraming}
 ###### Proposition
 
-The[[group object]] $V$, canonically regarded as a $V$-manifold, carries a canonical framing, def. \ref{Framing}, $\phi_{li}$, induced by left translation. 
+The [[group object]] $V$, canonically regarded as a $V$-manifold, carries a canonical framing, def. \ref{Framing}, $\phi_{li}$, induced by left translation. 
 
 =--
 
@@ -1455,6 +1455,7 @@ The _[[Chevalley-Eilenberg algebra]]_ $CE(\mathfrak{g})$ of a finite dimensional
 
 $$
   \wedge^\bullet \mathfrak{g}^*
+
   = 
   k \oplus \mathfrak{g}^* \oplus (\mathfrak{g}^* \wedge \mathfrak{g}^* ) \oplus \cdots
 $$ 
