@@ -6988,7 +6988,7 @@ $$
     \mathcal{C}
     \\
     {}^{\mathllap{\gamma \times \gamma}}\downarrow
-      &\swArrrow^{\mu^{-1}}&
+      &\swArrow^{\mu^{-1}}&
     \downarrow^{\mathrlap{\gamma}}
     \\
     Ho(\mathcal{C})
@@ -8986,7 +8986,7 @@ $$
    \Sigma^{n_1 + n_2} \mathbb{S} \simeq \Sigma^{n_1} \mathbb{S} \wedge \Sigma^{n_2} \mathbb{S}
 $$ 
 
-since $\mathbb{S}\simeq \mathbb{S}\wedge \mathbb{S}$ is the [[tensor unit]] (cor. \ref{MonoidalStableHomotopyCategory}, lemma \ref{kel1}) and using the [[tensor triangulated category|tensor triangulated]] structure from prop. \ref{TensorTriangulatedStructureOnStableHomotopyCategory}. Using this we may form the composite
+since $\mathbb{S}\simeq \mathbb{S}\wedge \mathbb{S}$ is the [[tensor unit]] (cor. \ref{MonoidalStableHomotopyCategory}, lemma \ref{kel1}) using lemma \ref{SmashProductOfSpectraCompatibleWithSuspension} (part of the [[tensor triangulated category|tensor triangulated]] structure from prop. \ref{TensorTriangulatedStructureOnStableHomotopyCategory}). With this we may form the composite
 
 $$
   \alpha_1 \cdot \alpha_2
@@ -9003,7 +9003,7 @@ $$
   \,.
 $$
 
-That this pairing is associative and unital follows directly from the associativity and unitality of $\mu$. Evidently the pairing is graded. That it is bilinear follows since addition of morphisms in the stable homotopy category is given by forming their [[direct sum]] ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#SemiaddtiveStructureUnderlyingAdditiveInducesOriginalEnrichment)) and since $\wedge$ disributes over direct sum (lemma \ref{DerivedSmashProductOfSpectraPreservesDirectSums}).
+That this pairing is associative and unital follows directly from the associativity and unitality of $\mu$ and the [[coherence]] of the isomorphism on the left (prop. \ref{TensorTriangulatedStructureOnStableHomotopyCategory}). Evidently the pairing is graded. That it is bilinear follows since addition of morphisms in the stable homotopy category is given by forming their [[direct sum]] ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#SemiaddtiveStructureUnderlyingAdditiveInducesOriginalEnrichment)) and since $\wedge$ distributes over direct sum (lemma \ref{DerivedSmashProductOfSpectraPreservesDirectSums},  part of the [[tensor triangulated category|tensor triangulated]] structure of prop. \ref{TensorTriangulatedStructureOnStableHomotopyCategory})).
 
 It only remains to show graded-commutivity of the pairing. This is exhibited by the following [[commuting diagram]]:
 
@@ -9038,7 +9038,7 @@ $$
   \,.
 $$
 
-Here the top square is that of lemma \ref{GradedCommutativityOfSuspendedSphereSpectra}, the middle square is the naturality square of the [[braiding]], and the bottom triangle commutes by definition of $(E,\mu,e)$ being a commutative monoid (def. \ref{MonoidsInMonoidalCategory}).
+Here the top square is that of lemma \ref{GradedCommutativityOfSuspendedSphereSpectra} (part of the [[tensor triangulated category|tensor triangulated]] structure of prop. \ref{TensorTriangulatedStructureOnStableHomotopyCategory})), the middle square is the naturality square of the [[braiding]] (def. \ref{BraidedMonoidalCategory}, cor. \ref{MonoidalStableHomotopyCategory}), and the bottom triangle commutes by definition of $(E,\mu,e)$ being a commutative monoid (def. \ref{MonoidsInMonoidalCategory}).
 
 Similarly given 
 
@@ -9088,17 +9088,17 @@ Analogously for the right action on $X_\bullet(E)$.
 ###### Example
 **(ring structure on the stable homotopy groups of spheres)**
 
-The [[sphere spectrum]] $\mathbb{S} = \gamma(\mathbb{S}_{orth})$ is a [[homotopy commutative ring spectrum]] (def. \ref{HomotopyCommutativeRingSpectrum})
+The [[sphere spectrum]] $\mathbb{S} = \gamma(\mathbb{S}_{orth})$ is a [[homotopy commutative ring spectrum]] (def. \ref{HomotopyCommutativeRingSpectrum}).
 
-On the one hand this is because it is the [[tensor unit]] for the derived [[smash product of spectra]], by cor. \ref{MonoidalStableHomotopyCategory}, and by example \ref{MonoidGivenByTensorUnit} every such is canonically a (commutative) monoid. On the other hand we have the explicit representation by the [[orthogonal ring spectrum]] (def. \ref{RingSpectrumInSymmetricAndOrthogonalSpectra}) $\mathbb{S}_{orth}$, according to lemma \ref{FSPStructuredSphereSpectra}, and the [[localization]] functor $\gamma$ is a [[symmetric monoidal functor|symmetric]] [[lax monoidal functor]] (prop. \ref{LaxMonoidalLocalizationOfMonoidalModelCategory}, and in fact a [[strong monoidal functor]] on cofibrant objects such as $\mathbb{S}_{orth}$ according to prop. \ref{MonoidalStructureOnHomotopyCategoryOfMonoidalModelCategory}) and hence preserves commutative monoids (prop. \ref{MonoidsPreservedByLaxMonoidalFunctor}).
+On the one hand this is because it is the [[tensor unit]] for the derived [[smash product of spectra]] (by cor. \ref{MonoidalStableHomotopyCategory}), and by example \ref{MonoidGivenByTensorUnit} every such is canonically a (commutative) monoid. On the other hand we have the explicit representation by the [[orthogonal ring spectrum]] (def. \ref{RingSpectrumInSymmetricAndOrthogonalSpectra}) $\mathbb{S}_{orth}$, according to lemma \ref{FSPStructuredSphereSpectra}, and the [[localization]] functor $\gamma$ is a [[symmetric monoidal functor|symmetric]] [[lax monoidal functor]] (prop. \ref{LaxMonoidalLocalizationOfMonoidalModelCategory}, and in fact a [[strong monoidal functor]] on cofibrant objects such as $\mathbb{S}_{orth}$ according to prop. \ref{MonoidalStructureOnHomotopyCategoryOfMonoidalModelCategory}) and hence preserves commutative monoids (prop. \ref{MonoidsPreservedByLaxMonoidalFunctor}).
 
-The [[stable homotopy groups]] of the [[sphere spectrum]] are of course the [[stable homotopy groups of spheres]] ([expl.](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyGroupsOfSpheres))
+The [[stable homotopy groups]] of the [[sphere spectrum]] are of course the [[stable homotopy groups of spheres]] ([exmpl.](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyGroupsOfSpheres))
 
 $$
-  \pi_\bullet(\mathbb{S})
-  =
   \pi^s_\bullet
-  \simeq
+    \coloneqq
+  \pi_\bullet(\mathbb{S})
+    \simeq
   \underset{\longrightarrow}{\lim}_k \pi_{\bullet+k}(S^k)
   \,.
 $$
@@ -9146,7 +9146,7 @@ $$
   \,.
 $$
 
-In particular for every spectum $X \in Ho(Spectra)$, its [[stable homotopy groups]] $\pi_\bullet(X)\simeq [\mathbb{S}, X]_\bullet$ ([lemma](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyGrouspAsHomsOutOfSphereSpectrum)) canonically form a module over $\pi_\bullet^s$. If $X = E$ happens to carry the structure of a [[homotopy commutative ring spectrum]], then this module structure coincides the one induced from the unit 
+In particular for every spectrum $X \in Ho(Spectra)$, its [[stable homotopy groups]] $\pi_\bullet(X)\simeq [\mathbb{S}, X]_\bullet$ ([lemma](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyGrouspAsHomsOutOfSphereSpectrum)) canonically form a module over $\pi_\bullet^s$. If $X = E$ happens to carry the structure of a [[homotopy commutative ring spectrum]], then this module structure coincides the one induced from the unit 
 
 $$
   \pi_\bullet(e)
@@ -9179,21 +9179,21 @@ The [[homotopy category of a model category|homotopy category]] $Ho(\mathcal{C})
         \underoverset
           {\longrightarrow}
           {\longleftarrow}
-          {\simeq_{Qu}}
+          {{}_{\phantom{Qu}}\simeq_{Qu}}
         \underoverset
           {\longleftarrow}
           {\longrightarrow}
-          {\simeq_{Qu}}
+          {{}_{\phantom{Qu}}\simeq_{Qu}}
          \;\;\cdots \;\;
         \underoverset
           {\longleftarrow}
           {\longrightarrow}
-          {\simeq_{Qu}}
+          {{}_{\phantom{Qu}}\simeq_{Qu}}
        OrthSpec(Top_{cg})_{stable}
         \underoverset
           {\longrightarrow}
           {\longleftarrow}
-          {\simeq_{Qu}}
+          {{}_{\phantom{Qu}}\simeq_{Qu}}
        SeqSpec(Top_{cg})_{stable}
    $$
 
@@ -9298,7 +9298,7 @@ Therefore in this case we have an isomorphism for all $E$.
 
 For general $X$, we may without restriction assume that $X$ is represented by a sequential [[CW-spectrum]] ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#CWApproximationForSequentialSpectra)). Then the [[homotopy cofibers]] of its cell attachment maps are suspensions of the [[sphere spectrum]] ([rmk.](Introduction+to+Stable+homotopy+theory+--+1-1#StrictModelStructureCellAttachmentToSpectra)).
 
-First consider the case that $X$ is a CW-spectrum with finitely many cells. Consider the [[homotopy cofiber sequence]] of the $(k+1)$st cell attachment:
+First consider the case that $X$ is a CW-spectrum with finitely many cells. Consider the [[homotopy cofiber sequence]] of the $(k+1)$st cell attachment (by that [remark](Introduction+to+Stable+homotopy+theory+--+1-1#StrictModelStructureCellAttachmentToSpectra)):
 
 $$
   \array{
@@ -9351,7 +9351,7 @@ $$
   \,.
 $$
 
-Here the  bottom row is a [[long exact sequence]] since $E \wedge E \wedge (-)$ preserves homotopy cofiber sequences (by lemma \ref{SmashTensoringWithSpectrumDerivedPreserveshomotopycofibers}, part of the [[tensor triangulated category|tensor triangulated]] structure of prop. \ref{TensorTriangulatedStructureOnStableHomotopyCategory}), and since $[\mathbb{S},-]_\bullet \simeq \pi_\bullet(-)$ sends homtopy cofiber sequences to [[long exact sequences]] ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#LongExactSequenceOfStableHomotopyGroups)). By the same reasoning $E_\bullet(-)$ of the homotopy cofiber sequence is long exact, and by the assumption that $E_\bullet(E)$ is that the functor $E_\bullet(E)\otimes_{\pi_\bullet(E)}(-)$ preserves this exactmess, so that also the top row is a [[long exact sequence]].
+Here the  bottom row is a [[long exact sequence]] since $E \wedge E \wedge (-)$ preserves homotopy cofiber sequences (by lemma \ref{SmashTensoringWithSpectrumDerivedPreserveshomotopycofibers}, part of the [[tensor triangulated category|tensor triangulated]] structure of prop. \ref{TensorTriangulatedStructureOnStableHomotopyCategory}), and since $[\mathbb{S},-]_\bullet \simeq \pi_\bullet(-)$ sends homtopy cofiber sequences to [[long exact sequences]] ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#LongExactSequenceOfStableHomotopyGroups)). By the same reasoning $E_\bullet(-)$ of the homotopy cofiber sequence is long exact; and by the assumption that $E_\bullet(E)$ is flat, the functor $E_\bullet(E)\otimes_{\pi_\bullet(E)}(-)$ preserves this exactness, so that also the top row is a [[long exact sequence]].
 
 Now by [[induction]] over the cells of $X$, the outer four vertical morphisms are [[isomorphisms]]. Hence the [[5-lemma]] implies that also the middle morphism is an isomorphism.
 
