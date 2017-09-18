@@ -66,8 +66,11 @@ More generally, for $\chi$ an $R$-[[(∞,1)-line bundle]] over $X$ then the corr
 
 * Wikipedia, _[Intensive and extensive properties](http://en.wikipedia.org/wiki/Intensive_and_extensive_properties)_
 
-* [[William Lawvere]], Introduction to _[[Categories in Continuum Physics]], Lectures given at a Workshop held at SUNY, Buffalo 1982. Lecture Notes in Mathematics 1174. 1986
- {#Lawvere86}
+* {#Lawvere86} [[William Lawvere]], Introduction to _[[Categories in Continuum Physics]], Lectures given at a Workshop held at SUNY, Buffalo 1982. Lecture Notes in Mathematics 1174. 1986
+ 
+Lawvere's terminology is probably inspired by  
+
+* [[Georg Hegel]], part II "Philosophy of Nature", second section "Phyiscs", B, in _[[Encyclopedia of the Philosophical Sciences]]_
 
 
 [[!redirects intensive or extensive]]
