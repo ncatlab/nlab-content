@@ -85,7 +85,7 @@ for the [[Yoneda embedding]].
 Given a [[covering]] family $\{f_i : U_i \to U\}$ in $J$, its **[[sieve]]** is the presheaf $S(\{U_i\})$ defined as the [[coequalizer]]
 
 $$
-   \coprod_{i,j} j(U_i) \times_{j(u)} j(U_j) 
+   \coprod_{i,j} j(U_i) \times_{j(U)} j(U_j) 
      \stackrel{\overset{}{\to}}{\to}
    \coprod_i j(U_i) \to S(\{U_i\}) 
 $$
@@ -111,7 +111,7 @@ in $PSh(C)$, and the two morphisms between the coproducts are those induced comp
 +-- {: .num_remark}
 ###### Remark
 
-Using that [[limits]] and [[colimits]] in a [[category of presheaves]] are computed objectwise, we find that the [[sieve]] $S(\{U_i\})$ defined this way is the presheaf that sends any $K \in C$ to the set of [[morphisms]] $K \to U$ in $C$ that factor through one of the $f_i$
+Using that [[limits]] and [[colimits]] in a [[category of presheaves]] are computed objectwise, we find that the [[sieve]] $S(\{U_i\})$ defined this way is the presheaf that sends any $K \in C$ to the set of [[morphisms]] $K \to U$ in $C$ that factor through one of the $f_i$.
 
 =--
 
