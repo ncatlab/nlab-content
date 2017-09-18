@@ -1,4 +1,13 @@
 
+| number | name | statement | reformulation |
+|--------|------|-----------|---------------|
+| $T_0$  | Kolmogorov | given two distinct points, at least one of them has an open neighbourhood not containing the other point |  every irreducible closed subset is the closure of at most one point |
+| $T_1$  |      | given two distinct points, both have an open neighbourhood not containing the other point | all points are closed |
+| $T_2$  | [[Hausdorff topological space|Hausdorff]] | given two distinct points, they have disjoint open neighbourhoods | the diagonal is a closed map  |
+| $T_3$  | [[regular topological space|regular]] |  all points are closed and  given two closed subsets, at least one of them has an open neighbourhood disjoint from the other closed subset |  |
+| $T_4$  | [[normal topological space|normal]] | all points are closed and given two closed subsets, both of then have open neighbourhoods not intersecting the other closed subset |  |
+
+
 $\supset$
 
 [[ClosedIntervalQuotientedToCircle.pdf:file]]
