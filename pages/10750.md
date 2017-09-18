@@ -4427,7 +4427,7 @@ for the category that these form.
 
 ([Schwede 12, def. 1.3](#Schwede12)) 
 
-+-- {: .num_prop}
++-- {: .num_prop #RingSpectraAreDayMonoids}
 ###### Proposition
 
 The symmetric (orthogonal) [[commutative ring spectra]] in def. \ref{RingSpectrumInSymmetricAndOrthogonalSpectra} are equivalently the [[commutative monoid in a symmetric monoidal category|commutative monoids in]] (def. \ref{MonoidsInMonoidalCategory}) the [[symmetric monoidal category]] $\mathbb{S}_{sym}Mod$ ($\mathbb{S}_{orth}Mod$) of def. \ref{SsymModuleSymmetricSpectra} with respect to the [[symmetric monoidal smash product of spectra]] $\wedge = \otimes_{\mathbb{S}_{sym}}$ ($\wedge = \otimes_{\mathbb{S}_{orth}}$). Hence there are [[equivalences of categories]]
@@ -4454,7 +4454,7 @@ $$
 
 We discuss this for symmetric spectra. The proof for orthogonal spectra is directly analogous.
 
-By prop. \ref{AlgebrasOverAAreMonoidsUnderA} and def. \ref{SsymModuleSymmetricSpectra}, the commutative monoids in $\mathbb{S}_{sym}Mod$ are equivalently commtutative monoids $E$ in $([Sym,Top^{\ast/}_{cg}], \otimes_{Day}, y(0))$ equipped with a homomorphism of monoids $\mathbb{S}_{sym} \longrightarrow E$. in turn, by prop. \ref{DayMonoidsAreLaxMonoidalFunctorsOnTheSite} this are equivalently braided lax monoidal functors (which we denote by the same symbols, for convenience)
+By prop. \ref{AlgebrasOverAAreMonoidsUnderA} and def. \ref{SsymModuleSymmetricSpectra}, the commutative monoids in $\mathbb{S}_{sym}Mod$ are equivalently commtutative monoids $E$ in $([Sym,Top^{\ast/}_{cg}], \otimes_{Day}, y(0))$ equipped with a homomorphism of monoids $\mathbb{S}_{sym} \longrightarrow E$. in turn, by prop. \ref{DayMonoidsAreLaxMonoidalFunctorsOnTheSite} this are equivalently braided lax monoidal functors (which we denote by the same symbols, for convenience) of the form
 
 $$
   E \;\colon\; (Sym, +, 0) \longrightarrow (Top^{\ast/}_{cg}, \wedge, S^0)
@@ -4506,6 +4506,128 @@ This means that $\iota_{n \geq 2}$ is uniquely fixed once $\iota_0$ and $\iota_1
 Finally it is clear that homomorphisms on both sides of the equivalence precisely respect all this structure under both sides of the equivalence.
 
 =--
+
+Similarly:
+
++-- {: .num_defn #SymmetricModuleSpectrum}
+###### Definition
+
+Given a symmetric (orthogonal) [[commutative ring spectrum]] $E$ (def. \ref{RingSpectrumInSymmetricAndOrthogonalSpectra}), then a left symmetric (orthogonal) **[[module spectrum]]** $N$ over $E$ is
+
+1. a sequence of component spaces $N_n \in Top^{\ast/}_{cg}$ for $n \in \mathbb{N}$;
+
+1. a basepoint preserving continuous left [[action]] of the [[symmetric group]] $\Sigma(n)$ on $N_n$;
+
+1. for all $n_1,n_2\in \mathbb{N}$ an _action map_
+
+   $$
+     \rho_{n_1,n_2}
+       \;\colon\;
+      E_{n_1} \wedge N_{n_2} \longrightarrow N_{n_1 + n_2}
+   $$
+
+   (a morphism in $Top^{\ast/}_{cg}$)
+
+such that
+
+1. (action property) for all $n_1, n_2, n_3 \in \mathbb{N}$ the following [[commuting diagram|diagram commutes]] (where we are notationally suppressing the [[associators]] of $(Top^{\ast/}_{cg}, \wedge, S^0)$)
+
+   $$
+     \array{
+       E_{n_1} \wedge E_{n_2} \wedge N_{n_3}
+         &\overset{id \wedge \rho_{n_2,n_3}}{\longrightarrow}&
+       E_{n_1} \wedge N_{n_2 + n_3}
+       \\
+       {}^{\mathllap{\mu_{n_1,n_2}\wedge id }}\downarrow
+         &&
+       \downarrow^{\mathrlap{\rho_{n_1, n_2 + n_3}}}
+       \\
+       E_{n_1 + n_2} \wedge N_{n_3}
+         &\underset{\rho_{n_1 + n_2, n_3}}{\longrightarrow}&
+       N_{n_1 + n_2 + n_3}
+     }
+     \,;
+   $$
+
+1. (unitality) for all $n \in \mathbb{N}$ the following [[commuting diagram|diagram commutes]]
+
+   $$
+     \array{
+       S^0 \wedge N_n 
+         &\overset{\iota_0 \wedge id}{\longrightarrow}&
+       E_0 \wedge N_n
+       \\
+       &{}_{\mathllap{\ell^{Top^{\ast/}_{cg}}_{N_n}}}\searrow& \downarrow^{\mathrlap{\mu_{0,n}}}
+       \\
+       && N_n
+     }
+     \,.
+   $$
+
+A [[homomorphism]] of left $E$-module spectra $f\;\colon\; N \longrightarrow N'$ is a sequence of pointed continuous functions $f_n \;\colon\; N_n \longrightarrow N'_n$ such that for all $n_1,n_2 \in \mathbb{N}$ the following [[commuting diagram|diagrams commute]]:
+
+$$
+  \array{
+    E_{n_1} \wedge N_{n_2}
+     &\overset{id \wedge f_{n_2}}{\longrightarrow}&
+    E_{n_1} \wedge N'_{n_2}
+    \\
+    {}^{\mathllap{\rho_{n_1,n_2}}}\downarrow 
+      &&
+    \downarrow^{\rho_{n_1, n_2}}
+    \\
+    N_{n_1 + n_2}
+      &\underset{f_{n_1 + n_2}}{\longrightarrow}&
+    N'_{n_1 + n_2}
+  }
+  \,.
+$$
+
+We write
+
+$$
+  E Mod(SymSpec(Top_{cg}))
+  \;\;\,,
+  \;\;
+  E Mod(OrthSpec(Top_{cg}))
+$$
+
+for the resulting category of symmetric (orthogonal) $E$-module spectra.
+
+=--
+
++-- {: .num_prop #ModuleSpectraAreModuleFunctors}
+###### Proposition
+
+Under the identification from prop. \ref{RingSpectraAreDayMonoids} of [[commutative ring spectra]] with [[monoids in a symmetric monoidal category|monoids with respect to]] the [[symmetric monoidal smash product of spectra]], the $E$-[[module spectra]] of def. \ref{SymmetricModuleSpectrum} are equivalently the left [[module objects]] (def. \ref{ModulesInMonoidalCategory}) over the respective monoids, i.e. there are [[equivalences of categories]]
+
+$$
+  E Mod(SymSpec(Top_{cg}))
+    \;\simeq\;
+  E Mod( [Sym,Top^{\ast/}_{cg}], \otimes_{Day}, y(0) )
+$$
+
+and
+
+$$
+  E Mod(OrthSpec(Top_{cg}))
+    \;\simeq\;
+  E Mod( [Orth, Top^{\ast/}_{cg}], \otimes_{Day}, y(0) )
+  \,,
+$$
+
+where on the right we have the [[categories of modules]] from def. \ref{ModulesInMonoidalCategory}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The proof is directly analogous to that of prop. \ref{RingSpectraAreDayMonoids}.  Now prop. \ref{AlgebrasOverAAreMonoidsUnderA} and prop. \ref{DayMonoidsAreLaxMonoidalFunctorsOnTheSite} give that the module objects in question are equivalently [[modules over a monoidal functor]] (def. \ref{ModuleOverAMonoidalFunctor}) and writing these out in components yields precisely the above structures and properties.
+
+=--
+
+
 
 ##### As diagram spectra
 
@@ -7969,7 +8091,7 @@ In conclusion, the right vertical morphism is the pushout of a stable weak homot
 #### Conclusion
  {#Conclusion}
 
-We summarize the results about [[stable homotopy theory]] obtained in [[Introduction to Stable homotopy theory -- 1|Part 1]].
+We summarize the results about [[stable homotopy theory]] obtained above.
 
 First of all we have established a [[commuting diagram]] of [[Quillen adjunctions]] and [[Quillen equivalences]] of the form
 
@@ -8067,9 +8189,23 @@ $$
   }
 $$
 
-between the (Serre-Quillen-)[[classical homotopy category]] $Ho(Top^{\ast/})$ and the [[stable homotopy category]] $Ho(Spectra)$ (remark \ref{StableHomotopyCategoryStructuredSpectra}).
+between the (Serre-Quillen-)[[classical homotopy category]] $Ho(Top^{\ast/})$ and the [[stable homotopy category]] $Ho(Spectra)$ (remark \ref{StableHomotopyCategoryStructuredSpectra}). The latter is an [[additive category]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#AdditiveCategory)) with [[direct sum]] the [[wedge sum]] of spectra $\oplus = \vee$ ([lemma](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyCategoryHasCoproducts)[lemma](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyCategoryIsAbEnriched)) and in fact a [[triangulated category]] ([def.](Introduction+to+Stable+homotopy+theory+--+1-1#CategoryWithCofiberSequences)) with distinguished triangles the [[homotopy cofiber sequences]] of spectra ([prop.](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyCategoryIsTriangulated)).
 
-While this is the situation already for [[sequential spectra]] ([thm.](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyCategoryIsIndeedStabilizationOfClassicalHomotopyCategory)), in addition we have now that both the [[classical homotopy category]] as well as the [[stable homotopy category]] are [[symmetric monoidal categories]] with respect to derived [[smash product]] of [[pointed topological spaces]] and the derived [[symmetric monoidal smash product of spectra]], respectively, and the [[localization]] functors $\gamma$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfACategoryWithWeakEquivalences)) are [[strong monoidal functors]] (prop. \ref{MonoidalStructureOnHomotopyCategoryOfMonoidalModelCategory})
+While this is the situation already for [[sequential spectra]] ([thm.](Introduction+to+Stable+homotopy+theory+--+1-1#StableHomotopyCategoryIsIndeedStabilizationOfClassicalHomotopyCategory)), in addition we have now that both the [[classical homotopy category]] as well as the [[stable homotopy category]] are [[symmetric monoidal categories]] with respect to derived [[smash product]] of [[pointed topological spaces]] and the derived [[symmetric monoidal smash product of spectra]], respectively (prop. \ref{MonoidalStructureOnHomotopyCategoryOfMonoidalModelCategory}).
+
+
+| [[abelian groups]] | [[spectra]] |
+|--------------------|-------------|
+| [[integers]] $\mathbb{Z}$ | [[sphere spectrum]] $\mathbb{S}$ |
+| $Ab \simeq \mathbb{Z} Mod$   | $Spectra \simeq \mathbb{S} Mod$ |
+| [[direct sum]] $\oplus$ | [[wedge sum]] $\vee$ |
+| [[tensor product of modules|tensor product]] $\otimes_{\mathbb{Z}}$ | [[smash product of spectra]] $\wedge_{\mathbb{S}}$ |
+| [[kernels]]/[[cokernels]] | [[homotopy fibers]]/[[homotopy cofibers]] |
+
+
+The [[commutative monoids in a symmetric monoidal category|commutative monoids]] with respect to this [[smash product of spectra]] are precisely the orthogonal [[commutative ring spectra]] (def. \ref{RingSpectrumInSymmetricAndOrthogonalSpectra}, prop. \ref{RingSpectraAreDayMonoids}) and the [[module objects]] over these are precisely the orthogonal [[module spectra]] (def. \ref{SymmetricModuleSpectrum}, prop. \ref{ModuleSpectraAreModuleFunctors}).
+
+Moreover, the [[localization]] functors $\gamma$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#HomotopyCategoryOfACategoryWithWeakEquivalences)) are [[strong monoidal functors]] 
 
 $$
   \array{
@@ -8084,7 +8220,8 @@ $$
   \,.
 $$
 
-In particular this means that for $(E, \mu, e)$ an orthogonal [[ring spectrum]] (a [[monoid in a monoidal category|monoid]] in [[orthogonal spectra]] with respect to the [[symmetric monoidal smash product of spectra]] (def. \ref{SsymModuleSymmetricSpectra}, def. \ref{SmashProductOfSymmetricSpectra}, prop. \ref{AbstractFormulaGivesSmashProductOfSymmetricSpectra}); equivalently an orthogonal [[functor with smash products]] (def. \ref{DayMonoidsAreLaxMonoidalFunctorsOnTheSite})), then its image $\gamma(E)$ in the [[stable homotopy category]] is a homotopy [[ring spectrum]].
+This implies that for $E \in OrthSpec(Top_{cg})$ a [[commutative ring spectrum]], then its image $\gamma(E)$ in the [[stable homotopy category]] is a homotopy commutative ring spectrum and similarly for module spectra (prop. \ref{MonoidsPreservedByLaxMonoidalFunctor}).
+
 
 [[!include homological and higher algebra -- table]]
 
