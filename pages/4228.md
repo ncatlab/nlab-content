@@ -23,14 +23,14 @@
 
 The _Cahier topos_ is a [[cohesive topos]] that constitutes a [[Models for Smooth Infinitesimal Analysis|well-adapted model]] for [[synthetic differential geometry]] (a "[[smooth topos]]").
 
-It is the [[sheaf topos]] on the [[site]] [[ThCartSp]] of [[infinitesimal object|infinitesimally thickened]] [[Cartesian spaces]].
+It is the [[sheaf topos]] on the [[site]] [[FormalCartSp]] of [[infinitesimal object|infinitesimally thickened]] [[Cartesian spaces]].
 
 ## Definition
 
 +-- {: .num_defn}
 ###### Definition
 
-Let [[ThCartSp]] be the [[full subcategory]] of the category of [[smooth loci]] on those of the form 
+Let [[FormalCartSp]] be the [[full subcategory]] of the category of [[smooth loci]] on those of the form 
 
 $$
   \mathbb{R}^n \times \ell W
@@ -39,7 +39,7 @@ $$
 
 consisting of a [[product]] of a [[Cartesian space]] with an [[infinitesimally thickened point]], i.e. a formal dual of a _Weil algebra_ .
 
-Dually, the [[opposite category]] is the [[full subcategory]] $ThCartSp^{op} \hookrightarrow SmoothAlg$ of [[smooth algebras]] on those of the form
+Dually, the [[opposite category]] is the [[full subcategory]] $FormalCartSp^{op} \hookrightarrow SmoothAlg$ of [[smooth algebras]] on those of the form
 
 $$
   C^\infty( \mathbb{R}^k \times \ell W)
@@ -55,7 +55,7 @@ This appears for instance in [Kock Reyes (1)](#KockReyes).
 +-- {: .num_defn}
 ###### Definition
 
-Define a structure of a [[site]] on [[ThCartSp]] by declaring a [[covering]] family to be a family of the form
+Define a structure of a [[site]] on [[FormalCartSp]] by declaring a [[covering]] family to be a family of the form
 
 $$
   \{
@@ -76,7 +76,7 @@ This appears as [Kock (5.1)](#Kock).
 The **Cahiers topos** $\mathcal{CT}$ is the [[category of sheaves]] on this site:
 
 $$
-  \mathcal{CT} := Sh(ThCartSp)  
+  \mathcal{CT} := Sh(FormalCartSp)  
   \,.
 $$
 
