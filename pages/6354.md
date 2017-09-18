@@ -1,5 +1,6 @@
+[[!redirects Chris Hull]]
 
-Chris Hull is professor for theoretical physics at Imperial College London.
+Christopher Hull is professor for theoretical physics at Imperial College London.
 
 * [webpage](http://www.imperial.ac.uk/people/c.hull)
 
@@ -12,5 +13,7 @@ Chris Hull is professor for theoretical physics at Imperial College London.
 * [[T-fold]]
 
 * [[M5-brane]]
+
+* [[5d supergravity]]
 
 category: people
