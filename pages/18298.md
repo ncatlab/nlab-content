@@ -2095,23 +2095,24 @@ do not see the difference between the reduced and the unreduced spaces, by prop.
 =--
 
 
-+-- {: .num_lemma}
++-- {: .num_lemma #IsomorphismOfVectorBundlesOnClosedSubsetOfCompactHausdorffSpaceExtendsToOpenNeighbourhoods}
 ###### Lemma
+**(isomorphism of vector bundles on closed subset of compact Hausdorff spaces extends to open neighbourhood)
 
-Let $X$ be a [[coompact Hausdorff space]] and $A \subset X$ a [[closed subset|closed]] [[subspace]].
+Let $k \in \{\mathbb{R}, \mathbb{C}\}$, let $X$ be a [[compact Hausdorff space]] and let $A \subset X$ a [[closed subset|closed]] [[subspace]].
 Let $E_i \overset{p_i}{\to} X$ be two topological vector bundles over $X$, $i \in \{1,2\}$.
 
-If there exists an [[isomorphsm]]
+If there exists an [[isomorphism]]
 
 $$
-  E_1\vert_A &\overset{\simeq}{\longrightarrow}& E_2\vert_A
+  E_1\vert_A \overset{\simeq}{\longrightarrow} E_2\vert_A
 $$
 
 of the restricted vector bundles over $A$, then there also exists an [[open subset]] $U \subset X$
 with $A \subset U$ such that there is also an isomorphism
 
 $$
-  E_1\vert_U &\overset{\simeq}{\longrightarrow}& E_2\vert_U
+  E_1\vert_U \overset{\simeq}{\longrightarrow} E_2\vert_U
 $$
 
 of the vector bundles restricted to $U$.
@@ -2121,9 +2122,94 @@ of the vector bundles restricted to $U$.
 +-- {: .proof}
 ###### Proof
 
-A bundle isomorphism $E_1\vert_A \simeq E_2\vert_A$ is equivalently a trivialization of the 
-[[tensor product of vector bundles]] of $E_2\vert A$ with with the [[dual vector bundle]] $(E_2\vert_A)^\ast$.
-spring
+A bundle isomorphism $E_1\vert_A \simeq E_2\vert_A$ is equivalently a trivializing section 
+(example \ref{FiberwiseLinearlyIndependentSectionsTrivialize}) of the 
+[[tensor product of vector bundles]] $(E_1\vert_A)^\ast \otimes_A E_2\vert_A$ of $E_2\vert A$ with with the [[dual vector bundle]] $(E_2\vert_A)^\ast$.
+(by [this prop.](tensor+product+of+vector+bundles#FinitrRankBundleHomomorphismIsSectionOfTensorProductWithDual)).
+
+Let $\{U_i \subset X\}_{i \in I}$ be an [[open cover]] of $X$ over which this tensor product bundle trivializes with 
+trivializations
+
+$$
+  \left\{
+    U_i \times \mathbb{R}^{(n^2)}
+     \underoverset{\simeq}{\phi_i}{\longrightarrow}
+    (E_1^\ast \otimes_X E_2)\vert_{U_i}
+  \right\}
+  \,.
+$$
+
+By compactness of $X$, we may assume that $I$ is a [[finite set]].
+Then a trivializing section $\sigma \in \Gamma_A( (E_1\vert_A)^\ast \otimes_A E_2 \vert_A )$ as above is on each $U_i \cap A$
+a [[continuous function]] 
+
+$$
+ \sigma_i
+ \;\colon\;
+ U_i \cap A \longrightarrow GL(n,k)
+$$
+
+to the [[general linear group]] $GL(n,k) \subset Mat_{n \times n}(k)$, such that
+
+$$
+  \sigma\vert_{U_i \cap A} = \phi_i^{-1}\circ \sigma_i
+  \,.
+$$
+
+Regarded as a function 
+to the $n \times n$ [[matrices]], this is a set of $n^2$ [[continuous function]] $((\sigma_i)_{a b})$
+
+Since [[compact Hausdorff spaces are normal]] the [[Tietze extension theorem]] applies to these component functions and yields
+[[extensions]] of each $\sigma_i$ to a [[continuous function]] of the form
+
+$$
+  \hat \sigma_i \;\colon\; U_i \longrightarrow Mat_{n \times n}(k)
+  \,.
+$$
+
+Moreover, since compact Hausdorff spaces are evidently [[paracompact Hausdorff spaces]], and since
+[[paracompact Hausdorff spaces equivalently admit subordinate partitions of unity]], it follows that we find a
+[[partition of unity]] $\{f_i \colon U_i \to \mathbb{R} \}_{i \in I}$.
+
+Consider then the functions $f_i \cdot \hat \sigma_i$ given by pointwise multiplication and regarded, via extension by
+zero, as continuous functions on all of $X$
+
+$$
+  f_i \cdot \hat \sigma_i \;\colon\; X \longrightarrow \mathbb{R}
+  \,.
+$$
+
+Summing these up yields a single section $\hat \sigma$ of $E_1^\ast \otimes_X E_2$
+
+$$
+  \sigma 
+    \coloneqq 
+  \sum_{i \in I} 
+  \phi_i^{-1}(f_i \cdot \hat \sigma_i)
+  \in 
+  \Gamma_X(E_1^\ast \otimes_X E_2)  
+$$
+
+which by construction is an [[extension]] of the original section, in that 
+
+$$
+  \hat \sigma\vert_A = \sigma
+  \,.
+$$
+
+Since the [[general linear group]] $GL(n,k) = det^{-1}(k \setminus \{0\}) \subset Mat_{n \times n}(k)$
+is an [[open subset]] of the [[Euclidean space]] $Mat_{n \times n}(k) \simeq k^{(n^2)}$, it follows that
+each point $x \in A$ has an open neighbourhood $U_x \subset X$ such that $\hat \sigma\vert_{U_x}$
+is still a trivializing section.  The union of these
+
+$$
+  U \coloneqq \underset{x \in A}{\cup} U_x
+$$
+
+is hence an open subset containing $A$ such that $(E_1^\ast \otimes_X E_2)\vert_U$ has a trivializing section,
+extending $\sigma$, hence such that there is an isomorphism $E_1\vert_U \simeq E_2 \vert_U$ extending the 
+original isomorphism on $A$. 
+
 
 
 =--
