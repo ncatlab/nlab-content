@@ -19,7 +19,49 @@ See also the _[[Lectures on Equivariant Stable Homotopy Theory]]_ and on _[[Glob
 
 ## Chapter I. Basics
 
+### 1. Symmetric spectra
+
 * [[symmetric spectrum]]
+
+* [[ring spectrum]]
+
+* [[module spectrum]]
+
+Basic Examples:
+
+* [[sphere spectrum]]
+
+  [[stable homotopy groups of spheres]]
+
+  [[Hopf fibration]]
+
+* [[suspension spectrum]]
+
+* [[Eilenberg-MacLane spectrum]] [[HA]]
+
+* [[Thom spectrum]]
+
+  [[MO]], [[MU]]
+
+* [[topological K-theory]], [[KU]]
+
+### 2. Properties of naive homotopy groups
+
+* [[stable homotopy groups]]
+
+### 3. Basic constructions
+
+### 4. Stable equivalences
+
+### 5. Smash product
+
+* [[smash product of spectra]]
+
+### 6. Homotopy groups
+
+### 7. Relation to other kinds of spectra
+
+### 8. Naive versus true homotopy groups
 
 ## Chapter II. The stable homotopy category
 
@@ -56,6 +98,10 @@ See also the _[[Lectures on Equivariant Stable Homotopy Theory]]_ and on _[[Glob
 ### 8. Connective covers and Postnikov sections
 
 ### 9. Localization and completion
+
+* [[localization]], [[formal completion]]
+
+* [[fracture theorem]]
 
 ### 10. The Steenrod algebra
 
