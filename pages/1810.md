@@ -26,7 +26,7 @@ $$Y^0\stackrel{f_1}\leftarrow Y^1\stackrel{f_2}\leftarrow Y^2 \stackrel{f_3}\lef
 
 such that 
 
-$$ j_k\circ i_k = d^k[n-k]: X^k[n-k]\to X^{k-1}[n-k], \,\,\,\,\,\,\,for\,\,\,all\,\,\,\,\,\,\,\,  0\lt k \lt n-1 $$
+$$ j_k\circ i_k = d^k[n-k]: X^k[n-k]\to X^{k+1}[n-k], \,\,\,\,\,\,\,for\,\,\,all\,\,\,\,\,\,\,\,  0\lt k \lt n-1 $$
 
 (in particular, $i_{n-1} = d^{n-1}$) and for all $0\leq k\leq n$ the triangles
 
