@@ -579,6 +579,7 @@ If $J$ is a quiver, as is more common when we speak about "commutative" diagrams
 
 * [[internal diagram]]
 
+* [[free diagram]]
 
 [[!redirects diagram]]
 [[!redirects diagrams]]
