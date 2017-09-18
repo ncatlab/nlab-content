@@ -1,0 +1,35 @@
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _Cheeger-Simons class_ is a homomorphism from (essentially) the [[Bloch group]] to $\mathbb{C}/\mathbb{Z}$. 
+
+Under identifying the [[fundamental class]] of a [[hyperbolic 3-manifold]] $X$ as an element in the Bloch group, this is the _complex volume_ of the 3-manifold, namely the linear combination
+
+$$
+  CS + i vol
+$$
+
+of its [[Chern-Simons form|Chern-Simons invariant]] and its [[volume]] (e.g. [Neumann 11, section 2.3](#Neumann11)). 
+
+This appears as the action in [[analytically continued Chern-Simons theory]].
+
+(It is, incidentally, also the contribution of a corresponding [[membrane instanton]] [[wrapped brane|wrapping]] a hyperbolic 3-cycle.)
+
+## Related concepts
+
+* [[Borel regulator]]
+
+## References
+
+* {#Neumann04} [[Walter Neumann]], _Extended Bloch group and the Cheeger-Chern-Simons class_, Geom. Topol. 8 (2004) 413-474 ([arXiv:math/0307092](http://arxiv.org/abs/math/0307092))
+
+* {#Neumann11} [[Walter Neumann]], _Realizing arithmetic invariants of hyperbolic 3-manifolds_, Contemporary Math 541 (Amer. Math. Soc. 2011), 233--246 ([arXiv:1108.0062](http://arxiv.org/abs/1108.0062))
+
+[[!redirects complex volumes]]
+
+[[!redirects Cheeger-Simons class]]
+[[!redirects Cheeger-Simons classes]]
