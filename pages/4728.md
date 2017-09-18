@@ -23,6 +23,16 @@ In [[complex analytic geometry]] this usually means a [[complex manifold]] of _c
 
 Similarly and more generally, in [[algebraic geometry]] an _[[algebraic surface]]_ is a [[variety]] of algebraic dimension 2. 
 
+## Examples
+
+* [[plane]]
+
+* [[sphere]]
+
+* [[torus]]
+
+* [[Klein bottle]]
+
 ## Related concepts
 
 * analog for dimension 1: [[curve]], [[algebraic curve]]
