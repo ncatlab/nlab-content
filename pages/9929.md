@@ -350,14 +350,18 @@ is a [[Thom class]].
 * {#Hopkins99} [[Mike Hopkins]], _[[Complex oriented cohomology theories and the language of stacks]]_, 1999 course notes ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/coctalos.pdf))
 
 
-* {#LurieLecture} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture notes ([web](http://www.math.harvard.edu/~lurie/252x.html))
+* {#LurieLecture} [[Jacob Lurie]], _[[Chromatic Homotopy Theory]]_, Lecture notes, 2010 ([web](http://www.math.harvard.edu/~lurie/252x.html))
 
   Lecture 4 _Complex-oriented cohomology theories_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture4.pdf))
 
   Lecture 6 _MU and complex orientations_ ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture6.pdf))
 
- 
 See also the references at _[equivariant cohomology -- References -- Complex oriented cohomology](equivariant+cohomology#InComplexOrientedGeneralizedCohomologyTheory)_-.
+
+More recent developments include
+
+* {#HopkinsLawson16} [[Michael Hopkins]], [[Tyler Lawson]], _Strictly commutative complex orientation theory_ ([arXiv:1603.00047](http://arxiv.org/abs/1603.00047))
+
 
 [[!redirects complex oriented cohomology theories]]
 
