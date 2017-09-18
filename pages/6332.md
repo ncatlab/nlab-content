@@ -1,7 +1,11 @@
-[[!redirects Rosebrugh]]
-Bob Rosebrugh is a category theorist, based in New Brunswick, Canada.
+[[!redirects Bob Rosebrugh]]
+Bob Rosebrugh is a [[category theory|category theorist]], based in New Brunswick, Canada.
+
+* _[[Sets for Mathematics]]_
+
 
 [webpage](http://www.mta.ca/~rrosebru/)
 
 
+[[!redirects Rosebrugh]]
 [[!redirects Rosebrugh]]
