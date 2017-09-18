@@ -31,12 +31,12 @@ higher geometry = [[geometry]] + [[homotopy theory]]/[[higher category theory]]
 
 =--
 
-Higher gometry subsumes notably the theory of [[orbifolds]] and [[geometric stacks]], as well as the theory of more general [[stacks]] such as [[moduli stacks]], and generalizes all this to [[∞-stacks]] and [[derived stacks]]. 
+Higher geometry subsumes notably the theory of [[orbifolds]] and [[geometric stacks]], as well as the theory of more general [[stacks]] such as [[moduli stacks]], and generalizes all this to [[∞-stacks]] and [[derived stacks]]. 
 This way higher geometry includes what is called _[[derived geometry]]_ and it subsumes at least parts of (derived) [[noncommutative geometry]]. Many other phenomena are naturally part of higher geometry, see the list of [Examples](#Examples) below.
 
 Within the context of higher geometry, there are several different (but related) ways of formalizing concepts of [[geometry]] and of [[spaces]] in that geometry. Below in _[Formalization](#Formalizations)_ we discuss some of these axiomatizations, which are built on [[(∞,1)-topos theory]] or [[stable (∞,1)-category|stable (∞,1)-category theory]]. 
 
-The theory of [[(∞,1)-toposes]] can be used to axiomatize geometry in two different directions: in one direction, an [[(∞,1)-topos]] (with some additional [[structured (∞,1)-topos|structure]]) encodes a [[space]] itself; in another direction, a [[space]] is an object of a [[gros topos|gros]] (e.g. [[cohesive (∞,1)-topos|cohesive]]) [[(∞,1)-topos]] of [[∞-stacks]] on some [[(∞,1)-site]]. These two directions come from the difference between [[big and little toposes]]. This also corresponds to the difference between the two definitions of [[scheme]] in [[algebraic geometry]] via [[locally ringed spaces]] and [[functors of points]].
+The theory of [[(∞,1)-toposes]] can be used to axiomatize geometry in two different directions: in one direction, a [[petit topos|petit]] [[(∞,1)-topos]] (with some additional [[structured (∞,1)-topos|structure]]) encodes a [[space]] itself; in another direction, a [[space]] is an object of a [[gros topos|gros]] [[(∞,1)-topos]] of [[∞-stacks]] on some [[(∞,1)-site]]. This corresponds to the difference between the two definitions of [[scheme]] in [[algebraic geometry]] via [[locally ringed spaces]] and [[functors of points]].
 A third type of axiomatization, used in [[derived noncommutative algebraic geometry]], uses [[stable (∞,1)-categories]] to represent spaces. 
 
 
@@ -50,14 +50,14 @@ In
 
 * _[Structured (∞,1)-toposes](#StructuredHigherToposes)_
 
-we disucss the approach of encoding a would-be higher geometric space $X$ by a [[structured (∞,1)-topos]] to be thought of as the [[(∞,1)-topos]] of [[(∞,1)-sheaves]] $(Sh_\infty(X), \mathcal{O}_X)$ of $X$, canonically equipped with a [[structure sheaf]] $\mathcal{O}_X$.
+we discuss the approach of encoding a would-be higher geometric space $X$ by a [[structured (∞,1)-topos]] to be thought of as the [[(∞,1)-topos]] of [[(∞,1)-sheaves]] $(Sh_\infty(X), \mathcal{O}_X)$ of $X$, canonically equipped with a [[structure sheaf]] $\mathcal{O}_X$.
 
 
 In 
 
 * _[Stable (∞,1)-categories](#StableInfinityCategories)_
 
-we disucss the approach of encoding a would-be higher geometric space $X$ by a [[stable (∞,1)-category]] to be thought of as that of [[quasicoherent (∞,1)-sheaves]] of modules $QCoh_\infty(X)$ of $X$
+we discuss the approach of encoding a would-be higher geometric space $X$ by a [[stable (∞,1)-category]] to be thought of as that of [[quasicoherent (∞,1)-sheaves]] of modules $QCoh_\infty(X)$ of $X$
 
 In 
 
@@ -101,7 +101,7 @@ Since by the [stable Giraud theorem](stable+(infinity%2C1)-category#StabGiraud),
 
 But [[quasicoherent sheaves]] of an actual [[scheme]] form even a [[symmetric monoidal category]] -- i.e. [[tensor triangulated category]], [[symmetric monoidal (∞,1)-category]]) $(QCoh(X),\otimes)$. Now, one may regard monoidal stable $\infty$-categories as a [[categorification]] of [[commutative rings]] -- as _[[2-rigs]]_ -- and then there is a categorified concept of [[spectrum of a ring]] for them, see at _[[spectrum of a tensor triangulated category]]_ and _[[prime spectrum of a symmetric monoidal stable (∞,1)-category]]_. Therefore regarding (affine) spaces as being formally dual to symmetric monoidal stable $(\infty,1)$-categories is an $(\infty,2)$-higher version of the basic idea in [[algebraic geometry]] of regarding spaces as formally dual to commutative rings. For more on this perspective see at _[[Bondal-Orlov reconstruction theorem]]_, _[[Tannaka duality for geometric stacks]]_, see also ([Brandenburg 14](2-rig#Brandenburg14)).
 
-However, much of the literature (notably in the context of [[homological mirror symmetry]]) disregards the monoidal structure and developes a higher geometry of spaces foramlly dual to just plain stable monoidal $(\infty,1)$-categories (or their presentations by [[A-infinity categories]] or [[triangulated categories]] etc.)
+However, much of the literature (notably in the context of [[homological mirror symmetry]]) disregards the monoidal structure and develops a higher geometry of spaces formally dual to just plain stable monoidal $(\infty,1)$-categories (or their presentations by [[A-infinity categories]] or [[triangulated categories]] etc.)
 
 ### Cohesive (∞,1)-toposes
  {#CohesiveHigherToposes}
