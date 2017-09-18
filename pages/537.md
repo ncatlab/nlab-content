@@ -125,6 +125,10 @@ This means that if $A \in \mathcal{C}$ itself is indecomposable in that it is no
 
 =--
 
+## Related concepts
+
+* [[disjoint subset]]
+
 
 ## References
 
