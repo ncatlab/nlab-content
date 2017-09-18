@@ -193,3 +193,5 @@ General [[schreiber:∞-Wess-Zumino-Witten theory]] is set up in section 6 of
 [[!redirects definite parameterization of WZW terms]]
 [[!redirects definite parameterization of higher WZW term]]
 [[!redirects definite parameterization of higher WZW terms]]
+
+[[!redirects definite parameterizations of higher WZW terms]]
