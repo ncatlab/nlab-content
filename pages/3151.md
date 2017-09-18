@@ -40,3 +40,5 @@ In the $1$-categorical setup, the coCartesian arrows in op/co-fibrations are ind
 
 [[!redirects cofibration]]
 [[!redirects cofibrations]]
+[[!redirects Cofibrations]]
+
