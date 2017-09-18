@@ -35,13 +35,13 @@ One of the tools of topology, [[homotopy theory]], has long since crossed the bo
 ## Introduction
  {#Introduction}
 
-The following gives a basic introduction to some core concepts of topology.
+The following gives a quick introduction to some of the core concepts and tools of topology:
 
 * _[Continuity](#Continuity)_
 
 * _[Topological spaces](#TopologicalSpaces)_
 
-* _[Homeomorphism](#Homeomorphism)_
+* _[Homeomorphism](#Homeomorphisms)_
 
 * _[Homotopy](#Homotopy)_
 
@@ -53,7 +53,7 @@ The following gives a basic introduction to some core concepts of topology.
 ### Continuity
  {#Continuity}
 
-The key idea of topology is to study [[spaces]] with "[[continuous maps]]" between them. The concept of continuity was made precise first in [[analysis]], in terms of [[epsilontic analysis]] of [[open balls]], recalled as def. \ref{EpsilonDeltaDefinitionOfContinuity} below. Then it was realized that this has a more elegant formulation in terms of more general [[open sets]], this is prop. \ref{ContinuityBetweenMetricSpacesInTermsOfOpenSets} below.
+The key idea of topology is to study [[spaces]] with "[[continuous maps]]" between them. The concept of continuity was made precise first in [[analysis]], in terms of [[epsilontic analysis]] of [[open balls]], recalled as def. \ref{EpsilonDeltaDefinitionOfContinuity} below. Then it was realized that this has a more elegant formulation in terms of the more general concept of _[[open sets]]_, this is prop. \ref{ContinuityBetweenMetricSpacesInTermsOfOpenSets} below. Adopting the latter as the definition leads to the concept of [[topological spaces]], def. \ref{TopologicalSpaces} below.
 
 
 First recall the basic concepts from [[analysis]]:
@@ -69,7 +69,7 @@ A _[[metric space]]_ is
 
 such that for all $x,y,z \in X$:
 
-1. $d(x,y) = 0 \;\Leftrightarrow\; x = y$
+1. $d(x,y) = 0 \;\;\Leftrightarrow\;\; x = y$
 
 1. (symmetry) $d(x,y) = d(y,x)$
 
@@ -145,7 +145,7 @@ Let $(X,d)$ be a [[metric space]] (def. \ref{MetricSpace}). Say that
 
 1. A _[[neighbourhood]]_ of a point $x \in X$ is a [[subset]] $x \in U \subset X$ which contains some [[open ball]] $B_x^\circ(\epsilon)$ around $x$ (def. \ref{OpenBalls}).
 
-1. An _[[open subset]]_ of $X$ is a [[subset]] $U \subset X$ such that for every for $x \in U$ it also contains a [[neighbourhood]] of $x$.
+1. An _[[open subset]]_ of $X$ is a [[subset]] $U \subset X$ such that for every $x \in U$ it also contains a [[neighbourhood]] of $x$.
 
 =--
 
@@ -222,12 +222,26 @@ Let $(X,d)$ be a [[metric space]]. Then the collection of open subsets in def. \
 
 =--
 
+The simple definition of [[open subsets]] and the simple **principle of continuity**
+
+$\,$ $\,$ _Pre-Images of open subsets are again open._
+
+gives topology its fundamental and universal flavor. In fact the combinatorial nature of these definitions makes
+it closely related to [[formal logic]] (for more on this see at _[[locale]]_).
 
 One point of the general definition of "[[topological space]]" is that it admits constructions which intuitively should exist on "continuous spaces", but which do not in general exist, for instance, as metric spaces:
 
++-- {: .num_example #DiscreteTopologicalSpace}
+###### Example
+**(discrete topological space)**
 
-+-- {: .num_defn #QuotientTopologicalSpace}
-###### Definition
+For $S$ a bare [[set]], then the _[[discrete topology]]_ on $S$ regards every subset of $S$ as an [[open subset]].
+
+=--
+
+
++-- {: .num_example #QuotientTopologicalSpace}
+###### Example
 **(quotient topological space)**
 
 Let $(X,\tau_X)$ be a [[topological space]] (def. \ref{TopologicalSpaces}) and let "$R_\sim \subset X \times X$" be an [[equivalence relation]] on its underlying set. Then the _[[quotient topological space]]_  has as underlying set the [[quotient set]] $X_{\sim}$, hence the set of [[equivalence classes]], and a subset $O \subset X_{\sim}$ is declared to be an [[open subset]] precisely if its [[preimage]] $\pi^{-1}(O)$ under the canonical [[projection map]]
@@ -236,15 +250,15 @@ $$
   \pi \colon X \to X_\sim
 $$
 
-is open on $X$.
+is open in $X$.
 
-(Also called the _[[final topology]]_ of the projection $\pi$.)
+(This is also called the _[[final topology]]_ of the projection $\pi$.)
 
 =--
 
 
-+-- {: .num_defn #SubspaceTopology}
-###### Definition
++-- {: .num_example #SubspaceTopology}
+###### Example
 **(subspace topology)**
 
 Let $(X, \tau_X)$ be a [[topological space]], and let $X_0 \hookrightarrow X$ be a [[subset]] of the underlying set. Then the corresponding _[[topological subspace]]_ has $X_0$ as its underlying set, and its open subsets are those subsets of $X_0$ which arise as restrictions of open subsets of $X$.
@@ -253,26 +267,40 @@ Let $(X, \tau_X)$ be a [[topological space]], and let $X_0 \hookrightarrow X$ be
 
 =--
 
-These two constructions of [[quotient topological spaces]] and of [[topological subspaces]] are in fact simple examples of [[colimits]] and of [[limits]] of topological spaces. The [[category]] [[Top]] of topological spaces has the convenient property that _all_ [[limits]] and [[colimits]] (over [[small diagrams]]) exist in it.
++-- {: .num_example #ProductTopologicalSpace} 
+###### Example
+**(product topological space)**
+
+For $X$ and $Y$ two [[topological spaces]], then the [[product topological space]] $X \times Y$
+has as underlying set the [[Cartesian product]] of the underlying sets of $X$ and $Y$, and its [[open sets]]
+are those subsets $O \subset X \times Y$ of the Cartesian product such that for all point $(x,y) \in O$
+there exists open sets $x \in O_x \subset X$ and $y \in O_Y \subset Y$ such that $O_x \times O_y \subset O$.
+
+
+=--
+
+
+These constructions of [[discrete topological spaces]], [[quotient topological spaces]], [[topological subspaces]] and of [[product topological spaces]] are simple examples of [[colimits]] and of [[limits]] of topological spaces. The [[category]] [[Top]] of topological spaces has the convenient property that _all_ [[limits]] and [[colimits]] (over [[small diagrams]]) exist in it. (For more on this see at _[Top -- Universal constructions](Top#UniversalConstructions)_.)
 
 
 
 ### Homeomorphism
- {#Homeomorphism}
+ {#Homeomorphisms}
 
 With the [[objects]] ([[topological spaces]]) and the [[morphisms]] ([[continuous maps]]) of the [[category]] [[Top]] of topology thus defined, we obtain the concept of "sameness" in topology:
 
 
 +-- {: .num_defn #Homeomorphism}
 ###### Definition
+**(homeomorphisms)**
 
-An [[isomorphism]] in the [[category]] [[Top]] of [[topological spaces]] with [[continuous functions]] between them is called a [[homeomorphism]]. Hence this is a [[continuous function]]
+An [[isomorphism]] in the [[category]] [[Top]] of [[topological spaces]] with [[continuous functions]] between them is called a _[[homeomorphism]]_. Hence this is a [[continuous function]]
 
 $$
   f \;\colon\; X \longrightarrow Y
 $$
 
-such that there exists an [[inverse]] [[morphism]], namely a [[continuous function]]
+such that there exists an [[inverse]] [[morphism]], namely a [[continuous function]] the other way around
 
 $$
   X \longleftarrow Y \;\colon\; f^{-1}
@@ -281,20 +309,58 @@ $$
 such that
 
 $$
-  f \circ f^{-1} = id_{Y} \;\;\;\;\; f^{-1} \circ f = id_{X}
+  f \circ f^{-1} = id_{Y} \;\;\;and\;\;\; f^{-1} \circ f = id_{X}
   \,.
 $$
+
+=--
+
++-- {: .num_example #OpenBallsHomeomorphicToRn}
+###### Example
+**(open interval homeomorphic to the real line)**
+
+The open [[interval]] $(-1,1)$ is [[homeomorphic]] to all of the [[real line]]
+
+$$
+  (0,1) \underset{homeo}{\simeq} \mathbb{R}^1
+  \,.
+$$
+
+An [[inverse]] pair of [[continuous functions]] is for instance given by
+
+$$
+  \array{
+    f &\colon&  \mathbb{R}^1 &\longrightarrow& (-1,+1)
+    \\
+    && x &\mapsto& \frac{x}{\sqrt{1+ x^2}}
+  }
+$$
+
+and
+
+$$
+  \array{
+    f^{-1} &\colon&  (-1,+1) &\longrightarrow& \mathbb{R}^1
+    \\
+    && x &\mapsto& \frac{x}{\sqrt{1 - x^2}}
+  }
+  \,.
+$$
+
+Generally, every [[open ball]] in $\mathbb{R}^n$ (def. \ref{OpenBalls}) is [[homeomorphic]] to all of $\mathbb{R}^n$.
+
 
 =--
 
 
 +-- {: .num_example #HomeomorphismBetweenTopologicalAndCombinatorialCircle}
 ###### Example
+**(interval glued at endpoints is homeomorphic to the circle)**
 
 As topological spaces, the [[interval]] with its two endpoints identified is [[homeomorphic]] (def. \ref{Homeomorphism}) to the standard [[circle]]:
 
 $$
-  [0,1]_{/(0 \sim 1)} \underset{homeo}{\simeq} S^1
+  [0,1]_{/(0 \sim 1)} \;\; \underset{homeo}{\simeq} \;\; S^1
   \,.
 $$
 
@@ -304,7 +370,7 @@ $$
   S^1 \hookrightarrow \mathbb{R}^2
 $$
 
-be the unit [[circle]] in the [[plane]] ($S^1 = \{(x,y) \in \mathbb{R}^2, x^2 + y^2 = 1\}$) equipped with the [[subspace topology]] (def. \ref{SubspaceTopology}) of $\mathbb{R}^2$ equipped with its standard [[metric topology]] (example \ref{MetricTopology}).
+be the unit [[circle]] in the [[plane]] ($S^1 = \{(x,y) \in \mathbb{R}^2, x^2 + y^2 = 1\}$) equipped with the [[subspace topology]] (example \ref{SubspaceTopology}) of $\mathbb{R}^2$ equipped with its standard [[metric topology]] (example \ref{MetricTopology}).
 
 Moreover, let
 
@@ -312,7 +378,7 @@ $$
   [0,1]_{/(0 \sim 1)}
 $$
 
-be the [[quotient topological space]] (def. \ref{QuotientTopologicalSpace}) obtained from the [[interval]] $[0,1] \subset \mathbb{R}^1$ with its [[subspace topology]] by applying the [[equivalence relation]] which identifies the two endpoints (and nothing else).
+be the [[quotient topological space]] (example \ref{QuotientTopologicalSpace}) obtained from the [[interval]] $[0,1] \subset \mathbb{R}^1$ with its [[subspace topology]] by applying the [[equivalence relation]] which identifies the two endpoints (and nothing else).
 
 Consider then the function
 
@@ -342,54 +408,37 @@ $$
 
 We claim that $\tilde f$ is a [[homeomorphism]] (definition \ref{Homeomorphism}).
 
-First of all it is immediate that $\tilde f$ is a [[continuous function]]. This follows immediately from the fact that $f$ is a [[continuous function]] and by definition of the [[quotient topology]] (def. \ref{QuotientTopologicalSpace}).
+First of all it is immediate that $\tilde f$ is a [[continuous function]]. This follows immediately from the fact that $f$ is a [[continuous function]] and by definition of the [[quotient topology]] (example \ref{QuotientTopologicalSpace}).
 
 So we need to check that $\tilde f$ has a continuous inverse function. Clearly the restriction of $f$ itself to the open interval $(0,1)$ has a continuous inverse. It fails to have a continuous inverse on $[0,1)$ and on $(0,1]$ and fails to have an inverse at all on [0,1], due to the fact that $f(0) = f(1)$. But the relation quotiented out in $[0,1]_{/(0 \sim 1)}$ is exactly such as to fix this failure.
 
 =--
 
-+-- {: .num_example #OpenBallsHomeomorphicToRn}
-###### Example
-
-The open [[interval]] $(-1,1)$ is [[homeomorphic]] to all of the [[real line]]
-
-$$
-  (0,1) \simeq_{homeo} \mathbb{R}^1
-  \,.
-$$
-
-An [[inverse]] pair of [[continuous functions]] is for instance given by
-
-$$
-  \array{
-    f &\colon&  \mathbb{R}^1 &\longrightarrow& (-1,+1)
-    \\
-    && x &\mapsto& \frac{x}{\sqrt{1+ x^2}}
-  }
-$$
-
-and
-
-$$
-  \array{
-    f^{-1} &\colon&  (-1,+1) &\longrightarrow& \mathbb{R}^1
-    \\
-    && x &\mapsto& \frac{x}{\sqrt{1 - x^2}}
-  }
-  \,.
-$$
-
-Generally, every [[open ball]] in $\mathbb{R}^n$ (\ref{OpenBalls}) is [[homeomorphic]] to all of $\mathbb{R}^n$.
-
-
-=--
 
 
 Important examples of pairs of spaces that are _not_ homeomorphic include the following:
 
 
+
+
++-- {: .num_theorem #TopologicalInvarianceOfDimension}
+###### Theorem
+**([[topological invariance of dimension]])**
+
+For $n_1, n_2 \in \mathbb{N}$ but $n_1 \neq n_2$, then the [[Cartesian spaces]] $\mathbb{R}^{n_1}$ and $\mathbb{R}^{n_2}$ are _not_ [[homeomorphic]].
+
+More generally, an [[open set]] in $\mathbb{R}^{n_1}$ is never homeomorphic to an open set in $\mathbb{R}^{n_2}$ if $n_1 \neq n_2$.
+
+=--
+
+The proof of theorem \ref{TopologicalInvarianceOfDimension} is surprisingly hard, given how obvious the statement seems intuitively. It requires tools from a field called _[[algebraic topology]]_ (notably [[Brouwer's fixed point theorem]]). 
+
+We showcase some basic tools of [[algebraic topology]] now and demonstrate the nature of their usage by proving two very simple special cases of the [[topological invariance of dimension]] (prop. \ref{TopologicalInvarianceOfDimensionFirstSimpleCase} and prop. \ref{topologicalInvarianceOfDimensionSecondSimpleCase} below).
+
+
 +-- {: .num_example }
 ###### Example
+**(homeomorphism classes of surfaces)**
 
 The [[2-sphere]] $S^2 = \{(x,y,z) \in \mathbb{R}^3 \vert x^2 + y^2 + z^2 = 1\}$ is _not_ [[homeomorphic]] to the [[torus]] $T^2 = S^1 \times S^1$.
 
@@ -399,26 +448,14 @@ Generally the [[homeomorphism]] class of a [[closed manifold|closed]] [[orientab
 
 
 
-+-- {: .num_example #TopologicalInvarianceOfDimension}
-###### Example
-**([[topological invariance of dimension]])**
-
-For $n_1, n_2 \in \mathbb{N}$ but $n_1 \neq n_2$, then the [[Cartesian spaces]] $\mathbb{R}^{n_1}$ and $\mathbb{R}^{n_2}$ are _not_ [[homeomorphic]].
-
-More generally, an [[open set]] in $\mathbb{R}^{n_1}$ is never homeomorphic to an open set in $\mathbb{R}^{n_2}$ if $n_1 \neq n_2$.
-
-=--
-
-The proof of example \ref{TopologicalInvarianceOfDimension} is surprisingly hard, given how obvious the statement seems intuitively. It requires tools from a field called _[[algebraic topology]]_ (notably [[Brouwer's fixed point theorem]]). We turn to some basics of [[algebraic topology]] now.
-
-
 
 ### Homotopy
   {#Homotopy}
 
-We have seen above that for $n \geq 1$  then the [[open ball]] $B_0^\circ(1)$ in $\mathbb{R}^n$ is _not_ [[homeomorphic]] to, notably, the point $\ast = \mathbb{R}^0$ (example \ref{OpenBallsHomeomorphicToRn}, example \ref{TopologicalInvarianceOfDimension}). Nevertheless, intuitively the $n$-ball is a "continuous deformation" of the point, obtained as the radius of the $n$-ball tends to zero.
+We have seen above that for $n \geq 1$  then the [[open ball]] $B_0^\circ(1)$ in $\mathbb{R}^n$ is _not_ [[homeomorphic]] to, notably, the point $\ast = \mathbb{R}^0$ (example \ref{OpenBallsHomeomorphicToRn}, theorem \ref{TopologicalInvarianceOfDimension}). Nevertheless, intuitively the $n$-ball is a "continuous deformation" of the point, obtained as the radius of the $n$-ball tends to zero.
 
-This intuition is made precise by observing that there is a [[continuous function]] out of the [[product topological space]] with the closed interval
+This intuition is made precise by observing that there is a [[continuous function]] out of the [[product topological space]] 
+(example \ref{ProductTopologicalSpace}) with the closed [[interval]]
 
 $$
   \eta \colon [0,1] \times B_0^\circ(1)  \longrightarrow \mathbb{R}^n
@@ -456,6 +493,7 @@ Such "continuous deformations" are called _[[homotopies]]_:
 
 +-- {: .num_defn #LeftHomotopy}
 ###### Definition
+**(homotopy)**
 
 For $f,g\colon X \longrightarrow Y$ two [[continuous functions]] between [[topological spaces]] $X,Y$, then a **[[left homotopy]]**
 
@@ -470,7 +508,8 @@ $$
 $$
 
 
-out of [[product topological space]] with the standard interval, such that this fits into a [[commuting diagram]] of the form
+out of the [[product topological space]] (example \ref{ProductTopologicalSpace}) 
+with the standard interval, such that this fits into a [[commuting diagram]] of the form
 
 <div style="float:right;margin:0 10px 10px 0;">
 <img src="http://www.ncatlab.org/nlab/files/AHomotopy.jpg" width="400">
@@ -499,9 +538,10 @@ $$
 
 +-- {: .num_defn #HomotopyEquivalence}
 ###### Definition
+**(homotopy equivalence)**
 
 A [[continuous function]] $f \;\colon\; X \longrightarrow Y$
-is called a **[[homotopy equivalence]]** if there exists a
+is called a _[[homotopy equivalence]]_ if there exists a
 continuous function the other way around,
 $g \;\colon\; Y \longrightarrow X$, and [[left homotopies]], def. \ref{LeftHomotopy}, from the two composites to the identity:
 
@@ -521,8 +561,9 @@ $$
 
 +-- {: .num_example}
 ###### Example
+**(open ball is contractible)**
 
-Any [[open ball]] or closed ball, hence any [[Cartesian space]] is homotopy equivalent to the point
+Any [[open ball]] or closed ball, hence any [[Cartesian space]] is [[homotopy equivalence|homotopy equivalent]] to the point
 
 $$
   \mathbb{R}^n \underset{homotopy}{\simeq} \ast
@@ -530,11 +571,11 @@ $$
 $$
 
 
-
 =--
 
 +-- {: .num_example}
 ###### Example
+
 
 The following three [[graphs]]
 
@@ -572,6 +613,7 @@ is a continuous [[path]] between these points.
 
 +-- {: .num_defn #pi0}
 ###### Definition
+**(connected components)**
 
 The set of [[homotopy classes]] of points in a topological space is called its set of path-[[connected components]], denoted.
 
@@ -613,7 +655,7 @@ $$
 
 An immediate but important consequence is this:
 
-+-- {: .num_prop}
++-- {: .num_prop #ConnectedComponentsDistinctImpliesHeomeClassesDistinct}
 ###### Proposition
 
 If two [[topological spaces]] have sets of [[connected components]] that are not in [[bijection]], then they the spaces are not [[homeomorphic]] to each other:
@@ -649,10 +691,12 @@ $$
 
 =--
 
-This means that we may use path connected components as a first "topological invariant" that allows us to distinguish topological spaces. As an example for how this is being used, we have the following proof of a simple special case of the [[topological invariance of dimension]] (example \ref{TopologicalInvarianceOfDimension}):
+This means that we may use path connected components as a first "topological invariant" that allows us to distinguish topological spaces. As an example for how this is being used, we have the following proof of a simple special case of the [[topological invariance of dimension]] (theorem \ref{TopologicalInvarianceOfDimension}):
 
-+-- {: .num_prop }
+
++-- {: .num_prop #TopologicalInvarianceOfDimensionFirstSimpleCase}
 ###### Proposition
+**([[topological invariance of dimension]] -- first simple case)**
 
 The [[Cartesian spaces]] $\mathbb{R}^1$ and $\mathbb{R}^2$ are not [[homeomorphic]] (def. \ref{Homeomorphism}).
 
@@ -667,25 +711,40 @@ $$
   f \colon \mathbb{R}^1 \longrightarrow \mathbb{R}^2
 $$
 
-we wil lderive a contradiction. If $f$ is a homeomorphism, then clearly so is its restriction to the [[topological subspaces]] (def. \ref{SubspaceTopology}) obtained by removing $0 \in \mathbb{R}^1$ and $f(0) \in \mathbb{R}^2$.
+we will derive a contradiction. If $f$ is a homeomorphism, then clearly so is its restriction to the [[topological subspaces]] (example \ref{SubspaceTopology}) obtained by removing $0 \in \mathbb{R}^1$ and $f(0) \in \mathbb{R}^2$.
 
 It follows that we would get a bijection of [[connected components]] between $\pi_0(\mathbb{R}^1 - \{0\})$ and $\pi_0(\mathbb{R}^2  - \{f(0)\})$. But clearly the first set has two elements, while the second has just one.
 
 =--
 
+The key lesson of the proof of prop. \ref{TopologicalInvarianceOfDimensionFirstSimpleCase} is its strategy:
 
+$\,$
 
-### Fundamental group
+$\,\,$ _Use topological invariants to distinguish topological spaces._
+
+$\,$
+
+Of course in practice one uses more sophisticated invariants than just $\pi_0$.
+
+$\,$
+
+### Covering spaces and the Fundamental group
  {#FundamentalGroup}
 
-In a sense the next topological invariant after the [[connected components]] is the [[fundamental group]].
+In a sense the next topological invariant after the [[connected components]] is the _[[fundamental group]]_.
 
 +-- {: .num_defn #FundamentalGroup}
 ###### Definition
+**(fundamental group)**
 
 Let $X$ be a [[topological space]] and let $x \in X$ be a chosen point. Then write $\pi_1(X,x)$ for the set of [[homotopy classes]] of [[paths]] that start and end at $x$. Such paths are also called the continuous [[loops]] in $X$ based at $x$.
 
 Under concatenation of loops, $\pi_1(X,x)$ becomes a [[semi-group]] (a "[[monoid]]"). Under reversion of groups it becomes in fact a [[group]]. This is called the [[fundamental group]] of $X$ at $x$.
+
+A topological space $X$ for which $\pi_0(X) \simeq \ast$ ([[path-connected topological space|path connected]], def. \ref{pi0}) and  
+for which the [[fundamental group]] is [[trivial group|trivial]], $\pi_1(X,x) = 1$, is called
+_[[simply connected topological space|simply connected]]_.
 
 =--
 
@@ -698,17 +757,47 @@ $$
   \,.
 $$
 
-As $\pi_0$, so also $\pi_1$ is a topological invariant. As before, we may use this to prove a simple case of the theorem of the [[topological invariance of dimension]]: namely that $\mathbb{R}^2$ and $\mathbb{R}^3$ are not [[homeomorphic]] follows, since after removing one point from each, then the former has $\pi_1 = \mathbb{Z}$, while the latter has $\pi_1 = 1$.
+As $\pi_0$, so also $\pi_1$ is a topological invariant. As before, we may use this to prove a simple case of the theorem of the [[topological invariance of dimension]]: 
 
-We discuss now a way to prove the first claim here, that
-$\pi_1(\mathbb{R}^2-\{0\}) = \pi_1(S^1) = \mathbb{Z}$.
 
-...via [[covering spaces]]...
++-- {: .num_prop #topologicalInvarianceOfDimensionSecondSimpleCase}
+###### Proposition
+**([[topological invariance of dimension]] -- second simple case)**
+
+There is _no_ [[homeomorphism]] $\mathbb{R}^2 \longrightarrow \mathbb{R}^3$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Assume there were such a homeomorphism $f$; we will derive a contradiction.
+
+If $f$ is a homeomorphism, then so is its restriction to removing the origin from $\mathbb{R}^2$
+and $f(0)$ from $\mathbb{R}^3$. But these spaces have different [[fundamental groups]]:
+
+1. The fundamental group of $\mathbb{R}^{2} - \{0\}$ is $\mathbb{Z}$ (counting the winding of loops around the removed point).
+We discuss this further below in example \ref{FundamentalGroupOfTheCircle}.
+
+1. The fundamental group of $\mathbb{R}^3 - \{f(0)\]$ is trivial: because the single removed point is 
+no obstruction to sliding loops past it and contracting them.
+
+But since passing to fundamental groups is [[functor|functorial]], the same argument
+as in the proof of prop. \ref{ConnectedComponentsDistinctImpliesHeomeClassesDistinct}
+shows that $f$ cannot be an [[isomorphism]], hence not a [[homeomorphism]].
+
+
+=--
+
+We now discuss a "dual incarnation" of fundamental groups, which often helps to compute them.
 
 +-- {: .num_defn #CoveringSpace}
 ###### Definition
+**(covering space)**
 
-A _[[covering space]]_ of a [[topological space]] $X$ is a [[continuous map]] $\pi \colon E \to X$ such that there exists an [[open cover]] $\underset{i}{\sqcup}U_i \to X$, such that restricted to each $U_i$ then $E \to X$ is [[homeomorphic]] over $U_i$ to the [[product space]] of $U_i$ with the [[discrete topological space]] on a [[set]] $F_i$
+A _[[covering space]]_ of a [[topological space]] $X$ is a [[continuous map]] $\pi \colon E \to X$ such that there exists an [[open cover]] $\underset{i}{\sqcup}U_i \to X$, such that restricted to each $U_i$ then $E \to X$ is [[homeomorphic]] over $U_i$ 
+to the [[product topological space]] (example \ref{ProductTopologicalSpace}) of $U_i$ 
+with the [[discrete topological space]] (example \ref{DiscreteTopologicalSpace}) on a [[set]] $F_i$
 
 $$
   \array{
@@ -727,6 +816,7 @@ For $x \in U_i \subset X$ a point, then the elements in $F_x  = F_i$ are called 
 
 +-- {: .num_example #kForlCovringOfCircle}
 ###### Example
+**(covering of circle by circle)**
 
 <div style="float:left;margin:0 10px 10px 0;">
 <img src="https://ncatlab.org/nlab/files/pFoldCoveringOfCircleB.png" width="200">
@@ -750,10 +840,11 @@ Precisely, for $k \geq 1$ this is a [[covering space]]
 
 =--
 
-+-- {: .num_example }
++-- {: .num_example #CoveringOfCircleByRealLine}
 ###### Example
+**(covering of circle by real line)**
 
-Consider the continuous map
+Consider the [[continuous function]]
 
 $$
   \exp(2 \pi i(-)) \;\colon\; \mathbb{R}^1 \longrightarrow S^1
@@ -766,7 +857,7 @@ $$
   t \mapsto \exp(2\pi i t)
 $$
 
-and with the circle regarded as the unit circle in $\mathbb{R}^2$ is given by
+and which with the circle regarded as the unit circle in $\mathbb{R}^2$ is given by
 
 $$
   t \mapsto ( cos(2\pi t), sin(2\pi t) )
@@ -779,9 +870,10 @@ set $\mathbb{Z}$ of [[natural numbers]].
 
 =--
 
+
 +-- {: .num_defn #ActionOfFundamentalGroupOnFibersOfCovering}
 ###### Definition
-**(action of fundamental group on the fibers)**
+**(action of fundamental group on fibers of covering)**
 
 Let $E \overset{\pi}{\longrightarrow} X$ be a [[covering space]] (def. \ref{CoveringSpace})
 
@@ -860,11 +952,11 @@ $$
   \,.
 $$
 
-
 =--
 
 +-- {: .num_example }
 ###### Example
+**(three-sheeted covers of the circle)**
 
 <div style="float:right;margin:0 10px 10px 0;">
 <img src="https://ncatlab.org/nlab/files/The3SheetedCoveringsOfTheCircle.png" width="150">
@@ -876,31 +968,33 @@ The one from example \ref{kForlCovringOfCircle} for $k = 3$. Another one. And th
 Their corresponding [[permutation actions]] may be seen from the pictures on the right.
 > graphics grabbed from [Hatcher](homotopy+equivalence#Hatcher)
 
-
 =--
 
 We are now ready to state the main theorem about the [[fundamental group]]. Except that it
-does require the folowing technical condition on the base topological space. 
+does require the following slightly technical condition on the base topological space. 
 This condition is satisfied for all "reasonable" topological spaces:
 
 +-- {: .num_defn #SemiLocallySimplyConnected}
 ###### Definition
+**(semi-locally simply connected)**
 
-A [[topological space]] $X$ is called _[[semi-locally simply connected topological space|semi-locally simply connected]]_
-if very point $x$ has a [[neighbourhood]] $U$ such that
+A [[topological space]] $X$ is called 
 
-1. $U$ is [[path-connected topological space|path-connected]] 
+1. _[[locally path-connected]]_ if for every point $x \in X$ and for every [[neighbourhood]] $x \in U \subset X$ there
+   exists a neighbourhood $x \in V \subset U$ such that $V$ is [[path-connected topological space|path-connected]] (def. \ref{pi0});
 
-1. the induced morphism of [[fundamental groups]] $\pi_1(U,x) \to \pi_1(X,x)$ is trivial (i.e. sends everything to the [[neutral element]]).
+1. _[[semi-locally simply connected topological space|semi-locally simply connected]]_ if every point $x \in X$ has a [[neighbourhood]] $x \in U \subset X$ such that the induced morphism of [[fundamental groups]] $\pi_1(U,x) \to \pi_1(X,x)$ is trivial (i.e. sends everything to the [[neutral element]]).
 
 =--
 
 
 
-+-- {: .num_theorem}
++-- {: .num_theorem #FundamentalTheoremOfCoveringSpaces}
 ###### Theorem
+**([[fundamental theorem of covering spaces]])**
 
-Let $X$ be a [[topological space]] which is [[connected topological space|path-connected]] (def. \ref{pi0})
+Let $X$ be a [[topological space]] which is [[connected topological space|path-connected]] (def. \ref{pi0}),
+[[locally path-connected topological space|locally path connected]] (def. \ref{SemiLocallySimplyConnected})
 and [[semi-locally simply connected topological space|semi-locally simply connected]] (def. \ref{SemiLocallySimplyConnected}). Then 
 for any $x \in X$ the functor 
 $$
@@ -931,14 +1025,73 @@ $$
 
 =--
 
+This has some interesting implications:
+
+Every sufficiently nice topological space $X$ as above has a covering which is [[simply connected topological space|simply connected]]
+(def. \ref{FundamentalGroup}). This is the covering corresponding, under the [[fundamental theorem of covering spaces]]
+(theorem \ref{FundamentalTheoremOfCoveringSpaces}) to the action of $\pi_1(X)$ on itself. 
+This is called the _[[universal covering space]]_ $\hat X \to X$. The above theorem implies that the 
+[[fundamental group]] itself may be recovered as the [[automorphisms]] of the universal covering space:
+
+$$
+  \pi_1(X) \simeq Aut_{Cov_{/X}}(\hat X, \hat X)
+  \,.
+$$
 
 
++-- {: .num_example #FundamentalGroupOfTheCircle}
+###### Example
+**(computing the fundamental group of the circle)**
+
+The covering $\exp(2\pi i(-)) \;\colon\; \mathbb{R}^1 \to S^1$ from example \ref{CoveringOfCircleByRealLine}
+is [[simply connected topological space|simply connected]], hence must be the [[universal covering space]],
+up to [[homeomorphism]]. 
+
+It is fairly straightforward to see that the only [[homeomorphisms]] from $\mathbb{R}^1$ to itself
+over $S^1$ are given by [[integer]] translations by $n \in \mathbb{N} \hookrightarrow \mathbb{R}$:
+
+$$
+  \array{
+    \mathbb{R}^1 
+      &&  
+        \underoverset{\simeq}{t \mapsto t + n}{\longrightarrow}
+      && 
+    \mathbb{R}^1
+    \\
+    & {}_{\mathllap{\exp(2 \pi i(-))}}\searrow && \swarrow_{\mathrlap{\exp(2 \pi i(-))}}
+    \\
+    && S^1
+  }
+  \,.
+$$
+
+Hence 
+
+$$
+  Aut_{Cov_{/S^1}}(\hat S^1, \hat S^1) \simeq \mathbb{Z}
+$$
+
+and hence the [[fundamental group]] of the [[circle]] is the additive group of [[integers]]:
+
+$$
+  \pi_1(S^1) \simeq \mathbb{Z}
+  \,.
+$$
+
+=--
+
+$\,$
+
+***
+
+$\,$
 
 
 ## Related entries
  {#RelatedEntries}
 
-Here we exclude the entries on [[topos theory]] which may also be viewed as an approach to topology (but also geometry, logic...) as it is comprehensively linked from entries [[topos]], [[topos theory]], [[infinity topos]], [[Grothendieck topology]], [[site]].
+The following is an (incomplete) list of available $n$Lab entries related to topology.
+
 
 ### Topological spaces
 
@@ -966,18 +1119,32 @@ See also [[examples in topology]].
 * [[manifold]], [[smooth manifold]], [[generalized smooth space]], [[diffeological space]], [[smooth space]], [[Froelicher space]]
 * [[differential topology]], [[microbundle]], [[cobordism]], [[derived smooth manifold]]
 
-* [[low-dimensional topology]]
+* [[low-dimensional topology]], [[3-manifold]]
 
-### Algebraic topology and homotopy theory in general
+### Algebraic topology and homotopy theory 
 
 * [[homotopy]], [[homotopy inverse]], [[homotopy theory]], [[homotopy equivalence]], [[rational homotopy theory]]
 * [[shape theory]], [[algebraic topology]], [[basic problems of algebraic topology]]
+
+* [[model category]], [[category of fibrant objects]], [[Quillen adjunction]], [[Quillen equivalence]], [[category with weak equivalence]],
+
+* [[model 2-category]], [[model stack]]
+
+* [[Reedy category]], [[Reedy model structure]], [[generalized Reedy category]]
+* [[model structure on chain complexes]], [[model structure on crossed complexes]]
+* [[homotopy hypothesis]], [[homotopy theory of Grothendieck]], [[test category]]
+
 * [[homotopy limit]], [[homotopy colimit]], [[homotopy pullback]], [[homotopy image]], [[homotopy coherent category theory]], [[homotopy coherent nerve]], [[Brown representability theorem]]
 * [[homotopy type]], [[homotopy 1-type]], [[homotopy 2-type]], [[homotopy 3-type]], [[homotopy n-type]]
 * [[deformation retract]], [[neighborhood retract]], [[Postnikov system]]
 * [[fundamental group]], [[homotopy group]], [[suspension]], [[Freudenthal suspension theorem]], [[delooping]]
 * [[loop space]], [[free loop space object]],
 * [[cup product]], [[Dold-Thom theorem]]
+
+#### Topological homotopy theory
+
+* [[classical model structure on topological spaces]]
+
 * [[topological group]], [[H-space]], [[co-H-space]]
 * [[principal bundle]], [[fiber bundle]], [[vector bundle]], [[principal 2-bundle]], [[trivial bundle]]
 * [[fibration]], [[Hurewicz fibration]], [[Hurewicz connection]], [[homotopy lifting property]], [[Dold fibration]]
@@ -985,12 +1152,10 @@ See also [[examples in topology]].
 * [[cocylinder]], [[cylinder object]], [[path object]], [[mapping cone]], [[path groupoid]], [[path n-groupoid]], [[fundamental groupoid]]
 * [[classifying space]], [[Eilenberg-MacLane space]],[[Moore space]], [[Moore path category]]
 * [[spectrum]], [[smash product of spectra]], [[symmetric spectrum]], [[stable (infinity,1)-category]], [[commutative ring spectrum]]
-* [[model category]], [[model 2-category]], [[model stack]], [[Quillen adjunction]], [[Quillen equivalence]], [[category with weak equivalences]], [[category of fibrant objects]]
-* [[Reedy category]], [[Reedy model structure]], [[generalized Reedy category]]
-* [[model structure on chain complexes]], [[model structure on crossed complexes]]
-* [[homotopy hypothesis]], [[homotopy theory of Grothendieck]], [[test category]]
 
-#### Simplicial sets and related notions
+#### Simplicial homotopy theory
+
+* [[classical model structure on simplicial sets]]
 
 * [[simplicial set]], [[simplex category]], [[simplicial identities]], [[simplicial object]], [[cosimplicial object]]
 * [[simplicial complex]], [[singular simplicial complex]],
@@ -1007,7 +1172,8 @@ See also [[examples in topology]].
 
 ### Sheaves, stacks, cohomology
 
-* [[sheaf]], [[flabby sheaf]], [[local epimorphism]], [[etale space]], [[hypercover]]
+* [[site]], [[sheaf]], [[flabby sheaf]], [[local epimorphism]], [[etale space]], [[hypercover]]
+* [[topos]]
 * [[cohomology]], [[sheaf cohomology]], [[abelian sheaf cohomology]], [[local system]], [[category of sheaves]]
 * [[Čech cohomology]], [[Bredon cohomology]], [[twisted cohomology]], [[twisting cochain]]
 * [[nonabelian algebraic topology]], [[nonabelian cocycle]], [[nonabelian cohomology]]
@@ -1037,7 +1203,7 @@ See also [[examples in topology]].
 
 See also the references at _[[algebraic topology]]_.
 
-Introductions to topology:
+Introductions to topology include:
 
 * [[Friedhelm Waldhausen]], _Topologie_ ([pdf](https://www.math.uni-bielefeld.de/~fw/ein.pdf))
 
@@ -1047,7 +1213,6 @@ Introductions to topology:
 frankfurt.de/64271720/TopNotes_Spring10.pdf))
 
 * Anatole Katok, Alexey Sossinsky, _Introduction to modern topology and geometry_ ([pdf](http://www.personal.psu.edu/axk29/MASS-07/Background-forMASS.pdf))
-
 
 See also
 
