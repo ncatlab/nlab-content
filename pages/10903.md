@@ -329,7 +329,7 @@ $$
 
 ## Examples / Models
 
-We consider here examples of semantics for [dependent linear type theory](#DependentLinearTypeTheory) and for [linear homtopy type theory](#LinearHomotopyTypeTheory). For each example we also spell out some of the abtract constructions (discussed in _[Structures in linear homotopy type theory](#StructuresInLinearHomotopyTypeTheory))_ realized in that model.
+We consider here examples of semantics for [dependent linear type theory](#DependentLinearTypeTheory) and for [linear homotopy type theory](#LinearHomotopyTypeTheory). For each example we also spell out some of the abstract constructions (discussed in _[Structures in linear homotopy type theory](#StructuresInLinearHomotopyTypeTheory))_ realized in that model.
 
 ### Slices of a topos
 
@@ -482,7 +482,7 @@ represented by that matrix.
 ### Parametrized module spectra
  {#ParameterizedModuleSpectra}
 
-The example of parameterized modules [above](#ParameterizedModules) has an evident generalization from [[linear algebra]] to [[stable homotopy theory]] with [[abelian categories|abelian]] [[categories of modules]] refined to [[stable (∞,1)-categories|stable]] [[(∞,1)-categories of ∞-modules]]. Despite of what this [[higher category theory]]-terminology might make the reader feel, this refinement flows naturally along the same lines as the 1-categorical situation. One may view the axiomatics of linear dependent homotopy type theory as neatly characterizing precisely this intimate similarity.
+The example of parameterized modules [above](#ParameterizedModules) has an evident generalization from [[linear algebra]] to [[stable homotopy theory]] with [[abelian categories|abelian]] [[categories of modules]] refined to [[stable (∞,1)-categories|stable]] [[(∞,1)-categories of ∞-modules]]. Despite what this [[higher category theory]]-terminology might make the reader feel, this refinement flows naturally along the same lines as the 1-categorical situation. One may view the axiomatics of linear dependent homotopy type theory as neatly characterizing precisely this intimate similarity.
 
 | [[linear algebra]] | [[brave new algebra]] |
 |--------------------|-----------------------|
@@ -517,7 +517,7 @@ This is semantics for linear homotopy type theory in the sense of def. \ref{Sema
 
 In the case that $E = \mathbb{S}$ is the [[sphere spectrum]], then $\mathbb{S}Mod \simeq Spectra$ is just the plain [[(∞,1)-category of spectra]] and then the above is the theory of plain [[parameterized spectra]].
 
-In this case the corresponding [[indexed closed monoidal category]] (under the [[(∞,1)-Grothendieck construction]]) is the [[tangent (∞,1)-topos]] $T(\infty Grpd)$ of [[∞Grpd]]. This happens to be itself an [[(∞,1)-topos]] and as such is semantics for plain [[homotopy type theory]]. However, plain homotopy type theory only sees in a [[tangent (∞,1)-topos]] parameterized spectra depending on parameterized spectra. It takes the extra axioms of linear homotopy type theory to speak bout how the parameterization of the spectra itself depends on the base homotopy types.
+In this case the corresponding [[indexed closed monoidal category]] (under the [[(∞,1)-Grothendieck construction]]) is the [[tangent (∞,1)-topos]] $T(\infty Grpd)$ of [[∞Grpd]]. This happens to be itself an [[(∞,1)-topos]] and as such is semantics for plain [[homotopy type theory]]. However, plain homotopy type theory only sees in a [[tangent (∞,1)-topos]] parameterized spectra depending on parameterized spectra. It takes the extra axioms of linear homotopy type theory to speak about how the parameterization of the spectra itself depends on the base homotopy types.
 
 =--
 
@@ -537,7 +537,7 @@ This construction does have a [[right adjoint]] $\Omega^\infty$, where $(\Sigma^
 
 =--
 
-+-- {: .num_prop #ParameterizedModuleSpectra}
++-- {: .num_prop}
 ###### Proposition
 
 In the class of models of prop. \ref{ParameterizedModuleSpectra}, linear homotopy-type theory encodes the theory of [[twisted generalized cohomology]].
@@ -728,7 +728,7 @@ This is ([Ponto-Shulman 12, (4.3)](#PontoShulman12)).
 +-- {: .num_remark }
 ###### Remark
 
-Below in example \ref{SigmaFunctorAsSecondaryTransform} we see that the functor $\Sigma$ in prop. \ref{SigmaFunctor} is a special case of a general construction of secondary integral trasnforms axiomatized in dependent linear type theory.
+Below in example \ref{SigmaFunctorAsSecondaryTransform} we see that the functor $\Sigma$ in prop. \ref{SigmaFunctor} is a special case of a general construction of secondary integral transforms axiomatized in dependent linear type theory.
 
 =--
 
@@ -1049,7 +1049,7 @@ A [[correspondence]] $X_1 \stackrel{f_1}{\longleftarrow} Z \stackrel{f_2}{\longr
 
 This is conceptually just how the [[path integral]] in [[physics]] is supposed to work, only that mostly it doesn't due to lack of a definition. However, at least some path integrals for [[topological field theories]] may be realized as secondary integral transforms of the above kind.
 
-Notice that the while in [[modal type theory]] the ([[comonad|co-]])[[monads]] $(f^\ast \sum_f \dashv f^\ast \prod_f)$ are prononced as _[[possibility]]_ and _[[necessity]]_, the monad $\prod_f f^\ast$ appearing above, via def. \ref{FiberwiseFundamentalClass}, may be pronounced _randomness_, see at _[[function monad]]_ for more.
+Notice that the while in [[modal type theory]] the ([[comonad|co-]])[[monads]] $(f^\ast \sum_f \dashv f^\ast \prod_f)$ are pronounced as _[[possibility]]_ and _[[necessity]]_, the monad $\prod_f f^\ast$ appearing above, via def. \ref{FiberwiseFundamentalClass}, may be pronounced _randomness_, see at _[[function monad]]_ for more.
 
 =--
 
