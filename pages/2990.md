@@ -82,10 +82,9 @@ The composition $r\circ (\sigma_0)_* (f)\circ \sigma_1 = f$, hence this is a dec
 
 ## Related entries
 
-* [[mapping cone]]
+* In [[homotopy type theory]] mapping cyclinders can be constructed as [[higher inductive types]]. See [there](higher+inductive+type#MappingCylinders).
 
-* [[mapping telescope]]
+[[!include universal constructions of topological spaces -- table]]
 
-In [[homotopy type theory]] mapping cyclinders can be constructed as [[higher inductive types]]. See [there](higher+inductive+type#MappingCylinders).
 
 [[!redirects mapping cylinders]]
