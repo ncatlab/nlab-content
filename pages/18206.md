@@ -79,6 +79,22 @@ Embeddings of topological spaces are precisely the [[regular monomorphisms]] in 
 For **proof** see at _[[Top]]_ [this proposition](Top#MonoEpiMorphisms).
 
 
++-- {: .num_lemma #poclosed} 
+###### Lemma 
+In $Top$, the pushout $j$ of a (closed/open) embedding $i$ along any continuous map $f$, 
+
+$$\array{
+A & \stackrel{i}{\hookrightarrow} & B \\ 
+\mathllap{f} \downarrow & po & \downarrow \mathrlap{g} \\ 
+C & \underset{j}{\hookrightarrow} & D,
+}$$ 
+
+is again a (closed/open) embedding. 
+=-- 
+
+For **proof** see at _[[subspace topology]]_ [here](subspace+topology#pushout).
+
+
 +-- {: .num_prop #InjectiveProperMapsAreEquivalentlyTheClosedEmbeddings}
 ###### Proposition
 **(injective proper maps to locally compact spaces are equivalently the closed embeddings)**
