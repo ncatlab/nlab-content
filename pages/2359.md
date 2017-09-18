@@ -69,7 +69,7 @@ There are various different-looking ways to define the stable homotopy category.
 
 ### Via eventually defined maps
 
-One of the first constructions of the stable homotopy category is due to ([Adams 74, part III, sections 2 and 3](#Adams74)), following ([Boardman 65](#Boardman65)). This _[[Adams category]]_ is defined to be the category of [[CW-spectra]] with [[homotopy classes]] of "eventually defined" functions between them.
+One of the first constructions of the stable homotopy category is due to ([Adams 74, part III, sections 2 and 3](#Adams74)), following ([Boardman 65](#Boardman65)). This _[[Adams category]]_ is defined to be the category of [[CW-spectra]] with [[homotopy classes]] (with respect to [[cylinder spectra]]) of "eventually defined" functions between them.
 
 Hostorically this was advertized as being a construction free of tools of [[category theory]]. See ([Lewis-May-Steinberger 86, pages 1-3](#LewismaySteinberger86)) for review and critical assessment
 
@@ -113,11 +113,13 @@ for the corresponding [[homotopy classes]] of maps.
 
 ### Via model structures
 
-There are several [[model categories]] which exhibit [[model structures for spectra]], hence whose [[homotopy category]] is equivalent to the stable homotopy category.
+There are several [[model categories]] which exhibit [[model structures for spectra]], hence whose [[homotopy category of a model category]] is equivalent to the stable homotopy category.
 
-For instance the [[Bousfield-Friedlander model structure]] of [[sequential spectrum|sequential]] [[pre-spectra]] in [[simplicial sets]] ([Bousfield-Friedlander  78](#BousfieldFriedlander78)).
+The most lightweight of these is the [[Bousfield-Friedlander model structure]] of [[sequential spectrum|sequential]] [[pre-spectra]] in [[simplicial sets]] ([Bousfield-Friedlander  78](#BousfieldFriedlander78)) 
 
-(...)
+Model structures on more [[highly structued spectra]] include the [[model structure on symmetric spectra]], the [[model structure on orthogonal spectra]], and ultimately the [[model structure for excisive functors]]. It is only with these model structures that the [[smash product of spectra]] is represented by a [[symmetric monoidal smash product of spectra]] even before passing to the stable homotopy category.
+
+A unified account of all thes model structures is at _[[Model categories of diagram spectra]]_.
 
 
 ## Properties
