@@ -231,7 +231,7 @@ The issue of the tension between local gauge invariance and locality and the nee
 * {#Schenkel14} [[Alexander Schenkel]], _On the problem of gauge theories
 in locally covariant QFT_, talk at _[Operator and Geometric Analysis on Quantum Theory](http://www.science.unitn.it/~moretti/convegno/convegno.html)_ Trento, 2014 ([[SchenkelTrento2014.pdf:file]]) (with further emphasis on this point in the companion talk [Schreiber 14](field+bundle#Schreiber14)) 
 
-Further development of this [[homotopy theory|homotopy theoretic]] version of AQFT includes
+Further development of this [[homotopical algebraic quantum field theory]] includes
 
 * {#BeniniSchenkel16} [[Marco Benini]], [[Alexander Schenkel]], _Quantum field theories on categories fibered in groupoids_ ([arXiv:1610.06071](https://arxiv.org/abs/1610.06071))
 
