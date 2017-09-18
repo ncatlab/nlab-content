@@ -144,7 +144,7 @@ $$
 
 Here in the middle step we applied the [[suspension isomorphism]] and in the last step we used the assumption that there is just a [[finite set]] of cells.
 
-This shows that the entries of the $E_1$-page are the [[singular cohomology|singular]] [[chains]] of $X$ with [[coefficients]] in $E^\bullet(\ast)$. It remains to check that on these the $d_1$-differential of the Cartan-Eilenberg spectral sequence acts as the singular coboundary operator. See e.g. ([Kochmann 96, theorem 4.2.5](#Kochmann96)).
+This shows that the entries of the $E_1$-page are the [[cellular cohomology|cellular cochains]]  of $X$ with [[coefficients]] in $E^\bullet(\ast)$. It remains to check that on these the $d_1$-differential of the spectral sequence acts as the cellular coboundary operator.  This follows by unwinding the definition of $d_1$, for more details see the proof [here](Introduction+to+Stable+homotopy+theory+--+S#ProofOfTheAHSS).
 
 =--
 
