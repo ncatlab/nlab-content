@@ -1,3 +1,4 @@
+[[!redirects projective linear group]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -16,7 +17,7 @@
 
 ## Definition
 
-The _projective linear group_ $PGL(n)$ (in some [[dimension]] $n$ and over some [[coefficients]]) is the [[quotient]] of the [[general linear group]] $GL(n)$ by its [[center of a group|center]].
+The _projective general linear group_ $PGL(n)$ (in some [[dimension]] $n$ and over some [[coefficients]]) is the [[quotient]] of the [[general linear group]] $GL(n)$ by its [[center of a group|center]].
 
 ## Examples
 
@@ -32,6 +33,9 @@ The _projective linear group_ $PGL(n)$ (in some [[dimension]] $n$ and over some 
 
 * [[Fuchsian group]]
 
+* [[projective representation]]
+
 ## References
 
-Wikipediam _[Projective linear group](https://en.wikipedia.org/wiki/Projective_linear_group)_
+* Wikipedia, _[Projective linear group](https://en.wikipedia.org/wiki/Projective_linear_group)_
+
