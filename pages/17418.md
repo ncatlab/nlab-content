@@ -1,0 +1,16 @@
+author: AnonymousCoward
+company: 
+title: combinatory logic
+subtitle: 
+slide_theme: default
+slide_footer: 
+slide_subfooter: 
+
+:category: S5-slideshow
+
+combinatory logic
+==============
+
+My First Slide
+-----------------
+
