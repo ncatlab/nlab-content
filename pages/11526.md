@@ -13,6 +13,9 @@ This is used in one definition of [[G-spectra]] via [[looping and delooping]] by
 
 A **[[G-universe]]** in this context is (e.g. [Greenlees-May, p. 10](#GreenleesMay)) an infinite dimensional real [[inner product space]] equipped with a linear $G$-[[action]] that is the [[direct sum]] of countably many copies of a given [[set]] of (finite dimensional) [[representations]] of $G$, at least containing the trivial representation on $\mathbb{R}$ (so that $U$ contains at least a copy of $\mathbb{R}^\infty$).
 
+## Related concepts
+
+* [[RO(G)-grading]]
 
 ## References
 
