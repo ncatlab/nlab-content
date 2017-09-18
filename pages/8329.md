@@ -25,7 +25,7 @@ According to _[[Science of Logic]]_ the [[unity of opposites]] of [[nothing]] an
 
 ## Related concepts
 
-* [[being]]
+* [[Aufhebung]]
 
 ## References
 
