@@ -8913,15 +8913,15 @@ $$
   }
 $$
 
-in $\mathcal{C}_f$ is called a **[[homotopy pullback]]** (of $f$ along $g$ and equivalently of $g$ along $f$) if equivalently
+in $\mathcal{C}_f$ is called a **[[homotopy pullback]]** (of $f$ along $g$ and equivalently of $g$ along $f$) if the following equivalent conditions hold:
 
-1. for any factorization 
+1. for some factorization of the form
 
    $$
-     g \colon C \overset{\in W}{\longrightarrow} \hat B \overset{\in Fib}{\longrightarrow} D
+     g \colon B \overset{\in W }{\longrightarrow} \hat B \overset{\in Fib}{\longrightarrow} D
    $$
 
-   such that the universally induced morphism from $A$ into the pullback of $\hat B$ along $f$ is a weak equivalence:
+   the universally induced morphism from $A$ into the pullback of $\hat B$ along $f$ is a weak equivalence:
 
    $$
      \array{
@@ -8941,20 +8941,110 @@ in $\mathcal{C}_f$ is called a **[[homotopy pullback]]** (of $f$ along $g$ and e
    $$
 
 
-1. for any factorization 
+1. for some factorization of the form
 
    $$
-     f \colon C \overset{\in W}{\longrightarrow} \hat C \overset{\in Fib}{\longrightarrow} D
+     f \colon C \overset{\in W }{\longrightarrow} \hat C \overset{\in Fib}{\longrightarrow} D
    $$
 
-   such that the universally induced morphism from $A$ into the pullback of $\hat D$ along $g$ is a weak equivalence:
+   the universally induced morphism from $A$ into the pullback of $\hat D$ along $g$ is a weak equivalence:
 
    $$
      A \overset{\in W}{\longrightarrow} \hat C \underset{D}{\times} B
      \,.
    $$
 
+1. the above two conditions hold for every such factorization.
+
 =--
+
++-- {: .num_prop #ConditionsForHomotopyPullbackAreIndeedEquivalent}
+###### Proposition
+
+The conditions in def. \ref{HomotopyPullback} are indeed equivalent.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+First assume that the first condition holds, in that
+
+$$
+  \array{
+    A &\longrightarrow& B
+    \\
+    {}^{\mathllap{\in W}}\downarrow && \downarrow^{\mathrlap{\in W}}
+    \\
+    C \underset{D}{\times} \hat B
+     &\longrightarrow&
+    \hat B
+    \\
+    \downarrow &(pb)& \downarrow^{\mathrlap{\in Fib}}
+    \\
+    C &\longrightarrow& D
+  }
+  \,.
+$$
+
+Then let 
+
+$$
+  f \colon C \overset{\in W }{\longrightarrow} \hat C \overset{\in Fib}{\longrightarrow} D
+$$
+
+be any factorization of $f$ and consider the [[pasting]] diagram (using the [[pasting law]] for pullbacks)
+
+$$
+  \array{
+    A 
+      &\overset{}{\longrightarrow}& 
+    \hat C \underset{D}{\times} B
+      &\longrightarrow&
+    B
+    \\
+    {}^{\mathllap{\in W}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{\in W}} 
+      &(pb)& 
+    \downarrow^{\mathrlap{\in W}}
+    \\
+    C\underset{D}{\times} \hat B 
+      &\overset{\in W}{\longrightarrow}&
+    \hat C \underset{D}{\times} \hat D
+      &\overset{\in Fib}{\longrightarrow}&
+    \hat B
+    \\
+    \downarrow 
+      &(pb)& 
+    \downarrow^{\mathrlap{\in \atop Fib}} 
+      &(pb)& 
+    \downarrow^{\mathrlap{\in Fib}}
+    \\
+    C
+      &\underset{\in W}{\longrightarrow}&
+    \hat C
+      &\underset{\in Fib}{\longrightarrow}&
+    D
+  }
+  \,,
+$$
+
+where the inner morphisms are fibrations and weak equivallences, as shown, by the pullback stability of fibrations (prop. \ref{ClosurePropertiesOfInjectiveAndProjectiveMorphisms}) and then since pullback along fibrations preserves weak equivalences in categories of fibrant objects (lemma \ref{InCfPullbackAlongFibrationPreservesWeakEquivalences}).
+Hence it follows by [[two-out-of-three]] (def. \ref{CategoryWithWeakEquivalences}) that also the comparison morphism $A \to \hat C \underset{D}{\times} B$ is a weak equivalence.  
+
+In conclusion, if the homotopy pullback condition is satisfied for one factorization of $g$, then it is satisfied for all factorizations of $f$. Since the argument is symmetric in $f$ and $g$, this proves the claim.
+
+=---
+
++-- {: .num_remark #PullbackOfFibrationWithFibrantObjectsIsHomotopyPullback}
+###### Remark
+
+In particular, an ordinary pullback square of fibrant objects, one of whose edges is a fibration, is a homotopy pullback square according to def. \ref{HomotopyPullback}.
+
+=--
+
+
 
 +-- {: .num_prop #HomotopyPullbackPreservesWeakEquivalencesOfSpans}
 ###### Proposition
@@ -8986,13 +9076,23 @@ $$
 
 =--
 
++-- {: .proof}
+###### Proof
 
-+-- {: .num_prop}
-###### Proposition
+(The reader should draw the 3-dimensional cube diagram which we describe in words now.) 
 
-The two conditions in def. \ref{HomotopyPullback} are indeed equivalent.
+First consider the universal morphism $C \to E \underset{F}{\times} C$ and observe that it is a weak equivalence by lemma \ref{InCfPullbackAlongFibrationPreservesWeakEquivalences} 
+and [[two-out-of-three]] (def. \ref{CategoryWithWeakEquivalences}). 
+
+Then consider the universal morphism $A \underset{B}{\times}C \to A \underset{B}{\times}(E \underset{F}{\times}C)$ and observe that this is also a weak equivalence, since $A \underset{B}{\times} C$ is the limiting cone of a homotopy pullback square by remark \ref{PullbackOfFibrationWithFibrantObjectsIsHomotopyPullback}, and since the morphism is the comparison morphism to the pullback of the factorization constructed in the first step.
+
+Now by using the [[pasting law]], then the commutativity of the "left" face of the cube, then the pasting law again, one finds that $A \underset{B}{\times} (E \underset{F}{\times} C) \simeq A \underset{D}{\times} (D \underset{E} F{\times})$. Again by lemma \ref{InCfPullbackAlongFibrationPreservesWeakEquivalences} this implies that $A \underset{B}{\times} (E \underset{F}{\times} C)\to D \underset{E}{\times} F$ is a weak equivalence.
+
+With this the claim follows by [[two-out-of-three]].
 
 =--
+
+
 
 Homotopy pullbacks satisfy the usual abstract properties of pullbacks:
 
@@ -9004,6 +9104,46 @@ If in a [[commuting square]] in $\mathcal{C}_f$ one edge is a weak equivalence, 
 
 =--
 
++-- {: .proof}
+###### Proof
+
+Consider a commuting square of the form
+
+$$
+  \array{
+    A &\longrightarrow& B
+    \\
+    \downarrow && \downarrow
+    \\
+    C &\underset{\in W}{\longrightarrow}& D
+  }
+  \,.
+$$
+
+To detect whether this is a homotopy pullback, by def. \ref{HomotopyPullback} and prop. \ref{ConditionsForHomotopyPullbackAreIndeedEquivalent}, we are to choose any factorization of the right vertical morphism to obtain the pasting composite
+
+$$
+  \array{
+    A &\longrightarrow& B
+    \\
+    \downarrow && \downarrow^{\mathrlap{\in W}}
+    \\
+    C \underset{D}{\times} \hat B 
+      &\overset{\in W}{\longrightarrow}&
+    \hat B
+    \\
+    \downarrow
+      &(pb)&
+    \downarrow^{\mathrlap{\in Fib}}
+    \\
+    C &\underset{\in W}{\longrightarrow}& D
+  }
+  \,.
+$$
+
+Here the morphism in the middle is a weak equivalence by lemma \ref{InCfPullbackAlongFibrationPreservesWeakEquivalences}. Hence it follows by [[two-out-of-three]] that the top left comparison morphism is a weak equivalence (and so the original square is a homotopy pullback) precisely if the top morphism is a weak equivalence.
+
+=--
 
 +-- {: .num_prop #ClosurePropertiesOfHomotopyPullbacks}
 ###### Proposition
@@ -9028,7 +9168,19 @@ Let $\mathcal{C}$ be a [[model category]] (def. \ref{ModelCategory}) with $\math
 
    the square on the right is a homotoy pullback (def. \ref{HomotopyPullback}) then the left square is, too, precisely if the total rectangle is;
 
-1. every [[retract]] of a homotopy pullback square (in the category $\mathcal{C}_f^{\Box}$ of commuting squares in $\mathcal{C}_f$) is itself a homotopy pullback square.
+1. in the presence of [[functorial factorization]] (def. \ref{FunctorialFactorization}) through weak equivalences followed by fibrations:  
+
+   every [[retract]] of a homotopy pullback square (in the category $\mathcal{C}_f^{\Box}$ of commuting squares in $\mathcal{C}_f$) is itself a homotopy pullback square.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+For the first statement: choose a factorization of $C \overset{\in W}{\to} \hat F \overset{\in Fib}{\to} F$, pull it back to a factorization $B \to \hat B \overset{\in Fib}{\to} E$ and assume that $B \to \hat B$ is a weak equivalence, i.e. that the right square is a homotopy pullback. Now use the ordinary [[pasting law]] to conclude.
+
+
+For the second statement: functorially choose a factorization of the two right vertical morphisms of the squares and factor the squares through the pullbacks of the corresponding fibrations along the bottom morphisms, respectively. Now the statement that the squares are homotopy pullbacks is equivalent to their top left vertical morphisms being weak equivalences. Factor these top left morphisms functorially as cofibrations followed by acyclic fibrations. Then the statement that the squares are homotopy pullbacks is equivalent to those top left cofibrations being acyclic. Now the claim follows using that the retract of an acyclic cofibration is an acyclic cofibration (prop. \ref{ClosurePropertiesOfInjectiveAndProjectiveMorphisms}).
 
 =--
 
