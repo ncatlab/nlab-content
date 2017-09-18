@@ -1,8 +1,10 @@
 # Refutation by contradiction
+* table of contents
+{:toc}
 
 ## Idea
 
-*Refutation by contradiction* is the "basic" method of [[formal proof]] for proving a [[negation]]: if assuming $P$ leads to a contradiction, then we conclude $\neg P$.  It is the [[introduction rule]] for the [[connective]] of [[negation]]; if $\neg P$ is defined as $P\to \bot$, then it follows from the introduction rule for [[implication]].
+*Refutation by contradiction* is the "basic" method of [[formal proof]] for proving a [[negation]]: if assuming $P$ leads to a [[contradiction]], then we conclude $\neg P$.  It is the [[introduction rule]] for the [[connective]] of [[negation]]; if $\neg P$ is defined as $P\to \bot$ (the [[function type]] from $P$ to [[false]]), then it follows from the introduction rule for [[implication]].
 
 Refutation by contradiction is also called *proof of negation*, but this can be confusing because there may be other "indirect" ways to prove a negation.
 
