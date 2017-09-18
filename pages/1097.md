@@ -68,3 +68,12 @@ $$ \bigcup_i U_i = U .$$
 
 [[!redirects poset of open subsets]]
 [[!redirects posets of open subsets]]
+
+[[!redirects lattice of open subsets]]
+[[!redirects lattices of open subsets]]
+
+
+[[!redirects frame of open subsets]]
+[[!redirects frames of open subsets]]
+
+
