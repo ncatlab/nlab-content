@@ -60,7 +60,7 @@ The (solution to the) _[[Hopf invariant one problem]]_ states that the only maps
 
 * [[John Michael Boardman]], B. Steer, _On Hopf Invariants_  ([pdf](http://www.maths.ed.ac.uk/~aar/papers/boarstee.pdf))
 
-* Michael Crabb, [[Andrew Ranicki]], _The geometric Hopfinvariant_ ([pdf](http://www.maths.ed.ac.uk/~aar/slides/hopfbeam.pdf))
+* Michael Crabb, [[Andrew Ranicki]], _The geometric Hopf invariant_ ([pdf](http://www.maths.ed.ac.uk/~aar/slides/hopfbeam.pdf))
 
 
 [[!redirects Hopf invariants]]
