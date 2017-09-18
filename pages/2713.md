@@ -134,6 +134,8 @@ And then there is the [[KO-dimension]].
 
 * [[spectral geometry]]
 
+* [[hearing the shape of a drum]]
+
 * [[KK-theory]]
 
 * [[spectral action]]
