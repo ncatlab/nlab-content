@@ -29,15 +29,19 @@ _Globular_ is free to use, and open-source. There is a lot to be done, on both a
 
 ## How it works ##
 
-Using _Globular_ involves two main techniques: building the _signature_, and building a _diagram_ over the current signature. The signature is the list of $k$-cells you have available, and the diagram is a particular composite of those cells.
+Using _Globular_ involves two main techniques: building the _signature_, and building a _diagram_ over the current signature. The signature is the list of cells that are available, and the diagram is a particular composite of those cells. 
 
-The signature is a list of cells. Each cell has a dimension $k$, and is defined by two pieces of data, a source $S$ and a target $T$, which must be $(k-1)$-diagrams. These must satisfy the [[globular set|globularity conditions]], which state that the source of $S$ equals the source of $T$, and the target of $S$ equals the target of $T$.
+The signature can be enlarged by building two diagrams $S$ and $T$, and assigning them to be the source and target of a new cell. Any pair of diagrams can be chosen which satisfy the [[globular set|globularity conditions]] $s(S) = t(S)$ and $s(T) = t(T)$. The new cell can then be given a name and a colour, to make it easy to identify.
 
-Given a particular signature, a diagram can be constructed. By clicking the icon of $k$-cell in the signature, a $k$-diagram is drawn in the main part of the screen, which consists solely of the selected generator. The $k$-diagram $D$ can then be manipulated several different ways.
+## Manipulating diagrams ##
 
-* **Rewriting.** Selecting a $(k+1)$-cell $G$ from the signature gives a list of all the ways that the source of $G$ can be identified as a subdiagram of $D$. Choosing element of this list will then modify $D$, deleting the part of it which was the source of $G$, and replacing this part with the target of $G$.
+A diagram is a composite of the cells in the current signature. A $k$-dimensional diagram $D$ can be manipulated in the following basic ways.
+
+* **Creation.** If the current diagram is empty, clicking the icon of a $k$-cell in the signature constructs a $k$-dimensional diagram which consists solely of the selected generator.
+* **Destruction.** Clicking 'clear' (shortcut key 'c') deletes the current diagram.
+* **Rewriting.** Selecting a $(k+1)$-cell $G$ from the signature gives a list of all the ways that its source $s(G)$ can be identified as a subdiagram of $D$. Choosing element of this list will then modify $D$, deleting the part of it which was chosen as matching the source $s(G)$, and replacing it with the target $t(G)$.
 * **Attaching.** Selecting a $p$-cell $G$ for $p \leq k$ displays a list of all the ways that $G$ can be attached to $D$ along one of its boundaries. Choosing an element of this list performs the attachment.
-* **Interchanging**.
+* **Interchanging.** Clicking and dragging some part of a diagram attempts to rewrite 
 * **Projecting and slicing.**
 
 ## Related entries
