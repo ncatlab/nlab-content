@@ -3,7 +3,7 @@
 
 > previous chapters: _[[geometry of physics -- smooth sets|smooth sets]]_, _[[geometry of physics -- smooth homotopy types|smooth homotopy types]]_
 
-> next chapters: _[[geometry of physics -- G-structure and Cartan geometry|G-structure and Cartan geometry]]_, _[[geometry of physics -- supergeometry|supergeometry]]_
+> next chapters: _[[geometry of physics -- G-structure and Cartan geometry|G-structure and Cartan geometry]]_, _[[geometry of physics -- supergeometry|supergeometry]]_, _[[geometry of physics -- BPS charges|BPS charges]]_
 
 #Contents#
 * table of contents
