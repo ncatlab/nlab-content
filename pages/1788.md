@@ -1,4 +1,10 @@
 
+[[GluingHemispheres.jpg:file]]
+
+<img src="http://ncatlab.org/nlab/files/GluingHemispheres.jpg" width="400"> 
+
+(graphics from Ueno-Shiga-Morita 95)
+
 $$
   \array{
      \pi_\bullet(X) 
