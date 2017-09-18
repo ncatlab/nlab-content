@@ -49,10 +49,10 @@ The smash product of spectra exhibits a certain graded commutativity akin to the
 
 This comes down to the following basic fact about the [[smash product]] of [[pointed topological spaces]]:
 
-+-- {: .num_prop}
++-- {: .num_prop #GradedCommutativityOfSmashOfSpheres}
 ###### Proposition
 
-There are [[homeomorphisms]]
+There are [[homeomorphisms]] between [[n-spheres]] and their [[smash products]]
 
 $$
   \phi_{n_1,n_2}
@@ -99,8 +99,10 @@ $$
     &\stackrel{(-1)^{n_1 n_2}}{\longrightarrow}&
     S^{n_1 + n_2}
   }
-  \,.
+  \,,
 $$
+
+where here $(-1)^n \colon S^n \to S^n$ denotes the homotopy class of a [[continuous function]] of [[degree of a continuous function|degree]] $(-1)^n \in \mathbb{Z} \simeq [S^n, S^n]$.
 
 
 =--
@@ -134,6 +136,16 @@ This has [[degree of a continuous map|degree]] $(-1)^{n_1 n_2}$ .
 
 This statement passes to the [[suspension spectra]] $\Sigma^\infty S^n$ of the spheres ([Adams 74, part III, prop. 4.8](#Adams74)).
 
++-- {: .num_remark #WhySequentialSpectraHaveNoSymmetricSmashProduct}
+###### Remark
+
+The phenomenon in prop. \ref{GradedCommutativityOfSmashOfSpheres} is the reason why there is no [[symmetric smash product of spectra]] on plain [[sequential spectra]]:
+
+By [this proposition](sequential+spectrum#QuillenEquivalenceBetweenSequentialBFAndExcisiveFunctors) sequential spectra are equivalently [[excisive (infinity,1)-functors]] restricted from all [[pointed homotopy types|pointed]] [[finite homotopy types]] $\infty Grpd_{fin}^{\ast/}$ to the category of standard spheres with just the adjuncts of suspension maps between them. That non-full subcategory no longer accomodates the negative [[degree of a continuous function|degree]] maps in prop. \ref{GradedCommutativityOfSmashOfSpheres} and hence its embedding into $\infty Grpd^{\ast/}_{fin}$ is, while [[lax monoidal functor|lax monoidal]], not [[symmetric monoidal functor|symmetric monoidal]].
+
+See also ([MMSS 00, example 4.1](#MMSS00)).
+
+=--
 
 
 ## Definitions
