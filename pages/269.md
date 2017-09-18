@@ -59,6 +59,8 @@ The strict monoidal structure of $\square$ gives rise to a (non-strict) monoidal
 
 ## Notation
 
+### Free standing $n$-cube, and an $n$-cube of a cubical set
+
 +-- {: .num_defn #NotationFreeStandingNCube}
 ###### Notation
 
@@ -79,6 +81,8 @@ We refer to $\square^{n}$ as the _free-standing $n$-cube_.
 Let $X$ be a cubical set. Let $n \geq 0$ be an integer. By an _$n$-cube_ of $X$, we shall mean a morphism of cubical sets $\square^{n} \rightarrow X$.
 
 =--
+
+### Boundary of the free standing $n$-cube
 
 +-- {: .num_defn}
 ###### Notation
@@ -102,6 +106,8 @@ Let $n \geq 0$ be an integer. We refer to $\partial \square^{n}$ as the _boundar
 Let $n \geq 1$ be an integer. We denote by $i_{n} : \partial \square^{n} \rightarrow \square^{n}$ the morphism of cubical sets corresponding, under the adjunction between $sk_{n-1}$ and $tr_{n-1}$ described at [[cubical truncation, skeleton, and co-skeleton]], to the identity arrow $\partial \square^{n} \rightarrow \partial \square^{n}$ in $\mathsf{Set}^{\square_{n-1}^{op}}$.
 
 =--
+
+### Horns of the free-standing $n$-cube
 
 +-- {: .num_defn #NotationHorn}
 ###### Notation
