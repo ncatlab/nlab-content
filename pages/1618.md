@@ -262,11 +262,16 @@ Points of the sheaf topos over the category of [[manifold]]s are discussed in
  {#Dugger}
 
 
+[[!redirects points of a topos]]
+
+[[!redirects points of toposes]]
+[[!redirects points of topoi]]
 
 [[!redirects point of topos]]
+
+[[!redirects enough points]]
 [[!redirects topos with enough points]]
 
 [[!redirects topos point]]
 [[!redirects topos points]]
 
-[[!redirects enough points]]
