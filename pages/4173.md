@@ -37,6 +37,8 @@ Historically the theory of general relativity was developed by [[Albert Einstein
 
 ## References
 
+* [[Matthias Blau]], _Lecture notes on general relativity_ ([web](http://www.blau.itp.unibe.ch/GRLecturenotes.html))
+
 * Emil T. Akhmedov, _Lectures on General Theory of Relativity_ ([arXiv:1601.04996](https://arxiv.org/abs/1601.04996))
 
 [[!redirects General Relativity]]
