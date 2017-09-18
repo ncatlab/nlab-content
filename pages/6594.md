@@ -71,9 +71,9 @@ A particularly interesting example of a pre-quantization as above is the Kac-Moo
 
 Since the 2-connections on $G$ form a [[2-groupoid]] hence a [[homotopy 2-type]], the pair $(G,\nabla^G)$ may be regarded as being an object in yet a bit higher differential geometry.
 
-Now given a $G$-[[principal bundle]] $P\to X$, then a natural question is whether there is a _definite parameterization_ of $\nabla^G$ to a 2-form connection on $P$ which restricts fiberwise to $\nabla^G$ in a suitable sense up to [[gauge transformation]]. Such _[[parameterized WZW terms]]_ play a key role in [[heterotic string theory]] and [[equivariant elliptic cohomology]].
+Now given a $G$-[[principal bundle]] $P\to X$, then a natural question is whether there is a _[[parameterized WZW  term|definite parameterization]]_ of $\nabla^G$ to a 2-form connection on $P$ which restricts fiberwise to $\nabla^G$ in a suitable sense up to [[gauge transformation]]. Such _[[parameterized WZW terms]]_ play a key role in [[heterotic string theory]] and [[equivariant elliptic cohomology]].
 
-One finds that such definite parameterizations are equivalent to [[lift of structure group|lifts of structure group]] of the bundle from $G$ to the [[homotopy stabilizer group]] of $\nabla^G$ under the right $G$-action on itself, and this turns out to be the [[string 2-group]] $String(G)$. 
+One finds that such [[parameterized WZW term|definite parameterizations]] are equivalent to [[lift of structure group|lifts of structure group]] of the bundle from $G$ to the [[homotopy stabilizer group]] of $\nabla^G$ under the right $G$-action on itself, and this turns out to be the [[string 2-group]] $String(G)$. 
 
 While this class of examples is not yet Cartan geometry proper (higher or not) since the bundle here is not a [[tangent bundle]], it contains in it the key aspect of definite parameterizations of higher pre-quantized forms related to higher [[G-structures]]. Such definite parameterizations turn out to be part of genuine examples of higher Cartan geometry, to which we turn [below](#MotivationDefiniteGlobalizationOfWZWTerms) and key ingredients of higher Cartan geometry apply to both cases.
 
@@ -143,7 +143,7 @@ But in view of the [above](#MotivationDefiniteParameterizationOfWZWTerms) discus
 
 This problem indeed appears in the formulation of [[super p-brane sigma models]] on [[target space|target]] [[super-spacetimes]]. Here $V$ is a [[super Minkowski spacetime]], $\phi$ is an exceptional [[super Lie algebra]] [[Lie algebra cohomology|cocycle]] of degree $(p+2)$ and the formulation of the [[Green-Schwarz sigma model]] requires that it is refined (higher pre-qauntized) to a higher WZW term, a $p$-form connection. The [[supergravity]] [[equations of motion]] imply a [[definite globalization]] $\omega$ of $\phi$ of a [[super-spacetime]], but to globally define the GS-WZW model one hence needs to lift this globalization to a $(p+1)$-connection, too (thereby "canceling the [[classical anomaly]]" of the model).
 
-These definite globalizations are in particular definite parameterizations, as above, of the restriction of the higher WZW term to the [[infinitesimal disk]]-bundle of spacetime, and hence they imply higher $G$-structure along the above lines. 
+These [[definite globalizations]] are in particular [[parameterized WZW term|definite parameterizations]], as above, of the restriction of the higher WZW term to the [[infinitesimal disk]]-bundle of spacetime, and hence they imply higher $G$-structure along the above lines. 
 
 It is here that developing a theory of higher Cartan geometry has real potential, since, while the globalizations of the forms $\phi$ have been extensively studied in the literature, the globalization of their pre-quantized refinement to higher WZW-terms has traditionally received almost no attention yet. A brief mentioning of the necessity of considering appears for instance in ([Witten 86, p. 17](#Witten86)), but traditional tools do get one very far in this question.
  
