@@ -130,7 +130,7 @@ Discussion of the [[categorical semantics]] in the context of [[homotopy type th
 
 See also 
 
-* Coq code in the [HoTT repository](https://github.com/HoTT/HoTT/blob/master/Coq/Funext.v) and [Peter Lumsdaine's fork](https://github.com/peterlefanulumsdaine/HoTT/blob/master/Coq/Funext.v)
+* [[Coq]] code in the [HoTT repository](https://github.com/HoTT/HoTT/blob/master/Coq/Funext.v) and [Peter Lumsdaine's fork](https://github.com/peterlefanulumsdaine/HoTT/blob/master/Coq/Funext.v)
 
 
 [[!redirects function extensionality]]
