@@ -106,10 +106,21 @@ with relative units and counits as above, respectively.
 
 There are also relative analogues of [[Eilenberg-Moore category|Eilenberg-Moore]] and [[Kleisli category|Kleisli]] categories for these.
 
+### relative adjointness generalizes adjointness ###
+
+The concept of relative adjoint functors is a generalization of the concept of adjoint functors: if a functor $R\colon C\to D$ has a left adjoint in the usual sense, then it also has a $J$-left adjoint (since in the above definition we can take $B=D$ and $J=id_D$ the identity functor on $D$).
+
 ## Examples ##
 
+**fully faithful functors**
+:	A functor $F: A \to B$ is fully faithful iff it is representably fully faithful iff $1_A = \mathop{Lift}_F F$, and this lifting is absolute. Thus, $F$ fully faithful can be expressed as
+	\[
+		1 {\,\,}_F\!\dashv F
+	\]
+	
+
 **partially defined adjoints** 
-:	as remarked in the [[adjoint functor|local definition of adjoint functor]], given a functor 
+:	As remarked in the [[adjoint functor|local definition of adjoint functor]], given a functor 
 	\[
 		L \colon C \to D
 	\]
@@ -124,12 +135,6 @@ There are also relative analogues of [[Eilenberg-Moore category|Eilenberg-Moore]
 	This can be specialized to situations such as a category having _some_ but not all [[limit|limits]] of some kind, partially defined [[Kan extension|Kan extensions]], etc. See also [[free object]].
 	
 
-**fully faithful functors**
-:	A functor $F: A \to B$ is fully faithful iff it is representably fully faithful iff $1_A = \mathop{Lift}_F F$, and this lifting is absolute. Thus, $F$ fully faithful can be expressed as
-	\[
-		1 {\,\,}_F\!\dashv F
-	\]
-	
 
 **nerves**
 :	Take $A$ a locally small category, and $F\colon A \to B$ a locally left-small functor (one for which $B(Fa,b)$ is always small). The _$A$-nerve_ induced by $F$ is the functor
@@ -150,7 +155,8 @@ There are also relative analogues of [[Eilenberg-Moore category|Eilenberg-Moore]
 		A(x,y) \simeq \mathbf{Set}^{A^{\mathop{op}}}(y_A x, y_A y)
 	\]
 
-	One of the axioms of a [[yoneda structure|Yoneda structure]] on a 2-category abstract over this situation, by requiring the existence of $F$-nerves with respect to yoneda embeddings such that the 1-cell $F$ is an absolute left lifting as above; see Mark Weber or the original Street-Walters papers cited in the references below.
+	One of the axioms of a [[yoneda structure|Yoneda structure]] on a 2-category abstract over this situation, by requiring the existence of $F$-nerves with respect to yoneda embeddings such that the 1-cell $F$ is an absolute left lifting as above; see [Weber](#Weber2007) or [Street--Walters](#StreetWalters1978)
+.
 
 ## Related concepts
 
@@ -158,14 +164,15 @@ There are also relative analogues of [[Eilenberg-Moore category|Eilenberg-Moore]
 
 ## References ##
 
-*  F Ulmer - _Properties of dense and relative adjoint functors_ Journal of Algebra :: [article at mendeley](http://www.mendeley.com/research/properties-dense-relative-adjoint-functors/)
-
-*  [[Thorsten Altenkirch]], James Chapman and Tarmo Uustalu,  _Monads need not be endofunctors_ Foundations of Software Science :: [pdf](http://www.cs.nott.ac.uk/~txa/publ/Relative_Monads.pdf)
-
-*  [[Mark Weber]] - _Yoneda structures from 2-toposes_ Applied Categorical Structures :: [pdf](http://www.pps.jussieu.fr/~weber/Two-toposes4.pdf)
+*  [[Thorsten Altenkirch]], James Chapman and Tarmo Uustalu,  _Monads need not be endofunctors_ In: Ong L. (eds) Foundations of Software Science and Computational Structures. FoSSaCS 2010. Lecture Notes in Computer Science, vol 6014. Springer, Berlin, Heidelberg, arXiv:1412.7148 [cs.PL] ,[pdf](https://arxiv.org/pdf/1412.7148.pdf)
 
 
-*  [[Ross Street]], Bob Walters - _Yoneda structures on 2-categories_ Journal of Algebra :: [article at mendeley](http://www.mendeley.com/research/yoneda-structures-2categories/)
+*  {#StreetWalters1978} [[Ross Street]], Bob Walters - _Yoneda structures on 2-categories_, Journal of Algebra, Volume 50, Issue 2, February 1978, Pages 350-379, [article at mendeley](http://www.mendeley.com/research/yoneda-structures-2categories/)
+
+*  F. Ulmer, _Properties of dense and relative adjoint functors_, Journal of Algebra, Volume 8, Issue 1, 1968, Pages 77-95, [pdf](http://www.sciencedirect.com/science/article/pii/0021869368900367)
+
+*  {#Weber2007} [[Mark Weber]] - _Yoneda structures from 2-toposes_, Appl Categor Struct (2007) 15: 259. doi:10.1007/s10485-007-9079-2, [pdf](https://sites.google.com/site/markwebersmaths/home/yoneda-structures-from-2-toposes)
+
 
 
 [[!redirects relative adjoint functors]]
