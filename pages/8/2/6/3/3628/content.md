@@ -90,6 +90,9 @@ The idea generalizes to [[quantum field theory]] in [[Lorentzian manifold|Lorent
 
 See at _[[S-matrix]]_ for details.
 
+[[!include products in pQFT -- table]]
+
+
 ## Related concepts
 
 * [[path integral]]
