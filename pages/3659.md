@@ -50,7 +50,7 @@ $$
 
 * **OS2 (invariance)**: S is invariant under euclidean symmetries E of $\mathcal{R}^d$ (translations, rotations, reflections), that is S(f) = S(Ef) for all symmetries E and test functions f.
 
-* **OS3 (reflection positivity)**
+* **OS3 ([[reflection positivity]])**
 We define exponential functionals on $\mathcal{D}'(\mathbb{R}^d)$ via
 $$
 A(\phi) := \sum_{k=1}^n c_k exp(\phi(f_k))
@@ -75,7 +75,7 @@ See theorem 6.15 in the book by Glimm and Jaffe (see references).
 ## references
 The main reference is the classic textbook about [[constructive quantum field theory]]:
 
-* Glimm, James; Jaffe, Arthur: [[Glimm-Jaffe|Quantum physics: a functional integral point of view]]
+* [[James Glimm]], [[Arthur Jaffe]], _[[Glimm-Jaffe|Quantum physics: a functional integral point of view]]_
 
 [[!redirects Osterwalder-Schrader theorem]]
 [[!redirects Osterwalder–Schrader theorem]]
