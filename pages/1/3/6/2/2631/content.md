@@ -42,6 +42,10 @@ Fixed-point free [[involutions]] on a set have the EGF $e^{z^2/2}$, while arbitr
 
 In [[quantum field theory]] generating functions often appear as [[partition functions]] and [[vacuum amplitudes]] as functions of [[source fields]].
 
+## Related concepts
+
+* [[Bogoliubov's formula]] for [[quantum observables]] in [[perturbative quantum field theory]] generated from an [[S-matrix]] functional
+
 ## References
 
 * Philippe Flajolet and Robert Sedgewick, _Analytic Combinatorics_, CUP, 2009. ([author pdf](http://algo.inria.fr/flajolet/Publications/book.pdf))
