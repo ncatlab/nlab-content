@@ -41,6 +41,10 @@ A typical method for employing Wick rotation would be to make the substitution $
 
 Technically, this works for any four-vector comparison between Minkowski space and Euclidean space, not just for space-time intervals.
 
+## Related concepts
+
+* [[reflection positivity]]
+
 ## References
 
 
