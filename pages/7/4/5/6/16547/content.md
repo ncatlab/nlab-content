@@ -282,11 +282,11 @@ Let $\Sigma_k$ be a [[closed manifold|closed]] [[smooth manifold]] of [[dimensio
 +-- {: .num_defn}
 ###### Definition
 
-For $X \in \mathbf{H}$, the **[[transgression]] of [[differential forms]]** on $X$ to the [[mapping space]] $[\Sigma,X]$ is the morphism
+For $X \in \mathbf{H}$, the **[[transgression of differential forms]]** on $X$ to the [[mapping space]] $[\Sigma,X]$ is the morphism
 
 $$
   \int_\Sigma [\Sigma,-]
-  : 
+  \;\colon\;
   \Omega^n(X) \to \Omega^{n-k}([\Sigma,X])
 $$
 
