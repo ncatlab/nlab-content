@@ -118,7 +118,7 @@ and for  [[quantum chromodynamics]] and [[perturbative quantum gravity]] on [[Mi
 
 Non-technical exposition of this includes
 
-* [[Arnold Neumaier]], _[Causal Perturbation Theory](https://www.physicsforums.com/insights/causal-perturbation-theory/)_ (2015)
+* {#Neumaier15} [[Arnold Neumaier]], _[Causal Perturbation Theory](https://www.physicsforums.com/insights/causal-perturbation-theory/)_ (2015)
 
 * [[Arnold Neumaier]], _[Action-based quantum field theory and causal perturbation theory](https://www.mat.univie.ac.at/~neum/physfaq/topics/causalQFT.html)_ (one section in _[A theoretical physics FAQ](http://www.mat.univie.ac.at/~neum/physfaq/physics-faq.html)_)
 
