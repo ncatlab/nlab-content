@@ -3,16 +3,17 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Symplectic geometry
-+--{: .hide}
-[[!include symplectic geometry - contents]]
-=--
 #### Physics
 +--{: .hide}
 [[!include physicscontents]]
 =--
+#### Algebraic Quantum Field Theory
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
 =--
 =--
+=--
+
 
 
 #Contents#
@@ -132,6 +133,9 @@ The [[space of quantum states]] forms a linear [[representation]] of a given [[a
 * [[observable]]
 
 * [[Bogoliubov's formula]]
+
+[[!include products in pQFT -- table]]
+
 
 * [[causally local net of observables]]
 
