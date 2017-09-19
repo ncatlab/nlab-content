@@ -765,6 +765,11 @@ $$
 
 This is the traditional expression for the normal ordered Wick product on Minkowski spacetime (e.g. [here](https://en.wikipedia.org/wiki/Normal_order#Free_fields)).
 
+## Related concepts
+
+[[!include products in pQFT -- table]]
+
+
 ## References
 
 The construction goes back to
