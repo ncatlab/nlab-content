@@ -1,0 +1,10 @@
+
+## Idea
+
+In [[quantum field theory]] _reflection positivity_ is the incarnation of unitarity under [[Wick rotation]].
+
+## References
+
+Discussion with tools from [[extended TQFT]] and [[stable homotopy theory]] is in
+
+* [[Daniel Freed]], [[Michael Hopkins]], _Reflection positivity and invertible topological phases_ ([arXiv:1604.06527](https://arxiv.org/abs/1604.06527))
