@@ -1,6 +1,10 @@
 
 > This entry contains one chapter of the material at _[[geometry of physics]]_.
 
+> previous chapter: _[[geometry of physics -- smooth sets|smooth sets]]_
+
+> next chapter: _[[geometry of physics -- integration|integration]]_
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
