@@ -56,8 +56,9 @@ See also
 
 
 ### In perturbative quantum field theory
+ {#ReferencesInPerturbativeQuantumFieldTheory}
 
-Discussion of [[motives in physics]] via periods as appearing in the [[deformation quantization]] of [[free field theories]], hence in [[correlators]]/[[scattering amplitudes]], and their relation to the [[cosmic Galois group]] originates in
+Discussion of [[motives in physics]] via periods as appearing in the [[perturbative quantum field theory]], hence in [[correlators]]/[[scattering amplitudes]], and their relation to the [[cosmic Galois group]] originates in
 
 * [[Maxim Kontsevich]], _Operads and motives in deformation quantization_, Lett.Math.Phys. __48__ (1999) 35--72, [math.QA/9904055](http://arxiv.org/abs/math.QA/9904055)
 
@@ -69,6 +70,10 @@ More details on this (and a good review of periods in the first place) is in
 and briefly in section 8.5 of 
 
 * [[Alain Connes]], [[Matilde Marcolli]], _[[Noncommutative Geometry, Quantum Fields and Motives]]_
+
+Discussion in the rigorous Lorentzian context of [[causal perturbation theory]]/[[perturbative AQFT]] is in 
+
+* {#Rejzner16} [[Kasia Rejzner]], _Renormalization and periods in perturbative Algebraic Quantum Field Theory_ ([arXiv:1603.02748](https://arxiv.org/abs/1603.02748))
 
 For more see at _[[motives in physics]]_.
 
