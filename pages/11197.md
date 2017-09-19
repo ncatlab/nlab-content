@@ -56,11 +56,13 @@ See also
 
 ### Examples
 
-The Anderson dual of the [[sphere spectrum]] is discussed in 
+The Anderson dual of the [[sphere spectrum]] is discussed (in a context of [[extended TQFTs]]) in 
 
 * {#HopkinsSinger05} [[Michael Hopkins]], [[Isadore Singer]], appendix B of, _[[Quadratic Functions in Geometry, Topology, and M-Theory]]_, 2005
 
 * {#Freed14} [[Dan Freed]], section 5.1.1 of _Short-range entanglement and invertible field theories_ ([arXiv:1406.7278](http://arxiv.org/abs/1406.7278))
+
+* [[Daniel Freed]], [[Michael Hopkins]], section 5.3 of _Reflection positivity and invertible topological phases_ ([arXiv:1604.06527](https://arxiv.org/abs/1604.06527))
 
 The Anderson duals of [[KU]] and of [[tmf]] are discussed in
 
