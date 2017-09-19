@@ -110,6 +110,7 @@ The [[limits]] of [[category theory]] are a great generalization of an analogy w
 
 * [[uniform convergence]], [[pointwise convergence]]
 
+* [[divergent series]]
 
 ## References
 
