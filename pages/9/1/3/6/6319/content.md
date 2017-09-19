@@ -1,6 +1,15 @@
 
 * [website](http://www.theorie.physik.uni-goettingen.de/forschung/qft/research/index.en.html)
 
+## related $n$Lab entries
+
+
+* [[AQFT]]
+
+* [[perturbative AQFT]], [[causal perturbation theory]]
+
+* [[AQFT on curved spacetimes]]
+
 category: people
 
 [[!redirects Michael Duetsch]]
