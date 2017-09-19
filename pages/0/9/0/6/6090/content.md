@@ -1573,16 +1573,17 @@ $$
 the [[Bogoliubov formula]] in def. \ref{GeneratingFunctionsForCorrelationFunctions}
 simimlarly would have the following interpretation:
 
+
 $$
-  \widehat A
+  \widehat A(j)
   \;\overset{\text{not really!}}{=}\;
   \frac{
     \int
-    A(\Phi)
+    j A(\Phi)
     \exp\left(
       \int_X
       \left(
-        \tfrac{g}{i \hbar} L_{int}(\Phi) + j A(\Phi)
+        \tfrac{g}{i \hbar} L_{int}(\Phi)
       \right)
     \right)  e^{\tfrac{1}{i \hbar}\int_X L_{free}(\Phi) }D[\Phi]
   }
@@ -1591,7 +1592,7 @@ $$
     \exp\left(
       \int_X
       \left(
-        \tfrac{g}{i \hbar} L_{int}(\Phi) + j A(\Phi)
+        \tfrac{g}{i \hbar} L_{int}(\Phi)
       \right)
     \right)  e^{\tfrac{1}{i \hbar}\int_X L_{free}(\Phi) }D[\Phi]
   }
@@ -1625,7 +1626,7 @@ as a "complex probability measure" on the the configuration space of fields, the
 would express the [[expectation value]] of the functional $A$ under this measure:
 
 $$
-  \widehat{A} \overset{\text{not really!}}{=} [A]_{\mu} = \int A(\Phi) \mu(\Phi)
+  \widehat{A}(j) \overset{\text{not really!}}{=} [j A]_{\mu} = \int j A(\Phi) \mu(\Phi)
   \,.
 $$
 
