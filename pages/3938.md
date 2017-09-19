@@ -1,6 +1,6 @@
 
 #Contents#
-* automatic table of contents goes here
+* table of contents 
 {:toc}
 
 ## Idea
@@ -44,6 +44,10 @@ Note that the push-forward map, $g_! \colon E^*(Z) \to E^*(Y)$, often results in
 Thus the key to transgression is to understand the conditions where the map $g \colon Z \to Y$ admits a push-forward map.  The simplest case is where $Z$ is a product space, $Y \times W$, and $W$ is [[orientable]] for the generalised cohomology theory $E^*(-)$.  This means that $W$ has a fundamental class in $E^*(W)$ and evaluation on this class gives a morphism $E^*(Y \times W) \to E^*(Y)$.
 
 ## Definition
+
+### Transgression of differential forms
+
+See at _[[transgression of differential forms]]_,
 
 ### By pullback and fiber integration
 
