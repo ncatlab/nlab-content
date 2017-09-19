@@ -144,7 +144,7 @@ $$
 
 From [Suslov 05](#Suslov05):
 
-> Classical books on diagrammatic techniques $[$in [[perturbative quantum field theory]]$]$ describe the construction of [[Feynman diagram|diagram]] series as if they were well defined. However, almost all important [[Feynman perturbation series|perturbation series]] are hopelessly divergent since they have zero [[radii of convergence]]. The first argument to this effect was [given by Dyson](#Dyson52) with regard to [[quantum electrodynamics]].
+> Classical books on diagrammatic techniques $[$in [[perturbative quantum field theory]]$]$ describe the construction of [[Feynman diagram|diagram]] series as if they were well defined. However, almost all important [[Feynman perturbation series|perturbation series]] are hopelessly [[divergent series|divergent]] since they have zero [[radii of convergence]]. The first argument to this effect was [given by Dyson](#Dyson52) with regard to [[quantum electrodynamics]].
 
 > $[$...$]$
 
