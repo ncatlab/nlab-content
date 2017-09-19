@@ -34,6 +34,7 @@ The axioms as considered in [Schenkel 17](#Schenkel17) have some  similarity wit
 * [[locally covariant perturbative algebraic quantum field theory]]
 
 ## References
+ {#References}
 
 For review see
 
