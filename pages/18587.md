@@ -17,6 +17,8 @@ Formalization of closed and co-exact differential forms in [[cohesive homotopy t
 
 *  [[Stokes theorem]]
 
+* [[exact differential form]]
+
 [[!redirects closed differential forms]]
 
 [[!redirects exact differential form]]
