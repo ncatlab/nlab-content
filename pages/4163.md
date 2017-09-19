@@ -68,10 +68,9 @@ The original informal conception of perturbative QFT is due to [[Tomonaga]], [[S
 
 * {#Dyson49} [[Freeman Dyson]], _The raditation theories of Tomonaga, Schwinger and Feynman_, Phys. Rev. 75, 486, 1949 ([pdf](http://web.ihep.su/dbserv/compas/src/dyson49b/eng.pdf))
 
-The argument that the perturbation series of realistic pQFTs necessarily diverges goes back to 
+The argument that the perturbation series of realistic pQFTs necessarily [[divergent series|diverges]] goes back to 
 
-* {#Dyson52} [[Freeman Dyson]], _Divergence of perturbation theory in quantum
-electrodynamics_, Phys. Rev. 85, 631, 1952 ([spire](http://inspirehep.net/record/29799?ln=en))
+* {#Dyson52} [[Freeman Dyson]], _Divergence of perturbation theory in quantum electrodynamics_, Phys. Rev. 85, 631, 1952 ([spire](http://inspirehep.net/record/29799?ln=en))
 
 recalled for instance in 
 
