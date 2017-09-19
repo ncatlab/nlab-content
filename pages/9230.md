@@ -315,9 +315,13 @@ parts of which also appears as
 * {#DuetschFredenhagenKellerRejzner14} [[Michael Dütsch]], [[Klaus Fredenhagen]], [[Kai Keller]], [[Katarzyna Rejzner]], _Dimensional Regularization in Position Space, and a Forest Formula for Epstein-Glaser Renormalization_, J. Math. Phy.
 55(12), 122303 (2014) ([arXiv:1311.5424](https://arxiv.org/abs/1311.5424))
 
-Relation to Kreimer's [[Hopf algebra]] structure on Feynman diagramsis discussed in
+Relation to Kreimer's [[Hopf algebra]] structure on Feynman diagrams is discussed in
 
 * J.M. Gracia-Bondia, S. Lazzarini, _Connes-Kreimer-Epstein-Glaser Renormalization_ ([arXiv:hep-th/0006106](https://arxiv.org/abs/hep-th/0006106))
+
+Relation to [[periods]] (in the sense [here](period#ReferencesInPerturbativeQuantumFieldTheory)) is discussed in
+
+* {#Rejzner16} [[Kasia Rejzner]], _Renormalization and periods in perturbative Algebraic Quantum Field Theory_ ([arXiv:1603.02748](https://arxiv.org/abs/1603.02748))
 
 
 See also
