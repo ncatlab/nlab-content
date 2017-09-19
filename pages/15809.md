@@ -19,6 +19,12 @@ In [[phenomenology]] the theta angle has to be very close to an integer multiple
 
 ## References
 
-* {#CrewtherDiVecchiaVenezianoWitten79} [[Rodney Crewther]], ; [[Paolo Di Vecchia]], ; [[Gabriele Veneziano]],  ; [[Edward Witten]], _Chiral estimate of the electric dipole moment of the neutron in quantum chromodynamics_, Phys. Lett. B 88 (1979) 123-127 ([CERN](http://cds.cern.ch/record/133382)). See also 
+* {#CrewtherDiVecchiaVenezianoWitten79} [[Rodney Crewther]], [[Paolo Di Vecchia]], [[Gabriele Veneziano]], [[Edward Witten]], _Chiral estimate of the electric dipole moment of the neutron in quantum chromodynamics_, Phys. Lett. B 88 (1979) 123-127 ([CERN](http://cds.cern.ch/record/133382)). See also 
+
+* [[Davide Gaiotto]], [[Anton Kapustin]], [[Zohar Komargodski]], [[Nathan Seiberg]], _Theta, Time Reversal, and Temperature_ ([arXiv:1703.00501](https://arxiv.org/abs/1703.00501))
+
+Discussion of a similar $\theta$-angle in a 3d field theory, via [[extended TQFT]] and [[stable homotopy theory]] is in 
+
+* {#FreedKomargodskiSeiberg17} [[Daniel Freed]], [[Zohar Komargodski]], [[Nathan Seiberg]], _The Sum Over Topological Sectors and $\theta$ in the 2+1-Dimensional $\mathbb{C}\mathbb{P}^1$ $\sigma$-Model_ ([arXiv:1707.05448](https://arxiv.org/abs/1707.05448))
 
 [[!redirects theta angles]]
