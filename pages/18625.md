@@ -1,0 +1,11 @@
+
+* [webpage at Weizmann institute](http://www.weizmann.ac.il/particle/Zohar/)
+
+* [webpage at IAS](https://www.ias.edu/scholars/zohar-komargodski)
+
+
+## related $n$Lab entries
+
+* [[theta-angle]]
+
+category: people
