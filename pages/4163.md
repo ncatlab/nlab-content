@@ -55,7 +55,10 @@ In particular the [[phenomenology|phenomenologically]] interesting case of a com
 
 * [[renormalization]]
 
-* [[causal perturbation theory]]
+* [[causal perturbation theory]], [[perturbative AQFT]]
+
+[[!include products in pQFT -- table]]
+
 
 * [[non-perturbative field theory]]
 
