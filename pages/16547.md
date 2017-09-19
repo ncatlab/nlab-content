@@ -268,37 +268,104 @@ is an equivalence.
 #### Transgression
  {#Transgression}
 
-What is called _[[transgression]]_ is the combination of 
 
-1. passing a [[cocycle]] on some space $X$ with [[coefficients]] in some $A$ to a [[cocycle]] on a [[mapping space]] $[\Sigma,X]$ with coefficients in $[\Sigma,A]$ and 
+Given a [[differential form]] $\omega$ of degree $n$ on some [[smooth space]] $X$ and given a [[closed manifold|closed]] [[smooth manifold]] $\Sigma$ of [[dimension]] $k \leq n$, then there is canonically induced a differential form $\tau_\Sigma \omega$ of degree $n-k$ on the [[mapping space]] $[\Sigma,X]$: its restriction to any smooth family $\Phi_{(-)}$ of smooth functions $\Phi_u \colon \Sigma \to X$ is the result of first forming the [[pullback of differential forms]] of $\omega$ along $\Phi_{(-)}$ and then forming the [[integration of differential forms]] of the result over $\Sigma$:
 
-1. [[integration|integrating]] the resulting coefficient over $\Sigma$ to obtain a $B$-valued cocycle on the mapping space, where $B$ is some recipient of an integration map of $A$-cocycles over $\Sigma$.
+$$
+  \tau_{\Sigma} \omega\vert_{\Phi}
+    \coloneqq
+  \int_\Sigma \Phi_{(-)}^\ast \omega
+  \,.
+$$
+
+This differential form $\tau_\Sigma \omega$ on the mapping space is called the _[[transgression of differential forms|transgression]]_ of $\omega$ with respect to $\Sigma$
+
+This construction has a variety of immediate generalizations, for instance $\Sigma$ may have [[manifold with boundary|boundary]] and [[manifold with corners|corners]] and the [[mapping space]] may be generalized to a [[space of sections]] of a given [[fiber bundle]]. Also it is immediate to generalize the construction from [[smooth sets]] to [[super formal smooth sets]]. Finally, the construction also generalizes to coefficients richer than differential forms, such as [[cocycles]] in [[differential cohomology]], but this is no longer the topic of the present entry.
+
+Important examples of [[transgression of differential forms]] appear in [[Lagrangian field theory]] (in the sense of [[physics]]) defined by a [[Lagrangian density|Lagrangian form]] on the [[jet bundle]] of a [[field bundle]]. Here the transgression of the Lagrangian itself is the corresponding _[[action functional]]_, the transgression of its [[Euler-Lagrange operator|Euler-Lagrange variational derivative]] is the 1-form whose vanishing is the _[[equations of motion]]_ and the transgression of the induced [[pre-symplectic current]] is the _[[pre-symplectic form]] on the [[covariant phase space]]_ of the field theory. 
+
+
 
 ##### Transgression of differential forms
  {#TransgressionOfDifferentialForms}
 
-Let $\Sigma_k$ be a [[closed manifold|closed]] [[smooth manifold]] of [[dimension]] $k$.
+###### Defintion
 
-+-- {: .num_defn}
+There are two definitions of [[transgression of differential forms]]: A traditional formulation is def. \ref{TransgressionOfDifferentialFormsToMappingSpacesViaEvaluationMap} below, which transgresses by [[pullback of differential forms]] along the [[evaluation map]], followed by [[integration of differential forms]].
+
+Another definition is useful, which makes more use of the existence of smooth classifying spaces for differential forms in [[smooth sets]], this we consider as def. \ref{ParameterizedIntegrationOfDifferentialForms} below.
+
+That these two definitions are indeed equivalent is the content of prop. \ref{EquivalenceOfTransgressionOfDifferentialFormsToMappingSpaces} below
+
+
+
++-- {: .num_defn #ParameterizedIntegrationOfDifferentialForms}
 ###### Definition
+**(parameterized [[integration of differential forms]])
 
-For $X \in \mathbf{H}$, the **[[transgression of differential forms]]** on $X$ to the [[mapping space]] $[\Sigma,X]$ is the morphism
+Let 
+
+1. $X$ be a [[smooth set]];
+
+1. $n \geq k \in \mathbb{N}$;
+
+1. $\Sigma_k$ be a [[compact topological space|compact]] [[smooth manifold]] of [[dimension]] $k$.
+
+Then we write
 
 $$
+  \int_{\Sigma}
+    \;\colon\;
+  [\Sigma_k, \mathbf{\Omega}^n]
+    \longrightarrow
+  \mathbf{\Omega}^{n-k}
+$$
+
+for the [[smooth function]] which takes a plot $\omega_{(-)} \colon U \to [\Sigma, \mathbf{\Omega}^k]$, hence equivalently a differential $n$-form $\omega_{(-)}(-)$ on $U \times \Sigma$ to the result of [[integration of differential forms]] over $\Sigma$:
+
+
+$$
+  \int_{\Sigma} \omega_{(-)}(-) \coloneqq \int_\Sigma \omega_{(-)}
+  \,.
+$$
+
+
+=--
+
+
++-- {: .num_defn #TransgressionOfDifferentialFormsToMappingSpaces}
+###### Definition
+**([[transgression of differential forms]] to [[mapping spaces]])
+
+Let 
+
+1. $X$ be a [[smooth set]];
+
+1. $n \geq k \in \mathbb{N}$;
+
+1. $\Sigma_k$ be a [[compact topological space|compact]] [[smooth manifold]] of [[dimension]] $k$.
+
+Then the operation of _transgression of differential $n$-forms_ on $X$ with respect to $\Sigma$ is the [[function]]
+
+$$
+  \tau_\Sigma
+   \coloneqq
   \int_\Sigma [\Sigma,-]
-  \;\colon\;
+   \;\colon\;
   \Omega^n(X) \to \Omega^{n-k}([\Sigma,X])
 $$
 
-given on a differential form
+from differential $n$-forms on $X$ to differential $n-k$-forms on the [[mapping space]] $[\Sigma,X]$ which takes the differential form corresponding to the smooth function
 
 $$
   (X \stackrel{\omega}{\to} \Omega^n) \in \Omega^n(X)
 $$
 
-as the [[composition]] of the [[mapping space]] operation with the [[integration of differential forms]], def. \ref{IntegrationOfDifferentialFormsInTermsOfSmoothModuli}:
+to the differential form corresponding to the following composite smooth funtion:
 
 $$
+  \tau_\Sigma \omega
+   \coloneqq
   \int_{\Sigma} [\Sigma,\omega]
    \;\colon\;
   [\Sigma, X] 
@@ -306,12 +373,298 @@ $$
   [\Sigma, \Omega^n]
     \stackrel{\int_{\Sigma}}{\to}
   \Omega^{n-k}
+  \,,
+$$
+
+where $[\Sigma,\omega]$ is the [[mapping space]] [[functor]] on [[morphisms]] and $\int_{\Sigma}$ is the parameterized integration of differential forms from def. \ref{ParameterizedIntegrationOfDifferentialForms}.
+
+More explicitly in terms of plots this means equivalently the following 
+
+A plot of the [[mapping space]]
+
+$$
+  \phi_{(-)} \;\colon\; U \to [\Sigma, X] 
+$$
+
+is equivalently a [[smooth function]] of the form
+
+$$
+  \phi_{(-)}(-) \;\colon\; U \times \Sigma \to X
   \,.
 $$
 
+The smooth function $[\Sigma,\omega]$ takes this smooth function to the plot
+
+$$
+  U \times \Sigma \to X
+   \overset{\phi_{(-)}(-)}{\longrightarrow}
+  X 
+   \overset{\omega}{\longrightarrow}
+  \mathbf{\Omega}^{n}
+$$
+
+which is equivalently a differential form
+
+$$
+  (\phi_{(-)}(-))^\ast \omega \in \Omega^n(U \times \Sigma)
+  \,.
+$$
+
+Finally the smooth function $\int_\Sigma$ takes this to the result of [[integration of differential forms]] over $\Sigma$:
+
+$$
+  \tau_{\Sigma}\omega\vert_{\phi_{(-)}}
+  \;=\;
+  \int_\Sigma (\phi_{(-)}(-))^\ast \omega
+  \;\in\;
+  \Omega^{n-k}(U)
+  \,.
+$$
+
+
 =--
 
-We discuss some examples and applications:
+
++-- {: .num_defn #TransgressionOfDifferentialFormsToMappingSpacesViaEvaluationMap}
+###### Definition
+**([[transgression of differential forms]] to mapping space via evaluation map)**
+
+Let 
+
+1. $X$ be a [[smooth set]];
+
+1. $n \geq k \in \mathbb{N}$;
+
+1. $\Sigma_k$ be a [[compact topological space|compact]] [[smooth manifold]] of [[dimension]] $k$.
+
+Then the operation of _transgression of differential $n$-forms_ on $X$ with respect to $\Sigma$ is the [[function]]
+
+$$
+  \tau_\Sigma
+   \coloneqq
+  \int_\Sigma ev^\ast
+   \;\colon\;
+  \Omega^n(X)
+    \overset{ev^\ast}{\longrightarrow} 
+  \Omega^n(\Sigma \times [\Sigma, X])
+    \overset{\int_\Sigma}{\longrightarrow}
+  \Omega^{n-k}([\Sigma,X])
+$$
+
+from differential $n$-forms on $X$ to differential $n-k$-forms on the [[mapping space]] $[\Sigma,X]$ which is the [[composition|composite]] of forming the [[pullback of differential forms]] along the [[evaluation map]] $ev \colon  [\Sigma, X] \times \Sigma \to X$ with [[integration of differential forms]] over $\Sigma$.
+
+
+=--
+
+
+
++-- {: .num_prop #EquivalenceOfTransgressionOfDifferentialFormsToMappingSpaces}
+###### Proposition
+
+The two definitions of transgression of differential forms to mapping spaces from def. \ref{TransgressionOfDifferentialFormsToMappingSpaces} and def. \ref{TransgressionOfDifferentialFormsToMappingSpacesViaEvaluationMap} are equivalent.
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+
+We need to check that for all plots $\gamma \colon U \to [\Sigma, X]$
+the pullbacks of the two forms to $U$ coincide.
+
+For def. \ref{TransgressionOfDifferentialFormsToMappingSpacesViaEvaluationMap} we get
+
+$$
+  \gamma^\ast \int_\Sigma \mathrm{ev}^\ast A
+  =
+  \int_\Sigma (\gamma,\mathrm{id}_\Sigma)^\ast \mathrm{ev}^\ast A
+  \;
+  \in \Omega^n(U)
+$$
+
+Here we recognize in the integrand the pullback along
+the $( (-)\times \Sigma \dashv [\Sigma,-])$-[[adjunct]] $\tilde \gamma : U \times \Sigma \to \Sigma$ of $\gamma$,
+which is given by applying the [[left adjoint]] $(-)\times \Sigma$ and then postcomposing with the adjunction counit $\mathrm{ev}$:
+
+$$
+  \array{
+    U \times \Sigma
+    &
+     \overset{(\gamma, \mathrm{id}_\Sigma)}{\longrightarrow}
+    &
+    [\Sigma,X] \times \Sigma
+    &
+      \overset{\mathrm{ev}}{\longrightarrow}
+    &
+    X
+  }
+  \,.
+$$
+ 
+Hence the integral is now
+
+$$
+  \cdots = \int_{\Sigma} \tilde \gamma^\ast A
+  \,.
+$$
+
+This is the operation of the top horizontal composite in the following
+[[natural transformation|naturality square]] for [[adjuncts]], and so the claim follows by its [[commuting diagram|commutativity]]:
+
+$$
+  \array{
+    \tilde \gamma \in 
+    & 
+    \mathbf{H}(U \times\Sigma, X)
+    &
+      \overset{\mathbf{H}(U \times \Sigma,A)}{\longrightarrow}
+    &    
+    \mathbf{H}(U \times \Sigma, \mathbf{\Omega}^{n+k})
+    &
+      \overset{\int_\Sigma(U)}{\longrightarrow}
+    &
+    \Omega^n(U)
+    \\
+    &
+    {}^{\mathllap{\simeq}}\downarrow
+      &&
+    {}^{\mathllap{\simeq}}\downarrow
+      &&
+    {}^{\mathllap{\simeq}}\downarrow
+    \\
+    \gamma \in 
+    & 
+    \mathbf{H}(U,[\Sigma,X])
+    &
+      \overset{\mathbf{H}(U,[\Sigma,A])}{\longrightarrow}
+    &
+    \mathbf{H}(U,[\Sigma,\mathbf{\Omega}^{n+k}])
+    &
+      \overset{\mathbf{H}(U,\int_\Sigma)}{\longrightarrow}
+    & 
+    \mathbf{H}(U,\mathbf{\Omega}^n)
+  }
+$$
+
+(here we write $\mathbf{H}(-,-)$ for the [[hom functor]] of [[smooth sets]]).
+
+=--
+
+
+###### Properties
+
++-- {: .num_example }
+###### Example
+**(relative transgression over [[manifolds with boundary]])**
+
+1. $X$ be a [[smooth set]];
+
+1. $n \geq k \in \mathbb{N}$;
+
+1. $\Sigma_k$ be a [[compact topological space|compact]] [[smooth manifold]] of [[dimension]] $k$ with [[manifold with boundary|boundary]] $\partial \Sigma$
+
+1. $\omega \in \Omega^n_{X}$ a [[closed differential form]].
+
+Write
+
+$$ 
+  (-\vert_{\partial \Sigma})
+    \coloneqq
+  [\partial \Sigma \hookrightarrow \Sigma, X]
+  \;\colon\;
+  [\Sigma, X]
+   \longrightarrow
+  [\partial \Sigma, X]
+$$
+
+for the smooth function that restricts smooth functions on $\Sigma$ to smooth functions on the [[boundary]] $\partial \Sigma$.
+
+Then the operations of transgression of differential forms (def. \ref{TransgressionOfDifferentialFormsToMappingSpaces}) to $\Sigma$ and to $\partial \Sigma$, respectively, are related by
+$$
+  d \left(
+    \tau_{\Sigma}(\omega)
+  \right)
+  = 
+  (-1)^{k+1}
+  (-\vert_{\partial \Sigma})^\ast \tau_{\partial \Sigma}(\omega)
+    \phantom{AAAAAAAA}
+  \array{
+    [\Sigma, X] 
+      &\overset{ \tau_{\Sigma}(\omega) }{\longrightarrow}&
+    \mathbf{\Omega}^{n-k}
+    \\
+    {}^{\mathllap{(-\vert_{\partial \Sigma}) }}\downarrow
+      &&
+    \downarrow^{\mathrlap{ (-1)^{k+1} d}}
+    \\
+    [\partial \Sigma, X]
+      &\underset{ \tau_{\partial\Sigma}(\omega) }{\longrightarrow}&
+    \mathbf{\Omega}^{n-k+1}
+  }
+  \,.
+$$
+
+In particular this means that if the compact manifold $\Sigma$ happens to have no boundary (is a [[closed manifold]]) then transgression over $\Sigma$ takes closed differential forms to closed differential forms.
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $\phi_{(-)}(-) \colon U \times \Sigma \to X$ be a plot of the mapping space $[\Sigma, X]$. Notice that the [[de Rham differential]] on the [[Cartesian product]] $U \times \Sigma$ decomposes as
+
+$$
+  d = d_U + d_\Sigma
+  \,.
+$$
+
+Now we compute as follows:
+
+
+$$
+  \begin{aligned}
+    d \tau_{\Sigma}\omega\vert_{\phi_(-)}
+    & =
+    d_U \int_\Sigma (\phi_{(-)}(-))^\ast \omega
+    \\
+    & =
+    (-1)^k \int_\Sigma d_U (\phi_{(-)}(-))^\ast \omega
+    \\
+    & =
+    (-1)^k \int_\Sigma (d - d \Sigma) (\phi_{(-)}(-))^\ast \omega
+    \\
+    & =
+    (-1)^k \int_\Sigma d (\phi_{(-)}(-))^\ast \omega
+    -
+    (-1)^k \int_\Sigma d_\Sigma (\phi_{(-)}(-))^\ast \omega
+    \\
+    & =
+    (-1)^k \int_\Sigma (\phi_{(-)}(-))^\ast \underset{= 0}{\underbrace{d \omega}}
+    -
+    (-1)^k \int_\Sigma d_\Sigma (\phi_{(-)}(-))^\ast \omega
+    \\
+    & =
+    -
+    (-1)^k \int_\Sigma d_\Sigma (\phi_{(-)}(-))^\ast \omega
+    \\
+    & =
+    -(-1)^k \int_{\partial \Sigma} (\phi_{(-)}(-))^\ast \omega   
+    \\
+    & = 
+    -(-1)^k \tau_{\partial \Sigma} \omega \vert_{\phi_{(-)}}
+  \end{aligned}
+$$
+
+where in the second but last step we used [[Stokes' theorem]].
+
+=--
+
+
+
+
+We next discuss some examples and applications:
 
 * [Gauge coupling action functional of charged particle](#GaugeCouplingActionFunctionalOfChargedParticle)
 
@@ -456,7 +809,7 @@ $$
   \mathbf{\Omega^1}(\Sigma,\mathfrak{g})  
 $$
 
-which is the [[phase space]] of $\mathfrak{g}$-[[Chern-Simons theory]], then this is the corresponding [[symplectic form]] (by the discussion at _[Chern-Simons theory -- covariant phase space](Chern-Simons theory#CovariantPhaseSpace)_).
+which is the [[phase space]] of $\mathfrak{g}$-[[Chern-Simons theory]], then this is the corresponding [[symplectic form]] (by the discussion at _[Chern-Simons theory -- covariant phase space](Chern-Simons+theory#CovariantPhaseSpace)_).
 
 
 
