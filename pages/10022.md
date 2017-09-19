@@ -38,6 +38,7 @@ The correct statement of this relation turns out to be that quantum corrections 
 * [[p-adic AdS-CFT]]
 
 ## References
+ {#References}
 
 The original article is
 
