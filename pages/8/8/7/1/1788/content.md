@@ -10,13 +10,13 @@
 
 We introduce here the basic concepts of _[[Lagrangian field theory]]_, first for [[prequantum field theory]] and then for its [[deformation quantization]] to [[perturbative quantum field theory]].
 
-In full beauty these concepts are extremely general; but in this section the aim is to give a first good idea of the subject, and therefore we present for the moment only a restricted setup, notably assuming that [[spacetime]] is [[Minkowski spacetime]], 
+In full beauty these concepts are extremely general; but in this section the aim is to give a first good idea of the subject, and therefore we present for the moment only a restricted setup, notably assuming that [[spacetime]] is [[Minkowski spacetime]] and 
 that the [[field bundle]] (def. \ref{Fields} below) is an ordinary and [[trivial bundle|trivial]] [[fiber bundle]].
 
-This does already subsume what is considered in many traditional texts on the subject. In subsequent sections we will eventually discuss more general situations, where spacetimes is allowed to be [[globally hyperbolic Lorentzian manifold]] and the [[field bundle]] to be a [[super L-infinity algebra|super]]-[[derived Lie algebroid]]. This is sufficient generality to capture the established perturbative [[BV formalism|BRST-BV quantization]]
+This does already subsume what is considered in many traditional texts on the subject. In subsequent sections we will eventually discuss more general situations, where spacetimes is allowed to be [[globally hyperbolic Lorentzian manifold]] and the [[field bundle]] to be a [[super L-infinity algebra|super]]-[[derived Lie algebroid]]. This is then sufficient generality to capture the established perturbative [[BV formalism|BRST-BV quantization]]
 of [[fermions]] coupled to [[gauge fields]] [[AQFT on curved spacetime|on curved spacetimes]].
 Further generalization, necessary for the discussion of global topological effects such as [[instanton]] configurations
-of [[gauge fields]] is discussed elsewhere.
+of [[gauge fields]] will be discussed elsewhere.
 
 Throughout we use the case of the real [[scalar field]] as an illustrative running example, which we develop alongside with the theory. The discussion of other [[field (physics)|field]] species that are of more genuine interest in applications is postponed to their dedicated sections below.
 
@@ -37,6 +37,8 @@ that of smooth manifolds and it is closer to the operational nature of physics:
 A [[smooth set]] $X$ is defined simply by specifying, in a self-consistent way, what counts as a smooth function $U \to X$ (a "plot") from any [[Cartesian space]] $U$. Given two smooth sets $X$ and $Y$ then a [[smooth function]] $f \;\colon\; X \longrightarrow Y$ 
 between them is a function that takes plots $U \overset{\phi}{\to} X$ of $X$ to plots $f \circ \phi \colon U \to Y$ of $Y$.
 If we allow $U$ here to be a [[super Cartesian space]], then the same idea defines _[[super smooth sets]]_.
+We will write $\mathbf{H}$ for the resulting differential geometric [[category]] of [[smooth sets]] or more generally
+[[super formal smooth sets]].
 
 A key example of a smooth set which is in general not a [[smooth manifold]] is the [[mapping space]] $[X,Y]$ between two smooth sets $X$ and $Y$, hence the set of all smooth functions $X \to Y$ equipped with a smooth structure itself. Namely a plot $\phi_{(-)} \colon U \to [X,Y]$ is defined to be a smooth function $\phi_{(-)}(-) \colon U \times X \to Y$ out of the [[Cartesian product]] of $U$ with $X$ to $Y$,  hence a "U-parameterized smooth family of smooth functions".
 
@@ -45,7 +47,7 @@ It follows from this in particular that for $X$ any [[smooth manifold]] then smo
 
 These examples may be combined: the [[mapping space]] $[\Sigma, \mathbf{\Omega}^n]$ is a kind of smooth classifying space for differential forms _on_ $\Sigma$: a smooth function $\omega_{(-)} \colon U \to [\Sigma,\mathbf{\Omega}^n]$ into this space is, by the above, a [[differential n-form]] on the [[Cartesian product]] $U \times \Sigma$.
 
-This is very convenient for discussion of _[[transgression of differenntial forms]]_, which 
+This is very convenient for discussion of _[[transgression of differential forms]]_, which 
 is a process that controls much of [[Lagrangian field theory]] below:
 
 Given a [[differential form]] $\omega$ of degree $n$ on some [[smooth space]] $X$ and given a [[compact space|compact]] [[smooth manifold]] $\Sigma$ of [[dimension]] $k \leq n$, then there is canonically induced a differential form $\tau_\Sigma \omega$ of degree $n-k$ on the [[mapping space]] $[\Sigma, X]$: its restriction to any smooth family $\Phi_{(-)}$ of smooth functions $\Phi_u \colon \Sigma \to X$ is the result of first forming the [[pullback of differential forms]] of $\omega$ along $\Phi_{(-)}$ and then forming the [[integration of differential forms]] of the result over $\Sigma$:
@@ -120,7 +122,10 @@ In particular this means that if the compact manifold $\Sigma$ happens to have n
 
 =--
 
+$\,$
 
+
+$\,$
 
 +-- {: .num_remark #PreviewOfGenerlizedDifferentialGeometryAppearingInFieldTheory}
 ###### Remark
@@ -155,6 +160,10 @@ then it is a [[super smooth ∞-groupoid]].
 
 =--
 
+$\,$
+
+
+$\,$
 
 
 #### Spacetime
@@ -219,7 +228,7 @@ $$
 
 #### Fields
 
-A _[[field (physics)|field]] trajectory_ (field history) on a given [[spacetime]] $\Sigma$ is meant to be some kind of [[quantity]] assigned to each point of spacetime (each [[event]]), such that this assignment varies smoothly with spacetime points. For instance an _[[electromagnetic field]]_ configuration is at each point of spacetime a collection of [[vectors]] that encode the direction in which a [[charged particle]] passing through that point will feel a [[force]] (the [[Lorentz force]]).
+A _[[field (physics)|field]] trajectory_ (field history) on a given [[spacetime]] $\Sigma$ is meant to be some kind of [[quantity]] assigned to each point of spacetime (each [[event]]), such that this assignment varies smoothly with spacetime points. For instance an _[[electromagnetic field]]_ [[trajectory]] (or "history") is at each point of spacetime a collection of [[vectors]] that encode the direction in which a [[charged particle]] passing through that point will feel a [[force]] (the [[Lorentz force]]).
 
 This is readily formalized: If
 
@@ -238,10 +247,10 @@ $$
   \,.
 $$
 
-It will be useful to unify^^ spacetime and the space of field values into a single space, the [[Cartesian product]]
+It will be useful to unify spacetime and the space of field values into a single space, the [[Cartesian product]]
 
 $$
-  E \;\coloneqq\; Sigma \times F
+  E \;\coloneqq\; \Sigma \times F
 $$
 
 and to think of this equipped with the [[projection]] map onto the first factor as a [[fiber bundle]] of spaces of field values over spacetime
@@ -295,7 +304,7 @@ $$
   \,.
 $$
 
-The corresponding _field [[configuration space]]_ is the [[smooth set|smooth]] [[space of sections|space of all these]], to be denoted
+The corresponding _field [[space of histories]]_ is the [[smooth set|smooth]] [[space of sections|space of all these]], to be denoted
 
 $$
   \Gamma_\Sigma(E) \in \mathbf{H}
@@ -332,7 +341,7 @@ More generally, let $S \hookrightarrow \Sigma$ be a [[submanifold]] of spacetime
 $N_\Sigma(S) \hookrghtarrow \Sigma$ for its [[infinitesimal neighbourhood]] in $\Sigma$.
 
 If $E \overset{fb}{\to} \Sigma$ is a [[field bundle]] (def. \ref{Fields})
-then the _[[configuration space]] of fields restricted to $S$_, to be denoted
+then the _[[space of histories]] of fields restricted to $S$_, to be denoted
 
 $$
   \Gamma_{S}(E) \in \mathbf{H}
@@ -1423,7 +1432,7 @@ differential equation.
 
 In the physics literature this subspace of solutions to the [[equations of motion]] is also called the _[[shell]]_.
 Phrases like "working on-shell" refer to restricting constructions to this the subspace of solutions
-inside the full [[configuration space]].
+inside the full [[space of histories]].
 
 =--
 
@@ -1531,7 +1540,7 @@ $$
 
 While the [[variational bicomplex]] on the jet bundle encodes the [[variational calculus]]
 on all _possible_ derivatives of field configurations, it may be [[transgression|transgressed]]
-to the [[configuration space]] of actual fields (def. \ref{Fields}) to yield information
+to the [[space of histories]] of actual fields (def. \ref{Fields}) to yield information
 on the variation of actual fields. This involves [[integration]] over regions of [[spacetimes]],
 and hence requires a condition on the differential forms over the jet bundle to have [[compact support]]
 along spacetime:
@@ -1587,7 +1596,7 @@ for the subspace of differential forms on the jet bundle whose spacetime support
 
 +-- {: .num_defn #TransgressionOfVariationalDifferentialFormsToConfigrationSpaces}
 ###### Definition
-**([[transgression]] of [[variational bicomplex|variational differential forms]] to field [[configuration spaces]])
+**([[transgression]] of [[variational bicomplex|variational differential forms]] to field [[space of histories]])
 
 Let $E \overset{fb}{\to} \Sigma$ be a [[field bundle]] over a [[spacetime]] $\Sigma$ (def. \ref{Fields}),
 with induced [[jet bundle]] $J^\infty_\Sigma(E)$
@@ -1632,7 +1641,7 @@ $$
 
 
 We spell out the result of [[transgression]] (def. \ref{TransgressionOfVariationalDifferentialFormsToConfigrationSpaces})
-of some variational differential forms on the [[jet bundle]] of a trivial vector field bundle (def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) to the [[configuration space]] $\Gamma_\Sigma(E)$
+of some variational differential forms on the [[jet bundle]] of a trivial vector field bundle (def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) to the [[space of histories]] $\Gamma_\Sigma(E)$
 of fields (def. \ref{Fields}).
 
 We describe the resulting transgressed differential forms restricted to any smooth family of field configurations
@@ -1652,7 +1661,7 @@ $$
   b dvol_\Sigma \in \Omega^{0,0}_{\Sigma,cp}(E)
 $$
 
-The transgression of this 0-form to the configuration space of fields
+The transgression of this 0-form to the [[space of histories]] of fields
 
 $$
   \tau_\Sigma (b dvol_\Sigma) \in \Omega^0( \Gamma_\Sigma(E) )
@@ -1760,7 +1769,7 @@ is the de Rham differential (on $U$) of the corresponding function discussed bef
 In conclusion:
 
 Under transgression the variational (vertical) derivative on the jet bundle turns into the
-ordinary de Rham derivative on the configuration space of fields.
+ordinary de Rham derivative on the [[space of histories]] of fields.
 
 =--
 
@@ -1886,7 +1895,7 @@ $$
 $$
 
 
-This means that the pre-symplectic structure on the on-shell configuration space is
+This means that the pre-symplectic structure on the [[on-shell]] [[space of histories]] is
 well-defined independently of the choice of [[Cauchy surface]]. Therefore one speaks of the
 _[[covariant phase space]]_.
 
