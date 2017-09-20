@@ -20,7 +20,7 @@ The generalization to the context of [[(∞,1)-category]]-theory of the notion o
 
 ## Definition
 
-An [[(∞,1)-functor]] $F : C \to D$ is **full and faithful** if for all objects $x,y \in C$  it induced an equivalence on the [[hom-object in a quasi-category|hom-∞-groupoids]]
+An [[(∞,1)-functor]] $F : C \to D$ is **full and faithful** if for all objects $x,y \in C$  it induces an equivalence on the [[hom-object in a quasi-category|hom-∞-groupoids]]
 
 $$
   F_{x,y} : Hom_C(x,y) \stackrel{\simeq}{\to}
