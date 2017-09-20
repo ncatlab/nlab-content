@@ -21,7 +21,7 @@
 
 ## Idea
 
-The _covariant phase space_ of a system in [[physics]] is the [[space]] of all of its solutions to its [[classical mechanics|classical equations of motion]], the space of _classical trajectories_ of the system.  Often one considers a parameterization of this by boundary data or choice of a [[Cauchy surface]]. This parameterization is what traditionally is just called a "phase space". The "covariant" in "covariant phase space" is to indicated that it comes without any unnatural choices.
+The _covariant phase space_ of a system in [[physics]] is the [[space]] of all of its solutions to its [[classical mechanics|classical equations of motion]], the _[[space of trajectories]]_ of the system.  Often one considers a parameterization of this by boundary data or choice of a [[Cauchy surface]]. This parameterization is what traditionally is just called a "phase space". The "covariant" in "covariant phase space" is to indicated that it comes without any unnatural choices.
 
 For a system described by [[Lagrangian]] mechanics, the covariant phase space comes canonically equipped with a [[presymplectic structure]]. A proper _phase space_ or _[[reduced phase space]]_ is a [[quotient space]] of the covariant phase space on which the presymplectic structure refines to a [[symplectic manifold|symplectic structure]] or [[Poisson manifold|Poisson strucure]]. 
 
