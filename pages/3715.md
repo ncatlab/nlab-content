@@ -711,3 +711,7 @@ See also at _[[motives in physics]]_.
 
 [[!redirects formal deformation quantization]]
 [[!redirects formal deformation quantizations]] 
+
+
+[[!redirects formal algebraic deformation quantization]]
+[[!redirects formal algebraic deformation quantizations]]
