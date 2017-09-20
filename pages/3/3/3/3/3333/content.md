@@ -780,7 +780,7 @@ We describe how the [[Chern character]] of [[vector bundle]]s over $X$ may be re
 
 Assume now $C$ is a nice category of smooth spaces, and let $X$ be an object of $C$.
 
-Consider a [[group object]] $G$ in $C$ and a [[representation]] of $G$ given my a group homomorphism to the [[general linear group]] (in $C$):  $\rho:G\to GL(n;\mathbb{C})$. For instance $G$ could be $GL(n)$ itself and this morphism the identity.
+Consider a [[group object]] $G$ in $C$ and a [[representation]] of $G$ given by a group homomorphism to the [[general linear group]] (in $C$):  $\rho:G\to GL(n;\mathbb{C})$. For instance $G$ could be $GL(n)$ itself and this morphism the identity.
 
 The [[trace]] of the representation $\rho$ is invariant under conjugation in the group and so defnes a map $Tr(\rho): G//_{Ad}G\to \mathbb {C}$ -- a [[class function]]. By the equivalence $\mathcal{L}\mathbf{B}G \simeq G//_{Ad} G$ discussed above, this may be regarded as a [[characteristic class]]
 
