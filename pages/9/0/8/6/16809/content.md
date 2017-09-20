@@ -98,3 +98,6 @@ Review includes
 [[!redirects Euler-Lagrange variational derivative]]
 [[!redirects Euler-Lagrange variational derivatives]]
 
+
+[[!redirects Euler-Lagrange derivative]]
+[[!redirects Euler-Lagrange derivatives]]
