@@ -119,7 +119,7 @@ By [[Stokes' theorem]].
 +-- {: .num_theorem}
 ###### Theorem
 
-Every [[symmetry]] induces a conserved current. 
+Every [[symmetry of the Lagrangian]] induces a conserved current. 
 
 =--
 
@@ -180,7 +180,7 @@ $$
   \mathcal{L}_{\delta \phi} L = \mathbf{d} \alpha
 $$
 
-hence that the Lagrangian changes under the [[Lie derivative]] by an exact term, hence by a [[divergence]] on the [[worldvolume]] (since the degree of the Lagrangian form is the [[dimension]] of the worldvolume). See also ([Azcarraga-Izquierdo 95 (8.1.13)](#AzcarragaIzquierdo95)).
+hence that the Lagrangian changes under the [[Lie derivative]] by an exact term, hence by a [[divergence]] on the [[worldvolume]] (since the degree of the Lagrangian form is the [[dimension]] of the worldvolume). This defines an _[[infinitesimal symmetry of the Lagrangian]]_. See also ([Azcarraga-Izquierdo 95 (8.1.13)](#AzcarragaIzquierdo95)).
 
 
 This is the situation of the [[Noether theorem]] for the general case of "weak" symmetries (see at [Noether theorem -- schematic idea  -- weak symmetries](Noether+theorem#WeakSymmetrySchematicIdea)).
