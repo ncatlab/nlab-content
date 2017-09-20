@@ -47,9 +47,8 @@ Locality is formalized in the two main axiomatizations of quantum field theory a
 
 There are also properties of locality in _[[prequantum field theory]]_.
 
-A _[[Lagrangian]]_ is called a _[[local Lagrangian]]_ if it "depends only on finitely many [[derivatives]] of the fields" at each point, which formally means that it is a horizontal form on the [[jet bundle]] of the [[field bundle]]. Local Lagrangians are expected to yield local quantum field theories under [[quantization]].
+A _[[Lagrangian density]]_ is called a _[[local Lagrangian]]_ if it "depends only on finitely many [[derivatives]] of the [[field (physics)|fields]]" at any point of spacetime, which formally means that it is a [[variational bicomplex|horizontal differential form]] on the [[jet bundle]] of the [[field bundle]]. Local Lagrangian densities are expected to yield local quantum field theories under [[quantization]]. This is the case at least in [[perturbative quantum field theory]] formalized via [[causal perturbation theory]]/[[perturbative AQFT]], see at _[[S-matrix]]_ the section _[Quantum observables and retarded products](S-matrix#QuantumObservables)_
 
-Here, too, one can consider the analog of [[extended quantum field theory]] and ask for _[[extended Lagrangians]]_ that are not only local as top-degree forms on [[spacetime]]/[[worldvolume]], but which also have an "extension" to lower dimensional subspaces.
 
 ## Related concepts
 
