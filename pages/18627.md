@@ -5,7 +5,7 @@ In [[physics]], given a [[physical system]] then its _space of [[trajectories]]_
 
 For a [[field theory]] over a [[spacetime]] $\Sigma$ and defined by a [[field bundle]] $E \overset{fb}{\to} \Sigma$, the space of trajectories is the space of [[field (physics)|field]] configurations over spacetimes, which is the [[space of sections]] of the field bundle.
 
-For [[Lagrangian field theories]] this space of trajectories carries a canonical [[presymplectic form]] and it comes with an [[equation of motion]] that picks some of the trajectories as being the "physically realizable ones". The subspace of trajectories solving the equations of motion (the "[[shell]]") equipped with this [[presymplectic form]] is called the _[covariant phase space]]_ of the system.
+For [[Lagrangian field theories]] this space of trajectories carries a canonical [[presymplectic form]] and it comes with an [[equation of motion]] that picks some of the trajectories as being the "physically realizable ones". The subspace of trajectories solving the equations of motion (the "[[shell]]") equipped with this [[presymplectic form]] is called the _[[covariant phase space]]_ of the system.
 
 ## Related concepts
 
