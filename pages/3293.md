@@ -249,6 +249,8 @@ is only restricted to have finite order of partial derivatives at every point.
 
 This is a weaker condition. In fact it seems to be also weaker than the condition of being "locally of finite order" considered in [Takens 79](jet+bundle#Takens79). (The function $f$ is _locally of finite order_ if for every point in $J^\infty E$ there exists a $k \in \mathbb{N}$ and an open neighbourhood $U_k$ of its image in $J^k E$ and a smooth function $f^U_k \colon U_k \to \mathbb{R}$ such that restricted to the pre-image of $U_k$ in $J^\infty E$ the function $f$ given by $f_k \circ p_k $).
 
+Hence it makes sense to speak of _[[locally pro-manifolds]]_.
+
 =--
 
 
