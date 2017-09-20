@@ -26,9 +26,9 @@
 Given a [[differential form]] $\omega$ of degree $n$ on some [[smooth space]] $X$ and given a [[closed manifold|closed]] [[smooth manifold]] $\Sigma$ of [[dimension]] $k \leq n$, then there is canonically induced a differential form $\tau_\Sigma \omega$ of degree $n-k$ on the [[mapping space]] $[\Sigma,X]$: its restriction to any smooth family $\Phi_{(-)}$ of smooth functions $\Phi_u \colon \Sigma \to X$ is the result of first forming the [[pullback of differential forms]] of $\omega$ along $\Phi_{(-)}$ and then forming the [[integration of differential forms]] of the result over $\Sigma$:
 
 $$
-  \tau_{\Sigma} \omega\vert_{\Phi}
+  \tau_{\Sigma} \omega\vert_{\Phi_{(-)}}
     \coloneqq
-  \int_\Sigma \Phi_{(-)}^\ast \omega
+  \int_\Sigma (\Phi_{(-)})^\ast \omega
   \,.
 $$
 
@@ -62,7 +62,7 @@ Recall form the discussion there that a [[smooth set]] $X$ is _defined_ by speci
 
 A key example of a smooth set which is in general not a [[smooth manifold]] is the [[mapping space]] $[X,Y]$ between two smooth sets $X$ and $Y$, hence the set of all smooth functions $X \to Y$ equipped with a smooth structure itself. Namely a plot $\phi_{(-)} \colon U \to [X,Y]$ is defined to be a smooth function $\phi_{(-)}(-) \colon U \times X \to Y$ out of the [[Cartesian product]] of $U$ with $X$ to $Y$,  hence a "U-parameterized smooth family of smooth functions".
 
-An example of a smooth set which is far from being a smooth manifold is for $n \in \mathbb{N}$ the smooth set $\mathbf{\Omega}^n$ which is the "smooth [[classifying space]]" for [[differential n-forms]], defined by the rule that a smooth function $\phi \colon U \to \mathbf{\Omega}^n$ is equivalently a smooth differential $n$-form on $U$ (to be thought of as the [[]pullback of differential forms|pullback]) of a "universal $n$-form" on $\mathbf{\Omega}^n$ along $\phi$.
+An example of a smooth set which is far from being a smooth manifold is for $n \in \mathbb{N}$ the smooth set $\mathbf{\Omega}^n$ which is the "smooth [[classifying space]]" for [[differential n-forms]], defined by the rule that a smooth function $\phi \colon U \to \mathbf{\Omega}^n$ is equivalently a smooth differential $n$-form on $U$ (to be thought of as the [[pullback of differential forms|pullback]] of a "universal $n$-form" on $\mathbf{\Omega}^n$ along $\phi$).
 It follows from this in particular that for $X$ any [[smooth manifold]] then smooth functions $X \to \mathbf{\Omega}^n$ are equivalent to smooth $n$-forms on $X$. Accordingly we may say that for $X$ any [[smooth set]] (which may be far from being a smooth manifold) then a differential $n$-form on $X$ is equivalently a smooth function $X \to \mathbf{\Omega}^n$. Under this identification the operation of [[pullback of differential forms]] along some smooth function $f \colon Y \to X$ is just [[composition]] of smooth functions $f^\ast \omega \colon Y \overset{f}{\to} X \overset{\omega}{\to} \mathbf{\Omega}^n$.
 
 These examples may be combined: the [[mapping space]] $[\Sigma, \mathbf{\Omega}^n]$ is a kind of smooth classifying space for differential forms _on_ $\Sigma$: a smooth function $\omega_{(-)} \colon U \to [\Sigma,\mathbf{\Omega}^n]$ into this space is, by the above, a [[differential n-form]] on the [[Cartesian product]] $U \times \Sigma$.
@@ -333,8 +333,8 @@ $$
 
 ### Relative transgression over manifolds with boundary
 
-+-- {: .num_example }
-###### Example
++-- {: .num_prop }
+###### Proposition
 **(relative transgression over [[manifolds with boundary]])**
 
 1. $X$ be a [[smooth set]];
@@ -348,8 +348,8 @@ $$
 Write
 
 $$ 
-  (-\vert_{\partial \Sigma})
-    \coloneqq
+  (-)\vert_{\partial \Sigma}
+    \;\coloneqq\;
   [\partial \Sigma \hookrightarrow \Sigma, X]
   \;\colon\;
   [\Sigma, X]
@@ -360,20 +360,22 @@ $$
 for the smooth function that restricts smooth functions on $\Sigma$ to smooth functions on the [[boundary]] $\partial \Sigma$.
 
 Then the operations of transgression of differential forms (def. \ref{TransgressionOfDifferentialFormsToMappingSpaces}) to $\Sigma$ and to $\partial \Sigma$, respectively, are related by
+
+
 $$
   d \left(
     \tau_{\Sigma}(\omega)
   \right)
   = 
   (-1)^{k+1}
-  (-\vert_{\partial \Sigma})^\ast \tau_{\partial \Sigma}(\omega)
+  ((-)\vert_{\partial \Sigma})^\ast \tau_{\partial \Sigma}(\omega)
     \phantom{AAAAAAAA}
   \array{
     [\Sigma, X] 
       &\overset{ \tau_{\Sigma}(\omega) }{\longrightarrow}&
     \mathbf{\Omega}^{n-k}
     \\
-    {}^{\mathllap{(-\vert_{\partial \Sigma}) }}\downarrow
+    {}^{\mathllap{(-)\vert_{\partial \Sigma} }}\downarrow
       &&
     \downarrow^{\mathrlap{ (-1)^{k+1} d}}
     \\
