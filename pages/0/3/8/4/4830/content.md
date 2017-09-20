@@ -64,3 +64,6 @@ In the literature the most familiar example of a derived $\infty$-Lie algebroids
 [[!redirects derived L-infinity algebroids]]
 [[!redirects derived L-∞ algebras]]
 [[!redirects derived L-∞ algebroids]]
+
+[[!redirects derived Lie algebroid]]
+[[!redirects derived Lie algebroids]]
