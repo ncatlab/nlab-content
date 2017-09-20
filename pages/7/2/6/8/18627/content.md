@@ -1,7 +1,7 @@
 
 ## Idea
 
-In [[physics]], given a [[physical system]] then its _space of trajectories_ or _[[space of histories]]_ is the [[space]] of all ways that the system may be configured (without imposing [[equations of motion]]) in space and _[[time]]_, hence in _[[spacetime]]_. 
+In [[physics]], given a [[physical system]] then its _space of [[trajectories]]_ or _[[space of histories]]_ is the [[space]] of all ways that the system may be configured (without imposing [[equations of motion]]) in space and _[[time]]_, hence in _[[spacetime]]_. 
 
 For a [[field theory]] over a [[spacetime]] $\Sigma$ and defined by a [[field bundle]] $E \overset{fb}{\to} \Sigma$, the space of trajectories is the space of [[field (physics)|field]] configurations over spacetimes, which is the [[space of sections]] of the field bundle.
 
