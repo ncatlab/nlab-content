@@ -20,9 +20,11 @@
 
 ## Idea
 
-In [[perturbative quantum field theory]] the [[scattering amplitudes]] in the [[S-matrix]] are expressed as [[formal power series]] in (the [[coupling constant]] and) in [[Planck's constant]] $\hbar$. This formal power series may be expressed as a formal sum of contributions labeled by [[Feynman diagrams]]. The _loop order_ refers to something like the "number of loops" of [[edges]] in the [[Feynman diagram]] that contibutes to a given [[scattering amplitude]]. The higher the loop order, the higher the power of $\hbar$ that is contributed by this diagram (see [below](#RelationToPowersInPlancksConstant)), which is "small". 
+In [[perturbative quantum field theory]] the [[scattering amplitudes]] in the [[S-matrix]] are expressed as [[formal power series]] in (the [[coupling constant]] and) in [[Planck's constant]] $\hbar$. This formal power series may be expressed as a formal sum of contributions labeled by [[Feynman diagrams]]. The _loop order_ refers to something like the "number of loops" of [[edges]] in the [[Feynman diagram]] that contibutes to a given [[scattering amplitude]]. It turns out that the loop order corresponds to the order in $\hbar$ that is contributed by this diagram (see [below](#RelationToPowersInPlancksConstant)). 
 
-Most predictions of the [[standard model of particle physics]] have very good agreement with [[experiment]] already to very low loop order, first or second; inclusion of third loop order is used to constrain theoretical uncertainties of the result (see [Cacciari 05, slide 5](#Cacciari05), e.g. in [[Higgs field]] computationd, see [ADDHM 15](#ADDHM15)). 
+Therefore contributions of graphs at zero without loops (these are [[trees]], and hence these contributions are referred to as being at "tree level") correspond to the limit of [[classical field theory]] with $\hbar \to 0$. Indeed tree level Feynman diagrams yield [[perturbation theory|perturbative]] solutions of the [[classical field theory|classical]] [[equations of motion]] (see [Helling](#Helling)).
+
+Most predictions of the [[standard model of particle physics]] have very good agreement with [[experiment]] already to very low loop order, first or second; inclusion of third loop order is used (at least in [[QCD]]) to constrain theoretical uncertainties of the result (see [Cacciari 05, slide 5](#Cacciari05), e.g. in [[Higgs field]] computation, see [ADDHM 15](#ADDHM15)). 
 In rare cases higher loop orders are used (for instance in the computation of the [[anomalous magnetic moments]] [AHKN 12](#AHKN12), but this is not a scattering experiment).
 
 This usefulness of low loop order is forturnate because
@@ -46,20 +48,22 @@ where
 
 1. $E(\Gamma) \in \mathbb{N}$ is the number of [[edges]] in the graph.
 
-This comes about (see at _[S-matrix -- Feynman diagrams and Renormalization](S-matrix#ExistenceAndRenormalization)_ for details) because the explicit $\hbar$-dependence of the [[S-matrix]] is 
+This comes about (see at _[S-matrix -- Feynman diagrams and Renormalization](S-matrix#ExistenceAndRenormalization)_ for details) because 
 
-$$
-  S\left(\tfrac{g}{\hbar} L_{int} \right)
-  = 
-  \underset{k \in \mathbb{N}}{\sum} \frac{g^n}{\hbar^n n!} T( \underset{k \, \text{factors}}{\underbrace{L_{int} \cdots L_{int}}} )
-$$
+1. the explicit $\hbar$-dependence of the [[S-matrix]] is 
 
-and because the further $\hbar$-dependence of the [[time-ordered product]] $T(\cdots)$ is
+   $$
+     S\left(\tfrac{g}{\hbar} L_{int} \right)
+     = 
+     \underset{k \in \mathbb{N}}{\sum} \frac{g^n}{\hbar^n n!} T( \underset{k \, \text{factors}}{\underbrace{L_{int} \cdots L_{int}}} )
+   $$
 
-$$
-  T(L_{int} L_{int}) = prod \circ \exp\left( \hbar \int \omega_{F}(x,y) \frac{\delta}{\delta \phi(x)} \frac{\delta}{\delta \phi(y)} \otimes \right) ( L_{int} \otimes L_{int} )
-  \,,
-$$
+1. the further $\hbar$-dependence of the [[time-ordered product]] $T(\cdots)$ is
+
+   $$
+     T(L_{int} L_{int}) = prod \circ \exp\left( \hbar \int \omega_{F}(x,y) \frac{\delta}{\delta \phi(x)} \frac{\delta}{\delta \phi(y)} \otimes \right) ( L_{int} \otimes L_{int} )
+     \,,
+   $$
 
 where $\omega_F$ denotes the [[Feynman propagator]] and $\phi(x)$ the field observable at point $x$ (where we are notationally suppressing the internal degrees of freedom of the fields for simplicity, writing them as [[scalar fields]], because this is all that affects the counting of the $\hbar$ powers). 
 
@@ -123,17 +127,29 @@ $$
 
 ## References
 
+Discussion of loop orders of relevance in comparison to [[experiment]] cited above includes for instance the following
+
 * {#Cacciari05} Matteo Cacciari, _(Theoretical) review of heavy quark production_, BNL 14/12/2005 ([pdf](https://www.phenix.bnl.gov/WWW/publish/xiewei/RBRC_Workshop_Dec/heavyworkshop/cacciari.pdf))
 
 * {#AHKN12} Tatsumi Aoyama, Masashi Hayakawa, Toichiro Kinoshita, Makiko Nio, _Tenth-Order QED Contribution to the Electron g-2 and an Improved Value of the Fine Structure Constant_, 10.1103/PhysRevLett.109.111807 ([arXiv:1205.5368](#https://arxiv.org/abs/1205.5368))
 
 * {#ADDHM15} Charalampos Anastasiou, Claude Duhr, Falko Dulat, Franz Herzog, Bernhard Mistlberger, _Higgs boson gluon-fusion production in N3LO QCD_, Phys. Rev. Lett. 114, 212001 (2015) ([arXiv:1503.06056](https://arxiv.org/abs/1503.06056))
 
+Discussion of tree level Feynman diagrams as perturbative solutions in [[classical field theory]] is in 
+
+* {#Helling} Robert Helling, _Solving classical field equations_ ([pdf](http://homepages.physik.uni-muenchen.de/~helling/classical_fields.pdf))
 
 [[!redirects loop orders]]
 
 [[!redirects 1-loop]]
 [[!redirects 2-loop]]
 [[!redirects 3-loop]]
+
+[[!redirects tree level]]
+[[!redirects tree levels]]
+
+[[!redirects tree-level]]
+[[!redirects tree-levels]]
+
 
 
