@@ -88,13 +88,9 @@ Divided into two parts:
 
 **Part II) [Physics](#PHYSICS)**
 
+1. [A first idea of quantum field theory](#AFirstIdeaOfQuantumFieldTheory)
+
 1. [Physics in Higher Geometry: Motivation and Survey](#PhysicsMotivationAndSurvey)
-
-1. [Fields](#Fields)
-
-1. [Lagrangians and Action functionals](#LagrangiansAndActionFunctionals)
-
-1. [Equations of motion](#EquationsOfMotion)
 
 1. [Hamilton-Jacobi-Lagrange mechanics via prequantized Lagrangian correspondences](#ClassicalMechanicsByPrequantizedLagrangianCorrespondences)
 
@@ -623,16 +619,11 @@ this chapter is at _[[geometry of physics -- BPS charges]]_
 
 **II) Physics**
 
+1. [A first idea of quantum field theory](#AFirstIdeaOfQuantumFieldTheory)
+
 1. [Physics in Higher Geometry: Motivation and Survey](#PhysicsMotivationAndSurvey)
 
-1. [Fields](#Fields)
-
-1. [Lagrangians and Action functionals](#LagrangiansAndActionFunctionals)
-
-1. [Equations of motion](#EquationsOfMotion)
-
 1. [Classical mechanics via prequantized Lagrangian correspondences](#ClassicalMechanicsByPrequantizedLagrangianCorrespondences)
-
 
 1. [Local (topological) prequantum field theory](#LocalTopologicalPrequantumFieldTheory)
 
@@ -645,6 +636,13 @@ this chapter is at _[[geometry of physics -- BPS charges]]_
 
 =--
 
+
+## **A first idea of quantum field theory**
+ {#AFirstIdeaOfQuantumFieldTheory}
+
+This section is at _[[geometry of physics -- A first idea of quantum field theory]]_.
+
+
 ## **Physics in Higher Geometry: Motivation and Survey**
  {#PhysicsMotivationAndSurvey}
 
@@ -653,255 +651,7 @@ Before we discuss technical details starting in the [next chapter](#Fields) here
 This chapter is at _[[geometry of physics -- physics in higher geometry]]_.
 
 
-## **Fields**
- {#Fields}
 
-This chapter is at _[[fields (physics)]]_.
-
-
-## **Lagrangians and Action functionals**
- {#LagrangiansAndActionFunctionals}
-
-### Model layer
-
-* [[Lagrangian]], [[action functional]]
-
-### Semantics layer
-
-* [[extended Lagrangian]], [[extended prequantum field theory]]
-
-### Syntactic layer
-
-(...)
-
-
-## **Equations of motion**
- {#EquationsOfMotion}
- 
-Above in _[Lagrangians and Action functionals](#LagrangiansAndActionFunctionals)_ we discussed [[prequantum field theory]]. Given such there are two directions to go: to the corresponding _[[classical field theory]]_ and to a corresponding _[[quantum field theory]]_.
-
-The classical field theory is the study of the _[[critical locus]]_ of the [[action functional]], whose points are the solutions to the _([[Euler-Lagrange equations|Euler-Lagrange]]-)[[equations of motion]]_ of the system, the conditions which characterize those [[field (physics)|field configurations]] that are "physically realized" as asserted by the [[physical theory]] that is encoded by the [[action functional]]. If the [[action functional]] comes from a [[local Lagrangian]] then this space carries a canonical [[presymplectic form]] and equipped with this form it is called the _[[covariant phase space]]_ of the system.
-
-(The term "classical" originates from the time when [[quantum mechanics]] was discovered at the beginning of the 20th century. All of the physics that was known until the end of the 19th centure was then called "classical" to distinguish it from the new refinement to [[quantum theory]]. Nowadays the term has, strictly speaking, lost its original sense, since nowadays quantum theory is entirely "classical", but "classical physics" will forever refer to non-quantum physics. )
-
-Here we first discuss the traditional theory of classical equations of motion. Maybe the archetypical example is the [[geodesic equation]] which describes the [[trajectories]] of [[particles]] and of [[light]]. Standard examples of [[equations of motion]] for [[spacetime]] [[force]] [[field (physics)|fields]] are _[[Maxwell equations]]_ and _[[Einstein equations]]_, describing the classical [[dynamics]] of the [[electromagnetic field]] and [[gravity]], respectively.
-
-Then we reformulate this more abstractly in [[higher geometry]]. This yields a notion of _[[derived critical loci]]_ of action functionals for which the _[[BV-BRST formalism]]_ is a model, a traditional machinery for handling [[covariant phase spaces]] while taking care of [[gauge symmetry]] and resolving singularities in the critical locus. 
-
-Moreover, we discuss how, when interpreted in _[[extended prequantum field theory]]_, the equations of motion are just the [[codimension]]-0 piece of a tower of notions which in codimension 1 is the notion of _[[Lagrangian submanifolds]]_ of [[phase space]].
-
-
-+-- {: bluebox}
-###### Contents: ######
-
-1. [Model layer](#EquationsOfMotionModelLayer)
-
-   Here we discuss the traditional theory of _[[covariant phase spaces]]_ and the traditional model of their resolution in higher geometry: _[[BV-BRST formalism]]_.
-
-1. [Semantics layer](#EquationsOfMotionSemanticsLayer)
-
-   Here we give a general abstract formulation of higher ("[[derived critical locus|derived]]") [[critical loci]] in a [[cohesive (∞,1)-topos]].
-
-1. [Syntax layer](#EquationsOfMotionSyntaxLayer)
-
-=--
-
-### Model layer
- {#EquationsOfMotionModelLayer}
-
-#### Traditional covariant phase space
- {#TradtionalCovariantPhaseSpace}
-
-We had already discussed traditional [Variational calculus above](#VariationalCalculus). Using this we find:
-
-* [[covariant phase space]]
-
-#### Higher geometric covariant phase space: BV-BRST formalism
-
-* [[BV-BRST formalism]]
-
-
-### Semantics layer
- {#EquationsOfMotionSemanticsLayer}
-
-+-- {: bluebox}
-###### Contents: ######
-
-1. [Critical loci](#0PlecticLagrangianSubspaces)
-
-
-=--
-
-#### Critical loci
-
-
-We now discuss the general abstract formulation of [[critical loci]] of [[action functionals]] in the context of a [[cohesive (∞,1)-topos]]. This generalizes the traditional formulation to critical loci inside higher [[moduli ∞-stacks]] of field configuration. In particular, if the ambient [[(∞,1)-topos]] is not [[n-localic (infinity,1)-topos|1-localic]], then this gives a general abstract formulation of _[[derived critical loci]]_.
-
-Let $\mathbf{H}$ be a [[cohesive (∞,1)-topos]] $(\mathbf{\Pi} \dashv \flat \dashv \sharp) : \mathbf{H} \to \mathbf{H}$ equipped with [[differential cohesion]] $(Red \dashv \mathbf{\Pi}_{inf} \dashv \flat_{inf}) \;\colon\; \mathbf{H} \to \mathbf{H}$. 
-We discuss the formalization of [[critical loci]] of [[action functionals]] and of [[equations of motion]] in this context.
-
-Fix 
-
-$$
-  \mathbf{Fields} \in \mathbf{H}
-$$ 
-
-an object that serves as the [[moduli ∞-stack]] of [[physical fields]] for the [[theory (physics)|theory]] to be considered, as discussed in _[Fields](#Fields)_ above
-
-+-- {: .num_defn #VariationFixedOnBoundary}
-###### Definition
-
-For $\Sigma \in Mfd_{bdr} \hookrightarrow \mathbf{H}$ a [[manifold with boundary]] in $\mathbf{H}$, def. \ref{ManifoldWithBoundaryInSemLayer}, write $[\Sigma,\mathbf{Fields}]_{\partial \Sigma} \in \mathbf{H}$ for the [[(∞,1)-pullback]]
-
-$$
-  \array{
-    [X, \mathbf{Fields}]_{\partial \Sigma}
-    &\to&
-    \flat [\partial \Sigma, \mathbf{Fields}]
-    \\
-    \downarrow && \downarrow
-    \\
-    [\Sigma, \mathbf{Fields}]
-    &\to&
-    [\partial \Sigma, \mathbf{Fields}]
-  }
-  \,,
-$$
-
-where the right vertical morphism is the [[unit of a monad|counit]] of $\flat$ and where the bottom morphism is the image of the [[boundary]] inclusion $\partial \Sigma \to \Sigma$ under the [[internal hom]] $[-, \mathbf{Fields}]$.
-
-=--
-
-+-- {: .num_remark }
-###### Rermark
-
-This implies that for any geometrically contractible $U \in \mathbf{H}$, def. \ref{ShapeTerminology}, then we have
-
-$$
-  \mathbf{H}(U, [\Sigma, \mathbf{Fields}_{\partial \Sigma}])
-  \simeq
-  \mathbf{Fields}(\Sigma \times U)
-  \underset{\mathbf{Fields}((\partial \Sigma) \times U)}{\times}
-  \mathbf{Field}(\partial \Sigma)
-  \,.
-$$
-
-This means that a variation in $[\Sigma, \mathbf{Fields}]_{\partial \Sigma}$ is a variation in $[\Sigma, \mathbf{Fields}]$ which remains constant over the boundary of $\Sigma$.
-
-=--
-
-Fix now 
-
-$$
-  \mathbb{G} \in Grp(\mathbf{H})
-$$ 
-
-
-a [[group object in an (∞,1)-category|group object]], hence a cohesive [[∞-group]], to be the object that the [[action functional]] is to take values in. In $\mathbf{H} = $ [[Smooth∞Grpd]] the standard choice is $\mathbb{G} = U(1)$, the [[circle group]], for "exponentiated action functionals" or $\mathbb{R} = \mathbb{R}$, the additive Lie group of [[real numbers]].
-
-
-
-+-- {: .num_defn #VariationalDerivativeInCohesiveInfinityTopos}
-###### Definition
-
-For $S \;\colon\; [\Sigma, \mathbf{Fields}] \to \mathbb{G}$ a map, the **[[variational derivative]]** of $S$ is the restriction of the [[de Rham differential]] $S^{-1}\mathbf{d}S$ of def. \ref{DifferentiationOfInfinityGroupValuedFunction} to variations that keep the boundary data fixed as in def. \ref{VariationFixedOnBoundary}, hence the composite
-
-$$
-  S^{-1}\mathbf{d}_{var} S
-  \;\colon\;
-  [\Sigma, \mathbf{Fields}]_{\partial \Sigma}
-  \to
-  [\Sigma, \mathbf{Fields}]
-  \stackrel{S}{\to}
-  \mathbb{G}
-  \stackrel{\theta_{\mathbb{G}}}{\to}
-  \flat_{dR}\mathbf{B}\mathbb{G}
-  \,.
-$$
-
-Since the variational context is clear from the domain of the map, we will often just write $S^{-1} \mathbf{d} S$ for $S^{-1} \mathbf{d}_{var} S$, for convenience.
-
-
-=--
-
-+-- {: .num_remark }
-###### Remark
-
-Under coreflection into [[structure sheaves]], def. \ref{StructureSheafInPetitTopos}, this induces a map
-
-$$
-  S^{-1}\mathbf{d}_{var} S
-  \;\colon\;
-  [\Sigma, \mathbf{Fields}]_{\partial \Sigma}
-  \to 
-  \mathcal{O}_{\Sigma}(\flat_{dR} \mathbf{B}G)
-$$
-
-in $Sh_{\mathbf{H}}(X)$,
-which we will denote by the same symbol, as here, when the context is clear.
-Since $\mathcal{O}_X(\flat_{dR} \mathbf{B}\mathbb{G})$ has the interpretation of the _sheaf of flat $Lie(\mathbb{G})$-valued forms_ on $X$, this may be thought of as realizing $\mathbf{d} S$ as a [[section]] of the [[tangent bundle]] over $X$.
-
-=--
-
-+-- {: .num_defn #CriticalLocusInCohesiveInfinityTopos}
-###### Definition
-
-For $S \;\colon\; [\Sigma, \mathbf{Fields}] \to \mathbb{G}$ a map in $\mathbf{H}$, its **[[critical locus]]** 
-
-$$
-  \underset{\phi \in [\Sigma, \mathbf{Fields}]_{\partial \Sigma}}{\sum}
-  \left(S^{-1}\mathbf{d}_{var}S_{\phi} \simeq 0\right)
-  \;\;\;\;
-  \in 
-  \mathbf{H}
-$$
-
-is the [[homotopy fiber]] of the [[variational derivative]] $S^{-1} \mathbf{d}S$ over the 0-section, hence the [[(∞,1)-pullback]]
-
-$$
-  \array{
-    \underset{\phi \in [\Sigma, \mathbf{Fields}]_{\partial \Sigma}}{\sum}
-    \left(S^{-1}\mathbf{d}_{var}S_{\phi} \simeq 0\right)
-    &\to&
-    0
-    \\
-    \downarrow && \downarrow
-    \\
-    [\Sigma, \mathbf{Fields}]_{\partial \Sigma}
-    &\stackrel{S^{-1}\mathbf{d}_{var} S}{\to}&
-    \mathcal{O}_X(\flat_{dR}\mathbf{B}\mathbb{G}) 
-  }
-$$
-
-in the [[petit (∞,1)-topos]] $Sh_{\mathbf{H}}(X)$.
-
-=--
-
-
-+-- {: .num_remark }
-###### Remark
-
-In [[extended prequantum field theory]] we may, as discussed in _[Lagrangians and Action functionals](#LagrangiansAndActionFunctionals)_, think of the [[action functional]] $S$ as being the [[prequantum 0-bundle]]. In this perspective the variational derivative $S^{-1} \mathbf{d}_{var} S$ of def. \ref{VariationalDerivativeInCohesiveInfinityTopos} is the [[curvature]] of this 0-bundle. If $\mathbb{G}$ is a 1-group such as $U(1)$ then this is a [[differential 1-form]] which is the _[[n-plectic geometry|0-plectic]]_ form. This means that the [[critical locus]] in def. \ref{CriticalLocusInCohesiveInfinityTopos} the maximal subspace on which the 0-plectic 1-form vanishes.
-
-=--
-
-
-
-### Syntax layer
- {#EquationsOfMotionSyntaxLayer}
-
-
-
-
-As the notation above suggests, the [[critical locus]] of 
-the [[function]] $S\;\colon\; [X, \mathbf{Fields}] \to \mathbb{G}$ is syntactically
-indeed the [[dependent sum]] over the type of fields
-of the [[identity type]] of the variational derivative 
-$S^{-1}\mathbf{d} S \in Sh_{\mathbf{H}}(X)$ and the 0-term in
-$Sh_{\mathbf{H}}(X)$. This is indeed the standard expression in 
-[[type theory]] which formalizes the variations equation of motion:
-
-"The collection of fields for which the variational derivative equals zero." translates exactly into $\underset{\phi \in [X, \mathbf{Fields}]}{\sum} (S^{-1}\mathbf{d}S \simeq 0)$.
 
 ## **Hamilton-Jacobi-Lagrange mechanics via prequantized Lagrangian correspondences**
  {#ClassicalMechanicsByPrequantizedLagrangianCorrespondences}
