@@ -33,7 +33,7 @@ For the case that $C = $ [[Top]] this reproduces the ordinary notion of free [[l
 
 Over each fixed element $x \in X$, the free loop space object $\mathcal{L}X$ looks like the based [[loop space object]] $\Omega_x X$ of $X$.
 
-Free loop space objects come naturally equipped with various structures of interest, such as a categorical circle action. The [[cohomology]] of $\mathcal{L}X$ is [[Hochschild cohomology]] or [[cyclic cohomology]] of function algebras $C(X)$ on $X$. The categorical circle action induces [[differential]]s on these cohomolgies, identifying them, in suitable cases, with algebras of [[Kähler differential|Kähler]] [[differential form]]s on $X$.
+Free loop space objects come naturally equipped with various structures of interest, such as a categorical circle action. The [[cohomology]] of $\mathcal{L}X$ is [[Hochschild cohomology]] or [[cyclic cohomology]] of function algebras $C(X)$ on $X$. The categorical circle action induces [[differential]]s on these cohomologies, identifying them, in suitable cases, with algebras of [[Kähler differential|Kähler]] [[differential form]]s on $X$.
 
 
 ## Definition
