@@ -23,9 +23,9 @@
 
 ## Idea
 
-**Variational calculus** -- sometimes called **secondary calculus** -- is a version of [[differential calculus]] that deals with local extremization of [[nonlinear functionals]]: extremization of differentiable functions on non-finite dimensional spaces such as [[mapping space]]s. 
+**Variational calculus** -- sometimes called **secondary calculus** -- is a version of [[differential calculus]] that deals with local extremization of [[nonlinear functionals]]: extremization of differentiable functions on non-finite dimensional spaces such as [[mapping spaces]], [[spaces of sections]] and hence [[spaces of histories]] of [[field (physics)|fields]] in [[field theory]]. 
 
-Specifically, it studies the _critical points_ , i.e. the points where the first variational derivative of a functional vanishes, for functionals on spaces of [[section]]s of [[jet bundle]]s. The kinds of equations specifying these critical points are [[Euler-Lagrange equation]]s.
+Specifically, it studies the _[[critical points]]_ , i.e. the points where the first variational derivative of a functional vanishes, for functionals on spaces of [[section]]s of [[jet bundle]]s. The kinds of equations specifying these critical points are [[Euler-Lagrange equation]]s.
 
 This applies to, and is largely motivated from, the study of [[action functional]]s in [[physics]]. In [[classical physics]] the critical points of a specified action functional on the space of field configurations encode the physically observable configurations.
 
@@ -34,7 +34,7 @@ There are strong [[cohomology|cohomological]] tools for studying variational cal
 ## In terms of smooth spaces
  {#InTermsOfSmoothSpaces}
 
-We discuss some basics of variational calculus in terms of [[smooth spaces]] and in particular in terms of [[diffeological spaces]].
+We discuss some basics of variational calculus of functional in terms of [[smooth spaces]] and in particular in terms of [[diffeological spaces]].
 
 ### Smooth functionals
  {#SmoothFunctionals}
@@ -272,6 +272,12 @@ $$
 since by prop. \ref{PlotsOfMappingSpaceWithNonVaryingBoundary} $\gamma_{(-)}(1)$ and $\gamma_{(-)}(0)$ are constant.
 
 =--
+
+## In terms of the variational bicomplex
+
+In the special case that the functional to be varied comes from a [[Lagrangian density]], then its variational derivative is the image under [[transgression of variational differential forms|transgression]] of the [[vertical derivative]] in the [[variational bicomplex]] of differential forms on the given [[jet bundle]].
+
+(...)
 
 ## Related concepts
 
