@@ -28,6 +28,8 @@ In [[physics]], see _[[local symmetry]]_, _[[global symmetry]]_, _[[spontaneous 
 
 * [[stabilizer subgroup]], [[Erlangen program]]
 
+* [[symmetry of a Lagrangian]]
+
 * [[supersymmetry]]
 
 ## References
