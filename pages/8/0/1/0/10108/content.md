@@ -42,7 +42,12 @@ Millenium Prize Problem_, 2004 ([pdf](http://www.claymath.org/sites/default/file
 
 Notes reviewing more technical details of the problem are in 
 
-* Jay Yablon, _The Origins of QCD Confinement in Yang-Mills Gauge Theory_, January 2008 ([pdf](http://jayryablon.files.wordpress.com/2008/01/qcd-confinement-handout-10.pdf))
+* Jay Yablon, _The Origins of QCD Confinement in Yang-Mills Gauge Theory_, January 2008 ([pdf](http://jayryablon.files.wordpress.com/2008/01/qcd-
+confinement-handout-10.pdf))
+
+Useful discussion of details of the problem description is in
+
+* [[Arnold Neumaier]], [PO comment](https://www.physicsoverflow.org/21786/energy-mass-spectrum-yang-mills-bosons-infinite-and-discrete?show=21846#a21846) 2014
 
 ### Perturbation theory
 
