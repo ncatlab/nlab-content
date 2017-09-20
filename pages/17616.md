@@ -267,7 +267,7 @@ $$
   }  
 $$
 
-and hence provides components for the reuqired diagram in $TowCartSp$.
+and hence provides components for the required diagram in $TowCartSp$.
 
 
 =--
