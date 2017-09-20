@@ -589,6 +589,10 @@ The concept of algebraic deformation quantization originates around
 
 * {#BayenFlatoFronsdalLichnerowiczSternheimer78b} F. Bayen, [[Moshé Flato]], C. Fronsdal, , [[André Lichnerowicz]], [[Daniel Sternheimer]], _Deformation theory and quantization. II. Physical applications_, Annals of Physics 111, 111-151 (1978)  ([publisher](http://www.sciencedirect.com/science/article/pii/0003491678902257))
 
+Review is in 
+
+* [[Daniel Sternheimer]], _Deformation Quantization: Twenty Years After_, AIP Conf.Proc.453:107-145,1998 ([arXiv:math/9809056](https://arxiv.org/abs/math/9809056))
+
 The [[Fedosov deformation quantization]] prescription for deformation quantization of [[symplectic manifolds]] and varieties and also of [[Poisson manifolds]] that have a [[regular foliation]] by [[symplectic leaves]] is discussed in
 
 * [[Boris Fedosov]], _Formal quantization_, Some Topics of Modern Mathematics and their Applications to Problems of Mathematical Physics (in Russian), Moscow (1985), 129-136.
