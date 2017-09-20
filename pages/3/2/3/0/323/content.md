@@ -234,7 +234,7 @@ There are three commuting squares: the two inner ones and the outer one.
 
 Suppose the right-hand inner square is a pullback, then: 
 
-The square on the lft is a pullback if and only if the outer square is.
+The square on the left is a pullback if and only if the outer square is.
 
 =--
 
