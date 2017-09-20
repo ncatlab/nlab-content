@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Graph theory
++-- {: .hide}
+[[!include graph theory - contents]]
+=--
+=--
+=--
+
+
 # Contents
 * table of contents
 {:toc}
@@ -164,6 +175,8 @@ As Kock shows, this description of trees is well-adapted to the usual sorts of c
 ## Related concepts
 
 * [[category of trees]]
+
+* in [[perturbative quantum field theory]] [[Feynman graphs]] of vanishing "[[loop order]]" are trees, and their contribution to the [[Feynman perturbation series]] is hence called the _tree level_ contribution
 
 ## References 
 
