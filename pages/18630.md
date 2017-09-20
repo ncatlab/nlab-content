@@ -1,0 +1,2167 @@
+
+> This entry is (going to be) one chapter of [[geometry of physics]].
+
+> under construction
+
+#A first idea of quantum field theory#
+* table of contents
+{:toc}
+
+$\,$
+
+This chapter introduces the basic concepts of _[[Lagrangian field theory]]_, first for [[prequantum field theory]] and then for its [[deformation quantization]] to [[perturbative quantum field theory]].
+
+In full beauty these concepts are extremely general; but the aim here is to give a first good idea of the subject, not
+a fully general account. 
+
+Therefore we present in the following only the special case where [[spacetime]] is [[Minkowski spacetime]], the [[field bundle]] (def. \ref{Fields} below) is an ordinary [[trivial vector bundle]] and hence that the [[Lagrangian  density]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) is a globally defined [[horizontal differential form|variational differential form]]. We do however consider the proper [[differential geometry]] of the resulting [[spaces of field histories]] in  terms of [[smooth sets]] (see [below](#Geometry)) and hence (which works verbatim the same way) [[super smooth sets]]. This subsumes the
+case that there are [[fermion|fermionic]] fields such that the [[field bundle]] is a [[supermanifold]]. 
+(Notice that this does _not_ mean that we consider "[[supersymmetry]]": plain [[supergeometry]] is just the mathematical
+incarnation of the [[Pauli exclusion principle]] for [[fermions]]. )
+
+This simple setup already subsumes what is considered in most traditional texts on the subject. In subsequent sections we will eventually discuss more general situations, where spacetime is allowed to be [[globally hyperbolic Lorentzian manifold]] and the [[field bundle]] to be a [[super L-infinity algebra|super]]-[[derived Lie algebroid]]. This is then sufficient generality to capture the established perturbative [[BV formalism|BRST-BV quantization]]
+of [[fermions]] coupled to [[gauge fields]] [[AQFT on curved spacetime|on curved spacetimes]].
+Further generalization, necessary for the discussion of global topological effects such as [[instanton]] configurations
+of [[gauge fields]] will be discussed elsewhere.
+
+Throughout we use the case of the real [[scalar field]] as an illustrative running example, which we develop alongside with the theory. The discussion of other types of [[field (physics)|fields]] that are of more genuine interest in applications is postponed to their dedicated chapters below.
+
+
+## Geometry
+ {#Geometry}
+
+In [[field theory]] one is concerned with [[differential geometry]] on
+[[spaces]] that are more general than [[smooth manifolds]] in several ways (a preview is in remark \ref{PreviewOfGenerlizedDifferentialGeometryAppearingInFieldTheory} below). The right concept
+that neatly supports the necessary differential geometry turns out to be that of _[[smooth sets]]_
+and their [[super formal smooth infinity-groupoid|generalization]] to [[supergeometry|super]]-, [[formal geometry|formal]]- and [[higher differential geometry]]. Hence before introducing the idea of fields below, here we briefly spend
+some words on required concepts from [[differential geometry]]. For a self-contained introduction see at
+_[[geometry of physics]]_ beginning with the chapter _[[geometry of physics -- smooth sets]]_
+and including the chapter _[[geometry of physics -- supergeometry]]_.
+
+While the concept of _[[smooth sets]]_ is not advertised in traditional textbooks, it is actually simpler than
+that of smooth manifolds and it is closer to the operational nature of physics: 
+
+A [[smooth set]] $X$ is defined simply by specifying, in a self-consistent way, what counts as a smooth function $U \to X$ (a "plot") from any [[Cartesian space]] $U$. Given two smooth sets $X$ and $Y$ then a [[smooth function]] $f \;\colon\; X \longrightarrow Y$ 
+between them is a function that takes plots $U \overset{\phi}{\to} X$ of $X$ to plots $f \circ \phi \colon U \to Y$ of $Y$.
+If we allow $U$ here to be a [[super Cartesian space]], then the same idea defines _[[super smooth sets]]_.
+We will write $\mathbf{H}$ for the resulting differential geometric [[category]] of [[smooth sets]] or more generally
+[[super formal smooth sets]].
+
+A key example of a smooth set which is in general not a [[smooth manifold]] is the [[mapping space]] $[X,Y]$ between two smooth sets $X$ and $Y$, hence the set of all smooth functions $X \to Y$ equipped with a smooth structure itself. Namely a plot $\phi_{(-)} \colon U \to [X,Y]$ is defined to be a smooth function $\phi_{(-)}(-) \colon U \times X \to Y$ out of the [[Cartesian product]] of $U$ with $X$ to $Y$,  hence a "U-parameterized smooth family of smooth functions".
+
+An example of a smooth set which is far from being a smooth manifold is for $n \in \mathbb{N}$ the smooth set $\mathbf{\Omega}^n$ which is the "smooth [[classifying space]]" for [[differential n-forms]], defined by the rule that a smooth function $\phi \colon U \to \mathbf{\Omega}^n$ is equivalently a smooth differential $n$-form on $U$ (to be thought of as the [[pullback of differential forms|pullback]] of a "universal $n$-form" on $\mathbf{\Omega}^n$ along $\phi$).
+It follows from this in particular that for $X$ any [[smooth manifold]] then smooth functions $X \to \mathbf{\Omega}^n$ are equivalent to smooth $n$-forms on $X$. Accordingly we may say that for $X$ any [[smooth set]] (which may be far from being a smooth manifold) then a differential $n$-form on $X$ is equivalently a smooth function $X \to \mathbf{\Omega}^n$. Under this identification the operation of [[pullback of differential forms]] along some smooth function $f \colon Y \to X$ is just [[composition]] of smooth functions $f^\ast \omega \colon Y \overset{f}{\to} X \overset{\omega}{\to} \mathbf{\Omega}^n$.
+
+These examples may be combined: the [[mapping space]] $[\Sigma, \mathbf{\Omega}^n]$ is a kind of smooth classifying space for differential forms _on_ $\Sigma$: a smooth function $\omega_{(-)} \colon U \to [\Sigma,\mathbf{\Omega}^n]$ into this space is, by the above, a [[differential n-form]] on the [[Cartesian product]] $U \times \Sigma$.
+
+This is very convenient for discussion of _[[transgression of differential forms]]_, which 
+is a process that controls much of [[Lagrangian field theory]] below:
+
+Given a [[differential form]] $\omega$ of degree $n$ on some [[smooth space]] $X$ and given a [[compact space|compact]] [[smooth manifold]] $\Sigma$ of [[dimension]] $k \leq n$, then there is canonically induced a differential form $\tau_\Sigma \omega$ of degree $n-k$ on the [[mapping space]] $[\Sigma, X]$: its restriction to any smooth family $\Phi_{(-)}$ of smooth functions $\Phi_u \colon \Sigma \to X$ is the result of first forming the [[pullback of differential forms]] of $\omega$ along $\Phi_{(-)}$ and then forming the [[integration of differential forms]] of the result over $\Sigma$:
+
+$$
+  \tau_{\Sigma} \omega\vert_{\Phi_{(-)}}
+    \coloneqq
+  \int_\Sigma (\Phi_{(-)})^\ast \omega
+  \,.
+$$
+
+This differential form $\tau_\Sigma \omega$ on the mapping space 
+is called the _[[transgression of differential forms|transgression]]_ of $\omega$ with respect to $\Sigma$.
+
+We will need the following basic fact about transgression:
+
+
++-- {: .num_prop #RelativeTransgressionOfDifferentialForms}
+###### Proposition
+**(relative transgression over [[manifolds with boundary]])**
+
+1. $X$ be a [[smooth set]];
+
+1. $n \geq k \in \mathbb{N}$;
+
+1. $\Sigma_k$ be a [[compact topological space|compact]] [[smooth manifold]] of [[dimension]] $k$ with [[manifold with boundary|boundary]] $\partial \Sigma$
+
+1. $\omega \in \Omega^n_{X}$ a [[closed differential form]].
+
+Write
+
+$$
+  (-)\vert_{\partial \Sigma}
+    \;\coloneqq\;
+  [\partial \Sigma \hookrightarrow \Sigma, X]
+  \;\colon\;
+  [\Sigma, X]
+   \longrightarrow
+  [\partial \Sigma, X]
+$$
+
+for the smooth function that restricts smooth functions on $\Sigma$ to smooth functions on the [[boundary]] $\partial \Sigma$.
+
+Then the operations of transgression of differential forms (def. \ref{TransgressionOfDifferentialFormsToMappingSpaces}) to $\Sigma$ and to $\partial \Sigma$, respectively, are related by
+
+
+$$
+  d \left(
+    \tau_{\Sigma}(\omega)
+  \right)
+  =
+  (-1)^{k+1}
+  ((-)\vert_{\partial \Sigma})^\ast \tau_{\partial \Sigma}(\omega)
+    \phantom{AAAAAAAA}
+  \array{
+    [\Sigma, X]
+      &\overset{ \tau_{\Sigma}(\omega) }{\longrightarrow}&
+    \mathbf{\Omega}^{n-k}
+    \\
+    {}^{\mathllap{(-)\vert_{\partial \Sigma} }}\downarrow
+      &&
+    \downarrow^{\mathrlap{ (-1)^{k+1} d}}
+    \\
+    [\partial \Sigma, X]
+      &\underset{ \tau_{\partial\Sigma}(\omega) }{\longrightarrow}&
+    \mathbf{\Omega}^{n-k+1}
+  }
+  \,.
+$$
+
+In particular this means that if the compact manifold $\Sigma$ happens to have no boundary (is a [[closed manifold]]) then transgression over $\Sigma$ takes closed differential forms to closed differential forms.
+
+=--
+
+$\,$
+
+
+$\,$
+
++-- {: .num_remark #PreviewOfGenerlizedDifferentialGeometryAppearingInFieldTheory}
+###### Remark
+**(preview of generalized differential geometry appearing in field theory)**
+
+While we introduce many of the following terms from field theory only further below, some
+readers may appreciate a quick preview of where in field theory differential geometry
+beyond smooth manifolds appears:
+
+The very _[[space of trajectories]]_ of a field theory, hence the space of all ways
+in which fields may behave in [[spacetime]], is a [[space of sections]] (namely of the "[[field bundle]]"), 
+which is akin to the [[mapping space]] of all [[smooth functions]] from [[spacetime]] to a "[[field fiber]]" space.
+Even in rare cases where this [[space of trajectories]] happens to admit the structure of an [[infinite-dimensional manifold]]
+(such as when the [[field fiber]] happens to be a [[smooth manifold]] and when one restricts attention to a [[compact subset]] of spacetime, see at _[[manifold structure of mapping spaces]]_ this structure may be unwieldy for the purposes of the theory. 
+For instance in order to handle [[differential forms]] on mapping spaces (such as the [[presymplectic form]] 
+on the "[[shell]]" inside the [[space of trajectories]] which constitutes the [[phase space]] of the theory), it 
+is sufficient just to know which
+functions from [[Cartesian spaces]] (i.e. from [[coordinate systems]]) into the mapping spaces are [[smooth functions]].
+This information gives the mapping space the structure of a "[[smooth set]]".
+
+To properly define the [[phase space]] associated with a [[Cauchy surface]] in [[spacetime]],
+one needs to consider the [[infinitesimal neighbourhood]] of that Cauchy surface (so that a field restricted
+to that infinitesimal neighbourhood is specified by the value of all its spacetime-[[derivatives]] on the Cauchy surface).
+Such [[infinitesimal]] aspects of differential geoemtry are captured by "[[formal smooth sets]]".
+
+Generally the "[[field fiber]]" space (and hence the total space of the [[field bundle]]) is not a plain smooth manifold:
+if [[fermion|fermionic]] fields are considered, then it is a [[supermanifold]], if [[gauge fields]] are considered then it is
+a [[Lie algebroid]] or rather a [[smooth groupoid]], if [[higher gauge fields]] are considered then it is an 
+[[infinity-Lie algebra]] or rather a [[smooth ∞-groupoid]], and hence if the theory contains both 
+[[fermion|fermion fields]] as well as [[gauge fields]] (as is the case in examples of [[phenomenology|phenomenological]] interest)
+then it is a [[super smooth ∞-groupoid]]. 
+
+=--
+
+$\,$
+
+
+$\,$
+
+
+##  Spacetime
+  {#Spacetime}
+
+Relativistic field theory takes place in (or on) _[[spacetime]]_. We briefly set up some notations
+and conventions:
+
+Throughout, let
+
+$$
+  p \in \mathbb{N}
+$$
+
+be a [[natural number]] and write
+
+$$
+  \Sigma \coloneqq \mathbb{R}^{p,1} \coloneqq (\mathbb{R}^{p+1}, \eta)
+$$
+
+for [[Minkowski spacetime]] of [[dimension]] $p+1$, hence for the [[smooth manifold]] which is the [[Cartesian space]] $\mathbb{R}^{p+1}$ of dimension $p+1$ equipped with the [[left invariant differential form|constant]] [[pseudo-Riemannian metric]] $\eta$ which at the origin is given by the standard [[quadratic form]] of [[signature of a quadratic form|signature]]
+
+$$
+  (-, +, \cdots, +)
+$$
+
+in terms of the canonical [[coordinate functions]]
+
+$$
+  x^\mu \;\colon\; \mathbb{R}^{p+1} \longrightarrow \mathbb{R}
+$$
+
+which we index starting at zero: $(x^\mu)_{\mu = 0}^p$.
+
+We write
+
+$$
+  dvol_\Sigma
+   \;\coloneq\;
+  d x^0 \wedge d x^1 \wedge \cdots \wedge d x^p
+  \in \Omega^{p+1}(\mathbb{R}^{p,1})
+$$
+
+for the induced [[volume form]], and we call
+
+$$
+  d x^0 \in \Omega^1(\Sigma)
+$$
+
+the canonical representative of the canonical [[time orientation]] on Minkowski spacetime.
+
+We use the [[Einstein summation convention]]: Expressions with repeated indicices indicate [[sum|summation]] over the
+range of indices. 
+
+For instance a [[differential 1-form]] $\alpha \in \Omega^1(\mathbb{R}^{p,1})$ on Minkowski spacetime may be expanded as
+
+$$
+  \alpha = f_\mu d x^\mu
+  \,.
+$$
+
+
+## Fields
+
+A _[[field (physics)|field]] trajectory_ (field history) on a given [[spacetime]] $\Sigma$ is meant to be some kind of [[quantity]] assigned to each point of spacetime (each [[event]]), such that this assignment varies smoothly with spacetime points. For instance an _[[electromagnetic field]]_ [[trajectory]] (or "history") is at each point of spacetime a collection of [[vectors]] that encode the direction in which a [[charged particle]] passing through that point will feel a [[force]] (the [[Lorentz force]]).
+
+This is readily formalized: If
+
+$$
+  F \in SmthMfd
+$$
+
+is the [[smooth manifold]] of "values" that the the given kind of field may take at any spacetime point, then a field configuration $\Phi$ is modeled as a [[smooth function]] from spacetime to this space of values:
+
+$$
+  \Phi
+    \;\colon\;
+   \Sigma
+     \longrightarrow
+   F
+  \,.
+$$
+
+It will be useful to unify spacetime and the space of field values into a single space, the [[Cartesian product]]
+
+$$
+  E \;\coloneqq\; \Sigma \times F
+$$
+
+and to think of this equipped with the [[projection]] map onto the first factor as a [[fiber bundle]] of spaces of field values over spacetime
+
+
+$$
+  \array{
+     E &\coloneqq& \Sigma \times F
+     \\
+     {}^{\mathllap{fb}}\downarrow & \swarrow_{\mathrlap{pr_1}}
+     \\
+     \Sigma
+  }
+  \,.
+$$
+
+This is then called the _[[field bundle]]_, which specifies the kind of values that the given field species may take at any point of spacetime. Since the space $F$ of field values is the [[fiber]] of this [[fiber bundle]], it is sometimes also called the _[[field fiber]]_.
+
++-- {: .num_defn #Fields}
+###### Definition
+**([[field (physics)|fields]] and their [[space of histories]])**
+
+Given a [[spacetime]] $\Sigma$, then a _[[type]] of fields_ on $\Sigma$
+is a [[smooth set|smooth]] [[fiber bundle]]
+
+$$
+  \array{E \\ \downarrow^{\mathrlap{fb}} \\ \Sigma }
+$$
+
+called the _[[field bundle]]_,
+
+Given a type of fields on $\Sigma$ this way, then a  _[[field (physics)|field]] [[trajectory]]_ (or _field history_) of that type on $\Sigma$
+is a smooth  [[section]] of this [[bundle]], namely a [[smooth function]] of the form
+
+$$
+  \Phi \colon \Sigma \longrightarrow E
+$$
+
+such that composed with the [[projection]] map it is the [[identity function]], i.e. such that
+
+$$
+  fb \circ \Phi = id
+  \phantom{AAAAAAA}
+  \array{
+    && E
+    \\
+    & {}^{\mathllap{\Phi}}\nearrow & \downarrow^{\mathrlap{fb}}
+    \\
+    \Sigma & = & \Sigma
+  }
+  \,.
+$$
+
+The corresponding _field [[space of histories]]_ is the [[smooth set|smooth]] [[space of sections|space of all these]], to be denoted
+
+$$
+  \Gamma_\Sigma(E) \in \mathbf{H}
+  \,.
+$$
+
+This is a [[smooth set]] by declaring that a smooth family $\Phi_{(-)}$ of field configurations,
+parameterized over any [[Cartesian space]] $U$ is a smooth function
+
+$$
+  \array{
+    U \times \Sigma &\overset{\Phi_{(-)}(-)}{\longrightarrow}& E
+    \\
+    (u,x) &\mapsto& \Phi_u(x)
+  }
+$$
+
+such that for each $u \in U$ we have $p \circ \Phi_{u}(-) = id_\Sigma$, i.e.
+
+$$
+  \array{
+    && E
+    \\
+    & {}^{\mathllap{\Phi_{(-)}(-)}}\nearrow & \downarrow^{\mathrlap{fb}}
+    \\
+    U \times \Sigma &\underset{pr_2}{\longrightarrow}& \Sigma
+  }
+  \,.
+$$
+
+
+More generally, let $S \hookrightarrow \Sigma$ be a [[submanifold]] of spacetime. We write
+$N_\Sigma(S) \hookrightarrow \Sigma$ for its [[infinitesimal neighbourhood]] in $\Sigma$.
+
+If $E \overset{fb}{\to} \Sigma$ is a [[field bundle]]
+then the _[[space of histories]] of fields restricted to $S$_, to be denoted
+
+$$
+  \Gamma_{S}(E) \coloneqq \Gamma_{N_\Sigma(S)}( E\vert_{N_\Sigma S} ) \in \mathbf{H}
+$$
+
+is the [[space of sections]] restricted to the [[infinitesimal neighbourhood]] $N_\Sigma(S)$.
+
+There is a canonical [[evaluation]] [[smooth function]]
+
+$$
+  \label{FieldEvaluation}
+  ev_S
+   \;\colon\;
+  N_\Sigma S \times \Gamma_{S}(E)
+    \longrightarrow
+  E
+$$
+
+which takes a [[pair]] consisting of an [[generalized element|element]] in $N_\Sigma S$
+and a field configuration to the value of the field configuration at that point.
+
+=--
+
+For the time being, not to get distracted from the core idea of
+field theory, we will focus on the following simple special case of field bundles:
+
++-- {: .num_example #TrivialVectorBundleAsAFieldBundle}
+###### Example
+**([[trivial vector bundle]] as a [[field bundle]])**
+
+In applications the [[field fiber]] $F$ is often a [[finite number|finite]] [[dimension|dimensional]] [[Euclidean space]] and equipped with the structure of a [[vector space]]. In this case the trivial field bundle with fiber $F$ is of course a _[[trivial vector bundle|trivial]] [[vector bundle]]_.
+
+Choosing any [[linear basis]] $(\phi^a)_{a = 1}^s$ of the field fiber, then over [[Minkowski spacetime]] we have canonical [[coordinates]] on the total space of the field bundle
+
+$$
+  ( (x^\mu), ( \phi^a ) )
+  \,,
+$$
+
+where the index $\mu$ ranges from $0$ to $p$, while the index $a$ ranges from 1 to $s$.
+
+If this trivial vector bundle is regarded as a [[field bundle]] according to def. \ref{Fields}, then
+a field configuration $\Phi$ is equivalently an $s$-[[tuple]] of [[real number|real]]-valued [[smooth functions]]
+$\Phi^a \colon \Sigma \to \mathbb{R}$ on spacetime:
+
+$$
+  \Phi = ( \Phi^a )_{a = 1}^s
+  \,.
+$$
+
+=--
+
+The following simplest special case of this simple class of special cases
+serves as a good toy example for the general theory:
+
++-- {: .num_example #RealScalarFieldBundle}
+###### Example
+**([[real scalar field]])**
+
+If $\Sigma$ is a [[spacetime]] and if the [[field fiber]]
+
+$$
+  F \coloneqq \mathbb{R}
+$$
+
+is simply the [[real line]], then the corresponding trivial [[field bundle]] (def. \ref{Fields})
+
+$$
+  \array{
+    \Sigma \times \mathbb{R}
+    \\
+    {}^{\mathllap{pr_1}}\downarrow
+    \\
+    \Sigma
+  }
+$$
+
+is the _[[trivial fiber bundle|trivial]] [[real line bundle]]_ (a special case of example \ref{TrivialVectorBundleAsAFieldBundle}) and the corresponding [[field (physics)|field]] type (def. \ref{Fields}) is called the _[[real scalar field]]_ on $\Sigma$. A configuration of this field is simply a [[smooth function]] on $\Sigma$ with values in the [[real numbers]]:
+
+$$
+  \Gamma_\Sigma(\Sigma \times \mathbb{R})
+    \;\simeq\;
+  C^\infty(\Sigma)
+  \,.
+$$
+
+=--
+
+
+## Field variations
+
+Given a [[field bundle]] as in def. \ref{Fields} above, then we know what type of quantities the corresponding fields assign to a given spacetime point ([[event]]). Among all consistent such field configurations, some are to qualify as those that "may occur in reality" if we think of the field theory as a means to describe parts of the [[observable universe]]. Moreover, if the reality to be described does not exhibit "action at a distance" then admissibility of its field configurations should be determined over arbitrary small spacetime regions, in fact over the [[infinitesimal neighbourhood]] of any spacetime point. This means equivalently that the realized field configurations should be those that satisfy a given _[[differential equation]]_, hence an [[equation]] between the value of the [[derivatives]] of the field
+configuration at any spacetime point.
+
+In order to formalize this, it is useful to first collect all the possible derivatives that a field may have at any given point into one big space of "field derivatives at spacetime points". This collection is called the _[[jet bundle]]_ of the [[field bundle]], given as def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime} below.
+
+Moving around in this space means to change the possible value of fields and their derivatives, hence to _vary_ the fields. Accordingly _[[variational calculus]]_ of fields is just [[differential calculus]] on the [[jet bundle]] of the [[field bundle]], this we consider in def. \ref{VariationalBicomplexOnSecondOrderJetBundleOverTrivialVectorBundleOverMinkowskiSpacetime} below.
+
+
++-- {: .num_defn #JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}
+###### Definition
+**([[jet bundle]] of a [[trivial vector bundle]] over [[Minkowski spacetime]])**
+
+Given a [[field fiber]] [[vector space]] $F = \mathbb{R}^s$ with [[linear basis]] $(\phi^a)_{a = 1}^s$,
+then for $k \in \mathbb{N}$ a natural number,  the _order-$k$ [[jet bundle]]_
+
+$$
+  \array{
+    J^k_{\Sigma}( E )
+    \\
+    \downarrow^{\mathrlap{jb_k}}
+    \\
+    \Sigma
+  }
+$$
+
+over [[Minkowski spacetime]] $\Sigma$ of the [[trivial vector bundle]]
+
+$$
+  E \coloneqq \Sigma \times F
+$$
+
+is the [[Cartesian space]] which is spanned by coordinate functions to be denoted as follows:
+
+$$
+  \left(
+     (x^\mu)
+     \,,\,
+     (\phi^a )
+     \,,\,
+     ( \phi^a_{,\mu} )
+     \,,\,
+     ( \phi^a_{,\mu_1\mu_2} )
+     \,,\,
+     \cdots
+     \,,\,
+     ( \phi^a_{,\mu_1 \cdots \mu_k} )
+  \right)
+$$
+
+where the indices $\mu, \mu_1, \mu_2, \codts$ range from 0 to $p$, while the index $a$ ranges from $1$ to $s$. In terms of these coordinates the [[bundle]] [[projection]] map $jb_k$ is just the one that remembers the spacetime coordinates $x^\mu$ and forgets the values of the field $\phi^a$ and its derivatives $\phi_{\mu}$. Similarly there are intermediate projection maps
+
+$$
+  \array{
+    \cdots
+     &\overset{jb_{3,2}}{\longrightarrow}&
+    J^{2}_\Sigma(E)
+      &\overset{jb_{2,1}}{\longrightarrow}&
+    J^1_\Sigma(E)
+      &\overset{jb_1}{\longrightarrow}&
+    E
+    \\
+    && &{}_{\mathllap{jb_2}}\searrow& {}^{\mathllap{jb_1}}\downarrow  &\swarrow_{\mathrlap{fb}}&
+    \\
+    && && \Sigma &&
+  }
+$$
+
+given by forgetting coordinates with more indices.
+
+The _infinite-order [[jet bundle]]_
+
+$$
+  J^\infty_\Sigma(E) \in \mathbf{H}
+$$
+
+is the [[direct limit]] over these finite order jet bundles,
+formed in the [[category]] of [[smooth sets]]. This means that it is the [[smooth set]] which is defined
+by the fact that a smooth function
+
+$$
+  U \overset{f}{\longrightarrow} J^\infty_\Sigma(E)
+$$
+
+from some [[Cartesian space]] $U$ is equivalently a system of ordinary smooth functions
+into all the finite-order jet spaces
+
+$$
+  \left(
+    U \overset{f_k}{\longrightarrow} J^k_\Sigma(E)
+  \right)_{k \in \mathbb{N}}
+  \,,
+$$
+
+such that this system is compatible with the
+above projection maps, i.e. such that
+
+$$
+  \underset{k \in \mathbb{N}}{\forall} \left(
+    jb_{k+1,k} \circ f_{k+1} = f_k
+  \right)
+  \phantom{AAAAAAA}
+  \array{
+    && && U &&
+    \\
+    && & {}^{\mathllap{f_2}}\swarrow&  {}_{\mathllap{f_1}}\downarrow  &\searrow^{f_0}&
+    \\
+    \cdots
+     &\overset{jb_{3,2}}{\longrightarrow}&
+    J^{2}_\Sigma(E)
+      &\overset{jb_{2,1}}{\longrightarrow}&
+    J^1_\Sigma(E)s
+      &\overset{jb_1}{\longrightarrow}&
+    E
+    \\
+    && &{}_{\mathllap{jb_2}}\searrow& {}^{\mathllap{jb_1}}\downarrow  &\swarrow_{\mathrlap{fb}}&
+    \\
+    && && \Sigma &&
+  }
+$$
+
+=--
+
++-- {: .num_defn #JetProlongation}
+###### Definition
+**([[jet prolongation]])
+
+The [[smooth function]] from the [[space of sections]] of the original bundle to the space of sections of the jet bundle which records the field $\Phi$ and all its spacetimes [[derivatives]] is called _[[jet prolongation]]_:
+
+$$
+  \array{
+    \Gamma_\Sigma(E)
+      &\overset{j^\infty_\Sigma}{\longrightarrow}&
+    \Gamma_\Sigma(J^\infty_\Sigma(E))
+    \\
+    (\Phi^a)
+    &\mapsto&
+    \left(
+    \left( \Phi^a \right)
+      \,,\,
+      \left(  \frac{\partial \Phi^a}{\partial x^\mu}  \right)
+      \,,\,
+      \left( \frac{\partial^2 \Phi^a}{\partial x^{\mu_1} \partial x^{\mu_2}}  \right)
+      \,,\,
+      \cdots
+    \right)
+  }
+  \,.
+$$
+
+=--
+
+So the canonical [[coordinates]] on the jet bundle are the spacetime-point-wise _possible_ values of fields and field derivates,
+while the [[jet prolongation]] picks the actual collections of field derivatives that may occur for an actual field
+configuration.
+
+While the [[jet bundle]] is not [[finite number|finite]] [[dimension|dimensional]],
+reflecting the fact that there are arbitrary higher orders of spacetime derivatives of a field configurations,
+it turns out that it is only very "mildly [[infinite dimensional manifold|infinite dimensional]]"
+in that
+smooth  functions on jet bundles turn out to _locally_ depend on only finitely many of the jet coordinates
+(i.e. only on a finite order of spacetime derivatives). This is the content
+of the following prop. \ref{JetBundleIsLocallyProManifold} \ref{JetBundleIsLocallyProManifold}.
+In practice this means that the situation is very convenient:
+
+1. Any given [[local Lagrangian density]] (which will define a field theory, we come to this in def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime} below)
+   will locally depend on some finite number $k$ of derivatives and may hence locally
+   be treated as living on the ordinary manifold $J^k_\Sigma(E)$.
+
+1. while at the same time all formulas (such as for the [[Euler-Lagrange equations]], def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime}) work uniformly
+without worries about fixing a maximal order of derivatives.
+
++-- {: .num_prop #JetBundleIsLocallyProManifold}
+###### Proposition
+**([[jet bundle]] is a [[locally pro-manifold]])**
+
+Given a [[jet bundle]] $J^\infty_\Sigma(E)$ as in def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime},
+then a [[smooth function]] out of it
+
+$$
+  J^\infty_\Sigma(E) \longrightarrow X
+$$
+
+is such that around each point of $J^\infty_\Sigma(E)$ there is a [[neighbourhood]] $U \subset J^\infty_\Sigma(E)$
+on which it is given by a function on a smooth function on $J^k_\Sigma(E)$ for some finite $k$.
+
+=--
+
+(see [Khavkine-Schreiber 17, section 2.2 and 3.3](locally+pro-manifold#KhavkineSchreiber17))
+
+
++-- {: .num_defn #VariationalBicomplexOnSecondOrderJetBundleOverTrivialVectorBundleOverMinkowskiSpacetime}
+###### Definition
+**([[variational derivative]] and [[total derivative|total spacetime derivative]])**
+
+On the [[jet bundle]] $J^\infty_\Sigma(E)$ of a [[trivial vector bundle]] over [[Minkowski spacetime]] as in def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime} we may consider its [[de Rham complex]] of
+[[differential forms]]; we write its [[de Rham differential]] in boldface:
+
+$$
+  \mathbf{d} \;\colon\; \Omega^\bullet(J^\infty_\Sigma(E)) \longrightarrow \Omega^{\bullet+1}(J^\infty_\Sigma(E))
+  \,.
+$$
+
+Since the jet bundle unified spacetime with field values, we want to decompose this differential into
+a contribution coming from forming the [[total derivatives]] of fields along spacetime ("[[horizontal derivatives]]"), and
+actual _variation_ of fields at a fixed spacetime point ("[[vertical derivatives]]"):
+
+
+The  _[[total derivative|total spacetime derivative]]_ or  _[[horizontal derivative]]_ on $J^\infty_\Sigma(E)$
+is the map on [[differential forms]] on the jet bundle of the form
+
+$$
+  d
+  \;\colon\;
+  \Omega^\bullet( J^\infty_\Sigma(E) )
+  \longrightarrow
+  \Omega^{\bullet+1}( J^\infty_\Sigma(E) )
+$$
+
+which on functions $f \colon J^\infty_\Sigma(E) \to \mathbb{R}$ (i.e. on 0-forms) is defined by
+
+$$
+  \label{SpacetimeTotalDerivativeOnSmoothFunctions}
+  \begin{aligned}
+    d f
+    & \coloneqq
+    \frac{d f}{d x^\mu}
+    \mathbf{d} x^\mu
+    \\
+    & \coloneqq
+    \underoverset{\mu = 0}{p}{\sum}
+    \left(
+      \frac{\partial f}{\partial x^\mu}
+      +
+      \frac{\partial f}{\partial \phi^a}
+      \phi^a_{,\mu}
+      +
+      \frac{ \partial f }{ \partial \phi^a_{,\nu}}
+      \phi^a_{,\nu \mu }
+      +
+      \cdots
+    \right)
+    \mathbf{d} x^\mu
+  \end{aligned}
+$$
+
+and extended to all forms by the graded [[Leibniz rule]], hence  as a nilpotent [[derivation]] of degree +1.
+
+The  _[[variational derivative]]_ or _[[vertical derivative]]_
+
+$$
+  \delta
+  \;\colon\;
+  \Omega^\bullet( J^\infty_\Sigma(E) )
+  \longrightarrow
+  \Omega^{\bullet+1}( J^\infty_\Sigma(E) )
+$$
+
+is what remains of the full [[de Rham differential]] when the total spacetime derivative ([[horizontal derivative]]) is subtracted:
+
+$$
+  \delta \coloneqq \mathbf{d} - d
+  \,.
+$$
+
+This defines a bigrading on the [[de Rham complex]] of $J^\infty_\Sigma(E)$, into horizontal degree $r$ and vertical degree $s$
+
+$$
+  \Omega^\bullet\left( J^\infty_\Sigma(E) \right)
+  \;\coloneqq\;
+  \underset{r,s}{\oplus} \Omega^{r,s}(E)
+$$
+
+such that the horizontal and vertical derivative increase horizontal or vertical degree, respectively:
+
+$$
+  \label{VariationalBicomplexDiagram}
+  \array{
+     C^\infty(J^\infty_\Sigma(E)) = & \Omega^{0,0}(E)
+       &\overset{d}{\longrightarrow}&
+     \Omega^{1,0}_\Sigma(E)
+       &\overset{d}{\longrightarrow}&
+     \Omega^{2,0}_\Sigma(E)
+       &\overset{d}{\longrightarrow}&
+     \cdots
+       &\overset{d}{\longrightarrow}&
+     \Omega^{p+1,0}_\Sigma(E)
+     \\
+     & \downarrow^{\mathrlap{\delta}} && \downarrow^{\mathrlap{\delta}} && \downarrow^{\mathrlap{\delta}}
+     && \cdots && \downarrow^{\mathrlap{\delta}}
+     \\
+     &
+     \Omega^{0,1}_\Sigma(E)
+       &\overset{d}{\longrightarrow}&
+     \Omega^{1,1}_\Sigma(E)
+       &\overset{d}{\longrightarrow}&
+     \Omega^{2,1}_\Sigma(E)
+       &\overset{d}{\longrightarrow}&
+     \cdots
+       &\overset{d}{\longrightarrow}&
+     \Omega^{p+1,1}_\Sigma(E)
+     \\
+     & \downarrow^{\mathrlap{\delta}} && \downarrow^{\mathrlap{\delta}} && \downarrow^{\mathrlap{\delta}}
+     && \cdots && \downarrow^{\mathrlap{\delta}}
+     \\
+     &
+     \Omega^{0,2}(E)
+       &\overset{d}{\longrightarrow}&
+     \Omega^{1,2}(E)
+       &\overset{d}{\longrightarrow}&
+     \Omega^{2,2}(E)
+       &\overset{d}{\longrightarrow}&
+     \cdots
+       &\overset{d}{\longrightarrow}&
+     \Omega^{p+1,2}_\Sigma(E)
+     \\
+     & \downarrow^{\mathrlap{\delta}} && \downarrow^{\mathrlap{\delta}} && \downarrow^{\mathrlap{\delta}}
+     && \cdots && \downarrow^{\mathrlap{\delta}}
+     \\
+     & \vdots && \vdots && \vdots
+  }
+  \,.
+$$
+
+This is called the _[[variational bicomplex]]_.
+
+Accordingly we will refer to the differential forms on the jet bundle often as _variational differential forms_.
+
+=--
+
+$\,$
+
+**[[derivatives]] on [[jet bundle]]**
+
+| symbols |  name in physics | name in mathematics |
+|--|---|--|
+| $\mathbf{d}$ | [[de Rham differential]]  | [[de Rham differential]] |
+| $d \coloneqq d x^\mu \frac{d}{d x^\mu}$ | [[total derivative|total]] spacetime-derivative  | [[horizontal derivative]]  |
+| $ \frac{d}{d x^\mu} \coloneqq \frac{\partial}{\partial x^\mu} +  \phi^a_{,\mu} \frac{\partial}{\partial \phi^a}  + \cdots $ | [[total derivative|total]] spacetime derivative long $\partial_\mu$  |  [[horizontal derivative]] along $\partial_\mu$ |
+| $\delta \coloneqq \mathbf{d} - d$ | variational derivative  | [[vertical derivative]] |
+| $\delta_{EL} L \coloneqq \mathbf{d}L + d \Theta$ | [[Euler-Lagrange variational derivative]]  | [[Euler-Lagrange operator]] |
+
+$\,$
+
++-- {: .num_example #BasicFactsAboutVarationalCalculusOnJetBundleOfTrivialVectorBundle}
+###### Example
+**(basic facts about [[variational calculus]])**
+
+Given the jet bundle of a [[field bundle]] as in def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}, then
+in its [[variational bicomplex]] (def. \ref{VariationalBicomplexOnSecondOrderJetBundleOverTrivialVectorBundleOverMinkowskiSpacetime})
+we have the following:
+
+* The spacetime [[total derivative]] ([[horizontal derivative]]) of a spacetime coordinate function $x^\mu$
+  coincides with its ordinary de Rham differential
+
+  $$
+    \begin{aligned}
+      d x^\mu
+      & =
+      \frac{\partial x^\mu}{ \partial x^\nu} \mathbf{d}x^\nu
+      \\
+      & = \mathbf{d} x^\mu
+    \end{aligned}
+  $$
+
+  which hence is a horizontal 1-form
+
+  $$
+    \mathbf{d}x^\mu \;\in\; \Omega^{1,0}_\Sigma(E)
+    \,.
+  $$
+
+* Therefore the variational derivative ([[vertical derivative|vertical derivative]]) of a spacetime coordinate function vanishes:
+
+  $$
+    \delta x^\mu = 0
+    \,,
+  $$
+
+  reflective the fact that $x^\mu$ is not a field coordinate that could be varied.
+
+* In particular the given [[volume form]] on $\Sigma$ gives a horizontal $p+1$-form on the jet bundle,
+  which has the same coordinate expression (and which we denote by the same symbol)
+
+  $$
+    dvol_\Sigma =  d x^0 \wedge d x^1 \wedge \cdots \wedge d x^p
+     \;\in\;
+    \Omega^{p+1,0}
+    \,.
+  $$
+
+* Generally any horizontal $k$-form is of the form
+
+  $$
+    f_{\mu_1 \cdots \mu_k} d x^{\mu_1} \wedge \cdots \wedge d x^{\mu_k}
+    \;\in\;
+    \Omega^{k,0}_{\Sigma}(E)
+  $$
+
+  for
+
+  $$
+    f_{\mu_1 \cdots \mu_k} = f_{\mu_1 \cdots \mu_k}\left((x^\mu), (\phi^a), (\phi^a_{,\mu}), \cdots\right)
+    \in C^\infty(J^\infty_\Sigma(E))
+  $$
+
+  any smooth function of the spacetime coordinates and the field coordinates (locally depending only on a finite
+  order of these, by prop. \ref{JetBundleIsLocallyProManifold}).
+
+* In particular every horizontal $(p+1)$-form $\mathbf{L} \in \Omega^{p+1,0}(E)$ is proportional to the
+  above volume form
+
+  $$
+    \mathbf{L} = L \, dvol_\Sigma
+  $$
+
+  for $L = L((x^\mu), (\phi^a), (\phi^a_{,\mu}), \cdots)$ some smooth function that may depend on all the
+  spacetime and field coordinates.
+
+* The spacetimes [[total derivatives]] /horizontal derivatives) of the variational derivative (vertical derivative) $\delta \phi$ of a field variable is the differential 2-form of horizontal degree 1 and vertical degree 2 given by
+
+  $$
+    \begin{aligned}
+      d (\delta \phi^a)
+      & =
+      -
+      \delta (d \phi_a)
+      \\
+      & =
+      - (\delta \phi^a_{,\mu}) \wedge \mathbf{d} x^\mu
+    \end{aligned}
+    \,.
+  $$
+
+  In words this says that "the spacetime derivative of the variation of the field is the variation of its spacetime derivative".
+
+=--
+
+
++-- {: .num_prop #PullbackAlongJetProlongationIntertwinesHorizontalDerivative}
+###### Proposition
+**([[pullback of differential forms|pullback]] along [[jet prolongation]] compatible with [[total derivative|total spacetime derivatives]])**
+
+Let $E \overset{fb}{\to} \Sigma$ be a [[field bundle]] over a [[spacetime]] $\Sigma$ (def. \ref{Fields}),
+with induced [[jet bundle]] $J^\infty_\Sigma(E)$
+
+Then for $\Phi \in \Gamma_\Sigma(E)$ any field configuration, the [[pullback of differential forms]]
+
+$$
+  j^\infty_\Sigma(\Phi)^\ast
+   \;\colon\;
+  \Omega^\bullet(J^\infty_\Sigma(E))
+    \longrightarrow
+  \Omega^\bullet(\Sigma)
+$$
+
+along the [[jet prolongation]] of $\Phi$ (def. \ref{JetProlongation}):
+
+1. intertwines the [[de Rham differential]] on [[spacetime]] with the [[total derivative|total]] spacetime derivative ([[horizontal derivative]]) on the [[jet bundle]]:
+
+   $$
+     d \circ j^\infty_\Sigma(\Phi)^\ast
+     \;=\;
+     j^\infty_\Sigma(\Phi)^\ast \circ d
+     \,.
+   $$
+
+1. annihilates all [[vertical differential forms]]
+
+   $$
+     j^\infty_\Sigma(\Phi)^\ast\vert_{\Omega^{r, \geq 1}_\Sigma(E)} = 0
+     \,.
+   $$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Notice that generally the operation of [[pullback of differential forms]]
+along any smooth function intertwines the full [[de Rham differentials]]. In particular
+we have on general grounds that
+
+$$
+  d \circ j^\infty_\Sigma(\Phi)^\ast
+  =
+  j^\infty_\Sigma(\Phi)^\ast \circ \mathbf{d}
+  \,.
+$$
+
+This means that the second statement immediately follows from the
+first, by definition of the variational (vertical) derivative as the differece between
+the full de Rham differential and the horizontal one:
+
+$$
+  \begin{aligned}
+    j^\infty_\Sigma(\Phi)^\ast \circ \delta
+    & =
+    j^\infty_\Sigma(\Phi)^\ast \circ (\mathbf{d} - d)
+    \\
+    & =
+    (d - d) \circ j^\infty_\Sigma(\Phi)^\ast
+    \\
+    & =
+    0
+  \end{aligned}
+$$
+
+It remains to see the first statement:
+
+Since the [[jet prolongation]] $j^\infty_\Sigma(\Phi)$ preserves the spacetime coordinates $x^\mu$
+(being a [[section]] of the [[jet bundle]]) it is immediate that the claimed relation
+is satisfied on the
+horizontal [[linear basis|basis]] 1-forms $\mathbf{d}x^\mu = d x^\mu$ (example \ref{BasicFactsAboutVarationalCalculusOnJetBundleOfTrivialVectorBundle}):
+
+$$
+  d j^\infty_\Sigma(\Phi)^\ast( \mathbf{d}x^\mu )
+  =
+  d^2 x^\mu = 0
+  \phantom{AAAAA}
+  j^\infty_\Sigma(\Phi)^\ast d \mathbf{d} x^\mu
+  =
+  j^\infty_\Sigma(\Phi)^\ast d^2 x^\mu
+  \,.
+$$
+
+Therefore it finally remains only to check the first statement on smooth functions (0-forms).
+So let
+
+$$
+  f
+    =
+  f\left(
+    (x^\mu)
+    \,,\,
+    (\phi^a)
+    \,,\,
+    ( \phi^a_{,\mu} )
+    \,,\,
+    \cdots
+  \right)
+$$
+
+be a smooth function on the jet bundle. Then by the [[chain rule]]
+
+$$
+  \begin{aligned}
+    d j^\infty_\Sigma(\Phi)^\ast
+    f\left(
+      (x^\mu)
+      \,,\,
+      (\phi^a)
+      \,,\,
+      ( \phi^a_{,\mu} )
+      \,,\,
+      \cdots
+    \right)
+    & =
+    d
+    f\left(
+      (x^\mu)
+      \,,\,
+      (\Phi^a)
+      \,,\,
+      \left(  \frac{\partial \Phi^a}{\partial x^\mu} \right)
+      \,,\,
+      \cdots
+    \right)
+    \\
+    & =
+    \left(
+      \frac{\partial f}{\partial x^\mu}
+      +
+      \frac{\partial f}{\partial \phi^a}
+      \frac{\partial \Phi^a}{\partial x^\mu}
+      +
+      \frac{\partial f}{\partial \phi^a_{,\nu}}
+      \frac{\partial^2 \Phi^a}{\partial x^\nu \partial x^\mu}
+      +
+      \cdots
+    \right)
+    d x^\mu
+  \end{aligned}
+$$
+
+That this is equal to $j^\infty_\Sigma(\Phi)^\ast d f$ follows by the very definition
+of the total spacetime derivative of $f$ (eq:SpacetimeTotalDerivativeOnSmoothFunctions).
+
+
+=--
+
+
+
+## Lagrangian densities
+
+Among all the variational differential forms (def. \ref{VariationalBicomplexOnSecondOrderJetBundleOverTrivialVectorBundleOverMinkowskiSpacetime})
+two kinds stand out, namley the 0-forms in $\Omega^{0,0}_\Sigma(E)$ -- the smooth functions -- and the horizontal $p+1$-forms
+$\Omega^{p+1,0}_\Sigma(E)$ -- to be called the _[[Lagrangian densities]]_ (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime} below) -- since these occupy the two "corners" of the [[variational bicomplex]] (eq:VariationalBicomplexDiagram).
+There is not much to say about the 0-forms, but the [[Lagrangian densities]] do inherit special structure
+from their special position in the [[variational bicomplex]]: their [[variational derivative]] 
+uniquely decomposes as 1) the _[[Euler-Lagrange derivative]]_ which is proportional to the variation of the fields,
+but not (independently) the variation of their derivatives and 2) the [[total derivative]] along spacetime 
+of a potential for a _[[presymplectic current]]_
+(prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime} below).
+
+This turns out to imply that every [[symmetry of the Lagrangian density]] induces a 
+variational differential form called a _[[conserved current]]_ ([[Noether's theorem]], prop. \ref{NoethersFirstTheorem} below) and that
+these conserved currents constitute an [[Lie algebra extension|extension]] of the [[Lie algebra]]
+of symmetries, called the [[Poisson bracket Lie n-algebra]] ("[[Dickey bracket]]").
+
+For the moment here we just record these simple algebraic consequences of variational calculus
+of [[Lagrangian field theory]]. In the next subsection [below](#PhaseSpace) we will see how
+under "[[transgression of variational differential forms]]" all these relations induce core
+structures on the [[covariant phase space]] of the field theory.
+
+
++-- {: .num_defn #LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}
+###### Definition
+**([[local Lagrangian density]])**
+
+Given a [[field bundle]] $E$ over a $(p+1)$-dimensional [[Minkowski spacetime]] $\Sigma$ as in example \ref{TrivialVectorBundleAsAFieldBundle}, then a _[[local Lagrangian density]]_ $\mathbf{L}$ (for the type of field thus defined) is a [[horizontal differential form]] of degree $(p+1)$ (def. \ref{VariationalBicomplexOnSecondOrderJetBundleOverTrivialVectorBundleOverMinkowskiSpacetime}) on the corresponding [[jet bundle]]
+(def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}):
+
+$$
+  \mathbf{L} \;\in \; \Omega^{p+1,0}_{\Sigma}(E)
+  \,.
+$$
+
+By example \ref{BasicFactsAboutVarationalCalculusOnJetBundleOfTrivialVectorBundle}
+in terms of the given [[volume form]] on spacetimes, any such Lagrangian density may uniquely be written as
+
+$$
+  \mathbf{L} = L \, dvol_\Sigma
+$$
+
+where the [[coefficient]] function (the _Lagrangian function_)
+is a smooth function on the spacetime and field coordinates:
+
+$$
+  L = L((x^\mu), (\phi^a), (\phi^a_{,\mu}), \cdots )
+  \,.
+$$
+
+We say that a [[field bundle]] $E \overset{fb}{\to} \Sigma$ (def. \ref{Fields}) equipped with a [[local Lagrangian density]] $\mathbf{L}$
+is (or defines) a _[[prequantum field theory|prequantum]] [Lagrangian field theory]]_ on the [[spacetime]] $\Sigma$.
+
+=--
+
+(Over more general [[field bundles]] than we consider at the moment, the Lagrangian density may not exist
+as a globally defined differential $(p+1)$-form, but as a [[circle n-bundle with connection|p-gerbe connection]]. 
+This is the case for _[[locally variational field theories]]_ such as theories involving _[[higher WZW terms]]_.)
+
+
+The beauty of [[Lagrangian field theory]] is that a choice of [[Lagrangian density]] determines
+both the [[equations of motion]] of the fields as well as a [[presymplectic manifold|presymplectic structure]]
+on the space of solutions to this equation (the "[[shell]]"), making it the "[[covariant phase space]]" of the theory.
+All this we discuss [below](#PhaseSpace). But in fact all this key structure of the field theory is
+othing but the shadow (under "[[transgression of variational differential forms]]", def. \ref{TransgressionOfVariationalDifferentialFormsToConfigrationSpaces} below)
+
+
++-- {: .num_prop #EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}
+###### Proposition
+**([[Euler-Lagrange variational derivative]] and [[presymplectic current]])**
+
+Given a [[Lagrangian density]] $\mathbf{L} \in \Omega^{p+1,0}_\Sigma(E)$ as in def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}, then its de Rham differential has a _unique_ decomposition as a sum of two terms
+
+$$
+  \label{dLDecomposition}
+  \mathbf{d} \mathbf{L}
+  =
+  \delta_{EL} \mathbf{L}
+  -
+  d \Theta
+$$
+
+such that $\delta EL$ is a "[[source form]]":
+
+$$
+  \delta_{EL} \mathbf{L}
+    \;\in\;
+  \Omega^{p+1,0}_{\Sigma}(E) \wedge \delta \Omega^{0,0}_{\Sigma}(E)
+    \;\subset\;
+  \Omega^{p+1,1}_{\Sigma}(E)
+  \,.
+$$
+
+The map
+
+$$
+   \delta_{EL} \;\colon\; \Omega^{p+1,0}_{\Sigma}(E) \longrightarrow \Omega^{p+1,0}_{\Sigma}(E) \wedge \delta \Omega^{0,0}_{\Sigma}(E)
+$$
+
+thus defined is called the _[[Euler-Lagrange operator]]_ and is explicitly given by
+
+$$
+  \begin{aligned}
+    \delta_{EL} L \, dvol_\Sigma
+    & \coloneqq
+    \frac{\delta L}{ \delta \phi^a}
+    \delta \phi^a \wedge dvol_\Sigma
+    \\
+    & \coloneqq
+    \left(
+      \frac{\partial L}{\partial \phi^a}
+      -
+      \frac{d}{d x^\mu}
+      \frac{\partial L}{\partial \phi^a_{,\mu}}
+      +
+      \frac{d^2}{d x^{\mu^1} d x^{\mu^2}}
+      \frac{\partial L}{\partial \phi^a_{\mu_1, \mu_2}}
+      -
+      \cdots
+    \right)
+    \delta \phi^a
+    \wedge
+    dvol_\Sigma
+    \,.
+  \end{aligned}
+$$
+
+The subspace of the [[jet bundle]] on which the Euler-Lagrange differential vanishes is called the _[[shell]]_
+
+$$
+  \label{ShellInJetBundle}
+  \mathcal{E}
+   \;\coloneqq\;
+  \left\{
+    q \in J^\infty_\Sigma(E)
+    \;\vert\;
+    \delta_{EL}\mathbf{L}\vert_x = 0
+  \right\}
+  \,.
+$$
+
+The remaining term $d \Theta$ is unique, while $\Theta \in \Omega^{p,1}_{\Sigma}(E)$ is unique only up to terms $d \alpha$ in the image of $d$.
+One possible choice is
+
+$$
+  \label{StandardThetaForTrivialVectorFieldBundleOnMinkowskiSpacetime}
+  \begin{aligned}
+    \Theta
+    & \coloneqq \phantom{+}
+      \frac{\partial L}{\partial \phi^a_{,\mu}}
+      \delta \phi^a
+      \; \wedge \iota_{\partial_\mu} dvol_\Sigma
+    \\
+    & \phantom{=}
+      +
+      \left(
+        \frac{\partial L}{\partial \phi^a_{,\nu \mu}}
+        \delta \phi^a_{,\nu}
+        -
+        \frac{d}{d x^\nu} \frac{\partial L}{\partial \phi^a_{,\mu \nu}}
+        \delta \phi^a_{,\mu}
+      \right)
+    \wedge \iota_{\partial_\mu} dvol_\Sigma
+    \\
+    & \phantom{=} + \cdots
+  \,,
+  \end{aligned}
+$$
+
+where
+
+$$
+  \iota_{\partial_{\mu}} dvol_\Sigma
+  \;\coloneqq\;
+  (-1)^{\mu} d x^0 \wedge \cdots d x^{\mu-1} \wedge d x^{\mu+1} \wedge \cdots \wedge d x^p
+$$
+
+denotes the contraction of the volume form with the [[vector field]] $\partial_\mu$.
+
+The [[vertical derivative]] of a chosen $\Theta$ is called a _[[pre-symplectic current]]_ for $\mathbf{L}$:
+
+$$
+  \Omega \coloneqq \delta \Theta \;\;\; \in \Omega^{p,2}_{\Sigma}(E)
+  \,,
+$$
+
+which, by the above, is unique up to addition of a total spacetime derivative $d \delta \alpha$.
+
+Given a choice of $\Theta$ then the sum
+
+$$
+  \label{TheLepage}
+  \mathbf{L} + \Theta \;\in\; \Omega^{p+1,0}_\Sigma(E) \oplus \Omega^{p,1}_\Sigma(E)
+$$
+
+is called the corresponding _[[Lepage form]]_. Its de Rham derivative is the sum of
+the Euler-Lagrange variation and the presymplectic current:
+
+$$
+  \mathbf{d}( \mathbf{L} + \Theta )
+  \;=\;
+  \delta_{EL} \mathbf{L} + \Omega
+  \,.
+$$
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+Using $\mathbf{L} = L dvol_\Sigma$ and that $d \mathbf{L} = 0$ by degree reasons (example \ref{BasicFactsAboutVarationalCalculusOnJetBundleOfTrivialVectorBundle}), we find
+
+$$
+  \begin{aligned}
+    \mathbf{d}\mathbf{L}
+    & =
+    \left(
+      \frac{\partial L}{\partial \phi^a} \delta \phi^a
+      +
+      \frac{\partial L}{\partial \phi^a_{,\mu}} \delta \phi^a_{,\mu}
+      +
+      \frac{\partial L}{\partial \phi^a_{,\mu_1 \mu_2}} \delta \phi^a_{,\mu_1 \mu_2}
+      +
+      \cdots
+    \right)
+    \wedge dvol_{\Sigma}
+  \end{aligned}
+  \,.
+$$
+
+The idea now is to have $d \Theta$ pick up those terms that would appear as [[boundary]] terms under the [[integral]]
+$\int_\Sigma j^\infty_\Sigma(\Phi)^\ast \mathbf{d}L$ if we were to consider [[integration by parts]] to remove
+spacetime derivatives of $\delta \phi^a$.
+
+We compute, using example \ref{BasicFactsAboutVarationalCalculusOnJetBundleOfTrivialVectorBundle},
+the total horizontal derivative of $\Theta$ from (eq:StandardThetaForTrivialVectorFieldBundleOnMinkowskiSpacetime) as follows:
+
+$$
+  \begin{aligned}
+    d \Theta
+    & =
+    \left(
+      d
+      \left(
+        \frac{\partial L}{\partial \phi^a_{,\mu}}
+        \delta \phi^a
+      \right)
+      +
+      d
+      \left(
+        \frac{\partial L}{\partial \phi^a_{,\nu \mu}}
+        \delta \phi^a_{,\nu}
+        -
+        \frac{d}{d x^\nu} \frac{\partial L}{\partial \phi^a_{\mu \nu}}
+        \delta \phi^a
+      \right)
+      +
+      \cdots
+  \right)
+  \wedge \iota_{\partial_\mu} dvol_\Sigma
+  \\
+    & =
+    \left(
+      \left(
+        \left(
+           d \frac{\partial L}{\partial \phi^a_{,\mu}}
+        \right) \wedge  \delta \phi^a
+        -
+        \frac{\partial L}{\partial \phi^a_{,\mu}} \delta d \phi^a
+      \right)
+      +
+      \left(
+        \left(d \frac{\partial L}{\partial \phi^a_{,\nu \mu}}\right) \wedge \delta \phi^a_{,\nu}
+        -
+        \frac{\partial L}{\partial \phi^a_{,\nu \mu}} \delta d \phi^a_{,\nu}
+        -
+        \left( d \frac{d}{d x^\nu} \frac{\partial L}{\partial \phi^a_{,\mu \nu}} \right) \wedge
+        \delta \phi^a
+        +
+        \frac{d}{d x^\nu} \frac{\partial L}{\partial \phi^a_{,\mu \nu}}
+        \delta d \phi^a
+      \right)
+          +
+      \cdots
+    \right)
+    \wedge \iota_{\partial_\mu} dvol_\Sigma
+    \\
+    & =
+    -
+    \left(
+      \left(
+        \frac{d}{d x^\mu} \frac{\partial L}{\partial \phi^a_{,\mu}}
+        \delta \phi^a
+        +
+        \frac{\partial L}{\partial \phi^a_{,\mu}}
+        \delta \phi^a_{,\mu}
+      \right)
+      +
+      \left(
+        \frac{d}{d x^\mu}
+        \frac{\partial L}{\partial \phi^a_{,\nu \mu}}
+        \delta \phi^a_{,\nu}
+        +
+        \frac{\partial L}{\partial \phi^a_{,\nu \mu}}
+        \delta \phi^a_{,\nu \mu}
+        -
+        \frac{d^2}{ d x^\mu d x^\nu}
+        \frac{\partial L}{\partial \phi^a_{,\mu \nu}}
+        \delta \phi^a
+        -
+        \frac{d}{d x^\nu}
+        \frac{\partial L}{\partial \phi^a_{,\mu \nu}}
+        \delta \phi^a_{,\mu}
+      \right)
+      + \cdots
+    \right)
+    \wedge dvol_\Sigma
+    \,,
+  \end{aligned}
+$$
+
+where in the last line we used that
+
+$$
+  d x^{\mu_1} \wedge \iota_{\partial_{\mu_2}} dvol_\Sigma
+  =
+  \left\{
+    \array{
+      dvol_\Sigma &\vert& \text{if}\, \mu_1 = \mu_2
+      \\
+      0 &\vert& \text{otherwise}
+    }
+  \right.
+$$
+
+Here the two terms proportional to $\frac{d}{d x^\nu} \frac{\partial L}{\partial \phi^a_{,\mu \nu}} \delta \phi^a_{,\mu}$
+cancel out, and we are left with
+
+$$
+  d \Theta
+  \;=\;
+    -
+      \left(
+        \frac{d}{d x^\mu} \frac{\partial L}{\partial \phi^a_{,\mu}}
+        -
+        \frac{d^2}{ d x^\mu d x^\nu}
+        \frac{\partial L}{\partial \phi^a_{,\mu \nu}}
+        +
+        \cdots
+      \right)
+      \delta \phi^a \wedge dvol_\Sigma
+        -
+      \left(
+        \frac{\partial L}{\partial \phi^a_{,\mu}}
+        \delta \phi^a_{,\mu}
+        +
+        \frac{\partial L}{\partial \phi^a_{,\nu \mu}}
+        \delta \phi^a_{,\nu \mu}
+        +
+        \cdots
+      \right)
+      \wedge dvol_\Sigma
+$$
+
+
+Hence $-d \Theta$ shares with $\mathbf{d} \mathbf{L}$ the terms that are proportional to
+$\delta \phi^a_{,\mu_1 \cdots \mu_k}$ for $k \geq 1$,
+and so the remaining terms are proportional to $\delta \phi^a$, as claimed:
+
+$$
+  \mathbf{d}L + d \Theta
+  =
+  \underset{
+    = \delta_{EL}\mathbf{L}
+  }{
+  \underbrace{
+  \left(
+    \frac{\partial L}{\partial \phi^a}
+    -
+    \frac{d}{d x^\mu}\frac{\partial L}{\partial \phi^a_{,\mu}}
+    +
+    \frac{d^2}{d x^\mu d x^\nu} \frac{\partial L}{\partial \phi^a_{,\mu\nu}}
+    +
+    \cdots
+  \right)
+  \delta \phi^a \wedge dvol_\Sigma
+  }}
+  \,.
+$$
+
+
+=--
+
+
+
++-- {: .num_defn #Variation}
+###### Definition
+**(variation)**
+
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}).
+
+A _variation_ is a vertical [[vector field]] $v$ on the [[jet bundle]] $J^\infty_\Sigma(E)$ which
+vanishes when evaluated in the [[horizontal differential forms]];
+
+hence for the [[field bundle]] a [[trivial vector bundle]] over [[Minkowski spacetime]] as in example \ref{TrivialVectorBundleAsAFieldBundle},
+a variation is of the form
+
+$$
+  v = v^a \partial_{\Phi^a} + v^a_{,\mu} \partial_{\phi^a_{,\mu}} + v^a_{\mu_1 \mu_2} \partial_{\phi^a_{\mu_1 \mu_2}} + \cdots
+$$
+
+=--
+
++-- {: .num_defn #SymmetriesAndConservedCurrents}
+###### Definition
+**([[infinitesimal symmetries of the Lagrangian]] and [[conserved currents]])
+
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}). 
+
+
+1. an _[[infinitesimal symmetry of the Lagrangian]]_ is a variation $v$ (def. \ref{Variation}) such that the [[Lie derivative]] $\mathcal{L}_v$ of the
+   Lagrangian density is a [[total derivative|total spacetime derivative]]
+   
+   $$
+     \mathcal{L}_v \mathbf{L} = d \tilde J
+   $$
+   
+
+1. an _[[on-shell]] [[conserved current]]_ is a horizontal $p$-form $J \in \Omega^{p,0}_\Sigma(E)$
+   whose [[total derivative|total spacetime derivative]] vanishes on the [[shell]] (eq:ShellInJetBundle)
+   
+   $$
+     d J\vert_{\mathcal{E}} = 0
+     \,.
+   $$
+
+=--
+
+
++-- {: .num_prop #NoethersFirstTheorem}
+###### Proposition
+**([[Noether's theorem]] I)**
+
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}).
+
+If $v$ is an [[infinitesimal symmetry of the Lagrangian]] (def. \ref{SymmetriesAndConservedCurrents}) 
+with $\mathcal{L}_v \mathbf{L} = d \tilde J_v$, then
+
+$$
+  J_v \coloneqq \tilde J_v - \iota_v \Theta
+$$
+
+is an [[on-shell]] [[conserved current]] (def. \ref{SymmetriesAndConservedCurrents}), for $\Theta$
+any choice of potential for the [[presymplectic current]] from def. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By [[Cartan's magic formula]] for the [[Lie derivative]] and using (eq:dLDecomposition)
+and the fact that the variation vector field $v$ vanishes on horizontal differential forms
+we may re-express the defining equation for the symmetry as
+
+$$
+  d \tilde J
+  =
+  \mathcal{L}_v \mathbf{L}
+  =
+  \iota_v \underset{= \delta_{EL}\mathbf{L} + d \Theta}{\underbrace{\mathbf{d} \mathbf{L}}}
+  +
+  \mathbf{d} \underset{= 0}{\underbrace{\iota_v \mathbf{L}}} 
+  =
+  \frac{\delta_{EL}\mathbf{L}}{\delta v}
+  - d \iota_v \Theta
+$$
+
+which is equivalent to
+
+$$
+  d(\underset{= J_v}{\underbrace{\tilde J - \iota_v \Theta}}) = \frac{\delta_{EL}\mathbf{L}}{\delta v}
+$$
+
+Since by definition of $\mathcal{E}$ the form $\frac{\delta_{EL} \mathbf{L}}{\delta v}$ vanishes on $\mathcal{E}$
+this yield the claim.
+
+=--
+
++-- {: .num_defn #SymmetriesAndConservedCurrents}
+###### Definition
+**([[Hamiltonian differential forms]])
+
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
+with [[shell]] $\mathcal{E} \hookrightarrow J^\infty_\Sigma(E)$.
+
+A horizontal [[on-shell]] $p$-form $H \in \Omega^{p,0}_\Sigma(\mathcal{E})$ such that there is some variation $v$ (def. \ref{Variation})
+with 
+
+$$
+  \mathcal{L}_v \Theta = d \tilde H_v
+$$ 
+
+with 
+
+$$
+  H = \tilde H_v - \iota_v \Theta
+$$
+
+is called a _[[Hamiltonian differential form]]_
+
+We write
+
+$$
+  \Omega^{p,0}_{\Sigma, Ham}(E)
+  \;\coloneqq\;
+  \left\{
+    (J,v)
+    \;\vert\;
+    v \, \text{is a variation and}\,
+    \iota_v \Omega = J
+  \right\}
+$$
+
+for the space of pairs consisting of a Hamiltonian differential form and a corresponding variation.
+
+=--
+
+
+| [[prequantum geometry|prequantum space]] | [[symmetry]] | [[Cartan's magic formula]] | corresponding physical quantity |
+| -----------------------|--------------|----------------------------|---------------------------------|
+| [[field bundle]]   |   $\mathcal{L}_v \mathbf{L} = d \tilde J$  | $\Leftrightarrow d(\underset{= J_v}{\underbrace{\tilde J - \iota_v \Theta}}) = \iota_v \delta_{EL}\mathbf{L}$ | [[conserved current]] |
+| [[shell]] | $\mathcal{L}_v \Theta = d \tilde H$ | $\Leftrightarrow d(\underset{= H_v}{\underbrace{\tilde H_v - \iota_v \Theta}}) = \iota_v \Omega$ | [[Hamiltonian differential form]] |
+ 
+
+
+
+## Local observables
+ 
+
+
+Given any type of fields (def. \ref{Fields}), those field configurations that
+are to be regarded as "physically realizable" (if we think of the field theory as a description of the [[observable universe]])
+should satisfy some [[differential equation]] (the "[[equation of motion]]"), meaning that realizability of any field configuration may
+be checked upon restricting the configuration to the [[infinitesimal neighbourhoods]] of each spacetime point.
+This expresses the physical absence of "action at a distance" and is one aspect of what it means to have
+a _[[local field theory]]_.
+
+For many field theories of interest, their [[differential equation|differential]] [[equation of motion]]
+is not a random [[PDE]], but is of the special kind that exhibits the "[[principle of extremal action]]"
+determined by a [[local Lagrangian density]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime} below). Therefore these are called _[[Lagrangian field theories]]_, and this is what we consider here.
+
+In terms of [[variational calculus]] on [[jet bundles]], the [[principle of extremal action]]
+has a simple precise manifestation, expressed by the [[Euler-Lagrange variational derivative]]
+of the Lagrangian density (def. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime} above)
+and the _[[Euler-Lagrange equation]] [[equation of motion|of motion]]_ that it encodes
+(def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime} below).
+
+
+On the one hand it is simply an [[experiment|experimental fact]] that the [[observable universe]]
+follows the [[principle of extremal action]] -- aspects of which have been known in ancient times already --
+hence that it is well described by [[local Lagrangian field theory]]. But there is also
+a mathematical reason that singles out the [[Euler-Lagrange variational derivative]]:
+It turns out to be what makes the [[Poincare lemma]] on [[spacetime]] compatible with that on the [[jet bundle]]
+by completing the [[sheaf of chain complexes]] of the [[horizontal differential forms]] on the [[jet bundle]] to a [[resolution]]
+of the the [[ground field]], viewed as a [[constant sheaf]] on the jet bundle:
+this the _[[Euler-Lagrange complex]]_.
+
+
+Given a field theory as above, then an _[[observable]]_ is some function on the space of [[on-shell]]
+field [[trajectories]] (def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime}). A typical example for the [[scalar field]] is the "field amplitude averaged over a given spacetime region"
+determined by a [[bump function]] $b \in C^\infty_{cp}(\Sigma)$. On an on-shell  field configuration $\Phi$ this observable
+takes as value the integral $\int_\Sigma \Phi(x) b(x) dvol_\Sigma(x)$. Similar observbales are obtained from integrals such as
+$\int_\Sigma \Phi(x) \frac{\partial \Phi}{\partial x^\mu}(x) b(x) dvol_\Sigma(x)$ etc.
+These are examples of _[[local observables]]_, in that they are spacetime averages of quantities that depend
+on functions of the field histories and their derivatives _at a fixed spacetime point_.
+
+But functions of field histories and their derivatives at fixed spacetime points are precisely functions
+on the [[jet bundle]], and equipped with a [[measure]] for how to average these over [[spacetime]] are
+precisely [[horizontal differential forms]] on spacetime of degree $(p+1)$. Hence these horizontal $(p+1)$-forms
+should induce local observables, and this is the process of _[[transgression of differential forms]]_.
+
+
+
+
+While the [[variational bicomplex]] on the jet bundle encodes the [[variational calculus]]
+on all _possible_ derivatives of field configurations, it may be [[transgression|transgressed]]
+to the [[space of histories]] of actual fields (def. \ref{Fields}) to yield information
+on the variation of actual fields. This [[transgression of differential forms]] involves [[integration]] over regions of [[spacetimes]],
+and hence requires a condition on the differential forms over the jet bundle to have [[compact support]]
+along spacetime:
+
+
++-- {: .num_defn #EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime}
+###### Definition
+**([[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]])**
+
+Given a [[field bundle]] $E$ over [[spacetime]] $\Sigma$ as in example \ref{TrivialVectorBundleAsAFieldBundle}
+equipped with a [[local Lagrangian density]] $\mathbf{L} \in  \Omega^{p+1,1}_{\Sigma}(E)$ as in def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}
+then the corresponding _[[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]]_
+on fields $\Phi \in \Gamma_\Sigma(E)$ is the equation
+
+$$
+  j^\infty_\Sigma(\Phi)^\ast \left(\delta_{EL} \mathbf{L}\right) = 0
+  \,,
+$$
+
+where $j^\infty_\Sigma(\Phi) \colon \Sigma \to J^\infty_{\Sigma}(E)$ denotes the [[jet prolongation]] of $\Phi$ (def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}), $j^\infty_{\Sigma}(\Phi)^\ast$ the operation of
+[[pullback
+of differential forms]] along this function, and $\delta_{EL}$ is the
+[[Euler-Lagrange operator]] from prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}.
+
+By that same proposition this equation is
+equivalently the [[differential equation]]
+
+$$
+  \left(
+    \frac{\partial L}{\partial \phi^a}
+      -
+    \frac{d}{d x^\mu}
+    \frac{\partial L}{\partial \phi^a_{,\mu}}
+    +
+    \frac{d^2}{d x^\mu d x^\nu} \frac{\partial L}{\partial \phi^a_{,\mu\nu}}
+    -
+    \cdots
+  \right)
+  \left(
+     (x^\mu), (\Phi^a), \left( \frac{\partial \Phi^a}{\partial x^\mu}, \frac{\partial^2 \Phi^a}{\partial x^\mu \partial x^\nu} \right)
+  \right)
+  \;=\;
+  0
+  \,.
+$$
+
+We write
+
+$$
+  \Gamma_\Sigma(E)_{\delta_{EL} L = 0}
+    \hookrightarrow
+  \Gamma_\Sigma(E)
+$$
+
+for the [[smooth space|smooth]] subspace of the space of all field configurations on those that solve this
+differential equation.
+
+In the physics literature this subspace of solutions to the [[equations of motion]] is also called the _[[shell]]_.
+Phrases like "working on-shell" refer to restricting constructions to this the subspace of solutions
+inside the full [[space of histories]].
+
+=--
+
+
+
+
++-- {: .num_defn #SpacetimeSupport}
+###### Definition
+**(spacetime support)**
+
+Let $E \overset{fb}{\to} \Sigma$ be a [[field bundle]] over a [[spacetime]] $\Sigma$ (def. \ref{Fields}),
+with induced [[jet bundle]] $J^\infty_\Sigma(E)$
+
+For every [[subset]] $S \subset \Sigma$ let
+
+$$
+  \array{
+    J^\infty_\Sigma(E)\vert_S
+      &\overset{\iota_S}{\hookrightarrow}&
+    J^\infty_\Sigma(E)
+    \\
+    \downarrow &(pb)& \downarrow
+    \\
+    S &\hookrightarrow& \Sigma
+  }
+$$
+
+be the corresponding restriction of the [[jet bundle]] of $E$.
+
+The _spacetime support  _ $supp_\Sigma(A)$ of a [[differential form]] $A \in \Omega^\bullet(J^\infty_\Sigma(E))$
+on the [[jet bundle]] of $E$ is the [[topological closure]] of the maximal subset $S \subset \Sigma$
+such that the restriction of $A$ to the jet bundle restrited to this subset vanishes:
+
+$$
+  supp_\Sigma(A) \coloneqq Cl( \{ x \in \Sigma |  \iota_{\{x\}^\ast A = 0} \} )
+$$
+
+We write
+
+$$
+  \Omega^{r,s}_{\Sigma,cp}(E)
+  \coloneqq
+  \left\{
+    A \in \Omega^{r,s}_\Sigma(E)
+    \;\vert\;
+    supp_\Sigma(A) \, \text{is compact}
+  \right\}
+    \;\hookrightarrow\;
+  \Omega^{r,s}_\Sigma(E)
+$$
+
+for the subspace of differential forms on the jet bundle whose spacetime support is a [[compact subspace]].
+
+=--
+
++-- {: .num_defn #TransgressionOfVariationalDifferentialFormsToConfigrationSpaces}
+###### Definition
+**([[transgression of variational differential forms]] to [[field (physics)|field]] [[space of histories]])
+
+
+Let $E \overset{fb}{\to} \Sigma$ be a [[field bundle]] over a [[spacetime]] $\Sigma$ (def. \ref{Fields}), with induced [[jet bundle]] $J^\infty_\Sigma(E)$
+
+For
+$\Sigma_r \hookrightarrow \Sigma$ be a submanifold of [[spacetime]] of dimension $r \in \mathbb{N}$,
+then _transgression]] of variational differential forms to $\Sigma_r$_ is the function
+
+$$
+  \tau_{\Sigma_r}
+   \;\colon\;
+  \Omega^{r,\bullet}_{\Sigma,cp}(E)
+    \overset{  }{\longrightarrow}
+  \Omega^\bullet\left(
+    \Gamma_{\Sigma_r}(E)
+   \right)
+$$
+
+which sends a differential form $A \in \Omega^{r,\bullet}_{\Sigma,cp}(E)$
+to the differential form $\tau_{\Sigma_r} \in \Omega^\bullet(\Gamma_{\Sigma_r}(E))$
+which to a smooth family on field configurations
+
+$$
+  \Phi_{(-)} \;\colon\; U \times N_\Sigma \Sigma_r \longrightarrow E
+$$
+
+assigns the differential form given by first forming the [[pullback of differential forms]] along the family of [[jet prolongation]] $j^\infty_\Sigma(\Phi_{(-)})$ followed by the [[integration of differential forms]] over $\Sigma_r$:
+
+$$
+  (\tau_{\Sigma}A)_\Phi
+    \;\coloneqq\;
+  \int_{\Sigma_r}  (j^\infty_\Sigma(\Phi_{(-)}))^\ast
+  \;\in\;
+  \Omega^\bullet(U)
+  \,.
+$$
+
+=--
+
+
++-- {: .num_example }
+###### Example
+**(some [[transgressions of variational differential forms]])**
+
+
+We spell out the result of [[transgression of variational differential forms]] (def. \ref{TransgressionOfVariationalDifferentialFormsToConfigrationSpaces})
+of some variational differential forms on the [[jet bundle]] of a trivial vector field bundle (def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) to the [[space of histories]] $\Gamma_\Sigma(E)$
+of fields (def. \ref{Fields}).
+
+We describe the resulting transgressed differential forms restricted to any smooth family of field configurations
+
+$$
+  \Phi_{(-)} \;\colon\; U \times \Sigma \longrightarrow E
+  \,.
+$$
+
+
+
+Let $b \in C^\infty_{cp}(\Sigma)$ be any [[bump function]] on spacetime. Its product with the [[volume form]]
+(as in example \ref{BasicFactsAboutVarationalCalculusOnJetBundleOfTrivialVectorBundle}) is then a
+horizontal $p+1$-form on the jet bundle with compact spacetime support.
+
+$$
+  b dvol_\Sigma \in \Omega^{0,0}_{\Sigma,cp}(E)
+$$
+
+The transgression of this 0-form to the [[space of histories]] of fields
+
+$$
+  \tau_\Sigma (b dvol_\Sigma) \in \Omega^0( \Gamma_\Sigma(E) )
+$$
+
+is the differential form on $\Gamma_\Sigma(E)$ which restricted to the given family of
+field configurations $\Phi_{(-)} \colon u \mapsto \Phi_u$ yields the function
+
+$$
+  \tau_\Sigma (b dvol_\Sigma)\vert_\Phi \colon u \mapsto \int_\Sigma b dvol_\Sigma
+$$
+
+which is simply the constant function with value the integral of $b$ against the given volume form.
+
+The constancy of this function is due to the fact that $b dvol_\Sigma$ does not depend on the field variables. So consider next the
+horizontal $(p+1)$-form
+
+$$
+  \phi^a \, b dvol_\Sigma \; \in \Omega^{p+1,0}( E )
+  \,.
+$$
+
+Its transgression is the function
+
+$$
+  \tau_\Sigma( \phi^a \, b dvol_\Sigma  )_\Phi
+   \;=\;
+   \left(
+     u
+       \mapsto
+     \int_\Sigma \Phi^a_{(u)}(x)  b(x) dvol_\Sigma(x)
+   \right)
+$$
+
+which assigns to a given field configuration $\Phi_{u}$ in the family the value its $a$-component
+integrated against $b dvol_\Sigma$.
+
+Similarly the transgression of $\phi^a_{,\mu}$ is the function
+
+$$
+  \tau_\Sigma( \phi^a_{,\mu} \, b dvol_\Sigma  )_\Phi
+   \;=\;
+   \left(
+     u
+       \mapsto
+     \int_\Sigma \frac{\partial \Phi^a_{u}}{\partial x^\mu}  b(x) dvol_\Sigma(x)
+   \right)
+$$
+
+which assigns to a field configuration the integral of the value of the $\mu$th derivative of its $a$th
+component against $b dvol_\Sigma$.
+
+Next consider a horizontally exact variational form
+
+$$
+  d \alpha \in \Omega^{p+1,s}_{\Sigma,cp}(E)
+  \,.
+$$
+
+By prop. \ref{PullbackAlongJetProlongationIntertwinesHorizontalDerivative} the pullback of this form
+along the jet prolongation of fields is exact in the $\Sigma$-direction:
+
+$$
+  (j^\infty_\Sigma\Phi_{(-)})^\ast(d \alpha  \wedge b dvol_\Sigma) = d_\Sigma (j^\infty_\Sigma\Phi_{(-)})^\ast\alpha \wedge b dvol_\Sigma
+  \,,
+$$
+
+(where we write $d = d_U + d_\Sigma$ for the de Rham differential on $U \times \Sigma$). It follows that the
+integral over $\Sigma$ vanishes.
+
+Now let
+
+$$
+  \delta \phi^a_{,\mu_1 \cdots \mu_k} \, b dvol_\Sigma
+  \in
+  \Omega^{p+1,1}_\Sigma(E)
+$$
+
+be a variational (vertical) differential 1-form.
+Its [[pullback of differential forms]]
+along $j^\infty_\Sigma(\Phi_{(-)}) \colon U \times \Sigma \to J^\infty_\Sigma(E)$ has two contributions:
+one from the variation along $\Sigma$, the other from variation along $U$.
+
+
+By prop. \ref{PullbackAlongJetProlongationIntertwinesHorizontalDerivative},
+for _fixed_ $u \in U$ the pullback along the jet prolongation vanishes.
+
+On the other hand, for fixed $s \in \Sigma$, the pullback of $\mathbf{d} \phi^a_{\mu_1\cdots \mu_k}$
+is
+$$
+  d_U \frac{ \partial^k \Phi_{(-)}}{\partial x^{\mu^1} \cdots \partial x^{\mu_k}}
+$$
+while the pullback of $d \phi^a_{\mu_1\cdots \mu_k}$ vanishes at fixed $\Sigma$.
+
+This means that
+
+$$
+  \tau_\Sigma( \delta \phi^a_{,\mu_1 \cdots \mu_k} )
+  =
+  d \tau_{\Sigma}( \phi^a_{_\mu_1 \cdots \mu_k} )
+$$
+
+is the de Rham differential (on $U$) of the corresponding function discussed before.
+
+In conclusion:
+
+Under transgression the variational (vertical) derivative on the jet bundle turns into the
+ordinary de Rham derivative on the [[space of histories]] of fields.
+
+=--
+
++-- {: .num_defn #LocalObservables}
+###### Definition
+**([[local observables]])**
+
+Given a [[Lagrangian field theory]] with  [[on-shell]] [[space of histories]] $\Gamma_\Sigma(E)_{\delta_{EL} \mathbf{L} = 0}$
+(def. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime})
+then the space of _[[observables]]_ is simply the space of [[complex numbers|complex]]-valued functions
+
+$$
+  A \;\colon\;  \Gamma_\Sigma(E)_{\delta_{EL}\mathbf{L} = 0} \longrightarrow \mathbb{C}
+  \,.
+$$
+
+The _[[local observables]]_ are those observables which arise as the [[transgression of variational differential forms]] (def. \ref{TransgressionOfVariationalDifferentialFormsToConfigrationSpaces})
+of [[horizontal  differential form|horizontal p+1-forms]] of compact spacetime support (def. \ref{SpacetimeSupport}):
+
+$$
+  \mathcal{F}_{loc}
+   \;\coloneqq\;
+  im\left(
+    \Omega^{p+1,0}_{\Sigma,cp}(E)
+      \overset{\tau_{\Sigma}}{\longrightarrow}
+    C^\infty\left( \Gamma_\Sigma(E)_{\delta_{EL}\mathbf{L} = 0} \right)
+  \right)
+  \,.
+$$
+
+Equivalently this is
+
+$$
+  \mathcal{F}_{loc}
+    \simeq
+  \Omega^{p+1}_{\Sigma,cp}(E)/im(d)
+  \,.
+$$
+
+=--
+
++-- {: .num_defn #HamiltonianDifferentialForm}
+###### Definition
+**([[Hamiltonian differential forms]])***
+
+Let $(E, \mathbf{L})$ be a [[prequantum field theory|prequantum]] [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}). Then
+a [[Hamiltonian differential form]] on $J^\infty_\Sigma(E)$ is a [[horizontal differential form]] $A \in \Omega^{p,0}_\Sigma(E)$
+such that there exists a [[vector field]] $v_H$ with
+
+$$
+  \mathbf{d} H = \iota_{v_H} \Omega
+  \,,
+$$
+
+where $\Omega$ denotes the [[pre-symplectic current]] (def. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}).
+Any such choice of $v_H$ is called a _[[Hamiltonian vector field]]_ for $H$.
+
+We write
+
+$$
+  \Omega_{\Sigma,Ham}(E)
+$$
+
+for the space of pairs consisting of a Hamiltonian differential form and a corresponding Hamiltonian vector field.
+
+=--
+
+
+
+## Phase space
+  {#PhaseSpace}
+
++-- {: .num_defn #CauchySurface}
+###### Definition
+**([[Cauchy surface]])**
+
+Given a [[Lagrangian field theory]] on a [[spacetime]] $\Sigma$, then a
+_[[Cauchy surface]]_ is a [[submanifold]] $\Sigma_p \hookrightarrow \Sigma$ such that the
+restriction of [[on-shell]] field configurations to the [[infinitesimal neighbourhood]] $N_\Sigma(\Sigma_p)$ of $\Sigma_p$
+in $\Sigma$ is a [[isomorphism]]:
+
+$$
+  \Gamma_\Sigma(E)_{\delta_{EL} \mathbf{L} = 0 }
+    \underoverset{\simeq}{(-)\vert_{N_\Sigma \Sigma_p}}{\longrightarrow}
+  \Gamma_{N_\Sigma(\Sigma_p)}(E)_{\delta_{EL}\mathbf{L} = 0}
+  \,.
+$$
+
+=--
+
+
+There is the _[[Lepage form]]_
+
+$$
+  \mathbf{L} + \Theta
+  \,.
+$$
+
+This has the property that
+
+$$
+  \mathbf{d}(\mathbf{L} + \Theta)
+  =
+  \delta_{EL} \mathbf{L} + \Omega
+$$
+
+This implies by the formula for relative [[transgression of variational differential forms]] (prop. \ref{RelativeTransgressionOfDifferentialForms})
+that for $\Sigma^{(in)}_p, \Sigma^{(out)}_p \hookrightarrow \Sigma$ two submanifolds and
+$\Sigma_{p+1} \hookrightarrow \Sigma$ a cobordism between them, then we have a [[Lagrangian correspondence]]
+
+$$
+  \array{
+    && \Gamma_{\Sigma_{p+1}}(E)_{\delta_{EL} \mathbf{L} = 0}
+    \\
+    & \swarrow && \searrow
+    \\
+    \Gamma_{\Sigma^{(in)}_p}(E)_{\delta_{EL}\mathbf{L}= 0}
+    && &&
+    \Gamma_{\Sigma^{(out)}_p}(E)_{\delta_{EL}\mathbf{L}= 0}
+    \\
+    & {}_{\mathllap{\omega_{in}}}\searrow && \swarrow_{\mathrlap{\omega_{out}}}
+    \\
+    && \mathbf{\Omega}^{2}
+  }
+$$
+
+
+This means that the pre-symplectic structure on the [[on-shell]] [[space of histories]] is
+well-defined independently of the choice of [[Cauchy surface]]. Therefore one speaks of the
+_[[covariant phase space]]_.
+
+
++-- {: .num_defn}
+###### Definition
+**([[covariant phase space]])
+
+Let
+
+1. $\Sigma$ be a [[spacetime]] of [[dimension]] $p+1$;
+
+1. $E \overset{fb}{\longrightarrow} \Sigma$ a [[field bundle]] (def. \ref{Fields})
+
+1. $\mathbf{L} \in \Omega^{p+1,0}_\Sigma(E)$ a [[local Lagrangian density]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime});
+
+and consider
+
+* $\Sigma_p \hookrightarrow \Sigma$ a [[Cauchy surface]].
+
+
+We say that
+
+1. the _[[phase space]]_ with respect to $\Sigma_p$ is the space of solutions to the [[Euler-Lagrange equations|Euler-Lagrange]] [[equations of motion]] (def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime})
+restricted to the [[infinitesimal neighbourhood]] $N_\Sigma(\Sigma_p)$ (def. \ref{ConfigurationSpaceOverSubmanifoldOfSpacetime}):
+
+   $$
+    \Gamma_{\Sigma_p}(E)_{\delta_{EL}\mathbf{L} = 0}
+   $$
+
+
+1. the space $\mathcal{F}_{loc}$ of _[[local observables]] on phase space_
+is the [[image]] under [[transgression]] to $\Sigma_p$ (def. \ref{TransgressionOfVariationalDifferentialFormsToConfigrationSpaces})
+of the [[Hamiltonian form|Hamiltonian]] [[horizontal differential form|horizontal]] $p$-forms with compact spacetime support (def. \ref{SpacetimeSupport}):
+
+   $$
+     \mathcal{F}_{loc}
+       \;\coloneqq\;
+     im\left(
+       \Omega^{r,0}_{\Sigma,cp,Ham}(E)
+         \overset{\tau_{\Sigma_p}}{\longrightarrow}
+       C^\infty\left(
+         \Gamma_{\Sigma_p}(E)_{\delta_{EL}\mathbf{L} = 0}
+       \right)
+     \right)
+   $$
+
+1. the _[[Poisson bracket]]_ on $\mathcal{F}_{loc}$ is that induced from the [[Poisson Lie n-algebra]] bracket on
+Hamiltonian forms:
+
+   $$
+     \array{
+       \Omega^{r,0}_{\Sigma,cp,Ham}(E)
+       \otimes
+       \Omega^{r,0}_{\Sigma,cp,Ham}(E)
+         &\longrightarrow&
+       \Omega^{r,0}_{\Sigma,cp,Ham}(E)
+       \\
+       {}^{\mathllap{\tau_{\Sigma_p} \otimes \tau_{\Sigma_p}}}\downarrow && \downarrow^{\mathrlap{\tau_{\Sigma_p}}}
+       \\
+       \mathcal{F}_{loc} \otimes \mathcal{F}_{loc}
+         &\underset{}{\longrightarrow}&
+       \mathcal{F}_{loc}
+     }
+   $$
+
+=--
+
+## Algebraic quantization
+
+[[formal algebraic deformation quantization]], [[strict algebraic deformation quantization]]
+
+* [[Planck's constant]] $\hbar$
+
+* [[algebra of quantum observables]]
+
+* [[quantum states]]
+
+* examples 
+
+  [[Moyal deformation quantization]]
+  
+  [[Fedosov deformation quantization]]
+
+
+[[free field theory]]
+
+* [[differential operator]], [[normally hyperbolic differential operator]]
+
+* [[Green function]], [[distribution]], [[wave front set]]
+
+* [[causal propagator]], [[advanced propagator]], [[retarded propagator]]
+
+* [[Hadamard state]]
+
+
+* [[Wick algebra]] and [[normal-ordered product]]
+
+  $\mathcal{F}_{loc} \overset{:-:}{\longrightarrow} \mathcal{F}_{mc}[ [ \hbar ] ]$
+
+
+[[S-matrix]]
+
+* [[causal additivity]]
+
+* [[time-ordered product]]
+
+* [[causally local net of quantum observables]]
+
+...
+
+
+[[Feynman diagrams]]
+
+* [[Feynman propagator]]
+
+* [[loop order]]
+
+[[renormalization]]
+
+* [[extension of distributions]]
+
+* [[main theorem of perturbative renormalization]]
+
+...
