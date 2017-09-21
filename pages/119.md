@@ -17,7 +17,7 @@
 
 A preorder (also sometimes called a _[[quasi-order]]_, especially if one works with $\lt$ instead of $\leq$) is like a [[partial order]], but without the "antisymmetry" requirement that $x \leq y$ and $y \leq x$ implies $x = y$.
 
-By interpreting the relation $\leq$ as the existence of a unique arrow, preorders may be regarded as certain [[categories]] (namely, [[thin categories]]); see below for details.
+By interpreting the relation $\leq$ as the existence of a unique [[morphism]], preorders may be regarded as certain [[categories]] (namely, [[thin categories]]), sometime called _[[preorder categories]]_; see below for details.
 
 
 ## Definition
