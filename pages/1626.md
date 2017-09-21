@@ -581,7 +581,7 @@ The functor $\pi_0 \colon Top \to Set$ preserves arbitrary coproducts.
 =--
 
 +-- {: .proof}
-####### Proof
+###### Proof
 The functor $\hom(I, -) \colon Top \to Set$ preserves coproducts since $I$ is connected, and similarly for $\hom(1, -)$. The coequalizer of a pair of natural transformations between coproduct-preserving functors is also a coproduct-preserving functor.
 =--
 
