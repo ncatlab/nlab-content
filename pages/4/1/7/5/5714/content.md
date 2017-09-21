@@ -74,6 +74,7 @@ The [[geometric quantization]] of presymplectic manifolds by [[geometric quantiz
 [[!redirects presymplectic forms]]
 
 [[!redirects presymplectic smooth space]]
+[[!redirects presymplectic smooth spaces]]
 
 [[!redirects presymplectic manifold]]
 [[!redirects presymplectic manifolds]]
