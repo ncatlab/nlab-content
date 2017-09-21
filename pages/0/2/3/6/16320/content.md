@@ -13,7 +13,7 @@
 
 ## Idea
 
-A point in a [[spacetime]].
+A [[point]] in a [[spacetime]].
 
 ## Related concepts
 
@@ -22,3 +22,5 @@ A point in a [[spacetime]].
 ## References
 
 * Wikipedia, _[Event (relativity)](http://en.wikipedia.org/wiki/Event_%28relativity%29)_
+
+[[!redirects events]]
