@@ -84,6 +84,8 @@ This appears as ([Rosolini, corollary. 2.3](#Rosolini)).
 
 * [[specialization topology]]
 
+* [[PreOrd]] 
+
 ## References
 
 [[Cauchy completion]] for preorders is discussed in 
