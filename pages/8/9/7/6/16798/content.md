@@ -15,7 +15,14 @@
 
 ## Definition
 
-Given a [[smooth function|smooth]] [[bundle]] $E \to \Sigma$, then a [[differential form]] on its [[jet bundle]] $Jet(E)$ is called a _source form_ if it is of vertical degree 1 (with respect to the [[variational bicomplex]]) and its evaluation on a [[vector field]] depends only on the projection of that vector field to a vector field on $E$ itself (e.g. [Zuckerman 87, p. 6](#Zuckerman87)).
+Given a [[smooth function|smooth]] [[bundle]] $E \to \Sigma$, then a [[differential form]] on its [[jet bundle]] $J^\infty_\Sigma(E)$ is called a _source form_ if it is of vertical degree 1 (with respect to the [[variational bicomplex]]) and its evaluation on a [[vector field]] depends only on the projection of that vector field to a vector field on $E$ itself (e.g. [Zuckerman 87, p. 6](#Zuckerman87)):
+
+$$
+  \Omega^{k,1}_{\Sigma,source}(E)
+  \;\coloneqq\;
+  \Omega^{k,0}_\Sigma(E) \wedge \delta C^\infty(E) 
+  \,.
+$$
 
 ## In variational calculus
 
