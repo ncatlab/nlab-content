@@ -1672,27 +1672,39 @@ $\,$
 $\,$
 
 
+Since therefore both the [[conserved currents]] from [[Noether's theorem]] as well as
+the [[Hamiltonian differential forms]] are generators of infinitesimal [[symmetries]] of certain variational forms
+(namely of the [[Lagrangian density]] and of the [[presymplectic current]], respectively) they
+form a [[Lie algebra]]. For the conserved currents this is sometimes known as the _[[Dickey bracket]] Lie algebra_.
+For the Hamiltonian forms it is the _[[Poisson bracket Lie n-algebra|Poisson bracket Lie p+1-algebra]]_. Since here for simplicity
+we are considering just vertical variations, we have just a plain [[Lie algebra]]. 
+The [[transgression of variational differential forms|transgression]] of this Lie algebra of Hamiltonian forms
+on the jet bundle to [[Cauchy surfaces]] yields a [[presymplectic structure]] on [[phase space]], this we discuss 
+[below](#PhaseSpace).
+
+
 +-- {: .num_example #LocalPoissonBracket}
 ###### Proposition
 **([[Poisson bracket Lie n-algebra|Poisson bracket Lie p+1 algebra]])
 
-Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]]. 
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}).
 
 On the space $\Omega^{p,0}_{\Sigma,Ham}(E)$ pairs $(H,v)$ of [[Hamiltonian differential forms]] $H$ with compatible variation $v$ (def. \ref{HamiltonianForms}) the following operation constitutes a [[Lie bracket]]:
 
 $$
-  [(H_1, v_1), (H_2, v_2)]
-  \coloneqq
-  (\iota_{v_1} \iota_{v_2} \Omega, [v_1,v_2])
+  [(H_1, v_1),\, (H_2, v_2)]
+  \;\coloneqq\;
+  (\iota_{v_1} \iota_{v_2} \Omega,\, [v_1,v_2])
   \,.
 $$
 
 (Here $[v_1, v_2]$ denotes the ordinary Lie bracket of [[vector fields]].)
 
-This [[Lie algebra]] $(\Omega^{p,0}_{\Sigma,Ham}(E), [-,-])$ is 
-(the lowest stage of) the _[[Poisson bracket Lie n-algebra|Poisson bracket Lie p-algebra]]_.
 
 =--
+
+This [[Lie algebra]] $(\Omega^{p,0}_{\Sigma,Ham}(E), [-,-])$ is
+(the lowest stage of) the _[[Poisson bracket Lie n-algebra|Poisson bracket Lie p-algebra]]_.
 
 
 +-- {: .proof}
@@ -1700,7 +1712,7 @@ This [[Lie algebra]] $(\Omega^{p,0}_{\Sigma,Ham}(E), [-,-])$ is
 
 First we need to check that the bracket is well defined in itself. It
 is clear that it is linear and skew-symmetric, but what needs proof is that 
-it does indeed land in $(\Omega^{p,0}_{\Sigma,Ham}(E)$, hence that the following
+it does indeed land in $\Omega^{p,0}_{\Sigma,Ham}(E)$, hence that the following
 equation holds:
 
 $$
@@ -1777,7 +1789,7 @@ $$
   \end{aligned}
 $$
 
-This show that the bracket is well defined.
+This shows that the bracket is well defined.
 
 It remains to see that the bracket satifies the [[Jacobi identity]]:
 
@@ -1791,7 +1803,7 @@ $$
 hence that 
 
 $$
-  \left(  \iota_{v_1} \iota_{[v_2,v_3]}  \Omega ,   [v_1, [v_2, v_2]] \right)
+  \left(  \iota_{v_1} \iota_{[v_2,v_3]}  \Omega ,\,   [v_1, [v_2, v_2]] \right)
   \;+\; (cyclic)
   \;=\; 0
   \,.
@@ -1801,7 +1813,7 @@ Here $ [v_1, [v_2, v_3]] + (cyclic) = 0 $ is the ordinary Jacobi identity for [[
 and hence what needs to be shown is that 
 
 $$
-  \iota_{v_1} \iota_{[v_2, v_3]}   \Omega + (cyclic) = ...
+  \iota_{v_1} \iota_{[v_2, v_3]}   \Omega + (cyclic) = 0
 $$
 
 We check this by repeated uses of [[Cartan calculus]], using in addition 
@@ -1809,7 +1821,7 @@ that
 
 1. $\delta \iota_{v_i} \Omega = 0$ 
 
-   (since $\iota_{v_i} \Omega = \delta-\text{exact}$ by $v_i$ being Hamiltonian)
+   (since $\iota_{v_i} \Omega = \delta H_i$ by $v_i$ being Hamiltonian)
 
 1. $\mathcal{L}_{v_i} \Omega = 0$ 
 
@@ -1867,21 +1879,46 @@ $\,$
 
 ## Local observables
 
-Given a [[field theory]] as above, then an _[[observable]]_ is a [[smooth function]] on the space of [[on-shell]]
-field [[trajectories]] (def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime}). A typical example for the [[scalar field]] is the "field amplitude averaged over a given spacetime region"
-determined by a [[bump function]] $b \in C^\infty_{cp}(\Sigma)$. On an on-shell  field configuration $\Phi$ this observable
-takes as value the integral $\int_\Sigma \Phi(x) b(x) dvol_\Sigma(x)$. Similar observables are obtained from integrals such as
-$\int_\Sigma \Phi(x) \frac{\partial \Phi}{\partial x^\mu}(x) b(x) dvol_\Sigma(x)$ etc.
-These are examples of _[[local observables]]_, in that they are spacetime averages of quantities that depend
-on functions of the field histories and their derivatives _at a fixed spacetime point_.
 
-The [[integrands]] in these expressions are nothing but horizontal $(p+1)$-forms on the [[jet bundle]],
-[[pullback of differential forms|pulled back]] along the [[jet prolongation]] of the fields:
-This construction of local observables from variational differential forms is
-_[[transgression of variational differential forms]], prop. \ref{TransgressionOfVariationalDifferentialFormsToConfigrationSpaces}
-below, generally defined on variational forms with compact spacetime support (def. \ref{SpacetimeSupport} below).
+Given a [[field theory]] as above, then an _[[observable]]_ is a [[smooth function]] 
 
+$$
+  A \;\colon\; \Gamma_\Sigma(E)_{\delta_{EL} = 0} \longrightarrow \mathcal{C}
+$$
 
+on the space of [[on-shell]]
+field [[trajectories]] (def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime}). We think 
+of this function as assigning to each physically realizable field history $\Phi$ the value $A(\Phi)$ of the given quantity as exhibited by 
+that field history. For instance concepts like "avarage field amplitude in spacetime region $\mathcal{O}$" should be 
+observables.
+
+In _[[local field theory]]_ the idea is that both the [[equations of motion]] as well as the observations
+are fully determined by their restriction to [[infinitesimal neighbourhoods]] of spacetime points ([[events]]).
+For the equations of motion this means that they are [[partial differential equations]] as we have seen 
+[above](#EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime). For the observables
+it should mean that they must be functions of the value of the Field histories and their derivatives
+_at any point_ of spacetime, or rather averages of such local observations over regions of spacetime.
+Now a "smooth function of the value of the field field histories and their derivatives at any point" 
+is precisely a smooth function on the [[jet bundle]] of the [[field bundle]] (example \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
+pulled back via [[jet prolongation]] (def. \ref{JetProlongation})
+and if this is to be averaged over spacetime it needs to be the coefficient of a horizontal $p+1$-form (prop. \ref{VariationalBicomplexOnSecondOrderJetBundleOverTrivialVectorBundleOverMinkowskiSpacetime}). 
+
+In mathematical terminology these desiderata say that the [[local observables]] in a local field theory should be precisely the 
+"[[transgression of variational differential forms|transgressions]]" of horizontal variational $p+1$-forms
+(with compact spacetime support, def. \ref{SpacetimeSupport} below) to the [[space of field histories]]. This is 
+def. \ref{TransgressionOfVariationalDifferentialFormsToConfigrationSpaces} below.
+
+A key example of a [[local observable]] in [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) is the _[[action functional]]_ (example \ref{ActionFunctional} below). This is the [[transgression of variational differential forms|transgression]]
+of the [[Lagrangian density]] itself, or rather of its product with an "[[adiabatic switching]] function" that 
+localizes its [[support]] in a compact spacetime region. In typical cases the physical quantity whose observation is 
+represented by the action functional is the difference of the [[kinetic energy|kinetic]] energy-momentum minus the [[potential energy]]
+of a field history averaged over the given region of spacetime.
+
+The [[equations of motion]] of a [[Lagrangian field theory]] say that those field histories
+are physically realized which are [[critical points]] of this [[action functional]] observable. This is 
+the _[[principle of extremal action]]_ (prop. \ref{PrincipleOfExtremalAction} below).
+
+$\,$
 
 +-- {: .num_defn #SpacetimeSupport}
 ###### Definition
@@ -2325,8 +2362,10 @@ This is another incarnation of the "[[shell]]" (eq:ShellInJetBundle).
 =--
 
 
-+-- {: .num_prop}
++-- {: .num_prop #PrincipleOfExtremalAction}
 ###### Proposition
+**([[principle of extremal action]])**
+
 
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}).
 
@@ -2421,9 +2460,19 @@ $$
 =--
 
 
++-- {: .num_example }
+###### Example
 
 
+A typical example of [[local observables]] (def. \ref{LocalObservables}) for the [[scalar field]] (example \ref{RealScalarFieldBundle}) is 
+the "field amplitude averaged over a given spacetime region"
+determined by a [[bump function]] $b \in C^\infty_{cp}(\Sigma)$. On an on-shell  field configuration $\Phi$ this observable
+takes as value the integral $\int_\Sigma \Phi(x) b(x) dvol_\Sigma(x)$. Similar observables are obtained from integrals such as
+$\int_\Sigma \Phi(x) \frac{\partial \Phi}{\partial x^\mu}(x) b(x) dvol_\Sigma(x)$ etc.
+These are examples of _[[local observables]]_, in that they are spacetime averages of quantities that depend
+on functions of the field histories and their derivatives _at a fixed spacetime point_.
 
+=--
 
 
 
