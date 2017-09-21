@@ -50,7 +50,7 @@ One finds that
 
 * $[\iota_v, \iota_w] = 0$.
 
-These relations are sometimes called **Cartan calculus**. The first one is sometimes called **Cartan's magic formula**.
+These relations are sometimes called **Cartan calculus**. The first one is sometimes called **Cartan's magic formula** or _[[Cartan's homotopy formula]]_.
 
 ## In $\infty$-Lie theory
 
