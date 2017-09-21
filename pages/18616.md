@@ -1,5 +1,37 @@
-Let $(S,\leq)$ be a [[preorder]], that is a set with a reflexive and transitive relation on it. There is a unique small category whose objects are elements of $S$ and which has exactly one arrow from $s$ to $s'$ iff $s\leq s'$. We say that this category is the __preorder category__ associated to $(S,\leq)$. If $\leq$ is also antisymmetric, that is $(S,\leq)$ is a [[partially ordered set]] (also said to be an order(ing)) then we say __order category__ instead. If the preorder is a [[directed set]] then the preorder category is said to be directed. 
 
-A prominent class of posets sometimes considered as order categories include [[frame]]s (which give rise to [[locale]]s). Preorder categories arising from categories of modules and Abelian categories in general are an intermediate step in a systematic study of spectra, see [[spectral cookbook]].
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### $(0,1)$-Category theory
++--{: .hide}
+[[!include (0,1)-category theory - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Definition
+
+Let $(S,\leq)$ be a [[preorder]], that is a [[set]] with a [[reflexive relation|reflexive]] and [[transitive relation]] on it. There is a unique [[small category]] whose [[objects]] are elements of $S$ and which has exactly one [[morphism]] from $s$ to $s'$ iff $s\leq s'$. We say that this category is the __preorder category__ associated to $(S,\leq)$. 
+
+If $\leq$ is also [[antisymmetric relation|antisymmetric]], that is $(S,\leq)$ is a [[partially ordered set]] (also said to be an order(ing)) then we say __order category__ instead. If the preorder is a [[directed set]] then the preorder category is said to be directed. 
+
+## Examples
+
+* A prominent class of posets sometimes considered as order categories include [[frames]] (which give rise to [[locales]]). 
+
+* Preorder categories arising from [[categories of modules]] and [[Abelian categories]] in general are an intermediate step in a systematic study of spectra, see at _[[spectral cookbook]]_.
+
+[[!redirects order categories]]
 
 [[!redirects preorder category]]
+[[!redirects preorder categories]]
+
+[[!redirects pre-order category]]
+[[!redirects pre-order categories]]
+
+
