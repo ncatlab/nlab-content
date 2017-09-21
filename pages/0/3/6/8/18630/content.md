@@ -14,13 +14,12 @@ This chapter introduces the basic concepts of _[[Lagrangian field theory]]_, fir
 In full beauty these concepts are extremely general; but the aim here is to give a first good idea of the subject, not
 a fully general account.
 
-Therefore we present in the following only the special case where [[spacetime]] is [[Minkowski spacetime]], the [[field bundle]] (def. \ref{Fields} below) is an ordinary [[trivial vector bundle]] and hence that the [[Lagrangian  density]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) is a globally defined [[horizontal differential form|variational differential form]]. We do however consider the proper [[differential geometry]] of the resulting [[spaces of field histories]] in  terms of [[smooth sets]] (see [below](#Geometry)) and hence (which works verbatim the same way) [[super smooth sets]]. This subsumes the
+Therefore we present in the following only the special case where [[spacetime]] is [[Minkowski spacetime]], the [[field bundle]] (def. \ref{Fields} below) is an ordinary [[trivial vector bundle]] and hence the [[Lagrangian  density]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime} below) is globally defined. We do however consider the proper [[differential geometry]] of the resulting [[spaces of field histories]] in  terms of [[smooth sets]] (see [below](#Geometry)) and hence (which works verbatim the same way) [[super smooth sets]]. This subsumes the
 case that there are [[fermion|fermionic]] fields such that the [[field bundle]] is a [[supermanifold]].
 (Notice that this does _not_ mean that we consider "[[supersymmetry]]": plain [[supergeometry]] is just the mathematical
 incarnation of the [[Pauli exclusion principle]] for [[fermions]]. )
 
-This simple setup already subsumes what is considered in most traditional texts on the subject. In subsequent sections we will eventually discuss more general situations, where spacetime is allowed to be [[globally hyperbolic Lorentzian manifold]] and the [[field bundle]] to be a [[super L-infinity algebra|super]]-[[derived Lie algebroid]]. This is then sufficient generality to capture the established perturbative [[BV formalism|BRST-BV quantization]]
-of [[fermions]] coupled to [[gauge fields]] [[AQFT on curved spacetime|on curved spacetimes]].
+This comparatively simple setup already subsumes what is considered in most traditional texts on the subject. In subsequent sections we will eventually discuss more general situations, where spacetime is allowed to be [[globally hyperbolic Lorentzian manifold]] and the [[field bundle]] to be a [[super L-infinity algebra|super]]-[[derived Lie algebroid]]. This is then sufficient generality to capture the established perturbative [[BV formalism|BRST-BV quantization]] of [[gauge fields]] coupled to [[fermions]] [[AQFT on curved spacetime|on curved spacetimes]].
 Further generalization, necessary for the discussion of global topological effects such as [[instanton]] configurations
 of [[gauge fields]] will be discussed elsewhere.
 
@@ -41,13 +40,13 @@ and including the chapter _[[geometry of physics -- supergeometry]]_.
 While the concept of _[[smooth sets]]_ is not advertised in traditional textbooks, it is actually simpler than
 that of smooth manifolds and it is closer to the operational nature of physics:
 
-A [[smooth set]] $X$ is defined simply by specifying, in a self-consistent way, what counts as a smooth function $U \to X$ (a "plot") from any [[Cartesian space]] $U$. Given two smooth sets $X$ and $Y$ then a [[smooth function]] $f \;\colon\; X \longrightarrow Y$
+A [[smooth set]] $X$ is defined simply by specifying, in a self-consistent way, what counts as a smooth function $U \to X$ (a "plot") from any [[Cartesian space]] $U$ ("[[coordinate systems]]"). Given two smooth sets $X$ and $Y$ then a [[smooth function]] $f \;\colon\; X \longrightarrow Y$
 between them is a function that takes plots $U \overset{\phi}{\to} X$ of $X$ to plots $f \circ \phi \colon U \to Y$ of $Y$.
 If we allow $U$ here to be a [[super Cartesian space]], then the same idea defines _[[super smooth sets]]_.
 We will write $\mathbf{H}$ for the resulting differential geometric [[category]] of [[smooth sets]] or more generally
 [[super formal smooth sets]].
 
-A key example of a smooth set which is in general not a [[smooth manifold]] is the [[mapping space]] $[X,Y]$ between two smooth sets $X$ and $Y$, hence the set of all smooth functions $X \to Y$ equipped with a smooth structure itself. Namely a plot $\phi_{(-)} \colon U \to [X,Y]$ is defined to be a smooth function $\phi_{(-)}(-) \colon U \times X \to Y$ out of the [[Cartesian product]] of $U$ with $X$ to $Y$,  hence a "U-parameterized smooth family of smooth functions".
+A key example of a smooth set which is in general not a [[smooth manifold]] is the [[mapping space]] $[X,Y]$ between two smooth sets $X$ and $Y$, hence the set of all smooth functions $X \to Y$ equipped with a smooth structure itself. Namely a plot $\phi_{(-)} \colon U \to [X,Y]$ is defined to be a smooth function $\phi_{(-)}(-) \colon U \times X \to Y$ out of the [[Cartesian product]] of $U$ with $X$ to $Y$,  hence a "U-parameterized smooth family of smooth functions on $\Sigma$".
 
 An example of a smooth set which is far from being a smooth manifold is for $n \in \mathbb{N}$ the smooth set $\mathbf{\Omega}^n$ which is the "smooth [[classifying space]]" for [[differential n-forms]], defined by the rule that a smooth function $\phi \colon U \to \mathbf{\Omega}^n$ is equivalently a smooth differential $n$-form on $U$ (to be thought of as the [[pullback of differential forms|pullback]] of a "universal $n$-form" on $\mathbf{\Omega}^n$ along $\phi$).
 It follows from this in particular that for $X$ any [[smooth manifold]] then smooth functions $X \to \mathbf{\Omega}^n$ are equivalent to smooth $n$-forms on $X$. Accordingly we may say that for $X$ any [[smooth set]] (which may be far from being a smooth manifold) then a differential $n$-form on $X$ is equivalently a smooth function $X \to \mathbf{\Omega}^n$. Under this identification the operation of [[pullback of differential forms]] along some smooth function $f \colon Y \to X$ is just [[composition]] of smooth functions $f^\ast \omega \colon Y \overset{f}{\to} X \overset{\omega}{\to} \mathbf{\Omega}^n$.
@@ -74,13 +73,13 @@ We will need the following basic fact about transgression:
 
 +-- {: .num_prop #RelativeTransgressionOfDifferentialForms}
 ###### Proposition
-**(relative transgression over [[manifolds with boundary]])**
+**(relative [[transgression of differential forms]] over [[manifolds with boundary]])**
 
 1. $X$ be a [[smooth set]];
 
-1. $n \geq k \in \mathbb{N}$;
-
 1. $\Sigma_k$ be a [[compact topological space|compact]] [[smooth manifold]] of [[dimension]] $k$ with [[manifold with boundary|boundary]] $\partial \Sigma$
+
+1. $n \geq k \in \mathbb{N}$;
 
 1. $\omega \in \Omega^n_{X}$ a [[closed differential form]].
 
@@ -142,11 +141,11 @@ While we introduce many of the following terms from field theory only further be
 readers may appreciate a quick preview of where in field theory differential geometry
 beyond smooth manifolds appears:
 
-The very _[[space of trajectories]]_ of a field theory, hence the space of all ways
+The very _[[space of field histories]]_ of a field theory, hence the space of all ways
 in which fields may behave in [[spacetime]], is a [[space of sections]] (namely of the "[[field bundle]]"),
 which is akin to the [[mapping space]] of all [[smooth functions]] from [[spacetime]] to a "[[field fiber]]" space.
 Even in rare cases where this [[space of trajectories]] happens to admit the structure of an [[infinite-dimensional manifold]]
-(such as when the [[field fiber]] happens to be a [[smooth manifold]] and when one restricts attention to a [[compact subset]] of spacetime, see at _[[manifold structure of mapping spaces]]_ this structure may be unwieldy for the purposes of the theory.
+(such as when the [[field fiber]] happens to be a [[smooth manifold]] and when one restricts attention to a [[compact subset]] of spacetime, see at _[[manifold structure of mapping spaces]]_) this structure may be unwieldy for the purposes of the theory.
 For instance in order to handle [[differential forms]] on mapping spaces (such as the [[presymplectic form]]
 on the "[[shell]]" inside the [[space of trajectories]] which constitutes the [[phase space]] of the theory), it
 is sufficient just to know which
@@ -314,6 +313,7 @@ $$
 The corresponding _[[space of field histories]]_ is the [[smooth set|smooth]] [[space of sections|space of all these]], to be denoted
 
 $$
+  \label{SpaceOfFieldHistories}
   \Gamma_\Sigma(E) \in \mathbf{H}
   \,.
 $$
@@ -350,6 +350,7 @@ If $E \overset{fb}{\to} \Sigma$ is a [[field bundle]]
 then the _[[space of histories]] of fields restricted to $S$_, to be denoted
 
 $$
+  \label{SpaceOfFieldHistoriesInHigherCodimension}
   \Gamma_{S}(E) \coloneqq \Gamma_{N_\Sigma(S)}( E\vert_{N_\Sigma S} ) \in \mathbf{H}
 $$
 
@@ -1064,22 +1065,30 @@ $$
   \,.
 $$
 
-spring
+These two terms play a pivotal role in the theory: they induce the _[[covariant phase space]]_
+of the [[field theory]]; this we discuss [below](#PhaseSpace). Before we get to that,
+here we discuss the _symmetries_ of these terms, which will be important:
 
-
-
-The spring
-
-This turns out to imply that every [[symmetry of the Lagrangian density]] induces a
+It turns out that every  [[infinitesimal symmetry of the Lagrangian density]] induces a
 variational differential form called a _[[conserved current]]_ ([[Noether's theorem]], prop. \ref{NoethersFirstTheorem} below) and that
 these conserved currents constitute an [[Lie algebra extension|extension]] of the [[Lie algebra]]
 of symmetries, called the [[Poisson bracket Lie n-algebra]] ("[[Dickey bracket]]").
 
-For the moment here we just record these simple algebraic consequences of variational calculus
-of [[Lagrangian field theory]]. In the next subsection [below](#PhaseSpace) we will see how
-under "[[transgression of variational differential forms]]" all these relations induce core
-structures on the [[covariant phase space]] of the field theory.
+In direct analogy, every infinitesimal symmetry of the [[presymplectic current]] is witnessed by 
+a variational form, called a _[[Hamiltonian differential form]]_ (def. \ref{HamiltonianForms} below).
+The corresponding [[Lie n-algebra]] is the all-important _[[Poisson bracket Lie n-algebra|Poisson bracket Lie p+1-algebra]]_
+of the Lagrangian field theory. In the simple special situation that we consider here, this is a 
+plain [[Lie algebra]] (prop. \ref{LocalPoissonBracket} below). 
 
+When we turn attention to the [[covariant phase space]] [below](#PhaseSpace) 
+the [[transgression of variational differential forms|transgression]] 
+of the [[Poisson bracket Lie n-algebra|Poisson bracket Lie p+1-algebra]] of [[Hamiltonian differential forms]]
+yields the [[Poisson bracket Lie algebra]] on [[local observables]] on  [[covariant phase space]].
+This is the all-important structure of the theory: the [[deformation quantization]] induced by this
+bracket is the [[quantum physics|quantum]] aspect of the [[quantum field theory]].
+
+
+$\,$
 
 +-- {: .num_defn #LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}
 ###### Definition
@@ -1176,7 +1185,7 @@ $$
       \frac{d}{d x^\mu}
       \frac{\partial L}{\partial \phi^a_{,\mu}}
       +
-      \frac{d^2}{d x^{\mu^1} d x^{\mu^2}}
+      \frac{d^2}{d x^{\mu_1} d x^{\mu_2}}
       \frac{\partial L}{\partial \phi^a_{\mu_1, \mu_2}}
       -
       \cdots
@@ -1874,6 +1883,32 @@ $$
 =--
 
 
++-- {: .num_prop #LocalHeisenbergAlgebra}
+###### Definition
+**([[Heisenberg Lie n-algebra|Heisenberg Lie p+1-algebra]])
+
+Given a [[Lagrangian field theory]] whose [[field bundle]] is a [[trivial vector bundle]] 
+as in example \ref{TrivialVectorBundleAsAFieldBundle}, its [[jet bundle]] inherits the structure of a 
+trivial vector bundle (this is the only case we have been making explicit here anyway, def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}). Hence addition in the [[fibers]]
+gives it the structure of a [[group]], by translation. 
+
+If the [[presymplectic current]] is [[left invariant differential form|left invariant]] with respect to this
+group structure, then it makes sense to ask for that sub [[Lie n-algebra|Lie p+1-algebra]]
+of the [[Poisson bracket Lie n-algebra|Poisson bracket Lie (p+1)-algebra]] which covers these 
+translations. This is the corresponding _[[Heisenberg Lie n-algebra|Heisenberg Lie (p+1)-algebra]]_.
+
+(...)
+
+Its [[transgression of differential forms|transgression]] to the [[covariant phase space]]
+has as [[universal enveloping algebra]] that sub-[[algebra of quantum observables]] 
+generated by the [[linear functionals]].
+
+(...)
+
+
+=--
+
+
 $\,$
 
 
@@ -1883,7 +1918,7 @@ $\,$
 Given a [[field theory]] as above, then an _[[observable]]_ is a [[smooth function]] 
 
 $$
-  A \;\colon\; \Gamma_\Sigma(E)_{\delta_{EL} = 0} \longrightarrow \mathcal{C}
+  A \;\colon\; \Gamma_\Sigma(E)_{\delta_{EL} = 0} \longrightarrow \mathbb{C}
 $$
 
 on the space of [[on-shell]]
@@ -2349,15 +2384,32 @@ $$
 We write
 
 $$
+  \label{OnShellFieldHistories}
   \Gamma_\Sigma(E)_{\delta_{EL} L = 0}
     \hookrightarrow
   \Gamma_\Sigma(E)
 $$
 
-for the [[smooth space|smooth subspace]] of the space of all field configurations on those that solve this
+for the [[smooth space|smooth subspace]] of the [[space of field histories]] (eq:SpaceOfFieldHistories) on those that solve this
 differential equation.
 
 This is another incarnation of the "[[shell]]" (eq:ShellInJetBundle).
+
+Similarly for $\Sigma_r \hookrightarrow \Sigma$ a [[submanifold]] of [[spacetime]], we write
+
+$$
+  \label{OnShellFieldHistoriesInHigherCodimension}
+  \Gamma_{\Sigma_r}(E)_{\delta_{EL} L = 0}
+    \hookrightarrow
+  \Gamma_{\Sigma_r}(E)
+$$
+
+for the subspace of on-shell field histories restricted to the [[infinitesimal neighbourhood]]
+of $\Sigma_r$ in $\Sigma$ (eq:SpaceOfFieldHistoriesInHigherCodimension).
+
+
+
+
 
 =--
 
@@ -2426,7 +2478,7 @@ against non-negative or non-positive  bump function supported inside this neighb
 **([[local observables]])**
 
 Given a [[Lagrangian field theory]] with  [[on-shell]] [[space of histories]] $\Gamma_\Sigma(E)_{\delta_{EL} \mathbf{L} = 0}$
-(def. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime})
+(eq:OnShellFieldHistories)
 then the space of _[[observables]]_ is simply the space of [[complex numbers|complex]]-valued functions
 
 $$
@@ -2480,53 +2532,108 @@ on functions of the field histories and their derivatives _at a fixed spacetime 
 ## Phase space
   {#PhaseSpace}
 
+
+
 +-- {: .num_defn #CauchySurface}
 ###### Definition
 **([[Cauchy surface]])**
 
-Given a [[Lagrangian field theory]] on a [[spacetime]] $\Sigma$, then a
+Given a [[Lagrangian field theory]] $(E, \mathbf{L})$ on a [[spacetime]] $\Sigma$ (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}), then a
 _[[Cauchy surface]]_ is a [[submanifold]] $\Sigma_p \hookrightarrow \Sigma$ such that the
-restriction of [[on-shell]] field configurations to the [[infinitesimal neighbourhood]] $N_\Sigma(\Sigma_p)$ of $\Sigma_p$
-in $\Sigma$ is a [[isomorphism]]:
+restriction map from the [[on-shell]] [[space of field histories]] $\Gamma_\Sigma(E)_{\delta_{EL}\mathbf{L} = 0}$
+(eq:OnShellFieldHistories) to the space (eq:OnShellFieldHistoriesInHigherCodimension) of on-shell field histories
+restricted to the [[infinitesimal neighbourhood]] of $\Sigma_p$ is an [[isomorphism]]:
 
 $$
   \Gamma_\Sigma(E)_{\delta_{EL} \mathbf{L} = 0 }
     \underoverset{\simeq}{(-)\vert_{N_\Sigma \Sigma_p}}{\longrightarrow}
-  \Gamma_{N_\Sigma(\Sigma_p)}(E)_{\delta_{EL}\mathbf{L} = 0}
+  \Gamma_{\Sigma_p}(E)_{\delta_{EL}\mathbf{L} = 0}
   \,.
 $$
 
 =--
 
 
-There is the _[[Lepage form]]_
++-- {: .num_defn #PhaseSpaceAssociatedWithCauchySurface}
+###### Definition
+**([[phase space]] associated with a [[Cauchy surface]])**
+
+Given a [[Lagrangian field theory]] $(E, \mathbf{L})$ on a [[spacetime]] $\Sigma$ (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
+and given a [[Cauchy surface]] $\Sigma_p \hookrightarrow \Sigma$ (def. \ref{CauchySurface})
+then the corresponding _[[phase space]]_ is
+
+1. the [[smooth space]] $\Gamma_{\Sigma_p}(E)_{\delta_{EL}\mathbf{L} = 0}$ (eq:OnShellFieldHistoriesInHigherCodimension)
+   of [[on-shell]] field histories restricted to the [[infinitesimal neighbourhood]] of $\Sigma_p$;
+   
+1. equipped with the [[presymplectic form]] 
+
+   $$
+     \label{TransgressionOfPresymplecticCurrentToCauchySurface}
+     \omega_{\Sigma_p}
+     \;\coloneqq\;
+     \tau_{\Sigma_p}\left(\Omega\right)
+     \;\in\;
+     \Omega^2\left(
+       \Gamma_{\Sigma_p}(E)_{\delta_{EL}\mathbf{L} = 0}
+     \right)
+   $$
+
+   which is the [[transgression of variational differential forms|transgression]]
+   of the [[presymplectic current]] $\Omega$ (def. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}).
+   
+
+
+=--
+
+Since by definition of [[Cauchy surface]] (def. \ref{CauchySurface})
+the underlying [[smooth space]] of the [[phase space]] associated with it (def. \ref{PhaseSpaceAssociatedWithCauchySurface})
+is [[isomorphism|isomorphic]] to the [[on-shell]] [[space of field histories]], and hence also to the phase spaces
+associated with any other Cauchy surface, a natural question is whether their [[presymplectic forms]]
+are compatible with these isomorphisms, so that all phase spaces are in fact isomorphic as 
+[[presymplectic smooth spaces]]. The following proposition says that this is the case. 
+Therefore one speaks of the _[[covariant phase space]]_ of a [[Lagrangian field theory]]:
+
++-- {: .num_prop #CovariantPhaseSpace}
+###### Proposition
+**([[covariant phase space]])**
+
+Consider $(E, \mathbf{L})$ a [[Lagrangian field theory]] on a [[spacetime]] $\Sigma$ (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}).
+
+Let 
 
 $$
-  \mathbf{L} + \Theta
-  \,.
+  \Sigma_{tra} \overset{tra}{\hookrightarrow} \Sigma
 $$
 
-This has the property that
+be a [[submanifold]] [[manifold with boundary|with two boundary components]] 
+$\partial \Sigma_{tra} = \Sigma_{in} \sqcup \Sigma_{out}$ , 
+both of which are [[Cauchy surfaces]] (def. \ref{CauchySurface}).
 
-$$
-  \mathbf{d}(\mathbf{L} + \Theta)
-  =
-  \delta_{EL} \mathbf{L} + \Omega
+Then the corresponding inclusion diagram
+
+$$ 
+  \array{
+    && \Sigma_{tra}
+    \\
+    & {}^{\mathllap{in}}\nearrow && \nwarrow^{\mathrm{out}}
+    \\
+    \Sigma_{in} 
+    && &&
+    \Sigma_{out}
+  }
 $$
 
-This implies by the formula for relative [[transgression of variational differential forms]] (prop. \ref{RelativeTransgressionOfDifferentialForms})
-that for $\Sigma^{(in)}_p, \Sigma^{(out)}_p \hookrightarrow \Sigma$ two submanifolds and
-$\Sigma_{p+1} \hookrightarrow \Sigma$ a cobordism between them, then we have a [[Lagrangian correspondence]]
+induces a [[Lagrangian correspondence]] between the associated [[phase spaces]] (def. \ref{PhaseSpaceAssociatedWithCauchySurface})
 
 $$
   \array{
-    && \Gamma_{\Sigma_{p+1}}(E)_{\delta_{EL} \mathbf{L} = 0}
+    && \Gamma_{\Sigma_{tra}}(E)_{\delta_{EL} \mathbf{L} = 0}
     \\
-    & \swarrow && \searrow
+    & {}^{\mathllap{ (-)\vert_{in} }}\swarrow && \searrow^{\mathrlap{ (-)\vert_{out} }}
     \\
-    \Gamma_{\Sigma^{(in)}_p}(E)_{\delta_{EL}\mathbf{L}= 0}
+    \Gamma_{\Sigma^{(in)}}(E)_{\delta_{EL}\mathbf{L}= 0}
     && &&
-    \Gamma_{\Sigma^{(out)}_p}(E)_{\delta_{EL}\mathbf{L}= 0}
+    \Gamma_{\Sigma^{(out)}}(E)_{\delta_{EL}\mathbf{L}= 0}
     \\
     & {}_{\mathllap{\omega_{in}}}\searrow && \swarrow_{\mathrlap{\omega_{out}}}
     \\
@@ -2534,77 +2641,143 @@ $$
   }
 $$
 
+in that the [[pullback of differential forms|pullback]] of the 
+two [[presymplectic forms]] (eq:TransgressionOfPresymplecticCurrentToCauchySurface) coincides on the 
+space of field histories:
 
-This means that the pre-symplectic structure on the [[on-shell]] [[space of histories]] is
-well-defined independently of the choice of [[Cauchy surface]]. Therefore one speaks of the
-_[[covariant phase space]]_.
+$$
+  \left( (-)\vert_{in}\right)^\ast\left( \omega_{in}\right)
+  \;=\;
+  \left( (-)\vert_{out} \right)^\ast \left( \omega_{out} \right)
+  \phantom{AAAA}
+  \in
+  \Omega^2
+  \left(
+    \Gamma_{\Sigma_{tra}}(E)_{\delta_{EL} \mathbf{L} = 0}
+  \right)
+  \,.
+$$
 
+Hence there is a well defined [[presymplectic form]]
 
-+-- {: .num_defn}
-###### Definition
-**([[covariant phase space]])
+$$
+  \omega \in \Omega^2\left(  \Gamma_\Sigma(E)_{\delta_{EL}\mathbf{L}} = 0 \right)
+$$
 
-Let
+on the genuine [[space of field histories]], given by $\omega \coloneqq i^\ast \omega_{\Sigma_p}$
+for any Cauchy surface $\Sigma_p \overset{i}{\hookrightarrow} \Sigma$. This [[presymplectic smooth space]]
 
-1. $\Sigma$ be a [[spacetime]] of [[dimension]] $p+1$;
+$$
+  \left(
+    \Gamma_\Sigma(E)_{\delta_{EL}\mathbf{L}}
+    \,,\,
+    \omega
+  \right)
+$$
 
-1. $E \overset{fb}{\longrightarrow} \Sigma$ a [[field bundle]] (def. \ref{Fields})
-
-1. $\mathbf{L} \in \Omega^{p+1,0}_\Sigma(E)$ a [[local Lagrangian density]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime});
-
-and consider
-
-* $\Sigma_p \hookrightarrow \Sigma$ a [[Cauchy surface]].
-
-
-We say that
-
-1. the _[[phase space]]_ with respect to $\Sigma_p$ is the space of solutions to the [[Euler-Lagrange equations|Euler-Lagrange]] [[equations of motion]] (def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime})
-restricted to the [[infinitesimal neighbourhood]] $N_\Sigma(\Sigma_p)$ (def. \ref{ConfigurationSpaceOverSubmanifoldOfSpacetime}):
-
-   $$
-    \Gamma_{\Sigma_p}(E)_{\delta_{EL}\mathbf{L} = 0}
-   $$
-
-
-1. the space $\mathcal{F}_{loc}$ of _[[local observables]] on phase space_
-is the [[image]] under [[transgression]] to $\Sigma_p$ (def. \ref{TransgressionOfVariationalDifferentialFormsToConfigrationSpaces})
-of the [[Hamiltonian form|Hamiltonian]] [[horizontal differential form|horizontal]] $p$-forms with compact spacetime support (def. \ref{SpacetimeSupport}):
-
-   $$
-     \mathcal{F}_{loc}
-       \;\coloneqq\;
-     im\left(
-       \Omega^{r,0}_{\Sigma,cp,Ham}(E)
-         \overset{\tau_{\Sigma_p}}{\longrightarrow}
-       C^\infty\left(
-         \Gamma_{\Sigma_p}(E)_{\delta_{EL}\mathbf{L} = 0}
-       \right)
-     \right)
-   $$
-
-1. the _[[Poisson bracket]]_ on $\mathcal{F}_{loc}$ is that induced from the [[Poisson Lie n-algebra]] bracket on
-Hamiltonian forms:
-
-   $$
-     \array{
-       \Omega^{r,0}_{\Sigma,cp,Ham}(E)
-       \otimes
-       \Omega^{r,0}_{\Sigma,cp,Ham}(E)
-         &\longrightarrow&
-       \Omega^{r,0}_{\Sigma,cp,Ham}(E)
-       \\
-       {}^{\mathllap{\tau_{\Sigma_p} \otimes \tau_{\Sigma_p}}}\downarrow && \downarrow^{\mathrlap{\tau_{\Sigma_p}}}
-       \\
-       \mathcal{F}_{loc} \otimes \mathcal{F}_{loc}
-         &\underset{}{\longrightarrow}&
-       \mathcal{F}_{loc}
-     }
-   $$
+is therefore called the _[[covariant phase space]]_ of the [[Lagrangian field theory]] $(E,\mathbf{L})$.
 
 =--
 
+
++-- {: .proof}
+###### Proof
+
+Consider the [[Lepage form]] (eq:TheLepage)
+
+$$
+  \mathbf{L} + \Theta
+  \;\in\;
+  \Omega^{\bullet,\bullet}_\Sigma(E)
+  \,.
+$$
+
+and recall (eq:DerivativeOfLepageForm) that its de Rham differetial is the 
+sum of the [[Euler-Lagrange variational derivative]] of the Lagrangian density and the [[presymplectic current]]:
+
+$$
+  \mathbf{d}(\mathbf{L} + \Theta)
+  \;=\;
+  \delta_{EL} \mathbf{L} + \Omega
+  \,.
+$$
+
+In particular this means that $\delta_{EL}\mathbf{L} + \Omega$ is closed.
+
+Notice also that $\delta_{EL}\mathbf{L} \in \Omega^{p+1,1}_\Sigma(E)$ 
+has horizontal degree $(p+1)$, so that the transgression of this summand to the Cauchy surfaces
+(whose dimension is $p$) vanishes (remark \ref{TransgressionToDimensionrSupportedOnHorizontalrForms}).
+
+With this the statement follows from the formula for relative [[transgression of variational differential forms]] (prop. \ref{RelativeTransgressionOfDifferentialForms}):
+
+$$
+  \begin{aligned}
+    0
+    & =
+    d \tau_{\Sigma_{tra}}\left( \delta_{EL} \mathbf{L} + \Omega \right)
+    \\
+    & =
+    \left(
+      (-)\vert_{\partial \Sigma_{tra}}
+    \right)^\ast
+    \left(
+      \tau_{\partial \Sigma_{tra}} 
+      \left(
+        \delta_{EL} \mathbf{L} + \Omega
+      \right)
+    \right)
+    \\
+    & =
+    in^\ast\left( \tau_{\Sigma_{in}}\left( \Omega \right) \right)
+    -
+    out^\ast\left(  \tau_{\Sugma_{out}}\left( \Omega \right) \right)
+    \\
+    & =
+    in^\ast( \omega_{in} ) - out^\ast(\omega_{out})
+    \,.
+  \end{aligned}
+$$
+
+
+=--
+
+
+
+
 ## Algebraic quantization
+
+
+(...)
+
+The [[local observables]] (def. \ref{LocalObservables}) inside the algebra of all observables
+do not form a sub-algebra, just a sub-vector space. But at least the _Hamiltonian_
+local observables, i.e. those being the transgression of [[Hamiltonian differential forms]] (def. \ref{HamiltonianForms})
+under the identification of prop. \ref{CovariantPhaseSpace} form a _[[Lie algebra]]_
+under the [[Poisson bracket]], this being the transgression of the variational [[Poisson bracket Lie n-algebra]]
+from prop. \ref{LocalPoissonBracket}.
+
+The point here is that the local picture, where structure on phase space arises as the 
+transgression of higher structure on the jet bundle, does not yield the expected [[Poisson algebra]]
+structure, just the [[Poisson bracket]]. This is because up on the jet bundle the [[Poisson bracket Lie n-algebra]]
+is not compatible, it seems, with some higher associative algebra structure on Hamiltonian forms.
+
+But since we have a Lie algebra of Hamiltonian local observables, it is tempting to consider its [[universal enveloping algebra]].
+This turns out to be not quite the algebra of quantum observables that one is after. However, if we 
+restrict further to the _[[Heisenberg Lie algebra]]_ of local observables, the one coming from transgression of the
+[[Heisenberg Lie n-algebra]] (def. \ref{LocalHeisenbergAlgebra}) then this works: the corresponding
+universal enveloping algebra coincides with the standard quantum field algebra on this (very restricted) class of 
+observables. So maybe we should take this as the starting point and then demand deformation quantization
+of the [[polynomial Poisson algebra]] generated by the local observables compatible with that universal Heisenberg enveloping
+algebra inside it. That gets one at least closer to 
+pinpointing the specific [[Moyal deformation quantization]] / [[Fedosov deformation quantization]] that 
+is considered in the literature and which happens to be the one confirmed by experiment, but the choice of which has
+presently no derivation from deeper principles.
+
+(...)
+
+
+$\,,$
+
 
 [[formal algebraic deformation quantization]], [[strict algebraic deformation quantization]]
 
