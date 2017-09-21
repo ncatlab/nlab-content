@@ -1202,6 +1202,9 @@ $$
   \,.
 $$
 
+Saying something holds  "on-shell" will mean that it holds after restriction to this 
+subspace.
+
 The remaining term $d \Theta$ is unique, while $\Theta \in \Omega^{p,1}_{\Sigma}(E)$ is unique only up to terms $d \alpha$ in the image of $d$.
 One possible choice is
 
@@ -1523,7 +1526,7 @@ any choice of potential for the [[presymplectic current]] from def. \ref{EulerLa
 +-- {: .proof}
 ###### Proof
 
-By [[Cartan's magic formula]] for the [[Lie derivative]] and using (eq:dLDecomposition)
+By [[Cartan's homotopy formula]] for the [[Lie derivative]] and using (eq:dLDecomposition)
 and the fact that the variation vector field $v$ vanishes on horizontal differential forms
 we may re-express the defining equation for the symmetry as
 
@@ -1556,19 +1559,19 @@ this yields the claim.
 =--
 
 Evidently [[Noether's theorem]] in [[variational calculus]] (prop. \ref{NoethersFirstTheorem})
-is the special case for horizontal $p+1$-forms of a more general phenomenon relating 
+is the special case for horizontal $p+1$-forms of a more general phenomenon relating
 symmetries of variational forms to forms that are closed up to a contraction. The same phenomenon applied instead
 to the [[presymplectic current]] yields the following:
 
 
-+-- {: .num_defn #InfinitesimalSymmetriesOfTheLepageForm}
++-- {: .num_defn #HamiltonianForms}
 ###### Definition
 **(infinitesimal symmetry of the presymplectic potential and [[Hamiltonian differential forms]])
 
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] with presymplectic potential $\Theta$ (eq:TheLepage).
 Write $\mathcal{E} \hookrightarrow J^\infty_\Sigma(E)$ for the [[shell]] (eq:ShellInJetBundle).
 
-1. An [[on-shell]] variation $v$ (def. \ref{Variation}) is an _infinitesimal symmetry of the Lepage form_ 
+1. An [[on-shell]] variation $v$ (def. \ref{Variation}) is an _infinitesimal symmetry of the Lepage form_
 if [[on-shell]] its [[Lie derivative]] along $v$ is a variational derivative:
 
    $$
@@ -1579,9 +1582,9 @@ if [[on-shell]] its [[Lie derivative]] along $v$ is a variational derivative:
 
    for some variational form $\tilde H_v$.
 
-1. A _[[Hamiltonian differential form]]_ $H$ is a variational form on the shell such that there
+1. A _[[Hamiltonian differential form]]_ $H$ (or _local Hamiltonian current_) is a variational form on the shell such that there
    exists a variation $v$ with
-   
+
    $$
      \delta H = \iota_v \Omega
      \phantom{AA}
@@ -1611,7 +1614,7 @@ for the space of pairs consisting of a Hamiltonian differential forms [[on-shell
 ###### Proposition
 **(infinitesimal symmetries of the presymplectic potential correspond to Hamiltonian differential forms)**
 
-A variation $v$ is an infinitesimal symmetry of the presymplectic potential (def. \ref{InfinitesimalSymmetriesOfTheLepageForm})
+A variation $v$ is an infinitesimal symmetry of the presymplectic potential (def. \ref{HamiltonianForms})
 with $\mathcal{L}_v ( \Theta ) = \delta \tilde H_v$ precisely if
 
 $$
@@ -1626,11 +1629,11 @@ is a [[Hamiltonian differential form]] for $v$.
 +-- {: .proof}
 ###### Proof
 
-By [[Cartan's magic formula]] for the [[Lie derivative]] we have
+By [[Cartan's homotopy formula]] for the [[Lie derivative]] we have
 
 $$
   \begin{aligned}
-    \mathcal{L}_v  \Theta  
+    \mathcal{L}_v  \Theta
     & =
     \underset{
       = \delta \iota_v \Theta - \iota_v d \Theta
@@ -1659,11 +1662,204 @@ This directly implies the claim.
 
 $\,$
 
-| [[prequantum geometry|prequantum space]] $\,$ | [[variational differential forms|variational form]]  |   $\,$ [[symmetry]] $\,$ | $\,$ [[Cartan's magic formula]] $\,$ | $\,$ physical quantity $\,\,\,$ |
+| [[prequantum geometry|prequantum space]] $\,$ | [[variational differential forms|variational form]]  |   $\,$ [[symmetry]] $\,$ | $\,$ [[Cartan's homotopy formula]] $\,$ | $\,$ physical quantity $\,\,\,$ |
 | -----------------------|----|----------|----------------------------|---------------------------------|
 | [[field bundle]]   | [[Lagrangian density]] $\mathbf{L}$  | $\mathcal{L}_v \mathbf{L} = d \tilde J$  | $\Leftrightarrow d(\underset{= J_v}{\underbrace{\tilde J - \iota_v \Theta}}) = \iota_v \, \delta_{EL}\mathbf{L}$ | [[conserved current]] $J_v$ |
 | [[shell]] | [[presymplectic current]] $\Omega$ | $\mathcal{L}_v \Theta = \delta \tilde H$ | $\Leftrightarrow \delta(\underset{= H_v}{\underbrace{\tilde H_v - \iota_v \Theta}}) = \iota_v \Omega$ | [[Hamiltonian differential form|Hamiltonian form]] $H_v$ |
 
+
+
+$\,$
+
+
++-- {: .num_example #LocalPoissonBracket}
+###### Proposition
+**([[Poisson bracket Lie n-algebra|Poisson bracket Lie p+1 algebra]])
+
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]]. 
+
+On the space $\Omega^{p,0}_{\Sigma,Ham}(E)$ pairs $(H,v)$ of [[Hamiltonian differential forms]] $H$ with compatible variation $v$ (def. \ref{HamiltonianForms}) the following operation constitutes a [[Lie bracket]]:
+
+$$
+  [(H_1, v_1), (H_2, v_2)]
+  \coloneqq
+  (\iota_{v_1} \iota_{v_2} \Omega, [v_1,v_2])
+  \,.
+$$
+
+(Here $[v_1, v_2]$ denotes the ordinary Lie bracket of [[vector fields]].)
+
+This [[Lie algebra]] $(\Omega^{p,0}_{\Sigma,Ham}(E), [-,-])$ is 
+(the lowest stage of) the _[[Poisson bracket Lie n-algebra|Poisson bracket Lie p-algebra]]_.
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+First we need to check that the bracket is well defined in itself. It
+is clear that it is linear and skew-symmetric, but what needs proof is that 
+it does indeed land in $(\Omega^{p,0}_{\Sigma,Ham}(E)$, hence that the following
+equation holds:
+
+$$
+  \delta \iota_{v_2} \iota_{v_1} \Omega
+  \;=\;
+  \iota_{[v_1, v_2]} \Omega
+  \,.
+$$
+
+To see this we use [[Cartan calculus]]:
+
+Since the variation $v$ is purely vertical, by definition, contraction with $v$ anti-commutes with 
+the total horizontal derivative:
+
+$$
+  d \circ \iota_{v} + \iota_v \circ d = 0
+  \,.
+$$
+
+This makes [[Cartan's homotopy formula]] for the [[Lie derivative]] 
+
+$$
+  \mathcal{L}_v = \mathbf{d} \circ \iota_v + \iota_v \circ \mathbf{d}
+$$
+
+have an analogue with the full de Rham differential replaced by the [[variational derivative]] ([[vertical derivative]])
+$\delta = \mathbf{d} - d$:
+
+$$
+  \mathcal{L}_v = \delta \circ \iota_v + \iota_v \circ \delta
+  \,.
+$$
+
+
+With this we compute as follows:
+
+
+$$
+  \begin{aligned}
+    \delta \iota_{v_1} \iota_{v_2} \Omega
+    & = 
+    \tfrac{1}{2} \delta \iota_{v_1} \iota_{v_2} \Omega
+    -
+    \tfrac{1}{2} (v_1 \leftrightarrow v_2)
+    \\
+    & =
+    \tfrac{1}{2}
+    \left(
+      \mathcal{L}_{v_1} \iota_{v_2} \Omega
+      -
+      \iota_{v_1} \delta \iota_{v_2} \Omega
+    \right)
+    -
+    \tfrac{1}{2} (v_1 \leftrightarrow v_2)
+    \\
+    & =
+    \tfrac{1}{2}
+    \left(
+      \mathcal{L}_{v_1} \iota_{v_2} \Omega
+      -
+      \iota_{v_1} \mathcal{L}_{v_2} \Omega
+      + 
+      \iota_{v_1} \iota_{v_2} \underset{= 0}{\underbrace{\delta \Omega}}
+    \right)
+    -
+    \tfrac{1}{2} (v_1 \leftrightarrow v_2)
+    \\
+    & =
+    [\mathcal{L}_{v_2}, \iota_{v_1}] \Omega
+    \\
+    & =
+    \iota_{[v_1, v_2]} \Omega
+    \,.
+  \end{aligned}
+$$
+
+This show that the bracket is well defined.
+
+It remains to see that the bracket satifies the [[Jacobi identity]]:
+
+$$
+  [ (H_1, v_1), [(H_2, v_2), (H_3,v_3)] ]
+  \;+\; (cyclic)
+   \;=\;
+  0
+$$
+
+hence that 
+
+$$
+  \left(  \iota_{v_1} \iota_{[v_2,v_3]}  \Omega ,   [v_1, [v_2, v_2]] \right)
+  \;+\; (cyclic)
+  \;=\; 0
+  \,.
+$$
+
+Here $ [v_1, [v_2, v_3]] + (cyclic) = 0 $ is the ordinary Jacobi identity for [[vector fields]],
+and hence what needs to be shown is that 
+
+$$
+  \iota_{v_1} \iota_{[v_2, v_3]}   \Omega + (cyclic) = ...
+$$
+
+We check this by repeated uses of [[Cartan calculus]], using in addition 
+that 
+
+1. $\delta \iota_{v_i} \Omega = 0$ 
+
+   (since $\iota_{v_i} \Omega = \delta-\text{exact}$ by $v_i$ being Hamiltonian)
+
+1. $\mathcal{L}_{v_i} \Omega = 0$ 
+
+   (since in addition $\delta \Omega = 0$)
+
+1. $\iota_{v_1} \iota_{v_2} \iota_{v_3} \Omega = 0$ 
+
+   (since $\Omega \in \Omega^{p,2}_\Sigma(E)$ is of vertical degree 2, and since all variations $v_i$ are vertical by assumption).
+
+So we compute as follows (a special case of [FRS 13b, lemma 3.1.1](#Poisson+bracket+Lie+n-algebra#FRS13b)):
+
+$$
+  \begin{aligned}
+    0 
+    & =
+    \delta \iota_{v_1} \iota_{v_2} \iota_{v_3} \Omega
+    \\
+    & =
+    \mathcal{L}_{v_1} \iota_{v_2} \iota_{v_3} \Omega
+    -
+    \iota_{v_1} \delta \iota_{v_2} \iota_{v_3} \Omega
+    \\
+    & =
+    \iota_{[v_1, v_2]} \iota_{v_3} \Omega
+    + 
+    \iota_{v_2} \mathcal{L}_{v_1} \iota_{v_3} \Omega
+    -
+    \iota_{v_1} \mathcal{L}_{v_2} \iota_{v_3} \Omega
+    +
+    \iota_{v_1} \iota_{v_2} \delta \iota_{v_3} \Omega
+    \\
+    & =
+    \iota_{[v_1, v_2]} \iota_{v_3} \Omega
+    +
+    \iota_{v_2} \iota_{[v_1,v_3]} \Omega
+    -
+    \iota_{v_1} \iota_{[v_2, v_3]} \Omega
+    \\
+    & =
+    -
+    \iota_{v_1} \iota_{[v_2, v_3]} \Omega
+    -
+    \iota_{v_2} \iota_{[v_3, v_1]} \Omega
+    -
+    \iota_{v_3} \iota_{[v_1, v_2]} \Omega
+    \,.
+  \end{aligned}
+$$
+
+=--
 
 
 $\,$
@@ -1682,7 +1878,7 @@ on functions of the field histories and their derivatives _at a fixed spacetime 
 The [[integrands]] in these expressions are nothing but horizontal $(p+1)$-forms on the [[jet bundle]],
 [[pullback of differential forms|pulled back]] along the [[jet prolongation]] of the fields:
 This construction of local observables from variational differential forms is
-_[[transgression of variational differential forms]], prop. \ref{TransgressionOfVariationalDifferentialFormsToConfigrationSpaces} 
+_[[transgression of variational differential forms]], prop. \ref{TransgressionOfVariationalDifferentialFormsToConfigrationSpaces}
 below, generally defined on variational forms with compact spacetime support (def. \ref{SpacetimeSupport} below).
 
 
@@ -1745,7 +1941,7 @@ Let $E \overset{fb}{\to} \Sigma$ be a [[field bundle]] over a [[spacetime]] $\Si
 and let
 $$
   \Sigma_r \hookrightarrow \Sigma
-$$ 
+$$
 
 be a [[submanifold]] of [[spacetime]] of dimension $r \in \mathbb{N}$. Recall the [[space of field histories]]
 restricted to its [[infinitesimal neighbourhood]], denoted $\Gamma_{\Sigma_r}(E)$ (def. \ref{Fields}).
@@ -1815,7 +2011,7 @@ consider a [[local Lagrangian density]] (def. \ref{LocalLagrangianDensityOnSecon
 $$
   \mathbf{L} \in \Omega^{p+1,0}_\Sigma(E)
   \,.
-$$ 
+$$
 
 For any [[bump function]] $b \in C^\infty_{cp}(\Sigma)$, the [[transgression of variational differential forms|transgression]] of $b \mathbf{L}$
 (def. \ref{TransgressionOfVariationalDifferentialFormsToConfigrationSpaces}) is called the _[[action functional]]_
@@ -1867,7 +2063,7 @@ $$
       \cdots
     \right)
     \,
-  b(x) 
+  b(x)
   dvol_\Sigma(x)
 $$
 
@@ -1892,12 +2088,12 @@ $$
    $$
      \tau_\Sigma(d \alpha) \;=\; 0
    $$
-   
-1. interwines, up to a sign, the [[variational derivative]] $\delta$ on variational differential forms with the 
+
+1. interwines, up to a sign, the [[variational derivative]] $\delta$ on variational differential forms with the
    plain de Rham differential on the space of field histories:
-   
+
    $$
-     \tau_{\Sigma}\left( 
+     \tau_{\Sigma}\left(
        \delta \alpha
      \right)
      \;=\;
@@ -1922,36 +2118,36 @@ By prop. \ref{PullbackAlongJetProlongationIntertwinesHorizontalDerivative} the p
 along the jet prolongation of fields is exact in the $\Sigma$-direction:
 
 $$
-  (j^\infty_\Sigma\Phi_{(-)})^\ast(d \alpha ) 
-  \;=\; 
-  d_\Sigma (j^\infty_\Sigma\Phi_{(-)})^\ast \alpha 
+  (j^\infty_\Sigma\Phi_{(-)})^\ast(d \alpha )
+  \;=\;
+  d_\Sigma (j^\infty_\Sigma\Phi_{(-)})^\ast \alpha
   \,,
 $$
 
-(where we write $d = d_U + d_\Sigma$ for the de Rham differential on $U \times \Sigma$). 
+(where we write $d = d_U + d_\Sigma$ for the de Rham differential on $U \times \Sigma$).
 Hence the integral of this over $\Sigma$, and hence the transgression form, vanishes
 by [[Stokes' theorem]]:
 
 $$
   \begin{aligned}
-    \tau_{\Sigma}(d \alpha) 
+    \tau_{\Sigma}(d \alpha)
     & =
     \int_\Sigma
-      d_\Sigma (j^\infty_\Sigma\Phi_{(-)})^\ast\alpha 
+      d_\Sigma (j^\infty_\Sigma\Phi_{(-)})^\ast\alpha
     \\
     & = 0
-  \end{aligned} 
+  \end{aligned}
   \,.
 $$
 
 
-Regarding the second statement: by the [[Leibniz rule]] for de Rham differential 
+Regarding the second statement: by the [[Leibniz rule]] for de Rham differential
 ([[product law]] of [[differentiation]]) it is sufficient to check the claim on variational
 derivatives of local coordinate functions
 
 $$
   \delta \phi^a_{\mu_1 \cdots \mu_k} b
-  \in 
+  \in
   \Omega^{0,1}_\Sigma(E)
   \,.
 $$
@@ -1978,8 +2174,8 @@ for _fixed_ $u \in U$ the pullback of $\delta \phi^a_{\mu_1 \cdots \mu_k}$ along
    $$
 
    (since the full de Rham differentials always commute with pullback of differential forms),
-   while the pullback of the horizontal derivative 
-$d \phi^a_{\mu_1\cdots \mu_k} = \phi^a_{\mu_1 \cdots \mu_{k} \mu_{k+1}} \mathbf{d}x^{\mu_{k+1}}$ 
+   while the pullback of the horizontal derivative
+$d \phi^a_{\mu_1\cdots \mu_k} = \phi^a_{\mu_1 \cdots \mu_{k} \mu_{k+1}} \mathbf{d}x^{\mu_{k+1}}$
 vanishes at fixed $x \in \Sigma$.
 
 This implies over the given smooth family $\Phi_{(-)}$ that
@@ -2003,10 +2199,10 @@ $$
     \right)\vert_{\Phi_{(-)}}
     }}
     \\
-    & = 
+    & =
     \int_\Sigma d_U (\Phi_{(-)})^\ast ( \phi^a_{\mu_1\cdots \mu_k} b )
     \\
-    & = (-1)^{p+1} d_U \int_\Sigma  (\Phi_{(-)})^\ast ( \phi^a_{\mu_1\cdots \mu_k} b )  
+    & = (-1)^{p+1} d_U \int_\Sigma  (\Phi_{(-)})^\ast ( \phi^a_{\mu_1\cdots \mu_k} b )
     \\
     & = (-1)^{p+1} d_U \tau_{\Sigma}( \Phi_{(-)} )^\ast ( \phi^a_{\mu_1 \cdots \mu_k} )
     \,.
@@ -2027,7 +2223,7 @@ then the derivative of its [[adiabatic switching|adiabatically switched]] [[acti
 (def. \ref{ActionFunctional}) equals the [[transgression of variational differential forms|transgression]]
 of the [[Euler-Lagrange variational derivative]] $\delta_{EL} \mathbf{L}$ (def. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}):
 
-$$  
+$$
   d \mathcal{S}_{b \mathbf{L}}
   \;=\;
   \tau_\Sigma( b \delta_{EL}\mathbf{L} )
@@ -2052,7 +2248,7 @@ By prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime} 
 
 $$
   \begin{aligned}
-    \cdots 
+    \cdots
     & =
     \tau_\Sigma( b \, \delta_{EL} \mathbf{L} + d \Theta_b )
     \\
@@ -2086,8 +2282,9 @@ where $j^\infty_\Sigma(\Phi) \colon \Sigma \to J^\infty_{\Sigma}(E)$ denotes the
 of differential forms]] along this function, and $\delta_{EL}$ is the
 [[Euler-Lagrange operator]] from prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}.
 
-By that same proposition this equation is
-equivalently the [[differential equation]]
+In the case that the field bundle is a trivial vector bundle over Minowski spacetime as in example \ref{TrivialVectorBundleAsAFieldBundle}
+this equation is
+equivalently the following [[differential equation]] (again using prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}):
 
 $$
   \left(
@@ -2101,7 +2298,11 @@ $$
     \cdots
   \right)
   \left(
-     (x^\mu), (\Phi^a), \left( \frac{\partial \Phi^a}{\partial x^\mu}, \frac{\partial^2 \Phi^a}{\partial x^\mu \partial x^\nu} \right)
+     (x^\mu), 
+     (\Phi^a), 
+     \left( \frac{\partial \Phi^a}{\partial x^\mu}\right), 
+     \left( \frac{\partial^2 \Phi^a}{\partial x^\mu \partial x^\nu} \right),
+     \cdots
   \right)
   \;=\;
   0
@@ -2116,12 +2317,10 @@ $$
   \Gamma_\Sigma(E)
 $$
 
-for the [[smooth space|smooth]] subspace of the space of all field configurations on those that solve this
+for the [[smooth space|smooth subspace]] of the space of all field configurations on those that solve this
 differential equation.
 
-In the physics literature this subspace of solutions to the [[equations of motion]] is also called the _[[shell]]_.
-Phrases like "working on-shell" refer to restricting constructions to this the subspace of solutions
-inside the full [[space of histories]].
+This is another incarnation of the "[[shell]]" (eq:ShellInJetBundle).
 
 =--
 
@@ -2166,7 +2365,7 @@ $$
   \;\Leftrightarrow\;
   \left(
     \int_\Sigma
-      j^\infty_\Sigma(\Phi)^\ast (  \delta_{EL} \mathbf{L} )(x) \, b(x) dvol_\Sigma(x)     
+      j^\infty_\Sigma(\Phi)^\ast (  \delta_{EL} \mathbf{L} )(x) \, b(x) dvol_\Sigma(x)
     \;=\;
     0
   \right)
@@ -2175,8 +2374,8 @@ $$
 
 But if the right hand sie holds for all $b$, then the claim follows by standard arguments.
 
-(Suppose $j^\infty_\Sigma(\Phi)^\ast (  \delta_{EL} \mathbf{L} )$ did not vanish at some $x \in \Sigma$, 
-then by continuity it is non-vanishing also on some [[neighbourhood]] of $x$ and hence its integral 
+(Suppose $j^\infty_\Sigma(\Phi)^\ast (  \delta_{EL} \mathbf{L} )$ did not vanish at some $x \in \Sigma$,
+then by continuity it is non-vanishing also on some [[neighbourhood]] of $x$ and hence its integral
 against non-negative or non-positive  bump function supported inside this neighbourhood would be non-vanishing. )
 
 
