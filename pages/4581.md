@@ -787,3 +787,6 @@ Discussion in the context of [[supergeometry]] is in
 [[!redirects vertical derivative]]
 [[!redirects vertical derivatives]]
 
+[[!redirects variational differential form]]
+[[!redirects variational differential forms]]
+
