@@ -14,7 +14,9 @@
 
 ## Definition
 
-$Pos$ is the [[category]] whose [[objects]] are [[posets]] and whose [[morphisms]] are monotone (weakly increasing) maps.
+$Pos$ (or $Poset$ or $Posets$) is the [[category]] whose [[objects]] are [[posets]] and whose [[morphisms]] are monotone (weakly increasing) maps.
+
+Since posets can be identified with [[(0,1)-categories]], $Pos$ can be identified with the full subcategory of [[Cat]] spanned by these; thus it might also be called $(0,1)Cat$.
 
 ## Properties
 
@@ -32,5 +34,10 @@ The category $Pos$ is [[topological functor|topological]] over $Set$, and is als
 
 * [[(∞,n)Cat]]
 
+[[!redirects Poset]]
+[[!redirects Posets]]
+[[!redirects category of posets]]
+[[!redirects (0,1)Cat]]
+[[!redirects (0,1)-Cat]]
 
 category: category
