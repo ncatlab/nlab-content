@@ -61,9 +61,11 @@ Review includes
 
 ### Axions
 
-The observation that the "invisible [[axion]]" is a cadidate for dark matter is due to
+The observation that the "invisible [[axion]]" is a candidate for dark matter is due to three groups:
+* {#PreskillWiseWilcek83} [[John Preskill]], M. Wise, [[Frank Wilcek]], _Cosmology of the invisible axion_, Phys. Lett. B 120:127-32 (1983)
+* {#AbbottSikivie83} L.F. Abbott, P. Sikivie, _A Cosmological Bound on the Invisible Axion _, Phys.Lett. B120:133-36 (1983)
+* {#DineFischler83} [[Michael Dine]], [[Willy Fischler]], _The Not So Harmless Axion_, Phys.Lett. B120:137-141 (1983)
 
-* {#PreskillWiseWilcek83} [[John Preskill]], M. Wise, [[Frank Wilcek]], _Comology of the invisible axion_, Phys. Lett. B 120:127-32 (1983)
 
 A proposal that [[axions]] account for [[fuzzy dark matter]], and thus fix the [[WIMP]] model for dark matter with its problem of reproducing galactic rotation curves, is in
 
