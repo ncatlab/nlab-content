@@ -534,9 +534,9 @@ $$
 
 1. $X$ be a [[smooth set]];
 
-1. $n \geq k \in \mathbb{N}$;
-
 1. $\Sigma_k$ be a [[compact topological space|compact]] [[smooth manifold]] of [[dimension]] $k$ with [[manifold with boundary|boundary]] $\partial \Sigma$
+
+1. $n \geq k \in \mathbb{N}$;
 
 1. $\omega \in \Omega^n_{X}$ a [[closed differential form]].
 
