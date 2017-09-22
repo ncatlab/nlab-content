@@ -199,3 +199,7 @@ Discussion from a point of view of [[synthetic differential geometry]] is in
 * {#Kock10} [[Anders Kock]], _Synthetic geometry of manfiolds_, Cambridge Tracts in Mathematics 180 (2010). ([pdf](http://home.imf.au.dk/kock/SGM-final.pdf))
 
 [[!redirects differential operators]]
+
+[[!redirects linear differential operator]]
+[[!redirects linear differential operators]]
+
