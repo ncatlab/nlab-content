@@ -64,15 +64,9 @@ Similarly, a **symmetric premonoidal category** is a premonoidal category equipp
 
 ## Slick version
 
-As a [[strict monoidal category]] is a [[monoid]] in the [[cartesian monoidal category]] [[Cat]], so a premonoidal category is a monoid in another [[symmetric monoidal category]] whose underlying category is also $Cat$.
+As a [[strict monoidal category]] is a [[monoid]] in the [[cartesian monoidal category]] [[Cat]], so a strict premonoidal category is a monoid in the [[symmetric monoidal category]] $(Cat,\Box)$, where $\Box$ is the [[funny tensor product]].
 
-Given [[categories]] $C,D$ and [[functors]] $F,G\colon C \to D$, a (*not* necessarily natural) __transformation__ from $F$ to $G$ consists of, for each object $x$ of $C$, a morphism from $F(x)$ to $G(x)$ in $D$.  (So a [[natural transformation]] is a transformation that satisfies an [[extra property]].)  We can compose transformations using [[vertical composition]] (but *not* [[horizontal composition]]).
-
-Given categories $C,D$, let $C \Rightarrow D$ be the category whose objects are functors from $C$ to $D$ and whose morphisms are transformations between these functors.  This makes $Cat$ into a [[closed category]].  We can then define a [[tensor product]] by a [[universal property]] and make $Cat$ into a [[monoidal category]] $(Cat,\otimes)$ which is in fact symmetric.
-
-Then a strict premonoidal category is precisely a [[monoid object]] in $(Cat,\otimes)$.
-
-It may be possible to weaken the above make $(Cat,\otimes)$ a [[symmetric monoidal 2-category]], in which a monoid object is precisely a premonoidal category, but if so, nobody seems to have written this up yet.  It is possible, however, to describe part of the structure of a non-strict premonoidal category in terms of $(Cat,\otimes)$.  For instance, a binoidal structure on $C$ is precisely a functor $C\otimes C \to C$, and the naturality of the associator $\alpha$ can be expressed by saying that it is a natural transformation (with central components) between functors $C\otimes C\otimes C \to C$.
+It may be possible to make $(Cat,\otimes)$ a [[symmetric monoidal 2-category]], in which a [[pseudomonoid]] object is precisely a non-strict premonoidal category, but if so, nobody seems to have written this up yet.  It is possible, however, to describe part of the structure of a non-strict premonoidal category in terms of $(Cat,\otimes)$.  For instance, a binoidal structure on $C$ is precisely a functor $C\otimes C \to C$, and the naturality of the associator $\alpha$ can be expressed by saying that it is a natural transformation (with central components) between functors $C\otimes C\otimes C \to C$.
 
 
 ## Examples
