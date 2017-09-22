@@ -111,7 +111,7 @@ If
 $
   X \sqcup X \overset{(i_0,i_1)}{\longrightarrow} Cyl(X) \underoverset{p}{\in W}{\longrightarrow} X
 $
-is a good [[cylinder object]] for a cofibrant object $X$ def. \ref{PathAndCylinderObjectsInAModelCategory}, then both components $i_0, i_1 \colon X \to Cyl(X)$ are acyclic cofibratins.
+is a good [[cylinder object]] for a cofibrant object $X$ def. \ref{PathAndCylinderObjectsInAModelCategory}, then both components $i_0, i_1 \colon X \to Cyl(X)$ are acyclic cofibrations.
 
 Dually, if 
 $
