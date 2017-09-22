@@ -68,3 +68,6 @@ Proof Theory in Computer Science, 93-113
 * {#Sattler} Christian Sattler, _slides_ [slides](http://cs.ioc.ee/types15/slides/sattler-slides.pdf)
 
 [[!redirects inductive families]]
+[[!redirects indexed inductive definition]]
+[[!redirects indexed inductive type]]
+[[!redirects indexed inductive types]]
