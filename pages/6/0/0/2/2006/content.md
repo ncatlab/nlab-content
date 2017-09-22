@@ -124,7 +124,7 @@ In particular, $C_{\mathbf{T}}$ is [[initial object|initial]] in the [[adjoint f
 
 ### In functional programming
 
-In [[type theory|typed]] [[functional programming]] Kleisli composition is used to model functions with side-effects and [[computation]]. See at _[[monad (in computer science)]]_ for more on this.
+In [[type theory|typed]] [[functional programming]], the Kleisli category is used to model [[call-by-value]] functions with side-effects and [[computation]]. See at _[[monad (in computer science)]]_ for more on this.
 
 ## Related concepts
 
