@@ -82,6 +82,7 @@ Now consider instead [[super Minkowski spacetime]] $\mathbb{R}^{10,1\vert \mathb
 
 
 $$
+  \label{M2WordvolumeInSpacetime}
   \mathbb{R}^{2,1\vert 8 \otimes \mathbf{2}} \hookrightarrow \mathbb{R}^{10,1\vert \mathbf{32}}
 $$
 
