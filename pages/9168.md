@@ -274,11 +274,14 @@ $$
   \begin{aligned}
     \omega_{\Sigma_{p}}(w_1, w_2)
     & =
-    \int_\Sigma
+    \left(
+    \int_{\Sigma_p}
       \left(
-        e^{\mu \nu} \mathbf{d} \partial_\mu \phi \wedge \mathbf{d} \phi
+        \eta^{\mu \nu} \mathbf{d} \partial_\mu \phi \wedge \mathbf{d} \phi
       \right)
-      \iota_{\partial_\nu} dvol_\Sigma (\phi_1, \phi_2)
+      \iota_{\partial_\nu} dvol_\Sigma 
+    \right)
+    (w_1, w_2)
     \\
     & =
     \int_{\Sigma_{p}}
