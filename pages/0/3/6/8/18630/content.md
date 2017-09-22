@@ -1,4 +1,16 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebraic Quantum Field Theory
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
+=--
+=--
+
+
 > This entry is (going to be) one chapter of [[geometry of physics]].
 
 > under construction
@@ -406,7 +418,7 @@ serves as a good toy example for the general theory:
 
 +-- {: .num_example #RealScalarFieldBundle}
 ###### Example
-**([[real scalar field]])**
+**([[field bundle]] for [[real scalar field]])**
 
 If $\Sigma$ is a [[spacetime]] and if the [[field fiber]]
 
@@ -1130,6 +1142,43 @@ as a globally defined differential $(p+1)$-form, but as a [[circle n-bundle with
 This is the case for _[[locally variational field theories]]_ such as theories involving _[[higher WZW terms]]_.)
 
 
+
++-- {: .num_example #LagrangianForFreeScalarFieldOnMinkowskiSpacetime}
+###### Example
+**([[local Lagrangian density]] for [[free field|free]] [[real scalar field]] on [[Minkowski spacetime]])**
+
+Consider the [[field bundle]] for the [[real scalar field]] from example \ref{RealScalarFieldBundle},
+i.e. the [[trivial line bundle]] over [[Minkowski spacetime]].
+
+According to def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime} 
+its [[jet bundle]] $J^\infty_\Sigma(E)$ has canonical coordinates
+
+$$
+  \{ \{x^\mu\}, \phi, \{\phi_{,\mu}\}, \{\phi_{,\mu_1 \mu_2}\}, \cdots \}
+  \,.
+$$
+
+In these coordinates, the [[local Lagrangian density]] $L \in \Omega^{p+1,0}(\Sigma)$ (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
+defining the [[free field|free]] [[real scalar field]] of [[mass]] $m \in [0,\infty)$ on $\Sigma$ is
+
+$$
+  L
+    \coloneqq
+  \tfrac{1}{2}
+  \left(
+    \eta^{\mu \nu} \phi_{,\mu} \phi_{,\nu}
+    +
+    m^2 \phi^2
+  \right)
+  \mathrm{dvol}_\Sigma
+  \,.
+$$
+
+=--
+
+
+
+
 The beauty of [[Lagrangian field theory]] is that a choice of [[Lagrangian density]] determines
 both the [[equations of motion]] of the fields as well as a [[presymplectic manifold|presymplectic structure]]
 on the space of solutions to this equation (the "[[shell]]"), making it the "[[covariant phase space]]" of the theory.
@@ -1468,6 +1517,146 @@ $$
 
 =--
 
+
+
++-- {: .num_example #FreeScalarFieldEOM}
+###### Example
+**([[Euler-Lagrange operator|Euler-Lagrange variation]] and [[presymplectic current]] for   [[free field|free]] [[real scalar field]])**
+the
+
+Consder the [[Lagrangian field theory]] of the [[free field|free]] [[real scalar field]]
+from example  \ref{LagrangianForFreeScalarFieldOnMinkowskiSpacetime}.
+
+The the [[Euler-Lagrange operator|Euler-Lagrange form]] and [[presymplectic current]] 
+(prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}) are
+
+$$
+  \delta_{EL}\mathbf{L}
+  \;=\;
+  \left(\eta^{\mu \nu} \partial_\mu \partial_\nu + m^2 \right) \delta \phi 
+  \;\in\;
+  \Omega^{p+1,1}_{\Sigma}(E)
+  \,.
+$$
+
+and 
+
+$$
+  \Omega
+  \;=\;
+  \left(\eta^{\mu \nu} \delta \phi_{,\mu} \wedge \delta \phi \right) \wedge \iota_{\partial_\nu} dvol_{\Sigma}
+  \;\in\;
+  \Omega^{p,2}_{\Sigma}(E)
+  \,,
+$$
+
+respectively.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We need to show that [[Euler-Lagrange operator]] $\delta_{EL} \colon \Omega^{p+1,0}(\Sigma) \to \Omega^{p+1,1}_S(\Sigma)$ takes the [[local Lagrangian density]] for the [[free field|free]] [[scalar field]] to
+
+$$
+  \delta_EL L
+  \;=\;
+  \left(
+    \eta^{\mu \nu} \phi_{,\mu \nu}  + m^2 \phi
+  \right)
+  \delta \phi \wedge \mathrm{dvol}_\Sigma
+  \,.
+$$
+
+First of all, the result of applying the [[variational derivative]] ([[vertical derivative]]) to the local Lagrangian density is
+
+$$
+  \delta L
+    \;=\;
+  \left(
+    \eta^{\mu \nu} \phi_{,\mu} \delta \phi_{,\nu}
+      +
+    m^2 \phi \delta \phi
+  \right)
+  \wedge \mathrm{dvol}_\Sigma
+  \,.
+$$
+
+By definition of the [[Euler-Lagrange operator]], in order to find $\delta_{EL}\mathbf{L}$ and $\Theta$, we need to exhibit this as the
+sum of the form $(-) \wedge \delta \phi  - d \Theta$.
+
+The key to find $\Theta$ is  to realize $\delta \phi_{,\nu}\wedge \mathrm{dvol}_\Sigma$ as a
+[[total derivative|total spacetime derivative]] ([[horizontal derivative]]). Since $d \phi = \phi_{,\mu} d x^\mu$ this is accomplished by
+
+$$
+  \delta \phi_{,\nu} \wedge \mathrm{dvol}_\Sigma
+  =
+  \delta d \phi \wedge \iota_{\partial_\nu} \mathrm{dvol}_\Sigma
+$$
+
+Hence we may set
+
+$$
+  \Theta
+    \coloneqq
+  \eta^{\mu \nu} \phi_{,\mu} \delta \phi \wedge \iota_{\partial_\nu}
+  \mathrm{dvol}_\Sigma
+  \,,
+$$
+
+because with this we have
+
+$$
+  d \Theta
+  =
+  \eta^{\mu \nu}
+  \left(
+    \phi_{,\mu \nu} \delta \phi
+    -
+    \eta^{\mu \nu} \phi_{,\mu} \delta \phi_{,\nu}
+  \right) \wedge \mathrm{dvol}_\Sigma
+  \,.
+$$
+
+In conclusion this yields the decomposition of the vertical differential of the Lagrangian density
+
+$$
+  \delta L
+  =
+  \underset{
+    = \delta_{EL} \mathcal{L}
+  }{
+  \underbrace{
+    \left(
+      \eta^{\mu \nu} \phi_{,\mu \nu}  + m^2 \phi
+    \right)
+    \delta \phi \wedge \mathrm{dvol}_\Sigma
+  }
+  }
+  -
+  d \Theta
+  \,,
+$$
+
+which shows that $\delta_{EL} L$ is as claimed, and that $\Theta$ is a presymplectic potential current.
+Hence the presymplectic current itself is
+
+$$
+  \begin{aligned}
+    \Omega &\coloneqq \delta \Theta
+    \\
+    & =
+    \delta \left( \eta^{\mu \nu} \phi_{,\mu} \delta \phi \wedge \iota_{\partial_\nu} \mathrm{dvol}_\Sigma \right)
+    \\
+    & =
+    \left(\eta^{\mu \nu} \delta \phi_{,\mu} \wedge \delta \phi \right) \wedge \iota_{\partial_\nu} dvol_{\Sigma}
+  \end{aligned}
+  \,.
+$$
+
+
+=--
 
 
 +-- {: .num_defn #Variation}
@@ -1886,7 +2075,7 @@ $$
 $\,$
 
 The local Poisson bracket [[Lie algebra]] $(\Omega^{p,0}_{\Sigma,Ham}(E), [-,-])$ from prop.
-\ref{LocalPoissonBracket} is but the lowest stage of 
+\ref{LocalPoissonBracket} is but the lowest stage of
 a [[higher Lie theory|higher Lie theoretic]] structure called the _[[Poisson bracket Lie n-algebra|Poisson bracket Lie p-algebra]]_.
 Here we will not go deeper into this higher structure, but below we will need the following
 shadow of it:
@@ -1894,7 +2083,7 @@ shadow of it:
 +-- {: .num_lemma #HorizontallyExactFormsDropOutOfLocalLieBracket}
 ###### Lemma
 
-The horizontally exact Hamiltonian forms constitute a [[Lie ideal]] for the 
+The horizontally exact Hamiltonian forms constitute a [[Lie ideal]] for the
 local Poisson Lie bracket (eq:LocalPoissonLieBracket).
 
 =--
@@ -1908,18 +2097,18 @@ $$
   E = d K
 $$
 
-for some $K$. Write $e$ for a [[Hamiltonian vector field]] for $E$. 
+for some $K$. Write $e$ for a [[Hamiltonian vector field]] for $E$.
 
 Then for $(H,v)$ any other pair consisting of a Hamiltonian form and a corresponding
 Hamiltonian vector field, we have
 
 $$
   \begin{aligned}
-    \iota_v \iota_e \Omega 
+    \iota_v \iota_e \Omega
     & =
-    \iota_v \delta E 
+    \iota_v \delta E
     \\
-    & =  
+    & =
     \iota_v \delta d K
     \\
     & =
@@ -1928,14 +2117,81 @@ $$
     & =
     d \iota_v \delta K
   \end{aligned}
-$$ 
+$$
 
-where we used that the horizontal derivative anti-commutes with the 
+where we used that the horizontal derivative anti-commutes with the
 vertical one by construction of the [[variational bicomplex]], and
  that $\iota_e$ anti-commutes with the horizontal derivative $d$ since the variation $e$ (def. \ref{Variation}) is
 by definition vertical.
 
 =--
+
+
+
++-- {: .num_example #LocalPoissonBracketForRealScalarField}
+###### Example
+**([[Poisson bracket Lie n-algebra|local Poisson bracket]] for [[real scalar field]])**
+
+Consider the [[Lagrangian field theory]] for the [[free field|free]] [[real scalar field]] from example \ref{LagrangianForFreeScalarFieldOnMinkowskiSpacetime}.
+
+By example \ref{FreeScalarFieldEOM} is [[presymplectic current]] is
+
+$$
+  \Omega
+   =
+  \eta^{\mu \nu} \delta \phi_{,\mu} \wedge \delta \phi \wedge \iota_{\partial_\mu} dvol_\Sigma
+  \,
+$$
+
+The corresponding [[Poisson bracket Lie n-algebra|Poisson bracket Lie (p+1)-algebra]] (prop. \ref{LocalPoissonBracket}) has in degree 0
+[[Hamiltonian forms]] (def. \ref{HamiltonianDifferentialForms}) such as
+
+$$
+  Q \coloneqq \phi \iota_{\partial_0} dvol_\Sigma \in \Omega^{p,0}(E)
+$$
+
+and
+
+$$
+  P \coloneqq \eta^{\mu \nu} \phi_{,\mu} \iota_{\partial_\nu} dvol_{\Sigma} \in \Omega^{p,0}(E)
+  \,.
+$$
+
+The corresponding [[Hamiltonian vector fields]] are
+
+$$
+ v_P = \partial_{\phi_{,0}}
+$$
+
+and
+
+$$
+  v_Q = - \partial_{\phi}
+  \,.
+$$
+
+Hence the corresponding [[Poisson bracket Lie n-algebra|local Poisson bracket]] is
+
+$$
+  \{Q,P\} = \iota_{v_Q} \iota_{v_P} \omega = \iota_{\partial_0} dvol_\Sigma
+  \,.
+$$
+
+More generally for $b_1, b_2 \in C^\infty_{cp}(\Sigma)$ two [[bump functions]] then
+
+$$
+  \{ b_1 Q, b_2 P \} = \pm b_1 b_2 \iota_{\partial_0} dvol_\Sigma
+  \,.
+$$
+
+=--
+
+
+
+
+
+
+
 
 
 
@@ -2512,10 +2768,34 @@ for the subspace of on-shell field histories restricted to the [[infinitesimal n
 of $\Sigma_r$ in $\Sigma$ (eq:SpaceOfFieldHistoriesInHigherCodimension).
 
 
+=--
 
++-- {: .num_prop #EquationOfMotionOfFreeRealScalarField}
+###### Example
+**([[equation of motion]] of [[free field|free]] [[real scalar field]] is [[Klein-Gordon equation]])
 
+Consider the [[Lagrangian field theory]] of the [[free field|free]] [[real scalar field]] 
+from example \ref{LagrangianForFreeScalarFieldOnMinkowskiSpacetime}.
+
+Its [[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]] 
+according to def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime} is
+
+$$
+  \eta^{\mu \nu} \frac{\partial^2 }{\partial x^\mu \partial x^\nu} \Phi + m^2 \Phi \;=\; 0 
+$$
+
+often abbreviated as
+
+$$
+  (\Box + m^2) \Phi \;=\; 0
+  \,.
+$$
+
+This [[PDE]] is called the _[[Klein-Gordon equation]]_ on Minowski spacetime. If the [[mass]] $m$ 
+vanishes, $m = 0$, then this is the _relativistic [[wave equation]]_.
 
 =--
+
 
 
 +-- {: .num_prop #PrincipleOfExtremalAction}
@@ -2673,7 +2953,7 @@ such that
 
 =--
 
-(Below we consider _quantum states_. These are defined formally in just the same way, only that 
+(Below we consider _quantum states_. These are defined formally in just the same way, only that
 now the algebra of observables is equipped with another product, which changes the meaning of
 the product expression $A^\ast A$.)
 
@@ -2730,6 +3010,89 @@ then the corresponding _[[phase space]]_ is
 
    which is the [[transgression of variational differential forms|transgression]]
    of the [[presymplectic current]] $\Omega$ (def. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}).
+
+
+
+=--
+
++-- {: .num_example #PresymplecticFormForFreeRealScalarField}
+###### Example
+**([[presymplectic form]] for [[free field|free]] [[real scalar field]])
+
+Consider the [[Lagrangian field theory]] for the [[free field|free]] [[real scalar field]]
+from example \ref{LagrangianForFreeScalarFieldOnMinkowskiSpacetime}.
+
+Its [[space of field histories]] is simply the smooth space $C^\infty(\Sigma)$ of [[smooth functions]]
+with [[real number|real]] values on [[Minkowski spacetime]]. This is naturally a [[vector space]].
+Since the [[equation of motion]] is the [[Klein-Gordon equation]] $(\Box + m^2) \Phi = 0$
+(example \ref{EquationOfMotionOfFreeRealScalarField}) which is a [[linear differential operator]], 
+also the [[on-shell]] [[space of field histories]] is still canonically a vector space.
+
+
+The [[presymplectic form]] on the covariant phase space (def. \ref{PhaseSpaceAssociatedWithCauchySurface}) 
+associated with a [[Cauchy surface]] $\Sigma_p \hookrightarrow \Sigma$
+takes two [[smooth function]] $w_1,w_2 \in C^\infty(\Sigma)$, regarded as [[tangent vectors]] at zero to
+
+$$
+  \omega_{\Sigma_p}(w_1, w_2)
+    \;=\;
+    \int_{\Sigma_{p}}
+    \left(
+      (\partial_n w_1) w_2
+      -
+      w_1 \partial_n w_2
+    \right)
+    dvol_{\Sigma_{p}}
+    \,,
+$$
+
+where $dvol_{\Sigma_p}$ is the [[volume form]] on the [[Cauchy surface]] which is induced from the
+ambient metric on Minkowski spacetime, and $n \in N \Sigma_p$ denotes the [[normal bundle|normal vector field]]
+of the embedding.
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+By example \ref{FreeScalarFieldEOM} the
+[[presymplectic current]] is
+
+$$
+  \Omega
+  \;=\;
+  \left(\eta^{\mu \nu} \delta \phi_{,\mu} \wedge \delta \phi \right) \wedge \iota_{\partial_\nu} dvol_{\Sigma}
+  \;\in\;
+  \Omega^{p,2}_{\Sigma}(E)
+  \,.
+$$
+
+Hence its [[transgression of variational differential forms|transgression]] is
+
+$$
+  \begin{aligned}
+    \omega_{\Sigma_{p}}(w_1, w_2)
+    & =
+    \left(
+    \int_{\Sigma_p}
+      \left(
+        \eta^{\mu \nu} \delta \partial_\mu \phi \wedge \delta \phi
+      \right)
+      \iota_{\partial_\nu} dvol_\Sigma
+    \right)
+    (w_1, w_2)
+    \\
+    & =
+    \int_{\Sigma_{p}}
+    \left(
+      (\partial_n w_1) w_2
+      -
+      w_1 \partial_n w_2
+    \right)
+    dvol_{\Sigma_{p}}
+  \end{aligned}
+$$
 
 
 
@@ -2854,7 +3217,7 @@ $$
 
 In particular this means that $\delta_{EL}\mathbf{L} + \Omega$ is closed, so that the
 relative transgresson formula (prop. \ref{RelativeTransgressionOfDifferentialForms}) does apply.
- 
+
 Notice also that the following transgressions vanish:
 
 1. $\tau_{\Sigma}\left( \delta_{EL} \mathbf{L}  \right) \in \Gamma_{\Sigma}(E)_{\delta_{EL}\mathbf{L} = 0}$;
@@ -2863,22 +3226,21 @@ Notice also that the following transgressions vanish:
 
 1. $\tau_{\Sigma_p}\left( \delta_{EL}\mathbf{L}  \right) = 0$.
 
-The first item is the very definition of the 
+The first item is the very definition of the
 [[on-shell]] fields (def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime})
 and the second and third expressions vanish by degree reasons
 (remark \ref{TransgressionToDimensionrSupportedOnHorizontalrForms}).
-   
+
 
 With this the statement follows from the formula for relative [[transgression of variational differential forms]] (prop. \ref{RelativeTransgressionOfDifferentialForms}):
 
 $$
   \begin{aligned}
     d
-    \underset{= 0}{ 
+    \underset{= 0}{
     \underbrace{
        \tau_{\Sigma_{tra}}\left( \delta_{EL} \mathbf{L} + \Omega \right)
     }}
-    \\
     & =
     \left(
       (-)\vert_{\partial \Sigma_{tra}}
@@ -2950,8 +3312,9 @@ $$
 
 =--
 
-+-- {: .num_defn}
++-- {: .num_defn #PoissonBracketOnHamiltonianLocalObservables}
 ###### Definition
+**([[Poisson bracket]] on Hamiltoniann [[local observables]] on  [[covariant phase space]])**
 
 The _[[Poisson bracket]]_ on Hamiltonian local observables (def. \ref{HamiltonianLocalObservables})
 is the [[transgression of variational differential forms|transgression]] (def. \ref{TransgressionOfVariationalDifferentialFormsToConfigrationSpaces})
@@ -2961,7 +3324,7 @@ to the [[covariant phase space]] (def. \ref{CovariantPhaseSpace}).
 
 Explicitly: for $\Sigma_p \hookrightarrow \Sigma$ a choice of [[Cauchy surface]] (def. \ref{CauchySurface})
 then the Poisson bracket between two local Hamiltonian observables
-$\tau_{\Sigma_p}((H_i, v_i))$ is 
+$\tau_{\Sigma_p}((H_i, v_i))$ is
 
 $$
   \label{PoissonBracketTransgressedToCauchySurface}
@@ -2981,7 +3344,7 @@ on the jet bundle.
 =--
 
 +-- {: .proof}
-###### Proof idea
+###### Proof 
 
 We need to see that equation (eq:PoissonBracketTransgressedToCauchySurface) is well defined,
 in that it does not depend on the choice of Hamiltonian form $(H_i, v_i)$
@@ -2990,12 +3353,412 @@ representing the local Hamiltonian observable $\tau_{\Sigma_p}(H_i)$.
 It is clear that all the transgressions involved depend only on the restriction
 of the Hamiltonian forms to the pullback of the jet bundle to $N_\Sigma \Sigma_p$.
 Moreover the Poisson bracket on the jet bundle (eq:LocalPoissonLieBracket)
-respects this restriction. 
+respects this restriction.
 
 Now after this restriction, a Hamiltonian form is in the [[kernel]] of the transgression
-relative to $\Sigma_p$ precisely if it is horizontally exact. Therefore the claim 
-follows with the statement that horizontally exact forms constitute a 
+relative to $\Sigma_p$ precisely if it is horizontally exact. Therefore the claim
+follows with the statement that horizontally exact forms constitute a
 Lie ideal for the Poisson bracket on the jet bundle (lemma \ref{HorizontallyExactFormsDropOutOfLocalLieBracket}).
+
+=--
+
+
+
+
++-- {: .num_example #PoissonBracketForRealScalarField}
+###### Example
+**([[Poisson bracket]] of the  [[real scalar field]] -- the [[Peierls bracket]])
+
+Consider the [[Lagrangian field theory]] of the [[free field|free]] [[scalar field]] 
+(example \ref{LagrangianForFreeScalarFieldOnMinkowskiSpacetime}),
+and consider the [[Cauchy surface]] defined by $x^0 = 0$.
+
+By example \ref{LocalPoissonBracketForRealScalarField} the local Poisson bracket 
+of the [[Hamiltonian forms]] 
+
+$$
+  Q \coloneqq \phi \iota_{\partial_0} dvol_\Sigma \in \Omega^{p,0}(E)
+$$
+
+and
+
+$$
+  P \coloneqq \eta^{\mu \nu} \phi_{,\mu} \iota_{\partial_\nu} dvol_{\Sigma} \in \Omega^{p,0}(E)
+  \,.
+$$
+
+is 
+
+$$
+  \{Q,P\} = \iota_{v_Q} \iota_{v_P} \omega = \iota_{\partial_0} dvol_\Sigma
+  \,.
+$$
+
+
+Upon [[transgression of variational differential forms|transgression]] according to def. \ref{PoissonBracketOnHamiltonianLocalObservables}
+ this yields the following [[Poisson bracket]] 
+
+$$
+  \left\{
+    \int_{\Sigma_p} b_1(\vec x) \phi(t,\vec x) \iota_{\partial_0} dvol_\Sigma(x)
+    d^p \vec x
+    \;,\;
+    \int_{\Sigma_p} b_2(\vec x) \partial_0 \phi(t,\vec x) \iota_{\partial_0} dvol_\Sigma(\vec x)
+  \right\}
+  \;=\;
+  \int_{\Sigma_p} b_1(\vec x) b_2(\vec x) \iota_{\partial_0} dvol_\Sigma(\vec x)
+  d^p \vec x
+  \,.
+$$
+
+where
+
+$$
+  \phi(x), \partial_0 \phi(x) : PhaseSpace(\Sigma_p^t) \to \mathbb{R}
+$$
+
+denote the point-evaluation functions ([[functionals]]), which act on a field configuration $\Phi \in \Gamma_\Sigma(E) = C^\infty(\Sigma)$ as
+
+$$
+ \phi(x)(\Phi) \coloneqq \Phi(x)
+ \phantom{AAAAAAAA}
+ \partial_0 \phi(x) (\Phi) \coloneqq \partial_0 \Phi(x)
+ \,.
+$$
+
+Notice that these point-evaluation functions themselves do not arise
+as the transgression of elements in $\Omega^{p,0}(E)$, only their smearings such as $\int_{\Sigma_p} b_1 \phi dvol_{\Sigma_p}$ do.
+Nevertheless we may express the above Poisson bracket conveniently via the [[integral kernel]]
+
+$$
+  \label{PoissonBracketOfScalarFieldPointEvaluationOnMinkowskiSpacetime}
+  \{\phi(t,\vec x), \phi(t,\vec y) \}
+  =
+  \delta(\vec x - \vec y)
+  \,.
+$$
+
+This integral kernel is the _[[causal propagator]]_
+
+$$
+  \Delta
+    \;\in\;
+  \mathcal{D}'(\Sigma \times \Sigma)
+$$
+
+(also known as the _[[Pauli-Jordan distribution]]_ or _[[Peierls bracket]]_)
+on Minkowski spacetime:
+
+$$
+  \begin{aligned}
+    \{ \phi(x), \phi(y) \}
+    & =
+    \Delta(x,y)
+    \\
+    & \coloneqq
+    -i (2\pi)^{-p} \int \tfrac{1}{2 E(\vec k)}\left(
+    e^{- i E(\vec k) (x-y)^0 - \vec k \cdot (\vec x - \vec y)}
+    -
+    e^{+ i E(\vec k) (x-y)^0 + \vec k \cdot (\vec x - \vec y)}
+  \right) d^p \vec k
+    \\
+    & =
+   -i (2\pi)^{-p} \int \delta( k_\mu k^\mu + m^2 ) sgn( k_0 ) e^{ - i k_\mu (x-y)^\mu } d^{p+1} k
+    \,.
+  \end{aligned}
+$$
+
+
+=---
+
++-- {: .proof}
+###### Proof
+
+
+By [[Fourier transform]] the general solution to the [[Klein-Gordon equation]] (example \ref{EquationOfMotionOfFreeRealScalarField}) may be expressed in the form
+
+$$
+  \Phi(x)
+    \;=\;
+  (2\pi)^{-p} \int  Amp(k) e^{- i k_\mu x^\mu } \delta( k_\mu k^\mu + m^2 ) d^{p+1} k
+  \,,
+$$
+
+where $Amp(k) \in \mathbb{C}$ is the _complex amplitude_ of the $k$th mode $(k \in \mathbb{R}^{p+1})$.
+
+We may split this into the contributions with positive and those with negative [[energy]] $k_0$
+by decomposing the integral over $k_0$ as
+
+$$
+  \begin{aligned}
+    \Phi(x)
+    & = \phantom{+}
+    (2\pi)^{-p/2}
+    \int_0^\infty  \int Amp(k_0, \vec k) e^{- i k_0 x^0 - i \vec k \cdot \vec x} \delta(- k_0^2 + \vec k + m^2) d^p \vec k \, d k_0
+    \\
+    & \phantom{=} +
+    (2\pi)^{-p/2}
+    \int_0^\infty  \int Amp(-k_0, \vec k) e^{+ i k_0 x^0 - i \vec k \cdot \vec x} \delta(-k_0^2 + \vec k^2 + m^2) d^p \vec k \, d k_0
+    \,.
+  \end{aligned}
+$$
+
+By [[changing integration variables]] via $k_0 = +\sqrt{ h }$ this yields
+
+$$
+  \begin{aligned}
+    \Phi(x)
+    & = \phantom{+}
+    (2\pi)^{-p/2}
+    \int_0^\infty  \int Amp(\sqrt{h}, \vec k) e^{- i \sqrt{h} x^0 - i \vec k \cdot \vec x} \delta(- h + \vec k + m^2) d^p \vec k \, \frac{d h}{2\sqrt{h}}
+    \\
+    & \phantom{=} +
+    (2\pi)^{-p/2}
+    \int_0^\infty  \int Amp(- \sqrt{h}, \vec k) e^{+ i \sqrt{h} x^0 - i \vec k \cdot \vec x} \delta(- h + \vec k^2 + m^2) d^p \vec k \, \frac{d h}{2 \sqrt{h}}
+    \\
+    & = \phantom{+}
+    (2\pi)^{-p/2}
+    \int Amp(E(\vec k), \vec k) e^{- i E(\vec k) x^0 - i \vec k \cdot \vec x} d^p \vec k
+    \\
+    & \phantom{=} +
+    (2\pi)^{-p/2}
+    \int Amp(-E(\vec k), \vec k) e^{+ i E(\vec k) x^0 - i \vec k \cdot \vec x} d^p \vec k
+  \end{aligned}
+$$
+
+where we defined the _on-shell [[energy]]_
+
+$$
+  E(\vec k) \coloneqq + \sqrt{ \vec k^2 + m^2 }
+  \,.
+$$
+
+It is convenient to also change variables $\vec k \mapsto - \vec k$ in the second integral. This yields
+
+$$
+  \begin{aligned}
+    \Phi(x)
+    &= \phantom{+}
+      (2\pi)^{-p/2}
+      \int Amp(E(\vec k), \vec k) e^{- i E(\vec k) x^0 - i \vec k \cdot \vec x} d^p \vec k
+      \\
+      & \phantom{=} +
+      (-1)^p
+      (2\pi)^{-p/2}
+      \int Amp(-E(\vec k), \vec k) e^{+ i E(\vec k) x^0 + i \vec k \cdot \vec x} d^p \vec k
+  \end{aligned}
+    \,.
+$$
+
+Since $\Phi$ is real-valued, it follows that under [[complex conjugation]] $(-)^\ast$
+the amplitudes are related by
+
+$$
+  Amp(E(\vec k), \vec k)^\ast = (-1)^p Amp(-E(\vec k), \vec k)
+  \,.
+$$
+
+We abbreviate (cf. [Scharf 01 (1.1.18)](#Scharf01))
+
+$$
+  A(\vec k) \coloneqq E(\vec k) Amp(E(\vec k), \vec k)
+  \,,
+$$
+
+where the prefactor just serves to make some of the following formulas come out conveniently.
+
+With this the general solution to the Klein-Gordon equation is finally of the form
+
+$$
+  \label{FourierModeExpansionOfScalarFieldOnminkowskiSpacetime}
+  \Phi(x)
+  =
+    (2\pi)^{-p/2}
+    \int \frac{1}{\sqrt{2 E(\vec k)}}
+      \left(
+        A(\vec k) e^{- i E(\vec k) x^0 - i \vec k \cdot \vec x}
+        +
+        A(\vec k)^\ast e^{+ i E(\vec k) x^0 + i \vec k \cdot \vec x}
+      \right)
+    d^p \vec k
+    \,.
+$$
+
+and hence its time derivative is
+
+$$
+  \partial_0 \Phi(x)
+  =
+    (2\pi)^{-p/2}
+    \int -i \sqrt{E(k)/2}
+      \left(
+        A(\vec k) e^{- i E(\vec k) x^0 - i \vec k \cdot \vec x}
+        -
+        A(\vec k)^\ast e^{+ i E(\vec k) x^0 + i \vec k \cdot \vec x}
+      \right)
+    d^p \vec k
+    \,.
+$$
+
+This allows to express the modes in terms of the value of the field and its time derivative at $t = 0$:
+
+$$
+  A(\vec k)
+  =
+   (2 \pi)^{-p/2}
+   \int
+     \left( \sqrt{E(k)/2}\Phi(0,\vec x) + i \frac{1}{2\sqrt{E(k)}} \partial_0 \Phi(0,\vec x)\right) \exp( i \vec k \cdot \vec x )
+   d^p \vec x
+   \,.
+$$
+
+As in example \ref{PoissonBracketsOverMinkowskiSpacetime} we denote the corresponding evaluation functional
+
+$$
+  a(\vec k) \;\colon\; C^\infty(\Sigma) \longrightarrow \mathbb{C}
+$$
+
+by the corresponding lower case symbol:
+
+$$
+  a(\vec k)
+   \;\coloneqq\;
+   (2 \pi)^{-p/2}
+   \int
+     \left( \sqrt{E(k)/2}\phi(\vec x) + i \frac{1}{\sqrt{2 E(k)}} \partial_0 \phi(\vec x)\right) \exp( i \vec k \cdot \vec x )
+   d^p \vec x
+   \,.
+$$
+
+With the Poisson bracket kernel $\{\phi(\vec x), \phi(\vec y)\} = \delta(\vec x - \vec y)$ from example \ref{PoissonBracketsOverMinkowskiSpacetime} (eq:PoissonBracketOfScalarFieldPointEvaluationOnMinkowskiSpacetime),
+it follow that the  (integral kernel for the) Poisson bracket of these mode functionals is
+that of the [[canonical commutation relations]]:
+
+$$
+  \begin{aligned}
+    \label{CanonicalPoissonCommutationOfModesOfFreeScalarFieldOnMinkowskiSpacetime}
+    \{ a(\vec k_1), a(\vec k_2)^\ast  \}
+    & =
+    -i
+    (2\pi)^{-p}
+    \int \delta(\vec x_1 - \vec x_2) e^{i  ( \vec k_1 \cdot \vec x_1 - \vec k_2 \cdot \vec x_2) } d \vec x_1 d\vec x_2
+    \\
+    & =
+    -i
+    (2\pi)^{-p}
+    \int e^{i (\vec k_1 - \vec k_2) \cdot \vec x } d \vec x
+    & =
+    \\
+    & =  -i \delta(\vec k_1 - \vec k_2)
+    \,,
+  \end{aligned}
+$$
+
+where in the last step we used the [[Fourier transform]] representation of the [[delta distribution]] ([this prop.](Dirac+distribution#FourierTransform)).
+
+In order to finally compute $\{\phi(x), \phi(y)\}$, it is convenient to break this up into two contributions:
+Write
+
+$$
+  \phi^{(+)}(x)
+  \;\coloneqq\;
+    (2\pi)^{-p/2}
+    \int \frac{1}{\sqrt{2 E(\vec k)}}
+        a(\vec k)^\ast e^{+ i E(\vec k) x^0 + i \vec k \cdot \vec x}
+    d^p \vec k
+  \phantom{AAAA}
+  \phi^{(-)}(x)
+  \;\coloneqq\;
+    (2\pi)^{-p/2}
+    \int \frac{1}{\sqrt{2 E(\vec k)}}
+        a(\vec k) e^{- i E(\vec k) x^0 - i \vec k \cdot \vec x}
+    d^p \vec k
+$$
+
+for the positive and negative energy contributions from the Fourier expansion in (eq:FourierModeExpansionOfScalarFieldOnminkowskiSpacetime), so that
+
+$$
+  \phi(x) = \phi^{(-)}(x)  + \phi^{(+)}(x)
+  \,.
+$$
+
+Using the [[canonical commutation relation]] of the mode functions (eq:CanonicalPoissonCommutationOfModesOfFreeScalarFieldOnMinkowskiSpacetime), we find
+
+$$
+  \label{2PointFunctionFreeScalarFieldOnMinkowski}
+  \begin{aligned}
+    -i \omega(x,y)
+     & \coloneqq
+     \{ \phi^{(-)}(x), \phi^{(+)}(y) \}
+    \\
+    &=
+    -i (2\pi)^{-p} \int \tfrac{1}{2 E(\vec k)} e^{- i E(\vec k) (x-y)^0 - \vec k \cdot (\vec x - \vec y)} d^{p} \vec k
+    \\
+    & =
+    -i (2\pi)^{-p} \int \delta( k_\mu k^\mu + m^2 ) \Theta( k_0 ) e^{ - i k_\mu (x-y)^\mu } d^{p+1} k
+    \,,
+  \end{aligned}
+$$
+
+where in the last line we again applied [[change of integration variables]].
+This $\omega$ is known as the _[[2-point function]]_ or _[[Hadamard propagator]]_ on Minkowski spacetime.
+Similarly
+
+$$
+  \begin{aligned}
+  \{ \phi^{(+)}(x), \phi^{(-)}(y) \}
+  & =
+  + i (2\pi)^{-p} \int \tfrac{1}{2 E(\vec k)} e^{i E(\vec k) (x-y)^0 + \vec k \cdot (\vec x - \vec y)} d^{p} \vec k
+  \\
+  & =
+  + i (2\pi)^{-p} \int \delta( k_\mu k^\mu + m^2 ) \Theta( -k_0 ) e^{ - i k_\mu (x-y)^\mu } d^{p+1} k
+  \\
+  \end{aligned}
+  \,.
+$$
+
+In particular this says that
+
+$$
+  \{ \phi^{(+)}(x), \phi^{(-)}(y) \}
+  =
+  - \omega(y,x)
+  \coloneqq
+  -
+  \{ \phi^{(-)}(y), \phi^{(+)}(x) \}
+  \,.
+$$
+
+
+With this we finally obtain the expression for the [[causal propagator]] as the skew-symmetrization
+of the [[2-point function]]:
+
+$$
+  \begin{aligned}
+  \{
+    \phi(x),
+    \phi(y)
+  \}
+  & =
+  \{ \phi^{(-)}(x), \phi^{(+)}(y) \}
+  +
+  \{\phi^{(+)}(x), \phi^{(-)}(y)\}
+  \\
+  & =
+  \omega(x,y) - \omega(y,x)
+  \\
+  & =
+  -i (2\pi)^{-p} \int \tfrac{1}{2 E(\vec k)}\left(
+    e^{- i E(\vec k) (x-y)^0 - \vec k \cdot (\vec x - \vec y)}
+    -
+    e^{+ i E(\vec k) (x-y)^0 + \vec k \cdot (\vec x - \vec y)}
+  \right) d^p \vec k
+  \\
+  & =
+  -i (2\pi)^{-p} \int \delta( k_\mu k^\mu + m^2 ) sgn( k_0 ) e^{ - i k_\mu (x-y)^\mu } d^{p+1} k
+ \,.
+  \end{aligned}
+$$
 
 =--
 
@@ -3008,88 +3771,3 @@ $\,$
 
 
 (...)
-
-The [[local observables]] (def. \ref{LocalObservables}) inside the algebra of all observables
-do not form a sub-algebra, just a sub-vector space. But at least the _Hamiltonian_
-local observables (def. \ref{HamiltonianLocalObservables}) form a _[[Lie algebra]]_
-under the [[Poisson bracket]], this being the transgression of the variational [[Poisson bracket Lie n-algebra]]
-from prop. \ref{LocalPoissonBracket}.
-
-The point here is that the local picture, where structure on phase space arises as the
-transgression of higher structure on the jet bundle, does not yield the expected [[Poisson algebra]]
-structure, just the [[Poisson bracket]]. This is because up on the jet bundle the [[Poisson bracket Lie n-algebra]]
-is not interacting with a higher associative algebra structure on Hamiltonian forms.
-
-But since we have a Lie algebra of Hamiltonian local observables, it is tempting to consider its [[universal enveloping algebra]].
-This turns out to be not quite the algebra of quantum observables that one is after. However, if we
-restrict further to the _[[Heisenberg Lie algebra]]_ of local observables, the one coming from transgression of the
-[[Heisenberg Lie n-algebra]] (def. \ref{LocalHeisenbergAlgebra}) then this works: the corresponding
-universal enveloping algebra coincides with the standard quantum field algebra on this (very restricted) class of
-observables. So maybe we should take this as the starting point and then demand deformation quantization
-of the [[polynomial Poisson algebra]] generated by the local observables compatible with that universal Heisenberg enveloping
-algebra inside it. That gets one at least closer to
-pinpointing the specific [[Moyal deformation quantization]] / [[Fedosov deformation quantization]] that
-is considered in the literature and which happens to be the one confirmed by experiment, but the choice of which has
-presently no derivation from deeper principles.
-
-(...)
-
-
-$\,,$
-
-
-[[formal algebraic deformation quantization]], [[strict algebraic deformation quantization]]
-
-* [[Planck's constant]] $\hbar$
-
-* [[algebra of quantum observables]]
-
-* [[quantum states]]
-
-* examples
-
-  [[Moyal deformation quantization]]
-
-  [[Fedosov deformation quantization]]
-
-
-[[free field theory]]
-
-* [[differential operator]], [[normally hyperbolic differential operator]]
-
-* [[Green function]], [[distribution]], [[wave front set]]
-
-* [[causal propagator]], [[advanced propagator]], [[retarded propagator]]
-
-* [[Hadamard state]]
-
-
-* [[Wick algebra]] and [[normal-ordered product]]
-
-  $\mathcal{F}_{loc} \overset{:-:}{\longrightarrow} \mathcal{F}_{mc}[ [ \hbar ] ]$
-
-
-[[S-matrix]]
-
-* [[causal additivity]]
-
-* [[time-ordered product]]
-
-* [[causally local net of quantum observables]]
-
-...
-
-
-[[Feynman diagrams]]
-
-* [[Feynman propagator]]
-
-* [[loop order]]
-
-[[renormalization]]
-
-* [[extension of distributions]]
-
-* [[main theorem of perturbative renormalization]]
-
-...
