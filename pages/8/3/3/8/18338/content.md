@@ -16,6 +16,8 @@ The term "natural" is used for traditional reasons, cf. [EilenbergMac Lane45](#E
 
 Let $F,G:C\to D$ be [[functors]].  An *unnatural isomorphism* between $F$ and $G$ consists of, for each [[object]] $c\in C$, an isomorphism $F(c) \cong G(c)$, satisfying no further conditions.
 
+In other words, it is an [[unnatural transformation]] whose components are isomorphisms, or equivalently that is an isomorphism in the category of unnatural transformations.
+
 Note that if each component of a [[natural transformation]] is an isomorphism, then it is necessarily a natural isomorphism.  (Depending on the definition of "natural isomorphism", this could be a tautology; but the non-tautologous statement is that if each component of a natural transformation is an isomorphism then it is an isomorphism in the functor category.  This statement, though non-tautologous, is easy to prove for 1-categories, but more difficult for higher categories.)
 
 More generally, an unnatural isomorphism (or transformation) might be natural with respect to only *some* morphisms in the domain, such as for instance the isomorphisms.  Some people have proposed calling transformations that are natural only with respect to isomorphisms "canonical".
@@ -76,6 +78,10 @@ These three terms can be distinguished in the following way:
 
 1. See [MathOverflow2013](#MathOverflow2013). 
 
+## Related pages
+
+* [[unnatural transformation]]
+* [[funny tensor product]]
 
 ## References
 
