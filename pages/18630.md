@@ -1953,6 +1953,54 @@ The [[equations of motion]] of a [[Lagrangian field theory]] say that those fiel
 are physically realized which are [[critical points]] of this [[action functional]] observable. This is 
 the _[[principle of extremal action]]_ (prop. \ref{PrincipleOfExtremalAction} below).
 
+This formalizes what it means for a [[field (physics)|field]] history $\Phi$ to be "realizable" (physically admissible)
+(a solution to the [[Euler-Lagrange equations]], def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime})
+and what the ([[local observable|local]]) [[observable]] quantities on field histories are (def. \ref{LocalObservables}).
+It remains to formalize what it means for the [[physical system]] to be in some definite _[[state]]_
+so that the [[observable]] quantities take some definite value, reflecting the properties of that state.
+
+Whatever formalization for _[[states]]_ of a [[field theory]] one considers, at the very least
+the [[space of states]] $States$ should come with a pairing [[linear map]]
+
+$$
+  \array{
+    Obs \otimes States & \longrightarrow&  \mathcal{C}
+    \\
+    \left( A , \langle - \rangle \right) &\mapsto& \langle A \rangle
+  }
+$$
+
+which reads in an [[observable]] quantity $A$ and a state, to be denoted $\langle - \rangle$,
+and produces the [[complex number]] $\langle A \rangle$
+which is the "value of the observable quantity $A$ in the case that the physical system is in the state $\langle -\rangle$".
+
+One might imagine that
+it is fundamentally possible to pinpoint the exact [[field (physics)|field]] history that the
+[[physical system]] is found in. From this perspective fixing a [[state]] should simply mean to
+pick an element in the [[on-shell]] [[space of field histories]] $\Phi \in \Gamma_{\Sigma}(E)_{\delta_{EL}\mathbf{L} = 0}$.
+If we write $\langle -\rangle_{\Phi}$ for this state, its pairing map with the states would simply be
+[[evaluation]] of the observable, being a function on the field history space, on that particular element in this space:
+
+$$
+  \langle A \rangle_{\Phi} \coloneqq A(\Phi)
+  \,.
+$$
+
+However, in the practice of [[experiment]] a field history can never be known precisely, without remaining uncertainty.
+Moreover, [[quantum physics]] (to which we finally come [below](#QuantumObservables)), suggests that this is
+true even in principle. Therefore we should allow [[states]] to be a kind of [[probability distributions]]
+on the [[space of field histories]], and regard the pairing $\langle A \rangle$ of a state $\langle - \rangle$ with an observable
+$A$ as a kind of _[[expectation value]]_ of the function $A$ averaged with respect to this probability distribution.
+Specifically if the observable quantity $A$ is (a smooth approximation to) a [[characteristic function]]
+of a [[subset]] $S \subset \Gamma_{\Sigma}(E)_{\delta_{EL}\mathbf{L} = 0}$ of the [[space of field histories]], then its value in a given state should be the [[probability]] to find the [[physical system]] in that that subset of field histories.
+
+But, moreover, the [[superposition principle]] of [[quantum physics]] says that the actually observable observables
+are only those of the form $A^\ast A$ (for $A^\ast$ the image under the star-operation on the [[star algebra]]
+of observables.
+
+This finally leads to the definition of _[[states]]_ in def. \ref{States} below.
+
+
 $\,$
 
 +-- {: .num_defn #SpacetimeSupport}
@@ -2488,6 +2536,10 @@ $$
 
 This is a [[star-algebra]] under [[complex conjugation]].
 
+(That we consider functions with values in [[complex numbers]] instead of [[real numbers]] is a
+reflection of the [[superposition principle]] in [[quantum physics]], more about this below.)
+
+
 The _[[local observables]]_ are those observables which arise as the [[transgression of variational differential forms]] (def. \ref{TransgressionOfVariationalDifferentialFormsToConfigrationSpaces})
 of [[horizontal  differential form|horizontal p+1-forms]] of compact spacetime support (def. \ref{SpacetimeSupport}):
 
@@ -2515,7 +2567,7 @@ The local observables are a sub-vector space inside all observables, not closed 
 We write
 
 $$
-  \mathcal{F}
+  Obs
     \;\coloneqq\;
   \langle \mathcal{F}_{loc}\rangle_{C^\infty(\Gamm_\Sigma(E))_{\delta_{EL}\mathbf{L} = 0}}
 $$
@@ -2540,6 +2592,36 @@ on functions of the field histories and their derivatives _at a fixed spacetime 
 
 =--
 
+
+
+
+
++-- {: .num_defn #States}
+###### Definition
+**([[states]])**
+
+Given a [[Lagrangian field theory]] $(E,\mathbf{L})$, then a _[[state]]_ is a [[function]] from 
+the space $Obs$ of [[observables]] to the complex numbers
+
+$$
+  \langle -\rangle
+  \;\colon\; 
+  Obs \longrightarrow \mathbb{C}
+$$
+
+such that 
+
+1. (linearity) this is a [[linear map]];
+
+1. (positivity) for any $A \in Obs$ we have that
+
+   $$
+     \langle A^\ast A \rangle \geq 0
+   $$
+
+(...)
+
+=--
 
 
 
@@ -2819,7 +2901,8 @@ $$
 
 
 
-## Algebraic quantization
+## Quantum observables
+ {#QuantumObservables}
 
 
 (...)
