@@ -124,3 +124,5 @@ See also
 
 * [[Joseph Krasil'shchik]], Alexander Verbovetsky, section 1.4 of _Geometry of jet spaces and integrable systems_, J.Geom.Phys.61:1633-1674, 2011 ([arXiv:1002.0077](https://arxiv.org/abs/1002.0077))
 
+
+[[!redirects evolutionary vector fields]]
