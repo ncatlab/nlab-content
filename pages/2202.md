@@ -32,6 +32,8 @@ Some examples of semicartesian monoidal categories that are not cartesian includ
 
 * The opposite of the category of [[associative algebra]]s over a given [[base field]] $k$ with its usual tensor product $A \otimes B$.
 
+* The category [[Cat]] with the non-standard non-cartesian [[funny tensor product]].
+
 * The category of [[strict 2-categories]] with the [[Gray tensor product]], and the category of [[strict omega-categories]] with the [[Crans-Gray tensor product]].
 
 * The category of [[affine space|affine spaces]] made into a [[closed monoidal category]] where the [[internal hom]] has $hom(x,y)$ being the set of affine linear maps from $x$ to $y$, made into an affine space via pointwise operations.
