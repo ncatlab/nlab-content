@@ -438,7 +438,7 @@ $$
 =--
 
 
-## Field variations
+## Derivatives
 
 Given a [[field bundle]] as in def. \ref{Fields} above, then we know what type of quantities the corresponding fields assign to a given spacetime point ([[event]]). Among all consistent such field configurations, some are to qualify as those that "may occur in reality" if we think of the field theory as a means to describe parts of the [[observable universe]]. Moreover, if the reality to be described does not exhibit "action at a distance" then admissibility of its field configurations should be determined over arbitrary small spacetime regions, in fact over the [[infinitesimal neighbourhood]] of any spacetime point. This means equivalently that the realized field configurations should be those that satisfy a given _[[differential equation]]_, hence an [[equation]] between the value of the [[derivatives]] of the field
 configuration at any spacetime point.
@@ -1033,7 +1033,7 @@ of the total spacetime derivative of $f$ (eq:SpacetimeTotalDerivativeOnSmoothFun
 
 
 
-## Lagrangian densities
+## Lagrangians
 
 
 Given any type of [[field (physics)|fields]] (def. \ref{Fields}), those field configurations that
@@ -1074,14 +1074,14 @@ variational differential form called a _[[conserved current]]_ ([[Noether's theo
 these conserved currents constitute an [[Lie algebra extension|extension]] of the [[Lie algebra]]
 of symmetries, called the [[Poisson bracket Lie n-algebra]] ("[[Dickey bracket]]").
 
-In direct analogy, every infinitesimal symmetry of the [[presymplectic current]] is witnessed by 
+In direct analogy, every infinitesimal symmetry of the [[presymplectic current]] is witnessed by
 a variational form, called a _[[Hamiltonian differential form]]_ (def. \ref{HamiltonianForms} below).
 The corresponding [[Lie n-algebra]] is the all-important _[[Poisson bracket Lie n-algebra|Poisson bracket Lie p+1-algebra]]_
-of the Lagrangian field theory. In the simple special situation that we consider here, this is a 
-plain [[Lie algebra]] (prop. \ref{LocalPoissonBracket} below). 
+of the Lagrangian field theory. In the simple special situation that we consider here, this is a
+plain [[Lie algebra]] (prop. \ref{LocalPoissonBracket} below).
 
-When we turn attention to the [[covariant phase space]] [below](#PhaseSpace) 
-the [[transgression of variational differential forms|transgression]] 
+When we turn attention to the [[covariant phase space]] [below](#PhaseSpace)
+the [[transgression of variational differential forms|transgression]]
 of the [[Poisson bracket Lie n-algebra|Poisson bracket Lie p+1-algebra]] of [[Hamiltonian differential forms]]
 yields the [[Poisson bracket Lie algebra]] on [[local observables]] on  [[covariant phase space]].
 This is the all-important structure of the theory: the [[deformation quantization]] induced by this
@@ -1211,7 +1211,7 @@ $$
   \,.
 $$
 
-Saying something holds  "on-shell" will mean that it holds after restriction to this 
+Saying something holds  "on-shell" will mean that it holds after restriction to this
 subspace.
 
 The remaining term $d \Theta$ is unique, while $\Theta \in \Omega^{p,1}_{\Sigma}(E)$ is unique only up to terms $d \alpha$ in the image of $d$.
@@ -1488,6 +1488,8 @@ $$
 
 =--
 
+> mention [[evolutionary vector fields]]
+
 +-- {: .num_defn #SymmetriesAndConservedCurrents}
 ###### Definition
 **([[infinitesimal symmetries of the Lagrangian]] and [[conserved currents]])
@@ -1686,21 +1688,22 @@ the [[Hamiltonian differential forms]] are generators of infinitesimal [[symmetr
 (namely of the [[Lagrangian density]] and of the [[presymplectic current]], respectively) they
 form a [[Lie algebra]]. For the conserved currents this is sometimes known as the _[[Dickey bracket]] Lie algebra_.
 For the Hamiltonian forms it is the _[[Poisson bracket Lie n-algebra|Poisson bracket Lie p+1-algebra]]_. Since here for simplicity
-we are considering just vertical variations, we have just a plain [[Lie algebra]]. 
+we are considering just vertical variations, we have just a plain [[Lie algebra]].
 The [[transgression of variational differential forms|transgression]] of this Lie algebra of Hamiltonian forms
-on the jet bundle to [[Cauchy surfaces]] yields a [[presymplectic structure]] on [[phase space]], this we discuss 
+on the jet bundle to [[Cauchy surfaces]] yields a [[presymplectic structure]] on [[phase space]], this we discuss
 [below](#PhaseSpace).
 
 
 +-- {: .num_example #LocalPoissonBracket}
 ###### Proposition
-**([[Poisson bracket Lie n-algebra|Poisson bracket Lie p+1 algebra]])
+**(local [[Poisson bracket Lie n-algebra|Poisson bracket Lie (p+1)-algebra]])
 
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}).
 
 On the space $\Omega^{p,0}_{\Sigma,Ham}(E)$ pairs $(H,v)$ of [[Hamiltonian differential forms]] $H$ with compatible variation $v$ (def. \ref{HamiltonianForms}) the following operation constitutes a [[Lie bracket]]:
 
 $$
+  \label{LocalPoissonLieBracket}
   \left\{(H_1, v_1),\, (H_2, v_2)\right\}
   \;\coloneqq\;
   (\iota_{v_1} \iota_{v_2} \Omega,\, [v_1,v_2])
@@ -1709,18 +1712,16 @@ $$
 
 (Here $[v_1, v_2]$ denotes the ordinary Lie bracket of [[vector fields]].)
 
+We call this the _local Poisson Lie bracket_.
 
 =--
-
-This [[Lie algebra]] $(\Omega^{p,0}_{\Sigma,Ham}(E), [-,-])$ is
-(the lowest stage of) the _[[Poisson bracket Lie n-algebra|Poisson bracket Lie p-algebra]]_.
 
 
 +-- {: .proof}
 ###### Proof
 
 First we need to check that the bracket is well defined in itself. It
-is clear that it is linear and skew-symmetric, but what needs proof is that 
+is clear that it is linear and skew-symmetric, but what needs proof is that
 it does indeed land in $\Omega^{p,0}_{\Sigma,Ham}(E)$, hence that the following
 equation holds:
 
@@ -1733,7 +1734,7 @@ $$
 
 To see this we use [[Cartan calculus]]:
 
-Since the variation $v$ is purely vertical, by definition, contraction with $v$ anti-commutes with 
+Since the variation $v$ is purely vertical, by definition, contraction with $v$ anti-commutes with
 the total horizontal derivative:
 
 $$
@@ -1741,7 +1742,7 @@ $$
   \,.
 $$
 
-This makes [[Cartan's homotopy formula]] for the [[Lie derivative]] 
+This makes [[Cartan's homotopy formula]] for the [[Lie derivative]]
 
 $$
   \mathcal{L}_v = \mathbf{d} \circ \iota_v + \iota_v \circ \mathbf{d}
@@ -1762,7 +1763,7 @@ With this we compute as follows:
 $$
   \begin{aligned}
     \delta \iota_{v_1} \iota_{v_2} \Omega
-    & = 
+    & =
     \tfrac{1}{2} \delta \iota_{v_1} \iota_{v_2} \Omega
     -
     \tfrac{1}{2} (v_1 \leftrightarrow v_2)
@@ -1783,7 +1784,7 @@ $$
       \mathcal{L}_{v_1} \iota_{v_2} \Omega
       -
       \iota_{v_1} \mathcal{L}_{v_2} \Omega
-      + 
+      +
       \iota_{v_1} \iota_{v_2} \underset{= 0}{\underbrace{\delta \Omega}}
     \right)
     -
@@ -1809,7 +1810,7 @@ $$
   0
 $$
 
-hence that 
+hence that
 
 $$
   \left(  \iota_{v_1} \iota_{[v_2,v_3]}  \Omega ,\,   [v_1, [v_2, v_2]] \right)
@@ -1819,24 +1820,24 @@ $$
 $$
 
 Here $ [v_1, [v_2, v_3]] + (cyclic) = 0 $ is the ordinary Jacobi identity for [[vector fields]],
-and hence what needs to be shown is that 
+and hence what needs to be shown is that
 
 $$
   \iota_{v_1} \iota_{[v_2, v_3]}   \Omega + (cyclic) = 0
 $$
 
-We check this by repeated uses of [[Cartan calculus]], using in addition 
-that 
+We check this by repeated uses of [[Cartan calculus]], using in addition
+that
 
-1. $\delta \iota_{v_i} \Omega = 0$ 
+1. $\delta \iota_{v_i} \Omega = 0$
 
    (since $\iota_{v_i} \Omega = \delta H_i$ by $v_i$ being Hamiltonian)
 
-1. $\mathcal{L}_{v_i} \Omega = 0$ 
+1. $\mathcal{L}_{v_i} \Omega = 0$
 
    (since in addition $\delta \Omega = 0$)
 
-1. $\iota_{v_1} \iota_{v_2} \iota_{v_3} \Omega = 0$ 
+1. $\iota_{v_1} \iota_{v_2} \iota_{v_3} \Omega = 0$
 
    (since $\Omega \in \Omega^{p,2}_\Sigma(E)$ is of vertical degree 2, and since all variations $v_i$ are vertical by assumption).
 
@@ -1844,7 +1845,7 @@ So we compute as follows (a special case of [FRS 13b, lemma 3.1.1](#Poisson+brac
 
 $$
   \begin{aligned}
-    0 
+    0
     & =
     \delta \iota_{v_1} \iota_{v_2} \iota_{v_3} \Omega
     \\
@@ -1855,7 +1856,7 @@ $$
     \\
     & =
     \iota_{[v_1, v_2]} \iota_{v_3} \Omega
-    + 
+    +
     \iota_{v_2} \mathcal{L}_{v_1} \iota_{v_3} \Omega
     -
     \iota_{v_1} \mathcal{L}_{v_2} \iota_{v_3} \Omega
@@ -1882,25 +1883,80 @@ $$
 
 =--
 
+$\,$
+
+The local Poisson bracket [[Lie algebra]] $(\Omega^{p,0}_{\Sigma,Ham}(E), [-,-])$ from prop.
+\ref{LocalPoissonBracket} is but the lowest stage of 
+a [[higher Lie theory|higher Lie theoretic]] structure called the _[[Poisson bracket Lie n-algebra|Poisson bracket Lie p-algebra]]_.
+Here we will not go deeper into this higher structure, but below we will need the following
+shadow of it:
+
++-- {: .num_lemma #HorizontallyExactFormsDropOutOfLocalLieBracket}
+###### Lemma
+
+The horizontally exact Hamiltonian forms constitute a [[Lie ideal]] for the 
+local Poisson Lie bracket (eq:LocalPoissonLieBracket).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Let $E$ be a horizontally exact Hamiltonian form, hence
+
+$$
+  E = d K
+$$
+
+for some $K$. Write $e$ for a [[Hamiltonian vector field]] for $E$. 
+
+Then for $(H,v)$ any other pair consisting of a Hamiltonian form and a corresponding
+Hamiltonian vector field, we have
+
+$$
+  \begin{aligned}
+    \iota_v \iota_e \Omega 
+    & =
+    \iota_v \delta E 
+    \\
+    & =  
+    \iota_v \delta d K
+    \\
+    & =
+    - \iota_v d \delta K
+    \\
+    & =
+    d \iota_v \delta K
+  \end{aligned}
+$$ 
+
+where we used that the horizontal derivative anti-commutes with the 
+vertical one by construction of the [[variational bicomplex]], and
+ that $\iota_e$ anti-commutes with the horizontal derivative $d$ since the variation $e$ (def. \ref{Variation}) is
+by definition vertical.
+
+=--
+
+
 
 +-- {: .num_prop #LocalHeisenbergAlgebra}
 ###### Definition
 **([[Heisenberg Lie n-algebra|Heisenberg Lie p+1-algebra]])
 
-Given a [[Lagrangian field theory]] whose [[field bundle]] is a [[trivial vector bundle]] 
-as in example \ref{TrivialVectorBundleAsAFieldBundle}, its [[jet bundle]] inherits the structure of a 
+Given a [[Lagrangian field theory]] whose [[field bundle]] is a [[trivial vector bundle]]
+as in example \ref{TrivialVectorBundleAsAFieldBundle}, its [[jet bundle]] inherits the structure of a
 trivial vector bundle (this is the only case we have been making explicit here anyway, def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}). Hence addition in the [[fibers]]
-gives it the structure of a [[group]], by translation. 
+gives it the structure of a [[group]], by translation.
 
 If the [[presymplectic current]] is [[left invariant differential form|left invariant]] with respect to this
 group structure, then it makes sense to ask for that sub [[Lie n-algebra|Lie p+1-algebra]]
-of the [[Poisson bracket Lie n-algebra|Poisson bracket Lie (p+1)-algebra]] which covers these 
+of the [[Poisson bracket Lie n-algebra|Poisson bracket Lie (p+1)-algebra]] which covers these
 translations. This is the corresponding _[[Heisenberg Lie n-algebra|Heisenberg Lie (p+1)-algebra]]_.
 
 (...)
 
 Its [[transgression of differential forms|transgression]] to the [[covariant phase space]]
-has as [[universal enveloping algebra]] that sub-[[algebra of quantum observables]] 
+has as [[universal enveloping algebra]] that sub-[[algebra of quantum observables]]
 generated by the [[linear functionals]].
 
 (...)
@@ -1912,45 +1968,45 @@ generated by the [[linear functionals]].
 $\,$
 
 
-## Local observables
+## Observables
 
 
-Given a [[field theory]] as above, then an _[[observable]]_ is a [[smooth function]] 
+Given a [[field theory]] as above, then an _[[observable]]_ is a [[smooth function]]
 
 $$
   A \;\colon\; \Gamma_\Sigma(E)_{\delta_{EL} = 0} \longrightarrow \mathbb{C}
 $$
 
 on the space of [[on-shell]]
-field [[trajectories]] (def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime}). We think 
-of this function as assigning to each physically realizable field history $\Phi$ the value $A(\Phi)$ of the given quantity as exhibited by 
-that field history. For instance concepts like "avarage field amplitude in spacetime region $\mathcal{O}$" should be 
+field [[trajectories]] (def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime}). We think
+of this function as assigning to each physically realizable field history $\Phi$ the value $A(\Phi)$ of the given quantity as exhibited by
+that field history. For instance concepts like "avarage field amplitude in spacetime region $\mathcal{O}$" should be
 observables.
 
 In _[[local field theory]]_ the idea is that both the [[equations of motion]] as well as the observations
 are fully determined by their restriction to [[infinitesimal neighbourhoods]] of spacetime points ([[events]]).
-For the equations of motion this means that they are [[partial differential equations]] as we have seen 
+For the equations of motion this means that they are [[partial differential equations]] as we have seen
 [above](#EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime). For the observables
 it should mean that they must be functions of the value of the Field histories and their derivatives
 _at any point_ of spacetime, or rather averages of such local observations over regions of spacetime.
-Now a "smooth function of the value of the field field histories and their derivatives at any point" 
+Now a "smooth function of the value of the field field histories and their derivatives at any point"
 is precisely a smooth function on the [[jet bundle]] of the [[field bundle]] (example \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
 pulled back via [[jet prolongation]] (def. \ref{JetProlongation})
-and if this is to be averaged over spacetime it needs to be the coefficient of a horizontal $p+1$-form (prop. \ref{VariationalBicomplexOnSecondOrderJetBundleOverTrivialVectorBundleOverMinkowskiSpacetime}). 
+and if this is to be averaged over spacetime it needs to be the coefficient of a horizontal $p+1$-form (prop. \ref{VariationalBicomplexOnSecondOrderJetBundleOverTrivialVectorBundleOverMinkowskiSpacetime}).
 
-In mathematical terminology these desiderata say that the [[local observables]] in a local field theory should be precisely the 
+In mathematical terminology these desiderata say that the [[local observables]] in a local field theory should be precisely the
 "[[transgression of variational differential forms|transgressions]]" of horizontal variational $p+1$-forms
-(with compact spacetime support, def. \ref{SpacetimeSupport} below) to the [[space of field histories]]. This is 
+(with compact spacetime support, def. \ref{SpacetimeSupport} below) to the [[space of field histories]]. This is
 def. \ref{TransgressionOfVariationalDifferentialFormsToConfigrationSpaces} below.
 
 A key example of a [[local observable]] in [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) is the _[[action functional]]_ (example \ref{ActionFunctional} below). This is the [[transgression of variational differential forms|transgression]]
-of the [[Lagrangian density]] itself, or rather of its product with an "[[adiabatic switching]] function" that 
-localizes its [[support]] in a compact spacetime region. In typical cases the physical quantity whose observation is 
+of the [[Lagrangian density]] itself, or rather of its product with an "[[adiabatic switching]] function" that
+localizes its [[support]] in a compact spacetime region. In typical cases the physical quantity whose observation is
 represented by the action functional is the difference of the [[kinetic energy|kinetic]] energy-momentum minus the [[potential energy]]
 of a field history averaged over the given region of spacetime.
 
 The [[equations of motion]] of a [[Lagrangian field theory]] say that those field histories
-are physically realized which are [[critical points]] of this [[action functional]] observable. This is 
+are physically realized which are [[critical points]] of this [[action functional]] observable. This is
 the _[[principle of extremal action]]_ (prop. \ref{PrincipleOfExtremalAction} below).
 
 This formalizes what it means for a [[field (physics)|field]] history $\Phi$ to be "realizable" (physically admissible)
@@ -2418,9 +2474,9 @@ $$
     \cdots
   \right)
   \left(
-     (x^\mu), 
-     (\Phi^a), 
-     \left( \frac{\partial \Phi^a}{\partial x^\mu}\right), 
+     (x^\mu),
+     (\Phi^a),
+     \left( \frac{\partial \Phi^a}{\partial x^\mu}\right),
      \left( \frac{\partial^2 \Phi^a}{\partial x^\mu \partial x^\nu} \right),
      \cdots
   \right)
@@ -2582,7 +2638,7 @@ This is called the algebra of _multilocal observables_.
 ###### Example
 
 
-A typical example of [[local observables]] (def. \ref{LocalObservables}) for the [[scalar field]] (example \ref{RealScalarFieldBundle}) is 
+A typical example of [[local observables]] (def. \ref{LocalObservables}) for the [[scalar field]] (example \ref{RealScalarFieldBundle}) is
 the "field amplitude averaged over a given spacetime region"
 determined by a [[bump function]] $b \in C^\infty_{cp}(\Sigma)$. On an on-shell  field configuration $\Phi$ this observable
 takes as value the integral $\int_\Sigma \Phi(x) b(x) dvol_\Sigma(x)$. Similar observables are obtained from integrals such as
@@ -2600,29 +2656,26 @@ on functions of the field histories and their derivatives _at a fixed spacetime 
 ###### Definition
 **([[states]])**
 
-Given a [[Lagrangian field theory]] $(E,\mathbf{L})$, then a _[[state]]_ is a [[function]] from 
+Given a [[Lagrangian field theory]] $(E,\mathbf{L})$, then a (classical) _[[state]]_ is a [[function]] from
 the space $Obs$ of [[observables]] to the complex numbers
 
 $$
   \langle -\rangle
-  \;\colon\; 
+  \;\colon\;
   Obs \longrightarrow \mathbb{C}
 $$
 
-such that 
+such that
 
 1. (linearity) this is a [[linear map]];
 
-1. (positivity) for any $A \in Obs$ we have that
-
-   $$
-     \langle A^\ast A \rangle \geq 0
-   $$
-
-(...)
+1. (positivity) for any $A \in Obs$ we have that $\langle A^\ast A \rangle \geq 0$
 
 =--
 
+(Below we consider _quantum states_. These are defined formally in just the same way, only that 
+now the algebra of observables is equipped with another product, which changes the meaning of
+the product expression $A^\ast A$.)
 
 
 ## Phase space
@@ -2661,8 +2714,8 @@ then the corresponding _[[phase space]]_ is
 
 1. the [[smooth space]] $\Gamma_{\Sigma_p}(E)_{\delta_{EL}\mathbf{L} = 0}$ (eq:OnShellFieldHistoriesInHigherCodimension)
    of [[on-shell]] field histories restricted to the [[infinitesimal neighbourhood]] of $\Sigma_p$;
-   
-1. equipped with the [[presymplectic form]] 
+
+1. equipped with the [[presymplectic form]]
 
    $$
      \label{TransgressionOfPresymplecticCurrentToCauchySurface}
@@ -2677,7 +2730,7 @@ then the corresponding _[[phase space]]_ is
 
    which is the [[transgression of variational differential forms|transgression]]
    of the [[presymplectic current]] $\Omega$ (def. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}).
-   
+
 
 
 =--
@@ -2686,8 +2739,8 @@ Since by definition of [[Cauchy surface]] (def. \ref{CauchySurface})
 the underlying [[smooth space]] of the [[phase space]] associated with it (def. \ref{PhaseSpaceAssociatedWithCauchySurface})
 is [[isomorphism|isomorphic]] to the [[on-shell]] [[space of field histories]], and hence also to the phase spaces
 associated with any other Cauchy surface, a natural question is whether their [[presymplectic forms]]
-are compatible with these isomorphisms, so that all phase spaces are in fact isomorphic as 
-[[presymplectic smooth spaces]]. The following proposition says that this is the case. 
+are compatible with these isomorphisms, so that all phase spaces are in fact isomorphic as
+[[presymplectic smooth spaces]]. The following proposition says that this is the case.
 Therefore one speaks of the _[[covariant phase space]]_ of a [[Lagrangian field theory]]:
 
 +-- {: .num_prop #CovariantPhaseSpace}
@@ -2696,25 +2749,25 @@ Therefore one speaks of the _[[covariant phase space]]_ of a [[Lagrangian field 
 
 Consider $(E, \mathbf{L})$ a [[Lagrangian field theory]] on a [[spacetime]] $\Sigma$ (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}).
 
-Let 
+Let
 
 $$
   \Sigma_{tra} \overset{tra}{\hookrightarrow} \Sigma
 $$
 
-be a [[submanifold]] [[manifold with boundary|with two boundary components]] 
-$\partial \Sigma_{tra} = \Sigma_{in} \sqcup \Sigma_{out}$ , 
+be a [[submanifold]] [[manifold with boundary|with two boundary components]]
+$\partial \Sigma_{tra} = \Sigma_{in} \sqcup \Sigma_{out}$ ,
 both of which are [[Cauchy surfaces]] (def. \ref{CauchySurface}).
 
 Then the corresponding inclusion diagram
 
-$$ 
+$$
   \array{
     && \Sigma_{tra}
     \\
     & {}^{\mathllap{in}}\nearrow && \nwarrow^{\mathrm{out}}
     \\
-    \Sigma_{in} 
+    \Sigma_{in}
     && &&
     \Sigma_{out}
   }
@@ -2738,8 +2791,8 @@ $$
   }
 $$
 
-in that the [[pullback of differential forms|pullback]] of the 
-two [[presymplectic forms]] (eq:TransgressionOfPresymplecticCurrentToCauchySurface) coincides on the 
+in that the [[pullback of differential forms|pullback]] of the
+two [[presymplectic forms]] (eq:TransgressionOfPresymplecticCurrentToCauchySurface) coincides on the
 space of field histories:
 
 $$
@@ -2789,7 +2842,7 @@ $$
   \,.
 $$
 
-and recall (eq:DerivativeOfLepageForm) that its de Rham differetial is the 
+and recall (eq:DerivativeOfLepageForm) that its de Rham differetial is the
 sum of the [[Euler-Lagrange variational derivative]] of the Lagrangian density and the [[presymplectic current]]:
 
 $$
@@ -2799,26 +2852,39 @@ $$
   \,.
 $$
 
-In particular this means that $\delta_{EL}\mathbf{L} + \Omega$ is closed.
+In particular this means that $\delta_{EL}\mathbf{L} + \Omega$ is closed, so that the
+relative transgresson formula (prop. \ref{RelativeTransgressionOfDifferentialForms}) does apply.
+ 
+Notice also that the following transgressions vanish:
 
-Notice also that $\delta_{EL}\mathbf{L} \in \Omega^{p+1,1}_\Sigma(E)$ 
-has horizontal degree $(p+1)$, so that the transgression of this summand to the Cauchy surfaces
-(whose dimension is $p$) vanishes (remark \ref{TransgressionToDimensionrSupportedOnHorizontalrForms}).
+1. $\tau_{\Sigma}\left( \delta_{EL} \mathbf{L}  \right) \in \Gamma_{\Sigma}(E)_{\delta_{EL}\mathbf{L} = 0}$;
+
+1. $\tau_{\Sigma}\left(  \Omega \right) = 0$;
+
+1. $\tau_{\Sigma_p}\left( \delta_{EL}\mathbf{L}  \right) = 0$.
+
+The first item is the very definition of the 
+[[on-shell]] fields (def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime})
+and the second and third expressions vanish by degree reasons
+(remark \ref{TransgressionToDimensionrSupportedOnHorizontalrForms}).
+   
 
 With this the statement follows from the formula for relative [[transgression of variational differential forms]] (prop. \ref{RelativeTransgressionOfDifferentialForms}):
 
 $$
   \begin{aligned}
-    0
-    & =
-    d \tau_{\Sigma_{tra}}\left( \delta_{EL} \mathbf{L} + \Omega \right)
+    d
+    \underset{= 0}{ 
+    \underbrace{
+       \tau_{\Sigma_{tra}}\left( \delta_{EL} \mathbf{L} + \Omega \right)
+    }}
     \\
     & =
     \left(
       (-)\vert_{\partial \Sigma_{tra}}
     \right)^\ast
     \left(
-      \tau_{\partial \Sigma_{tra}} 
+      \tau_{\partial \Sigma_{tra}}
       \left(
         \delta_{EL} \mathbf{L} + \Omega
       \right)
@@ -2849,14 +2915,14 @@ Consider a [[local observable]] (def. \ref{LocalObservables})
 
 $$
   \tau_\Sigma(A)
-    \;\colon\; 
+    \;\colon\;
   \Gamma_\Sigma(E)_{\delta_{EL}\mathbf{L} = 0}
-    \longrightarrow 
+    \longrightarrow
   \mathbb{C}
   \,,
 $$
 
-hence the [[transgression of variational differential forms|transgression]] of a variational horizontal 
+hence the [[transgression of variational differential forms|transgression]] of a variational horizontal
 $p+1$-form $A \in \Omega^{p+1,0}_{\Sigma,cp}(E)$ of compact spacetime support.
 
 Given a [[Cauchy surface]] $\Sigma_p \hookrightarrow \Sigma$ (def. \ref{CauchySurface})
@@ -2867,7 +2933,7 @@ $$
   (H,v) \in \Omega^{p,0}_{\Sigma, Ham}(E)
 $$
 
-whose transgression over the Cauchy surface $\Sigma_p$ equals the transgression of $A$ over all of 
+whose transgression over the Cauchy surface $\Sigma_p$ equals the transgression of $A$ over all of
 spacetime $\Sigma$, under the isomorphism (eq:CauchySurfaceIsomorphismOnHistorySpace)
 
 $$
@@ -2884,11 +2950,21 @@ $$
 
 =--
 
++-- {: .num_defn}
+###### Definition
+
 The _[[Poisson bracket]]_ on Hamiltonian local observables (def. \ref{HamiltonianLocalObservables})
-is the transgression of the [[Poisson bracket Lie n-algebra|Poisson bracket Lie (p+1)-algebra]]
-of the corresponding [[Hamiltonian differential forms]] (def. \ref{LocalPoissonBracket}):
+is the [[transgression of variational differential forms|transgression]] (def. \ref{TransgressionOfVariationalDifferentialFormsToConfigrationSpaces})
+of the [[Poisson bracket Lie n-algebra|Poisson bracket Lie (p+1)-algebra]] (def. \ref{LocalPoissonBracket})
+of the corresponding [[Hamiltonian differential forms]] (def. \ref{LocalPoissonBracket})
+to the [[covariant phase space]] (def. \ref{CovariantPhaseSpace}).
+
+Explicitly: for $\Sigma_p \hookrightarrow \Sigma$ a choice of [[Cauchy surface]] (def. \ref{CauchySurface})
+then the Poisson bracket between two local Hamiltonian observables
+$\tau_{\Sigma_p}((H_i, v_i))$ is 
 
 $$
+  \label{PoissonBracketTransgressedToCauchySurface}
   \left\{
     \tau_{\Sigma_p}((H_1, v_1))
     \,,\,
@@ -2896,13 +2972,39 @@ $$
   \right\}
   \;\coloneqq\;
   \tau_{\Sigma_p}( \{ (H_1, v_1), (H_2, v_2) \} )
-  \,.
+  \,,
 $$
 
+where on the right we have the transgression of the Poisson bracket of Hamiltonian forms
+on the jet bundle.
+
+=--
+
++-- {: .proof}
+###### Proof idea
+
+We need to see that equation (eq:PoissonBracketTransgressedToCauchySurface) is well defined,
+in that it does not depend on the choice of Hamiltonian form $(H_i, v_i)$
+representing the local Hamiltonian observable $\tau_{\Sigma_p}(H_i)$.
+
+It is clear that all the transgressions involved depend only on the restriction
+of the Hamiltonian forms to the pullback of the jet bundle to $N_\Sigma \Sigma_p$.
+Moreover the Poisson bracket on the jet bundle (eq:LocalPoissonLieBracket)
+respects this restriction. 
+
+Now after this restriction, a Hamiltonian form is in the [[kernel]] of the transgression
+relative to $\Sigma_p$ precisely if it is horizontally exact. Therefore the claim 
+follows with the statement that horizontally exact forms constitute a 
+Lie ideal for the Poisson bracket on the jet bundle (lemma \ref{HorizontallyExactFormsDropOutOfLocalLieBracket}).
+
+=--
 
 
-## Quantum observables
+$\,$
+
+## Quantum
  {#QuantumObservables}
+
 
 
 (...)
@@ -2913,20 +3015,20 @@ local observables (def. \ref{HamiltonianLocalObservables}) form a _[[Lie algebra
 under the [[Poisson bracket]], this being the transgression of the variational [[Poisson bracket Lie n-algebra]]
 from prop. \ref{LocalPoissonBracket}.
 
-The point here is that the local picture, where structure on phase space arises as the 
+The point here is that the local picture, where structure on phase space arises as the
 transgression of higher structure on the jet bundle, does not yield the expected [[Poisson algebra]]
 structure, just the [[Poisson bracket]]. This is because up on the jet bundle the [[Poisson bracket Lie n-algebra]]
-is not compatible, it seems, with some higher associative algebra structure on Hamiltonian forms.
+is not interacting with a higher associative algebra structure on Hamiltonian forms.
 
 But since we have a Lie algebra of Hamiltonian local observables, it is tempting to consider its [[universal enveloping algebra]].
-This turns out to be not quite the algebra of quantum observables that one is after. However, if we 
+This turns out to be not quite the algebra of quantum observables that one is after. However, if we
 restrict further to the _[[Heisenberg Lie algebra]]_ of local observables, the one coming from transgression of the
 [[Heisenberg Lie n-algebra]] (def. \ref{LocalHeisenbergAlgebra}) then this works: the corresponding
-universal enveloping algebra coincides with the standard quantum field algebra on this (very restricted) class of 
+universal enveloping algebra coincides with the standard quantum field algebra on this (very restricted) class of
 observables. So maybe we should take this as the starting point and then demand deformation quantization
 of the [[polynomial Poisson algebra]] generated by the local observables compatible with that universal Heisenberg enveloping
-algebra inside it. That gets one at least closer to 
-pinpointing the specific [[Moyal deformation quantization]] / [[Fedosov deformation quantization]] that 
+algebra inside it. That gets one at least closer to
+pinpointing the specific [[Moyal deformation quantization]] / [[Fedosov deformation quantization]] that
 is considered in the literature and which happens to be the one confirmed by experiment, but the choice of which has
 presently no derivation from deeper principles.
 
