@@ -257,7 +257,9 @@ Relation to [[U-duality]] is discussed in:
 
 * [pdf](http://streaming.ictp.trieste.it/preprints/P/97/044.pdf)
 
-Discussion from the point of view of [[E11]] U-duality is in 
+Discussion from the point of view of [[E11]]-[[U-duality]] and [[current algebra]] is in 
+
+* [[Hirotaka Sugawara]], _Current Algebra Formulation of M-theory based on E11 Kac-Moody Algebra_, International Journal of Modern Physics A, Volume 32, Issue 05, 20 February 2017 ([arXiv:1701.06894](https://arxiv.org/abs/1701.06894))
 
 * [[Shotaro Shiba]], [[Hirotaka Sugawara]], _M2- and M5-branes in E11 Current Algebra Formulation of M-theory_ ([arXiv:1709.07169](https://arxiv.org/abs/1709.07169))
 
