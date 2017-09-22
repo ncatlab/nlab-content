@@ -257,6 +257,9 @@ Relation to [[U-duality]] is discussed in:
 
 * [pdf](http://streaming.ictp.trieste.it/preprints/P/97/044.pdf)
 
+Discussion from the point of view of [[E11]] U-duality is in 
+
+* [[Shotaro Shiba]], [[Hirotaka Sugawara]], _M2- and M5-branes in E11 Current Algebra Formulation of M-theory_ ([arXiv:1709.07169](https://arxiv.org/abs/1709.07169))
 
 [[!redirects M2-branes]]
 
