@@ -1,0 +1,15 @@
+# Funny tensor products
+
+* table of contents
+{: toc}
+
+## Definition
+
+For [[categories]] $C,D$, let $C \Rightarrow D$ be the category whose objects are functors from $C$ to $D$ and whose morphisms are [[unnatural transformations]].  This makes $Cat$ into a [[closed category]].  We can then define a [[tensor product]] by a [[universal property]] and make $Cat$ into a [[symmetric monoidal category]] $(Cat,\Box)$; this tensor product $\Box$ is called the **funny tensor product**.
+
+The funny tensor product can also be generalized to [[higher categories]].
+
+## Related pages
+
+* [[Gray tensor product]]
+* [[premonoidal category]]
