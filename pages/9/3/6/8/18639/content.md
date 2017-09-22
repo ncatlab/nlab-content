@@ -7,6 +7,16 @@
 
 For [[categories]] $C,D$, let $C \Rightarrow D$ be the category whose objects are functors from $C$ to $D$ and whose morphisms are [[unnatural transformations]].  This makes $Cat$ into a [[closed category]].  We can then define a [[tensor product]] by a [[universal property]] and make $Cat$ into a [[symmetric monoidal category]] $(Cat,\Box)$; this tensor product $\Box$ is called the **funny tensor product**. This constitutes one of the precisely two symmetric monoidal closed structures on $Cat$; the other of course is the [[cartesian closed category]] structure on $Cat$. Both the funny product and the cartesian product are [[semicartesian monoidal category|semicartesian monoidal]] structures. 
 
+More explicitly, the category $C \Box D$ can be defined as the pushout
+
+$$\array{
+C_0 \times D_0 & \to & C_0 \times D \\
+\downarrow &&\downarrow  \\
+C \times D_0 & \to & C \Box D
+}$$
+
+where $C_0,D_0$ are the [[discrete categories]] of objects of $C,D$ and the maps are the inclusions.
+
 The funny tensor product can also be generalized to [[higher categories]].
 
 ## Related pages
