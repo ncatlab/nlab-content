@@ -268,7 +268,7 @@ $$
 $$
 
 For $\Sigma_p \hookrightarrow \Sigma$ a [[Cauchy surface]], the [[transgression]] of
-this presymplectic current to the [[formal normal neighbourhood]] of $\Sigma$ is
+this presymplectic current to the [[infinitesimal neighbourhood]] of $\Sigma$ is
 
 $$
   \begin{aligned}
