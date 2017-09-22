@@ -170,7 +170,7 @@ We say $X$ is a **[[small object]]** if it is $\kappa$-compact for _some_ [[regu
 +-- {: .num_remark}
 ###### Remark
 
-If $\lambda \gt \kappa$, then being $\lambda$-compact is a weaker condition that being $\kappa$-comopact. 
+If $\lambda \gt \kappa$, then being $\lambda$-compact is a weaker condition than being $\kappa$-compact. 
 
 =--
 
