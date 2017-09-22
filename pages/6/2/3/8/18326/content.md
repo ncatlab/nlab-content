@@ -12,9 +12,14 @@
 * table of contents
 {:toc}
 
+## Idea
+
+A **Freyd category** is one way to axiomatize models of [[call-by-value]] programming languages.
+It abstracts the structure of the [[Kleisli category]] of a [[monad in computer science|monad]], consisting of a category $\mathbb{V}$ that model values and another category with the same objects $\mathbb{C}$ that model computations.
+
 ## Definition
 
-A **Freyd category** [Levy 04](#Levy04) may be defined as
+A **Freyd category** (following [Levy 04](#Levy04)) may be defined as
 
 * a [[small category]] $\mathbb{V}$ with [[finite products]];
 * a small category $\mathbb{C}$, that has the same objects as $\mathbb{V}$[^sameObjs];
@@ -28,7 +33,11 @@ A **Freyd category** [Levy 04](#Levy04) may be defined as
 
 [Staton 14](#Staton14) shows that a Freyd category is equivalent to a [[Lawvere theory]] enriched in a locally $\emptyset$-presentable [[cartesian closed category]].
 
+## Related Concepts
 
+* [[monad in computer science]]
+* [[Kleisli category]]
+* [[thunk-force category]]
 
 ## References
 
@@ -46,7 +55,7 @@ Freyd categories were first used in
 
 and named Freyd categories in
 
-* John Power and Hayo THielecke "Closed Freyd- and $\kappa$-Categories", Automata, Languages and Programming, 26th International Colloquium, ICALP'99
+* {#PH99} John Power and Hayo Thielecke, "Closed Freyd- and $\kappa$-Categories", Automata, Languages and Programming, 26th International Colloquium, ICALP'99
 
 [[!redirects Freyd categories]]
 
