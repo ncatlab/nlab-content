@@ -1,5 +1,4 @@
 
-> under construction
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -82,6 +81,7 @@ Given a [[classical field theory|classical]] [[local field theory]] defined by a
 ##### On Minkowski spacetime
 
 We discuss the [[covariant phase space]] of the [[free field|free]] scalar field on [[Minkowski spacetime]].
+For a more detailed exposition see at _[[geometry of physics -- A first idea of quantum field theory]]_.
 
 
 
@@ -133,7 +133,7 @@ In the situation of def. \ref{LagrangianForFreeScalarFieldOnMinkowskiSpacetime}
 for $\Phi : \Sigma \to \mathbb{R}$ the $\phi$-component of a [[section]] of the [[field bundle]], its [[equation of motion]] is the [[Klein-Gordon equation]]
 
 $$
-  \left(-\eta^{\mu \nu} \partial_\mu \partial_\nu + m^2 \right) \Phi = 0
+  \left(\eta^{\mu \nu} \partial_\mu \partial_\nu + m^2 \right) \Phi = 0
   \,.
 $$
 
@@ -142,27 +142,27 @@ Moreover, the induced [[pre-symplectic current]] $\omega \in \Omega^{p-1,2}(E)$ 
 $$
   \omega
     =
-  \left(g^{\mu \nu} d_V \phi_{,\mu} \wedge d_V \phi \right) \wedge \iota_{\partial_\nu} dvol_{\Sigma}
+  \left(\eta^{\mu \nu} d_V \phi_{,\mu} \wedge d_V \phi \right) \wedge \iota_{\partial_\nu} dvol_{\Sigma}
 $$
 
 and hence the induced [[symplectic form]] on the [[covariant phase space]] of the free scalar field
 takes two [[smooth function]] $w_1,w_2 \in C^\infty(\Sigma)$, regarded as [[tangent vectors]] at zero to
 
 $$
-  \mathbf{\Omega}_{\Sigma_{p-1}}(w_1, w_2)
+  \mathbf{\Omega}_{\Sigma_{p}}(w_1, w_2)
     \;=\;
-    \int_{\Sigma_{p-1}}
+    \int_{\Sigma_{p}}
     \left(
       (\partial_n w_1) w_2
       -
       w_1 \partial_n w_2
     \right)
-    dvol_{\Sigma_{p-1}}
+    dvol_{\Sigma_{p}}
     \,,
 $$
 
-where $\Sigma_{p-1} \hookrightarrow \Sigma$ is any [[Cauchy surface]]
-and where $n \in N \Sigma_{p-1}$ denotes its time-like normal vector field.
+where $\Sigma_{p} \hookrightarrow \Sigma$ is any [[Cauchy surface]]
+and where $n \in N \Sigma_{p}$ denotes its time-like normal vector field.
 
 =--
 
@@ -267,12 +267,12 @@ $$
   \,.
 $$
 
-For $\Sigma_p \hookrightarrow \Sigma$ a [[Cauchy surface]], the [[transgression]] of
+For $\Sigma_p \hookrightarrow \Sigma$ a [[Cauchy surface]], the [[transgression of variational differential forms|transgression]] of
 this presymplectic current to the [[infinitesimal neighbourhood]] of $\Sigma$ is
 
 $$
   \begin{aligned}
-    \omega_{\Sigma_{p-1}}(w_1, w_2)
+    \omega_{\Sigma_{p}}(w_1, w_2)
     & =
     \int_\Sigma
       \left(
@@ -281,13 +281,13 @@ $$
       \iota_{\partial_\nu} dvol_\Sigma (\phi_1, \phi_2)
     \\
     & =
-    \int_{\Sigma_{p-1}}
+    \int_{\Sigma_{p}}
     \left(
       (\partial_n w_1) w_2
       -
       w_1 \partial_n w_2
     \right)
-    dvol_{\Sigma_{p-1}}
+    dvol_{\Sigma_{p}}
   \end{aligned}
 $$
 
@@ -349,7 +349,7 @@ $$
   \,.
 $$
 
-Upon [[transgression]] to the [[Cauchy surface]] $\Sigma^t_{p} \coloneqq \{x \in  \Sigma \vert x^0 = t \}$ this yields the [[Poisson bracket]]
+Upon [[transgression of variational differential forms|transgression]] to the [[Cauchy surface]] $\Sigma^t_{p} \coloneqq \{x \in  \Sigma \vert x^0 = t \}$ this yields the [[Poisson bracket]]
 
 $$
   \left\{
@@ -458,7 +458,7 @@ $$
     e^{+ i E(\vec k) (x-y)^0 + \vec k \cdot (\vec x - \vec y)}
   \right) d^p \vec k
     \\
-    & = 
+    & =
    -i (2\pi)^{-p} \int \delta( k_\mu k^\mu + m^2 ) sgn( k_0 ) e^{ - i k_\mu (x-y)^\mu } d^{p+1} k
     \,.
   \end{aligned}
