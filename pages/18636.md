@@ -3,6 +3,8 @@
 
 ## related $n$Lab entries
 
+* [[current algebra]]
+
 * [[M2-brane]], [[M5-brane]]
 
 category: people
