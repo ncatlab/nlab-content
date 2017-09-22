@@ -5,7 +5,7 @@
 
 ## Definition
 
-For [[categories]] $C,D$, let $C \Rightarrow D$ be the category whose objects are functors from $C$ to $D$ and whose morphisms are [[unnatural transformations]].  This makes $Cat$ into a [[closed category]].  We can then define a [[tensor product]] by a [[universal property]] and make $Cat$ into a [[symmetric monoidal category]] $(Cat,\Box)$; this tensor product $\Box$ is called the **funny tensor product**.
+For [[categories]] $C,D$, let $C \Rightarrow D$ be the category whose objects are functors from $C$ to $D$ and whose morphisms are [[unnatural transformations]].  This makes $Cat$ into a [[closed category]].  We can then define a [[tensor product]] by a [[universal property]] and make $Cat$ into a [[symmetric monoidal category]] $(Cat,\Box)$; this tensor product $\Box$ is called the **funny tensor product**. This constitutes one of the precisely two symmetric monoidal closed structures on $Cat$.
 
 The funny tensor product can also be generalized to [[higher categories]].
 
@@ -13,3 +13,7 @@ The funny tensor product can also be generalized to [[higher categories]].
 
 * [[Gray tensor product]]
 * [[premonoidal category]]
+
+##References
+
+* [[Mark Weber]], _Free Products of Higher Operad Algebras_, [arXiv:0909.4722](https://arxiv.org/abs/0909.4722)
