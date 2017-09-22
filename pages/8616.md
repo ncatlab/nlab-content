@@ -29,17 +29,19 @@ $$
 
 ### In terms of coordinate expression
 
-If differential forms are defined by [[Yoneda extension]] from differential forms on [[Cartesian spaces]] then pullback is given on $X = \mathbb{R}^{\tilde k}$ and $Y = \mathbb{R}^k$ and on 1-forms 
+Differential forms may be defined by [[Yoneda extension]] from differential forms on [[Cartesian spaces]] (see at _[[geometry of physics -- differential forms]]_). 
+
+For $X = \mathbb{R}^{\tilde k}$ and $Y = \mathbb{R}^k$ [[Cartesian spaces]] and $f \;\colon\; X \longrightarrow Y$ a [[smooth function]] between them, and on [[differential 1-forms]]
 
 $$
   \omega = \sum_{i = 1}^k \omega_i \mathbf{d}x^i
 $$
 
-by the rule
+the pullback operation $f^\ast$ is given by
 
 $$
   f^* \mathbf{d}x^i
-  \coloneqq
+  \;\coloneqq\;
   \sum_{j = 1}^{\tilde k} \frac{\partial f^i}{\partial \tilde x^k} \mathbf{d}\tilde x^j
 $$
 
@@ -72,6 +74,11 @@ where
 
 ### Compatibility with the de Rham differential
 
+
++-- {: .num_prop #CompatibilityWithDeRhamDifferential}
+###### Proposition
+**(compatiblity with the [[de Rham differential]])**
+
 Pullback of differential forms commutes with the [[de Rham differential]]:
 
 $$
@@ -79,11 +86,14 @@ $$
   \,.
 $$
 
-Hence it constritutes a [[chain map]] between the [[de Rham complexes]]
+Hence it constitutes a [[chain map]] between the [[de Rham complexes]]
 
 $$
   f^* \colon \Omega^\bullet(Y) \to \Omega^\bullet(X)
+  \,.
 $$
+
+=--
 
 ### Sheaf of differential forms
 
@@ -105,9 +115,17 @@ See also for instance section 2.7 of
 
 * [[Theodore Frankel]], _[[The Geometry of Physics - An Introduction]]_
 
-[[!redirects pullback of differential forms]]
+[[!redirects pullbacks of a differential form]]
 
-[[!redirects pullback of functions]]
-[[!redirects pullback of a function]]
+[[!redirects pullback of differential forms]]
+[[!redirects pullbacks of differential forms]]
 
 [[!redirects pullback form]]
+[[!redirects pullback forms]]
+
+[[!redirects pullback of functions]]
+[[!redirects pullbacks of functions]]
+
+[[!redirects pullback of a function]]
+[[!redirects pullbacks of functions]]
+
