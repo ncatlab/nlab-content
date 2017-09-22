@@ -328,5 +328,9 @@ For [[abelian sheaves]] over the [[etale site]]:
 * [[James Milne]], section 8 of _[[Lectures on Étale Cohomology]]_
 
 
+A study of injective modules in higher algebra:
+
+* [[Liran Shaul]], Injective DG-modules over non-positive DG-rings [arxiv](https://arxiv.org/abs/1709.01479)
+
 
 [[!redirects injective modules]]
