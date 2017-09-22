@@ -44,8 +44,12 @@ $$
 
 * For $P= Jet$ a [[jet comonad]], then morphisms in its coKleisli category are [[differential operators]].
 
+* The Kleisli category of a comonad can be used to model [[call-by-name]] programming languages.
+
 ## Related concepts
 
+* [[Kleisli category]]
+* [[Eilenberg-Moore category]]
 * [[monad (in computer science)]]
 
 
