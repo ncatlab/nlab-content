@@ -1701,7 +1701,7 @@ Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangian
 On the space $\Omega^{p,0}_{\Sigma,Ham}(E)$ pairs $(H,v)$ of [[Hamiltonian differential forms]] $H$ with compatible variation $v$ (def. \ref{HamiltonianForms}) the following operation constitutes a [[Lie bracket]]:
 
 $$
-  [(H_1, v_1),\, (H_2, v_2)]
+  \left\{(H_1, v_1),\, (H_2, v_2)\right\}
   \;\coloneqq\;
   (\iota_{v_1} \iota_{v_2} \Omega,\, [v_1,v_2])
   \,.
@@ -1803,7 +1803,7 @@ This shows that the bracket is well defined.
 It remains to see that the bracket satifies the [[Jacobi identity]]:
 
 $$
-  [ (H_1, v_1), [(H_2, v_2), (H_3,v_3)] ]
+\left\{ (H_1, v_1), \left\{ (H_2, v_2), (H_3,v_3) \right\} \right\}
   \;+\; (cyclic)
    \;=\;
   0
@@ -2486,6 +2486,8 @@ $$
   \,.
 $$
 
+This is a [[star-algebra]] under [[complex conjugation]].
+
 The _[[local observables]]_ are those observables which arise as the [[transgression of variational differential forms]] (def. \ref{TransgressionOfVariationalDifferentialFormsToConfigrationSpaces})
 of [[horizontal  differential form|horizontal p+1-forms]] of compact spacetime support (def. \ref{SpacetimeSupport}):
 
@@ -2508,6 +2510,18 @@ $$
   \Omega^{p+1}_{\Sigma,cp}(E)/im(d)
   \,.
 $$
+
+The local observables are a sub-vector space inside all observables, not closed under the product of functions.
+We write
+
+$$
+  \mathcal{F}
+    \;\coloneqq\;
+  \langle \mathcal{F}_{loc}\rangle_{C^\infty(\Gamm_\Sigma(E))_{\delta_{EL}\mathbf{L} = 0}}
+$$
+
+for the smallest subalgebra of observables that contains all the local observables.
+This is called the algebra of _multilocal observables_.
 
 =--
 
@@ -2545,6 +2559,7 @@ restriction map from the [[on-shell]] [[space of field histories]] $\Gamma_\Sigm
 restricted to the [[infinitesimal neighbourhood]] of $\Sigma_p$ is an [[isomorphism]]:
 
 $$
+  \label{CauchySurfaceIsomorphismOnHistorySpace}
   \Gamma_\Sigma(E)_{\delta_{EL} \mathbf{L} = 0 }
     \underoverset{\simeq}{(-)\vert_{N_\Sigma \Sigma_p}}{\longrightarrow}
   \Gamma_{\Sigma_p}(E)_{\delta_{EL}\mathbf{L} = 0}
@@ -2730,7 +2745,7 @@ $$
     & =
     in^\ast\left( \tau_{\Sigma_{in}}\left( \Omega \right) \right)
     -
-    out^\ast\left(  \tau_{\Sugma_{out}}\left( \Omega \right) \right)
+    out^\ast\left(  \tau_{\Sigma_{out}}\left( \Omega \right) \right)
     \\
     & =
     in^\ast( \omega_{in} ) - out^\ast(\omega_{out})
@@ -2742,6 +2757,66 @@ $$
 =--
 
 
++-- {: .num_defn #HamiltonianLocalObservables}
+###### Definition
+**(Hamiltonian local observables)**
+
+Let $(E, \mathbf{L})$ be a [[Lagrangian field theory]]  (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}).
+
+Consider a [[local observable]] (def. \ref{LocalObservables})
+
+$$
+  \tau_\Sigma(A)
+    \;\colon\; 
+  \Gamma_\Sigma(E)_{\delta_{EL}\mathbf{L} = 0}
+    \longrightarrow 
+  \mathbb{C}
+  \,,
+$$
+
+hence the [[transgression of variational differential forms|transgression]] of a variational horizontal 
+$p+1$-form $A \in \Omega^{p+1,0}_{\Sigma,cp}(E)$ of compact spacetime support.
+
+Given a [[Cauchy surface]] $\Sigma_p \hookrightarrow \Sigma$ (def. \ref{CauchySurface})
+we say that $\tau_\Sigma (A)$ is _[[Hamiltonian]]_ if it is also the transgression of a
+[[Hamiltonian differential form]] (def. \ref{HamiltonianForms}), hence if there exists
+
+$$
+  (H,v) \in \Omega^{p,0}_{\Sigma, Ham}(E)
+$$
+
+whose transgression over the Cauchy surface $\Sigma_p$ equals the transgression of $A$ over all of 
+spacetime $\Sigma$, under the isomorphism (eq:CauchySurfaceIsomorphismOnHistorySpace)
+
+$$
+  \array{
+    \Gamma_\Sigma(E)_{\delta_{EL} \mathbf{L} = 0 }
+      && \underoverset{\simeq}{(-)\vert_{N_\Sigma \Sigma_p}}{\longrightarrow} &&
+    \Gamma_{\Sigma_p}(E)_{\delta_{EL}\mathbf{L} = 0}
+    \\
+    & {}_{\mathllap{\tau_\Sigma}(A)}\searrow && \swarrow_{\mathrlap{ \tau_{\Sigma_p}(H) }}
+    \\
+    && \mathbf{\Omega}^2
+  }
+$$
+
+=--
+
+The _[[Poisson bracket]]_ on Hamiltonian local observables (def. \ref{HamiltonianLocalObservables})
+is the transgression of the [[Poisson bracket Lie n-algebra|Poisson bracket Lie (p+1)-algebra]]
+of the corresponding [[Hamiltonian differential forms]] (def. \ref{LocalPoissonBracket}):
+
+$$
+  \left\{
+    \tau_{\Sigma_p}((H_1, v_1))
+    \,,\,
+    \tau_{\Sigma_p}( (H_2, v_2) )
+  \right\}
+  \;\coloneqq\;
+  \tau_{\Sigma_p}( \{ (H_1, v_1), (H_2, v_2) \} )
+  \,.
+$$
+
 
 
 ## Algebraic quantization
@@ -2751,8 +2826,7 @@ $$
 
 The [[local observables]] (def. \ref{LocalObservables}) inside the algebra of all observables
 do not form a sub-algebra, just a sub-vector space. But at least the _Hamiltonian_
-local observables, i.e. those being the transgression of [[Hamiltonian differential forms]] (def. \ref{HamiltonianForms})
-under the identification of prop. \ref{CovariantPhaseSpace} form a _[[Lie algebra]]_
+local observables (def. \ref{HamiltonianLocalObservables}) form a _[[Lie algebra]]_
 under the [[Poisson bracket]], this being the transgression of the variational [[Poisson bracket Lie n-algebra]]
 from prop. \ref{LocalPoissonBracket}.
 
