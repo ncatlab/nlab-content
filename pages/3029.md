@@ -53,7 +53,7 @@ If $A \hookrightarrow \hat G$ factors through the [[center]] of $\hat G$ we say 
 +-- {: .num_remark }
 ###### Remark
 
-Sometimes in the literature one sees $\hat G$ called an extension "of $A$ by $G$". This is however in conflict with terms such as _[[central extension]]_, _[[extension of principal bundles]]_, etc, where the extension is always regarded _of the base, by the [[fiber]]_.
+Sometimes in the literature one sees $\hat G$ called an extension "of $A$ by $G$". This is however in conflict with terms such as _[[central extension]]_, _[[extension of principal bundles]]_, etc, where the extension is always regarded _of the base, by the [[fiber]]_.  (On the other hand, our terminology conflicts with the usual meaning of "extension" in algebra.  For example, in Galois theory if $k$ is a field, then an extension of $k$ contains $k$ as a subfield.)
 
 =--
 
