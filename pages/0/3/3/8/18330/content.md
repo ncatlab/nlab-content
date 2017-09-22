@@ -1,5 +1,29 @@
-An **identity-on-objects [[functor]]** $F: \mathbb{A}\to \mathbb{B}$
+# Identity-on-objects functors
 
-* Is between [[categories]] with the same [[set]] of [[objects]] -   $Obj = ob(\mathbb{A}) = ob(\mathbb{B})$.
+* table of contents
+{: toc}
+
+## Definition
+
+An **identity-on-objects [[functor]]** $F: A\to B$
+
+* Is between [[categories]] with the same [[set]] of [[objects]], i.e. $Obj = ob(A) = ob(B)$, and
 * Has as its underlying object function $F_{ob}: Obj \to Obj$ the [[identity function]] on $Obj$. 
 
+## Equivalence-invariance
+
+This simple definition appears to go against the [[principle of equivalence]], since it mentions equality of objects, and indeed identity of *sets* of objects.
+
+However, the notion of "two categories with an identity-on-objects functor between them", which is much more commonly used than the notion of "an identity-on-objects functor between two previously given categories", can be defined in a more invariant way.  Explicitly, it consists of one set $Ob$ of objects, two families of arrows $A(x,y)$ and $B(x,y)$ for $x,y\in Ob$, each with composition and identities making them into a category structure, plus a family of functions $A(x,y) \to B(x,y)$ commuting with these category structures.
+
+More abstractly, this can be defined as a category [[enriched category|enriched]] over the [[arrow category]] $Set^\to$.  See also [[M-category]] and [[F-category]].
+
+## Related pages
+
+* [[Freyd category]]
+
+[[!redirects identity-on-objects functors]]
+[[!redirects io functor]]
+[[!redirects io functors]]
+[[!redirects i.o. functor]]
+[[!redirects i.o. functors]]
