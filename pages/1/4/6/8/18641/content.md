@@ -14,11 +14,11 @@
 
 ##References
 
-* John Duncan, Michael Mertens, Ken Ono, _O'Nan moonshine and arithmetic_, [arXiv:1702.03516](https://arxiv.org/abs/1702.03516)
+* [[John Duncan]], [[Michael Mertens]], [[Ken Ono]], _O'Nan moonshine and arithmetic_, [arXiv:1702.03516](https://arxiv.org/abs/1702.03516)
 
 For an informal introduction,
 
-* John Duncan, Michael Mertens, Ken Ono, _Pariah moonshine_, Nature Communications 8: 670 (2017), [article](https://www.nature.com/articles/s41467-017-00660-y)
+* [[John Duncan]], [[Michael Mertens]], [[Ken Ono]], _Pariah moonshine_, Nature Communications 8: 670 (2017), [article](https://www.nature.com/articles/s41467-017-00660-y)
 
 For a popular summary,
 
