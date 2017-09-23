@@ -452,6 +452,8 @@ It has been urged by [[F. W. Lawvere]] on several occasions that this [[Boone co
 
 * [[algebraic theory]] / [[generalized algebraic theory]] / **Lawvere theory** /  [[2-Lawvere theory]] [[(∞,1)-algebraic theory]]
 
+* [[enriched Lawvere theory]]
+
 * [[globular theory]]
 
 * [[lambda theory]]
