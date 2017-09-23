@@ -4,7 +4,7 @@
 
 ##Idea
 
-**O'Nan moonshine** concerns the existence of a graded infinite-dimensional module for the [[sporadic finite simple group]] of O'Nan, for which the McKay-Thompson series are weight 3/2 mock modular forms. This form of [[moonshine]] relates congruences of McKay-Thompson series and the Selmer and Tate-Shafarvich groups of certain optimal elliptic curves.
+**O'Nan moonshine** concerns the existence of a graded infinite-dimensional module for the [[sporadic finite simple group]] of O'Nan, for which the McKay-Thompson series are weight 3/2 mock modular forms. This form of [[moonshine]] relates congruences of McKay-Thompson series and the Selmer and Tate-Shafarevich groups of certain optimal elliptic curves.
 
 ##Related concepts
 
