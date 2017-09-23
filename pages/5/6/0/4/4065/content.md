@@ -26,6 +26,7 @@ To cut the story short, we end up getting from the Monster group to a module it 
 * [[Monster]]
 * [[Mathieu moonshine]]
 * [[umbral moonshine]]
+* [[O'Nan moonshine]]
 
 
 ## References
