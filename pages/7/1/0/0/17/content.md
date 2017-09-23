@@ -98,6 +98,10 @@ if you have `git` installed on your system.  You can then pull in updates by run
 
 You can set up a [cronjob](https://help.ubuntu.com/community/CronHowto) to do this every day, for example.
 
+If you prefer to have an HTML version, use the [HTML repository](https://github.com/ncatlab/nlab-content-html):
+
+    git clone git@github.com:ncatlab/nlab-content-html.git
+
 # Getting Started #
 
 ##How to use a Wiki##
