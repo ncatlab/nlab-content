@@ -724,6 +724,12 @@ Construction of cocycles in [[KK-theory]] and [[spectral triples]] from groupoid
 [[!redirects groupoid convolution algebra]]
 [[!redirects groupoid convolution algebras]]
 
+[[!redirects convolution algebra of a Lie groupoid]]
+[[!redirects convolution algebras of a Lie groupoid]]
+
+[[!redirects convolution algebra of Lie groupoids]]
+[[!redirects convolution algebras of Lie groupoids]]
+
 [[!redirects category convolution algebra]]
 [[!redirects category convolution algebras]]
 
