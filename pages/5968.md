@@ -427,9 +427,22 @@ A formalization of invariance of Lagrangians in [[parametricity|parametric]] [[d
 
 
 
-
+[[!redirects Noether's theorems]]
 
 [[!redirects Noether theorem]]
+[[!redirects Noether theorems]]
 
 [[!redirects symplectic Noether theorem]]
 [[!redirects symplectic Noether theorems]]
+
+[[!redirects symplectic Noether's theorem]]
+[[!redirects symplectic Noether's theorems]]
+
+
+[[!redirects Hamiltonian Noether theorem]]
+[[!redirects Hamiltonian Noether theorems]]
+
+
+[[!redirects Hamiltonian Noether's theorem]]
+[[!redirects Hamiltonian Noether's theorems]]
+
