@@ -4,7 +4,7 @@
 
 ##Idea
 
-**O'Nan moonshine** concerns the existence of a graded infinite-dimensional module for the [[sporadic finite simple group]] of O'Nan, for which the McKay--Thompson series are weight 3/2 mock modular forms. 
+**O'Nan moonshine** concerns the existence of a graded infinite-dimensional module for the [[sporadic finite simple group]] of O'Nan, for which the McKay-Thompson series are weight 3/2 mock modular forms. This form of [[moonshine]] relates congruences of McKay-Thompson series and the Selmer and Tate-Shafarvich groups of certain optimal elliptic curves.
 
 ##Related concepts
 
@@ -19,3 +19,7 @@
 For an informal introduction,
 
 * John Duncan, Michael Mertens, Ken Ono, _Pariah moonshine_, Nature Communications 8: 670 (2017), [article](https://www.nature.com/articles/s41467-017-00660-y)
+
+For a popular summary,
+
+* Erica Klarreich, _Moonshine Link Discovered for Pariah Symmetries_, [Quanta](https://www.quantamagazine.org/moonshine-link-discovered-for-pariah-symmetries-20170922/)
