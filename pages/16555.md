@@ -15,7 +15,7 @@
 
 ## Idea
 
-The notion of _enriched Lawvere theory_ is a generalization of Lawvere theories to the setting of [[enriched categories]].
+The notion of _enriched Lawvere theory_ is a generalization of [[Lawvere theories]] to the setting of [[enriched categories]].
 
 ## Definitions and elementary properties
 
