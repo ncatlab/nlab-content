@@ -25,6 +25,8 @@ According to the [[classification of finite simple groups]], there are 18 counta
 
 * [[Mathieu group]]
 
+* [[Moonshine]]
+
 # References
 
 * Robert A. Wilson's _The Finite Simple Groups_. Springer, Graduate Mathematics series **251** (2009).
