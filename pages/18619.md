@@ -1,4 +1,16 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebraic Quantum Field Theory
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -38,7 +50,7 @@ $$
   }
 $$
 
-is a [[fiber bundle]] regarded as the [[field bundle]] that defines the given [[field theory]], then a local observables is a function on the the space of field configurations, hence the [[space of sections]] $\Gamma_\Sigma(E)$ (or else on the subspace of those which solve the [[equations of motion]], the [[shell]]) which arises as the [[transgression]] of a [[horizontal differential form]] of degree $dim(\Sigma)$ on the [[jet bundle]] $J^\infty_\Sigma(E)$ of $E$.
+is a [[fiber bundle]] regarded as the [[field bundle]] that defines the given [[field theory]], then a local observables is a function on the the space of field configurations, hence the [[space of sections]] $\Gamma_\Sigma(E)$ (or else on the subspace of those which solve the [[equations of motion]], the [[shell]]) which arises as the [[transgression of variational differential forms|transgression]] of a [[horizontal differential form]] of degree $dim(\Sigma)$ on the [[jet bundle]] $J^\infty_\Sigma(E)$ of $E$.
 
 
 ## Properties
