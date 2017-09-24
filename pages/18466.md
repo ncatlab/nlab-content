@@ -43,9 +43,9 @@ $$
   \,.
 $$  
 
-The [[time-ordered products]] $T(..)$ of [[field (physics)|fields]] are handled by splitting of [[distributions]] using tools from [[microlocal analysis]]. This is the mathematically rigorous step that takes care of what in other approaches are the "ultraviolet divergencies".
+The [[time-ordered products]] $T(..)$ of [[field (physics)|fields]] are handled by splitting of [[distributions]] using tools from [[microlocal analysis]]. This is the mathematically rigorous step that takes care of what in other approaches are the "[[ultraviolet divergences]]".
 
-Originally the idea was that in the end the [[limit of a sequence|limit]] $g \to 1$ had to be taken, removing the adiabatic switching of the the compact support of the interaction. In general this limit does not exist ("[[infrared divergencies]]", e.g. [AAS 10, section 6](#AAS10)).
+Originally the idea was that in the end the [[limit of a sequence|limit]] $g \to 1$ had to be taken, removing the adiabatic switching of the the compact support of the interaction. In general this limit does not exist ("[[infrared divergences]]", e.g. [AAS 10, section 6](#AAS10)).
 
 But in ([Il'in-Slavnov 78](#IlinSlavnov78)) it was observed that in fact the [[algebra of observables]] on any [[bounded subsets|bounded]] region may be computed with a $g$ whose [[compact support]] contains the [[causal closure]] of that region. Later in ([Brunetti-Fredenhagen 00](#BrunettiFredenhagen00)) it was pointed out that this means that causal perturbation theory in fact serves to construct the [[causally local net of observables]] of the [[perturbative quantum field theory]] (see [this prop](S-matrix#PerturbativeQuantumObservablesIsLocalnet) for details), as in the [[axioms]] for [[AQFT]] and in fact as in the axioms of [[AQFT on curved spacetimes]], but with values in [[formal power series algebras]] (as befits a [[perturbation theory]]) instead of [[C*-algebras]] (suitable for [[non-perturbative quantum field theory]]). This way causal perturbation theory leads to a unification of [[AQFT]] [[AQFT on curved spacetimes]] with [[perturbative quantum field theory]]. This unification is now known as **[[locally covariant perturbative quantum field theory]]**, see there for more.
 
