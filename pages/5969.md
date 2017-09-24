@@ -309,3 +309,6 @@ category: physics
 [[!redirects Dickey Lie-brackets]]
 [[!redirects Dickey-Lie bracket]]
 [[!redirects Dickey-Lie brackets]]
+
+[[!redirects Dickey bracket Lie algebra]]
+[[!redirects Dickey bracket Lie algebras]]
