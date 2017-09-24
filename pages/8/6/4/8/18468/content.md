@@ -32,7 +32,7 @@ The approach uses the [[Haag-Kastler axioms]] for [[algebraic quantum field theo
 
   (this reflects the extension to general curved spacetime backgrounds). 
 
-What connects this to the traditional discussion of QFT is the observation (in essence already due to [Il'in-Slavnov 78](#IlinSlavnov78) but then ignored) that standard [[renormalization]] theory (removal of ultraviolet divergencies) in the guise of [[causal perturbation theory]] ([Epstein-Glaser 73](#EpsteinGlaser73)) automatically produces [[causally local nets]] of [[algebras of observables]] (due to "[[adiabatic switching]]" and [[causal locality]] of the [[S-matrix]], see [there](S-matrix#CausalLocality)), in fact that considering these local nets instead of their would-be colimiting global algebra removes serves to define the perturbation theory even in the presebce of [[infrared divergencies]].
+What connects this to the traditional discussion of QFT is the observation (in essence already due to [Il'in-Slavnov 78](#IlinSlavnov78) but then ignored) that standard [[renormalization]] theory (removal of [[ultraviolet divergences]]) in the guise of [[causal perturbation theory]] ([Epstein-Glaser 73](#EpsteinGlaser73)) automatically produces [[causally local nets]] of [[algebras of observables]] (due to "[[adiabatic switching]]" and [[causal locality]] of the [[S-matrix]], see [there](S-matrix#CausalLocality)), in fact that considering these local nets instead of their would-be colimiting global algebra serves to define the perturbation theory even in the presence of [[infrared divergences]].
 
 
 
