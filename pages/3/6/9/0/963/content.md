@@ -99,7 +99,7 @@ Enrichment is often particularly interesting for $*$-quantales (see below), wher
 
 ## Examples ##
 
-Quantales are a surprisingly commonplace structure in computer science. A very simple example is the powerset of strings (i.e., the powerset of the free monoid over some set of characters $\Sigma$). The order is the inclusion order on sets, and meet and join are just intersection and union, respectively. Taking $\epsilon$ to be the empty string, and $a \cdot b$ to be the join of two strings, the quantalic operations are then:
+{#compsci}Quantales are a surprisingly commonplace structure in computer science. See the [automata references](#automata). A very simple example is the power set of strings (i.e., the [[power set]] of the [[free monoid]] over some set of characters $\Sigma$). The order is the inclusion order on sets, and meet and join are just intersection and union, respectively. Taking $\epsilon$ to be the empty string, and $a \cdot b$ to be the join of two strings, the quantalic operations are then:
 
 * $1 = \{\epsilon\}$
 * $I \otimes J = \{ i\cdot j \mid i \in I, j \in J \}$ 
@@ -174,7 +174,7 @@ There is a variety of notions of morphism of quantale, just as there is a variet
 
 The initial paper to use the term `quantale' was
 
-*  [[Christopher J. Mulvey]], [&](http://www.maths.sussex.ac.uk/Staff/CJM/research/pdf/&.pdf), Rend. Circ. Mat. Palermo, II. Ser., Suppl. 12, 99-104 (1986) [Zbl 0633.46065](http://zbmath.org/?q=an:0633.46065)
+*  [[Christopher J. Mulvey]], _["&"](http://www.maths.sussex.ac.uk/Staff/CJM/research/pdf/&.pdf)_, Rend. Circ. Mat. Palermo, II. Ser., Suppl. 12, 99-104 (1986) [Zbl 0633.46065](http://zbmath.org/?q=an:0633.46065)
 
 
 * [[eom]]: [quantale](http://www.encyclopediaofmath.org/index.php/Quantale)
@@ -187,6 +187,12 @@ Discussion of how quantales serve as a model for [[linear logic]] and [[quantum 
 A monograph on quantales:
 
 * Kimmo I. Rosenthal, _Quantales and their applications_, Pitman Res. Notes in Math. Series 234, Longman 1990
+
+{#automata}Relations with automata and process semantics
+
+* [[Samson Abramsky]],  [[Steve Vickers]], _Quantales, observational logic and process
+semantics_, Math. Struct. in Comput. Sci. __3__  (1993) 161-227. [doi](https://doi.org/10.1017/S0960129500000189), [CiteSeer<sup>X</sup>](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.210.1485)
+
 
 Connections to operator algebras and etale groupoids is discussed in 
 
