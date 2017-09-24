@@ -24,8 +24,8 @@ More commonly, terms in a call-by-value language are modelled as morphisms in th
 A thunk-force category axiomatizes the Kleisli category _directly_ and is also called an **abstract Kleisli category**[^terminology].
 The original category can be recovered from this category if it satisfies certain properties.
 
-The name derives from programming terminology. A **thunk** means a value that represents an unevaluated computation, which can later be **forced** to be evaluated and perform its [[side effects]]. This is represented by the object $L A$ which could be read as a "thunk of $A$" or a "lazy $A$". The thunking arrow $\theta_A : A \to L A$ delays any effects performed by its input, and the force $\epsilon_A : L A \to A$ forces the evaluation of its thunked input. These don't normally appear as programming features in a call-by-value language, but if the language supports first-class functions, they are equivalent to the usual implementation of a thunk as a function of unit input.
-On the model side this is because if a thunk-force category is [[monoidal closed]] in an appropriate sense, then $L A$ is equivalent to $I \harpoon A$ and $\theta, \epsilon$ can be defined using this structure.
+The name derives from programming terminology. A **thunk** means a value that represents an unevaluated computation, which can later be **forced** to be evaluated and perform its [[side effects]]. This is represented by the object $L A$ which could be read as a "thunk of $A$" or a "lazy $A$". The thunking arrow $\theta_A : A \to L A$ embeds a value as a trivial thunk, and the force $\epsilon_A : L A \to A$ forces the evaluation of its thunked input. These don't normally appear as a standalone feature in a call-by-value language, but if the language supports first-class functions, they can be implemented in the usual way as a function of unit input.
+On the model side this is because if a thunk-force category is [[monoidal closed]] in an appropriate sense, then $L A$ is equivalent to $I \rightharpoonup A$ and $\theta, \epsilon$ can be defined using this structure.
 
 ## Definition
 
