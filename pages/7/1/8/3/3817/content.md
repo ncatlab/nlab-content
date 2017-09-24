@@ -9,6 +9,12 @@ On [[mathematical physics]]:
 
 * _Modern Mathematical Physics: what it should be?_ in Fokos, Grigoryan, Kibble, Zegarlinski (eds) _Mathematical Physics 2000_, World Scientific (2000) ([arXiv:math-ph/0002018](https://arxiv.org/abs/math-ph/0002018))
 
+## Related $n$Lab entries
+
+* [[Fadeev-Popov ghost]]
+
+* [[infrared divergencies]]
+
 category: people
 [[!redirects Ludwig Fadeev]]
 [[!redirects L. D. Fadeev]]
