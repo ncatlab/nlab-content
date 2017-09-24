@@ -43,3 +43,6 @@ For more details and further pointers see at _[[BRST complex]]_ and in particula
 [[!redirects ghost-of-ghost field]]
 [[!redirects ghost-of-ghost fields]]
 
+
+[[!redirects Fadeev-Popov ghost]]
+[[!redirects Fadeev-Popov ghosts]]
