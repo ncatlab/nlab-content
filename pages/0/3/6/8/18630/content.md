@@ -45,9 +45,8 @@ In [[field theory]] one is concerned with [[differential geometry]] on
 [[spaces]] that are more general than [[smooth manifolds]] in several ways (a preview is in remark \ref{PreviewOfGenerlizedDifferentialGeometryAppearingInFieldTheory} below). The right concept
 that neatly supports the necessary differential geometry turns out to be that of _[[smooth sets]]_
 and their [[super formal smooth infinity-groupoid|generalization]] to [[supergeometry|super]]-, [[formal geometry|formal]]- and [[higher differential geometry]]. Hence before introducing the idea of fields below, here we briefly spend
-some words on required concepts from [[differential geometry]]. For a self-contained introduction see at
-_[[geometry of physics]]_ beginning with the chapter _[[geometry of physics -- smooth sets]]_
-and including the chapter _[[geometry of physics -- supergeometry]]_.
+some words on required concepts from [[differential geometry]]. For a self-contained introduction see at _[[geometry of physics]]_
+the chapters on _[[geometry of physics -- smooth sets|smooth sets]]_, _[[geometry of physics -- differential forms|differential forms]]_ and _[[geometry of physics -- supergeometry|supergeometry]]_.
 
 While the concept of _[[smooth sets]]_ is not advertised in traditional textbooks, it is actually simpler than
 that of smooth manifolds and it is closer to the operational nature of physics:
@@ -220,18 +219,12 @@ We write
 
 $$
   dvol_\Sigma
-   \;\coloneq\;
+   \;\coloneqq\;
   d x^0 \wedge d x^1 \wedge \cdots \wedge d x^p
   \in \Omega^{p+1}(\mathbb{R}^{p,1})
 $$
 
-for the induced [[volume form]], and we call
-
-$$
-  d x^0 \in \Omega^1(\Sigma)
-$$
-
-the canonical representative of the canonical [[time orientation]] on Minkowski spacetime.
+for the induced [[volume form]].
 
 We use the [[Einstein summation convention]]: Expressions with repeated indicices indicate [[sum|summation]] over the
 range of indices.
@@ -245,16 +238,11 @@ $$
 
 
 ## Fields
+ {#FieldBundles}
 
 A _[[field (physics)|field]] trajectory_ (field history) on a given [[spacetime]] $\Sigma$ is meant to be some kind of [[quantity]] assigned to each point of spacetime (each [[event]]), such that this assignment varies smoothly with spacetime points. For instance an _[[electromagnetic field]]_ [[trajectory]] (or "history") is at each point of spacetime a collection of [[vectors]] that encode the direction in which a [[charged particle]] passing through that point will feel a [[force]] (the [[Lorentz force]]).
 
-This is readily formalized: If
-
-$$
-  F \in SmthMfd
-$$
-
-is the [[smooth manifold]] of "values" that the the given kind of field may take at any spacetime point, then a field configuration $\Phi$ is modeled as a [[smooth function]] from spacetime to this space of values:
+This is readily formalized: If $F$ denotes the [[smooth set]] of "values" that the the given kind of field may take at any spacetime point, then a field configuration $\Phi$ is modeled as a [[smooth function]] from spacetime to this space of values:
 
 $$
   \Phi
@@ -451,6 +439,7 @@ $$
 
 
 ## Derivatives
+ {#FieldVariations}
 
 Given a [[field bundle]] as in def. \ref{Fields} above, then we know what type of quantities the corresponding fields assign to a given spacetime point ([[event]]). Among all consistent such field configurations, some are to qualify as those that "may occur in reality" if we think of the field theory as a means to describe parts of the [[observable universe]]. Moreover, if the reality to be described does not exhibit "action at a distance" then admissibility of its field configurations should be determined over arbitrary small spacetime regions, in fact over the [[infinitesimal neighbourhood]] of any spacetime point. This means equivalently that the realized field configurations should be those that satisfy a given _[[differential equation]]_, hence an [[equation]] between the value of the [[derivatives]] of the field
 configuration at any spacetime point.
@@ -1046,6 +1035,7 @@ of the total spacetime derivative of $f$ (eq:SpacetimeTotalDerivativeOnSmoothFun
 
 
 ## Lagrangians
+  {#LagrangianFieldTheory}
 
 
 Given any type of [[field (physics)|fields]] (def. \ref{Fields}), those field configurations that
@@ -1086,7 +1076,7 @@ variational differential form called a _[[conserved current]]_ ([[Noether's theo
 these conserved currents constitute an [[Lie algebra extension|extension]] of the [[Lie algebra]]
 of symmetries, called the _[[Dickey bracket]]_.
 
-In direct analogy, every infinitesimal symmetry of the [[presymplectic current|presymplectic potential]] $\Theta$ 
+In direct analogy, every infinitesimal symmetry of the [[presymplectic current|presymplectic potential]] $\Theta$
 (called a _[[Hamiltonian vector field]]_) is witnessed by
 a variational differential form, called a _[[Hamiltonian differential form]]_ (def. \ref{HamiltonianForms} below).
 This is sometimes called the _[[Hamiltonian Noether theorem]]_.
@@ -2223,6 +2213,7 @@ $\,$
 
 
 ## Observables
+ {#ObservablesAndStates}
 
 
 Given a [[field theory]] as above, then an _[[observable]] quantity_ (or just _[[observable]]_, for short) is a [[smooth function]]
@@ -2959,33 +2950,33 @@ the product expression $A^\ast A$.)
 ## Phase space
   {#PhaseSpace}
 
-A remarkable aspect of [[Lagrangian field theory]] is that the [[de Rham differential]] of the [[local Lagrangian density]] $\mathbf{L}$ (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) decomposes into 
-_two_ kinds of [[variational differential forms]] (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}): 
+A remarkable aspect of [[Lagrangian field theory]] is that the [[de Rham differential]] of the [[local Lagrangian density]] $\mathbf{L}$ (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) decomposes into
+_two_ kinds of [[variational differential forms]] (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}):
 
 On the one hand the [[Euler-Lagrange variational derivative]]
 $\delta_{EL}\mathbf{L} \in \Omega^{p+1,1}_\Sigma(E)$ appears. This being of horizontal degree $p+1$
 its [[transgression of variational differential forms|transgression]] implies a [[differential 1-form]]
 on the [[space of field histories]] over all of [[spacetime]]. We have seen that this is the derivative
-of the [[action functional]] (def. \ref{ActionFunctional}) which embodies the _[[principle of extremal action]]_ 
+of the [[action functional]] (def. \ref{ActionFunctional}) which embodies the _[[principle of extremal action]]_
 (prop. \ref{PrincipleOfExtremalAction}) and with it a structure in full [[spacetime]] [[dimension]] $p+1$: the
-[[on-shell]] [[space of field histories]] $\Gamma_{\Sigma}(E)_{\delta_{EL}\mathbf{L} = 0}$ (def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime}). 
+[[on-shell]] [[space of field histories]] $\Gamma_{\Sigma}(E)_{\delta_{EL}\mathbf{L} = 0}$ (def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime}).
 
 But there is a second contribution: The [[presymplectic current]] $\Omega \in \Omega^{p,2}_{\Sigma}(E)$.
-Since this is of horizontal degree $p$, 
+Since this is of horizontal degree $p$,
 its [[transgression of variational differential forms|transgression]] implies a further structure on the [[space of field histories]]
-of restricted to [[spacetime]] [[submanifolds]] of dimension $p$ (i.e. of spacetime "[[codimension]] 1"). 
+of restricted to [[spacetime]] [[submanifolds]] of dimension $p$ (i.e. of spacetime "[[codimension]] 1").
 There may be such submanifolds such that this restriction does not actually change the [[on-shell]] [[space of field histories]],
 these are called the _[[Cauchy surfaces]]_ (def. \ref{CauchySurface} below).
- 
-Moreover, 
+
+Moreover,
 we have seen that, via the [[Noether theorem]] (prop. \ref{NoethersFirstTheorem}) and the [[Hamiltonian Noether theorem]] (prop. \ref{HamiltonianDifferentialForms}),
 the [[infinitesimal symmetries of the Lagrangian]] and of the [[presymplectic potential]]
 induce special classes of [[variational differential forms]] that are also in  horizontal degree $p$:
-the [[conserved currents]] (def. \ref{SymmetriesAndConservedCurrents}) and 
+the [[conserved currents]] (def. \ref{SymmetriesAndConservedCurrents}) and
 the [[Hamiltonian differential form]] (def. \ref{HamiltonianForms}). By [[transgression of variational differential forms|transgression]]
-this impplies that the corresponding [[Lie n-algebras|Lie (p+1)-algebras]] of local infinitesimal symmetries, namely the 
+this impplies that the corresponding [[Lie n-algebras|Lie (p+1)-algebras]] of local infinitesimal symmetries, namely the
 [[Dickey bracket Lie algebra]] and the [[Poisson bracket Lie n-algebra|local Poisson bracket]] (prop. \ref{LocalPoissonBracket}),
-induce [[Lie algebra]] structure on physical quantities in spacetime dimension $p$ 
+induce [[Lie algebra]] structure on physical quantities in spacetime dimension $p$
 called [[conserved charges]] (prop. \ref{ConservedCharge} below)
 and _Hamiltonian local observables_ (def. \ref{HamiltonianLocalObservables} below), the actual _[[Poisson bracket]]_
 (def. \ref{PoissonBracketOnHamiltonianLocalObservables} below).
@@ -3349,7 +3340,7 @@ $$
 =--
 
 Beware that the [[local observable]] $\tau_{\Sigma_p}(H)$ defined by a [[Hamiltonian differential form]]
-$H \in \Omega^{p,0}_{\Sigma,Ham}(E)$ as in def. \ref{HamiltonianLocalObservables}  does in general depend 
+$H \in \Omega^{p,0}_{\Sigma,Ham}(E)$ as in def. \ref{HamiltonianLocalObservables}  does in general depend
 not just on the choice of $H$, but also on the choice $\Sigma_p$ of the Cauchy surface.
 The exception are those Hamiltonian forms which are _[[conserved currents]]_:
 
@@ -3370,8 +3361,8 @@ $$
 
 then the induced Hamiltonian [[local observable]] $\tau_{\Sigma_p}(J)$ (def. \ref{HamiltonianLocalObservables})
 is independent of the choice of [[Cauchy surface]] $\Sigma_p$ (def \ref{CauchySurface})
-in that for $\Sigma_p, \Sigma'_p \hookrightarrow \Sigma$ any two Cauchy surfaces which are [[cobordism|cobordant]], 
-then 
+in that for $\Sigma_p, \Sigma'_p \hookrightarrow \Sigma$ any two Cauchy surfaces which are [[cobordism|cobordant]],
+then
 
 $$
   \tau_{\Sigma_p}(J) = \tau_{\Sigma'_p}(J)
@@ -3858,15 +3849,15 @@ Given any [[space]] with [[infinitesimal symmetries]] acting on it, there is the
 by these infinitesimal symmetries. For the [[covariant phase space]] of a [[Lagrangian field theory]], as [above](#PhaseSpace) with its [[Poisson Lie algebra]] of infinitesimal symmetries (def. \ref{PoissonBracketOnHamiltonianLocalObservables}),
 this infinitesimal [[homotopy quotient]] is known as the _[[Poisson Lie algebroid]]_ and the corresponding genuine
 [[homotopy quotient]] is known as the _[[symplectic groupoid]]_. As one passes from [[phase space]] to its [[symplectic groupoid]],
-the [[algebra of functions]] on phase space -- hence the [[algebra of observables]] $Obs$ (def. \ref{LocalObservables}) -- which is always a [[commutative algebra]] _[[deformation quantization|deforms]]_ to the corresponding algebra of functions on a [[Lie groupoid]] 
+the [[algebra of functions]] on phase space -- hence the [[algebra of observables]] $Obs$ (def. \ref{LocalObservables}) -- which is always a [[commutative algebra]] _[[deformation quantization|deforms]]_ to the corresponding algebra of functions on a [[Lie groupoid]]
 called the ([[polarization|polarized]]) [[convolution algebra of a Lie groupoid]]. This is now a [[non-commutative algebra]]
-called the _[[algebra of quantum observables]]_ $Obs_{\hbar}$; and this passage from 
+called the _[[algebra of quantum observables]]_ $Obs_{\hbar}$; and this passage from
 [[phase space]] to its [[symplectic groupoid]] [[homotopy quotient]] by  Hamiltonian symmetries is called _[[quantization]]_
-(specifically: "[[geometric quantization of symplectic groupoids]]"). 
+(specifically: "[[geometric quantization of symplectic groupoids]]").
 Here the strength of the non-commutativity is measured by a [[deformation]] parameter called _[[Planck's constant]]_ $\hbar$.
 
-Since the product in the [[algebra of quantum observables]] $Obs_\hbar$ differs from that in $Obs$, the 
-positivity condition $\langle A^\ast A\rangle \geq 0$ in the definition of  _[[states]]_ $\langle - \rangle$ 
+Since the product in the [[algebra of quantum observables]] $Obs_\hbar$ differs from that in $Obs$, the
+positivity condition $\langle A^\ast A\rangle \geq 0$ in the definition of  _[[states]]_ $\langle - \rangle$
 of a field theory (def. \ref{States}) acquires a different meaning. The states after [[quantization]] are called
 _[[quantum states]]_ and their difference witnesses that after [[quantization]] the [[Lagrangian field theory]] is of a different nature:
 one says that it is no longer a _[[classical field theory]]_, but a _[[quantum field theory]]_
@@ -3877,12 +3868,12 @@ Unfortunately, explicitly constructing the [[algebra of quantum observables]] of
 One kind of simplification occurs when the  [[spacetime]] [[dimension]] is very low. For instance if the spacetime dimension is taken to be $p+1 = 1$ -- modelling the approximation where one completely ignores the variation of fields in space
 and retains just their time evolution -- then one speaks of [[quantum mechanics]], which is well understood.
 Another simplification occurs when the field theory is a _[[free field theory]]_, meaning that its [[equation of motion]]
-is a [[normally hyperbolic differential operator|normally hyperbolic]] [[linear differential operator]]. 
-In this case the [[quantum field theory]] is fully understood as long as the underlying [[spacetime]] is a 
-[[time orientation|time-orientable]] and [[globally hyperbolic spacetime|globally hyperbolic]]. But, as the 
+is a [[normally hyperbolic differential operator|normally hyperbolic]] [[linear differential operator]].
+In this case the [[quantum field theory]] is fully understood as long as the underlying [[spacetime]] is a
+[[time orientation|time-orientable]] and [[globally hyperbolic spacetime|globally hyperbolic]]. But, as the
 name indicates, this captures only the case where there is no [[interaction]] among the [[field (physics)|fields]].
 
-Since the [[algebra of quantum observables]] $Obs_\hbar$ is a _[[deformation]]_ with strength $\hbar$ of the commutative algebra of classical 
+Since the [[algebra of quantum observables]] $Obs_\hbar$ is a _[[deformation]]_ with strength $\hbar$ of the commutative algebra of classical
 observables $Obs$ controlled by the [[Poisson Lie algebra]], another simplification occurs if one
 gives up on the demand to understand the full deformation at finite value of [[Planck's constant]] $\hbar$
 and considers just [[infinitesimal]] values of $\hbar$. Since this means that the resulting [[quantum observables]]
@@ -3892,7 +3883,7 @@ _[[perturbative quantum field theory]]_.
 
 For [[interaction|interacting]] [[field theories]] in [[spacetime]] dimension $p+1 \geq 3+1$
 their quantization has been constructed to date only in [[perturbation theory]] this way.
-The construction of full [[non-perturbative quantum field theory]] (in dimension $\geq 3+1$ with 
+The construction of full [[non-perturbative quantum field theory]] (in dimension $\geq 3+1$ with
 non-vanishing [[interaction]]) is, at the time of this writing, a wide open problem. 
 
 But [[perturbative quantum field theory]] is well understood. 
