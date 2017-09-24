@@ -1,16 +1,16 @@
-  +-- {: .rightHandSide}
-  +-- {: .toc .clickDown tabindex="0"}
-  ###Context###
-  #### Constructivism, Realizability, Computability
-  +-- {: .hide}
-  [[!include constructivism - contents]]
-  =--
-  #### Category theory
-  +-- {: .hide}
-  [[!include category theory - contents]]
-  =--
-  =--
-  =--
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Constructivism, Realizability, Computability
++-- {: .hide}
+[[!include constructivism - contents]]
+=--
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
 
 
 # Thunk-force category
