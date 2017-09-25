@@ -779,7 +779,7 @@ $\,$
 |--|---|--|
 | $\mathbf{d}$ | [[de Rham differential]]  | [[de Rham differential]] |
 | $d \coloneqq d x^\mu \frac{d}{d x^\mu}$ | [[total derivative|total]] spacetime-derivative  | [[horizontal derivative]]  |
-| $ \frac{d}{d x^\mu} \coloneqq \frac{\partial}{\partial x^\mu} +  \phi^a_{,\mu} \frac{\partial}{\partial \phi^a}  + \cdots $ | [[total derivative|total]] spacetime derivative long $\partial_\mu$  |  [[horizontal derivative]] along $\partial_\mu$ |
+| $ \frac{d}{d x^\mu} \coloneqq \frac{\partial}{\partial x^\mu} +  \phi^a_{,\mu} \frac{\partial}{\partial \phi^a}  + \cdots $ | [[total derivative|total]] spacetime derivative along $\partial_\mu$  |  [[horizontal derivative]] along $\partial_\mu$ |
 | $\delta \coloneqq \mathbf{d} - d$ | variational derivative  | [[vertical derivative]] |
 | $\delta_{EL} L \coloneqq \mathbf{d}L + d \Theta$ | [[Euler-Lagrange variational derivative]]  | [[Euler-Lagrange operator]] |
 
