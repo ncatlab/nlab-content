@@ -141,6 +141,8 @@ See
   * [[root (in representation theory)]], [[weight (in representation theory)]]
 
   * [[Lie algebra representation]]
+
+  * [[Lie ideal]]
  
   * [[Kac-Moody algebra]]
 
