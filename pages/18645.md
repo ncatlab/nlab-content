@@ -1,4 +1,3 @@
-[[!redirects geometry of physics -- A first idea of quantum field theory]]
 
 
 +-- {: .rightHandSide}
@@ -11,8 +10,6 @@
 =--
 =--
 
-
-> For [Physics Forums -- Insights](https://www.physicsforums.com/insights/paqft-idea-references/)
 
 #A first idea of quantum field theory#
 * table of contents
@@ -50,8 +47,7 @@ the chapters on _[[geometry of physics -- smooth sets|smooth sets]]_, _[[geometr
 While the concept of _[[smooth sets]]_ is not advertised in traditional textbooks, it is actually simpler than
 that of smooth manifolds and it is closer to the operational nature of physics:
 
-A [[smooth set]] $X$ is defined simply by specifying, in a self-consistent way, what counts as a smooth function $U \to X$ (a "plot") from any [[Cartesian space]] $U$ ("[[coordinate systems]]"). Given two smooth sets $X$ and $Y$ then a [[smooth function]] $f \;\colon\; X \longrightarrow Y$
-between them is a function that takes plots $U \overset{\phi}{\to} X$ of $X$ to plots $f \circ \phi \colon U \to Y$ of $Y$.
+A [[smooth set]] $X$ is defined simply by specifying, in a self-consistent way, what counts as a smooth function $U \to X$ (a "plot") from any [[Cartesian space]] $U$ ("[[coordinate systems]]"). Given two smooth sets $X$ and $Y$ then a [[smooth function]] $f \;\colon\; X \longrightarrow Y$ between them is a function that takes plots $U \overset{\phi}{\to} X$ of $X$ to plots $f \circ \phi \colon U \to Y$ of $Y$.
 If we allow $U$ here to be a [[super Cartesian space]], then the same idea defines _[[super smooth sets]]_.
 We will write $\mathbf{H}$ for the resulting differential geometric [[category]] of [[smooth sets]] or more generally
 [[super formal smooth sets]].
@@ -78,65 +74,8 @@ $$
 This differential form $\tau_\Sigma \omega$ on the mapping space
 is called the _[[transgression of differential forms|transgression]]_ of $\omega$ with respect to $\Sigma$.
 
-We will need the following basic fact about transgression:
 
 
-+-- {: .num_prop #RelativeTransgressionOfDifferentialForms}
-###### Proposition
-**(relative [[transgression of differential forms]] over [[manifolds with boundary]])**
-
-1. $X$ be a [[smooth set]];
-
-1. $\Sigma_k$ be a [[compact topological space|compact]] [[smooth manifold]] of [[dimension]] $k$ with [[manifold with boundary|boundary]] $\partial \Sigma$
-
-1. $n \geq k \in \mathbb{N}$;
-
-1. $\omega \in \Omega^n_{X}$ a [[closed differential form]].
-
-Write
-
-$$
-  (-)\vert_{\partial \Sigma}
-    \;\coloneqq\;
-  [\partial \Sigma \hookrightarrow \Sigma, X]
-  \;\colon\;
-  [\Sigma, X]
-   \longrightarrow
-  [\partial \Sigma, X]
-$$
-
-for the smooth function that restricts smooth functions on $\Sigma$ to smooth functions on the [[boundary]] $\partial \Sigma$.
-
-Then the operations of transgression of differential forms (def. \ref{TransgressionOfDifferentialFormsToMappingSpaces}) to $\Sigma$ and to $\partial \Sigma$, respectively, are related by
-
-
-$$
-  d \left(
-    \tau_{\Sigma}(\omega)
-  \right)
-  =
-  (-1)^{k+1}
-  ((-)\vert_{\partial \Sigma})^\ast \tau_{\partial \Sigma}(\omega)
-    \phantom{AAAAAAAA}
-  \array{
-    [\Sigma, X]
-      &\overset{ \tau_{\Sigma}(\omega) }{\longrightarrow}&
-    \mathbf{\Omega}^{n-k}
-    \\
-    {}^{\mathllap{(-)\vert_{\partial \Sigma} }}\downarrow
-      &&
-    \downarrow^{\mathrlap{ (-1)^{k+1} d}}
-    \\
-    [\partial \Sigma, X]
-      &\underset{ \tau_{\partial\Sigma}(\omega) }{\longrightarrow}&
-    \mathbf{\Omega}^{n-k+1}
-  }
-  \,.
-$$
-
-In particular this means that if the compact manifold $\Sigma$ happens to have no boundary (is a [[closed manifold]]) then transgression over $\Sigma$ takes closed differential forms to closed differential forms.
-
-=--
 
 $\,$
 
@@ -489,7 +428,7 @@ $$
   \right)
 $$
 
-where the indices $\mu, \mu_1, \mu_2, \codts$ range from 0 to $p$, while the index $a$ ranges from $1$ to $s$. In terms of these coordinates the [[bundle]] [[projection]] map $jb_k$ is just the one that remembers the spacetime coordinates $x^\mu$ and forgets the values of the field $\phi^a$ and its derivatives $\phi_{\mu}$. Similarly there are intermediate projection maps
+where the indices $\mu, \mu_1, \mu_2, \cdots$ range from 0 to $p$, while the index $a$ ranges from $1$ to $s$. In terms of these coordinates the [[bundle]] [[projection]] map $jb_k$ is just the one that remembers the spacetime coordinates $x^\mu$ and forgets the values of the field $\phi^a$ and its derivatives $\phi_{\mu}$. Similarly there are intermediate projection maps
 
 $$
   \array{
@@ -565,7 +504,7 @@ $$
 
 +-- {: .num_defn #JetProlongation}
 ###### Definition
-**([[jet prolongation]])
+**([[jet prolongation]])**
 
 The [[smooth function]] from the [[space of sections]] of the original bundle to the space of sections of the jet bundle which records the field $\Phi$ and all its spacetimes [[derivatives]] is called _[[jet prolongation]]_:
 
@@ -1192,7 +1131,7 @@ $$
   d \Theta
 $$
 
-such that $\delta EL$ is protortional to the [[variational derivative]] of the fields (but not their derivatives, called a "[[source form]]"):
+such that $\delta EL$ is proportional to the [[variational derivative]] of the fields (but not their derivatives, called a "[[source form]]"):
 
 $$
   \delta_{EL} \mathbf{L}
@@ -1215,7 +1154,7 @@ $$
   \begin{aligned}
     \delta_{EL} L \, dvol_\Sigma
     & \coloneqq
-    \frac{\delta L}{ \delta \phi^a}
+    \frac{\delta_{EL} L}{\delta \phi^a}
     \delta \phi^a \wedge dvol_\Sigma
     \\
     & \coloneqq
@@ -1646,6 +1585,39 @@ $$
   \,.
 $$
 
+=--
+
+The following fact is immediate from prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime},
+but of central importance:
+
+
++-- {: .num_prop #HorizontalDerivativeOfPresymplecticCurrentVanishesOnShell}
+###### Proposition
+**([[total derivative|total spacetime derivative]] of [[presymplectic current]] vanishes [[on-shell]])**
+
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}).
+Then the [[Euler-Lagrange form]] $\delta_{EL} \mathbf{L}$ and the [[presymplectic current]] 
+(prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}) are related by
+
+$$
+  d \Omega = - \delta(\delta_{EL}\mathbf{L}) 
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime} we have
+
+$$
+  \delta \mathbf{L} = \delta_{EL} \mathbf{L} - d \Theta
+  \,.
+$$
+
+The claim follows from applying the [[variational derivative]] $\delta$ to both sides,
+using $\delta^2 = 0$ and $\delta \circ d = - d \circ \delta$.
 
 =--
 
@@ -2495,7 +2467,14 @@ $$
 **([[transgression of variational differential forms|transgression]] compatible with [[variational derivative]])
 
 Let $E \overset{fb}{\to} \Sigma$ be a [[field bundle]] over a [[spacetime]] $\Sigma$ (def. \ref{Fields})
-and let $\Sigma_r \hookrightarrow \Sigma$ be a [[submanifold]].
+and let $\Sigma_r \hookrightarrow \Sigma$ be a [[submanifold]] possibly [[manifold with boundary|with boundary]]
+$\partial \Sigma_r \hookrightarrow \Sigma_r$. Write
+
+$$
+  \Gamma_{\Sigma_r}(E) \overset{(-)\vert_{\partial \Sigma_r}}{\longrightarrow} \Gamma_{\partial \Sigma_r}(E)
+$$
+
+for the boundary restriction map.
 
 Then the operation of [[transgression of variational differential forms]] (def. \ref{TransgressionOfVariationalDifferentialFormsToConfigrationSpaces})
 
@@ -2503,13 +2482,17 @@ $$
   \tau_{\Sigma} \;\colon\; \Omega^{\bullet,\bullet}_{\Sigma,cp}(E) \longrightarrow \Omega^\bullet\left(\Gamma_{\Sigma_r}(E)\right)
 $$
 
-1. vanishes on variational forms that are in the image of the total spacetime derivative (horizontal derivative)
+is compatible with the [[variational derivative]] $\delta$ and with the [[total derivative|total spacetime derivative]] $d$
+in the following way:
+
+1. On variational forms that are in the image of the total spacetime derivative 
+   a transgressive [[Stokes' theorem]] holds:
 
    $$
-     \tau_\Sigma(d \alpha) \;=\; 0
+     \tau_{\Sigma_r}(d \alpha) \;=\; ((-)\vert_{\partial \Sigma})^\ast \tau_{\partial \Sigma_r}( \alpha)
    $$
 
-1. interwines, up to a sign, the [[variational derivative]] $\delta$ on variational differential forms with the
+1. Transgression intertwines, up to a sign, the [[variational derivative]] $\delta$ on variational differential forms with the
    plain de Rham differential on the space of field histories:
 
    $$
@@ -2545,17 +2528,27 @@ $$
 $$
 
 (where we write $d = d_U + d_\Sigma$ for the de Rham differential on $U \times \Sigma$).
-Hence the integral of this over $\Sigma$, and hence the transgression form, vanishes
-by [[Stokes' theorem]]:
+Hence by the ordinary [[Stokes' theorem]] restricted to any $\Phi_{(-)} \colon U \to \Gamma_{\Sigma_r}(E)$
+with restriction $(-)\vert_{\partial \Sigma_r} \circ \Phi_{(-)} \colon U \to \Gamma_{\Sigma_r}(E)$
+the relation
 
 $$
   \begin{aligned}
-    \tau_{\Sigma}(d \alpha)
+    (\Phi_{(-)})^\ast \tau_{\Sigma_r}(d \alpha)
     & =
-    \int_\Sigma
-      d_\Sigma (j^\infty_\Sigma\Phi_{(-)})^\ast\alpha
+    \int_{\Sigma_r}
+      d_{\Sigma_r} (j^\infty_\Sigma\Phi_{(-)})^\ast\alpha
     \\
-    & = 0
+    & = \int_{\partial \Sigma_r} (j^\infty_\Sigma\Phi_{(-)})^\ast\alpha
+    \\
+    & = \int_{\partial \Sigma_r} (j^\infty_\Sigma ( (-)\vert_\Sigma \circ \Phi_{(-)}) )^\ast\alpha
+    \\
+    & = 
+    ( (-)\vert_\Sigma \circ \Phi_{(-)} )^\ast \tau_{\partial \Sigma_r}(\alpha)
+    \\
+    & = 
+    (\Phi_{(-)})^\ast ((-)\vert_{\Sigma_r})^\ast \tau_{\partial \Sigma_r}(\alpha)
+    \,.
   \end{aligned}
   \,.
 $$
@@ -3055,7 +3048,7 @@ Since the [[equation of motion]] is the [[Klein-Gordon equation]] $(\Box + m^2) 
 also the [[on-shell]] [[space of field histories]] is still canonically a vector space.
 
 
-The [[presymplectic form]] on the covariant phase space (def. \ref{PhaseSpaceAssociatedWithCauchySurface})
+The [[presymplectic form]] on the [[phase space]] (def. \ref{PhaseSpaceAssociatedWithCauchySurface})
 associated with a [[Cauchy surface]] $\Sigma_p \hookrightarrow \Sigma$
 takes two [[smooth function]] $w_1,w_2 \in C^\infty(\Sigma)$, regarded as [[tangent vectors]] at zero to
 
@@ -3222,72 +3215,30 @@ is therefore called the _[[covariant phase space]]_ of the [[Lagrangian field th
 +-- {: .proof}
 ###### Proof
 
-Consider the [[Lepage form]] (eq:TheLepage)
+By prop. \ref{HorizontalDerivativeOfPresymplecticCurrentVanishesOnShell} the 
+total spacetime derivative $d \Omega$ of the [[presymplectic current]] vanishes [[on-shell]]:
 
 $$
-  \mathbf{L} + \Theta
-  \;\in\;
-  \Omega^{\bullet,\bullet}_\Sigma(E)
+  d \Omega = - \delta \delta_{EL} \mathbf{L}
   \,.
 $$
 
-and recall (eq:DerivativeOfLepageForm) that its de Rham differetial is the
-sum of the [[Euler-Lagrange variational derivative]] of the Lagrangian density and the [[presymplectic current]]:
-
-$$
-  \mathbf{d}(\mathbf{L} + \Theta)
-  \;=\;
-  \delta_{EL} \mathbf{L} + \Omega
-  \,.
-$$
-
-In particular this means that $\delta_{EL}\mathbf{L} + \Omega$ is closed, so that the
-relative transgresson formula (prop. \ref{RelativeTransgressionOfDifferentialForms}) does apply.
-
-Notice also that the following transgressions vanish:
-
-1. $\tau_{\Sigma}\left( \delta_{EL} \mathbf{L}  \right) \in \Gamma_{\Sigma}(E)_{\delta_{EL}\mathbf{L} = 0}$;
-
-1. $\tau_{\Sigma}\left(  \Omega \right) = 0$;
-
-1. $\tau_{\Sigma_p}\left( \delta_{EL}\mathbf{L}  \right) = 0$.
-
-The first item is the very definition of the
-[[on-shell]] fields (def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime})
-and the second and third expressions vanish by degree reasons
-(remark \ref{TransgressionToDimensionrSupportedOnHorizontalrForms}).
-
-
-With this the statement follows from the formula for relative [[transgression of variational differential forms]] (prop. \ref{RelativeTransgressionOfDifferentialForms}):
+This means that the transgression of $d \Omega$ to $\Gamma_{\Sigma_{tra}}(E)_{\delta_{EL}\mathbf{L} = 0}$ vanishes.
+But then the claim follows with prop. \ref{TransgressionOfVariationaldifferentialFormsCompatibleWithVariationalDerivative}:
 
 $$
   \begin{aligned}
-    d
-    \underset{= 0}{
-    \underbrace{
-       \tau_{\Sigma_{tra}}\left( \delta_{EL} \mathbf{L} + \Omega \right)
-    }}
-    & =
-    \left(
-      (-)\vert_{\partial \Sigma_{tra}}
-    \right)^\ast
-    \left(
-      \tau_{\partial \Sigma_{tra}}
-      \left(
-        \delta_{EL} \mathbf{L} + \Omega
-      \right)
-    \right)
+    0 
+    & =   \tau_{\Sigma_{tra}}(d \Omega) 
     \\
-    & =
-    in^\ast\left( \tau_{\Sigma_{in}}\left( \Omega \right) \right)
-    -
-    out^\ast\left(  \tau_{\Sigma_{out}}\left( \Omega \right) \right)
-    \\
-    & =
-    in^\ast( \omega_{in} ) - out^\ast(\omega_{out})
+    & = ((-)\vert_{\Sigma_{tra}})^\ast \tau_{\partial \Sigma_{tra}} \Omega
     \,.
   \end{aligned}
 $$
+
+
+
+
 
 
 =--
@@ -3883,7 +3834,7 @@ _[[perturbative quantum field theory]]_.
 For [[interaction|interacting]] [[field theories]] in [[spacetime]] dimension $p+1 \geq 3+1$
 their quantization has been constructed to date only in [[perturbation theory]] this way.
 The construction of full [[non-perturbative quantum field theory]] (in dimension $\geq 3+1$ with
-non-vanishing [[interaction]]) is, at the time of this writing, a wide open problem. 
+non-vanishing [[interaction]]) is, at the time of this writing, a wide open problem.
 
 But [[perturbative quantum field theory]] is well understood. This we turn to next...
 
@@ -3914,3 +3865,55 @@ $\,$
 $\,$
 
 ***
+
+(...)
+
+* examples
+
+  [[Moyal deformation quantization]]
+
+  [[Fedosov deformation quantization]]
+
+
+[[free field theory]]
+
+* [[differential operator]], [[normally hyperbolic differential operator]]
+
+* [[Green function]], [[distribution]], [[wave front set]]
+
+* [[causal propagator]], [[advanced propagator]], [[retarded propagator]]
+
+* [[Hadamard state]]
+
+
+* [[Wick algebra]] and [[normal-ordered product]]
+
+  $\mathcal{F}_{loc} \overset{:-:}{\longrightarrow} \mathcal{F}_{mc}[ [ \hbar ] ]$
+
+
+[[S-matrix]]
+
+* [[causal additivity]]
+
+* [[time-ordered product]]
+
+* [[causally local net of quantum observables]]
+
+...
+
+
+[[Feynman diagrams]]
+
+* [[Feynman propagator]]
+
+* [[loop order]]
+
+[[renormalization]]
+
+* [[extension of distributions]]
+
+* [[main theorem of perturbative renormalization]]
+
+...
+
+[[!redirects A first idea of quantum field theory]]
