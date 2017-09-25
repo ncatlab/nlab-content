@@ -1,4 +1,1 @@
-# Idea
-# Definition
-# Properties
-# Related concepts
+[[!redirects Meme-enriched category]]
