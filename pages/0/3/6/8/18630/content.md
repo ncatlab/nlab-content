@@ -13,6 +13,8 @@
 
 > For [Phyiscs Forums -- Insights](https://www.physicsforums.com/insights/paqft-idea-references/)
 
+{#TOC}$\,$
+
 #A first idea of quantum field theory#
 * table of contents
 {:toc}
