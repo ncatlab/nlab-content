@@ -65,6 +65,7 @@ More generally, for $n\geq 0$, a subcategory $D$ of an $n$-[[n-category|category
 Here we are using the weakest notion of equivalence; one could also talk about $k$-replete $n$-subcategories if every $k$-equivalences in $C$ belongs to $D$ if either its source or target does.  Then using the usual definition of 'category' as a model for $1$-categories, replete subcategories are already those which are $0$-replete (indeed, $0$-equivalence is isomorphism in this model); but using a model of $1$-categories in which [[hom-sets]] are [[setoid]]s (as is common, for example, in [[type theory|type-theoretic]] [[foundations]]), we must insist on $1$-repleteness.
 
 Note that a subcategory $D$ of an $n$-category $C$ is $(k-1)$-replete if and only if:
+
 *  for every $(n-k)$-cell in $D$ all $(n-k)$-cells $(k-1)$-equivalent to an $(n-k)$-cell in $D$ are themselves in $C$, and
 *  for any two $(n-k)$-cells $x,y$ the hom $k$-category $hom(x,y)$ is $(k-2)$-replete.
 
