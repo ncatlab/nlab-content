@@ -1,1 +1,20 @@
-[[!redirects Meme-enriched category]]
+
+
+
+$$
+  0
+   =
+  \delta \delta \mathbf{L}
+  = 
+  \delta \delta_{EL}\mathbf{L}
+  + 
+  \delta d \Theta
+  = 
+  \delta \delta_{EL}\mathbf{L}
+  - 
+  d \Omega
+$$
+
+$$
+  d_{BV} \Omega_{BV} = - \delta \delta_{EL}\mathbf{L}
+$$
