@@ -33,7 +33,7 @@ For another definition of image of a functor, see [(2,1)-image](http://ncatlab.o
 
 Note that if $F$ is not [[pseudomonic functor|pseudomonic]], then its essential image, defined in this way, need not be equivalent to its ordinary image.
 
-## Considerations of the principle if equivalence
+## Considerations of the principle of equivalence
 
 Note that the property of "belonging to the image" (said of an object or morphism) breaks the [[principle of equivalence]] of [[category theory]]; of two [[equivalence|equivalent]] objects, one may belong while the other does not.  Passing to the essential image removes this, so that the property of "belonging to the essential image" respects the [[principle of equivalence]].
 
