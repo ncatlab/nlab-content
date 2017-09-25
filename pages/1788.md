@@ -1,13 +1,4 @@
-$$
-  \underset{b \in C^\infty_{cp}(\Sigma)}{\forall}
-  \left(
-     d \mathcal{S}_{b \mathbf{L}}(\Phi) = 0
-  \right)
-  \;\Leftrightarrow\;
-  \left(
-    j^\infty_\Sigma(\Phi)^\ast ( \delta_{EL} \mathbf{L} ) = 0
-  \right)
-  \,.
-azertyuiop
-$$
-
+# Idea
+# Definition
+# Properties
+# Related concepts
