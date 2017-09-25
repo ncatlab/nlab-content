@@ -28,7 +28,7 @@ The ring $k[t^G]$ is a field. If $k$ is [[algebraically closed field|algebraical
 
 As a corollary, if $G$ is divisible, $k[t^G]$ is [[real closed field|real closed]] if $k$ is real closed. This is because the adjunction of a square root of $-1$ would make $k[t^G]$ algebraically closed, since this gives the same result as constructing the Hahn series over the algebraically closed field $k[\sqrt{-1}]$.
 
-The [[valuation ring|multiplicative valuation]] $v(f)$ of an element $f\in k[t^G]$ is the least $x \in G$ for which $f(x) \neq 0$.  This yields a [[valuation ring]], such a valuation ring determines and is determined by a valuation on a [[field]].  The field $k[t^G]$ is [[complete metric space|complete]] with respect to this valuation, *but* unlike for [[formal power series]] the formal series $\sum_{x\in G} f(x) t^x$ do not actually "converge" in this metric.
+The [[valuation ring|multiplicative valuation]] $v(f)$ of an element $f\in k[t^G]$ is the least $x \in G$ for which $f(x) \neq 0$.  This yields a [[valuation ring]], such a valuation ring determines and is determined by a valuation on a [[field]].  The field $k[t^G]$ is a [[complete metric space|complete]] [[ultrametric space]] (and indeed a [[spherically complete field]]) with respect to this valuation, *but* unlike for [[formal power series]] the formal series $\sum_{x\in G} f(x) t^x$ do not actually "converge" in this metric.
 
 
 ## Examples
