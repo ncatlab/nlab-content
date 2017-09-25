@@ -43,7 +43,7 @@ We list various concepts in quantum mechanics and their corresponding incarnatio
 
 An [[observable]] in quantum mechanics formulated on a [[Hilbert space]] is modeled by a [[self-adjoint operator]], and the classical measurement outcomes of this operator provide, at least under some assumptions, an [[orthogonal basis]] on the [[Hilbert space]].
 
-That, more abstractly, the notion of orthogonal basis of an object can be phrased intrinsically inside any suitable $\dagger$-compact category is the point made in ([CoeckePavlovicVicary](#CoeckePavlovicVicary))
+That, more abstractly, the notion of orthogonal basis of an object can be phrased intrinsically inside any suitable $\dagger$-compact category is the point made in ([CoeckePavlovicVicary](#CoeckePavlovicVicary)). 
 
 
 ### Complex phases
