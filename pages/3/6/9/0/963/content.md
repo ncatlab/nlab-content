@@ -198,8 +198,8 @@ Connections to operator algebras and etale groupoids is discussed in
 
 * [[Pedro Resende]], _&#201;tale groupoids and their quantales_, Adv. Math. __208__ (2007) 147-209; also published electronically: [doi](http://dx.doi.org/10.1016/j.aim.2006.02.004); [math/0412478](http://arxiv.org/abs/math/0412478)
 * M.C. Protin, P. Resende, _Quantales of open groupoids_, J. Noncommut. Geom. __6__ (2012) 199&#8211;247.
-* P. Resende, Lectures on  &#769;tale groupoids, inverse semigroups and quantales, Lecture Notes for the GAMAP IP Meeting, Antwerp, 4&#8211;18 September, 2006, 115 pp.; [pdf](http://www.math.ist.utl.pt/&#8764;pmr/poci55958/gncg51gamap-version2.pdf)
-* P. Resende, _Groupoid sheaves as quantale sheaves_, J. Pure Appl. Algebra 216 (2012), 41&#8211;70; [arxiv/0807.4848](http://arxiv.org/abs/0807.4848v3)
+* [[Pedro Resende]], Lectures on &#233;tale groupoids, inverse semigroups and quantales, Lecture Notes for the GAMAP IP Meeting, Antwerp, 4&#8211;18 September, 2006, 115 pp.; [pdf](http://www.math.ist.utl.pt/%7Epmr/poci55958/gncg51gamap-version2.pdf)
+* [[Pedro Resende]], _Groupoid sheaves as quantale sheaves_, J. Pure Appl. Algebra 216 (2012), 41&#8211;70; [arxiv/0807.4848](http://arxiv.org/abs/0807.4848v3)
 [doi](http://dx.doi.org/10.1016/j.jpaa.2011.05.002)
 * D. Kruml, J.W. Pelletier, P. Resende, [[J. Rosický]], _On quantales and spectra of $C^\ast$-algebras_, Appl. Categ. Structures __11__ (2003) 543&#8211;560.
 * D. Kruml, P. Resende, _On quantales that classify $C^\ast$-algebras_, Cah. Topol. Geom. Differ. Categ. __45__ (2004) 287&#8211;296.
