@@ -129,6 +129,9 @@ where all four summands are contained in $M$ ($I J \subseteq M$ by supposition, 
 
 That every ideal is contained in a prime ideal is a [[prime ideal theorem]]; that every ideal is contained in a maximal ideal is a [[maximal ideal theorem]].
 
+## Related concepts
+
+* [[Lie ideal]]
 
 
 [[!redirects ideal]]
