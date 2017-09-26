@@ -55,6 +55,8 @@ Every homotopical category $C$ "presents" or "models" an [[(infinity,1)-category
 
 * category with a [[calculus of fractions]]
 
+* [[resolution]]
+
 #References#
 
 This definition is in paragraph 33 of
