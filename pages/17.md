@@ -414,6 +414,8 @@ If the link is to the same page then the page name can be omitted by using the s
 
      [link text](#anchorname)
 
+__Note that a single bracket link with only an anchor doesn't function correctly when viewing a particular revision or a difference between revisions.__
+
 {#strange}Strangely single bracket link texts allow math expressions while double bracket texts don't. For example
 
     [$Set^\to$](Sierpinski+topos) vs [[Sierpinski topos|$Set^\to$]] vs [$Set^\to$](https://ncatlab.org/nlab/show/Sierpinski+topos). 
@@ -423,10 +425,6 @@ produces
 +-- {: .standout}
 [$Set^\to$](Sierpinski+topos) vs [[Sierpinski topos|$Set^\to$]] vs [$Set^\to$](https://ncatlab.org/nlab/show/Sierpinski+topos) .
 =--
-
-however only the third form, with full URL, works correctly when viewing revisions.
-
-
 
 
 Of course, you can link to it from outside the nLab by adding `http://ncatlab.org` at the beginning of the link.
