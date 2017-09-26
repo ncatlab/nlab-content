@@ -84,7 +84,7 @@ where $\nu: V_\Sigma E \to E$ is the bundle map of $V_\Sigma E$ and $\pi_{\infty
 
 =--
 
-Every evolutionary vector field can unique be prolonged to a vector field on $J^\infty_\Sigma(E)$.
+Every evolutionary vector field has a unique prolongation to a vector field on $J^\infty_\Sigma(E)$.
 
 +-- {: .num_defn #Prolongation}
 ###### Definition
