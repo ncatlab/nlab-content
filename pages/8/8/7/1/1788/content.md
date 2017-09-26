@@ -1,6 +1,27 @@
 
 
 
++-- {: .num_defn #EvolutionaryVectorField}
+###### Definition
+**([[evolutionary vector field]])**
+
+Let $E \overset{fb}{\to} \Sigma$ be a [[fiber bundle]]. Then an [[evolutionary vector field]] $v$ is a smooth bundle morphism
+
+$$
+  \array{
+    J^\infty_\Sigma(E)
+    && \overset{v}{\longrightarrow} &&
+    V_\Sigma E
+    \\
+    & {}_{\mathllap{jb_{\infty,0}}}\searrow && \swarrow_{\mathllap{}}
+    \\
+    && E
+  }
+$$
+
+=--
+
+
 Let $(E, \mathbf{L})$ be a [[Lagrangian field theory]]. Assume for simplicity of exposition that the [[field bundle]] $E \overset{fb}{\to}\Sigma$ is a [[trivial vector bundle]] over [[Minkowski spacetime]] and that $(\phi^a)_{a = 1}^s$ is a [[linear basis]] for its [[typical fiber]]. This means that the [[jet bundle]] $J^\infty_\Sigma(E)$ has canonical coordinates given by
 
 $$
@@ -12,7 +33,7 @@ $$
 
 Here the $\phi^a$ are also called the _[[field (physics)|field]] [[coordinates]]_.
 
-Consider then the space of [[evolutionary vector fields]] on the [[jet bundle]]
+Consider then the space of [[evolutionary vector fields]] on the [[jet bundle]] (def. \ref{EvolutionaryVectorField})
 
 $$
   \Gamma_\Sigma^{ev}(T J^\infty_\Sigma(E))[-1]
@@ -129,3 +150,25 @@ $$
 $$
 
 be the unique extension of the linear map $\iota_{\delta_{EL}L}$ to a [[derivation]] of degree +1 on this algebra. 
+
+The [[cochain cohomology]] of $\delta_{BV}$ has the following interpretation:
+
+
+in degree 0:
+
+$$
+  im( \Gamma_\Sigma^{ev}(V_\Sigma(E)) \overset{\delta_{BV}}{\to} \Omega^{0,0}_\Sigma(E))
+$$
+ 
+is functions on the [[shell]].
+
+in degree 1: 
+
+$$
+  im( \Gamma_\Sigma^{ev}(V_\Sigma(E)) \overset{\delta_{BV}}{\to} \Omega^{0,0}_\Sigma(E))
+$$
+
+is the [[gauge symmetries]]
+
+
+
