@@ -24,12 +24,14 @@ More commonly, terms in a call-by-value language are modelled as morphisms in th
 A thunk-force category axiomatizes the Kleisli category _directly_ and is also called an **abstract Kleisli category**[^terminology].
 The original category can be recovered from this category if it satisfies certain properties.
 
-The name derives from programming terminology. A **thunk** means a value that represents an unevaluated computation, which can later be **forced** to be evaluated and perform its [[side effects]]. This is represented by the object $L A$ which could be read as a "thunk of $A$" or a "lazy $A$". The thunking arrow $\theta_A : A \to L A$ embeds a value as a trivial thunk, and the force $\epsilon_A : L A \to A$ forces the evaluation of its thunked input. These don't normally appear as a standalone feature in a call-by-value language, but if the language supports first-class functions, they can be implemented in the usual way as a function of unit input.
-On the model side this is because if a thunk-force category is [[monoidal closed]] in an appropriate sense, then $L A$ is equivalent to $I \rightharpoonup A$ and $\theta, \epsilon$ can be defined using this structure.
+The name derives from programming terminology. A **thunk** means a value that represents an unevaluated computation, which can later be **forced** to be evaluated and perform its [[side effects]]. This is represented by the object $L A$ which could be read as a "thunk of $A$" or a "lazy $A$". The thunking arrow $\theta_A : A \to L A$ embeds a value as a trivial thunk, and the force $\epsilon_A : L A \to A$ forces the evaluation of its thunked input.
+
+The type constructor $L$ and associated thunk and force don't normally appear as a standalone feature in a call-by-value language, but if the language supports first-class functions, they can be implemented in the usual way as a function of unit input.
+On the model this corresponds to the fact that if a thunk-force category is [[closed monoidal category|monoidal closed]] in an appropriate sense, then $L A$ is equivalent to $I \rightharpoonup A$ and $\theta, \epsilon$ can be defined using this structure.
 
 ## Definition
 
-A thunk-force category [F&#252;hrmann 99](F99) consists of
+A thunk-force category [F&#252;hrmann 99](#F99) consists of
 
 * a category $K$
 * a functor $L : K \to K$
@@ -38,17 +40,25 @@ A thunk-force category [F&#252;hrmann 99](F99) consists of
 
 such that
 
-* $\theta L$ is a natural transformation
 * $(L\theta)\theta = (\theta L)\theta$
+* $\theta L$ is a natural transformation
 * $\epsilon\theta = \id$
 * $(L\epsilon)(\theta L) = \id$
 
-A morphism $f : A \to B$ in a thunk-force category is **thunkable** if $(Lf)\theta = \theta f$.
-Another way to phrase the definition is that $(L,\epsilon,\theta L)$ is a comonad and $\theta$ is thunkable.
+## Thunkable Morphisms
+
+A morphism $f : A \to B$ represents an effectful program. The presence of the thunk $\theta$ allows us to make the distinction between the "pure"/"trivially effectful" programs and those that have non-trivial effects.
+A morphism $f : A \to B$ in a thunk-force category is **thunkable** if $( L f )\theta = \theta f$, i.e., $\theta$ is "natural with respect to $f$".
+Then the conditions on the data $(L,\epsilon,\theta)$ in the definition of thunk-force category can be rephrased as
+
+* $\theta$ is thunkable
+* $(L,\epsilon,\theta L)$ is a [[comonad]].
+
+The presence of non-thunkable morphisms makes $\theta$ fail to be natural, naturality of $\theta$ is exactly the same as saying all morphisms are thunkable. This is the case for the Kleisli category of the identity monad. On the other hand, most monads produce many non-thunkable morphisms. For example in the Kleisli category of the [[maybe monad]], which is equivalent to the category of sets and partial functions, the thunkable morphisms are the total functions. As discussed below, most monads $T$ on a category $C$ used in [[denotational semantics]] satisfy an equalizing requirement which means the thunkable morphisms are in one-to-one correspondence to the morphisms of the original category $C$.
 
 ## Relation to Monads
 
-Let $T$ be a [[monad]] on a category $C$. The [[Kleisli category]] of $T$ is a thunk-force category. Let $F \dashv G$ denote the adjunction between $C$ and the Kleisli category $C_T$. Define $L = FG$ and $\epsilon$ the counit of the comonad. To define $\theta$, take $F\eta : F \to FT = L$ and, using the fact that $F$ is an [[identity-on-objects functor]] (or at least bijective on objects), treat it as an [[unnatural transformation]] from $Id_{C_T}\to L$. Then it follows immediately by naturality that every morphism in the image of $F$ is thunkable.
+Let $(T,\eta,\mu)$ be a [[monad]] on a category $C$. The [[Kleisli category]] of $T$ is a thunk-force category. Let $F \dashv G$ denote the adjunction between $C$ and the Kleisli category $C_T$. Define $L = FG$ and $\epsilon$ the counit of the comonad. To define $\theta$, take $F\eta : F \to FT$ and, using the fact that $F$ is an [[identity-on-objects functor]] (or at least bijective on objects), treat it as an [[unnatural transformation]] from $Id_{C_T}\to L$. Then it follows immediately by naturality that every morphism in the image of $F$ is thunkable.
 
 More explicitly, using the "Kleisli arrow" definition of the Kleisli category, $L$ 
 is just $T$, $\epsilon_A : T A \to T A$ is the identity, and $\theta_A = \eta_{T A} \eta_{A} : A \to T^2 A$.
@@ -62,8 +72,9 @@ $$
 1_{C}\underset{\quad \eta \quad}{\to}T\underoverset{\quad \eta T \quad}{T \eta}{\rightrightarrows}T^2
 $$
 
+Which is in practice often satisfied for monads used in [[denotational semantics]].
+The definition of the category of morphism of thunk-force categories and proof of this theorem are in [F&#252;hrmann 99 section 5](#F99).
 
-The definition of the category of morphism of thunk-force categories and proof of this theorem are in [F&#252;hrmann 99 section 5](F99).
 
 ## References
 
