@@ -39,13 +39,18 @@ _[[schreiber:HAI|Introduction]]_
 
   * [[chain complex]]
 
-  * [[chain map]], [[quasi-isomorphism]]
+  * [[chain map]]
 
   * [[chain homotopy]]
 
 * [[chain homology and cohomology]]
 
+  * [[quasi-isomorphism]]
+
+  * [[homological resolution]]
+
   * [[cochain on a simplicial set|simplicial homology]]
+
   * [[generalized homology]]
 
 * [[exact sequence]], 
