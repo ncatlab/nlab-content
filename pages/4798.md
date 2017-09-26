@@ -126,6 +126,10 @@ The fully general description for [[connections on ∞-bundles]] is at
 [[!redirects global symmetries]]
 [[!redirects local symmetries]]
 
+[[!redirects infinitesimal gauge symmetry]]
+[[!redirects infinitesimal gauge symmetries]]
+
+
 [[!redirects gauge equivalence]]
 [[!redirects gauge equivalences]]
 
