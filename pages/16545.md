@@ -75,7 +75,7 @@ $$
     \\
     & {}_{\mathllap{\pi_{\infty,0}}}\searrow && \swarrow_{\mathllap{\nu}}
     \\
-    && \E
+    && E
   }
   \,,
 $$ 
