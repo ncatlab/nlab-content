@@ -180,7 +180,7 @@ $$
 
 A _[[field (physics)|field]] trajectory_ (field history) on a given [[spacetime]] $\Sigma$ is meant to be some kind of [[quantity]] assigned to each point of spacetime (each [[event]]), such that this assignment varies smoothly with spacetime points. For instance an _[[electromagnetic field]]_ [[trajectory]] (or "history") is at each point of spacetime a collection of [[vectors]] that encode the direction in which a [[charged particle]] passing through that point will feel a [[force]] (the [[Lorentz force]]).
 
-This is readily formalized: If $F$ denotes the [[smooth set]] of "values" that the the given kind of field may take at any spacetime point, then a field configuration $\Phi$ is modeled as a [[smooth function]] from spacetime to this space of values:
+This is readily formalized: If $F$ denotes the [[smooth set]] of "values" that the given kind of field may take at any spacetime point, then a field configuration $\Phi$ is modeled as a [[smooth function]] from spacetime to this space of values:
 
 $$
   \Phi
@@ -1454,16 +1454,16 @@ $$
 **([[Euler-Lagrange operator|Euler-Lagrange variation]] and [[presymplectic current]] for   [[free field|free]] [[real scalar field]])**
 the
 
-Consder the [[Lagrangian field theory]] of the [[free field|free]] [[real scalar field]]
+Consider the [[Lagrangian field theory]] of the [[free field|free]] [[real scalar field]]
 from example  \ref{LagrangianForFreeScalarFieldOnMinkowskiSpacetime}.
 
-The the [[Euler-Lagrange operator|Euler-Lagrange form]] and [[presymplectic current]]
+Then the [[Euler-Lagrange operator|Euler-Lagrange form]] and [[presymplectic current]]
 (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}) are
 
 $$
   \delta_{EL}\mathbf{L}
   \;=\;
-  \left(\eta^{\mu \nu} \partial_\mu \partial_\nu + m^2 \right) \delta \phi
+  \left(\eta^{\mu \nu} \phi_{,\mu \nu} + m^2 \right) \delta \phi \wedge dvol_\sigma
   \;\in\;
   \Omega^{p+1,1}_{\Sigma}(E)
   \,.
@@ -1525,9 +1525,10 @@ $$
   \delta d \phi \wedge \iota_{\partial_\nu} \mathrm{dvol}_\Sigma
 $$
 
-Hence we may set
+Hence we may take the presymplectic potential of the free scalar field to be
 
 $$
+  \label{PresymplecticPotentialOfFreeScalarField}
   \Theta
     \coloneqq
   \eta^{\mu \nu} \phi_{,\mu} \delta \phi \wedge \iota_{\partial_\nu}
