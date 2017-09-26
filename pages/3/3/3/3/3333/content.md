@@ -222,8 +222,6 @@ X & \to & X\times X & \xrightarrow{id} & X\times X
 
 Here the bottom-left and top-right squares are the pullback defining $\mathcal{L}X$, the top-left square is the pullback defining $\mathcal{L}X \times_X\mathcal{L}X$, and the bottom-right square commutes but is not a pullback.  By the universal property of the pullback square defining $\mathcal{L}X$, this square factors through it uniquely, giving the composition map $\mathcal{L}X \times_X \mathcal{L}X\to \mathcal{L}X$.  Similarly but more simply, the inversion map $\mathcal{L}X\to \mathcal{L}X$ comes from transposing its defining pullback square and factoring it through itself.
 
-To extend this to a coherent $\infty$-group structure, ...
-
 Now consider $Y\to X$ an object of $C/X$.  There is a canonical projection $\mathcal{L}X \times_X Y \to Y$, which is not the action of $\mathcal{L}X$ on $Y$, but it almost is.  In fact since this projection is a morphism in the "homotopy" slice $C/X$, it consists not just of a morphism in $C$ but a homotopy witnessing that a certain triangle commutes, which is equivalently the homotopy in the left-hand commutative square below (which is the pullback defining $\mathcal{L}X \times_X Y$):
 
 $$\array{ \mathcal{L}X \times_X Y & \to & \mathcal{L} X & \xrightarrow{id} & \mathcal{L}X \\
@@ -247,7 +245,7 @@ $$ \array{
 \mathcal{L}X & \xrightarrow{p} & X & \to & X\times X & \xrightarrow{\pi_1} & X
 }$$
 
-To extend this action to a coherent $\infty$-action, ...
+To extend these structures to a coherent $\infty$-group structure and a coherent $\infty$-action, see for instance [this MO answer](https://mathoverflow.net/a/281937).
 
 ### In an $(\infty,1)$-topos {#InATopos}
 
