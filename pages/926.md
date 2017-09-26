@@ -879,3 +879,6 @@ A pedagogical introduction to Postnikov systems with an eye towards their genera
 
 [[!redirects Postnikov approximation]]
 [[!redirects Postnikov approximations]]
+
+[[!redirects Moore-Postnikov system]]
+[[!redirects Moore-Postnikov systems]]
