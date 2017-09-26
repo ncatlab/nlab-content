@@ -2,21 +2,6 @@
 
 
 
-Let $(E, \mathbf{L})$ be a [[Lagrangian field theory]]. Assume for simplicity of exposition that the [[field bundle]] 
-
-
-$E \overset{fb}{\to}\Sigma$ is a [[trivial vector bundle]] over [[Minkowski spacetime]] and that $(\phi^a)_{a = 1}^s$ is a [[linear basis]] for its [[typical fiber]]. This means that the [[jet bundle]] $J^\infty_\Sigma(E)$ has canonical coordinates given by
-
-$$
-  \left(
-    (x^\mu), (\phi^a), (\phi^a_{,\mu}), (\phi^a_{,\mu_1 \mu_2}), \cdots
-  \right)
-  \,.
-$$
-
-Here the $\phi^a$ are also called the _[[field (physics)|field]] [[coordinates]]_.
-
-
 +-- {: .num_defn #EvolutionaryVectorField}
 ###### Definition
 **([[evolutionary vector fields]] and [[antifields]])**
@@ -97,6 +82,7 @@ corresponding to the [[field (physic)|field]] coordinates $\phi^a$.
 =--
 
 
+
 +-- {: .num_defn #ImplicitInfinitesimalGaugeSymmetry}
 ###### Definition
 **(implicit [[infinitesimal gauge symmetry]])**
@@ -123,7 +109,7 @@ $$
 $$
 
 where $(R^a \in \Omega^{0,0}_\Sigma(E))_{a = 1}^s$ are smooth functions on the jet bundle; and in terms
-of these coordinates the condition on $\epsilon$ to be a gauge symmetryis equivalent to the condition
+of these coordinates the condition on $\epsilon$ to be a gauge symmetry is equivalent to the condition
 
 $$
   R^a \frac{\delta_{EL} L}{ \delta \phi^a} = 0 \phantom{AAA} \in \Omega^{0,0}_\Sigma(E)
@@ -177,6 +163,7 @@ these are called the _trivial_ implicit infinitesimal gauge transformations.
 
 +-- {: .num_prop}
 ###### Proposition
+**(implicit [[infinitesimal gauge transformations]] are [[infinitesimal symmetries of the Lagrangian]])**
 
 For $(E, \mathbf{L})$ a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}), then 
 every implicit [[infinitesimal gauge symmetry]] $\epsilon$ (def. \ref{ImplicitInfinitesimalGaugeSymmetry})
@@ -235,8 +222,54 @@ $$
   \end{aligned}
 $$
 
-
 =--
+
+The point of implicit infinitesimal gauge transformations is that 
+as soon as there is a single non-trivial one, i.e. one not vanishing on-shell,
+then there cannot be any Cauchy surfaces for the equations of motion.
+The reason is that 
+
+1. the flow along implicit infinitesimal gauge transformations preserves the shell
+
+2. if $\epsilon$ is an implicit infinitesimal gauge transformation, then so is
+   $f \epsilon$ for $f \in \Omega^{0,0}_\Sigma(E)$ any smooth function on the jet bundle.
+   In particular $f$ may depend arbitrarily on spacetime. 
+   
+Together this means that the flow along $f \epsilon$ may change a solution at arbitrary spacetime
+points, while keeping it a soluton. In particular if we choose a would-be Cauchy surface, and
+consider $f$ with spacetime support away from that surface, then every solution restricted to 
+an infinitesimal neighbourhood of the Cauchy surface has infinitely many extension to solutions
+on all of spacetime: with any one such extesion also the flow along $f \epsilon$ of that solution
+is a solution, with the same initial Cauchy data.
+
+Now the quantization prescription via [[Wick algebras]] for the [[free fields]] and
+[[causal perturbation theory]] for the interacting fields relies on the assumption that the
+equations of motion of the free field are given by a [[normally hyperbolic differential operator]].
+However, on time-oriented globally hyperbolic spacetimes, these operators have unique 
+advanced and retarded propagators. This means that solution are uniquely specified by
+Cauchy data. Conversely this means that in the presence of non-trivial implicit infinitesimal gauge transformation,
+the equations of motion can not be given by a normally hyperbolic operator, and hence in this case
+quantization via causal perturbation theory is not applicable.
+
+The idea BRST-BV quantization now is to fix this by 
+
+1. enlarging the field bundle to a [[derived Lie algebroid]],
+
+   1. hence enlarging the space of fields by adding more fields (equipped with grading)
+   
+   1. introducing a [[differential]] on these
+   
+   so that in [[cochain cohomology]] the original on-shell field species are
+   recovered, hence so that this is a [[]]
+      
+1. such that the equations of motion for the system for the enlarged field space _are_
+   normally hyperbolic and may hence be quantized by causal perturbation theory
+   
+1. such that this quantization preserves the differential suitably, so that after quantization
+   we may again pass to cochain cohomology and interpret that result as the quantization of the 
+   original system to be quantized.
+
+
 
 
 +-- {: .num_defn}
@@ -280,7 +313,7 @@ $$
   \,.
 $$
 
-In the special case that the [[field bundle]] $E \overset{fb}{\to} \Sigma$ is a [[trrivial vector bundle]]
+In the special case that the [[field bundle]] $E \overset{fb}{\to} \Sigma$ is a [[trivial vector bundle]]
 (example \ref{TrivialVectorBundleAsAFieldBundle}) with [[field (physics)|field]] coordinates $(\phi^a)$
 so that the Euler-Lagrange variational derivative has the expansion 
 
@@ -341,7 +374,7 @@ is called the _[[BV-complex]]_ of the Lagrangian field theory.
 
 =--
 
-The [[cochain cohomology]] of the [[BV-comples]] has the following interpretation:
+The [[cochain cohomology]] of the [[BV-complex]] has the following interpretation:
 
 
 in degree 0:
