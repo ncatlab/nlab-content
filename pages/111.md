@@ -268,6 +268,10 @@ Expositions include
 
 * A. Martini, H. Ehrig, and D. Nunes, [Elements of basic category theory](http://citeseer.ist.psu.edu/martini96element.html), Technical Report 96-5, Technical University Berlin.
 
+A textbook that introduces categories by examples arising in [[mathematical physics]] is 
+
+* {#Geroch85} [[Robert Geroch]], _Mathematical Physics_, Chicago 1985
+
 A textbook with an eye towards the theory of [[categories of sheaves]] and their application in [[homological algebra]] is
 
 * Kashiwara, Shapira, _[[Categories and Sheaves]]_
