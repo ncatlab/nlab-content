@@ -20,11 +20,30 @@
 
 ## Idea 
 
-A **cartesian bicategory** is a [[bicategory]] with properties that make it behave like a bicategory of generalized [[relations]]. The [[bicategory of relations]] of a  [[regular category]], the bicategory of [[spans]] in a finitely [[complete category]], and the bicategory of [[modules]] ([[profunctors]]) in a finitely complete category are all examples of cartesian bicategories. 
+A **cartesian bicategory** is a [[bicategory]] with properties that make it behave like a bicategory of generalized [[relations]].
 
-The rough idea is that a cartesian bicategory, viewed as an abstract bicategory of relations, should possess a tensor product which behaves like cartesian product on relations, and therefore like a categorical product for relations that are "functional". The structure of such a tensor is property-like (is essentially unique when it exists). Like allegories, cartesian bicategories provide a convenient abstract setting in which to study the calculus of relations, but unlike allegories they embrace other important examples like $Span$ and $Mod$. 
+Examples of cartesian bicategories include 
 
-The original idea, as explained by Carboni and Walters in their paper, clearly had these various examples in mind but was initially confined to the locally posetal case; in part this was due to the lack at the time (circa 1987) of a complete definition of symmetric monoidal bicategories. In more recent years a full bicategorical treatment has emerged, due principally to Carboni, Kelly, Verity, and Wood. The alternative treatment we give below has not yet appeared in the literature as far as this author ([[Todd Trimble]]) is aware. 
+ * the bicategory [[Rel]] of sets and relations,
+ * more generally, the [[bicategory of relations]] of a  [[regular category]],
+ * the bicategory [[Span]] of sets and spans,
+ * more generally, the bicategory of [[spans]] in a finitely [[complete category]],
+ * the bicategory [[profunctor|Prof]] of (small) categories and profunctors,
+ * more generally, the bicategory of internal categories and [[modules]] ([[profunctors]]) in a finitely complete category $C$,
+ * as an alternative generalization, the bicategory of enriched categories and modules over a _cartesian_ monoidal category $V$.
+ * ??(This is a guess) the bicategory of bialgebroids and modules in a general symmetric monoidal category $V$.
+
+Non-examples include
+
+ * the locally-discrete bicategory [[Set]] of sets and functions,
+ * the bicategory [[Prof]] of categories and profunctors,
+ * the bicategory of profunctors and enriched in a _noncartesian_ monoidal category $V$.
+
+Consider for example the bicategory [[Rel]]. This bicategory admits a symmetric monoidal structure given by the cartesian product. Because the cartesian product is _not_ the categorical product, this symmetric monoidal structure is _not_ [[cartesian monoidal category|cartesian monoidal]]. However, the cartesian product restricts to the locally-discrete sub-bicategory [[Set]] of sets and functions, on which it _is_  the categorical product. Note that a relation is the graph of a function if and only if it possesses a right adjoint (which is given by the opposite relation). In a general bicategory, a 1-cell is called _map-like_ if it possesses a right adjoint, and these are the 1-cells playing the role that functions play in $Rel$.
+
+Generalizing this situation, a cartesian bicategory $B$ is a symmetric monoidal bicategory for which the monoidal product restricts to the categorical product on the sub-bicategory of map-like 1-cells, subject to natural compatibility conditions. Remarkably, the structure of such a tensor is property-like (is essentially unique when it exists). Thus the definition can be formulated directly in terms of the bicategory $B$ without mentioning a symmetric monoidal structure at all. Not only is this technically convenient (as the precise definition of a symmetric monoidal bicategory is quite technical), but it is moreover a very natural perspective to take.
+
+Like allegories, cartesian bicategories provide a convenient abstract setting in which to study the calculus of relations, but unlike allegories they embrace higher examples like $Span$ and $Mod$. The original idea, as explained by Carboni and Walters in their paper, clearly had these various examples in mind but was initially confined to the locally posetal case; in part this was due to the lack at the time (circa 1987) of a complete definition of symmetric monoidal bicategories. In more recent years a full bicategorical treatment has emerged, due principally to Carboni, Kelly, Verity, and Wood. The alternative treatment we give below has not yet appeared in the literature as far as this author ([[Todd Trimble]]) is aware. 
 
 ## Technical preliminaries 
 
