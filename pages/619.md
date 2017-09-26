@@ -357,7 +357,7 @@ The relation of exponential ideals to [[reflective subcategories]] is discussed 
 
 Reflective and coreflective subcategories of presheaf categories are discussed in
 
-* R. Bashir, J. Velebil, _Simultaneously reflective and coreflective subcategories of presheaves_, Theory and  Applications of Categories, Vol 10. No. 16. (2002) ([pdf](http://www.emis.de/journals/TAC/volumes/10/16/10-16.pdf)).
+* {#BashirVelebil}R. Bashir, J. Velebil, _Simultaneously reflective and coreflective subcategories of presheaves_, Theory and  Applications of Categories, Vol 10. No. 16. (2002) ([pdf](http://www.emis.de/journals/TAC/volumes/10/16/10-16.pdf)).
 
 Related discussion of [[reflective sub-(∞,1)-categories]] is in 
 
