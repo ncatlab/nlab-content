@@ -1001,7 +1001,7 @@ of a potential $\Theta$ for a _[[presymplectic current]]_ $\Omega \coloneqq \del
 (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime} below):
 
 $$
-  \delta \mathbf{L} = \delta_{EL}\mathbf{L} + d \Theta
+  \delta \mathbf{L} = \delta_{EL}\mathbf{L} - d \Theta
   \,.
 $$
 
@@ -1721,6 +1721,99 @@ Since by definition of $\mathcal{E}$ the form $\frac{\delta_{EL} \mathbf{L}}{\de
 this yields the claim.
 
 =--
+
+
++-- {: .num_example #ScalarFieldEnergyMomentum}
+###### Example
+**([[energy-momentum]] of the [[scalar field]])
+
+Consider the [[Lagrangian field theory]] of the [[free field|free]] [[scalar field]] from def. \ref{LagrangianForFreeScalarFieldOnMinkowskiSpacetime}:
+
+$$
+  \mathbf{L}
+  \;=\;
+  \tfrac{1}{2}
+  \left(
+    \eta^{\mu \nu}\phi_{,\mu} \phi_{,\nu}
+    +
+    m^2 \phi^2
+  \right)
+  dvol_\Sigma
+  \,.
+$$
+
+For $\nu \in \{0, 1, \cdots, p\}$ consider the vector field on the jet bundle given by
+
+$$
+  v_\nu
+  \;\coloneqq\;
+  \phi_{,\nu} \partial_{\phi}
+  +
+  \phi_{,\mu \nu} \partial_{\phi_{,\mu}}
+  +
+  \cdots
+  \,.
+$$
+
+This describes infinitesimal translations of the fields in the direction of $\partial_\nu$.
+
+And this is an [[infinitesimal symmetry of the Lagrangian]] (def. \ref{SymmetriesAndConservedCurrents}), since
+
+$$
+  \iota_{v_\nu} \mathbf{d}\mathbf{L}
+  =
+  d L \wedge \iota_{\partial_\nu} dvol_\Sigma
+  \,.
+$$
+
+With the formula (eq:PresymplecticPotentialOfFreeScalarField) for the presymplectic potential
+
+$$
+  \Theta
+    =
+  \eta^{\mu \nu} \phi_{,\mu} \delta \phi \iota_{\partial_{\nu}} dvol_\Sigma
+$$
+
+it hence follows from [[Noether's theorem]] (prop. \ref{NoethersFirstTheorem}) that the corresponding 
+[[conserved current]] (def. \ref{SymmetriesAndConservedCurrents}) is
+
+$$
+  \begin{aligned}
+    T_\nu
+     & =
+     L \, \iota_{\partial_\nu} dvol_\Sigma
+     -
+     \iota_{v_\nu}\Theta
+     \\
+     &
+     =
+     L \, \iota_{\partial_\nu} dvol_\Sigma
+     -
+     \eta^{\rho \mu} \phi_{,\rho} \phi_{,\nu}
+     \,
+     \iota_{\partial_\mu} dvol_\Sigma
+     \\
+     &  =
+     (
+     \underset{=: T^\mu_\nu}{
+     \underbrace{
+       \delta^\mu_\nu  L
+       -
+       \eta^{\rho \mu} \phi_{,\rho} \phi_{,\nu}
+     }
+     }
+     )
+     \,
+     \iota_{\partial_\mu} dvol_\Sigma
+   \end{aligned}
+   \,.
+$$
+
+This [[conserved current]] is called the _[[energy-momentum tensor]]_.
+
+
+=--
+
 
 Evidently [[Noether's theorem]] in [[variational calculus]] (prop. \ref{NoethersFirstTheorem})
 is the special case for horizontal $p+1$-forms of a more general phenomenon relating
