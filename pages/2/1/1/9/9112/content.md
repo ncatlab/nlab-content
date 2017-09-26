@@ -32,3 +32,6 @@ $$
 
 [[!redirects energy momentum tensor]]
 [[!redirects energy-momentum tensor]]
+
+[[!redirects energy-momentum]]
+
