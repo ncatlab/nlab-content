@@ -84,7 +84,7 @@ In this [Model Layer](#LayerMod) we discuss concretely the definition of [[smoot
 #### Plots of smooth spaces and their gluing
  {#PlotsOfSmoothSpacesAndTheirGluing}
 
-The general kind of "[[smooth space]]" that we want to consider is a [[type|something]] that can be _probed_ by laying out coordinate systems as in [[this definition]](https://ncatlab.org/nlab/show/geometry+of+physics+--+coordinate+systems#CartesianSpaces)  inside it, and that can be obtained by _gluing_ all the possible coordinate systems in it together. 
+The general kind of "[[smooth space]]" that we want to consider is a [[type|something]] that can be _probed_ by laying out coordinate systems as in [this definition](geometry+of+physics+--+coordinate+systems#CartesianSpaces)  inside it, and that can be obtained by _gluing_ all the possible coordinate systems in it together. 
 
 At this point we want to impose no further conditions on a "space" than this. In particular we do not assume that we know beforehand a [[set]] of [[points]] underlying $X$. Instead, we define smooth spaces $X$ entirely _operationally_ as something about which we can ask "Which ways are there to lay out $\mathbb{R}^n$ inside $X$?" and such that there is a self-consistent answer to this question. The following definitions make precise what we mean by this. The reader wishing to see more motivational discussion first might look at _[[motivation for sheaves, cohomology and higher stacks|conceptual exposition]]_.
 
