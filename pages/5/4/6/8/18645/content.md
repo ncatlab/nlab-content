@@ -1176,7 +1176,7 @@ $$
   \end{aligned}
 $$
 
-The subspace of the [[jet bundle]] on which the Euler-Lagrange differential vanishes is called the _[[shell]]_
+The smooth subspace of the [[jet bundle]] on which the Euler-Lagrange differential vanishes is called the _[[shell]]_
 
 $$
   \label{ShellInJetBundle}
@@ -1189,6 +1189,10 @@ $$
   \right\}
   \,.
 $$
+
+We regard this as a [[smooth space]] by declaring that its plots $U \to \mathcal{E}$ are those
+plots of the tota space of the jet bundle $\phi \colon U \to J^\infty_\Sigma(E)$ (def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) along which the [[pullback of differential forms|pullback]]
+of the [[Euler-Lagrange form]] vanishes: $\phi^\ast( \delta_{EL}\mathbf{L} ) = 0$.
 
 Saying something holds  "on-shell" will mean that it holds after restriction to this
 subspace.
@@ -1597,11 +1601,11 @@ but of central importance:
 **([[total derivative|total spacetime derivative]] of [[presymplectic current]] vanishes [[on-shell]])**
 
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}).
-Then the [[Euler-Lagrange form]] $\delta_{EL} \mathbf{L}$ and the [[presymplectic current]] 
+Then the [[Euler-Lagrange form]] $\delta_{EL} \mathbf{L}$ and the [[presymplectic current]]
 (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}) are related by
 
 $$
-  d \Omega = - \delta(\delta_{EL}\mathbf{L}) 
+  d \Omega = - \delta(\delta_{EL}\mathbf{L})
   \,.
 $$
 
@@ -1650,8 +1654,7 @@ $$
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}).
 
 
-1. an _[[infinitesimal symmetry of the Lagrangian]]_ is a variation $v$ (def. \ref{Variation}) such that the [[Lie derivative]] $\mathcal{L}_v$ of the
-   Lagrangian density is a [[total derivative|total spacetime derivative]]
+1. an _[[infinitesimal symmetry of the Lagrangian]]_ is a variation $v$ (def. \ref{Variation}) such that the [[Lie derivative]] $\mathcal{L}_v$ of the Lagrangian density is a [[total derivative|total spacetime derivative]]
 
    $$
      \mathcal{L}_v \mathbf{L} = d \tilde J
@@ -1701,20 +1704,20 @@ $$
     \mathcal{L}_v \mathbf{L}
     \\
     & =
-    \iota_v \underset{= \delta_{EL}\mathbf{L} + d \Theta}{\underbrace{\mathbf{d} \mathbf{L}}}
+    \iota_v \underset{= \delta_{EL}\mathbf{L} - d \Theta}{\underbrace{\mathbf{d} \mathbf{L}}}
     +
     \mathbf{d} \underset{= 0}{\underbrace{\iota_v \mathbf{L}}}
     \\
     & =
-    \frac{\delta_{EL}\mathbf{L}}{\delta v}
-    - d \iota_v \Theta
+    \iota_v \delta_{EL} \mathbf{L}
+    + d \iota_v \Theta
   \end{aligned}
 $$
 
 which is equivalent to
 
 $$
-  d(\underset{= J_v}{\underbrace{\tilde J - \iota_v \Theta}}) = \frac{\delta_{EL}\mathbf{L}}{\delta v}
+  d(\underset{= J_v}{\underbrace{\tilde J - \iota_v \Theta}}) = \iota_v \delta_{EL}\mathbf{L}
 $$
 
 Since by definition of $\mathcal{E}$ the form $\frac{\delta_{EL} \mathbf{L}}{\delta v}$ vanishes on $\mathcal{E}$
@@ -1774,7 +1777,7 @@ $$
   \eta^{\mu \nu} \phi_{,\mu} \delta \phi \iota_{\partial_{\nu}} dvol_\Sigma
 $$
 
-it hence follows from [[Noether's theorem]] (prop. \ref{NoethersFirstTheorem}) that the corresponding 
+it hence follows from [[Noether's theorem]] (prop. \ref{NoethersFirstTheorem}) that the corresponding
 [[conserved current]] (def. \ref{SymmetriesAndConservedCurrents}) is
 
 $$
@@ -2579,7 +2582,7 @@ $$
 is compatible with the [[variational derivative]] $\delta$ and with the [[total derivative|total spacetime derivative]] $d$
 in the following way:
 
-1. On variational forms that are in the image of the total spacetime derivative 
+1. On variational forms that are in the image of the total spacetime derivative
    a transgressive [[Stokes' theorem]] holds:
 
    $$
@@ -2637,10 +2640,10 @@ $$
     \\
     & = \int_{\partial \Sigma_r} (j^\infty_\Sigma ( (-)\vert_\Sigma \circ \Phi_{(-)}) )^\ast\alpha
     \\
-    & = 
+    & =
     ( (-)\vert_\Sigma \circ \Phi_{(-)} )^\ast \tau_{\partial \Sigma_r}(\alpha)
     \\
-    & = 
+    & =
     (\Phi_{(-)})^\ast ((-)\vert_{\Sigma_r})^\ast \tau_{\partial \Sigma_r}(\alpha)
     \,.
   \end{aligned}
@@ -2880,7 +2883,7 @@ vanishes, $m = 0$, then this is the _relativistic [[wave equation]]_.
 
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}).
 
-Then the variation of the [[action functional]] (def. \ref{VariationOfTheActionFunctional})
+Then the [[de Rham differential]] of the [[action functional]] (def. \ref{VariationOfTheActionFunctional})
 vanishes for all [[adiabatic switchings]] $b$ on a [[field (physics)|field]] history $\Phi$
 precisely if $\Phi$ solves the [[Euler-Lagrange equation|Euler-Lagrange]] [[equations of motion]]
 (def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime}):
@@ -2922,14 +2925,15 @@ $$
   \,.
 $$
 
-But if the right hand sie holds for all $b$, then the claim follows by standard arguments.
-
-(Suppose $j^\infty_\Sigma(\Phi)^\ast (  \delta_{EL} \mathbf{L} )$ did not vanish at some $x \in \Sigma$,
+But if the right hand side holds for all $b$, then the claim follows by standard arguments:
+Suppose $j^\infty_\Sigma(\Phi)^\ast (  \delta_{EL} \mathbf{L} )$ does not vanish at some $x \in \Sigma$,
 then by continuity it is non-vanishing also on some [[neighbourhood]] of $x$ and hence its integral
-against non-negative or non-positive  bump function supported inside this neighbourhood would be non-vanishing. )
+against a non-negative or non-positive bump function $b$ supported inside this neighbourhood is non-vanishing. 
 
 
 =--
+
+
 
 
 +-- {: .num_defn #LocalObservables}
@@ -3309,7 +3313,7 @@ is therefore called the _[[covariant phase space]]_ of the [[Lagrangian field th
 +-- {: .proof}
 ###### Proof
 
-By prop. \ref{HorizontalDerivativeOfPresymplecticCurrentVanishesOnShell} the 
+By prop. \ref{HorizontalDerivativeOfPresymplecticCurrentVanishesOnShell} the
 total spacetime derivative $d \Omega$ of the [[presymplectic current]] vanishes [[on-shell]]:
 
 $$
@@ -3322,8 +3326,8 @@ But then the claim follows with prop. \ref{TransgressionOfVariationaldifferentia
 
 $$
   \begin{aligned}
-    0 
-    & =   \tau_{\Sigma_{tra}}(d \Omega) 
+    0
+    & =   \tau_{\Sigma_{tra}}(d \Omega)
     \\
     & = ((-)\vert_{\Sigma_{tra}})^\ast \tau_{\partial \Sigma_{tra}} \Omega
     \,.
