@@ -426,6 +426,8 @@ $$
      \cdots
      \,,\,
      ( \phi^a_{,\mu_1 \cdots \mu_k} )
+     \,,\,
+     \cdots
   \right)
 $$
 
@@ -534,10 +536,10 @@ $$
 
 So the canonical [[coordinates]] on the jet bundle are the spacetime-point-wise _possible_ values of fields and field derivates,
 while the [[jet prolongation]] picks the actual collections of field derivatives that may occur for an actual field
-configuration.
+history.
 
 While the [[jet bundle]] is not [[finite number|finite]] [[dimension|dimensional]],
-reflecting the fact that there are arbitrary higher orders of spacetime derivatives of a field configurations,
+reflecting the fact that there are arbitrarily high orders of spacetime derivatives of a field configurations,
 it turns out that it is only very "mildly [[infinite dimensional manifold|infinite dimensional]]"
 in that
 smooth  functions on jet bundles turn out to _locally_ depend on only finitely many of the jet coordinates
@@ -4337,7 +4339,8 @@ is the _[[BRST complex]]_ (below...).
 
 Since the point of quantization of [[gauge field theory]] via [[causal perturbation theory]]
 is that it does _not apply_ as long as there are non-trivial implicit infinitesimal gauge symmetries
-present, but only applies once all implicit infinitesimal
+present (prop. \ref{NonTrivialImplicitInfinitesimalGaugeSymmetriesPbstructExistenceOfCauchySurfaces} below), 
+but only applies once all implicit infinitesimal
 gauge symmetries have been made explicit (by the [[BV-BRST complex]]) the distinction is important.
 
 =--
@@ -4826,33 +4829,6 @@ non-vanishing [[interaction]]) is, at the time of this writing, a wide open prob
 
 But [[perturbative quantum field theory]] is well understood. This we turn to next...
 
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-***
 
 (...)
 
@@ -4907,6 +4883,17 @@ $\,$
 ## References
 
 * {#HennauxTeitelboim91} [[Marc Henneaux]], [[Claudio Teitelboim]], _Quantization of Gauge Systems_, Princeton University Press 1991
+
+
+$\,$
+
+$\,$
+
+$\,$
+
+
+
+***
 
 
 [[!redirects A first idea of quantum field theory]]
