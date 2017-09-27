@@ -1,0 +1,4 @@
+[[!redirects locally variational field theories]]
+
+
+A [[Lagrangian field theory]] for fields defined by some [[field bundle]] is called _locally variational_ if its [[equations of motion]] is determined by a [[source form]] on the [[jet bundle]] which is _locally_, i.e. over some [[neighbourhood]] of any point of the base space, the [[Euler-Lagrange variational derivative]] of a [[Lagrangian density]] on this neighbourhood. 
