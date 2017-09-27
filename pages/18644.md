@@ -17,13 +17,13 @@
 
 ## Idea
 
-In the construction of [[quantum field theory]] various naive mathematical constructions give rise to ill-defined "[[divergent series|divergent]]" expressions. 
+In the formulation of [[quantum field theory]] various naive mathematical constructions give rise to ill-defined "[[divergent series|divergent]]" expressions. 
 
-Some of these occur in the [[limit of a sequence|limit]] that [[interaction]] points are taken _close_ to each other. Since the short distances involved in this limit translates, under [[Fourier transform]], to high [[frequencies]], these are called _[[ultraviolet divergences]]_. The correct way to deal with them is called _[[renormalization]]_.
+Some of these occur in the [[limit of a sequence|limit]] that [[interaction]] points are taken _close_ to each other. Since the short distances involved in this limit translate, under [[Fourier transform]], to high [[frequencies]], these are called _[[ultraviolet divergences]]_. The correct way to deal with them is called _[[renormalization]]_.
 
-Other divergences occcur in the [[limit of a sequence|limit]] that the spactime [[support]] of the [[interaction]] (the support of the "[[adiabatic switching]]") tends without bounds to all of spacetime, also called the [[adiabatic limit]]. Since this large distance involved in this limit translate, under [[Fourier transform]] to low [[frequencies]], these are called _infrared divergences_.
+Other divergences occur in the [[limit of a sequence|limit]] that the spacetime [[support]] of the [[interaction]] (the support of the "[[adiabatic switching]]") tends without bounds to all of spacetime, also called the [[adiabatic limit]]. Since the large distances involved in this limit translate, under [[Fourier transform]], to low [[frequencies]], these are called _infrared divergences_.
 
-In [[perturbative AQFT]] the issue is dealt with by realizing that, despite superficial appearance, already the [[adiabatic switching|adiabatically switched]] [[S-matrix]] does make physical sense, namely for the computation of those [[quantum observables]] whose [[spacetime]] [[support]] is such that its [[causal closure]] lies inside the support of the switched S-matrix ([this prop.](S-matrix#PerturbativeQuantumObservablesIsLocalnet)). This gives a well-defined meaning to [[causal perturbation theory]] _without_ having to consider the [[adiabatic limit]].
+In [[perturbative AQFT]] the issue is dealt with by realizing that, despite superficial appearance, the [[adiabatic switching|adiabatically switched]] [[S-matrix]] already makes physical sense, namely, for the computation of those [[quantum observables]] whose [[spacetime]] [[support]] is such that its [[causal closure]] lies inside the support of the switched S-matrix ([this prop.](S-matrix#PerturbativeQuantumObservablesIsLocalnet)). This gives a well-defined meaning to [[causal perturbation theory]] _without_ having to consider the [[adiabatic limit]].
 
 ## Properties
 
