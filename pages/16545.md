@@ -15,7 +15,7 @@
 
 ## Idea
 
-In [[variational calculus]] an _evolutionary vector_ field is a particular type of vertical [[vector field]] on the infinite-order [[jet bundle]] $J^\infty_\Sigma(E)$ of a [[fiber bundle]] $E \overset{fb}{\to} \Sigma$, which may be interpreted as the generator of a transformation of the [[space of sections]] $\Gamma_\Sigma(E)$ of $E$. 
+In [[variational calculus]] an _evolutionary vector_ field is a particular type of [[vertical vector field]] on the infinite-order [[jet bundle]] $J^\infty_\Sigma(E)$ of a [[fiber bundle]] $E \overset{fb}{\to} \Sigma$, which may be interpreted as the generator of a transformation of the [[space of sections]] $\Gamma_\Sigma(E)$ of $E$. 
 
 Evolutionary vector fields describe [[infinitesimal]] [[symmetries]] of [[Lagrangian field theories]] in the formulation of the [[variational bicomplex]], and as such form an ingredient of [[Noether's theorem]].
 
@@ -121,6 +121,8 @@ Furthermore, $pr (\pi_{\infty,0*} \circ v) = v$ and $\pi_{\infty,0*} \circ (pr w
 ## References
 
 See also
+
+* {#AndersonTorre96} [[Ian Anderson]], [[Charles Torre]], section 2A of _Classification of Local Generalized Symmetries for  the Vacuum Einstein Equations_, Communications in Mathematical Physics 176, 479-539 (1996)
 
 * [[Joseph Krasil'shchik]], Alexander Verbovetsky, section 1.4 of _Geometry of jet spaces and integrable systems_, J.Geom.Phys.61:1633-1674, 2011 ([arXiv:1002.0077](https://arxiv.org/abs/1002.0077))
 
