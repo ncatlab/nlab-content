@@ -19,7 +19,7 @@
 ## Idea 
 
 
-The concept of _[[resolution]]_ in [[homotopy theory]] specialized to [[simplicial homotopy theory]] is "simplicial resoltion".
+The concept of _[[resolution]]_ in [[homotopy theory]] specialized to [[simplicial homotopy theory]] is "simplicial resolution".
 
 > the following needs attention
 
