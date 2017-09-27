@@ -33,6 +33,8 @@ Similarly, some classes of [[2d CFTs]] may be constructed by purely algebraic me
 
 * [[local quantum field theory]]
 
+* [[locally variational field theory]]
+
 * [[algebraic quantum field theory]]
 
 * [[perturbative algebraic quantum field theory]]
