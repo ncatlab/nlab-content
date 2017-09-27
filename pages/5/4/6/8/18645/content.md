@@ -40,6 +40,7 @@ Throughout we use the case of the real [[scalar field]] as an illustrative runni
 In [[field theory]] one is concerned with [[differential geometry]] on
 [[spaces]] that are more general than [[smooth manifolds]] in several ways (a preview is in remark \ref{PreviewOfGenerlizedDifferentialGeometryAppearingInFieldTheory} below). The right concept
 that neatly supports the necessary differential geometry turns out to be that of _[[smooth sets]]_
+(in particulcar [[diffeological spaces]])
 and their [[super formal smooth infinity-groupoid|generalization]] to [[supergeometry|super]]-, [[formal geometry|formal]]- and [[higher differential geometry]]. Hence before introducing the idea of fields below, here we briefly spend
 some words on required concepts from [[differential geometry]]. For a self-contained introduction see at _[[geometry of physics]]_
 the chapters on _[[geometry of physics -- smooth sets|smooth sets]]_, _[[geometry of physics -- differential forms|differential forms]]_ and _[[geometry of physics -- supergeometry|supergeometry]]_.
@@ -376,7 +377,7 @@ $$
 =--
 
 
-## Field Variation
+## Field variations
  {#FieldVariations}
 
 Given a [[field bundle]] as in def. \ref{Fields} above, then we know what type of quantities the corresponding fields assign to a given spacetime point ([[event]]). Among all consistent such field configurations, some are to qualify as those that "may occur in reality" if we think of the field theory as a means to describe parts of the [[observable universe]]. Moreover, if the reality to be described does not exhibit "action at a distance" then admissibility of its field configurations should be determined over arbitrary small spacetime regions, in fact over the [[infinitesimal neighbourhood]] of any spacetime point. This means equivalently that the realized field configurations should be those that satisfy a given _[[differential equation]]_, hence an [[equation]] between the value of the [[derivatives]] of the field
@@ -630,6 +631,7 @@ and extended to all forms by the graded [[Leibniz rule]], hence  as a nilpotent 
 The  _[[variational derivative]]_ or _[[vertical derivative]]_
 
 $$
+  \label{VariationalDerivative}
   \delta
   \;\colon\;
   \Omega^\bullet( J^\infty_\Sigma(E) )
@@ -1176,7 +1178,7 @@ $$
   \end{aligned}
 $$
 
-The smooth subspace of the [[jet bundle]] on which the Euler-Lagrange differential vanishes is called the _[[shell]]_
+The [[smooth space|smooth subspace]] of the [[jet bundle]] on which the Euler-Lagrange differential vanishes is called the _[[shell]]_
 
 $$
   \label{ShellInJetBundle}
@@ -1190,12 +1192,9 @@ $$
   \,.
 $$
 
-We regard this as a [[smooth space]] by declaring that its plots $U \to \mathcal{E}$ are those
-plots of the tota space of the jet bundle $\phi \colon U \to J^\infty_\Sigma(E)$ (def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) along which the [[pullback of differential forms|pullback]]
-of the [[Euler-Lagrange form]] vanishes: $\phi^\ast( \delta_{EL}\mathbf{L} ) = 0$.
-
-Saying something holds  "on-shell" will mean that it holds after restriction to this
-subspace.
+Saying something holds  "[[on-shell]]" is to mean that it holds after restriction to this
+subspace. For example a [[variational differential form]] $\alpha \in \Omega^{\bullet,\bullet}_\Sigma(E)$
+is said to _vanish on shell_ if $\alpha\vert_{\mathcal{E}} = 0$.
 
 The remaining term $d \Theta$ is unique, while $\Theta \in \Omega^{p,1}_{\Sigma}(E)$ is unique only up to terms $d \alpha$ in the image of $d$.
 One possible choice is
@@ -1627,25 +1626,277 @@ using $\delta^2 = 0$ and $\delta \circ d = - d \circ \delta$.
 =--
 
 
+
+## Symmetries
+
+
 +-- {: .num_defn #Variation}
 ###### Definition
 **(variation)**
 
-Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}).
+Let $E \overset{fb}{\to} \Sigma$ be a [[field bundle]] (def. \ref{Fields}).
 
-A _variation_ is a vertical [[vector field]] $v$ on the [[jet bundle]] $J^\infty_\Sigma(E)$ which
-vanishes when evaluated in the [[horizontal differential forms]];
 
-hence for the [[field bundle]] a [[trivial vector bundle]] over [[Minkowski spacetime]] as in example \ref{TrivialVectorBundleAsAFieldBundle},
+A _variation_ is a [[vertical vector field]] $v$ on the [[jet bundle]] $J^\infty_\Sigma(E)$ (def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) hence a vector field which
+vanishes when evaluated in the [[horizontal differential forms]].
+
+In the special case that the [[field bundle]] is [[trivial vector bundle]] over [[Minkowski spacetime]] as in example \ref{TrivialVectorBundleAsAFieldBundle},
 a variation is of the form
 
 $$
-  v = v^a \partial_{\Phi^a} + v^a_{,\mu} \partial_{\phi^a_{,\mu}} + v^a_{\mu_1 \mu_2} \partial_{\phi^a_{\mu_1 \mu_2}} + \cdots
+  v = v^a \partial_{\phi^a} + v^a_{,\mu} \partial_{\phi^a_{,\mu}} + v^a_{\mu_1 \mu_2} \partial_{\phi^a_{\mu_1 \mu_2}} + \cdots
 $$
 
 =--
 
-> mention [[evolutionary vector fields]]
+The concept of variation in def. \ref{Variation} is very general, in that it allows to vary the 
+field coordinates independently from the corresponding jets. This generality is necessary for
+discussion of symmetries of [[presymplectic currents]] in def. \ref{HamiltonianForms} below,
+but for discussion of symmetries of [[Lagrangian densities]] we are interested in 
+explicitly varying just the field coordinates (def. \ref{EvolutionaryVectorField} below)
+and inducing from this the corresponding variations of the field derivatives (prop. \ref{EvolutionaryVectorFieldProlongation}) below. 
+
+
++-- {: .num_defn #EvolutionaryVectorField}
+###### Definition
+**([[evolutionary vector fields]] and [[antifields]])**
+
+Let $E \overset{fb}{\to} \Sigma$ be a [[fiber bundle]]. Then an [[evolutionary vector field]] $v$ is a smooth [[bundle]] [[homomorphism]]
+of the form
+
+$$
+  \array{
+    J^\infty_\Sigma(E)
+    && \overset{v}{\longrightarrow} &&
+    V_\Sigma E
+    \\
+    & {}_{\mathllap{jb_{\infty,0}}}\searrow && \swarrow_{\mathllap{}}
+    \\
+    && E
+  }
+$$
+
+where $V_\Sigma E \overset{}{\to} \Sigma$ is the [[vertical vector bundle]] of $E \overset{fb}{\to} \Sigma$.
+
+We write
+
+$$
+  \Gamma_\Sigma^{ev}(T J^\infty_\Sigma(E))
+  \;\in\;
+  \Omega^{0,0}_\Sigma(E) Mod^{\mathbb{Z}}
+$$
+
+for the space of evolutionary vector fields,
+regarded as a [[graded module]] over the $\mathbb{R}$-[[associative algebra|algebra]]
+
+$$
+  \Omega^{0,0}_\Sigma(E)
+  \;=\;
+  C^\infty\left( J^\infty_\Sigma(E) \right)
+$$
+
+of [[smooth functions]] on the [[jet bundle]].
+
+For the construction of the [[BV-BRST complex]] in the following, we will want to
+assign a _degree_ to evolutionary vector field, namely degree -1.
+The above module regarded as a [[graded module]] concentrated all in degree -1
+is denoted by
+
+$$
+  \Gamma_\Sigma^{ev}(T J^\infty_\Sigma(E))[-1]
+  \;\in\;
+  \Omega^{0,0}_\Sigma(E) Mod^{\mathbb{Z}}
+  \,.
+$$
+
+
+In the special case that $E \overset{fb}{\to} \Sigma$ is a [[trivial vector bundle]]
+with [[field (physics)|field]] [[coordinates]] $(\phi^a)_{a = 1}^s$ as in example \ref{TrivialVectorBundleAsAFieldBundle}, then
+we write
+
+$$
+  \overline \phi_a \;\coloneqq\; \partial_{\phi^a}[-1]
+$$
+
+for the induced basis elements of the space of those  [[vector fields]] on the [[jet bundle]] (def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) which are dual to the field coordinates,
+but regarded in degree -1. These then provide a [[linear basis]] for the space of evolutionary vector fields
+in that the canonical linear map is an [[isomorphism]] of [[graded modules]]:
+
+$$
+  \label{AntifieldCoordinates}
+  \Omega^{0,0}_\Sigma(E)
+  \langle
+     \overline{\phi}_a
+  \rangle
+    \overset{\simeq}{\longrightarrow}
+  \Gamma_\Sigma^{ev}(V_\Sigma(E))[-1]
+  \,.
+$$
+
+These generators $\overline{\phi}_a$ in degree -1 are called the _[[antifield]] coordinates_
+corresponding to the [[field (physics)|field]] coordinates $\phi^a$.
+
+=--
+
+An [[evolutionary vector field]] (def. \ref{EvolutionaryVectorField}) describes
+an infinitesimal change of field values _depending_ on, possibly, the point in spacetime and the values of the field
+and all its derivatives (locally to finite order).
+This induces a corresponding infinitesimal change of the derivatives of the fields, called the _prolongation_
+of the evolutionary vector field.
+
+
++-- {: .num_prop #EvolutionaryVectorFieldProlongation}
+###### Proposition
+**(prolongation of [[evolutionary vector field]])**
+
+Let $E \overset{fb}{\to} \Sigma$ be a [[fiber bundle]].
+
+Given an [[evolutionary vector field]] $v$ on $E$ (def. \ref{EvolutionaryVectorField})
+there is a unique vector field $\hat v$ on the jet bundle $J^\infty_\Sigma(E)$ such that
+
+1. $jb_{\infty,0}_\ast(\hat v) = v$
+
+1. $\iota_{\hat v} \circ d + d \circ \iota_{\hat v} = 0$.
+
+In particular
+
+$$
+ \label{HomotopyFormulaForLieDerivativeAlongProlongationOfEvolutionaryVectorField}
+  \mathcal{L}_{\hat v} = \delta \circ \iota_{\hat v} + \iota_{\hat v} \circ \delta
+$$
+
+In the special case that the fiber bundle is a [[trivial vector bundle]] over [[Minkowski spacetime]] (example \ref{TrivialVectorBundleAsAFieldBundle}) with [[field (physics)|field]] coordinates $\phi^a$, so that
+$v$ has the expansion
+
+$$
+  v = v^a \partial_{\phi^a}
+$$
+
+then $\hat v$ is given by
+
+$$
+  \hat v = \underoverset{n = 0}{\infty}{\sum} \frac{d^n v^a}{ d x^{\mu_1} \cdots d x^{\mu_n} } \partial_{\phi^a_{\mu_1 \cdots \mu_n}}
+  \,.
+$$
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+It is sufficient to prove the coordinate version of the statement.
+We prove this by [[induction]] over the maximal jet order $k$. Notice that the coefficient of $\partial_{\phi^a_{\mu_1 \cdots \mu_k}}$
+in $\hat v$ is given by the contraction $\iota_{\hat v} \delta \phi^a_{\mu_1 \cdots \mu_k}$.
+
+Similarly (at "$k = -1$") the component of $\partial_{\mu_1}$ is given by $\iota_{\hat v} d x^{\mu}$. But by the second condition
+above this vanishes:
+
+$$
+  \begin{aligned}
+    \iota_{\hat v} d x^\mu
+    & =
+    d \iota_{\hat v} x^\mu
+    \\
+    & =
+    0
+  \end{aligned}
+$$
+
+Moreover, the coefficient of $\partial_{\phi^a}$ in $\hat v$ is fixed by the first condition above to be
+
+$$
+  \iota_{\hat v} \delta \phi^a
+  =
+  v^a
+  \,.
+$$
+
+This shows the statement for $k = 0$. Now assume that the statement is true up to some $k \in \mathbb{N}$.
+Observe that the coefficients of all $\partial_{\phi^a_{\mu_1 \cdots \mu_{k+1}}}$ are fixed by the
+contractions with $\delta \phi^a_{\mu_1 \cdots \mu_{k} \mu_{k+1}} \wedge d x^{\mu_{k+1}}$. For this we find again from the second
+condition and using $\delta \circ d + d \circ \delta = 0$ as well as the induction assumption that
+
+$$
+  \begin{aligned}
+    \iota_{\hat v} \delta \phi^a_{\mu_1 \cdots \mu_{k+1}} \wedge d x^{\mu_{k+1}}
+    & =
+    \iota_{\hat v}  \delta d \phi^a_{\mu_1 \cdots \mu_k}
+    \\
+    & =
+    d \iota_{\hat v} \delta \phi^a_{\mu_1 \cdots \mu_k}
+    \\
+    &
+    = d \frac{d^k v^a}{d x^{\mu_1} \cdots d x^{\mu_k}}
+    \\
+    & =
+    \frac{d^{k+1}v^a }{d x^{\mu_1} \cdots d x^{\mu_{k+1}}} d x^{\mu_{k+1}}
+    \,.
+  \end{aligned}
+$$
+
+This shows that $\hat v$ satisfying the two conditions given exists uniquely. Finally
+the formula for the [[Lie derivative]] follows from the second of the two conditions with [[Cartan's homotopy formula]]
+$\mathcal{L}_{\hat v} = \mathbf{d} \circ \iota_{\hat v} + \iota_{\hat v} \circ \mathbf{d}$
+together with $\mathbf{d} = \delta + d$ (eq:VariationalDerivative).
+
+=--
+
+
++-- {: .num_defn #FlowOfFieldHistoriesAlongEvolutionaryVectorField}
+###### Definition
+**([[flow]] of [[field (physics)|field]] histories along [[evolutionary vector field]])
+
+Let $E \overset{fb}{\to} \Sigma$ be a [[field bundle]] (def. \ref{Fields})
+and let $v$ be an [[evolutionary vector field]] (def. \ref{EvolutionaryVectorField}).
+
+For $\Phi \in \Gamma_\Sigma(E)$ a [[field (physics)|field]] history,
+hence a point in the [[space of field histories]] (eq:SpaceOfFieldHistories), the _[[flow]]_ of $v$
+through $\Phi$ is the [[smooth function]]
+
+$$
+  \mathbb{R}^1
+   \overset{\exp(v)(\Phi)}{\longrightarrow}
+  \Gamma_\Sigma(E)
+$$
+
+whose unique factorization $\widehat{\exp(v)}(\Phi)$ through the space of jets of field histories
+
+$$
+  \array{
+    && im(j^\infty_\Sigma) &\hookrightarrow& \Gamma_\Sigma(J^\infty_\Sigma(E))
+    \\
+    & {}^{\mathllap{\widehat{\exp(v)}(\Phi)}} \nearrow& \downarrow^{\mathrlap{\simeq}}
+    \\
+    \mathbb{R}^1
+      &\underset{ \exp(v)(\Phi) }{\longrightarrow}&
+    \Gamma_{\Sigma}(E)_{}
+  }
+$$
+
+takes a plot $t_{(-)} \colon U \to \mathbb{R}^1$ of the [[real line]], regarded as a [[smooth space]], to the plot
+
+$$
+  \label{LocalDataForFlowOfImplicitInfinitesimalGaugeSymmetry}
+  (\exp(t(-) \epsilon) \circ j^\infty_\Sigma(\Phi(-))  \colon U \times \Sigma \to J^\infty_\Sigma(E) )
+$$
+
+of the [[smooth space|smooth]] [[space of sections]] of the [[jet bundle]], where
+on the left
+
+$$
+  \exp(t(u) \epsilon)
+  \;\colon\; J^\infty_\Sigma(E) \longrightarrow J^\infty_\sigma(E)
+$$
+
+is the ordinary [[flow]] of parameter length $t(u)$ along the [[vector field]] $\epsilon$ on the jet bundle.
+
+(That $\exp(t(-) \hat \epsilon)$ indeed flows jet prolongations $j^\infty_\Sigma(\Phi(-))$ again to jet prolongations
+is due to its defining relation to the [[evolutionary vector field]] $\epsilon$ from prop. \ref{EvolutionaryVectorFieldProlongation}.)
+
+=--
+
+
 
 +-- {: .num_defn #SymmetriesAndConservedCurrents}
 ###### Definition
@@ -1654,7 +1905,9 @@ $$
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}).
 
 
-1. an _[[infinitesimal symmetry of the Lagrangian]]_ is a variation $v$ (def. \ref{Variation}) such that the [[Lie derivative]] $\mathcal{L}_v$ of the Lagrangian density is a [[total derivative|total spacetime derivative]]
+1. an _[[infinitesimal symmetry of the Lagrangian]]_ is a variation $v$ (def. \ref{Variation}) 
+   which arises as the prolongation (prop. \ref{EvolutionaryVectorFieldProlongation})
+   of  an [[evolutionary vector field]] (def. \ref{EvolutionaryVectorField}) such that the [[Lie derivative]] $\mathcal{L}_v$ of the Lagrangian density along $v$ is a [[total derivative|total spacetime derivative]]
 
    $$
      \mathcal{L}_v \mathbf{L} = d \tilde J
@@ -2897,7 +3150,7 @@ $$
   \right)
   \;\Leftrightarrow\;
   \left(
-    j^\infty_\Sigma(\Phi)^\ast ( \delta_{EL} \mathbf{L} ) = 0
+    j^\infty_\Sigma(\Phi(-))^\ast ( \delta_{EL} \mathbf{L} ) = 0
   \right)
   \,.
 $$
@@ -2918,16 +3171,17 @@ $$
   \;\Leftrightarrow\;
   \left(
     \int_\Sigma
-      j^\infty_\Sigma(\Phi)^\ast (  \delta_{EL} \mathbf{L} )(x) \, b(x) dvol_\Sigma(x)
+      j^\infty_\Sigma(\Phi(-))^\ast (  \delta_{EL} \mathbf{L} )(x) \, b(x) dvol_\Sigma(x)
     \;=\;
     0
   \right)
   \,.
 $$
 
-But if the right hand side holds for all $b$, then the claim follows by standard arguments:
-Suppose $j^\infty_\Sigma(\Phi)^\ast (  \delta_{EL} \mathbf{L} )$ does not vanish at some $x \in \Sigma$,
-then by continuity it is non-vanishing also on some [[neighbourhood]] of $x$ and hence its integral
+But if the right hand side holds for all $b$, then $(j^\infty_\Sigma(\Phi(-)))^\ast (\delta_{EL}\mathbf{L}) = 0$.
+Because suppose that $j^\infty_\Sigma(\Phi)^\ast (  \delta_{EL} \mathbf{L} )$ does not vanish at some $x \in \Sigma$,
+then by continuity it is non-vanishing also on some [[neighbourhood]] of $x$ and hence the integral
+of any one of its components
 against a non-negative or non-positive bump function $b$ supported inside this neighbourhood is non-vanishing. 
 
 
@@ -3890,7 +4144,643 @@ $$
 
 $\,$
 
-## Quantum
+
+## Gauge symmetries
+
+
++-- {: .num_defn #ImplicitInfinitesimalGaugeSymmetry}
+###### Definition
+**(implicit [[infinitesimal gauge symmetry]])**
+
+Given a [[Lagrangian field theory]] $(E, \mathbf{L})$ (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}),
+then an _implicit [[infinitesimal gauge symmetry]]_ is an [[evolutionary vector field]] (def. \ref{EvolutionaryVectorField})
+$\epsilon \in \Gamma_\Sigma^{ev}(V_\Sigma E)$
+on which the [[Euler-Lagrange variational derivative]] (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime})
+vanishes:
+
+$$
+  \iota_\epsilon \delta_{EL}\mathbf{L} = 0
+  \,.
+$$
+
+Equivalently this means that it vanishes on the prolongation $\hat \epsilon$ (prop. \ref{EvolutionaryVectorFieldProlongation})
+
+$$
+  \label{ConditionOnProlongationOfImplicitInfinitesimalGaugeSymmetry}
+  \iota_{\hat \epsilon} \delta_{EL}\mathbf{L} = 0
+$$
+
+(since $\delta_{EL}\mathbf{L} \in \Omega^{p+1,0}_\Sigma(E) \wedge \delta \Omega^{0,0}_\Sigma(E)$ is a [[source form]]
+and by the first clause in prop. \ref{EvolutionaryVectorFieldProlongation}).
+
+
+In the special case that the [[field bundle]] $E \overset{fb}{\to} \Sigma$ is a [[trivial vector bundle]]
+over [[Minkowski spacetime]] (example \ref{TrivialVectorBundleAsAFieldBundle})
+with [[field (physics)|field]] coordinates $(\phi^a)$ and $(\overline{\phi}_a)$
+and [[antifield]] coordinates $\overline{\phi}_a$ (eq:AntifieldCoordinates) an
+[[evolutionary vector field]] has an expansion of the form
+
+$$
+  \epsilon = R^a \partial_{\phi^a}
+$$
+
+where $(R^a \in \Omega^{0,0}_\Sigma(E))_{a = 1}^s$ are smooth functions on the jet bundle; and in terms
+of these coordinates the condition on $\epsilon$ to be a gauge symmetry is equivalent to the condition
+
+$$
+  R^a \frac{\delta_{EL} L}{ \delta \phi^a} = 0 \phantom{AAA} \in \Omega^{0,0}_\Sigma(E)
+  \,.
+$$
+
+=--
+
+(compare to [Hennaux-Teitelboim 91 (3.6b)](#HennauxTeitelboim91))
+
+
+
+There always exist "trivial" implicit infinitesimal gauge transformations:
+
++-- {: .num_example #TrivialImplicialInfinitesimalGaugeTransformations}
+###### Example
+**(trivial implicit infinitesimal gauge symmetries)**
+
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}).
+
+Then every [[evolutionary vector field]] (def. \ref{EvolutionaryVectorField}) of the special form
+
+$$
+  \epsilon
+    \coloneqq
+  \frac{\delta_{EL} L }{\delta \phi^a} \kappa^{[a b]} \partial_{\phi^a}
+  \;\in\;
+  \Gamma_\Sigma^{ev}(V_\Sigma E)
+$$
+
+for a collection of smooth functions $(\kappa^{[a b]} \in \Omega^{0,0}_\Sigma(E))$ which is
+skew-symmetric in its indices ($\kappa^{[a b]} = - \kappa^{[b a]}$) is an
+implicit infinitesimal gauge symmetry (def. \ref{ImplicitInfinitesimalGaugeSymmetry}).
+
+This is so for a "trivial reason" namely just that skew symmetry:
+
+$$
+  \iota_\epsilon \delta_{EL} \mathbf{L}
+  =
+  \underset{= 0}{
+  \underbrace{
+   \left( \frac{\delta_{EL} L }{\delta \phi^a} \right)
+   \left( \frac{\delta_{EL} L }{\delta \phi^b} \right)
+   \kappa^{[a b]}
+  }
+  }
+  \,
+  dvol_\Sigma
+$$
+
+Moreover this means of course that $\epsilon$ vanishes [[on-shell]] (def. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime})
+and therefore these $\epsilon$ are called the _trivial_ implicit infinitesimal gauge symmetries.
+
+=--
+
+As the name suggests, infinitesimal gauge symmetries of a Lagrangian field theory
+are particular [[infinitesimal symmetries of the Lagrangian]]:
+
++-- {: .num_prop #InfinitesimalGaugeSymmetriesAreInfinitesimalSymmetriesOfTheLagrangian}
+###### Proposition
+**(implicit [[infinitesimal gauge symmetries]] are [[infinitesimal symmetries of the Lagrangian]])**
+
+Let $(E, \mathbf{L})$ be [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
+
+There is a [[natural bijection]]
+between the implicit [[infinitesimal gauge symmetries]] $\epsilon$ (def. \ref{ImplicitInfinitesimalGaugeSymmetry})
+and those [[infinitesimal symmetries of the Lagrangian]] (def. \ref{SymmetriesAndConservedCurrents})
+whose [[conserved currents]] associated via [[Noether's theorem]] (prop. \ref{NoethersFirstTheorem}) vanish identically,
+given by sending the [[evolutionary vector field]] $\epsilon$ to its prolongation $\hat \epsilon$ (prop. \ref{EvolutionaryVectorFieldProlongation}):
+
+$$
+  \array{
+    \left\{
+      \text{implicit infinitesimal}
+       \atop
+      \text{gauge symmetries}
+    \right\}
+      &\overset{\simeq}{\longrightarrow}&
+    \left\{
+      \text{infinitesimal Lagrangian symmetries}
+       \atop
+      \text{with vanishing Noether current}
+    \right\}
+    \\
+    \epsilon &\mapsto& \hat \epsilon
+  }
+$$
+
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+
+
+Using $\delta \mathbf{L} = \delta_{EL} \mathbf{L} + d \Theta$
+(prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}) and the defining property
+$\iota_\epsilon \delta_{EL}\mathbf{L} = 0$ (def. \ref{ImplicitInfinitesimalGaugeSymmetry})
+together with the characteristic condition $\iota_{\hat \epsilon} \circ d = - d \circ \iota_{\hat \epsilon}$)
+(prop. \ref{EvolutionaryVectorFieldProlongation})
+we have:
+
+$$
+  \begin{aligned}
+    \iota_{\hat \epsilon} \delta \mathbf{L}
+      & =
+    \iota_{\hat \epsilon}
+    \left(
+      \delta_{EL} \mathbf{L}
+       -
+      d \Theta
+    \right)
+    \\
+    & =
+    \underset{
+      = 0
+    }{
+    \underbrace{
+      \iota_{\hat \epsilon} \delta_{EL}\mathbf{L}
+    }
+    }
+    -
+    \underset{ = - d \iota_{\hat \epsilon} \Theta}{
+    \underbrace{
+      \iota_\epsilon d \Theta
+    }
+    }
+    \\
+    & =
+    d \underset{ = \tilde J_\epsilon }{\underbrace{ \iota_{\hat \epsilon} \Theta }}
+  \end{aligned}
+$$
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+In the literature
+the "implicit" infinitesimal gauge symmetries of def. \ref{ImplicitInfinitesimalGaugeSymmetry}
+are usually just called "infinitesimal gauge symmetries", or even just "gauge symmetries", for short
+(e.g. [Hennaux-Teitelboim 91 (3.6b)](#HennauxTeitelboim91)).
+We do say "implicit" here to distinguish them from their "explicit" incarnations
+[[action Lie algebroid|acting]] on [[field (physics)|fields]]:
+the morphisms in the [[action Lie algebroid]] whose [[Chevalley-Eilenberg algebra]]
+is the _[[BRST complex]]_ (below...).
+
+Since the point of quantization of [[gauge field theory]] via [[causal perturbation theory]]
+is that it does _not apply_ as long as there are non-trivial implicit infinitesimal gauge symmetries
+present, but only applies once all implicit infinitesimal
+gauge symmetries have been made explicit (by the [[BV-BRST complex]]) the distinction is important.
+
+=--
+
+
++-- {: .num_prop #FlowAlongImplicitInfinitesimalGaugeSymmetryPreservesOnShellSpaceofFieldHistories}
+###### Proposition
+**([[flow]] along implicit [[infinitesimal gauge symmetry]] preserves [[on-shell]] [[space of field histories]])**
+
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}).
+
+For $\epsilon$ an implicit [[infinitesimal gauge symmetry]] (def. \ref{InfinitesimalGaugeSymmetriesAreInfinitesimalSymmetriesOfTheLagrangian})
+the [[flow]] on the [[space of field histories]] that it induces by def. \ref{FlowOfFieldHistoriesAlongEvolutionaryVectorField}
+preserves the space of [[on-shell]] field histories (from prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}):
+
+$$
+  \array{
+    \Gamma_\Sigma(E)_{\delta_{EL}\mathbf{L} = 0}
+      &\hookrightarrow&
+    \Gamma_\Sigma(E)
+    \\
+    {}^{\mathllap{\exp(\hat \epsilon)\vert_{\delta_{EL}\mathbf{L} = 0}  }}
+    \uparrow
+      &&
+    \uparrow^{\mathrlap{\exp(\hat \epsilon)}}
+    \\
+    \Gamma_\Sigma(E)_{\delta_{EL}\mathbf{L} = 0}
+      &\hookrightarrow&
+    \Gamma_\Sigma(E)
+  }
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime} a field history
+$\Phi$ is [[on-shell]] precisely if
+
+$$
+  j^\infty_\Sigma(\Phi(-))^\ast(\delta_{EL}\mathbf{L}) = 0
+$$
+
+and by prop. \ref{PrincipleOfExtremalAction} this is the case precisely if for
+all [[bump functions]] $b \in C^\infty_{cp}(\Sigma)$ the [[integration of differential forms|integral]]
+against $b dvol_\Sigma$ vanishes
+
+$$
+  \int_\Sigma j^\infty_\Sigma(\Phi(-))^\ast(\delta_{EL}\mathbf{L}) \, b dvol_\Sigma
+  \;=\;
+  0
+  \,.
+$$
+
+
+Hence we need to show that this holds true also for all values $t$ of the flow parameter
+if it holds at $t = 0$, hence that the above implies for  all bump functions $b$ that
+
+$$
+  \begin{aligned}
+    \int_\Sigma
+    \left(
+      \exp(t \hat \epsilon)
+        \circ
+      j^\infty_\Sigma(\Phi(-))
+    \right)^\ast (\delta_{EL}\mathbf{L})
+    \, b dvol_\Sigma
+    & =
+    \int_\Sigma
+      (j^\infty_\Sigma(\Phi(-)))^\ast
+      \exp(t \hat \epsilon)^\ast
+      (\delta_{EL}\mathbf{L})
+      \,
+      b dvol_\Sigma
+    \\
+    & =
+    0
+  \end{aligned}
+$$
+
+for all $t \in \mathbb{R}^1$. But since we know it holds true at one point $t = 0$,
+it is in fact sufficient to show that the [[derivative]] of this smooth family of
+differential forms with respect to $t$ vanishes at all $t$. This argument in turn is
+the same at $t = 0$ as at any other value, so we consider the derivative at $t = 0$.
+
+Now by definition of [[Lie derivative]], the derivative of the above expression with respect to $t$ at $t = 0$ is given
+by the Lie derivative $\mathcal{L}_{\hat \epsilon}$ via
+
+$$
+  \array{
+    \frac{d}{d t }
+    \int_\Sigma
+    \left(
+        (j^\infty_\Sigma(\Phi(-)))^\ast
+        \exp(t \hat \epsilon)^\ast
+        (\delta_{EL}\mathbf{L})
+    \right)
+    \, b dvol_\Sigma
+    \vert_{t = 0}
+    & =
+    \int_\Sigma
+    (j^\infty_\Sigma(\Phi(-)))^\ast
+    \underset{= d \iota_{\hat \epsilon}  \Omega }{
+    \underbrace{
+     \mathcal{L}_{\hat \epsilon}
+     \delta_{EL}\mathbf{L}
+     }}
+     \,
+     b dvol_\Sigma
+  }
+  \,.
+$$
+
+We compute that the Lie derivative has the value indicated under the braces as follows:
+
+$$
+  \begin{aligned}
+     \mathcal{L}_{\hat \epsilon} \delta_{EL}\mathbf{L}
+     & =
+     \iota_{\hat \epsilon} \delta \delta_{EL} \mathbf{L} + \delta \underset{= 0}{\underbrace{\iota_{\hat \epsilon} \delta_{EL}\mathbf{L}}}
+     \\
+     & =
+     \iota_{\hat \epsilon} \delta \delta_{EL} \mathbf{L}
+     \\
+     & =
+     -\iota_{\hat \epsilon} d \Omega
+     \\
+     & =
+     d \iota_{\hat \epsilon} \Omega
+  \end{aligned}
+$$
+
+Here we first used [[Cartan's homotopy formula]] for evolutionary vector fields (eq:HomotopyFormulaForLieDerivativeAlongProlongationOfEvolutionaryVectorField),
+then the defining condition for implicit infinitesimal gauge symmetries (eq:ConditionOnProlongationOfImplicitInfinitesimalGaugeSymmetry),
+then the conserved current property of the presymplectic current (prop. \ref{HorizontalDerivativeOfPresymplecticCurrentVanishesOnShell})
+and finally the defining verticality condition of prolongations of evolutionary vector fields (prop. \ref{EvolutionaryVectorFieldProlongation}).
+
+Hence continuing the computation of the derivative above we have
+
+$$
+  \begin{aligned}
+    \frac{d}{d t }
+    \int_\Sigma
+    \left(
+        (j^\infty_\Sigma(\Phi(-)))^\ast
+        \exp(t \hat \epsilon)^\ast
+        (\delta_{EL}\mathbf{L})
+    \right)
+    \, b dvol_\Sigma
+    \vert_{t = 0}
+    & =
+    -
+    \int_\Sigma
+    (j^\infty_\Sigma(\Phi(-)))^\ast
+    d \iota_{\hat \epsilon}  \Omega
+    \,
+    b dvol_\Sigma
+    \\
+    & =
+    - \int_\Sigma d j^\infty_\Sigma(\Phi(-))^\ast \iota_{\hat \epsilon}\Omega \, b dvol_\Sigma
+    \\
+    & = 0
+  \end{aligned}
+$$
+
+by prop. \ref{PullbackAlongJetProlongationIntertwinesHorizontalDerivative}.
+
+
+=--
+
+
++-- {: .num_example #NonTrivialImplicitInfinitesimalGaugeSymmetriesPbstructExistenceOfCauchySurfaces}
+###### Proposition
+**(non-trivial implicit [[infinitesimal gauge symmetries]] [[obstruction|obstruct]] existence of [[Cauchy surfaces]])
+
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]].
+
+If there exists a single an implicit infinitesimal gauge transformation $\epsilon$ (def. \ref{ImplicitInfinitesimalGaugeSymmetry})
+that does not vanish [[on-shell]] (not a trivial one, example \ref{TrivialImplicialInfinitesimalGaugeTransformations})
+then there does not exist any [[Cauchy surface]] (def. \ref{CauchySurface}) for the [[Euler-Lagrange equations|Euler-Lagrange]] [[equations of motion]] (def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime}).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+If $\hat \epsilon$ is (the prolongation of) an implicit infinitesimal gauge transformation, then so is
+$f \hat \epsilon$ for $f \in \Omega^{0,0}_\Sigma(E)$ any smooth function on the jet bundle.
+In particular $f$ may depend arbitrarily on spacetime.
+If $\hat \epsilon$ does not vanish on shell, then $f \hat \epsilon$ does neither, unless $f = 0$.
+
+By prop. \ref{FlowAlongImplicitInfinitesimalGaugeSymmetryPreservesOnShellSpaceofFieldHistories}
+the flow along $f \hat \epsilon$ preserves the on-shell space of field histories.
+
+But if $\hat \epsilon$ is non-trivial, in that it does not vanish on-shell, and if $f$ is non-vanishing
+then the flow along $f \epsilon$ changes a solution at arbitrary spacetime
+points, while keeping it a solution. In particular if we choose a would-be Cauchy surface, and
+consider $f$ with spacetime support away from that surface, then every solution restricted to
+an infinitesimal neighbourhood of the Cauchy surface has infinitely many extension to solutions
+on all of spacetime: with any one such extension also the flow along $f \epsilon$ of that solution
+is a solution, with the same initial Cauchy data.
+
+=--
+
+
+There is a useful equivalent reformulation of this obstruction in terms of [[homological algebra]]:
+
+
+
++-- {: .num_defn #BVComplexOfOrdinaryLagrangianDensity}
+###### Definition
+**([[BV-complex]] of ordinary [[Lagrangian density]])**
+
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}).
+
+Evaluation of [[evolutionary vector fields]] (def. \ref{EvolutionaryVectorField}) in the [[Euler-Lagrange variational derivative]] $\delta_{EL} \mathbf{L} \in \Omega^{p,0}_\Sigma(E) \wedge \delta \Omega^{0,0}_\Sigma(E)$ (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}) yields a $\Omega^{0,0}_\Sigma(E)$-[[linear map]]
+(of degree +1 if we consider the evolutionary vector fields in degree -1)
+
+$$
+  \iota_{\delta_{EL}\mathbf{L}}
+  \;\colon\;
+  \Gamma_\Sigma^{ev}(V_\Sigma E)[-1]
+    \longrightarrow
+  \Omega^{p+1,0}_\Sigma(E)
+  \,.
+$$
+
+If we use the [[volume form]] $dvol_\Sigma$ on [[spacetime]] $\Sigma$ to induce an identification
+
+$$
+  \Omega^{p+1,0}_\Sigma(E) \;\simeq\; C^\infty(J^\infty_\Sigma(E))\langle dvol_\sigma\rangle
+$$
+
+with respect to which the [[Lagrangian density]] decomposes as
+
+$$
+  \mathbf{L} = L dvol_\Sigma
+$$
+
+then this is a $\Omega^{0,0}_\sigma(E)$-[[linear map]] of the form
+
+$$
+  \iota_{\delta_{EL} L}
+  \;\colon\;
+  \Gamma_\Sigma^{ev}(V_\Sigma E)[-1]
+    \longrightarrow
+  \Omega^{0,0}_\Sigma(E)
+  \,.
+$$
+
+In the special case that the [[field bundle]] $E \overset{fb}{\to} \Sigma$ is a [[trivial vector bundle]]
+(example \ref{TrivialVectorBundleAsAFieldBundle}) with [[field (physics)|field]] coordinates $(\phi^a)$
+so that the Euler-Lagrange variational derivative has the coordinate expansion
+
+$$
+  \delta_{EL}L
+  \;=\;
+  \frac{\delta_{EL} L}{\delta \phi^a} \delta \phi^a
+$$
+
+then this map is given on the [[antifield]] basis elements (eq:AntifieldCoordinates) by
+
+$$
+  \iota_{\delta_{EL}L}
+  \;\colon\;
+  \overline{\phi}_a
+  \;\mapsto\;
+  \frac{\delta_{EL} L}{\delta \phi^a}
+  \,.
+$$
+
+Consider then the [[symmetric algebra|graded symmetric algebra]]
+
+$$
+  Sym_{\Omega^{0,0}_\Sigma(E)}\left(
+    \Gamma_\Sigma^{ev}(V_\Sigma E)[-1]
+  \right)
+$$
+
+which is generated over $\Omega^{0,0}_\Sigma(E)$ from the [[evolutionary vector fields]] in degree -1, and let
+
+$$
+  \delta_{BV}
+  \;\colon\;
+    Sym_{\Omega^{0,0}_\Sigma(E)}\left(
+    \Gamma_\Sigma^{ev}(V_\Sigma E)[-1]
+  \right)
+  \;\longrightarrow\;
+  Sym_{\Omega^{0,0}_\Sigma(E)}\left(
+    \Gamma_\Sigma^{ev}(V_\Sigma E)[-1]
+  \right)
+$$
+
+be the unique extension of the linear map $\iota_{\delta_{EL}L}$ to an $\mathbb{R}$-linear [[derivation]] of degree +1 on this algebra.
+
+The resulting [[differential graded-commutative algebra]] over $\matbb{R}$
+
+$$
+  LocObs_{BV}
+    \;\coloneqq\;
+  \left(
+    Sym_{\Omega^{0,0}_\Sigma(E)}\left(
+      \Gamma_\Sigma^{ev}(V_\Sigma E)[-1]
+    \right)
+    \,,\,
+    \delta_{BV}
+  \right)
+$$
+
+is called the _[[BV-complex]]_ of the Lagrangian field theory.
+
+(More generally this is called the _[[Tate complex]]_ of $\iota_{\delta_{EL}\mathbf{L}}$.)
+
+There is a canonical homomorphism of [[dgc-algebras]]
+
+$$
+  \label{ComparisonMorphismFromOrdinaryBVComplexToLocalObservables}
+  LocObs_{BV} \longrightarrow LocObs \coloneqq \Omega^{0,0}_\Sigma(\mathcal{E}) \wedge dvol_\Sigma
+  \,.
+$$
+
+
+=--
+
+
++-- {: .num_prop #BVComplexIsHomologicalResolutionPreciselyIfNoNonTrivialImplicitGaugeSymmetres}
+###### Proposition
+**([[BV-complex]] is [[homological resolution]] of the [[shell]] precisely if there are no non-trivial implicit [[infinitesimal gauge symmetries]])**
+
+Let $(E, \mathbf{L})$ be a [[Lagrangian field theory]].
+
+Then it has no implicit infinitesimal gauge symmetry (def. \ref{ImplicitInfinitesimalGaugeSymmetry})
+wich is non-trivial (example \ref{TrivialImplicialInfinitesimalGaugeTransformations})
+precisely if the [[BV-complex]] (def. \ref{BVComplexOfOrdinaryLagrangianDensity})
+via the canonical comparison map (eq:ComparisonMorphismFromOrdinaryBVComplexToLocalObservables) is
+a [[homological resolution]] of the on-shell local observables.
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+
+The [[cochain cohomology]] of the [[BV-complex]] has the following interpretation:
+
+* in degree 0:
+
+  $$
+    im( \Gamma_\Sigma^{ev}(V_\Sigma(E)) \overset{\delta_{BV}}{\to} \Omega^{0,0}_\Sigma(E))
+  $$
+
+  is functions on the [[shell]].
+
+* in degree -1:
+
+  $$
+    ker( \Gamma_\Sigma^{ev}(V_\Sigma(E)) \overset{\delta_{BV}}{\to} \Omega^{0,0}_\Sigma(E))
+  $$
+
+  is the implicit [[infinitesimal gauge symmetries]] (def. \ref{ImplicitInfinitesimalGaugeSymmetry})
+
+  and
+
+  $$
+    im(
+      \Gamma_{\Sigma}^{ev}(V_\Sigma E) \wedge_{\Omega^{0,0}_\Sigma(E)} \Gamma_\Sigma^{ev}(V_\Sigma E)
+        \overset{\delta_{BV}}{\longrightarrow}
+      \Gamma_{\Sigma}^{ev}(V_\Sigma E)
+    )
+  $$
+
+  is the trivial implicit infinitesimal gauge transformations (example \ref{TrivialImplicialInfinitesimalGaugeTransformations}).
+
+Hence absence of non-trivial implicit infinitesimal gauge transformations means equivalently that
+
+$$
+  H^{-1}(LocObs_{BV}) = 0
+  \,.
+$$
+
+Hence we are now reduced to showing that this in fact implies that
+
+$$
+  H^{\leq -1}(LocObs_{BV}) = 0
+  \,.
+$$
+
+If the cochain cohomology vanishes in degree -1, this means we have a [[short exact sequence]]
+as shown on the left here:
+
+$$
+  \array{
+  \Omega^{0,0}_\Sigma(E) &=& LocObs_{BV}^0
+  \\
+  \uparrow && \uparrow^{\mathrlap{\delta_{BV}}}
+  \\
+  EvVectFields &=& LocObs_{BV}^{-1}
+  \\
+  \uparrow && \uparrow^{\mathrlap{\delta_{BV}}}
+  \\
+  TrivSymmetries & \hookrightarrow & LocObs_{BV}^{-2}
+  }
+$$
+
+Since this is linear over the [[field]] $\mathbb{R}$, this
+is a [[split exact sequence]] with splitting map of the form
+
+$$
+  h \;\colon\; LocObs_{BV}^{-1} \longrightarrow LocObs_{BV}^{-2}
+$$
+
+There is a unique extension of $h$ to a [[derivation]] $der_h$ of degree -1 on $LocObs_{BV}$.
+This is then a [[homotopy operator]] that exhibits the required [[chain homotopy]].
+
+
+=--
+
+
+Quantization via [[causal perturbation theory]] of [[Wick algebras]] for [[free fields]]
+as indicated [below](#QuantumObservables) exists only if the
+equations of motion of the free field do admit Cauchy surfaces (are [[normally hyperbolic differential operators]]).
+In view of this prop. \ref{NonTrivialImplicitInfinitesimalGaugeSymmetriesPbstructExistenceOfCauchySurfaces} hence says that
+non-trivial implicit infinitesimal gauge symmetries of the Lagrangian are obstructions to the existence
+of perturbative quantization via the prescription of causal perturbation theory.
+
+However, prop. \ref{BVComplexIsHomologicalResolutionPreciselyIfNoNonTrivialImplicitGaugeSymmetres}
+suggests that there is an assumption on the definition of [[Lagrangian field theory]]
+that may be relaxed to evade this [[no-go theorem]]: This is the assumption that the [[field bundle]] is a
+plain smooth manifold, instead of a _[[higher differential geometry|higher]]_ field bundle given by an
+[[infinity-Lie algebroid]] ([[BRST complex]]).
+
+
+(...)
+
+
+
+
+
+$\,$
+
+## Quantization
  {#QuantumObservables}
 
 Given any [[space]] with [[infinitesimal symmetries]] acting on it, there is the corresponding [[homotopy quotient]]
@@ -4013,5 +4903,10 @@ $\,$
 * [[main theorem of perturbative renormalization]]
 
 ...
+
+## References
+
+* {#HennauxTeitelboim91} [[Marc Henneaux]], [[Claudio Teitelboim]], _Quantization of Gauge Systems_, Princeton University Press 1991
+
 
 [[!redirects A first idea of quantum field theory]]
