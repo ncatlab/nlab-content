@@ -32,7 +32,7 @@ For $C$ any [[category]], its **arrow category** $Arr(C)$ is the category such t
   in $C$;
 * [[composition]] in $Arr(C)$ is given simply by placing commutative squares side by side to get a commutative oblong.
 
-Up to [[equivalence of categories|equivalence]], this is the same as the [[functor category]]
+This is isomorphic to the [[functor category]]
 $$
   Arr(C) := Funct(I,C) = [I,C] = C^I
 $$
