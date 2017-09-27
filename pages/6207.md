@@ -41,7 +41,7 @@ Unpacking the well-known explicit construction of [[comma object|comma objects]]
   B             & \underset{q}{\to}         & D
 \end{matrix}
 \]
-you could view then morphisms from $f$ to $g$ as *factorizations* of $g$ through $f$: $g=qfp$.
+you could view then morphisms from $f$ to $g$ as *factorizations* of $g$ through $f$: $g = q f p$.
 
 From the description above, $Tw(C)$ is the same as $Arr(C)$ the [[arrow category]] of $C$, but with the direction of $p$ above in the definition of morphism *reversed*, hence the twist. 
 
@@ -55,7 +55,7 @@ If $C$ is a partially ordered set, then $Tw(C)$ is isomorphic to the set of none
 
 ## Properties
 
-* From its definition as a comma category, there's a functor (a [[discrete opfibration]], in fact) 
+* From its definition as a comma category, there is a functor (a [[discrete opfibration]], in fact) 
 \[ 
 \pi_C \colon Tw(C) \to C^{op} \times C 
 \] 
