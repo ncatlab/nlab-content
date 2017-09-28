@@ -1,3 +1,2 @@
-$f \odot g \circ h \bullet k$
-
+$\mathcal C$ $\mathcal{C}$
 jsjs
