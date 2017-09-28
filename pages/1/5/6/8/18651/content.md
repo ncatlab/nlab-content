@@ -35,7 +35,7 @@ A **pre-duploid** $\mathcal{D}$ consists of
 4. for every object $A$ an morphism $id_A \in \mathcal{D}(A,A)$ that is the identity with respect to composition.
 5. For every $f \in \mathcal{D}(A,B), g \in \mathcal{D}(B,C), h \in \mathcal{D}(C,D)$, an associative law $f \odot (g \odot h) = (f \odot g) \odot h$ when $B$ is negative or $C$ is positive.
 
-Note that when restricted to positive objects or negative objects, composition and identities form a category, written $\mathcal{P}$ and $\mathcal{N}$. When the polarity is known we write positive objects as $L,M,N$ and negative objects as $P,Q,R$. We also notate composition where the middle object is positive as $g \circ f$ and where the middle object is negative as $g \bullet f$.
+Note that when restricted to positive objects or negative objects, composition and identities form a category, written $\mathcal{P}$ and $\mathcal{N}$. When the polarity is known we write positive objects as $L,M,N$ and negative objects as $P,Q,R$. We call composition where the middle object is positive "positive composition" or "by-value composition" and notate it as $g \circ f$ and when the middle object is negative we call it "negative composition" or "by-name composition" and notate it as $g \bullet f$.
 Then the associativity laws can be restated as:
 
 1. $\bullet\bullet$: $f \bullet (g \bullet h)  = (f \bullet g) \bullet h$
@@ -58,6 +58,27 @@ such that
 2. $\forall f : N \to A, (f \circ \rho) \bullet \eta = f$
 3. $\theta \bullet \epsilon = id_{\Uparrow P}$
 4. $\eta \circ \rho = id_{\Downarrow N}$
+
+## Linear and Thunkable Morphisms
+
+Just as thunkable morphisms can be defined in a [[thunk-force category]] and linear morphisms can be defined in a category with a [[runnable monad]], they can be defined in a duploid in  a similar way using the thunk and run morphisms.
+However, thunkable and linear morphisms can also be defined in a _pre-duploid_, giving a simple characterization just in terms of associativity of composition.
+
+A morphism $f$ is **thunkable** if for all compatible $g,h$,
+$$h \odot (g \odot f) = (h \odot g) \odot f.$$
+and a morphism $f$ is **linear** if for all compatible $g,h$,
+$$f \odot (g \odot h) = (f \odot g) \odot h.$$
+
+Observe that all $f : P \to B$ are trivially linear and $g : A \to N$ are trivially thunkable. Further thunkable and linear morphisms form (non-full) subcategories $\mathcal{D}_t, \mathcal{D}_l$.
+
+To understand these concepts, consider the non-trivial situation where $f : A \to P$ is thunkable:
+$$h \bullet (g \circ f) = (h \bullet g) \circ f.$$
+on the left side, since we have a by-name composition, $h$ is "evaluated first", whereas on the right side we have a by-value composition, so $f$ is evaluated first.
+Thus these two morphisms being equal implies in many semantics $f$ cannot perform any [[side-effect]]. For instance if $f$ prints to the screen and so does $h$, then each composite will print in a different order. Furthermore, if $f$ can manipulate its [[continuation]] explicitly, it has to treat it linearly otherwise $h$ may be evaluated twice or not at all.
+
+In the dual, if $f : N \to B$ and $f$ is linear:
+$$f \odot (g \odot h) = (f \odot g) \odot h$$
+holds and similarly $f$ is evaluated first in the left morphism and $h$ is evaluated first in the right. Then as above it cannot perform any effects and has to treat its *input* linearly, as duplicating or dropping $h$ would make the equation fail to hold.
 
 ## Related Concepts
 
