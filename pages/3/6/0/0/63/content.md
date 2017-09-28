@@ -276,7 +276,7 @@ The idea of "ghost" fields was introduced in
 
 and expanded on in
 
-* Wheeler-Festschrift, Klauder (ed.): _Magic without Magic_ . (1972)
+* [[Richard Feynman]] in [[John Wheeler]], Klauder (eds.), _Magic without Magic_, Wheeler-Festschrift (1972)
 
 The BRST formalism originates around
 
@@ -295,9 +295,16 @@ Discussion with more emphasis on the applications to quantum field theory of int
 
 The [[perturbative quantum field theory|perturbative quantization]] of [[gauge theories]] ([[Yang-Mills theory]]) in [[causal perturbation theory]]/[[perturbative AQFT]] is discussed (for trivial [[principal bundles]] and restricted to [[gauge invariant observables]]) via [[BRST-complex]]/[[BV-formalism]] in
 
+* {#Hollands07} [[Stefan Hollands]], _Renormalized Quantum Yang-Mills Fields in Curved Spacetime_, Rev. Math. Phys.20:1033-1172, 2008 ([arXiv:0705.3340](https://arxiv.org/abs/0705.3340))
+
 * {#FredenhagenRejzner11a} [[Klaus Fredenhagen]], [[Kasia Rejzner]], _Batalin-Vilkovisky formalism in the functional approach to classical field theory_, Commun. Math. Phys. 314(1), 93&#8211;127 (2012) ([arXiv:1101.5112](https://arxiv.org/abs/1101.5112))
 
 * {#FredenhagenRejzner11b} [[Klaus Fredenhagen]], [[Kasia Rejzner]], _Batalin-Vilkovisky formalism in perturbative algebraic quantum field theory_, Commun. Math. Phys. 317(3), 697&#8211;725 (2012) ([arXiv:1110.5232](https://arxiv.org/abs/1110.5232))
+
+* {#Rejzner13} [[Katarzyna Rejzner]], _Remarks on local symmetry invariance in perturbative algebraic quantum field theory_ ([arXiv:1301.7037](https://arxiv.org/abs/1301.7037))
+
+* {#Rejzner13} [[Katarzyna Rejzner]], _Remarks on local symmetry invariance in perturbative algebraic quantum field theory_ ([arXiv:1301.7037](https://arxiv.org/abs/1301.7037))
+
 
 and surveyed in
 
