@@ -75,6 +75,10 @@ $$
 Which is in practice often satisfied for monads used in [[denotational semantics]].
 The definition of the category of morphism of thunk-force categories and proof of this theorem are in [F&#252;hrmann 99 section 5](#F99).
 
+## Related Concepts
+
+* The dual concept for [[call-by-name]] is a [[runnable monad]].
+* A [[duploid]] is an equivalent structure for effectful languages with both [[positive type|positive types]] and [[negative type|negative types]].
 
 ## References
 
