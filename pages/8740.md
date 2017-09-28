@@ -21,6 +21,176 @@ An archetypical example is the _[[Moyal star product]]_ that deforms the functio
 
 More recently also nonassociative "star products" have been proposed to be of interest.
 
+## Definition
+
+
+Let $V$ be a [[vector space]] of [[finite number|finite]] [[dimension]] and let $\omega \in V \otimes V$ be an element of the [[tensor product]] (not necessarily skew symmetric at the moment).
+
+We may canonically regard $V$ as a [[smooth manifold]], in which case $\omega$ is canonically regarded as a constant rank-2 [[tensor]]. As such it has a canonical [[action]] by forming [[derivatives]] on the tensor product of the space of [[smooth functions]]:
+
+$$
+  \omega   
+  \;\colon\;
+  C^\infty(V) \otimes C^\infty(V)
+  \longrightarrow
+  C^\infty(V) \otimes C^\infty(V)
+  \,.
+$$
+
+If $\{\partial_i\}$ is a [[linear basis]] for $V$, identified, as before, with a basis for $\Gamma(T V)$, then in this basis this operation reads
+
+$$
+  \omega(f \otimes g)
+  \;=\;
+  (\partial_i f) \otimes (\partial_j g)
+  \,,
+$$
+
+where $\partial_i f \coloneqq \frac{\partial f}{\partial x^i}$ denotes the [[partial derivative]] of the [[smooth function]] $f$ along the $i$th [[coordinate]].
+
+For emphasis we write
+
+$$
+  \array{
+    C^\infty(V) \otimes C^\infty(V)
+      &\overset{prod}{\longrightarrow}&
+    C^\infty(V)
+    \\
+    f \otimes g &\mapsto& f \cdot g
+  }
+$$
+
+for the pointwise product of smooth functions. 
+
+
++-- {: .num_defn #StarPoduct}
+###### Definition
+**(star product induced by constant rank-2 tensor)**
+
+Given $(V,\omega)$ as above, then the _[[star product]]_ induced by $\omega$ on the [[formal power series algebra]] $C^\infty(V) [ [\hbar] ]$ in a formal lvariable $\hbar$ ("[[Planck's constant]]") with [[coefficients]] in the [[smooth functions]] on $V$ is the linear map
+
+$$
+  (-) \star_\omega (-)
+  \;\colon\;
+  C^\infty(V)[ [ \hbar ] ] \otimes C^\infty(V)[ [ \hbar ] ]
+    \longrightarrow
+  C^\infty(V)[ [\hbar] ]
+$$
+
+given by
+
+$$
+  (-) \star_\omega (-)
+  \;\coloneqq\;
+  prod 
+    \circ \exp\left(
+       \hbar \omega^{i j} \partial_i \otimes \partial_j
+  \right)
+$$
+
+Hence 
+
+$$
+  f \star_\omega g
+  \;\coloneqq\;
+  \underoverset{k = 0}{\infty}{\sum}
+   \tfrac{\hbar^k}{k!}
+   \omega^{i j}
+   \frac{\partial^k f}{\partial x^i}
+   \frac{\partial^k g}{\partial x^j}
+  \,.
+$$
+
+
+=--
+
+
++-- {: .num_prop #AssociativeAndUnitalStarProduct}
+###### Proposition
+**(star product is [[associativity|associative]] and [[unitality|unital]])**
+
+Given $(V,\omega)$ as above, then the star product 
+$(-) \star_\omega (-)$ from def. \ref{StarPoduct}
+is [[associativity|associative]] and [[unitality|unital]]
+with unit the [[constant function]] $1 \in C^\infty(V) \hookrightarrow C^\infty(V)[ [ \hbar ] ]$.
+
+Hence the [[vector space]] $C^\infty(V)$ equipped with the star product $\omega$ is a [[unital algebra|unital]] [[associative algebra]].
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+Observe that the [[product rule]] of [[differentiation]] says that
+
+$$
+  \partial_i \circ prod
+    =
+   prod \circ ( \partial_i \otimes id \;+\; id \otimes \partial_i  )
+  \,.
+$$
+
+Using this we compute as follows:
+
+$$
+  \begin{aligned}
+  (f \star_\omega  g) \star_\omega h
+  & =
+  prod \circ
+  \exp( \omega^{i j} \partial_i \otimes \partial_j )  \circ
+  \left(
+    \left( prod \circ \exp( \omega^{k l} \partial_k \otimes \partial_l ) \right) \otimes id
+  \right)
+  (f \otimes g \otimes g)
+  \\
+  & =
+  prod \circ
+  \exp( \omega^{i j} \partial_i \otimes \partial_j ) \circ
+  (prod \otimes id)
+  \circ
+  \left(
+    \exp( \omega^{k l} \partial_k \otimes \partial_l )  \otimes id
+  \right)
+  (f \otimes g \otimes g)
+  \\
+  & =
+  prod \circ
+  (prod \otimes id) \circ
+  \exp( \omega^{i j}  ( \partial_i \otimes id \otimes \partial_j +id \otimes \partial_i \otimes \partial_j   )
+  \circ
+  \exp( \omega^{k l} \partial_k \otimes \partial_l )  \otimes id
+  (f \otimes g \otimes g)
+  \\
+  & =
+  prod \circ
+  (prod \otimes id) \circ
+  \exp( \omega^{i j}   \partial_i \otimes id \otimes \partial_j   )
+  \circ
+  \exp( \omega^{i j}  id \otimes \partial_i \otimes \partial_j )
+  \circ
+  \exp( \omega^{k l} \partial_k \otimes \partial_l \otimes id )  
+  (f \otimes g \otimes g)
+  \\
+  & =
+  prod_3
+  \circ
+  \exp( \omega^{i j} ( \partial_i \otimes \partial_j \otimes id  +  \partial_i \otimes id \otimes \partial_j + id \otimes \partial_i \otimes \partial_j)   )
+  \end{aligned}
+$$
+
+In the last line we used that the ordinary pointwise product of functions is associative, and wrote $prod_3 \colon C^\infty(V) \otimes C^\infty(V) \otimes C^\infty(V) \to C^\infty(V)$ for the unique pointwise product of three functions.
+
+The last expression above is manifestly independent of the choice of order of the arguments in the triple star product, and hence it is clear that 
+
+$$
+  \cdots = f \star_\omega (g \star_\omega h)
+  \,.
+$$
+
+=--
+
+
 ## Related concepts
 
 * [[deformation theory]]
