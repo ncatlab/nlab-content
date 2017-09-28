@@ -19,11 +19,11 @@
 
 ## Idea
 
-A **duploid** is a [[category]]-like structure where objects have a specific [[polarity in type theory|polarity]] and composition is not necessarily [[associative]].
+A **duploid** is a [[category]]-like [[structure]] where [[objects]] have a specific [[polarity in type theory|polarity]] and [[composition]] is not necessarily [[associative]].
 
-Duploids are models of programming languages with explicitly polarized [[positive type|positive]] and [[negative type|negative]] types, accomodating both [[call-by-value]] and [[call-by-name]] programming paradigms.
+Duploids are models of [[programming languages]] with explicitly polarized [[positive type|positive]] and [[negative type|negative]] [[types]], accomodating both [[call-by-value]] and [[call-by-name]] programming paradigms.
 
-A duploid can be constructed from an [[adjunction]] and the category of duploids is [[reflective subcategory|reflective]] in the category of adjunctions, equivalent to the subcategory of adjunctions satisfying an equalizing requirement.
+A duploid can be constructed from an [[adjunction]] and the category of duploids is [[reflective subcategory|reflective]] in the category of adjunctions, equivalent to the [[subcategory]] of adjunctions satisfying an equalizing requirement.
 
 ## Definition
 
@@ -90,4 +90,4 @@ holds and similarly $f$ is evaluated first in the left morphism and $h$ is evalu
 
 Duploids were introduced in chapter II of
 
-* {#Mthesis} Guillaume Munch-Maccagoni, Syntax and Models of a Non-Associative Composition of Programs and Proofs, PhD thesis University of Paris Diderot, 2013 [pdf link](http://guillaume.munch.name/files/SMAC-screen.pdf)
+* {#Mthesis} Guillaume Munch-Maccagoni, _Syntax and Models of a Non-Associative Composition of Programs and Proofs_, PhD thesis University of Paris Diderot, 2013 [pdf link](http://guillaume.munch.name/files/SMAC-screen.pdf)
