@@ -356,16 +356,17 @@ If $\omega = \tfrac{1}{2}\pi$ in def. \ref{StarPoduct} is skew-symmetric, it may
 =--
 
 
-+-- {: .num_remark #WickAlgebras}
-###### Remark
-**([[Wick algebras]])**
++-- {: .num_example #WickAlgebras}
+###### Example
+**([[normal-ordered products]] and [[time-ordered products]])**
 
 In cases where $V$ is _not_ [[finite number|finite]] [[dimension|dimensional]], but for instance a [[space of sections]] of a linear [[field bundle]], the expression involved in the definition of the star product in def. \ref{StarPoduct} still may be interpreted as [[products of distributions]], but these only exist if certain [[wavefront set]]-conditions are met. 
 
 In these situations it happens that the star product for some Poisson tensor $\tfrac{1}{2}\pi$ is not defined due to [[wavefront set]] collision, but the star product $\star_{\tfrac{1}{2}\pi + \alpha}$ for the tensor $\tfrac{1}{2}\pi + \alpha$ shifted by a symmetric contribition $\alpha$ as in prop. \ref{SymmetricContribution} is defined, and serves as the proper stand-in for the non-existing $\star_{\tfrac{1}{2}\pi}$. 
 
-This is the case notably for [[Wick algebras]] ([[algebras of quantum observables]] of [[free fields]]), see there for details.
+This is the case notably for [[Wick algebras]] ([[algebras of quantum observables]] of [[free fields]]): here $\tfrac{1}{2}\pi$ is the [[causal propagator]] for which $\star_\omega$ does not exist, and $\omega = \tfrac{1}{2}\pi + \alpha$ is a [[Hadamard propagator]], so that $\star_{\omega}$ does exist on [[microcausal functionals]]: it is the "[[normal-ordere product]]" of quantum observables.
 
+ 
 
 =--
 
