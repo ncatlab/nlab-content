@@ -10,3 +10,5 @@
 
 
 category: people
+
+[[!redirects José Gracia-Bondia]]
