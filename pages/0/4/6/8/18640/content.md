@@ -82,7 +82,7 @@ Since the thunk $L$ is a [[comonad]], the Kleisli category of the comonad is a m
 ## Related Concepts
 
 * The dual concept for [[call-by-name]] is a [[runnable monad]].
-* A [[duploid]] is an equivalent structure for effectful languages with both [[positive type|positive types]] and [[negative type|negative types]].
+* A [[duploid]] is an analogous structure for effectful languages with both [[positive type|positive types]] and [[negative type|negative types]].
 
 ## References
 
