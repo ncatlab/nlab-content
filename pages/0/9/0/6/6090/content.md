@@ -325,8 +325,8 @@ $$
   CausClsdSubsets(\Sigma) \;\in\; Cat
 $$
 
-for the [[partially ordered set]] of causally closed subsets, partially ordered by 
-inclusion $\mathcal{O}_1 \subset \mathcal{O}_2$. 
+for the [[partially ordered set]] of causally closed subsets, partially ordered by
+inclusion $\mathcal{O}_1 \subset \mathcal{O}_2$.
 
 =--
 
@@ -1414,7 +1414,7 @@ $$
 $$
 
 and then compare order-by-order with the given time-ordered product $T$ and
-its induced reverse-time ordered product (def. \ref{ReverseTimeOrderedProduct}) via prop. \ref{ReverseTimOrderedProductsGiveReverseSMatrix}. 
+its induced reverse-time ordered product (def. \ref{ReverseTimeOrderedProduct}) via prop. \ref{ReverseTimOrderedProductsGiveReverseSMatrix}.
 (These $R(-,-)$ are also called the "generating [[retarded products]], discussed in their own right around def. \ref{RetardedProductFromPerturbativeSMatrix} below.)
 
 In the condensed notation of
@@ -1516,13 +1516,13 @@ $\,$
 
 A genuine local [[observable]] should depend on the values of the [[fields]] on some [[compact subset]]
 of spacetime. Moreover, a perturbative [[quantum observable]] should be a [[power series]] in [[Planck's constant]] $\hbar$,
-reducing to the corresponding classical observable at $\hbar = 0$. The perturbative S-matrix constructed above
+reducing to the corresponding classical observable at $\hbar = 0$. The perturbative S-matrix axiomatized [above](#PerturbativeSMatrixAndTimeOrderedProducts)
 is neither localized in spacetime this way, nor is it a power series in $\hbar$ (it is a [[Laurent series]] in $\hbar$).
 So it is not a local observable. But the actual [[quantum observables on interacting fields]] may be expressed in terms of the S-matrix
 by [[Bogoliubov's formula]] (def. \ref{GeneratingFunctionsForCorrelationFunctions} below).
 
 This formula is consistent in that it implies that local observables form a [[causally local net]]
-as their spacetime support varies (prop. \ref{PerturbativeQuantumObservablesIsLocalnet} below). 
+as their spacetime support varies (this is prop. \ref{PerturbativeQuantumObservablesIsLocalnet} below).
 (On deeper grounds, this formula
 turns out to yield the [[formal deformation quantization|formal]] [[Fedosov deformation quantization]] of
 the interacting field theory ([Collini 16](#Collini16)).)
@@ -1537,11 +1537,11 @@ only up to _canonical_ unitary [[isomorphism]] (lemma \ref{CausalLocalityOfThePe
 1. form a [[causal locality|causally]] [[local net of observables]] in the sense of the [[Haag-Kastler axioms]] as the spacetime localization varies (prop. \ref{PerturbativeQuantumObservablesIsLocalnet} below).
 
 To the extent that a [[local net of observables]] may be regarded as _defining_ a [[quantum field theory]],
-which is the claim of ([[perturbative AQFT|perturbative]] [[AQFT]]),
+which is the claim of ([[perturbative AQFT|perturbative]]) [[AQFT]],
 this proves that the perturbative S-matrices in [[causal perturbation theory]] as in def. \ref{PerturbativeSMatrixOnMinkowskiSpacetime}
-indeed makes sense, despite the involvement of [[adiabatic switching]] of the [[interaction]] [[Lagrangian density]]
+indeed make sense, despite the involvement of [[adiabatic switching]] of the [[interaction]] [[Lagrangian density]]
 which does not make physical sense when interpreted naively: In reality the interaction is of course not (for realistic [[theory (physics)|theories]] at least) "switched off" outside some bounded region of spacetime; but the result here shows that if we pretend that it does
-then first of all we get a consistent mathematical formulas and moreover we can then nevertheless compute the correct [[quantum observables]] that are localized in this spacetime region. But the [[local net of observables]] as the spacetime localization varies
+then first of all we get consistent mathematical formulas and moreover we can then nevertheless compute the correct [[quantum observables]] that are localized in this spacetime region. But the [[local net of observables]] as the spacetime localization varies
 is supposed to encode the full quantum field theory. Certainly any given [[experiment]] in practice probes a bounded spacetime
 region, and hence the algebra of observables localized in this region is sufficient to compare the theory to experiment.
 
@@ -1841,7 +1841,7 @@ $$
 $$
 
 such that their causal order (def. \ref{CausalOrdering}) is
- 
+
 $$
   supp(a) \geq supp(J) \geq supp(r)
 $$
@@ -1887,15 +1887,15 @@ and let $L_{int} \in \Omega^{d,0}(E)$ be an [[interaction]] [[Lagrangian density
 
 
 For $\mathcal{O} \subset \Sigma$ a [[causally closed subset]] of [[spacetime]]
-(def. \ref{CausalComplementOfSubsetOfLorentzianManifold}) 
-and for $g_{sw} \in Cutoffs(\mathcal{O})$ an [[adiabatic switching]] function (def. \ref{CutoffFunctions}) 
+(def. \ref{CausalComplementOfSubsetOfLorentzianManifold})
+and for $g_{sw} \in Cutoffs(\mathcal{O})$ an [[adiabatic switching]] function (def. \ref{CutoffFunctions})
 which is constant on a [[neighbourhood]] of $\mathcal{O}$, write
 
 $$
   Gen_{g_{sw} L_{int}}(\mathcal{O})
    \coloneqq
-  \left\langle 
-    Z_{g_{sw}L_{int}}(J) \;\vert\; supp(J) \subset \mathcal{O} 
+  \left\langle
+    Z_{g_{sw}L_{int}}(J) \;\vert\; supp(J) \subset \mathcal{O}
   \right\rangle
    \;\subset\;
   \mathcal{W}[ [ g/\hbar] ]
@@ -1917,10 +1917,10 @@ be the subalgebra of the [[Cartesian product]] of all these algebras as $g_{sw}$
 [[tuples]]
 
 $$
-  Z_{L_{int}}(J) 
-    \;\coloneqq\;  
+  Z_{L_{int}}(J)
+    \;\coloneqq\;
   \left(
-     Z_{g_{sw}L_{int}} (J) 
+     Z_{g_{sw}L_{int}} (J)
   \right)_{g_{sw} \in Cutoffs(\mathcal{O})}
 $$
 
@@ -1984,7 +1984,7 @@ is a [[causally local net of observables]] in that
    algebra homomorphism is a [[monomorphism]]
 
    $$
-     i_{\mathcal{O}_1, \mathcal{O}_2} 
+     i_{\mathcal{O}_1, \mathcal{O}_2}
      \;\colon\;
      Gen_{L_{int}}(\mathcal{O}_1) \hookrightarrow Gen_{L_{int}}(\mathcal{O}_2)
    $$
@@ -2047,15 +2047,15 @@ Let $S$ be a perturbative S-matrix according to def. \ref{PerturbativeSMatrixOnM
 and let $L_{int} \in \Omega^{d,0}(E)$ be an [[interaction]] [[Lagrangian density]].
 
 
-For $\mathcal{O} \subset \Sigma$ a [[causally closed subset]] 
-of [[spacetime]] (def. \ref{CausalComplementOfSubsetOfLorentzianManifold}) 
+For $\mathcal{O} \subset \Sigma$ a [[causally closed subset]]
+of [[spacetime]] (def. \ref{CausalComplementOfSubsetOfLorentzianManifold})
 and for $g_{sw} \in Cutoffs(\mathcal{O})$ an compatible [[adiabatic switching]] function (def. \ref{CutoffFunctions}) write
 
 $$
   Obs_{g_{sw} L_{int}}(\mathcal{O})
    \coloneqq
-  \left\langle 
-     -i \frac{d}{d \epsilon} Z_{g_{sw}L_{int}}(\epsilon J)\vert_{\epsilon = 0} \;\vert\; supp(J) \subset \mathcal{O} 
+  \left\langle
+     -i \frac{d}{d \epsilon} Z_{g_{sw}L_{int}}(\epsilon J)\vert_{\epsilon = 0} \;\vert\; supp(J) \subset \mathcal{O}
   \right\rangle
    \;\subset\;
   \mathcal{W}[ [ g ] ] [ [ \hbar ]  ]
@@ -2079,7 +2079,7 @@ $$
   -i \hbar \frac{d}{d \epsilon} Z_{L_{int}}(\epsilon J)\vert_{\epsilon = 0}
     \;\coloneqq\;
   \left(
-      - i \hbar \frac{d}{d \epsilon} Z_{g_{sw}L_{int}} (\epsilon J)\vert_{\epsilon = 0} 
+      - i \hbar \frac{d}{d \epsilon} Z_{g_{sw}L_{int}} (\epsilon J)\vert_{\epsilon = 0}
   \right)_{g_{sw} \in Cutoffs(\mathcal{O})}
 $$
 
@@ -2122,13 +2122,13 @@ is a [[local net of observables]] in that
    the corresponding algebra homomorphism is a [[monomorphism]]
 
    $$
-     i_{\mathcal{O}_1, \mathcal{O}_2} 
+     i_{\mathcal{O}_1, \mathcal{O}_2}
      \;\colon\;
      Obs_{L_{int}}(\mathcal{O}_1) \hookrightarrow Obs_{L_{int}}(\mathcal{O}_2)
    $$
 
 1. ([[causal locality]]) For $\mathcal{O}_1, \mathcal{O}_2 \subset X$ two [[causally closed subsets]]
-   which are [[spacelike]] separated, in that
+   which are [[spacelike]] separated, in that their causal ordering (def. \ref{CausalOrdering}) satisfies
 
    $$
      \mathcal{O}_1 \geq \mathcal{O}_2
@@ -2160,7 +2160,8 @@ is a [[local net of observables]] in that
 
 =--
 
-([D&#252;tsch-Fredenhagen 00, below (17)](#DuetschFredenhagen00))
+([D&#252;tsch-Fredenhagen 00, below (17)](#DuetschFredenhagen00), following [Brunetti-Fredenhagen 99, section 8](#BrunettiFredenhagen99),
+[Il'in-Slavnov 78](#IlinSlavnov78))
 
 +-- {: .proof}
 ###### Proof
@@ -2179,7 +2180,7 @@ $$
     \right]
     &
     =
-     - 
+     -
      \frac{d}{d \epsilon_1}
      \frac{d}{d \epsilon_2}
      \underset{ = 0}{
@@ -2243,7 +2244,7 @@ which have pairwise disjoint spacetime [[support]].
 Restricted to $\left(\mathcal{F}_{loc}\langle g,j\rangle\right)^{\otimes^k}_{pds}$
 (def. \ref{TuplesOfCompactlySupportedPolynomialLocalFunctionalsWithPairwiseDisjointSupport})
 there is a unique [[time-ordered product]] (def. \ref{TimeOrderedProduct}),
-given by the [[Moyal star product]] that is induced by the [[Feynman propagator]] $\omega_F$
+given by the [[star product]] that is induced by the [[Feynman propagator]] $\omega_F$
 
 $$
   F \star_{\omega_F} G
@@ -2815,7 +2816,7 @@ An entertaining account of some of the history and the sociology of S-matrix the
 
 [[!redirects S-matrices]]
 
-    
+
 [[!redirects scattering matrix]]
 [[!redirects scattering matrices]]
 
