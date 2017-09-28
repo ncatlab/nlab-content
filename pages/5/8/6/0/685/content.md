@@ -94,7 +94,7 @@ If the ambient [[2-category]] is in fact a [[(2,1)-category]] in that all [[2-mo
 
 These are then a special case of the more general [[(∞,1)-limit]]s and [[(∞,1)-colimit]]s in a [[(∞,1)-category]]. A [[(2,1)-category]] is a special case of an [[(∞,1)-category]].
 
-Traditionally, [[(∞,1)-limit]]s are best known in tersm of the presentation of $(\infty,1)$-catgeories by [[categories with weak equivalences]] in general and [[model categories]] in particular.  (2,1)-limits can often also be viewed in this way.  The corresponding presentation of the $(\infty,1)$-limits / $(2,1)$-limits is called **[[homotopy limit]]s** and **[[homotopy colimit]]s**.
+Traditionally, [[(∞,1)-limit]]s are best known in terms of the presentation of $(\infty,1)$-catgeories by [[categories with weak equivalences]] in general and [[model categories]] in particular.  (2,1)-limits can often also be viewed in this way.  The corresponding presentation of the $(\infty,1)$-limits / $(2,1)$-limits is called **[[homotopy limit]]s** and **[[homotopy colimit]]s**.
 
 For instance 2-limits in the [[(2,1)-category]] [[Grpd]] of [[groupoid]]s, [[functor]]s and (necessarily) [[natural isomorphism]]s. Are equivalently computed as [[homotopy limit]]s in the [[model structure on simplicial sets]] $sSet_{Quillen}$ of diagrams of [[1-truncated]] [[Kan complex]]es. (The equivalnce of homotopy limits with $(\infty,1)$-limits is discusssed at [[(∞,1)-limit]]).
 
