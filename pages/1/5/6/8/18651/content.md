@@ -35,7 +35,7 @@ A **pre-duploid** $\mathcal{D}$ consists of
 4. for every object $A$ an morphism $id_A \in \mathcal{D}(A,A)$ that is the identity with respect to composition.
 5. For every $f \in \mathcal{D}(A,B), g \in \mathcal{D}(B,C), h \in \mathcal{D}(C,D)$, an associative law $f \odot (g \odot h) = (f \odot g) \odot h$ when $B$ is negative or $C$ is positive.
 
-Note that when restricted to positive objects or negative objects, composition and identities form a category, written $\mathcal P$ and $\mathcal N$. When the polarity is known we write positive objects as $L,M,N$ and negative objects as $P,Q,R$. We also notate composition where the middle object is positive as $g \circ f$ and where the middle object is negative as $g \bullet f$.
+Note that when restricted to positive objects or negative objects, composition and identities form a category, written $\mathcal{P}$ and $\mathcal{N}$. When the polarity is known we write positive objects as $L,M,N$ and negative objects as $P,Q,R$. We also notate composition where the middle object is positive as $g \circ f$ and where the middle object is negative as $g \bullet f$.
 Then the associativity laws can be restated as:
 
 1. $\bullet\bullet$: $f \bullet (g \bullet h)  = (f \bullet g) \bullet h$
