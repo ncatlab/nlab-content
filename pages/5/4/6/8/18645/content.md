@@ -4150,6 +4150,85 @@ $\,$
 
 
 ## Gauge symmetries
+ {#GaugeSymmetries}
+ 
+The existence of the [[covariant phase space]] (prop. \ref{CovariantPhaseSpace}) of a [[Lagrangian field theory]]
+requires the existence of [[Cauchy surfaces]] (def. \ref{CauchySurface}) for its [[Euler-Lagrange equation|Euler-Lagrange]] [[equations of motion]]. In general these may not exist. An [[obstruction]] to their existence turns out to be (prop. \ref{NonTrivialImplicitInfinitesimalGaugeSymmetriesPbstructExistenceOfCauchySurfaces} below)
+the presence of certain[[infinitesimal symmetries of the Lagrangian]] (def. \ref{SymmetriesAndConservedCurrents}) 
+which reflect "implicit" non-trivial [[infinitesimal gauge transformations]] (def. \ref{ImplicitInfinitesimalGaugeSymmetry}
+and example \ref{TrivialImplicialInfinitesimalGaugeTransformations} below). This [[obstruction]] is neatly
+captured by the [[cochain cohomology]] of a [[cochain complex]] induced by the [[equations of motion]], 
+which is called the _[[BV-complex]]_ (def. \ref{BVComplexOfOrdinaryLagrangianDensity} and prop. \ref{BVComplexIsHomologicalResolutionPreciselyIfNoNonTrivialImplicitGaugeSymmetres} below).
+
+Making these "implicit" [[infinitesimal gauge transformations]] explicit means to consider the 
+infinitsimal [[homotopy quotient]] of their [[action]] on the [[field bundle]], 
+represented by their [[action Lie algebroid]]. The ("[[Chevalley-Eilenberg algebra|Chevalley-Eilenberg]]"-)algebra
+of functions on this "field bundle with infinitesimal gauge symmetries made explicit" is called the _[[BRST complex]]_.
+In it the formerly implicit infinitesimal gauge symmetries appear in the guise of [[field (physics)|field]] variables
+of positive grading in a [[differential graded-commutative algebra]]. These are called _[[gauge fields]]_.
+
+The [[cochain cohomology]] of the [[BRST complex]] in degree 0 is the space of  [[gauge invariance|gauge invariant]] local observables, 
+in particular the original [[Lagrangian density]]. The [[BV-complex]] of the Lagrangian with
+its infinitesimal gauge symmetries made explicit this way is called the _[[BV-BRST complex]]_.
+In good cases this admits a modification by "[[gauge fixing]]" that renders its co-connective piece
+a [[homological resolution]] of the [[shell]]. This is such that now the combined [[equations of motion]]
+of the original [[field (physics)|fields]] together with the [[ghost fields]] do admit [[Cauchy surfaces]],
+hence may be quantized. In [[BV-quantization]] below one proves that quantization ([[renormalization]])
+may be found so that the [[BV-differential]] passes to the [[algebra of quantum observables]] of
+the field-ghost system. This allows to remove the spurious gauge fields again after quantization by
+passing to the quantum BV-cohomology in degree 0. The result is then the desired quantization of the 
+original field theory.
+
+$$
+  \array{
+     \left\{
+        \array{
+           \text{Lagrangian field theory }
+           \\
+           \text{with}
+           \\
+           \text{implicit infinitesimal gauge transformations}
+        }
+     \right\}
+     &\overset{\text{adjoin ghost fields}}{\longrightarrow}&
+     \left\{
+        \array{
+           \text{Lagrangian field theory }
+           \\
+           \text{with}
+           \\
+           \text{explicit infinitesimal gauge transformations}
+           \\
+           \text{ embodied by BV-BRST differential }
+        }
+     \right\}
+     \\
+     \mathllap{\text{quantization}}\downarrow
+     && \downarrow\mathrlap{\text{ degreewise quantization}}
+     \\
+     \left\{
+       \array{
+         \text{gauge invarant}
+         \\
+         \text{quantum observables}
+       }
+     \right\}
+     &\underset{\text{pass to cohomology}}{\longleftarrow}&
+     \left\{
+        \array{
+           \text{quantum field theory }
+           \\
+           \text{with}
+           \\
+           \text{explicit infinitesimal gauge transformations}
+           \\
+           \text{embodied by BV-BRST differential }
+        }
+     \right\}
+  }
+$$
+
+$\,$
 
 
 +-- {: .num_defn #ImplicitInfinitesimalGaugeSymmetry}
@@ -4515,7 +4594,7 @@ by prop. \ref{PullbackAlongJetProlongationIntertwinesHorizontalDerivative}.
 =--
 
 
-+-- {: .num_example #NonTrivialImplicitInfinitesimalGaugeSymmetriesPbstructExistenceOfCauchySurfaces}
++-- {: .num_prop #NonTrivialImplicitInfinitesimalGaugeSymmetriesPbstructExistenceOfCauchySurfaces}
 ###### Proposition
 **(non-trivial implicit [[infinitesimal gauge symmetries]] [[obstruction|obstruct]] existence of [[Cauchy surfaces]])
 
@@ -4794,7 +4873,7 @@ The first condition is the case since $\Omega^{0,0}_{\Sigma,poly}(E)$ is by defi
 Since the Jacobson radical of a power series algebra consist of those elements whose constant term
 vanishes, the assumption that $\mathbf{L}$ is at least quadratic, hence that $\delta_{EL}\mathbf{L}$
 is at least linear in the fields, guarantees that all $\frac{\delta_{EL}L}{\delta \phi^a}$ are contained
-in the Jacobson radical.
+in the Jacobson radical (see [this example](Koszul+complex#KoszulComplexForFormalPowerSeriesAlgebras)).
 
 =--
 
