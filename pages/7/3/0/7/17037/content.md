@@ -12,4 +12,7 @@ The [[quotient]] of a [[ring]] by an ideal.
 
 * [[completion of a ring]]
 
+* [[Koszul complex]]
+
 [[!redirects quotient rings]]
+
