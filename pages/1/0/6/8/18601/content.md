@@ -100,7 +100,7 @@ where
 $$
   \vert \psi_{in}\rangle 
     \propto
-  \tfrac{1}{\hbar^{n_{in}/2}} 
+  \tfrac{1}{\sqrt{\hbar^{n_{in}}}} 
   \phi^\dagger(k_1) \cdots \phi^\dagger(k_{n_{in}}) \vert vac \rangle
 $$
 
@@ -109,7 +109,7 @@ is a state of $n_{in}$ free field quanta and similarly
 $$
   \vert \psi_{out}\rangle 
     \propto
-  \tfrac{1}{\hbar^{n_{out}/2}} 
+  \tfrac{1}{\sqrt{\hbar^{n_{out}}}} 
   \phi^\dagger(k_1) \cdots \phi^\dagger(k_{n_{out}}) \vert vac \rangle
 $$
 
@@ -121,6 +121,8 @@ $$
   \hbar^{L(\Gamma) - 1 + E_{ext}(\Gamma)/2 }
   \,.
 $$
+
+(For the analogous discussion of the dependence on the actual [[quantum observables]] on $\hbar$ given by [[Bogoliubov's formula]], see [there](Bogoliubov's+formula#PowersInPlancksConstant).)
 
 
 
