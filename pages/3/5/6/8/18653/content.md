@@ -1,10 +1,35 @@
 
-In the context of the [[physics]] of [[field (physics)|fields]] One speaks of _relativistic_ ([[quantum field theory|quantum]]) [[field theory]] to highlight that the underlying spaces are [[Lorentzian manifold|Lorentzian]] [[spacetimes]] that model configurations of the field of [[gravity]] according to the theory of "[[general relativity]]", whence the name.
 
-This is in contrast to "[[Euclidean field theory]]". (...)
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+In the context of the [[physics]] of [[field (physics)|fields]] one speaks of _relativistic_ ([[quantum field theory|quantum]]) [[field theory]] to indicate that the underlying spaces considered are [[Lorentzian manifold|Lorentzian]] [[spacetimes]] that model configurations of the field of [[gravity]] according to the theory of "[[general relativity]]", whence the name, and that the [[equations of motion]] respect this structure, in that they respect [[tangent space]]-wise [[Lorentz group|Lorentz invariance]] (i.e. the [[Cartan geometry]] strucure, see at _[[first-order formulation of gravity]]_).
+
+This is in contrast to other variants of [[field theory]] such as for instance [[non-relativistic field theory]] typically used in [[solid state physics]], where certainly effects of [[general relativity]] are irrelevant, but where even effects of [[special relativity]] may often be ignored. 
+
+
+Mathematically, the hallmark of relativistic field theory is the key role played by [[causal locality]], notably in the rigorous mathematical formulation of relativistic [[perturbative quantum field theory]] via [[causal perturbation theory]] (also called [[perturbative AQFT]]).
+
+This marks also the contrast to "[[Euclidean field theory]]", where the underlying "[[spacetimes]]" are [[Riemannian manifolds]] (with [[Euclidean space|Euclidean]] instead of [[Lorentzian manifold|Lorentzian]] [[signature of a quadratic form|signature]], whence the name). While in good situations relativistic and Euclidean field theory may be related by [[Wick rotation]] ([[Osterwalder-Schrader theorem]]) generally they are very different.
+
 
 
 ## Related concepts
+
+* [[relativistic particle]]
 
 * [[causal locality]]
 
@@ -12,4 +37,8 @@ This is in contrast to "[[Euclidean field theory]]". (...)
 
 * [[locally covariant perturbative algebraic quantum field theory]]
 
+
+[[!redirects relativistic quantum field theories]]
+
 [[!redirects relativistic field theory]]
+[[!redirects relativistic field theories]]
