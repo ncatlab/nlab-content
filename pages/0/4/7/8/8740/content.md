@@ -68,7 +68,7 @@ for the pointwise product of smooth functions.
 ###### Definition
 **(star product induced by constant rank-2 tensor)**
 
-Given $(V,\omega)$ as above, then the _[[star product]]_ induced by $\omega$ on the [[formal power series algebra]] $C^\infty(V) [ [\hbar] ]$ in a formal lvariable $\hbar$ ("[[Planck's constant]]") with [[coefficients]] in the [[smooth functions]] on $V$ is the linear map
+Given $(V,\omega)$ as above, then the _[[star product]]_ induced by $\omega$ on the [[formal power series algebra]] $C^\infty(V) [ [\hbar] ]$ in a formal variable $\hbar$ ("[[Planck's constant]]") with [[coefficients]] in the [[smooth functions]] on $V$ is the linear map
 
 $$
   (-) \star_\omega (-)
@@ -364,7 +364,7 @@ In cases where $V$ is _not_ [[finite number|finite]] [[dimension|dimensional]], 
 
 In these situations it happens that the star product for some Poisson tensor $\tfrac{1}{2}\pi$ is not defined due to [[wavefront set]] collision, but the star product $\star_{\tfrac{1}{2}\pi + \alpha}$ for the tensor $\tfrac{1}{2}\pi + \alpha$ shifted by a symmetric contribition $\alpha$ as in prop. \ref{SymmetricContribution} is defined, and serves as the proper stand-in for the non-existing $\star_{\tfrac{1}{2}\pi}$. 
 
-This is the case notably for [[Wick algebras]] ([[algebras of quantum observables]] of [[free fields]]): here $\tfrac{1}{2}\pi$ is the [[causal propagator]] for which $\star_\omega$ does not exist, and $\omega = \tfrac{1}{2}\pi + \alpha$ is a [[Hadamard propagator]], so that $\star_{\omega}$ does exist on [[microcausal functionals]]: it is the "[[normal-ordere product]]" of quantum observables.
+This is the case notably for [[Wick algebras]] ([[algebras of quantum observables]] of [[free fields]]): here $\tfrac{1}{2}\pi$ is the [[causal propagator]] for which $\star_\omega$ does not exist, and $\omega = \tfrac{1}{2}\pi + \alpha$ is a [[Hadamard propagator]], so that $\star_{\omega}$ does exist on [[microcausal functionals]]: it is the "[[normal-ordered product]]" of quantum observables.
 
  
 
