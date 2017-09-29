@@ -1121,6 +1121,10 @@ based on
 
 [[!redirects antifield formalism]]
 
+[[!redirects BV-differential]]
+[[!redirects BV-differentials]]
+
+
 [[!redirects classical master equation]]
 [[!redirects classical master equations]]
 
