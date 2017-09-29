@@ -2251,6 +2251,7 @@ $$
   \;\coloneqq\;
   prod \circ
   \exp\left(
+   \hbar
    \left\langle
      \omega_F , \frac{\delta}{\delta \phi} \otimes \frac{\delta}{\delta \phi}
    \right\rangle
@@ -2324,6 +2325,7 @@ $$
     F \star_{\omega_F} G
     & =
     prod \circ \exp\left(
+      \hbar
       \left\langle  \omega_F , \frac{\delta }{\delta \phi} \otimes \frac{\delta}{\delta \phi}  \right\rangle
     \right)
     ( F \otimes G )
@@ -2331,6 +2333,7 @@ $$
     & =
     prod \circ
     \exp\left(
+      \hbar
       \left\langle  \tfrac{i}{2}( \Delta_R + \Delta_A ) + H  , \frac{\delta }{\delta \phi} \otimes \frac{\delta}{\delta \phi}  \right\rangle
     \right)
     ( F \otimes G )
@@ -2338,6 +2341,7 @@ $$
     & =
     prod \circ
     \exp\left(
+      \hbar
       \left\langle  \tfrac{i}{2}\Delta_R + H  , \frac{\delta }{\delta \phi} \otimes \frac{\delta}{\delta \phi}  \right\rangle
     \right)
     ( F \otimes G )
@@ -2345,6 +2349,7 @@ $$
     & =
     prod \circ
     \exp\left(
+      \hbar
       \left\langle  \tfrac{i}{2}( \Delta_R - \Delta_A ) + H  , \frac{\delta }{\delta \phi} \otimes \frac{\delta}{\delta \phi}  \right\rangle
     \right)
     ( F \otimes G )
@@ -2352,6 +2357,7 @@ $$
     & =
     prod \circ
     \exp\left(
+      \hbar
       \left\langle  \omega , \frac{\delta }{\delta \phi} \otimes \frac{\delta}{\delta \phi}  \right\rangle
     \right)
     ( F \otimes G )
@@ -2367,31 +2373,36 @@ $$
   \begin{aligned}
     F \star_{\omega_F} G
     & =
-    prod \circ \exp\left(
+    prod \circ \exp\left(   
+      \hbar
       \left\langle  \omega_F , \frac{\delta }{\delta \phi} \otimes \frac{\delta}{\delta \phi}  \right\rangle
     \right)
     ( F \otimes G )
     \\
     & =
     prod \circ \exp\left(
+      \hbar
       \left\langle  \tfrac{i}{2}( \Delta_R + \Delta_A ) + H  , \frac{\delta }{\delta \phi} \otimes \frac{\delta}{\delta \phi}  \right\rangle
     \right)
     ( F \otimes G )
     \\
     & =
     prod \circ \exp\left(
+      \hbar
       \left\langle  \tfrac{i}{2} \Delta_A + H  , \frac{\delta }{\delta \phi} \otimes \frac{\delta}{\delta \phi}  \right\rangle
     \right)
     ( F \otimes G )
     \\
     & =
     prod \circ \exp\left(
+      \hbar
       \left\langle  \tfrac{i}{2} \Delta_R + H  , \frac{\delta }{\delta \phi} \otimes \frac{\delta}{\delta \phi}  \right\rangle
     \right)
     ( G \otimes F )
     \\
     & =
     prod \circ \exp\left(
+      \hbar
       \left\langle  \tfrac{i}{2} (\Delta_R - \Delta_A) + H  , \frac{\delta }{\delta \phi} \otimes \frac{\delta}{\delta \phi}  \right\rangle
     \right)
     ( G \otimes F )
