@@ -33,31 +33,38 @@ A **pre-duploid** $\mathcal{D}$ consists of
 2. for every pair $A,B \in |\mathcal{D}|$ a set of morphisms $\mathcal{D}(A,B)$.
 3. for every compatible pair of morphisms $f \in \mathcal{D}(A,B), g\in \mathcal{D}(B,C)$ a composite $g \odot f \in \mathcal{D}(A,C)$.
 4. for every object $A$ an morphism $id_A \in \mathcal{D}(A,A)$ that is the identity with respect to composition.
-5. For every $f \in \mathcal{D}(A,B), g \in \mathcal{D}(B,C), h \in \mathcal{D}(C,D)$, an associative law $f \odot (g \odot h) = (f \odot g) \odot h$ when $B$ is negative or $C$ is positive.
+5. For every $f \in \mathcal{D}(A,B), g \in \mathcal{D}(B,C), h \in \mathcal{D}(C,D)$, an associative law $h \odot (g \odot f) = (h \odot g) \odot f$ when $B$ is negative or $C$ is positive.
 
-Note that when restricted to positive objects or negative objects, composition and identities form a category, written $\mathcal{P}$ and $\mathcal{N}$. When the polarity is known we write positive objects as $L,M,N$ and negative objects as $P,Q,R$. We call composition where the middle object is positive "positive composition" or "by-value composition" and notate it as $g \circ f$ and when the middle object is negative we call it "negative composition" or "by-name composition" and notate it as $g \bullet f$.
+Note that when restricted to positive objects or negative objects, composition and identities form a category, written $\mathcal{P}$ and $\mathcal{N}$. When the polarity is known we write positive objects as $L,M,N$ and negative objects as $P,Q,R$. We call composition where the middle object is positive "positive composition" or "by-value composition" and notate it as $g \bullet f$ and when the middle object is negative we call it "negative composition" or "by-name composition" and notate it as $g \circ f$.
 Then the associativity laws can be restated as:
 
 1. $\bullet\bullet$: $f \bullet (g \bullet h)  = (f \bullet g) \bullet h$
 2. $\circ\circ$: $f \circ (g \circ h)  = (f \circ g) \circ h$
-3. $\circ\bullet$: $f \circ (g \bullet h)  = (f \bullet g) \circ h$
+3. $\bullet\circ$: $f \bullet (g \circ h)  = (f \bullet g) \circ h$
 
-and we can see that the only obstacle to associativity is that $f \bullet (g \circ h)$ is not necessarily equal to $(f \bullet g) \circ h$.
+and we can see that the only obstacle to associativity is that $f \circ (g \bullet h)$ is not necessarily equal to $(f \circ g) \bullet h$.
 
 A **duploid** is a pre-duploid $\mathcal{D}$ plus two **polarity shifts** 
 $\Downarrow : |\mathcal{N}| \to |\mathcal{P}| and \Uparrow : |\mathcal{P}| \to |\mathcal{N}|$, and for each $P \in |\mathcal{P}|, N \in |\mathcal{N}|$, morphisms:
 
-1. $\theta : P \to \Uparrow P$ (pronounced "thunk" or "delay")
-2. $\epsilon : \Uparrow P \to P$ (pronounced "force")
-3. $\eta : N \to \Downarrow N$ (pronounced "wrap")
-4. $\rho : \Downarrow N \to N$ (pronounced "unwrap" or "run")
+1. $delay_P : P \to \Uparrow P$
+2. $force_P : \Uparrow P \to P$
+3. $wrap_N : N \to \Downarrow N$
+4. $unwrap_N : \Downarrow N \to N$
 
 such that
 
-1. $\forall f : A \to P, \epsilon \circ (\theta \bullet f) = f$
-2. $\forall f : N \to A, (f \circ \rho) \bullet \eta = f$
-3. $\theta \bullet \epsilon = id_{\Uparrow P}$
-4. $\eta \circ \rho = id_{\Downarrow N}$
+1. $\forall f : A \to P, force_P \circ (delay_P \bullet f) = f$
+2. $\forall f : N \to A, (f \circ unwrap_N) \bullet wrap_N = f$
+3. $delay_P \bullet force_P = id_{\Uparrow P}$
+4. $wrap_N \circ unwrap_N = id_{\Downarrow N}$
+
+In light of the definition of linear and thunkable morphisms, these identities are equivalent to saying
+
+1. $wrap_N$ is thunkable.
+2. $wrap_N, unwrap_N$ is an isomorphism.
+3. $force_P$ is linear.
+4. $force_P, thunk_P$ is an isomorphism.
 
 ## Linear and Thunkable Morphisms
 
@@ -72,12 +79,12 @@ $$f \odot (g \odot h) = (f \odot g) \odot h.$$
 Observe that all $f : P \to B$ are trivially linear and $g : A \to N$ are trivially thunkable. Further thunkable and linear morphisms form (non-full) subcategories $\mathcal{D}_t, \mathcal{D}_l$.
 
 To understand these concepts, consider the non-trivial situation where $f : A \to P$ is thunkable:
-$$h \bullet (g \circ f) = (h \bullet g) \circ f.$$
+$$h \circ (g \bullet f) = (h \circ g) \bullet f.$$
 on the left side, since we have a by-name composition, $h$ is "evaluated first", whereas on the right side we have a by-value composition, so $f$ is evaluated first.
 Thus these two morphisms being equal implies in many semantics $f$ cannot perform any [[side-effect]]. For instance if $f$ prints to the screen and so does $h$, then each composite will print in a different order. Furthermore, if $f$ can manipulate its [[continuation]] explicitly, it has to treat it linearly otherwise $h$ may be evaluated twice or not at all.
 
 In the dual, if $f : N \to B$ and $f$ is linear:
-$$f \odot (g \odot h) = (f \odot g) \odot h$$
+$$f \circ (g \bullet h) = (f \circ g) \bullet h$$
 holds and similarly $f$ is evaluated first in the left morphism and $h$ is evaluated first in the right. Then as above it cannot perform any effects and has to treat its *input* linearly, as duplicating or dropping $h$ would make the equation fail to hold.
 
 ## Related Concepts
