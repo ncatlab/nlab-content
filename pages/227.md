@@ -312,6 +312,10 @@ For historical accounts see
 [[!redirects noncommutative ring]]
 [[!redirects noncommutative rings]]
 
+[[!redirects non-commutative ring]]
+[[!redirects non-commutative rings]]
+
+
 [[!redirects commutative ring]]
 [[!redirects commutative rings]]
 
