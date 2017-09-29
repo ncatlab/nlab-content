@@ -20,7 +20,7 @@
 
 ## Idea
 
-The [[resolution]] of a [[chain complex]] by a complex of [[free modules]].
+The [[homological resolution]] of a [[chain complex]] by a complex of [[free modules]].
 
 ## Properties
 
@@ -65,6 +65,15 @@ Then let $F_2 \to F_1$ be the [[kernel]] of that map, hence $F_2$ a [[subgroup]]
 Prop. \ref{AbelianGroupHasFreeResolutionOfLength2} implies that all [[Ext]]-groups between abelian groups are concentrated in degrees 0 and 1. 
 
 (By the discussion at _[[derived functor in homological algebra]]_.)
+
+=--
+
+
++-- {: .num_example}
+###### Example
+**([[Koszul complex]] is free resolution of [[quotient ring]])
+
+For $R$ a [[commutative ring]] and $(x_1, \cdots, x_d)$ a [[regular sequence]] of elements, then the [[Koszul complex]] $K(x_1, \cdots, x_d)$ is a free resolutions of the [[quotient ring]] $R/(x_1, \cdots, x_d)$ by free $R$-modules.
 
 =--
 
