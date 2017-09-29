@@ -64,7 +64,7 @@ For $A \in \mathcal{F}_{loc}$ a [[local observable]] and $j \in C^\infty_{cp}(\S
 $$
   Z_L(\epsilon j A)
   \; \coloneqq \;
-  S(g_{sw}\mathbf{L}_{int}) S( g_{sw}\mathbf{L}_{int} + j A )
+  S(g_{sw}\mathbf{L}_{int})^{-1} S( g_{sw}\mathbf{L}_{int} + j A )
 $$
 
 for the [[generating function]] induced by the perturvbative [[S-matrix]].
@@ -92,7 +92,7 @@ which is the [[derivative]] of the generating functional $Z$ ([this def.](S-matr
 $$
   \widehat{A}(j)
     \;\coloneqq\;
-  - i \frac{d}{d \epsilon} Z_{g_{sw} L_{int}}( \epsilon j  A)\vert_{\epsilon = 0}
+  \tfrac{1}{i \hbar} \frac{d}{d \epsilon} Z_{g_{sw} L_{int}}( \epsilon j  A)\vert_{\epsilon = 0}
   \,.
 $$
 
@@ -100,10 +100,74 @@ $$
 =--
 
 This definition of $\widehat{A}$ without the [[adiabatic switching]] $g_{sw}$ is originally due to [Bogoliubov-Shirkov 59](#BogoliubovShirkov59), later named _Bogoliubov's formula_ (e.g. [Rejzner 16 (6.12)](#Rejzner16)).
-The version with adiabatic switching is due to ([Epstein-Glaser 73 around (74)](#EpsteinGlaser73)).
-Review includes ([D&#252;tsch-Fredenhagen 00, around (17)](#DuetschFredenhagen00)).
+The version with adiabatic switching is due to ([Epstein-Glaser 73 around (74)](#EpsteinGlaser73)). Review includes ([D&#252;tsch-Fredenhagen 00, around (17)](#DuetschFredenhagen00)).
 
 The [[coefficients]] of $\widehat{A}(j)$ as a [[formal power series]] in the [[coupling constant]] and [[Planck's constant]] are called the _[[retarded products]]_.
+
+
++-- {: .num_remark #PowersInPlancksConstant}
+###### Remark
+**(powers in [[Planck's constant]])**
+
+That the observables as defined in def. \ref{GeneratingFunctionsForCorrelationFunctions} indeed are [[formal power series]] in $\hbar$ as opposed to more general [[Laurent series]] requires a little argument.
+
+The explicit $\hbar$-dependence of the perturbative [[S-matrix]] is 
+
+$$
+  S(g_{sw} L_{int} + j_{sw} A)
+  = 
+  T \exp\left(
+    \tfrac{1}{i \hbar}
+     \left(
+       g_{sw} L_{int} + j_{sw} A
+     \right)
+  \right)
+  \,,
+$$
+
+where $T(-)$ denotes [[time-ordered products]]. The generating function
+
+$$
+  Z_{g_{sw}L_{int}}(j A)
+  \;\coloneqq\;
+  S(g_{sw}L_{int})^{-1} \star S(g_{sw}L_{int} + j_{sw} A)
+$$
+
+involves the [[star product]] of the free theory (the [[normal-ordered product]] of the [[Wick algebra]]). This is a [[formal deformation quantization]] of the [[Peierls-Poisson bracket]], and therefore the [[commutator]] in this algebra is a [[formal power series]] in $\hbar$ that howver has no constant term in $\hbar$ (but starts out with $\hbar$ times the [[Poisson bracket]], followed by possibly higher order terms in $\hbar$):
+
+$$
+  [L_{int},A] \;=\; \hbar(\cdots)
+  \,.
+$$
+
+Now schematically the derivative of the generating function is of the form
+
+$$
+  \begin{aligned}
+    \hat A
+    & \coloneqq
+    \tfrac{1}{i \hbar} \frac{d}{d \epsilon}
+    Z_{g_{sw}L_{int}}(\epsilon j A)\vert_{\epsilon = 0}
+    \\
+    & =
+    \exp\left(
+      \tfrac{1}{i \hbar}[g_{sw}L_{int}, -]
+    \right)
+    (j A)
+  \end{aligned}
+  \,.
+$$
+
+(The precise expression is given by the _[[retarded products]]_, see [Rejzner 16, prop. 6.1](#Rejzner16).)
+By the above, the exponent here yields a [[formal power series]] in $\hbar$, and hence so does the full exponential.
+
+
+That the quantum observables takes values in formal power series of $\hbar$ is the hallmark of [[formal deformation quantization]]. While [[Bogoliubov's formula]] proceeds from an [[S-matrix]] which is axiomatized by [[causal perturbation theory]], this suggests that it actually computes the quantum observables in a [[formal deformation quantization]] of the interacting field theory. This is indeed the case ([Collini 16](#Collini16), [Hawkins-Rejzner 16](#HawkinsRejzner16)).
+
+For the analogous analysis of powers of $\hbar$ in the [[S-matrix]] itself, see at _[[loop order]]_ the section _[Relation to powers in Planck's constant](loop%20order#RelationToPowersInPlancksConstant)_.
+
+
+=--
 
 
 ## Properties
