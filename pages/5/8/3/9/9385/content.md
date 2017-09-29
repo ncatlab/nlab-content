@@ -74,3 +74,9 @@ For more see at _[structures in a cohesive (∞,1)-topos -- flat ∞-connections
 [[!redirects flat principal ∞-connections]]
 [[!redirects flat principal infinity-connection]]
 [[!redirects flat principal infinity-connections]]
+
+[[!redirects flat ∞-bundle]]
+[[!redirects flat ∞-bundles]]
+
+[[!redirects flat infinity-bundle]]
+[[!redirects flat infinity-bundles]]
