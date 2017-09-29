@@ -83,6 +83,7 @@ $$
 and the $R$-linear map $R^r\to R$ is given by the row vector $(x_1,\ldots,x_r)$. 
 
 ## Properties
+ {#Properties}
 
 +-- {: .num_prop #KoszulComplexOfRegularSequenceIsFreeResolutionOfQuotientRing}
 ###### Proposition
@@ -113,6 +114,27 @@ then the following are equivalent:
 =--
 
 A **proof** is spelled out on [Wikipedia - Properties of Koszul homology](https://en.wikipedia.org/wiki/Koszul_complex#Properties_of_a_Koszul_homology)
+
+
+## Examples
+
++-- {: .num_example #KoszulComplexForFormalPowerSeriesAlgebras}
+###### Example
+**(Koszul complex for formal power series algebras)**
+
+Let $k$ be a [[field]], let $R = k[ [ X_1,\cdots, X_n ] ]$ be a [[formal power series algebra]] over $k$ in $n$ [[variables]], and let $(f_1, \cdots, f_r)$ be formal power series whose constant term vanishes. Then the Koszul complex is a homological resolution:
+
+
+$$
+  K(f_1, \cdots, f_n)
+    \overset{\simeq_{qi}}{\longrightarrow}
+  k[ [X_1, \cdots X_n] ]/(f_1, \cdots, f_r)
+  \,.
+$$
+
+This is because the assumptions of prop. \ref{KoszulResolutionForNoetherianRngAndElementsInJacobson} are met: A formal power series ring over a field is Noetherian ([this examples](noetherian+ring#PolynomialAlgebraOverNoetherianRingIsNoetherian)) and an element of a formal power series algebra is in the Jacobson radical precisely if its constant term vanishes ([this example](Jacobson+radical#JacobsonRadicalOfFormalPowerSeriesAlgebra))
+
+=--
 
 
 ## Related concepts
