@@ -17,19 +17,36 @@
 
 $\,$
 
-This chapter introduces the basic concepts of _[[Lagrangian field theory]]_, first for [[prequantum field theory]] and then for its [[deformation quantization]] to [[perturbative quantum field theory]].
+This chapter gives an expository but rigorous introduction to the basic concepts 
+of [[relativistic quantum field theory|relativistic]] [[quantum field theories]], specifically those 
+that arise as the [[perturbative quantum field theory|perturbative]] [[quantization]] of a _[[Lagrangian field theory]]_ 
+-- such as [[quantum electrodynamics]], [[quantum chromodynamics]], and [[perturbative quantum gravity]]
+appearing in the [[standard model of particle physics]]. 
 
-In full beauty these concepts are extremely general; but the aim here is to give a first good idea of the subject, not
+First we consider
+[[classical field theory]] (or rather [[prequantum field theory]]) and 
+then its [[deformation quantization]] via [[causal perturbation theory]] to [[perturbative quantum field theory]].
+This mathematically rigorous (i.e. clear and precise) formulation of the traditional informal lore
+has come to be known as _[[perturbative algebraic quantum field theory]]_.
+
+We aim to give a _fully [[local field theory|local]]_ discussion, where all structures arise
+on the "[[jet bundle]] over the [[field bundle]]" (introduced [below](#FieldVariations) ) and "[[transgression|transgress]]" from there to the [[spaces of field histories]] over [[spacetime]] (discussed [further below](#ObservablesAndStates)).
+This "[[schreiber:Higher Prequantum Geometry]]" streamlines traditional constructions and serves the conceptualization in the theory.
+
+In full beauty these concepts are extremely general and powerful; but the aim here is to give first good precise idea of the subject, not
 a fully general account.
+Therefore we begin in the following with the special case where [[spacetime]] is [[Minkowski spacetime]], where the [[field bundle]] (def. \ref{Fields} below) is an ordinary [[trivial vector bundle]] and hence the [[Lagrangian  density]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime} below) is globally defined. 
 
-Therefore we present in the following only the special case where [[spacetime]] is [[Minkowski spacetime]], the [[field bundle]] (def. \ref{Fields} below) is an ordinary [[trivial vector bundle]] and hence the [[Lagrangian  density]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime} below) is globally defined. We do however consider the proper [[differential geometry]] of the resulting [[spaces of field histories]] in  terms of [[smooth sets]] (see [below](#Geometry)) and hence (which works verbatim the same way) [[super smooth sets]]. This subsumes the
-case that there are [[fermion|fermionic]] fields such that the [[field bundle]] is a [[supermanifold]].
-(Notice that this does _not_ mean that we consider "[[supersymmetry]]": plain [[supergeometry]] is just the mathematical
-incarnation of the [[Pauli exclusion principle]] for [[fermions]]. )
+We do however consider the proper [[differential geometry]] of the resulting [[spaces of field histories]] in  terms of 
+"[[cohesion|cohesive]] [[functorial geometry]]" embodied by ([[formal smooth set|formal]]) [[smooth sets]]  (see [below](#Geometry)) and hence (which works verbatim the same way) [[super smooth sets]]. This seamlessly subsumes the case that there are [[fermion|fermionic]] fields in the theory (as in any realistic field theory).
+Notice that this does _not_ mean that we consider "[[supersymmetry]]" (though of course we could): 
+plain [[supergeometry]] is but the mathematical
+incarnation of the [[Pauli exclusion principle]] for [[fermions]], a key aspect of the [[stability of matter]] in the [[observable universe]].
 
-This comparatively simple setup already subsumes what is considered in most traditional texts on the subject. In subsequent sections we will eventually discuss more general situations, where spacetime is allowed to be [[globally hyperbolic Lorentzian manifold]] and the [[field bundle]] to be a [[super L-infinity algebra|super]]-[[derived Lie algebroid]]. This is then sufficient generality to capture the established perturbative [[BV formalism|BRST-BV quantization]] of [[gauge fields]] coupled to [[fermions]] [[AQFT on curved spacetime|on curved spacetimes]].
+This comparatively simple setup already subsumes what is considered in most traditional texts on the subject. In subsequent sections we eventually discuss more general situations, where spacetime is allowed to be [[globally hyperbolic Lorentzian manifold]] and the [[field bundle]] to be a [[super L-infinity algebra|super]]-[[derived Lie algebroid]]. This is then sufficient generality to capture the established perturbative [[BV formalism|BRST-BV quantization]] of [[gauge fields]] coupled to [[fermions]] [[AQFT on curved spacetime|on curved spacetimes]]
+-- which is the state of the art.
 Further generalization, necessary for the discussion of global topological effects such as [[instanton]] configurations
-of [[gauge fields]] will be discussed elsewhere.
+of [[gauge fields]] will be discussed elsewhere (see at _[[homotopical algebraic quantum field theory]]_).
 
 Throughout we use the case of the real [[scalar field]] as an illustrative running example, which we develop alongside with the theory. The discussion of other types of [[field (physics)|fields]] that are of more genuine interest in applications is postponed to their dedicated chapters below.
 
@@ -4151,23 +4168,23 @@ $\,$
 
 ## Gauge symmetries
  {#GaugeSymmetries}
- 
+
 The existence of the [[covariant phase space]] (prop. \ref{CovariantPhaseSpace}) of a [[Lagrangian field theory]]
 requires the existence of [[Cauchy surfaces]] (def. \ref{CauchySurface}) for its [[Euler-Lagrange equation|Euler-Lagrange]] [[equations of motion]]. In general these may not exist. An [[obstruction]] to their existence turns out to be (prop. \ref{NonTrivialImplicitInfinitesimalGaugeSymmetriesPbstructExistenceOfCauchySurfaces} below)
-the presence of certain[[infinitesimal symmetries of the Lagrangian]] (def. \ref{SymmetriesAndConservedCurrents}) 
+the presence of certain[[infinitesimal symmetries of the Lagrangian]] (def. \ref{SymmetriesAndConservedCurrents})
 which reflect "implicit" non-trivial [[infinitesimal gauge transformations]] (def. \ref{ImplicitInfinitesimalGaugeSymmetry}
 and example \ref{TrivialImplicialInfinitesimalGaugeTransformations} below). This [[obstruction]] is neatly
-captured by the [[cochain cohomology]] of a [[cochain complex]] induced by the [[equations of motion]], 
+captured by the [[cochain cohomology]] of a [[cochain complex]] induced by the [[equations of motion]],
 which is called the _[[BV-complex]]_ (def. \ref{BVComplexOfOrdinaryLagrangianDensity} and prop. \ref{BVComplexIsHomologicalResolutionPreciselyIfNoNonTrivialImplicitGaugeSymmetres} below).
 
-Making these "implicit" [[infinitesimal gauge transformations]] explicit means to consider the 
-infinitsimal [[homotopy quotient]] of their [[action]] on the [[field bundle]], 
+Making these "implicit" [[infinitesimal gauge transformations]] explicit means to consider the
+infinitsimal [[homotopy quotient]] of their [[action]] on the [[field bundle]],
 represented by their [[action Lie algebroid]]. The ("[[Chevalley-Eilenberg algebra|Chevalley-Eilenberg]]"-)algebra
 of functions on this "field bundle with infinitesimal gauge symmetries made explicit" is called the _[[BRST complex]]_.
 In it the formerly implicit infinitesimal gauge symmetries appear in the guise of [[field (physics)|field]] variables
 of positive grading in a [[differential graded-commutative algebra]]. These are called _[[gauge fields]]_.
 
-The [[cochain cohomology]] of the [[BRST complex]] in degree 0 is the space of  [[gauge invariance|gauge invariant]] local observables, 
+The [[cochain cohomology]] of the [[BRST complex]] in degree 0 is the space of  [[gauge invariance|gauge invariant]] local observables,
 in particular the original [[Lagrangian density]]. The [[BV-complex]] of the Lagrangian with
 its infinitesimal gauge symmetries made explicit this way is called the _[[BV-BRST complex]]_.
 In good cases this admits a modification by "[[gauge fixing]]" that renders its co-connective piece
@@ -4176,7 +4193,7 @@ of the original [[field (physics)|fields]] together with the [[ghost fields]] do
 hence may be quantized. In [[BV-quantization]] below one proves that quantization ([[renormalization]])
 may be found so that the [[BV-differential]] passes to the [[algebra of quantum observables]] of
 the field-ghost system. This allows to remove the spurious gauge fields again after quantization by
-passing to the quantum BV-cohomology in degree 0. The result is then the desired quantization of the 
+passing to the quantum BV-cohomology in degree 0. The result is then the desired quantization of the
 original field theory.
 
 $$
@@ -4277,7 +4294,7 @@ $$
 
 =--
 
-(compare to [Hennaux-Teitelboim 91 (3.6b)](#HennauxTeitelboim91))
+(compare to [Hennaux-Teitelboim 91 (3.6b)](gauge+theory#HennauxTeitelboim91))
 
 
 
@@ -4323,6 +4340,8 @@ Moreover this means of course that $\epsilon$ vanishes [[on-shell]] (def. \ref{E
 and therefore these $\epsilon$ are called the _trivial_ implicit infinitesimal gauge symmetries.
 
 =--
+
+(e.g. [Hennaux-Teitelboim 91, 3.1.5](gauge+theory#HennauxTeitelboim91))
 
 As the name suggests, infinitesimal gauge symmetries of a Lagrangian field theory
 are particular [[infinitesimal symmetries of the Lagrangian]]:
@@ -4412,7 +4431,7 @@ $$
 In the literature
 the "implicit" infinitesimal gauge symmetries of def. \ref{ImplicitInfinitesimalGaugeSymmetry}
 are usually just called "infinitesimal gauge symmetries", or even just "gauge symmetries", for short
-(e.g. [Hennaux-Teitelboim 91 (3.6b)](#HennauxTeitelboim91)).
+(e.g. [Hennaux-Teitelboim 91 (3.6b)](gauge+theory#HennauxTeitelboim91)).
 We do say "implicit" here to distinguish them from their "explicit" incarnations
 [[action Lie algebroid|acting]] on [[field (physics)|fields]]:
 the morphisms in the [[action Lie algebroid]] whose [[Chevalley-Eilenberg algebra]]
@@ -4455,6 +4474,8 @@ $$
 $$
 
 =--
+
+(An informal version of this statement appears for instance in [Hennaux-Teitelboim 91, end of section 3.1.3](gauge+theory#HennauxTeitelboim91).)
 
 +-- {: .proof}
 ###### Proof
@@ -4733,9 +4754,9 @@ $$
 
 is called the _[[BV-complex]]_ (an example of a [[Koszul complex]]) of the Lagrangian field theory.
 
-On a [[field bundle]] which is a [[trivial vector bundle]] we may consider 
+On a [[field bundle]] which is a [[trivial vector bundle]] we may consider
 just [[formal power series]] in the field derivative coordinates on the jet bundle
-and independent of the spacetime coordinates. The corresponding BV-complex we denote $PolyLocObs_{BV}$, 
+and independent of the spacetime coordinates. The corresponding BV-complex we denote $PolyLocObs_{BV}$,
 
 There is a canonical homomorphism of [[dgc-algebras]]
 
@@ -4747,7 +4768,7 @@ $$
 
 =--
 
-The BV-complex (def. \ref{BVComplexOfOrdinaryLagrangianDensity}) provides an organization of the 
+The BV-complex (def. \ref{BVComplexOfOrdinaryLagrangianDensity}) provides an organization of the
 concepts of implicit [[infinitesimal gauge symmetries]] in terms of [[homological algebra]]:
 
 +-- {: .num_example #InterpretationCohomologyOfBVComplex}
@@ -4769,8 +4790,8 @@ the [[cochain cohomology]] in this degree is the [[quotient ring]]
 
 $$
   \begin{array}
-    H^0(PolyLocObs_{BV}) 
-      & \simeq 
+    H^0(PolyLocObs_{BV})
+      & \simeq
     \Omega^{0,0}_{\Sigma,poly}(E) / ( \delta_{EL}\mathbf{L} )
     \\
     & = LocObs
@@ -4779,7 +4800,7 @@ $$
 
 of polynomial functions [[on-shell]].
 
-In degree -1 the [[kernel]] of the [[BV-differential]] going to degree 0 
+In degree -1 the [[kernel]] of the [[BV-differential]] going to degree 0
 
 $$
   ker( \Gamma_\Sigma^{ev}(V_\Sigma(E)) \overset{\delta_{BV}}{\to} \Omega^{0,0}_\Sigma(E))
@@ -4804,8 +4825,8 @@ modulo the trivial ones:
 
 $$
   \label{NegativeOneCohomologyBV}
-  H^{-1}( LocObs_BV ) 
-    \simeq 
+  H^{-1}( LocObs_BV )
+    \simeq
   \frac{
     \left\{
       \text{implicit infinitesimal gauge transformations}
@@ -4824,15 +4845,15 @@ $$
 ###### Proposition
 **([[BV-complex]] is [[homological resolution]] of the [[shell]] precisely if there are no non-trivial implicit [[infinitesimal gauge symmetries]])**
 
-Let $(E, \mathbf{L})$ be a [[Lagrangian field theory]] such that 
+Let $(E, \mathbf{L})$ be a [[Lagrangian field theory]] such that
 
-1. the [[field bundle]] $E$ is a [[trivial vector bundle]] 
+1. the [[field bundle]] $E$ is a [[trivial vector bundle]]
 
 1. the [[Lagrangian density]] $\mathbf{L}$ is polynomial $\mathbf{L} \in \Omega^{p+1,0}_{\Sigma,poly}(E)$,
    of globally bounded order in the field derivatives,
    and at least quadratic in the vertical coordinates (fields and their derivatives).
 
-Then the polynomial BV-complex $PolyLocObs_{BV}$ of local observables (def. \ref{BVComplexOfOrdinaryLagrangianDensity}) is a [[homological resolution]] of the polynomial functions on the shell 
+Then the polynomial BV-complex $PolyLocObs_{BV}$ of local observables (def. \ref{BVComplexOfOrdinaryLagrangianDensity}) is a [[homological resolution]] of the polynomial functions on the shell
 
 $$
   PolyLocObs_\Sigma \overset{\simeq_{qi}}{\longrightarrow} PolyLocObs \coloneqq \Omega^{0,0}_{\Sigma,poly}(E)/(\delta_{EL}\mathbf{L})
@@ -4849,7 +4870,7 @@ precisely if there is no non-trivial (example \ref{TrivialImplicialInfinitesimal
 By example \ref{InterpretationCohomologyOfBVComplex} the vanishing of non-trivial implicit infinitesimal
 gauge symmetries is equivalent to the vanishing of the cohchain cohomology of the BV-complex in degree -1 (eq:NegativeOneCohomologyBV).
 
-Therefore the statement to be proven is 
+Therefore the statement to be proven is
 equivalently that the [[Koszul complex]] of the sequence of elements
 
 $$
@@ -4859,10 +4880,10 @@ $$
 $$
 
 is a [[homological resolution]] of $PolyLocObs$, hence has vanishing cohomology in all negative degrees,
-already if it has vanishing cohomology in degree -1. 
+already if it has vanishing cohomology in degree -1.
 
-By a standard fact about [[Koszul complexes]] ([this prop.](Koszul+complex#KoszulResolutionForNoetherianRngAndElementsInJacobson)) 
-a sufficient condition for this to be the case is that 
+By a standard fact about [[Koszul complexes]] ([this prop.](Koszul+complex#KoszulResolutionForNoetherianRngAndElementsInJacobson))
+a sufficient condition for this to be the case is that
 
 1. the ring $\Omega^{0,0}_{\Sigma,poly}(E)$ is a [[Noetherian ring]];
 
@@ -4996,10 +5017,6 @@ But [[perturbative quantum field theory]] is well understood. This we turn to ne
 * [[main theorem of perturbative renormalization]]
 
 ...
-
-## References
-
-* {#HennauxTeitelboim91} [[Marc Henneaux]], [[Claudio Teitelboim]], _Quantization of Gauge Systems_, Princeton University Press 1991
 
 
 $\,$
