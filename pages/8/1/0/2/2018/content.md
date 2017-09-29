@@ -31,11 +31,29 @@ Spectra of noetherian rings are glued together to define [[noetherian scheme|loc
 
 ## Examples
 
-* Every [[field]] is a noetherian ring.
 
-* Every [[principal ideal domain]] is a noetherian ring
++-- {: .num_example #FieldIsNoetherianRing}
+###### Example
 
-* ...
+Every [[field]] is a noetherian ring.
+
+=--
+
+
++-- {: .num_example #PIDIsNoetherianRing}
+###### Example
+
+Every [[principal ideal domain]] is a noetherian ring.
+
+=--
+
+
++-- {: .num_example #PolynomialAlgebraOverNoetherianRingIsNoetherian} 
+###### Example
+
+For $R$ a [[Noetherian ring]] (e.g. a [[field]] by example \ref{FieldIsNoetherianRing}) then the [[polynomial algebra]] over $R$ in a [[finite number]] of [[coordinates]] is Noetherian.
+
+=--
 
 ## Properties 
 
