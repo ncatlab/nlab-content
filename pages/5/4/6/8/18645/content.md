@@ -1636,36 +1636,38 @@ is independent of the spacetime coordinate $(x^\mu)$, then the same evidently ho
 Therefore in this case the [[shell]] (eq:ShellInJetBundle) is itself a [[trivial bundle]] over spacetime
 
 $$
-  \mathcal{E} = \Sigma \times \mathcal{E}_F 
+  \mathcal{E} = \Sigma \times \mathcal{F} 
 $$
 
 with 
 
 $$
   \label{FieldFiberShell}
-  \mathcal{E}_F \hookrightarrow F
+  \mathcal{F} \simeq \mathcal{E}_{x} \phantom{AAAA} \underset{x \in \Sigma}{\forall}
 $$
 
-the subspace of the field fiber on which $\delta_{EL}\mathbf{L}$ vanishes. For instance in the
+being the subspace of the field fiber on which $\delta_{EL}\mathbf{L}$ vanishes. 
+
+For instance in the
 example of the [[free field|free]] [[real scalar field]] (example \ref{FreeScalarFieldEOM}) 
 this is by (eq:RealScalarFieldLEForm) the locus
 
 $$
-  \mathcal{E}_F = \left\{ (\phi, (\phi_{,\mu}), (\phi_{,\mu \nu}) \cdots) \;\vert\;  \eta^{\mu \nu} \phi_{,\mu \nu} + m^2  = 0 \right\}
+  \mathcal{F} = \left\{ (\phi, (\phi_{,\mu}), (\phi_{,\mu \nu}) \cdots) \;\vert\;  \eta^{\mu \nu} \phi_{,\mu \nu} + m^2  = 0 \right\}
   \,.
 $$
 
-Consider moreover the case that the dependence of the Lagrangian density $\mathbf{L}$ on field derivative is globally bounded
-in order of derivatives by some $k \in \matbb{N}$.
-
+Consider moreover the case that the dependence of the Lagrangian density $\mathbf{L}$ on orders of field derivatives is 
+not just locally bounded (as it alsways is due prop. \ref{JetBundleIsLocallyProManifold}) but globally bounded
+by some $k \in \mathbb{N}$ (for instance $k= 1$ in the example of the scalar field and in most examples of relevance in practice). 
 
 Then if
 
 $$
-  \varphi \in \mathcal{E}_F
+  \varphi \in \mathcal{F}
 $$
 
-is any chosen point on the shell, its [[infinitesimal neighbourhood]] inside $\mathcal{E}_F$
+is any chosen point on the shell, its [[infinitesimal neighbourhood]] inside $\mathcal{F}$
 is such that its [[algebra of functions]] is equivalently the [[quotient ring]] of the [[formal power series ring]]
 in the variables 
 
@@ -1683,9 +1685,11 @@ $$
   \label{ObservablesOnInfinitesimalNeighbourhoodOfZeroInShellInFieldFiber}
   LocObs_{\varphi} 
     \coloneqq 
-  \matbb{R}[ [ (\phi^a - \varphi^a ), (\phi^a_{,\mu} -\varphi^a_{,\mu}), \cdots, (\phi^a_{,\mu_1 \cdots \mu_k}- \varphi^a_{,\mu_1 \cdots \mu_l}) ]]/\left( \frac{\delta_{EL} L}{\delta \phi^a}  \right)_{a = 1}^s
+  \mathbb{R}\left[ \left[ (\phi^a - \varphi^a ), (\phi^a_{,\mu} -\varphi^a_{,\mu}), \cdots, (\phi^a_{,\mu_1 \cdots \mu_k}- \varphi^a_{,\mu_1 \cdots \mu_l}) \right] \right]/\left( \frac{\delta_{EL} L}{\delta \phi^a}  \right)_{a = 1}^s
   \,.
 $$
+
+This becomes important when we discuss [[infinitesimal gauge symmetries]] via the [[BV-complex]] [below](#GaugeSymmetries).
 
 
 =--
@@ -4731,7 +4735,7 @@ gauge symmetries "explicit".
 
 For this theory to apply well, we restrict attention to spacetime-independent Lagrangians
 whose dependence on the order of field derivatives is globally bounded (example \ref{ShellForSpacetimeIndependentLagrangians}),
-pick a background solution $\varphi \in \mathcal{E}_F$ and consider the 
+pick a background solution $\varphi \in \mathcal{F}$ and consider the 
 local observables on its [[infinitesimal neighbourhood]] (eq:ObservablesOnInfinitesimalNeighbourhoodOfZeroInShellInFieldFiber).
 
 > this needs to be notationally implemented better in the following
