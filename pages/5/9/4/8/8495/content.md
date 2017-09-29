@@ -15,6 +15,8 @@ In [[physics]]:
 
   * [[local quantum field theory]]
 
+  * [[relativistic quantum field theory]]
+
   * [[Lagrangian quantum field theory]]
 
   * [[perturbative quantum field theory]]
