@@ -18,7 +18,7 @@
 
 For an informal introduction,
 
-* [[John Duncan]], [[Michael Mertens]], [[Ken Ono]], _Pariah moonshine_, Nature Communications 8: 670 (2017), [article](https://www.nature.com/articles/s41467-017-00660-y)
+* [[John Duncan]], [[Michael Mertens]], [[Ken Ono]], _Pariah moonshine_, Nature Communications 8: 670 (2017), [article](https://www.nature.com/articles/s41467-017-00660-y), [arXiv:1709.08867](https://arxiv.org/abs/1709.08867)
 
 For a popular summary,
 
