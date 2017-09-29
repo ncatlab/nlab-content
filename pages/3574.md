@@ -122,17 +122,24 @@ A **proof** is spelled out on [Wikipedia - Properties of Koszul homology](https:
 ###### Example
 **(Koszul complex for formal power series algebras)**
 
-Let $k$ be a [[field]], let $R = k[ [ X_1,\cdots, X_n ] ]$ be a [[formal power series algebra]] over $k$ in $n$ [[variables]], and let $(f_1, \cdots, f_r)$ be formal power series whose constant term vanishes. Then the Koszul complex is a homological resolution:
+Let $k$ be a [[field]], let $R = k[ [ X_1,\cdots, X_n ] ]$ be a [[formal power series algebra]] over $k$ in $n$ [[variables]], and let $(f_1, \cdots, f_r)$ be formal power series whose constant term vanishes. Then the Koszul complex is a homological resolution precisely already if its cohomology in degree -1 vanishes
 
 
 $$
-  K(f_1, \cdots, f_n)
-    \overset{\simeq_{qi}}{\longrightarrow}
-  k[ [X_1, \cdots X_n] ]/(f_1, \cdots, f_r)
+  \left(
+    H^{-1}(K(f_1, \cdots, f_n))
+    = 0
+  \right)
+   \;\Leftrightarrow\;
+  \left(
+    K(f_1, \cdots, f_n)
+      \overset{\simeq_{qi}}{\longrightarrow}
+    k[ [X_1, \cdots X_n] ]/(f_1, \cdots, f_r)
+  \right)
   \,.
 $$
 
-This is because the assumptions of prop. \ref{KoszulResolutionForNoetherianRngAndElementsInJacobson} are met: A formal power series ring over a field is Noetherian ([this examples](noetherian+ring#PolynomialAlgebraOverNoetherianRingIsNoetherian)) and an element of a formal power series algebra is in the Jacobson radical precisely if its constant term vanishes ([this example](Jacobson+radical#JacobsonRadicalOfFormalPowerSeriesAlgebra))
+This is because the assumptions of prop. \ref{KoszulResolutionForNoetherianRngAndElementsInJacobson} are met: A formal power series ring over a field is Noetherian ([this example](noetherian+ring#PolynomialAlgebraOverNoetherianRingIsNoetherian)) and an element of a formal power series algebra is in the Jacobson radical precisely if its constant term vanishes ([this example](Jacobson+radical#JacobsonRadicalOfFormalPowerSeriesAlgebra)).
 
 =--
 
