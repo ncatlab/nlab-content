@@ -51,7 +51,13 @@ Every [[principal ideal domain]] is a noetherian ring.
 +-- {: .num_example #PolynomialAlgebraOverNoetherianRingIsNoetherian} 
 ###### Example
 
-For $R$ a [[Noetherian ring]] (e.g. a [[field]] by example \ref{FieldIsNoetherianRing}) then the [[polynomial algebra]] over $R$ in a [[finite number]] of [[coordinates]] is Noetherian.
+For $R$ a [[Noetherian ring]] (e.g. a [[field]] by example \ref{FieldIsNoetherianRing}) then 
+
+1. the [[polynomial algebra]]  $R[X_1, \cdots, X_n]$
+
+1. the [[formal power series algebra]] $R[ [ X_1, \cdots, X_n ] ]$
+
+over R in a [[finite number]] $n$ of [[coordinates]] are Noetherian.
 
 =--
 
