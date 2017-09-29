@@ -55,13 +55,13 @@ This comes about (see at _[S-matrix -- Feynman diagrams and Renormalization](S-m
    $$
      S\left(\tfrac{g}{\hbar} L_{int} \right)
      = 
-     \underset{k \in \mathbb{N}}{\sum} \frac{g^n}{\hbar^n n!} T( \underset{k \, \text{factors}}{\underbrace{L_{int} \cdots L_{int}}} )
+     \underset{k \in \mathbb{N}}{\sum} \frac{g^k}{\hbar^k k!} T( \underset{k \, \text{factors}}{\underbrace{L_{int} \cdots L_{int}}} )
    $$
 
 1. the further $\hbar$-dependence of the [[time-ordered product]] $T(\cdots)$ is
 
    $$
-     T(L_{int} L_{int}) = prod \circ \exp\left( \hbar \int \omega_{F}(x,y) \frac{\delta}{\delta \phi(x)} \frac{\delta}{\delta \phi(y)} \otimes \right) ( L_{int} \otimes L_{int} )
+     T(L_{int} L_{int}) = prod \circ \exp\left( \hbar \int \omega_{F}(x,y) \frac{\delta}{\delta \phi(x)} \otimes \frac{\delta}{\delta \phi(y)}  \right) ( L_{int} \otimes L_{int} )
      \,,
    $$
 
