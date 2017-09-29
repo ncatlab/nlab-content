@@ -1473,8 +1473,8 @@ $$
 
 +-- {: .num_example #FreeScalarFieldEOM}
 ###### Example
-**([[Euler-Lagrange operator|Euler-Lagrange variation]] and [[presymplectic current]] for   [[free field|free]] [[real scalar field]])**
-the
+**([[Euler-Lagrange operator|Euler-Lagrange variation]] and [[presymplectic current]] for [[free field|free]] [[real scalar field]])**
+
 
 Consider the [[Lagrangian field theory]] of the [[free field|free]] [[real scalar field]]
 from example  \ref{LagrangianForFreeScalarFieldOnMinkowskiSpacetime}.
@@ -1483,6 +1483,7 @@ Then the [[Euler-Lagrange operator|Euler-Lagrange form]] and [[presymplectic cur
 (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}) are
 
 $$
+  \label{RealScalarFieldLEForm}
   \delta_{EL}\mathbf{L}
   \;=\;
   \left(\eta^{\mu \nu} \phi_{,\mu \nu} + m^2 \right) \delta \phi \wedge dvol_\sigma
@@ -1609,6 +1610,86 @@ $$
 $$
 
 =--
+
+Example \ref{FreeScalarFieldEOM} is in particular a special case of the following
+important situation.
+
++-- {: .num_prop #ShellForSpacetimeIndependentLagrangians}
+###### Example
+**([[Euler-Lagrange operator|Euler-Lagrange variation]] for [[spacetime]]-independent [[Lagrangian densities]])**
+
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
+whose [[field bundle]] $E$ is a [[trivial vector bundle]] $E \simeq \Sigma \times F$ over [[Minkowski spacetime]] $\Sigma$
+(example \ref{TrivialVectorBundleAsAFieldBundle}).
+
+In general the [[Lagrangian density]] $\mathbf{L}$ is a function of all the spacetime and field coordinates
+
+$$
+  \mathbf{L} = L((x^\mu), (\phi^a), (\phi^a_{,\mu}), \cdots) dvol_\Sigma
+  \,.
+$$
+
+In the special case that $\mathbf{L}$ is _[[spacetime]] independent_ in that the Lagrangian funtion $L$
+is independent of the spacetime coordinate $(x^\mu)$, then the same evidently holds for the [[Euler-Lagrange form]] $\delta_{EL}\mathbf{L}$
+(prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}).
+
+Therefore in this case the [[shell]] (eq:ShellInJetBundle) is itself a [[trivial bundle]] over spacetime
+
+$$
+  \mathcal{E} = \Sigma \times \mathcal{E}_F 
+$$
+
+with 
+
+$$
+  \label{FieldFiberShell}
+  \mathcal{E}_F \hookrightarrow F
+$$
+
+the subspace of the field fiber on which $\delta_{EL}\mathbf{L}$ vanishes. For instance in the
+example of the [[free field|free]] [[real scalar field]] (example \ref{FreeScalarFieldEOM}) 
+this is by (eq:RealScalarFieldLEForm) the locus
+
+$$
+  \mathcal{E}_F = \left\{ (\phi, (\phi_{,\mu}), (\phi_{,\mu \nu}) \cdots) \;\vert\;  \eta^{\mu \nu} \phi_{,\mu \nu} + m^2  = 0 \right\}
+  \,.
+$$
+
+Consider moreover the case that the dependence of the Lagrangian density $\mathbf{L}$ on field derivative is globally bounded
+in order of derivatives by some $k \in \matbb{N}$.
+
+
+Then if
+
+$$
+  \varphi \in \mathcal{E}_F
+$$
+
+is any chosen point on the shell, its [[infinitesimal neighbourhood]] inside $\mathcal{E}_F$
+is such that its [[algebra of functions]] is equivalently the [[quotient ring]] of the [[formal power series ring]]
+in the variables 
+
+$$
+  ((\phi^a- \varphi^a), 
+   (\phi^a_{,\mu}- \varphi^a_{,\mu}), 
+   \cdots, 
+   (\phi^a_{,\mu_1 \cdots \mu_k} - \varphi^a_{,\mu_1 \cdots \mu_k})  
+  )
+$$ 
+
+by the  components of the [[Euler-Lagrange form]]. We denote this by
+
+$$
+  \label{ObservablesOnInfinitesimalNeighbourhoodOfZeroInShellInFieldFiber}
+  LocObs_{\varphi} 
+    \coloneqq 
+  \matbb{R}[ [ (\phi^a - \varphi^a ), (\phi^a_{,\mu} -\varphi^a_{,\mu}), \cdots, (\phi^a_{,\mu_1 \cdots \mu_k}- \varphi^a_{,\mu_1 \cdots \mu_l}) ]]/\left( \frac{\delta_{EL} L}{\delta \phi^a}  \right)_{a = 1}^s
+  \,.
+$$
+
+
+=--
+
 
 The following fact is immediate from prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime},
 but of central importance:
@@ -4200,9 +4281,7 @@ $$
   \array{
      \left\{
         \array{
-           \text{Lagrangian field theory }
-           \\
-           \text{with}
+           \text{Lagrangian field theory with}
            \\
            \text{implicit infinitesimal gauge transformations}
         }
@@ -4210,9 +4289,7 @@ $$
      &\overset{\text{adjoin ghost fields}}{\longrightarrow}&
      \left\{
         \array{
-           \text{Lagrangian field theory }
-           \\
-           \text{with}
+           \text{graded Lagrangian field theory with}
            \\
            \text{explicit infinitesimal gauge transformations}
            \\
@@ -4225,7 +4302,7 @@ $$
      \\
      \left\{
        \array{
-         \text{gauge invarant}
+         \text{gauge invariant}
          \\
          \text{quantum observables}
        }
@@ -4233,9 +4310,7 @@ $$
      &\underset{\text{pass to cohomology}}{\longleftarrow}&
      \left\{
         \array{
-           \text{quantum field theory }
-           \\
-           \text{with}
+           \text{graded quantum observables with}
            \\
            \text{explicit infinitesimal gauge transformations}
            \\
@@ -4649,8 +4724,17 @@ is a solution, with the same initial Cauchy data.
 =--
 
 
-There is the following equivalent reformulation of this obstruction in terms of [[homological algebra]]:
+There turns out to be an equivalent reformulation of this obstruction (prop. \ref{NonTrivialImplicitInfinitesimalGaugeSymmetriesPbstructExistenceOfCauchySurfaces}) in terms of [[homological resolutions]]
+(prop. \ref{BVComplexIsHomologicalResolutionPreciselyIfNoNonTrivialImplicitGaugeSymmetres} below)
+which paves the way to understanding the _lifting_ of these obstructions by making "implicit"
+gauge symmetries "explicit".
 
+For this theory to apply well, we restrict attention to spacetime-independent Lagrangians
+whose dependence on the order of field derivatives is globally bounded (example \ref{ShellForSpacetimeIndependentLagrangians}),
+pick a background solution $\varphi \in \mathcal{E}_F$ and consider the 
+local observables on its [[infinitesimal neighbourhood]] (eq:ObservablesOnInfinitesimalNeighbourhoodOfZeroInShellInFieldFiber).
+
+> this needs to be notationally implemented better in the following
 
 +-- {: .num_defn #BVComplexOfOrdinaryLagrangianDensity}
 ###### Definition
@@ -4785,17 +4869,17 @@ $$
   im( \Gamma_\Sigma^{ev}(V_\Sigma(E)) \overset{\delta_{BV}}{\to} \Omega^{0,0}_\Sigma(E))
 $$
 
-is the ideal of functions that vanish [[on-shell]]. Since the differential _from_ degree 0 to degree 1 vanishes,
+is the ideal of functions that vanish [[on-shell]]. Since the differential going _from_ degree 0 to degree 1 vanishes,
 the [[cochain cohomology]] in this degree is the [[quotient ring]]
 
 $$
-  \begin{array}
+  \begin{aligned}
     H^0(PolyLocObs_{BV})
       & \simeq
     \Omega^{0,0}_{\Sigma,poly}(E) / ( \delta_{EL}\mathbf{L} )
     \\
     & = LocObs
-  \end{array}
+  \end{aligned}
 $$
 
 of polynomial functions [[on-shell]].
