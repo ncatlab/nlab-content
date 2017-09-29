@@ -25,9 +25,12 @@ Field theories with [[WZW terms]] and [[higher WZW terms]] are (only) locally va
 
 Beware that this is not an exotic situation: already the Lagrangian density for the [[charged particle]], regarded as a field theory on its [[worldline]], coupled to an [[electromagnetic field]] with non-trivial [[magnetic charge]] ([[first Chern class]]) is of this form: the [[interaction]] term which gives the [[Lorentz force]] is an example of a non-trivial [[WZW term]] as above.
 
-## Rerences
+## References
 
 * _[[schreiber:Higher Structures]]_
 
 
 [[!redirects locally variational field theories]]
+
+[[!redirects locally variational quantum field theory]]
+[[!redirects locally variational quantum field theories]]
