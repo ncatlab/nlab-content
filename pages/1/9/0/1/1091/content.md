@@ -78,7 +78,7 @@ The concept of base change generalises from this case to other [[fibered categor
 ###### Proposition
 
 
-For $\mathbf{H}$ a [[topos]] (or [[(∞,1)-topos]], etc.) $f : X \to Y$ a [[morphism]] in $\mathbf{H}$, then base change induces an [[essential geometric morphism]] betwen over-toposes/[[over-(∞,1)-topos]]es
+For $\mathbf{H}$ a [[topos]] (or [[(∞,1)-topos]], etc.) $f : X \to Y$ a [[morphism]] in $\mathbf{H}$, then base change induces an [[essential geometric morphism]] between over-toposes/[[over-(∞,1)-topos]]es
 
 $$
   (\sum_f \dashv f^* \dashv \prod_f) : \mathbf{H}/X 
