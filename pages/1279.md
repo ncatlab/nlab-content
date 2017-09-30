@@ -456,7 +456,7 @@ The [[cut rule]] expresses the composition of proofs.  Gentzen's main result ([G
 
 The most important property of cut-free proofs is that every formula occurring anywhere in a proof is a subformula of a formula contained in the conclusion of the proof (the _subformula property_).  This makes induction over proof-trees much more straightforward than with [[natural deduction]] or other systems.
 
-See [[cut elimination]] (if we ever write it).
+See [[cut elimination]].
 
 
 ## Related entries
