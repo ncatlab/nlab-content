@@ -63,7 +63,7 @@ $$ H_q(x_1,\ldots,x_r; A) = H_q(K(x_1,\ldots,x_r)\otimes_R A), $$
 
 $$ H^q(x_1,\ldots,x_r;A) = H^q(Hom_R(K(x_1,\ldots,x_r),A)), $$
 
-together with [[connecting homomorphisms]], form a homological and cohomological [[delta functor]] (in the sense of [[nlab:Tohoku]]) respectively, deriving the zero parts
+together with [[connecting homomorphisms]], form a homological and cohomological [[delta-functor]] (in the sense of [[nlab:Tohoku]]) respectively, deriving the zero parts
 
 $$ H_0 = A/(x_1,\ldots,x_r)A$$
 
