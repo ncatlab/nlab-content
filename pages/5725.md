@@ -8,5 +8,5 @@ __Dennis Gaitsgory__ is a mathematician at Harvard. His research is in represent
 
 * [[D. Gaitsgory]], [[N. Rozenblyum]], _[[A study in derived algebraic geometry]]_.
 
-
+* Informal notes on the [[Fargues-Fontaine curve]] with [[Jacob Lurie]].
 [[!redirects D. Gaitsgory]]
