@@ -9,4 +9,4 @@
 
 * Jared Weinstein, _[The Fundamental Curve of p-adic Hodge Theory, Part II](https://galoisrepresentations.wordpress.com/2013/08/12/the-fundamental-curve-of-p-adic-hodge-theory-part-ii/)_
 
-* Harvard Seminar on Fargues-Fontiane Curve ([Informal Notes](http://www.math.harvard.edu/~lurie/FF.html) by Lurie, Gaitsgory etc)
+* Harvard Seminar on Fargues-Fontiane Curve ([Informal Notes](http://www.math.harvard.edu/~lurie/FF.html) by [[Jacob Lurie]], [[Dennis Gaitsgory]], etc.)
