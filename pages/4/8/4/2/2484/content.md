@@ -29,7 +29,7 @@ To see this, note that by the [[Yoneda lemma]] a [[scheme]] may be identified wi
 
 The functor of points approach has the advantage of making certain constructions much simpler (e.g. the [[fibered product]] in the category of schemes), and eliminating the need for certain constructions like the [[Zariski spectrum]]. In his famous [1973 Buffalo Colloquium talk](#Grothendieck73), [[Alexander Grothendieck]] urged that his earlier definition of scheme via [[locally ringed spaces]] should be abandoned in favour of the functorial point of view.
 
-Of course, the above discussion generalizes to other types of [[geometry]] and even [[higher geometry]]. For more see at _[[space]]_.
+Of course, the above discussion generalizes to other types of [[geometry]] and even [[higher geometry]], the general perspective being known as _[[synthetic differential geometry]]_ or similar.  For discussion of functorial ([[higher differential geometry|higher]]) [[differential geometry]] see for instance at _[[smooth set]]_ ([[smooth ∞-groupoid]]), for discussion of functorial [[supergeometry]] see at _[[super formal smooth set]]_ ([[super formal smooth ∞-groupoid]]).
 
 ##Example
 
