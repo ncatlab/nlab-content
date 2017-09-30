@@ -133,6 +133,10 @@ Application to [[moduli stack of elliptic curves]]:
 * J. Lurie, _On simply laced Lie algebras and their minuscule representations_, Comment. Math. Helv. 76:3, 515-575 (2001)
 [doi](http://dx.doi.org/10.1007/PL00013217)
 
+##Other material
+
+* Informal notes on the [[Fargues-Fontaine curve]] with [[Dennis Gaitsgory]].
+
 category: people
 
 [[!redirects J. Lurie]]
