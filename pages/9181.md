@@ -31,6 +31,8 @@
 
 * [[meson]]
 
+  * [[pion]]
+
 * [[baryon]]
 
   * [[proton]]
