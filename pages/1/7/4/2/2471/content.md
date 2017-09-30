@@ -26,7 +26,7 @@ An _affinoid algebra_ is a local model for [[analytic spaces]] in [[analytic geo
 Let $K$ be a [[complete normed field|complete]] [[non-archimedean valued field]]. 
 
 As a [[ring]], a __standard affinoid algebra__ (or Tate algebra) $T_{n,K}$ is the subring of the ring of 
-[[formal power series in $K[ [x_1, \ldots, x_n] ]$ consisting of all strictly [[convergence|converging]] series $ c= \sum_I c_I x^I$, that is such that $|c_I|\to 0$ as $I\to \infty$. 
+[[formal power series]] in $K[ [x_1, \ldots, x_n] ]$ consisting of all strictly [[convergence|converging]] series $ c= \sum_I c_I x^I$, that is such that $|c_I|\to 0$ as $I\to \infty$. 
 
 There is a [[Gauss norm]] on such series $\|\sum_I c_I x^I \| = max\{|c_I|\}_I$. This is indeed a [[norm]] making $T_{n,K}$ into a Banach $K$-algebra of countable type. 
 
