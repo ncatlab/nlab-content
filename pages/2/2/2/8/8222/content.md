@@ -85,3 +85,7 @@ A textbook account is for instance section 2.1 of
 [[!redirects universal ∞-functor]]
 [[!redirects universal ∞-functors]]
 
+[[!redirects delta functor]]
+[[!redirects delta functors]]
+[[!redirects ? functor]]
+[[!redirects ? functors]]
