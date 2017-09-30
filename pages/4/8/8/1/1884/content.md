@@ -780,7 +780,7 @@ $$
 For $S^2$ the [[Euclidean space|Euclidean]] [[2-sphere]], write
 
 $$
-  h \in Vect_{\mathbb{C}}(S^2) \ongrightarrow K_{\mathbb{C}}(S^2)
+  h \in Vect_{\mathbb{C}}(S^2) \longrightarrow K_{\mathbb{C}}(S^2)
 $$
 
 for the complex topological K-theory class of the [[basic complex line bundle on the 2-sphere]].
