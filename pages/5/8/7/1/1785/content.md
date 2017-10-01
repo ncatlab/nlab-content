@@ -1,8 +1,8 @@
-&#1042;&#1083;&#1072;&#1076;&#1080;&#1084;&#1080;&#1088; &#1042;&#1086;&#1077;&#1074;&#1086;&#1076;&#1089;&#1082;&#1080;&#1081; (who publishes in English as Vladimir Voevodsky) ([web site](http://www.math.ias.edu/~vladimir/Site3/home.html)) is a Russian mathematician working in the Institute for Advanced Study.
+&#1042;&#1083;&#1072;&#1076;&#1080;&#1084;&#1080;&#1088; &#1042;&#1086;&#1077;&#1074;&#1086;&#1076;&#1089;&#1082;&#1080;&#1081; (who published in English as Vladimir Voevodsky) ([web site](http://www.math.ias.edu/~vladimir/Site3/home.html)) was a Russian mathematician working in the Institute for Advanced Study.
 
 He received a [[Fields medal]] in 2002 for a [[proof]] of the [[Milnor conjecture]]. The proof crucially uses [[A1-homotopy theory]] and [[motivic cohomology]] developed by Voevodsky for this purpose. In further development of this in 2009 Voevodsky announced a proof of the [[Bloch-Kato conjecture]].
 
-After this work in [[algebraic geometry]], [[cohomology]] and [[homotopy theory]] Voevodsky turned to the [[foundations of mathematics]] and is now working on [[homotopy type theory]] which he is advertising as a new "[[univalence|univalent]] foundations" for modern mathematics with its emphasis on [[homotopy theory]] and [[higher category theory]].
+After this work in [[algebraic geometry]], [[cohomology]] and [[homotopy theory]] Voevodsky turned to the [[foundations of mathematics]] and worked on [[homotopy type theory]] which he described as a new "[[univalence|univalent]] foundations" for modern mathematics with its emphasis on [[homotopy theory]] and [[higher category theory]].
 
 ## Related entries
 
