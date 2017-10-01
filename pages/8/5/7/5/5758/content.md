@@ -27,18 +27,29 @@ More generally there are [[model structures]] on [[dg-modules]] over a [[dg-cate
 
 ## Definition
 
-+-- {: .num_theorem}
++-- {: .num_theorem #ProjectiveModelStructure}
 ###### Theorem
+**(projective model structure)**
 
-There is a [[cofibrantly generated model structure]] on the category of [[dg-modules]], called the **projective model structure**, where the [[weak equivalences]] are object-wise [[quasi-isomorphisms]] of [[chain complexes]], and the [[fibrations]] are object-wise [[epimorphisms]]. 
+There is a [[cofibrantly generated model structure]] on the category of [[dg-modules]], called the **projective model structure**, where 
+
+1. the [[weak equivalences]] are object-wise [[quasi-isomorphisms]] of [[chain complexes]], 
+
+1. the [[fibrations]] are object-wise [[epimorphisms]]. 
+
 Moreover, this is a [[dg-model structure]].
 
 =--
 
-+-- {: .num_theorem}
++-- {: .num_theorem #InjectveModelStructure}
 ###### Theorem
+**(injective model structure)
 
-There is a [[model structure]] on the category of [[dg-modules]], called the **injective model structure**, where the [[weak equivalences]] are object-wise [[quasi-isomorphisms]] of [[chain complexes]], and the [[cofibrations]] are object-wise [[monomorphisms]].
+There is a [[model structure]] on the category of [[dg-modules]], called the **injective model structure**, where 
+
+1. the [[weak equivalences]] are object-wise [[quasi-isomorphisms]] of [[chain complexes]], 
+
+1. and the [[cofibrations]] are object-wise [[monomorphisms]].
 
 =--
 
