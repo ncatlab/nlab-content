@@ -5248,7 +5248,7 @@ The $d_W$-exact elements in this degree are sums of
 
 =--
 
-+-- {: .proof}
++-- {: .proof #PointerForIgor}
 ###### Proof
 
 
@@ -5469,30 +5469,6 @@ $\,$
 
 $\,$
 
-
-$$
-  \frac{\partial v^{a\mu}}{ \partial x^\mu} \frac{\partial A}{\partial \phi^a} dvol_\Sigma
-  + 
-$$
-
-$$
-  d A
-$$
-
-$$  
-  (d v^{a \mu}) \frac{\partial}{\partial \phi^a} A \iota_{\partia_\mu} dvol_\Sigma
-$$
-
-$[J_1, J_2]$
-
-$$
-  \mathcal{L}_{v_1} J_2  - \mathcal{L}_{v_2} J_1 
-  =
-$$
-
-$$
- \iota_{\hat v} \delta \Theta
-$$
 
 
 ***
