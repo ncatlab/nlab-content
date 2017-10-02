@@ -1,3 +1,4 @@
+[[!redirects Poincare group]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -242,9 +243,9 @@ In particular, an **elementary particle** in quantum physics is sometimes define
 
 * [[super Poincaré group]]
 
-* [[Poincare Lie algebra]]
+* [[Poincaré Lie algebra]]
 
-  * [[super Poincare Lie algebra]]
+  * [[super Poincaré Lie algebra]]
 
 [[!include table of orthogonal groups and related]]
 
