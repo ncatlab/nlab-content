@@ -628,7 +628,7 @@ The above material is adapted from
 
 aimed at providing proof for the claim in
 
-* {#CostelloGwilliam} [[Kevin Costello]], [[Owen Gwilliam]], section 4.8.1 of _Factorization algebras in perturbative quantum field theory_  ([pdf](https://pdfs.semanticscholar.org/0eb5/652340bb414869764cf5b30feed90597558d.pdf))
+* {#CostelloGwilliam} [[Kevin Costello]], [[Owen Gwilliam]], section 4.8.1 of _[[Factorization algebras in perturbative quantum field theory]]_  ([pdf](https://pdfs.semanticscholar.org/0eb5/652340bb414869764cf5b30feed90597558d.pdf))
 
 See also
 
