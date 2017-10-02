@@ -5210,19 +5210,46 @@ is derived-horizontally closed, $d_W A = 0$, if $s_{\text{BV-BRST}} A = 0$.
 
 $$
   \array{
-    \{0\}
+    \{s_{\text{BV-BRST}}(A)  \}
     \\
-    {\mathllap{s_{BV}}}\uparrow
+    {\mathllap{s_{\text{BV-BRST}}}}\uparrow
     \\
     \{A\} &\underset{d\vert_{\Omega^{p+1,1}_\Sigma} = 0}{\longrightarrow}& 0
   }
 $$
 
+Such $A$ is exact $d_W$-exact if it is a sum of a term that vanishes on-shell and a horizontally exact term.
 
-Among the horizontally exact forms are now in particular those coming from 
-an implicit infinitesimal gauge symmetry $v$ regarded as an [[antifield]] $v^a \overline{\phi}_a$ 
+Hence if we now define the local observables to be the horizontal cohomology,
+we get precisely the gauge-invariant on-shell local observables.
+
+
++-- {: .num_prop #dWCohomology}
+###### Proposition
+**($d_W$-cohomology)**
+
+The $d_W$-closed elements in degree $(p,0)$ are precisely pairs $(v,J_v)$
+consisting of an implicit infinitesimal local gauge symmetry $$ and a conserved current $J_v$ for it.
+
+The $d_W$-exact elements in this degree are sums of 
+
+1. $d$-exact currents;
+
+1. on-shell vanishing implicit gauge transformations;
+
+1. on-shell vanishing currents with their horizontally exact gauge transformations
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+
+The $d_W$-closed element are 
+the implicit infinitesimal gauge symmetries $v$ regarded as an [[antifield]] $v^a \overline{\phi}_a$ 
 multiplied with the [[volume form]] $dvol_\Sigma$
-together with its Noether current $J_v \in \Omega^{p,0}_\Sigma(E)$ (prop. \ref{NoethersFirstTheorem})
+together with their Noether current $J_v \in \Omega^{p,0}_\Sigma(E)$ (prop. \ref{NoethersFirstTheorem})
 
 
 $$
@@ -5232,11 +5259,36 @@ $$
     && \uparrow\mathrlap{s_{BV}}
     \\
     && \{ v^a \overline{\phi}_a dvol_\Sigma\}
+  } 
+$$
+
+
+
+Such a pair is exact if 
+
+$$
+  \array{
+    \{K\}
+     &\overset{d}{\longrightarrow}&
+    \{ d K + v^{a \mu} \frac{\delta_{EL}L}{\delta \phi^a} \iota_{\partial_\mu} dvol_\Sigma   \} &\overset{d}{\longrightarrow}& \{ \overset{= 0}{\overbrace{ d J_v - \iota_v \delta_{EL}\mathbf{L} }} \}
+    \\
+    && \mathllap{s_{BV}}\uparrow && \uparrow\mathrlap{s_{BV}}
+    \\
+    && v^{a \mu} \overline{\phi}_a \iota_{\partial_\mu} dvol_\Sigma 
+      &\underset{-d}{\longrightarrow}& 
+    \{ v^a \overline{\phi}_a dvol_\Sigma\}
+    \\
+    && && \uparrow\mathrlap{s_{BV}}
+    \\
+    && 
+    && \kappa^{a b } \overline{\phi}_a \overline{\phi}_b dvol_\Sigma
   }
 $$
 
-Hence if we now define the local observables to be the horizontal cohomology,
-we get precisely the gauge-invariant on-shell local observables.
+=--
+
+and $v^a = \partial_\mu v^{a \mu} + s_{BV}$.
+
 
 So now we define, in analogy to what we did in the underived case, the derived vertical derivative to be what 
 remaind of the [[Weil algebra]] derivative once we subtract the derived horizontal derivative:
@@ -5416,4 +5468,3 @@ $\,$
 ***
 
 
-[[!redirects A first idea of quantum field theory]]
