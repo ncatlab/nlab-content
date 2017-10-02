@@ -17,7 +17,7 @@
 
 The notion of __direct sum__, or __weak direct product__, is a concept from [[algebra]] that actually makes sense in any [[category]] $C$ with [[zero morphisms]] (that is, any category [[enriched category|enriched]] over the [[closed monoidal category]] of [[pointed sets]]), as long as the needed ([[colimit|co]])[[limits]] exist.  
 
-As basic and familiar example is the direct sum $V_1 \oplus V_2$  of two [[vector spaces]] $V_1$ and $V_2$ over some [[field]], or, more generally of two [[modules]] over some [[ring]]. Generally, for $I$ a set and $\{V_i\}_{i \in I}$ an $I$-indexed family of vector space or modules, their direct sum $\oplus_{i \in I} V_i$ is the collection of [[formal linear combinations]] of elements in each of the $V_i$. This may in part motivate the terminology: _an element in a direct sum is a sum of elements_, at least in these cases.
+A basic and familiar example is the direct sum $V_1 \oplus V_2$  of two [[vector spaces]] $V_1$ and $V_2$ over some [[field]], or, more generally of two [[modules]] over some [[ring]]. Generally, for $I$ a set and $\{V_i\}_{i \in I}$ an $I$-indexed family of vector space or modules, their direct sum $\oplus_{i \in I} V_i$ is the collection of [[formal linear combinations]] of elements in each of the $V_i$. This may in part motivate the terminology: _an element in a direct sum is a sum of elements_, at least in these cases.
 
 This generalises in two distinct ways, which we call _direct sums_ and _weak direct products_.  In many cases (as in the example above), these coincide, but not always.  Also in many cases, direct sums will be the same as [[coproducts]].  In any case, finitary weak direct products are the same as [[products]] but the infinitary versions are (almost always) different.
 
