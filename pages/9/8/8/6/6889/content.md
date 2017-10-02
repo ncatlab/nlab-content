@@ -1,3 +1,12 @@
-*  [homepage at Archives Henri Poincar&#233;, Nancy](http://poincare.univ-nancy2.fr/Presentation/?contentId=1527)
+*  [homepage at Wuppertal](http://www2.math.uni-wuppertal.de/~kroemer/)
 
-*  [homepage as Siegen](http://www.uni-siegen.de/fb6/phima/member/kroemer/vkkroemer.html?lang=)
+###Publications:
+
+* Ralf Kr&#246;mer, _The set of paths in a space and its algebraic structure. A historical account_, Annales math&#233;matiques de la Facult&#233; des Sciences de Toulouse, 22, (2013), 915 &#8211; 968.
+
+* Ralf Kr&#246;mer and [[David Corfield]], _The Form and Function of Duality in Modern Mathematics_, [article](http://philosophiascientiae.revues.org/976?lang=en)
+
+
+category:people
+
+[[!redirects Ralf Kromer]]
