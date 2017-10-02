@@ -135,7 +135,7 @@ Application to [[moduli stack of elliptic curves]]:
 
 ##Other material
 
-* Informal notes on the [[Fargues-Fontaine curve]] with [[Dennis Gaitsgory]].
+* [Informal notes](http://www.math.harvard.edu/~lurie/FF.html) on the [[Fargues-Fontaine curve]] with [[Dennis Gaitsgory]].
 
 category: people
 
