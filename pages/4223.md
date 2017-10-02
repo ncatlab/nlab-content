@@ -1,3 +1,4 @@
+[[!redirects Poincare lemma]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
