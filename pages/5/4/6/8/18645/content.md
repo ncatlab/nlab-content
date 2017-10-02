@@ -1,5 +1,4 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -1082,7 +1081,7 @@ of a potential $\Theta$ for a _[[presymplectic current]]_ $\Omega \coloneqq \del
 (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime} below):
 
 $$
-  \delta \mathbf{L} = \delta_{EL}\mathbf{L} - d \Theta
+  \delta_{EL} \mathbf{L} = \delta_{EL}\mathbf{L} - d \Theta
   \,.
 $$
 
@@ -2058,7 +2057,17 @@ together with $\mathbf{d} = \delta + d$ (eq:VariationalDerivative).
 **([[flow]] of [[field (physics)|field]] [[trajectory|histories]] along [[evolutionary vector field]])
 
 Let $E \overset{fb}{\to} \Sigma$ be a [[field bundle]] (def. \ref{Fields})
-and let $v$ be an [[evolutionary vector field]] (def. \ref{EvolutionaryVectorField}).
+and let $v$ be an [[evolutionary vector field]] (def. \ref{EvolutionaryVectorField})
+such that the ordinary [[flow]] of its prolongation $\hat v$ (prop. \ref{EvolutionaryVectorFieldProlongation})
+
+$$
+  \exp(t \hat v)
+  \;\colon\; J^\infty_\Sigma(E) \longrightarrow J^\infty_\Sigma(E)
+$$
+
+exists on the [[jet bundle]] (e.g. if the order of derivatives of field coordinates that it depends
+on is bounded).
+
 
 For $\Phi \in \Gamma_\Sigma(E)$ a [[field (physics)|field]] history,
 hence a point in the [[space of field histories]] (eq:SpaceOfFieldHistories), the _[[flow]]_ of $v$
@@ -2084,25 +2093,19 @@ $$
   }
 $$
 
-takes a plot $t_{(-)} \colon U \to \mathbb{R}^1$ of the [[real line]], regarded as a [[smooth space]], to the plot
+takes a plot $t_{(-)} \;\colon\; U \to \mathbb{R}^1$ of the [[real line]], regarded as a [[smooth space]], to the plot
 
 $$
   \label{LocalDataForFlowOfImplicitInfinitesimalGaugeSymmetry}
-  (\exp(t(-) \epsilon) \circ j^\infty_\Sigma(\Phi(-))  \colon U \times \Sigma \to J^\infty_\Sigma(E) )
+  (\exp(t(-) \hat v) \circ j^\infty_\Sigma(\Phi(-))
+    \;\colon\:
+  U \times \Sigma \longrightarrow J^\infty_\Sigma(E) )
 $$
 
-of the [[smooth space|smooth]] [[space of sections]] of the [[jet bundle]], where
-on the left
+of the [[smooth space|smooth]] [[space of sections]] of the [[jet bundle]].
 
-$$
-  \exp(t(u) \epsilon)
-  \;\colon\; J^\infty_\Sigma(E) \longrightarrow J^\infty_\sigma(E)
-$$
-
-is the ordinary [[flow]] of parameter length $t(u)$ along the [[vector field]] $\epsilon$ on the jet bundle.
-
-(That $\exp(t(-) \hat \epsilon)$ indeed flows jet prolongations $j^\infty_\Sigma(\Phi(-))$ again to jet prolongations
-is due to its defining relation to the [[evolutionary vector field]] $\epsilon$ from prop. \ref{EvolutionaryVectorFieldProlongation}.)
+(That $\exp(t(-) \hat v)$ indeed flows jet prolongations $j^\infty_\Sigma(\Phi(-))$ again to jet prolongations
+is due to its defining relation to the [[evolutionary vector field]] $v$ from prop. \ref{EvolutionaryVectorFieldProlongation}.)
 
 =--
 
@@ -2274,11 +2277,10 @@ it is in fact sufficient to show that the [[derivative]] of this smooth family o
 differential forms with respect to $t$ vanishes at all $t$. This argument in turn is
 the same at $t = 0$ as at any other value, so we consider the derivative at $t = 0$.
 
-Now by definition of [[Lie derivative]], the derivative of the above expression with respect to $t$ at $t = 0$ is given
+Now by definition of [[Lie derivatives]], the derivative of the above expression with respect to $t$ at $t = 0$ is given
 by the Lie derivative $\mathcal{L}_{\hat v}$ via
 
 $$
-  \array{
     \frac{d}{d t }
     \int_\Sigma
     \left(
@@ -2288,17 +2290,16 @@ $$
     \right)
     \, b dvol_\Sigma
     \vert_{t = 0}
-    & =
+    =
     \int_\Sigma
     (j^\infty_\Sigma(\Phi(-)))^\ast
     \underset{= d (\iota_{\hat v} -\delta J_v)  \Omega }{
     \underbrace{
-     \mathcal{L}_{\hat \epsilon}
+     \mathcal{L}_{\hat v}
      \delta_{EL}\mathbf{L}
      }}
      \,
      b dvol_\Sigma
-  }
   \,.
 $$
 
@@ -2306,9 +2307,9 @@ We compute that the Lie derivative has the value indicated under the braces as f
 
 $$
   \begin{aligned}
-     \mathcal{L}_{\hat \epsilon} \delta_{EL}\mathbf{L}
+     \mathcal{L}_{\hat v} \delta_{EL}\mathbf{L}
      & =
-     \iota_{\hat v} 
+     \iota_{\hat v}
        \underset{ = - d\Omega }{\underbrace{\delta \delta_{EL} \mathbf{L}} }
      + \delta \,\underset{= d J_v}{\underbrace{\iota_{\hat v} \delta_{EL}\mathbf{L}}}
      \\
@@ -2321,9 +2322,9 @@ $$
 $$
 
 Here we first used [[Cartan's homotopy formula]] for evolutionary vector fields (eq:HomotopyFormulaForLieDerivativeAlongProlongationOfEvolutionaryVectorField),
-then, under the braces, 
+then, under the braces,
 the [[conserved current]] property of the presymplectic current (prop. \ref{HorizontalDerivativeOfPresymplecticCurrentVanishesOnShell}) as well as [[Noether's theorem|Noether's theorem I]] (prop. \ref{NoethersFirstTheorem}),
-and finally 
+and finally
 the defining verticality condition of prolongations of evolutionary vector fields (prop. \ref{EvolutionaryVectorFieldProlongation})
 as well as the anti-commutativity of $\delta$ and $d$.
 
@@ -2453,7 +2454,7 @@ This [[conserved current]] is called the _[[energy-momentum tensor]]_.
 =--
 
 
-Evidently [[Noether's theorem]] in [[variational calculus]] (prop. \ref{NoethersFirstTheorem})
+Evidently [[Noether's theorem|Noether's theorem I]] in [[variational calculus]] (prop. \ref{NoethersFirstTheorem})
 is the special case for horizontal $p+1$-forms of a more general phenomenon relating
 symmetries of variational forms to forms that are closed up to a contraction. The same phenomenon applied instead
 to the [[presymplectic current]] yields the following:
@@ -2559,7 +2560,7 @@ $\,$
 
 **[[Noether theorem]] and [[Hamiltonian Noether theorem]]**
 
-| $\,$ [[variational differential forms|variational form]] $\,$  |   $\,$ [[symmetry]] $\,$ | $\,$ [[Cartan's homotopy formula|homotopy formula]] $\,$ | $\,$ physical quantity $\,\,\,$ | $\,$ [[Lie n-algebra|Lie (p+1)-algebra]] $\,$ |
+| $\,$ [[variational differential forms|variational form]] $\,$  |   $\,$ [[symmetry]] $\,$ | $\,$ [[Cartan's homotopy formula|homotopy formula]] $\,$ | $\,$ physical quantity $\,\,\,$ | $\,$ [[Lie n-algebra|local symmetry algebra]] $\,$ |
 |----|----------|----------------------------|---------------------------------|------|
 | [[Lagrangian density]] $\mathbf{L}$  | $\mathcal{L}_v \mathbf{L} = d \tilde J$  | $\Leftrightarrow d(\underset{= J_v}{\underbrace{\tilde J - \iota_v \Theta}}) = \iota_v \, \delta_{EL}\mathbf{L}$ | [[conserved current]] $J_v$ | [[Dickey bracket]] |
 | [[presymplectic current]] $\Omega$ | $\mathcal{L}_v \Theta = \delta \tilde H$ | $\Leftrightarrow \delta(\underset{= H_v}{\underbrace{\tilde H_v - \iota_v \Theta}}) = \iota_v \Omega$ | [[Hamiltonian differential form|Hamiltonian form]] $H_v$ | [[Poisson bracket Lie n-algebra|local Poisson bracket]] |
@@ -4519,4 +4520,562 @@ $$
 =--
 
 
+$\,$
+
+
+## Gauge symmetries
+ {#GaugeSymmetries}
+
+The existence of the [[covariant phase space]] (prop. \ref{CovariantPhaseSpace}) of a [[Lagrangian field theory]]
+requires the existence of [[Cauchy surfaces]] (def. \ref{CauchySurface}) for its [[Euler-Lagrange equation|Euler-Lagrange]] [[equations of motion]]. In general these may not exist. An [[obstruction]] to their existence turns out to be (prop. \ref{NonTrivialImplicitInfinitesimalGaugeSymmetriesPbstructExistenceOfCauchySurfaces} below)
+the presence of certain[[infinitesimal symmetries of the Lagrangian]] (def. \ref{SymmetriesAndConservedCurrents})
+which reflect "implicit" non-trivial [[infinitesimal gauge transformations]] (def. \ref{ImplicitInfinitesimalGaugeSymmetry}
+and example \ref{TrivialImplicialInfinitesimalGaugeTransformations} below). This [[obstruction]] is neatly
+captured by the [[cochain cohomology]] of a [[cochain complex]] induced by the [[equations of motion]],
+which is called the _local [[BV-complex]]_ (def. \ref{BVComplexOfOrdinaryLagrangianDensity} and prop. \ref{BVComplexIsHomologicalResolutionPreciselyIfNoNonTrivialImplicitGaugeSymmetres} below).
+
+
+$\,$
+
+
++-- {: .num_defn #ImplicitInfinitesimalGaugeSymmetry}
+###### Definition
+**(implicit [[infinitesimal gauge symmetry]])**
+
+Given a [[Lagrangian field theory]] $(E, \mathbf{L})$ (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}),
+then an _implicit [[infinitesimal gauge symmetry]]_ is an [[infinitesimal symmetry of the Lagrangian]]
+(def. \ref{SymmetriesAndConservedCurrents}) with compact spacetime support  (def. \ref{SpacetimeSupport}).
+
+=--
+
+
+There always exist "trivial" implicit infinitesimal gauge transformations:
+
++-- {: .num_example #TrivialImplicialInfinitesimalGaugeTransformations}
+###### Example
+**(trivial implicit [[infinitesimal gauge symmetries]])**
+
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}).
+
+Then every [[evolutionary vector field]] (def. \ref{EvolutionaryVectorField}) of the special form
+
+$$
+  \epsilon
+    \coloneqq
+  \frac{\delta L }{\delta \phi^a} \kappa^{[a b]} \partial_{\phi^a}
+  \;\in\;
+  \Gamma_\Sigma^{ev}(V_\Sigma E)
+$$
+
+for a collection of smooth functions with compact spacetimes support
+
+$$
+  (\kappa^{[a b]} \in \Omega^{0,0}_\Sigma(E))
+  \;\;\;\;
+  \in \Omega^{0,0}_{\Sigma,cp}(E)
+$$
+
+which is skew-symmetric in its indices ($\kappa^{[a b]} = - \kappa^{[b a]}$) is an
+implicit infinitesimal gauge symmetry (def. \ref{ImplicitInfinitesimalGaugeSymmetry}).
+
+This is so for a "trivial reason" namely just that skew symmetry:
+
+$$
+  \iota_\epsilon \delta_{EL} \mathbf{L}
+  =
+  \underset{= 0}{
+  \underbrace{
+   \left( \frac{\delta L }{\delta \phi^a} \right)
+   \left( \frac{\delta L }{\delta \phi^b} \right)
+   \kappa^{[a b]}
+  }
+  }
+  \,
+  dvol_\Sigma
+$$
+
+These are called the _trivial infinitesimal gauge transformation_.
+
+Moreover, by prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime} the [[action]] of
+these implicit infinitesimal gauge symmetries  $\epsilon$ vanishes [[on-shell]] (def. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime})
+up to a [[total derivative|total horizontal derivative]] and hence indeed
+act trivially on on-shell local observables.
+
+
+=--
+
+
+
+As the name suggests, infinitesimal gauge symmetries of a Lagrangian field theory
+are particular [[infinitesimal symmetries of the Lagrangian]]:
+
+
++-- {: .num_remark}
+###### Remark
+
+The literature on the [[variational bicomplex]] knows a more refined concept
+of infinitesimal gauge transformations than the "implicit" infinitesimal gauge transformations of
+def. \ref{ImplicitInfinitesimalGaugeSymmetry}, namely in terms of [[differential operators]]
+taking values in infinitesimal symmetries of the Lagrangian.
+But for the purpose of constructing the [[covariant phase space]] of a [[gauge theory]],
+def. \ref{ImplicitInfinitesimalGaugeSymmetry} is what needs to be considered (prop. \ref{NonTrivialImplicitInfinitesimalGaugeSymmetriesPbstructExistenceOfCauchySurfaces} below).
+
+We do say "implicit" here to distinguish from their "explicit" incarnations
+[[action Lie algebroid|acting]] on [[field (physics)|fields]]:
+the morphisms in the [[action Lie algebroid]] whose [[Chevalley-Eilenberg algebra]]
+is the _[[BRST complex]]_ ([below](#ReducedPhaseSpace)).
+
+Since the point of quantization of [[gauge field theory]] via [[causal perturbation theory]]
+is that it does _not apply_ as long as there are non-trivial implicit infinitesimal gauge symmetries
+present (prop. \ref{NonTrivialImplicitInfinitesimalGaugeSymmetriesPbstructExistenceOfCauchySurfaces} below),
+but only applies once all implicit infinitesimal
+gauge symmetries have been made explicit (by the [[BV-BRST complex]]) the distinction is important.
+
+=--
+
+
+
++-- {: .num_prop #NonTrivialImplicitInfinitesimalGaugeSymmetriesPbstructExistenceOfCauchySurfaces}
+###### Proposition
+**(non-trivial implicit [[infinitesimal gauge symmetries]] [[obstruction|obstruct]] existence of [[Cauchy surfaces]])
+
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]].
+
+If there exists a single implicit infinitesimal gauge transformation $\epsilon$ (def. \ref{ImplicitInfinitesimalGaugeSymmetry})
+that does not vanish [[on-shell]] (not a trivial one, example \ref{TrivialImplicialInfinitesimalGaugeTransformations})
+then there does not exist any [[Cauchy surface]] (def. \ref{CauchySurface}) for the [[Euler-Lagrange equations|Euler-Lagrange]] [[equations of motion]] (def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime}) outside of $supp_\Sigma(v)$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+
+By prop. \ref{FlowAlongImplicitInfinitesimalGaugeSymmetryPreservesOnShellSpaceofFieldHistories}
+the flow along $\hat \epsilon$ preserves the on-shell space of field histories.
+
+But if $\hat \epsilon$ is non-trivial, in that it does not vanish on-shell,
+then the flow along $\epsilon$ continuously changes solutions away from the would-be Cauchy surface.
+This means that there are infinitely many solutions to the equations of motion that restrict to the
+same solution on the would-be Cauchy surface, which contradicts the defining property of an
+actual Cauchy surface.
+
+=--
+
+
+There turns out to be an equivalent reformulation of this obstruction (prop. \ref{NonTrivialImplicitInfinitesimalGaugeSymmetriesPbstructExistenceOfCauchySurfaces}) in terms of [[homological resolutions]]
+(prop. \ref{BVComplexIsHomologicalResolutionPreciselyIfNoNonTrivialImplicitGaugeSymmetres} below)
+which paves the way to understanding the _lifting_ of these obstructions by making "implicit"
+gauge symmetries "explicit" (which we turn to [further below](#ReducedPhaseSpace)):
+
+
++-- {: .num_defn #BVComplexOfOrdinaryLagrangianDensity}
+###### Definition
+**(local [[BV-complex]] of ordinary [[Lagrangian density]])**
+
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
+whose [[field bundle]] $E$ is a [[trivial vector bundle]] (example \ref{TrivialVectorBundleAsAFieldBundle}) and whose [[Lagrangian density]] $\mathbf{L}$ is spacetime-independent (example \ref{ShellForSpacetimeIndependentLagrangians}).
+Let $\Sigma \times \{\varphi\} \hookrightarrow \mathcal{E}$ be a constant section of the shell (eq:ConstantSectionOfTrivialShellBundle).
+
+
+Evaluation of [[evolutionary vector fields]] (def. \ref{EvolutionaryVectorField}) in the [[variational derivative]] $\delta\mathbf{L} \in \Omega^{p,0}_\Sigma(E) \wedge \delta \Omega^{0,0}_\Sigma(E)$ (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}) yields a [[linear map]]
+over $\Omega^{\bullet,\bullet}_{\Sigma,cp}(E,\varphi)$ (eq:ObservablesOnInfinitesimalNeighbourhoodOfZeroInShellInFieldFiber)
+
+$$
+  \iota_{(-)}\delta_{EL} \mathbf{L}
+   \;\colon\;
+  \Gamma_{\Sigma,cp}^{ev}(V_\Sigma E,\varphi)[-1]
+    \longrightarrow
+  \Omega^{p+1,0}_{\Sigma,cp}(E,\varphi)
+  \,.
+$$
+
+If we use the [[volume form]] $dvol_\Sigma$ on [[spacetime]] $\Sigma$ to induce an identification
+
+$$
+  \Omega^{p+1,0}_\Sigma(E) \;\simeq\; C^\infty(J^\infty_\Sigma(E))\langle dvol_\sigma\rangle
+$$
+
+with respect to which the [[Lagrangian density]] decomposes as
+
+$$
+  \mathbf{L} = L dvol_\Sigma
+$$
+
+then this is a $\Omega^{0,0}_\sigma(E,\varphi)$-[[linear map]] of the form
+
+$$
+  \iota_{(-)}{\delta L_{EL}}
+    \;\colon\;
+  \Gamma_{\Sigma,cp}^{ev}(V_\Sigma E,\varphi)[-1]
+    \longrightarrow
+  \Omega^{0,0}_{\Sigma,cp}(E,\varphi)
+  \,.
+$$
+
+In the special case that the [[field bundle]] $E \overset{fb}{\to} \Sigma$ is a [[trivial vector bundle]]
+(example \ref{TrivialVectorBundleAsAFieldBundle}) with [[field (physics)|field]] coordinates $(\phi^a)$
+so that the Euler-Lagrange variational derivative has the coordinate expansion
+
+$$
+  \delta_L
+  \;=\;
+  \frac{\delta_L}{\delta \phi^a} \delta \phi^a
+$$
+
+then this map is given on the [[antifield]] basis elements (eq:AntifieldCoordinates) by
+
+$$
+  \iota_{(-)} {\delta L_{EL}}
+  \;\colon\;
+  \overline{\phi}_a
+    \;\mapsto\;
+  \frac{\delta L}{\delta \phi^a}
+  \,.
+$$
+
+Consider then the [[symmetric algebra|graded symmetric algebra]]
+
+$$
+  Sym_{\Omega^{0,0}_{\Sigma,cp}(E,\varphi)}\left(
+    \Gamma_{\Sigma,cp}^{ev}(V_\Sigma E,\varphi)[-1]
+  \right)
+$$
+
+which is generated over $\Omega^{0,0}_{\Sigma,cp}(E,\varphi)$ from the [[evolutionary vector fields]] in degree -1, and let
+
+$$
+  \label{BVDifferentialForOrdinaryLagrangian}
+  s_{BV}
+  \;\colon\;
+    Sym_{\Omega^{0,0}_{\Sigma,cp}(E,\varphi)}\left(
+    \Gamma_\Sigma^{ev}(V_\Sigma E,\varphi)[-1]
+  \right)
+  \;\longrightarrow\;
+  Sym_{\Omega^{0,0}_{\Sigma,cp}(E,\varphi)}\left(
+    \Gamma_\Sigma^{ev}(V_\Sigma E,\varphi)[-1]
+  \right)
+$$
+
+be the unique extension of the linear map $\iota_{(-)}{\delta_{EL} L}$ to an $\mathbb{R}$-linear [[derivation]] of degree +1 on this algebra.
+
+The resulting [[differential graded-commutative algebra]] over $\mathbb{R}$
+
+$$
+  \Omega^{0,0}_{\Sigma,cp}(E,\varphi)\vert_{\mathcal{E}_{BV}}
+    \;\coloneqq\;
+  \left(
+    Sym_{\Omega^{0,0}_{\Sigma,cp}(E,\varphi)}\left(
+      \Gamma_{\Sigma,cp}^{ev}(V_\Sigma E,\varphi)[-1]
+    \right)
+    \,,\,
+    s_{BV}
+  \right)
+$$
+
+we call the _local [[BV-complex]]_ (an example of a [[Koszul complex]]) of the Lagrangian field theory
+at the background solution $\varphi$.
+
+There are canonical homomorphisms of [[dgc-algebras]], one from the
+algebra of functions $\Omega^{0,0}_{\Sigma,cp}(E,\varphi)$ on the [[infinitesimal neighbourhood]]
+of the background solution $\varphi$ (eq:FunctionsOnInfinitesimalNeighbourhoodOfBackgroundSolution) support to the local BV-complex
+and from there to the
+local observables on the  neighbourhood of the background solution $\varphi$ (eq:ObservablesOnInfinitesimalNeighbourhoodOfZeroInShellInFieldFiber), all considered
+with compact spacetime support:
+
+$$
+  \label{ComparisonMorphismFromOrdinaryBVComplexToLocalObservables}
+    \Omega^{0,0}_{\Sigma,cp}(E,\varphi)
+      \longrightarrow
+    \Omega^{0,0}_{\Sigma,cp}(E,\varphi)\vert_{\mathcal{E}_{BV}}
+      \longrightarrow
+    \Omega^{0,0}_{\Sigma,cp}(E,\varphi)\vert_{\mathcal{E}}
+$$
+
+such that the composite is the canonical [[quotient]] [[coprojection]].
+
 (...)
+
+Similarly we obtain a factorization for the entire [[variational bicomplex]]:
+
+$$
+  \label{ComparisonMorphismFromOrdinaryBVComplexToLocalObservables}
+    \Omega^{\bullet,\bullet}_\Sigma(E,\varphi)
+      \longrightarrow
+    \Omega^{\bullet,\bullet}_\Sigma(E,\varphi)\vert_{\mathcal{E}_{BV}}
+      \longrightarrow
+    \Omega^{\bullet,\bullet}_\Sigma(E,\varphi)\vert_{\mathcal{E}}
+    \,,
+$$
+
+where $\Omega^{\bullet,\bullet}_\Sigma(E,\varphi)\vert_{\mathcal{E}_{BV}}$
+is now triply graded, with three anti-commuting differentials $d$ $\delta$ and $s_{BV}$.
+
+=--
+
++-- {: .num_example #BVPresymplecticCurrent}
+###### Example
+**(BV-presymplectic current)**
+
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
+whose [[field bundle]] $E$ is a [[trivial vector bundle]] (example \ref{TrivialVectorBundleAsAFieldBundle}) and whose [[Lagrangian density]] $\mathbf{L}$ is spacetime-independent (example \ref{ShellForSpacetimeIndependentLagrangians}).
+Let $\Sigma \times \{\varphi\} \hookrightarrow \mathcal{E}$ be a constant section of the shell (eq:ConstantSectionOfTrivialShellBundle).
+
+Then in the BV-variational bicomplex (eq:ComparisonMorphismFromOrdinaryBVComplexToLocalObservables)
+there exists the _BV-presymplectic current_
+
+$$
+  \Omega_{BV} \coloneqq \delta \overline{\phi}_a \wedge \delta \phi^a \wedge dvol_{\Sigma}
+  \;\;\;
+  \in \Omega^{p,2}_\Sigma(E,\varphi)\vert_{\mathcal{E}_{BV}}
+  \,,
+$$
+
+where $(\phi^a)$ are the given [[field (physics)|field]]
+[[coordinates]], $\overline{\phi}_a$ the corresponding [[antifield]] coordinates (eq:AntifieldCoordinates)
+and $\frac{\delta_{EL} \mathbf{L}}{\delta \phi^a}$ the corresponding components of the [[Euler-Lagrange form]]
+(prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}).
+
+
+=--
+
+
++-- {: .num_prop #ResolutionOfCovariantPhaseSpaceCorrespondence}
+###### Proposition
+**(local BF-BFV relation)**
+
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
+whose [[field bundle]] $E$ is a [[trivial vector bundle]] (example \ref{TrivialVectorBundleAsAFieldBundle}) and whose [[Lagrangian density]] $\mathbf{L}$ is spacetime-independent (example \ref{ShellForSpacetimeIndependentLagrangians}).
+Let $\Sigma \times \{\varphi\} \hookrightarrow \mathcal{E}$ be a constant section of the shell (eq:ConstantSectionOfTrivialShellBundle).
+
+Then the BV-presymplectic current $\Omega_{BV}$ (def. \ref{BVPresymplecticCurrent})
+witnesses the [[on-shell]] vanishing (prop. \ref{HorizontalDerivativeOfPresymplecticCurrentVanishesOnShell}) of the [[total derivative|total spacetime derivative]] of the genuine [[presymplectic current]] $\Omega$ (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}) in that the [[total derivative|total spacetime derivative]]
+of $\Omega$ equals the BV-differential $s_{BV}$  of $\Omega_{BV}$:
+
+$$
+  d \Omega = s_{BV} \Omega_{BV}
+  \,.
+$$
+
+Hence if $\Sigma_{tra} \hookrightarrow \Sigma$ is a [[submanifold]] of [[spacetime]] of full dimension $p+1$
+[[manifold with boundary|with boundary]] $\partial \Sigma_{tra} = \Sigma_{in} \sqcup \Sigma_{out}$
+
+$$
+  \array{
+    && \Sigma_{tra}
+    \\
+    & {}^{\mathllap{in}}\nearrow && \nwarrow^{\mathrm{out}}
+    \\
+    \Sigma_{in}
+    && &&
+    \Sigma_{out}
+  }
+$$
+
+then the [[pullback of differential forms|pullback]] of the
+two [[presymplectic forms]] (eq:TransgressionOfPresymplecticCurrentToCauchySurface)
+on the incoming and outgoing [[spaces of field histories]], respectively, differ by the
+BV-differential of the transgression of the BV-presymplectic current:
+
+$$
+  \left( (-)\vert_{in}\right)^\ast\left( \omega_{in}\right)
+  \;-\;
+  \left( (-)\vert_{out} \right)^\ast \left( \omega_{out} \right)
+  =
+  \tau_{\mathbb{D} \times \Sigma_{tra}} ( s \Omega_{BV} )
+  \phantom{AAAA}
+  \in
+  \Omega^2
+  \left(
+    \Gamma_{\Sigma_{tra}}(E)_{\delta_{EL} \mathbf{L} = 0}
+  \right)
+  \,.
+$$
+
+This [[homological resolution]] of the [[Lagrangian correspondence]] that exhibits the "covariance" of the
+[[covariant phase space]] (prop. \ref{CovariantPhaseSpace}) is known as the _BV-BFV relation_
+([Cattaneo-Mnev-Reshetikhin 12 (9)](BV-BRST+formalism#CattaneoMnevReshetikhin12)).
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+For the first statement we compute as follows:
+
+$$
+  \begin{aligned}
+   s_{BV} \Omega_{BV}
+    & =
+  - \delta (s \overline{\phi}_a) \delta \phi^a \wege dvol_{\Sigma}
+  \\
+    & =
+  - \delta \frac{\delta_{EL}L }{\delta \phi^a}  \delta \phi^a dvol_{\Sigma}
+  \\
+  & =
+  - \delta \delta_{EL}\mathbf{L}
+  \\
+  & =
+  d \Omega
+  \,,
+  \end{aligned}
+$$
+
+where the first steps simply unwind the definitions, and where the last step is prop. \ref{HorizontalDerivativeOfPresymplecticCurrentVanishesOnShell}.
+
+With this the second statement follows by immediate generalization of
+the proof of prop. \ref{CovariantPhaseSpace}.
+
+=--
+
+
+The local BV-complex (def. \ref{BVComplexOfOrdinaryLagrangianDensity}) provides an organization of the
+concepts of implicit [[infinitesimal gauge symmetries]] in terms of [[homological algebra]]:
+
++-- {: .num_example #InterpretationCohomologyOfBVComplex}
+###### Example
+**([[cochain cohomology]] of local [[BV-complex]])**
+
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
+whose [[field bundle]] $E$ is a [[trivial vector bundle]] (example \ref{TrivialVectorBundleAsAFieldBundle}) and whose [[Lagrangian density]] $\mathbf{L}$ is spacetime-independent (example \ref{ShellForSpacetimeIndependentLagrangians}),
+and let $\Sigma \times \{\varphi\} \hookrightarrow \mathcal{E}$ be a constant section of the shell (eq:ConstantSectionOfTrivialShellBundle).
+
+By inspection we find that the [[cochain cohomology]] of the local [[BV-complex]]
+$\Omega^{0,0}_\Sigma(E,\varphi)\vert_{\mathcal{E}_{BV}}$ (def. \ref{BVComplexOfOrdinaryLagrangianDensity}) has the following interpretation:
+
+In degree 0 the [[image]] of the [[BV-differential]] coming from degree -1 and modulo $d$-exact terms
+
+$$
+  im\left( \Gamma_\Sigma^{ev}(V_\Sigma(E,\varphi)) \overset{s_{BV}}{\to} \Omega^{0,0}_\Sigma(E,\varphi)/im(d) \right)
+$$
+
+is the ideal of functions modulo $im(d)$ that vanish [[on-shell]]. Since the differential going _from_ degree 0 to degree 1 vanishes,
+the [[cochain cohomology]] in this degree is the [[quotient ring]]
+
+$$
+  \begin{aligned}
+    H^0\left(\Omega^{0,0}_{\Sigma,cp}(E,\varphi)\vert_{\mathcal{E}_{BV}}\vert d\right)
+      & \simeq
+    \Omega^{0,0}_{\Sigma,cp}(E,\varphi)\vert_{\mathcal{E}}/im(d)
+  \end{aligned}
+$$
+
+of functions [[on-shell]] (eq:ObservablesOnInfinitesimalNeighbourhoodOfZeroInShellInFieldFiber).
+
+In degree -1 the [[kernel]] of the [[BV-differential]] going to degree 0
+
+$$
+  ker\left( \Gamma_\Sigma^{ev}(V_\Sigma(E,\varphi)) \overset{s_{BV}}{\to} \Omega^{0,0}_\Sigma(E,\varphi)\right)
+$$
+
+is the space of implicit [[infinitesimal gauge symmetries]] (def. \ref{ImplicitInfinitesimalGaugeSymmetry})
+and the [[image]] of the differential coming from degree -2
+
+$$
+  im\left(
+    \Gamma_{\Sigma}^{ev}(V_\Sigma E,\varphi) \wedge_{\Omega^{0,0}_\Sigma(E,\varphi)} \Gamma_\Sigma^{ev}(V_\Sigma E,\varphi)
+      \overset{s_{BV}}{\longrightarrow}
+    \Gamma_{\Sigma}^{ev}(V_\Sigma E,\varphi)
+  \right)
+$$
+
+is the trivial implicit infinitesimal gauge transformations (example \ref{TrivialImplicialInfinitesimalGaugeTransformations}).
+
+Therefore the [[cochain cohomology]] in degree -1 is the [[quotient space]] of implicit infinitesimal gauge transformations
+modulo the trivial ones:
+
+$$
+  \label{NegativeOneCohomologyBV}
+  H^{-1}\left( \Omega^{0,0}_\Sigma(E,\varphi)\vert_{\mathcal{E}_{BV}} \right)
+    \simeq
+  \frac{
+    \left\{
+      \text{implicit infinitesimal gauge transformations}
+    \right\}
+  }
+  {
+    \left\{
+      \text{ trivial implicit infinitesimal gauge transformations}
+    \right\}
+  }
+$$
+
+=--
+
++-- {: .num_prop #BVComplexIsHomologicalResolutionPreciselyIfNoNonTrivialImplicitGaugeSymmetres}
+###### Proposition
+**(local [[BV-complex]] is [[homological resolution]] of the [[shell]] precisely if there are no non-trivial implicit [[infinitesimal gauge symmetries]])**
+
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
+whose [[field bundle]] $E$ is a [[trivial vector bundle]] (example \ref{TrivialVectorBundleAsAFieldBundle}) and whose [[Lagrangian density]] $\mathbf{L}$ is spacetime-independent (example \ref{ShellForSpacetimeIndependentLagrangians})
+and let $\Sigma \times \{\varphi\} \hookrightarrow \mathcal{E}$ be a constant section of the shell (eq:ConstantSectionOfTrivialShellBundle).
+Furthermore assume that $\mathbf{L}$ is at least quadratic in the vertical coordinates around $\varphi$.
+
+Then the local [[BV-complex]] $\Omega^{0,0}_\Sigma(E,\varphi)\vert_{\mathcal{E}_{BV}}$ of local observables (def. \ref{BVComplexOfOrdinaryLagrangianDensity}) is a [[homological resolution]] of the the algebra of functions on the [[infinitesimal neighbourhood]] of $\varphi$ in the [[shell]] (example \ref{ShellForSpacetimeIndependentLagrangians}),
+hence the canonical comparison morphisms (eq:ComparisonMorphismFromOrdinaryBVComplexToLocalObservables)
+is a [[quasi-isomorphism]]
+precisely if there is no non-trivial (example \ref{TrivialImplicialInfinitesimalGaugeTransformations}) implicit [[infinitesimal gauge symmetry]] (def. \ref{ImplicitInfinitesimalGaugeSymmetry}):
+
+$$
+  \left(
+    \Omega^{0,0}_{\Sigma,cp}(E,\varphi)\vert_{\mathcal{E}_{BV}}
+      \overset{\simeq}{\longrightarrow}
+    \Omega^{0,0}_{\Sigma,cp}(E,\varphi)\vert_{\mathcal{E}}
+  \right)
+  \;\Leftrightarrow\;
+  \left(
+    \array{
+      \text{there are no non-trivial}
+      \\
+      \text{implicit infinitesimal gauge transformations}
+    }
+  \right)
+  \,.
+$$
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By example \ref{InterpretationCohomologyOfBVComplex} the vanishing of non-trivial implicit infinitesimal
+gauge symmetries is equivalent to the vanishing of the cochain cohomology of the local BV-complex in degree -1 (eq:NegativeOneCohomologyBV).
+
+Therefore the statement to be proven is
+equivalently that the [[Koszul complex]] of the sequence of elements
+
+$$
+  \left(
+    \frac{\delta_{EL} L}{\delta \phi^a} \in \Omega^{0,0}_{\Sigma,\varphi}(E)
+  \right)_{a = 1}^s
+$$
+
+is a [[homological resolution]] of $\Omega^{0,0}_\Sigma(E,\varphi)\vert_{\mathcal{E}}$, hence has vanishing cohomology in all negative degrees,
+already if it has vanishing cohomology in degree -1.
+
+By a standard fact about [[Koszul complexes]] ([this prop.](Koszul+complex#KoszulResolutionForNoetherianRngAndElementsInJacobson))
+a sufficient condition for this to be the case is that
+
+1. the ring $\Omega^{0,0}_{\Sigma,cp}(E,\varphi)$ is the tensor product of $C^\infty_{cp}(\Sigma)$ with a [[Noetherian ring]];
+
+1. the elements $\frac{\delta_{EL} L }{\delta \phi^a}$ are contained in its [[Jacobson radical]].
+
+The first condition is the case since $\Omega^{0,0}_{\Sigma,cp}(E,\varphi)$ is by definition a [[formal power series ring]] over a [[field]]
+tensored with $C^\infty_{cp}(\Sigma)$
+(by [this example](noetherian+ring#PolynomialAlgebraOverNoetherianRingIsNoetherian)).
+Since the Jacobson radical of a power series algebra consists of those elements whose constant term
+vanishes (see [this example](Koszul+complex#KoszulComplexForFormalPowerSeriesAlgebras)),
+the assumption that $\mathbf{L}$ is at least quadratic, hence that $\delta_{EL}\mathbf{L}$
+is at least linear in the fields, guarantees that all $\frac{\delta_{EL}L}{\delta \phi^a}$ are contained
+in the Jacobson radical.
+
+=--
+
+
+
+(...)
+
+
+[[!redirects A first idea of quantum field theory]]
