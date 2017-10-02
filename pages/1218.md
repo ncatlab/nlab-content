@@ -578,3 +578,7 @@ Expository survey includes
 
 [[!redirects diffeology]]
 [[!redirects diffeologies]]
+
+
+[[!redirects Chen smooth space]]
+[[!redirects Chen smooth spaces]]
