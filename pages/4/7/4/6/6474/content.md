@@ -31,7 +31,7 @@ The [[completion]] of the Picard scheme at its neutral element (hence either of 
 
 The __Picard variety__ of a complete [[smooth scheme|smooth]] algebraic [[variety]] $X$ over an [[algebraically closed field]] parametrizes the [[Picard group]] of $X$, more precisely the set of classes of isomorphic invertible [[quasicoherent sheaves]] with vanishing [[first Chern class]].
 
-The __Picard scheme__ is a scheme [[representable functor|representing]] the relative Picard functor $Pic_{X/S}: (Sch/S)^{op}\to Set$ by $T\mapsto Pic(X_T)/f^*Pic(T)$. In this generality the Picard functor has been introduced by [[Grothendieck]] in [[FGA]], along with the proof of representability. An alternate form of this functor in terms of the [[derived functor]] of $f_*$ is $Pic_{X/S}(T)=H^0(T, R^1f_{T*}\mathcal{O}_{X_T}^*)$.
+The __Picard scheme__ is a scheme [[representable functor|representing]] the relative Picard functor $Pic_{X/S}: (Sch/S)^{op}\to Set$ by $T\mapsto Pic(X_T)/f^*Pic(T)$. In this generality the Picard functor has been introduced by [[Grothendieck]] in [[FGA]], along with the proof of representability. An alternate form of this functor (with respect to the Zariski topology) in terms of the [[derived functor]] of $f_*$ is $Pic_{X/S}(T)=H^0(T, R^1f_{T*}\mathcal{O}_{X_T}^*)$.
 
 Note we must work with the relative functor because the global Picard functor $Pic_X(T)=Pic(X_T)$ has no hope of being representable as it is not even a  [[sheaf]]. Consider any non-trivial invertible sheaf in $Pic(X_T)$. This becomes trivial on some cover $\{T_i\to T\}$, so $Pic(X_T)\to \prod Pic(X_{T_i})$ is not injective.
 
