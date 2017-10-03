@@ -5474,3 +5474,75 @@ $\,$
 ***
 
 
+
+
++-- {: .num_prop #BVComplexIsHomologicalResolutionPreciselyIfNoNonTrivialImplicitGaugeSymmetres}
+###### Proposition
+**(local [[BV-complex]] is [[homological resolution]] of the [[shell]] precisely if there are no non-trivial implicit [[infinitesimal gauge symmetries]])**
+
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
+whose [[field bundle]] $E$ is a [[trivial vector bundle]] (example \ref{TrivialVectorBundleAsAFieldBundle}) and whose [[Lagrangian density]] $\mathbf{L}$ is spacetime-independent (example \ref{ShellForSpacetimeIndependentLagrangians})
+and let $\Sigma \times \{\varphi\} \hookrightarrow \mathcal{E}$ be a constant section of the shell (eq:ConstantSectionOfTrivialShellBundle).
+Furthermore assume that $\mathbf{L}$ is at least quadratic in the vertical coordinates around $\varphi$.
+
+Then the local [[BV-complex]] $\Omega^{0,0}_\Sigma(E,\varphi)\vert_{\mathcal{E}_{BV}}$ of local observables (def. \ref{BVComplexOfOrdinaryLagrangianDensity}) is a [[homological resolution]] of the the algebra of functions on the [[infinitesimal neighbourhood]] of $\varphi$ in the [[shell]] (example \ref{ShellForSpacetimeIndependentLagrangians}),
+hence the canonical comparison morphisms (eq:ComparisonMorphismFromOrdinaryBVComplexToLocalObservables)
+is a [[quasi-isomorphism]]
+precisely if there is no non-trivial (example \ref{TrivialImplicialInfinitesimalGaugeTransformations}) implicit [[infinitesimal gauge symmetry]] (def. \ref{ImplicitInfinitesimalGaugeSymmetry}):
+
+$$
+  \left(
+    \Omega^{0,0}_{\Sigma,cp}(E,\varphi)\vert_{\mathcal{E}_{BV}}
+      \overset{\simeq}{\longrightarrow}
+    \Omega^{0,0}_{\Sigma,cp}(E,\varphi)\vert_{\mathcal{E}}
+  \right)
+  \;\Leftrightarrow\;
+  \left(
+    \array{
+      \text{there are no non-trivial}
+      \\
+      \text{implicit infinitesimal gauge transformations}
+    }
+  \right)
+  \,.
+$$
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By example \ref{InterpretationCohomologyOfBVComplex} the vanishing of non-trivial implicit infinitesimal
+gauge symmetries is equivalent to the vanishing of the cochain cohomology of the local BV-complex in degree -1 (eq:NegativeOneCohomologyBV).
+
+Therefore the statement to be proven is
+equivalently that the [[Koszul complex]] of the sequence of elements
+
+$$
+  \left(
+    \frac{\delta_{EL} L}{\delta \phi^a} \in \Omega^{0,0}_{\Sigma,\varphi}(E)
+  \right)_{a = 1}^s
+$$
+
+is a [[homological resolution]] of $\Omega^{0,0}_\Sigma(E,\varphi)\vert_{\mathcal{E}}$, hence has vanishing cohomology in all negative degrees,
+already if it has vanishing cohomology in degree -1.
+
+By a standard fact about [[Koszul complexes]] ([this prop.](Koszul+complex#KoszulResolutionForNoetherianRngAndElementsInJacobson))
+a sufficient condition for this to be the case is that
+
+1. the ring $\Omega^{0,0}_{\Sigma,cp}(E,\varphi)$ is the tensor product of $C^\infty_{cp}(\Sigma)$ with a [[Noetherian ring]];
+
+1. the elements $\frac{\delta_{EL} L }{\delta \phi^a}$ are contained in its [[Jacobson radical]].
+
+The first condition is the case since $\Omega^{0,0}_{\Sigma,cp}(E,\varphi)$ is by definition a [[formal power series ring]] over a [[field]]
+tensored with $C^\infty_{cp}(\Sigma)$
+(by [this example](noetherian+ring#PolynomialAlgebraOverNoetherianRingIsNoetherian)).
+Since the Jacobson radical of a power series algebra consists of those elements whose constant term
+vanishes (see [this example](Koszul+complex#KoszulComplexForFormalPowerSeriesAlgebras)),
+the assumption that $\mathbf{L}$ is at least quadratic, hence that $\delta_{EL}\mathbf{L}$
+is at least linear in the fields, guarantees that all $\frac{\delta_{EL}L}{\delta \phi^a}$ are contained
+in the Jacobson radical.
+
+=--
+
