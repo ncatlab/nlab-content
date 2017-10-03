@@ -28,7 +28,7 @@ Let $G$ be a [[Lie group]], $V$ a [[smooth manifold]] and $\rho : G \times V \to
 The [[Chevalley-Eilenberg algebra]] of the action Lie algebroid is
 
 $$
-  CE(Lie(V//G)) = (\wedge^\bullet_{C^\infty(V)} \mathfrak{g}^*, d_{\rho})
+  CE(Lie(V//G)) = (\wedge^\bullet_{C^\infty(V)} (C^\infty(V) \otimes\mathfrak{g}^*), d_{\rho})
   \,,
 $$
 
@@ -42,10 +42,10 @@ $$
 Explicitly, for $t \in \mathfrak{g}$ this sends $f$ to the function
 $(d_\rho f)(t)$ which is the derivative along $t \in T_e G$ of the function $G \times V \stackrel{\rho}{\to}V \stackrel{f}{\to} \mathbb{R}$.
 
-Even more explicitly, if we choose local coordinates $\{v^k\} : \mathbb{R}^{dim V} \to V$ on a patch, and choose a basis $\{t^a\}$ of $\mathfrak{g}^*$ then we have that restricted to this patch the differential is on generators by
+Even more explicitly, if we choose local coordinates $\{v^k\} : \mathbb{R}^{dim V} \to V$ on a patch, and choose a basis $\{t^a\}$ of $\mathfrak{g}^*$ then we have that restricted to this patch the differential is on generators given by
 
 $$
-  d_\rho : f \mapsto \rho^\mu{}_a t^a \wedge \partial_k f
+  d_\rho : f \mapsto \rho^k{}_a t^a \wedge \partial_k f
 $$
 
 $$
