@@ -263,7 +263,11 @@ The BRST complex described a homotopical [[quotient]] of a space by an infinites
 
 * [[antifield]], [[antighost field]]
 
+* [[local BRST complex]]
+
 * [[equivariant de Rham cohomology]]
+
+
 
 [[!include gauge field - table]]
 
