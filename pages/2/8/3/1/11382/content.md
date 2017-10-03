@@ -60,6 +60,10 @@ Indirect detection of gravitational waves based on energy loss of a binary star 
 
 * {#HulseTaylor75} Hulse, Taylor, _Discovery of a pulsar in a binary system_, The astrophysical journal, 195:L51-53, 1975 ([web](http://adsabs.harvard.edu/full/1975ApJ...195L..51H))
 
+The first proposal of the [[LIGO]]-type experiment for the detection of gravitational waves is due to 
+
+* M. Gertsenshtein, I. Postivoit, _On the detection of low frequency gravitational waves_, Soviet Physics JETP, volume 16, number 2, 1963 ([pdf](http://www.jetp.ac.ru/cgi-bin/dn/e_016_02_0433.pdf))
+
 Discussion of theoretical predictions for events that have a chance to yield detectable gravitational wave signals includes
 
 * {#Damour10} [[Thibault Damour]], _Gravitational Waves from Coalescing Binary Black Holes: Theoretical and Experimental Challenges_, talk in Munich, 2010 ([web](http://www.theorie.physik.uni-muenchen.de/MATH/seminars/asc_kolloquium/archiv_sose10/damour/video_damour/index.html), [youtube](https://www.youtube.com/watch?v=hVy3YBalpWE))
