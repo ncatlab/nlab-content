@@ -401,7 +401,7 @@ Here are some important examples of limits, classified by the shape of the [[dia
 
 ### Limits in analysis
 
-The concept of [[limit of a sequnce]] in [[topological spaces]] is a special case of category theoretic limits, see [there](limit+of+a+sequence#RelationToLimitsInCategoryTheory).
+The concept of [[limit of a sequence]] in [[topological spaces]] is a special case of category theoretic limits, see [there](limit+of+a+sequence#RelationToLimitsInCategoryTheory).
 
 ## Properties
 
