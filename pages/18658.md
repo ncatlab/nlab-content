@@ -1,0 +1,79 @@
+
+
+> under construction
+
++-- {: .num_defn #GaugeParametrizedInfinitesimalGaugeTransformation}
+###### Definition
+**([[gauge parameter|gauge parameterized]] implicit [[infinitesimal gauge transformations]])
+
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}).
+Then a collection of _[[gauge parameters]]_ for $(E,\mathbf{L})$ is
+
+1. a [[vector bundle]] $\mathcal{G} \overset{gb}{\longrightarrow} \Sigma$ over [[spacetime]] $\Sigma$;
+   the [[sections]] $\epsilon$ of which are to be called the _[[gauge parameters]]_;
+
+1. a [[bundle morphism]] $R$ from the [[fiber product]] of its [[jet bundle]] with that of the [[field bundle]]
+   to the [[vertical tangent bundle]] of $E$:
+
+   $$
+     \array{
+        J^\infty_\Sigma(\mathcal{G}) \times_\Sigma J^\infty_\Sigma(E)
+         &\overset{R}{\longrightarrow}&
+        V_\Sigma E
+        \\
+        \downarrow & \swarrow_{}
+        \\
+        E
+     }
+   $$
+
+   such that
+
+   1. $R$ is linear in the first argument.
+
+   1. $R$ takes values in the sub-bundle of those [[evolutionary vector field|evolutionary vectors]] which are [[infinitesimal symmetries of the Lagrangian]] (def. \ref{SymmetriesAndConservedCurrents});
+
+
+   For every [[gauge parameter]] $\epsilon$ of [[compact support]] the composite of $R$ with the 
+   [[jet prolongation]] $j^\infty_\Sigma(\epsilon)$ (def. \ref{JetProlongation})
+
+   $$
+     v_\epsilon
+      \;\colon\;
+     J^\infty_\Sigma(E)
+      =
+     \Sigma \times_\Sigma J^\infty_\Sigma(E)
+      \overset{(j^\infty_\Sigma(\epsilon), id)}{\longrightarrow}
+     J^\infty_\Sigma(\mathcal{G}) \times_\Sigma J^\infty_\Sigma(E)
+      \overset{R}{\longrightarrow}
+     V_\Sigma E
+   $$
+   
+   is an [[infinitesimal symmetry of the Lagrangian]] (def. \ref{SymmetriesAndConservedCurrents}).
+   
+If the [[field bundle]] $E$ is a [[trivial vector bundle]] with [[field (physics)|field]] coordinates
+$(\phi^a)$ (example \ref{TrivialVectorBundleAsAFieldBundle})
+and also $\mathcal{G}$ happens to be a [[trivial vector bundle]] equipped with [[fiber]] [[coordinates]] $(e^\alpha)$
+then this mean that $v_\epsilon$ is of the form
+
+$$
+  v_\epsilon 
+    \;=\;
+  \left(
+    \epsilon^\alpha R^a_\alpha 
+    +
+    \frac{d \epsilon^\alpha}{d x^\mu} R^{a \mu}_\alpha 
+    +
+    \frac{d^2 \epsilon^\alpha}{d x^{\mu_1} d x^{\mu_2}} R^{a \mu_1 \mu_2}_\alpha
+    +
+    \cdots
+  \right)
+  \partial_{\phi^a}
+  \,,
+$$
+
+where the $R^{a \mu_1 \cdots \mu_k}_\alpha$ are smooth functions on the jet bundle of $E$ (prop. \ref{JetBundleIsLocallyProManifold}).
+
+=--
+
+[[!redirects gauge parameters]]
