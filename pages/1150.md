@@ -16,12 +16,27 @@
 
 ## Definition
 
-In the most general sense, a **bundle** over an [[object]] $B$ in a category $\mathcal{C}$ is simply an object $E$ of $\mathcal{C}$ equipped with a [[morphism]] in $\mathcal{C}$ from $E$ to $B$:
+In the most general sense, a **bundle** over an [[object]] $B$ in a [[category]] $\mathcal{C}$ is simply an object $E$ of $\mathcal{C}$ equipped with a [[morphism]] in $\mathcal{C}$ from $E$ to $B$:
 $$ \array { E \\ \downarrow^{\mathrlap{p}} \\ B } $$
 
 One often refers to such a bundle simply as $E$, even though $p$ is really part of the data.
 
 For $x \in B$ a [[generalized element]] of $B$, the [[fiber]] $E_x$ of the bundle over $x$ is the [[pullback]] $x^* E$.
+
+Given two bundles $E_1$ and $E_2$ over $B$, then a _morphism of bundles over $B$_ is a [[morphism]] $E_1 \to E_2$ which makes this [[commuting diagram|diagram commute]]:
+
+$$
+  \array{
+    E_1 && \longrightarrow && E_2
+    \\
+    & {}_{\mathllap{p_1}}\searrow && \swarrow_{\mathrlap{p_2}}
+    \\
+    && B 
+  }
+  \,.
+$$
+
+This way bundles over $B$ form a [[category]], also called the _[[slice category]]_ $\mathcal{C}_{/B}$ of $\mathcal{C}$ over $B$.
 
 
 ## Bundles with extra structure and properties
@@ -97,3 +112,6 @@ A useful collection of introductory notes to fiber bundles, vector bundles and f
 
 
 [[!redirects bundles]]
+
+[[!redirects bundle morphism]]
+[[!redirects bundle morphisms]]
