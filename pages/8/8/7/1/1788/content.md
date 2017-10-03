@@ -4943,12 +4943,12 @@ whose [[field bundle]] $E$ is a [[trivial vector bundle]] (example \ref{TrivialV
 and let $\Sigma \times \{\varphi\} \hookrightarrow \mathcal{E}$ be a constant section of the shell (eq:ConstantSectionOfTrivialShellBundle).
 
 By inspection we find that the [[cochain cohomology]] of the local [[BV-complex]]
-$\Omega^{0,0}_\Sigma(E,\varphi)\vert_{\mathcal{E}_{BV}}$ (def. \ref{BVComplexOfOrdinaryLagrangianDensity}) has the following interpretation:
+$\Omega^{0,0}_{\Sigma,cp}(E,\varphi)\vert_{\mathcal{E}_{BV}}$ (def. \ref{BVComplexOfOrdinaryLagrangianDensity}) has the following interpretation:
 
 In degree 0 the [[image]] of the [[BV-differential]] coming from degree -1 and modulo $d$-exact terms
 
 $$
-  im\left( \Gamma_\Sigma^{ev}(V_\Sigma(E,\varphi)) \overset{s_{BV}}{\to} \Omega^{0,0}_\Sigma(E,\varphi)/im(d) \right)
+  im\left( \Gamma_{\Sigma,cp}^{ev}(V_\Sigma(E,\varphi)) \overset{s_{BV}}{\to} \Omega^{0,0}_\Sigma(E,\varphi)/im(d) \right)
 $$
 
 is the ideal of functions modulo $im(d)$ that vanish [[on-shell]]. Since the differential going _from_ degree 0 to degree 1 vanishes,
@@ -4962,7 +4962,7 @@ $$
   \end{aligned}
 $$
 
-of functions [[on-shell]] (eq:ObservablesOnInfinitesimalNeighbourhoodOfZeroInShellInFieldFiber).
+of functions on the [[shell]] $\mathcal{E}$ (eq:ObservablesOnInfinitesimalNeighbourhoodOfZeroInShellInFieldFiber).
 
 In degree -1 the [[kernel]] of the [[BV-differential]] going to degree 0
 
@@ -5004,77 +5004,8 @@ $$
 
 =--
 
-+-- {: .num_prop #BVComplexIsHomologicalResolutionPreciselyIfNoNonTrivialImplicitGaugeSymmetres}
-###### Proposition
-**(local [[BV-complex]] is [[homological resolution]] of the [[shell]] precisely if there are no non-trivial implicit [[infinitesimal gauge symmetries]])**
-
-Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
-whose [[field bundle]] $E$ is a [[trivial vector bundle]] (example \ref{TrivialVectorBundleAsAFieldBundle}) and whose [[Lagrangian density]] $\mathbf{L}$ is spacetime-independent (example \ref{ShellForSpacetimeIndependentLagrangians})
-and let $\Sigma \times \{\varphi\} \hookrightarrow \mathcal{E}$ be a constant section of the shell (eq:ConstantSectionOfTrivialShellBundle).
-Furthermore assume that $\mathbf{L}$ is at least quadratic in the vertical coordinates around $\varphi$.
-
-Then the local [[BV-complex]] $\Omega^{0,0}_\Sigma(E,\varphi)\vert_{\mathcal{E}_{BV}}$ of local observables (def. \ref{BVComplexOfOrdinaryLagrangianDensity}) is a [[homological resolution]] of the the algebra of functions on the [[infinitesimal neighbourhood]] of $\varphi$ in the [[shell]] (example \ref{ShellForSpacetimeIndependentLagrangians}),
-hence the canonical comparison morphisms (eq:ComparisonMorphismFromOrdinaryBVComplexToLocalObservables)
-is a [[quasi-isomorphism]]
-precisely if there is no non-trivial (example \ref{TrivialImplicialInfinitesimalGaugeTransformations}) implicit [[infinitesimal gauge symmetry]] (def. \ref{ImplicitInfinitesimalGaugeSymmetry}):
-
-$$
-  \left(
-    \Omega^{0,0}_{\Sigma,cp}(E,\varphi)\vert_{\mathcal{E}_{BV}}
-      \overset{\simeq}{\longrightarrow}
-    \Omega^{0,0}_{\Sigma,cp}(E,\varphi)\vert_{\mathcal{E}}
-  \right)
-  \;\Leftrightarrow\;
-  \left(
-    \array{
-      \text{there are no non-trivial}
-      \\
-      \text{implicit infinitesimal gauge transformations}
-    }
-  \right)
-  \,.
-$$
-
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-By example \ref{InterpretationCohomologyOfBVComplex} the vanishing of non-trivial implicit infinitesimal
-gauge symmetries is equivalent to the vanishing of the cochain cohomology of the local BV-complex in degree -1 (eq:NegativeOneCohomologyBV).
-
-Therefore the statement to be proven is
-equivalently that the [[Koszul complex]] of the sequence of elements
-
-$$
-  \left(
-    \frac{\delta_{EL} L}{\delta \phi^a} \in \Omega^{0,0}_{\Sigma,\varphi}(E)
-  \right)_{a = 1}^s
-$$
-
-is a [[homological resolution]] of $\Omega^{0,0}_\Sigma(E,\varphi)\vert_{\mathcal{E}}$, hence has vanishing cohomology in all negative degrees,
-already if it has vanishing cohomology in degree -1.
-
-By a standard fact about [[Koszul complexes]] ([this prop.](Koszul+complex#KoszulResolutionForNoetherianRngAndElementsInJacobson))
-a sufficient condition for this to be the case is that
-
-1. the ring $\Omega^{0,0}_{\Sigma,cp}(E,\varphi)$ is the tensor product of $C^\infty_{cp}(\Sigma)$ with a [[Noetherian ring]];
-
-1. the elements $\frac{\delta_{EL} L }{\delta \phi^a}$ are contained in its [[Jacobson radical]].
-
-The first condition is the case since $\Omega^{0,0}_{\Sigma,cp}(E,\varphi)$ is by definition a [[formal power series ring]] over a [[field]]
-tensored with $C^\infty_{cp}(\Sigma)$
-(by [this example](noetherian+ring#PolynomialAlgebraOverNoetherianRingIsNoetherian)).
-Since the Jacobson radical of a power series algebra consists of those elements whose constant term
-vanishes (see [this example](Koszul+complex#KoszulComplexForFormalPowerSeriesAlgebras)),
-the assumption that $\mathbf{L}$ is at least quadratic, hence that $\delta_{EL}\mathbf{L}$
-is at least linear in the fields, guarantees that all $\frac{\delta_{EL}L}{\delta \phi^a}$ are contained
-in the Jacobson radical.
-
-=--
-
-
+We discuss the structures of which example \ref{InterpretationCohomologyOfBVComplex} is a first
+indication in the next section [below](#ReducedPhaseSpace).
 
 (...)
 
@@ -5106,20 +5037,20 @@ of positive grading in a [[differential graded-commutative algebra]]. These are 
 **(infinitesimal [[derived Lie algebroid]])**
 
 Let $X$ be an [[infinitesimally thickened point]] and write $C^\infty(X)$ for its [[algebra of functions]].
-Then  a _connected [[Lie ∞-algebroid]]_ $\mathfrak{a}$ over $X$ is a
+Then  a _connected [[Lie ∞-algebroid]]_ $\mathfrak{a}$ over $X$ of [[finite type]] is a
 
-1. a sequence $(\mathfrak{a}_k)_{ k = 1 }^\infty$ of [[free modules]] over $\mathcal{O}(X)$, hence a
+1. a sequence $(\mathfrak{a}_k)_{ k = 1 }^\infty$ of [[free modules]] of [[finite number|finite]] [[rank]] over $C^\infty(X)$, hence a
    [[graded module]] $\mathfrak{a}_\bullet$ in degrees $k \in \mathbb{N}$; $k \geq 1$
 
-1. a [[differential]] $d_{CE}$ that makes the [[graded-commutative algebra]] $Sym_{\mathcal{O}(X)}(\mathfrak{a}_\bullet)$
-   into a [[differential graded-commutative algebra]] over $\mathbb{R}$
-   (not necessarily over $C^\infty(X)$), to be called the [[Chevalley-Eilenberg algebra]] of $\mathfrak{a}$:
+1. a [[differential]] $d_{CE}$ that makes the [[graded-commutative algebra]] $Sym_{C^\infty(X)}(\mathfrak{a}^\ast_\bullet)$
+   into a cochain [[differential graded-commutative algebra]] (hence with $d_{CE}$ of degree +1) over $\mathbb{R}$
+   (not necessarily over $C^\infty(X)$), to be called the _[[Chevalley-Eilenberg algebra]]_ of $\mathfrak{a}$:
 
    $$
      CE(\mathfrak{a})
       \;\coloneqq\;
      \left(
-       Sym_{C^\infty(X)}(\mathfrak{a}_\bullet)
+       Sym_{C^\infty(X)}(\mathfrak{a}^\ast_\bullet)
        \,,\,
        d_{CE}
      \right)
@@ -5128,9 +5059,184 @@ Then  a _connected [[Lie ∞-algebroid]]_ $\mathfrak{a}$ over $X$ is a
 
 If we allow $\mathfrak{a}_\bullet$ to also have terms in non-positive degree, then we speak of a _[[derived Lie algebroid]]_.
 
+With $C^\infty(X)$ canonically itself regarded as a [[dgc-algebra]], there is a canonical 
+dg-algebra homomorphism
+
+$$
+  CE(\mathfrak{a}) \longrightarrow C^\infty(X)
+$$
+
+which is the identity on $C^\infty(X)$ and zero on $\mathfrak{a}^\ast_{\neq 0}$.
+
 =--
 
-Given a [[derived Lie algebroid]] $\mathfrak{a}$, its [[Weil algebra]] or [[de Rham complex]] is
+
++-- {: .num_example #BasicExamplesOfLieAlgebroids}
+###### Example
+**(basic examples of [[Lie algebroids]])
+
+Two basic examples of [[Lie algebroids]] are:
+
+1. For $X$ any [[smooth manifold]], then setting $\mathfrak{a}_{\neq 0 } \coloneqq 0$ and $d_{CE} \coloneqq 0$
+   makes it a Lie algebroid. 
+   
+1. For $\mathfrak{g}$ a [[finite number|finite]] [[dimension|dimensional]] [[Lie algebra]] 
+   we obtain a Lie algebroid denoted $\ast/\mathfrak{g}$ or $B \mathfrak{g}$ by taking the base manifold
+   to be the point, taking $\mmathfrak{a}$ to be concentrated in degree 1 on $\mathfrak{g}$, and 
+   taking the differential to be given by the linear dual of the [[Lie bracket]]
+   
+   $$
+     d_{CE} \;\colon\; \mathfrak{g}^\ast \overset{[-,-]^\ast}{\longrightarrow} \mathfrak{g}^\ast \wedge \mathfrak{g}^\ast
+     \,.
+   $$
+   
+   If $(t_\alpha)$ is a [[linear basis]] for $\mathfrak{g}$ and $(t^\alpha)$ a corresponding dual basis for $\mathfrak{g}^\ast$,
+   then this is given by
+   
+   $$
+     d_{CE} t^\alpha -\tfrac{1}{2} C^\alpha_{\beta \gamma} t^\beta \wedge t^\gamma
+     \,,
+   $$
+   
+   where on the right we have the structure constants of the [[Lie bracket]] in this basis:
+   
+   $$
+     [t^\beta, t^\gamma] = t_\alpha C^\alpha{}_{\beta \gamma} 
+     \,.
+   $$
+   
+   The resulting [[dgc-algebra]] 
+   
+   $$
+     \left(
+       \wedge^\bullet \mathfrak{g}^\ast, d_{CE} = [-,-]^\ast
+     \right)
+   $$
+   
+   is the standard [[Chevalley-Eilenberg algebra]] from basic [[Lie theory]], whence the name of the general concept.
+
+
+=--
+
+The two basic examples \ref{BasicExamplesOfLieAlgebroids} are unified by the following example,
+which is the one of central relevance for the discussion of [[gauge theory]]:
+
++-- {: .num_example #ActionLieAlgebroid}
+###### Example
+**([[action Lie algebroid]])**
+
+Let $X$ be a [[smooth manifold]] , let $\mathfrak{g}$ be a [[Lie algebra]] equipped with an 
+[[action]] on $X$ by [[infinitesimal]] [[diffeomorphisms]], hence equipped with a [[homomrophism]]
+of Lie algebras
+
+$$
+  \rho \;\colon \mathfrak{g} \longrightarrow ( Vect(X), [-,-] )
+$$
+
+to the smooth [[vector fields]] on $X$.
+
+Then there is the _[[action Lie algebroid]]_ $X/\mathfrak{g}$ whose underlying space is $X$; 
+whose $C^\infty(X)$-module is concentrated in degree 1 on the [[free module]] $C^\infty(X) \otimes_{\mathbb{R}} \mathfrak{g}$
+and whose [[Chevalley-Eilenberg algebra|CE-differential]] is given
+
+* on functions $f \in C^\infty(X)$ by the Lie algebra action
+
+  $$
+    d_{CE} f \coloneqq \rho(-)(f) \in C^\infty(X) \otimes \mathfrak{g}^\ast
+  $$
+  
+* on dual Lie algebra elements $\omega \in \mathfrak{g}^\ast$ by the [[linear dual]] of the [[Lie bracket]]
+
+  $$
+    d_{CE} \omega \coloneqq \omega([-,-]) \;\in \; \mathfrak{g}^\ast \wedge \mathfrak{g}^\ast
+    \,.
+  $$
+
+In terms of [[coordinates]] this means the following. Assume that $X = \mathbb{R}^n$ is a [[Cartesian space]]
+with coordinates $(\phi^a)$ and let $\{t_\alpha\}$ be a [[linear basis]] for $\mathfrak{g}$
+with dual basis $(c^\alpha)$ for $\mathfrak{g}^\ast$. Then the
+Lie action has components
+
+$$
+  d_{CE} \phi^a = \rho^{a}_{\alpha} c^\alpha
+$$
+
+$$
+  d_{CE} c^\alpha = -\tfrac{1}{2} C^\alpha{}_{\beta \gamma} c^\beta \wedge c^\gamma
+$$
+
+where on the right we have the structure constants of the Lie algebra in this basis:
+
+$$
+  [t_\beta, t_\gamma] = C^\alpha{}_{\beta \gamma} t_\alpha
+  \,.
+$$
+
+That the differential $d_{CE}$ thus defined indeed squares to 0 is
+
+* in degree 0 the action property: $\rho([t, t']) = [\rho(t), \rho(t')]$
+
+* in degree 1 the [[Jacobi identity]].
+
+
+
+=--
+
++-- {: .num_defn #HomomorphismBetweenLieAlgebroids}
+###### Definition
+**([[homomorphism]] between [[derived Lie algebroids]])**
+
+Given two [[derived Lie algebroids]] $\mathfrak{a}$, $\mathfrak{a}'$, then a [[homomorphism]]
+between them
+
+$$
+  f \;\colon\; \mathfrak{a} \longrightarrow \mathfrak{a}'
+$$
+
+is a [[dg-algebra]]-[[homomorphism]] between their [[Chevalley-Eilenberg algebras]] going the other way around
+
+$$
+  CE(\mathfrak{a}) \longleftarrow CE(\mathfrak{a}') \;\colon\; f^\ast
+$$
+
+such that this covers an algebra homomorphism on the function algebras (a "[[curved sh-map|non-curved sh-map]]")
+
+$$
+  \array{
+    CE(\mathfrak{a}) &\overset{f^\ast}{\longleftarrow}& CE(\mathfrak{a}')
+    \\
+    \downarrow && \downarrow
+    \\
+    C^\infty(X) &\longleftarrow& C^\infty(X)
+  }
+  \,.
+$$
+
+=--
+
++-- {: .num_example #GaugeInvariantFunctionsIntermsOfLieAlgebroids}
+###### Example
+**([[gauge invariance|gauge invariant]] [[functions]] in terms of [[Lie algebroids]])
+
+Let $X/\mathfrak{g}$ be an [[action Lie algebroid]] (example \ref{ActionLieAlgebroid})
+and regard the[[real line]] $\mathbb{R}^1$ as a Lie algebroid by example \ref{BasicExamplesOfLieAlgebroids}.
+Then homomorphisms of Lie algebroids (def. \ref{HomomorphismBetweenLieAlgebroids}) of the form
+
+$$
+  f \;\colon\; X/\mathfrak{g} \longrightarrow \mathbb{R}^1
+  \,,
+$$
+
+hence _smooth functions on the Lie algebroid_, are equivalently 
+
+* ordinary [[smooth functions]] $f \colon X \longrightarrow \mathbb{R}^1$ on the underlying [[smooth manifold]],
+
+* which are [[invariant]] under the Lie action in that $\rho(-)(f) = 0$.
+
+=--
+
+
+Given a [[derived Lie algebroid]] $\mathfrak{a}$, its [[Weil algebra]] is
 
 $$
   W(\mathfrak{a})
@@ -5143,10 +5249,9 @@ $$
   \,,
 $$
 
-
 where $\mathbf{d}$ acts as the de Rham differential $\mathbf{d} \colon C^\infty(X) \to \Gamma(T^\ast X)$
 on functions, and as the degree shift operator $\mathbf{d} \colon \mathfrak{a}_\bullet \to \mathfrak{a}[1]_\bullet$
-on the other elements.
+on the graded elements.
 
 $\,$
 
@@ -5211,6 +5316,8 @@ $$
 
 where $d = d x^\mu \frac{d}{d x^\mu}$ is the original total horizontal differential.
 
+The cohomology of $d_W$ is called _[[local BV-BRST cohomology]]_.
+
 Then a local observable $A \in \Omega^{p+1,0}_{\Sigma,cp}(E)\vert_{\mathcal{E}_{BV}}$
 is derived-horizontally closed, $d_W A = 0$, if $s_{\text{BV-BRST}} A = 0$.
 
@@ -5248,7 +5355,7 @@ The $d_W$-exact elements in this degree are sums of
 
 =--
 
-+-- {: .proof #PointerForIgor}
++-- {: .proof}
 ###### Proof
 
 
@@ -5296,6 +5403,8 @@ $$
 =--
 
 
+
+
 So now we define, in analogy to what we did in the underived case, the derived vertical derivative to be what
 remains of the [[Weil algebra]] derivative once we subtract the derived horizontal derivative:
 
@@ -5306,6 +5415,185 @@ $$
 
 This way now the local [[BV-BRST complex]] given as the [[derived critical locus]]
 of the BRST complex gets a bigrading: the "derived variational bicomplex" or something.
+
+
+
++-- {: .num_example }
+###### Example
+**(gauge symmetries modulo EOMs are $d_W$-exact)
+
+
+An  [[infinitesimal gauge symmetry]] $v_\epsilon$  of [[gauge parameter]] $(\epsilon^\alpha)$ is a vector field on the jet bundle with components of the form
+
+$$
+  \mathcal{L}_{v_\epsilon} \phi^a
+   \;\coloneqq\;
+  R^a_\alpha \epsilon^\alpha
+    +
+  R^{a \mu}_\alpha \frac{d \epsilon^\alpha}{d x^\mu}
+$$
+
+such that this is an [[infinitesimal symmetry of the Lagrangian]] in that
+
+$$
+  \begin{aligned}
+    \iota_{v_\epsilon} \delta_{EL} \mathbf{L}
+    & =
+    v^a \frac{\delta_{EL} L}{\delta \phi^a} dvol_\Sigma
+    \\
+    & =
+    \epsilon^\alpha
+    \left(
+       R^a_\alpha \frac{\delta_{EL} L}{ \delta \phi^a}
+       -
+       \frac{d}{d x^\mu}
+       \left(
+          R^{a \mu}_\alpha \frac{\delta_{EL} L}{\delta \phi^a}
+       \right)
+    \right)
+    dvol_\Sigma
+    +
+    d\left(
+       \epsilon^\alpha R^{a \mu}_\alpha \frac{\delta_{EL} L}{\delta \phi^a}
+    \right)
+    \iota_{\partial_\mu} dvol_\Sigma
+    \\
+    & =
+    0 + d(...)
+  \end{aligned}
+$$
+
+for all $(\epsilon^\alpha)$.
+
+The corresponding [[antighosts]] $\overline{c}_\alpha$ are taken by the BV-BRST differential to the antifield-preimage of the term on the left:
+
+$$
+  s\left(\overline{c}_\alpha\right)
+  \;=\;
+  R^a_\alpha \overline{\phi}_a
+  -
+  \frac{d}{d x^\mu}
+  \left(
+    R^{a \mu}_\alpha \overline{\phi}_a
+  \right)
+  \,.
+$$
+
+Moreover, an [[on-shell]] vanishing [[infinitesimal symmetry of the Lagrangian]] is a vector field with components of the form
+
+$$
+  \kappa^{a b} \frac{\delta_{EL} L}{\delta \phi^a}
+$$
+
+for $\kappa^{a b} = - \kappa^{b a}$ a skew-symmetric system of smooth functions on the jet bundle.
+
+The linear combination of such an infinitesimal gauge symmetry and an on-shell vanishing infinitesimal symmetry is $(s+d)$-exact:
+
+
+$$
+  \begin{aligned}
+    v^a dvol_\Sigma
+    & =
+    \left(
+      R^a_\alpha \epsilon^\alpha
+      +
+      R^{a \mu}_\alpha \frac{d \epsilon^\alpha}{d x^\mu}
+      +
+      \kappa^{a b} \frac{\delta_{EL} L }{ \delta \phi^a }
+    \right)
+    dvol_\Sigma
+    \\
+    & =
+    s
+    \left(
+      \epsilon^\alpha \overline{c}_\alpha
+      -
+      \tfrac{1}{2}\kappa^{a b} \overline{\phi}_a \overline{\phi}_b
+    \right) dvol_\sigma
+    +
+    d\left(
+      \epsilon^\alpha R^{a \mu}_\alpha
+    \right)
+    \iota_{\partial_\mu} dvol_\Sigma
+  \end{aligned}
+$$
+
+([Barnich-Brandt-Henneaux 94, p. 20](#BarnichBrandtHenneaux94))
+
+
+It may be useful to organize this expression into the $s+d$-[[bicomplex]] like so:
+
+$$
+  \array{
+    \{K\}
+     &\overset{d}{\longrightarrow}&
+     \{ d K
+       +
+     \epsilon^\alpha R^{a \mu}_\alpha \frac{\delta_{EL}\mathbf{L}}{ \delta \phi^a}
+     \}
+     &\overset{d}{\longrightarrow}&
+    \{ \overset{= 0}{\overbrace{ d J_v - \iota_v \delta_{EL}\mathbf{L} }} \}
+    \\
+    && \mathllap{s}\uparrow && \uparrow\mathrlap{-s}
+    \\
+    &&
+    \epsilon^\alpha R^{a \mu}_\alpha \overline{\phi}_a
+    \iota_{\partial_\mu} dvol_\Sigma
+      &\underset{d}{\longrightarrow}&
+    \left\{
+      d\left(
+        \epsilon^\alpha R^{a \mu}_\alpha \overline{\phi}_a
+      \right)
+      \iota_{\partial_\mu} dvol_\Sigma
+      +
+      \left(
+        R^a_\alpha \epsilon^\alpha
+        +
+        R^{a \mu}_\alpha \frac{d \epsilon^\alpha}{d x^\mu}
+        +
+        \kappa^{a b} \frac{\delta_{EL} L }{ \delta \phi^a }
+      \right)
+      \overline{\phi}_a
+      \,
+      dvol_\Sigma
+    \right\}
+    \\
+    && && \uparrow\mathrlap{-s}
+    \\
+    &&
+    &&
+    \left(
+       - \epsilon^\alpha \overline{c}_\alpha
+       +
+      \tfrac{1}{2}\kappa^{a b } \overline{\phi}_a \overline{\phi}_b
+    \right)
+    dvol_\Sigma
+  }
+$$
+
+But beware that this uses a convenient abuse of notation: A horizontal derivative of an antifield, such as
+
+$$
+  d( b^\mu \overline{\phi}_a ) \iota_{\partial_\mu} dvol_\Sigma
+$$
+
+which looks like it should be taken by the BV-BRST differential $s$ to
+
+$$
+  - d( b^\mu \frac{\delta_{El} L}{\delta \phi^a} ) \iota_{\partial_\mu} dvol_\Sigma
+$$
+
+should rather be regarded as shorthand for the element
+
+$$
+  ( b^\mu \frac{\delta_{El} L}{\delta \phi^a} ) \iota_{\partial_\mu} dvol_\Sigma
+$$
+
+which is taken by the horizontal differential $d$ to the same expression. This way no horizontal derivatives of antifields apear as actual coordinate functions: the antifields are the coordinates not on the full [[tangent bundle]] of the [[jet bundle]], but just on the bundle of [[evolutionary vector fields]], which locally are functions on the jet bundle with coefficients just the $\overline{\phi}_a$.
+
+
+
+=--
 
 
 
@@ -5463,86 +5751,7 @@ But [[perturbative quantum field theory]] is well understood. This we turn to ne
 ...
 
 
-$\,$
-
-$\,$
-
-$\,$
-
-
 
 ***
 
-
-
-
-+-- {: .num_prop #BVComplexIsHomologicalResolutionPreciselyIfNoNonTrivialImplicitGaugeSymmetres}
-###### Proposition
-**(local [[BV-complex]] is [[homological resolution]] of the [[shell]] precisely if there are no non-trivial implicit [[infinitesimal gauge symmetries]])**
-
-Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
-whose [[field bundle]] $E$ is a [[trivial vector bundle]] (example \ref{TrivialVectorBundleAsAFieldBundle}) and whose [[Lagrangian density]] $\mathbf{L}$ is spacetime-independent (example \ref{ShellForSpacetimeIndependentLagrangians})
-and let $\Sigma \times \{\varphi\} \hookrightarrow \mathcal{E}$ be a constant section of the shell (eq:ConstantSectionOfTrivialShellBundle).
-Furthermore assume that $\mathbf{L}$ is at least quadratic in the vertical coordinates around $\varphi$.
-
-Then the local [[BV-complex]] $\Omega^{0,0}_\Sigma(E,\varphi)\vert_{\mathcal{E}_{BV}}$ of local observables (def. \ref{BVComplexOfOrdinaryLagrangianDensity}) is a [[homological resolution]] of the the algebra of functions on the [[infinitesimal neighbourhood]] of $\varphi$ in the [[shell]] (example \ref{ShellForSpacetimeIndependentLagrangians}),
-hence the canonical comparison morphisms (eq:ComparisonMorphismFromOrdinaryBVComplexToLocalObservables)
-is a [[quasi-isomorphism]]
-precisely if there is no non-trivial (example \ref{TrivialImplicialInfinitesimalGaugeTransformations}) implicit [[infinitesimal gauge symmetry]] (def. \ref{ImplicitInfinitesimalGaugeSymmetry}):
-
-$$
-  \left(
-    \Omega^{0,0}_{\Sigma,cp}(E,\varphi)\vert_{\mathcal{E}_{BV}}
-      \overset{\simeq}{\longrightarrow}
-    \Omega^{0,0}_{\Sigma,cp}(E,\varphi)\vert_{\mathcal{E}}
-  \right)
-  \;\Leftrightarrow\;
-  \left(
-    \array{
-      \text{there are no non-trivial}
-      \\
-      \text{implicit infinitesimal gauge transformations}
-    }
-  \right)
-  \,.
-$$
-
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-By example \ref{InterpretationCohomologyOfBVComplex} the vanishing of non-trivial implicit infinitesimal
-gauge symmetries is equivalent to the vanishing of the cochain cohomology of the local BV-complex in degree -1 (eq:NegativeOneCohomologyBV).
-
-Therefore the statement to be proven is
-equivalently that the [[Koszul complex]] of the sequence of elements
-
-$$
-  \left(
-    \frac{\delta_{EL} L}{\delta \phi^a} \in \Omega^{0,0}_{\Sigma,\varphi}(E)
-  \right)_{a = 1}^s
-$$
-
-is a [[homological resolution]] of $\Omega^{0,0}_\Sigma(E,\varphi)\vert_{\mathcal{E}}$, hence has vanishing cohomology in all negative degrees,
-already if it has vanishing cohomology in degree -1.
-
-By a standard fact about [[Koszul complexes]] ([this prop.](Koszul+complex#KoszulResolutionForNoetherianRngAndElementsInJacobson))
-a sufficient condition for this to be the case is that
-
-1. the ring $\Omega^{0,0}_{\Sigma,cp}(E,\varphi)$ is the tensor product of $C^\infty_{cp}(\Sigma)$ with a [[Noetherian ring]];
-
-1. the elements $\frac{\delta_{EL} L }{\delta \phi^a}$ are contained in its [[Jacobson radical]].
-
-The first condition is the case since $\Omega^{0,0}_{\Sigma,cp}(E,\varphi)$ is by definition a [[formal power series ring]] over a [[field]]
-tensored with $C^\infty_{cp}(\Sigma)$
-(by [this example](noetherian+ring#PolynomialAlgebraOverNoetherianRingIsNoetherian)).
-Since the Jacobson radical of a power series algebra consists of those elements whose constant term
-vanishes (see [this example](Koszul+complex#KoszulComplexForFormalPowerSeriesAlgebras)),
-the assumption that $\mathbf{L}$ is at least quadratic, hence that $\delta_{EL}\mathbf{L}$
-is at least linear in the fields, guarantees that all $\frac{\delta_{EL}L}{\delta \phi^a}$ are contained
-in the Jacobson radical.
-
-=--
 
