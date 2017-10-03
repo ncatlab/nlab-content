@@ -21,9 +21,9 @@
 
 ## Idea
 
-A _curved $L_\infty$-algebra_ (e.g. [Markl 11, p. 100](#Markl11)) is just like an ordinary _[[L-∞ algebra]]_, but possibly including also a 0-ary bracket, i.e. a constant. Hence an ordinary [[L-∞ algebra]] is a curved $L_\infty$-algebra for which the 0-ary operation happens to be zero.
+A _curved $L_\infty$-algebra_ (e.g. [Markl 11, p. 100](#Markl11)) is just like an ordinary _[[L-∞ algebra]]_, but possibly including also a 0-ary bracket, i.e. a constant. Conversely an ordinary [[L-∞ algebra]] is a curved $L_\infty$-algebra for which the 0-ary operation happens to be zero.
 
-Accordingly, a strong homotopy homomorphism of curved $L_\infty$-algebras is defined just as for ordinary $L_\infty$-algebras, but allowing also for a 0-ary component. Notice that such "curved sh-maps" may be non-trivial even between ordinary $L_\infty$-algebras (amplified e.g. in [Mehta-Zambon 12, below (2)](#MehtaZambon12)).
+Accordingly, a "strong homotopy [[homomorphism]]" of curved $L_\infty$-algebras is defined just as for ordinary $L_\infty$-algebras, but allowing also for a 0-ary component. Notice that such "curved sh-maps" may be non-trivial even between ordinary $L_\infty$-algebras (amplified e.g. in [Mehta-Zambon 12, below (2)](#MehtaZambon12)).
 
 The dual [[Chevalley-Eilenberg algebras]] automatically capture curved $L_\infty$-algebras unless one imposes a constraint: the non-curved $L_\infty$-algebras correspond to the [[augmented algebra|augmented]] CE-algebras. Similarly in the [[dg-coalgebra]] description the restriction to non-curved $L_\infty$-algebras requires co-augmentation or else (this is what is commonly used) non-unital dg-coalgebras. 
 
@@ -89,3 +89,12 @@ hence that the unary operation $l_1$ no longer necessarily squares to zero (no l
 [[!redirects curved L-∞ algebra]]
 [[!redirects curved L-∞ algebras]]
 
+[[!redirects curved sh-map]]
+[[!redirects curved sh-maps]]
+
+[[!redirects curved L-infinity homomorphism]]
+[[!redirects curved L-infinity homomorphisms]]
+
+
+[[!redirects curved L-∞ homomorphism]]
+[[!redirects curved L-∞ homomorphisms]]
