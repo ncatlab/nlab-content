@@ -21,11 +21,11 @@
 
 ## Idea
 
-Given a [[Lagrangian field theory]] $(E,\mathbf{L})$ with [[field bundle]] $E \overset{fb}{\to} \Sigma$ over some [[spacetime]] $\Sigma$ and [[local Lagrangian density]] $\mathbf{L}$, then its _local BV-BRST complex_ (or _local BRST complex_, for short) is the realization of the [[BV-BRST complex]] not on [[local observables]] $A = \tau_{\Sigma} \alpha$ given by [[functionals]] on the [[space of field histories]] $\Gamma_{\Sigma}(E)_{\delta_{EL} = 0}$ which are [[transgression of variational differential forms|transgressions]] $\tau_{\Sigma}$ of [[variational differential forms]] $\alpha \in \Omega^{\bullet, \bullet}_\Sigma(E)$ on the jet bundle, but on these variational differential forms itself (whence "local", i.e. before [[transgression of variational differential forms|transgression]]).
+Given a [[Lagrangian field theory]] $(E,\mathbf{L})$ with [[field bundle]] $E \overset{fb}{\to} \Sigma$ over some [[spacetime]] $\Sigma$ and [[local Lagrangian density]] $\mathbf{L}$, then its _local BV-BRST complex_ (or _local BRST complex_, for short) is the realization of the [[BV-BRST complex]] not on [[local observables]] $A = \tau_{\Sigma} \alpha$ given by [[functionals]] on the [[space of field histories]] $\Gamma_{\Sigma}(E)_{\delta_{EL} = 0}$ which are [[transgression of variational differential forms|transgressions]] $\tau_{\Sigma}$ of [[variational differential forms]] $\alpha \in \Omega^{\bullet, \bullet}_\Sigma(E)$ on the jet bundle, but on these variational differential forms themselves (whence "local", i.e. before [[transgression of variational differential forms|transgression]]).
 
 If $s$ denotes the [[BV-BRST differential]] in a BV-resolution $\Omega^{\bullet,\bullet}_\Sigma(E)\vert_{\mathcal{E}_{BV}}$ of the restriction to the [[shell]] $\mathcal{E} \hookrightarrow J^\infty_\Sigma(E)$ of the [[variational bicomplex]] $\Omega^{\bullet,\bullet}_\Sigma(E)$ with its [[total spacetime derivative]] $d$ (horizontal derivative), then the _local BV-BRST cohomology_ is the [[cochain cohomology]] of $s + d$, hence of the [[total complex]] of the [[double complex]] given by $s$ and $d$. 
 
-Generally, considering [[variational differential forms]] up to $d$-exact terms is the "local" incarnation  of what under the [[integration of differential forms|integraion]] involved in the [[transgression of variational differential forms|transgression]] is [[integration by parts]] and it is in this way that "local BV-BRST cohomology" knows about the actual BV-BRST cohomology on [[local observables]].
+Generally, considering [[variational differential forms]] up to $d$-exact terms is the "local" incarnation  of what under the [[integration of differential forms|integration]] involved in the [[transgression of variational differential forms|transgression]] is [[integration by parts]] and it is in this way that "local BV-BRST cohomology" knows about the actual BV-BRST cohomology on [[local observables]].
 
 ## Example
 
@@ -139,7 +139,7 @@ $$
       \epsilon^\alpha \overline{c}_\alpha 
       - 
       \tfrac{1}{2}\kappa^{a b} \overline{\phi}_a \overline{\phi}_b  
-    \right) \overline{\phi}_a \, dvol_\sigma
+    \right) dvol_\sigma
     +
     d\left(
       \epsilon^\alpha R^{a \mu}_\alpha 
@@ -148,7 +148,10 @@ $$
   \end{aligned}
 $$
 
-or so:
+([Barnich-Brandt-Henneaux 94, p. 20](#BarnichBrandtHenneaux94))
+
+
+It may be useful to organize this expression into the $s+d$-[[bicomplex]] like so:
 
 $$
   \array{
@@ -180,6 +183,8 @@ $$
         +
         \kappa^{a b} \frac{\delta_{EL} L }{ \delta \phi^a }
       \right)
+      \overline{\phi}_a
+      \,
       dvol_\Sigma
     \right\}
     \\
@@ -196,7 +201,27 @@ $$
   }
 $$
 
-([Barnich-Brandt-Henneaux 94, p. 20](#BarnichBrandtHenneaux94))
+But beware that this uses a convenient abuse of notation: A horizontal derivative of an antifield, such as
+
+$$
+  d( b^\mu \overline{\phi}_a ) \iota_{\partial_\mu} dvol_\Sigma
+$$
+
+which looks like it should be taken by the BV-BRST differential $s$ to
+
+$$
+  - d( b^\mu \frac{\delta_{El} L}{\delta \phi^a} ) \iota_{\partial_\mu} dvol_\Sigma
+$$
+
+should rather be regarded as shorthand for the element
+
+$$
+  ( b^\mu \frac{\delta_{El} L}{\delta \phi^a} ) \iota_{\partial_\mu} dvol_\Sigma
+$$
+
+which is taken by the horizontal differential $d$ to the same expression. This way no horizontal derivatives of antifields apear as actual coordinate functions: the antifields are the coordinates not on the full [[tangent bundle]] of the [[jet bundle]], but just on the bundle of [[evolutionary vector fields]], which locally are functions on the jet bundle with coefficients just the $\overline{\phi}_a$.
+
+
 
 ## References
 
@@ -214,3 +239,15 @@ Application to [[gravity]] and/or [[Yang-Mills theory]] ([[Einstein-Yang-Mills t
 * [[Glenn Barnich]], [[Friedemann Brandt]], [[Marc Henneaux]], _Local BRST cohomology in Einstein--Yang--Mills theory_, Nucl.Phys. B455 (1995) 357-408 ([arXiv:hep-th/9505173](https://arxiv.org/abs/hep-th/9505173))
 
 [[!redirects local BV-BRST cohomology]]
+
+[[!redirects local BRST complex]]
+[[!redirects local BRST complexes]]
+
+[[!redirects local BV-BRST complex]]
+[[!redirects local BV-BRST complexes]]
+
+
+[[!redirects local BV complex]]
+[[!redirects local BV complexes]]
+
+
