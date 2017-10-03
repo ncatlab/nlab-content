@@ -160,7 +160,7 @@ for the [[homotopy colimit]] of the iterations of this functor, with respect to 
 
 =--
 
-Unwinding the definition and using that [[suspension]] is equivalently the [join with the 0-sphere](join%20of%20topological%20spaces#JoinWith0Sphere), this is indeed the functor of the same name in  ([Goodwillie 91, p. 657 (13 of 67)](#Goodwillie91)).
+Unwinding the definition and using that [[suspension]] is equivalently the [join with the 0-sphere](join%20of%20topological%20spaces#JoinWith0Sphere), this is indeed the functor of the same name in  ([Goodwillie 91, p. 657 (13 of 67)](#Goodwillie03)).
 
 +-- {: .num_theorem #PnLocalizes}
 ###### Theorem
