@@ -1126,6 +1126,9 @@ based on
 [[!redirects BV-differential]]
 [[!redirects BV-differentials]]
 
+[[!redirects BV-BRST differential]]
+[[!redirects BV-BRST differentials]]
+
 
 [[!redirects classical master equation]]
 [[!redirects classical master equations]]
