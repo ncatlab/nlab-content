@@ -1089,7 +1089,7 @@ This is mentioned for instance in ([Olsson, remark 4.3](#Olsson)).
 
 ## Closed monoidal structure {#MonoidalStructure}
 
-If the underlying site has finite [[product]]s, then both the injective and the projective, the global and the local model structure on simplicial presheaves becomes a [[monoidal model category]] with respect to the standard [[closed monoidal structure on presheaves]].
+If the underlying site has [[finite products]], then both the injective and the projective, the global and the local model structure on simplicial presheaves becomes a [[monoidal model category]] with respect to the standard [[closed monoidal structure on presheaves]].
 
 See for instance [here](http://www.math.univ-toulouse.fr/~toen/crm-2008.pdf#page=24).
 
