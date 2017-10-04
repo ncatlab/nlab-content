@@ -454,6 +454,54 @@ $$
 =--
 
 
++-- {: .num_example #Electromagnetism}
+###### Example
+**([[field bundle]] for [[electromagnetic field]])
+
+On [[Minkowski spacetime]] $\Sigma$, let the [[field bundle]] (def. \ref{Fields}) be given by the
+[[cotangent bundle]]
+
+$$
+  E \coloneqq T^\ast \Sigma
+  \,.
+$$
+
+This is a [[trivial vector bundle]] (example \ref{TrivialVectorBundleAsAFieldBundle}) with canonical [[field (physics)|field]]
+coordinates $(a_\mu)$.
+
+A [[section]] of this bundle, hence a [[field (physics)|field)]] [[trajectory]]/history, is a [[differential 1-form]]
+
+$$
+  A \in \Gamma_\Sigma(T^\ast \Sigma) = \Omega^1(\Sigma)
+$$
+
+on [[spacetime]]. Interpreted as the field of [[electromagnetism]] on $\Sigma$, this is often called the _[[vector potential]]_.
+Then the [[de Rham differential]] of the [[vector potential]] is a [[differential 2-form]]
+
+$$
+  F \coloneqq d A
+$$
+
+known as the _[[Faraday tensor]]_. In the canonical coordinate basis 2-forms this may be expanded as
+
+$$
+  \label{TensorFaraday}
+  F
+  =
+  \underoverset{i = 1}{p}{\sum}
+  E_i d x^0 \wedge d x^i
+  +
+  \underoverset{i \lt j = 1}{p}{\sum}
+  B_{i j} d x^i \wedge d x^j
+  \,.
+$$
+
+Here $(E_i)_{i = 1}^p$ are called the components of the _[[electric field]]_, while $(B_{i j})$ are called the
+components of the _[[magnetic field]]_.
+
+=--
+
+
 ## Field variations
  {#FieldVariations}
 
@@ -1078,7 +1126,7 @@ from their special position in the [[variational bicomplex]].
 Their [[variational derivative]]
 uniquely decomposes as 1) the _[[Euler-Lagrange derivative]]_ $\delta_{EL}\mathbf{EL}$ which is proportional to the variation of the fields
 (instead of their derivatives) and 2) the [[total derivative|total spacetime derivative]] $d \Theta$
-of a potential $\Theta$ for a _[[presymplectic current]]_ $\Omega \coloneqq \delta \Theta$
+of a potential $\Theta$ for a _[[presymplectic current]]_ $\Omega_{BFV} \coloneqq \delta \Theta$
 (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime} below):
 
 $$
@@ -1188,9 +1236,82 @@ $$
 =--
 
 
++-- {: .num_example #ElectromagnetismLagrangianDensity}
+###### Example
+**([[local Lagrangian density]] for [[free field|free]] [[electromagnetism]])
+
+Consider the [[field bundle]] $T^\ast \Sigma \to \Sigma$ for the [[electromagnetic field]] on [[Minkowski spacetime]] from example \ref{Electromagnetism},
+i.e. the [[cotangent bundle]], which over Minkowski spacetime happens to be a [[trivial vector bundle]] of [[rank of a vector bundle|rank]]
+$p+1$. With [[fiber]] coordinates taken to be $(a_\mu)_{\mu = 0}^p$, the induced fiber coordinates on the
+corresponding [[jet bundle]] $J^\infty_\Sigma(T^\ast \Sigma)$ (def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) are
+$( (x^\mu), (a_\mu), (a_{\mu,\nu}), (a_{\mu,\nu_1 \nu_2}), \cdots )$.
+
+Consider then the [[local Lagrangian density]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) given by
+
+$$
+  \label{ElectromagnetismLagrangian}
+  \mathbf{L}
+    \;\coloneqq\;
+  \tfrac{1}{2}
+  f_{\mu \nu} f^{\mu \nu} dvol_\Sigma
+  \;\in\;
+  \Omega^{p+1,0}_\Sigma(T^\ast \Sigma)
+  \,,
+$$
+
+where
+
+$$
+  \label{FaradyTensorJet}
+  f_{\mu \nu}
+    \;\coloneqq\;
+  \tfrac{1}{2}\left(
+    a_{\mu,\nu} - a_{\nu,\mu}
+  \right)
+  \,.
+$$
+
+This is the Lagrangian that defines the Lagrangian field theory of _[[free field|free]] [[electromagnetism]]_.
+
+Here for $A \in \Gamma_\Sigma(T^\ast \Sigma)$ an [[electromagnetic field]] history ([[vector potential]]),
+then the [[pullback of differential forms|pullback]] of $f_{\mu \nu}$ along its [[jet prolongation]] (def. \ref{JetProlongation})
+is the corresponding component of the [[Faraday tensor]] (eq:TensorFaraday):
+
+$$
+  \begin{aligned}
+    \left(
+      j^\infty_\Sigma(A)
+    \right)^\ast(f_{\mu \nu})
+    & =
+    (d A)_{\mu \nu}
+    \\
+    & = F_{\mu \nu}
+  \end{aligned}
+$$
+
+It follows that the pullback of the Lagrangian (eq:ElectromagnetismLagrangian) along the
+jet prologation of the electromagnetic field is
+
+$$
+  \begin{aligned}
+    \left(
+      j^\infty_\Sigma(A)
+    \right)^\ast \mathbf{L}
+    & =
+    \tfrac{1}{2}
+    F_{\mu \nu} F^{\mu \nu} dvol_\Sigma
+    \\
+    & =
+    \tfrac{1}{2} F \wedge_\eta \star F
+  \end{aligned}
+$$
+
+Here $\star_\eta$ denotes the [[Hodge star operator]] of [[Minkowski spacetime]].
+
+=--
 
 
-The beauty of [[Lagrangian field theory]] is that a choice of [[Lagrangian density]] determines
+The beauty of [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) is that a choice of [[Lagrangian density]] determines
 both the [[equations of motion]] of the fields as well as a [[presymplectic manifold|presymplectic structure]]
 on the space of solutions to this equation (the "[[shell]]"), making it the "[[covariant phase space]]" of the theory.
 All this we discuss [below](#PhaseSpace). But in fact all this key structure of the field theory is
@@ -1271,6 +1392,9 @@ $$
   \,.
 $$
 
+{#CriticalLocusShell} In other words the [[shell]] (eq:ShellInJetBundle) is the _[[critical locus]]_ of the Lagrangian density with respect to 
+[[Euler-Lagrange variational derivative|Euler-Lagrange variation]].
+
 Saying something holds  "[[on-shell]]" is to mean that it holds after restriction to this
 subspace. For example a [[variational differential form]] $\alpha \in \Omega^{\bullet,\bullet}_\Sigma(E)$
 is said to _vanish on shell_ if $\alpha\vert_{\mathcal{E}} = 0$.
@@ -1323,7 +1447,7 @@ denotes the contraction of the volume form with the [[vector field]] $\partial_\
 The [[vertical derivative]] of a chosen $\Theta$ is called a _[[pre-symplectic current]]_ for $\mathbf{L}$:
 
 $$
-  \Omega \coloneqq \delta \Theta \;\;\; \in \Omega^{p,2}_{\Sigma}(E)
+  \Omega_{BFV} \coloneqq \delta \Theta \;\;\; \in \Omega^{p,2}_{\Sigma}(E)
   \,,
 $$
 
@@ -1343,7 +1467,7 @@ $$
   \label{DerivativeOfLepageForm}
   \mathbf{d}( \mathbf{L} + \Theta )
   \;=\;
-  \delta_{EL} \mathbf{L} + \Omega
+  \delta_{EL} \mathbf{L} + \Omega_{BFV}
   \,.
 $$
 
@@ -1540,7 +1664,7 @@ $$
 
 +-- {: .num_example #FreeScalarFieldEOM}
 ###### Example
-**([[Euler-Lagrange operator|Euler-Lagrange variation]] and [[presymplectic current]] for [[free field|free]] [[real scalar field]])**
+**([[Euler-Lagrange operator|Euler-Lagrange variational derivative]] and [[presymplectic current]] for [[free field|free]] [[real scalar field]])**
 
 
 Consider the [[Lagrangian field theory]] of the [[free field|free]] [[real scalar field]]
@@ -1562,7 +1686,7 @@ $$
 and
 
 $$
-  \Omega
+  \Omega_{BFV}
   \;=\;
   \left(\eta^{\mu \nu} \delta \phi_{,\mu} \wedge \delta \phi \right) \wedge \iota_{\partial_\nu} dvol_{\Sigma}
   \;\in\;
@@ -1665,7 +1789,7 @@ Hence the presymplectic current itself is
 
 $$
   \begin{aligned}
-    \Omega &\coloneqq \delta \Theta
+    \Omega_{BFV} &\coloneqq \delta \Theta
     \\
     & =
     \delta \left( \eta^{\mu \nu} \phi_{,\mu} \delta \phi \wedge \iota_{\partial_\nu} \mathrm{dvol}_\Sigma \right)
@@ -1673,6 +1797,24 @@ $$
     & =
     \left(\eta^{\mu \nu} \delta \phi_{,\mu} \wedge \delta \phi \right) \wedge \iota_{\partial_\nu} dvol_{\Sigma}
   \end{aligned}
+  \,.
+$$
+
+=--
+
+
++-- {: .num_example #ElectromagnetismEl}
+###### Example
+**([[Euler-Lagrange variational derivative]] for [[free field|free]] [[electromagnetism]])
+
+Consider the [[Lagrangian field theory]] of [[free field|free]] [[electromagnetism]] from example \ref{ElectromagnetismLagrangianDensity}.
+
+The [[Euler-Lagrange variation]] is
+
+$$
+  \delta_{EL} \mathbf{L}
+  \;=\;
+  \frac{d}{d x^\mu} f^{\mu \nu} \delta a_\nu 
   \,.
 $$
 
@@ -1793,7 +1935,7 @@ Then the [[Euler-Lagrange form]] $\delta_{EL} \mathbf{L}$ and the [[presymplecti
 (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}) are related by
 
 $$
-  d \Omega = - \delta(\delta_{EL}\mathbf{L})
+  d \Omega_{BFV} = - \delta(\delta_{EL}\mathbf{L})
   \,.
 $$
 
@@ -1801,7 +1943,7 @@ In particular this means that the [[total derivative|total spacetime derivative]
 presymplectic current vanishes [[on-shell]] (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}):
 
 $$
-  d \Omega\vert_{\mathcal{E}} \;=\; 0
+  d \Omega_{BFV}\vert_{\mathcal{E}} \;=\; 0
   \,.
 $$
 
@@ -2294,7 +2436,7 @@ $$
     =
     \int_\Sigma
     (j^\infty_\Sigma(\Phi(-)))^\ast
-    \underset{= d (\iota_{\hat v} -\delta J_v)  \Omega }{
+    \underset{= d (\iota_{\hat v} -\delta J_v)  \Omega_{BFV} }{
     \underbrace{
      \mathcal{L}_{\hat v}
      \delta_{EL}\mathbf{L}
@@ -2311,14 +2453,14 @@ $$
      \mathcal{L}_{\hat v} \delta_{EL}\mathbf{L}
      & =
      \iota_{\hat v}
-       \underset{ = - d\Omega }{\underbrace{\delta \delta_{EL} \mathbf{L}} }
+       \underset{ = - d\Omega_{BFV} }{\underbrace{\delta \delta_{EL} \mathbf{L}} }
      + \delta \,\underset{= d J_v}{\underbrace{\iota_{\hat v} \delta_{EL}\mathbf{L}}}
      \\
      & =
-     - \iota_{\hat v} d\Omega  + \delta d J_v
+     - \iota_{\hat v} d\Omega_{BFV}  + \delta d J_v
      \\
      & =
-     d \left(\iota_{\hat v} \Omega - \delta J_v \right)
+     d \left(\iota_{\hat v} \Omega_{BFV} - \delta J_v \right)
   \end{aligned}
 $$
 
@@ -2346,12 +2488,12 @@ $$
     -
     \int_\Sigma
     (j^\infty_\Sigma(\Phi(-)))^\ast
-    d (\iota_{\hat v} \Omega - \delta J_v)
+    d (\iota_{\hat v} \Omega_{BFV} - \delta J_v)
     \,
     b dvol_\Sigma
     \\
     & =
-    - \int_\Sigma d j^\infty_\Sigma(\Phi(-))^\ast (\iota_{\hat v}\Omega -  \delta J_v) \, b dvol_\Sigma
+    - \int_\Sigma d j^\infty_\Sigma(\Phi(-))^\ast (\iota_{\hat v}\Omega_{BFV} -  \delta J_v) \, b dvol_\Sigma
     \\
     & = 0
   \end{aligned}
@@ -2483,7 +2625,7 @@ Write $\mathcal{E} \hookrightarrow J^\infty_\Sigma(E)$ for the [[shell]] (eq:She
    exists a variation $v$ with
 
    $$
-     \delta H = \iota_v \Omega
+     \delta H = \iota_v \Omega_{BFV}
      \phantom{AA}
      \,
      \text{on}\, \mathcal{E}
@@ -2499,7 +2641,7 @@ $$
     (H,v)
     \;\vert\;
     v \, \text{is a variation and}\,
-    \iota_v \Omega = J
+    \iota_v \Omega_{BFV} = J
   \right\}
 $$
 
@@ -2548,7 +2690,7 @@ $$
     }}
     \\
     & =
-    \delta \iota_v \Theta + \iota_v \underset{ = \Omega}{\underbrace{\delta \Theta}}
+    \delta \iota_v \Theta + \iota_v \underset{ = \Omega_{BFV}}{\underbrace{\delta \Theta}}
     \,.
   \end{aligned}
 $$
@@ -2564,7 +2706,7 @@ $\,$
 | $\,$ [[variational differential forms|variational form]] $\,$  |   $\,$ [[symmetry]] $\,$ | $\,$ [[Cartan's homotopy formula|homotopy formula]] $\,$ | $\,$ physical quantity $\,\,\,$ | $\,$ [[Lie n-algebra|local symmetry algebra]] $\,$ |
 |----|----------|----------------------------|---------------------------------|------|
 | [[Lagrangian density]] $\mathbf{L}$  | $\mathcal{L}_v \mathbf{L} = d \tilde J$  | $\Leftrightarrow d(\underset{= J_v}{\underbrace{\tilde J - \iota_v \Theta}}) = \iota_v \, \delta_{EL}\mathbf{L}$ | [[conserved current]] $J_v$ | [[Dickey bracket]] |
-| [[presymplectic current]] $\Omega$ | $\mathcal{L}_v \Theta = \delta \tilde H$ | $\Leftrightarrow \delta(\underset{= H_v}{\underbrace{\tilde H_v - \iota_v \Theta}}) = \iota_v \Omega$ | [[Hamiltonian differential form|Hamiltonian form]] $H_v$ | [[Poisson bracket Lie n-algebra|local Poisson bracket]] |
+| [[presymplectic current]] $\Omega_{BFV}$ | $\mathcal{L}_v \Theta = \delta \tilde H$ | $\Leftrightarrow \delta(\underset{= H_v}{\underbrace{\tilde H_v - \iota_v \Theta}}) = \iota_v \Omega_{BFV}$ | [[Hamiltonian differential form|Hamiltonian form]] $H_v$ | [[Poisson bracket Lie n-algebra|local Poisson bracket]] |
 
 
 
@@ -2594,7 +2736,7 @@ $$
   \label{LocalPoissonLieBracket}
   \left\{(H_1, v_1),\, (H_2, v_2)\right\}
   \;\coloneqq\;
-  (\iota_{v_1} \iota_{v_2} \Omega,\, [v_1,v_2])
+  (\iota_{v_1} \iota_{v_2} \Omega_{BFV},\, [v_1,v_2])
   \,.
 $$
 
@@ -2614,9 +2756,9 @@ it does indeed land in $\Omega^{p,0}_{\Sigma,Ham}(E)$, hence that the following
 equation holds:
 
 $$
-  \delta \iota_{v_2} \iota_{v_1} \Omega
+  \delta \iota_{v_2} \iota_{v_1} \Omega_{BFV}
   \;=\;
-  \iota_{[v_1, v_2]} \Omega
+  \iota_{[v_1, v_2]} \Omega_{BFV}
   \,.
 $$
 
@@ -2650,18 +2792,18 @@ With this we compute as follows:
 
 $$
   \begin{aligned}
-    \delta \iota_{v_1} \iota_{v_2} \Omega
+    \delta \iota_{v_1} \iota_{v_2} \Omega_{BFV}
     & =
-    \tfrac{1}{2} \delta \iota_{v_1} \iota_{v_2} \Omega
+    \tfrac{1}{2} \delta \iota_{v_1} \iota_{v_2} \Omega_{BFV}
     -
     \tfrac{1}{2} (v_1 \leftrightarrow v_2)
     \\
     & =
     \tfrac{1}{2}
     \left(
-      \mathcal{L}_{v_1} \iota_{v_2} \Omega
+      \mathcal{L}_{v_1} \iota_{v_2} \Omega_{BFV}
       -
-      \iota_{v_1} \delta \iota_{v_2} \Omega
+      \iota_{v_1} \delta \iota_{v_2} \Omega_{BFV}
     \right)
     -
     \tfrac{1}{2} (v_1 \leftrightarrow v_2)
@@ -2669,20 +2811,20 @@ $$
     & =
     \tfrac{1}{2}
     \left(
-      \mathcal{L}_{v_1} \iota_{v_2} \Omega
+      \mathcal{L}_{v_1} \iota_{v_2} \Omega_{BFV}
       -
-      \iota_{v_1} \mathcal{L}_{v_2} \Omega
+      \iota_{v_1} \mathcal{L}_{v_2} \Omega_{BFV}
       +
-      \iota_{v_1} \iota_{v_2} \underset{= 0}{\underbrace{\delta \Omega}}
+      \iota_{v_1} \iota_{v_2} \underset{= 0}{\underbrace{\delta \Omega_{BFV}}}
     \right)
     -
     \tfrac{1}{2} (v_1 \leftrightarrow v_2)
     \\
     & =
-    [\mathcal{L}_{v_2}, \iota_{v_1}] \Omega
+    [\mathcal{L}_{v_2}, \iota_{v_1}] \Omega_{BFV}
     \\
     & =
-    \iota_{[v_1, v_2]} \Omega
+    \iota_{[v_1, v_2]} \Omega_{BFV}
     \,.
   \end{aligned}
 $$
@@ -2701,7 +2843,7 @@ $$
 hence that
 
 $$
-  \left(  \iota_{v_1} \iota_{[v_2,v_3]}  \Omega ,\,   [v_1, [v_2, v_2]] \right)
+  \left(  \iota_{v_1} \iota_{[v_2,v_3]}  \Omega_{BFV} ,\,   [v_1, [v_2, v_2]] \right)
   \;+\; (cyclic)
   \;=\; 0
   \,.
@@ -2711,23 +2853,23 @@ Here $ [v_1, [v_2, v_3]] + (cyclic) = 0 $ is the ordinary Jacobi identity for [[
 and hence what needs to be shown is that
 
 $$
-  \iota_{v_1} \iota_{[v_2, v_3]}   \Omega + (cyclic) = 0
+  \iota_{v_1} \iota_{[v_2, v_3]}   \Omega_{BFV} + (cyclic) = 0
 $$
 
 We check this by repeated uses of [[Cartan calculus]], using in addition
 that
 
-1. $\delta \iota_{v_i} \Omega = 0$
+1. $\delta \iota_{v_i} \Omega_{BFV} = 0$
 
-   (since $\iota_{v_i} \Omega = \delta H_i$ by $v_i$ being Hamiltonian)
+   (since $\iota_{v_i} \Omega_{BFV} = \delta H_i$ by $v_i$ being Hamiltonian)
 
-1. $\mathcal{L}_{v_i} \Omega = 0$
+1. $\mathcal{L}_{v_i} \Omega_{BFV} = 0$
 
-   (since in addition $\delta \Omega = 0$)
+   (since in addition $\delta \Omega_{BFV} = 0$)
 
-1. $\iota_{v_1} \iota_{v_2} \iota_{v_3} \Omega = 0$
+1. $\iota_{v_1} \iota_{v_2} \iota_{v_3} \Omega_{BFV} = 0$
 
-   (since $\Omega \in \Omega^{p,2}_\Sigma(E)$ is of vertical degree 2, and since all variations $v_i$ are vertical by assumption).
+   (since $\Omega_{BFV} \in \Omega^{p,2}_\Sigma(E)$ is of vertical degree 2, and since all variations $v_i$ are vertical by assumption).
 
 So we compute as follows (a special case of [FRS 13b, lemma 3.1.1](#Poisson+bracket+Lie+n-algebra#FRS13b)):
 
@@ -2735,36 +2877,36 @@ $$
   \begin{aligned}
     0
     & =
-    \delta \iota_{v_1} \iota_{v_2} \iota_{v_3} \Omega
+    \delta \iota_{v_1} \iota_{v_2} \iota_{v_3} \Omega_{BFV}
     \\
     & =
-    \mathcal{L}_{v_1} \iota_{v_2} \iota_{v_3} \Omega
+    \mathcal{L}_{v_1} \iota_{v_2} \iota_{v_3} \Omega_{BFV}
     -
-    \iota_{v_1} \delta \iota_{v_2} \iota_{v_3} \Omega
+    \iota_{v_1} \delta \iota_{v_2} \iota_{v_3} \Omega_{BFV}
     \\
     & =
-    \iota_{[v_1, v_2]} \iota_{v_3} \Omega
+    \iota_{[v_1, v_2]} \iota_{v_3} \Omega_{BFV}
     +
-    \iota_{v_2} \mathcal{L}_{v_1} \iota_{v_3} \Omega
+    \iota_{v_2} \mathcal{L}_{v_1} \iota_{v_3} \Omega_{BFV}
     -
-    \iota_{v_1} \mathcal{L}_{v_2} \iota_{v_3} \Omega
+    \iota_{v_1} \mathcal{L}_{v_2} \iota_{v_3} \Omega_{BFV}
     +
-    \iota_{v_1} \iota_{v_2} \delta \iota_{v_3} \Omega
+    \iota_{v_1} \iota_{v_2} \delta \iota_{v_3} \Omega_{BFV}
     \\
     & =
-    \iota_{[v_1, v_2]} \iota_{v_3} \Omega
+    \iota_{[v_1, v_2]} \iota_{v_3} \Omega_{BFV}
     +
-    \iota_{v_2} \iota_{[v_1,v_3]} \Omega
+    \iota_{v_2} \iota_{[v_1,v_3]} \Omega_{BFV}
     -
-    \iota_{v_1} \iota_{[v_2, v_3]} \Omega
+    \iota_{v_1} \iota_{[v_2, v_3]} \Omega_{BFV}
     \\
     & =
     -
-    \iota_{v_1} \iota_{[v_2, v_3]} \Omega
+    \iota_{v_1} \iota_{[v_2, v_3]} \Omega_{BFV}
     -
-    \iota_{v_2} \iota_{[v_3, v_1]} \Omega
+    \iota_{v_2} \iota_{[v_3, v_1]} \Omega_{BFV}
     -
-    \iota_{v_3} \iota_{[v_1, v_2]} \Omega
+    \iota_{v_3} \iota_{[v_1, v_2]} \Omega_{BFV}
     \,.
   \end{aligned}
 $$
@@ -2803,7 +2945,7 @@ Hamiltonian vector field, we have
 
 $$
   \begin{aligned}
-    \iota_v \, \iota_e \, \Omega
+    \iota_v \, \iota_e \, \Omega_{BFV}
     & =
     \phantom{-}\iota_v \, \delta E
     \\
@@ -2837,7 +2979,7 @@ Consider the [[Lagrangian field theory]] for the [[free field|free]] [[real scal
 By example \ref{FreeScalarFieldEOM} is [[presymplectic current]] is
 
 $$
-  \Omega
+  \Omega_{BFV}
    =
   \eta^{\mu \nu} \delta \phi_{,\mu} \wedge \delta \phi \wedge \iota_{\partial_\mu} dvol_\Sigma
   \,
@@ -3490,7 +3632,16 @@ of $\Sigma_r$ in $\Sigma$ (eq:SpaceOfFieldHistoriesInHigherCodimension).
 Consider the [[Lagrangian field theory]] of the [[free field|free]] [[real scalar field]]
 from example \ref{LagrangianForFreeScalarFieldOnMinkowskiSpacetime}.
 
-Its [[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]]
+By example \ref{FreeScalarFieldEOM} its [[Euler-Lagrange form]] is 
+
+$$
+  \delta_{EL}\mathbf{L}
+    \;=\;
+  \left(\eta^{\mu \nu} \phi_{,\mu \nu} + m^2 \right) \delta \phi \wedge dvol_\sigma
+$$
+
+Hence for $\Phi \in \Gamma_\Sigma(E) = C^\infty(X)$ a field trajectory,
+its [[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]]
 according to def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime} is
 
 $$
@@ -3509,6 +3660,41 @@ vanishes, $m = 0$, then this is the _relativistic [[wave equation]]_.
 
 =--
 
+
++-- {: .num_prop #MaxwellVacuumEquation}
+###### Example
+**([equations of motion]] of [[free field|free]] [[electriomagnetism]] -- [[vacuum]] [[Maxwell equations]])**
+
+Consider the [[Lagrangian field theory]] of [[free field|free]] [[electromagnetism]] from example \ref{ElectromagnetismLagrangianDensity}.
+
+By example \ref{ElectromagnetismElElectromagnetismEl} its [[Euler-Lagrange form]] is 
+
+$$
+  \delta_{EL}\mathbf{L}
+    \;=\;
+  \frac{d}{d x^\mu}f^{\mu \nu} \delta a_\nu 
+  \,.
+$$
+
+Hence for $A \in \Gamma_{\Sigma}(T^\ast \Sigma) = \Omega^1(\Sigma)$ a field trajectory ([[vector potential]]),
+its [[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]]
+according to def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime} is
+
+$$
+  \begin{aligned}
+    & \frac{\partial}{\partial x^\mu} F^{\mu \nu} = 0
+    \\
+    \Leftrightarrow & 
+    d \star_\eta F = 0
+  \end{aligned}
+  \,,
+$$
+
+where $F = d A$ is the [[Faraday tensor]] (eq:TensorFaraday).
+
+These [[PDEs]] are the _[[vacuum]] [[Maxwell's equations]]_.
+
+=--
 
 
 +-- {: .num_prop #PrincipleOfExtremalAction}
@@ -3684,7 +3870,7 @@ of the [[action functional]] (def. \ref{ActionFunctional}) which embodies the _[
 (prop. \ref{PrincipleOfExtremalAction}) and with it a structure in full [[spacetime]] [[dimension]] $p+1$: the
 [[on-shell]] [[space of field histories]] $\Gamma_{\Sigma}(E)_{\delta_{EL}\mathbf{L} = 0}$ (def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime}).
 
-But there is a second contribution: The [[presymplectic current]] $\Omega \in \Omega^{p,2}_{\Sigma}(E)$.
+But there is a second contribution: The [[presymplectic current]] $\Omega_{BFV} \in \Omega^{p,2}_{\Sigma}(E)$.
 Since this is of horizontal degree $p$,
 its [[transgression of variational differential forms|transgression]] implies a further structure on the [[space of field histories]]
 of restricted to [[spacetime]] [[submanifolds]] of dimension $p$ (i.e. of spacetime "[[codimension]] 1").
@@ -3751,7 +3937,7 @@ then the corresponding _[[phase space]]_ is
      \label{TransgressionOfPresymplecticCurrentToCauchySurface}
      \omega_{\Sigma_p}
      \;\coloneqq\;
-     \tau_{\Sigma_p}\left(\Omega\right)
+     \tau_{\Sigma_p}\left(\Omega_{BFV}\right)
      \;\in\;
      \Omega^2\left(
        \Gamma_{\Sigma_p}(E)_{\delta_{EL}\mathbf{L} = 0}
@@ -3759,7 +3945,7 @@ then the corresponding _[[phase space]]_ is
    $$
 
    which is the [[transgression of variational differential forms|transgression]]
-   of the [[presymplectic current]] $\Omega$ (def. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}).
+   of the [[presymplectic current]] $\Omega_{BFV}$ (def. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}).
 
 
 
@@ -3810,7 +3996,7 @@ By example \ref{FreeScalarFieldEOM} the
 [[presymplectic current]] is
 
 $$
-  \Omega
+  \Omega_{BFV}
   \;=\;
   \left(\eta^{\mu \nu} \delta \phi_{,\mu} \wedge \delta \phi \right) \wedge \iota_{\partial_\nu} dvol_{\Sigma}
   \;\in\;
@@ -3947,22 +4133,22 @@ is therefore called the _[[covariant phase space]]_ of the [[Lagrangian field th
 ###### Proof
 
 By prop. \ref{HorizontalDerivativeOfPresymplecticCurrentVanishesOnShell} the
-total spacetime derivative $d \Omega$ of the [[presymplectic current]] vanishes [[on-shell]]:
+total spacetime derivative $d \Omega_{BFV}$ of the [[presymplectic current]] vanishes [[on-shell]]:
 
 $$
-  d \Omega = - \delta \delta_{EL} \mathbf{L}
+  d \Omega_{BFV} = - \delta \delta_{EL} \mathbf{L}
   \,.
 $$
 
-This means that the transgression of $d \Omega$ to $\Gamma_{\Sigma_{tra}}(E)_{\delta_{EL}\mathbf{L} = 0}$ vanishes.
+This means that the transgression of $d \Omega_{BFV}$ to $\Gamma_{\Sigma_{tra}}(E)_{\delta_{EL}\mathbf{L} = 0}$ vanishes.
 But then the claim follows with prop. \ref{TransgressionOfVariationaldifferentialFormsCompatibleWithVariationalDerivative}:
 
 $$
   \begin{aligned}
     0
-    & =   \tau_{\Sigma_{tra}}(d \Omega)
+    & =   \tau_{\Sigma_{tra}}(d \Omega_{BFV})
     \\
-    & = ((-)\vert_{\Sigma_{tra}})^\ast \tau_{\partial \Sigma_{tra}} \Omega
+    & = ((-)\vert_{\Sigma_{tra}})^\ast \tau_{\partial \Sigma_{tra}} \Omega_{BFV}
     \,.
   \end{aligned}
 $$
@@ -4532,27 +4718,28 @@ requires the existence of [[Cauchy surfaces]] (def. \ref{CauchySurface}) for its
 the presence of [[infinitesimal symmetries of the Lagrangian]] (def. \ref{SymmetriesAndConservedCurrents})
 that have compact spacetime support (def. \ref{SpacetimeSupport}).
 
-This obtructions turns out to be neatly
+This obstruction is neatly
 captured by the [[cochain cohomology]] of a [[cochain complex]] which is induced by the [[equations of motion]],
-called the _local [[BV-complex]]_ (def. \ref{BVComplexOfOrdinaryLagrangianDensity}) of the Lagrangian theory. 
+called the _local [[BV-complex]]_ (def. \ref{BVComplexOfOrdinaryLagrangianDensity}) of the Lagrangian theory.
 This appearance of [[homotopy theory]] in the guise of [[homological algebra]] in Lagrangian field theory
 paves the way to understanding the cause of the obstruction: It disappears when the
 [[field bundle]] (or more generally its [[jet bundle]]) is promoted to its _infinitesimal [[homotopy quotient]]_
-by the [[action]] of these compactly supported symmetries (the "[[action Lie algebroid]]", def. \ref{ActionLieAlgebroid} below). Passing to this homotopy quotient
-means to hard-wire into the geometry of the  types of [[fields|field (physics)]] their _[[equivalence]]_ under these symmetries: in physics this is called _[[gauge equivalence]]_.  The result is called the "[[reduced phase space]]", which we turn to further [below](#ReducedPhaseSpace).
+by the [[action]] of these compactly supported symmetries (the "[[action Lie algebroid]]", def. \ref{ActionLieAlgebroid} below). 
+Passing to this homotopy quotient
+means to hard-wire into the geometry of the  types of [[field (physics)|field]] their _[[equivalence]]_ under these symmetries: in physics this is called _[[gauge equivalence]]_.  The result is called the "[[reduced phase space]]", which we turn to further [below](#ReducedPhaseSpace).
 
 Therefore the presence of [[infinitesimal symmetries of the Lagrangian]] with compact spacetime support is a defect of the theory
-which however implies its own solution by indicating which [[relations]] ought to be promoted
-to "[[gauge equivalences|gauge]]" [[equivalences]], therefore we call these the _implicit [[infinitesimal gauge symmetries]]_
+which however implies its own solution, by indicating which [[relations]] ought to be promoted
+to "[[gauge equivalences|gauge]]" [[equivalences]]. Therefore we call these the _implicit [[infinitesimal gauge symmetries]]_
 (remark \ref{ImplicitGaugeTransformationTerminology} below).
 
-An obvious candidate class of such implicit infinitesimal gauge transformations are 
-[[infinitesimal symmetries of the Lagrangian]] which come in collections
-parameterized linearly by arbitrary [[sections]] (and their [[derivatives]]) of some [[vector bundle]] on [[spacetime]]:
-Because then for every such section of [[compact support]] the corresponding symmetry will have 
-compact spacetime support and hence be an implicit gauge symmetry. Therefore such sections are 
+An obvious candidate class of such implicit infinitesimal gauge transformations are
+[[infinitesimal symmetries of the Lagrangian]] which appear 
+linearly _parameterized_  by arbitrary [[sections]] (and their [[derivatives]]) of some [[vector bundle]] on [[spacetime]]:
+Because then for every such section of [[compact support]] the corresponding symmetry will have
+compact spacetime support and hence be an implicit gauge symmetry. Therefore such sections are
 called _[[gauge parameters]]_ (def. \ref{GaugeParametrizedInfinitesimalGaugeTransformation} below). In applications typically all implicit [[infinitesimal gauge transformations]]
-come from [[gauge parameters]] this way. 
+come from [[gauge parameters]] this way, notably so for the theory of [[electromagnetism]] (example \ref{InfinitesimalGaugeSymmetryElectromagnetism}) and more generally [[Yang-Mills theory]].
 
 
 $\,$
@@ -4866,11 +5053,11 @@ whose [[field bundle]] $E$ is a [[trivial vector bundle]] (example \ref{TrivialV
 Let $\Sigma \times \{\varphi\} \hookrightarrow \mathcal{E}$ be a constant section of the shell (eq:ConstantSectionOfTrivialShellBundle).
 
 Then the BV-presymplectic current $\Omega_{BV}$ (def. \ref{BVPresymplecticCurrent})
-witnesses the [[on-shell]] vanishing (prop. \ref{HorizontalDerivativeOfPresymplecticCurrentVanishesOnShell}) of the [[total derivative|total spacetime derivative]] of the genuine [[presymplectic current]] $\Omega$ (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}) in that the [[total derivative|total spacetime derivative]]
-of $\Omega$ equals the BV-differential $s_{BV}$  of $\Omega_{BV}$:
+witnesses the [[on-shell]] vanishing (prop. \ref{HorizontalDerivativeOfPresymplecticCurrentVanishesOnShell}) of the [[total derivative|total spacetime derivative]] of the genuine [[presymplectic current]] $\Omega_{BFV}$ (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}) in that the [[total derivative|total spacetime derivative]]
+of $\Omega_{BFV}$ equals the BV-differential $s_{BV}$  of $\Omega_{BV}$:
 
 $$
-  d \Omega = s_{BV} \Omega_{BV}
+  d \Omega_{BFV} = s \Omega_{BV}
   \,.
 $$
 
@@ -4923,7 +5110,7 @@ For the first statement we compute as follows:
 
 $$
   \begin{aligned}
-   s_{BV} \Omega_{BV}
+   s \Omega_{BV}
     & =
   - \delta (s \overline{\phi}_a) \delta \phi^a \wege dvol_{\Sigma}
   \\
@@ -4934,7 +5121,7 @@ $$
   - \delta \delta_{EL}\mathbf{L}
   \\
   & =
-  d \Omega
+  d \Omega_{BFV}
   \,,
   \end{aligned}
 $$
@@ -5023,7 +5210,7 @@ $$
 We discuss the structures of which example \ref{InterpretationCohomologyOfBVComplex} is a first
 indication in the next section [below](#ReducedPhaseSpace).
 
-After these generalities on implicit [[infinitesimal gauge symmetries]] we turn attention to a more 
+After these generalities on implicit [[infinitesimal gauge symmetries]] we turn attention to a more
 structured special class of them.
 
 Recall that an [[evolutionary vector field]] (def. \ref{EvolutionaryVectorField})
@@ -5075,7 +5262,7 @@ Then a collection of _[[gauge parameters]]_ for $(E,\mathbf{L})$ is
 
    1. $R$ is linear in the first argument;
 
-   1. For every [[gauge parameter]] $\epsilon$ of [[compact support]] the composite of $R$ with the 
+   1. For every [[gauge parameter]] $\epsilon$ of [[compact support]] the composite of $R$ with the
    [[jet prolongation]] $j^\infty_\Sigma(\epsilon)$ (def. \ref{JetProlongation})
 
       $$
@@ -5089,9 +5276,9 @@ Then a collection of _[[gauge parameters]]_ for $(E,\mathbf{L})$ is
          \overset{R}{\longrightarrow}
         V_\Sigma E
       $$
-   
+
       is an [[infinitesimal symmetry of the Lagrangian]] (def. \ref{SymmetriesAndConservedCurrents}).
-   
+
 In components this means that, if the [[field bundle]] $E$ is a [[trivial vector bundle]] with [[field (physics)|field]] coordinates
 $(\phi^a)$ (example \ref{TrivialVectorBundleAsAFieldBundle})
 and also $\mathcal{G}$ happens to be a [[trivial vector bundle]] equipped with [[fiber]] [[coordinates]] $(e^\alpha)$,
@@ -5099,12 +5286,12 @@ then $v_\epsilon$ is of the form
 
 $$
   \label{CoordinateExpressionForGaugeParameterized}
-  v_\epsilon 
+  v_\epsilon
     \;=\;
   \left(
-    \epsilon^\alpha R^a_\alpha 
+    \epsilon^\alpha R^a_\alpha
     +
-    \frac{d \epsilon^\alpha}{d x^\mu} R^{a \mu}_\alpha 
+    \frac{d \epsilon^\alpha}{d x^\mu} R^{a \mu}_\alpha
     +
     \frac{d^2 \epsilon^\alpha}{d x^{\mu_1} d x^{\mu_2}} R^{a \mu_1 \mu_2}_\alpha
     +
@@ -5119,14 +5306,32 @@ where the $R^{a \mu_1 \cdots \mu_k}_\alpha$ are smooth functions on the jet bund
 =--
 
 
-+-- {: .num_example}
-###### Example
+
++-- {: .num_prop #NoetherIdentities}
+###### Proposition
+**([[Noether identities]])
 
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}).
 
-If $v_\epsilon$ is a [[gauge parameter|gauge parameterized]] implicit [[infinitesimal gauge transformation]]
-(def. \ref{GaugeParametrizedInfinitesimalGaugeTransformation}) with coordinate expression as in (eq:CoordinateExpressionForGaugeParameterized)
-then the [[Euler-Lagrange form]] $\delta_{EL}\mathbf{L}$ (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime})
+A [[gauge parameter|gauge parameterized]] [[evolutionary vector field]] (eq:CoordinateExpressionForGaugeParameterized)
+
+$$
+  v_\epsilon
+  \;=\;
+  \left(
+    \epsilon^\alpha R^a_\alpha
+    +
+    \frac{d \epsilon^\alpha}{d x^\mu} R^{a \mu}_\alpha
+    +
+    \frac{d^2 \epsilon^\alpha}{d x^{\mu_1} d x^{\mu_2}} R^{a \mu_1 \mu_2}_\alpha
+    +
+    \cdots
+  \right)
+  \partial_{\phi^a}
+$$
+
+is a [[gauge parameter|gauge parameterized]] implicit [[infinitesimal gauge transformation]]
+(def. \ref{GaugeParametrizedInfinitesimalGaugeTransformation}) precisely if the [[Euler-Lagrange form]] $\delta_{EL}\mathbf{L}$ (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime})
 satisfies the following relation:
 
 $$
@@ -5146,23 +5351,88 @@ $$
 
 These are called _[[Noether identities]]_ of the [[Euler-Lagrange equations|Euler-Lagrange]] [[equations of motion]] (def \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime}).
 
+=--
+
+
++-- {: .num_example #InfinitesimalGaugeSymmetryElectromagnetism}
+###### Example
+**(implicit [[infinitesimal gauge symmetry]] of [[electromagnetism]])
+
+Consider the [[Lagrangian field theory]] of [[free field|free]] [[electromagnetism]]
+on [[Minkowski spacetime]] $\Sigma$ from example \ref{ElectromagnetismLagrangianDensity}.
+
+Let $\mathca{G} \coloneqq \sigma \times \mathbb{R}$ be the [[trivial line bundle]], regarded as a
+[[gauge parameter]] bundle (def. \ref{GaugeParametrizedInfinitesimalGaugeTransformation}). 
+Then the [[gauge parameter|gauge parametrized]] [[evolutionary vector field]] (eq:CoordinateExpressionForGaugeParameterized) given on a gauge parameter
+
+$$
+  \epsilon \in \Gamma_\Sigma(\mathcal{G}) = C^\infty(\Sigma)
+$$
+
+by
+
+$$
+  v_\epsilon \coloneqq \frac{d \epsilon}{d x^\mu} \partial_{a_\mu}
+$$
+
+is a gauge paramterized implicit [[infinitesimal gauge transformation]] according to 
+def. \ref{GaugeParametrizedInfinitesimalGaugeTransformation}.
+
+This is because the [[Euler-Lagrange form]] 
+
+$$
+  \delta_{EL}\mathbf{L}
+  \;=\; 
+  \frac{d}{d x^\mu }f^{\mu \nu} \delta_{a_\nu} dvol_\Sigma
+$$ 
+
+of the theory (example \ref{ElectromagnetismEl}),
+corresponding to the [[vacuum]] [[Maxwell equations]] (example \ref{MaxwellVacuumEquation}),
+satisfy the evident [[Noether identity]] (prop. \ref{NoetherIdentities})
+
+$$
+  \frac{d}{d x^\mu} \frac{d}{d x^\nu} f^{\mu \nu} = 0
+$$
+
+
+simply because $f^{\mu \nu} = f^{\nu \mu}$ is skew-symmetric by definition (eq:FaradyTensorJet)
+while [[partial derivatives]] commute with each other.
+
+This is the archetypical _[[infinitesimal gauge symmetry]]_ that gives [[gauge theory]] its name.
 
 =--
+
+
+$\,$
 
 ## Reduced phase space
  {#ReducedPhaseSpace}
 
+We have seen that the presence of non-trivial _implicit_ [[infinitesimal gauge transformations]] 
+(def. \ref{ImplicitInfinitesimalGaugeSymmetry}) in a [[Lagrangian field theory]] [[obstruction|obstruct]] the existence of the [[covariant phase space]] of the theory (prop. \ref{NonTrivialImplicitInfinitesimalGaugeSymmetriesPbstructExistenceOfCauchySurfaces}). But one may
+make these implicit infinitesimal gauge symmetries _explicit_ by hard-wiring into the very [[geometry]] of the types of [[fields|field (physics)]] their _[[equivalence]]_ under these symmetries: In physics this is called _[[gauge equivalence]]_.  
 
-Making the _implicit_ [[infinitesimal gauge transformations]] form def. \ref{ImplicitInfinitesimalGaugeSymmetry} explicit means to consider the
-infinitesimal [[homotopy quotient]] of their [[action]] on the [[field bundle]],
-represented by their [[action Lie algebroid]]. The ("[[Chevalley-Eilenberg algebra|Chevalley-Eilenberg]]"-)algebra
-of functions on this "field bundle with infinitesimal gauge symmetries made explicit" is called the _[[BRST complex]]_.
-In it the formerly _implicit_ infinitesimal gauge symmetries appear _explicitly_ in the guise of [[field (physics)|field]] variables
-of positive grading in a [[differential graded-commutative algebra]]. These are called _[[ghost fields]]_.
+Mathematically this means to pass to the infinitesimal [[homotopy quotient]] of the [[action]] of the gauge symmetries on the [[shell]],
+represented by the [[action Lie algebroid]] (def. \ref{ActionLieAlgebroid} below). This object exists in the 
+unification of [[differential geometry]] with [[homotopy theory]] called _[[higher geometry]]_.
+This is called the local _[[reduced phase space]]_ of the theory.
+The ("[[Chevalley-Eilenberg algebra|Chevalley-Eilenberg]]"-)[[algebra of functions]] on this "field bundle with infinitesimal gauge symmetries made explicit" is called the _[[BRST complex]]_.
+In this [[cochain complex]] the formerly _implicit_ [[infinitesimal gauge symmetries]] appear _explicitly_ in the guise of [[field (physics)|field]] variables of positive (i.e. "higher") degree in a [[differential graded-commutative algebra]]. These are called _[[ghost fields]]_.
+
+
+Where the ordinary [[shell]] of the theory is the _[[critical locus]]_ of the [[Lagrangian density]] with respect to 
+[[Euler-Lagrange variational derivative|Euler-Lagrange variation]] 
+inside the ordinary [[jet bundle]] manifold (see [above](#CriticalLocusShell)), 
+the analog of the concept of [[critical locus]] in the [[homotopy theory|homotopy theoretic]]
+"[[higher differential geometry]]" or "[[derived geometry]]" is called _[[derived critical locus]]_.
+Hence the correct incarnation of the [[shell]] when all [[infinitesimal gauge symmetries]] have been made explicit
+is the _[[derived critical locus]]_ of the [[Lagrangian density]] inside the [[action Lie algebroid]] of gauge symmetries
+acting on the [[field bundle]]. The [[algebra of functions]] on this "derived shell" is called the _[[BV-BRST complex]]_ 
+of the theory.
 
 (...)
 
-+-- {: .num_defn}
++-- {: .num_defn #LInfinityAlgebroid}
 ###### Definition
 **(infinitesimal [[derived Lie algebroid]])**
 
@@ -5431,22 +5701,41 @@ this reduces to the plain local [[BV-complex]] from def. \ref{BVComplexOfOrdinar
 
 On the [[Weil algebra]] we need to re-introduce the [[variational bicomplex]] structure.
 
-The full de Rham differential on the derived critical locus is
++-- {: .num_defn #BVVariationalBicmplex}
+###### Definition
+**([[variational BV-bicomplex]] and [[local BV-BRST cohomology]])**
 
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) 
+with infinitesimal local [[reduced phase space]] 
 
 $$
-  \mathbf{d}_W = \mathbf{d} + s_{\text{BV-BRST}}
+  \Omega^{0,0}_{\Sigma,\varphi}(E)\vert_{\mathcal{E}_{\text{BV-BRST}}}
+  \,.
+$$
+
+The full de Rham differential on this is 
+
+$$
+  \mathbf{d}_W = \mathbf{d} - s
 $$
 
 and we need to re-state what counts as a horizontal differential now. Take it to be
 
 $$
-  d_W \coloneqq d - s_{BV}
+  d_W \coloneqq d - s
+  \,.
 $$
 
-where $d = d x^\mu \frac{d}{d x^\mu}$ is the original total horizontal differential.
+The resulting bicomplex of differential forms on an infinitesimal [[derived Lie algebroid]] we denote
 
-The cohomology of $d_W$ is called _[[local BV-BRST cohomology]]_.
+$$
+  \Omega^{\bullet,\bullet}_{\Sigma,\varphi}(E)\vert_{\mathcal{E}_{\text{BV-BRST}}}
+  \,.
+$$
+
+The cohomology of $d_W = d - s$ is called _[[local BV-BRST cohomology]]_.
+
+=--
 
 Then a local observable $A \in \Omega^{p+1,0}_{\Sigma,cp}(E)\vert_{\mathcal{E}_{BV}}$
 is derived-horizontally closed, $d_W A = 0$, if $s_{\text{BV-BRST}} A = 0$.
@@ -5457,11 +5746,11 @@ $$
     \\
     {\mathllap{s_{\text{BV-BRST}}}}\uparrow
     \\
-    \{A\} &\underset{d\vert_{\Omega^{p+1,1}_\Sigma} = 0}{\longrightarrow}& 0
+    \{A\} &\underset{}{\longrightarrow}& 0
   }
 $$
 
-Such $A$ is exact $d_W$-exact if it is a sum of a term that vanishes on-shell and a horizontally exact term.
+Such $A$ is $d_W$-exact if it is a sum of a term that vanishes on-shell and a horizontally exact term.
 
 Hence if we now define the local observables to be the horizontal cohomology,
 we get precisely the gauge-invariant on-shell local observables.
@@ -5532,7 +5821,42 @@ $$
 
 =--
 
++-- {: .num_example #}
+###### Example
+**(derived [[presymplectic current]] of [[real scalar field]])
 
+Consider a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
+without any non-trivial implicial [[infinitesimal gauge transformations]] (def. \ref{ImplicitInfinitesimalGaugeSymmetry});
+for instance the [[real scalar field]] (def. \ref{LagrangianForFreeScalarFieldOnMinkowskiSpacetime}).
+
+Inside its [[variational BV-bicomplex]] (def. \ref{BVVariationalBicmplex}) we may form the linear combination of 
+
+1. the [[presymplectic current]] $\Omega_{BFV}$ (example \ref{FreeScalarFieldEOM})
+
+1. the BF-presymplectic current $\Omega_{BV}$ (example \ref{BVPresymplecticCurrent}).
+
+This yields a vertical 2-form
+
+$$
+  \Omega \;\coloneqq\; \Omega_{BV} + \Omega_{BFV} \;\; \in \Omega^{p,2}_\Sigma(E)\vert_{\mathcal{E}_{BV}}
+$$
+
+which is closed under the BV-horizontal derivative $d - s$:
+
+$$
+  \begin{aligned}
+    (d - s) (\Omega_{BV} + \Omega_{BFV})
+    & =
+    \underset{= 0}{\underbrace{d \Omega_{BFV} - s \Omega_{BV}}} + d \Omega_{BV} - s \Omega_{BFV} 
+    \\
+    & = 0
+  \end{aligned}
+$$
+
+Here the first term vanishes via the local BV-BFV relation (prop. \ref{ResolutionOfCovariantPhaseSpaceCorrespondence})
+while the other two terms vanish simply by degree reasons.
+
+=--
 
 
 So now we define, in analogy to what we did in the underived case, the derived vertical derivative to be what
@@ -5550,7 +5874,7 @@ of the BRST complex gets a bigrading: the "derived variational bicomplex" or som
 
 +-- {: .num_example }
 ###### Example
-**(gauge symmetries modulo EOMs are $d_W$-exact)
+**(gauge symmetries modulo EOMs are $(d-s)$-exact)
 
 
 An  [[infinitesimal gauge symmetry]] $v_\epsilon$  of [[gauge parameter]] $(\epsilon^\alpha)$ is a vector field on the jet bundle with components of the form
