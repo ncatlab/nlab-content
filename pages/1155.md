@@ -146,6 +146,10 @@ Discussion of the relation (equivalence of [[homotopy categories]]) to the [[Bou
 
 * {#BousfieldFriedlander78} [[Aldridge Bousfield]], [[Eric Friedlander]], section 2.5 of _Homotopy theory of $\Gamma$-spaces, spectra, and bisimplicial sets_, Springer Lecture Notes in Math., Vol. 658, Springer, Berlin, 1978, pp. 80-130. ([pdf](https://www.math.rochester.edu/people/faculty/doug/otherpapers/bousfield-friedlander.pdf))
 
+See also
+
+* Ruian Chen, [[Igor Kriz]] and Ales Pultr, _Kan's combinatorial spectra and their sheaves revisited_, Theory and Applications of Categories, Vol. 32, 2017, No. 39, pp 1363-1396. ([TAC](http://www.tac.mta.ca/tac/volumes/32/39/32-39abs.html)) 
+
 [[!redirects combinatorial spectra]]
 
 [[!redirects model structure on combinatorial spectra]]
