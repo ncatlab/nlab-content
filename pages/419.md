@@ -360,6 +360,14 @@ $$
 
 * The [[classical model structure on pointed topological spaces]] or pointed simplicial sets with the [[smash product]] of pointed objects.
 
+### Simplicial presheaves
+ {#SimplicialPresheaves}
+
+If the underlying [[site]] has [[finite product]], then both the injective and the projective, the global and the local [[model structure on simplicial presheaves]] becomes a (Cartesian) [[monoidal model category]] with respect to the standard [[closed monoidal structure on presheaves]].
+
+See at _[[model structure on simplicial presheaves]]_ the section _[Closed monoidal structure](https://ncatlab.org/nlab/show/model+structure+on+simplicial+presheaves#MonoidalStructure)_.
+
+
 ### Homological algebra and stable homotopy theory
 
 * The category of [[chain complex]]es with the usual [[tensor product]] of chain complexes and the [[model structure on chain complexes|projective model structure]].
