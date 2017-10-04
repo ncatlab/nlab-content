@@ -5,7 +5,7 @@
 * [homepage](http://favonia.org/)
 
 * _Higher-Dimensional Types in the
-Mechanization of Homotopy Theory_, PhD thesis 2017, ([webpage](http://favonia.org/thesis.html), [pdf direct link](http://favonia.org/thesis.pdf))
+Mechanization of Homotopy Theory_, PhD thesis 2017, ([webpage](http://favonia.org/thesis.html), [pdf direct link](http://favonia.org/files/thesis.pdf))
 
 ## related $n$Lab entries
 
