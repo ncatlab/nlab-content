@@ -1392,7 +1392,7 @@ $$
   \,.
 $$
 
-{#CriticalLocusShell} In other words the [[shell]] (eq:ShellInJetBundle) is the _[[critical locus]]_ of the Lagrangian density with respect to 
+{#CriticalLocusShell} In other words the [[shell]] (eq:ShellInJetBundle) is the _[[critical locus]]_ of the Lagrangian density with respect to
 [[Euler-Lagrange variational derivative|Euler-Lagrange variation]].
 
 Saying something holds  "[[on-shell]]" is to mean that it holds after restriction to this
@@ -1814,7 +1814,7 @@ The [[Euler-Lagrange variation]] is
 $$
   \delta_{EL} \mathbf{L}
   \;=\;
-  \frac{d}{d x^\mu} f^{\mu \nu} \delta a_\nu 
+  \frac{d}{d x^\mu} f^{\mu \nu} \delta a_\nu
   \,.
 $$
 
@@ -2081,9 +2081,9 @@ corresponding to the [[field (physics)|field]] coordinates $\phi^a$.
 
 An [[evolutionary vector field]] (def. \ref{EvolutionaryVectorField}) describes
 an infinitesimal change of field values _depending_ on, possibly, the point in spacetime and the values of the field
-and all its derivatives (locally to finite order).
+and all its derivatives (locally to finite order, by prop. \ref{JetBundleIsLocallyProManifold}).
 This induces a corresponding infinitesimal change of the derivatives of the fields, called the _prolongation_
-of the evolutionary vector field.
+of the evolutionary vector field:
 
 
 +-- {: .num_prop #EvolutionaryVectorFieldProlongation}
@@ -2191,6 +2191,60 @@ This shows that $\hat v$ satisfying the two conditions given exists uniquely. Fi
 the formula for the [[Lie derivative]] follows from the second of the two conditions with [[Cartan's homotopy formula]]
 $\mathcal{L}_{\hat v} = \mathbf{d} \circ \iota_{\hat v} + \iota_{\hat v} \circ \mathbf{d}$
 together with $\mathbf{d} = \delta + d$ (eq:VariationalDerivative).
+
+=--
+
+
++-- {: .num_prop #EvolutionaryVectorFieldLieAlgebra}
+###### Proposition
+**([[evolutionary vector fields]] form a [[Lie algebra]])
+
+Let $E \overset{fb}{\to} \Sigma$ be a [[fiber bundle]]. For any two [[evolutionary vector fields]]
+$v_1$, $v_2$ on $E$ (def. \ref{EvolutionaryVectorField}) the [[Lie bracket]] of [[vector fields]]
+of their prolongations $\hat v_1$, $\hat v_2$ (def. \ref{EvolutionaryVectorFieldProlongation}) 
+is itself the prolongation $\widehat{[v_1, v_2]}$ of a unique evolutionary vector field $[v_1,v_2]$.
+
+This defines the structure of a [[Lie algebra]] on evolutionary vector fields.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+It is clear that $[\hat v_1, \hat v_2]$ is still [[vertical vector field|vertical]], therefore by
+prop. \ref{EvolutionaryVectorFieldProlongation} it is sufficient to show that contraction with this 
+vector field anti-commutes with the [[horizontal derivative]] $d$, 
+hence that $[d, \iota_{[\hat v_1, \hat v_2]}] = 0$. 
+
+Now $[d, \iota_{[\hat v_1, \hat v_2]}]$ is an
+operator that sends vertical 1-forms to horizontal 1-forms and vanishes on
+horizontal 1-forms. Therefore it is sufficient to see that this operator
+in fact also vanishes on all vertical 1-forms. But for this it is
+sufficient that it commutes with the vertical derivative.
+This we check by [[Cartan calculus]], using $[d,\delta] = 0$ and $[d, \iota_{\hat v_i}]$, by assumption:
+
+$$
+  \begin{aligned}
+    [\delta, [d,\iota_{[\hat v_1, \hat v_2]}] ]
+    & =
+    - [d, [\delta, \iota_{[\hat v_1, \hat v_2]}]]
+    \\
+    & =
+    - [d,  \mathcal{L}_{[\hat v_1, \hat v_2]}]
+    \\
+    & =
+    -[d, [\mathcal{L}_{\hat v_1}, \iota_{\hat v_2}]  ] 
+    \\
+    & =
+    - [d, [ [\delta, \iota_{\hat v_1}], \iota_{\hat v_2}  ]]
+    \\
+    & =
+    0
+    \,.
+  \end{aligned}
+$$
+
+
 
 =--
 
@@ -3632,7 +3686,7 @@ of $\Sigma_r$ in $\Sigma$ (eq:SpaceOfFieldHistoriesInHigherCodimension).
 Consider the [[Lagrangian field theory]] of the [[free field|free]] [[real scalar field]]
 from example \ref{LagrangianForFreeScalarFieldOnMinkowskiSpacetime}.
 
-By example \ref{FreeScalarFieldEOM} its [[Euler-Lagrange form]] is 
+By example \ref{FreeScalarFieldEOM} its [[Euler-Lagrange form]] is
 
 $$
   \delta_{EL}\mathbf{L}
@@ -3663,16 +3717,16 @@ vanishes, $m = 0$, then this is the _relativistic [[wave equation]]_.
 
 +-- {: .num_prop #MaxwellVacuumEquation}
 ###### Example
-**([equations of motion]] of [[free field|free]] [[electriomagnetism]] -- [[vacuum]] [[Maxwell equations]])**
+**([equations of motion]] of [[free field|free]] [[electromagnetism]] -- [[vacuum]] [[Maxwell equations]])**
 
 Consider the [[Lagrangian field theory]] of [[free field|free]] [[electromagnetism]] from example \ref{ElectromagnetismLagrangianDensity}.
 
-By example \ref{ElectromagnetismElElectromagnetismEl} its [[Euler-Lagrange form]] is 
+By example \ref{ElectromagnetismElElectromagnetismEl} its [[Euler-Lagrange form]] is
 
 $$
   \delta_{EL}\mathbf{L}
     \;=\;
-  \frac{d}{d x^\mu}f^{\mu \nu} \delta a_\nu 
+  \frac{d}{d x^\mu}f^{\mu \nu} \delta a_\nu
   \,.
 $$
 
@@ -3684,7 +3738,7 @@ $$
   \begin{aligned}
     & \frac{\partial}{\partial x^\mu} F^{\mu \nu} = 0
     \\
-    \Leftrightarrow & 
+    \Leftrightarrow &
     d \star_\eta F = 0
   \end{aligned}
   \,,
@@ -3804,7 +3858,7 @@ We write
 $$
   Obs_{\Sigma}
     \;\coloneqq\;
-  \langle LocObs_\Sigma \rangle_{C^\infty\left(\Gamm_\Sigma(E)\right)_{\delta_{EL}\mathbf{L} = 0}}
+  \langle LocObs_\Sigma \rangle_{C^\infty\left(\Gamma_\Sigma(E)\right)_{\delta_{EL}\mathbf{L} = 0}}
 $$
 
 for the smallest subalgebra of observables that contains all the (...polynomial...) local observables.
@@ -4724,7 +4778,7 @@ called the _local [[BV-complex]]_ (def. \ref{BVComplexOfOrdinaryLagrangianDensit
 This appearance of [[homotopy theory]] in the guise of [[homological algebra]] in Lagrangian field theory
 paves the way to understanding the cause of the obstruction: It disappears when the
 [[field bundle]] (or more generally its [[jet bundle]]) is promoted to its _infinitesimal [[homotopy quotient]]_
-by the [[action]] of these compactly supported symmetries (the "[[action Lie algebroid]]", def. \ref{ActionLieAlgebroid} below). 
+by the [[action]] of these compactly supported symmetries (the "[[action Lie algebroid]]", def. \ref{ActionLieAlgebroid} below).
 Passing to this homotopy quotient
 means to hard-wire into the geometry of the  types of [[field (physics)|field]] their _[[equivalence]]_ under these symmetries: in physics this is called _[[gauge equivalence]]_.  The result is called the "[[reduced phase space]]", which we turn to further [below](#ReducedPhaseSpace).
 
@@ -4734,7 +4788,7 @@ to "[[gauge equivalences|gauge]]" [[equivalences]]. Therefore we call these the 
 (remark \ref{ImplicitGaugeTransformationTerminology} below).
 
 An obvious candidate class of such implicit infinitesimal gauge transformations are
-[[infinitesimal symmetries of the Lagrangian]] which appear 
+[[infinitesimal symmetries of the Lagrangian]] which appear
 linearly _parameterized_  by arbitrary [[sections]] (and their [[derivatives]]) of some [[vector bundle]] on [[spacetime]]:
 Because then for every such section of [[compact support]] the corresponding symmetry will have
 compact spacetime support and hence be an implicit gauge symmetry. Therefore such sections are
@@ -5243,46 +5297,54 @@ Then a collection of _[[gauge parameters]]_ for $(E,\mathbf{L})$ is
 1. a [[vector bundle]] $\mathcal{G} \overset{gb}{\longrightarrow} \Sigma$ over [[spacetime]] $\Sigma$;
    the [[sections]] $\epsilon$ of which are to be called the _[[gauge parameters]]_;
 
-1. a [[bundle morphism]] $R$ from the [[fiber product]] of its [[jet bundle]] with that of the [[field bundle]] (def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
+1. a [[bundle morphism]] $R$ from the
+   [[jet bundle]] of the  [[fiber product]] $\mathcal{G} \times_\Sigma E$ with the [[field bundle]] (def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
    to the [[vertical tangent bundle]] of $E$:
 
    $$
-     \array{
-        J^\infty_\Sigma(\mathcal{G}) \times_\Sigma J^\infty_\Sigma(E)
-         &\overset{R}{\longrightarrow}&
-        V_\Sigma E
-        \\
-        \downarrow & \swarrow_{}
-        \\
-        E
-     }
+     J^\infty_\Sigma( \mathcal{G} \times_\Sigma E )
+       \overset{R}{\longrightarrow}
+     V_\Sigma E
+       \overset{i}{\hookrightarrow}
+     V_\Sigma (\mathcal{G} \times_\Sigma E)
    $$
 
-   such that
+such that
 
-   1. $R$ is linear in the first argument;
+1. $R$ is [[linear map|linear]] in the first argument;
 
-   1. For every [[gauge parameter]] $\epsilon$ of [[compact support]] the composite of $R$ with the
-   [[jet prolongation]] $j^\infty_\Sigma(\epsilon)$ (def. \ref{JetProlongation})
+1. $i \circ R$ is an [[evolutionary vector field]] on $\mathcal{G} \times_\Sigma E$ (def. \ref{EvolutionaryVectorField});
 
-      $$
-        v_\epsilon
-         \;\colon\;
-        J^\infty_\Sigma(E)
-         =
-        \Sigma \times_\Sigma J^\infty_\Sigma(E)
-         \overset{(j^\infty_\Sigma(\epsilon), id)}{\longrightarrow}
-        J^\infty_\Sigma(\mathcal{G}) \times_\Sigma J^\infty_\Sigma(E)
-         \overset{R}{\longrightarrow}
-        V_\Sigma E
-      $$
+1. $R(e,-)$ is an [[infinitesimal symmetry of the Lagrangian]] (def. \ref{SymmetriesAndConservedCurrents})
+   for every point in $e \in J^\infty_\Sigma(\mathcal{G})$ (i.e. for every jet of a gauge parameter);
+   
+1. $\mathcal{G}$ is closed under the [[Lie bracket]] of [[evolutionary vector fields]] (prop. \ref{EvolutionaryVectorFieldLieAlgebra})
+   in that for $e_1, e_2$ two points in the same fiber of $J^\infty_\Sigma(E)$ then there 
+   exists another point $[e_1,e_2] \in J^\infty_\Sigma(E)$ in that fiber such that
+   
+   $$
+     \left[\widehat R(e_1,-), \widehat R(e_1,-)\right] = \widehat R([e_1, e_2],-)
+     \,.
+   $$
+   
+   We call this the corresponding _gauge Lie algebra_. 
 
-      is an [[infinitesimal symmetry of the Lagrangian]] (def. \ref{SymmetriesAndConservedCurrents}).
 
-In components this means that, if the [[field bundle]] $E$ is a [[trivial vector bundle]] with [[field (physics)|field]] coordinates
+In components this means that, if the [[field bundle]] $E$ is a [[trivial vector bundle]] with [[field (physics)|field]] [[fiber]] coordinates
 $(\phi^a)$ (example \ref{TrivialVectorBundleAsAFieldBundle})
-and also $\mathcal{G}$ happens to be a [[trivial vector bundle]] equipped with [[fiber]] [[coordinates]] $(e^\alpha)$,
-then $v_\epsilon$ is of the form
+and also $\mathcal{G}$ happens to be a [[trivial vector bundle]]
+
+$$
+  \mathcal{G} = \Sigma \times \mathfrak{g}
+$$
+
+so that $R$ is a bundle morphism of the form
+
+$$
+  R \;\colon\; J^\infty_\Sigma(\mathfrak{g} \times E ) \longrightarrow V_\Sigma E
+$$
+
+then for $\epsilon \in \Gamma_{\Sigma}(\mathcal{G}) = C^\infty(\Sigma,\mathcal{g})$ a [[gauge parameter]], $v_\epsilon$ is of the form
 
 $$
   \label{CoordinateExpressionForGaugeParameterized}
@@ -5301,7 +5363,8 @@ $$
   \,,
 $$
 
-where the $R^{a \mu_1 \cdots \mu_k}_\alpha$ are smooth functions on the jet bundle of $E$ (prop. \ref{JetBundleIsLocallyProManifold}).
+where the $R^{a \mu_1 \cdots \mu_k}_\alpha$ are smooth functions on the jet bundle of $E$,
+locally of finite order (prop. \ref{JetBundleIsLocallyProManifold}).
 
 =--
 
@@ -5362,7 +5425,7 @@ Consider the [[Lagrangian field theory]] of [[free field|free]] [[electromagneti
 on [[Minkowski spacetime]] $\Sigma$ from example \ref{ElectromagnetismLagrangianDensity}.
 
 Let $\mathca{G} \coloneqq \sigma \times \mathbb{R}$ be the [[trivial line bundle]], regarded as a
-[[gauge parameter]] bundle (def. \ref{GaugeParametrizedInfinitesimalGaugeTransformation}). 
+[[gauge parameter]] bundle (def. \ref{GaugeParametrizedInfinitesimalGaugeTransformation}).
 Then the [[gauge parameter|gauge parametrized]] [[evolutionary vector field]] (eq:CoordinateExpressionForGaugeParameterized) given on a gauge parameter
 
 $$
@@ -5375,16 +5438,16 @@ $$
   v_\epsilon \coloneqq \frac{d \epsilon}{d x^\mu} \partial_{a_\mu}
 $$
 
-is a gauge paramterized implicit [[infinitesimal gauge transformation]] according to 
+is a gauge paramterized implicit [[infinitesimal gauge transformation]] according to
 def. \ref{GaugeParametrizedInfinitesimalGaugeTransformation}.
 
-This is because the [[Euler-Lagrange form]] 
+This is because the [[Euler-Lagrange form]]
 
 $$
   \delta_{EL}\mathbf{L}
-  \;=\; 
+  \;=\;
   \frac{d}{d x^\mu }f^{\mu \nu} \delta_{a_\nu} dvol_\Sigma
-$$ 
+$$
 
 of the theory (example \ref{ElectromagnetismEl}),
 corresponding to the [[vacuum]] [[Maxwell equations]] (example \ref{MaxwellVacuumEquation}),
@@ -5408,26 +5471,26 @@ $\,$
 ## Reduced phase space
  {#ReducedPhaseSpace}
 
-We have seen that the presence of non-trivial _implicit_ [[infinitesimal gauge transformations]] 
+We have seen that the presence of non-trivial _implicit_ [[infinitesimal gauge transformations]]
 (def. \ref{ImplicitInfinitesimalGaugeSymmetry}) in a [[Lagrangian field theory]] [[obstruction|obstruct]] the existence of the [[covariant phase space]] of the theory (prop. \ref{NonTrivialImplicitInfinitesimalGaugeSymmetriesPbstructExistenceOfCauchySurfaces}). But one may
-make these implicit infinitesimal gauge symmetries _explicit_ by hard-wiring into the very [[geometry]] of the types of [[fields|field (physics)]] their _[[equivalence]]_ under these symmetries: In physics this is called _[[gauge equivalence]]_.  
+make these implicit infinitesimal gauge symmetries _explicit_ by hard-wiring into the very [[geometry]] of the types of [[fields|field (physics)]] their _[[equivalence]]_ under these symmetries: In physics this is called _[[gauge equivalence]]_.
 
 Mathematically this means to pass to the infinitesimal [[homotopy quotient]] of the [[action]] of the gauge symmetries on the [[shell]],
-represented by the [[action Lie algebroid]] (def. \ref{ActionLieAlgebroid} below). This object exists in the 
+represented by the [[action Lie algebroid]] (def. \ref{ActionLieAlgebroid} below). This object exists in the
 unification of [[differential geometry]] with [[homotopy theory]] called _[[higher geometry]]_.
 This is called the local _[[reduced phase space]]_ of the theory.
 The ("[[Chevalley-Eilenberg algebra|Chevalley-Eilenberg]]"-)[[algebra of functions]] on this "field bundle with infinitesimal gauge symmetries made explicit" is called the _[[BRST complex]]_.
 In this [[cochain complex]] the formerly _implicit_ [[infinitesimal gauge symmetries]] appear _explicitly_ in the guise of [[field (physics)|field]] variables of positive (i.e. "higher") degree in a [[differential graded-commutative algebra]]. These are called _[[ghost fields]]_.
 
 
-Where the ordinary [[shell]] of the theory is the _[[critical locus]]_ of the [[Lagrangian density]] with respect to 
-[[Euler-Lagrange variational derivative|Euler-Lagrange variation]] 
-inside the ordinary [[jet bundle]] manifold (see [above](#CriticalLocusShell)), 
+Where the ordinary [[shell]] of the theory is the _[[critical locus]]_ of the [[Lagrangian density]] with respect to
+[[Euler-Lagrange variational derivative|Euler-Lagrange variation]]
+inside the ordinary [[jet bundle]] manifold (see [above](#CriticalLocusShell)),
 the analog of the concept of [[critical locus]] in the [[homotopy theory|homotopy theoretic]]
 "[[higher differential geometry]]" or "[[derived geometry]]" is called _[[derived critical locus]]_.
 Hence the correct incarnation of the [[shell]] when all [[infinitesimal gauge symmetries]] have been made explicit
 is the _[[derived critical locus]]_ of the [[Lagrangian density]] inside the [[action Lie algebroid]] of gauge symmetries
-acting on the [[field bundle]]. The [[algebra of functions]] on this "derived shell" is called the _[[BV-BRST complex]]_ 
+acting on the [[field bundle]]. The [[algebra of functions]] on this "derived shell" is called the _[[BV-BRST complex]]_
 of the theory.
 
 (...)
@@ -5521,21 +5584,57 @@ Two basic examples of [[Lie algebroids]] are:
 The two basic examples \ref{BasicExamplesOfLieAlgebroids} are unified by the following example,
 which is the one of central relevance for the discussion of [[gauge theory]]:
 
-+-- {: .num_example #ActionLieAlgebroid}
-###### Example
-**([[action Lie algebroid]])**
 
-Let $X$ be a [[smooth manifold]] , let $\mathfrak{g}$ be a [[Lie algebra]] equipped with an
-[[action]] on $X$ by [[infinitesimal]] [[diffeomorphisms]], hence equipped with a [[homomorphism]]
+
+
++-- {: .num_defn #InfinitesimalActionByLieAlgebra}
+###### Definition
+**([[action]] of [[Lie algebra]] by [[infinitesimal]] [[diffeomorphism]])
+
+Let $X$ be a [[smooth manifold]] or more generally a [[locally pro-manifold]] (prop. \ref{JetBundleIsLocallyProManifold}), and let $\mathfrak{g}$ be a [[Lie algebra]].
+
+An _[[action]]_ of $\mathfrak{g}$ on $X$ by 
+[[infinitesimal]] [[diffeomorphisms]], is a [[homomorphism]]
 of Lie algebras
 
 $$
   \rho \;\colon \mathfrak{g} \longrightarrow ( Vect(X), [-,-] )
 $$
 
-to the smooth [[vector fields]] on $X$.
+to the smooth [[vector fields]] on $X$. 
 
-Then there is the _[[action Lie algebroid]]_ $X/\mathfrak{g}$ whose underlying space is $X$;
+Equivalently -- to bring out the relation to 
+the [[gauge parameter|gauge parameterized]] implicit [[infinitesimal gauge transformations]] in def. \ref{GaugeParametrizedInfinitesimalGaugeTransformation} -- this is a $\mathfrak{g}$-parameterized [[section]]
+
+$$
+  \array{
+     \mathfrak{g} \times X && \overset{\rho}{\longrightarrow} && T X
+     \\
+     & {\mathllap{pr_2}}\searrow && \swarrow_{\mathrlap{p}}
+     \\
+     && X
+  }
+$$ 
+
+of the [[tangent bundle]], such that for all pairs of point $e_1, e_2$ in $\mathfrak{g}$
+we have 
+
+$$
+  \left[\rho(e_1,-), \rho(e_2,-)\right] = \rho([e_1,e_2],-)
+$$ 
+
+(with the [[Lie bracket]] of [[vector fields]] on the left).
+
+=--
+
+
++-- {: .num_defn #ActionLieAlgebroid}
+###### Definition
+**([[action Lie algebroid]])**
+
+Given an [[infinitesimal]] [[action]] of a [[Lie algebra]] $\mathfrak{g}$
+on a manifold $X$ (def. \ref{InfinitesimalActionByLieAlgebra}) the _[[action Lie algebroid]]_ $X/\mathfrak{g}$ 
+is the [[Lie algebroid]] (def. \ref{LInfinityAlgebroid}) whose underlying space is $X$;
 whose $C^\infty(X)$-module is concentrated in degree 1 on the [[free module]] $C^\infty(X) \otimes_{\mathbb{R}} \mathfrak{g}$
 and whose [[Chevalley-Eilenberg algebra|CE-differential]] is given
 
@@ -5562,13 +5661,13 @@ $$
 $$
 
 $$
-  d_{CE} c^\alpha = -\tfrac{1}{2} C^\alpha{}_{\beta \gamma} c^\beta \wedge c^\gamma
+  d_{CE} c^\alpha = -\tfrac{1}{2} \gamma^\alpha{}_{\beta \gamma} c^\beta \wedge c^\gamma
 $$
 
 where on the right we have the structure constants of the Lie algebra in this basis:
 
 $$
-  [t_\beta, t_\gamma] = C^\alpha{}_{\beta \gamma} t_\alpha
+  [t_\beta, t_\gamma] = \gamma^\alpha{}_{\beta \gamma} t_\alpha
   \,.
 $$
 
@@ -5578,9 +5677,9 @@ That the differential $d_{CE}$ thus defined indeed squares to 0 is
 
 * in degree 1 the [[Jacobi identity]].
 
-
-
 =--
+
+
 
 +-- {: .num_defn #HomomorphismBetweenLieAlgebroids}
 ###### Definition
@@ -5705,15 +5804,15 @@ On the [[Weil algebra]] we need to re-introduce the [[variational bicomplex]] st
 ###### Definition
 **([[variational BV-bicomplex]] and [[local BV-BRST cohomology]])**
 
-Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) 
-with infinitesimal local [[reduced phase space]] 
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
+with infinitesimal local [[reduced phase space]]
 
 $$
   \Omega^{0,0}_{\Sigma,\varphi}(E)\vert_{\mathcal{E}_{\text{BV-BRST}}}
   \,.
 $$
 
-The full de Rham differential on this is 
+The full de Rham differential on this is
 
 $$
   \mathbf{d}_W = \mathbf{d} - s
@@ -5829,7 +5928,7 @@ Consider a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecond
 without any non-trivial implicial [[infinitesimal gauge transformations]] (def. \ref{ImplicitInfinitesimalGaugeSymmetry});
 for instance the [[real scalar field]] (def. \ref{LagrangianForFreeScalarFieldOnMinkowskiSpacetime}).
 
-Inside its [[variational BV-bicomplex]] (def. \ref{BVVariationalBicmplex}) we may form the linear combination of 
+Inside its [[variational BV-bicomplex]] (def. \ref{BVVariationalBicmplex}) we may form the linear combination of
 
 1. the [[presymplectic current]] $\Omega_{BFV}$ (example \ref{FreeScalarFieldEOM})
 
@@ -5847,7 +5946,7 @@ $$
   \begin{aligned}
     (d - s) (\Omega_{BV} + \Omega_{BFV})
     & =
-    \underset{= 0}{\underbrace{d \Omega_{BFV} - s \Omega_{BV}}} + d \Omega_{BV} - s \Omega_{BFV} 
+    \underset{= 0}{\underbrace{d \Omega_{BFV} - s \Omega_{BV}}} + d \Omega_{BV} - s \Omega_{BFV}
     \\
     & = 0
   \end{aligned}
@@ -6079,8 +6178,8 @@ $$
         }
      \right\}
      \\
-     \mathllap{\text{}}\downarrow
-     && \downarrow\mathrlap{\text{gauge fixing}}
+     \Big\downarrow
+     && \Big\downarrow\mathrlap{\text{gauge fixing}}
      \\
      \left\{
        \array{
