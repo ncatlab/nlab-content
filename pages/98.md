@@ -309,7 +309,7 @@ If $N$ is itself a [[chain complex]], then this is called a [[BV-BRST formalism|
 
 An elementary introduction for CE-algebras of Lie algebras is at the beginning of
 
-* [[José de Azcárraga]], J. M. Izquierdo, J. C. Perez Bueno, _An introduction to some novel applications of Lie algebra cohomology and physics_ ([arXiv](http://arxiv.org/abs/physics/9803046))
+* [[José de Azcárraga]], J. M. Izquierdo, J. C. Perez Bueno, _An introduction to some novel applications of Lie algebra cohomology and physics_ ([arXiv:physics/9803046](http://arxiv.org/abs/physics/9803046))
 
 More details are in  of
 
@@ -325,3 +325,6 @@ See also almost any text on [[Lie algebra cohomology]] (see the list of referenc
 
 [[!redirects Chevalley-Eilenberg dg-algebra]]
 [[!redirects Chevalley-Eilenberg dg-algebras]]
+
+[[!redirects Chevalley-Eilenberg differential]]
+[[!redirects Chevalley-Eilenberg differentials]]
