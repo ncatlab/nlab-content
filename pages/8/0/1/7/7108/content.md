@@ -40,6 +40,14 @@ Given any set $S$ and any [[category]] $C$, the category of __$S$-graded objects
 
 * [[bigraded object]]
 
+* [[graded module]]
+
+* [[graded ring]]
+
+* [[graded manifold]]
+
+* [[differential-graded algebra]]
+
 [[!redirects graded set]]
 [[!redirects graded sets]]
 
