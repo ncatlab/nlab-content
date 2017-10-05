@@ -64,7 +64,7 @@ This is due to ([Getzler](#Getzler)).
 +-- {: .num_theorem}
 ###### Theorem
 
-The framed little disk operad is [[formal dg-algebra|formal]]. 
+The framed little disk operad is [[formal dg-algebra|formal]] in characteristic zero. 
 
 This means that there is a zig-zag of [[quasi-isomorphism]]s
 
