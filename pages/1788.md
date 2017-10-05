@@ -5316,7 +5316,18 @@ such that
 1. $i \circ R$ is an [[evolutionary vector field]] on $\mathcal{G} \times_\Sigma E$ (def. \ref{EvolutionaryVectorField});
 
 1. $R(e,-)$ is an [[infinitesimal symmetry of the Lagrangian]] (def. \ref{SymmetriesAndConservedCurrents})
-   for every point in $J^\infty_\Sigma(\mathcal{G})$ (i.e. for every jet of a gauge parameter).
+   for every point in $e \in J^\infty_\Sigma(\mathcal{G})$ (i.e. for every jet of a gauge parameter);
+   
+1. $\mathcal{G}$ is closed under the [[Lie bracket]] of [[evolutionary vector fields]] (prop. \ref{EvolutionaryVectorFieldLieAlgebra})
+   in that for $e_1, e_2$ two points in the same fiber of $J^\infty_\Sigma(E)$ then there 
+   exists another point $[e_1,e_2] \in J^\infty_\Sigma(E)$ in that fiber such that
+   
+   $$
+     \left[\widehat R(e_1,-), \widehat R(e_1,-)\right] = \widehat R([e_1, e_2],-)
+     \,.
+   $$
+   
+   We call this the corresponding _gauge Lie algebra_. 
 
 
 In components this means that, if the [[field bundle]] $E$ is a [[trivial vector bundle]] with [[field (physics)|field]] [[fiber]] coordinates
@@ -5327,7 +5338,7 @@ $$
   \mathcal{G} = \Sigma \times \mathfrak{g}
 $$
 
-equipped with [[fiber]] [[coordinates]] $(c^\alpha)$, so that
+so that $R$ is a bundle morphism of the form
 
 $$
   R \;\colon\; J^\infty_\Sigma(\mathfrak{g} \times E ) \longrightarrow V_\Sigma E
@@ -5573,21 +5584,57 @@ Two basic examples of [[Lie algebroids]] are:
 The two basic examples \ref{BasicExamplesOfLieAlgebroids} are unified by the following example,
 which is the one of central relevance for the discussion of [[gauge theory]]:
 
-+-- {: .num_example #ActionLieAlgebroid}
-###### Example
-**([[action Lie algebroid]])**
 
-Let $X$ be a [[smooth manifold]] , let $\mathfrak{g}$ be a [[Lie algebra]] equipped with an
-[[action]] on $X$ by [[infinitesimal]] [[diffeomorphisms]], hence equipped with a [[homomorphism]]
+
+
++-- {: .num_defn #InfinitesimalActionByLieAlgebra}
+###### Definition
+**([[action]] of [[Lie algebra]] by [[infinitesimal]] [[diffeomorphism]])
+
+Let $X$ be a [[smooth manifold]] or more generally a [[locally pro-manifold]] (prop. \ref{JetBundleIsLocallyProManifold}), and let $\mathfrak{g}$ be a [[Lie algebra]].
+
+An _[[action]]_ of $\mathfrak{g}$ on $X$ by 
+[[infinitesimal]] [[diffeomorphisms]], is a [[homomorphism]]
 of Lie algebras
 
 $$
   \rho \;\colon \mathfrak{g} \longrightarrow ( Vect(X), [-,-] )
 $$
 
-to the smooth [[vector fields]] on $X$.
+to the smooth [[vector fields]] on $X$. 
 
-Then there is the _[[action Lie algebroid]]_ $X/\mathfrak{g}$ whose underlying space is $X$;
+Equivalently -- to bring out the relation to 
+the [[gauge parameter|gauge parameterized]] implicit [[infinitesimal gauge transformations]] in def. \ref{GaugeParametrizedInfinitesimalGaugeTransformation} -- this is a $\mathfrak{g}$-parameterized [[section]]
+
+$$
+  \array{
+     \mathfrak{g} \times X && \overset{\rho}{\longrightarrow} && T X
+     \\
+     & {\mathllap{pr_2}}\searrow && \swarrow_{\mathrlap{p}}
+     \\
+     && X
+  }
+$$ 
+
+of the [[tangent bundle]], such that for all pairs of point $e_1, e_2$ in $\mathfrak{g}$
+we have 
+
+$$
+  \left[\rho(e_1,-), \rho(e_2,-)\right] = \rho([e_1,e_2],-)
+$$ 
+
+(with the [[Lie bracket]] of [[vector fields]] on the left).
+
+=--
+
+
++-- {: .num_defn #ActionLieAlgebroid}
+###### Definition
+**([[action Lie algebroid]])**
+
+Given an [[infinitesimal]] [[action]] of a [[Lie algebra]] $\mathfrak{g}$
+on a manifold $X$ (def. \ref{InfinitesimalActionByLieAlgebra}) the _[[action Lie algebroid]]_ $X/\mathfrak{g}$ 
+is the [[Lie algebroid]] (def. \ref{LInfinityAlgebroid}) whose underlying space is $X$;
 whose $C^\infty(X)$-module is concentrated in degree 1 on the [[free module]] $C^\infty(X) \otimes_{\mathbb{R}} \mathfrak{g}$
 and whose [[Chevalley-Eilenberg algebra|CE-differential]] is given
 
@@ -5614,13 +5661,13 @@ $$
 $$
 
 $$
-  d_{CE} c^\alpha = -\tfrac{1}{2} C^\alpha{}_{\beta \gamma} c^\beta \wedge c^\gamma
+  d_{CE} c^\alpha = -\tfrac{1}{2} \gamma^\alpha{}_{\beta \gamma} c^\beta \wedge c^\gamma
 $$
 
 where on the right we have the structure constants of the Lie algebra in this basis:
 
 $$
-  [t_\beta, t_\gamma] = C^\alpha{}_{\beta \gamma} t_\alpha
+  [t_\beta, t_\gamma] = \gamma^\alpha{}_{\beta \gamma} t_\alpha
   \,.
 $$
 
@@ -5630,9 +5677,9 @@ That the differential $d_{CE}$ thus defined indeed squares to 0 is
 
 * in degree 1 the [[Jacobi identity]].
 
-
-
 =--
+
+
 
 +-- {: .num_defn #HomomorphismBetweenLieAlgebroids}
 ###### Definition
