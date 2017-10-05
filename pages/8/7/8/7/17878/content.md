@@ -36,7 +36,7 @@ The following are [[semifree differential graded-commutative algebras]]:
 
 * A [[Sullivan algebra]].
 
-* The [[Chevalley-Eilenberg algebra]] of a [[Lie algebra]] or more generally of an [[L-infinity algebra]].
+* The [[Chevalley-Eilenberg algebra]] of a [[Lie algebra]] or more generally of an [[L-infinity algebra]] or [[L-infinity algebroid]] ([[differential graded manifold]]).
 
 ## Related concepts
 
