@@ -965,12 +965,14 @@ $\,$
 
 | def.  | symbols |  name in physics | name in mathematics |
 |--|--|---|--|
-|  | $\mathbf{d}$ | [[de Rham differential]]  | [[de Rham differential]] |
-|   | $d \coloneqq d x^\mu \frac{d}{d x^\mu}$ | [[total derivative|total]] spacetime-derivative  | [[horizontal derivative]]  |
-| \ref{VariationalBicomplexOnSecondOrderJetBundleOverTrivialVectorBundleOverMinkowskiSpacetime} | $ \frac{d}{d x^\mu} \coloneqq \frac{\partial}{\partial x^\mu} +  \phi^a_{,\mu} \frac{\partial}{\partial \phi^a}  + \cdots $ | [[total derivative|total]] spacetime derivative along $\partial_\mu$  |  [[horizontal derivative]] along $\partial_\mu$ |
-| \ref{VariationalBicomplexOnSecondOrderJetBundleOverTrivialVectorBundleOverMinkowskiSpacetime} | $\delta \coloneqq \mathbf{d} - d$ | variational derivative  | [[vertical derivative]] |
-| \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}  | $\delta_{EL} \mathbf{L} \coloneqq \mathbf{d}\mathbf{L} + d \Theta$ | [[Euler-Lagrange variational derivative]]  | [[Euler-Lagrange operator]] |
-| \ref{BVVariationalBicmplex} | $s $ | local [[BV-BRST differential]] |  [[Chevalley-Eilenberg complex|Chevalley-Eilenberg]]-[[Koszul-Tate complex|Koszul-Tate]] differential |
+|  | $\; \mathbf{d}$ | [[de Rham differential]]  | [[de Rham differential]] |
+| \ref{VariationalBicomplexOnSecondOrderJetBundleOverTrivialVectorBundleOverMinkowskiSpacetime}  | $\; d \coloneqq d x^\mu \frac{d}{d x^\mu}$ | [[total derivative|total spacetime derivative]]   | [[horizontal derivative]]  |
+| \ref{VariationalBicomplexOnSecondOrderJetBundleOverTrivialVectorBundleOverMinkowskiSpacetime} | $ \; \frac{d}{d x^\mu} \coloneqq \frac{\partial}{\partial x^\mu} +  \phi^a_{,\mu} \frac{\partial}{\partial \phi^a}  + \cdots $ | [[total derivative|total spacetime derivative]] along $\partial_\mu$  |  [[horizontal derivative]] along $\partial_\mu$ |
+| \ref{VariationalBicomplexOnSecondOrderJetBundleOverTrivialVectorBundleOverMinkowskiSpacetime} | $\; \delta \coloneqq \mathbf{d} - d$ | [[variational derivative]]  | [[vertical derivative]] |
+| \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}  | $\; \delta_{EL} \mathbf{L} \coloneqq \mathbf{d}\mathbf{L} + d \Theta$ | [[Euler-Lagrange variational derivative|Euler-Lagrange variation]]  | [[Euler-Lagrange operator]] |
+| \ref{LocalOffShellBRSTComplex} | $\; s $ | [[BRST differential]] |  [[Chevalley-Eilenberg complex|Chevalley-Eilenberg]] differential |
+| \ref{BVVariationalBicmplex} | $\; s $ | [[BV-BRST differential]] |  [[Chevalley-Eilenberg complex|Chevalley-Eilenberg]]-[[Koszul-Tate complex|Koszul-Tate]] differential |
+| \ref{BVVariationalBicmplex} | $\; s - d $ | [[local BV-BRST differential]] |   |
 $\,$
 
 +-- {: .num_example #BasicFactsAboutVarationalCalculusOnJetBundleOfTrivialVectorBundle}
@@ -1920,7 +1922,7 @@ $$
 
 Consider the [[Lagrangian field theory]] of [[free field|free]] [[electromagnetism]] from example \ref{ElectromagnetismLagrangianDensity}.
 
-The [[Euler-Lagrange variation]] is
+The [[Euler-Lagrange variational derivative]] is
 
 $$
   \delta_{EL} \mathbf{L}
@@ -2077,6 +2079,7 @@ using $\delta^2 = 0$ and $\delta \circ d = - d \circ \delta$.
 
 =--
 
+$\,$
 
 
 ## Symmetries
@@ -4060,6 +4063,7 @@ such that
 now the algebra of observables is equipped with another product, which changes the meaning of
 the product expression $A^\ast A$.)
 
+$\,$
 
 ## Phase space
   {#PhaseSpace}
@@ -5453,11 +5457,17 @@ Then a collection of _[[gauge parameters]]_ for $(E,\mathbf{L})$ is
    to the [[vertical tangent bundle]] of $E$:
 
    $$
-     J^\infty_\Sigma( \mathcal{G} \times_\Sigma E )
-       \overset{R}{\longrightarrow}
-     V_\Sigma E
-       \overset{i}{\hookrightarrow}
-     V_\Sigma (\mathcal{G} \times_\Sigma E)
+     \array{
+       J^\infty_\Sigma( \mathcal{G} \times_\Sigma E )  
+         && \overset{R}{\longrightarrow} &&
+       V_\Sigma E
+         & \overset{i}{\hookrightarrow} & 
+       V_\Sigma (\mathcal{G} \times_\Sigma E)
+       \\
+       & \searrow && \swarrow
+       \\
+       && E
+     }
    $$
 
 such that
@@ -5616,6 +5626,119 @@ This is the archetypical _[[infinitesimal gauge symmetry]]_ that gives [[gauge t
 
 =--
 
+Making the _implicit_ [[infinitesimal gauge symmetries]] _explicit_ means
+to make explicit how they _[[action|act]]_ on the fields. To this end consider
+the general concept of an [[action]] of a [[Lie algebra]] by [[infinitesimal]] [[diffeomorphisms]]:
+
+
++-- {: .num_defn #InfinitesimalActionByLieAlgebra}
+###### Definition
+**([[action]] of [[Lie algebra]] by [[infinitesimal]] [[diffeomorphism]])
+
+Let $X$ be a [[smooth manifold]] or more generally a [[locally pro-manifold]] (prop. \ref{JetBundleIsLocallyProManifold}), and let $\mathfrak{g}$ be a [[Lie algebra]].
+
+An _[[action]]_ of $\mathfrak{g}$ on $X$ by
+[[infinitesimal]] [[diffeomorphisms]], is a [[homomorphism]]
+of Lie algebras
+
+$$
+  \rho \;\colon \mathfrak{g} \longrightarrow ( Vect(X), [-,-] )
+$$
+
+to the smooth [[vector fields]] on $X$.
+
+Equivalently -- to bring out the relation to
+the [[gauge parameter|gauge parameterized]] implicit [[infinitesimal gauge transformations]] in def. \ref{GaugeParametrizedInfinitesimalGaugeTransformation} -- this is a $\mathfrak{g}$-parameterized [[section]]
+
+$$
+  \array{
+     \mathfrak{g} \times X && \overset{\rho}{\longrightarrow} && T X
+     \\
+     & {\mathllap{pr_2}}\searrow && \swarrow_{\mathrlap{p}}
+     \\
+     && X
+  }
+$$
+
+of the [[tangent bundle]], such that for all pairs of point $e_1, e_2$ in $\mathfrak{g}$
+we have
+
+$$
+  \left[\rho(e_1,-), \rho(e_2,-)\right] = \rho([e_1,e_2],-)
+$$
+
+(with the [[Lie bracket]] of [[vector fields]] on the left).
+
+=--
+
++-- {: .num_example #ActionOfGaugeParameterizedInfinitesimalGaugeSymmetriesOnJetBundle}
+###### Example
+**([[action]] of [[gauge parameter|gauge parameterized]] implicit [[infinitesimal gauge symmetries]] on [[field (physics)|fields]])**
+
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}), and let
+$\mathcal{G} =  \overset{gb}{\to} \Sigma$ be a bundle of [[gauge parameters]]
+for the theory (def. \ref{GaugeParametrizedInfinitesimalGaugeTransformation}) with
+bundle morphism
+
+$$
+  \array{
+    J^\infty_\Sigma( \mathcal{G} \times_\Sigma E )
+    && \overset{R}{\longrightarrow} &&
+    V_\Sigma E
+    \\
+    & \searrow && \swarrow
+    \\
+    && E
+  }
+$$
+
+exhibiting the corresponding parameterized implicit [[infinitesimal gauge symmetries]].
+
+By passing from these [[evolutionary vector fields]] $R(e)$ (def. \ref{EvolutionaryVectorField})
+to their prolongations $\widehat{R(e)}$ to actual vector fields on the jet bundle (prop. \ref{EvolutionaryVectorFieldProlongation})
+we obtain a bundle morphism of the form
+
+$$
+  \array{
+    J^\infty_\Sigma(\mathcal{G}) \times_\Sigma J^\infty_\Sigma E  
+     && \overset{\widehat{R(e)}}{\longrightarrow} &&
+    V_\Sigma J^\infty_\Sigma(E)
+    \\
+    & \searrow && \swarrow
+    \\
+    && J^\infty_\Sigma(E)
+  }
+  \,.
+$$
+
+In the case that $\mathcal{G} = \mathfrak{g} \times \Sigma$ is a [[trivial vector bundle]], with [[fiber]] $\mathfrak{g}$, then so is its [[jet bundle]] $J^\infty_\Sigma(\mathfrak{g} \times \Sigma) = \mathfrak{g}^\infty \times \Sigma$, and so in this casse the above becomes of the form
+
+$$
+  \array{
+    \mathfrak{g}^\infty \times J^\infty_\Sigma E  
+     && \overset{\widehat{R(e)}}{\longrightarrow} &&
+    V_\Sigma J^\infty_\Sigma(E)
+    \\
+    & \searrow && \swarrow
+    \\
+    && J^\infty_\Sigma(E)
+  }
+  \,.
+$$
+
+By def. \ref{GaugeParametrizedInfinitesimalGaugeTransformation} and def. \ref{InfinitesimalActionByLieAlgebra}
+this now exhibits an [[action]] 
+
+$$
+  \widehat{\rho}
+  \;\colon\;
+  \mathfrak{g}^\infty \longrightarrow \Gamma_{J^\infty_\Sigma(E)}\left( T(J^\infty_\Sigma(E)) \right)
+$$
+
+of a [[Lie algebra]] $\mathfrak{g}^\infty$ on the [[jet bundle]]
+of the [[field bundle]] by [[infinitesimal]] [[diffeomorphisms]].
+
+=--
 
 $\,$
 
@@ -5623,13 +5746,14 @@ $\,$
  {#ReducedPhaseSpace}
 
 We have seen that the presence of non-trivial _implicit_ [[infinitesimal gauge transformations]]
-(def. \ref{ImplicitInfinitesimalGaugeSymmetry}) in a [[Lagrangian field theory]] [[obstruction|obstruct]] the existence of the [[covariant phase space]] of the theory (prop. \ref{NonTrivialImplicitInfinitesimalGaugeSymmetriesPbstructExistenceOfCauchySurfaces}). But one may
-make these implicit infinitesimal gauge symmetries _explicit_ by hard-wiring into the very [[geometry]] of the types of [[fields|field (physics)]] their _[[equivalence]]_ under these symmetries: In physics this is called _[[gauge equivalence]]_.
+(def. \ref{ImplicitInfinitesimalGaugeSymmetry}) in a [[Lagrangian field theory]] [[obstruction|obstructs]] the existence of the [[covariant phase space]] of the theory (prop. \ref{NonTrivialImplicitInfinitesimalGaugeSymmetriesPbstructExistenceOfCauchySurfaces}). But these
+implicit infinitesimal gauge symmetries become _explicit_ by hard-wiring into the very [[geometry]] of the types of [[field (physics)|fields]] their _[[equivalence]]_ under these symmetries: In physics this is called _[[gauge equivalence]]_.
 
 Mathematically this means to pass to the infinitesimal [[homotopy quotient]] of the [[action]] of the gauge symmetries on the [[shell]],
-represented by the [[action Lie algebroid]] (def. \ref{ActionLieAlgebroid} below). This object exists in the
-unification of [[differential geometry]] with [[homotopy theory]] called _[[higher geometry]]_.
-This is called the local _[[reduced phase space]]_ of the theory.
+represented by the [[action Lie algebroid]] (def. \ref{ActionLieAlgebroid} below). 
+This is called the _local [[reduced phase space]]_ of the theory.
+Such "[[schreiber:Higher Structures|higher structures]]" exist in the
+unification of [[differential geometry]] with [[homotopy theory]] called _[[higher differential geometry]]_.
 The ("[[Chevalley-Eilenberg algebra|Chevalley-Eilenberg]]"-)[[algebra of functions]] on this "field bundle with infinitesimal gauge symmetries made explicit" is called the _[[BRST complex]]_.
 In this [[cochain complex]] the formerly _implicit_ [[infinitesimal gauge symmetries]] appear _explicitly_ in the guise of [[field (physics)|field]] variables of positive (i.e. "higher") degree in a [[differential graded-commutative algebra]]. These are called _[[ghost fields]]_.
 
@@ -5644,7 +5768,8 @@ is the _[[derived critical locus]]_ of the [[Lagrangian density]] inside the [[a
 acting on the [[field bundle]]. The [[algebra of functions]] on this "derived shell" is called the _[[BV-BRST complex]]_
 of the theory.
 
-(...)
+$\,$
+
 
 +-- {: .num_defn #LInfinityAlgebroid}
 ###### Definition
@@ -5661,6 +5786,7 @@ Then  a _connected [[Lie ∞-algebroid]]_ $\mathfrak{a}$ over $X$ of [[finite ty
    (not necessarily over $C^\infty(X)$), to be called the _[[Chevalley-Eilenberg algebra]]_ of $\mathfrak{a}$:
 
    $$
+     \label{CEAlgebra}
      CE(\mathfrak{a})
       \;\coloneqq\;
      \left(
@@ -5692,11 +5818,12 @@ which is the identity on $C^\infty(X)$ and zero on $\mathfrak{a}^\ast_{\neq 0}$.
 Two basic examples of [[Lie algebroids]] are:
 
 1. For $X$ any [[smooth manifold]], then setting $\mathfrak{a}_{\neq 0 } \coloneqq 0$ and $d_{CE} \coloneqq 0$
-   makes it a Lie algebroid.
+   makes it a Lie algebroid. We will just still just write $X$ for the manifold trivially regarded 
+   as a Lie alebroid this way.
 
 1. For $\mathfrak{g}$ a [[finite number|finite]] [[dimension|dimensional]] [[Lie algebra]]
    we obtain a Lie algebroid denoted $\ast/\mathfrak{g}$ or $B \mathfrak{g}$ by taking the base manifold
-   to be the point, taking $\mmathfrak{a}$ to be concentrated in degree 1 on $\mathfrak{g}$, and
+   to be the point, taking $\mathfrak{a}$ to be concentrated in degree 1 on $\mathfrak{g}$, and
    taking the differential to be given by the linear dual of the [[Lie bracket]]
 
    $$
@@ -5729,54 +5856,13 @@ Two basic examples of [[Lie algebroids]] are:
 
    is the standard [[Chevalley-Eilenberg algebra]] from basic [[Lie theory]], whence the name of the general concept.
 
-
 =--
 
-The two basic examples \ref{BasicExamplesOfLieAlgebroids} are unified by the following example,
-which is the one of central relevance for the discussion of [[gauge theory]]:
+The two basic examples \ref{BasicExamplesOfLieAlgebroids} are unified by the concept of _[[action Lie algebroid]]_
+(def. \ref{ActionLieAlgebroid} below),
+which is the one of central relevance for the discussion of [[gauge theory]]: the local [[BRST complex]] (def. \ref{LocalBRSTComplex} below).
 
 
-
-
-+-- {: .num_defn #InfinitesimalActionByLieAlgebra}
-###### Definition
-**([[action]] of [[Lie algebra]] by [[infinitesimal]] [[diffeomorphism]])
-
-Let $X$ be a [[smooth manifold]] or more generally a [[locally pro-manifold]] (prop. \ref{JetBundleIsLocallyProManifold}), and let $\mathfrak{g}$ be a [[Lie algebra]].
-
-An _[[action]]_ of $\mathfrak{g}$ on $X$ by 
-[[infinitesimal]] [[diffeomorphisms]], is a [[homomorphism]]
-of Lie algebras
-
-$$
-  \rho \;\colon \mathfrak{g} \longrightarrow ( Vect(X), [-,-] )
-$$
-
-to the smooth [[vector fields]] on $X$. 
-
-Equivalently -- to bring out the relation to 
-the [[gauge parameter|gauge parameterized]] implicit [[infinitesimal gauge transformations]] in def. \ref{GaugeParametrizedInfinitesimalGaugeTransformation} -- this is a $\mathfrak{g}$-parameterized [[section]]
-
-$$
-  \array{
-     \mathfrak{g} \times X && \overset{\rho}{\longrightarrow} && T X
-     \\
-     & {\mathllap{pr_2}}\searrow && \swarrow_{\mathrlap{p}}
-     \\
-     && X
-  }
-$$ 
-
-of the [[tangent bundle]], such that for all pairs of point $e_1, e_2$ in $\mathfrak{g}$
-we have 
-
-$$
-  \left[\rho(e_1,-), \rho(e_2,-)\right] = \rho([e_1,e_2],-)
-$$ 
-
-(with the [[Lie bracket]] of [[vector fields]] on the left).
-
-=--
 
 
 +-- {: .num_defn #ActionLieAlgebroid}
@@ -5831,12 +5917,122 @@ That the differential $d_{CE}$ thus defined indeed squares to 0 is
 =--
 
 
++-- {: .num_example #LocalOffShellBRSTComplex}
+###### Example
+**(local off-shell [[BRST complex]] and [[ghost fields]])**
+
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}), and let
+$\mathcal{G} =  \overset{gb}{\to} \Sigma$ be a bundle of [[gauge parameters]]
+for the theory (def. \ref{GaugeParametrizedInfinitesimalGaugeTransformation}) with
+bundle morphism
+
+$$
+  \array{
+    J^\infty_\Sigma( \mathcal{G} \times_\Sigma E )
+    && \overset{R}{\longrightarrow} &&
+    V_\Sigma E
+    \\
+    & \searrow && \swarrow
+    \\
+    && E
+  }
+  \,.
+$$
+
+Assuming that the gauge parameter bundle is [[trivial vector bundle|trivial]], $\mathcal{G} = \mathfrak{g} \times \Sigma$,
+then by example \ref{ActionOfGaugeParameterizedInfinitesimalGaugeSymmetriesOnJetBundle} this 
+induces an [[action]] $\hat R$
+of a Lie algebra $\mathfrak{g}^\infty$ on $J^\infty_\Sigma E$ by [[infinitesimal]] [[diffeomorphisms]].
+
+The corresponding [[action Lie algebroid]] $J^\infty_\Sigma(E)/\mathfrak{g}^\infty$ 
+(def. \ref{ActionLieAlgebroid}) has as underlying [[graded manifold]] 
+
+$$
+  \mathfrak{g}^\infty[1] \times J^\infty_\Sigma(E)
+  \;\simeq\;
+  J^\infty_\Sigma( \mathcal{G}[1] \times_\Sigma E  )
+$$
+
+the [[jet bundle]] of the _[[graded manifold|graded]] [[field bundle]]_ 
+
+$$
+  E_{BRST} \coloneqq \mathcal{G}[1]  \times E
+$$
+
+which regards the [[gauge parameters]] as [[field (physics)|fields]] in degree 1. 
+As such these are called _[[ghost fields]]_:
+
+$$
+  \left\{
+    \text{ghost field histories} 
+  \right\}
+   \;=\;
+  \Gamma_\Sigma( \mathcal{G}[1] )
+  \,.
+$$
+
+Therefore we write suggestively
+
+$$
+  E/\mathcal{G}
+  \;\coloneqq\;
+  J^\infty_\Sigma(E)/\mathfrak{g}^\infty
+$$
+
+for the [[action Lie algebroid]] of the [[gauge parameter|gauge parameterized]] implicit [[infinitesimal gauge symmetries]]
+on the [[jet bundle]] of the [[field bundle]].
+
+The [[Chevalley-Eilenberg algebra]] of functions on this [[differential graded manifold]] (eq:CEAlgebra)
+is called the _local off-shell [[BRST complex]]_ ("local" because it applies to the [[jet bundle]] before
+[[transgression of variational differential forms|transgression]] to [[local observables]], def. \ref{LocalObservables}, given by 
+[[functionals]] on the [[space of field histories]]; and "of-shell" because we have not yet restricted to the [[shell]],
+this we do in a moment, by passing to the _[[BV-BRST complex]]_ below). 
+
+The Chevalley-Eilenberg [[differential]] of the [[BRST complex]] is traditionally denoted
+
+$$
+  s \coloneqq d_{CE}
+  \,.
+$$
+
+To express this in [[coordinates]], assume that the [[field bundle]] $E$ as well as the [[gauge parameter]]
+bundle are [[trivial vector bundles]] (example \ref{TrivialVectorBundleAsAFieldBundle})
+with $(\phi^a)$ the [[field (physics)|field]] coordinates on the [[fiber]] of $E$
+with induced jet coordinates $((x^\mu), (\phi^a), (\phi^a_{\mu}), \cdots)$ and
+$(c^\alpha)$ are [[ghost field]] coordinates on the fiber of $\mathcal{G}[1]$ with induced
+jet coordinates $((x^\mu), (c^\alpha), (c^\alpha_\mu), \cdots)$. 
+
+Then in terms of the 
+corresponding coordinate expression for the gauge symmetries $R$ (eq:CoordinateExpressionForGaugeParameterized)
+the [[BRST differential]] is given on the [[field (physics)|fields]] by
+
+$$
+  s \, \phi^a
+  \;=\;
+  \underset{k \in \mathbb{N}}{\sum} 
+    R^{a \mu_1 \cdots \mu_k}_{\alpha} c^\alpha_{\mu_1 \cdots \mu_k}
+$$
+
+and on the [[ghost fields]] by
+
+$$
+  s \, c^\alpha = \gamma^\alpha{}_{\beta \gamma} c^\beta c^\gamma 
+  \,,
+$$
+
+and it extends from there, via prop. \ref{EvolutionaryVectorFieldProlongation}, 
+to jets of fields and ghost fields by (anti-)commutativity with the [[total derivative|total spacetime derivative]].
+
+
+=--
+
+
 
 +-- {: .num_defn #HomomorphismBetweenLieAlgebroids}
 ###### Definition
 **([[homomorphism]] between [[derived Lie algebroids]])**
 
-Given two [[derived Lie algebroids]] $\mathfrak{a}$, $\mathfrak{a}'$, then a [[homomorphism]]
+Given two [[derived Lie algebroids]] $\mathfrak{a}$, $\mathfrak{a}'$ (def. \ref{LInfinityAlgebroid}), then a [[homomorphism]]
 between them
 
 $$
@@ -5857,7 +6053,7 @@ $$
     \\
     \downarrow && \downarrow
     \\
-    C^\infty(X) &\longleftarrow& C^\infty(X)
+    C^\infty(X) &\underset{(f\vert_X)^\ast}{\longleftarrow}& C^\infty(Y)
   }
   \,.
 $$
