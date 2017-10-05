@@ -630,6 +630,7 @@ $$
 
 =--
 
+
 +-- {: .num_defn #JetProlongation}
 ###### Definition
 **([[jet prolongation]])**
@@ -663,13 +664,77 @@ So the canonical [[coordinates]] on the jet bundle are the spacetime-point-wise 
 while the [[jet prolongation]] picks the actual collections of field derivatives that may occur for an actual field
 history.
 
++-- {: .num_example #JetFaraday}
+###### Example
+**(universal [[Faraday tensor]] on [[jet bundle]])**
+
+Consider the [[field bundle]] (def. \ref{Fields}) of the [[electromagnetic field]] (example \ref{Electromagnetism})
+over [[Minkowski spacetime]] $\Sigma$, i.e. the [[cotangent bundle]] $E = T^\ast \Sigma$ with jt coordinates
+$((x^\mu), (a_\mu), (a_{\mu,\nu}), \cdots )$. Consider the functions on its [[jet bundle]] given by the linear
+combinations
+
+$$
+  \label{FaradyTensorJet}
+  f_{\mu \nu}
+    \;\coloneqq\;
+  \tfrac{1}{2}\left(
+    a_{\mu,\nu} - a_{\nu,\mu}
+  \right)
+$$
+
+of the first order jet.
+
+Then for an electromagnetic [[field (physics)|field]] history ("[[vector potential]]"), hence a [[section]]
+
+$$
+  A \in \Gamma_\Sigma(T^\ast \Sigma) = \Omega^1(\Sigma)
+$$
+
+with components $A^\ast (a_\mu) = A_\mu$, its [[jet prolongation]] (def. \ref{JetProlongation}) 
+
+$$
+  j^\infty_\Sigma(A) \in \Gamma_\Sigma(J^\infty_\Sigma(T^\ast \Sigma))
+$$
+
+has components
+
+$$
+  \left(
+    (A_\mu), 
+    \left(
+      \frac{d A_\mu}{d x^\nu}
+    \right)
+    ,
+    \cdots
+  \right)
+  \,.
+$$
+
+The [[pullback of differential forms|pullback]] of the functions $f_{\mu \nu}$ (eq:FaradyTensorJet)
+along this jet prolongation are the components of the [[Faraday tensor]] of the field (eq:TensorFaraday):
+
+$$
+  \begin{aligned}
+    \left(j^\infty_\Sigma(A)\right)^\ast(f_{\mu \nu})
+    & =
+    F_{\mu \nu}
+    \\
+    & =
+    (d F)_{\mu \nu}
+    \,.
+  \end{aligned}
+$$
+
+=--
+
+
 While the [[jet bundle]] is not [[finite number|finite]] [[dimension|dimensional]],
 reflecting the fact that there are arbitrarily high orders of spacetime derivatives of a field configurations,
 it turns out that it is only very "mildly [[infinite dimensional manifold|infinite dimensional]]"
 in that
-smooth  functions on jet bundles turn out to _locally_ depend on only finitely many of the jet coordinates
+[[smooth  functions]] on jet bundles turn out to _locally_ depend on only finitely many of the jet coordinates
 (i.e. only on a finite order of spacetime derivatives). This is the content
-of the following prop. \ref{JetBundleIsLocallyProManifold} \ref{JetBundleIsLocallyProManifold}.
+of the following prop. \ref{JetBundleIsLocallyProManifold}.
 In practice this means that the situation is very convenient:
 
 1. Any given [[local Lagrangian density]] (which will define a field theory, we come to this in def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime} below)
@@ -698,9 +763,65 @@ on which it is given by a function on a smooth function on $J^k_\Sigma(E)$ for s
 (see [Khavkine-Schreiber 17, section 2.2 and 3.3](locally+pro-manifold#KhavkineSchreiber17))
 
 
+Example \ref{JetFaraday} shows that the [[de Rham differential]] may be encoded in terms of
+composing [[jet prolongation]] with a suitable function on the [[jet bundle]].
+More generally, jet prolongation neatly encodes (possibly non-linear) [[differential operators]]:
+
+
++-- {: .num_defn #DifferentialOperator}
+###### Definition
+**([[differential operator]])**
+
+Let $E_1 \overset{fb_1}{\to} \Sigma$ and $E_2 \overset{fb_2}{\to} \Sigma$
+be two smooth [[fiber bundles]] over a common base space $\Sigma$. Then a
+(possibly non-linear) _[[differential operator]]_ from [[sections]] of $E_1$
+to sections of $E_2$ is a [[bundle morphism]] from the [[jet bundle]] of $E_1$ (def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
+to $E_2$:
+
+$$
+  \array{
+    J^\infty_\Sigma(E_1)
+      && \overset{\tilde D}{\longrightarrow} &&
+    E_2
+    \\
+    & \searrow && \swarrow
+    \\
+    && \Sigma
+  }
+$$
+
+or rather the function $D$ between the [[spaces of sections]] of these bundles
+which this induces after [[composition]] with [[jet prolongation]] (def. \ref{JetProlongation}):
+
+$$
+  D
+  \;\colon\; 
+  \Gamma_\Sigma(E_1)
+    \overset{j^\infty_\Sigma}{\longrightarrow}
+  \Gamma_\Sigma(J^\infty_\Sigma(E_1))
+    \overset{\tilde D \circ (-)}{\longrightarrow}
+  \Gamma_\Sigma(E_2)
+  \,.
+$$
+
+=--
+
+
++-- {: .num_remark #ReplacingBundleMorphismsByDifferentialOperators}
+###### Remark
+**([[variational calculus]] -- replacing plain [[bundle morphisms]] by [[differential operators]])**
+
+Various concepts in [[variational calculus]], especially the concept of _[[evolutionary vector fields]]_ (def. \ref{EvolutionaryVectorField} below)
+and _[[gauge parameter|gauge parameteritzed]] implicit [[infinitesimal gauge symmetries]]_ (def. \ref{GaugeParametrizedInfinitesimalGaugeTransformation} below) follow from 
+concepts in plain [[differential geometry]] by systematically replacing 
+plain [[bundle morphisms]] by bundle morphisms out of the [[jet bundle]], hence by [[differential operators]] $\tilde D$ 
+as in def. \ref{DifferentialOperator}.
+
+=--
+
 +-- {: .num_defn #VariationalBicomplexOnSecondOrderJetBundleOverTrivialVectorBundleOverMinkowskiSpacetime}
 ###### Definition
-**([[variational derivative]] and [[total derivative|total spacetime derivative]])**
+**([[variational derivative]] and [[total derivative|total spacetime derivative]] -- the [[variational bicomplex]])**
 
 On the [[jet bundle]] $J^\infty_\Sigma(E)$ of a [[trivial vector bundle]] over [[Minkowski spacetime]] as in def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime} we may consider its [[de Rham complex]] of
 [[differential forms]]; we write its [[de Rham differential]] in boldface:
@@ -842,14 +963,14 @@ $\,$
 
 **[[derivatives]] on [[jet bundle]]**
 
-| symbols |  name in physics | name in mathematics |
-|--|---|--|
-| $\mathbf{d}$ | [[de Rham differential]]  | [[de Rham differential]] |
-| $d \coloneqq d x^\mu \frac{d}{d x^\mu}$ | [[total derivative|total]] spacetime-derivative  | [[horizontal derivative]]  |
-| $ \frac{d}{d x^\mu} \coloneqq \frac{\partial}{\partial x^\mu} +  \phi^a_{,\mu} \frac{\partial}{\partial \phi^a}  + \cdots $ | [[total derivative|total]] spacetime derivative along $\partial_\mu$  |  [[horizontal derivative]] along $\partial_\mu$ |
-| $\delta \coloneqq \mathbf{d} - d$ | variational derivative  | [[vertical derivative]] |
-| $\delta_{EL} L \coloneqq \mathbf{d}L + d \Theta$ | [[Euler-Lagrange variational derivative]]  | [[Euler-Lagrange operator]] |
-
+| def.  | symbols |  name in physics | name in mathematics |
+|--|--|---|--|
+|  | $\mathbf{d}$ | [[de Rham differential]]  | [[de Rham differential]] |
+|   | $d \coloneqq d x^\mu \frac{d}{d x^\mu}$ | [[total derivative|total]] spacetime-derivative  | [[horizontal derivative]]  |
+| \ref{VariationalBicomplexOnSecondOrderJetBundleOverTrivialVectorBundleOverMinkowskiSpacetime} | $ \frac{d}{d x^\mu} \coloneqq \frac{\partial}{\partial x^\mu} +  \phi^a_{,\mu} \frac{\partial}{\partial \phi^a}  + \cdots $ | [[total derivative|total]] spacetime derivative along $\partial_\mu$  |  [[horizontal derivative]] along $\partial_\mu$ |
+| \ref{VariationalBicomplexOnSecondOrderJetBundleOverTrivialVectorBundleOverMinkowskiSpacetime} | $\delta \coloneqq \mathbf{d} - d$ | variational derivative  | [[vertical derivative]] |
+| \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}  | $\delta_{EL} \mathbf{L} \coloneqq \mathbf{d}\mathbf{L} + d \Theta$ | [[Euler-Lagrange variational derivative]]  | [[Euler-Lagrange operator]] |
+| \ref{BVVariationalBicmplex} | $s $ | local [[BV-BRST differential]] |  [[Chevalley-Eilenberg complex|Chevalley-Eilenberg]]-[[Koszul-Tate complex|Koszul-Tate]] differential |
 $\,$
 
 +-- {: .num_example #BasicFactsAboutVarationalCalculusOnJetBundleOfTrivialVectorBundle}
@@ -1259,19 +1380,9 @@ $$
   \,,
 $$
 
-where
+where $f_{\mu \nu} \coloneqq \tfrac{1}{2}(a_{\mu,\nu} - a_{\nu,\mu})$ are the components of the universal [[Faraday tensor]] on the [[jet bundle]] from example \ref{JetFaraday}.
 
-$$
-  \label{FaradyTensorJet}
-  f_{\mu \nu}
-    \;\coloneqq\;
-  \tfrac{1}{2}\left(
-    a_{\mu,\nu} - a_{\nu,\mu}
-  \right)
-  \,.
-$$
-
-This is the Lagrangian that defines the Lagrangian field theory of _[[free field|free]] [[electromagnetism]]_.
+This is the [[Lagrangian density]] that defines the Lagrangian field theory of _[[free field|free]] [[electromagnetism]]_.
 
 Here for $A \in \Gamma_\Sigma(T^\ast \Sigma)$ an [[electromagnetic field]] history ([[vector potential]]),
 then the [[pullback of differential forms|pullback]] of $f_{\mu \nu}$ along its [[jet prolongation]] (def. \ref{JetProlongation})
@@ -1992,22 +2103,54 @@ $$
 
 The concept of variation in def. \ref{Variation} is very general, in that it allows to vary the
 field coordinates independently from the corresponding jets. This generality is necessary for
-discussion of symmetries of [[presymplectic currents]] in def. \ref{HamiltonianForms} below,
-but for discussion of symmetries of [[Lagrangian densities]] we are interested in
-explicitly varying just the field coordinates (def. \ref{EvolutionaryVectorField} below)
+discussion of symmetries of [[presymplectic currents]] in def. \ref{HamiltonianForms} below.
+But for discussion of symmetries of [[Lagrangian densities]] we are interested in
+explicitly varying just the [[field (physics)|field]] coordinates (def. \ref{EvolutionaryVectorField} below)
 and inducing from this the corresponding variations of the field derivatives (prop. \ref{EvolutionaryVectorFieldProlongation}) below.
 
+In order to motivate the following definition \ref{EvolutionaryVectorField} 
+of _[[evolutionary vector fields]]_ we follow remark \ref{ReplacingBundleMorphismsByDifferentialOperators}
+saying that concepts in [[variational calculus]] are obtained from their analogous concepts
+in plain [[differential calculus]] by replacing plain [[bundle morphisms]] by morphism out of 
+the [[jet bundle]]: 
+
+Given a [[fiber bundle]] $E \overset{fb}{\to} \Sigma$, then a _[[vertical vector field]]_ on $E$ is
+of course a [[section]] of its [[vertical vector bundle]] $V_\Sigma E$, hence is a [[bundle morphism]]
+as shown here on the left:
+
+$$
+  \array{
+    E && \overset{\text{vertical vector field}}{\longrightarrow} && V_\Sigma E
+    \\
+    & {}_{\mathllap{id}}\searrow && \swarrow
+    \\
+    && E
+  }
+  \phantom{AAAAAAAAA}
+  \array{
+    J^\infty_\Sigma E && \overset{\text{evolutionary vector field}}{\longrightarrow} && V_\Sigma E
+    \\
+    & {}_{\mathllap{id}}\searrow && \swarrow
+    \\
+    && E
+  }
+$$
+
+The variational version replaces the vector bundle on the left here with its jet bundle:
 
 +-- {: .num_defn #EvolutionaryVectorField}
 ###### Definition
 **([[evolutionary vector fields]] and [[antifields]])**
 
-Let $E \overset{fb}{\to} \Sigma$ be a [[fiber bundle]]. Then an [[evolutionary vector field]] $v$ is a smooth [[bundle]] [[homomorphism]]
-of the form
+Let $E \overset{fb}{\to} \Sigma$ be a [[fiber bundle]]. Then an [[evolutionary vector field]] $v$ on $E$ is a 
+a "variational vertical vector field" on $E$, hence a smooth [[bundle]] [[homomorphism]]
+out of the [[jet bundle]] (def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
+
+
 
 $$
   \array{
-    J^\infty_\Sigma(E)
+    J^\infty_\Sigma E 
     && \overset{v}{\longrightarrow} &&
     V_\Sigma E
     \\
@@ -2017,18 +2160,18 @@ $$
   }
 $$
 
-where $V_\Sigma E \overset{}{\to} \Sigma$ is the [[vertical vector bundle]] of $E \overset{fb}{\to} \Sigma$.
+to the [[vertical vector bundle]] $V_\Sigma E \overset{}{\to} \Sigma$ of $E \overset{fb}{\to} \Sigma$.
 
 We write
 
 $$
-  \Gamma_\Sigma^{ev}(T J^\infty_\Sigma(E))
+  \Gamma_E^{ev}\left( V_\Sigma E \right)
   \;\in\;
-  \Omega^{0,0}_\Sigma(E) Mod^{\mathbb{Z}}
+  \Omega^{0,0}_\Sigma(E) Mod
 $$
 
 for the space of evolutionary vector fields,
-regarded as a [[graded module]] over the $\mathbb{R}$-[[associative algebra|algebra]]
+regarded as a [[module]] over the $\mathbb{R}$-[[associative algebra|algebra]]
 
 $$
   \Omega^{0,0}_\Sigma(E)
@@ -2038,13 +2181,13 @@ $$
 
 of [[smooth functions]] on the [[jet bundle]].
 
-For the construction of the [[BV-BRST complex]] in the following, we will want to
+For the construction of the [[BV-BRST complex]] [below](#ReducedPhaseSpace), we will want to
 assign a _degree_ to evolutionary vector field, namely degree -1.
 The above module regarded as a [[graded module]] concentrated all in degree -1
 is denoted by
 
 $$
-  \Gamma_\Sigma^{ev}(T J^\infty_\Sigma(E))[-1]
+  \Gamma_E^{ev}( V_\Sigma E )[-1]
   \;\in\;
   \Omega^{0,0}_\Sigma(E) Mod^{\mathbb{Z}}
   \,.
@@ -2065,12 +2208,18 @@ in that the canonical linear map is an [[isomorphism]] of [[graded modules]]:
 
 $$
   \label{AntifieldCoordinates}
-  \Omega^{0,0}_\Sigma(E)
-  \langle
-     \overline{\phi}_a
-  \rangle
-    \overset{\simeq}{\longrightarrow}
-  \Gamma_\Sigma^{ev}(V_\Sigma(E))[-1]
+  \array{
+    \Omega^{0,0}_\Sigma(E)
+    \left\langle
+       \overline{\phi}_a
+    \right\rangle
+      \overset{\simeq}{\longrightarrow}
+    \Gamma_E^{ev}( V_\Sigma E )[-1]
+    \\
+    \overline{\phi}_a
+     & \mapsto &
+    \partial_{\phi_a}
+  }
   \,.
 $$
 
@@ -2248,6 +2397,8 @@ $$
 
 =--
 
+Now given an evolutionary vector field, we want to consider the [[flow]] that it
+induces on the [[space of field histories]]:
 
 +-- {: .num_defn #FlowOfFieldHistoriesAlongEvolutionaryVectorField}
 ###### Definition
@@ -2296,7 +2447,7 @@ $$
   \label{LocalDataForFlowOfImplicitInfinitesimalGaugeSymmetry}
   (\exp(t(-) \hat v) \circ j^\infty_\Sigma(\Phi(-))
     \;\colon\:
-  U \times \Sigma \longrightarrow J^\infty_\Sigma(E) )
+  U \times \Sigma \longrightarrow J^\infty_\Sigma E )
 $$
 
 of the [[smooth space|smooth]] [[space of sections]] of the [[jet bundle]].
@@ -3717,7 +3868,7 @@ vanishes, $m = 0$, then this is the _relativistic [[wave equation]]_.
 
 +-- {: .num_prop #MaxwellVacuumEquation}
 ###### Example
-**([equations of motion]] of [[free field|free]] [[electriomagnetism]] -- [[vacuum]] [[Maxwell equations]])**
+**([equations of motion]] of [[free field|free]] [[electromagnetism]] -- [[vacuum]] [[Maxwell equations]])**
 
 Consider the [[Lagrangian field theory]] of [[free field|free]] [[electromagnetism]] from example \ref{ElectromagnetismLagrangianDensity}.
 
@@ -3858,7 +4009,7 @@ We write
 $$
   Obs_{\Sigma}
     \;\coloneqq\;
-  \langle LocObs_\Sigma \rangle_{C^\infty\left(\Gamm_\Sigma(E)\right)_{\delta_{EL}\mathbf{L} = 0}}
+  \langle LocObs_\Sigma \rangle_{C^\infty\left(\Gamma_\Sigma(E)\right)_{\delta_{EL}\mathbf{L} = 0}}
 $$
 
 for the smallest subalgebra of observables that contains all the (...polynomial...) local observables.
@@ -4825,7 +4976,7 @@ $$
     \coloneqq
   \frac{\delta L }{\delta \phi^a} \kappa^{[a b]} \partial_{\phi^a}
   \;\in\;
-  \Gamma_\Sigma^{ev}(V_\Sigma E)
+  \Gamma_E^{ev}( V_\Sigma E )
 $$
 
 for a collection of smooth functions with compact spacetimes support
@@ -4942,7 +5093,7 @@ over $\Omega^{\bullet,\bullet}_{\Sigma,cp}(E,\varphi)$ (eq:ObservablesOnInfinite
 $$
   \iota_{(-)}\delta_{EL} \mathbf{L}
    \;\colon\;
-  \Gamma_{\Sigma,cp}^{ev}(V_\Sigma E,\varphi)[-1]
+  \Gamma_{E,cp}^{ev}(V_\Sigma E,\varphi)[-1]
     \longrightarrow
   \Omega^{p+1,0}_{\Sigma,cp}(E,\varphi)
   \,.
@@ -4965,7 +5116,7 @@ then this is a $\Omega^{0,0}_\sigma(E,\varphi)$-[[linear map]] of the form
 $$
   \iota_{(-)}{\delta L_{EL}}
     \;\colon\;
-  \Gamma_{\Sigma,cp}^{ev}(V_\Sigma E,\varphi)[-1]
+  \Gamma_{E,cp}^{ev}(V_\Sigma E,\varphi)[-1]
     \longrightarrow
   \Omega^{0,0}_{\Sigma,cp}(E,\varphi)
   \,.
@@ -4996,7 +5147,7 @@ Consider then the [[symmetric algebra|graded symmetric algebra]]
 
 $$
   Sym_{\Omega^{0,0}_{\Sigma,cp}(E,\varphi)}\left(
-    \Gamma_{\Sigma,cp}^{ev}(V_\Sigma E,\varphi)[-1]
+    \Gamma_{E,cp}^{ev}(V_\Sigma E,\varphi)[-1]
   \right)
 $$
 
@@ -5007,11 +5158,11 @@ $$
   s_{BV}
   \;\colon\;
     Sym_{\Omega^{0,0}_{\Sigma,cp}(E,\varphi)}\left(
-    \Gamma_\Sigma^{ev}(V_\Sigma E,\varphi)[-1]
+    \Gamma_E^{ev}(V_\Sigma E,\varphi)[-1]
   \right)
   \;\longrightarrow\;
   Sym_{\Omega^{0,0}_{\Sigma,cp}(E,\varphi)}\left(
-    \Gamma_\Sigma^{ev}(V_\Sigma E,\varphi)[-1]
+    \Gamma_E^{ev}(V_\Sigma E,\varphi)[-1]
   \right)
 $$
 
@@ -5024,7 +5175,7 @@ $$
     \;\coloneqq\;
   \left(
     Sym_{\Omega^{0,0}_{\Sigma,cp}(E,\varphi)}\left(
-      \Gamma_{\Sigma,cp}^{ev}(V_\Sigma E,\varphi)[-1]
+      \Gamma_{E,cp}^{ev}(V_\Sigma E,\varphi)[-1]
     \right)
     \,,\,
     s_{BV}
@@ -5205,7 +5356,7 @@ $\Omega^{0,0}_{\Sigma,cp}(E,\varphi)\vert_{\mathcal{E}_{BV}}$ (def. \ref{BVCompl
 In degree 0 the [[image]] of the [[BV-differential]] coming from degree -1 and modulo $d$-exact terms
 
 $$
-  im\left( \Gamma_{\Sigma,cp}^{ev}(V_\Sigma(E,\varphi)) \overset{s_{BV}}{\to} \Omega^{0,0}_\Sigma(E,\varphi)/im(d) \right)
+  im\left( \Gamma_{E,cp}^{ev}(V_\Sigma(E,\varphi)) \overset{s_{BV}}{\to} \Omega^{0,0}_\Sigma(E,\varphi)/im(d) \right)
 $$
 
 is the ideal of functions modulo $im(d)$ that vanish [[on-shell]]. Since the differential going _from_ degree 0 to degree 1 vanishes,
@@ -5224,7 +5375,7 @@ of functions on the [[shell]] $\mathcal{E}$ (eq:ObservablesOnInfinitesimalNeighb
 In degree -1 the [[kernel]] of the [[BV-differential]] going to degree 0
 
 $$
-  ker\left( \Gamma_\Sigma^{ev}(V_\Sigma(E,\varphi)) \overset{s_{BV}}{\to} \Omega^{0,0}_\Sigma(E,\varphi)\right)
+  ker\left( \Gamma_E^{ev}(V_\Sigma(E,\varphi)) \overset{s_{BV}}{\to} \Omega^{0,0}_\Sigma(E,\varphi)\right)
 $$
 
 is the space of implicit [[infinitesimal gauge symmetries]] (def. \ref{ImplicitInfinitesimalGaugeSymmetry})
@@ -5232,9 +5383,9 @@ and the [[image]] of the differential coming from degree -2
 
 $$
   im\left(
-    \Gamma_{\Sigma}^{ev}(V_\Sigma E,\varphi) \wedge_{\Omega^{0,0}_\Sigma(E,\varphi)} \Gamma_\Sigma^{ev}(V_\Sigma E,\varphi)
+    \Gamma_{E}^{ev}(V_\Sigma E,\varphi) \wedge_{\Omega^{0,0}_\Sigma(E,\varphi)} \Gamma_E^{ev}(V_\Sigma E,\varphi)
       \overset{s_{BV}}{\longrightarrow}
-    \Gamma_{\Sigma}^{ev}(V_\Sigma E,\varphi)
+    \Gamma_{E}^{ev}(V_\Sigma E,\varphi)
   \right)
 $$
 
@@ -6308,3 +6459,4 @@ But [[perturbative quantum field theory]] is well understood. This we turn to ne
 ***
 
 
+[[!redirects A first idea of quantum field theory]]
