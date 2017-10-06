@@ -23,7 +23,7 @@ $$f_1 \dashv f_2 \dashv \cdots \dashv f_n $$
 
 * In every [[derivator]] there is an adjoint $5$-tuple which may extended to a $7$-tuple in a [[pointed derivator]]. In a stable setting this may be extended further to a doubly infinite string with period 6 ([GrothShul17](#GrothShul17)).
 
-* Let $[n]$ denote the totally ordered $(n+1)$-element set, regarded as a category. For each positive integer $n$, we have $n+1$ order-preserving injections from $[n-1]$ to $[n]$, and $n$ order-preserving surjections from $[n]$ to $[n-1]$. Regarded as functors, these injections and surjections interleave to form an adjoint chain of length $2n$.
+* Let $[n]$ denote the totally ordered $(n+1)$-element set, regarded as a category. For each positive integer $n$, we have $n+1$ order-preserving injections from $[n-1]$ to $[n]$, and $n$ order-preserving surjections from $[n]$ to $[n-1]$. Regarded as functors, these injections and surjections interleave to form an adjoint chain of length $2n + 1$.
 
 ## References
 
