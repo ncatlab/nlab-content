@@ -27,7 +27,7 @@ $$
   ( F\dashv G\dashv H) \colon C \longrightarrow D 
 $$
 
-is a [[triple]] of [[functors]]/morphisms $F,H \colon C \to D$ and $G \colon D \to C$ together with [[adjunction]] data $F\dashv G$ and $G\dashv H$. 
+is a [[triple]] of [[functors]]/morphisms $F,H \colon C \to D$ and $G \colon D \to C$ together with [[adjunction]] data $F\dashv G$ and $G\dashv H$.   That is, it is an [[adjoint string]] of length 3.
 
 =--
 
@@ -191,7 +191,9 @@ The monad $G F$ is left adjoint to the comonad $H G$, with the structure maps be
 
 ## Related concepts
 
-* [[adjoint quadruple]], [[cohesive topos]]
+* [[adjoint quadruple]], [[adjoint string]]
+
+* [[cohesive topos]]
 
 * [[ambidextrous adjunction]]
 
