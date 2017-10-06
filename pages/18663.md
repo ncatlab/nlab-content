@@ -37,7 +37,7 @@ $$f_1 \dashv f_2 \dashv \cdots \dashv f_n $$
 
 1. The previous two examples apply also to [[derivators]], and the extension of the analogous adjoint $5$-tuple to a $7$-tuple again characterizes the [[pointed derivators]].  Moreover, the [[stable derivators]] are characterized by the extension of this $7$-tuple to a doubly-infinite adjoint string with period 6 ([GrothShul17](#GrothShul17)).
 
-1. Let $[n]$ denote the [[totally ordered]] $(n+1)$-element set, regarded as a category. For each positive integer $n$, we have $n+1$ order-preserving injections from $[n-1]$ to $[n]$, and $n$ order-preserving surjections from $[n]$ to $[n-1]$. Regarded as functors, these injections and surjections interleave to form an adjoint chain of length $2n + 1$.
+1. Let $[n]$ denote the [[totally ordered]] $(n+1)$-element set, regarded as a category. For each positive integer $n$, we have $n+1$ order-preserving injections from $[n-1]$ to $[n]$, and $n$ order-preserving surjections from $[n]$ to $[n-1]$. Regarded as functors, these injections and surjections interleave to form an adjoint chain of length $2n + 1$. This has to do with regarding the [[simplex category]] as a locally posetal bicategory; see below. 
 
 1. Let $C$ be a category with a [[terminal object]] but no [[initial object]]. Then there are functors
   $$
@@ -53,7 +53,7 @@ such that
   $$
 is a maximal string of adjoint functors (obtained by composing with the preceding example). 
 
-1. Also related to example 4.: if $P$ is a [[lax idempotent monad]] with unit $u: 1 \to P$ and multiplication $m: P P \to P$ (so that $m \dashv u P$), then there is an adjoint string 
+1. Generalizing an earlier example: if $P$ is a [[lax idempotent monad]] with unit $u: 1 \to P$ and multiplication $m: P P \to P$ (so that $m \dashv u P$), then there is an adjoint string 
 $$P^{n-1} m \dashv P^{n-1} u P \dashv P^{n-2}m P \dashv \ldots \dashv m P^n \dashv u P^{n+1}$$ 
 of length $2 n + 1$, back and forth between $P^{n+1}$ and $P^n$. The example of $[n]$ and $[n+1]$ above is based on the fact that the [[simplex category]] $\Delta$, regarded as a locally posetal [[bicategory]], is the [[walking structure|walking]] lax idempotent monoid. 
 
