@@ -22,7 +22,7 @@ $$
   f_! \dashv f^* \dashv f_* \dashv f^!
 $$
 
-between a [[quadruple]] of [[morphisms]].
+between a [[quadruple]] of [[morphisms]].  That is, it is an [[adjoint string]] of length 4.
 
 ## Properties
 
@@ -215,7 +215,7 @@ $(p_! \dashv p^*)$-[[zig-zag identity]].
 
 * [[adjunction]], [[adjoint functor]]
 
-* [[adjoint triple]]
+* [[adjoint triple]], [[adjoint string]]
 
 
 ## References
