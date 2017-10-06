@@ -5990,7 +5990,7 @@ over $C^\infty(X)$ in degree 1
 from the [[module]]
 
 $$
-  \mathfrak{a}_1^\ast \coloneqq (\Gamma(T \Sigma))^\ast \simew\Gamma(T^\ast \Sigma) = \Omega^1(\Sigma)
+  \mathfrak{a}_1^\ast \coloneqq (\Gamma(T \Sigma))^\ast \simeq\Gamma(T^\ast \Sigma) = \Omega^1(\Sigma)
 $$
 
 of [[differential 1-forms]] and whose [[Chevalley-Eilenberg differential]] is the [[de Rham differential]],
@@ -6019,7 +6019,7 @@ $$
 $$
 
 The underlying [[graded manifold]] of $J^\infty_\Sigma(E)/T\Sigma$ is the [[fiber product]]
-$J^\infty_\Sigma(E)\times_\Sigma T[1]\Sigma$ of the [[jet bunde]] of $E$ with the [[shifted tangent bundle]]
+$J^\infty_\Sigma(E)\times_\Sigma T[1]\Sigma$ of the [[jet bundle]] of $E$ with the [[shifted tangent bundle]]
 of $\Sigma$.
 
 There is then a canonical homomorphism of Lie algebroids (def. \ref{HomomorphismBetweenLieAlgebroids})
@@ -6174,7 +6174,7 @@ turn out to be _necessarily_ gauge invariant (example \ref{GaugeInvariantFunctio
 
 +-- {: .num_defn #HomomorphismBetweenLieAlgebroids}
 ###### Definition
-**([[homomorphism]] between [[derived Lie algebroids]])**
+**([[homomorphism]] between [[Lie algebroids]])**
 
 Given two [[derived Lie algebroids]] $\mathfrak{a}$, $\mathfrak{a}'$ (def. \ref{LInfinityAlgebroid}), then a [[homomorphism]]
 between them
@@ -6282,19 +6282,6 @@ Finally $d \mathbf{L} = 0$ by degree reasons.
 
 =--
 
-This means that this element defines a [[homomorphism]] of [[Lie algebroids]] (def. \ref{HomomorphismBetweenLieAlgebroids})
-of the form
-
-$$
-  \array{
-    E/(\mathcal{G} \times_\Sigma T \Sigma)
-      && \overset{ \mathbf{L} + c^\alpha J_{v_\alpha}  }{\longrightarrow} &&
-    \mathbb{R}[p+1]
-  }
- $$
-
-Next we consider the [[derived critical locus]] of this morphism...
-
 
 $\,$
 
@@ -6316,9 +6303,9 @@ acting on the [[field bundle]] (hence an element of the [[BRST complex]], exampl
 (...)
 
 
-+-- {: .num_prop #SuperLieAlgebraTraditional}
-###### Proposition
-
++-- {: .num_defn #WeilAlgebra} 
+###### Definition
+**([[Weil algebra]] of a [[Lie algebroid]])**
 
 Given a [[Lie algebroid]] $\mathfrak{a}$ over some $X$ (def. \ref{LInfinityAlgebroid}), its [[Weil algebra]] is
 
@@ -6339,107 +6326,48 @@ on the graded elements.
 
 =--
 
-$\,$
+
++-- {: .num_example }
+###### Example
 
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
-whose [[field bundle]] $E$ is a [[trivial vector bundle]] (example \ref{TrivialVectorBundleAsAFieldBundle}) and whose [[Lagrangian density]] $\mathbf{L}$ is spacetime-independent (example \ref{ShellForSpacetimeIndependentLagrangians}).
-Let $\Sigma \times \{\varphi\} \hookrightarrow \mathcal{E}$ be a constant section of the shell (eq:ConstantSectionOfTrivialShellBundle).
+equipped with a closed irreducible [[gauge parameter]]  bundle $\mathcal{G}$ (def. \ref{GaugeParametrizedInfinitesimalGaugeTransformation}).
+Consider the [[Lie algebroid]] $E/(\mathcal{G} \times_\Sigma T \Sigma)$ from example \ref{LocalOffShellBRSTComplex},
+whose [[Chevalley-Eilenberg algebra]] is the [[local BRST complex]] of the theory.
 
-Let $(J^\infty_\Sigma (E,\varphi))_{BRST}$ with
-
-$$
-  C^\infty\left(
-     (J^\infty_\Sigma (E,\varphi))_{BRST}
- \right)
-   =
- \Omega^{0,0}_{\Sigma,cp}(E,\phi)_{BRST}
-$$
-
-be an [[L-∞ algebroid]] on $\Omega^{0,0}_{\Sigma,cp}(E,\phi)$ such that the Lagrangian function is invariant, hence a morphism
-of $L_\infty$-algebroids of the form
+Then its [[Weil algebra]] $W(E/(\mathcal{G} \times_\Sigma T \Sigma))$ (def. \ref{WeilAlgebra})
+has as differential the [[variational derivative]] (def. \ref{VariationalBicomplexOnSecondOrderJetBundleOverTrivialVectorBundleOverMinkowskiSpacetime})
+plus the [[BRST differential]]
 
 $$
-  (J^\infty_\Sigma (E,\varphi))_{BRST}
-    \longrightarrow
-  \mathbb{R}
-$$
-
-which means that
-
-$$
-  L \;\in\; \Omega^{0,0}_{\Sigma,cp}(E,\phi)_{BRST}
-$$
-
-is closed $d_{CE} L = 0$. We say now that the  $\mathfrak{a}_1$ are
-_explicit [[infinitesimal gauge symmetries]]_ of $L$ (and $\mathfrak{a}_{\geq 2}$ are the [[higher gauge transformation|higher]] such)
-
-We say that functions on the [[derived Lie algebroid]] which is
-the [[derived critical locus]] of $L$ is the _derived shell_ (or something like this)
-and that its [[Chevalley-Eilenberg algebra]] is the
-_local [[BV-BRST complex]]_ of the system:
-
-$$
-  \Omega^{0,0}_{\Sigma,cp}(E,\phi)_{BRST}\vert_{\mathcal{E}_{BV}}
-$$
-
-In the special case that there are no explicit infinitesimal gauge symmetries
-this reduces to the plain local [[BV-complex]] from def. \ref{BVComplexOfOrdinaryLagrangianDensity}.
-
-On the [[Weil algebra]] we need to re-introduce the [[variational bicomplex]] structure.
-
-+-- {: .num_defn #BVVariationalBicmplex}
-###### Definition
-**([[variational BV-bicomplex]] and [[local BV-BRST cohomology]])**
-
-Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
-with infinitesimal local [[reduced phase space]]
-
-$$
-  \Omega^{0,0}_{\Sigma,\varphi}(E)\vert_{\mathcal{E}_{\text{BV-BRST}}}
+  \begin{aligned}
+    d_{W} 
+    & = \mathbf{d} - (d - s_{BRST})
+    \\
+    & =
+    \delta + s_{BRST}
+  \end{aligned}
   \,.
 $$
 
-The full de Rham differential on this is
+Therefore we speak of the _[[variational BRST-bicomplex]]_ and write
 
 $$
-  \mathbf{d}_W = \mathbf{d} - s
-$$
-
-and we need to re-state what counts as a horizontal differential now. Take it to be
-
-$$
-  d_W \coloneqq d - s
+  \Omega^\bullet_\Sigma( E/(\mathcal{G} \times_\Sigma T \Sigma) )
   \,.
 $$
 
-The resulting bicomplex of differential forms on an infinitesimal [[derived Lie algebroid]] we denote
+Now pass to the [[derived critical locus]] of $E/(\mathcal{G} \times_\sigma T \Sigma)$
+at the elements $\frac{\delta_{EL}\mathbf{L}}{\delta \phi^a}$.
+The resulting [[derived Lie algebroid]] has as [[Weil algebra]] the variational BV-bicomplex
+with differential $\mathbf{d} - (d- s})$.
 
-$$
-  \Omega^{\bullet,\bullet}_{\Sigma,\varphi}(E)\vert_{\mathcal{E}_{\text{BV-BRST}}}
-  \,.
-$$
-
-The cohomology of $d_W = d - s$ is called _[[local BV-BRST cohomology]]_.
+(...)
 
 =--
 
-Then a local observable $A \in \Omega^{p+1,0}_{\Sigma,cp}(E)\vert_{\mathcal{E}_{BV}}$
-is derived-horizontally closed, $d_W A = 0$, if $s_{\text{BV-BRST}} A = 0$.
 
-$$
-  \array{
-    \{s_{\text{BV-BRST}}(A)  \}
-    \\
-    {\mathllap{s_{\text{BV-BRST}}}}\uparrow
-    \\
-    \{A\} &\underset{}{\longrightarrow}& 0
-  }
-$$
 
-Such $A$ is $d_W$-exact if it is a sum of a term that vanishes on-shell and a horizontally exact term.
-
-Hence if we now define the local observables to be the horizontal cohomology,
-we get precisely the gauge-invariant on-shell local observables.
 
 
 +-- {: .num_prop #dWCohomology}
@@ -6895,4 +6823,3 @@ But [[perturbative quantum field theory]] is well understood. This we turn to ne
 ***
 
 
-[[!redirects A first idea of quantum field theory]]
