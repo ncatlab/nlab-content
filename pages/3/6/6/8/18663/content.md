@@ -1,3 +1,14 @@
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
 # Adjoint strings
 
 * table of contents
@@ -5,7 +16,8 @@
 
 ## Definition
 
-An **adjoint string of length $n$**, or an **adjoint $n$-tuple**, is a sequence of $(n-1)$ [[adjunctions]] between $n$ [[functors]] (or more generally [[morphisms]] in a [[2-category]]):
+In [[category theory]],
+an **adjoint string of length $n$**, or an **adjoint $n$-tuple**, is a sequence of $(n-1)$ [[adjunctions]] between $n$ [[functors]] (or more generally [[morphisms]] in a [[2-category]]):
 
 $$f_1 \dashv f_2 \dashv \cdots \dashv f_n $$
 
@@ -27,23 +39,27 @@ $$f_1 \dashv f_2 \dashv \cdots \dashv f_n $$
 
 * Let $C$ be a category with a [[terminal object]] but no [[initial object]]. Then there are functors
 
-$$
-\delta_i:[n+1,C] \to [n,C], 0\leq i \leq n; \sigma_i:[n,C] \to [n+1,C], 0\leq i \leq n
-$$
+  $$
+    \begin{array}
+      \delta_i \colon [n+1,C] \to [n,C] & 0\leq i \leq n; 
+      \\
+      \sigma_i\colon [n,C] \to [n+1,C] &  0\leq i \leq n
+    \end{array}
+  $$
 
-such that
+  such that
 
-$$
-\delta_0 \vdash \sigma_0 \vdash \cdots \vdash \delta_n \vdash \sigma_n
-$$
+  $$
+    \delta_0 \vdash \sigma_0 \vdash \cdots \vdash \delta_n \vdash \sigma_n
+  $$
 
-is a maximal string of adjoint functors.
+  is a maximal string of adjoint functors.
 
 ## References
 
-* R. Rosebrugh and R. J. Wood, *Distributive Adjoint Strings*, [TAC](http://www.tac.mta.ca/tac/volumes/1995/n6/1-06abs.html)
+* [[Bob Rosebrugh]] and R. J. Wood, *Distributive Adjoint Strings*, [TAC](http://www.tac.mta.ca/tac/volumes/1995/n6/1-06abs.html)
 
-* R. Rosebrugh and R. J. Wood, *An adjoint characterization of the category of sets*, [DOI with free PDF](https://doi.org/10.1090/S0002-9939-1994-1216823-2)
+* [[Bob Rosebrugh]] and R. J. Wood, *An adjoint characterization of the category of sets*, [DOI with free PDF](https://doi.org/10.1090/S0002-9939-1994-1216823-2)
 
 * {#GrothShul17} [[Moritz Groth]], [[Mike Shulman]], _Generalized stability for abstract homotopy theories_, [arXiv:1704.08084](https://arxiv.org/abs/1704.08084).
 
