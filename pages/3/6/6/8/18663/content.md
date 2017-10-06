@@ -15,11 +15,23 @@ $$f_1 \dashv f_2 \dashv \cdots \dashv f_n $$
 * An adjoint $3$-tuple is an [[adjoint triple]].
 * An adjoint $4$-tuple is an [[adjoint quadruple]].
 
+##Examples
+
+* There is an adjoint $5$-tuple between $[Set^{op}, Set]$ and $Set$. Indeed, given a small category $B$, and the [[Yoneda embedding]], $y: B \to [B^{op}, Set]$, then $y$ being the rightmost functor of an adjoint $5$-tuple entails that $B$ is equivalent to [[Set]].
+
+* There is an adjoint $7$-tuple between any [[pointed category]] with pullbacks and pushouts (where the kernel of a morphism $A \to B$ is the pullback of $A\to B \leftarrow 0$, and dually for the cokernel) and its [[arrow category]]. The functor sending an object to its identity morphism has a string of three adjoints on either side.
+
+* In every [[derivator]] there is an adjoint $5$-tuple which may extended to a $7$-tuple in a [[pointed derivator]]. In a stable setting this may be extended further to a doubly infinite string with period 6 ([GrothShul17](#GrothShul17)).
+
+* Let $[n]$ denote the totally ordered $(n+1)$-element set, regarded as a category. For each positive integer $n$, we have $n+1$ order-preserving injections from $[n-1]$ to $[n]$, and $n$ order-preserving surjections from $[n]$ to $[n-1]$. Regarded as functors, these injections and surjections interleave to form an adjoint chain of length $2n$.
+
 ## References
 
 * R. Rosebrugh and R. J. Wood, *Distributive Adjoint Strings*, [TAC](http://www.tac.mta.ca/tac/volumes/1995/n6/1-06abs.html)
 
 * R. Rosebrugh and R. J. Wood, *An adjoint characterization of the category of sets*, [DOI with free PDF](https://doi.org/10.1090/S0002-9939-1994-1216823-2)
+
+* {#GrothShul17} [[Moritz Groth]], [[Mike Shulman]], _Generalized stability for abstract homotopy theories_, [arXiv:1704.08084](https://arxiv.org/abs/1704.08084).
 
 [[!redirects adjoint string]]
 [[!redirects adjoint strings]]
