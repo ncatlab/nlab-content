@@ -27,33 +27,33 @@ $$f_1 \dashv f_2 \dashv \cdots \dashv f_n $$
 * An adjoint $3$-tuple is an [[adjoint triple]].
 * An adjoint $4$-tuple is an [[adjoint quadruple]].
 
-##Examples
+## Examples
 
-* There is an adjoint $5$-tuple between $[Set^{op}, Set]$ and $Set$. Indeed, given a small category $B$, and the [[Yoneda embedding]], $y: B \to [B^{op}, Set]$, then $y$ being the rightmost functor of an adjoint $5$-tuple entails that $B$ is equivalent to [[Set]].
+1. There is an adjoint $5$-tuple between $[Set^{op}, Set]$ and $Set$. Indeed, given a small category $B$, and the [[Yoneda embedding]], $y: B \to [B^{op}, Set]$, then $y$ being the rightmost functor of an adjoint $5$-tuple entails that $B$ is equivalent to [[Set]].
 
-* There is an adjoint $7$-tuple between any [[pointed category]] with [[pullbacks]] and [[pushouts]] (where the [[kernel]] of a morphism $A \to B$ is the pullback of $A\to B \leftarrow 0$, and dually for the [[cokernel]]) and its [[arrow category]]. The functor sending an object to its identity morphism has a string of three adjoints on either side.
+1. There is an adjoint $7$-tuple between any [[pointed category]] with [[pullbacks]] and [[pushouts]] (where the [[kernel]] of a morphism $A \to B$ is the pullback of $A\to B \leftarrow 0$, and dually for the [[cokernel]]) and its [[arrow category]]. The functor sending an object to its identity morphism has a string of three adjoints on either side.
 
-* In every [[derivator]] there is an adjoint $5$-tuple which may extended to a $7$-tuple in a [[pointed derivator]]. In a stable setting this may be extended further to a doubly infinite string with period 6 ([GrothShul17](#GrothShul17)).
+1. In every [[derivator]] there is an adjoint $5$-tuple which may extended to a $7$-tuple in a [[pointed derivator]]. In a stable setting this may be extended further to a doubly infinite string with period 6 ([GrothShul17](#GrothShul17)).
 
-* Let $[n]$ denote the [[totally ordered]] $(n+1)$-element set, regarded as a category. For each positive integer $n$, we have $n+1$ order-preserving injections from $[n-1]$ to $[n]$, and $n$ order-preserving surjections from $[n]$ to $[n-1]$. Regarded as functors, these injections and surjections interleave to form an adjoint chain of length $2n + 1$.
+1. Let $[n]$ denote the [[totally ordered]] $(n+1)$-element set, regarded as a category. For each positive integer $n$, we have $n+1$ order-preserving injections from $[n-1]$ to $[n]$, and $n$ order-preserving surjections from $[n]$ to $[n-1]$. Regarded as functors, these injections and surjections interleave to form an adjoint chain of length $2n + 1$.
 
-* Let $C$ be a category with a [[terminal object]] but no [[initial object]]. Then there are functors
-
+1. Let $C$ be a category with a [[terminal object]] but no [[initial object]]. Then there are functors
   $$
-    \begin{array}
+    \array{
       \delta_i \colon [n+1,C] \to [n,C] & 0\leq i \leq n; 
       \\
       \sigma_i\colon [n,C] \to [n+1,C] &  0\leq i \leq n
-    \end{array}
+    }
   $$
-
-  such that
-
+such that
   $$
     \delta_0 \vdash \sigma_0 \vdash \cdots \vdash \delta_n \vdash \sigma_n
   $$
+is a maximal string of adjoint functors (obtained by composing with the preceding example). 
 
-  is a maximal string of adjoint functors.
+1. Also related to example 4.: if $P$ is a [[lax idempotent monad]] with unit $u: 1 \to P$ and multiplication $m: P P \to P$ (so that $m \dashv u P$), then there is an adjoint string 
+$$P^{n-1} m \dashv P^{n-1} u P \dashv P^{n-2}m P \dashv \ldots \dashv m P^n \dashv u P^{n+1}$$ 
+of length $2 n + 1$, back and forth between $P^{n+1}$ and $P^n$. Example 4. is based on the fact that the [[simplex category]] $\Delta$, regarded as a locally posetal [[bicategory]], is the [[walking structure|walking]] lax idempotent monoid. 
 
 ## References
 
