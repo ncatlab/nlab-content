@@ -358,6 +358,8 @@ See also:
 
 * Section II.2 of P. Gabriel and M. Zisman, _Calculus of Fractions and Homotopy Theory_. Springer, 1967
 
+* Section 2, Doctrines, of [[Ross Street]], [_Fibrations in Bicategories_](http://www.numdam.org/item?id=CTGDC_1980__21_2_111_0), 1980 
+
 The relation to [[intervals]] and the generalization to the [[cell category]] is due to
 
 * [[André Joyal]], _Disks, duality and $\Theta$-categories_, preprint, 1997 ([pdf](http://ncatlab.org/nlab/files/JoyalThetaCategories.pdf))
