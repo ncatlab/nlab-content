@@ -814,18 +814,21 @@ $$
 ### General
   {#ReferencesGeneral}
 
-A classical standard references is
+A classical standard references for the Lagrangian formalism is
 
-* [[Marc Henneaux]], [[Claudio Teitelboim]], _[[Quantization of Gauge Systems]]_, Princeton University Press 1992. xxviii+520 pp.
-{#HenneauxTeitelboim}
+* {#Henneaux90} [[Marc Henneaux]], _Lectures on the Antifield-BRST_ formalism for gauge theories_, Nuclear Physics B (Proceedings Supplement) 18A (1990) 47-106 ([pdf](http://www.math.uni-hamburg.de/home/schweigert/ws07/henneaux2.pdf))
 
-The bulk of the book considers the Hamiltonian formulation. Chapters 17 and 18 are about the Lagrangian ("antifield") formulation, with section 18.4 devoted to the relation between the two.
+Similarly the bulk of the textbook
+
+* {#HenneauxTeitelboim} [[Marc Henneaux]], [[Claudio Teitelboim]], _[[Quantization of Gauge Systems]]_, Princeton University Press 1992. xxviii+520 pp.
+
+considers the Hamiltonian formulation. Chapters 17 and 18 are about the Lagrangian ("antifield") formulation, with section 18.4 devoted to the relation between the two.
 
 This is written in the traditional informal style of the physics literature. A general formalization of Lagrangian quantum BV (chapter 18 of Henneaux-Teitelboim) in the Chiral algebra setting for 
 [[perturbative quantum field theory]] on algebraic curves is in
 
-* [[Alexander Beilinson]], [[Vladimir Drinfeld]], _[[Chiral Algebras]]_ . 
-{#BeilinsonDrinfeld}
+* {#BeilinsonDrinfeld} [[Alexander Beilinson]], [[Vladimir Drinfeld]], _[[Chiral Algebras]]_ . 
+
 
 The extension of this approach to higher dimensions is being worked out in terms of _[[factorization algebra]]_ in
 
@@ -833,8 +836,8 @@ The extension of this approach to higher dimensions is being worked out in terms
 
 and in
 
-* [[Dennis Gaitsgory]], [[John Francis]] _Chiral Koszul duality_ ([arXiv:1103.5803](http://arxiv.org/abs/1103.5803))
- {#GaitsgoryFrancis}
+* {#GaitsgoryFrancis} [[Dennis Gaitsgory]], [[John Francis]] _Chiral Koszul duality_ ([arXiv:1103.5803](http://arxiv.org/abs/1103.5803))
+ 
 
 The general classical BV formalism (chapter 17 of Henneaux-Teitelboim) is formalized in the same language in
 
