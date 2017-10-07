@@ -49,13 +49,17 @@ $$f_1 \dashv f_2 \dashv \cdots \dashv f_n $$
   $$
 such that
   $$
-    \delta_0 \vdash \sigma_0 \vdash \cdots \vdash \delta_n \vdash \sigma_n
+    \delta_0 \dashv \sigma_0 \dashv \cdots \dashv \delta_n \dashv \sigma_n
   $$
 is a maximal string of adjoint functors (obtained by composing with the preceding example). 
 
 1. Generalizing an earlier example: if $P$ is a [[lax idempotent monad]] with unit $u: 1 \to P$ and multiplication $m: P P \to P$ (so that $m \dashv u P$), then there is an adjoint string 
-$$P^{n-1} m \dashv P^{n-1} u P \dashv P^{n-2}m P \dashv \ldots \dashv m P^n \dashv u P^{n+1}$$ 
+$$P^{n-1} m \dashv P^{n-1} u P \dashv P^{n-2}m P \dashv \ldots \dashv m P^{n-1} \dashv u P^n$$ 
 of length $2 n + 1$, back and forth between $P^{n+1}$ and $P^n$. The example of $[n]$ and $[n+1]$ above is based on the fact that the [[simplex category]] $\Delta$, regarded as a locally posetal [[bicategory]], is the [[walking structure|walking]] lax idempotent monoid. 
+
+1. Given an [[ambidextrous adjunction]], $F \dashv G$ and $G \dashv F$, we of course get an infinite adjoint string 
+$$\ldots \dashv F \dashv G \dashv F \dashv \ldots$$ 
+of period 2. 
 
 ## References
 
