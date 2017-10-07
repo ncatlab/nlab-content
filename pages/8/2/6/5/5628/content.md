@@ -74,7 +74,7 @@ The HOMFLY polynomial generalises both the [[Jones polynomial]] and the [[Alexan
 
 See the [wikipedia page](http://en.wikipedia.org/wiki/HOMFLY_polynomial) for the origin of the name.
 
-Some fairly elementary discussion of the HOMFLY polynomial is given introductory texts such as 
+Some fairly elementary discussion of the HOMFLY polynomial is given in introductory texts such as 
 
 * [[N. D. Gilbert]] and [[T. Porter]], Knots and Surfaces, Oxford U.P., 1994.
 
