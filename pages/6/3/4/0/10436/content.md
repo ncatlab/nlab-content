@@ -221,6 +221,8 @@ Another unwinding to ordinary mathematical language of the above [code](#Favonia
 
 * {#Rezk14} [[Charles Rezk]], _Proof of the Blakers-Massey theorem_, 2014 [pdf](http://www.math.uiuc.edu/~rezk/freudenthal-and-blakers-massey.pdf).
 
+prompted by online discussion [here](https://plus.google.com/+UrsSchreiber/posts/Zzjd8KM7K5s).
+
 Further developments along these lines are in
 
 * {#AnelBiedermanFinsterJoyal17a} [[Mathieu Anel]], [[Georg Biedermann]], [[Eric Finster]], [[André Joyal]], _A Generalized Blakers-Massey Theorem_ ([arXiv:1703.09050](https://arxiv.org/abs/1703.09050))
