@@ -37,7 +37,7 @@ $$f_1 \dashv f_2 \dashv \cdots \dashv f_n $$
 
 1. The previous two examples apply also to [[derivators]], and the extension of the analogous adjoint $5$-tuple to a $7$-tuple again characterizes the [[pointed derivators]].  Moreover, the [[stable derivators]] are characterized by the extension of this $7$-tuple to a doubly-infinite adjoint string with period 6 ([GrothShul17](#GrothShul17)).
 
-1. Let $[n]$ denote the [[totally ordered]] $(n+1)$-element set, regarded as a category. For each positive integer $n$, we have $n+1$ order-preserving injections from $[n-1]$ to $[n]$, and $n$ order-preserving surjections from $[n]$ to $[n-1]$. Regarded as functors, these injections and surjections interleave to form an adjoint chain of length $2n + 1$. This has to do with regarding the [[simplex category]] as a locally posetal bicategory; see below. 
+1. Let $[n]$ denote the [[totally ordered]] $(n+1)$-element set, regarded as a category. For each positive integer $n$, we have $n+1$ order-preserving injections from $[n-1]$ to $[n]$, and $n$ order-preserving surjections from $[n]$ to $[n-1]$. Regarded as functors, these injections and surjections interleave to form [an adjoint chain of length $2n + 1$](https://ncatlab.org/nlab/show/simplex+category#_and__as_2categories). This has to do with regarding the [[simplex category]] as a locally posetal bicategory; see below. 
 
 1. Let $C$ be a category with a [[terminal object]] but no [[initial object]]. Then there are functors
   $$
