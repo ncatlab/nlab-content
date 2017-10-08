@@ -51,9 +51,9 @@ such that
   $$
     \delta_0 \dashv \sigma_0 \dashv \cdots \dashv \delta_n \dashv \sigma_n
   $$
-is a maximal string of adjoint functors (obtained by composing with the preceding example). 
+is a maximal string of adjoint functors (all but $\sigma_n$ are obtained by applying $[-, C]$ to the simplex category example, and $\sigma_n$ exploits the presence of the terminal object of $C$). 
 
-1. Generalizing an earlier example: if $P$ is a [[lax idempotent monad]] with unit $u: 1 \to P$ and multiplication $m: P P \to P$ (so that $m \dashv u P$), then there is an adjoint string 
+1. Generalizing the simplex category example: if $P$ is a [[lax idempotent monad]] with unit $u: 1 \to P$ and multiplication $m: P P \to P$ (so that $m \dashv u P$), then there is an adjoint string 
 $$P^{n-1} m \dashv P^{n-1} u P \dashv P^{n-2}m P \dashv \ldots \dashv m P^{n-1} \dashv u P^n$$ 
 of length $2 n + 1$, back and forth between $P^{n+1}$ and $P^n$. The example of $[n]$ and $[n+1]$ above is based on the fact that the [[simplex category]] $\Delta$, regarded as a locally posetal [[bicategory]], is the [[walking structure|walking]] lax idempotent monoid. 
 
