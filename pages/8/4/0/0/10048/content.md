@@ -55,7 +55,7 @@ is an [[adjoint modality]].
 
 ## Waves
 
-By the [[adjoint functor theorem]] for total categories, a total category is totally distributive if and only if the functor $X$ preserves all limits.  Moreover, for any total category, it is possible to define the functor $W:\mathcal{K} \to [\mathcal{K}^{op},Set]$ which ought to be the left adjoint of $X$.  The elements of $W(A)(K)$ are called **waves** from $K$ to $A$ (just because they are usually denoted by wavy arrows), and as in the case of [[continuous categories]] they form an [[idempotent comonad]] on $\mathcal{K}$ in the [[bicategory]] of [[profunctors]].
+By the [[adjoint functor theorem]] for total categories, a total category is totally distributive if and only if the functor $X$ preserves all limits.  Moreover, for any total category, it is possible to define the functor $W:\mathcal{K} \to [\mathcal{K}^{op},Set]$ which "wants to be" the left adjoint of $X$ (and is if $\mathcal{K}$ is total).  The elements of $W(A)(K)$ are called **waves** from $K$ to $A$ (just because they are usually denoted by wavy arrows), and as in the case of [[continuous categories]] they form an [[idempotent comonad]] on $\mathcal{K}$ in the [[bicategory]] of [[profunctors]].
 
 ## Related pages
 
