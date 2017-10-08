@@ -200,7 +200,7 @@ Being full subcategories of the [[2-category]] $Cat$, $\Delta$ and $\Delta_a$ ar
 $$ \delta^n_{i+1} \leq \delta^n_i \qquad \qquad \sigma^n_i \leq \sigma^n_{i+1} \, .$$
 Of course, the ordinal sum functor $\oplus$ extends to a [[2-functor]] in the obvious way.
 
-For each $n$ there is a string of [[adjunctions]]
+For each $n$ there is [a string of adjunctions](https://ncatlab.org/nlab/show/adjoint+string)
 $$
   \delta^n_{n-1} \dashv \sigma^n_{n-2} \dashv \delta^n_{n-2} \dashv
   \cdots \dashv \delta^n_1 \dashv \sigma^n_0 \dashv \delta^n_0
