@@ -23,6 +23,8 @@
 
 A _partial order_ on a set is a way of ordering its elements to say that some elements precede others, but allowing for the possibility that two elements may be incomparable without being the same.  This is the fundamental notion in [[order theory]].
 
+By regarding the ordering $\leq$ as the existence of a unique [[morphism]], preorders may be regarded as certain [[categories]] (namely, [[thin categories]]).  This category is sometimes called the _order category_ associated to a partial order; see below for details.
+
 
 ## Definitions
 
@@ -194,3 +196,6 @@ dipaths. A discussion document and overview of some techniques_ ([pdf](http://dr
 
 [[!redirects bounded poset]]
 [[!redirects bounded posets]]
+
+[[!redirects order category]]
+[[!redirects order categories]]
