@@ -63,9 +63,9 @@ of period 2.
 
 ## References
 
-* [[Bob Rosebrugh]] and R. J. Wood, *Distributive Adjoint Strings*, [TAC](http://www.tac.mta.ca/tac/volumes/1995/n6/1-06abs.html)
+* [[Bob Rosebrugh]] and R. J. Wood, *Distributive Adjoint Strings*, Theory and Applications of Categories, Vol. 1, 1995, No. 6, pp 119-145, [TAC](http://www.tac.mta.ca/tac/volumes/1995/n6/1-06abs.html)
 
-* [[Bob Rosebrugh]] and R. J. Wood, *An adjoint characterization of the category of sets*, [DOI with free PDF](https://doi.org/10.1090/S0002-9939-1994-1216823-2)
+* [[Bob Rosebrugh]] and R. J. Wood, *An adjoint characterization of the category of sets*,  Proc. Amer. Math. Soc. **122** (1994), 409-413, doi:[10.1090/S0002-9939-1994-1216823-2](https://doi.org/10.1090/S0002-9939-1994-1216823-2)
  {#RWSets}
 
 * {#GrothShul17} [[Moritz Groth]], [[Mike Shulman]], _Generalized stability for abstract homotopy theories_, [arXiv:1704.08084](https://arxiv.org/abs/1704.08084).
