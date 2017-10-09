@@ -17,14 +17,14 @@
 
 A preorder (also sometimes called a _[[quasi-order]]_, especially if one works with $\lt$ instead of $\leq$) is like a [[partial order]], but without the "antisymmetry" requirement that $x \leq y$ and $y \leq x$ implies $x = y$.
 
-By interpreting the relation $\leq$ as the existence of a unique [[morphism]], preorders may be regarded as certain [[categories]] (namely, [[thin categories]]), sometime called _[[preorder categories]]_; see below for details.
+By interpreting the relation $\leq$ as the existence of a unique [[morphism]], preorders may be regarded as certain [[categories]] (namely, [[thin categories]]).  This category is sometimes called the _preorder category_ associated to a preorder; see below for details.
 
 
 ## Definition
 
 A **preorder** on a set $S$ is a [[reflexive relation|reflexive]] and [[transitive relation|transitive]] relation, generally written $\leq$.  A **preordered set**, or **proset**, is a set equipped with a preorder.  (This should not be confused with a [[pro-set]], i.e. a [[pro-object]] in [[Set]].)
 
-Equivalently, a proset is a (strict) [[thin category]]: a [[strict category]] such that for any pair of objects $x, y$, there is at most one morphism from $x$ to $y$.  In other words, it's a (strict) [[category enriched]] over the [[cartesian monoidal category]] of [[truth values]].
+Equivalently, a proset is a (strict) [[thin category]]: a [[strict category]] such that for any pair of objects $x, y$, there is at most one morphism from $x$ to $y$.  The existence of such a morphism corresponds to the truth of the relation $x\leq y$.  In other words, it's a (strict) [[category enriched]] over the [[cartesian monoidal category]] of [[truth values]].
 
 
 ## Properties
@@ -107,3 +107,6 @@ This appears as ([Rosolini, corollary. 2.3](#Rosolini)).
 
 [[!redirects preordering]]
 [[!redirects preorderings]]
+
+[[!redirects preorder category]]
+[[!redirects preorder categories]]
