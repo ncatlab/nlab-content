@@ -229,10 +229,13 @@ Review includes
 
 * [[Glenn Barnich]], [[Friedemann Brandt]], [[Marc Henneaux]], _Local BRST cohomology in gauge theories_, Phys. Rept. 338:439-569,2000 ([arXiv:hep-th/0002245](https://arxiv.org/abs/hep-th/0002245))
 
-
 The general theory is discussed in
 
 * {#BarnichBrandtHenneaux94} [[Glenn Barnich]], [[Friedemann Brandt]], [[Marc Henneaux]], _Local BRST cohomology in the antifield formalism: I. General theorems_, Commun.Math.Phys.174:57-92,1995 ([arXiv:hep-th/9405109](https://arxiv.org/abs/hep-th/9405109))
+
+That the local [[antibracket]] satisfies the [[Jacobi identity]] up to horizontally exact terms is discussed in 
+
+* {#BarnichHenneaux96} [[Glenn Barnich]], [[Marc Henneaux]], section 2 and appendix B of _Isomorphisms between the Batalin-Vilkovisky antibracket and the Poisson bracket_,  	J.Math.Phys. 37 (1996) 5273-5296 ([arXiv:hep-th/9601124](https://arxiv.org/abs/hep-th/9601124))
 
 Application to [[gravity]] and/or [[Yang-Mills theory]] ([[Einstein-Yang-Mills theory]]) is discussed in
 
