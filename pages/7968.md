@@ -28,9 +28,13 @@ which governs the [[prequantization]] lift from real ([[differential cohomology|
 * _[In geometric quantization](#InGeometricQuantization)_.
 
 
-Finally, when infinitesimally approximating this [[quantization]] step in [[perturbation theory]] in $h$ (see at [[formal deformation quantization]]), then Planck's constant is the very [[formal geometry|formal expansion parameter]] of the [[deformation theory|deformation]]. This we discuss below in
+Finally, when infinitesimally approximating this [[quantization]] step in [[perturbation theory]] in $\hbar$ (see at [[formal deformation quantization]]), then Planck's constant is the very [[formal geometry|formal expansion parameter]] of the [[deformation theory|deformation]]. This we discuss below in
 
 * _[In perturbative quantization](#InFormalDeformationQuantization)_.
+
+Applied to the key example of [[perturbative quantum field theory]] it turns out that the powers of $\hbar$ in contributions to the [[Feynman perturbation series]]  essentially correspond to the [[loop order]] of the given [[Feynman diagram]]. This we discuss in
+
+* _[In the Feynman perturbation series](#InFeynmanPerturbationSeries)_
 
 
 ## As a physical constant 
@@ -143,7 +147,6 @@ This implies in particular
 
 ### Examples
 
-#### Chern-Simons theory
 
 In [[Chern-Simons theory]] Planck's constant corresponds to the inverse _level_ of the theory, hence the inverse of the [[characteristic class]] that defines the theory, regarded as an element in $\mathbb{Z}$.
 
@@ -172,6 +175,114 @@ See at _[[higher geometric quantization]]_ for more on this.
 In [[perturbative quantum field theory]] Planck's constant (together with the [[coupling constant]], which indicates the strength of [[interactions]]) is regarded as tiny, in fact as [[infinitesimal]], in that all [[observables]] are expressed as (generally non-converging, [[asymptotic series|asymptotic]]) [[formal power series]] in the coupling constant.
 
 This is explicitly realized by [[formal deformation quantization]], which regards [[quantization]] as as deformation of the classical [[algebra of observables]] to a non-commutative algebra on [[formal power series]] with [[coefficients]] the original observables.
+
+## In perturbative quantum field theory
+
+In [[perturbative quantum field theory]] the [[scattering amplitudes]] in the [[S-matrix]] are expressed as [[formal power series]] in (the [[coupling constant]] and) in [[Planck's constant]] $\hbar$. This formal power series may be expressed as a formal sum of contributions labeled by [[Feynman diagrams]]. The _loop order_ refers to something like the "number of loops" of [[edges]] in the [[Feynman diagram]] that contibutes to a given [[scattering amplitude]]. It turns out that the loop order corresponds to the order in $\hbar$ that is contributed by this diagram (see [below](#RelationToPowersInPlancksConstant)). 
+
+Therefore contributions of graphs at zero without loops (these are [[trees]], and hence these contributions are referred to as being at "tree level") correspond to the limit of [[classical field theory]] with $\hbar \to 0$. Indeed tree level Feynman diagrams yield [[perturbation theory|perturbative]] solutions of the [[classical field theory|classical]] [[equations of motion]] (see [Helling](#Helling)).
+
+Most predictions of the [[standard model of particle physics]] have very good agreement with [[experiment]] already to very low loop order, first or second; inclusion of third loop order is used (at least in [[QCD]]) to constrain theoretical uncertainties of the result (see [Cacciari 05, slide 5](#Cacciari05), e.g. in [[Higgs field]] computation, see [ADDHM 15](#ADDHM15)). 
+In rare cases higher loop orders are used (for instance in the computation of the [[anomalous magnetic moments]] [AHKN 12](#AHKN12), but this is not a scattering experiment).
+
+This usefulness of low loop order is forturnate because
+
+1. the [[S-matrix]] [[formal power series]] for all [[theory (physics)|theories]] of interest has _vanishing_ [[radius of convergence]] ([Dyson 52](perturbation+theory#Dyson52)), hence is at best an [[asymptotic series]] for which the [[sum]] of more than some low order terms is meaningless;
+
+1. the computational effort increases immensely with loop order.
+
+
+## In the Feynman perturbation series 
+ {#InFeynmanPerturbationSeries}
+
+In the computation of [[scattering amplitudes]] for [[field (physics)|fields]]/[[particles]] via [[perturbative quantum field theory]] the [[scattering matrix]] ([[Feynman perturbation series]]) is a [[formal power series]] in (the [[coupling constant]] and) [[Planck's constant]] $\hbar$ whose contributions may be labeled by [[Feynman diagrams]]. Each Feynman diagram $\Gamma$ is a finite labeled [[graph]], and the order in $\hbar$ to which this graph contributes is
+
+$$
+  \hbar^{ E(\Gamma) - V(\Gamma) }
+$$
+
+where 
+
+1. $V(\Gamma) \in \mathbb{N}$ is the number of [[vertices]] of the graph 
+
+1. $E(\Gamma) \in \mathbb{N}$ is the number of [[edges]] in the graph.
+
+This comes about (see at _[S-matrix -- Feynman diagrams and Renormalization](S-matrix#ExistenceAndRenormalization)_ for details) because 
+
+1. the explicit $\hbar$-dependence of the [[S-matrix]] is 
+
+   $$
+     S\left(\tfrac{g}{\hbar} L_{int} \right)
+     = 
+     \underset{k \in \mathbb{N}}{\sum} \frac{g^k}{\hbar^k k!} T( \underset{k \, \text{factors}}{\underbrace{L_{int} \cdots L_{int}}} )
+   $$
+
+1. the further $\hbar$-dependence of the [[time-ordered product]] $T(\cdots)$ is
+
+   $$
+     T(L_{int} L_{int}) = prod \circ \exp\left( \hbar \int \omega_{F}(x,y) \frac{\delta}{\delta \phi(x)} \otimes \frac{\delta}{\delta \phi(y)}  \right) ( L_{int} \otimes L_{int} )
+     \,,
+   $$
+
+where $\omega_F$ denotes the [[Feynman propagator]] and $\phi(x)$ the field observable at point $x$ (where we are notationally suppressing the internal degrees of freedom of the fields for simplicity, writing them as [[scalar fields]], because this is all that affects the counting of the $\hbar$ powers). 
+
+The resulting terms of the S-matrix series are thus labeled by 
+
+1. the number of factors of the [[interaction]] $L_{int}$, these are the [[vertices]] of the corresponding Feynman diagram and hence each contibute with $\hbar^{-1}$ 
+
+1. the number of integrals over the Feynman propagator $\omega_F$, which correspond to the edges of the Feynman diagram, and each contribute with $\hbar^1$.
+
+Now the formula for the [[Euler characteristic of planar graphs]] says that the number of regions in a plane that are encircled by edges, the _faces_ here thought of as the number of "loops", is
+
+$$
+  L(\Gamma) =  1 + E(\Gamma) - V(\Gamma)
+  \,.
+$$
+
+Hence a planar Feynman diagram $\Gamma$ contributes with the "[[loop order]]" $L(\Gamma)$ as
+
+$$
+  \hbar^{L(\Gamma)-1}
+  \,.
+$$
+
+So far this is the discussion for internal edges. An actual scattering matrix element is of the form
+
+$$
+  \langle \psi_{out} \vert S\left(\tfrac{g}{\hbar} L_{int} \right)
+  \vert \psi_{in} \rangle
+  \,,
+$$
+
+where 
+
+$$
+  \vert \psi_{in}\rangle 
+    \propto
+  \tfrac{1}{\sqrt{\hbar^{n_{in}}}} 
+  \phi^\dagger(k_1) \cdots \phi^\dagger(k_{n_{in}}) \vert vac \rangle
+$$
+
+is a state of $n_{in}$ free field quanta and similarly
+
+$$
+  \vert \psi_{out}\rangle 
+    \propto
+  \tfrac{1}{\sqrt{\hbar^{n_{out}}}} 
+  \phi^\dagger(k_1) \cdots \phi^\dagger(k_{n_{out}}) \vert vac \rangle
+$$
+
+is a state of $n_{out}$ field quanta. The normalization of these states, in view of the commutation relation $[\phi(k), \phi^\dagger(q)] \propto \hbar$, yields the given powers of $\hbar$.
+
+This means that an actual [[scattering amplitude]] given by a [[Feynman diagram]] $\Gamma$ with $E_{ext}(\Gamma)$ external vertices scales as
+
+$$
+  \hbar^{L(\Gamma) - 1 + E_{ext}(\Gamma)/2 }
+  \,.
+$$
+
+(For the analogous discussion of the dependence on the actual [[quantum observables]] on $\hbar$ given by [[Bogoliubov's formula]], see [there](Bogoliubov's+formula#PowersInPlancksConstant).)
+
 
 
 ## Related concepts
