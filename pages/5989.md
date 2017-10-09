@@ -9,6 +9,30 @@ He had six Ph.D. students: Ira Wolf (1971), Carol Ann Keller (1983), Norman Adam
 
 
 Myles Tierney died on October 6, 2017 having turned 80 in September. He made important contributions to category theory in collaboration with [[Bill Lawvere]] and with [[André Joyal]].
+
+## References
+
+
+*  [[André Joyal]] and [[Myles Tierney]], _An Extension of the Galois Theory of Grothendieck_, Memoirs of the American Mathematical Society 51 (1984). 
+
+
+* [[André Joyal]] and [[Myles Tierney]], _Strong stacks and classifying spaces_,  Category theory (Como, 1990),  213--236, Lecture Notes in Math. __1488__, Springer 1991. 
+
+* [[André Joyal]] and [[Myles Tierney]], _On the theory of path groupoids_,  J. Pure Appl. Algebra __149__  (2000),  no. 1, 69--100, [doi](http://dx.doi.org/10.1016/S0022-4049%2898%2900164-9)
+
+
+
+* [[André Joyal]] and [[Myles Tierney]], _Quasi-categories vs Segal spaces_ ([arXiv:0607820](http://arxiv.org/abs/math/0607820))
+ 
+
+
+* [[André Joyal]] and [[Myles Tierney]], _Notes on simplicial homotopy theory_, CRM Barcelona, Jan 2008 [pdf](http://www.crm.cat/HigherCategories/tierney.pdf), [backup pdf](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern47.pdf)
+
+
+
+
+
+
 category: people
 
 [[!redirects Miles Tierney]]
