@@ -46,7 +46,7 @@ $$
   \,.
 $$
 
-To be precise, this is the condition for a *left action*; a *right action* is defined dually in terms of a map $Y\times X\to X$.  If $X$ has no algebraic structure, or if its relevant structure is commutative, then there is no essential difference between the two; but in general they can be quite different.
+To be precise, this is the condition for a *left action*; a *right action* is defined dually in terms of a map $Y\times X\to Y$.  If $X$ has no algebraic structure, or if its relevant structure is commutative, then there is no essential difference between the two; but in general they can be quite different.
 
 This _action property_ can also often be identified with a [[functor]] property: it characterizes a [[functor]] from the [[delooping]] $\mathbf{B}X$ of the [[monoid]] $X$ to the [[category]] (such as [[Set]])  of which $Y$ is an object.
 
