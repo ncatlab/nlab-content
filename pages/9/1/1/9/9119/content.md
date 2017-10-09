@@ -41,11 +41,11 @@ Beware that reduced objects in general do "contain infinitesimals in between the
 A context of [[differential cohesion]] is determined by the existence of an [[adjoint triple]] of  [[modalities]]
 
 $$
-  \Re \dashv &#643;_{inf} \dashv \flat_{inf}
+  \Re \dashv \Im \dashv \&
   \,,
 $$
 
-where $\Re$ and $\flat_{inf}$ are [[idempotent monad|idempotent]] [[comonads]] and $&#643;_{inf}$ is an [[idempotent monad]].
+where $\Re$ and $\&$ are [[idempotent monad|idempotent]] [[comonads]] and $\Im$ is an [[idempotent monad]].
 
 A **reduced object** or **reduced type** is one in the [[full subcategory]] defined by the leftmost modality $\Re$. 
 
