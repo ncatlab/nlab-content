@@ -419,6 +419,24 @@ Since here the morphism on the right is the pushout of a cofibration, it is itse
 ### BV-BRST complex
  {#ComparisonToBVBRSTExample}
 
+Traditionally the [[BV-BRST complex]] of a [[Lagrangian field theory]] is obtained by 
+
+1. choosing a [[Koszul-Tate complex]] $s_{KT}$ resolving the [[shell]];
+
+1. choosing a [[BRST complex]] $s_{BRST}$ exhibiting the [[gauge invariance]]
+
+1. appealing to [[homological perturbation theory]], for extending the sum of the two differentials to a unified [[BV-BRST differential]]
+
+   $$
+     s_{BV} = s_{KT} + s_{BRST} + more
+   $$
+
+
+(e.g. [Henneaux 90. around (50)](BV-BRST+formalism#Henneaux90))
+
+Vie the concept of the derived critical locus this process is systematized: Given just $s_{BRST}$ and the Lagrangian, both $s_{KT}$ and "more" follows (if $s_{BRST}$ does capture all the relevant gauge symmetries, that is) and the appearance of the [[antibracket]] finds its conceptual explanation.
+
+
 Let $\mathfrak{a}$ be a [[Lie algebroid]] over a space $X$, with [[Chevalley-Eilenberg algebra]] 
 
 $$
@@ -449,7 +467,7 @@ $$
 
 for functions $f \in \mathcal{O}(X)$, [[infinitesimal gauge symmetries]] $R^i_a \frac{\partial}{\partial x^i}$, gauge symmetry structure functions $C^{a}{}_{b c}$ and [[ghost]] generators $c^a$.
 
-The "algebra of vector fields/[[derivation]]" $Der(\mathcal{O}(\mathfrak{a}))$ on $\mathfrak{a}$ is the [[automorphism ∞-Lie algebra]]  whose underlying cochain complex is
+The "algebra of vector fields/[[derivations]]" $Der(\mathcal{O}(\mathfrak{a}))$ on $\mathfrak{a}$ is the [[automorphism ∞-Lie algebra]]  whose underlying cochain complex is
 
 $$
   \array{
@@ -629,6 +647,7 @@ The above material is adapted from
 aimed at providing proof for the claim in
 
 * {#CostelloGwilliam} [[Kevin Costello]], [[Owen Gwilliam]], section 4.8.1 of _[[Factorization algebras in perturbative quantum field theory]]_  ([pdf](https://pdfs.semanticscholar.org/0eb5/652340bb414869764cf5b30feed90597558d.pdf))
+
 
 See also
 
