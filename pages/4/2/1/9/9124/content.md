@@ -26,17 +26,18 @@
 A context of [[differential cohesion]] is determined by the existence of an [[adjoint triple]] of  [[modalities]]
 
 $$
-  Red \dashv &#643;_{inf} \dashv \flat_{inf}
+  \Re \dashv \Im \dashv \&
   \,,
 $$
 
-where $Red$ and $\flat_{inf}$ are [[idempotent monad|idempotent]] [[comonads]] and $&#643;_{inf}$ is an [[idempotent monad]].
-Here $&#643;_{inf}$ is called the _[[infinitesimal shape modality]]_. 
+
+where $Re$ and $\&$ are [[idempotent monad|idempotent]] [[comonads]] and $\Im$ is an [[idempotent monad]].
+Here $\Im$ is called the _[[infinitesimal shape modality]]_. 
 
 An [[object]]/[[type]] $X$ is called **formally smooth** if the [[unit of an adjunction|unit]]
 
 $$
-  X \to &#643;_{inf}X
+  X \to \Im X
 $$
 
 is a [[1-epimorphism]]. This is equivalent to the essentially unique morphism $X \to *$ to the [[terminal object]] being a [[formally smooth morphism]].
