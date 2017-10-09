@@ -4262,7 +4262,7 @@ $$
   \right)
 $$
 
-we call the _local [[BV-complex]]_ (an example of a [[Koszul complex]]) of the Lagrangian field theory
+we call the _jet [[BV-complex]]_ (an example of a [[Koszul complex]]) of the Lagrangian field theory
 at the background solution $\varphi$.
 
 There are canonical homomorphisms of [[dgc-algebras]], one from the
@@ -4285,6 +4285,7 @@ such that the composite is the canonical [[quotient]] [[coprojection]].
 
 (...)
 
+
 Similarly we obtain a factorization for the entire [[variational bicomplex]]:
 
 $$
@@ -4299,6 +4300,15 @@ $$
 
 where $\Omega^{\bullet,\bullet}_\Sigma(E,\varphi)\vert_{\mathcal{E}_{BV}}$
 is now triply graded, with three anti-commuting differentials $d$ $\delta$ and $s_{BV}$.
+
+Here we define the [[total spacetime derivative]] on antifields by
+
+$$
+  d \overline{\phi}_a \coloneqq - s_{BV} \phi_a
+  \,.
+$$
+
+(...)
 
 By construction this is now such that the local observables (def. \ref{LocalObservables})
 are the [[cochain cohomology]] of this complex in horizontal form degree p+1, vertical degree 0
