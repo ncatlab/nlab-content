@@ -245,11 +245,23 @@ for the induced [[volume form]].
 We use the [[Einstein summation convention]]: Expressions with repeated indices indicate [[sum|summation]] over the
 range of indices.
 
-For instance a [[differential 1-form]] $\alpha \in \Omega^1(\mathbb{R}^{p,1})$ on Minkowski spacetime may be expanded as
+For example a [[differential 1-form]] $\alpha \in \Omega^1(\mathbb{R}^{p,1})$ on Minkowski spacetime may be expanded as
 
 $$
-  \alpha = f_\mu d x^\mu
+  \alpha = \alpha_\mu d x^\mu
   \,.
+$$
+
+Moreover we use square brackets around indices to indicate skew-symmetrization. For example a [[differential 2-form]]
+$\beta \in \Omega^2(\mathbb{R}^{p,1})$ on Minkowski spacetime may be expanded as
+
+$$
+  \begin{aligned}
+    \beta
+    & = \beta_{\mu \nu} d x^\mu \wedge d x^\nu
+    \\
+    & = \beta_{[\mu \nu]} d x^\mu \wedge d x^\nu
+  \end{aligned}
 $$
 
 
@@ -502,6 +514,61 @@ components of the _[[magnetic field]]_.
 =--
 
 
+
++-- {: .num_example #YangMillsFieldOverMinkowski}
+###### Example
+**([[field bundle]] for [[Yang-Mills theory|Yang-Mills]] [[field (physics)|field]])**
+
+Let $\mathfrak{g}$ be a [[Lie algebra]] of [[finite number|finite]] [[dimension]] with [[linear basis]]
+$(t_\alpha)$, in terms of which the [[Lie bracket]] is given by
+
+$$
+  \label{LieAlgebraStructureConstants}
+  [t_\alpha, t_\beta]
+  \;=\;
+  C^\gamma{}_{\alpha \beta} t_\gamma
+  \,.
+$$
+
+Over [[Minkowski spacetime]] $\Sigma$,
+consider then the [[field bundle]] which is the [[cotangent bundle]] [[tensor product|tensored]] with the [[Lie algebra]] $\mathfrak{g}$
+
+$$
+  E \coloneqq T^\ast \Sigma \otimes \mathfrak{g}
+  \,.
+$$
+
+This is the [[trivial vector bundle]] (example \ref{TrivialVectorBundleAsAFieldBundle}) with induced [[field (physics)|field]] [[coordinates]]
+
+$$
+  ( a_\mu^\alpha )
+  \,.
+$$
+
+A [[section]] of this bundle is a [[Lie algebra-valued differential 1-form]]
+
+$$
+  A \in \Gamma_\Sigma(T^\ast \Sigma \otimes \mathfrak{g}) = \Omega^1(\Sigma, \mathfrak{g})
+  \,.
+$$
+
+with components
+
+$$
+  A^\ast(a_\mu^\alpha) = A^\alpha_\mu
+  \,.
+$$
+
+This is called a field history for _[[Yang-Mills theory|Yang-Mills]] [[gauge theory]]_.
+
+For $\mathfrak{g} = \mathbb{R}$ is the [[line Lie algebra]], this reduces to the case of the [[electromagnetic field]] (example \ref{Electromagnetism}).
+
+For $\mathfrak{g} = \mathfrak{su}(2)$ this is a [[field (physics)|field]] history for the [[gauge field]] of the [[strong nuclear force]] in [[quantum chromodynamics]].
+
+
+=--
+
+
 ## Field variations
  {#FieldVariations}
 
@@ -666,10 +733,10 @@ history.
 
 +-- {: .num_example #JetFaraday}
 ###### Example
-**(universal [[Faraday tensor]] on [[jet bundle]])**
+**(universal [[Faraday tensor]]/[[field strength]] on [[jet bundle]])**
 
 Consider the [[field bundle]] (def. \ref{Fields}) of the [[electromagnetic field]] (example \ref{Electromagnetism})
-over [[Minkowski spacetime]] $\Sigma$, i.e. the [[cotangent bundle]] $E = T^\ast \Sigma$ with jt coordinates
+over [[Minkowski spacetime]] $\Sigma$, i.e. the [[cotangent bundle]] $E = T^\ast \Sigma$ with jet coordinates
 $((x^\mu), (a_\mu), (a_{\mu,\nu}), \cdots )$. Consider the functions on its [[jet bundle]] given by the linear
 combinations
 
@@ -682,7 +749,7 @@ $$
   \right)
 $$
 
-of the first order jet.
+of the first order jets.
 
 Then for an electromagnetic [[field (physics)|field]] history ("[[vector potential]]"), hence a [[section]]
 
@@ -725,7 +792,50 @@ $$
   \end{aligned}
 $$
 
+More generally, for $\mathfrak{g}$ a [[Lie algebra]] and
+
+$$
+  E \coloneqq T^\ast \Sigma \otimes \mathfrak{g}
+$$
+
+the [[field bundle]] for [[Yang-Mills theory]] from
+example \ref{YangMillsFieldOverMinkowski}, consider the functions on the [[jet bundle]]
+given by
+
+$$
+  D_\mu a_\nu^\alpha
+   \;\coloneqq\;
+  a^\alpha_{\nu,\mu}
+  +
+  \tfrac{1}{2}
+    \gamma^{\alpha}{}_{\beta \gamma}
+    a^\beta_{\mu}} a^\gamma_{\nu}
+  -
+  (\mu \leftrightarrow \nu)
+$$
+
+where $(\gamma^\alpha{}_{\beta \gamma})$ the structure constants of the Lie algebra as in (eq:LieAlgebraStructureConstants)
+and where the square brackets around the indices denote anti-symmetrization.
+For $\mathfrak{g} = \mathbb{R}$ the [[line Lie algebra]] this reduces to the universal [[Faraday tensor]] (eq:FaradyTensorJet) for
+the [[electromagnetic field]] (example \ref{JetFaraday}).
+
+For $A \in \Gamma_\Sigma(T^\ast \Sigma \otimes \mathfrak{g}) = \Omega^1(\Sigma,\mathfrak{g})$ a field history of
+[[Yang-Mills theory]], hence a [[Lie algebra-valued differential 1-form]], then the value of this function on that field
+are called the components of the _[[covariant exterior derivative]]_ or _[[field strength]]_
+
+$$
+  \begin{aligned}
+    F_{\mu \nu}
+     & \coloneqq
+    A^\ast(D_\mu a_n)
+    \\
+    & =
+    (d_A A)_{\mu \nu}
+  \end{aligned}
+$$
+
 =--
+
 
 
 While the [[jet bundle]] is not [[finite number|finite]] [[dimension|dimensional]],
@@ -1362,7 +1472,7 @@ $$
 
 +-- {: .num_example #ElectromagnetismLagrangianDensity}
 ###### Example
-**([[local Lagrangian density]] for [[free field|free]] [[electromagnetism]])
+**([[local Lagrangian density]] for [[free field|free]] [[electromagnetism]] and [[Yang-Mills theory]])
 
 Consider the [[field bundle]] $T^\ast \Sigma \to \Sigma$ for the [[electromagnetic field]] on [[Minkowski spacetime]] from example \ref{Electromagnetism},
 i.e. the [[cotangent bundle]], which over Minkowski spacetime happens to be a [[trivial vector bundle]] of [[rank of a vector bundle|rank]]
@@ -1421,6 +1531,11 @@ $$
 $$
 
 Here $\star_\eta$ denotes the [[Hodge star operator]] of [[Minkowski spacetime]].
+
+More generally, for $\mathfrak{g}$ a [[Lie algebra]] and $E = T^\ast \Sigma \otimes \mathfrak{g}$
+the field bundle for [[Yang-Mills theory]] as in example \ref{YangMillsFieldOverMinkowski}.
+
+
 
 =--
 
@@ -5586,16 +5701,14 @@ These are called _[[Noether identities]]_ of the [[Euler-Lagrange equations|Eule
 +-- {: .proof}
 ###### Proof
 
-We need to show that $v_epsilon$ is a gauge symmetry as claimed precisely if
+We need to show that $v_\epsilon$ is a gauge symmetry as claimed precisely if
 
 $$
   \iota_{v_\epsilon} \delta_{EL}\mathbf{L} = d(\cdots)
 $$
 
-vanishes for all choices of $\esilon$ up to a horizontally exact term. From (eq:CoordinateExpressionForGaugeParameterized) this
+vanishes for all choices of $\epsilon$ up to a horizontally exact term. From (eq:CoordinateExpressionForGaugeParameterized) this
 means that
-
-We compute
 
 $$
   \begin{aligned}
@@ -5638,6 +5751,7 @@ $$
 by
 
 $$
+  \label{EMImplicitGaugeSymmetry}
   v_\epsilon \coloneqq \frac{d \epsilon}{d x^\mu} \partial_{a_\mu}
 $$
 
@@ -5660,11 +5774,27 @@ $$
   \frac{d}{d x^\mu} \frac{d}{d x^\nu} f^{\mu \nu} = 0
 $$
 
-
 simply because $f^{\mu \nu} = f^{\nu \mu}$ is skew-symmetric by definition (eq:FaradyTensorJet),
 while [[partial derivatives]] commute with each other.
 
 This is the archetypical _[[infinitesimal gauge symmetry]]_ that gives [[gauge theory]] its name.
+
+The prolongation (prop. \ref{EvolutionaryVectorFieldProlongation}) of the vector field $v_\epsilon$ (eq:EMImplicitGaugeSymmetry)
+is
+
+$$
+  \label{EMProlongedSymmetryVectorField}
+  \hat v_\epsilon
+    \;=\;
+  \frac{d \epsilon}{d x^\mu} \partial_{a_\mu}
+  +
+  \frac{d^2 \epsilon}{d x^\mu d x^\nu} \partial_{a_{\mu,\nu}}
+  +
+  \frac{d^3 \eopsilon}{d x^\mu d x^{\nu_1} d x^{\nu_2}} \partial_{a_{\mu, \nu_1 \nu_2}}
+  +
+  \cdots
+$$
+
 
 =--
 
@@ -6160,10 +6290,94 @@ is called the off-shell _[[local BRST complex]]_ ([Barnich-Brandt-Henneaux 94](#
 
 =--
 
++-- {: .num_prop #}
+###### Example
+
+Consider the [[Lagrangian field theory]] of [[free field|free]] [[electromagnetism]] on [[Minkowski spacetime]] (example \ref{ElectromagnetismLagrangianDensity}) with its [[gauge parameter]] bundle as in
+example \ref{InfinitesimalGaugeSymmetryElectromagnetism}.
+
+By (eq:EMProlongedSymmetryVectorField) the action of the [[BRST operator]] is the derivation
+
+$$
+  s_{BRST}
+   \;=\;
+  c_{,\mu} \frac{\partial}{\partial a_\mu}
+  +
+  c_{, \mu \nu} \frac{\partial}{\partial a_{\mu, \nu}}
+  +
+  \cdots
+  \..
+$$
+
+In particular the [[Lagrangian density]] is BRST-closed
+
+$$
+  \begin{aligned}
+    s_{BRST} \mathbf{L}
+    & =
+    s_{BRST} f_{\mu \nu} f^{\mu \nu} dvol_\Sigma
+    \\
+    & =
+    c_{,\mu \nu} f^{\mu \nu} dvol_\Sigma
+    \\
+    & =
+    0
+  \end{aligned}
+$$
+
+as is the [[Euler-Lagrange form]] (due to the symmetry $c_{,\mu \nu} = c_{,\nu \mu}$ and in contrast to the
+skew-symmetry $f_{\mu \nu} = - f_{\nu \mu}$).
 
 
+=--
 
-With [[L-infinity algebroid|higher Lie algebroids]] in hand, we now turn to discussion of the "maps" between them, their
+$$
+  [s_{BRST}, \overline{a}^\mu] = 0
+$$
+
+$$
+  [s_{BRST}, \overline{c}] = \overline{a}^\mu
+$$
+
+
+The
+morphism
+
+$$
+  E/(\mathcal{G} \times_\Sigma T \Sigma)
+    \longrightarrow
+  T^\ast_f\left(
+    E/(\mathcal{G} \times_\Sigma T \Sigma)
+  \right)
+$$
+
+
+has to commute with $d$. This implies
+
+$$
+  \array{
+    \left\{
+      \frac{\delta_{EL}L}{\delta \phi^a}
+    \right\}
+      &\longleftarrow&
+    \left\{
+      \overline{\phi}_a
+    \right\}
+    \\
+    \mathllap{h}\downarrow && \downarrow\mathrlap{h}
+    \\
+    \left\{
+      \frac{d}{d x^\mu}\frac{\delta_{EL}L}{\delta \phi^a}
+    \right\}
+      &\longleftarrow&
+    \left\{
+      \overline{\phi}_{a,\mu}
+    \right\}
+  }
+$$
+
+
+With [[L-infinity algebroid|Lie algebroids]] in hand, we now turn to discussion of the "maps" between them, their
 _[[homomorphisms]]_ (def. \ref{HomomorphismBetweenLieAlgebroids}) below.
 This makes manifest in which sense [[L-infinity algebroid|higher Lie algebroids]] make [[gauge symmetry]] _explicit_,
 since functions out of an [[action Lie algebroid]] $X/\mathfrak{g}$ (def. \ref{ActionLieAlgebroid})
@@ -6242,13 +6456,13 @@ $CE( E/(\mathcal{G} \times_\Sigma T \Sigma), d-s_{BRST} )$ (example \ref{LocalOf
 $$
   \mathbf{L} \pm c^\alpha \tilde J_{v_\alpha}
   \;\in\;
-  CE\left( 
+  CE\left(
      E/(\mathcal{G} \times_\Sigma T \Sigma)
   \right)
 $$
 
 is $(d-s_{BRST})$ closed. Here $v_\alpha$ denotes the implicit infinitesimal gauge symmetry
-corresponding to gauge parameter $\epsilon^\alpga$ and $\tilde J_{v_\alpha} = J_{v_\alpha} + \iota_{v_\alpha} \Theta$
+corresponding to gauge parameter $\epsilon^\alpha$ and $\tilde J_{v_\alpha} = J_{v_\alpha} + \iota_{v_\alpha} \Theta$
 for $J_{v_\alpha}$ the [[conserved current]] which is associated to $v_\alpha$ by [[Noether's theorem|Noether's theorem I]]
 (prop. \ref{NoethersFirstTheorem}).
 
@@ -6263,7 +6477,7 @@ for $J_{v_\alpha}$ the [[conserved current]] which is associated to $v_\alpha$ b
 We find
 
 $$
-  s_{BRST} \mathbf{L} = \pm d (c^\alpha J_{v_\alpha})
+  s_{BRST} \mathbf{L} = \pm d (c^\alpha \tilde J_{v_\alpha})
 $$
 
 by an argument analogous to that in the proof of prop. \ref{NoetherIdentities}.
@@ -6303,7 +6517,7 @@ acting on the [[field bundle]] (hence an element of the [[BRST complex]], exampl
 (...)
 
 
-+-- {: .num_defn #WeilAlgebra} 
++-- {: .num_defn #WeilAlgebra}
 ###### Definition
 **([[Weil algebra]] of a [[Lie algebroid]])**
 
@@ -6341,7 +6555,7 @@ plus the [[BRST differential]]
 
 $$
   \begin{aligned}
-    d_{W} 
+    d_{W}
     & = \mathbf{d} - (d - s_{BRST})
     \\
     & =
@@ -6360,7 +6574,7 @@ $$
 Now pass to the [[derived critical locus]] of $E/(\mathcal{G} \times_\sigma T \Sigma)$
 at the elements $\frac{\delta_{EL}\mathbf{L}}{\delta \phi^a}$.
 The resulting [[derived Lie algebroid]] has as [[Weil algebra]] the variational BV-bicomplex
-with differential $\mathbf{d} - (d- s})$.
+with differential $\mathbf{d} - (d- s))$.
 
 (...)
 
