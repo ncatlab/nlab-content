@@ -181,7 +181,7 @@ An [[essential geometric morphism|essential]] [[subtopos]] of $\mathcal{B}$ is r
 
 =--
 
-An [[adjoint triple|adjoint string]] $i_!\dashv i^*\dashv i_*$ yields two [[adjoint modalities]] $\Box _i\dashv\bigcirc _i$ on $\mathcal{B}$, namely $\Box _i \coloneqq i_!i^*$ and $\bigcirc _i \coloneqq i_*i^*$.
+An [[adjoint triple]] $i_!\dashv i^*\dashv i_*$ yields two [[adjoint modalities]] $\Box _i\dashv\bigcirc _i$ on $\mathcal{B}$, namely $\Box _i \coloneqq i_!i^*$ and $\bigcirc _i \coloneqq i_*i^*$.
 
 The [[modalities]] yield notions of _[[modal types]]_, which may be called
 
@@ -502,7 +502,7 @@ $$
 
 ### Absolute identity and _Selbstaufhebung_
 
-Given a topos $\mathcal{E}$ the highest level is always given by $id_\mathcal{E}$ yielding the trivial adjoint string $id_\mathcal{E}\dashv id_\mathcal{E}\dashv id_\mathcal{E}$ with no less trivial adjoint modalities $id_\mathcal{E}\dashv id_\mathcal{E}$. Obviously, the sheaves and skeleta for this level coincide. Since the corresponding subtopos is simply $\mathcal{E}$, this level _resolves every other level_ and suggests to view the ascension from $\emptyset\dashv\ast$ to $id_\mathcal{E}\dashv id_\mathcal{E}$ as a process of increasing stepwise the number of objects that are sheaves as well as skeleta at a given level. The definition of resolution ensures that a level inherits the objects in the intersection from lower levels but also that all non-sheaves from the lower levels will be henceforth in the intersection.
+Given a topos $\mathcal{E}$ the highest level is always given by $id_\mathcal{E}$ yielding the trivial [[adjoint string]] $id_\mathcal{E}\dashv id_\mathcal{E}\dashv id_\mathcal{E}$ with no less trivial adjoint modalities $id_\mathcal{E}\dashv id_\mathcal{E}$. Obviously, the sheaves and skeleta for this level coincide. Since the corresponding subtopos is simply $\mathcal{E}$, this level _resolves every other level_ and suggests to view the ascension from $\emptyset\dashv\ast$ to $id_\mathcal{E}\dashv id_\mathcal{E}$ as a process of increasing stepwise the number of objects that are sheaves as well as skeleta at a given level. The definition of resolution ensures that a level inherits the objects in the intersection from lower levels but also that all non-sheaves from the lower levels will be henceforth in the intersection.
 
 Note that though $id_\mathcal{E}$ resolves every level it need not be the Aufhebung of any strictly lower level. This situation occurs e.g. in the examples from combinatorial topology discussed [below](#SimplicialAndCubicalSets): Here the levels correspond to the geometrical dimension of the 'triangulated spaces' involved plus the highest level 'at infinity' and the Aufhebung is a simple numerical relation between finite levels e.g. in the topos of Ball complexes the Aufhebung of level $n$ is $n+1$. Of course, $id_\mathcal{E}$ is always its own Aufhebung and we see, incidentally, that a level might be the Aufhebung of more than one level, namely e.g. itself and perhaps several other levels - this might happen with $id_\mathcal{E}$ when the lattice of levels is finite e.g. in the [[Sierpinski topos]] $Set^{\to}$ (see [below](#SierpExample)).
 
