@@ -129,6 +129,15 @@ $$
 
 ## References
 
+General discussion includes
+
+* {#BrodskyHoyer10} Stanley J. Brodsky, Paul Hoyer, _The $\hbar$-Expansion in Quantum Field Theory_, Phys.Rev.D83:045026, 2011 ([arXiv:1009.2313](https://arxiv.org/abs/1009.2313))
+
+Discussion of tree level Feynman diagrams as perturbative solutions in [[classical field theory]] is in 
+
+* {#Helling} Robert Helling, _Solving classical field equations_ ([pdf](http://homepages.physik.uni-muenchen.de/~helling/classical_fields.pdf))
+
+
 Discussion of loop orders of relevance in comparison to [[experiment]] cited above includes for instance the following
 
 * {#Cacciari05} Matteo Cacciari, _(Theoretical) review of heavy quark production_, BNL 14/12/2005 ([pdf](https://www.phenix.bnl.gov/WWW/publish/xiewei/RBRC_Workshop_Dec/heavyworkshop/cacciari.pdf))
@@ -137,9 +146,6 @@ Discussion of loop orders of relevance in comparison to [[experiment]] cited abo
 
 * {#ADDHM15} Charalampos Anastasiou, Claude Duhr, Falko Dulat, Franz Herzog, Bernhard Mistlberger, _Higgs boson gluon-fusion production in N3LO QCD_, Phys. Rev. Lett. 114, 212001 (2015) ([arXiv:1503.06056](https://arxiv.org/abs/1503.06056))
 
-Discussion of tree level Feynman diagrams as perturbative solutions in [[classical field theory]] is in 
-
-* {#Helling} Robert Helling, _Solving classical field equations_ ([pdf](http://homepages.physik.uni-muenchen.de/~helling/classical_fields.pdf))
 
 [[!redirects loop orders]]
 
