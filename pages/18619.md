@@ -52,6 +52,11 @@ $$
 
 is a [[fiber bundle]] regarded as the [[field bundle]] that defines the given [[field theory]], then a local observables is a function on the the space of field configurations, hence the [[space of sections]] $\Gamma_\Sigma(E)$ (or else on the subspace of those which solve the [[equations of motion]], the [[shell]]) which arises as the [[transgression of variational differential forms|transgression]] of a [[horizontal differential form]] of degree $dim(\Sigma)$ on the [[jet bundle]] $J^\infty_\Sigma(E)$ of $E$.
 
+Products of local observables are called _multilocal observables_.
+
+## Definition
+
+For the moment see at _[[geometry of physics -- A first idea of quantum field theory]]_ [this def.](geometry+of+physics+--+A+first+idea+of+quantum+field+theory#LocalObservables)
 
 ## Properties
 
@@ -63,3 +68,6 @@ is a [[fiber bundle]] regarded as the [[field bundle]] that defines the given [[
 
 
 [[!redirects local observables]]
+
+[[!redirects multilocal observable]]
+[[!redirects multilocal observables]]
