@@ -922,7 +922,7 @@ $$
 **([[variational calculus]] -- replacing plain [[bundle morphisms]] by [[differential operators]])**
 
 Various concepts in [[variational calculus]], especially the concept of _[[evolutionary vector fields]]_ (def. \ref{EvolutionaryVectorField} below)
-and _[[gauge parameter|gauge parameteritzed]] implicit [[infinitesimal gauge symmetries]]_ (def. \ref{GaugeParametrizedInfinitesimalGaugeTransformation} below) follow from
+and _[[gauge parameter|gauge parameterized]] implicit [[infinitesimal gauge symmetries]]_ (def. \ref{GaugeParametrizedInfinitesimalGaugeTransformation} below) follow from
 concepts in plain [[differential geometry]] by systematically replacing
 plain [[bundle morphisms]] by bundle morphisms out of the [[jet bundle]], hence by [[differential operators]] $\tilde D$
 as in def. \ref{DifferentialOperator}.
@@ -4077,9 +4077,7 @@ then by continuity it is non-vanishing also on some [[neighbourhood]] of $x$ and
 of any one of its components
 against a non-negative or non-positive bump function $b$ supported inside this neighbourhood is non-vanishing.
 
-
 =--
-
 
 
 
@@ -4113,7 +4111,7 @@ and the _[[local observables]] on spacetime_ are those observables which arise a
 of [[horizontal differential form|horizontal p+1-forms]] of compact spacetime support (def. \ref{SpacetimeSupport}):
 
 $$
-  LocObs_\Sigma
+  LocObs_\Sigma(E)
    \;\coloneqq\;
   im\left(
     \Omega^{p+1,0}_{\Sigma,cp}(E)
@@ -4127,13 +4125,15 @@ The local observables on spacetime are a sub-vector space inside all observables
 We write
 
 $$
-  Obs_{\Sigma}
+  Obs_{\Sigma}(E)
     \;\coloneqq\;
   \langle LocObs_\Sigma \rangle_{C^\infty\left(\Gamma_\Sigma(E)\right)_{\delta_{EL}\mathbf{L} = 0}}
 $$
 
-for the smallest subalgebra of observables that contains all the (...polynomial...) local observables.
+for the smallest subalgebra of observables that contains all the local observables.
 This is called the algebra of _multilocal observables_.
+
+> maybe better consider formal power series of observables around a background solution
 
 =--
 
@@ -6287,16 +6287,29 @@ $$
 The [[Chevalley-Eilenberg algebra]] of functions on this [[differential graded manifold]] (eq:CEAlgebra)
 is called the off-shell _[[local BRST complex]]_ ([Barnich-Brandt-Henneaux 94](#BarnichBrandtHenneaux94)).
 
+We may pass from the [[local BRST complex]] on the [[jet bundle]] to the "global" BRST
+complex by [[transgression of variational differential forms]] (def. \ref{TransgressionOfVariationalDifferentialFormsToConfigrationSpaces}):
+
+Write $Obs_\Sigma(E \times\Sigma \mathcal{G}[1])$ for the induced graded [[algebra of observables]] (def. \ref{LocalObservables}).
+For $A \in \Omega^{p+1,\bullet}_\Sigma(E \times_\Sigma \mathcal{G}[1])$ with corresponding [[local observable]]
+$\tau_\Sigma(A) \in LocObs_\Sigma(E \times_\Sigma \mathcal{G}[1])$ its BRST differential is defined by
+
+$$
+  s_{BRST} \tau_{\Sigma}(A) \;\coloneqq\; \tau_{\Sigma}(s_{BRST} A)
+$$
+
+and extended from there to $Obs_\Sigma(E \times_\Sigma \mathcal{G}[1])$ as a graded derivation.
 
 =--
 
 +-- {: .num_prop #}
 ###### Example
+**([[local BRST complex]] for [[free field|free]] [[electromagnetism]] on [[Minkowski spacetime]])
 
 Consider the [[Lagrangian field theory]] of [[free field|free]] [[electromagnetism]] on [[Minkowski spacetime]] (example \ref{ElectromagnetismLagrangianDensity}) with its [[gauge parameter]] bundle as in
 example \ref{InfinitesimalGaugeSymmetryElectromagnetism}.
 
-By (eq:EMProlongedSymmetryVectorField) the action of the [[BRST operator]] is the derivation
+By (eq:EMProlongedSymmetryVectorField) the action of the [[BRST differential]] is the derivation
 
 $$
   s_{BRST}
@@ -6418,12 +6431,13 @@ $$
 
 =--
 
+
 +-- {: .num_example #GaugeInvariantFunctionsIntermsOfLieAlgebroids}
 ###### Example
 **([[gauge invariance|gauge invariant]] [[functions]] in terms of [[Lie algebroids]])
 
 Let $X/\mathfrak{g}$ be an [[action Lie algebroid]] (example \ref{ActionLieAlgebroid})
-and regard the[[real line]] $\mathbb{R}^1$ as a Lie algebroid by example \ref{BasicExamplesOfLieAlgebroids}.
+and regard the [[real line]] $\mathbb{R}^1$ as a Lie algebroid by example \ref{BasicExamplesOfLieAlgebroids}.
 Then homomorphisms of Lie algebroids (def. \ref{HomomorphismBetweenLieAlgebroids}) of the form
 
 $$
@@ -6439,62 +6453,27 @@ hence _smooth functions on the Lie algebroid_, are equivalently
 
 =--
 
-We need the following variant of example \ref{GaugeInvariantFunctionsIntermsOfLieAlgebroids}.
-
-+-- {: .num_prop #}
-###### Proposition
-
-Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
-over a [[spacetime]] $\Sigma$ and
-equipped with an irreducible closed [[gauge parameter]] bundle $\mathcal{G}$ (def. \ref{GaugeParametrizedInfinitesimalGaugeTransformation})
-with fiber coordinates $(\epsilon^\alpha)$.
-
-Then as an element of the [[local BRST complex]]
-$CE( E/(\mathcal{G} \times_\Sigma T \Sigma), d-s_{BRST} )$ (example \ref{LocalOffShellBRSTComplex}) the
-"horizontally extended Lagrangian"
-
-$$
-  \mathbf{L} \pm c^\alpha \tilde J_{v_\alpha}
-  \;\in\;
-  CE\left(
-     E/(\mathcal{G} \times_\Sigma T \Sigma)
-  \right)
-$$
-
-is $(d-s_{BRST})$ closed. Here $v_\alpha$ denotes the implicit infinitesimal gauge symmetry
-corresponding to gauge parameter $\epsilon^\alpha$ and $\tilde J_{v_\alpha} = J_{v_\alpha} + \iota_{v_\alpha} \Theta$
-for $J_{v_\alpha}$ the [[conserved current]] which is associated to $v_\alpha$ by [[Noether's theorem|Noether's theorem I]]
-(prop. \ref{NoethersFirstTheorem}).
-
-
-=--
-
-
 
 +-- {: .proof}
 ###### Proof
 
-We find
+An $\mathbb{R}$-algebra homomorphism
 
 $$
-  s_{BRST} \mathbf{L} = \pm d (c^\alpha \tilde J_{v_\alpha})
+  CE( X/\mathfrak{g} )
+    \longleftarrow
+  C^\infty(\mathbb{R}^1)
 $$
 
-by an argument analogous to that in the proof of prop. \ref{NoetherIdentities}.
-
-Moreover
-
-$$
-  s_{BRST}(c^\alpha J_{v_\alpha}) = 0
-$$
-
-by the [[Dickey bracket]] Lie algebra structure of conserved currents. (...)
-
-> check
-
-Finally $d \mathbf{L} = 0$ by degree reasons.
+is fixed by what it does to the canonical coordinate function on $\mathbb{R}^1$, which is taken by
+$f^\ast$ to $f \in C^\infty(X) \hookrightarrow CE(X/\mathfrak{g})$. For this to be a dg-algebra
+homomorphism it needs to respect the differentials on both sides. Since the differential
+on right right is trivial, the condition is that $0 = d_{CE} f = \rho(-)(f)$.
 
 =--
+
+
+
 
 
 $\,$
@@ -6515,6 +6494,9 @@ is the _[[derived critical locus]]_ of the [[Lagrangian function]] regarded now 
 acting on the [[field bundle]] (hence an element of the [[BRST complex]], example \ref{LocalOffShellBRSTComplex}). The [[algebra of functions]] on this "derived shell" is called the _[[BV-BRST complex]]_ of the theory.
 
 (...)
+
+
+spring
 
 
 +-- {: .num_defn #WeilAlgebra}
