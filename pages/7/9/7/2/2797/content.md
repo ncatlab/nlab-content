@@ -19,9 +19,9 @@
 
 ## Idea ##
 
-A _braided monoidal 2-category_ is a [[2-category]] $C$ equipped with a [[tensor product]] $\otimes : C \times C \to C$ [[2-functor]] which satisfies the first in a hierarchy of conditions for being commutative up to equivalence: in the language of [[k-tuply monoidal n-category|k-tuply monoidal n-categories]] a braided monoidal 2-category is a **doubly monoidal 2-category*.
+A _braided monoidal (weak) 2-category_ is a [[monoidal 2-category]] with a categorified version of a [[braided monoidal category|braiding]].
 
-As described there, this may be identified with a pointed [[4-category]] with a single [[object]] and a single [[1-morphism]].
+That is, it is a [[2-category]] $C$ equipped with a [[tensor product]] $\otimes : C \times C \to C$ [[2-functor]] which satisfies the first in a hierarchy of conditions for being commutative up to equivalence.  In the language of [[k-tuply monoidal n-category|k-tuply monoidal n-categories]], a braided monoidal 2-category is a *doubly monoidal 2-category*.  As described there, this may be identified with a pointed [[4-category]] with a single [[object]] and a single [[1-morphism]].  We can also say that it is a monoidal 2-category whose [[En-algebra|E1-algebra]] structure is refined to an [[En-algebra|E2-algebra]] structure.
 
 ## Properties
 
@@ -56,8 +56,7 @@ The [[Picard 2-groupoid]] of a braided monoidal 2-category is a [[braided 3-grou
 * Sjoerd Crans, Generalized centers of braided and sylleptic monoidal 2-categories, _Adv. Math._ **136** (1998), 183-223.  ([pdf](http://www.sciencedirect.com/science/article/pii/S0001870898917200/pdf?md5=1fa4380913384da004def3f3441a61ac&pid=1-s2.0-S0001870898917200-main.pdf))
 
 
-
-
-
 [[!redirects braided monoidal 2-categories]]
+[[!redirects braided monoidal bicategory]]
+[[!redirects braided monoidal bicategories]]
 
