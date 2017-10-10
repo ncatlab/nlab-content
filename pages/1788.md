@@ -4225,7 +4225,7 @@ $$
 
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
 whose [[field bundle]] $E$ is a [[trivial vector bundle]] (example \ref{TrivialVectorBundleAsAFieldBundle}) and whose [[Lagrangian density]] $\mathbf{L}$ is spacetime-independent (example \ref{ShellForSpacetimeIndependentLagrangians}).
-Let $\Sigma \times \{\varphi\} \hookrightarrow \mathcal{E}^\infty$ be a constant section of the shell (eqs:ConstantSectionOfTrivialShellBundle).
+Let $\Sigma \times \{\varphi\} \hookrightarrow \mathcal{E}^\infty$ be a constant section of the shell (eq:ConstantSectionOfTrivialShellBundle).
 
 In correspondence with def. \ref{LocalObservablesOnInfinitesimalNeighbourhood}, write
 
