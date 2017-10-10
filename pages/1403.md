@@ -33,6 +33,7 @@ The term "microcosm principle" arises from the idea that the monoid object (the 
 
 * [[monoid objects]] can be defined in [[monoidal categories]] (categorified monoids), or more generally [[multicategories]] (virtual monoidal categories).
 * [[commutative monoid objects]] can be defined in [[symmetric monoidal categories]], or more generally in [[braided monoidal categories]].
+* Categorifying these examples, [[monoidal categories]] are instances of [[pseudomonoids]], which can be defined in any [[monoidal bicategory]].  There are also versions for braided, symmetric, closed, compact closed, and so on.
 * [[trace in a bicategory|traces]] can be defined in bicategories equipped with a [[shadow]] (a categorified trace).
 * [[categories]] are instances of [[monads]], which can be defined in any [[bicategory]] or more generally any [[double category]] (both a kind of categorified category) or [[virtual double category]].  This generalization includes [[internal categories]] and [[enriched categories]].
 * [[enriched categories]] are also objects of the free cocompletion of an [[enriched bicategory]] under a kind of [[Kleisli object]].
