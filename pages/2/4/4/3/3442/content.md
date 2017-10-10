@@ -151,6 +151,8 @@ In this diagram now
 
 * [[ordinary differential equation]]
 
+* [[formally integrable differential equation]]
+
 * [[Green's function]]
 
 * [[Sturm–Liouville theory]]
