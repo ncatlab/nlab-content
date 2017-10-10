@@ -80,6 +80,7 @@ cf. [[Malcev completion]]
 invariant hyperfunctions_, Inventiones math. __47__, 249--272 (1978)  [pdf](http://www.math.polytechnique.fr/~vergne/publications2/Remplacer/78thecampbellhaussdorff.pdf)
 * V. Kurlin, _Exponential Baker-Campbell-Hausdorff formula_, [http://arxiv.org/abs/math/0606330](http://arxiv.org/abs/math/0606330)
 * Terry Tao's blog: [the-c11-baker-campbell-hausdorff-formula](https://terrytao.wordpress.com/2011/06/21/the-c11-baker-campbell-hausdorff-formula)
+* [wikipedia](https://en.wikipedia.org/wiki/Baker%E2%80%93Campbell%E2%80%93Hausdorff_formula)
 
 category: algebra
 [[!redirects Baker-Campbell-Hausdorff series]]
