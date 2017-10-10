@@ -14,24 +14,42 @@
 
 ##Idea##
 
-Models of theoretical [[physics]] are often given in the form of equations. Informally integrability is the property of a concrete model which enables one to solve these equations in a closed form, or in quadratures (expressing in terms of ordinary integrals). 
+Models of theoretical [[physics]] are often given in the form of [[differential equations]]. Informally, [[integrable PDE|integrability]] is the property of a concrete [[model (physics)|model]] which enables one to [[solution|solve]] these equations in a closed form, or in terms of [[quadratures]] (expressions in terms of ordinary [[integrals]]). 
 
 
 ##Classical integrable systems##
 
-In classical mechanics, a sort of integrability follows if there are generalized "angle-action" coordinates; the evolution of a system is then of a very special form, hence such "[[Liouville integrability]]" (existence of a maximal [[Poisson manifold|Poisson]]-commuting invariants) leads to a special type of global structure of orbits. In addition to finite-dimensional integrable models, many classical PDEs of mathematical physics can be exactly solved, which can often be expressed in terms of infinite-dimensional Hamiltonian systems. There are many methods and approaches which are often simultaneously applicable, and under some assumptions essentially equivalent; we list just keywords: Lax pairs, bihamiltonian systems, spectral curve, classical r-matrix, inverse scattering method, [[Riemann-Hilbert problem|Riemann--Hilbert method]] and Birkhoff decomposition (which also provide connections to the subject of special functions)...
+In [[classical mechanics]], a sort of integrability follows if there are generalized "angle-action" coordinates; the evolution of a system is then of a very special form, hence such "[[Liouville integrability]]" (existence of a maximal [[Poisson manifold|Poisson]]-commuting invariants) leads to a special type of global structure of orbits. In addition to finite-dimensional integrable models, many classical PDEs of mathematical physics can be exactly solved, which can often be expressed in terms of infinite-dimensional Hamiltonian systems. There are many methods and approaches which are often simultaneously applicable, and under some assumptions essentially equivalent; we list just keywords: Lax pairs, bihamiltonian systems, spectral curve, classical r-matrix, inverse scattering method, [[Riemann-Hilbert problem|Riemann--Hilbert method]] and Birkhoff decomposition (which also provide connections to the subject of special functions)...
 
 Much of the knowledge about the algebras of differential operators on curves has been obtained from research on Calogero--Moser systems and generalizations (and their connections to the KP hierarchy). An important class of integrable systems are special cases of [[Hitchin fibration|Hitchin system]].
 
 
-##Quantum integrability##
+## Quantum integrability
 
 Often classically integrable systems after quantization may be also exactly solved, or show some other form of integrability, but there are no general rules when this is possible. Quantum integrability usually means that we can find a complete system of commuting operators whose common eigenstates will form a basis of the [[Hilbert space]] of the model. Many examples are found making manipulations with algebras of operators; as a consequence generalizations of existing models often involve combinatorial data with algebaric meaning; say for example generalized Calogero models related to the root systems. Quantum R-matrices and [[quantum group]]s
 were invented with a view toward quantum integrable systems systematizing analogues of a classical quantum integrability trick called the Bethe Ansatz.  
 
-##Literature##
+## Related entries
 
-Related entries include [[quasitriangular bialgebra]], [[Dunkl operator]], [[Yangian]], [[Bethe ansatz]], [[Calogero model]], [[Lax equation]]., [[Liouville integrability]], [[spectral curve]]. See also references there. 
+* [[integrable PDE]]
+
+* [[quasitriangular bialgebra]], 
+
+* [[Dunkl operator]], 
+
+* [[Yangian]], 
+
+* [[Bethe ansatz]], 
+
+* [[Calogero model]], 
+
+* [[Lax equation]], 
+
+* [[Liouville integrability]], 
+
+* [[spectral curve]]. 
+
+## References
 
 * O. Babelon, D. Bernard, M. Talon, _Introduction to classical integrable systems_, Cambridge Univ. Press 2003.
 * V.E. Korepin, N. M. Bogoliubov, A. G. Izergin, _Quantum inverse scattering method and correlation functions_, Cambridge Univ. Press 1997.
@@ -50,6 +68,10 @@ lecture notes_, [pdf](http://people.sissa.it/~dubrovin/rsnleq_web.pdf)
 Discussion in the context of [[harmonic maps]] is in 
 
 * [[Shabnam Beheshti]], A. Shadi Tahvildar-Zadeh, _Integrability and Vesture for Harmonic Maps into Symmetric Spaces_ ([arXiv:1209.1383](http://arxiv.org/abs/1209.1383))
+
+See also 
+
+* Wikipedia, _[Integrable system](https://en.wikipedia.org/wiki/Integrable_system)_
 
 [[!redirects integrable systems]]
 [[!redirects integrable model]]
