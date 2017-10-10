@@ -1905,7 +1905,7 @@ $$
 
 and call $H_{flat}(X,A) := \pi_0 \mathbf{H}_{flat}(X,A)$ the **flat (nonabelian) differential cohomology** of $X$ with coefficients in $A$.
 
-We say a morphism $\nabla : \mathbf{\Pi}(X) \to A$ is a **flat [[connection on an ∞-bundle|∞-connnection]] on the [[principal ∞-bundle]] corresponding to $X \to \mathbf{\Pi}(X) \stackrel{\nabla}{\to} A$, or an **$A$-[[local system]]** on $X$.
+We say a morphism $\nabla : \mathbf{\Pi}(X) \to A$ is a **flat [[connection on an ∞-bundle|∞-connnection]]** on the [[principal ∞-bundle]] corresponding to $X \to \mathbf{\Pi}(X) \stackrel{\nabla}{\to} A$, or an **$A$-[[local system]]** on $X$.
 
 The induced morphism
 
@@ -1923,7 +1923,7 @@ we say is the [[forgetful functor]] that forgets flat connections.
 
 The object $\mathbf{\Pi}(X)$ has the interpretation of the [path ∞-groupoid](#Paths) of $X$: it is a cohesive $\infty$-groupoid whose [[k-morphism]]s may be thought of as generated from the $k$-morphisms in $X$ and $k$-dimensional cohesive paths in $X$.
 
-Accordingly a mophism $\mathbf{Pi}(X) \to A$ may be thought of as assigning
+Accordingly a morphism $\mathbf{\Pi}(X) \to A$ may be thought of as assigning
 
 * to each point $x \in X$ a fiber $P_x$ in $A$;
 
