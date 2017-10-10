@@ -393,7 +393,7 @@ around page 16.
 
 The bar complex for [[E-infinity algebra]]s is discussed in
 
-* [[Benoit Fresse]], _The bar complex of an E-infinity algebra_ Advances in Mathematics Volume 223, Issue 6, 1 April 2010, Pages 2049-2096 
+* [[Benoit Fresse]], _The bar complex of an E-infinity algebra_, Advances in Mathematics Volume 223, Issue 6, 1 April 2010, Pages 2049-2096 
 {#Fresse}
 
 
