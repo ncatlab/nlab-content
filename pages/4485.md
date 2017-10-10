@@ -39,7 +39,7 @@ More abstractly formulated, this means equivalently the following.
 The function  $f : X \to Y$ is a submersion precisely if the canonical morphism
 
 $$
-  T X \to X \times_Y T Y \eqqcolon f^* TY
+  T X \to X \times_Y T Y \eqqcolon f^* T Y
 $$
 
 from the [[tangent bundle]] of $X$ to the [[pullback]] of the tangent bundle of $Y$ along $f$ is a [[surjection]].
