@@ -23,14 +23,14 @@
 
 A _partial order_ on a set is a way of ordering its elements to say that some elements precede others, but allowing for the possibility that two elements may be incomparable without being the same.  This is the fundamental notion in [[order theory]].
 
-By regarding the ordering $\leq$ as the existence of a unique [[morphism]], preorders may be regarded as certain [[categories]] (namely, [[thin categories]]).  This category is sometimes called the _order category_ associated to a partial order; see below for details.
+By regarding the ordering $\leq$ as the existence of a unique [[morphism]], preorders may be regarded as certain [[categories]] (namely, [[thin categories]]).  This category is sometimes called the _order category_ associated to a partial order; see [below](#AsACategoryWithExtraProperties) for details.
 
 
 ## Definitions
 
 ### As a set with extra structure
 
-A poset can be understood as a [[set]] with [[extra structure]].
+A poset may be understood as a [[set]] with [[extra structure]].
 
 Given a [[set]] $S$, a __partial order__ on $S$ is a (binary) [[relation]] $\leq$ with the following properties:
 
@@ -52,7 +52,7 @@ $x \leq y \leq x$ implies that $x = y$.
 ### As a category with extra properties 
  {#AsACategoryWithExtraProperties}
 
-A poset can be understood as a [[category]] with [[extra property]].
+A poset may be understood as a [[category]] with [[extra property]], sometimes called its _order category_.
 
 A __poset__ is a [[category]] such that:
 
