@@ -20,11 +20,9 @@
 
 ## Definition
 
-A _symmetric monoidal 2-category_ is a [[monoidal 2-category]] whose [[E1-algebra]] structure is refined to an [[E3-algebra]] structure.
+A _symmetric monoidal (weak) 2-category_ is a [[monoidal 2-category]] with a categorified version of a [[symmetric monoidal category|symmetry]].
 
-A [[symmetric monoidal (infinity,n)-category]] for $n = 2$.
-
-A _(fully) strict symmetric monoidal 2-category_ is simply a strict $2$-category $\mathcal{C}$ together with a strict 2-functor $\otimes : \mathcal{C} \times \mathcal{C} \rightarrow \mathcal{C}$ and an object $1$ of $\mathcal{C}$ which satisfy the same axioms as for a strict [[symmetric monoidal category]] (which in turn are exactly the same as those for a [[commutative monoid]]).
+That is, it is a [[2-category]] $C$ equipped with a [[tensor product]] $\otimes : C \times C \to C$ [[2-functor]] which satisfies all possible conditions for being commutative up to equivalence.  In the language of [[k-tuply monoidal n-category|k-tuply monoidal n-categories]], a braided monoidal 2-category is a *quadruply monoidal 2-category*.  As described there, this may be identified with a pointed 6-category with a single $k$-morphism for $k=0,1,2,3$.  We can also say that it is a monoidal 2-category whose [[En-algebra|E1-algebra]] structure is refined to an [[En-algebra|E4-algebra]] structure.
 
 ## Examples
 
