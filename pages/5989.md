@@ -29,7 +29,7 @@ Myles Tierney died on October 6, 2017 having turned 80 in September. He made imp
 * [[André Joyal]] and [[Myles Tierney]], _Notes on simplicial homotopy theory_, CRM Barcelona, Jan 2008 [pdf](http://www.crm.cat/HigherCategories/tierney.pdf), [backup pdf](http://mat.uab.cat/~kock/crm/hocat/advanced-course/Quadern47.pdf)
 
 
-
+* 
 
 
 
