@@ -8,9 +8,21 @@ Just as a monoid in a monoidal category $C$ can be equivalently defined as a [[m
 
 # Variations
 
-A **map pseudomonoid** is a pseudomonoid whose multiplication and unit are [[bicategory of maps|maps]], i.e. [[left adjoints]].  This is a more appropriate notion for monoidal bicategories whose morphisms are [[profunctors]], since maps therein can be identified (modulo [[Cauchy completion]]) with [[functors]].
+* A **map pseudomonoid** is a pseudomonoid whose multiplication and unit are [[bicategory of maps|maps]], i.e. [[left adjoints]].  This is a more appropriate notion for monoidal bicategories whose morphisms are [[profunctors]], since maps therein can be identified (modulo [[Cauchy completion]]) with [[functors]].
+
+Other more special kinds of pseudomonoid are generalizations of special kinds of monoidal categories, including:
+
+* braided pseudomonoids
+* symmetric pseudomonoids
+* balanced pseudomonoids
+* closed pseudomonoids
+* $\ast$-autonomous pseudomonoids
+* compact closed (or autonomous) pseudomonoids
+
+Eventually these should probably have their own pages.
 
 ##References##
+
 *Ross Street and Brian Day, [Monoidal Bicategories and Hopf Algebroids](http://www.sciencedirect.com/science/article/pii/S0001870897916492). 
 
 [[!redirects pseudomonoid]]
@@ -22,3 +34,17 @@ A **map pseudomonoid** is a pseudomonoid whose multiplication and unit are [[bic
 [[!redirects map pseudomonoid]]
 [[!redirects map pseudomonoids]]
 
+[[!redirects braided pseudomonoid]]
+[[!redirects braided pseudomonoids]]
+[[!redirects symmetric pseudomonoid]]
+[[!redirects symmetric pseudomonoids]]
+[[!redirects balanced pseudomonoid]]
+[[!redirects balanced pseudomonoids]]
+[[!redirects closed pseudomonoid]]
+[[!redirects closed pseudomonoids]]
+[[!redirects star-autonomous pseudomonoid]]
+[[!redirects star-autonomous pseudomonoids]]
+[[!redirects autonomous pseudomonoid]]
+[[!redirects autonomous pseudomonoids]]
+[[!redirects compact closed pseudomonoid]]
+[[!redirects compact closed pseudomonoids]]
