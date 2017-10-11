@@ -19,6 +19,8 @@ A **compact closed category**, or simply a **compact category**, is a [[symmetri
 
 More generally, if we drop the symmetry requirement, we obtain a [[rigid monoidal category]], a.k.a. an *autonomous category*.  Thus a compact category may also be called a **rigid symmetric monoidal category** or a **symmetric autonomous category**.  A maximally clear, but rather verbose, term would be a **symmetric monoidal category with duals for objects**.
 
+A compact closed category is a special case of the notion of [[compact closed pseudomonoid]] in a [[monoidal bicategory]], and similarly for the autonomous cases.
+
 ## Properties
 
 ### Internal hom and compact closure
