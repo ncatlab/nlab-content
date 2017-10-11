@@ -859,8 +859,8 @@ $$
   \,.
 $$
 
-The [[pullback of differential forms|pullback]] of the functions $f_{\mu \nu}$ (eqs:FaradayTensorJet)
-along this jet prolongation are the components of the [[Faraday tensor]] of the field (eqs:TensorFaraday):
+The [[pullback of differential forms|pullback]] of the functions $f_{\mu \nu}$ (eq:FaradayTensorJet)
+along this jet prolongation are the components of the [[Faraday tensor]] of the field (eq:TensorFaraday):
 
 $$
   \begin{aligned}
@@ -896,9 +896,9 @@ $$
   (\mu \leftrightarrow \nu)
 $$
 
-where $(\gamma^\alpha{}_{\beta \gamma})$ the structure constants of the Lie algebra as in (eqs:LieAlgebraStructureConstants)
+where $(\gamma^\alpha{}_{\beta \gamma})$ the structure constants of the Lie algebra as in (eq:LieAlgebraStructureConstants)
 and where the square brackets around the indices denote anti-symmetrization.
-For $\mathfrak{g} = \mathbb{R}$ the [[line Lie algebra]] this reduces to the universal [[Faraday tensor]] (eqs:FaradayTensorJet) for
+For $\mathfrak{g} = \mathbb{R}$ the [[line Lie algebra]] this reduces to the universal [[Faraday tensor]] (eq:FaradayTensorJet) for
 the [[electromagnetic field]] (example \ref{JetFaraday}).
 
 For $A \in \Gamma_\Sigma(T^\ast \Sigma \otimes \mathfrak{g}) = \Omega^1(\Sigma,\mathfrak{g})$ a field history of
@@ -1164,8 +1164,8 @@ $\,$
 | \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}  | $\; \delta_{EL} \mathbf{L} \coloneqq \mathbf{d}\mathbf{L} + d \Theta$ | [[Euler-Lagrange variational derivative|Euler-Lagrange variation]]  | [[Euler-Lagrange operator]] |
 | \ref{BVComplexOfOrdinaryLagrangianDensity} | $\; s_{BV}$  | [[BV-differential]]  |  [[Koszul complex|Koszul differential]]  |
 | \ref{LocalOffShellBRSTComplex} | $\; s_{BRST} $ | [[BRST differential]] |  [[Chevalley-Eilenberg complex|Chevalley-Eilenberg differential]]  |
-| \ref{BVVariationalBicmplex} | $\; s $ | [[BV-BRST differential]] |  [[Chevalley-Eilenberg complex|Chevalley-Eilenberg]]-[[Koszul-Tate complex|Koszul-Tate]] differential |
-| \ref{BVVariationalBicmplex} | $\; s - d $ | [[local BV-BRST differential]] |   |
+| \ref{LocalBVBRSTComplexIsDerivedCriticalLocusOfEulerLagrangeForm} | $\; s $ | [[BV-BRST differential]] |  [[Chevalley-Eilenberg complex|Chevalley-Eilenberg]]-[[Koszul-Tate complex|Koszul-Tate]] differential |
+| \ref{BVVariationalBicomplex} | $\; s - d $ | [[local BV-BRST differential]] |   |
 $\,$
 
 +-- {: .num_example #BasicFactsAboutVarationalCalculusOnJetBundleOfTrivialVectorBundle}
@@ -1410,7 +1410,7 @@ $$
 $$
 
 That this is equal to $j^\infty_\Sigma(\Phi)^\ast d f$ follows by the very definition
-of the total spacetime derivative of $f$ (eqs:SpacetimeTotalDerivativeOnSmoothFunctions).
+of the total spacetime derivative of $f$ (eq:SpacetimeTotalDerivativeOnSmoothFunctions).
 
 
 =--
@@ -1435,7 +1435,7 @@ determined by a [[local Lagrangian density]]
 
 Namely among all the variational differential forms (def. \ref{VariationalBicomplexOnSecondOrderJetBundleOverTrivialVectorBundleOverMinkowskiSpacetime})
 two kinds stand out, namley the 0-forms in $\Omega^{0,0}_\Sigma(E)$ -- the smooth functions -- and the horizontal $p+1$-forms
-$\Omega^{p+1,0}_\Sigma(E)$ -- to be called the _[[Lagrangian densities]] $\mathbf{L}$_ (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime} below) -- since these occupy the two "corners" of the [[variational bicomplex]] (eqs:VariationalBicomplexDiagram).
+$\Omega^{p+1,0}_\Sigma(E)$ -- to be called the _[[Lagrangian densities]] $\mathbf{L}$_ (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime} below) -- since these occupy the two "corners" of the [[variational bicomplex]] (eq:VariationalBicomplexDiagram).
 There is not much to say about the 0-forms, but the [[Lagrangian densities]] $\mathbf{L}$ do inherit special structure
 from their special position in the [[variational bicomplex]].
 
@@ -1581,7 +1581,7 @@ This is the [[Lagrangian density]] that defines the Lagrangian field theory of _
 
 Here for $A \in \Gamma_\Sigma(T^\ast \Sigma)$ an [[electromagnetic field]] history ([[vector potential]]),
 then the [[pullback of differential forms|pullback]] of $f_{\mu \nu}$ along its [[jet prolongation]] (def. \ref{JetProlongation})
-is the corresponding component of the [[Faraday tensor]] (eqs:TensorFaraday):
+is the corresponding component of the [[Faraday tensor]] (eq:TensorFaraday):
 
 $$
   \begin{aligned}
@@ -1595,7 +1595,7 @@ $$
   \end{aligned}
 $$
 
-It follows that the pullback of the Lagrangian (eqs:ElectromagnetismLagrangian) along the
+It follows that the pullback of the Lagrangian (eq:ElectromagnetismLagrangian) along the
 jet prologation of the electromagnetic field is
 
 $$
@@ -1706,9 +1706,9 @@ $$
   \,.
 $$
 
-or rather the smaller subspace on which also all [[total spacetime derivatives]]
+is called the _[[shell]]_. The smaller subspace on which also all [[total spacetime derivatives]]
 vanish (the "[[formally integrable PDE|formally integrable prolongation]]")
-is called the _prolonged [[shell]]_
+is the _prolonged [[shell]]_
 
 $$
   \label{ProlongedShellInJetBundle}
@@ -1727,12 +1727,12 @@ $$
   \,.
 $$
 
-
 Saying something holds  "[[on-shell]]" is to mean that it holds after restriction to this
 subspace. For example a [[variational differential form]] $\alpha \in \Omega^{\bullet,\bullet}_\Sigma(E)$
 is said to _vanish on shell_ if $\alpha\vert_{\mathcal{E}^\infty} = 0$.
 
-The remaining term $d \Theta$ in (eqs:dLDecomposition) is unique, while the "presymplectic potential"
+
+The remaining term $d \Theta$ in (eq:dLDecomposition) is unique, while the "presymplectic potential"
 
 $$
   \label{PresymplecticPotential}
@@ -1835,7 +1835,7 @@ $\int_\Sigma j^\infty_\Sigma(\Phi)^\ast \mathbf{d}L$ if we were to consider [[in
 spacetime derivatives of $\delta \phi^a$.
 
 We compute, using example \ref{BasicFactsAboutVarationalCalculusOnJetBundleOfTrivialVectorBundle},
-the total horizontal derivative of $\Theta$ from (eqs:StandardThetaForTrivialVectorFieldBundleOnMinkowskiSpacetime) as follows:
+the total horizontal derivative of $\Theta$ from (eq:StandardThetaForTrivialVectorFieldBundleOnMinkowskiSpacetime) as follows:
 
 $$
   \begin{aligned}
@@ -2072,7 +2072,7 @@ $$
   \delta d \phi \wedge \iota_{\partial_\nu} \mathrm{dvol}_\Sigma
 $$
 
-Hence we may take the presymplectic potential (eqs:PresymplecticPotential) of the free scalar field to be
+Hence we may take the presymplectic potential (eq:PresymplecticPotential) of the free scalar field to be
 
 $$
   \label{PresymplecticPotentialOfFreeScalarField}
@@ -2117,7 +2117,7 @@ $$
   \,,
 $$
 
-which shows that $\delta_{EL} L$ is as claimed, and that $\Theta$ is a presymplectic potential current (eqs:PresymplecticPotential).
+which shows that $\delta_{EL} L$ is as claimed, and that $\Theta$ is a presymplectic potential current (eq:PresymplecticPotential).
 Hence the presymplectic current itself is
 
 $$
@@ -2151,7 +2151,7 @@ $$
   \,.
 $$
 
-Hence the [[shell]] (eqs:ShellInJetBundle) in this case is
+Hence the [[shell]] (eq:ShellInJetBundle) in this case is
 
 $$
   \mathcal{E}
@@ -2187,7 +2187,7 @@ Consider the special case that $\mathbf{L}$ is _[[spacetime]]-independent_ in th
 is independent of the spacetime coordinate $(x^\mu)$.
 Then the same evidently holds for the [[Euler-Lagrange form]] $\delta_{EL}\mathbf{L}$
 (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}).
-Therefore in this case the [[shell]] (eqs:ProlongedShellInJetBundle) is itself a [[trivial bundle]] over spacetime.
+Therefore in this case the [[shell]] (eq:ProlongedShellInJetBundle) is itself a [[trivial bundle]] over spacetime.
 
 In this situation every point $\varphi$ in the jet fiber defines a constant section of the shell:
 
@@ -2299,7 +2299,7 @@ $$
   \array{
     J^\infty_\Sigma E && \overset{\text{evolutionary vector field}}{\longrightarrow} && V_\Sigma E
     \\
-    & {}_{\mathllap{id}}\searrow && \swarrow
+    & {}_{jb_{\infty,0}}\searrow && \swarrow
     \\
     && E
   }
@@ -2356,6 +2356,7 @@ of [[smooth functions]] on the [[jet bundle]].
 An [[evolutionary vector field]] (def. \ref{EvolutionaryVectorField}) describes
 an infinitesimal change of field values _depending_ on, possibly, the point in spacetime and the values of the field
 and all its derivatives (locally to finite order, by prop. \ref{JetBundleIsLocallyProManifold}).
+
 This induces a corresponding infinitesimal change of the derivatives of the fields, called the _prolongation_
 of the evolutionary vector field:
 
@@ -2465,7 +2466,7 @@ $$
 This shows that $\hat v$ satisfying the two conditions given exists uniquely. Finally
 the formula for the [[Lie derivative]] follows from the second of the two conditions with [[Cartan's homotopy formula]]
 $\mathcal{L}_{\hat v} = \mathbf{d} \circ \iota_{\hat v} + \iota_{\hat v} \circ \mathbf{d}$
-together with $\mathbf{d} = \delta + d$ (eqs:VariationalDerivative).
+together with $\mathbf{d} = \delta + d$ (eq:VariationalDerivative).
 
 =--
 
@@ -2544,7 +2545,7 @@ on is bounded).
 
 
 For $\Phi \in \Gamma_\Sigma(E)$ a [[field (physics)|field]] history,
-hence a point in the [[space of field histories]] (eqs:SpaceOfFieldHistories), the _[[flow]]_ of $v$
+hence a point in the [[space of field histories]] (eq:SpaceOfFieldHistories), the _[[flow]]_ of $v$
 through $\Phi$ is the [[smooth function]]
 
 $$
@@ -2603,7 +2604,7 @@ Then
 
 
 1. an _[[on-shell]] [[conserved current]]_ is a horizontal $p$-form $J \in \Omega^{p,0}_\Sigma(E)$
-   whose [[total derivative|total spacetime derivative]] vanishes on the [[shell]] (eqs:ShellInJetBundle)
+   whose [[total derivative|total spacetime derivative]] vanishes on the [[shell]] (eq:ShellInJetBundle)
 
    $$
      d J\vert_{\mathcal{E}} = 0
@@ -2629,14 +2630,14 @@ $$
 $$
 
 is an [[on-shell]] [[conserved current]] (def. \ref{SymmetriesAndConservedCurrents}), for $\Theta$
-a presymplectic potential (eqs:PresymplecticPotential) from def. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}.
+a presymplectic potential (eq:PresymplecticPotential) from def. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}.
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-By [[Cartan's homotopy formula]] for the [[Lie derivative]] and using (eqs:dLDecomposition)
+By [[Cartan's homotopy formula]] for the [[Lie derivative]] and using (eq:dLDecomposition)
 and the fact that the variation vector field $v$ vanishes on horizontal differential forms
 we may re-express the defining equation for the symmetry as
 
@@ -2795,7 +2796,7 @@ $$
   \end{aligned}
 $$
 
-Here we first used [[Cartan's homotopy formula]] for evolutionary vector fields (eqs:HomotopyFormulaForLieDerivativeAlongProlongationOfEvolutionaryVectorField),
+Here we first used [[Cartan's homotopy formula]] for evolutionary vector fields (eq:HomotopyFormulaForLieDerivativeAlongProlongationOfEvolutionaryVectorField),
 then, under the braces,
 the [[conserved current]] property of the presymplectic current (prop. \ref{HorizontalDerivativeOfPresymplecticCurrentVanishesOnShell}) as well as [[Noether's theorem|Noether's theorem I]] (prop. \ref{NoethersFirstTheorem}),
 and finally
@@ -2879,7 +2880,7 @@ $$
   \,.
 $$
 
-With the formula (eqs:PresymplecticPotentialOfFreeScalarField) for the presymplectic potential
+With the formula (eq:PresymplecticPotentialOfFreeScalarField) for the presymplectic potential
 
 $$
   \Theta
@@ -2938,8 +2939,8 @@ to the [[presymplectic current]] yields the following:
 ###### Definition
 **([[Hamiltonian vector fields|infinitesimal symmetry of the presymplectic potential]] and [[Hamiltonian differential forms]])
 
-Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] with presymplectic potential $\Theta$ (eqs:PresymplecticPotential).
-Write $\mathcal{E} \hookrightarrow J^\infty_\Sigma(E)$ for the [[shell]] (eqs:ShellInJetBundle).
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] with presymplectic potential $\Theta$ (eq:PresymplecticPotential).
+Write $\mathcal{E} \hookrightarrow J^\infty_\Sigma(E)$ for the [[shell]] (eq:ShellInJetBundle).
 
 1. An [[on-shell]] variation $v$ (def. \ref{Variation}) is an _infinitesimal symmetry of the Lepage form_
    or _[[Hamiltonian vector field]]_ if [[on-shell]] (def. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}) its [[Lie derivative]] along $v$ is a [[variational derivative]]:
@@ -3256,7 +3257,7 @@ for more), but below we will need the following simple shadow of it:
 ###### Lemma
 
 The horizontally exact Hamiltonian forms constitute a [[Lie ideal]] for the
-local Poisson Lie bracket (eqs:LocalPoissonLieBracket).
+local Poisson Lie bracket (eq:LocalPoissonLieBracket).
 
 =--
 
@@ -3936,10 +3937,10 @@ $$
   \Gamma_\Sigma(E)
 $$
 
-for the [[smooth space|smooth subspace]] of the [[space of field histories]] (eqs:SpaceOfFieldHistories) on those that solve this
+for the [[smooth space|smooth subspace]] of the [[space of field histories]] (eq:SpaceOfFieldHistories) on those that solve this
 differential equation.
 
-This is another incarnation of the "[[shell]]" (eqs:ProlongedShellInJetBundle).
+This is another incarnation of the "[[shell]]" (eq:ProlongedShellInJetBundle).
 
 Similarly for $\Sigma_r \hookrightarrow \Sigma$ a [[submanifold]] of [[spacetime]], we write
 
@@ -3951,7 +3952,7 @@ $$
 $$
 
 for the subspace of on-shell field histories restricted to the [[infinitesimal neighbourhood]]
-of $\Sigma_r$ in $\Sigma$ (eqs:SpaceOfFieldHistoriesInHigherCodimension).
+of $\Sigma_r$ in $\Sigma$ (eq:SpaceOfFieldHistoriesInHigherCodimension).
 
 
 =--
@@ -4022,7 +4023,7 @@ $$
   \,,
 $$
 
-where $F = d A$ is the [[Faraday tensor]] (eqs:TensorFaraday).
+where $F = d A$ is the [[Faraday tensor]] (eq:TensorFaraday).
 (In the coordinate-free formulation in the second line "$\star_\eta$" denotes
 the [[Hodge star operator]] induced by the [[pseudo-Riemannian metric]] $\eta$ on [[Minkowski spacetime]].)
 
@@ -4034,7 +4035,6 @@ These [[PDEs]] are called the _[[vacuum]] [[Maxwell's equations]]_.
 +-- {: .num_prop #PrincipleOfExtremalAction}
 ###### Proposition
 **([[principle of extremal action]])**
-
 
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}).
 
@@ -4089,13 +4089,12 @@ against a non-negative or non-positive bump function $b$ supported inside this n
 =--
 
 
-
 +-- {: .num_defn #LocalObservables}
 ###### Definition
 **([[local observables]])**
 
 Given a [[Lagrangian field theory]] $(E,\mathbf{L})$ (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) with  [[on-shell]] [[space of histories]] $\Gamma_\Sigma(E)_{\delta_{EL} \mathbf{L} = 0}$
-(eqs:OnShellFieldHistories)
+(eq:OnShellFieldHistories)
 then the space
 
 $$
@@ -4123,13 +4122,13 @@ On the other hand the _[[local observables]]_ are the [[horizontal differential 
 
 1. modulo [[total spacetime derivatives]]
 
-1. restricted to the [[shell]] $\mathcal{E}^\infty$ (eqs:ProlongedShellInJetBundle):
+1. restricted to the [[shell]] $\mathcal{E}^\infty$ (eq:ProlongedShellInJetBundle):
 
 $$
   LocObs_\Sigma(E) \;\coloneqq\; \left(\Omega^{p+1,0}_{\Sigma,cp}(E)/(im(d))\right)\vert_{\mathcal{E}^\infty}
 $$
 
-which we may identify with the subspace of all observables (eqs:GlobalObservables)
+which we may identify with the subspace of all observables (eq:GlobalObservables)
 on those that arise as the [[image]] under
 [[transgression of variational differential forms]] $\tau_\Sigma$ (def. \ref{TransgressionOfVariationalDifferentialFormsToConfigrationSpaces})
 of local observables to [[functionals]] on the [[on-shell]] [[space of field histories]]:
@@ -4185,7 +4184,7 @@ Consider the [[field bundle]] for [[free field theory|free]] [[electromagnetism]
 
 Then for $b \in C^\infty(\Sigma)$ a [[bump function]] on [[spacetime]], the [[transgression of variational differential forms|transgression]]
 of the universal [[Faraday tensor]] (def. \ref{JetFaraday}) against $b$ times the [[volume form]] is a [[local observable]]
-(def. \ref{LocalObservables}), namely the _[[field strength]]_ (eqs:TensorFaraday) of the [[electromagnetic field]]
+(def. \ref{LocalObservables}), namely the _[[field strength]]_ (eq:TensorFaraday) of the [[electromagnetic field]]
 averaged over spacetime.
 
 =--
@@ -4207,7 +4206,7 @@ aspect of [[field theory]], namely we consider the restriction of [[local observ
 
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
 whose [[field bundle]] $E$ is a [[trivial vector bundle]] (example \ref{TrivialVectorBundleAsAFieldBundle}) and whose [[Lagrangian density]] $\mathbf{L}$ is spacetime-independent (example \ref{ShellForSpacetimeIndependentLagrangians}).
-Let $\Sigma \times \{\varphi\} \hookrightarrow \mathcal{E}$ be a constant section of the shell (eqs:ConstantSectionOfTrivialShellBundle)
+Let $\Sigma \times \{\varphi\} \hookrightarrow \mathcal{E}$ be a constant section of the shell (eq:ConstantSectionOfTrivialShellBundle)
 as in example \ref{ShellForSpacetimeIndependentLagrangians}.
 
 Then we write
@@ -4254,7 +4253,7 @@ $$
   \,.
 $$
 
-A key consequence is that the further restriction of this ring to the [[shell]] $\mathcal{E}^\infty$ (eqs:ProlongedShellInJetBundle)
+A key consequence is that the further restriction of this ring to the [[shell]] $\mathcal{E}^\infty$ (eq:ProlongedShellInJetBundle)
 is now simply the further [[quotient ring]] by the ideal generated by the [[total spacetime derivatives]]
 of the components $\frac{\partial_{EL}L}{\delta \phi^a}$ of
 the [[Euler-Lagrange form]] (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}).
@@ -4301,8 +4300,8 @@ $$
 **(local [[BV-complex]] of ordinary [[Lagrangian density]])**
 
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
-whose [[field bundle]] $E$ is a [[trivial vector bundle]] (example \ref{TrivialVectorBundleAsAFieldBundle}) and whose [[Lagrangian density]] $\mathbf{L}$ is spacetime-independent (example \ref{ShellForSpacetimeIndependentLagrangians}).
-Let $\Sigma \times \{\varphi\} \hookrightarrow \mathcal{E}^\infty$ be a constant section of the shell (eqs:ConstantSectionOfTrivialShellBundle).
+whose [[field bundle]] $E$ is a [[trivial vector bundle]] (example \ref{TrivialVectorBundleAsAFieldBundle}) and whose [[Lagrangian density]] $\mathbf{L}$ is spacetime-independent (example \ref{LocalObservablesOnInfinitesimalNeighbourhood}).
+Let $\Sigma \times \{\varphi\} \hookrightarrow \mathcal{E}^\infty$ be a constant section of the shell (eq:ConstantSectionOfTrivialShellBundle).
 
 In correspondence with def. \ref{LocalObservablesOnInfinitesimalNeighbourhood}, write
 
@@ -4317,7 +4316,7 @@ $$
 for the restriction of [[vertical vector fields]] on the [[jet bundle]] to the fiberwise [[infinitesimal neighbourhood]] 
 (example \ref{InfinitesimalNeighbourhood}) of $\Sigma \times {\varphi}$.
 
-Now we regard this as a _[[graded module]]_ over $\Omega^{0,0}_{\Sigma,cp}(E,\varphi)$ (eqs:FunctionsOnInfNbh) concentrated in degree $-1$:
+Now we regard this as a _[[graded module]]_ over $\Omega^{0,0}_{\Sigma,cp}(E,\varphi)$ (eq:FunctionsOnInfNbh) concentrated in degree $-1$:
 
 $$
   \Gamma_{\Sigma,cp}(J^\infty_\Sigma V_\Sigma E,\varphi)[-1]
@@ -4346,7 +4345,7 @@ for the vector field generator that takes derivatives along $\partial_{\phi^a_{,
 
 Evaluation of vector fields in the
 [[total spacetime derivatives]] $\frac{d^l}{d x^{\mu_1} \cdots d x^{\mu_l}} \delta\mathbf{L} \in \Omega^{p,0}_\Sigma(E) \wedge \delta \Omega^{0,0}_\Sigma(E)$ of the [[variational derivative]]  (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}) yields a [[linear map]]
-over $\Omega^{\bullet,\bullet}_{\Sigma,cp}(E,\varphi)$ (eqs:ObservablesOnInfinitesimalNeighbourhoodOfZeroInShellInFieldFiber)
+over $\Omega^{\bullet,\bullet}_{\Sigma,cp}(E,\varphi)$ (eq:ObservablesOnInfinitesimalNeighbourhoodOfZeroInShellInFieldFiber)
 
 $$
   \iota_{(-)}\delta_{EL} \mathbf{L}
@@ -4390,7 +4389,7 @@ $$
   \frac{\delta_{EL}\mathbf{L}}{\delta \phi^a} \delta \phi^a
 $$
 
-then this map is given on the [[antifield]] basis elements (eqs:AntifieldCoordinates) by
+then this map is given on the [[antifield]] basis elements (eq:AntifieldCoordinates) by
 
 $$
   \iota_{(-)} {\delta L_{EL}}
@@ -4450,9 +4449,9 @@ at the background solution $\varphi$.
 
 There are canonical homomorphisms of [[dgc-algebras]], one from the
 algebra of functions $\Omega^{0,0}_{\Sigma,cp}(E,\varphi)$ on the [[infinitesimal neighbourhood]]
-of the background solution $\varphi$ (eqs:FunctionsOnInfinitesimalNeighbourhoodOfBackgroundSolution) support to the local BV-complex
+of the background solution $\varphi$ to the local BV-complex
 and from there to the
-local observables on the  neighbourhood of the background solution $\varphi$ (eqs:ObservablesOnInfinitesimalNeighbourhoodOfZeroInShellInFieldFiber), all considered
+local observables on the  neighbourhood of the background solution $\varphi$ (eq:ObservablesOnInfinitesimalNeighbourhoodOfZeroInShellInFieldFiber), all considered
 with compact spacetime support:
 
 $$
@@ -4579,7 +4578,7 @@ or the _[[covariant phase space]]_, to amplify that it does not actually depend 
 Given a [[Lagrangian field theory]] $(E, \mathbf{L})$ on a [[spacetime]] $\Sigma$ (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}), then a
 _[[Cauchy surface]]_ is a [[submanifold]] $\Sigma_p \hookrightarrow \Sigma$ such that the
 restriction map from the [[on-shell]] [[space of field histories]] $\Gamma_\Sigma(E)_{\delta_{EL}\mathbf{L} = 0}$
-(eqs:OnShellFieldHistories) to the space (eqs:OnShellFieldHistoriesInHigherCodimension) of on-shell field histories
+(eq:OnShellFieldHistories) to the space (eq:OnShellFieldHistoriesInHigherCodimension) of on-shell field histories
 restricted to the [[infinitesimal neighbourhood]] of $\Sigma_p$ is an [[isomorphism]]:
 
 $$
@@ -4601,7 +4600,7 @@ Given a [[Lagrangian field theory]] $(E, \mathbf{L})$ on a [[spacetime]] $\Sigma
 and given a [[Cauchy surface]] $\Sigma_p \hookrightarrow \Sigma$ (def. \ref{CauchySurface})
 then the corresponding _[[phase space]]_ is
 
-1. the [[smooth space]] $\Gamma_{\Sigma_p}(E)_{\delta_{EL}\mathbf{L} = 0}$ (eqs:OnShellFieldHistoriesInHigherCodimension)
+1. the [[smooth space]] $\Gamma_{\Sigma_p}(E)_{\delta_{EL}\mathbf{L} = 0}$ (eq:OnShellFieldHistoriesInHigherCodimension)
    of [[on-shell]] field histories restricted to the [[infinitesimal neighbourhood]] of $\Sigma_p$;
 
 1. equipped with the [[presymplectic form]]
@@ -4764,7 +4763,7 @@ $$
 $$
 
 in that the [[pullback of differential forms|pullback]] of the
-two [[presymplectic forms]] (eqs:TransgressionOfPresymplecticCurrentToCauchySurface) coincides on the
+two [[presymplectic forms]] (eq:TransgressionOfPresymplecticCurrentToCauchySurface) coincides on the
 space of field histories:
 
 $$
@@ -4863,7 +4862,7 @@ $$
 $$
 
 whose transgression over the Cauchy surface $\Sigma_p$ equals the transgression of $A$ over all of
-spacetime $\Sigma$, under the isomorphism (eqs:CauchySurfaceIsomorphismOnHistorySpace)
+spacetime $\Sigma$, under the isomorphism (eq:CauchySurfaceIsomorphismOnHistorySpace)
 
 $$
   \array{
@@ -4963,13 +4962,13 @@ on the jet bundle.
 +-- {: .proof}
 ###### Proof
 
-We need to see that equation (eqs:PoissonBracketTransgressedToCauchySurface) is well defined,
+We need to see that equation (eq:PoissonBracketTransgressedToCauchySurface) is well defined,
 in that it does not depend on the choice of Hamiltonian form $(H_i, v_i)$
 representing the local Hamiltonian observable $\tau_{\Sigma_p}(H_i)$.
 
 It is clear that all the transgressions involved depend only on the restriction
 of the Hamiltonian forms to the pullback of the jet bundle to $N_\Sigma \Sigma_p$.
-Moreover the Poisson bracket on the jet bundle (eqs:LocalPoissonLieBracket)
+Moreover the Poisson bracket on the jet bundle (eq:LocalPoissonLieBracket)
 respects this restriction.
 
 Now after this restriction, a Hamiltonian form is in the [[kernel]] of the transgression
@@ -5247,7 +5246,7 @@ $$
    \,.
 $$
 
-With the Poisson bracket kernel $\{\phi(\vec x), \phi(\vec y)\} = \delta(\vec x - \vec y)$ from example \ref{PoissonBracketForRealScalarField} (eqs:PoissonBracketOfScalarFieldPointEvaluationOnMinkowskiSpacetime),
+With the Poisson bracket kernel $\{\phi(\vec x), \phi(\vec y)\} = \delta(\vec x - \vec y)$ from example \ref{PoissonBracketForRealScalarField} (eq:PoissonBracketOfScalarFieldPointEvaluationOnMinkowskiSpacetime),
 it follow that the  (integral kernel for the) Poisson bracket of these mode functionals is
 that of the [[canonical commutation relations]]:
 
@@ -5292,14 +5291,14 @@ $$
     d^p \vec k
 $$
 
-for the positive and negative energy contributions from the Fourier expansion in (eqs:FourierModeExpansionOfScalarFieldOnminkowskiSpacetime), so that
+for the positive and negative energy contributions from the Fourier expansion in (eq:FourierModeExpansionOfScalarFieldOnminkowskiSpacetime), so that
 
 $$
   \phi(x) = \phi^{(-)}(x)  + \phi^{(+)}(x)
   \,.
 $$
 
-Using the [[canonical commutation relation]] of the mode functions (eqs:CanonicalPoissonCommutationOfModesOfFreeScalarFieldOnMinkowskiSpacetime), we find
+Using the [[canonical commutation relation]] of the mode functions (eq:CanonicalPoissonCommutationOfModesOfFreeScalarFieldOnMinkowskiSpacetime), we find
 
 $$
   \label{2PointFunctionFreeScalarFieldOnMinkowski}
@@ -5390,9 +5389,9 @@ a [[homological resolution]] of the [[shell]] in terms of  "[[antifields]]" is u
 
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
 whose [[field bundle]] $E$ is a [[trivial vector bundle]] (example \ref{TrivialVectorBundleAsAFieldBundle}) and whose [[Lagrangian density]] $\mathbf{L}$ is spacetime-independent (example \ref{ShellForSpacetimeIndependentLagrangians}).
-Let $\Sigma \times \{\varphi\} \hookrightarrow \mathcal{E}$ be a constant section of the shell (eqs:ConstantSectionOfTrivialShellBundle).
+Let $\Sigma \times \{\varphi\} \hookrightarrow \mathcal{E}$ be a constant section of the shell (eq:ConstantSectionOfTrivialShellBundle).
 
-Then in the BV-variational bicomplex (eqs:ComparisonMorphismFromOrdinaryBVComplexToLocalObservables)
+Then in the BV-variational bicomplex (eq:ComparisonMorphismFromOrdinaryBVComplexToLocalObservables)
 there exists the _BV-presymplectic current_
 
 $$
@@ -5403,7 +5402,7 @@ $$
 $$
 
 where $(\phi^a)$ are the given [[field (physics)|field]]
-[[coordinates]], $\overline{\phi}_a$ the corresponding [[antifield]] coordinates (eqs:AntifieldCoordinates)
+[[coordinates]], $\overline{\phi}_a$ the corresponding [[antifield]] coordinates (eq:AntifieldCoordinates)
 and $\frac{\delta_{EL} \mathbf{L}}{\delta \phi^a}$ the corresponding components of the [[Euler-Lagrange form]]
 (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}).
 
@@ -5418,7 +5417,7 @@ Consider a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecond
 without any non-trivial implicial [[infinitesimal gauge transformations]] (def. \ref{ImplicitInfinitesimalGaugeSymmetry});
 for instance the [[real scalar field]] (def. \ref{LagrangianForFreeScalarFieldOnMinkowskiSpacetime}).
 
-Inside its [[variational BV-bicomplex]] (def. \ref{BVVariationalBicmplex}) we may form the linear combination of
+Inside its BV-complex (def. \ref{BVComplexOfOrdinaryLagrangianDensity}) we may form the linear combination of
 
 1. the [[presymplectic current]] $\Omega_{BFV}$ (example \ref{FreeScalarFieldEOM})
 
@@ -5454,7 +5453,7 @@ while the other two terms vanish simply by degree reasons.
 
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
 whose [[field bundle]] $E$ is a [[trivial vector bundle]] (example \ref{TrivialVectorBundleAsAFieldBundle}) and whose [[Lagrangian density]] $\mathbf{L}$ is spacetime-independent (example \ref{ShellForSpacetimeIndependentLagrangians}).
-Let $\Sigma \times \{\varphi\} \hookrightarrow \mathcal{E}$ be a constant section of the shell (eqs:ConstantSectionOfTrivialShellBundle).
+Let $\Sigma \times \{\varphi\} \hookrightarrow \mathcal{E}$ be a constant section of the shell (eq:ConstantSectionOfTrivialShellBundle).
 
 Then the BV-presymplectic current $\Omega_{BV}$ (def. \ref{BVPresymplecticCurrent})
 witnesses the [[on-shell]] vanishing (prop. \ref{HorizontalDerivativeOfPresymplecticCurrentVanishesOnShell}) of the [[total derivative|total spacetime derivative]] of the genuine [[presymplectic current]] $\Omega_{BFV}$ (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}) in that the [[total derivative|total spacetime derivative]]
@@ -5481,7 +5480,7 @@ $$
 $$
 
 then the [[pullback of differential forms|pullback]] of the
-two [[presymplectic forms]] (eqs:TransgressionOfPresymplecticCurrentToCauchySurface)
+two [[presymplectic forms]] (eq:TransgressionOfPresymplecticCurrentToCauchySurface)
 on the incoming and outgoing [[spaces of field histories]], respectively, differ by the
 BV-differential of the transgression of the BV-presymplectic current:
 
@@ -5661,7 +5660,7 @@ def. \ref{ImplicitInfinitesimalGaugeSymmetry} is what needs to be considered (pr
 We do say "implicit" here to distinguish from their "explicit" incarnations
 [[action Lie algebroid|acting]] on [[field (physics)|fields]]:
 the morphisms in the [[action Lie algebroid]] whose [[Chevalley-Eilenberg algebra]]
-is the _[[BRST complex]]_ ([below](#ReducedPhaseSpace)).
+is the _[[BRST complex]]_ (example \ref{LocalOffShellBRSTComplex} below).
 
 Since the point of quantization of [[gauge field theory]] via [[causal perturbation theory]]
 is that it does _not apply_ as long as there are non-trivial implicit infinitesimal gauge symmetries
@@ -5817,7 +5816,7 @@ locally of finite order (prop. \ref{JetBundleIsLocallyProManifold}).
 
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}).
 
-A [[gauge parameter|gauge parameterized]] [[evolutionary vector field]] (eqs:CoordinateExpressionForGaugeParameterized)
+A [[gauge parameter|gauge parameterized]] [[evolutionary vector field]] (eq:CoordinateExpressionForGaugeParameterized)
 
 $$
   v_\epsilon
@@ -5866,7 +5865,7 @@ $$
   \iota_{v_\epsilon} \delta_{EL}\mathbf{L} = d(\cdots)
 $$
 
-vanishes for all choices of $\epsilon$ up to a horizontally exact term. From (eqs:CoordinateExpressionForGaugeParameterized) this
+vanishes for all choices of $\epsilon$ up to a horizontally exact term. From (eq:CoordinateExpressionForGaugeParameterized) this
 means that
 
 $$
@@ -5901,7 +5900,7 @@ on [[Minkowski spacetime]] $\Sigma$ from example \ref{ElectromagnetismLagrangian
 
 Let $\mathcal{G} \coloneqq \Sigma \times \mathbb{R}$ be the [[trivial line bundle]], regarded as a
 [[gauge parameter]] bundle (def. \ref{GaugeParametrizedInfinitesimalGaugeTransformation}).
-Then the [[gauge parameter|gauge parametrized]] [[evolutionary vector field]] (eqs:CoordinateExpressionForGaugeParameterized) given on a gauge parameter
+Then the [[gauge parameter|gauge parametrized]] [[evolutionary vector field]] (eq:CoordinateExpressionForGaugeParameterized) given on a gauge parameter
 
 $$
   \epsilon \in \Gamma_\Sigma(\mathcal{G}) = C^\infty(\Sigma)
@@ -5934,12 +5933,12 @@ $$
   \,.
 $$
 
-This is simply because $f^{\mu \nu} = -f^{\nu \mu}$ is skew-symmetric by definition (eqs:FaradayTensorJet),
+This is simply because $f^{\mu \nu} = -f^{\nu \mu}$ is skew-symmetric by definition (eq:FaradayTensorJet),
 while [[partial derivatives]] commute with each other.
 
 This is the archetypical _[[infinitesimal gauge symmetry]]_ that gives [[gauge theory]] its name.
 
-The prolongation (prop. \ref{EvolutionaryVectorFieldProlongation}) of the vector field $v_\epsilon$ (eqs:EMImplicitGaugeSymmetry)
+The prolongation (prop. \ref{EvolutionaryVectorFieldProlongation}) of the vector field $v_\epsilon$ (eq:EMImplicitGaugeSymmetry)
 is
 
 $$
@@ -6426,7 +6425,7 @@ $(c^\alpha)$ are [[ghost field]] coordinates on the fiber of $\mathcal{G}[1]$ wi
 jet coordinates $((x^\mu), (c^\alpha), (c^\alpha_\mu), \cdots)$.
 
 Then in terms of the
-corresponding coordinate expression for the gauge symmetries $R$ (eqs:CoordinateExpressionForGaugeParameterized)
+corresponding coordinate expression for the gauge symmetries $R$ (eq:CoordinateExpressionForGaugeParameterized)
 the [[BRST differential]] is given on the [[field (physics)|fields]] by
 
 $$
@@ -6447,7 +6446,7 @@ and it extends from there, via prop. \ref{EvolutionaryVectorFieldProlongation},
 to jets of fields and ghost fields by (anti-)commutativity with the [[total derivative|total spacetime derivative]].
 
 Moreover, since the action of the [[infinitesimal gauge symmetries]] is by definition via
-prolongations (prop. \ref{EvolutionaryVectorFieldProlongation}) of [[evolutionary vector fields]] (def. \ref{EvolutionaryVectorField}) and hence compatible with the [[total derivative|total spacetime derivative]] (eqs:ProlongedEvolutionaryVectorFieldContractionAnticommutedWithHorizontalDerivative) this construction
+prolongations (prop. \ref{EvolutionaryVectorFieldProlongation}) of [[evolutionary vector fields]] (def. \ref{EvolutionaryVectorField}) and hence compatible with the [[total derivative|total spacetime derivative]] (eq:ProlongedEvolutionaryVectorFieldContractionAnticommutedWithHorizontalDerivative) this construction
 descends to the horizontal tangent Lie algebroid $J^\infty_\Sigma(E)/T\Sigma$ (example \ref{HorizontalTangentLieAlgebroid})
 to yield
 
@@ -6463,7 +6462,7 @@ $$
   d - s_{BRST}
 $$
 
-The [[Chevalley-Eilenberg algebra]] of functions on this [[differential graded manifold]] (eqs:CEAlgebra)
+The [[Chevalley-Eilenberg algebra]] of functions on this [[differential graded manifold]] (eq:CEAlgebra)
 is called the off-shell _[[local BRST complex]]_ ([Barnich-Brandt-Henneaux 94](#BarnichBrandtHenneaux94)).
 
 We may pass from the [[local BRST complex]] on the [[jet bundle]] to the "global" BRST
@@ -6488,7 +6487,7 @@ and extended from there to $Obs_\Sigma(E \times_\Sigma \mathcal{G}[1])$ as a gra
 Consider the [[Lagrangian field theory]] of [[free field|free]] [[electromagnetism]] on [[Minkowski spacetime]] (example \ref{ElectromagnetismLagrangianDensity}) with its [[gauge parameter]] bundle as in
 example \ref{InfinitesimalGaugeSymmetryElectromagnetism}.
 
-By (eqs:EMProlongedSymmetryVectorField) the action of the [[BRST differential]] is the derivation
+By (eq:EMProlongedSymmetryVectorField) the action of the [[BRST differential]] is the derivation
 
 $$
   s_{BRST}
@@ -6534,37 +6533,50 @@ $\,$
 ## Reduced phase space
  {#ReducedPhaseSpace}
 
+We have seen [above](#PhaseSpace) that the [[covariant phase space]] of a [[Lagrangian field theory]] is, 
+if it exists, the [[shell]] (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}) equipped
+with the [[Poisson bracket Lie n-algebra|local Poisson bracket]] (example \ref{LocalPoissonBracket}).
+The [[local observables]] (def. \ref{LocalObservables}) which operationally define the [[classical field theory]] (or rather [[prequantum field theory]]) are functions on the [[covariant phase space]], and the [[Poisson bracket Lie n-algebra|local Poisson bracket]]
+on them operationally defines the corresponding [[quantum field theory]] ([below](#QuantumObservables)). Therefore
+the existence of the [[covariant phase space]] is crucial for the construction of the [[field theory]].
+
+However, we have then seen in prop. \ref{NonTrivialImplicitInfinitesimalGaugeSymmetriesPbstructExistenceOfCauchySurfaces} that
+there may be an [[obstruction]] to the existence of the [[covariant phase space]], namely the presence of 
+[[infinitesimal gauge symmetries]] [[infinitesimal symmetry of the Lagrangian|of the Lagrangian]] which have been "left implicit".
+We have then discussed how to make these [[infinitesimal gauge symmetries]] "explicit" by hard-wiring their [[action]] into the geometry of the [[field (physics)|fields]] by passing to the corresponding infinitesimal [[homotopy quotient]] (def. \ref{LInfinityAlgebroid}) of (the [[jet bundle]] of) the [[field bundle]], given by the corresponding [[action Lie algebroid]] (def. \ref{ActionLieAlgebroid}). Its [[Chevalley-Eilenberg algebra|Chevalley-Eilenberg]] [[algebra of functions]] is called the _[[local BRST complex]]_ of the theory (example \ref{LocalOffShellBRSTComplex}).
+
+The corresponding [[covariant phase space]] with [[infinitesimal gauge symmetries]] made explicit is now correspondingly given by the 
+[[shell]] (eq:ShellInJetBundle) not inside the plain space of fields, but inside this [[homotopy quotient]] by the 
+[[infinitesimal gauge symmetries]]. This [[homotopy quotient]] of the naive phase space by the [[infinitesimal gauge symmetries]]
+is called the _[[reduced phase space]]_. Refined to its local incarnation in the [[jet bundle]]
+we may call this the "derived reduced prolonged [[shell]]"
+(def. \ref{DerivedProlongedShell} below). Its [[algebra of functions]] is called the _[[local BV-BRST complex]]_ of the theory.
+
+In the next section [below](#GaugeFixing) we find that, at least in good situations, if all non-trivial implicit 
+[[infinitesimal gauge symmetries]] have been made explicit this way by hard-wiring their action into the geometry of the [[reduced phase space]], then
+the [[obstruction]] to the existence of the [[covariant phase space]] vanishes.  Hence in this case then the ([[perturbative quantum field theory|perturbative]]) [[quantum field theory]] can exist (discussed [further below](#QuantumObservables)). This is
+why we do need to pass to the [[reduced phase space]].
 
 
-Where the ordinary [[shell]] of a [[Lagrangian field theory]] is the _[[critical locus]]_ of the [[Lagrangian density]] with respect to
-[[Euler-Lagrange variational derivative|Euler-Lagrange variation]]
-inside the ordinary [[jet bundle]] manifold (see [above](#CriticalLocusShell)),
-the analog of the concept of [[critical locus]] in the [[homotopy theory|homotopy theoretic]]
-"[[higher differential geometry]]" or "[[derived geometry]]" is called the _[[derived critical locus]]_.
-Hence the correct incarnation of the [[shell]] when all implicit [[infinitesimal gauge symmetries]] have been made explicit
-(as [above](#GaugeSymmetries))
-is the _[[derived critical locus]]_ of the [[Lagrangian function]] regarded now as a function on the [[action Lie algebroid]] of gauge symmetries
-acting on the [[field bundle]] (hence an element of the [[BRST complex]], example \ref{LocalOffShellBRSTComplex}). The [[algebra of functions]] on this "derived shell" is called the _[[BV-BRST complex]]_ of the theory.
-
-(...)
-
-
-We now first discuss the construction of the reduced phase space in the simple form in 
+In order to exhibit the key structure of the [[reduced phase space]] without getting distracted 
+by the local [[jet bundle]] geometry, we first discuss now the simple form in
 which it would appear after [[transgression of variational differential forms|transgression]] (def. \ref{TransgressionOfVariationalDifferentialFormsToConfigrationSpaces})
 if [[spacetime]] were [[compact space|compact]], so that, by the [[principle of extremal action]] (prop. \ref{PrincipleOfExtremalAction}),
-it would be the [[derived critical locus]] ($d S = 0$) of a globally defined [[action functional]] $S$.
+it would be the [[derived critical locus]] ($d S = 0$) of a globally defined [[action functional]] $S$. 
+This is example \ref{ArchetypeOfBVBRSTComplex} below.
 
-This serves as a warmup to the true construction of the derived [[shell]] in the [[jet bundle]], where the 
+This serves as a warmup to the true construction of the derived [[shell]] in the [[action Lie algebroid]] of the [[jet bundle]], where the 
 action functional is "de-transgressed" to the [[Lagrangian density]], which is invariant under gauge transformations
-only up to horizontally exact terms.
+only up to horizontally exact terms. This culminates in example \ref{LocalBVBRSTComplexIsDerivedCriticalLocusOfEulerLagrangeForm} below.
 
 
-With [[L-infinity algebroid|Lie algebroids]] in hand, we now turn to discussion of the "maps" between them, their
-_[[homomorphisms]]_ (def. \ref{HomomorphismBetweenLieAlgebroids}) below.
-This makes manifest in which sense [[L-infinity algebroid|higher Lie algebroids]] make [[gauge symmetry]] _explicit_,
-since functions out of an [[action Lie algebroid]] $X/\mathfrak{g}$ (def. \ref{ActionLieAlgebroid})
-turn out to be _necessarily_ gauge invariant (example \ref{GaugeInvariantFunctionsIntermsOfLieAlgebroids} below).
+$\,$
 
+The key to understanding the "derived reduced prolonged shell", and hence the [[reduced phase space]],
+as a [[derived critical locus]] is first to exhibit the [[Euler-Lagrange form|Euler-Lagrange variation]]
+of the [[action functional]], or rather of the [[Lagrangian density]], as a [[section]] of the analog of 
+a [[cotangent bundle]], but now in the realm of [[Lie ∞-algebroids]] (prop. \ref{ExteriorDifferentialOfGaugeInvariantFunctionIsSectionOfInfinitesimalCotangentLieAlgebroid} and prop. \ref{EulerLagrangeFormIsSectionOfLocalCotangentBundleOfJetBundleGaugeActionLieAlgebroid} below).
+To this end we need to first of all consider [[homomorphisms]] of [[Lie algebroids]]:
 
 
 
@@ -6726,13 +6738,11 @@ $$
     \right)
     &
     \left(
-      \left(
-        \phi^a
-      \right)
-      ,
-      \left(
-        \frac{\partial}{\partial \phi^a}
-      \right)
+      \phi^a
+    \right)
+    ,
+    \left(
+      \frac{\partial}{\partial \phi^a}
     \right)
     &
     \left(
@@ -6832,7 +6842,7 @@ $$
   \,.
 $$
 
-In this notation the full action of the CE-differential is therefore 
+In this notation the full action of the CE-differential is therefore the following:
 
 $$
   \label{CEDifferentialOnGeneratorsForInfinitesimalCotangentBundleOfActionLieAlgebroid}
@@ -7159,7 +7169,6 @@ coordinates as in (eq:GeneratorsOfDerivedCriticalLocusInActionLieAlgebroid) as w
 and including also the horizontal differentials:
 
 $$
-  \label{}
   \array{
     &
     \left(
@@ -7193,7 +7202,7 @@ $$
 $$
 
 Observe that in terms of these coordinates the ordinary commutator of graded derivations 
-has the following succincte expression:
+has the following succinct expression:
 
 $$
   \begin{aligned}
@@ -7397,9 +7406,10 @@ The local refinement of example \ref{ArchetypeOfBVBRSTComplex} is now the follow
 
 +-- {: .num_prop #LocalBVBRSTComplexIsDerivedCriticalLocusOfEulerLagrangeForm}
 ###### Proposition
+**([[local BV-BRST complex]])**
 
 .... the [[Chevalley-Eilenberg algebra]] of the derived prolonged shell $\mathcal{E}^\infty_{BV}$
-(def. \ref{DerivedProlongedShell}) is the [[local BV-BRST complex]]
+(def. \ref{DerivedProlongedShell}) is the [[local BV-BRST complex]]...
 
 =--
 
@@ -7427,6 +7437,7 @@ This operation is the local BV-BRST differential by ([Barnich-Henneaux 96 (2.12)
 
 =--
 
+$\,$
 
 So far the discussion yields just the function algebra on the derived reduced prolonged shell.
 We now discuss the derived analog of the full [[variational bicomplex]] (def. \ref{VariationalBicomplexOnSecondOrderJetBundleOverTrivialVectorBundleOverMinkowskiSpacetime})
@@ -7460,7 +7471,7 @@ on the graded elements.
 | [[smooth manifolds]] | [[derived Lie algebroids]] |
 |----------------------|----------------------------|
 | [[algebra of functions]] | [[Chevalley-Eilenberg algebra]] |
-| algebra of [[differential forms]] | [[Weil alebra]] |
+| algebra of [[differential forms]] | [[Weil algebra]] |
 
 
 +-- {: .num_example #ClassicalWeilAlgebra}
@@ -7469,13 +7480,13 @@ on the graded elements.
 
 Let $\mathfrak{g}$ be a [[Lie algebra]] with corresponding
 [[Lie algebroid]] $B \mathfrak{g}$ (example \ref{BasicExamplesOfLieAlgebroids}).
-Then the Weil algebra (def. \ref{WeilAlgebra}) of $B \matzhfrak{g}$ is
+Then the Weil algebra (def. \ref{WeilAlgebra}) of $B \mathfrak{g}$ is
 the traditional Weil algebra of $\mathfrak{g}$ from classical [[Lie theory]].
 
 =--
 
-+-- {: .num_example }
-###### Example
++-- {: .num_defn #BVVariationalBicomplex}
+###### Definition
 **([[variational BV-bicomplex]])**
 
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
@@ -7513,7 +7524,7 @@ $$
     d_W 
       & =  \mathbf{d} - (d - s)
     \\
-    & = \delta - s
+    & = \delta + s
   \end{aligned}
   \,.
 $$
@@ -7526,16 +7537,20 @@ this defines the "variational BV-BRST-bicomplex".
 =--
 
 
-$\,
+
+$\,$
 
 
+It turns out that the [[local BV-BRST cohomology]] (prop. \ref{LocalBVBRSTComplexIsDerivedCriticalLocusOfEulerLagrangeForm})
+of the "derived reduced prolonged shell" very neatly captures all the aspects of [[Lagrangian field theory]]
+that we have been discussing so far:
 
 
-+-- {: .num_prop #dWCohomology}
-###### Proposition
-**([[local BRST cohomology]])**
++-- {: .num_example #dWCohomology}
+###### Example
+**([[Noether's theorem|Noether theorem I]] in terms of [[local BRST cohomology]])**
 
-The $d_W$-closed elements in degree $(p,0)$ are precisely pairs $(v,J_v)$
+The $d-s$-closed elements in degree $(p,0)$ are precisely pairs $(v,J_v)$
 consisting of an implicit infinitesimal local gauge symmetry $v$ and a conserved current $J_v$ for it.
 
 The $d_W$-exact elements in this degree are sums of
@@ -7604,8 +7619,7 @@ $$
 
 +-- {: .num_example }
 ###### Example
-**(gauge symmetries modulo EOMs are $(d-s)$-exact)
-
+**([[infinitesimal gauge symmetry]] via [[local BRST cohomology]])**
 
 An  [[infinitesimal gauge symmetry]] $v_\epsilon$  of [[gauge parameter]] $(\epsilon^\alpha)$ is a vector field on the jet bundle with components of the form
 
@@ -7756,13 +7770,13 @@ $$
 $$
 
 
-
-
 =--
 
+(...)
 
 
 ## Gauge fixing
+ {#GaugeFixing}
 
 In good cases the resulting combined [[BV-BRST complex]] is [[quasi-isomorphism|quasi-isomorphic]]
 to a [[derived Lie algebroid]] version of the [[shell]], degreewise compatible with
@@ -7831,7 +7845,7 @@ applied to the [[local BV-complex]] (def. \ref{BVComplexOfOrdinaryLagrangianDens
 
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
 whose [[field bundle]] $E$ is a [[trivial vector bundle]] (example \ref{TrivialVectorBundleAsAFieldBundle}) and whose [[Lagrangian density]] $\mathbf{L}$ is spacetime-independent (example \ref{ShellForSpacetimeIndependentLagrangians}),
-and let $\Sigma \times \{\varphi\} \hookrightarrow \mathcal{E}$ be a constant section of the shell (eqs:ConstantSectionOfTrivialShellBundle).
+and let $\Sigma \times \{\varphi\} \hookrightarrow \mathcal{E}$ be a constant section of the shell (eq:ConstantSectionOfTrivialShellBundle).
 
 By inspection we find that the [[cochain cohomology]] of the local [[BV-complex]]
 $\Omega^{0,0}_{\Sigma,cp}(E,\varphi)\vert_{\mathcal{E}_{BV}}$ (def. \ref{BVComplexOfOrdinaryLagrangianDensity}) has the following interpretation:
@@ -7853,7 +7867,7 @@ $$
   \end{aligned}
 $$
 
-of functions on the [[shell]] $\mathcal{E}$ (eqs:ObservablesOnInfinitesimalNeighbourhoodOfZeroInShellInFieldFiber).
+of functions on the [[shell]] $\mathcal{E}$ (eq:ObservablesOnInfinitesimalNeighbourhoodOfZeroInShellInFieldFiber).
 
 In degree -1 the [[kernel]] of the [[BV-differential]] going to degree 0
 
@@ -7905,11 +7919,11 @@ $$
 
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
 whose [[field bundle]] $E$ is a [[trivial vector bundle]] (example \ref{TrivialVectorBundleAsAFieldBundle}) and whose [[Lagrangian density]] $\mathbf{L}$ is spacetime-independent (example \ref{ShellForSpacetimeIndependentLagrangians})
-and let $\Sigma \times \{\varphi\} \hookrightarrow \mathcal{E}$ be a constant section of the shell (eqs:ConstantSectionOfTrivialShellBundle).
+and let $\Sigma \times \{\varphi\} \hookrightarrow \mathcal{E}$ be a constant section of the shell (eq:ConstantSectionOfTrivialShellBundle).
 Furthermore assume that $\mathbf{L}$ is at least quadratic in the vertical coordinates around $\varphi$.
 
 Then the local [[BV-complex]] $\Omega^{0,0}_\Sigma(E,\varphi)\vert_{\mathcal{E}_{BV}}$ of local observables (def. \ref{BVComplexOfOrdinaryLagrangianDensity}) is a [[homological resolution]] of the the algebra of functions on the [[infinitesimal neighbourhood]] of $\varphi$ in the [[shell]] (example \ref{ShellForSpacetimeIndepefLindentLagrangians}),
-hence the canonical comparison morphisms (eqs:ComparisonMorphismFromOrdinaryBVComplexToLocalObservables)
+hence the canonical comparison morphisms (eq:ComparisonMorphismFromOrdinaryBVComplexToLocalObservables)
 is a [[quasi-isomorphism]]
 precisely if there is no non-trivial (example \ref{TrivialImplicialInfinitesimalGaugeTransformations}) implicit [[infinitesimal gauge symmetry]] (def. \ref{ImplicitInfinitesimalGaugeSymmetry}):
 
@@ -7937,7 +7951,7 @@ $$
 ###### Proof
 
 By example \ref{InterpretationCohomologyOfBVComplex} the vanishing of non-trivial implicit infinitesimal
-gauge symmetries is equivalent to the vanishing of the cochain cohomology of the local BV-complex in degree -1 (eqs:NegativeOneCohomologyBV).
+gauge symmetries is equivalent to the vanishing of the cochain cohomology of the local BV-complex in degree -1 (eq:NegativeOneCohomologyBV).
 
 Therefore the statement to be proven is
 equivalently that the [[Koszul complex]] of the sequence of elements
@@ -8080,7 +8094,14 @@ But [[perturbative quantum field theory]] is well understood. This we turn to ne
 ...
 
 
+## Acknowledgement
+
+Whatever is good in these notes owes a lot to discussion with [[Igor Khavkine]].
 
 ***
+
+$\,$
+
+$\,$
 
 
