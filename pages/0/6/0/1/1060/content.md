@@ -18,6 +18,20 @@
 * table of contents
 {:toc}
 
+## Idea
+
+There are many ways to describe a $*$-autonomous category; here are a few:
+
+* it is a [[monoidal category]] in which all objects have "duals", but in a weaker sense than in a [[compact closed category]].
+* it is a [[closed monoidal category]] in which the internal-hom can be expressed in terms of the tensor product in a particular way.
+* it is a [[linearly distributive category]] in which all objects have "duals" in an appropriate linearly distributive sense.
+* it is a semantics for classical multiplicative [[linear logic]].
+* it is a sort of categorified [[Frobenius algebra]].
+
+In particular, it has two monoidal structures $\otimes$ and $\parr$, as in a linearly distributive category.  However, because of the dualization operation $(-)^\ast$, each of them determines the other by a "multiplicative [[de Morgan's laws|de Morgan]] duality": $A\parr B \cong (A^\ast \otimes B^\ast)^\ast$.  Thus, in the definition we only have to refer to one monoidal structure.
+
+A $\ast$-autonomous category is a special case of the notion of [[star-autonomous pseudomonoid]] (a.k.a. Frobenius pseudomonoid, since it categorifies a [[Frobenius algebra]]) in a [[monoidal bicategory]].
+
 ## Definition ##
 
 There are two useful equivalent formulation of the definition
@@ -107,7 +121,7 @@ is a [[compact closed category]].
 Conversely, if the $\ast$-autonomous category is not compact closed, then by this linear " [[de Morgan duality]]" the tensor product induces a second binary operation
 
 $$
-  A \parr B \coloneqq  (A^\perp \otimes B^\perp)^\perp
+  A \parr B \coloneqq  (A^\ast \otimes B^\ast)^\ast
   \,.
 $$
 
