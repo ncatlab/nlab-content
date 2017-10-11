@@ -201,25 +201,6 @@ $$
   }
 $$
 
-But beware that this uses a convenient abuse of notation: A horizontal derivative of an antifield, such as
-
-$$
-  d( b^\mu \overline{\phi}_a ) \iota_{\partial_\mu} dvol_\Sigma
-$$
-
-which looks like it should be taken by the BV-BRST differential $s$ to
-
-$$
-  - d( b^\mu \frac{\delta_{El} L}{\delta \phi^a} ) \iota_{\partial_\mu} dvol_\Sigma
-$$
-
-should rather be regarded as shorthand for the element
-
-$$
-  ( b^\mu \frac{\delta_{El} L}{\delta \phi^a} ) \iota_{\partial_\mu} dvol_\Sigma
-$$
-
-which is taken by the horizontal differential $d$ to the same expression. This way no horizontal derivatives of antifields apear as actual coordinate functions: the antifields are the coordinates not on the full [[tangent bundle]] of the [[jet bundle]], but just on the bundle of [[evolutionary vector fields]], which locally are functions on the jet bundle with coefficients just the $\overline{\phi}_a$.
 
 
 
@@ -233,7 +214,7 @@ The general theory is discussed in
 
 * {#BarnichBrandtHenneaux94} [[Glenn Barnich]], [[Friedemann Brandt]], [[Marc Henneaux]], _Local BRST cohomology in the antifield formalism: I. General theorems_, Commun.Math.Phys.174:57-92,1995 ([arXiv:hep-th/9405109](https://arxiv.org/abs/hep-th/9405109))
 
-That the local [[antibracket]] satisfies the [[Jacobi identity]] up to horizontally exact terms is discussed in 
+Details of the local [[antibracket]] are discussed in
 
 * {#BarnichHenneaux96} [[Glenn Barnich]], [[Marc Henneaux]], section 2 and appendix B of _Isomorphisms between the Batalin-Vilkovisky antibracket and the Poisson bracket_,  	J.Math.Phys. 37 (1996) 5273-5296 ([arXiv:hep-th/9601124](https://arxiv.org/abs/hep-th/9601124))
 
