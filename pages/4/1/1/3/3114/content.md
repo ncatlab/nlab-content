@@ -67,11 +67,11 @@ Moreover, at least assuming classical logic, SVC + COSHEP implies AC.  First not
 
 SVC was introduced in the paper
 
-* [[Andreas Blass]],  "Injectivity, projectivity, and the axiom of choice."  Trans. Amer. Math. Soc. 1979
+* [[Andreas Blass]], _Injectivity, projectivity, and the axiom of choice_,   Trans. Amer. Math. Soc. **255** (1979), pp 31-59 doi:[10.1090/S0002-9947-1979-0542870-6](https://doi.org/10.1090/S0002-9947-1979-0542870-6)
 
 where most of the above results were proven.  Some others can be found in
 
-* [[Michael Rathjen]] and Lubarsky, "Choice principles in constructive and classical set theories".
+* [[Michael Rathjen]], _Choice principles in constructive and classical set theories_, in: Logic Colloquium '02, pp 299-326, Lect. Notes Log., **27**, (2006) ([pdf](http://www1.maths.leeds.ac.uk/~rathjen/acend.pdf))
 
 
 category: foundational axiom
