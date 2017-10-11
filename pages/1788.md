@@ -1,4 +1,5 @@
 
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -6769,8 +6770,9 @@ $$
 =--
 
 
-+-- {: .num_prop}
++-- {: .num_prop #ExteriorDifferentialOfGaugeInvariantFunctionIsSectionOfInfinitesimalCotangentLieAlgebroid}
 ###### Proposition
+**([[exterior differential]] of [[gauge invariant]] function is [[section]] of [[automorphism ∞-Lie algebra|infinitesimal cotangent bundle]])**
 
 For $\mathfrak{a}$ an [[Lie ∞-algebroid]] (def. \ref{LInfinityAlgebroid}) over some $X$;
 and $S \;\colon\;\mathfrak{a} \longrightarrow \mathbb{R}$ a [[gauge invariant]] smooth function on it (example \ref{GaugeInvariantFunctionsIntermsOfLieAlgebroids});
@@ -6872,6 +6874,76 @@ $$
 
 =--
 
+
++-- {: .num_defn #DerivedCriticalLocusOfGaugeInvariantFunctionOnLieAlgebroid}
+###### Definition
+**([[derived critical locus]] of [[gauge invariant]] function on [[Lie ∞-algebroid]])
+
+Let $\mathfrak{a}$ be a [[Lie ∞-algebroid]] (def. \ref{LInfinityAlgebroid}) over some $X$, let
+
+$$
+  S \;\colon\; \mathfrak{a} \longrightarrow \mathbb{R}
+$$
+
+be a [[gauge invariant]] function (exmaple \ref{GaugeInvariantFunctionsIntermsOfLieAlgebroids}) and consider
+the section of of its infinitesimal cotangent bundle $T^\ast \mathfrak{a}$ (def. \ref{CotangentBundleOfActionLieAlgebroid}) corresponding to its exterior derivative
+via prop. \ref{ExteriorDifferentialOfGaugeInvariantFunctionIsSectionOfInfinitesimalCotangentLieAlgebroid}.
+
+$$
+  \mathfrak{a} && \overset{d S}{\longrightarrow} && T^\ast \mathfrak{a}
+  \\
+  & \searrow && \swarrow
+  \\
+  && \mathfrak{a}
+$$
+
+Then the _[[derived critical locus]]_ of $S$ is the [[derived Lie algebroid]] (def. \ref{LInfinityAlgebroid})
+$\mathfrak{a}_{d S \simeq 0}$ which is the [[homotopy pullback]] of the section $d S$ along the [[zero section]]:
+
+$$
+  \array{
+    \mathfrak{a}_{d S \simeq 0} 
+      &\longrightarrow&
+    \mathfrak{a}
+    \\
+    \downarrow &(hpb)& \downarrow^{\mathrlap{0}}
+    \\
+    \mathfrak{a}
+      &\underset{d S}{\longrightarrow}&
+    T^\ast \mathfrak{a}
+  }
+  \,.
+$$
+
+This means equivalently (details are at _[[derived critical locus]]_) that the Chevalley-Eilenberg algebra of $\mathfrak{a}_{d S \simeq 0}$ is like that of
+$T^\ast \mathfrak{a}$ except for two changes: 
+
+1. all [[derivations]] are shifted down in degree by one;
+
+1. the CE-differential on the derivations coming from vector fields $v$ on $X$ is that of $T^\ast \mathfrak{a}$
+   plus $d S(v) = v(S)$.
+   
+
+=--
+
++-- {: .num_example}
+###### Example
+
+Consider again example \ref{CotangentBundleOfActionLieAlgebroid} of a gauge invariant function $S \colon X/\mathfrak{g} \to \mathbb{R}$
+on an [[action Lie algebroid]], with [[corrdinate]] generators for the 
+[[Chevalley-Eilenberg algebra]] given by $((\phi^a), (c^\alpha))$. We denote the corresponding degree-shifted
+copies of the derivations with respect to these coordinates by 
+
+$$
+  \overline{\phi}_a \;\coloneqq\; \frac{\partial}{\partial \phi^a}[-1]
+$$
+
+$$
+  \overline{c}_\alpha \;\coloneqq\; \frac{\partial}{\partial c^\alpha}[-1]
+$$
+
+
+=--
 
 +-- {: .num_defn}
 ###### Definition
@@ -7548,4 +7620,3 @@ But [[perturbative quantum field theory]] is well understood. This we turn to ne
 ***
 
 
-[[!redirects A first idea of quantum field theory]]
