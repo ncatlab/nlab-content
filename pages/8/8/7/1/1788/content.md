@@ -13,6 +13,13 @@
 
 > this entry is going to be one chapter of _[[geometry of physics]]_
 
+> relevant background on geometryis in the chapters on
+
+> [[geometry of physics -- smooth sets]], [[geometry of physics -- differential forms|differential forms]];
+
+> [[geometry of physics -- supergeometry]].
+
+$\,$
 
 #A first idea of quantum field theory#
 * table of contents
@@ -6712,34 +6719,50 @@ where
   for smooth functions $R^a_\alpha$ on $X$.
 
 Then the infinitesimal cotangent Lie algebroid $T^\ast (X/\mathfrak{g})$ (def. \ref{LieAlgebroidInfinitesimalCotangentBundle})  
-has as underlying cochain complex 
+has as underlying cochain complex has generators
+
 
 $$
   \array{
-    \left\langle
-      \frac{\partial}{\partial c^a}
-    \right\rangle
     &
-    \overset{[d_{\mathfrak{a}}, -]}{\to}
+    \left(
+      \frac{\partial}{\partial c^\alpha}
+    \right)
     &
-    \left\langle
-      \frac{\partial}{\partial x^i}
-    \right\rangle
-    \oplus
-     \left\langle
-       c^a \frac{\partial}{\partial c^b}
-     \right\rangle
+    \left(
+      \left(
+        \phi^a
+      \right)
+      ,
+      \left(
+        \frac{\partial}{\partial \phi^a}
+      \right)
+    \right)
+    &
+    \left(
+      c^\alpha
+    \right)
     \\
-    -1 && 0
+    deg = 
+    & 
+    -1
+    &
+    0
+    &
+    +1
   }
+  \,.
 $$
 
-and the CE-differential on these is given by
+The CE-differential on the new derivation generators is given by
 
 $$
   \label{CotangentLieAlgebroidDifferentialForActionLieAlgebroidOnGhostFieldCoordinates}
   \begin{aligned}
-    d_{CE(T^\ast(X/\mathfrak{g}))} \frac{\partial}{\partial c^\alpha}
+    d_{CE(T^\ast(X/\mathfrak{g}))} 
+    \left( 
+      \frac{\partial}{\partial c^\alpha}
+    \right)
     & \coloneqq
     \left[d_{CE(X/\mathfrak{g})}, \frac{\partial}{\partial c^\alpha} \right]
     \\
@@ -6755,15 +6778,91 @@ and
 $$
   \label{CotangentLieAlgebroidDifferentialForActionLieAlgebroidOnFieldCoordinates}
   \begin{aligned}
-    d_{CE(T^\ast(X/\mathfrak{g}))}  \frac{\partial}{\partial \phi^a}
+    d_{CE(T^\ast(X/\mathfrak{g}))}  
+    \left(
+      \frac{\partial}{\partial \phi^a}
+    \right)
+    & \coloneqq
     \left[
       d_{CE(X/\mathfrak{g})}, 
       \frac{\partial}{\partial \phi^a}
     \right]
-     =
+    \\
+    & =
     c^\alpha \frac{\partial R_\alpha^b}{\partial \phi^a} \frac{\partial}{\partial \phi^b}
   \end{aligned}
   \,.
+$$
+
+To ease the notation one abbreviates
+
+$$
+  \overline{\phi}_a \;\coloneqq\; \frac{\partial}{\partial \phi^a}
+  \phantom{AAAAA}
+  \overline{c}_\alpha \;\coloneqq\; \frac{\partial}{\partial c^\alpha}
+$$
+
+so that the generator content then reads
+
+$$
+  \label{GeneratorsOfDerivedCriticalLocusInActionLieAlgebroid}
+  \array{
+    &
+    \left(
+      \overline{c}_\alpha
+    \right)
+    &
+    \left(
+      \left(
+        \phi^a
+      \right)
+      ,
+      \left(
+        \overline{\phi}_a
+      \right)
+    \right)
+    &
+    \left(
+      c^\alpha
+    \right)
+    \\
+    deg =
+    &
+    -1
+    &
+    0
+    &
+    +1
+  }
+  \,.
+$$
+
+In this notation the full action of the CE-differential is therefore 
+
+$$
+  \label{CEDifferentialOnGeneratorsForInfinitesimalCotangentBundleOfActionLieAlgebroid}
+  \array{
+    & d_{CE(X/\mathfrak{g})}
+    \\
+    \phi^a
+      &\mapsto&
+    c^\alpha R^a_\alpha \frac{\partial S}{\partial \phi^a}
+    \\
+    c^\alpha
+      & \mapsto&
+    \tfrac{1}{2} \gamma^\alpha{}_{\beta \gamma} c^\beta c^\gamma
+    \\
+    \overline{\phi}_a
+      &\mapsto&
+    +
+    c^\alpha \frac{\partial R_\alpha^b}{\partial \phi^a} \overline{\phi}_b
+    \\
+    \overline{c}_\alpha
+      &\mapsto&
+    R_\alpha^a  \frac{\partial}{\partial \phi^a}
+      +
+    \gamma^\beta{}_{\alpha \gamma} c^\gamma \overline{c}_\beta
+  }
 $$
 
 
@@ -6777,7 +6876,7 @@ $$
 For $\mathfrak{a}$ an [[Lie ∞-algebroid]] (def. \ref{LInfinityAlgebroid}) over some $X$;
 and $S \;\colon\;\mathfrak{a} \longrightarrow \mathbb{R}$ a [[gauge invariant]] smooth function on it (example \ref{GaugeInvariantFunctionsIntermsOfLieAlgebroids});
 there is an induced [[section]] $d S$ of the infinitesimal cotangent Lie algebroid (def. \ref{LieAlgebroidInfinitesimalCotangentBundle}) 
-bundle projection (eq:CotangentLieAlgebrpoidProjection:
+bundle projection (eq:CotangentLieAlgebrpoidProjection):
 
 $$
   \array{
@@ -6885,16 +6984,18 @@ $$
   S \;\colon\; \mathfrak{a} \longrightarrow \mathbb{R}
 $$
 
-be a [[gauge invariant]] function (exmaple \ref{GaugeInvariantFunctionsIntermsOfLieAlgebroids}) and consider
+be a [[gauge invariant]] function (example \ref{GaugeInvariantFunctionsIntermsOfLieAlgebroids}) and consider
 the section of of its infinitesimal cotangent bundle $T^\ast \mathfrak{a}$ (def. \ref{CotangentBundleOfActionLieAlgebroid}) corresponding to its exterior derivative
 via prop. \ref{ExteriorDifferentialOfGaugeInvariantFunctionIsSectionOfInfinitesimalCotangentLieAlgebroid}.
 
 $$
-  \mathfrak{a} && \overset{d S}{\longrightarrow} && T^\ast \mathfrak{a}
-  \\
-  & \searrow && \swarrow
-  \\
-  && \mathfrak{a}
+  \array{
+    \mathfrak{a} && \overset{d S}{\longrightarrow} && T^\ast \mathfrak{a}
+    \\
+    & \searrow && \swarrow
+    \\
+    && \mathfrak{a}
+  }
 $$
 
 Then the _[[derived critical locus]]_ of $S$ is the [[derived Lie algebroid]] (def. \ref{LInfinityAlgebroid})
@@ -6906,7 +7007,7 @@ $$
       &\longrightarrow&
     \mathfrak{a}
     \\
-    \downarrow &(hpb)& \downarrow^{\mathrlap{0}}
+    \downarrow &(pb)& \downarrow^{\mathrlap{0}}
     \\
     \mathfrak{a}
       &\underset{d S}{\longrightarrow}&
@@ -6915,38 +7016,128 @@ $$
   \,.
 $$
 
-This means equivalently (details are at _[[derived critical locus]]_) that the Chevalley-Eilenberg algebra of $\mathfrak{a}_{d S \simeq 0}$ is like that of
-$T^\ast \mathfrak{a}$ except for two changes: 
+This means equivalently (details are at _[[derived critical locus]]_) that the Chevalley-Eilenberg algebra of $\mathfrak{a}_{d S \simeq 0}$ is like that of the infinitesimal cotangent Lie algebroid $T^\ast \mathfrak{a}$ (def. \ref{LieAlgebroidInfinitesimalCotangentBundle}) except for two changes:
 
 1. all [[derivations]] are shifted down in degree by one;
 
-1. the CE-differential on the derivations coming from vector fields $v$ on $X$ is that of $T^\ast \mathfrak{a}$
-   plus $d S(v) = v(S)$.
+1. the CE-differential on the derivations coming from vector fields $v$ on $X$ is that of the infinitesimal 
+   cotangent Lie algebroid $T^\ast \mathfrak{a}$ plus $d S(v) = v(S)$.
    
 
 =--
 
-+-- {: .num_example}
++-- {: .num_example #ArchetypeOfBVBRSTComplex}
 ###### Example
+**(archetype of the [[BV-BRST complex]])**
 
 Consider again example \ref{CotangentBundleOfActionLieAlgebroid} of a gauge invariant function $S \colon X/\mathfrak{g} \to \mathbb{R}$
-on an [[action Lie algebroid]], with [[corrdinate]] generators for the 
-[[Chevalley-Eilenberg algebra]] given by $((\phi^a), (c^\alpha))$. We denote the corresponding degree-shifted
-copies of the derivations with respect to these coordinates by 
+on an [[action Lie algebroid]] (def. \ref{ActionLieAlgebroid})
+
+With [[coordinates]] as in example \ref{CotangentBundleOfActionLieAlgebroid}, the generators 
+of the [[derived critical locus]] $(X/\mathfrak{g})_{d S \simeq 0}$ (def. \ref{DerivedCriticalLocusOfGaugeInvariantFunctionOnLieAlgebroid})
+are as in (eq:GeneratorsOfDerivedCriticalLocusInActionLieAlgebroid), except for the degree shift:
 
 $$
-  \overline{\phi}_a \;\coloneqq\; \frac{\partial}{\partial \phi^a}[-1]
+  \array{
+    &
+    \left(
+      \overline{c}^\alpha
+    \right)
+    &
+    \left(
+      \overline{\phi}^a
+    \right)
+    &
+    \left(
+      \phi^a
+    \right)
+    &
+    \left(
+      c^\alpha
+    \right)
+    \\
+    deg = &
+    -2
+    &
+    -1
+    &
+    0
+    &
+    +1
+  }
 $$
 
+
+and with differential given by
+
 $$
-  \overline{c}_\alpha \;\coloneqq\; \frac{\partial}{\partial c^\alpha}[-1]
+  \array{
+    & d_{CE(\mathfrak{a}_{d S \simeq 0})}
+    \\
+    \phi^a 
+      &\mapsto&
+    c^\alpha R^a_\alpha \frac{\partial S}{\partial \phi^a}
+    \\
+    c^\alpha
+      & \mapsto&
+    \tfrac{1}{2} \gamma^\alpha{}_{\beta \gamma} c^\beta c^\gamma
+    \\
+    \overline{\phi}_a 
+      &\mapsto& 
+    \underset{
+      new
+    }{
+    \underbrace{
+      \frac{\partial S}{\partial \phi^a}
+    }}
+    +
+    c^\alpha \frac{\partial R_\alpha^b}{\partial \phi^a} \overline{\phi}_b
+    \\
+    \overline{c}_\alpha
+      &\mapsto&
+    R_\alpha^a  \frac{\partial}{\partial \phi^a}
+      +
+    \gamma^\beta{}_{\alpha \gamma} c^\gamma \overline{c}_\beta
+  }
 $$
 
+This is like the differential (eq:CEDifferentialOnGeneratorsForInfinitesimalCotangentBundleOfActionLieAlgebroid) of the cotangent Lie algebroid from example \ref{CotangentBundleOfActionLieAlgebroid}, except 
+for the degree-shift by -1 of the overline generators and the crucial new term indicated by the underbrace.
+
+If we think of the function $S$ as being the [[action functional]] (example \ref{ActionFunctional})
+of a [[Lagrangian field theory]] $(E,\mathbf{L})$ (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) over a [[compact space|compact]] [[spacetime]] $\Sigma$,
+with $X$ the  [[space of field histories]] (or rather an [[infinitesimal neighbourhood]] therein),
+hence with $\mathfrak{g}$ a Lie algebra of [[gauge symmetries]] acting on the field histories, then 
+the [[Chevalley-Eilenberg algebra]] $CE(X/\mathfrak{g}_{d S \simeq 0})$ of the [[derived critical locus]] of $S$ is called the 
+_[[BV-BRST complex]]_ of the theory.
 
 =--
 
-+-- {: .num_defn}
+Of course in applications of interest, the spacetime $\Sigma$ is _not_ [[compact space|compact]]. 
+In that case one may still appeal to a construction on the [[space of field histotries]]
+as in example \ref{ArchetypeOfBVBRSTComplex} by considering the action functional for all
+[[adiabatic switching|adiabatically switched]] $b \mathbf{L}$ Lagrangians, with $b \in C^\infty(\Sigma)$.
+This approach is taken in ([Fredenhagen-Rejzner 11a](BV-BRST+formalism#FredenhagenRejzner11a)).
+
+Here we instead consider now the "local lift" or "de-transgression" of the above construction from the 
+[[space of field histories]] to the [[jet bundle]] of the field bundle of the theory, refining the
+[[BV-BRST complex]] to the _[[local BV-BRST complex]]_, corresponding to the [[local BRST complex]]
+from example \ref{LocalOffShellBRSTComplex}.
+
+This requires a slight refinement of the construction that leads to example \ref{ArchetypeOfBVBRSTComplex}: 
+In contrast to the [[action functional]] $S = \tau_\Sigma(\mathbf{L})$,
+the [[Lagrangian density]] is not strictly _invariant_ under [[infinitesimal gauge transformations]], in general,
+rather it may change up to a horizontally exact term. The same is then true for its 
+[[Euler-Lagrange variational derivative]] $\delta_{EL} \mathbf{L}$. This means that $\delta_{EL} \mathbf{L}$
+is not a section of the infinitesimal cotangent bundle (def. \ref{LieAlgebroidInfinitesimalCotangentBundle}) of the 
+gauge action Lie algebroid on the jet bundle, but by a twisted version of it: 
+
+The following definition \ref{LocalInfinitesimalCotangentLieAlgebroid} is the local refinement of
+def. \ref{LieAlgebroidInfinitesimalCotangentBundle}:
+
++-- {: .num_defn #LocalInfinitesimalCotangentLieAlgebroid}
 ###### Definition
+**(local infinitesimal cotangent Lie algebroid)**
 
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
 over some [[spacetime]] $\Sigma$, and let $\mathcal{G} \overset{gb}{\to} \Sigma$ be
@@ -6965,10 +7156,27 @@ $$
 
 whose [[Chevalley-Eilenberg algebra]] is the [[local BRST complex]] of the field theory.
 
-(...)
+spring
+
+It _local infinitesimal cotangent Lie algebroid_ is defined as in def. \ref{LieAlgebroidInfinitesimalCotangentBundle}
+except that the differential is changed by horizontally exact terms:
+
+
 
 
 =--
+
+
+$\,$
+
+$\,$
+
+$\,$
+
+**raw material from here on**
+
+$\,$
+
 
 
 
