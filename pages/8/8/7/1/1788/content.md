@@ -51,7 +51,8 @@ This comparatively simple setup already subsumes what is considered in most trad
 Further generalization, necessary for the discussion of global topological effects such as [[instanton]] configurations
 of [[gauge fields]] will be discussed elsewhere (see at _[[homotopical algebraic quantum field theory]]_).
 
-Throughout we use the case of the real [[scalar field]] as an illustrative running example, which we develop alongside with the theory. The discussion of other types of [[field (physics)|fields]] that are of more genuine interest in applications is postponed to their dedicated chapters below.
+Throughout we use the case of the real [[scalar field]] as an illustrative running example, which we develop alongside with the theory,
+and the [[free field theory|free]] [[electromagnetic field]] when it comes to [[gauge theory]]. The discussion of other types of [[field (physics)|fields]] that are of more genuine interest in applications is postponed to their dedicated chapters below.
 
 
 ## Geometry
@@ -155,7 +156,78 @@ $$
 This differential form $\tau_\Sigma \omega$ on the mapping space
 is called the _[[transgression of differential forms|transgression]]_ of $\omega$ with respect to $\Sigma$.
 
+We also need to consider [[infinitesimal]] spaces of various sorts. In order to describe these
+we make use of the _three magic algebraic facts of differential geometry_
 
+
++-- {: .num_prop #AlgebraicFactsOfDifferentialGeometry}
+###### Proposition
+**(the three magic algebraic properties of [[differential geometry]])**
+
+1. **[[embedding of smooth manifolds into formal duals of R-algebras]]**
+
+   The [[functor]] that sends a [[smooth manifold]] $X$ to its $\mathbb{R}$-[[associative algebra|algebra]] 
+   $C^\infty(X)$ of [[smooth functions]] with values in the [[real line]] is a [[fully faithful functor]];
+   
+   $$
+     C^\infty(-)
+     \;\colon\;
+     SmthMfd \hookrightarrow \mathbb{R} Alg^{op}
+     \,.
+   $$
+   
+   This means that [[smooth functions]] $f \colon X \longrightarrow Y$ are in [[natural bijection]] with their
+   induced algebra [[homomorphisms]] $C^\infty(X) \overset{f^\ast}{\longrightarrow} C^\infty(Y)$ so that 
+   one may equivalently handle smooth manifolds entirely via their algebras of smooth functions.
+
+1. **[[smooth Serre-Swan theorem|embedding of smooth vector bundles into formal duals of R-algebra modules]]**
+
+   For a fixed [[smooth manifold]] $X$ the [[functor]] that sends a [[smooth vector bundle]] $E \to X$
+   to its [[space of sections]] $\Gamma_X(E)$, regarded as a [[module]] over the [[algebra of functions|algebra of]]
+   [[smooth function]] $C^\infty(X)$ is a [[fully faithful functor]]
+   
+   $$
+     \Gamma_X(-) \;\colon\; VectBund_X \hookrightarrow C^\infty(X) Mod
+   $$
+   
+   Its [[essential image]] consists of the [[finitely generated module|finitely generated]] [[projective modules]].
+     
+1. [[derivations of smooth functions are vector fields|vector fields are derivations of smooth functions]].
+
+(Here all [[manifolds]] are assumed to have [[finite number|finite]] [[dimension]] and all [[vector bundles]] 
+are assumed to have [[finite number|finite]] [[rank of a vector bundle]].)
+
+=--
+
+
++-- {: .num_example #InfinitesimalNeighbourhood}
+###### Example
+**([[infinitesimal neighbourhood]])
+
+For $x_0 \in \mathbb{R}^n$ a point and $k \in \mathbb{N}$, then 
+the order-$k$ _[[infinitesimal neighbourhood]]_ $\mathbb{D}^k_{x_0}$ of $x_0$ 
+is _defined_ to be the space whose [[algebra of functions]] is 
+the [[polynomial algebra]] in the $n$ canonical [[coordinate]] functions,
+modulo the relation which regards a product of more than $k$ of these as being zero:
+
+$$
+  C^\infty( \mathbb{D}^k_{x_0} )
+  \;\coloneqq\;
+  \mathbb{R}[ (x^1 - x_0^1), \cdots (x^n - x_0^n)  ]/( (x^1- x_0^1), \cdots (x^n - x_0^n)  )^{k+1}
+  \,.
+$$
+
+Similarly the full [[infinitesimal neighbourhood]] $\mathbb{D}_{x_0}$ (without restriction on the order) is the 
+the space whose [[algebra of functions]] is the [[formal power series algebra]]
+
+$$
+  C^\infty( \mathbb{D}_{x_0} )
+  \;\coloneqq\;
+  \mathbb{R}[ [ (x^1 - x_0^1), \cdots (x^n - x_0^n)  ] ]
+  \,.
+$$
+
+=--
 
 
 $\,$
@@ -1610,8 +1682,8 @@ $$
   \end{aligned}
 $$
 
-The [[smooth space|smooth subspace]] of the [[jet bundle]] on which the [[Euler-Lagrange form]] 
-vanishes 
+The [[smooth space|smooth subspace]] of the [[jet bundle]] on which the [[Euler-Lagrange form]]
+vanishes
 
 $$
   \label{ShellInJetBundle}
@@ -1627,7 +1699,7 @@ $$
   \,.
 $$
 
-or rather the smaller subspace on which also all [[total spacetime derivatives]] 
+or rather the smaller subspace on which also all [[total spacetime derivatives]]
 vanish (the "[[formally integrable PDE|formally integrable prolongation]]")
 is called the _[[shell]]_
 
@@ -4122,6 +4194,7 @@ aspect of [[field theory]], namely we consider the restriction of [[local observ
 [[infinitesimal neighbourhood]] of a background [[on-shell]] field history:
 
 
+ 
 +-- {: .num_defn #LocalObservablesOnInfinitesimalNeighbourhood}
 ###### Definition
 **([[local observables]] around [[infinitesimal neighbourhood]] of background [[on-shell]] field history)
@@ -4139,7 +4212,7 @@ $$
 $$
 
 for the restriction of the [[local observables]] (def. \ref{LocalObservables}) to the fiberwise
-[[infinitesimal neighbourhood]] of $\Sigma \times \{\varphi\}$.
+[[infinitesimal neighbourhood]] (example \ref{InfinitesimalNeighbourhood}) of $\Sigma \times \{\varphi\}$.
 
 Explicitly, this means the following:
 
@@ -4195,8 +4268,8 @@ $$
     & =
   C^\infty_{cp}(\Sigma)\left[ \left[ (\phi^a - \varphi^a ), (\phi^a_{,\mu} -\varphi^a_{,\mu}), \cdots, (\phi^a_{,\mu_1 \cdots \mu_k}- \varphi^a_{,\mu_1 \cdots \mu_k}) \right] \right]
    /
-  \left( 
-    \frac{d^k}{ d x^{\mu_1} \cdots d x^{\mu_l}} \frac{\delta_{EL} L}{\delta \phi^a}  
+  \left(
+    \frac{d^k}{ d x^{\mu_1} \cdots d x^{\mu_l}} \frac{\delta_{EL} L}{\delta \phi^a}
   \right)_{ { a \in \{1, \cdots, s\} }  \atop { { l \in \{1, \cdots, k\} } \atop { \mu_r \in \{0, \cdots, p\} }   } }
   \end{aligned}
   \,.
@@ -4208,14 +4281,13 @@ $$
   LocObs_\Sigma(E,\varphi)
     \;\simeq\;
   \left(
-     \Omega^{0,0}_{\Sigma,cp}(E,\varphi)\vert_{\mathcal{E}} \otimes \langle dvol_\Sigma \rangle
+     \Omega^{0,0}_{\Sigma,cp}(E,\varphi)\vert_{\mathcal{E}} \langle dvol_\Sigma \rangle
   \right)/(im(d))
   \,.
 $$
 
+
 =--
-
-
 
 
 
@@ -4230,26 +4302,26 @@ Let $\Sigma \times \{\varphi\} \hookrightarrow \mathcal{E}^\infty$ be a constant
 In correspondence with def. \ref{LocalObservablesOnInfinitesimalNeighbourhood}, write
 
 $$
-  \Gamma_{cp}(V_\Sigma J^\infty^\Sigma E,\varphi)
+  \Gamma_{\Sigma,cp}(V_\Sigma J^\infty^\Sigma E,\varphi)
   \simeq
-  \Gamma_{cp}(J^\infty^\Sigma V_\Sigma E,\varphi)
+  \Gamma_{\Sigma,cp}(J^\infty^\Sigma V_\Sigma E,\varphi)
   \;\in\;
   \Omega^{0,0}_{\Sigma,cp}(E) Mod
 $$
 
-for the restriction of [[vertical vector fields]] on the [[jet bundle]] to the fiberwise [[infinitesimal neighbourhood]] of 
-$\Sigma \times {\varphi}$.
+for the restriction of [[vertical vector fields]] on the [[jet bundle]] to the fiberwise [[infinitesimal neighbourhood]] 
+(example \ref{InfinitesimalNeighbourhood}) of $\Sigma \times {\varphi}$.
 
 Now we regard this as a _[[graded module]]_ over $\Omega^{0,0}_{\Sigma,cp}(E,\varphi)$ (eq:FunctionsOnInfNbh) concentrated in degree $-1$:
 
 $$
-  \Gamma_{E,cp}(J^\infty_\Sigma V_\Sigma E,\varphi)[-1]
+  \Gamma_{\Sigma,cp}(J^\infty_\Sigma V_\Sigma E,\varphi)[-1]
   \;\in\;
   \Omega^{0,0}_{\Sigma,cp}(E) Mod^{\mathbb{Z}}
   \,.
 $$
 
-This is called the module of _[[antifields]]_ to the given [[type]] of [[field (physics)|fields]] encoded by $E$.
+This is called the module of _[[antifields]]_ corresponing the given [[type]] of [[field (physics)|fields]] encoded by $E$.
 
 If the [[field bundle]] is a [[trivial vector bundle]] (example \ref{TrivialVectorBundleAsAFieldBundle}) with field coordinates
 $(\phi^a)$, then we write
@@ -4258,21 +4330,23 @@ $$
   \label{AntifieldCoordinates}
   \overline{\phi}_{a,\mu_1 \cdots \mu_l}
   \;\coloneqq\;
-  (\partial_{\phi^a})[-1]
+  \left(
+     \partial_{(\phi^a_{\mu_1 \cdots \mu_l})}
+  \right)[-1]
   \;\in\;
-  \Gamma_{E,cp}(V_\Sigma J^\infty_\Sigma E,\varphi)[-1]
+  \Gamma_{\Sigma,cp}(V_\Sigma J^\infty_\Sigma E,\varphi)[-1]
 $$
 
 for the vector field generator that takes derivatives along $\partial_{\phi^a_{,\mu_1 \cdots \mu_k}}$, but regarded now in degree -1.
 
-Evaluation of vector fields in the 
+Evaluation of vector fields in the
 [[total spacetime derivatives]] $\frac{d^l}{d x^{\mu_1} \cdots d x^{\mu_l}} \delta\mathbf{L} \in \Omega^{p,0}_\Sigma(E) \wedge \delta \Omega^{0,0}_\Sigma(E)$ of the [[variational derivative]]  (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}) yields a [[linear map]]
 over $\Omega^{\bullet,\bullet}_{\Sigma,cp}(E,\varphi)$ (eq:ObservablesOnInfinitesimalNeighbourhoodOfZeroInShellInFieldFiber)
 
 $$
   \iota_{(-)}\delta_{EL} \mathbf{L}
    \;\colon\;
-  \Gamma_{E,cp}( J^\infty_\Sigma V_\Sigma E,\varphi)[-1]
+  \Gamma_{\Sigma,cp}( J^\infty_\Sigma V_\Sigma E,\varphi)[-1]
     \longrightarrow
   \Omega^{p+1,0}_{\Sigma,cp}(E,\varphi)
   \,.
@@ -4295,7 +4369,7 @@ then this is a $\Omega^{0,0}_\sigma(E,\varphi)$-[[linear map]] of the form
 $$
   \iota_{(-)}{\delta L_{EL}}
     \;\colon\;
-  \Gamma_{E,cp}^{ev}(V_\Sigma E,\varphi)[-1]
+  \Gamma_{\Sigma,cp}^{ev}(V_\Sigma E,\varphi)[-1]
     \longrightarrow
   \Omega^{0,0}_{\Sigma,cp}(E,\varphi)
   \,.
@@ -4325,24 +4399,30 @@ $$
 Consider then the [[symmetric algebra|graded symmetric algebra]]
 
 $$
+  C^\infty( J^\infty_\Sigma((V_\Sigma E)[-1] \times_\Sigma E, \varphi) )
+  \;\coloneqq\;
   Sym_{\Omega^{0,0}_{\Sigma,cp}(E,\varphi)}\left(
-    \Gamma_{E,cp}(J^\infty_\Sigma V_\Sigma E,\varphi)[-1]
+    \Gamma_{\Sigma,cp}(J^\infty_\Sigma V_\Sigma E,\varphi)[-1]
   \right)
 $$
 
-which is generated over $\Omega^{0,0}_{\Sigma,cp}(E,\varphi)$ from the [[evolutionary vector fields]] in degree -1, and let
+which is generated over $\Omega^{0,0}_{\Sigma,cp}(E,\varphi)$ from the module of vector fields in degree -1.
+
+If we think of a single vector field as a fiber-wise [[linear function]] on the [[cotangent bundle]],
+and of a [[multivector field]] similarly as a [[multilinear function]] on the cotangent bundle, then we may
+think of this as the algebra of functions on the [[infinitesimal neighbourhood]] (example \ref{InfinitesimalNeighbourhood}) of $\varphi$
+inside the [[graded manifold]] $(V_\Sigma E)[-1] \times_\Sigma E$.
+
+
+Let now
 
 $$
   \label{BVDifferentialForOrdinaryLagrangian}
   s_{BV}
   \;\colon\;
-    Sym_{\Omega^{0,0}_{\Sigma,cp}(E,\varphi)}\left(
-    \Gamma_E(J^\infty_\Sigma V_\Sigma E,\varphi)[-1]
-  \right)
-  \;\longrightarrow\;
-  Sym_{\Omega^{0,0}_{\Sigma,cp}(E,\varphi)}\left(
-    \Gamma_E(J^\infty_\Sigma V_\Sigma E,\varphi)[-1]
-  \right)
+  C^\infty( J^\infty_\Sigma((V_\Sigma E)[-1] \times_\Sigma E, \varphi) )
+    \;\longrightarrow\;
+  C^\infty( J^\infty_\Sigma((V_\Sigma E)[-1] \times_\Sigma E, \varphi) )
 $$
 
 be the unique extension of the linear map $\iota_{(-)}{\delta_{EL} L}$ to an $\mathbb{R}$-linear [[derivation]] of degree +1 on this algebra.
@@ -4354,15 +4434,13 @@ $$
   \Omega^{0,0}_{\Sigma,cp}(E,\varphi)\vert_{\mathcal{E}_{BV}}
     \;\coloneqq\;
   \left(
-    Sym_{\Omega^{0,0}_{\Sigma,cp}(E,\varphi)}\left(
-      \Gamma_{E,cp}(J^\infty_\Sigma V_\Sigma E,\varphi)[-1]
-    \right)
+  C^\infty( J^\infty_\Sigma((V_\Sigma E)[-1] \times_\Sigma E, \varphi) )
     \,,\,
     s_{BV}
   \right)
 $$
 
-we call the _jet [[BV-complex]]_ (an example of a [[Koszul complex]]) of the Lagrangian field theory
+we call the _[[local BRST cohomology|local]] [[BV-complex]]_ (an example of a [[Koszul complex]]) of the Lagrangian field theory
 at the background solution $\varphi$.
 
 There are canonical homomorphisms of [[dgc-algebras]], one from the
@@ -5146,7 +5224,7 @@ $$
    \,.
 $$
 
-As in example \ref{PoissonBracketsOverMinkowskiSpacetime} we denote the corresponding evaluation functional
+As in example \ref{PoissonBracketForRealScalarField} we denote the corresponding evaluation functional
 
 $$
   a(\vec k) \;\colon\; C^\infty(\Sigma) \longrightarrow \mathbb{C}
@@ -5164,7 +5242,7 @@ $$
    \,.
 $$
 
-With the Poisson bracket kernel $\{\phi(\vec x), \phi(\vec y)\} = \delta(\vec x - \vec y)$ from example \ref{PoissonBracketsOverMinkowskiSpacetime} (eq:PoissonBracketOfScalarFieldPointEvaluationOnMinkowskiSpacetime),
+With the Poisson bracket kernel $\{\phi(\vec x), \phi(\vec y)\} = \delta(\vec x - \vec y)$ from example \ref{PoissonBracketForRealScalarField} (eq:PoissonBracketOfScalarFieldPointEvaluationOnMinkowskiSpacetime),
 it follow that the  (integral kernel for the) Poisson bracket of these mode functionals is
 that of the [[canonical commutation relations]]:
 
@@ -5401,7 +5479,6 @@ $$
   \\
     & =
   - \delta \frac{\delta_{EL}L }{\delta \phi^a}  \delta \phi^a dvol_{\Sigma}
-\section{  \\}
   & =
   - \delta \delta_{EL}\mathbf{L}
   \\
@@ -5602,7 +5679,7 @@ $\Omega^{0,0}_{\Sigma,cp}(E,\varphi)\vert_{\mathcal{E}_{BV}}$ (def. \ref{BVCompl
 In degree 0 the [[image]] of the [[BV-differential]] coming from degree -1 and modulo $d$-exact terms
 
 $$
-  im\left( \Gamma_{E,cp}^{ev}(V_\Sigma(E,\varphi)) \overset{s_{BV}}{\to} \Omega^{0,0}_\Sigma(E,\varphi)/im(d) \right)
+  im\left( \Gamma_{\Sigma,cp}(J^\infty_\Sigma V_\Sigma(E,\varphi)) \overset{s_{BV}}{\to} \Omega^{0,0}_\Sigma(E,\varphi)/im(d) \right)
 $$
 
 is the ideal of functions modulo $im(d)$ that vanish [[on-shell]]. Since the differential going _from_ degree 0 to degree 1 vanishes,
@@ -5621,7 +5698,7 @@ of functions on the [[shell]] $\mathcal{E}$ (eq:ObservablesOnInfinitesimalNeighb
 In degree -1 the [[kernel]] of the [[BV-differential]] going to degree 0
 
 $$
-  ker\left( \Gamma_E^{ev}(V_\Sigma(E,\varphi)) \overset{s_{BV}}{\to} \Omega^{0,0}_\Sigma(E,\varphi)\right)
+  ker\left( \Gamma_{\Sigma,cp}(J^\infty_\Sigma V_\Sigma(E,\varphi)) \overset{s_{BV}}{\to} \Omega^{0,0}_\Sigma(E,\varphi)\right)
 $$
 
 is the space of implicit [[infinitesimal gauge symmetries]] (def. \ref{ImplicitInfinitesimalGaugeSymmetry})
@@ -5629,9 +5706,11 @@ and the [[image]] of the differential coming from degree -2
 
 $$
   im\left(
-    \Gamma_{E}^{ev}(V_\Sigma E,\varphi) \wedge_{\Omega^{0,0}_\Sigma(E,\varphi)} \Gamma_E^{ev}(V_\Sigma E,\varphi)
+    \Gamma_{\Sigma,cp}(J^\infty_\Sigma V_\Sigma E,\varphi)
+       \wedge_{\Omega^{0,0}_{\Sigma,cp}(E,\varphi)}
+    \Gamma_{\Sigma,cp}(J^\infty_\Sigma V_\Sigma E,\varphi)
       \overset{s_{BV}}{\longrightarrow}
-    \Gamma_{E}^{ev}(V_\Sigma E,\varphi)
+    \Gamma_{\Sigma,cp}(J^\infty_\Sigma V_\Sigma E,\varphi)
   \right)
 $$
 
@@ -5733,9 +5812,7 @@ in the Jacobson radical.
 
 
 After these generalities on implicit [[infinitesimal gauge symmetries]] we turn attention to a more
-structured special class of them.
-
-Recall that an [[evolutionary vector field]] (def. \ref{EvolutionaryVectorField})
+structured special class of them. To that end, recall that an [[evolutionary vector field]] (def. \ref{EvolutionaryVectorField})
 is a bundle homomorphism of the form
 
 $$
@@ -6192,13 +6269,13 @@ Definition \ref{LInfinityAlgebroid} of _[[derived Lie algebroids]]_ is an encodi
 ([[homological algebra]], in this case) of a situation that is usefully thought of in terms of
 [[higher differential geometry]].
 
-To see this, notice two magic properties of ordinary [[differential geometry]]:
+To see this, reecall the magic algebraic properties of ordinary [[differential geometry]] (prop. \ref{AlgebraicFactsOfDifferentialGeometry})
 
 1. [[embedding of smooth manifolds into formal duals of R-algebras]];
 
-1. [[smooth Serre-Swan theorem]]
+1. [[smooth Serre-Swan theorem|embedding of smooth vector bundles into formal duals of modules]]
 
-(...) Together these imply that we may think of the [[graded algebra]] underlying a [[Chevalley-Eilenberg algebra]]
+Together these imply that we may think of the [[graded algebra]] underlying a [[Chevalley-Eilenberg algebra]]
 as being the [[algebra of functions]] on a [[graded manifold]]
 
 $$
@@ -6667,7 +6744,9 @@ acting on the [[field bundle]] (hence an element of the [[BRST complex]], exampl
 (...)
 
 
-
+for derived crit loc on j^infty, have to adjust commutator on  Der(O(X)) so that 
+\overline{\phi}_a \mapsto \delta_EL really a Lie algebroid homomorphism is. 
+This fixes the commutator to be {s_BRST,-}_alt
 
 
 
