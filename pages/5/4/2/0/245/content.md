@@ -16,7 +16,9 @@
 
 ## Idea
 
-Intuitively speaking, a braided monoidal category is a category with a tensor product and an isomorphism called the 'braiding' which lets us 'switch' two objects in a tensor product like $x \otimes y$.
+Intuitively speaking, a braided monoidal category is a category with a tensor product and an isomorphism called the 'braiding' which lets us 'switch' two objects in a tensor product like $x \otimes y$.  Thus the tensor product is "commutative" in a sense, but not as coherently commutative as in a [[symmetric monoidal category]].
+
+A braided monoidal category is a special case of the notion of [[braided pseudomonoid]] in a [[braided monoidal 2-category]].
 
 ## Definition
  {#Definition}
@@ -124,7 +126,7 @@ However, unlike the definition of a monoidal category as a [[bicategory]] with o
 
 
 A commutative [[monoid]] is the same as a monoid [[internalization|in the category of]] monoids.
-Similarly, a braided monoidal category is equivalent to a monoidal-category object (that is, a [[pseudomonoid]]) in the monoidal 2-category of monoidal categories.  This result goes back to the [1986 paper by Joyal and Street](http://maths.mq.edu.au/~street/JS1.pdf).
+Similarly, a braided monoidal category is equivalent to a monoidal-category object (that is, a [[pseudomonoid]]) in the monoidal 2-category of monoidal categories.  This result goes back to the [1986 paper by Joyal and Street](http://maths.mq.edu.au/~street/JS1.pdf).  (There is also a notion of [[braided pseudomonoid]] that specializes directly in [[Cat]] to braided monoidal categories.)
 
 A braided monoidal category is equivalently a category that is equipped with the structure of an [[algebra over an operad|algebra over]] the [[little cubes operad|little 2-cubes operad]].
 
