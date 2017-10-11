@@ -25,6 +25,7 @@ For higher monoidal categories there are accordingly ever more shades of the not
 
 In general, the term _symmetric monoidal_ is used for the maximally commutative case. See for instance [[symmetric monoidal (∞,1)-category]]. Notably, a symmetric monoidal [[∞-groupoid]] is, under the [[homotopy hypothesis]], the same as a [[spectrum|connective spectrum]].
 
+A symmetric monoidal category is a special case of the notion of [[symmetric pseudomonoid]] in a [[sylleptic monoidal 2-category]].
 
 ## Definition
 
