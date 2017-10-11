@@ -79,7 +79,7 @@ In the [Sem Layer](SmoothSpacesLayerSem) we discuss smooth spaces as a _[[topos]
 ### Model Layer
  {#SmoothSpacesLayerMod}
 
-In this [Model Layer](#LayerMod) we discuss concretely the definition of [[smooth spaces]] and of  [[homomorphisms]] between them,  together with basic examples and properties.
+In this [Model Layer](#LayerMod) we discuss concretely the definition of [[smooth sets]] and of  [[homomorphisms]] between them,  together with basic examples and properties.
 
 #### Plots of smooth spaces and their gluing
  {#PlotsOfSmoothSpacesAndTheirGluing}
@@ -97,6 +97,7 @@ The idea of the following definitions may be summarized like this:
 
 +-- {: .num_defn }
 ###### Definition (terminology)
+**(plots)**
 
 For brevity we will refer to "a way to lay out a coordinate system in $X$" as a _plot_ of $X$. 
 
