@@ -234,10 +234,14 @@ Application to [[gravity]] and/or [[Yang-Mills theory]] ([[Einstein-Yang-Mills t
 [[!redirects local BV complex]]
 [[!redirects local BV complexes]]
 
+[[!redirects local BV-complex]]
+[[!redirects local BV-complexes]]
+
 [[!redirects local BRST differential]]
 [[!redirects local BRST differentials]]
 
 [[!redirects local BV-BRST differential]]
 [[!redirects local BV-BRST differentials]]
+
 
 
