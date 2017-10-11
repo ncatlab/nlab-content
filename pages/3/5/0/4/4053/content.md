@@ -9,32 +9,7 @@
 =--
 =--
 
-
-The term **twist** or **twisted** is one of the hugely overloaded terms in math. Among the various meaning it may have is
-
-* [[twisted cohomology]]
-
-  * [[twisted bundle]]
-
-  * [[twisted K-theory]]
-
-* [[twisting cochain]]
-
-* [[twisted complex]]
-
-* [[twisted tensor product]]
-
-* [[twisted module of homomorphisms]]
-
-* etc....
-
-* This page here is about the notion of twist in a 
-[[braided monoidal category]] that is part of the structure of a [[balanced monoidal category]].
-
-
-***
-
-#Twists in braided monoidal categories#
+# Balanced monoidal categories#
 * automatic table of contents goes here
 {:toc}
 
@@ -44,6 +19,7 @@ A __twist__, or __balance__, in a [[braided monoidal category]] $B$ is a [[natur
 
 The condition linking the balancing to the braiding, where $\theta$ is the balance and $\beta$ is the braiding, is that $\theta_{x \otimes y}$ should be the [[composite]] of $\beta_{x,y}$, $\theta_y \otimes \theta_x$, and $\beta_{y,x}$.
 
+A balanced monoidal category is a special case of a [[balanced pseudomonoid]] in a [[balanced monoidal bicategory]].
 
 ## Properties
 
@@ -59,9 +35,8 @@ This definition is taken from [Jeff Egger](http://www.mscs.dal.ca/~jegger/4micah
 
 
 
-[[!redirects twist]]
-
 [[!redirects balancing]]
 [[!redirects balance]]
 
 [[!redirects balanced monoidal category]]
+[[!redirects balanced monoidal categories]]
