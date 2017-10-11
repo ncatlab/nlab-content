@@ -30,6 +30,8 @@ where $\otimes = \times$ is the standard [[cartesian product]] of sets.  This [[
 
 Currying can be read as a characterization of the [[internal hom]] $Hom(b,c)$ and is the basis for the following definition.
 
+A closed monoidal category is a special case of the notion of [[closed pseudomonoid]] in a [[monoidal bicategory]].
+
 
 ## Definitions
 
