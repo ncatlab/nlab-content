@@ -1,7 +1,7 @@
 
 ## Idea
 
-Invariance under [[gauge transformation]]s. See there for details.
+[[invariant|Invariance]] under [[gauge transformation]]s. See there for details.
 
 ## Related concepts
 
@@ -10,3 +10,5 @@ Invariance under [[gauge transformation]]s. See there for details.
 * [[group averaging]]
 
 [[!redirects gauge invariances]]
+
+[[!redirects gauge invariant]]
