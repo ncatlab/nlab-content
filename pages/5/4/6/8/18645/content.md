@@ -6719,34 +6719,49 @@ where
   for smooth functions $R^a_\alpha$ on $X$.
 
 Then the infinitesimal cotangent Lie algebroid $T^\ast (X/\mathfrak{g})$ (def. \ref{LieAlgebroidInfinitesimalCotangentBundle})  
-has as underlying cochain complex 
+has as underlying cochain complex has generators
+
 
 $$
   \array{
-    \left\langle
-      \frac{\partial}{\partial c^a}
-    \right\rangle
     &
-    \overset{[d_{\mathfrak{a}}, -]}{\to}
+    \left(
+      \frac{\partial}{\partial c^\alpha}
+    \right)
     &
-    \left\langle
-      \frac{\partial}{\partial x^i}
-    \right\rangle
-    \oplus
-     \left\langle
-       c^a \frac{\partial}{\partial c^b}
-     \right\rangle
+    \left(
+      \left(
+        \phi^a
+      \right)
+      ,
+      \left(
+        \frac{\partial}{\partial \phi^a}
+      \right)
+    \right)
+    &
+    \left(
+      c^\alpha
+    \right)
     \\
-    -1 && 0
+    & deg = 
+    -1
+    &
+    0
+    &
+    +1
   }
 $$
 
-and the CE-differential on these is given by
+
+and the CE-differential on the new derivation generators is given by
 
 $$
   \label{CotangentLieAlgebroidDifferentialForActionLieAlgebroidOnGhostFieldCoordinates}
   \begin{aligned}
-    d_{CE(T^\ast(X/\mathfrak{g}))} \frac{\partial}{\partial c^\alpha}
+    d_{CE(T^\ast(X/\mathfrak{g}))} 
+    \left( 
+      \frac{\partial}{\partial c^\alpha}
+    \right)
     & \coloneqq
     \left[d_{CE(X/\mathfrak{g})}, \frac{\partial}{\partial c^\alpha} \right]
     \\
@@ -6762,12 +6777,17 @@ and
 $$
   \label{CotangentLieAlgebroidDifferentialForActionLieAlgebroidOnFieldCoordinates}
   \begin{aligned}
-    d_{CE(T^\ast(X/\mathfrak{g}))}  \frac{\partial}{\partial \phi^a}
+    d_{CE(T^\ast(X/\mathfrak{g}))}  
+    \left(
+      \frac{\partial}{\partial \phi^a}
+    \right)
+    & \coloneqq
     \left[
       d_{CE(X/\mathfrak{g})}, 
       \frac{\partial}{\partial \phi^a}
     \right]
-     =
+    \\
+    & =
     c^\alpha \frac{\partial R_\alpha^b}{\partial \phi^a} \frac{\partial}{\partial \phi^b}
   \end{aligned}
   \,.
@@ -6784,7 +6804,7 @@ $$
 For $\mathfrak{a}$ an [[Lie ∞-algebroid]] (def. \ref{LInfinityAlgebroid}) over some $X$;
 and $S \;\colon\;\mathfrak{a} \longrightarrow \mathbb{R}$ a [[gauge invariant]] smooth function on it (example \ref{GaugeInvariantFunctionsIntermsOfLieAlgebroids});
 there is an induced [[section]] $d S$ of the infinitesimal cotangent Lie algebroid (def. \ref{LieAlgebroidInfinitesimalCotangentBundle}) 
-bundle projection (eq:CotangentLieAlgebrpoidProjection:
+bundle projection (eq:CotangentLieAlgebrpoidProjection):
 
 $$
   \array{
@@ -6897,11 +6917,13 @@ the section of of its infinitesimal cotangent bundle $T^\ast \mathfrak{a}$ (def.
 via prop. \ref{ExteriorDifferentialOfGaugeInvariantFunctionIsSectionOfInfinitesimalCotangentLieAlgebroid}.
 
 $$
-  \mathfrak{a} && \overset{d S}{\longrightarrow} && T^\ast \mathfrak{a}
-  \\
-  & \searrow && \swarrow
-  \\
-  && \mathfrak{a}
+  \array{
+    \mathfrak{a} && \overset{d S}{\longrightarrow} && T^\ast \mathfrak{a}
+    \\
+    & \searrow && \swarrow
+    \\
+    && \mathfrak{a}
+  }
 $$
 
 Then the _[[derived critical locus]]_ of $S$ is the [[derived Lie algebroid]] (def. \ref{LInfinityAlgebroid})
@@ -6913,7 +6935,7 @@ $$
       &\longrightarrow&
     \mathfrak{a}
     \\
-    \downarrow &(hpb)& \downarrow^{\mathrlap{0}}
+    \downarrow &(pb)& \downarrow^{\mathrlap{0}}
     \\
     \mathfrak{a}
       &\underset{d S}{\longrightarrow}&
@@ -6935,20 +6957,80 @@ $T^\ast \mathfrak{a}$ except for two changes:
 
 +-- {: .num_example}
 ###### Example
+**(archetype of the [[BV-BRST complex]])**
 
 Consider again example \ref{CotangentBundleOfActionLieAlgebroid} of a gauge invariant function $S \colon X/\mathfrak{g} \to \mathbb{R}$
-on an [[action Lie algebroid]], with [[corrdinate]] generators for the 
-[[Chevalley-Eilenberg algebra]] given by $((\phi^a), (c^\alpha))$. We denote the corresponding degree-shifted
-copies of the derivations with respect to these coordinates by 
+on an [[action Lie algebroid]] (def. \ref{ActionLieAlgebroid})
+
+With [[coordinates]] as in example \ref{CotangentBundleOfActionLieAlgebroid} the generators for the 
+[[Chevalley-Eilenberg algebra]] $CE(X/\mathfrak{g})$ given by $((\phi^a), (c^\alpha))$. We denote the corresponding degree-shifted
+copies of the derivations with respect to these coordinates (according to prop. \ref{DerivedCriticalLocusOfGaugeInvariantFunctionOnLieAlgebroid}) by
 
 $$
-  \overline{\phi}_a \;\coloneqq\; \frac{\partial}{\partial \phi^a}[-1]
+  \overline{\phi}_a \;\coloneqq\; \left(\frac{\partial}{\partial \phi^a}\right) [-1]
+  \phantom{AAAAAA}
+  \overline{c}_\alpha \;\coloneqq\; \left(\frac{\partial}{\partial c^\alpha}\right)[-1]
+  \,.
 $$
 
+Then the [[derived critical locus]] $(X/\mathfrak{g})_{d S \simeq 0}$ (def. \ref{DerivedCriticalLocusOfGaugeInvariantFunctionOnLieAlgebroid})
+is the [[derived Lie algebroid]] with generators
+
 $$
-  \overline{c}_\alpha \;\coloneqq\; \frac{\partial}{\partial c^\alpha}[-1]
+  \array{
+    &
+    \left(
+      \overline{c}^\alpha
+    \right)
+    &
+    \left(
+      \overline{\phi}^a
+    \right)
+    &
+    \left(
+      \phi^a
+    \right)
+    &
+    \left(
+      c^\alpha
+    \right)
+    \\
+    & deg =
+    -2
+    &
+    -1
+    &
+    0
+    &
+    +1
+  }
 $$
 
+and with differential given by
+
+$$
+  \array{
+    \phi^a 
+      &\mapsto&
+    c^\alpha R^a_\alpha \frac{\partial S}{\partial \phi^a}
+    \\
+    c^\alpha
+      & \mapsto&
+    \tfrac{1}{2} \gamma^\alpha{}_{\beta \gamma} c^\beta c^\gamma
+    \\
+    \overline{\phi}_a 
+      &\mapsto& 
+    \frac{\partial S}{\partial \phi^a}
+    +
+    c^\alpha \frac{\partial R_\alpha^b}{\partial \phi^a} \frac{\partial}{\partial \phi^b}
+    \\
+    \overline{c}_\alpha
+      &\mapsto&
+    R_\alpha^a  \frac{\partial}{\partial \phi^a}
+      +
+    \gamma^\beta{}_{\alpha \gamma} c^\gamma \frac{\partial}{\partial c^\beta}
+  }
+$$
 
 =--
 
