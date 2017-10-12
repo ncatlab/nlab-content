@@ -96,6 +96,7 @@ Let $R$ be a [[commutative ring]] and $(x_1, \cdots, x_d)$ a [[regular sequence]
 
 +-- {: .num_prop #KoszulResolutionForNoetherianRngAndElementsInJacobson}
 ###### Proposition
+**(Koszul resolution detected in degree (-1))**
 
 Let $R$ be a [[commutative ring]] and $(x_1, \cdots, x_d)$ a [[sequence]] of elements in $R$, such that
 
