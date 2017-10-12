@@ -4349,7 +4349,7 @@ $(\phi^a)$, then we write
 
 $$
   \label{AntifieldCoordinates}
-  \overline{\phi}_{a}^{,\mu_1 \cdots \mu_l}
+  \overline{\phi}_{a,\mu_1 \cdots \mu_l}
   \;\coloneqq\;
   \left(
      \partial_{(\phi^a_{\mu_1 \cdots \mu_l})}
@@ -4411,7 +4411,7 @@ then this map is given on the [[antifield]] basis elements (eq:AntifieldCoordina
 $$
   \iota_{(-)} {\delta L_{EL}}
   \;\colon\;
-  \overline{\phi}_{a}^{,\mu_1 \cdots \mu_l}
+  \overline{\phi}_{a,\mu_1 \cdots \mu_l}
     \;\mapsto\;
   \frac{d^l}{d x^{\mu_1} \cdots d x^{\mu_l}} \frac{\delta_{EL} L}{\delta \phi^a}
   \,.
@@ -6870,7 +6870,7 @@ $$
     \\
     \phi^a
       &\mapsto&
-    c^\alpha R^a_\alpha 
+    c^\alpha R^a_\alpha
     \\
     c^\alpha
       & \mapsto&
@@ -7098,7 +7098,7 @@ $$
     \\
     \phi^a
       &\mapsto&
-    c^\alpha R^a_\alpha 
+    c^\alpha R^a_\alpha
     \\
     c^\alpha
       & \mapsto&
@@ -7191,7 +7191,7 @@ $$
   \array{
     &
     \left(
-      \overline{c}_{\alpha}^{,\mu_1 \cdots \mu_k}
+      \overline{c}_{\alpha,\mu_1 \cdots \mu_k}
     \right)
     &
       \left(
@@ -7199,7 +7199,7 @@ $$
       \right)
       ,
       \left(
-        \overline{\phi}_{a}^{,\mu_1 \cdots \mu_k}
+        \overline{\phi}_{a,\mu_1 \cdots \mu_k}
       \right)
     &
     \left(
@@ -7234,11 +7234,11 @@ $$
       \frac{\partial f}{\partial \phi^a_{,\mu_1 \cdots \mu_k}}
     \right)
     \left(
-      \frac{\partial g}{\partial \overline{\phi}_{a}^{,\mu_1 \cdots \mu_k}}
+      \frac{\partial g}{\partial \overline{\phi}_{a,\mu_1 \cdots \mu_k}}
     \right)
     -
     \left(
-      \frac{\partial f}{\partial \overline{\phi}_{a}^{,\mu_1 \cdots \mu_k}}
+      \frac{\partial f}{\partial \overline{\phi}_{a,\mu_1 \cdots \mu_k}}
     \right)
     \left(
       \frac{\partial g}{\partial \phi^a_{,\mu_1 \cdots \mu_k}}
@@ -7250,11 +7250,11 @@ $$
       \frac{\partial f}{\partial c^\alpha_{,\mu_1 \cdots \mu_k}}
     \right)
     \left(
-      \frac{\partial g}{\partial \overline{c}_{\alpha}^{,\mu_1 \cdots \mu_k}}
+      \frac{\partial g}{\partial \overline{c}_{\alpha,\mu_1 \cdots \mu_k}}
     \right)
     -
     \left(
-      \frac{\partial f}{\partial \overline{c}_{\alpha}^{,\mu_1 \cdots \mu_k}}
+      \frac{\partial f}{\partial \overline{c}_{\alpha,\mu_1 \cdots \mu_k}}
     \right)
     \left(
       \frac{\partial g}{\partial c^\alpha_{,\mu_1 \cdots \mu_k}}
@@ -7281,7 +7281,7 @@ $$
       \right)
     \right)
     \left(
-      \frac{\partial g}{\partial \overline{\phi}_{a}^{,\mu_1 \cdots \mu_k}}
+      \frac{\partial g}{\partial \overline{\phi}_{a,\mu_1 \cdots \mu_k}}
     \right)
     -
     \left(
@@ -7304,7 +7304,7 @@ $$
       \right)
     \right)
     \left(
-      \frac{\partial g}{\partial \overline{c}_{\alpha}^{,\mu_1 \cdots \mu_k}}
+      \frac{\partial g}{\partial \overline{c}_{\alpha,\mu_1 \cdots \mu_k}}
     \right)
     -
     \left(
@@ -7406,7 +7406,7 @@ $$
     \right\}
       &\longleftarrow&
     \left\{
-      \overline{\phi}_{a}^{,\mu_1 \cdots \mu_k}
+      \overline{\phi}_{a,\mu_1 \cdots \mu_k}
     \right\}
     \\
     \left\{
@@ -7414,7 +7414,7 @@ $$
     \right\}
       &\longleftarrow&
     \left\{
-      \overline{c}_{\alpha}^{,\mu_1 \cdots \mu_k}
+      \overline{c}_{\alpha,\mu_1 \cdots \mu_k}
     \right\}
   }
 $$
@@ -7546,7 +7546,7 @@ $$
     \\
     deg =
     &
-    -2 & -1 & 0 & 1 
+    -2 & -1 & 0 & 1
   }
 $$
 
