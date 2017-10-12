@@ -176,6 +176,8 @@ The following tries to give an overview of some collection of gauge fields in ph
 
 * [[ghost field]], [[ghost-of-ghost field]]
 
+* [[gauge fixing]], [[gauge fixing fermion]], [[gauge invariant]]
+
 * [[lattice gauge theory]]
 
 * [[Gribov ambiguity]]
