@@ -61,6 +61,8 @@ Not every co-multicategory arises from a promonoidal one in this way.  Roughly, 
 
 [[Brian Day]] introduced the notion of a "premonoidal" category in [(Day 1970)](#Day70), and later renamed this to a "promonoidal" category in [(Day 1974)](#Day74) while reformulating the identity and associativity isomorphisms $\lambda,\rho,\alpha$ explicitly in terms of profunctor composition.  However, note that his definition is op'd from the definition used in this article, in the sense that a Day-promonoidal structure on a category $C$ corresponds to a pseudomonoid structure on $C^{op}$ in [[Prof]].  In particular, one example Day considers is that of a [[closed category]], which is actually a co-promonoidal category in the sense used here (analogous to the co-promonoidal structure on a multicategory described above).
 
+Regarding monoidal categories as promonoidal is useful in order to express extra structure on them, such as [[closed monoidal category|closedness]], [[star-autonomous category|$\ast$-autonomy]], or [[compact closed category|compact closedness]], in abstract bicategorical terms: these notions can be defined by adding extra structure to a [[pseudomonoid]] in the [[monoidal bicategory]] [[Prof]] (i.e. a promonoidal category), but the extra structure does not lie inside the sub-monoidal bicategory [[Cat]].
+
 ## Related pages
 
 * [[monoidal category]], [[multicategory]]
