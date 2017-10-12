@@ -1,51 +1,70 @@
-
-+-- {: .num_example #LocalBVComplexOfVacuumElectromagnetismOnMinkowskiSpacetime}
-###### Example
-**([[local BV-complex]] of [[vacuum]] [[electromagnetism]] on [[Minkowski spacetime]])**
-
-Consider the [[Lagrangian field theory]] of [[free field theory|free]] [[electromagnetism]]
-on [[Minkowski spacetime]] (example \ref{ElectromagnetismLagrangianDensity})
-with [[gauge parameter]] as in example \ref{InfinitesimalGaugeSymmetryElectromagnetism}.
-With the [[field (physics)|field]] and [[gauge parameter]] coordinates as chosen in these examples
-
-$$
-  \left(
-    (a_\mu), c
-  \right)
-$$
-
-then the [[local BV-BRST complex]] (prop. \ref{LocalBVBRSTComplexIsDerivedCriticalLocusOfEulerLagrangeForm})
-has generators
-
 $$
   \array{
-    & \overline{c} & \overline{a}^\mu & a_\mu & c
-    \\
-    deg =
-    &
-    -2 & -1 & 0 & 1
+     \underline{\mathbf{\text{pre-quantum geometry}}}
+     &&
+     \underline{\mathbf{\text{higher pre-quantum geometry}}}
+     \\
+     \,
+     \\
+     \left\{
+        \array{
+           \text{Lagrangian field theory with}
+           \\
+           \text{implicit infinitesimal gauge transformations}
+        }
+     \right\}
+     &\overset{ \text{explicate} \atop \text{gauge transformations}  }{\longrightarrow}&
+     \left\{
+        \array{
+           \text{dg-Lagrangian field theory with}
+           \\
+           \text{explicit infinitesimal gauge transformations}
+           \\
+           \text{ embodied by BRST complex }
+        }
+     \right\}
+     \\
+     && \Big\downarrow{}^{\mathrlap{ \text{pass to} \atop \text{derived critical locus} }}
+     \\
+     \Big\downarrow
+     &&
+     \left\{
+        \array{
+           \text{dg-reduced phase space}
+           \\
+           \text{ embodied by BV-BRST complex }
+        }
+     \right\}
+     \\
+     && {}^{\mathllap{\simeq}}\Big\downarrow{}^{\mathrlap{\text{fix gauge} }}
+     \\
+     \left\{
+       \array{
+         \text{ decategorified }
+         \\
+         \text{ covariant }
+         \\
+         \text{ reduced phase space }
+       }
+     \right\}
+     &\underset{\text{pass to cohomology}}{\longleftarrow}&
+     \left\{
+        \array{
+           \text{ dg-covariant}
+           \\
+           \text{reduced phase space  }
+        }
+     \right\}
   }
 $$
 
-together with their [[total spacetime derivatives]],
-and the local BV-BRST differential $s$ acts on these generators as follows:
-
-$$
-  s
-  \;\colon\;
-  \left\{
-  \array{
-    \overline{a}^\mu &\mapsto&  f^{\nu \mu}_{,\nu}  & \text{(equations of Motion -- vacuum Maxwell equations)}
-    \\
-    \overline{c} &\mapsto& \overline{a}^\mu_{,\mu} & \text{(Noether identity)}
-    \\
-    a_\mu &\mapsto& c_{,\mu} & \text{(infinitesimal gauge transformation)}
-  }
-  \right.
-$$
 
 
-=--
+Here
 
+| term  |   meaning   |
+|-------|-------------|
+| "phase space" | [[derived critical locus]] of [[Lagrangian density|Lagrangian]] equipped with [[Poisson bracket]] |
+| "reduced" | [[gauge transformations]] have been [[homotopy quotient|homotopy-quotiented]] out |
+| "covariant" | [[Cauchy surfaces]] exist degreewise |
 
-$\ddagger$
