@@ -16,7 +16,7 @@
 
 ## Idea
 
-In [[BV-BRST formalism]], for [[gauge fixing]] [[Yang-Mills theory]] (to [[Lorenz gauge]] or similar) a [[contractible chain complex]] of [[field bundles]] is introduced for two [[Lie algebra]]-valued [[field (physics)|fields]], one in degree zero, called the _Nakanishi-Lautrup field_, usually denoted "$B$" and one in degree -1, called the _[[antighost field]]_, usually denoted $\overline{C}$. See at _[[quantization of Yang-Mills theory]]_.
+In [[BV-BRST formalism]], for [[gauge fixing]] [[Yang-Mills theory]] (to [[Lorenz gauge]] or similar) a [[contractible chain complex]] of [[auxiliary field|auxiliary]] [[field bundles]] is introduced for two [[Lie algebra]]-valued [[field (physics)|fields]], one in degree zero, called the _Nakanishi-Lautrup field_, usually denoted "$B$" and one in degree -1, called the _[[antighost field]]_, usually denoted $\overline{C}$. See at _[[quantization of Yang-Mills theory]]_.
 
 Beware that there are also the [[antifields]] of the [[ghost fields]], which technically are hence "anti-ghostfields" as opposed to the Nakanishi-Lautrup "antighost-fields".  Whoever is responsible for this bad terminology should be blamed.
 
