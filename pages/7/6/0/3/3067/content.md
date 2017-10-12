@@ -16,7 +16,7 @@ Other more special kinds of pseudomonoid are generalizations of special kinds of
 * symmetric pseudomonoids
 * balanced pseudomonoids
 * closed pseudomonoids
-* $\ast$-autonomous pseudomonoids
+* $\ast$-autonomous, a.k.a. [[Frobenius pseudomonoids]]
 * compact closed (or autonomous) pseudomonoids
 
 Eventually these should probably have their own pages.
@@ -42,8 +42,6 @@ Eventually these should probably have their own pages.
 [[!redirects balanced pseudomonoids]]
 [[!redirects closed pseudomonoid]]
 [[!redirects closed pseudomonoids]]
-[[!redirects star-autonomous pseudomonoid]]
-[[!redirects star-autonomous pseudomonoids]]
 [[!redirects autonomous pseudomonoid]]
 [[!redirects autonomous pseudomonoids]]
 [[!redirects compact closed pseudomonoid]]
