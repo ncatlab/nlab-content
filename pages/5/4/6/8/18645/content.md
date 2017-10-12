@@ -62,7 +62,7 @@ This comparatively simple setup already subsumes what is considered in most trad
 Further generalization, necessary for the discussion of global topological effects such as [[instanton]] configurations
 of [[gauge fields]] will be discussed elsewhere (see at _[[homotopical algebraic quantum field theory]]_).
 
-Throughout we use the case of the  [[real scalar field]] and of the [[electromagnetic field]] as illustrative running examples, which we develop alongside with the theory.
+Throughout we use the case of the [[real scalar field]] and of the [[electromagnetic field]] as simple illustrative running examples, which we develop alongside with the theory.
 
 **running examples**
 
@@ -8331,7 +8331,7 @@ $$
 
 The [[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]] induced by this Lagrangian density $\mathbf{L}^g$ (def \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime}) are
 
-> up to relative pre-factors to be fixed...
+> up to irrelevant relative pre-factors to be fixed...
 
 $$
   \begin{aligned}
@@ -8345,7 +8345,7 @@ $$
   \end{aligned}
 $$
 
-This is indeed a system of [[normally hyperbolic differential operator|normally hyperbolic]] [[differential equations]], as oppose to the plain [[vacuum]] [[Maxwell equations]] on [[Minkowski spacetime]] $\frac{d}{d x^\mu} f^{\mu \nu} = 0$ (see also [Rezner 16, section 7.2](#Nakanishi-Lautrup+field#Rejzner16)).
+This is indeed a system of [[normally hyperbolic differential operator|normally hyperbolic]] [[differential equations]], as oppose to the plain [[vacuum]] [[Maxwell equations]] on [[Minkowski spacetime]] $\frac{d}{d x^\mu} f^{\mu \nu} = 0$ (see also [Rejzner 16, section 7.2](#Nakanishi-Lautrup+field#Rejzner16)).
 
 =--
 
