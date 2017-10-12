@@ -1289,4 +1289,4 @@ For the [[unit of an adjunction|unit]] of the $(\Gamma \vdash coDisc)$-[[adjunct
 
 (...)
 
-[[!redirects geometry of physics -- smooth sets]] 
+[[!redirects geometry of physics -- smooth spaces]] 
