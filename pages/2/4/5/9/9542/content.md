@@ -69,7 +69,10 @@ The Moyal quantization of a Poisson vector space $(V,\pi)$ arises equivalently a
 
 See at _[geometric quantization of symplectic groupoids -- Examples -- Moyal quantization](geometric+quantization+of+symplectic+groupoids#MoyalQuantizationofPoissonVectorSpace)_ for more. 
 
+
+
 ## References
+ {#References}
 
 The Moyal product was introduced independently in 
 
