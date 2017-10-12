@@ -4548,6 +4548,109 @@ $\,$
 ## Phase space
   {#PhaseSpace}
 
+It might seem that with the construction of the [[local observables]] (def. \ref{LocalObservables})
+on the [[on-shell]] [[space of field histories]] (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime})
+the [[field theory]] defined by a [[Lagrangian density]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) has been completely analyzed:
+This data specifies, in principle, which [[field histories]] are realized, and which [[observable]] properties these have.
+
+In particular, if the [[Euler-Lagrange equation|Euler-Lagrange]] [[equations of motion]] (def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime})
+admit [[Cauchy surfaces]] (def. \ref{CauchySurface} below), i.e. spatial [[codimension]] 1 slices of [[spacetimes]]
+such that a [[field history]] is uniquely specified already by its restriction to the [[infinitesimal neighbourhood]]
+of that spatial slice, then a sufficiently complete collection of [[local observables]] whose spacetime support (def. \ref{SpacetimeSupport})
+[[covering|covers]] that Cauchy surface allows to _predict_ the evolution of the field configurations through time
+from that Cauchy surface.
+
+This is all what one might think a theory of physical fields should accomplish, and in fact this is essentially
+all that was thought to be required of a theory of nature from about [[Isaac Newton]]'s time to about [[Max Planck]]'s time.
+
+However, we have also seen that there are generically [[infinitesimal symmetries of the Lagrangian]] (def. \ref{SymmetriesAndConservedCurrents})
+and their analog in [[codimension]] 1 [[Hamiltonian vector field|infinitesimal symmetries of the pre-symplectic current]]
+(def. \ref{HamiltonianForms}), forming an [[infinitesimal]] [[symmetry group]], 
+reflected by the [[Poisson bracket Lie n-algebra|local Poisson bracket]] (prop. \ref{LocalPoissonBracket}).
+
+The [[transgression of variational differential forms|transgression]] of that local Poisson bracket to the [[on-shell]]
+[[space of field histories]] yields the corresponding infinitesimal symmetry group acting on the [[on-shell]] [[field histories]],
+the actual [[Poisson bracket]]. This data, the [[on-shell]] [[space of field histories]] equipped with [[infinitesimal]]
+[[gauge symmetry]] exhibited by the [[Poisson bracket]] is called the _[[phase space]]_ of the theory (def. \ref{PhaseSpaceAssociatedWithCauchySurface}) below.
+
+But from the basic principles of [[homotopy theory]] we learn that given any [[structure]] on a [[space]]
+which is [[invariant]] with respect to a [[symmetry group]] [[action|acting]] on the space 
+(here: the [[Lagrangian]]/[[action functional]] on the [[jet bundle]]/[[space of field histories]])
+then the true structure at hand is the [[homotopy quotient]] of that [[space]] by that [[symmetry group]].
+We will explain this further below. This here just to point out that the [[homotopy quotient]] of the 
+[[phase space]] by the [[Hamiltonian vector field|infintiesimal symmetries of the presymplectic current]]
+is called the _[[symplectic groupoid]]_ and that _true_ [[algebra of observables]] is hence 
+the ([[polarization|polarized]]) [[groupoid convolution algebra|convolution algebra of function]]
+on this groupoid. This turns out to the "[[algebra of quantum observables]]" and the passage from the
+naive [[local observables]] on [[presymplectic manifold|presymplectic]] [[phase space]] to 
+this non-commutative algebra of functions on its [[homotopy quotient]] to the [[symplectic groupoid]]
+is called _[[quantization]]_. This we discuss in much detail [below](#QuantumObservables); for the
+moment this is just to motivate why the [[covariant phase space]] is the crucial construction to be
+extracted from a [[Lagrangian field theory]]. 
+ 
+$\,$
+
+$$
+  \array{
+  \left\{
+    \array{
+      \text{on-shell space of field histories}
+      \\
+      \text{with local observables}
+      \\
+      \text{restricted to any Cauchy surface}
+    }
+  \right\}
+   &\overset{\array{ \text{homotopy-quotient by} \\ \text{infinitesimal symmetries} }}{\longrightarrow}
+   &
+   \left\{
+       \array{
+         \text{covariant}
+         \\
+         \text{phase space}
+       }
+   \right\}
+   &\overset{ \text{Lie algebra of functions} }{\longrightarrow}&
+   \left\{
+      \array{
+        \text{Poisson algebra}
+        \\
+        \text{of observables}
+      }
+   \right\}
+   \\
+   &
+     \searrow
+   &
+     \Big\downarrow{}^\mathrlap{{\text{Lie integration}}}
+   &&
+     \Big\downarrow{}^{\mathrlap{quantization}}
+   \\
+   && \left\{
+      \text{symplectic}
+      \atop
+      \text{groupoid}
+   \right\}
+   &
+   \overset{
+      \array{
+         \text{polarized convolution}
+         \\
+         \text{algebra of functions}
+      }
+   }{\longrightarrow}&
+   \left\{
+      \array{
+         \text{quantum algebra}
+         \\
+         \text{of observables}
+      }
+   \right\}
+   }
+$$
+
+$\,$
+
 A remarkable aspect of [[Lagrangian field theory]] is that the [[de Rham differential]] of the [[local Lagrangian density]] $\mathbf{L}$ (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) decomposes into
 _two_ kinds of [[variational differential forms]] (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}):
 
@@ -4582,8 +4685,9 @@ and _Hamiltonian local observables_ (def. \ref{HamiltonianLocalObservables} belo
 This structure in spacetime codimension 1, i.e. the restriction of the [[on-shell]] [[space of field histories]]
 to a [[Cauchy surface]] and equipped via [[transgression of variational differential forms|transgression]] with the induced [[presymplectic form]] and [[Poisson bracket]] on
 Hamiltonian [[local observables]] is called the _[[phase space]]_ of the [[Lagrangian field theory]] (def. \ref{PhaseSpaceAssociatedWithCauchySurface} below),
-or the _[[covariant phase space]]_, to amplify that it does not actually depend on the choice of
+and specifically the _[[covariant phase space]]_, to amplify that it does not actually depend on the choice of
 [[Cauchy surface]] (prop. \ref{CovariantPhaseSpace} below).
+
 
 
 
@@ -5552,6 +5656,10 @@ Here the first term vanishes via the local BV-BFV relation (prop. \ref{Resolutio
 while the other two terms vanish simply by degree reasons.
 
 =--
+
+
+
+
 
 
 
@@ -7879,14 +7987,84 @@ $$
 ## Gauge fixing
  {#GaugeFixing}
 
-In good cases the resulting combined [[BV-BRST complex]] is [[quasi-isomorphism|quasi-isomorphic]]
-to a [[derived Lie algebroid]] version of the [[shell]], degreewise compatible with
-the [[Poisson bracket Lie n-algebra|local Poisson bracket]] (from prop. \ref{LocalPoissonBracket})
-and degreewise admitting [[Cauchy surfaces]]. To this therefore the construction of [[covariant phase spaces]]
-and then the construction of local observabes applies degree-wise.
+
+We had seen [above](#PhaseSpace) that the key intermediate construction for obtaining the [[quantum field theory]] 
+induced from a [[Lagrangian density]] is its _[[covariant phase space]]_ (prop. \ref{CovariantPhaseSpace}).
+But then we have seen that there are generically [[obstructions]] to the existence of the [[covariant phase space]], embodied by 
+[[infinitesimal gauge transformation]] that have been "left implicit" (prop. \ref{NonTrivialImplicitInfinitesimalGaugeSymmetriesPbstructExistenceOfCauchySurfaces}). 
+We have then discussed the [[reduced phase space]] [above](#ReducedPhaseSpace) which makes the 
+[[infinitesimal gauge symmetries]] "explicit" by forming their [[homotopy quotient]], whose
+[[algebra of functions]], on the derived [[shell]], is the _[[BV-BRST complex]]_ of the theory.
+It remains to show that this construction of the [[reduced phase space]] indeed serves to lift the
+[[obstruction]] to the existence of the [[covariant phase space]]. This is the topic of _[[gauge fixing]]_ (def. ... below).
+
+The point is that while the [[reduced phase space]] reflected by the [[BV-BRST complex]] may still not be
+_manifestly_ covariant, its existence as an object in [[homotopy theory]], here specifically in [[homological algebra]],
+means that it comes with a more flexible concept of "[[equality]]", namely _[[homotopy equivalence]]_, which here
+specifically means _[[quasi-isomorphism]]_. 
+
+Broadly speaking, the [[gauge principle]] in [[physics]], says that no two things ([[field histories]], etc.)
+are ever really [[equality|equal]], instead they may be connected by [[gauge transformations]], and the mathematical
+reflection of that is the principle of [[homotopy theory]], where no to [[homotopy types]] are ever equal,
+instead they may be connected by ([[weak homotopy equivalence|weak]]) [[homotopy equivalence]].
+Hence picking a specific representative of a [[homotopy type]] means to _fix a gauge_.
+
+
+Concretely, let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] with closed irreducibe [[gauge parameter]] bundle
+$\mathcal{G}$ and let $BV(s)$ be the corresponding [[BV-BRST complex]] (prop. \ref{LocalBVBRSTComplexIsDerivedCriticalLocusOfEulerLagrangeForm}).
+
+We then ask for another field bundle $E^g$, possibly itself already a [[graded manifold]],
+hence an object in [[higher differential geometry]],
+and then we ask for a [[Lagrangian density]] $\mathbf{L}^g$ that
+may also genuinely live in [[higher prequantum geometry]],
+hence which is defined right away on the action Lie algebroid $E^g(\mathcal{G} \times_\Sigma T_\Sigma)$ (example \ref{LocalOffShellBRSTComplex})
+not necessarily descending to there from $E^g$ itself.
+We may still form the local [[derived critical locus]] of $\mathbf{L}^g$ in
+$E^g(\mathcal{G} \times_\Sigma T \Sigma)$ and obtain a corresponding BV-BRST-like complex $BV(s^g)$.
+
+We ask now that $BS(s^g)$ has particularly good properties: 
+
+1. We ask that the Koszul-Tate component $s^g_{BV}$ of $s^g$ has vanishing [[cochain cohomology]] in negative degree,
+which means by prop. \ref{BVComplexIsHomologicalResolutionPreciselyIfNoNonTrivialImplicitGaugeSymmetres}
+that the Lagrnagian $\mathbf{L}^g$ on the _graded_ field bundle $E^g$ is _degreewise_ free of the
+[[obstruction]] to the existence of a covariant phase space.
+
+1. We ask moreover the remaining Chevalley-Eilenberg component $s^g_{BRST}$ of $s^g$ is compatible with the graded [[Poisson bracket]] of this graded [[covariant phase space]]
+
+This means that the "dg-Lagrangian field theory "$(E^g, \mathbf{L}^g)$ induces a [[covariant phase space|covariant]] [[reduced phase space]]
+"[[internalization|internal to]]" [[dg-manifolds]]; hence a "dg-covariant reduced phase space":
+a [[graded object|graded]] covariant reduced phase space equipped with compatible differentials.
+
+Such derived phase spaces $BV(s^g)$ are amenable to _degreewise_ [[quantization]] (discussed [below](#QuantumObservables))
+if only one can  keep the degreewise quantization compatible with the [[differential]].
+This may be shown (below...) to be the case, and hence  performing the quantization degreewise and passing in the end to the [[cochain cohomology]] of the rsulting BV-BRST complex of quantum observables yields the _[[gauge invariant]] [[local observables]]_
+of the quantum field theory. This is called the "[[BV-BRST quantization]] of [[gauge theories]]".
+
+In order to apply this to the [[Lagrangian field theory]] $(E,\mathbf{L})$ that we actually started out to
+consider, we now only need to ensure that the "manifestly covariant" dg-Lagrangian field theory
+$(E^g, \mathbf{L}^g)$ is  not necessarily [[equality|equal]] to $(E,\mathbf{L})$, but [[homotopy equivalent]] to it,
+as an object in [[higher prequantum geometry]], hence that there is a [[quasi-isomorphism]] between the
+corresponding [[BV-BRST complexes]]
+
+$$
+  BV(s^g) \overset{\simeq}{\longrightarrow} BV(s)
+  \,.
+$$
+
+The choice of this [[quasi-isomorphism]] hence means a choice of particularly good (namely manifestly covariant)
+_representative_ of the [[homotopy type]] of $BV(s)$, and hence this is called a _gauge fixing_ of $BV(s)$.
+
+
+$\,$
 
 $$
   \array{
+     \underline{\mathbf{\text{pre-quantum geometry}}}
+     &&
+     \underline{\mathbf{\text{higher pre-quantum geometry}}}
+     \\
+     \,
+     \\
      \left\{
         \array{
            \text{Lagrangian field theory with}
@@ -7894,40 +8072,103 @@ $$
            \text{implicit infinitesimal gauge transformations}
         }
      \right\}
-     &\overset{\text{adjoin ghost fields}}{\longrightarrow}&
+     &\overset{ \text{explicate} \atop \text{gauge transformations}  }{\longrightarrow}&
      \left\{
         \array{
-           \text{graded Lagrangian field theory with}
+           \text{dg-Lagrangian field theory with}
            \\
            \text{explicit infinitesimal gauge transformations}
            \\
-           \text{ embodied by BV-BRST differential }
+           \text{ embodied by BRST complex }
         }
      \right\}
      \\
+     && \Big\downarrow{}^{\mathrlap{ \text{pass to} \atop \text{derived critical locus} }}
+     \\
      \Big\downarrow
-     && \Big\downarrow\mathrlap{\text{gauge fixing}}
+     &&
+     \left\{
+        \array{
+           \text{dg-reduced phase space}
+           \\
+           \text{ embodied by BV-BRST complex }
+        }
+     \right\}
+     \\
+     && {}^{\mathllap{\simeq}}\Big\downarrow{}^{\mathrlap{\text{fix gauge} }}
      \\
      \left\{
        \array{
-         \text{gauge invariant}
+         \text{ decategorified }
          \\
-         \text{local observables}
+         \text{ covariant }
+         \\
+         \text{ reduced phase space }
        }
      \right\}
      &\underset{\text{pass to cohomology}}{\longleftarrow}&
      \left\{
         \array{
-           \text{graded observables with}
+           \text{ dg-covariant}
            \\
-           \text{explicit infinitesimal gauge transformations}
-           \\
-           \text{embodied by BV-BRST differential }
+           \text{reduced phase space  }
         }
+     \right\}
+     \\
+     && \Big\downarrow{}^{\mathrlap{
+       \array{
+           \text{ quantize }
+           \\
+           \text{degreewise}
+       }
+     }}
+     \\
+     \left\{
+       \array{
+         \text{gauge invariant}
+         \\
+         \text{quantum observables}
+       }
+     \right\}
+     &\underset{\text{pass to cohomology}}{\longleftarrow}&
+     \left\{
+       \array{
+         \text{quantum}
+         \\
+        \text{BV-BRST complex}
+       }
      \right\}
   }
 $$
 
+
+Here:
+
+| term  |   meaning   |
+|-------|-------------|
+| "phase space" | [[derived critical locus]] of [[Lagrangian density|Lagrangian]] equipped with [[Poisson bracket]] |
+| "reduced" | [[gauge transformations]] have been [[homotopy quotient|homotopy-quotiented]] out |
+| "covariant" | [[Cauchy surfaces]] exist degreewise |
+
+$\,$
+
+In practice this choice of gauge fixing by choice of quasi-isomorphism to a "manifestly covariant" [[BV-BRST complex]]
+is realized as the composite of two seperate quansi-isomorphisms:
+
+1. an "anti-canonical transformation"
+
+   $$ 
+     e^{-\{\psi,-\}} \;\colon\; BV(s^g) \longrightarrow BV( \exp^{-\{\psi,-\}} s^g )
+   $$
+
+   (induced by a degree -1 element $\psi$ called, for better or worse, the "gauge fixing fermion") 
+  which is actually a genuine [[isomorphism]], not just a [[quasi-isomorphism]];
+
+1. a genuine [[quasi-isomorphism]] contracts away a [[contractible space|contractible]] [[direct sum|direct summand]]
+
+   $$
+     BV( e^{-\{\psi,-\}} s^g ) \overset{\text{forget contractible pairs}}{\longrightarrow}  BV(s) .
+   $$
 
 
 
