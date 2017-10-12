@@ -62,7 +62,7 @@ This comparatively simple setup already subsumes what is considered in most trad
 Further generalization, necessary for the discussion of global topological effects such as [[instanton]] configurations
 of [[gauge fields]] will be discussed elsewhere (see at _[[homotopical algebraic quantum field theory]]_).
 
-Throughout we use the case of the  [[real scalar field]] and of the [[electromagnetic field]] as illustrative running examples, which we develop alongside with the theory.
+Throughout we use the case of the [[real scalar field]] and of the [[electromagnetic field]] as simple illustrative running examples, which we develop alongside with the theory.
 
 **running examples**
 
@@ -8015,7 +8015,7 @@ specifically means _[[quasi-isomorphism]]_.
 
 Broadly speaking, the [[gauge principle]] in [[physics]], says that no two things ([[field histories]], etc.)
 are ever really [[equality|equal]], instead they may be connected by [[gauge transformations]], and the mathematical
-reflection of that is the principle of [[homotopy theory]], where no to [[homotopy types]] are ever equal,
+reflection of that is the principle of [[homotopy theory]], where no two [[homotopy types]] are ever equal,
 instead they may be connected by ([[weak homotopy equivalence|weak]]) [[homotopy equivalence]].
 Hence picking a specific representative of a [[homotopy type]] means to _fix a gauge_.
 
@@ -8032,14 +8032,14 @@ not necessarily descending to there from $E^g$ itself.
 We may still form the local [[derived critical locus]] of $\mathbf{L}^g$ in
 $E^g(\mathcal{G} \times_\Sigma T \Sigma)$ and obtain a corresponding BV-BRST-like complex $BV(s^g)$.
 
-We ask now that $BS(s^g)$ has particularly good properties: 
+We ask now that $BV(s^g)$ has particularly good properties: 
 
 1. We ask that the Koszul-Tate component $s^g_{BV}$ of $s^g$ has vanishing [[cochain cohomology]] in negative degree,
 which means by prop. \ref{BVComplexIsHomologicalResolutionPreciselyIfNoNonTrivialImplicitGaugeSymmetres}
 that the Lagrnagian $\mathbf{L}^g$ on the _graded_ field bundle $E^g$ is _degreewise_ free of the
 [[obstruction]] to the existence of a covariant phase space.
 
-1. We ask moreover the remaining Chevalley-Eilenberg component $s^g_{BRST}$ of $s^g$ is compatible with the graded [[Poisson bracket]] of this graded [[covariant phase space]]
+1. We ask moreover that the remaining Chevalley-Eilenberg component $s^g_{BRST}$ of $s^g$ is compatible with the graded [[Poisson bracket]] of this graded [[covariant phase space]]
 
 This means that the "dg-Lagrangian field theory "$(E^g, \mathbf{L}^g)$ induces a [[covariant phase space|covariant]] [[reduced phase space]]
 "[[internalization|internal to]]" [[dg-manifolds]]; hence a "dg-covariant reduced phase space":
@@ -8047,7 +8047,7 @@ a [[graded object|graded]] covariant reduced phase space equipped with compatibl
 
 Such derived phase spaces $BV(s^g)$ are amenable to _degreewise_ [[quantization]] (discussed [below](#QuantumObservables))
 if only one can  keep the degreewise quantization compatible with the [[differential]].
-This may be shown (below...) to be the case, and hence  performing the quantization degreewise and passing in the end to the [[cochain cohomology]] of the rsulting BV-BRST complex of quantum observables yields the _[[gauge invariant]] [[local observables]]_
+This may be shown (below...) to be the case, and hence  performing the quantization degreewise and passing in the end to the [[cochain cohomology]] of the resulting BV-BRST complex of quantum observables yields the _[[gauge invariant]] [[local observables]]_
 of the quantum field theory. This is called the "[[BV-BRST quantization]] of [[gauge theories]]".
 
 In order to apply this to the [[Lagrangian field theory]] $(E,\mathbf{L})$ that we actually started out to
@@ -8163,7 +8163,7 @@ Here:
 $\,$
 
 In practice this choice of gauge fixing by choice of quasi-isomorphism to a "manifestly covariant" [[BV-BRST complex]]
-is realized as the composite of two seperate quansi-isomorphisms:
+is realized as the composite of two seperate quasi-isomorphisms:
 
 1. an "anti-canonical transformation"
 
@@ -8174,10 +8174,11 @@ is realized as the composite of two seperate quansi-isomorphisms:
    (induced by a degree -1 element $\psi$ called, for better or worse, the "[[gauge fixing fermion]]") 
   which is actually a genuine [[isomorphism]], not just a [[quasi-isomorphism]];
 
-1. a genuine [[quasi-isomorphism]] contracts away a [[contractible space|contractible]] [[direct sum|direct summand]]
+1. a genuine [[quasi-isomorphism]] which contracts away a [[contractible space|contractible]] [[direct sum|direct summand]]
+   of [[auxiliary fields]]
 
    $$
-     BV( e^{-\{\psi,-\}} s^g ) \overset{\text{forget contractible pairs}}{\longrightarrow}  BV(s) .
+     BV( e^{-\{\psi,-\}} s^g ) \overset{ \text{forget contractible complex} \atop \text{of auxiliary fields} }{\longrightarrow}  BV(s) .
    $$
 
 
@@ -8331,7 +8332,7 @@ $$
 
 The [[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]] induced by this Lagrangian density $\mathbf{L}^g$ (def \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime}) are
 
-> up to relative pre-factors to be fixed...
+> up to irrelevant relative pre-factors to be fixed...
 
 $$
   \begin{aligned}
@@ -8345,7 +8346,7 @@ $$
   \end{aligned}
 $$
 
-This is indeed a system of [[normally hyperbolic differential operator|normally hyperbolic]] [[differential equations]], as oppose to the plain [[vacuum]] [[Maxwell equations]] on [[Minkowski spacetime]] $\frac{d}{d x^\mu} f^{\mu \nu} = 0$ (see also [Rezner 16, section 7.2](#Nakanishi-Lautrup+field#Rejzner16)).
+This is indeed a system of [[normally hyperbolic differential operator|normally hyperbolic]] [[differential equations]], as oppose to the plain [[vacuum]] [[Maxwell equations]] on [[Minkowski spacetime]] $\frac{d}{d x^\mu} f^{\mu \nu} = 0$ (see also [Rejzner 16, section 7.2](#Nakanishi-Lautrup+field#Rejzner16)).
 
 =--
 
