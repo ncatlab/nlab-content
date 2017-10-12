@@ -2,13 +2,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
+=--
 #### $\infty$-Chern-Weil theory
 +--{: .hide}
 [[!include infinity-Chern-Weil theory - contents]]
-=--
-#### Physics
-+--{: .hide}
-[[!include physicscontents]]
 =--
 =--
 =--
@@ -76,6 +76,8 @@ A classical instance of gauge fixing is when $X=\tilde{X}//G$ is an action group
 * [[gauge group]], [[gauge transformation]]
 * [[spontaneously broken symmetry]]
 * [[Gribov ambiguity]]
+
+* [[gauge fixing fermion]]
 
 * [[Nakanishi-Lautrup field]], [[antighost field]]
 
