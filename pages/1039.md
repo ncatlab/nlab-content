@@ -48,6 +48,10 @@ Sometimes one allows also the empty object $\emptyset$ to be contractible. To di
 
 * [[locally contractible space]]
 
+* [[contractible chain complex]]
+
+* [[contractible type]]
+
 [[!include homotopy n-types - table]]
 
 
