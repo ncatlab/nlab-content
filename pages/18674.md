@@ -23,7 +23,9 @@ It is called _weakly contractible_ if $V \to 0$ is a [[quasi-isomorphism]].
 
 ## Examples
 
-Every [[mapping cone]] on an [[identity morphism|identity]] [[chain map]] is contractible.
+* Every [[mapping cone]] on an [[identity morphism|identity]] [[chain map]] is contractible.
+
+* In [[quantization of Yang-Mills theory]] [[gauge fixing]] is typically implementd in [[BV-BRST formalism]] after introducing a contractible chain complex of [[field bundles]] for [[field (physics)|fields]] called the _[[Nakanishi-Lautrup field]]_ and the _[[antighost field]]_.
 
 ## Related concepts
 
