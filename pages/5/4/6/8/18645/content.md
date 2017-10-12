@@ -62,8 +62,18 @@ This comparatively simple setup already subsumes what is considered in most trad
 Further generalization, necessary for the discussion of global topological effects such as [[instanton]] configurations
 of [[gauge fields]] will be discussed elsewhere (see at _[[homotopical algebraic quantum field theory]]_).
 
-Throughout we use the case of the  [[real scalar field]] as an illustrative running example, which we develop alongside with the theory;
-as well as the [[free field theory|free]] [[electromagnetic field]] and more generally the [[free field theory|free]] [[Yang-Mills theory|Yang-Mills field]] when it comes to [[gauge theory]]. The discussion of other types of [[field (physics)|fields]]
+Throughout we use the case of the  [[real scalar field]] and of the [[electromagnetic field]] as illustrative running examples, which we develop alongside with the theory.
+
+**running examples**
+
+| [[field (physics)|field]] | [[field bundle]] |  [[Lagrangian density]] | [[equation of motion]] | [[gauge fixing]] | [[Poisson bracket]] |
+|---------------------------|------------------|-------------------------|------------------------|------------------|------|
+| [[real scalar field]] |  expl. \ref{RealScalarFieldBundle} |  expl. \ref{LagrangianForFreeScalarFieldOnMinkowskiSpacetime} | expl. \ref{FreeScalarFieldEOM} | none | expl. \ref{PoissonBracketForRealScalarField} |
+| [[electromagnetic field]] | expl. \ref{Electromagnetism} | expl. \ref{ElectromagnetismLagrangianDensity} | expl. \ref{ElectromagnetismEl}  | expl. \ref{NLGaugeFixingOfElectromagnetism} | ... |
+
+
+
+The discussion of other types of [[field (physics)|fields]]
 is postponed to their dedicated chapters below.
 
 
@@ -8161,7 +8171,7 @@ is realized as the composite of two seperate quansi-isomorphisms:
      e^{-\{\psi,-\}} \;\colon\; BV(s^g) \longrightarrow BV( \exp^{-\{\psi,-\}} s^g )
    $$
 
-   (induced by a degree -1 element $\psi$ called, for better or worse, the "gauge fixing fermion") 
+   (induced by a degree -1 element $\psi$ called, for better or worse, the "[[gauge fixing fermion]]") 
   which is actually a genuine [[isomorphism]], not just a [[quasi-isomorphism]];
 
 1. a genuine [[quasi-isomorphism]] contracts away a [[contractible space|contractible]] [[direct sum|direct summand]]
@@ -8171,6 +8181,173 @@ is realized as the composite of two seperate quansi-isomorphisms:
    $$
 
 
+
+(...)
+
+
+
++-- {: .num_example #NLGaugeFixingOfElectromagnetism}
+###### Example
+**([[Nakanishi-Lautrup field|Nakanishi-Lautrup]] [[gauge fixing]] of [[vacuum]] [[electromagnetism]])**
+
+Consider the [[local BV-BRST complex]]
+
+$$
+  \left(
+    E/(\mathcal{G} \times_\Sigma T \Sigma)
+  \right)_{d L \simeq 0}
+$$
+
+for [[vacuum]] [[electromagnetism]] on [[Minkowski spacetime]] from example \ref{LocalBVComplexOfVacuumElectromagnetismOnMinkowskiSpacetime}:
+
+The [[field bundle]] is $E \coloneqq T^\ast \Sigma$ and the [[gauge parameter]] bundle is $\mathcal{G} \coloneqq \Sigma \times \mathbb{R}$.
+The 0-jet generators are
+
+$$
+  \array{
+    & \overline{c} & \overline{a}^\mu & a_\mu & c
+    \\
+    deg =
+    &
+    -2 & -1 & 0 & 1
+  }
+$$
+
+and the [[differential]] acts as
+
+$$
+  s
+  \;\colon\;
+  \left\{
+  \array{
+    \overline{a}^\mu &\mapsto&  f^{\nu \mu}_{,\nu}  & \text{(equations of Motion -- vacuum Maxwell equations)}
+    \\
+    \overline{c} &\mapsto& \overline{a}^\mu_{,\mu} & \text{(Noether identity)}
+    \\
+    a_\mu &\mapsto& c_{,\mu} & \text{(infinitesimal gauge transformation)}
+  }
+  \right.
+$$
+
+The [[Lagrangian density]] for [[vacuum]] [[electromagnetism]] is
+
+$$
+  \label{VacuumEMLagrangianDensityRecalledForNLFields}
+  \mathbf{L}_{em} \coloneqq \tfrac{1}{2} f_{\mu \nu} f^{\mu \nu}
+  \,.
+$$
+
+Consider the [[contractible chain complex]] of [[vector bundles]] over $\Sigma$
+
+$$
+  NL
+  \;\coloneqq\;
+  \left(
+  \array{
+    &
+    \Sigma \times \langle \tilde c\rangle
+      &\overset{\tilde c \mapsto b}{\longrightarrow}&
+    \Sigma \times\langle b\rangle
+    \\
+    deg = & -1 && 0
+  }
+  \right)
+  \,.
+$$
+
+In this context $\Sigma \times \langle b\rangle$ is called the [[field bundle]] for the _[[Nakanishi-Lautrup field]]_ and $\Sigma \times \langle \tilde c\rangle$ that for the _[[antighost field]]_.
+
+The corresponding product [[BV-BRST complex]] [[quasi-isomorphism|quasi-isomorphic]] to the original one
+
+$$
+  \left(
+    E/(\mathcal{G} \times_\Sigma T \Sigma)
+  \right)_{d L \simeq 0} \times_\Sigma NL
+$$
+
+has coordinate generators
+
+$$
+  \array{
+    & \overline{c} & \overline{a}^\mu & a_\mu & c
+    \\
+    & & \tilde c & b
+    \\
+    deg =
+    &
+    -2 & -1 & 0 & 1
+  }
+  \,.
+$$
+
+We say that the _Nakanishi-Lautrup [[gauge fixing fermion]] for Gaussian averaged [[Lorentz gauge]]_ is
+
+$$
+  \label{NLGaugeFixingFermion}
+  \psi
+     \coloneqq
+  \tilde c( b + a^{\mu}_{,\mu} )
+  \;\in\;
+  CE\left(
+    \left(
+      E/(\mathcal{G} \times_\Sigma T \Sigma)
+    \right)_{d L \simeq 0} \times_\Sigma NL
+  \right)
+  \,.
+$$
+
+With $L_{NL}$ denoting the anti-Hamiltonin for the differential $s_{NL}$ of the [[resolution|resolved]] [[local BV-BRST complex]] $  \left(E/(\mathcal{G} \times_\Sigma T \Sigma) \right)_{d L \simeq 0} \times_\Sigma NL$ we find from (eq:VacuumEMLagrangianDensityRecalledForNLFields) and (eq:NLGaugeFixingFermion) the [[antibracket]]
+
+$$
+  \{\psi,L_{NL}\} = b ( b + a^{\mu}_{,\mu} ) + \tilde c_{,\mu} c^{,\mu}
+$$
+
+and then
+
+$$
+  \{\psi, \{\psi, L_{NL}\}\} = 0
+  \,.
+$$
+
+Therefore the corresponding [[gauge fixing|gauge fixed]] [[Lagrangian density]] is
+
+$$
+  \begin{aligned}
+    \mathbf{L}^g
+      & \coloneqq
+    \e^{\{\psi,-\}}\mathbf{L}_{NL}
+    \\
+    & =
+    \left(
+      \tfrac{1}{2} f_{\mu \nu} f^{\mu \nu}
+       +
+       b ( b + a^{\mu}_{,\mu} ) + \tilde c_{,\mu} c^{,\mu}
+    \right) dvol_\Sigma
+  \end{aligned}
+  \,.
+$$
+
+(see also [Henneaux 90, section 9.1](Nakanishi-Lautrup+field#Henneaux90))
+
+The [[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]] induced by this Lagrangian density $\mathbf{L}^g$ (def \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime}) are
+
+> up to relative pre-factors to be fixed...
+
+$$
+  \begin{aligned}
+    f^{\mu \nu}{}_{,\mu} & = b^{,\nu}
+    \\
+    b & = a^\mu_{,\mu}
+    \\
+    c_{,\mu}{}^{,\mu} & = 0
+    \\
+    \tilde c_{,\mu}{}^{,\mu} & = 0
+  \end{aligned}
+$$
+
+This is indeed a system of [[normally hyperbolic differential operator|normally hyperbolic]] [[differential equations]], as oppose to the plain [[vacuum]] [[Maxwell equations]] on [[Minkowski spacetime]] $\frac{d}{d x^\mu} f^{\mu \nu} = 0$ (see also [Rezner 16, section 7.2](#Nakanishi-Lautrup+field#Rejzner16)).
+
+=--
 
 (...)
 
@@ -8438,7 +8615,7 @@ But [[perturbative quantum field theory]] is well understood. This we turn to ne
 
 ## Acknowledgement
 
-Whatever is good in these notes owes a lot to discussion with [[Igor Khavkine]].
+Whatever is good in these notes owes to discussion with [[Igor Khavkine]].
 
 ***
 
