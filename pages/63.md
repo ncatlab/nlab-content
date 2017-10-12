@@ -274,6 +274,8 @@ The BRST complex described a homotopical [[quotient]] of a space by an infinites
 
 ## References
 
+### General
+
 The idea of "ghost" fields was introduced in 
 
 * [[Richard Feynman]], _Quantum theory of gravitation_ In: Acta physica polonica. vol 24, 1963, S. 697 
@@ -332,6 +334,11 @@ The perspective on the BRST complex as a formal dual to a space in [[dg-geometry
 * [[Kevin Costello]], _Renormalisation and the Batalin-Vilkovisky formalism_ ([arXiv](http://arxiv.org/abs/0706.1533)).
 
 For more along these lines see [[BV-BRST formalism]].
+
+### History
+
+* [[Carlo Becchi]], _BRS "Symmetry", prehistory and history_ ([arXiv:1107.1070](https://arxiv.org/abs/1107.1070))
+
 
 [[!redirects BRST complexes]]
 
