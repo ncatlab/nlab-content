@@ -223,6 +223,8 @@ in global context, which has a global element precisely when $isContr(A)\to B$ h
 
 * [[isProp]]
 
+* [[contractible space]], [[contractible chain complex]]
+
 ## References
 
 [[Coq]]-code for contractible types is at
