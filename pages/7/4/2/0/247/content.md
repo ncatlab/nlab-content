@@ -20,7 +20,7 @@ And here's how to make a barred arrow $A &#8696; B$, since I always forget:
 
       &#8696;
 
-And here's the esh $&#643;$ (see [here](http://nforum.mathforge.org/discussion/4594/shape-modality-flat-modality-sharp-modality/?Focus=37694#Comment_37694)):
+And here's the esh $&#643;$ (see [here](http://nforum.ncatlab.org/discussion/4594/shape-modality-flat-modality-sharp-modality/?Focus=37694#Comment_37694)):
 
       &#643;
 
