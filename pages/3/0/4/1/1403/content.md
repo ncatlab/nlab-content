@@ -40,6 +40,7 @@ The term "microcosm principle" arises from the idea that the monoid object (the 
 * [[generalized multicategories]] are naturally defined internal to a [[virtual double category]], which is itself a kind of generalized multicategory.
 * [[double categories]] are instances of [[intermonads]], which can be defined in any [[intercategory]] (a categorified double category).
 * [[duoids]] (objects with two monoidal structures) can be defined in any [[duoidal category]] (a category with two monoidal structures).
+* [[Frobenius algebras]] can be defined in any [[star-autonomous category]], and cocomplete $\ast$-autonomous posets are Frobenius algebras in the $\ast$-autonomous category [[Sup]], while [[promonoidal category|pro]]-$\ast$-autonomous categories are [[Frobenius pseudomonoids]] in the $\ast$-autonomous (indeed, compact closed) bicategory [[Prof]].
 * The prototypical example of a [[2-fibration]] consists of internal [[fibrations in a 2-category]].
 * [[type theories]] can be defined relative to any "2-type theory"; see [[adjoint type theory]].
 
