@@ -3538,6 +3538,8 @@ The moduli stack of these fields is that of background fields that satisfy the [
 
   [[superfield]]
 
+  [[auxiliary field]]
+
   [[fiber bundles in physics]]
 
 * [[BV-BRST formalism]]
