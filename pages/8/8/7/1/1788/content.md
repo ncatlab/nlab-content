@@ -46,6 +46,8 @@ This "[[schreiber:Higher Prequantum Geometry]]" streamlines traditional construc
 In full beauty these concepts are extremely general and powerful; but the aim here is to give a first precise idea of the subject, not
 a fully general account.
 Therefore we begin in the following with the special case where [[spacetime]] is [[Minkowski spacetime]], where the [[field bundle]] (def. \ref{Fields} below) is an ordinary [[trivial vector bundle]] and hence the [[Lagrangian  density]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime} below) is globally defined.
+Similarly, when considering [[gauge theory]] we consider just the special case that the [[gauge parameter]]-bundle
+is a [[trivial vector bundle]] and we concentrate on the case that the gauge symmetries are "closed irreducible".
 
 We do however consider the proper [[differential geometry]] of the resulting [[spaces of field histories]] in  terms of
 "[[cohesion|cohesive]] [[functorial geometry]]" embodied by ([[formal smooth set|formal]]) [[smooth sets]]  (see [below](#Geometry)) and hence (which works verbatim the same way) [[super smooth sets]]. This seamlessly subsumes the case that there are [[fermion|fermionic]] fields in the theory (as in any realistic field theory).
@@ -53,13 +55,14 @@ Notice that this does _not_ mean that we consider "[[supersymmetry]]" (though of
 plain [[supergeometry]] is but the mathematical
 incarnation of the [[Pauli exclusion principle]] for [[fermions]], a key aspect of the [[stability of matter]] in the [[observable universe]].
 
-This comparatively simple setup already subsumes what is considered in most traditional texts on the subject. In subsequent sections we eventually discuss more general situations, where spacetime is allowed to be [[globally hyperbolic Lorentzian manifold|globally hyperbolic]] and the [[field bundle]] to be a [[super L-infinity algebra|super]]-[[derived Lie algebroid]]. This is then sufficient generality to capture the established perturbative [[BV formalism|BRST-BV quantization]] of [[gauge fields]] coupled to [[fermions]] [[AQFT on curved spacetime|on curved spacetimes]]
+This comparatively simple setup already subsumes what is considered in most traditional texts on the subject, it captures the established perturbative [[BV formalism|BRST-BV quantization]] of [[gauge fields]] coupled to [[fermions]] [[AQFT on curved spacetime|on curved spacetimes]]
 -- which is the state of the art.
 Further generalization, necessary for the discussion of global topological effects such as [[instanton]] configurations
 of [[gauge fields]] will be discussed elsewhere (see at _[[homotopical algebraic quantum field theory]]_).
 
-Throughout we use the case of the real [[scalar field]] as an illustrative running example, which we develop alongside with the theory,
-and the [[free field theory|free]] [[electromagnetic field]] when it comes to [[gauge theory]]. The discussion of other types of [[field (physics)|fields]] that are of more genuine interest in applications is postponed to their dedicated chapters below.
+Throughout we use the case of the  [[real scalar field]] as an illustrative running example, which we develop alongside with the theory;
+as well as the [[free field theory|free]] [[electromagnetic field]] and more generally the [[free field theory|free]] [[Yang-Mills theory|Yang-Mills field]] when it comes to [[gauge theory]]. The discussion of other types of [[field (physics)|fields]] 
+is postponed to their dedicated chapters below.
 
 
 ## Geometry
@@ -4199,6 +4202,7 @@ In order to have good control over these resolutions, we now consider the first 
 aspect of [[field theory]], namely we consider the restriction of [[local observables]] to just an
 [[infinitesimal neighbourhood]] of a background [[on-shell]] field history:
 
+
 +-- {: .num_defn #LocalObservablesOnInfinitesimalNeighbourhood}
 ###### Definition
 **([[local observables]] around [[infinitesimal neighbourhood]] of background [[on-shell]] field history)
@@ -4282,6 +4286,7 @@ $$
 Finally the [[local observables]] restricted to the infinitesimal neighbourhood is the module
 
 $$
+  \label{LocalObservablesRestrictedToInfinitesimalNeighbourhood}
   LocObs_\Sigma(E,\varphi)
     \;\simeq\;
   \left(
@@ -4293,11 +4298,21 @@ $$
 
 =--
 
+The space of local observables in def. \ref{LocalObservablesOnInfinitesimalNeighbourhood} is the 
+[[quotient]] of a [[formal power series algebra]] by the components of the [[Euler-Lagrange form]]
+and by the [[image]] of the horizontal spacetime [[de Rham differential]]. It is convenient
+to also conceive of the components of the [[Euler-Lagrange form]] as the [[image]] of a [[differential]],
+for then the algebra of local observables obtaines a [[cochain cohomology|cohomological]] interpretation,
+which will lend itself to computation. This differential, whose image is the components of the 
+[[Euler-Lagrange form]], is called the _[[BV-differential]]. We introduce this 
+now first (def. \ref{BVComplexOfOrdinaryLagrangianDensity} below) in a direct ad-hoc way. 
+Further [below](#ReducedPhaseSpace) we discuss the conceptual nature of this differential
+as part of the construction of the [[reduced phase space]] as a [[derived critical locus]] (example \ref{DerivedProlongedShellInAbsenceOfExplicitGaugeSymmetries} below).
 
 
 +-- {: .num_defn #BVComplexOfOrdinaryLagrangianDensity}
 ###### Definition
-**(local [[BV-complex]] of ordinary [[Lagrangian density]])**
+**([[local BV-complex]] of ordinary [[Lagrangian density]])**
 
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
 whose [[field bundle]] $E$ is a [[trivial vector bundle]] (example \ref{TrivialVectorBundleAsAFieldBundle}) and whose [[Lagrangian density]] $\mathbf{L}$ is spacetime-independent (example \ref{LocalObservablesOnInfinitesimalNeighbourhood}).
@@ -4313,7 +4328,7 @@ $$
   \Omega^{0,0}_{\Sigma,cp}(E) Mod
 $$
 
-for the restriction of [[vertical vector fields]] on the [[jet bundle]] to the fiberwise [[infinitesimal neighbourhood]] 
+for the restriction of [[vertical vector fields]] on the [[jet bundle]] to the fiberwise [[infinitesimal neighbourhood]]
 (example \ref{InfinitesimalNeighbourhood}) of $\Sigma \times {\varphi}$.
 
 Now we regard this as a _[[graded module]]_ over $\Omega^{0,0}_{\Sigma,cp}(E,\varphi)$ (eq:FunctionsOnInfNbh) concentrated in degree $-1$:
@@ -4325,7 +4340,7 @@ $$
   \,.
 $$
 
-This is called the module of _[[antifields]]_ corresponing the given [[type]] of [[field (physics)|fields]] encoded by $E$.
+This is called the module of _[[antifields]]_ corresponding the given [[type]] of [[field (physics)|fields]] encoded by $E$.
 
 If the [[field bundle]] is a [[trivial vector bundle]] (example \ref{TrivialVectorBundleAsAFieldBundle}) with field coordinates
 $(\phi^a)$, then we write
@@ -4444,8 +4459,12 @@ $$
   \right)
 $$
 
-we call the _[[local BRST cohomology|local]] [[BV-complex]]_ (an example of a [[Koszul complex]]) of the Lagrangian field theory
-at the background solution $\varphi$.
+is called the _[[local BRST cohomology|local]] [[BV-complex]]_
+of the Lagrangian field theory at the background solution $\varphi$.
+This is the CE-algebra of the infintiesimal neighbourhood of $\Sigma \times \{\varphi\}$
+in the derived prolonged shell (def. \ref{DerivedProlongedShell}).
+In this case, in the absence of any explicit infinitesimal gauge symmetries,
+this is an example of a _[[Koszul complex]]_.
 
 There are canonical homomorphisms of [[dgc-algebras]], one from the
 algebra of functions $\Omega^{0,0}_{\Sigma,cp}(E,\varphi)$ on the [[infinitesimal neighbourhood]]
@@ -4464,9 +4483,6 @@ $$
 $$
 
 such that the composite is the canonical [[quotient]] [[coprojection]].
-
-(...)
-
 
 Similarly we obtain a factorization for the entire [[variational bicomplex]]:
 
@@ -4493,7 +4509,6 @@ $$
 $$
 
 =--
-
 
 
 
@@ -5406,45 +5421,8 @@ where $(\phi^a)$ are the given [[field (physics)|field]]
 and $\frac{\delta_{EL} \mathbf{L}}{\delta \phi^a}$ the corresponding components of the [[Euler-Lagrange form]]
 (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}).
 
-
 =--
 
-+-- {: .num_example #}
-###### Example
-**(derived [[presymplectic current]] of [[real scalar field]])
-
-Consider a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
-without any non-trivial implicial [[infinitesimal gauge transformations]] (def. \ref{ImplicitInfinitesimalGaugeSymmetry});
-for instance the [[real scalar field]] (def. \ref{LagrangianForFreeScalarFieldOnMinkowskiSpacetime}).
-
-Inside its BV-complex (def. \ref{BVComplexOfOrdinaryLagrangianDensity}) we may form the linear combination of
-
-1. the [[presymplectic current]] $\Omega_{BFV}$ (example \ref{FreeScalarFieldEOM})
-
-1. the BF-presymplectic current $\Omega_{BV}$ (example \ref{BVPresymplecticCurrent}).
-
-This yields a vertical 2-form
-
-$$
-  \Omega \;\coloneqq\; \Omega_{BV} + \Omega_{BFV} \;\; \in \Omega^{p,2}_\Sigma(E)\vert_{\mathcal{E}_{BV}}
-$$
-
-which is closed under the BV-horizontal derivative $d - s$:
-
-$$
-  \begin{aligned}
-    (d - s) (\Omega_{BV} + \Omega_{BFV})
-    & =
-    \underset{= 0}{\underbrace{d \Omega_{BFV} - s \Omega_{BV}}} + d \Omega_{BV} - s \Omega_{BFV}
-    \\
-    & = 0
-  \end{aligned}
-$$
-
-Here the first term vanishes via the local BV-BFV relation (prop. \ref{ResolutionOfCovariantPhaseSpaceCorrespondence})
-while the other two terms vanish simply by degree reasons.
-
-=--
 
 
 +-- {: .num_prop #ResolutionOfCovariantPhaseSpaceCorrespondence}
@@ -5534,6 +5512,45 @@ With this the second statement follows by immediate generalization of
 the proof of prop. \ref{CovariantPhaseSpace}.
 
 =--
+
+
++-- {: .num_example #}
+###### Example
+**(derived [[presymplectic current]] of [[real scalar field]])
+
+Consider a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
+without any non-trivial implicial [[infinitesimal gauge transformations]] (def. \ref{ImplicitInfinitesimalGaugeSymmetry});
+for instance the [[real scalar field]] (def. \ref{LagrangianForFreeScalarFieldOnMinkowskiSpacetime}).
+
+Inside its BV-complex (def. \ref{BVComplexOfOrdinaryLagrangianDensity}) we may form the linear combination of
+
+1. the [[presymplectic current]] $\Omega_{BFV}$ (example \ref{FreeScalarFieldEOM})
+
+1. the BF-presymplectic current $\Omega_{BV}$ (example \ref{BVPresymplecticCurrent}).
+
+This yields a vertical 2-form
+
+$$
+  \Omega \;\coloneqq\; \Omega_{BV} + \Omega_{BFV} \;\; \in \Omega^{p,2}_\Sigma(E)\vert_{\mathcal{E}_{BV}}
+$$
+
+which is closed under the BV-horizontal derivative $d - s$:
+
+$$
+  \begin{aligned}
+    (d - s) (\Omega_{BV} + \Omega_{BFV})
+    & =
+    \underset{= 0}{\underbrace{d \Omega_{BFV} - s \Omega_{BV}}} + d \Omega_{BV} - s \Omega_{BFV}
+    \\
+    & = 0
+  \end{aligned}
+$$
+
+Here the first term vanishes via the local BV-BFV relation (prop. \ref{ResolutionOfCovariantPhaseSpaceCorrespondence})
+while the other two terms vanish simply by degree reasons.
+
+=--
+
 
 
 $\,$
@@ -6534,7 +6551,7 @@ $\,$
  {#ReducedPhaseSpace}
 
 We have seen [above](#PhaseSpace) that the [[covariant phase space]] of a [[Lagrangian field theory]] is, 
-if it exists, the [[shell]] (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}) equipped
+if it exists, the "covariant [[transgression of variational differential forms|transgression]]" of the [[shell]] (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}) equipped
 with the [[Poisson bracket Lie n-algebra|local Poisson bracket]] (example \ref{LocalPoissonBracket}).
 The [[local observables]] (def. \ref{LocalObservables}) which operationally define the [[classical field theory]] (or rather [[prequantum field theory]]) are functions on the [[covariant phase space]], and the [[Poisson bracket Lie n-algebra|local Poisson bracket]]
 on them operationally defines the corresponding [[quantum field theory]] ([below](#QuantumObservables)). Therefore
@@ -7119,7 +7136,7 @@ _[[BV-BRST complex]]_ of the theory.
 In applications of interest, the spacetime $\Sigma$ is _not_ [[compact space|compact]]. 
 In that case one may still appeal to a construction on the [[space of field histories]]
 as in example \ref{ArchetypeOfBVBRSTComplex} by considering the action functional for all
-[[adiabatic switching|adiabatically switched]] $b \mathbf{L}$ Lagrangians, with $b \in C^\infty(\Sigma)$.
+[[adiabatic switching|adiabatically switched]] $b \mathbf{L}$ Lagrangians, with $b \in C_{cp}^\infty(\Sigma)$.
 This approach is taken in ([Fredenhagen-Rejzner 11a](BV-BRST+formalism#FredenhagenRejzner11a)).
 
 Here we instead consider now the "local lift" or "de-transgression" of the above construction from the 
@@ -7337,7 +7354,7 @@ $T^\ast_\Sigma(E / ( \mathcal{G} \times_\Sigma T \Sigma ))$.
 
 Then the [[Euler-Lagrange variational derivative]]
 (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}) constitutes 
-a section of the local cotangent Lie ∞-algebroid
+a [[section]] of the local cotangent Lie ∞-algebroid (def. \ref{LocalInfinitesimalCotangentLieAlgebroid})
 
 $$
   \array{
@@ -7351,6 +7368,55 @@ $$
   }
 $$
 
+given dually
+
+$$
+  CE(E/(\mathcal{G} \times_\Sigma T\Sigma))
+    \overset{(\delta_{EL}\mathbf{L})^\ast}{\longleftarrow}
+  CE(T^\ast(E/(\mathcal{G}\times_\Sigma T \Sigma)))
+$$
+
+by
+
+$$
+  \array{
+    \left\{
+      \phi^a_{,\mu_1 \cdots \mu_k}
+    \right\}
+      &\longleftarrow&
+    \left\{
+      \phi^a_{,\mu_1 \cdots \mu_k}
+    \right\}
+    \\
+    \left\{
+      c^\alpha_{,\mu_1 \cdots \mu_k}
+    \right\}
+      &\longleftarrow&
+    \left\{
+      c^\alpha_{,\mu_1 \cdots \mu_k}
+    \right\}
+    \\
+    \left\{
+       \frac{d^k}{ d x^{\mu_1} \cdots d x^{\mu_k}}
+       \left(
+         \frac{\delta_{EL} L}{\delta \phi^a}
+       \right)
+    \right\}
+      &\longleftarrow&
+    \left\{
+      \overline{\phi}_{a,\mu_1 \cdots \mu_k}
+    \right\}
+    \\
+    \left\{
+      0
+    \right\}
+      &\longleftarrow&
+    \left\{
+      \overline{c}_{\alpha,\mu_1 \cdots \mu_k}
+    \right\}
+  }
+$$
+
 =--
 
 +-- {: .proof}
@@ -7360,9 +7426,7 @@ The proof of this proposition is a special case of the
 observation that the differentials involved are part of the local BV-BRST differential;
 this will be a direct consequence of the proof of prop. \ref{LocalBVBRSTComplexIsDerivedCriticalLocusOfEulerLagrangeForm} below.
 
-
 =--
-
 
 
 The local analog of def. \ref{DerivedCriticalLocusOfGaugeInvariantFunctionOnLieAlgebroid} is now the following
@@ -7402,11 +7466,15 @@ $$
 =--
 
 
+
 The local refinement of example \ref{ArchetypeOfBVBRSTComplex} is now the following:
 
 +-- {: .num_prop #LocalBVBRSTComplexIsDerivedCriticalLocusOfEulerLagrangeForm}
 ###### Proposition
 **([[local BV-BRST complex]])**
+
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] with bundle of closed irreducible [[gauge parameters]] 
+$\mathcal{G}$...
 
 .... the [[Chevalley-Eilenberg algebra]] of the derived prolonged shell $\mathcal{E}^\infty_{BV}$
 (def. \ref{DerivedProlongedShell}) is the [[local BV-BRST complex]]...
@@ -7436,6 +7504,21 @@ their degree in $T^\ast(E /( \mathcal{G} \times_\Sigma T \Sigma ))$.
 This operation is the local BV-BRST differential by ([Barnich-Henneaux 96 (2.12)-(2.13)](local+BRST+cohomology#BarnichHenneaux96)).
 
 =--
+
+
+
++-- {: .num_example #DerivedProlongedShellInAbsenceOfExplicitGaugeSymmetries}
+###### Example
+**(derived prolonged shell in the absence of explicit gauge symmetry -- the [[local BV-complex]])**
+
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
+with _no_ non-trivial [[infinitesimal gauge symmetries]] made explicit (possibly because there are none,
+as for the [[scalar field]]), hence with no [[ghost fields]] introduced. Then the 
+local [[derived critical locus]] of its [[Lagrangian density]] (def. \ref{DerivedProlongedShell})
+is the [[local BV-complex]] of def. \ref{BVComplexOfOrdinaryLagrangianDensity}.
+ 
+=--
+
 
 $\,$
 
@@ -7535,6 +7618,11 @@ this defines the "variational BV-BRST-bicomplex".
 (...)
 
 =--
+
+
+
+
+
 
 
 
