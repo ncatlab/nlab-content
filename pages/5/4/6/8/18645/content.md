@@ -7223,45 +7223,7 @@ $$
 Observe that in terms of these coordinates the ordinary commutator of graded derivations
 has the following succinct expression:
 
-$$
-  \begin{aligned}
-    [
-     f,g
-    ]
-    & =
-    \phantom{+ (-1)^{\vert f\vert}(}
-    \left(
-      \frac{\partial f}{\partial \phi^a_{,\mu_1 \cdots \mu_k}}
-    \right)
-    \left(
-      \frac{\partial g}{\partial \overline{\phi}_{a,\mu_1 \cdots \mu_k}}
-    \right)
-    -
-    \left(
-      \frac{\partial f}{\partial \overline{\phi}_{a,\mu_1 \cdots \mu_k}}
-    \right)
-    \left(
-      \frac{\partial g}{\partial \phi^a_{,\mu_1 \cdots \mu_k}}
-    \right)
-    \\
-    & \phantom{=} + (-1)^{\vert f \vert}
-    \left(
-    \left(
-      \frac{\partial f}{\partial c^\alpha_{,\mu_1 \cdots \mu_k}}
-    \right)
-    \left(
-      \frac{\partial g}{\partial \overline{c}_{\alpha,\mu_1 \cdots \mu_k}}
-    \right)
-    -
-    \left(
-      \frac{\partial f}{\partial \overline{c}_{\alpha,\mu_1 \cdots \mu_k}}
-    \right)
-    \left(
-      \frac{\partial g}{\partial c^\alpha_{,\mu_1 \cdots \mu_k}}
-    \right)
-    \right)
-  \end{aligned}
-$$
+(...)
 
 Now consider the modification of this formula to the formula
 
