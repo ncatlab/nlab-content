@@ -26,7 +26,7 @@ For the case $n = 1$ (for instance the [[relativistic particle]], a 0-[[brane]])
 
 Hence generally for any [[field theory]] defined on a [[worldvolume]] or [[spacetime]] $\Sigma$, and with type of fields determined by a [[field bundle]] $E \overset{fb}{\to} \Sigma$, one may think of a [[section]] of the field bundle as a _field trajectory_.
 
-The [[space]] of all these is the _[[space of trajectories]]_ (space of hhistories).
+The [[space]] of all these is the _[[space of trajectories]]_ (space of histories).
 
 
 ## Related concepts
@@ -66,4 +66,7 @@ The [[space]] of all these is the _[[space of trajectories]]_ (space of hhistori
 
 [[!redirects trajectory]]
 [[!redirects trajectories]]
+
+[[!redirects field history]]
+[[!redirects field histories]]
 
