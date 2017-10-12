@@ -45,7 +45,13 @@ Consider the problem of maximizing the function $f(x) = \langle x \vert A \vert 
 
 =-- 
 
-## Literature
+## Related concepts
+
+* [[auxiliary field]]
+
+* [[gauge fixing]]
+
+## References
 
 * wikipedia [Lagrange multiplier](http://en.wikipedia.org/wiki/Lagrange_multiplier)
 * Springer eom: [Lagrange multipliers](http://eom.springer.de/L/l057190.htm), [Pontrjagin maximum principle](http://eom.springer.de/p/p073780.htm)
