@@ -64,3 +64,11 @@
 * [[monopole]]
 
 * [[dual graviton]]
+
+**[[auxiliary fields]]**
+
+* [[ghost field]]
+
+* [[antifield]]
+
+* [[antighost field]], [[Nakanishi-Lautrup field]]
