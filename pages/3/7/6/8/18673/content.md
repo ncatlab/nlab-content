@@ -1,3 +1,20 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
+#### Category theory
++--{: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
 # Frobenius pseudomonoids
 
 * table of contents
@@ -5,7 +22,7 @@
 
 ## Idea
 
-A **Frobenius pseudomonoid** is the [[categorification]] of a [[Frobenius algebra]].  It can be defined in any [[monoidal bicategory]].  Since Frobenius pseudomonoids are closely related to [[star-autonomous categories]], they are sometimes called **$\ast$-autonomous pseudomonoids**.
+The concept of **Frobenius pseudomonoid** is the [[categorification]] of that of [[Frobenius algebra]].  It can be defined in any [[monoidal bicategory]].  Since Frobenius pseudomonoids are closely related to [[star-autonomous categories]], they are sometimes called **$\ast$-autonomous pseudomonoids**.
 
 ## Definitions
 
