@@ -55,6 +55,9 @@ From [Jaffe-Witten](#JaffeWitten):
 
 This is the problem of [[non-perturbative quantum field theory|non-perturbative]] quantization of Yang-Mills theory
 
+## Related concepts
+
+* [[Nakanishi-Lautrup field]], [[antighost field]]
 
 ## References
 
