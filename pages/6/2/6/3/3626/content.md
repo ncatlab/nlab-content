@@ -233,6 +233,8 @@ In polycategorical language we can give another [[unbiased]] definition of a  co
 
 * [[hypergraph category]]
 
+* [[Frobenius pseudomonoid]]
+
 ## References ##
 
 Frobenius algebras were introduced by [[Brauer]] and Nesbitt and were named after [[Ferdinand Frobenius]].
@@ -280,7 +282,7 @@ For applications in proof theory of classical and [[linear logic]] or linguistic
 
 Frobenius algebras in linearly distributive categories are discussed in
 
-* [[Jeff Egger]], *The Frobenius relations meet linear distributivity*, [TAC](http://tac.mta.ca/tac/volumes/24/2/24-02abs.html)
+* [[Jeff Egger]], *The Frobenius relations meet linear distributivity*, 2010 [TAC](http://tac.mta.ca/tac/volumes/24/2/24-02abs.html)
  {#Egger2010}
 
 See also
