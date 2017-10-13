@@ -4575,7 +4575,7 @@ all that was thought to be required of a theory of nature from about [[Isaac New
 
 However, we have also seen that there are generically [[infinitesimal symmetries of the Lagrangian]] (def. \ref{SymmetriesAndConservedCurrents})
 and their analog in [[codimension]] 1 [[Hamiltonian vector field|infinitesimal symmetries of the pre-symplectic current]]
-(def. \ref{HamiltonianForms}), forming an [[infinitesimal]] [[symmetry group]], 
+(def. \ref{HamiltonianForms}), forming an [[infinitesimal]] [[symmetry group]],
 reflected by the [[Poisson bracket Lie n-algebra|local Poisson bracket]] (prop. \ref{LocalPoissonBracket}).
 
 The [[transgression of variational differential forms|transgression]] of that local Poisson bracket to the [[on-shell]]
@@ -4584,20 +4584,20 @@ the actual [[Poisson bracket]]. This data, the [[on-shell]] [[space of field his
 [[gauge symmetry]] exhibited by the [[Poisson bracket]] is called the _[[phase space]]_ of the theory (def. \ref{PhaseSpaceAssociatedWithCauchySurface}) below.
 
 But from the basic principles of [[homotopy theory]] we learn that given any [[structure]] on a [[space]]
-which is [[invariant]] with respect to a [[symmetry group]] [[action|acting]] on the space 
+which is [[invariant]] with respect to a [[symmetry group]] [[action|acting]] on the space
 (here: the [[Lagrangian]]/[[action functional]] on the [[jet bundle]]/[[space of field histories]])
 then the true structure at hand is the [[homotopy quotient]] of that [[space]] by that [[symmetry group]].
-We will explain this further below. This here just to point out that the [[homotopy quotient]] of the 
+We will explain this further below. This here just to point out that the [[homotopy quotient]] of the
 [[phase space]] by the [[Hamiltonian vector field|infintiesimal symmetries of the presymplectic current]]
-is called the _[[symplectic groupoid]]_ and that _true_ [[algebra of observables]] is hence 
+is called the _[[symplectic groupoid]]_ and that _true_ [[algebra of observables]] is hence
 the ([[polarization|polarized]]) [[groupoid convolution algebra|convolution algebra of function]]
 on this groupoid. This turns out to the "[[algebra of quantum observables]]" and the passage from the
-naive [[local observables]] on [[presymplectic manifold|presymplectic]] [[phase space]] to 
+naive [[local observables]] on [[presymplectic manifold|presymplectic]] [[phase space]] to
 this non-commutative algebra of functions on its [[homotopy quotient]] to the [[symplectic groupoid]]
 is called _[[quantization]]_. This we discuss in much detail [below](#QuantumObservables); for the
 moment this is just to motivate why the [[covariant phase space]] is the crucial construction to be
-extracted from a [[Lagrangian field theory]]. 
- 
+extracted from a [[Lagrangian field theory]].
+
 $\,$
 
 $$
@@ -7998,11 +7998,11 @@ $$
  {#GaugeFixing}
 
 
-We had seen [above](#PhaseSpace) that the key intermediate construction for obtaining the [[quantum field theory]] 
+We had seen [above](#PhaseSpace) that the key intermediate construction for obtaining the [[quantum field theory]]
 induced from a [[Lagrangian density]] is its _[[covariant phase space]]_ (prop. \ref{CovariantPhaseSpace}).
-But then we have seen that there are generically [[obstructions]] to the existence of the [[covariant phase space]], embodied by 
-[[infinitesimal gauge transformation]] that have been "left implicit" (prop. \ref{NonTrivialImplicitInfinitesimalGaugeSymmetriesPbstructExistenceOfCauchySurfaces}). 
-We have then discussed the [[reduced phase space]] [above](#ReducedPhaseSpace) which makes the 
+But then we have seen that there are generically [[obstructions]] to the existence of the [[covariant phase space]], embodied by
+[[infinitesimal gauge transformation]] that have been "left implicit" (prop. \ref{NonTrivialImplicitInfinitesimalGaugeSymmetriesPbstructExistenceOfCauchySurfaces}).
+We have then discussed the [[reduced phase space]] [above](#ReducedPhaseSpace) which makes the
 [[infinitesimal gauge symmetries]] "explicit" by forming their [[homotopy quotient]], whose
 [[algebra of functions]], on the derived [[shell]], is the _[[BV-BRST complex]]_ of the theory.
 It remains to show that this construction of the [[reduced phase space]] indeed serves to lift the
@@ -8011,11 +8011,11 @@ It remains to show that this construction of the [[reduced phase space]] indeed 
 The point is that while the [[reduced phase space]] reflected by the [[BV-BRST complex]] may still not be
 _manifestly_ covariant, its existence as an object in [[homotopy theory]], here specifically in [[homological algebra]],
 means that it comes with a more flexible concept of "[[equality]]", namely _[[homotopy equivalence]]_, which here
-specifically means _[[quasi-isomorphism]]_. 
+specifically means _[[quasi-isomorphism]]_.
 
 Broadly speaking, the [[gauge principle]] in [[physics]], says that no two things ([[field histories]], etc.)
 are ever really [[equality|equal]], instead they may be connected by [[gauge transformations]], and the mathematical
-reflection of that is the principle of [[homotopy theory]], where no to [[homotopy types]] are ever equal,
+reflection of that is the principle of [[homotopy theory]], where no two [[homotopy types]] are ever equal,
 instead they may be connected by ([[weak homotopy equivalence|weak]]) [[homotopy equivalence]].
 Hence picking a specific representative of a [[homotopy type]] means to _fix a gauge_.
 
@@ -8032,14 +8032,14 @@ not necessarily descending to there from $E^g$ itself.
 We may still form the local [[derived critical locus]] of $\mathbf{L}^g$ in
 $E^g(\mathcal{G} \times_\Sigma T \Sigma)$ and obtain a corresponding BV-BRST-like complex $BV(s^g)$.
 
-We ask now that $BS(s^g)$ has particularly good properties: 
+We ask now that $BV(s^g)$ has particularly good properties:
 
 1. We ask that the Koszul-Tate component $s^g_{BV}$ of $s^g$ has vanishing [[cochain cohomology]] in negative degree,
 which means by prop. \ref{BVComplexIsHomologicalResolutionPreciselyIfNoNonTrivialImplicitGaugeSymmetres}
 that the Lagrnagian $\mathbf{L}^g$ on the _graded_ field bundle $E^g$ is _degreewise_ free of the
 [[obstruction]] to the existence of a covariant phase space.
 
-1. We ask moreover the remaining Chevalley-Eilenberg component $s^g_{BRST}$ of $s^g$ is compatible with the graded [[Poisson bracket]] of this graded [[covariant phase space]]
+1. We ask moreover that the remaining Chevalley-Eilenberg component $s^g_{BRST}$ of $s^g$ is compatible with the graded [[Poisson bracket]] of this graded [[covariant phase space]]
 
 This means that the "dg-Lagrangian field theory "$(E^g, \mathbf{L}^g)$ induces a [[covariant phase space|covariant]] [[reduced phase space]]
 "[[internalization|internal to]]" [[dg-manifolds]]; hence a "dg-covariant reduced phase space":
@@ -8047,7 +8047,7 @@ a [[graded object|graded]] covariant reduced phase space equipped with compatibl
 
 Such derived phase spaces $BV(s^g)$ are amenable to _degreewise_ [[quantization]] (discussed [below](#QuantumObservables))
 if only one can  keep the degreewise quantization compatible with the [[differential]].
-This may be shown (below...) to be the case, and hence  performing the quantization degreewise and passing in the end to the [[cochain cohomology]] of the rsulting BV-BRST complex of quantum observables yields the _[[gauge invariant]] [[local observables]]_
+This may be shown (below...) to be the case, and hence  performing the quantization degreewise and passing in the end to the [[cochain cohomology]] of the resulting BV-BRST complex of quantum observables yields the _[[gauge invariant]] [[local observables]]_
 of the quantum field theory. This is called the "[[BV-BRST quantization]] of [[gauge theories]]".
 
 In order to apply this to the [[Lagrangian field theory]] $(E,\mathbf{L})$ that we actually started out to
@@ -8163,21 +8163,22 @@ Here:
 $\,$
 
 In practice this choice of gauge fixing by choice of quasi-isomorphism to a "manifestly covariant" [[BV-BRST complex]]
-is realized as the composite of two seperate quansi-isomorphisms:
+is realized as the composite of two seperate quasi-isomorphisms:
 
 1. an "anti-canonical transformation"
 
-   $$ 
+   $$
      e^{-\{\psi,-\}} \;\colon\; BV(s^g) \longrightarrow BV( \exp^{-\{\psi,-\}} s^g )
    $$
 
-   (induced by a degree -1 element $\psi$ called, for better or worse, the "[[gauge fixing fermion]]") 
+   (induced by a degree -1 element $\psi$ called, for better or worse, the "[[gauge fixing fermion]]")
   which is actually a genuine [[isomorphism]], not just a [[quasi-isomorphism]];
 
-1. a genuine [[quasi-isomorphism]] contracts away a [[contractible space|contractible]] [[direct sum|direct summand]]
+1. a genuine [[quasi-isomorphism]] which contracts away a [[contractible space|contractible]] [[direct sum|direct summand]]
+   of [[auxiliary fields]]
 
    $$
-     BV( e^{-\{\psi,-\}} s^g ) \overset{\text{forget contractible pairs}}{\longrightarrow}  BV(s) .
+     BV( e^{-\{\psi,-\}} s^g ) \overset{ \text{forget contractible complex} \atop \text{of auxiliary fields} }{\longrightarrow}  BV(s) .
    $$
 
 
@@ -8286,7 +8287,7 @@ $$
   \label{NLGaugeFixingFermion}
   \psi
      \coloneqq
-  \tilde c( b + a^{\mu}_{,\mu} )
+  \tilde c( b - a^{\mu}_{,\mu} )
   \;\in\;
   CE\left(
     \left(
@@ -8331,19 +8332,45 @@ $$
 
 The [[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]] induced by this Lagrangian density $\mathbf{L}^g$ (def \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime}) are
 
-> up to irrelevant relative pre-factors to be fixed...
 
 $$
   \begin{aligned}
-    f^{\mu \nu}{}_{,\mu} & = b^{,\nu}
+    f^{\mu \nu}{}_{,\mu} & =  b^{,\nu}
     \\
-    b & = a^\mu_{,\mu}
+    b & = -\tfrac{1}{2} a^\mu_{,\mu}
     \\
     c_{,\mu}{}^{,\mu} & = 0
     \\
     \tilde c_{,\mu}{}^{,\mu} & = 0
   \end{aligned}
 $$
+
+Observe that by the second equation 
+
+$$
+  b^{,\nu} = -\tfrac{1}{2} a^{\mu,\nu}{}_{,\mu}
+$$
+
+which by (eq:FaradayTensorJet) is the second term in 
+
+$$
+  f^{\mu \nu}{}_{,\mu} =
+  \tfrac{1}{2}
+  \left(
+    a^{\nu,\mu}{}_{,\mu}
+    -
+    a^{\mu,\nu}{}_{,\mu}
+  \right)
+  \,.
+$$
+
+Therefore the equation of motion for $a_\nu$ is now actually 
+
+$$
+  a_{\nu, \mu}{}^{,\mu} = 0
+  \,.
+$$
+
 
 This is indeed a system of [[normally hyperbolic differential operator|normally hyperbolic]] [[differential equations]], as oppose to the plain [[vacuum]] [[Maxwell equations]] on [[Minkowski spacetime]] $\frac{d}{d x^\mu} f^{\mu \nu} = 0$ (see also [Rejzner 16, section 7.2](#Nakanishi-Lautrup+field#Rejzner16)).
 
@@ -8624,4 +8651,3 @@ $\,$
 $\,$
 
 
-[[!redirects A first idea of quantum field theory]]
