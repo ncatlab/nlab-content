@@ -8467,7 +8467,7 @@ $$
   \label{NLGaugeFixingFermion}
   \psi
      \coloneqq
-  \tilde c( b - a^{\mu}_{,\mu} )
+  \tilde c( b + a^{\mu}_{,\mu} )
   \;\in\;
   CE\left(
     \left(
@@ -8514,6 +8514,7 @@ The [[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]] induced by
 
 
 $$
+  \label{LorenzGaugeFixedEOMForVacuumElectromagnetism}
   \left\{
   \begin{aligned}
     f^{\mu \nu}{}_{,\mu} & =  b^{,\nu}
@@ -8524,9 +8525,11 @@ $$
     \\
     \tilde c_{,\mu}{}^{,\mu} & = 0
   \end{aligned}
-  \phantom{AA}
-  \Letrightarrow
-  \phantom
+  \right.
+  \phantom{AAA}
+  \Leftrightarrow
+  \phantom{AAA}
+  \left\{
   \begin{aligned}
     \Box a_\nu & = 0
     \\
@@ -8536,11 +8539,12 @@ $$
     \\
     \Box \tilde c & = 0
   \end{aligned}
+  \right.
 $$
 
 Here on the left we show the equations as the appear directly from the [[Euler-Lagrange variational derivative]] 
 (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}).
-The operator $\Box$ on the right is the [[wave opertor]] (example \ref{EquationOfMotionOfFreeRealScalarField}).
+The operator $\Box$ on the right is the [[wave operator]] (example \ref{EquationOfMotionOfFreeRealScalarField}).
 The equivalence to the equations on the right follows from using in the first first equation the derivative of the second equation
 on the left, which is 
 
