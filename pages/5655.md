@@ -43,3 +43,10 @@ For more on this see [[Cahiers topos]]
 
 [[!redirects formal manifold]]
 [[!redirects formal manifolds]]
+
+[[!redirects infinitesimally thickened manifold]]
+[[!redirects infinitesimally thickened manifolds]]
+
+[[!redirects infinitesimally thickened smooth manifold]]
+[[!redirects infinitesimally thickened smooth manifolds]]
+
