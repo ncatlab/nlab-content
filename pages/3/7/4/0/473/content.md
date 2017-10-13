@@ -21,7 +21,7 @@ The $n$-category of framed $n$-tangles in $n+k$ dimensions is $(n+k)$-equivalent
 to the free weak $k$-tuply monoidal $n$-category with duals on one object.
 =--
 
-In the limit $k \to \infty$, this gives:
+In the limit $k \to \infty$, this gives the [[cobordism hypothesis]]:
 +-- {: .un_prop}
 ###### [[cobordism hypothesis|Cobordism Hypothesis]]
 
