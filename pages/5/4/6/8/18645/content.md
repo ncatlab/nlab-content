@@ -45,12 +45,6 @@ Therefore we begin in the following with the special case where [[spacetime]] is
 Similarly, when considering [[gauge theory]] we consider just the special case that the [[gauge parameter]]-bundle
 is a [[trivial vector bundle]] and we concentrate on the case that the gauge symmetries are "closed irreducible".
 
-We do however consider the proper [[differential geometry]] of the resulting [[spaces of field histories]] in  terms of
-"[[cohesion|cohesive]] [[functorial geometry]]" embodied by ([[formal smooth set|formal]]) [[smooth sets]]  (see [below](#Geometry)) and hence (which works verbatim the same way) [[super smooth sets]]. This seamlessly subsumes the case that there are [[fermion|fermionic]] fields in the theory (as in any realistic field theory).
-Notice that this does _not_ mean that we consider "[[supersymmetry]]" (though of course we could):
-plain [[supergeometry]] is but the mathematical
-incarnation of the [[Pauli exclusion principle]] for [[fermions]], a key aspect of the [[stability of matter]] in the [[observable universe]].
-
 This comparatively simple setup already subsumes what is considered in most traditional texts on the subject, it captures the established perturbative [[BV formalism|BRST-BV quantization]] of [[gauge fields]] coupled to [[fermions]] [[AQFT on curved spacetime|on curved spacetimes]]
 -- which is the state of the art.
 Further generalization, necessary for the discussion of global topological effects such as [[instanton]] configurations
@@ -156,38 +150,7 @@ For generalizations we note the following:
 
 =--
 
-The first magic algebraic property of [[differential geometry]] may be used to 
-speak about [[infinitesimal]] spaces:
 
-
-+-- {: .num_example #InfinitesimalNeighbourhood}
-###### Example
-**([[infinitesimal neighbourhood]])
-
-For $x_0 \in \mathbb{R}^n$ a point and $k \in \mathbb{N}$, then
-the order-$k$ _[[infinitesimal neighbourhood]]_ $\mathbb{D}^k_{x_0}$ of $x_0$
-is _defined_ to be the space whose [[algebra of functions]] is
-the [[polynomial algebra]] in the $n$ canonical [[coordinate]] functions,
-modulo the relation which regards a product of more than $k$ of these as being zero:
-
-$$
-  C^\infty( \mathbb{D}^k_{x_0} )
-  \;\coloneqq\;
-  \mathbb{R}[ (x^1 - x_0^1), \cdots (x^n - x_0^n)  ]/( (x^1- x_0^1), \cdots (x^n - x_0^n)  )^{k+1}
-  \,.
-$$
-
-Similarly the full [[infinitesimal neighbourhood]] $\mathbb{D}_{x_0}$ (without restriction on the order) is the
-the space whose [[algebra of functions]] is the [[formal power series algebra]]
-
-$$
-  C^\infty( \mathbb{D}_{x_0} )
-  \;\coloneqq\;
-  \mathbb{R}[ [ (x^1 - x_0^1), \cdots (x^n - x_0^n)  ] ]
-  \,.
-$$
-
-=--
 
 
 $\,$
@@ -344,20 +307,6 @@ $$
 $$
 
 The set of such [[sections]]/[[field histories]] is to be denoted $\Gamma_\Sigma(E)$.
-
-
-More generally, let $S \hookrightarrow \Sigma$ be a [[submanifold]] of spacetime. We write
-$N_\Sigma(S) \hookrightarrow \Sigma$ for its [[infinitesimal neighbourhood]] in $\Sigma$ (def. \ref{InfinitesimalNeighbourhood}).
-
-If $E \overset{fb}{\to} \Sigma$ is a [[field bundle]]
-then the _set of field histories restricted to $S$_, to be denoted
-
-$$
-  \label{SpaceOfFieldHistoriesInHigherCodimension}
-  \Gamma_{S}(E) \coloneqq \Gamma_{N_\Sigma(S)}( E\vert_{N_\Sigma S} ) \in \mathbf{H}
-$$
-
-is the set of section of $E$ restricted to the [[infinitesimal neighbourhood]] $N_\Sigma(S)$.
 
 =--
 
@@ -527,6 +476,9 @@ For $\mathfrak{g} = \mathfrak{su}(2)$ this is a [[field (physics)|field]] histor
 
 =--
 
+$\,$
+
+**Non-finite dimensional geometry**
 
 Given any [[field bundle]], we will eventually need to regard the set of all [[field histories]] $\Gamma_\Sigma(E)$
 as a "[[smooth set]]" itself, a smooth _[[space of sections]]_, to which 
@@ -565,7 +517,7 @@ A _[[diffeological space]]_ $X$ is
    $$
    
    of the [[function set|set of functions]] from the underlying set $\mathbb{R}^n_s$ of $\mathbb{R}^n$ to $X_s$,
-   to be called the _[[smooth funtions]]_ or _plot_ from $\mathbb{R}^n$ to $X$;
+   to be called the _smooth functions_ or _plots_ from $\mathbb{R}^n$ to $X$;
 
 1. for each [[smooth function]] $f \;\colon\; \mathbb{R}^{n_1} \longrightarrow \mathbb{R}^{n_2}$
    between [[Cartesian spaces]] a choice of function
@@ -596,7 +548,7 @@ such that
    
    and if $\mathbb{R}^{n_1} \overset{f}{\to} \mathbb{R}^{n_2} \overset{g}{\to} \mathbb{R}^{n_3}$ 
    are two [[composition|composable]] [[smooth functions]] between [[Cartesian spaces]], then 
-   pullback of plots along them conseutively equals the pullback along the [[composition]]:
+   pullback of plots along them consecutively equals the pullback along the [[composition]]:
    
    $$
      f^\ast \circ g^\ast
@@ -610,7 +562,7 @@ such that
        \\
        X(\mathbb{R}^{n_3})
        && \underset{ (g \circ f)^\ast }{\longrightarrow} &&
-       X(\mathbb{R}^{n_2})
+       X(\mathbb{R}^{n_1})
      }
    $$
 
@@ -738,7 +690,159 @@ $$
 
 =--
 
-It is easy to define [[differential forms]] on [[diffeological spaces]] $X$:
+Once the step from [[smooth manifolds]] to [[diffeological spaces]] (def. \ref{DiffeologicalSpace}) is made,
+characterizing the [[smooth structure]] of the space entirely by how we may probe it by mapping
+smooth Cartesian spaces into it, it becomes clear that the underlying set $X_s$ of a diffeological space $X$
+is not actually crucial to support the concept: The space is already entirely defined [[structuralism|structurally]]
+by the system of smooth plots it has, and the underlying set $X_s$ is recovered from these as the set of plots
+from the point $\mathbb{R}^0$. Therefore we may just as well drop the mentioning of $X_s$. 
+By simply stripping this requirement off of def. \ref{DiffeologicalSpace} we obtain the following
+more general and more useful definition:
+
+
++-- {: .num_defn #SmoothSet}
+###### Definition
+**([[smooth set]])
+
+A _[[smooth set]]_ $X$ is
+
+1. for each $n \in \mathbb{N}$ a choice of [[set]]
+
+   $$
+     X(\mathbb{R}^n) \in Set
+   $$
+
+   to be called the set of _smooth functions_ or _plots_ from $\mathbb{R}^n$ to $X$;
+
+1. for each [[smooth function]] $f \;\colon\; \mathbb{R}^{n_1} \longrightarrow \mathbb{R}^{n_2}$
+   between [[Cartesian spaces]] a choice of function
+
+   $$
+     f^\ast \;\colon\; X(\mathbb{R}^{n_2}) \longrightarrow X(\mathbb{R}^{n_1})
+   $$
+
+   to be thought of as the precomposition operation
+
+   $$
+     \left(
+       \mathbb{R}^{n_2} \overset{\Phi}{\longrightarrow} X
+     \right)
+     \;\overet{f^\ast}{\mapsto}\;
+     \left(
+       \mathbb{R}^{n_1} \overset{f}{\to} \mathbb{R}^{n_2} \overset{f}{\to} X
+     \right)
+   $$
+
+such that
+
+1. ([[functor|functoriality]])
+
+   If $id_{\mathbb{R}^n} \;\colon\; \mathbb{R}^n \to \mathbb{R}^n$ is the [[identity function]] on $\mathbb{R}^n$,
+   then $\left(id_{\mathbb{R}^n}\right)^\ast \;\colon\; X(\mathbb{R}^n) \to X(\mathbb{R}^n)$ is
+   the identity function on the set of plots $X(\mathbb{R}^n)$;
+
+   and if $\mathbb{R}^{n_1} \overset{f}{\to} \mathbb{R}^{n_2} \overset{g}{\to} \mathbb{R}^{n_3}$
+   are two [[composition|composable]] [[smooth functions]] between [[Cartesian spaces]], then
+   pullback of plots along them conseutively equals the pullback along the [[composition]]:
+
+   $$
+     f^\ast \circ g^\ast
+     =
+     (g \circ f)^\ast
+     \phantom{AAAAAA}
+     \array{
+       && X(\mathbb{R}^{n_2})
+       \\
+       & {}^{\mathllap{f^\ast}}\nearrow && \searrow^{\mathrlap{g^\ast}}
+       \\
+       X(\mathbb{R}^{n_3})
+       && \underset{ (g \circ f)^\ast }{\longrightarrow} &&
+       X(\mathbb{R}^{n_2})
+     }
+   $$
+
+1. ([[sheaf|gluing]])
+
+   If $\{ U_i \overset{f_i}{\to} \mathbb{R}^n\}_{i \in I}$ is an [[open cover]] of a [[Cartesian space]]
+   by smooth [[open balls]] (i.e. each $U_i$ is [[diffeomorphism|diffeomorphic]] to $\mathbb{R}^n$ itself
+   and the [[embeddings]] $f_i$ are [[smooth functions]]) then the function which restricts
+   $\mathbb{R}^n$-plots of $X$ to a set of $U_i$-plots
+
+   $$
+     X(\mathbb{R}^n)
+       \overset{( (f_i)^\ast )_{i \in I}  }{\hookrightarrow}
+     \underset{i \in I}{\prod} X(U_i)
+   $$
+
+   is a [[bijection]] onto the set of those [[tuples]] $(\Phi_i \in X(U_i))_{i \in I}$ of plots,
+   which are "[[matching families]]" in that they agree on [[intersections]]:
+
+   $$
+     \phi_i\vert_{U_i \cap U_j} = \phi_j \vert_{U_i \cap U_j}
+     \phantom{AAAA}
+     \text{i.e.}
+     \phantom{AAAA}
+     \array{
+       && U_i \cap U_j
+       \\
+       & \swarrow && \searrow
+       \\
+       U_i && && U_j
+       \\
+       & {}_{\mathrlap{\Phi_i}}\searrow && \swarrow_{\mathrlap{\Phi_j}}
+       \\
+       && X
+     }
+   $$
+
+Finally given $X_1$ and $X_2$ two [[smooth sets]], then a [[smooth function]] between them
+
+$$
+  f \;\colon\; X_1 \longrightarrow X_2
+$$
+
+is
+
+* for each $n \in \mathbb{N}$ a [[function]]
+
+  $$
+    f_\ast(\mathbb{R}^n)
+    \;\colon\;
+    X_1(\mathbb{R}^n) \longrightarrow X_2(\mathbb{R}^n)
+  $$
+
+such that
+
+* for each [[smooth function]] $g \colon \mathbb{R}^{n_1} \to \mathbb{R}^{n_2}$ between [[Cartesian spaces]] we have
+
+  $$
+    g^\ast_2 \circ f_\ast(\mathbb{R}^{n_2})
+    =
+    f_\ast(\mathbb{R}^{n_1}) \circ g^\ast_1
+    \phantom{AAAAA}
+    \text{i.e.}
+    \phatom{AAAAA}
+    \text{i.e.}
+    \phantom{AAAAA}
+    \array{
+      X_1(\mathbb{R}^{n_2})
+        &\overset{f_\ast(\mathbb{R}^{n_2})}{\longrightarrow}&
+      X_2(\mathbb{R}^{n_2})
+      \\
+      \mathllap{g_1^\ast}\downarrow && \downarrow\mathrlap{g^\ast_2}
+      \\
+      X_1(\mathbb{R}^{n_1})
+        &\underset{f_\ast(\mathbb{R}^{n_1})}{\longrightarrow}&
+      X_2(\mathbb{R}^{n_1})
+    }
+  $$
+
+=--
+
+Basing [[differential geometry]] on [[smooth sets]] is an instance of the general approach to [[geometry]] called _[[functorial geometry]]_
+or _[[topos theory]]_. For more background on this see at _[[geometry of physics -- smooth sets]]_.
+
+It is easy to define [[differential forms]] on [[diffeological spaces]] and [[smooth sets]] $X$:
 Any kind of differential form $\omega$ on $X$ should admit [[pullback of differential forms]]
 along any [[smooth function]]  $\mathbb{R}^n \overset{\Phi}{\to} X$ (any plot) to yield
 an ordinary differential form $\Phi^\ast(\omega)$ on the [[Cartesian space]] $\mathbb{R}^n$.
@@ -747,9 +851,10 @@ to completely fix the concept:
 
 +-- {: .num_defn #DifferentialFormsOnDiffeologicalSpaces}
 ###### Definition
-**([[differential forms]] on [[diffeological spaces]])
+**([[differential forms]] on [[smooth sets]])
 
-Let $X$ be a [[diffeological space]] (def. \ref{DiffeologicalSpace}) then a [[differential form]]
+Let $X$ be a [[diffeological space]] (def. \ref{DiffeologicalSpace}) 
+or more generally a [[smooth set]] (def. \ref{SmoothSet}) then a [[differential form]]
 $\omega$ on $X$ is
 
 * for each $n \in \mathbb{N}$ and each plot $\mathbb{R}^n \overset{\Phi}{\to} X$
@@ -770,6 +875,8 @@ such that
     =
     ( f^\ast \Phi )^\ast(\omega)
     \phantom{AAAAA}
+    \text{i.e.}
+    \phantom{AAAA}
     \array{
       \mathbb{R}^{n_1} && \overset{f}{\longrightarrow} && \mathbb{R}^{n_2}
       \\
@@ -777,7 +884,7 @@ such that
       \\
       && X
     }
-    \phantom{AA}
+    \phantom{AAAA}
     \array{
       \Omega^\bullet( \mathbb{R}^{n_1} ) && \overset{f^\ast}{\longleftarrow} && \Omega^\bullet(\mathbb{R}^{n_2})
       \\
@@ -788,21 +895,20 @@ such that
     \,.
   $$
 
-We write $\Omega^\bullet(X)$ for the set of differential forms on the diffeological space $X$
+We write $\Omega^\bullet(X)$ for the set of differential forms on the smooth set $X$
 defined this way. 
-
 
 =--
 
 
 The usual operations on ordinary [[differential forms]] directly generalize plot-wise
-to differential forms on [[diffeological spaces]]:
+to differential forms on [[diffeological spaces]] and more generally on [[smooth sets]]:
 
 +-- {: .num_defn #ExteriorCalculusOnDiffeologicalSpaces}
 ###### Definition
-**([[exterior differential]] and [[exterior product]] on [[diffeological spaces]])
+**([[exterior differential]] and [[exterior product]] on [[smooth sets]])
 
-Let $X$ be a [[diffeological space]] (def. \ref{DiffeologicalSpace}). Then
+Let $X$ be a [[diffeological space]] (def. \ref{DiffeologicalSpace}) or more generally a [[smooth set]] (def. \ref{SmoothSet}). Then
 
 1. For $\omega \in \Omega^n(X)$ a [[differential form]] on $X$ (def. \ref{DifferentialFormsOnDiffeologicalSpaces})
    its [[exterior differential]] 
@@ -838,14 +944,17 @@ Let $X$ be a [[diffeological space]] (def. \ref{DiffeologicalSpace}). Then
 
 =--
 
+$\,$
 
-Field theories of interest crucially involve [[fermionic fields]], such that the [[Dirac field]],
-which are subject to the "[[Pauli exclusion principle]]". Mathematically this means that these 
-[[field (physics)|field]] have [[field bundles]] whose [[field fiber]] 
-is not an ordinary [[manifold]], but an odd-graded _[[supermanifold]]_.
+**Infinitesimal geometry**
 
-In order to define what these are, we appeal to the first magic algebraic property of differential 
-geometry from [above](#AlgebraicFactsOfDifferentialGeometry), which says that we may recognize
+It is crucial in [[field theory]] that we consider [[field histories]] not only over
+all of [[spacetime]], but also restricted to [[submanifolds]] of spacetime. Or rather,
+what is actually of interest are the restrictions of the field histories to the "[[infinitesimal neighbourhoods]]"
+of these submanifolds. (This appears notably in the construction of [[phase spaces]] [below](#PhaseSpace).)
+
+In order to grasp what "[[infinitesimal neighbourhoods]]" are, we appeal to the first magic algebraic property of differential 
+geometry from prop. \ref{AlgebraicFactsOfDifferentialGeometry}, which says that we may recognize
 [[smooth manifolds]] $X$ [[formal dual|dually]] in terms of their [[commutative algebras]] $C^\infty(X)$
 of [[smooth functions]] on them
 
@@ -864,7 +973,7 @@ tiny that some finite power of them is not just even more tiny, but actually van
 
 +-- {: .num_defn #InfinitesimallyThickendSmoothManifold}
 ###### Definition
-**([[infinitesimally thickened smooth manifold]])
+**([[infinitesimally thickened smooth manifold|infinitesimally thickened Cartesian space]])
 
 An _[[infinitesimally thickened point]]_ $Spec(A)$ is represented by a [[commutative algebra]]
 $A \in \mathbb{R}Alg$ which as a [[vector space]] is a [[direct sum]]
@@ -882,35 +991,456 @@ $$
   \,.
 $$
 
-More generally, an [[infinitesimally thickened manifold]] $X \times Spec(A)$ is represented by a [[commutative algebra]]
-$C^\infty(X) \otimes Spec(A) \in \mathbb{R} Alg$ which is the [[tensor product of algebras]] of the algebra of smooth functions
-$C^\infty(X)$ on an actual smooth manifold, with an algebra of functions $A \simeq_{\mathbb{R}} \langle 1\rangle \oplus V$
-of an infinitesimally thickened point, as above.
+More generally, an [[infinitesimally thickened manifold|infinitesimally thickened Cartesian space]] 
+$\mathbb{R}^n \times Spec(A)$ is represented by a [[commutative algebra]]
+$C^\infty(\mathbb{R}^n) \otimes Spec(A) \in \mathbb{R} Alg$ which is the [[tensor product of algebras]] of the algebra of smooth functions
+$C^\infty(\mathbb{R}^n)$ on an actual [[Cartesian space]] of some [[dimension]] $n$, with an algebra of functions $A \simeq_{\mathbb{R}} \langle 1\rangle \oplus V$ of an infinitesimally thickened point, as above.
 
-We say that a smooth function between two [[infinitesimally thickened manifolds]]
-
-$$
-  X_1 \times Spec(A_1) \overset{f}{\longrightarrow} X_2 \times Spec(A_2)
-$$
-
-is by definition [[formal dual|dually]] an algebra [[homomorphism]] of the form
+We say that a smooth function between two [[infinitesimally thickened manifolds|infinitesimally thickened Cartesian spaces]] 
 
 $$
-  C^\infty(X_1) \otimes A_1 
+  \mathbb{R}^{n_1} \times Spec(A_1) \overset{f}{\longrightarrow} \mathbb{R}^{n_2} \times Spec(A_2)
+$$
+
+is by definition [[formal dual|dually]] an $\mathbb{R}$-algebra [[homomorphism]] of the form
+
+$$
+  C^\infty(\mathbb{R}^{n_1}) \otimes A_1 
     \overset{f^\ast}{\longleftarrow}
-  C^\infty(X_2) \otimes A_2
+  C^\infty(\mathbb{R}^{n_2}) \otimes A_2
   \,.
 $$
 
 =--
 
+Of course we need to consider infinitesimally thickened spaces more general than 
+thickenings of just Cartesian spaces. But just as [[Cartesian spaces]] serve as the local 
+test geometries to induce the general concept of [[diffeological spaces]] and [[smooth sets]] (def. \ref{SmoothSet}),
+so using infinitesimally thickened Cartesian spaces as test geometries immediately induces the corresponding
+generalization of smooth sets:
 
 
++-- {: .num_defn #FormalSmoothSet}
+###### Definition
+**([[formal smooth set]])
+
+A _[[formal smooth set]]_ $X$ is
+
+1. for each [[infinitesimally thickened smooth manifold|infinitesimally thickened Cartesian space]]
+   $\mathbb{R}^n \times Spec(A)$ (def. \ref{InfinitesimallyThickendSmoothManifold}) a [[set]]
+
+   $$
+     X(\mathbb{R}^n \times Spec(A)) \in Set
+   $$
+
+   to be called the set of _[[smooth functions]]_ or _plots_ from $\mathbb{R}^n \times Spec(A)$ to $X$;
+
+1. for each [[smooth function]] $f \;\colon\; \mathbb{R}^{n_1} \times Spec(A_1) \longrightarrow \mathbb{R}^{n_2} \times Spec(A_2)$
+   between [[infinitesimally thickened smooth manifold|infinitesimally thickened Cartesian spaces]] a choice of function
+
+   $$
+     f^\ast \;\colon\; X(\mathbb{R}^{n_2} \times Spec(A_2)) \longrightarrow X(\mathbb{R}^{n_1} \times Spec(A_1))
+   $$
+
+   to be thought of as the precomposition operation
+
+   $$
+     \left(
+       \mathbb{R}^{n_2} \overset{\Phi}{\longrightarrow} X
+     \right)
+     \;\overet{f^\ast}{\mapsto}\;
+     \left(
+       \mathbb{R}^{n_1}\times Spec(A_1) \overset{f}{\to} \mathbb{R}^{n_2} \times Spec(A_2) \overset{f}{\to} X
+     \right)
+   $$
+
+such that
+
+1. ([[functor|functoriality]])
+
+   If $id_{\mathbb{R}^n \times Spec(A)} \;\colon\; \mathbb{R}^n \times Spec(A) \to \mathbb{R}^n \times Spec(A)$ is the [[identity function]] on $\mathbb{R}^n \times Spec(A)$,
+   then $\left(id_{\mathbb{R}^n \times Spec(A)}\right)^\ast \;\colon\; X(\mathbb{R}^n \times Spec(A)) \to X(\mathbb{R}^n \times Spec(A))$ is
+   the identity function on the set of plots $X(\mathbb{R}^n \times Spec(A))$;
+
+   and if 
+   $\mathbb{R}^{n_1}\times Spec(A_1) \overset{f}{\to} \mathbb{R}^{n_2} \times Spec(A_2) \overset{g}{\to} \mathbb{R}^{n_3} \times Spec(A_3)$
+   are two [[composition|composable]] [[smooth functions]] between infinitesimally thickened Cartesian spaces, then
+   pullback of plots along them consecutively equals the pullback along the [[composition]]:
+
+   $$
+     f^\ast \circ g^\ast
+     =
+     (g \circ f)^\ast
+     \phantom{AAAA}
+     \text{i.e.}
+     \phantom{AAAA}
+     \array{
+       && X(\mathbb{R}^{n_2} \times Spec(A_2))
+       \\
+       & {}^{\mathllap{f^\ast}}\nearrow && \searrow^{\mathrlap{g^\ast}}
+       \\
+       X(\mathbb{R}^{n_3} \times Spec(A_3))
+       && \underset{ (g \circ f)^\ast }{\longrightarrow} &&
+       X(\mathbb{R}^{n_1} \times Spec(A_1))
+     }
+   $$
+
+1. ([[sheaf|gluing]])
+
+   If $\{ U_i \times Spec(A) \overset{f_i \times id_{Spec(A)}}{\to} \mathbb{R}^n \times Spec(A)\}_{i \in I}$ is such that
+   $$\{ U_i  \overset{f_i  }{\to} \mathbb{R}^n \}_{i \in I}$$
+   in an [[open cover]] by smooth [[open balls]] (i.e. each $U_i$ is [[diffeomorphism|diffeomorphic]] to $\mathbb{R}^n$ itself
+   and the [[embeddings]] $f_i$ are [[smooth functions]]) then the function which restricts
+   $\mathbb{R}^n \times Spec(A)$-plots of $X$ to a set of $U_i \times Spec(A)$-plots
+
+   $$
+     X(\mathbb{R}^n \times Spec(A))
+       \overset{( (f_i)^\ast )_{i \in I}  }{\hookrightarrow}
+     \underset{i \in I}{\prod} X(U_i \times Spec(A))
+   $$
+
+   is a [[bijection]] onto the set of those [[tuples]] $(\Phi_i \in X(U_i))_{i \in I}$ of plots,
+   which are "[[matching families]]" in that they agree on [[intersections]]:
+
+   $$
+     \phi_i\vert_{((U_i \cap U_j) \times Spec(A)} = \phi_j \vert_{(U_i \cap U_j)\times Spec(A)}
+     \phantom{AAAA}
+     \text{i.e.}
+     \phantom{AAAA}
+     \text{i.e.}
+     \phantom{AAAA}
+     \array{
+       && (U_i \cap U_j) \times Spec(A)
+       \\
+       & \swarrow && \searrow
+       \\
+       U_i\times Spec(A) && && U_j \times Spec(A)
+       \\
+       & {}_{\mathrlap{\Phi_i}}\searrow && \swarrow_{\mathrlap{\Phi_j}}
+       \\
+       && X
+     }
+   $$
+
+Finally given $X_1$ and $X_2$ two [[formal smooth sets]], then a [[smooth function]] between them
+
+$$
+  f \;\colon\; X_1 \longrightarrow X_2
+$$
+
+is
+
+* for each infinitesimally thickened Cartesian space $\matbb{R}^n \times Spec(A)$ a function 
+
+  $$
+    f_\ast(\mathbb{R}^n \times Spec(A))
+    \;\colon\;
+    X_1(\mathbb{R}^n \times Spec(A)) \longrightarrow X_2(\mathbb{R}^n \times Spec(A))
+  $$
+
+such that
+
+* for each [[smooth function]] $g \colon \mathbb{R}^{n_1} \times Spec(A_1) \to \mathbb{R}^{n_2} \times Spec(A_2)$ between 
+  infinitesimally thickened Cartesian spaces we have
+
+  $$
+    g^\ast_2 \circ f_\ast(\mathbb{R}^{n_2} \times Spec(A_2))
+    =
+    f_\ast(\mathbb{R}^{n_1} \times Spec(A_1)) \circ g^\ast_1
+    \phantom{AAAAA}
+    \text{i.e.}
+    \phantom{AAAA}
+    \array{
+      X_1(\mathbb{R}^{n_2} \times Spec(A_2))
+        &\overset{f_\ast(\mathbb{R}^{n_2}\times Spec(A_2) )}{\longrightarrow}&
+      X_2(\mathbb{R}^{n_2} \times Spec(A_2))
+      \\
+      \mathllap{g_1^\ast}\downarrow && \downarrow\mathrlap{g^\ast_2}
+      \\
+      X_1(\mathbb{R}^{n_1} \times Spec(A_1))
+        &\underset{f_\ast(\mathbb{R}^{n_1})}{\longrightarrow}&
+      X_2(\mathbb{R}^{n_1} \times Spec(A_1))
+    }
+  $$
+
+=--
 
 
+Basing [[synthetic differential geometry|infinitesimal geometry]] on [[formal smooth sets]] is an instance of the general approach to [[geometry]] called _[[functorial geometry]]_ or _[[topos theory]]_. For more background on this see at _[[geometry of physics -- manifolds and orbifolds]]_.
 
 
++-- {: .num_example #InfinitesimalNeighbourhood}
+###### Example
+**([[infinitesimal neighbourhood]])
 
+Let $X$ be a [[formal smooth sets]] (def. \ref{FormalSmoothSet}) $Y \hookrightarrow X$
+a sub-formal smooth set. Then the _[[infinitesimal neighbourhood]]_ of $Y$ in $X$
+is the formal smooth set $N_Y X$ whose plots are those
+
+$$
+  \mathbb{R}^n \times Spec(A) \overset{f}{\longrightarrow} X
+$$
+
+such that their [[reduced object|reduction]]
+
+$$
+  \mathbb{R}^n \hookrightarrow \mathbb{R}^n \times Spec(A) \overset{f}{\longrightarrow} X
+$$
+
+factors through $Y$.
+
+=--
+
++-- {: .num_defn #FieldHistoriesOnInfinitesimalNeighbourhoodOfSubmanifoldOfSpacetime}
+###### Definition
+**([[field histories]] on [[infinitesimal neighbourhood]] of [[submanifold]] of [[spacetime]])**
+
+Let $E \overset{fb}{\to} \Sigma$ be a [[field bundle]] (def. \ref{Fields})
+and let $S \hookrightarrow \Sigma$ be a [[submanifold]] of [[spacetime]].
+ 
+We write $N_\Sigma(S) \hookrightarrow \Sigma$ for its [[infinitesimal neighbourhood]] in $\Sigma$ (def. \ref{InfinitesimalNeighbourhood}).
+
+
+Then the _set of field histories restricted to $S$_, to be denoted
+
+$$
+  \label{SpaceOfFieldHistoriesInHigherCodimension}
+  \Gamma_{S}(E) \coloneqq \Gamma_{N_\Sigma(S)}( E\vert_{N_\Sigma S} ) \in \mathbf{H}
+$$
+
+is the set of section of $E$ restricted to the [[infinitesimal neighbourhood]] $N_\Sigma(S)$.
+
+=--
+
+
+$\,$
+
+**Supergeometry**
+
+Field theories of interest crucially involve [[fermionic fields]], such as the [[Dirac field]],
+which are subject to the "[[Pauli exclusion principle]]". Mathematically this means that these
+[[field (physics)|field]] have [[field bundles]] whose [[field fiber]]
+is not an ordinary [[manifold]], but an odd-graded _[[supermanifold]]_.
+
+The required [[supergeometry]] is an immediate generalization of the 
+above [[synthetic differential geometry|infinitesimal geometry]]. First we have the direct analog of
+the definition 
+of [[infinitesimally thickened smooth manifolds|infinitesimally thickened Cartesian spaces]] (def. \ref{InfinitesimallyThickendSmoothManifold}):
+
+
++-- {: .num_defn #SuperCartesianSpace}
+###### Definition
+**([[super Cartesian space]])
+
+An _[[superpoint]]_ $Spec(A)$ is represented by a [[super-commutative algebra]]
+$A \in \mathbb{R}Alg$ which as a $\mathbb{Z}/2$-[[super vector space|graded vector space]] is a [[direct sum]]
+
+$$
+  A \simeq_{\mathbb{R}} \langle 1 \rangle \oplus V
+$$
+
+of the 1-dimensional even vector sspace $\langle 1 \rangle = \mathbb{R}$ of multiples of 1 with
+a [[finite dimensional vector space|finite dimensional]]  $\mathbb{Z}/2$-[[super vector space|graded vector space]]
+ $V$ that is a [[nilpotent ideal]] in that for
+each element $a \in V$ there exists a [[natural number]] $n \in \mathbb{N}$ such that
+
+$$
+  a^{n+1} = 0
+  \,.
+$$
+
+More generally, an [[super Cartesian space]]
+$\mathbb{R}^n \times Spec(A)$ is represented by a [[super-commutative algebra]]
+$C^\infty(\mathbb{R}^n) \otimes Spec(A) \in \mathbb{R} Alg$ which is the [[tensor product of algebras]] of the algebra of smooth functions
+$C^\infty(\mathbb{R}^n)$ on an actual [[Cartesian space]] of some [[dimension]] $n$, with an algebra of functions $A \simeq_{\mathbb{R}} \langle 1\rangle \oplus V$ of a [[superpoint]], as above.
+
+We say that a smooth function between two [[super Cartesian spaces]]
+
+$$
+  \mathbb{R}^{n_1} \times Spec(A_1) \overset{f}{\longrightarrow} \mathbb{R}^{n_2} \times Spec(A_2)
+$$
+
+is by definition [[formal dual|dually]] an $\mathbb{R}$-algebra [[homomorphism]] of the form
+
+$$
+  C^\infty(\mathbb{R}^{n_1}) \otimes A_1
+    \overset{f^\ast}{\longleftarrow}
+  C^\infty(\mathbb{R}^{n_2}) \otimes A_2
+  \,.
+$$
+
+=--
+
+It is clear now by direct analogy with the definition of [[formal smooth sets]] (def. \ref{FormalSmoothSet})
+what the corresponding [[supergeometry|supergeometric]] generalization is. For definiteness we 
+spell it out yet once more: 
+
++-- {: .num_defn #SuperFormalSmoothSet}
+###### Definition
+**([[super formal smooth set]])
+
+A _[[super formal smooth set]]_ $X$ is
+
+1. for each [[super Cartesian space]]
+   $\mathbb{R}^n \times Spec(A)$ (def. \ref{SuperCartesianSpace}) a [[set]]
+
+   $$
+     X(\mathbb{R}^n \times Spec(A)) \in Set
+   $$
+
+   to be called the set of _[[smooth functions]]_ or _plots_ from $\mathbb{R}^n \times Spec(A)$ to $X$;
+
+1. for each [[smooth function]] $f \;\colon\; \mathbb{R}^{n_1} \times Spec(A_1) \longrightarrow \mathbb{R}^{n_2} \times Spec(A_2)$
+   between [[super Cartesian spaces]] a choice of function
+
+   $$
+     f^\ast \;\colon\; X(\mathbb{R}^{n_2} \times Spec(A_2)) \longrightarrow X(\mathbb{R}^{n_1} \times Spec(A_1))
+   $$
+
+   to be thought of as the precomposition operation
+
+   $$
+     \left(
+       \mathbb{R}^{n_2} \overset{\Phi}{\longrightarrow} X
+     \right)
+     \;\overet{f^\ast}{\mapsto}\;
+     \left(
+       \mathbb{R}^{n_1}\times Spec(A_1) \overset{f}{\to} \mathbb{R}^{n_2} \times Spec(A_2) \overset{f}{\to} X
+     \right)
+   $$
+
+such that
+
+1. ([[functor|functoriality]])
+
+   If $id_{\mathbb{R}^n \times Spec(A)} \;\colon\; \mathbb{R}^n \times Spec(A) \to \mathbb{R}^n \times Spec(A)$ is the [[identity function]] on $\mathbb{R}^n \times Spec(A)$,
+   then $\left(id_{\mathbb{R}^n \times Spec(A)}\right)^\ast \;\colon\; X(\mathbb{R}^n \times Spec(A)) \to X(\mathbb{R}^n \times Spec(A))$ is
+   the identity function on the set of plots $X(\mathbb{R}^n \times Spec(A))$;
+
+   and if
+   $\mathbb{R}^{n_1}\times Spec(A_1) \overset{f}{\to} \mathbb{R}^{n_2} \times Spec(A_2) \overset{g}{\to} \mathbb{R}^{n_3} \times Spec(A_3)$
+   are two [[composition|composable]] [[smooth functions]] between infinitesimally thickened Cartesian spaces, then
+   pullback of plots along them consecutively equals the pullback along the [[composition]]:
+
+   $$
+     f^\ast \circ g^\ast
+     =
+     (g \circ f)^\ast
+     \phantom{AAAA}
+     \text{i.e.}
+     \phantom{AAAA}
+     \array{
+       && X(\mathbb{R}^{n_2} \times Spec(A_2))
+       \\
+       & {}^{\mathllap{f^\ast}}\nearrow && \searrow^{\mathrlap{g^\ast}}
+       \\
+       X(\mathbb{R}^{n_3} \times Spec(A_3))
+       && \underset{ (g \circ f)^\ast }{\longrightarrow} &&
+       X(\mathbb{R}^{n_1} \times Spec(A_1))
+     }
+   $$
+
+1. ([[sheaf|gluing]])
+
+   If $\{ U_i \times Spec(A) \overset{f_i \times id_{Spec(A)}}{\to} \mathbb{R}^n \times Spec(A)\}_{i \in I}$ is such that
+   $$\{ U_i  \overset{f_i  }{\to} \mathbb{R}^n \}_{i \in I}$$
+   in an [[open cover]] by smooth [[open balls]] (i.e. each $U_i$ is [[diffeomorphism|diffeomorphic]] to $\mathbb{R}^n$ itself
+   and the [[embeddings]] $f_i$ are [[smooth functions]]) then the function which restricts
+   $\mathbb{R}^n \times Spec(A)$-plots of $X$ to a set of $U_i \times Spec(A)$-plots
+
+   $$
+     X(\mathbb{R}^n \times Spec(A))
+       \overset{( (f_i)^\ast )_{i \in I}  }{\hookrightarrow}
+     \underset{i \in I}{\prod} X(U_i \times Spec(A))
+   $$
+
+   is a [[bijection]] onto the set of those [[tuples]] $(\Phi_i \in X(U_i))_{i \in I}$ of plots,
+   which are "[[matching families]]" in that they agree on [[intersections]]:
+
+   $$
+     \phi_i\vert_{((U_i \cap U_j) \times Spec(A)} = \phi_j \vert_{(U_i \cap U_j)\times Spec(A)}
+     \phantom{AAAA}
+     \text{i.e.}
+     \phantom{AAAA}
+     \text{i.e.}
+     \phantom{AAAA}
+     \array{
+       && (U_i \cap U_j) \times Spec(A)
+       \\
+       & \swarrow && \searrow
+       \\
+       U_i\times Spec(A) && && U_j \times Spec(A)
+       \\
+       & {}_{\mathrlap{\Phi_i}}\searrow && \swarrow_{\mathrlap{\Phi_j}}
+       \\
+       && X
+     }
+   $$
+
+Finally given $X_1$ and $X_2$ two [[super formal smooth sets]], then a [[smooth function]] between them
+
+$$
+  f \;\colon\; X_1 \longrightarrow X_2
+$$
+
+is
+
+* for each [[super Cartesian space]] $\matbb{R}^n \times Spec(A)$ a function
+
+  $$
+    f_\ast(\mathbb{R}^n \times Spec(A))
+    \;\colon\;
+    X_1(\mathbb{R}^n \times Spec(A)) \longrightarrow X_2(\mathbb{R}^n \times Spec(A))
+  $$
+
+such that
+
+* for each [[smooth function]] $g \colon \mathbb{R}^{n_1} \times Spec(A_1) \to \mathbb{R}^{n_2} \times Spec(A_2)$ between
+  super Cartesian spaces we have
+
+  $$
+    g^\ast_2 \circ f_\ast(\mathbb{R}^{n_2} \times Spec(A_2))
+    =
+    f_\ast(\mathbb{R}^{n_1} \times Spec(A_1)) \circ g^\ast_1
+    \phantom{AAAAA}
+    \text{i.e.}
+    \phantom{AAAA}
+    \array{
+      X_1(\mathbb{R}^{n_2} \times Spec(A_2))
+        &\overset{f_\ast(\mathbb{R}^{n_2}\times Spec(A_2) )}{\longrightarrow}&
+      X_2(\mathbb{R}^{n_2} \times Spec(A_2))
+      \\
+      \mathllap{g_1^\ast}\downarrow && \downarrow\mathrlap{g^\ast_2}
+      \\
+      X_1(\mathbb{R}^{n_1} \times Spec(A_1))
+        &\underset{f_\ast(\mathbb{R}^{n_1})}{\longrightarrow}&
+      X_2(\mathbb{R}^{n_1} \times Spec(A_1))
+    }
+  $$
+
+=--
+
+Basing [[supergeometry]] on [[super formal smooth sets]] is an instance of the general approach to [[geometry]] called _[[functorial geometry]]_ or _[[topos theory]]_. For more background on this see at _[[geometry of physics -- supergeometry]]_.
+
+
++-- {: .num_prop #DiracFieldBundle}
+###### Example
+**([[field bundle]] for [[Dirac field]])**
+
+Let $S$ be a [[spin representation]] and write $S_{odd}$ for the corresponding
+odd-graded [[super Cartesian space]] (...). Then the [[field bundle]] for the [[Dirac field]]
+on [[Minkowski spacetime]] $\Sigma$ is
+
+$$
+  E \coloneqq \Sigma \times S_{odd} \overset{pr_1}{\to} \Sigma
+  \,.
+$$
+
+
+=--
+
+
+$\,$
 
 ## Field variations
  {#FieldVariations}
