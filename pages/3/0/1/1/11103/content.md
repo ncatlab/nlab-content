@@ -1,5 +1,5 @@
 
-**[[twisted cohomology|twisted]] [[generalized cohomology theory]] is [[categorical semantics|∞-categorical]] [[semantics]] of [[linear homotopy type theory]]**:
+**[[twisted cohomology|twisted]] [[generalized cohomology theory]] is conjecturally [[categorical semantics|∞-categorical]] [[semantics]] of [[linear homotopy type theory]]**:
 
 | [[linear homotopy type theory]] | [[generalized cohomology theory]] | [[quantum theory]] |
 |---------------------------------|-----------------------------------|--------------------|
