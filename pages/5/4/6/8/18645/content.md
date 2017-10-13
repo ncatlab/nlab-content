@@ -15,12 +15,6 @@
 
 > under construction
 
-> relevant background on geometry is in the chapters:
-
-> [[geometry of physics -- smooth sets]], [[geometry of physics -- differential forms|differential forms]];
-
-> [[geometry of physics -- supergeometry]].
-
 $\,$
 
 #A first idea of quantum field theory#
@@ -62,7 +56,8 @@ This comparatively simple setup already subsumes what is considered in most trad
 Further generalization, necessary for the discussion of global topological effects such as [[instanton]] configurations
 of [[gauge fields]] will be discussed elsewhere (see at _[[homotopical algebraic quantum field theory]]_).
 
-Throughout we use the case of the [[real scalar field]] and of the [[electromagnetic field]] as simple illustrative running examples, which we develop alongside with the theory.
+Alongside the theory we develop the concrete examples of the [[real scalar field]], the [[electromagnetic field]] 
+the [[Dirac field]]:
 
 **running examples**
 
@@ -72,61 +67,20 @@ Throughout we use the case of the [[real scalar field]] and of the [[electromagn
 | [[electromagnetic field]] | expl. \ref{Electromagnetism} | expl. \ref{ElectromagnetismLagrangianDensity} | expl. \ref{ElectromagnetismEl}  | expl. \ref{NLGaugeFixingOfElectromagnetism} | ... |
 
 
-
 The discussion of other types of [[field (physics)|fields]]
 is postponed to their dedicated chapters below.
 
 
+
 ## Geometry
- {#Geometry}
 
-In [[field theory]] one is concerned with [[differential geometry]] on
-[[spaces]] that are more general than [[smooth manifolds]] in several ways (a preview is in remark \ref{PreviewOfGenerlizedDifferentialGeometryAppearingInFieldTheory} below). The right concept
-that neatly supports the necessary differential geometry turns out to be that of _[[smooth sets]]_
-(in particulcar [[diffeological spaces]])
-and their [[super formal smooth infinity-groupoid|generalization]] to [[supergeometry|super]]-, [[formal geometry|formal]]- and [[higher differential geometry]]. Here we briefly explain how this works.
+We assume that the reader has a basic knowledge of [[differential geometry]] on [[finite number|finite]]-[[dimension|dimensional]]
+[[smooth manifolds]] -- or in fact just an understanding of differential geometry on [[Cartesian spaces]] $\mathbb{R}^n$.
+As we uncover [[quantum field theory]] in the following we discover ever more general concepts of differential geometry
+(e. g. [[diffeological spaces]], [[supergeometry]] and [[Lie algebroids]]),
+but we introduce these as we go along.
 
-(A more detailed introduction is at _[[geometry of physics]]_
-in the chapters on _[[geometry of physics -- smooth sets|smooth sets]]_, _[[geometry of physics -- differential forms|differential forms]]_ and _[[geometry of physics -- supergeometry|supergeometry]]_, but the reader willing to trust that the theory works
-need not bother and just take note of the following basic ideas.)
-
-While the concept of _[[smooth sets]]_ is not advertised in traditional textbooks, it is actually simpler than
-that of smooth manifolds and it is closer to the operational nature of physics:
-
-A [[smooth set]] $X$ is defined simply by specifying, in a self-consistent way, what counts as a smooth function $U \to X$ (a "plot") from any [[Cartesian space]] $U$ ("[[coordinate systems]]"). Given two smooth sets $X$ and $Y$ then a [[smooth function]] $f \;\colon\; X \longrightarrow Y$ between them is a function that takes plots $U \overset{\phi}{\to} X$ of $X$ to plots $f \circ \phi \colon U \to Y$ of $Y$.
-If we allow $U$ here to be a [[super Cartesian space]], then the same idea defines _[[super smooth sets]]_.
-We will write $\mathbf{H}$ for the resulting differential geometric [[category]] of [[smooth sets]] or more generally
-[[super formal smooth sets]].
-
-For instance if $X$ happens to be an ordinary [[smooth manifold]], then it becomes a [[smooth set]] by declaring that
-a function $f \colon U \to X$ from some $U = \mathbb{R}^n$ into it is smooth, precisely if it is a [[smooth function]]
-in the ordinary sense (i.e. a function all whose [[derivatives]] exist).
-
-A key example of a smooth set which is in general not a [[smooth manifold]] is the [[mapping space]] $[X,Y]$ between two smooth sets $X$ and $Y$, hence the set of all smooth functions $X \to Y$ equipped with a smooth structure itself. Here a plot $\phi_{(-)} \colon U \to [X,Y]$
-of the mapping space is defined to be a smooth function $\phi_{(-)}(-) \colon U \times X \to Y$ out of the [[Cartesian product]] of $U$ with $X$ to $Y$, hence a "U-parameterized smooth family of smooth functions on $X$".
-
-An example of a smooth set which is far from being a smooth manifold is for $n \in \mathbb{N}$ the smooth set $\mathbf{\Omega}^n$ which is the "smooth [[classifying space]]" for [[differential n-forms]], defined by the rule that a smooth function $\phi \colon U \to \mathbf{\Omega}^n$ is equivalently a smooth differential $n$-form on $U$ (to be thought of as the [[pullback of differential forms|pullback]] of a "universal $n$-form" on $\mathbf{\Omega}^n$ along $\phi$).
-It follows from this in particular that for $X$ any [[smooth manifold]] then smooth functions $X \to \mathbf{\Omega}^n$ are equivalent to smooth $n$-forms on $X$. Accordingly we may say that for $X$ any [[smooth set]] (which may be far from being a smooth manifold) then a differential $n$-form on $X$ is equivalently a smooth function $X \to \mathbf{\Omega}^n$.
-Under this identification the operation of [[pullback of differential forms]] along some smooth function $f \colon Y \to X$ is just [[composition]] of smooth functions $f^\ast \omega \colon Y \overset{f}{\to} X \overset{\omega}{\to} \mathbf{\Omega}^n$.
-
-This means that a [[differential n-form]] $\omega \in \Omega^n(X)$ on any smooth set $X$ is by definition just a
-compatible system of ordinary differential $n$-forms on Cartesian spaces mapping into $X$: For
-$\phi \colon U \to X$ a function declared to be smooth, we have an ordinary $n$-form on $U$, suggestively denoted
-$\phi^\ast \omega \in \Omega^n(U)$; and for $f \colon V \to U$ any ordinary smooth function between Cartesian spaces,
-we require that $ (\phi \circ f)^\ast \omega = f^\ast (\phi^\ast\omega)$, just as it should be.
-
-For example if $[X,Y]$ is a [[smooth set|smooth]] [[mapping space]] as above, then a [[differential n-form]]
-$\omega \in \Omega^n([X,Y])$ is for each [[Cartesian space]] $U$ and each smooth function
-$\Phi_{(-)}(-) \colon U \times X \to Y$ an ordinary [[differential n-form]] on $U$, suggestively denoted
-$\left(\Phi_{(-)}\right)^\ast \omega \in \Omega^n(U)$, such that for every ordinary smooth function
-$V \overset{f}{\to} U$ from another [[Cartesian space]] $V$, we have the evident consistency relation
-$(\Phi_{f(-)})^\ast \omega = f^\ast  (\Phi_{(-)})^\ast \omega $ between ordinary differential forms on $V$.
-
-This way the concept of [[smooth sets]] provides a systematic way to study [[differential forms]]
-on [[generalized smooth spaces]] simply in terms of _compatible systems_ of differential forms
-on plain [[Cartesian spaces]]. This means that we will be handling ordinary differential forms on
-ordinary smooth manifolds a lot. For these we assume that the reader is familiar
-with standard [[Cartan calculus]]:
+Here is what we need from basic [[differential geometry]]:
 
 For $v$ a [[vector field]] on a [[smooth manifold]] $X$, we write
 
@@ -163,24 +117,8 @@ $$
   \,.
 $$
 
-This is particularly convenient for discussion of _[[transgression of differential forms]]_, which
-is a process that controls much of [[Lagrangian field theory]] (def. \ref{TransgressionOfVariationalDifferentialFormsToConfigrationSpaces} below):
 
-Given a [[differential form]] $\omega$ of degree $n$ on some [[smooth space]] $X$ and given a [[compact space|compact]] [[smooth manifold]] $\Sigma$ of [[dimension]] $k \leq n$, then there is canonically induced a differential form $\tau_\Sigma \omega$ of degree $n-k$ on the [[mapping space]] $[\Sigma, X]$: its restriction to any smooth family $\Phi_{(-)}$ of smooth functions $\Phi_u \colon \Sigma \to X$ is the result of first forming the [[pullback of differential forms]] of $\omega$ along $\Phi_{(-)}$ and then forming the [[integration of differential forms]] of the result over $\Sigma$:
-
-$$
-  \tau_{\Sigma} \omega\vert_{\Phi_{(-)}}
-    \coloneqq
-  \int_\Sigma (\Phi_{(-)})^\ast \omega
-  \,.
-$$
-
-This differential form $\tau_\Sigma \omega$ on the mapping space
-is called the _[[transgression of differential forms|transgression]]_ of $\omega$ with respect to $\Sigma$.
-
-We also need to consider [[infinitesimal]] spaces of various sorts. In order to describe these
-we make use of the _three magic algebraic facts of differential geometry_
-
+For generalizations we note the following:
 
 +-- {: .num_prop #AlgebraicFactsOfDifferentialGeometry}
 ###### Proposition
@@ -214,12 +152,12 @@ we make use of the _three magic algebraic facts of differential geometry_
 
    Its [[essential image]] consists of the [[finitely generated module|finitely generated]] [[projective modules]].
 
-1. [[derivations of smooth functions are vector fields|vector fields are derivations of smooth functions]].
-
-(Here all [[manifolds]] are assumed to have [[finite number|finite]] [[dimension]] and all [[vector bundles]]
-are assumed to have [[finite number|finite]] [[rank of a vector bundle]].)
+1. **[[derivations of smooth functions are vector fields|vector fields are derivations of smooth functions]]**.
 
 =--
+
+The first magic algebraic property of [[differential geometry]] may be used to 
+speak about [[infinitesimal]] spaces:
 
 
 +-- {: .num_example #InfinitesimalNeighbourhood}
@@ -255,40 +193,6 @@ $$
 $\,$
 
 
-$\,$
-
-+-- {: .num_remark #PreviewOfGenerlizedDifferentialGeometryAppearingInFieldTheory}
-###### Remark
-**(preview of generalized differential geometry appearing in field theory)**
-
-While we introduce many of the following terms from field theory only further below, some
-readers may appreciate a quick preview of where in field theory differential geometry
-beyond smooth manifolds appears:
-
-The very _[[space of field histories]]_ of a field theory, hence the space of all ways
-in which fields may behave in [[spacetime]], is a [[space of sections]] (namely of the "[[field bundle]]"),
-which is akin to the [[mapping space]] of all [[smooth functions]] from [[spacetime]] to a "[[field fiber]]" space.
-Even in rare cases where this [[space of trajectories]] happens to admit the structure of an [[infinite-dimensional manifold]]
-(such as when the [[field fiber]] happens to be a [[smooth manifold]] and when one restricts attention to a [[compact subset]] of spacetime, see at _[[manifold structure of mapping spaces]]_) this structure may be unwieldy for the purposes of the theory.
-For instance in order to handle [[differential forms]] on mapping spaces (such as the [[presymplectic form]]
-on the "[[shell]]" inside the [[space of trajectories]] which constitutes the [[phase space]] of the theory), it
-is sufficient just to know which
-functions from [[Cartesian spaces]] (i.e. from [[coordinate systems]]) into the mapping spaces are [[smooth functions]].
-This information gives the mapping space the structure of a "[[smooth set]]".
-
-To properly define the [[phase space]] associated with a [[Cauchy surface]] in [[spacetime]],
-one needs to consider the [[infinitesimal neighbourhood]] of that Cauchy surface (so that a field restricted
-to that infinitesimal neighbourhood is specified by the value of all its spacetime-[[derivatives]] on the Cauchy surface).
-Such [[infinitesimal]] aspects of differential geometry are captured by "[[formal smooth sets]]".
-
-Generally the "[[field fiber]]" space (and hence the total space of the [[field bundle]]) is not a plain smooth manifold:
-if [[fermion|fermionic]] fields are considered, then it is a [[supermanifold]], if [[gauge fields]] are considered then it is
-a [[Lie algebroid]] or rather a [[smooth groupoid]], if [[higher gauge fields]] are considered then it is an
-[[infinity-Lie algebra]] or rather a [[smooth ∞-groupoid]], and hence if the theory contains both
-[[fermion|fermion fields]] as well as [[gauge fields]] (as is the case in examples of [[phenomenology|phenomenological]] interest)
-then it is a [[super smooth ∞-groupoid]].
-
-=--
 
 $\,$
 
@@ -296,7 +200,7 @@ $\,$
 $\,$
 
 
-##  Spacetime
+## Spacetime
   {#Spacetime}
 
 [[relativistic field theory|Relativistic field theory]] takes place in (or on) _[[spacetime]]_. We briefly set up some notations
@@ -362,6 +266,10 @@ $$
 $$
 
 
+$\,$
+
+
+
 ## Fields
  {#FieldBundles}
 
@@ -378,7 +286,7 @@ $$
   \,.
 $$
 
-It will be useful to unify spacetime and the space of field values into a single space, the [[Cartesian product]]
+It will be useful to unify [[spacetime]] and the space of [[field (physics)|field]] values (the [[field fiber]]) into a single manifold, the [[Cartesian product]]
 
 $$
   E \;\coloneqq\; \Sigma \times F
@@ -402,7 +310,7 @@ This is then called the _[[field bundle]]_, which specifies the kind of values t
 
 +-- {: .num_defn #Fields}
 ###### Definition
-**([[field (physics)|fields]] and their [[space of histories]])**
+**([[field (physics)|fields]] and [[field histories]])**
 
 Given a [[spacetime]] $\Sigma$, then a _[[type]] of [[field|fields]]_ on $\Sigma$
 is a [[smooth set|smooth]] [[fiber bundle]]
@@ -413,7 +321,7 @@ $$
 
 called the _[[field bundle]]_,
 
-Given a type of [[field|fields]] on $\Sigma$ this way, then a  _[[field (physics)|field]] [[trajectory]]_ (or _field history_) of that type on $\Sigma$
+Given a type of [[field|fields]] on $\Sigma$ this way, then a  _[[field history]]_ of that type on $\Sigma$
 is a smooth  [[section]] of this [[bundle]], namely a [[smooth function]] of the form
 
 $$
@@ -435,70 +343,26 @@ $$
   \,.
 $$
 
-The corresponding _[[space of field histories]]_ is the [[smooth set|smooth]] [[space of sections|space of all these]], to be denoted
-
-$$
-  \label{SpaceOfFieldHistories}
-  \Gamma_\Sigma(E) \in \mathbf{H}
-  \,.
-$$
-
-This is a [[smooth set]] by declaring that a smooth family $\Phi_{(-)}$ of field configurations,
-parameterized over any [[Cartesian space]] $U$ is a smooth function
-
-$$
-  \array{
-    U \times \Sigma &\overset{\Phi_{(-)}(-)}{\longrightarrow}& E
-    \\
-    (u,x) &\mapsto& \Phi_u(x)
-  }
-$$
-
-such that for each $u \in U$ we have $p \circ \Phi_{u}(-) = id_\Sigma$, i.e.
-
-$$
-  \array{
-    && E
-    \\
-    & {}^{\mathllap{\Phi_{(-)}(-)}}\nearrow & \downarrow^{\mathrlap{fb}}
-    \\
-    U \times \Sigma &\underset{pr_2}{\longrightarrow}& \Sigma
-  }
-  \,.
-$$
+The set of such [[sections]]/[[field histories]] is to be denoted $\Gamma_\Sigma(E)$.
 
 
 More generally, let $S \hookrightarrow \Sigma$ be a [[submanifold]] of spacetime. We write
-$N_\Sigma(S) \hookrightarrow \Sigma$ for its [[infinitesimal neighbourhood]] in $\Sigma$.
+$N_\Sigma(S) \hookrightarrow \Sigma$ for its [[infinitesimal neighbourhood]] in $\Sigma$ (def. \ref{InfinitesimalNeighbourhood}).
 
 If $E \overset{fb}{\to} \Sigma$ is a [[field bundle]]
-then the _[[space of histories]] of fields restricted to $S$_, to be denoted
+then the _set of field histories restricted to $S$_, to be denoted
 
 $$
   \label{SpaceOfFieldHistoriesInHigherCodimension}
   \Gamma_{S}(E) \coloneqq \Gamma_{N_\Sigma(S)}( E\vert_{N_\Sigma S} ) \in \mathbf{H}
 $$
 
-is the [[space of sections]] restricted to the [[infinitesimal neighbourhood]] $N_\Sigma(S)$.
-
-There is a canonical [[evaluation]] [[smooth function]]
-
-$$
-  \label{FieldEvaluation}
-  ev_S
-   \;\colon\;
-  N_\Sigma S \times \Gamma_{S}(E)
-    \longrightarrow
-  E
-$$
-
-which takes a [[pair]] consisting of an [[generalized element|element]] in $N_\Sigma S$
-and a field configuration to the value of the field configuration at that point.
+is the set of section of $E$ restricted to the [[infinitesimal neighbourhood]] $N_\Sigma(S)$.
 
 =--
 
-For the time being, not to get distracted from the core idea of
-field theory, we will focus on the following simple special case of field bundles:
+For the time being, not to get distracted from the basic idea of
+[[quantum field theory]], we will focus on the following simple special case of field bundles:
 
 +-- {: .num_example #TrivialVectorBundleAsAFieldBundle}
 ###### Example
@@ -526,8 +390,6 @@ $$
 
 =--
 
-The following simplest special case of this simple class of special cases
-serves as a good toy example for the general theory:
 
 +-- {: .num_example #RealScalarFieldBundle}
 ###### Example
@@ -664,6 +526,390 @@ For $\mathfrak{g} = \mathfrak{su}(2)$ this is a [[field (physics)|field]] histor
 
 
 =--
+
+
+Given any [[field bundle]], we will eventually need to regard the set of all [[field histories]] $\Gamma_\Sigma(E)$
+as a "[[smooth set]]" itself, a smooth _[[space of sections]]_, to which 
+constructions of [[differential geometry]] apply (such as for the discussion of [[observables]] and [[states]] [below](#ObservablesAndStates) ). Notably we need to be talking
+about [[differential forms]] on $\Gamma_\Sigma(E)$.
+
+However, a [[space of sections]] $\Gamma_\Sigma(E)$ does not in general carry the structure of a [[smooth manifold]];
+and it carries the correct smooth structure of an [[infinite dimensional manifold]]
+only if $\Sigma$ is a [[compact space]] (see at _[[manifold structure of mapping spaces]]_).
+Even if it does carry [[infinite dimensional manifold]] structure, inspection shows that
+this is more [[structure]] than actually needed for the discussion of [[field theory]].
+Namely it turns out below that all we need to know is what counts as 
+a _smooth family_ of [[sections]]/[[field histories]], hence which [[functions]] of [[sets]]
+
+$$
+  \Phi_{(-)} \;\colon\; \mathbb{R}^n \longrightarrow \Gamma_\Sigma(E)
+$$
+
+from any [[Cartesian space]] $\mathbb{R}^n$ into $\Gamma_\Sigma(E)$ count as [[smooth functions]],
+subject to some basic consistency condition on this choice.
+
+This [[structure]] on $\Gamma_\Sigma(E)$ is called the structure of a _[[diffeological space]]_:
+
++-- {: .num_defn #DiffeologicalSpace}
+###### Definition
+**([[diffeological space]])
+
+A _[[diffeological space]]_ $X$ is 
+
+1. a [[set]] $X_s \in $ [[Set]];
+
+1. for each $n \in \mathbb{N}$ a choice of [[subset]] 
+
+   $$
+     X(\mathbb{R}^n) \subset Hom_{Set}(\mathbb{R}^n_s, X_s) = \left\{ \mathbb{R}^n_s \to X_s  \right\}
+   $$
+   
+   of the [[function set|set of functions]] from the underlying set $\mathbb{R}^n_s$ of $\mathbb{R}^n$ to $X_s$,
+   to be called the _[[smooth funtions]]_ or _plot_ from $\mathbb{R}^n$ to $X$;
+
+1. for each [[smooth function]] $f \;\colon\; \mathbb{R}^{n_1} \longrightarrow \mathbb{R}^{n_2}$
+   between [[Cartesian spaces]] a choice of function
+   
+   $$
+     f^\ast \;\colon\; X(\mathbb{R}^{n_2}) \longrightarrow X(\mathbb{R}^{n_1})
+   $$
+   
+   to be thought of as the precomposition operation
+   
+   $$
+     \left(
+       \mathbb{R}^{n_2} \overset{\Phi}{\longrightarrow} X
+     \right)
+     \;\overet{f^\ast}{\mapsto}\;
+     \left(
+       \mathbb{R}^{n_1} \overset{f}{\to} \mathbb{R}^{n_2} \overset{f}{\to} X
+     \right)
+   $$
+
+such that
+
+1. ([[functor|functoriality]]) 
+
+   If $id_{\mathbb{R}^n} \;\colon\; \mathbb{R}^n \to \mathbb{R}^n$ is the [[identity function]] on $\mathbb{R}^n$,
+   then $\left(id_{\mathbb{R}^n}\right)^\ast \;\colon\; X(\mathbb{R}^n) \to X(\mathbb{R}^n)$ is 
+   the identity function on the set of plots $X(\mathbb{R}^n)$;
+   
+   and if $\mathbb{R}^{n_1} \overset{f}{\to} \mathbb{R}^{n_2} \overset{g}{\to} \mathbb{R}^{n_3}$ 
+   are two [[composition|composable]] [[smooth functions]] between [[Cartesian spaces]], then 
+   pullback of plots along them conseutively equals the pullback along the [[composition]]:
+   
+   $$
+     f^\ast \circ g^\ast
+     =
+     (g \circ f)^\ast
+     \phantom{AAAAAA}
+     \array{
+       && X(\mathbb{R}^{n_2})
+       \\
+       & {}^{\mathllap{f^\ast}}\nearrow && \searrow^{\mathrlap{g^\ast}}
+       \\
+       X(\mathbb{R}^{n_3})
+       && \underset{ (g \circ f)^\ast }{\longrightarrow} &&
+       X(\mathbb{R}^{n_2})
+     }
+   $$
+
+1. ([[sheaf|gluing]])
+
+   If $\{ U_i \overset{f_i}{\to} \mathbb{R}^n\}_{i \in I}$ is an [[open cover]] of a [[Cartesian space]]
+   by smooth [[open balls]] (i.e. each $U_i$ is [[diffeomorphism|diffeomorphic]] to $\mathbb{R}^n$ itself
+   and the [[embeddings]] $f_i$ are [[smooth functions]]) then the function which restricts
+   $\mathbb{R}^n$-plots of $X$ to a set of $U_i$-plots
+   
+   $$
+     X(\mathbb{R}^n)
+       \overset{( (f_i)^\ast )_{i \in I}  }{\hookrightarrow}
+     \underset{i \in I}{\prod} X(U_i)
+   $$
+   
+   is a [[bijection]] onto the set of those [[tuples]] $(\Phi_i \in X(U_i))_{i \in I}$ of plots, 
+   which are "[[matching families]]" in that they agree on [[intersections]]:
+
+   $$
+     \phi_i\vert_{U_i \cap U_j} = \phi_j \vert_{U_i \cap U_j}
+     \phantom{AAAAAA}
+     \array{
+       && U_i \cap U_j
+       \\
+       & \swarrow && \searrow
+       \\
+       U_i && && U_j
+       \\
+       & {}_{\mathrlap{\Phi_i}}\searrow && \swarrow_{\mathllap{\Phi_j}}
+       \\
+       && X
+     }
+   $$
+
+Finally given $X_1$ and $X_2$ two diffeological spaces, then a [[smooth function]] between them
+
+$$
+  f \;\colon\; X_1 \longrightarrow X_2
+$$
+
+is 
+
+* a [[function]] of the underlying sets
+
+  $$
+    f_s \;\colon\; (X_1)_s \longrightarrow (X_2)_s
+  $$
+
+such that
+
+* for $\Phi \in X(\mathbb{R}^n)$ a plot of $X_1$, then the [[composition]]
+  $f_s \circ \Phi_s$ is a plot $f_\ast(\Phi)$ of $X_2$:
+  
+  $$
+    \array{
+      && \mathbb{R}^n
+      \\
+      & {}^{\mathllap{\Phi}}\swarrow && \searrow^{\mathrlap{f_\ast(\Phi)}}
+      \\
+      X_1 && \underset{f}{\longrightarrow} && X_2
+    }
+    \,.
+  $$ 
+
+
+=--
+
+For more background on [[diffeological spaces]] see also _[[geometry of physics -- smooth sets]]_.
+
+
++-- {: .num_example }
+###### Example
+**([[smooth manifolds]] are [[diffeological spaces]])
+
+Let $X$ be an ordinary [[smooth manifold]]. Then it becomes a [[diffeological space]] (def. \ref{DiffeologicalSpace})
+by declaring its plots $\Phi \in X(\mathbb{R}^n)$ to the the ordinary [[smooth functions]]
+$\Phi \colon \mathbb{R}^n \to X$.
+
+Under this identification, a function $f \;\colon\; (X_1)_s \to (X_2)_s$ between the underlying sets
+of two [[smooth manifold]] is a [[smooth function]] in the ordinary sense of [[smooth manifold]]
+precisely if it is a smooth function in the sense of [[diffeological spaces]].
+
+
+=--
+
+
++-- {: .num_example #DiffeologicalSpaceOfFieldHistories}
+###### Example
+**([[diffeological space|diffeological]] [[space of field histories]])
+
+Let $E \overset{fb}{\to} \Sigma$ be a smooth [[field bundle]].
+Then the set $\Gamma_\Sigma(E)$ of [[field histories]]/[[sections]] (def. \ref{Fields})
+becomes a [[diffeological space]] (def. \ref{DiffeologicalSpace}) 
+
+$$
+  \label{SpaceOfFieldHistories}
+  \Gamma_\Sigma(E) \in DiffeologicalSpaces
+$$
+
+by declaring that a smooth family $\Phi_{(-)}$ of field configurations,
+parameterized over any [[Cartesian space]] $U$ is a smooth function out of the [[Cartesian product]]
+manifold of $\Sigma$ with $U$
+
+$$
+  \array{
+    U \times \Sigma &\overset{\Phi_{(-)}(-)}{\longrightarrow}& E
+    \\
+    (u,x) &\mapsto& \Phi_u(x)
+  }
+$$
+
+such that for each $u \in U$ we have $p \circ \Phi_{u}(-) = id_\Sigma$, i.e.
+
+$$
+  \array{
+    && E
+    \\
+    & {}^{\mathllap{\Phi_{(-)}(-)}}\nearrow & \downarrow^{\mathrlap{fb}}
+    \\
+    U \times \Sigma &\underset{pr_2}{\longrightarrow}& \Sigma
+  }
+  \,.
+$$
+
+=--
+
+It is easy to define [[differential forms]] on [[diffeological spaces]] $X$:
+Any kind of differential form $\omega$ on $X$ should admit [[pullback of differential forms]]
+along any [[smooth function]]  $\mathbb{R}^n \overset{\Phi}{\to} X$ (any plot) to yield
+an ordinary differential form $\Phi^\ast(\omega)$ on the [[Cartesian space]] $\mathbb{R}^n$.
+It turns out that this minimal requirement already suffices
+to completely fix the concept:
+
++-- {: .num_defn #DifferentialFormsOnDiffeologicalSpaces}
+###### Definition
+**([[differential forms]] on [[diffeological spaces]])
+
+Let $X$ be a [[diffeological space]] (def. \ref{DiffeologicalSpace}) then a [[differential form]]
+$\omega$ on $X$ is
+
+* for each $n \in \mathbb{N}$ and each plot $\mathbb{R}^n \overset{\Phi}{\to} X$
+  an ordinary [[differential form]] 
+   
+  $$
+    \Phi^\ast(\omega) \in \Omega^\bullet(\mathbb{R}^n)
+  $$
+  
+such that
+
+* for each [[smooth function]] $f \;\colon\; \mathbb{R}^{n_1} \to \mathbb{R}^{n_2}$ between [[Cartesian spaces]]
+  the ordinary [[pullback of differential forms]] along $f$ is compatible with these choices, in that 
+  for every plot $\mathbb{R}^{n_2} \overset{\Phi}{\to} X$ we have
+  
+  $$
+    f^\ast\left(\Phi^\ast(\omega)\right)
+    =
+    ( f^\ast \Phi )^\ast(\omega)
+    \phantom{AAAAA}
+    \array{
+      \mathbb{R}^{n_1} && \overset{f}{\longrightarrow} && \mathbb{R}^{n_2}
+      \\
+      & {}_{\mathllap{f^\ast \Phi}}\searrow && \swarrow_{\mathrlap{\Phi}}
+      \\
+      && X
+    }
+    \phantom{AA}
+    \array{
+      \Omega^\bullet( \mathbb{R}^{n_1} ) && \overset{f^\ast}{\longleftarrow} && \Omega^\bullet(\mathbb{R}^{n_2})
+      \\
+      & {}_{\mathllap{(f^\ast \Phi)^\ast}}\nwarrow && \nearrow_{\mathrlap{\Phi^\ast}}
+      \\
+      && \Omega^\bullet(X)
+    }
+    \,.
+  $$
+
+We write $\Omega^\bullet(X)$ for the set of differential forms on the diffeological space $X$
+defined this way. 
+
+
+=--
+
+
+The usual operations on ordinary [[differential forms]] directly generalize plot-wise
+to differential forms on [[diffeological spaces]]:
+
++-- {: .num_defn #ExteriorCalculusOnDiffeologicalSpaces}
+###### Definition
+**([[exterior differential]] and [[exterior product]] on [[diffeological spaces]])
+
+Let $X$ be a [[diffeological space]] (def. \ref{DiffeologicalSpace}). Then
+
+1. For $\omega \in \Omega^n(X)$ a [[differential form]] on $X$ (def. \ref{DifferentialFormsOnDiffeologicalSpaces})
+   its [[exterior differential]] 
+   
+   $$
+     d \omega \in \Omega^{n+1}(X)
+   $$ 
+   
+   is defined on any plot $\mathbb{R}^n \overset{\Phi}{\to} X$ as the ordinary [[exterior differential]]
+   of the pullback of $\omega$ along that plot:
+   
+   $$
+     \Phi^\ast(d \omega) \coloneqq d \Phi^\ast(\omega)
+     \,.
+   $$
+   
+1. For $\omega_1 \in \Omega^{n_1}$ and $\omega_2 \in \Omega^{n_2}(X)$ two differential forms on $X$ (def. \ref{DifferentialFormsOnDiffeologicalSpaces}) then their [[exterior product]] 
+
+   $$
+     \omega_1 \wedge \omega_2 \;\in\; \Omega^{n_1 + n_2}(X)
+   $$ 
+
+   is the differential form defined on any plot $\mathbb{R}^n \overset{\Phi}{\to} X$ as
+   the ordinary exterior product of the pullback of th differential forms $\omega_1$ and $\omega_2$
+   to this plot:
+   
+   $$
+     \Phi^\ast(\omega_1 \wedge \omega_2)
+     \;\coloneqq\;
+     \Phi^\ast(\omega_1) \wedge \Phi^\ast(\omega_2)
+     \,.
+   $$
+
+=--
+
+
+Field theories of interest crucially involve [[fermionic fields]], such that the [[Dirac field]],
+which are subject to the "[[Pauli exclusion principle]]". Mathematically this means that these 
+[[field (physics)|field]] have [[field bundles]] whose [[field fiber]] 
+is not an ordinary [[manifold]], but an odd-graded _[[supermanifold]]_.
+
+In order to define what these are, we appeal to the first magic algebraic property of differential 
+geometry from [above](#AlgebraicFactsOfDifferentialGeometry), which says that we may recognize
+[[smooth manifolds]] $X$ [[formal dual|dually]] in terms of their [[commutative algebras]] $C^\infty(X)$
+of [[smooth functions]] on them
+
+$$
+  C^\infty(-) \;\colon\; SmoothManifolds \hookrightarrow (\mathbb{R} Algebras)^{op}
+  \,.
+$$
+
+Since there are of course more [[associative algebras|algebras]] $A \in \mathbb{R}Algebras$ than arise 
+this way from smooth manifolds, we may turn this around and try to regard any algebra $A$
+as _defining_ a would-be [[space]], which would have $A$ as its algebra of functions.
+
+For example an [[infinitesimally thickened point]] should be a space which is "so smal"
+that every smooth function $f$  on it which vanishes at the origin takes values so 
+tiny that some finite power of them is not just even more tiny, but actually vanishes:
+
++-- {: .num_defn #InfinitesimallyThickendSmoothManifold}
+###### Definition
+**([[infinitesimally thickened smooth manifold]])
+
+An _[[infinitesimally thickened point]]_ $Spec(A)$ is represented by a [[commutative algebra]]
+$A \in \mathbb{R}Alg$ which as a [[vector space]] is a [[direct sum]]
+
+$$
+  A \simeq_{\mathbb{R}} \langle 1 \rangle \oplus V
+$$
+
+of the 1-dimensional space $\langle 1 \rangle = \mathbb{R}$ of multiples of 1 with 
+a [[finite dimensional vector space]] $V$ that is a [[nilpotent ideal]] in that for
+each element $a \in V$ there exists a [[natural number]] $n \in \mathbb{N}$ such that 
+
+$$
+  a^{n+1} = 0
+  \,.
+$$
+
+More generally, an [[infinitesimally thickened manifold]] $X \times Spec(A)$ is represented by a [[commutative algebra]]
+$C^\infty(X) \otimes Spec(A) \in \mathbb{R} Alg$ which is the [[tensor product of algebras]] of the algebra of smooth functions
+$C^\infty(X)$ on an actual smooth manifold, with an algebra of functions $A \simeq_{\mathbb{R}} \langle 1\rangle \oplus V$
+of an infinitesimally thickened point, as above.
+
+We say that a smooth function between two [[infinitesimally thickened manifolds]]
+
+$$
+  X_1 \times Spec(A_1) \overset{f}{\longrightarrow} X_2 \times Spec(A_2)
+$$
+
+is by definition [[formal dual|dually]] an algebra [[homomorphism]] of the form
+
+$$
+  C^\infty(X_1) \otimes A_1 
+    \overset{f^\ast}{\longleftarrow}
+  C^\infty(X_2) \otimes A_2
+  \,.
+$$
+
+=--
+
+
+
+
+
+
+
 
 
 ## Field variations
@@ -2692,7 +2938,7 @@ this yields the claim.
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}).
 
 For $v$ an [[infinitesimal symmetry of the Lagrangian]] (def. \ref{SymmetriesAndConservedCurrents})
-the [[flow]] on the [[space of field histories]] that it induces by def. \ref{FlowOfFieldHistoriesAlongEvolutionaryVectorField}
+the [[flow]] on the [[space of field histories]] (example \ref{DiffeologicalSpaceOfFieldHistories}) that it induces by def. \ref{FlowOfFieldHistoriesAlongEvolutionaryVectorField}
 preserves the space of [[on-shell]] field histories (from prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}):
 
 $$
@@ -3433,7 +3679,7 @@ If this is to be averaged over spacetime it needs to be the coefficient of a hor
 
 In mathematical terminology these desiderata say that the [[local observables]] in a local field theory should be precisely the
 "[[transgression of variational differential forms|transgressions]]" (def. \ref{TransgressionOfVariationalDifferentialFormsToConfigrationSpaces} below) of horizontal variational $p+1$-forms
-(with compact spacetime support, def. \ref{SpacetimeSupport} below) to the [[space of field histories]]. This is
+(with compact spacetime support, def. \ref{SpacetimeSupport} below) to the [[space of field histories]] (example \ref{DiffeologicalSpaceOfFieldHistories}). This is
 def. \ref{LocalObservables} below.
 
 A key example of a [[local observable]] in [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) is the _[[action functional]]_ (example \ref{ActionFunctional} below). This is the [[transgression of variational differential forms|transgression]]
@@ -8230,7 +8476,7 @@ $$
   \right.
 $$
 
-The [[Lagrangian density]] for [[vacuum]] [[electromagnetism]] is
+The [[Lagrangian density]] for [[vacuum]] [[electromagnetism]] is (eq:ElectromagnetismLagrangian)
 
 $$
   \label{VacuumEMLagrangianDensityRecalledForNLFields}
@@ -8287,7 +8533,7 @@ $$
   \label{NLGaugeFixingFermion}
   \psi
      \coloneqq
-  \tilde c( b - a^{\mu}_{,\mu} )
+  \tilde c( b + a^{\mu}_{,\mu} )
   \;\in\;
   CE\left(
     \left(
@@ -8334,6 +8580,8 @@ The [[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]] induced by
 
 
 $$
+  \label{LorenzGaugeFixedEOMForVacuumElectromagnetism}
+  \left\{
   \begin{aligned}
     f^{\mu \nu}{}_{,\mu} & =  b^{,\nu}
     \\
@@ -8343,18 +8591,39 @@ $$
     \\
     \tilde c_{,\mu}{}^{,\mu} & = 0
   \end{aligned}
+  \right.
+  \phantom{AAA}
+  \Leftrightarrow
+  \phantom{AAA}
+  \left\{
+  \begin{aligned}
+    \Box a_\nu & = 0
+    \\
+    b & = - \tfrac{1}{2} a^\mu_{,\mu}
+    \\
+    \Box c & = 0
+    \\
+    \Box \tilde c & = 0
+  \end{aligned}
+  \right.
 $$
 
-Observe that by the second equation 
+Here on the left we show the equations as the appear directly from the [[Euler-Lagrange variational derivative]] 
+(prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}).
+The operator $\Box$ on the right is the [[wave operator]] (example \ref{EquationOfMotionOfFreeRealScalarField}).
+The equivalence to the equations on the right follows from using in the first first equation the derivative of the second equation
+on the left, which is 
 
 $$
   b^{,\nu} = -\tfrac{1}{2} a^{\mu,\nu}{}_{,\mu}
+  \,,
 $$
 
-which by (eq:FaradayTensorJet) is the second term in 
+and recalling the definition of the universal [[Faraday tensor]] (eq:FaradayTensorJet):
 
 $$
-  f^{\mu \nu}{}_{,\mu} =
+  f^{\mu \nu}{}_{,\mu} 
+  =
   \tfrac{1}{2}
   \left(
     a^{\nu,\mu}{}_{,\mu}
@@ -8364,15 +8633,8 @@ $$
   \,.
 $$
 
-Therefore the equation of motion for $a_\nu$ is now actually 
+The [[differential equations]] on the right are manifestly a system of [[normally hyperbolic differential operator|normally hyperbolic]] [[differential equations]], as opposed to the plain [[vacuum]] [[Maxwell equations]] on [[Minkowski spacetime]] $\frac{d}{d x^\mu} f^{\mu \nu} = 0$ (see also [Rejzner 16, section 7.2](#Nakanishi-Lautrup+field#Rejzner16)).
 
-$$
-  a_{\nu, \mu}{}^{,\mu} = 0
-  \,.
-$$
-
-
-This is indeed a system of [[normally hyperbolic differential operator|normally hyperbolic]] [[differential equations]], as oppose to the plain [[vacuum]] [[Maxwell equations]] on [[Minkowski spacetime]] $\frac{d}{d x^\mu} f^{\mu \nu} = 0$ (see also [Rejzner 16, section 7.2](#Nakanishi-Lautrup+field#Rejzner16)).
 
 =--
 
@@ -8651,3 +8913,4 @@ $\,$
 $\,$
 
 
+[[!redirects A first idea of quantum field theory]]
