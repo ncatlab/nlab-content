@@ -384,11 +384,16 @@ Discussion of [[vacuum state]]-like Hadamard states is in
 * {#BrumFredenhagen13} Marcos Brum, [[Klaus Fredenhagen]], _"Vacuum-like" Hadamard states for quantum fields on curved spacetimes_ ([arXiv:1307.0482](https://arxiv.org/abs/1307.0482))
 
 
-Review and further deveopments are in
+Review and further developments are in
 
 * {#Hollands07} [[Stefan Hollands]], appendix D of _Renormalized Quantum Yang-Mills Fields in Curved Spacetime_, Rev. Math. Phys. 20:1033-1172, 2008 ([arXiv:0705.3340](https://arxiv.org/abs/0705.3340))
 
 *  {#KM14} [[Igor Khavkine]], [[Valter Moretti]], _Algebraic QFT in Curved Spacetime and quasifree Hadamard states: an introduction_, Chapter 5 in [[Romeo Brunetti]] et al. (eds.) _Advances in Algebraic Quantum Field Theory_, Springer, 2015 ([arXiv:1412.5945](https://arxiv.org/abs/1412.5945))
+
+Discussion for [[electromagnetism]] is in
+
+* [[Claudio Dappiaggi]], D. Siemssen, _Hadamard states for the vector potential on asymptotically flat spacetimes_, Rev. Math. Phys. 25, 1 (2013)
+
 
 See also
 
