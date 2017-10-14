@@ -173,7 +173,7 @@ which is an indexed monoidal category.
 +-- {: .num_example #MatrixAsIntegralKernel}
 ###### Example
 
-In the context of prop. \ref{DependentLinearTypeTheoryOfModuleBundles}
+In the context of prop. \ref{IndexedMonoidalCategoryOfModuleBundles}
 consider $E = k$ a [[field]]. Then $k Mod \simeq Vect_k$ is the [[category]] [[Vect]] of $k$-[[vector spaces]].
 
 For $X \in Set$ a set, an $X$-dependent object $A \in Mod(X)\simeq Vect_k(X)$ is just a collection of ${\vert X\vert}$ vector spaces $A_x$ for $x\in X$.
