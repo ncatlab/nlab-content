@@ -86,6 +86,10 @@ current version generated using Graphviz from [[lctvs dot source]]):
 
 [Wikipedia](http://en.wikipedia.org/wiki/Topological_vector_space) already has many nice references.
 
+The following review gives lots of important examples
+
+* Paul Garrett, _Catalogue of Useful Topological Vectorspaces_, 2011 ([pdf](http://www-users.math.umn.edu/~garrett/m/fun/catalogue_tvs.pdf))
+
 category: analysis
 
 [[!redirects topological vector space]]
