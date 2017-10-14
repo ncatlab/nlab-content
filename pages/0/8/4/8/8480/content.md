@@ -216,6 +216,10 @@ Todd: Here "idempotent" involves a coassociativity condition. To be related to s
 
 * Wikipedia, _[Fixed point (mathematics)](https://en.wikipedia.org/wiki/Fixed_point_(mathematics%29)_
 
+A version of the Knaster-Tarski fixed-point theorem is proved in constructive (and even predicative) set theory in
+
+* Giovanni Curi, _On Tarski's fixed point theorem_, Proc. Amer. Math. Soc. **143** (2015), 4439-4455  doi:[10.1090/proc/12569](http://dx.doi.org/10.1090/proc/12569)
+
 
 [[!redirects fixed points]]
 
