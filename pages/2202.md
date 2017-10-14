@@ -20,7 +20,7 @@
 
 ## Definition
 
-A [[monoidal category]] is **semicartesian** if the unit for the tensor product is a [[terminal object]].  This a weakening of the concept of [[cartesian monoidal category]], which might seem like pointless [[centipede mathematics]] were it not for the existence of interesting examples and applications.
+A [[monoidal category]] is **semicartesian** if the unit for the tensor product is a [[terminal object]], a weakening of the concept of [[cartesian monoidal category]].
 
 Many semicartesian monoidal categories are also [[symmetric monoidal category|symmetric]], and sometimes that is included in the definition.
 
