@@ -109,5 +109,10 @@ See also
 
 * {#Varadarajan04} [[Veeravalli Varadarajan]], section 7 of _[[Supersymmetry for mathematicians]]: An introduction_, Courant lecture notes in mathematics, American Mathematical Society, Providence, R.I (2004)
 
+The following article discusses which of the Pin groups are in fact compatible with [[general relativity]]
+
+* Bas Janssens, _The Pin Groups in General Relativity_, arXiv:[1709.02742](https://arxiv.org/abs/1709.02742)
+
+
 
 
