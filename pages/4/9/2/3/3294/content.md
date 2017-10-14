@@ -297,6 +297,8 @@ We can iterate this procedure to define derivatives of arbitrary order, and thus
 
 * {#SchaeferWolff99} H. Schaefer, Manfred Wolff *[Topological Vector Spaces](http://books.google.com/books?id=9kXY742pABoC)*, Springer (1999)
 
+* [[Andreas Kriegl]], _Fr&#233;chet Spaces_ lecture notes, 2016 ([pdf](http://www.mat.univie.ac.at/~kriegl/Skripten/2016SS.pdf))
+
 Discussion of analysis on Fr&#233;chet spaces includes
 
 * {#Michor80} [[Peter Michor]], chapter 8 of _Manifolds of differentiable mappings_, Shiva Publishing (1980) [pdf](http://www.mat.univie.ac.at/~michor/manifolds_of_differentiable_mappings.pdf)
