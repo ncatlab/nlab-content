@@ -633,7 +633,7 @@ Therefore, for [[Banach spaces]] all the notions of "smooth function" collapse, 
 
 ## Related concepts
 
-* [[continuous function]], **differentiable function**, [[continuously differentiable function]], [[smooth function]], [[analytic function]]
+* [[continuous function]], [[differentiable function]], **continuously differentiable function**, [[smooth function]], [[analytic function]]
 
 
 ## References
