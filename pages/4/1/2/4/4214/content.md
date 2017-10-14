@@ -25,7 +25,7 @@ A **companion pair** in a [[double category]] is a way of saying that a horizont
 
 ## Definition
 
-Let $f\colon A\to B$ be a vertical arrow ([[morphism]]) and $f\colon A\to B$ a horizontal arrow in a [[double category]].  These arrows are said to be a **companion pair** if they come equipped with [[2-morphism|2-cells]]
+Let $f\colon A\to B$ be a vertical arrow ([[morphism]]) and $f'\colon A\to B$ a horizontal arrow in a [[double category]].  These arrows are said to be a **companion pair** if they come equipped with [[2-morphism|2-cells]]
 $$
 \array{ A & \overset{f'}{\to} & B \\
 ^f\downarrow & ^{\phi}\swArrow & \downarrow^{id} \\
