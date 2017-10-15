@@ -109,7 +109,7 @@ To [[vertical categorification|categorify]] mathematical constructions properly,
 
 * Michael D. Potter, _Set theory and its philosophy: a critical introduction_, Oxford Univ. Press 2004
 
-* [[Fernando Zalamea]], _Filosof&#237;a sint&#233;tica de las matem&#225;ticas contempor&#225;neas_, (Spanish) Obra Selecta. Editorial Universidad Nacional de Colombia, Bogot&#225;, 2009. 231 pp. [MR2599170](http://www.ams.org/mathscinet-getitem?mr=2599170), ISBN: 978-958-719-206-3, [pdf](<http://files.acervopeirceano.webnode.es/200000065-18c1b19bb9/Zalamea-Fil-Sint-Mat-Cont.pdf>). Transl. into English by Zachary Luke Fraser: _Synthetic philosophy of contemporary mathematics_, Sep. 2011. [bookpage](http://www.urbanomic.com/pub_syntheticmath.php). Some excerpts [here](http://ifile.it/2c3qgz5).
+* [[Fernando Zalamea]], _Filosof&#237;a sint&#233;tica de las matem&#225;ticas contempor&#225;neas_, (Spanish) Obra Selecta. Editorial Universidad Nacional de Colombia, Bogot&#225;, 2009. 231 pp. [MR2599170](http://www.ams.org/mathscinet-getitem?mr=2599170), ISBN: 978-958-719-206-3, [pdf](&lt;http://files.acervopeirceano.webnode.es/200000065-18c1b19bb9/Zalamea-Fil-Sint-Mat-Cont.pdf>). Transl. into English by Zachary Luke Fraser: _Synthetic philosophy of contemporary mathematics_, Sep. 2011. [bookpage](http://www.urbanomic.com/pub_syntheticmath.php). Some excerpts [here](http://ifile.it/2c3qgz5).
 
 * [[David Corfield]], _Towards a philosophy of real mathematics_, Cambridge University Press, 2003, [gBooks](http://books.google.hr/books?id=s37rhfWs73QC&lpg=PP1&ots=Zobx2bIWFh&dq=david%20corfield%20towards%20a%20philosophy%20of%20real%20mathematics&hl=en&pg=PP1#v=onepage&q&f=false)
 
@@ -137,7 +137,7 @@ Selected Essays of Yuri Manin_, Amer. Math. Soc. 2007
 * [[Yuri Manin|Yu. I. Manin]], _Mathematical knowledge: internal, social and cultural aspects_, [arXiv:math.HO/0703427](http://arxiv.org/abs/math.HO/0703427); _Georg Cantor and his heritage_, [arxiv/math.AG/0209244](http://arxiv.org/abs/math.AG/0209244); _Truth as value and duty: lessons of mathematics_, [arxiv/0805.4057](http://arxiv.org/abs/0805.4057)
 * M. G. Katz, E. Leichtnam, _Commuting and noncommuting infinitesimals_, Amer. Math. Monthly 120 (2013), no. 7, 631-641 [arxiv/1304.0583](http://arxiv.org/abs/1304.0583)
 * M. G. Katz, Thomas Mormann, _Infinitesimals as an issue in neo-Kantian philosophy of science_, [arxiv/1304.1027](http://arxiv.org/abs/1304.1027)
-* [[Mikhail Gromov]], _Ergostructures, Ergologic and the Universal Learning Problem: Chapters 1, 2._, <a href="http://www.ihes.fr/~gromov/PDF/ergologic3%27(1).pdf">pdf</a>; _Structures, Learning and Ergosystems: Chapters 1-4, 6_ (2011) [pdf](http://www.ihes.fr/~gromov/PDF/ergobrain.pdf)
+* [[Mikhail Gromov]], _Ergostructures, Ergologic and the Universal Learning Problem: Chapters 1, 2, 3._ (2013) [pdf](http://www.ihes.fr/~gromov/PDF/ergologic3.1.pdf); _Structures, Learning and Ergosystems: Chapters 1-4, 6_ (2011) [pdf](http://www.ihes.fr/~gromov/PDF/ergobrain.pdf)
 * [[William Lawvere]], _[[Cohesive Toposes and Cantor's "lauter Einsen"]]_
 * Jeremy Avigad, _Mathematics and language_, [arxiv/1505.07238](http://arxiv.org/abs/1505.07238)
 
