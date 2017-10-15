@@ -36,7 +36,7 @@ On [[truncated object of an (∞,1)-category|0-truncated]] objects the notion re
 
 ## References
 
-* [[Mike Shulman]], ([blog comment](http://golem.ph.utexas.edu/category/2011/04/homotopy_type_theory_vi.html#c041358))
+* [[Peter Lumsdaine]] and [[Mike Shulman]], Semantics of higher inductive types, 2017, [arxiv](https://arxiv.org/abs/1705.07088)
 
 [[!redirects initial algebra of a presentable ∞-monad]]
 
