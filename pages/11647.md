@@ -2,7 +2,7 @@
 
 **[[moduli spaces]] of [[line n-bundles with connection]] on $n$-[[dimension|dimensional]] $X$**
 
-| $n$ | [[Calabi-Yau object|Calabi-Cau n-fold]] | [[line n-bundle]] |  moduli of [[line n-bundles]]  | moduli of [[flat infinity-connection|flat]]/degree-0 n-bundles  |  [[Artin-Mazur formal group]] of [[deformation theory|deformation moduli]] of [[line n-bundles]] | [[complex oriented cohomology theory]] | [[modular functor]]/[[self-dual higher gauge theory]] of [[higher dimensional Chern-Simons theory]] |
+| $n$ | [[Calabi-Yau object|Calabi-Yau n-fold]] | [[line n-bundle]] |  moduli of [[line n-bundles]]  | moduli of [[flat infinity-connection|flat]]/degree-0 n-bundles  |  [[Artin-Mazur formal group]] of [[deformation theory|deformation moduli]] of [[line n-bundles]] | [[complex oriented cohomology theory]] | [[modular functor]]/[[self-dual higher gauge theory]] of [[higher dimensional Chern-Simons theory]] |
 |-----|---|---|-----|------|-----|----|----|
 | $n = 0$ |   | [[unit]] in [[structure sheaf]] | [[multiplicative group]]/[[group of units]] |  |  [[formal multiplicative group]]  | [[complex K-theory]] |  |
 | $n = 1$ | [[elliptic curve]] | [[line bundle]] |  [[Picard group]]/[[Picard scheme]] | [[Jacobian]]  |  [[formal Picard group]] | [[elliptic cohomology]] | [[3d Chern-Simons theory]]/[[WZW model]]  |
