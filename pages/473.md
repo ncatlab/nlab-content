@@ -1,8 +1,13 @@
-<div class="rightHandSide toc">
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Functorial quantum field theory
++--{: .hide}
 [[!include functorial quantum field theory - contents]]
-
-</div>
+=--
+=--
+=--
 
 
 The _generalized tangle hypothesis_ is a refinement of the [[cobordism hypothesis]].
