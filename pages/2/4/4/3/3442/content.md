@@ -144,6 +144,16 @@ In this diagram now
     \,.
   $$
 
+## Examples
+
+* [[wave equation]]
+
+* [[Schrödinger equation]]
+
+* [[Dirac equation]]
+
+* ...
+
 
 ## Related concepts
 
