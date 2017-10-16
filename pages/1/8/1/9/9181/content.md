@@ -4,7 +4,7 @@
 
 **[[standard model of particle physics]]**
 
-**[[force]] [[field (physics)]] [[gauge field|gauge]] [[bosons]]**
+**[[force]] [[field (physics)|field]] [[gauge field|gauge]] [[bosons]]**
 
 * [[photon]] - [[electromagnetic field]] (abelian [[Yang-Mills field]])
 
@@ -14,11 +14,11 @@
 
 * [[graviton]] - [[field (physics)|field]] of [[gravity]]
 
-**scalar bosons**
+**[[scalar field|scalar]] [[bosons]]**
 
 * [[Higgs boson]], [[inflaton]] ([[scalar field]])
 
-**[[matter]] [[field (physics)|field]] [[fermions]]** ([[spinors]])
+**[[matter]] [[field (physics)|field]] [[fermions]]** ([[spinors]], [[Dirac fields]])
 
 * [[electron]]
 
@@ -26,6 +26,7 @@
 
 * [[neutrino]]
 
+* [[muon]]
 
 **[[hadron]]** ([[bound states]] of the above [[quarks]])
 
@@ -45,7 +46,7 @@
 
 [[fermions]]:
 
-* [[gravitino]] - [[field (physics)|field]] of [[supergravity]]
+* [[gravitino]] - [[field (physics)|field]] of [[supergravity]] ([[Rarita-Schwinger field]])
 
 * [[gaugino]] - [[super Yang-Mills theory|super Yang-Mills field]]
 
@@ -59,8 +60,6 @@
 
 * [[axion]], [[dilaton]]
 
-* [[Rarita-Schwinger field]]
-
 * [[monopole]]
 
 * [[dual graviton]]
@@ -72,3 +71,4 @@
 * [[antifield]]
 
 * [[antighost field]], [[Nakanishi-Lautrup field]]
+
