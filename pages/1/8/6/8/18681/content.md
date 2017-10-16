@@ -25,7 +25,7 @@ The computation of the anomalous magnetic dipole moment of the [[electron]] in [
 [[!redirects magnetic moment]]
 [[!redirects magnetic moments]]
 
-[[!redirects anomaous magnetic moment of the electron]]
-[[!redirects anomaous magnetic dipole moment of the electron]]
+[[!redirects anomalous magnetic moment of the electron]]
+[[!redirects anomalous magnetic dipole moment of the electron]]
 
 
