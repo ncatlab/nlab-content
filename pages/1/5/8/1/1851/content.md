@@ -123,6 +123,10 @@ This phenomenon has traditionally been known somewhat implicitly in the context 
 
 * [[flux]]
 
+* [[magnetic field]]
+
+* [[magnetic moment]]
+
 ## References
 
 Magnetic charge for general [[compact Lie groups]] as [[gauge groups]] was first discussed in
