@@ -1927,7 +1927,7 @@ $$
   +
   \tfrac{1}{2}
     \gamma^{\alpha}{}_{\beta \gamma}
-    a^\beta_{\mu}} a^\gamma_{\nu}
+    a^\beta_{\mu} a^\gamma_{\nu}
   -
   (\mu \leftrightarrow \nu)
 $$
