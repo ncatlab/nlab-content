@@ -557,3 +557,8 @@ Discussion on Euclidean manifolds and in terms of [[BV-formalism]] is in
 
 [[!redirects free quantum field theory]]
 [[!redirects free quantum field theories]]
+
+
+[[!redirects free quantum field]]
+[[!redirects free quantum fields]]
+
