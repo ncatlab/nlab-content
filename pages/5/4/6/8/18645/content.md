@@ -10,6 +10,7 @@
 =--
 =--
 
+$\,$
 
 > this entry is going to be one chapter of _[[geometry of physics]]_
 
@@ -17,7 +18,10 @@
 
 $\,$
 
-This chapter gives an expository but rigorous introduction to the basic concepts
+<img src="https://ncatlab.org/schreiber/files/HamburgAnnouncement.jpg" width="850" >
+
+
+These notes mean to give an expository but rigorous introduction to the basic concepts
 of [[relativistic quantum field theory|relativistic]] [[perturbative quantum field theories]], specifically those
 that arise as the [[perturbative quantum field theory|perturbative]] [[quantization]] of a _[[Lagrangian field theory]]_
 -- such as [[quantum electrodynamics]], [[quantum chromodynamics]], and [[perturbative quantum gravity]]
@@ -46,10 +50,10 @@ is a [[trivial vector bundle]] and we concentrate on the case that the gauge sym
 But we aim to organize all concepts such that the _structure_ of their generalization to [[AQFT on curved spacetime|curved spacetime]]
 and non-trivial [[field bundles]] is immediate.
 
-This comparatively simple setup already subsumes what is considered in most traditional texts on the subject, it captures the established perturbative [[BV formalism|BRST-BV quantization]] of [[gauge fields]] coupled to [[fermions]] [[AQFT on curved spacetime|on curved spacetimes]]
+This comparatively simple setup already subsumes what is considered in most traditional texts on the subject, it captures the established [[perturbative quantum field theory|perturbative]] [[BV formalism|BRST-BV quantization]] of [[gauge fields]] coupled to [[fermions]] [[AQFT on curved spacetime|on curved spacetimes]]
 -- which is the state of the art.
-Further generalization, necessary for the discussion of global topological effects such as [[instanton]] configurations
-of [[gauge fields]] will be discussed elsewhere (see at _[[homotopical algebraic quantum field theory]]_).
+Further generalization, necessary for the discussion of global topological effects, such as [[instanton]] configurations
+of [[gauge fields]], will be discussed elsewhere (see at _[[homotopical algebraic quantum field theory]]_).
 
 Alongside the theory we develop the concrete examples of the [[real scalar field]], the [[electromagnetic field]]
 the [[Dirac field]]:
@@ -69,7 +73,10 @@ $\,$
 
 **Acknowledgement**
 
-These notes profited greatly from discussions with [[Igor Khavkine]].  
+Whatever is correct and stable in these notes profited greatly from discussions with [[Igor Khavkine]].  
+Further helpful comments on the notes were made by [[Arnold Neumaier]]. Thanks also to [[Kasia Rejzner]]
+for helpful replies.
+
 
 $\,$
 $\,$
@@ -153,8 +160,14 @@ than their definition might superficially suggest:
 
 1. **[[embedding of smooth manifolds into formal duals of R-algebras]]**
 
-   The [[functor]] that sends a [[smooth manifold]] $X$ to its $\mathbb{R}$-[[associative algebra|algebra]]
-   $C^\infty(X)$ of [[smooth functions]] with values in the [[real line]] is a [[fully faithful functor]];
+   For $X$ and $Y$ two [[smooth manifolds]], the [[smooth functions]] $f \colon X \longrightarrow Y$ 
+   between them are in [[natural bijection]] with their
+   induced algebra [[homomorphisms]] $C^\infty(X) \overset{f^\ast}{\longrightarrow} C^\infty(Y)$, so that
+   one may equivalently handle smooth manifolds entirely via their algebras of smooth functions.
+
+   Stated more [[category theory|abstractly]], this means equivalently that the [[functor]] $C^\infty(-)$ that 
+   sends a [[smooth manifold]] $X$ to its $\mathbb{R}$-[[associative algebra|algebra]]
+   $C^\infty(X)$ of [[smooth functions]] with values in the [[real line]] is a _[[fully faithful functor]]_:
 
    $$
      C^\infty(-)
@@ -163,24 +176,29 @@ than their definition might superficially suggest:
      \,.
    $$
 
-   This means that [[smooth functions]] $f \colon X \longrightarrow Y$ are in [[natural bijection]] with their
-   induced algebra [[homomorphisms]] $C^\infty(X) \overset{f^\ast}{\longrightarrow} C^\infty(Y)$ so that
-   one may equivalently handle smooth manifolds entirely via their algebras of smooth functions.
 
 1. **[[smooth Serre-Swan theorem|embedding of smooth vector bundles into formal duals of R-algebra modules]]**
 
-   For a fixed [[smooth manifold]] $X$ the [[functor]] that sends a [[smooth vector bundle]] $E \to X$
+   For a fixed [[smooth manifold]] $X$, the [[modules]] over the $\mathbb{R}$-algebra $C^\infty(X)$
+   of [[smooth functions]] on $X$ which arise as [[sections]] of [[smooth vector bundles]] over $X$
+   are precisely the [[finitely generated module|finitely generated]] [[projective modules]] over $C^\infty(X)$.
+
+   More [[category theory|abstractly]] this means that the [[functor]] that sends a [[smooth vector bundle]] $E \to X$
    to its [[space of sections]] $\Gamma_X(E)$, regarded as a [[module]] over the [[algebra of functions|algebra of]]
-   [[smooth function]] $C^\infty(X)$ is a [[fully faithful functor]]
+   [[smooth function]] $C^\infty(X)$, is a [[fully faithful functor]]
 
    $$
      \Gamma_X(-) \;\colon\; VectBund_X \hookrightarrow C^\infty(X) Mod
    $$
 
-   Its [[essential image]] consists of the [[finitely generated module|finitely generated]] [[projective modules]].
 
 1. **[[derivations of smooth functions are vector fields|vector fields are derivations of smooth functions]]**.
 
+   For $X$ a [[smooth manifold]], then any [[derivation]] $D \colon  C^\infty(X) \to C^\infty(X)$ on 
+   the $\mathbb{R}$-[[associative algebra|algebra]]
+   $C^\infty(X)$ of [[smooth functions]] is given by [[differentiation]] with respect to a uniquely
+   defined smooth [[vector field]].
+  
 =--
 
 
@@ -463,7 +481,7 @@ $\,$
 ## Fields
  {#FieldBundles}
 
-A _[[field (physics)|field]] [[trajectory]]_ (field history) on a given [[spacetime]] $\Sigma$ is meant to be some kind of [[quantity]] assigned to each point of spacetime (each [[event]]), such that this assignment varies smoothly with spacetime points. For instance an _[[electromagnetic field]]_ [[trajectory]] (or "history") is  at each point of spacetime a collection of [[vectors]] that encode the direction in which a [[charged particle]] passing through that point will feel a [[force]] (the "[[Lorentz force]]", see example \ref{Electromagnetism} below).
+A [[field history]] on a given [[spacetime]] $\Sigma$ is meant to be some kind of [[quantity]] assigned to each point of spacetime (each [[event]]), such that this assignment varies smoothly with spacetime points. For instance an _[[electromagnetic field]]_ [[trajectory]] (or "history") is  at each point of spacetime a collection of [[vectors]] that encode the direction in which a [[charged particle]] passing through that point will feel a [[force]] (the "[[Lorentz force]]", see example \ref{Electromagnetism} below).
 
 This is readily formalized (def. \ref{Fields} below): If $F$ denotes the [[smooth set]] of "values" that the given kind of field may take at any spacetime point, then a field configuration $\Phi$ is modeled as a [[smooth function]] from spacetime to this space of values:
 
@@ -1048,7 +1066,7 @@ such that
     f_\ast(\mathbb{R}^{n_1}) \circ g^\ast_1
     \phantom{AAAAA}
     \text{i.e.}
-    \phatom{AAAAA}
+    \phantom{AAAAA}
     \text{i.e.}
     \phantom{AAAAA}
     \array{
@@ -13105,7 +13123,97 @@ which yield in total the sum over all diagrams with $v+1$ vertices.
 From prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints} one deduces that the
 order in [[Planck's constant]] that a ([[planar graph|planar]]) [[Feynman diagram]] contributes to the
 S-matrix is given (up to a possible offset due to external vertices) by the "number of loops" in the diagram.
-See at _[[loop order]]_ the section _[Relation to powers in Planck's constant](loop+order#RelationToPowersInPlancksConstant)_ for details.
+
+
+In the computation of [[scattering amplitudes]] for [[field (physics)|fields]]/[[particles]] via [[perturbative quantum field theory]] the [[scattering matrix]] ([[Feynman perturbation series]]) is a [[formal power series]] in (the [[coupling constant]] and) [[Planck's constant]] $\hbar$ whose contributions may be labeled by [[Feynman diagrams]]. Each Feynman diagram $\Gamma$ is a finite labeled [[graph]], and the order in $\hbar$ to which this graph contributes is
+
+$$
+  \hbar^{ E(\Gamma) - V(\Gamma) }
+$$
+
+where
+
+1. $V(\Gamma) \in \mathbb{N}$ is the number of [[vertices]] of the graph
+
+1. $E(\Gamma) \in \mathbb{N}$ is the number of [[edges]] in the graph.
+
+This comes about (see at _[S-matrix -- Feynman diagrams and Renormalization](S-matrix#ExistenceAndRenormalization)_ for details) because
+
+1. the explicit $\hbar$-dependence of the [[S-matrix]] is
+
+   $$
+     S\left(\tfrac{g}{\hbar} L_{int} \right)
+     =
+     \underset{k \in \mathbb{N}}{\sum} \frac{g^k}{\hbar^k k!} T( \underset{k \, \text{factors}}{\underbrace{L_{int} \cdots L_{int}}} )
+   $$
+
+1. the further $\hbar$-dependence of the [[time-ordered product]] $T(\cdots)$ is
+
+   $$
+     T(L_{int} L_{int}) = prod \circ \exp\left( \hbar \int \omega_{F}(x,y) \frac{\delta}{\delta \phi(x)} \otimes \frac{\delta}{\delta \phi(y)}  \right) ( L_{int} \otimes L_{int} )
+     \,,
+   $$
+
+where $\omega_F$ denotes the [[Feynman propagator]] and $\phi(x)$ the field observable at point $x$ (where we are notationally suppressing the internal degrees of freedom of the fields for simplicity, writing them as [[scalar fields]], because this is all that affects the counting of the $\hbar$ powers).
+
+The resulting terms of the S-matrix series are thus labeled by
+
+1. the number of factors of the [[interaction]] $L_{int}$, these are the [[vertices]] of the corresponding Feynman diagram and hence each contibute with $\hbar^{-1}$
+
+1. the number of integrals over the Feynman propagator $\omega_F$, which correspond to the edges of the Feynman diagram, and each contribute with $\hbar^1$.
+
+Now the formula for the [[Euler characteristic of planar graphs]] says that the number of regions in a plane that are encircled by edges, the _faces_ here thought of as the number of "loops", is
+
+$$
+  L(\Gamma) =  1 + E(\Gamma) - V(\Gamma)
+  \,.
+$$
+
+Hence a planar Feynman diagram $\Gamma$ contributes with
+
+$$
+  \hbar^{L(\Gamma)-1}
+  \,.
+$$
+
+So far this is the discussion for internal edges. An actual scattering matrix element is of the form
+
+$$
+  \langle \psi_{out} \vert S\left(\tfrac{g}{\hbar} L_{int} \right)
+  \vert \psi_{in} \rangle
+  \,,
+$$
+
+where
+
+$$
+  \vert \psi_{in}\rangle
+    \propto
+  \tfrac{1}{\sqrt{\hbar^{n_{in}}}}
+  \phi^\dagger(k_1) \cdots \phi^\dagger(k_{n_{in}}) \vert vac \rangle
+$$
+
+is a state of $n_{in}$ free field quanta and similarly
+
+$$
+  \vert \psi_{out}\rangle
+    \propto
+  \tfrac{1}{\sqrt{\hbar^{n_{out}}}}
+  \phi^\dagger(k_1) \cdots \phi^\dagger(k_{n_{out}}) \vert vac \rangle
+$$
+
+is a state of $n_{out}$ field quanta. The normalization of these states, in view of the commutation relation $[\phi(k), \phi^\dagger(q)] \propto \hbar$, yields the given powers of $\hbar$.
+
+This means that an actual [[scattering amplitude]] given by a [[Feynman diagram]] $\Gamma$ with $E_{ext}(\Gamma)$ external vertices scales as
+
+$$
+  \hbar^{L(\Gamma) - 1 + E_{ext}(\Gamma)/2 }
+  \,.
+$$
+
+(For the analogous discussion of the dependence on the actual [[quantum observables]] on $\hbar$ given by [[Bogoliubov's formula]], see [there](Bogoliubov's+formula#PowersInPlancksConstant).)
+
+
 
 =--
 
@@ -13145,3 +13253,4 @@ $\,$
 $\,$
 
 
+[[!redirects A first idea of quantum field theory]]
