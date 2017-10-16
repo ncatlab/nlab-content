@@ -3999,3 +3999,6 @@ Later this was developed further with [[Igor Khavkine]], exposition is here:
 
 [[!redirects higher prequantum field theory]]
 [[!redirects higher prequantum field theories]]
+
+[[!redirects pre-quantum field theory]]
+[[!redirects pre-quantum field theories]]
