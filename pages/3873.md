@@ -148,6 +148,8 @@ If one thinks of $D^2$ as the time-evolution [[Hamiltonian]] of a system of [[su
 
 * [[Dirac-Ramond operator]], [[Dirac operator on smooth loop space]]
 
+* [[Feynman slash notation]]
+
 [[!include genera and partition functions - table]]
 
 
