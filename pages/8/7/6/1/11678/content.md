@@ -20,7 +20,7 @@ $$
   \int_X c_1(E) \wedge \omega^{\wedge_{n-1}}
 $$
 
-of the [[de Rham cohomology|de Rham representative]] of the actual [[first Chern class]] of $X$ wedge with copies of the given [[symplectic form]] (e.g. [Scheinost-Schottenloher 96, def. 1.14](#ScheinostSchottenloher96)).
+of the [[de Rham cohomology|de Rham representative]] of the actual [[first Chern class]] of $E$ wedge with copies of the given [[symplectic form]] (e.g. [Scheinost-Schottenloher 96, def. 1.14](#ScheinostSchottenloher96)).
 
 
 ## In complex analytic geometry
