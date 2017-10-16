@@ -24,5 +24,6 @@ In [[physics]] the [[electromagnetic field]] may be split, over a choice of [[co
 
 * [[magnetic charge]]
 
+* [[magnetic dipole moment]]
 
 [[!redirects magnetic fields]]
