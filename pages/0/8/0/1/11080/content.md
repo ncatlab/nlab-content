@@ -338,7 +338,7 @@ We introduce and discuss this example in detail in the chapter _[[geometry of ph
 
 A [[smooth set]] (def. \ref{SmoothSpace}) need not have an _underlying set_, for instance 
 the smooth set $\mathbf{\Omega}^k$ from example \ref{SmoothSetOfDifferentialForms} for $k \geq 1$
-has only a single plot from the point (corresponding to the zero diffetrential form on the point), and yet it is
+has only a single plot from the point (corresponding to the zero differential form on the point), and yet it is
 far from being the point. If a smooth set does have an underlying set, then it is called a 
 _[[diffeological space]]_:
 
