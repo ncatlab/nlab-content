@@ -274,7 +274,7 @@ Spin groups in signature $(m,n)$ for $m,n \geq 2$ have fundamental groups of ord
 
 * [[2-Clifford algebra]]
 
-
+* [[Feynman slash notation]]
 
 
 ## References
