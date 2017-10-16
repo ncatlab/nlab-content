@@ -47,7 +47,7 @@ The Hadamard distribution may also be thought of as the [[2-point function]] of 
 
 +-- {: .num_defn #StandardHadamardDistributionOnMinkowskiSpacetime}
 ###### Definition
-**(standard Hadamard distributio on [[Minkowski spacetime]])***
+**(standard Hadamard distribution on [[Minkowski spacetime]])**
 
 For $p \in \mathbb{N}$, the standard [[vacuum state|vacuum]] Hadamard distribution on [[Minkowski spacetime]] of [[dimension]] $(p+1)$ is (see the computation of [this prop.](scalar+field#IntegralKernelForPoissonBracketOfFreeScalarFieldOnMinkowskiSpacetime) at _[[scalar field]]_)
 
