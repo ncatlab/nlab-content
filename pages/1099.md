@@ -184,12 +184,12 @@ $$
 
 for the [[sSet]]-[[enriched category]] of _ordinary_ ($sSet$-[[enriched functor|enriched]]) functors (respecting composition strictly).
 
-Then: every $(\infty,1)$-functor $N(\mathbf{C}^{op}) \to \infty Grpd$ is equivalent to a strictly composition respecting functor of this sort. Precisely: write $[\mathbf{C}^{op}, \mathbf{KanCplx}]^\circ$ for the full $sSet$-enriched subcategory on those strict functors that are fibrant and cofibrant in the [[model structure on simplicial presheaves]] on $\mathbf{C}$. Then we have an [[equivalence of quasi-categories|equivalence]] of [[∞-groupoid]]s
+Then: every $(\infty,1)$-functor $N(\mathbf{C}^{op}) \to \infty Grpd$ is equivalent to a strictly composition respecting functor of this sort. Precisely: write $[\mathbf{C}^{op}, \mathbf{sSet}]^\circ$ for the full $\mathbf{sSet}$-enriched subcategory on those strict functors that are fibrant and cofibrant in a [[model structure on simplicial presheaves]] on $\mathbf{C}$. Then we have an [[equivalence of quasi-categories|equivalence]] of [[(∞,1)-categories]]
 
 $$
-  (\infty,1)Cat(N(\mathbf{C}^{op}), \infty Grpd)
+  Hom_{(\infty,1)Cat}(N(\mathbf{C}^{op}), \infty Grpd)
   \simeq
-  [\mathbf{C}^{op}, \mathbf{sSet}]^\circ
+  N([\mathbf{C}^{op}, \mathbf{sSet}]^\circ)
   \,.
 $$
 
