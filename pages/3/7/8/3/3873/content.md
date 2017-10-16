@@ -136,6 +136,8 @@ If one thinks of $D^2$ as the time-evolution [[Hamiltonian]] of a system of [[su
 
 ## Related concepts
 
+* [[Dirac equation]]
+
 * [[spin^c Dirac operator]]
 
 * [[index of a Dirac operator]]
