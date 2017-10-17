@@ -257,7 +257,7 @@ The page [here](http://ncatlab.org/nlab/show/generalized+algebraic+theory#Relati
 
 * [[tangent bundle categories]] can be described as a certain kind of enriched category with certain [[powers]]; see [here](https://arxiv.org/abs/1704.08386).
 
-* [[Lawvere theories]] can be represented as enriched categories as well; see there for details.
+* [[Lawvere theories]] can be represented as enriched categories as well; see [Garner 2013](#Garner2013) and [Garner and Power 2017](#GarnerPower 2017) for details. 
 
 ## Related concepts
 
@@ -293,7 +293,15 @@ Change of base is discussed in
 * [[Geoff Cruttwell]], _Normed Spaces and the Change of Base for Enriched Categories_, [pdf](http://pages.cpsc.ucalgary.ca/~gscruttw/publications/thesis4.pdf)
 
 
-* John Armstrong: [Enriched categories](http://unapologetic.wordpress.com/2007/08/13/enriched-categories/).
+* John Armstrong: [Enriched categories](http://unapologetic.wordpress.com/2007/08/13/enriched-categories/). 
+
+Lawvere theories, and finitary monads, are identified with certain [[enriched categories]] and the passage from one to the other with a [[cocompletion]], in
+
+* {#Garner2013} [[Richard Garner]], *Lawvere theories, finitary monads and Cauchy-completion*, 2013, [arxiv](https://arxiv.org/abs/1307.2963)
+
+* {#GarnerPower2017} [[Richard Garner]] and [[John Power]], *An enriched view on the extended finitary monad--Lawvere theory correspondence*, 2017, [arxiv](https://arxiv.org/abs/1707.08694)
+
+
 
 
 [[!redirects enriched categories]]
