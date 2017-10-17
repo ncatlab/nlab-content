@@ -257,7 +257,7 @@ The page [here](http://ncatlab.org/nlab/show/generalized+algebraic+theory#Relati
 
 * [[tangent bundle categories]] can be described as a certain kind of enriched category with certain [[powers]]; see [here](https://arxiv.org/abs/1704.08386).
 
-* [[Lawvere theories]] can be represented as enriched categories as well; see [Garner 2013](#Garner2013) and [Garner and Power 2017](#GarnerPower 2017) for details. 
+* [[Lawvere theories]] can be represented as enriched categories as well; see [Garner 2013](#Garner2013) and [Garner and Power 2017](#GarnerPower2017) for details. 
 
 ## Related concepts
 
