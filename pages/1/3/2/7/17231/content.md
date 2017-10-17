@@ -6,4 +6,6 @@
 
 * [[Schwinger-Dyson equation]]
 
+* [[Dirac field]]
+
 category: people
