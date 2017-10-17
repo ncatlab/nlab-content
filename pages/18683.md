@@ -16,8 +16,11 @@ Notice that there are other [[spinor]] [[field (physics)|fields]] which would no
 
 ## Reference
 
-A textbook account in the context of [[causal perturbation theory]] is in
+A concise collection of the details over [[Minkowski spacetime]] is in
 
+* [[Radovan Dermisek]], _qft-I-9-4_ ([pdf](http://www.physics.indiana.edu/~dermisek/QFT_09/qft-I-9-4p.pdf))
+
+A textbook account in the context of [[causal perturbation theory]] is in
 
 * {#Scharf95} [[Günter Scharf]], section 2.2 of _[[Finite Quantum Electrodynamics -- The Causal Approach]]_, Berlin: Springer-Verlag, 1995, 2nd edition
 
