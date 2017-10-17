@@ -65,7 +65,7 @@ the [[Dirac field]]:
 |---------------------------|------------------|-------------------------|------------------------|------------------|------|
 | [[real scalar field]] |  expl. \ref{RealScalarFieldBundle} |  expl. \ref{LagrangianForFreeScalarFieldOnMinkowskiSpacetime} | expl. \ref{FreeScalarFieldEOM} | none | expl. \ref{PoissonBracketForRealScalarField} |
 | [[electromagnetic field]] | expl. \ref{Electromagnetism} | expl. \ref{ElectromagnetismLagrangianDensity} | expl. \ref{ElectromagnetismEl}  | expl. \ref{NLGaugeFixingOfElectromagnetism} | ... |
-| [[Dirac field]] | expl. \ref{DiracFieldBundle}  | ...  |  ...  |  ...  |  ...  |  ...  |
+| [[Dirac field]] | expl. \ref{DiracFieldBundle}  | expl. \ref{LagrangianDensityForDiracField}  |  ...  |  ...  |  ...  |  ...  |
 
 The [[electromagnetic field]] and the [[Dirac field]] combined are the [[field (physics)|fields]] of [[quantum electrodynamics]]
 which we turn to at the end [below](#QED).
@@ -2757,7 +2757,27 @@ $$
   \,,
 $$
 
-hence the [[field fiber]] is the [[superpoint]] $S_{odd}$.
+hence the [[field fiber]] is the [[superpoint]] $S_{odd}$. 
+
+The [[linear basis]] on the [[dual vector space]]
+of $S = S_+ \oplus S_- \simeq \mathbb{K}^2 \oplus \mathbb{K}^2$ is traditionally denoted
+
+$$
+  \left( 
+   \psi^A
+  \right)_{A = 1}^4
+   \;=\;
+  \left(
+     (\chi_a), (\xi^{\dagger \dot a})
+  \right)_{a,\dot a = 1}^2
+$$
+
+and so we may regard these as the field coordinates on the [[field fiber]] $S_{odd}$. Notice that as
+such these are now odd-graded elements in the [[Grassmann algebra]] $\wedge^\bullet(S^\ast)$ and hence anti-commute
+with each other.
+
+Notice also that these are $\mathbb{K}$-valued duals. For instance if $\mathbb{K} = \mathbb{C}$ then each $\chi_a$ in turn has
+two components, a real part and an imaginary part.
 
 The corresponding [[space of field histories]] $\Gamma_\Sigma(\Sigma \times S_{odd})$ (example \ref{SupergeometricSpaceOfFieldHistories})
 has the following properties:
@@ -2787,6 +2807,8 @@ has the following properties:
    
    hence to smoothly $\mathbb{R}^n$-parameterized smooth [[sections]] of the ordinary [[field bundle]]
    whose [[field fiber]] is the ordinary vector space $S_{even}$.
+
+
 
 =--
 
@@ -3035,7 +3057,7 @@ $$
   +
   \tfrac{1}{2}
     \gamma^{\alpha}{}_{\beta \gamma}
-    a^\beta_{\mu}} a^\gamma_{\nu}
+    a^\beta_{\mu} a^\gamma_{\nu}
   -
   (\mu \leftrightarrow \nu)
 $$
@@ -3764,23 +3786,89 @@ the field bundle for [[Yang-Mills theory]] as in example \ref{YangMillsFieldOver
 
 =--
 
-
-+-- {: .num_example #}
++-- {: .num_example #LagrangianDensityForDiracField}
 ###### Example
+**([[Lagrangian density]] for [[Dirac field]])
 
-Consider the [[field bundle]] $\Sigma \times S_{odd} \to \Sigma$ for the [[Dirac field]]
-over 4-dimensional [[Minkowski spacetime]] from example \ref{DiracFieldBundle}.
+Consider the [[field bundle]] $\Sigma \times S_{odd} \to \Sigma$ for the [[Dirac field]] from example \ref{DiracFieldBundle}.
+With the [[field fiber]] coordinates as introduced there, the [[jet bundle]] has fiber coordinates
 
-spring
+$$
+  \left(
+   \left(\psi^A\right)
+   ,
+   \left(
+      \psi^A_{,\mu}
+   \right)
+   ,
+   \cdots
+  \right)
+   \;=\;
+  \left(
+     ((\chi_a), (\chi_{a,\mu}), \cdots), (( \xi^{\dagger \dot a}), (\xi^{\dagger \dot a}_{,\mu}), \cdots)
+  \right)
+  \,.
+$$
 
+Notice that all of these are odd-graded elements in a [[Grassmann algebra]], hence anti-commuting.
 
-If the underlying [[complex vector space]]
-is identified with $\mathbb{C}^4$ then the [[action]] of the spin group may be given via the
-[[Pauli matrices]] (eq:PauliMatricesIn4d) by the [[Clifford algebra]] generators $(\gamma_\mu)$ (eq:StandardDiracRepresentationIn4d).
+We say that the _mass term_ is the element representing the spinor bilinear pairing from prop. \ref{RealSpinorPairingsViaDivisionAlg}
 
-spring
+$$
+  \overline{\psi} \psi
+  \;\coloneqq\;
+  \xi^a \chi_a + \chi^\dagger_{\dot a} \xi^{\dagger \dot a}
+$$
+
+and that the [[kinetic action|kinetic term]] is
+
+$$
+  \begin{aligned}
+    L
+    & \coloneqq
+    \underset{
+      \text{kinetic term}
+    }{
+    \underbrace{
+      i \overline{\psi} \Gamma^\mu \frac{d}{d x^\mu} \psi
+    }
+    }
+    +
+    \underset{
+      \text{mass term}
+    }{
+    \underbrace{
+      m \overline{\psi} \psi
+    }}
+    \\
+    & =
+    \underset{
+      -(\partial_\mu \xi^a ) \sigma^\mu_{a \dot c} \xi^{\dagger \dot c}
+      + \partial_\mu(\xi^a \sigma^\mu_{a \dot c} \xi^{\dagger \dot c})
+    }{
+    \underbrace{
+      \xi^a \sigma^\mu_{a \dot c} \partial_\mu \xi^{\dagger \dot c}
+    }
+    }
+      +
+    \xi^\dagger_{\dot a} \tilde \sigma^{\mu \dot a c} \partial_\mu \xi_c
+    +
+    \xi^a \chi_a + \chi^\dagger_{\dot a} \xi^{\dagger \dot a}
+    \\
+    & =
+    \xi^\dagger \tilde \sigma^\mu \partial_\mu \xi
+    +
+    \xi^\dagger \tilde \sigma^\mu \partial_\mu \xi
+    +
+    m \chi \xi + m \xi^\dagger \chi^\dagger
+    +
+    \partial_\mu(\xi \sigma^\mu \xi^\dagger)
+  \end{aligned}
+$$
+
 
 =--
+
 
 
 The beauty of [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) is that a choice of [[Lagrangian density]] determines
