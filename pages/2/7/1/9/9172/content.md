@@ -2,10 +2,6 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Physics
-+-- {: .hide}
-[[!include physicscontents]]
-=--
 #### Fields and quanta
 +-- {: .hide}
 [[!include fields and quanta - table]]
@@ -32,10 +28,29 @@ The name is due to the fact that this gauge field unifies the [[electromagnetic 
 
 ## References
 
-* Andreas Aste, [[Michael Dütsch]], G&#252;nter Scharf, _Perturbative gauge invariance: electroweak theory II_, Annalen Phys.8:389-404,1999 ([arXiv:hep-th/9702053](http://arxiv.org/abs/hep-th/9702053))
+The electroweak interaction was introduced in
 
+* [[Sheldon Glashow]], _The renormalizability of vector meson interactions_, Nucl. Phys. 10, 107. (1959)
+
+* [[Abdus Salam]], [[John Clive Ward]], _Weak and electromagnetic interactions_, Nuovo Cimento. 11 (4): 568&#8211;577. (1959)
+
+The electroweak symmetry breaking via the [[Higgs mechanism]] is due to
+
+* {#Weinberg67} [[Steven  Weinberg]], _A model of Leptons_, Phys. Rev. Lett. 19, 1264, 1967 ([doi:10.1103/PhysRevLett.19.1264](https://doi.org/10.1103/PhysRevLett.19.1264))
+
+The history of [Weinberg 67](#Weinberg67) is recounted in
+
+* Frank Close, _[Birth of a Symmetry](http://cerncourier.com/cws/article/cern/70137)_, Cern Courier, Oct 13 2017
+
+Discussion in [[causal perturbation theory]] is in
+
+* Andreas Aste, [[Michael Dütsch]], [[Günter Scharf]], _Perturbative gauge invariance: electroweak theory II_, Annalen Phys.8:389-404,1999 ([arXiv:hep-th/9702053](http://arxiv.org/abs/hep-th/9702053))
 
 * {#Scharf01} [[Günter Scharf]], chapter 4 of _[[Quantum Gauge Theories -- A True Ghost Story]]_, Wiley 2001
+
+See also 
+
+* Wikipedia, _[Electroweak interaction](https://en.wikipedia.org/wiki/Electroweak_interaction)_
 
 [[!redirects electroweak]]
 [[!redirects electroweak field]]
