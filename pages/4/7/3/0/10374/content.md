@@ -14,6 +14,8 @@ In [[quantum field theory]] a _Ward identity_ expresses the suitable invariant o
 
 ## References
 
+Named after _[[John Clive Ward]]_.
+
 * Wikipedia, _[Ward-Takahashi identity](http://en.wikipedia.org/wiki/Ward%E2%80%93Takahashi_identity)_
 
 [[!redirects Ward–Takahashi identity]]
