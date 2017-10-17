@@ -8,6 +8,10 @@ The definition is due to
 
 * [[Jiri Rosicky]], Abstract tangent functors. Diagrammes 12 (1984)
 
+For developments of his ideas, see
+
+* [[Robin Cockett]] and [[Geoff Cruttwell]], _Differential structure, tangent structure, and SDG_, ([pdf](https://www.mta.ca/uploadedFiles/Community/Bios/Geoff_Cruttwell/sman3.pdf))
+
 Representation of this tangent structure as exponentiation by a tangent vector is given in
 
 * [[Richard Garner]], _An embedding theorem for tangent categories_, ([arXiv:1704.08386](https://arxiv.org/abs/1704.08386))
