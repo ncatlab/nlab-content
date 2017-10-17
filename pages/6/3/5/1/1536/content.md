@@ -198,6 +198,22 @@ $$
 This last result appears in [[SGA4]] Expos&#233; VI, Section 6.
 
 
+### Local smallness
+
+In general, a [[weighted colimit|(weighted)]] colimit of a [[large category|large]] diagram of [[locally small categories]] need no longer be locally small.  However, in the case of the oplax colimit, i.e. the Grothendieck construction, we have:
+
++-- {: .un_theorem}
+###### Theorem
+If $F:C^{op}\to Cat$ is a pseudofunctor, $C$ is locally small, and each category $F(c)$ is locally small, then the Grothendieck construction $\int F$ is also locally small.
+=--
++-- {: .proof}
+###### Proof
+Recall that the morphisms in $\int F$ from $(c,a)$ to $(c',a')$ are pairs $(c \overset{f}{\to} c', a \overset{\alpha}{\to} F(f)(a'))$.  Local smallness of $C$ means that there is only a set of such $f$'s, and local smallness of $F(c)$ means that for each $f$ there is only a set of such $\alpha$'s.
+=--
+
+For example, consider the [[canonical indexing]] of a locally small category $A$, i.e. the pseudofunctor $Set^{op}\to Cat$ sending each set $X$ to the category $A^X$.  This satisfies the conditions of the above theorem, so its Grothendieck construction, which is the category of [[families]] of objects of $A$, is locally small.
+
+
 ### The equivalence between fibrations and pseudofunctors
 
 One can characterize the _image_ of the Grothendieck construction
