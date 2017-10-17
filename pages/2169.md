@@ -78,7 +78,16 @@ The [[Hurwitz theorem]] says that over the [[real numbers]] there are, up to [[i
 *  $\mathbb{H}$, the algebra of [[quaternions]],
 *  $\mathbb{O}$, the algebra of [[octonions]].
 
-In fact these are also exactly the real [[alternative algebra|alternative]] division algebras ([Zorn 30](#Zorn30)).
+In fact these are also exactly the real [[alternative algebra|alternative]] division algebras:
+
++-- {: .num_prop #ZornTheorem}
+###### Proposition
+
+The only [[division algebras]] over the [[real numbers]] which are also [[alternative algebras]] are the [[real numbers]] themselves, the [[complex numbers]], the [[quaternions]] and the [[octonions]].
+
+=--
+
+([Zorn 30](#Zorn30)).
 
 Each of these is produced from the previous one by the [[Cayley–Dickson construction]]; when applied to $\mathbb{O}$, this construction produces the algebra of [[sedenions]], which do *not* form a division algebra.
 
