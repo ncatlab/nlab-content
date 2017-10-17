@@ -5,11 +5,13 @@
 
 ## Idea
 
-In [[physics]], specifically in [[field theory]], the _Dirac field_ of _[[spinor]] field_ is the kind of [[field (physics)|field]] whose [[quanta]] are the [[fermions]] in the [[standard model of particle physics]], such as [[electrons]], [[quarks]], [[neutrinos]] and [[muons]].
+In [[physics]], specifically in [[field theory]], a _Dirac field_ is an [[electromagnetism|electromagentially]] charged and possibly [[mass|massive]] a _[[fermion|fermionic]] [[spinor]] field_.
 
-Mathematically, the Dirac field is the [[field (physics)|field]] whose [[field bundle]] is a [[spinor bundle]] in [[supergeometry|odd super-degree]] and whose [[equation of motion]] is a [[Dirac equation]].
+This includes [[fermions]] in the [[standard model of particle physics]], such as [[electrons]], [[quarks]], [[neutrinos]] and [[muons]], after the [[Higgs mechanism]] has equipped them with [[mass]].
 
-Notice that there are other [[spinor]] [[field (physics)|fields]] which would not be called "Dirac fields". For example the [[gravitino]] field would be called a _[[Rarita-Schwinger field]]_.
+Mathematically, the Dirac field is the [[field (physics)|field]] whose [[field bundle]] is a [[spinor bundle]] with typical [[fiber]] a [[Dirac representation]] in [[supergeometry|odd super-degree]] and whose [[equation of motion]] is a [[Dirac equation]].
+
+Notice that there are other [[spinor]] [[field (physics)|fields]] which would not be called "Dirac fields", such as those transforming in a [[Majorana representation]] or a [[Weyl representation]], or for example the [[gravitino]] field which would be called a _[[Rarita-Schwinger field]]_.
 
 
 ## Reference
