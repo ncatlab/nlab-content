@@ -255,6 +255,10 @@ The page [here](http://ncatlab.org/nlab/show/generalized+algebraic+theory#Relati
 
 * [[2-categories with contravariance]] (and generalizations such as [[3-categories with contravariance]]) can also be described as enriched categories.
 
+* [[tangent bundle categories]] can be described as a certain kind of enriched category with certain [[powers]]; see [here](https://arxiv.org/abs/1704.08386).
+
+* [[Lawvere theories]] can be represented as enriched categories as well; see there for details.
+
 ## Related concepts
 
 * [[enriched monad]]
