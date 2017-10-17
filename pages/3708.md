@@ -1,3 +1,4 @@
+> This page is about the construction of "the tangent category of a category" by abelianization.  For categories equipped with an abstract "tangent bundle" construction on their objects, see [[tangent bundle category]].
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
