@@ -68,3 +68,6 @@ See also
 
 [[!redirects Bloch-Nordsieck theorem]]
 [[!redirects Bloch-Nordsieck method]]
+
+[[!redirects infrared cutoff]]
+[[!redirects infrared cutoffs]]
