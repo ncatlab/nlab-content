@@ -530,6 +530,12 @@ Other references are
 
 * [[Enrico Vitale]], _Localization of Algebraic Categories 2_ , JPAA **133** (1998) pp.317-326.
 
+Lawvere theories, and finitary monads, are identified with certain [[enriched categories]] and the passage from one to the other with a [[cocompletion]], in
+
+* [[Richard Garner]], *Lawvere theories, finitary monads and Cauchy-completion*, 2013, [arxiv](https://arxiv.org/abs/1307.2963)
+
+* [[Richard Garner]] and [[John Power]], *An enriched view on the extended finitary monad--Lawvere theory correspondence*, 2017, [arxiv](https://arxiv.org/abs/1707.08694)
+
 
 [[!redirects lawvere theory]]
 [[!redirects Lawvere theory]]
