@@ -3139,7 +3139,7 @@ where the first equality is by def. \ref{M2CoycleAndIIAStringCocycle}, the secon
 We discuss a close relation between _[[real spin representations and division algebras]]_,
 due to [Kugo-Townsend 82](#KugoTownsend82), [Sudbery 84](#Sudbery84) and others:
 The real spinor representations in dimensions $3,4,6, 10$ happen to have a particularly simple expression in terms of
-[[Hermitian matrices]] over the four real [[normed division algebras]]: the [[real numbers]] $\mathbb{R}$ themselves, the [[complex numbers]] $\mathbb{C}$, the [[quaternions]] $\mathbb{H}$ and the [[octonions]] $\mathbb{O}$.
+2-by-2 [[Hermitian matrices]] (generalized [[Pauli matrices]]) over the four real [[normed division algebras]]: the [[real numbers]] $\mathbb{R}$ themselves, the [[complex numbers]] $\mathbb{C}$, the [[quaternions]] $\mathbb{H}$ and the [[octonions]] $\mathbb{O}$.
 Derived from this also the real spinor representations in dimensions $4,5,7,11$ have a fairly simple corresponding expression.
 We follow the streamlined discussion in [Baez-Huerta 09](#BaezHuerta09) and [Baez-Huerta 10](#BaezHuerta10).
 
@@ -3677,7 +3677,7 @@ real [[alternative algebra|alternative]] [[division algebras]] from prop. \ref{Z
 
 +-- {: .num_prop #SpacetimeAsMatrices}
 ###### Proposition
-**([[Minkiwski spacetime]] via [[hermitian matrices]] in real [[normed division algebras]])** 
+**([[Minkowski spacetime]] via [[hermitian matrices]] in real [[normed division algebras]])** 
 
 Let $\mathbb{K}$ be one of the four real [[normed division algebras]] from prop. \ref{HurwitzTheorem}, hence one of the four
 real [[alternative algebra|alternative]] [[division algebras]] from prop. \ref{ZornTheorem}.
@@ -3913,7 +3913,7 @@ usual matrix product.
 
 +-- {: .num_prop #SpinorRepsByNormedDivisionAlgebra}
 ###### Proposition
-**([[real spinor representations]] via [[normed division algebras]])**
+**([[real spin representations]] via [[normed division algebras]])**
 
 The map $\Gamma$ in def. \ref{CliffordAlgebraInTermsOfNormedDivisionAlgebra} gives a [[representation]] of the [[Clifford algebra]]
 $Cl(\mathbb{R}^{dim_{\mathbb{R}}}(\mathbb{K}+1,1)  )$
@@ -4066,7 +4066,7 @@ by the Clifford representation of def. \ref{CliffordAlgebraInTermsOfNormedDivisi
 
 1. for $\mathbb{K} = \mathbb{H}$ the [[Weyl representation]] of $Spin(5,1)$ on $S_+$ and on $S_-$;
 
-1. for $\mathbb{K} = \mathbb{O}$ the [[[Majorana-Weyl representation]] of $Spin(9,1)$ on $S_+$ and on $S_-$.
+1. for $\mathbb{K} = \mathbb{O}$ the [[Majorana-Weyl representation]] of $Spin(9,1)$ on $S_+$ and on $S_-$.
 
 =--
 
