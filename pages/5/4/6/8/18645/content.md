@@ -65,7 +65,7 @@ the [[Dirac field]]:
 |---------------------------|------------------|-------------------------|------------------------|------------------|------|
 | [[real scalar field]] |  expl. \ref{RealScalarFieldBundle} |  expl. \ref{LagrangianForFreeScalarFieldOnMinkowskiSpacetime} | expl. \ref{FreeScalarFieldEOM} | none | expl. \ref{PoissonBracketForRealScalarField} |
 | [[electromagnetic field]] | expl. \ref{Electromagnetism} | expl. \ref{ElectromagnetismLagrangianDensity} | expl. \ref{ElectromagnetismEl}  | expl. \ref{NLGaugeFixingOfElectromagnetism} | ... |
-| [[Dirac field]] | expl. \ref{DiracFieldBundle}  | expl. \ref{LagrangianDensityForDiracField}  |  ...  |  ...  |  ...  |  ...  |
+| [[Dirac field]] | expl. \ref{DiracFieldBundle}  | expl. \ref{LagrangianDensityForDiracField}  |  expl. \ref{EquationOfMotionOfDiracFieldIsDiracEquation}  |  ...  |  ...  |  ...  |
 
 The [[electromagnetic field]] and the [[Dirac field]] combined are the [[field (physics)|fields]] of [[quantum electrodynamics]]
 which we turn to at the end [below](#QED).
@@ -1284,7 +1284,7 @@ $$
 Take the non-vanishing components of $\epsilon$ to be
 
 $$
-  \epsilon^{1 2} = \epsilon^{\dot 1 \dot 2} = \epsilon_{21} = \epsilon_{\dot 2 \dot 1} =  1$
+  \epsilon^{1 2} = \epsilon^{\dot 1 \dot 2} = \epsilon_{21} = \epsilon_{\dot 2 \dot 1} =  1
 $$
 
 and
@@ -1862,7 +1862,7 @@ A _[[diffeological space]]_ $X$ is
      \left(
        \mathbb{R}^{n_2} \overset{\Phi}{\longrightarrow} X
      \right)
-     \;\overet{f^\ast}{\mapsto}\;
+     \;\overset{f^\ast}{\mapsto}\;
      \left(
        \mathbb{R}^{n_1} \overset{f}{\to} \mathbb{R}^{n_2} \overset{f}{\to} X
      \right)
@@ -6317,6 +6317,7 @@ $$
 often abbreviated as
 
 $$
+  \label{KleinGordonEquation}
   (\Box + m^2) \Phi \;=\; 0
   \,.
 $$
@@ -6329,7 +6330,7 @@ vanishes, $m = 0$, then this is the _relativistic [[wave equation]]_.
 
 +-- {: .num_prop #MaxwellVacuumEquation}
 ###### Example
-**([[equations of motion]] of [[free field|free]] [[electromagnetism]] -- [[vacuum]] [[Maxwell equations]])**
+**([[equations of motion]] of [[vacuum]] [[electromagnetism]] are [[vacuum]] [[Maxwell's equations]])**
 
 Consider the [[Lagrangian field theory]] of [[free field|free]] [[electromagnetism]]
 on [[Minkowski spacetime]] from example \ref{ElectromagnetismLagrangianDensity}.
@@ -6365,6 +6366,56 @@ These [[PDEs]] are called the _[[vacuum]] [[Maxwell's equations]]_.
 
 =--
 
+
+
++-- {: .num_example #EquationOfMotionOfDiracFieldIsDiracEquation}
+###### Example
+**([[equation of motion]] of [[Dirac field]] is [[Dirac equation]])**
+
+Consider the [[Lagrangian field theory]] of the [[Dirac field]] 
+on [[Minkowski spacetime]] from example \ref{LagrangianDensityForDiracField},
+with [[field fiber]] the [[spin representation]] $S$ regarded as a [[superpoint]] $S_{odd}$ and 
+[[Lagrangian density]] given by the spinor bilinear pairing
+
+$$
+  L 
+   \;=\; 
+  i \overline{\psi} \gamma^\mu \partial_\mu \psi + m \overline{\psi}\psi
+  \,.
+$$
+
+
+The corresponding [[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]] (def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime}) is
+
+$$
+  \left(-i ^\gamma^\mu \partial_\mu + m\right)\psi \;=\; 0
+  \,.
+$$
+
+This is the _[[Dirac equation]]_.
+
+Observe that the "square" of the [[Dirac operator]] is the [[Klein-Gordon operator]] $\Box + m^2$ (eq:KleinGordonEquation)
+
+$$
+  \begin{aligned}
+    \left(
+      +i \gamma^\mu \partial_\mu + m
+    \right)
+    \left(-i \gamma^\mu \partial_\mu + m\right)\psi 
+    & 
+    =
+    \left(\partial_\mu \partial^\mu + m^2\right) \psi
+    \\
+    & =
+    \left(\Box + m^2\right) \psi
+  \end{aligned}
+  \,.
+$$
+
+This means that a [[Dirac field]] which solves the [[Dirac equations]] is
+in particular (on [[Minkowski spacetime]]) componentwise a solution to the [[Klein-Gordon equation]].
+
+=--
 
 +-- {: .num_prop #PrincipleOfExtremalAction}
 ###### Proposition
@@ -6566,7 +6617,7 @@ $$
 $$
 
 for the corresponding shell. It follows then that the restriction of the ring $\Omega^{0,0}_{\Sigma,cp}(E)$ of smooth functions
-on the jet bundle to the infinitesimal neighbourhood
+on the jet bundle to the [[infinitesimal neighbourhood]] (example \ref{InfinitesimalNeighbourhood})
 is equivalently the [[formal power series ring]] over $C^\infty_{cp}(\Sigma)$
 in the variables
 
