@@ -639,7 +639,7 @@ $$
 $$
 
 Here the first equation follows by inspection and using that $(a b)^\ast = b^\ast a^\ast$,
-the second follows from the first statement above, and the third is the ant-symmetry of the associator.
+the second follows from the first statement above, and the third is the anti-symmetry of the associator.
 
 =--
 
@@ -1223,10 +1223,10 @@ In the [[physics]]/[[QFT]] literature the expressions for [[spinors]] representa
 given by prop. \ref{SpinorRepsByNormedDivisionAlgebra} are traditionally written in
 "two-component spinor notation" (see for instance [Dermisek I-8](geometry+of+physics+--+supersymmetry#Dermisek)) as follows:
 
-* An element of $S_+$ is denoted $(\chi_a \in \mathbb{K})_{a = 1}^2$
+* An element of $S_+$ is denoted $(\chi_a \in \mathbb{K})_{a = 1,2}$
   and called a _left handed spinor_;
 
-* an element of $S_-$ is denoted $(\xi^{\dagger \dot a})_{\dot a = 1}^2$
+* an element of $S_-$ is denoted $(\xi^{\dagger \dot a})_{\dot a = 1,2}$
   and called a _right handed spinor_;
 
 * an element of $S = S_+ \oplus S_-$ is denoted $(\psi^a) = \left( (\chi_a), (\xi^{\dot a}) \right)$;
@@ -1468,10 +1468,9 @@ inclusion $\mathcal{O}_1 \subset \mathcal{O}_2$.
 ###### Definition
 **([[adiabatic switching]])**
 
-For a [[causally closed subset]] $\mathcal{O} \subset \Sigma$ of [[spacetime]] (def. \ref{CausalComplementOfSubsetOfLorentzianManifold}) say that an
-_[[adiabatic switching]] function_ or  _cutoff function_ for $\mathcal{O}$
+For a [[causally closed subset]] $\mathcal{O} \subset \Sigma$ of [[spacetime]] (def. \ref{CausalComplementOfSubsetOfLorentzianManifold}) say that an _[[adiabatic switching]] function_ or  _[[infrared cutoff]] function_ for $\mathcal{O}$
 is a [[smooth function]] $g_{sw}$ of [[compact support]] (a [[bump function]]) whose
-restriction to some [[neighbourhood]] of $\mathcal{O}$ is the [[constant function]]
+restriction to some [[neighbourhood]] $U$ of $\mathcal{O}$ is the [[constant function]]
 with value $1$:
 
 $$
@@ -1482,17 +1481,31 @@ $$
     \;\vert\;
     \underset{ {U \supset \mathcal{O}} \atop { \text{neighbourhood} } }{\exists}
     \left(
-      g_{sw}\vert_S = const_1
+      g_{sw}\vert_U = 1
     \right)
   \right\}
   \,.
 $$
 
-Often we consider the vctor space space $C^\infty(\Sigma)\langle g \rangle $ spanned by a formal
-variable $g$ under multiplication with smooth functions, and consider as adiabatic switching functions
-the corresponding images in this space, which are hence bump functions constant on $g$ over
-a neighbourhood of $\mathcal{O}$.
+Often we consider the vector space space $C^\infty(\Sigma)\langle g \rangle $ spanned by a formal
+variable $g$ (the [[coupling constant]]) under multiplication with smooth functions, and consider as adiabatic switching functions
+the corresponding images in this space, 
 
+$$
+  \array{
+     C^\infty(\Sigma) &\overset{\simeq}{\longrightarrow}& C^\infty(X)\langle g\rangle
+  }
+$$
+
+which are thus bump functions constant over a neighbourhood $U$ of $\mathcal{O}$ not on 1 but on 
+the formal parameter $g$:
+
+$$
+  g_{sw}\vert_U = g
+  \,
+$$
+
+In this sense we may think of the adiabatic switching as _being_ the spacetime-depependent coupling "constant".
 
 =--
 
@@ -1801,7 +1814,7 @@ This is called a field history for _[[Yang-Mills theory|Yang-Mills]] [[gauge the
 
 For $\mathfrak{g} = \mathbb{R}$ is the [[line Lie algebra]], this reduces to the case of the [[electromagnetic field]] (example \ref{Electromagnetism}).
 
-For $\mathfrak{g} = \mathfrak{su}(2)$ this is a [[field (physics)|field]] history for the [[gauge field]] of the [[strong nuclear force]] in [[quantum chromodynamics]].
+For $\mathfrak{g} = \mathfrak{su}(3)$ this is a [[field (physics)|field]] history for the [[gauge field]] of the [[strong nuclear force]] in [[quantum chromodynamics]].
 
 
 =--
@@ -2297,7 +2310,7 @@ Since there are of course more [[associative algebras|algebras]] $A \in \mathbb{
 this way from smooth manifolds, we may turn this around and try to regard any algebra $A$
 as _defining_ a would-be [[space]], which would have $A$ as its algebra of functions.
 
-For example an [[infinitesimally thickened point]] should be a space which is "so smal"
+For example an [[infinitesimally thickened point]] should be a space which is "so small"
 that every smooth function $f$  on it which vanishes at the origin takes values so
 tiny that some finite power of them is not just even more tiny, but actually vanishes:
 
@@ -2323,7 +2336,7 @@ $$
 
 More generally, an [[infinitesimally thickened manifold|infinitesimally thickened Cartesian space]]
 $\mathbb{R}^n \times Spec(A)$ is represented by a [[commutative algebra]]
-$C^\infty(\mathbb{R}^n) \otimes Spec(A) \in \mathbb{R} Alg$ which is the [[tensor product of algebras]] of the algebra of smooth functions
+$C^\infty(\mathbb{R}^n) \otimes A \in \mathbb{R} Alg$ which is the [[tensor product of algebras]] of the algebra of smooth functions
 $C^\infty(\mathbb{R}^n)$ on an actual [[Cartesian space]] of some [[dimension]] $n$, with an algebra of functions $A \simeq_{\mathbb{R}} \langle 1\rangle \oplus V$ of an infinitesimally thickened point, as above.
 
 We say that a smooth function between two [[infinitesimally thickened manifolds|infinitesimally thickened Cartesian spaces]]
@@ -2460,7 +2473,7 @@ $$
 
 is
 
-* for each infinitesimally thickened Cartesian space $\matbb{R}^n \times Spec(A)$ a function
+* for each infinitesimally thickened Cartesian space $\mathbb{R}^n \times Spec(A)$ a function
 
   $$
     f_\ast(\mathbb{R}^n \times Spec(A))
@@ -2569,7 +2582,7 @@ $$
   A \simeq_{\mathbb{R}} \langle 1 \rangle \oplus V
 $$
 
-of the 1-dimensional even vector sspace $\langle 1 \rangle = \mathbb{R}$ of multiples of 1 with
+of the 1-dimensional even vector space $\langle 1 \rangle = \mathbb{R}$ of multiples of 1 with
 a [[finite dimensional vector space|finite dimensional]]  $\mathbb{Z}/2$-[[super vector space|graded vector space]]
  $V$ that is a [[nilpotent ideal]] in that for
 each element $a \in V$ there exists a [[natural number]] $n \in \mathbb{N}$ such that
@@ -2579,9 +2592,9 @@ $$
   \,.
 $$
 
-More generally, an [[super Cartesian space]]
+More generally, a [[super Cartesian space]]
 $\mathbb{R}^n \times Spec(A)$ is represented by a [[super-commutative algebra]]
-$C^\infty(\mathbb{R}^n) \otimes Spec(A) \in \mathbb{R} Alg$ which is the [[tensor product of algebras]] of the algebra of smooth functions
+$C^\infty(\mathbb{R}^n) \otimes A \in \mathbb{R} Alg$ which is the [[tensor product of algebras]] of the algebra of smooth functions
 $C^\infty(\mathbb{R}^n)$ on an actual [[Cartesian space]] of some [[dimension]] $n$, with an algebra of functions $A \simeq_{\mathbb{R}} \langle 1\rangle \oplus V$ of a [[superpoint]], as above.
 
 We say that a smooth function between two [[super Cartesian spaces]]
@@ -2734,7 +2747,7 @@ $$
 
 is
 
-* for each [[super Cartesian space]] $\matbb{R}^n \times Spec(A)$ a function
+* for each [[super Cartesian space]] $\mathbb{R}^n \times Spec(A)$ a function
 
   $$
     f_\ast(\mathbb{R}^n \times Spec(A))
@@ -2829,7 +2842,7 @@ $$
 
 hence the [[field fiber]] is the [[superpoint]] $S_{odd}$.
 
-The traditional two-component spinor basis from remark \ref{TwoComponentSpinorNotation} 
+The traditional two-component spinor basis from remark \ref{TwoComponentSpinorNotation}
 provides field coordinates on the [[field fiber]] $S_{odd}$:
 
 $$
@@ -2839,16 +2852,16 @@ $$
    \;=\;
   \left(
      (\chi_a), (\xi^{\dagger \dot a})
-  \right)_{a,\dot a = 1}^2
+  \right)_{a,\dot a = 1,2}
   \,.
 $$
 
 Notice that these are $\mathbb{K}$-valued functions. For instance if $\mathbb{K} = \mathbb{C}$ then each $\chi_a$ in turn has
 two components, a real part and an imaginary part.
 
-A key point is now that $S_{odd}$ is a [[superpoint]], 
+A key point is now that $S_{odd}$ is a [[superpoint]],
 these are now odd-graded elements in the [[Grassmann algebra]] $\wedge^\bullet(S^\ast)$ and hence anti-commute
-with each other. 
+with each other.
 
 
 The corresponding [[space of field histories]] $\Gamma_\Sigma(\Sigma \times S_{odd})$ (example \ref{SupergeometricSpaceOfFieldHistories})
@@ -3930,7 +3943,7 @@ $$
   \end{aligned}
 $$
 
-Here the computation shown under the brace crucially uses that all these jet coordinates 
+Here the computation shown under the brace crucially uses that all these jet coordinates
 for the Dirac field are anti-commuting.
 
 Notice that a priori this is a function on the jet bundle with values in $\mathbb{K}$.
@@ -3938,7 +3951,7 @@ But in fact for $\mathbb{K} = \mathbb{C}$ it is real up to a [[total spacetime d
 
 $$
   \begin{aligned}
-    \left( 
+    \left(
       i \chi^\dagger \tilde \sigma^\mu  \partial_\mu\chi
     \right)
     & =
@@ -6372,14 +6385,14 @@ These [[PDEs]] are called the _[[vacuum]] [[Maxwell's equations]]_.
 ###### Example
 **([[equation of motion]] of [[Dirac field]] is [[Dirac equation]])**
 
-Consider the [[Lagrangian field theory]] of the [[Dirac field]] 
+Consider the [[Lagrangian field theory]] of the [[Dirac field]]
 on [[Minkowski spacetime]] from example \ref{LagrangianDensityForDiracField},
-with [[field fiber]] the [[spin representation]] $S$ regarded as a [[superpoint]] $S_{odd}$ and 
+with [[field fiber]] the [[spin representation]] $S$ regarded as a [[superpoint]] $S_{odd}$ and
 [[Lagrangian density]] given by the spinor bilinear pairing
 
 $$
-  L 
-   \;=\; 
+  L
+   \;=\;
   i \overline{\psi} \gamma^\mu \partial_\mu \psi + m \overline{\psi}\psi
   \,.
 $$
@@ -6401,8 +6414,8 @@ $$
     \left(
       +i \gamma^\mu \partial_\mu + m
     \right)
-    \left(-i \gamma^\mu \partial_\mu + m\right)\psi 
-    & 
+    \left(-i \gamma^\mu \partial_\mu + m\right)\psi
+    &
     =
     \left(\partial_\mu \partial^\mu + m^2\right) \psi
     \\
