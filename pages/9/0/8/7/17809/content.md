@@ -3976,8 +3976,7 @@ $$
         y^\ast & x_0 - x_1
       }
     \right)
-    \\
-    & =
+      \cdot
     \left(
       \array{
         (-x_0 + x_1) \phi_1 + y \phi_2
@@ -5350,7 +5349,7 @@ $$
 The condition that the new bracket $[-,-]_{\mu_2}$ satisfies the super [[Jacobi identity]]
 is equivalent to the cocycle condition on $\mu_2$.
 
-Now in the case that $\mathfrak{g} = \mathbb{R}^{0\vert q}$, then the cocycle condition is trivial and a 2-cocycle is just a _symmetric_ [[bilinear form]] on the $q$ fermionic dimensions.
+Now in the case that $\mathfrak{g} = \mathbb{R}^{0\vert q}$, then the cocycle condition is trivial and a 2-cocycle is just a _symmetric_ [[bilinear form] on the $q$ fermionic dimensions.
 
 So in the case $\mathfrak{g} = \mathbb{R}^{0\vert 1}$ there is a unique such, up to scale, namely
 
@@ -5572,7 +5571,7 @@ Discussion specifically of (real, [[Majorana representation|Majorana]]) [[spin r
 
 * {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], section II.7.3 of _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
 
-* {#FigueroaOFarrill} [[José Figueroa-O'Farrill]], _Majorana spinors_ ([pdf](http://www.maths.ed.ac.uk/~jmf/Teaching/Lectures/Majorana.pdf))
+* {#FigueroaOFarrill} [[José Figueroa-O?Farrill]], _Majorana spinors_ ([pdf](http://www.maths.ed.ac.uk/~jmf/Teaching/Lectures/Majorana.pdf))
 
 
 The relation between [[supersymmetry and division algebras]] was gradually established by a variety of authors, including
