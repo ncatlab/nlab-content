@@ -125,7 +125,7 @@ $$ x : Id_N(0,1)  \vdash  5 : N \to N $$
 
 * [[UF-IAS-2012]], _[Meaning Explanations](http://uf-ias-2012.wikispaces.com/Meaning+Explanations)_
 
-* {#Sterling15} [[Jon Sterling]], _Type theory and its Meaning Explanations_ , 2015 ([video recording](https://youtu.be/xMAqniX2Paw?list=PLE7tQUdRKcybh21_zOg8_y4f2oMKDHpUS)). 
+* {#Sterling15} [[Jon Sterling]], _Type theory and its Meaning Explanations_ , 2015 ([video recording](https://youtu.be/xMAqniX2Paw)). 
 
 > Note that the explanation of functionality in this video is incorrect, but is corrected in the accompanying notes [Sterling 17](#Sterling17):
 
