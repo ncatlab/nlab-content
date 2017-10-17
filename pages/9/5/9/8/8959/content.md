@@ -125,13 +125,15 @@ $$ x : Id_N(0,1)  \vdash  5 : N \to N $$
 
 * [[UF-IAS-2012]], _[Meaning Explanations](http://uf-ias-2012.wikispaces.com/Meaning+Explanations)_
 
-* Jon Sterling, _Type theory and its Meaning Explanations_ , 2015 ([video recording](https://youtu.be/xMAqniX2Paw?list=PLE7tQUdRKcybh21_zOg8_y4f2oMKDHpUS)). Note that the explanation of functionality in this video is incorrect, but is corrected in the accompanying notes below.
+* {#Sterling15} [[Jon Sterling]], _Type theory and its Meaning Explanations_ , 2015 ([video recording](https://youtu.be/xMAqniX2Paw?list=PLE7tQUdRKcybh21_zOg8_y4f2oMKDHpUS)). 
 
-* [[Jon Sterling]], _Type theory and its meaning explanations_, ([pdf](http://www.jonmsterling.com/pdfs/meaning-explanations.pdf))
+> Note that the explanation of functionality in this video is incorrect, but is corrected in the accompanying notes [Sterling 17](#Sterling17):
+
+* {#Sterling17} [[Jon Sterling]], _Type theory and its meaning explanations_, 2017 ([pdf](http://www.jonmsterling.com/pdfs/meaning-explanations.pdf))
 
 Proposal for [[homotopy type theory]]:
 
-* {#Tsementzis17} Dimitris Tsementzis, _A Meaning Explanation for HoTT_ ([philsci-archive.pitt.edu/12824](http://philsci-archive.pitt.edu/12824/)))
+* {#Tsementzis17} [[Dimitris Tsementzis]], _A Meaning Explanation for HoTT_ ([philsci-archive.pitt.edu/12824](http://philsci-archive.pitt.edu/12824/)))
 
 [[!redirects meaning explanation]]
 [[!redirects meaning explanations]]
