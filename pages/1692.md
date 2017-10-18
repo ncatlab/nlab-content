@@ -1,3 +1,15 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Monoidal categories
++--{: .hide}
+[[!include monoidal categories - contents]]
+=--
+=--
+=--
+
+
 # The Chu construction
 
 * table of contents
@@ -5,7 +17,7 @@
 
 ## Idea
 
-The Chu construction is a general method for constructing a [[star-autonomous category]] from a [[closed monoidal category|closed symmetric monoidal category]]. It is named after Po-Hsiang Chu, a student of [[Michael Barr]], who gave the construction in his master's thesis at McGill University. It has been extensively developed by [[Vaughan Pratt]] for its potential applications in Theoretical Computer Science.
+In [[category theory]], the _Chu construction_ is a general method for constructing a [[star-autonomous category]] from a [[closed monoidal category|closed symmetric monoidal category]]. It is named after Po-Hsiang Chu, a student of [[Michael Barr]], who gave the construction in his master's thesis at McGill University. It has been extensively developed by [[Vaughan Pratt]] for its potential applications in [[computer science|Theoretical Computer Science]].
 
 In outline, given a closed symmetric monoidal category $C$ with [[pullback]]s and an object $d$ of $C$, there is a star-autonomous category $Chu(C, d)$ and a strong symmetric monoidal functor 
 
@@ -173,7 +185,7 @@ One of the simplest occurrences of Chu space constructions, and the one explored
 
 ## References ##
 
-* A nice post by Todd Trimble on the <a href="http://golem.ph.utexas.edu/category/2007/09/category_theory_in_machine_lea.html#c012536">n-Cafe</a>.
+* A nice post by [[Todd Trimble]] on the <a href="http://golem.ph.utexas.edu/category/2007/09/category_theory_in_machine_lea.html#c012536">n-Cafe</a>.
 * Pratt, [Chu Spaces](http://boole.stanford.edu/pub/coimbra.pdf)
 * [[Michael Barr]], [The Chu construction: history of an idea](http://www.math.mcgill.ca/barr/papers/chu-hist.pdf), in TAC 17 (2006-2007), special volume, _Chu spaces: theory and applications_.
 * [Guide to Papers on Chu spaces](http://chu.stanford.edu/guide.html)
