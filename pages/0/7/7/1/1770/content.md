@@ -152,6 +152,8 @@ The topos of smooth space is
 
 * hence a [[cohesive topos]] (discussed [here](http://ncatlab.org/nlab/show/diffeological+space#Cohesiveness)).
 
+
+
 ### Topos points and stalks
 
 +-- {: .num_lemma }
@@ -188,6 +190,11 @@ they are given by the
 $D^n$ for $n \in \mathbb{N}$.
 
 =--
+
+### Distribution theory
+
+Since a space of [[smooth functions]] on a [[smooth manifold]] is canonically a smooth set, it is natural to consider the _smooth_ [[linear functionals]] on such [[mapping spaces]]. These turn out to be equivalent to the [[continuous linear functionals]], hence to [[distributional densities]]. See at _[[distributions are the smooth linear functionals]]_ for details.
+
 
 ## Variants and generalizations
  {#VariantsAndGeneralizations}
