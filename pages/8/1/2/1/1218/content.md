@@ -465,6 +465,9 @@ $$
 
 into the [[(∞,1)-topos]] [[Smooth∞Grpd]] of "higher [[smooth spaces]]" --[[smooth ∞-groupoids]] -- as precisely the [[truncated object in an (∞,1)-category|0-truncated objects]].
 
+### Distribution theory
+
+Since a space of [[smooth functions]] on a [[smooth manifold]] is canonically a diffeological space, it is natural to consider the _smooth_ [[linear functionals]] on such [[mapping spaces]]. These turn out to be equivalent to the [[continuous linear functionals]], hence to [[distributional densities]]. See at _[[distributions are the smooth linear functionals]]_ for details.
 
 ## Related concepts
 
