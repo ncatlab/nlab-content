@@ -35,7 +35,7 @@ A **pre-duploid** $\mathcal{D}$ consists of
 4. for every object $A$ an morphism $id_A \in \mathcal{D}(A,A)$ that is the identity with respect to composition.
 5. For every $f \in \mathcal{D}(A,B), g \in \mathcal{D}(B,C), h \in \mathcal{D}(C,D)$, an associative law $h \odot (g \odot f) = (h \odot g) \odot f$ when $B$ is negative or $C$ is positive.
 
-Note that when restricted to positive objects or negative objects, composition and identities form a category, written $\mathcal{P}$ and $\mathcal{N}$. When the polarity is known we write positive objects as $L,M,N$ and negative objects as $P,Q,R$. We call composition where the middle object is positive "positive composition" or "by-value composition" and notate it as $g \bullet f$ and when the middle object is negative we call it "negative composition" or "by-name composition" and notate it as $g \circ f$.
+Note that when restricted to positive objects or negative objects, composition and identities form a category, written $\mathcal{P}$ and $\mathcal{N}$. When the polarity is known we write positive objects as $P,Q,R$ and negative objects as $L,M,N$. We call composition where the middle object is positive "positive composition" or "by-value composition" and notate it as $g \bullet f$ and when the middle object is negative we call it "negative composition" or "by-name composition" and notate it as $g \circ f$.
 Then the associativity laws can be restated as:
 
 1. $\bullet\bullet$: $f \bullet (g \bullet h)  = (f \bullet g) \bullet h$
@@ -68,7 +68,7 @@ In light of the definition of linear and thunkable morphisms, these identities a
 
 ## Linear and Thunkable Morphisms
 
-Just as thunkable morphisms can be defined in a [[thunk-force category]] and linear morphisms can be defined in a category with a [[runnable monad]], they can be defined in a duploid in  a similar way using the thunk and run morphisms.
+Just as thunkable morphisms can be defined in a [[thunk-force category]] and linear morphisms can be defined in a category with a [[runnable monad]], they can be defined in a duploid in  a similar way using $delay_P$ in place of the thunk and $unwrap_N$ in place of the run morphism.
 However, thunkable and linear morphisms can also be defined in a _pre-duploid_, giving a simple characterization just in terms of associativity of composition.
 
 A morphism $f$ is **thunkable** if for all compatible $g,h$,
@@ -108,10 +108,10 @@ and identities are given by the identities/unit and counit of the adjunction:
 $$\id_P : O(P, F P) \equiv C_-(F P,F P)$$
 $$\id_N : O(G N, N) \equiv C_+(G N,G N)$$
 
-To define composition of $f \in \mathcal{D}(A,B), g \in \mathcal{D}(B,C)$, we inspect $B$. If $B = P$ is positive, composition is interpreted as composition in $C_-$, using 
+To define composition of $f \in \mathcal{D}(A,B), g \in \mathcal{D}(B,C)$, we inspect $B$. If $B = P$ is positive, composition is interpreted as composition in $C_-$, or equivalently in the [[Kleisli category]] of $GF$, using 
 $$f \in O(A^+,F P) \cong C_-(F A^+, F P)$$
 $$g \in O(P, C^-) \cong C_-(F P, C^-)$$
-and similarly if $B = N$ is negative, composition is interpreted as composition in $C_+$, using
+and similarly if $B = N$ is negative, composition is interpreted as composition in $C_+$, or equivalently in the [[Kleisli category]] of $FG$, using
 $$f \in O(A^+,N) \cong C_+(A^+, G N)$$
 $$g \in O(G N, C^-) \cong C_+(G N, G C^-)$$
 
