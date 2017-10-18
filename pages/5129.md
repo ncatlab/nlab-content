@@ -9,7 +9,7 @@
 
 The term 'shuffle' conjures up the idea of shuffling a pack of cards. In fact the mathematical idea is nearer to shuffling two packs of cards one through the other. Suppose we have a pack of $p$ cards and a pack of $q$ cards and we build a pack of $p+q$ cards, whilst retaining the order on the two 'sub-packs'.  The result is a $(p,q)$-shuffle. 
 
-##Definition
+##Definitions
 
 ###Shuffles
 
@@ -39,6 +39,17 @@ The **signature** of a $(p,q)$-shuffle is the [[signature of a permutation|signa
 
 =--
 
+###Equivalent characterizations
+
+Here are a few other equivalent ways of defining the notion of $(p,q)$-shuffle:
+
+* Consider $p$ and $q$ as the [[linear order]]s $\mathbf{p} = \{ 0 \lt \dots \lt p \}$ and $\mathbf{q} = \{ 0 \lt \dots \lt q \}$. Then a $(p,q)$-shuffle is a way of extending the [[partial order]] on the [[coproduct]] $\mathbf{p} + \mathbf{q}$ to a linear order, or equivalently, a [[surjective]] [[monotone function]]
+$$\mathbf{p} + \mathbf{q} \to \mathbf{r}$$
+where $r = p + q$.
+* Consider $p$ and $q$ as [[non-empty]] linear orders $[p] = \{ 0 \le \dots \le p \}$ and $[q] = \{ 0 \le \dots \le q \}$. Then a $(p,q)$-shuffle is a [[maximal chain]] within the [[product]] partial order $[p] \times [q]$, or equivalently, an [[injective]] monotone function
+$$[r] \to [p] \times [q]$$
+where $r = p + q$.
+
 ### Unshuffles 
 
 The same concept viewed from the other end leads to _unshuffles_ .  These are just shuffles but are used in dual situations in the applications. The definition that follows is 'from the literature'. It is equivalent to that of shuffle that we gave above. (Although not needed, it is important to note the different terminology used in certain applications of the idea for when original source material is consulted.)
@@ -49,7 +60,6 @@ The same concept viewed from the other end leads to _unshuffles_ .  These are ju
 We say that a permutation $\sigma\in S_n$ is a $(j,n-j)$-unshuffle, $o\leq j\leq n$ if $\sigma(1)\lt \ldots \sigma(j)$ and $\sigma(j+1)\lt \ldots \lt \sigma(n)$.
 =--
 You can also say that $\sigma$ is a $(j,n-j)$-unshuffle if $\sigma(i) \lt \sigma(i+1)$ when $i\neq j$.
-
 
 ## Applications 
 
@@ -72,6 +82,10 @@ Shuffles are also used for defining the shuffle product on $T(V)$, see [[differe
 
 In the definition of [[L-∞ algebras]]
 the _unshuffle_ side of shuffles is used.
+
+## References
+
+* {#HoffbeckMoerdijk} Eric Hoffbeck and [[Ieke Moerdijk]], _Shuffles of trees_, ([arXiv:1705.03638](https://arxiv.org/abs/1705.03638)).
 
 [[!redirects shuffles]]
 [[!redirects unshuffle]]
