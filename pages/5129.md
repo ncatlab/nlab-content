@@ -83,9 +83,13 @@ Shuffles are also used for defining the shuffle product on $T(V)$, see [[differe
 In the definition of [[L-∞ algebras]]
 the _unshuffle_ side of shuffles is used.
 
+## Related concepts
+
+* [[shuffles of trees]]
+
 ## References
 
-* {#HoffbeckMoerdijk} Eric Hoffbeck and [[Ieke Moerdijk]], _Shuffles of trees_, ([arXiv:1705.03638](https://arxiv.org/abs/1705.03638)).
+(...)
 
 [[!redirects shuffles]]
 [[!redirects unshuffle]]
