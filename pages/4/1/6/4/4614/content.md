@@ -360,7 +360,7 @@ $$
 
 =--
 
-A direct proof of this (not using that good implies proper) appears as ([Segal74, prop. A.1 (iv)](#Segal74)) and a more detailed proof has been given by Tammo tom Dieck.
+A direct proof of this (not using that good implies proper) appears as ([Segal74, prop. A.1 (iv)](#Segal74)) and a more detailed proof has been given by Tammo tom Dieck. A recent paper treating the special case where $X_\bullet$ is the nerve of a [[topological category]], and each $X_n$ is of the [[homotopy type]] of a [[CW-complex]], is in ([Wang 2017](#Wang17)).
 
 ### Compatibility with limits
 
@@ -924,6 +924,11 @@ The definition of _good_ simplicial topological spaces goes back to
 An original reference on geometric realization of simplicial topological spaces is is appendix A of
 
 * {#Segal74} [[Graeme Segal]], _[[SegalCategoriesAndCohomologyTheories.pdf:file]]_ Topology, 13:293&#8211;312, 1974 
+
+
+A proof that ordinary and fat geometric realisation give homotopic spaces, for the special case of the nerve of a topological category is in
+
+* {#Wang2017} Yi-Sheng Wang, _Fat realization and Segal's classifying space_, arXiv:[1710.03796](https://arxiv.org/abs/1710.03796)
 
 
 A standard textbook reference is chapter 11 of
