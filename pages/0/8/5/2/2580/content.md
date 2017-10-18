@@ -70,7 +70,7 @@ Then we consider the axiomatic reformulation in terms of [[monads]] following [K
 * [Characterization by monads](#CharacterizationByMonads)
 
 
-### Traditional definition
+### As continuous linear functionals
  {#TraditionalDefinition}
 
 Distributions come in various flavors, depending on what spaces of functions they act on. The functions they act on are called **test functions**; typically they are smooth functions on domains in Euclidean space satisfying some boundedness property. 
@@ -224,12 +224,16 @@ Let $X$ be a [[smooth manifold]]. Then a distribution on $X$ is an [[equivalence
 ([H&#246;rmander 90, def. 6.3.3](#Hoermander90))
 
 
-### Characterization by monads
+### As smooth linear functionals
  {#CharacterizationByMonads}
 
-(...) [Kock 11](#Kock11) (...)
+Since [[smooth functions]] on [[smooth manifolds]] are the subject of [[differential geometry]], and since spaces of [[smooth functions]] are naturally themselves [[generalized smooth spaces]], it makes sense to ask whether distribution theory is actually a native topic to [[differential geometry]].
 
+In particular we may ask how distributions in the [[functional analysis|functional analytic]] sense relate to the _smooth linear functions_ on smooth spaces of smooth functions. Indeed, with respect to the natural formulation of differential geometry via [[functorial geometry]] ([[topos theory]]) in terms of [[diffeological spaces]], [[smooth sets]] etc. it turns out that distributional densities are equivalently the smooth linear functionals on smooth spaces of smooth functions.
 
+This is discussed at 
+
+* _[[distributions are the smooth linear functionals]]_.
 
 ## Operations on distributions 
 
@@ -461,7 +465,7 @@ References on [[Colombeau algebra]] include
 ### In terms of smooth toposes
  {#InTermsOfSmoothToposes}
 
-Discussion of distributions in terms morphisms out of [[internal homs]] in a [[smooth topos]] is in
+Discussion of distributions in terms morphisms out of [[internal homs]] in a [[smooth topos]] ([[distributions are the smooth linear functionals]]) is in
 
 * {#MoerdijkReyes91} [[Ieke Moerdijk]], [[Gonzalo Reyes]], around prop. 3.6 of _[[Models for Smooth Infinitesimal Analysis]]_, Springer 1991
 
