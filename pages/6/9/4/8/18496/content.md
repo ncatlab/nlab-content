@@ -24,6 +24,156 @@ This implies that compactly supported distributions may be evaluated not just on
 
 Therefore and since Schwartz's notation for the space $C^\infty(X)$ of all smooth functions on the given [[smooth manifold]] is $\mathcal{E}(X)$, the space of compactly supported distributions is often denoted by $\mathcal{E}'(X)$ ([H&#246;rmander 90, p. 45](#Hoermander90)).
 
+## Definition
+
+### A continuous linear duals to smooth functions
+
+
++-- {: .num_defn #TVSOfCompactlySupportedFunctions}
+###### Definition
+**([[topological vector space]] of [[smooth functions]] on a [[Cartesian space]])**
+
+For $n \in \mathbb{R}^n$,  write $C^\infty(\mathbb{R}^n)$ for the $\mathbb{R}$-[[vector space]] of [[smooth functions]] $\mathbb{R}^n \to \mathbb{R}$.
+
+This becomes a [[Fréchet space]] induced by the family of [[seminorms]] 
+$$
+  \array{
+    C^\infty_c(\mathbb{R}^n) 
+     &\overset{p_{K}^\alpha}{\longrightarrow}&
+    [0,\infty)
+    \\
+    \Phi &\mapsto& \underset{x \in K}{sup} {\vert \partial^\alpha \Phi(x) \vert}
+  }
+$$
+
+indexed by a [[countable set]] of [[compact subspaces]] $K \subset \mathbb{R}^n$ exhausting $\mathbb{R}^n$ and by a [[tuple]] $\alpha \in \mathbb{N}^n$ and give by sending a [[bump function]] $\Phi$ to the [[supremum]] over the points $x \in K$ of the [[absolute value]] of the [[partial derivative]] of $\Phi$ that is indexed by $\alpha$.
+
+We write
+
+$$
+  \mathcal{E}(\mathbb{R}^n) \in TopVect_{\mathbb{R}}
+$$
+
+for the resulting [[topological vector space]].
+
+=--
+
+
++-- {: .num_defn #CompactlySupportedDistributionsAsContinuousLinearDualsToBumpFunctions}
+###### Definition
+**(compactly supported distibutions as continuous linear duals to bump functions)**
+
+The space $\mathbb{E}'(\mathbb{R}^n)$ of _compactly supported distributions_ on $\mathbb{R}^n$ is the [[dual space]]
+
+$$
+  \mathcal{E}'(\mathbb{R}^n) \;\coloneqq\; \left(\mathcal{E}(\mathbb{R}^n)\right)^\ast
+$$
+
+to the [[topological vector space]] of [[bump functions]] from def. \ref{TVSOfCompactlySupportedFunctions}.
+
+
+=--
+
+e.g. ([Klainerman 08, p. 9](#Klainerman08))
+
+
+### As smooth linear duals to smooth functions
+ {#AsSmoothLinearDuals}
+
+Given that [[distributions]] are concerned with _[[smooth functions]]_ it is sometimes more natural to regard them not as [[continuous linear functionals]] as in def. \ref{CompactlySupportedDistributionsAsContinuousLinearDualsToBumpFunctions}, but as _smooth linear functionals_. Indeed this turns out to be equivalent (prop. \ref{CompactlySupportedDistributionsAreTheSmoothLinearFunctionals} below), if one considers an ambient context of suitably [[generalized smooth spaces]], namely [[diffeological spaces]] or more generally [[smooth sets]] or [[formal smooth sets]]. We will write $\mathbf{H}$ for any of these [[categories]] of [[generalized smooth spaces]].
+
+We may canonially regard any [[smooth manifold]] such as the [[Cartesian space]] $\mathbb{R}^n$ as an object of $\mathbf{H}$. For $X \in \mathbf{H}$ any object, we write $[X,\mathbb{R}]$ for the [[mapping space]] (the [[internal hom]]). The underlying set is $C^\infty(X)$. If $X$ itself has $\mathbb{R}$-linear structure, we write 
+
+$$
+  [X,\mathbb{R}]_{\mathbb{R}}
+  \hookrightarrow
+  [[X,\mathbb{R}], \mathbb{R}]
+$$
+
+for the [[subobject]] of $\mathbb{R}$-linear maps. 
+
+Concretely, for $U$ a [[smooth manifold]] (or just a [[Cartesian space]]), then the [[sheaf]] $[X,\mathbb{R}]$ assigns (see at _[[closed monoidal structure on presheaves]]_ for details)
+
+$$
+  [X,\mathbb{R}](U) = C^\infty(U \times X)
+$$
+
+and $[X,\mathbb{R}](U) \subset C^\infty(U \times X)$ is the subset of those functions $\Phi_{(-)}(-)$ such that for all $u \in U$ the function $\Phi_u \colon X \to \mathbb{R}$ is $\mathbb{R}$-linear. The [[global elements]] $\Gamma(-)$ of the [[mapping space]] constitute the ordinary [[hom set]]
+
+$$
+  \Gamma [X,\mathbb{R}] \simeq \mathbf{H}(X,\mathbb{R})
+  \,.
+$$
+
++-- {: .num_prop #CompactlySupportedDistributionsAreTheSmoothLinearFunctionals}
+###### Proposition
+**([[compactly supported distributions are the smooth linear functionals]])**
+
+For $n \in \mathbb{N}$, there is a [[natural bijection]] between the underlying sets of compactly supported distributions on $\mathbb{R}^n$ (def. \ref{CompactlySupportedDistributionsAsContinuousLinearDualsToBumpFunctions}) and the $\mathbb{R}$-linear [[mapping space]] formed in the [[category]] $\mathbf{H}$ of either [[diffeological space]] or [[smooth sets]] or [[formal smooth sets]]:
+
+$$
+  \widetilde{(-)}
+  \;\colon\;
+  \mathcal{E}'(\mathbb{R}^n)
+    \overset{\simeq}{\longrightarrow}
+  \mathbf{H}([\mathbb{R}^n, \mathbb{R}], \mathbb{R})_{\mathbb{R}}
+$$
+
+given by sending $\mu \in \mathcal{E}'(\mathbb{R}^n)$ to the [[natural transformation]] which on a test space $U \in $ [[CartSp]] takes a smoothly $U$-parameterized function $\Phi_{(-)}(-) \colon U \times \mathbb{R}^n \to \mathbb{R}$ to its evaluation in $\mu$ pointwise in $U$:
+
+$$
+  \tilde \mu(\Phi_{(-)})(u)
+  \;\coloneqq\;
+  \langle \mu, \Phi_{u}\rangle
+  \,.
+$$
+
+=--
+
+([Moerdijk-Reyes 91, chapter II, prop. 3.6](#MoerdijkReyes91))
+
+
++-- {: .proof}
+###### Proof
+
+First consider this for the case that $\mathbf{H} = $ [[SmoothSet]] (which immediately subsumes the case that $\mathbf{H} =$ [[diffeological space|DiffelogicaSpace]]).
+
+To see that $\widetilde{(-)}$ is well defined, we need to check that the function
+
+$$
+  \array{
+     U 
+     &\overset{
+     \tilde \mu(\Phi_{(-)})}{\longrightarrow}&
+     \mathbb{R}
+     \\
+     u &\mapsto& \langle \mu, \Phi_u\rangle
+  }
+$$
+
+is [[smooth function|smooth]]. But this follows immediately since $\langle \mu,-\rangle$ by definition is [[linear function|linear]] and [[continuous function|continuous]].
+
+
+To see that $\widetilde{(-)}$ is indeed a [[bijection]] for each $U$ it remains that every $\mathbb{R}$-linear smooth functional (morphisms of [[smooth sets]]) of the form
+
+$$
+  A \;\colon\; [\mathbb{R}^n,\mathbb{R}] \longrightarrow \mathbb{R}
+$$
+
+when restricted on [[global elements]] to a [[function]] of sets
+
+$$
+  A(\ast) \;\colon\; C^\infty(\mathbb{R}^n) \longrightarrow \mathbb{R}
+$$
+
+is [[continuous function|continuous]] with respect to the [[topological vector space]] structure from def. \ref{TVSOfCompactlySupportedFunctions} on the left.
+
+Now by definition of the [[internal hom]] $A$ is actually "path-smooth" ([this def.](Frechet+space#PathSmoothFunction)) and hence the statement is implied by [this prop](Frechet+space#PathSmoothLinearFunctionsOnFrechetSpaceAreContinuous).
+
+Finally to see that this argument generalizes to $\mathbf{H} = $ [[formal smooth set|FormalSmoothSet]] observe that the [[Weil algebra]] of every [[infinitesimally thickened point]] is a [[quotient ring]] of an algebra of smooth functions on some [[Cartesian space]] (by the [[Hadamard lemma]]). The previous argument now applies to representatives under this quotient coprojection and one checks that it is independent of the representative chosen.
+
+=--
+
 ## Examples
 
 * [[microcausal functional]]
@@ -40,16 +190,22 @@ Therefore and since Schwartz's notation for the space $C^\infty(X)$ of all smoot
 
 ### Traditional
 
+Textbook accounts include
+
 * {#Hoermander90} [[Lars Hörmander]], section 2.3 of _The analysis of linear partial differential operators_, vol. I, Springer 1983, 1990
+
+Lecture notes include
+
+* {#Klainerman08} [[Sergiu Klainerman]], _Analysis_ 2008 ([pdf](https://web.math.princeton.edu/~seri/homepage/courses/Analysis2008.pdf))
+
 
 ### In terms of smooth toposes
 
-
 Discussion of compactly supported distributions in terms morphisms out of [[internal homs]] in a [[smooth topos]] is in
 
-* {#MoerdijkReyes91} [[Ieke Moerdijk]], [[Gonzalo Reyes]], around prop. 3.6 of _[[Models for Smooth Infinitesimal Analysis]]_, Springer 1991
+* {#MoerdijkReyes91} [[Ieke Moerdijk]], [[Gonzalo Reyes]], around prop. 3.6 in chapter II of _[[Models for Smooth Infinitesimal Analysis]]_, Springer 1991
 
-and for the [[Cahiers topos]] in
+and specifically for the [[Cahiers topos]] of [[formal smooth sets]] in
 
 * {#KockReyes03} [[Anders Kock]], [[Gonzalo Reyes]], _Some calculus with extensive quantities: wave equation_, Theory and Applications of Categories , Vol. 11, 2003, No. 14, pp 321-336 ([TAC](http://www.tac.mta.ca/tac/volumes/11/14/11-14abs.html))
 
