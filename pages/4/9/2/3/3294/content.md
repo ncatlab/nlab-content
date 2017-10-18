@@ -224,6 +224,8 @@ Let $V$ be a Fr&#233;chet vector space. Then every path-smooth linear function o
 
 ([Moerdijk-Reyes 91, chapter II, lemma 3.7](#MoerdijkReyes91))
 
+Prop. \ref{PathSmoothLinearFunctionsOnFrechetSpaceAreContinuous} implies for instance that _[[distributions are the smooth linear functionals]]_. See there for more.
+
 
 ## Differentiable and smooth functions
  {#DifferentiableAndSmoothFunctions}
