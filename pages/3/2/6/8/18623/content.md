@@ -83,3 +83,6 @@ The observation that these algebras are the [[formal deformation quantization]] 
 
 [[!redirects interacting field algebra]]
 [[!redirects interacting field algebras]]
+
+[[!redirects interacting observable algebra]]
+[[!redirects interacting observable algebras]]
