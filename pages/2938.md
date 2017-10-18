@@ -166,6 +166,10 @@ Standard textbook references include
 
 * [[Victor Ginzburg]], _Lectures on noncommutative geometry_ ([arXiv:math/0506603](http://arxiv.org/abs/math.AG/0506603)) section 4, Theorem 9.1.3
 
+Discussion in [[positive number|positive]] [[characteristic]] is in
+
+* {#AntieauVezzosi17} [[Benjamin Antieau]], [[Gabriele Vezzosi]], _A remark on the Hochschild-Kostant-Rosenberg theorem in characteristic $p$_ ([arXiv:1710.06039](https://arxiv.org/abs/1710.06039))
+
 A new approach to the generalized HKR isomorphism is proposed in 
 
 * Dima Arinkin, Andrei Caldararu, _When is the self-intersection of a subvariety a fibration?_, [arxiv/1007.1671](http://arxiv.org/abs/1007.1671)
