@@ -176,6 +176,7 @@ One of the simplest occurrences of Chu space constructions, and the one explored
 * A nice post by Todd Trimble on the <a href="http://golem.ph.utexas.edu/category/2007/09/category_theory_in_machine_lea.html#c012536">n-Cafe</a>.
 * Pratt, [Chu Spaces](http://boole.stanford.edu/pub/coimbra.pdf)
 * [[Michael Barr]], [The Chu construction: history of an idea](http://www.math.mcgill.ca/barr/papers/chu-hist.pdf), in TAC 17 (2006-2007), special volume, _Chu spaces: theory and applications_.
+* [Guide to Papers on Chu spaces](http://chu.stanford.edu/guide.html)
 
 category: category
 
