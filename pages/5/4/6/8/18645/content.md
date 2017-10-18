@@ -1477,7 +1477,7 @@ $$
   Cutoffs(\mathcal{O})
   \;\coloneqq\;
   \left\{
-    g_{sw} \in \mathcal{C}^\infty_c(\Sigma)
+    g_{sw} \in C^\infty_c(\Sigma)
     \;\vert\;
     \underset{ {U \supset \mathcal{O}} \atop { \text{neighbourhood} } }{\exists}
     \left(
@@ -1493,7 +1493,7 @@ the corresponding images in this space,
 
 $$
   \array{
-     C^\infty(\Sigma) &\overset{\simeq}{\longrightarrow}& C^\infty(X)\langle g\rangle
+     C_c^\infty(\Sigma) &\overset{\simeq}{\longrightarrow}& C_c^\infty(X)\langle g\rangle
   }
 $$
 
@@ -3691,7 +3691,7 @@ There is not much to say about the 0-forms, but the [[Lagrangian densities]] $\m
 from their special position in the [[variational bicomplex]].
 
 Their [[variational derivative]]
-uniquely decomposes as 1) the _[[Euler-Lagrange derivative]]_ $\delta_{EL}\mathbf{EL}$ which is proportional to the variation of the fields
+uniquely decomposes as 1) the _[[Euler-Lagrange derivative]]_ $\delta_{EL} \mathbf{L}$ which is proportional to the variation of the fields
 (instead of their derivatives) and 2) the [[total derivative|total spacetime derivative]] $d \Theta$
 of a potential $\Theta$ for a _[[presymplectic current]]_ $\Omega_{BFV} \coloneqq \delta \Theta$
 (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime} below):
@@ -3759,7 +3759,7 @@ where by prop. \ref{JetBundleIsLocallyProManifold} $L((x^\mu), \cdots)$ depends 
 order of derivatives $\phi^a_{,\mu_1 \cdots \mu_k}$.
 
 We say that a [[field bundle]] $E \overset{fb}{\to} \Sigma$ (def. \ref{Fields}) equipped with a [[local Lagrangian density]] $\mathbf{L}$
-is (or defines) a _[[prequantum field theory|prequantum]] [Lagrangian field theory]]_ on the [[spacetime]] $\Sigma$.
+is (or defines) a _[[prequantum field theory|prequantum]] [[Lagrangian field theory]]_ on the [[spacetime]] $\Sigma$.
 
 =--
 
@@ -3859,14 +3859,27 @@ $$
     F_{\mu \nu} F^{\mu \nu} dvol_\Sigma
     \\
     & =
-    \tfrac{1}{2} F \wedge_\eta \star F
+    \tfrac{1}{2} F \wedge \star_\eta F
   \end{aligned}
 $$
 
 Here $\star_\eta$ denotes the [[Hodge star operator]] of [[Minkowski spacetime]].
 
-More generally, for $\mathfrak{g}$ a [[Lie algebra]] and $E = T^\ast \Sigma \otimes \mathfrak{g}$
-the field bundle for [[Yang-Mills theory]] as in example \ref{YangMillsFieldOverMinkowski}.
+More generally, for $\mathfrak{g}$ a [[Lie algebra]] equipped
+with a binary [[invariant polynomial]] $k$ and for $E = T^\ast \Sigma \otimes \mathfrak{g}$
+the field bundle for [[Yang-Mills theory]] as in example \ref{YangMillsFieldOverMinkowski}
+then the Lagrangian density for [[vacuum]] $\mathfrak{g}$-[[Yang-Mills theory]] is
+
+$$
+  \label{YangMillsLagrangian}
+  \mathbf{L}
+    \;\coloneqq\;
+  \tfrac{1}{2}
+  k_{\alpha \beta} f^\alpha_{\mu \nu} f^{\alpha \mu \nu} dvol_\Sigma
+  \;\in\;
+  \Omega^{p+1,0}_\Sigma(T^\ast \Sigma)
+  \,,
+$$
 
 
 =--
@@ -3991,7 +4004,7 @@ $$
   d \Theta
 $$
 
-such that $\delta EL$ is proportional to the [[variational derivative]] of the fields (but not their derivatives, called a "[[source form]]"):
+such that $\delta_{EL}\mathbf{L}$ is proportional to the [[variational derivative]] of the fields (but not their derivatives, called a "[[source form]]"):
 
 $$
   \delta_{EL} \mathbf{L}
@@ -6957,23 +6970,22 @@ This is all what one might think a theory of physical fields should accomplish, 
 all that was thought to be required of a theory of nature from about [[Isaac Newton]]'s time to about [[Max Planck]]'s time.
 
 However, we have also seen that there are generically [[infinitesimal symmetries of the Lagrangian]] (def. \ref{SymmetriesAndConservedCurrents})
-and their analog in [[codimension]] 1 [[Hamiltonian vector field|infinitesimal symmetries of the pre-symplectic current]]
+and their analog in [[codimension]] 1: [[Hamiltonian vector field|infinitesimal symmetries of the pre-symplectic current]]
 (def. \ref{HamiltonianForms}), forming an [[infinitesimal]] [[symmetry group]],
 reflected by the [[Poisson bracket Lie n-algebra|local Poisson bracket]] (prop. \ref{LocalPoissonBracket}).
 
 The [[transgression of variational differential forms|transgression]] of that local Poisson bracket to the [[on-shell]]
 [[space of field histories]] yields the corresponding infinitesimal symmetry group acting on the [[on-shell]] [[field histories]],
-the actual [[Poisson bracket]]. This data, the [[on-shell]] [[space of field histories]] equipped with [[infinitesimal]]
-[[gauge symmetry]] exhibited by the [[Poisson bracket]] is called the _[[phase space]]_ of the theory (def. \ref{PhaseSpaceAssociatedWithCauchySurface}) below.
+the actual [[Poisson bracket]]. This data, the [[on-shell]] [[space of field histories]] equipped with [[infinitesimal symmetry]] exhibited by the [[Poisson bracket]] is called the _[[phase space]]_ of the theory (def. \ref{PhaseSpaceAssociatedWithCauchySurface}) below.
 
 But from the basic principles of [[homotopy theory]] we learn that given any [[structure]] on a [[space]]
 which is [[invariant]] with respect to a [[symmetry group]] [[action|acting]] on the space
-(here: the [[Lagrangian]]/[[action functional]] on the [[jet bundle]]/[[space of field histories]])
+(here: the [[presymplectic current]])
 then the true structure at hand is the [[homotopy quotient]] of that [[space]] by that [[symmetry group]].
 We will explain this further below. This here just to point out that the [[homotopy quotient]] of the
-[[phase space]] by the [[Hamiltonian vector field|infintiesimal symmetries of the presymplectic current]]
-is called the _[[symplectic groupoid]]_ and that _true_ [[algebra of observables]] is hence
-the ([[polarization|polarized]]) [[groupoid convolution algebra|convolution algebra of function]]
+[[phase space]] by the [[Hamiltonian vector field|infinitesimal symmetries of the presymplectic current]]
+is called the _[[symplectic groupoid]]_ and that the _true_ [[algebra of observables]] is hence
+the ([[polarization|polarized]]) [[groupoid convolution algebra|convolution algebra of functions]]
 on this groupoid. This turns out to the "[[algebra of quantum observables]]" and the passage from the
 naive [[local observables]] on [[presymplectic manifold|presymplectic]] [[phase space]] to
 this non-commutative algebra of functions on its [[homotopy quotient]] to the [[symplectic groupoid]]
@@ -7020,9 +7032,11 @@ $$
      \Big\downarrow{}^{\mathrlap{quantization}}
    \\
    && \left\{
-      \text{symplectic}
-      \atop
-      \text{groupoid}
+      \array{
+        \text{symplectic}
+        \\
+        \text{groupoid}
+      }
    \right\}
    &
    \overset{
@@ -7082,7 +7096,7 @@ and specifically the _[[covariant phase space]]_, to amplify that it does not ac
 [[Cauchy surface]] (prop. \ref{CovariantPhaseSpace} below).
 
 
-
+$\,$
 
 
 +-- {: .num_defn #CauchySurface}
@@ -12459,7 +12473,7 @@ $$
   \,.
 $$
 
-> need to quotient out ideal of elements in the image of $\Box_g - m^2$ to go on [[shell]]
+> need to quotient out ideal of elements in the image of $\Box_g + m^2$ to go on [[shell]]
 
 =--
 
