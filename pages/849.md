@@ -599,6 +599,7 @@ This is a Banach space and makes $Ban$ into a [[closed category]].
 
 * [[pointed mapping space]]
 
+* [[distributions are the smooth linear functionals]]
 
 ## References
 
