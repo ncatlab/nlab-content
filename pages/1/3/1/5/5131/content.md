@@ -189,11 +189,15 @@ If $p = 1$ or $q = 1$, then  $(Shuff(p,q),\leq)$ is a linear poset.
 ######Proof######
 If $p = 1$, $\mu = (\mu_1)$ is a singleton, and the poset will be:
 
-<img src="http://latex.codecogs.com/gif.latex?\xymatrix{(0)\ar@{-}[r]%26(1)\ar@{-}[r]%26\quad\ldots\quad\ar@{-}[r]%26(q)}."/>
+$$\begin{matrix}
+(0) & - & (1) & - & \ldots & - & (q).
+\end{matrix}$$
 
 For $q = 1$, $\nu = (\nu_1)$, and the poset is 
 
-<img src="http://latex.codecogs.com/gif.latex?\xymatrix{(0%3C 1%3C \ldots%3C p-1)\ar@{-}[r]%26 (0%3C 1%3C  \ldots %3C  p-2%3C p)\ar@{-}[r]%26\quad \ldots\quad\ar@{-}[r]%26(1%3C \ldots %3C p),}"/>
+$$\begin{matrix}
+(0 \lt 1 \lt \ldots \lt p-1) & - & (0 \lt 1 \lt \ldots \lt p-2 \lt p) & - & \ldots & - & (1 \lt \ldots \lt p),
+\end{matrix}$$
 where at each stage one misses out the single $\nu$-value.
 =--
 
