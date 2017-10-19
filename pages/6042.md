@@ -35,11 +35,12 @@ External Fields_([arXiv:hep-th/9303124](http://arxiv.org/abs/hep-th/9303124))
 
 Discussion of Lorentz force from the point of view of the [[Kaluza-Klein mechanism]] is in
 
-* David Bleecker, _Gauge theory and variational principles_, Dover publications, 1981. 
-  {#Bleecker81}
+* {#Bleecker81} David Bleecker, _Gauge theory and variational principles_, Dover publications, 1981. 
+  
 
 and exposition is in
 
-* [[Bruce Bartlett]], _The geometry of force_, Sept 2013 ([pdf](https://dl.dropboxusercontent.com/u/56141091/Lorentz.pdf)). 
- {#Bartlett13}
+* {#Bartlett13} [[Bruce Bartlett]], _The geometry of force_, Sept 2013 ([pdf](https://dl.dropboxusercontent.com/u/56141091/Lorentz.pdf)). 
+ 
 
+[[!redirects Lorentz forces]]
