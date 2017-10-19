@@ -8,4 +8,8 @@
 
 * [[infrared divergency]]
 
+* [[quantum electrodynamics]]
+
+* [[quantization of Yang-Mills theory]]
+
 category: people
