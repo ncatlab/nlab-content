@@ -16,7 +16,7 @@
 
 A **polycategory** is like a [[category]] or a [[multicategory]], but where both the [[domain]] and the [[codomain]] of a [[morphism]] can be [[finite set|finite]] [[lists]] of [[objects]] rather than just single objects.  Like multicategories, polycategories have both symmetric and non-symmetric variants.
 
-Just as a symmetric multicategory with one object is also called an [[operad]], and so a general symmetric multicategory is sometimes called a "colored operad", a symmetric polycategory with one object is also called a **dioperad** and a general symmetric multicategory is sometimes called a "colored dioperad".
+Just as a symmetric multicategory with one object is also called an [[operad]], and so a general symmetric multicategory is sometimes called a "colored operad", a symmetric polycategory with one object is also called a **dioperad** and a general symmetric polycategory is sometimes called a "colored dioperad".
 
 ## Properties
 
