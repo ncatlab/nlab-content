@@ -202,47 +202,43 @@ where at each stage one misses out the single $\nu$-value.
 =--
 
 In all cases, each position is obtained from the one immediately to its 'left' by increasing _one_ value, yet remaining with a shuffle.  This is more clearly seen in the (2,2) example, which is no longer linear.  First we display the grid in which things are happening.
-
-<img src="http://latex.codecogs.com/gif.latex?\xymatrix{(0,2)\ar@{-}[r]\ar@{-}[d] %26 (1,2)\ar@{-}[r]\ar@{-}[d] %26 (2,2)\ar@{-}[d]\\(0,1)\ar@{-}[r]\ar@{-}[d] %26 (1,1)\ar@{-}[r]\ar@{-}[d] %26 (2,1)\ar@{-}[d]\\(0,0)\ar@{-}[r]%26(1,0)\ar@{-}[r]%26(2,0)}"/>
+$$\begin{matrix}
+&&&&(1\lt 2)&&&&\\
+&&& \nearrow &&\searrow &&&\\
+(0\lt 1)&-&(0\lt 2)&&&&(1\lt 3)&-&(2\lt 3)\\
+&&& \searrow && \nearrow &&&\\
+&&&&(0\lt 3)&&&&\\
+\end{matrix}$$
+(Arrows have been used where itex does not seem to have an `headless arrow'! What follows is via presheaf.com.)
+           
+<img src="http://presheaf.com/cache/d2u2r4t67211k1v3i6u4a2403c50323b.png" title="click to go to presheaf.com for editing"/>}
 
 We can then look at the shuffle poset, noting again that it is not linear:
 
-<img src="http://latex.codecogs.com/gif.latex?\xymatrix{%26%26(1%3C 2)\ar@{-}[dr]%26%26\\(0%3C 1)\ar@{-}[r]%26(0%3C 2)\ar@{-}[ur]\ar@{-}[dr]%26%26(1%3C 3)\ar@{-}[r]%26(2%3C 3)\\%26%26(0%3C 3)\ar@{-}[ur]%26%26}"/>
 
 The left hand shuffle, labelled $(0\lt1)$, corresponds to $\left(\begin{array}{ccccc}0&1&2&2&2\\0&0&0&1&2\end{array}\right)$, so gives the path along the bottom of the square and then up the right hand side. 
 
-<img src="http://latex.codecogs.com/gif.latex?\xymatrix{%26%26 (2,2)\ar@{-}[d]\\
-%26%26 (2,1)\ar@{-}[d]\\
-(0,0)\ar@{-}[r]%26(1,0)\ar@{-}[r]%26(2,0)}"/>
+<img src="http://presheaf.com/cache/d235j2o1r1a66p292a442r4w4p3q3l5k.png" title="click to go to presheaf.com for editing"/>
 
 
 The first change goes to $(0\lt 2)$ and gives a path with 2 steps,
 
-<img src="http://latex.codecogs.com/gif.latex?\xymatrix{%26 %26 (2,2)\ar@{-}[d]\\
-%26(1,1)\ar@{-}[r]\ar@{-}[d] %26 (2,1)\\
-(0,0)\ar@{-}[r]%26(1,0)%26}"/> 
+<img src="http://presheaf.com/cache/d3r3h4z7142561t5j3q67396h2x74gn.png" title="click to go to presheaf.com for editing"/> 
 
 and corresponds to the shuffle, $\left(\begin{array}{ccccc}0&1&1&2&2\\0&0&1&1&2\end{array}\right)$,
-so at this position, $(0\lt2)$, there is a choice, either increase 0 by 1 to get $(1\lt2)$ or increase 2 by 1 to get $(0\lt3)$. In the first case, we get the path shuffle 
+so at this position, $(0\lt2)$, there is a choice, either increase 0 by 1 to get $(1\lt 2)$ or increase 2 by 1 to get $(0\lt3)$. In the first case, we get the path  
 
-<img src="http://latex.codecogs.com/gif.latex?\xymatrix{%26 %26 (2,2)\ar@{-}[d]\\
-(0,1)\ar@{-}[r]\ar@{-}[d]%26(1,1)\ar@{-}[r]%26 (2,1)\\
-(0,0)%26%26}"/> 
+<img src="http://presheaf.com/cache/d3h5a353o3oc3d1wm1k3020585o476t.png" title="click to go to presheaf.com for editing"/> 
 
-and the shuffle, $\left(\begin{array}{ccccc}0&0&1&2&2\\0&1&1&1&2\end{array}\right)$, so at this position, there is a choice, either increase 0 by 1 to get $(1 \lt 2)$:
-
-<img src="http://latex.codecogs.com/gif.latex?\xymatrix{%26 %26 (2,2)\ar@{-}[d]\\
-(0,1)\ar@{-}[d] \ar@{-}[r]%26(1,1)\ar@{-}[r]%26 (2,1)\\
-(0,0)%26%26}"/>
-
-or increase 2 to 3 to get $(0 \lt 3)$, the shuffle:
+and the shuffle, $\left(\begin{array}{ccccc}0&0&1&2&2\\0&1&1&1&2\end{array}\right)$, 
+and in the second case, we get the shuffle:
  $\left(\begin{array}{ccccc}0&1&1&1&2\\0&0&1&2&2\end{array}\right)$, and the obvious path up the middle of the square:
 
-<img src="http://latex.codecogs.com/gif.latex?\xymatrix{%26(1,2)\ar@{-}[d]\ar@{-}[r] %26 (2,2)\\
-%26(1,1)\ar@{-}[d] %26\\
-(0,0)\ar@{-}[r]%26(1,0)%26}"/>
 
-From $(1 \lt 2)$ or $(0\lt3)$, there is only on way to go, namely to $(1 \lt 3)$ and a 2-step path (left to you), and, finally it is just one step from  $(1 \lt 3)$ to $(2 \lt 3)$ and the other extremal path.
+<img src="http://presheaf.com/cache/d521h5c205h93p274p3f1w5v563776v.png" title="click to go to presheaf.com for editing"/>
+
+From $(1 \lt 2)$ or $(0\lt3)$, there is only one way to go, namely to $(1 \lt 3)$ and a 2-step path (left to you), and, finally it is just one step from  $(1 \lt 3)$ to $(2 \lt 3)$ and the other extremal path.
+
 ####Summary####
 
 Each path corresponds to a simplex of maximal dimension in the product. The poset encodes the simplest relationships between those paths with the links in the Hasse diagram corresponding to simple changes in the path, and adjacency of the two simplices in the product, but note that the poset is usually not linear.
