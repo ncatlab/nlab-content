@@ -17,6 +17,9 @@
 
 ## Idea
 
+
+### Adiabatic switching
+
 In [[perturbative quantum field theory]], the term _adiabatic switching_ refers to considering a smooth transition between vanishing and non-vanishing [[interaction]] [[coupling constant|coupling]]: the interactions is slowly, hence (borrowing a term from [[thermodynamics]]) "adiabatically", switched on or off. This is mostly a mathematical device, not meant to directly reflect a physical situation of changing coupling, but it does serve to construct physical quantities. This is closely related to the role of [[operator-valued distributions]] which are quantities that give well defined [[linear operators]] (hence [[quantum observables]]) only when evaluated on any [[bump function]].
 
 Originally adiabatic switching was considered ([Lippmann-Schwinger 50](#LippmannSchwinger50)) only in the [[time]]-direction (for a fixed choice of time on [[Minkowski spacetime]]) by multiplying the [[interaction]] term of the [[Lagrangian density]]/[[Hamiltonian]] by the [[exponential]] $\exp(- \epsilon {\Vert t \Vert})$ (for $\epsilon \in (0,\infty)$ a [[positive number|positive]] [[real number]] and for ${\Vert t\Vert}$ the [[absolute value]] of the time [[coordinate]]). Review is for instance in ([Strocchi 13, section 6.3](#Strocchi13)).
@@ -54,7 +57,30 @@ Since the actual interactions in [[physics]] are of course _not_ "switched off" 
 Originally in ([Epstein-Glaser 73](#EpsteinGlaser73)) the idea was that after having constructed the [[S-matrix]] for any adiabatic switching $g$, the [[limit of a sequence|limit]] ("adiabatic limit") $g \to 1$ had to be taken to remove the switching in the end. Failure of this limit to exist is interpreted as "[[infrared divergency]]" of the [[perturbative quantum field theory]] (since the divergency comes from large scales, hence long [[wavelength]]).
 
 But as observed in ([Il'in-Slavnov 78](#IlinSlavnov78)) and rediscovered in ([Brunetti-Fredenhagen 00](#BrunettiFredenhagen00)), an adiabatic switching map that is unity on a globally hyperbolic sub-spacetime $O \subset X$ is sufficient to compute the perturbative [[interacting field algebra]], hence the [[algebra of quantum observables]] $A(O)$ on that subspace, and the collection of all of these as $O$ ranges forms a [[causally local net of observables]] which fully captures the [[quantum field theory]] in the sense of the [[Haag-Kastler axioms]] ([this prop.](S-matrix#PerturbativeQuantumObservablesIsLocalnet)). This perspective is now known as _[[locally covariant algebraic quantum field theory]]_.
+
+### Adiabatic limit
+
+The [[limit of a sequence|limit]] of the [[perturbative S-matrix]] as the [[adiabatic switching]] is removed (if it exists) is called the _adiabatic limit_ or _strong adiabatic limit_.
+
+If one just asks that the corresponding limit exists for the [[n-point functions]] one speaks of a _weak adiabatic limit_.
+
+Even with the adiabatically switched S-matrix elements (not taking a limit) the [[local net of quantum observables]] is well defined ([this prop.](S-matrix#PerturbativeQuantumObservablesIsLocalnet)), this is hence a [[functor]]
+
+$$
+  \mathcal{O} \mapsto \mathcal{A}(\mathcal{O})
+$$
+
+that assigns [[algebras of observables]] to [[causally closed subsets]] of [[spacetime]]. The [[colimit]] algebra 
+
+$$
+  \mathcal{A} \coloneqq \underset{\underset{\mathcal{O}}{\longrightarrow}}{\lim} \mathcal{A}(\mathcal{O})
+$$
+
+over this [[functor]] (in the sense of [[category theory]]) always exists. This is also called the _algebraic adiabatic limit_.
+
  
+(See around [Duch 17, section 4](#Duch17) for review of strong, weak and algebraic adiabaitc limit; and [Duch 17, chapter II](#Duch17) for results on the weak adiabatic limit)
+
 ## References
 
 The concept of adiabatic switching in the time direction was introduced in
