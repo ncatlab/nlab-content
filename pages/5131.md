@@ -133,11 +133,19 @@ We thus have, in this case, the signs are +1, -1, and  + 1, respectively.
 
 A final useful interpretation of $(p,q)$ shuffles is of ascending paths through a $p$ by $q$ integer lattice from $(0,0)$ to $(p,q)$.  This is quite well illustrated by our example.  The vertices are the integer pairs, $(i,j)$ with $0\leq i\leq p$ and $0\leq j\leq q$, so in our case we get
 
-<img src="http://latex.codecogs.com/gif.latex?\xymatrix{(0,1)\ar@{-}[r]\ar@{-}[d]%26(1,1)\ar@{-}[r]\ar@{-}[d]%26(2,1)\ar@{-}[d]\\(0,0)\ar@{-}[r]%26(1,0)\ar@{-}[r]%26(2,0)}"/>
+$$\begin{matrix}
+(0,1) & - & (1,1) & - & (2,1) \\
+| & & | & & | \\
+(0,0) & - & (1,0) & - & (2,0)
+\end{matrix}$$
+
 
 The path corresponding to a $(p,q)$-shuffle just follows the list of (transposed pairs of) vertices, so, for instance, 2) goes  
-
-<img src="http://latex.codecogs.com/gif.latex?\xymatrix{%26(1,1)\ar@{-}[r]\ar@{-}[d]%26(2,1)\\	(0,0)\ar@{-}[r]%26(1,0)%26}"/>
+$$\begin{matrix}
+ &  & (1,1) & - & (2,1) \\
+ & & | & &  \\
+(0,0) & - & (1,0) && 
+\end{matrix}$$
 
 ###The poset of $(p,q)$-shuffles###
 
@@ -148,9 +156,9 @@ Any pair $(p,q)$ yields a [[poset]] relating the various $(p,q)$-shuffles.
 For the sake of the will give some elementary examples. (This section can be skipped if you want to move on to the more theoretical analysis of these posets.)
 
 Our $(2,1)$-example is really too simple and small to illustrate this well, but the two cases $(3,1)$ and $(2,2)$ do a much better job, but, even so, we first look at the (2,1) example:
+$$\begin{matrix} (0\lt 1)&-&(0\lt 2)&-&(1\lt 2)\end{matrix}$$
 
 
-<img src="http://latex.codecogs.com/gif.latex?\xymatrix{(0%3C 1)\ar@{-}[r]%26(0%3C 2)\ar@{-}[r]%26(1%3C 2).}"/>
 
 (This [[Hasse diagram]] has been laid out horizontally to save space.  The bottom is to the left. The vertex $(0\lt 1)$ corresponds to the shuffle with $\mu_1 = 0, \mu_1 = 1$, and so on.)
  
@@ -166,8 +174,9 @@ if, for each $i$ in the range $1\leq i\leq p$, $\mu_i \leq \mu_i\prime.$  We ref
 =--
 
 Going to $(3,1)$,  the fact that $q = 1$ will mean that the poset is linear:
-
-<img src="http://latex.codecogs.com/gif.latex?\xymatrix{(0%3C 1%3C 2)\ar@{-}[r]%26(0%3C 1%3C 3)\ar@{-}[r]%26(0%3C 2%3C 3)\ar@{-}[r]%26(1%3C 2%3C 3).}"/> 
+$$\begin{matrix}
+(0 \lt 1 \lt 2) &-& (0 \lt 1 \lt 3)& - &(0 \lt 2 \lt 3)& - &(1 \lt 2 \lt 3)
+\end{matrix}$$
 
 This is general:
 
