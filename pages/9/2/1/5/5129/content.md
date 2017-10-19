@@ -41,7 +41,7 @@ The **signature** of a $(p,q)$-shuffle is the [[signature of a permutation|signa
 
 ###Equivalent characterizations
 
-Two other equivalent (and dual) ways of defining the notion of $(p,q)$-shuffle are as follows:
+Two other equivalent (and dual) ways of defining the notion of $(p,q)$-shuffle are as follows (e.g. [Hoffbeck-Moerdijk 17, section 1.1](#HoffbeckMoerdijk17)):
 
 * Consider $p$ and $q$ as the [[linear orders]] $\mathbf{p} = \{ 0 \lt \dots \lt p-1 \}$ and $\mathbf{q} = \{ 0 \lt \dots \lt q-1 \}$. Then a $(p,q)$-shuffle is a way of extending the [[partial order]] on the [[coproduct]] $\mathbf{p} + \mathbf{q}$ to a linear order, or equivalently, a [[surjective]] [[monotone function]]
 $$\mathbf{p} + \mathbf{q} \to \mathbf{r}$$
@@ -95,7 +95,7 @@ $(p,q)$-shuffles (called _$(s,t)$-permutations_) are discussed in section 2.2.3 
 
 The two dual equivalent characterizations of $(p,q)$-shuffles (called _shuffles of linear trees_ or _shuffles of linear orders_) are discussed in section 1.1 of
 
-* {#HoffbeckMoerdijk} Eric Hoffbeck and [[Ieke Moerdijk]], _Shuffles of trees_, ([arXiv:1705.03638](https://arxiv.org/abs/1705.03638)).
+* {#HoffbeckMoerdijk17} [[Eric Hoffbeck]], [[Ieke Moerdijk]], _Shuffles of trees_, ([arXiv:1705.03638](https://arxiv.org/abs/1705.03638)).
 
 [[!redirects shuffles]]
 [[!redirects unshuffle]]
