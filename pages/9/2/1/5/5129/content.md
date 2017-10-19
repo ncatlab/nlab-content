@@ -89,7 +89,7 @@ the _unshuffle_ side of shuffles is used.
 
 ## References
 
-(...)
+* {#HoffbeckMoerdijk} Eric Hoffbeck and [[Ieke Moerdijk]], _Shuffles of trees_, ([arXiv:1705.03638](https://arxiv.org/abs/1705.03638)).
 
 [[!redirects shuffles]]
 [[!redirects unshuffle]]
