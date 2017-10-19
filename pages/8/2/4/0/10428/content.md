@@ -24,8 +24,11 @@
 
 In [[philosophy of science]] and specifically in the [[philosophy of physics]],  **coordination** concerns the relationship between [[theory (physics)|scientific theory]] and [[experiment|empirical data]]. A [[physical theory]], written, say, as a set of [[equations]] or similar data, does not by itself allow the formation of predictions. In addition we need some way of mediating between this theory and what instruments can detect about the [[observable universe]]. 
 
-For example an abstract [[differential equation]] on the [[sections]] of some abstract [[fiber bundle]] does not constitute a theory of physics unless one specifies which kind of [[field (physics)|physical field]] these sections are meant to represent.
+For example an abstract [[differential equation]] on the [[sections]] of some abstract [[fiber bundle]] does not constitute a theory of physics unless one specifies which kind of [[field (physics)|physical field]] these sections are meant to represent. 
 
+The nature of the field however determines a rule for how to measure it: If we are told that the theory is meant to be about the [[electromagnetic field]], say [[electromagnetic waves]], we test it by measuring, say, [[Lorentz forces]] on [[electrons]]; while if we are told that the theory is meant to be about [[gravity]], say [[gravitational waves]], we test it by entirely different measurements (e.g. via the [[LIGO]] experiment). 
+
+But this distinction may not be reflected in the plain [[mathematics]] that constitutes the physical, theory: In the previous example both [[electromagnetic waves]] and [[gravitational waves]] may be described,  after appropriate [[gauge fixing]], by the same kind of [[wave equation]]. Hence _coordination_ is involved in specifying what aspect of observable reality this equation is meant to be referring to.
 
 
 ##History
@@ -74,8 +77,8 @@ On the other hand, it might be that a good formulation of the coordination proce
   
 
 * {#Ryckman91} Thomas Ryckman (1991), _Conditio sine qua non? Zuordnung in the Early Epistemologies of Cassirer and Schlick_, Synthese 88(1), pp. 57-95.
-  
+ 
 
+* {#Tanona10}[[Scott Tanona]], _Theory, coordination, and empirical meaning in modern physics_, in Mary Domski and Michael Dickson (eds.), _Discourse on a New Method: Reinvigorating the Marriage of History and Philosophy of Science_. Open Court (2010), pp. 423-454.
 
-* [[Scott Tanona]], _Theory, coordination, and empirical meaning in modern physics_, in Mary Domski and Michael Dickson (eds.), _Discourse on a New Method: Reinvigorating the Marriage of History and Philosophy of Science_. Open Court (2010), pp. 423-454.
-  {#Tanona10}
+* {#Friedman99} [[Michael Friedman]], _Poincar&#233;'s Convetionalism and the logical positivists_, chapter 4 in _Reconsidering Logical Positivism_, Cambridge University Press 1999   ([web](https://books.google.co.uk/books?id=e9TjZc9wNUAC&pg=PA71#v=onepage&q&f=false))
