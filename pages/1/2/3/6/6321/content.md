@@ -67,6 +67,14 @@ A construction of QED in the context of [[locally covariant perturbative quantum
 
 * [[Michael Dütsch]], [[Klaus Fredenhagen]], _A local (perturbative) construction of observables in gauge theores: the example of QED_ , Commun. Math. Phys. 203 (1999), no.1, 71-105,  ([arXiv:hep-th/9807078](http://xxx.uni-augsburg.de/abs/hep-th/9807078)). 
 
+and in the further generality of non-abelian [[Yang-Mills theory]] in
+
+* {#Hollands07} [[Stefan Hollands]], _Renormalized Quantum Yang-Mills Fields in Curved Spacetime_, Rev. Math. Phys. 20:1033-1172, 2008 ([arXiv:0705.3340](https://arxiv.org/abs/0705.3340))
+
+Discussion of the [[adiabatic limit]] (dealing with [[infrared divergences]]) is in
+
+* {#Duch17} [[Paweł Duch]], _Massless fields and adiabatic limit in quantum field theory_ ([arXiv:1709.09907](https://arxiv.org/abs/1709.09907))
+
 Comparison to [[experiment]] is reviewed in
 
 * _Tests of QED_ ([pdf](http://edu.itp.phys.ethz.ch/hs10/ppp1/PPP1_6.pdf))
