@@ -1,3 +1,19 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### 2-Category theory
++--{: .hide}
+[[!include 2-category theory - contents]]
+=--
+#### Limits and colimits
++--{: .hide}
+[[!include infinity-limits - contents]]
+=--
+=--
+=--
+
+
 # Local colimits
 
 * table of contents
@@ -5,7 +21,7 @@
 
 ## Definition
 
-A **local colimit** in a [[bicategory]] is a [[colimit]] in a [[hom-category]] that is preserved by the composition functor.  A bicategory **has local colimits** of some shape if its hom-categories have colimits of those shapes that are preserved in each variable by the composition functors.  A bicategory with all (small) local colimits is called **locally cocomplete**.
+A **local colimit** in a [[bicategory]] is a [[colimit]] in a [[hom-category]] that is [[preserved limit|preserved]] by the [[composition]] [[functor]].  A bicategory **has local colimits** of some shape if its hom-categories have colimits of those shapes that are preserved in each variable by the composition functors.  A bicategory with all (small) local colimits is called **locally cocomplete**.
 
 ## Examples
 
