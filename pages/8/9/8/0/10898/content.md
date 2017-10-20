@@ -47,6 +47,7 @@ If $X$, $Y$ are sets which come equipped with enrichments in $B$, then a $B$-fun
 ## Related concepts
 
 * [2-category equipped with proarrows -- Categories enriched in an equipment](2-category+equipped+with+proarrows#CategoriesEnrichedInAnEquipment)
+* [[locally cocomplete bicategory]]
 
 ## References
 
