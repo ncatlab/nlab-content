@@ -9,6 +9,10 @@
 
 * [[instanton in QCD]]
 
+* [[topological recursion]]
+
+* [[topological string]]
+
 category: people
 
 [[!redirects Marcos Marino]]
