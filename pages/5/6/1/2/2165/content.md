@@ -65,6 +65,8 @@ It is often convenient to use the [[Alexandroff compactification]] of $\mathbb{C
 
   * [[complex line]]
 
+* [[conjugate transpose matrix]]
+
 * [[complex vector bundle]]
 
   * [[complex line bundle]]
