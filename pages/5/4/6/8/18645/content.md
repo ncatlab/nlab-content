@@ -2167,6 +2167,8 @@ $$
 
 This is then called the _[[field bundle]]_, which specifies the kind of values that the given field species may take at any point of spacetime. Since the space $F$ of field values is the [[fiber]] of this [[fiber bundle]], it is sometimes also called the _[[field fiber]]_.
 
+For more exposition of this and some of the following concepts involving [[fiber bundles]] see at _[[fiber bundles in physics]]_.
+
 +-- {: .num_defn #Fields}
 ###### Definition
 **([[field (physics)|fields]] and [[field histories]])**
@@ -2321,7 +2323,7 @@ components of the _[[magnetic field]]_.
 
 +-- {: .num_example #YangMillsFieldOverMinkowski}
 ###### Example
-**([[field bundle]] for [[Yang-Mills theory|Yang-Mills]] [[field (physics)|field]])**
+**([[field bundle]] for [[Yang-Mills theory|Yang-Mills]] [[field (physics)|field]] over [[Minkowski spacetime]])**
 
 Let $\mathfrak{g}$ be a [[Lie algebra]] of [[finite number|finite]] [[dimension]] with [[linear basis]]
 $(t_\alpha)$, in terms of which the [[Lie bracket]] is given by
@@ -2368,6 +2370,47 @@ This is called a field history for _[[Yang-Mills theory|Yang-Mills]] [[gauge the
 For $\mathfrak{g} = \mathbb{R}$ is the [[line Lie algebra]], this reduces to the case of the [[electromagnetic field]] (example \ref{Electromagnetism}).
 
 For $\mathfrak{g} = \mathfrak{su}(3)$ this is a [[field (physics)|field]] history for the [[gauge field]] of the [[strong nuclear force]] in [[quantum chromodynamics]].
+
+
+=--
+
+For readers familiar with the concepts of _[[principal bundles]]_ and _[[connections on a bundle]]_
+we include the following example \ref{YangMillsFieldInInstantonSector} which generalizes the
+[[Yang-Mills field]] over [[Minkowski spacetime]] from example \ref{YangMillsFieldOverMinkowski}
+to the situation over general [[spacetimes]].
+
++-- {: .num_example #YangMillsFieldInInstantonSector}
+###### Example
+**(general [[Yang-Mills theory|Yang-Mills]] [[field (physics)|field]] in fixed [[instanton|topological sector]])
+
+Let $\Sigma$ be any [[spacetime]] [[manifold]] and let $G$ be a [[compact Lie group]]
+with [[Lie algebra]] denoted $\mathfrak{g}$. Let $P \overset{is}{\to} \Sigma$ be a
+$G$-[[principal bundle]] and $\nabla_0$ a chosen [[connection on a bundle|connection]] on it,
+to be called the [[background field|background]] $G$-[[Yang-Mills theory|Yang-Mills]] field.
+
+Then the [[field bundle]] (def. \ref{Fields}) for $G$-[[Yang-Mills theory]] _in the [[instanton|topological sector]]_ $P$
+is the [[tensor product of vector bundles]]
+
+$$
+  E \coloneqq \left(P \times^{ad}_G \mathfrak{g}\right) \otimes_\Sigma \left( T^\ast \Sigma \right)
+$$
+
+of the [[adjoint bundle]] of $P$ and the [[cotangent bundle]] of $\Sigma$.
+
+With the choice of $\nabla_0$, every (other) connection $\nabla$ on $P$ uniquely decomposes as
+
+$$
+  \nabla = \nabla_0 + A
+  \,,
+$$
+
+where
+
+$$
+  A \in \Gamma_\Sigma(E)
+$$
+
+is a [[section]] of the above [[field bundle]], hence a Yang-Mills field.
 
 
 =--
@@ -2436,7 +2479,7 @@ A _[[diffeological space]]_ $X$ is
 
 such that
 
-1. ([[constant functions]] are smooth) 
+1. ([[constant functions]] are smooth)
 
    $$
      X(\mathbb{R}^0) = X_s
