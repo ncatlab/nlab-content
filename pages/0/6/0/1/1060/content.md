@@ -133,6 +133,22 @@ A general $\ast$-autonomous category can be thought of as like a [[compact close
 =--
 
 
+## Functors and transformations
+
+It may not be clear from the above definitions what the appropriate notion of "$\ast$-autonomous functor" is.  In fact, from at least one perspective it suffices to consider ordinary [[lax monoidal functors]], at least in the symmetric case; no interaction with the $\ast$-autonomy is required.
+
+Let $\ast Aut$ denote the full sub-2-category of $SymMonCat_{lax}$ on the (symmetric) $\ast$-autonomous categories; hence its morphisms and 2-cells are lax symmetric monoidal functors and monoidal natural transformations.  Let $SymLinDist$ denote the 2-category of symmetric [[linearly distributive categories]], symmetric linear functors, and linear transformations (defined at [[linearly distributive category]]).
+
++-- {: .un_theorem}
+###### Theorem
+There is a functor $\ast Aut \to SymLinDist$ that is 2-fully-faithful, i.e. an equivalence on hom-categories, and has both a left and a right [[2-adjoint]].
+=--
++-- {: .proof}
+###### Proof
+A linearly distributive functor consists of a functor $F_\otimes$ that is lax monoidal for $\otimes$ and a functor $F_\parr$ that is lax monoidal for $\parr$.  Recalling that $\parr$ is defined in a $\ast$-autonomous category as $A\parr B = (A^* \otimes B^*)^*$, if $F$ is a lax monoidal functor between $\ast$-autonomous categories we define $F_\otimes = F$ and $F_\parr(A) = (F(A^*))^*$.  See [Cockett-Seely 1999](#CockettSeely99) for details.
+=--
+
+In the non-symmetric case, we need to additionally require of an "$\ast$-autonomous functor" that $^*(F(A^*)) \cong (F({}^*A))^*$, and define $F_\parr$ to be their common value.
 
 
 ## Properties
@@ -194,6 +210,11 @@ These authors call any closed monoidal category with a [[dualizing object in a c
 Here it is explained how $*$-autonomous categories give Frobenius pseudomonads in the 2-category where morphisms are [[profunctors]]:
 
 *  Ross Street, Frobenius monads and pseudomonoids, J. Math. Physics 45 (2004) 3930-3948. ([pdf](http://www.math.mq.edu.au/~street/Frob.pdf))
+
+Relation to linearly distributive categories:
+
+* [[Robin Cockett] and [[Robert Seely]], _Linearly distributive functors_, 1999 [doi](https://doi.org/10.1016/S0022-4049(98)00110-8)
+ {#CockettSeely99}
 
 [[!redirects star-autonomous categories]]
 [[!redirects *-autonomous category]]
