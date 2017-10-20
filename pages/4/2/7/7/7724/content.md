@@ -4,6 +4,8 @@ If $A = (a_{i j})$ is a [[matrix]], then its _transpose_ $A^T$ is the matrix $A^
 
 ## Related concepts
 
+* [[conjugate transpose matrix]]
+
 * [[hermitian matrix]]
 
 * [[bilinear form]]
