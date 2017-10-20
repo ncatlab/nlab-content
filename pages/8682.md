@@ -7,4 +7,8 @@
 
 * [[Reshetikhin-Turaev model]], [[Turaev-Viro model]]
 
+* [[topological recursion]]
+
 category: people
+
+[[!redirects Jorgen Andersen]]
