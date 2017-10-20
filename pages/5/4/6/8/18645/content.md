@@ -217,7 +217,7 @@ than their definition might superficially suggest:
    For $X$ and $Y$ two [[smooth manifolds]], the [[smooth functions]] $f \colon X \longrightarrow Y$
    between them are in [[natural bijection]] with their
    induced algebra [[homomorphisms]] $C^\infty(X) \overset{f^\ast}{\longrightarrow} C^\infty(Y)$, so that
-   one may equivalently handle smooth manifolds entirely via their algebras of smooth functions.
+   one may equivalently handle smooth manifolds entirely via their $\mathbb{R}$-algebras of smooth functions.
 
    Stated more [[category theory|abstractly]], this means equivalently that the [[functor]] $C^\infty(-)$ that
    sends a [[smooth manifold]] $X$ to its $\mathbb{R}$-[[associative algebra|algebra]]
@@ -226,24 +226,38 @@ than their definition might superficially suggest:
    $$
      C^\infty(-)
      \;\colon\;
-     SmthMfd \hookrightarrow \mathbb{R} Alg^{op}
+     SmthMfd \overset{\phantom{AAAA}}{\hookrightarrow} \mathbb{R} Alg^{op}
      \,.
    $$
+
+   ([Kolar-Slovak-Michor 93, lemma 35.8, corollaries 35.9, 35.10](embedding+of+smooth+manifolds+into+formal+duals+of+R-algebras#KolarSlovakMichor93))
 
 
 1. **[[smooth Serre-Swan theorem|embedding of smooth vector bundles into formal duals of R-algebra modules]]**
 
-   For a fixed [[smooth manifold]] $X$, the [[modules]] over the $\mathbb{R}$-algebra $C^\infty(X)$
-   of [[smooth functions]] on $X$ which arise as [[sections]] of [[smooth vector bundles]] over $X$
-   are precisely the [[finitely generated module|finitely generated]] [[projective modules]] over $C^\infty(X)$.
+   For a fixed [[smooth manifold]] $X$, and $E \overset{vb}{\to} X$ a [[smooth vector bundle]] over
+   $X$, the [[space of sections]] $\Gamma_X(E)$ is canonically a [[module]] over the $\mathbb{R}$-algebra
+   $C^\infty(X)$ of [[smooth functions]], given by pointwise multiplication of smooth sections by smooth functions.
+
+   There is then a [[natural bijection]] between smooth maps $E_1 \overset{f}{\to} E_2$
+   of smooth vector bundles over $X$ and the [[homomorphisms]] $f_\ast \;\colon\; \Gamma_X(E_1) \to \Gamma_X(E_2)$
+   of modules of sections which they induce.
 
    More [[category theory|abstractly]] this means that the [[functor]] that sends a [[smooth vector bundle]] $E \to X$
    to its [[space of sections]] $\Gamma_X(E)$, regarded as a [[module]] over the [[algebra of functions|algebra of]]
    [[smooth function]] $C^\infty(X)$, is a [[fully faithful functor]]
 
    $$
-     \Gamma_X(-) \;\colon\; VectBund_X \hookrightarrow C^\infty(X) Mod
+     \Gamma_X(-) \;\colon\; VectBund_X \overset{\phantom{AAAA}}{\hookrightarrow} C^\infty(X) Mod
    $$
+
+   ([Nestruev 03, theorem 11.29](#Nestruev03))
+
+   Moreover, the [[modules]] over the $\mathbb{R}$-algebra $C^\infty(X)$
+   of [[smooth functions]] on $X$ which arise this way as [[sections]] of [[smooth vector bundles]] over $X$
+   are precisely the [[finitely generated module|finitely generated]] [[projective modules]] over $C^\infty(X)$.
+
+   ([Nestruev 03, theorem 11.32](#Nestruev03))
 
 
 1. **[[derivations of smooth functions are vector fields|vector fields are derivations of smooth functions]]**.
@@ -251,7 +265,20 @@ than their definition might superficially suggest:
    For $X$ a [[smooth manifold]], then any [[derivation]] $D \colon  C^\infty(X) \to C^\infty(X)$ on
    the $\mathbb{R}$-[[associative algebra|algebra]]
    $C^\infty(X)$ of [[smooth functions]] is given by [[differentiation]] with respect to a uniquely
-   defined smooth [[vector field]].
+   defined smooth [[vector field]]:
+   
+   $$
+     \array{
+       \Gamma_X(T X)
+         &\overset{\phantom{A}\simeq\phantom{A}}{\longrightarrow}&
+       Der(C^\infty(X))
+       \\
+       v &\mapsto& \left( f \mapsto (d f)(v) \right)
+     }
+     \,.
+   $$
+
+   (this follows immediately from the _[[Hadamard lemma]]_)
 
 =--
 
@@ -260,14 +287,14 @@ $\,$
 
 Using just these basic ingredients, in the following we incrementally introduce  more general concepts of [[spaces]] in [[differential geometry]], as the need arises from the development of the [[quantum field theory]].
 
-**notions of geometry** 
+**notions of geometry**
 
 | | |  |  |  |  |  |  |  |  |  | [[higher differential geometry]] |
 |--|---|---|---|---|---|---|---|---|---|---|---|
-| **[[differential  geometry]]** | [[smooth manifolds]] | $\hookrightarrow$ | [[diffeological spaces]] (def. \ref{DiffeologicalSpace}) | $\hookrightarrow$ | [[smooth sets]] <br/> (def. \ref{SmoothSet}) | $\hookrightarrow$ | [[formal smooth sets]] <br/> (def. \ref{FormalSmoothSet}) | $\hookrightarrow$ | [[super formal smooth sets]] <br/> (def. \ref{SuperFormalSmoothSet}) | $\hookrightarrow$ | [[super formal smooth ∞-groupoids]] |
+| **[[differential  geometry]]** | [[smooth manifolds]] | $\hookrightarrow$ | [[diffeological spaces]] (def. \ref{DiffeologicalSpace}) | $\hookrightarrow$ | [[smooth sets]] <br/> (def. \ref{SmoothSet}) | $\hookrightarrow$ | [[formal smooth sets]] <br/> (def. \ref{FormalSmoothSet}) | $\hookrightarrow$ | [[super formal smooth sets]] <br/> (def. \ref{SuperFormalSmoothSet}) | $\hookrightarrow$ | [[super formal smooth ∞-groupoids]] <br/> (not needed in fully [[perturbative QFT]]) |
 | **[[infinitesimal]] [[formal geometry|geometry]], <br/> [[Lie theory]]** | |  |  |  |  |   | [[infinitesimally thickened points]] <br/> (def. \ref{InfinitesimallyThickendSmoothManifold}) |  | [[superpoints]] <br/> (def. \ref{SuperCartesianSpace}) |  | [[Lie ∞-algebroids]] <br/> (def. \ref{LInfinityAlgebroid}) |
 | | |  |  |  |  |  |  |  |  |  | **[[higher Lie theory]]** |
-| **needed in [[QFT]] for:** |  [[spacetime]] (def. \ref{MinkowskiSpacetime}) |  | [[space of field histories]] <br/> (def. \ref{DiffeologicalSpaceOfFieldHistories})  |  |  |  | [[Cauchy surface]] (def. \ref{CauchySurface}), <br/> [[perturbation theory]]  (def. \ref{LocalObservablesOnInfinitesimalNeighbourhood}) |  | [[Dirac field]] (expl. \ref{DiracFieldBundle}), [[Pauli exclusion principle]]  |  | [[gauge symmetry]]/[[BRST complex]] (expl. \ref{LocalOffShellBRSTComplex})  |
+| **needed in [[QFT]] for:** |  [[spacetime]] (def. \ref{MinkowskiSpacetime}) |  | [[space of field histories]] <br/> (def. \ref{DiffeologicalSpaceOfFieldHistories})  |  |  |  | [[Cauchy surface]] (def. \ref{CauchySurface}), <br/> [[perturbation theory]]  (def. \ref{LocalObservablesOnInfinitesimalNeighbourhood}) |  | [[Dirac field]] (expl. \ref{DiracFieldBundle}), [[Pauli exclusion principle]]  |  | [[infinitesimal gauge symmetry]]/[[BRST complex]] (expl. \ref{LocalOffShellBRSTComplex})  |
 
 
 
@@ -286,14 +313,14 @@ $\,$
 The concept of [[spacetime]] makes sense for every [[dimension]] $p+1$ with $p \in \mathbb{N}$.
 The [[observable universe]] has macroscopic dimension $3+1$, but [[quantum field theory]] generally makes sense
 also in lower and in higher dimensions. For instance quantum field theory in dimension 0+1 is the "[[worldline]]"
-theory of [[particles]], also known as _[[quantum mechanics]]_; while quantum field theory in dimension $p+k+1$
+theory of [[particles]], also known as _[[quantum mechanics]]_; while quantum field theory in dimension $\gt p+1$
 may be "[[Kaluza-Klein compactifications|KK-compactified]]" to an "[[effective field theory|effective]]"
 field theory in dimension $p+1$ which generally looks more complicated than its higher dimensional version.
 
 However, every realistic field theory, and also most of the non-realistic field theories of interest, contain
 [[spinor fields]] such as the [[Dirac field]] (discussed in detail below, see [there](#RunningExamples)) and
 the precise nature and behaviour of [[spinors]] does depend sensitively on spacetime dimension.
-In fact the theory of relativistic spinors is mathematically most natural in the following four
+In fact the theory of relativistic spinors is mathematically most natural in just the following four
 spacetime dimensions:
 
 $$
@@ -13595,7 +13622,7 @@ $$
 $$
 
 the [[Bogoliubov formula]] in def. \ref{GeneratingFunctionsForCorrelationFunctions}
-simimlarly would have the following heuristic interpretation:
+similarly would have the following heuristic interpretation:
 
 
 $$
