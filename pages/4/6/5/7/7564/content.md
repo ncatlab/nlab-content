@@ -82,6 +82,21 @@ The following includes discussion of [[superstring]] [[string scattering amplitu
 
 * K.S. Narain, N. Piazzalunga, A. Tanzini, _Real topological string amplitudes_, JHEP (2017) 2017:80 ([arXiv:1612.07544](https://arxiv.org/abs/1612.07544))
 
+### Computation via topological recursion
+
+Computation via [[topological recursion]] in [[matrix models]] and all-[[genus of  a surface|genus]] proofs of [[mirror symmetry]] is due to
+
+* {#BouchardKlemmMarinoPasquetti09} [[Vincent Bouchard]], [[Albrecht Klemm]], [[Marcos Marino]], [[Sara Pasquetti]], _Remodeling the B-model_, Commun.Math.Phys.287:117-178, 2009 ([arXiv:0709.1453](https://arxiv.org/abs/0709.1453))
+
+* [[Bertrand Eynard]], [[Amir-Kian Kashani-Poor]], Olivier Marchal, _A matrix model for the topological string I: Deriving the matrix model_ ([arXiv:1003.1737](https://arxiv.org/abs/1003.1737))
+
+* [[Bertrand Eynard]], [[Amir-Kian Kashani-Poor]], Olivier Marchal, _A matrix model for the topological string II: The spectral curve and mirror geometry_ ([arXiv:1007.2194](https://arxiv.org/abs/1007.2194))
+
+* {#EynardOrantin12} [[Bertrand Eynard]], [[Nicolas Orantin]], _Computation of open Gromov-Witten invariants for toric Calabi-Yau 3-folds by topological recursion, a proof of the BKMP conjecture_ ([arXiv:1205.1103](https://arxiv.org/abs/1205.1103))
+
+* {#FangLiuZong13} Bohan Fang, Chiu-Chu Melissa Liu, Zhengyu Zong, _All Genus Open-Closed Mirror Symmetry for Affine Toric Calabi-Yau 3-Orbifolds_ ([arXiv:1310.4818](https://arxiv.org/abs/1310.4818))
+
+[[!redirects topological strings]]
 
 [[!redirects topological string theory]]
-[[!redirects topological strings]]
+
