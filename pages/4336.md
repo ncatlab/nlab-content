@@ -27,7 +27,7 @@ Often one uses the term in a context where one can add and multiply matrices usi
 
 Special cases: [[S-matrix]], [[classical r-matrix]], [[density matrix]], [[hermitian matrix]], [[skew-symmetric matrix]], [[quantum Yang-Baxter matrix]], [[random matrix]], [[skew-symmetric matrix]]
 
-Operations on/with matrices: [[transpose matrix]], [ [[trace]], [[matrix factorization]], [[Gauss decomposition]], [[Gram-Schmidt process]]
+Operations on/with matrices: [[transpose matrix]], [[adjoint matrix]]  [[trace]], [[matrix factorization]], [[Gauss decomposition]], [[Gram-Schmidt process]]
 
 Determinants and [[determinant]] like notions, and special cases: [[quasideterminant]], [[Berezinian]],[[Jacobian]], [[Pfaffian]], [[hafnian]],  [[Wronskian]], [[resultant]], [[discriminant]]
 
