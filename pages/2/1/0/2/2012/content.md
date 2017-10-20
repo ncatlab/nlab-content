@@ -47,7 +47,10 @@ were invented with a view toward quantum integrable systems systematizing analog
 
 * [[Liouville integrability]], 
 
-* [[spectral curve]]. 
+* [[spectral curve]],
+
+* [[topological recursion]]
+
 
 ## References
 
