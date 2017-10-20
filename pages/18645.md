@@ -266,7 +266,7 @@ than their definition might superficially suggest:
    the $\mathbb{R}$-[[associative algebra|algebra]]
    $C^\infty(X)$ of [[smooth functions]] is given by [[differentiation]] with respect to a uniquely
    defined smooth [[vector field]]:
-   
+
    $$
      \array{
        \Gamma_X(T X)
@@ -291,7 +291,7 @@ Using just these basic ingredients, in the following we incrementally introduce 
 
 | | |  |  |  |  |  |  |  |  |  | [[higher differential geometry]] |
 |--|---|---|---|---|---|---|---|---|---|---|---|
-| **[[differential  geometry]]** | [[smooth manifolds]] | $\hookrightarrow$ | [[diffeological spaces]] (def. \ref{DiffeologicalSpace}) | $\hookrightarrow$ | [[smooth sets]] <br/> (def. \ref{SmoothSet}) | $\hookrightarrow$ | [[formal smooth sets]] <br/> (def. \ref{FormalSmoothSet}) | $\hookrightarrow$ | [[super formal smooth sets]] <br/> (def. \ref{SuperFormalSmoothSet}) | $\hookrightarrow$ | [[super formal smooth ∞-groupoids]] <br/> (not needed in fully [[perturbative QFT]]) |
+| **[[differential  geometry]]** | [[smooth manifolds]] | $\hookrightarrow$ | [[diffeological spaces]] <br/> (def. \ref{DiffeologicalSpace}) | $\hookrightarrow$ | [[smooth sets]] <br/> (def. \ref{SmoothSet}) | $\hookrightarrow$ | [[formal smooth sets]] <br/> (def. \ref{FormalSmoothSet}) | $\hookrightarrow$ | [[super formal smooth sets]] <br/> (def. \ref{SuperFormalSmoothSet}) | $\hookrightarrow$ | [[super formal smooth ∞-groupoids]] <br/> (not needed in fully [[perturbative QFT]]) |
 | **[[infinitesimal]] [[formal geometry|geometry]], <br/> [[Lie theory]]** | |  |  |  |  |   | [[infinitesimally thickened points]] <br/> (def. \ref{InfinitesimallyThickendSmoothManifold}) |  | [[superpoints]] <br/> (def. \ref{SuperCartesianSpace}) |  | [[Lie ∞-algebroids]] <br/> (def. \ref{LInfinityAlgebroid}) |
 | | |  |  |  |  |  |  |  |  |  | **[[higher Lie theory]]** |
 | **needed in [[QFT]] for:** |  [[spacetime]] (def. \ref{MinkowskiSpacetime}) |  | [[space of field histories]] <br/> (def. \ref{DiffeologicalSpaceOfFieldHistories})  |  |  |  | [[Cauchy surface]] (def. \ref{CauchySurface}), <br/> [[perturbation theory]]  (def. \ref{LocalObservablesOnInfinitesimalNeighbourhood}) |  | [[Dirac field]] (expl. \ref{DiracFieldBundle}), [[Pauli exclusion principle]]  |  | [[infinitesimal gauge symmetry]]/[[BRST complex]] (expl. \ref{LocalOffShellBRSTComplex})  |
@@ -1028,7 +1028,7 @@ $$
 
 $\,$
 
-The identification of [[Minkowski spacetime]] in the exceptional dimensions with the 
+The identification of [[Minkowski spacetime]] in the exceptional dimensions with the
 generalized [[Pauli matrices]] (prop./def. \ref{SpacetimeAsMatrices}) has some immediate useful implications:
 
 +-- {: .num_prop #DeterminantViaProductWithTraceReversal}
@@ -1070,7 +1070,7 @@ $$
 
 For $\mathbb{K} \in \{\mathbb{R}, \mathbb{C}, \mathbb{H}, \mathbb{O}\}$ one of the four real [[normed division algebras]]
 (prop. \ref{HurwitzTheorem}) the [[special linear group]] $SL(2,\mathbb{K})$ [[action|acts]] on [[Minkowski spacetime]] $\mathbb{R}^{p,1}$
-in dimension $p+1 \in \{2+1, \,3+1, \, 5+1. \, 9+1\}$ (def. \ref{MinkowskiSpacetime}) 
+in dimension $p+1 \in \{2+1, \,3+1, \, 5+1. \, 9+1\}$ (def. \ref{MinkowskiSpacetime})
 by [[linear map|linear]] [[isometries]] given under the identification with the [[Pauli matrices]] in prop./def. \ref{SpacetimeAsMatrices} by [[conjugation]]:
 
 $$
@@ -1083,7 +1083,7 @@ $$
      & \simeq &
     \mathbb{R}^{dim(\mathbb{K}+1,1)}
     \\
-    && 
+    &&
     (G, A) &\mapsto& G \, A \, G^\dagger
   }
 $$
@@ -1110,7 +1110,7 @@ $$
     \underset{= G}{\underbrace{\left( G^\dagger \right)}} \, \underset{= A}{\underbrace{A^\dagger}} \, G^\dagger
     \\
     & =
-    G \, A \, G^\dagger 
+    G \, A \, G^\dagger
   \end{aligned}
   \,.
 $$
@@ -1118,7 +1118,7 @@ $$
 By prop./def. \ref{SpacetimeAsMatrices} such an action is an [[isometry]] precisely if it preserves the
 [[determinant]]. This follows from the multiplicative property of determinants: $det(A B) = det(A) det(B)$
 and their compativility with conjugate transposition: $det(A^\dagger) = det(A^\ast)$, and
-finally by the assumption that $G \in SL(2,\mathbb{K})$ is an element of the [[special linear group]], hence 
+finally by the assumption that $G \in SL(2,\mathbb{K})$ is an element of the [[special linear group]], hence
 that its determinant is $1 \in \mathbb{K}$:
 
 $$
@@ -1137,7 +1137,7 @@ $$
 =--
 
 In fact the [[special linear groups]] of [[linear map|linear]] [[isometries]] in prop. \ref{SLGrupOnPaulimatrices}
-are the [[spin groups]] (def. \ref{SpinGroup} below) in these dimensions. 
+are the [[spin groups]] (def. \ref{SpinGroup} below) in these dimensions.
 
 [[!include exceptional spinors and division algebras -- table]]
 
@@ -2435,6 +2435,13 @@ A _[[diffeological space]]_ $X$ is
    $$
 
 such that
+
+1. ([[constant functions]] are smooth) 
+
+   $$
+     X(\mathbb{R}^0) = X_s
+     \,,
+   $$
 
 1. ([[functor|functoriality]])
 
