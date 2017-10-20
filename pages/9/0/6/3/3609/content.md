@@ -20,7 +20,7 @@ Suppose $\mathcal{H}$ is a [[Hilbert space]] with an inner product $\langle\cdot
 
 $\langle A x,y\rangle=\langle x,A^{*}y\rangle$ for all $x,y \in \mathcal{H}$.
 
-This is a generalization of the concept of an adjoint matrix (also known as a conjugate transpose, Hermitian conjugate, or Hermitian adjoint).  The adjoint of an $m \times n$ matrix $A$ with complex entries is the $n \times m$ matrix whose entries are defined by
+This is a generalization of the concept of an [[adjoint matrix]] (also known as a [[conjugate transpose matrix|conjugate transpose]], Hermitian conjugate, or Hermitian adjoint).  The adjoint of an $m \times n$ matrix $A$ with complex entries is the $n \times m$ matrix whose entries are defined by
 
 $(A^{*})_{ij}=\bar{A_{ji}}$.
 
