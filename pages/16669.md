@@ -4,4 +4,12 @@ Sara Pasquetti is working on mathematical [[super Yang-Mills theory]] at Surrey 
 
 * [webpage](http://www.surrey.ac.uk/maths/people/89217/)
 
+(moved to elsewhere, update)
+
+## related $n$Lab entries
+
+* [[topological recursion]]
+
+* [[topological string]]
+
 category: people
