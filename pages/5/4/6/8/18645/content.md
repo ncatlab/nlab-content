@@ -349,6 +349,8 @@ $\,$
 
 1. [Spacetime in dimensions 3, 4, 6 and 10](#MinkowskiSpacetimeInCriticalDimensions)
 
+1. [Lorentz group and Spin group](#LorentzGroupAndSpinGroup)
+
 1. [Spinors in dimensions 3, 4, 6 and 10](#InTermsOfNormedDivisionAlgebraInDimension3To10)
 
 1. [Causal structure](#CausalStructure)
@@ -874,7 +876,7 @@ real [[alternative algebra|alternative]] [[division algebras]] from prop. \ref{Z
 
 +-- {: .num_prop #SpacetimeAsMatrices}
 ###### Proposition/Definition
-**([[Minkowski spacetime]] via [[hermitian matrices]] in real [[normed division algebras]])**
+**([[Minkowski spacetime]] as [[hermitian matrices]] in real [[normed division algebras]] -- generalized [[Pauli matrices]])**
 
 Let $\mathbb{K}$ be one of the four real [[normed division algebras]] from prop. \ref{HurwitzTheorem}, hence one of the four
 real [[alternative algebra|alternative]] [[division algebras]] from prop. \ref{ZornTheorem}.
@@ -977,42 +979,6 @@ $$
 
 =--
 
-
-By direct computation one finds:
-
-+-- {: .num_prop #DeterminantViaProductWithTraceReversal}
-###### Proposition
-
-In terms of the trace reversal operation $\widetilde{(-)}$ from def. \ref{TraceReversal},
-the [[determinant]] operation on [[hermitian matrices]] (def. \ref{MatrixNotation}) has the following alternative expression
-
-$$
-  \begin{aligned}
-    -det(A) & = A \tilde A
-      \\
-      & = \tilde A A
-  \end{aligned}
-  \,.
-$$
-
-and the Minkowski inner product has the alternative expression
-
-$$
-  \eta(A,B) = \tfrac{1}{2}Re(tr(A \tilde B)) = \tfrac{1}{2} Re(tr(\tilde A B))
-  \,.
-$$
-
-=--
-
-([Baez-Huerta 09, prop. 5](geometry+of+physics+--+supersymmetry#BaezHuerta09))
-
-
-$$
-  \,
-$$
-
-
-
 +-- {: .num_prop #MinkowskiSpacetime}
 ###### Definition
 **([[Minkowski spacetime]] as a [[pseudo-Riemannian manifold]])
@@ -1022,7 +988,8 @@ a [[vector space]] equipped with an [[inner product]]. The genuine [[spacetime]]
 is this vector space regarded as a [[smooth manifold]] with the inner product regarded as a
 constant [[tensor|rank-2 tensor]] over this manifold (a [[pseudo-Riemannian metric]]).
 
-As such we will generically write $\Sigma$ for [[Minkowski spacetime]].
+As such we will generically write $\Sigma = (\mathbb{R}^{p,1}, \eta)$ for [[Minkowski spacetime]]
+regarded as a [[pseudo-Riemannian manifold]].
 
 We write
 
@@ -1057,55 +1024,561 @@ $$
   \end{aligned}
 $$
 
-
 =--
 
 $\,$
 
+The identification of [[Minkowski spacetime]] in the exceptional dimensions with the 
+generalized [[Pauli matrices]] (prop./def. \ref{SpacetimeAsMatrices}) has some immediate useful implications:
+
++-- {: .num_prop #DeterminantViaProductWithTraceReversal}
+###### Proposition
+**(Minkowski metric in terns of trace reversal)**
+
+In terms of the trace reversal operation $\widetilde{(-)}$ from def. \ref{TraceReversal},
+the [[determinant]] operation on [[hermitian matrices]] (def. \ref{MatrixNotation}) has the following alternative expression
+
+$$
+  \begin{aligned}
+    -det(A) & = A \tilde A
+      \\
+      & = \tilde A A
+  \end{aligned}
+  \,.
+$$
+
+and the Minkowski inner product from prop. \ref{SpacetimeAsMatrices} has the alternative expression
+
+$$
+  \begin{aligned}
+    \eta(A,B) & = \tfrac{1}{2}Re(tr(A \tilde B))
+    \\
+    & = \tfrac{1}{2} Re(tr(\tilde A B))
+  \end{aligned}
+  \,.
+$$
+
+=--
+
+([Baez-Huerta 09, prop. 5](geometry+of+physics+--+supersymmetry#BaezHuerta09))
 
 
+
++-- {: .num_prop #SLGrupOnPaulimatrices}
+###### Proposition
+**([[special linear group]] $SL(2,\mathbb{K})$ acts by linear [[isometries]] on [[Minkowski spacetime]] )**
+
+For $\mathbb{K} \in \{\mathbb{R}, \mathbb{C}, \mathbb{H}, \mathbb{O}\}$ one of the four real [[normed division algebras]]
+(prop. \ref{HurwitzTheorem}) the [[special linear group]] $SL(2,\mathbb{K})$ [[action|acts]] on [[Minkowski spacetime]] $\mathbb{R}^{p,1}$
+in dimension $p+1 \in \{2+1, \,3+1, \, 5+1. \, 9+1\}$ (def. \ref{MinkowskiSpacetime}) 
+by [[linear map|linear]] [[isometries]] given under the identification with the [[Pauli matrices]] in prop./def. \ref{SpacetimeAsMatrices} by [[conjugation]]:
+
+$$
+  \array{
+    SL(2,\mathbb{K}) \times \mathbb{R}^{dim(\mathbb{K}+1,1)}
+      & \simeq &
+    SL(2, \mathbb{K}) \times Mat^{herm}_{2 \times 2}(\mathbb{K})
+      &\overset{}{\longrightarrow}&
+    Mat^{herm}_{2 \times 2}(\mathbb{K})
+     & \simeq &
+    \mathbb{R}^{dim(\mathbb{K}+1,1)}
+    \\
+    && 
+    (G, A) &\mapsto& G \, A \, G^\dagger
+  }
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+For $\mathbb{K} \in \{\mathbb{R}, \mathbb{C}, \mathbb{H}\}$ this is immediate from [[matrix calculus]], but we spell it out now.
+While the argument does not directly apply to the case $\mathbb{K} = \mathbb{O}$ of the [[octonions]], one can check that it
+still goes through, too.
+
+First we need to see that the [[action]] is well defined. This follows from the [[associativity]] of [[matrix multiplication]]
+and the fact that forming [[conjugate transpose matrices]] is an [[antihomomorphism]]: $(G_1 G_2)^\dagger = G_2^\dagger G_1^\dagger$.
+In particular this implies that the action indeed sends [[hermitian matrices]] to hermitian matrices:
+
+$$
+  \begin{aligned}
+    \left(
+      G \, A \, G^\dagger
+    \right)^\dagger
+    & =
+    \underset{= G}{\underbrace{\left( G^\dagger \right)}} \, \underset{= A}{\underbrace{A^\dagger}} \, G^\dagger
+    \\
+    & =
+    G \, A \, G^\dagger 
+  \end{aligned}
+  \,.
+$$
+
+By prop./def. \ref{SpacetimeAsMatrices} such an action is an [[isometry]] precisely if it preserves the
+[[determinant]]. This follows from the multiplicative property of determinants: $det(A B) = det(A) det(B)$
+and their compativility with conjugate transposition: $det(A^\dagger) = det(A^\ast)$, and
+finally by the assumption that $G \in SL(2,\mathbb{K})$ is an element of the [[special linear group]], hence 
+that its determinant is $1 \in \mathbb{K}$:
+
+$$
+  \begin{aligned}
+    det\left(
+      G \, A \, G^\dagger
+    \right)
+    & =
+    \underset{ = 1}{\underbrace{det(G)}} \, det(A) \, \underset{= 1^\ast = 1}{\underbrace{det(G^\dagger)}}
+    \\
+    & = det(A)
+  \end{aligned}
+  \,.
+$$
+
+=--
+
+In fact the [[special linear groups]] of [[linear map|linear]] [[isometries]] in prop. \ref{SLGrupOnPaulimatrices}
+are the [[spin groups]] (def. \ref{SpinGroup} below) in these dimensions. 
+
+[[!include exceptional spinors and division algebras -- table]]
+
+This we explain now.
+
+
+
+$\,$
+
+**Lorentz group and spin group**
+ {#LorentzGroupAndSpinGroup}
+
+
++-- {: .num_defn #LorentzGroup}
+###### Definition
+**([[Lorentz group]])**
+
+For $d \in \mathbb{N}$, write
+
+$$
+  O(d-1,1)  \hookrightarrow GL(\mathbb{R}^d)
+$$
+
+for the [[subgroup]] of the [[general linear group]] on those [[linear maps]] $A$ which preserve this bilinear form
+on [[Minkowski spacetime]] (def \ref{MinkowskiSpacetime}), in that
+
+$$
+  \eta(A(-),A(-)) = \eta(-,-)
+  \,.
+$$
+
+This is the **[[Lorentz group]]** in dimension $d$.
+
+The elements in the Lorentz group in the image of the [[special orthogonal group]] $SO(d-1) \hookrightarrow O(d-1,1)$ are _[[rotations]]_ in space. The further elements in the special Lorentz group $SO(d-1,1)$, which mathematically are "hyperbolic rotations" in a space-time plane, are called _[[boosts]]_ in [[physics]].
+
+One distinguishes the following further [[subgroups]] of the [[Lorentz group]] $O(d-1,1)$:
+
+* the _[[proper Lorentz group]]_
+
+  $$
+    SO(d-1,1) \hookrightarrow O(d-1,1)
+  $$
+
+  is the subgroup of elements which have [[determinant]] +1 (as elements  $SO(d-1,1)\hookrightarrow GL(d)$ of the [[general linear group]]);
+
+* the _[[proper orthochronous Lorentz group|proper orthochronous]]_ (or _restricted_) Lorentz group
+
+  $$
+    SO^+(d-1,1) \hookrightarrow SO(d-1,1)
+  $$
+
+  is the further [[subgroup]] of elements $A$ which preserve the time orientation of vectors $v$ in that
+  $(v^0 \gt 0) \Rightarrow ((A v)^0 \gt 0)$.
+
+=--
+
++-- {: .num_prop #ConnectedComponentsOfLorentzGroup}
+###### Proposition
+**([[connected component]] of [[Lorentz group]])**
+
+As a [[smooth manifold]], the [[Lorentz group]] $O(d-1,1)$ (def. \ref{LorentzGroup})
+has four [[connected components]]. The connected component of the identity is the
+[[proper orthochronous Lorentz group]] $SO^+(3,1)$ (def. \ref{LorentzGroup}). The other three components are
+
+1. $SO^+(d-1,1)\cdot P$
+
+1. $SO^+(d-1,1)\cdot T$
+
+1. $SO^+(d-1,1)\cdot P T$,
+
+where, as [[matrices]],
+
+$$
+  P \coloneqq diag(1,-1,-1, \cdots, -1)
+$$
+
+is the operation of point reflection at the origin in space, where
+
+$$
+  T \coloneqq diag(-1,1,1, \cdots, 1)
+$$
+
+is the operation of reflection in time and hence where
+
+$$
+  P T = T P = diag(-1,-1, \cdots, -1)
+$$
+
+is point reflection in spacetime.
+
+=--
+
+
+
+
+
+
+The following concept of the [[Clifford algebra]] (def. \ref{CliffordAlgebra}) of [[Minkowski spacetime]]
+encodes the structure of the [[inner product space]] $\mathbb{R}^{d-1,1}$
+in terms of algebraic operation ("[[geometric algebra]]"), such that the action of the
+[[Lorentz group]] becomes represented by a [[conjugation action]] (example \ref{CliffordConjugtionReflectionAndRotation} below).
+In particular this means that every element of the proper orthochronous Lorentz group may be "split in half"
+to yield a [[double cover]]: the [[spin group]] (def. \ref{SpinGroup} below).
+
+
+
++-- {: .num_defn #CliffordAlgebra}
+###### Definition
+**([[Clifford algebra]])**
+
+For $d \in \mathbb{N}$, we write
+
+$$
+  Cl(\mathbb{R}^{d-1,1})
+$$
+
+for the $\mathbb{Z}/2$-[[graded algebra|graded]] [[associative algebra]] over $\mathbb{R}$
+which is generated from $d$ generators $\{\Gamma_0, \Gamma_1, \Gamma_2, \cdots, \Gamma_{d-1}\}$
+in odd degree ("Clifford generators"), subject to the [[generators and relations|relation]]
+
+$$
+  \Gamma_{a} \Gamma_b + \Gamma_b \Gamma_a = - 2\eta_{a b}
+$$
+
+where $\eta$ is the [[inner product]] of [[Minkowski spacetime]] as in def. \ref{MinkowskiSpacetime}.
+
+These relations say equivalently that
+
+$$
+  \begin{aligned}
+    & \Gamma_0^2 = +1
+    \\
+    & \Gamma_i^2 = -1 \;\; \text{for}\; i \in \{1,\cdots, d-1\}
+    \\
+    & \Gamma_a \Gamma_b = - \Gamma_b \Gamma_a \;\;\; \text{for}\; a \neq b
+  \end{aligned}
+  \,.
+$$
+
+We write
+
+$$
+  \Gamma_{a_1 \cdots a_p}
+    \;\coloneqq\;
+  \frac{1}{p!}
+  \underset{{permutations \atop \sigma}}{\sum} (-1)^{\vert \sigma\vert } \Gamma_{a_{\sigma(1)}} \cdots \Gamma_{a_{\sigma(p)}}
+$$
+
+for the antisymmetrized product of $p$ Clifford generators.
+In particular, if all the $a_i$ are pairwise distinct, then this is simply the plain product of generators
+
+$$
+  \Gamma_{a_1 \cdots a_n}
+  =
+  \Gamma_{a_1} \cdots \Gamma_{a_n}
+  \;\;\;
+  \text{if}
+  \;
+  \underset{i,j}{\forall} (a_i \neq a_j)
+  \,.
+$$
+
+Finally, write
+
+$$
+  \overline{(-)}
+  \;\colon\;
+    Cl(\mathbb{R}^{d-1,1})
+      \longrightarrow
+    Cl(\mathbb{R}^{d-1,1})
+$$
+
+for the algebra [[antihomomorphism|anti-]][[automorphism]] given by
+
+$$
+  \overline{\Gamma_a}
+    \coloneqq
+  \Gamma_a
+$$
+
+$$
+  \overline{\Gamma_a \Gamma_b}
+    \coloneqq
+  \Gamma_b \Gamma_a
+  \,.
+$$
+
+=--
+
++-- {: .num_remark #VectorsInsideCliffordAlgebra}
+###### Remark
+**([[vectors]] inside [[Clifford algebra]])**
+
+By construction, the [[vector space]] of [[linear combinations]] of the generators
+in a [[Clifford algebra]] $Cl(\mathbb{R}^{d-1,1})$ (def. \ref{CliffordAlgebra}) is canonically identified
+with [[Minkowski spacetime]] $\mathbb{R}^{d-1,1}$ (def. \ref{MinkowskiSpacetime})
+
+$$
+  \widehat{(-)}
+    \;\colon\;
+  \mathbb{R}^{d-1,1}
+    \hookrightarrow
+  Cl(\mathbb{R}^{d-1,1})
+$$
+
+via
+
+$$
+  x_a \mapsto \Gamma_a
+  \,,
+$$
+
+hence via
+
+$$
+  v = v^a x_x \mapsto \hat v = v^a \Gamma_a
+  \,,
+$$
+
+such that the defining [[quadratic form]] on $\mathbb{R}^{d-1,1}$ is identified with
+the [[anti-commutator]] in the Clifford algebra
+
+$$
+  \eta(v_1,v_2) = -\tfrac{1}{2}( \hat v_1 \hat v_2 + \hat v_2 \hat v_1)
+  \,,
+$$
+
+where on the right we are, in turn, identifying $\mathbb{R}$ with the linear span of the unit in $Cl(\mathbb{R}^{d-1,1})$.
+
+=--
+
+The key point of the [[Clifford algebra]] (def. \ref{CliffordAlgebra}) is that it realizes
+spacetime [[reflections]], [[rotations]] and [[boosts]] via [[conjugation actions]]:
+
++-- {: .num_example #CliffordConjugtionReflectionAndRotation}
+###### Example
+**(Clifford conjugation)**
+
+For $d \in \mathbb{N}$ and $\mathbb{R}^{d-1,1}$ the [[Minkowski spacetime]] of def. \ref{MinkowskiSpacetime},
+let $v \in \mathbb{R}^{d-1,1}$ be any [[vector]], regarded as an element $\hat v \in Cl(\mathbb{R}^{d-1,1})$ via remark \ref{VectorsInsideCliffordAlgebra}.
+
+Then
+
+1. the [[conjugation action]] $\hat v \mapsto -\Gamma_a^{-1} \hat v \Gamma_a$
+   of a single Clifford generator $\Gamma_a$ on $\hat v$ sends $v$ to its
+  [[reflection]] at the hyperplane $x_a = 0$;
+
+1. the [[conjugation action]]
+
+   $$
+     \hat v \mapsto \exp(- \tfrac{\alpha}{2} \Gamma_{a b}) \hat v \exp(\tfrac{\alpha}{2} \Gamma_{a b})
+   $$
+
+   sends $v$ to the result of [[rotation|rotating]] it in the $(a,b)$-plane through an angle $\alpha$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is immediate by inspection:
+
+For the first statement observe that conjugating the Clifford generator $\Gamma_b$ with $\Gamma_a$
+yields $\Gamma_b$ up to a sign, depending on whether $a = b$ or not:
+
+$$
+  - \Gamma_a^{-1} \Gamma_b \Gamma_a
+  =
+  \left\{
+    \array{
+      -\Gamma_b & \vert \text{if}\, a = b
+      \\
+      \Gamma_b & \vert \text{otherwise}
+    }
+  \right.
+  \,.
+$$
+
+Therefore for $hat v = v^b \Gamma_b$ then $\Gamma_a^{-1} \hat v \Gamma_a$ is the result of
+multiplying the $a$-component of $v$ by $-1$.
+
+For the second statement, observe that
+
+$$
+  -\tfrac{1}{2}[\Gamma_{a b}, \Gamma_c]
+  =
+  \Gamma_a \eta_{b c} - \Gamma_b \eta_{a c}
+  \,.
+$$
+
+This is the canonical action of the Lorentzian [[special orthogonal Lie algebra]] $\mathfrak{so}(d-1,1)$.
+Hence
+
+$$
+  \exp(-\tfrac{\alpha}{2} \Gamma_{ab}) \hat v \exp(\tfrac{\alpha}{2} \Gamma_{ab})
+    =
+  \exp(\tfrac{1}{2}[\Gamma_{a b}, -])(\hat v)
+$$
+
+is the rotation action as claimed.
+
+=--
+
++-- {: .num_remark #AmbiguityInCliffordConjugation}
+###### Remark
+
+Since the [[reflections]], [[rotations]] and [[boosts]] in example \ref{CliffordConjugtionReflectionAndRotation}
+are given by [[conjugation actions]], there is a crucial ambiguity in the Clifford elements that
+induce them:
+
+1. the conjugation action by $\Gamma_a$ coincides precisely with the conjugation action by $-\Gamma_a$;
+
+1. the [[conjugation action]] by $\exp(\tfrac{\alpha}{4} \Gamma_{a b})$ coincides precisely with the
+   conjugation action by $-\exp(\tfrac{\alpha}{2}\Gamma_{a b})$.
+
+=--
+
+
++-- {: .num_defn #SpinGroup}
+###### Definition
+**([[spin group]])**
+
+For $d \in \mathbb{N}$, the **[[spin group]]** $Spin(d-1,1)$ is the group of
+even graded elements of the Clifford algebra $Cl(\mathbb{R}^{d-1,1})$ (def. \ref{CliffordAlgebra})
+which are [[unitary operator|unitary]] with respect to the conjugation operation $\overline{(-)}$
+from def. \ref{CliffordAlgebra}:
+
+$$
+  Spin(d-1,1)
+   \;\coloneqq\;
+  \left\{
+    A \in Cl(\mathbb{R}^{d-1,1})_{even}
+    \;\vert\;
+    \overline{A} A = 1
+  \right\}
+  \,.
+$$
+
+=--
+
++-- {: .num_prop #SpinDoubleCover}
+###### Proposition
+
+The [[function]]
+
+$$
+  Spin(d-1,1)
+    \longrightarrow
+  GL(\mathbb{R}^{d-1,1})
+$$
+
+from the [[spin group]] (def. \ref{SpinGroup}) to the [[general linear group]] in $d$-dimensions
+given by sending $A \in Spin(d-1,1) \hookrightarrow Cl(\mathbb{R}^{d-1,1})$ to the
+[[conjugation action]]
+
+$$
+  \overline{A}(-) A
+$$
+
+(via the identification of Minkowski spacetime as the subspace of the [[Clifford algebra]]
+containing the [[linear combinations]] of the generators, according to remark \ref{VectorsInsideCliffordAlgebra})
+
+is
+
+1. a [[group]] [[homomorphism]] onto the [[proper orthochronous Lorentz group]] (def. \ref{LorentzGroup}):
+
+   $$
+     Spin(d-1,1) \longrightarrow SO^+(d-1,1)
+   $$
+
+1. exhibiting a $\mathbb{Z}/2$-[[central extension]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+That the function is a group homomorphism into the [[general linear group]], hence that it acts by [[linear transformations]]
+on the generators follows by using that it clearly lands in [[automorphisms]] of the Clifford algebra.
+
+That the function lands in the [[Lorentz group]] $O(d-1,1) \hookrightarrow GL(d)$ follows from remark \ref{VectorsInsideCliffordAlgebra}:
+
+$$
+  \begin{aligned}
+    \eta(\overline{A}v_1A , \overline{A} v_2 A)
+    &=
+    \tfrac{1}{2}
+    \left(
+    \left(\overline{A} \hat v_1 A\right) \left(\overline{A}\hat v_2 A\right)
+    +
+    \left(\overline{A} \hat v_2 A\right) \left(\overline{A} \hat v_1 A\right)
+    \right)
+    \\
+    & =
+    \tfrac{1}{2}
+    \left(
+    \overline{A}(\hat v_1 \hat v_2 + \hat v_2 \hat v_1) A
+    \right)
+    \\
+    & =
+    \overline{A} A \tfrac{1}{2}\left( \hat v_1 \hat v_2 + \hat v_2 \hat v_1\right)
+    \\
+    & =
+    \eta(v_1, v_2)
+  \end{aligned}
+  \,.
+$$
+
+That it moreover lands in the [[proper Lorentz group]] $SO(d-1,1)$ follows from
+observing (example \ref{CliffordConjugtionReflectionAndRotation}) that every reflection is given by the [[conjugation action]] by
+a linear combination of generators, which are excluded from the group $Spin(d-1,1)$
+(as that is defined to be in the even subalgebra).
+
+
+To see that the homomorphism is surjective, use that all elements of $SO(d-1,1)$
+are products of [[rotations]] in hyperplanes. If a hyperplane is spanned by the [[bivector]]
+$(\omega^{a b})$, then such a rotation is given, via example \ref{CliffordConjugtionReflectionAndRotation}
+by the conjugation action by
+$$
+  \exp(\tfrac{\alpha}{2} \omega^{a b}\Gamma_{a b})
+$$
+
+for some $\alpha$, hence is in the image.
+
+That the [[kernel]] is $\mathbb{Z}/2$ is clear from the fact that the only even Clifford elements which commute
+with all vectors are the multiples $a \in \mathbb{R} \hookrightarrow Cl(\mathbb{R}^{d-1,1})$ of the identity.
+For these $\overline{a} = a$ and hence
+the condition $\overline{a} a = 1$ is equivalent to $a^2 = 1$. It is clear that these two elements
+$\{+1,-1\}$ are in the [[center]] of $Spin(d-1,1)$. This
+kernel reflects the ambiguity from remark \ref{AmbiguityInCliffordConjugation}.
+
+=--
+
+
+$\,$
 
 **Real spinors in dimensions 3, 4, 6 and 10**
  {#InTermsOfNormedDivisionAlgebraInDimension3To10}
 
 We now discuss how [[real spin representations]] in dimensions 3,4, 6 and 10 are naturally induced from
 linear algebra over the four real [[alternative algebras|alternative]] [[division algebras]].
-
-In particular we establish the following table of [exceptional isomorphisms of spin groups](spin+group#ExceptionalIsomorphisms):
-
-[[!include exceptional spinors and division algebras -- table]]
-
-+-- {: .num_remark}
-###### Remark
-
-Prop. \ref{SpacetimeAsMatrices} immediately implies that for $\mathbb{K} \in \{\mathbb{R}, \mathbb{C}, \mathbb{H}\}$
-then there is a [[monomorphism]] from the [[special linear group]] $SL(2,\mathbb{K})$ to the [[spin group]]
-in the given dimension:
-
-$$
-  SL(2,\mathbb{K})
-    \hookrightarrow
-  Spin(dim_{\mathbb{R}(\mathbb{K} )} +1 ,1)
-$$
-
-given by
-
-$$
-  A \mapsto A(-)A^\dagger
-  \,.
-$$
-
-This preserves the [[determinant]], and hence the Lorentz form, by the multiplicative property of the determinant:
-
-$$
-  det(A(-)A^\dagger) = \underset{=1}{\underbrace{det(A)}} det(-) \underset{= 1}{\underbrace{det(A)}}^\ast = det(-)
-  \,.
-$$
-
-=--
-
-Hence it remains to show that this is surjective, and to define this action also for $\mathbb{K}$ being the [[octonions]],
-where general [[matrix calculus]] does not apply, due to non-associativity.
 
 
 
