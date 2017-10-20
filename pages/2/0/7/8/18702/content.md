@@ -1,0 +1,50 @@
+
+#Contents#
+* taable of contents
+{:toc}
+
+## Idea
+
+Topological recursion ([Chekhov-Eynard-Orantin 06](#ChekhovEynardOrantin06),[Eynard-Orantin 07](#EynardOrantin07)) is a universal [[recursion]] formula that controls asymptotic expansion of many [[integrable systems]] such as [[matrix models]]. 
+
+[[Maxim Kontsevich]] and [[Yan Soibelman]] reformulated and slightly generalised it, seeing it as a [[quantization]] of certain quadratic Lagrangians in the [[cotangent bundle]] of some [[vector space]] (reviewed in [Andersen-Borot-Chekhov-Orantin 17, section 2](#AndersenBorotChekhovOrantin17)).
+
+There is some deep relation to the [[topological string]] [[B-model]] and [[Gromov-Witten invariants]] ([Bouchard-Klemm-Marino-Pasquetti 09](#BouchardKlemmMarinoPasquetti09)). It yields proofs of [[mirror symmetry]] in certain cases, valid at all [[genus of a surface|genera]] ([Eynard-Orantin 12](#EynardOrantin12),[Fang-Liu-Zong 13](#FangLiuZong13)).
+
+## Related concepts
+
+* [[spectral curve]]
+
+* [[matrix model]]
+
+## References
+
+The method was introduced in
+
+
+* {#ChekhovEynardOrantin06} [[Leonid Chekhov]], [[Bertrand Eynard]], [[Nicolas Orantin]], _Free energy topological expansion for the 2-matrix model_, JHEP 0612:053,2006 ([arXiv:math-ph/0603003](https://arxiv.org/abs/math-ph/0603003))
+
+* {#EynardOrantin07} [[Bertrand Eynard]], [[Nicolas Orantin]], _Invariants of algebraic curves and topological expansion_ ([arXiv:math-ph/0702045](https://arxiv.org/abs/math-ph/0702045))
+
+Review and exposition includes
+
+* [[Bertrand Eynard]], [[Nicolas Orantin]], _Topological recursion in rand
+om matrices and enumerative geometry_, J. Phys. A: Mathematical and Theoretical , 42(29), 2009 ([arXiv:0811.3531](https://arxiv.org/abs/0811.3531))
+
+* [[Bertrand Eynard]], _A short overview of the "Topological recursion"_ ([arXiv:1412.3286](https://arxiv.org/abs/1412.3286))
+
+The Kontsevich-Soibelman approach (and much more) is reviewed in
+
+* {#AndersenBorotChekhovOrantin17} [[Jørgen Andersen]], [[Gaëtan Borot]], [[Leonid Chekhov]], [[Nicolas Orantin]], _The ABCD of topological recursion_ ([arXiv:1703.03307](https://arxiv.org/abs/1703.03307))
+
+The relation to the [[topological string]] [[B-model]], [[Gromov-Witten invariants]] and [[mirror symmetry]] is due to
+
+* {#BouchardKlemmMarinoPasquetti09} [[Vincent Bouchard]], [[Albrecht Klemm]], [[Marcos Marino]], [[Sara Pasquetti]], _Remodeling the B-model_, Commun.Math.Phys.287:117-178, 2009 ([arXiv:0709.1453](https://arxiv.org/abs/0709.1453))
+
+* [[Bertrand Eynard]], [[Amir-Kian Kashani-Poor]], Olivier Marchal, _A matrix model for the topological string I: Deriving the matrix model_ ([arXiv:1003.1737](https://arxiv.org/abs/1003.1737))
+
+* [[Bertrand Eynard]], [[Amir-Kian Kashani-Poor]], Olivier Marchal, _A matrix model for the topological string II: The spectral curve and mirror geometry_ ([arXiv:1007.2194](https://arxiv.org/abs/1007.2194))
+
+* {#EynardOrantin12} [[Bertrand Eynard]], [[Nicolas Orantin]], _Computation of open Gromov-Witten invariants for toric Calabi-Yau 3-folds by topological recursion, a proof of the BKMP conjecture_ ([arXiv:1205.1103](https://arxiv.org/abs/1205.1103))
+
+* {#FangLiuZong13} Bohan Fang, Chiu-Chu Melissa Liu, Zhengyu Zong, _All Genus Open-Closed Mirror Symmetry for Affine Toric Calabi-Yau 3-Orbifolds_ ([arXiv:1310.4818](https://arxiv.org/abs/1310.4818))
