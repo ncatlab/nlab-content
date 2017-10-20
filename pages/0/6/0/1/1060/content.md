@@ -150,6 +150,8 @@ A linearly distributive functor consists of a functor $F_\otimes$ that is lax mo
 
 In the non-symmetric case, we need to additionally require of an "$\ast$-autonomous functor" that $^*(F(A^*)) \cong (F({}^*A))^*$, and define $F_\parr$ to be their common value.
 
+On the other hand, if we consider instead "Frobenius linear functors" between linearly distributive categories, then such functors necessarily preserve duals.  Thus, the corresponding notion of $\ast$-autonomous functor would need to preserve the dualization functors as well, $F(A^*) \cong (F(A))^*$.
+
 
 ## Properties
 
