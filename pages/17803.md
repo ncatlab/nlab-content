@@ -16,11 +16,31 @@
 
 ## Idea
 
-The _smooth Serre-Swan theorem_ states that over a [[smooth manifold]] $X$, smooth [[vector bundles]] of [[finite number|finite]] [[rank]] are [[equivalence of categories|equivalent]] to [[finitely generated object|finitely generated]] [[projective modules]] over the $\mathbb{R}$-[[associative algebra|algebra]] $C^\infty(X)$ of [[smooth functions]] on $X$. ([Nestruev 03, 11.33](#Nestruev03))
+The _smooth Serre-Swan theorem_ ([Nestruev 03, 11.33](#Nestruev03)) states that over a [[smooth manifold]] $X$, 
+
+1. the [[section]] [[functor]]
+
+   $$
+     \Gamma_X(-)
+      \;\colon\;
+     SmoothVectorBundles_{/X} 
+       \hookrightarrow
+     C^\infty(X) Mod
+   $$
+
+   that sends [[smooth vector bundles]] over $X$ of [[finite number|finite]] [[rank]] to their [[spaces of sections|spaces of]] smooth [[sections]], regarded as [[modules]] over the [[algebra of functions|algebra of]] [[smooth functions]] on $X$, is a [[fully faithful functor]]
+   
+   ([Nestruev 03, theorem 11.29](#Nestruev03));
+
+1. its [[essential image]] consists precisely of the [[finitely generated object|finitely generated]] [[projective modules]] 
+
+   ([Nestruev 03, 11.32](#Nestruev03)).
 
 This is the variant for [[differential geometry]] of what the [[Serre-Swan theorem]] asserts in [[algebraic geometry]] and in [[topology]].
 
 Together with the [[embedding of smooth manifolds into formal duals of R-algebras]], the smooth Serre-Swan theorem states that that differential geometry is "more algebraic" than it may superficially seem.
+
+A third fact in this vein is that _[[derivations of smooth functions are vector fields]]_.
 
 ## Related theorems
 
