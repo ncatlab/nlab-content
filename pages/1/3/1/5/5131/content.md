@@ -103,7 +103,7 @@ with, for 1), $\alpha = (2)$, $\beta = (1,0)$; for 2) $\alpha = (1)$, $\beta = (
 ### Simplices of the product and partitions
 
 Each such simplex yields a partition of $\{0, \ldots, p+q-1\}$ into two disjoint sets,
- $\mu_1\lt\ldots \lt\mu_p$, and $\nu_1 \lt \ldots \lt \nu_q$, and vice versa. Suppose that we have an array, as above, written
+ $\mu_1\lt\ldots \lt\mu_p$, and $\nu_1 \lt \ldots \lt \nu_q$, and vice versa, any such partition yields a simplex. Suppose that we have an array, as above, written
 
  $$\left(\begin{array}{cccc}
 i_0& i_1&\ldots & i_{p+q}\\
@@ -153,7 +153,7 @@ Any pair $(p,q)$ yields a [[poset]] relating the various $(p,q)$-shuffles.
 
 ####Easy examples
 
-For the sake of the will give some elementary examples. (This section can be skipped if you want to move on to the more theoretical analysis of these posets.)
+We will start by giving some elementary examples. (This section can be skipped if you want to move on to the more theoretical analysis of these posets.)
 
 Our $(2,1)$-example is really too simple and small to illustrate this well, but the two cases $(3,1)$ and $(2,2)$ do a much better job, but, even so, we first look at the (2,1) example:
 $$\begin{matrix} (0\lt 1)&-&(0\lt 2)&-&(1\lt 2)\end{matrix}$$
@@ -162,7 +162,7 @@ $$\begin{matrix} (0\lt 1)&-&(0\lt 2)&-&(1\lt 2)\end{matrix}$$
 
 (This [[Hasse diagram]] has been laid out horizontally to save space.  The bottom is to the left. The vertex $(0\lt 1)$ corresponds to the shuffle with $\mu_1 = 0, \mu_1 = 1$, and so on.)
  
-We need here to explain the partial order.  We take the $\mu$-signature' of the shuffle, that is, the ordered set $\mu_1\lt\ldots \lt \mu_p$. (Of course, this determines the $\nu$-signature as that is the complement of $\mu$.)
+We need here to explain the partial order.  We take the '$\mu$-signature' of the shuffle, that is, the ordered set $\mu_1\lt\ldots \lt \mu_p$. (Of course, this determines the $\nu$-signature as that is the complement of $\mu$.)
 
 +--{: .un_defn}
 ######Definition######
@@ -173,12 +173,12 @@ $$(\mu, \nu) \leq (\mu\prime,\nu\prime)$$
 if, for each $i$ in the range $1\leq i\leq p$, $\mu_i \leq \mu_i\prime.$  We refer to this poset as $(Shuff(p,q),\leq)$.
 =--
 
-Going to $(3,1)$,  the fact that $q = 1$ will mean that the poset is linear:
+Going to  $(Shuff(3,1),\leq)$, the poset for $(3,1)$-shuffles,  the fact that $q = 1$ will mean that this poset is again linear:
 $$\begin{matrix}
 (0 \lt 1 \lt 2) &-& (0 \lt 1 \lt 3)& - &(0 \lt 2 \lt 3)& - &(1 \lt 2 \lt 3)
 \end{matrix}$$
 
-This is general:
+This is true in general:
 
 +--{: .un_lemma}
 ######Lemma
@@ -203,17 +203,24 @@ where at each stage one misses out the single $\nu$-value.
 
 In all cases, each position is obtained from the one immediately to its 'left' by increasing _one_ value, yet remaining with a shuffle.  This is more clearly seen in the (2,2) example, which is no longer linear.  First we display the grid in which things are happening.
 $$\begin{matrix}
+(0,2) & - & (1,2) & - & (2,2) \\
+| & & | & & | \\
+(0,1) & - & (1,1) & - & (2,1) \\
+| & & | & & | \\
+(0,0) & - & (1,0) & - & (2,0)
+\end{matrix}$$
+
+We can then look at the shuffle poset, noting again that it is not linear:
+$$\begin{matrix}
 &&&&(1\lt 2)&&&&\\
 &&& \nearrow &&\searrow &&&\\
 (0\lt 1)&-&(0\lt 2)&&&&(1\lt 3)&-&(2\lt 3)\\
 &&& \searrow && \nearrow &&&\\
 &&&&(0\lt 3)&&&&\\
 \end{matrix}$$
-(Arrows have been used where itex does not seem to have an `headless arrow'! What follows is via presheaf.com.)
+(Arrows have been used where itex does not seem to have an `headless arrow'! What follows is produced via presheaf.com.)
            
 <img src="http://presheaf.com/cache/d2u2r4t67211k1v3i6u4a2403c50323b.png" title="click to go to presheaf.com for editing"/>}
-
-We can then look at the shuffle poset, noting again that it is not linear:
 
 
 The left hand shuffle, labelled $(0\lt1)$, corresponds to $\left(\begin{array}{ccccc}0&1&2&2&2\\0&0&0&1&2\end{array}\right)$, so gives the path along the bottom of the square and then up the right hand side. 
@@ -229,7 +236,7 @@ and corresponds to the shuffle, $\left(\begin{array}{ccccc}0&1&1&2&2\\0&0&1&1&2\
 so at this position, $(0\lt2)$, there is a choice, either increase 0 by 1 to get $(1\lt 2)$ or increase 2 by 1 to get $(0\lt3)$. In the first case, we get the path  
 
 <img src="http://presheaf.com/cache/d3h5a353o3oc3d1wm1k3020585o476t.png" title="click to go to presheaf.com for editing"/> 
-
+going horizontally across the square,
 and the shuffle, $\left(\begin{array}{ccccc}0&0&1&2&2\\0&1&1&1&2\end{array}\right)$, 
 and in the second case, we get the shuffle:
  $\left(\begin{array}{ccccc}0&1&1&1&2\\0&0&1&2&2\end{array}\right)$, and the obvious path up the middle of the square:
@@ -245,7 +252,7 @@ Each path corresponds to a simplex of maximal dimension in the product. The pose
 
 ##The Anti-Lex order
 
-There is a useful total order on $Shuff(p,q)$ related to the partial order and which is useful when checking cancellation of terms in non-commutative contexts.  This is the **anti-lexicographic order.
+There is a total order on $Shuff(p,q)$ related to the above partial order and which is useful when checking cancellation of terms in non-commutative contexts, as occurs in the Whitehead product formula given by Curtis and attributed to Kan.  This is the **anti-lexicographic order.
 
 
 We  represent   a $(p,q)$-shuffle $(\mu,\nu)$ by an increasing $\mu$-sequence $\mu_1\lt \ldots \lt \mu_p$, (so with complementary $\nu$-sequence $\nu_1\lt \ldots \lt \nu_q$). 
@@ -292,11 +299,17 @@ $$(\Delta[p]\times \Delta[1])\times \{0\} \cup \partial(\Delta[p]\times \Delta[1
 
 together with part of the top of the 'canister'.  (In general the total order seems to correspond to some sort of filling scheme although this is not always as clear as here.)
 
+Our second case will be (3,2).  Again we will write $(i,j,k)$ instead of $i\lt j\ltk$ in order to save confusion over the various different orders being considered.  The shuffle poset, $\mathrm{Shuff}(3,2)$, has Hasse diagram given below:
 
+<a href="http://presheaf.com/?d=d6h6o5y2s5an2i2l694co21381e385u"><img src="http://presheaf.com/cache/d6h6o5y2s5an2i2l694co21381e385u.png" title="click to go to presheaf.com for editing"/></a>
 
+The subgraph of those with $\mu_3 = 4$, of course, is a copy of our earlier $(2,2)$-example, whilst that with $\mu_3 = 3$, is a copy of $Shuff(3,1)$.  Within that we have, on deleting the 3s from the final positions, a copy of $Shuff(2,1)$ and so on.  Taking $Shuff(2,1) \times \{3\}$, we can match it with a $Shuff(2,1) \times \{4\}$ within the $\mu_3 = 4$ block, the matching being given by, for instance, $(0,1,3)\leftrightarrow(0,1,4)$, etc.  The anti-lex order gives
+\[
+(0,1,2)-(0,1,3) - (1,2,3)-(0,2,3)-(2,3,4)-(1,3,4)-(0,3,4) - (0,2,4) - (1,2,4) - (0,1,4),\]
 
-
-
+which is 
+$$Shuff(3,1)\oplus Shuff(2,2)^{op}\times \{4\},$$
+the ordinal sum, or join, of the anti-lex ordered shuffle sets.  This sort of decomposition is quite general.
 
 
 [[!redirects product of simplices]]
