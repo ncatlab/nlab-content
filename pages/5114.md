@@ -110,7 +110,9 @@ $$
 
 For more on this see [[monoidal Dold-Kan correspondence]].
 
+## Generalizations
 
+Frobenius monoidal functors are a special case of Frobenius *linear* functors between [[linearly distributive categories]].
 
 
 ## Related concepts
