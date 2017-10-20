@@ -47,3 +47,9 @@ There are also more specialized kinds of 2-adjunction, such as
 [[!redirects 2-adjunctions]]
 
 [[!redirects adjoint 2-functor]]
+[[!redirects 2-adjoint]]
+[[!redirects 2-adjoints]]
+[[!redirects left 2-adjoint]]
+[[!redirects left 2-adjoints]]
+[[!redirects right 2-adjoint]]
+[[!redirects right 2-adjoints]]
