@@ -7,3 +7,5 @@ category: people
 [[!redirects Poincaré]]
 [[!redirects Poincare]]
 [[!redirects Henri Poincare]]
+[[!redirects Henri Poincaré's]]
+
