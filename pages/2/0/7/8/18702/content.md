@@ -48,3 +48,7 @@ The relation to the [[topological string]] [[B-model]], [[Gromov-Witten invarian
 * {#EynardOrantin12} [[Bertrand Eynard]], [[Nicolas Orantin]], _Computation of open Gromov-Witten invariants for toric Calabi-Yau 3-folds by topological recursion, a proof of the BKMP conjecture_ ([arXiv:1205.1103](https://arxiv.org/abs/1205.1103))
 
 * {#FangLiuZong13} Bohan Fang, Chiu-Chu Melissa Liu, Zhengyu Zong, _All Genus Open-Closed Mirror Symmetry for Affine Toric Calabi-Yau 3-Orbifolds_ ([arXiv:1310.4818](https://arxiv.org/abs/1310.4818))
+
+During the Institut Henri Poincar&#233;'s thematic trimester "[Combinatorics and interactions](http://combi17.math.cnrs.fr)", Nicolas Orantin delivered a series of lectures on topological recursion, which are available online:
+
+* [[Nicolas Orantin]], "Topological Recursion", eight-part lecture series, 2017. [youtube](https://m.youtube.com/watch?v=qvBfeVLPZpE) (1/8)
