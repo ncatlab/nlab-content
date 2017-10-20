@@ -46,15 +46,17 @@ A **linear functor** $F:C\to D$ between linearly distributive categories consist
 
 $$ F_\otimes (A\parr B) \to F_\parr(A) \parr F_\otimes (B) $$
 
-$$ F_\otimes (A\parr B) \to F_\otimes(A) \parr F_\parr(B)$$
+$$ F_\otimes (A\parr B) \to F_\otimes(A) \parr F_\parr(B) $$
 
 $$ F_\otimes (A) \otimes F_\parr(B) \to F_\parr(A\otimes B)$$
 
 $$ F_\parr (A) \otimes F_\otimes(B) \to F_\parr(A\otimes B)$$
 
-satisfying appropriate coherence conditions; see [Cockett-Seely 1999](#CockettSeely1999).
+satisfying appropriate coherence conditions; see [Cockett-Seely 1999](#CockettSeely1999).  A **linear natural transformation** $F\to G$ consists of a monoidal transformations $F_\otimes \to G_\otimes$  and $F_\parr \to G_\parr$ satisfying further coherence conditions.  This defines a 2-category of linearly distributive categories, which has the property of embedding the 2-category of $\ast$-autonomous categories and arbitrary lax monoidal functors (see below).
 
-A **linear natural transformation** $F\to G$ consists of a monoidal transformations $F_\otimes \to G_\otimes$  and $F_\parr \to G_\parr$ satisfying further coherence conditions.  This defines the 2-category of linearly distributive categories.
+On the other hand, a linear functor in this sense is more general than a functor between underlying [[polycategories]] (see below).  The latter probably coincide with linear functors having the property that $F_\otimes = F_\parr$ as functors (so that the same functor $F$ is $\otimes$-lax monoidal and $\parr$-colax monoidal) and the linear strengths are identities.  We might call these **Frobenius linear functors**, since such a $1\to C$ is the same as a [[Frobenius algebra]] in $C$, and when specialized to the monoidal case $\otimes=\parr$ they coincide with [[Frobenius monoidal functors]].
+
+Yet stronger is the notion of *strong* Frobenius linear functor, in which the lax and colax monoidal structures are [[strong monoidal functor|strong]].
 
 
 ## Related structures
@@ -86,9 +88,14 @@ $$\,$$
 
 $$1_{\neg A} = \left( \neg A \cong \neg A \otimes \top \to \neg A \otimes (A \parr \neg A) \stackrel{dist}{\to} (\neg A \otimes A) \parr \neg A \to \bot \parr \neg A \cong \neg A \right).$$ 
 
-Then symmetric linearly distributive categories with negations are the same as $\ast$-autonomous categories; see ([Cockett-Seely 97](#CockettSeely97)).  Moreover, the [[forgetful functor]] from $\ast$-autonomous categories to symmetric linearly distributive ones has a [[left adjoint]] that "freely adjoins negations", and a [[right adjoint]] that picks out the "nucleus" of [[dualizable objects]] (in the linear sense); see [Cockett-Seely 1999](#CockettSeely1999).
+Then symmetric linearly distributive categories with negations are the same as $\ast$-autonomous categories; see ([Cockett-Seely 97](#CockettSeely97)).  Moreover:
 
-Analogous facts hold relating non-symmetric linearly distributive categories with [[non-symmetric star-autonomous categories]].
+* the [[forgetful functor]] from $\ast$-autonomous categories to symmetric linearly distributive ones has a [[left adjoint]] that "freely adjoins negations".  I don't know which kind of functors this statement refers to.
+
+* This functor also has a [[right adjoint]] that picks out the "nucleus" of [[dualizable objects]] (in the linear sense); see [Cockett-Seely 1999](#CockettSeely1999).  This adjunction uses lax monoidal functors between $\ast$-autonomous categories and linear functors between linearly distributive categories.
+
+* Analogous facts hold relating non-symmetric linearly distributive categories with [[non-symmetric star-autonomous categories]].
+
 
 ### Polycategories
 
@@ -104,7 +111,8 @@ $$\begin{aligned}
   &\xrightarrow{1_{C\parr E}\parr g} (C\parr E) \parr H\\
   &\xrightarrow{\cong} C\parr H\parr E
 \end{aligned}$$
-Conversely, a polycategory that is suitably "representable" yields a linearly distributive category, and the forgetful functor from linearly distributive categories to polycategories has a left adjoint; see ([Cockett-Seely 97](#CockettSeely97)).
+Conversely, a polycategory that is suitably "representable" yields a linearly distributive category.  And the forgetful functor from linearly distributive categories and *strong Frobenius* linear functors to polycategories has a left adjoint; see ([Cockett-Seely 97](#CockettSeely97)).
+
 
 ### Symmetric monoidal categories
 
