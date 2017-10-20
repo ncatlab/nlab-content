@@ -40,6 +40,8 @@ $Prof$ is a sort of classifying object for arbitrary functors; see [[displayed c
 
 There are also [[enriched category|enriched]] and [[internal category|internal]] versions of $Prof$. These accordingly refine [[categories of enriched categories]].
 
+$Prof$ is a [[locally cocomplete bicategory]].
+
 ## Related concepts
 
 * [[Pos]]
