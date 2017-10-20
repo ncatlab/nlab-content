@@ -13,10 +13,18 @@ Matrix models are studied mainly in the context of [[statistical mechanics]] (se
 
 * [[Fredholm determinant]], [[random matrix theory]], [[determinantal process]], [[Kontsevich matrix model]], [[large N limit]]
 
+* [[integrable system]], [[topological recursion]]
+
 
 Matrix models that have been argued to capture [[D-brane]] dynamics and [[nonperturbative effects]] in [[string theory]] include
 
 * [[BFSS matrix model]], [[IKKT matrix model]], [[membrane matrix model]], [[K-matrix model]]
+
+## References
+
+Discussion of [[topological recursion]] for matrix models originates with
+
+* [[Leonid Chekhov]], [[Bertrand Eynard]], [[Nicolas Orantin]], _Free energy topological expansion for the 2-matrix model_, JHEP 0612:053,2006 ([arXiv:math-ph/0603003](https://arxiv.org/abs/math-ph/0603003))
 
 
 category: physics
