@@ -245,6 +245,19 @@ As before, we may equivalently state this after [[delooping]] the monoidal struc
 
 =--
 
+## In a linearly distributive category
+
+In a [[linearly distributive category]], duality is naturally defined by mixing the two tensors $(\otimes,\top)$ and $(\parr,\bot)$: the unit is $i : \top \to A \parr A^* $ and the counit is $ev:A^* \otimes A \to \bot$.  The triangle identities make sense by inserting the linear distributivities; they assert that the following composites are identities:
+
+$$ A \cong \top \otimes A \xrightarrow{i} (A \parr A^*) \otimes A \xrightarrow{\delta} A \parr (A^* \otimes A) \xrightarrow{ev} A \parr \bot \cong A $$
+
+$$ A^* \cong A^* \otimes \top \xrightarrow{i} A^* \otimes (A \parr A^*) \xrightarrow{\delta} (A^* \otimes A) \parr A^* \xrightarrow{ev} \bot \parr A^* \cong A^*. $$
+
+A symmetric linearly distributive category is (symmetric) [[star-autonomous category|star-autonomous]] if and only if all objects have duals in this sense.  The same is true in the non-symmetric case if we require both left and right duals.
+
+This notion of duality generalizes to that of [[linear adjoints]] in a [[linear bicategory]].
+
+
 ## Related concepts
 
 * [[dualizing object]]
