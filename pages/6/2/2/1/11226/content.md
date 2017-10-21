@@ -14,6 +14,8 @@
 
 * [[Kolmogorov complexity]]
 
+* [[descriptive complexity]]
+
 * [[Chaitin's incompleteness theorem]]
 
 * [[computational complexity and physics]]
@@ -25,3 +27,5 @@
 Discussion of complexity classes via [[linear logic]] includes
 
 * Pierre Boudes, Damiano Mazza, Lorenzo Tortora de Falco, _An Abstract Approach to Stratification in Linear Logic_ ([arXiv:1206.6504](http://arxiv.org/abs/1206.6504))
+
+[[!redirects Complexity theory]] 
