@@ -80,7 +80,7 @@ $$
 
 ## Properties ##
 
-Let $\lambda \gt \kappa$ be a regular cardinal greater than $\kappa$.  Then any $\lambda$-[[filtered category]] $D$ is also $\kappa$-filtered.  For being $\lambda$-filtered means that any diagram in $D$ of size $\lt\lambda$ has a cocone; but any diagram of size $\lt\kappa$ is of course also $\lt\lambda$.  Thus, any $\lambda$-[[filtered colimit]] is also a $\kappa$-filtered colimit, so any functor which preserves $\kappa$-filtered colimits must in particular preserve $\lambda$-filtered colimits.  It follows that any $\kappa$-presentable object is also $\lambda$-presentable.
+Let $\lambda \gt \kappa$ be a regular cardinal greater than $\kappa$.  Then any $\lambda$-[[filtered category]] $D$ is also $\kappa$-filtered.  For being $\lambda$-filtered means that any diagram in $D$ of size $\lt\lambda$ has a cocone; but any diagram of size $\lt\kappa$ is of course also $\lt\lambda$.  Thus, any $\lambda$-[[filtered colimit]] is also a $\kappa$-filtered colimit, so any functor which preserves $\kappa$-filtered colimits must in particular preserve $\lambda$-filtered colimits.  It follows that any $\kappa$-compact object is also $\lambda$-compact.
 
 ## Examples and applications ##
 
