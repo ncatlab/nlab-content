@@ -4,7 +4,7 @@
 
 ## Idea
 
-Complexity theory is an area of research in computer science that aims to determine the amount of resources (time and space usually) that an algorithm needs to decide a query. Descriptive complexity is a branch of complexity theory that uses sentences in finite model theory to describe queries. It turns out that the languages of these sentences directly correspond to known complexity classes.
+[[Complexity theory]] is an area of research in computer science that aims to determine the amount of resources (time and space usually) that an algorithm needs to decide a query. **Descriptive complexity** is a branch of complexity theory that uses sentences in finite model theory to describe queries. It turns out that the languages of these sentences directly correspond to known complexity classes.
 
 ## Related concepts
 
