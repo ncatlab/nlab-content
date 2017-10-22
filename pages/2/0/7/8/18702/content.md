@@ -19,6 +19,8 @@ There is some deep relation to the [[topological string]] [[B-model]] and [[Grom
 
 ## References
 
+### Original articles
+
 The method was introduced in
 
 
@@ -26,6 +28,8 @@ The method was introduced in
 
 * {#EynardOrantin07} [[Bertrand Eynard]], [[Nicolas Orantin]], _Invariants of algebraic curves and topological expansion_ ([arXiv:math-ph/0702045](https://arxiv.org/abs/math-ph/0702045))
 
+### Review and exposition
+ 
 Review and exposition includes
 
 * [[Bertrand Eynard]], [[Nicolas Orantin]], _Topological recursion in rand
@@ -33,9 +37,15 @@ om matrices and enumerative geometry_, J. Phys. A: Mathematical and Theoretical 
 
 * [[Bertrand Eynard]], _A short overview of the "Topological recursion"_ ([arXiv:1412.3286](https://arxiv.org/abs/1412.3286))
 
+During the Institut Henri Poincar&#233;'s thematic trimester "[Combinatorics and interactions](http://combi17.math.cnrs.fr)", Nicolas Orantin delivered a series of lectures on topological recursion, which are available online:
+
+* [[Nicolas Orantin]], _Topological Recursion_, eight-part lecture series, 2017. [youtube](https://m.youtube.com/watch?v=qvBfeVLPZpE) (1/8)
+
 The Kontsevich-Soibelman approach (and much more) is reviewed in
 
 * {#AndersenBorotChekhovOrantin17} [[Jørgen Andersen]], [[Gaëtan Borot]], [[Leonid Chekhov]], [[Nicolas Orantin]], _The ABCD of topological recursion_ ([arXiv:1703.03307](https://arxiv.org/abs/1703.03307))
+
+### Relation to topological string and mirror symmetry
 
 The relation to the [[topological string]] [[B-model]], [[Gromov-Witten invariants]] and [[mirror symmetry]] is due to
 
@@ -49,6 +59,6 @@ The relation to the [[topological string]] [[B-model]], [[Gromov-Witten invarian
 
 * {#FangLiuZong13} Bohan Fang, Chiu-Chu Melissa Liu, Zhengyu Zong, _All Genus Open-Closed Mirror Symmetry for Affine Toric Calabi-Yau 3-Orbifolds_ ([arXiv:1310.4818](https://arxiv.org/abs/1310.4818))
 
-During the Institut Henri Poincar&#233;'s thematic trimester "[Combinatorics and interactions](http://combi17.math.cnrs.fr)", Nicolas Orantin delivered a series of lectures on topological recursion, which are available online:
 
-* [[Nicolas Orantin]], "Topological Recursion", eight-part lecture series, 2017. [youtube](https://m.youtube.com/watch?v=qvBfeVLPZpE) (1/8)
+
+[[!redirects topological recursions]]
