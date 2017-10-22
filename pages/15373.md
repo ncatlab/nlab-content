@@ -1,5 +1,4 @@
-
-* [webpage](http://aix1.uottawa.ca/~rlucyshy/)
+* [webpage](http://lucyshyn-wright.ca)
 
 ## related $n$Lab entries
 
