@@ -36,11 +36,26 @@ The _smooth Serre-Swan theorem_ ([Nestruev 03, 11.33](#Nestruev03)) states that 
 
    ([Nestruev 03, 11.32](#Nestruev03)).
 
-This is the variant for [[differential geometry]] of what the [[Serre-Swan theorem]] asserts in [[algebraic geometry]] and in [[topology]].
+This is the variant for [[differential geometry]] of what the [[Serre-Swan theorem]] asserts in [[algebraic geometry]] and in [[topology]]. 
+
+
++-- {: .num_remark #BaseManifoldNotRequiredToBeCompact}
+###### Remark
+**(base [[smooth manifold]] not required to be [[compact space|compact]])
+
+Contrary to the original theorem of [Swan 62](Serre-Swan+theorem#Swan) for [[topological vector bundles]], here in the smooth case the base [[smooth manifold]] $X$ of the [[smooth vector bundle]] is _not required_ to be [[compact space|compact]]. While for [[topological spaces]] [[compact space|compactness]] is needed to deduce that every [[topological vector bundle]] is a [[direct sum|direct summand]] of a [[trivial vector bundle]] ([this prop.](topological+vector+bundle#TopologicalVectorbundleOverCompactHausdorffSpaceIsDirectSummandOfTrivialBundle)) for [[smooth vector bundles]] this conclusion follows without assuming compactness, by [[embedding of smooth manifolds]] into [[Cartesian spaces]] ([this prop.](embedding+of+differentiable+manifolds#ManifoldEmbedsIntoLargeDimensionalEuclideanSpace)).
+
+=--
+
+
++-- {: .num_remark}
+###### Remark
+**(other algebraic apects of differential geometry)**
 
 Together with the [[embedding of smooth manifolds into formal duals of R-algebras]], the smooth Serre-Swan theorem states that that differential geometry is "more algebraic" than it may superficially seem.
-
 A third fact in this vein is that _[[derivations of smooth functions are vector fields]]_.
+
+=--
 
 ## Related theorems
 
