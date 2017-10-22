@@ -215,7 +215,7 @@ Here it is explained how $*$-autonomous categories give Frobenius pseudomonads i
 
 Relation to linearly distributive categories:
 
-* [[Robin Cockett] and [[Robert Seely]], _Linearly distributive functors_, 1999 [doi](https://doi.org/10.1016/S0022-4049(98)00110-8)
+* [[Robin Cockett]] and [[Robert Seely]], _Linearly distributive functors_, 1999 [doi](https://doi.org/10.1016/S0022-4049(98)00110-8)
  {#CockettSeely99}
 
 [[!redirects star-autonomous categories]]
