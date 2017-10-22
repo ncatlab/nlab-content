@@ -1,3 +1,15 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Constructivism, Realizability, Computability
++-- {: .hide}
+[[!include constructivism - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -12,7 +24,7 @@
 
 ## References
 
-* Neil Immerman, Descriptive Complexity. Graduate texts in computer science (Springer-Verlag New York Inc.) (1999)
+* Neil Immerman, _Descriptive Complexity_, Graduate texts in computer science (Springer-Verlag New York Inc.) (1999)
 
-* Fagin, Ronald. "Generalized first-order spectra and polynomial-time recognizable sets". Complexity of Computation, ed. R. Karp, SIAM-AMS Proceedings, Vol. Vol. 7 (1974):43-73.
+* Ronald Fagin, _Generalized first-order spectra and polynomial-time recognizable sets_, Complexity of Computation, ed. R. Karp, SIAM-AMS Proceedings, Vol. Vol. 7 (1974):43-73.
 
