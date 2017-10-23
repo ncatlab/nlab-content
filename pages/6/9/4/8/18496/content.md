@@ -174,6 +174,23 @@ Finally to see that this argument generalizes to $\mathbf{H} = $ [[formal smooth
 
 =--
 
+## Properties
+
+### Wave front set
+
+
++-- {: .num_prop #EmptyWaveFrontSetCorrespondsToOrdinaryFunction}
+###### Proposition
+**([[empty set|empty]] [[wave front set]] corresponds to ordinary [[smooth functions]])**
+
+The [[wave front set]] of a compactly supported distribution is [[empty set|empty]] precisely if the distribution comes from an ordinary [[smooth function]] (hence a [[bump function]]). 
+
+=--
+
+e.g. ([H&#246;rmander 90, below (8.1.1)](#Hoermander90))
+
+
+
 ## Examples
 
 * [[microcausal functional]]
