@@ -206,7 +206,7 @@ On the other hand, there is no particular harm either in having such structure a
 
 * A subobject (a [[subfunctor]]) of a [[representable functor]]  is a [[sieve]].
 
-
+* A subobject of a [[bundle]] (hence in a [[slice category]]) is a [[sub-bundle]].
 
 
 
