@@ -18,11 +18,11 @@
 
 In [[microlocal analysis]], the _wave front set_ ([H&#246;rmander 70](#Hoermander70)) of a [[generalized function]] such as a [[distribution]] or a [[hyperfunction]] is a characterization of the singularity structure of the generalized function, hence of how it deviates from being an ordinary smooth function.
 
-The wave front set is the sub-bundle of the [[cotangent bundle]] that consists of all those directions (non-zero [[covectors]]) such that the local [[Fourier transform]] of the distribution is not rapidly decaying in this direction ([H&#246;rmander 90, section 8.1](#Hoermander90)).  Such covectors are stable under multiplication by positive scalars, so the wave front set can also be considered as a sub-bundle of the [[unit sphere bundle]] of the [[cotangent bundle]].
+The wave front set is the sub-bundle of the [[cotangent bundle]] that consists of all those directions (non-zero [[covectors]]) such that the local [[Fourier transform]] of the distribution is not rapidly decaying in this direction ([H&#246;rmander 90, section 8.1](#Hoermander90)).  Such covectors are stable under multiplication by positive scalars, so the wave front set can also be considered as a [[sub-bundle]] of the [[unit sphere bundle]] of the [[cotangent bundle]].
 
-The [[projection]] of the wave front set down to the base space is the [[singular support of a distribution|singular support]] of the distribution. The additional information in the "wave front" covectors over this singular support may be understood as providing the directions of _propagation of these singularities_. This is made precise by the _[[propagation of singularities theorem]]_
+The [[projection]] of the wave front set down to the base space is the [[singular support of a distribution|singular support]] of the distribution. The additional information in the "wave front" [[covectors]] over this singular support may be understood as providing the directions of _propagation of these singularities_. This is made precise by the _[[propagation of singularities theorem]]_
 
-A notorious issue with [[distributions]] is that, when thought of as generalized functions, generally neither their [[composition of distributions]] nor their pointwise [[product of distributions]] is defined. However, closer inspection shows that the obstruction to these operations being defined for any given pair of distributions is exactly characterized by the wave front set:
+A notorious issue with [[distributions]] is that, when thought of as generalized functions, generally neither their [[composition of distributions]] nor their pointwise [[product of distributions]] is defined. However, closer inspection shows that the [[obstruction]] to these operations being defined for any given pair of distributions is exactly characterized by the wave front set:
 
 For instance the [[product of distributions]] is well defined precisely if the sum of their wave front sets does not intersect the zero-section ([H&#246;rmander 90, theorem 8.2.10](#Hoermander90)).
 
@@ -197,15 +197,34 @@ where $supp(-)$ denotes the [[support of a distribution]].
 ## Properties
 
 
-+-- {: .num_prop #EmptyWaveFronSetCorrespondsToOrdinaryFunction}
++-- {: .num_prop #EmptyWaveFrontSetCorrespondsToOrdinaryFunction}
 ###### Proposition
 **(empty wave front set corresponds to ordinary functions)**
 
-The wave front set of a [[compactly supported distribution]] is empty precisely if the distribution comes from an ordinary smooth function (hence a [[bump function]]). 
+The wave front set of a [[compactly supported distribution]] is empty precisely if the distribution comes from an ordinary [[smooth function]] (hence a [[bump function]]). 
 
 =--
 
 e.g. ([H&#246;rmander 90, below (8.1.1)](#Hoermander90))
+
+
++-- {: .num_prop #DerivativeOfDistributionRetainsOrShrinksWaveFrontSet}
+###### Proposition
+**([[derivative of distributions]] retains or shrinks wave front set)**
+
+Taking [[derivatives of distributions]] retains or shrinks the wave front set:
+
+For $u \in \mathcal{D}'(\mathbb{R}^n)$ a distribution and $\alpha \in \mathbb{N}^n$ a multi-index with $D^\alpha$ denoting the corresponding [[partial derivative]], then 
+
+$$
+  WF(D^\alpha u) \subset WF(u)
+  \,.
+$$ 
+
+=--
+
+([H&#246;rmander 90, (8.1.10), p. 256](#Hoermander90))
+
 
 ## References
 
