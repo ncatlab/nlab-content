@@ -41,6 +41,8 @@ In the [[Euclidean space]] $(X,d) = E^n$ of [[dimension]] $n$, the unit sphere i
 
 * [[stereographic projection]]
 
+* [[unit sphere bundle]]
+
 [[!redirects unit spheres]]
 
 [[!redirects unit n-sphere]]
