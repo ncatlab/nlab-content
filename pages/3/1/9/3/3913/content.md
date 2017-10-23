@@ -20,7 +20,7 @@
 
 ## Idea
 
-The **Thom space** $Th(V)$ of a real [[vector bundle]] $V \to X$ over a [[topological space]] $X$ is the [[topological space]] obtained by first forming the disk bundle $D(V)$ of (unit) disks in the [[fibers]] of $V$ (with respect to a [[metric]] given by any choice of [[orthogonal structure]]) and then identifying to a point the [[boundaries]] of all the disks, i.e. forming the [[quotient topological space]] by the [[sphere bundle]] $S(V)$:
+The **Thom space** $Th(V)$ of a real [[vector bundle]] $V \to X$ over a [[topological space]] $X$ is the [[topological space]] obtained by first forming the disk bundle $D(V)$ of (unit) disks in the [[fibers]] of $V$ (with respect to a [[metric]] given by any choice of [[orthogonal structure]]) and then identifying to a point the [[boundaries]] of all the disks, i.e. forming the [[quotient topological space]] by the [[unit sphere bundle]] $S(V)$:
 
 $$
   Th(V) \coloneqq D(V)/S(V)
