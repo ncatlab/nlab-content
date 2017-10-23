@@ -124,6 +124,8 @@ where $i_\ast b \in C^\infty_c(X)$ is the result of extending $b$ by zero to all
 
 * [[extension of distributions]]
 
+* [[support of a distribution]]
+
 ## References
 
 
@@ -131,6 +133,7 @@ where $i_\ast b \in C^\infty_c(X)$ is the result of extending $b$ by zero to all
 
 * {#Melrose03} [[Richard Melrose]], sections 4.17, 4.19 and 4.21 of _Introduction to microlocal analysis_, 2003 ([pdf](http://www-math.mit.edu/~rbm/iml90.pdf))
 
+* [[Sergiu Klainerman]], chapter 3, section 4 of _Lecture notes in analysis_, 2011 ([pdf](https://web.math.princeton.edu/~seri/homepage/courses/Analysis2011.pdf))
 
 [[!redirects pullbacks of a distribution]]
 
