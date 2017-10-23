@@ -24,9 +24,9 @@
 
 ## Idea
 
-A _spherical fibration_ is a [[fiber bundle]] of [[homotopy types]] of [[spheres]] of some [[dimension]]. Typically this is considered after [[stabilization]] (hence up to tensoring with trivial spherical fibrations)  which makes spherical fibrations models for [[(∞,1)-module bundles]] for the [[sphere spectrum]] regarded as an [[E-∞ ring]].
+A _spherical fibration_ is a [[fiber bundle]] of [[spheres]] of some [[dimension]] (a [[sphere fiber bundle]]). Typically this is considered in [[homotopy theory]] where one considers [[fibrations]] whose [[fibers]] have the [[homotopy type]] of [[spheres]]; and this in turn is often considered in [[stable homotopy theory]] after [[stabilization]] (hence up to tensoring with trivial spherical fibrations)  which makes spherical fibrations models for [[(∞,1)-module bundles]] for the [[sphere spectrum]] regarded as an [[E-∞ ring]].
 
-Every real [[vector bundle]] becomes a spherical fibration upon removing its [[zero section]] and this construction induces a map from vector bundles and in fact from [[topological K-theory]] to spherical fibrations, called the _[[J-homomorphism]]_.
+Every [[real vector bundle]] becomes a spherical fibration in the sense of [[homotopy theory]] upon removing its [[zero section]] and this construction induces a map from vector bundles and in fact from [[topological K-theory]] to spherical fibrations, called the _[[J-homomorphism]]_.
 
 
 This is closely related to the [[Thom space]]/[[Thom spectrum]] construction for vector bundles. 
