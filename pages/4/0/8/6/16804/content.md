@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -44,32 +43,75 @@ Finally, it is also at times useful to consider chord diagrams with marked point
 ## Definitions
 
 Chord diagrams can be defined both in topological terms, which formalize the graphical intuition, as well as in purely combinatorial terms.
-We present only the combinatorial definition here, from which it is easier to begin with _rooted_ chord diagrams.
-(For the topological definitions of both unrooted and rooted chord diagrams, see for example Chapter 6 of [Lando and Zvonkin]({#LandoZvonkin}).)
+We present only the combinatorial definition here, starting from _rooted_ chord diagrams and using those to define unrooted chord diagrams, rather than the other way around.
+(For topological definitions of both unrooted and rooted chord diagrams, see for example Chapter 6 of [Lando and Zvonkin]({#LandoZvonkin}), or Definition 1.5 of [Bar-Natan 1995](#Bar-Natan1995) for the unrooted case.)
 
 ### Rooted chord diagrams
 
 +-- {: .un_defn}
 ###### Definition
 
-A **rooted chord diagram** of order $n\ge 1$ is a [[surjective]] [[monotone function]]
+A **rooted chord diagram** of order $n$ is a [[surjective]] [[monotone function]]
 $$
-  D : \underset{n\,\text{times}}{\underbrace{[0,1] + \dots + [0,1]}} \to [0,2n-1]
+  D : \underset{n\,\text{times}}{\underbrace{[0,1] + \dots + [0,1]}} \twoheadrightarrow [0,2n-1]
 $$
 from the $n$-fold [[coproduct]] of the [[walking arrow]] (seen as a 2-element [[poset]]) into the [[linear order]] $[0,2n-1] = \{ 0 \lt \dots \lt 2n-1 \}$.
-The symmetric group $S_n$ acts on rooted chord diagrams by precomposition with a permutation of the domain $[0,1] + \dots + [0,1]$, and we consider two rooted chord diagrams to be isomorphic if they only differ by such a permutation action.
+The symmetric group $S_n$ acts freely on the domain $[0,1] + \dots + [0,1]$ of a rooted chord diagram of order $n$, and we consider two rooted chord diagrams to be isomorphic if they only differ by precomposition with such a permutation action.
 
 =--
 
-Equivalently, a rooted chord diagram of order $n$ is a way of arranging the elements of $[0,2n-1]$ into a collection of (mutually disjoint) ordered pairs $(D_{10}, D_{11}), \dots, (D_{n0},D_{n1})$, where $D_{i0} \lt D_{i1}$ for each $1 \le i \le n$, and where we don't care about the relative ordering of the pairs.
+Equivalently, a rooted chord diagram of order $n$ is a way of arranging the elements of $[0,2n-1]$ into a collection of (necessarily mutually disjoint) ordered pairs $(D_{10}, D_{11}), \dots, (D_{n0},D_{n1})$, where $D_{i0} \lt D_{i1}$ for each $1 \le i \le n$.
 
 Equivalently, a rooted chord diagram of order $n$ is a [[shuffle]] of $n$ distinct 2-letter words $x x$, $y y$, $z z$, etc., considered up to [[alpha-conversion]].
+(Under this view, a rooted chord diagram can also be thought of/referred to as a **double-occurrence word**.)
 
 ### Unrooted chord diagrams
 
+Intuitively, the [[cyclic group]] $C_{2n}$ acts on rooted chord diagrams
+$$
+  D : \underset{n\,\text{times}}{\underbrace{[0,1] + \dots + [0,1]}} \twoheadrightarrow [0,2n-1]
+$$
+by acting on the codomain $[0,2n-1]$ via the map $\tau_n = x \mapsto x-1\,(\mod{2n})$.
+This is not quite well-typed, however, since the composite function $\tau_n \circ D$ is not quite order-preserving.
+It is easiest to define the action of $C_{2n}$ in terms of the view of a rooted chord diagram $D$ as a collection of ordered pairs $(D_{10}, D_{11}), \dots, (D_{n0},D_{n1})$.
+The action of $\tau_n$ is defined on each pair by
+$$
+ \tau_n(x,y) = \begin{cases}(x-1,y-1) & x\gt 0 \\ (y-1,2n-1) & x = 0 \end{cases}
+$$
+and this extends to an action on rooted chord diagrams by acting independently on the pairs.
+
++-- {: .un_defn}
+###### Definition
+
+An **unrooted chord diagram** of order $n$ is a rooted chord diagram of order $n$, considered up to the action of $\tau_n$.
+
+=--
+
 ## Properties
 
-The special property of rooted chord diagrams is that they are [[rigid]] objects, that is, a rooted chord diagram has no [[automorphism]] other than the [[identity morphism]].
+### Representation as involutions
+
+Every rooted chord diagram 
+$$
+  D : \underset{n\,\text{times}}{\underbrace{[0,1] + \dots + [0,1]}} \twoheadrightarrow [0,2n-1]
+$$
+uniquely determines a fixed point free involution
+$$
+  i_D : \{0,\dots,2n-1\} \to \{0,\dots,2n-1\}
+$$
+swapping the elements of each chord,
+$$
+  i_D(x) = \begin{cases}y & (x,y) \in D \\ y & (y,x) \in D\end{cases}
+$$
+and conversely, any such involution uniquely determines a rooted chord diagram up to isomorphism.
+In particular, there are
+$$
+ (2n-1)!! = (2n-1)(2n-3)\cdots 1
+$$
+distinct isomorphism classes of rooted chord diagrams of order $n$.
+
+### Symmetries
+
 Every rooted chord diagram uniquely determines a chord diagram simply by forgetting the basepoint.
 Conversely, an unrooted chord diagram of order $n$ can be rooted in up to $2n$ different ways (corresponding to the $2n$ intervals between the marked points), but might also have fewer rootings in the case of symmetries.
 
@@ -84,7 +126,7 @@ Finally, fixing a [[base point]] on the original knot gives rise to a Gauss diag
 
 Once again, this geometric object can be abstracted into a purely combinatorial one, called the _Gauss code_ of the knot (diagram).
 To construct the Gauss code, begin by assigning arbitrary labels to the crossings, then run the length of the knot (starting at some arbitrary base point) and output the name of each crossing as you visit it, together with a [[bit]] (or two bits in the case of a framed knot) specifying whether you are at an over-crossing or an under-crossing (of positive or negative writhe).
-(In this notation, the involution on the points of the underlying chord diagram is encoded implicitly as a _double-occurrence word_.)
+(In this notation, the involution on the points of the underlying chord diagram is encoded implicitly as a double-occurrence word.)
 
 Polyak and Viro called these "Gauss diagrams" after [[Carl Gauss]], who apparently studied the question of which chord diagrams arise from immersions of circles (see the chapter titled "Gauss is back: curves in the plane" of Ghys's _[A singular mathematical promenade](#Ghys16)_).
 This question also played a foundational role in [[virtual knot theory]] &mdash; indeed, according to [Kauffman (1999)](#Kauffman1999), the "fundamental combinatorial motivation" for the definition of virtual knots was the idea that it should be possible to interpret an _arbitrary_ Gauss diagram as encoding a knot (now no longer seen as an embedding of $S^1$ into $\mathbb{R}^3$, but into a thickened surface of arbitrary genus).
@@ -125,7 +167,7 @@ For the connection to [[Vassiliev invariants]] of [[singular knots]], see Chapte
 
 * {#LandoZvonkin} [[Sergei K. Lando]] and [[Alexander K. Zvonkin]], _Graphs on Surfaces and Their Applications_, Springer, 2004.
 
-* [[Dror Bar-Natan]], On the Vassiliev knot invariants, _Topology_ 34 (1995), 423-472. ([html](http://www.math.toronto.edu/~drorbn/papers/OnVassiliev/))
+* {#Bar-Natan1995} [[Dror Bar-Natan]], On the Vassiliev knot invariants, _Topology_ 34 (1995), 423-472. ([html](http://www.math.toronto.edu/~drorbn/papers/OnVassiliev/))
 
 * [[Simon Willerton]], Vassiliev invariants and the [[Hopf algebra]] of chord diagrams, Math. Proc. Camb. Phil. Soc. (1996), 119, 55.
 
@@ -146,3 +188,5 @@ The following book contains an extensive discussion of chord diagrams associated
 [[!redirects Gauss diagrams]]
 [[!redirects Gauss code]]
 [[!redirects Gauss codes]]
+[[!redirects double-occurrence word]]
+[[!redirects double-occurrence words]]
