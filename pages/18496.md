@@ -35,7 +35,8 @@ Therefore and since Schwartz's notation for the space $C^\infty(X)$ of all smoot
 
 For $n \in \mathbb{R}^n$,  write $C^\infty(\mathbb{R}^n)$ for the $\mathbb{R}$-[[vector space]] of [[smooth functions]] $\mathbb{R}^n \to \mathbb{R}$.
 
-This becomes a [[Fréchet space]] induced by the family of [[seminorms]] 
+Then the vector space $C^\infty(\mathbb{R}^n)$ becomes a [[Fréchet vector space]] induced by the family of [[seminorms]] 
+
 $$
   \array{
     C^\infty_c(\mathbb{R}^n) 
@@ -44,9 +45,26 @@ $$
     \\
     \Phi &\mapsto& \underset{x \in K}{sup} {\vert \partial^\alpha \Phi(x) \vert}
   }
+  \,,
 $$
 
-indexed by a [[countable set]] of [[compact subspaces]] $K \subset \mathbb{R}^n$ exhausting $\mathbb{R}^n$ and by a [[tuple]] $\alpha \in \mathbb{N}^n$ and give by sending a [[bump function]] $\Phi$ to the [[supremum]] over the points $x \in K$ of the [[absolute value]] of the [[partial derivative]] of $\Phi$ that is indexed by $\alpha$.
+indexed by $K \subset \mathbb{R}^n$ a [[compact subset]] and $\alpha \in \mathbb{N}^n$ a [[tuple]] encoding the degrees of the [[partial derivative]] $\partial^\alpha$. 
+
+Hence the seminorm $p_K^\alpha$ sends a [[bump function]] $\Phi$ to the [[supremum]] over the points $x \in K$ of the [[absolute value]] of the [[partial derivative]] $\partial^\alpha \Phi$; and the [[open subsets]] defined thereby are the [[unions]] of translations of the [[neighbourhood base|base]] [[open balls]]
+
+$$
+  B^\circ_{K,\alpha,\epsilon}(0)
+  =
+  \left\{
+    v \in \mathbb{R}^n
+    \;\vert\;
+    p_K^\alpha(v)
+    \lt
+    \epsilon
+  \right\}
+$$
+
+for $\epsilon \in (0,\infty)$.
 
 We write
 
@@ -54,7 +72,7 @@ $$
   \mathcal{E}(\mathbb{R}^n) \in TopVect_{\mathbb{R}}
 $$
 
-for the resulting [[topological vector space]].
+for the resulting [[Fréchet space|Fréchet]] [[topological vector space]].
 
 =--
 
@@ -75,6 +93,39 @@ to the [[topological vector space]] of [[bump functions]] from def. \ref{TVSOfCo
 =--
 
 e.g. ([Klainerman 08, p. 9](#Klainerman08))
+
++-- {: .num_prop}
+###### Proposition
+
+A [[linear function]]
+
+$$
+  u \;\colon\; C^\infty(\mathbb{R}^n) \longrightarrow \mathbb{R}
+$$
+
+is [[continuous function|continuous]] with respect to the [[topological space|topology]] of def. \ref{TVSOfCompactlySupportedFunctions}, hence is a compactly supported distribution (def. \ref{CompactlySupportedDistributionsAsContinuousLinearDualsToBumpFunctions})
+
+$$
+  \mathcal{E}(\mathbb{R}^n) \longrightarrow \mathbb{R}
+$$
+
+precisely if
+
+* for every [[compact subset]] $K \subset \mathbb{R}^n$ there exists $C \in \mathbb{R}$ and $k \in \mathbb{N}$ such that
+
+  $$
+    \underset{\Phi \in C^\infty(\mathbb{R}^n)}{\forall} 
+    \left(
+      \Vert u(\Phi)\Vert
+      \;\leq\;
+      C \underset{ {\vert \alpha \vert \leq k} }{\sum} \underset{x \in K}{sup} \Vert \partial^\alpha K\Vert
+    \right)
+  $$
+
+=--
+
+
+
 
 
 ### As smooth linear duals to smooth functions
