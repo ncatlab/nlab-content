@@ -72,9 +72,11 @@ The category of bundles over a given object $B$ is the [[over category]] $\mathc
 
 * **bundle**, [[display map]]
 
+* [[sub-bundle]]
+
 * [[ex-space]]
 
-* **fiber bundle** / [[fiber ∞-bundle]]
+* **[[fiber bundle]]** / [[fiber ∞-bundle]]
 
   * [[associated bundle]]
 
@@ -83,6 +85,8 @@ The category of bundles over a given object $B$ is the [[over category]] $\mathc
     * [[line bundle]]
 
     * [[stable vector bundle]]
+
+  * [[sphere bundle]]
 
   * [[natural bundle]]
 
