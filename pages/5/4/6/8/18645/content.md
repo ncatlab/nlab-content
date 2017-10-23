@@ -979,7 +979,7 @@ $$
 
 =--
 
-+-- {: .num_prop #MinkowskiSpacetime}
++-- {: .num_defn #MinkowskiSpacetime}
 ###### Definition
 **([[Minkowski spacetime]] as a [[pseudo-Riemannian manifold]])
 
@@ -3468,7 +3468,7 @@ $$
 =--
 
 
-+-- {: .num_prop #DiracFieldBundle}
++-- {: .num_example #DiracFieldBundle}
 ###### Example
 **([[field bundle]] for [[Dirac field]])**
 
@@ -6395,28 +6395,30 @@ $\,$
  {#ObservablesAndStates}
 
 
-Given a [[field theory]] as above, then an _[[observable]] quantity_ (or just _[[observable]]_, for short) is a [[smooth function]]
+Given a [[field theory]] as above, then an _[[observable]] quantity_ or just _[[observable]]_, for short  is a [[smooth function]]
 
 $$
   A \;\colon\; \Gamma_\Sigma(E)_{\delta_{EL} = 0} \longrightarrow \mathbb{C}
 $$
 
-on the [[on-shell]] [[space of field histories]] (def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime}), 
-hence the [[smooth function|smooth]] "[[functionals]]". We think
+on the [[on-shell]] [[space of field histories]] (def. \ref{Observables} below),
+hence a [[smooth function|smooth]] "[[functional]]" of field histories. We think
 of this as assigning to each physically realizable field history $\Phi$ the value $A(\Phi)$ of the given quantity as exhibited by
 that field history. For instance concepts like "average field amplitude in spacetime region $\mathcal{O}$" should be
 observables.
 
-In the case that the [[field bundle]] is a [[vector bundle]], as in example \ref{TrivialVectorBundleAsAFieldBundle},
+In the case that the [[field bundle]] is a [[vector bundle]] (example \ref{TrivialVectorBundleAsAFieldBundle})
 and that the [[Euler-Lagrange equations|Euler-Lagrange]] [[equations of motion]] are given by a [[linear differential operator]]
-(a [[free field theory]], according to def. \ref{FreeFieldTheory}), the [[on-shell]] [[space of field histories]]
+(a [[free field theory]], according to def. \ref{FreeFieldTheory} below), the [[on-shell]] [[space of field histories]]
 is canonically a [[vector space]] and hence it makes sense to consider [[linear map|linear]] [[observables]], i.e.
 those observables $A$ with $A(c \Phi) = c A(\Phi)$ and $A(\Phi_1 + \Phi_2) A(\Phi_1) + A(\phi_2)$.
 It turns out that these are precisely the _[[distributions]]_ in the sense of [[functional analysis]].
-More generally there are the [[multilinear map|multilinear]] observables, and these are given by 
-[[distributions of several variables]].
+More generally there are the [[multilinear map|multilinear]] observables, and these are given by
+[[distributions of several variables]]. In full [[perturbative quantum field theory|perturbation theory]]
+we consider only the [[infinitesimal neighbourhood]] (example \ref{InfinitesimalNeighbourhood}) of a single [[on-shell]] [[field history]]
+and in this case all [[observables]] are in fact [[formal power series]] of such multilinear observables (def. \ref{LocalObservablesOnInfinitesimalNeighbourhood} below).
 
-The focus of interest is however just on the _[[local observables]]_:
+Among these the focus is furthermore on the _[[local observables]]_:
 
 In _[[local field theory]]_ the idea is that both the [[equations of motion]] as well as the observations
 are fully determined by their restriction to [[infinitesimal neighbourhoods]] of spacetime points ([[events]]).
@@ -6493,7 +6495,134 @@ of observables.
 This finally leads to the definition of _[[states]]_ in def. \ref{States} below.
 
 
+
+
 $\,$
+
+* _[General observables](#GeneralObservables)_
+
+* _[Local observables](#LocalObservablesByTransgression)_
+
+* _[Linear observables](#LinearObservablesAreDistributions)_
+
+* _[Infinitesimal observables](#InfinitesimalObservables)_
+
+* _[States](#StatesArePositiveLinearFunctionals)_
+
+$\,$
+
+**General observables**
+{#GeneralObservables}
+
++-- {: .num_defn #Observables}
+###### Definition
+**([[observables]])**
+
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
+with $\Gamma_\Sigma(E)_{\delta_{EL} \mathbf{L} = 0}$ its [[on-shell]] [[space of field histories]] (def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime}).
+
+Then an _[[observable]]_ is a [[smooth function]] on this [[diffeological space]] (def. \ref{DiffeologicalSpace})
+or more generally (for $E$ containing [[fermion fields]] such as the [[Dirac field]], example \ref{DiracFieldBundle})
+on this [[super formal smooth set]] (def. \ref{SuperFormalSmoothSet}) with values in the [[complex numbers]]:
+
+$$
+  A 
+    \;\colon\; 
+  \Gamma_\Sigma(E)_{\delta_{EL} \mathbf{L} = 0}
+    \longrightarrow
+  \mathbb{C}
+  \,.
+$$
+
+Explicitly, by def. \ref{SmoothSet} (and similarly by def. \ref{SuperFormalSmoothSet}) this means that 
+$A$ is for each [[Cartesian space]] $U$ (generally: [[super Cartesian space]], def. \ref{SuperCartesianSpace}) 
+a [[natural transformation|natural]] function of plots
+
+$$
+  A_U
+  \;\colon\;
+  \left\{
+    \array{
+      U \times \Sigma && \overset{\Phi_{(-)}}{\longrightarrow} && E
+      \\
+      & {}_{\mathllap{pr_2}}\searrow &&  \swarrow_{\mathrlap{fb}}
+      \\
+      && \Sigma
+    }
+  \right\}_{\delta_{EL}\mathbf{L} = 0}
+    \;\overset{}{\longrightarrow}\;
+  \left\{
+    U \to \mathbb{C}
+  \right\}
+  \,.
+$$
+
+
+=--
+
+The most basic kind of observables are the following:
+
++-- {: .num_exmple #PointEvaluationObservables}
+###### Example
+**(point evaluation observables -- field observables)
+
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) 
+whose [[field bundle]] (def. \ref{Fields}) over some [[spacetime]] $\Sigma$
+happens to be a [[trivial vector bundle]] in even degree (i.e. bosonic) with [[field fiber]] [[coordinates]] $(\phi^a)$ (example \ref{TrivialVectorBundleAsAFieldBundle}).
+With respect to these coordinates a [[field history]], hence a [[section]] of the [[field bundle]]
+
+$$
+  \Phi \;\in \; \Gamma_\Sigma(E)
+$$
+
+has components $(\Phi^a)$ which are [[smooth functions]] on [[spacetime]].
+
+Then for every index $a$ and every point $x \in \Sigma$ in [[spacetime]] (every [[event]]) there is an [[observable]] (def. \ref{Observables})
+denoted $\mathbf{Phi}^a(x)$ which is given by 
+
+$$
+  \mathbf{\Phi}^a(x)
+  \;\colon\;
+  \Phi_{(-)}  
+    \mapsto
+  \Phi_{(-)}^a(x)
+  \,,
+$$
+
+hence which on a test space $U$ (a [[Cartesian space]] or more generally [[super Cartesian space]], def. \ref{SuperCartesianSpace}) sends a $U$-parameterized collection of fields
+
+$$
+  \Phi_{(-)} \colon U \to \Gamma_\Sigma(E)_{\delta_{EL}\mathbf{L} = 0}
+$$
+
+to their $U$-parameterized collection of values at $x$ of their $a$-th component.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+**(warning on terminology)**
+
+In much of the literature on [[field theory]], the point evaluation observables $\mathbf{\Phi}^a(x)$ from
+example \ref{PointEvaluationObservables} are eventually referred to as "fields" themselves,
+blurring the distinction between 
+
+1. a field species/[[field bundle]] $E$, 
+
+1. a [[field history]]/[[section]] $\Phi$,
+
+1. a function on the space of field histories $\mathbf{\Phi}^a(x)$.
+
+This is a convenient shorthand when one knows what one is doing, but if not it leads to 
+conceptual puzzlements.
+
+=--
+
+$\,$
+
+
+**Local observables**
+ {#LocalObservablesByTransgression}
 
 +-- {: .num_defn #SpacetimeSupport}
 ###### Definition
@@ -6845,6 +6974,7 @@ $$
 and since this holds covariantly for all smooth families $\Phi_{(-)}$, this implies the claim.
 
 =--
+
 
 
 +-- {: .num_example #VariationOfTheActionFunctional}
@@ -7272,10 +7402,126 @@ averaged over spacetime.
 
 =--
 
-The definition of [[local observables]] in def. \ref{LocalObservables} uses explicit restriction to the [[shell]],
-hence, by the [[principle of extremal action]] (prop. \ref{PrincipleOfExtremalAction}) to the
-the "[[critical locus]]" of the [[action functional]]. Such [[critical loci]] are often hard to
-handle explicitly. It often helps to consider a "[[homological resolution]]" given, in good circumstances, by  the corresponding
+
+
+$\,$
+
+
+**Linear Observables**
+{#LinearObservablesAreDistributions}
+
+$\,$
+
+
++-- {: .num_defn #LinearObservables}
+###### Definition
+**(linear observable)**
+
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
+whose [[field bundle]] $E$ (def. \ref{Fields}) is a [[super vector bundle|super]] [[vector bundle]] and whose [[Lagrangian density]]
+$\mathbf{L}$ encodes a [[free field theory]] (def. \ref{FreeFieldTheory}) in that its
+[[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]] is a linear [[PDE]].
+
+This means that the
+[[on-shell]] [[space of field histories]] $\Gamma_\Sigma(E)_{\delta_{EL}\mathbf{L} = 0}$ (def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime})
+inherits the structure of a [[super vector space|super]] [[vector space]] by spacetime-pointwise (i.e. [[event]]-wise) scaling and addition of
+[[field histories]].
+
+Then an [[observable]] (def. \ref{Observables})
+
+$$
+  A \;\colon\; \Gamma_\Sigma(E)_{\delta_{EL}\mathbf{L} = 0} \longrightarrow \mathbb{C}
+$$
+
+is a _linear observable_ if it is a [[linear function]] with respect to this vector space structure, hence if
+
+$$
+  A\left( c \Phi_{(-)}) = c A(\Phi_{(-)} \right)
+  \phantom{AAAA}
+  \text{and}
+  \phantom{AAAA}
+  A\left(\Phi_{(-)} + \Phi'_{(-)} \right)
+  =
+  A\left( \Phi_{(-)}) + A(\Phi'_{(-)} \right)
+  \,.
+$$
+
+=--
+
++-- {: .num_prop #LinearObservablesAreTheCompactlySupportedDistributions}
+###### Proposition
+**(linear [[observables]] are the [[compactly supported distributions]])**
+
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
+over [[Minkowski spacetime]] (def. \ref{MinkowskiSpacetime}),
+whose [[field bundle]] $E$ (def. \ref{Fields}) is the [[trivial vector bundle|trivial]] [[real line bundle]] and whose [[Lagrangian density]]
+$\mathbf{L}$ encodes a [[free field theory]] (def. \ref{FreeFieldTheory}) in that its
+[[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]] is a linear [[PDE]].
+
+This means that the [[space of field histories]] $\Gamma_\Sigma(E) \simeq C^\infty(\Sigma)$ is the
+[[real vector space]] of [[smooth functions]] on [[Minkowski spacetime]] and that every linear observable $A$ (def. \ref{LinearObservables})
+gives a [[linear function]]
+
+$$
+  A_\ast \;\colon\; C^\infty(\Sigma)_{\delta_{EL}\mathbf{L} = 0} \longrightarrow \mathbb{C}
+  \,.
+$$
+
+This [[linear function]] $A_\ast$ is in fact
+a _[[compactly supported distribution]]_, in the sense of [[functional analysis]], in that it satisfies
+the following [[Fréchet vector space]] [[continuous function|continuity condition]]:
+
+* ([[Fréchet space|Fréchet]] [[continuous linear functional]])
+
+  A [[linear function]] $A_\ast$ on $C^\infty(\mathbb{R}^{p,1})$ is called _[[continuous function|continuous]]_ if
+  there exists
+
+  1. a [[compact subset]] $K \subset \mathbb{R}^{p,1}$ of [[Minkowski spacetime]];
+
+  1. a [[natural number]] $k \in \mathbb{N}$;
+
+  1. a [[positive number|positive]] [[real number]] $C \in \mathbb{R}_+$
+
+  such that for all [[on-shell]] [[field histories]]
+
+  $$
+    \Phi \in C^\infty(\Sigma)_{\delta_{EL}\mathbf{L} = 0}
+  $$
+
+  the following [[inequality]] of [[absolute values]] ${\vert -\vert}$ holds for all $\Phi \in C^\infty(\mathbb{R}^{p,1})$
+
+  $$
+    {\vert A_\ast(\Phi)\vert}
+    \;\leq\;
+    C \underset{{\vert \alpha \vert} \leq k}{\sum} \underset{x \in K}{sup} {\vert \partial^\alpha \Phi(x)\vert}
+    \,,
+  $$
+
+  where $\alpha \in \mathbb{N}^{p+1}$ is a multi-index for [[coordinates]] on [[Minkowski spacetime]] $\matbb{R}^{p,1}$
+  and where $\partial^\alpha \Phi$ denotes the corresponding [[partial derivative]].
+
+This identification yields a [[linear isomorphism]]
+
+$$
+  LinearObservables \overset{\simeq}{\longrightarrow} CompactlySupportedDistributions
+  \,.
+$$
+
+Hence every [[compactly supported distribution]] defines a unique linear observable.
+
+=--
+
+The **proof** is discussed at _[[distributions are the smooth linear functionals]]_.
+
+$\,$
+
+
+**Infinitesimal observables**
+ {#InfinitesimalObservables}
+
+The definition of [[observables]] in def. \ref{Observables} and specifically of [[local observables]] in def. \ref{LocalObservables} uses explicit restriction to the [[shell]],
+hence, by the [[principle of extremal action]] (prop. \ref{PrincipleOfExtremalAction}) to the "[[critical locus]]" of the [[action functional]]. Such [[critical loci]] are often hard to
+handle explicitly. It helps to consider a "[[homological resolution]]" that is given, in good circumstances, by the corresponding
 "[[derived critical locus]]".
 
 In order to have good control over these resolutions, we now consider the first _[[perturbative quantum field theory|perturbative]]_
@@ -7593,7 +7839,10 @@ $$
 
 
 
+$\,$
 
+**States**
+ {#StatesArePositiveLinearFunctionals}
 
 
 +-- {: .num_defn #States}
