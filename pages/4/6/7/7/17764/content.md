@@ -8,20 +8,20 @@ The **zeta polynomial** $Z_P(n)$ of a finite [[partially ordered set]] $P$ count
 
 ## Definition
 
-By a _multichain_ of length $n$ in $P$, we mean a sequence of elements $x_0 \le x_1 \le \cdots \le x_n$, which can be identified with an [[order-preserving function]] from the [[linear order]] $[n] = \{ 0 \lt 1 \lt \cdots \lt n \}$ into $P$.
+By a _multichain_ of length $n$ in $P$, we mean a sequence of elements $x_0 \le x_1 \le \cdots \le x_n$, which can be identified with an [[order-preserving function]] from the [[linear order]] $[0,n] = \{ 0 \lt 1 \lt \cdots \lt n \}$ into $P$.
 To see that
-$$Z_P(n) = |Hom([n],P)|$$
-defines a [[polynomial]] in $n$,[^Note] first observe that any function $[n] \to P$ factors as a [[surjection]] from $[n]$ onto some $[k] = \{ 0 \lt 1 \lt \cdots \lt k \}$ (where $k \le n$), followed by an [[injection]] from $[k]$ to $P$. The total number of order-preserving functions from $[n]$ to $P$ can therefore be calculated explicitly as 
+$$Z_P(n) = |Hom([0,n],P)|$$
+defines a [[polynomial]] in $n$,[^Note] first observe that any function $[0,n] \to P$ factors as a [[surjection]] from $[0,n]$ onto some $[0,k] = \{ 0 \lt 1 \lt \cdots \lt k \}$ (where $k \le n$), followed by an [[injection]] from $[0,k]$ to $P$. The total number of order-preserving functions from $[0,n]$ to $P$ can therefore be calculated explicitly as 
 $$Z_P(n) = \sum_{k=0}^{d} b_k \binom{n}{k}$$
-where $b_k$ is the number of _chains_ $x_0 \lt x_1 \lt \cdots \lt x_k$ in $P$ (i.e., injective order-preserving functions from $[k]$ to $P$), and where $d$ is the length of the longest chain. Hence $Z_P(n)$ is a polynomial of degree equal to the length of the longest chain in $P$.
+where $b_k$ is the number of _chains_ $x_0 \lt x_1 \lt \cdots \lt x_k$ in $P$ (i.e., injective order-preserving functions from $[0,k]$ to $P$), and where $d$ is the length of the longest chain. Hence $Z_P(n)$ is a polynomial of degree equal to the length of the longest chain in $P$.
 
 [^Note]: Note that the definition we use here for $Z_P(n)$ has an index shift from the definition that seems to be more standard in combinatorics. For example, the definition in [(Stanley, 3.12)](#StanleyEC1) counts multichains of length $n-2$ rather than of length $n$. Accordingly, one should apply a substitution to get some of the properties stated here to match equivalent results in the literature.
 
 ## Examples
 
-The zeta polynomial of $[2] = \{ 0 \lt 1 \lt 2 \}$ is
+The zeta polynomial of $[0,2] = \{ 0 \lt 1 \lt 2 \}$ is
 $$3 + 3n + \binom{n}{2} = \frac{n^2 + 5n + 6}{2}$$
-For example, evaluating the polynomial at $n=0$ and $n=1$ confirms that $[2]$ contains 3 points and 6 [[intervals]], while evaluating it at $n=2$ confirms that there are 10 order-preserving functions from $[2]$ to itself.
+For example, evaluating the polynomial at $n=0$ and $n=1$ confirms that $[0,2]$ contains 3 points and 6 [[intervals]], while evaluating it at $n=2$ confirms that there are 10 order-preserving functions from $[0,2]$ to itself.
 
 The zeta polynomial of the 5-element poset
 $$P = \array{&&v&& \\ &&\uparrow&& \\ &&u&& \\ &\nearrow& &\nwarrow& \\ y &&&& z \\ &\nwarrow& &\nearrow& \\ &&x&&}$$
@@ -34,12 +34,12 @@ Evaluating at $n=1$, we compute that $P$ contains 14 distinct intervals.
 
 The [[order polynomial]] is related to the  zeta polynomial by the equation
 $$
-\Omega_P(n+2) = Z_{L(P)}(n)
+\Omega_P(n+2) = Z_{P^\downarrow}(n)
 $$
-where $L(P) \cong [P,[1]]$ is the lattice of [[lower sets]] in $P$.
-This can be seen as a consequence of the isomorphisms
-$$Hom(P, [n+1]) \cong Hom(P, [[n],[1]]) \cong Hom(P\times [n],[1]) \cong Hom([n], [P,[1]])$$
-applying the isomorphism $[n+1] \cong [[n],[1]]$ together with [[currying]].
+where $P^\downarrow \cong [0,1]^P$ is the lattice of [[lower sets]] in $P$.
+This can be seen as a consequence of the [[currying]] isomorphisms
+$$Hom([0,n], P^\downarrow) \cong Hom([0,n] \times P, [0,1]) \cong Hom(P, [0,n]^\downarrow)$$
+together with the isomorphisms $[0,n]^\downarrow \cong [0,n+1] \cong [1,n+2]$.
 
 ### Relation to zeta function
 
