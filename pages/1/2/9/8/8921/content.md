@@ -46,7 +46,7 @@ Even if one accepts this, the resulting theory fails to describe global cosmolog
 
 ## Related concepts
 
-* An alternative proposal is that of [[fuzzy dark matter]], where the theory of gravity is left as is, but one assumes that there is [[dark matter]] which is so extremely light that its [[de Broglie wavelength]] is of the scales of galaxies. Such [[fuzzy dark matter]] models make the ame prediction as cold dark matter on cosmological scales, but changes behaviour on scales of galaxies due to the [[quantum physics|quantum]] nature of these light particles becoming relevant here. This change of behaviour has been argued to account for the kind of effects that MOND is a fit for.
+* An alternative proposal is that of [[fuzzy dark matter]], where the theory of gravity is left as is, but one assumes that there is [[dark matter]] which is so extremely light that its [[de Broglie wavelength]] is of the scales of galaxies. Such [[fuzzy dark matter]] models make the same prediction as cold dark matter on cosmological scales, but change behaviour on scales of galaxies due to the [[quantum physics|quantum]] nature of these light particles becoming relevant here. This change of behaviour has been argued to account for the kind of effects that MOND is a fit for.
 
 ## References
 
