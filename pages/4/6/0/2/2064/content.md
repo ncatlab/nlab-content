@@ -101,6 +101,8 @@ In [[noncommutative geometry]] both principal and associated bundles have analog
 
   * [[vector bundle]]
 
+  * [[sphere bundle]]
+
   * [[equivariant bundle]]
 
   * [[fiber bundles in physics]]
