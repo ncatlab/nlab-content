@@ -527,6 +527,7 @@ $$
 ## Properties
 
 ### Relative transgression over manifolds with boundary
+ {#RelativeTransgressionOverManifoldsWithBoundary}
 
 +-- {: .num_prop }
 ###### Proposition
