@@ -1033,7 +1033,7 @@ generalized [[Pauli matrices]] (prop./def. \ref{SpacetimeAsMatrices}) has some i
 
 +-- {: .num_prop #DeterminantViaProductWithTraceReversal}
 ###### Proposition
-**(Minkowski metric in terns of trace reversal)**
+**(Minkowski metric in terms of trace reversal)**
 
 In terms of the trace reversal operation $\widetilde{(-)}$ from def. \ref{TraceReversal},
 the [[determinant]] operation on [[hermitian matrices]] (def. \ref{MatrixNotation}) has the following alternative expression
@@ -2712,7 +2712,7 @@ A _[[smooth set]]_ $X$ is
      \left(
        \mathbb{R}^{n_2} \overset{\Phi}{\longrightarrow} X
      \right)
-     \;\overet{f^\ast}{\mapsto}\;
+     \;\overset{f^\ast}{\mapsto}\;
      \left(
        \mathbb{R}^{n_1} \overset{f}{\to} \mathbb{R}^{n_2} \overset{f}{\to} X
      \right)
@@ -6401,10 +6401,22 @@ $$
   A \;\colon\; \Gamma_\Sigma(E)_{\delta_{EL} = 0} \longrightarrow \mathbb{C}
 $$
 
-on the [[on-shell]] [[space of field histories]] (def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime}). We think
-of this function as assigning to each physically realizable field history $\Phi$ the value $A(\Phi)$ of the given quantity as exhibited by
-that field history. For instance concepts like "avarage field amplitude in spacetime region $\mathcal{O}$" should be
+on the [[on-shell]] [[space of field histories]] (def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime}), 
+hence the [[smooth function|smooth]] "[[functionals]]". We think
+of this as assigning to each physically realizable field history $\Phi$ the value $A(\Phi)$ of the given quantity as exhibited by
+that field history. For instance concepts like "average field amplitude in spacetime region $\mathcal{O}$" should be
 observables.
+
+In the case that the [[field bundle]] is a [[vector bundle]], as in example \ref{TrivialVectorBundleAsAFieldBundle},
+and that the [[Euler-Lagrange equations|Euler-Lagrange]] [[equations of motion]] are given by a [[linear differential operator]]
+(a [[free field theory]], according to def. \ref{FreeFieldTheory}), the [[on-shell]] [[space of field histories]]
+is canonically a [[vector space]] and hence it makes sense to consider [[linear map|linear]] [[observables]], i.e.
+those observables $A$ with $A(c \Phi) = c A(\Phi)$ and $A(\Phi_1 + \Phi_2) A(\Phi_1) + A(\phi_2)$.
+It turns out that these are precisely the _[[distributions]]_ in the sense of [[functional analysis]].
+More generally there are the [[multilinear map|multilinear]] observables, and these are given by 
+[[distributions of several variables]].
+
+The focus of interest is however just on the _[[local observables]]_:
 
 In _[[local field theory]]_ the idea is that both the [[equations of motion]] as well as the observations
 are fully determined by their restriction to [[infinitesimal neighbourhoods]] of spacetime points ([[events]]).
@@ -6959,6 +6971,18 @@ of $\Sigma_r$ in $\Sigma$ (eq:SpaceOfFieldHistoriesInHigherCodimension).
 
 =--
 
++-- {: .num_defn #FreeFieldTheory}
+###### Definition
+**([[free field theory]])**
+
+A [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
+is called a _[[free field theory]]_ if its [[Euler-Lagrange equation|Euler-Lagrange]] [[equations of motion]]
+(def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime}) is given by a
+[[differential operator]] which is [[linear differential operator]].
+
+
+=--
+
 +-- {: .num_prop #EquationOfMotionOfFreeRealScalarField}
 ###### Example
 **([[equation of motion]] of [[free field|free]] [[real scalar field]] is [[Klein-Gordon equation]])
@@ -6992,6 +7016,8 @@ $$
 
 This [[PDE]] is called the _[[Klein-Gordon equation]]_ on Minowski spacetime. If the [[mass]] $m$
 vanishes, $m = 0$, then this is the _relativistic [[wave equation]]_.
+
+Hence this is indeed a [[free field theory]] according to def. \ref{FreeFieldTheory}.
 
 =--
 
@@ -7032,6 +7058,8 @@ the [[Hodge star operator]] induced by the [[pseudo-Riemannian metric]] $\eta$ o
 
 These [[PDEs]] are called the _[[vacuum]] [[Maxwell's equations]]_.
 
+This, too, is a [[free field theory]] according to def. \ref{FreeFieldTheory}.
+
 =--
 
 
@@ -7061,6 +7089,8 @@ $$
 $$
 
 This is the _[[Dirac equation]]_.
+
+Hence this is a [[free field theory]] according to def. \ref{FreeFieldTheory}.
 
 Observe that the "square" of the [[Dirac operator]] is the [[Klein-Gordon operator]] $\Box + m^2$ (eq:KleinGordonEquation)
 
