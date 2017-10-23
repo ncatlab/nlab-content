@@ -23,7 +23,10 @@
 
 ## Idea
 
-A [[field (physics)|field]] [[theory (physics)|theory]] in [[physics]] is called a _free field theory_ if it describes standard [[dynamics]] of fields without any interaction. Formally this means essentially that the [[action functional]] for the fields consists only of an expression of the form $\exp(S(\phi)) = \exp(\int_X (\phi, \Delta \phi) vol_X)$, where $\Delta$ is a [[Laplace operator]] on spacetime.
+A [[field (physics)|field]] [[theory (physics)|theory]] in [[physics]] is called a _free field theory_ if it describes standard [[dynamics]] of fields without any [[interaction]]. 
+
+There is some freedom in formalizing precisely what this means. At the very least the [[equations of motion]] of a free field theory should be given by a [[differential operator]] which is [[linear differential operator]]. In [[relativistic field theory]] over a [[Lorentzian manifold|Lorentzian]] [[spacetime]] one typically requires that the linear differential equation of motion is, after [[gauge fixing]], in fact the [[wave equation]] or [[Klein-Gordon equation]].
+
 
 ## Definition
 
