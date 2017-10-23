@@ -46,7 +46,7 @@ The [[duality|dual]] notion is that of _[[coinduction]]_.
 
 ### By initial algebras over endofunctors
 
-The induction principle my neatly be formalized in terms of the notion of [[initial algebras of an endofunctor]].
+The induction principle may neatly be formalized in terms of the notion of [[initial algebras of an endofunctor]].
 
 In the [[category]] [[Set]], the [[initial algebra]] [[algebra for an endofunctor|for the endofunctor]] $F: X \to 1 + X$ is $\langle 0, s \rangle : 1 + \mathbb{N} \to \mathbb{N}$, where $\mathbb{N}$ is the set of [[natural numbers]], $0$ is the smallest natural number, and $s$ is the [[successor]] operation. 
 
@@ -63,6 +63,8 @@ In terms of this the **principle of induction** is equivalent to saying that the
 * [[inductive type]]
 
 * [[inductive definition]]
+
+* [[recursion]]
 
 ## References
 
