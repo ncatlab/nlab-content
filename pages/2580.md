@@ -117,7 +117,7 @@ A **distribution on** $X$ is a [[continuous linear functional]] of the form
 
 $$C^\infty_c(X) \longrightarrow \mathbb{R}$$ 
 
-from the [[topological vector space]] of compactly supported test functions (def. \ref{CompactlySupportedTestFunctions}) to the [[real numbers]].
+from the [[locally convex space|locally convex]] [[topological vector space]] of compactly supported test functions (def. \ref{CompactlySupportedTestFunctions}) to the [[real numbers]].
 
 The space of distributions on $X$ is denoted $\mathcal{D}'(X)$ (see also remark \ref{NotationForSpaceOfDistributions}). There is an obvious bilinear pairing 
 
@@ -139,7 +139,9 @@ continuous for all test functions $\phi$.  As $C_c^\infty(U)$ is reflexive, this
 
 =--
 
-Other natural topologies exist, such as uniform convergence on compact subsets of $C_c^\infty(U)$ (in this case, this agrees with uniform convergence on bounded subsets which usually goes by the name of the *strong* topology).
+See at _[[locally convex topological vector space]]_ the section _[Continuous linear functionals](locally+convex+space#ContinuousLinearFunctionals)_ for alternative characterizations of the continuity of distributions according to def. \ref{DistributionOnOpenSubsetOfEuclideanSpace}.
+
+Notice that other natural topologies exist, such as [[uniform convergence]] on compact subsets of $C_c^\infty(U)$ (in this case, this agrees with uniform convergence on bounded subsets which usually goes by the name of the *strong* topology).
 
 
 +-- {: .num_remark #NotationForSpaceOfDistributions}
