@@ -126,6 +126,8 @@ Note that this violates the convention that a $1$-foo is a foo; instead the ruli
 
 * [[stereographic projection]]
 
+* [[sphere fiber bundle]]
+
 * [[Reeb sphere theorem]]
 
 * [[homotopy groups of spheres]]
