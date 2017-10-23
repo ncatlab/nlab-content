@@ -1,5 +1,4 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -20,10 +19,7 @@ _Zorn\'s lemma_ is a [[proposition]] in [[set theory]] and [[order theory]]. It 
 
 Depending on the chosen perspective on [[foundations]]
 this is either an [[axiom]] or a [[deduction|consequence]] of the [[axiom of choice]]; or neither if neither the axiom of choice nor Zorn's lemma is assumed as an axiom.
-Conversely, Zorn\'s lemma and the [[axiom of excluded middle]] together imply the [[axiom of choice]].  Although it doesn\'t imply excluded middle itself, Zorn\'s lemma is not generally accepted in [[constructive mathematics]] as an [[axiom]].  
-
-> (Say something about how one can systematically get around this in many situations ....)
-
+Conversely, Zorn\'s lemma and the [[axiom of excluded middle]] together imply the [[axiom of choice]].  Although it doesn\'t imply excluded middle itself, Zorn\'s lemma is not generally accepted in [[constructive mathematics]] as an [[axiom]].  Sometimes the maximal element is only a convenience, and it's enough to use the entire poset or perhaps the collection of all chains instead; sometimes, the use of Zorn's Lemma is essential.
 
 In as far as it holds or is assumed to hold, Zorn's lemma is a standard method for constructing (or at least, [[proof|proving]] the [[existence]] of) objects that are 'maximal' in an appropriate sense.  It is commonly used in [[algebra]] and named after the algebraist [[Max Zorn]] (although he himself protested the naming after him).
 
@@ -41,7 +37,7 @@ In as far as it holds or is assumed to hold, Zorn's lemma is a standard method f
 * An _[[upper bound]]_ of a subset $A$ of $S$ is an element $x$ of $S$ such that $y \leq x$ whenever $y \in A$.  
 =--
 
-+-- {: .num_defn}
++-- {: .num_defn #statement}
 ###### Definition
 
 The [[proposition]] __Zorn\'s Lemma__ states that each preordered set $S$ has a maximal element if every chain in $S$ has an upper bound.
@@ -103,7 +99,8 @@ We first show that Zorn's lemma implies the classical [[well-ordering principle]
 3. The [[axiom of choice]] follows: suppose given a [[surjection]] $p: E \to B$, so that every [[fiber]] $p^{-1}(b)$ is [[inhabited set|inhabited]]. Consider any well-ordering of $E$, and define $s: B \to E$ by letting $s(b)$ be the least element in $p^{-1}(b)$ with respect to the well-ordering. This gives a section $s$ of $p$. 
 =--
 
-### Bourbaki-Witt theorem 
+
+## Bourbaki-Witt theorem 
 
 Many accounts of the proof of Zorn's lemma start by establishing first the so-called Bourbaki-Witt theorem, which does not require AC and is of interest in its own right. However, it too does not admit a constructive proof; see [Bauer](#Bauer) for a demonstration that it is not valid in the [[effective topos]]. That said, the issue is subtle enough that the Bourbaki-Witt theorem nonetheless holds in topos with a [[geometric morphism]] to $Set$, for instance any [[Grothendieck topos]], assuming B-W holds in $Set$ ([Bauer-Lumsdaine 2013](#Bauer-Lumsdaine_13)).
 
@@ -138,6 +135,34 @@ An alternative proof of Bourbaki-Witt would be along lines similar to those used
 The Bourbaki-Witt theorem is an example of a fixed-point theorem. We should point out its kinship with the quite remarkable fixed-point theorem due to Pataraia, who observed that the conclusion of the Bourbaki-Witt theorem may be strengthened quite considerably, and proved constructively (!), if we change the hypothesis to say that $s$ is a monotone operator (preserves the order $\leq$) on an inhabited [[dcpo]]. See [[fixed point]] for a brief account, and this [blog post](https://projects.lsv.ens-cachan.fr/topology/?page_id=176) for some appreciative commentary. 
 =-- 
 
+
+## Well-ordered formulation
+
+[[Terry Tao]] [points out](https://terrytao.wordpress.com/2009/01/28/245b-notes-7-well-ordered-sets-ordinals-and-zorns-lemma-optional/) (Remark 14) that the proof of Zorn's Lemma uses only the well-ordered chains, allowing a weakened hypothesis.  This is most naturally stated in the context of [[quosets]] rather than [[posets]]:
+
++-- {: .num_defn #WellChainAndStrictUpperBound}
+###### Definition
+
+* Given a [[quasiordered set]] $(S, \lt)$, an element $x$ of $S$ is _[[maximal element|maximal]]_ if $x \lt y$ never holds.
+
+* A _[[well-ordered set|well-ordered]] chain_ (or simply _well-chain_) in $S$ is a [[subset]] $A \hookrightarrow S$ such that $\lt$ is a [[well order]] on $A$.  
+
+* A _[[strict upper bound]]_ of a subset $A$ of $S$ is an element $x$ of $S$ such that $y \lt x$ whenever $y \in A$.  
+=--
+
+The change to *strict* upper bounds is natural in a quasiordered context; it makes no difference in the presence of excluded middle, since we wish to conclude that a maximal element exists; if there is no maximal element, then any set with an upper bound immediately gets a strict upper bound along with it.
+
++-- {: .num_defn #wellStatement}
+###### Definition
+
+The well-ordered __Zorn\'s Lemma__ states that any quasiordered set $S$ has a maximal element if every well-chain in $S$ has a strict upper bound, or more simply that it is not possible in a well-ordered set that every well-chain has an upper bound.  Or from another perspective, if every well-ordered subset of a quasiordered [[class]] $S$ has a strict upper bound, then $S$ is a [[proper class]].
+=--
+
+The &#8216;more simply&#8217; formulation is equivalent (even constructively) because, on the one hand, if $m$ is a maximal element, then ${m}$ is a well-chain with no strict upper bound, contradicting the hypothesis; while on the other hand, anything whatsoever is true of a nonexistent quoset $S$.  The &#8216;another perspective&#8217; is then immediate is by a &#8216;proper class&#8217; one simply means a class that is not a set.
+
+Assuming excluded middle, this is (a priori) stronger than the usual Zorn's Lemma, since only well-ordered chains are required to have upper bounds.  (Of course, once all the proofs are in, they are both simply equivalent to the Axiom of Choice.)  In [[constructive mathematics]], however, it is not stronger, for two reasons: just because $S$ has no maximal element, that doesn't mean that every upper bound has a strict upper bound; and even if this could be fixed, we would only conclude that $S$ does [[not not]] have a maximal element.  However, I intend to argue that this version of Zorn's Lemma should be regarded as more constructively acceptable; some relativized versions are flat-out true.
+
+
 ## Usage/applications 
 
 It is very common, when starting with a preordered set $S$, to apply Zorn\'s lemma not to $S$ itself but to an [[up-set]] (an [[under category]]) in $S$.  That is, one starts with an element $x$ of $S$ and proves the existence of a maximal element comparable to $x$.
@@ -152,12 +177,12 @@ Zorn\'s lemma may be used to prove all of the following:
 
 Some of these are equivalent to Zorn\'s lemma, while some are weaker; conversely, some additionally require excluded middle. 
 
+
 ## References 
 
 * Serge Lang, _Algebra_ (third edition), Addison-Wesley 1993. 
 
 * {#Osius} Gerhard Osius, _Categorical set theory: a characterization of the category of sets_, Jour. Pure Appl. Alg. 4 (1974), 79-119. doi:[10.1016/0022-4049(74)90032-2](http://dx.doi.org/10.1016/0022-4049%2874%2990032-2) 
-
 
 * {#Bauer} [[Andrej Bauer]], _On the Failure of Fixed-Point Theorems for Chain-complete Lattices in the Effective Topos_, Electronic Notes in Theoretical Computer Science, **249** (2009) pp 157-167, doi:[10.1016/j.entcs.2009.07.089](http://dx.doi.org/10.1016/j.entcs.2009.07.089) _and_
 Theoretical Computer Science, **430** (2012) pp 43-50, doi:[10.1016/j.tcs.2011.12.005](http://dx.doi.org/10.1016/j.tcs.2011.12.005).
