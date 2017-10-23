@@ -265,9 +265,13 @@ Other useful references include
 
 * D. S. Mcnab, _Some applications of double-negation sheafification_ , Proc. Edinburgh Math. Soc. **20** (1977) pp.279-285.
 
+
 [[!redirects double negation]]
 [[!redirects double negations]]
 [[!redirects double-negation]]
+
+[[!redirects not not]]
+[[!redirects not-not]]
 
 [[!redirects double negation sublocale]]
 [[!redirects double negation sublocales]]
