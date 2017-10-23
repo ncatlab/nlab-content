@@ -108,6 +108,9 @@ $$
 * {#Hoermander90} [[Lars Hörmander]], _The analysis of linear partial differential operators_, vol. I, Springer 1983, 1990
 
 
+* [[Sergiu Klainerman]], chapter 3, section 3.5 of _Lecture notes in analysis_, 2011 ([pdf](https://web.math.princeton.edu/~seri/homepage/courses/Analysis2011.pdf))
+
+
 [[!redirects support of distributions]]
 
 [[!redirects singular support of a distribution]]
