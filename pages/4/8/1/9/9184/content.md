@@ -16,10 +16,10 @@
 
 ## Idea
 
-The _axion_ is hypothetical type of [[field (physics)|field]]/[[fundamental particle]] originally hypothesized ([Weinberg 77](#Weinberg77), [Wilcek 78](#Wilcek78))  as a solution to the [[strong CP problem]] in the [[standard model of particle physics]]. 
+The _axion_ is a hypothetical type of [[field (physics)|field]]/[[fundamental particle]] originally hypothesized ([Weinberg 77](#Weinberg77), [Wilcek 78](#Wilcek78))  as a solution to the [[strong CP problem]] in the [[standard model of particle physics]]. 
 After the initial model for the axion was quickly ruled out by [[experiment]] (see [Wilcek 78](#Wilcek78) for the early history) a variant model was found ([Dine-Fischler-Srednicki 81](#DineFischlerSrednicki81)), called the "invisible axion", which does not violate experimental bounds. 
 
-The "invisible axion" turns out to also be a natural candidate for [[dark matter]] [Preskill-Wise-Wilcek 83](#PreskillWiseWilcek83), hence potentially also solves one of the problems with the [[standard model of cosmology]]. More recently it is argued in [Hui-Ostriker-Tremaine-Witten 16](#HOTW16) that indeed axionic dark matter ([[fuzzy dark matter]]) potentially solves the remaining problems of standard WIMP dark matter models: WIMP dark matter models works exceedingly well on [[cosmology|cosmological]] scales but has serious experimental problems on the scale of [[galaxies]]. Due to the extreme lightness of axion particles, their [[de Broglie wavelength]] may be of the scale of galaxies and hence their quantum properties may become relevant at this scale to deviate in the right way from the WIMP models.
+The "invisible axion" turns out to also be a natural candidate for [[dark matter]] [Preskill-Wise-Wilcek 83](#PreskillWiseWilcek83), hence potentially also solves one of the problems with the [[standard model of cosmology]]. More recently it is argued in [Hui-Ostriker-Tremaine-Witten 16](#HOTW16) that indeed axionic dark matter ([[fuzzy dark matter]]) potentially solves the remaining problems of standard WIMP dark matter models: WIMP dark matter models work exceedingly well on [[cosmology|cosmological]] scales but has serious experimental problems on the scale of [[galaxies]]. Due to the extreme lightness of axion particles, their [[de Broglie wavelength]] may be of the scale of galaxies and hence their quantum properties may become relevant at this scale to deviate in the right way from the WIMP models.
 
 The Pecchei-Quinn shift symmetry of the axion and the peculiar nature of the axion [[interaction term]] which are needed to make the axion model work this way have been argued to naturally arise in [[string theory]], if the axion is identified with the [[KK-reduction]] of the [[higher gauge fields]] in string theory.
 
@@ -47,7 +47,7 @@ The solution to this problem via axions is to assume that $\theta$ is not really
 The idea is that a standard [[kinetic action]] 
 
 $$
-  S_{[kin} (a) \propto \int_X a \wedge \ast a
+  S_{kin} (a) \propto \int_X a \wedge \ast a
 $$
 
 together with the axion [[interaction]] term
@@ -69,7 +69,7 @@ the theta angle vanishes.
 
 That this is indeed the case is due to [Vafa-Witten 84, around (2)](#VafaWitten84). These authors argue via the [[Wick rotation|Wick rotated]] [[path integral]] as follows:
 
-Under [[Wick rotation]]. parity-violating terms in the [[Lagrangian density]] pick up an imaginary factor $i$. Therefore the [[path integral]] expression for the Wick rotated [[vacuum energy]] is
+Under [[Wick rotation]], parity-violating terms in the [[Lagrangian density]] pick up an imaginary factor $i$. Therefore the [[path integral]] expression for the Wick rotated [[vacuum energy]] is
 
 $$
   \begin{aligned}
