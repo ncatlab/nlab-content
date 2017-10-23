@@ -24,6 +24,8 @@ A [[bound state]] of three [[quarks]], hence a [[baryon]].
 
 ## Related entries
 
+* [[neutron star]]
+
 [[!include fields and quanta - table]]
 
 
