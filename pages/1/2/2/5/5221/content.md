@@ -76,16 +76,18 @@ On the other hand [[pretriangulated dg-categories]] are known to provide a model
 
 * [[polynomial functor]]
 
+* [[Schwartz kernel]]
+
 ## References
  {#References}
 
 Discussion of integral transforms in [[derived algebraic geometry]] (see also at _[[geometric infinity-function theory]]_) is in
 
-* [[David Ben-Zvi]], [[John Francis]], [[David Nadler]], _Integral Transforms and Drinfeld Centers in Derived Algebraic Geometry_ ([arXiv:0805.0157](http://arxiv.org/abs/0805.0157))
-  {#BZFN08}
+* {#BZFN08} [[David Ben-Zvi]], [[John Francis]], [[David Nadler]], _Integral Transforms and Drinfeld Centers in Derived Algebraic Geometry_ ([arXiv:0805.0157](http://arxiv.org/abs/0805.0157))
+  
 
-* [[David Ben-Zvi]], [[David Nadler]], Anatoly Preygel, _Integral transforms for coherent sheaves_ ([arXiv:1312.7164](http://arxiv.org/abs/1312.7164))
- {#BZNP13}
+* {#BZNP13} [[David Ben-Zvi]], [[David Nadler]], Anatoly Preygel, _Integral transforms for coherent sheaves_ ([arXiv:1312.7164](http://arxiv.org/abs/1312.7164))
+ 
 
 Comments on the formalization of integral transforms and [[quantization]] in [[dependent linear type theory]] are at
 
