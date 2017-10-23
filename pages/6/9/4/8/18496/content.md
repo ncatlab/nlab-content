@@ -26,7 +26,7 @@ Therefore and since Schwartz's notation for the space $C^\infty(X)$ of all smoot
 
 ## Definition
 
-### A continuous linear duals to smooth functions
+### As continuous linear duals to smooth functions
 
 
 +-- {: .num_defn #TVSOfCompactlySupportedFunctions}
