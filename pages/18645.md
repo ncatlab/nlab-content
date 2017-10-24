@@ -3339,7 +3339,7 @@ $$
 ###### Example
 **([[superpoint]] induced by a [[finite dimensional vector space]])**
 
-Let $V$ be a [[finite dimensional vector space]] over the [[real numbers]]. With $V^\ast$
+Let $V$ be a [[finite dimensional vector space|finite dimensional]] [[real vector space]]. With $V^\ast$
 denoting its [[dual vector space]] write $\wedge^\bullet V^\ast$ for the [[Grassmann algebra]]
 that it generates. This being a [[supercommutative algebra]], it defines a [[superpoint]] (def. \ref{SuperCartesianSpace}).
 
@@ -3347,7 +3347,7 @@ We sometime denote this superpoint by
 
 $$
   V_{odd} \simeq \mathbb{R}^{0 \vert dim(V)}
-  ,.
+  \,.
 $$
 
 
@@ -3360,9 +3360,9 @@ spell it out yet once more:
 
 +-- {: .num_defn #SuperFormalSmoothSet}
 ###### Definition
-**([[super formal smooth set]])**
+**([[super formal smooth set|super smooth set]])**
 
-A _[[super formal smooth set]]_ $X$ is
+A _[[super formal smooth set|super smooth set]]_ $X$ is
 
 1. for each [[super Cartesian space]]
    $\mathbb{R}^n \times Spec(A)$ (def. \ref{SuperCartesianSpace}) a [[set]]
@@ -3546,6 +3546,93 @@ $$
 
 =--
 
+We will focus on discussing the [[supergeometry|supergeometric]] [[space of field histories]] (example \ref{SupergeometricSpaceOfFieldHistories}) of the _[[Dirac field]]_ (example \ref{DiracFieldBundle}). We consider this below in example \ref{DiracFieldBundle},
+but first we discuss some relevant basics of general [[supergeometry]].
+
+Example \ref{SupergeometricSpaceOfFieldHistories} is really a special case of a general 
+relative [[mapping space]]-construction. Another special case of the general concept that
+we need is this:
+
++-- {: .num_defn #MappingSpaceOutOfASuperCartesianSpace}
+###### Definition
+**([[mapping space]] out of a [[super Cartesian space]])
+
+Let $X$ be a [[super Cartesian space]] (def. \ref{SuperCartesianSpace}) and let $Y$ be two [[super formal smooth sets|super smooth set]] (def. \ref{SuperFormalSmoothSet}).
+Then the _[[mapping space]]_ 
+
+$$
+  [X,Y] \;\in\; SuperSmoothSet
+$$ 
+
+of super smooth functions from $X$ to $Y$ is the [[super formal smooth set]]
+whose $U$-plots are the morphisms of [[super formal smooth set|super smooth set]] 
+from the [[Cartesian product]] of [[super Cartesian space]] $U \times X$ to $Y$,
+hence the $U \times X$-plots of $Y$:
+
+$$
+  [X,Y](U) \;\coloneqq\; Y(U \times X) 
+  \,.
+$$
+
+=--
+
+
++-- {: .num_example #SuperpointsMapping}
+###### Example
+**([[mapping space]] of [[superpoints]])**
+
+Let $V$ be a [[finite dimensional vector space|finite dimensional]] [[real vector space]] and 
+consider its corresponding [[superpoint]] $V_{odd}$ from exampe \ref{SuperpointInducedByFiniteDimensionalVectorSpace}.
+Then the [[mapping space]] (def. \ref{MappingSpaceOutOfASuperCartesianSpace}) out of the 
+[[superpoint]] $\mathbb{R}^{0\vert 1}$ (def. \ref{SuperCartesianSpace}) into $V_{odd}$ is 
+the [[Cartesian product]] $V_{odd} \times V$
+
+
+$$
+  [\mathbb{R}^{0\vert 1}, V_{odd}]
+  \;\simeq\;
+  V_{odd} \times V
+  \,.
+$$
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+Let $U$ be any [[super Cartesian space]]. Then by definition we have the 
+following sequence of [[natural bijections]] of sets of plots
+
+$$
+  \begin{aligned}
+    \left[
+      \mathbb{R}^{0\vert 1}, V_{odd}
+    \right](U)
+    & =
+    Hom_{SuperSmoothSet}( \mathbb{R}^{0\vert 1} \times U, V_{odd} )
+    \\
+    &
+    \simeq
+    Hom_{\mathbb{R}Alg}( \wedge^\bullet(V^\ast), C^\infty(U)[\theta]/(\theta^2) )
+    \\
+    &
+    \simeq
+    Hom_{\mathbb{R}Vect}( V^\ast , (C^\infty(U)_{odd} \oplus C^\infty(U)_{even}\langle \theta\rangle  )
+    \\
+    & \simeq
+    Hom_{\mathbb{R}Vect}( V^\ast, C^\infty(U)_{odd} ) \times Hom_{\mathbb{R}Vect}( V^\ast, C^\infty(U)_{even} )
+    \\
+    & \simeq
+    V_{odd}(U) \times V(U)
+    \\
+    & \simeq
+    (V_{odd} \times V)(U)
+  \end{aligned}
+$$
+
+=--
+
 
 +-- {: .num_example #DiracFieldBundle}
 ###### Example
@@ -3553,7 +3640,13 @@ $$
 
 For $\Sigma$ being [[Minkowski spacetime]] (def. \ref{MinkowskiSpacetime}),
 of dimension $2+1$, $3+1$, $5+1$ or $9+1$, let $S$ be the [[spin representation]] from prop. \ref{SpinorRepsByNormedDivisionAlgebra}.
-With $S_{odd} \simeq \mathbb{R}^{0 \vert dim(S)}$ the corresponding [[superpoint]] (example \ref{SuperpointInducedByFiniteDimensionalVectorSpace})
+With 
+
+$$
+  S_{odd} \simeq \mathbb{R}^{0 \vert dim(S)}
+$$ 
+
+the corresponding [[superpoint]] (example \ref{SuperpointInducedByFiniteDimensionalVectorSpace}),
 then the [[field bundle]] for the _[[Dirac field]]_ on $\Sigma$ is
 
 $$
@@ -3563,7 +3656,7 @@ $$
 
 hence the [[field fiber]] is the [[superpoint]] $S_{odd}$.
 
-The traditional two-component spinor basis from remark \ref{TwoComponentSpinorNotation}
+The traditional two-component [[spinor]] basis from remark \ref{TwoComponentSpinorNotation}
 provides field coordinates on the [[field fiber]] $S_{odd}$:
 
 $$
@@ -3613,7 +3706,6 @@ has the following properties:
 
    hence to smoothly $\mathbb{R}^n$-parameterized smooth [[sections]] of the ordinary [[field bundle]]
    whose [[field fiber]] is the ordinary vector space $S_{even}$.
-
 
 
 =--
@@ -6600,9 +6692,26 @@ $\,$
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
 with $\Gamma_\Sigma(E)_{\delta_{EL} \mathbf{L} = 0}$ its [[on-shell]] [[space of field histories]] (def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime}).
 
-Then an _[[observable]]_ is a [[smooth function]] on this [[diffeological space]] (def. \ref{DiffeologicalSpace})
-or more generally (for $E$ containing [[fermion fields]] such as the [[Dirac field]], example \ref{DiracFieldBundle})
-on this [[super formal smooth set]] (def. \ref{SuperFormalSmoothSet}) with values in the [[complex numbers]]:
+Then the _space of [[observables]]_ is the [[super formal smooth set]] (def. \ref{SuperFormalSmoothSet})
+which is the [[mapping space]]
+
+$$
+  Obs_{E,\mathbf{L}}
+  \;\coloneqq\;
+  \left[
+    \Gamma_\Sigma(E)_{\delta_{EL}\mathbf{L} = 0}
+    \,,\,
+    \mathbb{C}
+  \right]
+$$
+
+from the [[on-shell]] [[space of field histories]] to the [[complex numbers]]. 
+
+**Observables on bosonic fields**
+
+In the case that $E$ is a purely [[bosonic]] [[field bundle]] in [[smooth manifolds]] so that $\Gamma_\Sigma(E)_{\delta_{EL}\mathbf{L} = 0}$
+is a [[diffeological space]] (def. \ref{DiffeologicalSpaceOfFieldHistories}, def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime})
+this means that a single [[observable]] $A \in Obs_{E,\mathbf{L}}$ is equivalently a [[smooth function]] (def. \ref{DiffeologicalSpace})
 
 $$
   A
@@ -6636,6 +6745,22 @@ $$
   \,.
 $$
 
+**Observables on fermionic fields**
+
+In the case that $E$ has purely [[fermionic]] [[fibers]], such as for the [[Dirac field]] (example \ref{DiracFieldBundle})
+with
+$E = \Sigma\times S_{odd}$  then the only point in $Obs_{E,\mathbf{L}}$ is the zero-observable,
+instead an observable is now a morphism
+
+$$
+  (\theta \mapsto \theta A)
+    \;\colon\;
+  \mathbb{R}^{0\vert 1}
+    \longrightarrow
+  Obs_{E,\mathbf{L}}
+$$
+
+and its component $A$ is a bosonic observable as above.
 
 =--
 
@@ -7607,13 +7732,13 @@ The **proof** is discussed at _[[distributions are the smooth linear functionals
 
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
 over [[Minkowski spacetime]] (def. \ref{MinkowskiSpacetime}),
-whose [[field bundle]] $E$ (def. \ref{Fields}) is a [[trivial vector bundle]] with field 
+whose [[field bundle]] $E$ (def. \ref{Fields}) is a [[trivial vector bundle]] with field
 coordinates $(\phi^a)$ and whose [[Lagrangian density]]
 $\mathbf{L}$ encodes a [[free field theory]] (def. \ref{FreeFieldTheory}) in that its
 [[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]] is a linear [[PDE]].
 
-Prop. \ref{LinearObservablesAreTheCompactlySupportedDistributions} implies immediately that in this 
-situation linear observables $A$ (def. \ref{LinearObservables}) correspond to [[tuples]] $(A_a)$ 
+Prop. \ref{LinearObservablesAreTheCompactlySupportedDistributions} implies immediately that in this
+situation linear observables $A$ (def. \ref{LinearObservables}) correspond to [[tuples]] $(A_a)$
 of [[compactly supported distributions]] via
 
 $$
@@ -7627,7 +7752,7 @@ $\alpha_a$, this reads
 $$
   A(\Phi)
   \;=\;
-  \int_\Sigma \Phi^a(x) \alpha_a(x) \, dvol(x) 
+  \int_\Sigma \Phi^a(x) \alpha_a(x) \, dvol(x)
   \,,
 $$
 
@@ -7642,7 +7767,7 @@ where now the [[sum]] over the index $a$ is again left notationally implicit.
 
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
 over [[Minkowski spacetime]] (def. \ref{MinkowskiSpacetime}),
-whose [[field bundle]] $E$ (def. \ref{Fields}) is the [[trivial vector bundle|trivial]] [[real line bundle]] 
+whose [[field bundle]] $E$ (def. \ref{Fields}) is the [[trivial vector bundle|trivial]] [[real line bundle]]
 with field [[coordinates]] $(\phi^a)$ (example \ref{TrivialVectorBundleAsAFieldBundle}) and whose [[Lagrangian density]]
 $\mathbf{L}$ encodes a [[free field theory]] (def. \ref{FreeFieldTheory}) in that its
 [[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]] is a linear [[PDE]].
@@ -7695,10 +7820,10 @@ $$
 is the [[vector bundle]] over the [[Cartesian product]] $\Sigma \times \Sigma$ of [[spacetime]] with itself
 whose [[fiber]] over a pair of points $(x_1,x_2)$ is the [[tensor product]] $E_{x_1} \otimes E_{x_2}$ of the corresponding field fibers.
 
-Given a [[field history]], hence a [[section]] of the [[field bundle]] $\phi \in \Gamma_\Sigma(E)$ there is then 
+Given a [[field history]], hence a [[section]] of the [[field bundle]] $\phi \in \Gamma_\Sigma(E)$ there is then
 the induced section $\phi \boxtimes \phi \in \Gamma_{\Sigma \times \Sigma}(E \boxtimes E)$.
 
-We say that an [[observable]] 
+We say that an [[observable]]
 
 $$
   A \;\colon\; \Gamma_\Sigma(E)_{\delta_{EL}\mathbf{L} = 0} \longrightarrow \mathbb{C}
@@ -7716,7 +7841,7 @@ $$
   \mathbb{C}
 $$
 
-as 
+as
 
 $$
   A(\Phi) = B(\Phi,\Phi)
@@ -7725,8 +7850,8 @@ $$
 
 More explicitly: By prop. \ref{LinearObservablesAreTheCompactlySupportedDistributions} the quadratic observable $A$
 is given by a [[compactly supported distribution]] [[distribution of two variables|of two variables]]
-which in the notation of remark \ref{LinearObservablesAsGeneralizedFunctions} comes from a [[matrix]] of 
-[[generalized functions]] 
+which in the notation of remark \ref{LinearObservablesAsGeneralizedFunctions} comes from a [[matrix]] of
+[[generalized functions]]
 $\beta_{a b} \in \mathcal{E}'(\Sigma \times \Sigma, E \boxtimes E)$ as
 
 $$
@@ -7764,24 +7889,24 @@ $$
   \begin{aligned}
     A(\Phi)
      & = \phantom{+}
-    \alpha 
+    \alpha
     \\
-    & 
+    &
     \phantom{=}
-      + 
+      +
     \int_{\Sigma} \Phi^a(x) \alpha_a(x) \, dvol_\Sigma(x)
     \\
-    & 
+    &
     \phantom{=}
      +
     \int_{\Sigma^2} \Phi^{a_1}(x_1) \Phi^{a_2}(x_2) \alpha_{a_1 a_2}(x_1, x_2) \, dvol_\Sigma(x_1) dvol_\Sigma(x_2)
     \\
-    & 
+    &
     \phantom{=}
      +
     \int_{\Sigma^3} \Phi^{a_1}(x_1) \Phi^{a_2}(x_2) \Phi^{a_3}(x_3) \alpha_{a_1 a_2 a_3}(x_1,x_2,x_3) \, dvol_\Sigma(x_1) dvol_\Sigma(x_2) dvol_\Sigma(x^3)
     \\
-    & 
+    &
     \phantom{=}
      +
     \cdots
@@ -15834,4 +15959,3 @@ $\,$
 $\,$
 
 
-[[!redirects A first idea of quantum field theory]]
