@@ -75,7 +75,7 @@ $\,$
 **Acknowledgement**
 
 These notes profited greatly from discussions with [[Igor Khavkine]].
-Further helpful comments on the notes were made by [[Severin Bunk]], [[David Corfield]], [[Arnold Neumaier]], [[David Roberts]]. 
+Further helpful comments on the notes were made by [[Severin Bunk]], [[David Corfield]], [[Arnold Neumaier]], [[David Roberts]].
 Thanks also to [[Kasia Rejzner]] for helpful replies.
 
 
@@ -149,7 +149,7 @@ $$
 $$
 
 For $\Sigma$ an [[orientation|oriented]] [[smooth manifold]],
-possibly with [[manifold with boundary|boundary]] $\partial \Sigma$ (canonically inheriting itself an [[orientation]]), 
+possibly with [[manifold with boundary|boundary]] $\partial \Sigma$ (canonically inheriting itself an [[orientation]]),
 and for $U$ any smooth manifold,
 the operation of [[fiber integration|fiber]]-[[integration of differential forms]] along
 
@@ -175,7 +175,7 @@ such that for every point $u \in U$ they have [[compact support]] along $\Sigma$
 
 =--
 
-The operations on [[differential forms]] (def. \ref{DifferentialForms}) are compatible with each other in the following 
+The operations on [[differential forms]] (def. \ref{DifferentialForms}) are compatible with each other in the following
 ways:
 
 
@@ -183,7 +183,7 @@ ways:
 ###### Proposition
 **([[pullback of differential forms]] is [[chain map]])**
 
-For $f \colon X \to Y$ a [[smooth function]] between [[smooth manifolds]], then 
+For $f \colon X \to Y$ a [[smooth function]] between [[smooth manifolds]], then
 [[pullback of differential forms]] $f^\ast \colon \Omega^\bullet(Y) \to \Omega^\bullet(X)$
 commutes with the [[de Rham differential]] on both sides (def. \ref{DifferentialForms}):
 
@@ -6582,7 +6582,7 @@ $\,$
 
 * _[Local observables](#LocalObservablesByTransgression)_
 
-* _[Linear observables](#LinearObservablesAreDistributions)_
+* _[Polynomial observables](#LinearObservablesAreDistributions)_
 
 * _[Infinitesimal observables](#InfinitesimalObservables)_
 
@@ -7485,7 +7485,7 @@ averaged over spacetime.
 $\,$
 
 
-**Linear Observables**
+**Polynomial Observables**
 {#LinearObservablesAreDistributions}
 
 $\,$
@@ -7549,9 +7549,9 @@ This [[linear function]] $A_\ast$ is in fact
 a _[[compactly supported distribution]]_, in the sense of [[functional analysis]], in that it satisfies
 the following [[Fréchet vector space]] [[continuous function|continuity condition]]:
 
-* ([[Fréchet space|Fréchet]] [[continuous linear functional]])
+* **[[Fréchet space|Fréchet]] [[continuous linear functional]]**
 
-  A [[linear function]] $A_\ast$ on $C^\infty(\mathbb{R}^{p,1})$ is called _[[continuous function|continuous]]_ if
+  A [[linear function]] $A_\ast \;\colon\; C^\infty(\mathbb{R}^{p,1}) \to \mathbb{R}$ is called _[[continuous function|continuous]]_ if
   there exists
 
   1. a [[compact subset]] $K \subset \mathbb{R}^{p,1}$ of [[Minkowski spacetime]];
@@ -7566,30 +7566,41 @@ the following [[Fréchet vector space]] [[continuous function|continuity conditi
     \Phi \in C^\infty(\Sigma)_{\delta_{EL}\mathbf{L} = 0}
   $$
 
-  the following [[inequality]] of [[absolute values]] ${\vert -\vert}$ holds for all $\Phi \in C^\infty(\mathbb{R}^{p,1})$
+  the following [[inequality]] of [[absolute values]] ${\vert -\vert}$ holds
 
   $$
     {\vert A_\ast(\Phi)\vert}
     \;\leq\;
-    C \underset{{\vert \alpha \vert} \leq k}{\sum} \underset{x \in K}{sup} {\vert \partial^\alpha \Phi(x)\vert}
+    C \underset{{\vert \alpha \vert} \leq k}{\sum} \, \underset{x \in K}{sup} {\vert \partial^\alpha \Phi(x)\vert}
     \,,
   $$
 
-  where $\alpha \in \mathbb{N}^{p+1}$ is a multi-index for [[coordinates]] on [[Minkowski spacetime]] $\matbb{R}^{p,1}$
-  and where $\partial^\alpha \Phi$ denotes the corresponding [[partial derivative]].
+  where the sum is over all multi-indices $\alpha \in \mathbb{N}^{p+1}$ for [[coordinates]] on [[Minkowski spacetime]] $\mathbb{R}^{p,1}$
+  whose total degree ${\vert \alpha\vert} = \alpha_0 + \cdots + \alpha_{p}$ is bounded by $k$,
+  and where 
+  
+  $$
+    \partial^\alpha \Phi
+    \;=\;
+    \frac{\partial^{{\vert \alpha\vert}} \Phi }{ \partial^{\alpha_0} x^0 \partial^{\alpha_1} x^1 \cdots \partial^{\alpha^p} x^p  }
+  $$
+  
+  denotes the corresponding [[partial derivative]].
 
-This identification yields a [[linear isomorphism]]
+This identification in fact constitute a [[linear isomorphism]]
 
 $$
   LinearObservables \overset{\simeq}{\longrightarrow} CompactlySupportedDistributions
   \,.
 $$
 
-Hence every [[compactly supported distribution]] defines a unique linear observable.
+saying that all [[compactly supported distributions]] arise from linear observables this way, and uniquely so.
 
 =--
 
 The **proof** is discussed at _[[distributions are the smooth linear functionals]]_.
+
+
 
 $\,$
 
