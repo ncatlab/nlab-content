@@ -3112,7 +3112,7 @@ A _[[formal smooth set]]_ $X$ is
      \left(
        \mathbb{R}^{n_2} \overset{\Phi}{\longrightarrow} X
      \right)
-     \;\overet{f^\ast}{\mapsto}\;
+     \;\overset{f^\ast}{\mapsto}\;
      \left(
        \mathbb{R}^{n_1}\times Spec(A_1) \overset{f}{\to} \mathbb{R}^{n_2} \times Spec(A_2) \overset{f}{\to} X
      \right)
@@ -7493,7 +7493,7 @@ $\,$
 
 +-- {: .num_defn #LinearObservables}
 ###### Definition
-**(linear observable)**
+**(linear [[observables]])**
 
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
 whose [[field bundle]] $E$ (def. \ref{Fields}) is a [[super vector bundle|super]] [[vector bundle]] and whose [[Lagrangian density]]
@@ -7577,14 +7577,14 @@ the following [[Fréchet vector space]] [[continuous function|continuity conditi
 
   where the sum is over all multi-indices $\alpha \in \mathbb{N}^{p+1}$ for [[coordinates]] on [[Minkowski spacetime]] $\mathbb{R}^{p,1}$
   whose total degree ${\vert \alpha\vert} = \alpha_0 + \cdots + \alpha_{p}$ is bounded by $k$,
-  and where 
-  
+  and where
+
   $$
     \partial^\alpha \Phi
     \;=\;
     \frac{\partial^{{\vert \alpha\vert}} \Phi }{ \partial^{\alpha_0} x^0 \partial^{\alpha_1} x^1 \cdots \partial^{\alpha^p} x^p  }
   $$
-  
+
   denotes the corresponding [[partial derivative]].
 
 This identification in fact constitute a [[linear isomorphism]]
@@ -7601,6 +7601,196 @@ saying that all [[compactly supported distributions]] arise from linear observab
 The **proof** is discussed at _[[distributions are the smooth linear functionals]]_.
 
 
++-- {: .num_remark #LinearObservablesAsGeneralizedFunctions}
+###### Remark
+**(linear observables as [[integration]] against [[generalized functions]])**
+
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
+over [[Minkowski spacetime]] (def. \ref{MinkowskiSpacetime}),
+whose [[field bundle]] $E$ (def. \ref{Fields}) is a [[trivial vector bundle]] with field 
+coordinates $(\phi^a)$ and whose [[Lagrangian density]]
+$\mathbf{L}$ encodes a [[free field theory]] (def. \ref{FreeFieldTheory}) in that its
+[[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]] is a linear [[PDE]].
+
+Prop. \ref{LinearObservablesAreTheCompactlySupportedDistributions} implies immediately that in this 
+situation linear observables $A$ (def. \ref{LinearObservables}) correspond to [[tuples]] $(A_a)$ 
+of [[compactly supported distributions]] via
+
+$$
+  A(\Phi) = \underset{a}{\sum} A_a(\Phi^a)
+  \,.
+$$
+
+With the usual suggestive notation of evaluation of distributions $A_a$ as [[integration]] against [[generalized functions]]
+$\alpha_a$, this reads
+
+$$
+  A(\Phi)
+  \;=\;
+  \int_\Sigma \Phi^a(x) \alpha_a(x) \, dvol(x) 
+  \,,
+$$
+
+where now the [[sum]] over the index $a$ is again left notationally implicit.
+
+
+=--
+
++-- {: .num_example}
+###### Example
+**(point evaluation is linear observable)**
+
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
+over [[Minkowski spacetime]] (def. \ref{MinkowskiSpacetime}),
+whose [[field bundle]] $E$ (def. \ref{Fields}) is the [[trivial vector bundle|trivial]] [[real line bundle]] 
+with field [[coordinates]] $(\phi^a)$ (example \ref{TrivialVectorBundleAsAFieldBundle}) and whose [[Lagrangian density]]
+$\mathbf{L}$ encodes a [[free field theory]] (def. \ref{FreeFieldTheory}) in that its
+[[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]] is a linear [[PDE]].
+
+Then for each field component index $a$ and point $x \in \Sigma$ of [[spacetime]] (each [[event]])
+the point evaluation observable
+
+$$
+  \array{
+    \Gamma_\Sigma(E)_{\delta_{EL}\mathbf{L} = 0}
+      &\overset{\mathbf{\Phi}^a(x)}{\longrightarrow}&
+    \mathbb{C}
+    \\
+    \phi &\mapsto& \phi^a(x)
+  }
+$$
+
+is a linear observable according to def. \ref{LinearObservables}. The [[distribution]]
+that it corresponds to under prop. \ref{LinearObservablesAreTheCompactlySupportedDistributions}
+is the _[[Dirac delta-distribution]]_ at the point $x$ combined with the [[Kronecker delta]] on the index $a$:
+In the [[generalized function]]-notation of remark \ref{LinearObservablesAsGeneralizedFunctions} this reads:
+
+$$
+  \Phi^a(x) \;\colon\; \Phi \mapsto \int_\Sigma \Phi^b(y) \delta_b^a \delta(x,y) \, dvol_\Sigma(y)
+  \,.
+$$
+
+=--
+
+We turn to the immediate generalization of linear observables:
+
+
++-- {: .num_defn #QuadraticObservables}
+###### Definition
+**(quadratic [[observables]])**
+
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
+over a [[spacetime]] $\Sigma$
+whose [[field bundle]] $E$ (def. \ref{Fields}) is a [[super vector bundle|super]] [[vector bundle]] and whose [[Lagrangian density]]
+$\mathbf{L}$ encodes a [[free field theory]] (def. \ref{FreeFieldTheory}) in that its
+[[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]] is a linear [[PDE]].
+
+The _[[external tensor product|external]] [[tensor product of vector bundles]]_ of the [[field bundle]]
+$E \overset{fb}{\to} \Sigma$ with itself, denoted
+
+$$
+  E \boxtimes E \overset{}{\to} \Sigma \times \Sigma
+$$
+
+is the [[vector bundle]] over the [[Cartesian product]] $\Sigma \times \Sigma$ of [[spacetime]] with itself
+whose [[fiber]] over a pair of points $(x_1,x_2)$ is the [[tensor product]] $E_{x_1} \otimes E_{x_2}$ of the corresponding field fibers.
+
+Given a [[field history]], hence a [[section]] of the [[field bundle]] $\phi \in \Gamma_\Sigma(E)$ there is then 
+the induced section $\phi \boxtimes \phi \in \Gamma_{\Sigma \times \Sigma}(E \boxtimes E)$.
+
+We say that an [[observable]] 
+
+$$
+  A \;\colon\; \Gamma_\Sigma(E)_{\delta_{EL}\mathbf{L} = 0} \longrightarrow \mathbb{C}
+$$
+
+is _quadratic_ if it comes from a "bilinear observable", namely a smooth function on the [[space of sections]]
+of the [[external tensor product|external]] [[tensor product of vector bundles|tensor product of]] the [[field bundle]]
+with itself
+
+$$
+  B
+   \;\colon\;
+  \Gamma_{\Sigma \times \Sigma}(E \boxtimes E)_{\delta_{EL}\mathbf{L} = 0}
+    \longrightarrow
+  \mathbb{C}
+$$
+
+as 
+
+$$
+  A(\Phi) = B(\Phi,\Phi)
+  \,.
+$$
+
+More explicitly: By prop. \ref{LinearObservablesAreTheCompactlySupportedDistributions} the quadratic observable $A$
+is given by a [[compactly supported distribution]] [[distribution of two variables|of two variables]]
+which in the notation of remark \ref{LinearObservablesAsGeneralizedFunctions} comes from a [[matrix]] of 
+[[generalized functions]] 
+$\beta_{a b} \in \mathcal{E}'(\Sigma \times \Sigma, E \boxtimes E)$ as
+
+$$
+  A(\Phi)
+    \;=\;
+  \int_{\Sigma \times \Sigma} \Phi^{a_1}(x_1) \beta_{a_1 a_2}(x_1,x_2) \Phi^{a_2}(x_2)\, dvol_\Sigma(x_1) dvol_\Sigma(x_2)
+  \,.
+$$
+
+This notation makes manifest how the concept of  quadratic observables is a generalization of thatz of [[quadratic forms]] coming from  [[bilinear forms]].
+
+=--
+
+
++-- {: .num_defn #PolynomialObservables}
+###### Definition
+**(polynomial [[observables]])**
+
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
+over a [[spacetime]] $\Sigma$
+whose [[field bundle]] $E$ (def. \ref{Fields}) is a [[super vector bundle|super]] [[vector bundle]] and whose [[Lagrangian density]]
+$\mathbf{L}$ encodes a [[free field theory]] (def. \ref{FreeFieldTheory}) in that its
+[[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]] is a linear [[PDE]].
+
+An [[observable]] (def. \ref{Observables})
+
+$$
+  A \;\colon\; \Gamma_\Sigma(E)_{\delta_{EL}\mathbf{L} = 0} \longrightarrow \mathbb{C}
+$$
+
+is _polynomial_ if it is the [[sum]] of a constant, and a linear observable (def. \ref{LinearObservables}),
+and a quadratic observable (def. \ref{QuadraticObservables}) and so on:
+
+$$
+  \begin{aligned}
+    A(\Phi)
+     & = \phantom{+}
+    \alpha 
+    \\
+    & 
+    \phantom{=}
+      + 
+    \int_{\Sigma} \Phi^a(x) \alpha_a(x) \, dvol_\Sigma(x)
+    \\
+    & 
+    \phantom{=}
+     +
+    \int_{\Sigma^2} \Phi^{a_1}(x_1) \Phi^{a_2}(x_2) \alpha_{a_1 a_2}(x_1, x_2) \, dvol_\Sigma(x_1) dvol_\Sigma(x_2)
+    \\
+    & 
+    \phantom{=}
+     +
+    \int_{\Sigma^3} \Phi^{a_1}(x_1) \Phi^{a_2}(x_2) \Phi^{a_3}(x_3) \alpha_{a_1 a_2 a_3}(x_1,x_2,x_3) \, dvol_\Sigma(x_1) dvol_\Sigma(x_2) dvol_\Sigma(x^3)
+    \\
+    & 
+    \phantom{=}
+     +
+    \cdots
+  \,.
+  \end{aligned}
+$$
+
+
+=--
 
 $\,$
 
