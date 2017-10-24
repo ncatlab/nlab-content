@@ -19,7 +19,7 @@
 
 ## Idea
 
-Cauchy's integral theorem states that [[contour integrals]] of [[holomorphic functions]], in any [[simply connected space|simply connected]] [[subspace]] of the [[complex plane]], are invariant under [[homotopy]] of paths.
+Cauchy's integral theorem states that [[contour integrals]] of [[holomorphic functions]], in any [[simply connected space|simply connected]] open subset of the [[complex plane]], are invariant under [[homotopy]] of paths.
 
 
 ## Statement
@@ -46,7 +46,6 @@ for $\gamma_2 \coloneqq 0$.
 
 category: analysis
 
-[[!redirects Cauchy integral theorem]]
 [[!redirects Cauchy's integral theorem]]
 [[!redirects Cauchy\'s integral theorem]]
 [[!redirects Cauchy's integral theorem]]
