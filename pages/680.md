@@ -587,6 +587,8 @@ One may view the (monoidal) Dold-Kan correspondence as a relation between a well
 
 * [[stable Dold-Kan correspondence]]
 
+* [[categorified Dold-Kan correspondence]]
+
 ## References
 
 
