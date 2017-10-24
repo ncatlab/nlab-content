@@ -90,7 +90,14 @@ $$
   \,.
 $$
 
-More generally, if $U$ is any [[smooth manifold]] and $\omega \in \Omega^\bullet(U \times \sigma)$ is a differential form on the [[Cartesian product]], then with respect to [[fiber integration]] 
+More generally:
+
+
++-- {: .num_prop #StokesTheoremForFiberIntegration}
+###### Proposition
+**(Stokes theorem for [[fiber integration]])**
+
+If $U$ is any [[smooth manifold]] and $\omega \in \Omega^\bullet(U \times \sigma)$ is a differential form on the [[Cartesian product]], then with respect to [[fiber integration|fiber-wise]] [[integration of differential forms]] 
 
 $$
   \int_\sigma \;\colon\;
@@ -110,7 +117,9 @@ $$
   \,.
 $$
 
-(e.g. [Gomi-Reashima 00, remark 3.1](fiber+integration+in+ordinary+differential+cohomology#GomiTerashima00))
+=--
+
+(e.g. [Gomi-Terashima 00, remark 3.1](fiber+integration+in+ordinary+differential+cohomology#GomiTerashima00))
 
 
 ### Abstract formulation in cohesive homotopy-type theory
