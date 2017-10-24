@@ -90,6 +90,29 @@ $$
   \,.
 $$
 
+More generally, if $U$ is any [[smooth manifold]] and $\omega \in \Omega^\bullet(U \times \sigma)$ is a differential form on the [[Cartesian product]], then with respect to [[fiber integration]] 
+
+$$
+  \int_\sigma \;\colon\;
+  \Omega^{\bullet + dim(\sigma)}(U \times \sigma)
+    \longrightarrow
+  \Omega^\bullet(U)
+$$
+
+along $U \times \sigma \overset{pr_1}{\to} U$ we have
+
+$$
+  \int_\sigma d \omega
+  \;=\;
+  \int_{\partial_\sigma} \omega
+  +
+  (-1)^{dim(\sigma)} d \int_\sigma \omega 
+  \,.
+$$
+
+(e.g. [Gomi-Reashima 00, remark 3.1](fiber+integration+in+ordinary+differential+cohomology#GomiTerashima00))
+
+
 ### Abstract formulation in cohesive homotopy-type theory
  {#FormulationInCohesiveHomotopyTypeTheory}
 
