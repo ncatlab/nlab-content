@@ -981,7 +981,7 @@ $$
 
 +-- {: .num_defn #MinkowskiSpacetime}
 ###### Definition
-**([[Minkowski spacetime]] as a [[pseudo-Riemannian manifold]])
+**([[Minkowski spacetime]] as a [[pseudo-Riemannian manifold]])**
 
 Prop./def. \ref{SpacetimeAsMatrices} introduces [[Minkowski spacetime]] $\mathbb{R}^{p,1}$ as a
 a [[vector space]] equipped with an [[inner product]]. The genuine [[spacetime]] corresponding to this
@@ -2274,7 +2274,7 @@ $$
 
 +-- {: .num_example #Electromagnetism}
 ###### Example
-**([[field bundle]] for [[electromagnetic field]])
+**([[field bundle]] for [[electromagnetic field]])**
 
 On [[Minkowski spacetime]] $\Sigma$ (def. \ref{MinkowskiSpacetime}), let the [[field bundle]] (def. \ref{Fields}) be given by the
 [[cotangent bundle]]
@@ -2381,7 +2381,7 @@ to the situation over general [[spacetimes]].
 
 +-- {: .num_example #YangMillsFieldInInstantonSector}
 ###### Example
-**(general [[Yang-Mills theory|Yang-Mills]] [[field (physics)|field]] in fixed [[instanton|topological sector]])
+**(general [[Yang-Mills theory|Yang-Mills]] [[field (physics)|field]] in fixed [[instanton|topological sector]])**
 
 Let $\Sigma$ be any [[spacetime]] [[manifold]] and let $G$ be a [[compact Lie group]]
 with [[Lie algebra]] denoted $\mathfrak{g}$. Let $P \overset{is}{\to} \Sigma$ be a
@@ -2443,7 +2443,7 @@ This [[structure]] on $\Gamma_\Sigma(E)$ is called the structure of a _[[diffeol
 
 +-- {: .num_defn #DiffeologicalSpace}
 ###### Definition
-**([[diffeological space]])
+**([[diffeological space]])**
 
 A _[[diffeological space]]_ $X$ is
 
@@ -2582,7 +2582,7 @@ For more background on [[diffeological spaces]] see also _[[geometry of physics 
 
 +-- {: .num_example }
 ###### Example
-**([[smooth manifolds]] are [[diffeological spaces]])
+**([[smooth manifolds]] are [[diffeological spaces]])**
 
 Let $X$ be an ordinary [[smooth manifold]]. Then it becomes a [[diffeological space]] (def. \ref{DiffeologicalSpace})
 by declaring its plots $\Phi \in X(\mathbb{R}^n)$ to the the ordinary [[smooth functions]]
@@ -2598,7 +2598,7 @@ precisely if it is a smooth function in the sense of [[diffeological spaces]].
 
 +-- {: .num_example #DiffeologicalSpaceOfFieldHistories}
 ###### Example
-**([[diffeological space|diffeological]] [[space of field histories]])
+**([[diffeological space|diffeological]] [[space of field histories]])**
 
 Let $E \overset{fb}{\to} \Sigma$ be a smooth [[field bundle]] (def. \ref{Fields}).
 Then the set $\Gamma_\Sigma(E)$ of [[field histories]]/[[sections]] (def. \ref{Fields})
@@ -2643,7 +2643,7 @@ this example is may be ignored.
 
 +-- {: .num_example #FrechetManifoldsAreDiffeologicalSpaces}
 ###### Example
-**([[Fréchet manifolds]] are [[diffeological spaces]])
+**([[Fréchet manifolds]] are [[diffeological spaces]])**
 
 Consider the particular type of [[infinite-dimensional manifolds]] called _[[Fréchet manifolds]]_.
 Since ordinary [[smooth manifolds]] $U$ are an example, for $X$ a [[Fréchet manifold]] there is
@@ -2687,7 +2687,7 @@ more general and more useful definition:
 
 +-- {: .num_defn #SmoothSet}
 ###### Definition
-**([[smooth set]])
+**([[smooth set]])**
 
 A _[[smooth set]]_ $X$ is
 
@@ -2836,7 +2836,7 @@ to completely fix the concept:
 
 +-- {: .num_defn #DifferentialFormsOnDiffeologicalSpaces}
 ###### Definition
-**([[differential forms]] on [[smooth sets]])
+**([[differential forms]] on [[smooth sets]])**
 
 Let $X$ be a [[diffeological space]] (def. \ref{DiffeologicalSpace})
 or more generally a [[smooth set]] (def. \ref{SmoothSet}) then a [[differential form]]
@@ -2891,7 +2891,7 @@ to differential forms on [[diffeological spaces]] and more generally on [[smooth
 
 +-- {: .num_defn #ExteriorCalculusOnDiffeologicalSpaces}
 ###### Definition
-**([[exterior differential]] and [[exterior product]] on [[smooth sets]])
+**([[exterior differential]] and [[exterior product]] on [[smooth sets]])**
 
 Let $X$ be a [[diffeological space]] (def. \ref{DiffeologicalSpace}) or more generally a [[smooth set]] (def. \ref{SmoothSet}). Then
 
@@ -2958,7 +2958,7 @@ tiny that some finite power of them is not just even more tiny, but actually van
 
 +-- {: .num_defn #InfinitesimallyThickendSmoothManifold}
 ###### Definition
-**([[infinitesimally thickened smooth manifold|infinitesimally thickened Cartesian space]])
+**([[infinitesimally thickened smooth manifold|infinitesimally thickened Cartesian space]])**
 
 An _[[infinitesimally thickened point]]_ $Spec(A)$ is represented by a [[commutative algebra]]
 $A \in \mathbb{R}Alg$ which as a [[vector space]] is a [[direct sum]]
@@ -3007,7 +3007,7 @@ generalization of smooth sets:
 
 +-- {: .num_defn #FormalSmoothSet}
 ###### Definition
-**([[formal smooth set]])
+**([[formal smooth set]])**
 
 A _[[formal smooth set]]_ $X$ is
 
@@ -3156,7 +3156,7 @@ Basing [[synthetic differential geometry|infinitesimal geometry]] on [[formal sm
 
 +-- {: .num_example #InfinitesimalNeighbourhood}
 ###### Example
-**([[infinitesimal neighbourhood]])
+**([[infinitesimal neighbourhood]])**
 
 Let $X$ be a [[formal smooth sets]] (def. \ref{FormalSmoothSet}) $Y \hookrightarrow X$
 a sub-formal smooth set. Then the _[[infinitesimal neighbourhood]]_ of $Y$ in $X$
@@ -3215,7 +3215,7 @@ of [[infinitesimally thickened smooth manifolds|infinitesimally thickened Cartes
 
 +-- {: .num_defn #SuperCartesianSpace}
 ###### Definition
-**([[super Cartesian space]])
+**([[super Cartesian space]])**
 
 An _[[superpoint]]_ $Spec(A)$ is represented by a [[super-commutative algebra]]
 $A \in \mathbb{R}Alg$ which as a $\mathbb{Z}/2$-[[super vector space|graded vector space]] is a [[direct sum]]
@@ -3281,7 +3281,7 @@ spell it out yet once more:
 
 +-- {: .num_defn #SuperFormalSmoothSet}
 ###### Definition
-**([[super formal smooth set]])
+**([[super formal smooth set]])**
 
 A _[[super formal smooth set]]_ $X$ is
 
@@ -3431,7 +3431,7 @@ from example \ref{DiffeologicalSpaceOfFieldHistories}:
 
 +-- {: .num_example #SupergeometricSpaceOfFieldHistories}
 ###### Example
-**([[super smooth set|supergeometric]]  [[space of field histories]])
+**([[super smooth set|supergeometric]]  [[space of field histories]])**
 
 Let $E \overset{fb}{\to} \Sigma$ be a smooth [[field bundle]] (def. \ref{Fields})
 whose total space $E$ is now allowed to be a [[super Cartesian space]] (def. \ref{SuperCartesianSpace})
@@ -4057,7 +4057,7 @@ $\,$
 | \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}  | $\; \delta_{EL} \mathbf{L} \coloneqq \mathbf{d}\mathbf{L} + d \Theta$ | [[Euler-Lagrange variational derivative|Euler-Lagrange variation]]  | [[Euler-Lagrange operator]] |
 | \ref{BVComplexOfOrdinaryLagrangianDensity} | $\; s_{BV}$  | [[BV-differential]]  |  [[Koszul complex|Koszul differential]]  |
 | \ref{LocalOffShellBRSTComplex} | $\; s_{BRST} $ | [[BRST differential]] |  [[Chevalley-Eilenberg complex|Chevalley-Eilenberg differential]]  |
-| \ref{LocalBVBRSTComplexIsDerivedCriticalLocusOfEulerLagrangeForm} | $\; s $ | [[BV-BRST differential]] |  [[Chevalley-Eilenberg complex|Chevalley-Eilenberg]]-[[Koszul-Tate complex|Koszul-Tate]] differential |
+| \ref{LocalBVBRSTComplexIsDerivedCriticalLocusOfEulerLagrangeForm} | $\; s $ | [[BV-BRST differential]] |  [[Chevalley-Eilenberg complex|Chevalley-Eilenberg]]-[[Koszul-Tate complex|Koszul-Tate differential]]  |
 | \ref{BVVariationalBicomplex} | $\; s - d $ | [[local BV-BRST differential]] |   |
 $\,$
 
@@ -4447,7 +4447,7 @@ $$
 
 +-- {: .num_example #ElectromagnetismLagrangianDensity}
 ###### Example
-**([[local Lagrangian density]] for [[free field|free]] [[electromagnetism]] and [[Yang-Mills theory]])
+**([[local Lagrangian density]] for [[free field|free]] [[electromagnetism]] and [[Yang-Mills theory]])**
 
 Consider the [[field bundle]] $T^\ast \Sigma \to \Sigma$ for the [[electromagnetic field]] on [[Minkowski spacetime]] from example \ref{Electromagnetism},
 i.e. the [[cotangent bundle]], which over Minkowski spacetime happens to be a [[trivial vector bundle]] of [[rank of a vector bundle|rank]]
@@ -4528,7 +4528,7 @@ $$
 
 +-- {: .num_example #LagrangianDensityForDiracField}
 ###### Example
-**([[Lagrangian density]] for [[Dirac field]])
+**([[Lagrangian density]] for [[Dirac field]])**
 
 Consider the [[field bundle]] $\Sigma \times S_{odd} \to \Sigma$ for the [[Dirac field]] from example \ref{DiracFieldBundle}.
 With the two-component spinor [[field fiber]] coordinates as introduced there, the [[jet bundle]] has fiber coordinates
@@ -5140,7 +5140,7 @@ $$
 
 +-- {: .num_example #ElectromagnetismEl}
 ###### Example
-**([[Euler-Lagrange variational derivative]] for [[free field|free]] [[electromagnetism]])
+**([[Euler-Lagrange variational derivative]] for [[free field|free]] [[electromagnetism]])**
 
 Consider the [[Lagrangian field theory]] of [[free field|free]] [[electromagnetism]] from example \ref{ElectromagnetismLagrangianDensity}.
 
@@ -5475,7 +5475,7 @@ together with $\mathbf{d} = \delta + d$ (eq:VariationalDerivative).
 
 +-- {: .num_prop #EvolutionaryVectorFieldLieAlgebra}
 ###### Proposition
-**([[evolutionary vector fields]] form a [[Lie algebra]])
+**([[evolutionary vector fields]] form a [[Lie algebra]])**
 
 Let $E \overset{fb}{\to} \Sigma$ be a [[fiber bundle]]. For any two [[evolutionary vector fields]]
 $v_1$, $v_2$ on $E$ (def. \ref{EvolutionaryVectorField}) the [[Lie bracket]] of [[vector fields]]
@@ -5531,7 +5531,7 @@ induces on the [[space of field histories]]:
 
 +-- {: .num_defn #FlowOfFieldHistoriesAlongEvolutionaryVectorField}
 ###### Definition
-**([[flow]] of [[field (physics)|field]] [[trajectory|histories]] along [[evolutionary vector field]])
+**([[flow]] of [[field (physics)|field]] [[trajectory|histories]] along [[evolutionary vector field]])**
 
 Let $E \overset{fb}{\to} \Sigma$ be a [[field bundle]] (def. \ref{Fields})
 and let $v$ be an [[evolutionary vector field]] (def. \ref{EvolutionaryVectorField})
@@ -5590,7 +5590,7 @@ is due to its defining relation to the [[evolutionary vector field]] $v$ from pr
 
 +-- {: .num_defn #SymmetriesAndConservedCurrents}
 ###### Definition
-**([[infinitesimal symmetries of the Lagrangian]] and [[conserved currents]])
+**([[infinitesimal symmetries of the Lagrangian]] and [[conserved currents]])**
 
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}).
 
@@ -5841,7 +5841,7 @@ by prop. \ref{PullbackAlongJetProlongationIntertwinesHorizontalDerivative}.
 
 +-- {: .num_example #ScalarFieldEnergyMomentum}
 ###### Example
-**([[energy-momentum]] of the [[scalar field]])
+**([[energy-momentum]] of the [[scalar field]])**
 
 Consider the [[Lagrangian field theory]] of the [[free field|free]] [[scalar field]] from def. \ref{LagrangianForFreeScalarFieldOnMinkowskiSpacetime}:
 
@@ -5939,7 +5939,7 @@ to the [[presymplectic current]] yields the following:
 
 +-- {: .num_defn #HamiltonianForms}
 ###### Definition
-**([[Hamiltonian vector fields|infinitesimal symmetry of the presymplectic potential]] and [[Hamiltonian differential forms]])
+**([[Hamiltonian vector fields|infinitesimal symmetry of the presymplectic potential]] and [[Hamiltonian differential forms]])**
 
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] with presymplectic potential $\Theta$ (eq:PresymplecticPotential).
 Write $\mathcal{E} \hookrightarrow J^\infty_\Sigma(E)$ for the [[shell]] (eq:ShellInJetBundle).
@@ -6060,7 +6060,7 @@ on the jet bundle to [[Cauchy surfaces]] yields a [[presymplectic structure]] on
 
 +-- {: .num_example #LocalPoissonBracket}
 ###### Proposition
-**([[Poisson bracket Lie n-algebra|local Poisson bracket]])
+**([[Poisson bracket Lie n-algebra|local Poisson bracket]])**
 
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}).
 
@@ -6373,7 +6373,7 @@ $$
 
 +-- {: .num_prop #LocalHeisenbergAlgebra}
 ###### Definition
-**([[Heisenberg Lie n-algebra|local Heisenberg Lie algebra]])
+**([[Heisenberg Lie n-algebra|local Heisenberg Lie algebra]])**
 
 Given a [[Lagrangian field theory]] $(E,\mathbf{L})$ whose [[field bundle]] $E$ is a [[trivial vector bundle]]
 as in example \ref{TrivialVectorBundleAsAFieldBundle}, its [[jet bundle]] (def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) inherits the structure of a
@@ -6526,16 +6526,16 @@ or more generally (for $E$ containing [[fermion fields]] such as the [[Dirac fie
 on this [[super formal smooth set]] (def. \ref{SuperFormalSmoothSet}) with values in the [[complex numbers]]:
 
 $$
-  A 
-    \;\colon\; 
+  A
+    \;\colon\;
   \Gamma_\Sigma(E)_{\delta_{EL} \mathbf{L} = 0}
     \longrightarrow
   \mathbb{C}
   \,.
 $$
 
-Explicitly, by def. \ref{SmoothSet} (and similarly by def. \ref{SuperFormalSmoothSet}) this means that 
-$A$ is for each [[Cartesian space]] $U$ (generally: [[super Cartesian space]], def. \ref{SuperCartesianSpace}) 
+Explicitly, by def. \ref{SmoothSet} (and similarly by def. \ref{SuperFormalSmoothSet}) this means that
+$A$ is for each [[Cartesian space]] $U$ (generally: [[super Cartesian space]], def. \ref{SuperCartesianSpace})
 a [[natural transformation|natural]] function of plots
 
 $$
@@ -6564,9 +6564,9 @@ The most basic kind of observables are the following:
 
 +-- {: .num_exmple #PointEvaluationObservables}
 ###### Example
-**(point evaluation observables -- field observables)
+**(point evaluation observables -- field observables)**
 
-Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) 
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
 whose [[field bundle]] (def. \ref{Fields}) over some [[spacetime]] $\Sigma$
 happens to be a [[trivial vector bundle]] in even degree (i.e. bosonic) with [[field fiber]] [[coordinates]] $(\phi^a)$ (example \ref{TrivialVectorBundleAsAFieldBundle}).
 With respect to these coordinates a [[field history]], hence a [[section]] of the [[field bundle]]
@@ -6578,12 +6578,12 @@ $$
 has components $(\Phi^a)$ which are [[smooth functions]] on [[spacetime]].
 
 Then for every index $a$ and every point $x \in \Sigma$ in [[spacetime]] (every [[event]]) there is an [[observable]] (def. \ref{Observables})
-denoted $\mathbf{Phi}^a(x)$ which is given by 
+denoted $\mathbf{Phi}^a(x)$ which is given by
 
 $$
   \mathbf{\Phi}^a(x)
   \;\colon\;
-  \Phi_{(-)}  
+  \Phi_{(-)}
     \mapsto
   \Phi_{(-)}^a(x)
   \,,
@@ -6605,15 +6605,15 @@ to their $U$-parameterized collection of values at $x$ of their $a$-th component
 
 In much of the literature on [[field theory]], the point evaluation observables $\mathbf{\Phi}^a(x)$ from
 example \ref{PointEvaluationObservables} are eventually referred to as "fields" themselves,
-blurring the distinction between 
+blurring the distinction between
 
-1. a field species/[[field bundle]] $E$, 
+1. a field species/[[field bundle]] $E$,
 
 1. a [[field history]]/[[section]] $\Phi$,
 
 1. a function on the space of field histories $\mathbf{\Phi}^a(x)$.
 
-This is a convenient shorthand when one knows what one is doing, but if not it leads to 
+This is a convenient shorthand when one knows what one is doing, but if not it leads to
 conceptual puzzlements.
 
 =--
@@ -6675,7 +6675,7 @@ for the subspace of differential forms on the jet bundle whose spacetime support
 
 +-- {: .num_defn #TransgressionOfVariationalDifferentialFormsToConfigrationSpaces}
 ###### Definition
-**([[transgression of variational differential forms]] to [[space of field histories]])
+**([[transgression of variational differential forms]] to [[space of field histories]])**
 
 
 Let $E \overset{fb}{\to} \Sigma$ be a [[field bundle]] over a [[spacetime]] $\Sigma$ (def. \ref{Fields}).
@@ -6725,7 +6725,7 @@ $$
 
 +-- {: .num_remark #TransgressionToDimensionrSupportedOnHorizontalrForms}
 ###### Remark
-**([[transgression of variational differential forms|transgression]] to dimension $r$ picks out hiorizontal $r$-forms)
+**([[transgression of variational differential forms|transgression]] to dimension $r$ picks out hiorizontal $r$-forms)**
 
 In def. \ref{TransgressionOfVariationalDifferentialFormsToConfigrationSpaces}
 we regard [[integration of differential forms]] over $\Sigma_r$ as an operation defined on differential forms
@@ -6744,7 +6744,7 @@ of forms of horizontal degree $r$.
 
 +-- {: .num_example #ActionFunctional}
 ###### Example
-**([[adiabatic switching|adiabatically switched]] [[action functional]])
+**([[adiabatic switching|adiabatically switched]] [[action functional]])**
 
 Given a [[field bundle]] $E \overset{fb}{\longrightarrow} \Sigma$,
 consider a [[local Lagrangian density]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
@@ -6813,7 +6813,7 @@ $$
 
 +-- {: .num_prop #TransgressionOfVariationaldifferentialFormsCompatibleWithVariationalDerivative}
 ###### Proposition
-**([[transgression of variational differential forms|transgression]] compatible with [[variational derivative]])
+**([[transgression of variational differential forms|transgression]] compatible with [[variational derivative]])**
 
 Let $E \overset{fb}{\to} \Sigma$ be a [[field bundle]] over a [[spacetime]] $\Sigma$ (def. \ref{Fields})
 and let $\Sigma_r \hookrightarrow \Sigma$ be a [[submanifold]] possibly [[manifold with boundary|with boundary]]
@@ -7115,7 +7115,7 @@ is called a _[[free field theory]]_ if its [[Euler-Lagrange equation|Euler-Lagra
 
 +-- {: .num_prop #EquationOfMotionOfFreeRealScalarField}
 ###### Example
-**([[equation of motion]] of [[free field|free]] [[real scalar field]] is [[Klein-Gordon equation]])
+**([[equation of motion]] of [[free field|free]] [[real scalar field]] is [[Klein-Gordon equation]])**
 
 Consider the [[Lagrangian field theory]] of the [[free field|free]] [[real scalar field]]
 from example \ref{LagrangianForFreeScalarFieldOnMinkowskiSpacetime}.
@@ -7391,7 +7391,7 @@ $$
 
 +-- {: .num_example }
 ###### Example
-**([[local observables]] of the [[electromagnetic field]])
+**([[local observables]] of the [[electromagnetic field]])**
 
 Consider the [[field bundle]] for [[free field theory|free]] [[electromagnetism]] on [[Minkowski spacetime]] $\Sigma$.
 
@@ -7531,7 +7531,7 @@ aspect of [[field theory]], namely we consider the restriction of [[local observ
 
 +-- {: .num_defn #LocalObservablesOnInfinitesimalNeighbourhood}
 ###### Definition
-**([[local observables]] around [[infinitesimal neighbourhood]] of background [[on-shell]] field history)
+**([[local observables]] around [[infinitesimal neighbourhood]] of background [[on-shell]] field history)**
 
 
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
@@ -8074,7 +8074,7 @@ then the corresponding _[[phase space]]_ is
 
 +-- {: .num_example #PresymplecticFormForFreeRealScalarField}
 ###### Example
-**([[presymplectic form]] for [[free field|free]] [[real scalar field]])
+**([[presymplectic form]] for [[free field|free]] [[real scalar field]])**
 
 Consider the [[Lagrangian field theory]] for the [[free field|free]] [[real scalar field]]
 from example \ref{LagrangianForFreeScalarFieldOnMinkowskiSpacetime}.
@@ -8432,7 +8432,7 @@ Lie ideal for the Poisson bracket on the jet bundle (lemma \ref{HorizontallyExac
 
 +-- {: .num_example #PoissonBracketForRealScalarField}
 ###### Example
-**([[Poisson bracket]] of the  [[real scalar field]] -- the [[Peierls bracket]])
+**([[Poisson bracket]] of the  [[real scalar field]] -- the [[Peierls bracket]])**
 
 Consider the [[Lagrangian field theory]] of the [[free field|free]] [[scalar field]]
 (example \ref{LagrangianForFreeScalarFieldOnMinkowskiSpacetime}),
@@ -8950,7 +8950,7 @@ the proof of prop. \ref{CovariantPhaseSpace}.
 
 +-- {: .num_example #}
 ###### Example
-**(derived [[presymplectic current]] of [[real scalar field]])
+**(derived [[presymplectic current]] of [[real scalar field]])**
 
 Consider a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
 without any non-trivial implicial [[infinitesimal gauge transformations]] (def. \ref{ImplicitInfinitesimalGaugeSymmetry});
@@ -9129,7 +9129,7 @@ gauge symmetries have been made explicit (by the [[BV-BRST complex]]) the distin
 
 +-- {: .num_prop #NonTrivialImplicitInfinitesimalGaugeSymmetriesPbstructExistenceOfCauchySurfaces}
 ###### Proposition
-**(non-trivial implicit [[infinitesimal gauge symmetries]] [[obstruction|obstruct]] existence of [[Cauchy surfaces]])
+**(non-trivial implicit [[infinitesimal gauge symmetries]] [[obstruction|obstruct]] existence of [[Cauchy surfaces]])**
 
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]].
 
@@ -9177,7 +9177,7 @@ We now parameterize such morphisms by another bundle:
 
 +-- {: .num_defn #GaugeParametrizedInfinitesimalGaugeTransformation}
 ###### Definition
-**(irreducible closed [[gauge parameters]])
+**(irreducible closed [[gauge parameters]])**
 
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}).
 
@@ -9267,7 +9267,7 @@ locally of finite order (prop. \ref{JetBundleIsLocallyProManifold}).
 
 +-- {: .num_prop #NoetherIdentities}
 ###### Proposition
-**([[Noether identities]])
+**([[Noether identities]])**
 
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}).
 
@@ -9348,7 +9348,7 @@ $$
 
 +-- {: .num_example #InfinitesimalGaugeSymmetryElectromagnetism}
 ###### Example
-**(implicit [[infinitesimal gauge symmetry]] of [[electromagnetism]])
+**(implicit [[infinitesimal gauge symmetry]] of [[electromagnetism]])**
 
 Consider the [[Lagrangian field theory]] of [[free field|free]] [[electromagnetism]]
 on [[Minkowski spacetime]] $\Sigma$ from example \ref{ElectromagnetismLagrangianDensity}.
@@ -9441,7 +9441,7 @@ the general concept of an [[action]] of a [[Lie algebra]] by [[infinitesimal]] [
 
 +-- {: .num_defn #InfinitesimalActionByLieAlgebra}
 ###### Definition
-**([[action]] of [[Lie algebra]] by [[infinitesimal]] [[diffeomorphism]])
+**([[action]] of [[Lie algebra]] by [[infinitesimal]] [[diffeomorphism]])**
 
 Let $X$ be a [[smooth manifold]] or more generally a [[locally pro-manifold]] (prop. \ref{JetBundleIsLocallyProManifold}), and let $\mathfrak{g}$ be a [[Lie algebra]].
 
@@ -9637,7 +9637,7 @@ these are also called _[[derived manifolds]]_.
 
 +-- {: .num_example #BasicExamplesOfLieAlgebroids}
 ###### Example
-**(basic examples of [[Lie algebroids]])
+**(basic examples of [[Lie algebroids]])**
 
 Two basic examples of [[Lie algebroids]] are:
 
@@ -9937,7 +9937,7 @@ and extended from there to $Obs_\Sigma(E \times_\Sigma \mathcal{G}[1])$ as a gra
 
 +-- {: .num_prop #}
 ###### Example
-**([[local BRST complex]] for [[free field|free]] [[electromagnetism]] on [[Minkowski spacetime]])
+**([[local BRST complex]] for [[free field|free]] [[electromagnetism]] on [[Minkowski spacetime]])**
 
 Consider the [[Lagrangian field theory]] of [[free field|free]] [[electromagnetism]] on [[Minkowski spacetime]] (example \ref{ElectromagnetismLagrangianDensity}) with its [[gauge parameter]] bundle as in
 example \ref{InfinitesimalGaugeSymmetryElectromagnetism}.
@@ -10070,7 +10070,7 @@ $$
 
 +-- {: .num_example #GaugeInvariantFunctionsIntermsOfLieAlgebroids}
 ###### Example
-**([[gauge invariance|gauge invariant]] [[functions]] in terms of [[Lie algebroids]])
+**([[gauge invariance|gauge invariant]] [[functions]] in terms of [[Lie algebroids]])**
 
 Let $X/\mathfrak{g}$ be an [[action Lie algebroid]] (example \ref{ActionLieAlgebroid})
 and regard the [[real line]] $\mathbb{R}^1$ as a Lie algebroid by example \ref{BasicExamplesOfLieAlgebroids}.
@@ -10436,7 +10436,7 @@ $$
 
 +-- {: .num_defn #DerivedCriticalLocusOfGaugeInvariantFunctionOnLieAlgebroid}
 ###### Definition
-**([[derived critical locus]] of [[gauge invariant]] function on [[Lie ∞-algebroid]])
+**([[derived critical locus]] of [[gauge invariant]] function on [[Lie ∞-algebroid]])**
 
 Let $\mathfrak{a}$ be a [[Lie ∞-algebroid]] (def. \ref{LInfinityAlgebroid}) over some $X$, let
 
@@ -12279,7 +12279,7 @@ Recall from example \ref{PoissonBracketForRealScalarField}:
 
 +-- {: .num_defn #CausalPropagatorOnMinkowskiSpacetime}
 ###### Definition
-**([[causal propagator]] on [[Minkowski spacetime]])
+**([[causal propagator]] on [[Minkowski spacetime]])**
 
 The _[[causal propagator]]_ or _[[Pauli-Jordan distribution]]_ on [[Minkowski spacetime]] $\mathbb{R}^{p,1}$ is the [[distribution]]
 
@@ -12571,7 +12571,7 @@ $$
 
 +-- {: .num_prop #AdvancedPropagatorAsContourIntegral}
 ###### Proposition
-**([[advanced propagator|advanced/retarded propagators]] as [[contour integrals]])
+**([[advanced propagator|advanced/retarded propagators]] as [[contour integrals]])**
 
 The retarded/advanced propagator on Minkowski spacetime (def. \ref{CausalPropatorOnMinkowskiSpacetime}) is  equal to
 
@@ -12789,7 +12789,7 @@ $$
 
 +-- {: .num_prop #ContourIntegralForStandardHadamardPropagatorOnMinkowskiSpacetime}
 ###### Proposition
-**([[contour integral]] representation of standard Hadamard propagator on [[Minkowski spacetime]])
+**([[contour integral]] representation of standard Hadamard propagator on [[Minkowski spacetime]])**
 
 The standard Hadamard distribution on Minkowski spacetime from
 def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime} is
@@ -12878,7 +12878,7 @@ $\,$
 
 +-- {: .num_defn #FeynmanPropatorAsSumOfHadamardPropagatorWithAdvancedPropagator}
 ###### Definition
-**([[Feynman propagator]] on [[globally hyperbolic spacetimes]])
+**([[Feynman propagator]] on [[globally hyperbolic spacetimes]])**
 
 Given a [[time orientation|time-oriented]] [[globally hyperbolic spacetime]] $\Sigma$ there exists a unique [[advanced causal propagator]] $\Delta_A \in \mathcal{D}'(\Sigma \times \Sigma)$ and a [[Hadamard propagator]] $\omega \in \mathcal{D}'(\Sigma \times \Sigma)$, unique up to addition of a regular distributio (a smooth function). Given a choice of $\omega$ (the [[vacuum state]]) then the corresponding _Feynman propagator_ is the sum
 
@@ -13346,7 +13346,7 @@ More generally:
 
 +-- {: .num_prop #MoyalStarProductOnMicrocausal}
 ###### Proposition
-**(Hadamard-Moyal star product on microcausal functionals)
+**(Hadamard-Moyal star product on microcausal functionals)**
 
 Let $(X,g)$ be a [[globally hyperbolic spacetime]], and let $\omega \in \mathcal{D}'(X \times X)$ be a [[Hadamard distribution]] (def. \ref{HadamardDistribution}) which is guaranteed to exist by prop. \ref{ExistenceOfHadamardDistributions}.
 
@@ -13905,7 +13905,7 @@ $$
 
 +-- {: .num_prop #ReverseTimOrderedProductsGiveReverseSMatrix}
 ###### Proposition
-**(reverse-time ordered products express inverse S-matrix)
+**(reverse-time ordered products express inverse S-matrix)**
 
 Given a time-ordered products $T(-)$ (def. \ref{TimeOrderedProduct}), then the
 corresponding reverse time-ordered product $\overline{T}(-)$ (def. \ref{ReverseTimeOrderedProduct})
@@ -14009,7 +14009,7 @@ following more general statement:
 
 +-- {: .num_prop #InversionFormulaForTimeOrderedProducts}
 ###### Proposition
-**(inversion relation for reverse-time ordered products)
+**(inversion relation for reverse-time ordered products)**
 
 Let $\{T_k\}_{k \in \mathbb{N}}$ be [[time-ordered products]] according to def. \ref{TimeOrderedProduct}.
 Then the reverse-time ordered products according to def. \ref{ReverseTimeOrderedProduct}
@@ -14491,7 +14491,7 @@ just for completeness:
 
 +-- {: .num_defn #RetardedProductFromPerturbativeSMatrix}
 ###### Definition
-**([[retarded products]] induced from perturbative S-matrix)
+**([[retarded products]] induced from perturbative S-matrix)**
 
 It follows from the perturbation axiom in def. \ref{PerturbativeSMatrixOnMinkowskiSpacetime} that there is a system of [[continuous linear functionals]]
 
@@ -14699,7 +14699,7 @@ system of localized [[quantum observables on interacting fields]]:
 
 +-- {: .num_defn #PerturbativeGeneratingLocalNetOfObservables}
 ###### Definition
-**(system of perturbative generating [[algebras of observables]])
+**(system of perturbative generating [[algebras of observables]])**
 
 Let $S$ be a perturbative S-matrix according to def. \ref{PerturbativeSMatrixOnMinkowskiSpacetime}
 and let $L_{int} \in \Omega^{d,0}(E)$ be an [[interaction]] [[Lagrangian density]].
@@ -14860,7 +14860,7 @@ of perturbative [[quantum observables]] (def. \ref{GeneratingFunctionsForCorrela
 
 +-- {: .num_defn #SystemOfAlgebrasOfQuantumObservables}
 ###### Definition
-**(system of [[algebras of quantum observables]])
+**(system of [[algebras of quantum observables]])**
 
 Let $S$ be a perturbative S-matrix according to def. \ref{PerturbativeSMatrixOnMinkowskiSpacetime}
 and let $L_{int} \in \Omega^{d,0}(E)$ be an [[interaction]] [[Lagrangian density]].
@@ -15287,7 +15287,7 @@ for set of scalar field Feynman diagrams with that tuple of vertices.
 
 +-- {: .num_prop #FeynmanPerturbationSeriesAwayFromCoincidingPoints}
 ###### Proposition
-**([[Feynman perturbation series]] away from coinciding vertices)
+**([[Feynman perturbation series]] away from coinciding vertices)**
 
 
 For $v \in \mathbb{N}$ the $v$-fold
@@ -15420,7 +15420,7 @@ which yield in total the sum over all diagrams with $v+1$ vertices.
 
 +-- {: .num_remark}
 ###### Remark
-**([[loop order]] and powers of [[Planck's constant]])
+**([[loop order]] and powers of [[Planck's constant]])**
 
 From prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints} one deduces that the
 order in [[Planck's constant]] that a ([[planar graph|planar]]) [[Feynman diagram]] contributes to the
@@ -15555,4 +15555,3 @@ $\,$
 $\,$
 
 
-[[!redirects A first idea of quantum field theory]]
