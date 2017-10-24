@@ -9,9 +9,9 @@ _Real algebraic K-theory_ is the the $\mathbb{Z}_2$-[[equivariant cohomology]] r
 
 ## References
 
-The main text remains unpublished as of this writing
+The main text is an unpublished book draft
 
-* [[Lars Hesselholt]], [[Ib Madsen]], _Real algebraic K-theory_ ([announcement pdf](http://www.birs.ca/workshops/2012/12w5116/report12w5116.pdf))
+* [[Lars Hesselholt]], [[Ib Madsen]], _Real algebraic K-theory_ ([manuscript](http://www.math.ku.dk/~larsh/papers/s05/book.pdf))
 
 Some details are in 
 
