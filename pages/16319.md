@@ -33,3 +33,7 @@ The [[right adjoint]] of the bosonic modality is the _[[rheonomy modality]]_.
 
 [[!redirects fermionic modality]]
 
+
+[[!redirects bosonic]]
+[[!redirects fermionic]]
+
