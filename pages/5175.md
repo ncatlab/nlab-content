@@ -118,6 +118,8 @@ and for $k \in \mathbb{N}$ the [[order of a distribution|order]] of $u$.
 
 * [[Green's function]]
 
+* [[Kronecker delta]]
+
 ## References
 
 
