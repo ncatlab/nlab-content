@@ -74,9 +74,9 @@ $\,$
 
 **Acknowledgement**
 
-Whatever is correct and stable in these notes profited greatly from discussions with [[Igor Khavkine]].
-Further helpful comments on the notes were made by [[Arnold Neumaier]]. Thanks also to [[Kasia Rejzner]]
-for helpful replies.
+These notes profited greatly from discussions with [[Igor Khavkine]].
+Further helpful comments on the notes were made by [[Severin Bunk]], [[David Corfield]], [[Arnold Neumaier]], [[David Roberts]]. 
+Thanks also to [[Kasia Rejzner]] for helpful replies.
 
 
 $\,$
@@ -140,24 +140,103 @@ $$
 for the operation of evaluating differential forms on this vector field, normalized so that
 this becomes a [[derivation]] (of degree -1) on the [[wedge product]] algebra of differential forms.
 
-For $\Sigma$ a [[compact space|compact]] [[smooth manifold]] and for $U$ any smooth manifold,
-the operation of [[fiber integration|fiber]]-[[integration of differential forms]] is of the form
+For $f \;\colon\; X \longrightarrow Y$ a [[smooth function]] between [[smooth manifolds]],
+the operation of [[pullback of differential forms]] along $f$ is denoted
+
+$$
+  f^\ast \;\colon\; \Omega^\bullet(Y) \longrightarrow \Omega^\bullet(X)
+  \,.
+$$
+
+For $\Sigma$ an [[orientation|oriented]] [[smooth manifold]],
+possibly with [[manifold with boundary|boundary]] $\partial \Sigma$ (canonically inheriting itself an [[orientation]]), 
+and for $U$ any smooth manifold,
+the operation of [[fiber integration|fiber]]-[[integration of differential forms]] along
+
+$$
+  U \times \Sigma \overset{pr_1}{\longrightarrow} U
+$$
+
+is of the form
 
 $$
   \array{
-    \Omega^{\bullet+dim(\Sigma)}(U \times \Sigma)
+    \Omega^{\bullet+dim(\Sigma)}_{cp_{\Sigma}}(U \times \Sigma)
       &\overset{\int_\Sigma}{\longrightarrow}&
     \Omega^\bullet(U)
     \\
     \omega &\mapsto& \int_\Sigma \omega
   }
-  \,.
+  \,,
 $$
 
-This is compatible with the [[exterior derivative]] on $U$ in that
+where on the left we have the sub-space of those [[differential forms]] on the [[Cartesian product]]
+such that for every point $u \in U$ they have [[compact support]] along $\Sigma$.
+
+=--
+
+The operations on [[differential forms]] (def. \ref{DifferentialForms}) are compatible with each other in the following 
+ways:
+
+
++-- {: .num_prop #PullbackOfDifferentialFormsIsChainMap}
+###### Proposition
+**([[pullback of differential forms]] is [[chain map]])**
+
+For $f \colon X \to Y$ a [[smooth function]] between [[smooth manifolds]], then 
+[[pullback of differential forms]] $f^\ast \colon \Omega^\bullet(Y) \to \Omega^\bullet(X)$
+commutes with the [[de Rham differential]] on both sides (def. \ref{DifferentialForms}):
 
 $$
-  d \int_\Sigma \omega = (-1)^{dim(\Sigma)} \int_\Sigma d_U \omega
+  d_Y \circ f^\ast
+  =
+  f^\ast \circ d_X
+  \phantom{AAAAA}
+  \array{
+    \Omega^\bullet(X) &\overset{f^\ast}{\longleftarrow}& \Omega^\bullet(Y)
+    \\
+    \mathllap{d_X}\downarrow && \downarrow\mathrlap{d_Y}
+    \\
+    \Omega^\bullet(X) &\underset{f^\ast}{\longleftarrow}& \Omega^\bullet(Y)
+  }
+$$
+
+
+=--
+
++-- {: .num_prop #StokesTheorem}
+###### Proposition
+**([[Stokes theorem]] for [[fiber integration|fiber]]-[[integration of differential forms]])**
+
+For $\Sigma$ an [[orientation|oriented]] [[smooth manifold]],
+possibly with [[manifold with boundary|boundary]] $\partial \Sigma$ (canonically inheriting itself an [[orientation]]),
+and for $U$ any smooth manifold,
+the operation of [[fiber integration|fiber]]-[[integration of differential forms]] along
+$U \times \Sigma \overset{pr_1}{\longrightarrow} U$ (def. \ref{DifferentialForms})
+is compatible with the [[exterior derivative]] $d_U$ on $U$ in that
+
+$$
+  \begin{aligned}
+    d \int_\Sigma \omega
+     & =
+    (-1)^{dim(\Sigma)} \int_\Sigma d_U \omega
+    \\
+    & =
+    (-1)^{dim(\Sigma)}
+    \left(
+      \int_\Sigma d \omega
+      -
+      \int_{\partial \Sigma} \omega
+    \right)
+  \end{aligned}
+  \,,
+$$
+
+where $d = d_U + d_\Sigma$ is the [[de Rham differential]] on $U \times \Sigma$ and where the second
+equality is the _[[Stokes theorem]]_ along $\Sigma$:
+
+$$
+  \int_\Sigma d_\Sigma \omega = \int_{\partial \Sigma} \omega
   \,.
 $$
 
@@ -4198,7 +4277,7 @@ along the [[jet prolongation]] of $\Phi$ (def. \ref{JetProlongation}):
 
 Notice that generally the operation of [[pullback of differential forms]]
 along any smooth function intertwines the full [[de Rham differentials]]. In particular
-we have on general grounds that
+we have by prop. \ref{PullbackOfDifferentialFormsIsChainMap} that
 
 $$
   d \circ j^\infty_\Sigma(\Phi)^\ast
@@ -4208,7 +4287,7 @@ $$
 $$
 
 This means that the second statement immediately follows from the
-first, by definition of the variational (vertical) derivative as the differece between
+first, by definition of the variational (vertical) derivative as the difference between
 the full de Rham differential and the horizontal one:
 
 $$
@@ -6835,7 +6914,7 @@ is compatible with the [[variational derivative]] $\delta$ and with the [[total 
 in the following way:
 
 1. On variational forms that are in the image of the total spacetime derivative
-   a transgressive [[Stokes' theorem]] holds:
+   a transgressive variant of the [[Stokes' theorem]] (prop. \ref{StokesTheorem}) holds:
 
    $$
      \tau_{\Sigma_r}(d \alpha) \;=\; ((-)\vert_{\partial \Sigma})^\ast \tau_{\partial \Sigma_r}( \alpha)
@@ -6877,7 +6956,7 @@ $$
 $$
 
 (where we write $d = d_U + d_\Sigma$ for the de Rham differential on $U \times \Sigma$).
-Hence by the ordinary [[Stokes' theorem]] restricted to any $\Phi_{(-)} \colon U \to \Gamma_{\Sigma_r}(E)$
+Hence by the ordinary [[Stokes' theorem]] (prop. \ref{StokesTheorem}) restricted to any $\Phi_{(-)} \colon U \to \Gamma_{\Sigma_r}(E)$
 with restriction $(-)\vert_{\partial \Sigma_r} \circ \Phi_{(-)} \colon U \to \Gamma_{\Sigma_r}(E)$
 the relation
 
@@ -6935,7 +7014,7 @@ for _fixed_ $u \in U$ the pullback of $\delta \phi^a_{\mu_1 \cdots \mu_k}$ along
      \end{aligned}
    $$
 
-   (since the full de Rham differentials always commute with pullback of differential forms),
+   (since the full de Rham differentials always commute with pullback of differential forms by prop. \ref{PullbackOfDifferentialFormsIsChainMap}),
    while the pullback of the horizontal derivative
 $d \phi^a_{\mu_1\cdots \mu_k} = \phi^a_{\mu_1 \cdots \mu_{k} \mu_{k+1}} \mathbf{d}x^{\mu_{k+1}}$
 vanishes at fixed $x \in \Sigma$.
@@ -7041,8 +7120,7 @@ $$
 $$
 
 where $j^\infty_\Sigma(\Phi) \colon \Sigma \to J^\infty_{\Sigma}(E)$ denotes the [[jet prolongation]] of $\Phi$ (def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}), $j^\infty_{\Sigma}(\Phi)^\ast$ the operation of
-[[pullback
-of differential forms]] along this function, and $\delta_{EL}$ is the
+[[pullback of differential forms]] along this function, and $\delta_{EL}$ is the
 [[Euler-Lagrange operator]] from prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}.
 
 In the case that the field bundle is a trivial vector bundle over Minowski spacetime as in example \ref{TrivialVectorBundleAsAFieldBundle}
@@ -8372,7 +8450,7 @@ $$
 
 By definition the [[transgression of variational differential forms|transgression]] of $d J$
 vanishes on the [[on-shell]] [[space of field configurations]]. Therefore the result
-is given by [[Stokes' theorem]].
+is given by [[Stokes' theorem]] (prop. \ref{StokesTheorem}).
 
 =--
 
@@ -8948,7 +9026,7 @@ the proof of prop. \ref{CovariantPhaseSpace}.
 =--
 
 
-+-- {: .num_example #}
++-- {: .num_example }
 ###### Example
 **(derived [[presymplectic current]] of [[real scalar field]])**
 
@@ -15555,3 +15633,4 @@ $\,$
 $\,$
 
 
+[[!redirects A first idea of quantum field theory]]
