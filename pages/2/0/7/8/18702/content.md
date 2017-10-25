@@ -32,12 +32,15 @@ The method was introduced in
  
 Review and exposition includes
 
-* [[Bertrand Eynard]], [[Nicolas Orantin]], _Topological recursion in rand
-om matrices and enumerative geometry_, J. Phys. A: Mathematical and Theoretical , 42(29), 2009 ([arXiv:0811.3531](https://arxiv.org/abs/0811.3531))
+* [[Bertrand Eynard]], [[Nicolas Orantin]], _Topological recursion in random matrices and enumerative geometry_, J. Phys. A: Mathematical and Theoretical , 42(29), 2009 ([arXiv:0811.3531](https://arxiv.org/abs/0811.3531))
 
 * [[Bertrand Eynard]], _A short overview of the "Topological recursion"_ ([arXiv:1412.3286](https://arxiv.org/abs/1412.3286))
 
-During the Institut Henri Poincar&#233;'s thematic trimester "[Combinatorics and interactions](http://combi17.math.cnrs.fr)", Nicolas Orantin delivered a series of lectures on topological recursion, which are available online:
+A textbook developing various topics related to topological recursion (in particular, discussing the links to enumeration of [[topological map|maps]]) is
+
+* [[Bertrand Eynard]], _Counting Surfaces_, CRM Aisenstadt Chair lectures, Progress in Mathematical Physics 70, Birkh&#228;user, 2016
+
+A series of lectures on topological recursion were delivered by Nicolas Orantin during the Institut Henri Poincar&#233;'s thematic trimester "[Combinatorics and interactions](http://combi17.math.cnrs.fr)", and are available online:
 
 * [[Nicolas Orantin]], _Topological Recursion_, eight-part lecture series, 2017. [youtube](https://m.youtube.com/watch?v=qvBfeVLPZpE) (1/8)
 
