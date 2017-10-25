@@ -3283,7 +3283,7 @@ $\,$
 **[[supergeometry|Supergeometry]]**
 
 Field theories of interest crucially involve [[fermionic fields]], such as the [[Dirac field]] (example \ref{DiracFieldBundle} below),
-which are subject to the "[[Pauli exclusion principle]]", a key reason for the [[stability of matter]]. 
+which are subject to the "[[Pauli exclusion principle]]", a key reason for the [[stability of matter]].
 Mathematically this means that these
 [[field (physics)|fields]] have [[field bundles]] whose [[field fiber]]
 is not an ordinary [[manifold]], but an odd-graded _[[supermanifold]]_.
@@ -3292,9 +3292,9 @@ This "[[supergeometry]]" is an immediate generalization of the
 [[synthetic differential geometry|infinitesimal geometry]] [above](#InfinitesimalGeometry), where now the [[infinitesimal]]
 elements in the [[algebra of functions]] may be equipped with a [[graded object|grading]]: one speaks of _[[superalgebra]]_.
 
-The "super"-terminology for something as down-to-earth as the mathematical principle behind the [[stability of matter]] 
+The "super"-terminology for something as down-to-earth as the mathematical principle behind the [[stability of matter]]
 may seem unfortunate. For better or worse, this terminology has become standard
-since the middle of the 20th century. But the concept that today is called _[[supercommutative superalgebra]]_ 
+since the middle of the 20th century. But the concept that today is called _[[supercommutative superalgebra]]_
 was in fact first considered by [[Ausdehnungslehre|Grassmann 1844]] who got it right ("[[Ausdehnungslehre]]") but apparently
 was too far ahead of his time and remained unappreciated.
 
@@ -3383,39 +3383,39 @@ include the following:
 
 1. Every [[commutative algebra]] $A$ becomes a [[supercommutative superalgebra]] by declaring it to be all in even degree:
    $A = A_{even}$.
-   
-1. For $V$ a [[finite dimensional vector space|finite dimensional]] [[real vector space]], then the 
+
+1. For $V$ a [[finite dimensional vector space|finite dimensional]] [[real vector space]], then the
    [[Grassmann algebra]] $A \coloneqq \wedge^\bullet_{\mathbb{R}} V^\ast$ is a supercommutative superalgebra with
    $A_{even} \coloneqq \wedge^{even} V^\ast$ and $A_{odd} \coloneqq \wedge^{odd} V^\ast$.
-   
+
    More explicitly, if $V = \mathbb{R}^s$ is a [[Cartesian space]] with canonical dual [[coordinates]]  $(\theta^i)_{i = 1}^s$
    then the [[Grassmann algebra]] $\wedge^\bullet (\mathbb{R}^s)^\ast$ is the real algebra which is [[generators and relations|generated]]
    from the $\theta^i$ regarded in odd degree and hence subject to the relation
-   
+
    $$
      \theta^i \cdot \theta^j = - \theta^j \cdot \theta^i
      \,.
    $$
-   
+
    In particular this implies that all the $\theta^i$ are [[infinitesimal]]:
-   
+
    $$
      \theta^i \theta^i = 0
      \,.
-   $$ 
+   $$
 
 1. For $A_1$ and $A_2$ two [[supercommutative superalgebras]], there is their _[[tensor product of algebras|tensor product]]_
-   supercommutative superalgebra $A_1 \otimes_{\mathbb{R}} A_2$. For example for $X$ a [[smooth manifold]] 
+   supercommutative superalgebra $A_1 \otimes_{\mathbb{R}} A_2$. For example for $X$ a [[smooth manifold]]
    with ordinary algebra of smooth functions $C^\infty(X)$ regarded as a supercommutative superalgebra
-   by the first example above, the tensor product with a [[Grassmann algebra]] (second example above) is the 
+   by the first example above, the tensor product with a [[Grassmann algebra]] (second example above) is the
    supercommutative superalgebta
-   
+
    $$
      C^\infty(X) \otimes_{\mathbb{R}} \wedge^\bullet((\mathbb{R}^s)\ast)
    $$
-   
+
    whose elements may uniquely be expanded in the form
-   
+
    $$
       f + f_i \theta^i + f_{i j} \theta^i \theta^j + f_{i j k} \theta^i \theta^j \theta^k + \cdots + f_{i_1 \cdots i_s} \theta^{i_1} \cdots \theta^{i_s}
      \,,
@@ -3433,7 +3433,7 @@ the definition of [[infinitesimally thickened smooth manifolds|infinitesimally t
 ###### Definition
 **([[super Cartesian space]])**
 
-A _[[superpoint]]_ $Spec(A)$ is represented by a [[super-commutative superalgebra]] 
+A _[[superpoint]]_ $Spec(A)$ is represented by a [[super-commutative superalgebra]]
 $A$ (def. \ref{SupercommutativeSuperalgebra}) which as a $\mathbb{Z}/2$-[[graded vector space]] ([[super vector space]]) is a [[direct sum]]
 
 $$
@@ -3458,7 +3458,7 @@ $C^\infty(\mathbb{R}^n)$ on an actual [[Cartesian space]] of some [[dimension]] 
 Specifically, for $s \in \mathbb{N}$, there is the superpoint
 
 $$
-  \mathbb{R}^{0 \vert s} 
+  \mathbb{R}^{0 \vert s}
     \;\coloneqq\;
   Spec\left(  \wedge^\bullet (\mathbb{R}^s)^\ast \right)
 $$
@@ -3469,11 +3469,11 @@ We write
 
 $$
   \begin{aligned}
-    \mathbb{R}^{b\vert s} 
-      & \coloneqq 
+    \mathbb{R}^{b\vert s}
+      & \coloneqq
     \mathbb{R}^b \times \mathbb{R}^{0 \vert s}
     \\
-    & = 
+    & =
     \mathbb{R}^b \times Spec( \wedge^\bullet(\mathbb{R}^s)^\ast )
     \\
      & =
@@ -3670,7 +3670,7 @@ Basing [[supergeometry]] on [[super formal smooth sets]] is an instance of the g
 
 We do not need to consider here [[supermanifolds]] more general than the [[super Cartesian spaces]] (def. \ref{SuperCartesianSpace}).
 But for those readers familiar with the concept we include the following example, which is the direct
-supergeometric analog of how ordinary [[smooth manifolds]] are [[diffeological spaces]]  
+supergeometric analog of how ordinary [[smooth manifolds]] are [[diffeological spaces]]
 (example \ref{SmoothManifoldsAreDiffeologicalSpaces}) and hence [[smooth sets]]:
 
 +-- {: .num_example}
@@ -3908,7 +3908,7 @@ has the following properties:
    $$
 
    and this corresponds to the [[zero section]], hence to the trivial [[Dirac field]]
-   
+
    $$
      \Psi^A_u = 0
      \,.
@@ -3965,20 +3965,20 @@ The second case follows by example \ref{SuperpointsMapping}.
 ###### Remark
 **([[supergeometry|supergeometry]] nature of the [[Dirac field]])**
 
-Proposition \ref{DiracSpaceOfFieldHistories} how two basic facts about the [[Dirac field]], 
+Proposition \ref{DiracSpaceOfFieldHistories} how two basic facts about the [[Dirac field]],
 which may superficially seem to be in tension with each other, are properly unified by [[supergeometry]]:
 
 1. On the one hand a [[field history]] $\Psi$ of the [[Dirac field]] is _not_ an ordinary section of an ordinary [[vector bundle]].
-   In particular its component functions $\psi^A$ anti-commute with each other, which is not the case for 
-   ordinary function, and this is absolutely crucial for the [[Lagrangian density]] of the Dirac field to be 
+   In particular its component functions $\psi^A$ anti-commute with each other, which is not the case for
+   ordinary function, and this is absolutely crucial for the [[Lagrangian density]] of the Dirac field to be
    well defined, we come to this below in example \ref{LagrangianDensityForDiracField}.
-   
-1. On the other hand a [[field history]] of the [[Dirac field]] is supposed to be a [[spinor]], hence 
+
+1. On the other hand a [[field history]] of the [[Dirac field]] is supposed to be a [[spinor]], hence
    a [[section]] of a [[spinor bundle]], which is an ordinary [[vector bundle]].
-   
+
 Prop. \ref{DiracSpaceOfFieldHistories} shows how, even so a Dirac field is not defined to be
 an ordinry section of an ordinary vector bundle, it is nevertheless encoded by such an ordinary section:
-One says that this ordinary section is the "[[superfield]]-component" of the Dirac field 
+One says that this ordinary section is the "[[superfield]]-component" of the Dirac field
 which is linear in a Grassmann variable $\theta$.
 
 
@@ -4498,7 +4498,7 @@ $\,$
 | \ref{VariationalBicomplexOnSecondOrderJetBundleOverTrivialVectorBundleOverMinkowskiSpacetime}  | $\; d \coloneqq d x^\mu \frac{d}{d x^\mu}$ | [[total derivative|total spacetime derivative]]   | [[horizontal derivative]]  |
 | \ref{VariationalBicomplexOnSecondOrderJetBundleOverTrivialVectorBundleOverMinkowskiSpacetime} | $ \; \frac{d}{d x^\mu} \coloneqq \frac{\partial}{\partial x^\mu} +  \phi^a_{,\mu} \frac{\partial}{\partial \phi^a}  + \cdots $ | [[total derivative|total spacetime derivative]] along $\partial_\mu$  |  [[horizontal derivative]] along $\partial_\mu$ |
 | \ref{VariationalBicomplexOnSecondOrderJetBundleOverTrivialVectorBundleOverMinkowskiSpacetime} | $\; \delta \coloneqq \mathbf{d} - d$ | [[variational derivative]]  | [[vertical derivative]] |
-| \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}  | $\; \delta_{EL} \mathbf{L} \coloneqq \mathbf{d}\mathbf{L} + d \Theta$ | [[Euler-Lagrange variational derivative|Euler-Lagrange variation]]  | [[Euler-Lagrange operator]] |
+| \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}  | $\; \delta_{EL} \mathbf{L} \coloneqq \mathbf{d}\mathbf{L} + d \Theta_{BFV}$ | [[Euler-Lagrange variational derivative|Euler-Lagrange variation]]  | [[Euler-Lagrange operator]] |
 | \ref{BVComplexOfOrdinaryLagrangianDensity} | $\; s_{BV}$  | [[BV-differential]]  |  [[Koszul complex|Koszul differential]]  |
 | \ref{LocalOffShellBRSTComplex} | $\; s_{BRST} $ | [[BRST differential]] |  [[Chevalley-Eilenberg complex|Chevalley-Eilenberg differential]]  |
 | \ref{LocalBVBRSTComplexIsDerivedCriticalLocusOfEulerLagrangeForm} | $\; s $ | [[BV-BRST differential]] |  [[Chevalley-Eilenberg complex|Chevalley-Eilenberg]]-[[Koszul-Tate complex|Koszul-Tate differential]]  |
@@ -4778,12 +4778,12 @@ from their special position in the [[variational bicomplex]].
 
 Their [[variational derivative]]
 uniquely decomposes as 1) the _[[Euler-Lagrange derivative]]_ $\delta_{EL} \mathbf{L}$ which is proportional to the variation of the fields
-(instead of their derivatives) and 2) the [[total derivative|total spacetime derivative]] $d \Theta$
-of a potential $\Theta$ for a _[[presymplectic current]]_ $\Omega_{BFV} \coloneqq \delta \Theta$
+(instead of their derivatives) and 2) the [[total derivative|total spacetime derivative]] $d \Theta_{BFV}$
+of a potential $\Theta_{BFV}$ for a _[[presymplectic current]]_ $\Omega_{BFV} \coloneqq \delta \Theta_{BFV}$
 (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime} below):
 
 $$
-  \delta_{EL} \mathbf{L} = \delta_{EL}\mathbf{L} - d \Theta
+  \delta \mathbf{L} = \delta_{EL}\mathbf{L} - d \Theta_{BFV}
   \,.
 $$
 
@@ -4796,7 +4796,7 @@ variational differential form called a _[[conserved current]]_ ([[Noether's theo
 these conserved currents constitute an [[Lie algebra extension|extension]] of the [[Lie algebra]]
 of symmetries, called the _[[Dickey bracket]]_.
 
-In direct analogy, every infinitesimal symmetry of the [[presymplectic current|presymplectic potential]] $\Theta$
+In direct analogy, every infinitesimal symmetry of the [[presymplectic current|presymplectic potential]] $\Theta_{BFV}$
 (called a _[[Hamiltonian vector field]]_) is witnessed by
 a variational differential form, called a _[[Hamiltonian differential form]]_ (def. \ref{HamiltonianForms} below).
 This is sometimes called the _[[Hamiltonian Noether theorem]]_.
@@ -5087,7 +5087,7 @@ $$
   =
   \delta_{EL} \mathbf{L}
   -
-  d \Theta
+  d \Theta_{BFV}
 $$
 
 such that $\delta_{EL}\mathbf{L}$ is proportional to the [[variational derivative]] of the fields (but not their derivatives, called a "[[source form]]"):
@@ -5178,11 +5178,11 @@ subspace. For example a [[variational differential form]] $\alpha \in \Omega^{\b
 is said to _vanish on shell_ if $\alpha\vert_{\mathcal{E}^\infty} = 0$.
 
 
-The remaining term $d \Theta$ in (eq:dLDecomposition) is unique, while the "presymplectic potential"
+The remaining term $d \Theta_{BFV}$ in (eq:dLDecomposition) is unique, while the "presymplectic potential"
 
 $$
   \label{PresymplecticPotential}
-  \Theta \in \Omega^{p,1}_{\Sigma}(E)
+  \Theta_{BFV} \in \Omega^{p,1}_{\Sigma}(E)
 $$
 
 is unique only up to terms $d \alpha$ in the image of $d$.
@@ -5191,7 +5191,7 @@ One possible choice is
 $$
   \label{StandardThetaForTrivialVectorFieldBundleOnMinkowskiSpacetime}
   \begin{aligned}
-    \Theta
+    \Theta_{BFV}
     & \coloneqq \phantom{+}
       \frac{\partial L}{\partial \phi^a_{,\mu}}
       \delta \phi^a
@@ -5223,20 +5223,20 @@ $$
 
 denotes the contraction of the volume form with the [[vector field]] $\partial_\mu$.
 
-The [[vertical derivative]] of a chosen $\Theta$ is called a _[[pre-symplectic current]]_ for $\mathbf{L}$:
+The [[vertical derivative]] of a chosen $\Theta_{BFV}$ is called a _[[pre-symplectic current]]_ for $\mathbf{L}$:
 
 $$
-  \Omega_{BFV} \coloneqq \delta \Theta \;\;\; \in \Omega^{p,2}_{\Sigma}(E)
+  \Omega_{BFV} \coloneqq \delta \Theta_{BFV} \;\;\; \in \Omega^{p,2}_{\Sigma}(E)
   \,,
 $$
 
 which, by the above, is unique up to addition of a total spacetime derivative $d \delta \alpha$.
 
-Given a choice of $\Theta$ then the sum
+Given a choice of $\Theta_{BFV}$ then the sum
 
 $$
   \label{TheLepage}
-  \mathbf{L} + \Theta \;\in\; \Omega^{p+1,0}_\Sigma(E) \oplus \Omega^{p,1}_\Sigma(E)
+  \mathbf{L} + \Theta_{BFV} \;\in\; \Omega^{p+1,0}_\Sigma(E) \oplus \Omega^{p,1}_\Sigma(E)
 $$
 
 is called the corresponding _[[Lepage form]]_. Its de Rham derivative is the sum of
@@ -5244,13 +5244,17 @@ the Euler-Lagrange variation and the presymplectic current:
 
 $$
   \label{DerivativeOfLepageForm}
-  \mathbf{d}( \mathbf{L} + \Theta )
+  \mathbf{d}( \mathbf{L} + \Theta_{BFV} )
   \;=\;
   \delta_{EL} \mathbf{L} + \Omega_{BFV}
   \,.
 $$
 
+
 =--
+
+(The conceptial nature of this [[Lepage form]] linear combinations (eq:TheLepage) will be elucidated after the introduction of the [[local BV-complex]]
+in example \ref{DerivedPresymplecticCurrentOfRealScalarField} below.)
 
 
 +-- {: .proof}
@@ -5276,16 +5280,16 @@ $$
   \,.
 $$
 
-The idea now is to have $d \Theta$ pick up those terms that would appear as [[boundary]] terms under the [[integral]]
+The idea now is to have $d \Theta_{BFV}$ pick up those terms that would appear as [[boundary]] terms under the [[integral]]
 $\int_\Sigma j^\infty_\Sigma(\Phi)^\ast \mathbf{d}L$ if we were to consider [[integration by parts]] to remove
 spacetime derivatives of $\delta \phi^a$.
 
 We compute, using example \ref{BasicFactsAboutVarationalCalculusOnJetBundleOfTrivialVectorBundle},
-the total horizontal derivative of $\Theta$ from (eq:StandardThetaForTrivialVectorFieldBundleOnMinkowskiSpacetime) as follows:
+the total horizontal derivative of $\Theta_{BFV}$ from (eq:StandardThetaForTrivialVectorFieldBundleOnMinkowskiSpacetime) as follows:
 
 $$
   \begin{aligned}
-    d \Theta
+    d \Theta_{BFV}
     & =
     \left(
       d
@@ -5385,7 +5389,7 @@ Here the two terms proportional to $\frac{d}{d x^\nu} \frac{\partial L}{\partial
 cancel out, and we are left with
 
 $$
-  d \Theta
+  d \Theta_{BFV}
   \;=\;
     -
       \left(
@@ -5411,12 +5415,12 @@ $$
 $$
 
 
-Hence $-d \Theta$ shares with $\mathbf{d} \mathbf{L}$ the terms that are proportional to
+Hence $-d \Theta_{BFV}$ shares with $\mathbf{d} \mathbf{L}$ the terms that are proportional to
 $\delta \phi^a_{,\mu_1 \cdots \mu_k}$ for $k \geq 1$,
 and so the remaining terms are proportional to $\delta \phi^a$, as claimed:
 
 $$
-  \mathbf{d}L + d \Theta
+  \mathbf{d}L + d \Theta_{BFV}
   =
   \underset{
     = \delta_{EL}\mathbf{L}
@@ -5506,10 +5510,10 @@ $$
   \,.
 $$
 
-By definition of the [[Euler-Lagrange operator]], in order to find $\delta_{EL}\mathbf{L}$ and $\Theta$, we need to exhibit this as the
-sum of the form $(-) \wedge \delta \phi  - d \Theta$.
+By definition of the [[Euler-Lagrange operator]], in order to find $\delta_{EL}\mathbf{L}$ and $\Theta_{BFV}$, we need to exhibit this as the
+sum of the form $(-) \wedge \delta \phi  - d \Theta_{BFV}$.
 
-The key to find $\Theta$ is  to realize $\delta \phi_{,\nu}\wedge \mathrm{dvol}_\Sigma$ as a
+The key to find $\Theta_{BFV}$ is  to realize $\delta \phi_{,\nu}\wedge \mathrm{dvol}_\Sigma$ as a
 [[total derivative|total spacetime derivative]] ([[horizontal derivative]]). Since $d \phi = \phi_{,\mu} d x^\mu$ this is accomplished by
 
 $$
@@ -5522,7 +5526,7 @@ Hence we may take the presymplectic potential (eq:PresymplecticPotential) of the
 
 $$
   \label{PresymplecticPotentialOfFreeScalarField}
-  \Theta
+  \Theta_{BFV}
     \coloneqq
   \eta^{\mu \nu} \phi_{,\mu} \delta \phi \wedge \iota_{\partial_\nu}
   \mathrm{dvol}_\Sigma
@@ -5532,7 +5536,7 @@ $$
 because with this we have
 
 $$
-  d \Theta
+  d \Theta_{BFV}
   =
   \eta^{\mu \nu}
   \left(
@@ -5559,16 +5563,16 @@ $$
   }
   }
   -
-  d \Theta
+  d \Theta_{BFV}
   \,,
 $$
 
-which shows that $\delta_{EL} L$ is as claimed, and that $\Theta$ is a presymplectic potential current (eq:PresymplecticPotential).
+which shows that $\delta_{EL} L$ is as claimed, and that $\Theta_{BFV}$ is a presymplectic potential current (eq:PresymplecticPotential).
 Hence the presymplectic current itself is
 
 $$
   \begin{aligned}
-    \Omega_{BFV} &\coloneqq \delta \Theta
+    \Omega_{BFV} &\coloneqq \delta \Theta_{BFV}
     \\
     & =
     \delta \left( \eta^{\mu \nu} \phi_{,\mu} \delta \phi \wedge \iota_{\partial_\nu} \mathrm{dvol}_\Sigma \right)
@@ -5682,7 +5686,7 @@ This means that the presymplectic current is indeed a _[[conserved current]]_ (d
 By prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime} we have
 
 $$
-  \delta \mathbf{L} = \delta_{EL} \mathbf{L} - d \Theta
+  \delta \mathbf{L} = \delta_{EL} \mathbf{L} - d \Theta_{BFV}
   \,.
 $$
 
@@ -5696,6 +5700,32 @@ $\,$
 
 ## Symmetries
 
+We have introduced the concept of _[[Lagrangian field theories]]_ $(E,\mathbf{L})$ in terms of a [[field bundle]] $E$ equipped with a 
+[[Lagrangian density]] $\mathbf{L}$ on its [[jet bundle]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}).
+Generally, given any [[object]] equipped with some [[structure]], it is of paramount interest to determine
+the [[symmetries]], hence the [[isomorphisms]]/[[equivalences]] of the object that preserve the given [[structure]].
+
+The [[infinitesimal symmetries of the Lagrangian density]] (def. \ref{SymmetriesAndConservedCurrents} below) 
+send one [[field history]] to an [[infinitesimal|infinitesimally]] nearby one which is 
+"[[equivalence|equivalent]]" for all purposes of [[field theory]]. Among these are the _[[infinitesimal gauge symmetries]]_
+which will be of concern [below](#GaugeSymmetries).
+A central theorem of [[variational calculus]] says that [[infinitesimal symmetries of the Lagrangian]]
+correspond to _[[conserved currents]]_, this is [[Noether theorem|Noether's theorem I]], prop. \ref{NoethersFirstTheorem} below.
+
+But in (eq:DerivativeOfLepageForm) we have seen that the [[Lagrangian density]]
+of a [[Lagrangian field theory]] is just one component, in [[codimension]] 0, of an inhomogeneous
+"[[Lepage form]]" which in [[codimension]] 1 is given by the [[presymplectic potential current]] $\Theta_{BFV}$ (eq:PresymplecticPotential).
+(This will be conceptually elucidated, after we have introduced the [[local BV-complex]], in example \ref{DerivedPresymplecticCurrentOfRealScalarField} below.) This means that in [[codimension]] 1 we are to 
+consider infinitesimal symmetries of the [[presymplectic potential current]] $\Theta_{BFV}$. These are
+known as [[Hamiltonian vector fields]] (def. \ref{HamiltonianForms} below) and the analog of [[Noether's theorem|Noether's theorem I]]
+now says that these correspond to [[Hamiltonian differential forms]]. The [[Lie algebra]] of these
+infinitesimal symmetries is called the _[[Poisson bracket Lie n-algebra|local Poisson bracket]]_ (prop. \ref{LocalPoissonBracket} below).
+
+Further [below](#PhaseSpace) we [[transgression|trasngress]] this [[Poisson bracket Lie n-algebra|local Poisson bracket]] 
+of [[infinitesimal symmetries]] of the [[presymplectic potential current]] to the "global" [[Poisson bracket]] on [[phase space]] (def. \ref{PoissonBracketOnHamiltonianLocalObservables} below). This is the structure which then [further below](#QuantumObservables) leads over to the 
+[[quantization]] ([[deformation quantization]]) of the [[prequantum field theory]] to a genuine [[perturbative quantum field theory]].
+
+$\,$
 
 +-- {: .num_defn #Variation}
 ###### Definition
@@ -6072,10 +6102,10 @@ If $v$ is an [[infinitesimal symmetry of the Lagrangian]] (def. \ref{SymmetriesA
 with $\mathcal{L}_v \mathbf{L} = d \tilde J_v$, then
 
 $$
-  J_v \coloneqq \tilde J_v - \iota_v \Theta
+  J_v \coloneqq \tilde J_v - \iota_v \Theta_{BFV}
 $$
 
-is an [[on-shell]] [[conserved current]] (def. \ref{SymmetriesAndConservedCurrents}), for $\Theta$
+is an [[on-shell]] [[conserved current]] (def. \ref{SymmetriesAndConservedCurrents}), for $\Theta_{BFV}$
 a presymplectic potential (eq:PresymplecticPotential) from def. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}.
 
 =--
@@ -6094,20 +6124,20 @@ $$
     \mathcal{L}_v \mathbf{L}
     \\
     & =
-    \iota_v \underset{= \delta_{EL}\mathbf{L} - d \Theta}{\underbrace{\mathbf{d} \mathbf{L}}}
+    \iota_v \underset{= \delta_{EL}\mathbf{L} - d \Theta_{BFV}}{\underbrace{\mathbf{d} \mathbf{L}}}
     +
     \mathbf{d} \underset{= 0}{\underbrace{\iota_v \mathbf{L}}}
     \\
     & =
     \iota_v \delta_{EL} \mathbf{L}
-    + d \iota_v \Theta
+    + d \iota_v \Theta_{BFV}
   \end{aligned}
 $$
 
 which is equivalent to
 
 $$
-  d(\underset{= J_v}{\underbrace{\tilde J - \iota_v \Theta}}) = \iota_v \delta_{EL}\mathbf{L}
+  d(\underset{= J_v}{\underbrace{\tilde J - \iota_v \Theta_{BFV}}}) = \iota_v \delta_{EL}\mathbf{L}
 $$
 
 Since by definition of $\mathcal{E}$ the form $\frac{\delta_{EL} \mathbf{L}}{\delta v}$ vanishes on $\mathcal{E}$
@@ -6329,7 +6359,7 @@ $$
 With the formula (eq:PresymplecticPotentialOfFreeScalarField) for the presymplectic potential
 
 $$
-  \Theta
+  \Theta_{BFV}
     =
   \eta^{\mu \nu} \phi_{,\mu} \delta \phi \iota_{\partial_{\nu}} dvol_\Sigma
 $$
@@ -6343,7 +6373,7 @@ $$
      & =
      L \, \iota_{\partial_\nu} dvol_\Sigma
      -
-     \iota_{v_\nu}\Theta
+     \iota_{v_\nu}\Theta_{BFV}
      \\
      &
      =
@@ -6385,14 +6415,14 @@ to the [[presymplectic current]] yields the following:
 ###### Definition
 **([[Hamiltonian vector fields|infinitesimal symmetry of the presymplectic potential]] and [[Hamiltonian differential forms]])**
 
-Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] with presymplectic potential $\Theta$ (eq:PresymplecticPotential).
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] with presymplectic potential $\Theta_{BFV}$ (eq:PresymplecticPotential).
 Write $\mathcal{E} \hookrightarrow J^\infty_\Sigma(E)$ for the [[shell]] (eq:ShellInJetBundle).
 
 1. An [[on-shell]] variation $v$ (def. \ref{Variation}) is an _infinitesimal symmetry of the Lepage form_
    or _[[Hamiltonian vector field]]_ if [[on-shell]] (def. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}) its [[Lie derivative]] along $v$ is a [[variational derivative]]:
 
    $$
-     \mathcal{L}_v  \Theta  = \delta \tilde H_v
+     \mathcal{L}_v  \Theta_{BFV}  = \delta \tilde H_v
      \phantom{AAA}
      \text{on}\, \mathcal{E}
    $$
@@ -6432,10 +6462,10 @@ for the space of pairs consisting of a Hamiltonian differential forms [[on-shell
 **([[Hamiltonian Noether's theorem]])**
 
 A variation $v$ is an infinitesimal symmetry of the presymplectic potential (def. \ref{HamiltonianForms})
-with $\mathcal{L}_v ( \Theta ) = \delta \tilde H_v$ precisely if
+with $\mathcal{L}_v ( \Theta_{BFV} ) = \delta \tilde H_v$ precisely if
 
 $$
-  H_v \coloneqq \tilde H_v - \iota_v \Theta
+  H_v \coloneqq \tilde H_v - \iota_v \Theta_{BFV}
 $$
 
 is a [[Hamiltonian differential form]] for $v$.
@@ -6450,25 +6480,25 @@ By [[Cartan's homotopy formula]] for the [[Lie derivative]] we have
 
 $$
   \begin{aligned}
-    \mathcal{L}_v  \Theta
+    \mathcal{L}_v  \Theta_{BFV}
     & =
     \underset{
-      = \delta \iota_v \Theta - \iota_v d \Theta
+      = \delta \iota_v \Theta_{BFV} - \iota_v d \Theta_{BFV}
     }{
       \underbrace{
-        \mathbf{d} \iota_v \Theta
+        \mathbf{d} \iota_v \Theta_{BFV}
       }
     }
     +
     \underset{
-      \iota_v \delta \Theta + \iota_v d \Theta
+      \iota_v \delta \Theta_{BFV} + \iota_v d \Theta_{BFV}
     }{
     \underbrace{
-    \iota_v \mathbf{d} \Theta
+    \iota_v \mathbf{d} \Theta_{BFV}
     }}
     \\
     & =
-    \delta \iota_v \Theta + \iota_v \underset{ = \Omega_{BFV}}{\underbrace{\delta \Theta}}
+    \delta \iota_v \Theta_{BFV} + \iota_v \underset{ = \Omega_{BFV}}{\underbrace{\delta \Theta_{BFV}}}
     \,.
   \end{aligned}
 $$
@@ -6483,8 +6513,8 @@ $\,$
 
 | $\,$ [[variational differential forms|variational form]] $\,$  |   $\,$ [[symmetry]] $\,$ | $\,$ [[Cartan's homotopy formula|homotopy formula]] $\,$ | $\,$ physical quantity $\,\,\,$ | $\,$ [[Lie n-algebra|local symmetry algebra]] $\,$ |
 |----|----------|----------------------------|---------------------------------|------|
-| [[Lagrangian density]] $\mathbf{L}$  | $\mathcal{L}_v \mathbf{L} = d \tilde J$  | $\Leftrightarrow d(\underset{= J_v}{\underbrace{\tilde J - \iota_v \Theta}}) = \iota_v \, \delta_{EL}\mathbf{L}$ | [[conserved current]] $J_v$ | [[Dickey bracket]] |
-| [[presymplectic current]] $\Omega_{BFV}$ | $\mathcal{L}_v \Theta = \delta \tilde H$ | $\Leftrightarrow \delta(\underset{= H_v}{\underbrace{\tilde H_v - \iota_v \Theta}}) = \iota_v \Omega_{BFV}$ | [[Hamiltonian differential form|Hamiltonian form]] $H_v$ | [[Poisson bracket Lie n-algebra|local Poisson bracket]] |
+| [[Lagrangian density]] $\mathbf{L}$  | $\mathcal{L}_v \mathbf{L} = d \tilde J$  | $\Leftrightarrow d(\underset{= J_v}{\underbrace{\tilde J - \iota_v \Theta_{BFV}}}) = \iota_v \, \delta_{EL}\mathbf{L}$ | [[conserved current]] $J_v$ | [[Dickey bracket]] |
+| [[presymplectic current]] $\Omega_{BFV}$ | $\mathcal{L}_v \Theta_{BFV} = \delta \tilde H$ | $\Leftrightarrow \delta(\underset{= H_v}{\underbrace{\tilde H_v - \iota_v \Theta_{BFV}}}) = \iota_v \Omega_{BFV}$ | [[Hamiltonian differential form|Hamiltonian form]] $H_v$ | [[Poisson bracket Lie n-algebra|local Poisson bracket]] |
 
 
 
@@ -7490,10 +7520,10 @@ $$
   \begin{aligned}
     \cdots
     & =
-    \tau_\Sigma( b \, \delta_{EL} \mathbf{L} + d \Theta_b )
+    \tau_\Sigma( b \, \delta_{EL} \mathbf{L} + d \Theta_{BFV}_b )
     \\
     & =
-    \tau_\Sigma( b \, \delta_{EL} \mathbf{L} ) + \underset{= 0}{\underbrace{\tau_\Sigma( d \Theta_b )}}
+    \tau_\Sigma( b \, \delta_{EL} \mathbf{L} ) + \underset{= 0}{\underbrace{\tau_\Sigma( d \Theta_{BFV}_b )}}
   \end{aligned}
   \,,
 $$
@@ -9437,7 +9467,7 @@ $$
     -i (2\pi)^{-p} \int \tfrac{1}{2 E(\vec k)} e^{- i E(\vec k) (x-y)^0 - \vec k \cdot (\vec x - \vec y)} d^{p} \vec k
     \\
     & =
-    -i (2\pi)^{-p} \int \delta( k_\mu k^\mu + m^2 ) \Theta( k_0 ) e^{ - i k_\mu (x-y)^\mu } d^{p+1} k
+    -i (2\pi)^{-p} \int \delta( k_\mu k^\mu + m^2 ) \Theta_{BFV}( k_0 ) e^{ - i k_\mu (x-y)^\mu } d^{p+1} k
     \,,
   \end{aligned}
 $$
@@ -9453,7 +9483,7 @@ $$
   + i (2\pi)^{-p} \int \tfrac{1}{2 E(\vec k)} e^{i E(\vec k) (x-y)^0 + \vec k \cdot (\vec x - \vec y)} d^{p} \vec k
   \\
   & =
-  + i (2\pi)^{-p} \int \delta( k_\mu k^\mu + m^2 ) \Theta( -k_0 ) e^{ - i k_\mu (x-y)^\mu } d^{p+1} k
+  + i (2\pi)^{-p} \int \delta( k_\mu k^\mu + m^2 ) \Theta_{BFV}( -k_0 ) e^{ - i k_\mu (x-y)^\mu } d^{p+1} k
   \\
   \end{aligned}
   \,.
@@ -9518,12 +9548,38 @@ whose [[field bundle]] $E$ is a [[trivial vector bundle]] (example \ref{TrivialV
 Let $\Sigma \times \{\varphi\} \hookrightarrow \mathcal{E}$ be a constant section of the shell (eq:ConstantSectionOfTrivialShellBundle).
 
 Then in the BV-variational bicomplex (eq:ComparisonMorphismFromOrdinaryBVComplexToLocalObservables)
-there exists the _BV-presymplectic current_
+there exists the _BV-presymplectic potential_ 
 
 $$
-  \Omega_{BV} \coloneqq \delta \overline{\phi}_a \wedge \delta \phi^a \wedge dvol_{\Sigma}
+  \label{BVPresymplecticPotential}
+  \Theta_{BV} 
+    \;\coloneqq\; 
+  \overline{\phi}_a \delta \phi^a \, dvol_\Sigma
+  \;\in\;
+  \Omega^{p,1}_\Sigma(E,\varphi)\vert_{\mathcal{E}_{BV}}
+$$
+
+and the corresponding _BV-presymplectic current_
+
+$$
+  \Omega_{BV} 
+  ;\in\; 
+  \Omega^{p,2}_\Sigma(E,\varphi)\vert_{\mathcal{E}_{BV}}
+$$
+
+defined by
+
+$$
+  \begin{aligned}
+    \Omega_{BV} 
+      & \coloneqq 
+    \delta \Theta_{BV}
+     \\
+     & =  
+     \delta \overline{\phi}_a \wedge \delta \phi^a \wedge dvol_{\Sigma}
   \;\;\;
-  \in \Omega^{p,2}_\Sigma(E,\varphi)\vert_{\mathcal{E}_{BV}}
+  
+  \end{aligned}
   \,,
 $$
 
@@ -9625,15 +9681,19 @@ the proof of prop. \ref{CovariantPhaseSpace}.
 =--
 
 
-+-- {: .num_example }
+
+
+=--
+
++-- {: .num_example #DerivedPresymplecticCurrentOfRealScalarField}
 ###### Example
 **(derived [[presymplectic current]] of [[real scalar field]])**
 
 Consider a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
-without any non-trivial implicial [[infinitesimal gauge transformations]] (def. \ref{ImplicitInfinitesimalGaugeSymmetry});
-for instance the [[real scalar field]] (def. \ref{LagrangianForFreeScalarFieldOnMinkowskiSpacetime}).
+without any non-trivial implicit [[infinitesimal gauge transformations]] (def. \ref{ImplicitInfinitesimalGaugeSymmetry});
+for instance the [[real scalar field]] from example \ref{LagrangianForFreeScalarFieldOnMinkowskiSpacetime}.
 
-Inside its BV-complex (def. \ref{BVComplexOfOrdinaryLagrangianDensity}) we may form the linear combination of
+Inside its [[local BV-complex]] (def. \ref{BVComplexOfOrdinaryLagrangianDensity}) we may form the linear combination of
 
 1. the [[presymplectic current]] $\Omega_{BFV}$ (example \ref{FreeScalarFieldEOM})
 
@@ -9645,13 +9705,67 @@ $$
   \Omega \;\coloneqq\; \Omega_{BV} + \Omega_{BFV} \;\; \in \Omega^{p,2}_\Sigma(E)\vert_{\mathcal{E}_{BV}}
 $$
 
-which is closed under the BV-horizontal derivative $d - s$:
+which might be called the _derived presymplectic current_.
+
+Similarly we may form the linear combination of 
+1. the presymplectic potential current $\Theta_{BFV}$ (eq:dLDecomposition)
+
+1. the BF-presymplectic potential current $\Theta_{BV}$ (eq:BVPresymplecticPotential)
+
+1. the [[Lagrangian density]] $\mathbf{L}$ (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
+
+hence
+
+$$
+  \Theta \;\coloneqq\; \Theta_{BV} + \underset{Lepage}{\underbrace{ \Theta_{BFV} + \mathbf{L} }}
+$$
+
+(where the sum of the two terms on the right is the [[Lepage form]] (eq:TheLepage)). 
+This might be called the _derived presymplectic potental current_.
+
+We then have that 
+
+$$
+  (\delta + (d-s))\Omega \;=\; 0
+$$
+
+and in fact 
+
+$$
+  (\delta + (d-s))\Theta \;=\; \Omega
+  \,.
+$$
+
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+Of course the first statement follows from the second, but in fact the two contributions of the first statement 
+even vanish separately:
+
+$$
+  \delta \Omega = 0
+  \,,
+  \phantom{AAAA}
+  (d-s)\Omega = 0
+  \,.
+$$
+
+The statement on the left is immediate from the definitions, since $\Omega = \delta \Theta$.
+For the statement on the right we compute
 
 $$
   \begin{aligned}
     (d - s) (\Omega_{BV} + \Omega_{BFV})
     & =
-    \underset{= 0}{\underbrace{d \Omega_{BFV} - s \Omega_{BV}}} + d \Omega_{BV} - s \Omega_{BFV}
+    \underset{= 0}{\underbrace{d \Omega_{BFV} 
+      - 
+    \underset{ = 0 }{\underbrace{ s \Omega_{BV}}}  }}
+     + 
+    \underset{ = 0}{\underbrace{ d \Omega_{BV} - s \Omega_{BFV} }}
     \\
     & = 0
   \end{aligned}
@@ -9660,8 +9774,44 @@ $$
 Here the first term vanishes via the local BV-BFV relation (prop. \ref{ResolutionOfCovariantPhaseSpaceCorrespondence})
 while the other two terms vanish simply by degree reasons.
 
-=--
+Similarly for the second statement we compute as follows:
 
+$$
+  \begin{aligned}
+    (\delta + (d - s) ) \Theta
+    & =
+    \underset{ = \Omega_{BV}  + \Omega_{BFV}}{\underbrace{ \delta (\Theta_{BV} + \Theta_{BFV}) }}
+    +
+    \underset{ = \delta \mathbf{L}}{\underbrace{\mathbf{d} \mathbf{L}}}
+    +
+    \underset{ = 0 }{\underbrace{  (d-s) \mathbf{L}  }}
+    +
+    (d-s)(\Theta_{BV} + \Theta_{BFV})
+    \\
+    & =
+    \Omega_{BV} +  \Omega_{BFV}
+    +
+    \delta \mathbf{L}
+    +
+    \underset{ = 0}{\underbrace{d \Theta_{BV}}}
+    -
+    \underset{ = \delta_{EL} \mathbf{L} }{\underbrace{ s \Theta_{BV}}}
+    +
+    \underset{ = \delta_{EL}\mathbf{L} - \delta \mathbf{L} }{\underbrace{ d \Theta_{BFV} } }
+    -
+    \underset{ = 0 }{\underbrace{ s \Theta_{BFV} }}
+    \\
+    & =
+    \Omega_{BV} + \Omega_{BFV}
+  \end{aligned}
+  \,.
+$$
+
+Here the direct vanishing of various terms is again by simple degree reasons, and
+otherwise we used the definition of $\Omega$ and, crucially, the variational identity
+$\delta \mathbf{L} = \delta_{EL}\mathbf{L} - d \Theta_{BFV}$ (eq:dLDecomposition).
+
+=--
 
 
 
@@ -9690,7 +9840,7 @@ paves the way to understanding the cause of the obstruction: It disappears when 
 [[field bundle]] (or more generally its [[jet bundle]]) is promoted to its _infinitesimal [[homotopy quotient]]_
 by the [[action]] of these compactly supported symmetries (the "[[action Lie algebroid]]", def. \ref{ActionLieAlgebroid} below).
 
-Passing to this homotopy quotient
+Passing to this [[homotopy quotient]]
 means to hard-wire into the geometry of the  types of [[field (physics)|field]] their _[[equivalence]]_ under these symmetries: in physics this is called _[[gauge equivalence]]_.  The result is called the "[[reduced phase space]]", which we turn to further [below](#ReducedPhaseSpace).
 
 Therefore the presence of [[infinitesimal symmetries of the Lagrangian]] with compact spacetime support is a defect of the theory
@@ -13030,7 +13180,7 @@ $$
   \left(
     \delta( -{\vert x-y\vert}^2 )
     -
-    \Theta( -{\vert x-y\vert}^2 )
+    \Theta_{BFV}( -{\vert x-y\vert}^2 )
     \frac{m}{2 \sqrt{-{\vert x-y\vert}^2} }
     J_1\left(
       m \sqrt{-{\vert x-y\vert}^2}
@@ -13212,12 +13362,12 @@ $\,$
 ###### Definition
 **([[advanced propagator]] on [[Minkowski spacetime]])**
 
-On [[Minkowski spacetime]] of [[dimension]] $p+1$ the _[[retarded propagator]]_ is the [[product of distributions]] of the [[Heaviside distribution]] $\Theta$ in the time-component with the [[causal propagator]] $\Delta$:
+On [[Minkowski spacetime]] of [[dimension]] $p+1$ the _[[retarded propagator]]_ is the [[product of distributions]] of the [[Heaviside distribution]] $\Theta_{BFV}$ in the time-component with the [[causal propagator]] $\Delta$:
 
 $$
   \Delta_R(x,y)
   \; \coloneqq \;
-  \Theta((x-y)^0) \Delta(x,y)
+  \Theta_{BFV}((x-y)^0) \Delta(x,y)
   \,.
 $$
 
@@ -13226,7 +13376,7 @@ Similarly the advanced propagator is
 $$
   \Delta_a(x,y)
   \; \coloneqq \;
-  -\Theta(-(x-y)^0) \Delta(x,y)
+  -\Theta_{BFV}(-(x-y)^0) \Delta(x,y)
   \,.
 $$
 
@@ -13237,7 +13387,7 @@ $$
   \;=\;
    - i
    (2\pi)^{-p}
-   \Theta(\pm(x-y)^0)
+   \Theta_{BFV}(\pm(x-y)^0)
    \int \frac{1}{E(\vec k)} sin(E(\vec k) (x-y)^0 ) e^{ - i \vec k \cdot (\vec x - \vec y)}
    d^p \vec k
   \,.
@@ -13351,7 +13501,7 @@ $$
     \\
     & =
     - i (2\pi)^{-p}
-    \Theta((x-y)^0)
+    \Theta_{BFV}((x-y)^0)
     \int
       \frac{1}{E(\vec k)}
       sin\left( E(\vec k)(x-y)^0 \right)
@@ -13386,9 +13536,9 @@ For $x \lt 0$ we proceeds analogously, now completing to contours in the upper h
 
 Finally, for the advanced propagator the argument is directly analogous, with two differences:
 
-1. now the poles sit in the upper half plane, and hence we pick up a contribution for $(x-y)^0 \lt 0$ and none for $(x-y)^0 \gt 0$, hence in the end a prefactor of $\Theta(-(x-y)^0)$ instead of $\Theta((x-y)^0)$;
+1. now the poles sit in the upper half plane, and hence we pick up a contribution for $(x-y)^0 \lt 0$ and none for $(x-y)^0 \gt 0$, hence in the end a prefactor of $\Theta_{BFV}(-(x-y)^0)$ instead of $\Theta_{BFV}((x-y)^0)$;
 
-1. the contours that do contribute now go counter-clockwise, instead of counter-clockwise, and hence we pick up an extra minus sign compared to the previous computation, as befits the definition of $\Delta_A(x,y) \coloneqq -\Theta(-(x-y)^0) \Delta(x,y)$.
+1. the contours that do contribute now go counter-clockwise, instead of counter-clockwise, and hence we pick up an extra minus sign compared to the previous computation, as befits the definition of $\Delta_A(x,y) \coloneqq -\Theta_{BFV}(-(x-y)^0) \Delta(x,y)$.
 
 Hence:
 
@@ -13455,7 +13605,7 @@ $$
     (2\pi)^{-p} \int \tfrac{1}{2 E(\vec k)} e^{- i E(\vec k) (x-y)^0 - \vec k \cdot (\vec x - \vec y)} d^{p} \vec k
     \\
     & =
-    (2\pi)^{-p} \int \delta( k_\mu k^\mu + m^2 ) \Theta( k_0 ) e^{ - i k_\mu (x-y)^\mu } d^{p+1} k
+    (2\pi)^{-p} \int \delta( k_\mu k^\mu + m^2 ) \Theta_{BFV}( k_0 ) e^{ - i k_\mu (x-y)^\mu } d^{p+1} k
     \,,
   \end{aligned}
 $$
