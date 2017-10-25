@@ -147,6 +147,7 @@ This can also be understood naturally in the language of [[(n,r)-categories]].  
 
 * [[categorification in representation theory]]
 
+* [[categorified Dold-Kan correspondence]]
 
 ## References
 
