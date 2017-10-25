@@ -1,7 +1,8 @@
-first line before hidden comment.
+*  an [[indexed set]] 
 
-+-- {: .hide}
-hidden second line comment.
-=--
-
-third line after hidden comment. 
+   $$
+      \{ \mathbb{R}^n \underoverset{et}{\phantom{AA}f_i\phantom{AA}}{\hookrightarrow} \mathbb{R}^n\}_{i \in I}
+   $$ 
+   
+   of [[open embeddings]]
+   (def. \ref{LocalDiffeomorphismBetweenCartesianSpaces})
