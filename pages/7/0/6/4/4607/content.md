@@ -29,6 +29,9 @@ We have been vague so far about what a family is a family *of* (what the element
 
 In [[foundations]] without [[proper classes]], it may be tricky to specify exactly what a [[family of sets]] is, if one cannot literally speak of a functor from a discrete category to the [[large category]] [[Set]]; see the article.  On the other hand, there is no difficulty in speaking of a [[family of subsets]] of a given set; even in [[predicative mathematics]] (where one cannot speak of the [[power set]]), a __family of subsets__ of $S$ is simply a [[binary relation]] between $S$ and some index set $I$, writing $a \in x_k$ to denote that the $S$-element $a$ is related to the index $k$.
 
+## Related concepts
+
+* [[dependent type]]
 
 [[!redirects family]]
 [[!redirects families]]
