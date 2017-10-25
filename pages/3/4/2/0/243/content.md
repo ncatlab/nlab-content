@@ -629,6 +629,9 @@ The standard reference is
 
 * {#Fosco} [[Fosco Loregian]], _This is the (co)end, my only (co)friend_ ([arXiv](http://arxiv.org/abs/1501.02503)).
 
+Application in [[conformal field theory]]:
+
+* [[Jürgen Fuchs]], [[Christoph Schweigert]], _Coends in conformal field theory_ ([arXiv:1604.01670](https://arxiv.org/abs/1604.01670))
 
 [[!redirects end]]
 [[!redirects ends]]
