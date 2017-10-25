@@ -667,7 +667,7 @@ The classical Dold-Kan theorem occurs as a special case among others from [[comb
 
 * [[Stephen Lack]], [[Ross Street]], _Combinatorial Categorical Equivalences_, arxiv:1402.7151 (2014).  ([pdf](http://arxiv.org/pdf/1402.7151v1))
 
-A [[categorification]] is discussed here:
+A [[categorification]] to a [[categorified Dold-Kan correspondence]] is discussed here:
 
 * {#Dyckerhoff17} [[Tobias Dyckerhoff]], _A categorified Dold-Kan correspondence_ ([arXiv:1710.08356](https://arxiv.org/abs/1710.08356))
 
