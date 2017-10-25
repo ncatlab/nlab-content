@@ -41,6 +41,8 @@ When the [[theory]] of a [[category]] is phrased in dependent type theory then t
 
 * [[dependent sum]], [[dependent product]]
 
+* [[indexed set]]
+
 ## References
 
 * Blog post: [In praise of dependent types](http://golem.ph.utexas.edu/category/2010/03/in_praise_of_dependent_types.html)
