@@ -28,7 +28,7 @@ This should lead to a categorified version of [[homological algebra]] and of [[c
 
 ## Categorified nerve functor
 
-The [nerve](nerve#nerve_of_chain_complexes) in the ordinary Dold-Kan correspondence sends a connective chain complex in, $A$, an abelian category to a simplicial object in $A$. The categorified nerve, $\mathcal{N}$, is playing an analogous role on connective chain complexes of stable (∞, 1)-categories. This nerve unifies various known constructions from [[algebraic K-theory]], in particular, for $\mathcal{B}, \mathcal{B}_0, \mathcal{B}_1$ all stable (∞, 1)-categories:
+The [nerve](nerve#nerve_of_chain_complexes) in the ordinary Dold-Kan correspondence sends a connective chain complex in an [[abelian category]] $\mathcal{A}$ to a [[simplicial object]] in $\mathcal{A}$. The _categorified nerve_, $\mathcal{N}$, is playing an analogous role on connective chain complexes of stable (∞, 1)-categories. This nerve unifies various known constructions from [[algebraic K-theory]], in particular, for $\mathcal{B}, \mathcal{B}_0, \mathcal{B}_1$ all stable (∞, 1)-categories:
 
 * For $\mathcal{B}[1]$, the chain complex concentrated in degree 1, $\mathcal{N}(\mathcal{B}[1])$ is a $(\infty,1)$-version of the [[Waldhausen S-construction]].
 
