@@ -1,8 +1,30 @@
-*  an [[indexed set]] 
+> `{:data`
 
-   $$
-      \{ \mathbb{R}^n \underoverset{et}{\phantom{AA}f_i\phantom{AA}}{\hookrightarrow} \mathbb{R}^n\}_{i \in I}
-   $$ 
-   
-   of [[open embeddings]]
-   (def. \ref{LocalDiffeomorphismBetweenCartesianSpaces})
+Hmm. I can't find mention that Instiki actually parses that. Maybe `:data` is unknown and shows up in the error log.
+
+testing  `{:data`
+
+{:data 
+foo=bar
+}
+
+after `:data` statement.
+
+testing  `{:piffle` with internal `\}`
+
+{:piffle
+ foobar\}
+ baz
+}
+
+after `:piffle` statement.
+
+testing  `{:piffle` with unescaped internal `}`
+
+{:piffle
+ {foobar}
+ baz
+}
+
+after `:piffle` statement.
+
