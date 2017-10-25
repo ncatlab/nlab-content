@@ -93,28 +93,226 @@ $\,$
 
 ## Geometry
 
-We assume that the reader has a basic knowledge of [[differential geometry]] on [[finite number|finite]]-[[dimension|dimensional]]
-[[smooth manifolds]] -- or in fact just an understanding of differential geometry on [[Cartesian spaces]] $\mathbb{R}^n$.
+We assume that the reader has a basic knowledge of [[differential geometry]] on [[Cartesian spaces]] $\mathbb{R}^n$.
 As we uncover [[quantum field theory]] in the following we discover ever more general concepts of differential geometry
-(e. g. [[diffeological spaces]], [[supergeometry]] and [[Lie algebroids]]),
-but we introduce these as we go along.
+(e. g. [[smooth manifolds]], [[diffeological spaces]], [[supergeometry]] and [[Lie algebroids]]),
+but we introduce these as we go along. An index is provided [below](#NotionsOfGeometry).
 
 
-
-
-For reference, here is what we need from basic [[differential geometry]]:
+For reference, we here briefly collect basic definitions and facts [[differential geometry]] that we need in the following.
 
 $\,$
 
-In the following a _[[smooth manifold]]_ $\Sigma$ is always understood to be [[finite number|finite]] [[dimension|dimensional]]
-and [[paracompact topological space|paracompact]]; it may have a  [[inhabited set|non-empty]] [[manifold with boundary|boundary]]
-$\partial \Sigma$.
+**[[Cartesian spaces]]**
+ {#SmoothFunctions}
 
-We will never consider the structure of [[infinite-dimensional manifolds]], since instead we consider
-the more naturally adapted structure of _[[diffeological spaces]]_
-(def. \ref{DiffeologicalSpace} below; these subsume [[Fréchet manifolds]], see remark \ref{FrechetManifoldsAreDiffeologicalSpaces} below).
+
++-- {: .num_defn #CartesianSpacesAndSmoothFunctionsBetweenThem}
+###### Definition
+**([[Cartesian spaces]] and [[smooth functions]] between them)**
+
+For $n \in \mathbb{N}$ we say that the set $\mathbb{R}^n$ of [[n-tuples]] of [[real numbers]]
+is a _[[Cartesian space]]_. This comes with the canonical [[coordinate functions]]
+
+$$
+  x^k \;\colon\; \mathbb{R}^n \longrightarrow \mathbb{R}
+$$
+
+which send an [[n-tuple]] of real numbers to the $k$th element in the tuple, for $k \in \{1, \cdots, n\}$.
+
+For
+
+$$
+  f \;\colon\; \mathbb{R}^{n} \longrightarrow \mathbb{R}^{n'}
+$$
+
+any [[function]] between [[Cartesian spaces]], we may ask whether its [[partial derivative]]
+along the $k$th coordinate exists, denoted
+
+$$
+  \frac{\partial f}{\partial x^k}
+  \;\colon\;
+  \mathbb{R}^{n}
+    \longrightarrow
+  \mathbb{R}^{n'}
+  \,.
+$$
+
+If this exists, we may in turn ask that the [[partial derivative]] of the partial derivative exists
+
+$$
+  \frac{\partial^2 f}{\partial x^{k_1} \partial x^{k_2}}
+  \coloneqq
+  \frac{\partial}{\partial x^{k_2}} \frac{\partial f}{\partial x^{k_1}}
+$$
+
+and so on.
+
+A general higher [[partial derivative]] obtained this way is, if it exists, indexed by an [[n-tuple]]
+of [[natural numbers]] $\alpha \in \mathbb{N}^n$ and denoted
+
+$$
+  \frac{
+    \partial^{\vert k\vert} f
+  }{
+    \partial^{\alpha_1} x^1
+    \partial^{\alpha_2} x^2
+      \cdots
+    \partial^{\alpha_n} x^n
+  }
+  \,,
+$$
+
+where ${\vert \alpha\vert} \coloneqq \underoverset{n}{i = 1}{\sum} \alpha_i$ is the total _order_ of the partial derivative.
+
+If all partial derivative to all orders $\alpha \in \mathbb{N}^n$ of a [[function]] $f \colon \mathbb{R}^n \to \mathbb{R}^{n'}$
+exist, then $f$ is called a _[[smooth function]]_.
+
+=--
+
+Of course the [[composition]] $g \circ f$ of two smooth functions is again a [[smooth function]].
+
+$$
+  \array{
+    && \mathbb{R}^{n_2}
+    \\
+    & {}^{\mathllap{f}}\nearrow && \searrow^{\mathrlap{g}}
+    \\
+    \mathbb{R}^{n_1}
+      && \underset{g \circ f}{\longrightarrow} &&
+    \mathbb{R}^{n_2}
+  }
+  \,.
+$$
+
+
+The inclined reader may notice that this means that [[Cartesian spaces]] with [[smooth functions]]
+between them constitute a _[[category]]_ ("[[CartSp]]"); but the reader not so inclined may ignore this.
+
+For the following it is useful to think of each [[Cartesian space]] as an _abstract [[coordinate system]]_.
+We will be dealing with various [[generalized smooth spaces]] (see the table [below](#NotionsOfGeometry)), but they will all be characterized by
+a prescription for how to smoothly map abstract coordinate systems into them.
+
+
+
++-- {: .num_defn #CoordinateFunctionsAreSmoothFunctions}
+###### Definition
+**([[coordinate functions]] are [[smooth functions]])**
+
+Given a [[Cartesian space]] $\mathbb{R}^n$, then all its [[coordinate functions]] (def. \ref{CartesianSpacesAndSmoothFunctionsBetweenThem})
+
+$$
+  x^k \;\colon\; \mathbb{R}^n \longrightarrow \mathbb{R}
+$$
+
+are [[smooth functions]] (def. \ref{CartesianSpacesAndSmoothFunctionsBetweenThem}).
+
+For
+
+$$
+  f \colon X^{n_1} \longrightarrow \mathbb{R}^{n_2}
+$$
+
+any [[smooth function]] and $a \in \{1, 2, \cdots, n_2\}$
+
+$$
+  f^a \coloneqq x^k \circ f
+  \;\colon\;
+  \mathbb{R}^{n_1}
+    \overset{f}{\longrightarrow}
+  \mathbb{R}^{n_2}
+    \overset{x^a}{\longrightarrow}
+  \mathbb{R}
+$$
+.
+for its [[composition]] with this [[coordinate function]].
+
+=--
+
++-- {: .num_defn #LocalDiffeomorphismBetweenCartesianSpaces}
+###### Definition
+**([[local diffeomorphisms]] and [[open embeddings]] of [[Cartesian spaces]])**
+
+A [[smooth function]] $f \colon \mathbb{R}^{n} \to \mathbb{R}^{n}$ from one [[Cartesian space]] to itself
+(def. \ref{CartesianSpacesAndSmoothFunctionsBetweenThem}) is called a _[[local diffeomorphism]]_, denoted
+
+$$
+  f \;\colon\; \mathbb{R}^{n} \overset{et}{\longrightarrow} \mathbb{R}^n
+$$
+
+if the [[determinant]] of the [[matrix]] of [[partial derivatives]] (the "[[Jacobian]]" of $f$) is
+everywhere non-vanishing
+
+$$
+  det
+  \left(
+   \array{
+     \frac{\partial f^1}{\partial x^1}(x)
+     &\cdots&
+     \frac{\partial f^n}{\partial x^1}(x)
+     \\
+     \vdots && \vdots
+     \\
+     \frac{\partial f^1}{\partial x^n}(x)
+     &\cdots&
+     \frac{\partial f^n}{\partial x^n}(x)
+   }
+  \right)
+  \;\neq\;
+  0
+  \phantom{AAAA}
+  \text{for all} \, x \in \mathbb{R}^n
+  \,.
+$$
+
+If the function $f$ is both a [[local diffeomorphism]], as above, as well as an [[injective function]] then
+we call it an _[[open embedding]]_, denoted
+
+$$
+  f \;\colon\;
+  \mathbb{R}^n \overset{\phantom{A}et\phantom{A}}{\hookrightarrow} \mathbb{R}^n
+  \,.
+$$
+
+=--
+
++-- {: .num_defn #DifferentiablyGoodOpenCover}
+###### Definition
+**([[good open cover]] of [[Cartesian spaces]])
+
+For $\mathbb{R}^n$ a [[Cartesian space]] (def. \ref{CartesianSpacesAndSmoothFunctionsBetweenThem}),
+a _[[differentiably good open cover]]_ is
+
+*  an [[indexed set]]
+
+   $$
+      \{ \mathbb{R}^n \underoverset{et}{\phantom{AA}f_i\phantom{AA}}{\hookrightarrow} \mathbb{R}^n\}_{i \in I}
+   $$
+
+   of [[open embeddings]]
+   (def. \ref{LocalDiffeomorphismBetweenCartesianSpaces})
+
+such that the [[images]]
+
+$$
+  U_i \coloneqq im(f_i) \subset \mathbb{R}^n
+$$
+
+satisfy:
+
+1. ([[open cover]]) every point of $\mathbb{R}^n$ is contained in at least one of the $U_i$;
+
+1. ([[good open cover|good]]) all [[finite set|finite]] [[intersections]] $U_{i_1} \cap \cdots \cap U_{i_k} \subset \mathbb{R}^n$ are either [[empty set]] or  themselves images of [[open embeddings]].
+
+
+=--
 
 $\,$
+
+
+$\,$
+
+
 
 **([[Cartan calculus]])**
 
@@ -367,6 +565,7 @@ $\,$
 Using just these basic ingredients, in the following we incrementally introduce  more general concepts of [[spaces]] in [[differential geometry]], as the need arises from the development of the [[quantum field theory]].
 
 **notions of geometry**
+ {#NotionsOfGeometry}
 
 | | |  |  |  |  |  |  |  |  |  | [[higher differential geometry]] |
 |--|---|---|---|---|---|---|---|---|---|---|---|
@@ -2515,7 +2714,7 @@ $$
   \Phi_{(-)} \;\colon\; \mathbb{R}^n \longrightarrow \Gamma_\Sigma(E)
 $$
 
-from any [[Cartesian space]] $\mathbb{R}^n$ into $\Gamma_\Sigma(E)$ count as [[smooth functions]],
+from any [[Cartesian space]] $\mathbb{R}^n$ (def. \ref{CartesianSpacesAndSmoothFunctionsBetweenThem}) into $\Gamma_\Sigma(E)$ count as [[smooth functions]],
 subject to some basic consistency condition on this choice.
 
 This [[structure]] on $\Gamma_\Sigma(E)$ is called the structure of a _[[diffeological space]]_:
@@ -2538,7 +2737,7 @@ A _[[diffeological space]]_ $X$ is
    to be called the _smooth functions_ or _plots_ from $\mathbb{R}^n$ to $X$;
 
 1. for each [[smooth function]] $f \;\colon\; \mathbb{R}^{n_1} \longrightarrow \mathbb{R}^{n_2}$
-   between [[Cartesian spaces]] a choice of function
+   between [[Cartesian spaces]] (def. \ref{CartesianSpacesAndSmoothFunctionsBetweenThem}) a choice of function
 
    $$
      f^\ast \;\colon\; X(\mathbb{R}^{n_2}) \longrightarrow X(\mathbb{R}^{n_1})
@@ -2572,7 +2771,7 @@ such that
    the identity function on the set of plots $X(\mathbb{R}^n)$;
 
    and if $\mathbb{R}^{n_1} \overset{f}{\to} \mathbb{R}^{n_2} \overset{g}{\to} \mathbb{R}^{n_3}$
-   are two [[composition|composable]] [[smooth functions]] between [[Cartesian spaces]], then
+   are two [[composition|composable]] [[smooth functions]] between [[Cartesian spaces]] (def. \ref{CartesianSpacesAndSmoothFunctionsBetweenThem}), then
    pullback of plots along them consecutively equals the pullback along the [[composition]]:
 
    $$
@@ -2593,9 +2792,8 @@ such that
 
 1. ([[sheaf|gluing]])
 
-   If $\{ U_i \overset{f_i}{\to} \mathbb{R}^n\}_{i \in I}$ is an [[open cover]] of a [[Cartesian space]]
-   by smooth [[open balls]] (i.e. each $U_i$ is [[diffeomorphism|diffeomorphic]] to $\mathbb{R}^n$ itself
-   and the [[embeddings]] $f_i$ are [[smooth functions]]) then the function which restricts
+   If $\{ U_i \overset{f_i}{\to} \mathbb{R}^n\}_{i \in I}$ is a [[differentiably good open cover]] of a [[Cartesian space]]
+   (def. \ref{DifferentiablyGoodOpenCover}) then the function which restricts
    $\mathbb{R}^n$-plots of $X$ to a set of $U_i$-plots
 
    $$
@@ -2827,9 +3025,8 @@ such that
 
 1. ([[sheaf|gluing]])
 
-   If $\{ U_i \overset{f_i}{\to} \mathbb{R}^n\}_{i \in I}$ is an [[open cover]] of a [[Cartesian space]]
-   by smooth [[open balls]] (i.e. each $U_i$ is [[diffeomorphism|diffeomorphic]] to $\mathbb{R}^n$ itself
-   and the [[embeddings]] $f_i$ are [[smooth functions]]) then the function which restricts
+   If $\{ U_i \overset{f_i}{\to} \mathbb{R}^n\}_{i \in I}$ is a [[differetiably good open cover]] of a [[Cartesian space]] (def. \ref{DifferentiablyGoodOpenCover})
+   then the function which restricts
    $\mathbb{R}^n$-plots of $X$ to a set of $U_i$-plots
 
    $$
@@ -3154,8 +3351,7 @@ such that
 
    If $\{ U_i \times Spec(A) \overset{f_i \times id_{Spec(A)}}{\to} \mathbb{R}^n \times Spec(A)\}_{i \in I}$ is such that
    $$\{ U_i  \overset{f_i  }{\to} \mathbb{R}^n \}_{i \in I}$$
-   in an [[open cover]] by smooth [[open balls]] (i.e. each $U_i$ is [[diffeomorphism|diffeomorphic]] to $\mathbb{R}^n$ itself
-   and the [[embeddings]] $f_i$ are [[smooth functions]]) then the function which restricts
+   in a [[differentiably good open cover]] (def. \ref{DifferentiablyGoodOpenCover}) then the function which restricts
    $\mathbb{R}^n \times Spec(A)$-plots of $X$ to a set of $U_i \times Spec(A)$-plots
 
    $$
@@ -3590,8 +3786,7 @@ such that
 
    If $\{ U_i \times Spec(A) \overset{f_i \times id_{Spec(A)}}{\to} \mathbb{R}^n \times Spec(A)\}_{i \in I}$ is such that
    $$\{ U_i  \overset{f_i  }{\to} \mathbb{R}^n \}_{i \in I}$$
-   in an [[open cover]] by smooth [[open balls]] (i.e. each $U_i$ is [[diffeomorphism|diffeomorphic]] to $\mathbb{R}^n$ itself
-   and the [[embeddings]] $f_i$ are [[smooth functions]]) then the function which restricts
+   is a [[differentiably good open cover]] (def. \ref{DifferentiablyGoodOpenCover}) then the function which restricts
    $\mathbb{R}^n \times Spec(A)$-plots of $X$ to a set of $U_i \times Spec(A)$-plots
 
    $$
