@@ -31,13 +31,74 @@ All of [[physics]] has two aspects: a local or even [[infinitesimal object|infin
 
 One way to think of fiber bundles is that they are the data to _globally twist functions_ (on [[spacetime]], say) where "global twist" is much in the sense of "global [[anomaly]]" and the like, namely an effect visible on topologically nontrivial spaces when moving around non-contractible cycles. The concept of _[[monodromy]]_ -- which may be more familiar to physicists -- is closely related: monodromy is something exhibited by a [[connection on a bundle]] and specifically by a [[flat connection|flat bundle]]. For a [[discrete group|discrete]] structure group ([[gauge group]]) _every_ bundle is flat, and in this case non-trivial bundles and non-trivial [[monodromy]] come down to essentially the same thing (see also at _[[local system]]_).
 
-More explicitly, suppose $X$ denotes [[spacetime]] and $F$ denotes some space that one wants to map into. For instance $F$ might be the [[complex numbers]] and a [[free field|free]] [[scalar field]] would be a [[function]]  $X\to F$. For the following it is useful to talk about functions a bit more indirectly: observe that the [[projection]] $F \times X \to X$ from the [[product]] of $F$ with $X$ down to $X$ is such that a [[section]] of this map is precisely a function $X \to F$. We think of $X \times F \to X$ as encoding the fact that there is one copy of $F$ associated with each point of $X$, and think of a function with values in $F$ as something that, of course, takes values in $F$ over each point of $X$. One says that $X \times F \to X$ is the _trivial_ $F$-[[fiber bundle]] over $X$. If $F$ is a [[vector space]] and all [[transition functions]] are [[linear maps]] on the fibers, then one calls this a _[[vector bundle]]_.
+More explicitly, suppose $X$ denotes [[spacetime]] and $F$ denotes some space that one wants to map into. For instance $F$ might be the [[complex numbers]] and a [[free field|free]] [[scalar field]] would be a [[function]]  $X\to F$. For the following it is useful to talk about functions a bit more indirectly: observe that the [[projection]] $pr_2 \colon F \times X \to X$ from the [[product]] of $F$ with $X$ down to $X$ is such that a [[section]] of this map, namely a $\Phi \colon X \to X\times F$ such that
+
+$$
+  pr_2 \circ \Phi = id_X
+  \phantom{AAAAA}
+  \array{
+     && F \times X
+     \\
+     &
+     {}^{\mathllap{\Phi}}\nearrow
+     & \downarrow\mathrlap{pr_2}
+     \\
+     X &=& X
+  }
+$$
+
+is just the same as data a function $X \to F$. We think of the projection $X \times F \overset{pr_2}{\to} X$ as encoding the fact that there is one copy of $F$ associated with each point of $X$, and think of a function with values in $F$ as something that, of course, takes values in $F$ over each point of $X$. One says that this projection, suggestively shown vertically,
+
+$$
+  \array{
+    F \times X
+    \\
+    \downarrow\mathrlap{pr_2}
+    \\
+    X
+  }
+$$ 
+
+is the _[[trivial bundle|trivial]]_ $F$-[[fiber bundle]] over $X$. 
+
+If $F$ is equipped with the [[structure]] of a [[vector space]] then one calls this a _[[trivial vector bundle|trivial]] [[vector bundle]]_, etc.
 
 The point being that more generally we may add a global "twist" to the $F$-valued functions by making the space $F$ vary to some degree as we move along $X$. For a [[fiber bundle]] one requires that it doesn't change _much_: in fact the word "fiber" in "[[fiber bundle]]" refers to the fact that _all_ fibers (over all points of $X$) are _[[equivalence|equivalent]]_. But the point is that any $F$ may be equivalent to _itself_ in more than one way (it may have "[[automorphisms]]"), and this allows non-trivial global structure even though all fibers look alike.
 
-In this sense, a general $F$-[[fiber bundle]] on some $X$ is defined to be a [[space]] $P$ equipped with a map $P \to X$ to the base space $X$ (e.g. to spacetime), such that _locally_ it looks like the trivial $F$-fiber bundle, up to equivalence. To say this more technically: $P \to X$ is called an $F$-[[fiber bundle]] if there exists a [[cover]] ([[open cover]]) of $X$ by patches (e.g. [[coordinate charts]]!) $U_i \to X$ for some index set $I$, such that for each patch $U_i$ (with $i \in I$) there exists a fiberwise [[equivalence]] between the restriction $P|_{U_i}$ of $P$ to $U_i$, and the trivial $F$-fiber bundle $F\times U_i \to U_i$ over the patch $U_i$.
+In this sense, a general $F$-[[fiber bundle]] on some $X$ is defined to be a [[space]] $P$ equipped with a map 
 
-To say this again in terms of sections: this means that a [[section]] of $P$ is locally on each ([[coordinate chart|coordinate]]) patch $U_i$ simply an $F$-valued function, but when we change patches (change coordinates) then there may be a non-trivial [[gauge transformation]] that relates the values of the function on one patch to that on another patch, where they overlap.
+$$
+  \array{
+     P
+     \\
+     \downarrow \mathrlap{fb}
+     \\ 
+     X
+  }
+$$ 
+
+to the base space $X$ (e.g. to spacetime), such that _locally_ it looks like the trivial $F$-fiber bundle, up to equivalence. 
+
+To say this more technically: $P \overset{fb}{\to} X$ is called an $F$-[[fiber bundle]] if there exists a [[cover]] ([[open cover]]) of $X$ by patches (e.g. [[coordinate charts]]!) $U_i \to X$ for some index [[set]] $I$, such that for each patch $U_i$ (with $i \in I$) there exists a fiberwise [[equivalence]] between the restriction $P|_{U_i}$ of $P$ to $U_i$, and the trivial $F$-fiber bundle $F\times U_i \to U_i$ over the patch $U_i$.
+
+To say this again in terms of sections: this means that a [[section]] $\Phi$ of $P \overset{fb}{\to} X$ 
+
+$$
+  fb \circ \Phi = id_X
+  \phantom{AAAAA}
+  \array{
+     && P
+     \\
+     &
+     {}^{\mathllap{\Phi}}\nearrow
+     & \downarrow\mathrlap{fb}
+     \\
+     X &=& X
+  }
+$$
+
+
+is locally on each ([[coordinate chart|coordinate]]) patch $U_i$ simply an $F$-valued function, but when we change patches (change coordinates) then there may be a non-trivial identifications (notably: [[gauge transformations]]) that relates the values of the function on one patch to that on another patch, where they overlap.
 
 Even if this may seem a bit roundabout on first sight, this is actually something at the very heart of modern physics, in that it embodies the two central principles of modern physics, namely
 
