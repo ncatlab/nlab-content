@@ -74,6 +74,7 @@ Spinors in [[classical field theory]] ([[fermions]]):
 
   [[Pierre Deligne|P. Deligne]], [[Pavel Etingof|P. Etingof]], [[Dan Freed|D.S. Freed]], L. Jeffrey, [[David Kazhdan|D. Kazhdan]], J. Morgan, D.R. Morrison, [[Edward Witten|E. Witten]] (eds.)  _[[Quantum Fields and Strings]], A course for mathematicians_, 2 vols. Amer. Math. Soc. Providence 1999. ([web version](http://www.math.ias.edu/qft))
 
+* [[Radovan Dermisek]] _qft I-8_ ([pdf](http://www.physics.indiana.edu/~dermisek/QFT_09/qft-I-8-4p.pdf), [[DermisekSpinorField.pdf:file]])
 
 
 Discussion relating manifolds with spinor bundles to [[supergeometry]] includes
@@ -82,7 +83,6 @@ Discussion relating manifolds with spinor bundles to [[supergeometry]] includes
 
 ## History
 
-According to 
 
 * B. L.Van derWaerden, _Exclusion principle and spin_, in _Theoretical Physics in the Twentieth Century: A Memorial Volume to Wolfgang Pauli_, ed. M. Fierz and V. F. Weisskopf, New York: Interscience, 1960
 
