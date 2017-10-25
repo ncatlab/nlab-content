@@ -510,6 +510,8 @@ This sheaf version of the Dold--Kan correspondence  allows to understand [[abeli
 
   * [[Javier Gutierrez|Javier Gutiérrez]], [[Andor Lukacs]], [[Ittay Weiss]], _Dold-Kan correspondence for dendroidal abelian groups_ ([arXiv](http://arxiv.org/abs/0909.3995))
 
+* There is a [[categorification]] of the correspondence, [[categorified Dold-Kan correspondence]] ([Dyckerhoff17](#Dyckerhoff17))
+
 
 ## Applications 
   {#Applications}
