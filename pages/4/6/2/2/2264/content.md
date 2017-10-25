@@ -19,7 +19,7 @@ An [[algebraic theory]] $T$ is a __Mal'cev theory__ when $T$ contains a Mal'cev 
 
 3. in the category of $T$-algebras, the composition of equivalence relations is commutative.
 
-Statement (i) is one of the motivations to introduce the notion of [[Mal'cev category]]. 
+Statement (1) is one of the motivations to introduce the notion of [[Mal'cev category]]. 
 
 A __Mal'cev variety__ is the category of $T$-algebras for a Mal'cev theory $T$, thought of as a [[variety of algebras]]. 
 
