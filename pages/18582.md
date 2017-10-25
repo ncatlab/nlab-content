@@ -24,7 +24,7 @@ $$
   \omega \coloneqq d_V \theta \in \Omega^{p,2}(E)
 $$
 
-is called the _pre-symplectic current_. Accordingly $\theta$ itself is also called the _presymplectic potential_.
+is called the _pre-symplectic current_. Accordingly $\theta$ itself is also called the _presymplectic potential current_.
 
 This is because for any choice of $p$-dimensional submanifold $\Sigma_p \hookrightarrow \Sigma$, the [[transgression of variational differential forms]] of $\omega$ to $\Sigma_p$ is a [[presymplectic form]] on the on-shell [[space of sections]] on the [[infinitesimal neighbourhood]] of $\Sigma_p$. This is the _[[covariant phase space]]_.
 
@@ -45,3 +45,8 @@ This is because for any choice of $p$-dimensional submanifold $\Sigma_p \hookrig
 
 [[!redirects presymplectic potential]]
 [[!redirects presymplectic potentials]]
+
+[[!redirects presymplectic potential current]]
+[[!redirects presymplectic potential currents]]
+
+
