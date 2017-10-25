@@ -47,6 +47,8 @@ this is the **S-construction** of the  **Waldhausen [[K-theory]] spectrum** of $
 * [[K-theory of a stable (infinity,1)-category]]
 * [[K-theory of a Waldhausen (infinity,1)-category]]
 
+* [[categorified Dold-Kan correspondence]]
+
 ## References ##
 
 ### For Waldhausen categories
@@ -68,8 +70,13 @@ or in section 1 of
 * [[Andrew J. Blumberg]], [[David Gepner]], [[Goncalo Tabuada]], _A universal characterization of higher algebraic K-theory_, [arXiv:1001.2282](http://arxiv.org/abs/1001.2282v4).
 
 ### Other
-A combinatorial construction of symmetries due Nadler has a relation to the S-construction in a special case:
 
-* David Nadler, _Cyclic symmetries of $A_n$-quiver representations_, [arxiv/1306.0070](http://arxiv.org/abs/1306.0070)
+A combinatorial construction of symmetries due to Nadler has a relation to the S-construction in a special case:
+
+* [[David Nadler]], _Cyclic symmetries of $A_n$-quiver representations_, [arxiv/1306.0070](http://arxiv.org/abs/1306.0070)
 
 > This short note contains a combinatorial construction of symmetries arising in symplectic geometry (partially wrapped or infinitesimal Fukaya categories), algebraic geometry (derived categories of singularities), and K-theory (Waldhausen's S-construction). Our specific motivation (in the spirit of expectations of Kontsevich, and to be taken up in general elsewhere) is a combinatorial construction of quantizations of Lagrangian skeleta (equivalent to microlocal sheaves in their many guises). We explain here the one dimensional case of ribbon graphs where the main result of this paper gives an immediate solution. 
+
+Interpretation in terms of a [[categorified Dold-Kan correspondence]] is discussed in
+
+* {#Dyckerhoff17} [[Tobias Dyckerhoff]], _A categorified Dold-Kan correspondence_ ([arXiv:1710.08356](https://arxiv.org/abs/1710.08356))
