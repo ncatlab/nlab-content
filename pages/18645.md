@@ -2617,7 +2617,7 @@ such that
        \\
        U_i && && U_j
        \\
-       & {}_{\mathrlap{\Phi_i}}\searrow && \swarrow_{\mathllap{\Phi_j}}
+       & {}_{\mathrlap{\Phi_i}}\searrow && \swarrow_{\mathrlap{\Phi_j}}
        \\
        && X
      }
@@ -2659,7 +2659,7 @@ such that
 For more background on [[diffeological spaces]] see also _[[geometry of physics -- smooth sets]]_.
 
 
-+-- {: .num_example }
++-- {: .num_example #SmoothManifoldsAreDiffeologicalSpaces}
 ###### Example
 **([[smooth manifolds]] are [[diffeological spaces]])**
 
@@ -3011,6 +3011,7 @@ Let $X$ be a [[diffeological space]] (def. \ref{DiffeologicalSpace}) or more gen
 $\,$
 
 **Infinitesimal geometry**
+ {#InfinitesimalGeometry}
 
 It is crucial in [[field theory]] that we consider [[field histories]] not only over
 all of [[spacetime]], but also restricted to [[submanifolds]] of spacetime. Or rather,
@@ -3281,31 +3282,167 @@ $\,$
 
 **[[supergeometry|Supergeometry]]**
 
-Field theories of interest crucially involve [[fermionic fields]], such as the [[Dirac field]],
-which are subject to the "[[Pauli exclusion principle]]". Mathematically this means that these
-[[field (physics)|field]] have [[field bundles]] whose [[field fiber]]
+Field theories of interest crucially involve [[fermionic fields]], such as the [[Dirac field]] (example \ref{DiracFieldBundle} below),
+which are subject to the "[[Pauli exclusion principle]]", a key reason for the [[stability of matter]]. 
+Mathematically this means that these
+[[field (physics)|fields]] have [[field bundles]] whose [[field fiber]]
 is not an ordinary [[manifold]], but an odd-graded _[[supermanifold]]_.
 
-The required [[supergeometry]] is an immediate generalization of the
-above [[synthetic differential geometry|infinitesimal geometry]]. First we have the direct analog of
-the definition
-of [[infinitesimally thickened smooth manifolds|infinitesimally thickened Cartesian spaces]] (def. \ref{InfinitesimallyThickendSmoothManifold}):
+This "[[supergeometry]]" is an immediate generalization of the
+[[synthetic differential geometry|infinitesimal geometry]] [above](#InfinitesimalGeometry), where now the [[infinitesimal]]
+elements in the [[algebra of functions]] may be equipped with a [[graded object|grading]]: one speaks of _[[superalgebra]]_.
+
+The "super"-terminology for something as down-to-earth as the mathematical principle behind the [[stability of matter]] 
+may seem unfortunate. For better or worse, this terminology has become standard
+since the middle of the 20th century. But the concept that today is called _[[supercommutative superalgebra]]_ 
+was in fact first considered by [[Ausdehnungslehre|Grassmann 1844]] who got it right ("[[Ausdehnungslehre]]") but apparently
+was too far ahead of his time and remained unappreciated.
+
+Beware that considering [[supergeometry]] does _not_ necessarily involve considering "[[supersymmetry]]".
+Supergeometry is the geometry of [[fermion fields]], and that all [[matter]] fields in the [[observable universe]] are fermionic
+has been [[experiment|experimentally]] established since the [[Stern-Gerlach experiment]] in 1922. Supersymmetry,
+on the other hand, is a hypothetical extension of [[spacetime]]-[[symmetry]]
+within the context of [[supergeometry]]. Here we do not discuss supersymmetry; for details see instead at _[[geometry of physics -- supersymmetry]]_.
+
+
++-- {: .num_defn #SupercommutativeSuperalgebra}
+###### Definition
+**([[supercommutative superalgebra]])**
+
+A _[[real number|real]] $\mathbb{Z}/2$-[[graded algebra]]_ or _[[superalgebra]]_ is an [[associative algebra]] $A$ over the [[real numbers]]
+together with a [[direct sum]] decomposition of its underlying [[real vector space]]
+
+$$
+  A \simeq_{\mathbb{R}} A_{even} \oplus A_{odd}
+  \,,
+$$
+
+such that the product in the algebra respects the multipliation in the [[cyclic group|cyclic]] [[group of order 2]] $\mathbb{Z}/2 = \{even, odd\}$:
+
+$$
+  \left.
+  \array{
+    A_{even} \cdot A_{even}
+    \\
+    A_{odd} \cdot A_{odd}
+  }
+  \right\}
+  \subset A_{even}
+  \phantom{AAAA}
+  \left.
+  \array{
+    A_{odd} \cdot A_{even}
+    \\
+    A_{even} \cdot A_{odd}
+  }
+  \right\}
+  \subset A_{odd}
+  \,.
+$$
+
+This is called a _[[supercommutative superalgebra]]_ if for all elements $a_1, a_2 \in A$ which are of homogeneous degree
+${\vert a_i \vert} \in \mathbb{Z}/2 = \{even, odd\}$ in that
+
+$$
+  a_i \in A_{{\vert a_i\vert}} \subset A
+$$
+
+we have
+
+$$
+  a_1 \cdot a_2 = (-1)^{{\vert a_1 \vert \vert a_2 \vert}} a_2 \cdot a_1
+  \,.
+$$
+
+A _[[homomorphism]] of [[superalgebras]]_
+
+$$
+  f \;\colon\; A \longrightarrow A'
+$$
+
+is a [[homomorphism]] of [[associative algebras]] over the [[real numbers]] such that the $\mathbb{Z}/2$-[[graded object|grading]]
+is respected in that
+
+$$
+  f(A_{even}) \subset A'_{even}
+  \phantom{AAAAA}
+  f(A_{odd}) \subset A'_{odd}
+  \,.
+$$
+
+=--
+
+For more details on superalgebra see at _[[geometry of physics -- superalgebra]]_.
+
++-- {: .num_example #GrassmannAlgebra}
+###### Example
+**(basic examples of [[supercommutative superalgebras]])**
+
+Basic examples of [[supercommutative superalgebras]] (def. \ref{SupercommutativeSuperalgebra})
+include the following:
+
+1. Every [[commutative algebra]] $A$ becomes a [[supercommutative superalgebra]] by declaring it to be all in even degree:
+   $A = A_{even}$.
+   
+1. For $V$ a [[finite dimensional vector space|finite dimensional]] [[real vector space]], then the 
+   [[Grassmann algebra]] $A \coloneqq \wedge^\bullet_{\mathbb{R}} V^\ast$ is a supercommutative superalgebra with
+   $A_{even} \coloneqq \wedge^{even} V^\ast$ and $A_{odd} \coloneqq \wedge^{odd} V^\ast$.
+   
+   More explicitly, if $V = \mathbb{R}^s$ is a [[Cartesian space]] with canonical dual [[coordinates]]  $(\theta^i)_{i = 1}^s$
+   then the [[Grassmann algebra]] $\wedge^\bullet (\mathbb{R}^s)^\ast$ is the real algebra which is [[generators and relations|generated]]
+   from the $\theta^i$ regarded in odd degree and hence subject to the relation
+   
+   $$
+     \theta^i \cdot \theta^j = - \theta^j \cdot \theta^i
+     \,.
+   $$
+   
+   In particular this implies that all the $\theta^i$ are [[infinitesimal]]:
+   
+   $$
+     \theta^i \theta^i = 0
+     \,.
+   $$ 
+
+1. For $A_1$ and $A_2$ two [[supercommutative superalgebras]], there is their _[[tensor product of algebras|tensor product]]_
+   supercommutative superalgebra $A_1 \otimes_{\mathbb{R}} A_2$. For example for $X$ a [[smooth manifold]] 
+   with ordinary algebra of smooth functions $C^\infty(X)$ regarded as a supercommutative superalgebra
+   by the first example above, the tensor product with a [[Grassmann algebra]] (second example above) is the 
+   supercommutative superalgebta
+   
+   $$
+     C^\infty(X) \otimes_{\mathbb{R}} \wedge^\bullet((\mathbb{R}^s)\ast)
+   $$
+   
+   whose elements may uniquely be expanded in the form
+   
+   $$
+      f + f_i \theta^i + f_{i j} \theta^i \theta^j + f_{i j k} \theta^i \theta^j \theta^k + \cdots + f_{i_1 \cdots i_s} \theta^{i_1} \cdots \theta^{i_s}
+     \,,
+   $$
+
+   where the $f_{i_1 \cdots i_k} \in C^\infty(X)$ are smooth functions on $X$ which are skew-symmetric in their indices.
+
+=--
+
+The following is the direct super-algebraic analog of
+the definition of [[infinitesimally thickened smooth manifolds|infinitesimally thickened Cartesian spaces]] (def. \ref{InfinitesimallyThickendSmoothManifold}):
 
 
 +-- {: .num_defn #SuperCartesianSpace}
 ###### Definition
 **([[super Cartesian space]])**
 
-An _[[superpoint]]_ $Spec(A)$ is represented by a [[super-commutative algebra]]
-$A \in \mathbb{R}Alg$ which as a $\mathbb{Z}/2$-[[super vector space|graded vector space]] is a [[direct sum]]
+A _[[superpoint]]_ $Spec(A)$ is represented by a [[super-commutative superalgebra]] 
+$A$ (def. \ref{SupercommutativeSuperalgebra}) which as a $\mathbb{Z}/2$-[[graded vector space]] ([[super vector space]]) is a [[direct sum]]
 
 $$
   A \simeq_{\mathbb{R}} \langle 1 \rangle \oplus V
 $$
 
-of the 1-dimensional even vector space $\langle 1 \rangle = \mathbb{R}$ of multiples of 1 with
-a [[finite dimensional vector space|finite dimensional]]  $\mathbb{Z}/2$-[[super vector space|graded vector space]]
- $V$ that is a [[nilpotent ideal]] in that for
+of the 1-dimensional even vector space $\langle 1 \rangle = \mathbb{R}$ of multiples of 1, with
+a [[finite dimensional vector space|finite dimensional]]  [[super vector space]]
+$V$ that is a [[nilpotent ideal]] in  $A$ in that for
 each element $a \in V$ there exists a [[natural number]] $n \in \mathbb{N}$ such that
 
 $$
@@ -3316,15 +3453,43 @@ $$
 More generally, a [[super Cartesian space]]
 $\mathbb{R}^n \times Spec(A)$ is represented by a [[super-commutative algebra]]
 $C^\infty(\mathbb{R}^n) \otimes A \in \mathbb{R} Alg$ which is the [[tensor product of algebras]] of the algebra of smooth functions
-$C^\infty(\mathbb{R}^n)$ on an actual [[Cartesian space]] of some [[dimension]] $n$, with an algebra of functions $A \simeq_{\mathbb{R}} \langle 1\rangle \oplus V$ of a [[superpoint]], as above.
+$C^\infty(\mathbb{R}^n)$ on an actual [[Cartesian space]] of some [[dimension]] $n$, with an algebra of functions $A \simeq_{\mathbb{R}} \langle 1\rangle \oplus V$ of a [[superpoint]] (example \ref{GrassmannAlgebra}).
 
-We say that a smooth function between two [[super Cartesian spaces]]
+Specifically, for $s \in \mathbb{N}$, there is the superpoint
+
+$$
+  \mathbb{R}^{0 \vert s} 
+    \;\coloneqq\;
+  Spec\left(  \wedge^\bullet (\mathbb{R}^s)^\ast \right)
+$$
+
+whose [[algebra of functions]] is by definition the [[Grassmann algebra]] on $s$ generators $(\theta^i)_{i = 1}^s$ in odd degree (example \ref{GrassmannAlgebra}).
+
+We write
+
+$$
+  \begin{aligned}
+    \mathbb{R}^{b\vert s} 
+      & \coloneqq 
+    \mathbb{R}^b \times \mathbb{R}^{0 \vert s}
+    \\
+    & = 
+    \mathbb{R}^b \times Spec( \wedge^\bullet(\mathbb{R}^s)^\ast )
+    \\
+     & =
+     Spec\left(  C^\infty(\mathbb{R}^b) \otimes_{\mathbb{R}} \wedge^\bullet (\mathbb{R}^s)^\ast  \right)
+  \end{aligned}
+$$
+
+for the corresponding super Cartesian spaces whose algebra of functions is as in example \ref{GrassmannAlgebra}.
+
+We say that a _smooth function_ between two [[super Cartesian spaces]]
 
 $$
   \mathbb{R}^{n_1} \times Spec(A_1) \overset{f}{\longrightarrow} \mathbb{R}^{n_2} \times Spec(A_2)
 $$
 
-is by definition [[formal dual|dually]] an $\mathbb{R}$-algebra [[homomorphism]] of the form
+is by definition [[formal dual|dually]] a [[homomorphism]] of [[supercommutative superalgebras]] (def. \ref{SupercommutativeSuperalgebra}) of the form
 
 $$
   C^\infty(\mathbb{R}^{n_1}) \otimes A_1
@@ -3343,14 +3508,12 @@ Let $V$ be a [[finite dimensional vector space|finite dimensional]] [[real vecto
 denoting its [[dual vector space]] write $\wedge^\bullet V^\ast$ for the [[Grassmann algebra]]
 that it generates. This being a [[supercommutative algebra]], it defines a [[superpoint]] (def. \ref{SuperCartesianSpace}).
 
-We sometime denote this superpoint by
+We denote this superpoint by
 
 $$
   V_{odd} \simeq \mathbb{R}^{0 \vert dim(V)}
   \,.
 $$
-
-
 
 =--
 
@@ -3386,7 +3549,7 @@ A _[[super formal smooth set|super smooth set]]_ $X$ is
      \left(
        \mathbb{R}^{n_2} \overset{\Phi}{\longrightarrow} X
      \right)
-     \;\overet{f^\ast}{\mapsto}\;
+     \;\overset{f^\ast}{\mapsto}\;
      \left(
        \mathbb{R}^{n_1}\times Spec(A_1) \overset{f}{\to} \mathbb{R}^{n_2} \times Spec(A_2) \overset{f}{\to} X
      \right)
@@ -3505,8 +3668,34 @@ such that
 
 Basing [[supergeometry]] on [[super formal smooth sets]] is an instance of the general approach to [[geometry]] called _[[functorial geometry]]_ or _[[topos theory]]_. For more background on this see at _[[geometry of physics -- supergeometry]]_.
 
-There is the immediate [[supergeometry|supergeometric]] analog of the smooth structure on the [[space of field histories]]
-from example \ref{DiffeologicalSpaceOfFieldHistories}:
+We do not need to consider here [[supermanifolds]] more general than the [[super Cartesian spaces]] (def. \ref{SuperCartesianSpace}).
+But for those readers familiar with the concept we include the following example, which is the direct
+supergeometric analog of how ordinary [[smooth manifolds]] are [[diffeological spaces]]  
+(example \ref{SmoothManifoldsAreDiffeologicalSpaces}) and hence [[smooth sets]]:
+
++-- {: .num_example}
+###### Example
+**([[supermanifolds]] are [[super formal smooth set|super smooth sets]])**
+
+Let $X$ be a [[supermanifold]]. Then it becomes a [[super formal smooth set|super smooth set]] (def. \ref{SuperFormalSmoothSet})
+by declaring the plots from a [[super Cartesian space]] $U$ (def. \ref{SuperCartesianSpace})
+to be the ordinary smooth functions of supermanifolds:
+
+$$
+  X(U) \coloneqq Hom_{Supermanifolds}(U,X)
+  \,.
+$$
+
+This construction exhibits [[supermanifolds]] as a [[full subcategory]] of [[super formal smooth set|super smooth sets]]:
+
+$$
+  Supermanifolds \overset{\phantom{AAA}}{\hookrightarrow} SuperSmoothSet
+  \,.
+$$
+
+=--
+
+What is crucial for the discussion of [[field theory]] is the following immediate [[supergeometry|supergeometric]] analog of the smooth structure on the [[space of field histories]] from example \ref{DiffeologicalSpaceOfFieldHistories}:
 
 +-- {: .num_example #SupergeometricSpaceOfFieldHistories}
 ###### Example
@@ -3546,10 +3735,10 @@ $$
 
 =--
 
-We will focus on discussing the [[supergeometry|supergeometric]] [[space of field histories]] (example \ref{SupergeometricSpaceOfFieldHistories}) of the _[[Dirac field]]_ (example \ref{DiracFieldBundle}). We consider this below in example \ref{DiracFieldBundle},
+We will focus on discussing the [[supergeometry|supergeometric]] [[space of field histories]] (example \ref{SupergeometricSpaceOfFieldHistories}) of the _[[Dirac field]]_. We consider this below in example \ref{DiracFieldBundle},
 but first we discuss some relevant basics of general [[supergeometry]].
 
-Example \ref{SupergeometricSpaceOfFieldHistories} is really a special case of a general 
+Example \ref{SupergeometricSpaceOfFieldHistories} is really a special case of a general
 relative [[mapping space]]-construction. Another special case of the general concept that
 we need is this:
 
@@ -3558,19 +3747,19 @@ we need is this:
 **([[mapping space]] out of a [[super Cartesian space]])
 
 Let $X$ be a [[super Cartesian space]] (def. \ref{SuperCartesianSpace}) and let $Y$ be two [[super formal smooth sets|super smooth set]] (def. \ref{SuperFormalSmoothSet}).
-Then the _[[mapping space]]_ 
+Then the _[[mapping space]]_
 
 $$
   [X,Y] \;\in\; SuperSmoothSet
-$$ 
+$$
 
 of super smooth functions from $X$ to $Y$ is the [[super formal smooth set]]
-whose $U$-plots are the morphisms of [[super formal smooth set|super smooth set]] 
+whose $U$-plots are the morphisms of [[super formal smooth set|super smooth set]]
 from the [[Cartesian product]] of [[super Cartesian space]] $U \times X$ to $Y$,
 hence the $U \times X$-plots of $Y$:
 
 $$
-  [X,Y](U) \;\coloneqq\; Y(U \times X) 
+  [X,Y](U) \;\coloneqq\; Y(U \times X)
   \,.
 $$
 
@@ -3581,10 +3770,10 @@ $$
 ###### Example
 **([[mapping space]] of [[superpoints]])**
 
-Let $V$ be a [[finite dimensional vector space|finite dimensional]] [[real vector space]] and 
+Let $V$ be a [[finite dimensional vector space|finite dimensional]] [[real vector space]] and
 consider its corresponding [[superpoint]] $V_{odd}$ from exampe \ref{SuperpointInducedByFiniteDimensionalVectorSpace}.
-Then the [[mapping space]] (def. \ref{MappingSpaceOutOfASuperCartesianSpace}) out of the 
-[[superpoint]] $\mathbb{R}^{0\vert 1}$ (def. \ref{SuperCartesianSpace}) into $V_{odd}$ is 
+Then the [[mapping space]] (def. \ref{MappingSpaceOutOfASuperCartesianSpace}) out of the
+[[superpoint]] $\mathbb{R}^{0\vert 1}$ (def. \ref{SuperCartesianSpace}) into $V_{odd}$ is
 the [[Cartesian product]] $V_{odd} \times V$
 
 
@@ -3595,13 +3784,15 @@ $$
   \,.
 $$
 
+(More abstractly this says that $V_{odd} \times V$ is the "[[odd tangent bundle]]" of $V_{odd}$.)
+
 =--
 
 
 +-- {: .proof}
 ###### Proof
 
-Let $U$ be any [[super Cartesian space]]. Then by definition we have the 
+Let $U$ be any [[super Cartesian space]]. Then by definition we have the
 following sequence of [[natural bijections]] of sets of plots
 
 $$
@@ -3631,8 +3822,18 @@ $$
   \end{aligned}
 $$
 
+Here in the third line we used that the [[Grassmann algebra]] $\wedge^\bullet V^\ast$ is [[free construction|free]]
+on its generators in $V^\ast$, meaning that an algebra homomorphism out of the Grassmann algebra is uniquely
+fixed by the underlying [[linear function]] on these generators.
+
+That all these [[bijections]] are [[natural bijection|natural]] means that they are compatible with
+morphisms $U \to U'$ and therefore this says that $[\mathbb{R}^{0\vert 1}, V_{odd}]$ and $V_{odd} \times V$
+are the same as seen by super-smooth plots, hence that they are [[isomorphism|isomorphic]] as
+[[super formal smooth set|super smooth sets]].
+
 =--
 
+With this [[supergeometry]] in hand we finally turn to defining the [[Dirac field]] species:
 
 +-- {: .num_example #DiracFieldBundle}
 ###### Example
@@ -3640,11 +3841,11 @@ $$
 
 For $\Sigma$ being [[Minkowski spacetime]] (def. \ref{MinkowskiSpacetime}),
 of dimension $2+1$, $3+1$, $5+1$ or $9+1$, let $S$ be the [[spin representation]] from prop. \ref{SpinorRepsByNormedDivisionAlgebra}.
-With 
+With
 
 $$
   S_{odd} \simeq \mathbb{R}^{0 \vert dim(S)}
-$$ 
+$$
 
 the corresponding [[superpoint]] (example \ref{SuperpointInducedByFiniteDimensionalVectorSpace}),
 then the [[field bundle]] for the _[[Dirac field]]_ on $\Sigma$ is
@@ -3673,34 +3874,57 @@ $$
 Notice that these are $\mathbb{K}$-valued functions. For instance if $\mathbb{K} = \mathbb{C}$ then each $\chi_a$ in turn has
 two components, a real part and an imaginary part.
 
-A key point is now that $S_{odd}$ is a [[superpoint]],
-these are now odd-graded elements in the [[Grassmann algebra]] $\wedge^\bullet(S^\ast)$ and hence anti-commute
-with each other.
+A key point with the [[field bundle]] of the [[Dirac field]] (example \ref{DiracFieldBundle})
+is that the field fiber coordinates $(\psi^A)$ or $\left((\chi_a), (\xi^{\dagger \dot a})\right)$
+are now odd-graded elements in the function algebra on the field fiber, which is the
+[[Grassmann algebra]] $C^\infty(S_{odd}) =  \wedge^\bullet(S^\ast)$. Therefore they anti-commute
+with each other:
+
+$$
+  \psi^A \psi^{A'} = - \psi^{A'} \psi^A
+  \,.
+$$
+
+=--
 
 
-The corresponding [[space of field histories]] $\Gamma_\Sigma(\Sigma \times S_{odd})$ (example \ref{SupergeometricSpaceOfFieldHistories})
+We analyze the nature of the [[supergeometry|supergeometry]] [[space of field histories]] of the [[Dirac field]] a little:
+
++-- {: .num_defn #DiracSpaceOfFieldHistories}
+###### Proposition
+**([[space of field histories]] of the [[Dirac field]])**
+
+Let $E = \Sigma \times S_{odd} \overset{pr_1}{\to}  \Sigma$ be the [[field bundle]] for the [[Dirac field]]
+over [[Minkowski spacetime]] $\Sigma = \mathbb{R}^{p,1}$ from example \ref{DiracFieldBundle}.
+
+Then the corresponding [[supergeometry|supergeometry]] [[space of field histories]] $\Gamma_\Sigma(\Sigma \times S_{odd})$ (example \ref{SupergeometricSpaceOfFieldHistories})
 has the following properties:
 
 1. For $U = \mathbb{R}^n$ an ordinary [[Cartesian space]] (with no super-geometric thickening, def. \ref{SuperCartesianSpace})
-   there is only a single morphism
+   there is only a single $U$-parameterized collection of [[field histories]], hence a single plot
 
    $$
-     \mathbb{R}^n \overset{\exists !}{\longrightarrow} \Gamma_\Sigma(\Sigma \times S_{odd})
+     \Psi_{(-)}\;\colon\;\mathbb{R}^n \overset{ 0 }{\longrightarrow} \Gamma_\Sigma(\Sigma \times S_{odd})
    $$
 
-   which corresponds to the [[zero section]], hence to the trivial [[Dirac field]].
+   and this corresponds to the [[zero section]], hence to the trivial [[Dirac field]]
+   
+   $$
+     \Psi^A_u = 0
+     \,.
+   $$
 
 1. For $U = \mathbb{R}^{n \vert 1}$ a [[super Cartesian space]] (\ref{SuperCartesianSpace}) with a single super-odd
-   dimension, then morphism
+   dimension, then $U$-parameterized collections of field histories
 
    $$
-     \mathbb{R}^{n\vert 1} \longrightarrow \Gamma_\Sigma(\Sigma \times S_{odd})
+     \Psi_{(-)} \;\colon\; \mathbb{R}^{n\vert 1} \longrightarrow \Gamma_\Sigma(\Sigma \times S_{odd})
    $$
 
-   are in [[natural bijection]] with morphisms
+   are in [[natural bijection]] with plots
 
    $$
-     \mathbb{R}^n \longrightarrow \Gamma_\Sigma(\Sigma \times S_{even})
+     \theta \Psi_{(-)} \;\colon\; \mathbb{R}^n \longrightarrow \Gamma_\Sigma(\Sigma \times S_{even})
      \,,
    $$
 
@@ -3711,6 +3935,55 @@ has the following properties:
 =--
 
 
++-- {: .proof}
+###### Proof
+
+In the first case, the plot is a morphism of [[super Cartesian spaces]] spring of the form
+
+$$
+  \mathbb{R}^n \times \mathbb{R}^{p,1} \longrightarrow S_{odd}
+  \,.
+$$
+
+By definitions this is [[formal duality|dually]] homomorphism of real [[supercommutative superalgebras]]
+
+$$
+  C^\infty(\mathbb{R}^n \times \mathbb{R}^{p,1}) \longleftarrow \wedge^\bullet S^\ast
+$$
+
+from the [[Grassmann algebra]] on the [[dual vector space]] of the [[spin representation]] $S$
+to the ordinary algebras of [[smooth functions]] on $\mathbb{R}^n \times \mathbb{R}^{p,1}$.
+But the latter has no elements in odd degree, and hence all the Grassmann generators need to be
+send to zero.
+
+The second case follows by example \ref{SuperpointsMapping}.
+
+=--
+
+
++-- {: .num_remark }
+###### Remark
+**([[supergeometry|supergeometry]] nature of the [[Dirac field]])**
+
+Proposition \ref{DiracSpaceOfFieldHistories} how two basic facts about the [[Dirac field]], 
+which may superficially seem to be in tension with each other, are properly unified by [[supergeometry]]:
+
+1. On the one hand a [[field history]] $\Psi$ of the [[Dirac field]] is _not_ an ordinary section of an ordinary [[vector bundle]].
+   In particular its component functions $\psi^A$ anti-commute with each other, which is not the case for 
+   ordinary function, and this is absolutely crucial for the [[Lagrangian density]] of the Dirac field to be 
+   well defined, we come to this below in example \ref{LagrangianDensityForDiracField}.
+   
+1. On the other hand a [[field history]] of the [[Dirac field]] is supposed to be a [[spinor]], hence 
+   a [[section]] of a [[spinor bundle]], which is an ordinary [[vector bundle]].
+   
+Prop. \ref{DiracSpaceOfFieldHistories} shows how, even so a Dirac field is not defined to be
+an ordinry section of an ordinary vector bundle, it is nevertheless encoded by such an ordinary section:
+One says that this ordinary section is the "[[superfield]]-component" of the Dirac field 
+which is linear in a Grassmann variable $\theta$.
+
+
+
+=--
 
 
 $\,$
@@ -6705,7 +6978,7 @@ $$
   \right]
 $$
 
-from the [[on-shell]] [[space of field histories]] to the [[complex numbers]]. 
+from the [[on-shell]] [[space of field histories]] to the [[complex numbers]].
 
 **Observables on bosonic fields**
 
@@ -15959,3 +16232,4 @@ $\,$
 $\,$
 
 
+[[!redirects A first idea of quantum field theory]]
