@@ -32,7 +32,7 @@ The [nerve](nerve#nerve_of_chain_complexes) in the ordinary Dold-Kan corresponde
 
 * For $\mathcal{B}[1]$, the chain complex concentrated in degree 1, $\mathcal{N}(\mathcal{B}[1])$ is a $(\infty,1)$-version of the [[Waldhausen S-construction]].
 
-* For $f: \mathcal{B}_1 \to \mathcal{B}_0$, then applying $\mathcal{N}$ to the corresponding chain complex concentrated in degrees $0$ and $1$ is a relative $(\infty,1)$-version of the Waldhausen S-construction.
+* For $f: \mathcal{B}_1 \to \mathcal{B}_0$, then applying $\mathcal{N}$ to the corresponding chain complex concentrated in degrees $0$ and $1$ is an $(\infty,1)$-version of the _relative_ Waldhausen S-construction.
 
 * For the chain complex concentrated in degree $2$, $\mathcal{N}(\mathcal{B}[2])$ is an $(\infty,1)$-version of Hesselholt-Madsen's $S^{2,1}_{\bullet}$-construction. (See the reference at [[real algebraic K-theory]].)
 
