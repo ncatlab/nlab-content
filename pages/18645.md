@@ -408,7 +408,7 @@ $$
 
 In the literature one finds these four dimensions advertized for two superficially unrelated reasons:
 
-1. in precisely these dimensions "[[twistors]]" exist (see [there](#twistor+space#TwistorSpace));
+1. in precisely these dimensions "[[twistors]]" exist (see [there](twistor+space#TwistorSpace));
 
 1. in precisely these dimensions "[[Green-Schwarz superstrings|GS-superstrings]]" exist (see [there](geometry+of+physics+--+fundamental+super+p-branes#TheSuperStringAndTheSuperMembrane)).
 
@@ -5700,13 +5700,13 @@ $\,$
 
 ## Symmetries
 
-We have introduced the concept of _[[Lagrangian field theories]]_ $(E,\mathbf{L})$ in terms of a [[field bundle]] $E$ equipped with a 
+We have introduced the concept of _[[Lagrangian field theories]]_ $(E,\mathbf{L})$ in terms of a [[field bundle]] $E$ equipped with a
 [[Lagrangian density]] $\mathbf{L}$ on its [[jet bundle]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}).
 Generally, given any [[object]] equipped with some [[structure]], it is of paramount interest to determine
 the [[symmetries]], hence the [[isomorphisms]]/[[equivalences]] of the object that preserve the given [[structure]].
 
-The [[infinitesimal symmetries of the Lagrangian density]] (def. \ref{SymmetriesAndConservedCurrents} below) 
-send one [[field history]] to an [[infinitesimal|infinitesimally]] nearby one which is 
+The [[infinitesimal symmetries of the Lagrangian density]] (def. \ref{SymmetriesAndConservedCurrents} below)
+send one [[field history]] to an [[infinitesimal|infinitesimally]] nearby one which is
 "[[equivalence|equivalent]]" for all purposes of [[field theory]]. Among these are the _[[infinitesimal gauge symmetries]]_
 which will be of concern [below](#GaugeSymmetries).
 A central theorem of [[variational calculus]] says that [[infinitesimal symmetries of the Lagrangian]]
@@ -5715,14 +5715,14 @@ correspond to _[[conserved currents]]_, this is [[Noether theorem|Noether's theo
 But in (eq:DerivativeOfLepageForm) we have seen that the [[Lagrangian density]]
 of a [[Lagrangian field theory]] is just one component, in [[codimension]] 0, of an inhomogeneous
 "[[Lepage form]]" which in [[codimension]] 1 is given by the [[presymplectic potential current]] $\Theta_{BFV}$ (eq:PresymplecticPotential).
-(This will be conceptually elucidated, after we have introduced the [[local BV-complex]], in example \ref{DerivedPresymplecticCurrentOfRealScalarField} below.) This means that in [[codimension]] 1 we are to 
+(This will be conceptually elucidated, after we have introduced the [[local BV-complex]], in example \ref{DerivedPresymplecticCurrentOfRealScalarField} below.) This means that in [[codimension]] 1 we are to
 consider infinitesimal symmetries of the [[presymplectic potential current]] $\Theta_{BFV}$. These are
 known as [[Hamiltonian vector fields]] (def. \ref{HamiltonianForms} below) and the analog of [[Noether's theorem|Noether's theorem I]]
 now says that these correspond to [[Hamiltonian differential forms]]. The [[Lie algebra]] of these
 infinitesimal symmetries is called the _[[Poisson bracket Lie n-algebra|local Poisson bracket]]_ (prop. \ref{LocalPoissonBracket} below).
 
-Further [below](#PhaseSpace) we [[transgression|trasngress]] this [[Poisson bracket Lie n-algebra|local Poisson bracket]] 
-of [[infinitesimal symmetries]] of the [[presymplectic potential current]] to the "global" [[Poisson bracket]] on [[phase space]] (def. \ref{PoissonBracketOnHamiltonianLocalObservables} below). This is the structure which then [further below](#QuantumObservables) leads over to the 
+Further [below](#PhaseSpace) we [[transgression|trasngress]] this [[Poisson bracket Lie n-algebra|local Poisson bracket]]
+of [[infinitesimal symmetries]] of the [[presymplectic potential current]] to the "global" [[Poisson bracket]] on [[phase space]] (def. \ref{PoissonBracketOnHamiltonianLocalObservables} below). This is the structure which then [further below](#QuantumObservables) leads over to the
 [[quantization]] ([[deformation quantization]]) of the [[prequantum field theory]] to a genuine [[perturbative quantum field theory]].
 
 $\,$
@@ -9548,12 +9548,12 @@ whose [[field bundle]] $E$ is a [[trivial vector bundle]] (example \ref{TrivialV
 Let $\Sigma \times \{\varphi\} \hookrightarrow \mathcal{E}$ be a constant section of the shell (eq:ConstantSectionOfTrivialShellBundle).
 
 Then in the BV-variational bicomplex (eq:ComparisonMorphismFromOrdinaryBVComplexToLocalObservables)
-there exists the _BV-presymplectic potential_ 
+there exists the _BV-presymplectic potential_
 
 $$
   \label{BVPresymplecticPotential}
-  \Theta_{BV} 
-    \;\coloneqq\; 
+  \Theta_{BV}
+    \;\coloneqq\;
   \overline{\phi}_a \delta \phi^a \, dvol_\Sigma
   \;\in\;
   \Omega^{p,1}_\Sigma(E,\varphi)\vert_{\mathcal{E}_{BV}}
@@ -9562,8 +9562,8 @@ $$
 and the corresponding _BV-presymplectic current_
 
 $$
-  \Omega_{BV} 
-  ;\in\; 
+  \Omega_{BV}
+  ;\in\;
   \Omega^{p,2}_\Sigma(E,\varphi)\vert_{\mathcal{E}_{BV}}
 $$
 
@@ -9571,14 +9571,14 @@ defined by
 
 $$
   \begin{aligned}
-    \Omega_{BV} 
-      & \coloneqq 
+    \Omega_{BV}
+      & \coloneqq
     \delta \Theta_{BV}
      \\
-     & =  
+     & =
      \delta \overline{\phi}_a \wedge \delta \phi^a \wedge dvol_{\Sigma}
   \;\;\;
-  
+
   \end{aligned}
   \,,
 $$
@@ -9707,7 +9707,7 @@ $$
 
 which might be called the _derived presymplectic current_.
 
-Similarly we may form the linear combination of 
+Similarly we may form the linear combination of
 1. the presymplectic potential current $\Theta_{BFV}$ (eq:dLDecomposition)
 
 1. the BF-presymplectic potential current $\Theta_{BV}$ (eq:BVPresymplecticPotential)
@@ -9720,16 +9720,16 @@ $$
   \Theta \;\coloneqq\; \Theta_{BV} + \underset{Lepage}{\underbrace{ \Theta_{BFV} + \mathbf{L} }}
 $$
 
-(where the sum of the two terms on the right is the [[Lepage form]] (eq:TheLepage)). 
+(where the sum of the two terms on the right is the [[Lepage form]] (eq:TheLepage)).
 This might be called the _derived presymplectic potental current_.
 
-We then have that 
+We then have that
 
 $$
   (\delta + (d-s))\Omega \;=\; 0
 $$
 
-and in fact 
+and in fact
 
 $$
   (\delta + (d-s))\Theta \;=\; \Omega
@@ -9743,7 +9743,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Of course the first statement follows from the second, but in fact the two contributions of the first statement 
+Of course the first statement follows from the second, but in fact the two contributions of the first statement
 even vanish separately:
 
 $$
@@ -9761,10 +9761,10 @@ $$
   \begin{aligned}
     (d - s) (\Omega_{BV} + \Omega_{BFV})
     & =
-    \underset{= 0}{\underbrace{d \Omega_{BFV} 
-      - 
+    \underset{= 0}{\underbrace{d \Omega_{BFV}
+      -
     \underset{ = 0 }{\underbrace{ s \Omega_{BV}}}  }}
-     + 
+     +
     \underset{ = 0}{\underbrace{ d \Omega_{BV} - s \Omega_{BFV} }}
     \\
     & = 0
@@ -14472,7 +14472,7 @@ spacetime-dependent [[coupling constant|coupling]] "constant",  and $j_{sw}$ has
 On the other hand, the [[kinetic action|kinetic]] or [[free field]] Lagrangian $L_{free}$, which in the
 axiomatic description of def. \ref{PerturbativeSMatrixOnMinkowskiSpacetime} is implicit in the [[Wick algebra]]
 $\mathcal{W}$ is interpreted as determining the would-be [[Gaussian integral|Gaussian measure]]
-"$e^{\tfrac{1}{i \hbar}\int_X L_{free}(\Phi) }D[\Phi]" for the path integrak.
+"$e^{\tfrac{1}{i \hbar}\int_X L_{free}(\Phi) }D[\Phi]$" for the [[path integral].
 
 Since this [[measure]] does not actually exist, in general (or is not known to exist),
 we may instead think of the axioms for the [[S-matrix]] in def. \ref{PerturbativeSMatrixOnMinkowskiSpacetime} as rigorously _defining_
