@@ -38,7 +38,7 @@ Many operations in monoidal categories that look rather unenlightening in symbol
 
 There are many additional structures on monoidal categories, or similar structures, which can usually be represented by encoding further geometric properties.  For instance:
 
-* in monoidal categories which are _[[ribbon category|ribbon categories]]_ the strings from above behave as if they have a small transversal extension which makes them behave as ribbons. Accordingly, there is a _twist_ operation in the axioms of a ribbon category and graphically it corresponds to twisting the ribbons by 180 degrees.
+* in monoidal categories which are _[[ribbon category|ribbon categories]]_ the strings from above behave as if they have a small transversal extension which makes them behave as ribbons. Accordingly, there is a _twist_ operation in the axioms of a ribbon category and graphically it corresponds to twisting the ribbons by 360 degrees.
 
 * in a [[traced monoidal category]], the trace can be represented by bending an output string around to connect to an input, even though if the objects are not dualizable the individual "bends" do not represent anything.
 
