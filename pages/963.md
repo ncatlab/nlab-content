@@ -143,7 +143,7 @@ This notion can also be expressed in terms of lax morphisms of $*$-quantales; se
 ## Relation to linear logic
  {#RelationToLinearLogic}
 
-A commutative quantale is in particular a [[symmetric monoidal category]] (a symmetric monoidal [[(0,1)-category]]). As such it may be thought of as a model for [[linear logic]] in the general sense. Precisely if it has a [[dualizing object]] then it is a [[star-autonomous category]] and hence a model for [[linear logic]] in the original sense. (see e.g. [Yetter 90, page 43](#Yetter90)). Indeed, quantales have been argued to provide models for [[quantum logic]], see there for more.
+A commutative quantale is in particular a [[symmetric monoidal category]] (a symmetric monoidal [[(0,1)-category]]). As such it may be thought of as a model for [[linear logic]] in the general sense. Precisely if it has a [dualizing object](dualizing+object+in+a+closed+category) then it is a [[star-autonomous category]] and hence a model for [[linear logic]] in the original sense. (see e.g. [Yetter 90, page 43](#Yetter90)). Indeed, quantales have been argued to provide models for [[quantum logic]], see there for more.
 
 ## Morphisms of quantales ##
 
