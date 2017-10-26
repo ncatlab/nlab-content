@@ -23,7 +23,7 @@
 
 The _codiscrete groupoid_ on a [[set]] is the [[groupoid]] whose [[object]]s are the elements of the [[set]] and which has a _unique [[morphism]]_ for every ordered pair of objects.
 
-This is also called the **pair groupoid** of $X$ and sometimes also the __chaotic groupoid__ or __coarse groupoid__ on $X$, in older literature also [[Brandt groupoid]].
+This is also called the **pair groupoid** of $X$ and sometimes also the __chaotic groupoid__ , __indiscrete groupoid__, or __coarse groupoid__ on $X$, in older literature also [[Brandt groupoid]].
 
 
 ## Definition
@@ -59,6 +59,8 @@ the _chaotic groupoid_ on $X$. The intuition is probably that "everything being 
 ## Related concepts
 
 * [[discrete groupoid]]
+
+* [[indiscrete category]]
 
 [[!redirects codiscrete groupoid]]
 [[!redirects codiscrete groupoids]]
