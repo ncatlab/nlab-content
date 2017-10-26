@@ -5,7 +5,7 @@
 
 ## Definitions
 
-An **indiscrete category**, also called a **chaotic category**, is a [[category]] $C$ in which there is a unique [[morphism]] from each [[object]] $x$ to each object $y$:
+An **indiscrete category** is a [[category]] $C$ in which there is a unique [[morphism]] from each [[object]] $x$ to each object $y$:
 $$
   \forall x,y \in Obj(C) : C(x,y) = *
   \,,
@@ -13,11 +13,13 @@ $$
 where $*$ is the [[point]].
 
 
+The terms **chaotic category**, and **codiscrete category** are also used.
+
 ## Properties
 
 This means that
 
-* an indiscrete category is in fact a [[groupoid]];
+* an indiscrete category is in fact a [[groupoid]], in fact a [[codiscrete groupoid]];
 * any [[inhabited set|inhabited]] indiscrete category is [[equivalence of categories|equivalent]] to the [[terminal category]].
 
 Therefore, up to [[equivalence of categories|equivalence]], an indiscrete category is simply a [[truth value]].
@@ -30,7 +32,9 @@ is [[natural equivalence|naturally equivalent]] to the composite
 $$ Set \overset{Inh}\to TV \overset{Subs}\to Set \overset{Disc}\to Str Cat \to Cat ,$$
 where $TV$ is the set (viewed a $2$-category) of [[truth values]], $Inh$ takes a set to the truth value of the statement that it is [[inhabited set|inhabited]], $Pt$ takes a truth value to a [[subsingleton]] ([[left adjoint]] to $Inh$), and $Disc$ is as above.
 
+##Related concepts
 
+* [[codiscrete groupoid]]
 [[!redirects indiscrete category]]
 [[!redirects indiscrete categories]]
 [[!redirects chaotic category]]
