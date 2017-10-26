@@ -47,6 +47,8 @@ Survey and discussion includes
 
 * [[Simon Friedrich]], _[Fine-Tuning](https://seop.illc.uva.nl/entries/fine-tuning/)_, Stanford Encyclopedia of Philosophy, 2017
 
+* [[Gian Francesco Giudice]], _The Dawn of the Post-Naturalness Era_ ([arXiv:1710.07663](https://arxiv.org/abs/1710.07663))
+
 Critical comments are in
 
 * {#Wilson04} [[Kenneth Wilson]], _The Origins of Lattice Gauge Theory_, ([arXiv:hep-lat/0412043](http://arxiv.org/abs/hep-lat/0412043))
