@@ -90,7 +90,7 @@ $$1_{\neg A} = \left( \neg A \cong \neg A \otimes \top \to \neg A \otimes (A \pa
 
 Then symmetric linearly distributive categories with negations are the same as $\ast$-autonomous categories; see ([Cockett-Seely 97](#CockettSeely97)).  Moreover:
 
-* the [[forgetful functor]] from $\ast$-autonomous categories to symmetric linearly distributive ones has a [[left adjoint]] that "freely adjoins negations".  I don't know which kind of functors this statement refers to.
+* the [[forgetful functor]] from $\ast$-autonomous categories to symmetric linearly distributive ones has a [[left adjoint]] that "freely adjoins negations".  I don't know which kind of functors this statement refers to, but it's probably strong Frobenius ones.
 
 * This functor also has a [[right adjoint]] that picks out the "nucleus" of [[dualizable objects]] (in the linear sense); see [Cockett-Seely 1999](#CockettSeely1999).  This adjunction uses lax monoidal functors between $\ast$-autonomous categories and linear functors between linearly distributive categories.
 
