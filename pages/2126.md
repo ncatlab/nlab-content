@@ -157,7 +157,5 @@ A previous version of this entry led to the following discussion, which later le
 [[!redirects Betti cohomology]]
 
 [[!redirects singular chain complex]]
-[[!redirects singular chain]]
 
 [[!redirects singular chain complexes]]
-[[!redirects singular chains]]
