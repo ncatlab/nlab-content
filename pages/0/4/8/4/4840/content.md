@@ -230,6 +230,10 @@ A standard account is for instance in
 
 * Reyer Sjamaar, _Manifolds and differential forms_, [pdf](http://www.math.cornell.edu/~sjamaar/papers/manifold.pdf)
 
+Discussion of [[chains]] of smooth [[singular simplices]]
+
+* _Stokes' theorem on chains_ (<a href="http://idv.sinica.edu.tw/ftliang/diff_geom/*diff_geometry(II)/3.25/deRham_theorem/stokes_on_chains.pdf">pdf</a>)
+
 Discussion of Stokes theorem on [[manifolds with corners]] is in 
 
 * [[Brian Conrad]], _[Differential geometry](http://math.stanford.edu/~conrad/diffgeomPage/handouts.html)_ _Math 396. Stokes' theorem with corners_ ([pdf](http://math.stanford.edu/~conrad/diffgeomPage/handouts/stokescorners.pdf))
