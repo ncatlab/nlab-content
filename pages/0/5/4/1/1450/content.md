@@ -198,7 +198,7 @@ See at [flow of a vector field](flow+of+a+vector+field#SyntheticDefinition).
 
 The idea of axiomatizing [[differential geometry]] using ideas inspired by [[topos]] theory originates in 
 
-* [[Bill Lawvere]], _[[Categorical dynamics]]_, lecture  (Chicago 1967). ([abstract pdf](http://www.mat.uc.pt/~ct2011/abstracts/lawvere_w.pdf))
+* {#Lawvere67} [[Bill Lawvere]], _[[Categorical dynamics]]_, lecture  (Chicago 1967). ([abstract pdf](http://www.mat.uc.pt/~ct2011/abstracts/lawvere_w.pdf))
 
 They were published as pp.1-28 in
 
