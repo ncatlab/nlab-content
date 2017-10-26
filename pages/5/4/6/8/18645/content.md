@@ -93,17 +93,51 @@ $\,$
 
 ## Geometry
 
-We assume that the reader has a basic knowledge of [[differential geometry]] on [[Cartesian spaces]] $\mathbb{R}^n$.
-As we uncover [[quantum field theory]] in the following we discover ever more general concepts of differential geometry
-(e. g. [[smooth manifolds]], [[diffeological spaces]], [[supergeometry]] and [[Lie algebroids]]),
-but we introduce these as we go along. An index is provided [below](#NotionsOfGeometry).
+The [[geometry of physics]] is _[[differential geometry]]_. This is the flavor of [[geometry]] which is modeled on
+[[Cartesian spaces]] $\mathbb{R}^n$ with [[smooth functions]] between them. Here we briefly review the basics of
+[[differential geometry]] on [[Cartesian spaces]].
+
+In principle the only **background** assumed of the reader here is
+
+1. usual _[[structural set theory|naive set theory]]_ (e.g. [[Sets for Mathematics|Lawvere-Rosebrugh 03]]);
+
+1. the concept of the _[[continuum]]_: the [[real line]] $\mathbb{R}$, the [[plane]] $\mathbb{R}^2$, etc.
+
+1. the concepts of _[[differentiation]]_ and _[[integration]]_ of functions on such [[Cartesian spaces]];
+
+hence essentially the content of multi-variable [[differential calculus]].
+
+We now discuss:
+
+* _[Abstract coordinate systems](#SmoothFunctions)_
+
+* _[Fiber bundles](#BundlesAndSections)_
+
+* _[Synthetic differential geometry](#SyntheticDifferentialGeometry)_
+
+* _[Differential forms](#DifferentialFormsAndCartanCalculus)_
 
 
-For reference, we here briefly collect basic definitions and facts [[differential geometry]] that we need in the following.
+As we uncover [[Lagrangian field theory]] further below, we discover ever more general concepts of
+"[[space]]" in differential geometry, such as
+_[[smooth manifolds]]_, _[[diffeological spaces]]_, _[[infinitesimal neighbourhoods]]_, _[[supermanifolds]]_, _[[Lie algebroids]]_
+and _[[super L-∞ algebra|super]] [[Lie ∞-algebroids]]_.
+We introduce these incrementally as we go along:
+
+**more general [[spaces]] in [[differential geometry]] introduced further below**
+ {#NotionsOfGeometry}
+
+| | |  |  |  |  |  |  |  |  |  | [[higher differential geometry]] |
+|--|---|---|---|---|---|---|---|---|---|---|---|
+| **[[differential  geometry]]** | [[smooth manifolds]] | $\hookrightarrow$ | [[diffeological spaces]] <br/> (def. \ref{DiffeologicalSpace}) | $\hookrightarrow$ | [[smooth sets]] <br/> (def. \ref{SmoothSet}) | $\hookrightarrow$ | [[formal smooth sets]] <br/> (def. \ref{FormalSmoothSet}) | $\hookrightarrow$ | [[super formal smooth sets]] <br/> (def. \ref{SuperFormalSmoothSet}) | $\hookrightarrow$ | [[super formal smooth ∞-groupoids]] <br/> (not needed in fully [[perturbative QFT]]) |
+| **[[infinitesimal]] [[formal geometry|geometry]], <br/> [[Lie theory]]** | |  |  |  |  |   | [[infinitesimally thickened points]] <br/> (def. \ref{InfinitesimallyThickendSmoothManifold}) |  | [[superpoints]] <br/> (def. \ref{SuperCartesianSpace}) |  | [[Lie ∞-algebroids]] <br/> (def. \ref{LInfinityAlgebroid}) |
+| | |  |  |  |  |  |  |  |  |  | **[[higher Lie theory]]** |
+| **needed in [[QFT]] for:** |  [[spacetime]] (def. \ref{MinkowskiSpacetime}) |  | [[space of field histories]] <br/> (def. \ref{DiffeologicalSpaceOfFieldHistories})  |  |  |  | [[Cauchy surface]] (def. \ref{CauchySurface}), <br/> [[perturbation theory]]  (def. \ref{LocalObservablesOnInfinitesimalNeighbourhood}) |  | [[Dirac field]] (expl. \ref{DiracFieldBundle}), [[Pauli exclusion principle]]  |  | [[infinitesimal gauge symmetry]]/[[BRST complex]] (expl. \ref{LocalOffShellBRSTComplex})  |
+
 
 $\,$
 
-**[[Cartesian spaces]]**
+**Abstract coordinate systems**
  {#SmoothFunctions}
 
 
@@ -195,8 +229,8 @@ a prescription for how to smoothly map abstract coordinate systems into them.
 
 
 
-+-- {: .num_defn #CoordinateFunctionsAreSmoothFunctions}
-###### Definition
++-- {: .num_example #CoordinateFunctionsAreSmoothFunctions}
+###### Example
 **([[coordinate functions]] are [[smooth functions]])**
 
 Given a [[Cartesian space]] $\mathbb{R}^n$, then all its [[coordinate functions]] (def. \ref{CartesianSpacesAndSmoothFunctionsBetweenThem})
@@ -227,6 +261,84 @@ $$
 .
 for its [[composition]] with this [[coordinate function]].
 
+=--
+
+
++-- {: .num_example #AlgebraOfSmoothFunctionsOnCartesianSpaces}
+###### Example
+**([[algebra of functions|algebra of]] [[smooth functions]] on [[Cartesian spaces]])
+
+For each $n \in \mathbb{N}$, the set
+
+$$
+  C^\infty(\mathbb{R}^n)
+   \;\coloneqq\;
+  Hom_{CartSp}(\mathbb{R}^n, \mathbb{R})
+$$
+
+of [[real number]]-valued [[smooth functions]] $f \colon \mathbb{R}^n \to \mathbb{n}$
+on the $n$-dimensional [[Cartesian space]] (def. \ref{CartesianSpacesAndSmoothFunctionsBetweenThem})
+becomes a [[commutative algebra|commutative]] [[associative algebra]] over the [[ring]] of [[real numbers]]
+by pointwise addition and multiplication in $\mathbb{R}$: for $f,g \in C^\infty(\mathbb{R}^n)$ and $x \in \mathbb{R}^n$
+
+1. $(f + g)(x) \coloneqq f(x) + g(x)$
+
+1. $(f \cdot g)(x) \coloneqq f(x) \cdot g(x)$.
+
+The inclusion
+
+$$
+  \mathbb{R} \overset{const}{\hookrightarrow} C^\infty(\mathbb{R}^n)
+$$
+
+is given by the [[constant functions]].
+
+We call this the _[[real numbers|real]] [[algebra of functions|algebra of]] [[smooth functions]]_ on $\mathbb{R}^n$:
+
+$$
+  C^\infty(\mathbb{R}^n)
+  \;\in\;
+  \mathbb{R} CAlg
+  \,.
+$$
+
+If
+
+$$
+  f \;\colon\; \mathbb{R}^{n_1} \longrightarrow \mathbb{R}^{n_2}
+$$
+
+is any [[smooth function]] (def. \ref{CartesianSpacesAndSmoothFunctionsBetweenThem}) then
+[[composition|pre-composition]] with $f$ ("[[pullback of functions]]")
+
+$$
+  \array{
+    C^\infty(\mathbb{R}^{n_2})
+      &\overset{f^\ast}{\longrightarrow}&
+    C^\infty8\mathbb{R}^{n_1})
+    \\
+    g &\mapsto& f^\ast g \coloneqq g \circ f
+  }
+$$
+
+is an algebra [[homomorphism]]. Moreover, this is clearly compatible with [[composition]] in that
+
+$$
+  f_2^\ast(f_1^\ast g) = (f_2 \circ f_1)^\ast g
+  \,.
+$$
+
+Stated more [[category theory|abstractly]], this means that assigning [[algebra of functions|algebras]] of [[smooth functions]]
+is a [[functor]]
+
+$$
+  C^\infty(-)
+  \;\colon\;
+  CartSp \longrightarrow \mathbb{R} Alg^{op}
+$$
+
+from the [[category]] [[CartSp]] of [[Cartesian spaces]] and [[smooth functions]] between them, to the
+[[opposite category|opposite]] if the category $\mathbb{R}$[[Alg]] of $\mathbb{R}$-[[associative algebra|algebras]].
 =--
 
 +-- {: .num_defn #LocalDiffeomorphismBetweenCartesianSpaces}
@@ -304,9 +416,505 @@ satisfy:
 
 1. ([[good open cover|good]]) all [[finite set|finite]] [[intersections]] $U_{i_1} \cap \cdots \cap U_{i_k} \subset \mathbb{R}^n$ are either [[empty set]] or  themselves images of [[open embeddings]].
 
+=--
+
+The inclined reader may notice that the concept of [[differentiably good open covers]] from def. \ref{DifferentiablyGoodOpenCover}
+is a _[[coverage]]_ on the [[category]] _[[CartSp]]_ of [[Cartesian spaces]] with [[smooth functions]] between them, making it a
+_[[site]]_, but the reader not so inclined my ignore this.
+
+$\,$
+
+
+$\,$
+
+**[[fiber bundles]]**
+ {#BundlesAndSections}
+
+Given any context of [[objects]] and [[morphisms]] between them, such as the [[Cartesian spaces]]
+and [[smooth functions]] from def. \ref{CartesianSpacesAndSmoothFunctionsBetweenThem}
+it is of interest to fix one [[object]] $X$ and consider other objects _[[dependent type|parameterized over]]_
+it. These are called _[[bundles]]_ (def. \ref{BundlesAndFibers}) below.
+For reference, we briefly discuss here the basic concepts related to [[bundles]] in the context of
+[[Cartesian spaces]].
+
+Of course the theory of bundles is mostly trivial over Cartesian spaces,
+and gains its main interest from its generalization to more general [[smooth manifolds]] and [[generalized smooth spaces]].
+It is still worthwhile to consider also this almost trivial case.
+
+For more exposition see at _[[fiber bundles in physics]]_.
+
+
++-- {: .num_defn #BundlesAndFibers}
+###### Definition
+**([[bundles]])**
+
+We say that a [[smooth function]] $E \overset{fb}{\to} X$ (def. \ref{CartesianSpacesAndSmoothFunctionsBetweenThem})
+is a _[[bundle]]_ just to amplify that we think of it as exhibiting $E$ as being a "space over $X$":
+
+$$
+  \array{
+    E
+    \\
+    \downarrow\mathrlap{fb}
+    \\
+    X
+  }
+  \,.
+$$
+
+For $x \in X$ a point, we say that the _[[fiber]]_ of this [[bundle]] over $x$ is the [[pre-image]]
+
+$$
+  E_x \coloneqq fp^{-1}(\{x\}) \subset E
+$$
+
+of the point $x$ under the smooth function. We think of $fb$ as exhibiting a "smoothly varying" set of [[fiber]] spaces over $X$.
+
+Given two [[bundles]] $E_1 \overset{fb_1}{\to} X$ and $E_2 \overset{fb_2}{\to} X$ over $X$,
+a _[[homomorphism]] of bundles_ between them is a [[smooth function]] (def. \ref{CartesianSpacesAndSmoothFunctionsBetweenThem})
+$f \colon E_1 \to E_2$ such that
+
+$$
+  fb_2  \circ f = f_1
+  \phantom{AAAAAA}
+  \array{
+    E_1 && \overset{f}{\longrightarrow} && E_2
+    \\
+    & {}_{\mathllap{fb_1}}\searrow && \swarrow_{\mathrlap{fb_2}}
+    \\
+    && X
+  }
+  \,.
+$$
+
+Hence a bundle homomorphism is a smooth function that sends [[fibers]] to [[fibers]] over the same point:
+
+$$
+  f((E_1)_x) \subset (E_2)_x
+  \,.
+$$
+
+The inclined reader may notice that this defines a [[category]] of [[bundles]] over $X$,
+which is in fact just the _[[slice category]]_ $CartSp_{/X}$; the reader not so inclined may gnore this.
 
 =--
 
+
++-- {: .num_defn #Sections}
+###### Definition
+**([[sections]])*'
+
+Given a [[bundle]] $E \overset{fb}{\to} X$ (def. \ref{BundlesAndFibers})
+a _[[section]]_ is a [[smooth function]] $s \colon X \to E$ such that
+
+$$
+  fb \circ f = id_X
+  \phantom{AAAAA}
+  \array{
+    && E
+    \\
+    &
+    {}^{\mathllap{s}}\nearrow
+    & \downarrow\mathrlap{fb}
+    \\
+    X &=& X
+  }
+  \,.
+$$
+
+This means that $s$ sends every point $x \in X$ to an element in the [[fiber]] over that point
+
+$$
+  s(x) \in E_x
+  \,.
+$$
+
+We write
+
+$$
+  \Gamma_X(E) \coloneqq
+  \left\{
+     \array{
+        && E
+        \\
+        & {}^{\mathllap{s}}\nearrow & \downarrow\mathrlap{fb}
+        \\
+        X &=& X
+     }
+     \phantom{fb}
+  \right\}
+$$
+
+for the [[space of sections|set of sections]] of a bundle.
+
+For $E_1 \overset{f_1}{\to} X$ and $E_2 \overset{f_2}{\to} X$ two [[bundles]] and for
+
+$$
+  \array{
+    E_1
+      && \overset{f}{\longrightarrow} &&
+    E_2
+    \\
+    & {}_{\mathllap{fb_1}}\searrow && \swarrow_{\mathrlap{fb}_2}
+    \\
+    && X
+  }
+$$
+
+a bundle [[homomorphism]] between them (def. \ref{BundlesAndFibers}), then [[composition]] with $f$ sends [[sections]] to [[sections]]
+and hence yields a [[function]] denoted
+
+$$
+  \array{
+    \Gamma_X(E_1)
+      &\overset{f_\ast}{\longrightarrow}&
+    \Gamma_X(E_2)
+    \\
+    s &\mapsto& f \circ s
+  }
+  \,.
+$$
+
+=--
+
+
++-- {: .num_example #TrivialBundleOnCartesianSpace}
+###### Example
+**([[trivial bundle]])**
+
+For $X$ and $F$  [[Cartesian spaces]], then the [[Cartesian product]] $X \times F$ equipped with the [[projection]]
+
+$$
+  \array{
+    X \times F
+    \\
+    \downarrow\mathrlap{pr_1}
+    \\
+    X
+  }
+$$
+
+to $X$ is a [[bundle]] (def. \ref{BundlesAndFibers}), called the _[[trivial bundle]]_
+with [[fiber]] $F$. This represents the _constant_ smoothly varying set of [[fibers]], constant on $F$
+
+If $F = \ast$ is the point, then this is the identity bundle
+
+$$
+  \array{
+    X
+    \\
+    \downarrow\mathrlap{id}
+    \\
+    X
+  }
+  \,.
+$$
+
+Given any [[bundle]] $E \overset{fb}{\to} X$, then a bundle homomorphism (def. \ref{BundlesAndFibers})
+from the identity bundle to $E \overset{fb}{\to} X$ is equivalently a [[section]] of $E \overset{fb}{\to} X$ (def. \ref{Sections})
+
+$$
+  \array{
+     X && \overset{s}{\longrightarrow} && E
+     \\
+     & {}_{\mathllap{id}}\searrow && \swarrow_{\mathrlap{fb}}
+     \\
+     && X
+  }
+$$
+
+=--
+
++-- {: .num_defn #FiberBundle}
+###### Definition
+**([[fiber bundle]])**
+
+A [[bundle]] $E \overset{fb}{\to} X$ (def. \ref{BundlesAndSections}) is called a _[[fiber bundle]]_ with _typical fiber_ $F$ if
+there exists a [[differentiably good open cover]] $\{U_i \hookrightarrow X\}_{i \in I}$ (def. \ref{DifferentiablyGoodOpenCover})
+such that the restriction of $fb$ to each $U_i$ is [[isomorphism|isomorphic]] to the [[trivial fiber bundle]] with
+fiber $F$ over $U_i$. Such [[diffeomorphisms]] $f_i \colon U_i \times F \overset{\simeq}{\to} E\vert_{U_i}$
+are called _[[local trivializations]]_ of the fiber bundle:
+
+$$
+  \array{
+    U_i \times F &\underoverset{\simeq}{f_i}{\longrightarrow}& E\vert_{U_i}
+    \\
+    & {}_{\mathllap{pr_1}}\searrow & \downarrow\mathrlap{fb\vert_{U_i}}
+    \\
+    && U_i
+  }
+  \,.
+$$
+
+
+=--
+
+
++-- {: .num_defn #VectorBundle}
+###### Definition
+**([[vector bundle]])**
+
+A _[[vector bundle]]_ is a [[fiber bundle]] $E \overset{vb}{\to} X$ (def. \ref{FiberBundle}) with typical fiber a [[vector space]] $V$ such that
+there exists a [[local trivialization]] $\{U_i \times V \underoverset{\simeq}{f_i}{\to} E\vert_{U_i}\}_{i \in I}$
+whose _gluing functions_
+
+$$
+  U_i \cap U_j \times V
+    \overset{f_i\vert_{U_i \cap U_j}}{\longrightarrow}
+  E\vert_{U_i \cap U_j}
+    \overset{f_j^{-1}\vert_{U_i \cap U_j}}{\longrightarrow}
+  U_i \cap U_j \times V
+$$
+
+for all $i,j \in I$ are [[linear functions]] over each point $x \in U_i \cap U_j$.
+
+A [[homomorphism]] of [[vector bundle]] is a bundle morphism $f$ (def. \ref{BundlesAndFibers})
+such that there exist [[local trivializations]] on both sides with respect to which $g$ is
+[[fiber]]-wise a [[linear map]].
+
+The inclined reader may notice that this makes vector bundles over $X$ a [[category]] (denoted $Vect_{/X}$);
+the reader not so inclined may ignore this.
+
+=--
+
++-- {: .num_example #ModuleOfSectionsOfAVectorBundle}
+###### Example
+**([[module]] of [[sections]] of a [[vector bundle]])**
+
+Given a [[vector bundle]] $E \overset{vb}{\to} X$ (def. \ref{VectorBundle}),
+then its [[space of sections|set of sections]] $\Gamma_X(E)$ (def. \ref{BundlesAndFibers})
+becomes a [[real vector space]] by [[fiber]]-wise multiplication with [[real numbers]].
+Moreover, it becomes a [[module]] over the [[algebra of functions|algebra of]] [[smooth functions]] $C^\infty(X)$
+(example \ref{AlgebraOfSmoothFunctionsOnCartesianSpaces}) by the same [[fiber]]-wise multiplication:
+
+$$
+  \array{
+     C^\infty(X) \otimes_{\mathbb{R}} \Gamma_X(E) &\longrightarrow& \Gamma_X(E)
+     \\
+     (f,s) &\mapsto& (x \mapsto f(x) \cdot s(x))
+  }
+  \,.
+$$
+
+For $E_1 \overset{fb_1}{\to} X$ and $E_2 \overset{fb_2}{\to} X$ two [[vector bundles]] and
+
+$$
+  \array{
+    E_1 && \overset{f}{\longrightarrow} && E_2
+    \\
+    & {}_{\mathllap{fb_1}}\searrow && \swarrow_{\mathrlap{fb_2}}
+    \\
+    && X
+  }
+$$
+
+a vector bundle homomorphism (def. \ref{VectorBundle}) then the induced function on sections (def. \ref{Sections})
+
+$$
+  f_\ast \;\colon\; \Gamma_X(E_1) \longrightarrow \Gamma_X(E_2)
+$$
+
+is compatible with this [[action]] by smooth functions and hence constitutes a [[homomorphism]] of $C^\infty(X)$-[[modules]].
+
+The inclined reader may notice that this means that taking [[spaces of sections]] yields a [[functor]]
+
+$$
+  \Gamma_X(-)
+  \;\colon\;
+  Vect_{/X}
+    \longrightarrow
+  C^\infty(X) Mod
+$$
+
+from the [[category of vector bundles]] over $X$ to that over [[modules]] over $C^\infty(X)$.
+
+=--
+
+
++-- {: .num_example #TangentVectorFields}
+###### Example
+**([[tangent vector fields]])**
+
+For $\mathbb{R}^n $ a [[Cartesian space]] (def. \ref{CartesianSpacesAndSmoothFunctionsBetweenThem})
+the [[trivial vector bundle]] (example \ref{TrivialBundleOnCartesianSpace}, def. \ref{VectorBundle}) 
+
+$$
+  \array{
+    T \mathbb{R}^n &\coloneqq& \mathbb{R}^n \times \mathbb{R}^n 
+    \\
+    \mathllap{tb}\downarrow && \downarrow\mathrlap{pr_1}
+    \\
+    \mathbb{R}^n &=& \mathbb{R}^n
+  }
+$$
+
+is called the [[tangent bundle]] of $\mathbb{R}^n$. With $(x^a)_{a = 1}^n$ the [[coordinate functions]]
+on $\mathbb{R}^n$ (def. \ref{CoordinateFunctionsAreSmoothFunctions}) we write $(\partial_a)_{a = 1}^n$
+for the corresponding [[linear basis]] of $\mathbb{R}^n$ regarded as a [[vector space]]. Then 
+a general [[section]] (def. \ref{Sections}) 
+
+$$
+  \array{
+    && T \mathbb{R}^n
+    \\
+    & {}^{\mathllap{v}}\nearrow& \downarrow\mathrlap{tb}
+    \\
+    \mathbb{R}^n &=& \mathbb{R}^n
+  }
+$$
+
+of the [[tangent bundle]] has a unique expansion of the form
+
+$$
+  v = v^a \partial_a
+$$
+
+where a sum over indices is understood ([[Einstein summation convention]]) and where 
+the components $(v^a \in C^\infty(\mathbb{R}^n))_{a = 1}^n$
+are [[smooth functions]] on $\mathbb{R}^n$ (def. \ref{CartesianSpacesAndSmoothFunctionsBetweenThem}).
+
+Such a $v$ is also called a smooth _[[tangent vector field]]_ on $\mathbb{R}^n$.
+
+Each tangent vector field $v$ on $\mathbb{R}^n$ determines a [[partial derivative]] 
+on [[smooth functions]]
+
+$$
+  \array{
+    C^\infty(\mathbb{R}^n) &\overset{D_v}{\longrightarrow}& C^\infty(\mathbb{R}^n)
+    \\
+    f &\mapsto& \mathrlap{ D_v f \coloneqq v^a \partial_a (f) \coloneqq  \sum_a v^a \frac{\partial f}{\partial x^a} }
+  }
+  \,.
+$$
+
+By the [[product law]] of [[differentiation]], this is a [[derivation]] on the [[algebra of functions|algebra of]] [[smooth functions]]
+(example \ref{AlgebraOfSmoothFunctionsOnCartesianSpaces}) in that 
+
+1. it is an $\mathbb{R}$-[[linear map]] in that
+
+   $$
+     D_v( c_1 f_1 + c_2 f_2 ) = c_1 D_v f_1 + c_2 D_v f_2
+   $$
+   
+1. it satisfies the [[Leibniz rule]]
+
+   $$
+     D_v(f_1 \cdot f_2) = (D_v f_1) \cdot f_2 + f_1 \cdot (D_v f_2)
+   $$
+
+for all $c_1, c_2 \in \mathbb{R}$ and all $f_1, f_2 \in C^\infty(\mathbb{R}^n)$.
+
+Hence regarding [[tangent vector fields]] as [[partial derivatives]] constitutes a [[linear function]]
+
+$$
+  D \;\colon\; \Gamma_{\mathbb{R}^n}(T \mathbb{R}^n) \longrightarrow Der(C^\infty(\mathbb{R}^n))
+$$
+
+from the [[space of sections]] of the [[tangent bundle]]. In fact this is 
+a [[homomorphism]] of $C^\infty(\mathbb{R}^n)$-[[modules]] (example \ref{ModuleOfSectionsOfAVectorBundle}), 
+in that for $f \in C^\infty(\mathbb{R}^n)$ and $v \in \Gamma_{\mathbb{R}^n}(T \mathbb{R}^n)$ we have
+
+$$
+  D_{f v}(-) = f \cdot D_v(-)
+  \,.
+$$
+ 
+=--
+
+
+$\,$
+
+
+**[[synthetic differential geometry]]**
+ {#SyntheticDifferentialGeometry}
+
+Below we encounter generalizations of ordinary [[differential geometry]] that include
+explicit "[[infinitesimals]]" in the guise of _[[infinitesimally thickened points]]_,
+as well as "super-graded infinitesimals", in the guise of _[[superpoints]]_ (necessary for the
+description of [[fermion fields]] such as the [[Dirac field]]). As we discuss [below](#FieldBundles), these structures are
+naturally incorporated into [[differential geometry]] in just the same way as [[Grothendieck]]
+introduced them into [[algebraic geometry]] (in the guise of "[[formal schemes]]"),
+namely in terms of [[formal dual|formally dual]] [[rings of functions]] with [[nilpotent ideals]].
+That this also works well for [[differential geometry]] rests on the following three
+basic but important properties, which say that [[smooth functions]] behave "more algebraically"
+than their definition might superficially suggest:
+
+
++-- {: .num_prop #AlgebraicFactsOfDifferentialGeometry}
+###### Proposition
+**(the three magic algebraic properties of [[differential geometry]])**
+
+1. **[[embedding of smooth manifolds into formal duals of R-algebras|embedding of Cartesian spaces into formal duals of R-algebras]]**
+
+   For $X$ and $Y$ two [[Cartesian spaces]], the [[smooth functions]] $f \colon X \longrightarrow Y$
+   between them (def. \ref{CartesianSpacesAndSmoothFunctionsBetweenThem}) are in [[natural bijection]] with their
+   induced algebra [[homomorphisms]] $C^\infty(X) \overset{f^\ast}{\longrightarrow} C^\infty(Y)$ (example \ref{AlgebraOfSmoothFunctionsOnCartesianSpaces}), so that
+   one may equivalently handle smooth manifolds entirely via their $\mathbb{R}$-algebras of smooth functions.
+
+   Stated more [[category theory|abstractly]], this means equivalently that the [[functor]] $C^\infty(-)$ that
+   sends a [[smooth manifold]] $X$ to its $\mathbb{R}$-[[associative algebra|algebra]]
+   $C^\infty(X)$ of [[smooth functions]] (example \ref{AlgebraOfSmoothFunctionsOnCartesianSpaces}) is a _[[fully faithful functor]]_:
+
+   $$
+     C^\infty(-)
+     \;\colon\;
+     SmthMfd \overset{\phantom{AAAA}}{\hookrightarrow} \mathbb{R} Alg^{op}
+     \,.
+   $$
+
+   ([Kolar-Slovak-Michor 93, lemma 35.8, corollaries 35.9, 35.10](embedding+of+smooth+manifolds+into+formal+duals+of+R-algebras#KolarSlovakMichor93))
+
+
+1. **[[smooth Serre-Swan theorem|embedding of smooth vector bundles into formal duals of R-algebra modules]]**
+
+   For $E_1 \overset{vb_1}{\to} X$ and $E_2 \overset{vb_2}{\to} X$ two [[vector bundle]] (def. \ref{VectorBundle})
+   there is then a [[natural bijection]] between vector bundle [[homomorphisms]] $f \colon E_1 \to E_2$
+   and the [[homomorphisms]] of [[modules]] $f_\ast \;\colon\; \Gamma_X(E_1) \to \Gamma_X(E_2)$
+   that these induces between the [[spaces of sections]] (example \ref{ModuleOfSectionsOfAVectorBundle}).
+
+   More [[category theory|abstractly]] this means that the [[functor]] $\Gamma_X(-)$ is a [[fully faithful functor]]
+
+   $$
+     \Gamma_X(-) \;\colon\; VectBund_X \overset{\phantom{AAAA}}{\hookrightarrow} C^\infty(X) Mod
+   $$
+
+   ([Nestruev 03, theorem 11.29](#Nestruev03))
+
+   Moreover, the [[modules]] over the $\mathbb{R}$-algebra $C^\infty(X)$
+   of [[smooth functions]] on $X$ which arise this way as [[sections]] of [[smooth vector bundles]] over
+   a [[Cartesian space]] $X$
+   are precisely the [[finitely generated module|finitely generated]] [[free modules]] over $C^\infty(X)$.
+
+   > More generally, for $X$ any [[smooth manifold]]: the [[projective modules]].
+
+   ([Nestruev 03, theorem 11.32](#Nestruev03))
+
+
+1. **[[derivations of smooth functions are vector fields|vector fields are derivations of smooth functions]]**.
+
+   For $X$ a [[Cartesian space]] (example \ref{CartesianSpacesAndSmoothFunctionsBetweenThem}),
+   then any [[derivation]] $D \colon  C^\infty(X) \to C^\infty(X)$ on
+   the $\mathbb{R}$-[[associative algebra|algebra]]
+   $C^\infty(X)$ of [[smooth functions]] (example \ref{AlgebraOfSmoothFunctionsOnCartesianSpaces}) is given by [[differentiation]] with respect to a uniquely defined smooth [[tangent vector field]]: The function that regards [[tangent vector fields]]
+   with [[derivations]] from example \ref{TangentVectorFields}
+
+   $$
+     \array{
+       \Gamma_X(T X)
+         &\overset{\phantom{A}\simeq\phantom{A}}{\longrightarrow}&
+       Der(C^\infty(X))
+       \\
+       v &\mapsto& D_v
+     }
+   $$
+   
+   is in fact an [[isomorphism]].
+
+   (This follows directly from the _[[Hadamard lemma]]_.)
+
+=--
+
+
 $\,$
 
 
@@ -314,13 +922,220 @@ $\,$
 
 
 
-**([[Cartan calculus]])**
+**[[differential forms]]**
+ {#DifferentialFormsAndCartanCalculus}
+
++-- {: .num_defn #Differential1FormsOnCartesianSpaces}
+###### Definition
+**([[differential 1-forms]] on [[Cartesian spaces]] and the [[cotangent bundle]])**
+
+For $n \in \mathbb{N}$ a _[[smooth differential 1-form]]_ $\omega$ on a [[Cartesian space]] $\mathbb{R}^n$ (def. \ref{CartesianSpacesAndSmoothFunctionsBetweenThem}) is an [[n-tuple]]
+
+$$
+  \left(\omega_i \in CartSp\left(\mathbb{R}^n,\mathbb{R}\right)\right)_{i = 1}^n
+$$
+
+of [[smooth functions]] (def. \ref{CartesianSpacesAndSmoothFunctionsBetweenThem}), which we think of equivalently as the [[coefficients]] of a [[formal linear combination]]
+
+$$
+  \omega = f_i d x^i
+$$
+
+on a [[set]] $\{d x^1, d x^2, \cdots, d x^n\}$ of [[cardinality]] $n$. 
+
+Here a sum over repeated indices is tacitly understood ([[Einstein summation convention]]).
+
+Write
+
+$$
+  \Omega^1(\mathbb{R}^k) \simeq CartSp(\mathbb{R}^k, \mathbb{R})^{\times k}\in Set
+$$
+
+for the set of smooth [[differential 1-forms]] on $\mathbb{R}^k$. 
+
+We may think of the expressions $(d x^a)_{a = 1}^n$ as a [[linear basis]] for the [[dual vector space]]
+$\mathbb{R}^n$. With this the [[differential 1-forms]] are equivalently the [[sections]] (def. \ref{Sections})
+of the [[trivial vector bundle]] (example \ref{TrivialBundleOnCartesianSpace}, def. \ref{VectorBundle})
+
+$$
+  \array{
+    T^\ast \mathbb{R}^n &\coloneqq& \mathbb{R}^n \times (\mathbb{R}^n)^\ast
+    \\
+    \mathllap{cb}\downarrow && \downarrow\mathrlap{pr_1}
+    \\
+    \mathbb{R}^n &=& \mathbb{R}^n
+  }
+$$
+
+called the _[[cotangent bundle]]_ of $\mathbb{R}^n$ (def. \ref{Differential1FormsOnCartesianSpaces}):
+
+$$
+  \Omega^1(\mathbb{R}^n) = \Gamma_{\mathbb{R}^n}(T^\ast \mathbb{R}^n)
+  \,.
+$$
+
+This amplifies via example \ref{ModuleOfSectionsOfAVectorBundle} that $\Omega^1(\mathbb{R}^n)$
+has the  [[structure]] of a [[module]] over the [[algebra of functions|algebra of]] [[smooth functions]] $C^\infty(\mathbb{R}^n)$,
+by the evident multiplication of [[differential 1-forms]] with [[smooth functions]]:
+
+1. The set $\Omega^1(\mathbb{R}^k)$ of [[differential 1-forms]] in a [[Cartesian space]] (def. \ref{Differential1FormsOnCartesianSpaces})
+   is naturally an [[abelian group]] with addition given by componentwise addition
+
+   $$
+      \begin{aligned}
+         \omega + \lambda & =
+          \omega_i d x^i + \sum_{j = 1}^k \lambda_j d x^j
+         \\
+         & = (\omega_i + \lambda_i) d x^j
+      \end{aligned}
+      \,,
+   $$
+
+1. The abelian group $\Omega^1(\mathbb{R}^k)$ is naturally equipped with the structure of a [[module]] over the
+   [[algebra of functions|algebra of]] [[smooth functions]] $C^\infty(\mathbb{R}^k)$ (example \ref{AlgebraOfSmoothFunctionsOnCartesianSpaces}), where the [[action]] $C^\infty(\mathbb{R}^k) \times\Omega^1(\mathbb{R}^k) \to \Omega^1(\mathbb{R}^k)$ is given by componentwise multiplication
+
+   $$
+     f \cdot \omega = ( f \cdot \omega_i) d x^i
+     \,.
+   $$
+
+
+Accordingly there is a canonical pairing between [[differential 1-forms]] and [[tangent vector fields]] (example \ref{TangentVectorFields})
+
+$$
+  \array{
+    \Gamma_{\mathbb{R}^n}(T \mathbb{R}^n)
+    \otimes_{\mathbb{R}}
+    \Gamma_{\mathbb{R}^n}(T \ast \mathbb{R}^n)
+      &\overset{\iota_{(-)}(-) }{\longrightarrow}&
+    C^\infty(\mathbb{R}^n)
+    \\
+    (v,\omega)
+    &\mapsto&
+    \mathrlap{
+      \iota_v \omega \coloneqq v^a \omega_a
+    }
+  }
+$$
+
+With [[differential 1-forms]] in hand, we may collect all the first-order [[partial derivatives]] of a [[smooth function]]
+into a single object: the _[[de Rham differential]]_ is the $\mathbb{R}$-[[linear function]]
+
+$$
+  \array{
+    C^\infty(\mathbb{R}^n) &\overset{d}{\longrightarrow}& \Omega^1(\mathbb{R}^n)
+    \\
+    f &\mapsto& \mathrlap{ d f \coloneqq \frac{\partial f}{ \partial x^a} d x^a }
+  }
+  \,.
+$$
+
+Under the above pairing with [[tangent vector fields]] $v$ this yields the particular [[partial derivative]] along $v$:
+
+$$
+  \iota_v d f = D_v f = v^a \frac{\partial f}{\partial x^a}
+  \,.
+$$
+
+=--
+
+
+We think of $d  x^i$ as a measure for [[infinitesimal space|infinitesimal]] displacements along the $x^i$-[[coordinate]] of a [[Cartesian space]]. If we have a measure of infintesimal displacement on some $\mathbb{R}^n$ and a smooth function $f \colon \mathbb{R}^{\tilde n} \to \mathbb{R}^n$, then this induces a measure for infinitesimal displacement on $\mathbb{R}^{\tilde n}$ by sending whatever happens there first with  $f$ to $\mathbb{R}^n$ and then applying the given measure there. This is captured by the following definition:
+
++-- {: .num_defn #PullbackOfDifferential1FormsOnCartesianSpaces}
+###### Definition
+**([[pullback of differential forms|pullback of differential 1-forms]])**
+
+For $\phi \colon \mathbb{R}^{\tilde k} \to \mathbb{R}^k$ a [[smooth function]], the **[[pullback of differential forms|pullback of differential 1-forms]]** along $\phi$ is the [[function]]
+
+$$
+  \phi^* \colon \Omega^1(\mathbb{R}^{k}) \to \Omega^1(\mathbb{R}^{\tilde k})
+$$
+
+between sets of differential 1-forms, def. \ref{Differential1FormsOnCartesianSpaces}, which is defined on [[basis]]-elements by
+
+$$
+  \phi^* d  x^i 
+    \;\coloneqq\; 
+  \frac{\partial \phi^i}{\partial \tilde x^j} d \tilde x^j
+$$
+
+and then extended linearly by
+
+$$
+  \begin{aligned}
+    \phi^* \omega & = \phi^* \left(  \omega_i d x^i \right)
+    \\
+    & \coloneqq
+      \left(\phi^* \omega\right)_i  \frac{\partial \phi^i }{\partial \tilde x^j}  d  \tilde x^j
+    \\
+    & =
+     (\omega_i \circ \phi) \cdot \frac{\partial \phi^i }{\partial \tilde x^j}  d  \tilde x^j
+  \end{aligned}
+  \,.
+$$
+
+=--
+
+
+The following definition captures the idea that if $d  x^i$ is a measure for displacement along the $x^i$-[[coordinate]], and $d x^j$ a measure for displacement along the $x^j$ coordinate, then there should be a way to get a measure, to be called $d x^i \wedge d  x^j$, for [[infinitesimal]] _[[surfaces]]_ (squares) in the $x^i$-$x^j$-plane. And this should keep track of the [[orientation]] of these squares, whith
+
+$$
+  d x^j \wedge d x^i = - d x^i \wedge d  x^j
+$$
+
+being the same infinitesimal measure with orientation reversed.
+
++-- {: .num_defn #DifferentialnForms}
+###### Definition
+**([[differential n-forms]])**
+
+For $k,n \in \mathbb{N}$, the **smooth [[differential forms]]** on a [[Cartesian space]] $\mathbb{R}^k$ (def. \ref{CartesianSpacesAndSmoothFunctionsBetweenThem}) is the [[exterior algebra]]
+
+$$
+  \Omega^\bullet(\mathbb{R}^k)
+   \coloneqq
+  \wedge^\bullet_{C^\infty(\mathbb{R}^k)} \Omega^1(\mathbb{R}^k)
+$$
+
+over the [[algebra of functions|algebra of]] [[smooth functions]] $C^\infty(\mathbb{R}^k)$ (example \ref{AlgebraOfSmoothFunctionsOnCartesianSpaces}) of the [[module]] $\Omega^1(\mathbb{R}^k)$ of smooth 1-forms, prop. \ref{ModuleStructureOn1FormsOnRk}.
+
+We write $\Omega^n(\mathbb{R}^k)$ for the sub-module of degree $n$ and call its elements the _[[differential n-forms]]_.
+
+Explicitly this means that a [[differential n-form]] $\omega \in \Omega^n(\mathbb{R}^k)$ on $\mathbb{R}^k$ is a [[formal linear combination]] over $C^\infty(\mathbb{R}^k)$ (example \ref{AlgebraOfSmoothFunctionsOnCartesianSpaces}) of [[basis]] elements of the form $d  x^{i_1} \wedge \cdots \wedge d x^{i_n}$ for $i_1 \lt i_2 \lt \cdots \lt i_n$:
+
+$$
+  \omega = \omega_{i_1, \cdots, i_n} d x^{i_1} \wedge \cdots \wedge d x^{i_n}
+  \,.
+$$
+
+=--
+
+
+
++-- {: .num_defn #PullbackOfDifferentialForms}
+###### Definition
+**([[pullback of differential forms|pullback of differential n-forms]])**
+
+The [[pullback of differential forms|pullback of differential 1-forms]] of def. \ref{Differential1FormsOnCartesianSpaces} extends as an $C^\infty(\mathbb{R}^k)$-[[associative algebra|algebra]] [[homomorphism]] to $\Omega^n(-)$, given for a smooth function $f \colon \mathbb{R}^{\tilde k} \to \mathbb{R}^k$ on basis elements by
+
+$$
+  f^* \left(  dx^{i_1} \wedge \cdots \wedge dx^{i_n} \right)
+  =
+  \left(f^* dx^{i_1} \wedge \cdots \wedge f^* dx^{i_n} \right)
+  \,.
+$$
+
+=--
+
+
+
 
 +-- {: .num_prop #DifferentialForms}
 ###### Definition
 **([[differential forms]])**
 
-For $X$ a [[smooth manifold]], we write $\Omega^n(X)$ for the space of smooth [[differential n-forms]] on $X$,
+For $X$ a [[smooth Cartesian space]], we write $\Omega^n(X)$ for the space of smooth [[differential n-forms]] on $X$,
 and we write
 
 $$
@@ -402,6 +1217,35 @@ $$
 
 =--
 
+
++-- {: .num_prop #CartanHomotopyFormula}
+###### Proposition
+**([[Cartan's homotopy formula]])**
+
+Let $X$ be a [[smooth manifold]], and let $v \in \Gamma(T X)$ be a smooth [[vector field]].
+
+For $t \in \mathbb{R}$ write $\exp(t v) \colon X \overset{\simeq}{\to} X$ for the [[flow]] by [[diffeomorphisms]]
+along $v$ of parameter length $t$.
+
+Then the [[derivative]] with respect to $t$ of the [[pullback of differential forms]] along $\exp(t v)$, hence the [[Lie derivative]]
+$\mathcal{L}_v \colon \Omega^\bullet(X) \to \Omega^\bullet(X)$,
+ is given by the [[anticommutator]] of $\iota_v$ with the [[de Rham differential]] $d$:
+
+$$
+  \begin{aligned}
+    \mathcal{L}_v
+      &\coloneqq
+    \frac{d}{d t } \exp(t v)^\ast \omega \vert_{t = 0}
+    \\
+    & =
+    \iota_v d \omega + d \iota_v \omega
+    \,.
+  \end{aligned}
+$$
+
+=--
+
+
 +-- {: .num_prop #StokesTheorem}
 ###### Proposition
 **([[Stokes theorem]] for [[fiber integration|fiber]]-[[integration of differential forms]])**
@@ -440,139 +1284,6 @@ $$
 
 =--
 
-
-+-- {: .num_prop #CartanHomotopyFormula}
-###### Proposition
-**([[Cartan's homotopy formula]])**
-
-Let $X$ be a [[smooth manifold]], and let $v \in \Gamma(T X)$ be a smooth [[vector field]].
-
-For $t \in \mathbb{R}$ write $\exp(t v) \colon X \overset{\simeq}{\to} X$ for the [[flow]] by [[diffeomorphisms]]
-along $v$ of parameter length $t$.
-
-Then the [[derivative]] with respect to $t$ of the [[pullback of differential forms]] along $\exp(t v)$, hence the [[Lie derivative]]
-$\mathcal{L}_v \colon \Omega^\bullet(X) \to \Omega^\bullet(X)$,
- is given by the [[anticommutator]] of $\iota_v$ with the [[de Rham differential]] $d$:
-
-$$
-  \begin{aligned}
-    \mathcal{L}_v
-      &\coloneqq
-    \frac{d}{d t } \exp(t v)^\ast \omega \vert_{t = 0}
-    \\
-    & =
-    \iota_v d \omega + d \iota_v \omega
-    \,.
-  \end{aligned}
-$$
-
-=--
-
-$\,$
-
-
-**[[synthetic differential geometry]]**
-
-Below we encounter generalizations of ordinary [[differential geometry]] that includes
-explicit "[[infinitesimals]]" in the guise of [[infinitesimally thickened points]],
-as well as "super-graded infinitesimals", in the guise of [[superpoints]] (necessary for the
-description of [[fermion fields]] such as the [[Dirac field]]). As we discuss [below](#FieldBundles), these structures are
-naturally incorporated into [[differential geometry]] in just the same way as [[Grothendieck]]
-introduced them into [[algebraic geometry]] (in the guise of "[[formal schemes]]"),
-namely in terms of [[formal dual|formally dual]] [[rings of functions]] with [[nilpotent ideals]].
-That this also works well for [[differential geometry]] rests on the following three
-basic but important properties, which say that [[smooth functions]] behave "more algebraically"
-than their definition might superficially suggest:
-
-
-+-- {: .num_prop #AlgebraicFactsOfDifferentialGeometry}
-###### Proposition
-**(the three magic algebraic properties of [[differential geometry]])**
-
-1. **[[embedding of smooth manifolds into formal duals of R-algebras]]**
-
-   For $X$ and $Y$ two [[smooth manifolds]], the [[smooth functions]] $f \colon X \longrightarrow Y$
-   between them are in [[natural bijection]] with their
-   induced algebra [[homomorphisms]] $C^\infty(X) \overset{f^\ast}{\longrightarrow} C^\infty(Y)$, so that
-   one may equivalently handle smooth manifolds entirely via their $\mathbb{R}$-algebras of smooth functions.
-
-   Stated more [[category theory|abstractly]], this means equivalently that the [[functor]] $C^\infty(-)$ that
-   sends a [[smooth manifold]] $X$ to its $\mathbb{R}$-[[associative algebra|algebra]]
-   $C^\infty(X)$ of [[smooth functions]] with values in the [[real line]] is a _[[fully faithful functor]]_:
-
-   $$
-     C^\infty(-)
-     \;\colon\;
-     SmthMfd \overset{\phantom{AAAA}}{\hookrightarrow} \mathbb{R} Alg^{op}
-     \,.
-   $$
-
-   ([Kolar-Slovak-Michor 93, lemma 35.8, corollaries 35.9, 35.10](embedding+of+smooth+manifolds+into+formal+duals+of+R-algebras#KolarSlovakMichor93))
-
-
-1. **[[smooth Serre-Swan theorem|embedding of smooth vector bundles into formal duals of R-algebra modules]]**
-
-   For a fixed [[smooth manifold]] $X$, and $E \overset{vb}{\to} X$ a [[smooth vector bundle]] over
-   $X$, the [[space of sections]] $\Gamma_X(E)$ is canonically a [[module]] over the $\mathbb{R}$-algebra
-   $C^\infty(X)$ of [[smooth functions]], given by pointwise multiplication of smooth sections by smooth functions.
-
-   There is then a [[natural bijection]] between smooth maps $E_1 \overset{f}{\to} E_2$
-   of smooth vector bundles over $X$ and the [[homomorphisms]] $f_\ast \;\colon\; \Gamma_X(E_1) \to \Gamma_X(E_2)$
-   of modules of sections which they induce.
-
-   More [[category theory|abstractly]] this means that the [[functor]] that sends a [[smooth vector bundle]] $E \to X$
-   to its [[space of sections]] $\Gamma_X(E)$, regarded as a [[module]] over the [[algebra of functions|algebra of]]
-   [[smooth function]] $C^\infty(X)$, is a [[fully faithful functor]]
-
-   $$
-     \Gamma_X(-) \;\colon\; VectBund_X \overset{\phantom{AAAA}}{\hookrightarrow} C^\infty(X) Mod
-   $$
-
-   ([Nestruev 03, theorem 11.29](#Nestruev03))
-
-   Moreover, the [[modules]] over the $\mathbb{R}$-algebra $C^\infty(X)$
-   of [[smooth functions]] on $X$ which arise this way as [[sections]] of [[smooth vector bundles]] over $X$
-   are precisely the [[finitely generated module|finitely generated]] [[projective modules]] over $C^\infty(X)$.
-
-   ([Nestruev 03, theorem 11.32](#Nestruev03))
-
-
-1. **[[derivations of smooth functions are vector fields|vector fields are derivations of smooth functions]]**.
-
-   For $X$ a [[smooth manifold]], then any [[derivation]] $D \colon  C^\infty(X) \to C^\infty(X)$ on
-   the $\mathbb{R}$-[[associative algebra|algebra]]
-   $C^\infty(X)$ of [[smooth functions]] is given by [[differentiation]] with respect to a uniquely
-   defined smooth [[vector field]]:
-
-   $$
-     \array{
-       \Gamma_X(T X)
-         &\overset{\phantom{A}\simeq\phantom{A}}{\longrightarrow}&
-       Der(C^\infty(X))
-       \\
-       v &\mapsto& \left( f \mapsto (d f)(v) \right)
-     }
-     \,.
-   $$
-
-   (this follows immediately from the _[[Hadamard lemma]]_)
-
-=--
-
-
-$\,$
-
-Using just these basic ingredients, in the following we incrementally introduce  more general concepts of [[spaces]] in [[differential geometry]], as the need arises from the development of the [[quantum field theory]].
-
-**notions of geometry**
- {#NotionsOfGeometry}
-
-| | |  |  |  |  |  |  |  |  |  | [[higher differential geometry]] |
-|--|---|---|---|---|---|---|---|---|---|---|---|
-| **[[differential  geometry]]** | [[smooth manifolds]] | $\hookrightarrow$ | [[diffeological spaces]] <br/> (def. \ref{DiffeologicalSpace}) | $\hookrightarrow$ | [[smooth sets]] <br/> (def. \ref{SmoothSet}) | $\hookrightarrow$ | [[formal smooth sets]] <br/> (def. \ref{FormalSmoothSet}) | $\hookrightarrow$ | [[super formal smooth sets]] <br/> (def. \ref{SuperFormalSmoothSet}) | $\hookrightarrow$ | [[super formal smooth ∞-groupoids]] <br/> (not needed in fully [[perturbative QFT]]) |
-| **[[infinitesimal]] [[formal geometry|geometry]], <br/> [[Lie theory]]** | |  |  |  |  |   | [[infinitesimally thickened points]] <br/> (def. \ref{InfinitesimallyThickendSmoothManifold}) |  | [[superpoints]] <br/> (def. \ref{SuperCartesianSpace}) |  | [[Lie ∞-algebroids]] <br/> (def. \ref{LInfinityAlgebroid}) |
-| | |  |  |  |  |  |  |  |  |  | **[[higher Lie theory]]** |
-| **needed in [[QFT]] for:** |  [[spacetime]] (def. \ref{MinkowskiSpacetime}) |  | [[space of field histories]] <br/> (def. \ref{DiffeologicalSpaceOfFieldHistories})  |  |  |  | [[Cauchy surface]] (def. \ref{CauchySurface}), <br/> [[perturbation theory]]  (def. \ref{LocalObservablesOnInfinitesimalNeighbourhood}) |  | [[Dirac field]] (expl. \ref{DiracFieldBundle}), [[Pauli exclusion principle]]  |  | [[infinitesimal gauge symmetry]]/[[BRST complex]] (expl. \ref{LocalOffShellBRSTComplex})  |
 
 
 
@@ -2452,7 +3163,7 @@ For more exposition of this and some of the following concepts involving [[fiber
 **([[field (physics)|fields]] and [[field histories]])**
 
 Given a [[spacetime]] $\Sigma$, then a _[[type]] of [[field|fields]]_ on $\Sigma$
-is a [[smooth set|smooth]] [[fiber bundle]]
+is a [[smooth set|smooth]] [[fiber bundle]] (def. \ref{FiberBundle})
 
 $$
   \array{E \\ \downarrow^{\mathrlap{fb}} \\ \Sigma }
@@ -2461,7 +3172,7 @@ $$
 called the _[[field bundle]]_,
 
 Given a type of [[field|fields]] on $\Sigma$ this way, then a  _[[field history]]_ of that type on $\Sigma$
-is a smooth  [[section]] of this [[bundle]], namely a [[smooth function]] of the form
+is a smooth  [[section]] (def. \ref{Sections}) of this [[bundle]], namely a [[smooth function]] of the form
 
 $$
   \Phi \colon \Sigma \longrightarrow E
@@ -2493,7 +3204,9 @@ For the time being, not to get distracted from the basic idea of
 ###### Example
 **([[trivial vector bundle]] as a [[field bundle]])**
 
-In applications the [[field fiber]] $F$ is often a [[finite number|finite]] [[dimension|dimensional]] [[Euclidean space]] and equipped with the structure of a [[vector space]]. In this case the trivial field bundle with fiber $F$ is of course a _[[trivial vector bundle|trivial]] [[vector bundle]]_.
+In applications the [[field fiber]] $F = V$ is often a [[finite dimensional vector space]].
+In this case the [[trivial bundle|trivial]] [[field bundle]] with [[fiber]] $F$ is
+of course a _[[trivial vector bundle|trivial]] [[vector bundle]]_ (def. \ref{VectorBundle}).
 
 Choosing any [[linear basis]] $(\phi^a)_{a = 1}^s$ of the field fiber, then over [[Minkowski spacetime]] (def. \ref{MinkowskiSpacetime}) we have canonical [[coordinates]] on the total space of the field bundle
 
@@ -4133,7 +4846,7 @@ has the following properties:
 +-- {: .proof}
 ###### Proof
 
-In the first case, the plot is a morphism of [[super Cartesian spaces]] spring of the form
+In the first case, the plot is a morphism of [[super Cartesian spaces]] (def. \ref{SuperCartesianSpace}) of the form
 
 $$
   \mathbb{R}^n \times \mathbb{R}^{p,1} \longrightarrow S_{odd}
@@ -4551,7 +5264,7 @@ On the [[jet bundle]] $J^\infty_\Sigma(E)$ of a [[trivial vector bundle]] over [
 [[differential forms]]; we write its [[de Rham differential]] in boldface:
 
 $$
-  \mathbf{d} \;\colon\; \Omega^\bullet(J^\infty_\Sigma(E)) \longrightarrow \Omega^{\bullet+1}(J^\infty_\Sigma(E))
+  d \;\colon\; \Omega^\bullet(J^\infty_\Sigma(E)) \longrightarrow \Omega^{\bullet+1}(J^\infty_\Sigma(E))
   \,.
 $$
 
