@@ -16,4 +16,4 @@ $$
 $$
 
 
-[[!redirects local triviaizations]]
+[[!redirects local trivializations]]
