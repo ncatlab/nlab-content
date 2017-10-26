@@ -195,17 +195,27 @@ This last example was one of the first investigated by Whitehead and his proof a
 
 
 ## References
+ {#References}
 
-* R. Brown, "Groupoids and crossed objects in algebraic topology",  _Homology, Homotopy and Applications_, 1 (1999) 1-78.
-
-* R.  Brown and P.J. Higgins, "On the connections between the second relative homotopy groups of some related spaces",  _Proc. London Math.  Soc._ (3) 36 (1978) 193-212.
-
-* R. Brown, P. J. Higgins, and R. Sivera, _Nonabelian Algebraic Topology: Filtered spaces, Crossed Complexes, Cubical Homotopy Groupoids_, EMS Tracts in Mathematics, Vol. 15, (Autumn 2010).
-
-* [[Peter J. Hilton]], 1953, _An Introduction to Homotopy Theory_, Cambridge University Press.
-
-* {#Janelidze_03} [[George Janelidze]], _Internal crossed modules_, Georgian Mathematical Journal **10** (2003) pp 99-114. ([EuDML](https://eudml.org/doc/51553))
+The concept was introduced in
 
 *  [[J. H. C. Whitehead]],  _Combinatorial Homotopy II_, Bull.
 Amer. Math. Soc., 55 (1949), 453--496.
+
+see also
+
+* [[Peter J. Hilton]], _An Introduction to Homotopy Theory_, Cambridge University Press 1953
+
+Further discussion is in
+
+* [[Ronnie Brown]], Peter Higgins, _On the connections between the second relative homotopy groups of some related spaces_,  _Proc. London Math.  Soc._ (3) 36 (1978) 193-212.
+
+* [[Ronnie Brown]], _Groupoids and crossed objects in algebraic topology_,  _Homology, Homotopy and Applications_, 1 (1999) 1-78.
+
+* {#Janelidze_03} [[George Janelidze]], _Internal crossed modules_, Georgian Mathematical Journal **10** (2003) pp 99-114. ([EuDML](https://eudml.org/doc/51553))
+
+* [[Ronnie Brown]], Peter Higgins, and R. Sivera, _[[Nonabelian Algebraic Topology]]: Filtered spaces, Crossed Complexes, Cubical Homotopy Groupoids_, EMS Tracts in Mathematics, Vol. 15, (Autumn 2010).
+
+
+
 [[!redirects crossed modules]]
