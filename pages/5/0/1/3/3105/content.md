@@ -28,6 +28,10 @@ In the context of [[simplicial group]]s, representing [[connected]] [[homotopy t
 
 ## References
 
-See also [wikipedia](http://en.wikipedia.org/wiki/Whitehead_product).
+Named after [[J. H. C. Whitehead]].
+
+See also 
+
+* Wikipedia _[Whitehead product](http://en.wikipedia.org/wiki/Whitehead_product)_
 
 [[!redirects Whitehead products]]
