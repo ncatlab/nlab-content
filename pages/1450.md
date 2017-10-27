@@ -202,7 +202,7 @@ The idea of axiomatizing [[differential geometry]] using ideas inspired by [[top
 
 They were published as pp.1-28 in
 
-* [[Anders Kock]] (ed.), _Topos Theoretic Methods in Geometry_ , Aarhus Univ. Var. Pub. Ser. 30 (1979). {#Kocked79} 
+* {#Kocke79} [[Anders Kock]] (ed.), _Topos Theoretic Methods in Geometry_ , Aarhus Univ. Var. Pub. Ser. 30 (1979).  
  
 The first model for the axioms presented there served to demonstrate that the theory is non-empty, but was hard to work with. Much of the later work was concerned with refining the model-building. For instance
 
@@ -252,9 +252,9 @@ A nice elementary introduction which emphasizes calculations and the application
 
 The textbooks 
 
-*  {#KockBookA} [[Anders Kock]], _Synthetic Differential Geometry_, ([pdf](http://home.imf.au.dk/kock/sdg99.pdf))
+*  {#Kock81} [[Anders Kock]], _Synthetic Differential Geometry_, Cambridge University Press 1981, 2006 ([pdf](http://home.imf.au.dk/kock/sdg99.pdf))
 
-*  {#KockBookB} [[Anders Kock]], _Synthetic geometry of manifolds_, Cambridge Tracts in Mathematics 180 (2010). ([pdf](http://home.imf.au.dk/kock/SGM-final.pdf))
+*  {#Kock10} [[Anders Kock]], _Synthetic geometry of manifolds_, Cambridge Tracts in Mathematics 180 (2010) ([pdf](http://home.imf.au.dk/kock/SGM-final.pdf))
 
 
 develop in great detail the theory of [[differential geometry]] using the axioms of synthetic differential geometry. The main goal in these books is to demonstrate how these axioms lead to a very elegant, very intuitive and very comprehensive conception of differential geometry. Accordingly, concrete models (whose explicit description is typically much more evolved than the nice axiomatics that holds once they have been constructed) play a minor role in these books.
