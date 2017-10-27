@@ -497,7 +497,7 @@ For more on this see at _[[Simpson's conjecture]]_.
 
 ### For stratified spaces
 
-See [Ayala-Francis-Rozenblyum](#AFR15).
+For a [[categorified]] version which finds an equivalence for $(\infty, 1)$-categories, see [[stratified homotopy hypothesis]] ([Ayala-Francis-Rozenblyum](#AFR15)).
 
 
 ## References and a bit of history.
