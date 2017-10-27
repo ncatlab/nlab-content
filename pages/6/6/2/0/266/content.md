@@ -372,6 +372,7 @@ $$
 
 +-- {: .num_example #CoendFormulaForPresheavesOfSets}
 ###### Example
+**(coend formula for left Kan extension of presheaves)**
 
 The coend formula for the  left Kan extension is nicely understood when thinking of $C$ and $D$ above as [[opposite categories]] and for $\mathcal{V} = Set$, so that it takes [[presheaves]] $F$ on $C$ along $p \colon C \to C'$ to presheaves $Lan_p F$ on $C'$, by the formula
 
