@@ -67,7 +67,7 @@ the [[Dirac field]]:
 | [[electromagnetic field]] | expl. \ref{Electromagnetism} | expl. \ref{ElectromagnetismLagrangianDensity} | expl. \ref{ElectromagnetismEl}  | expl. \ref{NLGaugeFixingOfElectromagnetism} | ... |
 | [[Dirac field]] | expl. \ref{DiracFieldBundle}  | expl. \ref{LagrangianDensityForDiracField}  |  expl. \ref{EquationOfMotionOfDiracFieldIsDiracEquation}  |  ...  |  ...  | 
 
-The [[electromagnetic field]] and the [[Dirac field]] combined are the [[field (physics)|fields]] of [[quantum electrodynamics]]
+The [[electromagnetic field]] and the [[Dirac field]] combined are the [[field (physics)|fields]] of _[[quantum electrodynamics]]_
 which we turn to at the end [below](#QED).
 
 $\,$
@@ -4101,11 +4101,11 @@ geometry from prop. \ref{AlgebraicFactsOfDifferentialGeometry}, which says that 
 of [[smooth functions]] on them
 
 $$
-  C^\infty(-) \;\colon\; SmoothManifolds \hookrightarrow (\mathbb{R} Algebras)^{op}
+  C^\infty(-) \;\colon\; SmoothManifolds \overset{AAA}{\hookrightarrow} (\mathbb{R} Algebras)^{op}
   \,.
 $$
 
-Since there are of course more [[associative algebras|algebras]] $A \in \mathbb{R}Algebras$ than arise
+But since there are of course more [[associative algebras|algebras]] $A \in \mathbb{R}Algebras$ than arise
 this way from smooth manifolds, we may turn this around and try to regard any algebra $A$
 as _defining_ a would-be [[space]], which would have $A$ as its [[algebra of functions]].
 
@@ -4172,8 +4172,9 @@ $$
 =--
 
 
-+-- {: .num_example}
++-- {: .num_example #InfinitesimalNeighbourhoodsInTheRealLine}
 ###### Example
+**([[infinitesimal neighbourhoods]] in the [[real line]] )**
 
 Consider the [[quotient ring|quotient algebra]] of the [[formal power series algebra]] $\mathbb{R}[ [\epsilon] ]$
 in a single parameter $\epsilon$ by the ideal
@@ -4194,7 +4195,23 @@ $$
    a + b \epsilon \in (\mathbb{R}[\epsilon])/(\epsilon^2)
 $$
 
-where $a,b \in \mathbb{R}$ are [[real numbers]]. We may think of this as the truncation to first order
+where $a,b \in \mathbb{R}$ are [[real numbers]]. The product in this algebra is given by 
+"multiplying out" as usual, and discarning all terms proportional to $\epsilon^2$:
+
+$$
+  \left(
+    a_1 + b_1 \epsilon
+  \right)
+  \left(
+    a_2 + b_2 \epsilon
+  \right)
+  \;=\;
+  a_1 a_2 + ( a_1 b_2 + b_1 a_2 ) \epsilon
+  \,.
+$$
+
+
+We may think of an element $a + b \epsilon$ as the truncation to first order
 of a [[Taylor series]] at the origin of a [[smooth function]] on the [[real line]]
 
 $$
@@ -4223,10 +4240,178 @@ $$
   \,.
 $$
 
+Similarly for each $k \in \mathbb{N}$ the algebra
+
+$$
+  (\mathbb{R}[ [ \epsilon ] ])(\epsilon^{k+1})
+$$
+
+may be thought of as the algebra of [[Taylor series]] at the origin of $\mathbb{R}$ of [[smooth functions]] $\mathbb{R} \to \natbb{R}$,
+where all terms of order higher than $k$ are discarded. The corresponding [[infinitesimally thickened point]] is 
+often denoted
+
+$$
+  \mathbb{D}^1(k) \;\coloneqq\; Spec\left(  \left(\mathbb{R}[ [\epsilon] ]\right)/(\epsilon^{k+1}) \right)
+  \,.
+$$ 
+
+This is now the [[subobject]] of the [[real line]] 
+
+$$ 
+  \mathbb{D}^1(k) \overset{\phantom{AAA}}{\hookrightarrow} \mathbb{R}^1
+$$
+
+on those elements $\epsilon$ such that $\epsilon^{k+1} = 0$.
+
 =--
 
-Of course we need to consider infinitesimally thickened spaces more general than
-thickenings of just Cartesian spaces. But just as [[Cartesian spaces]] (def. \ref{CartesianSpacesAndSmoothFunctionsBetweenThem}) serve as the local
+([Kock 81](#synthetic+differential+geometry#Kock81), [Kock 10](synthetic+differential+geometry#Kock10))
+
+
+The following example \ref{UniquePointOfInfinitesimalLine} shows that infinitesimal thickening is invisible for ordinary spaces when 
+mapping _out_ of these. In contrast example \ref{SyntheticTangentVectorFields} further below shows that 
+the morphisms _into_ an ordinary space out of an infinitesimal space are interesting: these are [[tangent vectors]]
+and their higher order infinitesimal analogs.
+
++-- {: .num_example #UniquePointOfInfinitesimalLine}
+###### Example
+**([[infinitesimal]] line $\mathbb{D}^1$ has unique [[global point]])**
+
+For $\mathbb{R}^n$ any ordinary [[Cartesian space]] (def. \ref{CartesianSpacesAndSmoothFunctionsBetweenThem})
+and $D^1(k) \hookrightarrow \mathbb{R}^1$ the order-$k$ [[infinitesimal neighbourhood]] of the 
+origin in the [[real line]] from example \ref{InfinitesimalNeighbourhoodsInTheRealLine},
+there is exactly only one possible morphism of [[infinitesimally thickened smooth manifolds|infinitesimally thickened Cartesian spaces]] from $\mathbb{R}^n$ to $\mathbb{D}^1(k)$:
+
+$$
+  \array{
+    \mathbb{R}^n && \overset{\exists !}{\longrightarrow} &6 \mathbb{D}^1(k)
+    \\
+    & {}_{\mathllap{\exists !}}\searrow && \nearrow_{\mathrlap{\exists !}}
+    \\
+    && \mathbb{R}^0 = \ast
+  }
+  \,.
+$$
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+By definition such a morphism is [[formal duality|dally]] an algebra homomorphism
+
+$$
+  C^\infty(\mathbb{R}^n) \overset{f^\ast}{\longleftarrow} \left(\mathbb{R}[ [\epsilon] ])/(\epsilon^{k+1}) \simeq_{\mathbb{R}} \mathbb{R} \oplus \mathcal{O}(\epsilon)
+$$
+
+from the higher order "[[algebra of dual numbers]]" to the [[algebra of function|algebra of]] [[smooth functions]] (example \ref{AlgebraOfSmoothFunctionsOnCartesianSpaces}).
+
+Now this being an $\mathbb{R}$-algebra homomorphism, its action on the multiples $\mathbb{R}$ of the identity 
+is fixed. All the remaining elements are proportional to $\epsilon$, and hence are nilpotent. 
+However, by the [[homomorphism]] property of an algebra homomorphism it follows that it must send
+nilpotent elements $\epsilon$ to nilpotent elements $f(\epsilon)$, because
+
+$$
+  \begin{aligned}
+    \left(f^\ast(\epsilon)\right)^{k+1} 
+      & = f^\ast\left( \epsilon^{k+1}\right) 
+    \\
+     & = f^\ast(0) 
+     \\ & = 0
+  \end{aligned}
+$$
+
+But the only nilpotent element in $C^\infty(\mathbb{R}^n)$ is the zero element, and hence it follows that 
+
+$$
+  f^\ast(\epsilon) = 0
+  \,.
+$$
+  
+Thus $f^\ast$ as above is uniquely fixed.
+
+=--
+
++-- {: .num_example #SyntheticTangentVectorFields}
+###### Example
+**([[synthetic differential geometry|synthetic]] [[tangent vector fields]])
+
+Let $\mathbb{R}^n$ be a [[Cartesian space]] (def. \ref{CartesianSpacesAndSmoothFunctionsBetweenThem}),
+regarded as an [[infinitesimally thickened smooth manifold|infinitesimally thickened Cartesian space]] (def. \ref{InfinitesimallyThickendSmoothManifold}) and consider $\mathbb{D}^1 \coloneqq Spec( (\mathbb{R}[ [\epsilon] ])/(\epsilon^2) )$
+the first order infinitesimal line from example \ref{InfinitesimalNeighbourhoodsInTheRealLine}.
+
+Then homomorphisms of [[infinitesimally thickened smooth manifold|infinitesimally thickened Cartesian spaces]]
+of the form
+
+$$
+  \array{
+    \mathbb{R}^n \times \mathbb{D}^1 
+      && \overset{\tilde v}{\longrightarrow} &&
+    \mathbb{R}^n
+    \\
+    & {}_{\mathllap{pr_1}}\searrow && \swarrow_{\mathrlap{id}}
+    \\
+    && \mathbb{R}^n
+  }
+$$
+
+hence smooth collections of morphisms
+
+$$
+  \tilde v_x \;\colon\; \mathbb{D}^1 \longrightarrow \mathbb{R}^n
+$$
+
+which send the unique base point $\Re(\mathbb{D}^1) = \ast$ to $x \in \mathbb{R}^n$,
+are in [[natural bijection]] with [[tangent vector fields]]  $v \in \Gamma_{\mathbb{R}^n}(T \mathbb{R}^n)$ (example \ref{TangentVectorFields}).
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+By definition, the morphisms in question are [[formal duality|dually]] $\mathbb{R}$-[[associative algebrs|algebra]] 
+[[homomorphisms]] of the form
+
+$$
+  (C^\infty(\mathbb{R}^n) \oplus \epsilon C^\infty(\mathbb{R}^n))
+  \longleftarrow
+  C^\infty(\mathbb{R}^n)
+$$
+
+which are the identity modulo $\epsilon$. Such a morphism has to take any function $f \in C^\infty(\mathbb{R}^n)$ to
+
+$$
+  f + (\partial f) \epsilon
+$$
+
+for some smooth function $(\partial f) \in C^\infty(\mathbb{R}^n)$. The condition that this assignment makes an algebra homomorphism is equivalent to the statement that for all $f_1,f_2 \in C^\infty(\mathbb{R}^n)$
+
+$$
+  (f_1 f_2 + (\partial (f_1 f_2))\epsilon )
+  =
+  (f_1 + (\partial f_1) \epsilon)
+  (f_2 + (\partial f_2) \epsilon)
+  \,.
+$$
+
+Multiplying this out and using that $\epsilon^2 = 0$ this in turn is equivalent to
+
+$$
+  \partial(f_1 f_2) = (\partial f_1) f_2 + f_1 (\partial f_2)
+  \,.
+$$
+
+This in turn means equivalently that $\partial\colon C^\infty(\mathbb{R}^n)\to C^\infty(\mathbb{R}^n)$ is a [[derivation]]. 
+
+With this the statement follows with the third magic algebraic property of smooth functions (prop. \ref{AlgebraicFactsOfDifferentialGeometry}):
+[[derivations of smooth functions are vector fields]].
+
+=--
+
+We need to consider infinitesimally thickened spaces more general than the 
+thickenings of just Cartesian spaces in def. \ref{InfinitesimallyThickendSmoothManifold}. But just as [[Cartesian spaces]] (def. \ref{CartesianSpacesAndSmoothFunctionsBetweenThem}) serve as the local
 test geometries to induce the general concept of [[diffeological spaces]] and [[smooth sets]] (def. \ref{SmoothSet}),
 so using infinitesimally thickened Cartesian spaces as test geometries immediately induces the corresponding
 generalization of smooth sets with infinitesimals:
@@ -4341,7 +4526,7 @@ $$
 
 is
 
-* for each infinitesimally thickened Cartesian space $\mathbb{R}^n \times Spec(A)$ a function
+* for each [[infinitesimally thickened smooth manifold|infinitesimally thickened Cartesian space]] $\mathbb{R}^n \times Spec(A)$ (def. \ref{InfinitesimallyThickendSmoothManifold}) a function
 
   $$
     f_\ast(\mathbb{R}^n \times Spec(A))
@@ -4376,6 +4561,7 @@ such that
 
 =--
 
+([Dubuc 79](Cahiers+topos#Dubuc79))
 
 Basing [[synthetic differential geometry|infinitesimal geometry]] on [[formal smooth sets]] is an instance of the general approach to [[geometry]] called _[[functorial geometry]]_ or _[[topos theory]]_. For more background on this see at _[[geometry of physics -- manifolds and orbifolds]]_.
 
@@ -4419,7 +4605,7 @@ $$
 $$
 
 which is the identity on all smooth functions $f \in C^\infty(\mathbb{R}^n)$ and is zero on all elements $a \in V \subset A$
-in the nilpotent ideal of $A$.
+in the nilpotent ideal of $A$ (as in example \ref{UniquePointOfInfinitesimalLine}).
 
 Given any [[formal smooth set]] $X$, we say that its _[[infinitesimal shape]]_ or _[[de Rham shape]]_ (also: _[[de Rham stack]]_)
 is the [[formal smooth set]] $\Im X$ (def. \ref{FormalSmoothSet}) defined to have as plots the [[reduction modality|reductions]]
@@ -11975,7 +12161,7 @@ $$
 $$
 
 The [[Chevalley-Eilenberg algebra]] of functions on this [[differential graded manifold]] (eq:CEAlgebra)
-is called the off-shell _[[local BRST complex]]_ ([Barnich-Brandt-Henneaux 94](#BarnichBrandtHenneaux94)).
+is called the off-shell _[[local BRST complex]]_ ([Barnich-Brandt-Henneaux 94](local+BRST+cohomology#BarnichBrandtHenneaux94)).
 
 We may pass from the [[local BRST complex]] on the [[jet bundle]] to the "global" BRST
 complex by [[transgression of variational differential forms]] (def. \ref{TransgressionOfVariationalDifferentialFormsToConfigrationSpaces}):
@@ -13310,7 +13496,7 @@ $$
   \end{aligned}
 $$
 
-([Barnich-Brandt-Henneaux 94, p. 20](#BarnichBrandtHenneaux94))
+([Barnich-Brandt-Henneaux 94, p. 20](local+BRST+cohomology#BarnichBrandtHenneaux94))
 
 
 It may be useful to organize this expression into the $s+d$-[[bicomplex]] like so:
@@ -15702,7 +15888,7 @@ spacetime-dependent [[coupling constant|coupling]] "constant",  and $j_{sw}$ has
 On the other hand, the [[kinetic action|kinetic]] or [[free field]] Lagrangian $L_{free}$, which in the
 axiomatic description of def. \ref{PerturbativeSMatrixOnMinkowskiSpacetime} is implicit in the [[Wick algebra]]
 $\mathcal{W}$ is interpreted as determining the would-be [[Gaussian integral|Gaussian measure]]
-"$e^{\tfrac{1}{i \hbar}\int_X L_{free}(\Phi) }D[\Phi]$" for the [[path integral].
+"$e^{\tfrac{1}{i \hbar}\int_X L_{free}(\Phi) }D[\Phi]$" for the [[path integral]].
 
 Since this [[measure]] does not actually exist, in general (or is not known to exist),
 we may instead think of the axioms for the [[S-matrix]] in def. \ref{PerturbativeSMatrixOnMinkowskiSpacetime} as rigorously _defining_
