@@ -34,7 +34,7 @@ For a stratified space $X$, its **exit path $\infty$-category** is a [[simplicia
 
 $$Exit(X)_p = \hom_{\mathcal{S}trat}(\Delta^p,X)$$
 
-using the above embedding of $\Delta$ into $Strat$.  It is proven in [Ayala-Francis-Rozenblyum](#AFRshh) that this is indeed a [[complete Segal space]].  The main result of that paper is the **stratified homotopy hypothesis**, which is the assertion that this construction defines a fully-faithful embedding $Exit : \mathcal{S}trat \hookrightarrow Cat_\infty$.
+using the above embedding of $\Delta$ into $Strat$.  It is proven in [Ayala-Francis-Rozenblyum](#AFRshh) that this is indeed a [[complete Segal space]].  The main result of that paper is the [[stratified homotopy hypothesis]], which is the assertion that this construction defines a fully-faithful embedding $Exit : \mathcal{S}trat \hookrightarrow Cat_\infty$, and that certain sheaves on  \mathcal{S}trat, known as **striation** sheaves, are equivalent to $(\infty, 1)$-categories.
 
 ## References
 
