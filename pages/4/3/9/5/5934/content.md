@@ -87,4 +87,12 @@ See <a href="http://nlab.mathforge.org/nlab/show/synthetic+differential+infinity
 
 * [[immersion of smooth manifolds|immersion]], [[submersion]]
 
+## References
+
+Discussion in the [[synthetic differential geometry]] of the [[Cahiers topos]] is in 
+
+
+* {#KhavkineSchreiber17} [[Igor Khavkine]], [[Urs Schreiber]], around def. 3.1 of_[[schreiber:Synthetic variational calculus|Synthetic geometry of differential equations: I. Jets and comonad structure]]_ ([arXiv:1701.06238](https://arxiv.org/abs/1701.06238))
+
+
 [[!redirects local diffeomorphisms]]
