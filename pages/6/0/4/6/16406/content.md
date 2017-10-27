@@ -1221,7 +1221,7 @@ This provides all the necessary structure to now set up an axiomatic theory of [
 
 The above formulation of [[V-manifolds]] in [[differential cohesion]] is due to [[schreiber:differential cohomology in a cohesive topos|dcct]] and
 
-* [[Igor Khavkine]], [[Urs Schreiber]], _[[schreiber:Synthetic variational calculus|Synthetic geometry of differential equations: I. Jets and comonad structure]]_ ([arXiv:1701.06238](https://arxiv.org/abs/1701.06238))
+* {#KhavkineSchreiber17} [[Igor Khavkine]], [[Urs Schreiber]], _[[schreiber:Synthetic variational calculus|Synthetic geometry of differential equations: I. Jets and comonad structure]]_ ([arXiv:1701.06238](https://arxiv.org/abs/1701.06238))
 
 and the formalization in [[homotopy type theory]] is in
 
