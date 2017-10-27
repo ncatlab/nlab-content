@@ -104,7 +104,7 @@ Derivations of the MOND phenomenology from actual [[dark matter]] is discussed i
 
 and specifically for [[axion|axionic]] [[fuzzy dark matter]]:
 
-* {#HOTW16} Lam Hui, Jeremiah P. Ostriker, Scott Tremaine, [[Edward Witten]], _On the hypothesis that cosmological dark matter is composed of ultra-light bosons_,  Phys. Rev. D 95, 043541 (2017) ([arXiv:1610.08297](https://arxiv.org/abs/1610.08297))
+* {#HOTW16} [[Lam Hui]], [[Jeremiah Ostriker]], [[Scott Tremaine]], [[Edward Witten]], _On the hypothesis that cosmological dark matter is composed of ultra-light bosons_,  Phys. Rev. D 95, 043541 (2017) ([arXiv:1610.08297](https://arxiv.org/abs/1610.08297))
 
 and for fuzzy dark matter with [[superfluid]]-effects includes in
 
