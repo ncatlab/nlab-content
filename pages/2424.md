@@ -71,9 +71,15 @@ and
 
 * [[string theory]], [[M-theory]]
 
+* [[M-theory on G2-manifolds]]
+
 * [[Gromov-Witten invariants]], [[Rozansky-Witten invariant]]
 
 * [[Seiberg-Witten theory]]
+
+* [[supersymmetric quantum mechanics]]
+
+* [[fuzzy dark matter]]
 
 (...)
 
