@@ -152,7 +152,7 @@ in the general sense of having smooth functions $f \colon \mathbb{R}^n \to X$ ma
 All structure on [[generalized smooth spaces]] $X$ is thereby reduced to _compatible systems_ of structures on just [[Cartesian spaces]],
 one for each smooth "probe" $f\colon \mathbb{R}^n \to X$. This is called "[[functorial geometry]]".
 
-Notice that the popular concept of a _[[smooth manifold]]_, discussed below,
+Notice that the popular concept of a _[[smooth manifold]]_ (def/prop. \ref{SmoothManifoldInsideDiffeologicalSpaces} below)
 is essentially a [[smooth space]] which _locally looks just like_ a [[Cartesian space]],
 in that there exist sufficiently many $f \colon \mathbb{R}^n \to X$ which are ([[open map|open]]) _[[isomorphisms]]_
 onto their [[images]]. Historically it was a long process to arrive at the insight that it is wrong to _fix_
@@ -469,9 +469,9 @@ it. These are called _[[bundles]]_ (def. \ref{BundlesAndFibers}) below.
 For reference, we briefly discuss here the basic concepts related to [[bundles]] in the context of
 [[Cartesian spaces]].
 
-Of course the theory of bundles is mostly trivial over Cartesian spaces,
-and gains its main interest from its generalization to more general [[smooth manifolds]] and [[generalized smooth spaces]].
-It is still worthwhile to consider also this almost trivial case.
+Of course the theory of bundles is mostly trivial over Cartesian spaces;
+it gains its main interest from its generalization to more general [[smooth manifolds]] (def./prop. \ref{SmoothManifoldInsideDiffeologicalSpaces} below).
+It is still worthwhile for our development to first consider the relevant concepts in this simple case first.
 
 For more exposition see at _[[fiber bundles in physics]]_.
 
@@ -882,7 +882,7 @@ than their definition might superficially suggest:
    For $X$ and $Y$ two [[Cartesian spaces]], the [[smooth functions]] $f \colon X \longrightarrow Y$
    between them (def. \ref{CartesianSpacesAndSmoothFunctionsBetweenThem}) are in [[natural bijection]] with their
    induced algebra [[homomorphisms]] $C^\infty(X) \overset{f^\ast}{\longrightarrow} C^\infty(Y)$ (example \ref{AlgebraOfSmoothFunctionsOnCartesianSpaces}), so that
-   one may equivalently handle smooth manifolds entirely via their $\mathbb{R}$-algebras of smooth functions.
+   one may equivalently handle [[Cartesian spaces]] entirely via their $\mathbb{R}$-algebras of smooth functions.
 
    Stated more [[category theory|abstractly]], this means equivalently that the [[functor]] $C^\infty(-)$ that
    sends a [[smooth manifold]] $X$ to its $\mathbb{R}$-[[associative algebra|algebra]]
@@ -918,8 +918,6 @@ than their definition might superficially suggest:
    a [[Cartesian space]] $X$
    are precisely the [[finitely generated module|finitely generated]] [[free modules]] over $C^\infty(X)$.
 
-   > More generally, for $X$ any [[smooth manifold]]: the [[projective modules]].
-
    ([Nestruev 03, theorem 11.32](#Nestruev03))
 
 
@@ -946,6 +944,11 @@ than their definition might superficially suggest:
    (This follows directly from the _[[Hadamard lemma]]_.)
 
 =--
+
+Actually all three statements in prop. \ref{AlgebraicFactsOfDifferentialGeometry}
+hold not just for [[Cartesian spaces]], but generally for [[smooth manifolds]] (def./prop. \ref{SmoothManifoldInsideDiffeologicalSpaces} below; if only we generalize in the second statement from [[free modules]] to [[projective modules]].
+However for our development here it is useful to first focus on just [[Cartesian spaces]] and then bootstrap
+the theory of [[smooth  manifolds]] and much more from that, which we do [below](#FieldBundles).
 
 
 $\,$
@@ -1317,8 +1320,8 @@ $$
 
 =--
 
-Finally we turn to the concept of [[integration of differential forms]]:
-
+Finally we turn to the concept of [[integration of differential forms]] (def. \ref{IntegrationOfDifferentialFormsOverSmoothSingularChainsInCartesianSpaces} below).
+First we need to say what it is that differential forms may be integrated over:
 
 +-- {: .num_defn #SingularSimplicesInCartesianSpaces}
 ###### Definition
@@ -1379,7 +1382,7 @@ is a [[singular chain]] of singular $n$-simplices $\partial \sigma$.
 
 +-- {: .num_defn #IntegrationOfDifferentialFormsOverSmoothSingularChainsInCartesianSpaces}
 ###### Definition
-**([[integration of differential forms]]) over smooth [[singular chains]] in [[Cartesian spaces]])**
+**([[fiber integration|fiber]]-[[integration of differential forms]]) over smooth [[singular chains]] in [[Cartesian spaces]])**
 
 For $n \in \mathbb{N}$ and $\omega \in \Omega^n(\mathbb{R}^n)$ a [[differential n-form]] (def. \ref{DifferentialnForms}),
 which may be written as
@@ -1415,6 +1418,8 @@ $$
   \int_{\Delta^n} (\sigma_i)^\ast \omega
   \,.
 $$
+
+
 
 =--
 
@@ -4475,23 +4480,23 @@ $$
 
 which sends a [[smooth function]] to its value $f(0)$ at zero plus $\epsilon$ times its
 [[derivative]] at zero. Observe that this is indeed a [[homomorphism]] of algebras due to the [[product law]]
-of [[differentiation]], which says that 
+of [[differentiation]], which says that
 
 $$
   \begin{aligned}
     i^\ast(f \cdot g)
-    & = 
+    & =
     (f \cdot g)(0) + \frac{\partial f \cdot g}{\partial x}(0) \epsilon
     \\
     & =
-    f(0) \cdot g(0) 
-      + 
+    f(0) \cdot g(0)
+      +
     \left(
-      \frac{\partial f}{\partial x}(0) \cdot g(0) +  f(0) \cdot \frac{\partial g}{\partial x}(0) 
+      \frac{\partial f}{\partial x}(0) \cdot g(0) +  f(0) \cdot \frac{\partial g}{\partial x}(0)
     \right) \epsilon
     \\
-    & = 
-    \left( 
+    & =
+    \left(
       f(0) + \frac{\partial f}{\partial x}(0) \epsilon
     \right)
     \cdot
@@ -4883,7 +4888,7 @@ $$
 
 Let $X$ be a [[smooth set]] (def. \ref{SmoothSet}).
 Then $X$ becomes a [[formal smooth set]] (def. \ref{FormalSmoothSet}) by declaring the
-set of plots  $X(\mathbb{R}^n \times \mathbb{D})$ over 
+set of plots  $X(\mathbb{R}^n \times \mathbb{D})$ over
 an [[infinitesimally thickened smooth manifold|infinitesimally thickened Cartesian space]] (def. \ref{InfinitesimallyThickendSmoothManifold})
 to be [[equivalence classes]] of [[pairs]]
 $$
@@ -4895,10 +4900,10 @@ $$
 
 of a [[morphism]] of infinitesimally thickened Cartesian spaces and of a plot of $X$, as shown,
 subject to the [[equivalence relation]] which identifies two  such pairs if there exists
-a smooth function $f \colon \mathbb{R}^k \to \mathbb{R}^{k'}$ such that 
+a smooth function $f \colon \mathbb{R}^k \to \mathbb{R}^{k'}$ such that
 
 $$
-  \array{  
+  \array{
     && \mathbb{R}^n \times \mathbb{D}
     \\
     & \swarrow && \searrow
@@ -5143,8 +5148,13 @@ is the set of section of $E$ restricted to the [[infinitesimal neighbourhood]] $
 
 =--
 
-We close the discussion of infinitesimal geometry by explaining how we may recover the concept of [[smooth manifolds]] inside the much more general [[formal smooth sets]].
+$\,$
 
+We close the discussion of [[synthetic differential geometry|infinitesimal differential geometry]] by explaining how we may recover the concept of _[[smooth manifolds]]_ inside the more general [[formal smooth sets]] (def./prop. \ref{SmoothManifoldInsideDiffeologicalSpaces} below).
+The key point is that the presence of [[infinitesimals]] in the theory allows an intrinsic definition of
+[[local diffeomorphisms]]/[[formally étale morphism]] (def. \ref{FormalSmoothSetLocalDiffeomorphism} and example \ref{AbstractLocalDiffeomorphismsOfCartesianSpaces} below). It is noteworthy that only role this concept plays in our development
+of [[field theory]] is that [[mooth manifolds]] admit [[triangulations]] by smooth [[singular simplices]] (def. \ref{SingularSimplicesInCartesianSpaces})
+so that the concept of [[fiber integration|fiber]] [[integration of differential forms]] spring
 
 +-- {: .num_defn #FormalSmoothSetLocalDiffeomorphism}
 ###### Definition
@@ -5157,7 +5167,7 @@ $$
   \,,
 $$
 
-if $f$ if for each [[infinitesimally thickened smooth manifold|infinitesimally thickened Cartesian space]] (def. \ref{InfinitesimallyThickendSmoothManifold}) $\mathbb{R}^n \times \mathbb{D}$ we have a natural identification between the $\mathbb{R}^n \times \mathbb{D}$-plots of $X$ with those $\mathbb{R}^n n\times \mathbb{D}$-plots of $Y$ whose [[reduction modality|reduction]] (def. \ref{ReductionAndInfinitesimalShape}) comes from an $\mathbb{R}^n$-plot of $X$, hence if we have a [[natural transformation|natural]] [[fiber product]] of [[sets]] of [[plots]]
+if $f$ if for each [[infinitesimally thickened smooth manifold|infinitesimally thickened Cartesian space]] (def. \ref{InfinitesimallyThickendSmoothManifold}) $\mathbb{R}^n \times \mathbb{D}$ we have a natural identification between the $\mathbb{R}^n \times \mathbb{D}$-plots of $X$ with those $\mathbb{R}^n n\times \mathbb{D}$-plots of $Y$ whose [[reduction modality|reduction]] (def. \ref{ReductionAndInfinitesimalShape}) comes from an $\mathbb{R}^n$-plot of $X$, hence if we have a [[natural transformation|natural]] [[fiber product]] of [[sets]] of plots
 
 $$
   X(\mathbb{R}^n \times \mathbb{D})
@@ -5200,7 +5210,7 @@ $$
 ([Khavkine-Schreiber 17, def. 3.1](local+diffeomorphism#KhavkineSchreiber17))
 
 
-+-- {: .num_example}
++-- {: .num_example #AbstractLocalDiffeomorphismsOfCartesianSpaces}
 ###### Example
 **([[local diffeomorphism]] between [[Cartesian spaces]] from the general definition)**
 
@@ -5216,28 +5226,30 @@ precisely if it is so in the ordinary sense of def. \ref{LocalDiffeomorphismBetw
 
 +-- {: .num_defn #SmoothManifoldInsideDiffeologicalSpaces}
 ###### Definition/Proposition
-**([[smooth manifold]])**
+**([[smooth manifolds]])**
 
 A _[[smooth manifold]]_ $X$ of [[dimension]] $n \in \mathbb{N}$ is
 
 * a [[diffeological space]] (def. \ref{DiffeologicalSpace})
 
-such that 
+such that
 
 1. there exists an [[indexed set]] $\{ \mathbb{R}^n \overset{\phi_i}{\to} X\}_{i \in I}$
-   of morphisms of [[formal smooth sets]] (via example \ref{SmoothManifoldsAreDiffeologicalSpaces}, 
-   example \ref{SmoothSetsDiffeologicalSpaces} and example \ref{FormalSmoothSetsIncludedSmoothSet})
-   such that 
-   
+   of morphisms of [[formal smooth sets]] (def. \ref{FormalSmoothSet}) from [[Cartesian spaces]] $\mathbb{R}^n$ (def. \ref{CartesianSpacesAndSmoothFunctionsBetweenThem}) (regarded as [[formal smooth sets]] via example \ref{SmoothManifoldsAreDiffeologicalSpaces}, example \ref{SmoothSetsDiffeologicalSpaces} and example \ref{FormalSmoothSetsIncludedSmoothSet})
+   into $X$, (regarded as a [[formal smooth set]] via example \ref{SmoothSetsDiffeologicalSpaces} and example \ref{FormalSmoothSetsIncludedSmoothSet})
+   such that
+
    1. every point $x \in X_s$ is in the [[image]] of at least one of the $\phi_i$;
-   
+
    1. every $\phi_i$ is a [[local diffeomorphism]] according to def. \ref{FormalSmoothSetLocalDiffeomorphism};
-   
+
 1. the [[final topology]] induced by the set of plots of $X$ makes $X_s$ a [[paracompact Hausdorff space]].
 
 =--
 
-For more on this see at _[[geometry of physics -- manifolds and orbifolds]]_.
+([Khavkine-Schreiber 17, example 3.4](geometry+of+physics+--+manifolds+and+orbifolds#KhavkineSchreiber17))
+
+For more on [[smooth manifolds]] from the perspective of [[formal smooth sets]] see at _[[geometry of physics -- manifolds and orbifolds]]_.
 
 
 $\,$
