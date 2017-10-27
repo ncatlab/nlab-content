@@ -15,8 +15,7 @@
 
 ## Idea
 
-A **structural set theory** is a [[set theory]] which describes [[structuralism|structural]] mathematics, and *only* [[structuralism|structural]] mathematics: Sets are conceived as [[objects]] that may have [[functions]] between them, and that characterizes them. Or stated more formally: Sets are characterized by the [[category]] ("[[Set]]") which they form ([Lawvere 65](#Lawvere65)).
-This is what essentially all the application of [[set theory]] in the practice of [[mathematics]] actually uses -- a point amplified by the approach of the introductory textbook [Lawvere-Rosebrugh 03](#LawvereRosebrugh03). 
+A **structural set theory** is a [[set theory]] which describes [[structuralism|structural]] mathematics, and *only* [[structuralism|structural]] mathematics: Sets are conceived as [[objects]] that have [[elements]], and are related to each other by [[functions]] or [[relations]].  In the most common structural set theories such as [[ETCS]], sets are characterized by the functions between them, i.e. by the [[category]] ("[[Set]]") which they form ([Lawvere 65](#Lawvere65)).  This is what essentially all the application of [[set theory]] in the practice of [[mathematics]] actually uses -- a point amplified by the approach of the introductory textbook [Lawvere-Rosebrugh 03](#LawvereRosebrugh03). 
 
 This is in contrast to traditional [[ZFC|Zermolo-Fraenkel]]-style "[[material set theory]]"  where a global set-membership relation "$\in$" forces to think of all elements of sets as sets themselves, hence of sets-of-sets-of-sets-..., a feature that is almost never actually used or even considered in [[mathematics]], away from the study of [[material set theory]] itself.
 
