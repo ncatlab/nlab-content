@@ -297,11 +297,11 @@ For any [[topological vertex algebra]] $A$ with $\mathbb{N}$-graded conformal we
 
 The above material probably roughly follows the talk slides
 
-* [[Bruno Valette]], _Homotopy Batalin-Vilkovisky algebra_ ([pdf](http://math.unice.fr/~brunov/download/Homotopy%20BV.pdf))
+* [[Bruno Vallette]], _Homotopy Batalin-Vilkovisky algebras_ (dead link))
 
 The corresponding article is
 
-* [[Imma Galvez-Carrillo]], [[Andy Tonks]], [[Bruno Valette]], _Homotopy Batalin-Vilkovisky algebras_ ([arXiv:0907.2246](http://arxiv.org/abs/0907.2246))
+* [[Imma Galvez-Carrillo]], [[Andy Tonks]], [[Bruno Vallette]], _Homotopy Batalin-Vilkovisky algebras_ ([arXiv:0907.2246](http://arxiv.org/abs/0907.2246))
 
 See also 
 
