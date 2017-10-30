@@ -58,6 +58,8 @@ Based on [St&#252;ckelberg-Peterman-53](#StueckelbergPeterman53), [Bogoliubov-Sh
 See at _[[causal perturbation theory]]_ 
 and _[[locally covariant perturbative quantum field theory]]_.
 
+[[!include Feynman diagrams in causal perturbation theory -- summary]]
+
 #### Main theorem of perturbative renormalization
 
 * [[main theorem of perturbative renormalization theory]]
