@@ -233,6 +233,7 @@ $$
 
 * _[[Stokes theorem]]_
 
+* [[kernel of integration is the exact differential forms]]
 
 ## Related concepts
 
