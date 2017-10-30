@@ -86,7 +86,7 @@ This procedure justifies itself mainly through the remarkable fact that the numb
 
 The combinatorial Hopf algebraic approach to perturbative quantum field theory, see for instance
 
-* Hector Figueroa, Jose M. Gracia-Bondia, _Combinatorial Hopf algebras in quantum field theory I_ ([arXiv](http://arxiv.org/abs/hep-th/0408145)),
+* Hector Figueroa, [[Jose Gracia-Bondia]], _Combinatorial Hopf algebras in quantum field theory I_ ([arXiv](http://arxiv.org/abs/hep-th/0408145)),
 
 starts with the observation that the BPHZ-procedure can be understood 
 
@@ -641,7 +641,7 @@ Little advancement happened until the identification of [[Hopf algebra]] structu
 
 This finally triggered the formulation of [[causal perturbation theory]] in terms of [[Feynman diagrams]] in
 
-* {#GarciaBondiaLazzarini00} J.M. Gracia-Bondia, S. Lazzarini, _Connes-Kreimer-Epstein-Glaser Renormalization_ ([arXiv:hep-th/0006106](https://arxiv.org/abs/hep-th/0006106))
+* {#GarciaBondiaLazzarini00} [[Jose Gracia-Bondia]], S. Lazzarini, _Connes-Kreimer-Epstein-Glaser Renormalization_ ([arXiv:hep-th/0006106](https://arxiv.org/abs/hep-th/0006106))
 
 * {#Keller10} [[Kai Keller]], chapter IV of _Dimensional Regularization in Position Space and a Forest Formula for Regularized Epstein-Glaser Renormalization_, PhD thesis ([arXxiv:1006.2148](https://arxiv.org/abs/1006.2148))
 
