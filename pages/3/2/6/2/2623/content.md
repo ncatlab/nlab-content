@@ -681,15 +681,18 @@ In [[causal perturbation theory]]
 
 * {#EpsteinGlaser73} [[Henri Epstein]], [[Vladimir Glaser]], _[[The Role of locality in perturbation theory]]_, Annales Poincar&#233; Phys. Theor. A 19 (1973) 211.
 
-Exposition includes
 
-* [[Arnold Neumaier]], _Renormalization without infinities -- a tutorial_ ([pdf](http://www.mat.univie.ac.at/~neum/ms/ren.pdf))
-
-A discussion of Epstein-Glate renormalization in the context of [[locally covariant perturbative quantum field theory]] is in 
+Discussion in th context of [[locally covariant perturbative quantum field theory]] is in 
 
 * {#BrunettiFredenhagen99} [[Romeo Brunetti]], [[Klaus Fredenhagen]], _Microlocal Analysis and Interacting Quantum Field Theories: Renormalization on Physical Backgrounds_  Commun.Math.Phys.208:623-661 (2000) ([arXiv](http://arxiv.org/abs/math-ph/9903028))
 
 * [[Romeo Brunetti]], [[Michael Dütsch]], [[Klaus Fredenhagen]], _Perturbative Algebraic Quantum Field Theory and the Renormalization Groups_ Adv. Theor. Math. Physics 13 (2009), 1541-1599 ([arXiv:0901.2038](http://arxiv.org/abs/0901.2038))
+
+Exposition includes
+
+* [[Arnold Neumaier]], _Renormalization without infinities -- a tutorial_ ([pdf](http://www.mat.univie.ac.at/~neum/ms/ren.pdf))
+
+* {#Brouder10} [[Christian Brouder]], _Multiplication of distributions_, 2010 ([[BrouderProductOfDistributions.pdf:file]])
 
 For more see at _[perturbation theory -- In AQFT](perturbation+theory#ReferencesInAQFT)_.
 
