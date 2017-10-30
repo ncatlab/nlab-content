@@ -12,10 +12,12 @@ Our seminar follows mostly Goerss-Jardine (GJ)
 
 4. [n-groupoid objects in a category with topology] (https://arxiv.org/pdf/0801.2057.pdf) section 1, 2.1, 2.2
 
-5. simplicial homotopy group (GJ I.7)
+5. simplicial homotopy group (GJ I.7) Laura 2 (but maybe we need more people, it's a long chapter)
 
 6. Category of fibrant objects (GJ I.9 + factorization Lemma) Dennis
 
 7. [Category of fibrant objects for n-groupoids with topology](https://arxiv.org/abs/1609.01394) Chenchang
 
-8. Dold-Kan (GJ III.2)
+8. Dold-Kan (GJ III.2) Madleine
+
+9. Lie n-algebroids Malte
