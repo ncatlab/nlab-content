@@ -159,6 +159,9 @@ The inconsistency of this product is detected by the [[wave front sets]] as foll
 
 * [[Michael Oberguggenberger]], _Multiplication of Distributions and Applications to Partial Differential Equations_, Longman 1992
 
+Slides with exposition of the role of multiplication of distributions in [[renormalization]] of [[Feynman diagrams]] via [[causal perturbation theory]]/[[perturbative AQFT]]:
+
+* [[Christian Brouder]], _Multiplication of distributions_, 2010 ([pdf](http://www-ext.impmc.upmc.fr/~brouder/Potsdam-ChB-10.pdf))
 
 
 [[!redirects products of distributions]]
