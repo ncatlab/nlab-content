@@ -320,7 +320,7 @@ $$
 
 An **elementary homotopical datum** on $PSh(A)$ is a functorial cylinder $J$, def. \ref{FunctorialCylinder}, such that 
 
-1. the functor $I \otimes (-)$ commutes with small [[colimits]];
+1. the functor $I \otimes (-)$ commutes with small [[colimits]] and preserves monomorphisms;
 
 1. for all [[monomorphisms]] $f : K \to L$ the [[diagrams]]
 
