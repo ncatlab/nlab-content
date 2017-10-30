@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -13,11 +24,11 @@ The [[quotient]] of the vector space of closed differential forms by the exact d
 
 Formalization of closed and co-exact differential forms in [[cohesive homotopy theory]] is discussed at _[[differential cohomology hexagon]]_.
 
-## Related concepts
+## Properties
 
-*  [[Stokes theorem]]
+* [[Stokes theorem]]
 
-* [[exact differential form]]
+* [[kernel of integration is the exact differential forms]]
 
 [[!redirects closed differential forms]]
 
