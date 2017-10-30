@@ -28,6 +28,8 @@ or similar
 
 ## Related entries
 
+* [[categorical model of dependent types]]
+
 * [[cofibration category]]
 
 [[!redirects fibration categories]]
