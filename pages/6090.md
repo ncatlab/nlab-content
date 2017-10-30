@@ -2599,6 +2599,8 @@ which yield in total the sum over all diagrams with $v+1$ vertices.
 
 =--
 
+[[!include Feynman diagrams in causal perturbation theory -- summary]]
+
 
 +-- {: .num_remark}
 ###### Remark
