@@ -19,12 +19,12 @@
 
 ## Idea
 
-An **arithmetic pretopos** is a [[pretopos]] $C$ with a _parameterized [[natural numbers object]]_. A **list-arithmetic pretopos** is a pretopos with all _parameterized list objects_ ([Maietti 10, 2.6](#Maiett10)).
+An **arithmetic pretopos** is a [[pretopos]] $C$ with a _parameterized [[natural numbers object]]_. A **list-arithmetic pretopos** is a pretopos with all _parameterized list objects_ ([Maietti 10, 2.6](#Maietti10)).
 
 Using the (equivalent) definition given in [Cockett 1990](#Cockett90), a **parameterized list object** is a [[W-type]] for the [[polynomial functor]] $B+ A\times(-)\colon C\to C$. This definition makes sense since a pretopos has [[finite products]] and [[disjoint coproducts]] (here denoted "$+$").
 
 
-Discussion via its [[internal language]], which is a [[dependent type theory]]... ([Maietti 05](#Maietti05), [Maietti 10, p.6](#Maiett10)).
+Discussion via its [[internal language]], which is a [[dependent type theory]]... ([Maietti 05](#Maietti05), [Maietti 10, p.6](#Maietti10)).
 
 Maietti ([05](#Maetti05),[10](#Maetti10)) proposed that list-arithmetic pretoposes serve as the **arithmetic universes** that [[André Joyal]] (cf. [Joyal 05](#Joyal05)) once suggested to use for discussion of [[incompleteness theorems]]; they are used directly as the definition of arithmetic universes e.g. in ([Maietti-Vickers 2012](#MaiettiVickers12)).
 
