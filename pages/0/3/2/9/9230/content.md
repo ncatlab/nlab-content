@@ -315,7 +315,12 @@ parts of which also appears as
 * {#DuetschFredenhagenKellerRejzner14} [[Michael Dütsch]], [[Klaus Fredenhagen]], [[Kai Keller]], [[Katarzyna Rejzner]], _Dimensional Regularization in Position Space, and a Forest Formula for Epstein-Glaser Renormalization_, J. Math. Phy.
 55(12), 122303 (2014) ([arXiv:1311.5424](https://arxiv.org/abs/1311.5424))
 
-Relation to Kreimer's [[Hopf algebra]] structure on Feynman diagrams is discussed in
+An exposition of this is in 
+
+* {#Brouder10} [[Christian Brouder]], _Multiplication of distributions_, 2010 ([[BrouderProductOfDistributions.pdf:file]])
+
+
+Relation to the [[Hopf algebra]] structure on Feynman diagrams due to [Kreimer 97](renormalization#Kreimer97) is discussed in
 
 * J.M. Gracia-Bondia, S. Lazzarini, _Connes-Kreimer-Epstein-Glaser Renormalization_ ([arXiv:hep-th/0006106](https://arxiv.org/abs/hep-th/0006106))
 
