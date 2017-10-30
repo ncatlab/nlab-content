@@ -46,6 +46,10 @@ The term "anti-modal type" appears in
 [[!redirects anti modal type]]
 [[!redirects anti modal types]]
 
+[[!redirects antimodal type]]
+[[!redirects antimodal types]]
+
+
 [[!redirects comodal type]]
 [[!redirects comodal types]]
 [[!redirects co-modal type]]
