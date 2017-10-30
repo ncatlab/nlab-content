@@ -11,5 +11,7 @@
 
 * [[renormalization]]
 
+* [[Feynman diagrams in causal perturbation theory -- summary]]
+
 
 category: people
