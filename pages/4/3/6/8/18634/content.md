@@ -7,6 +7,10 @@
 
 * [[geometric quantization of symplectic groupoids]]
 
+* [[renormalization]]
+
+* [[Feynman diagram]
+
 
 
 category: people
