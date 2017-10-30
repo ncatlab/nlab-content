@@ -238,6 +238,11 @@ Discussion in terms of the [[Heisenberg group]] in [[2-plectic geometry]] is in
 * {#Ibort} Alberto Ibort, _Multisymplectic geometry: generic and exceptional_, _[Proceedings of the IX Fall workshop on geometry and physics](http://rsme.es/public/publi3.htm)_ ([[IbortMultisymplectic.pdf:file]])
  
 
+A description of the root space decomposition of the [[Lie algebra]] $\mathfrak{g}_2$ is in
+
+* {#Basak17} Tathagata Basak, _Root space decomposition of $\mathfrak{g}_2$ from octonions_, arXiv:[1708.02367](https://arxiv.org/abs/1708.02367)
+
+
 
 Cohomological properties are discussed in 
 
