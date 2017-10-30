@@ -220,7 +220,7 @@ of [[natural numbers]] $\alpha \in \mathbb{N}^n$ and denoted
 
 $$
   \frac{
-    \partial^{\vert k\vert} f
+    \partial^{\vert \alpha \vert} f
   }{
     \partial^{\alpha_1} x^1
     \partial^{\alpha_2} x^2
@@ -247,7 +247,7 @@ $$
     \\
     \mathbb{R}^{n_1}
       && \underset{g \circ f}{\longrightarrow} &&
-    \mathbb{R}^{n_2}
+    \mathbb{R}^{n_3}
   }
   \,.
 $$
@@ -277,7 +277,7 @@ are [[smooth functions]] (def. \ref{CartesianSpacesAndSmoothFunctionsBetweenThem
 For
 
 $$
-  f \colon X^{n_1} \longrightarrow \mathbb{R}^{n_2}
+  f \colon \mathbb{R}^{n_1} \longrightarrow \mathbb{R}^{n_2}
 $$
 
 any [[smooth function]] and $a \in \{1, 2, \cdots, n_2\}$
@@ -309,7 +309,7 @@ $$
   Hom_{CartSp}(\mathbb{R}^n, \mathbb{R})
 $$
 
-of [[real number]]-valued [[smooth functions]] $f \colon \mathbb{R}^n \to \mathbb{n}$
+of [[real number]]-valued [[smooth functions]] $f \colon \mathbb{R}^n \to \mathbb{R}$
 on the $n$-dimensional [[Cartesian space]] (def. \ref{CartesianSpacesAndSmoothFunctionsBetweenThem})
 becomes a [[commutative algebra|commutative]] [[associative algebra]] over the [[ring]] of [[real numbers]]
 by pointwise addition and multiplication in $\mathbb{R}$: for $f,g \in C^\infty(\mathbb{R}^n)$ and $x \in \mathbb{R}^n$
@@ -331,7 +331,7 @@ We call this the _[[real numbers|real]] [[algebra of functions|algebra of]] [[sm
 $$
   C^\infty(\mathbb{R}^n)
   \;\in\;
-  \mathbb{R} CAlg
+  \mathbb{R} Alg
   \,.
 $$
 
@@ -348,7 +348,7 @@ $$
   \array{
     C^\infty(\mathbb{R}^{n_2})
       &\overset{f^\ast}{\longrightarrow}&
-    C^\infty8\mathbb{R}^{n_1})
+    C^\infty(\mathbb{R}^{n_1})
     \\
     g &\mapsto& f^\ast g \coloneqq g \circ f
   }
@@ -453,7 +453,7 @@ satisfy:
 
 The inclined reader may notice that the concept of [[differentiably good open covers]] from def. \ref{DifferentiablyGoodOpenCover}
 is a _[[coverage]]_ on the [[category]] _[[CartSp]]_ of [[Cartesian spaces]] with [[smooth functions]] between them, making it a
-_[[site]]_, but the reader not so inclined my ignore this.
+_[[site]]_, but the reader not so inclined may ignore this.
 
 $\,$
 
@@ -1425,10 +1425,10 @@ $$
   \int_C \;\colon\; \Omega^{\bullet + dim(C)}(U \times C) \longrightarrow \Omega^\bullet(U)
 $$
 
-which on differential forms of the form $\omega_U \wedge \omega$ is given by 
+which on differential forms of the form $\omega_U \wedge \omega$ is given by
 
 $$
-  \int_C \omega_U \wedge \omega  
+  \int_C \omega_U \wedge \omega
    \;\coloneqq\;
   (-1)^{\vert \omega_U\vert} \int_C \omega
   \,.
@@ -15171,7 +15171,8 @@ $$
   E(\vec k) \coloneqq \sqrt{\vec k^2 + m^2}
 $$
 
-and where in the last expression the integral is to be understood as the weak limit of integrals up to ${\vert \vec k\vert}$ as ${\vert k \vert} \to \infty$ ([Scharf 95 (2.3.8)](#Scharf95)).
+and where in the last expression the integral is to be understood as the weak limit of integrals up to ${\vert \vec k\vert}$ as ${\vert k \vert}
+ \to \infty$ ([Scharf 95 (2.3.8)](#Scharf95)).
 
 The last expression may be computed to be equal to
 
