@@ -1,4 +1,4 @@
-Minimal logic, introduced by I. Johansson in 1936, is [[intuitionistic logic]] without the _ex falso quodlibet_ rule $\bot \vdash A$.  It may also be defined by starting with Gentzen\'s [[sequent calculus]] for [[classical logic]] (with $\neg$ but not $\bot$) and restricting to sequents $\Gamma \vdash \Delta$ where $\Delta$ must contain *exactly one* formula.
+Minimal logic, introduced by I. Johansson in 1936, is [[intuitionistic logic]] without the _ex falso quodlibet_ rule $\bot \vdash A$.  It may also be defined by starting with Gentzen\'s [[sequent calculus]] for [[classical logic]] with $\bot$ but not $\neg$, and restricting to sequents $\Gamma \vdash \Delta$ where $\Delta$ must contain *exactly one* formula. The same is not true if you start with Gentzen\'s sequent calculus with $\neg$ but not $\bot$; for example, the sequent $ p, \neg p \vdash \neg q$ is valid in minimal logic, but it is not derivable in that sequent calculus if each succedent is required to consist of exactly one formula.
 
 Because it is not the case here that
 anything follows from a contradiction, minimal logic is a
