@@ -161,7 +161,7 @@ The inconsistency of this product is detected by the [[wave front sets]] as foll
 
 Slides with exposition of the role of multiplication of distributions in [[renormalization]] of [[Feynman diagrams]] via [[causal perturbation theory]]/[[perturbative AQFT]]:
 
-* [[Christian Brouder]], _Multiplication of distributions_, 2010 ([pdf](http://www-ext.impmc.upmc.fr/~brouder/Potsdam-ChB-10.pdf))
+* {#Brouder10} [[Christian Brouder]], _Multiplication of distributions_, 2010 ([[BrouderProductOfDistributions.pdf:file]])
 
 
 [[!redirects products of distributions]]
