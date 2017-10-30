@@ -22,18 +22,18 @@
 
 ## Idea
 
-A _dualizing object_ $D$ in a [[closed category]] $\mathcal{D}$ is an [[object]] such that the [[internal hom]] $[-,D] \colon \mathcal{C} \to \mathcal{C}^{op}$ into it serves as an [[involution|involutive]] [[duality]] operation on $\mathcal{C}$ in that applying it twice yields an [[equivalence of categories]] $[[-,D],D] \colon \mathcal{C} \to \mathcal{C}$.
+A _dualizing object_ $D$ in a [[closed category]] $\mathcal{D}$ is an [[object]] such that the [[internal hom]] $[-,D] \colon \mathcal{C} \to \mathcal{C}^{op}$ into it serves as an [[involution|involutive]] [[duality]] operation on $\mathcal{C}$ or at least on a suitable [[full subcategory]] $\mathcal{C}'\hookrightarrow \mathcal{C},$ in that applying it twice yields an [[equivalence of categories]] $[[-,D],D] \colon \mathcal{C}' \to \mathcal{C}'$.
 
-Typically one assumes $\mathcal{C}$ to be a [[symmetric monoidal closed category]] and requires that the [[adjunct]] of the [[evaluation map]] (the [[unit of a monad|unit]] of the [[continuation monad]] of $D$) provides a [[natural equivalence]] 
+Typically one assumes $\mathcal{C}$ to be a [[symmetric monoidal closed category]] and requires that the [[adjunct]] of the [[evaluation map]] (the [[unit of a monad|unit]] of the [[continuation monad]] of $D$) provides a [[natural equivalence]], at least on the given subcategory $\mathcal{C}'$:
 
 $$
   id_{\mathcal{C}} \stackrel{\simeq}{\longrightarrow} [[-,D],D]
   \,.
 $$
 
-Note that a [[star-autonomous category]] is by definition a symmetric monoidal closed category equipped with such a dualizing object $D$.
+A _[[star-autonomous category]]_ is by definition a symmetric monoidal closed category equipped with such a dualizing object $D$ satisfying this condition globally (i.e. for $\mathcal{C}' = \mathcal{C}$).
 
-More specifically in [[homological algebra]] and [[stable homotopy theory]] there are typically also certain [[finite object|finiteness conditions]] imposed on a dualizing object $D$ and one speaks of specifically of _[[dualizing modules]]_ (See for instance ([Heard Stojanoska 14, def. 3.1](#HeardStojanoska14) and [[Representability Theorems|Lurie, section 4.2]]). 
+In [[stable homotopy theory]] the subcategory in question is typically that of [[homotopy types with finite homotopy groups]] (e.g. for [[Anderson duality]]). Specifically in [[homological algebra]] one speaks also of _[[dualizing modules]]_. (See for instance ([Heard-Stojanoska 14, def. 3.1](#HeardStojanoska14) and [[Representability Theorems|Lurie, section 4.2]]).) 
 
 Notably in a [[Grothendieck-Verdier context]] $(f^\ast \dashv f_\ast)$, $(f_! \dashv f^!)$ of [[six operations]] the functor $f^!$ typically preserves dualizing objects in this sense, which is a crucial ingredient of [[Verdier duality]]. 
 
