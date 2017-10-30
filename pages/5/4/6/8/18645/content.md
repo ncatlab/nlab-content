@@ -1477,7 +1477,6 @@ $$
 
 
 
-
 $\,$
 
 
@@ -10756,6 +10755,16 @@ and specifically the _[[covariant phase space]]_, to amplify that it does not ac
 
 $\,$
 
+* _[Presymplectic phase space](#PreymplecticPhaseSpace)_
+
+* _[Hamiltonian local observables](#HamiltonianLocalObservablesOnACauchySurface)_
+
+* _[BV-Resolution of the covariant phase space](#BVResolutionOfTheCovariantPhaseSpace)_
+
+$\,$
+
+**Presymplectic phase space**
+ {#PreymplecticPhaseSpace}
 
 +-- {: .num_defn #CauchySurface}
 ###### Definition
@@ -10900,6 +10909,7 @@ are compatible with these isomorphisms, so that all phase spaces are in fact iso
 [[presymplectic smooth spaces]]. The following proposition says that this is the case.
 Therefore one speaks of the _[[covariant phase space]]_ of a [[Lagrangian field theory]]:
 
+
 +-- {: .num_prop #CovariantPhaseSpace}
 ###### Proposition
 **([[covariant phase space]])**
@@ -11010,13 +11020,20 @@ $$
     \,.
   \end{aligned}
 $$
-
-
-
-
-
-
 =--
+
+
+$\,$
+
+**Hamiltonian local observables**
+ {#HamiltonianLocalObservablesOnACauchySurface}
+
+To each choice of [[Cauchy surface]] is associated a subset of [[local observables]],
+the _Hamiltonian local observables_ (def. \ref{HamiltonianLocalObservables} below)
+to which the [[Poisson bracket Lie n-algebra|local Poisson bracket]] (prop. \ref{LocalPoissonBracket}) transgresses directly (def. \ref{PoissonBracketOnHamiltonianLocalObservables} below).
+
+
+
 
 
 +-- {: .num_defn #HamiltonianLocalObservables}
@@ -11140,8 +11157,8 @@ $$
   \,,
 $$
 
-where on the right we have the transgression of the Poisson bracket of Hamiltonian forms
-on the jet bundle.
+where on the right we have the transgression of the [[Poisson bracket Lie n-algebra|local Poisson bracket]] 
+of [[Hamiltonian differental forms]] on the [[jet bundle]] from prop. \ref{LocalPoissonBracket}.
 
 =--
 
@@ -11153,13 +11170,15 @@ in that it does not depend on the choice of Hamiltonian form $(H_i, v_i)$
 representing the local Hamiltonian observable $\tau_{\Sigma_p}(H_i)$.
 
 It is clear that all the transgressions involved depend only on the restriction
-of the Hamiltonian forms to the pullback of the jet bundle to $N_\Sigma \Sigma_p$.
+of the Hamiltonian forms to the pullback of the jet bundle to 
+the [[infinitesimal neighbourhood]] $N_\Sigma \Sigma_p$.
 Moreover the Poisson bracket on the jet bundle (eq:LocalPoissonLieBracket)
 respects this restriction.
 
-Now after this restriction, a Hamiltonian form is in the [[kernel]] of the transgression
+Now after this restriction, the fact that [[the kernel of integration is the exact differential forms]] 
+it follows that a Hamiltonian differential form is in the [[kernel]] of the transgression map
 relative to $\Sigma_p$ precisely if it is horizontally exact. Therefore the claim
-follows with the statement that horizontally exact forms constitute a
+now follows with the statement that horizontally exact forms constitute a
 Lie ideal for the Poisson bracket on the jet bundle (lemma \ref{HorizontallyExactFormsDropOutOfLocalLieBracket}).
 
 =--
@@ -11564,6 +11583,13 @@ $$
 
 =--
 
+
+
+
+$\,$
+
+**BV-resolution of the covariant phase space**
+ {#BVResolutionOfTheCovariantPhaseSpace}
 
 So far we have discussed the [[covariant phase space]] (prop. \ref{CovariantPhaseSpace}) in terms of
 explicit restriction to the [[shell]].  We now turn to the more flexible perspective where
@@ -16293,7 +16319,7 @@ and their induced reverse-causal factorization (prop. \ref{ReverseCausalFactoriz
 
 The axioms we consider here are just the bare minimum of [[causal perturbation theory]], sufficient to
 imply that the induced perturbative [[quantum observables]]
-organize into a [[causally local net of quantum observables]] (discussed [below](spring#CausalLocality)).
+organize into a [[causally local net of quantum observables]] (discussed [below](#QuantumObservables)).
 
 In applications one considers further axioms, in particular compatibility of the S-matrix with
 [[spacetime]] [[symmetry]]. This is needed for the proof of the [[main theorem of perturbative renormalization]]
