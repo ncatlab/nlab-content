@@ -252,7 +252,7 @@ $$
 
 Let $(X,g)$ be a [[time orientation|time oriented]] [[globally hyperbolic spacetime]].
 
-A _Hadamard 2-point function_ or _Hadamard distribution_ for the [[free field|free]] [[scalar field]] on $(X,g)$ is a [[distribution]] 
+A _Hadamard 2-point function_ or _Hadamard distribution_ for the [[free field|free]] [[scalar field]] on $(X,g)$ is a [[distribution of two variables]] 
 
 $$
   \omega \in \mathcal{D}'(X \times X)
