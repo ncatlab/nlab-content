@@ -554,5 +554,13 @@ See also the remarks at the beginning of section 5.3 of
 [[!redirects ind-completion]]
 [[!redirects ind-cocompletion]]
 
+[[!redirects Ind-objects]]
+[[!redirects Ind object]]
+[[!redirects Ind-completion]]
+[[!redirects Ind-cocompletion]]
+
 [[!redirects category of ind-objects]]
 [[!redirects categories of ind-objects]]
+
+[[!redirects category of Ind-objects]]
+[[!redirects categories of Ind-objects]]
