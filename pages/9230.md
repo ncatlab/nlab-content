@@ -324,7 +324,7 @@ An exposition of this is in
 
 Relation to the [[Hopf algebra]] structure on Feynman diagrams due to [Kreimer 97](renormalization#Kreimer97) is discussed in
 
-* J.M. Gracia-Bondia, S. Lazzarini, _Connes-Kreimer-Epstein-Glaser Renormalization_ ([arXiv:hep-th/0006106](https://arxiv.org/abs/hep-th/0006106))
+* [[Jose Gracia-Bondia]], S. Lazzarini, _Connes-Kreimer-Epstein-Glaser Renormalization_ ([arXiv:hep-th/0006106](https://arxiv.org/abs/hep-th/0006106))
 
 Relation to [[periods]] (in the sense [here](period#ReferencesInPerturbativeQuantumFieldTheory)) is discussed in
 
