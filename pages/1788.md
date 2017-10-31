@@ -1254,6 +1254,7 @@ $$
   \,.
 $$
 
+
 This commutes with the [[de Rham differential]] $d$ on both sides (def. \ref{deRhamDifferential}) in that
 
 $$
@@ -9945,8 +9946,13 @@ $\,$
 **Polynomial Observables**
 {#LinearObservablesAreDistributions}
 
-We consider here _linear observables_ (def. \ref{LinearObservables} below) and more generally _polynomial observables_ (def. \ref{PolynomialObservables} below) for [[free field theories]] and discuss how these are equivalently given by
-[[integration]] against [[generalized functions]] called _[[distributions]]_ (prop. \ref{LinearObservablesAreTheCompactlySupportedDistributions} and spring). This is the basis for the discussion of [[quantum observables]] for [[free field theories]] [further below](#FreeQuantumFields).
+We consider here _linear observables_ (def. \ref{LinearObservables} below) and more generally 
+_quadratic observables_ (def. \ref{QuadraticObservables}) and generally _polynomial observables_ (def. \ref{PolynomialObservables} below) for [[free field theories]] and discuss how these are equivalently given by
+[[integration]] against [[generalized functions]] called _[[distributions]]_ (prop. \ref{LinearObservablesAreTheCompactlySupportedDistributions} and prop. \ref{DistributionsAreGeneralizedFunctions} below). 
+
+This is the basis for the discussion of [[quantum observables]] for [[free field theories]] [further below](#FreeQuantumFields).
+
+$\,$
 
 +-- {: .num_defn #LinearObservables}
 ###### Definition
@@ -10055,10 +10061,10 @@ saying that all [[compactly supported distributions]] arise from linear observab
 
 =--
 
-The **proof** see at _[[distributions are the smooth linear functionals]]_ [this prop.](distributions+are+the+smooth+linear+functionals#CompactlySupportedDistributionsAreTheSmoothLinearFunctionals)
+The **proof** see at _[[distributions are the smooth linear functionals]]_, [this prop.](distributions+are+the+smooth+linear+functionals#CompactlySupportedDistributionsAreTheSmoothLinearFunctionals)
 
 The identification from prop. \ref{LinearObservablesAreTheCompactlySupportedDistributions} of linear observables
-with [[distributions]] makes available powerful tools from [[functional analysis]]. The key fact is thef
+with [[distributions]] makes available powerful tools from [[functional analysis]]. The key fact is the
 following:
 
 
@@ -10066,18 +10072,18 @@ following:
 ###### Proposition
 **([[distributions]] are [[generalized functions]])**
 
-For $n \in \mathbb{N}$ the every [[compactly supported function|compactly supported]] [[smooth function]]
-$b \in C^\infty_{cp}(\mathbb{R}^n)$ on the [[Cartesian space]] $\mathbb{R}^n$ induces a [[distribution]] (prop. \ref{LinearObservablesAreTheCompactlySupportedDistributions}), hence a [[continuous linear functional]]
+For $n \in \mathbb{N}$, every [[compactly supported function|compactly supported]] [[smooth function]]
+$b \in C^\infty_{cp}(\mathbb{R}^n)$ on the [[Cartesian space]] $\mathbb{R}^n$ induces a [[distribution]] (prop. \ref{LinearObservablesAreTheCompactlySupportedDistributions}), hence a [[continuous linear functional]],
+by [[integration]] against $b$ times the [[volume form]].
 
 $$
   \array{
     C^\infty(\mathbb{R}^n) &\longrightarrow& \mathbb{R}
     \\
-    f &\mapsto& \int_{\mathbb{R}^n} f(x) b(x) dvol(x)
+    f &\mapsto& \int_{\mathbb{R}^n} f(x) b(x) \, dvol(x)
   }
 $$
 
-by [[integration]] against $b$ times the [[volume form]]. 
 
 The distributions arising this way are called the _[[non-singular distributions]]_.
 
@@ -10085,19 +10091,19 @@ This construction is clearly a [[linear function|linear]] [[monomorphism|inclusi
 
 $$
   C^\infty_{cp}(\mathbb{R}^n) \overset{\phantom{AAA}}{\hookrightarrow} \mathcal{E}'(\mathbb{R}^n)
-  \,.
 $$
 
-In fact this is a [[dense subspace]] inclusion for the space of compactly supported distributions 
+and in fact this is a [[dense subspace]] inclusion for the space of compactly supported distributions 
 $\mathcal{E}'(\mathbb{R}^n)$ equipped with the [[dual space]] topology ([this def.](dual+vector+space#LinearDualOfATopologicalVectorSpace)) to the [[Fréchet space]] structure on $C^\infty(\mathbb{R}^n)$ from prop. \ref{LinearObservablesAreTheCompactlySupportedDistributions}.
 
 Hence every [[compactly supported distribution]] $u$ is the [[limit of a sequence|limit]] of a [[sequence]]  $\{b_n\}_{n \in \mathbb{N}}$
-of [[compactly supported function|compactly supported]] [[smooth functions]]  in that for every [[smooth function]] $f \in C^\infty(\mathbb{R}^n)$ we have that the value $u(\phi)$ is the [[limit of a sequence|limit]] of [[integrals]]
+of [[compactly supported function|compactly supported]] [[smooth functions]]  in that for every [[smooth function]] $f \in C^\infty(\mathbb{R}^n)$ we have that the value $u(f) \in \mathbb{R}$  is the [[limit of a sequence|limit]] of [[integrals]]
+against $b_n dvol$:
 
 $$
   u(f)
     \;=\;
-  \underset{n \to \infty}{\lim} \int_{\mathbb{R}^n} f(x) b_n(x) dvol(x)
+  \underset{n \to \infty}{\lim}\, \int_{\mathbb{R}^n} f(x) b_n(x) dvol(x)
   \,.
 $$
 
@@ -10148,7 +10154,7 @@ shorthand notation as if the [[limit of a sequence|limits]] of the [[sequences]]
 as "[[generalized functions]]" $\alpha_a$, and to set
 
 $$
-  \int_\Sigma \Phi^a(x) (\alpha_n)_a(x) \, dvol(x)
+  \int_\Sigma \Phi^a(x) \alpha_a(x) \, dvol(x)
   \;\coloneqq\;
   A(\Phi)
   \,,
@@ -10158,7 +10164,7 @@ This suggests that basic operations on functions, such as their pointwise produc
 should be [[extension|extended]] to [[distributions]], e.g. to a _[[product of distributions]]_.
 This turns out to exist, as long as the high-frequency modes in the [[Fourier transform of distributions|Fourier transform of]]
 the distributions being multiplied cancel out -- the mathematical reflection of "[[UV-divergences]]" in [[quantum field theory]].
-This we turn to [below](#FreeQuantumFields)
+This we turn to [below](#FreeQuantumFields).
 
 
 =--
@@ -10199,8 +10205,7 @@ $$
 
 =--
 
-We turn to the immediate generalization of linear observables:
-
+In the same vein there are [[multilinear map|multilinear observables]]:
 
 +-- {: .num_defn #QuadraticObservables}
 ###### Definition
@@ -10219,10 +10224,10 @@ $$
   E \boxtimes E \overset{}{\to} \Sigma \times \Sigma
 $$
 
-is the [[vector bundle]] over the [[Cartesian product]] $\Sigma \times \Sigma$ of [[spacetime]] with itself
+is the [[vector bundle]] over the [[Cartesian product]] $\Sigma \times \Sigma$, of [[spacetime]] with itself,
 whose [[fiber]] over a pair of points $(x_1,x_2)$ is the [[tensor product]] $E_{x_1} \otimes E_{x_2}$ of the corresponding field fibers.
 
-Given a [[field history]], hence a [[section]] of the [[field bundle]] $\phi \in \Gamma_\Sigma(E)$ there is then
+Given a [[field history]], hence a [[section]]  $\phi \in \Gamma_\Sigma(E)$ of the [[field bundle]], there is then
 the induced section $\phi \boxtimes \phi \in \Gamma_{\Sigma \times \Sigma}(E \boxtimes E)$.
 
 We say that an [[observable]]
@@ -10241,6 +10246,7 @@ $$
   \Gamma_{\Sigma \times \Sigma}(E \boxtimes E)_{\delta_{EL}\mathbf{L} = 0}
     \longrightarrow
   \mathbb{C}
+  \,,
 $$
 
 as
@@ -10254,7 +10260,7 @@ More explicitly: By prop. \ref{LinearObservablesAreTheCompactlySupportedDistribu
 is given by a [[compactly supported distribution]] [[distribution of two variables|of two variables]]
 which in the notation of remark \ref{LinearObservablesAsGeneralizedFunctions} comes from a [[matrix]] of
 [[generalized functions]]
-$\beta_{a b} \in \mathcal{E}'(\Sigma \times \Sigma, E \boxtimes E)$ as
+$\beta_{a_1 a_2} \in \mathcal{E}'(\Sigma \times \Sigma, E \boxtimes E)$ as
 
 $$
   A(\Phi)
@@ -11104,11 +11110,26 @@ $\,$
 **Hamiltonian local observables**
  {#HamiltonianLocalObservablesOnACauchySurface}
 
-To each choice of [[Cauchy surface]] is associated a subset of [[local observables]],
-the _Hamiltonian local observables_ (def. \ref{HamiltonianLocalObservables} below)
-to which the [[Poisson bracket Lie n-algebra|local Poisson bracket]] (prop. \ref{LocalPoissonBracket}) transgresses directly (def. \ref{PoissonBracketOnHamiltonianLocalObservables} below).
+We have defined the _[[local observables]]_ (def. \ref{LocalObservables}) as 
+the [[transgressin of variatinal differential forms|transgressions]] of horizontal $p+1$-forms
+with compact support to the [[on-shell]] [[space of field histories]] $\Gamma_{\Sigma}(E)_{\delta_{EL}\mathbf{L} = 0}$ over 
+all of [[spacetime]] $\Sigma$. More
+explicitly, these are the _spacetime local observables_.
 
+But with every choice of [[Cauchy surface]] $\Sigma_p \hookrightarrow \Sigma$ (def. \ref{CauchySurface}) comes another notion
+of local observables: those that are [[transgression of variational differential forms|transgressions]] 
+of horizontal $p$-forms (instead of $p+1$-forms) to the [[on-shell]]
+[[space of field histories]] restricted to the [[infinitesimal neighbourhood]] of that Cauchy surface (def. \ref{FieldHistoriesOnInfinitesimalNeighbourhoodOfSubmanifoldOfSpacetime}): $\Gamma_{\Sigma_p}(E)_{\delta_{EL} \mathbf{L} = 0}$.
+These are _spatially local observables_, with respect to the given choice of [[Cauchy surface]].
 
+Among these spatially local observables are the _Hamiltonian local observables_ (def. \ref{HamiltonianLocalObservables} below)
+which are [[transgression of variational differential forms|transgressions]] specifically of the
+[[Hamiltonian differential forms|Hamiltonian forms]] (def. \ref{HamiltonianForms}).
+These inherit a transgression of the [[Poisson bracket Lie n-algebra|local Poisson bracket]] (prop. \ref{LocalPoissonBracket}) 
+to a [[Poisson bracket]] on Hamiltonian local observables (def. \ref{PoissonBracketOnHamiltonianLocalObservables} below).
+This is known as the _[[Poisson-Peierls bracket]]_ (example \ref{PoissonBracketForRealScalarField} below). 
+
+(...)
 
 
 
@@ -11236,9 +11257,10 @@ $$
 $$
 
 where on the right we have the transgression of the [[Poisson bracket Lie n-algebra|local Poisson bracket]]
-of [[Hamiltonian differental forms]] on the [[jet bundle]] from prop. \ref{LocalPoissonBracket}.
+of [[Hamiltonian differential forms]] on the [[jet bundle]] from prop. \ref{LocalPoissonBracket}.
 
 =--
+
 
 +-- {: .proof}
 ###### Proof
@@ -11250,18 +11272,20 @@ representing the local Hamiltonian observable $\tau_{\Sigma_p}(H_i)$.
 It is clear that all the transgressions involved depend only on the restriction
 of the Hamiltonian forms to the pullback of the jet bundle to
 the [[infinitesimal neighbourhood]] $N_\Sigma \Sigma_p$.
-Moreover the Poisson bracket on the jet bundle (eq:LocalPoissonLieBracket)
-respects this restriction.
+Moreover, the Poisson bracket on the jet bundle (eq:LocalPoissonLieBracket)
+clearly respects this restriction.
 
-Now after this restriction, the fact that [[the kernel of integration is the exact differential forms]]
-it follows that if Hamiltonian differential form is in the [[kernel]] of the transgression map
-relative to $\Sigma_p$ then over every smooth set of field $\Phi_{(-)}$ it is exact.
-This means that it is closed for all $\Phi$, and this implies that the for on the jet bundle is hotizonally closed.
-But since the field bundle is trivial, this implies that the form on the jet bundle is horizontally exact (Anderson, prop. 4.3).
+Now after this restriction, the fact that the _[[kernel of integration is the exact differential forms]]_
+implies that if a Hamiltonian differential form is in the [[kernel]] of the transgression map
+relative to $\Sigma_p$ then over every smooth collection $\Phi_{(-)}$ of field histories it is exact.
+This means that it is closed for all $\Phi$, and this implies by prop. \ref{PullbackAlongJetProlongationIntertwinesHorizontalDerivative}
+that on the jet bundle it is horizontally exact.
+But since the field bundle is trivial by assumption, this implies that the form on the jet bundle is horizontally 
+exact (Anderson, prop. 4.3).
 
 Therefore the claim
 now follows with the statement that horizontally exact forms constitute a
-Lie ideal for the Poisson bracket on the jet bundle (lemma \ref{HorizontallyExactFormsDropOutOfLocalLieBracket}).
+Lie ideal for the Poisson bracket on the jet bundle, which is lemma \ref{HorizontallyExactFormsDropOutOfLocalLieBracket}.
 
 =--
 
@@ -11276,7 +11300,7 @@ Consider the [[Lagrangian field theory]] of the [[free field|free]] [[scalar fie
 (example \ref{LagrangianForFreeScalarFieldOnMinkowskiSpacetime}),
 and consider the [[Cauchy surface]] defined by $x^0 = 0$.
 
-By example \ref{LocalPoissonBracketForRealScalarField} the local Poisson bracket
+By example \ref{LocalPoissonBracketForRealScalarField} the [[Poisson bracket Lie n-algebra|local Poisson bracket]]
 of the [[Hamiltonian forms]]
 
 $$
@@ -11299,7 +11323,7 @@ $$
 
 
 Upon [[transgression of variational differential forms|transgression]] according to def. \ref{PoissonBracketOnHamiltonianLocalObservables}
- this yields the following [[Poisson bracket]]
+this yields the following [[Poisson bracket]]
 
 $$
   \left\{
@@ -11311,7 +11335,7 @@ $$
   \;=\;
   \int_{\Sigma_p} b_1(\vec x) b_2(\vec x) \iota_{\partial_0} dvol_\Sigma(\vec x)
   d^p \vec x
-  \,.
+  \,,
 $$
 
 where
@@ -11320,7 +11344,7 @@ $$
   \phi(x), \partial_0 \phi(x) : PhaseSpace(\Sigma_p^t) \to \mathbb{R}
 $$
 
-denote the point-evaluation functions ([[functionals]]), which act on a field configuration $\Phi \in \Gamma_\Sigma(E) = C^\infty(\Sigma)$ as
+denote the point-evaluation functionals (example \ref{PointEvaluationObservables}), which act on a field configuration $\Phi \in \Gamma_\Sigma(E) = C^\infty(\Sigma)$ as
 
 $$
  \phi(x)(\Phi) \coloneqq \Phi(x)
@@ -11330,7 +11354,7 @@ $$
 $$
 
 Notice that these point-evaluation functions themselves do not arise
-as the transgression of elements in $\Omega^{p,0}(E)$, only their smearings such as $\int_{\Sigma_p} b_1 \phi dvol_{\Sigma_p}$ do.
+as the transgression of elements in $\Omega^{p,0}(E)$; only their smearings such as $\int_{\Sigma_p} b_1 \phi dvol_{\Sigma_p}$ do.
 Nevertheless we may express the above Poisson bracket conveniently via the [[integral kernel]]
 
 $$
