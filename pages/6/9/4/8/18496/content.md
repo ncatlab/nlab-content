@@ -247,7 +247,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-First consider this for the case that $\mathbf{H} = $ [[SmoothSet]] (which immediately subsumes the case that $\mathbf{H} =$ [[diffeological space|DiffelogicaSpace]]).
+First consider this for the case that $\mathbf{H} = $ [[SmoothSet]] (which immediately subsumes the case that $\mathbf{H} =$ [[diffeological space|DiffelogicalSpace]]).
 
 To see that $\widetilde{(-)}$ is well defined, we need to check that the function
 
@@ -262,7 +262,7 @@ $$
   }
 $$
 
-is [[smooth function|smooth]]. But this follows immediately since $\langle \mu,-\rangle$ by definition is [[linear function|linear]] and [[continuous function|continuous]].
+is [[smooth function|smooth]]. But this follows immediately since $\langle \mu,-\rangle$ by definition is [[linear function|linear]] and [[continuous function|continuous]] ([H&#246;rmander 90, theorem 2.1.3](#Hoermander90)).
 
 
 To see that $\widetilde{(-)}$ is indeed a [[bijection]] for each $U$ it remains that every $\mathbb{R}$-linear smooth functional (morphisms of [[smooth sets]]) of the form
@@ -369,6 +369,7 @@ A [[compactly supported distribution]] $u \in \mathcal{E}'(\mathbb{R}^n)$ is a [
 For all $N \in \mathbb{N}$ there exists $C_N \in \mathbb{R}_+$ such that for all $\xi \in \mathbb{R}^n$ we have that the [[absolute value]] ${\vert \hat v(\xi)\vert}$ of the Fourier transform at that point is bounded by
 
 $$
+  \label{DecayEstimateForFourierTransformOfNonSingularDistribution}
   {\vert \hat v(\xi)\vert}
   \;\leq\;
   C_N \left( 1 + {\vert \xi\vert} \right)^{-N}
@@ -388,7 +389,7 @@ $$
 ###### Definition
 **([[singular support]] of a [[compactly supported distribution]])**
 
-For $n \in \mathbb{N}$ and $u \in \mathcal{E}'(\mathbb{R}^n)$ a [[compactly supported distribution]], its _[[singular support]]_ is the [[subset]] of the [[Cartesian space]] $\mathbb{R}^n$ of those points which have no [[neighbourhood]] on which $u$ [[restriction of distributions|restricts]] to a [[non-singular distribution]] (def. \ref{NonSingularCompactlySupportedDistributions}):
+For $n \in \mathbb{N}$ and $u \in \mathcal{E}'(\mathbb{R}^n)$ a [[compactly supported distribution]], its _[[singular support]]_ is the [[subset]] of the [[Cartesian space]] $\mathbb{R}^n$ of those points which have no [[neighbourhood]] on which $u$ [[restriction of distributions|restricts]] to a [[non-singular distribution]]:
 
 $$
   supp_{sing}(u)
@@ -397,7 +398,10 @@ $$
     u \in \mathbb{R}^n
     \,\vert\,
     \not \left(
-      \underset{U \underset{\text{nbhd}}{\supset} \{x\}}{\exists} u\vert_U \in C^\infty_{cp}(U)
+      \underset{U \underset{\text{nbhd}}{\supset} \{x\}}{\exists} 
+      \left(
+        u\vert_U \in C^\infty_{cp}(U)
+      \right)
      \right)
   \right\}
   \,.
@@ -408,11 +412,63 @@ $$
 By prop. \ref{DecayPropertyOfFourierTransformOfCompactlySupportedFunctions} the [[singular support of a distribution]] (def. \ref{SingularSupportOfCompactlySupportedDistribution}) consists of those points around which the [[Fourier transform of distributions|Fourier transform of the distribution]] receives large high-[[frequency]] ("UV") contributions. But in fact prop. \ref{DecayPropertyOfFourierTransformOfCompactlySupportedFunctions} allows to say more precisely _which_ high frequency Fourier modes make the distribution singular at a given point. These are said to be part of the _wave front_ of the distribution, and the collection of all of them is called the _[[wave front set]]_ of the distribution:
 
 
++-- {: .num_defn #WaveFrontSet}
+###### Definition
+**([[wavefront set]])**
+
+For $n \in \mathbb{N}$ let $u \in \mathcal{E}'(\mathbb{R}^n)$ be a [[compactly supported distribution]]. 
+
+For $b \in C^\infty(\mathbb{R}^n)$ a [[compactly supported function|compactly supported]] [[smooth function]], write $b u \in \mathcal{E}'(\mathbb{R}^n)$ for the corresponding product ([this example](product+of+distributions#ProductOfADistributionWithANonSingularDistribution)).
+
+For $x\in supp(b) \subset \mathbb{R}^n$, we say that a unit [[covector]] $\xi \in S((\mathbb{R}^n)^\ast)$ is _regular_ if there exists a [[neighbourhood]] $U \subset S((\mathbb{R}^n)^\ast)$ of $\xi$ in the [[unit sphere]] such that for all $c \xi' \in (\mathbb{R}^n)^\ast$ with $c \in \mathbb{R}_+$ and  $\xi \in U \subset S((\mathbb{R)^n)^\ast)$ the decay estimate (eq:DecayEstimateForFourierTransformOfNonSingularDistribution) is valid for the [[Fourier transform of distributions|Fourier transform]] $\widehat{b u}$ of $b u$; at $c \xi'$. Otherwise $\xi$ is _non-regular_. Write
+
+$$
+  \Sigma(b u)
+    \;\coloneqq\;
+  \left\{
+    \xi \in S((\mathbb{R}^n)^\ast)
+    \;\vert\;
+    \xi \, \text{non-regular}
+  \right\}
+$$
+
+for the set of non-regular covectors of $b u$. 
+
+The _wave front set at $x$_ is the [[intersection]] of these sets as $b$ ranges over [[bump functions]] whose [[support]] includes $x$:
+
+$$
+  \Sigma_x(u)
+  \;\coloneqq\;
+  \underset{ 
+    { b \in C^\infty_{cp}(\mathbb{R}^n) } 
+      \atop 
+    { x \in supp(b) } 
+  }{\cap}
+  \Sigma(b u)
+  \,.
+$$
+
+Finally the _[[wave front set]]_ of $u$ is the subset of the [[sphere bundle]] $S(T^\ast \mathbb{R}^n)$ which over $x \in \mathbb{R}^n$ consists of $\Sigma_x(U) \subset T^\ast_x \mathbb{R}^n$:
+
+$$
+  WF(u) 
+    \;\coloneqq\;
+  \underset{x \in \mathbb{R}^n}{\cup}
+  \Sigma_x(u)
+  \;\subset\;
+  S(T^\ast \mathbb{R}^n)
+$$
+
+=--
+
+([H&#246;rmander 90, def. 8.1.2](#Hoermander90))
+
+
 +-- {: .num_prop #EmptyWaveFrontSetCorrespondsToOrdinaryFunction}
 ###### Proposition
 **([[empty set|empty]] [[wave front set]] corresponds to ordinary [[smooth functions]])**
 
-The [[wave front set]] of a [[compactly supported distribution]] is [[empty set|empty]] precisely if the distribution is [[non-singular distribution|non-singular]] (example \ref{NonSingularCompactlySupportedDistributions}).
+The [[wave front set]] (def. \ref{WaveFrontSet}) of a [[compactly supported distribution]] is [[empty set|empty]] precisely if the distribution is [[non-singular distribution|non-singular]] (example \ref{NonSingularCompactlySupportedDistributions}).
 
 =--
 
