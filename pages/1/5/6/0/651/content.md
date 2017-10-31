@@ -60,6 +60,7 @@ A _Fr&#246;licher Space_ is a triple $(X,C_X,F_X)$ where
 
 subject to the following saturation conditions
 
+1. if $c\in C_X$ and $f\in F_X$, then $f c \in C^\infty(\mathbb{R}, \mathbb{R})$,
 1. if $c : \mathbb{R} \to X$ is a set map with the property that $f c \in C^\infty(\mathbb{R}, \mathbb{R})$ for all $f \in F_X$ then $c \in C_X$, and
 2. if $f : X \to \mathbb{R}$ is a set map with the property that $f c \in C^\infty(\mathbb{R}, \mathbb{R})$ for all $c \in C_X$ then $f \in F_X$.
 
