@@ -384,6 +384,8 @@ Distributions can be alternatively described using [[nonstandard analysis]], see
 
 ## Related concepts
 
+* [[non-singular distribution]]
+
 * [[order of a distribution]]
 
 * [[support of a distribution]]
