@@ -732,7 +732,7 @@ See also
 
 An introduction is in 
 
-* [[Ian Anderson]], _Introduction to the variational bicomplex_ in Mathematical aspects of classical field theory, Contemp. Math. 132 (1992) 51&#8211;73, [gBooks](http://books.google.com/books?id=NuiJ0c72_gQC&lpg=PA51&ots=-zAVQLViUn&dq=Zuckerman%20variational%20problems)
+* [[Ian Anderson]], _Introduction to the variational bicomplex_, in _Mathematical aspects of classical field theory_, Contemp. Math. 132 (1992) 51&#8211;73, [gBooks](http://books.google.com/books?id=NuiJ0c72_gQC&lpg=PA51&ots=-zAVQLViUn&dq=Zuckerman%20variational%20problems)
 
 A careful discussion that compares the two versions (one over smooth functions globally of finite jet order, one over smooth functions locally of finite jet order) is in
 
