@@ -520,6 +520,8 @@ It remains to see that the [[gluing functions]] of this atlas are [[differentiab
 
 * [[projective bundle]]
 
+* [[affine space]], [[conical space]]
+
 ## References
 
 * {#Mobius27} [[August Ferdinand Möbius]], _Der barycentrische Calc&#252;l_ (1827)
