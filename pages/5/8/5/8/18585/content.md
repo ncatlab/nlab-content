@@ -29,7 +29,7 @@ Given a [[time orientation|time-oriented]] [[Lorentzian manifold]] $\Sigma$, the
 
 The [[boundary]] of the union of the past and future closed cone is the _[[light cone]]_ of the point.
 
-Given a [[subset]] $S \subset X$, then its future/past open/closed cone is the union of that of all its points.
+Given a [[subset]] $S \subset X$, then its future/past open/closed cone is the union of that of all its points. The open cones above are _[[conical spaces]]_.
 
 The [[complement]] of the (closed) causal cone is the _[[causal complement]]_.
 
