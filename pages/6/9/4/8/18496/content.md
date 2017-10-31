@@ -287,7 +287,7 @@ Finally to see that this argument generalizes to $\mathbf{H} = $ [[formal smooth
 
 ## Properties
 
-### Fourier transform
+### Fourier-Laplace transform
 
 
 +-- {: .num_defn #FourierTransformOfCompactlySupportedDistribution}
@@ -318,11 +318,48 @@ $$
 
 This is an [[entire analytic function]] on $\mathbb{C}^n$.
 
-
-
 =--
 
 ([H&#246;rmander 90, theorem 7.1.14](#Hoermander90))
+
+
++-- {: .num_theorem}
+###### Theorem
+**([[Paley-Wiener-Schwartz theorem]])**
+
+
+For $n \in \mathbb{N}$ the vector space $C^\infty_c(\mathbb{R}^n)$ of [[compact support|compactly supported]] [[smooth functions]] ([[bump functions]]) on [[Euclidean space]] $\mathbb{R}^n$ is (algebraically and topologically) [[isomorphism|isomorphic]], via the [[Fourier-Laplace transform]] (prop. \ref{FourierTransformOfCompactlySupportedDistribution}), to the space of [[entire functions]] $F$ on $\mathbb{C}^n$ which satisfy the following estimate: there is a [[positive number|positive]] [[real number]] $B$ such that for every [[integer]] $N \gt 0$ there is a [[real number]] $C_N$ such that:
+
+$$ 
+  \underset{\xi \in \mathbb{C}^n}{\forall} 
+  \left(
+    {\Vert  F(\xi) \Vert}
+    \le C_N 
+    \left(
+       1 + {\vert \xi\vert }
+    \right)^{-N} e^{B \, |Im(\xi)|}
+  \right)
+  \,.
+$$ 
+
+More generally, the space of [[compactly supported distributions]] on $\mathbb{R}^n$ of [[order of a distribution|order]] $N$ is isomorphic via [[Fourier transform of distributions]] to those [[entire functions]] on $\mathbb{C}^n$ for which there exists positive [[real numbers]] $C$ and $B$ such that
+
+$$ 
+  \underset{\xi \in \mathbb{C}^n}{\forall} 
+  \left(
+    {\Vert F(\xi)  \Vert}
+      \le 
+    C_N (1 + {\vert \xi\vert })^{N} e^{ B \; |Im(\xi)|}
+  \right)
+  \,.
+$$ 
+
+(Notice that the [[Fourier transform of distributions|Fourier transform]] of a [[compactly supported distribution]] is guaranteed to be a [[smooth function]], by [this prop.](Fourier+transform+of+distributions#FourierTransformOfCompactlySupportedDistributions).)
+
+=--
+
+(e.g. [Hoermander 90, theorem 7.3.1](#Hoermander90))
+
 
 ### Wave front set
 
