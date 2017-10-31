@@ -113,7 +113,9 @@ Since any wave front set excludes the zero-section by definition, the second and
 
 =--
 
-## Non-existence of a global product
+## Properties
+
+### Non-existence of a global product
  {#NonExistenceOfAGlobalProduct}
 
 
@@ -134,7 +136,21 @@ $$
 
 The inconsistency of this product is detected by the [[wave front sets]] as follows: The wave front set both of the [[Heaviside distribution]] as well as of the [[delta distribution]] on the line is $\{(0,k) \vert k \neq 0\}$ ([this example](wavefront+set#WaveFrontOfDeltaDistribution) and [this example](wavefront+set#WaveFrontSetOfHeavisideDistribution)). Therefore for both of these distributions mutliplication is only defined, according to def. \ref{ProductOfDistributions}, with a distribution $u$ for which there exists a [[bump function]] $b$ with $b(0) = 1$ such that $b \cdot u$ is again a bump function. This excludes the products of these distributions with themselves and with each other.
 
+## Examples
+ {#Examples}
 
++-- {: .num_defn #ProductOfADistributionWithANonSingularDistribution}
+###### Definition
+**(product of a [[distribution]] with a [[non-singular distributions]])**
+
+The [[wave front set]] of a [[non-singular distribution]], hence of a genuine [[smooth function]] $f$, is [[empty]] ([this prop.](Paley-Wiener-Schwartz+theorem#DecayPropertyOfFourierTransformOfCompactlySupportedFunctions)). Therefore the product of distributions (def. \ref{ProductOfDistributions}) of a [[non-singular distribution]] with any distribution $u$ is defined, and given by the product of distributions with smooth functions:
+
+$$
+  f \cdot u = u(f\cdot (-))
+  \,.
+$$
+
+=--
 
 
 
