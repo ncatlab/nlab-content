@@ -35,3 +35,7 @@ If we work with [[locales]] instead of topological spaces, then a closed point $
 
 [[!redirects compactly supported continuous function]]
 [[!redirects compactly supported continuous functions]]
+
+[[!redirects compactly supported function]]
+[[!redirects compactly supported functions]]
+
