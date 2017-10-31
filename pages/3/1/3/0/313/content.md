@@ -90,13 +90,13 @@ Then
      C \;\colon\; X \Rightarrow const_{\tilde X}
    $$
 
-1. the _limiting cone_ (or  _[[limit]]_, for short) over a diagram $X$ is, if it exists, the [[initial object]] in the [[category]] of [[cones]] over $X$, which means that it is a cone $C_{lim}$ with tip denoted $\underset{\longleftarrow}{\lim}_i X_i$ such that for every other cone $C$ with tip $\tilde X$ there is a unique [[natural transformation]] $\phi \colon const_{\tilde X} \Rightarrow const_{\underset{\longrightarrow}{\lim}_i X_i}$ such that
+1. the _limiting cone_ (or  _[[limit]]_, for short) over a diagram $X$ is, if it exists, the [[terminal object]] in the [[category]] of [[cones]] over $X$, which means that it is a cone $C_{lim}$ with tip denoted $\underset{\longleftarrow}{\lim}_i X_i$ such that for every other cone $C$ with tip $\tilde X$ there is a unique [[natural transformation]] $\phi \colon const_{\tilde X} \Rightarrow const_{\underset{\longrightarrow}{\lim}_i X_i}$ such that
 
    $$
      C = C_{lim} \circ \phi
    $$ 
 
-1. the _colimiting cone_ (or _[[colimit]]_, for short) under a diagram $X$ is, if it exists, the [[terminal object]] in the [[category]] of [[cocones]] under $X$, which means that it is a co-cone $C_{lim}$ with tip denoted $\underset{\longrightarrow}{\lim}_i X_i$ such that for every other cocone $C$ with tip $\tilde X$ there is a unique [[natural transformation]] $\phi \colon  const_{\underset{\longrightarrow}{\lim}_i X_i} \Rightarrow const_{\tilde X}$ such that
+1. the _colimiting cone_ (or _[[colimit]]_, for short) under a diagram $X$ is, if it exists, the [[initial object]] in the [[category]] of [[cocones]] under $X$, which means that it is a co-cone $C_{lim}$ with tip denoted $\underset{\longrightarrow}{\lim}_i X_i$ such that for every other cocone $C$ with tip $\tilde X$ there is a unique [[natural transformation]] $\phi \colon  const_{\underset{\longrightarrow}{\lim}_i X_i} \Rightarrow const_{\tilde X}$ such that
 
    $$
      C = \phi \circ C_{lim}
