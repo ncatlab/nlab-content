@@ -64,18 +64,28 @@ For $n \in \mathbb{N}$ let $\phi \in \mathcal{D}'(\mathbb{R}^n)$ be a [[distribu
 ###### Proposition
 **(non-singular distributions are [[dense subspace|dense]] in all distributions)**
 
-The inclusion 
+The inclusion of non-singular distributions into all distributions
 
 $$
   C^\infty(\mathbb{R}^n) \hookrightarrow \mathcal{D}'(\mathbb{R}^n)
 $$
 
-from def. \ref{NonSingularCompactlySupportedDistributions} exhibits a [[dense subspace]]: Every [[distribution]] is the [[limit of a sequence|limit]] of a [[sequence]] of non-singular distributions.
+from def. \ref{NonSingularCompactlySupportedDistributions} exhibits a [[dense subspace]] of $\mathcal{D}'(\mathbb{R}^n)$ (equipped with the [[dual space]] topology, [this def.](dual+vector+space#LinearDualOfATopologicalVectorSpace) or [H&#246;rmander 90, p. 38](#Hoermander90)): 
+
+Every [[distribution]] is the [[limit of a sequence|limit]] of a [[sequence]] of non-singular distributions.
 
 =--
 
 ([H&#246;rmander 90, theorem 4.1.5](#Hoermander90))
 
+
++-- {: .num_defn #DistributionsAsGeneralizedFunctions}
+###### Remark
+
+Proposition \ref{NonSingularDistributionsAreDenseInAllDistributions} justifies to think of [[distributions]] as "[[generalized functions]]", and to seek generalizations of standard operations on functions, such as concepts of _[[product of distributions]]_ and _[[composition of distributions]]_.
+
+
+=--
 
 ## References
 
