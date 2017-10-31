@@ -72,7 +72,14 @@ $$
 
 from def. \ref{NonSingularCompactlySupportedDistributions} exhibits a [[dense subspace]] of $\mathcal{D}'(\mathbb{R}^n)$ (equipped with the [[dual space]] topology, [this def.](dual+vector+space#LinearDualOfATopologicalVectorSpace) or [H&#246;rmander 90, p. 38](#Hoermander90)): 
 
-Every [[distribution]] is the [[limit of a sequence|limit]] of a [[sequence]] of non-singular distributions.
+Every [[distribution]] $u \in \mathcal{D}'(\mathbb{R}^n)$ is the [[limit of a sequence|limit]] of a [[sequence]] $\{f_n \in C^\infty(\mathbb{R}^n)\}_{n \in \mathbb{N}}$ of smooth functions in that for every [[compactly supported function|compactly supported]] [[smooth function]] $\phi \in C^\infty_{cp}(\mathbb{R}^n)$ we have that the value $u(\phi)$ is the [[limit of a sequence|limit]] of [[integrals]]
+
+$$
+  u(\phi) 
+    \;=\; 
+  \underset{n \to \infty}{\lim} \int_{\mathbb{R}^n} \phi(x) f_n(x) dvol(x)
+  \,.
+$$
 
 =--
 
