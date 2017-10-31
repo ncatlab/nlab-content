@@ -171,16 +171,16 @@ Other notions of spaces of distributions, each endowed with the weak $*$-topolog
 
 * [[compactly supported distributions]] on $U$. These are functionals on $C^{\infty}(U)$ (test functions without compact support). 
 
-* Rapidly decaying distributions (usually on $U = \mathbb{R}^n$). These are functionals on the space of smooth functions each of whose partial derivatives (of any order) has "tempered" or moderate growth (i.e., bounded by polynomial growth). 
-
-* Tempered distributions (usually on $U = \mathbb{R}^n$). These are functionals on so-called **Schwartz space**: the space of smooth functions each of whose derivatives (of any order) decays rapidly (goes to zero more quickly than any negative power of $|x|$ as $|x| \to \infty$). The topology on Schwartz space is induced by the family of seminorms 
+* [[tempered distributions]] (usually on $U = \mathbb{R}^n$). These are functionals on what is called the _[[Schwartz space]]_ $\mathcal{S}$: the space of smooth functions each of whose [[derivatives]] (of any order) decays rapidly (goes to zero more quickly than any negative power of $|x|$ as $|x| \to \infty$). The topology on Schwartz space is induced by the family of seminorms 
 $$\rho_{K, \alpha, \beta}(\phi) = \sup_{x \in K} |x^\alpha \partial^\beta \phi|$$ 
 where $\alpha$, $\beta$ are multi-indices. 
+
+* Rapidly decaying distributions (usually on $U = \mathbb{R}^n$). These are functionals on the space of smooth functions each of whose partial derivatives (of any order) has "tempered" or moderate growth (i.e., bounded by polynomial growth). 
 
 
 +-- {: .num_prop #PullbackOfDistributionAlongSubmersion}
 ###### Proposition
-**(pullback of distributions along submersion)**
+**([[pullback of distributions]] along [[submersions]])**
 
 If $X_1, X_2 \subset \mathbb{R}^n$ are two [[open subsets]] of [[Euclidean space]], and if
 
@@ -201,7 +201,7 @@ $$
   \,.
 $$
 
-This is hence called the _pullback of distributions_.
+This is hence called the _[[pullback of distributions]]_.
 
 =--
 
@@ -209,7 +209,7 @@ This is hence called the _pullback of distributions_.
 
 +-- {: .num_defn #DistributionsOnSmoothManifolds}
 ###### Definition
-**(distributions of smooth manifolds)**
+**(distributions on smooth manifolds)**
 
 Let $X$ be a [[smooth manifold]]. Then a distribution on $X$ is an [[equivalence class]] of 
 
