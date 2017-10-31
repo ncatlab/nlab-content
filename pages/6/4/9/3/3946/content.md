@@ -53,7 +53,7 @@ Let $U \subset \mathbb{R}^n$ be open, we identify the [[cotangent bundle]] of $U
 $$
     (x, \zeta) \mapsto (x, \rho \zeta) \quad \text{with} \; \rho \gt 0
 $$
-Note that a conic subset is uniquely determined by its intersection with the [[unit sphere]] bundle $U\times S^{n-1}$.
+Note that a [[conical set|conic]] subset is uniquely determined by its intersection with the [[unit sphere]] bundle $U\times S^{n-1}$.
 
 +-- {: .num_defn}
 ###### Definition
@@ -70,14 +70,14 @@ where $\mathcal{F}(\chi f)$ is the [[Fourier transform]] (of the variable $\zeta
 +-- {: .num_defn}
 ###### Definition
 
-A distribution $f$ is smooth in a conic subset $\Gamma$ of the cotangent bundle of $U$ if $f$ is smooth in a neighbourhood of every point in $\Gamma$.
+A distribution $f$ is smooth in a [[conical set|conic]] subset $\Gamma$ of the cotangent bundle of $U$ if $f$ is smooth in a neighbourhood of every point in $\Gamma$.
 
 =--
 
 
 ### Wavefront set
 
-Let $U \subseteq \mathbb{R}^n$ be an open subset, $T^* U$ its cotangent bundle and $f$ be a distribution on $U$. The complement of the union of all conic subsets of $T^* U$ where $f$ is smooth is the **wavefront set $WF(f)$**.  Since the wavefront set is therefore itself conic, it is equivalently determined by a subset of the unit sphere bundle of $T^* U$.
+Let $U \subseteq \mathbb{R}^n$ be an open subset, $T^* U$ its cotangent bundle and $f$ be a distribution on $U$. The complement of the union of all [[conical set|conic]] subsets of $T^* U$ where $f$ is smooth is the **wavefront set $WF(f)$**.  Since the wavefront set is therefore itself [[conical set|conic]], it is equivalently determined by a subset of the unit sphere bundle of $T^* U$.
 
 ([H&#246;rmander 70 (2.4.1)](#Hoermander70), [H&#246;rmander 90, section 8.1](#Hoermander90))
 
