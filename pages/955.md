@@ -128,13 +128,13 @@ Within the Isbell envelope of $\mathcal{T}$ one can consider various [[subcatego
 An object $X$ of $E(\mathcal{T})$ is said to be _$P$-saturated_ if the obvious natural transformations
 
 \[
-P_X(T) \to NatTrans(F_X,F_T)
+P_X(T) \to NatTrans(F_X,\mathcal{T}(T,-))
 \]
 
 are isomorphisms.  It is said to be _$F$-saturated_ if the obvious natural transformations
 
 \[
-F_X(T) \to NatTrans(P_X,P_T)
+F_X(T) \to NatTrans(P_X,\mathcal{T}(-,T))
 \]
 
 are isomorphisms.  It is said to satisfy _[[Isbell duality]]_ if it is both $P$- and $F$-saturated.
