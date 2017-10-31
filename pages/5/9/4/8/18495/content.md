@@ -27,7 +27,7 @@ Of particular interest is the _singular support_ of distributions, which is the 
 ###### Definition
 **(support of a distribution)**
 
-Let $X$ be a [[smooth manifold]] and let $\phi \colon C^\infty_c(X) \longrightarrow \mathbb{R}$ be a [[distribution]]. Then the _support_ of $\phi$ is the [[subset]] $supp(\phi) \subset X$ of all those points $x \in X$ such that for every [[open neighbourhood]] $U_x \subset X$ the restricted distribution $\phi\vert_{U_x}$ is not the zero-distribution
+Let $X$ be a [[smooth manifold]] and let $\phi \colon C^\infty_c(X) \longrightarrow \mathbb{R}$ be a [[distribution]]. Then the _support_ of $\phi$ is the [[subset]] $supp(\phi) \subset X$ of all those points $x \in X$ such that for every [[open neighbourhood]] $U_x \subset X$ the [[restriction of distributions|restricted distribution]] $\phi\vert_{U_x}$ is not the zero-distribution
 
 $$
   supp(\phi) 
@@ -58,7 +58,7 @@ distribution is said to be a _[[compactly supported distribution]]_.
 ###### Definition
 **(singular support)**
 
-Let $X$ be a [[smooth manifold]] and let $\phi \colon C^\infty_c(X) \longrightarrow \mathbb{R}$ be a [[distribution]]. Then the _singular support_  $singsupp(\phi) \subset X$ is the [[subset]] of points such that for every [[open neighbourhood]] $U_x \subset X$ the restriction $\phi\vert_{U_x}$ is not represented by a [[smooth function|smooth]] [[density]].
+Let $X$ be a [[smooth manifold]] and let $\phi \colon C^\infty_c(X) \longrightarrow \mathbb{R}$ be a [[distribution]]. Then the _singular support_  $singsupp(\phi) \subset X$ is the [[subset]] of points such that for every [[open neighbourhood]] $U_x \subset X$ the [[restriction of distributions|restriction]] $\phi\vert_{U_x}$ is singular, hence not a [[non-singular distribution]].
 
 =--
 
