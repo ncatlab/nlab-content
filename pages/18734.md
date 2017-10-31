@@ -46,11 +46,23 @@ The distributions arising this way are called the _non-singular distributions_.
 
 =--
 
+
+
++-- {: .num_defn #SingularSupport}
+###### Definition
+**([[singular support of a distribution]])**
+
+For $n \in \mathbb{N}$ let $\phi \in \mathcal{D}'(\mathbb{R}^n)$ be a [[distribution]]. Then the _[[singular support of a distribution|singular support]]_  $supp_{sing}(\phi) \subset X$ is the [[subset]] of points such that for every [[open neighbourhood]] $U_x \subset X$ the [[restriction of distributions|restriction]] $\phi\vert_{U_x}$ is singular, hence not a non-singular distribution (def. \ref{NonSingularCompactlySupportedDistributions}).
+
+=--
+
+
 ## Properties
 
 
-+-- {: .num_prop }
++-- {: .num_prop #NonSingularDistributionsAreDenseInAllDistributions}
 ###### Proposition
+**(non-singular distributions are [[dense subspace|dense]] in all distributions)**
 
 The inclusion 
 
