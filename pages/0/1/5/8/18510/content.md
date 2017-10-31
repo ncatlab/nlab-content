@@ -92,12 +92,12 @@ $$
   \left(
      WF(u) \times WF(v)
   \right)
-    \cup
+    \;\cup\;
   \left(
     \left( supp(u) \times \{0\} \right)
     \times WF(v)
   \right)
-    \cup
+    \;\cup\;
    \left(
      WF(u)
      \times
@@ -108,7 +108,7 @@ $$
   \,,
 $$
 
-Since any wave front set excludes the zero-section by definition, the second and the third summand in this union never intersects the above conormal bundle. The first summand intersects the above conormal bundle precisely if there is a covector in $WF(u)$ which is minus a covector contained in $WF(v)$. That this is not the case is precisely the assumption.
+Since any wave front set excludes the zero-section by definition, the second and the third summand in this union never intersect the above conormal bundle. The first summand intersects the above conormal bundle precisely if there is a covector in $WF(u)$ which is minus a covector contained in $WF(v)$. That this is not the case is precisely the assumption.
 
 
 =--
