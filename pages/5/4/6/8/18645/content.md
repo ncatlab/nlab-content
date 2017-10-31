@@ -1042,6 +1042,7 @@ by the evident multiplication of [[differential 1-forms]] with [[smooth function
 Accordingly there is a canonical pairing between [[differential 1-forms]] and [[tangent vector fields]] (example \ref{TangentVectorFields})
 
 $$
+  \label{PairingVectorFieldsWithDifferential1Forms}
   \array{
     \Gamma_{\mathbb{R}^n}(T \mathbb{R}^n)
     \otimes_{\mathbb{R}}
@@ -1136,7 +1137,7 @@ $$
 =--
 
 
-The following definition captures the idea that if $d  x^i$ is a measure for displacement along the $x^i$-[[coordinate]], and $d x^j$ a measure for displacement along the $x^j$ coordinate, then there should be a way to get a measure, to be called $d x^i \wedge d  x^j$, for [[infinitesimal]] _[[surfaces]]_ (squares) in the $x^i$-$x^j$-plane. And this should keep track of the [[orientation]] of these squares, whith
+The following definition captures the idea that if $d  x^i$ is a measure for displacement along the $x^i$-[[coordinate]], and $d x^j$ a measure for displacement along the $x^j$ coordinate, then there should be a way to get a measure, to be called $d x^i \wedge d  x^j$, for [[infinitesimal]] _[[surfaces]]_ (squares) in the $x^i$-$x^j$-plane. And this should keep track of the [[orientation]] of these squares, with
 
 $$
   d x^j \wedge d x^i = - d x^i \wedge d  x^j
@@ -1228,6 +1229,32 @@ $(\Omega^\bullet(\mathbb{R}^n), d)$.
 
 =--
 
+
++-- {: .num_defn #ContractionOfFormsWithVectorFields}
+###### Definition
+**(contraction of [[differential n-forms]] with [[tangent vector fields]])**
+
+The pairing $\iota_v \omega = \omega(v)$ of [[tangent vector fields]] $v$ with [[differential 1-forms]] $\omega$ (eq:PairingVectorFieldsWithDifferential1Forms) uniquely [[extension|extends]] to the [[exterior algebra]] $\Omega^\bullet(\mathbb{R}^n)$ of [[differential forms]] (def. \ref{DifferentialnForms}) as a [[derivation]] of degree -1
+
+$$
+  \iota_v \;\colon\; \Omega^{\bullet+1}(\mathbb{R}^n) \longrightarrow \Omega^\bullet(\mathbb{R}^n)
+  \,.
+$$
+
+In particular for $\omega_1, \omega_2 \in \Omega^1(\mathbb{R}^n)$ two [[differential 1-forms]], then 
+
+$$
+  \iota_{v} (\omega_1 \wedge \omega_2)
+   \;=\;
+  \omega_1(v) \omega_2 - \omega_2(v) \omega_1
+  \;\in\;
+  \Omega^1(\mathbb{R}^n)
+  \,.
+$$
+
+
+=--
+
 +-- {: .num_prop #PullbackOfDifferentialForms}
 ###### Proposition
 **([[pullback of differential forms|pullback of differential n-forms]])**
@@ -1308,7 +1335,7 @@ along $v$ of parameter length $t$.
 
 Then the [[derivative]] with respect to $t$ of the [[pullback of differential forms]] along $\exp(t v)$, hence the [[Lie derivative]]
 $\mathcal{L}_v \colon \Omega^\bullet(X) \to \Omega^\bullet(X)$,
- is given by the [[anticommutator]] of $\iota_v$ with the [[de Rham differential]] $d$ (def. \ref{deRhamDifferential}):
+ is given by the [[anticommutator]] of the contraction derivation $\iota_v$ (def. \ref{ContractionOfFormsWithVectorFields}) with the [[de Rham differential]] $d$ (def. \ref{deRhamDifferential}):
 
 $$
   \begin{aligned}
@@ -6094,7 +6121,7 @@ given by forgetting coordinates with more indices.
 The _infinite-order [[jet bundle]]_
 
 $$
-  J^\infty_\Sigma(E) \in \mathbf{H}
+  J^\infty_\Sigma(E) \in SmoothSet
 $$
 
 is the [[direct limit]] over these finite order jet bundles,
@@ -6628,6 +6655,7 @@ we have the following:
 
 =--
 
+The following propositions are less trivial properties of variational differential forms:
 
 +-- {: .num_prop #PullbackAlongJetProlongationIntertwinesHorizontalDerivative}
 ###### Proposition
@@ -6671,7 +6699,7 @@ along the [[jet prolongation]] of $\Phi$ (def. \ref{JetProlongation}):
 
 Notice that generally the operation of [[pullback of differential forms]]
 along any smooth function intertwines the full [[de Rham differentials]]. In particular
-we have by prop. \ref{PullbackOfDifferentialFormsIsChainMap} that
+we have by prop. \ref{PullbackOfDifferentialForms} that
 
 $$
   d \circ j^\infty_\Sigma(\Phi)^\ast
@@ -6782,6 +6810,42 @@ of the total spacetime derivative of $f$ (eq:SpacetimeTotalDerivativeOnSmoothFun
 =--
 
 
++-- {: .num_prop #HorizontalVariationalComplexOfTrivialFieldBundleIsExact}
+###### Proposition
+**([[horizontal variational complex]] of [[trivial vector bundle|trivial]] [[field bundle]] is [[exact sequence|exact]])
+
+Let $E \overset{fb}{\to} \Sigma$ be a [[field bundle]] which is a [[trivial vector bundle]] over [[Minkowski spacetime]] (example \ref{TrivialVectorBundleAsAFieldBundle}). Then the [[chain complex]] of [[horizontal differential forms]] $\Omega^{s,0}_\Sigma(E)$ 
+with the [[total spacetime derivative]] ([[horizontal derivative]]) $d$ (def. \ref{VariationalBicomplexOnSecondOrderJetBundleOverTrivialVectorBundleOverMinkowskiSpacetime})
+
+$$
+  \mathbb{R}
+    \overset{}{\hookrightarrow}
+  \Omega^{0,0}_\Sigma(E)
+    \overset{d}{\longrightarrow}
+  \Omega^{1,0}_\Sigma(E)
+    \overset{d}{\longrightarrow}
+  \Omega^{2,0}_\Sigma(E)
+    \overset{d}{\longrightarrow}
+    \cdots
+    \overset{d}{\longrightarrow}
+  \Omega^{p,0}_\Sigma(E)
+    \overset{d}{\longrightarrow}
+  \Omega^{p+1}_\Sigma(E)
+$$
+
+is [[exact sequence|exact]]: for all $0 \leq s \leq p$ the [[kernel]] of $d$ coincides with the [[image]] of $d$
+in $\Omega^{s,0}_\Sigma(E)$. 
+
+More explicitly, this means that not only is every horizontally exact differential form $\omega = d \alpha$ horizontally closed
+$d \omega = 0$ (which follows immediately from the fact that we have a [[cochain complex]] in the first place, hence that $d^2 = 0$),
+but, conversely, if $\omega \in \Omega^{0 \leq s \leq p,0}_\Sigma(E)$ satisfies $d \omega = 0$, then there exists
+$\alpha \in \Omega^{s-1,0}_\Sigma(E)$ with $\omega = d \alpha$.
+
+=--
+
+(e.g. [Anderson 89, prop. 4.3](variational+bicomplex#Anderson89))
+
+$\,$
 
 ## Lagrangians
   {#LagrangianFieldTheory}
@@ -7250,7 +7314,7 @@ $$
   (-1)^{\mu} d x^0 \wedge \cdots d x^{\mu-1} \wedge d x^{\mu+1} \wedge \cdots \wedge d x^p
 $$
 
-denotes the contraction of the volume form with the [[vector field]] $\partial_\mu$.
+denotes the contraction (def. \ref{ContractionOfFormsWithVectorFields}) of the volume form with the [[vector field]] $\partial_\mu$.
 
 The [[vertical derivative]] of a chosen $\Theta_{BFV}$ is called a _[[pre-symplectic current]]_ for $\mathbf{L}$:
 
@@ -7882,7 +7946,7 @@ there is a unique [[vector field]] $\hat v$ on the [[jet bundle]] $J^\infty_\Sig
      \,;
    $$
 
-1. contraction with $\hat v$ anti-commutes with the [[total derivative|total spacetime derivative]]:
+1. contraction with $\hat v$ (def. \ref{ContractionOfFormsWithVectorFields}) anti-commutes with the [[total derivative|total spacetime derivative]]:
 
    $$
      \label{ProlongedEvolutionaryVectorFieldContractionAnticommutedWithHorizontalDerivative}
@@ -7890,7 +7954,7 @@ there is a unique [[vector field]] $\hat v$ on the [[jet bundle]] $J^\infty_\Sig
      \,.
    $$
 
-In particular [[Cartan's homotopy formula]]
+In particular [[Cartan's homotopy formula]] (prop. \ref{CartanHomotopyFormula})
 for the [[Lie derivative]] $\mathcal{L}_{\hat v}$ holds with respect to the [[variational derivative]] $\delta$:
 
 $$
@@ -7920,7 +7984,7 @@ $$
 
 It is sufficient to prove the coordinate version of the statement.
 We prove this by [[induction]] over the maximal jet order $k$. Notice that the coefficient of $\partial_{\phi^a_{\mu_1 \cdots \mu_k}}$
-in $\hat v$ is given by the contraction $\iota_{\hat v} \delta \phi^a_{\mu_1 \cdots \mu_k}$.
+in $\hat v$ is given by the contraction $\iota_{\hat v} \delta \phi^a_{\mu_1 \cdots \mu_k}$ (def. \ref{ContractionOfFormsWithVectorFields}).
 
 Similarly (at "$k = -1$") the component of $\partial_{\mu_1}$ is given by $\iota_{\hat v} d x^{\mu}$. But by the second condition
 above this vanishes:
@@ -7970,7 +8034,7 @@ $$
 
 This shows that $\hat v$ satisfying the two conditions given exists uniquely. Finally
 the formula for the [[Lie derivative]] follows from the second of the two conditions with [[Cartan's homotopy formula]]
-$\mathcal{L}_{\hat v} = \mathbf{d} \circ \iota_{\hat v} + \iota_{\hat v} \circ \mathbf{d}$
+$\mathcal{L}_{\hat v} = \mathbf{d} \circ \iota_{\hat v} + \iota_{\hat v} \circ \mathbf{d}$ (prop. \ref{CartanHomotopyFormula})
 together with $\mathbf{d} = \delta + d$ (eq:VariationalDerivative).
 
 =--
@@ -8142,7 +8206,7 @@ a presymplectic potential (eq:PresymplecticPotential) from def. \ref{EulerLagran
 +-- {: .proof}
 ###### Proof
 
-By [[Cartan's homotopy formula]] for the [[Lie derivative]] and using (eq:dLDecomposition)
+By [[Cartan's homotopy formula]] for the [[Lie derivative]] (prop. \ref{CartanHomotopyFormula}) and using (eq:dLDecomposition)
 and the fact that the variation vector field $v$ vanishes on horizontal differential forms
 we may re-express the defining equation for the symmetry as
 
@@ -8505,7 +8569,7 @@ is a [[Hamiltonian differential form]] for $v$.
 +-- {: .proof}
 ###### Proof
 
-By [[Cartan's homotopy formula]] for the [[Lie derivative]] we have
+By [[Cartan's homotopy formula]] for the [[Lie derivative]] (prop. \ref{CartanHomotopyFormula}) we have
 
 $$
   \begin{aligned}
@@ -8609,7 +8673,7 @@ $$
   \,.
 $$
 
-This makes [[Cartan's homotopy formula]] for the [[Lie derivative]]
+This makes [[Cartan's homotopy formula]] for the [[Lie derivative]] (prop. \ref{CartanHomotopyFormula})
 
 $$
   \mathcal{L}_v = \mathbf{d} \circ \iota_v + \iota_v \circ \mathbf{d}
@@ -9471,7 +9535,7 @@ for _fixed_ $u \in U$ the pullback of $\delta \phi^a_{\mu_1 \cdots \mu_k}$ along
      \end{aligned}
    $$
 
-   (since the full de Rham differentials always commute with pullback of differential forms by prop. \ref{PullbackOfDifferentialFormsIsChainMap}),
+   (since the full de Rham differentials always commute with pullback of differential forms by prop. \ref{PullbackOfDifferentialForms}),
    while the pullback of the horizontal derivative
 $d \phi^a_{\mu_1\cdots \mu_k} = \phi^a_{\mu_1 \cdots \mu_{k} \mu_{k+1}} \mathbf{d}x^{\mu_{k+1}}$
 vanishes at fixed $x \in \Sigma$.
@@ -11278,13 +11342,13 @@ Now after this restriction, the fact that the _[[kernel of integration is the ex
 implies that if a Hamiltonian differential form is in the [[kernel]] of the transgression map
 relative to $\Sigma_p$ then over every smooth collection $\Phi_{(-)} \colon U \to \Gamma_{\Sigma_p}(E)_{\delta_{EL}\mathbf{L} = 0}$ of field histories (according to def. \ref{DifferentialFormsOnDiffeologicalSpaces}) it is [[exact differential form|exact]].
 This implies that it is closed for all $\Phi$, and this implies by prop. \ref{PullbackAlongJetProlongationIntertwinesHorizontalDerivative}
-that on the jet bundle it is horizontally exact.
-But since the field bundle is trivial by assumption, this in turn implies that the form on the jet bundle is horizontally 
-exact (e.g. [Anderson 89, prop. 4.3](variational+bicomplex#Anderson89)).
+that on the jet bundle it is horizontally closed.
+But since the field bundle is trivial by assumption, prop. \ref{HorizontalVariationalComplexOfTrivialFieldBundleIsExact}
+applies and says that this horizontally closed form on the jet bundle is in fact horizonally exact.
 
 Therefore the claim
 now follows with the statement that horizontally exact forms constitute a
-Lie ideal for the Poisson bracket on the jet bundle, which is lemma \ref{HorizontallyExactFormsDropOutOfLocalLieBracket}.
+[[Lie ideal]] for the local Poisson bracket on the jet bundle; this is lemma \ref{HorizontallyExactFormsDropOutOfLocalLieBracket}.
 
 =--
 
