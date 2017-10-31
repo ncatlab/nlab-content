@@ -287,6 +287,43 @@ Finally to see that this argument generalizes to $\mathbf{H} = $ [[formal smooth
 
 ## Properties
 
+### Fourier transform
+
+
++-- {: .num_defn #FourierTransformOfCompactlySupportedDistribution}
+###### Proposition/Definition
+
+For $n \in \mathbb{N}$, let $u \in \mathcal{E}'(\mathbb{R}^n)$ be a compactly supported distribution on [[Cartesian space]] $\mathbb{R}^n$. Then its _[[Fourier transform of distributions]]_ is the function
+
+$$
+  \array{
+    \mathbb{R}^n &\overset{\hat u}{\longrightarrow}& \mathbb{R}
+    \\
+    \zeta &\mapsto& u\left(e^{-i\langle -,\zeta \rangle} \right)
+  }
+$$
+
+where on the right we have the application of $u$, regarded as a [[linear function]] $u \colon C^\infty(\mathbb{R}^n) \to \mathbb{R}$, to the [[exponential function]] applied to the canonical [[inner product]] $\langle -,-\rangle$ on $\mathbb{R}^n$.
+
+This same formula makes sense more generally for [[complex numbers]] $\zeta \in \mathbb{C}^n$. This is then called the _[[Fourier-Laplace transform]]_ of $u$, still denoted by the same symbol:
+
+
+$$
+  \array{
+    \mathbb{C}^n &\overset{\hat u}{\longrightarrow}& \mathbb{R}
+    \\
+    \zeta &\mapsto& u\left(e^{-i\langle -,\zeta \rangle} \right)
+  }
+$$
+
+This is an [[entire analytic function]] on $\mathbb{C}^n$.
+
+
+
+=--
+
+([H&#246;rmander 90, theorem 7.1.14](#Hoermander90))
+
 ### Wave front set
 
 
