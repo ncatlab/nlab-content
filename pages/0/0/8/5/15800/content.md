@@ -169,17 +169,17 @@ A good review of the axial anomaly is in
 
 and of the resulting [[phenomenology]] of baryon number non-conservation is in
 
-* {#Dine90} [[Michael Dine]], _Baryon number violation at high-energy in the standard model: Fact or fiction?_ Sep 1990 
-Review includes ([spire](https://inspirehep.net/record/299206?ln=de), [pdf](http://www.slac.stanford.edu/cgi-wrap/getdoc/ssi90-020.pdf))
+* {#Dine90} [[Michael Dine]], _Baryon number violation at high-energy in the standard model: Fact or fiction?_ Sep 1990 , Review includes ([spire](https://inspirehep.net/record/299206?ln=de), [pdf](http://www.slac.stanford.edu/cgi-wrap/getdoc/ssi90-020.pdf))
 
-* Heidi Kuismanen, section 2 of _Leptogenesis as the origin of
-matter-antimatter asymmetry in extra dimensionaL and supersymmetric modeLs_ ([[KuismanenBaryogenesis.pdf:file]])
+* Heidi Kuismanen, section 2 of _Leptogenesis as the origin of matter-antimatter asymmetry in extra dimensionaL and supersymmetric modeLs_ ([[KuismanenBaryogenesis.pdf:file]])
 
 Further review includes
 
-* V.A. Rubakov, M.E. Shaposhnikov, _Electroweak Baryon Number Non-Conservation in the Early Universe and in High Energy Collisions_, Usp.Fiz.Nauk 166:493-537,1996; Phys.Usp.39:461-502,1996 ([arXiv:hep-ph/9603208](https://arxiv.org/abs/hep-ph/9603208))
+* V.A. Rubakov, [[Mikhail Shaposhnikov]], _Electroweak Baryon Number Non-Conservation in the Early Universe and in High Energy Collisions_, Usp.Fiz.Nauk 166:493-537,1996; Phys.Usp.39:461-502,1996 ([arXiv:hep-ph/9603208](https://arxiv.org/abs/hep-ph/9603208))
 
 * Antonio Riotto, Mark Trodden, _Recent Progress in Baryogenesis_, Ann.Rev.Nucl.Part.Sci.49:35-75,1999 ([arXiv:hep-ph/9901362](http://arxiv.org/abs/hep-ph/9901362))
+
+* Laurent Canetti, Marco Drewes, [[Mikhail Shaposhnikov]], _Matter and Antimatter in the Universe_, New J. Phys. 14 (2012) 095012 ([arXiv:1204.4186](https://arxiv.org/abs/1204.4186))
 
 * Yanagida, _The origin of matter_ ([[YanagidaBaryogenesis.pdf:file]])
 
