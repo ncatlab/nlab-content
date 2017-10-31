@@ -42,7 +42,7 @@ $$
   f^\ast \;\colon\; \mathcal{D}'(X_2) \longrightarrow \mathcal{D}'(X_1)
 $$
 
-between spaces of distributions ([this def.](distribution#DistributionOnOpenSubsetOfEuclideanSpace)) which extends the [[pullback of functions]] in that on a distribution represented by a [[bump function]] $b$ it is given by pre-[[composition]]
+between spaces of distributions ([this def.](distribution#DistributionOnOpenSubsetOfEuclideanSpace)) which extends the [[pullback of functions]] in that on a [[non-singular distribution]] represented by a [[bump function]] $b$ it is given by pre-[[composition]]
 
 $$
   f^\ast b = b \circ f
