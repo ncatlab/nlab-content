@@ -25,7 +25,9 @@ Given a point in [[Minkowski spacetime]], its _light cone_ is the subspace of al
 
 More generally for a point $x$ in a [[Lorentzian manifold]] $(X,g)$, its lightcone is the lightcone in the [[tangent space]] $T_x X$.
 
-Sometimes one also calls the collection of all [[time-like]] vectors the light cone, then denoted $V_x \subset T_x X$. On a [[time orientation|time oriented]] spacetime this decomposes into the _[[future cone]]_ $V_x^+$ and the _[[past cone]]_ $V_x^-$.
+Sometimes one also calls the collection of all [[time-like]] vectors the light cone, then denoted $V_x \subset T_x X$. On a [[time orientation|time oriented]] spacetime this decomposes into the _[[future cone]]_ $V_x^+$ and the _[[past cone]]_ $V_x^-$. 
+
+All these are _[[conical sets]]_.
 
 ## Related concepts
 
