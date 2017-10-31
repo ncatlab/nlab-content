@@ -56,7 +56,7 @@ If the monoidal structure of $C$ is [[cartesian monoidal category|cartesian]] (a
 
 ### Left-, right- and bi-closed monoidal category
 
-If $C$ is [[monoidal category|monoidal]] not necessarily [[symmetric monoidal category|symmetric]], then left and right [[tensor product]] $-\otimes b$ and $b\otimes -$ may be non-equivalent functors, and either one or both may have an adjoint.  The terminology here is less standard, but many people use **left closed**, **right closed**, and **biclosed** monoidal category to indicate, respectively, that the left tensor product, the right tensor product functors or both have [[right adjoints]]. So in particular a symmetric closed monoidal category is automatically biclosed.
+If $C$ is [[monoidal category|monoidal]] not necessarily [[symmetric monoidal category|symmetric]], then left and right [[tensor product]] $-\otimes b$ and $b\otimes -$ may be non-equivalent functors, and either one or both may have an adjoint.  The terminology here is less standard, but many people use **left closed**, **right closed**, and **biclosed** monoidal category to indicate, respectively, that the left tensor product, the right tensor product functors or both have [[right adjoints]].  (Other authors simply say **closed** instead of biclosed.)  So in particular a symmetric closed monoidal category is automatically biclosed.
 
 The analogue of exponential objects for monoidal categories are [[residual|left and right residuals]].
 
