@@ -225,6 +225,10 @@ $$
 
 ([H&#246;rmander 90, (8.1.10), p. 256](#Hoermander90))
 
+## Related concepts
+
+* [[ultraviolet divergence]]
+
 
 ## References
 
