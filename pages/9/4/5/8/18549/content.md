@@ -3,12 +3,19 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Harmonic analysis
++-- {: .hide}
+[[!include harmonic analysis - contents]]
+=--
 #### Functional analysis
 +--{: .hide}
 [[!include functional analysis - contents]]
 =--
 =--
 =--
+
+
+
 
 
 #Contents#
@@ -69,7 +76,7 @@ $$
 ###### Proposition
 **(Fourier transform of [[compactly supported distributions]])**
 
-If $u \in \mathcal{D}'(\mathbb{R}^n) \hookrightarrow \mathcal{E}'(\mathbb{R}^n)$ happens is a [[compactly supported distribution]], regarded as a [[tempered distribution]], then its Fourier transform according to def. \ref{FourierTransformOfTemperedDistribution} is a smooth function 
+If $u \in \mathcal{D}'(\mathbb{R}^n) \hookrightarrow \mathcal{E}'(\mathbb{R}^n)$ happens to be a [[compactly supported distribution]], regarded as a [[tempered distribution]], then its Fourier transform according to def. \ref{FourierTransformOfTemperedDistribution} is a smooth function 
 
 $$
   \hat u \in \mathcal{S}(\mathbb{R}^n)
@@ -81,6 +88,8 @@ $$
   \hat u \;\colon\; \xi \mapsto \langle  u, \exp(-i \langle -, \xi\rangle) \rangle
   \,.
 $$
+
+This is well-defined also on [[complex numbers]], which makes it an [[entire holomorphic function]], called the _[[Fourier-Laplace transform]]_.
 
 =--
 
