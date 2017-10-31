@@ -20,7 +20,7 @@
 
 ## Idea
 
-The [[stable (infinity,1)-category of spectra]] has a [[dualizing object in a closed category]] (dualizing module), the _[[Anderson spectrum]]_ $I_{\mathbb{Z}}$ ([[Representability Theorems|Lurie, Example 4.3.9]]). The [[duality]] that this induces is called _Anderson duality_.
+The [[stable (infinity,1)-category of spectra]] has a [[dualizing object in a closed category|dualizing object]] (dualizing module) on a suitable subcategory of finite spectra.  It is called the _[[Anderson spectrum]]_ $I_{\mathbb{Z}}$ ([[Representability Theorems|Lurie, Example 4.3.9]]). The [[duality]] that this induces is called _Anderson duality_.
 
 ## Examples
 
