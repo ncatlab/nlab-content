@@ -35,6 +35,8 @@ Three examples of cones that [[simply-connected]] [[G2-manifolds]] seem to be kn
 
 * [[Sasakian manifold]]
 
+* [[conical space]]
+
 ## References
 
 * {#AtiyahWitten01} [[Michael Atiyah]], [[Edward Witten]] _$M$-Theory dynamics on a manifold of $G_2$-holonomy_, Adv. Theor. Math. Phys. 6 (2001) ([arXiv:hep-th/0107177](http://arxiv.org/abs/hep-th/0107177))
