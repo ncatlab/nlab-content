@@ -792,3 +792,6 @@ Discussion in the context of [[supergeometry]] is in
 
 [[!redirects total spacetime derivative]]
 [[!redirects total spacetime derivatives]]
+
+[[!redirects horizontal variational complex]]
+[[!redirects horizontal variational complexes]]
