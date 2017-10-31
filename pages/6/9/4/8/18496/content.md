@@ -360,15 +360,59 @@ $$
 
 (e.g. [Hoermander 90, theorem 7.3.1](#Hoermander90))
 
++-- {: .num_prop #DecayPropertyOfFourierTransformOfCompactlySupportedFunctions}
+###### Proposition
+**(decay of [[Fourier transform of distributions|Fourier transform]] of [[compactly supported functions]])**
 
-### Wave front set
+A [[compactly supported distribution]] $u \in \mathcal{E}'(\mathbb{R}^n)$ is a [[non-singular distribution]] (def. \ref{NonSingularCompactlySupportedDistributions}), hence given by a [[compactly supported function]] $b \in C^\infty_{cp}(\mathbb{R}^n)$ via $u(f) = \int b(x) f(x) dvol(x)$, precisely if its [[Fourier transform of a distribution|Fourier transform]] $\hat u$ ([this def.](compactly+supported+distribution#FourierTransformOfCompactlySupportedDistribution)) satisfies the following decay property:
+
+For all $N \in \mathbb{N}$ there exists $C_N \in \mathbb{R}_+$ such that for all $\xi \in \mathbb{R}^n$ we have that the [[absolute value]] ${\vert \hat v(\xi)\vert}$ of the Fourier transform at that point is bounded by
+
+$$
+  {\vert \hat v(\xi)\vert}
+  \;\leq\;
+  C_N \left( 1 + {\vert \xi\vert} \right)^{-N}
+  \,.
+$$
+
+=--
+
+(e.g. [Hoermander 90, around (8.1.1)](#Hoermander90))
+
+
+
+### Singular support and Wave front set
+
+
++-- {: .num_defn #SingularSupportOfCompactlySupportedDistribution}
+###### Definition
+**([[singular support]] of a [[compactly supported distribution]])**
+
+For $n \in \mathbb{N}$ and $u \in \mathcal{E}'(\mathbb{R}^n)$ a [[compactly supported distribution]], its _[[singular support]]_ is the [[subset]] of the [[Cartesian space]] $\mathbb{R}^n$ of those points which have no [[neighbourhood]] on which $u$ [[restriction of distributions|restricts]] to a [[non-singular distribution]] (def. \ref{NonSingularCompactlySupportedDistributions}):
+
+$$
+  supp_{sing}(u)
+  \;\coloneqq\;
+  \left\{
+    u \in \mathbb{R}^n
+    \,\vert\,
+    \not \left(
+      \underset{U \underset{\text{nbhd}}{\supset} \{x\}}{\exists} u\vert_U \in C^\infty_{cp}(U)
+     \right)
+  \right\}
+  \,.
+$$
+
+=--
+
+By prop. \ref{DecayPropertyOfFourierTransformOfCompactlySupportedFunctions} the [[singular support of a distribution]] (def. \ref{SingularSupportOfCompactlySupportedDistribution}) consists of those points around which the [[Fourier transform of distributions|Fourier transform of the distribution]] receives large high-[[frequency]] ("UV") contributions. But in fact prop. \ref{DecayPropertyOfFourierTransformOfCompactlySupportedFunctions} allows to say more precisely _which_ high frequency Fourier modes make the distribution singular at a given point. These are said to be part of the _wave front_ of the distribution, and the collection of all of them is called the _[[wave front set]]_ of the distribution:
 
 
 +-- {: .num_prop #EmptyWaveFrontSetCorrespondsToOrdinaryFunction}
 ###### Proposition
 **([[empty set|empty]] [[wave front set]] corresponds to ordinary [[smooth functions]])**
 
-The [[wave front set]] of a compactly supported distribution is [[empty set|empty]] precisely if the distribution comes from an ordinary [[smooth function]] (hence a [[bump function]]). 
+The [[wave front set]] of a [[compactly supported distribution]] is [[empty set|empty]] precisely if the distribution is [[non-singular distribution|non-singular]] (example \ref{NonSingularCompactlySupportedDistributions}).
 
 =--
 
@@ -377,6 +421,32 @@ e.g. ([H&#246;rmander 90, below (8.1.1)](#Hoermander90))
 
 
 ## Examples
+
+
++-- {: .num_defn #NonSingularCompactlySupportedDistributions}
+###### Definition
+**(non-singular compactly supported distributions)
+
+For $n \in \mathbb{N}$, a [[compactly supported function|compactly supported]] [[smooth function]] $b \in C^\infty_{cp}(\mathbb{R}^n)$ (a [[bump function]]) induces a [[compactly supported distribution]]
+
+$$
+  \int_{\mathbb{R}^n} (-) b dvol_{\mathbb{R}^n}
+  \;\colon\;
+  C^\infty(\mathbb{R}^n) \longrightarrow \mathbb{R}
+$$
+
+by [[integration]] of smooth functions against $b dvol$.
+
+This construction defines a linear inclusion
+
+$$
+  C^\infty_{cp}(\mathbb{R}^n) \hookrightarrow \mathcal{E}'(\mathbb{R}^n)
+  \,.
+$$
+
+The compactly supported distributions arising this way are called the _[[non-singular distributions]]_.
+
+=--
 
 * [[microcausal functional]]
 
