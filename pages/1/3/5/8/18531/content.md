@@ -109,7 +109,7 @@ $$
   \,,
 $$
 
-where $i_\ast b \in C^\infty_c(X)$ is the result of extending $b$ by zero to all of $X$.
+where $i_\ast b \in C^\infty_c(X)$ is the result of [[extension|extending]] $b$ by zero to all of $X$.
 
 
 =--
@@ -140,4 +140,10 @@ where $i_\ast b \in C^\infty_c(X)$ is the result of extending $b$ by zero to all
 [[!redirects pullback of distributions]]
 [[!redirects pullbacks of distributions]]
 
+
+[[!redirects restriction of a distribution]]
+[[!redirects restrictions of a distribution]]
+
+[[!redirects restriction of distributions]]
+[[!redirects restrictions of distributions]]
 
