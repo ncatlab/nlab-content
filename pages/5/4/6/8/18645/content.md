@@ -2976,7 +2976,7 @@ This implies the statement via the equality $A \tilde A = \tilde A A = -det(A)$ 
 
 +-- {: .num_remark #TwoComponentSpinorNotation}
 ###### Remark
-**(two-component spinor notation)**
+**(two-component [[spinor]] notation)**
 
 In the [[physics]]/[[QFT]] literature the expressions for [[spinors]] representations
 given by prop. \ref{SpinorRepsByNormedDivisionAlgebra} are traditionally written in
@@ -3822,7 +3822,7 @@ For more background on [[diffeological spaces]] see also _[[geometry of physics 
 **([[Cartesian spaces]] are [[diffeological spaces]])**
 
 Let $X$ be a [[Cartesian space]] (def. \ref{CartesianSpacesAndSmoothFunctionsBetweenThem}) Then it becomes a [[diffeological space]] (def. \ref{DiffeologicalSpace})
-by declaring its plots $\Phi \in X(\mathbb{R}^n)$ to the the ordinary [[smooth functions]]
+by declaring its plots $\Phi \in X(\mathbb{R}^n)$ to the ordinary [[smooth functions]]
 $\Phi \colon \mathbb{R}^n \to X$.
 
 Under this identification, a function $f \;\colon\; (X_1)_s \to (X_2)_s$ between the underlying sets
@@ -3923,7 +3923,7 @@ is not actually crucial to support the concept: The space is already entirely de
 by the system of smooth plots it has, and the underlying set $X_s$ is recovered from these as the set of plots
 from the point $\mathbb{R}^0$.
 
-This is crucial for [[field theory]]: the [[spaces of field histories]] of [[fermionic fields]]
+This is crucial for [[field theory]]: the [[spaces of field histories]] of [[fermionic fields]] (def. \ref{FermionicBosonicFields} below)
 such as the _[[Dirac field]]_ (example \ref{DiracSpaceOfFieldHistories} below) do not have underlying
 sets of points the way [[diffeological spaces]] have. Informally, the reason is that a point
 is a [[bosonic]] object, while and the nature of [[fermionic fields]] is [[antimodal type|the opposite of]]
@@ -4319,22 +4319,22 @@ such that
 We write $\Omega^\bullet(X)$ for the set of differential forms on the smooth set $X$
 defined this way.
 
-Moreover, given a [[differential form|differential k-form]] 
+Moreover, given a [[differential form|differential k-form]]
 
 $$
   X \overset{\omega}{\longrightarrow} \mathbf{\Omega}^k
 $$
 
-on a [[smooth set]] $X$ this way, then its [[de Rham differential]] $d \omega \in \Omega^{k+1}(X)$ is 
+on a [[smooth set]] $X$ this way, then its [[de Rham differential]] $d \omega \in \Omega^{k+1}(X)$ is
 given by the [[composition|composite]]
 of [[morphisms]] of [[smooth sets]] with the universal de Rham differential from (eq:deRhamDifferentialUniversal):
 
 
 $$
   \label{FormsOnSmoothSetDeRhamDifferential}
-  d \omega  
+  d \omega
     \;\colon\;
-  X 
+  X
     \overset{\omega}{\longrightarrow}
   \mathbf{\Omega}^k
     \overset{d}{\longrightarrow}
@@ -4342,7 +4342,7 @@ $$
   \,.
 $$
 
-Explicitly this means simply that for $\Phi \colon U \to X$ a plot, then 
+Explicitly this means simply that for $\Phi \colon U \to X$ a plot, then
 
 $$
   \Phi^\ast (d\omega)
@@ -5357,7 +5357,7 @@ $\,$
 **[[fermion fields]] and [[supergeometry]]**
  {#Supergeometry}
 
-Field theories of interest crucially involve [[fermionic fields]], such as the [[Dirac field]] (example \ref{DiracFieldBundle} below),
+Field theories of interest crucially involve [[fermionic fields]] (def. \ref{FermionicBosonicFields} below), such as the [[Dirac field]] (example \ref{DiracFieldBundle} below),
 which are subject to the "[[Pauli exclusion principle]]", a key reason for the [[stability of matter]].
 Mathematically this means that these
 [[field (physics)|fields]] have [[field bundles]] whose [[field fiber]]
@@ -5374,7 +5374,7 @@ was in fact first considered by [[Ausdehnungslehre|Grassmann 1844]] who got it r
 was too far ahead of his time and remained unappreciated.
 
 Beware that considering [[supergeometry]] does _not_ necessarily involve considering "[[supersymmetry]]".
-Supergeometry is the geometry of [[fermion fields]], and that all [[matter]] fields in the [[observable universe]] are fermionic
+Supergeometry is the geometry of [[fermion fields]] (def. \ref{FermionicBosonicFields} below), and that all [[matter]] fields in the [[observable universe]] are fermionic
 has been [[experiment|experimentally]] established since the [[Stern-Gerlach experiment]] in 1922. Supersymmetry,
 on the other hand, is a hypothetical extension of [[spacetime]]-[[symmetry]]
 within the context of [[supergeometry]]. Here we do not discuss supersymmetry; for details see instead at _[[geometry of physics -- supersymmetry]]_.
@@ -5743,30 +5743,69 @@ such that
 
 Basing [[supergeometry]] on [[super formal smooth sets]] is an instance of the general approach to [[geometry]] called _[[functorial geometry]]_ or _[[topos theory]]_. For more background on this see at _[[geometry of physics -- supergeometry]]_.
 
-We do not need to consider here [[supermanifolds]] more general than the [[super Cartesian spaces]] (def. \ref{SuperCartesianSpace}).
-But for those readers familiar with the concept we include the following example, which is the direct
-supergeometric analog of how ordinary [[smooth manifolds]] are [[diffeological spaces]]
-(example \ref{SmoothManifoldsAreDiffeologicalSpaces}) and hence [[smooth sets]]:
+In direct generalization of example \ref{SmoothManifoldsAreDiffeologicalSpaces} we have:
 
-+-- {: .num_example}
++-- {: .num_example #SuperSmoothSetSuperCartesianSpaces}
 ###### Example
-**([[supermanifolds]] are [[super formal smooth set|super smooth sets]])**
+**([[super Cartesian spaces]] are [[super formal smooth sets|super smooth sets]])**
 
-Let $X$ be a [[supermanifold]]. Then it becomes a [[super formal smooth set|super smooth set]] (def. \ref{SuperFormalSmoothSet})
-by declaring the plots from a [[super Cartesian space]] $U$ (def. \ref{SuperCartesianSpace})
-to be the ordinary smooth functions of supermanifolds:
+Let $X$ be a [[super Cartesian space]] (def. \ref{SuperCartesianSpace}) Then it becomes a [[super formal smooth set|super smooth set]] (def. \ref{SuperFormalSmoothSet})
+by declaring its plots $\Phi \in X(\mathbb{R}^n \times \mathbb{D})$ to the algebra homomorphisms
+$ C^\infty(\mathbb{R}^n \times \mathbb{D}) \leftarrow C^\infty(\mathbb{R}^{b\vert s})$.
 
-$$
-  X(U) \coloneqq Hom_{Supermanifolds}(U,X)
-  \,.
-$$
+Under this identification, morphisms between [[super Cartesian spaces]] are in [[natural bijection]]
+with their morphisms regarded as [[super formal smooth set|super smooth sets]].
 
-This construction exhibits [[supermanifolds]] as a [[full subcategory]] of [[super formal smooth set|super smooth sets]]:
+Stated more [[category theory|abstractly]], this statement is an example of the _[[Yoneda embedding]]_
+over a _[[subcanonical site]]_.
 
-$$
-  Supermanifolds \overset{\phantom{AAA}}{\hookrightarrow} SuperSmoothSet
-  \,.
-$$
+=--
+
+
+We do not need to consider here [[supermanifolds]] more general than the [[super Cartesian spaces]] (def. \ref{SuperCartesianSpace}).
+But for those readers familiar with the concept we include the following direct analog of
+the characterization of [[smooth manifolds]] according to def./prop. \ref{SmoothManifoldInsideDiffeologicalSpaces}:
+
++-- {: .num_defn #SuperSmoothManifolds}
+###### Definition/Proposition
+**([[supermanifolds]])**
+
+A _[[supermanifold]]_ $X$ of [[dimension]] super-dimension $(b,s) \in \mathbb{N} \times \mathbb{N}$ is
+
+* a [[super smooth set]] (def. \ref{SuperFormalSmoothSet})
+
+such that
+
+1. there exists an [[indexed set]] $\{ \mathbb{R}^{b\vert s} \overset{\phi_i}{\to} X\}_{i \in I}$
+   of morphisms of [[super formal smooth sets|super smooth sets]] (def. \ref{SuperFormalSmoothSet}) from [[super Cartesian spaces]] $\mathbb{R}^{b\verts s}$ (def. \ref{SuperCartesianSpace}) (regarded as [[super formal smooth set|super smooth sets]] via example \ref{SuperSmoothSetSuperCartesianSpaces}
+   into $X$, such that
+
+   1. for every plot $\mathbb{R}^n \times \mathbb{D} \to X$ there is a [[differentiably good open cover]] (def. \ref{DifferentiablyGoodOpenCover}) restricted to which the plot factors through the $\mathbb{R}^{b\vert s}_i$;
+
+   1. every $\phi_i$ is a [[local diffeomorphism]] according to def. \ref{FormalSmoothSetLocalDiffeomorphism},
+      now with respect not just to [[infinitesimally thickened points]], but with respect to [[superpoints]];
+
+1. the [[bosonic modality|bosonic]] part of $X$ is a [[smooth manifold]] according to def./prop. \ref{SmoothManifoldInsideDiffeologicalSpaces}.
+
+=--
+
+
++-- {: .num_defn #FermionicBosonicFields}
+###### Definition
+**([[bosonic fields]] and [[fermionic fields]])**
+
+For $\Sigma$ a [[spacetime]], such as [[Minkowski spacetime]] (def. \ref{MinkowskiSpacetime})
+if a [[fiber bundle]] $E \overset{fb}{\longrightarrow} \Sigma$ with total space a [[super Cartesian space]] (def. \ref{SuperCartesianSpace})
+(or more generally a [[supermanifold]], def./prop. \ref{SuperSmoothManifolds}) is regarded as a super-[[field bundle]] (def. \ref{Fields}),
+then
+
+* the even-graded [[sections]] are called the _[[bosonic field|bosonic]]_ [[field histories]];
+
+* the odd-graded [[sections]] are called the _[[fermionic field|fermionic]]_ [[field histories]].
+
+In components, if $E = \Sigma \times F$ is a [[trivial bundle]] with [[fiber]] a [[super Cartesian space]] (def. \ref{SuperCartesianSpace})
+with even-graded [[coordinates]] $(\phi^a)$ and odd-graded [[coordinates]] $(\psi^A)$, then the $\phi^a$ are called the
+_[[bosonic field|bosonic]]_ field coordinates, and the $\psi^A$ are called the _[[fermionic field|fermionic]]_ field coordinates.
 
 =--
 
@@ -5776,18 +5815,19 @@ What is crucial for the discussion of [[field theory]] is the following immediat
 ###### Example
 **([[super smooth set|supergeometric]]  [[space of field histories]])**
 
-Let $E \overset{fb}{\to} \Sigma$ be a smooth [[field bundle]] (def. \ref{Fields})
-whose total space $E$ is now allowed to be a [[super Cartesian space]] (def. \ref{SuperCartesianSpace})
-(or more generally any [[supermanifold]] or even any [[super formal smooth set]] (def. \ref{SuperFormalSmoothSet})).
+Let $E \overset{fb}{\to} \Sigma$ be a super-[[field bundle]] (def. \ref{Fields}, def. \ref{FermionicBosonicFields}).
 
 Then the _[[space of sections]]_, hence the _[[space of field histories]]_, is the [[super formal smooth set]] (def. \ref{SuperFormalSmoothSet})
 
 $$
-  \Gamma_\Sigma(E) \in SuperFormalSmoothSet
+  \Gamma_\Sigma(E) \in SuperSmoothSet
 $$
 
-whose plots $\Phi_{(-)}$ for a given [[super Cartesian space]] $\mathbb{R}^{p\vert q}$  (def. \ref{SuperCartesianSpace})
-are defined to be the morphisms of the form
+whose plots $\Phi_{(-)}$ for a given [[Cartesian space]] $\mathbb{R}^n$ and
+[[superpoint]] $\mathbb{D}$  (def. \ref{SuperCartesianSpace}) with the [[Cartesan products]]
+$U \coloneqq \mathbb{R}^n \times \mathbb{D}$ and $U \times \Sigma$ regarded as
+[[super formal smooth set|super smooth sets]] according to example \ref{SuperSmoothSetSuperCartesianSpaces} are defined to be the [[morphisms]]
+of [[super formal smooth set|super smooth set]] (def. \ref{SuperFormalSmoothSet})
 
 $$
   \array{
@@ -5808,10 +5848,35 @@ $$
   \,.
 $$
 
+Explicitly, if $\Sigma$ is a [[Minkowski spacetime]] (def. \ref{MinkowskiSpacetime}) and $E = \Sigma \times F$
+a [[trivial bundle|trivial]] [[field bundle]] with [[field fiber]] a [[super vector space]] (example \ref{TrivialVectorBundleAsAFieldBundle}, example \ref{FermionicBosonicFields}) this means [[formal duality|dually]] that a plot $\Phi_{(-)}$
+of the super smooth set of field histories is a
+[[homomorphism]] of [[supercommutative superalgebras]] (def. \ref{SupercommutativeSuperalgebra})
+
+$$
+  \array{
+    C^\infty(U \times \Sigma) &\overset{\left(\Phi_{(-)}(-)\right)^\ast}{\longleftarrow}& C^\infty(E)
+  }
+$$
+
+which make the following [[commuting diagram|diagram commute]]:
+
+$$
+  \array{
+    && C^\infty(E)
+    \\
+    & {}^{\mathllap{\left(\Phi_{(-)}(-)}\right)^\ast }\swarrow & \uparrow^{\mathrlap{fb^\ast}}
+    \\
+    C^\infty(U \times \Sigma) &\underset{pr_2^\ast}{\longleftarrow}& C^\infty(\Sigma)
+  }
+  \,.
+$$
+
+
 =--
 
-We will focus on discussing the [[supergeometry|supergeometric]] [[space of field histories]] (example \ref{SupergeometricSpaceOfFieldHistories}) of the _[[Dirac field]]_. We consider this below in example \ref{DiracFieldBundle},
-but first we discuss some relevant basics of general [[supergeometry]].
+We will focus on discussing the [[supergeometry|supergeometric]] [[space of field histories]] (example \ref{SupergeometricSpaceOfFieldHistories}) of the _[[Dirac field]]_ (def. \ref{DiracFieldBundle} below). This we consider below in example \ref{DiracFieldBundle};
+but first we discuss now some relevant basics of general [[supergeometry]].
 
 Example \ref{SupergeometricSpaceOfFieldHistories} is really a special case of a general
 relative [[mapping space]]-construction as in example \ref{MappingSpaceOutOfAnInfinitesimallyThickenedCartesianSpace}.
@@ -5840,7 +5905,8 @@ $$
 
 =--
 
-In direct generalization of example \ref{TangentBundleSynthetic} to supergeometry we have
+In direct generalization of the [[synthetic differential geometry|synthetic]] [[tangent bundle]]
+construction (example \ref{TangentBundleSynthetic}) to supergeometry we have
 
 +-- {: .num_defn #TangentBundleOdd}
 ###### Definition
@@ -5850,7 +5916,13 @@ Let $X$ be a [[super formal smooth set|super smooth set]] (def. \ref{SuperFormal
 and $\mathbb{R}^{0\vert 1}$ the [[superpoint]] (eq:StandardSuperpoints) then the [[supergeometry|supergeometry]]-[[mapping space]]
 
 $$
-  T_{odd} X \;\coloneqq\; [\mathbb{R}^{0\vert 1}, X]
+  \array{
+    T_{odd} X & \coloneqq& [\mathbb{R}^{0\vert 1}, X]
+    \\
+    {}^{\mathllap{tb_{odd}}}\downarrow && \downarrow^{\mathrlap{ [ \ast \to \mathbb{R}^{0 \vert 1}, X ] }}
+    \\
+    X & = & X
+  }
 $$
 
 is called the _[[odd tangent bundle]]_ of $X$.
@@ -5896,14 +5968,14 @@ $$
     \\
     &
     \simeq
-    Hom_{\mathbb{R}Alg}( \wedge^\bullet(V^\ast), C^\infty(U)[\theta]/(\theta^2) )
+    Hom_{\mathbb{R}sAlg}( \wedge^\bullet(V^\ast)\,,\, C^\infty(U)[\theta]/(\theta^2) )
     \\
     &
     \simeq
-    Hom_{\mathbb{R}Vect}( V^\ast , (C^\infty(U)_{odd} \oplus C^\infty(U)_{even}\langle \theta\rangle  )
+    Hom_{\mathbb{R}Vect}( V^\ast \,,\, (C^\infty(U)_{odd} \oplus C^\infty(U)_{even}\langle \theta\rangle  )
     \\
     & \simeq
-    Hom_{\mathbb{R}Vect}( V^\ast, C^\infty(U)_{odd} ) \times Hom_{\mathbb{R}Vect}( V^\ast, C^\infty(U)_{even} )
+    Hom_{\mathbb{R}Vect}( V^\ast\,,\, C^\infty(U)_{odd} ) \,\times\, Hom_{\mathbb{R}Vect}( V^\ast, C^\infty(U)_{even} )
     \\
     & \simeq
     V_{odd}(U) \times V(U)
@@ -5914,8 +5986,14 @@ $$
 $$
 
 Here in the third line we used that the [[Grassmann algebra]] $\wedge^\bullet V^\ast$ is [[free construction|free]]
-on its generators in $V^\ast$, meaning that an algebra homomorphism out of the Grassmann algebra is uniquely
-fixed by the underlying [[linear function]] on these generators.
+on its generators in $V^\ast$, meaning that a homomorphism of [[supercommutative superalgebras]] out of the Grassmann algebra is uniquely
+fixed by the underlying degree-preserving [[linear function]] on these generators. Since in a [[Grassmann algebra]]
+all the generators are in odd degree, this is equivalently a linear map from $V^\ast$ to the odd-graded
+[[real vector space]] underlying $C^\infty(U)[\theta](\theta^2)$,
+which is the [[direct sum]] $C^\infty(U)_{odd} \oplus C^\infty(U)_{even}\langle \theta \rangle$.
+
+Then in the fourth line we used that [[finite coproduct|finite]] [[direct sums]] are [[Cartesian products]],
+so that linear maps into a direct sum are [[pairs]] of linear maps into the direct summands.
 
 That all these [[bijections]] are [[natural bijection|natural]] means that they are compatible with
 morphisms $U \to U'$ and therefore this says that $[\mathbb{R}^{0\vert 1}, V_{odd}]$ and $V_{odd} \times V$
@@ -5931,7 +6009,24 @@ With this [[supergeometry]] in hand we finally turn to defining the [[Dirac fiel
 **([[field bundle]] for [[Dirac field]])**
 
 For $\Sigma$ being [[Minkowski spacetime]] (def. \ref{MinkowskiSpacetime}),
-of dimension $2+1$, $3+1$, $5+1$ or $9+1$, let $S$ be the [[spin representation]] from prop. \ref{SpinorRepsByNormedDivisionAlgebra}.
+of dimension $2+1$, $3+1$, $5+1$ or $9+1$, let $S$ be the [[spin representation]] from prop. \ref{SpinorRepsByNormedDivisionAlgebra},
+whose underlying [[vector space]] is
+
+$$
+  S \;=\;
+  \left\{
+    \array{
+      \mathbb{R}^2 & \vert & p + 1 = 2+1
+      \\
+      \mathbb{C}^2 \simeq_{\mathbb{R}} &\vert& p + 1 = 3 + 1
+      \\
+      \mathbb{H}^2 \simeq_{\mathbb{R}} &\vert& p + 1 = 5 + 1
+      \\
+      \mathbb{O}^2 \simeq_{\mathbb{R}} &\vert& p + 1 = 9 + 1
+    }
+  \right.
+$$
+
 With
 
 $$
@@ -5949,7 +6044,7 @@ $$
 hence the [[field fiber]] is the [[superpoint]] $S_{odd}$.
 
 The traditional two-component [[spinor]] basis from remark \ref{TwoComponentSpinorNotation}
-provides field coordinates on the [[field fiber]] $S_{odd}$:
+provides [[fermionic field]] coordinates (def. \ref{FermionicBosonicFields}) on the [[field fiber]] $S_{odd}$:
 
 $$
   \left(
@@ -5962,8 +6057,8 @@ $$
   \,.
 $$
 
-Notice that these are $\mathbb{K}$-valued functions. For instance if $\mathbb{K} = \mathbb{C}$ then each $\chi_a$ in turn has
-two components, a real part and an imaginary part.
+Notice that these are $\mathbb{K}$-valued odd functions: For instance if $\mathbb{K} = \mathbb{C}$ then each $\chi_a$ in turn has
+two components, a [[real part]] and an [[imaginary part]].
 
 A key point with the [[field bundle]] of the [[Dirac field]] (example \ref{DiracFieldBundle})
 is that the field fiber coordinates $(\psi^A)$ or $\left((\chi_a), (\xi^{\dagger \dot a})\right)$
@@ -5976,20 +6071,33 @@ $$
   \,.
 $$
 
+
+
+<img src="https://ncatlab.org/nlab/files/DermisekAnticommutingSpinorFieldCoordinates.jpg" width="400">
+
+> snippet grabbed from ([Dermisek 09](Dirac+field#DermisekI8))
+
 =--
 
 
-We analyze the nature of the [[supergeometry|supergeometry]] [[space of field histories]] of the [[Dirac field]] a little:
+We analyze the special nature of the [[supergeometry|supergeometry]] [[space of field histories]] of the [[Dirac field]] a little (prop. \ref{DiracSpaceOfFieldHistories}) below
+and conclude by highlighting the crucial role of [[supergeometry]] (remark \ref{DiracFieldSupergeometric} below)
 
 +-- {: .num_defn #DiracSpaceOfFieldHistories}
 ###### Proposition
 **([[space of field histories]] of the [[Dirac field]])**
 
-Let $E = \Sigma \times S_{odd} \overset{pr_1}{\to}  \Sigma$ be the [[field bundle]] for the [[Dirac field]]
-over [[Minkowski spacetime]] $\Sigma = \mathbb{R}^{p,1}$ from example \ref{DiracFieldBundle}.
+Let $E = \Sigma \times S_{odd} \overset{pr_1}{\to}  \Sigma$ be the super-[[field bundle]] (def. \ref{FermionicBosonicFields}) for the [[Dirac field]] over [[Minkowski spacetime]] $\Sigma = \mathbb{R}^{p,1}$ from example \ref{DiracFieldBundle}.
 
-Then the corresponding [[supergeometry|supergeometry]] [[space of field histories]] $\Gamma_\Sigma(\Sigma \times S_{odd})$ (example \ref{SupergeometricSpaceOfFieldHistories})
-has the following properties:
+Then the corresponding [[supergeometry|supergeometric]] [[space of field histories]] 
+
+$$
+  \Gamma_\Sigma(\Sigma \times S_{odd})
+  \;\in\;
+  SuperSmoothSet
+$$ 
+
+from example \ref{SupergeometricSpaceOfFieldHistories} has the following properties:
 
 1. For $U = \mathbb{R}^n$ an ordinary [[Cartesian space]] (with no super-geometric thickening, def. \ref{SuperCartesianSpace})
    there is only a single $U$-parameterized collection of [[field histories]], hence a single plot
@@ -6001,7 +6109,7 @@ has the following properties:
    and this corresponds to the [[zero section]], hence to the trivial [[Dirac field]]
 
    $$
-     \Psi^A_u = 0
+     \Psi^A_{(-)} = 0
      \,.
    $$
 
@@ -6012,16 +6120,26 @@ has the following properties:
      \Psi_{(-)} \;\colon\; \mathbb{R}^{n\vert 1} \longrightarrow \Gamma_\Sigma(\Sigma \times S_{odd})
    $$
 
-   are in [[natural bijection]] with plots
+   are in [[natural bijection]] with plots of sections of the [[bosonic field|bosonic]]-field bundle 
+   with field fiber $S_{even} = S$ the [[spin representation]] regarded as an ordinary vector space: 
 
    $$
      \theta \Psi_{(-)} \;\colon\; \mathbb{R}^n \longrightarrow \Gamma_\Sigma(\Sigma \times S_{even})
      \,,
    $$
 
-   hence to smoothly $\mathbb{R}^n$-parameterized smooth [[sections]] of the ordinary [[field bundle]]
-   whose [[field fiber]] is the ordinary vector space $S_{even}$.
+Moreover, these two kinds of plots determine the fermionic field space completely: It is 
+in fact [[isomorphism|isomorphic]], as a [[super vector space]], to the bososnic field space
+shifted to odd degree (as in example \ref{SuperpointInducedByFiniteDimensionalVectorSpace}):
 
+$$
+  \Gamma_\Sigma(\Sigma \times S_{odd})
+    \;\simeq\;
+  \left(
+    \Gamma_\Sigma(E\times S_{even})
+  \right)_{odd}
+  \,.
+$$
 
 =--
 
@@ -6047,12 +6165,46 @@ to the ordinary algebras of [[smooth functions]] on $\mathbb{R}^n \times \mathbb
 But the latter has no elements in odd degree, and hence all the Grassmann generators need to be
 send to zero.
 
-The second case follows by example \ref{SuperpointsMapping}.
+For the second case, notice that a morphism of the form
+
+$$
+  \mathbb{R}^{n\vert 1}
+    \overset{\Psi_{(-)}}{\longrightarrow}
+  S_{odd}
+$$
+
+is by def. \ref{TangentBundleOdd} [[natural bijection|naturally identified]] with a morphism of the form
+
+$$
+  \mathbb{R}^n \overset{}{\longrightarrow} [\mathbb{R}^{0 \vert 1}, S_{odd}] \simeq S_{odd} \times S_{even}
+  \,,
+$$
+
+where the identification on the right is from example \ref{SuperpointsMapping}. 
+
+By the [[universal property|nature]] of [[Cartesian products]] these morphisms in turn 
+are [[natural bijection|naturally identified]] with [[pairs]] of morphisms of the form
+
+$$
+  \left(
+    \array{
+      \mathbb{R}^n &\overset{}{\longrightarrow}& S_{odd}\,,
+      \\
+      \mathbb{R}^n &\overset{}{\longrightarrow}& S_{even}
+    }
+  \right)
+  \,.
+$$
+
+Now, as in the first point above, here the first component is uniquely fixed
+to be the [[zero morphism]] $\mathbb{R}^n \overset{0}{\to} S_{odd}$;
+and hence only the second component is free to choose. This is precisely the claim to be shown.
+
 
 =--
 
 
-+-- {: .num_remark }
++-- {: .num_remark #DiracFieldSupergeometric}
 ###### Remark
 **([[supergeometry|supergeometric]] nature of the [[Dirac field]])**
 
@@ -6061,7 +6213,7 @@ which may superficially seem to be in tension with each other, are properly unif
 
 1. On the one hand a [[field history]] $\Psi$ of the [[Dirac field]] is _not_ an ordinary section of an ordinary [[vector bundle]].
    In particular its component functions $\psi^A$ anti-commute with each other, which is not the case for
-   ordinary function, and this is absolutely crucial for the [[Lagrangian density]] of the Dirac field to be
+   ordinary functions, and this is absolutely crucial for the [[Lagrangian density]] of the Dirac field to be
    well defined, we come to this below in example \ref{LagrangianDensityForDiracField}.
 
 1. On the other hand a [[field history]] of the [[Dirac field]] is supposed to be a [[spinor]], hence
@@ -6069,8 +6221,8 @@ which may superficially seem to be in tension with each other, are properly unif
 
 Prop. \ref{DiracSpaceOfFieldHistories} shows how, even so a Dirac field is not defined to be
 an ordinry section of an ordinary vector bundle, it is nevertheless encoded by such an ordinary section:
-One says that this ordinary section is the "[[superfield]]-component" of the Dirac field
-which is linear in a Grassmann variable $\theta$.
+One says that this ordinary section is a "[[superfield]]-component" of the Dirac field,
+the one linear in a Grassmann variable $\theta$.
 
 
 
@@ -6094,7 +6246,7 @@ Moving around in this space means to change the possible value of fields and the
 ###### Definition
 **([[jet bundle]] of a [[trivial vector bundle]] over [[Minkowski spacetime]])**
 
-Given a [[field fiber]] [[vector space]] $F = \mathbb{R}^s$ with [[linear basis]] $(\phi^a)_{a = 1}^s$,
+Given a [[field fiber]] [[super vector space]] $F = \mathbb{R}^{b\vert s}$ with [[linear basis]] $(\phi^a)$,
 then for $k \in \mathbb{N}$ a natural number,  the _order-$k$ [[jet bundle]]_
 
 $$
@@ -6113,7 +6265,7 @@ $$
   E \coloneqq \Sigma \times F
 $$
 
-is the [[Cartesian space]] which is spanned by coordinate functions to be denoted as follows:
+is the [[super Cartesian space]] (def. \ref{SuperCartesianSpace}) which is spanned by coordinate functions to be denoted as follows:
 
 $$
   \left(
@@ -6133,7 +6285,8 @@ $$
   \right)
 $$
 
-where the indices $\mu, \mu_1, \mu_2, \cdots$ range from 0 to $p$, while the index $a$ ranges from $1$ to $s$. In terms of these coordinates the [[bundle]] [[projection]] map $jb_k$ is just the one that remembers the spacetime coordinates $x^\mu$ and forgets the values of the field $\phi^a$ and its derivatives $\phi_{\mu}$. Similarly there are intermediate projection maps
+where the indices $\mu, \mu_1, \mu_2, \cdots$ range from 0 to $p$, while the index $a$ ranges from $1$ to $b$ for the
+even field coordinates, and them from $b+1$ to $b+s$ for the odd-graded field coordinates. In terms of these coordinates the [[bundle]] [[projection]] map $jb_k$ is just the one that remembers the spacetime coordinates $x^\mu$ and forgets the values of the field $\phi^a$ and its derivatives $\phi_{\mu}$. Similarly there are intermediate projection maps
 
 $$
   \array{
@@ -6156,11 +6309,10 @@ given by forgetting coordinates with more indices.
 The _infinite-order [[jet bundle]]_
 
 $$
-  J^\infty_\Sigma(E) \in SmoothSet
+  J^\infty_\Sigma(E) \in SuperSmoothSet
 $$
 
-is the [[direct limit]] over these finite order jet bundles,
-formed in the [[category]] of [[smooth sets]]. This means that it is the [[smooth set]] which is defined
+is the [[direct limit]] of [[super formal smooth sets|super smooth sets]] (def. \ref{SuperFormalSmoothSet}) over these finite order jet bundles. Explicitly this means that it is the [[smooth set]] which is defined
 by the fact that a smooth function
 
 $$
@@ -6281,7 +6433,7 @@ $$
 
 Moreover, given a [[field history]] $\Phi$, hence a [[section]] of the [[field bundle]],
 then its [[jet prolongation]] $j^\infty(\Phi)$ (def. \ref{JetProlongation}) is that [[section]]
-of the [[jet bundle]] which under the above identification is simply the restriction of 
+of the [[jet bundle]] which under the above identification is simply the restriction of
 $\Phi$ to the [[infinitesimal neighbourhood]] of $x$:
 
 $$
@@ -6315,6 +6467,10 @@ $$
 
 This follows with an argument as in example \ref{InfinitesimalNeighbourhoodsInTheRealLine}.
 
+Hence in [[synthetic differential geometry]] we have:
+
+_The jet of a section $\Phi$ at $x$ is simply the restriction of that section to the [[infinitesimal neighbourhood]] of $x$._
+
 =--
 
 ([[schreiber:Synthetic variational calculus|Khavkine-Schreiber 17, section 3.3]])
@@ -6329,9 +6485,8 @@ history.
 **(universal [[Faraday tensor]]/[[field strength]] on [[jet bundle]])**
 
 Consider the [[field bundle]] (def. \ref{Fields}) of the [[electromagnetic field]] (example \ref{Electromagnetism})
-over [[Minkowski spacetime]] $\Sigma$, i.e. the [[cotangent bundle]] $E = T^\ast \Sigma$ with jet coordinates
-$((x^\mu), (a_\mu), (a_{\mu,\nu}), \cdots )$. Consider the functions on its [[jet bundle]] given by the linear
-combinations
+over [[Minkowski spacetime]] $\Sigma$ (def. \ref{MinkowskiSpacetime}), i.e. the [[cotangent bundle]] $E = T^\ast \Sigma$ (def. \ref{Differential1FormsOnCartesianSpaces}) with jet coordinates
+$((x^\mu), (a_\mu), (a_{\mu,\nu}), \cdots )$ (def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}). Consider the functions on the [[jet bundle]] given by the linear combinations
 
 $$
   \label{FaradayTensorJet}
@@ -6344,7 +6499,7 @@ $$
 
 of the first order jets.
 
-Then for an electromagnetic [[field (physics)|field]] history ("[[vector potential]]"), hence a [[section]]
+Then for an [[electromagnetism|electromagnetic]] [[field history]] ("[[vector potential]]"), hence a [[section]]
 
 $$
   A \in \Gamma_\Sigma(T^\ast \Sigma) = \Omega^1(\Sigma)
@@ -6398,16 +6553,14 @@ given by
 $$
   D_\mu a_\nu^\alpha
    \;\coloneqq\;
-  a^\alpha_{\nu,\mu}
+  a^\alpha_{[\nu,\mu]}
   +
   \tfrac{1}{2}
     \gamma^{\alpha}{}_{\beta \gamma}
-    a^\beta_{\mu} a^\gamma_{\nu}
-  -
-  (\mu \leftrightarrow \nu)
+    a^\beta_{[\mu} a^\gamma_{\nu]}
 $$
 
-where $(\gamma^\alpha{}_{\beta \gamma})$ the structure constants of the Lie algebra as in (eq:LieAlgebraStructureConstants)
+where $(\gamma^\alpha{}_{\beta \gamma})$ are the structure constants of the Lie algebra as in (eq:LieAlgebraStructureConstants),
 and where the square brackets around the indices denote anti-symmetrization.
 For $\mathfrak{g} = \mathbb{R}$ the [[line Lie algebra]] this reduces to the universal [[Faraday tensor]] (eq:FaradayTensorJet) for
 the [[electromagnetic field]] (example \ref{JetFaraday}).
@@ -6438,6 +6591,12 @@ in that
 [[smooth  functions]] on jet bundles turn out to _locally_ depend on only finitely many of the jet coordinates
 (i.e. only on a finite order of spacetime derivatives). This is the content
 of the following prop. \ref{JetBundleIsLocallyProManifold}.
+
+This reflects the _locality_ of [[Lagrangian field theory]] defined over [[jet bundles]]: If
+functions on the jet bundle could depend on infinitely many jet coordinates, then by [[Taylor series]]
+expansion of fields the function at one point over spacetime could in fact depend on field
+history values at a _different_ point of spacetime. Such non-local dependence is ruled out by prop. \ref{JetBundleIsLocallyProManifold} below.
+
 In practice this means that the situation is very convenient:
 
 1. Any given [[local Lagrangian density]] (which will define a field theory, we come to this in def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime} below)
@@ -6561,7 +6720,6 @@ $$
     \mathbf{d} x^\mu
     \\
     & \coloneqq
-    \underoverset{\mu = 0}{p}{\sum}
     \left(
       \frac{\partial f}{\partial x^\mu}
       +
@@ -6596,6 +6754,31 @@ $$
   \delta \coloneqq \mathbf{d} - d
   \,.
 $$
+
+We may then extend the [[horizontal derivative]] from functions on the jet bundle to all
+[[differential forms]] on the jet bundle by declaring that 
+
+$$
+  d \circ \mathbf{d} \coloneqq - \mathbf{d} \circ d
+  \,.
+$$
+
+For example 
+
+$$
+  \begin{aligned}
+    d \mathbf{d}\phi
+    & =
+    - \mathbf{d} d  \phi
+    \\
+    & =
+    - \mathbf{d} \left( \phi_{,\mu} d x^\mu \right)
+    \\
+    & = - \mathbf{d} \phi_{,\mu} \wedge d x^\mu
+    \,.
+  \end{aligned}
+$$
+
 
 This defines a bigrading on the [[de Rham complex]] of $J^\infty_\Sigma(E)$, into horizontal degree $r$ and vertical degree $s$
 
@@ -9261,7 +9444,7 @@ $$
 
 **Observables on fermionic fields**
 
-In the case that $E$ has purely [[fermionic]] [[fibers]], such as for the [[Dirac field]] (example \ref{DiracFieldBundle})
+In the case that $E$ has purely [[fermionic]] [[fibers]] (def. \ref{FermionicBosonicFields}), such as for the [[Dirac field]] (example \ref{DiracFieldBundle})
 with
 $E = \Sigma\times S_{odd}$  then the only point in $Obs_{E,\mathbf{L}}$ is the zero-observable,
 instead an observable is now a morphism
@@ -11465,16 +11648,16 @@ $$
   \in \Omega^p(U)
 $$
 
-then the fact that the _[[kernel of integration is the exact differential forms]]_ says that 
-$j^\infty_\Sigma(\Phi_{(-)})^\ast H \in \Omega^p(U \times \Sigma)$ is $d_\Sigma$-[[exact differential form|exact]] and hence in particular 
+then the fact that the _[[kernel of integration is the exact differential forms]]_ says that
+$j^\infty_\Sigma(\Phi_{(-)})^\ast H \in \Omega^p(U \times \Sigma)$ is $d_\Sigma$-[[exact differential form|exact]] and hence in particular
 $d_\Sigma$-[[closed differential form|closed]] for all $\Phi_{(-)}$:
 
 $$
   d_\Sigma j^\infty(\Phi_{(-)})^\ast H \;=\; 0
   \,.
 $$
- 
-By prop. \ref{PullbackAlongJetProlongationIntertwinesHorizontalDerivative} this means that 
+
+By prop. \ref{PullbackAlongJetProlongationIntertwinesHorizontalDerivative} this means that
 
 $$
   j^\infty(\Phi_{(-)})^\ast ( d H ) \;= \; 0
@@ -11488,7 +11671,7 @@ $$
   d H \;=\; 0
   \,.
 $$
- 
+
 Now since the field bundle $E \overset{fb}{\to} \Sigma$ is [[trivial bundle|trivial]] by assumption, prop. \ref{HorizontalVariationalComplexOfTrivialFieldBundleIsExact}
 applies and says that this horizontally closed form on the jet bundle is in fact horizontally exact.
 
@@ -15005,7 +15188,7 @@ whose [[field bundle]] $E$ is a [[trivial vector bundle]] (example \ref{TrivialV
 and let $\Sigma \times \{\varphi\} \hookrightarrow \mathcal{E}$ be a constant section of the shell (eq:ConstantSectionOfTrivialShellBundle).
 Furthermore assume that $\mathbf{L}$ is at least quadratic in the vertical coordinates around $\varphi$.
 
-Then the local [[BV-complex]] $\Omega^{0,0}_\Sigma(E,\varphi)\vert_{\mathcal{E}_{BV}}$ of local observables (def. \ref{BVComplexOfOrdinaryLagrangianDensity}) is a [[homological resolution]] of the the algebra of functions on the [[infinitesimal neighbourhood]] of $\varphi$ in the [[shell]] (example \ref{ShellForSpacetimeIndependentLagrangians}),
+Then the local [[BV-complex]] $\Omega^{0,0}_\Sigma(E,\varphi)\vert_{\mathcal{E}_{BV}}$ of local observables (def. \ref{BVComplexOfOrdinaryLagrangianDensity}) is a [[homological resolution]] of the algebra of functions on the [[infinitesimal neighbourhood]] of $\varphi$ in the [[shell]] (example \ref{ShellForSpacetimeIndependentLagrangians}),
 hence the canonical comparison morphisms (eq:ComparisonMorphismFromOrdinaryBVComplexToLocalObservables)
 is a [[quasi-isomorphism]]
 precisely if there is no non-trivial (example \ref{TrivialImplicialInfinitesimalGaugeTransformations}) implicit [[infinitesimal gauge symmetry]] (def. \ref{ImplicitInfinitesimalGaugeSymmetry}):
