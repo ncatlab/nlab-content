@@ -55,8 +55,7 @@ This comparatively simple setup already subsumes what is considered in most trad
 Further generalization, necessary for the discussion of global topological effects, such as [[instanton]] configurations
 of [[gauge fields]], will be discussed elsewhere (see at _[[homotopical algebraic quantum field theory]]_).
 
-Alongside the theory we develop the concrete examples of the [[real scalar field]], the [[electromagnetic field]]
-the [[Dirac field]]:
+Alongside the theory we develop the concrete examples of the [[real scalar field]], the [[electromagnetic field]] and the [[Dirac field]]:
 
 **running examples**
 {#RunningExamples}
@@ -75,7 +74,7 @@ $\,$
 **Acknowledgement**
 
 These notes profited greatly from discussions with [[Igor Khavkine]].
-Further helpful comments on the notes were made by [[Severin Bunk]], [[David Corfield]], [[Arnold Neumaier]], [[David Roberts]].
+Further helpful comments on the notes were made by [[Arnold Neumaier]], as well as by [[Severin Bunk]], [[David Corfield]] and [[David Roberts]].
 Thanks also to [[Kasia Rejzner]] for helpful replies.
 
 
@@ -5253,7 +5252,7 @@ $\,$
 We close the discussion of [[synthetic differential geometry|infinitesimal differential geometry]] by explaining how we may recover the concept of _[[smooth manifolds]]_ inside the more general [[formal smooth sets]] (def./prop. \ref{SmoothManifoldInsideDiffeologicalSpaces} below).
 The key point is that the presence of [[infinitesimals]] in the theory allows an intrinsic definition of
 [[local diffeomorphisms]]/[[formally étale morphism]] (def. \ref{FormalSmoothSetLocalDiffeomorphism} and example \ref{AbstractLocalDiffeomorphismsOfCartesianSpaces} below). It is noteworthy that the only role this concept plays in the development
-of [[field theory]] below is that [[mooth manifolds]] admit [[triangulations]] by smooth [[singular simplices]] (def. \ref{SingularSimplicesInCartesianSpaces})
+of [[field theory]] below is that [[smooth manifolds]] admit [[triangulations]] by smooth [[singular simplices]] (def. \ref{SingularSimplicesInCartesianSpaces})
 so that the concept of [[fiber integration|fiber]] [[integration of differential forms]] is well defined over manifolds.
 
 +-- {: .num_defn #FormalSmoothSetLocalDiffeomorphism}
@@ -16644,7 +16643,7 @@ $$
   C^\infty(X) \longrightarrow \mathbb{R}
 $$
 
-on the [[smooth space]] of smooth functions on $X$ which is generated from those [[distributions]] on some Cartesian product $X^n$ (as in def. \ref{sping}) whose [[wave front set]] excludes those covectors to a point in $X^n$ all whose components are in the [[future cone]] or all whose components are in the [[past cone]].
+on the [[smooth space]] of smooth functions on $X$ which is generated from those [[distributions]] on some Cartesian product $X^n$ whose [[wave front set]] excludes those covectors to a point in $X^n$ all whose components are in the [[future cone]] or all whose components are in the [[past cone]].
 
 =--
 
