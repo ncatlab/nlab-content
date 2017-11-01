@@ -1241,7 +1241,7 @@ $$
   \,.
 $$
 
-In particular for $\omega_1, \omega_2 \in \Omega^1(\mathbb{R}^n)$ two [[differential 1-forms]], then 
+In particular for $\omega_1, \omega_2 \in \Omega^1(\mathbb{R}^n)$ two [[differential 1-forms]], then
 
 $$
   \iota_{v} (\omega_1 \wedge \omega_2)
@@ -4158,7 +4158,7 @@ are universal smooth [[moduli spaces]] of [[differential forms]]:
 ###### Example
 **(universal [[smooth set|smooth]] [[moduli spaces]] of [[differential forms]])**
 
-For $k \in \mathbb{N}$ there is a [[smooth set]] (\def. \ref{SmoothSet})
+For $k \in \mathbb{N}$ there is a [[smooth set]] (def. \ref{SmoothSet})
 
 $$
   \mathbf{\Omega}^k \;\in\; SmoothSet
@@ -4235,6 +4235,7 @@ $$
 defined over $\mathbb{R}^n$ by the ordinary [[de Rham differential]] (def. \ref{deRhamDifferential})
 
 $$
+  \label{deRhamDifferentialUniversal}
   \Omega^k(\mathbb{R}^n) \overset{d}{\longrightarrow} \Omega^{k+1}(\mathbb{R}^n)
   \,.
 $$
@@ -4264,7 +4265,7 @@ and more generally on any [[smooth set]]:
 **([[differential forms]] on [[smooth sets]])**
 
 Let $X$ be a [[diffeological space]] (def. \ref{DiffeologicalSpace})
-or more generally a [[smooth set]] (def. \ref{SmoothSet}) then a [[differential form]]
+or more generally a [[smooth set]] (def. \ref{SmoothSet}) then a [[differential form|differential k-form]]
 $\omega$ on $X$ is equivalently a [[morphism]] of [[smooth sets]]
 
 $$
@@ -4317,6 +4318,40 @@ such that
 
 We write $\Omega^\bullet(X)$ for the set of differential forms on the smooth set $X$
 defined this way.
+
+Moreover, given a [[differential form|differential k-form]] 
+
+$$
+  X \overset{\omega}{\longrightarrow} \mathbf{\Omega}^k
+$$
+
+on a [[smooth set]] $X$ this way, then its [[de Rham differential]] $d \omega \in \Omega^{k+1}(X)$ is 
+given by the [[composition|composite]]
+of [[morphisms]] of [[smooth sets]] with the universal de Rham differential from (eq:deRhamDifferentialUniversal):
+
+
+$$
+  \label{FormsOnSmoothSetDeRhamDifferential}
+  d \omega  
+    \;\colon\;
+  X 
+    \overset{\omega}{\longrightarrow}
+  \mathbf{\Omega}^k
+    \overset{d}{\longrightarrow}
+  \mathbf{\Omega}^{k+1}
+  \,.
+$$
+
+Explicitly this means simply that for $\Phi \colon U \to X$ a plot, then 
+
+$$
+  \Phi^\ast (d\omega)
+  \;=\;
+  d\left( \Phi^\ast \omega\right)
+  \;\in\;
+  \Omega^{k+1}(U)
+  \,.
+$$
 
 =--
 
@@ -6202,6 +6237,89 @@ $$
 
 =--
 
+
++-- {: .num_remark #JetBundleInTermsOfSyntheticDifferentialGeometry}
+###### Remark
+**([[jet bundle]] in terms of [[synthetic differential geometry]])**
+
+In terms of the [[synthetic differential geometry|infinitesimal geometry]] of [[formal smooth sets]]
+(def. \ref{FormalSmoothSet}) the [[jet bundle]] $J^\infty_\Sigma(E) \overset{jb_\infty}{\to} \Sigma$ (def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
+of a [[field bundle]] $E \overset{fb}{\to}\Sigma$ has the following incarnation:
+
+A [[section]] of the [[jet bundle]] over a point $x \in \Sigma$ of [[spacetime]] (an [[event]]),
+is equivalently a section of the original [[field bundle]] over the [[infinitesimal neighbourhood]]
+$\mathbb{D}_x$ of that point (example \ref{InfinitesimalNeighbourhood}):
+
+$$
+  \left\{
+  \array{
+     && J^\infty_\Sigma(E)
+     \\
+     & \nearrow & \downarrow^{\mathrlap{jb_\infty}}
+     \\
+     \{x\}
+     &\hookrightarrow&
+     \Sigma
+  }
+  \phantom{AA}
+  \right\}
+  \phantom{AA}
+  \simeq
+  \phantom{AA}
+  \left\{
+  \array{
+    && E
+    \\
+    & {}^{\mathllap{}}\nearrow & \downarrow^{\mathrlap{fb}}
+    \\
+    \mathbb{D}_x &\hookrightarrow& \Sigma
+  }
+  \phantom{AA}
+  \right\}
+  \,.
+$$
+
+Moreover, given a [[field history]] $\Phi$, hence a [[section]] of the [[field bundle]],
+then its [[jet prolongation]] $j^\infty(\Phi)$ (def. \ref{JetProlongation}) is that [[section]]
+of the [[jet bundle]] which under the above identification is simply the restriction of 
+$\Phi$ to the [[infinitesimal neighbourhood]] of $x$:
+
+$$
+  \array{
+    && E
+    \\
+    & {}^{\mathllap{\Phi}}\nearrow & \downarrow^{\mathrlap{fb}}
+    \\
+    \Sigma & = & \Sigma
+  }
+  \phantom{AAAA}\overset{j^\infty_\Sigma}{\mapsto} \phantom{AAAA}
+  \array{
+    && J^\infty_\Sigma(E)
+    \\
+    & {}^{\mathllap{j^\infty_\Sigma(\Phi)}}\nearrow & \downarrow^{\mathrlap{jb_\infty}}
+    \\
+    \Sigma &=& \Sigma
+  }
+  \phantom{AAAA}
+  \overset{(-)\vert_{\{x\}} }{\mapsto}
+  \phantom{AAAA}
+  \array{
+    && E
+    \\
+    & {}^{\mathllap{\Phi\vert_{\mathbb{D}_x}}}\nearrow & \downarrow^{\mathrlap{fb}}
+    \\
+    \mathbb{D}_x &\hookrightarrow& \Sigma
+  }
+  \,.
+$$
+
+This follows with an argument as in example \ref{InfinitesimalNeighbourhoodsInTheRealLine}.
+
+=--
+
+([[schreiber:Synthetic variational calculus|Khavkine-Schreiber 17, section 3.3]])
+
+
 So the canonical [[coordinates]] on the jet bundle are the spacetime-point-wise _possible_ values of fields and field derivates,
 while the [[jet prolongation]] picks the actual collections of field derivatives that may occur for an actual field
 history.
@@ -6814,7 +6932,7 @@ of the total spacetime derivative of $f$ (eq:SpacetimeTotalDerivativeOnSmoothFun
 ###### Proposition
 **([[horizontal variational complex]] of [[trivial vector bundle|trivial]] [[field bundle]] is [[exact sequence|exact]])
 
-Let $E \overset{fb}{\to} \Sigma$ be a [[field bundle]] which is a [[trivial vector bundle]] over [[Minkowski spacetime]] (example \ref{TrivialVectorBundleAsAFieldBundle}). Then the [[chain complex]] of [[horizontal differential forms]] $\Omega^{s,0}_\Sigma(E)$ 
+Let $E \overset{fb}{\to} \Sigma$ be a [[field bundle]] which is a [[trivial vector bundle]] over [[Minkowski spacetime]] (example \ref{TrivialVectorBundleAsAFieldBundle}). Then the [[chain complex]] of [[horizontal differential forms]] $\Omega^{s,0}_\Sigma(E)$
 with the [[total spacetime derivative]] ([[horizontal derivative]]) $d$ (def. \ref{VariationalBicomplexOnSecondOrderJetBundleOverTrivialVectorBundleOverMinkowskiSpacetime})
 
 $$
@@ -6834,7 +6952,7 @@ $$
 $$
 
 is [[exact sequence|exact]]: for all $0 \leq s \leq p$ the [[kernel]] of $d$ coincides with the [[image]] of $d$
-in $\Omega^{s,0}_\Sigma(E)$. 
+in $\Omega^{s,0}_\Sigma(E)$.
 
 More explicitly, this means that not only is every horizontally exact differential form $\omega = d \alpha$ horizontally closed
 $d \omega = 0$ (which follows immediately from the fact that we have a [[cochain complex]] in the first place, hence that $d^2 = 0$),
@@ -10009,9 +10127,9 @@ $\,$
 **Polynomial Observables**
 {#LinearObservablesAreDistributions}
 
-We consider here _linear observables_ (def. \ref{LinearObservables} below) and more generally 
+We consider here _linear observables_ (def. \ref{LinearObservables} below) and more generally
 _quadratic observables_ (def. \ref{QuadraticObservables}) and generally _polynomial observables_ (def. \ref{PolynomialObservables} below) for [[free field theories]] and discuss how these are equivalently given by
-[[integration]] against [[generalized functions]] called _[[distributions]]_ (prop. \ref{LinearObservablesAreTheCompactlySupportedDistributions} and prop. \ref{DistributionsAreGeneralizedFunctions} below). 
+[[integration]] against [[generalized functions]] called _[[distributions]]_ (prop. \ref{LinearObservablesAreTheCompactlySupportedDistributions} and prop. \ref{DistributionsAreGeneralizedFunctions} below).
 
 This is the basis for the discussion of [[quantum observables]] for [[free field theories]] [further below](#FreeQuantumFields).
 
@@ -10156,7 +10274,7 @@ $$
   C^\infty_{cp}(\mathbb{R}^n) \overset{\phantom{AAA}}{\hookrightarrow} \mathcal{E}'(\mathbb{R}^n)
 $$
 
-and in fact this is a [[dense subspace]] inclusion for the space of compactly supported distributions 
+and in fact this is a [[dense subspace]] inclusion for the space of compactly supported distributions
 $\mathcal{E}'(\mathbb{R}^n)$ equipped with the [[dual space]] topology ([this def.](dual+vector+space#LinearDualOfATopologicalVectorSpace)) to the [[Fréchet space]] structure on $C^\infty(\mathbb{R}^n)$ from prop. \ref{LinearObservablesAreTheCompactlySupportedDistributions}.
 
 Hence every [[compactly supported distribution]] $u$ is the [[limit of a sequence|limit]] of a [[sequence]]  $\{b_n\}_{n \in \mathbb{N}}$
@@ -10197,8 +10315,8 @@ $$
   \,.
 $$
 
-With prop. \ref{DistributionsAreGeneralizedFunctions} it follows furthermore that 
-there is a [[sequence]] of [[tuples]] of [[smooth functions]] $\{(\alpha_n)_{a}\}_{n \in \mathbb{N}}$ such that $A_a$ 
+With prop. \ref{DistributionsAreGeneralizedFunctions} it follows furthermore that
+there is a [[sequence]] of [[tuples]] of [[smooth functions]] $\{(\alpha_n)_{a}\}_{n \in \mathbb{N}}$ such that $A_a$
 is the [[limit of a sequence|limit]] of the [[integrations]] against these:
 
 $$
@@ -10212,7 +10330,7 @@ $$
 
 where now the [[sum]] over the index $a$ is again left notationally implicit.
 
-For handling distributions/linear observables it is therefore useful to adopt, with due care, 
+For handling distributions/linear observables it is therefore useful to adopt, with due care,
 shorthand notation as if the [[limit of a sequence|limits]] of the [[sequences]] of [[smooth functions]] $(\alpha_n)_a$ actually existed,
 as "[[generalized functions]]" $\alpha_a$, and to set
 
@@ -10223,7 +10341,7 @@ $$
   \,,
 $$
 
-This suggests that basic operations on functions, such as their pointwise product, 
+This suggests that basic operations on functions, such as their pointwise product,
 should be [[extension|extended]] to [[distributions]], e.g. to a _[[product of distributions]]_.
 This turns out to exist, as long as the high-frequency modes in the [[Fourier transform of distributions|Fourier transform of]]
 the distributions being multiplied cancel out -- the mathematical reflection of "[[UV-divergences]]" in [[quantum field theory]].
@@ -10387,10 +10505,10 @@ $$
 
 =--
 
-In summary, the above establishes that the Schwartz theory of ([[compactly supported distributions|compactly supported]]) 
+In summary, the above establishes that the Schwartz theory of ([[compactly supported distributions|compactly supported]])
 [[distributions]] neatly applies to characterize smooth polynomial observables on the [[diffeological space|diffeological]]
 [[space of field histories]] in the case that this space has linear structure. This brings powerful tools from
-[[microlocal analysis]] to bear on the analysis of [[quantum field theory]]. This we turn to 
+[[microlocal analysis]] to bear on the analysis of [[quantum field theory]]. This we turn to
 below in _[Free quantum fields](#FreeQuantumFields)_ with respect to _[[products of distributions]]_
 and then further below in _[Renormalization](#Renormalization)_ with respect to _[[extensions of distributions]]_.
 
@@ -11173,14 +11291,14 @@ $\,$
 **Hamiltonian local observables**
  {#HamiltonianLocalObservablesOnACauchySurface}
 
-We have defined the _[[local observables]]_ (def. \ref{LocalObservables}) as 
+We have defined the _[[local observables]]_ (def. \ref{LocalObservables}) as
 the [[transgression of variational differential forms|transgressions]] of horizontal $p+1$-forms
-(with compact spacetime support) to the [[on-shell]] [[space of field histories]] $\Gamma_{\Sigma}(E)_{\delta_{EL}\mathbf{L} = 0}$ over 
+(with compact spacetime support) to the [[on-shell]] [[space of field histories]] $\Gamma_{\Sigma}(E)_{\delta_{EL}\mathbf{L} = 0}$ over
 all of [[spacetime]] $\Sigma$. More
 explicitly, these could be called the _spacetime local observables_.
 
 But with every choice of [[Cauchy surface]] $\Sigma_p \hookrightarrow \Sigma$ (def. \ref{CauchySurface}) comes another notion
-of local observables: those that are [[transgression of variational differential forms|transgressions]] 
+of local observables: those that are [[transgression of variational differential forms|transgressions]]
 of horizontal $p$-forms (instead of $p+1$-forms) to the [[on-shell]]
 [[space of field histories]] restricted to the [[infinitesimal neighbourhood]] of that Cauchy surface (def. \ref{FieldHistoriesOnInfinitesimalNeighbourhoodOfSubmanifoldOfSpacetime}): $\Gamma_{\Sigma_p}(E)_{\delta_{EL} \mathbf{L} = 0}$.
 These are _spatially local observables_, with respect to the given choice of [[Cauchy surface]].
@@ -11188,9 +11306,9 @@ These are _spatially local observables_, with respect to the given choice of [[C
 Among these spatially local observables are the _Hamiltonian local observables_ (def. \ref{HamiltonianLocalObservables} below)
 which are [[transgression of variational differential forms|transgressions]] specifically of the
 [[Hamiltonian differential forms|Hamiltonian forms]] (def. \ref{HamiltonianForms}).
-These inherit a transgression of the [[Poisson bracket Lie n-algebra|local Poisson bracket]] (prop. \ref{LocalPoissonBracket}) 
+These inherit a transgression of the [[Poisson bracket Lie n-algebra|local Poisson bracket]] (prop. \ref{LocalPoissonBracket})
 to a [[Poisson bracket]] on Hamiltonian local observables (def. \ref{PoissonBracketOnHamiltonianLocalObservables} below).
-This is known as the _[[Peierls bracket]]_ (example \ref{PoissonBracketForRealScalarField} below). 
+This is known as the _[[Peierls bracket]]_ (example \ref{PoissonBracketForRealScalarField} below).
 
 (...)
 
@@ -11338,16 +11456,48 @@ the [[infinitesimal neighbourhood]] $N_\Sigma \Sigma_p$.
 Moreover, the Poisson bracket on the jet bundle (eq:LocalPoissonLieBracket)
 clearly respects this restriction.
 
-Now after this restriction, the fact that the _[[kernel of integration is the exact differential forms]]_
-implies that if a Hamiltonian differential form is in the [[kernel]] of the transgression map
-relative to $\Sigma_p$ then over every smooth collection $\Phi_{(-)} \colon U \to \Gamma_{\Sigma_p}(E)_{\delta_{EL}\mathbf{L} = 0}$ of field histories (according to def. \ref{DifferentialFormsOnDiffeologicalSpaces}) it is [[exact differential form|exact]].
-This implies that it is closed for all $\Phi$, and this implies by prop. \ref{PullbackAlongJetProlongationIntertwinesHorizontalDerivative}
-that on the jet bundle it is horizontally closed.
-But since the field bundle is trivial by assumption, prop. \ref{HorizontalVariationalComplexOfTrivialFieldBundleIsExact}
-applies and says that this horizontally closed form on the jet bundle is in fact horizonally exact.
+If a Hamiltonian differential form $H$ is in the [[kernel]] of the transgression map
+relative to $\Sigma_p$, in that for every smooth collection $\Phi_{(-)} \colon U \to \Gamma_{\Sigma_p}(E)_{\delta_{EL}\mathbf{L} = 0}$ of field histories (according to def. \ref{DifferentialFormsOnDiffeologicalSpaces}) we have (by def. \ref{TransgressionOfVariationalDifferentialFormsToConfigrationSpaces})
+
+$$
+  \int_{\Sigma_p} j^\infty_\Sigma(\Phi_{(-)})^\ast H  \;= \;0
+  \;\;\;
+  \in \Omega^p(U)
+$$
+
+then the fact that the _[[kernel of integration is the exact differential forms]]_ says that 
+$j^\infty_\Sigma(\Phi_{(-)})^\ast H \in \Omega^p(U \times \Sigma)$ is $d_\Sigma$-[[exact differential form|exact]] and hence in particular 
+$d_\Sigma$-[[closed differential form|closed]] for all $\Phi_{(-)}$:
+
+$$
+  d_\Sigma j^\infty(\Phi_{(-)})^\ast H \;=\; 0
+  \,.
+$$
+ 
+By prop. \ref{PullbackAlongJetProlongationIntertwinesHorizontalDerivative} this means that 
+
+$$
+  j^\infty(\Phi_{(-)})^\ast ( d H ) \;= \; 0
+$$
+
+for all $\Phi_{(-)}$. Since $H \in \Omega^{p,0}_\Sigma(E)$ is horizontal, the same
+proposition (see also example \ref{BasicFactsAboutVarationalCalculusOnJetBundleOfTrivialVectorBundle}) implies that
+in fact $H$ is horizontally closed:
+
+$$
+  d H \;=\; 0
+  \,.
+$$
+ 
+Now since the field bundle $E \overset{fb}{\to} \Sigma$ is [[trivial bundle|trivial]] by assumption, prop. \ref{HorizontalVariationalComplexOfTrivialFieldBundleIsExact}
+applies and says that this horizontally closed form on the jet bundle is in fact horizontally exact.
+
+In conclusion this shows that the [[kernel]] of the [[transgression of variational differential forms|transgression]]
+map $\tau_{\Sigma_p} \;\colon\; \Omega^{p,0}_\Sigma(E) \to C^\infty\left( \Gamma_{\Sigma_p}(E)\right)$
+is precisely the space of horizontally exact horizontal $p$-forms.
 
 Therefore the claim
-now follows with the statement that horizontally exact forms constitute a
+now follows with the statement that horizontally exact [[Hamiltonian differential forms]] constitute a
 [[Lie ideal]] for the local Poisson bracket on the jet bundle; this is lemma \ref{HorizontallyExactFormsDropOutOfLocalLieBracket}.
 
 =--
