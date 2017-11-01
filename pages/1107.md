@@ -16,17 +16,17 @@ A [[category]] $A$ is said to satisfy the **IPC-property** if
 
   * indexed by a [[Grothendieck universe|small set]] $S$ 
 
-the canonical morphism
+  the canonical morphism
 
-$$
-  colim \left(
-    \prod_s I_s \stackrel{k \mapsto \prod_s \alpha_s(\pi_s(j))}{\to} A
-  \right)
-  \to
-  \prod_s colim \alpha_s
-$$
+  $$
+    colim \left(
+      \prod_s I_s \stackrel{k \mapsto \prod_s \alpha_s(\pi_s(j))}{\to} A
+    \right)
+    \to
+    \prod_s colim \alpha_s
+  $$
 
-is an [[isomorphism]].
+  is an [[isomorphism]].
 
 #References#
 
