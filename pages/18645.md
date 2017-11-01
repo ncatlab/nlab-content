@@ -5824,7 +5824,7 @@ $$
 $$
 
 whose plots $\Phi_{(-)}$ for a given [[Cartesian space]] $\mathbb{R}^n$ and
-[[superpoint]] $\mathbb{D}$  (def. \ref{SuperCartesianSpace}) with the [[Cartesan products]]
+[[superpoint]] $\mathbb{D}$  (def. \ref{SuperCartesianSpace}) with the [[Cartesian products]]
 $U \coloneqq \mathbb{R}^n \times \mathbb{D}$ and $U \times \Sigma$ regarded as
 [[super formal smooth set|super smooth sets]] according to example \ref{SuperSmoothSetSuperCartesianSpaces} are defined to be the [[morphisms]]
 of [[super formal smooth set|super smooth set]] (def. \ref{SuperFormalSmoothSet})
@@ -5865,7 +5865,7 @@ $$
   \array{
     && C^\infty(E)
     \\
-    & {}^{\mathllap{\left(\Phi_{(-)}(-)}\right)^\ast }\swarrow & \uparrow^{\mathrlap{fb^\ast}}
+    & {}^{\mathllap{\left(\Phi_{(-)}(-)\right)^\ast }\swarrow & \uparrow^{\mathrlap{fb^\ast}}
     \\
     C^\infty(U \times \Sigma) &\underset{pr_2^\ast}{\longleftarrow}& C^\infty(\Sigma)
   }
@@ -6089,13 +6089,13 @@ and conclude by highlighting the crucial role of [[supergeometry]] (remark \ref{
 
 Let $E = \Sigma \times S_{odd} \overset{pr_1}{\to}  \Sigma$ be the super-[[field bundle]] (def. \ref{FermionicBosonicFields}) for the [[Dirac field]] over [[Minkowski spacetime]] $\Sigma = \mathbb{R}^{p,1}$ from example \ref{DiracFieldBundle}.
 
-Then the corresponding [[supergeometry|supergeometric]] [[space of field histories]] 
+Then the corresponding [[supergeometry|supergeometric]] [[space of field histories]]
 
 $$
   \Gamma_\Sigma(\Sigma \times S_{odd})
   \;\in\;
   SuperSmoothSet
-$$ 
+$$
 
 from example \ref{SupergeometricSpaceOfFieldHistories} has the following properties:
 
@@ -6120,15 +6120,15 @@ from example \ref{SupergeometricSpaceOfFieldHistories} has the following propert
      \Psi_{(-)} \;\colon\; \mathbb{R}^{n\vert 1} \longrightarrow \Gamma_\Sigma(\Sigma \times S_{odd})
    $$
 
-   are in [[natural bijection]] with plots of sections of the [[bosonic field|bosonic]]-field bundle 
-   with field fiber $S_{even} = S$ the [[spin representation]] regarded as an ordinary vector space: 
+   are in [[natural bijection]] with plots of sections of the [[bosonic field|bosonic]]-field bundle
+   with field fiber $S_{even} = S$ the [[spin representation]] regarded as an ordinary vector space:
 
    $$
      \theta \Psi_{(-)} \;\colon\; \mathbb{R}^n \longrightarrow \Gamma_\Sigma(\Sigma \times S_{even})
      \,,
    $$
 
-Moreover, these two kinds of plots determine the fermionic field space completely: It is 
+Moreover, these two kinds of plots determine the fermionic field space completely: It is
 in fact [[isomorphism|isomorphic]], as a [[super vector space]], to the bososnic field space
 shifted to odd degree (as in example \ref{SuperpointInducedByFiniteDimensionalVectorSpace}):
 
@@ -6180,9 +6180,9 @@ $$
   \,,
 $$
 
-where the identification on the right is from example \ref{SuperpointsMapping}. 
+where the identification on the right is from example \ref{SuperpointsMapping}.
 
-By the [[universal property|nature]] of [[Cartesian products]] these morphisms in turn 
+By the [[universal property|nature]] of [[Cartesian products]] these morphisms in turn
 are [[natural bijection|naturally identified]] with [[pairs]] of morphisms of the form
 
 $$
@@ -6756,14 +6756,14 @@ $$
 $$
 
 We may then extend the [[horizontal derivative]] from functions on the jet bundle to all
-[[differential forms]] on the jet bundle by declaring that 
+[[differential forms]] on the jet bundle by declaring that
 
 $$
   d \circ \mathbf{d} \coloneqq - \mathbf{d} \circ d
   \,.
 $$
 
-For example 
+For example
 
 $$
   \begin{aligned}
