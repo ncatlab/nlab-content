@@ -35,7 +35,7 @@ $$
   \,.
 $$
 
-(In cases where the monoidal structure is not assumed symmetric, the property of possessing a right adjoint to tensoring on the left (resp. right) is called *left* (resp. *right*) *closed*, while *closed* is used for the properties jointly (Def. Definition 4.1.1.17 of [[Higher Algebra]]).)
+(In cases where the monoidal structure is not assumed symmetric, the property of possessing a right adjoint to tensoring on the left (resp. right) is called *left* (resp. *right*) *closed*, while *closed* is used for the properties jointly (Def. Definition 4.1.1.15 of [[Higher Algebra]]).)
 =--
 
 ## Examples
