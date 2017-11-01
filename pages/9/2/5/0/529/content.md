@@ -237,3 +237,6 @@ For the case of profinite groups, see
 
 [[!redirects group convolution algebra]]
 [[!redirects group convolution algebras]]
+
+[[!redirects convolution product]]
+[[!redirects convolution products]]
