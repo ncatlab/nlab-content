@@ -91,7 +91,7 @@ $$
   r_{(-)} \colon U(G) \to U(R)
 $$
 
-from the underlying set of $G$ to the underlying set of $R$ which have _finite support_. Accordingly,  oftn the underlying set of the group $R$-algebra is written as
+from the underlying set of $G$ to the underlying set of $R$ which have _finite support_. Accordingly,  often the underlying set of the group $R$-algebra is written as
 
 $$
   U(R[G]) = Hom_{Set}^{fin\;supp}(U(G), U(R))
@@ -232,11 +232,7 @@ For the case of profinite groups, see
 [[!redirects group rings]]
 
 
-[[!redirects convolution product]]
-[[!redirects convolution]]
 
 [[!redirects group convolution algebra]]
 [[!redirects group convolution algebras]]
 
-[[!redirects convolution product]]
-[[!redirects convolution products]]
