@@ -18,7 +18,12 @@ Notice that there are other [[spinor]] [[field (physics)|fields]] which would no
 
 A concise collection of the details over [[Minkowski spacetime]] is in
 
-* {#Dermisek} [[Radovan Dermisek]], _qft I-9_ ([pdf](http://www.physics.indiana.edu/~dermisek/QFT_09/qft-I-9-4p.pdf), [[DermisekDiracField.pdf:file]])
+* {#Dermisek} [[Radovan Dermisek]], _qft I-9_, 2009 ([pdf](http://www.physics.indiana.edu/~dermisek/QFT_09/qft-I-9-4p.pdf), [[DermisekDiracField.pdf:file]])
+
+with background on [[spinor]] [[field (physics)|fields]] in 
+
+* {#DermisekI8} [[Radovan Dermisek]] _qft I-8_, 2009 ([pdf](http://www.physics.indiana.edu/~dermisek/QFT_09/qft-I-8-4p.pdf), [[DermisekSpinorField.pdf:file]])
+
 
 A textbook account in the context of [[causal perturbation theory]] is in
 
