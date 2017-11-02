@@ -402,6 +402,8 @@ Distributions can be alternatively described using [[nonstandard analysis]], see
 
 * [[product of distributions]]
 
+* [[convolution product of distributions]]
+
 * [[Fourier transform of distributions]]
 
 * [[Lawvere distribution]] ([[categorification]] of the concept of distributions)
