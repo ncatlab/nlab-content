@@ -143,6 +143,7 @@ by Lemma \ref{convex}. Using $\int {|u|^p} = 1 = \int {|v|^p}$, we are done.
 
 * [[canonical Hilbert space of half-densities]]
 
+* [[tempered distribution]]
 
 ## References
 
