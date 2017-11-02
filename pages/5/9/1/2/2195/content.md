@@ -77,14 +77,14 @@ $$
   \,.
 $$
 
-#### On smooth functions with rapidly decaying partial derivatives
+#### On functions with rapidly decreasing partial derivatives
 
 +-- {: .num_defn #SchwartzSpace}
 ###### Definition
-**([[Schwartz space]] of [[smooth functions]] with rapidly decaying [[partial derivatives]])**
+**([[Schwartz space]] of [[functions with rapidly decreasing partial derivatives]])**
 
 
-A [[complex number|complex]]-valued [[smooth function]] $f \in C^\infty(\mathbb{R}^n)$ is said to have _rapidly decaying [[partial derivatives]]_ if for all $\alpha,\beta \in \mathbb{N}^{n}$ we have
+A [[complex number|complex]]-valued [[smooth function]] $f \in C^\infty(\mathbb{R}^n)$ is said to have _[[rapidly decreasing function|rapidly decreasing]] [[partial derivatives]]_ if for all $\alpha,\beta \in \mathbb{N}^{n}$ we have
 
 $$
   \underset{x \in \mathbb{R}^n}{sup} {\vert  x^\beta \partial^\alpha f(x) \vert}
@@ -137,7 +137,7 @@ The [[Schwartz space]] $\mathcal{S}(\mathbb{R}^n)$ (def. \ref{SchwartzSpace}) is
 
 +-- {: .num_defn #FourierTransformSmoothFunctionsWithRapidlyDecayingDerivativesOnCartesianSpace}
 ###### Definition
-**([[Fourier transform]] of [[smooth functions]] with rapidly decaying [[partial derivatives]])**
+**([[Fourier transform]] of [[functions with rapidly decreasing partial derivatives]])**
 
 The _[[Fourier transform]]_ is the [[continuous linear functional]]
 
@@ -149,7 +149,7 @@ $$
   \mathcal{S}(\mathbb{R}^n)
 $$
 
-on the [[Schwartz space]] of smooth functions with rapidly decaying partial derivatives (def. \ref{SchwartzSpace}), which is given by [[integration]] against the [[exponential function]] $e^{- 2\pi i k \cdot k}$ times the standard [[volume form]]:
+on the [[Schwartz space]] of [[functions with rapidly decreasing partial derivatives]] (def. \ref{SchwartzSpace}), which is given by [[integration]] against the [[exponential function]] $e^{- 2\pi i k \cdot k}$ times the standard [[volume form]]:
 
 $$
   \label{IntegralExpressionForFourierTransform}
