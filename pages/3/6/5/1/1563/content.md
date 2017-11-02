@@ -137,6 +137,7 @@ In ([Lawvere 02](#Lawvere92)) it says:
 A precursor to this undertaking is [[Hermann Grassmann]] with his _[[Ausdehnungslehre]]_ ([Lawvere 95](#Lawvere95)), see there for more.
 
 ## Talks, Lecture notes and Publications
+ {#Talks}
 
 The following is a list of texts by Lawvere, equipped with brief comments and hyperlinks to further material on the $n$Lab. See also the 
 
@@ -307,13 +308,14 @@ pages 43-56, 1994.
 
   (problem 7 presented there "The algebra of time", concerns the characterization of _[[Toposes of laws of motion]]_)
 
+* _The Dialectic of the Continuous and the Discrete in the history of the struggle for a usable guide to mathematical thought_, talk at _Sets Within Geometry_, Nancy, France 26-29 July 2011 ([recording](https://www.youtube.com/watch?v=OE-R3565jrs))
+
 * _What are Foundations of Geometry and Algebra_, Keynote lecture at the _[Fifty Years of Functorial Semantics](http://www.math.union.edu/~niefiels/13conference/Web/)_ conference, Union College, October 2013 ([recording](https://www.youtube.com/watch?v=ZYGyEPXu8as))
 
 *  _Alexander Grothendieck and the Concept of Space_, address CT15 Aveiro 2016. ([link](http://www.acsu.buffalo.edu/~wlawvere/GrothendiekAveiro15.htm))
 
    (a talk given at CT15 reviewing 50 years of developments since the 1965 La Jolla conference)
 
-* _The Dialectic of the Continuous and the Discrete in the history of the struggle for a usable guide to mathematical thought_ ([recording](https://www.youtube.com/watch?v=OE-R3565jrs))
 
 
 category: people
