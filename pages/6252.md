@@ -17,7 +17,7 @@
 
 Let $A: H\to H$  be an [[unbounded operator]] on a [[Hilbert space]] $H$. An unbounded operator $A^*$ is its __[[adjoint operator|adjoint]]__ if
 
-* $(Ax|y) = (x|A^*y)$ for all $x\in dom(A)$ and $y\in dom(A^*)$; and
+* $(A x|y) = (x|A^*y)$ for all $x\in dom(A)$ and $y\in dom(A^*)$; and
 * every $B$ satisfying the above property for $A^*$ is a restriction of $A$.
 
 An adjoint does not need to exist in general. 
