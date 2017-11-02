@@ -422,7 +422,13 @@ and for the general case
 
 * {#Sutherland13} [[Andrew Sutherland]], _Elliptic curves and abelian varieties_, lecture 23 in _Introduction to Arithmetic Geometry_, 2013 ([web](http://ocw.mit.edu/courses/mathematics/18-782-introduction-to-arithmetic-geometry-fall-2013/lecture-notes/), [lecture 23 pdf](http://ocw.mit.edu/courses/mathematics/18-782-introduction-to-arithmetic-geometry-fall-2013/lecture-notes/MIT18_782F13_lec23.pdf))
 
+An elementary discussion of [[associativity]] of the [[formal group law]] of elliptic curves is in
+
+* {#Friedl17} Stefan Friedl, _An elementary proof of the group law for elliptic curves Stefan Friedl_ ([arXiv:1710.00214](https://arxiv.org/abs/1710.00214))
+
 For more along these lines see also at _[[arithmetic geometry]]_.
+
+
 
 In the context of [[elliptic fibrations]]:
 
