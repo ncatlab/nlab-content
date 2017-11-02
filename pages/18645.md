@@ -5130,7 +5130,7 @@ $$
 **([[synthetic differential geometry|synthetic]] [[tangent bundle]])**
 
 Let $X \coloneqq \mathbb{R}^n$ be a [[Cartesian space]] (def. \ref{CartesianSpacesAndSmoothFunctionsBetweenThem})
-regarded as an [[infinitesimally thickened smooth manifold|infinitesimally thickened Cartesian space]] (\ref{InfinitesimallyThickendSmoothManifold}) and thus regarded as a [[smooth set]] (def. \ref{FormalSmoothSet})
+regarded as an [[infinitesimally thickened smooth manifold|infinitesimally thickened Cartesian space]] (\ref{InfinitesimallyThickendSmoothManifold}) and thus regarded as a [[formal smooth set]] (def. \ref{FormalSmoothSet})
 by example \ref{YonedaLemmaForFormalSmoothSets}.
 Consider the infinitesimal line
 
@@ -5864,7 +5864,7 @@ $$
   \array{
     && C^\infty(E)
     \\
-    & {}^{\mathllap{\left(\Phi_{(-)}(-)\right)^\ast }\swarrow & \uparrow^{\mathrlap{fb^\ast}}
+    & {}^{\mathllap{\left( \Phi_{(-)}(-) \right)^\ast }}\nearrow & \uparrow^{\mathrlap{fb^\ast}}
     \\
     C^\infty(U \times \Sigma) &\underset{pr_2^\ast}{\longleftarrow}& C^\infty(\Sigma)
   }
