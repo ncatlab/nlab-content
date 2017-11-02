@@ -252,3 +252,9 @@ We denote by $p : \square^{n} \rightarrow \square^{0}$ the arrow $y(\underbrace{
 ## Expository material
 
 For expository and other material, see [[cubical set - exposition]]. 
+
+## related entries
+
+* [[cubical type theory]]
+
+[[!redirects cubical set]]
