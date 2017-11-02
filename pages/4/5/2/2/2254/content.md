@@ -500,6 +500,11 @@ A basic introduction is in
 
 * Carl Erickson, _One-dimensional formal groups_ ([pdf](http://people.brandeis.edu/~cwe/pdfs/formal_groups.pdf))
 
+An elementary discussion of [[associativity]] of the formal group law of [[elliptic curves]] is in
+
+* {#Friedl17} Stefan Friedl, _An elementary proof of the group law for elliptic curves Stefan Friedl_ ([arXiv:1710.00214](https://arxiv.org/abs/1710.00214))
+
+
 See also
 
 * [[Takeshi Torii]], _One dimensional formal group laws of height $N$ and $N-1$_, PhD thesis 2001 ([pdf](http://mathnt.mat.jhu.edu/mathnew/Thesis/Torii.thesis.pdf))
