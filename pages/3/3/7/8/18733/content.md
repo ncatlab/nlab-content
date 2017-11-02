@@ -1,9 +1,9 @@
 
 **[[harmonic analysis]]**
 
-**Definitions**
-
 [[Fourier analysis]]
+
+* [[Schwartz space]] of [[functions with rapidly decreasing partial derivatives]]
 
 * [[Fourier transform]], [[Fourier-Laplace transform]]
 
@@ -15,4 +15,15 @@
 
 * [[Parseval's theorem]]
 
-[[sampling theory]]
+**[[sampling theory]]**
+
+* [[wavelet]], [[curvelet]]
+
+* [[coherent state]]
+
+* [[signal processing]]
+
+* [[time series]]
+
+* [[information geometry]]
+
