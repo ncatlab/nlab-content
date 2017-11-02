@@ -170,7 +170,7 @@ $$
 ###### Proposition
 **([[Fourier inversion theorem]])**
 
-The [[Fourier transform]] $\widehat{(-)}$ (def. \ref{FourierTransformSmoothFunctionsWithRapidlyDecayingDerivativesOnCartesianSpace}) on the [[Schwartz space]] $\mathcal{S}(\mathbb{R}^n)$ (def. \ref{SchwartzSpace}) is an [[isomorphism]], with [[inverse fucntion]] the Fourier transform of the reflection of a function
+The [[Fourier transform]] $\widehat{(-)}$ (def. \ref{FourierTransformSmoothFunctionsWithRapidlyDecayingDerivativesOnCartesianSpace}) on the [[Schwartz space]] $\mathcal{S}(\mathbb{R}^n)$ (def. \ref{SchwartzSpace}) is an [[isomorphism]], with [[inverse function]] the Fourier transform of the reflection of a function
 
 $$
   \widehat{\widehat{f}}(x) = f(-x)
@@ -200,9 +200,9 @@ The [[Fourier transform]] $\widehat{(-)}$ (def. \ref{FourierTransformSmoothFunct
 1. (interchanging [[coordinate]] [[multiplication]] with [[partial derivatives]])
 
    $$
-     \widehat{ x^a f } = \partial_a f
+     \widehat{ x^a f } = -i \partial_a f
      \phantom{AAAAA}
-     \widehat{ \partial_a f} = - x^a f
+     \widehat{ \partial_a f} = -i x^a f
    $$
 
 1. (interchanging pointwise multiplication with [[convolution product]], remark \ref{ConvolutionProductOnSchwartzSpace}):
