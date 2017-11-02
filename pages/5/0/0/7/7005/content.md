@@ -338,10 +338,15 @@ The computational interpretation of univalence / [[canonicity]] is discussed in
 
 * Bruno Barras, [[Thierry Coquand]], Simon Huber, _A Generalization of Takeuti-Gandy Interpretation_ ([pdf](http://uf-ias-2012.wikispaces.com/file/view/semi.pdf))
 
-* [[Thierry Coquand]] (with Marc Bezem and Simon Huber), _Computational content of the Axiom of Univalence_, September 2013 ([pdf](http://www.humboldt-kolleg.iam.unibe.ch/talks/Coquand.pdf))
- {#Coquand13}
+and realized in [[cubical type theory]] in
 
-A study of the semantic side of univalence in [[(infinity,1)-toposes]], as well as further cases of [[locally cartesian closed (infinity,1)-categories]] is in
+* {#Coquand13} [[Thierry Coquand]] (with [[Marc Bezem]] and [[Simon Huber]]), _Computational content of the Axiom of Univalence_, September 2013 ([pdf](http://www.humboldt-kolleg.iam.unibe.ch/talks/Coquand.pdf))
+ 
+* [[Cyril Cohen]], [[Thierry Coquand]], [[Simon Huber]], [[Anders Mörtberg]], _Cubical Type Theory: a constructive interpretation of the univalence axiom_ ([pdf](https://hal.inria.fr/hal-01378906/document))
+
+* {#BezemCoquandHuber17} [[Marc Bezem]], [[Thierry Coquand]], [[Simon Huber]], _The univalence axiom in cubical sets_ ([arXiv:1710.10941](https://arxiv.org/abs/1710.10941))
+
+A study of the [[semantics|semantic]] side of univalence in [[(infinity,1)-toposes]], as well as further cases of [[locally cartesian closed (infinity,1)-categories]] is in
 
 * {#GepnerKock12} [[David Gepner]], [[Joachim Kock]], _Univalence in locally cartesian closed infinity-categories_ ([arXiv:1208.1749](http://arxiv.org/abs/1208.1749))
 
