@@ -5,4 +5,11 @@
 
 * [[meaning explanation]]
 
+* [[cubical type theory]]
+
 category: people
+
+
+[[!redirects Jon Sterling]]
+
+[[!redirects Jonathan Sterling]]
