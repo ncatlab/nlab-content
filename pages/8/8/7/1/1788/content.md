@@ -7,3 +7,5 @@ $$
     }
   \,.
 $$
+
+$\left\lbrace\begin{matrix}n \\ k\end{matrix}\right\rbrace + 2$
