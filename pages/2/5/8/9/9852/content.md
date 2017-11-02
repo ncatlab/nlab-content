@@ -1,4 +1,16 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+=--
+=--
+
+
 # Partial differentiation
 * table of contents
 {: toc}
@@ -44,6 +56,11 @@ which explains the notation and why '$\partial$' looks like '$d$'.  (The reason 
 
 * [[partial differential equation]]
 
+* [[jet bundle]]
+
+* [[differentiable function]], [[smooth function]]
+
+* [[function with rapidly decreasing partial derivatives]]
 
 [[!redirects partial differentiation]]
 
