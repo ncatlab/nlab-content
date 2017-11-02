@@ -55,6 +55,8 @@ In [[Cat]] the diagonal morphisms are [[diagonal functors]].
 * [[formal neighbourhood of the diagonal]]
 
 [[!redirects diagonal]]
+[[!redirects diagonals]]
+
 [[!redirects diagonal subobject]]
 [[!redirects diagonal morphisms]]
 
