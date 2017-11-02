@@ -49,6 +49,10 @@ In an arbitrary $*$-[[star-algebra|algebra]], a __self-adjoint__ or __hermitian_
 
 * [[self-adjoint extension]]
 
+* [[unitary operator]]
+
+* [[Hermitian matrix]]
+
 * [[quantum observable]], [[daseinisation]]
 
 * [[positive operator]]
