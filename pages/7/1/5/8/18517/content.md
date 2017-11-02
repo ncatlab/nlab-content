@@ -77,9 +77,14 @@ $$
 $$
 
 over this [[functor]] (in the sense of [[category theory]]) always exists. This is also called the _algebraic adiabatic limit_.
-
  
 (See around [Duch 17, section 4](#Duch17) for review of strong, weak and algebraic adiabaitc limit; and [Duch 17, chapter II](#Duch17) for results on the weak adiabatic limit)
+
+Here 
+
+1. the _algebraic adiabatic_ limit defines the _[[quantum observables]]_ in the limit;
+
+1. the weak adiabatic limit defines also the _[[quantum states]]_.
 
 ## References
 
@@ -123,3 +128,9 @@ Detailed discussion of the adiabatic limit is in
 
 [[!redirects adiabatic limit]]
 [[!redirects adiabatic limits]]
+
+[[!redirects algebraic adiabatic limit]]
+[[!redirects algebraic adiabatic limits]]
+
+[[!redirects weak adiabatic limit]]
+[[!redirects weak adiabatic limits]]
