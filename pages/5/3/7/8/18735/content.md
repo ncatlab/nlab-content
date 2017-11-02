@@ -30,7 +30,8 @@ $$
   \,.
 $$
 
-This convolution product plays a central role in [[Fourier analysis]]
+This generalizes to a [[convolution product of distributions]].
+Thes convolution products plays a central role in [[Fourier analysis]]
 
 A [[categorification]] of the concept of convolution is the concept of _[[Day convolution]]_.
 
