@@ -883,7 +883,7 @@ $$
     \\
     & \downarrow^{\mathrlap{g}} && \downarrow^{\mathrlap{f}} && \downarrow^{\mathrlap{g}}
     \\
-    id_A \colon & A &\longrightarrow& Y &\longrightarrow& A
+    id_B \colon & B &\longrightarrow& Y &\longrightarrow& B
   }
   \,.
 $$
