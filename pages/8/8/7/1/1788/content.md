@@ -1,7 +1,9 @@
 
-
 $$
-  f \cdot g 
-  = 
-  \widehat{\widehat{f} \star \widehat{g}}
+  \array{
+    && C^\infty(E)
+    \\
+    & {}^{\mathllap{\left( \Phi_{(-)}(-) \right)^\ast } }
+    }
+  \,.
 $$
