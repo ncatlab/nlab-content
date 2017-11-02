@@ -1,6 +1,6 @@
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Definition
@@ -36,6 +36,18 @@ This is equivalent to saying that both the rows and the columns of $U$ form an o
 ## Notation
 
 The notation used here for the adjoint, $U^{*}$, is commonly used in linear algebraic circles (as is $U^{H}$).  In [[quantum mechanics]], $U^{\dagger}$ is exclusively used for the adjoint while $U^{*}$ is interpreted as the same thing as $\bar{U}$, i.e. the complex conjugate.
+
+## Examples
+
+* In [[harmonic analysis]], [[Parseval's theorem]] says that the [[Fourier transform]] is a unitary operator.
+
+## Related concepts
+
+* [[unitary group]]
+
+* [[special unitary group]]
+
+* [[Hermitian operator]]
 
 [[!redirects unitary operators]]
 [[!redirects unitary]]
