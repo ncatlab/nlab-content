@@ -46,6 +46,8 @@ All of the other standard [[type formation|type formations]] are subsumed by the
 
 ## Related concepts
 
+* [[Coq]]
+
 * [[computational type theory]]
 
 ## References
