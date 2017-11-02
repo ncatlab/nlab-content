@@ -291,6 +291,8 @@ This implies the claim.
 
 * [[unitary representation]]
 
+* [[unitary operator]]
+
 
 ## References
 
