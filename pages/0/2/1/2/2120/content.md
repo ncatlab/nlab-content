@@ -253,10 +253,23 @@ Waaldijk's negative result can be circumvented by dropping the insistence on poi
 
 * [[analytic function]]
 
+* [[differentiable function]]
+
 * [[smooth function]]
 
 * [[convex function]]
 
+* [[integrable function]], [[square-integrable function]]
+
+* [[bounded function]]
+
+* [[compactly supported function]]
+
+* [[measurable function]]
+
+* [[rapidly decreasing function]]
+
+* [[function with rapidly decreasing partial derivatives]]
 
 ## References
 
