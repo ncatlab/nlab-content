@@ -33,6 +33,8 @@ Usese a method that goes back to Frobenius and came to be known as "Wigner's lit
 
 * [[Doplicher-Roberts reconstruction theorem]]
 
+* [[Deligne's theorem on tensor categories]] -- [Relevance for Supersymmetry](Deligne's+theorem+on+tensor+categories#RelevanceForSupersymmetry)
+
 * [[supermultiplet]]
 
 ## References
