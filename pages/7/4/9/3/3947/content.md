@@ -78,8 +78,11 @@ $$
 
 (e.g. [Hoermander 90, around (8.1.1)](#Hoermander90))
 
+## Related entries
 
-## Refereces
+* [[Fourier transform of distributions]]
+
+## References
 
 * {#Hoermander90} [[Lars Hörmander]], section 7.3 of _The analysis of linear partial differential operators_, vol. I, Springer 1983, 1990
 
