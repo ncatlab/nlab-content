@@ -510,14 +510,25 @@ PS:  You\'re right about the display maps; that part\'s not so strange.  Maybe i
 The following particular type theories are important enough to (potentially) have pages of their own.
 
 * [[simple type theory]]
+
 * [[simply typed lambda calculus]]
+
 * [[Martin-Lof dependent type theory|Martin-Löf dependent type theory]]
+
 * [[pure type system]]
+
 * the [[calculus of constructions]]
+
 * the [[internal logic]] of various kinds of categories, including the [[Mitchell-Benabou language]] of an [[elementary topos]]
+
 * the [[internal logic of a 2-topos]]
+
 * the [[internal logic of an (∞,1)-topos]]
+
 * [[homotopy type theory]]
+
+* [[cubical type theory]]
+
 
 ## Related concepts
 
