@@ -47,6 +47,7 @@ $$\alpha \circ inr \circ \alpha \circ inr = \alpha \circ (2\otimes \alpha) \circ
 and since $xor$ is defined such that $(xor\otimes id) \circ (2\otimes inr) \circ inr = id$, we derive that $\alpha \circ inr$ is an involution.
 
 
+
 ## Related concepts
 
 * [[chord diagram]]
