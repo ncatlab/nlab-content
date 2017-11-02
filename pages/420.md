@@ -17,6 +17,11 @@ The standard cubical $n$-cube is the [[cubical set]] represented (as a [[preshea
 
 The standard topological $n$-cube is the space $[0,1]^n$, where $[0,1]$ is the [[unit interval]].  The collection of topological cubes forms a topological [[cocubical set]].
 
+## related entries
+
+* [[cubical set]]
+
+* [[cubical type theory]]
 
 [[!redirects cubes]]
 [[!redirects cubical]]
