@@ -26,6 +26,18 @@ A [[function]] such that its [[square]] has a well-defined [[integration]] again
 
 * [[L-2 space]]
 
+* [[continuous function]], [[differentiable function]], [[smooth function]]
+
+* [[integrable function]], [[square-integrable function]]
+
+* [[bounded function]]
+
+* [[compactly supported function]]
+
+* [[measurable function]]
+
+* [[rapidly decreasing function]]
+
 [[!redirects square integrable functions]]
 
 [[!redirects square-integrable function]]
