@@ -79,17 +79,21 @@ $$
 If $u \in \mathcal{D}'(\mathbb{R}^n) \hookrightarrow \mathcal{E}'(\mathbb{R}^n)$ happens to be a [[compactly supported distribution]], regarded as a [[tempered distribution]], then its Fourier transform according to def. \ref{FourierTransformOfTemperedDistribution} is a smooth function 
 
 $$
-  \hat u \in \mathcal{S}(\mathbb{R}^n)
+  \hat u \in C^\infty(\mathbb{R}^n)
 $$
 
 given by
 
 $$
-  \hat u \;\colon\; \xi \mapsto \langle  u, \exp(-i \langle -, \xi\rangle) \rangle
-  \,.
+  \hat u(k)
+    \;\coloneqq\;
+   u\left( \exp(-i \langle (-), 2 \pi k \rangle) \right)
+  \,,
 $$
 
-This is well-defined also on [[complex numbers]], which makes it an [[entire holomorphic function]], called the _[[Fourier-Laplace transform]]_.
+where $\langle -,-\rangle$ denotes the canonical [[inner product]] on $\mathbb{R}^n$.
+
+This is well-defined also on [[complex numbers]], which makes it an [[entire holomorphic function]] (by the [[Paley-Wiener-Schwartz theorem]]), called the _[[Fourier-Laplace transform]]_.
 
 =--
 
