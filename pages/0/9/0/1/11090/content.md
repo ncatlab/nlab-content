@@ -6,4 +6,6 @@
 
 * [[entropy]]
 
+* [[sampling theory]]
+
 category: people
