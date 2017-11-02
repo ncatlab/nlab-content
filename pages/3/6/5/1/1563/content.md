@@ -160,7 +160,11 @@ Reprints in Theory and Applications of Categories, No. 5 (2004) pp 1-121 ([tac](
 
 * _[[Categorical dynamics]]_, 1967 Chicago lectures ([pdf](http://www.mat.uc.pt/~ct2011/abstracts/lawvere_w.pdf))
 
+  _Categorical Dynamics Revisited_, talk at _Sets Within Geometry_, Nancy, France 26-29 July 2011 ([recording](https://www.youtube.com/watch?v=sXATg9_6iWE))
+
   (on [[synthetic differential geometry]] as a context for axiomatizing [[ordinary differential equations]] as they appear in [[classical physics]])
+
+
 
 * _[[Adjointness in Foundations]]_, ([TAC](http://www.emis.de/journals/TAC/reprints/articles/16/tr16abs.html)), Dialectica 23 (1969), 281-296
 
@@ -303,9 +307,14 @@ pages 43-56, 1994.
 
   (problem 7 presented there "The algebra of time", concerns the characterization of _[[Toposes of laws of motion]]_)
 
-*  _Alexander Grothendieck and the Concept of Space_ , address CT15 Aveiro 2016. ([link](http://www.acsu.buffalo.edu/~wlawvere/GrothendiekAveiro15.htm))
+* _What are Foundations of Geometry and Algebra_, Keynote lecture at the _[Fifty Years of Functorial Semantics](http://www.math.union.edu/~niefiels/13conference/Web/)_ conference, Union College, October 2013 ([recording](https://www.youtube.com/watch?v=ZYGyEPXu8as))
+
+*  _Alexander Grothendieck and the Concept of Space_, address CT15 Aveiro 2016. ([link](http://www.acsu.buffalo.edu/~wlawvere/GrothendiekAveiro15.htm))
 
    (a talk given at CT15 reviewing 50 years of developments since the 1965 La Jolla conference)
+
+* _The Dialectic of the Continuous and the Discrete in the history of the struggle for a usable guide to mathematical thought_ ([recording](https://www.youtube.com/watch?v=OE-R3565jrs))
+
 
 category: people
 
