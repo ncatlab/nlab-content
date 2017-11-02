@@ -434,6 +434,17 @@ so $E(v) = v (4\sin(\frac{1}{2v}) - \sin(\frac{1}{v})) \to 0$.
 
 * [[derivative of distributions]]
 
+* [[continuous function]], [[differentiable function]], [[smooth function]]
+
+* [[integrable function]], [[square-integrable function]]
+
+* [[bounded function]]
+
+* [[compactly supported function]]
+
+* [[measurable function]]
+
+* [[rapidly decreasing function]]
 
 [[!redirects differentiable map]]
 [[!redirects differentiable maps]]
