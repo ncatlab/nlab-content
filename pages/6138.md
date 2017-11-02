@@ -29,7 +29,15 @@ If we work with [[locales]] instead of topological spaces, then a closed point $
 
 * [[compactly supported distribution]]
 
+* [[integrable function]], [[square-integrable function]]
 
+* [[bounded function]]
+
+* [[compactly supported function]]
+
+* [[measurable function]]
+
+* [[rapidly decreasing function]]
 
 [[!redirects compact supports]]
 
