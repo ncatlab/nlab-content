@@ -179,7 +179,7 @@ $$
 
 ### $n$-globular sets
 
-A presheaf on the full subcategory of the globe category containing only the integers $[0]$ through $[n]$ is called an **$n$-globular set** or an **$n$-graph** or an **$n$-graph**.  An $n$-globular set may be identified with an $\infty$-globular set which is empty above dimension $n$.
+A presheaf on the full subcategory of the globe category containing only the integers $[0]$ through $[n]$ is called an **$n$-globular set** or an **$n$-graph**.  An $n$-globular set may be identified with an $\infty$-globular set which is empty above dimension $n$.
 
 Note that a $1$-globular set is just a [[directed graph]], and a $0$-globular set is just a [[set]].
 
