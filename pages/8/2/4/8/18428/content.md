@@ -26,6 +26,19 @@ More generally there is a concept of bounded function between [[bornological set
 
 * [[extreme value theorem]]
 
+* [[rapidly decreasing function]]
+
+* [[continuous function]], [[differentiable function]], [[smooth function]]
+
+* [[integrable function]], [[square-integrable function]]
+
+* [[bounded function]]
+
+* [[compactly supported function]]
+
+* [[measurable function]]
+
+
 [[!redirects bounded functions]]
 
 [[!redirects bounded map]]
