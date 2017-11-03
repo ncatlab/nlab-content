@@ -99,7 +99,7 @@ On the other hand, some temporal logicians look to represent both forms of 'henc
 
 ## Computation tree logic
 
-In [[computer science]], logics have been devised for dealing with the behaviours of entities undergoing transitions between its states. Where in a linear temporal logic, operators are provided for describing events along a single computation path, in a branching-time logic the temporal operators quantify over the paths that are possible from a given state. The **computation tree logic** $CTL^{\ast}$ (pronounced "CTL star") combines both branching-time and linear-time operators.
+In [[computer science]], logics have been devised for dealing with the behaviours of entities undergoing transitions between its states. Where in a linear temporal logic, operators are provided for describing events along a single computation path, in a branching-time logic the temporal operators quantify over the paths that are possible from a given state. The **computation tree logic** $CTL^{\ast}$ (pronounced "CTL star") combines both the branching-time operators of $CTL$ and the linear-time operators of $LTL$.
 
 Starting from a [[transition system|finite-state system]], where a finite collection of states represented by the nodes of a graph are connected by labelled edges representing transitions, the path tree of the system can be generated. This presents as a [[tree]] all possible paths that the system may undergo from an initial state.
 
