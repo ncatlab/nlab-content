@@ -116,3 +116,5 @@ Logicians have attempted to demonstrate that specifically _logical_ construction
 
 
 [[!redirects Erlangen programme]]
+
+[[!redirects Erlanger program]]
