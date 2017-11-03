@@ -207,6 +207,11 @@ It is straightforward to check that $\tilde{F}$ is a cartesian closed functor an
 
 * [[cartesian closed (∞,1)-category]] [[locally cartesian closed (∞,1)-category]]
 
+## Literature
+
+Some of the major examples are treated in
+
+* S. Niefield, _Cartesianness: topological spaces, uniform spaces and affine schemes_, J. Pure Appl. Algebra __23__ (1982) 147-167 <a href="https://doi.org/10.1016/0022-4049(82)90004-4">doi</a>
 
 
 [[!redirects cartesian closed category]]
