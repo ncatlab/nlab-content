@@ -1,6 +1,6 @@
 ## Definition ##
 
-Let $H\leq Sym(X)$ and $G\leq Sym(Y)$ be permutation groups. Then their wreath product $H \wr G$ is defined as the [[semidirect product group|semidirect product]] $H^Y \rtimes G$ where $G$ operates on $H^Y$ by permuting the components. Note that this is a itself permutation group, acting on $X\times Y$ by letting $G$ act trivially on the first and naturally on the second factor and letting $H^Y$ act on $X\times Y$ such that the $y$-th component of $H^Y$ permutes $X\times\{y\}$ naturally and fixes everything else pointwise.
+Let $H\leq Sym(X)$ and $G\leq Sym(Y)$ be permutation groups. Then their wreath product $H \wr G$ is defined as the [[semidirect product group|semidirect product]] $H^Y \rtimes G$ where $G$ operates on $H^Y$ by permuting the components. Note that this is itself a permutation group, acting on $X\times Y$ by letting $G$ act trivially on the first and naturally on the second factor and letting $H^Y$ act on $X\times Y$ such that the $y$-th component of $H^Y$ permutes $X\times\{y\}$ naturally and fixes everything else pointwise.
 
 ## Examples ##
 
