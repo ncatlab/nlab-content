@@ -16,7 +16,7 @@
 
 ## Idea
 
-Wikipedia says very succinctly
+[Wikipedia](https://en.wikipedia.org/wiki/Valuation_%28algebra%29) says very succinctly
 
 > A **valuation** is a [[function]] on a [[field]] that provides a measure of size or multiplicity of elements of the field. They generalize to commutative [[algebra]] the notion of size inherent in consideration of the degree of a pole or multiplicity of a zero in [[complex analysis]], the degree of divisibility of a number by a prime number in number theory, and the geometrical concept of contact between two algebraic or analytic varieties in algebraic geometry.
 
