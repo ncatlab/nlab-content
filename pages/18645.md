@@ -7436,7 +7436,7 @@ $$
 $$
 
 Here the computation shown under the brace crucially uses that all these jet coordinates
-for the Dirac field are anti-commuting.
+for the Dirac field are anti-commuting, due to their [[supergeometry|supergeometric]] nature (example \ref{DiracFieldBundle}).
 
 Notice that a priori this is a function on the jet bundle with values in $\mathbb{K}$.
 But in fact for $\mathbb{K} = \mathbb{C}$ it is real up to a [[total spacetime derivative]]:
@@ -7836,12 +7836,155 @@ $$
 
 =--
 
+Most examples of interest fall into the following special case of prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}:
+
++-- {: .num_example #CanonicalMomentum}
+###### Example
+**([[canonical momentum]])**
+
+Consider a [[Lagrangian field theory]] $(E, \mathbf{L})$ (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) whose [[Lagrangian density]] $\mathbf{L}$
+
+1. does not depend on the [[spacetime]]-[[coordinates]]
+
+1. depends on spacetime derivatives of [[field (physics)|field]] coordinates (hence on [[jet bundle]] coordinates) at most to first order.
+
+Hence if the [[field bundle]] $E \overset{fb}{\to} \Sigma$ is a [[trivial vector bundle]] over [[Minkowski spacetime]] (example \ref{TrivialVectorBundleAsAFieldBundle}) this means to consider the case that
+
+$$
+  \mathbf{L}
+    \;=\;
+   L\left(
+     (\phi^a), (\phi^a_{,\mu})
+   \right) \wedge dvol_\Sigma
+  \,.
+$$
+
+Then the [[presymplectic current]] (def. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}) is (up to possibly a horizontally exact part) of the form
+
+$$
+  \Omega_{BFV}
+   \;=\;
+  \delta p_a^\mu
+  \wedge
+  \delta \phi^a
+  \wedge
+  \iota_{\partial_\mu} dvol_\Sigma
+$$
+
+where
+
+$$
+  p_a^\mu
+    \;\coloneqq\;
+  \frac{\partial L}{ \partial \phi^a_{,\mu}}
+$$
+
+denotes the [[partial derivative]] of the [[Lagrangian density|Lagrangian function]] with respect to the spacetime-[[derivatives]] of the [[field (physics)|field]] [[coordinates]].
+
+Here
+
+$$
+  \begin{aligned}
+    p_a
+      & \coloneqq
+    p_a^0
+    \\
+      & =
+    \frac{\partial L}{\partial \phi^a_{,0}}
+  \end{aligned}
+$$
+
+is called the _[[canonical momentum]]_ corresponding to the "[[canonical coordinate|canonical field coordinate]]" $\phi^a$.
+
+In the language of [[multisymplectic geometry]] the full expression
+
+$$
+  p_a^\mu \wedge \iota_{\partial_\mu} dvol_\Sigma
+  \;\in\;
+  \Omega^{p,1}_\Sigma(E)
+$$
+
+is also called the "canonical multi-momentum", or similar.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We compute as before:
+
+$$
+  \begin{aligned}
+    \mathbf{d} \mathbf{L}
+    & =
+    \left(
+      \frac{\partial L}{\partial \phi^a} \delta \phi^a
+      +
+      \frac{\partial L}{\partial \phi^a_{,\mu}} \delta \phi^a_{,\mu}
+    \right)
+    \wedge
+    dvol_\Sigma
+    \\
+    & =
+    \left(
+      \frac{\partial L}{\partial \phi^a}
+      -
+      \frac{d}{d x^\mu} \frac{\partial L}{\partial \phi^a_{,\mu}}
+    \right)
+    \wedge
+    dvol_\Sigma
+    -
+    d
+    \underset{
+      \Theta_{BFV}
+    }{
+    \underbrace{
+      \left(
+        \frac{\partial L}{\partial \phi^a_{,\mu}} \delta \phi^a
+      \right)
+      \wedge
+      \iota_{\partial_\mu} dvol_\Sigma
+    }
+    }
+  \end{aligned}
+  \,.
+$$
+
+Hence
+
+$$
+  \begin{aligned}
+    \Omega_{BFV}
+    & \coloneqq
+    \delta \Theta_{BFV}
+    \\
+    & =
+    \delta
+    \left(
+      \frac{\partial L}{\partial \phi^a_{,\mu}}
+      \delta \phi^a_{,\mu}
+      \wedge \iota_{\partial_\mu} dvol_\Sigma
+    \right)
+    \\
+    & =
+     \delta
+      \frac{\partial L}{\partial \phi^a_{,\mu}}
+     \wedge
+      \delta \phi^a_{,\mu}
+      \wedge
+      \iota_{\partial_\mu} dvol_\Sigma
+    \\
+    & =
+    \delta p_a^\mu \wedge \delta \phi^a \wedge \iota_{\partial_\mu} dvol_\Sigma
+  \end{aligned}
+$$
+
+=--
 
 
 +-- {: .num_example #FreeScalarFieldEOM}
 ###### Example
 **([[Euler-Lagrange operator|Euler-Lagrange variational derivative]] and [[presymplectic current]] for [[free field|free]] [[real scalar field]])**
-
 
 Consider the [[Lagrangian field theory]] of the [[free field|free]] [[real scalar field]]
 from example  \ref{LagrangianForFreeScalarFieldOnMinkowskiSpacetime}.
@@ -7876,6 +8019,8 @@ respectively.
 
 +-- {: .proof}
 ###### Proof
+
+This is a special case of example \ref{CanonicalMomentum}, but we spell it out in detail again:
 
 We need to show that [[Euler-Lagrange operator]] $\delta_{EL} \colon \Omega^{p+1,0}(\Sigma) \to \Omega^{p+1,1}_S(\Sigma)$ takes the [[local Lagrangian density]] for the [[free field|free]] [[scalar field]] to
 
@@ -8096,7 +8241,8 @@ $\,$
 We have introduced the concept of _[[Lagrangian field theories]]_ $(E,\mathbf{L})$ in terms of a [[field bundle]] $E$ equipped with a
 [[Lagrangian density]] $\mathbf{L}$ on its [[jet bundle]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}).
 Generally, given any [[object]] equipped with some [[structure]], it is of paramount interest to determine
-the [[symmetries]], hence the [[isomorphisms]]/[[equivalences]] of the object that preserve the given [[structure]].
+the [[symmetries]], hence the [[isomorphisms]]/[[equivalences]] of the object that preserve the given [[structure]]
+(this is the "[[Erlanger program]]", [Klein 1872](#Klein1872)).
 
 The [[infinitesimal symmetries of the Lagrangian density]] (def. \ref{SymmetriesAndConservedCurrents} below)
 send one [[field history]] to an [[infinitesimal|infinitesimally]] nearby one which is
