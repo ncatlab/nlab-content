@@ -102,7 +102,7 @@ Accordingly, the analogous spans out of $X_k$ for $k \geq 3$ encode the [[associ
 
 ### Model category structure
 
-The category of [[bisimplicial sets]] carries a [[model category]] structure whose [[fibrant objects]] are the Segal categories. This _[[model structure for Segal categories]]_ is a [[presentable (∞,1)-category|presentation]] of the [[(∞,1)-category of (∞,1)-categories]].
+The category of [[bisimplicial sets]] carries a [[model category]] structure whose [[fibrant objects]] are the [[Reedy model structure|Reedy fibrant]] Segal categories. This _[[model structure for Segal categories]]_ is a [[presentable (∞,1)-category|presentation]] of the [[(∞,1)-category of (∞,1)-categories]].
 
 ### Operadic version
 
