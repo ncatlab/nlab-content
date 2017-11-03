@@ -2190,7 +2190,8 @@ $$
 ###### Definition
 **([[Minkowski spacetime]] as a [[pseudo-Riemannian manifold]])**
 
-Prop./def. \ref{SpacetimeAsMatrices} introduces [[Minkowski spacetime]] $\mathbb{R}^{p,1}$ as a
+Prop./def. \ref{SpacetimeAsMatrices} introduces [[Minkowski spacetime]] $\mathbb{R}^{p,1}$ 
+for $p+1 \in \{3,4,6,10\}$ as a
 a [[vector space]] equipped with an [[inner product]]. The genuine [[spacetime]] corresponding to this
 is this vector space regarded as a [[smooth manifold]] with the inner product regarded as a
 constant [[tensor|rank-2 tensor]] over this manifold (a [[pseudo-Riemannian metric]]).
@@ -3026,7 +3027,6 @@ and the linear maps that act are given by generalized "[[Pauli matrices]]":
     \right)
   $$
 
-The spinor bilinear pairing
 
 =--
 
@@ -5614,9 +5614,9 @@ $$
 
 =--
 
-All the [[differential geometry]] over [[Cartesian space]] that we discussed [above](#Geometry) 
+All the [[differential geometry]] over [[Cartesian space]] that we discussed [above](#Geometry)
 generalizes immediately to [[super Cartesian spaces]] (def. \ref{SuperCartesianSpace})
-if we stricly adhere to the [[signs in supergeometry|super sign rule]] which says that 
+if we stricly adhere to the [[signs in supergeometry|super sign rule]] which says that
 whenever two odd-graded elements swap places, a minus sign is picked up. In particular
 we have the following generalization of the [[de Rham complex]] on [[Cartesian spaces]] discussed [above](#DifferentialFormsAndCartanCalculus).
 
@@ -5638,7 +5638,7 @@ $$
 
 with canonical even-graded [[coordinate functions]] $(x^i)_{i = 1^b}$ and odd-graded coordinate functions $(\theta^j)_{j = 1}^s$.
 
-Then the _[[de Rham complex]] of [[super differential forms]] on $\mathbb{R}^{b\vert s}$_ 
+Then the _[[de Rham complex]] of [[super differential forms]] on $\mathbb{R}^{b\vert s}$_
 is, in super-generalization of def. \ref{DifferentialnForms}, the $\mathbb{Z} \times (\mathbb{Z}/2)$-[[graded commutative algebra]]
 
 $$
@@ -5672,11 +5672,11 @@ $$
 whose [[differential]] is defined in degree-0 by
 
 $$
-  d f 
-    \;\coloneqq\; 
-  \frac{\partial f}{\partial x^i} d x^i 
+  d f
+    \;\coloneqq\;
+  \frac{\partial f}{\partial x^i} d x^i
     +
-  \frac{\partial f}{\partial \theta^j} d \theta^j 
+  \frac{\partial f}{\partial \theta^j} d \theta^j
 $$
 
 and extended from there as a bigraded [[derivation]] of bi-degree $(1,even)$,
@@ -6247,7 +6247,7 @@ with each other:
 
 $$
   \label{DiracFieldCoordinatesAnticommute}
-  \psi^A\alpha \psi^{\beta} = - \psi^{\beta} \psi^\alpha
+  \psi^\alpha \alpha \psi^{\beta} = - \psi^{\beta} \psi^\alpha
   \,.
 $$
 
@@ -6393,7 +6393,7 @@ which may superficially seem to be in tension with each other, are properly unif
 
 1. On the one hand a [[field history]] $\Psi$ of the [[Dirac field]] is _not_ an ordinary section of an ordinary [[vector bundle]].
    In particular its component functions $\psi^A$ anti-commute with each other, which is not the case for
-   ordinary functions, and this is absolutely crucial for the [[Lagrangian density]] of the Dirac field to be
+   ordinary functions, and this is crucial for the [[Lagrangian density]] of the Dirac field to be
    well defined, we come to this below in example \ref{LagrangianDensityForDiracField}.
 
 1. On the other hand a [[field history]] of the [[Dirac field]] is supposed to be a [[spinor]], hence
@@ -7548,7 +7548,8 @@ $$
 ###### Example
 **([[Lagrangian density]] for [[Dirac field]])**
 
-Consider the [[field bundle]] $\Sigma \times S_{odd} \to \Sigma$ for the [[Dirac field]] from example \ref{DiracFieldBundle}.
+For $\Sigma$ [[Minkowski spacetime]] of [[dimension]] $p + 1 \in \{3,4,6,10\}$ (def. \ref{MinkowskiSpacetime}),
+consider the [[field bundle]] $\Sigma \times S_{odd} \to \Sigma$ for the [[Dirac field]] from example \ref{DiracFieldBundle}.
 With the two-component spinor [[field fiber]] coordinates (remark \ref{TwoComponentSpinorNotation}), the [[jet bundle]] has fiber coordinates
 
 $$
@@ -7580,8 +7581,18 @@ $$
   \,.
 $$
 
-Now the [[Lagrangian function]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
-of the [[Dirac field]] is
+The  [[Lagrangian function]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
+of the _massless [[Dirac field]]_ is
+
+$$
+  \mathbf{L}
+    \coloneqq
+   \overline{\psi} \gamma^\mu \psi_,\mu}\, dvol_\Sigma
+   \,.
+$$
+
+In [[spacetime]] [[dimension]] $p + 1 = 4$, the [[Lagrangian density]] for the _massive [[Dirac field]]_
+of [[mass]] $m \in \mathbb{R}$ is
 
 $$
   \begin{aligned}
@@ -7662,7 +7673,7 @@ othing but the shadow (under "[[transgression of variational differential forms]
 
 +-- {: .num_prop #EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}
 ###### Proposition
-**([[Euler-Lagrange variational derivative]] and [[presymplectic current]])**
+**([[Euler-Lagrange form]] and [[presymplectic current]])**
 
 Given a [[Lagrangian density]] $\mathbf{L} \in \Omega^{p+1,0}_\Sigma(E)$ as in def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}, then its de Rham differential has a _unique_ decomposition as a sum of two terms
 
@@ -7695,6 +7706,7 @@ $$
 thus defined is called the _[[Euler-Lagrange operator]]_ and is explicitly given by
 
 $$
+  \label{EulerLagrangeEquationGeneral}
   \begin{aligned}
     \delta_{EL} L \, dvol_\Sigma
     & \coloneqq
@@ -8028,7 +8040,40 @@ $$
 
 =--
 
-Most examples of interest fall into the following special case of prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}:
+Many examples of interest fall into the following special cases of prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}:
+
++-- {: .num_prop #ShellForSpacetimeIndependentLagrangians}
+###### Example
+**([[Euler-Lagrange form]] for [[spacetime]]-independent [[Lagrangian densities]])**
+
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
+whose [[field bundle]] $E$ is a [[trivial vector bundle]] $E \simeq \Sigma \times F$ over [[Minkowski spacetime]] $\Sigma$
+(example \ref{TrivialVectorBundleAsAFieldBundle}).
+
+In general the [[Lagrangian density]] $\mathbf{L}$ is a function of all the spacetime and field coordinates
+
+$$
+  \mathbf{L} = L((x^\mu), (\phi^a), (\phi^a_{,\mu}), \cdots) dvol_\Sigma
+  \,.
+$$
+
+Consider the special case that $\mathbf{L}$ is _[[spacetime]]-independent_ in that the Lagrangian funtion $L$
+is independent of the spacetime coordinate $(x^\mu)$.
+Then the same evidently holds for the [[Euler-Lagrange form]] $\delta_{EL}\mathbf{L}$
+(prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}).
+Therefore in this case the [[shell]] (eq:ProlongedShellInJetBundle) is itself a [[trivial bundle]] over spacetime.
+
+In this situation every point $\varphi$ in the jet fiber defines a constant section of the shell:
+
+$$
+  \label{ConstantSectionOfTrivialShellBundle}
+  \Sigma \times \{\varphi\} \subset \mathcal{E}^\infty
+  \,.
+$$
+
+
+=--
+
 
 +-- {: .num_example #CanonicalMomentum}
 ###### Example
@@ -8036,7 +8081,7 @@ Most examples of interest fall into the following special case of prop. \ref{Eul
 
 Consider a [[Lagrangian field theory]] $(E, \mathbf{L})$ (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) whose [[Lagrangian density]] $\mathbf{L}$
 
-1. does not depend on the [[spacetime]]-[[coordinates]]
+1. does not depend on the [[spacetime]]-[[coordinates]] (example \ref{ShellForSpacetimeIndependentLagrangians});
 
 1. depends on spacetime derivatives of [[field (physics)|field]] coordinates (hence on [[jet bundle]] coordinates) at most to first order.
 
@@ -8176,7 +8221,7 @@ $$
 
 +-- {: .num_example #FreeScalarFieldEOM}
 ###### Example
-**([[Euler-Lagrange operator|Euler-Lagrange variational derivative]] and [[presymplectic current]] for [[free field|free]] [[real scalar field]])**
+**([[Euler-Lagrange form]] and [[presymplectic current]] for [[free field|free]] [[real scalar field]])**
 
 Consider the [[Lagrangian field theory]] of the [[free field|free]] [[real scalar field]]
 from example  \ref{LagrangianForFreeScalarFieldOnMinkowskiSpacetime}.
@@ -8345,40 +8390,133 @@ $$
 
 =--
 
-Example \ref{FreeScalarFieldEOM} is a special case of the following
-important situation.
 
-+-- {: .num_prop #ShellForSpacetimeIndependentLagrangians}
-###### Example
-**([[Euler-Lagrange operator|Euler-Lagrange variation]] for [[spacetime]]-independent [[Lagrangian densities]])**
++-- {: .num_defn #PresymplecticCurrentDiracField}
+###### Definition
+**([[Euler-Lagrange form]] and [[presymplectic current]] of [[Dirac field]])**
 
-Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
-whose [[field bundle]] $E$ is a [[trivial vector bundle]] $E \simeq \Sigma \times F$ over [[Minkowski spacetime]] $\Sigma$
-(example \ref{TrivialVectorBundleAsAFieldBundle}).
+Consider the [[Lagrangian field theory]] of the [[Dirac field]] on [[Minkowski spacetime]] of [[dimension]] $p + 1 \in \{3,4,6,10\}$ (example \ref{LagrangianDensityForDiracField}).
 
-In general the [[Lagrangian density]] $\mathbf{L}$ is a function of all the spacetime and field coordinates
+Then
 
-$$
-  \mathbf{L} = L((x^\mu), (\phi^a), (\phi^a_{,\mu}), \cdots) dvol_\Sigma
-  \,.
-$$
+* the [[Euler-Lagrange variational derivative]] in the case of vanishing [[mass]] $m$ is
 
-Consider the special case that $\mathbf{L}$ is _[[spacetime]]-independent_ in that the Lagrangian funtion $L$
-is independent of the spacetime coordinate $(x^\mu)$.
-Then the same evidently holds for the [[Euler-Lagrange form]] $\delta_{EL}\mathbf{L}$
-(prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}).
-Therefore in this case the [[shell]] (eq:ProlongedShellInJetBundle) is itself a [[trivial bundle]] over spacetime.
+  $$
+    \delta_{EL} \mathbf{L}
+    \;=\;
+    2 i\,
+    \overline{\delta \psi}
+    \,\gamma^\mu\, \psi_{,\mu}
+    \,
+    \wedge dvol_\Sigma
+  $$
 
-In this situation every point $\varphi$ in the jet fiber defines a constant section of the shell:
+  and in the case that [[spacetime]] [[dimension]] is $p +1 = 4$ and arbitrary [[mass]] $m\in \mathbb{R}$, it is
 
-$$
-  \label{ConstantSectionOfTrivialShellBundle}
-  \Sigma \times \{\varphi\} \subset \mathcal{E}^\infty
-  \,.
-$$
+  $$
+    \delta_{EL} \mathbf{L}
+     \;=\;
+     \left(
+       \overline{\delta \psi}
+       \left(
+          i \gamma^\mu \psi_{,\mu} + m \psi
+       \right)
+       +
+       \left(
+         - i \gamma^\mu\overline{\psi_{,\mu}} + m \overline{\psi}
+       \right)
+       (\delta \psi)
+     \right)
+     \,
+     dvol_\Sigma
+  $$
+
+
+* its [[presymplectic current]] is
+
+  $$
+    \Omega_{BFV}
+    \;=\;
+    \overline{\psi}\,\gamma^\mu \,\psi \, \iota_{\partial_\mu} dvol_\Sigma
+  $$
 
 
 =--
+
+
++-- {: .proof}
+###### Proof
+
+In any case the [[canonical momentum]] of the [[Dirac field]] according to example \ref{CanonicalMomentum} is
+
+$$
+  \begin{aligned}
+    p^\alpha_\mu
+    & \coloneqq
+    \frac{\partial }{\partial \psi^\alpha_{,\mu}}
+    \left(
+      i \overline {\psi} \, \gamma^\nu \, \psi_{,\nu}
+      +
+      m \overline{\psi} \psi
+    \right)
+    \\
+    & =
+    \overline{\psi}^\beta (\gamma^\mu)_\beta{}^\alpha
+  \end{aligned}
+$$
+
+This yields the [[presymplectic current]] as claimed, by example \ref{CanonicalMomentum}.
+
+Now regarding the [[Euler-Lagrange form]], first consider the massless case in spacetime dimension $p+1 \in \{3,4,6,10\}$, where
+
+$$
+  L
+  \;=\;
+  i \overline{\psi} \, \gamma^\mu \, \psi_{,\mu}
+  \,.
+$$
+
+Then we compute as follows:
+
+$$
+  \begin{aligned}
+    \delta_{EL} L
+    & =
+    i \,\overline{\delta \psi} \, \gamma^\mu \, \psi_{,\mu}
+    \underset{
+      = +
+      i \,\overline{\delta \psi} \, \gamma^\mu \, \psi_{,\mu}
+    }{
+    \underbrace{
+    -
+    i \overline{\psi_{,\mu}} \, \gamma^\mu \, \delta \psi
+    }
+    }
+    \\
+    & =
+    2 i \, \overline{\delta \psi} \, \gamma^\mu \, \psi_{,\mu}
+  \end{aligned}
+$$
+
+Here the first equation is the general formula (eq:EulerLagrangeEquationGeneral) for the Euler-Lagrange variation, while the identity under the braces combines two facts:
+
+1. the [[bilinear form]] $\overline{(-)}\gamma^\mu(-)$ is symmetric (...)
+
+1. the spinor field coordinate functions anti-commute according to (eq:DiracFieldJetCoordinatesAnticommute).
+
+Finally in the special case of the massive Dirac field in spacetime dimension $p+1 = 4$ the Lagrangian function is
+
+$$
+  L
+  \;=\;
+  i \, \overline{\psi} \gamma^\mu \psi_{,\mu} + m \overline{\psi}\psi
+$$
+
+where now $\psi_\alpha$ takes values in the [[complex numbers]] $\mathbb{C}$ (as opposed to in $\mathbb{R}$, $\mathbb{H}$ or $\mathbb{O}$). Therefore we may now form the [[derivative]] equivalently by treeating $\psi$ and $\overline{\psi}$ as independent components of the field. This immediately yields the claim.
+
+=--
+
+
 
 
 The following fact is immediate from prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime},
@@ -10444,11 +10582,12 @@ $$
   L
    \;=\;
   i \overline{\psi} \gamma^\mu \partial_\mu \psi + m \overline{\psi}\psi
-  \,.
 $$
 
+(in spacetime dimension $p+1 \in \{3,4,6,10\}$ with $m = 0$ unless $p+1 = 4$).
 
-The corresponding [[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]] (def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime}) is
+From example \ref{PresymplecticCurrentDiracField} it follows that
+the corresponding [[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]] (def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime}) is
 
 $$
   \left(-i ^\gamma^\mu \partial_\mu + m\right)\psi \;=\; 0
