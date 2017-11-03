@@ -1278,30 +1278,10 @@ and hence (see the properties of [[adjoint functors]])
 ## Structure on $dSet$ ##
 
 
-### Closed symmetric monoidal structure
+### Homotopical monoidal structure
  {#ClosedMonoidalStructure}
 
-+-- {: .num_prop #TheClosedMonoidalStructure}
-###### Proposition
-
-There exists an essentially unique [[symmetric monoidal category|symmetric]] [[closed monoidal category]] structure $(dSet, \otimes)$ on $dSet$ such that for all $S, T \in \Omega \hookrightarrow Operad$ there is a [[natural isomorphism]]
-
-$$
-  \Omega[S] \otimes \Omega[T] \simeq N_d(\, S \otimes_{BV} T \,)
-$$
-
-with $\otimes_{BV}$ the [[Boardman-Vogt tensor product]] on operads, and with $N_d$ the dendroidal nerve, def. \ref{DendroidalNerve}.
-
-This is given as discussed [above](#BoardmanVogtTensorProduct). The corresponding [[internal hom]] $[-,-]_{BV} : dSet^{op} \times dSet \to dSet$ is given by the formula
-
-$$
-  [X,Y]_{BV} : T \mapsto dSet(\Ometa(T) \otimes X, Y)
-  \,.
-$$
-
-=--
-
-This appears as ([Moerdijk-Weiss, prop. 5.1](#MoerdijkWeiss)).
+[Heuts-Hinich-Moerdijk 13, section 6.3](#HeutsHinichMoerdijk13)
 
 ### $sSet$-enriched structure 
 
@@ -1357,8 +1337,11 @@ The [[model structure for dendroidal complete Segal spaces]] and the [[model str
 
 Normal morphisms of dendroidal sets are discussed for instance around prop. 1.4 of
 
-* [[Denis-Charles Cisinski]], [[Ieke Moerdijk]], _Dendroidal sets as models for homotopy operads_ ([arXiv:0902.1954](http://arxiv.org/abs/0902.1954))
- {#CisMoer09}
+* {#CisMoer09} [[Denis-Charles Cisinski]], [[Ieke Moerdijk]], _Dendroidal sets as models for homotopy operads_ ([arXiv:0902.1954](http://arxiv.org/abs/0902.1954))
+ 
+See also
+
+* {#HeutsHinichMoerdijk13} Gijs Heuts, Vladimir Hinich, Ieke Moerdijk, _On the equivalence between Lurie's model and the dendroidal model for infinity-operads_([arXiv:1305.3658](https://arxiv.org/abs/1305.3658))
 
 
 [[!redirects dendroidal sets]]
