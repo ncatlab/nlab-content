@@ -21,6 +21,12 @@
 
   * [[charge conjugation matrix]], [[Fierz identity]]
 
+  * [[real spin representation]]
+
+  * [[Dirac conjugate]]
+
+  * [[Dirac spinor]], [[Weyl spinor]], [[Majorana spinor]]
+
 * [[spin structure]], [[spin^c structure]]
 
 * [[spinor bundle]]
@@ -28,6 +34,10 @@
 * [[Dirac operator]]
 
   * [[index theory]], [[K-theory]]
+
+* [[Dirac equation]]
+
+* [[Dirac field]]
 
 ## String geometry
 
