@@ -1433,7 +1433,7 @@ $$
 
 More generally, for
 
-1. $\omega \in \Omega^n(\mathbb{R^k)$ a [[differential n-forms]];
+1. $\omega \in \Omega^n(\mathbb{R}^k)$ a [[differential n-forms]];
 
 1. $C = \underset{i}{\sum} c_i \sigma_i $ a singular $n$-chain (def. \ref{SingularSimplicesInCartesianSpaces})
 
@@ -2194,7 +2194,7 @@ $$
 ###### Definition
 **([[Minkowski spacetime]] as a [[pseudo-Riemannian manifold]])**
 
-Prop./def. \ref{SpacetimeAsMatrices} introduces [[Minkowski spacetime]] $\mathbb{R}^{p,1}$ 
+Prop./def. \ref{SpacetimeAsMatrices} introduces [[Minkowski spacetime]] $\mathbb{R}^{p,1}$
 for $p+1 \in \{3,4,6,10\}$ as a
 a [[vector space]] $\mathbb{R}^{p,1}$ equipped with an [[inner product]]. The genuine [[spacetime]] corresponding to this
 is this vector space regaded as a [[Cartesian space]], i.e. with [[smooth functions]] (instead of just [[linear maps]])
@@ -2205,8 +2205,8 @@ $$
   T_x \mathbb{R}^{p,1} \simeq \mathbb{R}^{p,1}
 $$
 
-and the [[Cartesian space]] $\mathbb{R}^{p,1}$ equipped with the Lorentzian inner product from 
-prop./def. \ref{SpacetimeAsMatrices} on each [[tangent space]] $T_x \mathbb{R}^{p,1}$ is 
+and the [[Cartesian space]] $\mathbb{R}^{p,1}$ equipped with the Lorentzian inner product from
+prop./def. \ref{SpacetimeAsMatrices} on each [[tangent space]] $T_x \mathbb{R}^{p,1}$ is
 is _[[Mikowski spacetime]]_ as such.
 
 We write
@@ -2795,9 +2795,9 @@ $\,$
 **Spinors in dimensions 3, 4, 6 and 10**
  {#InTermsOfNormedDivisionAlgebraInDimension3To10}
 
-We now discuss how [[real spin representations]] (def. \ref{SpinGroup}) in 
+We now discuss how [[real spin representations]] (def. \ref{SpinGroup}) in
 spacetime dimensions 3,4, 6 and 10 are naturally induced from
-linear algebra over the four real [[alternative algebras|alternative]] [[division algebras]] spring
+[[linear algebra]] over the four real [[alternative algebras|alternative]] [[division algebras]] (prop. \ref{HurwitzTheorem}).
 
 
 
@@ -3051,7 +3051,7 @@ These pairings have the following properties
 
 1. the pairing $\overline{(-)}\Gamma(-)$ is a [[symmetric bilinear form|symmetric]]:
 
-   $$  
+   $$
      \label{SpinorToVectorPairingIsSymmetric}
      \overline{\psi} \Gamma \phi = + \overline{\phi}\Gamma \psi
      \phantom{AAAA}
@@ -3079,27 +3079,28 @@ given by prop. \ref{SpinorRepsByNormedDivisionAlgebra} are traditionally written
 
 * an element of $S = S_+ \oplus S_-$ is denoted $(\psi^\alpha) = \left( (\chi_a), (\xi^{\dot a}) \right)$;
 
-and the linear maps that act spring are given by generalized "[[Pauli matrices]]":
+and the Clifford action of prop. \ref{CliffordAlgebraInTermsOfNormedDivisionAlgebra} corresponds to the generalized "[[Pauli matrices]]":
 
-* the hermitian matrix $A = \left( \array{  x_0 + x_1 & \vec x  \\ \vec x^\ast & x_0 - x_1 } \right)$
-  regarded as a linear map $S_- \to S_+$ is denoted
+* a hermitian matrix $A \in Mat^{her}_{2\times 2}(\mathbb{K})$ regarded as a linear map $S_- \to S_+$ is denoted
 
   $$
     \left(x_\mu \sigma^\mu_{a \dot a}\right)
-    \,;
+    \;=\;
+    \left( \array{  x_0 + x_1 & \vec x  \\ \vec x^\ast & x_0 - x_1 } \right)    \,;
   $$
 
-* the hermitian matrix $\tilde A = \left( \array{  -x_0 + x_1 & \vec x  \\ \vec x^\ast & -x_0 - x_1 } \right)$ regarded
-  as a linear map $S_+ \to S_-$ is denoted
+* a trace-reversed (def. \ref{TraceReversal}) hermitian matrix $\tilde A \in Mat^{her}_{2 \times 2}(\mathbb{K})$ regarded as a linear map $S_+ \to S_-$ is denoted
 
   $$
     \left(
       - x_\mu \tilde \sigma^{\mu \dot a a}
     \right)
+    \;=\;
+    \left( \array{  -x_0 + x_1 & \vec x  \\ \vec x^\ast & -x_0 - x_1 } \right)    
     \,.
   $$
 
-* the matrix $\Gamma(A) \colon S_+ \oplus S_- \to S_+ \oplus S_-$ (def. \ref{CliffordAlgebraInTermsOfNormedDivisionAlgebra})
+* the corresponding Clifford generator $\Gamma(A) \colon S_+ \oplus S_- \to S_+ \oplus S_-$ (def. \ref{CliffordAlgebraInTermsOfNormedDivisionAlgebra})
   is denoted
 
   $$
@@ -3114,16 +3115,16 @@ and the linear maps that act spring are given by generalized "[[Pauli matrices]]
     \right)
   $$
 
-* the sbilinear spinor-to-vector pairing from prop. \ref{RealSpinorPairingsViaDivisionAlg}
+* the bilinear spinor-to-vector pairing from prop. \ref{RealSpinorPairingsViaDivisionAlg}
   is written as the [[matrix multiplication]]
-  
-  $$ 
+
+  $$
     (\psi_\apha), (\phi_\alpha)
       \;\mapsto\;
     \left( \overline{\psi} \gamma^\mu \phi\right)
   $$
-  
-  the the _[[Dirac conjugate]]_ $\overline{\psi}$  is given 
+
+  the the _[[Dirac conjugate]]_ $\overline{\psi}$  is given
   on $\psi = (\chi_a, \xi^{\dagger \dot c})$ by
 
   $$
@@ -7753,7 +7754,7 @@ Here the identification under the brace uses two facts:
 The second fact gives the minus sign under the brace, which makes the total expression vanish.
 If the Dirac field and jet coordinates did not anti-commute with each other, we would instead
 have a plus sign under the brace, in which case the total horizontal derivative expression
-above would equal the massless Dirac field Lagrangian (eq:DiracFieldLagrangianMassless), 
+above would equal the massless Dirac field Lagrangian (eq:DiracFieldLagrangianMassless),
 thus rendering it trivial.
 
 The same [[supergeometry|supergeometric]] nature of the [[Dirac field]] will be necessary
