@@ -2,7 +2,7 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Higher spin geometry
+#### Spin geometry
 +-- {: .hide}
 [[!include higher spin geometry - contents]]
 =--
@@ -25,9 +25,21 @@ By the [[spin-statistics theorem]], the spin of any [[elementary particle]] must
 
 ## Related concepts
 
-* [[spin group]], [[spin representation]], [[spinor]]
+* [[spin group]], 
+
+* [[spin representation]], [[real spin representation]]
 
 * [[Fierz identity]]
 
+* [[spinor]]
+
+* [[Dirac field]]
+
 * [[quantization of the 2-sphere]]
+
+* [[supersymmetry]]
+
+* [[division algebras and supersymmetry]]
+
+* [[geometry of physics -- supersymmetry]]
 
