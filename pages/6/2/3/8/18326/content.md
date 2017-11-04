@@ -17,6 +17,8 @@
 A **Freyd category** is one way to axiomatize models of [[call-by-value]] programming languages.
 It abstracts the structure of the [[Kleisli category]] of a [[monad in computer science|monad]], consisting of a category $\mathbb{V}$ that model values and another category with the same objects $\mathbb{C}$ that model computations.
 
+Freyd categories resolve the following complaint about using [[monad]]s and [[Kleisli category|Kleisli categories]] to model impure effects in programming languages. The Kleisli category for a monad presumes the existence of some slightly higher-order types, since if $X$ is an object then so is $T(X)$, and yet it is surely possible to understand the nature of effectful computation without also assuming the existence of certain types. Freyd categories make sense even for purely first order programming languages, and the object $T(X)$, if it exists, has a universal property, thus decoupling this relationship. 
+
 ## Definition
 
 A **Freyd category** (following [Levy 04](#Levy04)) may be defined as
@@ -42,11 +44,18 @@ A Freyd category is given by
 
 If $T$ is a [[strong monad]] on a category $\mathbb{V}$ with finite products, then the Kleisli category of $T$ forms a Freyd category and $J$ has a right adjoint. 
 
-Conversely, if $(\mathbb{V},\mathbb{C},J)$ is a Freyd category and $J$ has a right adjoint $R$, then the Freyd category arises as the Kleisli category of the monad $RJ$.
+Conversely, if $(\mathbb{V},\mathbb{C},J)$ is a Freyd category and $J$ has a right adjoint $R$, then the Freyd category arises as the [[Kleisli category]] of the monad $RJ$.
 
 ### Relation to Lawvere theories
 
-[Staton 14](#Staton14) shows that a small Freyd category is equivalent to an [[enriched Lawvere theory]] relative to the empty [[sound doctrine]] where the enriching category is [[cartesian closed category|cartesian closed]].
+[Staton 14](#Staton14) shows that to give a small Freyd category is to give an [[enriched Lawvere theory]] relative to the empty [[sound doctrine]] where the enriching category is [[cartesian closed category|cartesian closed]].
+
+This relates to the situation with monads as follows. If $T$ is a strong monad on the [[presheaf]] category $\hat{\mathbb{V}}$ then the 
+Kleisli category $\hat{\mathbb{V}}\to (\hat{\mathbb{V}})^T$ is a Freyd category. 
+But also the identity-on-objects/full-and-faithful factorization of the composite $\mathbb{V}\to \hat{\mathbb{V}}\to (\hat{\mathbb{V}})^T$
+yields a Freyd category over $\mathbb{V}$. 
+
+Every Freyd category arises in this way, giving a correspondence between colimit-preserving monads on $\hat{\mathbb{V}}$ and Freyd categories over $\mathbb{V}$. 
 
 ## Related Concepts
 
@@ -76,6 +85,7 @@ and the longer journal version of that paper has more discussion:
 
 * Paul Blain Levy, John Power and Hayo Thielecke, "Modelling environments in call-by-value programming languages",  Inf. Comput. 185(2): 182-210, 2003 [preprint pdf](https://www.cs.bham.ac.uk/~hxt/research/envcbv.pdf).
 
+* John Power, "Generic models for computational effects",  Theor. Comput. Sci. 364(2): 254-269 (2006)
 
 [[!redirects Freyd categories]]
 
