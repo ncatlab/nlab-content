@@ -107,6 +107,12 @@ is an [[isomorphism]].
 
 ## References
 
+The Kock-Lawvere axiom was introduced in
+
+* {#Kock77} [[Anders Kock]], _A simple axiomatics for differentiation_,  Mathematica Scandinavica Vol. 40, No. 2 (October 24, 1977), pp. 183-193 ([JSTOR](http://www.jstor.org/stable/24491223))
+
+Textbook accounts are in
+
 * [[Anders Kock]], section I.12 of _Synthetic differential geometry_, Cambridge University Press, London Math. Society Lecture Notes Series No. 333 (1981, 2006) ([pdf](http://home.imf.au.dk/kock/sdg99.pdf))
 
 * [[Anders Kock]], section 1.3 of _Synthetic geometry of manifolds_, Cambridge Tracts in Mathematics, 180 (2010) ([pdf](http://home.imf.au.dk/kock/SGM-final.pdf))
