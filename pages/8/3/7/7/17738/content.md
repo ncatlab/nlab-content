@@ -29,9 +29,13 @@ For the moment see _[here](Majorana+spinor#DiracAndWeylRepresentations)_.
 
 ## Related concepts
 
-* [[Weyl spinor]]
+* [[Dirac field]]
 
-* [[Majorana spinor]]
+* [[Dirac conjugate]]
+
+* [[Dirac operator]], [[Dirac equation]]
+
+* [[Weyl spinor]], [[Majorana spinor]]
 
 [[!redirects Weyl spinor]]
 [[!redirects Weyl spinors]]
