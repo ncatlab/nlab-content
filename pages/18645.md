@@ -2196,12 +2196,18 @@ $$
 
 Prop./def. \ref{SpacetimeAsMatrices} introduces [[Minkowski spacetime]] $\mathbb{R}^{p,1}$ 
 for $p+1 \in \{3,4,6,10\}$ as a
-a [[vector space]] equipped with an [[inner product]]. The genuine [[spacetime]] corresponding to this
-is this vector space regarded as a [[smooth manifold]] with the inner product regarded as a
-constant [[tensor|rank-2 tensor]] over this manifold (a [[pseudo-Riemannian metric]]).
+a [[vector space]] $\mathbb{R}^{p,1}$ equipped with an [[inner product]]. The genuine [[spacetime]] corresponding to this
+is this vector space regaded as a [[Cartesian space]], i.e. with [[smooth functions]] (instead of just [[linear maps]])
+to it and from it (def. \ref{CartesianSpacesAndSmoothFunctionsBetweenThem}).
+This still carries one copy of $\mathbb{R}^{p,1}$ over each point $x \in \mathbb{R}^{p,1}$, as its [[tangent space]] (example \ref{TangentVectorFields})
 
-As such we will generically write $\Sigma = (\mathbb{R}^{p,1}, \eta)$ for [[Minkowski spacetime]]
-regarded as a [[pseudo-Riemannian manifold]].
+$$
+  T_x \mathbb{R}^{p,1} \simeq \mathbb{R}^{p,1}
+$$
+
+and the [[Cartesian space]] $\mathbb{R}^{p,1}$ equipped with the Lorentzian inner product from 
+prop./def. \ref{SpacetimeAsMatrices} on each [[tangent space]] $T_x \mathbb{R}^{p,1}$ is 
+is _[[Mikowski spacetime]]_ as such.
 
 We write
 
@@ -2212,7 +2218,7 @@ $$
   \in \Omega^{p+1}(\mathbb{R}^{p,1})
 $$
 
-for the induced [[volume form]].
+for the canonical [[volume form]] on Minkowski spacetime.
 
 We use the [[Einstein summation convention]]: Expressions with repeated indices indicate [[sum|summation]] over the
 range of indices.
@@ -2240,7 +2246,7 @@ $$
 
 $\,$
 
-The identification of [[Minkowski spacetime]] in the exceptional dimensions with the
+The identification of [[Minkowski spacetime]] (def. \ref{MinkowskiSpacetime}) in the exceptional dimensions with the
 generalized [[Pauli matrices]] (prop./def. \ref{SpacetimeAsMatrices}) has some immediate useful implications:
 
 +-- {: .num_prop #DeterminantViaProductWithTraceReversal}
@@ -2786,11 +2792,12 @@ kernel reflects the ambiguity from remark \ref{AmbiguityInCliffordConjugation}.
 
 $\,$
 
-**Real spinors in dimensions 3, 4, 6 and 10**
+**Spinors in dimensions 3, 4, 6 and 10**
  {#InTermsOfNormedDivisionAlgebraInDimension3To10}
 
-We now discuss how [[real spin representations]] in dimensions 3,4, 6 and 10 are naturally induced from
-linear algebra over the four real [[alternative algebras|alternative]] [[division algebras]].
+We now discuss how [[real spin representations]] (def. \ref{SpinGroup}) in 
+spacetime dimensions 3,4, 6 and 10 are naturally induced from
+linear algebra over the four real [[alternative algebras|alternative]] [[division algebras]] spring
 
 
 
@@ -2980,20 +2987,24 @@ This implies the statement via the equality $A \tilde A = \tilde A A = -det(A)$ 
 =--
 
 
-+-- {: .num_defn #RealSpinorPairingsViaDivisionAlg}
-###### Definition
++-- {: .num_prop #RealSpinorPairingsViaDivisionAlg}
+###### Proposition
 **([[spinor]] [[bilinear map|bilinear]] pairings)**
 
-There are [[bilinear maps]]
+Let $\mathbb{K}$ be one of the four real [[normed division algebras]] and $S_\pm \simeq_{\mathbb{R}}\mathbb{K}^2$
+the corresponding [[spin representation]] from prop. \ref{SpinorRepsByNormedDivisionAlgebra}.
+
+Then there are [[bilinear maps]] from two [[spinors]] (according to prop. \ref{SpinorRepsByNormedDivisionAlgebra})
+to the [[real numbers]]
 
 $$
   \overline{(-)}(-) \;\colon\; S_+ \otimes S_-\longrightarrow \mathbb{R}
 $$
 
-and
+as well as to $\mathbb{R}^{dim(\mathbb{K}+1,1)}$
 
 $$
-  \overline{(-)}\Gamma (-) \;\colon\; S_\pm \otimes S_{\pm}\longrightarrow V
+  \overline{(-)}\Gamma (-) \;\colon\; S_\pm \otimes S_{\pm}\longrightarrow \mathbb{R}^{dim(\mathbb{K}+1,1)}
 $$
 
 given, respectively, by forming the real part of the canonical $\mathbb{K}$-[[inner product]]
@@ -3005,7 +3016,8 @@ $$
   (\psi,\phi)\mapsto \overline{\psi} \phi \coloneqq Re(\psi^\dagger \cdot \phi)
 $$
 
-and by forming the product of a column vector with a row vector to produce a matrix, possibly up to trace reversal (def. \ref{TraceReversal}):
+and by forming the product of a column vector with a row vector to produce a matrix, possibly up to trace reversal (def. \ref{TraceReversal})
+under the identification $\mathbb{R}^{dim(\mathbb{K})+1,1} \simeq Mat^{her}_{2 \times 2}(\mathbb{K})$ from prop. \ref{SpacetimeAsMatrices}:
 
 $$
   S_+ \otimes S_+ \longrightarrow V
@@ -3024,7 +3036,7 @@ $$
   (\psi , \phi) \mapsto {\psi \phi^\dagger + \phi \psi^\dagger}
 $$
 
-For $A \in V$ the $A$-component of this map is
+For $A \in Mat^{her}_{2 \times 2}(\mathbb{K})$ the $A$-component of this map is
 
 $$
   \eta(\overline{\psi}\Gamma \phi, A)
@@ -3032,6 +3044,19 @@ $$
   Re (\psi^\dagger (A\phi))
  \,.
 $$
+
+These pairings have the following properties
+
+1. both are $Spin(dim(\mathbb{K})+1,1)$-equivalent;
+
+1. the pairing $\overline{(-)}\Gamma(-)$ is a [[symmetric bilinear form|symmetric]]:
+
+   $$  
+     \label{SpinorToVectorPairingIsSymmetric}
+     \overline{\psi} \Gamma \phi = + \overline{\phi}\Gamma \psi
+     \phantom{AAAA}
+     \psi,\phi \in S_+ \oplus S_-
+   $$
 
 =--
 
@@ -3054,7 +3079,7 @@ given by prop. \ref{SpinorRepsByNormedDivisionAlgebra} are traditionally written
 
 * an element of $S = S_+ \oplus S_-$ is denoted $(\psi^\alpha) = \left( (\chi_a), (\xi^{\dot a}) \right)$;
 
-and the linear maps that act are given by generalized "[[Pauli matrices]]":
+and the linear maps that act spring are given by generalized "[[Pauli matrices]]":
 
 * the hermitian matrix $A = \left( \array{  x_0 + x_1 & \vec x  \\ \vec x^\ast & x_0 - x_1 } \right)$
   regarded as a linear map $S_- \to S_+$ is denoted
@@ -3089,7 +3114,16 @@ and the linear maps that act are given by generalized "[[Pauli matrices]]":
     \right)
   $$
 
-* the [[Dirac conjugate]] $\overline{\psi}$ from def. \ref{RealSpinorPairingsViaDivisionAlg} is given 
+* the sbilinear spinor-to-vector pairing from prop. \ref{RealSpinorPairingsViaDivisionAlg}
+  is written as the [[matrix multiplication]]
+  
+  $$ 
+    (\psi_\apha), (\phi_\alpha)
+      \;\mapsto\;
+    \left( \overline{\psi} \gamma^\mu \phi\right)
+  $$
+  
+  the the _[[Dirac conjugate]]_ $\overline{\psi}$  is given 
   on $\psi = (\chi_a, \xi^{\dagger \dot c})$ by
 
   $$
@@ -3106,7 +3140,7 @@ and the linear maps that act are given by generalized "[[Pauli matrices]]":
 
 =--
 
-(e.g [Dermisek I-8](Dirac+field#DermisekI8), [Dermisek I-9](Dirac+field#DermisekI9))
+(e.g. [Dermisek I-8](Dirac+field#DermisekI8), [Dermisek I-9](Dirac+field#DermisekI9))
 
 
 We mention the following just for completeness:
@@ -5401,9 +5435,9 @@ $\,$
 
 Field theories of interest crucially involve [[fermionic fields]] (def. \ref{FermionicBosonicFields} below), such as the [[Dirac field]] (example \ref{DiracFieldBundle} below),
 which are subject to the "[[Pauli exclusion principle]]", a key reason for the [[stability of matter]].
-Mathematically this means that these
+Mathematically this principle means that these
 [[field (physics)|fields]] have [[field bundles]] whose [[field fiber]]
-is not an ordinary [[manifold]], but an odd-graded _[[supermanifold]]_.
+is not an ordinary [[manifold]], but an odd-graded _[[supermanifold]]_ (more on this in remark \ref{LagrangianDensityOfDiracFieldSupergeometricNature} and remark \ref{SupergeometricNatureOfDiracEquation} below).
 
 This "[[supergeometry]]" is an immediate generalization of the
 [[synthetic differential geometry|infinitesimal geometry]] [above](#InfinitesimalGeometry), where now the [[infinitesimal]]
@@ -7607,13 +7641,15 @@ The  [[Lagrangian function]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBu
 of the _massless [[Dirac field]]_ is
 
 $$
+  \label{DiracFieldLagrangianMassless}
   \mathbf{L}
     \;\coloneqq\;
    \overline{\psi} \, \gamma^\mu \psi_{,\mu}\, dvol_\Sigma
    \,,
 $$
 
-given by the bilinear pairing from def. \ref{RealSpinorPairingsViaDivisionAlg}, hence with the [[Dirac conjugate]] (eq:DiracConjugate) on the left.
+given by the bilinear pairing $\overline{(-)}\Gamma(-)$ from prop. \ref{RealSpinorPairingsViaDivisionAlg}, hence with the [[Dirac conjugate]] (eq:DiracConjugate) on the left.
+
 
 In [[spacetime]] [[dimension]] $p + 1 = 4$, the [[Lagrangian density]] for the _massive [[Dirac field]]_
 of [[mass]] $m \in \mathbb{R}$ is
@@ -7686,6 +7722,45 @@ $$
 
 (e.g. [Dermisek I-9](Dirac+field#Dermisek))
 
+
++-- {: .num_remark #LagrangianDensityOfDiracFieldSupergeometricNature}
+###### Remark
+**([[supergeometry|supergeometric]] nature of [[Lagrangian density]] of the [[Dirac field]])
+
+Observe that the [[Lagrangian density]] for the [[Dirac field]] (def. \ref{LagrangianDensityForDiracField}) makes sense (only) due to the [[supergeometry|supergeometric]] nature of the [[Dirac field]] (remark \ref{DiracFieldSupergeometric}): If the field jet coordinates $\psi_{,\mu_1 \cdots \mu_k}$ were not anti-commuting (eq:DiracFieldJetCoordinatesAnticommute) then the above Lagrangian density would be a [[total spacetime derivative]]. This is because
+
+$$
+  d \left(
+    \tfrac{1}{2}
+    \overline{\psi} \,\gamma^\mu\, \psi
+  \right) \iota_{\partial_\mu} dvol_\Sigma
+  =
+  \tfrac{1}{2} \overline{\psi_{,\mu}} \,\gamma^\mu\, \psi \, dvol_\Sigma
+  +
+  \underset{ = (-1) \tfrac{1}{2} \overline{\psi_{,\mu}} \,\gamma^\mu\, \psi \, dvol_\Sigma  }{
+  \underbrace{
+  \tfrac{1}{2}\overline{\psi} \,\gamma^\mu\, \psi_{,\mu} \, dvol_\Sigma
+  }}
+  \,.
+$$
+
+Here the identification under the brace uses two facts:
+
+1. the symmetry (eq:SpinorToVectorPairingIsSymmetric) of the spinor bilinear pairing $\overline{(-)}\Gamma (-)$;
+
+1. the anti-commutativity (eq:DiracFieldJetCoordinatesAnticommute) of the Dirac field and jet coordinates, due to their [[supergeometry|supergeometric]] nature (remark \ref{DiracFieldSupergeometric}).
+
+The second fact gives the minus sign under the brace, which makes the total expression vanish.
+If the Dirac field and jet coordinates did not anti-commute with each other, we would instead
+have a plus sign under the brace, in which case the total horizontal derivative expression
+above would equal the massless Dirac field Lagrangian (eq:DiracFieldLagrangianMassless), 
+thus rendering it trivial.
+
+The same [[supergeometry|supergeometric]] nature of the [[Dirac field]] will be necessary
+for its intended [[equation of motion]], the _[[Dirac equation]]_ (example \ref{EquationOfMotionOfDiracFieldIsDiracEquation}) to derive from a
+[[Lagrangian density]]; see the proof of prop. \ref{PresymplecticCurrentDiracField} below, and see remark \ref{SupergeometricNatureOfDiracEquation} below.
+
+=--
 
 
 The beauty of [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) is that a choice of [[Lagrangian density]] determines
@@ -8415,8 +8490,8 @@ $$
 =--
 
 
-+-- {: .num_defn #PresymplecticCurrentDiracField}
-###### Definition
++-- {: .num_prop #PresymplecticCurrentDiracField}
+###### Proposition
 **([[Euler-Lagrange form]] and [[presymplectic current]] of [[Dirac field]])**
 
 Consider the [[Lagrangian field theory]] of the [[Dirac field]] on [[Minkowski spacetime]] of [[dimension]] $p + 1 \in \{3,4,6,10\}$ (example \ref{LagrangianDensityForDiracField}).
@@ -8522,11 +8597,11 @@ $$
   \end{aligned}
 $$
 
-Here the first equation is the general formula (eq:EulerLagrangeEquationGeneral) for the Euler-Lagrange variation, while the identity under the braces combines two facts:
+Here the first equation is the general formula (eq:EulerLagrangeEquationGeneral) for the Euler-Lagrange variation, while the identity under the braces combines two facts (as in remark \ref{LagrangianDensityOfDiracFieldSupergeometricNature} above):
 
-1. the [[bilinear form]] $\overline{(-)}\gamma^\mu(-)$ is symmetric (...)
+1. the symmetry (eq:SpinorToVectorPairingIsSymmetric) of the spinor pairing $\overline{(-)}\gamma^\mu(-)$ (prop. \ref{RealSpinorPairingsViaDivisionAlg});
 
-1. the spinor field coordinate functions anti-commute according to (eq:DiracFieldJetCoordinatesAnticommute).
+1. the anti-commutativity (eq:DiracFieldJetCoordinatesAnticommute) of the Dirac field and jet coordinates, due to their [[supergeometry|supergeometric]] nature (remark \ref{DiracFieldSupergeometric}).
 
 Finally in the special case of the massive Dirac field in spacetime dimension $p+1 = 4$ the Lagrangian function is
 
@@ -10614,6 +10689,7 @@ From example \ref{PresymplecticCurrentDiracField} it follows that
 the corresponding [[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]] (def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime}) is
 
 $$
+  \label{DiracEquation}
   \left(-i ^\gamma^\mu \partial_\mu + m\right)\psi \;=\; 0
   \,.
 $$
@@ -10642,6 +10718,19 @@ $$
 
 This means that a [[Dirac field]] which solves the [[Dirac equations]] is
 in particular (on [[Minkowski spacetime]]) componentwise a solution to the [[Klein-Gordon equation]].
+
+=--
+
+
++-- {: .num_prop #SupergeometricNatureOfDiracEquation}
+###### Remark
+**([[supergeometry|supergeometric]] nature of the [[Dirac equation]] as an [[Euler-Lagrange equation]])**
+
+While the [[Dirac equation]] (eq:DiracEquation) of example \ref{EquationOfMotionOfDiracFieldIsDiracEquation}
+would make sense in itself also if the field coordinates $\psi$ and jet coordinates $\psi_{,\mu}$ of the [[Dirac field]]
+were not anti-commuting (eq:DiracFieldJetCoordinatesAnticommute), due to their [[supergeometry|supergeometric]] nature (remark \ref{DiracFieldSupergeometric}), it would,
+by remark \ref{LagrangianDensityOfDiracFieldSupergeometricNature}, then no longer be the [[Euler-Lagrange equation]] of a [[Lagrangian density]],
+hence then Dirac field theory would not be a [[Lagrangian field theory]].
 
 =--
 
