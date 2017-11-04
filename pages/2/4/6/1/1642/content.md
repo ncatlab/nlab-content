@@ -41,12 +41,12 @@ As a monoid is a [[category]] with one object, so a semigroup is a [[semicategor
 
 Some mathematicians consider semigroups to be a case of [[centipede mathematics]].  [[category theory|Category theorists]] sometimes look with scorn on semigroups, because unlike a monoid, a semigroup is not an example of a [[category]].    
 
-However, a semigroup can be promoted to a monoid by adjoining a new element and decreeing it to be the identity.  This gives a [[faithful functor]] from the category of semigroups to the category of monoids.  So, a semigroup can actually be seen as a monoid with extra structure.
+However, a semigroup can be promoted to a monoid by adjoining a new element and decreeing it to be the identity.  This gives a [[fully faithful functor]] from the category of semigroups to the category of monoids.  So, a semigroup can actually be seen as a monoid with extra property.
 
 +-- {: .un_example}
 ###### Exercise  
 
-Describe this structure. 
+Describe this property. 
 =--
 
 On the other hand, analysts run across semigroups often in the wild, and don\'t always want to add formal identities just to turn them into monoids.
