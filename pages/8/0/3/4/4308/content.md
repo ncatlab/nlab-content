@@ -33,6 +33,8 @@ By the [[spin-statistics theorem]], the spin of any [[elementary particle]] must
 
 * [[spinor]]
 
+* [[Dirac spinor]], [[Weyl spinor]], [[Majorana spinor]]
+
 * [[Dirac field]]
 
 * [[quantization of the 2-sphere]]
