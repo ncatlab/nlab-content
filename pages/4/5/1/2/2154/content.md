@@ -20,7 +20,7 @@
 
 ## Idea
 
-The concept of  _Euclidean space_ in [[analysis]], [[topology]] and [[differential geometry]] and specifically _[[Euclidean geometry]]_ is a fomalization in modern terms of the [[spaces]] studied in [Euclid 300BBC](#Euclid300BCE), equipped with the [[extra structure|structures]] that Euclid recognised his spaces as having.
+The concept of  _Euclidean space_ in [[analysis]], [[topology]] and [[differential geometry]] and specifically _[[Euclidean geometry]]_ is a fomalization in modern terms of the [[spaces]] studied in [Euclid 300BC](#Euclid300BC), equipped with the [[extra structure|structures]] that Euclid recognised his spaces as having.
 
 In the strict sense of the word, Euclidean space $E^n$ of dimension $n$ is, up to [[isometry]], [[generalized the|the]] [[metric space]] whose underlying [[set]] is the [[Cartesian space]] $\mathbb{R}^n$ and whose [[distance]] function $d$ is given by the [[Euclidean norm]]: 
 
@@ -29,20 +29,20 @@ $$
   \,.
 $$
 
-(In [Euclid 300BC](#Euclid300BC) this is considered for $n = 3$.)
+In [Euclid 300BC](#Euclid300BC) this is considered for $n = 3$; and it is considered not in terms of [[coordinate functions]] as above, but via [[axioms]] of _[[synthetic geometry]]_.
 
 This means that in a Euclidean space one may construct for instance the [[unit sphere]] around any point, or the shortest [[curve]] connecting any two points. These are the operations studied in ([Euclid 300BC](#Euclid300BC)), see at _[[Euclidean geometry]]_.
 
 Of course these operations may be considered in _every_ (other) [[metric space]], too, see at _[[non-Euclidean geometry]]_. [[Euclidean geometry]] is distinguished notably from [[elliptic geometry]] or [[hyperbolic geometry]] by the fact that it satisfies the [[parallel postulate]].
 
-In regarding $E^n = (\mathbb{R}^n, d_{Eucl})$ (only) as a [[metric space]], some [[extra structure]] still carried by $\mathbb{R}^n$ is disrgarded, such as its [[vector space]] structure, hence its [[affine structure]] and its canonical [[inner product space]] structure. Sometimes "Euclidean space" is 
-used to refer to $E^n$ with that further extra structure remembered.
+In regarding $E^n = (\mathbb{R}^n, d_{Eucl})$ (only) as a [[metric space]], some [[extra structure]] still carried by $\mathbb{R}^n$ is disregarded, such as its [[vector space]] structure, hence its [[affine structure]] and its canonical [[inner product space]] structure. Sometimes "Euclidean space" is 
+used to refer to $E^n$ with that further extra structure remembered, which might then be called _[[Cartesian space]]_.
 
 Retaining the [[inner product]] on top of the [[metric space]] structure means that on top of [[distances]] one may also speak of [[angles]] in a Euclidean space.
 
-Then of course $\mathbb{R}^n$ carries also non-canonical [[inner product space]] strctures, not corresponding to the [[Euclidean norm]]. Regarding $E^n$ as equipped with these one says that it is a  __pseudo-Euclidean space__. These are now, again in the sense of [[Cartan geometry]], the local model spaces for [[pseudo-Riemannian geometry]]. 
+Then of course $\mathbb{R}^n$ carries also non-canonical [[inner product space]] structures, not corresponding to the [[Euclidean norm]]. Regarding $E^n$ as equipped with these one says that it is a  __pseudo-Euclidean space__. These are now, again in the sense of [[Cartan geometry]], the local model spaces for [[pseudo-Riemannian geometry]]. 
 
-Finally one could generalize and allow the [[dimension]] to be countably infinite, and regard seperable [[Hilbert spaces]] as generalized Eclidean spaces.
+Finally one could generalize and allow the [[dimension]] to be countably infinite, and regard separable [[Hilbert spaces]] as generalized Eclidean spaces.
 
 ## Remarks on terminology
 
@@ -69,6 +69,10 @@ and other inner products are recovered by linearity.  (We must then use the axio
 ## Related concepts
 
 * [[super-Euclidean space]]
+
+* [[Euclidean geometry]]
+
+* [[synthetic geometry]]
 
 ## References
 
