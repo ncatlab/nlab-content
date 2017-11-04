@@ -1508,6 +1508,10 @@ $$
 
 $\,$
 
+This concludes our review of the basics of ([[synthetic differential geometry|synthetic]]) [[differential geometry]] on which the following development of quantum field theory is based.
+
+In the next chapter we consider [[spacetime]] and [[spin]].
+
 
 $\,$
 
@@ -2973,8 +2977,66 @@ $$
 
 This implies the statement via the equality $A \tilde A = \tilde A A = -det(A)$ (prop. \ref{DeterminantViaProductWithTraceReversal}).
 
+=--
+
+
++-- {: .num_defn #RealSpinorPairingsViaDivisionAlg}
+###### Definition
+**([[spinor]] [[bilinear map|bilinear]] pairings)**
+
+There are [[bilinear maps]]
+
+$$
+  \overline{(-)}(-) \;\colon\; S_+ \otimes S_-\longrightarrow \mathbb{R}
+$$
+
+and
+
+$$
+  \overline{(-)}\Gamma (-) \;\colon\; S_\pm \otimes S_{\pm}\longrightarrow V
+$$
+
+given, respectively, by forming the real part of the canonical $\mathbb{K}$-[[inner product]]
+
+$$
+  \overline{(-)}(-) \colon S_+\otimes S_- \longrightarrow \mathbb{R}
+$$
+$$
+  (\psi,\phi)\mapsto \overline{\psi} \phi \coloneqq Re(\psi^\dagger \cdot \phi)
+$$
+
+and by forming the product of a column vector with a row vector to produce a matrix, possibly up to trace reversal (def. \ref{TraceReversal}):
+
+$$
+  S_+ \otimes S_+ \longrightarrow V
+$$
+$$
+  (\psi , \phi) \mapsto \overline{\psi}\Gamma \phi \coloneqq
+  \widetilde{\psi \phi^\dagger + \phi \psi^\dagger}
+$$
+
+and
+
+$$
+  S_- \otimes S_- \longrightarrow V
+$$
+$$
+  (\psi , \phi) \mapsto {\psi \phi^\dagger + \phi \psi^\dagger}
+$$
+
+For $A \in V$ the $A$-component of this map is
+
+$$
+  \eta(\overline{\psi}\Gamma \phi, A)
+  =
+  Re (\psi^\dagger (A\phi))
+ \,.
+$$
 
 =--
+
+([Baez-Huerta 09, prop. 8, prop. 9](geometry+of+physics+--+supersymmetry#BaezHuerta09)).
+
 
 +-- {: .num_remark #TwoComponentSpinorNotation}
 ###### Remark
@@ -3027,10 +3089,27 @@ and the linear maps that act are given by generalized "[[Pauli matrices]]":
     \right)
   $$
 
+* the [[Dirac conjugate]] $\overline{\psi}$ from def. \ref{RealSpinorPairingsViaDivisionAlg} is given 
+  on $\psi = (\chi_a, \xi^{\dagger \dot c})$ by
+
+  $$
+    \label{DiracConjugate}
+    \begin{aligned}
+      \overline{\psi}
+      & \coloneqq
+      \psi^\dagger \gamma^0
+      \\
+      & =
+      ( \xi^a, \xi^\dagger_{\dot a} )
+    \end{aligned}
+  $$
 
 =--
 
-(e.g [Dermisek I-8](Dirac+field#DermisekI8), [Dermisek I-9](#Dirac+field#DermisekI9))
+(e.g [Dermisek I-8](Dirac+field#DermisekI8), [Dermisek I-9](Dirac+field#DermisekI9))
+
+
+We mention the following just for completeness:
 
 +-- {: .num_defn #ChiralSpinorMassPairing}
 ###### Proposition
@@ -3082,63 +3161,6 @@ is commutative, which is the case for $\mathbb{K}$ being $\mathbb{R}$ or $\mathb
 
 
 
-
-+-- {: .num_prop #RealSpinorPairingsViaDivisionAlg}
-###### Proposition
-**([[spinor]] [[bilinear map|bilinear]] pairings)**
-
-Under the identification of prop. \ref{SpinorRepsByNormedDivisionAlgebra} the [[bilinear map|bilinear]] pairings
-
-$$
-  \overline{(-)}(-) \;\colon\; S_+ \otimes S_-\longrightarrow \mathbb{R}
-$$
-
-and
-
-$$
-  \overline{(-)}\Gamma (-) \;\colon\; S_\pm \otimes S_{\pm}\longrightarrow V
-$$
-
-are given, respectively, by forming the real part of the canonical $\mathbb{K}$-[[inner product]]
-
-$$
-  \overline{(-)}(-) \colon S_+\otimes S_- \longrightarrow \mathbb{R}
-$$
-$$
-  (\psi,\phi)\mapsto \overline{\psi} \phi \coloneqq Re(\psi^\dagger \cdot \phi)
-$$
-
-and by forming the product of a column vector with a row vector to produce a matrix, possibly up to trace reversal (def. \ref{TraceReversal}):
-
-$$
-  S_+ \otimes S_+ \longrightarrow V
-$$
-$$
-  (\psi , \phi) \mapsto \overline{\psi}\Gamma \phi \coloneqq
-  \widetilde{\psi \phi^\dagger + \phi \psi^\dagger}
-$$
-
-and
-
-$$
-  S_- \otimes S_- \longrightarrow V
-$$
-$$
-  (\psi , \phi) \mapsto {\psi \phi^\dagger + \phi \psi^\dagger}
-$$
-
-For $A \in V$ the $A$-component of this map is
-
-$$
-  \eta(\overline{\psi}\Gamma \phi, A)
-  =
-  Re (\psi^\dagger (A\phi))
- \,.
-$$
-
-=--
-
-([Baez-Huerta 09, prop. 8, prop. 9](geometry+of+physics+--+supersymmetry#BaezHuerta09)).
 
 
 
@@ -4665,7 +4687,7 @@ on those elements $\epsilon$ such that $\epsilon^{k+1} = 0$.
 
 =--
 
-([Kock 81](#synthetic+differential+geometry#Kock81), [Kock 10](synthetic+differential+geometry#Kock10))
+([Kock 81](synthetic+differential+geometry#Kock81), [Kock 10](synthetic+differential+geometry#Kock10))
 
 
 The following example \ref{UniquePointOfInfinitesimalLine} shows that infinitesimal thickening is invisible for ordinary spaces when
@@ -7586,10 +7608,12 @@ of the _massless [[Dirac field]]_ is
 
 $$
   \mathbf{L}
-    \coloneqq
-   \overline{\psi} \gamma^\mu \psi_,\mu}\, dvol_\Sigma
-   \,.
+    \;\coloneqq\;
+   \overline{\psi} \, \gamma^\mu \psi_{,\mu}\, dvol_\Sigma
+   \,,
 $$
+
+given by the bilinear pairing from def. \ref{RealSpinorPairingsViaDivisionAlg}, hence with the [[Dirac conjugate]] (eq:DiracConjugate) on the left.
 
 In [[spacetime]] [[dimension]] $p + 1 = 4$, the [[Lagrangian density]] for the _massive [[Dirac field]]_
 of [[mass]] $m \in \mathbb{R}$ is
@@ -7602,7 +7626,7 @@ $$
       \text{kinetic term}
     }{
     \underbrace{
-      i \overline{\psi} \gamma^\mu \psi_{,\mu}
+      i \, \overline{\psi} \, \gamma^\mu \, \psi_{,\mu}
     }
     }
     +
@@ -8399,7 +8423,7 @@ Consider the [[Lagrangian field theory]] of the [[Dirac field]] on [[Minkowski s
 
 Then
 
-* the [[Euler-Lagrange variational derivative]] in the case of vanishing [[mass]] $m$ is
+* the [[Euler-Lagrange variational derivative]] (def. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}) in the case of vanishing [[mass]] $m$ is
 
   $$
     \delta_{EL} \mathbf{L}
@@ -8432,7 +8456,7 @@ Then
   $$
 
 
-* its [[presymplectic current]] is
+* its [[presymplectic current]] (def. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}) is
 
   $$
     \Omega_{BFV}
@@ -8572,7 +8596,7 @@ We have introduced the concept of _[[Lagrangian field theories]]_ $(E,\mathbf{L}
 [[Lagrangian density]] $\mathbf{L}$ on its [[jet bundle]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}).
 Generally, given any [[object]] equipped with some [[structure]], it is of paramount interest to determine
 the [[symmetries]], hence the [[isomorphisms]]/[[equivalences]] of the object that preserve the given [[structure]]
-(this is the "[[Erlanger program]]", [Klein 1872](#Klein1872)).
+(this is the "[[Erlanger program]]", [Klein 1872](Erlangen+program#Klein1872)).
 
 The [[infinitesimal symmetries of the Lagrangian density]] (def. \ref{SymmetriesAndConservedCurrents} below)
 send one [[field history]] to an [[infinitesimal|infinitesimally]] nearby one which is
@@ -17131,7 +17155,7 @@ on the [[smooth space]] of smooth functions on $X$ which is generated from those
 ###### Example
 **(regular functionals are microcausal)**
 
-Every regular functional (def. \ref{SmoothFunctionalsOnSmoothFunctions}) is a [[microcausal functional]] (def. \ref{MicrocausalFunctionals}), since the [[wave front set]] of a distribution that is given by an ordinary function is empty:
+Every regular functional is a [[microcausal functional]] (def. \ref{MicrocausalFunctionals}), since the [[wave front set]] of a distribution that is given by an ordinary function is empty:
 
 $$
   \mathcal{F}_{reg} \subset \mathcal{F}_{mc}
@@ -17237,7 +17261,7 @@ on microcausal functionals $P_1, P_2 \in \mathcal{F}_{mc}$ is well defined in th
 
 By definition of [[Hadamard distribution]], the [[wave front set]] of powers of $\omega$ has all cotangents on the first variables future pointing, and all those on the second variables past pointing. The first variables are integrated against those of $P_1$ and the second against $P_2$. By definition of microcausal functionals, the wave front sets of $P_1$ and $P_2$ are disjoint from the subsets where all components are future pointing or all components are past-pointing. Therefore the relevant sum of of the wave front covectors never vanishes.
 
-See [Collini 16, p. 25-26](#Collini16)
+See [Collini 16, p. 25-26](Hadamard+distribution#Collini16)
 
 =--
 
@@ -18209,7 +18233,7 @@ This formula is consistent in that it implies that local observables form a [[ca
 as their spacetime support varies (this is prop. \ref{PerturbativeQuantumObservablesIsLocalnet} below).
 (On deeper grounds, this formula
 turns out to yield the [[formal deformation quantization|formal]] [[Fedosov deformation quantization]] of
-the interacting field theory ([Collini 16](#Collini16)).)
+the interacting field theory ([Collini 16](Fedosov+deformation+quantization#Collini16)).)
 
 
 Namely a key consequence of the "[[causal additivity]]" axiom on the S-matrix in def. \ref{PerturbativeSMatrixOnMinkowskiSpacetime}
@@ -18633,7 +18657,7 @@ from the [[poset]] of [[causally closed subsets]] of [[spacetime]] to the [[cate
 
 =--
 
-([Brunetti-Fredenhagen 99, (65)-(67)](#BrunettiFredenhagen99))
+([Brunetti-Fredenhagen 99, (65)-(67)](S-matrix#BrunettiFredenhagen99))
 
 +-- {: .num_remark}
 ###### Remark
