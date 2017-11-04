@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include fields and quanta - table]]
 =--
+#### Spin geometry
++-- {: .hide}
+[[!include higher spin geometry - contents]]
+=--
 =--
 =--
 
@@ -24,6 +28,14 @@ Mathematically, the Dirac field is the [[field (physics)|field]] whose [[field b
 
 Notice that there are other [[spinor]] [[field (physics)|fields]] which would not be called "Dirac fields", such as those transforming in a [[Majorana representation]] or a [[Weyl representation]], or for example the [[gravitino]] field which would be called a _[[Rarita-Schwinger field]]_.
 
+
+## Related concepts
+
+* [[Dirac spinor]]
+
+* [[Dirac conjugate]]
+
+* [[Dirac operator]], [[Dirac equation]]
 
 ## Reference
 
