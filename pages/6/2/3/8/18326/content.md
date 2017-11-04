@@ -46,9 +46,18 @@ If $T$ is a [[strong monad]] on a category $\mathbb{V}$ with finite products, th
 
 Conversely, if $(\mathbb{V},\mathbb{C},J)$ is a Freyd category and $J$ has a right adjoint $R$, then the Freyd category arises as the [[Kleisli category]] of the monad $RJ$.
 
-### Relation to Lawvere theories
+### Relation to Lawvere theories and PROPs
 
-[Staton 14](#Staton14) shows that to give a small Freyd category is to give an [[enriched Lawvere theory]] relative to the empty [[sound doctrine]] where the enriching category is [[cartesian closed category|cartesian closed]].
+To give a small Freyd category is to give an [[enriched Lawvere theory]] relative to the empty [[sound doctrine]] where the enriching category is [[cartesian closed category|cartesian closed]].
+
+For example, if ($\mathrm{FinSet}^{\mathrm{op}}\to \mathbb{T}$) is an ordinary [[Lawvere theory]], then its dual ($\mathrm{FinSet}\to \mathbb{T}^{\mathrm{op}}$) is a Freyd category.  
+
+The Lawvere theory is [[commutative algebraic theory|commutative]] if and only if the premonoidal category $\mathbb{T}^{\mathrm{op}}$ is in fact monoidal. 
+
+A minor generalization of Freyd category allows $\mathbb{V}$ to be symmetric monoidal rather than cartesian monoidal. Then a commutative Freyd category
+$\mathrm{FinSet}_{\mathrm{bij}}\to \mathbb{C}$ is the same thing as a [[PROP]]. 
+
+### Relation to monads on presheaf categories
 
 This relates to the situation with monads as follows. If $T$ is a strong monad on the [[presheaf]] category $\hat{\mathbb{V}}$ then the 
 Kleisli category $\hat{\mathbb{V}}\to (\hat{\mathbb{V}})^T$ is a Freyd category. 
