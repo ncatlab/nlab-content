@@ -64,7 +64,7 @@ Alongside the theory we develop the concrete examples of the [[real scalar field
 |---------------------------|------------------|-------------------------|------------------------|------------------|------|
 | [[real scalar field]] |  expl. \ref{RealScalarFieldBundle} |  expl. \ref{LagrangianForFreeScalarFieldOnMinkowskiSpacetime} | expl. \ref{FreeScalarFieldEOM} | none | expl. \ref{PoissonBracketForRealScalarField} |
 | [[electromagnetic field]] | expl. \ref{Electromagnetism} | expl. \ref{ElectromagnetismLagrangianDensity} | expl. \ref{ElectromagnetismEl}  | expl. \ref{NLGaugeFixingOfElectromagnetism} | ... |
-| [[Dirac field]] | expl. \ref{DiracFieldBundle}  | expl. \ref{LagrangianDensityForDiracField}  |  expl. \ref{EquationOfMotionOfDiracFieldIsDiracEquation}  |  none  |  ...  |
+| [[Dirac field]] | expl. \ref{DiracFieldBundle}  | expl. \ref{LagrangianDensityForDiracField}  |  expl. \ref{EquationOfMotionOfDiracFieldIsDiracEquation}  |  none  |  expl. \ref{PoissonBracketForDiracField}  |
 
 The [[electromagnetic field]] and the [[Dirac field]] combined are the [[field (physics)|fields]] of _[[quantum electrodynamics]]_
 which we turn to at the end [below](#QED).
@@ -3464,6 +3464,10 @@ are smooth functions as required.
 
 $\,$
 
+This concludes our discussion of [[spin]] and [[spacetime]]. In the [next chapter](#FieldBundles) we introduce the concept of _[[field (physics)|fields]]_ on [[spacetime]].
+
+$\,$
+
 ## Fields
  {#FieldBundles}
 
@@ -5791,13 +5795,21 @@ $$
 and extended from there as a bigraded [[derivation]] of bi-degree $(1,even)$,
 in super-generalization of def. \ref{deRhamDifferential}.
 
+Accordingly, the operation of contraction with [[tangent vector fields]] (def. \ref{ContractionOfFormsWithVectorFields})
+has bi-degree $(-1,\sigma)$ if the tangent vector has super-degree $\sigma$:
+
 | generator | bi-degree |
 |--|--|
 | $\phantom{AA} x^a$ | (0,even) |
 | $\phantom{AA} \theta^\alpha$ | (0,odd) |
-| $\phantom{AA} d$ | (1,even) |
 | $\phantom{AA} dx^a$ | (1,even) |
 | $\phantom{AA} d\theta^\alpha$ | (1,odd) |
+
+| derivation | bi-degree |
+|------------|-----------|
+| $\phantom{AA} d$ | (1,even) |
+| $\phantom{AA}\iota_{\partial x^a}$ | (-1, even) |
+| $\phantom{AA}\iota_{\partial \theta^\alpha}$ | (-1,odd)  |
 
 This means that if $\alpha \in \Omega^\bullet(\mathbb{R}^{b\vert s})$ is in bidegree $(n_\alpha, \sigma_\alpha)$,
 and $\beta \in \Omega^\bullet(\mathbb{R}^{b \vert \sigma})$ is in bidegree $(n_\beta, \sigma_\beta)$, then
@@ -6331,7 +6343,8 @@ $$
   \,,
 $$
 
-hence the [[field fiber]] is the [[superpoint]] $S_{odd}$.
+hence the [[field fiber]] is the [[superpoint]] $S_{odd}$. This is the corresponding [[spinor bundle]]
+on [[Minkowski spacetime]], with fiber in odd super-degree.
 
 The traditional two-component [[spinor]] basis from remark \ref{TwoComponentSpinorNotation}
 provides [[fermionic field]] coordinates (def. \ref{FermionicBosonicFields}) on the [[field fiber]] $S_{odd}$:
@@ -10031,8 +10044,8 @@ $$
   \,.
 $$
 
-Notice the signs: Due to the odd-grading of the field coordinate function $\psi$, 
-its variational derivative $\delta \psi$ has bi-degree $(1,odd)$ and the 
+Notice the signs: Due to the odd-grading of the field coordinate function $\psi$,
+its variational derivative $\delta \psi$ has bi-degree $(1,odd)$ and the
 contraction operation $\iota_{\psi}$ has bi-degree $(-1,odd)$, so that commuting it
 past $\overline{\psi}$ picks up _two_ minus signs, a "cohomological" sign due to the differential form
 degrees, and a "supergeometric" one (def. \ref{DifferentialFormOnSuperCartesianSpaces}):
@@ -10040,7 +10053,7 @@ degrees, and a "supergeometric" one (def. \ref{DifferentialFormOnSuperCartesianS
 $$
   \iota_{\partial_\psi} \overline{\delta \psi} \cdots
   =
-  (-1) (-1) \overline{\delta \psi} \iota_{\partial_\psi}
+  (-1) (-1) \overline{\delta \psi} \,\iota_{\partial_\psi}
   \,.
 $$
 
@@ -10293,7 +10306,7 @@ and its component $A$ is a bosonic observable as above.
 
 The most basic kind of observables are the following:
 
-+-- {: .num_exmple #PointEvaluationObservables}
++-- {: .num_example #PointEvaluationObservables}
 ###### Example
 **(point evaluation observables -- field observables)**
 
@@ -12440,7 +12453,7 @@ is given by [[Stokes' theorem]] (prop. \ref{StokesTheorem}).
 
 +-- {: .num_defn #PoissonBracketOnHamiltonianLocalObservables}
 ###### Definition
-**([[Poisson bracket]] of Hamiltonian [[local observables]] on  [[covariant phase space]])**
+**([[Poisson bracket]] of [[Hamiltonian differential form|Hamiltonian]] [[local observables]] on  [[covariant phase space]])**
 
 Let $(E, \mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) where the [[field bundle]] $E \overset{fb}{\to} \Sigma$ is a [[trivial vector bundle]] over [[Minkowski spacetime]] (example \ref{TrivialVectorBundleAsAFieldBundle}).
 
@@ -12602,7 +12615,7 @@ Nevertheless we may express the above Poisson bracket conveniently via the [[int
 $$
   \label{PoissonBracketOfScalarFieldPointEvaluationOnMinkowskiSpacetime}
   \left\{
-    \phi(t,\vec x), \phi(t,\vec y) 
+    \phi(t,\vec x), \phi(t,\vec y)
   \right\}
   \;=\;
   \delta(\vec x - \vec y)
@@ -12933,6 +12946,56 @@ $$
 
 =--
 
+
+
++-- {: .num_prop #PoissonBracketForDiracField}
+###### Proposition
+**([[super Lie algebra|super]]-[[Poisson bracket]] of the [[Dirac field]])**
+
+Consider the [[Lagrangian field theory]] of the [[free field theory|free]] [[Dirac field]] on [[Minkowski spacetime]] (example \ref{LagrangianDensityForDiracField}) with [[field bundle]] the odd-shifted [[spinor bundle]] $E = \Sigma \times S_{odd}$ (example \ref{DiracFieldBundle}) and with
+
+$$
+  \theta \Psi_\alpha(x)
+  \;\colon\;
+  \mathbb{R}^{0\vert 1}
+     \longrightarrow
+  \left[
+    \Gamma_\Sigma(\Sigma \times S_{odd})_{\delta_{EL}\mathbf{L} = 0},
+    \mathbb{C}
+  \right]
+$$
+
+the corresponding odd-graded point-evaluation observable (example \ref{PointEvaluationObservables}).
+
+Then consider the [[Cauchy surfaces]] in [[Minkowski spacetime]] (def. \ref{MinkowskiSpacetime}) given by $x^0 = t$ for $t \in \mathbb{R}$. Under [[transgression of variational differential forms|transgression]] to this Cauchy surface via def. \ref{PoissonBracketOnHamiltonianLocalObservables},
+the [[Poisson bracket Lie n-algebra|local Poisson bracket]], which by example \ref{LocalPoissonBracketForDiracField} is given by the [[super Lie algebra|super Lie bracket]] 
+
+$$
+  \left\{
+     \left( \gamma^\mu \psi  \right)_\alpha \, \iota_{\partial_\mu} dvol_\Sigma
+     \,,\,
+     \left(\overline{\psi}\gamma^\mu\right)^\beta\, \iota_{\partial_\mu} dvol_\Sigma
+  \right\}
+  \;=\;
+  \left(\gamma^\mu\right)_\alpha{}^{\beta} \, \iota_{\partial_\mu} dvol_\Sigma
+  \,,
+$$
+
+has [[integral kernel]]
+
+$$
+  \left\{
+    \psi_\alpha(t,\vec x)
+    ,
+    \overline{\psi}^\beta(t,\vec y)
+  \right\}
+  \;=\;
+  (\gamma^0)_{\alpha}{}^\beta \delta(\vec y - \vec x)
+  \,.
+$$
+
+
+=--
 
 
 
