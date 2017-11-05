@@ -6029,6 +6029,8 @@ such that
 
 =--
 
+([Yetter 88](synthetic+differential+supergeometry#Yetter88))
+
 Basing [[supergeometry]] on [[super formal smooth sets]] is an instance of the general approach to [[geometry]] called _[[functorial geometry]]_ or _[[topos theory]]_. For more background on this see at _[[geometry of physics -- supergeometry]]_.
 
 In direct generalization of example \ref{SmoothManifoldsAreDiffeologicalSpaces} we have:
@@ -10013,19 +10015,53 @@ Using this coordinate transformation, it is immediate to find the following [[pa
 
 | [[Hamiltonian vector field]] | [[Hamiltonian differential form]] |
 |------------------------------|-----------------------------------|
-|  $\phantom{AA} \partial_{\psi_\alpha}$      | $\phantom{AA}-\left(\overline{\delta \psi}\gamma^\mu\right)^\alpha\, \iota_{\partial_\mu} dvol_\Sigma$ |
-| $\phantom{AA} \partial_{\overline{\psi}_\alpha}$ | $\phantom{AA}\phantom{-}\left( \gamma^\mu \psi  \right)_\alpha \, \iota_{\partial_\mu} dvol_\Sigma$ |
+|  $\phantom{AA} \partial_{\psi_\alpha}$      | $\phantom{AA}\left(\overline{\delta \psi}\gamma^\mu\right)^\alpha\, \iota_{\partial_\mu} dvol_\Sigma$ |
+| $\phantom{AA} \partial_{\overline{\psi}_\alpha}$ | $\phantom{AA}\left( \gamma^\mu \psi  \right)_\alpha \, \iota_{\partial_\mu} dvol_\Sigma$ |
 
 and to obtain the following non-trivial [[Poisson bracket Lie n-algebra|local Poisson brackets]] (prop. \ref{LocalPoissonBracket}) (the other possible brackets vanish):
 
 $$
   \left\{
-     \phantom{-}\left( \gamma^\mu \psi  \right)_\alpha \, \iota_{\partial_\mu} dvol_\Sigma
+     \left( \gamma^\mu \psi  \right)_\alpha \, \iota_{\partial_\mu} dvol_\Sigma
      \,,\,
      \left(\overline{\psi}\gamma^\mu\right)^\beta\, \iota_{\partial_\mu} dvol_\Sigma
   \right\}
   \;=\;
   \left(\gamma^\mu\right)_\alpha{}^{\beta} \, \iota_{\partial_\mu} dvol_\Sigma
+  \,.
+$$
+
+Notice the signs: Due to the odd-grading of the field coordinate function $\psi$, 
+its variational derivative $\delta \psi$ has bi-degree $(1,odd)$ and the 
+contraction operation $\iota_{\psi}$ has bi-degree $(-1,odd)$, so that commuting it
+past $\overline{\psi}$ picks up _two_ minus signs, a "cohomological" sign due to the differential form
+degrees, and a "supergeometric" one (def. \ref{DifferentialFormOnSuperCartesianSpaces}):
+
+$$
+  \iota_{\partial_\psi} \overline{\delta \psi} \cdots
+  =
+  (-1) (-1) \overline{\delta \psi} \iota_{\partial_\psi}
+  \,.
+$$
+
+For the same reason, the [[Poisson bracket Lie n-algebra|local Poisson bracket]]
+is a _[[super Lie algebra]]_ with _symmetric_ super Lie bracket:
+
+
+$$
+  \left\{
+     \left( \gamma^\mu \psi  \right)_\alpha \, \iota_{\partial_\mu} dvol_\Sigma
+     \,,\,
+     \left(\overline{\psi}\gamma^\mu\right)^\beta\, \iota_{\partial_\mu} dvol_\Sigma
+  \right\}
+  \;=\;
+  +
+  \left\{
+     \left(\overline{\psi}\gamma^\mu\right)^\beta\, \iota_{\partial_\mu} dvol_\Sigma
+     \,,\,
+     \left( \gamma^\mu \psi  \right)_\alpha \, \iota_{\partial_\mu} dvol_\Sigma
+  \right\}
+  \,.
 $$
 
 =--
@@ -12406,7 +12442,7 @@ is given by [[Stokes' theorem]] (prop. \ref{StokesTheorem}).
 ###### Definition
 **([[Poisson bracket]] of Hamiltonian [[local observables]] on  [[covariant phase space]])**
 
-Let $(E, \mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) where the [[field bundle]] $E \overset{\Sigma}{\to}$ is a [[trivial vector bundle]] over [[Minkowski spacetime]] (example \ref{TangentVectorFields}).
+Let $(E, \mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) where the [[field bundle]] $E \overset{fb}{\to} \Sigma$ is a [[trivial vector bundle]] over [[Minkowski spacetime]] (example \ref{TrivialVectorBundleAsAFieldBundle}).
 
 We say that the _[[Poisson bracket]]_ on Hamiltonian local observables (def. \ref{HamiltonianLocalObservables})
 is the [[transgression of variational differential forms|transgression]] (def. \ref{TransgressionOfVariationalDifferentialFormsToConfigrationSpaces})
@@ -12565,13 +12601,15 @@ Nevertheless we may express the above Poisson bracket conveniently via the [[int
 
 $$
   \label{PoissonBracketOfScalarFieldPointEvaluationOnMinkowskiSpacetime}
-  \{\phi(t,\vec x), \phi(t,\vec y) \}
-  =
+  \left\{
+    \phi(t,\vec x), \phi(t,\vec y) 
+  \right\}
+  \;=\;
   \delta(\vec x - \vec y)
   \,.
 $$
 
-This integral kernel is the _[[causal propagator]]_
+This integral kernel yields the _[[causal propagator]]_
 
 $$
   \Delta
@@ -12584,7 +12622,7 @@ on Minkowski spacetime:
 
 $$
   \begin{aligned}
-    \{ \phi(x), \phi(y) \}
+    \left\{ \phi(x), \phi(y) \right\}
     & =
     \Delta(x,y)
     \\
