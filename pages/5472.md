@@ -16,7 +16,7 @@
 
 ## Idea
 
-An [[(∞,1)-site]] is **locally $\infty$-connected** if it has properties that ensure that  the [[hypercompletion]] of the [[(∞,1)-category of (∞,1)-sheaves]] over it is a [[locally ∞-connected (∞,1)-topos]]
+An [[(∞,1)-site]] is **locally $\infty$-connected** if it has properties that ensure that  the [[(∞,1)-category of (∞,1)-sheaves]] over it is a [[locally ∞-connected (∞,1)-topos]]
 
 
 ## Definition
@@ -24,7 +24,7 @@ An [[(∞,1)-site]] is **locally $\infty$-connected** if it has properties that 
 +-- {: .num_defn}
 ###### Definition
 
-Call an [[(∞,1)-site]] $C$ **locally contractible** if every constant [[(∞,1)-presheaf]] on it is an [[(∞,1)-sheaf]] in the [[hypercomplete (∞,1)-topos]] over $C$.
+Call an [[(∞,1)-site]] $C$ **locally contractible** if every constant [[(∞,1)-presheaf]] on it is an [[(∞,1)-sheaf]] in the [[(∞,1)-topos]] over $C$.
 
 =--
 
@@ -37,12 +37,7 @@ By the general notion of [[(∞,1)-colimit]] the constant $(\infty,1)$-presheaf 
 
 $$
   Sh_{(\infty,1)}(C)
-    \stackrel{
-       \overset{}{\hookrightarrow}
-    }
-    {
-       \underset{L}{\leftarrow}
-    }
+    \underoverset{\hookrightarrow}{\overset{L}{\longleftarrow}}{\bot}
   PSh_{(\infty,1)}(C)
     \stackrel{
        \overset{\lim_\to}{\longrightarrow}
@@ -60,10 +55,10 @@ $$
   \begin{aligned}
      Sh(X, L Const S) 
        &\simeq 
-     PSh(C, Const S)
+     PSh(X, Const S)
      \\
        & \simeq  
-     \infty Grpd(\lim_\to C , S)
+     \infty Grpd(\lim_\to X , S)
   \end{aligned}
   \,.
 $$
