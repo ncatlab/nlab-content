@@ -430,9 +430,9 @@ a _[[differentiably good open cover]]_ is
 *  an [[indexed set]]
 
    $$
-      \left\{ 
-        \mathbb{R}^n 
-          \underoverset{et}{\phantom{AA}f_i\phantom{AA}}{\hookrightarrow} 
+      \left\{
+        \mathbb{R}^n
+          \underoverset{et}{\phantom{AA}f_i\phantom{AA}}{\hookrightarrow}
         \mathbb{R}^n
       \right\}_{i \in I}
    $$
@@ -2221,7 +2221,7 @@ $$
 $$
 
 and the [[Cartesian space]] $\mathbb{R}^{p,1}$ equipped with the Lorentzian inner product from
-prop./def. \ref{SpacetimeAsMatrices} on each [[tangent space]] $T_x \mathbb{R}^{p,1}$ 
+prop./def. \ref{SpacetimeAsMatrices} on each [[tangent space]] $T_x \mathbb{R}^{p,1}$
 (a "[[pseudo-Riemannian manifold|pseudo-Riemannian]] [[Cartesian space]]") is  _[[Minkowski spacetime]]_ as such.
 
 We write
@@ -3136,7 +3136,7 @@ and the Clifford action of prop. \ref{CliffordAlgebraInTermsOfNormedDivisionAlge
   is denoted
 
   $$
-    x_\mu \gamma^\mu
+    x_\mu (\gamma^\mu)_{\alpha \beta}
     \;\coloneqq\;
     \left(
       \array{
@@ -3158,7 +3158,7 @@ and the Clifford action of prop. \ref{CliffordAlgebraInTermsOfNormedDivisionAlge
   $$
 
   where the _[[Dirac conjugate]]_ $\overline{\psi}$  on the left is given
-  on $\psi = (\chi_a, \xi^{\dagger \dot c})$ by
+  on $(\psi_\alpha) = (\chi_a, \xi^{\dagger \dot c})$ by
 
   $$
     \label{DiracConjugate}
@@ -5601,10 +5601,10 @@ include the following:
      \,.
    $$
 
-   In particular this implies that all the $\theta^i$ are [[infinitesimal]]:
+   In particular this implies that all the $\theta^i$ are [[infinitesimal]] (def. \ref{InfinitesimallyThickendSmoothManifold}):
 
    $$
-     \theta^i \theta^i = 0
+     \theta^i \cdot \theta^i = 0
      \,.
    $$
 
@@ -7665,11 +7665,11 @@ $$
 
 +-- {: .num_example #LagrangianDensityForDiracField}
 ###### Example
-**([[Lagrangian density]] for [[Dirac field]])**
+**([[Lagrangian density]] for [[free field theory|free]] [[Dirac field]] on [[Minkowski spacetime]])**
 
 For $\Sigma$ [[Minkowski spacetime]] of [[dimension]] $p + 1 \in \{3,4,6,10\}$ (def. \ref{MinkowskiSpacetime}),
 consider the [[field bundle]] $\Sigma \times S_{odd} \to \Sigma$ for the [[Dirac field]] from example \ref{DiracFieldBundle}.
-With the two-component spinor [[field fiber]] coordinates (remark \ref{TwoComponentSpinorNotation}), the [[jet bundle]] has fiber coordinates
+With the two-component [[spinor]] [[field fiber]] coordinates from remark \ref{TwoComponentSpinorNotation}, the [[jet bundle]] has induced fiber coordinates as follows:
 
 $$
   \left(
@@ -7685,14 +7685,14 @@ $$
   \left(
      \left(
          (\chi_a), (\chi_{a,\mu}), \cdots
-     \right), 
+     \right),
      \left(
         ( \xi^{\dagger \dot a}), (\xi^{\dagger \dot a}_{,\mu}), \cdots
      \right)
   \right)
 $$
 
-and all of these are odd-graded elements in a [[Grassmann algebra]], hence anti-commuting, in generalization of (eq:DiracFieldCoordinatesAnticommute):
+All of these are odd-graded elements (def. \ref{SupercommutativeSuperalgebra}) in a [[Grassmann algebra]] (example \ref{GrassmannAlgebra}), hence anti-commute with each other, in generalization of (eq:DiracFieldCoordinatesAnticommute):
 
 $$
   \label{DiracFieldJetCoordinatesAnticommute}
@@ -7705,8 +7705,8 @@ $$
   \,.
 $$
 
-The  [[Lagrangian function]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
-of the _massless [[Dirac field]]_ is
+The  [[Lagrangian density]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
+of the _massless [[free field theory|free]] [[Dirac field]]_ on [[Minkowski spacetime]] is
 
 $$
   \label{DiracFieldLagrangianMassless}
@@ -7719,7 +7719,6 @@ $$
 given by the bilinear pairing $\overline{(-)}\Gamma(-)$ from prop. \ref{RealSpinorPairingsViaDivisionAlg}
 of the field coordinate with its first spacetime derivative and
 expressed here in two-component spinor field coordinates as in (eq:TwoComponentNotationForSpinorToVectorPairing), hence with the [[Dirac conjugate]] $\overline{\psi}$ (eq:DiracConjugate) on the left.
-
 
 In [[spacetime]] [[dimension]] $p + 1 = 4$, the [[Lagrangian function]] for the _massive [[Dirac field]]_
 of [[mass]] $m \in \mathbb{R}$ is
@@ -7806,7 +7805,7 @@ simple relation in the [[variational bicomplex]]:
 ###### Proposition
 **([[Euler-Lagrange form]] and [[presymplectic current]])**
 
-Given a [[Lagrangian density]] $\mathbf{L} \in \Omega^{p+1,0}_\Sigma(E)$ as in def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}, then its de Rham differential 
+Given a [[Lagrangian density]] $\mathbf{L} \in \Omega^{p+1,0}_\Sigma(E)$ as in def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}, then its de Rham differential
 $\mathbf{L}\mathbf{L}$, which by degree reasons equals $\delta \mathbf{L}$, has a _unique_ decomposition as a sum of two terms
 
 $$
@@ -7914,7 +7913,7 @@ $$
   \Theta_{BFV} \in \Omega^{p,1}_{\Sigma}(E)
 $$
 
-is not unique. 
+is not unique.
 
 (For a [[field bundle]] which is a [[trivial vector bundle]] (example \ref{TrivialVectorBundleAsAFieldBundle}
 over [[Minkowski spacetime]] (def. \ref{MinkowskiSpacetime}), prop. \ref{HorizontalVariationalComplexOfTrivialFieldBundleIsExact} says
@@ -7961,8 +7960,8 @@ The [[vertical derivative]] of a chosen presymplectic potential $\Theta_{BFV}$ i
 
 $$
   \label{PresymplecticCurrent}
-  \Omega_{BFV} 
-   \;\coloneqq\; 
+  \Omega_{BFV}
+   \;\coloneqq\;
    \delta \Theta_{BFV} \;\;\; \in \Omega^{p,2}_{\Sigma}(E)
   \,.
 $$
@@ -8529,8 +8528,8 @@ $$
 =--
 
 
-+-- {: .num_prop #PresymplecticCurrentDiracField}
-###### Proposition
++-- {: .num_example #PresymplecticCurrentDiracField}
+###### Example
 **([[Euler-Lagrange form]] and [[presymplectic current]] of [[Dirac field]])**
 
 Consider the [[Lagrangian field theory]] of the [[Dirac field]] on [[Minkowski spacetime]] of [[dimension]] $p + 1 \in \{3,4,6,10\}$ (example \ref{LagrangianDensityForDiracField}).
@@ -8575,7 +8574,7 @@ Then
   $$
     \Omega_{BFV}
     \;=\;
-    \overline{\psi}\,\gamma^\mu \,\psi \, \iota_{\partial_\mu} dvol_\Sigma
+    \overline{\delta \psi}\,\gamma^\mu \,\delta \psi \, \iota_{\partial_\mu} dvol_\Sigma
   $$
 
 
@@ -8687,8 +8686,8 @@ $$
     \delta d \mathbf{\ell}
     \\
     & =
-    \underset{= \delta_{EL}\mathbf{L}}{\underbrace{0}} 
-     - 
+    \underset{= \delta_{EL}\mathbf{L}}{\underbrace{0}}
+     -
     d \underset{\Theta_{BFV}}{\underbrace{\delta \mathbf{l}}}
   \end{aligned}
 $$
@@ -8741,7 +8740,7 @@ $$
 $$
 
 In fact, as shown, this [[exact sequence]] keeps going to the right;
-this is also called the _[[Euler-Lagrange complex]]_. 
+this is also called the _[[Euler-Lagrange complex]]_.
 
 ([Anderson 89, theorem 5.1](#Anderson89))
 
@@ -8752,7 +8751,7 @@ induced by a [[variational differential form]] $P \in \Omega^{p+1,0}_\Sigma(E) \
 as in (eq:EquationOfMotionEL) comes from varying a [[Lagrangian density]], hence whether it is the
 [[equation of motion]] of a [[Lagrangian field theory]] via def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime}.
 
-This way [[homological algebra]] is brought to bear on core questions of [[field theory]]. 
+This way [[homological algebra]] is brought to bear on core questions of [[field theory]].
 For more on this see the exposition at _[[schreiber:Higher Structures|Higher Structures in Physics]]_.
 
 =--
@@ -8761,7 +8760,7 @@ For more on this see the exposition at _[[schreiber:Higher Structures|Higher Str
 ###### Remark
 **([[supergeometry|supergeometric]] nature of [[Lagrangian density]] of the [[Dirac field]])
 
-Observe that the [[Lagrangian density]] for the [[Dirac field]] (def. \ref{LagrangianDensityForDiracField}) makes sense (only) due to the [[supergeometry|supergeometric]] nature of the [[Dirac field]] (remark \ref{DiracFieldSupergeometric}): If the field jet coordinates $\psi_{,\mu_1 \cdots \mu_k}$ were not anti-commuting (eq:DiracFieldJetCoordinatesAnticommute) then the 
+Observe that the [[Lagrangian density]] for the [[Dirac field]] (def. \ref{LagrangianDensityForDiracField}) makes sense (only) due to the [[supergeometry|supergeometric]] nature of the [[Dirac field]] (remark \ref{DiracFieldSupergeometric}): If the field jet coordinates $\psi_{,\mu_1 \cdots \mu_k}$ were not anti-commuting (eq:DiracFieldJetCoordinatesAnticommute) then the
 Dirac's field Lagrangian density (def. \ref{LagrangianDensityForDiracField}) would be a [[total spacetime derivative]]
 and hence be trivial according to example \ref{TrivialLagrangianDensities}.
 
@@ -8773,7 +8772,7 @@ $$
     \overline{\psi} \,\gamma^\mu\, \psi
     \,
     \iota_{\partial_\mu} dvol_\Sigma
-  \right) 
+  \right)
   =
   \tfrac{1}{2} \overline{\psi_{,\mu}} \,\gamma^\mu\, \psi \, dvol_\Sigma
   +
@@ -8799,7 +8798,7 @@ thus rendering it trivial in the sense of example \ref{TrivialLagrangianDensitie
 
 The same [[supergeometry|supergeometric]] nature of the [[Dirac field]] will be necessary
 for its intended [[equation of motion]], the _[[Dirac equation]]_ (example \ref{EquationOfMotionOfDiracFieldIsDiracEquation}) to derive from a
-[[Lagrangian density]]; see the proof of prop. \ref{PresymplecticCurrentDiracField} below, and see remark \ref{SupergeometricNatureOfDiracEquation} below.
+[[Lagrangian density]]; see the proof of example \ref{PresymplecticCurrentDiracField} below, and see remark \ref{SupergeometricNatureOfDiracEquation} below.
 
 =--
 
@@ -9948,7 +9947,7 @@ $$
   \,
 $$
 
-The corresponding [[Poisson bracket Lie n-algebra|Poisson bracket Lie (p+1)-algebra]] (prop. \ref{LocalPoissonBracket}) has in degree 0
+The corresponding [[Poisson bracket Lie n-algebra|local Poisson bracket algebra]] (prop. \ref{LocalPoissonBracket}) has in degree 0
 [[Hamiltonian forms]] (def. \ref{HamiltonianDifferentialForms}) such as
 
 $$
@@ -9994,8 +9993,42 @@ $$
 
 
 
++-- {: .num_example #LocalPoissonBracketForDiracField}
+###### Example
+**([[Poisson bracket Lie n-algebra|local Poisson bracket]] for [[free field theory|free]] [[Dirac field]])**
 
+Consider the [[Lagrangian field theory]] of the [[free field theory|free]] [[Dirac field]] on [[Minkowski spacetime]] (example \ref{LagrangianDensityForDiracField}), whose [[presymplectic current]] is, according to example \ref{PresymplecticCurrentDiracField}, given by
 
+$$
+  \label{RecallPresymplecticCurrentOfDiracField}
+  \Omega_{BFV}
+  \;=\;
+  \overline{\delta \psi} \, \gamma^\mu \, \delta \psi \, \iota_{\partial_\mu} dvol_\Sigma
+  \,.
+$$
+
+Consider this specifically in [[spacetime]] [[dimension]] $p + 1 = 4$ in which case the components $\psi_\alpha$ are [[complex number]]-valued (by prop./def. \ref{SpacetimeAsMatrices}), so that the [[tuple]] $(\psi_\alpha)$ amounts to 8 real-valued coordinate functions. By changing complex coordinates, we may equivalently consider $(\psi_\alpha)$ as four coordinate functions, and $(\overline{\psi}^\alpha)$ as another four independent coordinate functions.
+
+Using this coordinate transformation, it is immediate to find the following [[pairs]] of [[Hamiltonian vector fields]] and their [[Hamiltonian differential forms]] from def. \ref{HamiltonianForms} applied to (eq:RecallPresymplecticCurrentOfDiracField)
+
+| [[Hamiltonian vector field]] | [[Hamiltonian differential form]] |
+|------------------------------|-----------------------------------|
+|  $\phantom{AA} \partial_{\psi_\alpha}$      | $\phantom{AA}-\left(\overline{\delta \psi}\gamma^\mu\right)^\alpha\, \iota_{\partial_\mu} dvol_\Sigma$ |
+| $\phantom{AA} \partial_{\overline{\psi}_\alpha}$ | $\phantom{AA}\phantom{-}\left( \gamma^\mu \psi  \right)_\alpha \, \iota_{\partial_\mu} dvol_\Sigma$ |
+
+and to obtain the following non-trivial [[Poisson bracket Lie n-algebra|local Poisson brackets]] (prop. \ref{LocalPoissonBracket}) (the other possible brackets vanish):
+
+$$
+  \left\{
+     \phantom{-}\left( \gamma^\mu \psi  \right)_\alpha \, \iota_{\partial_\mu} dvol_\Sigma
+     \,,\,
+     \left(\overline{\psi}\gamma^\mu\right)^\beta\, \iota_{\partial_\mu} dvol_\Sigma
+  \right\}
+  \;=\;
+  \left(\gamma^\mu\right)_\alpha{}^{\beta} \, \iota_{\partial_\mu} dvol_\Sigma
+$$
+
+=--
 
 
 
