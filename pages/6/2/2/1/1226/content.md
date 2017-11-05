@@ -64,6 +64,15 @@ For $C$ a filtered $(\infty,1)$-category, the [[diagonal]] [[(∞,1)-functor]] $
 
 =--
 
++-- {: .un_prop}
+###### Proposition
+A filtered $(\infty,1)$-category is weakly [[contractible]], i.e. when incarnated as a [[quasicategory]], it is [[weak homotopy equivalence|weakly equivalent]] to a [[point]] in the [[Kan-Quillen model structure]] on simplicial sets.
+=--
++-- {: .proof}
+###### Proof
+This is ([Lurie, Lemma 5.3.1.20](#Lurie)).
+=--
+
 ## Related concepts
 
 * [[sifted category]], [[sifted colimit]], [[sifted (∞,1)-category]], [[sifted (∞,1)-colimit]]
