@@ -63,4 +63,11 @@ In [[analysis]] or [[differential geometry]], a _derivative_ is the result of ap
 
 * [[derivation]]
 
+## References
+
+The [[Kock-Lawvere axiom]] for the [[axiom|axiomatization]] of [[differentiation]] in [[synthetic differential geometry]] was introduced in
+
+* {#Kock77} [[Anders Kock]], _A simple axiomatics for differentiation_,  Mathematica Scandinavica Vol. 40, No. 2 (October 24, 1977), pp. 183-193 ([JSTOR](http://www.jstor.org/stable/24491223))
+
+
 [[!redirects derivatives]]
