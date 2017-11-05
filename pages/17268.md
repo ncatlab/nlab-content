@@ -1436,4 +1436,6 @@ A proof of the model structure no relying on the [[classical model structure on 
 * [[Christian Sattler]], _The Equivalence Extension Property and Model Structures_ ([arXiv:1704.06911](https://arxiv.org/abs/1704.06911))
 
 [[!redirects Quillen model structure on simplicial sets]]
+[[!redirects Kan-Quillen model structure on simplicial sets]]
+[[!redirects Kan-Quillen model structure]]
 
