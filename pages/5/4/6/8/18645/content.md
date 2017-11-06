@@ -353,10 +353,10 @@ $$
   }
 $$
 
-is an algebra [[homomorphism]]. Moreover, this is clearly compatible with [[composition]] in that
+is an [[associative algebra|algebra]] [[homomorphism]]. Moreover, this is clearly compatible with [[composition]] in that
 
 $$
-  f_2^\ast(f_1^\ast g) = (f_2 \circ f_1)^\ast g
+  f_1^\ast(f_2^\ast g) = (f_2 \circ f_1)^\ast g
   \,.
 $$
 
@@ -369,8 +369,9 @@ $$
   CartSp \longrightarrow \mathbb{R} Alg^{op}
 $$
 
-from the [[category]] [[CartSp]] of [[Cartesian spaces]] and [[smooth functions]] between them, to the
-[[opposite category|opposite]] if the category $\mathbb{R}$[[Alg]] of $\mathbb{R}$-[[associative algebra|algebras]].
+from the [[category]] [[CartSp]] of [[Cartesian spaces]] and [[smooth functions]] between them (def. \ref{CartesianSpacesAndSmoothFunctionsBetweenThem}), to the
+[[opposite category|opposite]] of the category $\mathbb{R}$[[Alg]] of $\mathbb{R}$-[[associative algebra|algebras]].
+
 =--
 
 +-- {: .num_defn #LocalDiffeomorphismBetweenCartesianSpaces}
@@ -510,12 +511,15 @@ $$
 of the point $x$ under the smooth function. We think of $fb$ as exhibiting a "smoothly varying" set of [[fiber]] spaces over $X$.
 
 Given two [[bundles]] $E_1 \overset{fb_1}{\to} X$ and $E_2 \overset{fb_2}{\to} X$ over $X$,
-a _[[homomorphism]] of bundles_ between them is a [[smooth function]] (def. \ref{CartesianSpacesAndSmoothFunctionsBetweenThem})
-$f \colon E_1 \to E_2$ such that
+a _[[homomorphism]] of bundles_ between them is a [[smooth function]] 
+$f \colon E_1 \to E_2$ (def. \ref{CartesianSpacesAndSmoothFunctionsBetweenThem}) between their 
+total spaces which respects the bundle projections, in that
 
 $$
-  fb_2  \circ f = f_1
-  \phantom{AAAAAA}
+  fb_2  \circ f = fb_2
+  \phantom{AAAA}
+  \text{i.e.}
+  \phantom{AAA}
   \array{
     E_1 && \overset{f}{\longrightarrow} && E_2
     \\
@@ -529,12 +533,16 @@ $$
 Hence a bundle homomorphism is a smooth function that sends [[fibers]] to [[fibers]] over the same point:
 
 $$
-  f((E_1)_x) \subset (E_2)_x
+  f\left(
+    (E_1)_x
+  \right) 
+    \;\subset\; 
+  (E_2)_x
   \,.
 $$
 
 The inclined reader may notice that this defines a [[category]] of [[bundles]] over $X$,
-which is in fact just the _[[slice category]]_ $CartSp_{/X}$; the reader not so inclined may gnore this.
+which is in fact just the _[[slice category]]_ $CartSp_{/X}$; the reader not so inclined may ignore this.
 
 =--
 
@@ -576,7 +584,7 @@ $$
      \array{
         && E
         \\
-        & {}^{\mathllap{s}}\nearrow & \downarrow\mathrlap{fb}
+        & {}^{\mathllap{s}}\nearrow & \downarrow^\mathrlap{fb}
         \\
         X &=& X
      }
@@ -627,7 +635,7 @@ $$
   \array{
     X \times F
     \\
-    \downarrow\mathrlap{pr_1}
+    \downarrow^\mathrlap{pr_1}
     \\
     X
   }
@@ -3873,11 +3881,11 @@ such that
      \array{
        && X(\mathbb{R}^{n_2})
        \\
-       & {}^{\mathllap{f^\ast}}\nearrow && \searrow^{\mathrlap{g^\ast}}
+       & {}^{\mathllap{f^\ast}}\swarrow && \nwarrow^{\mathrlap{g^\ast}}
        \\
-       X(\mathbb{R}^{n_3})
-       && \underset{ (g \circ f)^\ast }{\longrightarrow} &&
        X(\mathbb{R}^{n_1})
+       && \underset{ (g \circ f)^\ast }{\longleftarrow} &&
+       X(\mathbb{R}^{n_3})
      }
    $$
 
@@ -4110,7 +4118,7 @@ such that
 
    and if $\mathbb{R}^{n_1} \overset{f}{\to} \mathbb{R}^{n_2} \overset{g}{\to} \mathbb{R}^{n_3}$
    are two [[composition|composable]] [[smooth functions]] between [[Cartesian spaces]], then
-   pullback of plots along them conseutively equals the pullback along the [[composition]]:
+   consecutive pullback of plots along them equals the pullback along the [[composition]]:
 
    $$
      f^\ast \circ g^\ast
@@ -4120,11 +4128,11 @@ such that
      \array{
        && X(\mathbb{R}^{n_2})
        \\
-       & {}^{\mathllap{f^\ast}}\nearrow && \searrow^{\mathrlap{g^\ast}}
+       & {}^{\mathllap{f^\ast}}\swarrow && \nwarrow^{\mathrlap{g^\ast}}
        \\
+       X(\mathbb{R}^{n_1})
+       && \underset{ (g \circ f)^\ast }{\longleftarrow} &&
        X(\mathbb{R}^{n_3})
-       && \underset{ (g \circ f)^\ast }{\longrightarrow} &&
-       X(\mathbb{R}^{n_2})
      }
    $$
 
@@ -5002,11 +5010,11 @@ such that
      \array{
        && X(\mathbb{R}^{n_2} \times Spec(A_2))
        \\
-       & {}^{\mathllap{f^\ast}}\nearrow && \searrow^{\mathrlap{g^\ast}}
+       & {}^{\mathllap{f^\ast}}\swarrow && \nwarrow^{\mathrlap{g^\ast}}
        \\
-       X(\mathbb{R}^{n_3} \times Spec(A_3))
-       && \underset{ (g \circ f)^\ast }{\longrightarrow} &&
        X(\mathbb{R}^{n_1} \times Spec(A_1))
+       && \underset{ (g \circ f)^\ast }{\longleftarrow} &&
+       X(\mathbb{R}^{n_3} \times Spec(A_3))
      }
    $$
 
@@ -5954,11 +5962,11 @@ such that
      \array{
        && X(\mathbb{R}^{n_2} \times Spec(A_2))
        \\
-       & {}^{\mathllap{f^\ast}}\nearrow && \searrow^{\mathrlap{g^\ast}}
+       & {}^{\mathllap{f^\ast}}\swarrow && \nwarrow^{\mathrlap{g^\ast}}
        \\
-       X(\mathbb{R}^{n_3} \times Spec(A_3))
-       && \underset{ (g \circ f)^\ast }{\longrightarrow} &&
        X(\mathbb{R}^{n_1} \times Spec(A_1))
+       && \underset{ (g \circ f)^\ast }{\longleftarrow} &&
+       X(\mathbb{R}^{n_3} \times Spec(A_3))
      }
    $$
 
@@ -12968,7 +12976,7 @@ $$
 the corresponding odd-graded point-evaluation observable (example \ref{PointEvaluationObservables}).
 
 Then consider the [[Cauchy surfaces]] in [[Minkowski spacetime]] (def. \ref{MinkowskiSpacetime}) given by $x^0 = t$ for $t \in \mathbb{R}$. Under [[transgression of variational differential forms|transgression]] to this Cauchy surface via def. \ref{PoissonBracketOnHamiltonianLocalObservables},
-the [[Poisson bracket Lie n-algebra|local Poisson bracket]], which by example \ref{LocalPoissonBracketForDiracField} is given by the [[super Lie algebra|super Lie bracket]] 
+the [[Poisson bracket Lie n-algebra|local Poisson bracket]], which by example \ref{LocalPoissonBracketForDiracField} is given by the [[super Lie algebra|super Lie bracket]]
 
 $$
   \left\{
