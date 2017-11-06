@@ -37,6 +37,8 @@ For details see at _[geometric quantization -- Space of quantum states](geometri
 
 * [[collapse of the wave function]]
 
+* [[plane wave]]
+
 [[!include Isbell duality - table]]
 
 [[!include holographic principle -- table]]
