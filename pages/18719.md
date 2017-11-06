@@ -6,7 +6,9 @@ Our seminar follows mostly Goerss-Jardine (GJ)
 
 1. Simplicial set (GJ I.1)  by Daniel (02.11.2017)
 
-2. Kan Complex I (GJ I.3, first three pages) by Laura (09.11.2017)
+2. Simplicial set (GJ I.1) by Daniel and realization by Laura   (09.11.2017)
+
+2.5 Kan Complex I  by Laura(GJ I.3, first three pages) (16.11.2017)
 
 3. Kan Complex II towards n-groupoids (GJ I.3, the rest of it) by Richard (16.11.2017)
 
