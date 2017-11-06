@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include physicscontents]]
 =--
+#### Harmonic analysis
++-- {: .hide}
+[[!include harmonic analysis - contents]]
+=--
 =--
 =--
 
@@ -28,7 +32,23 @@ The [[quantum mechanics]], when described mathematically via the solutions of a 
 
 ## Related concepts
 
-* [[oscillation]], [[semiclassical approximation]], [[geometrical optics]], [[soliton]], [[Stokes phenomenon]], [[Berry's phase]].
+* [[plane wave]], [[wave vector]]
+
+* [[harmonic analysis]], [[Fourier analysis]]
+
+* [[oscillation]], 
+
+* [[semiclassical approximation]]
+
+* [[geometrical optics]]
+
+* [[soliton]]
+
+* [[Stokes phenomenon]]
+
+* [[Berry's phase]].
+
+* [[wave function]]
 
 [[!redirects waves]]
 
