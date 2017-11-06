@@ -56,10 +56,10 @@ is called the _[[frequency]]_ of the corresponding [[plane wave]] (in the chosen
 * [[plane wave]]
 
 * [[Fourier transform]]
-x^1
+
 * [[wave]]
 
-* [[frequency]]
+* [[frequency]], [[amplitude]]
 
 ## References
 
