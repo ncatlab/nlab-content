@@ -21,6 +21,13 @@ The notion of _quasi-category_ is a [[geometric definition of higher categories|
  
 In analogy to how a [[Kan complex]] is a model in terms of [[simplicial set]]s of an [[∞-groupoid]] -- also called an [[(∞,0)-category]] --  a [[quasi-category]] is a model in terms of [[simplicial set]]s of an [[(∞,1)-category]].
 
++-- {: .un_remark}
+###### Warning
+
+In older literature, such as [[The Joy of Cats]], the term "quasicategory" was sometimes used for a "very large" category whose objects are [[large categories]] or otherwise built out of [[proper classes]], but nowadays this usage is fairly archaic.  See also [[metacategory]].
+
+=--
+
 
 ## Definition
 
@@ -63,12 +70,7 @@ While quasi-categories provide a [[geometric definition of higher categories]], 
 
 
 
-+-- {: .un_remark}
-###### Remark on terminology
 
-In older literature, such as [[The Joy of Cats]], the term "quasicategory" was sometimes used for a "very large" category whose objects are [[large categories]] or otherwise built out of [[proper classes]], but nowadays this usage is fairly archaic.  See also [[metacategory]]
-
-=--
 
 ## Properties
 
