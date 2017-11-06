@@ -1,21 +1,96 @@
 
 
++-- {: .num_example #DiracDeltaDistribution}
+###### Example
+**([[delta distribution]])
+
+Write 
 
 $$
-  \widehat {\delta}(k)
-  \;=\;
-  =
-  \int_{x \in \mathbb{R}} \delta(x) e^{- 2\pi i k x} \, d x
-  =
-  1
+ \delta_0(-) \;\in\; \mathcal{E}'(\mathbb{R}^n)
 $$
+
+for the [[distribution]] given by point evaluation of zero:
+
+$$
+  \delta_0(-) \;\colon\; f \mapsto f(0)
+  \,.
+$$
+
+This is clearly a [[compactly supported distribution]].
+
+We write just "$\delta(-)$" (without the subscript) for the corresponding [[generalized function]], so that 
+
+$$
+  \underset{x \in \mathbb{R}^n}{\int} \delta(x) f(x) \, dvol(x)
+  \;\coloneqq\;
+  f(0)
+  \,.
+$$
+
+=--
+
+
+
++-- {: .num_defn #FourierTransformOfDeltaDistribution}
+###### Example
+**([[Fourier transform of distributions|Fourier transform]] of the [[delta-distribution]])**
+
+The [[Fourier transform of distributions|Fourier transform]] (def. \ref{FourierTransformOnTemperedDistributions}) of the [[delta distribution]] (def. \ref{DiracDeltaDistribution}), via example \ref{CompactlySupportedDistributionFourierTransform}, is the [[constant function]] on 1:
+
+$$
+  \begin{aligned}
+    \widehat {\delta}(k)
+    & =
+    \underset{x \in \mathbb{R}^n}{\int} \delta(x) e^{- 2\pi i k x} \, d x
+    \\
+    & =
+    1
+  \end{aligned}
+$$
+
+This implies by the [[Fourier inversion theorem]] (prop. \ref{FourierInversionTheoremForDistributions}) that the [[delta distribution]] itself has equivalently the expression
 
 $$
   \delta(x)
   =
   \widehat{\widehat{\delta}}(-x)
   =
-  \int_{k \in \mathbb{R}} e^{2 \pi i k x} \, d k
+  \int_{k \in \mathbb{R}^n} e^{2 \pi i k \cdot x} \, d k
 $$
 
+in the sense that for every [[function with rapidly decreasing partial derivatives]] $f \in \mathcal{S}(\mathbb{R}^n)$ we have
 
+$$
+  \begin{aligned}
+    f(x)
+    & =
+    \underset{y \in \mathbb{R}^n}{\int}
+    f(y) \delta(y-x)  \, dvol(y)
+    \\
+    & =
+    \underset{y \in \mathbb{R}^n}{\int}
+    \underset{k \in \mathbb{R}^n}{\int}
+    f(y) e^{2 \pi i k \cdot (y-x)}
+    \, dvol(k)\, dvol(y)
+    \\
+    & =
+    \underset{k \in \mathbb{R}^n}{\int}
+    e^{- 2 \pi i k \cdot x}
+    \underset{= (-1)^n\widehat{f}(-k)}{
+    \underbrace{
+      \underset{y \in \mathbb{R}^n}{\int}
+      f(y) e^{2 \pi i k \cdot y}
+      \, dvol(y)
+    }  
+    }
+    \, dvol(k)
+    \\
+    & = 
+    \widehat{\widehat{f}}(-x)
+  \end{aligned}
+$$
+
+which is just the statement of the [[Fourier inversion theorem]] for smooth functions (prop. \ref{FourierInversion}).
+
+=--
