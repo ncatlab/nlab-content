@@ -43,6 +43,8 @@ In the [[Euclidean space]] $(X,d) = E^n$ of [[dimension]] $n$, the unit sphere i
 
 * [[unit sphere bundle]]
 
+* [[direction of a vector]]
+
 [[!redirects unit spheres]]
 
 [[!redirects unit n-sphere]]
