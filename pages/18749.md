@@ -27,11 +27,11 @@ $$
 given by the [[exponential function]] with [[complex number|complex]] argument of the form
 
 $$
-  \vec x \;\mapsto\; e^{2 \pi i \vec k \cdot \vec x}
+  \vec x \;\mapsto\; A e^{2 \pi i \vec k \cdot \vec x}
   \,.
 $$ 
 
-Here $\vec k \in \mathbb{R}^n$ is the _[[wave vector]]_ determining this plane wave.
+Here $\vec k \in \mathbb{R}^n$ is the _[[wave vector]]_ of this plane wave (and $A \in \mathbb{C}$ is its [[amplitude]]).
 
 In [[Fourier analysis]] over [[Cartesian space]], the [[Fourier transform]] expresses every [[function with rapidly decreasing partial derivatives]] as a [[superposition]] of plane waves.
 
