@@ -279,7 +279,7 @@ $$
   f \colon \mathbb{R}^{n_1} \longrightarrow \mathbb{R}^{n_2}
 $$
 
-any [[smooth function]] and $a \in \{1, 2, \cdots, n_2\}$
+any [[smooth function]] and $a \in \{1, 2, \cdots, n_2\}$ write
 
 $$
   f^a \coloneqq x^k \circ f
@@ -504,7 +504,7 @@ $$
 For $x \in X$ a point, we say that the _[[fiber]]_ of this [[bundle]] over $x$ is the [[pre-image]]
 
 $$
-  E_x \coloneqq fp^{-1}(\{x\}) \subset E
+  E_x \coloneqq fb^{-1}(\{x\}) \subset E
 $$
 
 of the point $x$ under the smooth function. We think of $fb$ as exhibiting a "smoothly varying" set of [[fiber]] spaces over $X$.
@@ -541,7 +541,7 @@ which is in fact just the _[[slice category]]_ $CartSp_{/X}$; the reader not so 
 
 +-- {: .num_defn #Sections}
 ###### Definition
-**([[sections]])*'
+**([[sections]])**
 
 Given a [[bundle]] $E \overset{fb}{\to} X$ (def. \ref{BundlesAndFibers})
 a _[[section]]_ is a [[smooth function]] $s \colon X \to E$ such that
@@ -982,7 +982,7 @@ $$
 of [[smooth functions]] (def. \ref{CartesianSpacesAndSmoothFunctionsBetweenThem}), which we think of equivalently as the [[coefficients]] of a [[formal linear combination]]
 
 $$
-  \omega = f_i d x^i
+  \omega = \omega_i d x^i
 $$
 
 on a [[set]] $\{d x^1, d x^2, \cdots, d x^n\}$ of [[cardinality]] $n$.
