@@ -37,6 +37,15 @@ $$
   \,.
 $$
 
+The combination
+
+
+$$
+  \omega \coloneqq 2 \pi \nu = 2\pi k_0
+$$
+
+is called the _angular frequency_.
+
 ## Related concepts
 
 * [[wavelength]]
@@ -46,3 +55,7 @@ $$
 * [[wave equation]], [[Klein-Gordon equation]]
 
 [[!redirects frequencies]]
+
+[[!redirects angular frequency]]
+[[!redirects angular frequencies]]
+
