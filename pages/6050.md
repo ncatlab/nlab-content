@@ -53,6 +53,12 @@ The [[bicharacteristic strips]] of the Klein-Gordon operator are [[cotangent vec
 
 ## Related concepts
 
+* [[wave]]
+
+* [[plane wave]], 
+
+  [[wave vector]], [[wavelength]], [[frequency]]
+
 * [[scalar field]]
 
 * [[Green's function]]
