@@ -3556,11 +3556,11 @@ $$
 
 called the _[[field bundle]]_,
 
-Given a type of [[field|fields]] on $\Sigma$ this way, then a  _[[field history]]_ of that type on $\Sigma$
-is a smooth  [[section]] (def. \ref{Sections}) of this [[bundle]], namely a [[smooth function]] of the form
+Given a [[type]] of [[field|fields]] on $\Sigma$ this way, then a  _[[field history]]_ of that type on $\Sigma$
+is a [[term]] of that [[type]], hence is a smooth  [[section]] (def. \ref{Sections}) of this [[bundle]], namely a [[smooth function]] of the form
 
 $$
-  \Phi \colon \Sigma \longrightarrow E
+  \Phi \;\colon\; \Sigma \longrightarrow E
 $$
 
 such that composed with the [[projection]] map it is the [[identity function]], i.e. such that
@@ -3579,6 +3579,27 @@ $$
 $$
 
 The set of such [[sections]]/[[field histories]] is to be denoted $\Gamma_\Sigma(E)$.
+
+=--
+
+
++-- {: .num_remark #ThreeAspectsOfConceptOfField}
+###### Remark
+**(three aspects of the concept of "[[field (physics)|field]]")**
+
+Besides the _[[type]] of [[field (physics)|fields]]_, embodied by the [[field bundle]], and 
+an actual _[[field history]]_, embodied by a [[section]] of that bundle according to def. \ref{Fields}, there is also 
+the concept of [[observables]] on these field histories, introduced as def. \ref{Observables} below.
+Beware that in the literature often these three aspects of the concept of _[[field (physics)|field]]_
+are not terminologically distinguished.
+
+**[[field (physics)|fields]]**
+
+| aspect | [[term]] | [[type]] |  description | def. |
+|--|------------|-|---------|----|
+| [[field bundle|field component]] | $\phi^a$, $\phi^a_{,\mu}$ |  $J^\infty_\Sigma(E) \to \mathbb{R}$ |[[coordinate function]] on [[jet bundle]] of [[field bundle]] | def. \ref{Fields}, def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime} |
+| [[field history]] | $\Phi$, $\frac{\partial \Phi}{\partial x^\mu}$ | $\Sigma \to J^\infty_\Sigma(E)$  | [[jet prolongation]] of [[section]] of [[field bundle]] | def. \ref{Fields}, def. \ref{JetProlongation}  |
+| [[observable|field observable]] | $\mathbf{\Phi}^a$, $\partial_{\mu} \mathbf{\Phi}^a $ | $\Gamma_{\Sigma}(E) \to \mathbb{R}$  | [[functional]] on [[space of sections]] | def. \ref{Observables}, example \ref{PointEvaluationObservables} |
 
 =--
 
@@ -3612,6 +3633,8 @@ $$
 $$
 
 =--
+
+
 
 
 +-- {: .num_example #RealScalarFieldBundle}
@@ -10330,7 +10353,7 @@ $$
 has components $(\Phi^a)$ which are [[smooth functions]] on [[spacetime]].
 
 Then for every index $a$ and every point $x \in \Sigma$ in [[spacetime]] (every [[event]]) there is an [[observable]] (def. \ref{Observables})
-denoted $\mathbf{Phi}^a(x)$ which is given by
+denoted $\mathbf{\Phi}^a(x)$ which is given by
 
 $$
   \mathbf{\Phi}^a(x)
@@ -10356,7 +10379,7 @@ to their $U$-parameterized collection of values at $x$ of their $a$-th component
 **(warning on terminology)**
 
 In much of the literature on [[field theory]], the point evaluation observables $\mathbf{\Phi}^a(x)$ from
-example \ref{PointEvaluationObservables} are eventually referred to as "fields" themselves,
+example \ref{PointEvaluationObservables} are eventually referred to as "fields" themselves (remark \ref{ThreeAspectsOfConceptOfField}),
 blurring the distinction between
 
 1. a field species/[[field bundle]] $E$,
@@ -10365,8 +10388,15 @@ blurring the distinction between
 
 1. a function on the space of field histories $\mathbf{\Phi}^a(x)$.
 
-This is a convenient shorthand when one knows what one is doing, but if not it leads to
-conceptual puzzlements.
+This is a convenient shorthand (only) when one knows what one is doing.
+
+**[[field (physics)|fields]]**
+
+| aspect | [[term]] | [[type]] |  description | def. |
+|--|------------|-|---------|----|
+| [[field bundle|field component]] | $\phi^a$, $\phi^a_{,\mu}$ |  $J^\infty_\Sigma(E) \to \mathbb{R}$ |[[coordinate function]] on [[jet bundle]] of [[field bundle]] | def. \ref{Fields}, def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime} |
+| [[field history]] | $\Phi$, $\frac{\partial \Phi}{\partial x^\mu}$ | $\Sigma \to J^\infty_\Sigma(E)$  | [[jet prolongation]] of [[section]] of [[field bundle]] | def. \ref{Fields}, def. \ref{JetProlongation}  |
+| [[observable|field observable]] | $\mathbf{\Phi}^a$, $\partial_{\mu} \mathbf{\Phi}^a $ | $\Gamma_{\Sigma}(E) \to \mathbb{R}$  | [[functional]] on [[space of sections]] | def. \ref{Observables}, example \ref{PointEvaluationObservables} |
 
 =--
 
@@ -12604,15 +12634,17 @@ $$
 where
 
 $$
-  \phi(x), \partial_0 \phi(x) : PhaseSpace(\Sigma_p^t) \to \mathbb{R}
+  \mathbf{\Phi}(x), \partial_0 \mathbf{\Phi}(x) 
+    \;:\; 
+  PhaseSpace(\Sigma_p^t) \to \mathbb{R}
 $$
 
-denote the point-evaluation functionals (example \ref{PointEvaluationObservables}), which act on a field configuration $\Phi \in \Gamma_\Sigma(E) = C^\infty(\Sigma)$ as
+denote the point-evaluation observables (example \ref{PointEvaluationObservables}), which act on a field configuration $\Phi \in \Gamma_\Sigma(E) = C^\infty(\Sigma)$ as
 
 $$
- \phi(x)(\Phi) \coloneqq \Phi(x)
+ \mathbf{\Phi}(x) \;\colon\; \Phi \mapsto \Phi(x)
  \phantom{AAAAAAAA}
- \partial_0 \phi(x) (\Phi) \coloneqq \partial_0 \Phi(x)
+ \partial_0 \mathbf{\Phi}(x) \;\colon\; \Phi \mapsto \partial_0 \Phi(x)
  \,.
 $$
 
@@ -12623,7 +12655,7 @@ Nevertheless we may express the above Poisson bracket conveniently via the [[int
 $$
   \label{PoissonBracketOfScalarFieldPointEvaluationOnMinkowskiSpacetime}
   \left\{
-    \phi(t,\vec x), \phi(t,\vec y)
+    \mathbf{\Phi}(t,\vec x), \partial_0\mathbf{\Phi}(t,\vec y)
   \right\}
   \;=\;
   \delta(\vec x - \vec y)
@@ -12643,7 +12675,7 @@ on Minkowski spacetime:
 
 $$
   \begin{aligned}
-    \left\{ \phi(x), \phi(y) \right\}
+    \left\{ \mathbf{\Phi}(x), \mathbf{\Phi}(y) \right\}
     & =
     \Delta(x,y)
     \\
@@ -12753,7 +12785,7 @@ $$
 We abbreviate (cf. [Scharf 01 (1.1.18)](causal+perturbation+theory#Scharf01))
 
 $$
-  A(\vec k) \coloneqq E(\vec k) Amp(E(\vec k), \vec k)
+  a(\vec k) \coloneqq E(\vec k) Amp(E(\vec k), \vec k)
   \,,
 $$
 
@@ -12768,9 +12800,9 @@ $$
     (2\pi)^{-p/2}
     \int \frac{1}{\sqrt{2 E(\vec k)}}
       \left(
-        A(\vec k) e^{- i E(\vec k) x^0 - i \vec k \cdot \vec x}
+        a(\vec k) e^{- i E(\vec k) x^0 - i \vec k \cdot \vec x}
         +
-        A(\vec k)^\ast e^{+ i E(\vec k) x^0 + i \vec k \cdot \vec x}
+        a(\vec k)^\ast e^{+ i E(\vec k) x^0 + i \vec k \cdot \vec x}
       \right)
     d^p \vec k
     \,.
@@ -12784,19 +12816,19 @@ $$
     (2\pi)^{-p/2}
     \int -i \sqrt{E(k)/2}
       \left(
-        A(\vec k) e^{- i E(\vec k) x^0 - i \vec k \cdot \vec x}
+        a(\vec k) e^{- i E(\vec k) x^0 - i \vec k \cdot \vec x}
         -
-        A(\vec k)^\ast e^{+ i E(\vec k) x^0 + i \vec k \cdot \vec x}
+        a(\vec k)^\ast e^{+ i E(\vec k) x^0 + i \vec k \cdot \vec x}
       \right)
     d^p \vec k
     \,.
 $$
 
-This allows to express the modes in terms of the value of the field and its time derivative at $t = 0$:
+This allows to express the field mode amplitudes in terms of the value of the field and its time derivative at $t = 0$:
 
 $$
-  A(\vec k)
-  =
+  a(\vec k)
+  \;=\;
    (2 \pi)^{-p/2}
    \int
      \left( \sqrt{E(k)/2}\Phi(0,\vec x) + i \frac{1}{2\sqrt{E(k)}} \partial_0 \Phi(0,\vec x)\right) \exp( i \vec k \cdot \vec x )
@@ -12804,32 +12836,36 @@ $$
    \,.
 $$
 
-As in example \ref{PoissonBracketForRealScalarField} we denote the corresponding evaluation functional
+Write 
 
 $$
-  a(\vec k) \;\colon\; C^\infty(\Sigma) \longrightarrow \mathbb{C}
+  \mathbf{a}(\vec k) \;\colon\; C^\infty(\Sigma) \longrightarrow \mathbb{C}
 $$
 
-by the corresponding lower case symbol:
+for the corresponding evaluation observable (example \ref{PointEvaluationObservables})
 
 $$
-  a(\vec k)
-   \;\coloneqq\;
+  \mathbf{a}(\vec k)
+   \;\colon\;
+   \Phi
+   \;\mapsto\;
    (2 \pi)^{-p/2}
    \int
-     \left( \sqrt{E(k)/2}\phi(\vec x) + i \frac{1}{\sqrt{2 E(k)}} \partial_0 \phi(\vec x)\right) \exp( i \vec k \cdot \vec x )
+     \left( \sqrt{E(k)/2}\mathbf{\Phi}(\vec x) + i \frac{1}{\sqrt{2 E(k)}} \partial_0 \mathbf{\Phi}(\vec x)\right) \exp( i \vec k \cdot \vec x )
    d^p \vec x
    \,.
 $$
 
-With the Poisson bracket kernel $\{\phi(\vec x), \phi(\vec y)\} = \delta(\vec x - \vec y)$ from example \ref{PoissonBracketForRealScalarField} (eq:PoissonBracketOfScalarFieldPointEvaluationOnMinkowskiSpacetime),
-it follow that the  (integral kernel for the) Poisson bracket of these mode functionals is
+With the Poisson bracket kernel $\{\phi(\vec x), \partial_0 \phi(\vec y)\} = \delta(\vec x - \vec y)$ (eq:PoissonBracketOfScalarFieldPointEvaluationOnMinkowskiSpacetime),
+it follow that the  (integral kernel for the) Poisson bracket of these mode observables is
 that of the [[canonical commutation relations]]:
 
 $$
   \begin{aligned}
     \label{CanonicalPoissonCommutationOfModesOfFreeScalarFieldOnMinkowskiSpacetime}
-    \{ a(\vec k_1), a(\vec k_2)^\ast  \}
+    \left\{ 
+      \mathbf{a}(\vec k_1), \mathbf{a}(\vec k_2)^\ast  
+    \right\}
     & =
     -i
     (2\pi)^{-p}
@@ -12848,29 +12884,31 @@ $$
 
 where in the last step we used the [[Fourier transform]] representation of the [[delta distribution]] ([this prop.](Dirac+distribution#FourierTransform)).
 
-In order to finally compute $\{\phi(x), \phi(y)\}$, it is convenient to break this up into two contributions:
+In order to finally compute $\{\mathbf{\Phi}(x), \mathbf{\Phi}(y)\}$, it is convenient to break this up into two contributions:
 Write
 
 $$
-  \phi^{(+)}(x)
+  \mathbf{\Phi}^{(+)}(x)
   \;\coloneqq\;
     (2\pi)^{-p/2}
     \int \frac{1}{\sqrt{2 E(\vec k)}}
-        a(\vec k)^\ast e^{+ i E(\vec k) x^0 + i \vec k \cdot \vec x}
+        \mathbf{a}(\vec k)^\ast e^{+ i E(\vec k) x^0 + i \vec k \cdot \vec x}
     d^p \vec k
   \phantom{AAAA}
-  \phi^{(-)}(x)
+  \mathbf{\Phi}^{(-)}(x)
   \;\coloneqq\;
     (2\pi)^{-p/2}
     \int \frac{1}{\sqrt{2 E(\vec k)}}
-        a(\vec k) e^{- i E(\vec k) x^0 - i \vec k \cdot \vec x}
+        \mathbf{a}(\vec k) e^{- i E(\vec k) x^0 - i \vec k \cdot \vec x}
     d^p \vec k
 $$
 
 for the positive and negative energy contributions from the Fourier expansion in (eq:FourierModeExpansionOfScalarFieldOnminkowskiSpacetime), so that
 
 $$
-  \phi(x) = \phi^{(-)}(x)  + \phi^{(+)}(x)
+  \mathbf{\Phi}(x) 
+    \;=\; 
+  \mathbf{\Phi}^{(-)}(x)  + \mathbf{\Phi}^{(+)}(x)
   \,.
 $$
 
@@ -12881,7 +12919,7 @@ $$
   \begin{aligned}
     -i \omega(x,y)
      & \coloneqq
-     \{ \phi^{(-)}(x), \phi^{(+)}(y) \}
+     \left\{ \mathbf{\phi}^{(-)}(x), \mathbf{\phi}^{(+)}(y) \right\}
     \\
     &=
     -i (2\pi)^{-p} \int \tfrac{1}{2 E(\vec k)} e^{- i E(\vec k) (x-y)^0 - \vec k \cdot (\vec x - \vec y)} d^{p} \vec k
@@ -12898,29 +12936,16 @@ Similarly
 
 $$
   \begin{aligned}
-  \{ \phi^{(+)}(x), \phi^{(-)}(y) \}
+  \left\{ \mathbf{\Phi}^{(+)}(x), \mathbf{\Phi}^{(-)}(y) \right\}
   & =
   + i (2\pi)^{-p} \int \tfrac{1}{2 E(\vec k)} e^{i E(\vec k) (x-y)^0 + \vec k \cdot (\vec x - \vec y)} d^{p} \vec k
   \\
   & =
-  + i (2\pi)^{-p} \int \delta( k_\mu k^\mu + m^2 ) \Theta_{BFV}( -k_0 ) e^{ - i k_\mu (x-y)^\mu } d^{p+1} k
+  + i (2\pi)^{-p} \int \delta( k_\mu k^\mu + m^2 ) \Theta( -k_0 ) e^{ - i k_\mu (x-y)^\mu } d^{p+1} k
   \\
   \end{aligned}
   \,.
 $$
-
-In particular this says that
-
-$$
-  \{ \phi^{(+)}(x), \phi^{(-)}(y) \}
-  =
-  - \omega(y,x)
-  \coloneqq
-  -
-  \{ \phi^{(-)}(y), \phi^{(+)}(x) \}
-  \,.
-$$
-
 
 With this we finally obtain the expression for the [[causal propagator]] as the skew-symmetrization
 of the [[2-point function]]:
@@ -12928,16 +12953,18 @@ of the [[2-point function]]:
 $$
   \begin{aligned}
   \{
-    \phi(x),
-    \phi(y)
+    \mathbf{\Phi}(x),
+    \mathbf{\Phi}(y)
   \}
   & =
-  \{ \phi^{(-)}(x), \phi^{(+)}(y) \}
+  \{ \mathbf{\Phi}^{(-)}(x), \mathbf{\Phi}^{(+)}(y) \}
   +
-  \{\phi^{(+)}(x), \phi^{(-)}(y)\}
+  \{\mathbf{\Phi}^{(+)}(x), \mathbf{\Phi}^{(-)}(y)\}
   \\
   & =
-  \omega(x,y) - \omega(y,x)
+  -i \left( 
+    \omega(x,y) - \omega(y,x) 
+  \right)
   \\
   & =
   -i (2\pi)^{-p} \int \tfrac{1}{2 E(\vec k)}\left(
