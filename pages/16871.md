@@ -70,5 +70,10 @@ $$
 
 * _[Higher prequantum geometry II: The principle of extremal action -- comonadically](https://www.physicsforums.com/insights/higher-prequantum-geometry-ii-principle-extremal-action-comonadically/)_
 
+[[!redirects shells]]
+
 [[!redirects on-shell]]
 [[!redirects off-shell]]
+
+[[!redirects mass shell]]
+[[!redirects mass shells]]
