@@ -7,6 +7,8 @@
 
   [[wave vector]], [[wavelength]], [[frequency]]
 
+  [[amplitude]]
+
 [[Fourier analysis]]
 
 * [[Schwartz space]] of [[functions with rapidly decreasing partial derivatives]]
