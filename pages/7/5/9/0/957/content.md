@@ -1,4 +1,6 @@
 
+> This entry is about the concept in [[order theory]]. For the concept in [[analytic geometry]] see at [[direction of a vector]].
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
