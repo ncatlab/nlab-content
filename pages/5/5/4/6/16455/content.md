@@ -67,6 +67,16 @@ According to [Radzikowski 96](#Radzikowski96), the constraints on the wavefront 
 These propagators govern the construction of the [[Wick algebra]] of [[quantum observables]] of the [[free field|free]] [[scalar field]] on the given [[globally hyperbolic spacetime]], as well as the further [[deformation quantization]] to [[interaction|interacting]] [[perturbative quantum field theory]] [[quantum field theory on curved spacetimes|on curved spacetimes]] via [[causal perturbation theory]]. See at _[[locally covariant perturbative quantum field theory]]_ for more on this.
 
 
+## Related concepts
+
+* [[wave equation]], [[wave]]
+
+* [[plane wave]]
+
+  [[wave vector]], [[wavelength]], [[frequency]]
+
+* [[Fourier analysis]]
+
 ## References
 
 The Klein-Gordon equation is named after [[Oskar Klein]] and [[Walter Gordon]]. 
