@@ -28,6 +28,9 @@ Call an [[(∞,1)-site]] $C$ **locally contractible** if every constant [[(∞,1
 
 =--
 
+More explicitly, this means that every covering sieve $R$ on an object $U\in C$, regarded as a subcategory of $C/U$, is weakly contractible, i.e. its nerve $N(R)$ (which is just itself, if it is incarnated as a [[quasicategory]]) is contractible in the [[Kan-Quillen model structure]] on simplicial sets.  For the sheaf condition for a constant presheaf on $X\in \infty Gpd$ is that the map $Const(X)(U) = X \to \lim_R Const(X)$ is an equivalence, but $\lim_R Const(X) = Map(N(R),X)$, and this is equivalent to $X$ for all $X$ if and only if $N(R)$ is contractible as an $\infty$-groupoid.
+
+
 ## Properties
 
 +-- {: .num_defn}
