@@ -573,3 +573,5 @@ category: analysis
 [[!redirects Fourier mode]]
 [[!redirects Fourier modes]]
 
+[[!redirects Fourier expansion]]
+[[!redirects Fourier expansions]]
