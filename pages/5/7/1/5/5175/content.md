@@ -63,32 +63,76 @@ $$
 
 
 ### Fourier transform
+ {#FourierTransform}
 
-+-- {: .num_prop #FourierTransform}
-###### Proposition
-**([[Fourier transform of a distribution|Fourier transform]])
 
-The [[Fourier transform]] of the delta-distirbution on $\mathbb{R}^n$ is
++-- {: .num_defn #FourierTransformOfDeltaDistribution}
+###### Example
+**([[Fourier transform of distributions|Fourier transform]] of the [[delta-distribution]])**
 
-$$
-  \widehat {\delta}(\vec k)
-  \;=\; 
-  \int \delta(\vec x) e^{- i \vec x \cdot \vec k} d^n \vec x
-$$
-
-and hence the delta distribution itself has the expression
+The [[Fourier transform of distributions|Fourier transform]] ([this def.](Fourier+transform#FourierTransformOnTemperedDistributions)) of the [[delta distribution]], via [this example](Fourier+transform#CompactlySupportedDistributionFourierTransform), is the [[constant function]] on 1:
 
 $$
-  \delta(\vec x)
-  \;=\;
-  (2 \pi)^{-n}
-  \int
-    e^{ i \vec x \cdot \vec k}
-  d^n \vec k
-  \,.
+  \begin{aligned}
+    \widehat {\delta}(k)
+    & =
+    \underset{x \in \mathbb{R}^n}{\int} \delta(x) e^{- 2\pi i k x} \, d x
+    \\
+    & =
+    1
+  \end{aligned}
 $$
+
+This implies by the [[Fourier inversion theorem]] ([this prop.](Fourier+transform#FourierInversionTheoremForDistributions)) that the [[delta distribution]] itself has equivalently the expression
+
+$$
+  \begin{aligned}
+    \delta(x)
+    & =
+    \widehat{\widehat{\delta}}(-x)
+    \\
+    & =
+    \int_{k \in \mathbb{R}^n} e^{2 \pi i k \cdot x} \, d k
+  \end{aligned}
+$$
+
+in the sense that for every [[function with rapidly decreasing partial derivatives]] $f \in \mathcal{S}(\mathbb{R}^n)$ we have
+
+$$
+  \begin{aligned}
+    f(x)
+    & =
+    \underset{y \in \mathbb{R}^n}{\int}
+    f(y) \delta(y-x)  \, dvol(y)
+    \\
+    & =
+    \underset{y \in \mathbb{R}^n}{\int}
+    \underset{k \in \mathbb{R}^n}{\int}
+    f(y) e^{2 \pi i k \cdot (y-x)}
+    \, dvol(k)\, dvol(y)
+    \\
+    & =
+    \underset{k \in \mathbb{R}^n}{\int}
+    e^{- 2 \pi i k \cdot x}
+    \underset{= (-1)^n\widehat{f}(-k)}{
+    \underbrace{
+      \underset{y \in \mathbb{R}^n}{\int}
+      f(y) e^{2 \pi i k \cdot y}
+      \, dvol(y)
+    }  
+    }
+    \, dvol(k)
+    \\
+    & = 
+    \widehat{\widehat{f}}(-x)
+  \end{aligned}
+$$
+
+which is just the statement of the [[Fourier inversion theorem]] for smooth functions ([this prop.](Fourier+transform#FourierInversion)).
 
 =--
+
+
 
 ### Relation to point-supported distributions
 
