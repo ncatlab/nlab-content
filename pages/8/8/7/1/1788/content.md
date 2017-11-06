@@ -1,15 +1,21 @@
-   $$
-     f^\ast \circ g^\ast
-     =
-     (g \circ f)^\ast
-     \phantom{AAAAAA}
-     \array{
-       && X(\mathbb{R}^{n_2})
-       \\
-       & {}^{\mathllap{f^\ast}}\swarrow && \nwarrow^{\mathrlap{g^\ast}}
-       \\
-       X(\mathbb{R}^{n_1})
-       && \underset{ (g \circ f)^\ast }{\longleftarrow} &&
-       X(\mathbb{R}^{n_3})
-     }
-   $$
+
+
+
+$$
+  \widehat {\delta}(k)
+  \;=\;
+  =
+  \int_{x \in \mathbb{R}} \delta(x) e^{- 2\pi i k x} \, d x
+  =
+  1
+$$
+
+$$
+  \delta(x)
+  =
+  \widehat{\widehat{\delta}}(-x)
+  =
+  \int_{k \in \mathbb{R}} e^{2 \pi i k x} \, d k
+$$
+
+
