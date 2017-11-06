@@ -6,6 +6,10 @@
 +--{: .hide}
 [[!include functional analysis - contents]]
 =--
+#### Harmonic analysis
++-- {: .hide}
+[[!include harmonic analysis - contents]]
+=--
 =--
 =--
 
