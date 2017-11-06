@@ -29,6 +29,8 @@ Other divergences occcur in the [[limit of a sequence|limit]] that the spactime 
 
 * [[renormalization]]
 
+* [[microlocal analysis]]
+
 ## References
 
 See also 
