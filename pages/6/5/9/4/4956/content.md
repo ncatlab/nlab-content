@@ -177,7 +177,7 @@ $$
 We discussion of [[differential 1-forms]] are functions on the space of infinitesimal paths. For more comprehensive such discussion see ([Stel 13](#Stel13)).
 
 Define the [[smooth locus]] $\mathbb{R}^{(\Delta^1_{inf})}$ as the [[product]] $\mathbb{R} \times D$ of the [[real line]] with the first order [[infinitesimal space|infinitesimal line segment]].
-We think of this as the space of **infinitesimal paths** in $\mathbb{R}$ (see <a href="http://nlab.mathforge.org/nlab/show/infinitesimal%20object#SpacOfInfSimpl">Spaces of infinitesimal k-simplicies</a> ). We do so by thinking of a [[generalized element]] of $\mathbb{R}^{(\Delta^1_{inf})}$ in the category $SmoothLoc$, namely a pair $(x, \epsilon) \in \mathbb{R} \times D$, as the linear path in $\mathbb{R}$ stretching from $x$ to $x + \epsilon$ (both regarded as [[generalized element]]s of $\mathbb{R}$).
+We think of this as the space of **infinitesimal paths** in $\mathbb{R}$ (see [Spaces of infinitesimal k-simplicies](infinitesimal+object#SpacOfInfSimpl)). We do so by thinking of a [[generalized element]] of $\mathbb{R}^{(\Delta^1_{inf})}$ in the category $SmoothLoc$, namely a pair $(x, \epsilon) \in \mathbb{R} \times D$, as the linear path in $\mathbb{R}$ stretching from $x$ to $x + \epsilon$ (both regarded as [[generalized element]]s of $\mathbb{R}$).
 
 We say a **smooth [[differential form|differential 1-form]]** on $\mathbb{R}$ is a function (meaning: a [[morphism]] in $SmoothLoc$)
 
