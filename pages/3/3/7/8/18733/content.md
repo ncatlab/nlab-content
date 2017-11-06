@@ -1,6 +1,10 @@
 
 **[[harmonic analysis]]**
 
+* [[wave]], [[plane wave]]
+
+* [[wave vector]], [[wavelength]]
+
 [[Fourier analysis]]
 
 * [[Schwartz space]] of [[functions with rapidly decreasing partial derivatives]]
@@ -14,6 +18,8 @@
 * [[Fourier inversion theorem]]
 
 * [[Parseval's theorem]]
+
+* [[Paley-Wiener-Schwartz theorem]]
 
 **[[sampling theory]]**
 
