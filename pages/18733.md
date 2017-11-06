@@ -1,9 +1,11 @@
 
 **[[harmonic analysis]]**
 
-* [[wave]], [[plane wave]]
+* [[wave]]
 
-* [[wave vector]], [[wavelength]]
+* [[plane wave]]
+
+  [[wave vector]], [[wavelength]], [[frequency]]
 
 [[Fourier analysis]]
 
