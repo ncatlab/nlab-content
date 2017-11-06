@@ -124,6 +124,8 @@ A __[[logarithm]]__ is a [[local section]] of an exponential map.
 
 ## Related concepts
 
+* [[pane wave]]
+
 * [[flow of a vector field]]
 
 * [[Euler number]], [[e]]
