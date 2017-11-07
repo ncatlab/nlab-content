@@ -17,7 +17,9 @@ In [[constructive mathematics]], a [[strongly extensional function]] between set
 
 * [[monomorphism]]
 
+* [[embedding]]
 
+* [[monomorphism in an (infinity,1)-category]]
 
 [[!redirects injective function]]
 [[!redirects strongly injective function]]
@@ -30,3 +32,6 @@ In [[constructive mathematics]], a [[strongly extensional function]] between set
 
 [[!redirects injective map]]
 [[!redirects injective maps]]
+
+[[!redirects inclusion]]
+[[!redirects inclusions]]
