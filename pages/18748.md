@@ -75,7 +75,7 @@ J. Lelong-Ferrand defines the direction of an affine subspace of an affine space
 ###### Example
 **([[wave front set|wave fronts]])
 
-In [[microlocal analysis]] the _[[wave front set]]_ or a [[distribution]] records the direction of all those [[wave vectors]] along which the [[Fourier transform of distributions|Fourier transform of the distribution]] is not a [[rapidly decaying function]].
+In [[microlocal analysis]] the _[[wave front set]]_ of a [[distribution]] records the direction (def. \ref{DirectionOfAVector}) of all those [[wave vectors]] along which, locally, the [[Fourier transform of distributions|Fourier transform of the distribution]] is not a [[rapidly decaying function]].
 
 =--
 
