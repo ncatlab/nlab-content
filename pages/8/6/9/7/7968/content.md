@@ -287,6 +287,8 @@ $$
 
 ## Related concepts
 
+* [[Compton wavelength]]
+
 * [[theory (physics)]]
 
 * [[quantization]]
