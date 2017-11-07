@@ -3,12 +3,12 @@
 +-- {: .num_prop}
 ###### Proposition
 
+The general linear observable on the [[on-shell]] [[space of field histories]] of the [[free field theory|free]] [[real scalar field]] of [[mass]] $m \in \mathbb{R}_{\geq 0}$ is, under the identification ... the [[compactly supported distribution]]
 
-The general solution to the [[Klein-Gordon equation]] is of the form
 
 $$
   \label{FourierModeExpansionOfScalarFieldOnminkowskiSpacetime}
-  \Phi(x)
+  \mathbf{\Phi}(x)
   =
   \underset{\vec k \in \mathbb{R}^p}{\int}
       \left(
@@ -19,9 +19,9 @@ $$
     \frac{d^p \vec k}{
       (2\pi)^n \sqrt{ 2\omega(\vec k)/c }
     }
-    \,.
 $$
 
+which is the [[Fourier transform of distributions|Fourier transform]] of any 
 
 =--
 
