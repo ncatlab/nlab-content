@@ -46,6 +46,10 @@ $$
 
 is called the _angular frequency_.
 
+
+[[!include plane waves -- table]]
+
+
 ## Related concepts
 
 * [[wavelength]]
