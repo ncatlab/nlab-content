@@ -394,6 +394,8 @@ Distributions can be alternatively described using [[nonstandard analysis]], see
 
 * [[scaling degree of a distribution]]
 
+* [[product of a distribution with a smooth function]]
+
 * [[derivative of a distribution]]
 
 * [[extension of distributions]]
