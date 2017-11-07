@@ -1,13 +1,17 @@
 
 **[[harmonic analysis]]**
 
-* [[wave]]
+**[[waves]]**
 
 * [[plane wave]]
 
-  [[wave vector]], [[wavelength]], [[frequency]]
+  [[wave vector]], [[wavelength]], [[wave number]]
+
+  [[frequency]]
 
   [[amplitude]]
+
+  [[dispersion relation]]
 
 [[Fourier analysis]]
 
