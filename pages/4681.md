@@ -56,6 +56,8 @@ In [[operator theory]], one sometimes distinguishes 'linear maps' (defined every
 
 * [[linear subspace]]
 
+* [[linear differential equation]]
+
 [[!redirects linear map]]
 [[!redirects linear maps]]
 [[!redirects linear mapping]]
