@@ -53,6 +53,9 @@ $$
 is called the _[[frequency]]_ of the corresponding [[plane wave]] (in the chosen [[coordinate system]]); this $\omega = 2 \pi \vu$ is the _[[angular frequency]]_.
 
 
+[[!include plane waves -- table]]
+
+
 ## Related concepts
 
 * [[plane wave]]
