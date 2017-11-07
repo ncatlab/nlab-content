@@ -410,6 +410,8 @@ $$
 
 =--
 
+Hence the [[wave front set]] of a compactly supported distribution consists of all those [[direction of a vector|directions]] of [[wave vectors]] along which the [[Fourier transform of distributions|Fourier transform of the distribution]] is not a [[rapidly decreasing function]].
+
 By prop. \ref{DecayPropertyOfFourierTransformOfCompactlySupportedFunctions} the [[singular support of a distribution]] (def. \ref{SingularSupportOfCompactlySupportedDistribution}) consists of those points around which the [[Fourier transform of distributions|Fourier transform of the distribution]] receives large high-[[frequency]] ("UV") contributions. But in fact prop. \ref{DecayPropertyOfFourierTransformOfCompactlySupportedFunctions} allows to say more precisely _which_ high frequency Fourier modes make the distribution singular at a given point. These are said to be part of the _wave front_ of the distribution, and the collection of all of them is called the _[[wave front set]]_ of the distribution:
 
 
