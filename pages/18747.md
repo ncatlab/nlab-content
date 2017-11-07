@@ -17,7 +17,7 @@
 
 ## Idea
 
-A _wave vector_ is a [[vector]] that encodes [[wavelength]] and direction of a _[[plane wave]]_.
+A _wave vector_ is a [[vector]] that encodes [[wavelength]] and [[direction of a vector|direction]] of a _[[plane wave]]_.
 
 ## Definition
 
