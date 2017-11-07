@@ -255,7 +255,7 @@ $$ A^* \cong A^* \otimes \top \xrightarrow{i} A^* \otimes (A \parr A^*) \xrighta
 
 A symmetric linearly distributive category is (symmetric) [[star-autonomous category|star-autonomous]] if and only if all objects have duals in this sense.  The same is true in the non-symmetric case if we require both left and right duals.
 
-This notion of duality generalizes to that of [[linear adjoints]] in a [[linear bicategory]].
+This notion of duality generalizes to that of [[linear adjoints]] in a [[linear bicategory]], and also to dual objects in a [[polycategory]].
 
 
 ## Related concepts
