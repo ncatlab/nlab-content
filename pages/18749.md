@@ -43,13 +43,11 @@ $$
 
 is called the _[[frequency]]_ of the wave (in this chosen [[coordinate system]]). If in this situation the [[wave vector]]  satisfies $k_\mu k^\mu = 0$, then the plane wave is a solution to the [[wave equation]] on Minkowski spacetime. If more generally it satisfies $k_\mu k^\mu + m^2 = 0$ for some $m^2 \in \mathbb{R}$, the it is a solution to the [[Klein-Gordon equation]] on Minkowski spacetime.
 
+[[!include plane waves -- table]]
+
 ## Related concepts
 
 * [[wave]]
-
-* [[wave vector]]
-
-* [[wavelength]], [[frequency]]
 
 * [[Fourier transform]]
 
