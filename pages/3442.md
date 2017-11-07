@@ -159,7 +159,9 @@ In this diagram now
 
 * [[differentiation]], [[differential calculus]]
 
-* [[ordinary differential equation]]
+* [[ordinary differential equation]], [[partial differential equation]]
+
+* [[linear differential equation]]
 
 * [[integrable differential equation]],  [[formally integrable differential equation]]
 
