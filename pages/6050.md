@@ -76,7 +76,7 @@ The [[bicharacteristic strips]] of the Klein-Gordon operator are [[cotangent vec
 * {#Ginoux08} [[Nicolas Ginoux]], _Linear wave equations_,  Ch. 3 in [[Christian Bär]], [[Klaus Fredenhagen]], _Quantum Field Theory on Curved Spacetimes: Concepts and Methods_, Lecture Notes in Physics, Vol. 786, Springer, 2009 
 
 
-* [[Sergiu Klainerman]], part III of _Lecture notes in analysis_, 2011 ([pdf](https://web.math.princeton.edu/~seri/homepage/courses/Analysis2011.pdf))
+* [[Sergiu Klainerman]], chapter 4, section 3 of _Lecture notes in analysis_, 2011 ([pdf](https://web.math.princeton.edu/~seri/homepage/courses/Analysis2011.pdf))
 
 
 [[!redirects wave equations]]
