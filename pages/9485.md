@@ -36,6 +36,8 @@ $$
 
 The quotient $k/{\vert k \vert} \in S(\mathbb{R}^n)$ is the _[[direction of a vector|direction]]_ of the [[plane wave]].
 
+The product $2\pi/\lambda$ is also called the _wave number_.
+
 ## Related concepts
 
 * [[wave vector]]
@@ -53,3 +55,10 @@ The quotient $k/{\vert k \vert} \in S(\mathbb{R}^n)$ is the _[[direction of a ve
 [[!redirects wave length]]
 [[!redirects wave-lengths]]
 [[!redirects wave lengths]]
+
+[[!redirects wave number]]
+[[!redirects wave numbers]]
+
+[[!redirects wavenumber]]
+[[!redirects wavenumbers]]
+
