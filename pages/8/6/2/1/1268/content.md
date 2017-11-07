@@ -82,6 +82,8 @@ For the moment see at _[[Harish Chandra transform]]_.
 
 * [[arithmetic D-module]]
 
+* [[linear differential equation]]
+
 * [[D-geometry]]
 
 * [[D-scheme]]
