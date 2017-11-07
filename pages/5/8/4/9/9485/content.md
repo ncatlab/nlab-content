@@ -38,6 +38,10 @@ The quotient $k/{\vert k \vert} \in S(\mathbb{R}^n)$ is the _[[direction of a ve
 
 The product $2\pi/\lambda$ is also called the _wave number_.
 
+
+[[!include plane waves -- table]]
+
+
 ## Examples
 
 * [[Compton wavelength]]
