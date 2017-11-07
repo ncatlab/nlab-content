@@ -20,7 +20,7 @@
 
 ## Idea
 
-For $(X,g)$ a [[pseudo-Riemannian manifold]] and $\Box : C^\infty(X) \to C^\infty(X)$ its [[Laplace operator]], the **wave equation** on $X$ is the [[differential equation]]
+For $(X,g)$ a [[pseudo-Riemannian manifold]] and $\Box : C^\infty(X) \to C^\infty(X)$ its [[Laplace operator]], the **wave equation** on $X$ is the [[linear differential equation|linear]] [[differential equation]]
 
 $$
   \Box_g f = 0
