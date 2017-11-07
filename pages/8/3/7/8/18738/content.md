@@ -25,6 +25,8 @@ For Fourier transform over [[Cartesian spaces]] see e.g. [H&#246;rmander 90, the
 
 * [[Fourier inversion theorem]]
 
+* [[Paley-Wiener-Schwartz theorem]]
+
 ## References
 
 For Fourier transform over [[Cartesian spaces]]:
