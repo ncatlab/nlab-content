@@ -34,6 +34,7 @@ Springer, Heidelberg (2011)
 * [[Aarne Ranta]], Type-theoretical grammar. Oxford University Press (1994)
 * Sundholm, G.: Proof theory and meaning. In: Gabbay, D., Guenthner, F. (eds.) Handbook of Philosophical Logic, vol. 3, pp. 471&#8211;506. Springer (1986)
 * Tanaka, R., Mineshima, K., Bekki, D.: Resolving modal anaphora in Dependent Type Semantics. In: Proceedings of LENLS11. pp. 43&#8211;56 (2014), [Springer](http://link.springer.com/chapter/10.1007%2F978-3-662-48119-6_7).
+* Bahramian, H., Nematollahi, N., Sabry, A.: Copredication in Homotopy Type Theory, [pdf](https://www.researchgate.net/publication/320704539_Copredication_in_homotopy_type_theory)
 
 A worked example, [[homotopy type theory]] in the [[Grammatical Framework]] 
 
