@@ -30,7 +30,7 @@ Specifically, it models
 
 If instead of restricting to Minkowski space, spacetime is allowed to be an arbitrary [[pseudo-Riemannian manifold]] one speaks of the resulting framework as the theory of _[[general relativity]]_.
 
-Mathematically, special relativity is essentially the theory of [[Minkowski space]] as a [[pseudo-Riemannian manifold]], hence equipped with the constant [[metric]] [[tensor]] which at each point is the [[bilinear form]] with [[signature of a quadratic form|signature]] $(-,+, \cdots, +)$ or else $(+,-,\cdots, -)$ (depending on convention). The null-vectors in this metric characterize the speed of [[light]]. The linear [[isometries]] of this metric are the [[Lorentz transformations]] and the fact that with the Minkowski metric these also preserve, hence, null rays is the mathematical model for the famous [[phenomenology|phenomenological]] observation that "the speed of light is the same in all reference systems".
+Mathematically, special relativity is essentially the theory of [[Minkowski space]] as a [[pseudo-Riemannian manifold]], hence equipped with the constant [[metric]] [[tensor]] which at each point is the [[bilinear form]] with [[signature of a quadratic form|signature]] $(-,+, \cdots, +)$ or else $(+,-,\cdots, -)$ (depending on convention). The null-vectors in this metric characterize the [[speed of light]]. The linear [[isometries]] of this metric are the [[Lorentz transformations]] and the fact that with the Minkowski metric these also preserve, hence, null rays is the mathematical model for the famous [[phenomenology|phenomenological]] observation that "the speed of light is the same in all reference systems".
 
 ## Related concepts
 
