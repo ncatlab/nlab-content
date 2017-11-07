@@ -182,12 +182,12 @@ The inconsistency of this product is detected by the [[wave front sets]] as foll
 
 +-- {: .num_defn #ProductOfADistributionWithANonSingularDistribution}
 ###### Definition
-**(product of a [[distribution]] with a [[non-singular distributions]])**
+**(product of a [[distribution]] with a [[non-singular distributions]] is [[product of a distribution with a smooth function]])**
 
-The [[wave front set]] of a [[non-singular distribution]], hence of a genuine [[smooth function]] $f$, is [[empty]] ([this prop.](Paley-Wiener-Schwartz+theorem#DecayPropertyOfFourierTransformOfCompactlySupportedFunctions)). Therefore the product of distributions (def. \ref{ProductOfDistributions}) of a [[non-singular distribution]] with any distribution $u$ is defined, and given by the product of distributions with smooth functions:
+The [[wave front set]] of a [[non-singular distribution]] $u_f$ corresponding to a [[smooth function]] $f \in C^\infty(\mathbb{R}^n)$, is [[empty]] ([this prop.](Paley-Wiener-Schwartz+theorem#DecayPropertyOfFourierTransformOfCompactlySupportedFunctions)). Therefore the product of distributions (def. \ref{ProductOfDistributions}) of a [[non-singular distribution]] with any distribution $u$ is defined, and given by the [[product of distributions with smooth functions]]:
 
 $$
-  f \cdot u = u(f\cdot (-))
+  u_f \cdot u = f \cdot u = u(f\cdot (-))
   \,.
 $$
 
@@ -196,6 +196,8 @@ $$
 
 
 ## Related concepts
+
+* [[product of a distribution with a smooth function]]
 
 * [[convolution product of distributions]]
 
