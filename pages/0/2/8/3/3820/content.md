@@ -417,7 +417,7 @@ _Multisymplectic structures and the variational bicomplex_
 
 ### Original articles on covariant phase space technology
 
-In the following we give a commented list of references following the hostorical development.
+In the following we give a commented list of references following the historical development.
 
 It seems that there have been two independent lines of development,
 somewhat independent of each other, but also with some
