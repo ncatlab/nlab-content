@@ -18,15 +18,31 @@
 
 
 ## Idea
+ {#Idea}
 
-A _Fourier transformation_ is an [[isomorphism]] between the algebra of [[complex numbers|complex]]-valued [[functions]] on a suitable [[topological group]] and a [[convolution product]]-algebra structure on the [[Pontrjagin dual]] group.
+### Basic idea
 
-The study of the Fourier transform is the main subject of [[Fourier analysis]] and, together with its generalizations like [[wavelet transform]], of [[harmonic analysis]]. Regarding that, with an appropriate choice of functional spaces, the Fourier transform has an inverse, each function can be represented as a Fourier inverse of some function, which amounts to a decomposition into an integral over a Haar measure along some basis. Thus the function gets *analysed* into *harmomics*.
+Generally, a _Fourier transform_ is an [[isomorphism]] between the algebra of [[complex numbers|complex]]-valued [[functions]] on a suitable [[topological group]] and a [[convolution product]]-algebra structure on the [[Pontrjagin dual]] group.
+The study of Fourier transforms is also called _Fourier analysis_.
 
-For noncommutative topological groups, instead of continuous characters one should consider [[irreducible representation|irreducible]] unitary [[representation]]s, which makes the subject much more difficult. There are also generalizations in [[noncommutative geometry]], see [[quantum group Fourier transform]].
+Typically, such as in the case over [[Cartesian space]] (def. \ref{FourierTransformSmoothFunctionsWithRapidlyDecayingDerivativesOnCartesianSpace} below) this means to decompose
+any suitable [[function]] as a [[superposition]] of _[[complex number|complex]] [[plane waves]]_, which may be thought of as the 
+"harmonics" of the given function. Therefore one speaks of _[[harmonic analysis]]_. 
+
+### Generalizations
+
+The concept of Fourier transforms of functions generalizes in a variety of ways. Core part of the subject of Fourier analysis
+is the generalization to _[[Fourier transform of distributions]]_ (def. \ref{FourierTransformOnTemperedDistributions} below).
+The asymptotic growth of the [[Fourier transform of distributions]] reflects the singularity structure of the distributions,
+in dependence of the [[direction of a vector|direction]] of the [[wave vector]] (the "[[wave front set]]"). The study of this behaviour is called _[[microlocal analysis]]_.
+
+If the role of complex [[plane waves]] in the Fourier transform are replaced by [[wavelets]], one speaks of the _[[wavelet transform]]_.
+
+For [[noncommutative topology|noncommutative topological]] groups, instead of continuous characters one should consider [[irreducible representation|irreducible]]  [[unitary representations]], which makes the subject much more difficult. There are also generalizations in [[noncommutative geometry]], see _[[quantum group Fourier transform]]_.
 
 
-## Definition
+
+## General definition
 
 
 Let $G$ be a [[locally compact space|locally compact]] [[Hausdorff topological space|Hausdorff]] [[abelian group|abelian]] [[topological group]] with [[Haar measure|invariant (= Haar) measure]] $\mu$. Then for each $f\in L_1(G,\mu)$, define its __Fourier transform__ $\hat{f}$ as a function on its [[Pontrjagin dual]] group $\hat{G}$ given by
@@ -39,9 +55,8 @@ $$
 The Fourier transform of $f\in L_1(G,\mu)$ is always continuous and bounded on $\hat{G}$; the transform of the [[convolution]] of two functions is the product of the transforms of each of the functions separately.
 
 
-## Examples
 
-### Over the circle and the integers
+## Over the circle and the integers
 
 In the classical case of __Fourier series__, where $G=\mathbb{Z}$ (the additive group of [[integers]]) and $\hat{G}=S^1$ (the [[circle group]]), the Fourier transform restricts to a unitary operator between the [[Hilbert spaces]] $L_2(S^1,d t)$ and $l_2(\mathbb{Z})$ and the Fourier coefficients are the numbers
 
@@ -49,16 +64,17 @@ $$c_n := \hat{f}(\chi_n) = \int_0^1 f(t) e^{-2\pi i n t} d t,$$
 
 for $n\in\mathbb{Z}$, where the functions $\chi_n(t)= e^{2\pi i n t}$ form an orthonormal basis of $L_2(S^1,d t)$. The Fourier transform $\hat{\chi_n}$ is then viewed as the  $\mathbb{Z}$-series $\delta_n$ which in the $n$-th place has $1$ and elsewhere $0$. The Fourier transform replaces the operator of differentiation $d/d t$ by the operator of multiplication by the series $\{2\pi i n\}_{n\in\mathbb{Z}}$.
 
-### Over compact abelian groups and discrete groups
+
+## Over compact abelian groups and discrete groups
 
 In general, if $G$ is a [[compact space|compact]] abelian group (whose [[Pontrjagin dual]] is [[discrete group|discrete]]), one can normalize the invariant measure by $\mu(G)=1$ and $\hat{\mu}(X)=card(X)$ for $X\subset\hat{G}$. Then the Fourier transform restricts to a unitary operator from $L_2(X,\mu)$ to $L_2(\hat{G},\hat{\mu})$.
 
 
-### Over cyclic groups (the discretized circle)
+## Over cyclic groups (the discretized circle)
 
 * [[discrete Fourier transform]]
 
-### Over Cartesian spaces
+## Over Cartesian spaces
  {#FourierTransformOnCartesianSpaces}
 
 Throughout, let $n \in \mathbb{N}$ and write $\mathbb{R}^n$ for the [[Cartesian space]] of [[dimension]] $n$ and write $(-) \cdot (-)$ for the canonical [[inner product]] on $\mathbb{R}^n$:
@@ -198,17 +214,17 @@ $$
 on the [[Schwartz space]] of [[functions with rapidly decreasing partial derivatives]] (def. \ref{SchwartzSpace}), which is given by [[integration]] against the [[exponential function|exponential]] [[plane wave]] function
 
 $$
-  x \mapsto e^{- 2\pi i k \cdot x}
+  x \mapsto e^{- i k \cdot x}
 $$
 
-times the standard [[volume form]]:
+times the standard [[volume form]] $d^n x$:
 
 $$
   \label{IntegralExpressionForFourierTransform}
   \hat f(k)
     \;\colon\;
   \int_{x \in \mathbb{R}^n}
-    e^{-2 \pi i \, k \cdot x} f(x) \, d^n x 
+    e^{- i \, k \cdot x} f(x) \, d^n x 
   \,.
 $$
 
@@ -222,8 +238,6 @@ Here the argument $k \in \mathbb{R}^n$ of the Fourier transform is also called t
 +-- {: .num_defn #FourierInversion}
 ###### Proposition
 **([[Fourier inversion theorem]])**
-
-
 
 The [[Fourier transform]] $\widehat{(-)}$ (def. \ref{FourierTransformSmoothFunctionsWithRapidlyDecayingDerivativesOnCartesianSpace}) on the [[Schwartz space]] $\mathcal{S}(\mathbb{R}^n)$ (def. \ref{SchwartzSpace}) is an [[isomorphism]], with [[inverse function]] the _[[inverse Fourier transform]]_
 
@@ -239,12 +253,12 @@ $$
   \widecheck g (x)
     \;\coloneqq\;
    \underset{k \in \mathbb{R}^n}{\int}
-      g(k) e^{2 \pi i k \cdot x}
+      g(k) e^{i k \cdot x}
    \, \frac{d^n k}{(2\pi)^n}
    \,.
 $$
 
-Hence in the language of [harmonic analysis]] the function $\widecheck g \colon \mathbb{R}^n \to \mathbb{C}$ is the [[superposition]] of [[plane waves]] in which the plane wave with [[wave vector]] $k\in \mathbb{R}^n$
+Hence in the language of [[harmonic analysis]] the function $\widecheck g \colon \mathbb{R}^n \to \mathbb{C}$ is the [[superposition]] of [[plane waves]] in which the plane wave with [[wave vector]] $k\in \mathbb{R}^n$
 appears with [[amplitude]] $g(k)$.
 
 =--
@@ -279,16 +293,16 @@ The [[Fourier transform]] $\widehat{(-)}$ (def. \ref{FourierTransformSmoothFunct
 1. ([[unitary operator|unitarity]], [[Parseval's theorem]])
 
    $$
-     \int_{x \in \mathbb{R}^n} f(x) g^\ast(x)\, d^n x
+     \underset{x \in \mathbb{R}^n}{\int} f(x) g^\ast(x)\, d^n x
      \;=\;
-     \int_{k \in \mathbb{R}^n} \widehat{f}(k) \widehat{g}^\ast(k) \, d^n k
+     \underset{k \in \mathbb{R}^n}{\int} \widehat{f}(k) \widehat{g}^\ast(k) \, d^n k
    $$
 
 1. $$
      \label{FourierTransformInIntegralOfProductMayBeShiftedToOtherFactor}
-     \int_{k \in \mathbb{R}^n} \widehat{f}(k) \cdot g(k) \, d^n k
+     \underset{k \in \mathbb{R}^n}{\int} \widehat{f}(k) \cdot g(k) \, d^n k
      \;=\;
-     \int_{x \in \mathbb{R}^n} f(x) \cdot \widehat{g}(x) \, d^n x
+     \underset{x \in \mathbb{R}^n}{\int} f(x) \cdot \widehat{g}(x) \, d^n x
    $$
 
 =--
@@ -516,7 +530,7 @@ $$
 is simply
 
 $$
-  \widehat{u}(k) = u\left( e^{-2\pi i k \cdot (-)}\right)
+  \widehat{u}(k) = u\left( e^{-  i k \cdot (-)}\right)
   \,.
 $$
 
@@ -585,11 +599,30 @@ $$
     \,\, \frac{d^n k}{(2\pi)^n}
     \\
     & =
+    +
+    \underset{k \in \mathbb{R}^n}{\int}
+    e^{i k \cdot x}
+    \underset{= \widehat{f}(k) }{
+    \underbrace{
+      \underset{y \in \mathbb{R}^n}{\int}
+      f(y) e^{- i k \cdot y}
+      \, d^n y
+    }
+    }
+    \,\, \frac{d^n k}{(2\pi)^n}
+    \\
+    & =
     \widecheck{\widehat{f}}(x)
   \end{aligned}
 $$
 
 which is the statement of the [[Fourier inversion theorem]] for smooth functions (prop. \ref{FourierInversion}).
+
+(Here in the last step we used [[change of integration variables]] $k \mapsto -k$ which introduces one sign $(-1)^{n}$ for the new volume form,
+but another sign $(-1)^n$ from the re-[[orientation]] of the integration domain. )
+
+Equivalently, the above computation shows that the [[delta distribution]] is the [[neutral element]] for the 
+[[convolution product of distributions]].
 
 =--
 
@@ -606,12 +639,15 @@ Let $u \in \mathcal{E}'(\mathbb{R}^n) \hookrightarrow \mathcal{S}'(\mathbb{R}^n)
 ###### Proposition
 **([[Fourier inversion theorem]] for [[Fourier transform of distributions]])**
 
-The operation of forming the [[Fourier transform of distributions]] $\widehat{u}$ (def. \ref{FourierTransformOnTemperedDistributions}) [[tempered distributions]] $u \in \mathcal{S}'(\mathbb{R}^n)$ (def. \ref{TemperedDistribution}) is an [[isomorphism]]:
+The operation of forming the [[Fourier transform of distributions]] $\widehat{u}$ (def. \ref{FourierTransformOnTemperedDistributions}) [[tempered distributions]] $u \in \mathcal{S}'(\mathbb{R}^n)$ (def. \ref{TemperedDistribution}) is an [[isomorphism]], 
+with [[inverse]] given by 
 
 $$
-  \widehat{\widehat u}(\phi) = (x \mapsto \phi(-x))
-  \,.
+  \widecheck{ u } \;\colon\; g \mapsto u\left( \widecheck{g}\right)
+  \,,
 $$
+
+where on the right $\widecheck{g}$ is the ordinary [[inverse Fourier transform]] of $g$ according to prop. \ref{FourierInversion}.
 
 =--
 
@@ -623,7 +659,7 @@ this follows immediately from the [[Fourier inversion theorem]] for smooth funct
 
 =--
 
-We have the following distributional generalization of property (eq:FourierTransformInterchangesPointwiseProductWithConvolution) from prop. \ref{BasicPropertiesOfFourierTransformOverCartesianSpaces}:
+We have the following distributional generalization of the basic property (eq:FourierTransformInterchangesPointwiseProductWithConvolution) from prop. \ref{BasicPropertiesOfFourierTransformOverCartesianSpaces}:
 
 +-- {: .num_prop #FourierTransformOfDistributionsInterchangesConvolutionOfDistributionsWithPointwiseProduct}
 ###### Proposition
@@ -670,7 +706,7 @@ Prop. \ref{FourierTransformOfDistributionsInterchangesConvolutionOfDistributions
 $$
   \widehat{ u_1 \cdot u_2 }
   \;\coloneqq\;
-  \widehat{u_1} \star \widehat{u_2}
+  (2\pi)^n \widehat{u_1} \star \widehat{u_2}
 $$
 
 which would complete the generalization of of property (eq:FourierTransformInterchangesPointwiseProductWithConvolution) from prop. \ref{BasicPropertiesOfFourierTransformOverCartesianSpaces}.
@@ -700,17 +736,21 @@ For this to make sense, the [[convolution product]] of the [[smooth functions]] 
 
 * [[wavefront set]]
 
+* [[wavelet transform]]
+
 ## References
 
+Lecture notes include
 
-* {#Hoermander90} [[Lars Hörmander]], chapter 7 of _The analysis of linear partial differential operators_, vol. I, Springer 1983, 1990
-
-
-* [[Sergiu Klainerman]], chapter 5 of of _Lecture notes in analysis_, 2011 ([pdf](https://web.math.princeton.edu/~seri/homepage/courses/Analysis2011.pdf))
-
+* {#Peacock13} [[John Peacock]], _Fourier analysis_ 2013 ([part 1 pdf](http://www.roe.ac.uk/japwww/teaching/fourier/fourier_lectures_part1.pdf), [part 2 pdf](http://www.roe.ac.uk/japwww/teaching/fourier/fourier_lectures_part2.pdf), [part 3 pdf](http://www.roe.ac.uk/japwww/teaching/fourier/fourier_lectures_part3.pdf), [part 4 pdf](http://www.roe.ac.uk/japwww/teaching/fourier/fourier_lectures_part4.pdf), [part 5 pdf](http://www.roe.ac.uk/japwww/teaching/fourier/fourier_lectures_part5.pdf))
 
 * Gerald B. Folland, _A course in abstract harmonic analysis_, Studies in Advanced Mathematics. CRC Press, Boca Raton, FL, 1995. x+276 pp. [gBooks](http://books.google.com/books?hl=en&lr=&id=0VwYZI1DypUC)
 
+Discussion in the broader context of [[functional analysis]] and [[distribution]] theory:
+
+* {#Hoermander90} [[Lars Hörmander]], chapter 7 of _The analysis of linear partial differential operators_, vol. I, Springer 1983, 1990
+
+* [[Sergiu Klainerman]], chapter 5 of of _Lecture notes in analysis_, 2011 ([pdf](https://web.math.princeton.edu/~seri/homepage/courses/Analysis2011.pdf))
 
 
 category: analysis
