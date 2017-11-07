@@ -84,7 +84,9 @@ $$
 
 ## Related entries
 
-* [[Fourier transform of distributions]]
+* [[Fourier inversion theorem]]
+
+* [[Parseval's theorem]]
 
 ## References
 
