@@ -42,13 +42,15 @@ Here the [[vector]] $\vec k \in \mathbb{R}^n$ determines
 
 of the "[[plane wave]]" $\vec x \mapsto e^{2 \pi i \vec x \cdot \vec k}$.
 
+The product $2 \pi {\vert k \vert}$ is also called the _wave number_ and $2 \pi k$ then the _wave number vector_. Beware that elsewhere the wave number vector is denoted "$k$", which makes the "wave vector" become $k / 2 \pi$. (See e.g. [Wikipedia](#Wikipedia), "Physics definition" as opposed to "Crystallography definition".)
+
 If here $\mathbb{R}^n \simeq \mathbb{R}^{p,1}$ is identified with [[Minkowski spacetime]] with canonical coordinates denoted $(x^0, x^1, \cdots, x^p)$, then the 0-component of the wave vector
 
 $$
   \nu \coloneqq k_0
 $$
 
-is called the _[[frequency]]_ of the corresponding [[plane wave]] (in the chosen [[coordinate system]]).
+is called the _[[frequency]]_ of the corresponding [[plane wave]] (in the chosen [[coordinate system]]); this $\omega = 2 \pi \vu$ is the _[[angular frequency]]_.
 
 
 ## Related concepts
@@ -65,7 +67,7 @@ is called the _[[frequency]]_ of the corresponding [[plane wave]] (in the chosen
 
 See also
 
-* Wikipedia, _[Wave vector](https://en.wikipedia.org/wiki/Wave_vector)_
+* {#Wikipedia} Wikipedia, _[Wave vector](https://en.wikipedia.org/wiki/Wave_vector)_
 
 [[!redirects wave vectors]]
 
