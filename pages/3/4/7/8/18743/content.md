@@ -178,8 +178,15 @@ is asymptotically linearly increasing, due to the second term.
 
 [[!redirects rapidly decreasing functions]] 
 
+[[!redirects rapidly decaying function]]
+[[!redirects rapidly decaying functions]]
+
 [[!redirects function with rapidly decreasing partial derivatives]]
 [[!redirects functions with rapidly decreasing partial derivatives]]
+
+[[!redirects function with rapidly decaying partial derivatives]]
+[[!redirects functions with rapidly decaying partial derivatives]]
+
 
 [[!redirects Schwartz function]]
 [[!redirects Schwartz functions]]
