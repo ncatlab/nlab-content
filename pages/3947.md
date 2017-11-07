@@ -43,7 +43,7 @@ $$
   \,.
 $$ 
 
-More generally, the space of [[compactly supported distributions]] on $\mathbb{R}^n$ of [[order of a distribution|order]] $N$ is isomorphic via [[Fourier transform of distributions]] to those [[entire functions]] on $\mathbb{C}^n$ for which there exists positive [[real numbers]] $C$ and $B$ such that
+More generally, the space of [[compactly supported distributions]] on $\mathbb{R}^n$ of [[order of a distribution|order]] $N \in \mathbb{N}$ is isomorphic via [[Fourier transform of distributions]] to those [[entire functions]] on $\mathbb{C}^n$ for which there exist [[positive number|positive]] [[real numbers]] $B, C \in \mathbb{R}_{\gt 0}$ 
 
 $$ 
   \underset{\xi \in \mathbb{C}^n}{\forall} 
