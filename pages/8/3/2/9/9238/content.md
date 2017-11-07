@@ -25,7 +25,7 @@
 
 A [[field (physics)|field]] [[theory (physics)|theory]] in [[physics]] is called a _free field theory_ if it describes standard [[dynamics]] of fields without any [[interaction]]. 
 
-There is some freedom in formalizing precisely what this means. At the very least the [[equations of motion]] of a free field theory should be given by a [[differential operator]] which is [[linear differential operator]]. In [[relativistic field theory]] over a [[Lorentzian manifold|Lorentzian]] [[spacetime]] one typically requires that the linear differential equation of motion is, after [[gauge fixing]], in fact the [[wave equation]] or [[Klein-Gordon equation]].
+There is some freedom in formalizing precisely what this means. At the very least the [[equations of motion]] of a free field theory should be [[linear differential equations]]. In [[relativistic field theory]] over a [[Lorentzian manifold|Lorentzian]] [[spacetime]] one typically requires that the [[linear differential equation]] [[equation of motion|of motion]] is, after [[gauge fixing]], in fact the [[wave equation]] or [[Klein-Gordon equation]].
 
 
 ## Definition
