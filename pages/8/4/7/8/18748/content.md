@@ -47,7 +47,14 @@ The unit direction vector can be attached not only to a (direction of) a vector 
 
 J. Lelong-Ferrand defines the direction of an affine subspace of an affine space as its orbit under the action of the translation group. This agrees with the parallelness in Choquet where two affine subspaces of the same dimension are parallel if their translation group of vectors (as a subgroup of the group of vectors of translations of the entire space) is the same. 
 
+## Examples
+ {#Examples}
+
+* In [[microlocal analysis]] the _[[wave front set]]_ or a [[distribution]] records the direction of all those [[wave vectors]] along which the [[Fourier transform of distributions|Fourier transform of the distribution]] is not a [[rapidly decaying function]].
+
 ## Related concepts
+
+* [[norm]], [[length]], [[absolute value]]
 
 * [[wave vector]], [[orientation]], [[bivector]]
 
