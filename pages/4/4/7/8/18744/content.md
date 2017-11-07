@@ -114,7 +114,7 @@ Prop. \ref{FourierTransformOfDistributionsInterchangesConvolutionOfDistributions
 $$
   \widehat{ u_1 \cdot u_2 }
   \;\coloneqq\;
-  \widehat{u_1} \star \widehat{u_2}
+  (2\pi)^{-n} \widehat{u_1} \star \widehat{u_2}
   \,.
 $$
 
@@ -123,6 +123,13 @@ For this to make sense, the [[convolution product]] of the [[smooth functions]] 
 
 =--
 
+## Related concepts
+
+* [[product of a distribution with a smooth function]]
+
+* [[product of distributions]]
+
+* [[Fourier transform of distributions]]
 
 ## References
 
