@@ -204,6 +204,14 @@ This is the first stage in the [[Poisson bracket Lie n-algebra]], the _[[current
 
 ## Examples
 
+### Energy-momentum tensor
+
+* [[energy-momentum tensor]] -- see at _[[geometry of physics -- A first idea of quantum field theory]]_ [this example](geometry+of+physics+--+A+first+idea+of+quantum+field+theory#ScalarFieldEnergyMomentum)
+
+### Dirac current
+
+* [[Dirac current]] -- see at [[geometry of physics -- A first idea of quantum field theory]] [this example](geometry+of+physics+--+A+first+idea+of+quantum+field+theory#DiracCurrent)
+
 ### Of Green-Schwarz super $p$-brane sigma models
 
 The WZW term of the [[Green-Schwarz super p-brane sigma models]] is invariant under [[supersymmetry]] only up to a [[divergence]], hence here the general [[Noether theorem]] for "weak" symmetries applies and yields a current algebra which is an [polyvector extension](super+Poincare+Lie+algebra#PolyvectorExtensions) of the [[supersymmetry]] algebra. See at _[Green-Schwarz action functional -- Conserved currents](Green-Schwarz+action+functional#ConservedCurrents)_ for more.
