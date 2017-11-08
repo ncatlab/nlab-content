@@ -1,6 +1,90 @@
 $x {\color{red}\le} y$
 
 
+
++-- {: .num_example #DiracCurrent}
+###### Example
+**([[Dirac current]])**
+
+Consider the [[Lagrangian field theory]] of the [[free field theory|free]] [[Dirac field]] on [[Minkowski spacetime]] in spacetime dimension $p + 1 = 3+1$ (example \ref{LagrangianDensityForDiracField}) 
+
+$$
+  \mathbf{L} = i \overline{\psi} \gamma^\mu \psi_{,\mu} \, dvol_\Sigma
+  \,.
+$$
+
+Then the prolongation (prop. \ref{EvolutionaryVectorFieldProlongation}) of the [[evolutionary vector field]] (def. \ref{EvolutionaryVectorField})
+
+$$
+  v \;\coloneqq\; i \psi_\alpha \partial_{\psi_\alpha}
+$$
+
+is an [[infinitesimal symmetry of the Lagrangian]] (def. \ref{SymmetriesAndConservedCurrents}). The [[conserved current]] that corresponds to this under [[Noether's theorem|Noether's theorem I]] (prop. \ref{NoethersFirstTheorem}) is 
+
+$$
+  \overline{\psi} \gamma^\mu \psi \, \iota_{\partial_\mu} dvol_\Sigma
+  \;\in\;
+  \Omega^{p,0}_{\Sigma(E)}
+  \,.
+$$
+
+This is called the _[[Dirac current]]_.
+
+In fact, due to the [[supergeometry|supergeometric]] nature of the [[Dirac field]], the [[Dirac current]] is conserved even [[off-shell]], as discussed in remark \ref{LagrangianDensityOfDiracFieldSupergeometricNature}.
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+
+The prolongation (eq:ProlongationOfEvolutionaryVectorFieldExplicit) of $v$ is 
+
+$$
+  \hat v 
+    = 
+  i \psi_\alpha \partial_{\psi_\alpha}
+    +
+  i \psi_{\alpha,\mu} \partial_{\psi_{\alpha,\mu}}
+    + 
+   \cdots
+  \,.
+$$
+
+Therefore
+
+$$
+  \begin{aligned}
+    \mathcal{L}_v \left( 
+      i \overline{\psi} \gamma^\mu \psi_{,\mu}
+    \right) 
+    dvol_\Sigma
+    & =
+    \underset{
+      = i \cdot (-i) \overline{\psi} \gamma^\mu \psi_{,\mu}
+    }{
+    \underbrace{
+      i \overline{i \psi} \gamma^\mu \psi_{,\mu}
+    }
+    }
+    dvol_\Sigma
+    +  
+    \underset{
+      i \cdot i \overline{\psi} \gamma^\mu \psi_{,\mu}
+    }{   
+    \underbrace{
+      i \overline{\psi} \gamma^\mu (i \psi_{,\mu})
+    }
+    }
+    dvol_\Sigma
+    \\ & =
+    0
+  \end{aligned}
+$$
+
+=--
+
 Let 
 
 $$
