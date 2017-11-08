@@ -26,7 +26,7 @@ A **Freyd category** (following [Levy 04](#Levy04)) may be defined as
 * a [[category]] $\mathbb{V}$ with [[finite products]];
 * a category $\mathbb{C}$, that has the same objects as $\mathbb{V}$[^sameObjs];
 * an [[action]] of $\mathbb{V}$ on $\mathbb{C}$ (with the finite products providing a [[symmetric monoidal category|symmetric monoidal structure]] for $\mathbb{V}$)
-* an [[identity-on-objects functor]] $\mathbb{V} \to \mathbb{C}$ that preserves the actions.
+* an [[identity-on-objects functor]] $J: \mathbb{V} \to \mathbb{C}$ that preserves the actions.
 
 [^sameObjs]: Having the same objects is required or implied by having an identity-on-objects functor from $\mathbb{V}$ to $\mathbb{C}$.
 
@@ -36,7 +36,7 @@ A Freyd category is given by
 
 * a category $\mathbb{V}$ with finite products;
 * a symmetric [[premonoidal category]] $\mathbb{C}$, that has the same objects as $\mathbb{V}$;
-* an identity-on-objects functor $\mathbb{V} \to \mathbb{C}$ preserving strict symmetric premonoidal structure, whose image lies in the centre of $\mathbb{C}$. 
+* an identity-on-objects functor $J: \mathbb{V} \to \mathbb{C}$ preserving strict symmetric premonoidal structure, whose image lies in the centre of $\mathbb{C}$. 
 
 ## Properties
 
