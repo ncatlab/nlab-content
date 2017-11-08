@@ -5,7 +5,7 @@
 
 ## Definition
 
-In [[algebra]], a __Dedekind domain__ is an [[integral domain]] in which every non-[[zero ideal|zero]] [[proper ideal]] factors into a [[product of ideals|product]] of [[prime ideal]]s.
+In [[algebra]], a __Dedekind domain__ is an [[integral domain]] in which every non-[[zero ideal|zero]] [[proper ideal]] factors into a [[product of ideals|product]] of [[prime ideals]].
 
 
 ## Examples
