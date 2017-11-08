@@ -17,7 +17,7 @@
 
 ## Idea
 
-The [[speed]] of [[light]].
+The [[speed]] of [[light]]; a [[physical unit]].
 
 ## Related concepts
 
