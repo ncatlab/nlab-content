@@ -37,10 +37,6 @@ For the moment see _[here](Majorana+spinor#DiracAndWeylRepresentations)_.
 
 * [[Weyl spinor]], [[Majorana spinor]]
 
-[[!redirects Weyl spinor]]
-[[!redirects Weyl spinors]]
-[[!redirects Weyl representation]]
-[[!redirects Weyl representations]]
 
 [[!redirects Dirac spinor]]
 [[!redirects Dirac spinors]]
@@ -48,7 +44,3 @@ For the moment see _[here](Majorana+spinor#DiracAndWeylRepresentations)_.
 [[!redirects Dirac representations]]
 
 
-[[!redirects chiral spinor]]
-[[!redirects chiral spinors]]
-[[!redirects chiral spin representation]]
-[[!redirects chiral spin representations]]
