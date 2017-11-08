@@ -2059,11 +2059,11 @@ To that end, fix the following notation and terminology:
 Let $\mathbb{K}$ be one of the four real [[normed division algebras]] from prop. \ref{HurwitzTheorem}, hence equivalently one of the four
 real [[alternative algebra|alternative]] [[division algebras]] from prop. \ref{ZornTheorem}.
 
-Say that an $n \times n$ [[matrix]] with [[coefficients]] in $\mathbb{K}$ 
+Say that an $n \times n$ [[matrix]] with [[coefficients]] in $\mathbb{K}$
 
 $$
   A\in Mat_{n\times n}(\mathbb{K})
-$$ 
+$$
 
 is a _[[hermitian matrix]]_ if the [[transpose matrix]] $(A^t)_{i j} \coloneqq A_{j i}$ equals the componentwise [[complex conjugation|conjugated]] matrix (def. \ref{Conjugation}):
 
@@ -3058,7 +3058,7 @@ $$
   \overline{(-)}\Gamma (-) \;\colon\; S_\pm \otimes S_{\pm}\longrightarrow \mathbb{R}^{dim(\mathbb{K}+1,1)}
 $$
 
-given, respectively, by forming the real part of the canonical $\mathbb{K}$-[[inner product]]
+given, respectively, by forming the [[real part]] (def. \ref{Conjugation}) of the canonical $\mathbb{K}$-[[inner product]]
 
 $$
   \overline{(-)}(-) \colon S_+\otimes S_- \longrightarrow \mathbb{R}
@@ -3071,7 +3071,7 @@ and by forming the product of a column vector with a row vector to produce a mat
 under the identification $\mathbb{R}^{dim(\mathbb{K})+1,1} \simeq Mat^{her}_{2 \times 2}(\mathbb{K})$ from prop. \ref{SpacetimeAsMatrices}:
 
 $$
-  S_+ \otimes S_+ \longrightarrow V
+  S_+ \otimes S_+ \longrightarrow \mathbb{R}^{dim(\mathbb{K})+1,1}
 $$
 $$
   (\psi , \phi) \mapsto \overline{\psi}\Gamma \phi \coloneqq
@@ -3081,7 +3081,7 @@ $$
 and
 
 $$
-  S_- \otimes S_- \longrightarrow V
+  S_- \otimes S_- \longrightarrow \mathbb{R}^{dim(\mathbb{K}+1,1)}
 $$
 $$
   (\psi , \phi) \mapsto {\psi \phi^\dagger + \phi \psi^\dagger}
@@ -6161,7 +6161,7 @@ Similarly, in direct generalization of prop. \ref{CartSpYpnedaLemma} we have:
 ###### Proposition
 **(plots of a [[super formal smooth set|super smooth set]] really are the [[smooth functions]] into the smooth smooth set)**
 
-Let $X$ be a [[super formal smooth set|super smooth set]] (def. \ref{SuperFormalSmoothSet}). 
+Let $X$ be a [[super formal smooth set|super smooth set]] (def. \ref{SuperFormalSmoothSet}).
 For $\mathbb{R}^n \times \mathbb{D}$ any [[super Cartesian space]] (def. \ref{SuperCartesianSpace})
 there is a [[natural transformation|natural]] [[function]]
 
@@ -6662,7 +6662,7 @@ $\,$
 ## Field variations
  {#FieldVariations}
 
-Given a [[field bundle]] as in def. \ref{Fields} above, then we know what [[type]] of quantities the corresponding 
+Given a [[field bundle]] as in def. \ref{Fields} above, then we know what [[type]] of quantities the corresponding
 [[field histories]] assign to a given spacetime point (a given [[event]]). Among all consistent such field configurations, some are to qualify as those that "may occur in reality" if we think of the field theory as a means to describe parts of the [[observable universe]]. Moreover, if the reality to be described does not exhibit "action at a distance" then admissibility of its field configurations should be determined over arbitrary small spacetime regions, in fact over the [[infinitesimal neighbourhood]] of any spacetime point (remark \ref{JetBundleInTermsOfSyntheticDifferentialGeometry} below). This means equivalently that the realized field configurations should be those that satisfy a given _[[differential equation]]_, hence an [[equation]] between the value of the [[partial derivatives]] of the field history at any spacetime point.
 
 In order to formalize this, it is useful to first collect all the possible derivatives that a field may have at any given point into one big space of "field derivatives at spacetime points". This collection is called the _[[jet bundle]]_ of the [[field bundle]], given as def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime} below.
@@ -7404,16 +7404,16 @@ we have the following:
 
 =--
 
-The following propositions are less trivial properties of variational differential forms:
+The following are less trivial properties of variational differential forms:
 
 +-- {: .num_prop #PullbackAlongJetProlongationIntertwinesHorizontalDerivative}
 ###### Proposition
 **([[pullback of differential forms|pullback]] along [[jet prolongation]] compatible with [[total derivative|total spacetime derivatives]])**
 
 Let $E \overset{fb}{\to} \Sigma$ be a [[field bundle]] over a [[spacetime]] $\Sigma$ (def. \ref{Fields}),
-with induced [[jet bundle]] $J^\infty_\Sigma(E)$
+with induced [[jet bundle]] $J^\infty_\Sigma(E)$ (def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}).
 
-Then for $\Phi \in \Gamma_\Sigma(E)$ any field configuration, the [[pullback of differential forms]]
+Then for $\Phi \in \Gamma_\Sigma(E)$ any field configuration, the [[pullback of differential forms]] (def. \ref{PullbackOfDifferentialForms})
 
 $$
   j^\infty_\Sigma(\Phi)^\ast
@@ -7423,9 +7423,9 @@ $$
   \Omega^\bullet(\Sigma)
 $$
 
-along the [[jet prolongation]] of $\Phi$ (def. \ref{JetProlongation}):
+along the [[jet prolongation]] of $\Phi$ (def. \ref{JetProlongation})
 
-1. intertwines the [[de Rham differential]] on [[spacetime]] with the [[total derivative|total]] spacetime derivative ([[horizontal derivative]]) on the [[jet bundle]]:
+1. intertwines the [[de Rham differential]] on [[spacetime]] (def. \ref{Differential1FormsOnCartesianSpaces}) with the [[total spacetime derivative]] ([[horizontal derivative]]) on the [[jet bundle]] (def. \ref{VariationalBicomplexOnSecondOrderJetBundleOverTrivialVectorBundleOverMinkowskiSpacetime}):
 
    $$
      d \circ j^\infty_\Sigma(\Phi)^\ast
@@ -7434,7 +7434,7 @@ along the [[jet prolongation]] of $\Phi$ (def. \ref{JetProlongation}):
      \,.
    $$
 
-1. annihilates all [[vertical differential forms]]
+1. annihilates all [[vertical differential forms]] (def. \ref{VariationalBicomplexOnSecondOrderJetBundleOverTrivialVectorBundleOverMinkowskiSpacetime}):
 
    $$
      j^\infty_\Sigma(\Phi)^\ast\vert_{\Omega^{r, \geq 1}_\Sigma(E)} = 0
@@ -7608,7 +7608,7 @@ Given any [[type]] of [[field (physics)|fields]] (def. \ref{Fields}), those [[fi
 are to be regarded as "physically realizable" (if we think of the field theory as a description of the [[observable universe]])
 should satisfy some [[differential equation]] -- the _[[equation of motion]]_ -- meaning that realizability of any field configuration may
 be checked upon restricting the configuration to the [[infinitesimal neighbourhoods]] (example \ref{InfinitesimalNeighbourhood}) of each spacetime point. This expresses the physical absence of "action at a distance" and is one aspect of what it means to have
-a _[[local field theory]]_. By remark \ref{JetBundleInTermsOfSyntheticDifferentialGeometry} this means that 
+a _[[local field theory]]_. By remark \ref{JetBundleInTermsOfSyntheticDifferentialGeometry} this means that
 [[equations of motion]] of a field theory are [[equations]] among the [[coordinates]] of the [[jet bundle]] of the [[field bundle]].
 
 For many field theories of interest, their [[differential equation|differential]] [[equation of motion]]
@@ -7633,15 +7633,15 @@ of a potential $\Theta_{BFV}$ for a _[[presymplectic current]]_ $\Omega_{BFV} \c
 This is prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime} below:
 
 $$
-  \delta \mathbf{L} 
-    \;=\; 
+  \delta \mathbf{L}
+    \;=\;
   \underset{ \text{Euler-Lagrange variation}
   }{\underbrace{\delta_{EL}\mathbf{L}}} - d \underset{\text{presymplectic current}}{\underbrace{\Theta_{BFV}}}
   \,.
 $$
 
 These two terms play a pivotal role in the theory: they induce the _[[covariant phase space]]_
-of the [[field theory]]; this we discuss [below](#PhaseSpace). 
+of the [[field theory]]; this we discuss [below](#PhaseSpace).
 
 
 $\,$
@@ -7698,12 +7698,14 @@ According to def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}
 its [[jet bundle]] $J^\infty_\Sigma(E)$ has canonical coordinates
 
 $$
-  \{ \{x^\mu\}, \phi, \{\phi_{,\mu}\}, \{\phi_{,\mu_1 \mu_2}\}, \cdots \}
+  \left\{ 
+     \{x^\mu\}, \phi, \{\phi_{,\mu}\}, \{\phi_{,\mu_1 \mu_2}\}, \cdots 
+  \right\}
   \,.
 $$
 
 In these coordinates, the [[local Lagrangian density]] $L \in \Omega^{p+1,0}(\Sigma)$ (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
-defining the [[free field|free]] [[real scalar field]] of [[mass]] $m \in [0,\infty)$ on $\Sigma$ is
+defining the [[free field|free]] [[real scalar field]] of [[mass]] $m \in \mathbb{R}$ on $\Sigma$ is
 
 $$
   L
@@ -7717,6 +7719,36 @@ $$
   \mathrm{dvol}_\Sigma
   \,.
 $$
+
+As $m$ varies this naturally yields a 1-parameter collection of Lagrangian densities
+
+$$
+  \mathbf{L}_{(-)}
+    \;\colon\;
+   \mathbb{R}^1 
+     \;\longrightarrow\;
+   \mathbf{L}^{p+1}_\Sigma(E)
+$$
+
+which is homogeneously scaling if we give the parameter $m$ the dimension of $[lenght]^{-1}$.
+As such it is written $m c/\hbar$ and called the inverse _[[Compton wavelength]]_
+
+$$
+  \mathbf{L}_{(-)}
+    \;\colon\;
+  m c/\hbar
+   \mapsto
+   \tfrac{1}{2}
+  \left(
+    \eta^{\mu \nu} \phi_{,\mu} \phi_{,\nu}
+    -
+    \left( \tfrac{m c}{\hbar} \right) \phi^2
+  \right)
+  \mathrm{dvol}_\Sigma 
+  \,.
+$$
+
+
 
 =--
 
@@ -7859,7 +7891,7 @@ given by the bilinear pairing $\overline{(-)}\Gamma(-)$ from prop. \ref{RealSpin
 of the field coordinate with its first spacetime derivative and
 expressed here in two-component spinor field coordinates as in (eq:TwoComponentNotationForSpinorToVectorPairing), hence with the [[Dirac conjugate]] $\overline{\psi}$ (eq:DiracConjugate) on the left.
 
-In [[spacetime]] [[dimension]] $p + 1 = 4$, the [[Lagrangian function]] for the _massive [[Dirac field]]_
+Specifically in [[spacetime]] [[dimension]] $p + 1 = 4$, the [[Lagrangian function]] for the _massive [[Dirac field]]_
 of [[mass]] $m \in \mathbb{R}$ is
 
 $$
@@ -7880,6 +7912,35 @@ $$
     \underbrace{
       m \overline{\psi} \psi
     }}
+  \end{aligned}
+$$
+
+As for the [[Lagrangian density]] for the [[real scalar field]], this is naturally a 1-parameter collection
+of Lagrangian densities, and again homogeneous scaling requires that the parameter has dimension $[length]^{-1}$.
+Equipped with this scaling it is the _inverse [[Compton wavelength]]_ $m c / \hbar$:
+
+$$
+  \mathbf{L}_{(-)}
+    \;\colon\;
+  m c/\hbar 
+    \;\mapsto\;
+  \left(
+    i \overline{\psi} \gamma^\mu \psi_{,\mu} + \left( \tfrac{m c}{\hbar} \right) \overline{\psi} \psi
+  \right) dvol_\Sigma
+  \,.
+$$
+
+=--
+
++-- {: .num_remark #RealityOfLagrangianDensityOfTheDiracField}
+###### Remark
+**([[real part|reality]] of the [[Lagrangian density]] of the [[Dirac field]])**
+
+The kinetic term of the [[Lagrangian density]] for the [[Dirac field]] form def. \ref{LagrangianDensityForDiracField}
+is a sum of two contributions, one for each [[chiral spinor]] component in the full [[Dirac spinor]] (remark \ref{TwoComponentSpinorNotation}):
+
+$$
+  \begin{aligned}
     \\
     & =
     \underset{
@@ -9029,7 +9090,7 @@ $\,$
 In a chapter [below](#PhaseSpace) we [[transgression|transgress]] this [[Poisson bracket Lie n-algebra|local Poisson bracket]]
 of [[infinitesimal symmetries]] of the [[presymplectic potential current]] to the "global" [[Poisson bracket]] on the _[[covariant phase space]]_ (def. \ref{PoissonBracketOnHamiltonianLocalObservables} below). This is the structure which then [further below](#Quantization) leads over to the
 [[quantization]] ([[deformation quantization]]) of the [[prequantum field theory]] to a genuine [[perturbative quantum field theory]].
-However, it will turn out that there may be an [[obstruction]] to this construction, namely the existence of 
+However, it will turn out that there may be an [[obstruction]] to this construction, namely the existence of
 special infinitesimal symmetries of the Lagrangian densities, called _implicit [[gauge symmetries]]_ (discussed [further below](#GaugeSymmetries)).
 
 $\,$
@@ -9103,8 +9164,7 @@ The variational version replaces the vector bundle on the left here with its jet
 ###### Definition
 **([[evolutionary vector fields]])**
 
-Let $E \overset{fb}{\to} \Sigma$ be a [[fiber bundle]]. Then an [[evolutionary vector field]] $v$ on $E$ is a
-a "variational vertical vector field" on $E$, hence a smooth [[bundle]] [[homomorphism]]
+Let $E \overset{fb}{\to} \Sigma$ be a [[fiber bundle]]. Then an [[evolutionary vector field]] $v$ on $E$ is  "variational vertical vector field" on $E$, hence a smooth [[bundle]] [[homomorphism]]
 out of the [[jet bundle]] (def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
 
 
@@ -9456,7 +9516,7 @@ $$
   d(\underset{= J_v}{\underbrace{\tilde J - \iota_v \Theta_{BFV}}}) = \iota_v \delta_{EL}\mathbf{L}
 $$
 
-Since by definition of $\mathcal{E}$ the form $\frac{\delta_{EL} \mathbf{L}}{\delta v}$ vanishes on $\mathcal{E}$
+Since, by definition of $\mathcal{E}$, the form $\frac{\delta_{EL} \mathbf{L}}{\delta v}$ vanishes on $\mathcal{E}$
 this yields the claim.
 
 =--
