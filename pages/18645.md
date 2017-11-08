@@ -3535,7 +3535,7 @@ $\,$
 ## Fields
  {#FieldBundles}
 
-A [[field history]] on a given [[spacetime]] $\Sigma$ is meant to be some kind of [[quantity]] assigned to each point of spacetime (each [[event]]), such that this assignment varies smoothly with spacetime points. For instance an _[[electromagnetic field]]_ [[trajectory]] (or "history") is  at each point of spacetime a collection of [[vectors]] that encode the direction in which a [[charged particle]] passing through that point will feel a [[force]] (the "[[Lorentz force]]", see example \ref{Electromagnetism} below).
+A [[field history]] on a given [[spacetime]] $\Sigma$ is a [[quantity]] assigned to each point of spacetime (each [[event]]), such that this assignment varies smoothly with spacetime points. For instance an _[[electromagnetic field]] [[field history|history]]_ (example \ref{Electromagnetism} below) is at each point of spacetime a collection of [[vectors]] that encode the direction in which a [[charged particle]] passing through that point will feel a [[force]] (the "[[Lorentz force]]", see example \ref{Electromagnetism} below).
 
 This is readily formalized (def. \ref{Fields} below): If $F$ denotes the [[smooth manifold]] of "values" that the given kind of field may take at any spacetime point, then a field configuration $\Phi$ is modeled as a [[smooth function]] from spacetime to this space of values:
 
@@ -4788,7 +4788,7 @@ $$
 and observe that there is the [[monomorphism|inclusion]] of infinitesimally thickened Cartesian spaces
 
 $$
-  \mathbb{D}^1 \overset{\phantom{AA}i\phantom{AA} }{\lhookrightarrow} \mathbb{R}^1
+  \mathbb{D}^1 \overset{\phantom{AA}i\phantom{AA} }{\hookrightarrow} \mathbb{R}^1
 $$
 
 which is dually given by the algebra homomorphism
@@ -4851,7 +4851,7 @@ $$
   (\mathbb{R}[ [ \epsilon ] ])(\epsilon^{k+1})
 $$
 
-may be thought of as the algebra of [[Taylor series]] at the origin of $\mathbb{R}$ of [[smooth functions]] $\mathbb{R} \to \natbb{R}$,
+may be thought of as the algebra of [[Taylor series]] at the origin of $\mathbb{R}$ of [[smooth functions]] $\mathbb{R} \to \mathbb{R}$,
 where all terms of order higher than $k$ are discarded. The corresponding [[infinitesimally thickened point]] is
 often denoted
 
@@ -4922,7 +4922,7 @@ Now this being an $\mathbb{R}$-algebra homomorphism, its action on the multiples
 is fixed:
 
 $$
-^ f^\ast(1) = 1
+  f^\ast(1) = 1
   \,.
 $$
 
@@ -5085,12 +5085,14 @@ such that
    pullback of plots along them consecutively equals the pullback along the [[composition]]:
 
    $$
-     f^\ast \circ g^\ast
-     =
-     (g \circ f)^\ast
-     \phantom{AAAA}
+     \begin{aligned}
+       & \phantom{=} f^\ast \circ g^\ast
+       \\
+       & = (g \circ f)^\ast
+     \end{aligned}
+     \phantom{A}
      \text{i.e.}
-     \phantom{AAAA}
+     \phantom{A}
      \array{
        && X(\mathbb{R}^{n_2} \times Spec(A_2))
        \\
@@ -6647,14 +6649,18 @@ which may superficially seem to be in tension with each other, are properly unif
 1. On the other hand a [[field history]] of the [[Dirac field]] is supposed to be a [[spinor]], hence
    a [[section]] of a [[spinor bundle]], which is an ordinary [[vector bundle]].
 
-Prop. \ref{DiracSpaceOfFieldHistories} shows how, even so a Dirac field is not defined to be
+Therefore prop. \ref{DiracSpaceOfFieldHistories} serves to shows how, even though a Dirac field is not defined to be
 an ordinry section of an ordinary vector bundle, it is nevertheless encoded by such an ordinary section:
 One says that this ordinary section is a "[[superfield]]-component" of the Dirac field,
 the one linear in a Grassmann variable $\theta$.
 
 
-
 =--
+
+$\,$
+
+This concludes our discussion of the concept of _[[field (physics)|fields]]_ itself.
+In the [following chapter](#FieldVariations) we consider the [[variational calculus]] of fields.
 
 
 $\,$
