@@ -1538,7 +1538,7 @@ The [[observable universe]] has macroscopic dimension $3+1$, but [[quantum field
 also in lower and in higher dimensions. For instance quantum field theory in dimension 0+1 is the "[[worldline]]"
 theory of [[particles]], also known as _[[quantum mechanics]]_; while quantum field theory in dimension $\gt p+1$
 may be "[[Kaluza-Klein compactifications|KK-compactified]]" to an "[[effective field theory|effective]]"
-field theory in dimension $p+1$ which generally looks more complicated than its higher dimensional version.
+field theory in dimension $p+1$ which generally looks more complicated than its higher dimensional incarnation.
 
 However, every realistic field theory, and also most of the non-realistic field theories of interest, contain
 [[spinor fields]] such as the [[Dirac field]] (example \ref{LagrangianDensityForDiracField} below) and
@@ -1561,15 +1561,15 @@ Spacetime in these dimensions appears from the "[[Pauli matrices]]" with entries
 (In fact it goes [deeper still](geometry+of+physics+--+supersymmetry#SupersymmetryFromTheSuperpoint), but this will not concern us here.)
 
 This we explain now, and then we use this to obtain a slick handle on [[spinors]] in these dimensions,
-using simple [[linear algebra]] over the four [[real number|real]] [[normed division algebras]]. 
-At the end (in remark \ref{TwoComponentSpinorNotation}) we give a dictionary that expresses these constructions in terms 
+using simple [[linear algebra]] over the four [[real number|real]] [[normed division algebras]].
+At the end (in remark \ref{TwoComponentSpinorNotation}) we give a dictionary that expresses these constructions in terms
 of the "two-component spinor notation" that is traditionally used in physics texts (remark \ref{TwoComponentSpinorNotation} below).
 
 The relation between _[[real spin representations and division algebras]]_,
 is originally due to [Kugo-Townsend 82](geometry+of+physics+--+supersymmetry#KugoTownsend82), [Sudbery 84](geometry+of+physics+--+supersymmetry#Sudbery84) and others. We follow the streamlined discussion in [Baez-Huerta 09](geometry+of+physics+--+supersymmetry#BaezHuerta09) and [Baez-Huerta 10](geometry+of+physics+--+supersymmetry#BaezHuerta10).
 
 A key extra structure that the [[spinors]] impose on the underlying [[Cartesian space]] of [[spacetime]]
-is its _[[causal structure]]_, which determines which points in [[spacetime]] ("[[events]]") are in 
+is its _[[causal structure]]_, which determines which points in [[spacetime]] ("[[events]]") are in
 the [[future]] or the [[past]] of other points (def. \ref{SpacelikeTimelikeLightlike} below).
  This [[causal structure]] will turn out to tightly control
 the [[quantum field theory]] on [[spacetime]] in terms of the "[[causal  additivity]] of the [[S-matrix]]"
@@ -1669,6 +1669,7 @@ One defines the following operations on these real algebras:
 
 +-- {: .num_defn #Conjugation}
 ###### Definition
+**(conjugation, [[real part]], [[imaginary part]] and [[absolute value]])**
 
 For $\mathbb{K} \in \{\mathbb{R}, \mathbb{C}, \mathbb{H}, \mathbb{O}\}$, let
 
@@ -1776,10 +1777,9 @@ Hence the conjugation operation makes $\mathbb{K}$ a [[real numbers|real]] [[nor
 
 +-- {: .num_remark #SequenceOfInclusionsOfRealNormedDivisionAlgebras}
 ###### Remark
+**(sequence of inclusions of real [[normed division algebras]])**
 
-Sending each generator in def. \ref{TheComplexNumbers}, def. \ref{TheQuaternions} and def. \ref{TheOctonions}
-to the generator of the same name in the next larger algebra constitutes a sequence of real [[star-algebra]]
-[[homomorphisms]]
+Sending each generator in def. \ref{TheComplexNumbers}, def. \ref{TheQuaternions} and def. \ref{TheOctonions} to the generator of the same name in the next larger algebra constitutes a sequence of real [[star-algebra]] [[homomorphisms]]
 
 $$
   \mathbb{R}
@@ -1808,6 +1808,7 @@ are, up to [[isomorphism]], the _only_ real normed division algebras that exist.
 
 +-- {: .num_remark}
 ###### Remark
+**([[Cayley-Dickson construction]] and [[sedenions]])**
 
 While hence the sequence from remark \ref{SequenceOfInclusionsOfRealNormedDivisionAlgebras}
 
@@ -1849,7 +1850,7 @@ is that they are also [[alternative algebras]]:
 
 +-- {: .num_defn #AlternativeAlgebra}
 ###### Definition
-**([[alternative algebra]])**
+**([[alternative algebras]])**
 
 Given any [[non-associative algebra]] $A$, then the trilinear map
 
@@ -2048,7 +2049,7 @@ Proposition \ref{ArtinTheorem} is what allows to carry over a minimum of [[linea
 such as to yield a representation of the [[Clifford algebra]] on $\mathbb{R}^{9,1}$. This happens in the proof
 of prop. \ref{SpinorRepsByNormedDivisionAlgebra} below.
 
-So we will be looking at a fragment of [[linear algebra]] over these four [[normed division algebras]].
+So we will be looking at a [[fragment]] of [[linear algebra]] over these four [[normed division algebras]].
 To that end, fix the following notation and terminology:
 
 +-- {: .num_defn #MatrixNotation}
@@ -2058,7 +2059,13 @@ To that end, fix the following notation and terminology:
 Let $\mathbb{K}$ be one of the four real [[normed division algebras]] from prop. \ref{HurwitzTheorem}, hence equivalently one of the four
 real [[alternative algebra|alternative]] [[division algebras]] from prop. \ref{ZornTheorem}.
 
-Say that an $n \times n$ [[matrix]] with [[coefficients]] in $\mathbb{K}$, $A\in Mat_{n\times n}(\mathbb{K})$ is a _[[hermitian matrix]]_ if the [[transpose matrix]] $(A^t)_{i j} \coloneqq A_{j i}$ equals the componentwise [[complex conjugation|conjugated]] matrix (def. \ref{Conjugation}):
+Say that an $n \times n$ [[matrix]] with [[coefficients]] in $\mathbb{K}$ 
+
+$$
+  A\in Mat_{n\times n}(\mathbb{K})
+$$ 
+
+is a _[[hermitian matrix]]_ if the [[transpose matrix]] $(A^t)_{i j} \coloneqq A_{j i}$ equals the componentwise [[complex conjugation|conjugated]] matrix (def. \ref{Conjugation}):
 
    $$
      A^t = A^\ast
@@ -2071,7 +2078,7 @@ Say that an $n \times n$ [[matrix]] with [[coefficients]] in $\mathbb{K}$, $A\in
      (-)^\dagger \coloneqq ((-)^t)^\ast
    $$
 
-   then $A$ is a [[hermitian matrix]] precisely if
+   we have that $A$ is a [[hermitian matrix]] precisely if
 
    $$
      A = A^\dagger
@@ -2084,7 +2091,7 @@ Say that an $n \times n$ [[matrix]] with [[coefficients]] in $\mathbb{K}$, $A\in
 
 +-- {: .num_defn #TraceReversal}
 ###### Definition
-**(trace reversal)**
+**([[trace]] reversal)**
 
 Let $A \in Mat_{2 \times 2}^{her}(\mathbb{K})$ be a hermitian $2 \times 2$ matrix as in def. \ref{MatrixNotation}.
 Its _trace reversal_ is the result of subtracting its [[trace]] times the identity matrix:
@@ -3285,11 +3292,11 @@ We need to consider the following concepts and constructions related to the [[ca
 **([[spacelike]], [[timelike]], [[lightlike]] [[direction of a vector|directions]]; [[past]] and [[future]])**
 
 Given two points $x,y \in \Sigma$ in [[Minkowski spacetime]] (def. \ref{MinkowskiSpacetime}),
-write 
+write
 
 $$
   v \coloneqq y - x \in \mathbb{R}^{p,1}
-$$ 
+$$
 
 for their difference, using the [[vector space]] structure underlying [[Minkowski spacetime]].
 
@@ -3302,7 +3309,7 @@ Then we say that the difference vector $v$ is
 
 1. _[[lightlike]]_ if $\eta(v,v) = 0$.
 
-If $v$ is [[timelike]] or [[lightlike]] then we say that 
+If $v$ is [[timelike]] or [[lightlike]] then we say that
 
 1. $y$ is in the _[[future]]_ of $x$ if $y^0 - x^0 \geq 0$;
 
@@ -13766,7 +13773,7 @@ $\,$
 Consider the [[Lagrangian field theory]] (def. \ref{LagrangianForFreeScalarFieldOnMinkowskiSpacetime})
 of the [[free field theory|free]] [[real scalar field]] on [[Minkowski spacetime]] (example \ref{LagrangianForFreeScalarFieldOnMinkowskiSpacetime}).
 
-Extending the [[integral kernel]] (eq:PoissonBracketOfScalarFieldPointEvaluationOnMinkowskiSpacetime) for 
+Extending the [[integral kernel]] (eq:PoissonBracketOfScalarFieldPointEvaluationOnMinkowskiSpacetime) for
 its [[Poisson bracket]] (example \ref{PoissonBracketForRealScalarField}) yields the  _[[causal propagator]]_
 
 $$
