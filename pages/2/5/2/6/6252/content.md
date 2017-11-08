@@ -70,6 +70,7 @@ In an arbitrary $*$-[[star-algebra|algebra]], a __self-adjoint__ or __hermitian_
 
 * Walter Rudin, _Functional analysis_
 
+* Konrad Schmuedgen, _Unbounded self-adjoint operators on Hilbert space_, Springer GTM 265
 
 [[!redirects self-adjoint]]
 [[!redirects self-adjoint element]]
