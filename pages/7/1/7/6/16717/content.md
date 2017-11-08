@@ -5,4 +5,6 @@
 
 * [[BRST complex]], [[BV-BRST formalism]]
 
+* [[main theorem of perturbative renormalization]]
+
 category: people
