@@ -15,7 +15,7 @@
 
 ## Idea
 
-In [[quantum field theory]] with chiral [[fermions]] ([[spinor fields]]) $\psi$ with _chiral [[current]]_ $j \coloneqq \bar \psi \Gamma \psi$, a _chiral anomaly_ is a non [[conserved current|conservation]] of this current
+In [[quantum field theory]] with chiral [[fermions]] ([[spinor fields]]) $\psi$ with _chiral versioon of the [[Dirac current]]_ $j \coloneqq \bar \psi \Gamma \psi$, a _chiral anomaly_ is a non [[conserved current|conservation]] of this current
 
 $$
   \mathbf{d} \star j = Anomaly
