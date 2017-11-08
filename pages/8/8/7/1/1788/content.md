@@ -1,6 +1,18 @@
 $x {\color{red}\le} y$
 
 
+Let 
+
+$$
+  \mathbf{L}_{(-)}
+  \;\colon\;
+  \mathbb{R}^k \longrightarrow \mathbf{\Omega}^{p+1}(J^\infty_\Sigma(E))
+$$
+
+be a $k$-parameter collection of Lagrangian densities
+
+
+
 Let $\Sigma$ be a [[Euclidean space]] equipped with 
 
 1. a [[Riemannian metric]] $g$;
