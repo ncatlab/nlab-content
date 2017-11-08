@@ -2112,10 +2112,10 @@ $\,$
 **Minkowski spacetime in dimensions 3,4,6 and 10**
  {#MinkowskiSpacetimeInCriticalDimensions}
 
-We discover [[Minkowski spacetime]] of dimension 3,4,6 and 10, in terms of the
+We now discover [[Minkowski spacetime]] of dimension 3,4,6 and 10, in terms of the
 real [[normed division algebras]] $\mathbb{K}$ from prop. \ref{HurwitzTheorem}, equivalently the
 real [[alternative algebra|alternative]] [[division algebras]] from prop. \ref{ZornTheorem}:
-this is prop./def. \ref{SpacetimeAsMatrices} and def. \ref{MinkowskiSpacetime} below..
+this is prop./def. \ref{SpacetimeAsMatrices} and def. \ref{MinkowskiSpacetime} below.
 
 +-- {: .num_prop #SpacetimeAsMatrices}
 ###### Proposition/Definition
@@ -7518,6 +7518,7 @@ Let $E \overset{fb}{\to} \Sigma$ be a [[field bundle]] which is a [[trivial vect
 with the [[total spacetime derivative]] ([[horizontal derivative]]) $d$ (def. \ref{VariationalBicomplexOnSecondOrderJetBundleOverTrivialVectorBundleOverMinkowskiSpacetime})
 
 $$
+  \label{ExactSequenceTotalSpacetimeDerivative}
   \mathbb{R}
     \overset{}{\hookrightarrow}
   \Omega^{0,0}_\Sigma(E)
@@ -7541,11 +7542,12 @@ $d \omega = 0$ (which follows immediately from the fact that we have a [[cochain
 but, conversely, if $\omega \in \Omega^{0 \leq s \leq p,0}_\Sigma(E)$ satisfies $d \omega = 0$, then there exists
 $\alpha \in \Omega^{s-1,0}_\Sigma(E)$ with $\omega = d \alpha$.
 
-(We encounter the extension of this [[exact sequence]] further to the right below in example \ref{TrivialLagrangianDensities}.)
-
 =--
 
 (e.g. [Anderson 89, prop. 4.3](variational+bicomplex#Anderson89))
+
+We will encounter the extension of the [[exact sequence]] (eq:ExactSequenceTotalSpacetimeDerivative) further stepts to the right below in example \ref{TrivialLagrangianDensities}.
+
 
 $\,$
 
@@ -7553,58 +7555,44 @@ $\,$
   {#LagrangianFieldTheory}
 
 
-Given any type of [[field (physics)|fields]] (def. \ref{Fields}), those field configurations that
+Given any [[type]] of [[field (physics)|fields]] (def. \ref{Fields}), those [[field histories]] that
 are to be regarded as "physically realizable" (if we think of the field theory as a description of the [[observable universe]])
-should satisfy some [[differential equation]] (the "[[equation of motion]]"), meaning that realizability of any field configuration may
-be checked upon restricting the configuration to the [[infinitesimal neighbourhoods]] of each spacetime point.
-This expresses the physical absence of "action at a distance" and is one aspect of what it means to have
-a _[[local field theory]]_.
+should satisfy some [[differential equation]] -- the _[[equation of motion]]_ -- meaning that realizability of any field configuration may
+be checked upon restricting the configuration to the [[infinitesimal neighbourhoods]] (example \ref{InfinitesimalNeighbourhood}) of each spacetime point. This expresses the physical absence of "action at a distance" and is one aspect of what it means to have
+a _[[local field theory]]_. By remark \ref{JetBundleInTermsOfSyntheticDifferentialGeometry} this means that 
+[[equations of motion]] of a field theory are [[equations]] among the [[coordinates]] of the [[jet bundle]] of the [[field bundle]].
 
 For many field theories of interest, their [[differential equation|differential]] [[equation of motion]]
-is not a random [[partial differential equations]], but is of the special kind that exhibits the "[[principle of extremal action]]"
-determined by a [[local Lagrangian density]]
+is not a random [[partial differential equations]], but is of the special kind that exhibits the "[[principle of extremal action]]" (prop. \ref{PrincipleOfExtremalAction} below)
+determined by a _[[local Lagrangian density]]_
 (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime} below). These are called _[[Lagrangian field theories]]_, and this is what we consider here.
 
-Namely among all the variational differential forms (def. \ref{VariationalBicomplexOnSecondOrderJetBundleOverTrivialVectorBundleOverMinkowskiSpacetime})
+Namely among all the [[variational differential forms]] (def. \ref{VariationalBicomplexOnSecondOrderJetBundleOverTrivialVectorBundleOverMinkowskiSpacetime})
 two kinds stand out, namley the 0-forms in $\Omega^{0,0}_\Sigma(E)$ -- the smooth functions -- and the horizontal $p+1$-forms
 $\Omega^{p+1,0}_\Sigma(E)$ -- to be called the _[[Lagrangian densities]] $\mathbf{L}$_ (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime} below) -- since these occupy the two "corners" of the [[variational bicomplex]] (eq:VariationalBicomplexDiagram).
 There is not much to say about the 0-forms, but the [[Lagrangian densities]] $\mathbf{L}$ do inherit special structure
-from their special position in the [[variational bicomplex]].
+from their special position in the [[variational bicomplex]]:
 
-Their [[variational derivative]]
-uniquely decomposes as 1) the _[[Euler-Lagrange derivative]]_ $\delta_{EL} \mathbf{L}$ which is proportional to the variation of the fields
-(instead of their derivatives) and 2) the [[total derivative|total spacetime derivative]] $d \Theta_{BFV}$
-of a potential $\Theta_{BFV}$ for a _[[presymplectic current]]_ $\Omega_{BFV} \coloneqq \delta \Theta_{BFV}$
-(prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime} below):
+Their [[variational derivative]] $\delta \mathbf{L}$ uniquely decomposes as
+
+1.  the _[[Euler-Lagrange derivative]]_ $\delta_{EL} \mathbf{L}$ which is proportional to the variation of the fields
+(instead of their derivatives)
+
+1.  the [[total derivative|total spacetime derivative]] $d \Theta_{BFV}$
+of a potential $\Theta_{BFV}$ for a _[[presymplectic current]]_ $\Omega_{BFV} \coloneqq \delta \Theta_{BFV}$.
+
+This is prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime} below:
 
 $$
-  \delta \mathbf{L} = \delta_{EL}\mathbf{L} - d \Theta_{BFV}
+  \delta \mathbf{L} 
+    \;=\; 
+  \underset{ \text{Euler-Lagrange variation}
+  }{\underbrace{\delta_{EL}\mathbf{L}}} - d \underset{\text{presymplectic current}}{\underbrace{\Theta_{BFV}}}
   \,.
 $$
 
 These two terms play a pivotal role in the theory: they induce the _[[covariant phase space]]_
-of the [[field theory]]; this we discuss [below](#PhaseSpace). Before we get to that,
-here we discuss the _symmetries_ of these terms, which will be important:
-
-It turns out that every  [[infinitesimal symmetry of the Lagrangian density]] induces a
-variational differential form called a _[[conserved current]]_ ([[Noether's theorem]], prop. \ref{NoethersFirstTheorem} below) and that
-these conserved currents constitute an [[Lie algebra extension|extension]] of the [[Lie algebra]]
-of symmetries, called the _[[Dickey bracket]]_.
-
-In direct analogy, every infinitesimal symmetry of the [[presymplectic current|presymplectic potential]] $\Theta_{BFV}$
-(called a _[[Hamiltonian vector field]]_) is witnessed by
-a variational differential form, called a _[[Hamiltonian differential form]]_ (def. \ref{HamiltonianForms} below).
-This is sometimes called the _[[Hamiltonian Noether theorem]]_.
-The corresponding [[Lie n-algebra]] is the all-important _[[Poisson bracket Lie n-algebra|Poisson bracket Lie p+1-algebra]]_
-of the Lagrangian field theory. In the simple special situation that we consider here, this is a
-plain [[Lie algebra]] (prop. \ref{LocalPoissonBracket} below).
-
-When we turn attention to the [[covariant phase space]] [below](#PhaseSpace)
-the [[transgression of variational differential forms|transgression]]
-of the [[Poisson bracket Lie n-algebra|Poisson bracket Lie p+1-algebra]] of [[Hamiltonian differential forms]]
-yields the [[Poisson bracket Lie algebra]] on [[local observables]] on  [[covariant phase space]].
-This is the all-important structure of the theory: the [[deformation quantization]] induced by this
-bracket is the [[quantum physics|quantum]] aspect of the [[quantum field theory]].
+of the [[field theory]]; this we discuss [below](#PhaseSpace). 
 
 
 $\,$
@@ -8967,21 +8955,44 @@ send one [[field history]] to an [[infinitesimal|infinitesimally]] nearby one wh
 which will be of concern [below](#GaugeSymmetries).
 A central theorem of [[variational calculus]] says that [[infinitesimal symmetries of the Lagrangian]]
 correspond to _[[conserved currents]]_, this is [[Noether theorem|Noether's theorem I]], prop. \ref{NoethersFirstTheorem} below.
+These conserved currents constitute an [[Lie algebra extension|extension]] of the [[Lie algebra]]
+of symmetries, called the _[[Dickey bracket]]_.
 
 But in (eq:DerivativeOfLepageForm) we have seen that the [[Lagrangian density]]
 of a [[Lagrangian field theory]] is just one component, in [[codimension]] 0, of an inhomogeneous
 "[[Lepage form]]" which in [[codimension]] 1 is given by the [[presymplectic potential current]] $\Theta_{BFV}$ (eq:PresymplecticPotential).
 (This will be conceptually elucidated, after we have introduced the [[local BV-complex]], in example \ref{DerivedPresymplecticCurrentOfRealScalarField} below.) This means that in [[codimension]] 1 we are to
 consider infinitesimal symmetries of the [[presymplectic potential current]] $\Theta_{BFV}$. These are
-known as [[Hamiltonian vector fields]] (def. \ref{HamiltonianForms} below) and the analog of [[Noether's theorem|Noether's theorem I]]
+known as _[[Hamiltonian vector fields]]_ (def. \ref{HamiltonianForms} below) and the analog of [[Noether's theorem|Noether's theorem I]]
 now says that these correspond to [[Hamiltonian differential forms]]. The [[Lie algebra]] of these
 infinitesimal symmetries is called the _[[Poisson bracket Lie n-algebra|local Poisson bracket]]_ (prop. \ref{LocalPoissonBracket} below).
 
-Further [below](#PhaseSpace) we [[transgression|trasngress]] this [[Poisson bracket Lie n-algebra|local Poisson bracket]]
-of [[infinitesimal symmetries]] of the [[presymplectic potential current]] to the "global" [[Poisson bracket]] on [[phase space]] (def. \ref{PoissonBracketOnHamiltonianLocalObservables} below). This is the structure which then [further below](#Quantization) leads over to the
-[[quantization]] ([[deformation quantization]]) of the [[prequantum field theory]] to a genuine [[perturbative quantum field theory]].
+
+**[[Noether theorem]] and [[Hamiltonian Noether theorem]]**
+
+| $\,$ [[variational differential forms|variational form]] $\,$  |   $\,$ [[symmetry]] $\,$ | $\,$ [[Cartan's homotopy formula|homotopy formula]] $\,$ | $\,$ physical quantity $\,\,\,$ | $\,$ [[Lie n-algebra|local symmetry algebra]] $\,$ |
+|----|----------|----------------------------|---------------------------------|------|
+| [[Lagrangian density]] $\mathbf{L}$ <br/> (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) | $\mathcal{L}_v \mathbf{L} = d \tilde J$  | $\Leftrightarrow d(\underset{= J_v}{\underbrace{\tilde J - \iota_v \Theta_{BFV}}}) = \iota_v \, \delta_{EL}\mathbf{L}$ | [[conserved current]] $J_v$ <br/> (def. \ref{SymmetriesAndConservedCurrents}) | [[Dickey bracket]] |
+| [[presymplectic current]] $\Omega_{BFV}$ <br/> (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime})  | $\mathcal{L}_v \Theta_{BFV} = \delta \tilde H$ | $\Leftrightarrow \delta(\underset{= H_v}{\underbrace{\tilde H_v - \iota_v \Theta_{BFV}}}) = \iota_v \Omega_{BFV}$ | [[Hamiltonian differential form|Hamiltonian form]] $H_v$ <br/> (def. \ref{HamiltonianForms}) | [[Poisson bracket Lie n-algebra|local Poisson bracket]] <br/> (prop. \ref{LocalPoissonBracket}) |
 
 $\,$
+
+In a chapter [below](#PhaseSpace) we [[transgression|transgress]] this [[Poisson bracket Lie n-algebra|local Poisson bracket]]
+of [[infinitesimal symmetries]] of the [[presymplectic potential current]] to the "global" [[Poisson bracket]] on the _[[covariant phase space]]_ (def. \ref{PoissonBracketOnHamiltonianLocalObservables} below). This is the structure which then [further below](#Quantization) leads over to the
+[[quantization]] ([[deformation quantization]]) of the [[prequantum field theory]] to a genuine [[perturbative quantum field theory]].
+However, it will turn out that there may be an [[obstruction]] to this construction, namely the existence of 
+special infinitesimal symmetries of the Lagrangian densities, called _implicit [[gauge symmetries]]_ (discussed [further below](#GaugeSymmetries)).
+
+$\,$
+
+* _[Infinitesimal symmetries of the Lagrangian density](#InfinitesimalSymmetriesOfTheLagrangianDensity)_
+
+* _[Infinitesimal symmetries of the presymplectic potential current](#InfinitesimalSymmetriesOfThePresymplecticPotentialCurrent)_
+
+$\,$
+
+**[[infinitesimal symmetries]] of the [[Lagrangian density]]**
+ {#InfinitesimalSymmetriesOfTheLagrangianDensity}
 
 +-- {: .num_defn #Variation}
 ###### Definition
@@ -9261,7 +9272,7 @@ induces on the [[space of field histories]]:
 
 +-- {: .num_defn #FlowOfFieldHistoriesAlongEvolutionaryVectorField}
 ###### Definition
-**([[flow]] of [[field (physics)|field]] [[trajectory|histories]] along [[evolutionary vector field]])**
+**([[flow]] of [[field histories]] along [[evolutionary vector field]])**
 
 Let $E \overset{fb}{\to} \Sigma$ be a [[field bundle]] (def. \ref{Fields})
 and let $v$ be an [[evolutionary vector field]] (def. \ref{EvolutionaryVectorField})
@@ -9661,6 +9672,11 @@ This [[conserved current]] is called the _[[energy-momentum tensor]]_.
 =--
 
 
+$\,$
+
+**[[infinitesimal symmetries]] of the [[presymplectic potential current]]**
+ {#InfinitesimalSymmetriesOfThePresymplecticPotentialCurrent}
+
 Evidently [[Noether's theorem|Noether's theorem I]] in [[variational calculus]] (prop. \ref{NoethersFirstTheorem})
 is the special case for horizontal $p+1$-forms of a more general phenomenon relating
 symmetries of variational forms to forms that are closed up to a contraction. The same phenomenon applied instead
@@ -9765,16 +9781,8 @@ This directly implies the claim.
 
 $\,$
 
-**[[Noether theorem]] and [[Hamiltonian Noether theorem]]**
-
-| $\,$ [[variational differential forms|variational form]] $\,$  |   $\,$ [[symmetry]] $\,$ | $\,$ [[Cartan's homotopy formula|homotopy formula]] $\,$ | $\,$ physical quantity $\,\,\,$ | $\,$ [[Lie n-algebra|local symmetry algebra]] $\,$ |
-|----|----------|----------------------------|---------------------------------|------|
-| [[Lagrangian density]] $\mathbf{L}$  | $\mathcal{L}_v \mathbf{L} = d \tilde J$  | $\Leftrightarrow d(\underset{= J_v}{\underbrace{\tilde J - \iota_v \Theta_{BFV}}}) = \iota_v \, \delta_{EL}\mathbf{L}$ | [[conserved current]] $J_v$ | [[Dickey bracket]] |
-| [[presymplectic current]] $\Omega_{BFV}$ | $\mathcal{L}_v \Theta_{BFV} = \delta \tilde H$ | $\Leftrightarrow \delta(\underset{= H_v}{\underbrace{\tilde H_v - \iota_v \Theta_{BFV}}}) = \iota_v \Omega_{BFV}$ | [[Hamiltonian differential form|Hamiltonian form]] $H_v$ | [[Poisson bracket Lie n-algebra|local Poisson bracket]] |
 
 
-
-$\,$
 
 
 Since therefore both the [[conserved currents]] from [[Noether's theorem]] as well as
