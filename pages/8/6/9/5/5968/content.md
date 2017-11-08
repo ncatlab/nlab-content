@@ -348,6 +348,18 @@ On the right this is the term in the form in which the conserved quantity obtain
 (using that given a [[Lagrangian]] $L$ we have $p_i = \frac{\delta L}{\delta (\dot q^i)}$).
 
 
+## Examples
+
+### Energy-momentum current
+
+* [[energy-momentum tensor]] -- see at _[[geometry of physics -- A first idea of quantum field theory]]_ [this example](geometry+of+physics+--+A+first+idea+of+quantum+field+theory#ScalarFieldEnergyMomentum)
+
+### Dirac current
+
+* [[Dirac current]] -- see at [[geometry of physics -- A first idea of quantum field theory]] [this example](geometry+of+physics+--+A+first+idea+of+quantum+field+theory#DiracCurrent)
+
+
+
 ## Related concepts
 
 * [[conservation law]]
