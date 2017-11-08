@@ -1,5 +1,33 @@
 $x {\color{red}\le} y$
 
+
+Let $\Sigma$ be a [[Euclidean space]] equipped with 
+
+1. a [[Riemannian metric]] $g$;
+
+1. a [[real number]] $m \in \mathbb{R}$.
+
+Using this [[structure]] $(g,m)$ we may formulate the [[Klein-Gordon equation]] $(\Box - m^2) \Phi = 0$ on $\Sigma$.
+
+Now let $X$ be another Euclidean space, thought of as the actual observed spacetime. To say that $(\Sigma,g)$ is a model for our spacetime is to choose a diffeomorphism
+
+$$
+  \kappa \;\colon\; X \overset{\simeq}{\longrightarrow} \Sigma
+$$
+
+such that the length measured on $X$ is that given by the pullback metric $\kappa^\ast g$.
+
+We might then think that we can equip $X$ with Klein-Gordon structure as above
+
+$$
+  (X, \kappa^\ast g, m)
+$$
+
+But this would be wrong: If $\Phi$ is a solution to the Klein-Gordon equation $KG(g,m)$ on $\Sigma$, then $\kappa^\ast \Phi$ is _not_ in general a solution to $KG(\kappa^\ast g,m)$.
+
+
+
+
 +-- {: .num_prop}
 ###### Proposition
 
