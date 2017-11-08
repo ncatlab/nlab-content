@@ -26,9 +26,19 @@ $$
   \,.
 $$
 
+## Details
+
+* For the [[scalar field]]: see at _[[geometry of physics -- A first idea of quantum field theory]]_ [this example](geometry+of+physics+--+A+first+idea+of+quantum+field+theory#ScalarFieldEnergyMomentum)
+
+
+
 ## Related concepts
 
 * [[stress tensor]]
+
+* [[energy-momentum relation]]
+
+* [[Dirac current]]
 
 [[!redirects energy momentum tensor]]
 [[!redirects energy-momentum tensor]]
