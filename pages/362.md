@@ -57,6 +57,10 @@ where $Ps(C,D)$ is the 2-category of 2-functors, pseudonatural transformations, 
 
 * F.A. Al-Agl, R. Brown and   R. Steiner, Multiple categories: the equivalence between a globular and cubical approach, Advances in Mathematics, 170 (2002) 71-118.
 
+The Gray tensor product as the left Kan extension of a tensor product on the full subcategory Cu of 2Cat is on page 16 of
+
+* [[Ross Street]], "Gray's tensor product of 2-categories", 22-page handwritten note, (1988) ([PDF at Macquarie](http://maths.mq.edu.au/~street/GrayTensor.pdf))
+
 A general theory of lax tensor products, unifying Gray tensor products with the [[Crans-Gray tensor product]] is in 
 
 * [[Michael Batanin]], [[Denis-Charles Cisinski]], [[Mark Weber]], _Multitensor lifting and strictly unital higher category theory_ ([arXiv:1209.2776](http://arxiv.org/abs/1209.2776))
