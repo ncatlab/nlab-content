@@ -35,6 +35,16 @@ where $e$ is the [[electric charge]] of the [[electron]] expressed in physical u
 
 Notice that _choice of unit_ is also called _choice of gauge_. This is indeed the same "[[gauge]]" as in "[[gauge theory]]", as it is how ([Weyl 23](gauge#Weyl23)) introduced the concept of gauge theory: as a theory in which the choice of unit of length may change along paths in space.
 
+## Examples
+
+* [[speed of light]]
+
+* [[Planck's constant]]
+
+* [[Compton wavelength]]
+
+* [[Planck mass]]
+
 ## References
 
 Discussion in the context of [[philosophy of science]] includes
