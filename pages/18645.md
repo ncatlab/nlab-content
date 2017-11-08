@@ -7681,10 +7681,17 @@ is (or defines) a _[[prequantum field theory|prequantum]] [[Lagrangian field the
 
 =--
 
-(Over more general [[field bundles]] than we consider at the moment, the Lagrangian density may not exist
-as a globally defined differential $(p+1)$-form, but as a [[circle n-bundle with connection|p-gerbe connection]].
-This is the case for _[[locally variational field theories]]_ such as theories involving _[[higher WZW terms]]_.)
 
++-- {: .num_remark #LocallyVariationalFieldTheory}
+###### Remark
+**([[locally variational field theory]] and Lagrangian [[circle n-bundle with connection|p-gerbe connection]])**
+
+If the [[field bundle]] (def. \ref{Fields}) is not just a [[trivial vector bundle]] over [[Minkowski spacetime]] (example \ref{TrivialVectorBundleAsAFieldBundle}) then a Lagrangian density for a given [[equation of motion]] may not exist
+as a globally defined differential $(p+1)$-form, but only as a [[circle n-bundle with connection|p-gerbe connection]].
+This is the case for _[[locally variational field theories]]_ such as the _[[charged particle]]_, the _[[WZW model]]_ 
+and generally theories involving _[[higher WZW terms]]_. For more on this see the exposition at _[[schreiber:Higher Structures|Higher Structures in Physics]]_.
+
+=--
 
 
 +-- {: .num_example #LagrangianForFreeScalarFieldOnMinkowskiSpacetime}
@@ -7730,7 +7737,8 @@ $$
    \mathbf{L}^{p+1}_\Sigma(E)
 $$
 
-which is homogeneously scaling if we give the parameter $m$ the dimension of $[lenght]^{-1}$.
+which is homogeneously scaling if we give the parameter $m$ is proportional to a [[physical unit]] of $[lenght]^{-1}$,
+according to remark \ref{PhysicalUnitLength}.
 As such it is written $m c/\hbar$ and called the inverse _[[Compton wavelength]]_
 
 $$
@@ -7916,8 +7924,9 @@ $$
 $$
 
 As for the [[Lagrangian density]] for the [[real scalar field]], this is naturally a 1-parameter collection
-of Lagrangian densities, and again homogeneous scaling requires that the parameter has dimension $[length]^{-1}$.
-Equipped with this scaling it is the _inverse [[Compton wavelength]]_ $m c / \hbar$:
+of Lagrangian densities, and again homogeneous scaling requires that the parameter is proportional 
+to a [[physical unit]] of $[length]^{-1}$ according to remark \ref{PhysicalUnitLength}.
+Equipped with this scaling this parameter called the _inverse [[Compton wavelength]]_ $m c / \hbar$:
 
 $$
   \mathbf{L}_{(-)}
@@ -8376,6 +8385,94 @@ $$
 
 
 =--
+
++-- {: .num_remark #PhysicalUnitLength}
+###### Remark
+**([[physical units]] of powers of [[length]])
+
+For $E \overset{fb}{\to} \Sigma$ a [[field bundle]] (def. \ref{Fields})
+and $\mathbf{L} \in \Omega^{p+1}_\Sigma(E)$ a [[Lagrangian density]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
+then of course for every [[real number]] $r \in \mathcal{R}$ of course also the multiple
+
+$$
+  r \mathbf{L} \in \Omega^{p+1}_\Sigma(E)
+$$
+
+is a Lagrangian density. Moreover, by prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}
+this rescaled Lagrangian induces correspondingly rescaled [[Euler-Lagrange forms]] and [[presymplectic currents]].
+
+But the [[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]] (eq:EulerLagrangeEquationGeneral)
+for the rescaled Lagrangian is clearly equivalent to that of the original Lagrangian: they have the same solutions.
+Similarly, later we see that the rescaled [[presymplectic current]] induced the same [[quantizations]]
+as the original presymlectic current does (the difference may be absorbed in a redefinition of [[Planck's constant]]).
+
+Therefore for [[quantum field theory]] globally defined Lagrangian densities matter only
+up to rescaling of the Lagrangian (for [[locally variational field theories]], remark \ref{LocallyVariationalFieldTheory},
+the situation is more subtle).
+
+But consider the case of a [[field bundle]] $E \overset{fb}{\to} \Sigma$ over [[Minkowski spacetime]] $\Sigma = \mathbb{R}^{p+1}$ (def. \ref{MinkowskiSpacetime}). Then rescaling of _[[spacetime]] [[coordinates]]_ 
+
+$$
+  \array{
+    \mathbb{R}^\times \times \mathbb{R}^{p+1} \longrightarrow  \mathbb{R}^{p,1}
+  }
+$$
+
+extends to an [[action]] of the multiplicative [[group]] $\mathbb{R}^\times$ of non-zero [[real numbers]]
+to the total space of the [[jet bundle]]
+
+$$
+  sc 
+    \;\colon\; 
+  \mathbb{R}^\times \times J^\infty_\Sigma(E) 
+    \longrightarrow 
+  J^\infty_\Sigma(E)
+$$
+
+given on induced jet coordinates by
+
+$$
+  \begin{aligned}
+    x^\mu & \mapsto r x^\mu
+    \\
+    \phi^a & \mapsto \phi^a
+    \\
+    \phi^a_{,\mu_1, \cdots \mu_k} & \mapsto r^{-k} \phi^a_{,\mu_1 \cdots \mu_k}
+  \end{aligned}
+  \,.
+$$
+
+Let then
+
+$$
+  \mathbf{L}_{(-)}
+   \;\colon\;
+  \mathbb{R}^1 \longrightarrow \mathbf{\Omega}^{p+1}(J^\infty_\Sigma(E))
+$$
+
+be a smooth collection of [[Lagrangian densities]] depending on one parameter,
+and consider the $R^\times$-[[action]] on the parameter given by
+
+$$
+  \array{
+    \mathbb{R}^\times \times \mathbb{R}^1 &\longrightarrow& \mathbb{R}^1
+    \\
+    (r, m) &\mapsto& r^{w} m
+  }
+$$
+
+for some $w \in \mathbb{Z}$.
+
+If this is such that the _combined_ rescaling changes the Lagrangian only up to a multiple, in that
+
+$$
+  sc^\ast_r \mathbf{L}_{sc_r(-)} = f(r) \mathbf{L}_{(-)}
+$$
+
+then we say that this parameter is _proportional to a [[physical unit]] of $length^{w}$_.
+
+=--
+
 
 Many examples of interest fall into the following two special cases of prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}:
 
