@@ -33,7 +33,7 @@ This theorem is a mathematical reflection of the idea that renormalization is ab
 
 The theorem is originally due to 
 
-* G. Popineau and R. Stora, _A Pedagogical Remark on the Main Theorem of Perturbative Renormalization Theory, unpublished preprint
+* G. Popineau and [[Raymond Stora]], _A Pedagogical Remark on the Main Theorem of Perturbative Renormalization Theory, unpublished preprint
 
 In various variants it has been (re-)proved in the following articles:
 
@@ -44,6 +44,10 @@ In various variants it has been (re-)proved in the following articles:
 * [[Michael Dütsch]], [[Klaus Fredenhagen]], section 4.2 of _Causal perturbation theory in terms of retarded products, and a proof of the Action Ward Identity_,  Rev. Math. Phys. 16, 1291 (2004) ([arXiv:hep-th/0403213](https://arxiv.org/abs/hep-th/0403213))
 
 * [[Stefan Hollands]], theorem 2 in _Renormalized Quantum Yang-Mills Fields in Curved Spacetime_, Rev. Math. Phys. 20:1033-1172, 2008 ([arXiv:0705.3340](https://arxiv.org/abs/0705.3340))
+
+Review is in 
+
+* {#Rejzner16} [[Katarzyna Rejzner]], section 6.3 of _Perturbative Algebraic Quantum Field Theory_, Mathematical Physics Studies, Springer 2016 ([web](https://link.springer.com/book/10.1007%2F978-3-319-25901-7))
 
 
 
