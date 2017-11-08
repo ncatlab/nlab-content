@@ -24,7 +24,7 @@ In [[cosmology]] and [[particle physics]],  by _baryogenesis_ one refers to the 
 
 1. departure from thermal equilibrium.
 
-Indeed, by a [[quantum anomaly]] in the [[standard model of particle physics]], the _[[axial anomaly]]_ (a [[chiral anomaly]]) (see e.g. [Jackiw 08](#Jackiw08)),  the [[divergence]] of the baryon number [[current]] does not quite vanish but is ([t'Hooft 76](#Hooft76)) in traditional physics notation
+Indeed, by a [[quantum anomaly]] in the [[standard model of particle physics]], the _[[axial anomaly]]_ (a [[chiral anomaly]]) (see e.g. [Jackiw 08](#Jackiw08)),  the [[divergence]] of the baryon number [[current]] (the chiral version of the [[Dirac current]]) does not quite vanish but is ([t'Hooft 76](#Hooft76)) in traditional physics notation
 
 $$
   \partial_\mu j_b^\mu 
