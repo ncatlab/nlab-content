@@ -4320,7 +4320,7 @@ $$
   CartesianSpaces
     \overset{\phantom{AAA}}{\hookrightarrow}
   DiffeologicalSpaces
-    \phantom{AAA}{\hookrightarrow}
+    \overset{\phantom{AAA}}{\hookrightarrow}
   SmoothSets
   \,.
 $$
@@ -4342,22 +4342,27 @@ example \ref{SmoothSetsDiffeologicalSpaces}, there is now an actual concept of
 smooth functions $\mathbb{R}^n \to X$, namely as smooth sets.
 For the concept of smooth sets to be consistent, it ought to be true that this
 _a posteriori_ concept of smooth functions from [[Cartesian spaces]] to [[smooth sets]]
-coincides wth the _a prioro_ concept, hence that we "may remove the quotation marks".
+coincides wth the _a priori_ concept, hence that we "may remove the quotation marks" in the above.
 The following proposition says that this is indeed the case:
 
 
 +-- {: .num_prop #CartSpYpnedaLemma}
 ###### Proposition
-**(plots of a smooth set really are the smooth functions into the smooth set)**
+**(plots of a [[smooth set]] really are the [[smooth functions]] into the smooth set)**
 
-Let $X$ be a [[smooth set]] (def. \ref{SmoothSet}). For $n \in \mathbb{R}$, there is a canonical  function
+Let $X$ be a [[smooth set]] (def. \ref{SmoothSet}). For $n \in \mathbb{R}$, there is a [[natural transformation|natural]] [[function]]
 
 $$
-  Hom_{SmoothSet}(\mathbb{R}^n , X) \overset{\simeq}{\longrightarrow} X(\mathbb{R}^n)
+  Hom_{SmoothSet}(\mathbb{R}^n , X) \overset{\phantom{AA}\simeq\phantom{AA}}{\longrightarrow} X(\mathbb{R}^n)
 $$
 
 from the set of homomorphisms of smooth sets from $\mathbb{R}^n$ (regarded as a smooth set via example \ref{SmoothSetsDiffeologicalSpaces})
 to $X$, to the set of plots of $X$ over $\mathbb{R}^n$, given by evaluating on the [[identity function|identity]] plot $id_{\mathbb{R}^n}$.
+
+This function is a _[[bijection]]_.
+
+This says that the plots of $X$, which initially bootstrap $X$ into being as declaring the _would-be_ smooth functions
+into $X$, end up being the _actual_ smooth functions into $X$.
 
 =--
 
@@ -4365,7 +4370,7 @@ to $X$, to the set of plots of $X$ over $\mathbb{R}^n$, given by evaluating on t
 +-- {: .proof}
 ###### Proof
 
-This is the statement of the _[[Yoneda lemma]]_ over the [[site]] of [[Cartesian spaces]] (def. \ref{CartesianSpacesAndSmoothFunctionsBetweenThem}).
+This elementary but profound fact is called the _[[Yoneda lemma]]_, here in its incarnation over the [[site]] of [[Cartesian spaces]] (def. \ref{CartesianSpacesAndSmoothFunctionsBetweenThem}).
 
 =--
 
@@ -5211,10 +5216,11 @@ Then $X$ becomes a [[formal smooth set]] (def. \ref{FormalSmoothSet}) by declari
 set of plots  $X(\mathbb{R}^n \times \mathbb{D})$ over
 an [[infinitesimally thickened smooth manifold|infinitesimally thickened Cartesian space]] (def. \ref{InfinitesimallyThickendSmoothManifold})
 to be [[equivalence classes]] of [[pairs]]
+
 $$
   \mathbb{R}^n \times \mathbb{D} \longrightarrow \mathbb{R}^{k}
   \,,
-  \phantom[AA}
+  \phantom{AA}
   \mathbb{R}^k \longrightarrow X
 $$
 
@@ -5236,7 +5242,6 @@ $$
     \\
     && X
   }
-  \,.
 $$
 
 Stated more [[category theory|abstractly]] this says that $X$ as a [[formal smooth set]]
@@ -6150,6 +6155,38 @@ over a _[[subcanonical site]]_.
 
 =--
 
+Similarly, in direct generalization of prop. \ref{CartSpYpnedaLemma} we have:
+
++-- {: .num_prop #SuperCartSpYpnedaLemma}
+###### Proposition
+**(plots of a [[super formal smooth set|super smooth set]] really are the [[smooth functions]] into the smooth smooth set)**
+
+Let $X$ be a [[super formal smooth set|super smooth set]] (def. \ref{SuperFormalSmoothSet}). 
+For $\mathbb{R}^n \times \mathbb{D}$ any [[super Cartesian space]] (def. \ref{SuperCartesianSpace})
+there is a [[natural transformation|natural]] [[function]]
+
+$$
+  Hom_{SmoothSet}(\mathbb{R}^n , X) \overset{\simeq}{\longrightarrow} X(\mathbb{R}^n)
+$$
+
+from the set of homomorphisms of super smooth sets from $\mathbb{R}^n \times \mathbb{D}$ (regarded as a super smooth set via example \ref{SuperSmoothSetSuperCartesianSpaces})
+to $X$, to the set of plots of $X$ over $\mathbb{R}^n \times \mathbb{D}$, given by evaluating on the [[identity function|identity]] plot $id_{\mathbb{R}^n \times \mathbb{D}}$.
+
+This function is a _[[bijection]]_.
+
+This says that the plots of $X$, which initially bootstrap $X$ into being as declaring the _would-be_ smooth functions
+into $X$, end up being the _actual_ smooth functions into $X$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is the statement of the _[[Yoneda lemma]]_ over the [[site]] of [[super Cartesian spaces]].
+
+=--
+
+
 
 We do not need to consider here [[supermanifolds]] more general than the [[super Cartesian spaces]] (def. \ref{SuperCartesianSpace}).
 But for those readers familiar with the concept we include the following direct analog of
@@ -6625,8 +6662,8 @@ $\,$
 ## Field variations
  {#FieldVariations}
 
-Given a [[field bundle]] as in def. \ref{Fields} above, then we know what type of quantities the corresponding fields assign to a given spacetime point ([[event]]). Among all consistent such field configurations, some are to qualify as those that "may occur in reality" if we think of the field theory as a means to describe parts of the [[observable universe]]. Moreover, if the reality to be described does not exhibit "action at a distance" then admissibility of its field configurations should be determined over arbitrary small spacetime regions, in fact over the [[infinitesimal neighbourhood]] of any spacetime point. This means equivalently that the realized field configurations should be those that satisfy a given _[[differential equation]]_, hence an [[equation]] between the value of the [[derivatives]] of the field
-configuration at any spacetime point.
+Given a [[field bundle]] as in def. \ref{Fields} above, then we know what [[type]] of quantities the corresponding 
+[[field histories]] assign to a given spacetime point (a given [[event]]). Among all consistent such field configurations, some are to qualify as those that "may occur in reality" if we think of the field theory as a means to describe parts of the [[observable universe]]. Moreover, if the reality to be described does not exhibit "action at a distance" then admissibility of its field configurations should be determined over arbitrary small spacetime regions, in fact over the [[infinitesimal neighbourhood]] of any spacetime point (remark \ref{JetBundleInTermsOfSyntheticDifferentialGeometry} below). This means equivalently that the realized field configurations should be those that satisfy a given _[[differential equation]]_, hence an [[equation]] between the value of the [[partial derivatives]] of the field history at any spacetime point.
 
 In order to formalize this, it is useful to first collect all the possible derivatives that a field may have at any given point into one big space of "field derivatives at spacetime points". This collection is called the _[[jet bundle]]_ of the [[field bundle]], given as def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime} below.
 
@@ -6704,13 +6741,13 @@ $$
 $$
 
 is the [[direct limit]] of [[super formal smooth sets|super smooth sets]] (def. \ref{SuperFormalSmoothSet}) over these finite order jet bundles. Explicitly this means that it is the [[smooth set]] which is defined
-by the fact that a smooth function
+by the fact that a smooth function (a plot, by prop. \ref{SuperCartSpYpnedaLemma})
 
 $$
   U \overset{f}{\longrightarrow} J^\infty_\Sigma(E)
 $$
 
-from some [[Cartesian space]] $U$ is equivalently a system of ordinary smooth functions
+from some [[super Cartesian space]] $U$ is equivalently a system of ordinary smooth functions
 into all the finite-order jet spaces
 
 $$
@@ -6750,12 +6787,22 @@ $$
 
 =--
 
+The coordinate functions $\phi^a_{\mu_1 \cdots \mu_k}$ on a [[jet bundle]] (def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
+are to be thought of as [[partial derivatives]] $\frac{\partial}{\partial x^{\mu_1}} \cdots \frac{\partial}{\partial x^{\mu_k}} \Phi^a$ of components $\Phi^a$ of would-be [[field histories]] $\Phi$. The power of the jet bundle is that it allows
+to disentangle relations between would-be partial derivatives of field history components in themselves
+from consideration of actual [[field histories]]. In traditional physics texts this is often done implicitly.
+We may make it fully explit by the operation of _[[jet prolongation]]_ which reads in a [[field history]]
+and records all its partial derivatives in the form of a section of the jet bundle:
+
 
 +-- {: .num_defn #JetProlongation}
 ###### Definition
 **([[jet prolongation]])**
 
-The [[smooth function]] from the [[space of sections]] of the original bundle to the space of sections of the jet bundle which records the field $\Phi$ and all its spacetimes [[derivatives]] is called _[[jet prolongation]]_:
+Let $E \overset{fb}{\to}$ be a [[field bundle]] (def. \ref{Fields}) which happens to be a [[trivial vector bundle]]
+(example \ref{TrivialVectorBundleAsAFieldBundle}).
+
+There is a  [[smooth function]] from the [[space of sections]] of $E$, the [[space of field histories]] (example \ref{SupergeometricSpaceOfFieldHistories}) to the space of sections of the [[jet bundle]] $J^\infty_\Sigma(E) \overset{jb^\infty}{\to} \Sigma$ (def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) which records the field $\Phi$ and all its spacetimes [[derivatives]]:
 
 $$
   \array{
@@ -6777,6 +6824,8 @@ $$
   }
   \,.
 $$
+
+This is called the operation of _[[jet prolongation]]_: $j^\infty_\Sigma(\Phi)$ is the jet prolongation of $\Phi$.
 
 =--
 
@@ -7250,9 +7299,9 @@ $\,$
 
 | def.  | symbols |  name in physics | name in mathematics |
 |--|--|---|--|
-|  | $\; \mathbf{d}$ | [[de Rham differential]]  | [[de Rham differential]] |
+| def. \ref{DifferentialFormOnSuperCartesianSpaces} | $\; \mathbf{d}$ | [[de Rham differential]]  | [[de Rham differential]] |
 | \ref{VariationalBicomplexOnSecondOrderJetBundleOverTrivialVectorBundleOverMinkowskiSpacetime}  | $\; d \coloneqq d x^\mu \frac{d}{d x^\mu}$ | [[total derivative|total spacetime derivative]]   | [[horizontal derivative]]  |
-| \ref{VariationalBicomplexOnSecondOrderJetBundleOverTrivialVectorBundleOverMinkowskiSpacetime} | $ \; \frac{d}{d x^\mu} \coloneqq \frac{\partial}{\partial x^\mu} +  \phi^a_{,\mu} \frac{\partial}{\partial \phi^a}  + \cdots $ | [[total derivative|total spacetime derivative]] along $\partial_\mu$  |  [[horizontal derivative]] along $\partial_\mu$ |
+| \ref{VariationalBicomplexOnSecondOrderJetBundleOverTrivialVectorBundleOverMinkowskiSpacetime} | $ \; \frac{d}{d x^\mu} \coloneqq \frac{\partial}{\partial x^\mu} +  \phi^a_{,\mu} \frac{\partial}{\partial \phi^a}  + \cdots $ | [[total derivative|total spacetime derivative]] <br/> along $\partial_\mu$  |  [[horizontal derivative]] <br/> along $\partial_\mu$ |
 | \ref{VariationalBicomplexOnSecondOrderJetBundleOverTrivialVectorBundleOverMinkowskiSpacetime} | $\; \delta \coloneqq \mathbf{d} - d$ | [[variational derivative]]  | [[vertical derivative]] |
 | \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}  | $\; \delta_{EL} \mathbf{L} \coloneqq \mathbf{d}\mathbf{L} + d \Theta_{BFV}$ | [[Euler-Lagrange variational derivative|Euler-Lagrange variation]]  | [[Euler-Lagrange operator]] |
 | \ref{BVComplexOfOrdinaryLagrangianDensity} | $\; s_{BV}$  | [[BV-differential]]  |  [[Koszul complex|Koszul differential]]  |
