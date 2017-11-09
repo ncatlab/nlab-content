@@ -51,6 +51,8 @@ For details see at _[[geometry of physics -- A first idea of quantum field theor
 
 ## Related concepts
 
+* [[shell]]
+
 * [[super-Minkowski spacetime]]
 
 [[!redirects Minkowski metrics]]
