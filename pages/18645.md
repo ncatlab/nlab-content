@@ -1531,7 +1531,7 @@ $\,$
 ## Spacetime
   {#Spacetime}
 
-[[relativistic field theory|Relativistic field theory]] takes place in (or on) _[[spacetime]]_.
+[[relativistic field theory|Relativistic field theory]] takes place on _[[spacetime]]_.
 
 The concept of [[spacetime]] makes sense for every [[dimension]] $p+1$ with $p \in \mathbb{N}$.
 The [[observable universe]] has macroscopic dimension $3+1$, but [[quantum field theory]] generally makes sense
@@ -1779,7 +1779,8 @@ Hence the conjugation operation makes $\mathbb{K}$ a [[real numbers|real]] [[nor
 ###### Remark
 **(sequence of inclusions of real [[normed division algebras]])**
 
-Sending each generator in def. \ref{TheComplexNumbers}, def. \ref{TheQuaternions} and def. \ref{TheOctonions} to the generator of the same name in the next larger algebra constitutes a sequence of real [[star-algebra]] [[homomorphisms]]
+Suitably embedding the sets of generators in def. \ref{TheComplexNumbers}, def. \ref{TheQuaternions} and def. \ref{TheOctonions} 
+into each other yields sequences of real [[star-algebra]] [[monomorphisms|inclusions]]
 
 $$
   \mathbb{R}
@@ -1790,6 +1791,21 @@ $$
     \hookrightarrow
   \mathbb{O}
   \,.
+$$
+
+For example for the first two inclusions we may send each generator to the generator of the same name, and for the
+last inclusion me may choose
+
+$$
+  \array{
+    1 &\mapsto& 1
+    \\
+    e_1 &\mapsto & e_3
+    \\
+    e_2 &\mapsto& e_4
+    \\
+    e_3 &\mapsto& e_6
+  }
 $$
 
 =--
@@ -1810,7 +1826,7 @@ are, up to [[isomorphism]], the _only_ real normed division algebras that exist.
 ###### Remark
 **([[Cayley-Dickson construction]] and [[sedenions]])**
 
-While hence the sequence from remark \ref{SequenceOfInclusionsOfRealNormedDivisionAlgebras}
+While prop. \ref{HurwitzTheorem} says that the sequence from remark \ref{SequenceOfInclusionsOfRealNormedDivisionAlgebras}
 
 $$
   \mathbb{R}
@@ -1888,9 +1904,9 @@ We record some basic properties of associators in alternative star-algebras that
 ###### Proposition
 **(properties of [[alternative algebra|alternative]] [[star algebras]])**
 
-Let $A$ be an [[alternative algebra]] (def. \ref{AlternativeAlgebra}) which is also a [[star algebra]]. Then
+Let $A$ be an [[alternative algebra]] (def. \ref{AlternativeAlgebra}) which is also a [[star algebra]]. Then (using def. \ref{Conjugation}):
 
-1. the [[associator]] vanishes when at least one argument is real
+1. the [[associator]] vanishes when at least one argument is [[real part|real]]
 
    $$
      [Re(a),b,c]
@@ -1903,14 +1919,14 @@ Let $A$ be an [[alternative algebra]] (def. \ref{AlternativeAlgebra}) which is a
      \,;
    $$
 
-1. the [[associator]] vanishes when one of its arguments is the conjugate of another:
+1. the [[associator]] vanishes when one of its arguments is the conjugate of another
 
    $$
      [a,a^\ast, b] = 0
      \,;
    $$
 
-1. the [[associator]] is purely imaginary
+1. the [[associator]] is purely [[imaginary part|imaginary]]
 
    $$
      Re([a,b,c]) = 0
@@ -2125,8 +2141,7 @@ Let $\mathbb{K}$ be one of the four real [[normed division algebras]] from prop.
 real [[alternative algebra|alternative]] [[division algebras]] from prop. \ref{ZornTheorem}.
 
 Then the [[real vector space]] of $2 \times 2$ [[hermitian matrices]] over $\mathbb{K}$ (def. \ref{MatrixNotation})
-equipped with the [[inner product]] whose [[norm]]-square is the negative of the [[determinant]] operation on matrices
-is _[[Minkowski spacetime]]_:
+equipped with the [[inner product]] $\eta$ whose [[quadratic form]] ${\vert -\vert^2_\eta}$ is the negative of the [[determinant]] operation on matrices is _[[Minkowski spacetime]]_:
 
 $$
   \label{MinkowskiSpacetimeFromHermitianMatricesWithDeterminant}
@@ -2137,7 +2152,7 @@ $$
     \left(
       \mathbb{R}^{dim_{\mathbb{R}(\mathbb{K})}+2}
       ,
-      \eta
+      {\vert -\vert^2_\eta}
     \right)
     & \coloneqq
     \left(Mat_{2 \times 2}^{her}(\mathbb{K}), -det \right)
@@ -2156,46 +2171,82 @@ hence
 1. $\mathbb{R}^{9,1}$ for $\mathbb{K} = \mathbb{O}$.
 
 Here we think of the [[vector space]] on the left as $\mathbb{R}^{p,1}$
-with $p = dim_{\mathbb{R}}(\mathbb{K})+1$,
-equipped with the canonical coordinates labeled $(x_\mu)_{\mu = 0}^p$.
-
-Hence as a [[linear map]] the identification is given by
+with 
 
 $$
-  (x_0, x_1, \cdots, x_{d-1})
+  p \coloneqq dim_{\mathbb{R}}(\mathbb{K})+1
+$$
+
+equipped with the canonical coordinates labeled $(x^\mu)_{\mu = 0}^p$.
+
+As a [[linear map]] the identification is given by
+
+$$
+  (x^0, x^1, \cdots, x^{d-1})
     \;\mapsto\;
   \left(
     \array{
-      x_0 + x_1 & y
+      x^0 + x^1 & y
       \\
-      y^\ast & x_0 - x_1
+      y^\ast & x^0 - x^1
     }
   \right)
   \;\;\;
   \text{with}\;
-  y \coloneqq x_2 1 + x_3 e_1 + x_4 e_2 +   \cdots + x_{2 + dim_{\mathbb{R}(\mathbb{K})}} \,e_{dim_{\mathbb{R}}(\mathbb{K})-1}
+  y \coloneqq x^2 1 + x^3 e_1 + x^4 e_2 +   \cdots + x^{2 + dim_{\mathbb{R}(\mathbb{K})}} \,e_{dim_{\mathbb{R}}(\mathbb{K})-1}
   \,.
 $$
 
-Under this identification the operation of trace reversal from def. \ref{TraceReversal}
+This means that the [[quadratic form]] ${\vert - \vert^2_\eta}$ is given on an element $v = (v^\mu)_{\mu = 0}^p$ by
+
+$$
+  {\vert v \vert}^2_{\eta}
+    \;=\;
+  - (v^0)^2 + \underoverset{j = 1}{p}{\sum} (x^j)^2
+  \,.
+$$
+
+By the [[polarization identity]] the [[quadratic form]] ${\vert - \vert^2_\eta}$ induces a [[bilinear form]]
+
+$$
+  \eta \;\colon\; \mathbb{R}^{p,1}\otimes \mathbb{R}^{p,1} \longrightarrow \mathbb{R}
+$$
+
+given by
+
+$$
+ \begin{aligned}
+    \eta(v_1, v_2) 
+    & =
+    \eta_{\mu \nu} v_1^\mu v_1^\nu
+    \\
+    & \coloneqq
+    - v_1^0 v_2^0 + \underoverset{j  = 1}{p}{\sum} v_1^j v_2^j
+  \end{aligned}   
+  \,.
+$$
+
+This is called the _[[Minkowski metric]]_.
+
+Finally, under the above identification the operation of trace reversal from def. \ref{TraceReversal}
 corresponds to _time reversal_ in that
 
 $$
   \widetilde{
   \left(
     \array{
-      x_0 + x_1 & y
+      x^0 + x^1 & y
       \\
-      y^\ast & x_0 - x_1
+      y^\ast & x^0 - x^1
     }
   \right)
   }
    \;=\;
   \left(
     \array{
-      -x_0 + x_1 & y
+      -x^0 + x^1 & y
       \\
-      y^\ast & -x_0 - x_1
+      y^\ast & -x^0 - x^1
     }
   \right)
   \,.
@@ -2206,7 +2257,9 @@ $$
 +-- {: .proof}
 ###### Proof
 
-This is immediate from the nature of the conjugation operation $(-)^\ast$ from def. \ref{Conjugation}:
+We need to check that under the given identification, the Minkowski norm-square is indeed given by minus the determinant on the
+corresponding hermitian matrices.
+This follows from the nature of the conjugation operation $(-)^\ast$ from def. \ref{Conjugation}:
 
 $$
   \begin{aligned}
@@ -2214,23 +2267,136 @@ $$
     det
     \left(
       \array{
-        x_0 + x_1 & y
+        x^0 + x^1 & y
         \\
-        y^\ast & x_0 - x_1
+        y^\ast & x^0 - x^1
       }
     \right)
     & =
-    -(x_0 + x_1)(x_0 - x_1)
+    -(x^0 + x^1)(x^0 - x^1)
     +
     y y^\ast
     \\
     & =
-    -(x_0)^2 + \underoverset{a = 1}{d-1}{\sum} (x_a)^2
+    -(x^0)^2 + \underoverset{i = 1}{p}{\sum} (x^i)^2
   \end{aligned}
   \,.
 $$
 
 =--
+
++-- {: .num_remark #MinkowskiMetricAndPhysicalUnitOfLength}
+###### Remark
+**([[physical units]] of [[length]])**
+
+As the term "[[metric]]" suggests, in application to [[physics]], the [[Minkowski metric]] $\eta$ in prop./def. \ref{SpacetimeAsMatrices} is regarded as a _measure of [[length]]_: for $v \in \Gamma_x(T \mathbb{R}^{p,1})$ a [[tangent vector]] at a point $x$ in Minkowski spacetime, interpreted as a displacement from [[event]] $x$ to event $x + v$, then
+
+1. if $\eta(v,v) \gt 0$ then
+
+   $$
+     \sqrt{\eta(v,v)} \in \mathbb{R}
+   $$
+
+   is interpreted as a measure for the _[[spacelike|spatial]] [[distance]]_ between $x$ and $x + v$;
+
+1. if $\eta(v,v) \lt 0$ then
+
+   $$
+     \sqrt{-\eta(v,v)} \in \mathbb{R}
+   $$
+
+   is interpreted as a measure for the _[[timelike|time]] [[distance]]_ between $x$ and $x + v$.
+
+But for this to make physical sense, an operational prescription needs to be specified that tells the experimentor how the _[[real number]]_ $\sqrt{\eta(v,v)}$ is to be translated into an physical distance between actual [[events]] in the [[observable universe]].
+
+Such an operational prescription is called a _[[physical unit]] of [[length]]_.
+For example "[[centimeter]]" $cm$ is a physical unit of length, another one is "[[femtometer]]" $fm$.
+
+The combined information of a [[real number]] $\sqrt{\eta(v,v)} \in \mathbb{R}$ and a [[physical unit]] of [[length]] such as [[meter]], jointly written
+
+$$
+  \sqrt{\eta(v,v)} \, cm
+$$
+
+is a prescription for finding actual distance in the [[observable universe]]. Alternatively
+
+$$
+  \sqrt{\eta(v,v)} \, fm
+$$
+
+is another prescription, that translates the same [[real number]] $\sqrt{\eta(v,v)}$ into another physical distance.
+
+But of course they are related, since [[physical units]] form a [[torsor]] over the [[group]] $\mathbb{R}_{\gt 0}$ of [[non-negative number|non-negative]] [[real numbers]], meaning that any two are related by a unique rescaling. For example
+
+$$
+  fm = 10^{-13} cm
+  \,,
+$$
+
+with $10^{-13} \in \mathbb{R}_{\gt 0}$.
+
+This means that once any one prescription of turning real numbers into spacetime distances is specified, then any other such prescription is obtained from this by rescaling these real numbers. For example
+
+$$
+  \begin{aligned}
+    \sqrt{\eta(v,v)} \, fm 
+    & = \left( 10^{-13} \sqrt{\eta(v,v)}\right) \,cm
+    \\
+    & =
+    \sqrt{ 10^{-26} \eta(v,v) } \, cm
+  \end{aligned}
+  \,.
+$$
+
+The point to notice here is that, via the last line, we may think of this as 
+_rescaling the [[metric]]_ from $\eta$ to $10^{-30} \eta$.
+
+In [[quantum field theory]] [[physical units]] of [[length]] are typically expressed in terms of a 
+[[physical unit]] of "[[action]]", called "[[Planck's constant]]" $\hbar$, via the 
+combination of units called the _[[Compton wavelength]]_ 
+
+$$
+  \label{ComptonWavelength}
+  \ell_m = \frac{2\pi \hbar}{m c}
+  \,.
+$$
+
+parameterized, in turn, by a [[physical unit]] of [[mass]] $m$. For the mass of the [[electron]],
+the [[Compton wavelength]] is
+
+$$
+  \ell_e =  \frac{2\pi \hbar}{m_e c} \sim 386 \, fm
+  \,.
+$$
+
+
+Another [[physical unit]] of [[length]] parameterized by a [[mass]] $m$ is the _[[Schwarzschild radius]]_ $r_m \coloneqq 2 m G/c^2$, where $G$ is the [[gravitational constant]]. Solving the [[equation]]
+
+$$
+  \array{
+    & \ell_m &=& r_m
+    \\
+    \Leftrightarrow & 2\pi\hbar / m c &=& 2 m G / c^2
+  }
+$$
+
+for $m$ yields the _[[Planck mass]]_
+
+$$
+   m_{P} \coloneqq \tfrac{1}{\sqrt{\pi}} m_{\ell = r} = \sqrt{\frac{\hbar c}{G}}
+  \,.
+$$
+
+The corresponding [[Compton wavelength]] $\ell_{m_{P}}$ is given by the _[[Planck length]]_ $\ell_P$
+
+$$
+  \ell_{P} \coloneqq \tfrac{1}{2\pi} \ell_{m_P} = \sqrt{ \frac{\hbar G}{c^3} }
+  \,.
+$$
+
+
+=--
+
 
 +-- {: .num_defn #MinkowskiSpacetime}
 ###### Definition
@@ -2238,7 +2404,7 @@ $$
 
 Prop./def. \ref{SpacetimeAsMatrices} introduces [[Minkowski spacetime]] $\mathbb{R}^{p,1}$
 for $p+1 \in \{3,4,6,10\}$ as a
-a [[vector space]] $\mathbb{R}^{p,1}$ equipped with an [[inner product]]. The genuine [[spacetime]] corresponding to this
+a [[vector space]] $\mathbb{R}^{p,1}$ equipped with a [[norm]] ${\vert - \vert_\eta}$. The genuine [[spacetime]] corresponding to this
 is this vector space regaded as a [[Cartesian space]], i.e. with [[smooth functions]] (instead of just [[linear maps]])
 to it and from it (def. \ref{CartesianSpacesAndSmoothFunctionsBetweenThem}).
 This still carries one copy of $\mathbb{R}^{p,1}$ over each point $x \in \mathbb{R}^{p,1}$, as its [[tangent space]] (example \ref{TangentVectorFields})
@@ -2661,7 +2827,7 @@ Then
 
 This is immediate by inspection:
 
-For the first statement observe that conjugating the Clifford generator $\Gamma_b$ with $\Gamma_a$
+For the first statement, observe that conjugating the Clifford generator $\Gamma_b$ with $\Gamma_a$
 yields $\Gamma_b$ up to a sign, depending on whether $a = b$ or not:
 
 $$
@@ -2677,7 +2843,7 @@ $$
   \,.
 $$
 
-Therefore for $hat v = v^b \Gamma_b$ then $\Gamma_a^{-1} \hat v \Gamma_a$ is the result of
+Therefore for $\hat v = v^b \Gamma_b$ then $\Gamma_a^{-1} \hat v \Gamma_a$ is the result of
 multiplying the $a$-component of $v$ by $-1$.
 
 For the second statement, observe that
@@ -2705,9 +2871,7 @@ is the rotation action as claimed.
 +-- {: .num_remark #AmbiguityInCliffordConjugation}
 ###### Remark
 
-Since the [[reflections]], [[rotations]] and [[boosts]] in example \ref{CliffordConjugtionReflectionAndRotation}
-are given by [[conjugation actions]], there is a crucial ambiguity in the Clifford elements that
-induce them:
+Since the [[reflections]], [[rotations]] and [[boosts]] in example \ref{CliffordConjugtionReflectionAndRotation} are given by [[conjugation actions]], there is a crucial ambiguity in the Clifford elements that induce them:
 
 1. the conjugation action by $\Gamma_a$ coincides precisely with the conjugation action by $-\Gamma_a$;
 
@@ -7688,6 +7852,47 @@ is (or defines) a _[[prequantum field theory|prequantum]] [[Lagrangian field the
 =--
 
 
++-- {: .num_remark #ParameterizedLagrangianDensities}
+###### Remark
+**(parameterized and [[physical unit]]-less [[Lagrangian densities]])**
+
+More generally we may consider parameterized collections of [[Lagrangian densities]] spring, i.e. functions
+
+$$
+  \mathbf{L}_{(-)}
+  \;\colon\;
+  U \longrightarrow \Omega^{p+1,0}_\Sigma(E)
+$$
+
+for $U$ some [[Cartesian space]] or generally some [[super Cartesian space]].
+
+For example all [[Lagrangian densities]] considered in [[relativistic field theory]] are naturally [[smooth functions]] of the scale of the [[metric]] $\eta$ (def. \ref{SpacetimeAsMatrices})
+
+$$
+  \array{
+    \mathbb{R}_{\gt 0}
+      &\overset{}{\longrightarrow}&
+    \Omega^{p+1,0}_\Sigma(E)
+    \\
+    r &\mapsto& \mathbf{L}_{r^2\eta}
+  }
+$$
+
+But by the discussion in remark \ref{MinkowskiMetricAndPhysicalUnitOfLength}, in [[physics]] a rescaling of the [[metric]] is interpreted as reflecting but a change of [[physical units]] of [[length]]/[[distance]]. Hence if a [[Lagrangian density]] is supposed to express intrinsic content of a [[theory (physics)|physical theory]], it should remain unchanged under such a change of [[physical units]].
+
+This is achieved by having the Lagrangian be parameterized by _further_ parameters, whose corresponding [[physical units]] compensate that of the metric such as to make the Lagrangian density "[[physical unit]]-less".
+
+This means to consider parameter spaces $U$ equipped with an [[action]] of the multiplicative [[group]] $\mathbb{R}_{\gt 0}$ of [[positive real numbers]], and parameterized Lagrangians
+
+$$
+  \mathbf{L}_{(-)} \;\colon\; U \longrightarrow \Omega^{p+1,0}_\Sigma(E)
+$$
+
+which are [[invariant]] under this [[action]].
+
+=--
+
+
 +-- {: .num_remark #LocallyVariationalFieldTheory}
 ###### Remark
 **([[locally variational field theory]] and Lagrangian [[circle n-bundle with connection|p-gerbe connection]])**
@@ -7733,35 +7938,25 @@ $$
   \,.
 $$
 
-As $m$ varies this naturally yields a 1-parameter collection of Lagrangian densities
+This is naturally thought of as a collection of Lagrangians smoothly parameterized by the 
+[[metric]] $\eta$ and the [[mass]] $m$. For this to be [[physical unit]]-free in the sense of 
+remark \ref{ParameterizedLagrangianDensities} the [[physical unit]] of the parameter $m$ must be
+that of the inverse metric, hence must be an inverse [[length]] according to remark \ref{MinkowskiMetricAndPhysicalUnitOfLength} 
+This is the _inverse [[Compton wavelength]]_  $\ell_m = \hbar / m c$ (eq:ComptonWavelength) and hence
+the [[physical unit]]-free version of the Lagrangian density for the free scalar particle is
 
 $$
-  \mathbf{L}_{(-)}
-    \;\colon\;
-   \mathbb{R}^1 
-     \;\longrightarrow\;
-   \mathbf{L}^{p+1}_\Sigma(E)
-$$
-
-which is homogeneously scaling if we give the parameter $m$ is proportional to a [[physical unit]] of $[lenght]^{-1}$,
-according to remark \ref{PhysicalUnitLength}.
-As such it is written $m c/\hbar$ and called the inverse _[[Compton wavelength]]_
-
-$$
-  \mathbf{L}_{(-)}
-    \;\colon\;
-  m c/\hbar
-   \mapsto
-   \tfrac{1}{2}
+  \mathbf{L}_{\eta,\ell_m}
+  \:\coloneqq\;
+  \tfrac{\ell_m^2}{2}
   \left(
     \eta^{\mu \nu} \phi_{,\mu} \phi_{,\nu}
     -
-    \left( \tfrac{m c}{\hbar} \right) \phi^2
+    \left( \tfrac{m c}{\hbar} \right)^2 \phi^2
   \right)
   \mathrm{dvol}_\Sigma 
   \,.
 $$
-
 
 
 =--
@@ -7929,16 +8124,18 @@ $$
   \end{aligned}
 $$
 
-As for the [[Lagrangian density]] for the [[real scalar field]], this is naturally a 1-parameter collection
-of Lagrangian densities, and again homogeneous scaling requires that the parameter is proportional 
-to a [[physical unit]] of $[length]^{-1}$ according to remark \ref{PhysicalUnitLength}.
-Equipped with this scaling this parameter called the _inverse [[Compton wavelength]]_ $m c / \hbar$:
+
+This is naturally thought of as a collection of Lagrangians smoothly parameterized by the
+[[metric]] $\eta$ and the [[mass]] $m$. For this to be [[physical unit]]-free in the sense of
+remark \ref{ParameterizedLagrangianDensities} the [[physical unit]] of the parameter $m$ must be
+that of the inverse metric, hence must be an inverse [[length]] according to remark \ref{MinkowskiMetricAndPhysicalUnitOfLength}
+This is the _inverse [[Compton wavelength]]_  $\ell_m = \hbar / m c$ (eq:ComptonWavelength) and hence
+the [[physical unit]]-free version of the Lagrangian density for the free Dirac field is
 
 $$
-  \mathbf{L}_{(-)}
-    \;\colon\;
-  m c/\hbar 
-    \;\mapsto\;
+  \mathbf{L}_{\eta,\ell_m}
+    \;\coloneqq\;
+  \ell_m
   \left(
     i \overline{\psi} \gamma^\mu \psi_{,\mu} + \left( \tfrac{m c}{\hbar} \right) \overline{\psi} \psi
   \right) dvol_\Sigma
@@ -8392,92 +8589,7 @@ $$
 
 =--
 
-+-- {: .num_remark #PhysicalUnitLength}
-###### Remark
-**([[physical units]] of powers of [[length]])
 
-For $E \overset{fb}{\to} \Sigma$ a [[field bundle]] (def. \ref{Fields})
-and $\mathbf{L} \in \Omega^{p+1}_\Sigma(E)$ a [[Lagrangian density]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
-then of course for every [[real number]] $r \in \mathcal{R}$ of course also the multiple
-
-$$
-  r \mathbf{L} \in \Omega^{p+1}_\Sigma(E)
-$$
-
-is a Lagrangian density. Moreover, by prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}
-this rescaled Lagrangian induces correspondingly rescaled [[Euler-Lagrange forms]] and [[presymplectic currents]].
-
-But the [[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]] (eq:EulerLagrangeEquationGeneral)
-for the rescaled Lagrangian is clearly equivalent to that of the original Lagrangian: they have the same solutions.
-Similarly, later we see that the rescaled [[presymplectic current]] induced the same [[quantizations]]
-as the original presymlectic current does (the difference may be absorbed in a redefinition of [[Planck's constant]]).
-
-Therefore for [[quantum field theory]] globally defined Lagrangian densities matter only
-up to rescaling of the Lagrangian (for [[locally variational field theories]], remark \ref{LocallyVariationalFieldTheory},
-the situation is more subtle).
-
-But consider the case of a [[field bundle]] $E \overset{fb}{\to} \Sigma$ over [[Minkowski spacetime]] $\Sigma = \mathbb{R}^{p+1}$ (def. \ref{MinkowskiSpacetime}). Then rescaling of _[[spacetime]] [[coordinates]]_ 
-
-$$
-  \array{
-    \mathbb{R}^\times \times \mathbb{R}^{p+1} \longrightarrow  \mathbb{R}^{p,1}
-  }
-$$
-
-extends to an [[action]] of the multiplicative [[group]] $\mathbb{R}^\times$ of non-zero [[real numbers]]
-to the total space of the [[jet bundle]]
-
-$$
-  sc 
-    \;\colon\; 
-  \mathbb{R}^\times \times J^\infty_\Sigma(E) 
-    \longrightarrow 
-  J^\infty_\Sigma(E)
-$$
-
-given on induced jet coordinates by
-
-$$
-  \begin{aligned}
-    x^\mu & \mapsto r x^\mu
-    \\
-    \phi^a & \mapsto \phi^a
-    \\
-    \phi^a_{,\mu_1, \cdots \mu_k} & \mapsto r^{-k} \phi^a_{,\mu_1 \cdots \mu_k}
-  \end{aligned}
-  \,.
-$$
-
-Let then
-
-$$
-  \mathbf{L}_{(-)}
-   \;\colon\;
-  \mathbb{R}^1 \longrightarrow \mathbf{\Omega}^{p+1}(J^\infty_\Sigma(E))
-$$
-
-be a smooth collection of [[Lagrangian densities]] depending on one parameter,
-and consider the $R^\times$-[[action]] on the parameter given by
-
-$$
-  \array{
-    \mathbb{R}^\times \times \mathbb{R}^1 &\longrightarrow& \mathbb{R}^1
-    \\
-    (r, m) &\mapsto& r^{w} m
-  }
-$$
-
-for some $w \in \mathbb{Z}$.
-
-If this is such that the _combined_ rescaling changes the Lagrangian only up to a multiple, in that
-
-$$
-  sc^\ast_r \mathbf{L}_{sc_r(-)} = f(r) \mathbf{L}_{(-)}
-$$
-
-then we say that this parameter is _proportional to a [[physical unit]] of $length^{w}$_.
-
-=--
 
 
 Many examples of interest fall into the following two special cases of prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}:
