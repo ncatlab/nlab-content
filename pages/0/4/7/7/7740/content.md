@@ -167,6 +167,8 @@ For the case of [[algebraic geometry]], where $\Im X$ is known as the [[de Rham 
 
 ## Related concepts
 
+* [[formally adjoint differential operator]]
+
 * [[symbol of a differential operator]]
 
 * [[index of a differential operator]]
