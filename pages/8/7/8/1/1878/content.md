@@ -238,14 +238,14 @@ $$
   \array{
     X &\to& Z &\stackrel{\sigma}{\to}& X
     \\
-    \downarrow^f && \downarrow^{\mathrlap{\in W}} && \downarrow^f
+    \downarrow^f && \downarrow^{\mathrlap{\in inj(I)}} && \downarrow^f
     \\
     Y &\stackrel{=}{\to}& Y 
     & \stackrel{=}{\to} & Y
   }
 $$
 
-that exhibits $f$ as a weak equivalence.
+that exhibits $f$ as an element of $inj(I)$ as this is closed under retracts.
 
 =--
 
