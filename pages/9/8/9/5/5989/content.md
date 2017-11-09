@@ -8,7 +8,7 @@ He had six Ph.D. students: Ira Wolf (1971), Carol Ann Keller (1983), Norman Adam
 > (Taken from [this website](http://www.math.rutgers.edu/newsletter/newsletter2003.html))
 
 
-Myles Tierney died on October 6, 2017 having turned 80 in September. He made important contributions to category theory in collaboration with [[Bill Lawvere]] and with [[André Joyal]].
+Myles Tierney died on October 5, 2017 having turned 80 in September. He made important contributions to category theory in collaboration with [[Bill Lawvere]] and with [[André Joyal]].
 
 ## References
 
