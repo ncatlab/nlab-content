@@ -24,7 +24,7 @@
 
 A _spacetime_ is a [[manifold]] that models [[space]] and [[time]] in [[physics]].
 
-This is formalized by saying that a **spacetime** is a [[smooth Lorentzian space]] $(X,\mu)$ equipped with a time orientation (see there).
+This is formalized by saying that a **spacetime** is a [[smooth Lorentzian space]] $(X,\mu)$ equipped with a [[time orientation]] (see there).
 
 Hence a point in a spacetime is called an _[[event]]_.
 
