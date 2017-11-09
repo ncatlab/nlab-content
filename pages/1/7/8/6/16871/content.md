@@ -22,7 +22,7 @@
 
 In [[physics]] the [[critical locus]] of the [[action functional]], hence the solution space to the [[equations of motion]] is often called the _shell_, or the _physical shell_. 
 
-This terminology derives from the case of the free relativistic particle propagating in [[Minkowski spacetime]], for which the space of solutions is the hyperbola of vectors whose Minkowski norm is the mass of the particle. This hyperbola is naturally called the _mass shell_.
+This terminology derives from the case of the free [[relativistic particle]] propagating in [[Minkowski spacetime]], for which the space of solutions is the hyperbola of vectors whose [[Minkowski metric|Minkowski norm square]] is the [[mass]] of the particle. This hyperbola is naturally called the _mass shell_.
 
 It is common to use the adjective "on-shell" for statements that apply after restriction to the shell, and "off-shell" for statements that apply generally. 
 
