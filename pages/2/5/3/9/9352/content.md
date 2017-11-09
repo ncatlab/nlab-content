@@ -46,6 +46,13 @@ for the [[force]] exerted by either [[mass]] $m_i$ on the other at a distance $r
 
 There is good stuff to say here about how we only know this constant to about 6 significant digits and why consequently the kilogramme must still be defined by a specific reference object.
 
+## Related concepts
+
+* [[physical unit]]
+
+* [[Schwarzschild radius]]
+
+* [[Planck mass]], [[Planck length]]
 
 ## References
 
