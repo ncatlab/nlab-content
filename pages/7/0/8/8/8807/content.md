@@ -8,7 +8,7 @@ As well as considering modalities applied to propositions in _propositional_ [[m
 
 In the possible worlds setting, we think of a world containing a collection of individuals, instantiating various relations. Then we may require that for an individual in one world, for every related world there be a **counterpart** there. See Kracht & Kutz.
 
-Various axioms concerning the interaction of the quantifiers and modal operators have been suggested, such as the **Barcan formula**
+Various axioms concerning the interaction of the quantifiers and modal operators have been suggested, such as the **converse Barcan formula**
 
 $$
 \Box \forall x F x \to \forall x \Box F x,
