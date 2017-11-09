@@ -44,7 +44,7 @@ This is joint work with [[Igor Khavkine]].
 
 In full beauty these concepts are extremely general and powerful; but the aim here is to give a first precise idea of the subject, not
 a fully general account.
-Therefore we concentrate on the special case where [[spacetime]] is [[Minkowski spacetime]] (def. \ref{MinkowskiSpacetime} below), where the [[field bundle]] (def. \ref{Fields} below) is an ordinary [[trivial vector bundle]] (example \ref{TrivialVectorBundleAsAFieldBundle} below) and hence the [[Lagrangian  density]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime} below) is [[locally variational field theory|globally defined]].
+Therefore we concentrate on the special case where [[spacetime]] is [[Minkowski spacetime]] (def. \ref{MinkowskiSpacetime} below), where the [[field bundle]] (def. \ref{FieldsAndFieldBundles} below) is an ordinary [[trivial vector bundle]] (example \ref{TrivialVectorBundleAsAFieldBundle} below) and hence the [[Lagrangian  density]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime} below) is [[locally variational field theory|globally defined]].
 Similarly, when considering [[gauge theory]] we consider just the special case that the [[gauge parameter]]-bundle
 is a [[trivial vector bundle]]  and we concentrate on the case that the gauge symmetries are "closed irreducible" (def. \ref{GaugeParametrizedInfinitesimalGaugeTransformation} below).
 But we aim to organize all concepts such that the _structure_ of their generalization to [[AQFT on curved spacetime|curved spacetime]]
@@ -3697,11 +3697,11 @@ This concludes our discussion of [[spin]] and [[spacetime]]. In the [next chapte
 $\,$
 
 ## Fields
- {#FieldBundles}
+ {#Fields}
 
 A [[field history]] on a given [[spacetime]] $\Sigma$ is a [[quantity]] assigned to each point of spacetime (each [[event]]), such that this assignment varies smoothly with spacetime points. For instance an _[[electromagnetic field]] [[field history|history]]_ (example \ref{Electromagnetism} below) is at each point of spacetime a collection of [[vectors]] that encode the direction in which a [[charged particle]] passing through that point will feel a [[force]] (the "[[Lorentz force]]", see example \ref{Electromagnetism} below).
 
-This is readily formalized (def. \ref{Fields} below): If $F$ denotes the [[smooth manifold]] of "values" that the given kind of field may take at any spacetime point, then a field configuration $\Phi$ is modeled as a [[smooth function]] from spacetime to this space of values:
+This is readily formalized (def. \ref{FieldsAndFieldBundles} below): If $F$ denotes the [[smooth manifold]] of "values" that the given kind of field may take at any spacetime point, then a field configuration $\Phi$ is modeled as a [[smooth function]] from spacetime to this space of values:
 
 $$
   \Phi
@@ -3760,8 +3760,8 @@ $\,$
 
 | aspect | formalization | notation |
 |-----|-----|----|
-| $\phantom{A}$ [[type]] of field | [[field bundle]] <br/> (def. \ref{Fields}) | $\array{ && E \\ && \downarrow^{\mathrlap{fb}} \\ \phantom{\Sigma} &\phantom{=}& \Sigma}$ |
-| $\phantom{A}$ [[field history]] | [[section]] of [[field bundle]] <br/> (def. \ref{Fields}, expl. \ref{DiffeologicalSpaceOfFieldHistories}, expl. \ref{SupergeometricSpaceOfFieldHistories}) |  $\,\,\array{ && E \\ & {}^{\mathllap{\Phi}}\nearrow & \downarrow^{\mathrlap{fb}} \\ \Sigma &=& \Sigma }$ |
+| $\phantom{A}$ [[type]] of field | [[field bundle]] <br/> (def. \ref{FieldsAndFieldBundles}) | $\array{ && E \\ && \downarrow^{\mathrlap{fb}} \\ \phantom{\Sigma} &\phantom{=}& \Sigma}$ |
+| $\phantom{A}$ [[field history]] | [[section]] of [[field bundle]] <br/> (def. \ref{FieldsAndFieldBundles}, expl. \ref{DiffeologicalSpaceOfFieldHistories}, expl. \ref{SupergeometricSpaceOfFieldHistories}) |  $\,\,\array{ && E \\ & {}^{\mathllap{\Phi}}\nearrow & \downarrow^{\mathrlap{fb}} \\ \Sigma &=& \Sigma }$ |
 | $\,$ field [[observable]] | [[delta-distribution]] on <br/> [[on-shell]]  [[space of field histories]] <br/> (def. \ref{Observables}, expl. \ref{PointEvaluationObservables})  |  $\,\, \Gamma_\Sigma(E)_{\delta_{EL} = 0} \overset{\mathbf{\Phi}^a(x)}{\longrightarrow} \mathbb{C} \;\;\;$  |
 
 
@@ -3786,7 +3786,7 @@ $\,$
 **[[field bundles]]**
  {#FieldBundles}
 
-+-- {: .num_defn #Fields}
++-- {: .num_defn #FieldsAndFieldBundles}
 ###### Definition
 **([[field (physics)|fields]] and [[field histories]])**
 
@@ -3831,7 +3831,7 @@ The set of such [[sections]]/[[field histories]] is to be denoted $\Gamma_\Sigma
 **(three aspects of the concept of "[[field (physics)|field]]")**
 
 Besides the _[[type]] of [[field (physics)|fields]]_, embodied by the [[field bundle]], and
-an actual _[[field history]]_, embodied by a [[section]] of that bundle according to def. \ref{Fields}, there is also
+an actual _[[field history]]_, embodied by a [[section]] of that bundle according to def. \ref{FieldsAndFieldBundles}, there is also
 the concept of [[observables]] on these field histories, introduced as def. \ref{Observables} below.
 Beware that in the literature often these three aspects of the concept of _[[field (physics)|field]]_
 are not terminologically distinguished.
@@ -3840,8 +3840,8 @@ are not terminologically distinguished.
 
 | aspect | [[term]] | [[type]] |  description | def. |
 |--|------------|-|---------|----|
-| [[field bundle|field component]] | $\phi^a$, $\phi^a_{,\mu}$ |  $J^\infty_\Sigma(E) \to \mathbb{R}$ |[[coordinate function]] on [[jet bundle]] of [[field bundle]] | def. \ref{Fields}, def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime} |
-| [[field history]] | $\Phi$, $\frac{\partial \Phi}{\partial x^\mu}$ | $\Sigma \to J^\infty_\Sigma(E)$  | [[jet prolongation]] of [[section]] of [[field bundle]] | def. \ref{Fields}, def. \ref{JetProlongation}  |
+| [[field bundle|field component]] | $\phi^a$, $\phi^a_{,\mu}$ |  $J^\infty_\Sigma(E) \to \mathbb{R}$ |[[coordinate function]] on [[jet bundle]] of [[field bundle]] | def. \ref{FieldsAndFieldBundles}, def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime} |
+| [[field history]] | $\Phi$, $\frac{\partial \Phi}{\partial x^\mu}$ | $\Sigma \to J^\infty_\Sigma(E)$  | [[jet prolongation]] of [[section]] of [[field bundle]] | def. \ref{FieldsAndFieldBundles}, def. \ref{JetProlongation}  |
 | [[observable|field observable]] | $\mathbf{\Phi}^a$, $\partial_{\mu} \mathbf{\Phi}^a $ | $\Gamma_{\Sigma}(E) \to \mathbb{R}$  | [[functional]] on [[space of sections]] | def. \ref{Observables}, example \ref{PointEvaluationObservables} |
 
 =--
@@ -3866,7 +3866,7 @@ $$
 
 where the index $\mu$ ranges from $0$ to $p$, while the index $a$ ranges from 1 to $s$.
 
-If this trivial vector bundle is regarded as a [[field bundle]] according to def. \ref{Fields}, then
+If this trivial vector bundle is regarded as a [[field bundle]] according to def. \ref{FieldsAndFieldBundles}, then
 a field configuration $\Phi$ is equivalently an $s$-[[tuple]] of [[real number|real]]-valued [[smooth functions]]
 $\Phi^a \colon \Sigma \to \mathbb{R}$ on spacetime:
 
@@ -3890,7 +3890,7 @@ $$
   F \coloneqq \mathbb{R}
 $$
 
-is simply the [[real line]], then the corresponding trivial [[field bundle]] (def. \ref{Fields})
+is simply the [[real line]], then the corresponding trivial [[field bundle]] (def. \ref{FieldsAndFieldBundles})
 
 $$
   \array{
@@ -3902,7 +3902,7 @@ $$
   }
 $$
 
-is the _[[trivial fiber bundle|trivial]] [[real line bundle]]_ (a special case of example \ref{TrivialVectorBundleAsAFieldBundle}) and the corresponding [[field (physics)|field]] type (def. \ref{Fields}) is called the _[[real scalar field]]_ on $\Sigma$. A configuration of this field is simply a [[smooth function]] on $\Sigma$ with values in the [[real numbers]]:
+is the _[[trivial fiber bundle|trivial]] [[real line bundle]]_ (a special case of example \ref{TrivialVectorBundleAsAFieldBundle}) and the corresponding [[field (physics)|field]] type (def. \ref{FieldsAndFieldBundles}) is called the _[[real scalar field]]_ on $\Sigma$. A configuration of this field is simply a [[smooth function]] on $\Sigma$ with values in the [[real numbers]]:
 
 $$
   \Gamma_\Sigma(\Sigma \times \mathbb{R})
@@ -3918,7 +3918,7 @@ $$
 ###### Example
 **([[field bundle]] for [[electromagnetic field]])**
 
-On [[Minkowski spacetime]] $\Sigma$ (def. \ref{MinkowskiSpacetime}), let the [[field bundle]] (def. \ref{Fields}) be given by the
+On [[Minkowski spacetime]] $\Sigma$ (def. \ref{MinkowskiSpacetime}), let the [[field bundle]] (def. \ref{FieldsAndFieldBundles}) be given by the
 [[cotangent bundle]]
 
 $$
@@ -4030,7 +4030,7 @@ with [[Lie algebra]] denoted $\mathfrak{g}$. Let $P \overset{is}{\to} \Sigma$ be
 $G$-[[principal bundle]] and $\nabla_0$ a chosen [[connection on a bundle|connection]] on it,
 to be called the [[background field|background]] $G$-[[Yang-Mills theory|Yang-Mills]] field.
 
-Then the [[field bundle]] (def. \ref{Fields}) for $G$-[[Yang-Mills theory]] _in the [[instanton|topological sector]]_ $P$
+Then the [[field bundle]] (def. \ref{FieldsAndFieldBundles}) for $G$-[[Yang-Mills theory]] _in the [[instanton|topological sector]]_ $P$
 is the [[tensor product of vector bundles]]
 
 $$
@@ -4248,8 +4248,8 @@ More generally, the same construction makes every [[smooth manifold]] a [[smooth
 ###### Example
 **([[diffeological space|diffeological]] [[space of field histories]])**
 
-Let $E \overset{fb}{\to} \Sigma$ be a smooth [[field bundle]] (def. \ref{Fields}).
-Then the set $\Gamma_\Sigma(E)$ of [[field histories]]/[[sections]] (def. \ref{Fields})
+Let $E \overset{fb}{\to} \Sigma$ be a smooth [[field bundle]] (def. \ref{FieldsAndFieldBundles}).
+Then the set $\Gamma_\Sigma(E)$ of [[field histories]]/[[sections]] (def. \ref{FieldsAndFieldBundles})
 becomes a [[diffeological space]] (def. \ref{DiffeologicalSpace})
 
 $$
@@ -5640,7 +5640,7 @@ of a [[submanifold]] of [[spacetime]], which will be crucial for the discussion 
 ###### Definition
 **([[field histories]] on [[infinitesimal neighbourhood]] of [[submanifold]] of [[spacetime]])**
 
-Let $E \overset{fb}{\to} \Sigma$ be a [[field bundle]] (def. \ref{Fields})
+Let $E \overset{fb}{\to} \Sigma$ be a [[field bundle]] (def. \ref{FieldsAndFieldBundles})
 and let $S \hookrightarrow \Sigma$ be a [[submanifold]] of [[spacetime]].
 
 We write $N_\Sigma(S) \hookrightarrow \Sigma$ for its [[infinitesimal neighbourhood]] in $\Sigma$ (def. \ref{InfinitesimalNeighbourhood}).
@@ -6407,7 +6407,7 @@ such that
 
 For $\Sigma$ a [[spacetime]], such as [[Minkowski spacetime]] (def. \ref{MinkowskiSpacetime})
 if a [[fiber bundle]] $E \overset{fb}{\longrightarrow} \Sigma$ with total space a [[super Cartesian space]] (def. \ref{SuperCartesianSpace})
-(or more generally a [[supermanifold]], def./prop. \ref{SuperSmoothManifolds}) is regarded as a super-[[field bundle]] (def. \ref{Fields}),
+(or more generally a [[supermanifold]], def./prop. \ref{SuperSmoothManifolds}) is regarded as a super-[[field bundle]] (def. \ref{FieldsAndFieldBundles}),
 then
 
 * the even-graded [[sections]] are called the _[[bosonic field|bosonic]]_ [[field histories]];
@@ -6426,7 +6426,7 @@ What is crucial for the discussion of [[field theory]] is the following immediat
 ###### Example
 **([[super smooth set|supergeometric]]  [[space of field histories]])**
 
-Let $E \overset{fb}{\to} \Sigma$ be a super-[[field bundle]] (def. \ref{Fields}, def. \ref{FermionicBosonicFields}).
+Let $E \overset{fb}{\to} \Sigma$ be a super-[[field bundle]] (def. \ref{FieldsAndFieldBundles}, def. \ref{FermionicBosonicFields}).
 
 Then the _[[space of sections]]_, hence the _[[space of field histories]]_, is the [[super formal smooth set]] (def. \ref{SuperFormalSmoothSet})
 
@@ -6680,7 +6680,7 @@ with each other:
 
 $$
   \label{DiracFieldCoordinatesAnticommute}
-  \psi^\alpha \alpha \psi^{\beta} = - \psi^{\beta} \psi^\alpha
+  \psi^\alpha  \psi^{\beta} = - \psi^{\beta} \psi^\alpha
   \,.
 $$
 
@@ -6851,7 +6851,7 @@ $\,$
 ## Field variations
  {#FieldVariations}
 
-Given a [[field bundle]] as in def. \ref{Fields} above, then we know what [[type]] of quantities the corresponding
+Given a [[field bundle]] as in def. \ref{FieldsAndFieldBundles} above, then we know what [[type]] of quantities the corresponding
 [[field histories]] assign to a given spacetime point (a given [[event]]). Among all consistent such field configurations, some are to qualify as those that "may occur in reality" if we think of the field theory as a means to describe parts of the [[observable universe]]. Moreover, if the reality to be described does not exhibit "action at a distance" then admissibility of its field configurations should be determined over arbitrary small spacetime regions, in fact over the [[infinitesimal neighbourhood]] of any spacetime point (remark \ref{JetBundleInTermsOfSyntheticDifferentialGeometry} below). This means equivalently that the realized field configurations should be those that satisfy a given _[[differential equation]]_, hence an [[equation]] between the value of the [[partial derivatives]] of the field history at any spacetime point.
 
 In order to formalize this, it is useful to first collect all the possible derivatives that a field may have at any given point into one big space of "field derivatives at spacetime points". This collection is called the _[[jet bundle]]_ of the [[field bundle]], given as def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime} below.
@@ -6988,7 +6988,7 @@ and records all its partial derivatives in the form of a section of the jet bund
 ###### Definition
 **([[jet prolongation]])**
 
-Let $E \overset{fb}{\to}$ be a [[field bundle]] (def. \ref{Fields}) which happens to be a [[trivial vector bundle]]
+Let $E \overset{fb}{\to}$ be a [[field bundle]] (def. \ref{FieldsAndFieldBundles}) which happens to be a [[trivial vector bundle]]
 (example \ref{TrivialVectorBundleAsAFieldBundle}).
 
 There is a  [[smooth function]] from the [[space of sections]] of $E$, the [[space of field histories]] (example \ref{SupergeometricSpaceOfFieldHistories}) to the space of sections of the [[jet bundle]] $J^\infty_\Sigma(E) \overset{jb^\infty}{\to} \Sigma$ (def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) which records the field $\Phi$ and all its spacetimes [[derivatives]]:
@@ -7113,7 +7113,7 @@ history.
 ###### Example
 **(universal [[Faraday tensor]]/[[field strength]] on [[jet bundle]])**
 
-Consider the [[field bundle]] (def. \ref{Fields}) of the [[electromagnetic field]] (example \ref{Electromagnetism})
+Consider the [[field bundle]] (def. \ref{FieldsAndFieldBundles}) of the [[electromagnetic field]] (example \ref{Electromagnetism})
 over [[Minkowski spacetime]] $\Sigma$ (def. \ref{MinkowskiSpacetime}), i.e. the [[cotangent bundle]] $E = T^\ast \Sigma$ (def. \ref{Differential1FormsOnCartesianSpaces}) with jet coordinates
 $((x^\mu), (a_\mu), (a_{\mu,\nu}), \cdots )$ (def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}). Consider the functions on the [[jet bundle]] given by the linear combinations
 
@@ -7599,7 +7599,7 @@ The following are less trivial properties of variational differential forms:
 ###### Proposition
 **([[pullback of differential forms|pullback]] along [[jet prolongation]] compatible with [[total derivative|total spacetime derivatives]])**
 
-Let $E \overset{fb}{\to} \Sigma$ be a [[field bundle]] over a [[spacetime]] $\Sigma$ (def. \ref{Fields}),
+Let $E \overset{fb}{\to} \Sigma$ be a [[field bundle]] over a [[spacetime]] $\Sigma$ (def. \ref{FieldsAndFieldBundles}),
 with induced [[jet bundle]] $J^\infty_\Sigma(E)$ (def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}).
 
 Then for $\Phi \in \Gamma_\Sigma(E)$ any field configuration, the [[pullback of differential forms]] (def. \ref{PullbackOfDifferentialForms})
@@ -7793,7 +7793,7 @@ $\,$
   {#LagrangianFieldTheory}
 
 
-Given any [[type]] of [[field (physics)|fields]] (def. \ref{Fields}), those [[field histories]] that
+Given any [[type]] of [[field (physics)|fields]] (def. \ref{FieldsAndFieldBundles}), those [[field histories]] that
 are to be regarded as "physically realizable" (if we think of the field theory as a description of the [[observable universe]])
 should satisfy some [[differential equation]] -- the _[[equation of motion]]_ -- meaning that realizability of any field configuration may
 be checked upon restricting the configuration to the [[infinitesimal neighbourhoods]] (example \ref{InfinitesimalNeighbourhood}) of each spacetime point. This expresses the physical absence of "action at a distance" and is one aspect of what it means to have
@@ -7865,7 +7865,7 @@ $$
 where by prop. \ref{JetBundleIsLocallyProManifold} $L((x^\mu), \cdots)$ depends locally on an arbitrary but finite
 order of derivatives $\phi^a_{,\mu_1 \cdots \mu_k}$.
 
-We say that a [[field bundle]] $E \overset{fb}{\to} \Sigma$ (def. \ref{Fields}) equipped with a [[local Lagrangian density]] $\mathbf{L}$
+We say that a [[field bundle]] $E \overset{fb}{\to} \Sigma$ (def. \ref{FieldsAndFieldBundles}) equipped with a [[local Lagrangian density]] $\mathbf{L}$
 is (or defines) a _[[prequantum field theory|prequantum]] [[Lagrangian field theory]]_ on the [[spacetime]] $\Sigma$.
 
 =--
@@ -7916,7 +7916,7 @@ which are [[invariant]] under this [[action]].
 ###### Remark
 **([[locally variational field theory]] and Lagrangian [[circle n-bundle with connection|p-gerbe connection]])**
 
-If the [[field bundle]] (def. \ref{Fields}) is not just a [[trivial vector bundle]] over [[Minkowski spacetime]] (example \ref{TrivialVectorBundleAsAFieldBundle}) then a Lagrangian density for a given [[equation of motion]] may not exist
+If the [[field bundle]] (def. \ref{FieldsAndFieldBundles}) is not just a [[trivial vector bundle]] over [[Minkowski spacetime]] (example \ref{TrivialVectorBundleAsAFieldBundle}) then a Lagrangian density for a given [[equation of motion]] may not exist
 as a globally defined differential $(p+1)$-form, but only as a [[circle n-bundle with connection|p-gerbe connection]].
 This is the case for _[[locally variational field theories]]_ such as the _[[charged particle]]_, the _[[WZW model]]_
 and generally theories involving _[[higher WZW terms]]_. For more on this see the exposition at _[[schreiber:Higher Structures|Higher Structures in Physics]]_.
@@ -9344,7 +9344,7 @@ $\,$
 ###### Definition
 **(variation)**
 
-Let $E \overset{fb}{\to} \Sigma$ be a [[field bundle]] (def. \ref{Fields}).
+Let $E \overset{fb}{\to} \Sigma$ be a [[field bundle]] (def. \ref{FieldsAndFieldBundles}).
 
 
 A _variation_ is a [[vertical vector field]] $v$ on the [[jet bundle]] $J^\infty_\Sigma(E)$ (def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) hence a vector field which
@@ -9620,7 +9620,7 @@ induces on the [[space of field histories]]:
 ###### Definition
 **([[flow]] of [[field histories]] along [[evolutionary vector field]])**
 
-Let $E \overset{fb}{\to} \Sigma$ be a [[field bundle]] (def. \ref{Fields})
+Let $E \overset{fb}{\to} \Sigma$ be a [[field bundle]] (def. \ref{FieldsAndFieldBundles})
 and let $v$ be an [[evolutionary vector field]] (def. \ref{EvolutionaryVectorField})
 such that the ordinary [[flow]] of its prolongation $\hat v$ (prop. \ref{EvolutionaryVectorFieldProlongation})
 
@@ -10837,7 +10837,7 @@ The most basic kind of observables are the following:
 **(point evaluation observables -- field observables)**
 
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
-whose [[field bundle]] (def. \ref{Fields}) over some [[spacetime]] $\Sigma$
+whose [[field bundle]] (def. \ref{FieldsAndFieldBundles}) over some [[spacetime]] $\Sigma$
 happens to be a [[trivial vector bundle]] in even degree (i.e. bosonic) with [[field fiber]] [[coordinates]] $(\phi^a)$ (example \ref{TrivialVectorBundleAsAFieldBundle}).
 With respect to these coordinates a [[field history]], hence a [[section]] of the [[field bundle]]
 
@@ -10889,8 +10889,8 @@ This is a convenient shorthand (only) when one knows what one is doing.
 
 | aspect | [[term]] | [[type]] |  description | def. |
 |--|------------|-|---------|----|
-| [[field bundle|field component]] | $\phi^a$, $\phi^a_{,\mu}$ |  $J^\infty_\Sigma(E) \to \mathbb{R}$ |[[coordinate function]] on [[jet bundle]] of [[field bundle]] | def. \ref{Fields}, def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime} |
-| [[field history]] | $\Phi$, $\frac{\partial \Phi}{\partial x^\mu}$ | $\Sigma \to J^\infty_\Sigma(E)$  | [[jet prolongation]] of [[section]] of [[field bundle]] | def. \ref{Fields}, def. \ref{JetProlongation}  |
+| [[field bundle|field component]] | $\phi^a$, $\phi^a_{,\mu}$ |  $J^\infty_\Sigma(E) \to \mathbb{R}$ |[[coordinate function]] on [[jet bundle]] of [[field bundle]] | def. \ref{FieldsAndFieldBundles}, def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime} |
+| [[field history]] | $\Phi$, $\frac{\partial \Phi}{\partial x^\mu}$ | $\Sigma \to J^\infty_\Sigma(E)$  | [[jet prolongation]] of [[section]] of [[field bundle]] | def. \ref{FieldsAndFieldBundles}, def. \ref{JetProlongation}  |
 | [[observable|field observable]] | $\mathbf{\Phi}^a$, $\partial_{\mu} \mathbf{\Phi}^a $ | $\Gamma_{\Sigma}(E) \to \mathbb{R}$  | [[functional]] on [[space of sections]] | def. \ref{Observables}, example \ref{PointEvaluationObservables} |
 
 =--
@@ -10905,7 +10905,7 @@ $\,$
 ###### Definition
 **(spacetime support)**
 
-Let $E \overset{fb}{\to} \Sigma$ be a [[field bundle]] over a [[spacetime]] $\Sigma$ (def. \ref{Fields}),
+Let $E \overset{fb}{\to} \Sigma$ be a [[field bundle]] over a [[spacetime]] $\Sigma$ (def. \ref{FieldsAndFieldBundles}),
 with induced [[jet bundle]] $J^\infty_\Sigma(E)$
 
 For every [[subset]] $S \subset \Sigma$ let
@@ -10955,14 +10955,14 @@ for the subspace of differential forms on the jet bundle whose spacetime support
 **([[transgression of variational differential forms]] to [[space of field histories]])**
 
 
-Let $E \overset{fb}{\to} \Sigma$ be a [[field bundle]] over a [[spacetime]] $\Sigma$ (def. \ref{Fields}).
+Let $E \overset{fb}{\to} \Sigma$ be a [[field bundle]] over a [[spacetime]] $\Sigma$ (def. \ref{FieldsAndFieldBundles}).
 and let
 $$
   \Sigma_r \hookrightarrow \Sigma
 $$
 
 be a [[submanifold]] of [[spacetime]] of dimension $r \in \mathbb{N}$. Recall the [[space of field histories]]
-restricted to its [[infinitesimal neighbourhood]], denoted $\Gamma_{\Sigma_r}(E)$ (def. \ref{Fields}).
+restricted to its [[infinitesimal neighbourhood]], denoted $\Gamma_{\Sigma_r}(E)$ (def. \ref{FieldsAndFieldBundles}).
 
 
 Then the operation of _[[transgression of variational differential forms]]_ to $\Sigma_r$ is the [[linear map]]
@@ -11092,7 +11092,7 @@ $$
 ###### Proposition
 **([[transgression of variational differential forms|transgression]] compatible with [[variational derivative]])**
 
-Let $E \overset{fb}{\to} \Sigma$ be a [[field bundle]] over a [[spacetime]] $\Sigma$ (def. \ref{Fields})
+Let $E \overset{fb}{\to} \Sigma$ be a [[field bundle]] over a [[spacetime]] $\Sigma$ (def. \ref{FieldsAndFieldBundles})
 and let $\Sigma_r \hookrightarrow \Sigma$ be a [[submanifold]] possibly [[manifold with boundary|with boundary]]
 $\partial \Sigma_r \hookrightarrow \Sigma_r$. Write
 
@@ -11750,7 +11750,7 @@ $\,$
 **(linear [[observables]])**
 
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
-whose [[field bundle]] $E$ (def. \ref{Fields}) is a [[super vector bundle|super]] [[vector bundle]] and whose [[Lagrangian density]]
+whose [[field bundle]] $E$ (def. \ref{FieldsAndFieldBundles}) is a [[super vector bundle|super]] [[vector bundle]] and whose [[Lagrangian density]]
 $\mathbf{L}$ encodes a [[free field theory]] (def. \ref{FreeFieldTheory}) in that its
 [[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]] is a linear [[PDE]].
 
@@ -11786,7 +11786,7 @@ $$
 
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
 over [[Minkowski spacetime]] (def. \ref{MinkowskiSpacetime}),
-whose [[field bundle]] $E$ (def. \ref{Fields}) is the [[trivial vector bundle|trivial]] [[real line bundle]] and whose [[Lagrangian density]]
+whose [[field bundle]] $E$ (def. \ref{FieldsAndFieldBundles}) is the [[trivial vector bundle|trivial]] [[real line bundle]] and whose [[Lagrangian density]]
 $\mathbf{L}$ encodes a [[free field theory]] (def. \ref{FreeFieldTheory}) in that its
 [[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]] is a linear [[PDE]].
 
@@ -11911,7 +11911,7 @@ against some "[[generalized function|generalized smooth functions]]" (a limit of
 
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
 over [[Minkowski spacetime]] (def. \ref{MinkowskiSpacetime}),
-whose [[field bundle]] $E$ (def. \ref{Fields}) is a [[trivial vector bundle]] with field
+whose [[field bundle]] $E$ (def. \ref{FieldsAndFieldBundles}) is a [[trivial vector bundle]] with field
 coordinates $(\phi^a)$ and whose [[Lagrangian density]]
 $\mathbf{L}$ encodes a [[free field theory]] (def. \ref{FreeFieldTheory}) in that its
 [[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]] is a linear [[PDE]].
@@ -11966,7 +11966,7 @@ This we turn to [below](#FreeQuantumFields).
 
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
 over [[Minkowski spacetime]] (def. \ref{MinkowskiSpacetime}),
-whose [[field bundle]] $E$ (def. \ref{Fields}) is the [[trivial vector bundle|trivial]] [[real line bundle]]
+whose [[field bundle]] $E$ (def. \ref{FieldsAndFieldBundles}) is the [[trivial vector bundle|trivial]] [[real line bundle]]
 with field [[coordinates]] $(\phi^a)$ (example \ref{TrivialVectorBundleAsAFieldBundle}) and whose [[Lagrangian density]]
 $\mathbf{L}$ encodes a [[free field theory]] (def. \ref{FreeFieldTheory}) in that its
 [[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]] is a linear [[PDE]].
@@ -12004,7 +12004,7 @@ In the same vein there are [[multilinear map|multilinear observables]]:
 
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
 over a [[spacetime]] $\Sigma$
-whose [[field bundle]] $E$ (def. \ref{Fields}) is a [[super vector bundle|super]] [[vector bundle]] and whose [[Lagrangian density]]
+whose [[field bundle]] $E$ (def. \ref{FieldsAndFieldBundles}) is a [[super vector bundle|super]] [[vector bundle]] and whose [[Lagrangian density]]
 $\mathbf{L}$ encodes a [[free field theory]] (def. \ref{FreeFieldTheory}) in that its
 [[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]] is a linear [[PDE]].
 
@@ -12071,7 +12071,7 @@ This notation makes manifest how the concept of  quadratic observables is a gene
 
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
 over a [[spacetime]] $\Sigma$
-whose [[field bundle]] $E$ (def. \ref{Fields}) is a [[super vector bundle|super]] [[vector bundle]] and whose [[Lagrangian density]]
+whose [[field bundle]] $E$ (def. \ref{FieldsAndFieldBundles}) is a [[super vector bundle|super]] [[vector bundle]] and whose [[Lagrangian density]]
 $\mathbf{L}$ encodes a [[free field theory]] (def. \ref{FreeFieldTheory}) in that its
 [[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]] is a linear [[PDE]].
 
@@ -16967,7 +16967,7 @@ $$
 
 whose [[Chevalley-Eilenberg algebra]] is the [[local BRST complex]] of the field theory.
 
-Consider the case that both the [[field bundle]] $E \overset{fb}{\to} \Sigma$ (def. \ref{Fields})
+Consider the case that both the [[field bundle]] $E \overset{fb}{\to} \Sigma$ (def. \ref{FieldsAndFieldBundles})
 as well as the [[gauge parameter]] bundle $\mathcal{G} \overset{gb}{\to} \Sigma$ are [[trivial vector bundles]]
 (example \ref{TrivialVectorBundleAsAFieldBundle}) over [[Minkowski spacetime]]
 with [[field (physics)|field]] coordinates $(\phi^a)$ and [[gauge parameter]] coordinates $(\epsilon^\alpha)$.
