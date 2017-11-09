@@ -1,20 +1,45 @@
-[[!redirects femtometres]]
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
 
 #Contents#
 * table of contents
 {:toc}
 
+## Idea
+
+The _femotmeter_ is a [[physical unit]] of [[length]].
+
 ## Definition
 
-A **femtometer** (abbreviated $fm$) is the [[length]] of one $10^{15}$th of a [[meter]].
+A **femtometer** (abbreviated $fm$) is one $10^{15}$th of a [[meter]]:
 
-The [[radius]] of the [[proton]] is about $0.8 fm$.
+$$
+  fm \coloneqq 10^{-15} m
+  \,.
+$$
+
+The [[radius]] of the [[proton]] is about $0.8 \, fm$.
 
 ## References
 
-* Wikiedia, _[Femtometre](http://en.wikipedia.org/wiki/Femtometre)_
+See also
 
-[[!redirects femtometer]]
+* Wikipedia, _[Femtometre](http://en.wikipedia.org/wiki/Femtometre)_
+
 [[!redirects femtometers]]
+
+[[!redirects femtometre]]
 [[!redirects femtometres]]
+
 [[!redirects fm]]
+
