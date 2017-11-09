@@ -167,6 +167,8 @@ In this diagram now
 
 * [[integrable differential equation]],  [[formally integrable differential equation]]
 
+* [[generalized solution of a PDE]]
+
 * [[Green's function]]
 
 * [[Sturm–Liouville theory]]
