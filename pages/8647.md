@@ -17,7 +17,7 @@
 
 ## Idea
 
-The _femotmeter_ is a [[physical unit]] of [[length]].
+The _femtometer_ is a [[physical unit]] of [[length]].
 
 ## Definition
 
