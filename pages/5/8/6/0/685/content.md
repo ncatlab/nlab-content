@@ -45,6 +45,7 @@ A 2-limit in the [[opposite 2-category]] $K^{op}$ is called a **2-colimit** in $
 
 
 ### Strictness and terminology 
+ {#Terminology}
 
 If $K$ and $D$ are [[strict 2-categories]], $J$ and $F$ are [[strict 2-functors]], and if we replace this pseudonatural equivalence by a (strictly 2-natural) isomorphism *and* the 2-category $[D,Cat]$ by the 2-category $[D,Cat]_{strict}$ of strict 2-functors and strict 2-natural transformations, then we obtain the definition of a **[[strict 2-limit]]**.  This is precisely a Cat-weighted limit in the sense of ordinary [[enriched category]] theory.  See [[strict 2-limit]] for details.
 
