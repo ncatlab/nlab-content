@@ -146,13 +146,15 @@ In this diagram now
 
 ## Examples
 
-* [[wave equation]]
+* [[wave equation]], [[Klein-Gordon equation]]
 
 * [[Schrödinger equation]]
 
 * [[Dirac equation]]
 
 * ...
+
+* [[Green hyperbolic partial differential equation]]
 
 
 ## Related concepts
