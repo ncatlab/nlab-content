@@ -144,12 +144,15 @@ The various subsets that appear in algebra (such as [[subgroups]], [[ideals]], a
 
 The localic perspective on apartness relations extends naturally to anti-algebra: an antiideal is the same as a *closed* ideal in a discrete localic ring that respects the closed equivalence relation corresponding to $\ne$.  Equivalently, this is a closed ideal of the $\ne$-topology regarded as a (non-discrete) localic ring.  The spatial part of this closed localic ideal is then the ordinary ideal complementary to the antiideal, and so on.  Moreover, since unions of closed sublocales correspond to intersections of their open complements, an antiideal $A$ is antiprime exactly when its corresponding closed localic ideal $\mathsf{C}A$ is "prime" in an appropriate internal sense in [[Loc]], namely that $m^*(\mathsf{C}A) \subseteq (\mathsf{C}A \times R) \cup (R\times \mathsf{C}A)$, where $m:R\times R\to R$ is the multiplication.  The fact that the complement of an antiprime antiideal need not be prime in the usual sense corresponds to the fact that taking the spatial part of sublocales doesn't commute with unions.
 
+For more about apartness algebra, see [[antisubalgebra]].
 
 ## Related concepts
 
 * [[inequality relation]]
 
   * [[denial inequality]]
+
+* [[antisubalgebra]]
 
 ## References
 
