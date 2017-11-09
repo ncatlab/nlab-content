@@ -63,6 +63,8 @@ A _time orientation_ of a globally hyperbolic Lorentzian spacetime is a choice o
 
 * [[Cauchy problem]]
 
+* [[Green hyperbolic partial differential equation]]
+
 ## References
 
 Textbook accounts include
