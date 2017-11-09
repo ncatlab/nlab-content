@@ -50,7 +50,7 @@ which may be regarded as an element of the [[unit sphere]] $S(V)$ of $V$.
 
 Equivalently:
 
-Recall that a nonzero vector $v$ is _parallel_ to a [[linear subspace]] $W$ of a vector space $V$ if $v$ has a representative of the form $\vec{A B}$ (i.e. $v = A - B$) with $A,B\in W$.  When $W$ is a [[line]], we say that $v$ furthermore has the same [[orientation]] as $W$ if $\vec{A B}$ points (in the sense of def. \ref{DirectionOfAVector}) in the positive direction along $W$.
+Recall that a nonzero vector $v$ is _parallel_ to a [[linear subspace]] $W$ of a vector space $V$ if $v$ has a representative of the form $\vec{A B}$ (i.e. $v = B - A$) with $A,B\in W$.  When $W$ is a [[line]], we say that $v$ furthermore has the same [[orientation]] as $W$ if $\vec{A B}$ points (in the sense of def. \ref{DirectionOfAVector}) in the positive direction along $W$.
 
 
 +-- {: .num_defn #SheavesOnCartSp}
