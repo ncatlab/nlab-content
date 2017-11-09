@@ -17,7 +17,7 @@
 
 ## Idea
 
-The _meter_ is a [[physical unit]] of [[length]].
+The _meter_  or _metre_ (in European spelling) is a [[physical unit]] of [[length]].
 
 ## Related concepts
 
@@ -38,6 +38,9 @@ See also
 
 [[!redirects centimeter]]
 [[!redirects centimeters]]
+[[!redirects centimetre]]
+[[!redirects centimetres]]
+
 
 [[!redirects cm]]
 
