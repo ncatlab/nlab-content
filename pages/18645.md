@@ -1959,7 +1959,7 @@ The fourth statement finally follows by this computation:
 
 $$
   \begin{aligned}
-    [a,b,c]^\ast
+    \,[ a, b, c]^\ast
       & =
     -[c^\ast, b^\ast, a^\ast]
       \\
@@ -4140,9 +4140,9 @@ such that
         =
         (g \circ f)^\ast
       $$
-   
-      i.e.   
- 
+
+      i.e.
+
       $$
         \array{
           && X(\mathbb{R}^{n_2})
@@ -4385,9 +4385,9 @@ such that
         =
         (g \circ f)^\ast
       $$
-   
+
       i.e.
-   
+
       $$
         \array{
           && X(\mathbb{R}^{n_2})
@@ -4706,9 +4706,9 @@ such that
     =
     ( f^\ast \Phi )^\ast(\omega)
   $$
-  
+
   i.e.
-  
+
   $$
     \array{
       \mathbb{R}^{n_1} && \overset{f}{\longrightarrow} && \mathbb{R}^{n_2}
@@ -5269,9 +5269,9 @@ such that
       $$
         f^\ast \circ g^\ast = (g \circ f)^\ast
       $$
-   
+
       i.e.
-   
+
       $$
         \array{
           && X(\mathbb{R}^{n_2} \times Spec(A_2))
@@ -5303,9 +5303,9 @@ such that
    $$
      \phi_i\vert_{((U_i \cap U_j) \times Spec(A)} = \phi_j \vert_{(U_i \cap U_j)\times Spec(A)}
    $$
-   
+
    i.e.
-   
+
    $$
      \array{
        && (U_i \cap U_j) \times Spec(A)
@@ -5346,7 +5346,7 @@ such that
     =
     f_\ast(\mathbb{R}^{n_1} \times Spec(A_1)) \circ g^\ast_1
   $$
-  
+
   i.e.
 
   $$
@@ -6222,7 +6222,7 @@ such that
         =
         (g \circ f)^\ast
       $$
-      
+
       i.e.
 
       $$
@@ -6256,9 +6256,9 @@ such that
    $$
      \phi_i\vert_{((U_i \cap U_j) \times Spec(A)} = \phi_j \vert_{(U_i \cap U_j)\times Spec(A)}
    $$
-   
-   i.e. 
-   
+
+   i.e.
+
    $$
      \array{
        && (U_i \cap U_j) \times Spec(A)
@@ -6299,9 +6299,9 @@ such that
     =
     f_\ast(\mathbb{R}^{n_1} \times Spec(A_1)) \circ g^\ast_1
   $$
-  
+
   i.e.
-  
+
   $$
     \array{
       X_1(\mathbb{R}^{n_2} \times Spec(A_2))
@@ -7829,8 +7829,55 @@ $$
   \,.
 $$
 
-These two terms play a pivotal role in the theory: they induce the _[[covariant phase space]]_
-of the [[field theory]]; this we discuss [below](#PhaseSpace).
+These two terms play a pivotal role in the theory: The condition that the first term vanishes
+on [[field histories]] is a [[differential equation]] on field histories, 
+called the _[[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]]_ (def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime} below). 
+The space of solutions to this [[differential equation]], called the _[[on-shell]] [[space of field histories]]_
+
+$$
+  \Gamma_\Sigma(E)_{\delta_{EL}\mathbf{L} = 0}
+    \overset{\phantom{AAA}}{\hookrightarrow}
+  \Gamma_\Sigma(E)
+$$
+
+has the interpretation of the space of "physically realizable field histories".
+This is the key object of study in the following chapters. Often this is 
+referred to as the space of _[[classical field theory|classical]] field histories_,
+indicating that this does not yet reflect the full [[quantum field theory]].
+
+Indeed, there is also the second term in the variational derivative of the Lagrangian density,
+the [[presymplectic current]] $\Theta_{BFV}$, and this implies a [[presymplectic structure]] on 
+the on-shell space of field histories (def. \ref{PhaseSpaceAssociatedWithCauchySurface} below)
+which encodes [[deformations]] of the algebra of 
+smooth functions on $\Gamma_\Sigma(E)$. This deformation is the _[[quantization]]_ of the field
+theory to an actual [[quantum field theory]], which we discuss [below](#Quantization).
+
+$$
+  \array{
+     &&& \delta \mathbf{L}
+     \\
+     &&& =
+     \\
+     &  & \delta_{EL}\mathbf{L} &- & d \Theta_{BFV}   &
+     \\
+     & \swarrow && && \searrow
+     \\
+     \array{
+       \text{classical}
+       \\
+       \text{field theory}
+     }
+     && && &&
+     \array{
+       \text{deformation to}
+       \\
+       \text{quantum}
+       \\
+       \text{field theory}
+     }
+  }
+$$
+
 
 
 $\,$
@@ -7875,7 +7922,7 @@ is (or defines) a _[[prequantum field theory|prequantum]] [[Lagrangian field the
 ###### Remark
 **(parameterized and [[physical unit]]-less [[Lagrangian densities]])**
 
-More generally we may consider parameterized collections of [[Lagrangian densities]] spring, i.e. functions
+More generally we may consider parameterized collections of [[Lagrangian densities]], i.e. functions
 
 $$
   \mathbf{L}_{(-)}
@@ -8306,7 +8353,7 @@ $$
     \;\vert\;
     \delta_{EL}\mathbf{L}\vert_x = 0
   \right\}
-  \;\subset\;
+  \;\overset{i_{\mathcal{E}}}{\hookrightarrow}\;
   J^\infty_\Sigma(E)
   \,.
 $$
@@ -8327,7 +8374,7 @@ $$
       \delta_{EL}\mathbf{L}
     \right)\vert_x = 0
   \right\}
-  \;\subset\;
+   \overset{i_{\mathcal{E}^\infty}}{\hookrightarrow}
   J^\infty_\Sigma(E)
   \,.
 $$
@@ -8415,11 +8462,10 @@ $$
   \,.
 $$
 
+(Its conceptual nature will be elucidated after the introduction of the [[local BV-complex]]
+in example \ref{DerivedPresymplecticCurrentOfRealScalarField} below.)
 
 =--
-
-(The conceptial nature of this [[Lepage form]] linear combinations (eq:TheLepage) will be elucidated after the introduction of the [[local BV-complex]]
-in example \ref{DerivedPresymplecticCurrentOfRealScalarField} below.)
 
 
 +-- {: .proof}
@@ -9257,16 +9303,6 @@ $$
   \,.
 $$
 
-In particular this means that the [[total derivative|total spacetime derivative]] of the
-presymplectic current vanishes [[on-shell]] (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}):
-
-$$
-  d \Omega_{BFV}\vert_{\mathcal{E}} \;=\; 0
-  \,.
-$$
-
-This means that the presymplectic current is indeed a _[[conserved current]]_ (def. \ref{SymmetriesAndConservedCurrents} below) with values in differential 2-forms, whence the name.
-
 =--
 
 +-- {: .proof}
@@ -9283,6 +9319,295 @@ The claim follows from applying the [[variational derivative]] $\delta$ to both 
 using (eq:HorizontalAndVerticalDerivativeAnticommute): $\delta^2 = 0$ and $\delta \circ d = - d \circ \delta$.
 
 =--
+
+$\,$
+
+The key implication of the [[Euler-Lagrange form]] on the [[jet bundle]] is that it induces
+the _[[equation of motion]]_ on the [[space of field histories]]:
+
+
++-- {: .num_defn #EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime}
+###### Definition
+**([[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]])**
+
+Given a [[Lagrangian field theory]] $(E,\mathbf{L})$ (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}
+then the corresponding _[[Euler-Lagrange equation|Euler-Lagrange]] [[equations of motion]]_
+is the condition on [[field histories]] (def. \ref{SupergeometricSpaceOfFieldHistories})
+
+$$
+  \Phi_{(-)} \;\colon\; U \longrightarrow \Gamma_\Sigma(E)
+$$
+
+to have a [[jet prolongation]] (def. \ref{JetProlongation})
+
+$$
+  j^\infty_\Sigma(\Phi_{(-)}(-) ) \;\colon\; U \times \Sigma \longrightarrow J^\infty_\Sigma(E)
+$$
+
+that factors through the [[shell]] inclusion $\mathcal{E} \overset{i_{\mathcal{E}}}{\hookrightarrow} J^\infty_\Sigma(E)$
+(eq:ShellInJetBundle) defined by vanishing of the [[Euler-Lagrange form]] (def. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime})
+
+$$
+  \label{EquationOfMotionEL}
+  j^\infty_\Sigma(\Phi_{(-)}(-))
+    \;\colon\;
+  U \times \Sigma
+    \longrightarrow
+  \mathcal{E}
+    \overset{i_{\mathcal{E}}}{\hookrightarrow}
+  J^\infty_\Sigma(E)
+  \,.
+$$
+
+(This implies that $j^\infty_\Sigma(\Phi_{(-)})$ factors even through the prolonged shell $\mathcal{E}^\infty \overset{i_{\mathcal{E}^\infty}}{\hookrightarrow} J^\infty_\Sigma(E)$ (eq:ProlongedShellInJetBundle).)
+
+In the case that the field bundle is a [[trivial vector bundle]] over [[Minkowski spacetime]] as in example \ref{TrivialVectorBundleAsAFieldBundle} this is the condition that
+$\Phi_{(-)}$ satisfies the following [[differential equation]] (again using prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}):
+
+$$
+  \left(
+    \frac{\partial L}{\partial \phi^a}
+      -
+    \frac{d}{d x^\mu}
+    \frac{\partial L}{\partial \phi^a_{,\mu}}
+    +
+    \frac{d^2}{d x^\mu d x^\nu} \frac{\partial L}{\partial \phi^a_{,\mu\nu}}
+    -
+    \cdots
+  \right)
+  \left(
+     (x^\mu),
+     (\Phi^a),
+     \left( \frac{\partial \Phi^a_{(-)}}{\partial x^\mu}\right),
+     \left( \frac{\partial^2 \Phi^a_{(-)}}{\partial x^\mu \partial x^\nu} \right),
+     \cdots
+  \right)
+  \;=\;
+  0
+  \,.
+$$
+
+The _[[on-shell]] [[space of field histories]]_ is the space of solutions to this condition, namely the
+the sub-[[super formal smooth set|super smooth set]] (def. \ref{SuperFormalSmoothSet})
+of the full [[space of field histories]] (eq:SpaceOfFieldHistories) (def. \ref{SupergeometricSpaceOfFieldHistories})
+
+$$
+  \label{OnShellFieldHistories}
+  \Gamma_\Sigma(E)_{\delta_{EL} L = 0}
+    \overset{\phantom{AAA}}{\hookrightarrow}
+  \Gamma_\Sigma(E)
+$$
+
+whose plots are those $\Phi_{(-)} \colon U \to \Gamma_\Sigma(E)$ that factor through the shell (eq:EquationOfMotionEL).
+
+More generally for $\Sigma_r \hookrightarrow \Sigma$ a [[submanifold]] of [[spacetime]], we write
+
+$$
+  \label{OnShellFieldHistoriesInHigherCodimension}
+  \Gamma_{\Sigma_r}(E)_{\delta_{EL} L = 0}
+    \overset{\phantom{AAA}}{\hookrightarrow}
+  \Gamma_{\Sigma_r}(E)
+$$
+
+for the sub-[[super formal smooth set|super smooth ste]] of on-shell field histories restricted to the [[infinitesimal neighbourhood]]
+of $\Sigma_r$ in $\Sigma$ (eq:SpaceOfFieldHistoriesInHigherCodimension).
+
+=--
+
++-- {: .num_defn #FreeFieldTheory}
+###### Definition
+**([[free field theory]])**
+
+A [[Lagrangian field theory]] $(E, \mathbf{L})$ (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
+with [[field bundle]] $E \overset{fb}{\to} \Sigma$ a [[vector bundle]]
+(e.g. a [[trivial vector bundle]] as in example \ref{TrivialVectorBundleAsAFieldBundle})
+is called a _[[free field theory]]_ if its [[Euler-Lagrange equation|Euler-Lagrange]] [[equations of motion]]
+(def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime}) is a
+[[differential equation]] that is _[[linear differential equation]]_, in that with
+
+$$
+  \Phi_1, \Phi_2 \;\in\; \Gamma_\Sigma(E)_{\delta_{EL}\mathfb{L} = 0}
+$$
+
+any two [[on-shell]] [[field histories]] (eq:OnShellFieldHistories) and $c_1, c_2 \in \mathbb{R}$
+any two [[real numbers]], also the [[linear combination]]
+
+$$
+  c_1 \Phi_1 + c_2 \Phi_2 \;\in\; \Gamma_\Sigma(E)
+  \,,
+$$
+
+which a priori exists only as an element in the off-shell [[space of field histories]],
+is again a solution to the [[equations of motion]] and hence an element of $\Gamma_\Sigma(E)_{\delta_{EL}\mathbf{L} = 0}$.
+
+A [[Lagrangian field theory]] which is not a [[free field theory]] is called an _[[interaction|interacting]]_ [[field theory]].
+
+=--
+
++-- {: .num_remark #FreeFieldTheoryRelevance}
+###### Remark
+**(relevance of [[free field theory]])**
+
+In [[perturbative quantum field theory]] one considers [[interaction|interacting]] [[field theories]]
+in the [[infinitesimal neighbourhood]] (example \ref{InfinitesimalNeighbourhood}) of [[free field theories]] (def. \ref{FreeFieldTheory})
+inside some [[super formal smooth set|super smooth set]] of general [[Lagrangian field theories]].
+While [[free field theories]] are typically of limited interest in themselves,
+this [[perturbative quantum field theory|perturbation theory]] around them exhausts much of what is
+known about [[quantum field theory]] in general, and therefore [[free field theories]] are of paramount importance
+for the general theory.
+
+We discuss the [[covariant phase space]] of [[free field theories]] below in _[Propagators](#Propagators)_
+and their [[quantization]] below in _[Free quantum fields](#FreeQuantumFields) _.
+
+=--
+
++-- {: .num_prop #EquationOfMotionOfFreeRealScalarField}
+###### Example
+**([[equation of motion]] of [[free field|free]] [[real scalar field]] is [[Klein-Gordon equation]])**
+
+Consider the [[Lagrangian field theory]] of the [[free field|free]] [[real scalar field]]
+from example \ref{LagrangianForFreeScalarFieldOnMinkowskiSpacetime}.
+
+By example \ref{FreeScalarFieldEOM} its [[Euler-Lagrange form]] is
+
+$$
+  \delta_{EL}\mathbf{L}
+    \;=\;
+  \left(\eta^{\mu \nu} \phi_{,\mu \nu} - m^2 \right) \delta \phi \wedge dvol_\sigma
+$$
+
+Hence for $\Phi \in \Gamma_\Sigma(E) = C^\infty(X)$ a field trajectory,
+its [[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]]
+according to def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime} is
+
+$$
+  \eta^{\mu \nu} \frac{\partial^2 }{\partial x^\mu \partial x^\nu} \Phi - m^2 \Phi \;=\; 0
+$$
+
+often abbreviated as
+
+$$
+  \label{KleinGordonEquation}
+  (\Box - m^2) \Phi \;=\; 0
+  \,.
+$$
+
+This [[PDE]] is called the _[[Klein-Gordon equation]]_ on Minowski spacetime. If the [[mass]] $m$
+vanishes, $m = 0$, then this is the _relativistic [[wave equation]]_.
+
+Hence this is indeed a [[free field theory]] according to def. \ref{FreeFieldTheory}.
+
+=--
+
+
++-- {: .num_prop #MaxwellVacuumEquation}
+###### Example
+**([[equations of motion]] of [[vacuum]] [[electromagnetism]] are [[vacuum]] [[Maxwell's equations]])**
+
+Consider the [[Lagrangian field theory]] of [[free field|free]] [[electromagnetism]]
+on [[Minkowski spacetime]] from example \ref{ElectromagnetismLagrangianDensity}.
+
+By example \ref{ElectromagnetismEl} its [[Euler-Lagrange form]] is
+
+$$
+  \delta_{EL}\mathbf{L}
+    \;=\;
+  \frac{d}{d x^\mu}f^{\mu \nu} \delta a_\nu
+  \,.
+$$
+
+Hence for $A \in \Gamma_{\Sigma}(T^\ast \Sigma) = \Omega^1(\Sigma)$ a field trajectory ("[[vector potential]]"),
+its [[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]]
+according to def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime} is
+
+$$
+  \begin{aligned}
+    & \frac{\partial}{\partial x^\mu} F^{\mu \nu} = 0
+    \\
+    \Leftrightarrow\;\;  &
+    d \star_\eta F = 0
+  \end{aligned}
+  \,,
+$$
+
+where $F = d A$ is the [[Faraday tensor]] (eq:TensorFaraday).
+(In the coordinate-free formulation in the second line "$\star_\eta$" denotes
+the [[Hodge star operator]] induced by the [[pseudo-Riemannian metric]] $\eta$ on [[Minkowski spacetime]].)
+
+These [[PDEs]] are called the _[[vacuum]] [[Maxwell's equations]]_.
+
+This, too, is a [[free field theory]] according to def. \ref{FreeFieldTheory}.
+
+=--
+
+
+
++-- {: .num_example #EquationOfMotionOfDiracFieldIsDiracEquation}
+###### Example
+**([[equation of motion]] of [[Dirac field]] is [[Dirac equation]])**
+
+Consider the [[Lagrangian field theory]] of the [[Dirac field]]
+on [[Minkowski spacetime]] from example \ref{LagrangianDensityForDiracField},
+with [[field fiber]] the [[spin representation]] $S$ regarded as a [[superpoint]] $S_{odd}$ and
+[[Lagrangian density]] given by the spinor bilinear pairing
+
+$$
+  L
+   \;=\;
+  i \overline{\psi} \gamma^\mu \partial_\mu \psi + m \overline{\psi}\psi
+$$
+
+(in spacetime dimension $p+1 \in \{3,4,6,10\}$ with $m = 0$ unless $p+1 = 4$).
+
+From example \ref{PresymplecticCurrentDiracField} it follows that
+the corresponding [[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]] (def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime}) is
+
+$$
+  \label{DiracEquation}
+  \left(-i \gamma^\mu \partial_\mu + m\right)\psi \;=\; 0
+  \,.
+$$
+
+This is the _[[Dirac equation]]_.
+
+Hence this is a [[free field theory]] according to def. \ref{FreeFieldTheory}.
+
+Observe that the "square" of the [[Dirac operator]] is the [[Klein-Gordon operator]] $\Box - m^2$ (eq:KleinGordonEquation)
+
+$$
+  \begin{aligned}
+    \left(
+      +i \gamma^\mu \partial_\mu + m
+    \right)
+    \left(-i \gamma^\mu \partial_\mu + m\right)\psi
+    &
+    =
+    \left(\partial_\mu \partial^\mu - m^2\right) \psi
+    \\
+    & =
+    \left(\Box - m^2\right) \psi
+  \end{aligned}
+  \,.
+$$
+
+This means that a [[Dirac field]] which solves the [[Dirac equations]] is
+in particular (on [[Minkowski spacetime]]) componentwise a solution to the [[Klein-Gordon equation]].
+
+=--
+
+
++-- {: .num_prop #SupergeometricNatureOfDiracEquation}
+###### Remark
+**([[supergeometry|supergeometric]] nature of the [[Dirac equation]] as an [[Euler-Lagrange equation]])**
+
+While the [[Dirac equation]] (eq:DiracEquation) of example \ref{EquationOfMotionOfDiracFieldIsDiracEquation}
+would make sense in itself also if the field coordinates $\psi$ and jet coordinates $\psi_{,\mu}$ of the [[Dirac field]]
+were not anti-commuting (eq:DiracFieldJetCoordinatesAnticommute), due to their [[supergeometry|supergeometric]] nature (remark \ref{DiracFieldSupergeometric}), it would,
+by remark \ref{LagrangianDensityOfDiracFieldSupergeometricNature}, then no longer be the [[Euler-Lagrange equation]] of a [[Lagrangian density]],
+hence then Dirac field theory would not be a [[Lagrangian field theory]].
+
+=--
+
 
 $\,$
 
@@ -9394,13 +9719,13 @@ $$
   }
 $$
 
-The variational version replaces the vector bundle on the left here with its jet bundle:
+The variational version replaces the vector bundle on the left with its jet bundle:
 
 +-- {: .num_defn #EvolutionaryVectorField}
 ###### Definition
 **([[evolutionary vector fields]])**
 
-Let $E \overset{fb}{\to} \Sigma$ be a [[fiber bundle]]. Then an [[evolutionary vector field]] $v$ on $E$ is  "variational vertical vector field" on $E$, hence a smooth [[bundle]] [[homomorphism]]
+Let $E \overset{fb}{\to} \Sigma$ be a [[field bundle]] (def. \ref{FieldsAndFieldBundles}). Then an _[[evolutionary vector field]]_ $v$ on $E$ is  "variational vertical vector field" on $E$, hence a smooth [[bundle]] [[homomorphism]]
 out of the [[jet bundle]] (def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
 
 
@@ -9417,7 +9742,28 @@ $$
   }
 $$
 
-to the [[vertical vector bundle]] $V_\Sigma E \overset{}{\to} \Sigma$ of $E \overset{fb}{\to} \Sigma$.
+to the [[vertical tangent bundle]] $V_\Sigma E \overset{}{\to} \Sigma$ of $E \overset{fb}{\to} \Sigma$.
+
+In the special case that the [[field bundle]] is a [[trivial vector bundle]] over [[Minkowski spacetime]] as in example \ref{TrivialVectorBundleAsAFieldBundle}, this means that an evolutionary vector field is 
+a [[tangent vector field]] (example \ref{TangentVectorFields}) on $J^\infty_\Sigma(E)$ of the special form
+
+$$
+  \begin{aligned}
+    v 
+     & =
+    v^a \partial_{\phi^a}
+    \\
+    & =
+    v^a\left( 
+      (x^\mu), (\phi^a), (\phi^a_{,\mu}), \cdots
+    \right) \partial_{\phi^a}
+  \end{aligned}
+  \,,
+$$
+
+where the [[coefficients]] $v^a \in C^\infty(J^\infty_\Sigma(E))$ are general [[smooth functions]]
+on the [[jet bundle]] (while the cmponents are [[tangent vectors]] along the field coordinates $(\phi^a)$,
+but not along the spacetime coordinates $(x^\mu)$ and not along the jet coordinates $\phi^a_{,\mu_1 \cdots \mu_k}$).
 
 We write
 
@@ -9456,16 +9802,38 @@ of the evolutionary vector field:
 Let $E \overset{fb}{\to} \Sigma$ be a [[fiber bundle]].
 
 Given an [[evolutionary vector field]] $v$ on $E$ (def. \ref{EvolutionaryVectorField})
-there is a unique [[vector field]] $\hat v$ on the [[jet bundle]] $J^\infty_\Sigma(E)$ (def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) such that
+there is a unique [[tangent vector field]] $\hat v$ (example \ref{TangentVectorFields}) on the [[jet bundle]] $J^\infty_\Sigma(E)$ (def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) such that
 
-1. $\hat v$ agrees on field coordinates (as opposed to field derivatives) with $v$:
+1. $\hat v$ agrees on field coordinates (as opposed to jet coordinates) with $v$:
 
    $$
      (jb_{\infty,0})_\ast(\hat v) = v
-     \,;
+     \,,
+   $$
+   
+   which means in the special case that $E \overset{fb}{\to} \Sigma$ is a [[trivial vector bundle]] over [[Minkowski spacetime]]
+   (example \ref{TrivialVectorBundleAsAFieldBundle})
+   that $\hat v$ is of the form
+   
+   $$
+     \label{GenericComponentsForProlongationOfEvolutionaryVectorField}
+     \hat v
+     \;=\;
+     \underset{
+       = v
+     }{
+     \underbrace{
+     v^a \partial_{\phi^a}
+     }}
+     \,+\,
+     \hat v^a_{\mu} \partial_{\phi^a_{,\mu}}
+     +
+     \hat v^a_{\mu_1 \mu_2} \partial_{\phi^a_{,\mu_1 \mu_2}}
+     +
+     \cdots
    $$
 
-1. contraction with $\hat v$ (def. \ref{ContractionOfFormsWithVectorFields}) anti-commutes with the [[total derivative|total spacetime derivative]]:
+1. contraction with $\hat v$ (def. \ref{ContractionOfFormsWithVectorFields}) anti-commutes with the [[total derivative|total spacetime derivative]] (def. \ref{VariationalBicomplexOnSecondOrderJetBundleOverTrivialVectorBundleOverMinkowskiSpacetime}):
 
    $$
      \label{ProlongedEvolutionaryVectorFieldContractionAnticommutedWithHorizontalDerivative}
@@ -9481,14 +9849,7 @@ $$
   \mathcal{L}_{\hat v} = \delta \circ \iota_{\hat v} + \iota_{\hat v} \circ \delta
 $$
 
-In the special case that the fiber bundle is a [[trivial vector bundle]] over [[Minkowski spacetime]] (example \ref{TrivialVectorBundleAsAFieldBundle}) with [[field (physics)|field]] coordinates $\phi^a$, so that
-$v$ has the expansion
-
-$$
-  v = v^a \partial_{\phi^a}
-$$
-
-then $\hat v$ is given by
+Explicitly, in the special case that the [[field bundle]] is a [[trivial vector bundle]] over [[Minkowski spacetime]] (example \ref{TrivialVectorBundleAsAFieldBundle}) $\hat v$ is given by
 
 $$
   \label{ProlongationOfEvolutionaryVectorFieldExplicit}
@@ -9552,8 +9913,9 @@ $$
   \end{aligned}
 $$
 
-This shows that $\hat v$ satisfying the two conditions given exists uniquely. Finally
-the formula for the [[Lie derivative]] follows from the second of the two conditions with [[Cartan's homotopy formula]]
+This shows that $\hat v$ satisfying the two conditions given exists uniquely. 
+
+Finally formula (eq:HomotopyFormulaForLieDerivativeAlongProlongationOfEvolutionaryVectorField) for the [[Lie derivative]] follows from the second of the two conditions with [[Cartan's homotopy formula]]
 $\mathcal{L}_{\hat v} = \mathbf{d} \circ \iota_{\hat v} + \iota_{\hat v} \circ \mathbf{d}$ (prop. \ref{CartanHomotopyFormula})
 together with $\mathbf{d} = \delta + d$ (eq:VariationalDerivative).
 
@@ -9565,7 +9927,7 @@ together with $\mathbf{d} = \delta + d$ (eq:VariationalDerivative).
 **([[evolutionary vector fields]] form a [[Lie algebra]])**
 
 Let $E \overset{fb}{\to} \Sigma$ be a [[fiber bundle]]. For any two [[evolutionary vector fields]]
-$v_1$, $v_2$ on $E$ (def. \ref{EvolutionaryVectorField}) the [[Lie bracket]] of [[vector fields]]
+$v_1$, $v_2$ on $E$ (def. \ref{EvolutionaryVectorField}) the [[Lie bracket]] of [[tangent vector fields]]
 of their prolongations $\hat v_1$, $\hat v_2$ (def. \ref{EvolutionaryVectorFieldProlongation})
 is itself the prolongation $\widehat{[v_1, v_2]}$ of a unique evolutionary vector field $[v_1,v_2]$.
 
@@ -9576,9 +9938,9 @@ This defines the structure of a [[Lie algebra]] on evolutionary vector fields.
 +-- {: .proof}
 ###### Proof
 
-It is clear that $[\hat v_1, \hat v_2]$ is still [[vertical vector field|vertical]], therefore by
-prop. \ref{EvolutionaryVectorFieldProlongation} it is sufficient to show that contraction with this
-vector field anti-commutes with the [[horizontal derivative]] $d$,
+It is clear that $[\hat v_1, \hat v_2]$ is still [[vertical vector field|vertical]], therefore, by
+prop. \ref{EvolutionaryVectorFieldProlongation}, it is sufficient to show that contraction $\iota_{[v_1, v_2]}$ with this
+vector field (def. ref{ContractionOfFormsWithVectorFields}) anti-commutes with the [[horizontal derivative]] $d$,
 hence that $[d, \iota_{[\hat v_1, \hat v_2]}] = 0$.
 
 Now $[d, \iota_{[\hat v_1, \hat v_2]}]$ is an
@@ -9633,37 +9995,39 @@ exists on the [[jet bundle]] (e.g. if the order of derivatives of field coordina
 on is bounded).
 
 
-For $\Phi \in \Gamma_\Sigma(E)$ a [[field (physics)|field]] history,
-hence a point in the [[space of field histories]] (eq:SpaceOfFieldHistories), the _[[flow]]_ of $v$
-through $\Phi$ is the [[smooth function]]
+For $\Phi_{(-)} \colon U_1 \to  \Gamma_\Sigma(E)$ a collection of  [[field histories]]
+(hence a plot of the [[space of field histories]] (def. \ref{SupergeometricSpaceOfFieldHistories}) ) the _[[flow]]_ of $v$
+through $\Phi_{(-)}$ is the [[smooth function]]
 
 $$
-  \mathbb{R}^1
-   \overset{\exp(v)(\Phi)}{\longrightarrow}
+  U_1 \times \mathbb{R}^1
+   \overset{\exp(v)(\Phi_{(-)})}{\longrightarrow}
   \Gamma_\Sigma(E)
 $$
 
-whose unique factorization $\widehat{\exp(v)}(\Phi)$ through the space of jets of field histories
+whose unique factorization $\widehat{\exp(v)}(\Phi_{(-)})$ through the space of jets of field histories
+(i.e. the [[image]] $im(j^\infty_\Sigma)$ of [[jet prolongation]], def. \ref{JetProlongation})
 
 $$
   \array{
     && im(j^\infty_\Sigma) &\hookrightarrow& \Gamma_\Sigma(J^\infty_\Sigma(E))
     \\
-    & {}^{\mathllap{\widehat{\exp(v)}(\Phi)}} \nearrow& \downarrow^{\mathrlap{\simeq}}
+    & {}^{\mathllap{\widehat{\exp(v)}(\Phi_{(-)})}} \nearrow& \downarrow^{\mathrlap{\simeq}}
     \\
-    \mathbb{R}^1
+    U_1 \times \mathbb{R}^1
       &\underset{ \exp(v)(\Phi) }{\longrightarrow}&
     \Gamma_{\Sigma}(E)_{}
   }
 $$
 
-takes a plot $t_{(-)} \;\colon\; U \to \mathbb{R}^1$ of the [[real line]], regarded as a [[smooth space]], to the plot
+takes a plot $t_{(-)} \;\colon\; U_2 \to \mathbb{R}^1$ of the [[real line]]
+(regarded as a [[super formal smooth set|super smooth set]] via example \ref{SuperSmoothSetSuperCartesianSpaces}), to the plot
 
 $$
   \label{LocalDataForFlowOfImplicitInfinitesimalGaugeSymmetry}
-  (\exp(t(-) \hat v) \circ j^\infty_\Sigma(\Phi(-))
+  (\exp(t(-) \hat v) \circ j^\infty_\Sigma(\Phi_{(-)})
     \;\colon\:
-  U \times \Sigma \longrightarrow J^\infty_\Sigma E )
+  U_2 \times U_1  \longrightarrow \Gamma_\Sigma\left( J^\infty_\Sigma(E) \right)
 $$
 
 of the [[smooth space|smooth]] [[space of sections]] of the [[jet bundle]].
@@ -9693,10 +10057,10 @@ Then
 
 
 1. an _[[on-shell]] [[conserved current]]_ is a horizontal $p$-form $J \in \Omega^{p,0}_\Sigma(E)$
-   whose [[total derivative|total spacetime derivative]] vanishes on the [[shell]] (eq:ShellInJetBundle)
+   whose [[total derivative|total spacetime derivative]] vanishes on the prolonged [[shell]] (eq:ShellInJetBundle)
 
    $$
-     d J\vert_{\mathcal{E}} = 0
+     d J\vert_{\mathcal{E}^\infty} = 0
      \,.
    $$
 
@@ -9726,9 +10090,11 @@ a presymplectic potential (eq:PresymplecticPotential) from def. \ref{EulerLagran
 +-- {: .proof}
 ###### Proof
 
-By [[Cartan's homotopy formula]] for the [[Lie derivative]] (prop. \ref{CartanHomotopyFormula}) and using (eq:dLDecomposition)
-and the fact that the variation vector field $v$ vanishes on horizontal differential forms
-we may re-express the defining equation for the symmetry as
+By [[Cartan's homotopy formula]] for the [[Lie derivative]] (prop. \ref{CartanHomotopyFormula}) 
+and the decomposition of the variational derivative $\delta \mathbf{L}$ (eq:dLDecomposition)
+and the fact that contraction $\iota_{\hat v}$ with the prolongtion of an evolutionary vector field vanishes on horizontal differential forms 
+(eq:GenericComponentsForProlongationOfEvolutionaryVectorField) and anti-commutes with the horizontal differential (eq:ProlongedEvolutionaryVectorFieldContractionAnticommutedWithHorizontalDerivative), by def. \ref{EvolutionaryVectorField},
+we may re-express the defining equation for the symmetry as follows:
 
 $$
   \begin{aligned}
@@ -9753,7 +10119,7 @@ $$
   d(\underset{= J_v}{\underbrace{\tilde J - \iota_v \Theta_{BFV}}}) = \iota_v \delta_{EL}\mathbf{L}
 $$
 
-Since, by definition of $\mathcal{E}$, the form $\frac{\delta_{EL} \mathbf{L}}{\delta v}$ vanishes on $\mathcal{E}$
+Since, by definition of the [[shell]] $\mathcal{E}$, the form $\frac{\delta_{EL} \mathbf{L}}{\delta v}$ vanishes on $\mathcal{E}$
 this yields the claim.
 
 =--
@@ -10648,8 +11014,7 @@ and that the [[Euler-Lagrange equations|Euler-Lagrange]] [[equations of motion]]
 (a [[free field theory]], according to def. \ref{FreeFieldTheory} below), the [[on-shell]] [[space of field histories]]
 is canonically a [[vector space]] and hence it makes sense to consider [[linear map|linear]] [[observables]], i.e.
 those observables $A$ with $A(c \Phi) = c A(\Phi)$ and $A(\Phi_1 + \Phi_2) A(\Phi_1) + A(\phi_2)$.
-It turns out that these are precisely the _[[distributions]]_ in the sense of [[functional analysis]] which are
-[[weak ]].
+It turns out that these are precisely the _[[distributions]]_ in the sense of [[functional analysis]]p.
 More generally there are the [[multilinear map|multilinear]] observables, and these are given by
 [[distributions of several variables]]. In full [[perturbative quantum field theory|perturbation theory]]
 we consider only the [[infinitesimal neighbourhood]] (example \ref{InfinitesimalNeighbourhood}) of a single [[on-shell]] [[field history]]
@@ -11303,275 +11668,6 @@ where the second term vanishes by the first statement of prop. \ref{Transgressio
 =--
 
 
-+-- {: .num_defn #EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime}
-###### Definition
-**([[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]])**
-
-Given a [[field bundle]] $E$ over [[spacetime]] $\Sigma$ as in example \ref{TrivialVectorBundleAsAFieldBundle}
-equipped with a [[local Lagrangian density]] $\mathbf{L} \in  \Omega^{p+1,1}_{\Sigma}(E)$ as in def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}
-then the corresponding _[[Euler-Lagrange equation|Euler-Lagrange]] [[equations of motion]]_
-on fields $\Phi \in \Gamma_\Sigma(E)$ is the equation
-
-$$
-  \label{EquationOfMotionEL}
-  j^\infty_\Sigma(\Phi)^\ast \left(\delta_{EL} \mathbf{L}\right) = 0
-  \,,
-$$
-
-where $j^\infty_\Sigma(\Phi) \colon \Sigma \to J^\infty_{\Sigma}(E)$ denotes the [[jet prolongation]] of $\Phi$ (def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}), $j^\infty_{\Sigma}(\Phi)^\ast$ the operation of
-[[pullback of differential forms]] along this function, and $\delta_{EL}$ is the
-[[Euler-Lagrange operator]] from prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}.
-
-In the case that the field bundle is a trivial vector bundle over Minowski spacetime as in example \ref{TrivialVectorBundleAsAFieldBundle}
-this equation is
-equivalently the following [[differential equation]] (again using prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}):
-
-$$
-  \left(
-    \frac{\partial L}{\partial \phi^a}
-      -
-    \frac{d}{d x^\mu}
-    \frac{\partial L}{\partial \phi^a_{,\mu}}
-    +
-    \frac{d^2}{d x^\mu d x^\nu} \frac{\partial L}{\partial \phi^a_{,\mu\nu}}
-    -
-    \cdots
-  \right)
-  \left(
-     (x^\mu),
-     (\Phi^a),
-     \left( \frac{\partial \Phi^a}{\partial x^\mu}\right),
-     \left( \frac{\partial^2 \Phi^a}{\partial x^\mu \partial x^\nu} \right),
-     \cdots
-  \right)
-  \;=\;
-  0
-  \,.
-$$
-
-We write
-
-$$
-  \label{OnShellFieldHistories}
-  \Gamma_\Sigma(E)_{\delta_{EL} L = 0}
-    \hookrightarrow
-  \Gamma_\Sigma(E)
-$$
-
-for the [[smooth space|smooth subspace]] of the [[space of field histories]] (eq:SpaceOfFieldHistories) on those that solve this
-differential equation.
-
-This is another incarnation of the "[[shell]]" (eq:ProlongedShellInJetBundle).
-
-Similarly for $\Sigma_r \hookrightarrow \Sigma$ a [[submanifold]] of [[spacetime]], we write
-
-$$
-  \label{OnShellFieldHistoriesInHigherCodimension}
-  \Gamma_{\Sigma_r}(E)_{\delta_{EL} L = 0}
-    \hookrightarrow
-  \Gamma_{\Sigma_r}(E)
-$$
-
-for the subspace of on-shell field histories restricted to the [[infinitesimal neighbourhood]]
-of $\Sigma_r$ in $\Sigma$ (eq:SpaceOfFieldHistoriesInHigherCodimension).
-
-
-=--
-
-+-- {: .num_defn #FreeFieldTheory}
-###### Definition
-**([[free field theory]])**
-
-A [[Lagrangian field theory]] $(E, \mathbf{L})$ (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
-with [[field bundle]] $E \overset{fb}{\to} \Sigma$ a [[vector bundle]]
-(e.g. a [[trivial vector bundle]] as in example \ref{TrivialVectorBundleAsAFieldBundle})
-is called a _[[free field theory]]_ if its [[Euler-Lagrange equation|Euler-Lagrange]] [[equations of motion]]
-(def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime}) is a
-[[differential equation]] that is _[[linear differential equation]]_, in that with
-
-$$
-  \Phi_1, \Phi_2 \;\in\; \Gamma_\Sigma(E)_{\delta_{EL}\mathfb{L} = 0}
-$$
-
-any two [[on-shell]] [[field histories]] (eq:OnShellFieldHistories) and $c_1, c_2 \in \mathbb{R}$
-any two [[real numbers]], also the [[linear combination]]
-
-$$
-  c_1 \Phi_1 + c_2 \Phi_2 \;\in\; \Gamma_\Sigma(E)
-  \,,
-$$
-
-which a priori exists only as an element in the off-shell [[space of field histories]],
-is again a solution to the [[equations of motion]] and hence an element of $\Gamma_\Sigma(E)_{\delta_{EL}\mathbf{L} = 0}$.
-
-A [[Lagrangian field theory]] which is not a [[free field theory]] is called an _[[interaction|interacting]]_ [[field theory]].
-
-=--
-
-+-- {: .num_remark #FreeFieldTheoryRelevance}
-###### Remark
-**(relevance of [[free field theory]])**
-
-In [[perturbative quantum field theory]] one considers [[interaction|interacting]] [[field theories]]
-in the [[infinitesimal neighbourhood]] (example \ref{InfinitesimalNeighbourhood}) of [[free field theories]] (def. \ref{FreeFieldTheory})
-inside some [[super formal smooth set|super smooth set]] of general [[Lagrangian field theories]].
-While [[free field theories]] are typically of limited interest in themselves,
-this [[perturbative quantum field theory|perturbation theory]] around them exhausts much of what is
-known about [[quantum field theory]] in general, and therefore [[free field theories]] are of paramount importance
-for the general theory.
-
-We discuss the [[covariant phase space]] of [[free field theories]] below in _[Propagators](#Propagators)_
-and their [[quantization]] below in _[Free quantum fields](#FreeQuantumFields) _.
-
-=--
-
-+-- {: .num_prop #EquationOfMotionOfFreeRealScalarField}
-###### Example
-**([[equation of motion]] of [[free field|free]] [[real scalar field]] is [[Klein-Gordon equation]])**
-
-Consider the [[Lagrangian field theory]] of the [[free field|free]] [[real scalar field]]
-from example \ref{LagrangianForFreeScalarFieldOnMinkowskiSpacetime}.
-
-By example \ref{FreeScalarFieldEOM} its [[Euler-Lagrange form]] is
-
-$$
-  \delta_{EL}\mathbf{L}
-    \;=\;
-  \left(\eta^{\mu \nu} \phi_{,\mu \nu} - m^2 \right) \delta \phi \wedge dvol_\sigma
-$$
-
-Hence for $\Phi \in \Gamma_\Sigma(E) = C^\infty(X)$ a field trajectory,
-its [[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]]
-according to def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime} is
-
-$$
-  \eta^{\mu \nu} \frac{\partial^2 }{\partial x^\mu \partial x^\nu} \Phi - m^2 \Phi \;=\; 0
-$$
-
-often abbreviated as
-
-$$
-  \label{KleinGordonEquation}
-  (\Box - m^2) \Phi \;=\; 0
-  \,.
-$$
-
-This [[PDE]] is called the _[[Klein-Gordon equation]]_ on Minowski spacetime. If the [[mass]] $m$
-vanishes, $m = 0$, then this is the _relativistic [[wave equation]]_.
-
-Hence this is indeed a [[free field theory]] according to def. \ref{FreeFieldTheory}.
-
-=--
-
-
-+-- {: .num_prop #MaxwellVacuumEquation}
-###### Example
-**([[equations of motion]] of [[vacuum]] [[electromagnetism]] are [[vacuum]] [[Maxwell's equations]])**
-
-Consider the [[Lagrangian field theory]] of [[free field|free]] [[electromagnetism]]
-on [[Minkowski spacetime]] from example \ref{ElectromagnetismLagrangianDensity}.
-
-By example \ref{ElectromagnetismEl} its [[Euler-Lagrange form]] is
-
-$$
-  \delta_{EL}\mathbf{L}
-    \;=\;
-  \frac{d}{d x^\mu}f^{\mu \nu} \delta a_\nu
-  \,.
-$$
-
-Hence for $A \in \Gamma_{\Sigma}(T^\ast \Sigma) = \Omega^1(\Sigma)$ a field trajectory ("[[vector potential]]"),
-its [[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]]
-according to def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime} is
-
-$$
-  \begin{aligned}
-    & \frac{\partial}{\partial x^\mu} F^{\mu \nu} = 0
-    \\
-    \Leftrightarrow\;\;  &
-    d \star_\eta F = 0
-  \end{aligned}
-  \,,
-$$
-
-where $F = d A$ is the [[Faraday tensor]] (eq:TensorFaraday).
-(In the coordinate-free formulation in the second line "$\star_\eta$" denotes
-the [[Hodge star operator]] induced by the [[pseudo-Riemannian metric]] $\eta$ on [[Minkowski spacetime]].)
-
-These [[PDEs]] are called the _[[vacuum]] [[Maxwell's equations]]_.
-
-This, too, is a [[free field theory]] according to def. \ref{FreeFieldTheory}.
-
-=--
-
-
-
-+-- {: .num_example #EquationOfMotionOfDiracFieldIsDiracEquation}
-###### Example
-**([[equation of motion]] of [[Dirac field]] is [[Dirac equation]])**
-
-Consider the [[Lagrangian field theory]] of the [[Dirac field]]
-on [[Minkowski spacetime]] from example \ref{LagrangianDensityForDiracField},
-with [[field fiber]] the [[spin representation]] $S$ regarded as a [[superpoint]] $S_{odd}$ and
-[[Lagrangian density]] given by the spinor bilinear pairing
-
-$$
-  L
-   \;=\;
-  i \overline{\psi} \gamma^\mu \partial_\mu \psi + m \overline{\psi}\psi
-$$
-
-(in spacetime dimension $p+1 \in \{3,4,6,10\}$ with $m = 0$ unless $p+1 = 4$).
-
-From example \ref{PresymplecticCurrentDiracField} it follows that
-the corresponding [[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]] (def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime}) is
-
-$$
-  \label{DiracEquation}
-  \left(-i ^\gamma^\mu \partial_\mu + m\right)\psi \;=\; 0
-  \,.
-$$
-
-This is the _[[Dirac equation]]_.
-
-Hence this is a [[free field theory]] according to def. \ref{FreeFieldTheory}.
-
-Observe that the "square" of the [[Dirac operator]] is the [[Klein-Gordon operator]] $\Box - m^2$ (eq:KleinGordonEquation)
-
-$$
-  \begin{aligned}
-    \left(
-      +i \gamma^\mu \partial_\mu + m
-    \right)
-    \left(-i \gamma^\mu \partial_\mu + m\right)\psi
-    &
-    =
-    \left(\partial_\mu \partial^\mu - m^2\right) \psi
-    \\
-    & =
-    \left(\Box - m^2\right) \psi
-  \end{aligned}
-  \,.
-$$
-
-This means that a [[Dirac field]] which solves the [[Dirac equations]] is
-in particular (on [[Minkowski spacetime]]) componentwise a solution to the [[Klein-Gordon equation]].
-
-=--
-
-
-+-- {: .num_prop #SupergeometricNatureOfDiracEquation}
-###### Remark
-**([[supergeometry|supergeometric]] nature of the [[Dirac equation]] as an [[Euler-Lagrange equation]])**
-
-While the [[Dirac equation]] (eq:DiracEquation) of example \ref{EquationOfMotionOfDiracFieldIsDiracEquation}
-would make sense in itself also if the field coordinates $\psi$ and jet coordinates $\psi_{,\mu}$ of the [[Dirac field]]
-were not anti-commuting (eq:DiracFieldJetCoordinatesAnticommute), due to their [[supergeometry|supergeometric]] nature (remark \ref{DiracFieldSupergeometric}), it would,
-by remark \ref{LagrangianDensityOfDiracFieldSupergeometricNature}, then no longer be the [[Euler-Lagrange equation]] of a [[Lagrangian density]],
-hence then Dirac field theory would not be a [[Lagrangian field theory]].
-
-=--
-
 +-- {: .num_prop #PrincipleOfExtremalAction}
 ###### Proposition
 **([[principle of extremal action]])**
@@ -11633,8 +11729,7 @@ against a non-negative or non-positive bump function $b$ supported inside this n
 ###### Definition
 **([[local observables]])**
 
-Given a [[Lagrangian field theory]] $(E,\mathbf{L})$ (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) with  [[on-shell]] [[space of histories]] $\Gamma_\Sigma(E)_{\delta_{EL} \mathbf{L} = 0}$
-(eq:OnShellFieldHistories)
+Given a [[Lagrangian field theory]] $(E,\mathbf{L})$ (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) with  [[on-shell]] [[space of histories]] $\Gamma_\Sigma(E)_{\delta_{EL} \mathbf{L} = 0}$ (eq:OnShellFieldHistories)
 then the space
 
 $$
@@ -11650,7 +11745,7 @@ $$
   A \;\colon\;  \Gamma_\Sigma(E)_{\delta_{EL}\mathbf{L} = 0} \longrightarrow \mathbb{C}
 $$
 
-on the [[on-shell]] [[space of field histories]].
+on the [[on-shell]] [[space of field histories]] (eq:OnShellFieldHistories).
 This is a [[star-algebra]] under pointwise [[complex conjugation]].
 
 (That we consider functions with values in [[complex numbers]] instead of [[real numbers]] is a
@@ -11671,7 +11766,7 @@ $$
 which we may identify with the subspace of all observables (eq:GlobalObservables)
 on those that arise as the [[image]] under
 [[transgression of variational differential forms]] $\tau_\Sigma$ (def. \ref{TransgressionOfVariationalDifferentialFormsToConfigrationSpaces})
-of local observables to [[functionals]] on the [[on-shell]] [[space of field histories]]:
+of local observables to [[functionals]] on the [[on-shell]] [[space of field histories]] (eq:OnShellFieldHistories):
 
 $$
   LocObs_\Sigma(E)
@@ -11790,7 +11885,7 @@ whose [[field bundle]] $E$ (def. \ref{FieldsAndFieldBundles}) is the [[trivial v
 $\mathbf{L}$ encodes a [[free field theory]] (def. \ref{FreeFieldTheory}) in that its
 [[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]] is a linear [[PDE]].
 
-This means that the [[space of field histories]] $\Gamma_\Sigma(E) \simeq C^\infty(\Sigma)$ is the
+This means that the [[space of field histories]] $\Gamma_\Sigma(E) \simeq C^\infty(\Sigma)$ (eq:OnShellFieldHistories) is the
 [[real vector space]] of [[smooth functions]] on [[Minkowski spacetime]] and that every linear observable $A$ (def. \ref{LinearObservables})
 gives a [[linear function]]
 
@@ -12878,10 +12973,51 @@ total spacetime derivative $d \Omega_{BFV}$ of the [[presymplectic current]] van
 
 $$
   d \Omega_{BFV} = - \delta \delta_{EL} \mathbf{L}
+$$
+
+in that the [[pullback of differential forms|pullback]] (def. \ref{PullbackOfDifferential1FormsOnCartesianSpaces})
+along the [[shell]] inclusion $\mathcal{E}} \overset{i_{\mathcal{E}}}{\hookrightarrow} J^\infty_\Sigma(E)$ (eq:ShellInJetBundle)
+vanishes:
+
+$$
+  \begin{aligned}
+    (i_{\mathcal{E}})^\ast
+    \left(
+     d \Omega_{BFV}
+    \right)
+    & =
+    - (i_{\mathcal{E}})^\ast
+    \left(
+     \delta \delta_{EL} \mathcal{L}
+    \right)
+    \\
+    & =
+    - \delta 
+    \underset{ 
+    \\
+    & = 0
+    }{
+    \underbrace{
+    (i_{\mathcal{E}})^\ast
+    \left(
+      \delta_{EL} \mathbf{L}
+    \right)
+    }
+    }
+    \\
+    & = 0
+  \end{aligned}
+$$
+
+This implies that the transgression of $d \Omega_{BFV}$ to 
+the [[on-shell]] [[space of field histories]] $\Gamma_{\Sigma_{tra}}(E)_{\delta_{EL}\mathbf{L} = 0}$ vanishes
+(since by definition (eq:EquationOfMotionEL) that involves pulling back through the shell inclusion)
+
+$$
+  \tau_{\Sigma_{tra}}(d \Omega_{BFV}) = 0
   \,.
 $$
 
-This means that the transgression of $d \Omega_{BFV}$ to $\Gamma_{\Sigma_{tra}}(E)_{\delta_{EL}\mathbf{L} = 0}$ vanishes.
 But then the claim follows with prop. \ref{TransgressionOfVariationaldifferentialFormsCompatibleWithVariationalDerivative}:
 
 $$
@@ -12893,6 +13029,7 @@ $$
     \,.
   \end{aligned}
 $$
+
 =--
 
 
@@ -13378,10 +13515,11 @@ $$
   \begin{aligned}
    s \Omega_{BV}
     & =
-  - \delta (s \overline{\phi}_a) \delta \phi^a \wege dvol_{\Sigma}
+  - \delta (s \overline{\phi}_a) \delta \phi^a \wedge dvol_{\Sigma}
   \\
     & =
   - \delta \frac{\delta_{EL}L }{\delta \phi^a}  \delta \phi^a dvol_{\Sigma}
+  \\
   & =
   - \delta \delta_{EL}\mathbf{L}
   \\
