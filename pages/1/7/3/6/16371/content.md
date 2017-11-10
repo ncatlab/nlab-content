@@ -30,6 +30,8 @@ A _topology_ that is of this form for some subterminal object $U$ is called _ope
 
 In case $\mathcal{E}=Sh(X)$ is the topos of sheaves on a topological space $X$, a subterminal object is just an open subset $U$ of $X$ and the open subtopos corresponding to it is equivalent to $Sh(U)$.
 
+As one would expect from the topological situation, for any topos $\mathcal{E}$, the empty subtopos (given by $o(V) \coloneqq (\bot \Rightarrow V) = \top$) and $\mathcal{E}$ itself (given by $o(V) \coloneqq (\top \Rightarrow V) = V$) are open subtoposes of $\mathcal{E}$.
+
 ### Remark
 
 The [[subterminal object]] $U$ in $\mathcal{E}$ is associated with a [[closed subtopos]] $Sh_{c(U)}(\mathcal{E})$ as well e.g. in the case of $\mathcal{E}=Sh(X)$ on a space $X$ this yields $Sh(X\setminus U)$.
@@ -137,7 +139,7 @@ cf. [Borceux-Korotenski (1991, p.238)](#BK91).
 
 ## Open subtoposes associated to a subtopos {#ext_int}
 
-Let $Sh_j(\mathcal{E})\hookrightarrow\mathcal{E}$ be a subtopos of a (Grothendieck) topos with corresponding [[Lawvere-Tierney topology|topology]] $j$. From [prop. ](#open_supremum) it follows that the supremum of the family of all open subtoposes contained in $Sh_j(\mathcal{E})$ is open again and, since it coincides with the supremum in the lattice of all localizations, is contained in $Sh_j(\mathcal{E})$. Clearly, it is the biggest open subtopos contained in $Sh_j(\mathcal{E})$ and therefore called the **interior** of $Sh_j(\mathcal{E})$, denoted by $Sh_{o(int(j))}(\mathcal{E})$ and the corresponding [[subterminal object]] by $int(j)$.
+Let $Sh_j(\mathcal{E})\hookrightarrow\mathcal{E}$ be a subtopos of a (Grothendieck) topos with corresponding [[Lawvere-Tierney topology|topology]] $j$. From [prop. \ref{open_supremum}](#open_supremum) it follows that the supremum of the family of all open subtoposes contained in $Sh_j(\mathcal{E})$ is open again and, since it coincides with the supremum in the lattice of all localizations, is contained in $Sh_j(\mathcal{E})$. Clearly, it is the biggest open subtopos contained in $Sh_j(\mathcal{E})$ and therefore called the **interior** of $Sh_j(\mathcal{E})$, denoted by $Sh_{o(int(j))}(\mathcal{E})$ and the corresponding [[subterminal object]] by $int(j)$.
 
 Whereas the other open subtopos $Sh_{o(ext(j))}(\mathcal{E})$ connected with $Sh_j(\mathcal{E})$ corresponding to $ext(j)$ is the biggest open subtopos disjoint from $Sh_j(\mathcal{E})$ i.e. its exterior. Then the sum $Sh_{o(ext(j))}(\mathcal{E}) \vee Sh_{o(int(j))}(\mathcal{E})$ is open again and corresponds to the subterminal object $ext(j)\vee int(j)$. Its closed complement $Sh_{c(ext(j)\vee int(j))}(\mathcal{E})$ is called the boundary of $Sh_j(\mathcal{E})$ in ([SGA 4](#SGA4), p. 461).
  
