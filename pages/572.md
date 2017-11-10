@@ -228,6 +228,10 @@ $$
 
 For [[simplicial model categories]] this is ([Rezk, theorem 8.3](#{#Rezk}). For general [[model categories]] this is ([Bergner 07, theorem 6.2](#Bergner07)). For the fully general case this follows from results by [[Clark Barwick]], [[Daniel Kan]] and [[Bertrand Toën]] as pointed out by [[Chris Schommer-Pries]] [here on MathOverflow](http://mathoverflow.net/a/93139/381).
 
+### Model categories for presheaves
+
+There is a notion of [[right/left fibration of complete Segal spaces]] analogous to [[right/left Kan fibrations]] for [[quasi-categories]].
+
 
 ## Examples
  {#Examples}
