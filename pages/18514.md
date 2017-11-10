@@ -371,6 +371,8 @@ The causal propagator yields the [[Peierls bracket]], which is the [[Poisson bra
 
 * [[Hadamard propagator]]
 
+* [[Green hyperbolic differential operator]]
+
 ## References
 
 The causal propagator was first considered (in the context of [[quantum electrodynamics]]) in 
