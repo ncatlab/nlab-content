@@ -238,6 +238,8 @@ Then the path $(2,1)$-category $P_1(X)$ is defined as follows:
 
   * [[globally hyperbolic Lorentzian manifold]]
 
+* [[conal manifold]]
+
 ## References
 
 A classic reference for general relativity is
