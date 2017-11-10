@@ -15,5 +15,19 @@ This article solves the existence problem of local gauge invariant [[observables
 * {#Khavkine14} [[Igor Khavkine]],  _Local and gauge invariant observables in gravity_, Class. Quantum Grav. 32 185019, 2015 ([arXiv:1503.03754](https://arxiv.org/abs/1503.03754), [CQG+](http://cqgplus.com/2015/09/16/local-and-gauge-invariant-observables-in-gravity/), [pdf slides](http://www.science.unitn.it/~moretti/convegno/khavkine.pdf) for talk at [Operator and Geometric Analysis on Quantum Theory](http://www.science.unitn.it/~moretti/convegno/convegno.html)
 Levico Terme, Italy, September 2014)
 
+On [[jet comonads]]:
+
+
+* [[Igor Khavkine]], [[Urs Schreiber]], _[[schreiber:Synthetic variational calculus|Synthetic geometry of differential equations: I. Jets and comonad structure]]_ ([arXiv:1701.06238](https://arxiv.org/abs/1701.06238))
+
+
+
+## Related $n$Lab entries
+
+* [[Green hyperbolic partial differential equation]]
+
+* [[conal manifold]]
+
+* [[jet comonad]]
 
 category: people
