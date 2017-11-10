@@ -87,6 +87,8 @@ A __[[discrete fibration]]__ is one in which we use [[Set]] instead of [[Cat]] a
 
   * [[left fibration]], [[right fibration]]
 
+  * [[right/left fibration of simplicial spaces]]
+
   * [[inner Kan fibration]]
 
   * [[minimal Joyal fibration]]
