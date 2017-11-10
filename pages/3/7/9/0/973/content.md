@@ -27,13 +27,13 @@ A **sketch** is a generalization of this idea, where we take a [[small category]
 +-- {: .num_defn }
 ###### Definition 
 
-A **sketch** is a [[small category|small]] [[category]] $T$ equipped with subsets $(L, C)$ of its [[limit]] [[cones]] and [[colimit]] [[cocones]]. 
+A **sketch** is a [[small category|small]] [[category]] $T$ equipped with a set $L$ of [[cones]] and a set $C$ of [[cocones]].  A **realized sketch** is one where all the cones in $L$ are [[limit]] cones and all the cocones in $C$ are [[colimit]] cocones.
 
-A **limit-sketch** is a sketch with just limits and no colimits specified, ie. with $C = \emptyset$. Dually, a **colimit-sketch** is a sketch with $L = \emptyset$.
+A **limit-sketch** is a sketch with $C = \emptyset$, while a **colimit-sketch** is a sketch with $L = \emptyset$.
 
-A **model of a sketch** is a [[Set]]-valued [[functor]] preserving the specified limits and colimits.
+A **model of a sketch** in a category $\mathcal{C}$ is a [[functor]] $T\to \mathcal{C}$ taking each cone in $L$ to a limit cone and each cocone in $C$ to a colimit cocone.  In particular, $T$ is realized if and only if its identity functor is a model.  Frequently the notion of model is restricted to the case $\mathcal{C}=Set$.
 
-A [[category]] is called **sketchable** if it is the category of models of a sketch.
+A [[category]] is called **sketchable** if it is the category of models (in $Set$) of a sketch.
 
 =--
 
