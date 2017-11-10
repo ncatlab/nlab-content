@@ -293,9 +293,9 @@ For the use of fibrations in homotopy see e.g.
 
 * _[[joyalscatlab:Grothendieck fibrations]]_ 
 
-The Wikipedia entry on fibered categories is okay, and contains a number of other references:
+The Wikipedia entry on fibered / fibred categories is okay, and contains a number of other references:
 
-* [Wikipedia entry](http://en.wikipedia.org/wiki/Fibered_category) 
+* [Wikipedia entry](http://en.wikipedia.org/wiki/Fibred_category) 
 
 
 [[!redirects Grothendieck fibrations]]
