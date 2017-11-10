@@ -43,7 +43,12 @@ The [[complement]] of the (closed) causal cone is the _[[causal complement]]_.
 
 * [[causal perturbation theory]]
 
+* [[conal manifold]]
+
 [[!redirects causal cones]]
+
+[[!redirects closed causal cone]]
+[[!redirects closed causal cones]]
 
 [[!redirects future causal cone]]
 [[!redirects future causal cones]]
