@@ -35,7 +35,7 @@ A MILL hyperdoctrine models predicate intuitionistic linear logic, with $\otimes
 
 +-- {: .un_defn}
 ###### Definition
-A **MALL hyperdoctrine** is a MILL hyperdoctrine whose fibers are [[star-autonomous categories|$\ast$-autonomous]] [[lattices]] and whose reindexing functors preserve all the $\ast$-autonomous and lattice structure.
+A **MALL hyperdoctrine** is a MILL hyperdoctrine whose fibers are [[star-autonomous categories|*-autonomous]] [[lattices]] and whose reindexing functors preserve all the $\ast$-autonomous and lattice structure.
 =--
 
 A MALL hyperdoctrine models predicate classical linear logic without exponentials, with $\otimes,\mathbf{1},\parr,\bot,\&,\top,\oplus,\mathbf{0},\exists,\forall$.
