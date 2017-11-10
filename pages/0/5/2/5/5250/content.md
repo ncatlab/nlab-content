@@ -51,6 +51,7 @@ In the context of [[directed homotopy theory]] the **future cone** of a point, $
 
 * [[light cone]]
 
+* [[conal manifold]]
 
 [[!redirects future cone]]
 [[!redirects future cones]]
