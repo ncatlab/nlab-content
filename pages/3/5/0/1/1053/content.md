@@ -112,6 +112,8 @@ The terms "exponential", "multiplicative", and "additive" come from the fact tha
 
 However, the connectives and constants can also be grouped in different ways.  For instance, the multiplicative conjunction $\otimes$ and additive disjunction $\oplus$ are both [[positive types]], while the additive conjunction $\&$ and multiplicative disjunction $\parr$ are [[negative types]].  Similarly, the multiplicative truth $\mathbf{1}$ and the additive falsity $\mathbf{0}$ are positive, while the additive truth $\top$ and multiplicative falsity $\bot$ are negative.  This grouping has the advantage that the similarity of symbols matches the adjective used.
 
+But conversely, the natural grouping by multiplicative/additive, or equivalently by de Morgan dual pairs, has led many authors to alter Girard's notation, in particular reverting to the category-theoretic $\times$ and $+$ for the additives $\&$ and $\oplus$, and introducing a different symbol such as $\odot$, $\bullet$ or (confusingly) $\oplus$ for Girard's $\parr$.  But on this page we will stick to Girard's conventions for consistency.
+
 In [[relevant logic]], the terms "conjunction" and "disjunction" are often reserved for the additive versions $\&$ and $\oplus$, which are written with the traditional notations $\wedge$ and $\vee$.  In this case, the multiplicative conjunction $A\otimes B$ is called **fusion** and denoted $A\circ B$, while the multiplicative disjunction $A\parr B$ is called **fission** and denoted $A+B$ (or sometimes, confusingly, $A\oplus B$).  In relevant logic the symbol $\bot$ may also be used for the *additive* falsity, here denoted $\mathbf{0}$.  Also, sometimes the additive connectives are called **extensional** and the multiplicatives **intensional**.
 
 Sometimes one does not define the operation of negation, defining only $p^\perp$ for a propositional variable $p$.  It is a theorem that every proposition above is equivalent (in the sense defined below) to a proposition in which negation is applied only to propositional variables.
@@ -180,7 +182,23 @@ We can even restrict attention to sequents with no term on the left side and one
 
 ## Variants
 
-The logic described above is full classical linear logic.  There are many important [[fragments]] and variants of linear logic, such as [[multiplicative linear logic]], intuitionistic linear logic (in which $\multimap$ is a primitive operation), full intuitionistic linear logic (where multiplicatives and additives connectives are all independent of each other), non-commutative linear logics (braided or not), light linear logics, etc.
+The logic described above is full classical linear logic.  There are many important [[fragments]] and variants of linear logic, such as:
+
+* [[multiplicative linear logic]] (MLL), which contains only $\otimes,\parr$ and their units $\mathbf{1},\bot$ as well as the negation $(-)^\perp$.
+
+* multiplicative-exponential linear logic (MELL), which contains only $\otimes,\parr,\mathbf{1},\bot,(-)^\perp$ and the exponential modalities $!,?$.
+
+* multiplicative-additive linear logic (MALL), which contains everything *except* the exponential modalities $!,?$.
+
+* multiplicative intuitionistic linear logic (MILL), which contains only $\otimes,\mathbf{1},\multimap$ (the latter now as a primitive operation); in particular there is no longer the involutive negation $(-)^\perp$.  The sequents are also restricted to have only one formula on the right.
+
+* full intuitionistic linear logic, which contains all the additive connectives $\&,\oplus,\mathbf{0},\top$ as well as the intutionistic multiplicatives $\otimes,\mathbf{1},\multimap$ and the exponential $!$, with one formula on the right as above.  In this case all connectives are all independent of each other.
+
+* non-commutative linear logics (braided or not)
+
+* "light" and "soft" linear logics, which limit the use of ! to constrain the computational complexity of proofs
+
+* first-order linear logic, which adds quantifiers $\exists$ and $\forall$ (sometimes denoted $\bigvee$ and $\bigwedge$), either over a fixed domain or over varying types.  These quantifiers are usually considered "additive"; for a theory that has a certain kind of "multiplicative quantifier" see [[bunched implication]].
 
 
 ## Categorial semantics
@@ -205,15 +223,11 @@ correspond in another way to traditional [[conjunction]] and
 [[disjunction]], are modelled as usual by [[products]] and
 [[coproducts]].  [Seely (1989)](#Seely) notes that products are sufficient, as $*$-autonomy then guarantees the existence of coproducts; that is, they are also linked by [[de Morgan duality]].
 
-LL recaptures the notion of a resource that can be discarded
+Recall also that linear logic recaptures the notion of a resource that can be discarded
 or copied arbitrarily by the use of the [[modal logic|modal]] operator $!$ the [[!-modality]]:
 $!A$ denotes an '$A$-factory', a resource that can produce
-zero or more $A$s on demand.  It is modelled using a [[comonad]]
-$!$ on the underlying $*$-autonomous category that is
-([[symmetric monoidal category|symmetric]]) [[monoidal category|monoidal]], in the sense that there is an
-isomorphism $!A\otimes!B \cong !(A\& B)$.  Since every
-$A$ is canonically a symmetric $\&$-[[comonoid]] (remembering that $\&$ is the product), $!A$ is
-then a symmetric $\otimes$-comonoid.
+zero or more $A$s on demand.  It is modelled using a suitably monoidal [[comonad]]
+$!$ on the underlying $*$-autonomous category.  There are various inequivalent ways to make this precise, however; see [[!-modality]] for discussion.
 
 An LL sequent
 $$A_1,\ldots,A_n \vdash B_1,\ldots,B_m$$
@@ -233,6 +247,8 @@ category.  The [[exponential object|exponential]] (unsurprisingly for a Kleisli
 category) is $B^A \cong !A\multimap B$.
 
 Particular monoidal and $*$-autonomous [[posets]] for modeling linear logic can be obtained by [[Day convolution]] from [[ternary frames]].  This includes Girard's *phase spaces* as a particular example.
+
+First-order linear logic is correspondingly modeled in a [[linear hyperdoctrine]].
 
 
 ### Polycategories
