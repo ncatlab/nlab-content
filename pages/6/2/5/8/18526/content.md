@@ -290,7 +290,13 @@ $$
 
 ## Related concepts
 
+
 [[!include propagators - table]]
+
+
+$\,$
+
+* [[Green hyperbolic differential operator]]
 
 
 ## References
