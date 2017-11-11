@@ -3735,7 +3735,7 @@ $$
 This is then called the _[[field bundle]]_, which specifies the kind of values that the given field species may take at any point of spacetime. Since the space $F$ of field values is the [[fiber]] of this [[fiber bundle]] (def. \ref{FiberBundle}), it is sometimes also called the _[[field fiber]]_. (See also at _[[fiber bundles in physics]]_.)
 
 Given a [[field bundle]] $E \overset{fb}{\to}\Sigma$, then a _[[field history]]_ is a [[section]] of that bundle
-(def. \ref{Sections}). The discussion of [[field theory]] concerns the [[space of field histories|space of all field histories]],
+(def. \ref{Sections}). The discussion of [[field theory]] concerns the [[space of field histories|space of all possible field histories]],
 hence the [[space of sections]] of the [[field bundle]] (example \ref{DiffeologicalSpaceOfFieldHistories} below).
 This is a very "large" [[generalized smooth space]], called a _[[diffeological space]]_ (def. \ref{DiffeologicalSpace} below).
 
@@ -3821,7 +3821,49 @@ $$
   \,.
 $$
 
-The set of such [[sections]]/[[field histories]] is to be denoted $\Gamma_\Sigma(E)$.
+The set of such [[sections]]/[[field histories]] is to be denoted 
+
+$$
+ \label{SetOfFieldHistories}
+  \Gamma_\Sigma(E)
+  \;\coloneqq\;
+  \left\{
+    \array{
+      && E
+      \\
+      & {}^{\mathllap{\Phi}}\nearrow & \downarrow^{\mathrlap{fb}}
+      \\
+      \Sigma &=& \Sigma 
+    }
+    \phantom{fb}
+  \right\}
+$$
+
+
+=--
+
+
++-- {: .num_remark #PossibleFieldHistories}
+###### Remark
+**([[possible worlds|possible]] field histories)**
+
+After we give the set $\Gamma_\Sigma(E)$ of field histories (eq:SetOfFieldHistories) [[differential geometry|differential geometric]] structure, below in example \ref{DiffeologicalSpaceOfFieldHistories} and example \ref{SupergeometricSpaceOfFieldHistories},
+we call it the _[[space of field histories]]_. This should be read as space of _[[possibility|possible]]_ field histories;
+containing all field histories that qualify as being of the [[type]] specified by the [[field bundle]] $E$.
+
+After we obtain [[equations of motion]] below in def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime},
+these serve as the "laws of nature" that field histories should obey, and they define the subspace of those
+field histories that do solve the equations of motion; this will be denoted
+
+$$
+  \Gamma_\Sigma(E)_{\delta_{EL}\mathbf{L}= 0}
+    \overset{\phantom{AAA}}{\hookrightarrow}
+  \Gamma_\Sigma(E)
+$$
+
+and called the _[[on-shell]] [[space of field histories]]_ (eq:InclusionOfOnShellSpaceOfFieldHistories).
+
+An actual field history seen in the laboratory would be a point in this sub-space (or rather a [[generalized element]] of it.)
 
 =--
 
@@ -3842,7 +3884,7 @@ are not terminologically distinguished.
 |--|------------|-|---------|----|
 | [[field bundle|field component]] | $\phi^a$, $\phi^a_{,\mu}$ |  $J^\infty_\Sigma(E) \to \mathbb{R}$ |[[coordinate function]] on [[jet bundle]] of [[field bundle]] | def. \ref{FieldsAndFieldBundles}, def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime} |
 | [[field history]] | $\Phi$, $\frac{\partial \Phi}{\partial x^\mu}$ | $\Sigma \to J^\infty_\Sigma(E)$  | [[jet prolongation]] of [[section]] of [[field bundle]] | def. \ref{FieldsAndFieldBundles}, def. \ref{JetProlongation}  |
-| [[observable|field observable]] | $\mathbf{\Phi}^a$, $\partial_{\mu} \mathbf{\Phi}^a $ | $\Gamma_{\Sigma}(E) \to \mathbb{R}$  | [[functional]] on [[space of sections]] | def. \ref{Observables}, example \ref{PointEvaluationObservables} |
+| [[observable|field observable]] | $\mathbf{\Phi}^a$, $\partial_{\mu} \mathbf{\Phi}^a $ | $\Gamma_{\Sigma}(E) \to \mathbb{R}$  | [[functional]] on [[space of field histories]] | def. \ref{Observables}, example \ref{PointEvaluationObservables} |
 
 =--
 
@@ -7835,6 +7877,7 @@ called the _[[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]]_ (
 The space of solutions to this [[differential equation]], called the _[[on-shell]] [[space of field histories]]_
 
 $$
+  \label{InclusionOfOnShellSpaceOfFieldHistories}
   \Gamma_\Sigma(E)_{\delta_{EL}\mathbf{L} = 0}
     \overset{\phantom{AAA}}{\hookrightarrow}
   \Gamma_\Sigma(E)
@@ -21380,6 +21423,7 @@ $\,$
 * [[anomalous magnetic moment of the electron]]
 
 (...)
+
 
 
 
