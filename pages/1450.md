@@ -192,6 +192,8 @@ See at [flow of a vector field](flow+of+a+vector+field#SyntheticDefinition).
 
 * [[nonstandard analysis]]
 
+* [[synthetic differential topology]]
+
 ## References
 {#References}
 
