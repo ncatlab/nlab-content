@@ -3692,7 +3692,7 @@ are smooth functions as required.
 
 $\,$
 
-This concludes our discussion of [[spin]] and [[spacetime]]. In the [next chapter](#FieldBundles) we consider the concept of _[[field (physics)|fields]]_ on [[spacetime]].
+This concludes our discussion of [[spin]] and [[spacetime]]. In the [next chapter](#Fields) we consider the concept of _[[field (physics)|fields]]_ on [[spacetime]].
 
 $\,$
 
@@ -3701,7 +3701,7 @@ $\,$
 
 A [[field history]] on a given [[spacetime]] $\Sigma$ is a [[quantity]] assigned to each point of spacetime (each [[event]]), such that this assignment varies smoothly with spacetime points. For instance an _[[electromagnetic field]] [[field history|history]]_ (example \ref{Electromagnetism} below) is at each point of spacetime a collection of [[vectors]] that encode the direction in which a [[charged particle]] passing through that point would feel a [[force]] (the "[[Lorentz force]]", see example \ref{Electromagnetism} below).
 
-This is readily formalized (def. \ref{FieldsAndFieldBundles} below): If $F$ denotes the [[smooth manifold]] of "values" that the given kind of field may take at any spacetime point, then a field configuration $\Phi$ is modeled as a [[smooth function]] from spacetime to this space of values:
+This is readily formalized (def. \ref{FieldsAndFieldBundles} below): If $F$ denotes the [[smooth manifold]] of "values" that the given kind of field may take at any spacetime point, then a field history $\Phi$ is modeled as a [[smooth function]] from spacetime to this space of values:
 
 $$
   \Phi
@@ -6894,11 +6894,13 @@ $\,$
  {#FieldVariations}
 
 Given a [[field bundle]] as in def. \ref{FieldsAndFieldBundles} above, then we know what [[type]] of quantities the corresponding
-[[field histories]] assign to a given spacetime point (a given [[event]]). Among all consistent such field configurations, some are to qualify as those that "may occur in reality" if we think of the field theory as a means to describe parts of the [[observable universe]]. Moreover, if the reality to be described does not exhibit "action at a distance" then admissibility of its field configurations should be determined over arbitrary small spacetime regions, in fact over the [[infinitesimal neighbourhood]] of any spacetime point (remark \ref{JetBundleInTermsOfSyntheticDifferentialGeometry} below). This means equivalently that the realized field configurations should be those that satisfy a given _[[differential equation]]_, hence an [[equation]] between the value of the [[partial derivatives]] of the field history at any spacetime point.
+[[field histories]] assign to a given spacetime point (a given [[event]]). Among all consistent such field histories, some are to qualify as those that "may occur in reality" if we think of the field theory as a means to describe parts of the [[observable universe]]. Moreover, if the reality to be described does not exhibit "action at a distance" then admissibility of its field configurations should be determined over arbitrary small spacetime regions, in fact over the [[infinitesimal neighbourhood]] of any spacetime point (remark \ref{JetBundleInTermsOfSyntheticDifferentialGeometry} below). This means equivalently that the realized field histories should be those that satisfy a given _[[differential equation]]_, namely an [[equation]] between the [[partial derivatives]] of the field history at any spacetime point. This is called the _[[equation of motion]]_ of the field theory (def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime} below).
 
-In order to formalize this, it is useful to first collect all the possible derivatives that a field may have at any given point into one big space of "field derivatives at spacetime points". This collection is called the _[[jet bundle]]_ of the [[field bundle]], given as def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime} below.
+In order to formalize this, it is useful to first collect all the possible partial derivatives that a field history may have at any given point into one big space of "field derivatives at spacetime points". This collection is called the _[[jet bundle]]_ of the [[field bundle]], given as def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime} below.
 
 Moving around in this space means to change the possible value of fields and their derivatives, hence to _vary_ the fields. Accordingly _[[variational calculus]]_ of fields is just [[differential calculus]] on the [[jet bundle]] of the [[field bundle]], this we consider in def. \ref{VariationalBicomplexOnSecondOrderJetBundleOverTrivialVectorBundleOverMinkowskiSpacetime} below.
+
+$\,$
 
 
 +-- {: .num_defn #JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}
@@ -7828,6 +7830,11 @@ $\alpha \in \Omega^{s-1,0}_\Sigma(E)$ with $\omega = d \alpha$.
 
 We will encounter the extension of the [[exact sequence]] (eq:ExactSequenceTotalSpacetimeDerivative) further stepts to the right below in example \ref{TrivialLagrangianDensities}.
 
+
+$\,$
+
+This concludes our discussion of [[variational calculus]] on the [[jet bundle]] of the [[field bundle]]. Next we apply this to
+[[Lagrangian densities]] on the [[jet bundle]], defining [[Lagrangian field theories]].
 
 $\,$
 
