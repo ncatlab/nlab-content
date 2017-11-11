@@ -189,7 +189,7 @@ Suppose all [[spaces of sections]] here are equipped with suitable [[topological
 
 +-- {: .num_cor #DistributionsOnSolutionSpaceAreTheGeneralizedPDESolutions}
 ###### Corollary
-**(distributions on solution space are the generalized PDE solutions)##
+**(distributions on solution space are the generalized PDE solutions)**
 
 Let $\Gamma_\Sigma(E) \overset{P}{\longrightarrow} \Gamma_\Sigma(\tilde E^\ast)$ be a Green hyperbolic differential operator (def. \ref{GreenHyperbolicDifferentialOperator}).
 
