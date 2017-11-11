@@ -26,7 +26,7 @@ Notice that the germ of a manifold around a point is in general "larger" than th
 
 ## References
 
-* [[Marta Bunge]], Felipe Gago, _Synthetic aspects of $C^\infty$-mapping II: Mather's theorem for infinitesimally represented germs_, Journal of Pure and Applied Algebra 55 (1988)  213-250 North-Holland ([doi:10.1016/0022-4049(88)90117-X](https://doi.org/10.1016/0022-4049(88)90117-X))
+* [[Marta Bunge]], Felipe Gago, _Synthetic aspects of $C^\infty$-mapping II: Mather's theorem for infinitesimally represented germs_, Journal of Pure and Applied Algebra 55 (1988)  213-250 North-Holland ([doi:10.1016/0022-4049(88)90117-X](https://doi.org/10.1016/0022-4049%2888%2990117-X))
 
 * [[Marta Bunge]], Felipe Gago, Ana Maria San Luis, _Synthetic Differential Topology_, Cambridge, to appear April 2018
 
