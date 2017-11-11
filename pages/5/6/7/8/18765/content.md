@@ -29,7 +29,14 @@ $$
   \,,
 $$
 
-where the differential operator on the left now acts via [[derivatives of distributions]].
+where the differential operator on the left now acts via [[derivatives of distributions]]. This means that for all $b \in \mathcal{D}$ we have
+
+$$
+ U(P^\ast(b)) = 0
+ \,,
+$$
+
+where $P^\ast$ is the [[formally adjoint differential operator]].
 
 Similarly there are generalized solutions for the inhomogeneous equation, and in fact now the inhomogeneity may itself be a [[distribution]]. In particular for [[delta distribution]]-inhomogeneity
 
