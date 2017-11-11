@@ -27,6 +27,7 @@ Under [[categorical semantics]] such a context interprets as an [[object]] of so
 * [[multiverse]]
 
 ## References
+ {#References}
 
 * Stanford Encyclopedia of Mathematics _[Possible Worlds](http://plato.stanford.edu/entries/possible-worlds/)_
 
