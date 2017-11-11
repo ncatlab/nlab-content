@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Topos Theory
++-- {: .hide}
+[[!include topos theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -25,6 +36,8 @@ For a modern example of this kind, with only $1$ stalk, consider the nonarchimed
 
 ## Related concepts
 
+* [[synthetic differential topology]]
+
 [[!include infinitesimal and local - table]]
 
 
@@ -32,9 +45,9 @@ For a modern example of this kind, with only $1$ stalk, consider the nonarchimed
 
 * R. Godement, Topologie algebrique et theorie de faisceaux, Paris 1958 
 
-* M. Kashiwara, P. Shapira: Categories and sheaves, Springer 2006 
+* [[Masaki Kashiwara]], [[Pierre Schapira]], _[[Categories and Sheaves]]_, Grundlehren der Mathematischen Wissenschaften 332, Springer (2006)
 
-* S. MacLane, I. Moerdijk: Sheaves in geometry and logic, Springer 1992 
+* [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_, Springer 1992 
 
 
 [[!redirects germs]]
