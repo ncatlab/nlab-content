@@ -54,7 +54,7 @@ $$(b, a; r^\dagger = [b \otimes a \overset{\sigma}{\cong} a \otimes b \overset{r
 
 where $\sigma$ is an instance of the symmetry isomorphism, so that $r^\dagger$ is the evident transpose. On morphisms, it takes a pair $(f, g)$ to $(g, f)$; note well that the directions of the arrows make the functor contravariant on $Chu(C, d)$. 
 
-Armed with just this much knowledge, and knowledge of how star-autonomous categories behave (as categorified versions of [[Boolean algebra]]s, or perhaps better [[Boolean rig]]s), the star-autonomous structure on $Chu(C, D)$ can pretty much be deduced (or strongly guessed) by the diligent reader, and this is actually a very good exercise. One could sketch this as follows: 
+Armed with just this much knowledge, and knowledge of how star-autonomous categories behave (as categorified versions of [[Boolean algebra]]s, or perhaps better [[Boolean rig]]s), the star-autonomous structure on $Chu(C, d)$ can pretty much be deduced (or strongly guessed) by the diligent reader, and this is actually a very good exercise. One could sketch this as follows: 
 
 * The monoidal unit of $Chu(C, d)$ should be the dual of the dualizer, and so is $(I, d; \lambda: I \otimes d \cong d)$ where $\lambda$, the transpose of $\rho$, is a canonical isomorphism for the unit $I$. 
 
