@@ -231,7 +231,27 @@ $$
 +-- {: .proof}
 ###### Proof idea
 
-On the level of [[vector spaces]], ignoring the topology, this is just the statement of the linear isomorphism (eq:SolutionSpaceIsomorphiicToQuotientByImP) from prop. \ref{ExactSequenceOfGreenHyperbolicSystem} under passing to [[dual vector spaces]].
+On the level of [[vector spaces]], the linear isomorphism (eq:SolutionSpaceIsomorphiicToQuotientByImP) from prop. \ref{ExactSequenceOfGreenHyperbolicSystem} becomes, under passing to [[dual vector spaces]], 
+
+$$
+  \left(
+    ker_{scp}(P)
+  \right)^\ast
+    \overset{(-)\circ G}{\longrightarrow}
+  \left(
+    \Gamma_{\Sigma,cp}(\tilde E^\ast)/im(P)
+  \right)^\ast
+  \,.
+$$
+
+Furthermore, by the [[universal property]] of [[quotient vector space]] (being a [[coequalizer]]) an element of  $  \left(\Gamma_{\Sigma,cp}(\tilde E^\ast)/im(P)\right)^\ast$ is a linear map $u$ out of $\Gamma_{\Sigma,cp}(\tilde E^\ast)$ which vanishes on the image of $P$:
+
+$$
+  u(P(-)) = 0
+  \,.
+$$
+
+This is the defining property of $u$ being a [[generalized solution]] to the differential equation.
 
 Hence it remains to be seen that the statement remains true for [[topological vector spaces]] and [[continuous linear functionals]] between these. For that we need (..?..) that the subspace inclusion $im(P) \hookrightarrow \Gamma_{\Sigma,cp}(\tilde E^\ast)$ is a [[closed subspace]]. But this follows again by the exactness of the sequence in prop. \ref{ExactSequenceOfGreenHyperbolicSystem}, since that image is also a kernel.
 
