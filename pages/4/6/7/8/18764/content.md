@@ -108,7 +108,7 @@ has a unique solution  $\Phi_{\pm}$; and such that this unique solution has [[su
 ([Khavkine 14, def. 2.2](#Khavkine14))
 
 
-+-- {: .num_defn #AdvancedAndRetardedGreenFuntioons}
++-- {: .num_defn #AdvancedAndRetardedGreenFuntions}
 ###### Definition
 **([[advanced and retarded Green functions]] and [[causal Green function]])**
 
@@ -145,6 +145,7 @@ is called the _[[causal Green function]]_ for $P$.
 ## Properties
  {#Properties}
 
+### Linear functionals on the solution space
 
 +-- {: .num_prop #ExactSequenceOfGreenHyperbolicSystem}
 ###### Proposition
@@ -189,7 +190,7 @@ Suppose all [[spaces of sections]] here are equipped with suitable [[topological
 
 +-- {: .num_cor #DistributionsOnSolutionSpaceAreTheGeneralizedPDESolutions}
 ###### Corollary
-**(distributions on solution space are the generalized PDE solutions)**
+**([[distributions]] on solution space are the [[generalized PDE solutions]])**
 
 Let $\Gamma_\Sigma(E) \overset{P}{\longrightarrow} \Gamma_\Sigma(\tilde E^\ast)$ be a Green hyperbolic differential operator (def. \ref{GreenHyperbolicDifferentialOperator}).
 
@@ -257,6 +258,167 @@ Hence it remains to be seen that the statement remains true for [[topological ve
 
 =--
 
+
+### Formally adjoint Green hyperbolic operators
+
++-- {: .num_defn #FormallyAdjointDifferentialOperators}
+###### Definition
+**([[formally adjoint differential operators]])**
+
+Two [[differential operators]]
+
+$$
+  P, P^\ast
+   \;\colon\;
+  \Gamma_\Sigma(E)
+    \longrightarrow
+  \Gamma_\Sigma(\tilde E^\ast)
+$$
+
+are called _[[formally adjoint differential operators]]_ via a [[bilinear map|bilinear]] [[differential operator]]
+
+$$
+  \label{FormallyAdjointDifferentialOperatorWitness}
+  K \;\colon\;
+  \Gamma_\Sigma(E) \otimes \Gamma_\Sigma(E)
+    \longrightarrow
+   \Gamma_\Sigma(\wedge^{p} T^\ast \Sigma)
+$$
+
+such that for all $\Phi_1, \Phi_2 \in \Gamma_\Sigma(E)$ we have
+
+$$
+  P(\Phi_1) \cdot \Phi_2
+  -
+  \Phi_1 \cdot P^\ast(\Phi_2)
+   \;=\;
+  d K(\Phi_1, \Phi_2)
+$$
+
+=--
+
+([Khavkine 14, def. 2.4](#Khavkine14))
+
++-- {: .num_prop}
+###### Proposition
+**([[causal Green functions]] of [[formally adjoint differential operator|formally adjoint]] [[Green hyperbolic differential operators]] are [[formally adjoint differential operator|formally adjoint]])**
+
+Let
+
+$$
+  P, P^\ast \;\colon\;\Gamma_\Sigma(E) \overset{}{\longrightarrow} \Gamma_\Sigma(\tilde E^\ast)
+$$ 
+
+be a Green hyperbolic differential operators (def. \ref{GreenHyperbolicDifferentialOperator}) which are [[formally adjoint differential operator|formally adjoint]] (def. \ref{FormallyAdjointDifferentialOperators}).  Then also their [[causal Green functions]] $\mathrm{G}_P$ and $G_{P^\ast}$ (def. \ref{AdvancedAndRetardedGreenFuntions}) are [[formally adjoint differential operators]], up to a sign:
+
+$$
+  \left( 
+    \mathrm{G}_P
+  \right)^\ast
+  \;=\;
+  - \mathrm{G}_{P^\ast}
+  \,.
+$$
+
+=--
+
+([Khavkine 14, (24), (25)](#Khavkine14))
+
+
+### The $P$-Poisson and $P$-Peierls brackets
+
+
++-- {: .num_defn #BracketPPoissonAndPPeierls}
+###### Definition
+**($P$-Poisson and $P$-Peierls bracket)**
+
+Let
+
+$$
+  P, P^\ast \;\colon\;\Gamma_\Sigma(E) \overset{}{\longrightarrow} \Gamma_\Sigma(\tilde E^\ast)
+$$ 
+
+be a pair of [[Green hyperbolic differential operators]] (def. \ref{GreenHyperbolicDifferentialOperator}) which are [[formally adjoint differential operator|formally adjoint]] (def. \ref{FormallyAdjointDifferentialOperators}) via a differential operator $K$ (eq:FormallyAdjointDifferentialOperatorWitness).
+
+Then:
+
+1. For any [[Cauchy surface]] $\Sigma_p \overset{\iota_{\Sigma_p}}{\hookrightarrow} \Sigma$ the _$P$-Poisson bracket_ is the [[bilinear map]]
+
+   $$
+     \array{
+       \Gamma_{\Sigma,scp}(E) \otimes \Gamma_{\Sigma,scp}(E)
+         &\overset{ \left\{-,- \right\}_{\Sigma_p,K} }{\longrightarrow}&
+       \mathbb{R}
+       \\
+       (\mathbf{\Phi}_1, \mathbf{\Phi}_2)
+       &\mapsto&
+       \underset{\Sigma_p}{\int} (\iota_{\Sigma_p})^\ast K(\mathbf{\Phi}_1, \mathbf{\Phi}_2)
+     }
+   $$
+
+1. The _$P$-Peierls bracket_ is the [[bilinear map]]
+   
+   $$
+     \array{
+       \Gamma_{\Sigma,cp}(\tilde E^\ast) \otimes \Gamma_{\Sigma,cp}(\tilde E^\ast)
+         &
+           \overset{
+              \left\{ -,- \right\}_{\Sigma, \mathrm{G}}   
+           }{
+             \longrightarrow
+           }
+         &  
+       \mathbb{R}
+       \\
+       (\tilde \alpha^\ast_1, \tilde \alpha^\ast_2)
+         &\mapsto&  
+       \underset{\Sigma}{\int} \tilde \alpha^\ast_1 \cdot \mathrm{G}_P(\tilde \alpha^\ast_2)
+     }
+   $$
+
+=--
+
+
++-- {: .num_prop}
+###### Proposition
+**([[causal Green function]] related $P$-Poisson bracket to $P$-Peierls bracket)**
+
+Let
+
+$$
+  P, P^\ast \;\colon\;\Gamma_\Sigma(E) \overset{}{\longrightarrow} \Gamma_\Sigma(\tilde E^\ast)
+$$ 
+
+be a pair of [[Green hyperbolic differential operators]] (def. \ref{GreenHyperbolicDifferentialOperator}) which are [[formally adjoint differential operator|formally adjoint]] (def. \ref{FormallyAdjointDifferentialOperators}) via a differential operator $K$ (eq:FormallyAdjointDifferentialOperatorWitness).
+
+
+
+Then the [[causal Green function]] intertwines the $P$-Poisson bracket with the $P$-Peierls bracket (def. \ref{BracketPPoissonAndPPeierls}) in that for every [[Cauchy surface]] $\Sigma_p \hookrightarrow \Sigma$ and all 
+
+$$
+  \tilde \alpha_1^\ast, \tilde \alpha_2
+  \;\in\;
+  \Gamma_{\Sigma,scp}(\tilde E^\ast)
+$$
+
+we have
+
+$$
+  \left\{
+     \tilde \alpha^\ast_1, \tilde \alpha^\ast_2
+  \right\}_{\Sigma,\mathrm{G}}
+  \;=\;
+  \left\{
+     \mathrm{G}(\tilde \alpha^\ast_1),
+     \mathrm{G}(\tilde \alpha^\ast_2)
+  \right\}_{\Sigma_p,K}
+  \,.
+$$
+
+
+=--
+
+([Khavkine 14, lemma 2.5](#Khavkine14))
 
 ## References
 
