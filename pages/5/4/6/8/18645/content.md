@@ -10488,7 +10488,7 @@ to the [[presymplectic current]] yields the following:
 **(variational Lie derivative)**
 
 Let $E \overset{fb}{\to} \Sigma$ be a [[field bundle]] (def. \ref{FieldsAndFieldBundles})
-with [[jet bundle]] $J^\infty_\Sigma(E) (def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}).
+with [[jet bundle]] $J^\infty_\Sigma(E)$ (def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}).
 
 For $v$ a vertical [[tangent vector field]] on the [[jet bundle]] (a variation def. \ref{Variation})
 write
@@ -10513,7 +10513,7 @@ for the vector field whose contraction operator (def. \ref{ContractionOfFormsWit
 
 $$
   \begin{aligned}
-    \iota_{[v_1]}
+    \iota_{[v_1,v_2]^{var}}
      & =
     \left[
       \mathcal{L}^{var}_{v_1}, \iota_{v_2}
@@ -10526,7 +10526,7 @@ $$
   \end{aligned}
   \,,
 $$
-  
+
 =--
 
 
@@ -10613,15 +10613,15 @@ From the definition (eq:LieDerivativeVariational) of $\mathcal{L}^{var}_v$ we ha
 $$
   \begin{aligned}
     & \mathcal{L}^{var}_v \Theta_{BFV}
-    = 
+    =
     \delta \tilde H_v
     \\
     \Leftrightarrow\;\;
-    & 
+    &
     \delta \iota_v \Theta_{BFV} + \iota_v \underset{= \Omega_{BFV}}{\underbrace{\delta \Theta_{BFV}}} = \delta \tilde H_v
     \\
     \Leftrightarrow\;\;
-    & 
+    &
     \delta \left(
       \tilde H_v - \iota_v \Theta_{BFV}
     \right)
