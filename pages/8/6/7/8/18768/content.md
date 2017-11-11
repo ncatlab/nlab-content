@@ -18,7 +18,7 @@
 
 ## Idea
 
-The concept of _conal manifold_ ([Khavkine 12](#Khavkine12)) is a  generalizatioon of the concept of a [[time orientation|time oriented]] [[Lorentzian manifold]] to the case where a [[differential operator]] on some [[vector bundle]] over the manifold induces its own adapted analogs of [[future cones]] and [[past cones]] at each point.
+The concept of _conal manifold_ ([Khavkine 12](#Khavkine12)) is a  generalization of the concept of a [[time orientation|time oriented]] [[Lorentzian manifold]] to the case where a [[differential operator]] on some [[vector bundle]] over the manifold induces its own adapted analogs of [[future cones]] and [[past cones]] at each point.
 
 ## Related concepts
 
