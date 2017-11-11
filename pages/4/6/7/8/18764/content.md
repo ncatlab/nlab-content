@@ -145,119 +145,6 @@ is called the _[[causal Green function]]_ for $P$.
 ## Properties
  {#Properties}
 
-### Linear functionals on the solution space
-
-+-- {: .num_prop #ExactSequenceOfGreenHyperbolicSystem}
-###### Proposition
-**([[exact sequence]] of Green hyperbolic system)**
-
-
-Let $\Gamma_\Sigma(E) \overset{P}{\longrightarrow} \Gamma_\Sigma(\tilde E^\ast)$ be a Green hyperbolic differential operator (def. \ref{GreenHyperbolicDifferentialOperator}) with [[causal Green function]] $\mathrm{G}$ (def. \ref{GreenHyperbolicDifferentialOperator}). Then the sequence 
-
-$$
-  0 
-    \to  
-  \Gamma_{\Sigma,cp}(E)
-   \overset{P}{\longrightarrow}
-  \Gamma_{\Sigma,cp}(\tilde E^\ast)
-    \overset{G}{\longrightarrow}
-  \Gamma_{\Sigma,scp}(E)
-    \overset{P}{\longrightarrow}
-  \Gamma_{\Sigma,scp}(\tilde E^\ast)
-     \to
-  0
-$$
-
-of these operators restricted to compact or spatially compact support as indicated (def. \ref{CompactlySourceCausalSupport})
-is an [[exact sequence]].
-
-In particular this means that there is a [[linear isomorphism]] betwen the space $ker_{scp}(P)$ of spatially compact solutions to the differential equation and the [[quotient space]] of the [[compact support|compactly supported]] dual sections by the [[image]] of $P$:
-
-$$
-  \label{SolutionSpaceIsomorphiicToQuotientByImP}
-  \Gamma_{\Sigma,cp}(\tilde E^\ast)/im(P)
-    \underoverset{\simeq}{\phantom{A}\mathrm{G}\phantom{A}}{\longrightarrow}
-  ker_{scp}(P)
-  \,.
-$$
-
-=--
-
-([Khavkine 14, prop. 2.1](#Khavkine14))
-
-
-Suppose all [[spaces of sections]] here are equipped with suitable [[topological vector space]] structure. Then it follows:
-
-+-- {: .num_cor #DistributionsOnSolutionSpaceAreTheGeneralizedPDESolutions}
-###### Corollary
-**([[distributions]] on solution space are the [[generalized PDE solutions]])**
-
-Let $\Gamma_\Sigma(E) \overset{P}{\longrightarrow} \Gamma_\Sigma(\tilde E^\ast)$ be a Green hyperbolic differential operator (def. \ref{GreenHyperbolicDifferentialOperator}).
-
-A [[continuous linear functional]] on the solution space
-
-$$
-  u_{sol} \in \left(ker_{scp}(P)\right)^\ast
-$$
-
-is equivalently a [[distribution]] on dual sections
-
-$$
-  u \in \left( \Gamma_{cp}(\tilde E^\ast)\right)^\ast
-$$
-
-which is a [[generalized solution]] to the differential equation
-
-$$
-  P u = 0
-  \,,
-$$
-
-and this [[linear isomorphism]] is given by pullback along the [[causal Green function]] $\mathrm{G}$ (def. \ref{AdvancedAndRetardedGreenFuntioons}):
-
-$$
-  \left(ker_{scp}(P)\right)^\ast
-     \underoverset{\simeq}{(-)\circ \mathrm{G}}{\longrightarrow}
-   \left\{
-     u \in \left( \Gamma_{\Sigma,cp}(\tilde E^\ast)\right)^\ast
-     \,\vert\,
-     P u = 0
-   \right\}
-  \,.
-$$
-
-=--
-
-
-+-- {: .proof}
-###### Proof idea
-
-On the level of [[vector spaces]], the linear isomorphism (eq:SolutionSpaceIsomorphiicToQuotientByImP) from prop. \ref{ExactSequenceOfGreenHyperbolicSystem} becomes, under passing to [[dual vector spaces]], 
-
-$$
-  \left(
-    ker_{scp}(P)
-  \right)^\ast
-    \overset{(-)\circ G}{\longrightarrow}
-  \left(
-    \Gamma_{\Sigma,cp}(\tilde E^\ast)/im(P)
-  \right)^\ast
-  \,.
-$$
-
-Furthermore, by the [[universal property]] of [[quotient vector space]] (being a [[coequalizer]]) an element of  $  \left(\Gamma_{\Sigma,cp}(\tilde E^\ast)/im(P)\right)^\ast$ is a linear map $u$ out of $\Gamma_{\Sigma,cp}(\tilde E^\ast)$ which vanishes on the image of $P$:
-
-$$
-  u(P(-)) = 0
-  \,.
-$$
-
-This is the defining property of $u$ being a [[generalized solution]] to the differential equation.
-
-Hence it remains to be seen that the statement remains true for [[topological vector spaces]] and [[continuous linear functionals]] between these. For that we need (..?..) that the subspace inclusion $im(P) \hookrightarrow \Gamma_{\Sigma,cp}(\tilde E^\ast)$ is a [[closed subspace]]. But this follows again by the exactness of the sequence in prop. \ref{ExactSequenceOfGreenHyperbolicSystem}, since that image is also a kernel.
-
-=--
-
 
 ### Formally adjoint Green hyperbolic operators
 
@@ -309,7 +196,7 @@ $$
   P, P^\ast \;\colon\;\Gamma_\Sigma(E) \overset{}{\longrightarrow} \Gamma_\Sigma(\tilde E^\ast)
 $$ 
 
-be a Green hyperbolic differential operators (def. \ref{GreenHyperbolicDifferentialOperator}) which are [[formally adjoint differential operator|formally adjoint]] (def. \ref{FormallyAdjointDifferentialOperators}).  Then also their [[causal Green functions]] $\mathrm{G}_P$ and $G_{P^\ast}$ (def. \ref{AdvancedAndRetardedGreenFuntions}) are [[formally adjoint differential operators]], up to a sign:
+be a pair of Green hyperbolic differential operators (def. \ref{GreenHyperbolicDifferentialOperator}) which are [[formally adjoint differential operator|formally adjoint]] (def. \ref{FormallyAdjointDifferentialOperators}).  Then also their [[causal Green functions]] $\mathrm{G}_P$ and $G_{P^\ast}$ (def. \ref{AdvancedAndRetardedGreenFuntions}) are [[formally adjoint differential operators]], up to a sign:
 
 $$
   \left( 
@@ -323,6 +210,121 @@ $$
 =--
 
 ([Khavkine 14, (24), (25)](#Khavkine14))
+
+
+### Linear functionals on the solution space
+
++-- {: .num_prop #ExactSequenceOfGreenHyperbolicSystem}
+###### Proposition
+**([[exact sequence]] of Green hyperbolic system)**
+
+
+Let $\Gamma_\Sigma(E) \overset{P}{\longrightarrow} \Gamma_\Sigma(\tilde E^\ast)$ be a Green hyperbolic differential operator (def. \ref{GreenHyperbolicDifferentialOperator}) with [[causal Green function]] $\mathrm{G}$ (def. \ref{GreenHyperbolicDifferentialOperator}). Then the sequence 
+
+$$
+  0 
+    \to  
+  \Gamma_{\Sigma,cp}(E)
+   \overset{P}{\longrightarrow}
+  \Gamma_{\Sigma,cp}(\tilde E^\ast)
+    \overset{G}{\longrightarrow}
+  \Gamma_{\Sigma,scp}(E)
+    \overset{P}{\longrightarrow}
+  \Gamma_{\Sigma,scp}(\tilde E^\ast)
+     \to
+  0
+$$
+
+of these operators restricted to compact or spatially compact support as indicated (def. \ref{CompactlySourceCausalSupport})
+is an [[exact sequence]].
+
+In particular this means that there is a [[linear isomorphism]] betwen the space $ker_{scp}(P)$ of spatially compact solutions to the differential equation and the [[quotient space]] of the [[compact support|compactly supported]] dual sections by the [[image]] of $P$:
+
+$$
+  \label{SolutionSpaceIsomorphiicToQuotientByImP}
+  \Gamma_{\Sigma,cp}(\tilde E^\ast)/im(P)
+    \underoverset{\simeq}{\phantom{A}\mathrm{G}\phantom{A}}{\longrightarrow}
+  ker_{scp}(P)
+  \,.
+$$
+
+=--
+
+([Khavkine 14, prop. 2.1](#Khavkine14))
+
+
+Suppose all [[spaces of sections]] here are equipped with suitable [[topological vector space]] structure. Then it follows:
+
++-- {: .num_cor #DistributionsOnSolutionSpaceAreTheGeneralizedPDESolutions}
+###### Corollary
+**([[distributions]] on solution space are the [[generalized PDE solutions]])**
+
+Let $P, P \ast \;\colon\; \Gamma_\Sigma(E) \overset{}{\longrightarrow} \Gamma_\Sigma(\tilde E^\ast)$ be a pair of  Green hyperbolic differential operators (def. \ref{GreenHyperbolicDifferentialOperator}) which are [[formally adjoint differential operator|formally adjoint]] (def. \ref{FormallyAdjointDifferentialOperators}).
+
+A [[continuous linear functional]] on the solution space
+
+$$
+  u_{sol} \in \left(ker_{scp}(P)\right)^\ast
+$$
+
+is equivalently a [[distribution]] on dual sections
+
+$$
+  u \in \left( \Gamma_{cp}(\tilde E^\ast)\right)^\ast
+$$
+
+which is a [[generalized solution]] to the differential equation
+
+$$
+  P^\ast u = 0
+  \,,
+$$
+
+and this [[linear isomorphism]] is given by pullback along the [[causal Green function]] $\mathrm{G}$ (def. \ref{AdvancedAndRetardedGreenFuntioons}):
+
+$$
+  \left(ker_{scp}(P)\right)^\ast
+     \underoverset{\simeq}{(-)\circ \mathrm{G}}{\longrightarrow}
+   \left\{
+     u \in \left( \Gamma_{\Sigma,cp}(\tilde E^\ast)\right)^\ast
+     \,\vert\,
+     P u = 0
+   \right\}
+  \,.
+$$
+
+=--
+
+
++-- {: .proof}
+###### Proof idea
+
+On the level of [[vector spaces]], the linear isomorphism (eq:SolutionSpaceIsomorphiicToQuotientByImP) from prop. \ref{ExactSequenceOfGreenHyperbolicSystem} becomes, under passing to [[dual vector spaces]], 
+
+$$
+  \left(
+    ker_{scp}(P)
+  \right)^\ast
+    \overset{(-)\circ G}{\longrightarrow}
+  \left(
+    \Gamma_{\Sigma,cp}(\tilde E^\ast)/im(P)
+  \right)^\ast
+  \,.
+$$
+
+Furthermore, by the [[universal property]] of [[quotient vector space]] (being a [[coequalizer]]) an element of  $  \left(\Gamma_{\Sigma,cp}(\tilde E^\ast)/im(P)\right)^\ast$ is a linear map $u$ out of $\Gamma_{\Sigma,cp}(\tilde E^\ast)$ which vanishes on the image of $P$:
+
+$$
+  u(P(-)) = 0
+  \,.
+$$
+
+This is the defining property of $u$ being a [[generalized solution]] to the differential equation $P^\ast u = 0$.
+
+Hence it remains to be seen that the statement remains true for [[topological vector spaces]] and [[continuous linear functionals]] between these. For that we need (..?..) that the subspace inclusion $im(P) \hookrightarrow \Gamma_{\Sigma,cp}(\tilde E^\ast)$ is a [[closed subspace]]. But this follows again by the exactness of the sequence in prop. \ref{ExactSequenceOfGreenHyperbolicSystem}, since that image is also a kernel.
+
+=--
+
 
 
 ### The $P$-Poisson and $P$-Peierls brackets
