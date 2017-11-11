@@ -32,11 +32,30 @@ $$
 where the differential operator on the left now acts via [[derivatives of distributions]]. This means that for all $b \in \mathcal{D}$ we have
 
 $$
- U(P^\ast(b)) = 0
+ u(P^\ast(b)) = 0
  \,,
 $$
 
 where $P^\ast$ is the [[formally adjoint differential operator]].
+
+This is such that in the case that $u = u_f$ happens to be a [[non-singular distribution]] given by an ordinary [[smooth function]] $f$, then $u_f$ is a generalized solution precisely if $f$ is an ordinary solution:
+
+$$
+  \begin{aligned}
+    P u_f = 0 \;\;
+    & \Leftrightarrow\;\;
+      u_f(P^\ast b) = 0 \phantom{AAA}\text{for all}\, b \in \mathcal{D}
+    \\
+    & \Leftrightarrow\;\;
+     \int f P^\ast b \, dvol = 0 \phantom{AAA}\text{for all}\, b \in \mathcal{D}
+     \\
+     & \Leftrightarrow\;\;
+     \int (P f) b \, dvol = 0 \phantom{AAA}\text{for all}\, b \in \mathcal{D}
+     \\
+     & \Leftrightarrow\;\;
+     P f = 0
+  \end{aligned}
+$$
 
 Similarly there are generalized solutions for the inhomogeneous equation, and in fact now the inhomogeneity may itself be a [[distribution]]. In particular for [[delta distribution]]-inhomogeneity
 
