@@ -64,6 +64,9 @@ the generalized solutions $u$ are the _[[fundamental solutions]]_ or _[[Green's 
 
 [[!redirects generalized solutions of differential equations]]
 
+[[!redirects generalized PDE solution]]
+[[!redirects generalized PDE solutions]]
+
 
 [[!redirects weak solution]]
 [[!redirects weak solutions]]
