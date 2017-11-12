@@ -310,7 +310,7 @@ this is picked up and claimed to be refined to a [[dialectic]] system of [[unity
 
 * {#Kripke80} [[Saul Kripke]], _[[Naming and Necessity]]_ (1980)
 
-* Stanford Encyclopedia of Mathematics, _[Modal Logic](http://plato.stanford.edu/entries/logic-modal/#PosWorSem)_
+* Stanford Encyclopedia of Philosophy, _[Modal Logic](http://plato.stanford.edu/entries/logic-modal/#PosWorSem)_
 
 * [[Jake Chandler]], _Modality: Necessity and Possibility_, lecture notes ([pdf](http://www.jakechandler.com/assets/2006MetaphysicsBBK/%5B6%5D%20%5BModality%5D.pdf))
 
