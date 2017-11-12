@@ -3,7 +3,7 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Higher linear algebra
+#### Linear algebra
 +-- {: .hide}
 [[!include homotopy - contents]]
 =--
@@ -18,6 +18,8 @@
 ## Idea
 
 A **vector** is an element in a [[vector space]].
+
+The archetypical examples are [[tangent vectors]].
 
 ## Related concepts
 
