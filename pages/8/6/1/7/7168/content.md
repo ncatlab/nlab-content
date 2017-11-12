@@ -99,6 +99,11 @@ Quadratic refinements of [[intersection pairing]] in [[cohomology]] is a powerfu
 [[!redirects quadratic form]]
 [[!redirects quadratic forms]]
 
+[[!redirects quadratic map]]
+[[!redirects quadratic maps]]
+
 [[!redirects signature of a quadratic form]]
 [[!redirects signatures of a quadratic form]]
 [[!redirects signatures of quadratic forms]]
+
+
