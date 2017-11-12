@@ -106,6 +106,8 @@ $$
 
 ## References
 
+Named by [[Alexander Grothendieck]] after [[Laurent Schwartz]] (according to [Terzioglu 69](#Terzioglu69)).
+
 The general concept of Schwartz spaces appears in 
 
 * Horvath, 1966, p277
