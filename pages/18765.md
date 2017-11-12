@@ -77,13 +77,33 @@ the generalized solutions $u$ are the _[[fundamental solutions]]_ or _[[Green's 
 
 * {#Kanwal04} Ram P. Kanwal, section 10.2 of _Generalized Functions: Theory and Applications_, Springer 2004
 
+[[!redirects distributional solutions of a PDE]]
+
+[[!redirects distributional solution of a partial differential equation]]
+[[!redirects distributional solutions of a partial differential equation]]
+
+[[!redirects distributional solutions of partial differential equation]]
+
+[[!redirects distributional solution of a differential equation]]
+[[!redirects distributional solutions of a differential equation]]
+
+[[!redirects distributional solutions of differential equations]]
+
+[[!redirects distributional PDE solution]]
+[[!redirects distributional PDE solutions]]
+
+[[!redirects distributional solution]]
+[[!redirects distributional solutions]]
+
+
+
+[[!redirects generalized solution of a PDE]]
 [[!redirects generalized solutions of a PDE]]
 
 [[!redirects generalized solution of a partial differential equation]]
 [[!redirects generalized solutions of a partial differential equation]]
 
 [[!redirects generalized solutions of partial differential equation]]
-
 
 [[!redirects generalized solution of a differential equation]]
 [[!redirects generalized solutions of a differential equation]]
@@ -93,14 +113,12 @@ the generalized solutions $u$ are the _[[fundamental solutions]]_ or _[[Green's 
 [[!redirects generalized PDE solution]]
 [[!redirects generalized PDE solutions]]
 
-[[!redirects distributional solution of a PDE]]
-[[!redirects distributional solutions of a PDE]]
+[[!redirects generalized solution]]
+[[!redirects generalized solutions]]
+
 
 [[!redirects weak solution]]
 [[!redirects weak solutions]]
 
-
-[[!redirects generalized solution]]
-[[!redirects generalized solutions]]
 
 
