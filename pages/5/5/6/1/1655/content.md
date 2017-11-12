@@ -84,11 +84,16 @@ current version generated using Graphviz from [[lctvs dot source]]):
 
 ## References
 
-[Wikipedia](http://en.wikipedia.org/wiki/Topological_vector_space) already has many nice references.
+* {#Treves67} [[François Trèves]], _Topological Vector Spaces, Distributions and Kernels_ (Academic Press, New York, 1967)
 
 The following review gives lots of important examples
 
 * Paul Garrett, _Catalogue of Useful Topological Vectorspaces_, 2011 ([pdf](http://www-users.math.umn.edu/~garrett/m/fun/catalogue_tvs.pdf))
+
+See also 
+
+
+* Wikipedia, _[Topological vector space](http://en.wikipedia.org/wiki/Topological_vector_space)_
 
 category: analysis
 
