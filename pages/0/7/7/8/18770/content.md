@@ -17,7 +17,7 @@
 
 _Synthetic differential topology_ (SDT) is a [[synthetic mathematics|synthetic]] axiomatization of [[differential topology]] in analogy to how [[synthetic differential geometry]] (SDG) is [[synthetic mathematics|synthetic]] axiomatization of [[differential geometry]].
 
-Where in SDG the concept of _[[infinitesimal neighbourhoods]]_ is encoded by the [[axioms]] (the [[Kock-Lawvere axiom]]) in SDT it is _[[germs]]_ that are being encoded by the axioms.
+Where in SDG the concept of _[[infinitesimal neighbourhoods]]_ is encoded by the [[axioms]] (the [[Kock-Lawvere axiom]]) in SDT it is _[[germs of spaces]]_ that are being encoded by the axioms.
 
 Notice that the germ of a manifold around a point is in general "larger" than the [[formal neighbourhood]] of that point, reflecting, dually, the fact that there are [[smooth functions]] which are non-vanishing in every [[open neighbourhood]] of that point but all whose [[partial derivatives]] vanish at that point (see also at _[[bump function]]_).
 
