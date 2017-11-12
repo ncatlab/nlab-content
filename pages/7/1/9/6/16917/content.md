@@ -6,6 +6,8 @@ Physicist
 
 * [[perturbative quantum field theory]]
 
+* [[Schwinger-Tomonaga-Feynman-Dyson]]
+
 * [[Dyson series]]
 
 * [[stability of matter]]
