@@ -3821,7 +3821,7 @@ $$
   \,.
 $$
 
-The set of such [[sections]]/[[field histories]] is to be denoted 
+The set of such [[sections]]/[[field histories]] is to be denoted
 
 $$
  \label{SetOfFieldHistories}
@@ -3833,7 +3833,7 @@ $$
       \\
       & {}^{\mathllap{\Phi}}\nearrow & \downarrow^{\mathrlap{fb}}
       \\
-      \Sigma &=& \Sigma 
+      \Sigma &=& \Sigma
     }
     \phantom{fb}
   \right\}
@@ -4158,7 +4158,7 @@ A _[[diffeological space]]_ $X$ is
      \right)
      \;\overset{f^\ast}{\mapsto}\;
      \left(
-       \mathbb{R}^{n_1} \overset{f}{\to} \mathbb{R}^{n_2} \overset{f}{\to} X
+       \mathbb{R}^{n_1} \overset{f}{\to} \mathbb{R}^{n_2} \overset{\Phi}{\to} X
      \right)
    $$
 
@@ -4410,7 +4410,7 @@ A _[[smooth set]]_ $X$ is
      \right)
      \;\overset{f^\ast}{\mapsto}\;
      \left(
-       \mathbb{R}^{n_1} \overset{f}{\to} \mathbb{R}^{n_2} \overset{f}{\to} X
+       \mathbb{R}^{n_1} \overset{f}{\to} \mathbb{R}^{n_2} \overset{\Phi}{\to} X
      \right)
    $$
 
@@ -5077,7 +5077,7 @@ $$
 Similarly for each $k \in \mathbb{N}$ the algebra
 
 $$
-  (\mathbb{R}[ [ \epsilon ] ])(\epsilon^{k+1})
+  (\mathbb{R}[ [ \epsilon ] ])/(\epsilon^{k+1})
 $$
 
 may be thought of as the algebra of [[Taylor series]] at the origin of $\mathbb{R}$ of [[smooth functions]] $\mathbb{R} \to \mathbb{R}$,
@@ -5296,7 +5296,7 @@ A _[[formal smooth set]]_ $X$ is
      \right)
      \;\overset{f^\ast}{\mapsto}\;
      \left(
-       \mathbb{R}^{n_1}\times Spec(A_1) \overset{f}{\to} \mathbb{R}^{n_2} \times Spec(A_2) \overset{f}{\to} X
+       \mathbb{R}^{n_1}\times Spec(A_1) \overset{f}{\to} \mathbb{R}^{n_2} \times Spec(A_2) \overset{\Phi}{\to} X
      \right)
    $$
 
@@ -5534,7 +5534,7 @@ $$
     \;\colon\;
   X
     \longrightarrow
-  \Im x
+  \Im X
 $$
 
 which takes a plot
@@ -5657,8 +5657,8 @@ we may find infinitesimals to any arbitrary finite order:
 
 Let $X$ be a [[formal smooth sets]] (def. \ref{FormalSmoothSet}) $Y \hookrightarrow X$
 a sub-formal smooth set. Then the _[[infinitesimal neighbourhood]]_ to arbitrary infinitesimal
-ordeof $Y$ in $X$
-is the [[formal smooth set]] $N_Y X$ whose plots are those
+order of $Y$ in $X$
+is the [[formal smooth set]] $N_X Y$ whose plots are those plots of $X$
 
 $$
   \mathbb{R}^n \times Spec(A) \overset{f}{\longrightarrow} X
@@ -5670,7 +5670,7 @@ $$
   \mathbb{R}^n \hookrightarrow \mathbb{R}^n \times Spec(A) \overset{f}{\longrightarrow} X
 $$
 
-factors through $Y$.
+factors through a plot of $Y$.
 
 =--
 
@@ -5726,8 +5726,11 @@ $$
   Y(\mathbb{R}^n \times \mathbb{D})
     \underset{Y(\mathbb{R}^n)}{\times^f}
   X(\mathbb{R}^n)
-  \phantom{AAA} \text{i.e.}
-  \phantom{AAA}
+$$
+
+i. e.
+
+$$
   \array{
      && X(\mathbb{R}^n \times \mathbb{D})
      \\
@@ -5843,7 +5846,7 @@ $$
   \,,
 $$
 
-such that the product in the algebra respects the multipliation in the [[cyclic group|cyclic]] [[group of order 2]] $\mathbb{Z}/2 = \{even, odd\}$:
+such that the product in the algebra respects the multiplication in the [[cyclic group|cyclic]] [[group of order 2]] $\mathbb{Z}/2 = \{even, odd\}$:
 
 $$
   \left.
@@ -6245,7 +6248,7 @@ A _[[super formal smooth set|super smooth set]]_ $X$ is
      \right)
      \;\overset{f^\ast}{\mapsto}\;
      \left(
-       \mathbb{R}^{n_1}\times Spec(A_1) \overset{f}{\to} \mathbb{R}^{n_2} \times Spec(A_2) \overset{f}{\to} X
+       \mathbb{R}^{n_1}\times Spec(A_1) \overset{f}{\to} \mathbb{R}^{n_2} \times Spec(A_2) \overset{\Phi}{\to} X
      \right)
    $$
 
@@ -6663,19 +6666,19 @@ With this [[supergeometry]] in hand we finally turn to defining the [[Dirac fiel
 
 For $\Sigma$ being [[Minkowski spacetime]] (def. \ref{MinkowskiSpacetime}),
 of dimension $2+1$, $3+1$, $5+1$ or $9+1$, let $S$ be the [[spin representation]] from prop. \ref{SpinorRepsByNormedDivisionAlgebra},
-whose underlying [[vector space]] is
+whose underlying [[real vector space]] is
 
 $$
   S \;=\;
   \left\{
     \array{
-      \mathbb{R}^2 & \vert & p + 1 = 2+1
+      \mathbb{R}^2 \oplus \mathbb{R}^2 & \vert & p + 1 = 2+1
       \\
-      \mathbb{C}^2 \simeq_{\mathbb{R}} &\vert& p + 1 = 3 + 1
+      \mathbb{C}^2 \oplus \mathbb{C}^2  &\vert& p + 1 = 3 + 1
       \\
-      \mathbb{H}^2 \simeq_{\mathbb{R}} &\vert& p + 1 = 5 + 1
+      \mathbb{H}^2 \oplus \mathbb{H}^2 &\vert& p + 1 = 5 + 1
       \\
-      \mathbb{O}^2 \simeq_{\mathbb{R}} &\vert& p + 1 = 9 + 1
+      \mathbb{O}^2  \oplus \mathbb{O}^2 &\vert& p + 1 = 9 + 1
     }
   \right.
 $$
@@ -6784,7 +6787,7 @@ from example \ref{SupergeometricSpaceOfFieldHistories} has the following propert
    $$
 
 Moreover, these two kinds of plots determine the fermionic field space completely: It is
-in fact [[isomorphism|isomorphic]], as a [[super vector space]], to the bososnic field space
+in fact [[isomorphism|isomorphic]], as a [[super vector space]], to the bosonic field space
 shifted to odd degree (as in example \ref{SuperpointInducedByFiniteDimensionalVectorSpace}):
 
 $$
@@ -6875,7 +6878,7 @@ which may superficially seem to be in tension with each other, are properly unif
    a [[section]] of a [[spinor bundle]], which is an ordinary [[vector bundle]].
 
 Therefore prop. \ref{DiracSpaceOfFieldHistories} serves to shows how, even though a Dirac field is not defined to be
-an ordinry section of an ordinary vector bundle, it is nevertheless encoded by such an ordinary section:
+an ordinary section of an ordinary vector bundle, it is nevertheless encoded by such an ordinary section:
 One says that this ordinary section is a "[[superfield]]-component" of the Dirac field,
 the one linear in a Grassmann variable $\theta$.
 
@@ -7679,9 +7682,8 @@ along the [[jet prolongation]] of $\Phi$ (def. \ref{JetProlongation})
 +-- {: .proof}
 ###### Proof
 
-Notice that generally the operation of [[pullback of differential forms]]
-along any smooth function intertwines the full [[de Rham differentials]]. In particular
-we have by prop. \ref{PullbackOfDifferentialForms} that
+The operation of [[pullback of differential forms]] along any [[smooth function]] intertwines the full [[de Rham differentials]]
+(prop. \ref{PullbackOfDifferentialForms}). In particular we have that
 
 $$
   d \circ j^\infty_\Sigma(\Phi)^\ast
@@ -11645,8 +11647,8 @@ $$
   \,.
 $$
 
-The [[pullback of differential forms]]
-along $j^\infty_\Sigma(\Phi_{(-)}) \colon U \times \Sigma \to J^\infty_\Sigma(E)$ has two contributions:
+The [[pullback of differential forms]] (prop. \ref{PullbackOfDifferentialForms})
+along the [[jet prolongation]] $j^\infty_\Sigma(\Phi_{(-)}) \colon U \times \Sigma \to J^\infty_\Sigma(E)$ has two contributions:
 one from the variation along $\Sigma$, the other from variation along $U$:
 
 
