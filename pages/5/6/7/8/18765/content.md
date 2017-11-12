@@ -75,7 +75,7 @@ the generalized solutions $u$ are the _[[fundamental solutions]]_ or _[[Green's 
 
 ## References
 
-* Ram P. Kanwal, section 10.2 of _Generalized Functions: Theory and Applications_, Springer 2004
+* {#Kanwal04} Ram P. Kanwal, section 10.2 of _Generalized Functions: Theory and Applications_, Springer 2004
 
 [[!redirects generalized solutions of a PDE]]
 
@@ -93,6 +93,8 @@ the generalized solutions $u$ are the _[[fundamental solutions]]_ or _[[Green's 
 [[!redirects generalized PDE solution]]
 [[!redirects generalized PDE solutions]]
 
+[[!redirects distributional solution of a PDE]]
+[[!redirects distributional solutions of a PDE]]
 
 [[!redirects weak solution]]
 [[!redirects weak solutions]]
