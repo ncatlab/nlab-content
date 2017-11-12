@@ -70,7 +70,7 @@ for the [[linear subspaces]] on those smooth sections whose [[support]] is
 
 =--
 
-([Khavkine 14, def. 2.1](#Khavkine14))
+([B&#228;r 14, def. 3.2](#Baer14}), [Khavkine 14, def. 2.1](#Khavkine14))
 
 
 +-- {: .num_defn #GreenHyperbolicDifferentialOperator}
@@ -105,7 +105,7 @@ has a unique solution  $\Phi_{\pm}$; and such that this unique solution has [[su
 
 =--
 
-([Khavkine 14, def. 2.2](#Khavkine14))
+([B&#228;r 14, def. 3.1](#Baer14}), [Khavkine 14, def. 2.2](#Khavkine14))
 
 
 +-- {: .num_defn #AdvancedAndRetardedGreenFuntions}
@@ -236,7 +236,7 @@ $$
 $$
 
 of these operators restricted to compact or spatially compact support as indicated (def. \ref{CompactlySourceCausalSupport})
-is an [[exact sequence]].
+is an [[exact sequence]] of continuous operators.
 
 In particular this means that there is a [[linear isomorphism]] betwen the space $ker_{scp}(P)$ of spatially compact solutions to the differential equation and the [[quotient space]] of the [[compact support|compactly supported]] dual sections by the [[image]] of $P$:
 
@@ -250,16 +250,128 @@ $$
 
 =--
 
-([Khavkine 14, prop. 2.1](#Khavkine14))
+The following proof is a slight refinement of ([Khavkine 14, prop. 2.1](#Khavkine14)).
+
++-- {: .proof}
+###### Proof
+
+Let $\Sigma_p^-, \Sigma_p^+ \subset \Sigma$ be two Cauchy surfaces, with $\Sigma_p^-$ in the past of $\Sigma_p^+$. Let also $\{\chi_+,\chi_-\}$ be a [[partition of unity]] subordinate to the cover $\{J^+(\Sigma_p^-), J^-(\Sigma_p^+)\}$ of $\Sigma$, that is, smooth functions such $\chi_+ + \chi_- = 1$, while $\chi_+ = 0$ on the past of $\Sigma_p^-$ and $\chi_- = 0$ on the future of $\Sigma_p^+$.
+
+We can use these functions to define the following [[contracting homotopy]] of our complex into itself:
+$$
+  \begin{array}{ccccccccccc}
+  0 &
+    \to & 
+  \Gamma_{\Sigma,cp}(E) &
+   \overset{P}{\longrightarrow} &
+  \Gamma_{\Sigma,cp}(\tilde E^\ast) &
+    \overset{\mathrm{G}}{\longrightarrow} &
+  \Gamma_{\Sigma,scp}(E) &
+    \overset{P}{\longrightarrow} &
+  \Gamma_{\Sigma,scp}(\tilde E^\ast) &
+     \to &
+  0
+  \\
+  & &
+  {\downarrow} id & {\swarrow} {}_\chi\mathrm{G} &
+  {\downarrow} id & {\swarrow} P_\chi &
+  {\downarrow} id & {\swarrow} \mathrm{G}_\chi &
+  {\downarrow} id
+  \\
+  0 &
+    \to & 
+  \Gamma_{\Sigma,cp}(E) &
+   \overset{P}{\longrightarrow} &
+  \Gamma_{\Sigma,cp}(\tilde E^\ast) &
+    \overset{\mathrm{G}}{\longrightarrow} &
+  \Gamma_{\Sigma,scp}(E) &
+    \overset{P}{\longrightarrow} &
+  \Gamma_{\Sigma,scp}(\tilde E^\ast) &
+     \to &
+  0
+  \end{array}
+$$
+The homotopy maps are defined as follows:
+$$
+\begin{aligned}
+  {}_\chi\mathrm{G}[\tilde{\alpha}^*]
+  &= \chi_+ \mathrm{G}_-[\tilde{\alpha}^*]
+    + \chi_- \mathrm{G}_+[\tilde{\alpha}^*] , \\
+  P_\chi[\psi]
+  &= P[\chi_+\psi] - \chi_+ P[\psi] = -P[\chi_-\psi] + \chi_- P[\psi] , \\
+  \mathrm{G}_\chi[\tilde{\alpha}^*]
+  &= \mathrm{G}_+[\chi_+\tilde{\alpha}^*] + \mathrm{G}_-[\chi_-\tilde{\alpha}^*] .
+\end{aligned}
+$$
+The contracting identities
+$$
+\begin{aligned}
+  {}_\chi\mathrm{G} \circ P &= id , \\
+  P\circ {}_\chi\mathrm{G} + P_\chi \circ \mathrm{G} &= id , \\
+  \mathrm{G}\circ P_\chi + \mathrm{G}_\chi \circ P &= id , \\
+  P \circ \mathrm{G}_\chi &= id ,
+\end{aligned}
+$$
+are simply a matter of direct calculation.
+
+The identity morphism of our complex to itself induces an isomorphism on its cohomology. On the other hand, since this morphism itself is induced by a homotopy, it must be in fact be the zero map on cohomology. This is only possible when all cohomologies vanish and our complex is exact. (...remains to check continuity...)
+=--
+
+Equip all [[spaces of sections]] here with suitable [[topological vector space]] structure. As topological vector spaces, these spaces were considered in ([Sanders 13](#Sanders12)) and ([Baer 14](#Baer14)), where their topological duals were also determined. Keep in mind the following notation: $\Gamma'_{\Sigma}(\tilde{E}^*) := (\Gamma_{\Sigma,cp}(E))^*$ denotes the topological dual, which is interpreted as the space of _distributional sections_ of the bundle $\tilde{E}^*$. With this notations, smooth compactly supported sections of the same bundle are a dense subset $\Gamma_{\Sigma,cp}(\tilde{E}^*) \subset \Gamma'_{\Sigma}(\tilde{E}^*)$. Applying the same restrictions to the supports of distributions as of smooth functions, we have the following subspaces of distributional sections
+$$
+  \Gamma'_{\Sigma,cp}(\tilde E^\ast) ,
+  \Gamma'_{\Sigma,scp}(\tilde E^\ast) ,  
+  \Gamma'_{\Sigma,tcp}(\tilde E^\ast)
+  \subset
+  \Gamma'_{\Sigma}(\tilde E^\ast) .
+$$
 
 
-Suppose all [[spaces of sections]] here are equipped with suitable [[topological vector space]] structure. Then it follows:
+
++-- {: .num_prop #DistributionsWithCausalSupports}
+###### Proposition
+**(topological duality with causally restricted supports)**
+We have the following isomorphisms:
+$$
+\begin{aligned}
+  \Gamma_{\Sigma,cp}(E)^* &\simeq \Gamma'_{\Sigma}(\tilde E^\ast) , \\
+  \Gamma_{\Sigma,scp}(E)^* &\simeq \Gamma'_{\Sigma,tcp}(\tilde E^\ast) , \\
+  \Gamma_{\Sigma,tcp}(E)^* &\simeq \Gamma'_{\Sigma,scp}(\tilde E^\ast) , \\
+  \Gamma_{\Sigma}(E)^* &\simeq \Gamma'_{\Sigma,cp}(\tilde E^\ast) .
+\end{aligned}
+$$
+=--
+([Sanders 13, thm. 4.3](#Sanders12), [Baer 14, lem. 2.14](#Baer14))
+
+Next, by dualizing the exact sequence from prop. \ref{ExactSequenceOfGreenHyperbolicSystem}, we have
++-- {: .num_prop #DualExactSequenceOfGreenHyperbolicSystem}
+###### Proposition
+**(distributional [[exact sequence]] of Green hyperbolic system)**
+
+The following is an exact sequence of continuous maps:
+$$
+  0 
+    \to  
+  \Gamma'_{\Sigma,tcp}(E)
+   \overset{P^*}{\longrightarrow}
+  \Gamma'_{\Sigma,tcp}(\tilde E^\ast)
+    \overset{\mathrm{-G}_{P^*}}{\longrightarrow}
+  \Gamma'_{\Sigma}(E)
+    \overset{P^*}{\longrightarrow}
+  \Gamma'_{\Sigma}(\tilde E^\ast)
+     \to
+  0
+$$
+=--
+Differential operators extend continuously to distributions in a standard way. The only nontrivial check is on the Green functions. Their continuity is discussed in ([Sanders 13, sec. 5](#Sanders12)) and ([Baer 14, lem. 4.1](#Baer14)). The exactness follows from the same argument as in the proof of prop. \ref{ExactSequenceOfGreenHyperbolicSystem} (a contracting homotopy dualizes to a contracting homotopy). The exactness of a sequence similar to the one above also appears as ([Baer 14, thm. 4.3](#Baer14)). 
+
+Putting the above results together, it follows:
 
 +-- {: .num_cor #DistributionsOnSolutionSpaceAreTheGeneralizedPDESolutions}
 ###### Corollary
 **([[distributions]] on solution space are the [[generalized PDE solutions]])**
 
-Let $P, P \ast \;\colon\; \Gamma_\Sigma(E) \overset{}{\longrightarrow} \Gamma_\Sigma(\tilde E^\ast)$ be a pair of  Green hyperbolic differential operators (def. \ref{GreenHyperbolicDifferentialOperator}) which are [[formally adjoint differential operator|formally adjoint]] (def. \ref{FormallyAdjointDifferentialOperators}).
+Let $P, P^\ast \;\colon\; \Gamma_\Sigma(E) \overset{}{\longrightarrow} \Gamma_\Sigma(\tilde E^\ast)$ be a pair of  Green hyperbolic differential operators (def. \ref{GreenHyperbolicDifferentialOperator}) which are [[formally adjoint differential operator|formally adjoint]] (def. \ref{FormallyAdjointDifferentialOperators}).
 
 A [[continuous linear functional]] on the solution space
 
@@ -267,10 +379,10 @@ $$
   u_{sol} \in \left(ker_{scp}(P)\right)^\ast
 $$
 
-is equivalently a [[distribution]] on dual sections
+is equivalently a [[distribution]]
 
 $$
-  u \in \left( \Gamma_{cp}(\tilde E^\ast)\right)^\ast
+  u \in \Gamma'_{\Sigma}(E)
 $$
 
 which is a [[generalized solution]] to the differential equation
@@ -286,9 +398,9 @@ $$
   \left(ker_{scp}(P)\right)^\ast
      \underoverset{\simeq}{(-)\circ \mathrm{G}}{\longrightarrow}
    \left\{
-     u \in \left( \Gamma_{\Sigma,cp}(\tilde E^\ast)\right)^\ast
+     u \in \Gamma'_{\Sigma}(E)
      \,\vert\,
-     P u = 0
+     P^* u = 0
    \right\}
   \,.
 $$
@@ -297,31 +409,18 @@ $$
 
 
 +-- {: .proof}
-###### Proof idea
+###### Proof
 
-On the level of [[vector spaces]], the linear isomorphism (eq:SolutionSpaceIsomorphicToQuotientByImP) from prop. \ref{ExactSequenceOfGreenHyperbolicSystem} becomes, under passing to [[dual vector spaces]], 
-
+Keeping in mind that both $\ker_{scp}(P) \subset \Gamma_{\Sigma,scp}(E)$ and $im_{tcp}(P^*) \subset \Gamma'_{\Sigma,tcp}(\tilde{E}^*)$ are [[closed subspaces]] (the first by continuity of $P$ and the second by exactness of the sequence in prop. \ref{DualExactSequenceOfGreenHyperbolicSystem}), on the level of [[locally convex vector spaces]] ([Treves 67, props. 35.5, 35.6](#Treves67)), there is a linear bijection
 $$
-  \left(
-    ker_{scp}(P)
-  \right)^\ast
-    \underoverset{\simeq}{(-)\circ \mathrm{G}}{\longrightarrow}
-  \left(
-    \Gamma_{\Sigma,cp}(\tilde E^\ast)/im(P)
-  \right)^\ast
-  \,.
+  (\ker_{scp}(P))^* \simeq \Gamma'_{\Sigma,tcp}(\tilde{E}^*) / im_{tcp}(P^*) ,
 $$
-
-Furthermore, by the [[universal property]] of [[quotient vector space]] (being a [[coequalizer]]) an element of  $  \left(\Gamma_{\Sigma,cp}(\tilde E^\ast)/im(P)\right)^\ast$ is a linear map $u$ out of $\Gamma_{\Sigma,cp}(\tilde E^\ast)$ which vanishes on the image of $P$:
-
+which is also a topological isomorphism in the weak topology. Then, once again exploiting the exactness of the sequence in prop. \ref{DualExactSequenceOfGreenHyperbolicSystem}, we also have the chain of isomorphisms
 $$
-  u(P(-)) = 0
-  \,.
+  \Gamma'_{\Sigma,tcp}(\tilde{E}^*) / im_{tcp}(P^*)
+  \simeq \Gamma'_{\Sigma,tcp}(\tilde{E}^*) / \ker_{tcp}(G_{P^*})
+  \simeq \ker(P^*) \subset \Gamma'_{\Sigma}(\tilde{E}) .
 $$
-
-This is the defining property of $u$ being a [[generalized solution]] to the differential equation $P^\ast u = 0$.
-
-Hence it remains to be seen that the statement remains true for [[topological vector spaces]] and [[continuous linear functionals]] between these. For that we need (..?..) that the subspace inclusion $im(P) \hookrightarrow \Gamma_{\Sigma,cp}(\tilde E^\ast)$ is a [[closed subspace]]. But this follows again by the exactness of the sequence in prop. \ref{ExactSequenceOfGreenHyperbolicSystem}, since that image is also a kernel.
 
 =--
 
@@ -435,6 +534,13 @@ For $\Sigma$ a [[globally hyperbolic spacetimes]] then the [[Klein-Gordon operat
 =--
 
 ## References
+
+* {#Treves67} [[François Treves]], _Topological Vector Spaces, Distributions and Kernels_ (Academic Press, New York, 1967)
+
+* {#Sanders12} [[Ko Sanders]], _A note on spacelike and timelike compactness_, Classical and Quantum Gravity 30, 115014 (2012) ([doi](http://dx.doi.org/10.1088/0264-9381/30/11/115014), [arXiv:1211.2469](https://arxiv.org/abs/1211.2469))
+
+* {#Baer14} [[Christian Bär]], _Green-hyperbolic operators on globally hyperbolic spacetimes_, Communications in Mathematical Physics 333, 1585-1615 (2014)
+([doi](http://dx.doi.org/10.1007/s00220-014-2097-7), [arXiv:1310.0738](https://arxiv.org/abs/1310.0738))
 
 * {#Khavkine14} [[Igor Khavkine]], _Covariant phase space, constraints, gauge and the Peierls formula_, Int. J. Mod. Phys. A, 29, 1430009 (2014) ([arXiv:1402.1282](https://arxiv.org/abs/1402.1282))
 
