@@ -34,3 +34,5 @@ Section 1.4 of
 
 [[!redirects null homotopies]]
 
+[[!redirects contracting homotopy]]
+[[!redirects contracting homotopies]]
