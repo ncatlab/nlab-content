@@ -106,7 +106,7 @@ We will be interested in [[split idempotent|splitting]] not all [[idempotents]] 
 +-- {: .num_theorem}
 ###### Theorem 
 Let $T$ be a tripos, and let $Rel_T$ be the bicategory of relations obtained from $T$. Let $Split_{per}(Rel_T)$ be the bicategory obtained by splitting the PERs. Then the locally discrete bicategory of maps (whose 1-cells are left adjoints or total functional relations) in $Split_{per}(Rel_T)$ is a topos. 
-=-- 
+=--
 
 In the case of a [tripos induced from a topos $T$](#Topos), this construction yields back $T$, since every partial equivalence relation (as a morphism of $Rel_T$) factors through a suitable subquotient object in $T$. 
 
@@ -114,8 +114,22 @@ In the case of a [realizability tripos](#PCA) associated with a PCA $A$, this co
 
 Before we undertake a conceptual analysis of this theorem, we give in the next section some details for the tripos attached to a complete Heyting algebra, described [here](#Heyt). The description of the resulting topos coincides with that of [[Denis Higgs|Higgs]], in his treatment of localic toposes in terms of Boolean-valued or Heyting-valued set theory (a la Scott and Solovay). 
 
+### Weak triposes
 
-### Relation to $H$-valued sets
+In [Pitts 2002](#Pitts02) it is observed that a somewhat weaker condition than suffices to ensure that the above construction yields a topos.
+
++-- {: .num_defn}
+###### Definition 
+A **weak tripos** is a first-order hyperdoctrine $T$ together with, for every object $c$ of $C_T$, an object $P c$ and an element $in_c \in Pred_T(c \times P c)$ such that for any object $b$ and element $p \in Pred_T(c \times b)$, the following sentence is satisfied in the [[internal logic]] of $T$:
+$$ \forall i:b. \exists s:P c. \forall x:c. \in_c(x,s) \Leftrightarrow p(x,i). $$
+=--
+
+This generalization is not vacuous either.  For instance, it is shown in [Pitts 2002](#Pitts02) that for any infinite [[Boolean algebra]] $B$ there is a weak tripos over $FinSet$, constructed analogously to the tripos attached to a complete Heyting algebra.  (We don't need $B$ to be complete since we have only finite sets in the base; but we do need $B$ to be Boolean rather than just Heyting in order to prove that this is a weak tripos.  The resulting topos has $B$ as its poset of [[subterminal objects]]; it is unknown whether every (not necessarily complete) Heyting algebra can occur as the poset of subterminals in an elementary topos.)
+
+In fact, it also seems unnecessary for the hyperdoctrine $T$ to have equality, since in constructing a topos we equip every object with a *new* partial equivalence relation to become its "equality".  However, the above construction that goes through a bicategory of relations does rely on the existence of equality, as does the statement of the universal property of this construction (since equality in $T$ gives an embedding of $C_T$ as "constant objects" in its associated topos, which is the [[unit of an adjunction]]).
+
+
+## Relation to $H$-valued sets
 
 Consider the tripos $T = T_H$ obtained from a complete Heyting algebra $H$ ([example 2](#Heyt)), or more exactly the bicategory of relations obtained from this. Let us describe explicitly the bicategory obtained by splitting the PERs: 
 
@@ -191,8 +205,13 @@ The two steps are as follows, starting with a bicategory of relations (or perhap
 
 
 ##References##
-* [[Andrew Pitts]], _The theory of [[tripos]]es_, thesis, [pdf](http://www.cl.cam.ac.uk/~amp12/papers/thet/thet.pdf)
+
+* [[Andrew Pitts]], _The theory of [[triposes]]_, thesis, [pdf](http://www.cl.cam.ac.uk/~amp12/papers/thet/thet.pdf)
+ {#PittsThesis}
+
 * [[Andrew Pitts]], _Tripos theory in retrospect_, [pdf](http://www.cl.cam.ac.uk/~amp12/papers/tritr/tritr.pdf)
+ {#Pitts02}
+
 * [[Peter Freyd]] and Andre Scedrov, _Categories, Allegories_, North-Holland 1990.
 
 
