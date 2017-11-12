@@ -227,7 +227,7 @@ $$
   \Gamma_{\Sigma,cp}(E)
    \overset{P}{\longrightarrow}
   \Gamma_{\Sigma,cp}(\tilde E^\ast)
-    \overset{G}{\longrightarrow}
+    \overset{\mathrm{G}}{\longrightarrow}
   \Gamma_{\Sigma,scp}(E)
     \overset{P}{\longrightarrow}
   \Gamma_{\Sigma,scp}(\tilde E^\ast)
@@ -241,7 +241,7 @@ is an [[exact sequence]].
 In particular this means that there is a [[linear isomorphism]] betwen the space $ker_{scp}(P)$ of spatially compact solutions to the differential equation and the [[quotient space]] of the [[compact support|compactly supported]] dual sections by the [[image]] of $P$:
 
 $$
-  \label{SolutionSpaceIsomorphiicToQuotientByImP}
+  \label{SolutionSpaceIsomorphicToQuotientByImP}
   \Gamma_{\Sigma,cp}(\tilde E^\ast)/im(P)
     \underoverset{\simeq}{\phantom{A}\mathrm{G}\phantom{A}}{\longrightarrow}
   ker_{scp}(P)
@@ -299,13 +299,13 @@ $$
 +-- {: .proof}
 ###### Proof idea
 
-On the level of [[vector spaces]], the linear isomorphism (eq:SolutionSpaceIsomorphiicToQuotientByImP) from prop. \ref{ExactSequenceOfGreenHyperbolicSystem} becomes, under passing to [[dual vector spaces]], 
+On the level of [[vector spaces]], the linear isomorphism (eq:SolutionSpaceIsomorphicToQuotientByImP) from prop. \ref{ExactSequenceOfGreenHyperbolicSystem} becomes, under passing to [[dual vector spaces]], 
 
 $$
   \left(
     ker_{scp}(P)
   \right)^\ast
-    \overset{(-)\circ G}{\longrightarrow}
+    \underoverset{\simeq}{(-)\circ \mathrm{G}}{\longrightarrow}
   \left(
     \Gamma_{\Sigma,cp}(\tilde E^\ast)/im(P)
   \right)^\ast
