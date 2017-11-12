@@ -3,7 +3,9 @@
 
 ## Related entries
 
-* [[distribution]]
+* [[distribution]], [[tempered distribution]], [[compactly supported distribution]]
+
+* [[Schwartz space]]
 
 category: people
 
