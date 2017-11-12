@@ -7,6 +7,8 @@
 
 * [[Tomonaga-Schwinger equation]]
 
+* [[Schwinger-Tomonaga-Feynman-Dyson]]
+
 category: people
 
 [[!redirects Tomonaga]]
