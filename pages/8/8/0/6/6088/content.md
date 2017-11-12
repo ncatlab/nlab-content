@@ -22,5 +22,6 @@ A **vector** is an element in a [[vector space]].
 ## Related concepts
 
 * [[wave vector]]
+* [[direction of a vector]]
 
 [[!redirects vectors]]
