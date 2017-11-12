@@ -31,6 +31,7 @@ H&#246;rmander wrote several books including  his magnus treatise
 
 * [[tensor product of distributions]]
 
+* [[Hörmander's condition]]
 
 category: people
 
