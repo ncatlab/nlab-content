@@ -81,6 +81,11 @@ On the other hand [[pretriangulated dg-categories]] are known to provide a model
 ## References
  {#References}
 
+Discussion of integral kernels in the sense of [[functional analysis]] (as n the [[Schwartz kernel theorem]]) is in
+
+* {#Treves67} [[François Trèves]], _Topological Vector Spaces, Distributions and Kernels_ (Academic Press, New York, 1967)
+
+
 Discussion of integral transforms in [[derived algebraic geometry]] (see also at _[[geometric infinity-function theory]]_) is in
 
 * {#BZFN08} [[David Ben-Zvi]], [[John Francis]], [[David Nadler]], _Integral Transforms and Drinfeld Centers in Derived Algebraic Geometry_ ([arXiv:0805.0157](http://arxiv.org/abs/0805.0157))
