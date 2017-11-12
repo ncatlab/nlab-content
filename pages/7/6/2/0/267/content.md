@@ -50,7 +50,7 @@ In general, there are two types of morphism in such categories, called *face inc
 
 A general notion which includes all of these categories is that of a [[generalized Reedy category]].  If degeneracies are excluded, then we obtain the simpler notion of a (generalized) [[direct category]].
 
-A higher structure based on these geometric sheapes is a [[presheaf]] on one of these categories. These are called
+A higher structure based on these geometric shapes is a [[presheaf]] on one of these categories. These are called
 
 * [[globular sets]]
 
