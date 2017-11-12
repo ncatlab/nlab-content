@@ -21,6 +21,8 @@ H&#246;rmander wrote several books including  his magnus treatise
 
 * [[wave front set]], [[propagation of singularities theorem]]
 
+* [[Hörmander's criterion]]
+
 * [[product of distributions]]
 
 * [[extension of distributions]]
