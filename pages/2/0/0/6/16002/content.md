@@ -28,6 +28,8 @@ The category of germs of space is the [[localization]] of the category of pointe
 
  * [[microbundle]]
 
+ * [[synthetic differential topology]]
+
 [[!include infinitesimal and local - table]]
 
 ## References
@@ -39,3 +41,7 @@ A short exposition is contained in the textbook
 For germs in deformation theory, see for instance
 
 * Marco Manetti, _Deformation theory via differential graded Lie algebras_ ([arXiv:0507284](http://arxiv.org/abs/math/0507284)).
+
+[[!redirects germs of a space]]
+
+[[!redirects germs of spaces]]
