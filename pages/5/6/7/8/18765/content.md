@@ -73,6 +73,8 @@ the generalized solutions $u$ are the _[[fundamental solutions]]_ or _[[Green's 
 
 * [[formal adjoint differential operator]]
 
+* [[Green hyperbolic differential equation]]
+
 ## References
 
 * {#Kanwal04} Ram P. Kanwal, section 10.2 of _Generalized Functions: Theory and Applications_, Springer 2004
@@ -95,7 +97,9 @@ the generalized solutions $u$ are the _[[fundamental solutions]]_ or _[[Green's 
 [[!redirects distributional solution]]
 [[!redirects distributional solutions]]
 
-
+[[!redirects distributional solution of a PDE]]
+[[!redirects distributional solutions of a PDE]]
+[[!redirects distributional solutions of PDEs]]
 
 [[!redirects generalized solution of a PDE]]
 [[!redirects generalized solutions of a PDE]]
