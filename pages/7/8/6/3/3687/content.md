@@ -39,7 +39,7 @@ $$
   \,.
 $$
 
-By a version of the [[cobordism hypothesis]]-theorem, these [[TCFT]]s (see there) are encoded by [[A-∞ categories]] that are [[Calabi-Yau categories]]: the [[A-model]] by the [[Fukaya category]] $Fuk(X)$ of $X$ which can be understood as a [[stable (∞,1)-category]] representing the Lagrangean intersection theory on the underlying [[symplectic manifold]]; and the [[B-model]] by an [[enhanced triangulated category|enhancement]] of the [[derived category]] of [[coherent sheaves]] $D^b_\infty(\hat X)$ on $\hat X$.
+By a version of the [[cobordism hypothesis]]-theorem, these [[TCFT]]s (see there) are encoded by [[A-∞ categories]] that are [[Calabi-Yau categories]]: the [[A-model]] by the [[Fukaya category]] $Fuk(X)$ of $X$ which can be understood as a [[stable (∞,1)-category]] representing the Lagrangian intersection theory on the underlying [[symplectic manifold]]; and the [[B-model]] by an [[enhanced triangulated category|enhancement]] of the [[derived category]] of [[coherent sheaves]] $D^b_\infty(\hat X)$ on $\hat X$.
 
 In terms of this data, mirror symmetry is the assertion that these [[A-∞ categories]] are equivalent and simultaneously the same under exchange $X\leftrightarrow \hat{X}$:
 
