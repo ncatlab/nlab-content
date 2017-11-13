@@ -45,6 +45,11 @@ The [[complement]] of the (closed) causal cone is the _[[causal complement]]_.
 
 * [[conal manifold]]
 
+## References
+
+* {#Baer14} [[Christian Bär]], section 1 of _Green-hyperbolic operators on globally hyperbolic spacetimes_, Communications in Mathematical Physics 333, 1585-1615 (2014) ([doi](http://dx.doi.org/10.1007/s00220-014-2097-7), [arXiv:1310.0738](https://arxiv.org/abs/1310.0738))
+
+
 [[!redirects causal cones]]
 
 [[!redirects closed causal cone]]
