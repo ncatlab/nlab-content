@@ -64,6 +64,8 @@ $$
     \\
     \Gamma_{\Sigma,scp}(-) & \text{spacelike compact support}
     \\
+    \Gamma_{\Sigma,(f/p)cp}(-) & \text{future/past compact support}
+    \\
     \Gamma_{\Sigma,tcp}(-) & \text{timelike compact support}
   }
 $$ 
@@ -74,7 +76,11 @@ for the [[linear subspaces]] on those smooth sections whose [[support]] is
 
 1. ($\pm cp$) inside the [[closed future cone]]/[[closed past cone]], respectively, of a [[compact subset]],
 
-1. ($scp$) inside the [[closed causal cone]] of a [[compact subset]], which equivalently means that the [[intersection]] with every ([[spacelike]]) [[Cauchy surface]] is compact ([Sanders 13, theorem 2.2](#Sanders12)).
+1. ($scp$) inside the [[closed causal cone]] of a [[compact subset]], which equivalently means that the [[intersection]] with every ([[spacelike]]) [[Cauchy surface]] is compact ([Sanders 13, theorem 2.2](#Sanders12)),
+
+1. ($fcp$) inside the past of a Cauchy surface ([Sanders 13, def. 3.2](#Sanders12)),
+
+1. ($pcp$) inside the future of a Cauchy surface ([Sanders 13, def. 3.2](#Sanders12)), 
 
 1. ($tcp$) inside the future of one Cauchy surface and the past of another ([Sanders 13, def. 3.2](#Sanders12))
 
@@ -120,14 +126,14 @@ has a unique solution  $\Phi_{\pm}$; and such that this unique solution has [[su
 ([B&#228;r 14, def. 3.2](#Baer14}), [Khavkine 14, def. 2.2](#Khavkine14))
 
 
-+-- {: .num_defn #AdvancedAndRetardedGreenFuntions}
++-- {: .num_defn #AdvancedAndRetardedGreenFunctions}
 ###### Definition
 **([[advanced and retarded Green functions]] and [[causal Green function]])**
 
 Given a Green-hyperbolic differential operator $P$ (def. \ref{GreenHyperbolicDifferentialOperator}) there are [[linear maps]]
 
 $$
-  \mathrm{G}_\pm
+  \mathrm{G}_{P,\pm}
     \;\colon\;
   \Gamma_{\Sigma,\pm cp}(\tilde E^\ast)
     \longrightarrow
@@ -138,25 +144,52 @@ between spaces of causally source future/past support (def. \ref{CompactlySource
 such that the unique solution to $P \Phi_\pm = \tilde \alpha^\ast$ is given by 
 
 $$
-  \Phi_\pm = \mathrm{G}_\pm(\tilde \alpha^\ast)
+  \Phi_\pm = \mathrm{G}_{P,\pm}(\tilde \alpha^\ast)
   \,.
 $$
 
-These $\mathrm{G}_{\pm}$ are called the _[[advanced and retarded Green functions]]_ for $P$.
+These $\mathrm{G}_{P,\pm}$ are called the _[[advanced and retarded Green functions]]_ for $P$.
 
 The difference
 
 $$
-  \mathrm{G} \coloneqq \mathrm{G}_+ - \mathrm{G}_-
+  \mathrm{G}_P \coloneqq \mathrm{G}_{P,+} - \mathrm{G}_{P,-}
 $$
 
 is called the _[[causal Green function]]_ for $P$.
 
 =--
 
-([B&#228;r 14, def. 3.2](#Baer14})
+([B&#228;r 14, def. 3.2, cor. 3.10](#Baer14}))
 
++-- {: .num_prop #GreenFunctionsAreContinuous}
+###### Proposition
 
+Given a Green-hyperbolic differential operator $P$ (def. \ref{GreenHyperbolicDifferentialOperator}), the advanced, retarded and causal Green functions of $P$ (def. \ref{AdvancedAndRetardedGreenFunctions}) are continuous and also have a unique continuous extension to
+$$
+\begin{aligned}
+  \mathrm{G}_{P,+}
+    &\;\colon\;
+  \Gamma_{\Sigma, pcp}(\tilde E^\ast)
+    \longrightarrow
+  \Gamma_{\Sigma, pcp}(E) ,
+  \\
+  \mathrm{G}_{P,-}
+    &\;\colon\;
+  \Gamma_{\Sigma, fcp}(\tilde E^\ast)
+    \longrightarrow
+  \Gamma_{\Sigma, fcp}(E) ,
+  \\
+  \mathrm{G}_{P}
+    &\;\colon\;
+  \Gamma_{\Sigma, tcp}(\tilde E^\ast)
+    \longrightarrow
+  \Gamma_{\Sigma}(E) ,
+\end{aligned}
+$$
+such that we still have $\mathrm{G}_P = \mathrm{G}_{P,+} - \mathrm{G}_{P,-}$, $P \circ \mathrm{G}_{P,\pm} = \mathrm{G}_{P,\pm} \circ P = id$ and $supp \mathrm{G}_{P,\pm}(\tilde{\alpha}^*) \subseteq J^\pm(supp \tilde{\alpha}^*)$.
+=--
+([B&#228;r 14, thm. 3.8, cor. 3.11](#Baer14))
 
 ## Properties
  {#Properties}
@@ -212,7 +245,7 @@ $$
   P, P^\ast \;\colon\;\Gamma_\Sigma(E) \overset{}{\longrightarrow} \Gamma_\Sigma(\tilde E^\ast)
 $$ 
 
-be a pair of Green hyperbolic differential operators (def. \ref{GreenHyperbolicDifferentialOperator}) which are [[formally adjoint differential operator|formally adjoint]] (def. \ref{FormallyAdjointDifferentialOperators}).  Then also their [[causal Green functions]] $\mathrm{G}_P$ and $G_{P^\ast}$ (def. \ref{AdvancedAndRetardedGreenFuntions}) are [[formally adjoint differential operators]], up to a sign:
+be a pair of Green hyperbolic differential operators (def. \ref{GreenHyperbolicDifferentialOperator}) which are [[formally adjoint differential operator|formally adjoint]] (def. \ref{FormallyAdjointDifferentialOperators}).  Then also their [[causal Green functions]] $\mathrm{G}_P$ and $G_{P^\ast}$ (def. \ref{AdvancedAndRetardedGreenFunctions}) are [[formally adjoint differential operators]], up to a sign:
 
 $$
   \left( 
@@ -250,7 +283,7 @@ $$
 
 where on the right we have the [[absolute values]] of the [[covariant derivatives]] of $\Phi$ for any fixed choice of [[connection on a bundle|connection]] on $E$ and [[norm]] on the [[tensor product of vector bundles]] $(T^\ast \Sigma)^{\otimes_\Sigma^n} \otimes_\Sigma E $.
 
-This makes $\Gamma_\Sigma(E)$ a [[Fréchet space|Fréchet]] [topological vector space]].
+This makes $\Gamma_\Sigma(E)$ a [[Fréchet space|Fréchet]] [[topological vector space]].
 
 =--
 
@@ -281,7 +314,10 @@ Imposing the same restrictions to the [[supports of distributions]] as in def. \
 
 $$
   \Gamma'_{\Sigma,cp}(\tilde E^\ast) ,
-  \Gamma'_{\Sigma,scp}(\tilde E^\ast) ,  
+  \Gamma'_{\Sigma,\pm cp}(\tilde E^\ast) ,
+  \Gamma'_{\Sigma,scp}(\tilde E^\ast) ,
+  \Gamma'_{\Sigma,fcp}(\tilde E^\ast) ,
+  \Gamma'_{\Sigma,pcp}(\tilde E^\ast) ,
   \Gamma'_{\Sigma,tcp}(\tilde E^\ast)
   \subset
   \Gamma'_{\Sigma}(\tilde E^\ast) .
@@ -307,7 +343,15 @@ $$
 \begin{aligned}
   \Gamma_{\Sigma,cp}(E)^* &\simeq \Gamma'_{\Sigma}(\tilde E^\ast) , 
   \\
+  \Gamma_{\Sigma,+cp}(E)^* &\simeq \Gamma'_{\Sigma,fcp}(\tilde E^\ast) , 
+  \\
+  \Gamma_{\Sigma,-cp}(E)^* &\simeq \Gamma'_{\Sigma,pcp}(\tilde E^\ast) , 
+  \\
   \Gamma_{\Sigma,scp}(E)^* &\simeq \Gamma'_{\Sigma,tcp}(\tilde E^\ast) , 
+  \\
+  \Gamma_{\Sigma,fcp}(E)^* &\simeq \Gamma'_{\Sigma,+cp}(\tilde E^\ast) , 
+  \\
+  \Gamma_{\Sigma,pcp}(E)^* &\simeq \Gamma'_{\Sigma,-cp}(\tilde E^\ast) , 
   \\
   \Gamma_{\Sigma,tcp}(E)^* &\simeq \Gamma'_{\Sigma,scp}(\tilde E^\ast) , 
   \\
@@ -324,7 +368,7 @@ $$
 ###### Proposition
 **([[exact sequence]] of [[Green hyperbolic differential operator]])**
 
-Let $\Gamma_\Sigma(E) \overset{P}{\longrightarrow} \Gamma_\Sigma(\tilde E^\ast)$ be a [[Green hyperbolic differential operator]] (def. \ref{GreenHyperbolicDifferentialOperator}) with [[causal Green function]] $\mathrm{G}$ (def. \ref{GreenHyperbolicDifferentialOperator}). Then the sequence 
+Let $\Gamma_\Sigma(E) \overset{P}{\longrightarrow} \Gamma_\Sigma(\tilde E^\ast)$ be a [[Green hyperbolic differential operator]] (def. \ref{GreenHyperbolicDifferentialOperator}) with [[causal Green function]] $\mathrm{G}$ (def. \ref{GreenHyperbolicDifferentialOperator}). Then the sequences 
 
 $$
   0 
@@ -332,18 +376,31 @@ $$
   \Gamma_{\Sigma,cp}(E)
    \overset{P}{\longrightarrow}
   \Gamma_{\Sigma,cp}(\tilde E^\ast)
-    \overset{\mathrm{G}}{\longrightarrow}
+    \overset{\mathrm{G}_P}{\longrightarrow}
   \Gamma_{\Sigma,scp}(E)
     \overset{P}{\longrightarrow}
   \Gamma_{\Sigma,scp}(\tilde E^\ast)
      \to
+  0 ,
+$$
+$$
+  0 
+    \to  
+  \Gamma_{\Sigma,tcp}(E)
+   \overset{P}{\longrightarrow}
+  \Gamma_{\Sigma,tcp}(\tilde E^\ast)
+    \overset{\mathrm{G}_P}{\longrightarrow}
+  \Gamma_{\Sigma}(E)
+    \overset{P}{\longrightarrow}
+  \Gamma_{\Sigma}(\tilde E^\ast)
+     \to
   0
 $$
 
-of these operators restricted to compact or spatially compact support as indicated (def. \ref{CompactlySourceCausalSupport})
-is an [[exact sequence]] of [[topological vector spaces]] and [[continuous linear functionals]] between them.
+of these operators restricted to functions with causally restricted supports as indicated (def. \ref{CompactlySourceCausalSupport})
+are [[exact sequence]]s of [[topological vector spaces]] and continuous [[linear map]]s between them.
 
-Under passing to [[dual spaces]] and using the isomorphisms of spaces of distributional sections (def. \ref{DistributionalSections}) from prop. \ref{DistributionsWithCausalSupports} this yields following dual [[exact sequence]] of [[topological vector spaces]]:
+Under passing to [[dual spaces]] and using the isomorphisms of spaces of distributional sections (def. \ref{DistributionalSections}) from prop. \ref{DistributionsWithCausalSupports} this yields following dual [[exact sequence]] of [[topological vector spaces]] and continuous [[linear map]]s between them:
 
 $$
   \label{GreenHyperbolicOperatorDualExactSequence}
@@ -356,6 +413,20 @@ $$
   \Gamma'_{\Sigma}(E)
     \overset{P^*}{\longrightarrow}
   \Gamma'_{\Sigma}(\tilde E^\ast)
+     \to
+  0 ,
+$$
+$$
+  \label{GreenHyperbolicOperatorDualExactSequence2}
+  0 
+    \to  
+  \Gamma'_{\Sigma,cp}(E)
+   \overset{P^*}{\longrightarrow}
+  \Gamma'_{\Sigma,cp}(\tilde E^\ast)
+    \overset{-\mathrm{G}_{P^*}}{\longrightarrow}
+  \Gamma'_{\Sigma,scp}(E)
+    \overset{P^*}{\longrightarrow}
+  \Gamma'_{\Sigma,scp}(\tilde E^\ast)
      \to
   0
 $$
@@ -373,7 +444,7 @@ $$
 
 =--
 
-The following proof is a slight refinement of ([Khavkine 14, prop. 2.1](#Khavkine14)).
+The following proof is a slight refinement of ([Khavkine 14, prop. 2.1](#Khavkine14)). The refinement consists of reducing the check of exactness to the construction of a contracting homotopy of the complex into itself (cf. the answer to [MO208985](https://mathoverflow.net/a/209024), where this refinement has appeared in a simplified context).
 
 +-- {: .proof}
 ###### Proof
@@ -478,7 +549,7 @@ $$
   \,,
 $$
 
-and this is a [[continuous linear map|continuous]] [[linear isomorphism]] given by pullback along the [[causal Green function]] $\mathrm{G}_P$ (def. \ref{AdvancedAndRetardedGreenFuntions}):
+and this is a [[continuous linear map|continuous]] [[linear isomorphism]] given by pullback along the [[causal Green function]] $\mathrm{G}_P$ (def. \ref{AdvancedAndRetardedGreenFunctions}):
 
 $$
   \left(ker_{scp}(P)\right)^\ast
