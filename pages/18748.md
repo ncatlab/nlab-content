@@ -19,7 +19,7 @@
 
 ## Idea
 
-In flat [[geometry]] the [[parallel]] [[vectors]] with the same [[orientation]] form an [[equivalence class]].  The same holds for oriented lines and even higher dimensional oriented subspaces.  The equivalence class of a vector (or other object) is called its *direction*.  (In the case of higher dimension we may say "$n$-direction"; see also [[bivector]].)  If the vector space is [[normed space|normed]], then each such equivalence class has a canonical [[unit vector]] representative, called a *direction vector*.
+In [[vector space|vector]]/[[affine space|affine]] [[geometry]] the [[parallel]] [[vectors]] with the same [[orientation]] form an [[equivalence class]].  The same holds for oriented lines and even higher dimensional oriented subspaces.  The equivalence class of a vector (or other object) is called its *direction*.  (In the case of higher dimension we may say "$n$-direction"; see also [[bivector]].)  If the vector space is [[normed space|normed]], then each such equivalence class has a canonical [[unit vector]] representative, called a *direction vector*.
 
 If we neglect the orientation we get a bigger equivalence class, called the *unoriented direction*.  Unoriented directions have a representing unit vector only up to sign.
 
