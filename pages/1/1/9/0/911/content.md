@@ -19,7 +19,7 @@ The _category of elements_ of a [[functor]] $F : C \to $ [[Set]] is a [[category
 
 This is a special case of the [[Grothendieck construction]], by considering sets as discrete categories.
 
-We may think of [[Set]] as the [[classifying space]] of "[[Set]]-bundles;" see [[generalized universal bundle]].  The category of elements of $F$ is, in this sense, the [[Set]]-bundle classified by $F$.  It comes equipped with a projection to $C$ which is a [[Grothendieck fibration|discrete fibration]], and provides an equivalence between presheaves and discrete fibrations.
+We may think of [[Set]] as the [[classifying space]] of "[[Set]]-bundles;" see [[generalized universal bundle]].  The category of elements of $F$ is, in this sense, the [[Set]]-bundle classified by $F$.  It comes equipped with a projection to $C$ which is a [[discrete opfibration]], and provides an equivalence between $Set$-valued functors and discrete opfibrations.  (There is a dual category of elements that applies to contravariant $Set$-valued functors, i.e. [[presheaves]], and produces [[discrete fibrations]].)
 
 Forming a category of elements can be thought of as "unpacking" a [[concrete category]]. For example, consider a concrete category $C$ consisting of two objects $X,Y$ and two non-trivial morphisms $f,g$
 
