@@ -9855,10 +9855,11 @@ But in (eq:DerivativeOfLepageForm) we have seen that the [[Lagrangian density]]
 of a [[Lagrangian field theory]] is just one component, in [[codimension]] 0, of an inhomogeneous
 "[[Lepage form]]" which in [[codimension]] 1 is given by the [[presymplectic potential current]] $\Theta_{BFV}$ (eq:PresymplecticPotential).
 (This will be conceptually elucidated, after we have introduced the [[local BV-complex]], in example \ref{DerivedPresymplecticCurrentOfRealScalarField} below.) This means that in [[codimension]] 1 we are to
-consider infinitesimal symmetries of the [[presymplectic potential current]] $\Theta_{BFV}$. These are
+consider infinitesimal [[on-shell]] symmetries of the [[Lepage form]] $\mathbf{L} + \Theta_{BFV}$. These are
 known as _[[Hamiltonian vector fields]]_ (def. \ref{HamiltonianForms} below) and the analog of [[Noether's theorem|Noether's theorem I]]
-now says that these correspond to [[Hamiltonian differential forms]]. The [[Lie algebra]] of these
+now says that these correspond to _[[Hamiltonian differential forms]]_. The [[Lie algebra]] of these
 infinitesimal symmetries is called the _[[Poisson bracket Lie n-algebra|local Poisson bracket]]_ (prop. \ref{LocalPoissonBracket} below).
+
 
 
 **[[Noether theorem]] and [[Hamiltonian Noether theorem]]**
@@ -9866,11 +9867,11 @@ infinitesimal symmetries is called the _[[Poisson bracket Lie n-algebra|local Po
 | $\,$ [[variational differential forms|variational form]] $\,$  |   $\,$ [[symmetry]] $\,$ | $\,$ [[Cartan's homotopy formula|homotopy formula]] $\,$ | $\,$ physical quantity $\,\,\,$ | $\,$ [[Lie n-algebra|local symmetry algebra]] $\,$ |
 |----|----------|----------------------------|---------------------------------|------|
 | [[Lagrangian density]] $\mathbf{L}$ <br/> (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) | $\mathcal{L}_v \mathbf{L} = d \tilde J$  | $\Leftrightarrow d(\underset{= J_v}{\underbrace{\tilde J - \iota_v \Theta_{BFV}}}) = \iota_v \, \delta_{EL}\mathbf{L}$ | [[conserved current]] $J_v$ <br/> (def. \ref{SymmetriesAndConservedCurrents}) | [[Dickey bracket]] |
-| [[presymplectic current]] $\Omega_{BFV}$ <br/> (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime})  | $\mathcal{L}_v \Theta_{BFV} = \delta \tilde H$ | $\Leftrightarrow \delta(\underset{= H_v}{\underbrace{\tilde H_v - \iota_v \Theta_{BFV}}}) = \iota_v \Omega_{BFV}$ | [[Hamiltonian differential form|Hamiltonian form]] $H_v$ <br/> (def. \ref{HamiltonianForms}) | [[Poisson bracket Lie n-algebra|local Poisson bracket]] <br/> (prop. \ref{LocalPoissonBracket}) |
+| [[presymplectic current]] $\Omega_{BFV}$ <br/> (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime})  | $\mathcal{L}^{var}_v \Theta_{BFV} = \delta \tilde H$ | $\Leftrightarrow \delta(\underset{= H_v}{\underbrace{\tilde H_v - \iota_v \Theta_{BFV}}}) = \iota_v \Omega_{BFV}$ | [[Hamiltonian differential form|Hamiltonian form]] $H_v$ <br/> (def. \ref{HamiltonianForms}) | [[Poisson bracket Lie n-algebra|local Poisson bracket]] <br/> (prop. \ref{LocalPoissonBracket}) |
 
 $\,$
 
-In a chapter [below](#PhaseSpace) we [[transgression|transgress]] this [[Poisson bracket Lie n-algebra|local Poisson bracket]]
+In _[Phase space](#PhaseSpace)_ below we [[transgression|transgress]] this [[Poisson bracket Lie n-algebra|local Poisson bracket]]
 of [[infinitesimal symmetries]] of the [[presymplectic potential current]] to the "global" [[Poisson bracket]] on the _[[covariant phase space]]_ (def. \ref{PoissonBracketOnHamiltonianLocalObservables} below). This is the structure which then [further below](#Quantization) leads over to the
 [[quantization]] ([[deformation quantization]]) of the [[prequantum field theory]] to a genuine [[perturbative quantum field theory]].
 However, it will turn out that there may be an [[obstruction]] to this construction, namely the existence of
@@ -10801,7 +10802,7 @@ $$
     (H,v)
     \;\vert\;
     v \, \text{is a variation and}\,
-    \iota_v \Omega_{BFV} = J
+    \iota_v \Omega_{BFV} = H
   \right\}
 $$
 
@@ -10909,7 +10910,7 @@ equation holds:
 $$
   \delta \iota_{v_2} \iota_{v_1} \Omega_{BFV}
   \;=\;
-  \iota_{[v_1, v_2]} \Omega_{BFV}
+  \iota_{[v_1, v_2]^{var}} \Omega_{BFV}
   \,.
 $$
 
@@ -11104,7 +11105,7 @@ by definition vertical.
 
 Consider the [[Lagrangian field theory]] for the [[free field|free]] [[real scalar field]] from example \ref{LagrangianForFreeScalarFieldOnMinkowskiSpacetime}.
 
-By example \ref{FreeScalarFieldEOM} is [[presymplectic current]] is
+By example \ref{FreeScalarFieldEOM} its [[presymplectic current]] is
 
 $$
   \Omega_{BFV}
