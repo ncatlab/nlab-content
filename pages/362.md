@@ -22,20 +22,22 @@ More generally, for any 2-categories $C$ and $D$, a 2-functor $C\times\mathbf{2}
 ## Definition 
 
 Following up on the last comment, $B\otimes C$ can be defined by
-$$ 2Cat(B\otimes C, D) \cong 2Cat(B, Ps(C,D)) $$
-where $Ps(C,D)$ is the 2-category of 2-functors, pseudonatural transformations, and modifications $C\to D$.  In other words, the category 2Cat of strict 2-categories  and strict 2-functors is a [[closed monoidal category|closed]] [[symmetric monoidal category]], whose tensor product is $\otimes$ and whose internal hom is $Ps(-,-)$.
+$$ 
+  2Cat(B\otimes C, D) \cong 2Cat(B, Ps(C,D)) 
+$$
+where $Ps(C,D)$ is the 2-category of 2-functors, pseudonatural transformations, and modifications $C\to D$.  In other words, the category $2Cat$ of strict 2-categories  and strict 2-functors is a [[closed monoidal category|closed]] [[symmetric monoidal category]], whose tensor product is $\otimes$ and whose internal hom is $Ps(-,-)$.
 
 ## Remarks 
 
-* When considered with this monoidal structure, 2Cat is often called Gray.  [[Gray-category|Gray-categories]], or categories [[enriched category|enriched]] over Gray, are a model for [[semi-strict infinity-category|semi-strict]] 3-categories.  Categories enriched over 2Cat with its cartesian product are _strict_ 3-categories, which are not as useful.  This is one precise sense in which the Gray tensor product is "more correct" than the cartesian product.
+* When considered with this monoidal structure, $2Cat$ is often called $Gray$.  [[Gray-category|Gray-categories]], or categories [[enriched category|enriched]] over $Gray$, are a model for [[semi-strict infinity-category|semi-strict]] 3-categories.  Categories enriched over $2Cat$ with its cartesian product are _strict_ 3-categories, which are not as useful.  This is one precise sense in which the Gray tensor product is "more correct" than the cartesian product.
 
-* Gray is a rare example of a non-[[cartesian monoidal category|cartesian]] monoidal category whose unit object is nevertheless the terminal object --- that is, a [[semicartesian monoidal category]].
+* $Gray$ is a rare example of a non-[[cartesian monoidal category|cartesian]] monoidal category whose unit object is nevertheless the terminal object --- that is, a [[semicartesian monoidal category]].
 
 * There are also versions of the Gray tensor product in which pseudonatural transformations are replaced by lax or oplax ones.  (In fact, these were the ones originally defined by Gray.)
 
-* Gray is actually a monoidal [[model category]] (that is, a model category with a monoidal structure that interacts well with the model structure), which 2Cat with the cartesian product is not.  In particular, the cartesian product of two cofibrant 2-categories need not be cofibrant.  This is another precise sense in which the Gray tensor product is "more correct" than the cartesian product.
+* $Gray$ is actually a monoidal [[model category]] (that is, a model category with a monoidal structure that interacts well with the model structure), which $2Cat$ with the cartesian product is not.  In particular, the cartesian product of two cofibrant 2-categories need not be cofibrant.  This is another precise sense in which the Gray tensor product is "more correct" than the cartesian product.
 
-* The cartesian monoidal structure is sometimes called the "black"  product, since the square $2\times 2$ is "completely filled in" (i.e. it commutes).  There is another "white" tensor product in which the square $2\Box 2$ is "not filled in at all" (doesn't commute at all), and the "gray" tensor product is in between the two (the square commutes up to an isomorphism).  This is a pun on the name of John Gray who gave his name to the Gray tensor product.  The "white" tensor product is also called the [[funny tensor product]].
+* The cartesian monoidal structure is sometimes called the "black"  product, since the square $2\times 2$ is "completely filled in" (i.e. it commutes).  There is another "white" tensor product in which the square $2\Box 2$ is "not filled in at all" (doesn't commute at all), and the "gray" tensor product is in between the two (the square commutes up to an isomorphism).  This is a pun on the name of John Gray, for whom the Gray tensor product is named.  The "white" tensor product is also called the [[funny tensor product]].
 
 * There are generalizations to [[higher category theory|higher categories]] of the Gray tensor product. In particular there is a tensor product on [[strict omega-category|strict omega-categories]] -- the [[Crans-Gray tensor product]] -- which is such that restricted to strict 2-categories it reproduces the Gray tensor product.
 
@@ -57,9 +59,9 @@ where $Ps(C,D)$ is the 2-category of 2-functors, pseudonatural transformations, 
 
 * F.A. Al-Agl, R. Brown and   R. Steiner, Multiple categories: the equivalence between a globular and cubical approach, Advances in Mathematics, 170 (2002) 71-118.
 
-The Gray tensor product as the left Kan extension of a tensor product on the full subcategory Cu of 2Cat is on page 16 of
+The Gray tensor product as the left Kan extension of a tensor product on the full subcategory $Cu$ of $2Cat$ is on page 16 of
 
-* [[Ross Street]], "Gray's tensor product of 2-categories", 22-page handwritten note, (1988) ([PDF at Macquarie](http://maths.mq.edu.au/~street/GrayTensor.pdf))
+* [[Ross Street]], _Gray's tensor product of 2-categories_, 22-page handwritten note, (1988) ([PDF at Macquarie](http://maths.mq.edu.au/~street/GrayTensor.pdf))
 
 A general theory of lax tensor products, unifying Gray tensor products with the [[Crans-Gray tensor product]] is in 
 
@@ -67,6 +69,6 @@ A general theory of lax tensor products, unifying Gray tensor products with the 
 
 A proof that the Gray tensor product does form a monoidal structure, based only on its universal property, is in
 
-* [[John Bourke]], [[Nick Gurski]], *The Gray tensor product via factorisation*, [arXiv](http://arxiv.org/abs/1508.07789)
+* [[John Bourke]], [[Nick Gurski]], _The Gray tensor product via factorisation_, [arXiv](http://arxiv.org/abs/1508.07789)
 
 [[!redirects Gray]]
