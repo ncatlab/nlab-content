@@ -13,6 +13,8 @@ The analogue for [[complete Segal space|(complete) Segal spaces]] of the notion 
 
 * Nima Rasekh, *Yoneda Lemma for Simplicial Spaces*, 2017. [arxiv](https://arxiv.org/abs/1711.03160)
 
+* Nima Rasekh, *Cartesian Fibrations and Representability*, 2017.  [arxiv](https://arxiv.org/abs/1711.03670)
+
 [[!redirects left fibration of simplicial spaces]]
 [[!redirects right/left fibration of simplicial spaces]]
 [[!redirects left/right fibration of simplicial spaces]]
