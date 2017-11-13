@@ -13401,9 +13401,11 @@ and specifically the _[[covariant phase space]]_, to amplify that it does not ac
 
 $\,$
 
-* _[Presymplectic phase space](#PreymplecticPhaseSpace)_
+* _[Covariant phase space](#PreymplecticPhaseSpace)_
 
-* _[Hamiltonian local observables](#HamiltonianLocalObservablesOnACauchySurface)_
+* _[Poisson bracket](#HamiltonianLocalObservablesOnACauchySurface)_
+
+* _[Covariant Poisson bracket](#CovariantPoissonBrackets)_
 
 * _[BV-Resolution of the covariant phase space](#BVResolutionOfTheCovariantPhaseSpace)_
 
@@ -14065,6 +14067,119 @@ $$
 
 $\,$
 
+**[[covariant phase space|covariant]] [[Poisson brackets]]**
+ {#CovariantPoissonBrackets}
+
+We discuss here the [[covariant phase space]] (def. \ref{CovariantPhaseSpace}) for the special case of
+[[free field theories]] (def. \ref{FreeFieldTheory}). In [[perturbative quantum field theory]] this is the
+basis of the construction of all [[interaction|interacting]] theories, as deformations of a free field theory into its [[infinitesimal neighbourhood]] in the space of [[Lagrangian denities]].
+
+The key tool for this analysis is the identification of [[on-shell]] linear observables with
+[[distributional solutions of PDEs|distributional solutions]] of the [[equations of motion]], hence
+with [[off-shell]] observables that satisfy themselves the [[equations of motion]] in dual form (prop. \ref{DistributionsOnSolutionSpaceAreTheGeneralizedPDESolutions}). Under this identification the
+[[Poisson bracket]] (def. \ref{PoissonBracketOnHamiltonianLocalObservables}) on on-shell observables
+associated with a [[Cauchy surface]] extends to a bracket on off-shell observables which is manifestly
+independent of a choice of Cauchy surface. This [[off-shell]] Poisson bracket is the _[[Peierls bracket]]_
+(prop. \ref{PoissonToPPeierls} below). It is itself given by an [[distribution|distributional]]
+[[integral kernel]], namely by the [[causal Green functions]]. Since this serves to _propagate_
+field excitations along the [[equations of motion]] it is called the _[[causal propagator]]_.
+
+
++-- {: .num_defn #BracketPPoissonAndPPeierls}
+###### Definition
+**($P$-Poisson and $P$-Peierls bracket)**
+
+Let
+
+$$
+  P, P^\ast \;\colon\;\Gamma_\Sigma(E) \overset{}{\longrightarrow} \Gamma_\Sigma(\tilde E^\ast)
+$$
+
+be a pair of [[Green hyperbolic differential operators]] (def. \ref{GreenHyperbolicDifferentialOperator}) which are [[formally adjoint differential operator|formally adjoint]] (def. \ref{FormallyAdjointDifferentialOperators}) via a differential operator $K$ (eq:FormallyAdjointDifferentialOperatorWitness).
+
+Then:
+
+1. For any [[Cauchy surface]] $\Sigma_p \overset{\iota_{\Sigma_p}}{\hookrightarrow} \Sigma$ the _$P$-Poisson bracket_ is the [[bilinear map]]
+
+   $$
+     \array{
+       \Gamma_{\Sigma,scp}(E) \otimes \Gamma_{\Sigma,scp}(E)
+         &\overset{ \left\{-,- \right\}_{\Sigma_p,K} }{\longrightarrow}&
+       \mathbb{R}
+       \\
+       (\mathbf{\Phi}_1, \mathbf{\Phi}_2)
+       &\mapsto&
+       \underset{\Sigma_p}{\int} (\iota_{\Sigma_p})^\ast K(\mathbf{\Phi}_1, \mathbf{\Phi}_2)
+     }
+   $$
+
+1. The _$P$-Peierls bracket_ is the [[bilinear map]]
+
+   $$
+     \array{
+       \Gamma_{\Sigma,cp}(\tilde E^\ast) \otimes \Gamma_{\Sigma,cp}(\tilde E^\ast)
+         &
+           \overset{
+              \left\{ -,- \right\}_{\Sigma, \mathrm{G}}
+           }{
+             \longrightarrow
+           }
+         &
+       \mathbb{R}
+       \\
+       (\tilde \alpha^\ast_1, \tilde \alpha^\ast_2)
+         &\mapsto&
+       \underset{\Sigma}{\int} \tilde \alpha^\ast_1 \cdot \mathrm{G}_P(\tilde \alpha^\ast_2)
+     }
+   $$
+
+=--
+
+
++-- {: .num_prop #PoissonToPPeierls}
+###### Proposition
+**([[causal Green function]] transforms $P$-Poisson bracket to $P$-[[Peierls bracket]])**
+
+Let
+
+$$
+  P, P^\ast \;\colon\;\Gamma_\Sigma(E) \overset{}{\longrightarrow} \Gamma_\Sigma(\tilde E^\ast)
+$$
+
+be a pair of [[Green hyperbolic differential operators]] (def. \ref{GreenHyperbolicDifferentialOperator}) which are [[formally adjoint differential operator|formally adjoint]] (def. \ref{FormallyAdjointDifferentialOperators}) via a differential operator $K$ (eq:FormallyAdjointDifferentialOperatorWitness).
+
+
+Then the [[causal Green function]] intertwines the $P$-Poisson bracket with the $P$-Peierls bracket (def. \ref{BracketPPoissonAndPPeierls}) in that for every [[Cauchy surface]] $\Sigma_p \hookrightarrow \Sigma$ and all
+
+$$
+  \tilde \alpha_1^\ast, \tilde \alpha_2
+  \;\in\;
+  \Gamma_{\Sigma,scp}(\tilde E^\ast)
+$$
+
+we have
+
+$$
+  \left\{
+     \tilde \alpha^\ast_1, \tilde \alpha^\ast_2
+  \right\}_{\Sigma,\mathrm{G}}
+  \;=\;
+  \left\{
+     \mathrm{G}(\tilde \alpha^\ast_1),
+     \mathrm{G}(\tilde \alpha^\ast_2)
+  \right\}_{\Sigma_p,K}
+  \,.
+$$
+
+
+=--
+
+([Khavkine 14, lemma 2.5](Green+hyperbolic+partial+differential+equation#Khavkine14))
+
+
+$\,$
+
+
 **BV-resolution of the covariant phase space**
  {#BVResolutionOfTheCovariantPhaseSpace}
 
@@ -14351,12 +14466,33 @@ $\delta \mathbf{L} = \delta_{EL}\mathbf{L} - d \Theta_{BFV}$ (eq:dLDecomposition
 $\,$
 
 ## Propagators
- {#Propagators}
+ {#Propagator
+ 
+We have seen that the [[Poisson bracket]] on the [[covariant phase space]] of a
+[[free field theory]] with [[Green hyperbolic differential equation|Green hyperbolic]] [[equations of motion]]
+is determined by the [[integral kernel]] of the _[[causal Green function]]_ (prop. \ref{PoissonToPPeierls}).
+Under the identification of linear of-shell observables with off-shell observables
+that are [[generalized solution of a PDE|generalized solutions]] to the [[equations of motion]] (prop. \ref{DistributionsOnSolutionSpaceAreTheGeneralizedPDESolutions}) the convolution with this [[integral kernel]]
+may be understood as _propagating_ the [[support]] of an off-shell observable through [[spacetime]], 
+such as to then compare it with any other observable at any spacetime point (prop. \ref{PoissonToPPeierls}).
 
-We discuss here the [[covariant phase space]] for the special case of
-[[free field theories]] (def. \ref{FreeFieldTheory}). In [[perturbative quantum field theory]] this is the
-basis of the construction of all [[interaction|interacting]] theories in the [[infinitesimal neighbourhood]]
-of the [[free field theories]].
+For this reason the [[causal Green function]] is also called the _[[causal propagator]]_. In terms of just [[PDE]]-theory it turns out that it is characterized by a) being a [[fundamental solution]] in two variables to the [[equations of motion]]
+and b) having a _[[wave front set]]_ of a special form, which makes manifest the _[[direction of a vector|direction]] of propagation_
+in terms of [[propagation of singularities]] of this [[distribution in two variables]].
+
+As we discuss the [[quantization]] of the [[Poisson bracket]] below, we find the need to consider 
+variants of the [[causal propagator]], which are still [[fundamental solutions]] in two variables, but with
+different [[wave front sets]]. Here we discuss the zoo of _[[propagators]]_ obtained this way, each of which 
+will play its role in the process of [[quantization]] below. Notably we find and discuss the _[[Feynman propagator]]_
+which will control much of [[perturbative quantum field theory]] by generating the [[time-ordered products]]
+and then the [[Feynman diagram]] [[scattering amplitudes]] of the theory (prop. \ref{TimeOrderedProductAwayFromDiagonal} beolow).
+
+
+$\,$
+
+[[!include propagators - table]]
+
+$\,$
 
 By definition, the [[equations of motion]] of [[free field theories]] are [[linear partial differential equations]]
 and hence lend themselves to _[[harmonic analysis]]_, where all [[field histories]] are decomposed into
@@ -14370,20 +14506,13 @@ also the linear [[observables]] (def. \ref{LinearObservables}) on the [[space of
 the _[[distribution|distributional]] [[generalized functions]]_ (prop. \ref{LinearObservablesAreTheCompactlySupportedDistributions})
 are subject to _[[Fourier transform of distributions]]_ (def. \ref{FourierTransformOnTemperedDistributions} below).
 
-Thereby in particular the [[Poisson bracket]] (def. \ref{PoissonBracketOnHamiltonianLocalObservables}) of the [[Hamiltonian differential form|Hamiltonian]] [[local observables]] (def. \ref{HamiltonianLocalObservables}) extened from single
-[[Cauchy surfaces]] to the entire [[covariant phase space]] may be computed in terms of a
-[[distribution|distributional]] [[integral kernel]] called the _[[causal propagator]]_ (def. \ref{CausalPropagatorOnMinkowskiSpacetime} below).
-
-[[!include propagators - table]]
-
 
 
 $\,$
 
 
-* _[Fourier analysis](#FourierAnalysis)_
 
-* _[Covariant Poisson brackets](#CovariantPoissonBrackets)_
+* _[Fourier analysis](#FourierAnalysis)_
 
 * _[Klein-Gordon propagators](#KleinGordonPropagators)_
 
@@ -15016,102 +15145,9 @@ For this to make sense, the [[convolution product]] of the [[smooth functions]] 
 
 
 
-$\,$
-
-**[[covariant phase space|covariant]] [[Poisson brackets]]**
- {#CovariantPoissonBrackets}
 
 
-+-- {: .num_defn #BracketPPoissonAndPPeierls}
-###### Definition
-**($P$-Poisson and $P$-Peierls bracket)**
 
-Let
-
-$$
-  P, P^\ast \;\colon\;\Gamma_\Sigma(E) \overset{}{\longrightarrow} \Gamma_\Sigma(\tilde E^\ast)
-$$
-
-be a pair of [[Green hyperbolic differential operators]] (def. \ref{GreenHyperbolicDifferentialOperator}) which are [[formally adjoint differential operator|formally adjoint]] (def. \ref{FormallyAdjointDifferentialOperators}) via a differential operator $K$ (eq:FormallyAdjointDifferentialOperatorWitness).
-
-Then:
-
-1. For any [[Cauchy surface]] $\Sigma_p \overset{\iota_{\Sigma_p}}{\hookrightarrow} \Sigma$ the _$P$-Poisson bracket_ is the [[bilinear map]]
-
-   $$
-     \array{
-       \Gamma_{\Sigma,scp}(E) \otimes \Gamma_{\Sigma,scp}(E)
-         &\overset{ \left\{-,- \right\}_{\Sigma_p,K} }{\longrightarrow}&
-       \mathbb{R}
-       \\
-       (\mathbf{\Phi}_1, \mathbf{\Phi}_2)
-       &\mapsto&
-       \underset{\Sigma_p}{\int} (\iota_{\Sigma_p})^\ast K(\mathbf{\Phi}_1, \mathbf{\Phi}_2)
-     }
-   $$
-
-1. The _$P$-Peierls bracket_ is the [[bilinear map]]
-
-   $$
-     \array{
-       \Gamma_{\Sigma,cp}(\tilde E^\ast) \otimes \Gamma_{\Sigma,cp}(\tilde E^\ast)
-         &
-           \overset{
-              \left\{ -,- \right\}_{\Sigma, \mathrm{G}}
-           }{
-             \longrightarrow
-           }
-         &
-       \mathbb{R}
-       \\
-       (\tilde \alpha^\ast_1, \tilde \alpha^\ast_2)
-         &\mapsto&
-       \underset{\Sigma}{\int} \tilde \alpha^\ast_1 \cdot \mathrm{G}_P(\tilde \alpha^\ast_2)
-     }
-   $$
-
-=--
-
-
-+-- {: .num_prop #PoissonToPPeierls}
-###### Proposition
-**([[causal Green function]] transforms $P$-Poisson bracket to $P$-Peierls bracket)**
-
-Let
-
-$$
-  P, P^\ast \;\colon\;\Gamma_\Sigma(E) \overset{}{\longrightarrow} \Gamma_\Sigma(\tilde E^\ast)
-$$
-
-be a pair of [[Green hyperbolic differential operators]] (def. \ref{GreenHyperbolicDifferentialOperator}) which are [[formally adjoint differential operator|formally adjoint]] (def. \ref{FormallyAdjointDifferentialOperators}) via a differential operator $K$ (eq:FormallyAdjointDifferentialOperatorWitness).
-
-
-Then the [[causal Green function]] intertwines the $P$-Poisson bracket with the $P$-Peierls bracket (def. \ref{BracketPPoissonAndPPeierls}) in that for every [[Cauchy surface]] $\Sigma_p \hookrightarrow \Sigma$ and all
-
-$$
-  \tilde \alpha_1^\ast, \tilde \alpha_2
-  \;\in\;
-  \Gamma_{\Sigma,scp}(\tilde E^\ast)
-$$
-
-we have
-
-$$
-  \left\{
-     \tilde \alpha^\ast_1, \tilde \alpha^\ast_2
-  \right\}_{\Sigma,\mathrm{G}}
-  \;=\;
-  \left\{
-     \mathrm{G}(\tilde \alpha^\ast_1),
-     \mathrm{G}(\tilde \alpha^\ast_2)
-  \right\}_{\Sigma_p,K}
-  \,.
-$$
-
-
-=--
-
-([Khavkine 14, lemma 2.5](Green+hyperbolic+partial+differential+equation#Khavkine14))
 
 
 
