@@ -94,6 +94,11 @@ See also
 [[!redirects distribution of two variables]]
 [[!redirects distributions of two variables]]
 
+[[!redirects distribution in two variables]]
+[[!redirects distributions in two variables]]
+
 
 [[!redirects distribution of several variables]]
 [[!redirects distributions of several variables]]
+
+
