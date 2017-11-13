@@ -88,88 +88,6 @@ for the [[linear subspaces]] on those smooth sections whose [[support]] is
 
 ([B&#228;r 14, section 1](#Baer14), [Khavkine 14, def. 2.1](#Khavkine14))
 
-
-
-
-+-- {: .num_defn #GreenHyperbolicDifferentialOperator}
-###### Definition
-**([[Green hyperbolic differential operator]])**
-
-Let $E \overset{fb}{\to} \Sigma$ be a [[smooth vector bundle]] over a [[smooth manifold]] $\Sigma$ with [[causal structure]].
-
-A [[linear differential operator|linear]] [[hyperbolic differential operator]].
-
-$$
-  P 
-    \;\colon\;
-  \Gamma_\Sigma(E)
-    \longrightarrow
-  \Gamma_{\Sigma}(\tilde E^\ast)
-$$
-
-is called _Green hyperbolic_ with respect to the given [[causal structure]] if for every 
-
-$$  
-  \tilde \alpha^\ast \in \Gamma_{\pm}(\tilde E^\ast)
-$$
-
-the inhomogeneous [[differential equation]]
-
-$$
-  P \Phi_{\pm} = \tilde \alpha^\ast
-$$
-
-has a unique solution  $\Phi_{\pm}$; and such that this unique solution has [[support]] inside the [[closed future cone]]/[[closed past cone]] of the support of $\tilde \alpha^\ast$, respectively.
-
-=--
-
-([B&#228;r 14, def. 3.2](#Baer14}), [Khavkine 14, def. 2.2](#Khavkine14))
-
-
-+-- {: .num_defn #AdvancedAndRetardedGreenFunctions}
-###### Definition
-**([[advanced and retarded Green functions]] and [[causal Green function]])**
-
-Given a Green-hyperbolic differential operator $P$ (def. \ref{GreenHyperbolicDifferentialOperator}) there are [[linear maps]]
-
-$$
-  \mathrm{G}_{P,\pm}
-    \;\colon\;
-  \Gamma_{\Sigma,\pm cp}(\tilde E^\ast)
-    \longrightarrow
-  \Gamma_{\Sigma, \pm cp}(E)
-$$
-
-between spaces of causally sourced future/past support (def. \ref{CompactlySourceCausalSupport})
-such that the unique solution to $P \Phi_\pm = \tilde \alpha^\ast$ is given by 
-
-$$
-  \Phi_\pm = \mathrm{G}_{P,\pm}(\tilde \alpha^\ast)
-  \,.
-$$
-
-These $\mathrm{G}_{P,\pm}$ are called the _[[advanced and retarded Green functions]]_ for $P$. Hence these are two-sided inverses
-
-The difference
-
-$$
-  \mathrm{G}_P \coloneqq \mathrm{G}_{P,+} - \mathrm{G}_{P,-}
-$$
-
-is called the _[[causal Green function]]_ for $P$.
-
-=--
-
-([B&#228;r 14, def. 3.2, cor. 3.10](#Baer14}))
-
-
-
-## Properties
- {#Properties}
-
-
-### Formally adjoint Green hyperbolic operators
-
 +-- {: .num_defn #FormallyAdjointDifferentialOperators}
 ###### Definition
 **([[formally adjoint differential operators]])**
@@ -206,7 +124,95 @@ $$
 
 =--
 
-([Khavkine 14, def. 2.4](#Khavkine14))
+([B&#228;r 14, 3. (1)](#Baer14) [Khavkine 14, def. 2.4](#Khavkine14))
+
+
+
++-- {: .num_defn #AdvancedAndRetardedGreenFunctions}
+###### Definition
+**([[advanced and retarded Green functions]] and [[causal Green function]])**
+
+Let $\Sigma$ be a [[smooth manifold]] with [[causal structure]], let $E \to \Sigma$ be a [[smooth vector bundle]] and let
+$P \;\colon\;\Gamma_\Sigma(E) \to \Gamma_\Sigma(\tilde E^\ast)$ be a [[differential operator]] (def. \ref{GreenHyperbolicDifferentialOperator})  on its [[space of smooth sections]].
+
+Then a [[linear map]]
+
+$$
+  \mathrm{G}_{P,\pm}
+    \;\colon\;
+  \Gamma_{\Sigma, cp}(\tilde E^\ast)
+    \longrightarrow
+  \Gamma_{\Sigma, \pm cp}(E)
+$$
+
+from spaces of sections of [[compact support]] to spaces of sections of causally sourced future/past support (def. \ref{CompactlySourceCausalSupport}) is called an _[[advanced or retarded Green function]]_ for $P$, respectively, if 
+
+1. for all $\Phi \in \Gamma_{\Sigma,cp}(E_1)$ we have
+
+   $$
+     G_{P,\pm} \circ P(\Phi) = \Phi
+   $$
+
+   and
+
+   $$
+     P \circ G_{P,\pm}(\Phi) = \Phi
+   $$
+
+1. the [[support]] of $G_{P.\pm}(\Phi)$ is in the [[closed future cone]] or [[closed past cone]] of the support of $\Phi$, respectively.
+
+If the advanced/retarded Green functions $G_{P\pm}$ exists, then the difference
+
+$$
+  \mathrm{G}_P \coloneqq \mathrm{G}_{P,+} - \mathrm{G}_{P,-}
+$$
+
+is called the _[[causal Green function]]_.
+
+=--
+
+([B&#228;r 14, def. 3.2, cor. 3.10](#Baer14}))
+
+
++-- {: .num_defn #GreenHyperbolicDifferentialOperator}
+###### Definition
+**([[Green hyperbolic differential operator]])**
+
+Let $E \overset{fb}{\to} \Sigma$ be a [[smooth vector bundle]] over a [[smooth manifold]] $\Sigma$ with [[causal structure]].
+
+A [[linear differential operator|linear]] [[hyperbolic differential operator]].
+
+$$
+  P 
+    \;\colon\;
+  \Gamma_\Sigma(E)
+    \longrightarrow
+  \Gamma_{\Sigma}(\tilde E^\ast)
+$$
+
+is called _Green hyperbolic_ with respect to the given [[causal structure]] if $P$ as well as its [[formal adjoint differential operator]] $P^\ast$ (def. \ref{FormallyAdjointDifferentialOperators}) admit [[advanced and retarded Green functions]] (def. \ref{AdvancedAndRetardedGreenFunctions}).
+
+=--
+
+([B&#228;r 14, def. 3.2](#Baer14}), [Khavkine 14, def. 2.2](#Khavkine14))
+
+
++-- {: .num_prop #AdvancedAndRetardedGreenFunctionsForGreenHyperbolicOperatorAreUnique}
+###### Proposition
+**([[advanced and retarded Green functions]] of [[Green hyperbolic differential operator]] are unique)**
+
+The [[advanced and retarded Green functions]] of a [[Green hyperbolic differential operator]] (def. \ref{GreenHyperbolicDifferentialOperator}) are unique.
+
+=--
+
+([B&#228;r 14, cor. 3.12](#Baer14})
+
+## Properties
+ {#Properties}
+
+
+### Formally adjoint Green hyperbolic operators
+
 
 +-- {: .num_prop}
 ###### Proposition
@@ -692,7 +698,7 @@ Then:
 
 +-- {: .num_prop #PSymplecticToPPeierls}
 ###### Proposition
-**([[causal Green function]] transforms $P$-Symplectic bracket to $P$-Peierls bracket)**
+**([[causal Green function]] transforms $P$-Peierls bracket to $P$-symplectic pairing)**
 
 Let
 
@@ -735,13 +741,25 @@ $$
 ## Examples
 
 
-+-- {: .num_example}
++-- {: .num_example #GreenHyperbolicKleinGordonOperator}
 ###### Example
-**([[Klein-Gordon operator]])**
+**([[Klein-Gordon operator]] is [[Green hyperbolic differential operator|Green hyperbolic]])**
 
 For $\Sigma$ a [[globally hyperbolic spacetimes]] then the [[Klein-Gordon operator]] $P = \Box - m^2$ (i.e. the [[wave operator]] for $m = 0$) is [[Green hyperbolic differential operator|Green hyperbolic]] according to  def. \ref{GreenHyperbolicDifferentialOperator} (e. g. [B&#228;r-Ginoux-Pfaeffle 07](#Klein-Gordon+equation#BaerGinouxPfaeffle07)) and formally self-adjoint ([this example](formal+adjoint+differential+operator#FormallySelfAdjointKleinGordonOperator)). The corresponding $P$-Peierls bracket (def. \ref{BracketPSymplecticAndPPeierls}) is the original [[Peierls bracket]].
 
 =--
+
+
++-- {: .num_example #GreenHyperbolicDiracOperator}
+###### Example
+**([[Dirac operator]] is [[Green hyperbolic differential operator|Green hyperbolic]])**
+
+The [[Dirac operator]] $D$ squaring to a Green hyperbolic operator is itself Green hyperbolic.
+
+=--
+
+([B&#228;r 14, corollary 3.15, example 3.16](#Baer14))
+
 
 ## References
 
