@@ -18,7 +18,7 @@
 
 ## Idea
 
-A _[[partial differential equation]]_ (PDE) is _Green hyperbolic_ ([Khavkine 14, def. 2.2](#Khavkine14)) if it behaves like a [[normally hyperbolic differential equation]] on a [[globally hyperbolic spacetime]] in that it has unique [[advanced and retarded Green functions]].
+A _[[partial differential equation]]_ (PDE) is _Green hyperbolic_ ([B&#228;r 14, def. 3.2](#Baer14), [Khavkine 14, def. 2.2](#Khavkine14)) if it behaves like a [[normally hyperbolic differential equation]] on a [[globally hyperbolic spacetime]] in that it has unique [[advanced and retarded Green functions]].
 
 _Duhamel&#8217;s principle_ essentially establishes the equivalence between [[hyperbolic  differential equations]] with a well-posed [[Cauchy problem]] and Green hyperbolic systems. ([Khavkine 14, p. 12](#Khavkine14))
 
@@ -46,12 +46,13 @@ $$
 
 for the _[[density|densitized]] [[dual vector bundle]]_, hence the [[tensor product of vector bundles]] of the [[dual vector bundle]] with the [[differential n-form]]-bundle.
 
+
+
 +-- {: .num_defn #CompactlySourceCausalSupport}
 ###### Definition
 **(compactly sourced causal support)
 
 Given a [[vector bundle]] $E \overset{}{\to} \Sigma$ over a manifold $\Sigma$ with [[conal causal structure|causal structure]]
-
 
 Write $\Gamma_{\Sigma}(-)$ for [[space of sections|spaces of smooth sections]], and write
 
@@ -61,16 +62,27 @@ $$
     \\
     \Gamma_{\Sigma,\pm cp}(-) & \text{compactly sourced future/past support}
     \\
-    \Gamma_{\Sigma,scp}(-) & \text{compactly source causal support}
+    \Gamma_{\Sigma,scp}(-) & \text{spacelike compact support}
+    \\
+    \Gamma_{\Sigma,tcp}(-) & \text{timelike compact support}
   }
 $$ 
 
 for the [[linear subspaces]] on those smooth sections whose [[support]] is 
-1) inside a [[compact subset]], 2) inside the [[closed future cone]]/[[closed past cone]], respectively of a [[compact subset]], 3) inside the [[closed causal cone]] of a [[compact subset]] (spacelike compact support).
+
+1. ($cp$) inside a [[compact subset]]
+
+1. ($\pm cp$) inside the [[closed future cone]]/[[closed past cone]], respectively, of a [[compact subset]],
+
+1. ($scp$) inside the [[closed causal cone]] of a [[compact subset]], which equivalently means that the [[intersection]] with every ([[spacelike]]) [[Cauchy surface]] is compact ([Sanders 13, theorem 2.2](#Sanders12)).
+
+1. ($tcp$) inside the future of one Cauchy surface and the past of another ([Sanders 13, def. 3.2](#Sanders12))
 
 =--
 
-([B&#228;r 14, def. 3.2](#Baer14}), [Khavkine 14, def. 2.1](#Khavkine14))
+([B&#228;r 14, section 1](#Baer14), [Khavkine 14, def. 2.1](#Khavkine14))
+
+
 
 
 +-- {: .num_defn #GreenHyperbolicDifferentialOperator}
@@ -79,7 +91,7 @@ for the [[linear subspaces]] on those smooth sections whose [[support]] is
 
 Let $E \overset{fb}{\to} \Sigma$ be a [[smooth vector bundle]] over a [[smooth manifold]] $\Sigma$ with [[causal structure]].
 
-A linear [[hyperbolic differential operator]].
+A [[linear differential operator|linear]] [[hyperbolic differential operator]].
 
 $$
   P 
@@ -105,7 +117,7 @@ has a unique solution  $\Phi_{\pm}$; and such that this unique solution has [[su
 
 =--
 
-([B&#228;r 14, def. 3.1](#Baer14}), [Khavkine 14, def. 2.2](#Khavkine14))
+([B&#228;r 14, def. 3.2](#Baer14}), [Khavkine 14, def. 2.2](#Khavkine14))
 
 
 +-- {: .num_defn #AdvancedAndRetardedGreenFuntions}
@@ -141,6 +153,10 @@ $$
 is called the _[[causal Green function]]_ for $P$.
 
 =--
+
+([B&#228;r 14, def. 3.2](#Baer14})
+
+
 
 ## Properties
  {#Properties}
@@ -212,14 +228,103 @@ $$
 ([Khavkine 14, (24), (25)](#Khavkine14))
 
 
-### Linear functionals on the solution space
+
+### Continuous linear functionals on the solution space 
+ {#ContinousLinearFunctionalsOnTheSolutionSpace}
+
+
++-- {: .num_defn #SheavesOnCartSp}
+###### Definition
+
+Let $E \overset{fb}{\to} \Sigma$ be a [[smooth vector bundle]] over a [[pseudo-Riemannian manifold]]. On its [[real vector space]] $\Gamma_\Sigma(E)$ [[space of sections|of smooth sections]] consider the [[seminorms]] indexed by a [[compact subset]] $K \subset \Sigma$ and a [[natural number]] $N \in \mathbb{N}$ and given by
+
+$$
+  \array{
+    \Gamma_\Sigma^\infty(E) &\overset{p_K^N}{\longrightarrow}&
+    [0,\infty)
+    \\
+    \Phi &\mapsto&  \underset{n \leq N}{max} \underset{x \in K}{sup} {\vert \nabla^n \Phi(x)\vert}
+  }
+  \,,
+$$
+
+where on the right we have the [[absolute values]] of the [[covariant derivatives]] of $\Phi$ for any fixed choice of [[connection on a bundle|connection]] on $E$ and [[norm]] on the [[tensor product of vector bundles]] $(T^\ast \Sigma)^{\otimes_\Sigma^n} \otimes_\Sigma E $.
+
+This makes $\Gamma_\Sigma(E)$ a [[Fréchet space|Fréchet]] [topological vector space]].
+
+=--
+
++-- {: .num_defn #DistributionalSections}
+###### Definition
+**([[distribution|distributional]] [[sections]])**
+
+Let $E \overset{fb}{\to} \Sigma$ be a [[smooth vector bundle]] over a [[smooth manifold]] with [[causal structure]].
+
+The vector [[spaces of sections]] with restricted support from def. \ref{CompactlySourceCausalSupport} carry canonical structures of [[topological vector spaces]]. We denote the topological [[dual space]] by 
+
+$$
+  \Gamma'_{\Sigma}(\tilde{E}^*) \coloneqq (\Gamma_{\Sigma,cp}(E))^*
+$$
+
+This is the space of _distributional sections_ of the bundle $\tilde{E}^*$. 
+
+With this notations, smooth compactly supported sections of the same bundle, regarded as the [[non-singular distributions]], constitute a [[dense subset]] 
+
+$$
+  \Gamma_{\Sigma,cp}(\tilde{E}^*) 
+    \underset{\text{dense}}{\hookrightarrow}   
+  \Gamma'_{\Sigma}(\tilde{E}^*)
+  \,.
+$$ 
+
+Imposing the same restrictions to the [[supports of distributions]] as in def. \ref{CompactlySourceCausalSupport}, we have the following subspaces of distributional sections:
+
+$$
+  \Gamma'_{\Sigma,cp}(\tilde E^\ast) ,
+  \Gamma'_{\Sigma,scp}(\tilde E^\ast) ,  
+  \Gamma'_{\Sigma,tcp}(\tilde E^\ast)
+  \subset
+  \Gamma'_{\Sigma}(\tilde E^\ast) .
+$$
+
+
+=--
+
+([Sanders 13](#Sanders12), [B&#228;r 14](#Baer14))
+
+
+
++-- {: .num_prop #DistributionsWithCausalSupports}
+###### Proposition
+**(topological duality with causally restricted supports)**
+
+Let $E \overset{fb}{\to} \Sigma$ be a [[smooth vector bundle]] over a [[smooth manifold]] with [[causal structure]].
+
+Then there are the following [[isomorphisms]] of [[topological vector spaces]] between [[dual spaces]] of [[spaces of sections]] and spaces of distributional sections, with restricted supports (def. \ref{DistributionalSections}):
+
+
+$$
+\begin{aligned}
+  \Gamma_{\Sigma,cp}(E)^* &\simeq \Gamma'_{\Sigma}(\tilde E^\ast) , 
+  \\
+  \Gamma_{\Sigma,scp}(E)^* &\simeq \Gamma'_{\Sigma,tcp}(\tilde E^\ast) , 
+  \\
+  \Gamma_{\Sigma,tcp}(E)^* &\simeq \Gamma'_{\Sigma,scp}(\tilde E^\ast) , 
+  \\
+  \Gamma_{\Sigma}(E)^* &\simeq \Gamma'_{\Sigma,cp}(\tilde E^\ast) .
+\end{aligned}
+$$
+
+=--
+
+([Sanders 13, thm. 4.3](#Sanders12), [B&#228;r 14, lem. 2.14](#Baer14))
+
 
 +-- {: .num_prop #ExactSequenceOfGreenHyperbolicSystem}
 ###### Proposition
-**([[exact sequence]] of Green hyperbolic system)**
+**([[exact sequence]] of [[Green hyperbolic differential operator]])**
 
-
-Let $\Gamma_\Sigma(E) \overset{P}{\longrightarrow} \Gamma_\Sigma(\tilde E^\ast)$ be a Green hyperbolic differential operator (def. \ref{GreenHyperbolicDifferentialOperator}) with [[causal Green function]] $\mathrm{G}$ (def. \ref{GreenHyperbolicDifferentialOperator}). Then the sequence 
+Let $\Gamma_\Sigma(E) \overset{P}{\longrightarrow} \Gamma_\Sigma(\tilde E^\ast)$ be a [[Green hyperbolic differential operator]] (def. \ref{GreenHyperbolicDifferentialOperator}) with [[causal Green function]] $\mathrm{G}$ (def. \ref{GreenHyperbolicDifferentialOperator}). Then the sequence 
 
 $$
   0 
@@ -236,9 +341,27 @@ $$
 $$
 
 of these operators restricted to compact or spatially compact support as indicated (def. \ref{CompactlySourceCausalSupport})
-is an [[exact sequence]] of continuous operators.
+is an [[exact sequence]] of [[topological vector spaces]] and [[continuous linear functionals]] between them.
 
-In particular this means that there is a [[linear isomorphism]] betwen the space $ker_{scp}(P)$ of spatially compact solutions to the differential equation and the [[quotient space]] of the [[compact support|compactly supported]] dual sections by the [[image]] of $P$:
+Under passing to [[dual spaces]] and using the isomorphisms of spaces of distributional sections (def. \ref{DistributionalSections}) from prop. \ref{DistributionsWithCausalSupports} this yields following dual [[exact sequence]] of [[topological vector spaces]]:
+
+$$
+  \label{GreenHyperbolicOperatorDualExactSequence}
+  0 
+    \to  
+  \Gamma'_{\Sigma,tcp}(E)
+   \overset{P^*}{\longrightarrow}
+  \Gamma'_{\Sigma,tcp}(\tilde E^\ast)
+    \overset{-\mathrm{G}_{P^*}}{\longrightarrow}
+  \Gamma'_{\Sigma}(E)
+    \overset{P^*}{\longrightarrow}
+  \Gamma'_{\Sigma}(\tilde E^\ast)
+     \to
+  0
+$$
+
+
+In particular this means that there is a [[linear isomorphism]] between the space $ker_{scp}(P)$ of spatially compact solutions to the differential equation and the [[quotient space]] of the [[compact support|compactly supported]] dual sections by the [[image]] of $P$:
 
 $$
   \label{SolutionSpaceIsomorphicToQuotientByImP}
@@ -291,7 +414,9 @@ $$
   0
   \end{array}
 $$
+
 The homotopy maps are defined as follows:
+
 $$
 \begin{aligned}
   {}_\chi\mathrm{G}[\tilde{\alpha}^*]
@@ -303,7 +428,9 @@ $$
   &= \mathrm{G}_+[\chi_+\tilde{\alpha}^*] + \mathrm{G}_-[\chi_-\tilde{\alpha}^*] .
 \end{aligned}
 $$
+
 The contracting identities
+
 $$
 \begin{aligned}
   {}_\chi\mathrm{G} \circ P &= id , \\
@@ -315,55 +442,14 @@ $$
 are simply a matter of direct calculation.
 
 The identity morphism of our complex to itself induces an isomorphism on its cohomology. On the other hand, since this morphism itself is induced by a homotopy, it must be in fact be the zero map on cohomology. This is only possible when all cohomologies vanish and our complex is exact. (...remains to check continuity...)
+
+
+To see the second exact sequences, observe that differential operators extend continuously to distributions in a standard way. The only nontrivial check is on the Green functions. Their continuity is discussed in ([Sanders 13, sec. 5](#Sanders12)) and ([Baer 14, lem. 4.1](#Baer14)). The exactness follows from the same argument as in the previous argument (since a contracting homotopy dualizes to a contracting homotopy). The exactness of a sequence similar to the one above also appears as ([B&#228;r 14, thm. 4.3](#Baer14)). 
+
+
 =--
 
-Equip all [[spaces of sections]] here with suitable [[topological vector space]] structure. As topological vector spaces, these spaces were considered in ([Sanders 13](#Sanders12)) and ([Baer 14](#Baer14)), where their topological duals were also determined. Keep in mind the following notation: $\Gamma'_{\Sigma}(\tilde{E}^*) := (\Gamma_{\Sigma,cp}(E))^*$ denotes the topological dual, which is interpreted as the space of _distributional sections_ of the bundle $\tilde{E}^*$. With this notations, smooth compactly supported sections of the same bundle are a dense subset $\Gamma_{\Sigma,cp}(\tilde{E}^*) \subset \Gamma'_{\Sigma}(\tilde{E}^*)$. Applying the same restrictions to the supports of distributions as of smooth functions, we have the following subspaces of distributional sections
-$$
-  \Gamma'_{\Sigma,cp}(\tilde E^\ast) ,
-  \Gamma'_{\Sigma,scp}(\tilde E^\ast) ,  
-  \Gamma'_{\Sigma,tcp}(\tilde E^\ast)
-  \subset
-  \Gamma'_{\Sigma}(\tilde E^\ast) .
-$$
 
-
-
-+-- {: .num_prop #DistributionsWithCausalSupports}
-###### Proposition
-**(topological duality with causally restricted supports)**
-We have the following isomorphisms:
-$$
-\begin{aligned}
-  \Gamma_{\Sigma,cp}(E)^* &\simeq \Gamma'_{\Sigma}(\tilde E^\ast) , \\
-  \Gamma_{\Sigma,scp}(E)^* &\simeq \Gamma'_{\Sigma,tcp}(\tilde E^\ast) , \\
-  \Gamma_{\Sigma,tcp}(E)^* &\simeq \Gamma'_{\Sigma,scp}(\tilde E^\ast) , \\
-  \Gamma_{\Sigma}(E)^* &\simeq \Gamma'_{\Sigma,cp}(\tilde E^\ast) .
-\end{aligned}
-$$
-=--
-([Sanders 13, thm. 4.3](#Sanders12), [Baer 14, lem. 2.14](#Baer14))
-
-Next, by dualizing the exact sequence from prop. \ref{ExactSequenceOfGreenHyperbolicSystem}, we have
-+-- {: .num_prop #DualExactSequenceOfGreenHyperbolicSystem}
-###### Proposition
-**(distributional [[exact sequence]] of Green hyperbolic system)**
-
-The following is an exact sequence of continuous maps:
-$$
-  0 
-    \to  
-  \Gamma'_{\Sigma,tcp}(E)
-   \overset{P^*}{\longrightarrow}
-  \Gamma'_{\Sigma,tcp}(\tilde E^\ast)
-    \overset{\mathrm{-G}_{P^*}}{\longrightarrow}
-  \Gamma'_{\Sigma}(E)
-    \overset{P^*}{\longrightarrow}
-  \Gamma'_{\Sigma}(\tilde E^\ast)
-     \to
-  0
-$$
-=--
-Differential operators extend continuously to distributions in a standard way. The only nontrivial check is on the Green functions. Their continuity is discussed in ([Sanders 13, sec. 5](#Sanders12)) and ([Baer 14, lem. 4.1](#Baer14)). The exactness follows from the same argument as in the proof of prop. \ref{ExactSequenceOfGreenHyperbolicSystem} (a contracting homotopy dualizes to a contracting homotopy). The exactness of a sequence similar to the one above also appears as ([Baer 14, thm. 4.3](#Baer14)). 
 
 Putting the above results together, it follows:
 
@@ -392,11 +478,11 @@ $$
   \,,
 $$
 
-and this [[linear isomorphism]] is given by pullback along the [[causal Green function]] $\mathrm{G}$ (def. \ref{AdvancedAndRetardedGreenFuntions}):
+and this is a [[continuous linear map|continuous]] [[linear isomorphism]] given by pullback along the [[causal Green function]] $\mathrm{G}_P$ (def. \ref{AdvancedAndRetardedGreenFuntions}):
 
 $$
   \left(ker_{scp}(P)\right)^\ast
-     \underoverset{\simeq}{(-)\circ \mathrm{G}}{\longrightarrow}
+     \underoverset{\simeq}{-\mathrm{G}_{P^\ast} = (-)\circ \mathrm{G}_P}{\longrightarrow}
    \left\{
      u \in \Gamma'_{\Sigma}(E)
      \,\vert\,
@@ -411,28 +497,42 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Keeping in mind that both $\ker_{scp}(P) \subset \Gamma_{\Sigma,scp}(E)$ and $im_{tcp}(P^*) \subset \Gamma'_{\Sigma,tcp}(\tilde{E}^*)$ are [[closed subspaces]] (the first by continuity of $P$ and the second by exactness of the sequence in prop. \ref{DualExactSequenceOfGreenHyperbolicSystem}), on the level of [[locally convex vector spaces]] ([Treves 67, props. 35.5, 35.6](#Treves67)), there is a linear bijection
+Observe that both $\ker_{scp}(P) \subset \Gamma_{\Sigma,scp}(E)$ and $im_{tcp}(P^*) \subset \Gamma'_{\Sigma,tcp}(\tilde{E}^*)$ are [[closed subspaces]]: the first by [[continuous function|continuity]] of $P$ and the second by exactness of the sequence (eq:GreenHyperbolicOperatorDualExactSequence) in prop. \ref{ExactSequenceOfGreenHyperbolicSystem}, which implies that this, too, is the kernel of a continuous linear functional. 
+
+This implies ([Treves 67, props. 35.5, 35.6](#Treves67)) that the linear isomorphism
+
 $$
-  (\ker_{scp}(P))^* \simeq \Gamma'_{\Sigma,tcp}(\tilde{E}^*) / im_{tcp}(P^*) ,
+  \label{ContinuousLinearDualsOnGreenHyperbolicSolutionSpace}
+  (\ker_{scp}(P))^* 
+    \;\simeq\; 
+  \Gamma'_{\Sigma,tcp}(\tilde{E}^*) / im_{tcp}(P^*) 
 $$
-which is also a topological isomorphism in the weak topology. Then, once again exploiting the exactness of the sequence in prop. \ref{DualExactSequenceOfGreenHyperbolicSystem}, we also have the chain of isomorphisms
+
+obtained from the underlying exact sequences of vector spaces in prop. \ref{ExactSequenceOfGreenHyperbolicSystem} is also a [[continuous linear map|continuous]] linear isomorphism for the [[dual space]] topology on the left. 
+
+Moreover, once again exploiting the exactness of the sequence (eq:GreenHyperbolicOperatorDualExactSequence) in prop. \ref{ExactSequenceOfGreenHyperbolicSystem}, we also have the chain of isomorphisms
+
 $$
   \Gamma'_{\Sigma,tcp}(\tilde{E}^*) / im_{tcp}(P^*)
   \simeq \Gamma'_{\Sigma,tcp}(\tilde{E}^*) / \ker_{tcp}(G_{P^*})
-  \simeq \ker(P^*) \subset \Gamma'_{\Sigma}(\tilde{E}) .
+  \underoverset{\simeq}{G_{P^\ast}}{\to}
+  \ker(P^*) \subset \Gamma'_{\Sigma}(\tilde{E}).
 $$
+
+Combining this with (eq:ContinuousLinearDualsOnGreenHyperbolicSolutionSpace)
+yields the desired isomorphism.
 
 =--
 
 
 
-### The $P$-Poisson and $P$-Peierls brackets
- {#PPoissonAndPPeierlsBracket}
+### The $P$-Symplectic and $P$-Peierls brackets
+ {#PSymplecticAndPPeierlsBracket}
 
 
-+-- {: .num_defn #BracketPPoissonAndPPeierls}
++-- {: .num_defn #BracketPSymplecticAndPPeierls}
 ###### Definition
-**($P$-Poisson and $P$-Peierls bracket)**
+**($P$-Symplectic and $P$-Peierls bracket)**
 
 Let
 
@@ -444,7 +544,7 @@ be a pair of [[Green hyperbolic differential operators]] (def. \ref{GreenHyperbo
 
 Then:
 
-1. For any [[Cauchy surface]] $\Sigma_p \overset{\iota_{\Sigma_p}}{\hookrightarrow} \Sigma$ the _$P$-Poisson bracket_ is the [[bilinear map]]
+1. For any [[Cauchy surface]] $\Sigma_p \overset{\iota_{\Sigma_p}}{\hookrightarrow} \Sigma$ the _$P$-Symplectic bracket_ is the [[bilinear map]]
 
    $$
      \array{
@@ -481,9 +581,9 @@ Then:
 =--
 
 
-+-- {: .num_prop #PoissonToPPeierls}
++-- {: .num_prop #PSymplecticToPPeierls}
 ###### Proposition
-**([[causal Green function]] transforms $P$-Poisson bracket to $P$-Peierls bracket)**
+**([[causal Green function]] transforms $P$-Symplectic bracket to $P$-Peierls bracket)**
 
 Let
 
@@ -495,10 +595,10 @@ be a pair of [[Green hyperbolic differential operators]] (def. \ref{GreenHyperbo
 
 
 
-Then the [[causal Green function]] intertwines the $P$-Poisson bracket with the $P$-Peierls bracket (def. \ref{BracketPPoissonAndPPeierls}) in that for every [[Cauchy surface]] $\Sigma_p \hookrightarrow \Sigma$ and all 
+Then the [[causal Green function]] intertwines the $P$-Symplectic bracket with the $P$-Peierls bracket (def. \ref{BracketPSymplecticAndPPeierls}) in that for every [[Cauchy surface]] $\Sigma_p \hookrightarrow \Sigma$ and all 
 
 $$
-  \tilde \alpha_1^\ast, \tilde \alpha_2
+  \tilde \alpha_1^\ast, \tilde \alpha_2^\ast
   \;\in\;
   \Gamma_{\Sigma,scp}(\tilde E^\ast)
 $$
@@ -506,13 +606,14 @@ $$
 we have
 
 $$
+  \label{RelationBetweenSymplecticAndPPeierlsBracket}
   \left\{
      \tilde \alpha^\ast_1, \tilde \alpha^\ast_2
   \right\}_{\Sigma,\mathrm{G}}
   \;=\;
   \left\{
      \mathrm{G}(\tilde \alpha^\ast_1),
-     \mathrm{G}(\tilde \alpha^\ast_2)
+     \mathrm{G}^\ast(\tilde \alpha^\ast_2)
   \right\}_{\Sigma_p,K}
   \,.
 $$
@@ -529,18 +630,17 @@ $$
 ###### Example
 **([[Klein-Gordon operator]])**
 
-For $\Sigma$ a [[globally hyperbolic spacetimes]] then the [[Klein-Gordon operator]] $P = \Box - m^2$ (i.e. the [[wave operator]] for $m = 0$) is [[Green hyperbolic differential operator|Green hyperbolic]] according to  def. \ref{GreenHyperbolicDifferentialOperator} (e. g. [B&#228;r-Ginoux-Pfaeffle 07](#Klein-Gordon+equation#BaerGinouxPfaeffle07)) and formally self-adjoint ([this example](formal+adjoint+differential+operator#FormallySelfAdjointKleinGordonOperator)). The corresponding $P$-Peierls bracket (def. \ref{BracketPPoissonAndPPeierls}) is the original [[Peierls bracket]].
+For $\Sigma$ a [[globally hyperbolic spacetimes]] then the [[Klein-Gordon operator]] $P = \Box - m^2$ (i.e. the [[wave operator]] for $m = 0$) is [[Green hyperbolic differential operator|Green hyperbolic]] according to  def. \ref{GreenHyperbolicDifferentialOperator} (e. g. [B&#228;r-Ginoux-Pfaeffle 07](#Klein-Gordon+equation#BaerGinouxPfaeffle07)) and formally self-adjoint ([this example](formal+adjoint+differential+operator#FormallySelfAdjointKleinGordonOperator)). The corresponding $P$-Peierls bracket (def. \ref{BracketPSymplecticAndPPeierls}) is the original [[Peierls bracket]].
 
 =--
 
 ## References
 
-* {#Treves67} [[François Treves]], _Topological Vector Spaces, Distributions and Kernels_ (Academic Press, New York, 1967)
+* {#Treves67} [[François Trèves]], _Topological Vector Spaces, Distributions and Kernels_ (Academic Press, New York, 1967)
 
 * {#Sanders12} [[Ko Sanders]], _A note on spacelike and timelike compactness_, Classical and Quantum Gravity 30, 115014 (2012) ([doi](http://dx.doi.org/10.1088/0264-9381/30/11/115014), [arXiv:1211.2469](https://arxiv.org/abs/1211.2469))
 
-* {#Baer14} [[Christian Bär]], _Green-hyperbolic operators on globally hyperbolic spacetimes_, Communications in Mathematical Physics 333, 1585-1615 (2014)
-([doi](http://dx.doi.org/10.1007/s00220-014-2097-7), [arXiv:1310.0738](https://arxiv.org/abs/1310.0738))
+* {#Baer14} [[Christian Bär]], _Green-hyperbolic operators on globally hyperbolic spacetimes_, Communications in Mathematical Physics 333, 1585-1615 (2014) ([doi](http://dx.doi.org/10.1007/s00220-014-2097-7), [arXiv:1310.0738](https://arxiv.org/abs/1310.0738))
 
 * {#Khavkine14} [[Igor Khavkine]], _Covariant phase space, constraints, gauge and the Peierls formula_, Int. J. Mod. Phys. A, 29, 1430009 (2014) ([arXiv:1402.1282](https://arxiv.org/abs/1402.1282))
 
