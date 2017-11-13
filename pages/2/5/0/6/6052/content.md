@@ -29,9 +29,9 @@ together with the $A$-bimodule map "comultiplication" $\Delta : H\to H\otimes_A 
 (ii) the coproduct $\Delta : H\to H\otimes_A H$ corestricts to the [[Takeuchi product]] and the corestriction $\Delta : H\to H\times_A H$ 
 is a $k$-algebra map, where the Takeuchi product $H\times_A H$ has a multiplication induced factorwise
 
-(iii) $\epsilon$ is a left [[character]] on the $A$-ring $(H,\mu_H,s)$
+(iii) $\epsilon$ is a left [[character]] on the $A$-ring $(H,\mu_H,s)$. 
 
-Notice that $H\otimes_A H$ is in general not an algebra, just an  $A$-bimodule. 
+Notice that $H\otimes_A H$ is in general not an algebra, just an  $A$-bimodule. That is why (ii) is needed. An equivalent condition to (ii) is the following: the formula $h.(\sum_i k_i \otimes l_i) = \sum_i h_{(1)}\cdot k_i \otimes h_{(2)} \cdot l_i$ defines a well-defined action of $H$ on $H\otimes_A H$. 
 
 The definition of a __right $A$-bialgebroid__ differs by the $A$-bimodule structure on $H$ given instead by $a.h.a':= h s(a')t(a)$ and the counit $\epsilon$ is a _right_ character on the $A$-coring $(H,\mu_H,t)$ ($t$ and $s$ can be interchanged in the last requirement). 
 
