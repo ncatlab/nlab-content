@@ -363,5 +363,9 @@ Review in the context of [[perturbative algebraic quantum field theory]] include
 [[!redirects retarded Green's function]]
 [[!redirects retarded Green's functions]]
 
+[[!redirects advanced or retarded Green function]]
+[[!redirects advanced or retarded Green functions]]
+
 [[!redirects retarded and advanced Green's functions]]
 [[!redirects advanced and retarded Green's functions]]
+
