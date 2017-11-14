@@ -214,8 +214,9 @@ $$
 =--
 
 
-+-- {: .num_prop }
++-- {: .num_prop #CauchyPrincipalValueEqualsIntegrationWithImaginaryOffsetPlusDelta}
 ###### Proposition
+**([[Cauchy principal value]] equals integration with [[imaginary number|imaginary]] offset plus [[delta distribution]])**
 
 The Cauchy principal value distribution $PV\left( \tfrac{1}{x}\right) \in \mathcal{D}'(\mathbb{R})$ (def. \ref{CauchyPrincipalValueAsDistributionOnRealLine}) is equal to the sum of the integration over $1/x$ with imaginary offset (def. \ref{IntegrationAgainstInverseOfxWithImaginaryOffset}) and a [[delta distribution]].
 
@@ -326,7 +327,7 @@ Similarly $(B) = b(0)$. (...)
 
 Named after [[Augustin Cauchy]]
 
-* [[Ram Kanwal]], sectin 8.3 of _Linear Integral Equations_ Birkh&#228;user 1997
+* [[Ram Kanwal]], section 8.3 of _Linear Integral Equations_ Birkh&#228;user 1997
 
 See also
 
@@ -334,4 +335,8 @@ See also
 
 * Wikipedia, _[Hadamard principal value](http://en.wikipedia.org/wiki/Hadamard_finite_part_integral)_
 
+
+[[!redirects Cauchy principal values]]
+
 [[!redirects principal value]]
+[[!redirects principal vaues]]
