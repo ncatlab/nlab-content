@@ -24,7 +24,7 @@ is a textbook on [[algebraic topology]] and [[homotopy theory]].
 
 * [[Peter May]], [[Kate Ponto]],
 
-  _More concise algebraic topology -- Localization, Completion and Model Categories__
+  _More concise algebraic topology -- Localization, Completion, and Model Categories_
 
   University of Chicago Press (2012)
 
