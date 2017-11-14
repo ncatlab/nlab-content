@@ -29,14 +29,14 @@ If both advanced and retarded Green functions exist for a differential operator 
 
 1. [[Dirac operators]] on [[spinor bundles]] whose square is a normally hyperbolic differential operator as above.
 
-The advanced/retarded [[integral kernel]] 
+The advanced/retarded [[integral kernel]]
 
 $$
   \Delta_{A/R}
   \in \mathcal{D}'(X \times X)
 $$
 
-is such that 
+is such that
 
 1. $(x,y) \in supp(\Delta_R)$ precisely if $x$ is in the [[causal future]] of $y$;
 
@@ -49,7 +49,7 @@ $$
   \,.
 $$
 
-This implies in particular that 
+This implies in particular that
 
 1. the _[[causal propagator]]_, which is the difference of the two
 
@@ -89,9 +89,9 @@ $$
     \\
     \Gamma_{\Sigma,tcp}(-) & \text{timelike compact support}
   }
-$$ 
+$$
 
-for the [[linear subspaces]] on those smooth sections whose [[support]] is 
+for the [[linear subspaces]] on those smooth sections whose [[support]] is
 
 1. ($cp$) inside a [[compact subset]]
 
@@ -101,7 +101,7 @@ for the [[linear subspaces]] on those smooth sections whose [[support]] is
 
 1. ($fcp$) inside the past of a Cauchy surface ([Sanders 13, def. 3.2](#Sanders12)),
 
-1. ($pcp$) inside the future of a Cauchy surface ([Sanders 13, def. 3.2](#Sanders12)), 
+1. ($pcp$) inside the future of a Cauchy surface ([Sanders 13, def. 3.2](#Sanders12)),
 
 1. ($tcp$) inside the future of one Cauchy surface and the past of another ([Sanders 13, def. 3.2](#Sanders12))
 
@@ -112,10 +112,10 @@ for the [[linear subspaces]] on those smooth sections whose [[support]] is
 
 +-- {: .num_defn #AdvancedAndRetardedGreenFunctions}
 ###### Definition
-**([[advanced and retarded Green functions]] and [[causal Green function]])**
+**([[advanced and retarded Green functions]], [[causal Green function]] and [[propagators]])**
 
 Let $\Sigma$ be a [[smooth manifold]] with [[causal structure]], let $E \to \Sigma$ be a [[smooth vector bundle]] and let
-$P \;\colon\;\Gamma_\Sigma(E) \to \Gamma_\Sigma(\tilde E^\ast)$ be a [[differential operator]]   on its [[space of smooth sections]].
+$P \;\colon\;\Gamma_\Sigma(E) \to \Gamma_\Sigma(\tilde E^\ast)$ be a [[differential operator]] on its [[space of smooth sections]].
 
 Then a [[linear map]]
 
@@ -127,11 +127,11 @@ $$
   \Gamma_{\Sigma, \pm cp}(E)
 $$
 
-from spaces of sections of [[compact support]] to spaces of sections of causally sourced future/past support (def. \ref{CompactlySourceCausalSupport}) is called an _[[advanced or retarded Green function]]_ for $P$, respectively, if 
+from spaces of sections of [[compact support]] to spaces of sections of causally sourced future/past support (def. \ref{CompactlySourceCausalSupport}) is called an _[[advanced or retarded Green function]]_ for $P$, respectively, if
 
 1. for all $\Phi \in \Gamma_{\Sigma,cp}(E_1)$ we have
 
-   $$  
+   $$
      \label{AdvancedRetardedGreenFunctionIsLeftInverseToDiffOperator}
      G_{P,\pm} \circ P(\Phi) = \Phi
    $$
@@ -153,9 +153,33 @@ $$
 
 is called the _[[causal Green function]]_.
 
+If there are [[integral kernel]], hence [[distributions in two variables]]
+
+$$
+  \Delta_{P,\pm} \in \Gamma'\Sigma( \tilde E^\ast \boxtimes_\Sigma E )
+$$
+
+such that these Green functions are given by the corresponding [[integral transform]], in that
+(in [[generalized function]]-notation)
+
+$$
+  (G_{P,\pm} \Phi)(x)
+   \;=\;
+  \underset{y \in \Sigma}{\int}
+   \Delta_{P, \pm}(x,y) \cdot \Phi(y)
+$$
+
+then these integral kernels are called the advanced/retarded _[[propagators]]_; similarly then their difference
+
+$$
+  \Delta_P \coloneqq \Delta_{P,+} - \Delta_{p,-}
+$$
+
+is the corresponding _[[causal propagator]]_.
+
 =--
 
-([B&#228;r 14, def. 3.2, cor. 3.10](#Baer14}))
+(e.g. [B&#228;r 14, def. 3.2, cor. 3.10](#Baer14}))
 
 
 ## Properties
@@ -198,7 +222,7 @@ For $K \subset \Sigma$ any [[closed subset]] then the sub-space of sections
 
 $$
   \Gamma_{\Sigma,K}(E) \hookrightarrow \Gamma_\Sigma(E)
-$$ 
+$$
 
 of sections whose [[support]] is inside $K$ becomes a [[Fréchet space|Fréchet]] [[topological vector spaces]] with the induced [[subspace topology]], which makes these be [[closed subspaces]].
 
@@ -214,7 +238,7 @@ of sections whose [[support]] is inside $K$ becomes a [[Fréchet space|Fréchet]
 
 Let $E \overset{fb}{\to} \Sigma$ be a [[smooth vector bundle]] over a [[smooth manifold]] with [[causal structure]].
 
-The [[vector space|vector]] [[spaces of smooth sections]] with restricted support from def. \ref{CompactlySourceCausalSupport} structures of [[topological vector spaces]] via def. \ref{TVSStructureOnSpacesOfSmoothSections}. We denote the topological [[dual spaces]] by 
+The [[vector space|vector]] [[spaces of smooth sections]] with restricted support from def. \ref{CompactlySourceCausalSupport} structures of [[topological vector spaces]] via def. \ref{TVSStructureOnSpacesOfSmoothSections}. We denote the topological [[dual spaces]] by
 
 $$
   \Gamma'_{\Sigma}(\tilde{E}^*) \coloneqq (\Gamma_{\Sigma,cp}(E))^*
@@ -222,16 +246,16 @@ $$
 
 etc.
 
-This is the space of _distributional sections_ of the bundle $\tilde{E}^*$. 
+This is the space of _distributional sections_ of the bundle $\tilde{E}^*$.
 
-With this notations, smooth compactly supported sections of the same bundle, regarded as the [[non-singular distributions]], constitute a [[dense subset]] 
+With this notations, smooth compactly supported sections of the same bundle, regarded as the [[non-singular distributions]], constitute a [[dense subset]]
 
 $$
-  \Gamma_{\Sigma,cp}(\tilde{E}^*) 
-    \underset{\text{dense}}{\hookrightarrow}   
+  \Gamma_{\Sigma,cp}(\tilde{E}^*)
+    \underset{\text{dense}}{\hookrightarrow}
   \Gamma'_{\Sigma}(\tilde{E}^*)
   \,.
-$$ 
+$$
 
 Imposing the same restrictions to the [[supports of distributions]] as in def. \ref{CompactlySourceCausalSupport}, we have the following subspaces of distributional sections:
 
@@ -290,9 +314,9 @@ and
 
 $$
   P \circ \mathrm{G}_{P,\pm} = \mathrm{G}_{P,\pm} \circ P = id
-$$ 
+$$
 
-and 
+and
 
 $$
   supp \mathrm{G}_{P,\pm}(\tilde{\alpha}^*) \subseteq J^\pm(supp \tilde{\alpha}^*)
@@ -309,10 +333,10 @@ $$
 
 ### For Klein-Gordon operator on Minkowski spacetime
 
-On [[Minkowski spacetime]] $\mathbb{R}^{p,1}$ consider the [[Klein-Gordon operator]] 
+On [[Minkowski spacetime]] $\mathbb{R}^{p,1}$ consider the [[Klein-Gordon operator]]
 
 $$
-  \eta^{\mu \nu} \frac{\partial}{\partial x^\mu} \frac{\partial}{\partial x^\nu} \Phi -  m^2 \Phi \;=\; 0 \,.
+  \eta^{\mu \nu} \frac{\partial}{\partial x^\mu} \frac{\partial}{\partial x^\nu} \Phi -  \left( \tfrac{m c}{\hbar} \right)^2 \Phi \;=\; 0 \,.
 $$
 
 
@@ -328,7 +352,7 @@ $$
 by (in [[generalized function]]-notation)
 
 $$
-  G_\pm(\Phi) 
+  G_\pm(\Phi)
     \;=\;
   \underset{\mathbb{R}^{p,1}}{\int}
     \Delta_{\pm}(x,y) \Phi(y) \, dvol(y)
@@ -347,21 +371,21 @@ The [[Klein-Gordon operator]] is a [[Green hyperbolic differential operator]] ([
 and prop. \ref{GreenFunctionsAreContinuous} says that they are [[continuous linear functionals]] with respect to the [[topological vector space]] [[structures]] on [[spaces of smooth sections]] (def. \ref{TVSStructureOnSpacesOfSmoothSections}). In the case of the [[Klein-Gordon operator]] this just means that
 
 $$
-  G_{\pm} 
-    \;\colon\; 
+  G_{\pm}
+    \;\colon\;
   C^\infty_{cp}(\mathbb{R}^{p,1})
     \longrightarrow
   C^\infty_{\pm cp}(\mathbb{R}^{p,1})
 $$
 
-are continuous in the standard sense of [[distributions]]. Therefore the
-the [[Schwartz kernel theorem]]  implies the existence of [[integral kernels]] being [[distributions in two variables]]
+are [[continuous linear functionals]] in the standard sense of [[distributions]]. Therefore the
+[[Schwartz kernel theorem]]  implies the existence of [[integral kernels]] being [[distributions in two variables]]
 
 $$
   \Delta_{\pm} \in \mathcal{D}(\mathbb{R}^{p,1} \times \mathbb{R}^{p,1})
 $$
 
-such that, in the notation of [[generalized functions]]
+such that, in the notation of [[generalized functions]],
 
 $$
   (G_\pm \alpha)(x)
@@ -392,15 +416,16 @@ $$
   \,.
 $$
 
-Therefore it is sufficient to solve for this equation, subject to the defining support conditions. In teracams of the [[propagator]] [[integral kernels]] this means that we have to solve the [[distribution|distributional]] equation
+Therefore it is sufficient to solve for this equation, subject to the defining support conditions. In terms of the [[propagator]] [[integral kernels]] this means that we have to solve the [[distribution|distributional]] equation
 
 $$
+  \label{KleinGordonEquationOnAdvacedRetardedPropagator}
   \left(
     \eta^{\mu \nu}
     \frac{\partial}{\partial x^\mu}
     \frac{\partial}{\partial x^\nu}
      -
-     m^2
+     \left( \tfrac{m c}{\hbar} \right)^2
   \right)
   \Delta_\pm(x-y)
   \;=\;
@@ -421,30 +446,169 @@ $$
 $$
 
 
-The Ansatz we make is that we assume that $\Delta_{A/R}$ is a [[tempered distribution]], hence amenable to [[Fourier transform of distribution]].
-
-The [[Fourier transform of distributions|Fourier transform]] of 
+We make the _Ansatz_ that we assume that $\Delta_{A/R}$, as a distribution in a single variable $x-y$ is a [[tempered distribution]]
 
 $$
-  \left(     
-     \eta^{\mu \nu} \frac{\partial \Phi}{\partial x^\mu} \frac{\partial}{\partial x^\nu} 
-   - m^2 
-  \right)
-  \Delta_{A/R}(x)
+  \Delta_\pm \in \mathcal{S}'(\mathbb{R}^{p,1})
+  \,,
 $$
 
-is ([this prop.](Fourier+transform#BasicPropertiesOfFourierTransformOverCartesianSpaces))
+hence amenable to [[Fourier transform of distributions]]. If we do find a solution this way, it is guaranteed to be the unique solution by prop. \ref{AdvancedAndRetardedGreenFunctionsForGreenHyperbolicOperatorAreUnique}.
+
+By [this prop.](Fourier transform#BasicPropertiesOfFourierTransformOverCartesianSpaces)
+the [[Fourier transform of distributions|distributional Fourier transform]] of equation (eq:KleinGordonEquationOnAdvacedRetardedPropagator) is
 
 $$
+  \label{FourierVersionOfPDEForKleinGordonAdvancedRetardedPropagator}
   \left(
-    - \eta^{\mu \nu} k_\mu k_\nu - m^2
+    - \eta^{\mu \nu} k_\mu k_\nu - \left( \tfrac{m c}{\hbar} \right)^2
   \right)
-  \widehat{\Delta_{A/R}}(k)
+  \widehat{\Delta_{\pm}}(k)
+  \;=\;
+  \widehat{\delta}(k)
+  =
+  1
+  \,,
+$$
+
+where on the right we used [this example](Dirac+distribution#FourierTransformOfDeltaDistribution).
+
+Notice that this implies that the the [[Fourier transform]] of the [[causal propagator]]
+
+$$
+  \Delta \coloneqq \Delta_+ - \Delta_-
+$$
+
+satisfies the homogeneous equation:
+
+$$
+  \label{FourierVersionOfPDEForKleinGordonCausalPropagator}
+  \left(
+    - \eta^{\mu \nu} k_\mu k_\nu - \left( \tfrac{m c}{\hbar} \right)^2
+  \right)
+  \widehat{\Delta}(k)
   \;=\;
   0
+  \,,
 $$
 
-A solution of this is given by the [[Cauchy principal value]] ([this example.](Cauchy+principal+value#PrincipalValueOfInverseFunctionCharacteristicEquation)).
+
+Hence we are now reduced to finding solutions $\widehat{\Delta_\pm} \in \mathcal{S}'(\mathbb{R}^{p,1})$ to (eq:FourierVersionOfPDEForKleinGordonAdvancedRetardedPropagator) such that their [[Fourier inversion theorem|Fourier inverse]] $\Delta_\pm$ has the required [[support of a distribution|support]] properties.
+
+We discuss two ways to solve this:
+
+1. direct solution of (eq:FourierVersionOfPDEForKleinGordonAdvancedRetardedPropagator) via [[Cauchy principal values]];
+
+1. solution of (eq:FourierVersionOfPDEForKleinGordonCausalPropagator) via [[delta distributions]] followed by [[splitting of distributions]].
+
+**1)**
+
+From the form of (eq:FourierVersionOfPDEForKleinGordonAdvancedRetardedPropagator) it is evident to make the Ansatz that $\Delta_{\pm}$ depends on $k\in \mathbb{R}^{p,1}$ only via the combination
+
+$$
+  \nu \coloneqq -\eta^{\mu \nu}k_\mu k_\nu - \left( \tfrac{m c}{\hbar} \right)^2
+$$
+
+
+Solutions to distributional equations of the form (in [[generalized function]]-notation)
+
+$$
+  \nu \, \widehat{\Delta_\pm}(\nu) = 1
+$$
+
+are given by sums of the [[Cauchy principal value]] $PV\left(\frac{1}{\nu}\right)$ with a multiple of the [[delta distribution]] ([this example.](Cauchy+principal+value#PrincipalValueOfInverseFunctionCharacteristicEquation)):
+
+$$
+  \label{PrincipalValuePlusDeltaAnsatzForFourierTransformedAdvPropagator}
+  \widehat{\Delta_{\pm}}(\nu)
+    \;=\;
+   PV\left( \frac{1}{\nu}\right) + c \delta(\nu)
+  \,.
+$$
+
+It is clear that (eq:PrincipalValuePlusDeltaAnsatzForFourierTransformedAdvPropagator) is a [[tempered distribution]] in $k$, so that our Ansatz via [[Fourier transform of distributions]] is indeed consistent so far.
+
+We further specify this Ansatz by fixing the constant $c$ in (eq:PrincipalValuePlusDeltaAnsatzForFourierTransformedAdvPropagator) to $c = \pm i \pi$:
+
+$$
+  \widehat{\Delta_{\pm}}(\nu)
+    \;=\;
+   PV\left( \frac{1}{\nu}\right) \pm i\pi \delta(\nu)
+  \,.
+$$
+
+As before, this will be justified if we later show that the inverse Fourier transform has the required future/past cone support property.
+
+Now by [this example](Cauchy+principal+value#CauchyPrincipalValueEqualsIntegrationWithImaginaryOffsetPlusDelta) this particular Ansatz is in fact equal to the [[limit of a sequence|limit]] of $1/\nu$ with [[imaginary number|imaginary]] offset tending  to zero ([this def.](Cauchy+principal+value#IntegrationAgainstInverseOfxWithImaginaryOffset))
+
+$$
+  \widehat \Delta_{\pm}(\nu)
+  \;=\;
+  \underset{ {\epsilon \in (0,\infty)} \atop { \epsilon \to 0 } }{\lim} \frac{1}{\nu \pm i \epsilon^+}
+   \,.
+$$
+
+Hence in summary our Ansatz for the [[Fourier transform of distributions|Fourier transformed]] advanced/retarded propagator is
+
+$$
+  \widehat \Delta_{\pm}(k)
+  \;=\;
+  \underset{ {\epsilon \in (0,\infty)} \atop { \epsilon \to 0 } }{\lim} \frac{1}{ (k_0)^2 -{\vert \vec k\vert}^2 - \left( \tfrac{m c}{\hbar} \right)^2  \pm i \epsilon^+}
+   \,.
+$$
+
+Therefore by the [[Fourier inversion theorem]] the corresponding advanced/retarded propagator itself is, as a [[generalized function]]
+
+$$
+  \Delta_{\pm}(x,y)
+  \;=\;
+   \underset{ {\epsilon \in (0,\infty)} \atop {\epsilon \to 0} }{\lim}
+  \frac{1}{(2\pi)^{p+1}}
+  \underset{\mathbb{R}^{p,1}}{\int}
+   \frac{e^{i k_\mu (x-y)^\mu}}{
+      (k_0)^2 - {\vert \vec k\vert}^2  - \left(\tfrac{m c}{\hbar}\right)^2 \pm i \epsilon
+   }
+   d k_0 d^p \vec k
+  \,.
+$$
+
+To see that this is the correct answer, we need to check the support property.
+
+That the support of $\Delta_\pm$ is insided the [[causal cone]] of the origin follows by (...?...)
+
+It remains to see that the support of $\Delta_+$ is moreover inside the [[future cone]].
+
+To that end, consider the expression
+
+$$
+  \omega_\epsilon(\vec k)
+  \;\coloneqq\;
+  c \sqrt{ \vert \vec k\vert^2 + \left( \tfrac{m c}{\hbar} \right)^2 + \epsilon^2 }
+$$
+
+in terms of which we may reduce the problem to an application of [[Cauchy's integral theorem]]:
+
+$$
+  \begin{array}
+    \Delta_+(x-y)
+     & =
+     \frac{1}{(2\pi)^{p+1}}
+     \underset{ {\epsilon \in (0,\infty)} \atop {\epsilon \to 0} }{\lim}
+     \int \int
+     \frac{ 
+       e^{i k_0 (x^0 - y^0) + e^{i \vec k (\vec x - \vec y)}}
+     }{
+       (k_0)^2 - {\vert \vec k\vert^2  -\left( \tfrac{m c}{\hbar}\right)^2 \pm i \epsilon  }
+     }
+     \\
+     & =
+  \end{array}
+$$
+
+
+
+(...)
+
 
 (...)
 
@@ -461,7 +625,7 @@ On [[Minkowski spacetime]] of [[dimension]] $p+1$ the _retarded propagator_ is t
 $$
   \Delta_R(x,y)
   \; \coloneqq \;
-  \Theta((x-y)^0) \Delta(x,y)  
+  \Theta((x-y)^0) \Delta(x,y)
   \,.
 $$
 
@@ -470,7 +634,7 @@ Similarly the advanced propagator is
 $$
   \Delta_a(x,y)
   \; \coloneqq \;
-  -\Theta(-(x-y)^0) \Delta(x,y)  
+  -\Theta(-(x-y)^0) \Delta(x,y)
   \,.
 $$
 
@@ -483,7 +647,7 @@ $$
    (2\pi)^{-p}
    \Theta(\pm(x-y)^0)
    \int \frac{1}{E(\vec k)} sin(E(\vec k) (x-y)^0 ) e^{ - i \vec k \cdot (\vec x - \vec y)}
-   d^p \vec k  
+   d^p \vec k
   \,.
 $$
 
@@ -494,7 +658,7 @@ $$
 ###### Proposition
 **(advanced/retarded propagators as [[contour integrals]])
 
-The retarded/advanced propagator on Minkowski spacetime (def. \ref{CausalPropatorOnMinkowskiSpacetime}) is  equal to 
+The retarded/advanced propagator on Minkowski spacetime (def. \ref{CausalPropatorOnMinkowskiSpacetime}) is  equal to
 
 $$
   \label{CausalPropagatorOnMinkowskiSpacetimeInTermsOfFeynmanIntegrand}
@@ -503,7 +667,7 @@ $$
   (2\pi)^{-(p+1)}
   \underset{\epsilon \to 0^+}{\lim}
   \int
-    \frac{e^{-i k_\mu x^\mu}}{ k_\mu k^\mu + m^2 \mp i k_0 \epsilon/2 }
+    \frac{e^{-i k_\mu x^\mu}}{ k_\mu k^\mu + \left( \tfrac{m c}{\hbar} \right)^2 \mp i k_0 \epsilon/2 }
   d^4 k
 $$
 
@@ -523,10 +687,10 @@ $$
 We first discuss the case of the retarded propagator. To that end, consider the abbreviation
 
 $$
-  E_\epsilon(\vec k) 
-    \coloneqq 
-  \sqrt{ 
-    \vec k^2 + m^2 - \epsilon^2
+  E_\epsilon(\vec k)
+    \coloneqq
+  \sqrt{
+    \vec k^2 + \left( \tfrac{m c}{\hbar} \right)^2 - \epsilon^2
   }
  \,.
 $$
@@ -539,7 +703,7 @@ $$
     (2\pi)^{-(p+1)}
     \underset{\epsilon \to 0^+}{\lim}
     \int
-     \frac{e^{-i k_\mu (x-y)^\mu}}{ k_\mu k^\mu + m^2 - i k_0 \epsilon /2 }
+     \frac{e^{-i k_\mu (x-y)^\mu}}{ k_\mu k^\mu + \left( \tfrac{m c}{\hbar} \right)^2 - i k_0 \epsilon /2 }
     d^{p+1} k
     & =
     (2\pi)^{-(p+1)}
@@ -549,10 +713,10 @@ $$
       \frac{
         e^{-i k_0 x^0} e^{- i \vec k \cdot (\vec x - \vec y)}
       }{
-        - (k_0 + i \epsilon )^2 + E_\epsilon(\vec k)^2 
-      } 
+        - (k_0 + i \epsilon )^2 + E_\epsilon(\vec k)^2
+      }
     d k_0
-    d^p \vec k 
+    d^p \vec k
     \\
     & =
     (2\pi)^{-(p+1)}
@@ -563,14 +727,14 @@ $$
       }{
         ( E_\epsilon(\vec k) + (k_0 + i \epsilon) )
         ( E_\epsilon(\vec k) - (k_0 + i \epsilon) )
-      } 
+      }
     d k_0
     d^p \vec k
     \\
-    & = 
+    & =
     \left\{
       \array{
-        (2\pi)^{-(p+1)} (-2\pi i) 
+        (2\pi)^{-(p+1)} (-2\pi i)
         \int
         \left(
           \frac{
@@ -593,7 +757,7 @@ $$
       }
     \right.
     \\
-    & = 
+    & =
     - i (2\pi)^{-p}
     \Theta((x-y)^0)
     \int
@@ -607,14 +771,14 @@ $$
   \end{aligned}
 $$
 
-where the key step is the third: To obtain this in the case $x \gt 0$ we 
+where the key step is the third: To obtain this in the case $x \gt 0$ we
 
-1. decompose the integral over $k_0$ as 
+1. decompose the integral over $k_0$ as
 
    $$
      \begin{aligned}
-       \int_{-\infty}^\infty d k_0 
-       & = \phantom{+} 
+       \int_{-\infty}^\infty d k_0
+       & = \phantom{+}
          \int_{-\infty}^0 d k_0 + \int_{0}^{- i \infty} d k_0
        \\
        & = + \int_{-i \infty}^0 d k_0  + \int_0^\infty d k_0
@@ -642,12 +806,12 @@ $$
     (2\pi)^{-(p+1)}
     \underset{\epsilon \to 0^+}{\lim}
     \int
-     \frac{e^{-i k_\mu (x-y)^\mu}}{ k_\mu k^\mu + m^2 + i k_0 \epsilon /2 }
+     \frac{e^{-i k_\mu (x-y)^\mu}}{ k_\mu k^\mu + \left( \tfrac{m c}{\hbar} \right)^2 + i k_0 \epsilon /2 }
     d^{p+1} k
-    & = 
+    & =
     \left\{
       \array{
-        (2\pi)^{-(p+1)} (+ 2\pi i) 
+        (2\pi)^{-(p+1)} (+ 2\pi i)
         \int
         \frac{
           e^{-i E(\vec k) (x-y)^2 e^{-i \vec k \cdot (\vec x - \vec y)}}
@@ -713,7 +877,7 @@ Discussion on general [[globally hyperbolic spacetimes]] includes
 * {#BaerGinouxPfaeffle07} [[Christian Bär]], [[Nicolas Ginoux]], [[Frank Pfäffle]], _Wave Equations on Lorentzian Manifolds and Quantization_, ESI Lectures in Mathematics and Physics, European Mathematical Society Publishing House, ISBN 978-3-03719-037-1, March 2007, Softcover ([arXiv:0806.1036](https://arxiv.org/abs/0806.1036))
 
 
-* {#Ginoux08} [[Nicolas Ginoux]], _Linear wave equations_,  Ch. 3 in [[Christian Bär]], [[Klaus Fredenhagen]], _Quantum Field Theory on Curved Spacetimes: Concepts and Methods_, Lecture Notes in Physics, Vol. 786, Springer, 2009 
+* {#Ginoux08} [[Nicolas Ginoux]], _Linear wave equations_,  Ch. 3 in [[Christian Bär]], [[Klaus Fredenhagen]], _Quantum Field Theory on Curved Spacetimes: Concepts and Methods_, Lecture Notes in Physics, Vol. 786, Springer, 2009
 
 Review in the context of [[perturbative algebraic quantum field theory]] includes
 
