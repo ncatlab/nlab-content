@@ -137,3 +137,6 @@ See also
 [[!redirects contour integral]]
 [[!redirects contour integrals]]
 [[!redirects contour integration]]
+
+[[!redirects contour integration]]
+[[!redirects contour integrations]]
