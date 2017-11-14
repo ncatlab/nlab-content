@@ -150,12 +150,14 @@ from spaces of sections of [[compact support]] to spaces of sections of causally
 1. for all $\Phi \in \Gamma_{\Sigma,cp}(E_1)$ we have
 
    $$
+     \label{AdvancedRetardedGreenFunctionIsLeftInverseToDiffOperator}
      G_{P,\pm} \circ P(\Phi) = \Phi
    $$
 
    and
 
    $$
+     \label{AdvancedRetardedGreenFunctionIsRightInverseToDiffOperator}
      P \circ G_{P,\pm}(\Phi) = \Phi
    $$
 
