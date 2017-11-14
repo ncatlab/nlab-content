@@ -47,7 +47,7 @@ $$
 +-- {: .num_defn}
 ###### Definition
 
-The **dependent product** along $g$ is, if it exists, the [[right adjoint]] functor $\prod_g \colon : \mathcal{C}_{/B} \to \mathcal{C}_{/A}$ to the [[base change]] along $g$
+The **dependent product** along $g$ is, if it exists, the [[right adjoint]] functor $\prod_g \colon \mathcal{C}_{/B} \to \mathcal{C}_{/A}$ to the [[base change]] along $g$
 
 $$
   (g^* \dashv \prod_g)
