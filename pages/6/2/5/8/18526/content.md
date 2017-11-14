@@ -340,8 +340,9 @@ $$
 $$
 
 
-+-- {: .num_defn #SheavesOnCartSp}
-###### Definition
++-- {: .num_prop #AdvancedRetardedPropafatorsForKleinGordonOnMinkowskiSpacetime}
+###### Proposition
+**([[advanced and retarded propagators]] for [[Klein-Gordon operator]] on [[Minkowski spacetime]])**
 
 The [[advanced and retarded Green functions]] $G_\pm$ of the [[Klein-Gordon operator]] on [[Minkowski spacetime]] are given by [[integral kernels]] ("[[propagators]]")
 
@@ -360,7 +361,39 @@ $$
 
 where $\Delta_{\pm}(x,y)$ have the following equivalent expressions:
 
-...
+$$
+  \begin{aligned}
+    \Delta_\pm(x-y)
+     & =
+     \frac{1}{(2\pi)^{p+1}}
+     \underset{ {\epsilon \in (0,\infty)} \atop {\epsilon \to 0} }{\lim}
+     \int \int
+     \frac{
+       e^{i k_0 (x^0 - y^0)} e^{i \vec k \cdot (\vec x - \vec y)}
+     }{
+       (k_0 \mp i\epsilon)^2 - {\vert \vec k\vert}^2  -\left( \tfrac{m c}{\hbar}\right)^2
+     }
+     \, d k_0 \, d^p \vec k
+     \\
+     & =
+     \left\{
+       \array{
+          \frac{1}{(2\pi)^{p+1}}
+          \int
+           \frac{1}{2\omega(\vec k)/c}
+            \left(
+              e^{i \omega(\vec k)/c +  i \vec k \cdot (\vec x -\vec y)}
+              -
+              e^{-i \omega(\vec k)/x} + i \vec k \cdot (\vec x - \vec  y)
+            \right)
+          d^p \vec k
+          & \vert & \text{if} \,  \pm (x^0 - y^0) \gt 0
+          \\
+          0 & \vert & \text{otherwise}
+       }
+     \right.
+  \end{aligned}
+$$
 
 =--
 
@@ -416,7 +449,8 @@ $$
   \,.
 $$
 
-Therefore it is sufficient to solve for this equation, subject to the defining support conditions. In terms of the [[propagator]] [[integral kernels]] this means that we have to solve the [[distribution|distributional]] equation
+Therefore it is sufficient to solve for the first of these two equation, subject to 
+the defining support conditions. In terms of the [[propagator]] [[integral kernels]] this means that we have to solve the [[distribution|distributional]] equation
 
 $$
   \label{KleinGordonEquationOnAdvacedRetardedPropagator}
@@ -438,7 +472,7 @@ $$
   supp\left( \Delta_{\pm}(x-y) \right)
   \subset
   \left\{
-    {\vert x-y\vert_\eta}^2\lt 0
+    {\vert x-y\vert^2_\eta}\lt 0
     \;\,,\;
     \pm(x^0 - y^ 0) \gt 0
   \right\}
@@ -446,7 +480,7 @@ $$
 $$
 
 
-We make the _Ansatz_ that we assume that $\Delta_{A/R}$, as a distribution in a single variable $x-y$ is a [[tempered distribution]]
+We make the _Ansatz_ that we assume that $\Delta_{\pm}$, as a distribution in a single variable $x-y$, is a [[tempered distribution]]
 
 $$
   \Delta_\pm \in \mathcal{S}'(\mathbb{R}^{p,1})
@@ -455,23 +489,27 @@ $$
 
 hence amenable to [[Fourier transform of distributions]]. If we do find a solution this way, it is guaranteed to be the unique solution by prop. \ref{AdvancedAndRetardedGreenFunctionsForGreenHyperbolicOperatorAreUnique}.
 
-By [this prop.](Fourier transform#BasicPropertiesOfFourierTransformOverCartesianSpaces)
+By [this prop.](Fourier+transform#BasicPropertiesOfFourierTransformOverCartesianSpaces)
 the [[Fourier transform of distributions|distributional Fourier transform]] of equation (eq:KleinGordonEquationOnAdvacedRetardedPropagator) is
 
 $$
-  \label{FourierVersionOfPDEForKleinGordonAdvancedRetardedPropagator}
-  \left(
-    - \eta^{\mu \nu} k_\mu k_\nu - \left( \tfrac{m c}{\hbar} \right)^2
-  \right)
-  \widehat{\Delta_{\pm}}(k)
-  \;=\;
-  \widehat{\delta}(k)
-  =
-  1
+  \begin{aligned}
+    \label{FourierVersionOfPDEForKleinGordonAdvancedRetardedPropagator}
+    \left(
+      - \eta^{\mu \nu} k_\mu k_\nu - \left( \tfrac{m c}{\hbar} \right)^2
+    \right)
+    \widehat{\Delta_{\pm}}(k)
+    & =
+    \widehat{\delta}(k)
+    \\
+    & =
+    1
+  \end{aligned}
   \,,
 $$
 
-where on the right we used [this example](Dirac+distribution#FourierTransformOfDeltaDistribution).
+where in the second line we used the [[Fourier transform of distributions|Fourier transform]] of the [[delta distribution]]
+from [this example](Dirac+distribution#FourierTransformOfDeltaDistribution).
 
 Notice that this implies that the the [[Fourier transform]] of the [[causal propagator]]
 
@@ -503,61 +541,19 @@ We discuss two ways to solve this:
 
 **1)**
 
-From the form of (eq:FourierVersionOfPDEForKleinGordonAdvancedRetardedPropagator) it is evident to make the Ansatz that $\Delta_{\pm}$ depends on $k\in \mathbb{R}^{p,1}$ only via the combination
+Two distributional solutions to (eq:FourierVersionOfPDEForKleinGordonAdvancedRetardedPropagator) are
+given clearly (?) give by the follows [[limit of a sequence|limits]] of [[non-singular distributions]]
 
 $$
-  \nu \coloneqq -\eta^{\mu \nu}k_\mu k_\nu - \left( \tfrac{m c}{\hbar} \right)^2
-$$
-
-
-Solutions to distributional equations of the form (in [[generalized function]]-notation)
-
-$$
-  \nu \, \widehat{\Delta_\pm}(\nu) = 1
-$$
-
-are given by sums of the [[Cauchy principal value]] $PV\left(\frac{1}{\nu}\right)$ with a multiple of the [[delta distribution]] ([this example.](Cauchy+principal+value#PrincipalValueOfInverseFunctionCharacteristicEquation)):
-
-$$
-  \label{PrincipalValuePlusDeltaAnsatzForFourierTransformedAdvPropagator}
-  \widehat{\Delta_{\pm}}(\nu)
-    \;=\;
-   PV\left( \frac{1}{\nu}\right) + c \delta(\nu)
+  \underset{ {\epsilon \in (0,\infty)} \atop { \epsilon \to 0 } }{\lim}
+  \frac{1}{ (k_0 \mp i \epsilon)^2  - {\vert \vec k\vert^2} - \left( \tfrac{m c}{\hbar} \right)^2 }
+  \;\in\;
+  \mathcal{D}'
   \,.
 $$
 
-It is clear that (eq:PrincipalValuePlusDeltaAnsatzForFourierTransformedAdvPropagator) is a [[tempered distribution]] in $k$, so that our Ansatz via [[Fourier transform of distributions]] is indeed consistent so far.
-
-We further specify this Ansatz by fixing the constant $c$ in (eq:PrincipalValuePlusDeltaAnsatzForFourierTransformedAdvPropagator) to $c = \pm i \pi$:
-
-$$
-  \widehat{\Delta_{\pm}}(\nu)
-    \;=\;
-   PV\left( \frac{1}{\nu}\right) \pm i\pi \delta(\nu)
-  \,.
-$$
-
-As before, this will be justified if we later show that the inverse Fourier transform has the required future/past cone support property.
-
-Now by [this example](Cauchy+principal+value#CauchyPrincipalValueEqualsIntegrationWithImaginaryOffsetPlusDelta) this particular Ansatz is in fact equal to the [[limit of a sequence|limit]] of $1/\nu$ with [[imaginary number|imaginary]] offset tending  to zero ([this def.](Cauchy+principal+value#IntegrationAgainstInverseOfxWithImaginaryOffset))
-
-$$
-  \widehat \Delta_{\pm}(\nu)
-  \;=\;
-  \underset{ {\epsilon \in (0,\infty)} \atop { \epsilon \to 0 } }{\lim} \frac{1}{\nu \pm i \epsilon^+}
-   \,.
-$$
-
-Hence in summary our Ansatz for the [[Fourier transform of distributions|Fourier transformed]] advanced/retarded propagator is
-
-$$
-  \widehat \Delta_{\pm}(k)
-  \;=\;
-  \underset{ {\epsilon \in (0,\infty)} \atop { \epsilon \to 0 } }{\lim} \frac{1}{ (k_0)^2 -{\vert \vec k\vert}^2 - \left( \tfrac{m c}{\hbar} \right)^2  \pm i \epsilon^+}
-   \,.
-$$
-
-Therefore by the [[Fourier inversion theorem]] the corresponding advanced/retarded propagator itself is, as a [[generalized function]]
+This is clearly a [[tempered distribution]], hence we may apply [[Fourier inversion theorem|Fourier inversion]]
+to  obtain
 
 $$
   \Delta_{\pm}(x,y)
@@ -566,7 +562,7 @@ $$
   \frac{1}{(2\pi)^{p+1}}
   \underset{\mathbb{R}^{p,1}}{\int}
    \frac{e^{i k_\mu (x-y)^\mu}}{
-      (k_0)^2 - {\vert \vec k\vert}^2  - \left(\tfrac{m c}{\hbar}\right)^2 \pm i \epsilon
+      (k_0 \mp i \epsilon  )^2 - {\vert \vec k\vert}^2  - \left(\tfrac{m c}{\hbar}\right)^2 
    }
    d k_0 d^p \vec k
   \,.
@@ -576,269 +572,115 @@ To see that this is the correct answer, we need to check the support property.
 
 That the support of $\Delta_\pm$ is insided the [[causal cone]] of the origin follows by (...?...)
 
-It remains to see that the support of $\Delta_+$ is moreover inside the [[future cone]].
+It remains to see that the support of $\Delta_+$ is moreover inside the [[future cone]]/[[past cone]], respectively.
 
-To that end, consider the expression
+To that end, consider the the [[non-negative number|non-negative]] [[square root]] (see at _[[plane wave]]_)
 
 $$
-  \omega_\epsilon(\vec k)
+  \omega(\vec k)
   \;\coloneqq\;
-  c \sqrt{ \vert \vec k\vert^2 + \left( \tfrac{m c}{\hbar} \right)^2 + \epsilon^2 }
+  c \sqrt{ \vert \vec k\vert^2 + \left( \tfrac{m c}{\hbar} \right)^2  }
+  \;\in\; [0,\infty)
 $$
 
-in terms of which we may reduce the problem to an application of [[Cauchy's integral theorem]]:
+and compute as follows:
 
 $$
-  \begin{array}
-    \Delta_+(x-y)
+  \begin{aligned}
+    \Delta_\pm(x-y)
      & =
      \frac{1}{(2\pi)^{p+1}}
      \underset{ {\epsilon \in (0,\infty)} \atop {\epsilon \to 0} }{\lim}
      \int \int
-     \frac{ 
-       e^{i k_0 (x^0 - y^0) + e^{i \vec k (\vec x - \vec y)}}
+     \frac{
+       e^{i k_0 (x^0 - y^0)} e^{i \vec k \cdot (\vec x - \vec y)}
      }{
-       (k_0)^2 - {\vert \vec k\vert^2  -\left( \tfrac{m c}{\hbar}\right)^2 \pm i \epsilon  }
+       (k_0 \mp i\epsilon)^2 - {\vert \vec k\vert}^2  -\left( \tfrac{m c}{\hbar}\right)^2
      }
+     \, d k_0 \, d^p \vec k
      \\
      & =
-  \end{array}
-$$
-
-
-
-(...)
-
-
-(...)
-
-=--
-
-> assumptions and conventions of the following need harmonizing with the above
-
-+-- {: .num_defn #CausalPropatorOnMinkowskiSpacetime}
-###### Definition
-**(advanced propagator from [[causal propagator]] on Minkowski spacetime)**
-
-On [[Minkowski spacetime]] of [[dimension]] $p+1$ the _retarded propagator_ is the [[product of distributions]] of the [[Heaviside distribution]] $\Theta$ in the time-component with the [[causal propagator]] $\Delta$:
-
-$$
-  \Delta_R(x,y)
-  \; \coloneqq \;
-  \Theta((x-y)^0) \Delta(x,y)
-  \,.
-$$
-
-Similarly the advanced propagator is
-
-$$
-  \Delta_a(x,y)
-  \; \coloneqq \;
-  -\Theta(-(x-y)^0) \Delta(x,y)
-  \,.
-$$
-
-In terms of the various equivalent expressions for the causal propagator ([this prop.](causal+propagator#EquivalentExpressinsForCausalPropagatorOnMinkowskiSpacetime)) this has the following equivalent more explicit expressions:
-
-$$
-  \Delta_{R/A}(x,y)
-  \;=\;
-   - i
-   (2\pi)^{-p}
-   \Theta(\pm(x-y)^0)
-   \int \frac{1}{E(\vec k)} sin(E(\vec k) (x-y)^0 ) e^{ - i \vec k \cdot (\vec x - \vec y)}
-   d^p \vec k
-  \,.
-$$
-
-=--
-
-
-+-- {: .num_prop #AdvancedPropagatorAsContourIntegral}
-###### Proposition
-**(advanced/retarded propagators as [[contour integrals]])
-
-The retarded/advanced propagator on Minkowski spacetime (def. \ref{CausalPropatorOnMinkowskiSpacetime}) is  equal to
-
-$$
-  \label{CausalPropagatorOnMinkowskiSpacetimeInTermsOfFeynmanIntegrand}
-  \Delta_{R/A}(x,y)
-  \;=\;
-  (2\pi)^{-(p+1)}
-  \underset{\epsilon \to 0^+}{\lim}
-  \int
-    \frac{e^{-i k_\mu x^\mu}}{ k_\mu k^\mu + \left( \tfrac{m c}{\hbar} \right)^2 \mp i k_0 \epsilon/2 }
-  d^4 k
-$$
-
-<img src="https://ncatlab.org/nlab/files/ContourForAdvancedPropagator.png" height="280">
-
-> graphics grabbed from ([Kocic 16](#Kocic16))
-
-=--
-
-(e.g. [Scharf 95 (2.3.22)](#Scharf95))
-
-
-
-+-- {: .proof}
-###### Proof
-
-We first discuss the case of the retarded propagator. To that end, consider the abbreviation
-
-$$
-  E_\epsilon(\vec k)
-    \coloneqq
-  \sqrt{
-    \vec k^2 + \left( \tfrac{m c}{\hbar} \right)^2 - \epsilon^2
-  }
- \,.
-$$
-
-With this we compute as follows:
-
-$$
-  \label{ContourIntegrationForCausalPropagator}
-  \begin{aligned}
-    (2\pi)^{-(p+1)}
-    \underset{\epsilon \to 0^+}{\lim}
-    \int
-     \frac{e^{-i k_\mu (x-y)^\mu}}{ k_\mu k^\mu + \left( \tfrac{m c}{\hbar} \right)^2 - i k_0 \epsilon /2 }
-    d^{p+1} k
-    & =
-    (2\pi)^{-(p+1)}
-    \underset{\epsilon \to 0^+}{\lim}
-    \int
-    \int
-      \frac{
-        e^{-i k_0 x^0} e^{- i \vec k \cdot (\vec x - \vec y)}
-      }{
-        - (k_0 + i \epsilon )^2 + E_\epsilon(\vec k)^2
-      }
-    d k_0
-    d^p \vec k
-    \\
-    & =
-    (2\pi)^{-(p+1)}
-    \underset{\epsilon \to 0^+}{\lim}
-    \int
-      \frac{
-        e^{-i k_0 (x-y)^0} e^{- i \vec k \cdot (\vec x - \vec y)}
-      }{
-        ( E_\epsilon(\vec k) + (k_0 + i \epsilon) )
-        ( E_\epsilon(\vec k) - (k_0 + i \epsilon) )
-      }
-    d k_0
-    d^p \vec k
-    \\
-    & =
-    \left\{
-      \array{
-        (2\pi)^{-(p+1)} (-2\pi i)
-        \int
-        \left(
-          \frac{
-            e^{-i E(\vec k) (x^0 - y^0) e^{-i \vec k \cdot (\vec x - \vec y)}}
-          }
-          {
-            2 E(\vec k)
-          }
-          -
-          \frac{
-            e^{ + i E(\vec k)(x^0 - y^0)} e^{-i \vec k \cdot (\vec x - \vec y)}
-          }{
-            2 E(\vec k)
-          }
-        \right)
-        d^p \vec k
-        & \vert & (x^0 - y^0) \gt 0
-        \\
-        0 & \vert & (x^0 - y^0) \lt 0
-      }
-    \right.
-    \\
-    & =
-    - i (2\pi)^{-p}
-    \Theta((x-y)^0)
-    \int
-      \frac{1}{E(\vec k)}
-      sin\left( E(\vec k)(x-y)^0 \right)
-      e^{-i \vec k \cdot (\vec x - \vec y)}
-     d^p \vec k
+     \frac{1}{(2\pi)^{p+1}}
+     \underset{ {\epsilon \in (0,\infty)} \atop {\epsilon \to 0} }{\lim}
+     \int \int
+     \frac{
+       e^{i k_0 (x^0 - y^0)} e^{i \vec k \cdot (\vec x - \vec y)}
+     }{
+       (k_0 \mp i \epsilon)^2 - \left(\omega(\vec k)/c\right)^2
+     }
+     \, d k_0 \, d^p \vec k
      \\
-     & = \Delta_R(x,y)
-     \,,
+     &=
+     \frac{1}{(2\pi)^{p+1}}
+     \underset{ {\epsilon \in (0,\infty)} \atop {\epsilon \to 0} }{\lim}
+     \int \int
+     \frac{
+       e^{i k_0 (x^0 - y^0)} e^{i \vec k \cdot (\vec x - \vec y)}
+     }{
+       \left(
+         (k_0 \mp i\epsilon) - \omega(\vec  k)/c
+       \right)
+       \left(
+          (k_0 \mp i \epsilon) + \omega(\vec k)/c
+       \right)
+     }
+     \, d k_0 \, d^p \vec k
+     \\
+     & =
+     \left\{
+       \array{
+          \frac{1}{(2\pi)^{p+1}}
+          \int
+           \frac{1}{2\omega(\vec k)/c}
+            \left(
+              e^{i \omega(\vec k)/c +  i \vec k \cdot (\vec x -\vec y)}
+              -
+              e^{-i \omega(\vec k)/x} + i \vec k \cdot (\vec x - \vec  y)
+            \right)
+          d^p \vec k
+          & \vert & \text{if} \,  \pm (x^0 - y^0) \gt 0
+          \\
+          0 & \vert & \text{otherwise}
+       }
+     \right.
   \end{aligned}
 $$
 
-where the key step is the third: To obtain this in the case $x \gt 0$ we
+Here key step is the application of [[Cauchy's integral formula]] in the fourth step. 
+We discuss this for $\Delta_+$, the discussion for $\Delta_-$ is the same, just with the appropriate signs reversed.
 
-1. decompose the integral over $k_0$ as
+1. If  $(x^0 - y^0) \gt 0$ thn the expression $e^{ik_0 (x^0 - y^0)}$ decays with _[[positive number|positive]] [[imaginary part]]_ of $k_0$, so that we may expand the [[integration]] [[domain]] into the [[upper half plane]] as
 
    $$
      \begin{aligned}
        \int_{-\infty}^\infty d k_0
        & = \phantom{+}
-         \int_{-\infty}^0 d k_0 + \int_{0}^{- i \infty} d k_0
+         \int_{-\infty}^0 d k_0 + \int_{0}^{+ i \infty} d k_0
        \\
-       & = + \int_{-i \infty}^0 d k_0  + \int_0^\infty d k_0
+       & = + \int_{+i \infty}^0 d k_0  + \int_0^\infty d k_0
        \,;
      \end{aligned}
    $$
 
-1. complete this to a sum of two [[contour integrals]], the first going clockwise around the [[pole]] at $- E_\epsilon(\vec k) - i \epsilon \in \mathbb{C}$ in the [[lower half plane]], the second going clockwise around $+ E_\epsilon(\vec k) - i \epsilon$;
+   Conversely, if $(x^0 - y^0) \lt 0$ then we may analogously expand into the [[lower half plane]].
 
-1. apply [[Cauchy's integral formula]] to find the sum of the [[residues]] at these two [[poles]] (compare the corresponding computation for the [[causal propagator]] in [this prop.](causal+propagator#EquivalentExpressinsForCausalPropagatorOnMinkowskiSpacetime)). Observe that the minus sign in the prefactor $(-2\pi i)$ comes from the fact that the contours run _clockwise_ instead of counter-clockwise.
+1. This integration domain may then further be completed to two [[contour integrations]]. For the expansion into the [[upper half plane]] these encircle counter-clockwise the [[poles]] at $\pm \omega(\vec k)+ i\epsilon \in \mathbb{C}$, while for expansion into the [[lower half plane]] no poles are being encircled.
 
-For $x \lt 0$ we proceeds analogously, now completing to contours in the upper half plane. These do not enclose the two [[poles]] and hence in this case [[Cauchy's integral formula]] says that the result vanishes.
-
-Finally, for the advanced propagator the argument is directly analogous, with two differences:
-
-1. now the poles sit in the upper half plane, and hence we pick up a contribution for $(x-y)^0 \lt 0$ and none for $(x-y)^0 \gt 0$, hence in the end a prefactor of $\Theta(-(x-y)^0)$ instead of $\Theta((x-y)^0)$;
-
-1. the contours that do contribute now go counter-clockwise, instead of counter-clockwise, and hence we pick up an extra minus sign compared to the previous computation, as befits the definition of $\Delta_A(x,y) \coloneqq -\Theta(-(x-y)^0) \Delta(x,y)$.
-
-Hence:
-
-$$
-  \label{AdvancedPropagatorAsSumOfResidues}
-  \begin{aligned}
-    (2\pi)^{-(p+1)}
-    \underset{\epsilon \to 0^+}{\lim}
-    \int
-     \frac{e^{-i k_\mu (x-y)^\mu}}{ k_\mu k^\mu + \left( \tfrac{m c}{\hbar} \right)^2 + i k_0 \epsilon /2 }
-    d^{p+1} k
-    & =
-    \left\{
-      \array{
-        (2\pi)^{-(p+1)} (+ 2\pi i)
-        \int
-        \frac{
-          e^{-i E(\vec k) (x-y)^2 e^{-i \vec k \cdot (\vec x - \vec y)}}
-        }
-        {
-          2 E(\vec k)
-        }
-        -
-        \frac{
-          e^{ + i E(\vec k)(x-y)^2} e^{-i \vec k \cdot (\vec x - \vec y)}
-        }{
-          2 E(\vec k)
-        }
-        & \vert & x^0 \lt 0
-        \\
-        0 & \vert & x^0 \gt 0
-      }
-    \right.
-     \\
-     & = \Delta_A(x,y)
-     \,,
-  \end{aligned}
-$$
+   <img src="https://ncatlab.org/nlab/files/ContourForAdvancedPropagator.png" height="280">
 
 
+1. Apply [[Cauchy's integral formula]] to find in the case $(x^0 - y^0)\gt 0$ the sum of the [[residues]] at these two [[poles]], zero in the other case.
+
+1. The result does not depend on $\epsilon$ anymore, therefore the [[limit of a sequence|limit]] $\epsilon \to 0$ is now computed trivially.
+
+$\,$
+
+**2)**
+
+(...)
 
 =--
+
 
 ## Related concepts
 
