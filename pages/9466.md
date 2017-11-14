@@ -27,6 +27,8 @@ Cauchy is associated with:
 
 * [[Cauchy real number]]
 
+* [[Cauchy principal value]]
+
 category: people
 
 [[!redirects Cauchy]]
