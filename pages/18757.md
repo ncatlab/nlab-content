@@ -28,7 +28,7 @@ $
 | $k$, $\vec k$ | [[wave vector]] |
 | $\lambda = 2\pi/{\vert \vec k \vert}$  | [[wave length]] |
 | ${\vert \vec k \vert} = 2\pi/\lambda$| [[wave number]] |
-| $\omega \coloneqq  k^0 c = 2\pi \nu$  | [[angular frequency]] |
+| $\omega \coloneqq  k^0 c = -k_0 c = 2\pi \nu$  | [[angular frequency]] |
 | $\nu = \omega / 2 \pi$ | [[frequency]] |
 | $p = \hbar k$, $\vec p = \hbar \vec k$ | [[momentum]] |
 | $E = \hbar \omega$ | [[energy]] |
