@@ -57,6 +57,8 @@ On [[Minkowski spacetime]] this may be expressed as a sum of [[products of distr
 
 ### On Minkowski spacetime
 
+> this section needs harmonization of notation and assumptions
+
 +-- {: .num_prop #ContourIntegralRepresentationOfStandardFeynmanPropagatorOnMinkowskiSpacetime}
 ###### Proposition
 **([[contour integral]] presentation of standard Feynman propagator on [[Minkowski spacetime]])**
