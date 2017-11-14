@@ -565,8 +565,3 @@ See there for details.
 * [[Lie group cohomology]] 
 
   * [[∞-Lie groupoid cohomology]]
-
-
-
-
-[[!redirects nonabelian group cohmology]]
