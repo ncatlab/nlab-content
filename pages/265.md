@@ -107,7 +107,7 @@ where $Q_C \colon C \longrightarrow Ho(C)$ is the universal morphism characteriz
 
 There is a general method of ordinary [[category theory]] to solve such problems universally: one may take $Ho(C) \to Ho(D)$ to be either the left or right [[Kan extension]] of $Q_d \circ F$ along $Q_C$.
 
-In the literature this is often takes as the _definition_ of [[total derived functor|total]] left or right derived functors. Unfortunately, it is not clear how this definition by Kan extension relates to what should be the right [[(∞,1)-category theory|(∞,1)-category theoretic]] situation above. Moreover, the examples of derived functors that play a role in practice are effectively always constructed instead rather by combining $F$ with cofibrant/fibrant or similar replacement functors. It is then but a happy byproduct that the functors so obtained also happen to be left or right Kan extensions.
+In the literature this is often taken as the _definition_ of [[total derived functor|total]] left or right derived functors. Unfortunately, it is not clear how this definition by Kan extension relates to what should be the right [[(∞,1)-category theory|(∞,1)-category theoretic]] situation above. Moreover, the examples of derived functors that play a role in practice are effectively always constructed instead rather by combining $F$ with cofibrant/fibrant or similar replacement functors. It is then but a happy byproduct that the functors so obtained also happen to be left or right Kan extensions.
 
 
 ## Definition
