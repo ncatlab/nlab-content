@@ -31,7 +31,7 @@ The operation of sending a [[compactly supported function|compactly supported]] 
 
 When the Cauchy principal value exists but the full [[integral]] does not (hence when the full integral "diverges") one may think of the Cauchy principal value as "exracting a finite value from a diverging quantity". This is similar to the _intuition_ of the early days of [[renormalization]] in [[perturbative quantum field theory]] ([[Schwinger-Tomonaga-Feynman-Dyson]]), but one has to be careful not to carry this analogy too far.
 
-One point where the Cauchy principal value really does play a key role in [[perturbative quantum field theory]] is in the computation of [[Green functions]] ([[propagators]]) for the [[Klein-Gordon operator]] and the [[Dirac operator]]. See at _[[advanced and retarded propagator]]_ for more on this.
+One point where the Cauchy principal value really does play a key role in [[perturbative quantum field theory]] is in the computation of [[Green functions]] ([[propagators]]) for the [[Klein-Gordon operator]] and the [[Dirac operator]]. See at _[[Feynman propagator]]_ for more on this.
 
 
 
