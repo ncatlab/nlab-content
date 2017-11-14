@@ -292,6 +292,7 @@ Discussion of stringy axion cosmology (such as [[fuzzy dark matter]]) is in
 
 ### Experimental signature
 
+
 * Joseph P. Conlon, M.C. David Marsh, _Searching for a 0.1-1 keV Cosmic Axion Background_ ([arXiv:1305.3603](http://arxiv.org/abs/1305.3603))
 
   > Primordial decays of [[string theory]] [[moduli stabilization|moduli]] at $z \sim 10^{12}$ naturally generate a [[dark radiation]] Cosmic Axion Background (CAB) with $0.1 - 1 keV$ energies. This CAB can be detected through axion-[[photon]] conversion in astrophysical [[magnetic fields]] to give quasi-thermal excesses in the extreme ultraviolet and soft X-ray bands. Substantial and observable luminosities may be generated even for axion-photon couplings $\ll 10^{-11} GeV^{-1}$. We propose that axion-photon conversion may explain the observed excess emission of soft X-rays from galaxy clusters, and may also contribute to the diffuse unresolved cosmic X-ray background. We list a number of correlated predictions of the scenario. 
@@ -308,6 +309,10 @@ with its experimental bounds
 and as a candidate for [[dark energy]]:
 
 * [[Stephon Alexander]], [[Robert Brandenberger]], [[Juerg Froehlich]], _Tracking Dark Energy from Axion-Gauge Field Couplings_ ([arXiv:1601.00057](https://arxiv.org/abs/1601.00057))
+
+See also
+
+* [[Frank Wilczek]], _New Ideas in Axion Searches_, talk 2017 ([pdf](http://frankwilczek.com/2017/axion_searches_01.pdf))
 
 [[!redirects axions]]
 
