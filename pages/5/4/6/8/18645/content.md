@@ -7503,7 +7503,7 @@ $$
   \,,
 $$
 
-where $dvol_\Sigma$ is the [[volume form]] on [[Monkowski spacetime]] (eq:MinkowskiVolume) and
+where $dvol_\Sigma$ is the [[volume form]] on [[Minkowski spacetime]] (eq:MinkowskiVolume) and
 where $d$ denoted the [[de Rham differential]] (def. \ref{deRhamDifferential}).
 
 =--
@@ -7789,7 +7789,7 @@ we have the following:
   for $L = L((x^\mu), (\phi^a), (\phi^a_{,\mu}), \cdots)$ some smooth function that may depend on all the
   spacetime and field coordinates.
 
-* The spacetimes [[total derivatives]] /horizontal derivatives) of the variational derivative (vertical derivative) $\delta \phi$ of a field variable is the differential 2-form of horizontal degree 1 and vertical degree 2 given by
+* The spacetimes [[total derivatives]] /horizontal derivatives) of the variational derivative (vertical derivative) $\delta \phi$ of a field variable is the differential 2-form of horizontal degree 1 and vertical degree 1 given by
 
   $$
     \begin{aligned}
