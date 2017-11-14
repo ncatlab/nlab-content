@@ -91,9 +91,9 @@ higher [[nonabelian cohomology]], to be compared with
 [[Katzarkov]], Pantev and [[Bertrand Toen|Toen]]'s [[Hodge theory]] on the [[schematic homotopy type]]. The latter is a higher categorical version of Grothendieck's reinterpretation
 of [[Galois theory]], forseen in "[[Pursuing Stacks|La poursuite des champs]]", or really
 its Tannakian counterpart. Grothendieck also mentionned, somewhat cryptically, a potential application to stratified spaces. The respective theses of
-Treumann and Dupont go in this direction by using exit-path n-categories to classify constructible complexes of sheaves.
+[[Treumann]] and Dupont go in this direction by using exit-path n-categories to classify constructible complexes of sheaves.
 
-Up-to-the-minute developments include [Hopkins and Lurie's proof](http://golem.ph.utexas.edu/category/2006/09/wirth_and_stasheff_on_homotopy.html) of a part of the [[generalized tangle hypothesis|Baez-Dolan system of conjectures ]] relating higher categories to
+More recent developments include [Hopkins and Lurie's proof](http://golem.ph.utexas.edu/category/2006/09/wirth_and_stasheff_on_homotopy.html) of a part of the [[generalized tangle hypothesis|Baez-Dolan system of conjectures ]] relating higher categories to
 [[TQFT|topological]] [[quantum field theory]]. And [[derived algebraic geometry]] permits
 us to imagine a local notion of descent as was explained to me by [[David Ben-Zvi]]: using the derived non-transverse intersections, Schlessinger-[[Jim Stasheff|Stasheff]]-
 Deligne-Goldman-Millson theory should be viewed as descent for the inclusion of a [[point]] into a local formal space, with the neighborhood intersection being the [[geometric infinity-function theory|derived loop space of Ben-Zvi and Nadler]]. 
