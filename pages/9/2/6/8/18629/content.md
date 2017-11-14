@@ -134,3 +134,5 @@ this yield the claim.
 
 [[!redirects infinitesimal symmetry of the Lagrangian]]
 [[!redirects infinitesimal symmetries of the Lagrangian]]
+
+[[!redirects infinitesimal symmetries of Lagrangians]]
