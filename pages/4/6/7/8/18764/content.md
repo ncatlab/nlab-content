@@ -659,11 +659,10 @@ be a pair of [[Green hyperbolic differential operators]] (def. \ref{GreenHyperbo
 
 Then:
 
-1. For any [[Cauchy surface]] $\Sigma_p \overset{\iota_{\Sigma_p}}{\hookrightarrow} \Sigma$ the _$P$-Symplectic bracket_ is the [[bilinear map]]
-
+1. Consider $\ker_{scp}(P) \subset \Gamma_{\Sigma,scp}(E)$ and $\ker'(P^*) \subset \Gamma'_{\Sigma}(E)$, where $\ker'$ simply means that we are considering distributional solutions. For any [[Cauchy surface]] $\Sigma_p \overset{\iota_{\Sigma_p}}{\hookrightarrow} \Sigma$ the _$P$-Symplectic bracket_ is the [[bilinear map]]
    $$
      \array{
-       \Gamma_{\Sigma,scp}(E) \otimes \Gamma_{\Sigma,scp}(E)
+       \ker_{scp}(P) \otimes \ker'(P^*)
          &\overset{ \left\{-,- \right\}_{\Sigma_p,K} }{\longrightarrow}&
        \mathbb{R}
        \\
@@ -672,12 +671,12 @@ Then:
        \underset{\Sigma_p}{\int} (\iota_{\Sigma_p})^\ast K(\mathbf{\Phi}_1, \mathbf{\Phi}_2)
      }
    $$
+Because the arguments $\Phi_1$ and $\Phi_2$ are annihilated respectively by $P$ and $P^*$, equation (eq:FormallyAdjointDifferentialOperatorWitness) ensures that the definition of $\{-,-\}_{\Sigma_p,K}$ is actually independent of the choice of $\Sigma_p$. (...treat restriction of distributions to $\Sigma_p$...)
 
 1. The _$P$-Peierls bracket_ is the [[bilinear map]]
-   
    $$
      \array{
-       \Gamma_{\Sigma,cp}(\tilde E^\ast) \otimes \Gamma_{\Sigma,cp}(\tilde E^\ast)
+       \Gamma_{\Sigma,cp}(\tilde E^\ast) \otimes \Gamma'_{\Sigma,tcp}(\tilde E^\ast)
          &
            \overset{
               \left\{ -,- \right\}_{\Sigma, \mathrm{G}}   
@@ -689,10 +688,23 @@ Then:
        \\
        (\tilde \alpha^\ast_1, \tilde \alpha^\ast_2)
          &\mapsto&  
-       \underset{\Sigma}{\int} \tilde \alpha^\ast_1 \cdot \mathrm{G}_P(\tilde \alpha^\ast_2)
+       \underset{\Sigma}{\int} \tilde \alpha^\ast_1 \cdot \mathrm{G}_{P^*}(\tilde \alpha^\ast_2) = -\underset{\Sigma}{\int} \tilde \mathrm{G}_{P}(\alpha^\ast_1) \cdot \tilde \alpha^\ast_2
      }
    $$
-
+Since $\mathrm{G}_P$ annihilates $im_{cp}(P)$ and the image of $\mathrm{G}_P$ is annihilated by any distribution in $im'_{tcp}(P^*)$ (again, $im'$ refers to the fact that we are considering distributional sections), the $P$-Peierls bracket descends to a bilinear map on
+   $$
+     \array{
+       \Gamma_{\Sigma,cp}(\tilde E^\ast) / im_{cp}(P^*) \otimes \Gamma'_{\Sigma,tcp}(\tilde E^\ast) / im'_{tcp}(P)
+         &
+           \overset{
+              \left\{ -,- \right\}_{\Sigma, \mathrm{G}}   
+           }{
+             \longrightarrow
+           }
+         &  
+       \mathbb{R}
+     }
+   $$
 =--
 
 
@@ -713,9 +725,13 @@ be a pair of [[Green hyperbolic differential operators]] (def. \ref{GreenHyperbo
 Then the [[causal Green function]] intertwines the $P$-Symplectic bracket with the $P$-Peierls bracket (def. \ref{BracketPSymplecticAndPPeierls}) in that for every [[Cauchy surface]] $\Sigma_p \hookrightarrow \Sigma$ and all 
 
 $$
-  \tilde \alpha_1^\ast, \tilde \alpha_2^\ast
+  \tilde \alpha_1^\ast
   \;\in\;
-  \Gamma_{\Sigma,scp}(\tilde E^\ast)
+  \Gamma_{\Sigma,cp}(\tilde E^\ast) ,
+  \quad
+  \tilde \alpha_2^\ast
+  \;\in\;
+  \Gamma'_{\Sigma,tcp}(\tilde E^\ast)
 $$
 
 we have
@@ -726,9 +742,9 @@ $$
      \tilde \alpha^\ast_1, \tilde \alpha^\ast_2
   \right\}_{\Sigma,\mathrm{G}}
   \;=\;
-  \left\{
-     \mathrm{G}(\tilde \alpha^\ast_1),
-     \mathrm{G}^\ast(\tilde \alpha^\ast_2)
+  -\left\{
+     \mathrm{G}_P(\tilde \alpha^\ast_1),
+     \mathrm{G}_{P^*}(\tilde \alpha^\ast_2)
   \right\}_{\Sigma_p,K}
   \,.
 $$
@@ -737,6 +753,32 @@ $$
 =--
 
 ([Khavkine 14, lemma 2.5](#Khavkine14))
+
+As currently defined, the pairings $\{-,-\}_{\Sigma_p,K}$ and $\{-,-\}_{\Sigma,G}$ are far from being anti-symmetric. In particular, the two arguments may come from very different spaces. In the self-adjoint case $P=P^*$, we may ask whether the domains of the two arguments may be respectively enlarged or shrunk to be equal and such that the pairing becomes anti-symmetric. When that is possible, we get an honest symplectic or Poisson bracket. The simplest such choices are
+   $$
+     \array{
+       \ker_{scp}(P) \otimes \ker_{scp}(P)
+         &
+           \overset{
+              \left\{ -,- \right\}_{\Sigma_p, K}   
+           }{
+             \longrightarrow
+           }
+         &  
+       \mathbb{R}
+    \\
+       \Gamma_{\Sigma,cp}(\tilde E^\ast) \otimes \Gamma_{\Sigma,cp}(\tilde E^\ast)
+         &
+           \overset{
+              \left\{ -,- \right\}_{\Sigma, \mathrm{G}}   
+           }{
+             \longrightarrow
+           }
+         &  
+       \mathbb{R}
+     }
+   $$
+This problem is analogous to studying (anti-)self-adjoint extensions of a symmetric unbounded operator on Hilbert space.
 
 ## Examples
 
