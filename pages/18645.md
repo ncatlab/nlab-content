@@ -7031,7 +7031,7 @@ $$
     J^{2}_\Sigma(E)
       &\overset{jb_{2,1}}{\longrightarrow}&
     J^1_\Sigma(E)
-      &\overset{jb_1}{\longrightarrow}&
+      &\overset{jb_{1,0}}{\longrightarrow}&
     E
     \\
     && &{}_{\mathllap{jb_2}}\searrow& {}^{\mathllap{jb_1}}\downarrow  &\swarrow_{\mathrlap{fb}}&
@@ -7620,14 +7620,14 @@ For example
 
 $$
   \begin{aligned}
-    d \mathbf{d}\phi
+    d \delta \phi
     & =
-    - \mathbf{d} d  \phi
+    - \delta d  \phi
     \\
     & =
-    - \mathbf{d} \left( \phi_{,\mu} d x^\mu \right)
+    - \delta \left( \phi_{,\mu} d x^\mu \right)
     \\
-    & = - \mathbf{d} \phi_{,\mu} \wedge d x^\mu
+    & = - \delta \phi_{,\mu} \wedge d x^\mu
     \,.
   \end{aligned}
 $$
