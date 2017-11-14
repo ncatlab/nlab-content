@@ -79,7 +79,11 @@ A [[homotopy hypothesis]] for stratified spaces is discussed in
 
 * David Ayala, John Francis, Nick Rozenblyum, *A stratified homotopy hypothesis*, [arXiv](http://arxiv.org/abs/1502.01713)
 
+whilst an earlier paper on exit paths is
 
+* [[David Treumann]], *[Exit paths and constructible stacks](https://www2.bc.edu/david-treumann/epacs.pdf)*, Compositio Math.
+145
+(2009), 1504&#8211;1532 
 [[!redirects stratified space]]
 [[!redirects stratified spaces]]
 
