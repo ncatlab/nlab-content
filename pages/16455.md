@@ -82,6 +82,89 @@ $$
 
 ## Properties
 
+### Formal self-adjointness
+
++-- {: .num_example #FormallySelfAdjointKleinGordonOperator}
+###### Example
+**([[Klein-Gordon operator]] is [[formal adjoint differential operator|formally self-adjoint]])**
+
+Let $\Sigma = \mathbb{R}^{p,1}$ be [[Minkowski spacetime]] with [[Minkowski metric]] $\eta$ and let $E \coloneqq \Sigma \times \mathbb{R}$ be the [[trivial line bundle]]. The canonical [[volume form]] $dvol_\Sigma$ induces an [[isomorphism]] $\tilde E^\ast \simeq E$.
+
+Consider then the [[Klein-Gordon operator]]
+
+$$
+  (\Box - m^2)
+    \;\colon\; 
+  \Gamma_\Sigma(\Sigma \times \mathbb{R})
+     \longrightarrow
+  \Gamma_\Sigma(\Sigma \times \mathbb{R}) \otimes \langle dvol_\Sigma\rangle
+  \,.
+$$
+
+This is its own [[formal adjoint differential operator|formal adjoint]] witnessed by the bilinear differential operator given by
+
+$$
+  K(\Phi_1, \Phi_2)
+  \;\coloneqq\;
+  \left(
+    \frac{\partial \Phi_1}{\partial x^\mu} \Phi_2
+    -
+    \Phi_1 \frac{\partial \Phi_2}{\partial x^\mu}
+  \right)
+  \eta^{\mu \nu}\iota_{\partial_\nu} dvol_\Sigma
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+$$
+  \begin{aligned}
+    d K(\Phi_1, \Phi_2)
+    & =
+    d
+    \left(
+      \frac{\partial \Phi_1}{\partial x^\mu} \Phi_2
+      -
+      \Phi_1 \frac{\partial \Phi_2}{\partial x^\mu}
+    \right)
+    \eta^{\mu \nu}\iota_{\partial_\nu} dvol_\Sigma
+    \\
+    &=
+    \left(
+    \left(
+      \eta^{\mu \nu}\frac{\partial^2 \Phi_1}{\partial x^\mu \partial x^\nu} \Phi_2
+      + 
+      \eta^{\mu \nu} \frac{\partial \Phi_1}{\partial x^\mu} \frac{\partial \Phi_2}{\partial x^\nu}
+    \right)
+    -
+    \left(
+      \eta^{\mu \nu}
+      \frac{\partial \Phi_1}{\partial x^\nu} \frac{\partial \Phi_2}{\partial x^\mu}  
+      + 
+      \Phi_1 \eta^{\mu \nu} \frac{\partial^2 \Phi_2}{\partial x^\nu \partial x^\mu}
+    \right)
+    \right)
+    dvol_\Sigma
+    \\
+    & =
+    \left(
+      \eta^{\mu \nu}\frac{\partial^2 \Phi_1}{\partial x^\mu \partial x^\nu} \Phi_2
+      -
+      \Phi_1 \eta^{\mu \nu} \frac{\partial^2 \Phi_2}{\partial x^\nu \partial x^\mu}
+    \right)
+    dvol_\Sigma    
+    \\
+    & =
+    \Box(\Phi_1) \Phi_2 - \Phi_1 \Box (\Phi_2)
+  \end{aligned}
+$$
+
+=--
+
+
 ### Bicharacteristic flow and propagation of singularities
 
 The [[bicharacteristic strips]] of the Klein-Gordon operator are [[cotangent vectors]] along [[lightlike]] [[geodesics]] ([this example](bicharacteristic+flow#BicharachteristicFlowOfKleinGordonOperator)).
@@ -92,7 +175,7 @@ The [[bicharacteristic strips]] of the Klein-Gordon operator are [[cotangent vec
 
 On a [[globally hyperbolic spacetime]] $M$ the Klein-Gordon equation has unique advanced and retarded [[Green functions]], $\Delta_R \in \mathcal{D}'(M\times M)$ and $\Delta_A \in \mathcal{D}'(M\times M)$ respectively.
 
-The retarded and advanced Green functions are uniquely distinguished by their [[support of a distribution|support]] properties. Namely, $(x,y) \in \operatorname{supp} \Delta_R$ only if $x$ is in the [[causal future]] of $y$, while $(x,y) \in \operatorname{supp} \Delta_A$ only if $x$ is in the [[causal past]] of $y$.
+The [[advanced and Green functions]] are uniquely distinguished by their [[support of a distribution|support]] properties. Namely, $(x,y) \in \operatorname{supp} \Delta_R$ only if $x$ is in the [[causal future]] of $y$, while $(x,y) \in \operatorname{supp} \Delta_A$ only if $x$ is in the [[causal past]] of $y$.
 
 Their difference $\Delta_S = \Delta_R - \Delta_A$ is a bisolution known as the [[causal propagator]], which is the [[Peierls bracket]] which gives the [[Poisson bracket]] on the [[covariant phase space]] of the [[free field|free]] [[scalar field]].  This in turn defines the [[Wick algebra]] of the free scalar field, which yields the [[quantization]] of the free scalar field to a [[quantum field theory]].
 
