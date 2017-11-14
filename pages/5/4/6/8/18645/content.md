@@ -1553,7 +1553,6 @@ $$
 $\,$
 
 This concludes our review of the basics of ([[synthetic differential geometry|synthetic]]) [[differential geometry]] on which the following development of quantum field theory is based.
-
 In the [next chapter](#Spacetime) we consider _[[spacetime]]_ and _[[spin]]_.
 
 
@@ -7444,7 +7443,7 @@ $$
   \;=\;
   P^{\mu \nu}_{a b} \frac{\partial^2 \Phi^b}{\partial x^\mu \partial x^\nu}
   +
-  P^\mu_{a b} \frac{\partial \Phi^b}{\Partial x^\mu}
+  P^\mu_{a b} \frac{\partial \Phi^b}{\partial x^\mu}
   +
   P_{a b} \Phi^b
 $$
@@ -7999,18 +7998,18 @@ $\alpha \in \Omega^{s-1,0}_\Sigma(E)$ with $\omega = d \alpha$.
 
 (e.g. [Anderson 89, prop. 4.3](variational+bicomplex#Anderson89))
 
-We will encounter the extension of the [[exact sequence]] (eq:ExactSequenceTotalSpacetimeDerivative) further stepts to the right below in example \ref{TrivialLagrangianDensities}.
+We will encounter the extension of the [[exact sequence]] (eq:ExactSequenceTotalSpacetimeDerivative) further steps to the right below in example \ref{TrivialLagrangianDensities}.
 
 
 $\,$
 
-This concludes our discussion of [[variational calculus]] on the [[jet bundle]] of the [[field bundle]]. Next we apply this to
-[[Lagrangian densities]] on the [[jet bundle]], defining [[Lagrangian field theories]].
+This concludes our discussion of [[variational calculus]] on the [[jet bundle]] of the [[field bundle]]. 
+In the [next chapter](#Lagrangians) we apply this to [[Lagrangian densities]] on the [[jet bundle]], defining [[Lagrangian field theories]].
 
 $\,$
 
 ## Lagrangians
-  {#LagrangianFieldTheory}
+  {#Lagrangians}
 
 
 Given any [[type]] of [[field (physics)|fields]] (def. \ref{FieldsAndFieldBundles}), those [[field histories]] that
@@ -8440,7 +8439,7 @@ is a sum of two contributions, one for each [[chiral spinor]] component in the f
 
 $$
   \begin{aligned}
-    \\
+    i \overline{\psi} \gamma^\mu \psi_{,\mu}
     & =
     \underset{
       -(\partial_\mu \xi^a ) \sigma^\mu_{a \dot c} \xi^{\dagger \dot c}
@@ -9551,9 +9550,7 @@ the _[[equation of motion]]_ on the [[space of field histories]]:
 ###### Definition
 **([[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]])**
 
-Given a [[Lagrangian field theory]] $(E,\mathbf{L})$ (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}
-then the corresponding _[[Euler-Lagrange equation|Euler-Lagrange]] [[equations of motion]]_
-is the condition on [[field histories]] (def. \ref{SupergeometricSpaceOfFieldHistories})
+Given a [[Lagrangian field theory]] $(E,\mathbf{L})$ (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime} then the corresponding _[[Euler-Lagrange equation|Euler-Lagrange]] [[equations of motion]]_ is the condition on [[field histories]] (def. \ref{SupergeometricSpaceOfFieldHistories})
 
 $$
   \Phi_{(-)} \;\colon\; U \longrightarrow \Gamma_\Sigma(E)
@@ -9916,6 +9913,10 @@ hence then Dirac field theory would not be a [[Lagrangian field theory]].
 
 $\,$
 
+This concludes our discussion of [[Lagrangian densities]] and their [[variational calculus]].  
+In the [next chapter](#Symmetries) we consider the [[infinitesimal symmetries of Lagrangians]].
+
+$\,$
 
 ## Symmetries
  {#Symmetries}
@@ -12044,7 +12045,7 @@ $\,$
 
 While every off-shell observable induces an on-shell observables
 simply by restriction (eq:OffShellObservablesRestrictToOnShellObservables),
-different off-shell observables may restrict to the _same_ on-shell observale. 
+different off-shell observables may restrict to the _same_ on-shell observale.
 It is therefore useful to find a condition on off-shell observables
 that makes them equivalent to on-shell observables under restriction.
 Here we discuss
@@ -12135,7 +12136,7 @@ is called the _[[causal Green function]]_ for $P$.
 ###### Example
 **([[Klein-Gordon equation]] is a [[Green hyperbolic differential equation]])**
 
-The [[Klein-Gordon operator]] $P = \Box - m^2$ (example \ref{EquationOfMotionOfFreeRealScalarField}) is [[Green hyperbolic differential operator|Green hyperbolic]] according to  def. \ref{GreenHyperbolicDifferentialOperator} (e. g. [B&#228;r-Ginoux-Pfaeffle 07](Klein-Gordon+equation#BaerGinouxPfaeffle07)) and [[formal adjoint differential operator|formally self-adjoint]] (example \ref{FormallySelfAdjointKleinGordonOperator}). 
+The [[Klein-Gordon operator]] $P = \Box - m^2$ (example \ref{EquationOfMotionOfFreeRealScalarField}) is [[Green hyperbolic differential operator|Green hyperbolic]] according to  def. \ref{GreenHyperbolicDifferentialOperator} (e. g. [B&#228;r-Ginoux-Pfaeffle 07](Klein-Gordon+equation#BaerGinouxPfaeffle07)) and [[formal adjoint differential operator|formally self-adjoint]] (example \ref{FormallySelfAdjointKleinGordonOperator}).
 
 =--
 
@@ -12253,9 +12254,9 @@ $$
 ###### Proposition
 **([[derivatives of distributions]] and [[distributional solutions of PDEs]])**
 
-Given a [[pair]] of [[formally adjoint differential operators]] $P, P^\ast \colon \Gamma_\Sigma(E_1) \to \Gamma_\Sigma(E_2)$ 
+Given a [[pair]] of [[formally adjoint differential operators]] $P, P^\ast \colon \Gamma_\Sigma(E_1) \to \Gamma_\Sigma(E_2)$
 (def. \ref{FormallyAdjointDifferentialOperators})
-then the _[[derivative of distributions|distributional derivative]]_ 
+then the _[[derivative of distributions|distributional derivative]]_
 of a [[distribution|distributional section]] $u \in \Gamma'_\Sigma(E_1)$ (def. \ref{DistributionalSections})
 by $P$ is the distribution
 
@@ -12264,7 +12265,7 @@ $$
   \,.
 $$
 
-If 
+If
 
 $$
   P u = 0 \;\in\; \Gamma'_\Sigma(E)
@@ -12289,7 +12290,7 @@ $$
   u_{sol} \in \left(ker_{scp}(P)\right)^\ast
 $$
 
-is equivalently a [[distribution|distributional section]] (def. \ref{DistributionalSections}) 
+is equivalently a [[distribution|distributional section]] (def. \ref{DistributionalSections})
 
 $$
   u \in \left( \Gamma_{cp}(\tilde E^\ast)\right)^\ast
@@ -14467,22 +14468,22 @@ $\,$
 
 ## Propagators
  {#Propagator
- 
+
 We have seen that the [[Poisson bracket]] on the [[covariant phase space]] of a
 [[free field theory]] with [[Green hyperbolic differential equation|Green hyperbolic]] [[equations of motion]]
 is determined by the [[integral kernel]] of the _[[causal Green function]]_ (prop. \ref{PoissonToPPeierls}).
 Under the identification of linear of-shell observables with off-shell observables
 that are [[generalized solution of a PDE|generalized solutions]] to the [[equations of motion]] (prop. \ref{DistributionsOnSolutionSpaceAreTheGeneralizedPDESolutions}) the convolution with this [[integral kernel]]
-may be understood as _propagating_ the [[support]] of an off-shell observable through [[spacetime]], 
+may be understood as _propagating_ the [[support]] of an off-shell observable through [[spacetime]],
 such as to then compare it with any other observable at any spacetime point (prop. \ref{PoissonToPPeierls}).
 
 For this reason the [[causal Green function]] is also called the _[[causal propagator]]_. In terms of just [[PDE]]-theory it turns out that it is characterized by a) being a [[fundamental solution]] in two variables to the [[equations of motion]]
 and b) having a _[[wave front set]]_ of a special form, which makes manifest the _[[direction of a vector|direction]] of propagation_
 in terms of [[propagation of singularities]] of this [[distribution in two variables]].
 
-As we discuss the [[quantization]] of the [[Poisson bracket]] below, we find the need to consider 
+As we discuss the [[quantization]] of the [[Poisson bracket]] below, we find the need to consider
 variants of the [[causal propagator]], which are still [[fundamental solutions]] in two variables, but with
-different [[wave front sets]]. Here we discuss the zoo of _[[propagators]]_ obtained this way, each of which 
+different [[wave front sets]]. Here we discuss the zoo of _[[propagators]]_ obtained this way, each of which
 will play its role in the process of [[quantization]] below. Notably we find and discuss the _[[Feynman propagator]]_
 which will control much of [[perturbative quantum field theory]] by generating the [[time-ordered products]]
 and then the [[Feynman diagram]] [[scattering amplitudes]] of the theory (prop. \ref{TimeOrderedProductAwayFromDiagonal} beolow).
