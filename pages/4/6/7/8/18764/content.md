@@ -133,7 +133,7 @@ $$
 **([[advanced and retarded Green functions]] and [[causal Green function]])**
 
 Let $\Sigma$ be a [[smooth manifold]] with [[causal structure]], let $E \to \Sigma$ be a [[smooth vector bundle]] and let
-$P \;\colon\;\Gamma_\Sigma(E) \to \Gamma_\Sigma(\tilde E^\ast)$ be a [[differential operator]] (def. \ref{GreenHyperbolicDifferentialOperator})  on its [[space of smooth sections]].
+$P \;\colon\;\Gamma_\Sigma(E) \to \Gamma_\Sigma(\tilde E^\ast)$ be a [[differential operator]] on its [[space of smooth sections]].
 
 Then a [[linear map]]
 
@@ -201,7 +201,7 @@ is called _Green hyperbolic_ with respect to the given [[causal structure]] if $
 ###### Proposition
 **([[advanced and retarded Green functions]] of [[Green hyperbolic differential operator]] are unique)**
 
-The [[advanced and retarded Green functions]] of a [[Green hyperbolic differential operator]] (def. \ref{GreenHyperbolicDifferentialOperator}) are unique.
+The [[advanced and retarded Green functions]] (def. \ref{AdvancedAndRetardedGreenFunctions}) of a [[Green hyperbolic differential operator]] (def. \ref{GreenHyperbolicDifferentialOperator}) are unique.
 
 =--
 
