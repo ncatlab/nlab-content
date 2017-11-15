@@ -192,7 +192,7 @@ $$
   \,.
 $$
 
-For more details see at[[differential forms on simplices]].
+For more details see at [[differential forms on simplices]].
 
 #### Details
   {#FormsOnSpacesDetails}
