@@ -737,7 +737,7 @@ $$
   \,.
 $$
 
-This is a [[compactly supported distribution]], hence in particular a  [[tempered distribution]]
+This is a [[tempered distribution]] (...)
 and so its [[Fourier transformation of distributions]] exist. We claim that this distribution
 
 $$
