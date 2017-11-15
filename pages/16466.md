@@ -3880,7 +3880,7 @@ from $\mathcal{A}$ to the [[category of modules|category of]] [[module objects]]
 
 1. an [[exact functor]] in both variables.
 
-If here $\mathcal{T} = $ [[sVect]] (def. \ref{CategoryOfSuperVectorSpaces}), then this is called a **super fiber functor**.
+If here $\mathcal{T} = $ [[sFinVect]] (def. \ref{FiniteDimensionalSuperVectorSpaces}), then this is called a **super fiber functor**.
 
 =--
 
