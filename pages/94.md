@@ -291,7 +291,7 @@ $$
 
 etc (where the $\vee$ is just a funny way to write the wedge $\wedge$, in order to remind us that:...)
 
-but throught of as equipped with the standard coproduct
+but thought of as equipped with the standard coproduct
 
 $$
   \Delta (v_1 \vee v_2 \cdots \vee v_n)
