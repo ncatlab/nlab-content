@@ -429,7 +429,7 @@ $$
 
 These integral kernels are the advanced/retarded "[[propagators]]".
 
-Since the [[Klein-Gordon operator]] is invariant under [[translations]] in $\mathbb{R}^{p,1}$ it is clear that the propagators, as a [[distribution in two variables]], depends only on the difference of its two arguments
+Since the [[Klein-Gordon operator]] is invariant under [[translations]] in $\mathbb{R}^{p,1}$ it is clear that the propagators, as a [[distribution in two variables]], depend only on the difference of its two arguments
 
 $$
   \Delta_{\pm}(x,y) = \Delta_{\pm}(x-y)
