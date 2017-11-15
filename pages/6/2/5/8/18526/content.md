@@ -552,7 +552,7 @@ $$
   \mathcal{D}'(\mathbb{R}^{p,1})
 $$
 
-meaning that for each [[bump function]] $b \in C^\infty_{cp}(\mathbb{R}^{p,1})$ the [[limit a sequence]] in $\mathbb{C}$
+meaning that for each [[bump function]] $b \in C^\infty_{cp}(\mathbb{R}^{p,1})$ the [[limit of a sequence|limit]] in $\mathbb{C}$
 
 $$
  \underset{ {\epsilon \in (0,\infty)} \atop { \epsilon \to 0 }   }{\lim} 
@@ -563,7 +563,7 @@ $$
 $$
 
 exists. Then this limit is clearly a solution to the distributional equation (eq:FourierVersionOfPDEForKleinGordonAdvancedRetardedPropagator)
-because on those bump functions $b(k)$ which happen to be products with $(-\eta^{\mu \nu}k_\mu k-\nu - \left( \tfrac{m c}{\hbar}\right)^2)$
+because on those bump functions $b(k)$ which happen to be products with $\left(-\eta^{\mu \nu}k_\mu k-\nu - \left( \tfrac{m c}{\hbar}\right)^2\right)$
 we clearly have 
 
 $$
@@ -571,8 +571,10 @@ $$
     \underset{ {\epsilon \in (0,\infty)} \atop { \epsilon \to 0 }   }{\lim}
     \underset{\mathbb{R}^{p,1}}{\int} 
     \frac{
-       \left( -\eta^{\mu \nu} k_\mu k_\nu - \left( \tfrac{m c}{\hbar} \right)^2 \tight) b(k)}{ 
-    (k_0\mp i \epsilon)^2 - {\vert \vec k\vert}^2 - \left( \tfrac{m c}{\hbar} \right)^2  }
+       \left( -\eta^{\mu \nu} k_\mu k_\nu - \left( \tfrac{m c}{\hbar} \right)^2 \right) b(k)
+    }{ 
+      (k_0\mp i \epsilon)^2 - {\vert \vec k\vert}^2 - \left( \tfrac{m c}{\hbar} \right)^2  
+    }
      d^{p+1}k
     & =
     \underset{\mathbb{R}^{p,1}}{\int}
@@ -580,7 +582,7 @@ $$
     \underbrace{
      \underset{ {\epsilon \in (0,\infty)} \atop { \epsilon \to 0 }   }{\lim}
      \frac{
-         \left( -\eta^{\mu \nu} k_\mu k_\nu - \left( \tfrac{m c}{\hbar} \right)^2 \tight) }{
+         \left( -\eta^{\mu \nu} k_\mu k_\nu - \left( \tfrac{m c}{\hbar} \right)^2 \right) }{
      (k_0\mp i \epsilon)^2 - {\vert \vec k\vert}^2 - \left( \tfrac{m c}{\hbar} \right)^2  }
     }
     } 
@@ -588,19 +590,17 @@ $$
     \\
     & =
     \langle 1, b\rangle
-   \end{aligned}
+  \end{aligned}
 $$
 
-By the [[Fourier inversion theorem]], to show that the limit indeed exists it is sufficient to show that the
-limit of [[Fourier transforms]] exist. This is what we will have shown at the end of the proof.  
-
-If the limiting distribution (eq:LimitOverImaginaryOffsetForFourierTransformedAdvancedRetardedPropagator) 
+Moreover, if the limiting distribution (eq:LimitOverImaginaryOffsetForFourierTransformedAdvancedRetardedPropagator) 
 exists, then it is clearly a [[tempered distribution]], hence we may apply [[Fourier inversion theorem|Fourier inversion]]
-to  obtain
+to  obtain [[Green functions]]
 
 $$
+  \label{AdvancedRetardedPropagatorViaFourierTransformOfLLimitOverImaginaryOffsets}
   \Delta_{\pm}(x,y)
-  \;=\;
+  \;\coloneqq\;
    \underset{ {\epsilon \in (0,\infty)} \atop {\epsilon \to 0} }{\lim}
   \frac{1}{(2\pi)^{p+1}}
   \underset{\mathbb{R}^{p,1}}{\int}
@@ -613,9 +613,8 @@ $$
 
 To see that this is the correct answer, we need to check the support property.
 
-That the support of $\Delta_\pm$ is insided the [[causal cone]] of the origin follows by (...?...)
-
-It remains to see that the support of $\Delta_+$ is moreover inside the [[future cone]]/[[past cone]], respectively.
+Finally by the [[Fourier inversion theorem]], to show that the limit (eq:LimitOverImaginaryOffsetForFourierTransformedAdvancedRetardedPropagator) indeed exists it is sufficient to show that the
+limit in (eq:AdvancedRetardedPropagatorViaFourierTransformOfLLimitOverImaginaryOffsets) exists. 
 
 To that end, consider the the [[non-negative number|non-negative]] [[square root]] (see at _[[plane wave]]_)
 
@@ -629,6 +628,7 @@ $$
 and compute as follows:
 
 $$
+  \label{TheSupportOfTheCandidateAdvancedRetardedPropagatorIsinTheFutureOrPastRespectively}
   \begin{aligned}
     \Delta_\pm(x-y)
      & =
@@ -716,9 +716,41 @@ We discuss this for $\Delta_+$, the discussion for $\Delta_-$ is the same, just 
 
 1. The result does not depend on $\epsilon$ anymore, therefore the [[limit of a sequence|limit]] $\epsilon \to 0$ is now computed trivially.
 
+This computation shows a) that the limiting distribution indeed exists, and b) that the [[support of a distribution|support]]
+of $\Delta_+$ is in the future, and that of $\Delta_-$ is in the past.
+
+Hence it only remains to see now that the support of $\Delta_\pm$ is inside the [[causal cone]]. 
+This follows by (...?...).
+
 $\,$
 
 **2)**
+
+A solution to the homogeneous equation (eq:FourierVersionOfPDEForKleinGordonCausalPropagator) is 
+clearly given by the following [[delta distribution]] in the variable $k \in \mathbb{R}^{p,1}$
+
+$$
+  \delta\left( -\eta^{\mu \nu} k_\mu k_\nu - \left( \tfrac{m c}{\hbar} \right)^2 \right)
+  \;\in\;
+  \mathcal{D}'(\mathbb{R}^{p,1})
+  \,.
+$$
+
+This is a [[compactly supported distribution]], hence in particular a  [[tempered distribution]]
+and so its [[Fourier transformation of distributions]] exist. We claim that this distribution
+
+$$
+  \Delta(x-y)
+  \;\coloneqq\;
+  \frac{1}{(2\pi)^{p+1}}
+  \underset{\mathbb{R}^{p,1}}{\int}
+  e^{i k_\mu (x^\mu - y^\mu)} 
+  \delta\left( -\eta^{\mu \nu} k_\mu k_\nu - \left( \tfrac{m c}{\hbar} \right)^2 \right)
+  \, d^{p+1}k
+$$
+
+has [[support of a distribution|support]] in the [[causal cone]] of the origin $x-y = 0$, and hence is the
+[[causal propagator]]. 
 
 (...)
 
