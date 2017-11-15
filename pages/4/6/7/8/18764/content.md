@@ -623,6 +623,22 @@ $$
   \,.
 $$
 
+Similarly:
+
+
+$$
+  \label{ContinuousLinearDualOfUnconstrainedSolutionSpaceIsCompactlySupportedDistributionsThatAreGeneralizedSolutions}
+  \left(ker(P)\right)^\ast
+     \underoverset{\simeq}{-\mathrm{G}_{P^\ast} = (-)\circ \mathrm{G}_P}{\longrightarrow}
+   \left\{
+     u \in \Gamma'_{\Sigma,cp}(E)
+     \,\vert\,
+     P^* u = 0
+   \right\}
+  \,.
+$$
+
+
 =--
 
 
@@ -653,6 +669,8 @@ $$
 
 Combining this with (eq:ContinuousLinearDualsOnGreenHyperbolicSolutionSpace)
 yields the desired isomorphism.
+
+The same argument applied to the exact sequence (eq:GreenHyperbolicOperatorDualExactSequence2) yields the second statement.
 
 =--
 
