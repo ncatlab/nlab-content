@@ -449,7 +449,7 @@ $$
   \,.
 $$
 
-Therefore it is sufficient to solve for the first of these two equation, subject to 
+Therefore it is sufficient to solve for the first of these two equation, subject to
 the defining support conditions. In terms of the [[propagator]] [[integral kernels]] this means that we have to solve the [[distribution|distributional]] equation
 
 $$
@@ -541,18 +541,61 @@ We discuss two ways to solve this:
 
 **1)**
 
-Two distributional solutions to (eq:FourierVersionOfPDEForKleinGordonAdvancedRetardedPropagator) are
-given clearly (?) give by the follows [[limit of a sequence|limits]] of [[non-singular distributions]]
+Suppose the following [[limit of a sequence|limit]] of [[non-singular distributions]] in the variable $k \in \mathbb{R}^{p,1}$
+exists in the space of [[distributions]]
 
 $$
+  \label{LimitOverImaginaryOffsetForFourierTransformedAdvancedRetardedPropagator}
   \underset{ {\epsilon \in (0,\infty)} \atop { \epsilon \to 0 } }{\lim}
   \frac{1}{ (k_0 \mp i \epsilon)^2  - {\vert \vec k\vert^2} - \left( \tfrac{m c}{\hbar} \right)^2 }
   \;\in\;
-  \mathcal{D}'
-  \,.
+  \mathcal{D}'(\mathbb{R}^{p,1})
 $$
 
-This is clearly a [[tempered distribution]], hence we may apply [[Fourier inversion theorem|Fourier inversion]]
+meaning that for each [[bump function]] $b \in C^\infty_{cp}(\mathbb{R}^{p,1})$ the [[limit a sequence]] in $\mathbb{C}$
+
+$$
+ \underset{ {\epsilon \in (0,\infty)} \atop { \epsilon \to 0 }   }{\lim} 
+ \underset{\mathbb{R}^{p,1}}{\int} \frac{b(k)}{ (k_0\mp i \epsilon)^2 - {\vert \vec k\vert}^2 - \left( \tfrac{m c}{\hbar} \right)^2  }
+   d^{p+1}k
+ \;\in\;
+ \mathbb{C}
+$$
+
+exists. Then this limit is clearly a solution to the distributional equation (eq:FourierVersionOfPDEForKleinGordonAdvancedRetardedPropagator)
+because on those bump functions $b(k)$ which happen to be products with $(-\eta^{\mu \nu}k_\mu k-\nu - \left( \tfrac{m c}{\hbar}\right)^2)$
+we clearly have 
+
+$$
+  \begin{aligned}
+    \underset{ {\epsilon \in (0,\infty)} \atop { \epsilon \to 0 }   }{\lim}
+    \underset{\mathbb{R}^{p,1}}{\int} 
+    \frac{
+       \left( -\eta^{\mu \nu} k_\mu k_\nu - \left( \tfrac{m c}{\hbar} \right)^2 \tight) b(k)}{ 
+    (k_0\mp i \epsilon)^2 - {\vert \vec k\vert}^2 - \left( \tfrac{m c}{\hbar} \right)^2  }
+     d^{p+1}k
+    & =
+    \underset{\mathbb{R}^{p,1}}{\int}
+    \underset{= 1}{
+    \underbrace{
+     \underset{ {\epsilon \in (0,\infty)} \atop { \epsilon \to 0 }   }{\lim}
+     \frac{
+         \left( -\eta^{\mu \nu} k_\mu k_\nu - \left( \tfrac{m c}{\hbar} \right)^2 \tight) }{
+     (k_0\mp i \epsilon)^2 - {\vert \vec k\vert}^2 - \left( \tfrac{m c}{\hbar} \right)^2  }
+    }
+    } 
+    b(k)\, d^{p+1}k
+    \\
+    & =
+    \langle 1, b\rangle
+   \end{aligned}
+$$
+
+By the [[Fourier inversion theorem]], to show that the limit indeed exists it is sufficient to show that the
+limit of [[Fourier transforms]] exist. This is what we will have shown at the end of the proof.  
+
+If the limiting distribution (eq:LimitOverImaginaryOffsetForFourierTransformedAdvancedRetardedPropagator) 
+exists, then it is clearly a [[tempered distribution]], hence we may apply [[Fourier inversion theorem|Fourier inversion]]
 to  obtain
 
 $$
@@ -562,7 +605,7 @@ $$
   \frac{1}{(2\pi)^{p+1}}
   \underset{\mathbb{R}^{p,1}}{\int}
    \frac{e^{i k_\mu (x-y)^\mu}}{
-      (k_0 \mp i \epsilon  )^2 - {\vert \vec k\vert}^2  - \left(\tfrac{m c}{\hbar}\right)^2 
+      (k_0 \mp i \epsilon  )^2 - {\vert \vec k\vert}^2  - \left(\tfrac{m c}{\hbar}\right)^2
    }
    d k_0 d^p \vec k
   \,.
@@ -646,7 +689,7 @@ $$
   \end{aligned}
 $$
 
-Here key step is the application of [[Cauchy's integral formula]] in the fourth step. 
+Here key step is the application of [[Cauchy's integral formula]] in the fourth step.
 We discuss this for $\Delta_+$, the discussion for $\Delta_-$ is the same, just with the appropriate signs reversed.
 
 1. If  $(x^0 - y^0) \gt 0$ thn the expression $e^{ik_0 (x^0 - y^0)}$ decays with _[[positive number|positive]] [[imaginary part]]_ of $k_0$, so that we may expand the [[integration]] [[domain]] into the [[upper half plane]] as
