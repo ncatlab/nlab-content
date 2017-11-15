@@ -219,7 +219,7 @@ of [[natural numbers]] $\alpha \in \mathbb{N}^n$ and denoted
 
 $$
   \label{PartialDerivativeWithManyIndices}
-  \partial^\alpha  
+  \partial^\alpha
     \;\coloneqq\;
   \frac{
     \partial^{\vert \alpha \vert} f
@@ -11407,7 +11407,7 @@ that field history. For instance concepts like "average [[field strength]] in th
 observables. In particular the _field amplitude at spacetime point $x$_ should be an observable, denoted $\mathbf{\Phi}^a(x)$.
 
 In much of the literature on [[field theory]], these point evaluation observables $\mathbf{\Phi}^a(x)$
-(example below \ref{PointEvaluationObservables}) are eventually referred to as "fields" themselves (remark \ref{ThreeAspectsOfConceptOfField}),
+(example below \ref{PointEvaluationObservables}) are eventually referred to as "fields" themselves,
 blurring the distinction between
 
 1. field species/[[field bundles]] $E$,
@@ -11419,9 +11419,9 @@ blurring the distinction between
 In particular, the process of _[[quantization]]_ (discussed in _[Quantization](#Quantization)_ below)
 affects the third of these concepts only, in that it deforms the [[associative algebra|algebra]] structure
 on observables to a [[non-commutative algebra|non-commutative]] [[algebra of quantum observables]].
-For this reason the observables $\mathbf{\Psi}^a(x)$ are often referred to as _quantum fields_.
-But to understand the conceptual nature of [[quantum field theory]] it is important to remember that the
-$\mathbf{\Psi}^a(x)$ are really the _[[observables]]_ or _[[quantum observables]]_ on the space of field histories.
+For this reason the observables $\mathbf{\Phi}^a(x)$ are often referred to as _quantum fields_.
+But to understand the conceptual nature of [[quantum field theory]] it is important that the
+$\mathbf{\Phi}^a(x)$ are really the _[[observables]]_ or _[[quantum observables]]_ on the space of field histories.
 
 **[[field (physics)|fields]]**
 
@@ -11433,11 +11433,12 @@ $\mathbf{\Psi}^a(x)$ are really the _[[observables]]_ or _[[quantum observables]
 | [[algebra of quantum observables]] | $\left(\left\{\mathbf{\Phi}^a(x), \partial_\mu \mathbf{\Phi}^a(x)\right\},\, \star\right)$  | $\mathbb{C}Alg$  | [[non-commutative algebra]] [[structure]] on [[observable|field observables]] | def. \ref{WickAlgebraOfFreeQuantumField}, def. \ref{GeneratingFunctionsForCorrelationFunctions} |
 
 
-
 Eventually we are going to be interested only in the [[gauge invariant|gauge invariant]] on-shell observables
-(discussed [below](#GaugeSymmetries)) but it is useful to first consider the general concept.
-In particular it is useful to consider also smooth functions on the entire (i.e. "[[off-shell]]") [[space of field histories]],
-called an _off-shell observable_.
+(discussed in _[Gauge symmetries](#GaugeSymmetries)_ below) but it is useful to first consider the general concept.
+Similarly, while in the end we are interested in the observables on the [[on-shell]] [[space of field histories]],
+it is useful to consider also smooth functions on the entire (i.e. "[[off-shell]]") [[space of field histories]],
+called an _off-shell observable_. There are further constraints to be imposed on observables, such as
+_[[local observables|locality]]_ (def. \ref{LocalObservables} below) and _[[microcausal functional|microcausality]]_ (def. \ref{MicrocausalFunctionals}).
 
 In the case that the [[field bundle]] is a [[vector bundle]] (example \ref{TrivialVectorBundleAsAFieldBundle}),
 the [[off-shell]] [[space of field histories]]
@@ -11447,25 +11448,58 @@ It turns out that these are precisely the _[[compactly supported distributions]]
 (prop. \ref{LinearObservablesAreTheCompactlySupportedDistributions} below).
 This fact makes powerful tools from [[functional analysis]] and [[microlocal analysis]] available for the analysis of [[field theory]],
 
-For a [[free field theory]] (def. \ref{FreeFieldTheory}) whose [[Euler-Lagrange equations|Euler-Lagrange]] [[equations of motion]] are given by a [[linear differential operator]] which behaves well in that it is  "[[Green hyperbolic differential operator|Green hyperbolic]]" (def. \ref{GreenHyperbolicDifferentialOperator} below) it follows that the actual [[on-shell]] linear observables are equivalently those off-shell observables which are
-_[[distributional solution of a PDE|distributional solutions]]_ to the [[formally adjoint differential operator|formally adjoint]]
-[[equation of motion]] (prop. \ref{DistributionsOnSolutionSpaceAreTheGeneralizedPDESolutions} below). This fact makes in addition the distributional analysis of [[linear differential equations]]
-available for the analysis of [[field theory]], notably the theory of _[[propagators]]_, such as _[[Feynman propagators]]_, which we turn to [below](#Propagators).
+More generally there are the [[multilinear map|multilinear]] off-shell observables, and these are analogously given by
+_[[distributions of several variables]]_ (def. \ref{PolynomialObservables} below). In fully [[perturbative quantum field theory]]
+one considers only the [[infinitesimal neighbourhood]] (example \ref{InfinitesimalNeighbourhood}) of a single [[on-shell]] [[field history]]
+and in this case all [[observables]] are in fact given by such multilinear observables (def. \ref{LocalObservablesOnInfinitesimalNeighbourhood} below).
 
-The [[functional analysis]] and [[microlocal analysis]] of linear [[observables]] re-expressed in [[distribution|distribution theory]] solves the
-issues that the original formulation of [[perturbative quantum field theory]] by [[Schwinger-Tomonaga-Feynman-Dyson]] from the 1940s
+For a [[free field theory]] (def. \ref{FreeFieldTheory}) whose [[Euler-Lagrange equations|Euler-Lagrange]] [[equations of motion]] are given by a [[linear differential operator]] which behaves well in that it is  "[[Green hyperbolic differential operator|Green hyperbolic]]" (def. \ref{GreenHyperbolicDifferentialOperator} below) it follows that the actual [[on-shell]] linear observables are equivalently those off-shell observables which are
+_[[compactly supported distribution|compactly supported]] [[distributional solution of a PDE|distributional solutions]]_ to the [[formally adjoint differential operator|formally adjoint]]
+[[equation of motion]] (prop. \ref{DistributionsOnSolutionSpaceAreTheGeneralizedPDESolutions} below);
+and this equivalence is exhibited by [[convolution of distributions|convolution]] with the _[[causal propagator]]_ (def. \ref{AdvancedAndRetardedGreenFuntions} below): 
+
+This is theorem \ref{LinearObservablesForGreeFreeFieldTheoryAreDistributionalSolutionsToTheEquationsOfMotion} below,
+which is pivotal for passing from [[classical field theory]] to [[quantum field theory]]:
+
+$$
+  \left\{
+    \array{
+      \text{polynomial}
+      \\
+      \text{observables}
+    }
+  \right\}
+    \underoverset{\simeq}{
+       \text{causal propagator}
+    }{\longleftarrow}
+  \left\{
+    \array{
+      \text{compactly supported}
+      \\
+      \text{distributions in several variables}
+      \\
+      \text{which are distributional solutions}
+      \\
+      \text{to the adjoint equations of motion}
+    }
+  \right\}
+$$
+
+This fact makes, in addition, the distributional analysis of [[linear differential equations]]
+available for the analysis of [[free field theory]], notably the theory of _[[propagators]]_, such as _[[Feynman propagators]]_, which we turn to 
+in _[Propagators](#Propagators)_ below.
+
+The [[functional analysis]] and [[microlocal analysis]] of linear [[observables]] re-expressed in [[distribution|distribution theory]] 
+via theorem \ref{LinearObservablesForGreeFreeFieldTheoryAreDistributionalSolutionsToTheEquationsOfMotion} solves the
+issues that the original formulation of [[perturbative quantum field theory]] by [[Schwinger-Tomonaga-Feynman-Dyson]] in the 1940s
 was notorious for suffering from ([Feynman 85](Schwinger-Tomonaga-Feynman-Dyson#Feynman85SuchABunchOfWords)): The [[normal ordered product]] of
 quantum observables in a [[Wick algebra]] of observables follows from [[Hörmander's criterion]] for the [[product of distributions]]
 to be well-defined (this we discuss in _[Free quantum fields](#FreeQuantumFields)_ below) and the
 _[[renormalization]]_ freedom in the construction of the [[S-matrix]] is governed by the mechanism of
 _[[extensions of distributions]]_ (this we discuss in _[Renormalization](#Renormalization)_ below).
 
-More generally there are the [[multilinear map|multilinear]] off-shell observables, and these are analogously given by
-_[[distributions of several variables]]_ (def. \ref{PolynomialObservables} below). In fully [[perturbative quantum field theory]]
-one considers only the [[infinitesimal neighbourhood]] (example \ref{InfinitesimalNeighbourhood}) of a single [[on-shell]] [[field history]]
-and in this case all [[observables]] are in fact given by such multilinear observables (def. \ref{LocalObservablesOnInfinitesimalNeighbourhood} below).
 
-Among these the focus is furthermore on the _[[local observables]]_:
+Among the polynomial on-shell observables characterized this way, the focus is furthermore on the _[[local observables]]_:
 
 In _[[local field theory]]_ the idea is that both the [[equations of motion]] as well as the observations
 are fully determined by their restriction to [[infinitesimal neighbourhoods]] of spacetime points ([[events]]).
@@ -11577,7 +11611,7 @@ Then the _space of [[observables]]_ is the [[super formal smooth set]] (def. \re
 which is the [[mapping space]]
 
 $$
-  Obs_{E,\mathbf{L}}
+  Obs(E,\mathbf{L})
   \;\coloneqq\;
   \left[
     \Gamma_\Sigma(E)_{\delta_{EL}\mathbf{L} = 0}
@@ -11591,7 +11625,7 @@ from the [[on-shell]] [[space of field histories]] to the [[complex numbers]].
 Similarly there is the space of _off-shell observables_
 
 $$
-  Obs^{offshell}_{E,\mathbf{L}}
+  Obs(E)
   \;\coloneqq\;
   \left[
     \Gamma_\Sigma(E)
@@ -11601,13 +11635,13 @@ $$
   \,.
 $$
 
-Every off-shell observables induces an on-shell observable by restriction, this yields a smooth function
+Every off-shell observables induces an on-shell observable by [[restriction]], this yields a smooth function
 
 $$
   \label{OffShellObservablesRestrictToOnShellObservables}
-  Obs^{offshell}_{E,\mathbf{L}}
+  Obs(E)
     \overset{(-)_{\delta_{EL}\mathbf{L} = 0}}{\longrightarrow}
-  Obs_{E,\mathbf{L}}
+  Obs(E,\mathbf{L})
 $$
 
 
@@ -11758,6 +11792,20 @@ $$
 $$
 
 for all plots of [[field histories]] $\Phi_{(-)}, \Phi'_{(-)}$.
+
+We write
+
+$$
+  LinObs(E,\mathbf{L}) \hookrightarrow Obs(E,\mathbf{L})
+$$
+
+for the subspace of linear observables inside all observables (def. \ref{Observables}) and similarly
+
+$$
+  LinObs(E) \hookrightarrow Obs(E)
+$$
+
+for the linear off-shell observables insider all off-shell observables.
 
 =--
 
@@ -12034,15 +12082,15 @@ Let $E \overset{fb}{\to} \Sigma$ be a [[smooth vector bundle]] (def. \ref{Vector
 The [[vector space|vector]] [[spaces of smooth sections]] with restricted support from def. \ref{CompactlySourceCausalSupport} structures of [[topological vector spaces]] via def. \ref{TVSStructureOnSpacesOfSmoothSections}. We denote the [[dual topological vector spaces]] by
 
 $$
-  \Gamma'_{\Sigma}( E ^*) 
-    \;\coloneqq\; 
+  \Gamma'_{\Sigma}( E ^*)
+    \;\coloneqq\;
   (\Gamma_{\Sigma,cp}(E))^*
   \,.
 $$
 
 This is called the space of _distributional sections_ of the bundle $\tilde{E}^*$.
 
-The _[[support of a distribution|support of a distributional section]]_ $supp(u)$ is the set of points in $\Sigma$ such that 
+The _[[support of a distribution|support of a distributional section]]_ $supp(u)$ is the set of points in $\Sigma$ such that
 for every neighbourhood of that point $u$ does not vanish on all sections with support in that neighbourhood.
 
 Imposing the same restrictions to the [[supports of distributions|supports of distributional sections]] as in def. \ref{CompactlySourceCausalSupport}, we have the following subspaces of distributional sections:
@@ -12071,7 +12119,7 @@ of integrations against smooth sections:
 **([[non-singular distribution|non-singular distributional sections]])**
 
 Let $E \overset{fb}{\to} \Sigma$ be a [[smooth vector bundle]] over [[Minkowski spacetime]] and let
-$s \in \{cp, \pm cp, scp, tcp\}$ be any of the [[support]] conditions from def. \ref{CompactlySourceCausalSupport}. 
+$s \in \{cp, \pm cp, scp, tcp\}$ be any of the [[support]] conditions from def. \ref{CompactlySourceCausalSupport}.
 
 Then the operation of regarding a [[compact support|compactly supported]] [[smooth section]] of the [[dual vector bundle]]
 as a [[functional]] on sections with this support property is a [[dense subspace]] inclusion into the
@@ -12083,7 +12131,7 @@ $$
       &\overset{\phantom{A}u_{(-)}\phantom{A} }{\hookrightarrow}&
     \Gamma'_{\Sigma,s}(E)
     \\
-    b &\mapsto& \left( \Phi \mapsto \underset{\Sigma}{\int} b(x) \cdot \Phi(x) \, dvol_\Sigma(x) \Right)
+    b &\mapsto& \left( \Phi \mapsto \underset{\Sigma}{\int} b(x) \cdot \Phi(x) \, dvol_\Sigma(x) \right)
   }
 $$
 
@@ -12285,9 +12333,9 @@ of a [[distribution|distributional section]] $u \in \Gamma'_\Sigma(E)$ (def. \re
 by $P$ is the distributional section $P u \in \Gamma'_\Sigma(E^\ast)$
 
 $$
-  P u 
-     \;\coloneqq\; 
-  u(P^\ast(-)) \;\colon\; \Gamma_{\Sigma,cp}(E^\ast) 
+  P u
+     \;\coloneqq\;
+  u(P^\ast(-)) \;\colon\; \Gamma_{\Sigma,cp}(E^\ast)
   \,.
 $$
 
@@ -12309,16 +12357,17 @@ defined by $P$.
 Let $E \overset{fb}{\to} \Sigma$ be a [[smooth vector bundle]] over [[Minkowski spacetime]]
 and let $P, P^\ast \colon \Gamma_\Sigma(E) \to \Gamma_\Sigma(E^\ast)$ be a [[pair]] of [[formally adjoint differential operators]].
 
-Then a [[non-singular distribution|non-singular distributional section]] $u_{\Phi} \in \Gamma'_{\Sigma}(E^\ast)$
+Then for every [[non-singular distribution|non-singular distributional section]] $u_{\Phi} \in \Gamma'_{\Sigma}(E^\ast)$
 coming from an actual smooth section $\Phi \in \Gamma_\Sigma(E)$ via prop. \ref{NonSingularDistributionalSections}
-we have
+the [[derivative of distributions]] (def. \ref{DistributionalDerivatives}) is the distributional section
+induced from the ordinary derivative of smooth functions:
 
 $$
   P u_\Phi \;=\; u_{P \Phi}
   \,.
 $$
 
-In particular $u_\Phi$ is a [[generalized solution to a PDE|distributional solution]] to the [[PDE]] precisely
+In particular $u_\Phi$ is a [[generalized solution of a PDE|distributional solution]] to the [[PDE]] precisely
 if $\Phi$ is an ordinary solution:
 
 $$
@@ -12342,7 +12391,7 @@ For all $b \in \Gamma_{\Sigma,cp}(E)$ we have
 $$
   \begin{aligned}
     (P u_\Phi)(b)
-    & = 
+    & =
     u_\Phi(P^\ast b)
     \\
     & =
@@ -12353,13 +12402,13 @@ $$
     \\
     & =
     u_{P \Phi}(b)
-  \end{aligned}  
+  \end{aligned}
 $$
 
-where all steps are by the definitions except the third, which is by the definition of 
+where all steps are by the definitions except the third, which is by the definition of
 [[formally adjoint differential operator]] (def. \ref{FormallyAdjointDifferentialOperators}),
 using that by the [[compact support]] of $b$ and the [[Stokes theorem]] (prop. \ref{StokesTheorem})
-the term $K(\Phi,b)$ in def. \ref{FormallyAdjointDifferentialOperators} does not contribute.
+the term $K(\Phi,b)$ in def. \ref{FormallyAdjointDifferentialOperators} does not contribute to the [[integral]].
 
 =--
 
@@ -12368,7 +12417,6 @@ the term $K(\Phi,b)$ in def. \ref{FormallyAdjointDifferentialOperators} does not
 +-- {: .num_defn #AdvancedAndRetardedGreenFuntions}
 ###### Definition
 **([[advanced and retarded Green functions]] and [[causal Green function]])**
-
 
 Let $E \overset{fb}{\to} \Sigma$ be a [[field bundle]] (def. \ref{FieldsAndFieldBundles}) which is a [[vector bundle]] (def. \ref{VectorBundle}) over [[Minkowski spacetime]] (def. \ref{MinkowskiSpacetime}).
 Let $P \;\colon\;\Gamma_\Sigma(E) \to \Gamma_\Sigma(E^\ast)$ be a [[differential operator]] (def. \ref{DifferentialOperator}) on its [[space of smooth sections]].
@@ -12431,14 +12479,15 @@ $$
   \Gamma_{\Sigma}(E^\ast)
 $$
 
-is called a _[[Green hyperbolic differential operator]]_ if $P$ as well as its [[formal adjoint differential operator]] $P^\ast$ (def. \ref{FormallyAdjointDifferentialOperators}) admit [[advanced and retarded Green functions]] (def. \ref{AdvancedAndRetardedGreenFunctions}).
+is called a _[[Green hyperbolic differential operator]]_ if $P$ as well as its [[formal adjoint differential operator]] $P^\ast$ (def. \ref{FormallyAdjointDifferentialOperators}) admit [[advanced and retarded Green functions]] (def. \ref{AdvancedAndRetardedGreenFuntions}).
 
 =--
 
 ([B&#228;r 14, def. 3.2](Green+hyperbolic+partial+differential+equation##Baer14}), [Khavkine 14, def. 2.2](Green+hyperbolic+partial+differential+equation#Khavkine14))
 
+
 The two archtypical examples of [[Green hyperbolic differential equations]] are the [[Klein-Gordon equation]]
-and the [[Dirac equation]] on [[Minkowski spacetime]]. For the moment we just cite the existence of the 
+and the [[Dirac equation]] on [[Minkowski spacetime]]. For the moment we just cite the existence of the
 [[advanced and retarded Green functions]] for these, we will work these out in detail below in _[Propagators](#Propagators)_.
 
 +-- {: .num_example #GreenHyperbolicKleinGordonEquation}
@@ -12492,13 +12541,103 @@ $$
 
 ([Khavkine 14, (24), (25)](Green+hyperbolic+partial+differential+equation#Khavkine14))
 
+We did not require that the [[advanced and retarded Green functions]] of a [[Green hyperbolic differential operator]] are unique;
+in fact this is automatic:
+
++-- {: .num_prop #AdvancedAndRetardedGreenFunctionsForGreenHyperbolicOperatorAreUnique}
+###### Proposition
+**([[advanced and retarded Green functions]] of [[Green hyperbolic differential operator]] are unique)**
+
+The [[advanced and retarded Green functions]] (def. \ref{AdvancedAndRetardedGreenFunctions}) of a [[Green hyperbolic differential operator]] (def. \ref{GreenHyperbolicDifferentialOperator}) are unique.
+
+=--
+
+([B&#228;r 14, cor. 3.12](Green+hyperbolic+differential+operator#Baer14})
+
+
+Moreover we did not require that the [[advanced and retarded Green functions]] of a [[Green hyperbolic differential operator]]
+come from [[integral kernels]] ("[[propagators]]"). This, too, is automatic:
+
++-- {: .num_prop #GreenFunctionsAreContinuous}
+###### Proposition
+**([[causal Green functions]] of [[Green hyperbolic differential operators]] are [[continuous linear maps]])**
+
+Given a [[Green hyperbolic differential operator]] $P$ (def. \ref{GreenHyperbolicDifferentialOperator}), the advanced, retarded and causal Green functions of $P$ (def. \ref{AdvancedAndRetardedGreenFunctions}) are [[continuous linear maps]] with respect to the [[topological vector space]] structure from def. \ref{TVSStructureOnSpacesOfSmoothSections} and also have a unique continuous [[extension]] to the spaces of sections with larger support (def. \ref{CompactlySourceCausalSupport}) as follows:
+
+$$
+\begin{aligned}
+  \mathrm{G}_{P,+}
+    &\;\colon\;
+  \Gamma_{\Sigma, pcp}(\tilde E^\ast)
+    \longrightarrow
+  \Gamma_{\Sigma, pcp}(E) ,
+  \\
+  \mathrm{G}_{P,-}
+    &\;\colon\;
+  \Gamma_{\Sigma, fcp}(\tilde E^\ast)
+    \longrightarrow
+  \Gamma_{\Sigma, fcp}(E) ,
+  \\
+  \mathrm{G}_{P}
+    &\;\colon\;
+  \Gamma_{\Sigma, tcp}(\tilde E^\ast)
+    \longrightarrow
+  \Gamma_{\Sigma}(E) ,
+\end{aligned}
+$$
+
+such that we still have the relation
+
+$$
+  \mathrm{G}_P = \mathrm{G}_{P,+} - \mathrm{G}_{P,-}
+$$
+
+and
+
+$$
+  P \circ \mathrm{G}_{P,\pm} = \mathrm{G}_{P,\pm} \circ P = id
+$$
+
+and
+
+$$
+  supp \mathrm{G}_{P,\pm}(\tilde{\alpha}^*) \subseteq J^\pm(supp \tilde{\alpha}^*)
+  \,.
+$$
+
+By the _[[Schwartz kernel theorem]]_ the continuity of $\mathrm{G}_{\pm}, \mathrm{G}$
+implies that there are [[integral kernels]] 
+
+$$
+  \Delta_{\pm}  \;\in\; \Gamma'_{\Sigma \times \Sigma}( E \boxtimes_\Sigma E^\ast )
+$$
+
+such that, in the notation of [[generalized functions]],
+
+$$
+  (G_{\pm} \alpha^\ast)(x)
+   \;=\;
+  \underset{\Sigma}{\int}
+    \Delta_\pm(x,y) \cdot \alpha^\ast(y) \, dvol_\Sigma(y)
+  \,.
+$$
+
+These [[integral kernels]] are called the _[[advanced and retarded propagators]]_. Similarly
+
+$$
+  \Delta \;\coloneqq\; \Delta_+ - \Delta_-
+$$
+
+is the _[[causal propagator]]_.
+
+=--
+
+([B&#228;r 14, thm. 3.8, cor. 3.11](Green+hyperbolic+differential+operator#Baer14))
 
 
 
 
-
-
-
+We now come to the main theorem on polynomial observables.
 
 +-- {: .num_lemma #ExactSequenceOfGreenHyperbolicSystem}
 ###### Lemma
@@ -12519,7 +12658,7 @@ $$
     &\overset{P}{\longrightarrow}&
   \Gamma_{\Sigma,scp}(E^\ast)
      &\to&
-  0 
+  0
   \\
   \\
   0
@@ -12554,7 +12693,7 @@ $$
     &\overset{P^*}{\longrightarrow}&
   \Gamma'_{\Sigma}(E^\ast)
     &\to&
-  0 
+  0
   \\
   \\
   0
@@ -12573,15 +12712,15 @@ $$
 
 =--
 
-This is due to [[Igor Khavkine]], based on ([Khavkine 14, prop. 2.1](#Khavkine14)),
+This is due to [[Igor Khavkine]], based on ([Khavkine 14, prop. 2.1](#Khavkine14));
 for **proof** see at _[[Green hyperbolic differential operator]]_  [this lemma](Green+hyperbolic+partial+differential+equation#ExactSequenceOfGreenHyperbolicSystem).
 
 
-+-- {: .num_remark #LineatOnShellObservablesAreTheGeneralizedPDESolutionsNaiveVersion}
++-- {: .num_remark #LinearOnShellObservablesAreTheGeneralizedPDESolutionsNaiveVersion}
 ###### Remark
 
-The [[exact sequence|exactness]] of the sequence (eq:GreenOperatorExactSequenceFirst) immediately implies 
-a [[linear isomorphism]] between the space $ker_{scp}(P)$ of spatially compact solutions to the differential equation 
+The [[exact sequence|exactness]] of the sequence (eq:GreenOperatorExactSequenceFirst) immediately implies
+a [[linear isomorphism]] between the space $ker_{scp}(P)$ of spatially compact solutions to the differential equation
 $P \Phi = 0$ (the [[kernel]] of $P$) and the [[quotient space]] of the [[compact support|compactly supported]] dual sections by the [[image]] of $P$, mediated by the [[causal Green function]] $\mathrm{G}$, and similarly for the unconstrained solution space $ker(P)$
 and the space of temporally compactly supported sections:
 
@@ -12592,7 +12731,6 @@ $$
       &\underoverset{\simeq}{\phantom{A}\mathrm{G}_P\phantom{A}}{\longrightarrow}&
     ker_{scp}(P)
     \\
-    \
     \Gamma_\Sigma(E^\ast)/im(P)
       &\underoverset{\simeq}{\phantom{A}\mathrm{G}_P \phantom{A}}{\longrightarrow}&
     \Gamma_{\Sigma,tcp}(\tilde E)/im(P)
@@ -12609,22 +12747,21 @@ $$
       &\underoverset{\simeq}{(-)\circ \mathrm{G}_P}{\longleftarrow}&
     \left(ker_{scp}(P)\right)^\ast
     \\
-    \
-    left(\Gamma_\Sigma(E^\ast)/im(P)\right)^\ast
+    \left(\Gamma_\Sigma(E^\ast)/im(P)\right)^\ast
       &\underoverset{\simeq}{(-)\circ \mathrm{G}_P }{\longleftarrow}&
-    \left(\Gamma_{\Sigma,tcp}(\tilde E)/im(P)\right)^\ast
+    \left(ker(P)\right)^\ast
   }
   \,.
 $$
 
-Notice that except possibly for the issue of [[continuous map|continuity]] this says that 
-the linear on-shell observables are equivalently those linear off-shell observables which 
+Notice that except possibly for the issue of [[continuous map|continuity]] this says that
+the linear on-shell observables are equivalently those linear off-shell observables which
 are [[generalized solution of a PDE|generalized solutions]] of the [[formally adjoint differential operator|formally dual]]
 [[equation of motion]].
 
 =--
 
-The next theorem says that the naive conclusion of remark \ref{LineatOnShellObservablesAreTheGeneralizedPDESolutionsNaiveVersion} 
+The next theorem says that the naive conclusion of remark \ref{LinearOnShellObservablesAreTheGeneralizedPDESolutionsNaiveVersion}
 is in fact correct also with the continuity, hence, by prop. \ref{LinearObservablesAreTheCompactlySupportedDistributions}, the smoothness
 of observables taken into account:
 
@@ -12637,13 +12774,13 @@ Let $P, P \ast \;\colon\; \Gamma_\Sigma(E) \overset{}{\longrightarrow} \Gamma_\S
 Then a [[continuous linear functional]] on the solution space
 
 $$
-  u_{sol} \in \left(ker_{scp}(P)\right)^\ast
+  u_{sol} \in \left(ker(P)\right)^\ast
 $$
 
-is equivalently a [[distribution|distributional section]] (def. \ref{DistributionalSections})
+is equivalently a [[compactly supported distribution|compactly supported distributional section]] (def. \ref{DistributionalSections})
 
 $$
-  u \in \left( \Gamma_{cp}(E^\ast)\right)^\ast
+  u \in \Gamma'_{\Sigma,cp}(E^\ast)
 $$
 
 which is a [[distributional solution of a PDE|distributional solution]] (def. \ref{DistributionalDerivatives}) to the differential equation
@@ -12659,7 +12796,7 @@ $$
   \left(ker_{scp}(P)\right)^\ast
      \underoverset{\simeq}{(-)\circ \mathrm{G}}{\longrightarrow}
    \left\{
-     u \in \left( \Gamma_{\Sigma,cp}(E^\ast)\right)^\ast
+     u \in  \Gamma'_{\Sigma,cp}(E^\ast)
      \,\vert\,
      P u = 0
    \right\}
@@ -12668,7 +12805,57 @@ $$
 
 =--
 
-This is due to [[Igor Khavkine]], based on ([Khavkine 14, prop. 2.1](Green+hyperbolic+partial+differential+equation#Khavkine14)). For **proof** see at _[[Green hyperbolic differential equation]]_ [this prop.](Green+hyperbolic+partial+differential+equation#DistributionsOnSolutionSpaceAreTheGeneralizedPDESolutions).
+This follows from the [[exact sequence]] in lemma \ref{ExactSequenceOfGreenHyperbolicSystem}. 
+For details of the **proof** see at _[[Green hyperbolic differential operator]]_ [this prop.](Green+hyperbolic+partial+differential+equation#DistributionsOnSolutionSpaceAreTheGeneralizedPDESolutions),
+due to [[Igor Khavkine]].
+
+In conclusion we have found the following
+
+
++-- {: .num_theorem #LinearObservablesForGreeFreeFieldTheoryAreDistributionalSolutionsToTheEquationsOfMotion}
+###### Theorem
+**(linear [[observables]] of [[Green hyperbolic differential operator|Green]] [[free field theory]] are the [[distributional solution of a PDE|distributional solutions]] to the [[formally adjoint differential operator|formally adjoint]] [[equations of motion]])**
+
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory|Lagrangian]] [[free field theory]] (def. \ref{FreeFieldTheory})
+whose [[Euler-Lagrange equation|Euler-Lagrange]] [[differential equation|differential]] [[equation of motion]] $P \Phi = 0$ (def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime}) is [[Green hyperbolic differential equation|Green hyperbolic]] (def. \ref{GreenHyperbolicDifferentialOperator}), such as the [[Klein-Gordon equation]] (example \ref{GreenHyperbolicKleinGordonEquation})
+or the [[Dirac equation]] (example \ref{GreenHyperbolicDiracOperator}). Then:
+
+1. The linear off-shell observables (def. \ref{LinearObservables}) are equivalently the 
+   [[compactly supported distribution|compactly supported distributional sections]]  (def. \ref{DistributionalSections})
+   of the [[dual vector bundle]] (def. \ref{DualVectorBundle}) of the [[field  bundle]]:
+   
+   $$
+     LinObs(E)^{offshell}
+      \;\simeq\;
+     \Gamma'_{\Sigma,cp}(E^\ast)
+   $$
+   
+1. The linear on-shell [[observables]] (def. \ref{LinearObservables}) are equivalently those linear off-shell observables, hence, 
+   by the previous point,
+   those [[compactly supported distribution|compactly supported distributional sections]]  (def. \ref{DistributionalSections})
+   which are [[generalized solution of a PDE|distributional solutions]] of the [[formally adjoint differential operator|formally adjoint]] [[equations of motion]], and this isomorphism is given by [[convolution of distributions|convolution]] with the [[causal propagator]]:
+   
+   $$
+     LinObs(E,\mathbf{L})
+      \;\underoverset{\simeq}{ \mathrm{G}_P }{\longleftarrow}\;
+     \left\{
+       A \in \Gamma'_{\Sigma,cp}(E^\ast)
+       \;\vert\;
+       P^\ast A = 0
+     \right\}
+   $$
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+The first statement follows with prop. \ref{LinearObservablesAreTheCompactlySupportedDistributions}
+applied componentwise. With this the second statement is prop. \ref{DistributionsOnSolutionSpaceAreTheGeneralizedPDESolutions}.
+
+=--
+
 
 
 $\,$
@@ -14823,11 +15010,11 @@ We have seen that the [[Poisson bracket]] on the [[covariant phase space]] of a
 [[free field theory]] with [[Green hyperbolic differential equation|Green hyperbolic]] [[equations of motion]]
 is determined by the [[integral kernel]] of the _[[causal Green function]]_ (prop. \ref{PoissonToPPeierls}).
 Under the identification of linear of-shell observables with off-shell observables
-that are [[generalized solution of a PDE|generalized solutions]] to the [[equations of motion]] (prop. \ref{DistributionsOnSolutionSpaceAreTheGeneralizedPDESolutions}) the convolution with this [[integral kernel]]
+that are [[generalized solution of a PDE|generalized solutions]] to the [[equations of motion]] (theorem \ref{LinearObservablesForGreeFreeFieldTheoryAreDistributionalSolutionsToTheEquationsOfMotion}) the convolution with this [[integral kernel]]
 may be understood as _propagating_ the [[support]] of an off-shell observable through [[spacetime]],
 such as to then compare it with any other observable at any spacetime point (prop. \ref{PoissonToPPeierls}).
 
-For this reason the [[causal Green function]] is also called the _[[causal propagator]]_. In terms of just [[PDE]]-theory it turns out that it is characterized by a) being a [[fundamental solution]] in two variables to the [[equations of motion]]
+For this reason the [[integral kernel]] of the [[causal Green function]] (prop. \ref{GreenFunctionsAreContinuous}) is also called the _[[causal propagator]]_. In terms of just [[PDE]]-theory it turns out that it is characterized by a) being a [[fundamental solution]] in two variables to the [[equations of motion]]
 and b) having a _[[wave front set]]_ of a special form, which makes manifest the _[[direction of a vector|direction]] of propagation_
 in terms of [[propagation of singularities]] of this [[distribution in two variables]].
 
@@ -15507,758 +15694,423 @@ $\,$
 **[[Klein-Gordon equation|Klein-Gordon]] [[propagators]]**
  {#KleinGordonPropagators}
 
-* [[differential operator]], [[normally hyperbolic differential operator]]
 
-* [[Green function]],
-
-
-**Causal propagator**
-
-Recall from example \ref{PoissonBracketForRealScalarField}:
-
-+-- {: .num_defn #CausalPropagatorOnMinkowskiSpacetime}
-###### Definition
-**([[causal propagator]] on [[Minkowski spacetime]])**
-
-The _[[causal propagator]]_ or _[[Pauli-Jordan distribution]]_ on [[Minkowski spacetime]] $\mathbb{R}^{p,1}$ is the [[distribution]]
-
-$$
-  \Delta \in \mathcal{D}'(\mathbb{R}^{p,1} \times \mathbb{R}^{p,1})
-$$
-
-which as a [[generalized function]] is given by
-
-$$
-  \begin{aligned}
-    \Delta(x,y)
-     & \coloneqq
-      -i (2\pi)^{-p} \int \delta( k_\mu k^\mu + m^2 ) sgn( k_0 ) e^{ - i k_\mu (x-y)^\mu } d^{p+1} k
-     \\
-  \end{aligned}
-  \,.
-$$
-
-=--
-
-Definition \ref{CausalPropagatorOnMinkowskiSpacetime} is the expression that one obtains from a standard calculation of the [[Poisson bracket]] on the [[covariant phase space]] of the [[free field|free]] [[scalar field]] ([this prop.](scalar+field#IntegralKernelForPoissonBracketOfFreeScalarFieldOnMinkowskiSpacetime)). But the causal propagator has various other equivalent expressions, which are useful in different contexts:
-
-+-- {: .num_prop #EquivalentExpressinsForCausalPropagatorOnMinkowskiSpacetime}
++-- {: .num_prop #AdvancedRetardedPropafatorsForKleinGordonOnMinkowskiSpacetime}
 ###### Proposition
-**(equivalent expressions for causal propagator on Minkowski spacetime)**
+**([[advanced and retarded propagators]] for [[Klein-Gordon operator]] on [[Minkowski spacetime]])**
 
-The causal propagator on Minkowski spacetime from def. \ref{CausalPropagatorOnMinkowskiSpacetime} has the following equivalent expressions
-
+The [[advanced and retarded Green functions]] $G_\pm$ of the [[Klein-Gordon operator]] on [[Minkowski spacetime]] are given by [[integral kernels]] ("[[propagators]]")
 
 $$
-  \label{CausalPropagatorOnMinkowskiSpacetimeInTermsOfModeExpansion}
+  \Delta_\pm \in \mathcal{D}'(\mathbb{R}^{p,1}\times \mathbb{R}^{p,1})
+$$
+
+by (in [[generalized function]]-notation)
+
+$$
+  G_\pm(\Phi)
+    \;=\;
+  \underset{\mathbb{R}^{p,1}}{\int}
+    \Delta_{\pm}(x,y) \Phi(y) \, dvol(y)
+$$
+
+where $\Delta_{\pm}(x,y)$ have the following equivalent expressions:
+
+$$
   \begin{aligned}
-    \Delta(x,y)
-     & \coloneqq \label{A}
-      -i (2\pi)^{-p} \int \delta( k_\mu k^\mu + m^2 ) sgn( k_0 ) e^{ - i k_\mu (x-y)^\mu } d^{p+1} k
+    \Delta_\pm(x-y)
+     & =
+     \frac{1}{(2\pi)^{p+1}}
+     \underset{ {\epsilon \in (0,\infty)} \atop {\epsilon \to 0} }{\lim}
+     \int \int
+     \frac{
+       e^{i k_0 (x^0 - y^0)} e^{i \vec k \cdot (\vec x - \vec y)}
+     }{
+       (k_0 \mp i\epsilon)^2 - {\vert \vec k\vert}^2  -\left( \tfrac{m c}{\hbar}\right)^2
+     }
+     \, d k_0 \, d^p \vec k
      \\
      & =
-     -i (2\pi)^{-p} \int \tfrac{1}{2 E(\vec k)}\left(
-      e^{- i E(\vec k) (x^0 - y^0) - \vec k \cdot (\vec x - \vec y)}
-      -
-      e^{+ i E(\vec k) (x^0 - y^0) + \vec k \cdot (\vec x - \vec y)}
-    \right) d^p \vec k
-    \\
-     & =
-     - i
-     (2\pi)^{-p}
-     \int \frac{1}{E(\vec k)} sin(E(\vec k) (x^0 - y^0) ) e^{ - i \vec k \cdot (\vec x - \vec y)}
-     d^p \vec k
-     \\
+     \left\{
+       \array{
+          \frac{1}{(2\pi)^{p+1}}
+          \int
+           \frac{1}{2\omega(\vec k)/c}
+            \left(
+              e^{i \omega(\vec k)/c +  i \vec k \cdot (\vec x -\vec y)}
+              -
+              e^{-i \omega(\vec k)/x} + i \vec k \cdot (\vec x - \vec  y)
+            \right)
+          d^p \vec k
+          & \vert & \text{if} \,  \pm (x^0 - y^0) \gt 0
+          \\
+          0 & \vert & \text{otherwise}
+       }
+     \right.
   \end{aligned}
-  \,,
 $$
-
-where
-
-$$
-  E(\vec k) \coloneqq \sqrt{\vec k^2 + m^2}
-$$
-
-and where in the last expression the integral is to be understood as the weak limit of integrals up to ${\vert \vec k\vert}$ as ${\vert k \vert}
- \to \infty$ ([Scharf 95 (2.3.8)](causal+perturbation+theory#Scharf95)).
-
-The last expression may be computed to be equal to
-
-$$
-  \label{CausalPropagatorOnMinkowskiSpacetimeInTermsOfBesselFunction}
-  \Delta(x,y)
-  \;=\;
-  (2 \pi)^{p-2}
-  sgn((x^0 - y^0))
-  \left(
-    \delta( -{\vert x-y\vert}^2 )
-    -
-    \Theta_{BFV}( -{\vert x-y\vert}^2 )
-    \frac{m}{2 \sqrt{-{\vert x-y\vert}^2} }
-    J_1\left(
-      m \sqrt{-{\vert x-y\vert}^2}
-    \right)
-  \right)
-  \,,
-$$
-
-where $J_1$ denotes the [[Bessel function]] of order 1.
-
-Finally this may also be expressed as the [[contour integral]]
-
-$$
-  \label{CausalPropagatorOnMinkowskiSpacetimeInTermsOfContourIntegral}
-  \Delta(x,y)
-  \;=\;
-    (2\pi)^{-(p+1)}
-    \int
-    \oint_{C(\vec k)}
-     \frac{e^{-i k_\mu (x-y)^\mu}}{ k_\mu k^\mu + m^2 }
-    d k_0
-    d^{p} k
-  \,,
-$$
-
-where the [[Jordan curve]] $C(\vec k) \subset \mathbb{C}$ runs counter-clockwise, enclosing the points $\pm E(\vec k) \in \mathbb{R} \subset \mathbb{C}$. (Compare to the analogous expression for the [[advanced and retarded propagators]]: [this prop.](advanced+propagator#AdvancedPropagatorAsContourIntegral).)
-
-
-<img src="https://ncatlab.org/nlab/files/ContourForCausalPropagator.png" height="160">
-
-> graphics grabbed from [Kocic 16](quantum+propagator#Kocic16)
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-For the expression (eq:CausalPropagatorOnMinkowskiSpacetimeInTermsOfModeExpansion) decompose the original integral into its contributions from $k_0 \geq 0$ and from $k_0 \leq 0$ and then apply the [[changes of integration variables]]  $k_0 = \sqrt{h}$ for $k_0 \geq 0$ and $k_0 = -\sqrt{h}$ for $k_0 \leq 0$:
-
-
-$$
-  \begin{aligned}
-    -i (2\pi)^{-p} \int \delta( k_\mu k^\mu + m^2 ) sgn( k_0 ) e^{ - i k_\mu (x-y)^\mu } d^{p+1} k
-     & =
-     -i (2\pi)^{-p} \int \int_0^\infty \delta( -k_0^2 + \vec k^2 + m^2 ) e^{ - i k_0 x^0 - i \vec k \cdot \vec x} d k_0 \, d^p \vec k
-     \\
-     & \phantom{=}
-     + i (2\pi)^{-p} \int \int_{-\infty}^0 \delta( -k_0^2 + \vec k^2 + m^2 )  e^{ -i k_0 x^0 - i \vec k \cdot vec x } d k_0 \, d^{p} \vec k
-     \\
-     & =
-     -i (2\pi)^{-p} \int \int_0^\infty \frac{1}{2 \sqrt{h}} \delta( -h + E(\vec k)^2 ) e^{ - i \sqrt{h} (x-y)^0 - i \vec k \cdot \vec x } d h \, d^{p} \vec k
-     \\
-     & \phantom{=}
-     + i (2\pi)^{-p} \int \int_0^\infty \delta( -h + E(\vec k)^2 ) e^{ + i E(\vec k) (x-y)^0 - i \vec k \cdot \vec x }  d h \, d^{p} \vec k
-     \\
-     & =
-     -i (2\pi)^{-p} \int \frac{1}{2 E(\vec k)} e^{ - i E(\vec k) (x-y)^0 - i \vec k \cdot \vec x}  d^{p} \vec k
-     \\
-     & \phantom{=}
-     + i (2\pi)^{-p} \int \frac{1}{2 E(\vec k)} e^{ + i E(\vec k) (x-y)^0 - i \vec k \cdot \vec x }  d^{p} \vec k
-     \\
-     & = -i (2 \pi)^{-p} \int \frac{1}{2 E(\vec k)}
-      e^{-i \vec k \cdot (\vec x - \vec y)}
-      \left(
-         e^{i E(\vec k) (x-y)^0} - e^{i E(\vec k) (x-y)^0}
-      \right)
-    \\
-     & = -i (2 \pi)^{-p} \int \frac{1}{E(\vec k)}
-      e^{-i \vec k \cdot (\vec x - \vec y)}
-      sin(E(\vec k)(x-y)^0)
-  \end{aligned}
-$$
-
-For the derivation of  (eq:CausalPropagatorOnMinkowskiSpacetimeInTermsOfBesselFunction) from the last line of (eq:CausalPropagatorOnMinkowskiSpacetimeInTermsOfModeExpansion) see [Scharf 95 (2.3.8) to (2.3.18)](causal+perturbation+theory#Scharf95).
-
-Finally to obtain (eq:CausalPropagatorOnMinkowskiSpacetimeInTermsOfContourIntegral), [[Cauchy's integral formula]] says that the given contour integral picks up the [[residues]] of the [[poles]] of the [[integrand]] at $\pm E(\vec k) \in \mathbb{R} \subset \mathbb{C}$:
-
+The [[Klein-Gordon operator]] is a [[Green hyperbolic differential operator]] ([this example](Green+hyperbolic+partial+differential+equation#GreenHyperbolicKleinGordonOperator)) therefore its advanced and retarded Green functions exist uniquely (prop. \ref{AdvancedAndRetardedGreenFunctionsForGreenHyperbolicOperatorAreUnique}).
+and prop. \ref{GreenFunctionsAreContinuous} says that they are [[continuous linear functionals]] with respect to the [[topological vector space]] [[structures]] on [[spaces of smooth sections]] (def. \ref{TVSStructureOnSpacesOfSmoothSections}). In the case of the [[Klein-Gordon operator]] this just means that
 
 $$
-  \begin{aligned}
-    (2\pi)^{-(p+1)}
-    \int
-    \oint_{C(\vec k)}
-     \frac{e^{-i k_\mu (x-y)^\mu}}{ k_\mu k^\mu + m^2 }
-    d k_0
-    d^{p} k
-    & =
-    (2\pi)^{-(p+1)}
-    \int
-    \oint_{C(\vec k)}
-      \frac{
-        e^{-i k_0 x^0} e^{- i \vec k \cdot (\vec x - \vec y)}
-      }{
-        - k_0^2 + E(\vec k)^2
-      }
-    d k_0
-    d^p \vec k
-    \\
-    & =
-    (2\pi)^{-(p+1)}
-    \int
-    \oint_{C(\vec k)}
-      \frac{
-        e^{-i k_0 (x-y)^0} e^{- i \vec k \cdot (\vec x - \vec y)}
-      }{
-        ( E_\epsilon(\vec k) + k_0 )
-        ( E_\epsilon(\vec k) - k_0 )
-      }
-    d k_0
-    d^p \vec k
-    \\
-    & =
-    (2\pi)^{-(p+1)}
-     2\pi i
-     \int
-     \left(
-     \frac{
-       e^{-i E(\vec k) (x^0 - y^0) e^{-i \vec k \cdot (\vec x - \vec y)}}
-     }
-     {
-       2 E(\vec k)
-     }
+  G_{\pm}
+    \;\colon\;
+  C^\infty_{cp}(\mathbb{R}^{p,1})
+    \longrightarrow
+  C^\infty_{\pm cp}(\mathbb{R}^{p,1})
+$$
+
+are [[continuous linear functionals]] in the standard sense of [[distributions]]. Therefore the
+[[Schwartz kernel theorem]]  implies the existence of [[integral kernels]] being [[distributions in two variables]]
+
+$$
+  \Delta_{\pm} \in \mathcal{D}(\mathbb{R}^{p,1} \times \mathbb{R}^{p,1})
+$$
+
+such that, in the notation of [[generalized functions]],
+
+$$
+  (G_\pm \alpha)(x)
+  \;=\;
+  \underset{\mathbb{R}^{p,1}}{\int} \Delta_{\pm}(x,y) \alpha(y) \, dvol(y)
+  \,.
+$$
+
+These integral kernels are the advanced/retarded "[[propagators]]".
+
+Since the [[Klein-Gordon operator]] is invariant under [[translations]] in $\mathbb{R}^{p,1}$ it is clear that the propagators, as a [[distribution in two variables]], depends only on the difference of its two arguments
+
+$$
+  \Delta_{\pm}(x,y) = \Delta_{\pm}(x-y)
+  \,.
+$$
+
+Since moreover the [[Klein-Gordon operator]] is [[formally adjoint differential operator|formally self-adjoint]] ([this prop.](Klein-Gordon+equation#FormallySelfAdjointKleinGordonOperator)) this implies that for $P$ the Klein the equation (eq:AdvancedRetardedGreenFunctionIsRightInverseToDiffOperator)
+
+$$
+  P \circ G_\pm  = id
+$$
+
+is equivalent to the equation (eq:AdvancedRetardedGreenFunctionIsLeftInverseToDiffOperator)
+
+$$
+  G_\pm \circ P = id
+  \,.
+$$
+
+Therefore it is sufficient to solve for the first of these two equation, subject to
+the defining support conditions. In terms of the [[propagator]] [[integral kernels]] this means that we have to solve the [[distribution|distributional]] equation
+
+$$
+  \label{KleinGordonEquationOnAdvacedRetardedPropagator}
+  \left(
+    \eta^{\mu \nu}
+    \frac{\partial}{\partial x^\mu}
+    \frac{\partial}{\partial x^\nu}
      -
-     \frac{
-       e^{ + i E(\vec k) (x^0 - y^0)} e^{-i \vec k \cdot (\vec x - \vec y)}
-     }{
-       2 E(\vec k)
-     }
-    \right)
-    d^p \vec k
-    \\
-    & =
-    - i
-    (2\pi)^{-p}
-    \int
-      \frac{1}{E(\vec k)}
-      sin\left( E(\vec k)(x^0 - y^0) \right)
-      e^{-i \vec k \cdot (\vec x - \vec y)}
-     d^p \vec k
-     \,.
-  \end{aligned}
+     \left( \tfrac{m c}{\hbar} \right)^2
+  \right)
+  \Delta_\pm(x-y)
+  \;=\;
+  \delta(x-y)
 $$
 
-That the last line here is indeed equal to the causal propagator is the statement of the last line of (eq:CausalPropagatorOnMinkowskiSpacetimeInTermsOfModeExpansion).
-
-=--
-
-+-- {: .num_cor #CausalSupportOfTheCausalPropagatorOnMinkowskiSpacetime}
-###### Corollary
-**(causal support of the causal propagator)**
-
-The [[distributional support]] of the causal propagator $\Delta$ on Minkowski spacetime (def. \ref{CausalPropagatorOnMinkowskiSpacetime}) is in the [[causal cone]]:
+subject to the condition that the [[support of a distribution|distributional support]] is
 
 $$
-  supp(\Delta)
+  supp\left( \Delta_{\pm}(x-y) \right)
   \subset
   \left\{
-    (x,y) \;\vert\; -{\vert x-y\vert}^2 \geq 0
+    {\vert x-y\vert^2_\eta}\lt 0
+    \;\,,\;
+    \pm(x^0 - y^ 0) \gt 0
   \right\}
   \,.
 $$
 
-=--
 
-+-- {: .proof}
-###### Proof
-
-By the equivalent expression (eq:CausalPropagatorOnMinkowskiSpacetimeInTermsOfBesselFunction)  in prop. \ref{EquivalentExpressinsForCausalPropagatorOnMinkowskiSpacetime}.
-
-=--
-
-
-$\,$
-
-**Advanced and retarded causal propagators**
-
-
-+-- {: .num_defn #CausalPropatorOnMinkowskiSpacetime}
-###### Definition
-**([[advanced propagator]] on [[Minkowski spacetime]])**
-
-On [[Minkowski spacetime]] of [[dimension]] $p+1$ the _[[retarded propagator]]_ is the [[product of distributions]] of the [[Heaviside distribution]] $\Theta_{BFV}$ in the time-component with the [[causal propagator]] $\Delta$:
+We make the _Ansatz_ that we assume that $\Delta_{\pm}$, as a distribution in a single variable $x-y$, is a [[tempered distribution]]
 
 $$
-  \Delta_R(x,y)
-  \; \coloneqq \;
-  \Theta_{BFV}((x-y)^0) \Delta(x,y)
-  \,.
+  \Delta_\pm \in \mathcal{S}'(\mathbb{R}^{p,1})
+  \,,
 $$
 
-Similarly the advanced propagator is
+hence amenable to [[Fourier transform of distributions]]. If we do find a solution this way, it is guaranteed to be the unique solution by prop. \ref{AdvancedAndRetardedGreenFunctionsForGreenHyperbolicOperatorAreUnique}.
+
+By [this prop.](Fourier+transform#BasicPropertiesOfFourierTransformOverCartesianSpaces)
+the [[Fourier transform of distributions|distributional Fourier transform]] of equation (eq:KleinGordonEquationOnAdvacedRetardedPropagator) is
 
 $$
-  \Delta_a(x,y)
-  \; \coloneqq \;
-  -\Theta_{BFV}(-(x-y)^0) \Delta(x,y)
-  \,.
-$$
-
-In terms of the various equivalent expressions for the causal propagator ([this prop.](causal+propagator#EquivalentExpressinsForCausalPropagatorOnMinkowskiSpacetime)) this has the following equivalent more explicit expressions:
-
-$$
-  \Delta_{R/A}(x,y)
-  \;=\;
-   - i
-   (2\pi)^{-p}
-   \Theta_{BFV}(\pm(x-y)^0)
-   \int \frac{1}{E(\vec k)} sin(E(\vec k) (x-y)^0 ) e^{ - i \vec k \cdot (\vec x - \vec y)}
-   d^p \vec k
-  \,.
-$$
-
-=--
-
-
-+-- {: .num_prop #AdvancedPropagatorAsContourIntegral}
-###### Proposition
-**([[advanced propagator|advanced/retarded propagators]] as [[contour integrals]])**
-
-The retarded/advanced propagator on Minkowski spacetime (def. \ref{CausalPropatorOnMinkowskiSpacetime}) is  equal to
-
-$$
-  \label{CausalPropagatorOnMinkowskiSpacetimeInTermsOfFeynmanIntegrand}
-  \Delta_{R/A}(x,y)
-  \;=\;
-  (2\pi)^{-(p+1)}
-  \underset{\epsilon \to 0^+}{\lim}
-  \int
-    \frac{e^{-i k_\mu x^\mu}}{ k_\mu k^\mu + m^2 \mp i k_0 \epsilon/2 }
-  d^4 k
-$$
-
-<img src="https://ncatlab.org/nlab/files/ContourForAdvancedPropagator.png" height="280">
-
-> graphics grabbed from ([Kocic 16](quantum+propagator#Kocic16))
-
-=--
-
-(e.g. [Scharf 95 (2.3.22)](causal+perturbation+theory#Scharf95))
-
-
-
-+-- {: .proof}
-###### Proof
-
-We first discuss the case of the retarded propagator. To that end, consider the abbreviation
-
-$$
-  E_\epsilon(\vec k)
-    \coloneqq
-  \sqrt{
-    \vec k^2 + m^2 - \epsilon^2
-  }
- \,.
-$$
-
-With this we compute as follows:
-
-$$
-  \label{ContourIntegrationForCausalPropagator}
   \begin{aligned}
-    (2\pi)^{-(p+1)}
-    \underset{\epsilon \to 0^+}{\lim}
-    \int
-     \frac{e^{-i k_\mu (x-y)^\mu}}{ k_\mu k^\mu + m^2 - i k_0 \epsilon /2 }
-    d^{p+1} k
+    \label{FourierVersionOfPDEForKleinGordonAdvancedRetardedPropagator}
+    \left(
+      - \eta^{\mu \nu} k_\mu k_\nu - \left( \tfrac{m c}{\hbar} \right)^2
+    \right)
+    \widehat{\Delta_{\pm}}(k)
     & =
-    (2\pi)^{-(p+1)}
-    \underset{\epsilon \to 0^+}{\lim}
-    \int
-    \int
-      \frac{
-        e^{-i k_0 x^0} e^{- i \vec k \cdot (\vec x - \vec y)}
-      }{
-        - (k_0 + i \epsilon )^2 + E_\epsilon(\vec k)^2
-      }
-    d k_0
-    d^p \vec k
+    \widehat{\delta}(k)
     \\
     & =
-    (2\pi)^{-(p+1)}
-    \underset{\epsilon \to 0^+}{\lim}
-    \int
-      \frac{
-        e^{-i k_0 (x-y)^0} e^{- i \vec k \cdot (\vec x - \vec y)}
-      }{
-        ( E_\epsilon(\vec k) + (k_0 + i \epsilon) )
-        ( E_\epsilon(\vec k) - (k_0 + i \epsilon) )
-      }
-    d k_0
-    d^p \vec k
+    1
+  \end{aligned}
+  \,,
+$$
+
+where in the second line we used the [[Fourier transform of distributions|Fourier transform]] of the [[delta distribution]]
+from [this example](Dirac+distribution#FourierTransformOfDeltaDistribution).
+
+Notice that this implies that the the [[Fourier transform]] of the [[causal propagator]]
+
+$$
+  \Delta \coloneqq \Delta_+ - \Delta_-
+$$
+
+satisfies the homogeneous equation:
+
+$$
+  \label{FourierVersionOfPDEForKleinGordonCausalPropagator}
+  \left(
+    - \eta^{\mu \nu} k_\mu k_\nu - \left( \tfrac{m c}{\hbar} \right)^2
+  \right)
+  \widehat{\Delta}(k)
+  \;=\;
+  0
+  \,,
+$$
+
+
+Hence we are now reduced to finding solutions $\widehat{\Delta_\pm} \in \mathcal{S}'(\mathbb{R}^{p,1})$ to (eq:FourierVersionOfPDEForKleinGordonAdvancedRetardedPropagator) such that their [[Fourier inversion theorem|Fourier inverse]] $\Delta_\pm$ has the required [[support of a distribution|support]] properties.
+
+We discuss two ways to solve this:
+
+1. direct solution of (eq:FourierVersionOfPDEForKleinGordonAdvancedRetardedPropagator) via [[Cauchy principal values]];
+
+1. solution of (eq:FourierVersionOfPDEForKleinGordonCausalPropagator) via [[delta distributions]] followed by [[splitting of distributions]].
+
+**1)**
+
+Suppose the following [[limit of a sequence|limit]] of [[non-singular distributions]] in the variable $k \in \mathbb{R}^{p,1}$
+exists in the space of [[distributions]]
+
+$$
+  \label{LimitOverImaginaryOffsetForFourierTransformedAdvancedRetardedPropagator}
+  \underset{ {\epsilon \in (0,\infty)} \atop { \epsilon \to 0 } }{\lim}
+  \frac{1}{ (k_0 \mp i \epsilon)^2  - {\vert \vec k\vert^2} - \left( \tfrac{m c}{\hbar} \right)^2 }
+  \;\in\;
+  \mathcal{D}'(\mathbb{R}^{p,1})
+$$
+
+meaning that for each [[bump function]] $b \in C^\infty_{cp}(\mathbb{R}^{p,1})$ the [[limit of a sequence|limit]] in $\mathbb{C}$
+
+$$
+ \underset{ {\epsilon \in (0,\infty)} \atop { \epsilon \to 0 }   }{\lim}
+ \underset{\mathbb{R}^{p,1}}{\int} \frac{b(k)}{ (k_0\mp i \epsilon)^2 - {\vert \vec k\vert}^2 - \left( \tfrac{m c}{\hbar} \right)^2  }
+   d^{p+1}k
+ \;\in\;
+ \mathbb{C}
+$$
+
+exists. Then this limit is clearly a solution to the distributional equation (eq:FourierVersionOfPDEForKleinGordonAdvancedRetardedPropagator)
+because on those bump functions $b(k)$ which happen to be products with $\left(-\eta^{\mu \nu}k_\mu k-\nu - \left( \tfrac{m c}{\hbar}\right)^2\right)$
+we clearly have
+
+$$
+  \begin{aligned}
+    \underset{ {\epsilon \in (0,\infty)} \atop { \epsilon \to 0 }   }{\lim}
+    \underset{\mathbb{R}^{p,1}}{\int}
+    \frac{
+       \left( -\eta^{\mu \nu} k_\mu k_\nu - \left( \tfrac{m c}{\hbar} \right)^2 \right) b(k)
+    }{
+      (k_0\mp i \epsilon)^2 - {\vert \vec k\vert}^2 - \left( \tfrac{m c}{\hbar} \right)^2
+    }
+     d^{p+1}k
+    & =
+    \underset{\mathbb{R}^{p,1}}{\int}
+    \underset{= 1}{
+    \underbrace{
+     \underset{ {\epsilon \in (0,\infty)} \atop { \epsilon \to 0 }   }{\lim}
+     \frac{
+         \left( -\eta^{\mu \nu} k_\mu k_\nu - \left( \tfrac{m c}{\hbar} \right)^2 \right) }{
+     (k_0\mp i \epsilon)^2 - {\vert \vec k\vert}^2 - \left( \tfrac{m c}{\hbar} \right)^2  }
+    }
+    }
+    b(k)\, d^{p+1}k
     \\
     & =
-    \left\{
-      \array{
-        (2\pi)^{-(p+1)} (-2\pi i)
-        \int
-        \left(
-          \frac{
-            e^{-i E(\vec k) (x^0 - y^0) e^{-i \vec k \cdot (\vec x - \vec y)}}
-          }
-          {
-            2 E(\vec k)
-          }
-          -
-          \frac{
-            e^{ + i E(\vec k)(x^0 - y^0)} e^{-i \vec k \cdot (\vec x - \vec y)}
-          }{
-            2 E(\vec k)
-          }
-        \right)
-        d^p \vec k
-        & \vert & (x^0 - y^0) \gt 0
-        \\
-        0 & \vert & (x^0 - y^0) \lt 0
-      }
-    \right.
-    \\
-    & =
-    - i (2\pi)^{-p}
-    \Theta_{BFV}((x-y)^0)
-    \int
-      \frac{1}{E(\vec k)}
-      sin\left( E(\vec k)(x-y)^0 \right)
-      e^{-i \vec k \cdot (\vec x - \vec y)}
-     d^p \vec k
-     \\
-     & = \Delta_R(x,y)
-     \,,
+    \langle 1, b\rangle
   \end{aligned}
 $$
 
-where the key step is the third: To obtain this in the case $x \gt 0$ we
+Moreover, if the limiting distribution (eq:LimitOverImaginaryOffsetForFourierTransformedAdvancedRetardedPropagator)
+exists, then it is clearly a [[tempered distribution]], hence we may apply [[Fourier inversion theorem|Fourier inversion]]
+to  obtain [[Green functions]]
 
-1. decompose the integral over $k_0$ as
+$$
+  \label{AdvancedRetardedPropagatorViaFourierTransformOfLLimitOverImaginaryOffsets}
+  \Delta_{\pm}(x,y)
+  \;\coloneqq\;
+   \underset{ {\epsilon \in (0,\infty)} \atop {\epsilon \to 0} }{\lim}
+  \frac{1}{(2\pi)^{p+1}}
+  \underset{\mathbb{R}^{p,1}}{\int}
+   \frac{e^{i k_\mu (x-y)^\mu}}{
+      (k_0 \mp i \epsilon  )^2 - {\vert \vec k\vert}^2  - \left(\tfrac{m c}{\hbar}\right)^2
+   }
+   d k_0 d^p \vec k
+  \,.
+$$
+
+To see that this is the correct answer, we need to check the support property.
+
+Finally by the [[Fourier inversion theorem]], to show that the limit (eq:LimitOverImaginaryOffsetForFourierTransformedAdvancedRetardedPropagator) indeed exists it is sufficient to show that the
+limit in (eq:AdvancedRetardedPropagatorViaFourierTransformOfLLimitOverImaginaryOffsets) exists.
+
+To that end, consider the the [[non-negative number|non-negative]] [[square root]] (see at _[[plane wave]]_)
+
+$$
+  \omega(\vec k)
+  \;\coloneqq\;
+  c \sqrt{ \vert \vec k\vert^2 + \left( \tfrac{m c}{\hbar} \right)^2  }
+  \;\in\; [0,\infty)
+$$
+
+and compute as follows:
+
+$$
+  \label{TheSupportOfTheCandidateAdvancedRetardedPropagatorIsinTheFutureOrPastRespectively}
+  \begin{aligned}
+    \Delta_\pm(x-y)
+     & =
+     \frac{1}{(2\pi)^{p+1}}
+     \underset{ {\epsilon \in (0,\infty)} \atop {\epsilon \to 0} }{\lim}
+     \int \int
+     \frac{
+       e^{i k_0 (x^0 - y^0)} e^{i \vec k \cdot (\vec x - \vec y)}
+     }{
+       (k_0 \mp i\epsilon)^2 - {\vert \vec k\vert}^2  -\left( \tfrac{m c}{\hbar}\right)^2
+     }
+     \, d k_0 \, d^p \vec k
+     \\
+     & =
+     \frac{1}{(2\pi)^{p+1}}
+     \underset{ {\epsilon \in (0,\infty)} \atop {\epsilon \to 0} }{\lim}
+     \int \int
+     \frac{
+       e^{i k_0 (x^0 - y^0)} e^{i \vec k \cdot (\vec x - \vec y)}
+     }{
+       (k_0 \mp i \epsilon)^2 - \left(\omega(\vec k)/c\right)^2
+     }
+     \, d k_0 \, d^p \vec k
+     \\
+     &=
+     \frac{1}{(2\pi)^{p+1}}
+     \underset{ {\epsilon \in (0,\infty)} \atop {\epsilon \to 0} }{\lim}
+     \int \int
+     \frac{
+       e^{i k_0 (x^0 - y^0)} e^{i \vec k \cdot (\vec x - \vec y)}
+     }{
+       \left(
+         (k_0 \mp i\epsilon) - \omega(\vec  k)/c
+       \right)
+       \left(
+          (k_0 \mp i \epsilon) + \omega(\vec k)/c
+       \right)
+     }
+     \, d k_0 \, d^p \vec k
+     \\
+     & =
+     \left\{
+       \array{
+          \frac{1}{(2\pi)^{p+1}}
+          \int
+           \frac{1}{2\omega(\vec k)/c}
+            \left(
+              e^{i \omega(\vec k)/c +  i \vec k \cdot (\vec x -\vec y)}
+              -
+              e^{-i \omega(\vec k)/x} + i \vec k \cdot (\vec x - \vec  y)
+            \right)
+          d^p \vec k
+          & \vert & \text{if} \,  \pm (x^0 - y^0) \gt 0
+          \\
+          0 & \vert & \text{otherwise}
+       }
+     \right.
+  \end{aligned}
+$$
+
+Here key step is the application of [[Cauchy's integral formula]] in the fourth step.
+We discuss this for $\Delta_+$, the discussion for $\Delta_-$ is the same, just with the appropriate signs reversed.
+
+1. If  $(x^0 - y^0) \gt 0$ thn the expression $e^{ik_0 (x^0 - y^0)}$ decays with _[[positive number|positive]] [[imaginary part]]_ of $k_0$, so that we may expand the [[integration]] [[domain]] into the [[upper half plane]] as
 
    $$
      \begin{aligned}
        \int_{-\infty}^\infty d k_0
        & = \phantom{+}
-         \int_{-\infty}^0 d k_0 + \int_{0}^{- i \infty} d k_0
+         \int_{-\infty}^0 d k_0 + \int_{0}^{+ i \infty} d k_0
        \\
-       & = + \int_{-i \infty}^0 d k_0  + \int_0^\infty d k_0
+       & = + \int_{+i \infty}^0 d k_0  + \int_0^\infty d k_0
        \,;
      \end{aligned}
    $$
 
-1. complete this to a sum of two [[contour integrals]], the first going clockwise around the [[pole]] at $- E_\epsilon(\vec k) - i \epsilon \in \mathbb{C}$ in the [[lower half plane]], the second going clockwise around $+ E_\epsilon(\vec k) - i \epsilon$;
+   Conversely, if $(x^0 - y^0) \lt 0$ then we may analogously expand into the [[lower half plane]].
 
-1. apply [[Cauchy's integral formula]] to find the sum of the [[residues]] at these two [[poles]] (compare the corresponding computation for the [[causal propagator]] in [this prop.](causal+propagator#EquivalentExpressinsForCausalPropagatorOnMinkowskiSpacetime)). Observe that the minus sign in the prefactor $(-2\pi i)$ comes from the fact that the contours run _clockwise_ instead of counter-clockwise.
+1. This integration domain may then further be completed to two [[contour integrations]]. For the expansion into the [[upper half plane]] these encircle counter-clockwise the [[poles]] at $\pm \omega(\vec k)+ i\epsilon \in \mathbb{C}$, while for expansion into the [[lower half plane]] no poles are being encircled.
 
-For $x \lt 0$ we proceeds analogously, now completing to contours in the upper half plane. These do not enclose the two [[poles]] and hence in this case [[Cauchy's integral formula]] says that the result vanishes.
-
-Finally, for the advanced propagator the argument is directly analogous, with two differences:
-
-1. now the poles sit in the upper half plane, and hence we pick up a contribution for $(x-y)^0 \lt 0$ and none for $(x-y)^0 \gt 0$, hence in the end a prefactor of $\Theta_{BFV}(-(x-y)^0)$ instead of $\Theta_{BFV}((x-y)^0)$;
-
-1. the contours that do contribute now go counter-clockwise, instead of counter-clockwise, and hence we pick up an extra minus sign compared to the previous computation, as befits the definition of $\Delta_A(x,y) \coloneqq -\Theta_{BFV}(-(x-y)^0) \Delta(x,y)$.
-
-Hence:
-
-$$
-  \label{AdvancedPropagatorAsSumOfResidues}
-  \begin{aligned}
-    (2\pi)^{-(p+1)}
-    \underset{\epsilon \to 0^+}{\lim}
-    \int
-     \frac{e^{-i k_\mu (x-y)^\mu}}{ k_\mu k^\mu + m^2 + i k_0 \epsilon /2 }
-    d^{p+1} k
-    & =
-    \left\{
-      \array{
-        (2\pi)^{-(p+1)} (+ 2\pi i)
-        \int
-        \frac{
-          e^{-i E(\vec k) (x-y)^2 e^{-i \vec k \cdot (\vec x - \vec y)}}
-        }
-        {
-          2 E(\vec k)
-        }
-        -
-        \frac{
-          e^{ + i E(\vec k)(x-y)^2} e^{-i \vec k \cdot (\vec x - \vec y)}
-        }{
-          2 E(\vec k)
-        }
-        & \vert & x^0 \lt 0
-        \\
-        0 & \vert & x^0 \gt 0
-      }
-    \right.
-     \\
-     & = \Delta_A(x,y)
-     \,,
-  \end{aligned}
-$$
+   <img src="https://ncatlab.org/nlab/files/ContourForAdvancedPropagator.png" height="280">
 
 
+1. Apply [[Cauchy's integral formula]] to find in the case $(x^0 - y^0)\gt 0$ the sum of the [[residues]] at these two [[poles]], zero in the other case.
 
-=--
+1. The result does not depend on $\epsilon$ anymore, therefore the [[limit of a sequence|limit]] $\epsilon \to 0$ is now computed trivially.
 
+This computation shows a) that the limiting distribution indeed exists, and b) that the [[support of a distribution|support]]
+of $\Delta_+$ is in the future, and that of $\Delta_-$ is in the past.
+
+Hence it only remains to see now that the support of $\Delta_\pm$ is inside the [[causal cone]].
+But this follows from the previous argument, by using that the [[Klein-Gordon equation]] is invariant under
+[[Lorentz transformations]].
 
 $\,$
 
+**2)**
 
-
-**Hadamard propagator**
-
-
-
-+-- {: .num_defn #StandardHadamardDistributionOnMinkowskiSpacetime}
-###### Definition
-**(standard [[Hadamard distribution]] on [[Minkowski spacetime]])**
-
-For $p \in \mathbb{N}$, the standard [[vacuum state|vacuum]] Hadamard distribution on [[Minkowski spacetime]] of [[dimension]] $(p+1)$ is (see the computation of [this prop.](scalar+field#IntegralKernelForPoissonBracketOfFreeScalarFieldOnMinkowskiSpacetime) at _[[scalar field]]_)
+A solution to the homogeneous equation (eq:FourierVersionOfPDEForKleinGordonCausalPropagator) is
+clearly given by the following [[delta distribution]] in the variable $k \in \mathbb{R}^{p,1}$
 
 $$
-  \label{2PointFunctionFreeScalarFieldOnMinkowski}
-  \begin{aligned}
-    \omega(x,y)
-     & \coloneqq
-    (2\pi)^{-p} \int \tfrac{1}{2 E(\vec k)} e^{- i E(\vec k) (x-y)^0 - \vec k \cdot (\vec x - \vec y)} d^{p} \vec k
-    \\
-    & =
-    (2\pi)^{-p} \int \delta( k_\mu k^\mu + m^2 ) \Theta_{BFV}( k_0 ) e^{ - i k_\mu (x-y)^\mu } d^{p+1} k
-    \,,
-  \end{aligned}
-$$
-
-(where the first line follows from the second by the [[change of integration variables]] via $k_0 = \sqrt{h}$).
-
-=--
-
-+-- {: .num_prop #ContourIntegralForStandardHadamardPropagatorOnMinkowskiSpacetime}
-###### Proposition
-**([[contour integral]] representation of standard Hadamard propagator on [[Minkowski spacetime]])**
-
-The standard Hadamard distribution on Minkowski spacetime from
-def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime} is
-equivalently given by the [[contour integral]]
-
-$$
-  \label{StandardHadamardPropagatorOnMinkowskiSpacetimeInTermsOfContourIntegral}
-  \omega(x,y)
-  \;=\;
-    -i(2\pi)^{-(p+1)}
-    \int
-    \oint_{C_+(\vec k)}
-     \frac{e^{-i k_\mu (x-y)^\mu}}{ k_\mu k^\mu + m^2 }
-    d k_0
-    d^{p} k
-  \,,
-$$
-
-where the [[Jordan curve]] $C_+(\vec k) \subset \mathbb{C}$ runs counter-clockwise, enclosing the point $+ E(\vec k) \in \mathbb{R} \subset \mathbb{C}$, but not enclosing the point $- E(\vec k) \in \mathbb{R} \subset \mathbb{C}$. (Compare the analogous expression for the [[causal propagator]] in [this equation](causal+propagator#eq:CausalPropagatorOnMinkowskiSpacetimeInTermsOfContourIntegral).)
-
-
-<img src="https://ncatlab.org/nlab/files/ContourForHadamardPropagator.png" height="200">
-
-> graphics grabbed from [Kocic 16](quantum+propagator#Kocic16)
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-[[Cauchy's integral formula]] says that the given contour integral picks up the [[residue]] of the [[pole]] of the [[integrand]] at $+ E(\vec k) \in \mathbb{R} \subset \mathbb{C}$:
-
-
-$$
-  \begin{aligned}
-    -i(2\pi)^{-(p+1)}
-    \int
-    \oint_{C_+(\vec k)}
-     \frac{e^{-i k_\mu (x-y)^\mu}}{ k_\mu k^\mu + m^2 }
-    d k_0
-    d^{p} k
-    & =
-    -i(2\pi)^{-(p+1)}
-    \int
-    \oint_{C_+(\vec k)}
-      \frac{
-        e^{-i k_0 x^0} e^{- i \vec k \cdot (\vec x - \vec y)}
-      }{
-        - k_0^2 + E(\vec k)^2
-      }
-    d k_0
-    d^p \vec k
-    \\
-    & =
-    -i(2\pi)^{-(p+1)}
-    \int
-    \oint_{C_+(\vec k)}
-      \frac{
-        e^{-i k_0 (x-y)^0} e^{- i \vec k \cdot (\vec x - \vec y)}
-      }{
-        ( E_\epsilon(\vec k) + k_0 )
-        ( E_\epsilon(\vec k) - k_0 )
-      }
-    d k_0
-    d^p \vec k
-    \\
-    & =
-    (2\pi)^{-p}
-     \int
-       \frac{1}{2 E(\vec k)}
-       e^{-i E(\vec k) (x-y)^2 e^{-i \vec k \cdot (\vec x - \vec y)}}
-    d^p \vec k
-    \\
-    & = \omega(x,y)
-    \,.
-  \end{aligned}
-$$
-
-=--
-
-$\,$
-
-
-**Feynman propagator**
-
-
-+-- {: .num_defn #FeynmanPropatorAsSumOfHadamardPropagatorWithAdvancedPropagator}
-###### Definition
-**([[Feynman propagator]] on [[globally hyperbolic spacetimes]])**
-
-Given a [[time orientation|time-oriented]] [[globally hyperbolic spacetime]] $\Sigma$ there exists a unique [[advanced causal propagator]] $\Delta_A \in \mathcal{D}'(\Sigma \times \Sigma)$ and a [[Hadamard propagator]] $\omega \in \mathcal{D}'(\Sigma \times \Sigma)$, unique up to addition of a regular distributio (a smooth function). Given a choice of $\omega$ (the [[vacuum state]]) then the corresponding _Feynman propagator_ is the sum
-
-$$
-  \omega_F \coloneqq \omega + i \Delta_A
+  \delta\left( -\eta^{\mu \nu} k_\mu k_\nu - \left( \tfrac{m c}{\hbar} \right)^2 \right)
+  \;\in\;
+  \mathcal{D}'(\mathbb{R}^{p,1})
   \,.
 $$
 
-=--
-
-(for [[Minkowski spacetime]] this is e.g. [Scharf 95 (2.3.41)](causal+perturbation+theory#Scharf95), for general [[globally hyperbolic spacetimes]] this is [Radzikowski 96, p. 5](Hadamard+state#Radzikowski96))
-
-On [[Minkowski spacetime]] this may be expressed as a sum of [[products of distributions]] of a [[Heaviside distribution]] in the time coordinate with the Hadamard distribution and its opposite, and this is often taken as the definition of the Feynman propagator. But the above formula applies to general [[globally hyperbolic spacetimes]].
-
-
-+-- {: .num_prop #ContourIntegralRepresentationOfStandardFeynmanPropagatorOnMinkowskiSpacetime}
-###### Proposition
-**([[contour integral]] presentation of standard [[Feynman propagator]] on [[Minkowski spacetime]])**
-
-For $p \in \mathbb{N}$, on [[Minkowski spacetime]] of [[dimension]] $p+1$ the Feynman propagator $\omega_F$ according to prop. \ref{FeynmanPropatorAsSumOfHadamardPropagatorWithAdvancedPropagator}, with respect to the standard [[vacuum state|vacuum]] [[Hadamard state]] ([this def.](Hadamard+distribution#StandardHadamardDistributionOnMinkowskiSpacetime)) is
+This is a [[tempered distribution]] (...)
+and so its [[Fourier transformation of distributions]] exist. We claim that this distribution
 
 $$
-  \label{ContourIntegralForStandardFeynmanPropagatorOnMinkowskiSpacetime}
-  \begin{aligned}
-    \omega_F(x,y)
-    & \coloneqq
-      -(2\pi)^{-(p+1)}
-      \int
-       \frac{e^{-i k_\mu (x-y)^\mu}}{ k_\mu k^\mu + m^2 + i0}
-    d^{p+1} k
-    \\ & \coloneqq
-      -(2\pi)^{-(p+1)}
-      \underset{\epsilon \to 0^+}{\lim}
-      \int
-      \int
-       \frac{
-         e^{-i k_\mu (x-y)^\mu}
-       }{
-         ( E(\vec k) + (k_0 - i \epsilon) )
-         ( E(\vec k) - (k_0 + i \epsilon) )
-       }
-      d k_0
-      d^{p} k
-  \end{aligned}
- \,.
+  \Delta(x-y)
+  \;\coloneqq\;
+  \frac{1}{(2\pi)^{p+1}}
+  \underset{\mathbb{R}^{p,1}}{\int}
+  e^{i k_\mu (x^\mu - y^\mu)}
+  \delta\left( -\eta^{\mu \nu} k_\mu k_\nu - \left( \tfrac{m c}{\hbar} \right)^2 \right)
+  \, d^{p+1}k
 $$
 
-(compare to [this computation](advanced+and+retarded+causal+propagators#eq:ContourIntegrationForCausalPropagator) at _[[advanced and retarded propagators]]_ to see the point of the notation "$+ i 0$" in the first line, and its definition by the second line).
+has [[support of a distribution|support]] in the [[causal cone]] of the origin $x-y = 0$, and hence is the
+[[causal propagator]].
 
-<img src="https://ncatlab.org/nlab/files/ContourForFeynmanPropagator.png" height="300">
-
-> graphics grabbed from ([Kocic 16](quantum+propagator#Kocic16))
+(...)
 
 =--
-
-(e.g. [Scharf 95 (2.3.44)](causal+perturbation+theory#Scharf95))
-
-
-+-- {: .proof}
-###### Proof
-
-We may compute the [[line integral]] in the second line of (eq:ContourIntegralForStandardFeynmanPropagatorOnMinkowskiSpacetime) by completing to a [[contour integral]] in the [[complex plane]]. For $(x^0 - y^0) \gt 0$ we have that $e^{-i k_0 (x^0 - y^0)}$ decays as the [[imaginary part]] of $k_0$ goes to $-\infty$, and hence in this case we need to close the contour in the [[lower half plane]]. Conversely, for $(x^0 - y^0) \lt 0$ we need to close the conour in the [[upper half plane]]. By the [[Cauchy integral formula]], in the first case we pick up the [[residue]] at the [[pole]] at $E(\vec k) - i \epsilon$ with a minus sign (because the contour in this case runs clockwise), while in the second case we pick up the residue at $-E(\vec k) + i \epsilon$ (without an extra minus sign, because in this case it runs counter-clockwise). Hence we get
-
-$$
-  \label{FeynmanPropagatorAsContourIntegral}
-  \begin{aligned}
-    \omega_F(x,y)
-    & =
-      \left\{
-        \array{
-      (2\pi)^{-p} \int \tfrac{1}{2 E(\vec k)} e^{- i E(\vec k) (x^0 - y^0) - \vec k \cdot (\vec x - \vec y)} d^{p} \vec k
-          & \vert & (x^0 - y^0) \gt 0
-          \\
-      (2\pi)^{-p} \int \tfrac{1}{2 E(\vec k)} e^{+ i E(\vec k) (x^0 - y^0) - \vec k \cdot (\vec x - \vec y)} d^{p} \vec k
-          & \vert & (x^0 - y^0) \lt  0
-        }
-      \right.
-    \\
-    & =
-    \left\{
-      \array{
-        \omega(x,y) & \vert & (x^0 - y^0) \gt 0
-        \\
-        \omega(y,x) & \vert & (x^0 - y^0) \lt 0
-      }
-    \right.
-  \end{aligned}
-$$
-
-(as befits the expectation value of the [[time-ordered product]] $T(\phi(x) \phi(y))$).
-
-On the other hand, by [this equation](advanced+and+retarded+causal+propagators#eq:AdvancedPropagatorAsSumOfResidues) for from the discussion at _[[advanced propagator]]_ and [this equation](Hadamard+distribution#eq:2PointFunctionFreeScalarFieldOnMinkowski) from the discussion at _[[Hadamard propagator]]_ we have
-
-$$
-  \begin{aligned}
-    i \Delta_A(x,y)
-    & =
-    \left\{
-      \array{
-        -
-        (2\pi)^{-p}
-        \int
-        \left(
-          \frac{
-            e^{-i E(\vec k) (x^0 - y^0) e^{-i \vec k \cdot (\vec x - \vec y)}}
-          }
-          {
-            2 E(\vec k)
-          }
-          -
-          \frac{
-            e^{ + i E(\vec k)(x^0 - y^0)} e^{-i \vec k \cdot (\vec x - \vec y)}
-          }{
-            2 E(\vec k)
-          }
-        \right)
-        & \vert & (x^0 - y^0) \lt 0
-        \\
-        0 & \vert & (x^0 - y^0) \gt 0
-      }
-    \right.
-    \\
-    \omega(x,y)
-    & =
-    (2\pi)^{-p} \int \tfrac{1}{2 E(\vec k)} e^{- i E(\vec k) (x-y)^0 - \vec k \cdot (\vec x - \vec y)} d^{p} \vec k
-  \end{aligned}
-  \,.
-$$
-
-Adding up the two lines and comparing with (eq:FeynmanPropagatorAsContourIntegral) shows that with $\omega_F$ as defined by (eq:ContourIntegralForStandardFeynmanPropagatorOnMinkowskiSpacetime) indeed satisfies the defining equation
-
-$$
-  \omega_F = \omega + i \Delta_A
-$$
-
-from def. \ref{FeynmanPropatorAsSumOfHadamardPropagatorWithAdvancedPropagator}.
-
-
-=--
-
 
 
 
