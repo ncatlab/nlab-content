@@ -720,7 +720,8 @@ This computation shows a) that the limiting distribution indeed exists, and b) t
 of $\Delta_+$ is in the future, and that of $\Delta_-$ is in the past.
 
 Hence it only remains to see now that the support of $\Delta_\pm$ is inside the [[causal cone]]. 
-This follows by (...?...).
+But this follows from the previous argument, by using that the [[Klein-Gordon equation]] is invariant under
+[[Lorentz transformations]].
 
 $\,$
 
