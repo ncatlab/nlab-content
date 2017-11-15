@@ -146,3 +146,6 @@ $$
 
 [[!redirects Fourier transform of a distribution]]
 [[!redirects Fourier transforms of a distribution]]
+
+[[!redirects Fourier transformation of distributions]]
+[[!redirects Fourier transformations of distributions]]
