@@ -3394,7 +3394,7 @@ and the Clifford action of prop. \ref{CliffordAlgebraInTermsOfNormedDivisionAlge
       \psi^\dagger \gamma^0
       \\
       & =
-      ( \xi^a, \xi^\dagger_{\dot a} )
+      ( \xi^a, \chi^\dagger_{\dot a} )
     \end{aligned}
   $$
 
@@ -8425,25 +8425,22 @@ $$
   \begin{aligned}
     i \overline{\psi} \gamma^\mu \psi_{,\mu}
     & =
+    i
     \underset{
       -(\partial_\mu \xi^a ) \sigma^\mu_{a \dot c} \xi^{\dagger \dot c}
-      + \partial_\mu(\xi^a \sigma^\mu_{a \dot c} \xi^{\dagger \dot c})
+      + \partial_\mu(\chi^a \sigma^\mu_{a \dot c} \chi^{\dagger \dot c})
     }{
     \underbrace{
       \xi^a \sigma^\mu_{a \dot c} \partial_\mu \xi^{\dagger \dot c}
     }
     }
-      +
-    \xi^\dagger_{\dot a} \tilde \sigma^{\mu \dot a c} \partial_\mu \xi_c
     +
-    \xi^a \chi_a + \chi^\dagger_{\dot a} \xi^{\dagger \dot a}
+    \xi^\dagger_{\dot a} \tilde \sigma^{\mu \dot a c} \partial_\mu \xi_c
     \\
     & =
     \xi^\dagger \tilde \sigma^\mu \partial_\mu \xi
     +
-    \xi^\dagger \tilde \sigma^\mu \partial_\mu \xi
-    +
-    m \chi \xi + m \xi^\dagger \chi^\dagger
+    \chi^\dagger \tilde \sigma^\mu \partial_\mu \chi
     +
     \partial_\mu(\xi \sigma^\mu \xi^\dagger)
   \end{aligned}
@@ -8453,7 +8450,7 @@ Here the computation shown under the brace crucially uses that all these jet coo
 for the Dirac field are anti-commuting, due to their [[supergeometry|supergeometric]] nature (eq:DiracFieldJetCoordinatesAnticommute).
 
 Notice that a priori this is a function on the jet bundle with values in $\mathbb{K}$.
-But in fact for $\mathbb{K} = \mathbb{C}$ it is real up to a [[total spacetime derivative]]:
+But in fact for $\mathbb{K} = \mathbb{C}$ it is real up to a [[total spacetime derivative]]:, because
 
 $$
   \begin{aligned}
@@ -8466,12 +8463,13 @@ $$
     & =
     i \chi^\dagger \sigma^\mu \partial_\mu \chi + i \partial_\mu\left( \chi^\dagger \sigma^\mu \chi \right)
   \end{aligned}
-  \,.
 $$
+
+and similarly for $i \xi^\dagger \tilde \sigma^\mu  \partial_\mu\xi$
 
 =--
 
-(e.g. [Dermisek I-9](Dirac+field#Dermisek))
+(e.g. [Dermisek I-9](Dirac+field#DermisekI9))
 
 $\,$
 
@@ -8488,7 +8486,7 @@ simple relation in the [[variational bicomplex]]:
 **([[Euler-Lagrange form]] and [[presymplectic current]])**
 
 Given a [[Lagrangian density]] $\mathbf{L} \in \Omega^{p+1,0}_\Sigma(E)$ as in def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}, then its de Rham differential
-$\mathbf{L}\mathbf{L}$, which by degree reasons equals $\delta \mathbf{L}$, has a _unique_ decomposition as a sum of two terms
+$\mathbf{d}\mathbf{L}$, which by degree reasons equals $\delta \mathbf{L}$, has a _unique_ decomposition as a sum of two terms
 
 $$
   \label{dLDecomposition}
@@ -8555,7 +8553,7 @@ $$
   \left\{
     x \in J^\infty_\Sigma(E)
     \;\vert\;
-    \delta_{EL}\mathbf{L}\vert_x = 0
+    \delta_{EL}\mathbf{L}(x) = 0
   \right\}
   \;\overset{i_{\mathcal{E}}}{\hookrightarrow}\;
   J^\infty_\Sigma(E)
@@ -8571,12 +8569,12 @@ $$
   \mathcal{E}^\infty
    \;\coloneqq\;
   \left\{
-    q \in J^\infty_\Sigma(E)
+    x \in J^\infty_\Sigma(E)
     \;\vert\;
     \left(
       \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}}
       \delta_{EL}\mathbf{L}
-    \right)\vert_x = 0
+    \right)(x) = 0
   \right\}
    \overset{i_{\mathcal{E}^\infty}}{\hookrightarrow}
   J^\infty_\Sigma(E)
@@ -9628,7 +9626,7 @@ is called a _[[free field theory]]_ if its [[Euler-Lagrange equation|Euler-Lagra
 [[differential equation]] that is _[[linear differential equation]]_, in that with
 
 $$
-  \Phi_1, \Phi_2 \;\in\; \Gamma_\Sigma(E)_{\delta_{EL}\mathfb{L} = 0}
+  \Phi_1, \Phi_2 \;\in\; \Gamma_\Sigma(E)_{\delta_{EL}\mathbf{L} = 0}
 $$
 
 any two [[on-shell]] [[field histories]] (eq:OnShellFieldHistories) and $c_1, c_2 \in \mathbb{R}$
@@ -12837,7 +12835,7 @@ or the [[Dirac equation]] (example \ref{GreenHyperbolicDiracOperator}). Then:
    
 1. The linear on-shell [[observables]] (def. \ref{LinearObservables}) are equivalently 
    those spacelike compactly supported [[distribution|compactly distributional sections]]  (def. \ref{DistributionalSections})
-   which are [[distributionalsolution of a PDE|distributional solutions]] of the [[formally adjoint differential operator|formally adjoint]] [[equations of motion]] (def. \ref{FormallyAdjointDifferentialOperators}), and this isomorphism is exhibited by precomposition with the [[causal propagator]] $\mathrm{G}$:
+   which are [[distributional solution of a PDE|distributional solutions]] of the [[formally adjoint differential operator|formally adjoint]] [[equations of motion]] (def. \ref{FormallyAdjointDifferentialOperators}), and this isomorphism is exhibited by precomposition with the [[causal propagator]] $\mathrm{G}$:
    
    $$
      LinObs(E,\mathbf{L})
@@ -12857,7 +12855,7 @@ or the [[Dirac equation]] (example \ref{GreenHyperbolicDiracOperator}). Then:
 
 The first statement follows with prop. \ref{LinearObservablesAreTheCompactlySupportedDistributions}
 applied componentwise. The same proof applies verbatim to the subspace of solutions,
-showing that $LinObs(E,\mathbf{L}) \simeq \left( ker(P)\right)^\ast$, with the [[dual tpological vector space]] on the right.
+showing that $LinObs(E,\mathbf{L}) \simeq \left( ker(P)\right)^\ast$, with the [[dual topological vector space]] on the right.
 With this the second statement follows by prop. \ref{DistributionsOnSolutionSpaceAreTheGeneralizedPDESolutions}.
 
 =--
