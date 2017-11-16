@@ -795,6 +795,8 @@ By the above definition, any structure in $sVect$ works just like the correspond
 
 * [[superdeterminant]]
 
+* [[super vector bundle]]
+
 * [[geometry of physics -- supergeometry]]
 
 ## References
