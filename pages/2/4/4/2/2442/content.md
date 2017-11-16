@@ -1,68 +1,7 @@
 
-<div class="rightHandSide toc">
-[[!include supergeometry - contents]]
-</div>
-
-# Contents
-* autoamtic table of contents goes here
-{: toc}
-
-
 ## Idea
 
-An ordinary  smooth [[vector bundle]] on a [[manifold]] $X$ may be identified with its [[sheaf]] of [[section]]s, which is a locally free sheaf of modules over its [[structure sheaf]] and all such locally free module sheaves arise this way.
-
-The definition of vector bundles in terms of sheaves of sections therefore immediately generalizes to every [[ringed space]] and in particular to [[supermanifold]]s.
+The concept of _super vector bundle_ is the generalization of that of _[[smooth vector bundle]]_ from [[differential geometry]] to [[supergeometry]]: A super vector bundle is a [[fiber bundle]] over a [[supermanifold]] whose [[fibers]] are [[super vector spaces]] in a compactible way.
 
 
-## Definition
-
-A **super vector bundle** over a [[supermanifold]] $X$ is a locally free [[sheaf]] on the [[category of open subsets]] of $|X|$ of modules for the [[structure sheaf]] $O_X$.
-
-
-## Examples
-
-### Super tangent bundles
-
-The [[tangent bundle]] of an ordinary [[manifold]] has the sheaf of sections given by the [[derivation]]s of the [[structure sheaf]]. The same definition works here:
-
-the **super tangent bundle** $T X$ of a [[supermanifold]] $X$ is given by the sheaf $U \mapsto Der O_X(U)$.
-
-so a super tangent vector field is a global section of this sheaf of derivations. 
-
-+-- {: .un_example}
-###### Example
-On the  [[supermanifold]] $\mathbb{R}^{1|1}$ with its canonical coordinates
-
-$$
-  t \in C^\infty(\mathbb{R}^{1|1})^{ev}
-$$
-
-$$
-  \theta \in C^\infty(\mathbb{R}^{1|1})^{odd}
-$$
-
-there is the odd vector field
-
-$$
-  D := \partial_\theta + \theta \cdot \partial_{t}
-$$
-
-whose super Lie bracket with itself vanishes
-
-$$
-  [D, D] = 0
-  \,.
-$$
-=--
-
-+-- {: .un_thm}
-###### Claim
-This odd vector field $D$ is left invariant with respect to the [[supergroup|super translation group]] structure on $\mathbb{R}^{1|1}$.
-=--
-
-This means that $Lie(\mathbb{R}^{1|1})$ is free on one odd generator.
-
-
-[[!redirects super vector bundle]]
 [[!redirects super vector bundles]]
