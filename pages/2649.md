@@ -143,7 +143,7 @@ If $X \in Ob(C)$ is connected and $X \to Y$ is an [[epimorphism]], then $Y$ is c
 +-- {: .proof} 
 ###### Proof 
 
-Certainly $Y$ is not [[initial object|initial]], because initial objects in extensive categories are [[strict initial object|strict]]. Suppose $Y = U + V$ (see theorem \ref{Scholium} above), so that we have an epimorphism $X \to U + V$. By connectedness of $X$, this epi factors through one of the summands, say $U$. But then the inclusion $U \hookrightarrow U + V$ is epi. This forces $V$ to be initial. 
+Certainly $Y$ is not [[initial object|initial]], because initial objects in extensive categories are [[strict initial object|strict]]. Suppose $Y = U + V$ (see theorem \ref{Scholium} above), so that we have an epimorphism $X \to U + V$. By connectedness of $X$, this epi factors through one of the summands, say $U$. But then the inclusion $i_U: U \hookrightarrow U + V$ is epic, in fact an epic equalizer of two maps $U + i_1, U + i_2: U + V \rightrightarrows U + V + V$. This means $i_U$ is an isomorphism; by disjointness of coproducts, this forces $V$ to be initial. Of course $U$ is not initial; otherwise $Y$ would be initial. 
 
 =--
 
