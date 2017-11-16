@@ -1,5 +1,82 @@
 
 
+Let
+
+$$
+  \array{
+    LinObs(E)^{smooth}
+      &\coloneq& 
+    \Gamma_{\Sigma,cp}(E^\ast)
+      &\overset{\text{dense}}{\hookrightarrow}&
+    \Gamma'_{\Sigma,cp}(E^\ast)
+      &\simeq&
+    LinObs(E)
+    \\
+    \downarrow
+    \\
+    LinObs^{smooth}(E,\mathbf{L})
+      &\coloneqq&
+    \Gamma_{\Sigma,cp}(E^\ast)/im(P)
+  }
+$$
+
+$$
+  LinObs(E)^{smooth}
+    \longrightarrow
+  LinObs(E,\mathbf{L})^{smooth}
+    \overset{\mathrm{G}}{\longrightarrow}
+  Gamma_{\Sigma,scp}(E)
+$$
+
+$$
+  \omega( \mathrm{G}(-), - )  
+   =
+  ev
+  \;\colon\;
+  LinObs(E)^{smooth} \otimes \Gamma_{\Sigma,cp}(E)
+  \longrightarrow
+  \mathbb{R}
+$$
+
+in that
+
+$$
+  \omega(\mathrm{G}(\alpha^\ast),\Phi)
+  \;=\;
+  \underset{\Sigma}{\int} 
+    \alpha^\ast \cdot \Phi
+   dvol_\Sigma
+$$
+
+Therefore
+
+$$
+  \pi
+    \;\coloneqq\;
+  \omega(\mathrm{G}(-), \mathrm{G}(-))
+    \;\colon\;
+  LinObs(E,\mathbf{L})^{smooth} \otimes LinObs(E,\mathbf{L})^{smooth} 
+  \longrightarrow
+  \mathbb{R}
+$$
+
+is the [[Poisson bracket]] corresponding to $\omega$. 
+
+
+In fact this is the _covariant Poisson bracket_ in that it is indeed defined already off-shell 
+
+$$
+  \pi
+    \;\coloneqq\;
+  \omega(\mathrm{G}(-), \mathrm{G}(-))
+    \;\colon\;
+  LinObs(E)^{smooth} \otimes LinObs(E)^{smooth} 
+  \longrightarrow
+  \mathbb{R}
+$$
+
+
+Let $V$ be a [[vector space]] (not necessarily a [[finite dimensional vector space]])
 
 
 $$
