@@ -1,4 +1,38 @@
 
+in that the [[pullback of differential forms|pullback]] (def. \ref{PullbackOfDifferential1FormsOnCartesianSpaces})
+along the [[shell]] inclusion $\mathcal{E} \overset{i_{\mathcal{E}}}{\hookrightarrow} J^\infty_\Sigma(E)$ (eq:ShellInJetBundle)
+vanishes:
+
+$$
+  \begin{aligned}
+    (i_{\mathcal{E}})^\ast
+    \left(
+     d \Omega_{BFV}
+    \right)
+    & =
+    - (i_{\mathcal{E}})^\ast
+    \left(
+     \delta \delta_{EL} \mathcal{L}
+    \right)
+    \\
+    & =
+    - \delta
+    \underset{
+      ...
+    }{
+    \underbrace{
+    (i_{\mathcal{E}})^\ast
+    \left(
+      \delta_{EL} \mathbf{L}
+    \right)
+    }
+    }
+    \\
+    & = 0
+  \end{aligned}
+$$
+
+
 
 +-- {: .num_defn #VerticalCotangentBundle}
 ###### Definition
@@ -99,7 +133,7 @@ $$
   \begin{aligned}
     \Gamma_{\Sigma,cp}(T^\ast_\Sigma E)
     & =
-    \Gamma_{\Sigma,cp}( E \timde_\Sigma E^\ast)
+    \Gamma_{\Sigma,cp}( E \times_\Sigma E^\ast)
     \\
     &\simeq
     \Gamma_{\Sigma,cp}(E) \times \Gamma_{\Sigma,cp}(E^\ast)
@@ -120,5 +154,24 @@ $$
      \alpha^a(x) 
      \mathbf{P}_a^\mu(x)
    \iota_{\partial_\mu} dvol_\Sigma(x)
+$$
+
+$$
+  A(x) \mathbf{\Phi}^a(x)
+  =
+  \left(
+    A(0,\vec x) + \epsilon \partial_0 A(0,\vec x)
+  \right)
+  \left(
+    \Phi^a(0,\vec x) + \epsilon \partial_0 \mathbf{\Phi}^a(0,\vec x)
+  \right)
+  =
+  A(0,\vec x) \mathbf{\Phi}^a(0,\vec x)
+  +
+  \epsilon\left(
+    A(0,\vec x) \partial_0 \mathbf{\Phi}(0,\vec x)
+    + 
+    \partial_0 A(0,\vec x) \mathbf{\Phi}(0,\vec x)
+  \right)
 $$
 
