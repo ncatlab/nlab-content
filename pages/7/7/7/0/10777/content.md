@@ -21,7 +21,7 @@ For $X$ a [[filtered object|filtered]] [[space]] entities like [[quasicoherent s
 Section 2.1.3 of
 
 * [[Dylan Wilson]] _Spectral Sequences from Sequences of Spectra: Towards the
-Spectrum of the Category of Spectra_ lecture at [2013 Pre-Talbot Seminar](http://math.northwestern.edu/~htanaka/pretalbot2013/index.php) ([pdf](http://math.northwestern.edu/~htanaka/pretalbot2013/notes/2013-03-21-Dylan-Wilson-ANSS.pdf))
+Spectrum of the Category of Spectra_ lecture at [2013 Pre-Talbot Seminar](http://math.northwestern.edu/~htanaka/pretalbot2013/index.php) ([pdf](https://ncatlab.org/nlab/files/DylanWilsonOnANSS.pdf))
  {#Wilson13}
 
 [[!redirects filtrations by support]]
