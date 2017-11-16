@@ -82,7 +82,7 @@ In many cases, initial algebras can be constructed in [[recursion|recursive]] fa
 +-- {: .num_theorem #AdameksTheorem}
 ######Theorem (Ad&#225;mek) 
 
-Let $C$ be a category with an [[initial object]] $0$ and [[transfinite composition]] of lengh $\omega$, hence [[colimits]] of sequences $\omega \to C$ (where $\omega$ is the first infinite [[ordinal]]), and suppose $F: C \to C$ preserves colimits of $\omega$-chains. Then the colimit $\gamma$ of the chain 
+Let $C$ be a category with an [[initial object]] $0$ and [[transfinite composition]] of length $\omega$, hence [[colimits]] of sequences $\omega \to C$ (where $\omega$ is the first infinite [[ordinal]]), and suppose $F: C \to C$ preserves colimits of $\omega$-chains. Then the colimit $\gamma$ of the chain 
 
 $$0 \overset{i}{\to} F(0) \overset{F(i)}{\to} \ldots \to F^{(n)}(0) \overset{F^{(n)}(i)}{\to} F^{(n+1)}(0) \to \ldots$$ 
 
