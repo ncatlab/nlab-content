@@ -64,6 +64,9 @@ Swansea University, 2013.  [PDF](http://cs.swan.ac.uk/~csfnf/thesis/thesis.pdf)
 
 * {#QIIT}  Thorsten Altenkirch, Paolo Capriotti, Gabe Dijkstra, Fredrik Nordvall Forsberg, _Quotient inductive-inductive types_, [arXiv](https://arxiv.org/abs/1612.02346), 2016
 
+* Ambrus Kaposi, Andr&#225;s Kov&#225;cs, _[Codes for quotient inductive inductive types](https://akaposi.github.io/qiit.pdf)_
+
+
 Parts of the above text are taken from 
 
 * [[homotopytypetheory:HomePage|Homtopy Type Theory Wiki]], _[[homotopytypetheory:inductive-inductive type]]_
