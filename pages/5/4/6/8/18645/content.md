@@ -11454,8 +11454,8 @@ and in this case all [[observables]] are in fact given by such multilinear obser
 For a [[free field theory]] (def. \ref{FreeFieldTheory}) whose [[Euler-Lagrange equations|Euler-Lagrange]] [[equations of motion]] are given by a [[linear differential operator]] which behaves well in that it is  "[[Green hyperbolic differential operator|Green hyperbolic]]" (def. \ref{GreenHyperbolicDifferentialOperator} below) it follows that the actual [[on-shell]] linear observables are equivalently those off-shell observables which are
 _spatially [[compactly supported distribution|compactly supported]] [[distributional solution of a PDE|distributional solutions]]_ to the [[formally adjoint differential operator|formally adjoint]]
 [[equation of motion]] (prop. \ref{DistributionsOnSolutionSpaceAreTheGeneralizedPDESolutions} below);
-and this equivalence is exhibited by [[composition]] with the _[[causal Green function]]_ 
-(def. \ref{AdvancedAndRetardedGreenFunctions} below): 
+and this equivalence is exhibited by [[composition]] with the _[[causal Green function]]_
+(def. \ref{AdvancedAndRetardedGreenFunctions} below):
 
 This is theorem \ref{LinearObservablesForGreeFreeFieldTheoryAreDistributionalSolutionsToTheEquationsOfMotion} below,
 which is pivotal for passing from [[classical field theory]] to [[quantum field theory]]:
@@ -11487,10 +11487,10 @@ $$
 $$
 
 This fact makes, in addition, the distributional analysis of [[linear differential equations]]
-available for the analysis of [[free field theory]], notably the theory of _[[propagators]]_, such as _[[Feynman propagators]]_, which we turn to 
+available for the analysis of [[free field theory]], notably the theory of _[[propagators]]_, such as _[[Feynman propagators]]_, which we turn to
 in _[Propagators](#Propagators)_ below.
 
-The [[functional analysis]] and [[microlocal analysis]] of linear [[observables]] re-expressed in [[distribution|distribution theory]] 
+The [[functional analysis]] and [[microlocal analysis]] of linear [[observables]] re-expressed in [[distribution|distribution theory]]
 via theorem \ref{LinearObservablesForGreeFreeFieldTheoryAreDistributionalSolutionsToTheEquationsOfMotion} solves the
 issues that the original formulation of [[perturbative quantum field theory]] by [[Schwinger-Tomonaga-Feynman-Dyson]] in the 1940s
 was notorious for suffering from ([Feynman 85](Schwinger-Tomonaga-Feynman-Dyson#Feynman85SuchABunchOfWords)): The [[normal ordered product]] of
@@ -11739,6 +11739,46 @@ $$
 $$
 
 to their $U$-parameterized collection of values at $x$ of their $a$-th component.
+
+Notice how the various aspects of the concept of "field" are involved here, all closely related
+but crucially different:
+
+$$
+  \array{
+    \mathbf{\Phi}^a(x)
+    &\colon&
+    \Phi
+    &\overset{\phantom{AA}}{\mapsto}&
+    \Phi^a(x)
+    &=&
+    \phi^a & \circ \Phi(x)
+    \\
+    \array{
+      \text{field}
+      \\
+      \text{observable}
+    }
+    &&
+    \array{
+      \text{field}
+      \\
+      \text{history}
+    }
+    &&
+    \array{
+      \text{field}
+      \\
+      \text{value}
+    }
+    &&
+    \array{
+      \text{field}
+      \\
+      \text{component}
+    }
+  }
+$$
+
 
 =--
 
@@ -12608,7 +12648,7 @@ $$
 $$
 
 By the _[[Schwartz kernel theorem]]_ the continuity of $\mathrm{G}_{\pm}, \mathrm{G}$
-implies that there are [[integral kernels]] 
+implies that there are [[integral kernels]]
 
 $$
   \Delta_{\pm}  \;\in\; \Gamma'_{\Sigma \times \Sigma}( E \boxtimes_\Sigma E^\ast )
@@ -12808,7 +12848,7 @@ $$
 
 =--
 
-This follows from the [[exact sequence]] in lemma \ref{ExactSequenceOfGreenHyperbolicSystem}. 
+This follows from the [[exact sequence]] in lemma \ref{ExactSequenceOfGreenHyperbolicSystem}.
 For details of the **proof** see at _[[Green hyperbolic differential operator]]_ [this prop.](Green+hyperbolic+partial+differential+equation#DistributionsOnSolutionSpaceAreTheGeneralizedPDESolutions),
 due to [[Igor Khavkine]].
 
@@ -12823,20 +12863,20 @@ Let $(E,\mathbf{L})$ be a [[Lagrangian field theory|Lagrangian]] [[free field th
 whose [[Euler-Lagrange equation|Euler-Lagrange]] [[differential equation|differential]] [[equation of motion]] $P \Phi = 0$ (def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime}) is [[Green hyperbolic differential equation|Green hyperbolic]] (def. \ref{GreenHyperbolicDifferentialOperator}), such as the [[Klein-Gordon equation]] (example \ref{GreenHyperbolicKleinGordonEquation})
 or the [[Dirac equation]] (example \ref{GreenHyperbolicDiracOperator}). Then:
 
-1. The linear off-shell observables (def. \ref{LinearObservables}) are equivalently the 
+1. The linear off-shell observables (def. \ref{LinearObservables}) are equivalently the
    [[compactly supported distribution|compactly supported distributional sections]]  (def. \ref{DistributionalSections})
    of the [[dual vector bundle]] (def. \ref{DualVectorBundle}) of the [[field  bundle]]:
-   
+
    $$
      LinObs(E)^{offshell}
       \;\simeq\;
      \Gamma'_{\Sigma,cp}(E^\ast)
    $$
-   
-1. The linear on-shell [[observables]] (def. \ref{LinearObservables}) are equivalently 
+
+1. The linear on-shell [[observables]] (def. \ref{LinearObservables}) are equivalently
    those spacelike compactly supported [[distribution|compactly distributional sections]]  (def. \ref{DistributionalSections})
    which are [[distributional solution of a PDE|distributional solutions]] of the [[formally adjoint differential operator|formally adjoint]] [[equations of motion]] (def. \ref{FormallyAdjointDifferentialOperators}), and this isomorphism is exhibited by precomposition with the [[causal propagator]] $\mathrm{G}$:
-   
+
    $$
      LinObs(E,\mathbf{L})
       \;\underoverset{\simeq}{\phantom{A} \mathrm{G}_P \phantom{A}}{\longleftarrow}\;
@@ -16125,13 +16165,34 @@ $\,$
  {#GaugeSymmetries}
 
 The existence of the [[covariant phase space]] (prop. \ref{CovariantPhaseSpace}) of a [[Lagrangian field theory]]
-requires the existence of [[Cauchy surfaces]] (def. \ref{CauchySurface}) for its [[Euler-Lagrange equation|Euler-Lagrange]] [[equations of motion]]. In general these may not exist. An [[obstruction]] to their existence turns out to be (prop. \ref{NonTrivialImplicitInfinitesimalGaugeSymmetriesPbstructExistenceOfCauchySurfaces} below)
+requires the existence of [[Cauchy surfaces]] (def. \ref{CauchySurface}) for its [[Euler-Lagrange equation|Euler-Lagrange]] [[equations of motion]], hence requires that the [[equations of motion]] are [[Green hyperbolic differential equation|Green hyperbolic]] (def. \ref{GreenHyperbolicDifferentialOperator}).
+
+We have seen that this is the case for instance for the [[scalar field]] (example \ref{GreenHyperbolicKleinGordonEquation})
+and the [[Dirac field]] (example \ref{GreenHyperbolicDiracOperator}), but it is not the case generally,
+for instance it fails for the [[electromagnetic field]] (example \ref{ElectromagnetismEl})
+An [[obstruction]] to the existence of the [[covariant phase space]] turns out to be (prop. \ref{NonTrivialImplicitInfinitesimalGaugeSymmetriesPbstructExistenceOfCauchySurfaces} below)
 the presence of [[infinitesimal symmetries of the Lagrangian]] (def. \ref{SymmetriesAndConservedCurrents})
 that have compact spacetime support (def. \ref{SpacetimeSupport}).
 
+
+An obvious candidate example of such are
+[[infinitesimal symmetries of the Lagrangian]] which occur
+linearly _parameterized_  by arbitrary [[sections]] (and their [[derivatives]]) of some [[vector bundle]] on [[spacetime]]:
+Because then for every choice of section of [[compact support]] the corresponding symmetry will have
+compact spacetime support.
+Typically all compactly supported [[infinitesimal symmetries of the Lagrangian]]
+arise from parameterized symmetries this way; this is notably the case for the [[Lagrangian density]] of the [[electromagnetic field]] (example \ref{InfinitesimalGaugeSymmetryElectromagnetism}) and more generally of the [[Yang-Mills field]].
+These parameterized [[infinitesimal symmetries of the Lagrangian]] we call _implicit [[infinitesimal gauge symmetries]]_,
+and their parameters we call the _[[gauge parameters]]_ (def. \ref{GaugeParametrizedInfinitesimalGaugeTransformation} below).
+
+Therefore the presence of [[infinitesimal symmetries of the Lagrangian]] with compact spacetime support is a defect of the theory
+which however implies its own solution, by indicating which [[relations]] ought to be promoted
+to "[[gauge equivalences|gauge]]" [[equivalences]]. Therefore we call these the _implicit [[infinitesimal gauge symmetries]]_
+(remark \ref{ImplicitGaugeTransformationTerminology} below).
+
+
 This obstruction is neatly
-captured by the [[cochain cohomology]] of a [[cochain complex]] which is induced by the [[equations of motion]],
-called the _local [[BV-complex]]_ (def. \ref{BVComplexOfOrdinaryLagrangianDensity}) of the Lagrangian theory.
+captured by the [[cochain cohomology]] of the _local [[BV-complex]]_ (def. \ref{BVComplexOfOrdinaryLagrangianDensity}) of the Lagrangian field theory (prop. \ref{BVComplexIsHomologicalResolutionPreciselyIfNoNonTrivialImplicitGaugeSymmetres} below).
 This may be understood as the [[algebra of functions]] on an extension of the [[jet bundle]] from a
 (locally pro-finite dimensional, prop. \ref{InfinitesimalActionByLieAlgebra}) [[smooth manifold]] to
 a [[differential graded manifold]].
@@ -16143,18 +16204,7 @@ by the [[action]] of these compactly supported symmetries (the "[[action Lie alg
 Passing to this [[homotopy quotient]]
 means to hard-wire into the geometry of the  types of [[field (physics)|field]] their _[[equivalence]]_ under these symmetries: in physics this is called _[[gauge equivalence]]_.  The result is called the "[[reduced phase space]]", which we turn to further [below](#ReducedPhaseSpace).
 
-Therefore the presence of [[infinitesimal symmetries of the Lagrangian]] with compact spacetime support is a defect of the theory
-which however implies its own solution, by indicating which [[relations]] ought to be promoted
-to "[[gauge equivalences|gauge]]" [[equivalences]]. Therefore we call these the _implicit [[infinitesimal gauge symmetries]]_
-(remark \ref{ImplicitGaugeTransformationTerminology} below).
 
-An obvious candidate class of such implicit infinitesimal gauge transformations are
-[[infinitesimal symmetries of the Lagrangian]] which appear
-linearly _parameterized_  by arbitrary [[sections]] (and their [[derivatives]]) of some [[vector bundle]] on [[spacetime]]:
-Because then for every such section of [[compact support]] the corresponding symmetry will have
-compact spacetime support and hence be an implicit gauge symmetry. Therefore such sections are
-called _[[gauge parameters]]_ (def. \ref{GaugeParametrizedInfinitesimalGaugeTransformation} below). In applications typically all implicit [[infinitesimal gauge transformations]]
-come from [[gauge parameters]] this way, notably so for the theory of [[electromagnetism]] (example \ref{InfinitesimalGaugeSymmetryElectromagnetism}) and more generally [[Yang-Mills theory]].
 
 
 $\,$
