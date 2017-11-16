@@ -1,37 +1,51 @@
 
-in that the [[pullback of differential forms|pullback]] (def. \ref{PullbackOfDifferential1FormsOnCartesianSpaces})
-along the [[shell]] inclusion $\mathcal{E} \overset{i_{\mathcal{E}}}{\hookrightarrow} J^\infty_\Sigma(E)$ (eq:ShellInJetBundle)
-vanishes:
+
+
 
 $$
-  \begin{aligned}
-    (i_{\mathcal{E}})^\ast
-    \left(
-     d \Omega_{BFV}
-    \right)
-    & =
-    - (i_{\mathcal{E}})^\ast
-    \left(
-     \delta \delta_{EL} \mathcal{L}
-    \right)
-    \\
-    & =
-    - \delta
-    \underset{
-      ...
-    }{
-    \underbrace{
-    (i_{\mathcal{E}})^\ast
-    \left(
-      \delta_{EL} \mathbf{L}
-    \right)
-    }
-    }
-    \\
-    & = 0
-  \end{aligned}
+  \omega(-,-)
+  \;\colon\;
+  V \otimes V 
+  \longrightarrow
+  k
 $$
 
+$$
+  \omega = \omega_{i j} d x^i \wedge d x^j
+$$
+
+$$
+  \mathrm{G}
+  \;\colon\;
+  V^\ast
+    \longrightarrow
+  V
+$$
+
+$$
+  \mathrm{G} = \mathrm{G}^{i j} \partial_i \partial_j
+$$
+
+
+$$
+  \omega(G(-),-)
+  =
+  ev
+  \;\colon\;
+  V^\ast \otimes V
+  \longrightarrow
+  k
+$$
+
+$$
+  \pi
+  \coloneqq
+  \omega( \mathrm{G}(-), \mathrm{G}(-) )
+  \;\colon\;
+  V^\ast \otimes V^\ast
+  \longrightarrow
+  k
+$$
 
 
 +-- {: .num_defn #VerticalCotangentBundle}
