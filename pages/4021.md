@@ -136,7 +136,7 @@ For a setting of probability theory within category theory see
 
 * [[Kirk Sturtz]], _Categorical Probability Theory_ ([arXiv:1406.6030](https://arxiv.org/abs/1406.6030))
 
-For a more convenient setting for 'higher-order' probability theory, that is, one which admits higher-order functions, the following article uses the [[cartesian closed category]] of quasi-Borel spaces rather than the category of measurable spaces:
+For a more convenient setting for 'higher-order' probability theory, that is, one which admits higher-order functions, the following article uses the [[cartesian closed category]] of [[quasi-Borel space|quasi-Borel spaces]] rather than the category of measurable spaces:
 
 * [[Chris Heunen]], Ohad Kammar, Sam Staton, Hongseok Yang, _A Convenient Category for Higher-Order Probability Theory_, ([arXiv:1701.02547](https://arxiv.org/abs/1701.02547))
 
