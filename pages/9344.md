@@ -9,8 +9,11 @@
 
 * [[quotient stack]]
 
+* [[BRST complex]]
+
 * In [[type theory]]/[[homotopy type theory]] the analogous concept is that of [[quotient types]].
 
+* [[derived intersection]]
 
 [[!redirects weak quotient]]
 
