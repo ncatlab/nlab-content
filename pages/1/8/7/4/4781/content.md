@@ -37,3 +37,7 @@ A [[differential form]] on $P$ is a [[horizontal differential form]] with respec
 
 [[!redirects vertical vector bundle]]
 [[!redirects vertical vector bundles]]
+
+[[!redirects vertical cotangent bundle]]
+[[!redirects vertical cotangent bundles]]
+
