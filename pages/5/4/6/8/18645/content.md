@@ -11776,7 +11776,7 @@ inherits the structure of a [[super vector space|super]] [[vector space]] by spa
 Then an [[off-shell]] [[observable]] (def. \ref{Observables})
 
 $$
-  A \;\colon\; \Gamma_\Sigma(E)_{\delta_{EL}\mathbf{L} = 0} \longrightarrow \mathbb{C}
+  A \;\colon\; \Gamma_\Sigma(E) = 0} \longrightarrow \mathbb{C}
 $$
 
 is a _linear observable_ if it is a [[linear function]] with respect to this vector space structure, hence if
@@ -12328,9 +12328,7 @@ $\,$
 
 Given a [[pair]] of [[formally adjoint differential operators]] $P, P^\ast \colon \Gamma_\Sigma(E) \to \Gamma_\Sigma(E^\ast)$
 (def. \ref{FormallyAdjointDifferentialOperators})
-then the _[[derivative of distributions|distributional derivative]]_
-of a [[distribution|distributional section]] $u \in \Gamma'_\Sigma(E)$ (def. \ref{DistributionalSections})
-by $P$ is the distributional section $P u \in \Gamma'_\Sigma(E^\ast)$
+then, for any [[distribution|distributional section]] $u \in \Gamma'_\Sigma(E)$ (def. \ref{DistributionalSections}), the distributional section $P u \in \Gamma'_\Sigma(E^\ast)$ is defined by extending $P$ to distributions using _[[derivative of distributions|distributional derivatives]]_, namely 
 
 $$
   P u
@@ -12346,7 +12344,7 @@ $$
 $$
 
 then we say that $u$ is a [[distributional solution]] (or [[generalized solution]]) of the homogeneous [[differential equation]]
-defined by $P$.
+defined by $P$. Same goes for $P^*$.
 
 =--
 
@@ -12414,7 +12412,7 @@ the term $K(\Phi,b)$ in def. \ref{FormallyAdjointDifferentialOperators} does not
 
 
 
-+-- {: .num_defn #AdvancedAndRetardedGreenFuntions}
++-- {: .num_defn #AdvancedAndRetardedGreenFunctions}
 ###### Definition
 **([[advanced and retarded Green functions]] and [[causal Green function]])**
 
@@ -12552,7 +12550,7 @@ The [[advanced and retarded Green functions]] (def. \ref{AdvancedAndRetardedGree
 
 =--
 
-([B&#228;r 14, cor. 3.12](Green+hyperbolic+differential+operator#Baer14})
+([B&#228;r 14, cor. 3.12](Green+hyperbolic+differential+operator#Baer14}))
 
 
 Moreover we did not require that the [[advanced and retarded Green functions]] of a [[Green hyperbolic differential operator]]
@@ -12566,6 +12564,24 @@ Given a [[Green hyperbolic differential operator]] $P$ (def. \ref{GreenHyperboli
 
 $$
 \begin{aligned}
+  \mathrm{G}_{P,+}
+    &\;\colon\;
+  \Gamma_{\Sigma, +cp}(\tilde E^\ast)
+    \longrightarrow
+  \Gamma_{\Sigma, +cp}(E) ,
+  \\
+  \mathrm{G}_{P,-}
+    &\;\colon\;
+  \Gamma_{\Sigma, -cp}(\tilde E^\ast)
+    \longrightarrow
+  \Gamma_{\Sigma, -cp}(E) ,
+  \\
+  \mathrm{G}_{P}
+    &\;\colon\;
+  \Gamma_{\Sigma, cp}(\tilde E^\ast)
+    \longrightarrow
+  \Gamma_{\Sigma,scp}(E) ,
+  \\
   \mathrm{G}_{P,+}
     &\;\colon\;
   \Gamma_{\Sigma, pcp}(\tilde E^\ast)
@@ -12727,13 +12743,13 @@ and the space of temporally compactly supported sections:
 $$
   \label{SolutionSpaceIsomorphicToQuotientByImP}
   \array{
-    \Gamma_{\Sigma,cp}(E^\ast)/im(P)
+    \Gamma_{\Sigma,cp}(E^\ast)/im_{cp}(P)
       &\underoverset{\simeq}{\phantom{A}\mathrm{G}_P\phantom{A}}{\longrightarrow}&
     ker_{scp}(P)
     \\
-    \Gamma_\Sigma(E^\ast)/im(P)
+    \Gamma_{\Sigma,tcp}(E^\ast)/im_{tcp}(P)
       &\underoverset{\simeq}{\phantom{A}\mathrm{G}_P \phantom{A}}{\longrightarrow}&
-    \Gamma_{\Sigma,tcp}(\tilde E)/im(P)
+    \ker(P)
   }
   \,.
 $$
@@ -12743,11 +12759,11 @@ Under passing to [[dual vector spaces]] this in turn yields linear isomorphism
 $$
   \label{SolutionSpaceIsomorphicToQuotientByImP}
   \array{
-    \left(\Gamma_{\Sigma,cp}(E^\ast)/im(P)\right)^\ast
+    \left(\Gamma_{\Sigma,cp}(E^\ast)/im_{cp}(P)\right)^\ast
       &\underoverset{\simeq}{(-)\circ \mathrm{G}_P}{\longleftarrow}&
     \left(ker_{scp}(P)\right)^\ast
     \\
-    \left(\Gamma_\Sigma(E^\ast)/im(P)\right)^\ast
+    \left(\Gamma_{\Sigma,tcp}(E^\ast)/im_{tcp}(P)\right)^\ast
       &\underoverset{\simeq}{(-)\circ \mathrm{G}_P }{\longleftarrow}&
     \left(ker(P)\right)^\ast
   }
@@ -12814,7 +12830,7 @@ In conclusion we have found the following
 
 +-- {: .num_theorem #LinearObservablesForGreeFreeFieldTheoryAreDistributionalSolutionsToTheEquationsOfMotion}
 ###### Theorem
-**(linear [[observables]] of [[Green hyperbolic differential operator|Green]] [[free field theory]] are the [[distributional solution of a PDE|distributional solutions]] to the [[formally adjoint differential operator|formally adjoint]] [[equations of motion]])**
+**(on-shell linear [[observables]] of [[Green hyperbolic differential operator|Green hyperbolic]] [[free field theory]] are the [[distributional solution of a PDE|distributional solutions]] to the [[formally adjoint differential operator|formally adjoint]] [[equations of motion]])**
 
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory|Lagrangian]] [[free field theory]] (def. \ref{FreeFieldTheory})
 whose [[Euler-Lagrange equation|Euler-Lagrange]] [[differential equation|differential]] [[equation of motion]] $P \Phi = 0$ (def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime}) is [[Green hyperbolic differential equation|Green hyperbolic]] (def. \ref{GreenHyperbolicDifferentialOperator}), such as the [[Klein-Gordon equation]] (example \ref{GreenHyperbolicKleinGordonEquation})
@@ -12832,14 +12848,14 @@ or the [[Dirac equation]] (example \ref{GreenHyperbolicDiracOperator}). Then:
    
 1. The linear on-shell [[observables]] (def. \ref{LinearObservables}) are equivalently those linear off-shell observables, hence, 
    by the previous point,
-   those [[compactly supported distribution|compactly supported distributional sections]]  (def. \ref{DistributionalSections})
+   those spacelike compactly supported distributional sections  (def. \ref{DistributionalSections})
    which are [[generalized solution of a PDE|distributional solutions]] of the [[formally adjoint differential operator|formally adjoint]] [[equations of motion]], and this isomorphism is given by [[convolution of distributions|convolution]] with the [[causal propagator]]:
    
    $$
      LinObs(E,\mathbf{L})
-      \;\underoverset{\simeq}{ \mathrm{G}_P }{\longleftarrow}\;
+      \;\underoverset{\simeq}{ \mathrm{G}_P }{\longrightarrow}\;
      \left\{
-       A \in \Gamma'_{\Sigma,cp}(E^\ast)
+       A \in \Gamma'_{\Sigma,scp}(E^\ast)
        \;\vert\;
        P^\ast A = 0
      \right\}
