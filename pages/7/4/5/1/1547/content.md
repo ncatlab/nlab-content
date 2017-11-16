@@ -124,6 +124,8 @@ Much else to be discussed...
 
   * [[real vector bundle]], [[complex vector bundle]]
 
+  * [[super vector bundle]]
+
 * [[2-vector bundle]]
 
 * [[(∞,1)-vector bundle]] / [[(∞,n)-vector bundle]]
