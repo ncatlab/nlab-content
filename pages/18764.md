@@ -613,6 +613,7 @@ $$
 and this is a [[continuous linear map|continuous]] [[linear isomorphism]] given by pullback along the [[causal Green function]] $\mathrm{G}_P$ (def. \ref{AdvancedAndRetardedGreenFunctions}):
 
 $$
+\label{ContinuousLinearDualOfSpacelikeCompactSolutionSpaceIsUnconstrainedDistributionsThatAreGeneralizedSolutions}
   \left(ker_{scp}(P)\right)^\ast
      \underoverset{\simeq}{-\mathrm{G}_{P^\ast} = (-)\circ \mathrm{G}_P}{\longrightarrow}
    \left\{
@@ -627,11 +628,11 @@ Similarly:
 
 
 $$
-  \label{ContinuousLinearDualOfUnconstrainedSolutionSpaceIsCompactlySupportedDistributionsThatAreGeneralizedSolutions}
+  \label{ContinuousLinearDualOfUnconstrainedSolutionSpaceIsSpacelikeCompactlySupportedDistributionsThatAreGeneralizedSolutions}
   \left(ker(P)\right)^\ast
      \underoverset{\simeq}{-\mathrm{G}_{P^\ast} = (-)\circ \mathrm{G}_P}{\longrightarrow}
    \left\{
-     u \in \Gamma'_{\Sigma,cp}(E)
+     u \in \Gamma'_{\Sigma,scp}(E)
      \,\vert\,
      P^* u = 0
    \right\}
