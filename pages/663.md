@@ -88,7 +88,7 @@ Categories of models of finitary essentially algebraic theories are precisely eq
 
 ## Examples
 
-* A (multisorted) [[Lawvere theory]] $T$ is the same thing (has the same models) as a finitary essentially algebraic theory in which all operations are total. If $C_T$ is the opposite of the category of finitely presented $T$-algebras, then the category of models is equivalent to $Lex(C, Set)$. 
+* A (multisorted) [[Lawvere theory]] $T$ is the same thing (has the same models) as a finitary essentially algebraic theory in which all operations are total. If $C_T$ is the opposite of the category of finitely presented $T$-algebras, then the category of models is equivalent to $Lex(C_T, Set)$. 
 
 * As mentioned above, categories are models of a finitary essentially algebraic theory. 
 
