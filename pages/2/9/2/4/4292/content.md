@@ -76,7 +76,7 @@ If this power series [[convergence|converges]] to $f$, then we say that $f$ is _
 
 * [[convergence radius]]
 
-* [[asymptotic series]]
+* [[asymptotic series]], [[transseries]]
 
 * [[Tate algebra]]
 
