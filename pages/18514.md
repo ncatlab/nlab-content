@@ -254,7 +254,7 @@ $$
      \int
      \left(
      \frac{
-       e^{-i E(\vec k) (x^0 - y^0) e^{-i \vec k \cdot (\vec x - \vec y)}}
+       e^{-i E(\vec k) (x^0 - y^0)} e^{-i \vec k \cdot (\vec x - \vec y)}
      }
      {
        2 E(\vec k)
