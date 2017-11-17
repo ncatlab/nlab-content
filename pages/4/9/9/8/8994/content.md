@@ -128,6 +128,10 @@ These examples satisfy the extra property that the distributors $\delta$ are [[i
 
 Some structures normally defined in a monoidal category can more generally be defined in a linearly distributive category.  This includes [[dual objects]] (yielding the above "negations") and also [[Frobenius algebras]]; see [(Egger2010)](#Egger2010).
 
+## As lax Frobenius algebras
+
+Linearly distributive categories that are both closed and co-closed can be identified with lax [[Frobenius algebras]] in the [[polycategory]] [[MVar]] of [[multivariable adjunctions]]; see [this blog post](https://golem.ph.utexas.edu/category/2017/11/starautonomous_categories_are.html).
+
 ## History
 
 The concept was originally called a _weakly distributive category_  and was introduced by [[Robin Cockett]] and [[Robert Seely]] in 1991 at the Durham conference on applications of categories ([Cockett-Seely 97](#CockettSeely97)).  Subsequently, in recognition of their fundamental role in the [[categorical semantics]] for the [[proof theory]] of [[linear logic]], and the fact that they are not a "weakening" of [[distributive categories]] in any standard sense, they were renamed to _linearly distributive categories_.
@@ -185,7 +189,7 @@ Linearly distributive categories have now been used as the substrate for a numbe
 * M.E. Szabo, *Polycategories*, Comm. Algebra 3 (1975) 663-689.  [DOI](http://www.tandfonline.com/doi/abs/10.1080/00927877508822067)
  {#Szabo}
 
-* [[Robin Cockett] and [[Robert Seely]], _Linearly distributive functors_, 1999 [doi](https://doi.org/10.1016/S0022-4049(98)00110-8)
+* [[Robin Cockett]] and [[Robert Seely]], _Linearly distributive functors_, 1999 [doi](https://doi.org/10.1016/S0022-4049%2898%2900110-8)
  {#CockettSeely99}
 
 Frobenius algebras in linearly distributive categories are discussed in
