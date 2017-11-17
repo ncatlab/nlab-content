@@ -1,7 +1,3 @@
-
-**Covariant phase space**
- {#PreymplecticPhaseSpace}
-
 +-- {: .num_defn #CauchySurface}
 ###### Definition
 **([[Cauchy surface]])**
@@ -163,6 +159,36 @@ identifies the integrand as the witness $K$ for the [[formally adjoint different
 =--
 
 
++-- {: .num_example #PresymplecticFormForFreeDiracField}
+###### Example
+**([[presymplectic form]] for [[free field theory|free]] [[Dirac field]])**
+
+Consider the [[Lagrangian field theory]] of the [[free field theory|free]] [[Dirac field]] (example \ref{LagrangianDensityForDiracField}). 
+
+Under the identification of example \ref{EvaluationOfTransgressedVariationalFormsOnTangentVectorsForFreeFieldTheory} the [[presymplectic form]] on the [[phase space]] (def. \ref{PhaseSpaceAssociatedWithCauchySurface}) associated with a [[Cauchy surface]] $\Sigma_p \hookrightarrow \Sigma$
+is given by
+
+$$
+  \begin{aligned}
+    \omega_{\Sigma_p}(\theta_1 \vec \Psi_1, \theta_2 \vec\Psi_2)
+    & =
+    \int_{\Sigma_{p}}
+    \left(
+      \overline{\theta_1 \vec \psi_1}\gamma^\mu \left( \theta_2 \vec \Psi_2 \right)
+    \right)
+    \iota_{\partial_\mu} dvol_{\Sigma_{p}}(x)
+    \\
+    & =
+    \underset{\Sigma_p}{\int} K(\vec \Phi_1, \vec \Phi_2)
+    \,.
+  \end{aligned}
+$$
+
+Here the first equation follows via example \ref{EvaluationOfTransgressedVariationalFormsOnTangentVectorsForFreeFieldTheory} from the form of $\Omega_{BFV}$ from example \ref{PresymplecticCurrentDiracField},
+while the second equation
+identifies the integrand as the witness $K$ for the [[formally adjoint differential operator|formally self-adjointness]] of the [[Dirac equation]] from example \ref{DiracOperatorOnDiracSpinorsIsFormallySelfAdjointDifferentialOperator}.
+
+=--
 
 
 +-- {: .num_prop #CovariantPhaseSpace}
@@ -332,7 +358,7 @@ Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangian
    1. [[formally adjoint differential operator|formally self-adjoint]] or anti self-adjoint (def. \ref{FormallyAdjointDifferentialOperators})
       such that the integral over the witness $K$ (eq:FormallyAdjointDifferentialOperatorWitness) is the
       [[presymplectic form]] (eq:TransgressionOfPresymplecticCurrentToCauchySurface): $\omega_{\Sigma_p} = \underset{\Sigma_p}{\int} K$
-      
+
    1. [[Green hyperbolic differential operator|Green hyperbolic]] (def. \ref{GreenHyperbolicDifferentialOperator}).
 
 Then the map
@@ -430,7 +456,7 @@ $$
   \,.
 $$
 
-Hence under the given assumptions, for every Cauchy surface the [[Poisson bracket]] 
+Hence under the given assumptions, for every Cauchy surface the [[Poisson bracket]]
 associated with that Cauchy surface equals the invariantly ("covariantly") defined [[Peierls bracket]]
 
 $$
@@ -441,3 +467,27 @@ $$
 =--
 
 ([Khavkine 14, lemma 2.5](Green+hyperbolic+partial+differential+equation#Khavkine14))
+
+
+
++-- {: .num_example #PeierlsBracketEistsForScalarFieldAndDiracField}
+###### Example
+**([[scalar field]] and [[Dirac field]] have [[covariant phase space|covariant]] [[Peierls-Poisson bracket]])**
+
+Examples of [[free field theor|free]] [[Lagrangian field theories]] for which the assumptions of theorem
+\ref{PPeierlsBracket} are satisfied,  so that the covariant [[Poisson bracket]] exists in the form
+of the [[Peierls bracket]] include
+
+* the [[free field theory|free]] [[real scalar field]] (example \ref{LagrangianForFreeScalarFieldOnMinkowskiSpacetime});
+
+* the [[free field theory|free]] [[Dirac field]] (example \ref{LagrangianDensityForDiracField}).
+
+For the [[free field theory|free]] [[scalar field]] this is the statement of example \ref{GreenHyperbolicKleinGordonEquation} 
+with example \ref{PresymplecticFormForFreeRealScalarField}, while for the [[Dirac field]] this is the
+statement of example \ref{GreenHyperbolicDiracOperator} with example \ref{PresymplecticFormForFreeDiracField}.
+
+=--
+
+For the [[free field theory|free]] [[electromagnetic field]] (example \ref{ElectromagnetismLagrangianDensity})
+the assumptions are violated. But in the discuussion of _[Gauge fixing](#GaugeFixing)_, below,
+we wil find that for an equivalent re-incarnation of the electromagnetic field, they are met after all.
