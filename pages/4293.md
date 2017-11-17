@@ -22,7 +22,7 @@ The Taylor series of a [[smooth function]] $f$ (at a given point $c$) is a [[for
 See also [[Taylor's theorem]] for error estimates in the convergence of Taylor series.
 
 
-## Defintion
+## Definition
 
 Let $f \in C^\infty(\mathbb{R})$ a [[smooth function]] with $n$th [[derivative]] $f^{(n)} \in C^\infty(\mathbb{R})$ and let $c$ be a [[real number]]. 
 
