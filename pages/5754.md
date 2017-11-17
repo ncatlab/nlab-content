@@ -175,7 +175,6 @@ Further discussion of the manifestly covariant equivalence between the Peierls b
 [[!redirects Peierls-Poisson bracket]]
 [[!redirects Peierls-Poisson brackets]]
 
-
-[[!redirects Poisson-Peierlsbracket]]
+[[!redirects Poisson-Peierls bracket]]
 [[!redirects Poisson-Peierls brackets]]
 
