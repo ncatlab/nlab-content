@@ -12395,7 +12395,7 @@ defined by $P$.
 
 =--
 
-+-- {: .num_example }
++-- {: .num_example #DistributionalPDESolutionsFromOrdinaryPDESolutions}
 ###### Example
 **(ordinary [[PDE]] solutions are [[generalized solutions of a PDE|generalized solutions]])**
 
@@ -12864,6 +12864,7 @@ In conclusion we have found the following
 **(linear [[observables]] of [[Green hyperbolic differential operator|Green]] [[free field theory]] are the [[distributional solution of a PDE|distributional solutions]] to the [[formally adjoint differential operator|formally adjoint]] [[equations of motion]])**
 
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory|Lagrangian]] [[free field theory]] (def. \ref{FreeFieldTheory})
+which is a [[free field theory]] (def. \ref{FreeFieldTheory})
 whose [[Euler-Lagrange equation|Euler-Lagrange]] [[differential equation|differential]] [[equation of motion]] $P \Phi = 0$ (def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime}) is [[Green hyperbolic differential equation|Green hyperbolic]] (def. \ref{GreenHyperbolicDifferentialOperator}), such as the [[Klein-Gordon equation]] (example \ref{GreenHyperbolicKleinGordonEquation})
 or the [[Dirac equation]] (example \ref{GreenHyperbolicDiracOperator}). Then:
 
@@ -12904,6 +12905,33 @@ With this the second statement follows by prop. \ref{DistributionsOnSolutionSpac
 
 =--
 
+Using this identification we say:
+
++-- {: .num_defn #LinearObservablesRegular}
+###### Definition
+**(regular linear observables)**
+
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory|Lagrangian]] [[free field theory]] (def. \ref{FreeFieldTheory})
+which is a [[free field theory]] (def. \ref{FreeFieldTheory})
+whose [[Euler-Lagrange equation|Euler-Lagrange]] [[differential equation|differential]] [[equation of motion]] $P \Phi = 0$ (def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime}) is [[Green hyperbolic differential equation|Green hyperbolic]] (def. \ref{GreenHyperbolicDifferentialOperator})
+
+Then a linear [[observable]] is called _regular_ if under the identification of theorem \ref{LinearObservablesForGreeFreeFieldTheoryAreDistributionalSolutionsToTheEquationsOfMotion}
+it corresponds to a [[non-singular distribution|non-singular distributional density]] (prop. \ref{NonSingularDistributionalSections})
+given by a smooth section of the [[dual vector bundle]] of the [[field bundle]] satisfying (via example \ref{DistributionalPDESolutionsFromOrdinaryPDESolutions}):
+
+$$
+  \array{
+    LinObs(E,\mathbf{L})^{reg}
+      &\coloneqq&
+      \left\{ A \in \Gamma_{\Sigma,scp}(E^\ast) \,\vert\, P^\ast A = 0 \right\}
+        &\hookrightarrow&
+      \left\{ A \in \Gamma'_{\Sigma,scp}(E^\ast) \,\vert\, P^\ast A = 0 \right\}
+      &\simeq&
+    LinOb(E,\mathbf{L})
+  }
+$$ 
+
+=--
 
 
 $\,$
@@ -14030,7 +14058,7 @@ then the corresponding _[[phase space]]_ is
 1. the [[super smooth set]] $\Gamma_{\Sigma_p}(E)_{\delta_{EL}\mathbf{L} = 0}$ (eq:OnShellFieldHistoriesInHigherCodimension)
    of [[on-shell]] [[field histories]] restricted to the [[infinitesimal neighbourhood]] of $\Sigma_p$;
 
-1. equipped with the [[presymplectic form]]
+1. equipped with the [[differential 2-form]] (as in def. \ref{DifferentialFormsOnDiffeologicalSpaces})
 
    $$
      \label{TransgressionOfPresymplecticCurrentToCauchySurface}
@@ -14043,9 +14071,14 @@ then the corresponding _[[phase space]]_ is
      \right)
    $$
 
-   which is the [[transgression of variational differential forms|transgression]]
+   which is the [[transgression of variational differential forms|transgression]] (def. \ref{TransgressionOfVariationalDifferentialFormsToConfigrationSpaces})
    of the [[presymplectic current]] $\Omega_{BFV}$ (def. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime})
    to $\Sigma_p$.
+   
+   This $\omega_{\Sigma_p}$ is a [[closed differential form]] in the sense of def. \ref{DifferentialFormsOnDiffeologicalSpaces},
+   due to prop. \ref{TransgressionOfVariationaldifferentialFormsCompatibleWithVariationalDerivative}
+   and using that $\Omega_{BFV} = \delta \Theta_{BFV}$ is closed by definition (eq:PresymplecticCurrent).
+   As such this is called the _[[presymplectic form]]_ on the phase space.
 
 =--
 
@@ -14054,10 +14087,12 @@ then the corresponding _[[phase space]]_ is
 ###### Example
 **(evaluation of [[transgression of variational differential forms|transgressed variational form]] on [[tangent vectors]] for [[free field theory]])**
 
-Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) which is [[free field theory|free]] (def. \ref{FreeFieldTheory})
-whose [[field bundle]] is a some [[smooth vector bundle|smooth]] [[super vector bundle]] (example \ref{TrivialVectorBundleAsAFieldBundle}).
-Then the [[synthetic differential geometry|synthetic]] [[tangent bundle]] (def. \ref{TangentBundleSynthetic}) of the [[on-shell]] [[space of field histories]] $\Gamma_{\Sigma}(E)_{\delta_{EL}\mathbf{L} = 0}$
-is canonically identified with the [[Cartesian product]] of this space with itself:
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) which is [[free field theory|free]] (def. \ref{FreeFieldTheory}) hence 
+whose [[field bundle]] is a some [[smooth vector bundle|smooth]] [[super vector bundle]] (example \ref{TrivialVectorBundleAsAFieldBundle})
+and whose [[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]] is [[linear differential equation|linear]].
+Then the [[synthetic differential geometry|synthetic]] [[tangent bundle]] (def. \ref{TangentBundleSynthetic}) of the [[on-shell]] [[space of field histories]] $\Gamma_{\Sigma}(E)_{\delta_{EL}\mathbf{L} = 0}$ (eq:OnShellFieldHistories) 
+with spacelike compact support (def \ref{CompactlySourceCausalSupport})
+is canonically identified with the [[Cartesian product]] of this [[super smooth set]] with itself
 
 $$
   T\left(
@@ -14070,30 +14105,46 @@ $$
   \,.
 $$
 
-Under this identification the value of the [[transgression of variational differential forms]] spacelike compact support (def. \ref{TransgressionOfVariationalDifferentialFormsToConfigrationSpaces}) of the form
+With field coordinates as in example \ref{TrivialVectorBundleAsAFieldBundle}, we may expand the
+[[presymplectic current]] as
 
 $$
-  \delta A^\mu \iota_{\partial_\mu}} dvol_\Sigma
-   \;\in\;
-   \Omega^{p,1}_\Sigma(E)
+  \Omega_{BFV}
+  =
+  \left(\Omega_{BFV}\right)^{\mu_1, \cdots, \mu_{k_1}, \nu_1, \cdots, \nu_{k_2}, \kappa}_{a_1 a_2}
+  \delta \phi^{a_1}_{\mu_1 \cdots \mu_k} \wedge \delta \phi^{a_2}_{\nu_1 \cdots \nu_{k_2}}
+  \wedge
+  \iota_{\partial_\kappa} dvol_\Sigma
+  \,,
 $$
 
-is given by
+where the components $\Omega_{BFV}_{a_1 a_2}^{\mu_1, \cdots, \mu_{k_1}, \nu_1, \cdots, \nu_{k_2}, \kappa}$
+are smooth functions on the [[jet bundle]].
+
+Under these identifications the value of the [[presymplectic form]] $\omega_{\Sigma_p}$ (eq:TransgressionOfPresymplecticCurrentToCauchySurface)
+on two [[tangent vectors]] $\vec \Phi_1, \vec \Phi_2 \in \Gamma_{\Sigma,scp}(E)$ 
+at a point $\Phi_1, \Phi_2 \in \Gamma_{\Sigma,scp}(E)$ is
 
 $$
-  \array{
-    \Gamma_\Sigma(E)_{\delta_{EL} = 0}
-      &\overset{ \tau_{\Sigma_p}( \delta A^\mu \iota_{\partial_\mu} dvol_\Sigma  )(-) }{\longrightarrow}&
-    \Phi
-      &\mapsto&
-    \underset{\Sigma_p}{\int}
-      A^\mu\left(
-        \Phi(x),
-        \left(\frac{\partial \Phi}{\partial x^\mu}(x)\right),
-        \cdots
-      \right)
-      \iota_{\partil_\mu} dvol_\Sigma
-  }
+  \omega_{\Sigma_p}(\vec \Phi_1, \vec \Phi_2)
+  \;=\;
+  \underset{\Sigma_p}{\int} 
+  \left(\Omega_{BFV}\right)^{\mu_1, \cdots, \mu_{k_1}, \nu_1, \cdots, \nu_{k_2}, \kappa}_{a_1 a_2}(\Phi_1(x), \Phi_2(x))
+  \left(
+  \frac{\partial}{\partial x^{\mu_1}}
+  \cdots
+  \frac{\partial}{\partial x^{\mu_{k_1}}}
+  \vec \Phi_1(x)
+  \right)
+  \left(
+  \frac{\partial}{\partial x^{\nu_1}}
+  \cdots
+  \frac{\partial}{\partial x^{\nu_{k_2}}}
+  \vec \Phi_2(x)
+  \right)
+  \,
+  \iota_{\partial_\kappa} dvol_\Sigma(x)
+  \,.
 $$
 
 =--
@@ -14106,39 +14157,43 @@ $$
 Consider the [[Lagrangian field theory]] for the [[free field|free]] [[real scalar field]]
 from example \ref{LagrangianForFreeScalarFieldOnMinkowskiSpacetime}.
 
-Under the identification of example \ref{EvaluationOfTransgressedVariationalFormsOnTangentVectorsForFreeFieldTheory}
-the [[presymplectic form]] on the [[phase space]] (def. \ref{PhaseSpaceAssociatedWithCauchySurface})
+Under the identification of example \ref{EvaluationOfTransgressedVariationalFormsOnTangentVectorsForFreeFieldTheory} the [[presymplectic form]] on the [[phase space]] (def. \ref{PhaseSpaceAssociatedWithCauchySurface})
 associated with a [[Cauchy surface]] $\Sigma_p \hookrightarrow \Sigma$
 is given by
 
 $$
   \begin{aligned}
-    \omega_{\Sigma_p}(\Phi_1, \Phi_2)
-    & \coloneqq
-    \tau_{\Sigma_p} \Omega_{BFV}
-    \\
+    \omega_{\Sigma_p}(\vec \Phi_1, \vec\Phi_2)
     & =
     \int_{\Sigma_{p}}
     \left(
-      \frac{\partial \Phi_1}{\partial x^\mu} \Phi_2
+      \frac{\partial \vec \Phi_1}{\partial x^\mu}(x) \vec \Phi_2(x)
       -
-      \Phi_1 \frac{\partial \Phi_2}{\partial x^\mu}
+      \vec \Phi_1(x) \frac{\partial \vec \Phi_2}{\partial x^\mu}(x)
     \right)
     \eta^{\mu \nu}
-    \iota_{\partial_\mu} dvol_{\Sigma_{p}}
+    \iota_{\partial_\mu} dvol_{\Sigma_{p}}(x)
     \\
     & =
-    \underset{\Sigma_p}{\int} K(\Phi_1, \Phi_2)
+    \underset{\Sigma_p}{\int} K(\vec \Phi_1, \vec \Phi_2)
     \,.
   \end{aligned}
 $$
 
-Here the first equation follows from the form of $\Omega_{BFV}$ from example \ref{FreeScalarFieldEOM},
+Here the first equation follows via example \ref{EvaluationOfTransgressedVariationalFormsOnTangentVectorsForFreeFieldTheory} from the form of $\Omega_{BFV}$ from example \ref{FreeScalarFieldEOM},
 while the second equation
-identifies the integrand as the witness $K$ (eq:WitnessForFormalSelfadjointnessOfKleinGordonEquation) for the [[formally adjoint differential operator|formally self-adjointness]] of the [[Klein-Gordon equation]] from example \ref{FormallySelfAdjointKleinGordonOperator}.
+identifies the integrand as the witness $K$ for the [[formally adjoint differential operator|formally self-adjointness]] of the [[Klein-Gordon equation]] from example \ref{FormallySelfAdjointKleinGordonOperator}.
 
 =--
 
+
++-- {: .num_defn #}
+###### Definition
+
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) which is [[free field theory|free]] (def. \ref{FreeFieldTheory}) and let $\Sigma_p \hookrightarrow \Sigma$ be a [[Cauchy surface]]. 
+ Then the _[[Poisson bracket]] on the regular linear observables (def. \ref{LinearObservablesRegular}) spring
+
+=--
 
 Since by definition of [[Cauchy surface]] (def. \ref{CauchySurface})
 the underlying [[super smooth set]] of the [[phase space]] associated with it (def. \ref{PhaseSpaceAssociatedWithCauchySurface})
@@ -14303,20 +14358,7 @@ $$
 =--
 
 
-We discuss now the [[covariant phase space]] (def. \ref{CovariantPhaseSpace}) for the special case of
-[[free field theories]] (def. \ref{FreeFieldTheory}). In [[perturbative quantum field theory]] this is the
-basis of the construction of all [[interaction|interacting]] theories, as deformations of a free field theory into its [[infinitesimal neighbourhood]] in the space of [[Lagrangian denities]].
-
-The key tool for this analysis is the identification of [[on-shell]] linear observables with
-[[distributional solutions of PDEs|distributional solutions]] of the [[equations of motion]], hence
-with [[off-shell]] observables that satisfy themselves the [[equations of motion]] in dual form (prop. \ref{DistributionsOnSolutionSpaceAreTheGeneralizedPDESolutions}). Under this identification the
-[[Poisson bracket]] (def. \ref{PoissonBracketOnHamiltonianLocalObservables}) on on-shell observables
-associated with a [[Cauchy surface]] extends to a bracket on off-shell observables which is manifestly
-independent of a choice of Cauchy surface. This [[off-shell]] Poisson bracket is the _[[Peierls bracket]]_
-(prop. \ref{PoissonToPPeierls} below). It is itself given by an [[distribution|distributional]]
-[[integral kernel]], namely by the [[causal Green functions]]. Since this serves to _propagate_
-field excitations along the [[equations of motion]] it is called the _[[causal propagator]]_.
-
+If the covariant phase space exists spring 
 
 +-- {: .num_defn #BracketPPoissonAndPPeierls}
 ###### Definition
