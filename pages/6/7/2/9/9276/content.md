@@ -29,6 +29,8 @@ For the case of symplectic manifolds the Darboux theorem may also be read as say
 
 ## Related concepts
 
+* [[canonical coordinates]], [[canonical momenta]]
+
 * [[integrable G-structure]]
 
 ## References
@@ -71,3 +73,6 @@ A version for [[shifted symplectic structures]] ([[BV-BRST complex|BV-brackets]]
 
 [[!redirects Darboux chart]]
 [[!redirects Darboux charts]]
+
+[[!redirects Darboux coordinate]]
+[[!redirects Darboux coordinates]]
