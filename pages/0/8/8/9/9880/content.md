@@ -45,6 +45,8 @@ A central example of a non-perturbative effect is [[confinement]] (hence the "ma
 
 ## Related concepts
 
+* [[transseries]], [[resurgence theory]]
+
 * [[fiber bundles in physics]]
 
 * [[instanton]], [[brane]], [[renormalon]]
