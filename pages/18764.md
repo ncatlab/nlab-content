@@ -662,10 +662,11 @@ obtained from the underlying exact sequences of vector spaces in prop. \ref{Exac
 Moreover, once again exploiting the exactness of the sequence (eq:GreenHyperbolicOperatorDualExactSequence) in prop. \ref{ExactSequenceOfGreenHyperbolicSystem}, we also have the chain of isomorphisms
 
 $$
+  \label{ChainOfIsomorphisms}
   \Gamma'_{\Sigma,tcp}(\tilde{E}^*) / im_{tcp}(P^*)
   \simeq \Gamma'_{\Sigma,tcp}(\tilde{E}^*) / \ker_{tcp}(G_{P^*})
   \underoverset{\simeq}{G_{P^\ast}}{\to}
-  \ker(P^*) \subset \Gamma'_{\Sigma}(\tilde{E}^*).
+  \ker(P^*) \subset \Gamma'_{\Sigma}({E}).
 $$
 
 Combining this with (eq:ContinuousLinearDualsOnGreenHyperbolicSolutionSpace)
