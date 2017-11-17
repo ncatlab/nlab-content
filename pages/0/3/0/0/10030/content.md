@@ -160,9 +160,13 @@ From [Suslov 05](#Suslov05):
 
 * [[Taylor series]], [[Puiseux series]]
 
+* [[asymptotic series]], [[transseries]]
+
 * [[resummation]], [[regular summation method]], [[Borel summability]]
 
 * [[perturbation series]], [[Stokes phenomenon]]
+
+* [[Feynman perturbation series]]
 
 ## References
 
