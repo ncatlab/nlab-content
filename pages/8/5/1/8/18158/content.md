@@ -686,7 +686,7 @@ We claim that
 
 * $\mathcal{F}_{\cup} = \underset{i \in I}{\sum} \mathcal{F}_i \coloneqq \left\{ \underset{i \in I}{\sum} f_i  \,, \in R\;\vert\; f_i \in \mathcal{F}_i \right\}$
 
-* $\mathcal{F}_{cap} = \underset{i \in I}{\prod} \mathcal{F}_i \coloneqq \left\{ \underset{i \in I}{\prod} f_i \, \in R \;\vert\; f_i \in \mathcal{F}_i \right\}$,
+* $\mathcal{F}_{\cap} = \underset{i \in I}{\prod} \mathcal{F}_i \coloneqq \left\{ \underset{i \in I}{\prod} f_i \, \in R \;\vert\; f_i \in \mathcal{F}_i \right\}$,
 
 
 Regarding the first point:
