@@ -37,7 +37,7 @@ This mathematically rigorous (i.e. clear and precise) formulation of the traditi
 has come to be known as _[[perturbative algebraic quantum field theory]]_.
 
 We aim to give a _fully [[local field theory|local]]_ discussion, where all structures arise
-on the "[[jet bundle]] over the [[field bundle]]" (introduced [below](#FieldVariations)) and "[[transgression|transgress]]" from there to the [[spaces of field histories]] over [[spacetime]] (discussed [further below](#ObservablesAndStates)).
+on the "[[jet bundle]] over the [[field bundle]]" (introduced [below](#FieldVariations)) and "[[transgression|transgress]]" from there to the [[spaces of field histories]] over [[spacetime]] (discussed [further below](#Observables)).
 This "[[schreiber:Higher Prequantum Geometry]]" streamlines traditional constructions and serves the conceptualization in the theory.
 This is joint work with [[Igor Khavkine]].
 
@@ -3821,7 +3821,7 @@ is a [[supergeometry|super-geometric]] [[generalized smooth space]]: a _[[super 
 
 
 This smooth structure on the [[space of field histories]] will be crucial when we discuss [[observables]]
-of a [[field theory]] [below](#ObservablesAndStates), because these are smooth functions on the [[space of field histories]].
+of a [[field theory]] [below](#Observables), because these are smooth functions on the [[space of field histories]].
 In particular it is this smooth structure which allows to derive that _linear_ observables of a [[free field theory]]
 are given by [[distributions]] (prop. \ref{LinearObservablesAreTheCompactlySupportedDistributions}) below.
 Among these are the point evaluation observables ([[delta distributions]]) which are traditionally denoted
@@ -3837,7 +3837,7 @@ $\,$
 |--|------------|-|---------|----|
 | [[field bundle|field component]] | $\phi^a$, $\phi^a_{,\mu}$ |  $J^\infty_\Sigma(E) \to \mathbb{R}$ |[[coordinate function]] on [[jet bundle]] of [[field bundle]] | def. \ref{FieldsAndFieldBundles}, def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime} |
 | [[field history]] | $\Phi$, $\frac{\partial \Phi}{\partial x^\mu}$ | $\Sigma \to J^\infty_\Sigma(E)$  | [[jet prolongation]] of [[section]] of [[field bundle]] | def. \ref{FieldsAndFieldBundles}, def. \ref{JetProlongation}  |
-| [[observable|field observable]] | $\mathbf{\Phi}^a(x)$, $\partial_{\mu} \mathbf{\Phi}^a(x),   $ | $\Gamma_{\Sigma}(E) \to \mathbb{R}$  | [[functional]] on [[space of sections]] | def. \ref{Observables}, example \ref{PointEvaluationObservables} |
+| [[observable|field observable]] | $\mathbf{\Phi}^a(x)$, $\partial_{\mu} \mathbf{\Phi}^a(x),   $ | $\Gamma_{\Sigma}(E) \to \mathbb{R}$  | [[functional]] on [[space of sections]] | def. \ref{Observable}, example \ref{PointEvaluationObservables} |
 | [[algebra of quantum observables]] | $\left(\left\{\mathbf{\Phi}^a(x), \partial_\mu \mathbf{\Phi}^a(x)\right\},\, \star\right)$  | $\mathbb{C}Alg$  | [[non-commutative algebra]] [[structure]] on [[observable|field observables]] | def. \ref{WickAlgebraOfFreeQuantumField}, def. \ref{GeneratingFunctionsForCorrelationFunctions} |
 
 
@@ -4161,7 +4161,7 @@ $\,$
 
 Given any [[field bundle]], we will eventually need to regard the set of all [[field histories]] $\Gamma_\Sigma(E)$
 as a "[[smooth set]]" itself, a smooth _[[space of sections]]_, to which
-constructions of [[differential geometry]] apply (such as for the discussion of [[observables]] and [[states]] [below](#ObservablesAndStates) ). Notably we need to be talking about [[differential forms]] on $\Gamma_\Sigma(E)$.
+constructions of [[differential geometry]] apply (such as for the discussion of [[observables]] and [[states]] [below](#Observables) ). Notably we need to be talking about [[differential forms]] on $\Gamma_\Sigma(E)$.
 
 However, a [[space of sections]] $\Gamma_\Sigma(E)$ does not in general carry the structure of a [[smooth manifold]];
 and it carries the correct smooth structure of an [[infinite dimensional manifold]]
@@ -9135,8 +9135,7 @@ $$
 ###### Remark
 **([[presymplectic current]] is local version of ([[presymplectic form|pre-]])[[symplectic form]] of [[Hamiltonian mechanics]])**
 
-In the simple but very common situation of example \ref{CanonicalMomentum}
-the [[presymplectic current]] (def. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}) takes the form (eq:CanonicalMomentumInCoordinates)
+In the simple but very common situation of example \ref{CanonicalMomentum} the [[presymplectic current]] (def. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}) takes the form (eq:CanonicalMomentumInCoordinates)
 
 $$
   \Omega_{BFV}
@@ -9152,7 +9151,7 @@ with $\phi^a$ the [[field (physics)|field]] [[coordinates]] ("[[canonical coordi
 and $p_a^\mu$ the "[[canonical momentum]]" (eq:CanonicalMomentumInCoordinates).
 
 Notice that this is of the schematic form "$(\delta p_a \wedge \delta q^a) \wedge dvol_{\Sigma_p}$",
-which is reminiscent of the wedge product of a [[symplectic form]] expressed in [[Darboux coordinates]] with 
+which is reminiscent of the wedge product of a [[symplectic form]] expressed in [[Darboux coordinates]] with
 a [[volume form]] for a $p$-dimensional [[manifold]]. Indeed, below in _[Phase space](#PhaseSpace)_
 we discuss that this [[presymplectic current]]  "[[transgression of variational differential forms|transgresses]]" (def. \ref{TransgressionOfVariationalDifferentialFormsToConfigrationSpaces} below)
 to a [[presymplectic form]] of the schematic form "$d P_a \wedge d Q^a$" on the [[on-shell]] [[space of field histories]] (def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime})
@@ -9162,7 +9161,7 @@ this [[presymplectic form]] is in fact a [[symplectic form]] on the [[on-shell]]
 This shows that the [[presymplectic current]] $\Omega_{BFV}$ is the [[local field theory|local]] (i.e. [[jet bundle|jet level]]) avatar of the
 [[symplectic form]] that governs the formulation of [[Hamiltonian mechanics]] in terms of [[symplectic geometry]].
 
-In fact prop. \ref{HorizontalDerivativeOfPresymplecticCurrentVanishesOnShell} may be read as saying that 
+In fact prop. \ref{HorizontalDerivativeOfPresymplecticCurrentVanishesOnShell} may be read as saying that
 the [[presymplectic current]] is a _[[conserved current]]_ (def. \ref{SymmetriesAndConservedCurrents} below),
 only that it takes values not in [[smooth functions]] of the field coordinates and jets, but in
 [[variational differential form|variational 2-forms]] on fields. There is a [[conserved charge]] associated with
@@ -10120,7 +10119,7 @@ $\,$
 
 * _[Infinitesimal symmetries of the Lagrangian density](#InfinitesimalSymmetriesOfTheLagrangianDensity)_
 
-* _[Infinitesimal symmetries of the Lepage form](#InfinitesimalSymmetriesOfThePresymplecticPotentialCurrent)_
+* _[Infinitesimal symmetries of the presymplectic potential current](#InfinitesimalSymmetriesOfThePresymplecticPotentialCurrent)_
 
 $\,$
 
@@ -10991,23 +10990,13 @@ $$
 ###### Definition
 **([[Hamiltonian vector fields|infinitesimal symmetry of the presymplectic potential]] and [[Hamiltonian differential forms]])**
 
-Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) with [[presymplectic potential current]] $\Theta_{BFV}$ (eq:PresymplecticPotential). Write $\mathcal{E} \hookrightarrow J^\infty_\Sigma(E)$ for the [[shell]] (eq:ShellInJetBundle)
-and for $v$ a [[tangent vector field]] on the [[jet bundle]] (def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) write
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) with [[presymplectic potential current]] $\Theta_{BFV}$ (eq:PresymplecticPotential). Write $\mathcal{E} \hookrightarrow J^\infty_\Sigma(E)$ for the [[shell]] (eq:ShellInJetBundle).
 
-$$
-  \label{LieDerivativeVariational}
-  \mathcal{L}^{var}_{v}
-    \;\coloneqq\;
-  \delta \circ \iota_v + \iota_v \circ \delta
-$$
-
-for the _variational Lie derivative_ along $v$, analogous to [[Cartan's homotopy formula]] (prop. \ref{CartanHomotopyFormula})
-but defined in terms of the variational derivative $\delta$ (eq:VariationalDerivative) as opposed to the full [[de Rham differential]].
 Then:
 
 1. An [[on-shell]] variation $v$ (def. \ref{Variation}) is an _[[infinitesimal symmetry]] of the [[presymplectic current]]_
    or _[[Hamiltonian vector field]]_ if [[on-shell]] (def. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime})
-   its vertical [[Lie derivative]] along $v$ is a [[variational derivative]]:
+   its variational Lie derivative along $v$ (def. \ref{LieDerivativeVariational}) is a [[variational derivative]]:
 
    $$
      (\delta \circ \iota_v + \iota_v \circ \delta)  \Theta_{BFV}  = \delta \tilde H_v
@@ -11405,7 +11394,7 @@ $$
   \label{RecallPresymplecticCurrentOfDiracField}
   \Omega_{BFV}
   \;=\;
-  \overline{\delta \psi} \, \gamma^\mu \, \delta \psi \, \iota_{\partial_\mu} dvol_\Sigma
+  (\overline{\delta \psi}) \, \gamma^\mu \, (\delta \psi) \, \iota_{\partial_\mu} dvol_\Sigma
   \,.
 $$
 
@@ -11440,7 +11429,7 @@ degrees, and a "supergeometric" one (def. \ref{DifferentialFormOnSuperCartesianS
 $$
   \iota_{\partial_\psi} \overline{\delta \psi} \cdots
   =
-  (-1) (-1) \overline{\delta \psi} \,\iota_{\partial_\psi}
+  (-1) (-1) \overline{\delta \psi} \,\iota_{\partial_\psi} \cdots
   \,.
 $$
 
@@ -11467,33 +11456,20 @@ $$
 =--
 
 
+$\,$
 
-
-+-- {: .num_prop #LocalHeisenbergAlgebra}
-###### Definition
-**([[Heisenberg Lie n-algebra|local Heisenberg Lie algebra]])**
-
-Given a [[Lagrangian field theory]] $(E,\mathbf{L})$ whose [[field bundle]] $E$ is a [[trivial vector bundle]]
-as in example \ref{TrivialVectorBundleAsAFieldBundle}, its [[jet bundle]] (def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) inherits the structure of a
-trivial vector bundle (this is the only case we have been making explicit here anyway, def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}). Hence addition in the [[fibers]]
-gives it the structure of a [[group]], by translation.
-
-If the [[presymplectic current]] is [[left invariant differential form|left invariant]] with respect to this
-group structure, then it makes sense to ask for that sub Lie algebra
-of the [[Poisson bracket Lie n-algebra|local Poisson bracket Lie algebra]] (def. \ref{LocalPoissonBracket}) which covers these
-translations. This is the corresponding _[[Heisenberg Lie n-algebra|local Heisenberg algebra]]_.
-
-=--
-
+This concludes our discussion of general infinitesimal symmetries. We pick this up again in the discussion of
+_[Gauge symmetries](#GaugeSymmetries)_ below. First, in the [next chapter](#Observables) we discuss
+the concept of [[observables]] in [[field theory]].
 
 $\,$
 
 
 ## Observables
- {#ObservablesAndStates}
+ {#Observables}
 
 
-Given a [[Lagrangian field theory]] (def. \ref{LagrangianForFreeScalarFieldOnMinkowskiSpacetime}), then a general _[[observable]] quantity_ or just _[[observable]]_ for short (def. \ref{Observables} below),  is a [[smooth function]]
+Given a [[Lagrangian field theory]] (def. \ref{LagrangianForFreeScalarFieldOnMinkowskiSpacetime}), then a general _[[observable]] quantity_ or just _[[observable]]_ for short (def. \ref{Observable} below),  is a [[smooth function]]
 
 $$
   A \;\colon\; \Gamma_\Sigma(E)_{\delta_{EL} = 0} \longrightarrow \mathbb{C}
@@ -11528,7 +11504,7 @@ $\mathbf{\Phi}^a(x)$ are really the _[[observables]]_ or _[[quantum observables]
 |--|------------|-|---------|----|
 | [[field bundle|field component]] | $\phi^a$, $\phi^a_{,\mu}$ |  $J^\infty_\Sigma(E) \to \mathbb{R}$ |[[coordinate function]] on [[jet bundle]] of [[field bundle]] | def. \ref{FieldsAndFieldBundles}, def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime} |
 | [[field history]] | $\Phi$, $\frac{\partial \Phi}{\partial x^\mu}$ | $\Sigma \to J^\infty_\Sigma(E)$  | [[jet prolongation]] of [[section]] of [[field bundle]] | def. \ref{FieldsAndFieldBundles}, def. \ref{JetProlongation}  |
-| [[observable|field observable]] | $\mathbf{\Phi}^a(x)$, $\partial_{\mu} \mathbf{\Phi}^a(x),   $ | $\Gamma_{\Sigma}(E) \to \mathbb{R}$  | [[functional]] on [[space of sections]] | def. \ref{Observables}, example \ref{PointEvaluationObservables} |
+| [[observable|field observable]] | $\mathbf{\Phi}^a(x)$, $\partial_{\mu} \mathbf{\Phi}^a(x),   $ | $\Gamma_{\Sigma}(E) \to \mathbb{R}$  | [[functional]] on [[space of sections]] | def. \ref{Observable}, example \ref{PointEvaluationObservables} |
 | [[algebra of quantum observables]] | $\left(\left\{\mathbf{\Phi}^a(x), \partial_\mu \mathbf{\Phi}^a(x)\right\},\, \star\right)$  | $\mathbb{C}Alg$  | [[non-commutative algebra]] [[structure]] on [[observable|field observables]] | def. \ref{WickAlgebraOfFreeQuantumField}, def. \ref{GeneratingFunctionsForCorrelationFunctions} |
 
 $\,$
@@ -11705,7 +11681,7 @@ $\,$
 **General observables**
 {#GeneralObservables}
 
-+-- {: .num_defn #Observables}
++-- {: .num_defn #Observable}
 ###### Definition
 **([[observables]])**
 
@@ -11845,7 +11821,7 @@ $$
 
 has components $(\Phi^a)$ which are [[smooth functions]] on [[spacetime]].
 
-Then for every index $a$ and every point $x \in \Sigma$ in [[spacetime]] (every [[event]]) there is an [[observable]] (def. \ref{Observables})
+Then for every index $a$ and every point $x \in \Sigma$ in [[spacetime]] (every [[event]]) there is an [[observable]] (def. \ref{Observable})
 denoted $\mathbf{\Phi}^a(x)$ which is given by
 
 $$
@@ -11939,7 +11915,7 @@ This means that the
 inherits the structure of a [[super vector space|super]] [[vector space]] by spacetime-pointwise (i.e. [[event]]-wise) scaling and addition of
 [[field histories]].
 
-Then an [[off-shell]] [[observable]] (def. \ref{Observables})
+Then an [[off-shell]] [[observable]] (def. \ref{Observable})
 
 $$
   A \;\colon\; \Gamma_\Sigma(E)_{\delta_{EL}\mathbf{L} = 0} \longrightarrow \mathbb{C}
@@ -11965,7 +11941,7 @@ $$
   LinObs(E,\mathbf{L}) \hookrightarrow Obs(E,\mathbf{L})
 $$
 
-for the subspace of linear observables inside all observables (def. \ref{Observables}) and similarly
+for the subspace of linear observables inside all observables (def. \ref{Observable}) and similarly
 
 $$
   LinObs(E) \hookrightarrow Obs(E)
@@ -12437,7 +12413,7 @@ Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangian
 over a [[spacetime]] $\Sigma$
 whose [[field bundle]] $E$ (def. \ref{FieldsAndFieldBundles}) is a [[super vector bundle|super]] [[vector bundle]].
 
-An [[off-shell]] [[observable]] (def. \ref{Observables})
+An [[off-shell]] [[observable]] (def. \ref{Observable})
 
 $$
   A \;\colon\; \Gamma_\Sigma(E)_{\delta_{EL}\mathbf{L} = 0} \longrightarrow \mathbb{C}
@@ -13673,7 +13649,7 @@ $\,$
 **Infinitesimal observables**
  {#InfinitesimalObservables}
 
-The definition of [[observables]] in def. \ref{Observables} and specifically of [[local observables]] in def. \ref{LocalObservables} uses explicit restriction to the [[shell]],
+The definition of [[observables]] in def. \ref{Observable} and specifically of [[local observables]] in def. \ref{LocalObservables} uses explicit restriction to the [[shell]],
 hence, by the [[principle of extremal action]] (prop. \ref{PrincipleOfExtremalAction}) to the "[[critical locus]]" of the [[action functional]]. Such [[critical loci]] are often hard to
 handle explicitly. It helps to consider a "[[homological resolution]]" that is given, in good circumstances, by the corresponding
 "[[derived critical locus]]".
@@ -14020,9 +13996,16 @@ such that
 
 =--
 
-(Below we consider _quantum states_. These are defined formally in just the same way, only that
+Below we consider _[[quantum states]]_. These are defined formally in just the same way, only that
 now the algebra of observables is equipped with another product, which changes the meaning of
-the product expression $A^\ast A$.)
+the product expression $A^\ast A$.
+
+
+
+$\,$
+
+This concludes our discussion of [[observables]]. In the [next chapter](#PhaseSpace) we consider the 
+construction of the [[covariant phase space]] and of the [[Poisson-Peierls bracket]] on [[observables]].
 
 $\,$
 
@@ -16073,7 +16056,7 @@ $$
             \left(
               e^{i \omega(\vec k)/c +  i \vec k \cdot (\vec x -\vec y)}
               -
-              e^{-i \omega(\vec k)/x} + i \vec k \cdot (\vec x - \vec  y)
+              e^{-i \omega(\vec k)/c + i \vec k \cdot (\vec x - \vec  y)}
             \right)
           d^p \vec k
           & \vert & \text{if} \,  \pm (x^0 - y^0) \gt 0
