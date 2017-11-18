@@ -211,7 +211,7 @@ For each $n \geq 2$, the object $\mathbf{n+1}$ is given by the [[pushout]]
 $$
 \array{
 \mathbf{n-1} & \overset{\delta_0}{\to} & \mathbf{n} \\
-\mathllap{\scriptsize{\delta_{n-1}}} \downarrow & & \downarrow \mathrlap{\scriptsize{\delta_0}} \\
+\mathllap{\scriptsize{\delta_{n-1}}} \downarrow & & \downarrow \mathrlap{\scriptsize{\delta_n}} \\
 \mathbf{n} & \underset{\delta_0}{\to} & \mathbf{n+1}
 }
 $$
