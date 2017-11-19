@@ -7796,6 +7796,7 @@ we have the following:
 * Therefore the variational derivative ([[vertical derivative|vertical derivative]]) of a spacetime coordinate function vanishes:
 
   $$
+    \label{VariationalDerivativeOfSpacetimeCoordinateVanishes}
     \delta x^\mu = 0
     \,,
   $$
@@ -9662,7 +9663,7 @@ $$
 $$
 
 that factors through the [[shell]] inclusion $\mathcal{E} \overset{i_{\mathcal{E}}}{\hookrightarrow} J^\infty_\Sigma(E)$
-(eq:ShellInJetBundle) defined by vanishing of the [[Euler-Lagrange form]] (def. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime})
+(eq:ShellInJetBundle) defined by vanishing of the [[Euler-Lagrange form]] (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime})
 
 $$
   \label{EquationOfMotionEL}
@@ -10636,7 +10637,7 @@ $$
   j^\infty_\Sigma(\Phi(-))^\ast(\delta_{EL}\mathbf{L}) = 0
 $$
 
-and by prop. \ref{PrincipleOfExtremalAction} this is the case precisely if for
+and this is the case precisely if for
 all [[bump functions]] $b \in C^\infty_{cp}(\Sigma)$ the [[integration of differential forms|integral]]
 against $b dvol_\Sigma$ vanishes
 
@@ -13484,22 +13485,24 @@ $$
 By the second statement of prop. \ref{TransgressionOfVariationaldifferentialFormsCompatibleWithVariationalDerivative} we have
 
 $$
-  d \mathcal{S}_{b \mathbf{L}}
-  \;=\;
-  \tau_\Sigma( \delta ( b \mathbf{L} )  )
-  \,.
+  \begin{aligned}
+    d \mathcal{S}_{b \mathbf{L}}
+    & =
+    \tau_\Sigma( \delta ( b \mathbf{L} )  )
+  \end{aligned} 
+  \,,
 $$
 
-By prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime} this is
+Moreover, by prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime} this is
 
 $$
   \begin{aligned}
     \cdots
     & =
-    \tau_\Sigma( b \, \delta_{EL} \mathbf{L} + d \Theta_{BFV}_b )
+    \tau_\Sigma( \delta_{EL} b \mathbf{L} + d \Theta_{BFV,b} )
     \\
     & =
-    \tau_\Sigma( b \, \delta_{EL} \mathbf{L} ) + \underset{= 0}{\underbrace{\tau_\Sigma( d \Theta_{BFV}_b )}}
+    \tau_\Sigma( \delta_{EL} b \mathbf{L} ) + \underset{= 0}{\underbrace{\tau_\Sigma( d \Theta_{BFV,b} )}}
   \end{aligned}
   \,,
 $$
@@ -13515,21 +13518,34 @@ where the second term vanishes by the first statement of prop. \ref{Transgressio
 
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}).
 
-Then the [[de Rham differential]] of the [[action functional]] (def. \ref{VariationOfTheActionFunctional})
-vanishes for all [[adiabatic switchings]] $b \in C^\infty_{cp}(\Sigma)$ on a [[field (physics)|field]] history $\Phi$
+The [[de Rham differential]] $d \mathcal{S}_{b\mathbf{L}}$ of the [[action functional]] (example \ref{VariationOfTheActionFunctional})
+vanishes at a field history 
+
+$$
+  \Phi \in \Gamma_\Sigma(E)
+$$
+
+for all [[adiabatic switchings]] $b \in C^\infty_{cp}(\Sigma)$ constant on some
+subset $\mathcal{O} \subset \Sigma$ (def. \ref{CutoffFunctions}) on those smooth collections of field histories
+
+$$
+  \Phi_{(-)} \;\colon\; U \longrightarrow \Gamma_\Sigma(E)
+$$
+
+around $\Phi$ which, as functions on $U$, are constant outside $\mathcal{O}$ (example \ref{DiffeologicalSpaceOfFieldHistories}, example \ref{SupergeometricSpaceOfFieldHistories})
 precisely if $\Phi$ solves the [[Euler-Lagrange equation|Euler-Lagrange]] [[equations of motion]]
 (def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime}):
 
 $$
   \left(
-  \underset{b \in C^\infty_{cp}(\Sigma)}{\forall}
+  \underset{ { {\mathcal{O} \subset \Sigma} \atop { b\vert_{\mathcal{O}} = const } } \atop { \Phi_{(-)}\vert_{\Sigma \setminus \mathcal{O}} = const }  }{\forall}
   \left(
-     d \mathcal{S}_{b \mathbf{L}}(\Phi) = 0
+     (\Phi_{(-)})^\ast d \mathcal{S}_{b \mathbf{L}}(\Phi) = 0
   \right)
   \right)
   \;\Leftrightarrow\;
   \left(
-    j^\infty_\Sigma(\Phi(-))^\ast ( \delta_{EL} \mathbf{L} ) = 0
+    j^\infty_\Sigma(\Phi)^\ast \left( \frac{\delta_{EL} L}{\delta \phi^a} \right) = 0
   \right)
   \,.
 $$
@@ -13541,27 +13557,30 @@ $$
 ###### Proof
 
 By prop. \ref{TransgressionOfVariationaldifferentialFormsCompatibleWithVariationalDerivative} we have
-for each fixed adiabatic switching $b$ the equivalence
 
 $$
-  \left(
-    d \mathcal{S}_{b \mathbf{L}}(\Phi) \;=\; 0
-  \right)
-  \;\Leftrightarrow\;
-  \left(
-    \int_\Sigma
-      j^\infty_\Sigma(\Phi(-))^\ast (  \delta_{EL} \mathbf{L} )(x) \, b(x) dvol_\Sigma(x)
-    \;=\;
-    0
-  \right)
-  \,.
+  (\Phi_{(-)})^\ast d \mathcal{S}_{b \mathbf{L}} 
+  \;=\;
+   \int_\Sigma
+   j^\infty_\Sigma(\Phi_{(-)})^\ast (  \delta_{EL}  b \mathbf{L} )
+   \,.
 $$
 
-But if the right hand side holds for all $b$, then $(j^\infty_\Sigma(\Phi(-)))^\ast (\delta_{EL}\mathbf{L}) = 0$.
-Because suppose that $j^\infty_\Sigma(\Phi)^\ast (  \delta_{EL} \mathbf{L} )$ does not vanish at some $x \in \Sigma$,
-then by continuity it is non-vanishing also on some [[neighbourhood]] of $x$ and hence the integral
-of any one of its components
-against a non-negative or non-positive bump function $b$ supported inside this neighbourhood is non-vanishing.
+By the assumption on $\Phi_{(-)}$ it follows that after pullback to $U$ the switching function $b$ is constant, so that
+it commutes with the differentials:
+
+$$
+  (\Phi_{(-)})^\ast
+  d \mathcal{S}_{b \mathbf{L}}
+  \;=\;
+   \int_\Sigma
+   b
+   j^\infty_\Sigma(\Phi_{(-)})^\ast (  \delta_{EL}   \mathbf{L} )
+   \,.
+$$
+
+This vanishes at $\Phi$ for all $\Phi_{(-)}$ precisely if all components of $j^\infty_\Sigma(\Phi_{(-)})^\ast (  \delta_{EL}   \mathbf{L} )$
+vanish, which is the statement of the Euler-Lagrange equations of motion.
 
 =--
 
@@ -13808,9 +13827,9 @@ Let $\Sigma \times \{\varphi\} \hookrightarrow \mathcal{E}^\infty$ be a constant
 In correspondence with def. \ref{LocalObservablesOnInfinitesimalNeighbourhood}, write
 
 $$
-  \Gamma_{\Sigma,cp}(T_\Sigma J^\infty^\Sigma E,\varphi)
+  \Gamma_{\Sigma,cp}(T_\Sigma J^\infty_\Sigma E,\varphi)
   \simeq
-  \Gamma_{\Sigma,cp}(J^\infty^\Sigma T_\Sigma E,\varphi)
+  \Gamma_{\Sigma,cp}(J^\infty_\Sigma T_\Sigma E,\varphi)
   \;\in\;
   \Omega^{0,0}_{\Sigma,cp}(E) Mod
 $$
@@ -13961,7 +13980,6 @@ local observables on the  neighbourhood of the background solution $\varphi$ (eq
 with compact spacetime support:
 
 $$
-  \label{ComparisonMorphismFromOrdinaryBVComplexToLocalObservables}
     \Omega^{0,0}_{\Sigma,cp}(E,\varphi)
       \longrightarrow
     \Omega^{0,0}_{\Sigma,cp}(E,\varphi)\vert_{\mathcal{E}_{BV}}
