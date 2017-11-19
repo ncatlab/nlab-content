@@ -408,3 +408,6 @@ For more see the references at _[[wave equation]]_.
 
 [[!redirects Pauli-Jordan distribution]]
 [[!redirects Pauli-Jordan distributions]]
+
+[[!redirects commutator function]]
+[[!redirects commutator functions]]
