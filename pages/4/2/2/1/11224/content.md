@@ -26,6 +26,8 @@ This [[continuous functions]] from Baire space to itself serve the role of _comp
 
 [[!include computable mathematics -- table]]
 
+* [[irrational number]]
+
 
 ## References
 
