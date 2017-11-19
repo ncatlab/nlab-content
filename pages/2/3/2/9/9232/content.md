@@ -27,5 +27,14 @@ In [[perturbation theory]] in [[quantum field theory]], the edges in a the [[Fey
 
 * [[fundamental particle]], [[antiparticle]]
 
+## References
+
+* [[Arnold Neumaier]], _[The Physics of Virtual Particles](https://www.physicsforums.com/insights/physics-virtual-particles/)_
+
+* [[Arnold Neumaier]], _[Misconceptions about Virtual Particles](https://www.physicsforums.com/insights/misconceptions-virtual-particles/)_
+
+See also
+
+* Wikipedia, _[Virtual particle](https://en.wikipedia.org/wiki/Virtual_particle)_
 
 [[!redirects virtual particles]]
