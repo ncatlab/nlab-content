@@ -42,7 +42,7 @@ The term "microcosm principle" arises from the idea that the monoid object (the 
 * [[duoids]] (objects with two monoidal structures) can be defined in any [[duoidal category]] (a category with two monoidal structures).
 * [[Frobenius algebras]] can be defined in any [[star-autonomous category]], and cocomplete $\ast$-autonomous posets are Frobenius algebras in the $\ast$-autonomous category [[Sup]], while [[promonoidal category|pro]]-$\ast$-autonomous categories are [[Frobenius pseudomonoids]] in the $\ast$-autonomous (indeed, compact closed) bicategory [[Prof]].
 * The prototypical example of a [[2-fibration]] consists of internal [[fibrations in a 2-category]].
-* [[type theories]] can be defined relative to any "2-type theory"; see [[adjoint type theory]].
+* [[type theories]] can be defined inside a "2-type theory"; see [[adjoint type theory]] and [[logical framework]].
 
 ## Formalizations
 
