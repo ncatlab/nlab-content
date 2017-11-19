@@ -11,7 +11,7 @@
 For $A$ a [[ring]] or [[associative algebra]], the **commutator** of two elements $x,y \in A$ is the element
 
 $$
-  [x,y] := x y - y x
+  [x,y] \coloneqq x y - y x
   \,.
 $$
 
@@ -20,7 +20,7 @@ $$
 For $G$ a [[group]], the **group commutator** of two elements $a,b \in G$ is the element
 
 $$
-  [a,b] := a^{-1} b^{-1} a b
+  [a,b] \coloneqq a^{-1} b^{-1} a b
   \,.
 $$
 
@@ -40,5 +40,8 @@ $$
 * [[graded commutator]]
 
 * [[associator]]
+
+* [[commutator function]]
+
 
 [[!redirects commutators]]
