@@ -78,7 +78,7 @@ Finally, in order to add the [[principal connections]] to the picture, we think 
 
 Notice that this is precisely the argument which for $G = U(1)$ the [[circle group]] and for $n = 2$ is known as the argument of _[[Dirac charge quantization]]_ (which is also often misrepresented in the physics literature...)
 
-For more see at _[Yang-Mills instanton -- SU(2)SU(2)-instantons from the correct maths to the traditional physics story](#Yang-Mills instanton#FromTheMathsToThePhysicsStory)_.
+For more see at _[Yang-Mills instanton -- SU(2)-instantons from the correct maths to the traditional physics story](Yang-Mills+instanton#FromTheMathsToThePhysicsStory)_.
 
 ## Related concepts
 
