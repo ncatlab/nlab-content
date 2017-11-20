@@ -83,7 +83,7 @@ $$
   \end{aligned}
 $$
 
-This implies by the [[Fourier inversion theorem]] ([this prop.](Fourier+transform#FourierInversionTheoremForDistributions)) that the [[delta distribution]] itself has equivalently the expression
+This implies by the [[Fourier inversion theorem]] ([this prop.](Fourier+transform#FourierInversionTheoremForDistributions)) that the [[delta distribution]] itself has equivalently, in [[generalized function]]-notation, the expression
 
 $$
   \begin{aligned}
