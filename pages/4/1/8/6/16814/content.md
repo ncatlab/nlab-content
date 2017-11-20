@@ -25,7 +25,7 @@ The [[equivalences of categories]] that arise from fixed points of adjunctions t
 
 ## Definition
 
-If $L \colon \mathcal{D} \longrightarrow \mathcal{C}$ is [[left adjoint]] to $R  \colon \mathcal{C} \longrightarrow \mathcal{D}$, then we take the [[fixed points of the endofunctor]] $F G$ to be those [[objects]] of $\mathcal{C}$ on which the [[counit of an adjunction|counit]] $\epsilon$ is an [[isomorphism]], and take the fixed points of $G F$ to be those objects of $\mathcal{D}$ on which the [[unit of an adjunction|unit]] $\eta$ is an isomorphism. The [[triangle identities]] then imply that $F$ and $G$ induce an [[equivalence of categories]] between the [[full subcategories]] of fixed points of $F G$ and the fixed points of $G F$. 
+If $F \colon \mathcal{D} \longrightarrow \mathcal{C}$ is [[left adjoint]] to $G  \colon \mathcal{C} \longrightarrow \mathcal{D}$, then we take the [[fixed points of the endofunctor]] $F G$ to be those [[objects]] of $\mathcal{C}$ on which the [[counit of an adjunction|counit]] $\epsilon$ is an [[isomorphism]], and take the fixed points of $G F$ to be those objects of $\mathcal{D}$ on which the [[unit of an adjunction|unit]] $\eta$ is an isomorphism. The [[triangle identities]] then imply that $F$ and $G$ induce an [[equivalence of categories]] between the [[full subcategories]] of fixed points of $F G$ and the fixed points of $G F$. 
 
 ## Related concepts
 
