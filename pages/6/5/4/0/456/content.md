@@ -302,7 +302,7 @@ $$
 
 where $f^* = (-) \circ f$ is the functor given by precomposition presheaves with $f$.
 
-Moreover, for $\eta : f \Rightarrow g : C \o D$ a [[natural transformation]] between two such functors there is an induced [[geometric transformation]] $(f^* \dashv f_*) \Rightarrow (g^* \dashv g_*)$. This is compatible with composition in that it makes forming [[presheaf topos]]es a [[2-functor]]
+Moreover, for $\eta : f \Rightarrow g : C \to D$ a [[natural transformation]] between two such functors there is an induced [[geometric transformation]] $(f^* \dashv f_*) \Rightarrow (g^* \dashv g_*)$. This is compatible with composition in that it makes forming [[presheaf topos]]es a [[2-functor]]
 
 $$
   [-,Set] : Cat \to Topos
