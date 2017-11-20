@@ -120,6 +120,21 @@ the generalized solutions $u$ are the _[[fundamental solutions]]_ or _[[Green's 
 [[!redirects generalized solution]]
 [[!redirects generalized solutions]]
 
+[[!redirects distributional solution to a PDE]]
+[[!redirects distributional solutions to a PDE]]
+[[!redirects distributional solutions to PDEs]]
+
+[[!redirects generalized solution to a PDE]]
+[[!redirects generalized solutions to a PDE]]
+
+[[!redirects generalized solution to a partial differential equation]]
+[[!redirects generalized solutions to a partial differential equation]]
+
+[[!redirects generalized solutions to partial differential equation]]
+
+[[!redirects generalized solution to a differential equation]]
+[[!redirects generalized solutions to a differential equation]]
+
 
 [[!redirects weak solution]]
 [[!redirects weak solutions]]
