@@ -19,7 +19,7 @@
 ## Idea
  {#Idea}
 
-In [[functional analysis]], the concept of _distributional density_, usually just called _distribution_ for short, is a generalization of the concept of [[density]], hence of something that may be [[integration|integrated]] against a [[bump function]] to produce a [[number]]. If a non-degenerate background [[density]]/[[volume form]] $dvol$ is fixed, then each other density is a [[function]] relative to $dvol$, and hence with such an identification understood distributional densities are _generalized functions_, namely objects that may arise as potentially singular [[limit of a sequence|limits]] of [[sequences]] of [[smooth functions]].  Famous examples of such are the [[delta distributions]] and the [[Heaviside distribution]] which behave like constant functions with an infinitely sharp spike or kink, respectively.
+In [[functional analysis]], the concept of _distributional density_, usually just called _distribution_ for short, is a generalization of the concept of [[density]], hence of something that may be [[integration|integrated]] against a [[bump function]] to produce a [[number]]. If a non-degenerate background [[density]]/[[volume form]] $dvol$ is fixed, then each other density is a [[function]] relative to $dvol$, and hence with such an identification understood distributional densities are _[[generalized functions]]_, namely objects that may arise as potentially singular [[limit of a sequence|limits]] of [[sequences]] of [[smooth functions]] (i.e. of [[non-singular distributions]]).  Famous examples of such are the [[delta distributions]] and the [[Heaviside distribution]] which behave like constant functions with an infinitely sharp spike or kink, respectively.
 
 Distributional densities appear notably as [[fundamental solutions]] to linear [[partial differential equations]] (such as for the [[wave equation]]/[[Klein-Gordon equation]], whose fundamental solutions are the [[propagators]] of [[free fields|free quantum fields]]), which is the context in which the concept was originally introduced. The study of their singularity structure (encoded by their [[singular support]] and their [[wave front set]]) is a fundamental tool in [[PDE theory]] (for instance in the [[propagation of singularities theorem]]), known as _[[microlocal analysis]]_. Distributions are also fundamental in the rigorous construction of [[perturbative quantum field theory]], where they appear in the variant as [[operator-valued distributions]].
 
@@ -512,8 +512,6 @@ category: analysis
 
 [[!redirects distributions]]
 
-[[!redirects generalized function]]
-[[!redirects generalized functions]]
 
 [[!redirects Schwartz distribution]]
 [[!redirects Schwartz distributions]]
