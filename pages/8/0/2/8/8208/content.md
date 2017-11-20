@@ -29,6 +29,8 @@ These relations are manifest in [[string theory]]-[[UV-completions]] of gravity+
 
 * [[duality in physics]]
 
+* [[magic pyramid]]
+
 ## References
 
 * [[Zvi Bern]], _[The KLT relations in field theory](http://relativity.livingreviews.org/open?pubNo=lrr-2002-5&page=articlesu5.html)_, Living Reviews in Relativity
