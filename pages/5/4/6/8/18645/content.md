@@ -14659,8 +14659,6 @@ $$
   \mathrm{G}_P
     \;\colon\;
     LinObs(E_{scp},\mathbf{L})^{reg}
-      \simeq
-    \Gamma_{\Sigma,cp}(E ^\ast)
         \overset{\mathrm{G}_P}{\longrightarrow}
     \Gamma_{\Sigma,scp}(E)_{\delta_{EL}\mathbf{L} = 0}
 $$
@@ -14669,36 +14667,36 @@ for the linear map
 from regular linear field observables (def. \ref{RegularLinearFieldObservables}) to on-shell [[field histories]] with spatially compact support (def. \ref{CompactlySourceCausalSupport}) given under the identification (eq:RegularLinearObservablesAreCompactlySupportedSectionsModuloImageOfP)
 by the [[causal Green function]] $\mathrm{G}_P$ (def. \ref{AdvancedAndRetardedGreenFunctions}).
 
-Then for every [[Cauchy surface]] $\Sigma_p \hookrightarrow \Sigma$ (def. \ref{CauchySurface}) this map an inverse to the
+Then for every [[Cauchy surface]] $\Sigma_p \hookrightarrow \Sigma$ (def. \ref{CauchySurface}) this map is an inverse to the
 [[presymplectic form]] $\omega_{\Sigma_p}$ (def. \ref{PhaseSpaceAssociatedWithCauchySurface})
 in that, under the identification of tangent vectors to field histories from example \ref{EvaluationOfTransgressedVariationalFormsOnTangentVectorsForFreeFieldTheory}, we have that the composite
 
 $$
   \label{ForGreenHyperbolicFreeFieldTheoryCausalGreenFunctionIsInverseToPresymplecticFormOnRegularLinearObservables}
   \array{
-    \omega_{\Sigma_p}(\mathrm{G}(-),(-))
+    \omega_{\Sigma_p}(\mathrm{G}_P(-),(-))
     \;=\;
     ev
     &\colon&
-    LinObs(E_{scp},\mathbf{L})^{reg} \otimes \Gamma_{\Sigma,scp}(E)
+    LinObs(E_{scp},\mathbf{L})^{reg} &\otimes& \Gamma_{\Sigma,scp}(E)
       &\longrightarrow&
     \mathbb{C}
     \\
-    && (A, \Phi) &\mapsto& A(\Phi)
+    && (A &,& \Phi) &\mapsto& A(\Phi)
   }
 $$
 
 equals the [[evaluation map]] of observables on field histories.
 
 This means that for every [[Cauchy surface]] $\Sigma_p$ the [[presymplectic form]] $\omega_{\Sigma_p}$ restricts to a _[[symplectic form]]_
-on regular linear observables. The corresponding _[[Poisson bracket]]_ is defined to be
+on regular linear observables. The corresponding _[[Poisson bracket]]_ is 
 
 $$
   \left\{
     -,-
   \right\}_{\Sigma_p}
   \;\coloneqq\;
-  \omega_{\Sigma_p}(\mathrm{G}(-), \mathrm{G}(-))
+  \omega_{\Sigma_p}(\mathrm{G}_P(-), \mathrm{G}_P(-))
   \;\;\colon\;\;
   LinObs(E_{scp},\mathbf{L})^{reg} \otimes LinObs(E_{scp},\mathbf{L})^{reg}
     \longrightarrow
