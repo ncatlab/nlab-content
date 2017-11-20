@@ -102,7 +102,7 @@ $$
 **([[Fourier integral]] formula for step function)**
 
 
-The Heaviside distribution $\Theta \in \mathcal{D}'(\mathbb{R})$ is equivalently the following [[limit of a sequence|limit]] of [[Fourier integrals]]
+The Heaviside distribution $\Theta \in \mathcal{D}'(\mathbb{R})$ is equivalently the following [[limit of a sequence|limit]] of [[Fourier integrals]] (see at _[[Cauchy principal value]]_)
 
 $$
   \begin{aligned}
@@ -177,6 +177,10 @@ The Fourier form of the step function in prop. \ref{FourierIntegralFormula} give
 
 
 =--
+
+## Related concepts
+
+* [[sign function]]
 
 ## References
 
