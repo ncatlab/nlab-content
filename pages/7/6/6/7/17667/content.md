@@ -36,6 +36,8 @@ In this diagram vertical axis labels the spacetime division algebra (hence verti
 
 * [[magic supergravity]]
 
+* [[KLT relations]]
+
 
 ## References
 
