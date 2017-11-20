@@ -318,8 +318,8 @@ $$
 
 ## Examples
 
-### On Minkowski spacetime
- {#On}
+### For Klein-Gordon operator on Minkowski spacetime
+ {#ForKleinGordonOnMinkowskiSpacetime}
 
 On [[Minkowski spacetime]] $\mathbb{R}^{p,1}$ consider the [[Klein-Gordon operator]]
 
@@ -522,7 +522,7 @@ $$
 
 Hence we are now reduced to finding solutions $\widehat{\Delta_\pm} \in \mathcal{S}'(\mathbb{R}^{p,1})$ to (eq:FourierVersionOfPDEForKleinGordonAdvancedRetardedPropagator) such that their [[Fourier inversion theorem|Fourier inverse]] $\Delta_\pm$ has the required [[support of a distribution|support]] properties.
 
-There are various ways to solve this:
+We discuss two ways to solve this:
 
 1. direct solution of (eq:FourierVersionOfPDEForKleinGordonAdvancedRetardedPropagator) via [[Cauchy principal values]];
 
@@ -860,6 +860,7 @@ $$
      d^p \vec k
      \\
      & =
+     \frac{-1}{(2\pi)^p}
      \int
      \frac{1}{\omega(\vec k)/c}
      \sin\left( \omega(\vec k)(x^0 - y^0)/c \right)
@@ -873,7 +874,7 @@ $$
   \end{aligned}
 $$
 
-where in the second line we used the [[trigonometric identity]] $sin(\alpha)= \tfrac{1}{2}\left( e^{i \alpha} - e^{-i \alpha} \right)$.
+where in the second line we used [[Euler's formula]] $sin(\alpha)= \tfrac{1}{2i}\left( e^{i \alpha} - e^{-i \alpha} \right)$.
 
 
 =--
@@ -980,7 +981,7 @@ $$
      & \phantom{=} 
      - i (2\pi)^{-p} \int \frac{1}{2 \omega(\vec k)/c} e^{ - i \omega(\vec k) (x-y)^0/c + i \vec k \cdot \vec x }  d^{p} \vec k
      \\
-     & = i (2 \pi)^{-p} \int \frac{1}{\omega(\vec k)/c} 
+     & = -(2 \pi)^{-p} \int \frac{1}{\omega(\vec k)/c} 
       sin\left( \omega(\vec k)(x-y)^0/c \right)
       e^{i \vec k \cdot (\vec x - \vec y)} 
   \end{aligned}
@@ -1005,7 +1006,7 @@ $$
     (2\pi)^{-(p+1)}
     \int
     \underset{C(\vec k)}{\oint}
-     \frac{e^{i k_\mu (x-y)^\mu}}{ k_\mu k^\mu + m^2 }
+     \frac{e^{i k_\mu (x-y)^\mu}}{ -k_\mu k^\mu - m^2 }
     \,d k_0
     \,d^{p} k
   \,.
@@ -1030,7 +1031,7 @@ $$
     (2\pi)^{-(p+1)}
     \int
     \underset{C(\vec k)}{\oint}
-     \frac{e^{i k_\mu (x-y)^\mu}}{ k_\mu k^\mu + m^2 }
+     \frac{e^{i k_\mu (x^\mu - y^\mu)}}{ -k_\mu k^\mu - m^2 }
     \,d k_0
     \,d^{p} k
     & =
@@ -1040,7 +1041,7 @@ $$
       \frac{
         e^{i k_0 x^0} e^{ i \vec k \cdot (\vec x - \vec y)}
       }{
-        - k_0^2 + \omega(\vec k)^2/c^2
+        k_0^2 - \omega(\vec k)^2/c^2
       } 
     \,d k_0
     \,d^p \vec k 
@@ -1050,10 +1051,10 @@ $$
     \int
     \underset{C(\vec k)}{\oint}
       \frac{
-        e^{i k_0 (x-y)^0} e^{i \vec k \cdot (\vec x - \vec y)}
+        e^{i k_0 (x^0 - y^0)} e^{i \vec k \cdot (\vec x - \vec y)}
       }{
-        ( \omega(\vec k)/c + k_0 )
-        ( \omega(\vec k)/c - k_0 )
+        ( k_0 + \omega(\vec k)/c )
+        ( k_0 - \omega(\vec k)/c )
       } 
     \,d k_0
     \,d^p \vec k
@@ -1093,6 +1094,7 @@ $$
 The last line is the expression for the causal propagator from prop. \ref{ModeExpansionOfCausalPropagatorForKleinGordonOnMinkowski}
 
 =--
+
 
 
 ### On general globally hyperbolic spacetimes
