@@ -1,48 +1,68 @@
 
 
+
 $$
   \begin{aligned}
-  \Delta(x,y)
-  & \coloneqq
-  \Delta_+(x,y) - \Delta_-(x,y)
-  \\
-  & =
-      \left\{
-       \array{
-          \frac{+ i}{(2\pi)^{p}}
-          \int
-           \frac{1}{2\omega(\vec k)/c}
-            \left(
-              e^{i \omega(\vec k)(x^0 - y^0)/c +  i \vec k \cdot (\vec x -\vec y)}
-              -
-              e^{-i \omega(\vec k)(x^0 - y^0)/c + i \vec k \cdot (\vec x - \vec  y)}
-            \right)
-          d^p \vec k
-          & \vert & \text{if} \,  + (x^0 - y^0) \gt 0
-          \\
-          \frac{(-1) (-1) i}{(2\pi)^{p}}
-          \int
-           \frac{1}{2\omega(\vec k)/c}
-            \left(
-              e^{i \omega(\vec k)(x^0 - y^0)/c +  i \vec k \cdot (\vec x -\vec y)}
-              -
-              e^{-i \omega(\vec k)(x^0 - y^0)/c + i \vec k \cdot (\vec x - \vec  y)}
-            \right)
-          d^p \vec k
-          & \vert & \text{if} \,  - (x^0 - y^0) \gt 0
-       }
-     \right.
-     \\
-     & =
-          \frac{+ i}{(2\pi)^{p}}
-          \int
-           \frac{1}{2\omega(\vec k)/c}
-            \left(
-              e^{i \omega(\vec k)(x^0 - y^0)/c +  i \vec k \cdot (\vec x -\vec y)}
-              -
-              e^{-i \omega(\vec k)(x^0 - y^0)/c + i \vec k \cdot (\vec x - \vec  y)}
-            \right)
-          d^p \vec k
+    (2\pi)^{-(p+1)}
+    \int
+    \underset{C(\vec k)}{\oint}
+     \frac{e^{i k_\mu (x-y)^\mu}}{ k_\mu k^\mu + m^2 }
+    \,d k_0
+    \,d^{p} k
+    & =
+    (2\pi)^{-(p+1)}
+    \int
+    \underset{C(\vec k)}{\oint}
+      \frac{
+        e^{i k_0 x^0} e^{ i \vec k \cdot (\vec x - \vec y)}
+      }{
+        - k_0^2 + \omega(\vec k)^2/c^2
+      } 
+    \,d k_0
+    \,d^p \vec k 
+    \\
+    & =   
+    (2\pi)^{-(p+1)}
+    \int
+    \underset{C(\vec k)}{\oint}
+      \frac{
+        e^{i k_0 (x-y)^0} e^{i \vec k \cdot (\vec x - \vec y)}
+      }{
+        ( \omega(\vec k)/c + k_0 )
+        ( \omega(\vec k)/c - k_0 )
+      } 
+    \,d k_0
+    \,d^p \vec k
+    \\
+    & = 
+    (2\pi)^{-(p+1)}
+     2\pi i
+     \int
+     \left(
+     \frac{
+       e^{i \omega(\vec k) (x^0 - y^0)/c} e^{i \vec k \cdot (\vec x - \vec y)}
+     }
+     {
+       2 \omega(\vec k)/c
+     }
+     -
+     \frac{
+       e^{ - i \omega(\vec k) (x^0 - y^0)/c} e^{i \vec k \cdot (\vec x - \vec y)}
+     }{
+       2 \omega(\vec k)/c
+     }
+    \right)
+    \,d^p \vec k
+    \\
+    & = 
+    i 
+    (2\pi)^{-p}
+    \int
+      \frac{1}{\omega(\vec k)/c}
+      sin\left( \omega(\vec k)(x^0 - y^0)/c \right)
+      e^{i \vec k \cdot (\vec x - \vec y)}
+     \,d^p \vec k
+     \,.
   \end{aligned}
 $$
 
