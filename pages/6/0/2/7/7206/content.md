@@ -87,7 +87,7 @@ based on
 ### On $N=8$ $d=4$ supergravity
 
 
-#### Costruction
+#### Construction
 
 The maximal $N=8$ supergravity in 4d was obtained by [[KK-reduction]] of [[11-dimensional supergravity]] on a [[torus|7-torus]] in 
 
