@@ -87,6 +87,8 @@ based on
 ### On $N=8$ $d=4$ supergravity
 
 
+#### Costruction
+
 The maximal $N=8$ supergravity in 4d was obtained by [[KK-reduction]] of [[11-dimensional supergravity]] on a [[torus|7-torus]] in 
 
 * {#CremmerJulia79} [[Eugene Cremmer]], [[Bernard Julia]], _The $SO(8)$ Supergravity_, Nucl. Phys. B 159 (1979) 141 ([spire](http://inspirehep.net/record/140465?ln=en))
@@ -114,7 +116,10 @@ and further gaugings by non-compact gauge groups in
 
 * [[Chris Hull]], _New Gauged $N=8$, $D=4$ Supergravities_, _Class.Quant.Grav.20:5407-5424,2003_ ([arXiv:hep-th/0204156](https://arxiv.org/abs/hep-th/0204156))
 
-Evidence for perturbative finiteness of $N=8$ 4d SuGra is discussed in
+#### $N = 8$ Perturbative quantum supergravity
+ {#PerturbativeQuantumSupergravityN8}
+
+Evidence for high [[loop order]] finiteness of of $N=8$ 4d supergravity as as [[perturbative quantum field theory]] ([[perturbative quantum gravity]]) is discussed in
 
 * [[Zvi Bern]], [[Lance Dixon]], [[Radu Roiban]], _Is $N = 8$ Supergravity Ultraviolet Finite?_, Phys.Lett.B644:265-271,2007 ([arXiv:hep-th/0611086](http://arxiv.org/abs/hep-th/0611086))
 
@@ -131,6 +136,9 @@ surveyed in
 * [[Lance Dixon]], _Ultraviolet Behavior of $N=8$ Supergravity_ ([arXiv:1005.2703](http://arxiv.org/abs/1005.2703))
 
 * {#FerraraMarrani12} [[Sergio Ferrara]], Alessio Marrani, _Quantum Gravity Needs Supersymmetry_ ([arXiv:1201.4328](http://arxiv.org/abs/1201.4328))
+
+* {#Kallosh14} [[Renata Kallosh]], _An Update on Perturbative $N=8$ Supergravity_ ([arXiv:1412.7117](https://arxiv.org/abs/1412.7117))
+
 
 Arguments for finiteness from [[E7]] [[U-duality]] is discussed in
 
