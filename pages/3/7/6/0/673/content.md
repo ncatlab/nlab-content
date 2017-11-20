@@ -82,6 +82,10 @@ Appears in: Gazette of the Australian Mathematical Society, Vol. 41 (2014) No. 5
 
 ## Selected Talks 
 
+* _Constructions in lower dimensional higher geometry_, [Gauge theory and higher geometry](http://iga.adelaide.edu.au/workshops/MKM60/), University of Adelaide. 29 November 2017.
+
+* _Constructing differential string structures_, [Differential geometry seminar](http://maths.adelaide.edu.au/news/geometry.html), University of Adelaide. 7 June 2017.
+
 * _Smooth mapping stacks of differentiable stacks and orbifolds_, [Functional analysis seminar](https://math.colorado.edu/seminars/?date=2016-12-01), University of Colorado, Boulder. 1 December 2016.
 
 * _Low-dimensional higher geometry by examples_, [Kempner Colloquium](https://math.colorado.edu/seminars/?date=2016-11-29), University of Colorado, Boulder. 29 November 2016.
