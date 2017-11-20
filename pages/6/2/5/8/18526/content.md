@@ -1005,6 +1005,110 @@ The last line is the expression for the causal propagator from prop. \ref{ModeEx
 =--
 
 
++-- {: .num_prop #Smooth0TypeIsSheavesOnSmoothMfd}
+###### Proposition
+
+
+The [[causal propagator]] for the [[Klein-Gordon equation]] at [[mass]] $m$ on [[Minkowski spacetime]] has the following equivalent expression, as a [[generalized function]], given as a [[contour integral]] along a curve $C(\vec k)$ going counter-clockwise around the two [[poles]] at $k_0 = \pm \omega(\vec k)/c$:
+
+
+$$
+  \Delta(x,y)
+  \;=\;
+    (2\pi)^{-(p+1)}
+    \int
+    \underset{C(\vec k)}{\oint}
+     \frac{e^{i k_\mu (x-y)^\mu}}{ k_\mu k^\mu + m^2 }
+    \,d k_0
+    \,d^{p} k
+  \,.
+$$
+
+=--
+
+
+<img src="https://ncatlab.org/nlab/files/ContourForCausalPropagator.png" height="160">
+
+> graphics grabbed from [Kocic 16](#Kocic16)
+
+
++-- {: .proof}
+###### Proof
+
+
+By [[Cauchy's integral formula]] we compute as follows:
+
+$$
+  \begin{aligned}
+    (2\pi)^{-(p+1)}
+    \int
+    \underset{C(\vec k)}{\oint}
+     \frac{e^{i k_\mu (x-y)^\mu}}{ k_\mu k^\mu + m^2 }
+    \,d k_0
+    \,d^{p} k
+    & =
+    (2\pi)^{-(p+1)}
+    \int
+    \underset{C(\vec k)}{\oint}
+      \frac{
+        e^{i k_0 x^0} e^{ i \vec k \cdot (\vec x - \vec y)}
+      }{
+        - k_0^2 + \omega(\vec k)^2/c^2
+      } 
+    \,d k_0
+    \,d^p \vec k 
+    \\
+    & =   
+    (2\pi)^{-(p+1)}
+    \int
+    \underset{C(\vec k)}{\oint}
+      \frac{
+        e^{i k_0 (x-y)^0} e^{i \vec k \cdot (\vec x - \vec y)}
+      }{
+        ( \omega(\vec k)/c + k_0 )
+        ( \omega(\vec k)/c - k_0 )
+      } 
+    \,d k_0
+    \,d^p \vec k
+    \\
+    & = 
+    (2\pi)^{-(p+1)}
+     2\pi i
+     \int
+     \left(
+     \frac{
+       e^{i \omega(\vec k) (x^0 - y^0)/c} e^{i \vec k \cdot (\vec x - \vec y)}
+     }
+     {
+       2 \omega(\vec k)/c
+     }
+     -
+     \frac{
+       e^{ - i \omega(\vec k) (x^0 - y^0)/c} e^{i \vec k \cdot (\vec x - \vec y)}
+     }{
+       2 \omega(\vec k)/c
+     }
+    \right)
+    \,d^p \vec k
+    \\
+    & = 
+    i 
+    (2\pi)^{-p}
+    \int
+      \frac{1}{\omega(\vec k)/c}
+      sin\left( \omega(\vec k)(x^0 - y^0)/c \right)
+      e^{i \vec k \cdot (\vec x - \vec y)}
+     \,d^p \vec k
+     \,.
+  \end{aligned}
+$$
+
+The last line is the expression for the causal propagator from prop. \ref{ModeExpansionOfCausalPropagatorForKleinGordonOnMinkowski}
+
+=--
+
+
+
 ## Related concepts
 
 
@@ -1023,6 +1127,10 @@ General discussion includes
 * {#Baer14} [[Christian Bär]], _Green-hyperbolic operators on globally hyperbolic spacetimes_, Communications in Mathematical Physics 333, 1585-1615 (2014) ([doi](http://dx.doi.org/10.1007/s00220-014-2097-7), [arXiv:1310.0738](https://arxiv.org/abs/1310.0738))
 
 * {#Khavkine14} [[Igor Khavkine]], _Covariant phase space, constraints, gauge and the Peierls formula_, Int. J. Mod. Phys. A, 29, 1430009 (2014) ([arXiv:1402.1282](https://arxiv.org/abs/1402.1282))
+
+based on 
+
+* {#Sanders12} [[Ko Sanders]], _A note on spacelike and timelike compactness_, Classical and Quantum Gravity 30, 115014 (2012) ([doi](http://dx.doi.org/10.1088/0264-9381/30/11/115014), [arXiv:1211.2469](https://arxiv.org/abs/1211.2469))
 
 
 Textbook discussion for [[free fields]] in [[Minkowski spacetime]] is in
