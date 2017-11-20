@@ -1,4 +1,19 @@
 
+$$
+  \widehat{b(x-y)\Delta(x)}(k)
+  =
+  \int \hat b\left( (k_0 - \xi_0)^2 + (\vec k - \vec \xi)^2 \right) e^{i (k_\mu - \xi_\mu) y^\mu} \delta\left(\xi_\mu \xi^\mu + \left( \tfrac{m c}{\hbar}\right)^2\right) \, d \xi_0 \, d^p \vec \xi
+$$
+
+$$
+  =
+  \int \frac{1}{2 \omega(\vec \xi)/c} \hat b\left( \left(k_0 - \omega(\vec \xi)/c\right)^2 + (\vec k - \vec \xi)^2 \right) e^{i (k_\mu - \xi_\mu) y^\mu} d^p \vec \xi
+$$
+
+$$
+  =
+  \int \frac{1}{2 \omega(\vec \xi)/c} \hat b\left( \left(k_0 - \omega(\vec \xi+ \vec k)/c\right)^2 + (\vec \xi)^2 \right) e^{i (k_\mu - \xi_\mu) y^\mu} d^p \vec \xi
+$$
 
 
 $$
