@@ -43,7 +43,7 @@ Then also $(Y,\tau_Y)$ is [[compact topological space|compact]].
 Let $\{U_i \subset Y\}_{i \in I}$ be an [[open cover]] of $Y$. We need show that this has a finite sub-cover. 
 
 By the continuity of $f$ the [[pre-images]] $f^{-1}(U_i)$ form an [[open cover]] $\{f^{-1}(U_i) \subset X\}_{i \in I}$ of $X$. Hence by compactness of $X$, there exists a [[finite set|finite]] [[subset]] $J \subset I$ such that 
-$\{f^{-1}(U_i) \subset X\}_{i \in J \subset I}$ is still an open cover of $X$. Finally, by surjectivity of $f$ it it follows that 
+$\{f^{-1}(U_i) \subset X\}_{i \in J \subset I}$ is still an open cover of $X$. Finally, by surjectivity of $f$ it follows that 
 
 $$
   \begin{aligned}
