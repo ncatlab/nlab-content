@@ -42,6 +42,8 @@ The set of (say real) positive numbers may be denoted $\dot{\mathbb{R}}^+$, $]0,
 
 * [[even number]], [[odd number]]
 
+* [[sign function]]
+
 [[!redirects positive number]]
 [[!redirects positive numbers]]
 
@@ -63,3 +65,6 @@ The set of (say real) positive numbers may be denoted $\dot{\mathbb{R}}^+$, $]0,
 
 [[!redirects negative number]]
 [[!redirects negative numbers]]
+
+[[!redirects negative real number]]
+[[!redirects negative real numbers]]
