@@ -126,7 +126,7 @@ One may regard [[gravity]] as an [[effective field theory]] and just quantize in
 
 * {#DonoghueIntroduction} John F. Donoghue, _Introduction to the Effective Field Theory Description of Gravity_ ([arXiv:gr-qc/9512024](http://arxiv.org/abs/gr-qc/9512024))
 
-* [[Zvi Bern]], _Perturbative Quantum Gravity and its Relation to Gauge Theory_, Living Rev Relativ. 2002; 5(1): 5. ([doi:10.12942/lrr-2002-5](https://dx.doi.org/10.12942%2Flrr-2002-5))
+* [[Zvi Bern]], _Perturbative Quantum Gravity and its Relation to Gauge Theory_, Living Rev Relativ. 2002; 5(1): 5. ([arXiv:gr-qc/0206071](https://arxiv.org/abs/gr-qc/0206071), [doi:10.12942/lrr-2002-5](https://dx.doi.org/10.12942%2Flrr-2002-5))
 
 A brief survey of the relevant mathematical issues with more pointers to the literature is in
 
@@ -144,6 +144,13 @@ and with applications to [[cosmology]] in
 
 * {#BFHPR16} [[Romeo Brunetti]], [[Klaus Fredenhagen]], Thomas-Paul Hack, Nicola Pinamonti, [[Katarzyna Rejzner]], _Cosmological perturbation theory and quantum gravity_, Journal of High Energy Physics August 2016:32 ([arXiv:1605.02573](https://arxiv.org/abs/1605.02573))
 
+For of perturbative [[supergravity]] see at 
+
+* _[N=8 perturbative quantum gravity](4-dimensional+supergravity#PerturbativeQuantumSupergravityN8)_
+
+* _[[KLT relations]]_
+
+* _[[string theory results applied elsewhere]]_.
 
 [[!redirects perturbative quantum gravity]]
 
