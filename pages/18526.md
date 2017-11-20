@@ -280,7 +280,7 @@ $$
 **([[causal Green functions]] of [[Green hyperbolic differential operators]] are [[continuous linear maps]])**
 
 
-Given a [[Green hyperbolic differential operator]] $P$ (def. \ref{GreenHyperbolicDifferentialOperator}), the advanced, retarded and causal Green functions of $P$ (def. \ref{AdvancedAndRetardedGreenFunctions}) are [[continuous linear maps]] with respect to the [[topological vector space]] structure from def. \ref{TVSStructureOnSpacesOfSmoothSections} and also have a unique continuous extension to the spaces of sections with larger support (def. \ref{CompactlySourceCausalSupport}) as follows:
+Given a [[Green hyperbolic differential operator]] $P$ (def. \ref{GreenHyperbolicDifferentialOperator}), the advanced, retarded and causal Green functions of $P$ (def. \ref{AdvancedAndRetardedGreenFunctions}) are [[continuous linear maps]] with respect to the [[topological vector space]] structure from def. \ref{TVSStructureOnSpacesOfSmoothSections} and also have a unique continuous extension to the spaces of sections with .larger support (def. \ref{CompactlySourceCausalSupport}) as follows:
 
 $$
 \begin{aligned}
@@ -343,7 +343,7 @@ $$
 
 +-- {: .num_prop #AdvancedRetardedPropafatorsForKleinGordonOnMinkowskiSpacetime}
 ###### Proposition
-**([[advanced and retarded propagators]] for [[Klein-Gordon operator]] on [[Minkowski spacetime]])**
+**(mode expansion of [[advanced and retarded propagators]] for [[Klein-Gordon operator]] on [[Minkowski spacetime]])**
 
 The [[advanced and retarded Green functions]] $G_\pm$ of the [[Klein-Gordon operator]] on [[Minkowski spacetime]] are given by [[integral kernels]] ("[[propagators]]")
 
@@ -680,7 +680,7 @@ $$
             \left(
               e^{i \omega(\vec k)(x^0 - y^0)/c +  i \vec k \cdot (\vec x -\vec y)}
               -
-              e^{-i \omega(\vec k)(x^0 - y^0)/c} + i \vec k \cdot (\vec x - \vec  y)
+              e^{-i \omega(\vec k)(x^0 - y^0)/c + i \vec k \cdot (\vec x - \vec  y)}
             \right)
           d^p \vec k
           & \vert & \text{if} \,  \pm (x^0 - y^0) \gt 0
@@ -691,8 +691,7 @@ $$
   \end{aligned}
 $$
 
-Here key step is the application of [[Cauchy's integral formula]] in the fourth step.
-We discuss this for $\Delta_+$, the discussion for $\Delta_-$ is the same, just with the appropriate signs reversed.
+Here the key step is the application of [[Cauchy's integral formula]] in the fourth step. We discuss this now for $\Delta_+$, the discussion for $\Delta_-$ is the same, just with the appropriate signs reversed.
 
 1. If  $(x^0 - y^0) \gt 0$ thn the expression $e^{ik_0 (x^0 - y^0)}$ decays with _[[positive number|positive]] [[imaginary part]]_ of $k_0$, so that we may expand the [[integration]] [[domain]] into the [[upper half plane]] as
 
@@ -848,6 +847,103 @@ $$
 $$
 
 Here in the second step we applied [[change of integration variables]] $\vec k \mapsto - \vec k$ (which introduces _no_ sign because in addition to $d \vec k \mapsto - d \vec k$ the integration domain reverses [[orientation]]).
+
+=--
+
+
++-- {: .num_prop #ModeExpansionOfCausalPropagatorForKleinGordonOnMinkowski}
+###### Proposition
+**(mode expansion of [[causal propagator]] for [[Klein-Gordon equation]] on [[Minkowski spacetime]])**
+
+The [[causal propagator]] for the [[Klein-Gordon equation]] for [[mass]] $m$ on [[Minkowski spacetime]] $\mathbb{R}^{p,1}$ is given, in [[generalized function]] notation, by 
+
+
+$$
+  \begin{aligned}
+    \Delta(x,y)
+     & =
+     \frac{+ i}{(2\pi)^{p}}
+     \int
+     \frac{1}{2\omega(\vec k)/c}
+     \left(
+         e^{i \omega(\vec k)(x^0 - y^0)/c +  i \vec k \cdot (\vec x -\vec y)}
+         -
+         e^{-i \omega(\vec k)(x^0 - y^0)/c + i \vec k \cdot (\vec x - \vec  y)}
+       \right)
+     d^p \vec k
+     \\
+     & =
+     \int
+     \frac{1}{\omega(\vec k)/c}
+     \sin\left( \omega(\vec k)(x^0 - y^0)/c \right)
+     \left(
+         e^{i \vec k \cdot (\vec x -\vec y)}
+         -
+         e^{i \vec k \cdot (\vec x - \vec  y)}
+       \right)
+     d^p \vec k   
+     \,,
+  \end{aligned}
+$$
+
+where in the second line we used the [[trigonometric identity]] $sin(\alpha)= \tfrac{1}{2}\left( e^{i \alpha} - e^{-i \alpha} \right)$.
+
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+By definition and using the expression from prop. \ref{AdvancedRetardedPropafatorsForKleinGordonOnMinkowskiSpacetime} for the [[advanced and retarded causal propagators]] we have
+
+$$
+  \begin{aligned}
+  \Delta(x,y)
+  & \coloneqq
+  \Delta_+(x,y) - \Delta_-(x,y)
+  \\
+  & =
+      \left\{
+       \array{
+          \frac{+ i}{(2\pi)^{p}}
+          \int
+           \frac{1}{2\omega(\vec k)/c}
+            \left(
+              e^{i \omega(\vec k)(x^0 - y^0)/c +  i \vec k \cdot (\vec x -\vec y)}
+              -
+              e^{-i \omega(\vec k)(x^0 - y^0)/c + i \vec k \cdot (\vec x - \vec  y)}
+            \right)
+          d^p \vec k
+          & \vert & \text{if} \,  + (x^0 - y^0) \gt 0
+          \\
+          \frac{(-1) (-1) i}{(2\pi)^{p}}
+          \int
+           \frac{1}{2\omega(\vec k)/c}
+            \left(
+              e^{i \omega(\vec k)(x^0 - y^0)/c +  i \vec k \cdot (\vec x -\vec y)}
+              -
+              e^{-i \omega(\vec k)(x^0 - y^0)/c + i \vec k \cdot (\vec x - \vec  y)}
+            \right)
+          d^p \vec k
+          & \vert & \text{if} \,  - (x^0 - y^0) \gt 0
+       }
+     \right.
+     \\
+     & =
+          \frac{+ i}{(2\pi)^{p}}
+          \int
+           \frac{1}{2\omega(\vec k)/c}
+            \left(
+              e^{i \omega(\vec k)(x^0 - y^0)/c +  i \vec k \cdot (\vec x -\vec y)}
+              -
+              e^{-i \omega(\vec k)(x^0 - y^0)/c + i \vec k \cdot (\vec x - \vec  y)}
+            \right)
+          d^p \vec k
+  \end{aligned}
+$$
+
+
 =--
 
 ## Related concepts
