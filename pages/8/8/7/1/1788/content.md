@@ -1,5 +1,52 @@
 
 
+$$
+  \begin{aligned}
+  \Delta(x,y)
+  & \coloneqq
+  \Delta_+(x,y) - \Delta_-(x,y)
+  \\
+  & =
+      \left\{
+       \array{
+          \frac{+ i}{(2\pi)^{p}}
+          \int
+           \frac{1}{2\omega(\vec k)/c}
+            \left(
+              e^{i \omega(\vec k)(x^0 - y^0)/c +  i \vec k \cdot (\vec x -\vec y)}
+              -
+              e^{-i \omega(\vec k)(x^0 - y^0)/c + i \vec k \cdot (\vec x - \vec  y)}
+            \right)
+          d^p \vec k
+          & \vert & \text{if} \,  + (x^0 - y^0) \gt 0
+          \\
+          \frac{(-1) (-1) i}{(2\pi)^{p}}
+          \int
+           \frac{1}{2\omega(\vec k)/c}
+            \left(
+              e^{i \omega(\vec k)(x^0 - y^0)/c +  i \vec k \cdot (\vec x -\vec y)}
+              -
+              e^{-i \omega(\vec k)(x^0 - y^0)/c + i \vec k \cdot (\vec x - \vec  y)}
+            \right)
+          d^p \vec k
+          & \vert & \text{if} \,  - (x^0 - y^0) \gt 0
+       }
+     \right.
+     \\
+     & =
+          \frac{+ i}{(2\pi)^{p}}
+          \int
+           \frac{1}{2\omega(\vec k)/c}
+            \left(
+              e^{i \omega(\vec k)(x^0 - y^0)/c +  i \vec k \cdot (\vec x -\vec y)}
+              -
+              e^{-i \omega(\vec k)(x^0 - y^0)/c + i \vec k \cdot (\vec x - \vec  y)}
+            \right)
+          d^p \vec k
+  \end{aligned}
+$$
+
+
 +-- {: .proof}
 ###### Proof
 
