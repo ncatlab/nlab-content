@@ -41,7 +41,7 @@ $$
   Z : Bord_n^{Def} \to \mathcal{C}
 $$
 
-a TQFT _with defects_. A general formalization is in ([Lurie, section 4.3](#Lurie)), see at _[Cobordism theorem -- For cobordisms with singuarities (boundaries/branes and defects/domain walls)](cobordism+hypothesis#ForCobordismsWithSingularities)_. See also ([Davydov-Runkel-Kong](#DavydovRunkelKong)).
+a TQFT _with defects_. A general formalization is in ([Lurie, section 4.3](#Lurie)), see at _[Cobordism theorem -- For cobordisms with singuarities (boundaries/branes and defects/domain walls)](cobordism+hypothesis#ForCobordismsWithSingularities)_. See also ([Davydov-Runkel-Kong](#DavydovRunkelKong) and [Carqueville-Runkel-Schaumann](#CarquevilleRunkelSchaumann)).
 
 Such a morphism carries data as follows:
 
@@ -265,10 +265,11 @@ A general formulation via an [[(∞,n)-category of cobordisms]] with defects is 
 * {#Lurie} [[Jacob Lurie]], _[[On the Classification of Topological Field Theories]]_
  
 
-Further general aspects are discussed in
+Defect TQFTs as 1-functors on stratified decorated bordisms are discussed in 
 
 * {#DavydovRunkelKong} [[Alexei Davydov]], [[Ingo Runkel]], [[Liang Kong]], _Field theories with defects and the centre functor_ in [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ AMS, 2011
  
+* {#CarquevilleRunkelSchaumann} [[Nils Carqueville]], [[Ingo Runkel]], [[Gregor Schaumann]], _Orbifolds of n-dimensional defect TQFTs_, ([arXiv:1705.06085](http://arxiv.org/abs/1705.06085)) 
 
 Details in dimension 2 and 3 are discussed in
 
