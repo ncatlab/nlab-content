@@ -141,7 +141,7 @@ $$
     (2\pi)^{-p}
      \int
        \frac{1}{2 E(\vec k)}
-       e^{-i E(\vec k) (x-y)^2 e^{-i \vec k \cdot (\vec x - \vec y)}}
+       e^{-i E(\vec k) (x^0-y^0)} e^{-i \vec k \cdot (\vec x - \vec y)}
     d^p \vec k
     \\
     & = \omega(x,y)
