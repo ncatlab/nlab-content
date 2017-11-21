@@ -68,3 +68,12 @@ The set of (say real) positive numbers may be denoted $\dot{\mathbb{R}}^+$, $]0,
 
 [[!redirects negative real number]]
 [[!redirects negative real numbers]]
+
+[[!redirects non-negative number]]
+[[!redirects non-negative numbers]]
+
+
+[[!redirects non-negative real number]]
+[[!redirects non-negative real numbers]]
+
+
