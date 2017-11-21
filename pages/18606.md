@@ -17,7 +17,7 @@
 
 ## Idea
 
-The formalization of [[perturbative quantum field theory]] via [[causal perturbation theory]] states the key properties that the  [[scattering matrix]] of the theory is supposed to have as [[axioms]] (instead of imagining that the scattering matrix is defined by a [[path integral]]). The key such axiom is the statement that the [[S-matrix]] be _causally additive_ (which gives _[[causal perturbation theory]]_ its name). This essentially encodes the idea that effects in the qantum theory propagate causally, hence withing the [[future cone]] and [[past cone]] of the region which causes the effect.
+The formalization of [[perturbative quantum field theory]] via [[causal perturbation theory]] states the key properties that the  [[scattering matrix]] of the theory is supposed to have as [[axioms]] (instead of imagining that the scattering matrix is defined by a [[path integral]]). The key such axiom is the statement that the [[S-matrix]] be _causally additive_ (which gives _[[causal perturbation theory]]_ its name). This essentially encodes the idea that effects in the quantum theory propagate causally, hence within the [[future cone]] and [[past cone]] of the region which causes the effect.
 
 ## Causal additivity
 
@@ -74,7 +74,7 @@ $$
   S(L)^{-1} S(L + J)
 $$
 
-that is induced by the [[S-matrix]]. In terms of these causal additivity is equivalently (by [this lemma](S-matrix#CausalLocalityOfThePerturbativeSMatrix)) the condition
+that is induced by the [[S-matrix]]. In terms of these, causal additivity is equivalently (by [this lemma](S-matrix#CausalLocalityOfThePerturbativeSMatrix)) the condition
 
 
 $$
@@ -101,7 +101,7 @@ $$
   \vert|_{\epsilon = 0}
 $$
 
-and causal additivity implies that as long as $L_{int}$ is [[adiabatic switching|adiabtically switched]] only outside the [[causal closure]] of $supp(A)$, then the system of quantum observables satisfies **[[causal locality]]** 
+and causal additivity implies that as long as $L_{int}$ is [[adiabatic switching|adiabatically switched]] only outside the [[causal closure]] of $supp(A)$, then the system of quantum observables satisfies **[[causal locality]]** 
 and hence forms a [[local net of observables]] ([this prop.](#S-matrix#PerturbativeQuantumObservablesIsLocalnet)).
 
 This is how [[causal perturbation theory]] gives rise to _[[perturbative AQFT]]_.
