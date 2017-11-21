@@ -27,7 +27,11 @@ On the level of [[Kac-Moody Lie algebras]]/[[Kac-Moody groups]] the E-series con
 
 * [[E9]], [[E10]], [[E11]], ...
 
+
+
 ## Related concepts
+
+* [[exceptional Lie algebra]]
 
 * [[exceptional geometry]], [[exceptional generalized geometry]]
 
@@ -56,7 +60,9 @@ Surveys include
 
 * J. R. Faulkner, J. C. Ferrar, _Exceptional Lie algebras and related algebraic and geometric structures, ([[FaulknerFerrar.pdf:file]])
 
-Geometric constructions of exceptional Lie algebras are discussed in
+* [[John Baez]], _[Exceptional Lie algebras](http://math.ucr.edu/home/baez/octonions/node13.html)_, chapter 4 in _The Octonions_,  Bull. Amer. Math. Soc. 39 (2002), 145-205. ([web](http://math.ucr.edu/home/baez/octonions/octonions.html)) 
+
+Geometric constructions of [[exceptional Lie algebras]] are discussed in
 
 * [[José Figueroa-O'Farrill]], _A geometric construction of the exceptional Lie algebras F4 and E8_ ([arXiv:0706.2829](http://arxiv.org/abs/0706.2829))
 
