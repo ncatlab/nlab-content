@@ -340,6 +340,27 @@ $$
   \eta^{\mu \nu} \frac{\partial}{\partial x^\mu} \frac{\partial}{\partial x^\nu} \Phi -  \left( \tfrac{m c}{\hbar} \right)^2 \Phi \;=\; 0 \,.
 $$
 
+Its [[Fourier transform]] is 
+
+$$
+  - k_\mu k^\mu - \left( \tfrac{m c}{\hbar} \right)^2
+  \;=\;
+  (k_0)^2 - {\vert \vec k\vert}^2 - \left( \tfrac{m c}{\hbar} \right)^2
+  \,.
+$$
+
+The [[dispersion relation]] of this equation we write
+
+$$
+  \label{DispersionRelationForKleinGordonooeratorObMinkowskiSpacetime}
+  \omega(\vec k)
+  \;\coloneqq\;
+  + c \sqrt{ {\vert \vec k \vert}^2 + \left( \tfrac{m c}{\hbar}\right)^2 }
+  \,,
+$$
+
+where on the right we choose the [[non-negative real number|non-negative]] [[square root]].
+
 
 +-- {: .num_prop #AdvancedRetardedPropafatorsForKleinGordonOnMinkowskiSpacetime}
 ###### Proposition
@@ -360,7 +381,7 @@ $$
     \Delta_{\pm}(x,y) \Phi(y) \, dvol(y)
 $$
 
-where $\Delta_{\pm}(x,y)$ have the following equivalent expressions:
+where the [[advanced and retarded propagators]] $\Delta_{\pm}(x,y)$ have the following equivalent expressions:
 
 $$
   \label{ModeExpansionForMinkowskiAdvancedRetardedPropagator}
@@ -397,13 +418,15 @@ $$
   \end{aligned}
 $$
 
+Here $\omega(\vec k)$ denotes the [[dispersion relation]] (eq:DispersionRelationForKleinGordonooeratorObMinkowskiSpacetime) of the [[Klein-Gordon equation]].
+
 =--
 
 +-- {: .proof}
 ###### Proof
 
 The [[Klein-Gordon operator]] is a [[Green hyperbolic differential operator]] ([this example](Green+hyperbolic+partial+differential+equation#GreenHyperbolicKleinGordonOperator)) therefore its advanced and retarded Green functions exist uniquely (prop. \ref{AdvancedAndRetardedGreenFunctionsForGreenHyperbolicOperatorAreUnique}).
-and prop. \ref{GreenFunctionsAreContinuous} says that they are [[continuous linear functionals]] with respect to the [[topological vector space]] [[structures]] on [[spaces of smooth sections]] (def. \ref{TVSStructureOnSpacesOfSmoothSections}). In the case of the [[Klein-Gordon operator]] this just means that
+Moreover,  prop. \ref{GreenFunctionsAreContinuous} says that they are [[continuous linear functionals]] with respect to the [[topological vector space]] [[structures]] on [[spaces of smooth sections]] (def. \ref{TVSStructureOnSpacesOfSmoothSections}). In the case of the [[Klein-Gordon operator]] this just means that
 
 $$
   G_{\pm}
@@ -429,9 +452,15 @@ $$
   \,.
 $$
 
-These integral kernels are the advanced/retarded "[[propagators]]".
+These integral kernels are the advanced/retarded "[[propagators]]". We now compute
+these [[integral kernels]] by making an Ansatz and showing that it has the defining properties,
+which identifies them by the uniqueness statement of prop. \ref{AdvancedAndRetardedGreenFunctionsForGreenHyperbolicOperatorAreUnique}.
 
-Since the [[Klein-Gordon operator]] is invariant under [[translations]] in $\mathbb{R}^{p,1}$ it is clear that the propagators, as a [[distribution in two variables]], depend only on the difference of its two arguments
+We make use of the fact that the [[Klein-Gordon equation]] is [[invariant]] under the defnining [[action]] 
+of the [[Poincaré group]] on [[Minkowski spacetime]], which is a [[semidirect product group]] of the [[translation group]]
+and the [[Lorentz group]].
+
+Since the [[Klein-Gordon operator]] is invariant, in particular, under [[translations]] in $\mathbb{R}^{p,1}$ it is clear that the propagators, as a [[distribution in two variables]], depend only on the difference of its two arguments
 
 $$
   \Delta_{\pm}(x,y) = \Delta_{\pm}(x-y)
@@ -513,7 +542,7 @@ $$
 where in the second line we used the [[Fourier transform of distributions|Fourier transform]] of the [[delta distribution]]
 from [this example](Dirac+distribution#FourierTransformOfDeltaDistribution).
 
-Notice that this implies that the the [[Fourier transform]] of the [[causal propagator]]
+Notice that this implies that the [[Fourier transform]] of the [[causal propagator]]
 
 $$
   \Delta \coloneqq \Delta_+ - \Delta_-
@@ -535,15 +564,9 @@ $$
 
 Hence we are now reduced to finding solutions $\widehat{\Delta_\pm} \in \mathcal{S}'(\mathbb{R}^{p,1})$ to (eq:FourierVersionOfPDEForKleinGordonAdvancedRetardedPropagator) such that their [[Fourier inversion theorem|Fourier inverse]] $\Delta_\pm$ has the required [[support of a distribution|support]] properties.
 
-We discuss two ways to solve this:
+We discuss this by a variant of the [[Cauchy principal value]]:
 
-1. direct solution of (eq:FourierVersionOfPDEForKleinGordonAdvancedRetardedPropagator) via [[Cauchy principal values]];
-
-1. solution of (eq:FourierVersionOfPDEForKleinGordonCausalPropagator) via [[delta distributions]] followed by [[splitting of distributions]].
-
-**1)**
-
-Suppose the following [[limit of a sequence|limit]] of [[non-singular distributions]] in the variable $k \in \mathbb{R}^{p,1}$
+Suppose the following [[limit of a sequence|limit]] of [[non-singular distributions]] in the [[variable]] $k \in \mathbb{R}^{p,1}$
 exists in the space of [[distributions]]
 
 $$
@@ -592,6 +615,7 @@ $$
     \\
     & =
     \langle 1, b\rangle
+    \,.
   \end{aligned}
 $$
 
@@ -613,22 +637,12 @@ $$
   \,.
 $$
 
-To see that this is the correct answer, we need to check the support property.
+To see that this is the correct answer, we need to check the defining support property.
 
-Finally by the [[Fourier inversion theorem]], to show that the limit (eq:LimitOverImaginaryOffsetForFourierTransformedAdvancedRetardedPropagator) indeed exists it is sufficient to show that the
+Finally, by the [[Fourier inversion theorem]], to show that the [[limit of a sequence|limit]] (eq:LimitOverImaginaryOffsetForFourierTransformedAdvancedRetardedPropagator) indeed exists it is sufficient to show that the
 limit in (eq:AdvancedRetardedPropagatorViaFourierTransformOfLLimitOverImaginaryOffsets) exists.
 
-To that end, consider the the [[non-negative number|non-negative]] [[square root]] (see at _[[plane wave]]_)
-
-$$
-  \label{NonNegativeAngularFrequencySolutionToKleinGordonDispersionRelation}
-  \omega(\vec k)
-  \;\coloneqq\;
-  c \sqrt{ \vert \vec k\vert^2 + \left( \tfrac{m c}{\hbar} \right)^2  }
-  \;\in\; [0,\infty)
-$$
-
-and compute as follows:
+We compute as follows 
 
 $$
   \label{TheSupportOfTheCandidateAdvancedRetardedPropagatorIsinTheFutureOrPastRespectively}
@@ -692,7 +706,9 @@ $$
   \end{aligned}
 $$
 
-Here the key step is the application of [[Cauchy's integral formula]] in the fourth step. We discuss this now for $\Delta_+$, the discussion for $\Delta_-$ is the same, just with the appropriate signs reversed.
+where $\omega(\vec k)$ denotes the [[dispersion relation]] (eq:DispersionRelationForKleinGordonooeratorObMinkowskiSpacetime) of the [[Klein-Gordon equation]].
+
+Here the key step is the application of [[Cauchy's integral formula]] in the fourth step. We spell this out now for $\Delta_+$, the discussion for $\Delta_-$ is the same, just with the appropriate signs reversed.
 
 1. If  $(x^0 - y^0) \gt 0$ thn the expression $e^{ik_0 (x^0 - y^0)}$ decays with _[[positive number|positive]] [[imaginary part]]_ of $k_0$, so that we may expand the [[integration]] [[domain]] into the [[upper half plane]] as
 
@@ -952,7 +968,7 @@ We consider a couple of equivalent expressions for the causal propagator:
 
 +-- {: .num_prop #CausalPropagatorForKleinGordonOnMinkowskiAsContourIntegral}
 ###### Proposition
-**([[causal propagator]] for [[Kein-Gordon operator]] on [[Minkowski spacetime]] as a [[contour integral]])**
+**([[causal propagator]] for [[Klein-Gordon operator]] on [[Minkowski spacetime]] as a [[contour integral]])**
 
 
 The [[causal propagator]] for the [[Klein-Gordon equation]] at [[mass]] $m$ on [[Minkowski spacetime]] has the following equivalent expression, as a [[generalized function]], given as a [[contour integral]] along a curve $C(\vec k)$ going counter-clockwise around the two [[poles]] at $k_0 = \pm \omega(\vec k)/c$:
@@ -1125,7 +1141,7 @@ The _[[Hadamard propagator]]_ for the [[Klein-Gordon operator]] at [[mass]] $m$ 
 $$
   \label{HadamardPropagatorForKleinGordonOperatorOnMinkowskiSpacetime}
   \begin{aligned}
-    \omega(x,y)
+    \Delta_H(x,y)
     & \coloneqq
     \frac{1}{(2\pi)^p} \int \delta\left( k_\mu k^\mu + m^2 \right) \Theta( k_0 ) e^{i k_\mu (x^\mu-y^\mu) } d^{p+1} k
     \\
@@ -1138,7 +1154,7 @@ $$
   \end{aligned}
 $$
 
-Here in the first line we have in the [[integrand]] the [[delta distribution]] of the [[Fourier transform]] of the [[Klein-Gordon operator]]  times a [[plane wave]] and times the [[step function]] $\Theta$ of the temporal component of the [[wave vector]]. In the second line we used the [[change of integration variables]] $k_0 = \sqrt{h}$, then the definition of the [[delta distribution]] and th fact that $\omega(\vec k)$ is by definition the [[non-negative]] solution to the Klein-Gordon [[dispersion relation]].
+Here in the first line we have in the [[integrand]] the [[delta distribution]] of the [[Fourier transform]] of the [[Klein-Gordon operator]]  times a [[plane wave]] and times the [[step function]] $\Theta$ of the temporal component of the [[wave vector]]. In the second line we used the [[change of integration variables]] $k_0 = \sqrt{h}$, then the definition of the [[delta distribution]] and th fact that $\omega(\vec k)$ is by definition the [[non-negative real number|non-negative]] solution to the Klein-Gordon [[dispersion relation]].
 
 =--
 
@@ -1152,7 +1168,7 @@ equivalently given by the [[contour integral]]
 
 $$
   \label{StandardHadamardPropagatorOnMinkowskiSpacetimeInTermsOfContourIntegral}
-  \omega(x,y)
+  \Delta_H(x,y)
     \;=\;
     i(2\pi)^{-(p+1)}
     \int
@@ -1220,7 +1236,7 @@ $$
   \end{aligned}
 $$
 
-The last step is application of [[Cauchy's integral formula]], which says that the [[contour integral]] picks up the [[residue]] of the [[pole]] of the [[integrand]] at $+ \omega(\vec k)/c \in \mathbb{R} \subset \mathbb{C}$. The last line is $\omega(x,y)$, by definition \ref{StandardHadamardDistributionOnMinkowskiSpacetime}.
+The last step is application of [[Cauchy's integral formula]], which says that the [[contour integral]] picks up the [[residue]] of the [[pole]] of the [[integrand]] at $+ \omega(\vec k)/c \in \mathbb{R} \subset \mathbb{C}$. The last line is $\Delta_H(x,y)$, by definition \ref{StandardHadamardDistributionOnMinkowskiSpacetime}.
 
 
 
