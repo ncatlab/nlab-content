@@ -9,7 +9,6 @@
 =--
 =--
 
-
 # Pure sets
 * table of contents
 {: toc}
@@ -27,7 +26,7 @@ See also at _[[material-structural adjunction]]_.
 
 ## Idea
 
-Taking a structural notion of [[set]] as granted, we wish to define a __pure set__ to be a set of pure sets.  On the face of it, this is a circular definition, but like many such definitions, it can be made precise in (at least) two ways: [[recursion|recursively]] and [[corecursion|corecursively]].
+Taking a base notion of [[set]] as granted, we wish to define a __pure set__ to be a set of pure sets.  On the face of it, this is a circular definition, but like many such definitions, it can be made precise in (at least) two ways: [[recursion|recursively]] and [[corecursion|corecursively]].
 
 * The 'recursive' meaning is that all pure sets must be *constructed*, starting from nothing, as sets of other previously constructed pure sets.  This results in the **[[well-founded relation|well-founded]] pure sets**.  Thus, at first, the only well-founded set possible is the [[empty set]] $\empty = \{ \}$, the set of no pure sets.  Once you have that, you can form $\star = \{\empty\}$, then $\{\star\}$ and $\{\empty,\star\}$, and so on.  In this way we can obtain at least all [[hereditarily finite sets]]; if we use an [[axiom of infinity]] as well, we can jump to the [[countably infinite set]] of all hereditarily finite sets and continue from there.
 
@@ -35,7 +34,7 @@ Taking a structural notion of [[set]] as granted, we wish to define a __pure set
 
 In addition, the meaning of this definition changes according to whether our [[set theory|set-theoretic]] [[foundations|foundation]] is [[material set theory|material]] or [[structural set theory|structural]].
 
-* If the foundation is 'material' or 'membership-based,' such as [[ZFC]], then the elements of a set can, in fact, *be* other sets.  Therefore, in this case we are defining (either recursively or corecursively) an *adjective* "pure" that can be applied to the noun "set:" a set is pure if at no point in its construction or deconstruction into elements do we encounter anything that is not a pure set.
+* If the foundation is 'material' or 'membership-based,' such as [[ZFC]], then the elements of a set can, in fact, *be* other sets.  Therefore, in this case we are defining (either recursively or corecursively) an *adjective* "pure" that can be applied to the noun "set": a set is pure if at no point in its construction or deconstruction into elements do we encounter anything that is not a pure set.
 
   In the most common material set theories, such as [[ZFC]], *all* sets are pure, since the only 'things' the theory deals with (hence the only things that can be elements of sets) are sets.  However, there are easy modifications of these theories that allow 'atoms' or [[urelement]]s that are not sets, and in this case the pure sets will be those that 'hereditarily' contain no atoms.  Many common material set theories (starting with von Neumann 1925, Zermelo 1930) also include an [[axiom of foundation]] asserting that all (pure) sets are well-founded; the dual [[axiom of anti-foundation]] (due to Aczel) allows and 'tames' the ill-founded sets.
 
@@ -53,7 +52,7 @@ In material set theory without urelements, every set is a pure set.  If there ar
 A set $x$ is **pure** if given any sequence $x_n \in x_{n-1} \in \dots \in x_1 \in x_0 = x$, all of the $x_i$ are sets.
 =--
 
-Whether this produces the well-founded pure sets or the ill-founded ones depends on whether the axiom of foundation is satisfied in the ambient set theory.
+Whether this produces the well-founded pure sets or the ill-founded ones depends on whether the sets in the ambient set theory are well-founded or ill-founded.
 
 
 ## Formalization in structural set theory
