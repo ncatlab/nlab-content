@@ -741,43 +741,14 @@ Hence it only remains to see now that the support of $\Delta_\pm$ is inside the 
 But this follows from the previous argument, by using that the [[Klein-Gordon equation]] is invariant under
 [[Lorentz transformations]].
 
-$\,$
 
-**2)**
-
-A solution to the homogeneous equation (eq:FourierVersionOfPDEForKleinGordonCausalPropagator) is
-clearly given by the following [[delta distribution]] in the variable $k \in \mathbb{R}^{p,1}$
-
-$$
-  \delta\left( -\eta^{\mu \nu} k_\mu k_\nu - \left( \tfrac{m c}{\hbar} \right)^2 \right)
-  \;\in\;
-  \mathcal{D}'(\mathbb{R}^{p,1})
-  \,.
-$$
-
-This is a  [[tempered distribution]] (...)
-and so its [[Fourier transformation of distributions]] exist. We claim that this distribution
-
-$$
-  \Delta(x-y)
-  \;\coloneqq\;
-  \frac{1}{(2\pi)^{p+1}}
-  \underset{\mathbb{R}^{p,1}}{\int}
-  e^{i k_\mu (x^\mu - y^\mu)}
-  \delta\left( -\eta^{\mu \nu} k_\mu k_\nu - \left( \tfrac{m c}{\hbar} \right)^2 \right)
-  \, d^{p+1}k
-$$
-
-has [[support of a distribution|support]] in the [[causal cone]] of the origin $x-y = 0$, and hence is the
-[[causal propagator]].
-
-(...)
 
 =--
 
 
-+-- {: .num_cor}
++-- {: .num_cor #CausalPropagatorIsSkewSymmetric}
 ###### Corollary
+**([[causal propagator]] is skew-symmetric)**
 
 Under reversal of arguments the [[advanced and retarded causal propagators]] are related by
 
@@ -1130,20 +1101,20 @@ The last line is the expression for the causal propagator from prop. \ref{ModeEx
 
 Prop. \ref{CausalPropagatorAsFourierTransformOfDeltaDistributionOnTransformedKGOperator} exhibits the [[causal propagator]] of the [[Klein-Gordon operator]] on [[Minkowski spacetime]] as the difference of a contribution for [[positive real number|positive]] temporal [[angular frequency]] $k_0 \propto \omega(\vec k)$ (hence positive [[energy]] $\hbar \omega(\vec k)$ and a contribution of negative temporal [[angular frequency]].
 
-The positive energy contribution to the [[causal propagator]] is called the _[[Hadamard propagator]]_, also known as the the _[[vacuum state]] [[2-point function]] of the [[free field|free]] [[real scalar field]] on [[Minkowski spacetime]]_:
+The [[positive real number|positive]] [[frequency]] contribution to the [[causal propagator]] is called the _[[Hadamard propagator]]_, also known as the the _[[vacuum state]] [[2-point function]] of the [[free field|free]] [[real scalar field]] on [[Minkowski spacetime]]_:
 
 +-- {: .num_defn #StandardHadamardDistributionOnMinkowskiSpacetime}
 ###### Definition
 **([[Hadamard propagator]] or [[vacuum state]] [[2-point function]] for [[Klein-Gordon operator]] on [[Minkowski spacetime]])**
 
-The _[[Hadamard propagator]]_ for the [[Klein-Gordon operator]] at [[mass]] $m$ on [[Minkowski spacetime]] is the [[tempered distribution|tempered]] [[distribution in two variables]] $\omega \in \mathcal{S}'(\mathbb{R}^{p,1})$ which as a [[generalized function]] is given by the expression
+The _[[Hadamard propagator]]_ for the [[Klein-Gordon operator]] at [[mass]] $m$ on [[Minkowski spacetime]] is the [[tempered distribution|tempered]] [[distribution in two variables]] $\Delta_H \in \mathcal{S}'(\mathbb{R}^{p,1})$ which as a [[generalized function]] is given by the expression
 
 $$
   \label{HadamardPropagatorForKleinGordonOperatorOnMinkowskiSpacetime}
   \begin{aligned}
     \Delta_H(x,y)
     & \coloneqq
-    \frac{1}{(2\pi)^p} \int \delta\left( k_\mu k^\mu + m^2 \right) \Theta( k_0 ) e^{i k_\mu (x^\mu-y^\mu) } d^{p+1} k
+    \frac{1}{(2\pi)^p} \int \delta\left( k_\mu k^\mu + m^2 \right) \Theta( k_0 ) e^{i k_\mu (x^\mu-y^\mu) } \, d^{p+1} k
     \\
     & =
     \frac{1}{(2\pi)^p}
@@ -1154,7 +1125,7 @@ $$
   \end{aligned}
 $$
 
-Here in the first line we have in the [[integrand]] the [[delta distribution]] of the [[Fourier transform]] of the [[Klein-Gordon operator]]  times a [[plane wave]] and times the [[step function]] $\Theta$ of the temporal component of the [[wave vector]]. In the second line we used the [[change of integration variables]] $k_0 = \sqrt{h}$, then the definition of the [[delta distribution]] and th fact that $\omega(\vec k)$ is by definition the [[non-negative real number|non-negative]] solution to the Klein-Gordon [[dispersion relation]].
+Here in the first line we have in the [[integrand]] the [[delta distribution]] of the [[Fourier transform]] of the [[Klein-Gordon operator]]  times a [[plane wave]] and times the [[step function]] $\Theta$ of the temporal component of the [[wave vector]]. In the second line we used the [[change of integration variables]] $k_0 = \sqrt{h}$, then the definition of the [[delta distribution]] and the fact that $\omega(\vec k)$ is by definition the [[non-negative real number|non-negative]] solution to the Klein-Gordon [[dispersion relation]].
 
 =--
 
@@ -1170,9 +1141,9 @@ $$
   \label{StandardHadamardPropagatorOnMinkowskiSpacetimeInTermsOfContourIntegral}
   \Delta_H(x,y)
     \;=\;
-    i(2\pi)^{-(p+1)}
+    -i(2\pi)^{-(p+1)}
     \int
-    \oint_{C_+(\vec k)}
+    \underset{C_+(\vec k)}{\oint}
      \frac{e^{i k_\mu (x-y)^\mu}}{ -k_\mu k^\mu - m^2 }
     d k_0
     d^{p} k
@@ -1195,14 +1166,14 @@ We compute as follows:
 
 $$
   \begin{aligned}
-    i(2\pi)^{-(p+1)}
+    -i(2\pi)^{-(p+1)}
     \int
     \underset{C_+(\vec k)}{\oint}
      \frac{e^{ i k_\mu (x-y)^\mu}}{ -k_\mu k^\mu - m^2 }
     d k_0
     d^{p} k
     & =
-    i(2\pi)^{-(p+1)}
+    -i(2\pi)^{-(p+1)}
     \int
     \oint_{C_+(\vec k)}
       \frac{
@@ -1214,7 +1185,7 @@ $$
     d^p \vec k
     \\
     & =
-    i(2\pi)^{-(p+1)}
+    -i(2\pi)^{-(p+1)}
     \int
     \underset{C_+(\vec k)}{\oint}
       \frac{
@@ -1244,6 +1215,23 @@ The last step is application of [[Cauchy's integral formula]], which says that t
 
 
 
++-- {: .num_prop}
+###### Proposition
+**(skew-symmetric part of [[Hadamard propagator]] is the [[causal propagator]])**
+
+The skew-symmetrization of the [[Hadamard propagator]] (def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime})
+reproduces the [[causal propagator]] according to prop. \ref{ModeExpansionOfCausalPropagatorForKleinGordonOnMinkowski} (which we already know to be skew-symmetric by cor. \ref{CausalPropagatorIsSkewSymmetric}), up to a conventional imaginary factor:
+
+$$
+  \Delta_S(x,y)
+  \;=\;
+  i\left(
+    \Delta_H(x,y) - \Delta_H(y,x)
+  \right)
+  \,.
+$$
+
+=--
 
 
 
