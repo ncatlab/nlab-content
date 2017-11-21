@@ -49,6 +49,10 @@ Since $r$ is a function, it has a right adjoint $r$, and by uniqueness of right 
 
 Further remarks: surjectivity of a function $r: X \to Y$ can be expressed as the condition $1_Y \leq r \circ r^{op}$, and injectivity as $r^{op} \circ r \leq 1_X$. 
 
+## Related pages
+
+* [[anafunction]]
+
 ## References 
 
 * [[Peter Freyd]] and Andr&#233; Scedrov, *[[Categories, Allegories]]*, Mathematical Library Vol. 39, North-Holland (1990). 
