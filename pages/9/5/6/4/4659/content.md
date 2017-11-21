@@ -43,7 +43,9 @@ Since we can classify [[simple Lie algebras]], we can classify semisimple Lie al
 
 ## Related concepts
 
-An infinite-dimensional generalization of semisimple Lie algebras are [[Kac-Moody Lie algebras]].
+* An infinite-dimensional generalization of semisimple Lie algebras are [[Kac-Moody Lie algebras]].
+
+* [[exceptional Lie algebra]]
 
 ## References
 
