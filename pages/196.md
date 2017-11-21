@@ -97,11 +97,14 @@ Special properties these may have:
 * [[continuous function]], [[analytic function]], [[smooth function]]
 
 ...
+
 ## Related concepts
 
 * [[map]], [[operation]]
 
 * [[partial function]], [[partial recursive function]]
+
+* [[anafunction]]
 
 
 * [[function set]]
