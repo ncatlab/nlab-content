@@ -281,6 +281,10 @@ A further reason that the notion of anafunctor is useful is that when working wi
 
 see [[infinity-anafunctor]]
 
+### Lower version
+
+see [[anafunction]]
+
 ### Additive version
 
 The notion of abelian [[butterfly]] introduced by Behrang Noohi [Weak maps of 2-groups](http://arxiv.org/abs/math.CT/0506313) is the additive version of the notion of (saturated) anafunctor: the equivalence between, on the one hand, internal groupoids and internal functors and, on the other hand, arrows and commutative squares in an abelian category extends to an equivalence between saturated anafunctors and butterflies.
