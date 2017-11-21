@@ -856,7 +856,7 @@ Here in the second step we applied [[change of integration variables]] $\vec k \
 ###### Proposition
 **(mode expansion of [[causal propagator]] for [[Klein-Gordon equation]] on [[Minkowski spacetime]])**
 
-The [[causal propagator]] for the [[Klein-Gordon equation]] for [[mass]] $m$ on [[Minkowski spacetime]] $\mathbb{R}^{p,1}$ is given, in [[generalized function]] notation, by 
+The [[causal propagator]] for the [[Klein-Gordon equation]] for [[mass]] $m$ on [[Minkowski spacetime]] $\mathbb{R}^{p,1}$ is given, in [[generalized function]] notation, by
 
 
 $$
@@ -883,7 +883,7 @@ $$
          -
          e^{i \vec k \cdot (\vec x - \vec  y)}
        \right)
-     d^p \vec k   
+     d^p \vec k
      \,,
   \end{aligned}
 $$
@@ -1000,11 +1000,11 @@ $$
         e^{i k_0 x^0} e^{ i \vec k \cdot (\vec x - \vec y)}
       }{
         k_0^2 - \omega(\vec k)^2/c^2
-      } 
+      }
     \,d k_0
-    \,d^p \vec k 
+    \,d^p \vec k
     \\
-    & =   
+    & =
     (2\pi)^{-(p+1)}
     \int
     \underset{C(\vec k)}{\oint}
@@ -1013,11 +1013,11 @@ $$
       }{
         ( k_0 + \omega(\vec k)/c )
         ( k_0 - \omega(\vec k)/c )
-      } 
+      }
     \,d k_0
     \,d^p \vec k
     \\
-    & = 
+    & =
     (2\pi)^{-(p+1)}
      2\pi i
      \int
@@ -1037,8 +1037,8 @@ $$
     \right)
     \,d^p \vec k
     \\
-    & = 
-    i 
+    & =
+    i
     (2\pi)^{-p}
     \int
       \frac{1}{\omega(\vec k)/c}
@@ -1082,27 +1082,27 @@ By decomposing the integral over $k_0$ into its negative and its positive half, 
 $$
   \begin{aligned}
     i (2\pi)^{-p} \int \delta\left( k_\mu k^\mu + \left( \tfrac{m c}{\hbar}\right)^2 \right) sgn( k_0 ) e^{ i k_\mu (x-y)^\mu } d^{p+1} k
-     & = 
+     & =
      + i (2\pi)^{-p} \int \int_0^\infty \delta\left( -k_0^2 + \vec k^2 + \left( \tfrac{m c}{\hbar}\right)^2 \right) e^{ i k_0 (x^0 - y^0) + i \vec k \cdot (\vec x - \vec y)}  d k_0 \, d^p \vec k
      \\
-     & \phantom{=} 
+     & \phantom{=}
      - i (2\pi)^{-p} \int \int_{-\infty}^0 \delta\left( -k_0^2 + \vec k^2 + \left(\tfrac{m c}{\hbar}\right)^2 \right)  e^{ i k_0 (x^0 - y^0)+ i \vec k \cdot (\vec x - \vec y) } d k_0 \, d^{p} \vec k
      \\
-     & = 
+     & =
      +i (2\pi)^{-p} \int \int_0^\infty \frac{1}{2 \sqrt{h}} \delta\left( -h + \omega(\vec k)^2/c^2  \right) e^{ + i \sqrt{h} (x^0 - y^0) + i \vec k \cdot \vec x } d h \, d^{p} \vec k
      \\
-     & \phantom{=} 
+     & \phantom{=}
      - i (2\pi)^{-p} \int \int_0^\infty  \frac{1}{2 \sqrt{h}} \delta\left( - h + \omega(\vec k)^2/c^2 \right) e^{ - i \sqrt{h} (x^0 - y^0) + i \vec k \cdot \vec x }  d h \, d^{p} \vec k
      \\
-     & = 
+     & =
      +i (2\pi)^{-p} \int \frac{1}{2 \omega(\vec k)/c} e^{ i \omega(\vec k) (x-y)^0/c + i \vec k \cdot \vec x}  d^{p} \vec k
      \\
-     & \phantom{=} 
+     & \phantom{=}
      - i (2\pi)^{-p} \int \frac{1}{2 \omega(\vec k)/c} e^{ - i \omega(\vec k) (x-y)^0/c + i \vec k \cdot \vec x }  d^{p} \vec k
      \\
-     & = -(2 \pi)^{-p} \int \frac{1}{\omega(\vec k)/c} 
+     & = -(2 \pi)^{-p} \int \frac{1}{\omega(\vec k)/c}
       sin\left( \omega(\vec k)(x-y)^0/c \right)
-      e^{i \vec k \cdot (\vec x - \vec y)} 
+      e^{i \vec k \cdot (\vec x - \vec y)}
   \end{aligned}
 $$
 
@@ -1118,18 +1118,18 @@ The positive energy contribution to the [[causal propagator]] is called the _[[H
 
 +-- {: .num_defn #StandardHadamardDistributionOnMinkowskiSpacetime}
 ###### Definition
-**([[Hadamard propagator]] for [[Klein-Gordon operator]] on [[Minkowski spacetime]])**
+**([[Hadamard propagator]] or [[vacuum state]] [[2-point function]] for [[Klein-Gordon operator]] on [[Minkowski spacetime]])**
 
-The _[[Hadamard propagator]]_ for the [[Klein-Gordon operator]] at [[mass]] $m$ on [[Minkowski spacetime]] is the [[tempered distribution|tempered]] [[distribution in two variables]] $\omega \in \mathcal{S}$ which as a [[generalized function]] is given by the expression
+The _[[Hadamard propagator]]_ for the [[Klein-Gordon operator]] at [[mass]] $m$ on [[Minkowski spacetime]] is the [[tempered distribution|tempered]] [[distribution in two variables]] $\omega \in \mathcal{S}'(\mathbb{R}^{p,1})$ which as a [[generalized function]] is given by the expression
 
 $$
   \label{HadamardPropagatorForKleinGordonOperatorOnMinkowskiSpacetime}
   \begin{aligned}
     \omega(x,y)
     & \coloneqq
-    \frac{1}{(2\pi)^p} \int \delta( k_\mu k^\mu + m^2 ) \Theta( k_0 ) e^{i k_\mu (x^\mu-y^\mu) } d^{p+1} k
+    \frac{1}{(2\pi)^p} \int \delta\left( k_\mu k^\mu + m^2 \right) \Theta( k_0 ) e^{i k_\mu (x^\mu-y^\mu) } d^{p+1} k
     \\
-    & = 
+    & =
     \frac{1}{(2\pi)^p}
     \int \frac{1}{2 \omega(\vec k)/c}
       e^{i \omega(\vec k)(x^0 - y^0)/c + i \vec k \cdot (\vec x - \vec y) }
@@ -1146,8 +1146,8 @@ Here in the first line we have in the [[integrand]] the [[delta distribution]] o
 ###### Proposition
 **([[contour integral]] representation of the [[Hadamard propagator]] for the [[Klein-Gordon operator]] on [[Minkowski spacetime]])
 
-The [[Hadamard propagator]] from 
-def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime} is 
+The [[Hadamard propagator]] from
+def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime} is
 equivalently given by the [[contour integral]]
 
 $$
@@ -1163,7 +1163,7 @@ $$
   \,,
 $$
 
-where the [[Jordan curve]] $C_+(\vec k) \subset \mathbb{C}$ runs counter-clockwise, enclosing the point $+ \omega(\vec k)/c \in \mathbb{R} \subset \mathbb{C}$, but not enclosing the point $- \omega(\vec k)/c \in \mathbb{R} \subset \mathbb{C}$. 
+where the [[Jordan curve]] $C_+(\vec k) \subset \mathbb{C}$ runs counter-clockwise, enclosing the point $+ \omega(\vec k)/c \in \mathbb{R} \subset \mathbb{C}$, but not enclosing the point $- \omega(\vec k)/c \in \mathbb{R} \subset \mathbb{C}$.
 
 
 <img src="https://ncatlab.org/nlab/files/ContourForHadamardPropagator.png" height="200">
@@ -1175,53 +1175,54 @@ where the [[Jordan curve]] $C_+(\vec k) \subset \mathbb{C}$ runs counter-clockwi
 +-- {: .proof}
 ###### Proof
 
-[[Cauchy's integral formula]] says that the given contour integral picks up the [[residue]] of the [[pole]] of the [[integrand]] at $+ E(\vec k) \in \mathbb{R} \subset \mathbb{C}$: 
-
+We compute as follows:
 
 $$
   \begin{aligned}
-    -i(2\pi)^{-(p+1)}
+    i(2\pi)^{-(p+1)}
     \int
-    \oint_{C_+(\vec k)}
+    \underset{C_+(\vec k)}{\oint}
      \frac{e^{ i k_\mu (x-y)^\mu}}{ -k_\mu k^\mu - m^2 }
     d k_0
     d^{p} k
     & =
-    -i(2\pi)^{-(p+1)}
+    i(2\pi)^{-(p+1)}
     \int
     \oint_{C_+(\vec k)}
       \frac{
         e^{ i k_0 x^0} e^{-i \vec k \cdot (\vec x - \vec y)}
       }{
-        k_0^2 - \omega(\vec k)^2/c^2 
-      } 
+        k_0^2 - \omega(\vec k)^2/c^2
+      }
     d k_0
-    d^p \vec k 
+    d^p \vec k
     \\
-    & =   
-    -i(2\pi)^{-(p+1)}
+    & =
+    i(2\pi)^{-(p+1)}
     \int
-    \oint_{C_+(\vec k)}
+    \underset{C_+(\vec k)}{\oint}
       \frac{
         e^{ i k_0 (x^0-y^0)} e^{i \vec k \cdot (\vec x - \vec y)}
       }{
         ( k_0 - \omega_\epsilon(\vec k)  )
         ( k_0 + \omega_\epsilon(\vec k) )
-      } 
+      }
     d k_0
     d^p \vec k
     \\
-    & = 
+    & =
     (2\pi)^{-p}
      \int
-       \frac{1}{2 E(\vec k)}
-       e^{i \omega(\vec k)/c (x 0-y^0)} e^{-i \vec k \cdot (\vec x - \vec y)}
+       \frac{1}{2 \omega(\vec k)}
+       e^{i \omega(\vec k) (x^0-y^0)/c} e^{-i \vec k \cdot (\vec x - \vec y)}
     d^p \vec k
-    \\
-    & = \omega(x,y)
     \,.
   \end{aligned}
 $$
+
+The last step is application of [[Cauchy's integral formula]], which says that the [[contour integral]] picks up the [[residue]] of the [[pole]] of the [[integrand]] at $+ \omega(\vec k)/c \in \mathbb{R} \subset \mathbb{C}$. The last line is $\omega(x,y)$, by definition \ref{StandardHadamardDistributionOnMinkowskiSpacetime}.
+
+
 
 =--
 
@@ -1251,7 +1252,7 @@ General discussion includes
 
 * {#Khavkine14} [[Igor Khavkine]], _Covariant phase space, constraints, gauge and the Peierls formula_, Int. J. Mod. Phys. A, 29, 1430009 (2014) ([arXiv:1402.1282](https://arxiv.org/abs/1402.1282))
 
-based on 
+based on
 
 * {#Sanders12} [[Ko Sanders]], _A note on spacelike and timelike compactness_, Classical and Quantum Gravity 30, 115014 (2012) ([doi](http://dx.doi.org/10.1088/0264-9381/30/11/115014), [arXiv:1211.2469](https://arxiv.org/abs/1211.2469))
 
