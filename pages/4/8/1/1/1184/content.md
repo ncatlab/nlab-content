@@ -22,10 +22,6 @@ The _[[well-ordering theorem]]_ states precisely that every set may be equipped 
 
 ## Definition
 
-The usual definition in [[classical mathematics]] is that a _well-order_ on a [[set]] $S$ is a [[total order]] $\preceq$ with the property that every [[inhabited subset]] $U$ of $S$ has a least element (an element $\bot_U$ such that every $x \in U$ satisfies $\bot_U \preceq x$.
-
-In [[constructive mathematics]] another definition is preferred:
-
 A [[binary relation]] $\prec$ on a [[set]] $S$ is a __well-order__ if it is [[transitive relation|transitive]], [[extensional relation|extensional]], and [[well-founded relation|well-founded]].  A set equipped with a well-order is called a __well-ordered set__, or (following '[[partial order|poset]]') a __woset__.  Actually, the term 'well-ordered' came first; 'well-order' is a back formation, which explains the strange grammar.
 
 Other definitions of a well-order may be found in the literature; they are equivalent given [[excluded middle]], but the definition above seems to be the most powerful in [[constructive mathematics]].  Specifically:
@@ -35,7 +31,6 @@ Other definitions of a well-order may be found in the literature; they are equiv
 *  (assuming also [[dependent choice]]) a well-order is precisely a linear order $\prec$ with no infinite descending sequence $\cdots \prec x_2 \prec x_1 \prec x_0$;
 *  (assuming also [[dependent choice]]) a well-order is precisely a total order $\preceq$ such that every infinite descending sequence $\cdots \preceq x_2 \preceq x_1 \preceq x_0$ has $x_i = x_{i^+}$ for some $i$ (and hence for infinitely many $i$);
 *  a well-order on $S$ is precisely a [[linear order]] $\prec$ with the property that every [[inhabited subset]] $U$ of $S$ has a least element (an element $\bot_U$ such that no $x \in U$ satisfies $x \prec \bot_U$;
-
 *  a well-order on $S$ is precisely a [[total order]] $\preceq$ with the property that every [[inhabited subset]] $U$ of $S$ has a least element (an element $\bot_U$ such that every $x \in U$ satisfies $\bot_U \preceq x$.
 
 The really interesting thing here is that every well-order is linear; it is a constructive theorem that every linear order is weakly extensional (and so extensional if well-founded) and transitive.  (For a [[weak counterexample]], take the set of [[truth values]] with $x \prec y$ iff $y$ is true and $x$ is false; this is a well-order that\'s linear iff [[excluded middle]] holds.)  For the other equivalences, we\'re simply using well-known classical equivalents for well-foundedness and the classical correspondence between a linear relation $\prec$ and its [[reflexive closure]] $\preceq$.
