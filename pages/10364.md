@@ -35,4 +35,3 @@
 [[!redirects condensation]]
 [[!redirects condensations]]
 
-[[!redirects vacuum expectation value]]
