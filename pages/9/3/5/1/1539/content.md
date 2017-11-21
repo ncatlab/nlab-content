@@ -162,6 +162,11 @@ More generally, in any quasitopos $E$, we can factor $0\to 1$ into an epic follo
 By contrast, if a solid quasitopos is additionally [[exact category|exact]], and hence a [[pretopos]], then in particular it is [[balanced category|balanced]], which implies that it is in fact a topos.  One can prove, however, that a quasitopos is always *quasi-exact*, meaning that every *strong* [[congruence]] has an [[effective quotient]].
 
 
+### Internal logic
+
+Like a topos, a quasitopos has an [[internal logic]], for which the usual choice is to represent propositions by *strong* subobjects.  The resulting internal logic fails to satisfy the [[function comprehension principle]], forcing one to distinguish between [[functions]] and [[anafunctions]].
+
+
 ## Examples ##
 
 * Any (elementary) [[topos]] is a quasitopos.  The first two properties are known, and in a topos every monomorphism is strong, so the ordinary subobject classifier works.
