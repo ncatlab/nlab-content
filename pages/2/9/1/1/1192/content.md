@@ -5,7 +5,7 @@
 
 ## Idea
 
-The _successor_ of something is the next thing after it.
+The _successor_ of something is the thing one step after it.
 
 
 ## Successors of natural numbers
@@ -25,7 +25,7 @@ Note that if we identify a cardinal number with the least ordinal having that ca
 
 For definitions by [[transfinite recursion]], one usually specifies the value at $0$, the rule for recursion along the successor map, and a separate rule of recursion for the limiting ordinals (infinite ordinals which are not successors). (For example, the [[von Neumann hierarchy]] of well-founded [[pure set]]s is defined in that way.)  One can (and in [[constructive mathematics]] must) also handle all three cases at once, and the successor function is used there as well.
 
-In [[constructive mathematics]], we take the successor of an ordinal to be $\alpha^+ \coloneqq \alpha \cup \{\alpha\}$ again, but it\'s not clear in what sense this is the smallest ordinal strictly greater than $\alpha$.  (On the one hand, given any [[truth value]] $P$, $\alpha_P \coloneqq \alpha \cup \{\alpha \mid P\}$ satisfies $\alpha \leq \alpha_P \leq \alpha^+$, but we cannot prove that $\alpha_P$ equals either $\alpha$ or $\alpha^+$; on the other hand, $(\alpha_P)^+$ is provably strictly greater than $\alpha$, but we cannot prove that $\alpha^+ \leq (\alpha_P)^+$.)
+In [[constructive mathematics]], we take the successor of an ordinal to be $\alpha^+ \coloneqq \alpha \cup \{\alpha\}$ again, but it\'s not clear in what sense this is the smallest ordinal strictly greater than $\alpha$.  (On the one hand, given any [[truth value]] $P$, $\alpha_P \coloneqq \alpha \cup \{\alpha \mid P\}$ satisfies $\alpha \leq \alpha_P \leq \alpha^+$, but we cannot prove that $\alpha_P$ equals either $\alpha$ or $\alpha^+$; on the other hand, $(\alpha_P)^+$ is provably strictly greater than $\alpha$ in a sense, but we cannot prove that $\alpha^+ \leq (\alpha_P)^+$.)
 
 
 ## Successors of material sets
