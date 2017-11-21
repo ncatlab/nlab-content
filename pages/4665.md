@@ -54,6 +54,9 @@ A __[[semisimple Lie algebra]]__ is a [[direct sum]] of simple Lie algebras.  In
 
 A [[Lie group]] is a [[simple Lie group]] if the Lie algebra corresponding to it under [[Lie integration]] is simple.
 
+## Related concepts
+
+* [[exceptional Lie algebra]]
 
 [[!redirects simple Lie algebra]]
 [[!redirects simple Lie algebras]]
