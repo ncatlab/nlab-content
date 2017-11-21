@@ -37,6 +37,8 @@ $$
 
 * [[moment]]
 
+* [[vacuum expectation value]]
+
 * [[Feynman diagram]]
 
 [[!redirects expectation values]]
