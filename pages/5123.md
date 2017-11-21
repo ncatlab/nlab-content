@@ -77,7 +77,7 @@ The sum may be understood as being over all non-degenerate simplices in the prod
 ###### Proposition
 
 
-This map restricts to the normalized chains complex
+This map restricts to the normalized chain complex
 
 $$
   \nabla_{A,B} :  N(A) \otimes N(B) \to N(A \otimes B) 
