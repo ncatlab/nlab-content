@@ -1,13 +1,17 @@
 
-**[[Green functions]] for the [[Klein-Gordon operator]] on a [[globally hyperbolic spacetime]]:**
+**[[propagators]] (i.e. [[integral kernels]] of [[Green functions]])**
+<br/> 
+**for the [[wave operator]] and [[Klein-Gordon operator]]**
+<br/> 
+**on a [[globally hyperbolic spacetime]] such as [[Minkowski spacetime]]:**
 
-| [[propagator]] | $\phantom{AA}$  |  $\phantom{AA}$ primed [[wave front set]] | on [[Minkowski spacetime]] | generally |
+| name | symbol  |  $\phantom{AA}$ primed <br/> [[wave front set]] | as  [[vacuum expectation value|vacuum exp. value]] <br/> of [[operator-valued distribution|field operators]] | as a [[nonassociative algebra|product]] of <br/> [[operator-valued distribution|field operators]] |
 |---|----|---|---|---|
-| [[causal propagator]] | $\array{\Delta \coloneqq   \Delta_R - \Delta_A }$ |  <img src="https://ncatlab.org/nlab/files/RetGreenFunction.png" width="60"> $\array{- \\ \phantom{A} \\ \phantom{a}}$  <img src="https://ncatlab.org/nlab/files/AdvancedGreenFunction.png" width="60"> |$\array{\Delta_S(x,y) = \\ \langle vac\vert [\Phi(x),\Phi(y)] \vert vac\rangle }$ | [[Peierls bracket|Peierls-Poisson bracket]] |
-| [[advanced propagator]] | $\Delta_A$  |   <img src="https://ncatlab.org/nlab/files/AdvancedGreenFunction.png" width="60"> | $\array{\Delta_A(x,y) = \\ \Theta((y-x)^0)\langle vac\vert [\Phi(x),\Phi(y)] \vert vac\rangle } $ |  |
-| [[retarded propagator]] | $\Delta_R$ | <img src="https://ncatlab.org/nlab/files/RetGreenFunction.png" width="60"> | $\array{\Delta_R(x,y) = \\ \Theta((x-y)^0)\langle vac\vert [\Phi(x),\Phi(y)] \vert vac\rangle }$ |  |
-| [[Dirac propagator]] | $\Delta_D = \tfrac{1}{2}(\Delta_A + \Delta_R)$ |   <img src="https://ncatlab.org/nlab/files/RetGreenFunction.png" width="60"> $\array{+ \\ \phantom{A} \\ \phantom{a}}$ <img src="https://ncatlab.org/nlab/files/AdvancedGreenFunction.png" width="60"> |  |  |
-| [[Hadamard propagator]] | $\begin{aligned} \omega &= \tfrac{i}{2}\Delta + H \\ & = \omega_F - i \Delta_A \end{aligned}$ |  <img src="https://ncatlab.org/nlab/files/HadamardPropagator.png" width="60"> | $\array{\omega(x,y) = \\ \langle vac \vert \Phi(x) \Phi(y) \vert vac \rangle }$ | [[normal-ordered product]] ([[2-point function]] of [[quasi-free state]]) |
-| [[Feynman propagator]] | $\array{\omega_F & = i \Delta_D + H \\ & = \omega + i \Delta_A}$ |  <img src="https://ncatlab.org/nlab/files/FeynmanPropagator.png" width="60"> | $\array{E_F(x,y) = \\ \langle vac \vert T(\Phi(x)\Phi(y)) \vert vac \rangle }$  | [[time-ordered product]] |
+| [[causal propagator]] | $\Delta_S \coloneqq  \Delta_+ - \Delta_- $ |  <img src="https://ncatlab.org/nlab/files/RetGreenFunction.png" width="60"> <br/> $\phantom{A}\,\,\,-$ <br/> <img src="https://ncatlab.org/nlab/files/AdvancedGreenFunction.png" width="60"> |$\begin{aligned} & \Delta_S(x,y) = \\ & \left\langle \;\left[\mathbf{\Phi}(x),\mathbf{\Phi}(y)\right]\; \right\rangle \end{aligned} $ | [[Peierls bracket|Peierls-Poisson bracket]] |
+| [[advanced propagator]] | $\Delta_+$  |   <img src="https://ncatlab.org/nlab/files/AdvancedGreenFunction.png" width="60"> | $\begin{aligned} & \Delta_+(x,y) = \\ & \Theta(x^0 - y^0) \left\langle \; \left[ \mathbf{\Phi}(x),\mathbf{\Phi}(y) \right] \; \right\rangle \end{aligned} $ | [[future]] component of <br/> [[Peierls-Poisson bracket]] |
+| [[retarded propagator]] | $\Delta_-$ | <img src="https://ncatlab.org/nlab/files/RetGreenFunction.png" width="60"> | $\begin{aligned} & \Delta_-(x,y) = \\ & \Theta(y^0 - x^0) \left\langle \; \left[\mathbf{\Phi}(x),\mathbf{\Phi}(y) \right] \; \right\rangle \end{aligned}$ | [[past]] components of <br/> [[Peierls-Poisson bracket]] |
+| [[Hadamard propagator]] | $\begin{aligned} \Delta_H &= \tfrac{i}{2}\Delta + H \\ & = \Delta_F - i \Delta_+ \end{aligned}$ |  <img src="https://ncatlab.org/nlab/files/HadamardPropagator.png" width="60"> | $\begin{aligned} & \Delta_H(x,y) = \\ & \left\langle \; \mathbf{\Phi}(x) \mathbf{\Phi}(y) \; \right\rangle \end{aligned} $ | [[positive real number|positive]] [[frequency]] part of <br/> [[Peierls-Poisson bracket]] <br/> =  [[normal-ordered product]] <br/> = [[2-point function]] <br/> $\phantom{=}$ of [[vacuum state]] <br/> $\phantom{=}$ or generally of <br/> $\phantom{=}$ [[Hadamard state]] |
+| [[Dirac propagator]] | $\Delta_D = \tfrac{1}{2}(\Delta_+ + \Delta_-)$ |   <img src="https://ncatlab.org/nlab/files/RetGreenFunction.png" width="60"> <br/> $\phantom{A}\,\,\, +$ <br/> <img src="https://ncatlab.org/nlab/files/AdvancedGreenFunction.png" width="60"> |  | would-be <br/> [[time-ordered product]] <br/> away from <br/> coincident points |
+| [[Feynman propagator]] | $\array{\Delta_F & = i \Delta_D + H \\ & = \Delta_H + i \Delta_+}$ |  <img src="https://ncatlab.org/nlab/files/FeynmanPropagator.png" width="60"> | $\begin{aligned} & \Delta_F(x,y) = \\ & \left\langle \; T\left(\; \mathbf{\Phi}(x)\mathbf{\Phi}(y) \;\right) \; \right\rangle \end{aligned}$  | [[time-ordered product]] |
 
 (see also [[Mikica Kocic|Kocic]]'s overview: [[KGPropagatorsOnMinkowskiTable.pdf:file]])
