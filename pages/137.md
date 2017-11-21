@@ -69,7 +69,7 @@ But beware that in categories of sets with [[extra structure]], epimorphisms nee
 ###### Example
 **(epimorphisms of rings)**
 
-In the categories [[Ring]] or [[CRing]] of ([[commutative ring|commutative]]) [[rings]] and [[ring homomorphisms]] between them, then very surjective ring homomorphisms is an epimorphism, but not every epimorphism is surjective. 
+In the categories [[Ring]] or [[CRing]] of ([[commutative ring|commutative]]) [[rings]] and [[ring homomorphisms]] between them, then every surjective ring homomorphisms is an epimorphism, but not every epimorphism is surjective. 
 
 A counterexample is the defining inclusion $\mathbb{Z} \hookrightarrow \mathbb{Q}$ of the ring of [[integers]] into the ring of [[rational numbers]]. This is an injective epimorphism of rings.
 
