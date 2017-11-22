@@ -7,10 +7,17 @@
 
 ## Idea
 
-A [[Lie algebra]] is _nilpotent_ if [[action|acting]] on any one of its elements with other elements, via the [[Lie bracket]], repeatedly eventually yields [[zero]].
+A [[Lie algebra]] is **nilpotent** if [[action|acting]] on any one of its elements with other elements, via the [[Lie bracket]], repeatedly eventually yields [[zero]].
 
+## Definition
+
+The [[lower central series]] or [[descending central series]] of a Lie algebra $\mathfrak{g}$ is a sequence of nested ideals $\mathfrak{g}^{k+1} \trianglelefteq \mathfrak{g}^{k}$ defined inductively by $\mathfrak{g}^1 \coloneqq \mathfrak{g}$,  $\mathfrak{g}^{k+1} \coloneqq [\mathfrak{g}, \mathfrak{g}^k]$. The Lie algebra is said to be **nilpotent** if $\mathfrak{g}^{k} = 0$ for some $k \in \mathbb{N}$.
+
+In other words, a Lie algebra $\mathfrak{g}$ is nilpotent if and only the improper ideal $\mathfrak{g}$ is a [[nilpotent element]] in the ideal lattice with respect to the ideal product $[-,-]$.
 
 ## Properties
+
+* Every abelian Lie algebra is nilpotent, and every nilpotent Lie algebra is [[solvable Lie algebra|solvable]].
 
 ### Relation to Sullivan models
 
