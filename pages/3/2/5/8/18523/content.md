@@ -27,10 +27,21 @@ For example the proof of existence the [[Feynman propagator]] on a [[Lorentzian 
 
 ## Statement
 
+
++-- {: .num_defn #ProperlySupportedPseudoDifferentialOperator}
+###### Definition
+**(properly supported peudo-differential opetator)
+
+A [[pseudo-differential operator]] $Q$ on a [[manifold]] $X$ is called _properly supported_ if for each [[compact subset]] $K \subset X$ there exists a compact subset $K' \subset X$ such that for $u$ a [[distribution]] with [[support of a distribution|support]] in $K$ it follows that the [[derivative of distributions]] $Q u$ has support in $K'$ and such that $u\vert_{K'} = 0$ implies $(Q u)\vert_{K} = 0$.
+
+=--
+
+([H&#246;rmander 85 (18.1.21)](#Hoermander85) recalled e.g. in [Radzikowski 96. p. 8,9](#Radzikowski96))
+
 +-- {: .num_prop #PropagationOfSingularitiesTheorem}
 ###### Proposition
 
-Let $Q$ be a properly supported [[pseudo-differential operator]] on some [[smooth manifold]] $X$ of class $L_1^m(X)$ (...) and with real homogeneous [[principal symbol]] $q$.
+Let $Q$ be a [[pseudo-differential operator]] on some [[smooth manifold]] $X$ which is properly supported (def. \ref{ProperlySupportedPseudoDifferentialOperator}) and of class $L_1^m(X)$ (...) and with real homogeneous [[principal symbol]] $q$.
 
 For $u \in \mathcal{D}'(X)$ a [[distribution]] with $Q u = f$, then the [[complement]] of the [[wave front set]] of $u$ by that of $f$ is contained in the set of covectors on which the [[principal symbol]] $q$ vanishes:
 
@@ -39,7 +50,7 @@ $$
   \,.
 $$
 
-Moreover, $WF(u)$ is invariant under the [[bicharacteristic flow]] induced by the [[Hamiltonian vector field]] of $q$ with respect to the canonical [[symplectic manifold]] structure on the cotangent bundle.
+Moreover, $WF(u)$ is invariant under the [[bicharacteristic flow]] induced by the [[Hamiltonian vector field]] of $q$ with respect to the canonical [[symplectic manifold]] structure on the [[cotangent bundle]].
 
 =--
 
@@ -66,6 +77,11 @@ This follows by prop. \ref{PropagationOfSingularitiesTheorem} by the fact that t
 The theorem is due to
 
 * {#DuistermaatHoermander72} [[Johann Duistermaat]], [[Lars Hörmander]], _Fourier integral operators II_, Acta Mathematica 128, 183-269, 1972 ([Euclid](https://projecteuclid.org/euclid.acta/1485889724))
+
+discussed in
+
+* {#Hoermander85} [[Lars Hörmander]], _The analysis of partial differential operators III_, Springer 1985
+
 
 Review in the context of the [[free field|free]] [[scalar field]] on [[globally hyperbolic spacetimes]] (with $Q$ the [[wave operator]]/[[Klein-Gordon operator]]) is in
 
