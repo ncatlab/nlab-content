@@ -1,243 +1,85 @@
 
-$$
-  \widehat{b(x-y)\Delta(x)}(k)
-  =
-  \int \hat b\left( (k_0 - \xi_0)^2 + (\vec k - \vec \xi)^2 \right) e^{i (k_\mu - \xi_\mu) y^\mu} \delta\left(\xi_\mu \xi^\mu + \left( \tfrac{m c}{\hbar}\right)^2\right) \, d \xi_0 \, d^p \vec \xi
-$$
++-- {: .num_cor #OnShellSpaceOfFieldHistoriesForFreeFieldTheoryGreenHyperbolic}
+###### Corollary
+**([[on-shell]] [[space of field histories]] for [[Green hyperbolic differential operrator|Green hyperbolic]] [[free field theories]])**
+
+Let $(E,\mathbf{L})$ be a [[free field theory]] [[Lagrangian field theory]] (def. \ref{LagrangianDensityForDiracField})
+whose [[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]] $P \Phi = 0$ is [[Green hyperbolic differential operator|Green hyperbolic]] (def. \ref{GreenHyperbolicDifferentialOperator}).
+
+Then the [[on-shell]] [[space of field histories]] (or of [[field histories]] with spatially compact support, def. \ref{CompactlySourceCausalSupport}) is, as a [[vector space]], [[linear isomorphism|linearly isomorphic]]
+to the [[quotient space]] of [[compact support|compactly supported]] sections (or of temporally compactly supported sections, def. \ref{CompactlySourceCausalSupport}) by the [[image]] of the [[differential operator]] $P$, and this isomorphism 
+is given by the [[causal Green function]] $\mathrm{G}_P$ (eq:CausalGreenFunction)
 
 $$
-  =
-  \int \frac{1}{2 \omega(\vec \xi)/c} \hat b\left( \left(k_0 - \omega(\vec \xi)/c\right)^2 + (\vec k - \vec \xi)^2 \right) e^{i (k_\mu - \xi_\mu) y^\mu} d^p \vec \xi
-$$
-
-$$
-  =
-  \int \frac{1}{2 \omega(\vec \xi)/c} \hat b\left( \left(k_0 - \omega(\vec \xi+ \vec k)/c\right)^2 + (\vec \xi)^2 \right) e^{i (k_\mu - \xi_\mu) y^\mu} d^p \vec \xi
-$$
-
-
-$$
-  \begin{aligned}
-    (2\pi)^{-(p+1)}
-    \int
-    \underset{C(\vec k)}{\oint}
-     \frac{e^{i k_\mu (x-y)^\mu}}{ k_\mu k^\mu + m^2 }
-    \,d k_0
-    \,d^{p} k
-    & =
-    (2\pi)^{-(p+1)}
-    \int
-    \underset{C(\vec k)}{\oint}
-      \frac{
-        e^{i k_0 x^0} e^{ i \vec k \cdot (\vec x - \vec y)}
-      }{
-        - k_0^2 + \omega(\vec k)^2/c^2
-      } 
-    \,d k_0
-    \,d^p \vec k 
+  \label{SolutionSpaceIsomorphicToQuotientByImP}
+  \array{
+    \Gamma_{\Sigma,tcp}(E^\ast)/im(P)
+      &\underoverset{\simeq}{\phantom{A}\mathrm{G}_P \phantom{A}}{\longrightarrow}&
+    ker(P) \;=\; \Gamma_{\Sigma}(E)_{\delta_{EL}\mathbf{L} = 0}
     \\
-    & =   
-    (2\pi)^{-(p+1)}
-    \int
-    \underset{C(\vec k)}{\oint}
-      \frac{
-        e^{i k_0 (x-y)^0} e^{i \vec k \cdot (\vec x - \vec y)}
-      }{
-        ( \omega(\vec k)/c + k_0 )
-        ( \omega(\vec k)/c - k_0 )
-      } 
-    \,d k_0
-    \,d^p \vec k
-    \\
-    & = 
-    (2\pi)^{-(p+1)}
-     2\pi i
-     \int
-     \left(
-     \frac{
-       e^{i \omega(\vec k) (x^0 - y^0)/c} e^{i \vec k \cdot (\vec x - \vec y)}
-     }
-     {
-       2 \omega(\vec k)/c
-     }
-     -
-     \frac{
-       e^{ - i \omega(\vec k) (x^0 - y^0)/c} e^{i \vec k \cdot (\vec x - \vec y)}
-     }{
-       2 \omega(\vec k)/c
-     }
-    \right)
-    \,d^p \vec k
-    \\
-    & = 
-    i 
-    (2\pi)^{-p}
-    \int
-      \frac{1}{\omega(\vec k)/c}
-      sin\left( \omega(\vec k)(x^0 - y^0)/c \right)
-      e^{i \vec k \cdot (\vec x - \vec y)}
-     \,d^p \vec k
-     \,.
-  \end{aligned}
+    \Gamma_{\Sigma,cp}(E^\ast)/im(P)
+      &\underoverset{\simeq}{\phantom{A}\mathrm{G}_P\phantom{A}}{\longrightarrow}&
+    ker_{scp}(P) \;=\; \Gamma_{\Sigma,scp}(E)_{\delta_{EL}\mathbf{L} = 0}
+  }
+  \,.
 $$
+
+=--
 
 
 +-- {: .proof}
 ###### Proof
 
-Consider two more Cauchy surfaces $\Sigma_p^\pm \hookrightarrow I^\pm(\Sigma) \hookrightarrow \Sigma$, in the [[future]] $I^+$ and in the [[past]] $I^-$ of $\Sigma$, respectively. Choose a [[partition of unity]] on $\Sigma$ consisting of two elements $\chi^\pm \in C^\infty(\Sigma)$ with [[support]] bounded by these Cauchy surfaces: $supp(\chi_\pm) \subset I^\pm(\Sigma^{\mp})$.
+This is a direct consequence of the [[exact sequence|exactness]] of the sequence (eq:GreenOperatorExactSequenceFirst) 
+in lemma \ref{ExactSequenceOfGreenHyperbolicSystem}.
 
-Then define
+We spell this out for the statement for $\Gamma_{\Sigma,scp}(E)_{\delta_{EL} \mathbf{L} = 0}$, 
+which follows from the first line in (eq:GreenOperatorExactSequenceFirst), the first statement 
+similarly follows from the second line of (eq:GreenOperatorExactSequenceFirst):
 
-$$
-  \label{SplittingOfGreenExactSequenceType}
-  P_\chi 
-    \;\colon\; 
-  \Gamma_{\Sigma,scp}(E) 
-    \longrightarrow 
-  \Gamma_{\Sigma,cp}(E^\ast)
-$$
-
-by 
+First the [[on-shell]] [[space of field histories]] is the [[kernel]] of $P$, by definition
+of [[free field theory]] (def. \ref{LagrangianDensityForDiracField})
 
 $$
-  \label{SplittingOfGreenExactSequence}
-  \begin{aligned}
-    P_\chi(\Phi)
-      & \coloneqq
-    \phantom{-} P(\chi_+ \Phi) 
-    \\
-    & =
-    -
-    P(\chi_- \Phi)
-    \,.
-  \end{aligned}
+  \Gamma_{\Sigma,scp}(E)_{\delta_{EL} \mathbf{L} = 0}
+  \;=\;
+  ker_{scp}(P)
+  \,.
 $$
 
-Notice that the [[support]] of the partitioned field history is in the compactly sourced future/past cone
+Second, exactness of the sequence (eq:GreenOperatorExactSequenceFirst) at $\Gamma_{\Sigma,scp}(E)$ means that the
+[[kernel]] $ker_{scp}(P)$ of $P$ equals the [[image]] $im(\mathrm{G}_{P})$. But by exactmness of the sequence
+at $\Gamma_{\Sigma,cp}(E^\ast)$ it follows that $\mathrm{G}_P$ becomes [[injective]] on the [[quotient space]]
+$\Gamma_{\Sigma,cp}(E)^\ast/im(P)$. Therefore on this quotient space it becomes an isomorphism onto its [[image]].
+
+=--
+
++-- {: .num_reamrk #LinearOnShellObservablesAreTheGeneralizedPDESolutionsNaiveVersion}
+###### Remark
+
+Under passing to [[dual vector spaces]], the linear isomorphism in corollary \ref{OnShellSpaceOfFieldHistoriesForFreeFieldTheoryGreenHyperbolic}
+in turn yields [[linear isomorphisms]] of the form
 
 $$
-  \label{ChipmPhiIsSupportedInPastFuture}
-  \chi_\pm  \Phi
-  \;\in\;
-  \Gamma_{\Sigma,\pm cp}(E)
+  \label{DualSolutionSpaceIsomorphicToQuotientByImP}
+  \array{
+    \left(\Gamma_{\Sigma,cp}(E^\ast)/im(P)\right)^\ast
+      &\underoverset{\simeq}{(-)\circ \mathrm{G}_P}{\longleftarrow}&
+    \left(ker_{scp}(P)\right)^\ast
+    \\
+    \left(\Gamma_\Sigma(E^\ast)/im(P)\right)^\ast
+      &\underoverset{\simeq}{(-)\circ \mathrm{G}_P }{\longleftarrow}&
+    \left(ker(P)\right)^\ast
+  }
+  \,.
 $$
 
-since $\Phi$ is supported in the compactly sourced causal cone, but that 
-$P(\chi_\pm \Phi)$ indeed has [[compact support]] as required by (eq:SplittingOfGreenExactSequenceType): Since $P(\Phi) = 0$ by assumption the support is the intersection of that of $\Phi$ with that of $d \chi_\pm$, and the first is spacelike compact by assumption, while the latter is timelike compact, by definition of partition of unity.
+Except possibly for the issue of [[continuous map|continuity]] this says that
+the linear on-shell [[observables]] (def. \ref{LinearObservables}) are equivalently those linear off-shell observables which
+are [[generalized solution of a PDE|generalized solutions]] of the [[formally adjoint differential operator|formally dual]]
+[[equation of motion]] according to def. \ref{DistributionalDerivatives}.
 
-Similarly, the equality in (eq:SplittingOfGreenExactSequence) holds because by [[partition of unity]] $P(\chi_+ \Phi) + P(\chi_-\Phi) = P((\chi_+ + \chi_-)\Phi ) = P(\Phi) = 0$.
-
-It follows that 
-
-$$
-  \label{PchiIsRightInverseToGP}
-  \begin{aligned}
-    \mathrm{G}_P \circ P_\chi (\Phi)
-    & =
-    \left(
-      \mathrm{G}_{P,+} - \mathrm{G}_{P,-}
-    \right) P_\chi (\Phi)
-    \\
-    & =
-    \underset{ = \chi_+ \Phi}{\underbrace{\mathrm{G}_{P,+} P(\chi_+ \Phi)}}
-    +
-    \underset{ = \chi_- \Phi }{\underbrace{\mathrm{G}_{P,-} P(\chi_- \Phi)}}
-    \\
-    & =
-    (\chi_+ + \chi_-)\Phi
-    \\
-    & = 
-    \Phi
-    \,,
-  \end{aligned}
-$$
-
-where in the second line we chose the two equivalent expressions (eq:SplittingOfGreenExactSequence) such that via (eq:ChipmPhiIsSupportedInPastFuture) the defining property of the [[advanced and retarded Green functions|advanced or retarded Green function]], respectively, may be applied, as shown under the braces.
-
-([Khavkine 14, lemma 2.1](Green+hyperbolic+differential+equation#Khavkine14))
-
-Now we apply this to the computation of $\omega_{\Sigma_p}(\mathrm{G}_P(-),-)$:
-
-$$
-  \begin{aligned}
-    \omega_{\Sigma_P}(\mathrm{G}_P(\alpha^\ast),\vec \Phi)
-    & =
-    \underset{\Sigma_P}{\int}  K(\mathrm{G}_P(\alpha^\ast), \vec \Phi)
-    \\
-    & = 
-    \underset{\Sigma_P}{\int}  K(\mathrm{G}_P(\alpha^\ast), \chi_+\vec \Phi)
-     +
-    \underset{\Sigma_P}{\int}  K(\mathrm{G}_P(\alpha^\ast), \chi_-\vec \Phi)
-    \\
-    & =
-    \underset{I^-(\Sigma_P)}{\int}  d K(\mathrm{G}_P(\alpha^\ast), \chi_+\vec \Phi)
-     -
-    \underset{I^+(\Sigma_P)}{\int}  d K(\mathrm{G}_P(\alpha^\ast), \chi_-\vec \Phi)
-    \\
-    & =
-    \underset{I^-(\Sigma_P)}{\int}  
-    \left(
-       \underset{= 0}{
-       \underbrace{
-       P(\mathrm{G}_P(\alpha^\ast))}} \cdot \chi_+\vec \Phi
-       \mp   
-       \mathrm{G}_P(\alpha^\ast) \cdot P(\chi_+ \vec \Phi)
-    \right)
-    dvol_\Sigma
-    -
-    \underset{I^+(\Sigma_P)}{\int}  
-    \left(
-       \underset{= 0}{
-       \underbrace{
-       P(\mathrm{G}_P(\alpha^\ast))}} \cdot \chi_-\vec \Phi
-       \mp
-       \mathrm{G}_P(\alpha^\ast) \cdot P(\chi_- \vec \Phi)
-    \right)
-    dvol_\Sigma
-    \\
-    & =
-    \mp
-    \left(
-    \underset{I^-(\Sigma_P)}{\int}  
-       \mathrm{G}_P(\alpha^\ast) \cdot P(\chi_+ \vec \Phi)
-    dvol_\Sigma
-    +
-    \underset{I^+(\Sigma_P)}{\int}  
-       \mathrm{G}_P(\alpha^\ast) \cdot P(\chi_+ \vec \Phi)
-     dvol_\Sigma
-    \right)
-    \\
-    & = 
-    \underset{\Sigma}{\int} \mathrm{G}_P(\alpha^\ast) \cdot P(\chi_+ \vec \Phi) dvol_\Sigma
-    \\
-    & =
-    \underset{\Sigma}{\int} \alpha^\ast \cdot \mathrm{G}_{P} (P (\chi_+ \vec \Phi))
-    \\
-    & = 
-    \underset{\Sigma}{\int} \alpha^\ast \cdot \vec \Phi
-   \end{aligned}
-$$
-
-Here we computed as follows:
-
-1. applied the assumption that $\omega_{\Sigma_p}(-,-) = \underset{\Sigma_p}{\int} K(-,-)$;
-
-1. applied the above partition of unity;
-
-1. used the [[Stokes theorem]] (prop. \ref{StokesTheorem}) for the past and the future of $\Sigma_p$, respectively;
-
-1. applied the definition of $d K$ as the witness  of the formal (anti-) self-adjointness of $P$ (def. \ref{FormallyAdjointDifferentialOperators});
-
-1. used $P\circ \mathrm{G}_p = 0$ on $\Gamma_{\Sigma,cp}(E^\ast)$ (def. \ref{AdvancedAndRetardedGreenFunctions}) and used (eq:SplittingOfGreenExactSequence);
-
-1. unified the two integration domains, now that the integrands are the same;
-
-1. used the formally (anti-)self adjointness of the Green functions (example \ref{CausalGreenFunctionOfFormallyAdjointDifferentialOperatorAreFormallyAdjoint});
-
-
-1. used (eq:PchiIsRightInverseToGP).
-
-
+That this remains true also for [[topological vector space]] [[structure]] follows with the dual exact sequence
+(eq:GreenHyperbolicOperatorDualExactSequence). This is the statement of prop. \ref{DistributionsOnSolutionSpaceAreTheGeneralizedPDESolutions} below.
 
 =--
