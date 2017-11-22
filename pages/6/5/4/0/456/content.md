@@ -182,7 +182,7 @@ In ([Johnstone](#Johnstone)) this appears as lemma C1.4.1 and theorem C1.4.3.
 +-- {: .proof}
 ###### Proof
 
-Since a morphism of [[frame]]s is a morphism of [[site]]s, as discussed there, this follows from the corresponding propositions in the section <a href="http://nlab.mathforge.org/nlab/show/site#MorphismsOfSitesAndGeometricMorphisms">Morphisms of sites and geometric morphisms</a>.
+Since a morphism of [[frame]]s is a morphism of [[site]]s, as discussed there, this follows from the corresponding propositions in the section [Morphisms of sites and geometric morphisms](site#MorphismsOfSitesAndGeometricMorphisms).
 
 =--
 
@@ -199,12 +199,12 @@ from the [[category]] [[Locale]] of [[locales]] to the [[2-category]] [[Topos]] 
 
 =--
 
-See also at [[locale]] the section <a href="http://nlab.mathforge.org/nlab/show/locale#RelationToToposes">relation to toposes</a>.
+See also at [[locale]] the section [relation to toposes](locale#RelationToToposes).
 
 ### Relation to morphisms of sites
  {#RelationToMorphismsOfSites}
 
-See at [[morphism of sites]] the section <a href="http://nlab.mathforge.org/nlab/show/morphism+of+sites#RelationToGeometricMorphisms">Relation to geometric morphisms</a> .
+See at [[morphism of sites]] the section _[Relation to geometric morphisms](morphism+of+sites#RelationToGeometricMorphisms)_.
 
 
 ### Relation to logical morphisms
@@ -217,7 +217,7 @@ Every geometric morphism whose [[direct image]] is a [[logical morphism]] is an 
 
 =--
 
-This is a restatement of <a href="http://nlab.mathforge.org/nlab/show/logical+functor#LogicalMorphismsRightAdjointToCartesianFunctors">this proposition</a> at [[logical morphism]]. See there for a proof.
+This is a restatement of [this proposition](logical+functor#LogicalMorphismsRightAdjointToCartesianFunctors) at [[logical morphism]]. See there for a proof.
 
 But [[inverse images]] can be nontrivial logical morphisms:
 
@@ -235,9 +235,9 @@ Generally, a geometric morphism with logical inverse image is called an
 ### Structure preserved by geometric morphisms
  {#StructurePreserved}
 
-The [[inverse image]]s of geometric morphisms preserves the structure of toposes in the sense of their characterization as _categories with [[finite limit]]s that are <a href="http://nlab.mathforge.org/nlab/show/indexed+category#WellPoweredness">well-powered</a> [[indexed categories]] with respect to the canonical indexing over themselves.
+The [[inverse image]]s of geometric morphisms preserves the structure of toposes in the sense of their characterization as _categories with [[finite limit]]s that are [well-powered](indexed+category#WellPoweredness) [[indexed categories]] with respect to the canonical indexing over themselves.
 
-This appears in ([Johnstone](#Johnstone)) as remark B2.2.7 based on example B1.3.17 and prop. B1.3.14. See at [[indexed category]] the section <a href="http://nlab.mathforge.org/nlab/show/indexed+category#WellPoweredness">Well-poweredness</a>.
+This appears in ([Johnstone](#Johnstone)) as remark B2.2.7 based on example B1.3.17 and prop. B1.3.14. See at [[indexed category]] the section [Well-poweredness](indexed+category#WellPoweredness)
 
 
 ### Surjection/embedding factorization
