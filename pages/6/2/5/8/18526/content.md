@@ -341,7 +341,7 @@ $$
   \eta^{\mu \nu} \frac{\partial}{\partial x^\mu} \frac{\partial}{\partial x^\nu} \Phi -  \left( \tfrac{m c}{\hbar} \right)^2 \Phi \;=\; 0 \,.
 $$
 
-Its [[Fourier transform]] is 
+Its [[Fourier transform]] is
 
 $$
   - k_\mu k^\mu - \left( \tfrac{m c}{\hbar} \right)^2
@@ -362,6 +362,23 @@ $$
 
 where on the right we choose the [[non-negative real number|non-negative]] [[square root]].
 
+
+$\,$
+
+We now discuss
+
+1. _[Advanced and regarded propagators](#AdvancedAndRetardedPropagatorsForKleinGordonEquationOnMinkowskiSpacetime)_
+
+1. _[causal propagator](#CausalPropagatorForKleinGordonEquationOnMinkowskiSpacetime)_
+
+1. _[Hadamard propagator](#HadamardPropagatorForKleinGordonOnMinkowskiSpacetime)_
+
+$\,$
+
+
+
+**[[advanced and retarded propagators]] for [[Klein-Gordon equation]] on [[Minkowski spacetime]]**
+ {#AdvancedAndRetardedPropagatorsForKleinGordonEquationOnMinkowskiSpacetime}
 
 +-- {: .num_prop #AdvancedRetardedPropafatorsForKleinGordonOnMinkowskiSpacetime}
 ###### Proposition
@@ -457,7 +474,7 @@ These integral kernels are the advanced/retarded "[[propagators]]". We now compu
 these [[integral kernels]] by making an Ansatz and showing that it has the defining properties,
 which identifies them by the uniqueness statement of prop. \ref{AdvancedAndRetardedGreenFunctionsForGreenHyperbolicOperatorAreUnique}.
 
-We make use of the fact that the [[Klein-Gordon equation]] is [[invariant]] under the defnining [[action]] 
+We make use of the fact that the [[Klein-Gordon equation]] is [[invariant]] under the defnining [[action]]
 of the [[Poincaré group]] on [[Minkowski spacetime]], which is a [[semidirect product group]] of the [[translation group]]
 and the [[Lorentz group]].
 
@@ -643,7 +660,7 @@ To see that this is the correct answer, we need to check the defining support pr
 Finally, by the [[Fourier inversion theorem]], to show that the [[limit of a sequence|limit]] (eq:LimitOverImaginaryOffsetForFourierTransformedAdvancedRetardedPropagator) indeed exists it is sufficient to show that the
 limit in (eq:AdvancedRetardedPropagatorViaFourierTransformOfLLimitOverImaginaryOffsets) exists.
 
-We compute as follows 
+We compute as follows
 
 $$
   \label{TheSupportOfTheCandidateAdvancedRetardedPropagatorIsinTheFutureOrPastRespectively}
@@ -839,6 +856,10 @@ Here in the second step we applied [[change of integration variables]] $\vec k \
 
 =--
 
+$\,$
+
+**[[causal propagator]]**
+  {#CausalPropagatorForKleinGordonEquationOnMinkowskiSpacetime}
 
 +-- {: .num_prop #ModeExpansionOfCausalPropagatorForKleinGordonOnMinkowski}
 ###### Proposition
@@ -1097,10 +1118,216 @@ The last line is the expression for the causal propagator from prop. \ref{ModeEx
 =--
 
 
+
++-- {: .num_prop }
+###### Proposition
+
+The [[singular support]] of the [[causal propagator]] for the [[Klein-Gordon equation]] on [[Minkowski spacetime]]
+is the [[light cone]] of the origin:
+
+$$
+  \Delta_S(x,y)
+  \;\propto\;
+  sgn(x^0 - y^0)
+  \delta\left(
+    -{\vert x-y\vert}^2_\eta
+  \right)  
+  -
+  \text{non-singular}
+  \Theta\left(
+    -{\vert x-y\vert}^2_\eta
+  \right)
+  \left(
+    \text{non-singular}
+  \right)
+  \,.
+$$
+
+=--
+
+(e.g. [Scharf 95 (2.3.18)](causal+perturbation+theory#Scharf95))
+
+
++-- {: .proof}
+###### Proof
+
+
+Consider the formula for the [[causal propagator]] in terms of the mode expansion (eq:CausalPropagatorModeExpansionForKleinGordonOnMinkowskiSpacetime). Since the [[integrand]] here depends on the [[wave vector]] $\vec k$ only via its [[norm]] ${\vert \vec k\vert}$ and the [[angle]] $\theta$ it makes with the given [[spacetime]] [[vector]] via
+
+$$
+  \vec k \cdot (\vec x - \vec y)
+  \;=\;
+  {\vert \vec k\vert} \, {\vert \vec x\vert} \, \cos(\theta)
+$$
+
+
+we may express the [[integration]] in terms of [[polar coordinates]] as follws:
+
+
+$$
+  \begin{aligned}
+    \Delta_S(x - y)
+    & =
+    \frac{-1}{(2\pi)^p}
+    \int \frac{1}{2 \omega(\vec k)/c}
+    \sin\left( \omega(\vec k)(x^0 - y^0)/c \right)
+    e^{i \vec k \cdot (\vec x - \vec y)}
+    \, d^p \vec k
+    \\
+    & =
+    \frac{- vol_{S^{p-2}}}{(2\pi)^p}
+    \underset{{\vert \vec k\vert} \in \mathbb{R}_{\geq 0}}{\int}
+    \underset{ \theta \in [0,\pi] }{\int}
+    \frac{ 1 }{ \omega(\vec k)/c }
+    \sin\left( \omega(\vec k) (x^0 - y^0) /c \right)
+    e^{ i {\vert \vec k\vert} {\vert \vec x - \vec y\vert} \cos(\theta) }
+    {\vert \vec k\vert} ({\vert \vec k\vert} \sin(\theta))^{p-2}
+    \,
+    d \theta
+    \wedge
+    d {\vert \vec k\vert}
+  \end{aligned}
+$$
+
+We specialize further computation now to the case that the [[spacetime]] [[dimension]] is $p + 1 = 3 + 1$, in which case the above becomes
+
+$$
+  \begin{aligned}
+    \Delta_S(x - y)
+    & =
+    \frac{- 1}{(2\pi)^{p-1}}
+    \underset{{\vert \vec k\vert} \in \mathbb{R}_{\geq 0}}{\int}
+    \frac{ {\vert \vec k \vert}^2 }{ \omega(\vec k)/c }
+    \sin\left( \omega(\vec k) (x^0 - y^0) /c \right)
+    \underset{
+      =
+        \tfrac{1}{i {\vert \vec k\vert}\, {\vert \vec x - \vec y\vert} }
+        \left(
+          e^{i {\vert \vec k\vert}\, {\vert \vec x - \vec y\vert}}
+          -
+          e^{-i {\vert \vec k\vert}\, {\vert \vec x - \vec y\vert}}
+        \right)
+    }{
+    \underbrace{
+    \underset{ \cos(\theta) \in [-1,1] }{\int}
+    e^{ i {\vert \vec k\vert} {\vert \vec x - \vec y\vert} \cos(\theta) }
+    d \cos(\theta)
+    }
+    }
+    \wedge
+    d {\vert \vec k \vert}
+    \\
+    & =
+    \frac{- 2}{(2\pi)^{p-1} {\vert \vec x - \vec y\vert}}
+    \underset{{\vert \vec k\vert} \in \mathbb{R}_{\geq 0}}{\int}
+      \frac{ {\vert \vec k \vert} }{ \omega(\vec k)/c }
+      \sin\left( \omega(\vec k) (x^0 - y^0) /c \right)
+      \sin\left( {\vert \vec k\vert}\, {\vert \vec x - \vec y\vert} \right)
+    \\
+    & =
+    \frac{- 2}{(2\pi)^{p-1} {\vert \vec x - \vec y\vert}}
+    \frac{d}{d {\vert \vec x - \vec y \vert } }
+    \underset{{\vert \vec k\vert} \in \mathbb{R}_{\geq 0}}{\int}
+      \frac{ 1 }{ \omega(\vec k)/c }
+      \sin\left( \omega(\vec k) (x^0 - y^0) /c \right)
+      \cos\left( {\vert \vec k\vert}\, {\vert \vec x - \vec y\vert} \right)
+    \, d {\vert \vec k\vert}
+    \\
+    & =
+    \frac{- 1}{(2\pi)^{p-1} {\vert \vec x - \vec y\vert}}
+    \frac{d}{d {\vert \vec x - \vec y \vert } }
+    \underset{  \kappa \in \mathbb{R}  }{\int}
+      \frac{ 1 }{ \omega(\kappa)/c }
+      \sin\left( \omega(\kappa) (x^0 - y^0) /c \right)
+      \cos\left( \kappa\, {\vert \vec x - \vec y\vert} \right)
+    \, d \kappa
+    \\
+    & =
+    \frac{- 1}{2(2\pi)^{p-1} {\vert \vec x - \vec y\vert}}
+    \frac{d}{d {\vert \vec x - \vec y} \vert }
+    \left(
+     \underset{\coloneqq I_+}{
+     \underbrace{
+     \underset{ \kappa \in \mathbb{R}  }{\int}
+      \frac{ 1 }{ \omega(\kappa)/c }
+      \sin\left(
+         \omega(\kappa) (x^0 - y^0) /c
+         +
+         \kappa\, {\vert \vec x - \vec y\vert}
+      \right)
+     d\kappa
+     }
+     }
+      +
+    \underset{ \coloneqq I_- }{
+    \underbrace{
+    \underset{ \kappa \in \mathbb{R}  }{\int}
+      \frac{ 1 }{ \omega(\kappa)/c }
+      \sin\left(
+         \omega(\kappa) (x^0 - y^0) /c
+         -
+         \kappa\, {\vert \vec x - \vec y\vert}
+      \right)
+      \,
+      d \kappa
+      }
+      }
+      \right)
+      \,,
+  \end{aligned}
+$$
+
+where in the last step we used one of the [[trigonometric identities]].
+
+These integrals are given by the [[Bessel function]] $J_0$ of order 1 if $x - y $ is [[timelike]], and vanish if $x - y$ is [[spacelike]]. Therefore we end up with
+
+$$
+  \begin{aligned}
+    \Delta_S(x,y)
+    & =
+    \frac{1}{4 \pi {\vert \vec x - \vec y\vert}}
+    \frac{d}{d {\vert \vec x - \vec y\vert}}
+    sgn(x^0) \Theta\left( (x^0-y^0)^2 - {\vert \vec x - \vec y\vert}^2 \right)
+    J_0\left(
+      \tfrac{m c}{\hbar}  \sqrt{ (x^0)^2 - {\vec x - \vec y}^2 }
+    \right)
+    \\
+    & =
+    -\frac{1}{2 \pi }
+    \frac{d}{d (- \vert x-y\vert^2_{\eta})}
+    sgn(x^0) \Theta\left( - {\vert x - y\vert}^2_\eta \right)
+    J_0\left(
+      \tfrac{m c}{\hbar}  \sqrt{ -{\vert x-y\vert}^2_\eta }
+    \right)
+    \\
+    & =
+    \frac{-1}{2\pi}
+    sgn(x^0)
+    \left(
+      \delta\left(
+         -{\vert x-y\vert}^2_\eta
+      \right)
+      \;-\;
+      \Theta\left( -{\vert x-y\vert}^2_\eta  \right)
+      \frac{d}{d {-\vert x-y\vert}^2_\eta}
+      J_0\left(
+         \tfrac{m c}{\hbar}  \sqrt{ -{\vert x-y\vert}^2_\eta }
+      \right)
+    \right)
+  \end{aligned}
+$$
+
+=--
+
+$\,$
+
+**[[Hadamard propagator]]**
+ {#HadamardPropagatorForKleinGordonOnMinkowskiSpacetime}
+
 Prop. \ref{CausalPropagatorAsFourierTransformOfDeltaDistributionOnTransformedKGOperator} exhibits the [[causal propagator]] of the [[Klein-Gordon operator]] on [[Minkowski spacetime]] as the difference of a contribution for [[positive real number|positive]] temporal [[angular frequency]] $k_0 \propto \omega(\vec k)$ (hence positive [[energy]] $\hbar \omega(\vec k)$ and a contribution of negative temporal [[angular frequency]].
 
-The [[positive real number|positive]] [[frequency]] contribution to the [[causal propagator]] is called the _[[Hadamard propagator]]_ (def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime} below), also known as the the _[[vacuum state]] [[2-point function]] of the [[free field|free]] [[real scalar field]] on [[Minkowski spacetime]]_. Notice that the temporal component 
-of the [[wave vector]] is proportional to the _negative_ [[angular frequency]] 
+The [[positive real number|positive]] [[frequency]] contribution to the [[causal propagator]] is called the _[[Hadamard propagator]]_ (def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime} below), also known as the the _[[vacuum state]] [[2-point function]] of the [[free field|free]] [[real scalar field]] on [[Minkowski spacetime]]_. Notice that the temporal component
+of the [[wave vector]] is proportional to the _negative_ [[angular frequency]]
 
 $$
   k_0 = -\omega/c
@@ -1244,7 +1471,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By (eq:HadamardPropagatorForKleinGordonOperatorOnMinkowskiSpacetime) we have 
+By (eq:HadamardPropagatorForKleinGordonOperatorOnMinkowskiSpacetime) we have
 
 $$
   \begin{aligned}
@@ -1262,7 +1489,7 @@ $$
        e^{+i \omega(\vec k) (x^0 - y^0)/c} e^{+i \vec k \cdot (\vec x - \vec y)}
     d^p \vec k
     \\
-    & = 
+    & =
     \frac{i}{(2\pi)^p}
      \int
        \frac{1}{2 \omega(\vec k)}
@@ -1273,7 +1500,7 @@ $$
        \right)
      d^p \vec k
      \\
-     & = 
+     & =
      \Delta_S(x,y)
      \,,
   \end{aligned}
@@ -1296,7 +1523,7 @@ Conversely, prop. \ref{SkewSymmetricPartOfHadmrdPropagatorIsCausalPropagatorForK
 says that the [[Hadamard propagator]] for the [[Klein-Gordon operator]] on [[Minkowski spacetime]] (def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime}) is of the form
 
 $$
-  \Delta_H 
+  \Delta_H
   \;=\;
   \tfrac{i}{2}\Delta_S + H
   \,,
@@ -1312,7 +1539,7 @@ $$
   \right)
 $$
 
-is the symmetric component of $H$. 
+is the symmetric component of $H$.
 
 If we change $H$ by adding any symmetric [[non-singular distribution]] [[distribution in two variables|in two variables]],
 the result is still called "a [[Hadamard propagator]]" for the [[Klein-Gordon equation]] on [[Minkowski spacetime]].
