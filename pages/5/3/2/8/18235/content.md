@@ -45,6 +45,8 @@ In the [[Euclidean space]] $(X,d) = E^n$ of [[dimension]] $n$, the unit sphere i
 
 * [[direction of a vector]]
 
+* [[polar coordinates]]
+
 [[!redirects unit spheres]]
 
 [[!redirects unit n-sphere]]
