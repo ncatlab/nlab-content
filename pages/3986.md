@@ -31,11 +31,46 @@ Of course, this is complete overkill; category theorists are not oblivious to th
 
 * $\widebar{\exp(z)} = \exp(\widebar{z})$. 
 
+implying statements such as
+
+
+$$
+  \sin\left( \alpha + \beta \right)
+  \;=\;
+  \sin(\alpha) \cos(\beta) + \cos(\alpha) \sin(\beta)
+$$
+
+$$
+  \cos(\alpha + \beta)
+  \;=\;
+  \cos(\alpha) \cos(\beta) - \sin(\alpha) \sin(\beta)
+$$
+
+which in turn implies
+
+$$
+  \label{ProductOfSinWithCos}
+  \sin(\alpha) \cos(\beta) 
+  \;=\; 
+  \tfrac{1}{2}
+  \left(
+    \sin(\alpha + \beta) + \sin(\alpha - \beta)
+  \right)
+$$
+
+etc.
+
 ## Related entries
 
 * See also [[trigonometric function]] for some discussion. 
 
 * [[trigonometry]]
+
+## References
+
+See also
+
+* Wikipedia, _[List of trigonometric identities](https://en.wikipedia.org/wiki/List_of_trigonometric_identities)_
 
 [[!redirects trigonometric identity]]
 [[!redirects trigonometric identities]]
