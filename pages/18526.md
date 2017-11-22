@@ -369,9 +369,11 @@ We now discuss
 
 1. _[Advanced and regarded propagators](#AdvancedAndRetardedPropagatorsForKleinGordonEquationOnMinkowskiSpacetime)_
 
-1. _[causal propagator](#CausalPropagatorForKleinGordonEquationOnMinkowskiSpacetime)_
+1. _[Causal propagator](#CausalPropagatorForKleinGordonEquationOnMinkowskiSpacetime)_
 
 1. _[Hadamard propagator](#HadamardPropagatorForKleinGordonOnMinkowskiSpacetime)_
+
+1. _[Wave front sets](#WaveFrontSetsOfPropagatorsForKleinGordonOperatorOnMinkowskiSpacetime)_
 
 $\,$
 
@@ -1132,7 +1134,7 @@ $$
   sgn(x^0 - y^0)
   \delta\left(
     -{\vert x-y\vert}^2_\eta
-  \right)  
+  \right)
   -
   \Theta\left(
     -{\vert x-y\vert}^2_\eta
@@ -1547,6 +1549,10 @@ the result is still called "a [[Hadamard propagator]]" for the [[Klein-Gordon eq
 =--
 
 
+$\,$
+
+**[[wave front sets]]**
+ {#WaveFrontSetsOfPropagatorsForKleinGordonOperatorOnMinkowskiSpacetime}
 
 
 +-- {: .num_prop #WaveFronSetsForKGPropagatorsOnMinkowski}
@@ -1571,15 +1577,21 @@ The [[wave front set]] of the various [[propagators]] for the [[Klein-Gordon equ
 
 =--
 
+([Radzikowski 96, (16)](Hadamard+distribution#Radzikowski96))
 
 +-- {: .proof}
 ###### Proof idea
 
-Regarding the causal propagator:
+First regarding the causal propagator:
 
 By prop. \ref{SingularSupportOfCausalPropagatorForKleinGordonEquationOnMinkowskiSpacetimeIsTheLightCone} the [[singular support]] of $\Delta_S$ is the [[light cone]].
 
-Let $b \in C^\infty_{cp}(\mathbb{R}^{p,1})$ be a [[bump function]] whose [[compact support]] includes the origin.
+Since the causal propagator is a solution to the hmogeneous Klein-Gordon equation, the
+[[propagation of singularities theorem]] says that also all [[wave vectors]] in the wave front set are lightlike.
+Hence it just remains to show that all non-vanishing lightlike wave vectors base on the lightcone in spacetime
+do appear in the wave fron set.
+
+To that end, let $b \in C^\infty_{cp}(\mathbb{R}^{p,1})$ be a [[bump function]] whose [[compact support]] includes the origin.
 
 For $a \in \mathbb{R}^{p,1}$ a point on the light cone, we need to determine the decay property of the Fourier transform of $x \mapsto b(x-a)\Delta_S(x)$. This is the [[convolution of distributions]] of $\hat b(k)e^{i k_\mu a^\mu}$ with $\widehat \Delta_S(k)$. By prop. \ref{CausalPropagatorAsFourierTransformOfDeltaDistributionOnTransformedKGOperator} we have
 
@@ -1593,9 +1605,7 @@ $$
 
 This means that the convolution product is the smearing of the mass shell by $\widehat b(k)e^{i k_\u a^\mu}$.
 
-Since the mass shell asymptotes to the light cone, and since $e^{i k_\mu a^\mu} = 1$ for $k$ on the light cone (given that $a$ is on the light cone), this implies immediately that all $k$ on the light cone are in the wave front set at the point $a$.
-
-It remains to see that no other wave vctors $k$ are in the wave front set. But if $k$ is not on the light cone, then for large positive real numbers $c$ the product $c k$ has arbitrary large distance form the light cone. Since $\widehat b$ is a [[rapidly decreasing function]], it follows (..?..) that the convolution of the mass shell with $\widehat b$ is rapidly decreasing with distance from the light cone (...this needs proof...), hence rapidly decreasing along all $k$ not on the light cone.
+Since the mass shell asymptotes to the light cone, and since $e^{i k_\mu a^\mu} = 1$ for $k$ on the light cone (given that $a$ is on the light cone), this implies the claim.
 
 
 Now for the [[Hadamard propagator]]:
