@@ -11484,7 +11484,7 @@ $\,$
 Given a [[Lagrangian field theory]] (def. \ref{LagrangianForFreeScalarFieldOnMinkowskiSpacetime}), then a general _[[observable]] quantity_ or just _[[observable]]_ for short (def. \ref{Observable} below),  is a [[smooth function]]
 
 $$
-  A \;\colon\; \Gamma_\Sigma(E)_{\delta_{EL} = 0} \longrightarrow \mathbb{C}
+  A \;\colon\; \Gamma_\Sigma(E)_{\delta_{EL}\mathbf{L} = 0} \longrightarrow \mathbb{C}
 $$
 
 on the [[on-shell]] [[space of field histories]] (example \ref{DiffeologicalSpaceOfFieldHistories}, example \ref{SupergeometricSpaceOfFieldHistories})
@@ -11537,7 +11537,7 @@ is canonically a [[vector space]] and hence it makes sense to consider _[[linear
 those observables $A$ with $A(c \Phi) = c A(\Phi)$ and $A(\Phi_1 + \Phi_2) = A(\Phi_1) + A(\Phi_2)$.
 It turns out that these are precisely the _[[compactly supported distributions]]_ in the sense of [[Laurent Schwartz]]
 (prop. \ref{LinearObservablesAreTheCompactlySupportedDistributions} below).
-This fact makes powerful tools from [[functional analysis]] and [[microlocal analysis]] available for the analysis of [[field theory]],
+This fact makes powerful tools from [[functional analysis]] and [[microlocal analysis]] available for the analysis of [[field theory]].
 
 More generally there are the [[multilinear map|multilinear]] off-shell observables, and these are analogously given by
 _[[distributions of several variables]]_ (def. \ref{PolynomialObservables} below). In fully [[perturbative quantum field theory]]
@@ -12340,7 +12340,7 @@ $$
 
 Let $E \overset{fb}{\to} \Sigma$ be a  [[smooth vector bundle]] (def. \ref{VectorBundle}) over [[Minkowski spacetime]] (def. \ref{MinkowskiSpacetime}).
 
-Then there are the following [[isomorphisms]] of [[topological vector spaces]] between a) [[dual spaces]] of [[spaces of sections]] 
+Then there are the following [[isomorphisms]] of [[topological vector spaces]] between a) [[dual spaces]] of [[spaces of sections]]
 with restricted causal support (def. \ref{CompactlySourceCausalSupport}) and equipped with the topology from def. \ref{TVSStructureOnSpacesOfSmoothSections} and b) spaces of distributional sections with restricted supports, according to def. \ref{DistributionalSections}:
 
 
@@ -12647,6 +12647,7 @@ from [[spaces of smooth sections]] of [[compact support]] to spaces of sections 
 If the advanced/retarded Green functions $G_{P\pm}$ exists, then the difference
 
 $$
+  \label{CausalGreenFunction}
   \mathrm{G}_P \coloneqq \mathrm{G}_{P,+} - \mathrm{G}_{P,-}
 $$
 
@@ -12911,29 +12912,66 @@ This is due to [[Igor Khavkine]], based on ([Khavkine 14, prop. 2.1](#Khavkine14
 for **proof** see at _[[Green hyperbolic differential operator]]_  [this lemma](Green+hyperbolic+partial+differential+equation#ExactSequenceOfGreenHyperbolicSystem).
 
 
-+-- {: .num_remark #LinearOnShellObservablesAreTheGeneralizedPDESolutionsNaiveVersion}
-###### Remark
++-- {: .num_cor #OnShellSpaceOfFieldHistoriesForFreeFieldTheoryGreenHyperbolic}
+###### Corollary
+**([[on-shell]] [[space of field histories]] for [[Green hyperbolic differential operator|Green hyperbolic]] [[free field theories]])**
 
-The [[exact sequence|exactness]] of the sequence (eq:GreenOperatorExactSequenceFirst) immediately implies
-a [[linear isomorphism]] between the space $ker_{scp}(P)$ of spatially compact solutions to the differential equation
-$P \Phi = 0$ (the [[kernel]] of $P$) and the [[quotient space]] of the [[compact support|compactly supported]] dual sections by the [[image]] of $P$, mediated by the [[causal Green function]] $\mathrm{G}$, and similarly for the unconstrained solution space $ker(P)$
-and the space of temporally compactly supported sections:
+Let $(E,\mathbf{L})$ be a [[free field theory]] [[Lagrangian field theory]] (def. \ref{LagrangianDensityForDiracField})
+whose [[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]] $P \Phi = 0$ is [[Green hyperbolic differential operator|Green hyperbolic]] (def. \ref{GreenHyperbolicDifferentialOperator}).
+
+Then the [[on-shell]] [[space of field histories]] (or of [[field histories]] with spatially compact support, def. \ref{CompactlySourceCausalSupport}) is, as a [[vector space]], [[linear isomorphism|linearly isomorphic]]
+to the [[quotient space]] of [[compact support|compactly supported]] sections (or of temporally compactly supported sections, def. \ref{CompactlySourceCausalSupport}) by the [[image]] of the [[differential operator]] $P$, and this isomorphism 
+is given by the [[causal Green function]] $\mathrm{G}_P$ (eq:CausalGreenFunction)
 
 $$
   \label{SolutionSpaceIsomorphicToQuotientByImP}
   \array{
+    \Gamma_{\Sigma,tcp}(E^\ast)/im(P)
+      &\underoverset{\simeq}{\phantom{A}\mathrm{G}_P \phantom{A}}{\longrightarrow}&
+    ker(P) \;=\; \Gamma_{\Sigma}(E)_{\delta_{EL}\mathbf{L} = 0}
+    \\
     \Gamma_{\Sigma,cp}(E^\ast)/im(P)
       &\underoverset{\simeq}{\phantom{A}\mathrm{G}_P\phantom{A}}{\longrightarrow}&
-    ker_{scp}(P)
-    \\
-    \Gamma_\Sigma(E^\ast)/im(P)
-      &\underoverset{\simeq}{\phantom{A}\mathrm{G}_P \phantom{A}}{\longrightarrow}&
-    \Gamma_{\Sigma,tcp}(\tilde E)/im(P)
+    ker_{scp}(P) \;=\; \Gamma_{\Sigma,scp}(E)_{\delta_{EL}\mathbf{L} = 0}
+    \,.
   }
+$$
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+This is a direct consequence of the [[exact sequence|exactness]] of the sequence (eq:GreenOperatorExactSequenceFirst) 
+in lemma \ref{ExactSequenceOfGreenHyperbolicSystem}.
+
+We spell this out for the statement for $\Gamma_{\Sigma,scp}(E)_{\delta_{EL} \mathbf{L} = 0}$, 
+which follows from the first line in (eq:GreenOperatorExactSequenceFirst), the first statement 
+similarly follows from the second line of (eq:GreenOperatorExactSequenceFirst):
+
+First the [[on-shell]] [[space of field histories]] is the [[kernel]] of $P$, by definition
+of [[free field theory]] (def. \ref{LagrangianDensityForDiracField})
+
+$$
+  \Gamma_{\Sigma,scp}(E)_{\delta_{EL} \mathbf{L} = 0}
+  \;=\;
+  ker_{scp}(P)
   \,.
 $$
 
-Under passing to [[dual vector spaces]] this in turn yields [[linear isomorphisms]] of the form
+Second, exactness of the sequence (eq:GreenOperatorExactSequenceFirst) at $\Gamma_{\Sigma,scp}(E)$ means that the
+[[kernel]] $ker_{scp}(P)$ of $P$ equals the [[image]] $im(\mathrm{G}_{P})$. But by exactness of the sequence
+at $\Gamma_{\Sigma,cp}(E^\ast)$ it follows that $\mathrm{G}_P$ becomes [[injective]] on the [[quotient space]]
+$\Gamma_{\Sigma,cp}(E)^\ast/im(P)$. Therefore on this quotient space it becomes an isomorphism onto its [[image]].
+
+=--
+
++-- {: .num_reamrk #LinearOnShellObservablesAreTheGeneralizedPDESolutionsNaiveVersion}
+###### Remark
+
+Under passing to [[dual vector spaces]], the linear isomorphism in corollary \ref{OnShellSpaceOfFieldHistoriesForFreeFieldTheoryGreenHyperbolic}
+in turn yields [[linear isomorphisms]] of the form
 
 $$
   \label{DualSolutionSpaceIsomorphicToQuotientByImP}
@@ -12950,7 +12988,7 @@ $$
 $$
 
 Except possibly for the issue of [[continuous map|continuity]] this says that
-the linear on-shell observables are equivalently those linear off-shell observables which
+the linear on-shell [[observables]] (def. \ref{LinearObservables}) of a [[Green hyperbolic differential equation|Green hyperbolic]] [[free field theory]] are equivalently those linear off-shell observables which
 are [[generalized solution of a PDE|generalized solutions]] of the [[formally adjoint differential operator|formally dual]]
 [[equation of motion]] according to def. \ref{DistributionalDerivatives}.
 
@@ -13283,7 +13321,7 @@ $$
 
 +-- {: .num_remark #TransgressionToDimensionrSupportedOnHorizontalrForms}
 ###### Remark
-**([[transgression of variational differential forms|transgression]] to dimension $r$ picks out hiorizontal $r$-forms)**
+**([[transgression of variational differential forms|transgression]] to dimension $r$ picks out horizontal $r$-forms)**
 
 In def. \ref{TransgressionOfVariationalDifferentialFormsToConfigrationSpaces}
 we regard [[integration of differential forms]] over $\Sigma_r$ as an operation defined on differential forms
@@ -13563,7 +13601,7 @@ $$
     d \mathcal{S}_{b \mathbf{L}}
     & =
     \tau_\Sigma( \delta ( b \mathbf{L} )  )
-  \end{aligned} 
+  \end{aligned}
   \,,
 $$
 
@@ -13593,7 +13631,7 @@ where the second term vanishes by the first statement of prop. \ref{Transgressio
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}).
 
 The [[de Rham differential]] $d \mathcal{S}_{b\mathbf{L}}$ of the [[action functional]] (example \ref{VariationOfTheActionFunctional})
-vanishes at a field history 
+vanishes at a field history
 
 $$
   \Phi \in \Gamma_\Sigma(E)
@@ -13633,7 +13671,7 @@ $$
 By prop. \ref{TransgressionOfVariationaldifferentialFormsCompatibleWithVariationalDerivative} we have
 
 $$
-  (\Phi_{(-)})^\ast d \mathcal{S}_{b \mathbf{L}} 
+  (\Phi_{(-)})^\ast d \mathcal{S}_{b \mathbf{L}}
   \;=\;
    \int_\Sigma
    j^\infty_\Sigma(\Phi_{(-)})^\ast (  \delta_{EL}  b \mathbf{L} )
@@ -13776,7 +13814,7 @@ $\,$
 The definition of [[observables]] in def. \ref{Observable} and specifically of [[local observables]] in def. \ref{LocalObservables} uses explicit restriction to the [[shell]],
 hence, by the [[principle of extremal action]] (prop. \ref{PrincipleOfExtremalAction}) to the "[[critical locus]]" of the [[action functional]]. Such [[critical loci]] are often hard to
 handle explicitly. It helps to consider a "[[homological resolution]]" that is given, in good circumstances, by the corresponding
-"[[derived critical locus]]". These we consider in detail below in _[Reduced phase space](#ReducedPhaseSpace)_. 
+"[[derived critical locus]]". These we consider in detail below in _[Reduced phase space](#ReducedPhaseSpace)_.
 In order to have good control over these resolutions, we here consider the first _[[perturbative quantum field theory|perturbative]]_
 aspect of [[field theory]], namely we consider the restriction of [[local observables]] to just an
 [[infinitesimal neighbourhood]] of a background [[on-shell]] field history:
@@ -14653,7 +14691,7 @@ Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangian
 
    1. [[Green hyperbolic differential operator|Green hyperbolic]] (def. \ref{GreenHyperbolicDifferentialOperator}).
 
-Write 
+Write
 
 $$
   \mathrm{G}_P
@@ -14689,7 +14727,7 @@ $$
 equals the [[evaluation map]] of observables on field histories.
 
 This means that for every [[Cauchy surface]] $\Sigma_p$ the [[presymplectic form]] $\omega_{\Sigma_p}$ restricts to a _[[symplectic form]]_
-on regular linear observables. The corresponding _[[Poisson bracket]]_ is 
+on regular linear observables. The corresponding _[[Poisson bracket]]_ is
 
 $$
   \left\{
@@ -14845,7 +14883,7 @@ $$
 $$
 
 since $\Phi$ is supported in the compactly sourced causal cone, but that
-$P(\chi_\pm \Phi)$ indeed has [[compact support]] as required by (eq:SplittingOfGreenExactSequenceType): Since $P(\Phi) = 0$ by assumption the support is the intersection of that of $\Phi$ with that of $d \chi_\pm$, and the first is spacelike compact by assumption, while the latter is timelike compact, by definition of partition of unity.
+$P(\chi_\pm \Phi)$ indeed has [[compact support]] as required by (eq:SplittingOfGreenExactSequenceType): Since $P(\Phi) = 0$, by assumption, the support is the intersection of that of $\Phi$ with that of $d \chi_\pm$, and the first is spacelike compact by assumption, while the latter is timelike compact, by definition of partition of unity.
 
 Similarly, the equality in (eq:SplittingOfGreenExactSequence) holds because by [[partition of unity]] $P(\chi_+ \Phi) + P(\chi_-\Phi) = P((\chi_+ + \chi_-)\Phi ) = P(\Phi) = 0$.
 
@@ -14874,7 +14912,7 @@ $$
   \end{aligned}
 $$
 
-where in the second line we chose the two equivalent expressions (eq:SplittingOfGreenExactSequence) such that via (eq:ChipmPhiIsSupportedInPastFuture) the defining property of the [[advanced and retarded Green functions|advanced or retarded Green function]], respectively, may be applied, as shown under the braces.
+where in the second line we chose from the two equivalent expressions (eq:SplittingOfGreenExactSequence) such that via (eq:ChipmPhiIsSupportedInPastFuture) the defining property of the [[advanced and retarded Green functions|advanced or retarded Green function]], respectively, may be applied, as shown under the braces.
 
 ([Khavkine 14, lemma 2.1](Green+hyperbolic+differential+equation#Khavkine14))
 
