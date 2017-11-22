@@ -159,7 +159,7 @@ $$
 Here the first morphism preserves all limits, the last one all finite limits. Hence the composite preserves all finite limits if the left [[Kan extension]] $Lan_f$ does. This is the case if $f$ is a [[flat functor]].
 
 (Because the left [[Kan extension]] is given by the [[colimit]] 
-$Lan_f X : d \mapsto {\underset{\to}{\lim}}((f^{op}/d) \to {\mathcal{C}}^{op} \stackrel{X}{\to} Set)$ over the [[comma category]] $f^{op}/d$ which is a [[filtered category]] if $f$ is flat, and [[filtered colimit]]s are precisely those that commute with [[finite limit]]s. For more details on this argument see the discussion at <a href="http://nlab.mathforge.org/nlab/show/geometric+morphism#BetweenPresheafToposes">Geometric morphisms between presheaf toposes</a>.)
+$Lan_f X : d \mapsto {\underset{\to}{\lim}}((f^{op}/d) \to {\mathcal{C}}^{op} \stackrel{X}{\to} Set)$ over the [[comma category]] $f^{op}/d$ which is a [[filtered category]] if $f$ is flat, and [[filtered colimit]]s are precisely those that commute with [[finite limit]]s. For more details on this argument see the discussion at [Geometric morphisms between presheaf toposes](geometric+morphism#BetweenPresheafToposes).)
 
 =--
 
