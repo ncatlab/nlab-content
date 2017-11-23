@@ -58,7 +58,7 @@ distribution is said to be a _[[compactly supported distribution]]_.
 ###### Definition
 **(singular support)**
 
-Let $X$ be a [[smooth manifold]] and let $\phi \colon C^\infty_c(X) \longrightarrow \mathbb{R}$ be a [[distribution]]. Then the _singular support_  $singsupp(\phi) \subset X$ is the [[subset]] of points such that for every [[open neighbourhood]] $U_x \subset X$ the [[restriction of distributions|restriction]] $\phi\vert_{U_x}$ is singular, hence not a [[non-singular distribution]].
+Let $X$ be a [[smooth manifold]] and let $\phi \colon C^\infty_c(X) \longrightarrow \mathbb{R}$ be a [[distribution]]. Then the _singular support_  $supp_{sing}(\phi) \subset X$ is the [[subset]] of points such that for every [[open neighbourhood]] $U_x \subset X$ the [[restriction of distributions|restriction]] $\phi\vert_{U_x}$ is singular, hence not a [[non-singular distribution]].
 
 =--
 
