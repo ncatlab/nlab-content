@@ -9,11 +9,11 @@ $
     &\overset{\psi_k}{\longrightarrow}&
     \mathbb{C}
     \\
-    x  && \exp\left( i k_\mu x^\mu \right) 
+    x  &\mapsto& \exp\left( \, i k_\mu x^\mu \, \right) 
     \\
-    (\vec x, x^0) &\mapsto& \exp\left(  i \vec k \cdot \vec x + i k_0 x^0 \right)
+    (\vec x, x^0) &\mapsto& \exp\left( \, i \vec k \cdot \vec x + i k_0 x^0 \, \right)
     \\
-    (\vec x, c t) && \exp\left(  i \vec k \cdot \vec x - i \omega t \right)
+    (\vec x, c t) &\mapsto& \exp\left( \, i \vec k \cdot \vec x - i \omega t \, \right)
   }
 $
 
