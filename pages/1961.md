@@ -39,7 +39,7 @@ With a notion of tangent bundle comes the following terminology
 
 * A _tangent vector_ on $X$ at $x \in X$ is an element of $T_x X$.
 
-* The _tangent space_ of $X$ at a point $x$ is the [[fiber]] $T_x(X)$ of $T_*(X)$ over $x$;.
+* The _tangent space_ of $X$ at a point $x$ is the [[fiber]] $T_x(X)$ of $T X$ over $x$;.
 
 * A _tangent vector field_ on $X$ is a [[section]] of $T X$.
 
@@ -934,7 +934,7 @@ with
 
 This definition captures elegantly and usefully the notion of tangent vectors as infinitesimal curves. But it is not guaranteed that the fibers of a synthetic tangent bundle $X^D$ are fiberwise linear, i.e. are fiberwise $R$-modules the way one expects. Objects $X$ for which this is true are [[microlinear space]]s in $\mathcal{T}$. See there for more details.
 
-A [[smooth topos]] $\mathcal{T}$ is called a _well-adapted model_ for [[synthetic differential geometry]] if there is a [[full and faithful functor|full and faithful]] embedding [[Diff]] $\hookrightarrow \mathcal{T}$ of the cageory of [[manifold]]s into $\mathcal{T}$.
+A [[smooth topos]] $\mathcal{T}$ is called a _well-adapted model_ for [[synthetic differential geometry]] if there is a [[full and faithful functor|full and faithful]] embedding [[Diff]] $\hookrightarrow \mathcal{T}$ of the category of [[manifold]]s into $\mathcal{T}$.
 
 Typically, for well adapted models, under this embedding
 
@@ -989,7 +989,7 @@ A textbook account of tangent bundles in the context of [[synthetic differential
 
 Further discussion of axiomatizations in this context is in
 
-* {#CockettCruttwell} [[J.R.B. Cockett]], [[Geoff Cruttwell]], _Differential structure, tangent structure, and SDG_ (2012) ([pdf](http://www.mta.ca/~gcruttwell/publications/sman3.pdf))
+* {#CockettCruttwell} [[J.R.B. Cockett]], [[Geoff Cruttwell]], _Differential structure, tangent structure, and SDG_ (2012) ([pdf](https://www.mta.ca/uploadedFiles/Community/Bios/Geoff_Cruttwell/sman3.pdf))
 
 
 Discussion for [[diffeological spaces]] is in
