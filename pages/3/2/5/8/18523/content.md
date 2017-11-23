@@ -30,18 +30,27 @@ For example the proof of existence the [[Feynman propagator]] on a [[Lorentzian 
 
 +-- {: .num_defn #ProperlySupportedPseudoDifferentialOperator}
 ###### Definition
-**(properly supported peudo-differential opetator)
+**([[properly supported peudo-differential operator]])
 
-A [[pseudo-differential operator]] $Q$ on a [[manifold]] $X$ is called _properly supported_ if for each [[compact subset]] $K \subset X$ there exists a compact subset $K' \subset X$ such that for $u$ a [[distribution]] with [[support of a distribution|support]] in $K$ it follows that the [[derivative of distributions]] $Q u$ has support in $K'$ and such that $u\vert_{K'} = 0$ implies $(Q u)\vert_{K} = 0$.
+A [[pseudo-differential operator]] $Q$ on a [[manifold]] $X$ is called _[[properly supported pseudo-differential operator|properly supported]]_ if for each [[compact subset]] $K \subset X$ there exists a compact subset $K' \subset X$ such that for $u$ a [[distribution]] with [[support of a distribution|support]] in $K$ it follows that the [[derivative of distributions]] $Q u$ has support in $K'$ and such that $u\vert_{K'} = 0$ implies $(Q u)\vert_{K} = 0$.
 
 =--
 
 ([H&#246;rmander 85 (18.1.21)](#Hoermander85) recalled e.g. in [Radzikowski 96. p. 8,9](#Radzikowski96))
 
++-- {: .num_example}
+###### Example
+**([[differential operators]] are properly supported [[pseudo-differential operators]])**
+
+Every ordinary [[differential operator]], regarded as a [[pseudo-differential operator]], is properly supported (def. \ref{ProperlySupportedPseudoDifferentialOperator}), since differential operators do not increase [[support]].
+
+=--
+
 +-- {: .num_prop #PropagationOfSingularitiesTheorem}
 ###### Proposition
+**(propagation of singularities theorem)**
 
-Let $Q$ be a [[pseudo-differential operator]] on some [[smooth manifold]] $X$ which is properly supported (def. \ref{ProperlySupportedPseudoDifferentialOperator}) and of class $L_1^m(X)$ (...) and with real homogeneous [[principal symbol]] $q$.
+Let $Q$ be a [[pseudo-differential operator]] on some [[smooth manifold]] $X$ which is [[properly supported pseudo-differential operator|properly supported]] (def. \ref{ProperlySupportedPseudoDifferentialOperator}) and of class $L_1^m(X)$ (...) and with real homogeneous [[principal symbol]] $q$.
 
 For $u \in \mathcal{D}'(X)$ a [[distribution]] with $Q u = f$, then the [[complement]] of the [[wave front set]] of $u$ by that of $f$ is contained in the set of covectors on which the [[principal symbol]] $q$ vanishes:
 
