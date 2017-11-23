@@ -52,6 +52,8 @@ For $E$ a [[real vector bundle|real]] [[trivial line bundle]] then the principal
 
 ## Related concepts
 
+* [[symbol order]]
+
 * [[elliptic differential operator]], [[elliptic chain complex]]
 
 * [[hyperbolic differential operator]]
