@@ -88,7 +88,7 @@ $$
 
 * [[Liouville-Poincaré 1-form]]
 
-* [[principal symbol]], [[]bicharacteristic flow]
+* [[principal symbol]], [[bicharacteristic flow]]
 
 * [[wavefront set]], [[microlocal analysis]]
 
