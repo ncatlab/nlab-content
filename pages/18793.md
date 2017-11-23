@@ -7,6 +7,10 @@
 +--{: .hide}
 [[!include functional analysis - contents]]
 =--
+#### Differential geometry
++-- {: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
 =--
 =--
 
