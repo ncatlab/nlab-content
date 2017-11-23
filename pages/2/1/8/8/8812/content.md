@@ -15,7 +15,7 @@
 
 ## Definition
 
-For $X$ a [[smooth manifold]], $E \to X$ a [[vector bundle]] and $D : \Gamma(E) \to \Gamma(E)$ a [[differential operator]] on [[sections]] of $E$, its **symbol** is the bundle morphism
+For $X$ a [[smooth manifold]], $E \to X$ a [[vector bundle]] and $D : \Gamma(E) \to \Gamma(E)$ a [[linear differential operator]] on [[sections]] of $E$, its **symbol** is the bundle morphism
 
 $$
    \sigma(D) \;:\; T^* X \otimes_X E \to E
@@ -31,6 +31,8 @@ $$
 where in the [[commutator]] on the right we regard multiplication by $f$ as an [[endomorphism]] of $\Gamma(E)$.
 
 The symbol may naturally be thought of as an element in the [[K-theory]] of $X$ ([Freed](#Freed)).
+
+Generally, the symbol of a possibly non-linear [[differential operator]] is similarly the map on the [[cotangent bundle]] given by "replacing [[partial derivatives]] by [[covectors]]" in the definition of the differential operator. In this case the _principal symbol_ is the highest degree [[homogeneous function|homogeneous]] component of the symbol.
 
 ## Examples
 
@@ -58,15 +60,16 @@ For $E$ a [[real vector bundle|real]] [[trivial line bundle]] then the principal
 
 * [[hyperbolic differential operator]]
 
+* [[propagation of singularities theorem]]
 
 ## References
 
-For instance chapter 2.5 of 
 
-* [[Nigel Higson]], John Roe, _Lectures on operator K-theory and the Atiyah-Singer Index Theorem_ ([pdf](http://folk.uio.no/rognes/higson/Book.pdf))
+* [[Nigel Higson]], John Roe, chapter 2.5 of  _Lectures on operator K-theory and the Atiyah-Singer Index Theorem_ ([pdf](http://folk.uio.no/rognes/higson/Book.pdf))
 
-* [[Dan Freed]], _Geometry of Dirac operators_ ([pdf](http://www.ma.utexas.edu/users/dafr/DiracNotes.pdf))
- {#Freed}
+* {#Freed} [[Dan Freed]], _Geometry of Dirac operators_ ([pdf](http://www.ma.utexas.edu/users/dafr/DiracNotes.pdf))
+ 
+See also
 
 * Wikipedia, _[Symbol of a differential operator](http://en.wikipedia.org/wiki/Symbol_of_a_differential_operator)_
 
