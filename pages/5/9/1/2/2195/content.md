@@ -211,7 +211,7 @@ $$
   \mathcal{S}(\mathbb{R}^n)
 $$
 
-on the [[Schwartz space]] of [[functions with rapidly decreasing partial derivatives]] (def. \ref{SchwartzSpace}), which is given by [[integration]] against the [[exponential function|exponential]] [[plane wave]] function
+on the [[Schwartz space]] of [[functions with rapidly decreasing partial derivatives]] (def. \ref{SchwartzSpace}), which is given by [[integration]] against the [[exponential function|exponential]] [[plane wave]] functions
 
 $$
   x \mapsto e^{- i k \cdot x}
