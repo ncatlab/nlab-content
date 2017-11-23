@@ -15,3 +15,4 @@
 category: people
 
 [[!redirects Troelstra]]
+[[!redirects Anne Troelstra]]
