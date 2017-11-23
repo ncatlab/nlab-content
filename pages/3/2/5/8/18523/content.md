@@ -17,7 +17,7 @@
 
 ## Idea
 
-In [[microlocal analysis]] the _propagation of singularities theorem_ ([Duistermaat-H&#246;rmander 72, section 6.1](#DuistermaatHoermander72)) characterizes the [[wave front set]] of a [[distribution|distributional]] solution to a suitable [[differential equation]] in terms of the [[principal symbol]] of the corresponding [[differential operator]]: It says that the singularity wave fronts of the solution propagate along the [[Hamiltonian flow]] of the [[principal symbol]] of the differential operator (its [[bicharacteristic flow]]).
+In [[microlocal analysis]] the _propagation of singularities theorem_ ([Duistermaat-H&#246;rmander 72, section 6.1](#DuistermaatHoermander72)) characterizes the [[wave front set]] of a [[distributional solution to a partial differential equation]] in terms of the [[principal symbol]] of the corresponding [[differential operator]]: It says that the singularity wave fronts of the solution propagate along the [[Hamiltonian flow]] of the [[principal symbol]] of the differential operator (its [[bicharacteristic flow]]).
 
 Hence this theorem makes fully manifest how the concept of [[wave front set]] enhances that of [[singular support]] by adding [[direction of a vector|directional]] information about the singularities.
 
@@ -54,7 +54,7 @@ Every ordinary [[differential operator]], regarded as a [[pseudo-differential op
 ###### Definition
 **([[symbol order]])**
 
-A [[smooth function]] $q$ on a [[cotangent bundle]] (e.g. the [[principal symbol]] of a [[pseudo-differential operator]]) is of _order $m$_ (and type $1,0$, denoted $q \in S^m = S^m_{1,0}$), for $m \in \mathbb{N}$, if on each [[coordinate chart]] $((x^i), (k_i))$ we have that for every [[compact subset]] $K$ of the base space and all multi-indices $\alpha$ and $\beta$, there is a  [[real number]] $C_{\alpha, \beta,K } \in \mathbb{R}$ such that the [[absolute value]] of the [[partial derivatives]] of $q$ is bounded by
+A [[smooth function]] $q$ on a [[cotangent bundle]] (e.g. [[symbol of a differential operator]]) is of _order $m$_ (and type $1,0$, denoted $q \in S^m = S^m_{1,0}$), for $m \in \mathbb{N}$, if on each [[coordinate chart]] $((x^i), (k_i))$ we have that for every [[compact subset]] $K$ of the base space and all multi-indices $\alpha$ and $\beta$, there is a  [[real number]] $C_{\alpha, \beta,K } \in \mathbb{R}$ such that the [[absolute value]] of the [[partial derivatives]] of $q$ is bounded by
 
 
 $$
@@ -69,17 +69,15 @@ $$
 
 for all $x \in K$ and all cotangent vectors $k$ to $x$.
 
-A [[Fourier integral]] operator $Q$ is of _[[symbol class]]_ $L^m = L^m_{1,0}$ if
-
-1. it is of the form
+A [[Fourier integral]] operator $Q$ is of _[[symbol class]]_ $L^m = L^m_{1,0}$ if it is of the form
 
    $$
      Q f (x)
      \;=\;
-     \int \int e^{i k \cdot (x - y)} \hat f(x,y,k) f(y) \, d y d k
+     \int \int e^{i k \cdot (x - y)} q(x,y,k) f(y) \, d y d k
    $$
 
-1. its [[principal symbol]] $q$ is of order $m$, in the above sense.
+with symbol $q$ of order $m$, in the above sense.
 
 =--
 
@@ -113,7 +111,7 @@ Moreover, $WF(u)$ is invariant under the [[bicharacteristic flow]] induced by th
 
 =--
 
-([Duistermaat-H&#246;rmander 72, theorem 6.1.1](#DuistermaatHoermander72)) recalled for instance as [Radzikowski 96, theorem 4.6](#Radzikowski96) 
+([Duistermaat-H&#246;rmander 72, theorem 6.1.1](#DuistermaatHoermander72), recalled e.g. as [Radzikowski 96, theorem 4.6](#Radzikowski96) 
 
 ## Examples
 
