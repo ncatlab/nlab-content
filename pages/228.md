@@ -156,7 +156,15 @@ For more about apartness algebra, see [[antisubalgebra]].
 
 ## References
 
-The notion of apartness as fundamental in metric spaces may be found in [[Errett Bishop]]'s _Foundations of Constructive Analysis_ (1967) (or the 1985 edition with Douglas Bridges, _Constructive Analysis_). But as I recall, this doesn\'t introduce the concept in general; that came in Anne Troelstra\'s and Dirk van Dalen\'s _Constructivism in Mathematics_ (1988). For apartness in algebra, see _A Course in Constructive Algebra_ (also 1988), by Ray Mines, Fred Richman, and Wim Ruitenburg. A great reference for point-set topology in constructive mathematics is the Ph.D. thesis of Frank Waaldijk, _[Modern Intuitionist Topology](http://www.fwaaldijk.nl/modern%20intuitionistic%20topology.pdf)_ (1996). Please note that I ([[Toby Bartels]]) have not read the algebra book.
+* [[Errett Bishop]]'s _Foundations of Constructive Analysis_ (1967) introduced the notion of apartness as fundamental, at least for the real numbers and more general metric spaces.
+
+* The 1985 edition with Douglas Bridges, _Constructive Analysis_, defined the general notion of apartness relation, there called an "inequality relation" (though in many other sources, as here, an [[inequality relation]] need not satisfy comparison).
+
+* Anne Troelstra\'s and Dirk van Dalen\'s _Constructivism in Mathematics_ (1988).
+
+* Apartness plays a minimal role in _A Course in Constructive Algebra_ (also 1988), by Ray Mines, Fred Richman, and Wim Ruitenburg.
+
+* A great reference for point-set topology in constructive mathematics is the Ph.D. thesis of Frank Waaldijk, _[Modern Intuitionist Topology](http://www.fwaaldijk.nl/modern%20intuitionistic%20topology.pdf)_ (1996).
 
 
 [[!redirects apart]]
