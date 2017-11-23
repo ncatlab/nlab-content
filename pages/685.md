@@ -97,7 +97,7 @@ These are then a special case of the more general [[(∞,1)-limit]]s and [[(∞,
 
 Traditionally, [[(∞,1)-limit]]s are best known in terms of the presentation of $(\infty,1)$-catgeories by [[categories with weak equivalences]] in general and [[model categories]] in particular.  (2,1)-limits can often also be viewed in this way.  The corresponding presentation of the $(\infty,1)$-limits / $(2,1)$-limits is called **[[homotopy limit]]s** and **[[homotopy colimit]]s**.
 
-For instance 2-limits in the [[(2,1)-category]] [[Grpd]] of [[groupoid]]s, [[functor]]s and (necessarily) [[natural isomorphism]]s. Are equivalently computed as [[homotopy limit]]s in the [[model structure on simplicial sets]] $sSet_{Quillen}$ of diagrams of [[1-truncated]] [[Kan complex]]es. (The equivalnce of homotopy limits with $(\infty,1)$-limits is discusssed at [[(∞,1)-limit]]).
+For instance 2-limits in the [[(2,1)-category]] [[Grpd]] of [[groupoid]]s, [[functor]]s and (necessarily) [[natural isomorphism]]s. Are equivalently computed as [[homotopy limit]]s in the [[model structure on simplicial sets]] $sSet_{Quillen}$ of diagrams of [[1-truncated]] [[Kan complex]]es. (The equivalence of homotopy limits with $(\infty,1)$-limits is discussed at [[(∞,1)-limit]]).
 
 Or for instance, more generally, the 2-limits in any [[(2,1)-sheaf]](=[[stack]]) [[(2,1)-topos]] may be computed as [[homotopy limit]]s in a [[model structure on simplicial presheaves]] over the given [[(2,1)-site]] of diagrams of [[1-truncated]] [[simplicial presheaves]]. This includes as examples [[big topos|big (2,1)-toposes]] such as those over the large sites [[Top]] or [[SmoothMfd]] where computations with [[topological groupoid]]s/[[topological stack]]s, [[Lie groupoid]]s/[[differentiable stack]]s etc. take place.
 
