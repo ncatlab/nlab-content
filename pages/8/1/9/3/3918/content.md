@@ -87,6 +87,8 @@ The pseudodifferential operator of a smoothing symbol maps $\mathcal{E}'$, the [
 
 ### Propagation of singularities theorem
 
+* [[properly supported pseudo-differential operator]]
+
 * [[propagation of singularities theorem]]
 
 
