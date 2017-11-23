@@ -21,13 +21,13 @@ $$
   q\colon V \to k
 $$
 
-such that for all $v \in V$, $t \in k$
+which is [[homogeneous function|homogeneous]] of degree 2 in that for all $v \in V$, $t \in k$
 
 $$
   q(t v) = t^2 q(v)
 $$
 
-and the _[[polarization identity|polarization]]_ of $q$
+and such that the _[[polarization identity|polarization]]_ of $q$
 
 $$
   (v,w) \mapsto q(v+w) - q(v) - q(w) 
@@ -35,7 +35,7 @@ $$
 
 is a [[bilinear form]]. 
 
-From the converse point of view, $q$ is a [[quadratic refinement]] of the bilinear form $(-,-)$.  (This always exists uniquely if $2 \in k$ is invertible, but in general the question involves the [[characteristic elements of a bilinear form|characteristic elements]] of $(-,-)$.  See there for more.)
+From the converse point of view, $q$ is a [[quadratic refinement]] of the bilinear form $(-,-)$.  (This always exists uniquely if $2 \in k$ is invertible, but in general the question involves the [[characteristic elements of a bilinear form|characteristic elements]] of $(-u,-)$.  See there for more.)
 
 
 ## Related concepts
