@@ -272,7 +272,7 @@ On the other hand, no other theoretical framework was equally tested by this ast
  {#IsStringTheoryCausal}
 
 In an [[S-matrix]] theory such as [[perturbative string theory]]
-(see above at _[What is string theory](#WhatIsStringTheory)_) the property of [[causality]] is embodied by the fact that the [[S-matrix]] shows certain [[analytic function|analycity features]]. (Therefore the [[S-matrix]] approach to [[quantum field theory]] is often referred to as "the analytic S-matrix").
+(see above at _[What is string theory](#WhatIsStringTheory)_) the property of [[causality]] is embodied by the fact that the [[S-matrix]] shows certain [[analytic function|analyticity features]]. (Therefore the [[S-matrix]] approach to [[quantum field theory]] is often referred to as "the analytic S-matrix").
 
 Since, as opposed to a [[fundamental particle]], the string is extended, at the string scale string theory is not given by a [[local field theory]]. This superficially seems to suggest that at such scales also [[causality]] might be violated in string theory. However, computation shows that the [[string scattering amplitude|string scattering]] [[S-matrix]] comes out suitably analytic and causal (e.g. [Martinec 95](causal+locality#Martinec95)).
 
