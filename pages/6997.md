@@ -59,12 +59,9 @@ In other words, antisubalgebras of an inequality algebra are equivalent to close
 
 ## References
 
-These concepts play a large role in
+* Surprisingly, antisubalgebras make hardly any appearence in [[Ray Mines]], [[Fred Richman]], [[Wim Ruitenburg]].  _A Course in Constructive Algebra_.  Springer, 1987.
 
-* [[Ray Mines]], [[Fred Richman]], [[Wim Ruitenburg]].  _A Course in Constructive Algebra_.  Springer, 1987.
-
-But I can\'t be sure that everything above appears in this reference.
-
+* More can be found in [[Anne Troelstra]] and [[Dirk van Dalen]], _Constructivism in Mathematics_ (volume 2).
 
 [[!redirects antisubalgebra]]
 [[!redirects antisubalgebras]]
