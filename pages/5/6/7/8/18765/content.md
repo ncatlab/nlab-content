@@ -124,6 +124,13 @@ the generalized solutions $u$ are the _[[fundamental solutions]]_ or _[[Green's 
 [[!redirects distributional solutions to a PDE]]
 [[!redirects distributional solutions to PDEs]]
 
+[[!redirects distributional solution to a partial differential equation]]
+[[!redirects distributional solutions to a partial differential equation]]
+
+[[!redirects distributional solution of a partial differential equation]]
+[[!redirects distributional solutions of a partial differential equation]]
+
+
 [[!redirects generalized solution to a PDE]]
 [[!redirects generalized solutions to a PDE]]
 
