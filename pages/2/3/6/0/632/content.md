@@ -34,6 +34,7 @@ See [[conservative morphism]] for a generalization to an arbitrary [[2-category]
 
 ## Examples
 
+
 +-- {: .num_prop #PullbackAlongEpimorphisms}
 ###### Proposition
 
@@ -54,6 +55,14 @@ for the [[functor]] of pullback along $f$ between [[slice categories]] ([[base c
 (e.g. [Johnstone, lemma 1.3.2](#Jonstone))
 
 
++-- {: .num_example #FullyFaithfulFunctorIsConservative}
+###### Example
+
+Every [[fully faithful functor]] is a conservative functor.
+
+=--
+
+
 
 ## Properties
 
@@ -72,9 +81,7 @@ Let $K : J \to C$ be a [[diagram]] in $C$ whose limit $\lim K$ exists and such t
 The arguments for colimits is analogous.
 =--
 
-## Examples
 
-* Every [[fully faithful functor]] is a conservative functor.
 
 
 ## Related concepts
