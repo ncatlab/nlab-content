@@ -752,7 +752,7 @@ Conversely, if $(x^0 - y^0) \lt 0$ then we may analogously expand into the [[low
 
 1. Apply [[Cauchy's integral formula]] to find in the case $(x^0 - y^0)\gt 0$ the sum of the [[residues]] at these two [[poles]] times $2\pi i$, zero in the other case. (For the retarded propagator we get $- 2 \pi i$ times the residues, because now the contours encircling non-trivial poles go clockwise).
 
-1. The result does not depend on $\epsilon$ anymore, therefore the [[limit of a sequence|limit]] $\epsilon \to 0$ is now computed trivially.
+1. The result is now non-singular at $\epsion = 0$ and therefore the [[limit of a sequence|limit]] $\epsilon \to 0$ is now computed by evaluating at $\epsilon = 0$.
 
 This computation shows a) that the limiting distribution indeed exists, and b) that the [[support of a distribution|support]]
 of $\Delta_+$ is in the future, and that of $\Delta_-$ is in the past.
@@ -1869,6 +1869,7 @@ First of all it follows that the singular support is still the light cone, becau
 Therefore now same argument as before says that the wave front set consists of wave vectors $k$ on the light cone, but now due to the [[step function]] factor $\Theta(-k_0)$ it must staify $0 \leq - k_0 = k^0$.
 
 =--
+
 
 
 
