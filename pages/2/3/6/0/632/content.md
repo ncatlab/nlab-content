@@ -72,6 +72,11 @@ Let $K : J \to C$ be a [[diagram]] in $C$ whose limit $\lim K$ exists and such t
 The arguments for colimits is analogous.
 =--
 
+## Examples
+
+* Every [[fully faithful functor]] is a conservative functor.
+
+
 ## Related concepts
 
 * [[conservative (∞,1)-functor]]
