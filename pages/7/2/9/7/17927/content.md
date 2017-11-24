@@ -2,7 +2,9 @@
 
 ## Related concepts
 
-* [[velocity]]
+* [[speed of light]]
+
+* [[velocity]], [[rapidity]]
 
 * [[position]]
 
