@@ -70,6 +70,8 @@ While the proper orthochronous Lorentz group $SO^+(d-1,1)$ is [[connected topolo
 
 * quantum group version: [[quantum Lorentz group]]
 
+* [[rapidity]]
+
 * [[Galilelan group]]
 
 * [[Minkowski spacetime]]
