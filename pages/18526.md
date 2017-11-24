@@ -1377,19 +1377,19 @@ $$
 Next we similarly parameterize the vector $x-y$ by its [[rapidity]] $\tau$. That parameterization depends on whether
 $x-y$ is spacelike or not, and if not, whether it is future or past directed.
 
-First, if $x-y$ is spacelike in that ${\vert x-y\vert}_\eta \gt 0$
+First, if $x-y$ is [[spacelike]] in that ${\vert x-y\vert}^2_\eta \gt 0$
 then we may parameterize as
 
 $$
   (x^0 - y^0)
   =
-  {\vert x-y\vert}_\eta \sinh(\tau)
+  \sqrt{{\vert x-y\vert}^2_\eta} \sinh(\tau)
   \phantom{AA}
   \,,
   \phantom{AA}
-  {\vert \vec x - \vec y\vert}
+  {\vert \vec x - \vec y\vert} 
   =
-  {\vert x-y\vert}_\eta \cosh(\tau)
+  \sqrt{ {\vert x-y\vert}^2_\eta} \cosh(\tau)
 $$
 
 which yields
@@ -1401,7 +1401,7 @@ $$
     \int_{-\infty}^\infty
      \sin\left(
        \tfrac{m c}{\hbar}
-       {\vert x-y\vert}_\eta
+       \sqrt{ {\vert x-y\vert}^2_\eta }
        \left(
          \sinh(\tau) \cosh(z)
          \pm
@@ -1415,7 +1415,7 @@ $$
     \int_{-\infty}^\infty
      \sin\left(
        \tfrac{m c}{\hbar}
-       {\vert x-y\vert}_\eta
+       \sqrt{ {\vert x-y\vert}^2_\eta}
        \left(
           \sinh\left( \tau \pm z\right)
        \right)
@@ -1426,7 +1426,7 @@ $$
     \int_{-\infty}^\infty
      \sin\left(
        \tfrac{m c}{\hbar}
-       {\vert x-y\vert}_\eta
+       \sqrt{ {\vert x-y\vert}^2_\eta }
        \left(
           \sinh\left( z \right)
        \right)
@@ -1440,18 +1440,18 @@ $$
 
 where in the last line we observe that the integrand is a skew-symmetric function of $z$.
 
-Second, if $x-y$ is timelike with $(x^0 - y^0) \gt 0$ then we may parameterize as
+Second, if $x-y$ is [[timelike]] with $(x^0 - y^0) \gt 0$ then we may parameterize as
 
 $$
   (x^0 - y^0)
   =
-  -{\vert x-y\vert}_\eta \cosh(\tau)
+  \sqrt{ -{\vert x-y\vert}^2_\eta} \cosh(\tau)
   \phantom{AA}
   \,,
   \phantom{AA}
   {\vert \vec x - \vec y\vert}
   =
-  -{\vert x - y\vert}_\eta
+  \sqrt{ -{\vert x - y\vert}^2_\eta }
   \sinh(\tau)
 $$
 
@@ -1476,7 +1476,7 @@ $$
      & =
     \int_{-\infty}^\infty
      \sin\left(
-       - {\vert x-y\vert}_\eta
+       \sqrt{ - {\vert x-y\vert}^2_\eta }
        \tfrac{m c}{\hbar}
        \left(
          \cosh(\tau)\cosh(z)
@@ -1490,7 +1490,7 @@ $$
      & =
     \int_{-\infty}^\infty
      \sin\left(
-       - {\vert x-y\vert}_\eta
+       \sqrt{ - {\vert x-y\vert}^2_\eta }
        \tfrac{m c}{\hbar}
        \left(
          \cosh(z \pm \tau)
@@ -1499,17 +1499,17 @@ $$
      \, d z
      \\
      & =
-     \pi J_0\left( - {\vert x-y\vert}_\eta \tfrac{m c}{\hbar} \right)
+     \pi J_0\left( \sqrt{ - {\vert x-y\vert}^2_\eta} \tfrac{m c}{\hbar} \right)
    \end{aligned}
    \,.
 $$
 
 Here $J_0$ denotes the [[Bessel function]] of order 0. The important point here is that this is a smooth function.
 
-Similarly, if $x-y$ is timelike with $(x^0 - y^0) \lt 0$ then the same argument yields
+Similarly, if $x-y$ is [[timelike]] with $(x^0 - y^0) \lt 0$ then the same argument yields
 
 $$
-  I_\pm = -  \pi J_0\left( - {\vert x-y\vert}_\eta \tfrac{m c}{\hbar} \right)
+  I_\pm = -  \pi J_0\left( \sqrt{ - {\vert x-y\vert}^2_\eta} \tfrac{m c}{\hbar} \right)
 $$
 
 In conclusion, the general form of $I_\pm$ is
@@ -1520,7 +1520,7 @@ $$
   \pi
   sgn(x^0 - y^0)
   \Theta\left( -{\vert x-y\vert}^2_\eta \right)
-  J_0\left( - {\vert x-y\vert}_\eta \tfrac{m c}{\hbar} \right)
+  J_0\left( \sqrt{ - {\vert x-y\vert}^2_\eta } \tfrac{m c}{\hbar} \right)
   \,.
 $$
 
@@ -1534,7 +1534,7 @@ $$
 \frac{d}{d {\vert \vec x - \vec y\vert}}
 sgn(x^0) \Theta\left( -{\vert x-y\vert}^2_\eta \right)
 J_0\left(
-  -{\vert x-y\vert}_\eta
+  \sqrt{ -{\vert x-y\vert}^2_\eta }
   \tfrac{m c}{\hbar}
 \right)
 \\
@@ -1543,7 +1543,7 @@ J_0\left(
 \frac{d}{d (-{\vert x-y\vert}^2_\eta)}
 sgn(x^0) \Theta\left( -{\vert x-y\vert}^2_\eta \right)
 J_0\left(
-  -{\vert x-y \vert}_\eta \tfrac{m c}{\hbar}
+  \sqrt{-{\vert x-y \vert}^2_\eta} \tfrac{m c}{\hbar}
 \right)
 \\
 & =
@@ -1869,7 +1869,6 @@ First of all it follows that the singular support is still the light cone, becau
 Therefore now same argument as before says that the wave front set consists of wave vectors $k$ on the light cone, but now due to the [[step function]] factor $\Theta(-k_0)$ it must staify $0 \leq - k_0 = k^0$.
 
 =--
-
 
 
 
