@@ -565,7 +565,7 @@ from [this example](Dirac+distribution#FourierTransformOfDeltaDistribution).
 Notice that this implies that the [[Fourier transform]] of the [[causal propagator]]
 
 $$
-\Delta_S \coloneqq \Delta_+ - \Delta_-
+  \Delta_S \coloneqq \Delta_+ - \Delta_-
 $$
 
 satisfies the homogeneous equation:
@@ -901,6 +901,7 @@ where in the second line we used [[Euler's formula]] $sin(\alpha)= \tfrac{1}{2i}
 In particular this shows that the [[causal propagator]] is [[real part|real]], in that it is equal to its [[complex conjugation|complex conjugate]]
 
 $$
+  \label{CausalPropagatorForKleinGordonEquationOnMinkowskiSpacetimeIsReal}
   \left(\Delta_S(x,y)\right)^\ast = \Delta_S(x,y)
   \,.
 $$
@@ -1015,7 +1016,7 @@ $$
 (2\pi)^{-(p+1)}
 \int
 \underset{C(\vec k)}{\oint}
-\frac{e^{i k_\mu (x-y)^\mu}}{ -k_\mu k^\mu - m^2 }
+\frac{e^{i k_\mu (x-y)^\mu}}{ -k_\mu k^\mu - \left( \tfrac{m c}{\hbar} \right)^2g  }
 \,d k_0
 \,d^{p} k
 \,.
@@ -1040,7 +1041,7 @@ $$
 (2\pi)^{-(p+1)}
 \int
 \underset{C(\vec k)}{\oint}
-\frac{e^{i k_\mu (x^\mu - y^\mu)}}{ -k_\mu k^\mu - m^2 }
+\frac{e^{i k_\mu (x^\mu - y^\mu)}}{ -k_\mu k^\mu - \left( \tfrac{m c}{\hbar} \right)^2 }
 \,d k_0
 \,d^{p} k
 & =
@@ -1706,17 +1707,39 @@ The last step is application of [[Cauchy's integral formula]], which says that t
 ###### Proposition
 **(skew-symmetric part of [[Hadamard propagator]] is the [[causal propagator]])**
 
-The skew-symmetrization of the [[Hadamard propagator]] (def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime})
-reproduces the [[causal propagator]] according to prop. \ref{ModeExpansionOfCausalPropagatorForKleinGordonOnMinkowski} (which we already know to be skew-symmetric by cor. \ref{CausalPropagatorIsSkewSymmetric}), up to a conventional imaginary factor (which serves to exhibit [[Kähler metric]] form, see remark \ref{SymmetricPartOfTheHadamardPropagtorOnMinkowskiSpacetime} below):
+The [[Hadamard propagator]] for the [[Klein-Gordon equation]] on [[Minkowski spacetime]] (def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime}) is of the form
 
 $$
-\Delta_S(x,y)
-\;=\;
--i\left(
-\Delta_H(x,y) - \Delta_H(y,x)
-\right)
-\,.
+  \Delta_H
+  \;=\;
+  \tfrac{i}{2} \Delta_S
+  \;+\;
+  H
+  \,,
 $$
+
+where
+
+1. $\Delta_S$ is the [[causal propagator]] (prop. \ref{AdvancedRetardedPropafatorsForKleinGordonOnMinkowskiSpacetime}),
+   which is real (eq:CausalPropagatorForKleinGordonEquationOnMinkowskiSpacetimeIsReal) and skew-symmetric (prop. \ref{CausalPropagatorIsSkewSymmetric})
+   
+   $$
+     (\Delta_S(x,y))^\ast = \Delta_S(x,y)
+     \phantom{AA}
+     \,,
+     \phantom{AA}
+     \Delta_S(y,x) = - \Delta_S(x,y)
+   $$
+   
+1. $H$ is real and symmetric
+
+   $$
+     (H(x,y))^\ast = H(x,y)
+     \phantom{AA}
+     \,,
+     \phantom{AA}
+     H(y,x) = H(x,y)
+   $$
 
 =--
 
@@ -1724,80 +1747,52 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By (eq:HadamardPropagatorForKleinGordonOperatorOnMinkowskiSpacetime) we have
+
+By applying [[Euler's formula]] to (eq:HadamardPropagatorForKleinGordonOperatorOnMinkowskiSpacetime) we obtain
 
 $$
-\begin{aligned}
--i(\Delta_H(x,y) - \Delta_H(y,x))
-& =
-\frac{-i}{(2\pi)^p}
-\int
-\frac{1}{2 \omega(\vec k)}
-e^{-i \omega(\vec k) (x^0-y^0)/c} e^{-i \vec k \cdot (\vec x - \vec y)}
-d^p \vec k
-+
-\frac{i}{(2\pi)^p}
-\int
-\frac{1}{2 \omega(\vec k)}
-e^{+i \omega(\vec k) (x^0 - y^0)/c} e^{+i \vec k \cdot (\vec x - \vec y)}
-d^p \vec k
-\\
-& =
-\frac{i}{(2\pi)^p}
-\int
-\frac{1}{2 \omega(\vec k)}
-\left(
-e^{i \omega(\vec k) (x^0-y^0)/c} e^{i \vec k \cdot (\vec x - \vec y)}
--
-e^{-i \omega(\vec k) (x^0-y^0)/c} e^{i \vec k \cdot (\vec x - \vec y)}
-\right)
-d^p \vec k
-\\
-& =
-\Delta_S(x,y)
-\,,
-\end{aligned}
+  \begin{aligned}
+  \Delta_H(x,y)
+  & =
+  \frac{1}{(2\pi)^p}
+   \int \frac{1}{2 \omega(\vec k)/c}
+   e^{-i \omega(\vec k)(x^0 - y^0)/c + i \vec k \cdot (\vec x - \vec y) }
+   \, d^p \vec k
+  \\
+  & =
+   \tfrac{i}{2}
+   \underset{= \Delta_S(x,y)}{
+   \underbrace{
+     \frac{-1}{(2\pi)^p}
+     \int 
+     \frac{1}{\omega(\vec k)/c}
+     \sin\left( \omega(\vec k)(x^0 - y^0)/c \right)
+     e^{i \vec k \cdot (\vec x - \vec y) }
+     \, d^p \vec k
+   }}
+   \;+\;
+   \underset{
+     \coloneqq H(x,y)
+   }{
+   \underbrace{
+    \frac{1}{(2\pi)^p}
+     \int \frac{1}{2 \omega(\vec k)/c}
+     \cos\left( \omega(\vec k)(x^0 - y^0)/c  \right)
+     e^{i \vec k \cdot (\vec x - \vec y) }
+     \, d^p \vec k
+   }}
+  \end{aligned}
 $$
 
-where in the second step we applied the [[change of integration variables]] $\vec k \mapsto -\vec k$
-to the second summand (which does _not_ introduce a global sign, because in addition to $d^p \vec k \mapsto - d^p \vec k$
-the [[orientation]] of the [[integration]] [[domain]] changes).
+On the left this identifies the [[causal propagator]] by (eq:CausalPropagatorModeExpansionForKleinGordonOnMinkowskiSpacetime), prop. \ref{ModeExpansionOfCausalPropagatorForKleinGordonOnMinkowski}.
 
-The last line is the [[causal propagator]] by (eq:CausalPropagatorModeExpansionForKleinGordonOnMinkowskiSpacetime), prop. \ref{ModeExpansionOfCausalPropagatorForKleinGordonOnMinkowski}.
+The second summand changes both under complex conjugation as well as under $(x-y) \mapsto (y-x)$
+via [[change of integration variables]] $\vec k \mapsto - \vec k$ (because the [[cosine]] is an even function).
+This does not change the integral.
 
 =--
 
 
-+-- {: .num_remark #SymmetricPartOfTheHadamardPropagtorOnMinkowskiSpacetime}
-###### Remark
-**(symmetric part of the [[Hadamard propagator]])**
-
-Conversely, prop. \ref{SkewSymmetricPartOfHadmrdPropagatorIsCausalPropagatorForKleinGordonEquationOnMinkowskiSpacetime}
-says that the [[Hadamard propagator]] for the [[Klein-Gordon operator]] on [[Minkowski spacetime]] (def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime}) is of the form
-
-$$
-\Delta_H
-\;=\;
-\tfrac{i}{2}\Delta_S + H
-\,,
-$$
-
-where
-
-$$
-H(x,y)
-\;\coloneqq\;
-\tfrac{1}{2}\left(
-\Delta_H(x,y) + \Delta_H(y,x)
-\right)
-$$
-
-is the symmetric component of $H$.
-
-If we change $H$ by adding any symmetric [[non-singular distribution]] [[distribution in two variables|in two variables]],
-the result is still called "a [[Hadamard propagator]]" for the [[Klein-Gordon equation]] on [[Minkowski spacetime]].
-
-=--
 
 
 $\,$
