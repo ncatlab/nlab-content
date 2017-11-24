@@ -7,7 +7,7 @@ Euler's formula is a fundamental relation between the [[exponential function]] a
 
 ## Statement
 
-The [[exponential function]] $\exp: \mathbb{C} \to \mathbb{C}$ satisfies
+The [[exponential function]] $\exp: \mathbb{C} \to \mathbb{C}$ relates to [[sine]] and [[cosine]] $\cos, \sin \colon \mathbb{R} \to \mathbb{R}$ via
 
 $$
   \exp(i x) = \cos(x) + i \sin(x)
