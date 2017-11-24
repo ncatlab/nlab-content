@@ -22,6 +22,8 @@ __Trigonometry__ is a geometric discipline which comprises the study of metric p
 
 * [[Euclidean geometry]], [[hyperbolic geometry]], [[elliptic geometry]]
 
+* [[sine]], [[cosine]], [[exponential]], [[Euler's formula]]
+
 * [[trigonometric identity]]
 
 ## References
