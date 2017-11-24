@@ -62,9 +62,9 @@ Alongside the theory we develop the concrete examples of the [[real scalar field
 
 | [[field (physics)|field]] | [[field bundle]] |  [[Lagrangian density]] | [[equation of motion]] | [[gauge fixing]] | [[Poisson bracket]] |
 |---------------------------|------------------|-------------------------|------------------------|------------------|------|
-| [[real scalar field]] |  expl. \ref{RealScalarFieldBundle} |  expl. \ref{LagrangianForFreeScalarFieldOnMinkowskiSpacetime} | expl. \ref{FreeScalarFieldEOM} | none | expl. \ref{PeierlsBracketEistsForScalarFieldAndDiracField}, expl. \ref{PoissonBracketForRealScalarField} |
+| [[real scalar field]] |  expl. \ref{RealScalarFieldBundle} |  expl. \ref{LagrangianForFreeScalarFieldOnMinkowskiSpacetime} | expl. \ref{FreeScalarFieldEOM} | none | expl. \ref{PeierlsBracketEistsForScalarFieldAndDiracField}, <br/> expl. \ref{PoissonBracketForRealScalarField} |
 | [[electromagnetic field]] | expl. \ref{Electromagnetism} | expl. \ref{ElectromagnetismLagrangianDensity} | expl. \ref{ElectromagnetismEl}  | expl. \ref{NLGaugeFixingOfElectromagnetism} | ... |
-| [[Dirac field]] | expl. \ref{DiracFieldBundle}  | expl. \ref{LagrangianDensityForDiracField}  |  expl. \ref{EquationOfMotionOfDiracFieldIsDiracEquation}  |  none  |  expl. \ref{PeierlsBracketEistsForScalarFieldAndDiracField}, expl. \ref{PoissonBracketForDiracField}  |
+| [[Dirac field]] | expl. \ref{DiracFieldBundle}  | expl. \ref{LagrangianDensityForDiracField}  |  expl. \ref{EquationOfMotionOfDiracFieldIsDiracEquation}  |  none  |  expl. \ref{PeierlsBracketEistsForScalarFieldAndDiracField}, <br/>  expl. \ref{PoissonBracketForDiracField}  |
 
 The [[electromagnetic field]] and the [[Dirac field]] combined are the [[field (physics)|fields]] of _[[quantum electrodynamics]]_
 which we turn to at the end [below](#QED).
@@ -15336,7 +15336,6 @@ These inherit a transgression of the [[Poisson bracket Lie n-algebra|local Poiss
 to a [[Poisson bracket]] on Hamiltonian local observables (def. \ref{PoissonBracketOnHamiltonianLocalObservables} below).
 This is known as the _[[Peierls bracket]]_ (example \ref{PoissonBracketForRealScalarField} below).
 
-(...)
 
 
 
@@ -17319,7 +17318,7 @@ Conversely, if $(x^0 - y^0) \lt 0$ then we may analogously expand into the [[low
 
 1. Apply [[Cauchy's integral formula]] to find in the case $(x^0 - y^0)\gt 0$ the sum of the [[residues]] at these two [[poles]] times $2\pi i$, zero in the other case. (For the retarded propagator we get $- 2 \pi i$ times the residues, because now the contours encircling non-trivial poles go clockwise).
 
-1. The result does not depend on $\epsilon$ anymore, therefore the [[limit of a sequence|limit]] $\epsilon \to 0$ is now computed trivially.
+1. The result is now non-singular at $\epsion = 0$ and therefore the [[limit of a sequence|limit]] $\epsilon \to 0$ is now computed by evaluating at $\epsilon = 0$.
 
 This computation shows a) that the limiting distribution indeed exists, and b) that the [[support of a distribution|support]]
 of $\Delta_+$ is in the future, and that of $\Delta_-$ is in the past.
@@ -17944,19 +17943,19 @@ $$
 Next we similarly parameterize the vector $x-y$ by its [[rapidity]] $\tau$. That parameterization depends on whether
 $x-y$ is spacelike or not, and if not, whether it is future or past directed.
 
-First, if $x-y$ is spacelike in that ${\vert x-y\vert}_\eta \gt 0$
+First, if $x-y$ is [[spacelike]] in that ${\vert x-y\vert}^2_\eta \gt 0$
 then we may parameterize as
 
 $$
   (x^0 - y^0)
   =
-  {\vert x-y\vert}_\eta \sinh(\tau)
+  \sqrt{{\vert x-y\vert}^2_\eta} \sinh(\tau)
   \phantom{AA}
   \,,
   \phantom{AA}
   {\vert \vec x - \vec y\vert}
   =
-  {\vert x-y\vert}_\eta \cosh(\tau)
+  \sqrt{ {\vert x-y\vert}^2_\eta} \cosh(\tau)
 $$
 
 which yields
@@ -17968,7 +17967,7 @@ $$
     \int_{-\infty}^\infty
      \sin\left(
        \tfrac{m c}{\hbar}
-       {\vert x-y\vert}_\eta
+       \sqrt{ {\vert x-y\vert}^2_\eta }
        \left(
          \sinh(\tau) \cosh(z)
          \pm
@@ -17982,7 +17981,7 @@ $$
     \int_{-\infty}^\infty
      \sin\left(
        \tfrac{m c}{\hbar}
-       {\vert x-y\vert}_\eta
+       \sqrt{ {\vert x-y\vert}^2_\eta}
        \left(
           \sinh\left( \tau \pm z\right)
        \right)
@@ -17993,7 +17992,7 @@ $$
     \int_{-\infty}^\infty
      \sin\left(
        \tfrac{m c}{\hbar}
-       {\vert x-y\vert}_\eta
+       \sqrt{ {\vert x-y\vert}^2_\eta }
        \left(
           \sinh\left( z \right)
        \right)
@@ -18007,18 +18006,18 @@ $$
 
 where in the last line we observe that the integrand is a skew-symmetric function of $z$.
 
-Second, if $x-y$ is timelike with $(x^0 - y^0) \gt 0$ then we may parameterize as
+Second, if $x-y$ is [[timelike]] with $(x^0 - y^0) \gt 0$ then we may parameterize as
 
 $$
   (x^0 - y^0)
   =
-  -{\vert x-y\vert}_\eta \cosh(\tau)
+  \sqrt{ -{\vert x-y\vert}^2_\eta} \cosh(\tau)
   \phantom{AA}
   \,,
   \phantom{AA}
   {\vert \vec x - \vec y\vert}
   =
-  -{\vert x - y\vert}_\eta
+  \sqrt{ -{\vert x - y\vert}^2_\eta }
   \sinh(\tau)
 $$
 
@@ -18043,7 +18042,7 @@ $$
      & =
     \int_{-\infty}^\infty
      \sin\left(
-       - {\vert x-y\vert}_\eta
+       \sqrt{ - {\vert x-y\vert}^2_\eta }
        \tfrac{m c}{\hbar}
        \left(
          \cosh(\tau)\cosh(z)
@@ -18057,7 +18056,7 @@ $$
      & =
     \int_{-\infty}^\infty
      \sin\left(
-       - {\vert x-y\vert}_\eta
+       \sqrt{ - {\vert x-y\vert}^2_\eta }
        \tfrac{m c}{\hbar}
        \left(
          \cosh(z \pm \tau)
@@ -18066,17 +18065,17 @@ $$
      \, d z
      \\
      & =
-     \pi J_0\left( - {\vert x-y\vert}_\eta \tfrac{m c}{\hbar} \right)
+     \pi J_0\left( \sqrt{ - {\vert x-y\vert}^2_\eta} \tfrac{m c}{\hbar} \right)
    \end{aligned}
    \,.
 $$
 
 Here $J_0$ denotes the [[Bessel function]] of order 0. The important point here is that this is a smooth function.
 
-Similarly, if $x-y$ is timelike with $(x^0 - y^0) \lt 0$ then the same argument yields
+Similarly, if $x-y$ is [[timelike]] with $(x^0 - y^0) \lt 0$ then the same argument yields
 
 $$
-  I_\pm = -  \pi J_0\left( - {\vert x-y\vert}_\eta \tfrac{m c}{\hbar} \right)
+  I_\pm = -  \pi J_0\left( \sqrt{ - {\vert x-y\vert}^2_\eta} \tfrac{m c}{\hbar} \right)
 $$
 
 In conclusion, the general form of $I_\pm$ is
@@ -18087,7 +18086,7 @@ $$
   \pi
   sgn(x^0 - y^0)
   \Theta\left( -{\vert x-y\vert}^2_\eta \right)
-  J_0\left( - {\vert x-y\vert}_\eta \tfrac{m c}{\hbar} \right)
+  J_0\left( \sqrt{ - {\vert x-y\vert}^2_\eta } \tfrac{m c}{\hbar} \right)
   \,.
 $$
 
@@ -18101,7 +18100,7 @@ $$
 \frac{d}{d {\vert \vec x - \vec y\vert}}
 sgn(x^0) \Theta\left( -{\vert x-y\vert}^2_\eta \right)
 J_0\left(
-  -{\vert x-y\vert}_\eta
+  \sqrt{ -{\vert x-y\vert}^2_\eta }
   \tfrac{m c}{\hbar}
 \right)
 \\
@@ -18110,7 +18109,7 @@ J_0\left(
 \frac{d}{d (-{\vert x-y\vert}^2_\eta)}
 sgn(x^0) \Theta\left( -{\vert x-y\vert}^2_\eta \right)
 J_0\left(
-  -{\vert x-y \vert}_\eta \tfrac{m c}{\hbar}
+  \sqrt{-{\vert x-y \vert}^2_\eta} \tfrac{m c}{\hbar}
 \right)
 \\
 & =
