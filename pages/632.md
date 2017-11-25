@@ -62,6 +62,13 @@ Every [[fully faithful functor]] is a conservative functor.
 
 =--
 
++-- {: .num_example #ConservativeFunctorsBetweenPretoposesAreInjectiveOnSubobjectLattices}
+###### Example
+
+When $C$ and $D$ are [[pretopos|pretoposes]], a pretopos morphism $F : C \to D$ is conservative if and only if for every object $c \in C$, the induced map between [[poset of subobjects | subobject lattices]] $F^{(c)} : \operatorname{Sub}(c) \to \operatorname{Sub}(F(c))$ is injective.
+
+=--
+
 
 
 ## Properties
