@@ -359,7 +359,9 @@ We now discuss
 
 1. _[Hadamard propagator](#HadamardPropagatorForKleinGordonOnMinkowskiSpacetime)_
 
-1. _[Wave front sets](#WaveFrontSetsOfPropagatorsForKleinGordonOperatorOnMinkowskiSpacetime)_
+1. _[Feynman propagator](#FeynmanPropagator)_
+
+1. _[Singular support and Wave front sets](#WaveFrontSetsOfPropagatorsForKleinGordonOperatorOnMinkowskiSpacetime)_
 
 $\,$
 
@@ -368,7 +370,7 @@ $\,$
 **[[advanced and retarded propagators]] for [[Klein-Gordon equation]] on [[Minkowski spacetime]]**
 {#AdvancedAndRetardedPropagatorsForKleinGordonEquationOnMinkowskiSpacetime}
 
-+-- {: .num_prop #AdvancedRetardedPropafatorsForKleinGordonOnMinkowskiSpacetime}
++-- {: .num_prop #AdvancedRetardedPropagatorsForKleinGordonOnMinkowskiSpacetime}
 ###### Proposition
 **(mode expansion of [[advanced and retarded propagators]] for [[Klein-Gordon operator]] on [[Minkowski spacetime]])**
 
@@ -415,6 +417,21 @@ e^{+i \omega(\vec k)(x^0 - y^0)/c +  i \vec k \cdot (\vec x -\vec y)}
 -
 e^{-i \omega(\vec k)(x^0 - y^0)/c  + i \vec k \cdot (\vec x - \vec  y) }
 \right)
+d^p \vec k
+& \vert & \text{if} \,  \pm (x^0 - y^0) \gt 0
+\\
+0 & \vert & \text{otherwise}
+}
+\right.
+\\
+& =
+\left\{
+\array{
+\frac{\mp 1}{(2\pi)^{p}}
+\int
+\frac{1}{\omega(\vec k)/c}
+\sin\left( \omega(\vec k)(x^0 - y^0)/c \right)
+e^{i \vec k \cdot (\vec x - \vec  y) }
 d^p \vec k
 & \vert & \text{if} \,  \pm (x^0 - y^0) \gt 0
 \\
@@ -469,7 +486,8 @@ and the [[Lorentz group]].
 Since the [[Klein-Gordon operator]] is invariant, in particular, under [[translations]] in $\mathbb{R}^{p,1}$ it is clear that the propagators, as a [[distribution in two variables]], depend only on the difference of its two arguments
 
 $$
-\Delta_{\pm}(x,y) = \Delta_{\pm}(x-y)
+  \label{TranslationInvariantKleinGordonPropagatorsOnMinkowskiSpacetime}
+  \Delta_{\pm}(x,y) = \Delta_{\pm}(x-y)
 \,.
 $$
 
@@ -709,10 +727,25 @@ d^p \vec k
 0 & \vert & \text{otherwise}
 }
 \right.
+\\
+& =
+\left\{
+\array{
+\frac{\mp 1}{(2\pi)^{p}}
+\int
+\frac{1}{\omega(\vec k)/c}
+\sin\left( \omega(\vec k)(x^0 - y^0)/c \right)
+e^{i \vec k \cdot (\vec x - \vec  y) }
+d^p \vec k
+& \vert & \text{if} \,  \pm (x^0 - y^0) \gt 0
+\\
+0 & \vert & \text{otherwise}
+}
+\right.
 \end{aligned}
 $$
 
-where $\omega(\vec k)$ denotes the [[dispersion relation]] (eq:DispersionRelationForKleinGordonooeratorObMinkowskiSpacetime) of the [[Klein-Gordon equation]].
+where $\omega(\vec k)$ denotes the [[dispersion relation]] (eq:DispersionRelationForKleinGordonooeratorObMinkowskiSpacetime) of the [[Klein-Gordon equation]]. The last step is simply the application of [[Euler's formula]] $\sin(\alpha) = \tfrac{1}{2 i }\left( e^{i \alpha} - e^{- i \alpha}\right)$.
 
 Here the key step is the application of [[Cauchy's integral formula]] in the fourth step. We spell this out now for $\Delta_+$, the discussion for $\Delta_-$ is the same, just with the appropriate signs reversed.
 
@@ -738,7 +771,7 @@ Conversely, if $(x^0 - y^0) \lt 0$ then we may analogously expand into the [[low
 
 1. Apply [[Cauchy's integral formula]] to find in the case $(x^0 - y^0)\gt 0$ the sum of the [[residues]] at these two [[poles]] times $2\pi i$, zero in the other case. (For the retarded propagator we get $- 2 \pi i$ times the residues, because now the contours encircling non-trivial poles go clockwise).
 
-1. The result does not depend on $\epsilon$ anymore, therefore the [[limit of a sequence|limit]] $\epsilon \to 0$ is now computed trivially.
+1. The result is now non-singular at $\epsion = 0$ and therefore the [[limit of a sequence|limit]] $\epsilon \to 0$ is now computed by evaluating at $\epsilon = 0$.
 
 This computation shows a) that the limiting distribution indeed exists, and b) that the [[support of a distribution|support]]
 of $\Delta_+$ is in the future, and that of $\Delta_-$ is in the past.
@@ -775,7 +808,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By prop. \ref{AdvancedRetardedPropafatorsForKleinGordonOnMinkowskiSpacetime} we have with (eq:ModeExpansionForMinkowskiAdvancedRetardedPropagator)
+By prop. \ref{AdvancedRetardedPropagatorsForKleinGordonOnMinkowskiSpacetime} we have with (eq:ModeExpansionForMinkowskiAdvancedRetardedPropagator)
 
 
 $$
@@ -898,7 +931,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By definition and using the expression from prop. \ref{AdvancedRetardedPropafatorsForKleinGordonOnMinkowskiSpacetime} for the [[advanced and retarded causal propagators]] we have
+By definition and using the expression from prop. \ref{AdvancedRetardedPropagatorsForKleinGordonOnMinkowskiSpacetime} for the [[advanced and retarded causal propagators]] we have
 
 $$
 \begin{aligned}
@@ -1150,6 +1183,567 @@ The last line is the expression for the causal propagator from prop. \ref{ModeEx
 =--
 
 
+$\,$
+
+**[[Hadamard propagator]]**
+{#HadamardPropagatorForKleinGordonOnMinkowskiSpacetime}
+
+Prop. \ref{CausalPropagatorAsFourierTransformOfDeltaDistributionOnTransformedKGOperator} exhibits the [[causal propagator]] of the [[Klein-Gordon operator]] on [[Minkowski spacetime]] as the difference of a contribution for [[positive real number|positive]] temporal [[angular frequency]] $k_0 \propto \omega(\vec k)$ (hence positive [[energy]] $\hbar \omega(\vec k)$ and a contribution of negative temporal [[angular frequency]].
+
+The [[positive real number|positive]] [[frequency]] contribution to the [[causal propagator]] is called the _[[Hadamard propagator]]_ (def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime} below), also known as the the _[[vacuum state]] [[2-point function]] of the [[free field|free]] [[real scalar field]] on [[Minkowski spacetime]]_. Notice that the temporal component
+of the [[wave vector]] is proportional to the _negative_ [[angular frequency]]
+
+$$
+k_0 = -\omega/c
+$$
+
+(see at _[[plane wave]]_), therefore the appearance of the [[step function]] $\Theta(-k_0)$ in (eq:HadamardPropagatorForKleinGordonOperatorOnMinkowskiSpacetime) below:
+
++-- {: .num_defn #StandardHadamardDistributionOnMinkowskiSpacetime}
+###### Definition
+**([[Hadamard propagator]] or [[vacuum state]] [[2-point function]] for [[Klein-Gordon operator]] on [[Minkowski spacetime]])**
+
+The _[[Hadamard propagator]]_ for the [[Klein-Gordon operator]] at [[mass]] $m$ on [[Minkowski spacetime]] is the [[tempered distribution|tempered]] [[distribution in two variables]] $\Delta_H \in \mathcal{S}'(\mathbb{R}^{p,1})$ which as a [[generalized function]] is given by the expression
+
+$$
+\label{HadamardPropagatorForKleinGordonOperatorOnMinkowskiSpacetime}
+\begin{aligned}
+\Delta_H(x,y)
+& \coloneqq
+\frac{1}{(2\pi)^p} \int \delta\left( k_\mu k^\mu + m^2 \right) \Theta( -k_0 ) e^{i k_\mu (x^\mu-y^\mu) } \, d^{p+1} k
+\\
+& =
+\frac{1}{(2\pi)^p}
+\int \frac{1}{2 \omega(\vec k)/c}
+e^{-i \omega(\vec k)(x^0 - y^0)/c + i \vec k \cdot (\vec x - \vec y) }
+\, d^p \vec k
+\,,
+\end{aligned}
+$$
+
+Here in the first line we have in the [[integrand]] the [[delta distribution]] of the [[Fourier transform]] of the [[Klein-Gordon operator]]  times a [[plane wave]] and times the [[step function]] $\Theta$ of the temporal component of the [[wave vector]]. In the second line we used the [[change of integration variables]] $k_0 = \sqrt{h}$, then the definition of the [[delta distribution]] and the fact that $\omega(\vec k)$ is by definition the [[non-negative real number|non-negative]] solution to the Klein-Gordon [[dispersion relation]].
+
+=--
+
+(e.g. [Khavine-Moretti 14, equation (38) and section 3.4](Hadamard+distribution#KhavineMoretti14))
+
++-- {: .num_prop #ContourIntegralForStandardHadamardPropagatorOnMinkowskiSpacetime}
+###### Proposition
+**([[contour integral]] representation of the [[Hadamard propagator]] for the [[Klein-Gordon operator]] on [[Minkowski spacetime]])
+
+The [[Hadamard propagator]] from
+def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime} is
+equivalently given by the [[contour integral]]
+
+$$
+\label{StandardHadamardPropagatorOnMinkowskiSpacetimeInTermsOfContourIntegral}
+\Delta_H(x,y)
+\;=\;
+-i(2\pi)^{-(p+1)}
+\int
+\underset{C_+(\vec k)}{\oint}
+\frac{e^{-i k_\mu (x-y)^\mu}}{ -k_\mu k^\mu - \left( \tfrac{m c}{\hbar} \right)^2 }
+d k_0
+d^{p} k
+\,,
+$$
+
+where the [[Jordan curve]] $C_+(\vec k) \subset \mathbb{C}$ runs counter-clockwise, enclosing the point $+ \omega(\vec k)/c \in \mathbb{R} \subset \mathbb{C}$, but not enclosing the point $- \omega(\vec k)/c \in \mathbb{R} \subset \mathbb{C}$.
+
+
+<img src="https://ncatlab.org/nlab/files/ContourForHadamardPropagator.png" height="200">
+
+> graphics grabbed from [Kocic 16](#Kocic16)
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We compute as follows:
+
+$$
+\begin{aligned}
+-i(2\pi)^{-(p+1)}
+\int
+\underset{C_+(\vec k)}{\oint}
+\frac{e^{ - i k_\mu (x-y)^\mu}}{ -k_\mu k^\mu - \left( \tfrac{m c}{\hbar} \right)^2 }
+d k_0
+d^{p} k
+& =
+-i(2\pi)^{-(p+1)}
+\int
+\oint_{C_+(\vec k)}
+\frac{
+e^{ -i k_0 x^0} e^{i \vec k \cdot (\vec x - \vec y)}
+}{
+k_0^2 - \omega(\vec k)^2/c^2
+}
+d k_0
+d^p \vec k
+\\
+& =
+-i(2\pi)^{-(p+1)}
+\int
+\underset{C_+(\vec k)}{\oint}
+\frac{
+e^{ - i k_0 (x^0-y^0)} e^{i \vec k \cdot (\vec x - \vec y)}
+}{
+( k_0 - \omega_\epsilon(\vec k)  )
+( k_0 + \omega_\epsilon(\vec k) )
+}
+d k_0
+d^p \vec k
+\\
+& =
+(2\pi)^{-p}
+\int
+\frac{1}{2 \omega(\vec k)}
+e^{-i \omega(\vec k) (x^0-y^0)/c} e^{i \vec k \cdot (\vec x - \vec y)}
+d^p \vec k
+\,.
+\end{aligned}
+$$
+
+The last step is application of [[Cauchy's integral formula]], which says that the [[contour integral]] picks up the [[residue]] of the [[pole]] of the [[integrand]] at $+ \omega(\vec k)/c \in \mathbb{R} \subset \mathbb{C}$. The last line is $\Delta_H(x,y)$, by definition \ref{StandardHadamardDistributionOnMinkowskiSpacetime}.
+
+
+
+=--
+
+
+
++-- {: .num_prop #SkewSymmetricPartOfHadmrdPropagatorIsCausalPropagatorForKleinGordonEquationOnMinkowskiSpacetime}
+###### Proposition
+**(skew-symmetric part of [[Hadamard propagator]] is the [[causal propagator]])**
+
+The [[Hadamard propagator]] for the [[Klein-Gordon equation]] on [[Minkowski spacetime]] (def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime}) is of the form
+
+$$
+  \label{DeompositionOfHadamardPropagatorOnMinkowkski}
+  \begin{aligned}
+    \Delta_H
+    & =
+    \tfrac{i}{2} \Delta_S
+    +
+    H
+    \\
+    & =
+    \tfrac{i}{2}
+    \left(
+      \Delta_+ - \Delta_-
+    \right)
+    +
+    H
+  \end{aligned}
+  \,,
+$$
+
+where
+
+1. $\Delta_S$ is the [[causal propagator]] (prop. \ref{AdvancedRetardedPropagatorsForKleinGordonOnMinkowskiSpacetime}),
+   which is real (eq:CausalPropagatorForKleinGordonEquationOnMinkowskiSpacetimeIsReal) and skew-symmetric (prop. \ref{CausalPropagatorIsSkewSymmetric})
+
+   $$
+     (\Delta_S(x,y))^\ast = \Delta_S(x,y)
+     \phantom{AA}
+     \,,
+     \phantom{AA}
+     \Delta_S(y,x) = - \Delta_S(x,y)
+   $$
+
+1. $H$ is real and symmetric
+
+   $$
+     (H(x,y))^\ast = H(x,y)
+     \phantom{AA}
+     \,,
+     \phantom{AA}
+     H(y,x) = H(x,y)
+   $$
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+
+By applying [[Euler's formula]] to (eq:HadamardPropagatorForKleinGordonOperatorOnMinkowskiSpacetime) we obtain
+
+$$
+  \label{SymmetricPartOfHadamardPropagatorForKleinGordonOnMinkowskiSpacetime}
+  \begin{aligned}
+  \Delta_H(x,y)
+  & =
+  \frac{1}{(2\pi)^p}
+   \int \frac{1}{2 \omega(\vec k)/c}
+   e^{-i \omega(\vec k)(x^0 - y^0)/c + i \vec k \cdot (\vec x - \vec y) }
+   \, d^p \vec k
+  \\
+  & =
+   \tfrac{i}{2}
+   \underset{= \Delta_S(x,y)}{
+   \underbrace{
+     \frac{-1}{(2\pi)^p}
+     \int
+     \frac{1}{\omega(\vec k)/c}
+     \sin\left( \omega(\vec k)(x^0 - y^0)/c \right)
+     e^{i \vec k \cdot (\vec x - \vec y) }
+     \, d^p \vec k
+   }}
+   \;+\;
+   \underset{
+     \coloneqq H(x,y)
+   }{
+   \underbrace{
+    \frac{1}{(2\pi)^p}
+     \int \frac{1}{2 \omega(\vec k)/c}
+     \cos\left( \omega(\vec k)(x^0 - y^0)/c  \right)
+     e^{i \vec k \cdot (\vec x - \vec y) }
+     \, d^p \vec k
+   }}
+  \end{aligned}
+$$
+
+On the left this identifies the [[causal propagator]] by (eq:CausalPropagatorModeExpansionForKleinGordonOnMinkowskiSpacetime), prop. \ref{ModeExpansionOfCausalPropagatorForKleinGordonOnMinkowski}.
+
+The second summand changes, both under complex conjugation as well as under $(x-y) \mapsto (y-x)$,
+via [[change of integration variables]] $\vec k \mapsto - \vec k$ (because the [[cosine]] is an even function).
+This does not change the integral, and hence $H$ is symmetric.
+
+=--
+
+
+
+
+$\,$
+
+**[[Feynman propagator]]**
+ {#FeynmanPropagator}
+
+We have seen that the [[positive real number|positive]] [[frequency]] component of the [[causal propagator]] $\Delta_S$ for the [[Klein-Gordon equation]] on [[Minkowski spacetime]] (prop. \ref{AdvancedRetardedPropagatorsForKleinGordonOnMinkowskiSpacetime}) is the [[Hadamard propagator]] $\Delta_H$ (def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime}) given, according to prop. \ref{SkewSymmetricPartOfHadmrdPropagatorIsCausalPropagatorForKleinGordonEquationOnMinkowskiSpacetime}, by (eq:DeompositionOfHadamardPropagatorOnMinkowkski)
+
+$$
+  \begin{aligned}
+    \Delta_H
+    & =
+    \tfrac{i}{2} \Delta_S
+    +
+    H
+    \\
+    & =
+    \tfrac{i}{2}
+    \left(
+      \Delta_+ - \Delta_-
+    \right)
+    +
+    H
+  \end{aligned}
+  \,,
+$$
+
++-- {: .num_defn #FeynmanPropagatorForKleinGordonEquationOnMinkowskiSpacetime}
+###### Definition
+**([[Feynman propagator]] for [[Klein-Gordon equation]] on [[Minkowski spacetime]])**
+
+The _[[Feynman propagator]]_ for the [[Klein-Gordon equation]] on [[Minkowski spacetime]] is the [[linear combination]]
+
+$$
+  \Delta_F
+  \coloneqq
+    \tfrac{i}{2}
+    \left(
+      \Delta_+ + \Delta_-
+    \right)
+    +
+    H
+$$
+
+where the first term is proportional to the sum of the [[advanced and retarded propagators]] (prop. \ref{AdvancedRetardedPropagatorsForKleinGordonOnMinkowskiSpacetime}) and the second is the symmetric part of the [[Hadamard propagator]] according to prop. \ref{SkewSymmetricPartOfHadmrdPropagatorIsCausalPropagatorForKleinGordonEquationOnMinkowskiSpacetime}.
+
+=--
+
+
++-- {: .num_prop #ModeExpansionForFeynmanPropagatorOfKleinGordonEquationOnMinkowskiSpacetime}
+###### Proposition
+**(mode expanion for [[Feynman propagator]] of [[Klein-Gordon equation]] on [[Minkowski spacetime]])**
+
+The [[Feynman propagator]] (def. \ref{FeynmanPropagatorForKleinGordonEquationOnMinkowskiSpacetime}) for the [[Klein-Gordon equation]] on [[Minkowski spacetime]] is given by the following equivalent expressions
+
+$$
+  \begin{aligned}
+  \Delta_F(x,y)
+  & =
+  \left\{
+    \array{
+    \frac{1}{(2\pi)^p}
+    \int
+    \frac{1}{\omega(\vec k)c}
+    e^{-i\omega(\vec k)(x^0 - y^0)/c} e^{i \vec k \cdot \vec x}
+    \, d^p \vec k
+    &\vert&
+    (x^0 - y^0) \gt 0
+    \\
+    \frac{1}{(2\pi)^p}
+    \int
+    \frac{1}{2\omega(\vec k)c}
+    e^{+i\omega(\vec k)(x^0 - y^0)/c} e^{i \vec k \cdot \vec x}
+    \, d^p \vec k
+    &\vert&
+    (x^0 - y^0) \lt 0
+    }
+  \right.
+  \\
+  & =
+  \left\{
+    \array{
+      \Delta_H(x,y) &\vert& (x^0 - y^0) \gt 0
+      \\
+      \Delta_H(y,x) &\vert& (x^0 - y^0) \lt 0
+    }
+  \right.
+  \end{aligned}
+$$
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+
+By the mode expansion of $\Delta_{\pm}$ (eq:ModeExpansionForMinkowskiAdvancedRetardedPropagator) and the mode expansion of $H$ from (eq:SymmetricPartOfHadamardPropagatorForKleinGordonOnMinkowskiSpacetime) we have
+
+$$
+  \begin{aligned}
+   \Delta_F(x,y)
+   & =
+  \left\{
+    \array{
+      \underset{
+        = \tfrac{i}{2} \Delta_+(x,y) + 0 \;\text{for}\; (x^0 - y^0) \gt 0
+      }{
+      \underbrace{
+      \frac{- i}{(2\pi)^{p}}
+      \int
+      \frac{1}{2 \omega(\vec k)/c}
+      \sin\left( \omega(\vec k)(x^0 - y^0)/c \right)
+      e^{i \vec k \cdot (\vec x - \vec  y) }
+      \, d^p \vec k
+      }
+      }
+      +
+      \underset{
+        = H(x,y)
+      }{
+      \underbrace{
+      \frac{1}{(2\pi)^p}
+      \int \frac{1}{2 \omega(\vec k)/c}
+      \cos\left( \omega(\vec k)(x^0 - y^0)/c  \right)
+      e^{i \vec k \cdot (\vec x - \vec y) }
+      \, d^p \vec k
+      }
+      }
+      &\vert&
+      (x^0 - y^0) \gt 0
+      \\
+      \underset{
+         = 0 + \tfrac{i}{2}\Delta_-(x,y) \;\text{for}\; (x^0 - y^0) \lt 0
+      }{
+      \underbrace{
+      \frac{+ i}{(2\pi)^{p}}
+      \int
+      \frac{1}{2 \omega(\vec k)/c}
+      \sin\left( \omega(\vec k)(x^0 - y^0)/c \right)
+      e^{i \vec k \cdot (\vec x - \vec  y) }
+      \, d^p \vec k
+      }
+      }
+      +
+      \underset{ = H(x,y) }{
+      \underbrace{
+      \frac{1}{(2\pi)^p}
+      \int \frac{1}{2 \omega(\vec k)/c}
+      \cos\left( \omega(\vec k)(x^0 - y^0)/c  \right)
+      e^{i \vec k \cdot (\vec x - \vec y) }
+      \, d^p \vec k
+      }
+      }
+      &\vert&
+      (x^0 - y^0) \lt 0
+    }
+  \right.
+  \\
+  & =
+  \left\{
+    \array{
+    \frac{1}{(2\pi)^p}
+    \int
+    \frac{1}{2\omega(\vec k)c}
+    e^{-i\omega(\vec k)(x^0 - y^0)/c} e^{i \vec k \cdot \vec x}
+    \, d^p \vec k
+    &\vert&
+    (x^0 - y^0) \gt 0
+    \\
+    \frac{1}{(2\pi)^p}
+    \int
+    \frac{1}{2\omega(\vec k)c}
+    e^{+i\omega(\vec k)(x^0 - y^0)/c} e^{i \vec k \cdot \vec x}
+    \, d^p \vec k
+    &\vert&
+    (x^0 - y^0) \lt 0
+    }
+  \right.
+  \\
+  & =
+  \left\{
+    \array{
+      \Delta_H(x,y) &\vert& (x^0 - y^0) \gt 0
+      \\
+      \Delta_H(y,x) &\vert& (x^0 - y^0) \lt 0
+    }
+  \right.
+  \end{aligned}
+$$
+
+where in the second line we used [[Euler's formula]]. The last line follows by comparison with (eq:HadamardPropagatorForKleinGordonOperatorOnMinkowskiSpacetime) and using that the integral over $\vec k$
+is invariant under $\vec k \mapsto - \vec k$.
+
+
+=--
+
+As before for the [[causal propagator]], there are equivalent reformulations of the [[Feynman propagator]]:
+
++-- {: .num_prop #}
+###### Proposition
+
+
+The [[Feynman propagator]] (def. \ref{FeynmanPropagatorForKleinGordonEquationOnMinkowskiSpacetime}) for the [[Klein-Gordon equation]] on [[Minkowski spacetime]] is equivalently given by the following expression:
+
+$$
+  \begin{aligned}
+  \Delta_F(x,y)
+  & =
+  \underset{ {\epsilon \in (0,\infty)} \atop {\epsilon \to 0} }{\lim}
+  \frac{-i}{(2\pi)^{p+1}}
+  \int
+  \int_{-\infty}^\infty
+  \frac{
+     e^{i k_\mu (x^\mu - y^\mu)}
+  }{
+    - k_\mu k^\mu - \left( \tfrac{m c}{\hbar} \right)^2 + i \epsilon
+  }
+  \, d k_0 \, d^p \vec k
+  \end{aligned}
+$$
+
+where we have a [[limit of a sequence|limit]] of [[distributions]] as for the [[Cauchy principal value]] ([this prop](#CauchyPrincipalValueEqualsIntegrationWithImaginaryOffsetPlusDelta)).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We compute as follows:
+
+$$
+  \begin{aligned}
+  \underset{ {\epsilon \in (0,\infty)} \atop {\epsilon \to 0} }{\lim}
+  \frac{-i}{(2\pi)^{p+1}}
+  \int
+  \int_{-\infty}^\infty
+  \frac{
+     e^{i k_\mu (x^\mu - y^\mu)}
+  }{
+    - k_\mu k^\mu - \left( \tfrac{m c}{\hbar} \right)^2 + i \epsilon
+  }
+  \, d k_0 \, d^p \vec k
+  & =
+  \underset{ {\epsilon \in (0,\infty)} \atop {\epsilon \to 0} }{\lim}
+  \frac{-i}{(2\pi)^{p+1}}
+  \int
+  \int_{-\infty}^\infty
+  \frac{
+     e^{i k_\mu (x^\mu - y^\mu)}
+  }{
+    (k_0)^2
+      -
+    \underset{
+      \coloneqq \omega_\epsilon(\vec k)^2/c^2
+    }{\underbrace{ \left( \omega(\vec k)^2/c^2 - i \epsilon \right) }}
+  }
+  \, d k_0 \, d^p \vec k
+  \\
+  & =
+  \underset{ {\epsilon \in (0,\infty)} \atop {\epsilon \to 0} }{\lim}
+  \frac{-i}{(2\pi)^{p+1}}
+  \int
+  \int_{-\infty}^\infty
+  \frac{
+     e^{i k_\mu (x^\mu - y^\mu)}
+  }{
+     \left(
+       k_0 - \omega_\epsilon(\vec k)/c
+     \right)
+     \left(
+       k_0 + \omega_\epsilon(\vec k)/c
+     \right)
+  }
+  \, d k_0 \, d^p \vec k
+  \\
+  & =
+  \left\{
+    \array{
+    \frac{1}{(2\pi)^p}
+    \int
+    \frac{1}{2\omega(\vec k)c}
+    e^{-i\omega(\vec k)(x^0 - y^0)/c} e^{i \vec k \cdot \vec x}
+    \, d^p \vec k
+    &\vert&
+    (x^0 - y^0) \gt 0
+    \\
+    \frac{1}{(2\pi)^p}
+    \int
+    \frac{1}{2\omega(\vec k)c}
+    e^{+i\omega(\vec k)(x^0 - y^0)/c} e^{i \vec k \cdot \vec x}
+    \, d^p \vec k
+    &\vert&
+    (x^0 - y^0) \lt 0
+    }
+  \right.
+  \\
+  & = 
+  \Delta_F(x,y)
+  \end{aligned}
+$$
+
+Here
+
+1. In the first step we introduced the [[complex number|complex]] [[square root]] $\omega_\epsilon(\vec k)$. For this to be compatible with the choice of _non-negative_ square root for $\epsilon = 0$ in (eq:DispersionRelationForKleinGordonooeratorObMinkowskiSpacetime) we need to choose that complex square root whose [[complex phase]] is one half that of $\omega(\vec k)^2 - i \epsilon$ (instead of that plus $\pi$). This means that $\omega_\epsilon(\vec k)$ is in the _[[lower half plane]]_.
+
+1. In the third step we observe that
+
+   1. for $(x^0 - y^0) \gt 0$ the [[integrand]] decays for [[positive real number|positive]] [[imaginary part]] and hence the integration over $k_0$ may be deformed to a [[Jordan curve|contour]] which encircles the [[pole]] in the [[upper half plane]];
+
+
+   1. for $(x^0 - y^0) \lt 0$ the integrand decays for [[negative real number|negative]] [[imaginary part]]  and hence the integration over $k_0$ may be deformed to a [[Jordan curve|contour]] which encircles the [[pole]] in the [[lower half plane]]
+
+   and then apply [[Cauchy's integral formula]] which picks out $2\pi i$ times the [[residue]] a these poles.
+
+   <img src="https://ncatlab.org/nlab/files/ContourForFeynmanPropagator.png" height="300">
+
+1. In the fourth step we used prop. \ref{ModeExpansionForFeynmanPropagatorOfKleinGordonEquationOnMinkowskiSpacetime}.
+
+=--
+
+$\,$
+
+**[[singular support]] and [[wave front sets]]**
+{#WaveFrontSetsOfPropagatorsForKleinGordonOperatorOnMinkowskiSpacetime}
+
+We now discuss the [[singular support]] and the [[wave front sets]] of the various [[propagators]] for the [[Klein-Gordon equation]] on [[Minkowski spacetime]].
+
 
 +-- {: .num_prop #SingularSupportOfCausalPropagatorForKleinGordonEquationOnMinkowskiSpacetimeIsTheLightCone}
 ###### Proposition
@@ -1373,7 +1967,7 @@ $$
   \phantom{AA}
   \,,
   \phantom{AA}
-  {\vert \vec x - \vec y\vert} 
+  {\vert \vec x - \vec y\vert}
   =
   \sqrt{ {\vert x-y\vert}^2_\eta} \cosh(\tau)
 $$
@@ -1559,232 +2153,16 @@ $$
 
 =--
 
-$\,$
 
-**[[Hadamard propagator]]**
-{#HadamardPropagatorForKleinGordonOnMinkowskiSpacetime}
-
-Prop. \ref{CausalPropagatorAsFourierTransformOfDeltaDistributionOnTransformedKGOperator} exhibits the [[causal propagator]] of the [[Klein-Gordon operator]] on [[Minkowski spacetime]] as the difference of a contribution for [[positive real number|positive]] temporal [[angular frequency]] $k_0 \propto \omega(\vec k)$ (hence positive [[energy]] $\hbar \omega(\vec k)$ and a contribution of negative temporal [[angular frequency]].
-
-The [[positive real number|positive]] [[frequency]] contribution to the [[causal propagator]] is called the _[[Hadamard propagator]]_ (def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime} below), also known as the the _[[vacuum state]] [[2-point function]] of the [[free field|free]] [[real scalar field]] on [[Minkowski spacetime]]_. Notice that the temporal component
-of the [[wave vector]] is proportional to the _negative_ [[angular frequency]]
-
-$$
-k_0 = -\omega/c
-$$
-
-(see at _[[plane wave]]_), therefore the appearance of the [[step function]] $\Theta(-k_0)$ in (eq:HadamardPropagatorForKleinGordonOperatorOnMinkowskiSpacetime) below:
-
-+-- {: .num_defn #StandardHadamardDistributionOnMinkowskiSpacetime}
-###### Definition
-**([[Hadamard propagator]] or [[vacuum state]] [[2-point function]] for [[Klein-Gordon operator]] on [[Minkowski spacetime]])**
-
-The _[[Hadamard propagator]]_ for the [[Klein-Gordon operator]] at [[mass]] $m$ on [[Minkowski spacetime]] is the [[tempered distribution|tempered]] [[distribution in two variables]] $\Delta_H \in \mathcal{S}'(\mathbb{R}^{p,1})$ which as a [[generalized function]] is given by the expression
-
-$$
-\label{HadamardPropagatorForKleinGordonOperatorOnMinkowskiSpacetime}
-\begin{aligned}
-\Delta_H(x,y)
-& \coloneqq
-\frac{1}{(2\pi)^p} \int \delta\left( k_\mu k^\mu + m^2 \right) \Theta( -k_0 ) e^{i k_\mu (x^\mu-y^\mu) } \, d^{p+1} k
-\\
-& =
-\frac{1}{(2\pi)^p}
-\int \frac{1}{2 \omega(\vec k)/c}
-e^{-i \omega(\vec k)(x^0 - y^0)/c + i \vec k \cdot (\vec x - \vec y) }
-\, d^p \vec k
-\,,
-\end{aligned}
-$$
-
-Here in the first line we have in the [[integrand]] the [[delta distribution]] of the [[Fourier transform]] of the [[Klein-Gordon operator]]  times a [[plane wave]] and times the [[step function]] $\Theta$ of the temporal component of the [[wave vector]]. In the second line we used the [[change of integration variables]] $k_0 = \sqrt{h}$, then the definition of the [[delta distribution]] and the fact that $\omega(\vec k)$ is by definition the [[non-negative real number|non-negative]] solution to the Klein-Gordon [[dispersion relation]].
-
-=--
-
-(e.g. [Khavine-Moretti 14, equation (38) and section 3.4](Hadamard+distribution#KhavineMoretti14))
-
-+-- {: .num_prop #ContourIntegralForStandardHadamardPropagatorOnMinkowskiSpacetime}
++-- {: .num_prop #SingularSupportOfHadamardPropagatorForKleinGordonEquationOnMinkowskiSpacetimeIsTheLightCone}
 ###### Proposition
-**([[contour integral]] representation of the [[Hadamard propagator]] for the [[Klein-Gordon operator]] on [[Minkowski spacetime]])
+**([[singular support]] of the [[Hadamard propagator]] of the [[Klein-Gordon equation]] on [[Minkowski spacetime]] is the [[light cone]])**
 
-The [[Hadamard propagator]] from
-def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime} is
-equivalently given by the [[contour integral]]
-
-$$
-\label{StandardHadamardPropagatorOnMinkowskiSpacetimeInTermsOfContourIntegral}
-\Delta_H(x,y)
-\;=\;
--i(2\pi)^{-(p+1)}
-\int
-\underset{C_+(\vec k)}{\oint}
-\frac{e^{-i k_\mu (x-y)^\mu}}{ -k_\mu k^\mu - \left( \tfrac{m c}{\hbar} \right)^2 }
-d k_0
-d^{p} k
-\,,
-$$
-
-where the [[Jordan curve]] $C_+(\vec k) \subset \mathbb{C}$ runs counter-clockwise, enclosing the point $+ \omega(\vec k)/c \in \mathbb{R} \subset \mathbb{C}$, but not enclosing the point $- \omega(\vec k)/c \in \mathbb{R} \subset \mathbb{C}$.
-
-
-<img src="https://ncatlab.org/nlab/files/ContourForHadamardPropagator.png" height="200">
-
-> graphics grabbed from [Kocic 16](#Kocic16)
+The [[singular support]] of the [[Hadamard propagator]] (def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime}) for the [[Klein-Gordon equation]] on [[Minkowski spacetime]] is the [[light cone]] of the origin.
 
 =--
 
-+-- {: .proof}
-###### Proof
-
-We compute as follows:
-
-$$
-\begin{aligned}
--i(2\pi)^{-(p+1)}
-\int
-\underset{C_+(\vec k)}{\oint}
-\frac{e^{ - i k_\mu (x-y)^\mu}}{ -k_\mu k^\mu - \left( \tfrac{m c}{\hbar} \right)^2 }
-d k_0
-d^{p} k
-& =
--i(2\pi)^{-(p+1)}
-\int
-\oint_{C_+(\vec k)}
-\frac{
-e^{ -i k_0 x^0} e^{i \vec k \cdot (\vec x - \vec y)}
-}{
-k_0^2 - \omega(\vec k)^2/c^2
-}
-d k_0
-d^p \vec k
-\\
-& =
--i(2\pi)^{-(p+1)}
-\int
-\underset{C_+(\vec k)}{\oint}
-\frac{
-e^{ - i k_0 (x^0-y^0)} e^{i \vec k \cdot (\vec x - \vec y)}
-}{
-( k_0 - \omega_\epsilon(\vec k)  )
-( k_0 + \omega_\epsilon(\vec k) )
-}
-d k_0
-d^p \vec k
-\\
-& =
-(2\pi)^{-p}
-\int
-\frac{1}{2 \omega(\vec k)}
-e^{-i \omega(\vec k) (x^0-y^0)/c} e^{i \vec k \cdot (\vec x - \vec y)}
-d^p \vec k
-\,.
-\end{aligned}
-$$
-
-The last step is application of [[Cauchy's integral formula]], which says that the [[contour integral]] picks up the [[residue]] of the [[pole]] of the [[integrand]] at $+ \omega(\vec k)/c \in \mathbb{R} \subset \mathbb{C}$. The last line is $\Delta_H(x,y)$, by definition \ref{StandardHadamardDistributionOnMinkowskiSpacetime}.
-
-
-
-=--
-
-
-
-+-- {: .num_prop #SkewSymmetricPartOfHadmrdPropagatorIsCausalPropagatorForKleinGordonEquationOnMinkowskiSpacetime}
-###### Proposition
-**(skew-symmetric part of [[Hadamard propagator]] is the [[causal propagator]])**
-
-The [[Hadamard propagator]] for the [[Klein-Gordon equation]] on [[Minkowski spacetime]] (def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime}) is of the form
-
-$$
-  \Delta_H
-  \;=\;
-  \tfrac{i}{2} \Delta_S
-  \;+\;
-  H
-  \,,
-$$
-
-where
-
-1. $\Delta_S$ is the [[causal propagator]] (prop. \ref{AdvancedRetardedPropafatorsForKleinGordonOnMinkowskiSpacetime}),
-   which is real (eq:CausalPropagatorForKleinGordonEquationOnMinkowskiSpacetimeIsReal) and skew-symmetric (prop. \ref{CausalPropagatorIsSkewSymmetric})
-   
-   $$
-     (\Delta_S(x,y))^\ast = \Delta_S(x,y)
-     \phantom{AA}
-     \,,
-     \phantom{AA}
-     \Delta_S(y,x) = - \Delta_S(x,y)
-   $$
-   
-1. $H$ is real and symmetric
-
-   $$
-     (H(x,y))^\ast = H(x,y)
-     \phantom{AA}
-     \,,
-     \phantom{AA}
-     H(y,x) = H(x,y)
-   $$
-
-=--
-
-
-+-- {: .proof}
-###### Proof
-
-
-By applying [[Euler's formula]] to (eq:HadamardPropagatorForKleinGordonOperatorOnMinkowskiSpacetime) we obtain
-
-$$
-  \begin{aligned}
-  \Delta_H(x,y)
-  & =
-  \frac{1}{(2\pi)^p}
-   \int \frac{1}{2 \omega(\vec k)/c}
-   e^{-i \omega(\vec k)(x^0 - y^0)/c + i \vec k \cdot (\vec x - \vec y) }
-   \, d^p \vec k
-  \\
-  & =
-   \tfrac{i}{2}
-   \underset{= \Delta_S(x,y)}{
-   \underbrace{
-     \frac{-1}{(2\pi)^p}
-     \int 
-     \frac{1}{\omega(\vec k)/c}
-     \sin\left( \omega(\vec k)(x^0 - y^0)/c \right)
-     e^{i \vec k \cdot (\vec x - \vec y) }
-     \, d^p \vec k
-   }}
-   \;+\;
-   \underset{
-     \coloneqq H(x,y)
-   }{
-   \underbrace{
-    \frac{1}{(2\pi)^p}
-     \int \frac{1}{2 \omega(\vec k)/c}
-     \cos\left( \omega(\vec k)(x^0 - y^0)/c  \right)
-     e^{i \vec k \cdot (\vec x - \vec y) }
-     \, d^p \vec k
-   }}
-  \end{aligned}
-$$
-
-On the left this identifies the [[causal propagator]] by (eq:CausalPropagatorModeExpansionForKleinGordonOnMinkowskiSpacetime), prop. \ref{ModeExpansionOfCausalPropagatorForKleinGordonOnMinkowski}.
-
-The second summand changes both under complex conjugation as well as under $(x-y) \mapsto (y-x)$
-via [[change of integration variables]] $\vec k \mapsto - \vec k$ (because the [[cosine]] is an even function).
-This does not change the integral.
-
-=--
-
-
-
-
-$\,$
-
-**[[wave front sets]]**
-{#WaveFrontSetsOfPropagatorsForKleinGordonOperatorOnMinkowskiSpacetime}
+(e.g. [Scharf 95 (2.3.36)](causal+perturbation+theory#Scharf95))
 
 
 +-- {: .num_prop #WaveFronSetsForKGPropagatorsOnMinkowski}
@@ -1799,20 +2177,28 @@ $$
 WF(\Delta_S) = \left\{ (x,k) \,\vert\, {\vert x\vert}^2_\eta = 0 \;\text{and} \; {\vert k\vert}^2_\eta = 0 \; \text{and} \, k \neq 0  \right\}
 $$
 
-* the [[Hadamard propagator]] $\Delta_H$ (def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime}) has wave front set all pairs $(x,k)$ with $x$ on the light cone and $k^0 \gt 0$:
-
+* the [[Hadamard propagator]] $\Delta_H$ (def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime}) has wave front set all pairs $(x,k)$ with $x$ and $k$ both on the light cone and $k^0 \gt 0$:
 
 $$
 WF(\Delta_H) = \left\{ (x,k) \,\vert\, {\vert x\vert}^2_\eta = 0 \;\text{and} \; {\vert k\vert}^2_\eta = 0 \; \text{and} \; k^0 \gt 0   \right\}
 $$
 
+* the [[Feynman propagator]] $\Delta_S$ (def. \ref{FeynmanPropagatorForKleinGordonEquationOnMinkowskiSpacetime}) has wave front set all pairs $(x,k)$ with $x$ and $k$ both on the light cone and $\pm k_0 \gt 0 \;\Leftrightarrow\; \pm x^0 \gt 0$
+
+$$
+  WF(\Delta_H) = \left\{ (x,k) \,\vert\, {\vert x\vert}^2_\eta = 0 \;\text{and} \; {\vert k\vert}^2_\eta = 0 \; \text{and} \; 
+    \left( 
+       \pm k_0 \gt 0 \;\Leftrightarrow\; \pm x^0 \gt 0 
+    \right)
+  \right\}
+$$
 
 =--
 
 ([Radzikowski 96, (16)](Hadamard+distribution#Radzikowski96))
 
 +-- {: .proof}
-###### Proof idea
+###### Proof
 
 First regarding the causal propagator:
 
@@ -1850,11 +2236,100 @@ $$
 \delta\left( k_\mu k^\mu + m^2 \right) \Theta( -k_0 )
 $$
 
-First of all it follows that the singular support is still the light cone, because this means that $\Delta_H$ is a [[convolution of distributions]] of $\Delta_S$ with $\widehat {\Theta} \propto \delta'$, and this convolution does not increase the singular support (...).
+Moreover, its [[singular support]] is also the light cone (prop. \ref{SingularSupportOfHadamardPropagatorForKleinGordonEquationOnMinkowskiSpacetimeIsTheLightCone}).
 
-Therefore now same argument as before says that the wave front set consists of wave vectors $k$ on the light cone, but now due to the [[step function]] factor $\Theta(-k_0)$ it must staify $0 \leq - k_0 = k^0$.
+Therefore now same argument as before says that the wave front set consists of wave vectors $k$ on the light cone, but now due to the [[step function]] factor $\Theta(-k_0)$ it must satisfy $0 \leq - k_0 = k^0$.
+
+Finally regarding the [[Feynman propagator]]:
+
+by prop. \ref{ModeExpansionForFeynmanPropagatorOfKleinGordonEquationOnMinkowskiSpacetime} the Feynman propagator
+coincides with the positive frequency Hadamard propagator for $x^0 \gt 0$ and with the "negative frequency Hadamard operator"
+for $x^0 \lt 0$. Therefore the form of $WF(\Delta_F)$ now follows directly with that of $WF(\Delta_H)$ above.
 
 =--
+
+### For Dirac operator on Minkowski spacetime
+ {#ExampleForDiracOperatorOnMinkowskiSpacetime}
+
+
++-- {: .num_prop #DiracEquationOnMinkowskiSpacetimeAdvancedAndRetardedPropagators}
+###### Proposition
+**([[advanced and retarded propagator]] for [[Dirac equation]] on [[Minkowski spacetime]])**
+
+Consider the [[Dirac operator]] on [[Minkowski spacetime]], which in [[Feynman slash notation]] reads
+
+$$
+  i \partial\!\!\!/\, 
+  \;\coloneqq\;
+  i\gamma^\mu \frac{\partial}{\partial x^\mu} 
+  \,.
+$$
+
+Its [[advanced and retarded propagators]] (def. \ref{AdvancedAndRetardedGreenFunctions})
+are the [[derivatives of distributions]] of the advanced and retarded propagators for the [[Klein-Gordon equation]] (prop. \ref{AdvancedRetardedPropagatorsForKleinGordonOnMinkowskiSpacetime}) by $\partial\!\!\!/\, + m$:
+
+$$
+  \Delta_{(i\partial\!\!\!/\, - \tfrac{m c}{\hbar} ), \pm}
+  \;=\;
+  \left(
+    i\partial\!\!\!/\, + \tfrac{m c}{\hbar}
+  \right)
+  \Delta_{\Box - \left( \tfrac{m c}{\hbar}\right)^2, \pm}
+  \,.
+$$
+
+Hence the same is true for the [[causal propagator]]
+
+$$
+  \Delta_{(i\partial\!\!\!/\, - \tfrac{m c}{\hbar} ), S}
+  \;=\;
+  \left(
+    i\partial\!\!\!/\, + \tfrac{m c}{\hbar}
+  \right)
+  \Delta_{\Box - \left( \tfrac{m c}{\hbar}\right)^2, S}
+  \,.
+$$
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Applying a [[differential operator]] does not change the [[support]] of a [[smooth function]], hence also not the [[support of a distribution]]. Therefore the uniqueness of the advanced and retarded propagators (prop. \ref{AdvancedAndRetardedGreenFunctionsForGreenHyperbolicOperatorAreUnique})
+together with the translation-invariance and the anti-[[formally self-adjoint differential operator|formally self-adjointness]] of the [[Dirac operator]] (as for the [[Klein-Gordon operator]] (eq:\Delta_{\partial\!\!\!/\, + \tfrac{m c}{\hbar}, \pm}))
+implies that it is sufficent to check that applying the [[Dirac operator]] to the $\Delta_{\partial\!\!\!/\, + \tfrac{m c}{\hbar}, \pm}$
+yields the [[delta distribution]]. This follows since the Dirac operator squares to the Klein-Gordon operator:
+
+
+$$
+  \begin{aligned}
+    \left(
+      i\partial\!\!\!/\, + \tfrac{m c}{\hbar}
+    \right)
+    \Delta_{i\partial\!\!\!/\, + \tfrac{m c}{\hbar}, \pm}
+    & =
+    \underset{ = \Box - \left(\tfrac{m c}{\hbar}\right)^2}{
+    \underbrace{
+    \left(
+      i\partial\!\!\!/\, + \tfrac{m c}{\hbar}
+    \right)
+    \left(
+      i\partial\!\!\!/\, - \tfrac{m c}{\hbar}
+    \right)
+    }
+    }
+    \Delta_{\Box - \left( \tfrac{m c}{\hbar} \right)^2, \pm}
+    \\
+    & =
+    \delta
+  \end{aligned}
+  \,.
+$$
+
+=--
+
+
 
 
 
