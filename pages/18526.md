@@ -435,6 +435,21 @@ d^p \vec k
 0 & \vert & \text{otherwise}
 }
 \right.
+\\
+& =
+\left\{
+\array{
+\frac{\mp 1}{(2\pi)^{p}}
+\int
+\frac{1}{\omega(\vec k)/c}
+\sin\left( \omega(\vec k)(x^0 - y^0)/c \right)
+e^{i \vec k \cdot (\vec x - \vec  y) }
+d^p \vec k
+& \vert & \text{if} \,  \pm (x^0 - y^0) \gt 0
+\\
+0 & \vert & \text{otherwise}
+}
+\right.
 \end{aligned}
 $$
 
@@ -723,10 +738,25 @@ d^p \vec k
 0 & \vert & \text{otherwise}
 }
 \right.
+\\
+& =
+\left\{
+\array{
+\frac{\mp 1}{(2\pi)^{p}}
+\int
+\frac{1}{\omega(\vec k)/c}
+\sin\left( \omega(\vec k)(x^0 - y^0)/c \right)
+e^{i \vec k \cdot (\vec x - \vec  y) }
+d^p \vec k
+& \vert & \text{if} \,  \pm (x^0 - y^0) \gt 0
+\\
+0 & \vert & \text{otherwise}
+}
+\right.
 \end{aligned}
 $$
 
-where $\omega(\vec k)$ denotes the [[dispersion relation]] (eq:DispersionRelationForKleinGordonooeratorObMinkowskiSpacetime) of the [[Klein-Gordon equation]].
+where $\omega(\vec k)$ denotes the [[dispersion relation]] (eq:DispersionRelationForKleinGordonooeratorObMinkowskiSpacetime) of the [[Klein-Gordon equation]]. The last step is simply the application of [[Euler's formula]] $\sin(\alpha) = \tfrac{1}{2 i }\left( e^{i \alpha} - e^{- i \alpha}\right)$.
 
 Here the key step is the application of [[Cauchy's integral formula]] in the fourth step. We spell this out now for $\Delta_+$, the discussion for $\Delta_-$ is the same, just with the appropriate signs reversed.
 
@@ -1710,11 +1740,22 @@ The last step is application of [[Cauchy's integral formula]], which says that t
 The [[Hadamard propagator]] for the [[Klein-Gordon equation]] on [[Minkowski spacetime]] (def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime}) is of the form
 
 $$
-  \Delta_H
-  \;=\;
-  \tfrac{i}{2} \Delta_S
-  \;+\;
-  H
+  \label{DeompositionOfHadamardPropagatorOnMinkowkski}
+  \begin{aligned}
+    \Delta_H
+    & =
+    \tfrac{i}{2} \Delta_S
+    +
+    H
+    \\
+    & =
+    \tfrac{i}{2}
+    \left(
+      \Delta_+ - \Delta_-
+    \right)
+    +
+    H
+  \end{aligned}
   \,,
 $$
 
@@ -1786,7 +1827,7 @@ $$
 
 On the left this identifies the [[causal propagator]] by (eq:CausalPropagatorModeExpansionForKleinGordonOnMinkowskiSpacetime), prop. \ref{ModeExpansionOfCausalPropagatorForKleinGordonOnMinkowski}.
 
-The second summand changes both under complex conjugation as well as under $(x-y) \mapsto (y-x)$
+The second summand changes, both under complex conjugation as well as under $(x-y) \mapsto (y-x)$,
 via [[change of integration variables]] $\vec k \mapsto - \vec k$ (because the [[cosine]] is an even function).
 This does not change the integral.
 
@@ -1794,6 +1835,10 @@ This does not change the integral.
 
 
 
+
+$\,$
+
+**[[Feynman propagator]]**
 
 $\,$
 
