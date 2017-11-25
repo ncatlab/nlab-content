@@ -11112,7 +11112,7 @@ on the jet bundle to [[Cauchy surfaces]] yields a [[presymplectic structure]] on
 [below](#PhaseSpace).
 
 
-+-- {: .num_example #LocalPoissonBracket}
++-- {: .num_prop #LocalPoissonBracket}
 ###### Proposition
 **([[Poisson bracket Lie n-algebra|local Poisson bracket]])**
 
@@ -14188,16 +14188,30 @@ from that Cauchy surface.
 This is all what one might think a theory of physical fields should accomplish, and in fact this is essentially
 all that was thought to be required of a theory of nature from about [[Isaac Newton]]'s time to about [[Max Planck]]'s time.
 
-However, we have also seen that there are generically [[infinitesimal symmetries of the Lagrangian]] (def. \ref{SymmetriesAndConservedCurrents})
-and their analog in [[codimension]] 1: [[Hamiltonian vector field|infinitesimal symmetries of the pre-symplectic current]]
-(def. \ref{HamiltonianForms}), forming an [[infinitesimal]] [[symmetry group]],
-reflected by the [[Poisson bracket Lie n-algebra|local Poisson bracket]] (prop. \ref{LocalPoissonBracket}).
+But we have seen that a remarkable aspect of [[Lagrangian field theory]] is that the [[de Rham differential]] of the [[local Lagrangian density]] $\mathbf{L}$ (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) decomposes into
+_two_ kinds of [[variational differential forms]] (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}),
+one of which is the [[Euler-Lagrange form]] which determines the [[equations of motion]] (eq:EulerLagrangeEquationGeneral).
 
-The [[transgression of variational differential forms|transgression]] of that local Poisson bracket to the [[on-shell]]
-[[space of field histories]] yields the corresponding infinitesimal symmetry group acting on the [[on-shell]] [[field histories]],
-the actual [[Poisson bracket]]. This data, the [[on-shell]] [[space of field histories]] equipped with [[infinitesimal symmetry]] exhibited by the [[Poisson bracket]] is called the _[[phase space]]_ of the theory (def. \ref{PhaseSpaceAssociatedWithCauchySurface}) below.
+However, there is a second contribution: The _[[presymplectic current]]_ $\Omega_{BFV} \in \Omega^{p,2}_{\Sigma}(E)$ (eq:PresymplecticCurrent).
+Since this is of horizontal degree $p$,
+its [[transgression of variational differential forms|transgression]] (def. \ref{TransgressionOfVariationalDifferentialFormsToConfigrationSpaces}) implies a further structure on the [[space of field histories]]
+ restricted to [[spacetime]] [[submanifolds]] of dimension $p$ (i.e. of spacetime "[[codimension]] 1").
+There may be such submanifolds such that this restriction to their [[infinitesimal neighbourhood]] (example \ref{InfinitesimalNeighbourhood}) does not actually change the [[on-shell]] [[space of field histories]],
+these are called the _[[Cauchy surfaces]]_ (def. \ref{CauchySurface} below).
 
-But from the basic principles of [[homotopy theory]] we learn that given any [[structure]] on a [[space]]
+By the [[Hamiltonian Noether theorem]] (prop. \ref{HamiltonianDifferentialForms}) the [[presymplectic current]] induces an [[infinitesimal symmetry]] acting on [[field histories]] and [[local observables]], given by the [[Poisson bracket Lie n-algebra|local Poisson bracket]] (prop. \ref{LocalPoissonBracket}).
+The [[transgression of variational differential forms|transgression]] (def. \ref{TransgressionOfVariationalDifferentialFormsToConfigrationSpaces}) of the [[presymplectic current]]
+to these [[Cauchy surfaces]] yields the corresponding [[infinitesimal symmetry]] group acting on the [[on-shell]] [[field histories]],
+whose [[Lie bracket]] is the _[[Poisson bracket]]_ pairing on [[on-shell]] [[observables]] (example \ref{EvaluationOfTransgressedVariationalFormsOnTangentVectorsForFreeFieldTheory} below). This data, the [[on-shell]] [[space of field histories]] on the [[infinitesimal neighbourhood]] of a [[Cauchy surface]] equipped with [[infinitesimal symmetry]] exhibited by the [[Poisson bracket]] is called the _[[phase space]]_ of the theory (def. \ref{PhaseSpaceAssociatedWithCauchySurface}) below.
+
+In fact if enough [[Cauchy surfaces]] exist, then the [[presymplectic forms]] associated with 
+any one choice turn out do agree after [[pullback of differential forms|pullback]] to the full [[on-shell]] [[space of field histories]], exhibiting this as the _[[covariant phase space]]_ of the theory (prop. \ref{CovariantPhaseSpace} below) which is hence manifestly independent of aa choice of space/time splitting. Accordingly, also the [[Poisson bracket]] on [[on-shell]] [[observables]] exists in a covariant form; for [[free field theories]] with [[Green hyperbolic differential equation|Green hyperbolic]] [[equations of motion]] (def. \ref{GreenHyperbolicDifferentialOperator}) this is called the _[[Peierls-Poisson bracket]]_ (theorem \ref{PPeierlsBracket} below). The [[integral kernel]] for this [[Peierls-Poisson bracket]] is called the _[[causal propagator]]_ (prop. \ref{GreenFunctionsAreContinuous}).
+Its "[[normal ordered product|normal ordered]]" or "[[positive real number|positive]] [[frequency]] component", called the _[[Hadamard propagator]]_ (def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime} below) as well as the corresponding [[time-ordered product|time-ordered]] variant, called the _[[Feynman propagator]]_, which we discuss in detail in _[Propagators](#Propagators)_ below,
+control the [[causal perturbation theory]] for constructing [[perturbative quantum field theory]] by [[deformation quantization|deforming]]
+the commutative pointwise product of [[on-shell]] [[observables]] to a [[non-commutative algebra|non-commutative product]] governed to first order by the [[Peierls-Poisson bracket]].
+
+To see how such a [[deformation quantization]] comes about conceptually from the [[phase space]] strucure,
+notice from the basic principles of [[homotopy theory]] that given any [[structure]] on a [[space]]
 which is [[invariant]] with respect to a [[symmetry group]] [[action|acting]] on the space
 (here: the [[presymplectic current]])
 then the true structure at hand is the [[homotopy quotient]] of that [[space]] by that [[symmetry group]].
@@ -14218,14 +14232,16 @@ $$
   \array{
   \left\{
     \array{
-      \text{on-shell space of field histories}
+      \text{on-shell space}
       \\
-      \text{with local observables}
+      \text{ of field histories}
       \\
-      \text{restricted to any Cauchy surface}
+      \text{restricted to}
+      \\
+      \text{Cauchy surface}
     }
   \right\}
-   &\overset{\array{ \text{homotopy-quotient by} \\ \text{infinitesimal symmetries} }}{\longrightarrow}
+   &\overset{\array{ \text{homotopy} \\ \text{quotient} \\ \text{by} \\ \text{infinitesimal} \\ \text{symmetries} }}{\longrightarrow}
    &
    \left\{
        \array{
@@ -14234,7 +14250,7 @@ $$
          \text{phase space}
        }
    \right\}
-   &\overset{ \text{Lie algebra of functions} }{\longrightarrow}&
+   &\overset{ \array{\text{Lie algebra} \\ \text{of functions} } }{\longrightarrow}&
    \left\{
       \array{
         \text{Poisson algebra}
@@ -14248,7 +14264,7 @@ $$
    &
      \Big\downarrow{}^\mathrlap{{\text{Lie integration}}}
    &&
-     \Big\downarrow{}^{\mathrlap{quantization}}
+     {}^{\mathllap{quantization}}\Big\downarrow
    \\
    && \left\{
       \array{
@@ -14260,9 +14276,11 @@ $$
    &
    \overset{
       \array{
-         \text{polarized convolution}
+         \text{polarized}
          \\
-         \text{algebra of functions}
+         \text{convolution}
+         \\
+         \text{algebra}
       }
    }{\longrightarrow}&
    \left\{
@@ -14277,43 +14295,7 @@ $$
 
 $\,$
 
-A remarkable aspect of [[Lagrangian field theory]] is that the [[de Rham differential]] of the [[local Lagrangian density]] $\mathbf{L}$ (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) decomposes into
-_two_ kinds of [[variational differential forms]] (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}):
-
-On the one hand the [[Euler-Lagrange variational derivative]]
-$\delta_{EL}\mathbf{L} \in \Omega^{p+1,1}_\Sigma(E)$ appears. This being of horizontal degree $p+1$
-its [[transgression of variational differential forms|transgression]] implies a [[differential 1-form]]
-on the [[space of field histories]] over all of [[spacetime]]. We have seen that this is the derivative
-of the [[action functional]] (def. \ref{ActionFunctional}) which embodies the _[[principle of extremal action]]_
-(prop. \ref{PrincipleOfExtremalAction}) and with it a structure in full [[spacetime]] [[dimension]] $p+1$: the
-[[on-shell]] [[space of field histories]] $\Gamma_{\Sigma}(E)_{\delta_{EL}\mathbf{L} = 0}$ (def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime}).
-
-But there is a second contribution: The [[presymplectic current]] $\Omega_{BFV} \in \Omega^{p,2}_{\Sigma}(E)$.
-Since this is of horizontal degree $p$,
-its [[transgression of variational differential forms|transgression]] implies a further structure on the [[space of field histories]]
-of restricted to [[spacetime]] [[submanifolds]] of dimension $p$ (i.e. of spacetime "[[codimension]] 1").
-There may be such submanifolds such that this restriction does not actually change the [[on-shell]] [[space of field histories]],
-these are called the _[[Cauchy surfaces]]_ (def. \ref{CauchySurface} below).
-
-Moreover,
-we have seen that, via the [[Noether theorem]] (prop. \ref{NoethersFirstTheorem}) and the [[Hamiltonian Noether theorem]] (prop. \ref{HamiltonianDifferentialForms}),
-the [[infinitesimal symmetries of the Lagrangian]] and of the [[presymplectic potential]]
-induce special classes of [[variational differential forms]] that are also in  horizontal degree $p$:
-the [[conserved currents]] (def. \ref{SymmetriesAndConservedCurrents}) and
-the [[Hamiltonian differential form]] (def. \ref{HamiltonianForms}). By [[transgression of variational differential forms|transgression]]
-this impplies that the corresponding [[Lie n-algebras|Lie (p+1)-algebras]] of local infinitesimal symmetries, namely the
-[[Dickey bracket Lie algebra]] and the [[Poisson bracket Lie n-algebra|local Poisson bracket]] (prop. \ref{LocalPoissonBracket}),
-induce [[Lie algebra]] structure on physical quantities in spacetime dimension $p$
-called [[conserved charges]] (prop. \ref{ConservedCharge} below)
-and _Hamiltonian local observables_ (def. \ref{HamiltonianLocalObservables} below), the actual _[[Poisson bracket]]_
-(def. \ref{PoissonBracketOnHamiltonianLocalObservables} below).
-
-This structure in spacetime codimension 1, i.e. the restriction of the [[on-shell]] [[space of field histories]]
-to a [[Cauchy surface]] and equipped via [[transgression of variational differential forms|transgression]] with the induced [[presymplectic form]] and [[Poisson bracket]] on
-Hamiltonian [[local observables]] is called the _[[phase space]]_ of the [[Lagrangian field theory]] (def. \ref{PhaseSpaceAssociatedWithCauchySurface} below),
-and specifically the _[[covariant phase space]]_, to amplify that it does not actually depend on the choice of
-[[Cauchy surface]] (prop. \ref{CovariantPhaseSpace} below).
-
+We now discuss these topics:
 
 $\,$
 
@@ -14420,7 +14402,7 @@ $$
   \,,
 $$
 
-where the components $\Omega_{BFV}_{a_1 a_2}^{\mu_1, \cdots, \mu_{k_1}, \nu_1, \cdots, \nu_{k_2}, \kappa}$
+where the components $(\Omega_{BFV})_{a_1 a_2}^{\mu_1, \cdots, \mu_{k_1}, \nu_1, \cdots, \nu_{k_2}, \kappa}$
 are smooth functions on the [[jet bundle]].
 
 Under these identifications the value of the [[presymplectic form]] $\omega_{\Sigma_p}$ (eq:TransgressionOfPresymplecticCurrentToCauchySurface)
@@ -15073,8 +15055,6 @@ $$
      \\
      & =
      \delta \overline{\phi}_a \wedge \delta \phi^a \wedge dvol_{\Sigma}
-  \;\;\;
-
   \end{aligned}
   \,,
 $$
@@ -18432,7 +18412,7 @@ $$
 
 First of all it follows that the singular support is still the light cone, because this means that $\Delta_H$ is a [[convolution of distributions]] of $\Delta_S$ with $\widehat {\Theta} \propto \delta'$, and this convolution does not increase the singular support (...).
 
-Therefore now same argument as before says that the wave front set consists of wave vectors $k$ on the light cone, but now due to the [[step function]] factor $\Theta(-k_0)$ it must staify $0 \leq - k_0 = k^0$.
+Therefore now same argument as before says that the wave front set consists of wave vectors $k$ on the light cone, but now due to the [[step function]] factor $\Theta(-k_0)$ it must satisfy $0 \leq - k_0 = k^0$.
 
 =--
 
