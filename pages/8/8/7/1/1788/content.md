@@ -1,4 +1,4 @@
-## Propagators
+## Propagators 
  {#Propagators}
 
 The structure that determines the [[quantization]] of a [[Lagrangian field theory]] ([below](#Quantization)) is the [[Poisson bracket]]
