@@ -1419,7 +1419,7 @@ $$
   \phantom{AA}
   \,,
   \phantom{AA}
-  {\vert \vec x - \vec y\vert} 
+  {\vert \vec x - \vec y\vert}
   =
   \sqrt{ {\vert x-y\vert}^2_\eta} \cosh(\tau)
 $$
@@ -1765,7 +1765,7 @@ where
 
 1. $\Delta_S$ is the [[causal propagator]] (prop. \ref{AdvancedRetardedPropafatorsForKleinGordonOnMinkowskiSpacetime}),
    which is real (eq:CausalPropagatorForKleinGordonEquationOnMinkowskiSpacetimeIsReal) and skew-symmetric (prop. \ref{CausalPropagatorIsSkewSymmetric})
-   
+
    $$
      (\Delta_S(x,y))^\ast = \Delta_S(x,y)
      \phantom{AA}
@@ -1773,7 +1773,7 @@ where
      \phantom{AA}
      \Delta_S(y,x) = - \Delta_S(x,y)
    $$
-   
+
 1. $H$ is real and symmetric
 
    $$
@@ -1808,7 +1808,7 @@ $$
    \underset{= \Delta_S(x,y)}{
    \underbrace{
      \frac{-1}{(2\pi)^p}
-     \int 
+     \int
      \frac{1}{\omega(\vec k)/c}
      \sin\left( \omega(\vec k)(x^0 - y^0)/c \right)
      e^{i \vec k \cdot (\vec x - \vec y) }
@@ -1882,7 +1882,7 @@ $$
     H
 $$
 
-where the first terms is proportional to the sum instead of the [[advanced and retarded propagators]] (prop. \ref{AdvancedRetardedPropafatorsForKleinGordonOnMinkowskiSpacetime}) and the second is the symmetric part of the [[Hadamard propagator]] according to prop. \ref{SkewSymmetricPartOfHadmrdPropagatorIsCausalPropagatorForKleinGordonEquationOnMinkowskiSpacetime}.
+where the first term is proportional to the sum of the [[advanced and retarded propagators]] (prop. \ref{AdvancedRetardedPropafatorsForKleinGordonOnMinkowskiSpacetime}) and the second is the symmetric part of the [[Hadamard propagator]] according to prop. \ref{SkewSymmetricPartOfHadmrdPropagatorIsCausalPropagatorForKleinGordonEquationOnMinkowskiSpacetime}.
 
 =--
 
@@ -1891,7 +1891,7 @@ where the first terms is proportional to the sum instead of the [[advanced and r
 ###### Proposition
 **(mode expanion for [[Feynman propagator]] of [[Klein-Gordon equation]] on [[Minkowski spacetime]])**
 
-The [[Feynman propagator]] (def. \ref{FeynmanPropagatorForKleinGordonEquationOnMinkowskiSpacetime}) for the [[Klein-Gordon equation]] on [[Minkowski spacetime]] is given by
+The [[Feynman propagator]] (def. \ref{FeynmanPropagatorForKleinGordonEquationOnMinkowskiSpacetime}) for the [[Klein-Gordon equation]] on [[Minkowski spacetime]] is given by the following equivalent expressions
 
 $$
   \begin{aligned}
@@ -1917,21 +1917,17 @@ $$
     }
   \right.
   \\
-  &=
-  \underset{ {\epsilon \in (0,\infty)} \atop {\epsilon \to 0} }{\lim}
-  \frac{-i}{(2\pi)^{p+1}}
-  \int
-  \int_{-\infty}^\infty
-  \frac{
-     e^{i k_\mu (x^\mu - y^\mu)}
-  }{
-    - k_\mu k^\mu - \left( \tfrac{m c}{\hbar} \right)^2 + i \epsilon
-  }
-  \, d k_0 \, d^p \vec k
+  & =
+  \left\{
+    \array{
+      \Delta_H(x,y) &\vert& (x^0 - y^0) \gt 0
+      \\
+      \Delta_H(y,x) &\vert& (x^0 - y^0) \lt 0
+    }
+  \right.
   \end{aligned}
 $$
 
-Here in the second line we have a [[limit of a sequence|limit]] of [[distributions]] as for the [[Cauchy principal value]] ([this prop](#CauchyPrincipalValueEqualsIntegrationWithImaginaryOffsetPlusDelta)).
 
 =--
 
@@ -2021,12 +2017,56 @@ $$
     (x^0 - y^0) \lt 0
     }
   \right.
+  \\
+  & =
+  \left\{
+    \array{
+      \Delta_H(x,y) &\vert& (x^0 - y^0) \gt 0
+      \\
+      \Delta_H(y,x) &\vert& (x^0 - y^0) \lt 0
+    }
+  \right.
   \end{aligned}
 $$
 
-where in the second line we used [[Euler's formula]].
+where in the second line we used [[Euler's formula]]. The last line follows by comparison with (eq:HadamardPropagatorForKleinGordonOperatorOnMinkowskiSpacetime).
 
-For the second statement we compute as follows:
+
+=--
+
+As before for the [[causal propagator]], there are equivalent reformulations of the [[Feynman propagator]]:
+
++-- {: .num_prop #}
+###### Proposition
+
+
+The [[Feynman propagator]] (def. \ref{FeynmanPropagatorForKleinGordonEquationOnMinkowskiSpacetime}) for the [[Klein-Gordon equation]] on [[Minkowski spacetime]] is equivalently given by the following expression:
+
+$$
+  \begin{aligned}
+  \Delta_F(x,y)
+  & =
+  \underset{ {\epsilon \in (0,\infty)} \atop {\epsilon \to 0} }{\lim}
+  \frac{-i}{(2\pi)^{p+1}}
+  \int
+  \int_{-\infty}^\infty
+  \frac{
+     e^{i k_\mu (x^\mu - y^\mu)}
+  }{
+    - k_\mu k^\mu - \left( \tfrac{m c}{\hbar} \right)^2 + i \epsilon
+  }
+  \, d k_0 \, d^p \vec k
+  \end{aligned}
+$$
+
+where we have a [[limit of a sequence|limit]] of [[distributions]] as for the [[Cauchy principal value]] ([this prop](#CauchyPrincipalValueEqualsIntegrationWithImaginaryOffsetPlusDelta)).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We compute as follows:
 
 $$
   \begin{aligned}
@@ -2093,6 +2133,9 @@ $$
     (x^0 - y^0) \lt 0
     }
   \right.
+  \\
+  & = 
+  \Delta_F(x,y)
   \end{aligned}
 $$
 
@@ -2109,8 +2152,9 @@ Here
 
    and then apply [[Cauchy's integral formula]] which picks out $2\pi i$ times the [[residue]] a these poles.
 
-<img src="https://ncatlab.org/nlab/files/ContourForFeynmanPropagator.png" height="300">
+   <img src="https://ncatlab.org/nlab/files/ContourForFeynmanPropagator.png" height="300">
 
+1. In the fourth step we used prop. \ref{ModeExpansionForFeynmanPropagatorOfKleinGordonEquationOnMinkowskiSpacetime}.
 
 =--
 
