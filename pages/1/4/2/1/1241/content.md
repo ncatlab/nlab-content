@@ -106,6 +106,10 @@ of $E_8$ in F-theory_, 2014 ([pdf](http://stringpheno2014.ictp.it/parallels/tues
 
 * {#Vafa15} [[Cumrun Vafa]], _Reflections on F-theory_, 2015 (<a href="http://f-theory15.mpp.mpg.de/talks/Vafa.pdf">pdf</a>
 
+Claim that [[proton decay]] may be entirely avoided:
+
+* Bartosz Fornal, Benjamin Grinstein, _$SU(5)$ Unification without Proton Decay_, Physics Review Letters ([arXiv:1706.08535](https://arxiv.org/abs/1706.08535))
+
 [[!redirects GUTs]]
 [[!redirects grand unified theory]]
 [[!redirects grand unified theories]]
