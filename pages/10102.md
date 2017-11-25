@@ -36,7 +36,7 @@ $$
 of $ A $ with the field of [[complex numbers]], equipped with the multiplication law
 
 $$
-          (a_{1} \oplus z_{1}) \cdot (a_{1} \oplus z_{1})
+          (a_{1} \oplus z_{1}) \cdot (a_{2} \oplus z_{2})
 \coloneqq (a_{1} a_{2} + z_{2} a_{1} + z_{1} a_{2}) \oplus z_{1} z_{2},
 $$
 
