@@ -21,7 +21,7 @@ If you need it, here is my email:  droberts.[fifth and largest-known [[Fermat pr
 
 ### Papers
 
-* _The smooth Hom-stack of an orbifold_, Joint with [[nLab:Raymond Vozzo|Raymond Vozzo]], [arXiv:1610.05904](https://arxiv.org/abs/1610.05904). To appear in the [2016 MATRIX Annals](https://www.matrix-inst.org.au/2016-matrix-annals/). (Accepted 13 December 2016)
+* _The smooth Hom-stack of an orbifold_, Joint with [[nLab:Raymond Vozzo|Raymond Vozzo]], [arXiv:1610.05904](https://arxiv.org/abs/1610.05904). To appear in the [2016 MATRIX Annals](https://www.matrix-inst.org.au/2016-matrix-annals/). (Accepted 13 December 2016) ([SpringerLink](http://www.springer.com/gp/book/9783319722986) - to be published 22 February 2018)
 
 * _Equivariant bundle gerbes_, [Advances in Theoretical and Mathematical Physics](http://intlpress.com/site/pub/pages/journals/items/atmp/_home/_main/)
  21 (2017) no. 4 pp 921-975, doi:[10.4310/ATMP.2017.v21.n4.a3
