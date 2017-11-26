@@ -1494,7 +1494,7 @@ $$
     \frac{1}{(2\pi)^p}
     \int
     \frac{1}{\omega(\vec k)c}
-    e^{-i\omega(\vec k)(x^0 - y^0)/c} e^{i \vec k \cdot \vec x}
+    e^{-i\omega(\vec k)(x^0 - y^0)/c} e^{i \vec k \cdot (\vec x - \vec y)}
     \, d^p \vec k
     &\vert&
     (x^0 - y^0) \gt 0
@@ -1502,7 +1502,7 @@ $$
     \frac{1}{(2\pi)^p}
     \int
     \frac{1}{2\omega(\vec k)c}
-    e^{+i\omega(\vec k)(x^0 - y^0)/c} e^{i \vec k \cdot \vec x}
+    e^{+i\omega(\vec k)(x^0 - y^0)/c} e^{i \vec k \cdot (\vec x - \vec y)}
     \, d^p \vec k
     &\vert&
     (x^0 - y^0) \lt 0
@@ -1595,7 +1595,7 @@ $$
     \frac{1}{(2\pi)^p}
     \int
     \frac{1}{2\omega(\vec k)c}
-    e^{-i\omega(\vec k)(x^0 - y^0)/c} e^{i \vec k \cdot \vec x}
+    e^{-i\omega(\vec k)(x^0 - y^0)/c} e^{i \vec k \cdot (\vec x - \vec y)}
     \, d^p \vec k
     &\vert&
     (x^0 - y^0) \gt 0
@@ -1603,7 +1603,7 @@ $$
     \frac{1}{(2\pi)^p}
     \int
     \frac{1}{2\omega(\vec k)c}
-    e^{+i\omega(\vec k)(x^0 - y^0)/c} e^{i \vec k \cdot \vec x}
+    e^{+i\omega(\vec k)(x^0 - y^0)/c} e^{i \vec k \cdot (\vec x - \vec y)}
     \, d^p \vec k
     &\vert&
     (x^0 - y^0) \lt 0
@@ -1712,7 +1712,7 @@ $$
     \frac{1}{(2\pi)^p}
     \int
     \frac{1}{2\omega(\vec k)c}
-    e^{-i\omega(\vec k)(x^0 - y^0)/c} e^{i \vec k \cdot \vec x}
+    e^{-i\omega(\vec k)(x^0 - y^0)/c} e^{i \vec k \cdot (\vec x - \vec y)}
     \, d^p \vec k
     &\vert&
     (x^0 - y^0) \gt 0
@@ -1720,7 +1720,7 @@ $$
     \frac{1}{(2\pi)^p}
     \int
     \frac{1}{2\omega(\vec k)c}
-    e^{+i\omega(\vec k)(x^0 - y^0)/c} e^{i \vec k \cdot \vec x}
+    e^{+i\omega(\vec k)(x^0 - y^0)/c} e^{i \vec k \cdot (\vec x - \vec y)}
     \, d^p \vec k
     &\vert&
     (x^0 - y^0) \lt 0
@@ -2098,7 +2098,7 @@ $$
    \,.
 $$
 
-Here $J_0$ denotes the [[Bessel function]] of order 0. The important point here is that this is a smooth function.
+Here in the last line we identified the integral representation of the [[Bessel function]] $J_0$ of order 0 ([here](Bessel+function#eq:J0AsIntSinOfxCoshtdt)). The important point here is that this is a smooth function.
 
 Similarly, if $x-y$ is [[timelike]] with $(x^0 - y^0) \lt 0$ then the same argument yields
 
