@@ -1763,24 +1763,19 @@ We now discuss the [[singular support]] and the [[wave front sets]] of the vario
 ###### Proposition
 **([[singular support]] of the [[causal propagator]] of the [[Klein-Gordon equation]] on [[Minkowski spacetime]] is the [[light cone]])**
 
-The [[singular support]] of the [[causal propagator]] for the [[Klein-Gordon equation]] on [[Minkowski spacetime]]
+The [[singular support]] of the [[causal propagator]] $\Delta_S$ for the [[Klein-Gordon equation]] on [[Minkowski spacetime]],
+regarded via [[translation]] [[invariant|invariance]] as a [[generalized function]] in a single variable (eq:TranslationInvariantKleinGordonPropagatorsOnMinkowskiSpacetime)
 is the [[light cone]] of the origin:
 
 $$
-\Delta_S(x,y)
-\;\propto\;
-sgn(x^0 - y^0)
-\delta\left(
--{\vert x-y\vert}^2_\eta
-\right)
--
-\Theta\left(
--{\vert x-y\vert}^2_\eta
-\right)
-\left(
-\text{non-singular}
-\right)
-\,.
+  supp_{sing}(\Delta_S)
+  \;=\;
+  \left\{
+    x \in \mathbb{R}^{p,1}
+    \,\vert\,
+    {\vert x\vert}^2_\eta = 0
+  \right\}
+  \,.
 $$
 
 =--
@@ -1830,7 +1825,15 @@ d {\vert \vec k\vert}
 \end{aligned}
 $$
 
-We specialize further computation now to the case that the [[spacetime]] [[dimension]] is $p + 1 = 3 + 1$, in which case the above becomes
+
+We consider this now for the case that the [[spacetime]] [[dimension]] is
+
+$$
+  p + 1 = 3 + 1
+  \,.
+$$
+
+In this case the above becomes
 
 $$
 \label{StepsInComputingCausalPropagatorIn3plus1Dimension}
@@ -1865,6 +1868,7 @@ d {\vert \vec k \vert}
 \frac{ {\vert \vec k \vert} }{ \omega(\vec k)/c }
 \sin\left( \omega(\vec k) (x^0 - y^0) /c \right)
 \sin\left( {\vert \vec k\vert}\, {\vert \vec x - \vec y\vert} \right)
+\, d {\vert \vec k\vert}
 \\
 & =
 \frac{- 2}{(2\pi)^{2} {\vert \vec x - \vec y\vert}}
@@ -1915,11 +1919,14 @@ d \kappa
 }
 }
 \right)
-\,,
+\,.
 \end{aligned}
 $$
 
-where in the last step we used one of the [[trigonometric identities]].
+Here in the second but last step we renamed $\kappa \coloneqq {\vert \vec k\vert}$ and
+doubled the integration domain for  convenience,
+and in the last step we used the [[trigonometric identity]] $\sin(\alpha) \cos(\beta)\;=\; \tfrac{1}{2} \left( \sin(\alpha + \beta) + \sin(\alpha - \beta) \right)$.
+
 
 In order to further evaluate this, we parameterize the remaining components $(\omega/c, \kappa)$ of the [[wave vector]]
 by the dual [[rapidity]] $z$, via
@@ -2176,7 +2183,19 @@ $$
 ###### Proposition
 **([[singular support]] of the [[Hadamard propagator]] of the [[Klein-Gordon equation]] on [[Minkowski spacetime]] is the [[light cone]])**
 
-The [[singular support]] of the [[Hadamard propagator]] $\Delta_H$ (def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime}) for the [[Klein-Gordon equation]] on [[Minkowski spacetime]] is the [[light cone]] of the origin.
+The [[singular support]] of the [[Hadamard propagator]] $\Delta_H$ (def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime}) for the [[Klein-Gordon equation]] on [[Minkowski spacetime]], regarded via [[translation]] [[invariant|invariance]] as a [[distribution]]
+in a single variable, is the [[light cone]] of the origin:
+
+$$
+  supp_{sing}(\Delta_H)
+  =
+  \left\{
+    x \in \mathbb{R}^{p,1}
+    \;\vert\;
+    {\vert x\vert}^2_\eta = 0
+  \right\}
+  \,.
+$$
 
 =--
 
@@ -2184,6 +2203,8 @@ The [[singular support]] of the [[Hadamard propagator]] $\Delta_H$ (def. \ref{St
 
 +-- {: .proof}
 ###### Proof
+
+Again we give the proof for the case that the [[spacetime]] [[dimension]] is $p + 1 = 3 + 1$.
 
 By (eq:SymmetricPartOfHadamardPropagatorForKleinGordonOnMinkowskiSpacetime) we have
 
@@ -2215,7 +2236,7 @@ $$
   \end{aligned}
 $$
 
-The first summand, proportional to the [[causal propagator]], we computed as (eq:FinalResultOfComputationOf3Plus1dCausalPropagator) 
+The first summand, proportional to the [[causal propagator]], which we computed as (eq:FinalResultOfComputationOf3Plus1dCausalPropagator)
 in prop. \ref{SingularSupportOfCausalPropagatorForKleinGordonEquationOnMinkowskiSpacetimeIsTheLightCone} to be
 
 $$
@@ -2237,7 +2258,7 @@ $$
   \,.
 $$
 
-The second term is computed in a directly analogous fashion: The integrals $I_\pm$ from 
+The second term is computed in a directly analogous fashion: The integrals $I_\pm$ from
 (eq:TheTwoSpecialFunctionIntegralsInTheComputationOfTheCausalPropagatorIn3Plus1DOnMinkowski) are now
 
 $$
@@ -2260,7 +2281,7 @@ Parameterizing by [[rapidity]], as in the proof of prop. \ref{SingularSupportOfC
 
 $$
   \begin{aligned}
-  I_\pm 
+  I_\pm
   & =
     \int_{-\infty}^\infty
      \cos\left(
@@ -2274,7 +2295,7 @@ $$
   \\
   & =
   - \pi N_0
-  \left( 
+  \left(
     \tfrac{m c}{\hbar}
     \sqrt{ {\vert x-y\vert}^2_\eta }
   \right)
@@ -2297,7 +2318,7 @@ $$
      \right)
      \, d z
      \\
-    & = 
+    & =
     2 K_0
    \left(
      \tfrac{m c}{\hbar}
@@ -2323,7 +2344,7 @@ $$
       \tfrac{m c}{\hbar}
       \sqrt{ {\vert x-y\vert}^2_\eta }
     \right)
-    + 
+    +
     \Theta\left( {\vert x-y\vert}^2_\eta  \right)
     \tfrac{2}{\pi}
     K_0
@@ -2357,11 +2378,20 @@ $$
 WF(\Delta_S) = \left\{ (x,k) \,\vert\, {\vert x\vert}^2_\eta = 0 \;\text{and} \; {\vert k\vert}^2_\eta = 0 \; \text{and} \, k \neq 0  \right\}
 $$
 
+<center>
+<img src="https://ncatlab.org/nlab/files/RetGreenFunction.png" width="60"> <br/> - <br/> <img src="https://ncatlab.org/nlab/files/AdvancedGreenFunction.png" width="60">
+</center>
+
 * the [[Hadamard propagator]] $\Delta_H$ (def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime}) has wave front set all pairs $(x,k)$ with $x$ and $k$ both on the light cone and $k^0 \gt 0$:
 
 $$
 WF(\Delta_H) = \left\{ (x,k) \,\vert\, {\vert x\vert}^2_\eta = 0 \;\text{and} \; {\vert k\vert}^2_\eta = 0 \; \text{and} \; k^0 \gt 0   \right\}
 $$
+
+<center>
+<img src="https://ncatlab.org/nlab/files/HadamardPropagator.png" width="60">
+</center>
+
 
 * the [[Feynman propagator]] $\Delta_S$ (def. \ref{FeynmanPropagatorForKleinGordonEquationOnMinkowskiSpacetime}) has wave front set all pairs $(x,k)$ with $x$ and $k$ both on the light cone and $\pm k_0 \gt 0 \;\Leftrightarrow\; \pm x^0 \gt 0$
 
@@ -2372,6 +2402,10 @@ $$
     \right)
   \right\}
 $$
+
+<center>
+<img src="https://ncatlab.org/nlab/files/FeynmanPropagator.png" width="60">
+</center>
 
 =--
 
