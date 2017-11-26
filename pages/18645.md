@@ -3430,9 +3430,30 @@ and the Clifford action of prop. \ref{CliffordAlgebraInTermsOfNormedDivisionAlge
     \end{aligned}
   $$
 
+Finally, it is common to abbreviate contractions with the [[Clifford algebra]] generators $(\gamma^\mu)$
+by a slash, as in
+
+$$
+  k\!\!\!/\, \;\coloneqq\; \gamma^\mu k_\mu
+$$
+
+or
+
+$$
+  \label{FeynmanSlashNotationForMasslessDiracOperator}
+  i \partial\!\!\!/\,
+  \;\coloneqq\;
+  i \gamma^\mu \frac{\partial}{\partial x^\mu}
+  \,.
+$$
+
+This is called the _[[Feynman slash notation]]_.
+
 =--
 
 (e.g. [Dermisek I-8](Dirac+field#DermisekI8), [Dermisek I-9](Dirac+field#DermisekI9))
+
+
 
 
 Below we spell out the example of the [[Lagrangian field theory]] of the [[Dirac field]]
@@ -3559,6 +3580,7 @@ $$
 $$
 
 of the closed [[future cone]] and [[past cone]] is called the full _[[causal cone]]_ of the [[event]] $x$.
+Its [[boundary]] is the _[[light cone]]_.
 
 More generally for $S \subset \Sigma$ a [[subset]] of [[events]] we write
 
@@ -9971,7 +9993,16 @@ $$
   \,.
 $$
 
-This is the _[[Dirac equation]]_.
+This is the _[[Dirac equation]]_. In terms of the _[[Feynman slash notation]]_ from (eq:FeynmanSlashNotationForMasslessDiracOperator)
+the corresponding [[differential operator]], the _[[Dirac operator]]_ reads
+
+$$
+  \left(
+    - i \partial\!\!\!/\, + m
+  \right)
+  \psi = 0
+  \,.
+$$
 
 Hence this is a [[free field theory]] according to def. \ref{FreeFieldTheory}.
 
@@ -9994,7 +10025,7 @@ $$
 $$
 
 This means that a [[Dirac field]] which solves the [[Dirac equations]] is
-in particular (on [[Minkowski spacetime]]) componentwise a solution to the [[Klein-Gordon equation]].
+in particular (on [[Minkowski spacetime]]) componentwise a [[solution]] to the [[Klein-Gordon equation]].
 
 =--
 
@@ -14204,7 +14235,7 @@ The [[transgression of variational differential forms|transgression]] (def. \ref
 to these [[Cauchy surfaces]] yields the corresponding [[infinitesimal symmetry]] group acting on the [[on-shell]] [[field histories]],
 whose [[Lie bracket]] is the _[[Poisson bracket]]_ pairing on [[on-shell]] [[observables]] (example \ref{EvaluationOfTransgressedVariationalFormsOnTangentVectorsForFreeFieldTheory} below). This data, the [[on-shell]] [[space of field histories]] on the [[infinitesimal neighbourhood]] of a [[Cauchy surface]] equipped with [[infinitesimal symmetry]] exhibited by the [[Poisson bracket]] is called the _[[phase space]]_ of the theory (def. \ref{PhaseSpaceAssociatedWithCauchySurface}) below.
 
-In fact if enough [[Cauchy surfaces]] exist, then the [[presymplectic forms]] associated with 
+In fact if enough [[Cauchy surfaces]] exist, then the [[presymplectic forms]] associated with
 any one choice turn out do agree after [[pullback of differential forms|pullback]] to the full [[on-shell]] [[space of field histories]], exhibiting this as the _[[covariant phase space]]_ of the theory (prop. \ref{CovariantPhaseSpace} below) which is hence manifestly independent of aa choice of space/time splitting. Accordingly, also the [[Poisson bracket]] on [[on-shell]] [[observables]] exists in a covariant form; for [[free field theories]] with [[Green hyperbolic differential equation|Green hyperbolic]] [[equations of motion]] (def. \ref{GreenHyperbolicDifferentialOperator}) this is called the _[[Peierls-Poisson bracket]]_ (theorem \ref{PPeierlsBracket} below). The [[integral kernel]] for this [[Peierls-Poisson bracket]] is called the _[[causal propagator]]_ (prop. \ref{GreenFunctionsAreContinuous}).
 Its "[[normal ordered product|normal ordered]]" or "[[positive real number|positive]] [[frequency]] component", called the _[[Hadamard propagator]]_ (def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime} below) as well as the corresponding [[time-ordered product|time-ordered]] variant, called the _[[Feynman propagator]]_ (def. \ref{FeynmanPropagatorForKleinGordonEquationOnMinkowskiSpacetime} below), which we discuss in detail in _[Propagators](#Propagators)_ below,
 control the [[causal perturbation theory]] for constructing [[perturbative quantum field theory]] by [[deformation quantization|deforming]]
@@ -15709,6 +15740,11 @@ of [[quantum observables]] of the [[free field theory]] (discussed below in _[Fr
 
 $\,$
 
+The following table summarizes the structure of the system of propagators. 
+(The column "as vacuum expectation value of field operators" will be discussed further below in _[Free quantum fields](#FreeQuantumFields)_).
+
+$\,$
+
 [[!include propagators - table]]
 
 $\,$
@@ -15731,7 +15767,7 @@ We now discuss these topics:
   * _[causal propagator](#CausalPropagatorForKleinGordonEquationOnMinkowskiSpacetime)_
 
   * _[Hadamard propagator](#HadamardPropagatorForKleinGordonOnMinkowskiSpacetime)_
-  
+
   * _[Feynman propagator](#FeynmanPropagator)_
 
   * _[singular support and wave front sets](#WaveFrontSetsOfPropagatorsForKleinGordonOperatorOnMinkowskiSpacetime)_
@@ -18281,15 +18317,14 @@ $\,$
 **[[singular support]] and [[wave front sets]]**
 {#WaveFrontSetsOfPropagatorsForKleinGordonOperatorOnMinkowskiSpacetime}
 
-We now discuss the [[singular support]] and the [[wave front sets]] of the various [[propagators]] for the [[Klein-Gordon equation]] on [[Minkowski spacetime]].
+We now discuss the [[singular support]] (def. \ref{SingularSupportOfADistribution}) and the [[wave front sets]] (def. \ref{WaveFrontSet}) of the various [[propagators]] for the [[Klein-Gordon equation]] on [[Minkowski spacetime]].
 
 
 +-- {: .num_prop #SingularSupportOfCausalPropagatorForKleinGordonEquationOnMinkowskiSpacetimeIsTheLightCone}
 ###### Proposition
 **([[singular support]] of the [[causal propagator]] of the [[Klein-Gordon equation]] on [[Minkowski spacetime]] is the [[light cone]])**
 
-The [[singular support]] of the [[causal propagator]] for the [[Klein-Gordon equation]] on [[Minkowski spacetime]]
-is the [[light cone]] of the origin:
+The [[singular support]] (def. \ref{SingularSupportOfADistribution}) of the [[causal propagator]] (prop. \ref{GreenFunctionsAreContinuous}) for the [[Klein-Gordon equation]] on [[Minkowski spacetime]] (example \ref{GreenHyperbolicKleinGordonEquation}) is the [[light cone]] of the origin (def. \ref{CausalPastAndFuture}):
 
 $$
 \Delta_S(x,y)
@@ -18701,7 +18736,8 @@ $$
 ###### Proposition
 **([[singular support]] of the [[Hadamard propagator]] of the [[Klein-Gordon equation]] on [[Minkowski spacetime]] is the [[light cone]])**
 
-The [[singular support]] of the [[Hadamard propagator]] $\Delta_H$ (def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime}) for the [[Klein-Gordon equation]] on [[Minkowski spacetime]] is the [[light cone]] of the origin.
+The [[singular support]] (def. \ref{SingularSupportOfADistribution}) of the [[Hadamard propagator]] $\Delta_H$ (def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime}) for the [[Klein-Gordon equation]] on [[Minkowski spacetime]] (example \ref{GreenHyperbolicKleinGordonEquation}) is the [[light cone]] of the origin (def. \ref{CausalPastAndFuture}).
+
 
 =--
 
@@ -18709,6 +18745,8 @@ The [[singular support]] of the [[Hadamard propagator]] $\Delta_H$ (def. \ref{St
 
 +-- {: .proof}
 ###### Proof
+
+We again give the proof for the case that [[spacetime]] [[dimension]] is $p + 1 = 3 + 1$.
 
 By (eq:SymmetricPartOfHadamardPropagatorForKleinGordonOnMinkowskiSpacetime) we have
 
@@ -18869,7 +18907,6 @@ light cone.
 
 =--
 
-
 +-- {: .num_prop #WaveFronSetsForKGPropagatorsOnMinkowski}
 ###### Proposition
 **([[wave front sets]] of [[propagators]] of [[Klein-Gordon equation]] on [[Minkowski spacetime]])**
@@ -18882,11 +18919,20 @@ $$
 WF(\Delta_S) = \left\{ (x,k) \,\vert\, {\vert x\vert}^2_\eta = 0 \;\text{and} \; {\vert k\vert}^2_\eta = 0 \; \text{and} \, k \neq 0  \right\}
 $$
 
+<center>
+<img src="https://ncatlab.org/nlab/files/RetGreenFunction.png" width="60"> <br/> - <br/> <img src="https://ncatlab.org/nlab/files/AdvancedGreenFunction.png" width="60">
+</center>
+
 * the [[Hadamard propagator]] $\Delta_H$ (def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime}) has wave front set all pairs $(x,k)$ with $x$ and $k$ both on the light cone and $k^0 \gt 0$:
 
 $$
 WF(\Delta_H) = \left\{ (x,k) \,\vert\, {\vert x\vert}^2_\eta = 0 \;\text{and} \; {\vert k\vert}^2_\eta = 0 \; \text{and} \; k^0 \gt 0   \right\}
 $$
+
+<center>
+<img src="https://ncatlab.org/nlab/files/HadamardPropagator.png" width="60">
+</center>
+
 
 * the [[Feynman propagator]] $\Delta_S$ (def. \ref{FeynmanPropagatorForKleinGordonEquationOnMinkowskiSpacetime}) has wave front set all pairs $(x,k)$ with $x$ and $k$ both on the light cone and $\pm k_0 \gt 0 \;\Leftrightarrow\; \pm x^0 \gt 0$
 
@@ -18897,6 +18943,10 @@ $$
     \right)
   \right\}
 $$
+
+<center>
+<img src="https://ncatlab.org/nlab/files/FeynmanPropagator.png" width="60">
+</center>
 
 =--
 
@@ -18962,12 +19012,13 @@ $\,$
 **[[propagators]] for the [[Dirac equation]] on [[Minkowski spacetime]]**
  {#DiracEquationOnMinkowskiSpacetimePropagators}
 
+We now discuss how the [[propagators]] for the [[free field theory|free]] [[Dirac field]] on [[Minkowski spacetime]] (example \ref{GreenHyperbolicDiracOperator}) follow directly from those for the [[scalar field]] discussed above.
 
 +-- {: .num_prop #DiracEquationOnMinkowskiSpacetimeAdvancedAndRetardedPropagators}
 ###### Proposition
 **([[advanced and retarded propagator]] for [[Dirac equation]] on [[Minkowski spacetime]])**
 
-Consider the [[Dirac operator]] on [[Minkowski spacetime]], which in [[Feynman slash notation]] reads
+Consider the [[Dirac operator]] on [[Minkowski spacetime]] (example \ref{EquationOfMotionOfDiracFieldIsDiracEquation}), which in [[Feynman slash notation]] (eq:FeynmanSlashNotationForMasslessDiracOperator) reads
 
 $$
   i \partial\!\!\!/\,
