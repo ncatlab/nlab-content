@@ -82,7 +82,9 @@ The [[roots]] of the sine function, hence the argument where its value is [[zero
 
 * [[exponential]], [[Euler's formula]]
 
-* [[trigonometric identity]]
+* [[trigonometric identity]] 
+
+* [[pi]]
 
 ## References
 
