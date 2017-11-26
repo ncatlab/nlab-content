@@ -31,9 +31,9 @@ Classically:
 A **field** is a [[commutative ring]] in which every nonzero element has a multiplicative [[inverse]] and $0 \neq 1$ (which may be combined as: an element is invertible if and only if it is nonzero).
 =--
 
-Fields are studied in *field theory* which is a branch of [[commutative algebra]]. 
+Fields are studied in *field theory*, which is a branch of [[commutative algebra]]. 
 
-Not assuming the commutativity axiom, then the result is a [[skewfield]] or [[division ring]] (also in some contexts simply called a "field"). For example, the [[free field (algebra)|free field]] of Cohn and Amitsur is in fact noncommutative.  
+If we omit the commutativity axiom, then the result is a [[skewfield]] or [[division ring]] (also in some contexts simply called a "field"). For example, the [[free field (algebra)|free field]] of Cohn and Amitsur is in fact noncommutative.  
 
 
 ### Constructive notions
@@ -47,7 +47,7 @@ Fields are (arguably) not a purely [[algebra|algebraic]] notion in that they don
 If we replace "an element is invertible iff it is nonzero" in Definition \ref{classical} by "an element is invertible [[xor]] it equals zero" (which is equivalent in [[classical logic]] but stronger in [[constructive logic]]), then we obtain the notion of **discrete field**.  In addition to $0\neq 1$, this condition means that every element is either $0$ or invertible.
 =--
 
-Such a field $F$ is 'discrete' in that it decomposes as a coproduct $F = \{0\} \sqcup F^\times$ (where $F^\times$ is the subset of invertible elements).  An advantage is that this is a [[coherent logic|coherent theory]]; a disadvantage is that it is not satisfied (constructively) by the ring of [[real numbers]] (however these are defined), although it is satisfied by the ring of [[rational number|rational]] (or even [[algebraic number|algebraic]]) numbers and by the [[finite field]]s as usual.
+Such a field $F$ is 'discrete' in that it decomposes as a coproduct $F = \{0\} \sqcup F^\times$ (where $F^\times$ is the subset of invertible elements).  An advantage is that this is a [[coherent logic|coherent theory]] and hence also a [[geometric theory]]; for this reason [Johnstone](#Johnstone77) calls such fields **geometric fields**.  A disadvantage is that this axiom is not satisfied (constructively) by the ring of [[real numbers]] (however these are defined), although it is satisfied by the ring of [[rational number|rational]] (or even [[algebraic number|algebraic]]) numbers and by the [[finite field]]s as usual.
 
 +-- {: .num_defn #heyting}
 ###### Definition
@@ -67,11 +67,11 @@ An advantage is that even more versions of the [[real numbers]] (including the [
 
 Every discrete field is also a Heyting field, and every Heyting field is also a residue field. A Heyting or residue field is a discrete field if and only if [[decidable equality|equality is decidable]]; it is in this sense that a discrete field is 'discrete'.
 
-A residue field is a Heyting field if and only if it is a [[local ring]]. Furthermore, the quotient ring (or 'residue ring') of any local ring by its ideal of noninvertible elements is a Heyting field; in particular, it is a [[residue field]] (hence that name).  On the other hand, not every residue field is even a local ring (the MacNeille reals are not), so not every residue field is the residue ring of any local ring.
+A residue field is a Heyting field if and only if it is a [[local ring]].  Furthermore, the quotient ring (or 'residue ring') of any local ring by its ideal of noninvertible elements is a Heyting field; in particular, it is a [[residue field]].  On the other hand, not every residue field is even a local ring (the MacNeille reals are not), so not every residue field is the residue ring of any local ring.  The name "residue field" comes from the fact that these fields are precisely the residue rings of *weak local rings* (rings in which the noninvertible elements form an ideal).
 
 Counterexamples were remarked above, but to be explicit: The (located Dedekind) [[real numbers]] form a Heyting field which need not be discrete. The [[MacNeille real number]]s form a residue field which need not be Heyting; see section D4.7 of _[[Elephant|Sketches of an Elephant]]_.
 
-The three definitions above do not exhaust the possible constructive notions of field.  For instance, in [MRR87](#MRR87) the unadorned word **field** is defined like a Heyting field above, but with $\#$ being an arbitrary [[inequality relation]] rather than a tight apartness, and a **denial field** is defined to be a field (in this sense) with respect to the [[denial inequality]] in which additionally $(0)$ is a [[prime ideal]].
+The three definitions above do not exhaust the possible constructive notions of field.  For instance, in [MRR87](#MRR87) the unadorned word **field** is defined like a Heyting field above, but with $\#$ being an arbitrary [[inequality relation]] rather than a tight apartness.  If the inequality is the [[denial inequality]], this reproduces the original classical definition, which in [Johnstone77](#Johnstone77) is called a **field of fractions** since they are precisely the fields of fractions of "weak [[integral domains]]" (defined as rings in which the product of two nonzero elements is nonzero).  In [MRR87](#MRR87) a **denial field** is defined to be a field of fractions in which additionally $(0)$ is a [[prime ideal]].
 
 
 ## Properties
@@ -164,6 +164,9 @@ The canonical  [[ring object|local ring object]] of the [[Zariski site|gros Zari
 
 * [[Peter Johnstone]], [[Sketches of an Elephant]], Part D.  The [[classifying topos]] for fields is discussed in section D3.1.11(b).
  {#Elephant}
+
+* [[Peter Johnstone]], *Rings, Fields, and Spectra*, 1977. [doi](https://doi.org/10.1016/0021-8693(77)90284-8)
+ {#Johnstone77}
 
 * [[Olivia Caramello]], [[Peter Johnstone]], _De Morgan's law and the theory of fields_ ([arXiv:0808.1972](http://arxiv.org/abs/0808.1972))
 
