@@ -55,7 +55,7 @@ that on some level pervades complex analysis.
 
 ## "Archimedean" definition 
 
-A sequence that approximates $\pi$ that was available to Archimedes (using his "method of exhaustion") involves calculating perimeters of inscribed $2^n$-gons (squares, octagons, etc.) in a unit circle, using half-angle formulas. This brief description is, for that matter, available to high-school students, so we can just summarize the result. 
+A sequence that approximates $\pi$ that was available to [[Archimedes]] (using his "method of exhaustion") involves calculating perimeters of inscribed $2^n$-gons (squares, octagons, etc.) in a unit circle, using half-angle formulas. This brief description is, for that matter, available to high-school students, so we can just summarize the result. 
 
 Define a sequence by the recursion $x_1 = 0$, $x_{n+1} = \sqrt{2 + x_n}$. A typical term has nested square roots, like $x_4 = \sqrt{2 + \sqrt{2 + \sqrt{2}}}$. This sequence rapidly approaches $2$ in the limit; put 
 
@@ -124,7 +124,7 @@ $$
 
 ## Irrationality and transcendence 
 
-Famously, $\pi$ is an [[irrational number]], although proving this fact is no triviality. The first substantive idea of proof was given by Lambert, who discovered the following continued fraction expression for the tangent: 
+Famously, $\pi$ is an [[irrational number]], although proving this fact is no triviality. The first substantive idea of proof was given by Lambert, who discovered the following [[continued fraction]] expression for the [[tangent]]: 
 
 $$\tan(z) = \textstyle \frac{z}{1 - \textstyle \frac{z^2}{3 - \textstyle \frac{z^2}{5 - \textstyle \frac{z^2}{7 - \ldots}}}}.$$ 
 
