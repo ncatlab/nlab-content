@@ -17,3 +17,6 @@
 * Wikipedia, _[Sine](https://en.wikipedia.org/wiki/Sine)_
 
 [[!redirects cos]]
+
+[[!redirects cosine function]]
+[[!redirects cosine functions]]
