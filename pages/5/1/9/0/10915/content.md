@@ -63,7 +63,7 @@ $$y_n = 2^n \sqrt{2 - x_n}.$$
 
 The statement is that $y_n$ is half the perimeter of the inscribed $2^{n+1}$-gon for $n \geq 1$, so that $y_n$ is an increasing convergent sequence which tends to $\pi$ in the limit. Incidentally, simple high-school algebra shows 
 
-$$y_n = \prod_{k=1}^n \frac{2}{x_k}$$ 
+$$y_n = 2 \prod_{k=2}^n \frac{2}{x_k}$$ 
 
 and thus we may deduce Vieta's formula (see below).  
 
