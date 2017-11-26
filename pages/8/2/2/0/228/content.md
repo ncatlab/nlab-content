@@ -170,7 +170,7 @@ According to [Troelstra and van Dalen](#TvD):
 
 * The 1985 edition with Douglas Bridges, _Constructive Analysis_, includes the general definition of apartness relation, there called an "inequality relation" (though in many other sources, as here, an [[inequality relation]] need not satisfy comparison).
 
-* Anne Troelstra\'s and Dirk van Dalen\'s _Constructivism in Mathematics_ (1988) uses apartness for the reals (volume 1), and general apartness relations in algebra (volume 2, chapter 8)
+* Anne Troelstra\'s and Dirk van Dalen\'s _Constructivism in Mathematics_ (1988) uses apartness for the reals (volume 1), and general apartness relations in algebra (volume 2, chapter 8).  They say "preapartness" and "apartness" instead of "apartness" and "tight apartness" respectively.
  {#TvD}
 
 * Apartness plays a minimal role in _A Course in Constructive Algebra_ (also 1988), by Ray Mines, Fred Richman, and Wim Ruitenburg.
