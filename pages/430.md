@@ -44,7 +44,7 @@ Fields are (arguably) not a purely [[algebra|algebraic]] notion in that they don
 +-- {: .num_defn #discrete}
 ###### Definition
 
-If we replace "an element is invertible iff it is nonzero" in Definition \ref{classical} by "an element is invertible [[xor]] it equals zero" (which is equivalent in [[classical logic]] but stronger in [[constructive logic]]), then we obtain the notion of **discrete field**.
+If we replace "an element is invertible iff it is nonzero" in Definition \ref{classical} by "an element is invertible [[xor]] it equals zero" (which is equivalent in [[classical logic]] but stronger in [[constructive logic]]), then we obtain the notion of **discrete field**.  In addition to $0\neq 1$, this condition means that every element is either $0$ or invertible.
 =--
 
 Such a field $F$ is 'discrete' in that it decomposes as a coproduct $F = \{0\} \sqcup F^\times$ (where $F^\times$ is the subset of invertible elements).  An advantage is that this is a [[coherent logic|coherent theory]]; a disadvantage is that it is not satisfied (constructively) by the ring of [[real numbers]] (however these are defined), although it is satisfied by the ring of [[rational number|rational]] (or even [[algebraic number|algebraic]]) numbers and by the [[finite field]]s as usual.
@@ -52,7 +52,7 @@ Such a field $F$ is 'discrete' in that it decomposes as a coproduct $F = \{0\} \
 +-- {: .num_defn #heyting}
 ###### Definition
 
-If we interpret 'nonzero' in Definition \ref{classical} as a reference to a [[tight apartness relation]], thus defining the apartness relation $\#$ by $x # y$ iff $x - y$ is invertible, then we obtain the notion of **Heyting field**. (As shown [here](/nlab/show/local+ring#internal), the ring operations become strongly extensional functions.) 
+If we interpret 'nonzero' in Definition \ref{classical} as a reference to a [[tight apartness relation]], thus defining the apartness relation $\#$ by $x # y$ iff $x - y$ is invertible, then we obtain the notion of **Heyting field**. (As shown [here](/nlab/show/local+ring#internal), the ring operations become strongly extensional functions.)   In addition to $0\# 1$, the condition then means that every element apart from $0$ is invertible.
 =--
 
 This is how 'practising' constructive analysts of the Bishop school usually define the simple word 'field'.  An advantage is that the (located Dedekind) [[real numbers]] form a Heyting field, although (for example) the (less located) [[MacNeille real number]]s need not form a Heyting field; another disadvantage is that this is not a coherent axiom and so cannot be [[internalization|internalized]] in as many categories.
@@ -60,7 +60,7 @@ This is how 'practising' constructive analysts of the Bishop school usually defi
 +-- {: .num_defn}
 ###### Definition
 
-If we replace "an element is invertible iff it is nonzero" in Definition \ref{classical} by "an element is noninvertible iff it is zero" (which is equivalent in [[classical logic]] but incomparable in [[constructive logic]]), we obtain the notion of **residue field** (which is not quite the same as the [[residue fields]] of [[algebraic geometry]]).
+If we replace "an element is invertible iff it is nonzero" in Definition \ref{classical} by "an element is noninvertible iff it is zero" (which is equivalent in [[classical logic]] but incomparable in [[constructive logic]]), we obtain the notion of **residue field** (which is not quite the same as the [[residue fields]] of [[algebraic geometry]]).  In addition to $0\neq 1$, this condition means that every noninvertible element (i.e. element $x$ such that $x y\neq 1$ for all $y$) is zero.
 =--
 
 An advantage is that even more versions of the [[real numbers]] (including the [[MacNeille real number]]s) form a residue field; disadvantages are that this axiom is not coherent either and that a residue field lacks an [[apartness relation]] (in particular, the MacNeille reals have no apartness).
@@ -70,6 +70,8 @@ Every discrete field is also a Heyting field, and every Heyting field is also a 
 A residue field is a Heyting field if and only if it is a [[local ring]]. Furthermore, the quotient ring (or 'residue ring') of any local ring by its ideal of noninvertible elements is a Heyting field; in particular, it is a [[residue field]] (hence that name).  On the other hand, not every residue field is even a local ring (the MacNeille reals are not), so not every residue field is the residue ring of any local ring.
 
 Counterexamples were remarked above, but to be explicit: The (located Dedekind) [[real numbers]] form a Heyting field which need not be discrete. The [[MacNeille real number]]s form a residue field which need not be Heyting; see section D4.7 of _[[Elephant|Sketches of an Elephant]]_.
+
+The three definitions above do not exhaust the possible constructive notions of field.  For instance, in [MRR87](#MRR87) the unadorned word **field** is defined like a Heyting field above, but with $\#$ being an arbitrary [[inequality relation]] rather than a tight apartness, and a **denial field** is defined to be a field (in this sense) with respect to the [[denial inequality]] in which additionally $(0)$ is a [[prime ideal]].
 
 
 ## Properties
@@ -157,11 +159,11 @@ The canonical  [[ring object|local ring object]] of the [[Zariski site|gros Zari
 
 ## References
 
-The [[classifying topos]] for fields is discussed in section D3.1.11(b) of 
+* [[Ray Mines]], [[Fred Richman]], [[Wim Ruitenburg]].  _A Course in Constructive Algebra_.  Springer, 1987.
+ {#MRR87}
 
-* [[Peter Johnstone]], _[[Sketches of an Elephant]]_.
-
-More on this is in 
+* [[Peter Johnstone]], [[Sketches of an Elephant]], Part D.  The [[classifying topos]] for fields is discussed in section D3.1.11(b).
+ {#Elephant}
 
 * [[Olivia Caramello]], [[Peter Johnstone]], _De Morgan's law and the theory of fields_ ([arXiv:0808.1972](http://arxiv.org/abs/0808.1972))
 
