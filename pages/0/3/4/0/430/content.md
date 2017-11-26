@@ -159,14 +159,14 @@ The canonical  [[ring object|local ring object]] of the [[Zariski site|gros Zari
 
 ## References
 
-* [[Ray Mines]], [[Fred Richman]], [[Wim Ruitenburg]].  _A Course in Constructive Algebra_.  Springer, 1987.
- {#MRR87}
+* {#MRR87} [[Ray Mines]], [[Fred Richman]], [[Wim Ruitenburg]].  _A Course in Constructive Algebra_.  Springer, 1987.
+ 
 
-* [[Peter Johnstone]], [[Sketches of an Elephant]], Part D.  The [[classifying topos]] for fields is discussed in section D3.1.11(b).
- {#Elephant}
+* {#Elephant} [[Peter Johnstone]], [[Sketches of an Elephant]], Part D.  The [[classifying topos]] for fields is discussed in section D3.1.11(b).
+ 
 
-* [[Peter Johnstone]], *Rings, Fields, and Spectra*, 1977. [doi](https://doi.org/10.1016/0021-8693(77)90284-8)
- {#Johnstone77}
+* {#Johnstone77} [[Peter Johnstone]], *Rings, Fields, and Spectra*, Journal of Algebra **49** (1977) pp 238-260. doi:[10.1016/0021-8693(77)90284-8](https://doi.org/10.1016/0021-8693%2877%2990284-8)
+ 
 
 * [[Olivia Caramello]], [[Peter Johnstone]], _De Morgan's law and the theory of fields_ ([arXiv:0808.1972](http://arxiv.org/abs/0808.1972))
 
