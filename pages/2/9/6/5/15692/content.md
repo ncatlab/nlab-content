@@ -1569,7 +1569,7 @@ $\,$
 **[[Feynman propagator]]**
  {#FeynmanPropagator}
 
-We have seen that the [[positive real number|positive]] [[frequency]] component of the [[causal propagator]] $\Delta_S$ for the [[Klein-Gordon equation]] on [[Minkowski spacetime]] (prop. \ref{AdvancedRetardedPropafatorsForKleinGordonOnMinkowskiSpacetime}) is the [[Hadamard propagator]] $\Delta_H$ (def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime}) given, according to prop. \ref{SkewSymmetricPartOfHadmrdPropagatorIsCausalPropagatorForKleinGordonEquationOnMinkowskiSpacetime}, by (eq:DeompositionOfHadamardPropagatorOnMinkowkski)
+We have seen that the [[positive real number|positive]] [[frequency]] component of the [[causal propagator]] $\Delta_S$ for the [[Klein-Gordon equation]] on [[Minkowski spacetime]] (prop. \ref{AdvancedRetardedPropagatorsForKleinGordonOnMinkowskiSpacetime}) is the [[Hadamard propagator]] $\Delta_H$ (def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime}) given, according to prop. \ref{SkewSymmetricPartOfHadmrdPropagatorIsCausalPropagatorForKleinGordonEquationOnMinkowskiSpacetime}, by (eq:DeompositionOfHadamardPropagatorOnMinkowkski)
 
 $$
   \begin{aligned}
@@ -1607,7 +1607,7 @@ $$
     H
 $$
 
-where the first term is proportional to the sum of the [[advanced and retarded propagators]] (prop. \ref{AdvancedRetardedPropafatorsForKleinGordonOnMinkowskiSpacetime}) and the second is the symmetric part of the [[Hadamard propagator]] according to prop. \ref{SkewSymmetricPartOfHadmrdPropagatorIsCausalPropagatorForKleinGordonEquationOnMinkowskiSpacetime}.
+where the first term is proportional to the sum of the [[advanced and retarded propagators]] (prop. \ref{AdvancedRetardedPropagatorsForKleinGordonOnMinkowskiSpacetime}) and the second is the symmetric part of the [[Hadamard propagator]] according to prop. \ref{SkewSymmetricPartOfHadmrdPropagatorIsCausalPropagatorForKleinGordonEquationOnMinkowskiSpacetime}.
 
 =--
 
@@ -1627,7 +1627,7 @@ $$
     \frac{1}{(2\pi)^p}
     \int
     \frac{1}{\omega(\vec k)c}
-    e^{-i\omega(\vec k)(x^0 - y^0)/c} e^{i \vec k \cdot \vec x}
+    e^{-i\omega(\vec k)(x^0 - y^0)/c} e^{i \vec k \cdot (\vec x - \vec y)}
     \, d^p \vec k
     &\vert&
     (x^0 - y^0) \gt 0
@@ -1635,7 +1635,7 @@ $$
     \frac{1}{(2\pi)^p}
     \int
     \frac{1}{2\omega(\vec k)c}
-    e^{+i\omega(\vec k)(x^0 - y^0)/c} e^{i \vec k \cdot \vec x}
+    e^{+i\omega(\vec k)(x^0 - y^0)/c} e^{i \vec k \cdot (\vec x - \vec y)}
     \, d^p \vec k
     &\vert&
     (x^0 - y^0) \lt 0
@@ -1728,7 +1728,7 @@ $$
     \frac{1}{(2\pi)^p}
     \int
     \frac{1}{2\omega(\vec k)c}
-    e^{-i\omega(\vec k)(x^0 - y^0)/c} e^{i \vec k \cdot \vec x}
+    e^{-i\omega(\vec k)(x^0 - y^0)/c} e^{i \vec k \cdot (\vec x - \vec y)}
     \, d^p \vec k
     &\vert&
     (x^0 - y^0) \gt 0
@@ -1736,7 +1736,7 @@ $$
     \frac{1}{(2\pi)^p}
     \int
     \frac{1}{2\omega(\vec k)c}
-    e^{+i\omega(\vec k)(x^0 - y^0)/c} e^{i \vec k \cdot \vec x}
+    e^{+i\omega(\vec k)(x^0 - y^0)/c} e^{i \vec k \cdot (\vec x - \vec y)}
     \, d^p \vec k
     &\vert&
     (x^0 - y^0) \lt 0
@@ -1845,7 +1845,7 @@ $$
     \frac{1}{(2\pi)^p}
     \int
     \frac{1}{2\omega(\vec k)c}
-    e^{-i\omega(\vec k)(x^0 - y^0)/c} e^{i \vec k \cdot \vec x}
+    e^{-i\omega(\vec k)(x^0 - y^0)/c} e^{i \vec k \cdot (\vec x - \vec y)}
     \, d^p \vec k
     &\vert&
     (x^0 - y^0) \gt 0
@@ -1853,7 +1853,7 @@ $$
     \frac{1}{(2\pi)^p}
     \int
     \frac{1}{2\omega(\vec k)c}
-    e^{+i\omega(\vec k)(x^0 - y^0)/c} e^{i \vec k \cdot \vec x}
+    e^{+i\omega(\vec k)(x^0 - y^0)/c} e^{i \vec k \cdot (\vec x - \vec y)}
     \, d^p \vec k
     &\vert&
     (x^0 - y^0) \lt 0
