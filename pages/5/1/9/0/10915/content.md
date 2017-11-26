@@ -10,7 +10,7 @@ $$ sin_\mathbb{R}'' = -sin_\mathbb{R} $$
 $$ sin_\mathbb{R}(0) = 0 $$
 $$ sin_\mathbb{R}'(0) = 1 .$$
 
-Alternatively, $\pi$ may be defined as $\frac{1}{2} \tau $, where [[tau|τ]] is the [[period]] of the same function [[sin]].
+Alternatively, $\pi$ may be defined as $\frac{1}{2} \tau $, where $\tau$ is the [[period]] of the same function [[sin]].
 
 An alternative description of $sin$ is as the unique function $\mathbb{R}\to\mathbb{R}$ continuous at $0$ and otherwise satisfying 
 $$ 1 - x^2 \leq \frac{sin(x)}{x} \leq 1 $$
