@@ -58,7 +58,7 @@ The _sine function_ is the [[function]] $\sin \;\colon\; \mathbb{R} \to \mathbb{
         \sin(3 x) \;=\; 3 \sin(x) - 4 (\sin(x))^3 
       $$
 
-   (see [Trimble](#Trimble): _[[toddtrimble:Characterization of sine]]_)
+   (see [Trimble](#Trimble): *[[toddtrimble:Characterization of sine]]*. Some additional discussion at the [nForum](https://nforum.ncatlab.org/discussion/5773/a-short-note-for-todd-trimble/).)
 
 ## Properties
 
