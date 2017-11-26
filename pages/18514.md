@@ -1713,7 +1713,7 @@ $$
     }
   \right.
   \\
-  & = 
+  & =
   \Delta_F(x,y)
   \end{aligned}
 $$
@@ -1819,6 +1819,7 @@ $$
 We specialize further computation now to the case that the [[spacetime]] [[dimension]] is $p + 1 = 3 + 1$, in which case the above becomes
 
 $$
+\label{StepsInComputingCausalPropagatorIn3plus1Dimension}
 \begin{aligned}
 \Delta_S(x - y)
 & =
@@ -1938,6 +1939,7 @@ which makes use of the fact that $\omega(\kappa)$ is non-negative, by constructi
 This [[change of integration variables]] makes the integrals under the braces above become
 
 $$
+  \label{TheTwoSpecialFunctionIntegralsInTheComputationOfTheCausalPropagatorIn3Plus1DOnMinkowski}
   I_\pm
   \;=\;
   \int_{-\infty}^\infty
@@ -2038,6 +2040,7 @@ $$
 which yields
 
 $$
+  \label{IdentifyingTheBesselFunctionInComputationOfCausalPropagatorIn3Plus1DOnMinkowski}
   \begin{aligned}
     I_\pm
     & =
@@ -2084,7 +2087,7 @@ $$
    \,.
 $$
 
-Here $J_0$ denotes the [[Bessel function]] of order 0. The important point here is that this is a smooth function.
+Here in the last line we identified the integral representation of the [[Bessel function]] $J_0$ of order 0 (see [here](Bessel+function#eq:J0AsIntSinOfxCoshtdt)). The important point here is that this is a smooth function.
 
 Similarly, if $x-y$ is [[timelike]] with $(x^0 - y^0) \lt 0$ then the same argument yields
 
@@ -2107,6 +2110,7 @@ $$
 Therefore we end up with
 
 $$
+\label{FinalResultOfComputationOf3Plus1dCausalPropagator}
 \begin{aligned}
 \Delta_S(x,y)
 & =
@@ -2158,11 +2162,173 @@ $$
 ###### Proposition
 **([[singular support]] of the [[Hadamard propagator]] of the [[Klein-Gordon equation]] on [[Minkowski spacetime]] is the [[light cone]])**
 
-The [[singular support]] of the [[Hadamard propagator]] (def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime}) for the [[Klein-Gordon equation]] on [[Minkowski spacetime]] is the [[light cone]] of the origin.
+The [[singular support]] of the [[Hadamard propagator]] $\Delta_H$ (def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime}) for the [[Klein-Gordon equation]] on [[Minkowski spacetime]] is the [[light cone]] of the origin.
 
 =--
 
 (e.g. [Scharf 95 (2.3.36)](causal+perturbation+theory#Scharf95))
+
++-- {: .proof}
+###### Proof
+
+By (eq:SymmetricPartOfHadamardPropagatorForKleinGordonOnMinkowskiSpacetime) we have
+
+$$
+  \begin{aligned}
+  \Delta_H(x,y)
+   & =
+   \tfrac{i}{2}
+   \underset{= \Delta_S(x,y)}{
+   \underbrace{
+     \frac{-1}{(2\pi)^p}
+     \int
+     \frac{1}{\omega(\vec k)/c}
+     \sin\left( \omega(\vec k)(x^0 - y^0)/c \right)
+     e^{i \vec k \cdot (\vec x - \vec y) }
+     \, d^p \vec k
+   }}
+   \;+\;
+   \underset{
+     \coloneqq H(x,y)
+   }{
+   \underbrace{
+    \frac{1}{(2\pi)^p}
+     \int \frac{1}{2 \omega(\vec k)/c}
+     \cos\left( \omega(\vec k)(x^0 - y^0)/c  \right)
+     e^{i \vec k \cdot (\vec x - \vec y) }
+     \, d^p \vec k
+   }}
+  \end{aligned}
+$$
+
+The first summand, proportional to the [[causal propagator]], we computed as (eq:FinalResultOfComputationOf3Plus1dCausalPropagator) 
+in prop. \ref{SingularSupportOfCausalPropagatorForKleinGordonEquationOnMinkowskiSpacetimeIsTheLightCone} to be
+
+$$
+  \tfrac{i}{2}\Delta_S(x,y)
+  \;=\;
+  \frac{-i}{4\pi}
+  sgn(x^0)
+  \left(
+  \delta\left(
+  -{\vert x-y\vert}^2_\eta
+  \right)
+  \;-\;
+  \Theta\left( -{\vert x-y\vert}^2_\eta  \right)
+  \frac{d}{d \left({-\vert x-y\vert}^2_\eta\right) }
+  J_0\left(
+  \tfrac{m c}{\hbar}  \sqrt{ -{\vert x-y\vert}^2_\eta }
+  \right)
+  \right)
+  \,.
+$$
+
+The second term is computed in a directly analogous fashion: The integrals $I_\pm$ from 
+(eq:TheTwoSpecialFunctionIntegralsInTheComputationOfTheCausalPropagatorIn3Plus1DOnMinkowski) are now
+
+$$
+  I_\pm
+  \coloneqq
+  \int_{-\infty}^\infty
+   \cos\left(
+     \tfrac{m c}{\hbar}
+     \left(
+       (x^0 - y^0) \cosh(z)
+       \pm
+       {\vert \vec x - \vec y\vert}
+       \sinh(z)
+     \right)
+   \right)
+   \, d z
+$$
+
+Parameterizing by [[rapidity]], as in the proof of prop. \ref{SingularSupportOfCausalPropagatorForKleinGordonEquationOnMinkowskiSpacetimeIsTheLightCone}, one finds that for [[timelike]] $x-y$ this is
+
+$$
+  \begin{aligned}
+  I_\pm 
+  & =
+    \int_{-\infty}^\infty
+     \cos\left(
+       \tfrac{m c}{\hbar}
+       \sqrt{ {\vert x-y\vert}^2_\eta }
+       \left(
+          \cosh\left( z \right)
+       \right)
+     \right)
+     \, d z
+  \\
+  & =
+  - \pi N_0
+  \left( 
+    \tfrac{m c}{\hbar}
+    \sqrt{ {\vert x-y\vert}^2_\eta }
+  \right)
+  \end{aligned}
+$$
+
+while for [[spacelike]] $x-y$ it is
+
+$$
+  \begin{aligned}
+    I_\pm
+    & =
+    \int_{-\infty}^\infty
+     \cos\left(
+       \tfrac{m c}{\hbar}
+       \sqrt{ {\vert x-y\vert}^2_\eta }
+       \left(
+          \sinh\left( z \right)
+       \right)
+     \right)
+     \, d z
+     \\
+    & = 
+    2 K_0
+   \left(
+     \tfrac{m c}{\hbar}
+     \sqrt{ {\vert x-y\vert}^2_\eta }
+   \right)
+   \,,
+  \end{aligned}
+$$
+
+where we identified the integral representations of the [[Neumann function]] $N_0$ (see [here](Bessel+function#N0AsIntSinOfxCoshtdt))
+and of the [[modified Bessel function]] $K_0$ (see [here](Bessel+function#eq:K0AsIntSinOfxCoshtdt)).
+
+As for the [[Bessel function]] $J_0$ in (eq:IdentifyingTheBesselFunctionInComputationOfCausalPropagatorIn3Plus1DOnMinkowski) the key point is that these are [[smooth functions]]. Hence we conclude that
+
+$$
+  H(x,y)
+  \;\propto\;
+  \frac{d}{d \left( {\vert x-y\vert}^2_\eta \right)}
+  \left(
+    -\Theta\left( -{\vert x-y\vert}^2_\eta \right)
+    N_0
+    \left(
+      \tfrac{m c}{\hbar}
+      \sqrt{ {\vert x-y\vert}^2_\eta }
+    \right)
+    + 
+    \Theta\left( {\vert x-y\vert}^2_\eta  \right)
+    \tfrac{2}{\pi}
+    K_0
+   \left(
+     \tfrac{m c}{\hbar}
+     \sqrt{ {\vert x-y\vert}^2_\eta }
+   \right)
+  \right)
+  \,.
+$$
+
+This expression has singularities on the [[light cone]] due to the [[step functions]].
+In fact the expression being differentiated is continuous at the light cone
+([Scharf 95 (2.3.34)](#Scharf95)), so that the singularity on the light cone is not a [[delta distribution]]
+singularity from the derivative of the step functions. Accordingly it does not cancel the singularity
+of $\tfrac{i}{2}\Delta_S(x,y)$ as above, and hence the singular support of $\Delta_H$ is still the whole
+light cone.
+
+=--
 
 
 +-- {: .num_prop #WaveFronSetsForKGPropagatorsOnMinkowski}
@@ -2186,9 +2352,9 @@ $$
 * the [[Feynman propagator]] $\Delta_S$ (def. \ref{FeynmanPropagatorForKleinGordonEquationOnMinkowskiSpacetime}) has wave front set all pairs $(x,k)$ with $x$ and $k$ both on the light cone and $\pm k_0 \gt 0 \;\Leftrightarrow\; \pm x^0 \gt 0$
 
 $$
-  WF(\Delta_H) = \left\{ (x,k) \,\vert\, {\vert x\vert}^2_\eta = 0 \;\text{and} \; {\vert k\vert}^2_\eta = 0 \; \text{and} \; 
-    \left( 
-       \pm k_0 \gt 0 \;\Leftrightarrow\; \pm x^0 \gt 0 
+  WF(\Delta_H) = \left\{ (x,k) \,\vert\, {\vert x\vert}^2_\eta = 0 \;\text{and} \; {\vert k\vert}^2_\eta = 0 \; \text{and} \;
+    \left(
+       \pm k_0 \gt 0 \;\Leftrightarrow\; \pm x^0 \gt 0
     \right)
   \right\}
 $$
@@ -2248,6 +2414,16 @@ for $x^0 \lt 0$. Therefore the form of $WF(\Delta_F)$ now follows directly with 
 
 =--
 
+
+
+
+
+
+
+
+
+
+
 ### For Dirac operator on Minkowski spacetime
  {#ExampleForDiracOperatorOnMinkowskiSpacetime}
 
@@ -2259,9 +2435,9 @@ for $x^0 \lt 0$. Therefore the form of $WF(\Delta_F)$ now follows directly with 
 Consider the [[Dirac operator]] on [[Minkowski spacetime]], which in [[Feynman slash notation]] reads
 
 $$
-  i \partial\!\!\!/\, 
+  i \partial\!\!\!/\,
   \;\coloneqq\;
-  i\gamma^\mu \frac{\partial}{\partial x^\mu} 
+  i \gamma^\mu \frac{\partial}{\partial x^\mu}
   \,.
 $$
 
@@ -2297,7 +2473,7 @@ $$
 ###### Proof
 
 Applying a [[differential operator]] does not change the [[support]] of a [[smooth function]], hence also not the [[support of a distribution]]. Therefore the uniqueness of the advanced and retarded propagators (prop. \ref{AdvancedAndRetardedGreenFunctionsForGreenHyperbolicOperatorAreUnique})
-together with the translation-invariance and the anti-[[formally self-adjoint differential operator|formally self-adjointness]] of the [[Dirac operator]] (as for the [[Klein-Gordon operator]] (eq:\Delta_{\partial\!\!\!/\, + \tfrac{m c}{\hbar}, \pm}))
+together with the translation-invariance and the anti-[[formally self-adjoint differential operator|formally self-adjointness]] of the [[Dirac operator]] (as for the [[Klein-Gordon operator]] (eq:TranslationInvariantKleinGordonPropagatorsOnMinkowskiSpacetime)
 implies that it is sufficent to check that applying the [[Dirac operator]] to the $\Delta_{\partial\!\!\!/\, + \tfrac{m c}{\hbar}, \pm}$
 yields the [[delta distribution]]. This follows since the Dirac operator squares to the Klein-Gordon operator:
 
