@@ -29,7 +29,7 @@ Here are a few equivalent ways to phrase the combined condition:
 
 * Whenever a sum of products is invertible, for at least one of the summands, all of its multiplicands are invertible.  (This is not entirely trivial in the noncommutative case, but it\'s still correct.)
 
-* The non-invertible elements form an [[ideal]].  (Unlike the previous clauses, this requires [[excluded middle]] to be equivalent; otherwise, it\'s too weak.)
+* The non-invertible elements form an [[ideal]].  (Unlike the previous clauses, this requires [[excluded middle]] to be equivalent; otherwise, it gives a weaker notion.)
 
 The ideal of non-invertible elements is in fact a [[maximal ideal]], so the [[quotient object|quotient ring]] is a field, the __[[residue field]]__ of the local ring.  (This quotient can also be taken constructively, where one anti-mods out by the [[minimal anti-ideal]] of invertible elements.)
 
@@ -122,6 +122,8 @@ For addition, if $(x + y) \# (x' + y')$, then $x + y - (x' + y') = (x - x') + (y
 For multiplication, if $x y # x' y'$, then $x y - x' y'$ is invertible. Write $x y - x' y' = (x - x')y + x'(y - y')$. Since $R$ is local, either $(x - x')y$ is a unit or $x'(y - y')$ is a unit. From this we easily conclude $x - x'$ is a unit or $y - y'$ is, whence $(x, y) # (x', y')$. So multiplication is also strongly extensional. 
 =-- 
 
+Constructively there are also possible variants of the definition of local ring.  For instance, in [Johnstone77](#Johnstone77) a **weak local ring** is defined to be a ring in which the sum of any two noninvertible elements is noninvertible.  The quotients of weak local rings are precisely the *residue [[fields]]* (nontrivial rings in which every noninvertible element is zero); this is the origin of the name "residue field".
+
 
 ## Local homomorphisms 
 
@@ -146,6 +148,12 @@ Possible to-dos: say something about $m$-adic topology, completion, Zariski topo
 * [[valuation ring]] 
 
 * [[Zariski topos]] 
+
+
+## References
+
+* [[Peter Johnstone]], *Rings, fields, and spectra*, 1977.  [doi](https://doi.org/10.1016/0021-8693(77)90284-8)
+ {#Johnstone77}
 
 
 [[!redirects local ring]]
