@@ -1480,7 +1480,7 @@ $$
     \frac{1}{(2\pi)^p}
     \int
     \frac{1}{\omega(\vec k)c}
-    e^{-i\omega(\vec k)(x^0 - y^0)/c} e^{i \vec k \cdot \vec x}
+    e^{-i\omega(\vec k)(x^0 - y^0)/c} e^{i \vec k \cdot (\vec x - \vec y)}
     \, d^p \vec k
     &\vert&
     (x^0 - y^0) \gt 0
@@ -1488,7 +1488,7 @@ $$
     \frac{1}{(2\pi)^p}
     \int
     \frac{1}{2\omega(\vec k)c}
-    e^{+i\omega(\vec k)(x^0 - y^0)/c} e^{i \vec k \cdot \vec x}
+    e^{+i\omega(\vec k)(x^0 - y^0)/c} e^{i \vec k \cdot (\vec x - \vec y)}
     \, d^p \vec k
     &\vert&
     (x^0 - y^0) \lt 0
@@ -1581,7 +1581,7 @@ $$
     \frac{1}{(2\pi)^p}
     \int
     \frac{1}{2\omega(\vec k)c}
-    e^{-i\omega(\vec k)(x^0 - y^0)/c} e^{i \vec k \cdot \vec x}
+    e^{-i\omega(\vec k)(x^0 - y^0)/c} e^{i \vec k \cdot (\vec x - \vec y)}
     \, d^p \vec k
     &\vert&
     (x^0 - y^0) \gt 0
@@ -1589,7 +1589,7 @@ $$
     \frac{1}{(2\pi)^p}
     \int
     \frac{1}{2\omega(\vec k)c}
-    e^{+i\omega(\vec k)(x^0 - y^0)/c} e^{i \vec k \cdot \vec x}
+    e^{+i\omega(\vec k)(x^0 - y^0)/c} e^{i \vec k \cdot (\vec x - \vec y)}
     \, d^p \vec k
     &\vert&
     (x^0 - y^0) \lt 0
@@ -1698,7 +1698,7 @@ $$
     \frac{1}{(2\pi)^p}
     \int
     \frac{1}{2\omega(\vec k)c}
-    e^{-i\omega(\vec k)(x^0 - y^0)/c} e^{i \vec k \cdot \vec x}
+    e^{-i\omega(\vec k)(x^0 - y^0)/c} e^{i \vec k \cdot (\vec x - \vec y)}
     \, d^p \vec k
     &\vert&
     (x^0 - y^0) \gt 0
@@ -1706,7 +1706,7 @@ $$
     \frac{1}{(2\pi)^p}
     \int
     \frac{1}{2\omega(\vec k)c}
-    e^{+i\omega(\vec k)(x^0 - y^0)/c} e^{i \vec k \cdot \vec x}
+    e^{+i\omega(\vec k)(x^0 - y^0)/c} e^{i \vec k \cdot (\vec x - \vec y)}
     \, d^p \vec k
     &\vert&
     (x^0 - y^0) \lt 0
