@@ -5,12 +5,12 @@
 
 ## Definition via real analysis 
 
-The real constant $\pi$ (occasionally called _Ludolph's number_ ---make that _very_ occasionally, nowadays--- or _Archimedes' constant_) is the minimal positive root of the real function $sin_\mathbb{R} : \mathbb{R}\to\mathbb{R}$, which is the unique solution to the differential equation/[[initial value problem]]
+The [[real number]] $\pi \in \mathbb{R}$ (occasionally called _Ludolph's number_ ---make that _very_ occasionally, nowadays--- or _Archimedes' constant_) is the minimal [[positive real number|positive]] [[root]] of the [[sine function]] $sin_\mathbb{R} : \mathbb{R}\to\mathbb{R}$, which itself is the unique solution to the [[differential equation]]/[[initial value problem]]
 $$ sin_\mathbb{R}'' = -sin_\mathbb{R} $$
 $$ sin_\mathbb{R}(0) = 0 $$
 $$ sin_\mathbb{R}'(0) = 1 .$$
 
-Alternatively, $\pi$ may be defined as $\frac{1}{2} \tau $, where [[tau|τ]] is the [[period]] of the same function $sin$.
+Alternatively, $\pi$ may be defined as $\frac{1}{2} \tau $, where [[tau|τ]] is the [[period]] of the same function [[sin]].
 
 An alternative description of $sin$ is as the unique function $\mathbb{R}\to\mathbb{R}$ continuous at $0$ and otherwise satisfying 
 $$ 1 - x^2 \leq \frac{sin(x)}{x} \leq 1 $$
