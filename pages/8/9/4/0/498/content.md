@@ -152,8 +152,8 @@ Possible to-dos: say something about $m$-adic topology, completion, Zariski topo
 
 ## References
 
-* [[Peter Johnstone]], *Rings, fields, and spectra*, 1977.  [doi](https://doi.org/10.1016/0021-8693(77)90284-8)
- {#Johnstone77}
+
+* {#Johnstone77} [[Peter Johnstone]], *Rings, Fields, and Spectra*, Journal of Algebra **49** (1977) pp 238-260. doi:[10.1016/0021-8693(77)90284-8](https://doi.org/10.1016/0021-8693%2877%2990284-8)
 
 
 [[!redirects local ring]]
