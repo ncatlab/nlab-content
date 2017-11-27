@@ -84,6 +84,8 @@ $$
 
 * Milton Abramowitz, Irene Stegun, sections 9, 10, 11 of_Handbook of mathematical functions_, 1964 ([pdf](http://people.math.sfu.ca/~cbm/aands/abramowitz_and_stegun.pdf))
 
+  chapter 9: F. W. J. Olver, _Bessel functions of integer order_ ([pdf](http://www.dam.brown.edu/people/mariom/AM282-01/HANDOUTS/Abramowitz_Stegun_Chapter_9.pdf))
+
 * G. N. Watson, _A treatise on the theory of Bessel functions_, Cambridge University Press 1966 ([web](https://archive.org/details/ATreatiseOnTheTheoryOfBesselFunctions))
 
 * {#DLMF} Digital Library of Mathematical Functions, chapter 10 _[Bessel functions](http://dlmf.nist.gov/10)_
