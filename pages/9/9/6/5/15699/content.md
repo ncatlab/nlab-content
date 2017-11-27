@@ -36,7 +36,9 @@ $$
   \,.
 $$
 
-In [[physics]] (in [[Feynman diagram]] [[perturbation theory]]) thinking of $A^{-1}$ as a [[Feynman propagator]], this formula is known as the _[[Schwinger parameterization]]_ for $A^{-s}$, leading to the "[[worldline formalism]]". See below at _[1-Loop amplitudes](#1LoopVacuumAmplitudes)_.
+For $s = 1$ this has a [[complex number|complex]] analougue given by the [[Fourier transform]] of the [[Heaviside distribution]] ([this example](Cauchy+principal+value#RelationToFourierTransformOfHeavisideDistribution)).
+
+In [[perturbative quantum field theory]], especially in the computation of [[propagators]] such as the [[Feynman propagator]], this formula is known as the _[[Schwinger parameterization]]_ for $A^{-s}$, leading to the "[[worldline formalism]]". See below at _[1-Loop amplitudes](#1LoopVacuumAmplitudes)_.
 
 ### Zeta functions
 
