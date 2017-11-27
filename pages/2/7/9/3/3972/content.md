@@ -78,8 +78,6 @@ defines a [[distribution]] $PV(f) \in \mathcal{D}'(\mathbb{R})$.
 
 ### The principal value of $1/x$
 
-
-
 +-- {: .num_example }
 ###### Example
 
@@ -500,15 +498,6 @@ Conversely, for $x \lt 0$ the real part of the integrand decays as the _[[negati
 
 =--
 
-+-- {: .num_remark #FeynmanPropagator}
-###### Remark
-**([[Feynman propagator]])**
-
-The Fourier form of the step function in prop. \ref{FourierIntegralFormulaForStepFunction} gives rise to the standard expression for the [[advanced propagator]], [[retarded propagator]] and [[Feynman propagator]] used in [[perturbative quantum field theory]]. See at _[[Feynman propagator]]_ for more.
-
-
-=--
-
 Conversely, by the [[Fourier inversion theorem]], the [[Fourier transform]] of the [[Heaviside distribution]] is the Cauchy principal value as in prop. \ref{CauchyPrincipalValueEqualsIntegrationWithImaginaryOffsetPlusDelta}:
 
 
@@ -556,6 +545,165 @@ $$
 
 =--
 
+### The principal value of $1/(q(x) + m^2)$
+ {#PrincipalValueOfPowerOfAQuadraticForm}
+
+
+Let $q \colon \mathbb{R}^{n} \to \mathbb{R}$ be a non-degenerate real [[quadratic form]]
+[[analytic continuation|analytically continued]] to a real quadratic form 
+
+$$
+  q \;\colon\; \mathbb{C}^n \longrightarrow \mathbb{C}
+  \,.
+$$
+
+Write $\Delta$ for the [[determinant]] of $q$
+
+Write $q^\ast$ for the induced quadratic form on [[dual vector space]]. Notice that $q$ (and hence $a^\ast$) are assumed non-degenerate but need not necessarily be positive or negative definite.
+
++-- {: .num_prop #FourierTransformOfPrincipalValueOfPowerOfQuadraticForm}
+###### Proposition
+**([[Fourier transform of distributions|Fourier transform]] of principal value of power of [[quadratic form]])**
+
+Let $m \in \mathbb{R}$ be any [[real number]], and $\kappa \in \mathbb{C}$ any [[complex]] number. Then the [[Fourier transform of distributions]] of $1/(q + m^2 + i 0^+)^\kappa$ is
+
+$$
+  \widehat
+  {
+    \left(
+      \frac{1}{q + m^2 + i0^+} 
+    \right)
+  }
+  \;=\;
+  \frac{
+    2^{1- \kappa} (\sqrt{2\pi})^{n} m^{n/2-\kappa}
+  }
+  {
+    \Gamma(\kappa) \sqrt{\Delta}
+  }
+  \frac{
+    K_{n/2 - \kappa}\left( m \sqrt{q^\ast - i 0^+} \right)
+  }
+  {
+    \left(\sqrt{q^\ast - i0^+ }\right)^{n/2 - \kappa}
+  }
+  \,,
+$$
+
+where 
+
+1. $\Gamma$ deotes the [[Gamma function]] 
+
+1. $K_{\nu}$ denotes the [[modified Bessel function]].
+
+Notice that $K_\nu(a)$ diverges for $a \to 0$ as $a^{-\nu}$ ([DLMF 10.30.2](http://dlmf.nist.gov/10.30#E2)).
+
+=--
+
+([Gel'fand-Shilov 66, III 2.8 (8) and (9), p 289](#GelfandShilov66))
+
++-- {: .num_example #FeynmanPropagator}
+###### Example
+**([[Feynman propagator]])**
+
+Let $q \coloneqq \eta^{-1}$ be the dual [[Minkowski metric]] in [[dimension]] $p+1$. Then 
+
+$$
+  \Delta_F(x)
+  \;\propto\;
+  \widehat{
+    \frac{1}{
+      -\eta^{-1}(k,k) - m^2 + i0^+ 
+    }
+  }
+$$
+
+is the [[Feynman propagator]] for the [[Klein-Gordon equation]] on [[Minkowski spacetime]]. In this case prop. \ref{FourierTransformOfPrincipalValueOfPowerOfQuadraticForm} implies that its [[singular support]] is the [[light cone]] $\{x \in \mathbb{R}^{p,1} \;\vert\; \eta(x,x) = 0\}$.
+
+=--
+
+
+### The Fourier transform of $\delta(q + m^2)$
+ {#FourierTransformOfDeltaOfTheMassShell}
+
+Let $q \colon \mathbb{R}^{n} \to \mathbb{R}$ be a non-degenerate real [[quadratic form]]
+[[analytic continuation|analytically continued]] to a real quadratic form 
+
+$$
+  q \;\colon\; \mathbb{C}^n \longrightarrow \mathbb{C}
+  \,.
+$$
+
+Write $\Delta$ for the [[determinant]] of $q$. Write $t \in \mathbb{N}$ for the number of negative eigenvalues. 
+
+Write $q^\ast$ for the induced quadratic form on [[dual vector space]]. Notice that $q$ (and hence $a^\ast$) are assumed non-degenerate but need not necessarily be positive or negative definite.
+
+
++-- {: .num_prop #FourierTransformOfDeltaDistributionappliedToMassShell}
+###### Proposition
+**([[Fourier transform]] of [[delta distribution]] applied to [[mass shell]])**
+
+Let $m \in \mathbb{R}$, then the [[Fourier transform of distributions]] of the [[delta distribution]] $\delta$ applied to the "mass shell" $q + m^2$ is 
+
+$$
+  \widehat{
+    \delta(q + m^2)
+  }
+  \;=\;
+  - \frac{i}{\sqrt{{\vert\Delta\vert}}}
+  \left(
+    e^{i \pi t /2 }
+    \frac{
+      K_{n/2-1}
+      \left(
+        m \sqrt{ q^\ast + i0^+ }
+      \right)
+    }{
+      \left(\sqrt{q^\ast + i0^+}\right)^{n/2 - 1}
+    }
+    \;-\;
+    e^{-i \pi t /2 }
+    \frac{
+      K_{n/2-1}
+      \left(
+        m \sqrt{ q^\ast - i0^+ }
+      \right)
+    }{
+      \left(\sqrt{q^\ast - i0^+}\right)^{n/2 - 1}
+    }
+  \right)
+  \,,
+$$
+
+where $K_\nu$ denotes the [[modified Bessel function]] of order $\nu$.
+
+Notice that $K_\nu(a)$ diverges for $a \to 0$ as $a^{-\nu}$ ([DLMF 10.30.2](http://dlmf.nist.gov/10.30#E2)).
+
+
+=--
+
+([Gel'fand-Shilov 66, III 2.11 (7), p 294](#GelfandShilov66))
+
+
++-- {: .num_example #CausalPropagator}
+###### Example
+**([[causal propagator]])**
+
+Let $q \coloneqq \eta^{-1}$ be the dual [[Minkowski metric]] in [[dimension]] $p+1$. Then 
+
+$$
+  \Delta_S(x)
+  \;\propto\;
+  \widehat{
+     \delta(-\eta(k,k) - m^2)
+     \,
+     sgn(k_0)
+  }
+$$
+
+is the [[causal propagator]] for the [[Klein-Gordon equation]] on [[Minkowski spacetime]]. In this case prop. \ref{FourierTransformOfDeltaDistributionappliedToMassShell} implies that its [[singular support]] is the [[light cone]] $\{x \in \mathbb{R}^{p,1} \;\vert\; \eta(x,x) = 0\}$.
+
+=--
 
 
 ## Related concepts
@@ -567,6 +715,11 @@ $$
 Named after [[Augustin Cauchy]]
 
 * [[Ram Kanwal]], section 8.3 of _Linear Integral Equations_ Birkh&#228;user 1997
+
+Detailed discussion of relation to [[Bessel functions]] is in
+
+* {#GelfandShilov66} [[I. M. Gel'fand]], G. E. Shilov, _Generalized functions_, 1&#8211;5 , Acad. Press  (1966&#8211;1968) transl. from &#1048;. &#1052;. &#1043;&#1077;&#1083;&#1100;&#1092;&#1072;&#1085;&#1076;, &#1043;. &#1045;. &#1064;&#1080;&#1083;&#1086;&#1074; &#1054;&#1073;&#1086;&#1073;&#1097;&#1077;&#1085;&#1085;&#1099;&#1077; &#1092;&#1091;&#1085;&#1082;&#1094;&#1080;&#1080;, &#1074;&#1099;&#1087;. 1-3, &#1052;.:&#1060;&#1080;&#1079;&#1084;&#1072;&#1090;&#1075;&#1080;&#1079;, 1958; 1: &#1054;&#1073;&#1086;&#1073;&#1097;&#1077;&#1085;&#1085;&#1099;&#1077; &#1092;&#1091;&#1085;&#1082;&#1094;&#1080;&#1080; &#1080; &#1076;&#1077;&#1081;&#1089;&#1090;&#1074;&#1080;&#1103; &#1085;&#1072;&#1076; &#1085;&#1080;&#1084;&#1080;, 2: &#1055;&#1088;&#1086;&#1089;&#1090;&#1088;&#1072;&#1085;&#1089;&#1090;&#1074;&#1072; &#1086;&#1089;&#1085;&#1086;&#1074;&#1085;&#1099;&#1093; &#1086;&#1073;&#1086;&#1073;&#1097;&#1077;&#1085;&#1085;&#1099;&#1093; &#1092;&#1091;&#1085;&#1082;&#1094;&#1080;&#1081;, 3: &#1053;&#1077;&#1082;&#1086;&#1090;&#1086;&#1088;&#1099;&#1077; &#1074;&#1086;&#1087;&#1088;&#1086;&#1089;&#1099; &#1090;&#1077;&#1086;&#1088;&#1080;&#1080; &#1076;&#1080;&#1092;&#1092;&#1077;&#1088;&#1077;&#1085;&#1094;&#1080;&#1072;&#1083;&#1100;&#1085;&#1099;&#1093; &#1091;&#1088;&#1072;&#1074;&#1085;&#1077;&#1085;&#1080;&#1081;
+
 
 References on homogeneous distributions
 
