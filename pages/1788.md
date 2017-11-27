@@ -92,7 +92,7 @@ $$
          \tau
          (k_\mu k^\mu + m^2)
       }
-    \, \frac{d \tau}{\tau}
+    \, d \tau
     \, d^{p+1} k
     \\
     & =
