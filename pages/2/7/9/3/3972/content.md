@@ -308,9 +308,121 @@ $$
   }
 $$
 
-it follows (...) that $(A) = PV\left( \frac{b(x)}{x} \right)$.
+it is plausible that $(A) = PV\left( \frac{b(x)}{x} \right)$, and similarly that $(B) = b(0)$. In detail:
 
-Similarly $(B) = b(0)$. (...)
+$$
+  \begin{aligned}
+    (A)
+    & =
+    \underset{\epsilon \to 0}{\lim}
+    \underset{\mathbb{R}^1}{\int}
+    \frac{x}{x^2 + \epsilon^2} b(x)   
+    d x
+    \\
+    & =
+    \underset{\epsilon \to 0}{\lim}
+    \underset{\mathbb{R}^1}{\int}
+     \frac{d}{d x}
+     \left(
+        \tfrac{1}{2}
+        \ln(x^2 + \epsilon^2)
+     \right)
+      b(x)
+    d x
+    \\
+    & =
+    -\tfrac{1}{2}
+    \underset{\epsilon \to 0}{\lim}
+    \underset{\mathbb{R}^1}{\int}
+     \ln(x^2 + \epsilon^2)
+     \frac{d b}{d x}(x)
+    d x
+    \\
+    & =
+    -\tfrac{1}{2}
+    \underset{\mathbb{R}^1}{\int}
+     \ln(x^2)
+     \frac{d b}{d x}(x)
+    d x
+    \\
+    & =
+    -
+    \underset{\mathbb{R}^1}{\int}
+     \ln({\vert x \vert})
+     \frac{d b}{d x}(x)
+    d x    
+    \\
+    & =
+    -
+    \underset{\epsilon \to 0}{\lim}
+    \underset{\mathbb{R}^1\setminus (-\epsilon, \epsilon)}{\int}
+     \ln( {\vert x \vert} )
+     \frac{d b}{d x}(x)
+    d x    
+    \\
+    & =
+    \underset{\epsilon \to 0}{\lim}
+    \underset{\mathbb{R}^1\setminus (-\epsilon, \epsilon)}{\int}
+     \frac{1}{x}
+     b(x)
+    d x    
+    \\
+    & =
+    PV\left( \frac{b(x)}{x} \right)
+  \end{aligned}
+$$
+
+and
+
+$$
+  \begin{aligned}
+    (B)
+    & =
+    \tfrac{1}{\pi}
+    \underset{\epsilon \to 0}{\lim}
+    \underset{\mathbb{R}^1}{\int}
+    \frac{\epsilon}{x^2 + \epsilon^2} 
+    b(x)
+    \,
+    d x
+    \\
+    & =
+    \tfrac{1}{\pi}
+    \underset{\epsilon \to 0}{\lim}
+    \underset{\mathbb{R}^1}{\int}
+    \left(
+      \frac{d}{d x}
+      \arctan\left( \frac{x}{\epsilon} \right)
+    \right)
+    b(x)
+    \,
+    d x    
+    \\
+    & =
+    -
+    \tfrac{1}{\pi}
+    \underset{\epsilon \to 0}{\lim}
+    \underset{\mathbb{R}^1}{\int}
+      \arctan\left( \frac{x}{\epsilon} \right)
+    \frac{d b}{d x}(x)
+    \,
+    d x    
+    \\
+    & =
+    -
+    \frac{1}{2}
+    \underset{\mathbb{R}^1}{\int}
+      sgn(x)
+    \frac{d b}{d x}(x)
+    \,
+    d x    
+    \\
+    & = 
+    b(0)
+  \end{aligned}
+$$
+
+where we used that the [[derivative]] of the [[arctan]] function is $\frac{d}{ d x} \arctan(x) = 1/(1 + x^2)$ and that $\underset{\epsilon \to + \infty}{\lim} \arctan(x/\epsilon) = \tfrac{\pi}{2}sgn(x)$ is proportional to the [[sign function]].
 
 =--
 
@@ -392,10 +504,58 @@ Conversely, for $x \lt 0$ the real part of the integrand decays as the _[[negati
 ###### Remark
 **([[Feynman propagator]])**
 
-The Fourier form of the step function in prop. \ref{FourierIntegralFormula} gives rise to the standard expression for the [[advanced propagator]], [[retarded propagator]] and [[Feynman propagator]] used in [[perturbative quantum field theory]]. See at _[[Feynman propagator]]_ for more.
+The Fourier form of the step function in prop. \ref{FourierIntegralFormulaForStepFunction} gives rise to the standard expression for the [[advanced propagator]], [[retarded propagator]] and [[Feynman propagator]] used in [[perturbative quantum field theory]]. See at _[[Feynman propagator]]_ for more.
 
 
 =--
+
+Conversely, by the [[Fourier inversion theorem]], the [[Fourier transform]] of the [[Heaviside distribution]] is the Cauchy principal value as in prop. \ref{CauchyPrincipalValueEqualsIntegrationWithImaginaryOffsetPlusDelta}:
+
+
++-- {: .num_example #RelationToFourierTransformOfHeavisideDistribution}
+###### Example
+**(relation to [[Fourier transform]] of [[Heaviside distribution]] / [[Schwinger parameter|Schwinger parameterization]])**
+
+$$
+  \begin{aligned}
+    \widehat \Theta(x)
+    & =
+    \int_0^\infty e^{i k x} \,  dk
+    \\
+    & =
+    i \frac{1}{x + i 0^+}
+  \end{aligned}
+$$
+
+Here the second equality is also known as _complex [[Schwinger parameter|Schwinger parameterization]]_.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+As [[generalized functions]] consider the [[limit of a sequence|limit]] with a decaying component:
+
+$$
+  \begin{aligned}
+    \int_0^\infty e^{i k x} \,  dk  
+    & =
+    \underset{\epsilon \to 0^+}{\lim} 
+    \int_0^\infty e^{i k x - \epsilon k} \,  dk
+    \\
+    & =
+    -
+    \underset{\epsilon \to 0^+}{\lim} 
+    \frac{1}{ i x - \epsilon}
+    \\
+    & = 
+    i \frac{1}{x + i 0^+}
+  \end{aligned}  
+$$
+
+
+=--
+
 
 
 ## Related concepts
