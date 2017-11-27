@@ -1457,6 +1457,7 @@ $$
   \,,
 $$
 
+
 +-- {: .num_defn #FeynmanPropagatorForKleinGordonEquationOnMinkowskiSpacetime}
 ###### Definition
 **([[Feynman propagator]] for [[Klein-Gordon equation]] on [[Minkowski spacetime]])**
@@ -2475,6 +2476,8 @@ for $x^0 \lt 0$. Therefore the form of $WF(\Delta_F)$ now follows directly with 
 ### For Dirac operator on Minkowski spacetime
  {#ExampleForDiracOperatorOnMinkowskiSpacetime}
 
+Finally we observe that the [[propagators]] for the [[Dirac field]] on [[Minkowski spacetime]]
+follow immediately from the propagators for the [[scalar field]]:
 
 +-- {: .num_prop #DiracEquationOnMinkowskiSpacetimeAdvancedAndRetardedPropagators}
 ###### Proposition
@@ -2483,34 +2486,40 @@ for $x^0 \lt 0$. Therefore the form of $WF(\Delta_F)$ now follows directly with 
 Consider the [[Dirac operator]] on [[Minkowski spacetime]], which in [[Feynman slash notation]] reads
 
 $$
-  i \partial\!\!\!/\,
-  \;\coloneqq\;
-  i \gamma^\mu \frac{\partial}{\partial x^\mu}
+  \begin{aligned}
+    D
+      & \coloneqq
+    -i {\partial\!\!\!/\,}
+     + \tfrac{m c}{\hbar}
+    \\
+    & =
+    -i \gamma^\mu \frac{\partial}{\partial x^\mu} + \tfrac{m c}{\hbar}
+  \end{aligned}
   \,.
 $$
 
 Its [[advanced and retarded propagators]] (def. \ref{AdvancedAndRetardedGreenFunctions})
-are the [[derivatives of distributions]] of the advanced and retarded propagators for the [[Klein-Gordon equation]] (prop. \ref{AdvancedRetardedPropagatorsForKleinGordonOnMinkowskiSpacetime}) by $\partial\!\!\!/\, + m$:
+are the [[derivatives of distributions]] of the advanced and retarded propagators $\Delta_\pm$ for the [[Klein-Gordon equation]] (prop. \ref{AdvancedRetardedPropagatorsForKleinGordonOnMinkowskiSpacetime}) by ${\partial\!\!\!/\,} + m$:
 
 $$
-  \Delta_{(i\partial\!\!\!/\, - \tfrac{m c}{\hbar} ), \pm}
+  \Delta_{D, \pm}
   \;=\;
   \left(
-    i\partial\!\!\!/\, + \tfrac{m c}{\hbar}
+    -i{\partial\!\!\!/\,} - \tfrac{m c}{\hbar}
   \right)
-  \Delta_{\Box - \left( \tfrac{m c}{\hbar}\right)^2, \pm}
+  \Delta_{\pm}
   \,.
 $$
 
-Hence the same is true for the [[causal propagator]]
+Hence the same is true for the [[causal propagator]]:
 
 $$
-  \Delta_{(i\partial\!\!\!/\, - \tfrac{m c}{\hbar} ), S}
+  \Delta_{D, S}
   \;=\;
   \left(
-    i\partial\!\!\!/\, + \tfrac{m c}{\hbar}
+    -i{\partial\!\!\!/\,} - \tfrac{m c}{\hbar}
   \right)
-  \Delta_{\Box - \left( \tfrac{m c}{\hbar}\right)^2, S}
+  \Delta_{S}
   \,.
 $$
 
@@ -2522,34 +2531,107 @@ $$
 
 Applying a [[differential operator]] does not change the [[support]] of a [[smooth function]], hence also not the [[support of a distribution]]. Therefore the uniqueness of the advanced and retarded propagators (prop. \ref{AdvancedAndRetardedGreenFunctionsForGreenHyperbolicOperatorAreUnique})
 together with the translation-invariance and the anti-[[formally self-adjoint differential operator|formally self-adjointness]] of the [[Dirac operator]] (as for the [[Klein-Gordon operator]] (eq:TranslationInvariantKleinGordonPropagatorsOnMinkowskiSpacetime)
-implies that it is sufficent to check that applying the [[Dirac operator]] to the $\Delta_{\partial\!\!\!/\, + \tfrac{m c}{\hbar}, \pm}$
+implies that it is sufficent to check that applying the [[Dirac operator]] to the $\Delta_{D, \pm}$
 yields the [[delta distribution]]. This follows since the Dirac operator squares to the Klein-Gordon operator:
 
 
 $$
   \begin{aligned}
     \left(
-      i\partial\!\!\!/\, + \tfrac{m c}{\hbar}
+      -i{\partial\!\!\!/\,} + \tfrac{m c}{\hbar}
     \right)
-    \Delta_{i\partial\!\!\!/\, + \tfrac{m c}{\hbar}, \pm}
+    \Delta_{D, \pm}
     & =
     \underset{ = \Box - \left(\tfrac{m c}{\hbar}\right)^2}{
     \underbrace{
     \left(
-      i\partial\!\!\!/\, + \tfrac{m c}{\hbar}
+      -i{\partial\!\!\!/\,} + \tfrac{m c}{\hbar}
     \right)
     \left(
-      i\partial\!\!\!/\, - \tfrac{m c}{\hbar}
+      -i{\partial\!\!\!/\,} - \tfrac{m c}{\hbar}
     \right)
     }
     }
-    \Delta_{\Box - \left( \tfrac{m c}{\hbar} \right)^2, \pm}
+    \Delta_{\pm}
     \\
     & =
     \delta
   \end{aligned}
   \,.
 $$
+
+=--
+
+Similarly we obtain the other [[propagators]] for the [[Dirac field]] from those of the [[real scalar field]]:
+
++-- {: .num_defn #HadamardPropagatorForDiracOperatorOnMinkowskiSpacetime}
+###### Definition
+**([[Hadamard propagator]] for [[Dirac operator]] on [[Minkowski spacetime]])**
+
+The _[[Hadamard propagator]]_ for the [[Dirac operator]] on [[Minkowski spacetime]] is the [[positive real number|positive]] [[frequency]] part of the [[causal propagator]] (prop. \ref{DiracEquationOnMinkowskiSpacetimeAdvancedAndRetardedPropagators}),
+hence the [[derivative of distributions]] of the Hadamard propagator for the Klein-Gordon field (def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime}) by the [[Dirac operator]]:
+
+$$
+  \begin{aligned}
+  \left(
+     -i{\partial\!\!\!/\,} + \tfrac{m c}{\hbar}
+  \right)\Delta_{H}(x,y)
+  & =  
+  \frac{1}{(2\pi)^p} \int \delta\left( k_\mu k^\mu + m^2 \right) \Theta( -k_0 ) ( {k\!\!\!/\,} + \tfrac{m c}{\hbar}) e^{i k_\mu (x^\mu-y^\mu) } \, d^{p+1} k
+  \\
+  & =
+  \frac{1}{(2\pi)^p}
+  \int \frac{ \gamma^0 \omega(\vec k)/c + \vec \gamma \cdot \vec k + \tfrac{m c}{\hbar}   }{2 \omega(\vec k)/c}
+  e^{-i \omega(\vec k)(x^0 - y^0)/c + i \vec k \cdot (\vec x - \vec y) }
+  \, d^p \vec k
+  \,.
+  \end{aligned}
+$$
+
+Here we used the expression (eq:StandardHadamardDistributionOnMinkowskiSpacetime) for the Hadamard propagator of the Klein-Gordon equation.
+
+=--
+
++-- {: .num_defn #FeynmanPropagatorForDiracOperatorOnMinkowskiSpacetime}
+###### Definition
+**([[Feynman propagator]] for [[Dirac operator]] on [[Minkowski spacetime]])**
+
+The _[[Feynman propagator]]_ for the [[Dirac operator]] on [[Minkowski spacetime]] is the linear combination
+
+$$
+  \Delta_{D, F}
+  \;\coloneqq\;
+  \Delta_{D,H}
+  +
+  i \Delta_{D, -}
+$$
+
+of the [[Hadamard propagator]] (def. \ref{HadamardPropagatorForDiracOperatorOnMinkowskiSpacetime}) and the retarded propagator (prop. \ref{DiracEquationOnMinkowskiSpacetimeAdvancedAndRetardedPropagators}). By prop. \ref{FeynmanPropagatorAsACauchyPrincipalvalue} 
+this means that it is the
+[[derivative of distributions]] of the [[Feynman propagator]] of the [[Klein-Gordon equation]] (def. \ref{FeynmanPropagatorForKleinGordonEquationOnMinkowskiSpacetime}) by the [[Dirac operator]]
+
+$$
+  \begin{aligned}
+  \Delta_{D, F}
+   & =
+  \left(
+     -i{\partial\!\!\!/\,} + \tfrac{m c}{\hbar}
+  \right)\Delta_{F}(x,y)
+  & =
+  \underset{ {\epsilon \in (0,\infty)} \atop {\epsilon \to 0} }{\lim}
+  \frac{-i}{(2\pi)^{p+1}}
+  \int
+  \int_{-\infty}^\infty
+  \frac{
+     \left( {k\!\!\!/\,} + \tfrac{m c}{\hbar} \right) e^{i k_\mu (x^\mu - y^\mu)}
+  }{
+    - k_\mu k^\mu - \left( \tfrac{m c}{\hbar} \right)^2 + i \epsilon
+  }
+  \, d k_0 \, d^p \vec k
+  \,.
+  \end{aligned}
+$$
+
 
 =--
 
