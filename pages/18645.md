@@ -66,6 +66,13 @@ Alongside the theory we develop the concrete examples of the [[real scalar field
 | [[electromagnetic field]] | expl. \ref{Electromagnetism} | expl. \ref{ElectromagnetismLagrangianDensity} | expl. \ref{ElectromagnetismEl}  | expl. \ref{NLGaugeFixingOfElectromagnetism} | ... |
 | [[Dirac field]] | expl. \ref{DiracFieldBundle}  | expl. \ref{LagrangianDensityForDiracField}  |  expl. \ref{EquationOfMotionOfDiracFieldIsDiracEquation}  |  none  |  expl. \ref{PeierlsBracketEistsForScalarFieldAndDiracField}, <br/>  expl. \ref{PoissonBracketForDiracField}  |
 
+| [[field (physics)|field]] | [[causal propagator]] | [[Hadamard propagator]] | [[Feynman propagator]] |
+|---------------------------|----|----|-----|
+| [[real scalar field]] | prop. \ref{ModeExpansionOfCausalPropagatorForKleinGordonOnMinkowski} | def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime} | def. \ref{FeynmanPropagatorForKleinGordonEquationOnMinkowskiSpacetime}  |
+| [[electromagnetic field]] | ...  | ... | ... |
+| [[Dirac field]] | prop. \ref{DiracEquationOnMinkowskiSpacetimeAdvancedAndRetardedPropagators} | def. \ref{HadamardPropagatorForDiracOperatorOnMinkowskiSpacetime} | def. \ref{FeynmanPropagatorForDiracOperatorOnMinkowskiSpacetime} |
+
+
 The [[electromagnetic field]] and the [[Dirac field]] combined are the [[field (physics)|fields]] of _[[quantum electrodynamics]]_
 which we turn to at the end [below](#QED).
 
@@ -15686,10 +15693,13 @@ $\,$
 ## Propagators
  {#Propagators}
 
-The structure that determines the [[quantization]] of a [[Lagrangian field theory]] ([below](#Quantization)) is the [[Poisson bracket]]
-on its [[covariant phase space]] (discussed [above](#PhaseSpace)).
+In the [previous chapter](#PhaseSpace) we have seen the [[covariant phase space]] (prop. \ref{CovariantPhaseSpace}) of sufficiently nice [[Lagrangian field theories]],
+which is the [[on-shell]] [[space of field histories]] equipped with the [[presymplectic form]] [[transgression of variational differential forms|transgressed]] from the [[presymplectic current]]
+of the theory; and we have seen that in good cases this induces a bilinear pairing on sufficiently well-behaved [[observables]],
+called the _[[Poisson bracket]]_ (def. \ref{PoissonBracketOnHamiltonianLocalObservables}), which reflects the [[infinitesimal symmetries]] of the [[presymplectic current]]. This [[Poisson bracket]] is of central importance for passing to actual [[quantum field theory]],
+since, as we will discuss in _[Quantization](#Quantization)_ below, it is the [[infinitesimal]] approximation to the [[quantization]] of a [[Lagrangian field theory]].
 
-We have seen that the [[Poisson bracket]] on the [[covariant phase space]] of a
+We have moreover seen that the [[Poisson bracket]] on the [[covariant phase space]] of a
 [[free field theory]] with [[Green hyperbolic differential equation|Green hyperbolic]] [[equations of motion]]
 -- the [[Peierls-Poisson bracket]] --
 is determined by the [[integral kernel]] of the _[[causal Green function]]_ (prop. \ref{PPeierlsBracket}).
@@ -15697,21 +15707,18 @@ Under the identification of linear of-shell observables with off-shell observabl
 that are [[generalized solution of a PDE|generalized solutions]] to the [[equations of motion]] (theorem \ref{LinearObservablesForGreeFreeFieldTheoryAreDistributionalSolutionsToTheEquationsOfMotion}) the convolution with this [[integral kernel]]
 may be understood as _propagating_ the values of an off-shell observable through [[spacetime]],
 such as to then compare it with any other observable at any spacetime point (prop. \ref{PPeierlsBracket}).
-
 Therefore the [[integral kernel]] of the [[causal Green function]] is also called the _[[causal propagator]]_.
-This is a key structure in the whole theory, and therefore here we analyze the [[causal propagator]], and
-other [[propagators]] derived from it, in detail.
 
-The main tool for these computations is _[[Fourier analysis]]_ by which [[field histories]], [[observables]] and [[propagators]]
-on [[Minkowski spacetime]] are decomposed as [[superpositions]] of [[plane waves]] of various [[frequencies]], [[wave lengths]]
-and [[wave vector]]-[[direction of a vector|direction]]. Using this, all [[propagators]] are exhibited as those [[superpositions]]
+This means that for [[Green hyperbolic differential equation|Green hyperbolic]] [[free field theory|free]] [[Lagrangian field theory]]
+the [[Poisson bracket]], and hence the infinitesimal [[quantization]] of the theory, is all encoded in the
+[[causal propagator]]. Therefore here we analyze the [[causal propagator]], as well as its variant [[propagators]], in detail.
+
+The main tool for these computations is _[[Fourier analysis]]_ (reviewed [below](#FourierAnalysis)) by which [[field histories]], [[observables]] and [[propagators]] on [[Minkowski spacetime]] are decomposed as [[superpositions]] of [[plane waves]] of various [[frequencies]], [[wave lengths]] and [[wave vector]]-[[direction of a vector|direction]]. Using this, all [[propagators]] are exhibited as those [[superpositions]]
 of [[plane waves]] which satisfy the [[dispersion relation]] of the given [[equation of motion]], relating [[plane wave]] [[frequency]]
 to [[wave length]].
 
 This way the [[causal propagator]] is naturally decomposed into its contribution from [[positive real number|positive]]
-and from [[negative real number|negative]] [[frequencies]]. The positive frequency part of the [[causal propagator]] is called the _[[Hadamard propagator]]_ (def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime} below). It turns out (prop. \ref{SkewSymmetricPartOfHadmrdPropagatorIsCausalPropagatorForKleinGordonEquationOnMinkowskiSpacetime} below) that this is equivalently the [[sum]] of the
-[[causal propagator]], which itself is skew-symmetric (cor. \ref{CausalPropagatorIsSkewSymmetric} below), with a symmetric component,
-or equivalently that the [[causal propagator]] is the skew-symmetrization of the [[Hadamard propagator]].
+and from [[negative real number|negative]] [[frequencies]]. The positive frequency part of the [[causal propagator]] is called the _[[Hadamard propagator]]_ (def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime} below). It turns out (prop. \ref{SkewSymmetricPartOfHadmrdPropagatorIsCausalPropagatorForKleinGordonEquationOnMinkowskiSpacetime} below) that this is equivalently the [[sum]] of the [[causal propagator]], which itself is skew-symmetric (cor. \ref{CausalPropagatorIsSkewSymmetric} below), with a symmetric component, or equivalently that the [[causal propagator]] is the skew-symmetrization of the [[Hadamard propagator]].
 After [[quantization]] of [[free field theory]] discussed [further below](#FreeQuantumFields), we will see that the
 Hadamard propagator is equivalently the [[2-point function|correlation function]] between two point-evaluation field observables (example \ref{PointEvaluationObservables}) in a _[[vacuum state]]_ of the field theory (a [[state]] in the sense of def. \ref{States}).
 
@@ -15740,7 +15747,7 @@ of [[quantum observables]] of the [[free field theory]] (discussed below in _[Fr
 
 $\,$
 
-The following table summarizes the structure of the system of propagators. 
+The following table summarizes the structure of the system of propagators.
 (The column "as vacuum expectation value of field operators" will be discussed further below in _[Free quantum fields](#FreeQuantumFields)_).
 
 $\,$
@@ -16488,42 +16495,12 @@ $$
 
 which would complete the generalization of of property (eq:FourierTransformInterchangesPointwiseProductWithConvolution) from prop. \ref{BasicPropertiesOfFourierTransformOverCartesianSpaces}.
 
-For this to make sense, the [[convolution product]] of the [[smooth functions]] on the right needs to exist, which is not guaranteed (prop. \ref{ConvolutionProductOnSchwartzSpace} does not apply here!). The condition that this exists is the [[Lars Hörmander|Hörmander]]-condition on the _[[wave front set]]_ of $u_1$ and $u_2$. See at _[[product of distributions]]_ for more.
+For this to make sense, the [[convolution product]] of the [[smooth functions]] on the right needs to exist, which is not guaranteed (prop. \ref{ConvolutionProductOnSchwartzSpace} does not apply here!). The condition that this exists is the [[Hörmander criterion]] on the _[[wave front set]]_ of $u_1$ and $u_2$. This we further discuss in _[Microlocal analysis and UV-Divergences](#MicrolocalAnalysisAndUltravioletDivergence)_ below.
 
 
 =--
 
 
-$\,$
-
-
-
-On [[Minkowski spacetime]] $\mathbb{R}^{p,1}$ consider the [[Klein-Gordon operator]]
-
-$$
-  \eta^{\mu \nu} \frac{\partial}{\partial x^\mu} \frac{\partial}{\partial x^\nu} \Phi -  \left( \tfrac{m c}{\hbar} \right)^2 \Phi \;=\; 0 \,.
-$$
-
-Its [[Fourier transform]] is
-
-$$
-  - k_\mu k^\mu - \left( \tfrac{m c}{\hbar} \right)^2
-  \;=\;
-  (k_0)^2 - {\vert \vec k\vert}^2 - \left( \tfrac{m c}{\hbar} \right)^2
-  \,.
-$$
-
-The [[dispersion relation]] of this equation we write
-
-$$
-  \label{DispersionRelationForKleinGordonooeratorObMinkowskiSpacetime}
-  \omega(\vec k)
-  \;\coloneqq\;
-  + c \sqrt{ {\vert \vec k \vert}^2 + \left( \tfrac{m c}{\hbar}\right)^2 }
-  \,,
-$$
-
-where on the right we choose the [[non-negative real number|non-negative]] [[square root]].
 
 
 
@@ -16925,9 +16902,6 @@ We now discuss
 
 **[[propagators]] for the [[free field theory|free]] [[scalar field]] on [[Minkowski spacetime]]**
 
-
-We now discuss
-
 1. _[Advanced and regarded propagators](#AdvancedAndRetardedPropagatorsForKleinGordonEquationOnMinkowskiSpacetime)_
 
 1. _[Causal propagator](#CausalPropagatorForKleinGordonEquationOnMinkowskiSpacetime)_
@@ -16941,6 +16915,35 @@ We now discuss
 $\,$
 
 
+On [[Minkowski spacetime]] $\mathbb{R}^{p,1}$ consider the [[Klein-Gordon operator]] (example \ref{EquationOfMotionOfFreeRealScalarField})
+
+$$
+  \eta^{\mu \nu} \frac{\partial}{\partial x^\mu} \frac{\partial}{\partial x^\nu} \Phi -  \left( \tfrac{m c}{\hbar} \right)^2 \Phi \;=\; 0 \,.
+$$
+
+By example \ref{FourierTransformOfKleinGordonEquation} its [[Fourier transform]] is
+
+$$
+  - k_\mu k^\mu - \left( \tfrac{m c}{\hbar} \right)^2
+  \;=\;
+  (k_0)^2 - {\vert \vec k\vert}^2 - \left( \tfrac{m c}{\hbar} \right)^2
+  \,.
+$$
+
+The [[dispersion relation]] of this equation we write (see def. \ref{PlaneWaves})
+
+$$
+  \label{DispersionRelationForKleinGordonooeratorObMinkowskiSpacetime}
+  \omega(\vec k)
+  \;\coloneqq\;
+  + c \sqrt{ {\vert \vec k \vert}^2 + \left( \tfrac{m c}{\hbar}\right)^2 }
+  \,,
+$$
+
+where on the right we choose the [[non-negative real number|non-negative]] [[square root]].
+
+
+$\,$
 
 **[[advanced and retarded propagators]] for [[Klein-Gordon equation]] on [[Minkowski spacetime]]**
 {#AdvancedAndRetardedPropagatorsForKleinGordonEquationOnMinkowskiSpacetime}
@@ -16949,13 +16952,13 @@ $\,$
 ###### Proposition
 **(mode expansion of [[advanced and retarded propagators]] for [[Klein-Gordon operator]] on [[Minkowski spacetime]])**
 
-The [[advanced and retarded Green functions]] $G_\pm$ of the [[Klein-Gordon operator]] on [[Minkowski spacetime]] are given by [[integral kernels]] ("[[propagators]]")
+The [[advanced and retarded Green functions]] $G_\pm$ (def. \ref{AdvancedAndRetardedGreenFunctions}) of the [[Klein-Gordon operator]] on [[Minkowski spacetime]] (example \ref{EquationOfMotionOfFreeRealScalarField}) are induced from [[integral kernels]] ("[[propagators]]"), hence [[distributions in two variables]]
 
 $$
-\Delta_\pm \in \mathcal{D}'(\mathbb{R}^{p,1}\times \mathbb{R}^{p,1})
+  \Delta_\pm \in \mathcal{D}'(\mathbb{R}^{p,1}\times \mathbb{R}^{p,1})
 $$
 
-by (in [[generalized function]]-notation)
+by (in [[generalized function]]-notation, prop. \ref{DistributionsAreGeneralizedFunctions})
 
 $$
 G_\pm(\Phi)
@@ -17023,7 +17026,7 @@ Here $\omega(\vec k)$ denotes the [[dispersion relation]] (eq:DispersionRelation
 +-- {: .proof}
 ###### Proof
 
-The [[Klein-Gordon operator]] is a [[Green hyperbolic differential operator]] ([this example](Green+hyperbolic+partial+differential+equation#GreenHyperbolicKleinGordonOperator)) therefore its advanced and retarded Green functions exist uniquely (prop. \ref{AdvancedAndRetardedGreenFunctionsForGreenHyperbolicOperatorAreUnique}).
+The [[Klein-Gordon operator]] is a [[Green hyperbolic differential operator]] (example \ref{GreenHyperbolicKleinGordonEquation}) therefore its advanced and retarded Green functions exist uniquely (prop. \ref{AdvancedAndRetardedGreenFunctionsForGreenHyperbolicOperatorAreUnique}).
 Moreover,  prop. \ref{GreenFunctionsAreContinuous} says that they are [[continuous linear functionals]] with respect to the [[topological vector space]] [[structures]] on [[spaces of smooth sections]] (def. \ref{TVSStructureOnSpacesOfSmoothSections}). In the case of the [[Klein-Gordon operator]] this just means that
 
 $$
@@ -17035,7 +17038,7 @@ C^\infty_{\pm cp}(\mathbb{R}^{p,1})
 $$
 
 are [[continuous linear functionals]] in the standard sense of [[distributions]]. Therefore the
-[[Schwartz kernel theorem]]  implies the existence of [[integral kernels]] being [[distributions in two variables]]
+[[Schwartz kernel theorem]] implies the existence of [[integral kernels]] being [[distributions in two variables]]
 
 $$
 \Delta_{\pm} \in \mathcal{D}(\mathbb{R}^{p,1} \times \mathbb{R}^{p,1})
@@ -17096,7 +17099,7 @@ $$
 \delta(x-y)
 $$
 
-subject to the condition that the [[support of a distribution|distributional support]] is
+subject to the condition that the [[support of a distribution|distributional support]] (def. \ref{DistributionalSections}) is
 
 $$
 supp\left( \Delta_{\pm}(x-y) \right)
@@ -17117,9 +17120,9 @@ $$
 \,,
 $$
 
-hence amenable to [[Fourier transform of distributions]]. If we do find a solution this way, it is guaranteed to be the unique solution by prop. \ref{AdvancedAndRetardedGreenFunctionsForGreenHyperbolicOperatorAreUnique}.
+hence amenable to [[Fourier transform of distributions]] (def. \ref{FourierTransformOnTemperedDistributions}). If we do find a [[solution]] this way, it is guaranteed to be the unique solution by prop. \ref{AdvancedAndRetardedGreenFunctionsForGreenHyperbolicOperatorAreUnique}.
 
-By [this prop.](Fourier+transform#BasicPropertiesOfFourierTransformOverCartesianSpaces)
+By example \ref{FourierTransformOfDistributionsIndeedGeneralizedOrdinaryFourierTransform}
 the [[Fourier transform of distributions|distributional Fourier transform]] of equation (eq:KleinGordonEquationOnAdvacedRetardedPropagator) is
 
 $$
@@ -17139,7 +17142,7 @@ $$
 $$
 
 where in the second line we used the [[Fourier transform of distributions|Fourier transform]] of the [[delta distribution]]
-from [this example](Dirac+distribution#FourierTransformOfDeltaDistribution).
+from example \ref{FourierTransformOfDeltaDistribution}.
 
 Notice that this implies that the [[Fourier transform]] of the [[causal propagator]]
 
@@ -17346,7 +17349,7 @@ Conversely, if $(x^0 - y^0) \lt 0$ then we may analogously expand into the [[low
 
 1. Apply [[Cauchy's integral formula]] to find in the case $(x^0 - y^0)\gt 0$ the sum of the [[residues]] at these two [[poles]] times $2\pi i$, zero in the other case. (For the retarded propagator we get $- 2 \pi i$ times the residues, because now the contours encircling non-trivial poles go clockwise).
 
-1. The result is now non-singular at $\epsion = 0$ and therefore the [[limit of a sequence|limit]] $\epsilon \to 0$ is now computed by evaluating at $\epsilon = 0$.
+1. The result is now non-singular at $\epsilon = 0$ and therefore the [[limit of a sequence|limit]] $\epsilon \to 0$ is now computed by evaluating at $\epsilon = 0$.
 
 This computation shows a) that the limiting distribution indeed exists, and b) that the [[support of a distribution|support]]
 of $\Delta_+$ is in the future, and that of $\Delta_-$ is in the past.
@@ -17364,7 +17367,7 @@ slice through the origin in $\mathbb{R}^{p,1}$, hence in the [[closed future con
 ###### Corollary
 **([[causal propagator]] is skew-symmetric)**
 
-Under reversal of arguments the [[advanced and retarded causal propagators]] are related by
+Under reversal of arguments the [[advanced and retarded causal propagators]] from prop. \ref{AdvancedRetardedPropagatorsForKleinGordonOnMinkowskiSpacetime} are related by
 
 $$
 \Delta_{\pm}(y-x) = \Delta_\mp(x-y)
@@ -17461,7 +17464,7 @@ $\,$
 ###### Proposition
 **(mode expansion of [[causal propagator]] for [[Klein-Gordon equation]] on [[Minkowski spacetime]])**
 
-The [[causal propagator]] (eq:CausalPropagator) for the [[Klein-Gordon equation]] for [[mass]] $m$ on [[Minkowski spacetime]] $\mathbb{R}^{p,1}$ is given, in [[generalized function]] notation, by
+The [[causal propagator]] (eq:CausalPropagator) for the [[Klein-Gordon equation]] for [[mass]] $m$ on [[Minkowski spacetime]] $\mathbb{R}^{p,1}$ (example \ref{EquationOfMotionOfFreeRealScalarField}) is given, in [[generalized function]] notation, by
 
 
 $$
@@ -17594,14 +17597,13 @@ where in the last step we used the [[change of integration variables]] $\vec k \
 
 =--
 
-We consider a couple of equivalent expressions for the causal propagator:
+We consider a couple of equivalent expressions for the causal propagator which are useful for computations:
 
 +-- {: .num_prop #CausalPropagatorForKleinGordonOnMinkowskiAsContourIntegral}
 ###### Proposition
 **([[causal propagator]] for [[Klein-Gordon operator]] on [[Minkowski spacetime]] as a [[contour integral]])**
 
-
-The [[causal propagator]] for the [[Klein-Gordon equation]] at [[mass]] $m$ on [[Minkowski spacetime]] has the following equivalent expression, as a [[generalized function]], given as a [[contour integral]] along a curve $C(\vec k)$ going counter-clockwise around the two [[poles]] at $k_0 = \pm \omega(\vec k)/c$:
+The [[causal propagator]] (prop. \ref{GreenFunctionsAreContinuous}) for the [[Klein-Gordon equation]] at [[mass]] $m$ on [[Minkowski spacetime]] (example \ref{EquationOfMotionOfFreeRealScalarField}) has the following equivalent expression, as a [[generalized function]], given as a [[contour integral]] along a [[Jordan curve]] $C(\vec k)$ going counter-clockwise around the two [[poles]] at $k_0 = \pm \omega(\vec k)/c$:
 
 
 $$
@@ -17778,7 +17780,7 @@ $$
 ###### Definition
 **([[Hadamard propagator]] or [[vacuum state]] [[2-point function]] for [[Klein-Gordon operator]] on [[Minkowski spacetime]])**
 
-The _[[Hadamard propagator]]_ for the [[Klein-Gordon operator]] at [[mass]] $m$ on [[Minkowski spacetime]] is the [[tempered distribution|tempered]] [[distribution in two variables]] $\Delta_H \in \mathcal{S}'(\mathbb{R}^{p,1})$ which as a [[generalized function]] is given by the expression
+The _[[Hadamard propagator]]_ for the [[Klein-Gordon operator]] at [[mass]] $m$ on [[Minkowski spacetime]] (example \ref{EquationOfMotionOfFreeRealScalarField}) is the [[tempered distribution|tempered]] [[distribution in two variables]] $\Delta_H \in \mathcal{S}'(\mathbb{R}^{p,1})$ which as a [[generalized function]] is given by the expression
 
 $$
 \label{HadamardPropagatorForKleinGordonOperatorOnMinkowskiSpacetime}
@@ -17800,14 +17802,13 @@ Here in the first line we have in the [[integrand]] the [[delta distribution]] o
 
 =--
 
-(e.g. [Khavine-Moretti 14, equation (38) and section 3.4](Hadamard+distribution#KhavineMoretti14))
+(e.g. [Khavkine-Moretti 14, equation (38) and section 3.4](Hadamard+distribution#KhavineMoretti14))
 
 +-- {: .num_prop #ContourIntegralForStandardHadamardPropagatorOnMinkowskiSpacetime}
 ###### Proposition
 **([[contour integral]] representation of the [[Hadamard propagator]] for the [[Klein-Gordon operator]] on [[Minkowski spacetime]])
 
-The [[Hadamard propagator]] from
-def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime} is
+The [[Hadamard propagator]] from def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime} is
 equivalently given by the [[contour integral]]
 
 $$
@@ -18022,7 +18023,7 @@ $$
 ###### Definition
 **([[Feynman propagator]] for [[Klein-Gordon equation]] on [[Minkowski spacetime]])**
 
-The _[[Feynman propagator]]_ for the [[Klein-Gordon equation]] on [[Minkowski spacetime]] is the [[linear combination]]
+The _[[Feynman propagator]]_ for the [[Klein-Gordon equation]] on [[Minkowski spacetime]] (example \ref{EquationOfMotionOfFreeRealScalarField}) is the [[linear combination]]
 
 $$
   \Delta_F
@@ -18188,11 +18189,11 @@ is invariant under $\vec k \mapsto - \vec k$.
 
 =--
 
-As before for the [[causal propagator]], there are equivalent reformulations of the [[Feynman propagator]]:
+As before for the [[causal propagator]], there are equivalent reformulations of the [[Feynman propagator]] which are useful for computations:
 
-+-- {: .num_prop #}
++-- {: .num_prop #FeynmanPropagatorAsACauchyPrincipalvalue}
 ###### Proposition
-
+**([[Feynman propagator]] as a [[Cauchy principal value]])**
 
 The [[Feynman propagator]] (def. \ref{FeynmanPropagatorForKleinGordonEquationOnMinkowskiSpacetime}) for the [[Klein-Gordon equation]] on [[Minkowski spacetime]] is equivalently given by the following expression:
 
@@ -18213,7 +18214,7 @@ $$
   \end{aligned}
 $$
 
-where we have a [[limit of a sequence|limit]] of [[distributions]] as for the [[Cauchy principal value]] ([this prop](#CauchyPrincipalValueEqualsIntegrationWithImaginaryOffsetPlusDelta)).
+where we have a [[limit of a sequence|limit]] of [[distributions]] as for the [[Cauchy principal value]] ([this prop](Cauchy+principal+vlue#CauchyPrincipalValueEqualsIntegrationWithImaginaryOffsetPlusDelta)).
 
 =--
 
@@ -18350,7 +18351,6 @@ $$
 
 +-- {: .proof}
 ###### Proof
-
 
 
 Consider the formula for the [[causal propagator]] in terms of the mode expansion (eq:CausalPropagatorModeExpansionForKleinGordonOnMinkowskiSpacetime). Since the [[integrand]] here depends on the [[wave vector]] $\vec k$ only via its [[norm]] ${\vert \vec k\vert}$ and the [[angle]] $\theta$ it makes with the given [[spacetime]] [[vector]] via
@@ -19018,37 +19018,43 @@ We now discuss how the [[propagators]] for the [[free field theory|free]] [[Dira
 ###### Proposition
 **([[advanced and retarded propagator]] for [[Dirac equation]] on [[Minkowski spacetime]])**
 
-Consider the [[Dirac operator]] on [[Minkowski spacetime]] (example \ref{EquationOfMotionOfDiracFieldIsDiracEquation}), which in [[Feynman slash notation]] (eq:FeynmanSlashNotationForMasslessDiracOperator) reads
+Consider the [[Dirac operator]] on [[Minkowski spacetime]], which in [[Feynman slash notation]] reads
 
 $$
-  i \partial\!\!\!/\,
-  \;\coloneqq\;
-  i \gamma^\mu \frac{\partial}{\partial x^\mu}
+  \begin{aligned}
+    D
+      & \coloneqq
+    -i {\partial\!\!\!/\,}
+     + \tfrac{m c}{\hbar}
+    \\
+    & =
+    -i \gamma^\mu \frac{\partial}{\partial x^\mu} + \tfrac{m c}{\hbar}
+  \end{aligned}
   \,.
 $$
 
 Its [[advanced and retarded propagators]] (def. \ref{AdvancedAndRetardedGreenFunctions})
-are the [[derivatives of distributions]] of the advanced and retarded propagators for the [[Klein-Gordon equation]] (prop. \ref{AdvancedRetardedPropagatorsForKleinGordonOnMinkowskiSpacetime}) by $\partial\!\!\!/\, + m$:
+are the [[derivatives of distributions]] of the advanced and retarded propagators $\Delta_\pm$ for the [[Klein-Gordon equation]] (prop. \ref{AdvancedRetardedPropagatorsForKleinGordonOnMinkowskiSpacetime}) by ${\partial\!\!\!/\,} + m$:
 
 $$
-  \Delta_{(i\partial\!\!\!/\, - \tfrac{m c}{\hbar} ), \pm}
+  \Delta_{D, \pm}
   \;=\;
   \left(
-    i\partial\!\!\!/\, + \tfrac{m c}{\hbar}
+    -i{\partial\!\!\!/\,} - \tfrac{m c}{\hbar}
   \right)
-  \Delta_{\Box - \left( \tfrac{m c}{\hbar}\right)^2, \pm}
+  \Delta_{\pm}
   \,.
 $$
 
-Hence the same is true for the [[causal propagator]]
+Hence the same is true for the [[causal propagator]]:
 
 $$
-  \Delta_{(i\partial\!\!\!/\, - \tfrac{m c}{\hbar} ), S}
+  \Delta_{D, S}
   \;=\;
   \left(
-    i\partial\!\!\!/\, + \tfrac{m c}{\hbar}
+    -i{\partial\!\!\!/\,} - \tfrac{m c}{\hbar}
   \right)
-  \Delta_{\Box - \left( \tfrac{m c}{\hbar}\right)^2, S}
+  \Delta_{S}
   \,.
 $$
 
@@ -19060,34 +19066,107 @@ $$
 
 Applying a [[differential operator]] does not change the [[support]] of a [[smooth function]], hence also not the [[support of a distribution]]. Therefore the uniqueness of the advanced and retarded propagators (prop. \ref{AdvancedAndRetardedGreenFunctionsForGreenHyperbolicOperatorAreUnique})
 together with the translation-invariance and the anti-[[formally self-adjoint differential operator|formally self-adjointness]] of the [[Dirac operator]] (as for the [[Klein-Gordon operator]] (eq:TranslationInvariantKleinGordonPropagatorsOnMinkowskiSpacetime)
-implies that it is sufficent to check that applying the [[Dirac operator]] to the $\Delta_{\partial\!\!\!/\, + \tfrac{m c}{\hbar}, \pm}$
+implies that it is sufficent to check that applying the [[Dirac operator]] to the $\Delta_{D, \pm}$
 yields the [[delta distribution]]. This follows since the Dirac operator squares to the Klein-Gordon operator:
 
 
 $$
   \begin{aligned}
     \left(
-      i\partial\!\!\!/\, + \tfrac{m c}{\hbar}
+      -i{\partial\!\!\!/\,} + \tfrac{m c}{\hbar}
     \right)
-    \Delta_{i\partial\!\!\!/\, + \tfrac{m c}{\hbar}, \pm}
+    \Delta_{D, \pm}
     & =
     \underset{ = \Box - \left(\tfrac{m c}{\hbar}\right)^2}{
     \underbrace{
     \left(
-      i\partial\!\!\!/\, + \tfrac{m c}{\hbar}
+      -i{\partial\!\!\!/\,} + \tfrac{m c}{\hbar}
     \right)
     \left(
-      i\partial\!\!\!/\, - \tfrac{m c}{\hbar}
+      -i{\partial\!\!\!/\,} - \tfrac{m c}{\hbar}
     \right)
     }
     }
-    \Delta_{\Box - \left( \tfrac{m c}{\hbar} \right)^2, \pm}
+    \Delta_{\pm}
     \\
     & =
     \delta
   \end{aligned}
   \,.
 $$
+
+=--
+
+Similarly we obtain the other [[propagators]] for the [[Dirac field]] from those of the [[real scalar field]]:
+
++-- {: .num_defn #HadamardPropagatorForDiracOperatorOnMinkowskiSpacetime}
+###### Definition
+**([[Hadamard propagator]] for [[Dirac operator]] on [[Minkowski spacetime]])**
+
+The _[[Hadamard propagator]]_ for the [[Dirac operator]] on [[Minkowski spacetime]] is the [[positive real number|positive]] [[frequency]] part of the [[causal propagator]] (prop. \ref{DiracEquationOnMinkowskiSpacetimeAdvancedAndRetardedPropagators}),
+hence the [[derivative of distributions]] of the Hadamard propagator for the Klein-Gordon field (def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime}) by the [[Dirac operator]]:
+
+$$
+  \begin{aligned}
+  \left(
+     -i{\partial\!\!\!/\,} + \tfrac{m c}{\hbar}
+  \right)\Delta_{H}(x,y)
+  & =
+  \frac{1}{(2\pi)^p} \int \delta\left( k_\mu k^\mu + m^2 \right) \Theta( -k_0 ) ( {k\!\!\!/\,} + \tfrac{m c}{\hbar}) e^{i k_\mu (x^\mu-y^\mu) } \, d^{p+1} k
+  \\
+  & =
+  \frac{1}{(2\pi)^p}
+  \int \frac{ \gamma^0 \omega(\vec k)/c + \vec \gamma \cdot \vec k + \tfrac{m c}{\hbar}   }{2 \omega(\vec k)/c}
+  e^{-i \omega(\vec k)(x^0 - y^0)/c + i \vec k \cdot (\vec x - \vec y) }
+  \, d^p \vec k
+  \,.
+  \end{aligned}
+$$
+
+Here we used the expression (eq:StandardHadamardDistributionOnMinkowskiSpacetime) for the Hadamard propagator of the Klein-Gordon equation.
+
+=--
+
++-- {: .num_defn #FeynmanPropagatorForDiracOperatorOnMinkowskiSpacetime}
+###### Definition
+**([[Feynman propagator]] for [[Dirac operator]] on [[Minkowski spacetime]])**
+
+The _[[Feynman propagator]]_ for the [[Dirac operator]] on [[Minkowski spacetime]] is the linear combination
+
+$$
+  \Delta_{D, F}
+  \;\coloneqq\;
+  \Delta_{D,H}
+  +
+  i \Delta_{D, -}
+$$
+
+of the [[Hadamard propagator]] (def. \ref{HadamardPropagatorForDiracOperatorOnMinkowskiSpacetime}) and the retarded propagator (prop. \ref{DiracEquationOnMinkowskiSpacetimeAdvancedAndRetardedPropagators}). By prop. \ref{FeynmanPropagatorAsACauchyPrincipalvalue}
+this means that it is the
+[[derivative of distributions]] of the [[Feynman propagator]] of the [[Klein-Gordon equation]] (def. \ref{FeynmanPropagatorForKleinGordonEquationOnMinkowskiSpacetime}) by the [[Dirac operator]]
+
+$$
+  \begin{aligned}
+  \Delta_{D, F}
+   & =
+  \left(
+     -i{\partial\!\!\!/\,} + \tfrac{m c}{\hbar}
+  \right)\Delta_{F}(x,y)
+  & =
+  \underset{ {\epsilon \in (0,\infty)} \atop {\epsilon \to 0} }{\lim}
+  \frac{-i}{(2\pi)^{p+1}}
+  \int
+  \int_{-\infty}^\infty
+  \frac{
+     \left( {k\!\!\!/\,} + \tfrac{m c}{\hbar} \right) e^{i k_\mu (x^\mu - y^\mu)}
+  }{
+    - k_\mu k^\mu - \left( \tfrac{m c}{\hbar} \right)^2 + i \epsilon
+  }
+  \, d k_0 \, d^p \vec k
+  \,.
+  \end{aligned}
+$$
+
 
 =--
 
