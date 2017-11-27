@@ -2055,3 +2055,5 @@ Lecture notes concerning 1-loop vacuum amplitudes for the [[string]] include
 
 [[!redirects Feynman propagators]]
 
+[[!redirects anti-Feynman propagator]]
+[[!redirects anti-Feynman propagators]]
