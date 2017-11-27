@@ -154,4 +154,4 @@ this diverges for $x^2 \to 0$ as $(x^2)^{-(p+1)/2 + 1}$ ([DLMF 10.30.2](http://d
 |---------------------------|----|----|-----|
 | [[real scalar field]] | prop. \ref{ModeExpansionOfCausalPropagatorForKleinGordonOnMinkowski} | def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime} | def. \ref{FeynmanPropagatorForKleinGordonEquationOnMinkowskiSpacetime}  |
 | [[electromagnetic field]] | ...  | ... | ... |
-| [[Dirac field]] | prop. \ref{DiracEquationOnMinkowskiSpacetimeAdvancedAndRetardedPropagators} |  ... | ... |
+| [[Dirac field]] | prop. \ref{DiracEquationOnMinkowskiSpacetimeAdvancedAndRetardedPropagators} | def. \ref{HadamardPropagatorForDiracOperatorOnMinkowskiSpacetime} | def. \ref{FeynmanPropagatorForDiracOperatorOnMinkowskiSpacetime} |
