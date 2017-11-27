@@ -3,6 +3,12 @@
 * table of contents 
 {: toc}
 
+## Idea
+
+The [[real number]] $\pi \in \mathbb{R}$ is the [[length]] of one [[hemisphere|hemi-circle]] of the [[unit circle]]. Hene $2 \pi$ is the circumference of the full [[unit circle]].
+
+This number plays a central role in [[trigonometry]], but -- especially via its relation to [[complex analysis]] via [[Euler's formula]] -- it also appears in many other situations.
+
 ## Definition via real analysis 
 
 The [[real number]] $\pi \in \mathbb{R}$ (occasionally called _Ludolph's number_ ---make that _very_ occasionally, nowadays--- or _Archimedes' constant_) is the minimal [[positive real number|positive]] [[root]] of the [[sine function]] $sin_\mathbb{R} : \mathbb{R}\to\mathbb{R}$, which itself is the unique solution to the [[differential equation]]/[[initial value problem]]
