@@ -785,7 +785,7 @@ Conversely, if $(x^0 - y^0) \lt 0$ then we may analogously expand into the [[low
 
 1. Apply [[Cauchy's integral formula]] to find in the case $(x^0 - y^0)\gt 0$ the sum of the [[residues]] at these two [[poles]] times $2\pi i$, zero in the other case. (For the retarded propagator we get $- 2 \pi i$ times the residues, because now the contours encircling non-trivial poles go clockwise).
 
-1. The result is now non-singular at $\epsion = 0$ and therefore the [[limit of a sequence|limit]] $\epsilon \to 0$ is now computed by evaluating at $\epsilon = 0$.
+1. The result is now non-singular at $\epsilon = 0$ and therefore the [[limit of a sequence|limit]] $\epsilon \to 0$ is now computed by evaluating at $\epsilon = 0$.
 
 This computation shows a) that the limiting distribution indeed exists, and b) that the [[support of a distribution|support]]
 of $\Delta_+$ is in the future, and that of $\Delta_-$ is in the past.
@@ -803,7 +803,7 @@ slice through the origin in $\mathbb{R}^{p,1}$, hence in the [[closed future con
 ###### Corollary
 **([[causal propagator]] is skew-symmetric)**
 
-Under reversal of arguments the [[advanced and retarded causal propagators]] are related by
+Under reversal of arguments the [[advanced and retarded causal propagators]] from prop. \ref{AdvancedRetardedPropagatorsForKleinGordonOnMinkowskiSpacetime} are related by
 
 $$
 \Delta_{\pm}(y-x) = \Delta_\mp(x-y)
@@ -1033,7 +1033,7 @@ where in the last step we used the [[change of integration variables]] $\vec k \
 
 =--
 
-We consider a couple of equivalent expressions for the causal propagator:
+We consider a couple of equivalent expressions for the causal propagator which are useful for computations:
 
 +-- {: .num_prop #CausalPropagatorForKleinGordonOnMinkowskiAsContourIntegral}
 ###### Proposition
@@ -1239,7 +1239,7 @@ Here in the first line we have in the [[integrand]] the [[delta distribution]] o
 
 =--
 
-(e.g. [Khavine-Moretti 14, equation (38) and section 3.4](Hadamard+distribution#KhavineMoretti14))
+(e.g. [Khavkine-Moretti 14, equation (38) and section 3.4](Hadamard+distribution#KhavineMoretti14))
 
 +-- {: .num_prop #ContourIntegralForStandardHadamardPropagatorOnMinkowskiSpacetime}
 ###### Proposition
@@ -1627,11 +1627,11 @@ is invariant under $\vec k \mapsto - \vec k$.
 
 =--
 
-As before for the [[causal propagator]], there are equivalent reformulations of the [[Feynman propagator]]:
+As before for the [[causal propagator]], there are equivalent reformulations of the [[Feynman propagator]], which are useful for computations:
 
-+-- {: .num_prop #}
++-- {: .num_prop #FeynmanPropagatorAsACauchyPrincipalvalue}
 ###### Proposition
-
+**([[Feynman propagator]] as a [[Cauchy principal value]])**
 
 The [[Feynman propagator]] (def. \ref{FeynmanPropagatorForKleinGordonEquationOnMinkowskiSpacetime}) for the [[Klein-Gordon equation]] on [[Minkowski spacetime]] is equivalently given by the following expression:
 
@@ -1652,7 +1652,7 @@ $$
   \end{aligned}
 $$
 
-where we have a [[limit of a sequence|limit]] of [[distributions]] as for the [[Cauchy principal value]] ([this prop](#CauchyPrincipalValueEqualsIntegrationWithImaginaryOffsetPlusDelta)).
+where we have a [[limit of a sequence|limit]] of [[distributions]] as for the [[Cauchy principal value]] ([this prop](Cauchy+principal+vlue#CauchyPrincipalValueEqualsIntegrationWithImaginaryOffsetPlusDelta)).
 
 =--
 
