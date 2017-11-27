@@ -1479,7 +1479,7 @@ $$
 
 where the first term is proportional to the sum of the [[advanced and retarded propagators]] (prop. \ref{AdvancedRetardedPropagatorsForKleinGordonOnMinkowskiSpacetime}) and the second is the symmetric part of the [[Hadamard propagator]] according to prop. \ref{SkewSymmetricPartOfHadmrdPropagatorIsCausalPropagatorForKleinGordonEquationOnMinkowskiSpacetime}.
 
-Similarly the _[[anti-Feynman propagator]]_ is 
+Similarly the _[[anti-Feynman propagator]]_ is
 
 $$
   \Delta_{\overline{F}}
@@ -1498,7 +1498,7 @@ $$
 
 +-- {: .num_prop #ModeExpansionForFeynmanPropagatorOfKleinGordonEquationOnMinkowskiSpacetime}
 ###### Proposition
-**(mode expanion for [[Feynman propagator]] of [[Klein-Gordon equation]] on [[Minkowski spacetime]])**
+**(mode expansion for [[Feynman propagator]] of [[Klein-Gordon equation]] on [[Minkowski spacetime]])**
 
 The [[Feynman propagator]] (def. \ref{FeynmanPropagatorForKleinGordonEquationOnMinkowskiSpacetime}) for the [[Klein-Gordon equation]] on [[Minkowski spacetime]] is given by the following equivalent expressions
 
@@ -1945,12 +1945,23 @@ $$
 
 =--
 
-(e.g. [Scharf 95 (2.3.18)](causal+perturbation+theory#Scharf95))
-
 
 +-- {: .proof}
 ###### Proof
 
+The statement follows immediately from the result 
+([Gel'fand-Shilov 66, III 2.11 (7), p 294](#GelfandShilov66)), see [this prop.](Cauchy+principal+value#FourierTransformOfDeltaDistributionappliedToMassShell)
+
+We make this fully explicit now in the special case of [[spacetime]] [[dimension]]
+
+$$
+  p + 1 = 3 + 1
+$$
+
+by computing an explicit form for the [[causal propagator]] in terms of the [[delta distribution]],
+the [[Heaviside distribution]] and [[smooth function|smooth]] [[Bessel functions]].
+
+We follow ([Scharf 95 (2.3.18)](causal+perturbation+theory#Scharf95)).
 
 
 Consider the formula for the [[causal propagator]] in terms of the mode expansion (eq:CausalPropagatorModeExpansionForKleinGordonOnMinkowskiSpacetime). Since the [[integrand]] here depends on the [[wave vector]] $\vec k$ only via its [[norm]] ${\vert \vec k\vert}$ and the [[angle]] $\theta$ it makes with the given [[spacetime]] [[vector]] via
@@ -1991,14 +2002,7 @@ d {\vert \vec k\vert}
 $$
 
 
-We consider this now for the case that the [[spacetime]] [[dimension]] is
-
-$$
-  p + 1 = 3 + 1
-  \,.
-$$
-
-In this case the above becomes
+In the special case of [[spacetime]] [[dimension]] $p + 1 = 3 + 1$ this becomes
 
 $$
 \label{StepsInComputingCausalPropagatorIn3plus1Dimension}
@@ -2364,12 +2368,23 @@ $$
 
 =--
 
-(e.g. [Scharf 95 (2.3.36)](causal+perturbation+theory#Scharf95))
-
 +-- {: .proof}
 ###### Proof
 
-Again we give the proof for the case that the [[spacetime]] [[dimension]] is $p + 1 = 3 + 1$.
+The statement follows immediately from the result
+([Gel'fand-Shilov 66, III 2.11 (7), p 294](#GelfandShilov66)), see [this prop.](Cauchy+principal+value#FourierTransformOfDeltaDistributionappliedToMassShell).
+
+We make this fully explicit now in the special case of [[spacetime]] [[dimension]]
+
+$$
+  p + 1 = 3 + 1
+$$
+
+by computing an explicit form for the [[causal propagator]] in terms of the [[delta distribution]],
+the [[Heaviside distribution]] and [[smooth function|smooth]] [[Bessel functions]].
+
+We follow ([Scharf 95 (2.3.36)](causal+perturbation+theory#Scharf95)).
+
 
 By (eq:SymmetricPartOfHadamardPropagatorForKleinGordonOnMinkowskiSpacetime) we have
 
@@ -2556,6 +2571,16 @@ $$
 $$
 
 =--
+
+
++-- {: .proof}
+###### Proof
+
+The statement follows immediately from the result
+([Gel'fand-Shilov 66, III 2.8 (8) and (9), p 289](#GelfandShilov66)) [this prop.](Cauchy+principal+value#FourierTransformOfPrincipalValueOfPowerOfQuadraticForm).
+
+=--
+
 
 +-- {: .num_prop #WaveFronSetsForKGPropagatorsOnMinkowski}
 ###### Proposition
