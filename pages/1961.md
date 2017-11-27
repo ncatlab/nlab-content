@@ -1,4 +1,5 @@
 
+> This entry is about tangent vectors and the [[bundle]] they form. For the [[tangent function]] see there.
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -1006,5 +1007,3 @@ Discussion for [[diffeological spaces]] is in
 [[!redirects tangent vector spaces]]
 [[!redirects tangent vector fields]]
 
-[[!redirects tangent]]
-[[!redirects tangents]]
