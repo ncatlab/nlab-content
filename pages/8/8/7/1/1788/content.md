@@ -148,3 +148,10 @@ where the last step is [DLMF 10.32.10](http://dlmf.nist.gov/10.32#E10)
 
 
 this diverges for $x^2 \to 0$ as $(x^2)^{-(p+1)/2 + 1}$ ([DLMF 10.30.2](http://dlmf.nist.gov/10.30#E2))
+
+
+| [[field (physics)|field]] | [[causal propagator]] | [[Hadamard propagator]] | [[Feynman propagator]] |
+|---------------------------|----|----|-----|
+| [[real scalar field]] | prop. \ref{ModeExpansionOfCausalPropagatorForKleinGordonOnMinkowski} | def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime} | def. \ref{FeynmanPropagatorForKleinGordonEquationOnMinkowskiSpacetime}  |
+| [[electromagnetic field]] | ...  | ... | ... |
+| [[Dirac field]] | prop. \ref{DiracEquationOnMinkowskiSpacetimeAdvancedAndRetardedPropagators} |  ... | ... |
