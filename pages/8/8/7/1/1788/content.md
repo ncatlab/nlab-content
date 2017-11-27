@@ -150,8 +150,70 @@ where the last step is [DLMF 10.32.10](http://dlmf.nist.gov/10.32#E10)
 this diverges for $x^2 \to 0$ as $(x^2)^{-(p+1)/2 + 1}$ ([DLMF 10.30.2](http://dlmf.nist.gov/10.30#E2))
 
 
-| [[field (physics)|field]] | [[causal propagator]] | [[Hadamard propagator]] | [[Feynman propagator]] |
-|---------------------------|----|----|-----|
-| [[real scalar field]] | prop. \ref{ModeExpansionOfCausalPropagatorForKleinGordonOnMinkowski} | def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime} | def. \ref{FeynmanPropagatorForKleinGordonEquationOnMinkowskiSpacetime}  |
-| [[electromagnetic field]] | ...  | ... | ... |
-| [[Dirac field]] | prop. \ref{DiracEquationOnMinkowskiSpacetimeAdvancedAndRetardedPropagators} | def. \ref{HadamardPropagatorForDiracOperatorOnMinkowskiSpacetime} | def. \ref{FeynmanPropagatorForDiracOperatorOnMinkowskiSpacetime} |
+$$
+  \begin{aligned}
+  \underset{ {\epsilon \in (0,\infty)} \atop {\epsilon \to 0} }{\lim}
+  \frac{-i}{(2\pi)^{p+1}}
+  \int
+  \int_{-\infty}^\infty
+  \frac{
+     e^{i k_\mu (x^\mu - y^\mu)}
+  }{
+    - k_\mu k^\mu - \left( \tfrac{m c}{\hbar} \right)^2 - i \epsilon
+  }
+  \, d k_0 \, d^p \vec k
+  & =
+  \underset{ {\epsilon \in (0,\infty)} \atop {\epsilon \to 0} }{\lim}
+  \frac{-i}{(2\pi)^{p+1}}
+  \int
+  \int_{-\infty}^\infty
+  \frac{
+     e^{i k_\mu (x^\mu - y^\mu)}
+  }{
+    (k_0)^2
+      -
+    \underset{
+      \coloneqq \omega_{-\epsilon}(\vec k)^2/c^2
+    }{\underbrace{ \left( \omega(\vec k)^2/c^2 + i \epsilon \right) }}
+  }
+  \, d k_0 \, d^p \vec k
+  \\
+  & =
+  \underset{ {\epsilon \in (0,\infty)} \atop {\epsilon \to 0} }{\lim}
+  \frac{-i}{(2\pi)^{p+1}}
+  \int
+  \int_{-\infty}^\infty
+  \frac{
+     e^{i k_\mu (x^\mu - y^\mu)}
+  }{
+     \left(
+       k_0 - \omega_{-\epsilon}(\vec k)/c
+     \right)
+     \left(
+       k_0 + \omega_{-\epsilon}(\vec k)/c
+     \right)
+  }
+  \, d k_0 \, d^p \vec k
+  \\
+  & =
+  \left\{
+    \array{
+    \frac{-1}{(2\pi)^p}
+    \int
+    \frac{1}{2\omega(\vec k)c}
+    e^{+i\omega(\vec k)(x^0 - y^0)/c} e^{i \vec k \cdot (\vec x - \vec y)}
+    \, d^p \vec k
+    &\vert&
+    (x^0 - y^0) \gt 0
+    \\
+    \frac{-1}{(2\pi)^p}
+    \int
+    \frac{1}{2\omega(\vec k)c}
+    e^{-i\omega(\vec k)(x^0 - y^0)/c} e^{i \vec k \cdot (\vec x - \vec y)}
+    \, d^p \vec k
+    &\vert&
+    (x^0 - y^0) \lt 0
+    }
+  \right.
+  \end{aligned}
+$$
