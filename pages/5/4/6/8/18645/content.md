@@ -15769,7 +15769,7 @@ We now discuss these topics:
   * _[Microlocal analysis and UV-Divergences](#MicrolocalAnalysisAndUltravioletDivergence)_
 
   * _[Cauchy principal values](#CauchyPrincipalValues)_
-  
+
 
 * _Propagators for the free scalar field on Minkowski spacetime_
 
@@ -16746,7 +16746,7 @@ At the origin, any bump function $b$ supported around the origin with $b(0) = 1$
 
 +-- {: .num_example #WaveFrontSetOfHeavisideDistribution}
 ###### Example
-**(wave front set of [[step function]])**
+**([[wave front set]] of [[step function]])**
 
 Let $\Theta \in \mathcal{D}'(\mathbb{R}^1)$ be the [[Heaviside step function]] given by
 
@@ -16763,6 +16763,30 @@ $$
 $$
 
 =--
+
+
++-- {: .num_prop #WaveFrontSetOfCompactlySupportedDistributions}
+###### Proposition
+**([[wave front set]] of [[convolution of distributions|convolution of]] [[compactly supported distributions]])**
+
+
+Let $u,v \in \mathcal{E}'(\mathbb{R}^n)$ be two  [[compactly supported distributions]]. Then the [[wave front set]] (def. \ref{WaveFrontSet}) of their [[convolution of distributions]] (def. \ref{ConvolutionOfADistributionWithACompactlySupportedDistribution}) is
+
+$$
+  WF(u \star v)
+  \;=\;
+  \left\{
+    (x + y, k)
+    \;\vert\;
+    (x,k) \in WF(u) \,\text{and}\, (y,k) \in WF(u)
+  \right\}
+  \,.
+$$
+
+=--
+
+([Bengel 77, prop. 3.1](convolution+product+of+distributions#Bengel77))
+
 
 
 
@@ -16904,10 +16928,10 @@ $\,$
  {#CauchyPrincipalValues}
 
 An important application of the [[Fourier analysis]] of [[distributions]] is the class of distributions known
-broadly as _[[Cauchy principal values]]_. Below we will find that these control the detailed nature of the 
+broadly as _[[Cauchy principal values]]_. Below we will find that these control the detailed nature of the
 various [[propagators]] of [[free field theories]], notably the [[Feynman propagator]] is manifestly a [[Cauchy principal value]] (prop. \ref{FeynmanPropagatorAsACauchyPrincipalvalue} and def. \ref{FeynmanPropagatorForDiracOperatorOnMinkowskiSpacetime} below),
-but also the [[singular support]] properties of the [[causal propagator]] and the [[Hadamard propagator]] are governed by 
-Cauchy principal values (prop. \ref{SingularSupportOfCausalPropagatorForKleinGordonEquationOnMinkowskiSpacetimeIsTheLightCone} and prop. \ref{SingularSupportOfHadamardPropagatorForKleinGordonEquationOnMinkowskiSpacetimeIsTheLightCone} below). This way the understanding of 
+but also the [[singular support]] properties of the [[causal propagator]] and the [[Hadamard propagator]] are governed by
+Cauchy principal values (prop. \ref{SingularSupportOfCausalPropagatorForKleinGordonEquationOnMinkowskiSpacetimeIsTheLightCone} and prop. \ref{SingularSupportOfHadamardPropagatorForKleinGordonEquationOnMinkowskiSpacetimeIsTheLightCone} below). This way the understanding of
 Cauchy principal values eventually allows us to determine the [[wave front set]] of all the propagators (prop. \ref{WaveFronSetsForKGPropagatorsOnMinkowski}) below.
 
 Therefore we now collect some basic definitions and facts on [[Cauchy principal values]].
@@ -17009,13 +17033,27 @@ $$
 
 for $c \in \mathbb{C}$, is a distributional solution to $x F(x) =  1$.
 
+The [[wave front set]] of all these solutions is
+
+$$
+  WF\left(
+    PV(1/x) + c \delta(x)
+  \right)
+  \;=\;
+  \left\{
+    (0,k) \;\vert\; k \in \mathbb{R}^\ast \setminus \{0\}
+  \right\}
+  \,.
+$$
+
+
 =--
 
 
 +-- {: .proof}
 ###### Proof
 
-This is immediate from the definition: For $b \in C^\infty_c(\mathbb{R}^1)$ any [[bump function]] we have that
+The first statement is immediate from the definition: For $b \in C^\infty_c(\mathbb{R}^1)$ any [[bump function]] we have that
 
 $$
   \begin{aligned}
@@ -17033,6 +17071,8 @@ $$
   \end{aligned}
 $$
 
+
+Regarding the second statement: It is clear that the wave front set is concentrated at the origin. By symmetry of the distribution around the origin, it must contain both [[direction of a vector|directions]].
 
 =--
 
@@ -17294,7 +17334,7 @@ where we used that the [[derivative]] of the [[arctan]] function is $\frac{d}{ d
 =--
 
 
-+-- {: .num_exmaple #FourierIntegralFormulaForStepFunction}
++-- {: .num_example #FourierIntegralFormulaForStepFunction}
 ###### Example
 **([[Fourier integral]] formula for [[step function]])**
 
@@ -19151,13 +19191,33 @@ $$
   \end{aligned}
 $$
 
-Now by prop. \ref{FourierTransformOfDeltaDistributionappliedToMassShell} the [[singular support]]
-of the first convolution factor is the [[light cone]], while by the "complex [[Schwinger parameterization]]" in $k_0$
-([this prop](Cauchy+principal+value#RelationToFourierTransformOfHeavisideDistribution)) and the fact that the
-Fourier transform of the constant function in $\vec k$ is $\delta(\vec x)$, the singular support of the second
-convolution factor is the origin. Thus the singular support of their convolution is still the light cone.
+By prop. \ref{FourierTransformOfDeltaDistributionappliedToMassShell}, the [[singular support]]
+of the first convolution factor is the [[light cone]].
 
-We now make this general argument fully explicit in the special case of [[spacetime]] [[dimension]]
+The second factor is
+
+$$
+  \begin{aligned}
+    \widehat{sgn(k_0)}
+    & \propto
+    \left(2\widehat{\Theta(k_0)} - \widehat{1}\right) \delta(\vec k)
+    \\
+    & \propto
+    \left(2\tfrac{1}{i x^0 + 0^+}  - \delta(x^0)\right) \delta(\vec k)
+  \end{aligned}
+$$
+
+(by example \ref{FourierTransformOfDeltaDistribution}  and example \ref{RelationToFourierTransformOfHeavisideDistribution}) and hence the [[wave front set]] (def. \ref{WaveFrontSet}) of the second factor is
+
+$$
+  WF\left(\widehat{sgn(k_0)}\right) = \{(0,k) \;\vert\; k \in S(\mathbb{R}^{p+1})\}
+$$
+
+(by example \ref{WaveFrontOfDeltaDistribution} and example \ref{PrincipalValueOfInverseFunctionCharacteristicEquation}).
+
+With this the statement follows, via a [[partition of unity]], from [this prop.](convolution+product+of+distributions#WaveFrontSetOfCompactlySupportedDistributions).
+
+For illustration we now make this general argument more explicit in the special case of [[spacetime]] [[dimension]]
 
 $$
   p + 1 = 3 + 1
@@ -19586,23 +19646,39 @@ $$
     \Delta_S(x)
     & \propto
     \widehat{
-      \delta\left( \eta^{-1}(k,k) + \left( \tfrac{m c}{\hbar}\right)^2 \right) \Theta(-k_0 )
+      \delta\left( \eta^{-1}(k,k) + \left( \tfrac{m c}{\hbar}\right)^2 \right) sgn( k_0 )
     }
     \\
     &\propto
     \widehat{\delta\left( \eta^{-1}(k,k) + \left( \tfrac{m c}{\hbar}\right)^2 \right)}
     \star
-    \widehat{\Theta( -k_0 )}
+    \widehat{sgn( k_0 )}
   \end{aligned}
 $$
 
-Now by prop. \ref{FourierTransformOfDeltaDistributionappliedToMassShell}, the [[singular support]]
-of the first convolution factor is the [[light cone]], while by the "complex [[Schwinger parameterization]]" in $k_0$
-([this prop](Cauchy+principal+value#RelationToFourierTransformOfHeavisideDistribution)) and the fact that the
-Fourier transform of the constant function in $\vec k$ is $\delta(\vec x)$, the singular support of the second
-convolution factor is the origin. Thus the singular support of their convolution is still the light cone.
+By prop. \ref{FourierTransformOfDeltaDistributionappliedToMassShell}, the [[singular support]]
+of the first convolution factor is the [[light cone]].
 
-We now make this general statement fully explicit in the special case of [[spacetime]] [[dimension]]
+The second factor is
+
+$$
+  \widehat{\Theta(k_0)}
+  \propto
+  \tfrac{1}{i x^0 + 0^+} \delta(\vec k)
+$$
+
+(by example \ref{FourierTransformOfDeltaDistribution} and example \ref{RelationToFourierTransformOfHeavisideDistribution} and hence the [[wave front set]] (def. \ref{WaveFrontSet}) of the second
+factor is
+
+$$
+  WF\left(\widehat{sgn(k_0)}\right) = \{(0,k) \;\vert\; k \in S(\mathbb{R}^{p+1})\}
+$$
+
+(by example \ref{WaveFrontOfDeltaDistribution} and example \ref{PrincipalValueOfInverseFunctionCharacteristicEquation}).
+
+With this the statement follows, via a [[partition of unity]], from prop. \ref{WaveFrontSetOfCompactlySupportedDistributions}.
+
+For illustration, we now make this general statement fully explicit in the special case of [[spacetime]] [[dimension]]
 
 $$
   p + 1 = 3 + 1
