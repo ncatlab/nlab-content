@@ -127,14 +127,29 @@ For this to make sense, the [[convolution product]] of the [[smooth functions]] 
 
 =--
 
-### Relation to  singular support
+### Relation to  singular support and wave front set
 
-If $u$ and $v$ are [[compactly supported distributions]], then the [[singular support]] of their [[convolution product of distributions]] is contained in 
++-- {: .num_prop #WaveFrontSetOfCompactlySupportedDistributions}
+###### Proposition
+**([[wave front set]] of [[convolution of distributions|convolution of]] [[compactly supported distributions]])**
+
+
+Let $u,v \in \mathcal{E}'(\mathbb{R}^n)$ be two  [[compactly supported distributions]]. Then the [[wave front set]] of their convolution of distributions (def. \ref{ConvolutionOfADistributionWithACompactlySupportedDistribution}) is
 
 $$
-  supp_{sing}(u \star v) \subset supp_{sing}(u) + supp_{sing}(v)
+  WF(u \star v)
+  \;=\;
+  \left\{
+    (x + y, k)
+    \;\vert\;
+    (x,k) \in WF(u) \,\text{and}\, (y,k) \in WF(y)
+  \right\}
   \,.
 $$
+
+=--
+
+([Bengel 77, prop. 3.1](#Bengel77))
 
 
 ## Related concepts
@@ -151,7 +166,7 @@ $$
 
 * {#FriedlanderJoshi98} Friedlander F G and Joshi M 1998 _Introduction  to  the  Theory  of  Distributions_ 2nd ed. (Cambridge: Cambridge University Press)
 
-* Gunter Bengel, _Wave front sets and Singular Supports of Convolutions_, Publ. RIMS, Kyoto Univ. 12 Suppl. (1977), 1-4.
+* {#Bengel77} Gunter Bengel, _Wave front sets and Singular Supports of Convolutions_, Publ. RIMS, Kyoto Univ. 12 Suppl. (1977), 1-4 and Math. Ann. 226, 247-252 (1977) ([web](https://gdz.sub.uni-goettingen.de/en/dms/loader/img/?PID=GDZPPN002313952), [pdf](https://gdz.sub.uni-goettingen.de/download/PPN235181684_0226/PPN235181684_0226___LOG_0044.pdf))
 
 [[!redirects convolution products of distributions]]
 
