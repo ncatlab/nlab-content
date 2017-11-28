@@ -5,4 +5,8 @@
 
 * [[supermanifold]]
 
+* [[Peierls bracket]]
+
+* [[Feynman propagator]]
+
 category: people
