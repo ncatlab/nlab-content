@@ -60,20 +60,29 @@ Alongside the theory we develop the concrete examples of the [[real scalar field
 **running examples**
 {#RunningExamples}
 
-| [[field (physics)|field]] | [[field bundle]] |  [[Lagrangian density]] | [[equation of motion]] | [[gauge fixing]] | [[Poisson bracket]] |
-|---------------------------|------------------|-------------------------|------------------------|------------------|------|
-| [[real scalar field]] |  expl. \ref{RealScalarFieldBundle} |  expl. \ref{LagrangianForFreeScalarFieldOnMinkowskiSpacetime} | expl. \ref{FreeScalarFieldEOM} | none | expl. \ref{PeierlsBracketEistsForScalarFieldAndDiracField}, <br/> expl. \ref{PoissonBracketForRealScalarField} |
-| [[electromagnetic field]] | expl. \ref{Electromagnetism} | expl. \ref{ElectromagnetismLagrangianDensity} | expl. \ref{ElectromagnetismEl}  | expl. \ref{NLGaugeFixingOfElectromagnetism} | ... |
-| [[Dirac field]] | expl. \ref{DiracFieldBundle}  | expl. \ref{LagrangianDensityForDiracField}  |  expl. \ref{EquationOfMotionOfDiracFieldIsDiracEquation}  |  none  |  expl. \ref{PeierlsBracketEistsForScalarFieldAndDiracField}, <br/>  expl. \ref{PoissonBracketForDiracField}  |
+
+| [[field (physics)|field]] |  [[field bundle]] |  [[Lagrangian density]] | [[equation of motion]] |
+|---------------------------|------------------|-------------------------|------------------------|
+| [[real scalar field]] |  expl. \ref{RealScalarFieldBundle} |  expl. \ref{LagrangianForFreeScalarFieldOnMinkowskiSpacetime} | expl. \ref{FreeScalarFieldEOM} |
+| [[Dirac field]] | expl. \ref{DiracFieldBundle}  | expl. \ref{LagrangianDensityForDiracField}  |  expl. \ref{EquationOfMotionOfDiracFieldIsDiracEquation}  |
+| [[electromagnetic field]] | expl. \ref{Electromagnetism} | expl. \ref{ElectromagnetismLagrangianDensity} | expl. \ref{ElectromagnetismEl}  |
+| [[B-field]] | expl. \ref{BField} | expl \ref{BFieldLagrangianDensity} | expl. \ref{EulerLagrangeFormBField} |
 
 $\,$
 
-| [[field (physics)|field]] | [[causal propagator]] | [[Hadamard propagator]] | [[Feynman propagator]] |
-|---------------------------|----|----|-----|
-| [[real scalar field]] | prop. \ref{ModeExpansionOfCausalPropagatorForKleinGordonOnMinkowski} | def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime} | def. \ref{FeynmanPropagatorForKleinGordonEquationOnMinkowskiSpacetime}  |
-| [[electromagnetic field]] | ...  | ... | ... |
-| [[Dirac field]] | prop. \ref{DiracEquationOnMinkowskiSpacetimeAdvancedAndRetardedPropagators} | def. \ref{HadamardPropagatorForDiracOperatorOnMinkowskiSpacetime} | def. \ref{FeynmanPropagatorForDiracOperatorOnMinkowskiSpacetime} |
+| [[field (physics)|field]] | [[Poisson bracket]]  |  [[causal propagator]] | [[Hadamard propagator]] | [[Feynman propagator]] |
+|---------------------------|----|----|-----|-----|
+| [[real scalar field]] | expl. \ref{PeierlsBracketEistsForScalarFieldAndDiracField}, <br/> expl. \ref{PoissonBracketForRealScalarField} |  prop. \ref{ModeExpansionOfCausalPropagatorForKleinGordonOnMinkowski} | def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime} | def. \ref{FeynmanPropagatorForKleinGordonEquationOnMinkowskiSpacetime}  |
+| [[Dirac field]] | expl. \ref{PeierlsBracketEistsForScalarFieldAndDiracField}, <br/>  expl. \ref{PoissonBracketForDiracField}   |  prop. \ref{DiracEquationOnMinkowskiSpacetimeAdvancedAndRetardedPropagators} | def. \ref{HadamardPropagatorForDiracOperatorOnMinkowskiSpacetime} | def. \ref{FeynmanPropagatorForDiracOperatorOnMinkowskiSpacetime} |
 
+$\,$
+
+| [[field (physics)|field]] | [[gauge symmetry]] | [[local BRST complex]] | [[gauge fixing]] |
+|---------------------------|--------------------|------------------------|------------------|
+| [[electromagnetic field]] | expl. \ref{InfinitesimalGaugeSymmetryElectromagnetism}  | expl. \ref{LocalBRSTComplexForFreeElectromagneticFieldOnMinkowskiSpacetim} |  expl. \ref{NLGaugeFixingOfElectromagnetism}  |
+| [[B-field]]    |   ...  | ... |  ... |
+
+$\,$
 
 The [[electromagnetic field]] and the [[Dirac field]] combined are the [[field (physics)|fields]] of _[[quantum electrodynamics]]_
 which we turn to at the end [below](#QED).
@@ -83,6 +92,7 @@ $\,$
 **Acknowledgement**
 
 These notes profited greatly from discussions with [[Igor Khavkine]].
+
 Thanks also to [[Marco Benini]], [[Klaus Fredenhagen]], [[Arnold Neumaier]], [[Kasia Rejzner]] for helpful discussion.
 
 
@@ -4074,13 +4084,13 @@ $$
 This is a [[trivial vector bundle]] (example \ref{TrivialVectorBundleAsAFieldBundle}) with canonical [[field (physics)|field]]
 coordinates $(a_\mu)$.
 
-A [[section]] of this bundle, hence a [[field (physics)|field]] [[trajectory]]/history, is a [[differential 1-form]]
+A [[section]] of this bundle, hence a [[field history]], is a [[differential 1-form]]
 
 $$
   A \in \Gamma_\Sigma(T^\ast \Sigma) = \Omega^1(\Sigma)
 $$
 
-on [[spacetime]]. Interpreted as the field of [[electromagnetism]] on $\Sigma$, this is often called the _[[vector potential]]_.
+on [[spacetime]] (def. \ref{Differential1FormsOnCartesianSpaces}). Interpreted as a [[field history]] of the [[electromagnetic field]] on $\Sigma$, this is often called the _[[vector potential]]_.
 Then the [[de Rham differential]] (def. \ref{deRhamDifferential}) of the [[vector potential]] is a [[differential 2-form]]
 
 $$
@@ -4107,10 +4117,9 @@ components of the _[[magnetic field]]_.
 =--
 
 
-
 +-- {: .num_example #YangMillsFieldOverMinkowski}
 ###### Example
-**([[field bundle]] for [[Yang-Mills theory|Yang-Mills]] [[field (physics)|field]] over [[Minkowski spacetime]])**
+**([[field bundle]] for [[Yang-Mills field]] over [[Minkowski spacetime]])**
 
 Let $\mathfrak{g}$ be a [[Lie algebra]] of [[finite number|finite]] [[dimension]] with [[linear basis]]
 $(t_\alpha)$, in terms of which the [[Lie bracket]] is given by
@@ -4168,7 +4177,7 @@ to the situation over general [[spacetimes]].
 
 +-- {: .num_example #YangMillsFieldInInstantonSector}
 ###### Example
-**(general [[Yang-Mills theory|Yang-Mills]] [[field (physics)|field]] in fixed [[instanton|topological sector]])**
+**(general [[Yang-Mills field]] in fixed [[instanton|topological sector]])**
 
 Let $\Sigma$ be any [[spacetime]] [[manifold]] and let $G$ be a [[compact Lie group]]
 with [[Lie algebra]] denoted $\mathfrak{g}$. Let $P \overset{is}{\to} \Sigma$ be a
@@ -4199,8 +4208,40 @@ $$
 
 is a [[section]] of the above [[field bundle]], hence a Yang-Mills field.
 
+=--
+
+The [[electromagnetic field]] (def. \ref{Electromagnetism}) and the [[Yang-Mills field]] (def. \ref{YangMillsFieldOverMinkowski}, def. \ref{YangMillsFieldInInstantonSector}) with [[differential 1-forms]] as [[field histories]] are the basic examples of _[[gauge fields]]_ (we consider this in more detail below in _[Gauge symmetries](#GaugeSymmetries)_). There are also _[[higher gauge fields]]_
+with [[differential n-forms]] as [[field histories]]:
+
++-- {: .num_example #BField}
+###### Example
+**([[field bundle]] for [[B-field]])**
+
+On [[Minkowski spacetime]] $\Sigma$ (def. \ref{MinkowskiSpacetime}), let the [[field bundle]] (def. \ref{FieldsAndFieldBundles}) be given by the
+skew-symmetrized [[tensor product of vector bundles]] of the [[cotangent bundle]] with itself
+
+$$
+  E \coloneqq \wedge^2_\Sigma T^\ast \Sigma
+  \,.
+$$
+
+This is a [[trivial vector bundle]] (example \ref{TrivialVectorBundleAsAFieldBundle}) with canonical [[field (physics)|field]] coordinates $(b_{\mu \nu})$ subject to
+
+$$
+  b_{\mu \nu} \;=\; - b_{\nu \mu}
+  \,.
+$$
+
+A [[section]] of this bundle, hence a [[field history]], is a [[differential 2-form]] (def. \ref{DifferentialnForms})
+
+$$
+  B \in \Gamma_\Sigma(\wedge^2_\Sigma T^\ast \Sigma) = \Omega^2(\Sigma)
+$$
+
+on [[spacetime]].
 
 =--
+
 
 $\,$
 
@@ -7411,7 +7452,47 @@ $$
 
 
 
-While the [[jet bundle]] is not [[finite number|finite]] [[dimension|dimensional]],
++-- {: .num_example #BFieldJetFaraday}
+###### Example
+**(universal [[B-field|B-]][[field strength]] on [[jet bundle]])**
+
+Consider the [[field bundle]] (def. \ref{FieldsAndFieldBundles}) of the [[B-field]] (example \ref{BField})
+over [[Minkowski spacetime]] $\Sigma$ (def. \ref{MinkowskiSpacetime}) with jet coordinates
+$((x^\mu), (b_{\mu \nu}), (b_{\mu \nu,\rho}), \cdots )$ (def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}). Consider the functions on the [[jet bundle]] given by the linear combinations
+
+$$
+  \label{BFieldFaradayTensorJet}
+  \begin{aligned}
+    h_{\mu_1 \mu_2 \mu_3}
+      & \coloneqq
+    \tfrac{1}{2}
+      b_{[\mu_1 \mu_2, \mu_3]}
+    \\
+    & \coloneqq
+     \tfrac{1}{6}
+    \left(
+      \underset{ \sigma \atop  \text{permutation} }{\sum}
+      (-1)^{ {\vert \sigma \vert} }
+      b_{\mu_{\sigma_1} \mu_{\sigma_2}, \mu_{\sigma_3}}
+    \right)
+    \\
+    & =
+    b_{\mu_1 \mu_2, \mu_3}
+    +
+    b_{\mu_2 \mu_3, \mu_1}
+    +
+    b_{\mu_3 \mu_1, \mu_2}
+    \,,
+  \end{aligned}
+$$
+
+where in the last step we used that $b_{\mu \nu} = - b_{\nu \mu}$.
+
+=--
+
+$\,$
+
+While the [[jet bundle]] (def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) is not [[finite number|finite]] [[dimension|dimensional]],
 reflecting the fact that there are arbitrarily high orders of spacetime derivatives of a field histories,
 it turns out that it is only very "mildly [[infinite dimensional manifold|infinite dimensional]]"
 in that
@@ -8408,8 +8489,42 @@ $$
   \,,
 $$
 
+=--
+
+
+
++-- {: .num_example #BFieldLagrangianDensity}
+###### Example
+**([[local Lagrangian density]] for [[free field|free]] [[B-field]])**
+
+Consider the [[field bundle]] $\wedge^2_\Sigma T^\ast \Sigma \to \Sigma$ for the [[B-field]] on [[Minkowski spacetime]] from example \ref{BField}. With [[fiber]] coordinates taken to be $(b_{\mu \nu})$ with
+
+$$
+  b_{\mu \nu} = - b_{\nu \mu}
+  \,,
+$$
+
+the induced fiber coordinates on the
+corresponding [[jet bundle]] $J^\infty_\Sigma(T^\ast \Sigma)$ (def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) are
+$( (x^\mu), (b_{\mu \nu}), (b_{\mu \nu, \mu_1}), (b_{\mu \nu, \mu_1 \mu_2}), \cdots )$.
+
+Consider then the [[local Lagrangian density]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) given by
+
+$$
+  \label{ElectromagnetismLagrangian}
+  \mathbf{L}
+    \;\coloneqq\;
+  \tfrac{1}{2}
+  h_{\mu_1 \mu_2 \mu_3} h^{\mu_1 \mu_2 \mu_3} \, dvol_\Sigma
+  \;\in\;
+  \Omega^{p+1,0}_\Sigma(\wedge^2_\Sigma T^\ast \Sigma)
+  \,,
+$$
+
+where $h_{\mu_1 \mu_2 \mu_3}$ are the components of the universal [[B-field|B-]][[field strength]] on the [[jet bundle]] from example \ref{BFieldJetFaraday}.
 
 =--
+
 
 +-- {: .num_example #LagrangianDensityForDiracField}
 ###### Example
@@ -9364,7 +9479,7 @@ $$
 
 +-- {: .num_example #ElectromagnetismEl}
 ###### Example
-**([[Euler-Lagrange form]] for [[free field|free]] [[electromagnetism]])**
+**([[Euler-Lagrange form]] for [[free field|free]] [[electromagnetic field]])**
 
 Consider the [[Lagrangian field theory]] of [[free field|free]] [[electromagnetism]] from example \ref{ElectromagnetismLagrangianDensity}.
 
@@ -9373,7 +9488,7 @@ The [[Euler-Lagrange variational derivative]] is
 $$
   \delta_{EL} \mathbf{L}
   \;=\;
-  \frac{d}{d x^\mu} f^{\mu \nu} \delta a_\nu
+  f^{\mu \nu}_{,\mu} \delta a_\nu
   \,.
 $$
 
@@ -9382,10 +9497,138 @@ Hence the [[shell]] (eq:ShellInJetBundle) in this case is
 $$
   \mathcal{E}
     =
-  \Sigma \times \left\{ (\phi, (\phi_{,\mu}), (\phi_{,\mu \nu}) \cdots) \;\vert\;  \eta^{\mu \nu} \phi_{,\mu \nu} - m^2  = 0 \right\}
+  \Sigma \times
+  \left\{
+    \left(
+       (a_\mu) , (a_{\mu,\mu_1}), (a_{\mu,\mu_1 \mu_2}), \cdots
+     \right)
+     \;\vert\;  f^{\mu \nu}{}_{,\mu} = 0 \right\}
   \;\subset\;
-  J^\infty_\Sigma(\Sigma \times \mathbb{R})
+  J^\infty_\Sigma(T^\ast \Sigma)
   \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By (eq:EulerLagrangeEquationGeneral) we have
+
+$$
+  \begin{aligned}
+    \frac{\delta_{EL} L}{\delta a_\mu} \delta a_\mu
+    & =
+    \left(
+      \underset{
+        = 0
+      }{
+      \underbrace{
+        \frac{\partial}{\partial a_\mu}
+        \tfrac{1}{2} a_{[\mu,\nu]} a^{[\mu,\nu]}
+      }
+      }
+      -
+      \frac{d}{d x^\rho}
+      \frac{\partial}{\partial a_{\alpha,\rho}}
+      \tfrac{1}{2} a_{[\mu,\nu]} a^{[\mu,\nu]}
+    \right)
+    \delta a_\alpha
+    \\
+    & =
+      -
+      \tfrac{1}{2}
+     \left(
+      \frac{d}{d x^\rho}
+      \frac{\partial}{\partial a_{\alpha,\rho}}
+      a_{\mu,\nu} a^{[\mu,\nu]}
+    \right)
+    \delta a_\alpha
+    \\
+    & =
+    -
+    \left(
+      \frac{d}{d x^\rho}
+      a^{[\alpha,\rho]}
+    \right)
+    \delta a_{\alpha}
+    \\
+    & =
+    f^{\mu \nu}{}_{,\mu} \delta a_{\mu}
+    \,.
+  \end{aligned}
+$$
+
+=--
+
+
+
++-- {: .num_example #EulerLagrangeFormBField}
+###### Example
+**([[Euler-Lagrange form]] of [[free field|free]] [[B-field]])**
+
+Consider the [[Lagrangian field theory]] of the [[free field|free]] [[B-field]] from example \ref{BField}.
+
+The [[Euler-Lagrange variational derivative]] is
+
+$$
+  \delta_{EL} \mathbf{L}
+  \;=\;
+  h^{\mu \nu \rho}{}_{,\rho} \delta b_{\mu \nu}
+  \,,
+$$
+
+where $h_{\mu_1 \mu_2 \mu_3}$ is the universal [[B-field|B-]][[field strength]] from example \ref{BFieldJetFaraday}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By (eq:EulerLagrangeEquationGeneral) we have
+
+$$
+  \begin{aligned}
+    \frac{\delta_{EL} L}{\delta b_{\mu \nu}} \delta b_{\mu \nu}
+    & =
+    \left(
+      \underset{
+        = 0
+      }{
+      \underbrace{
+        \frac{\partial}{\partial b_{\mu \nu}}
+        \tfrac{1}{2} b_{[\mu_1 \mu_2, \mu_3]} b^{[\mu_1 \mu_2, \mu_3]}
+      }
+      }
+      -
+      \frac{d}{d x^\rho}
+      \frac{\partial}{\partial b_{\mu \nu, \rho}}
+        \tfrac{1}{2} b_{[\mu_1 \mu_2, \mu_3]} b^{[\mu_1 \mu_2, \mu_3]}
+    \right)
+    \delta b_{\mu \nu}
+    \\
+    & =
+    -
+    \left(
+      \frac{d}{d x^\rho}
+      \frac{\partial}{\partial b_{\mu \nu, \rho}}
+        \tfrac{1}{2} b_{\mu_1 \mu_2, \mu_3} b^{[\mu_1 \mu_2, \mu_3]}
+    \right)
+    \delta b_{\mu \nu}
+    \\
+    & =
+    -
+    \left(
+      \frac{d}{d x^\rho}
+      b^{[\mu \nu, \rho]}
+    \right)
+    \delta b_{\mu \nu}
+    \\
+    & =
+    -
+    h^{\mu \nu \rho}{}_{,\rho} \delta b_{\mu \nu}
+    \,.
+  \end{aligned}
 $$
 
 
@@ -9824,7 +10067,7 @@ $$
   \left(\eta^{\mu \nu} \phi_{,\mu \nu} - m^2 \right) \delta \phi \wedge dvol_\sigma
 $$
 
-Hence for $\Phi \in \Gamma_\Sigma(E) = C^\infty(X)$ a field trajectory,
+Hence for $\Phi \in \Gamma_\Sigma(E) = C^\infty(X)$ a [[field history]],
 its [[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]]
 according to def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime} is
 
@@ -9949,7 +10192,7 @@ $$
   \,.
 $$
 
-Hence for $A \in \Gamma_{\Sigma}(T^\ast \Sigma) = \Omega^1(\Sigma)$ a field trajectory ("[[vector potential]]"),
+Hence for $A \in \Gamma_{\Sigma}(T^\ast \Sigma) = \Omega^1(\Sigma)$ a [[field history]] ("[[vector potential]]"),
 its [[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]]
 according to def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime} is
 
@@ -16738,7 +16981,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-First of all the [[singular support of a distribution|singular support]] (def. \ref{SingularSupportOfADistribution}) of $\delta_$ is clearly $supp_{sing}(\delta(0)) = \{0\}$, hence by remark \ref{WaveFrontSetIsBundleOverSingularSupport} the wave front set vanishes over $\mathbb{R}^n \setminus \{0\}$.
+First of all the [[singular support of a distribution|singular support]] (def. \ref{SingularSupportOfADistribution}) of $\delta_0$ is clearly $supp_{sing}(\delta(0)) = \{0\}$, hence by remark \ref{WaveFrontSetIsBundleOverSingularSupport} the wave front set vanishes over $\mathbb{R}^n \setminus \{0\}$.
 
 At the origin, any bump function $b$ supported around the origin with $b(0) = 1$ satisfies $b \cdot \delta(0) = \delta(0)$ and hence the wave front set over the origin is the set of covectors along which the [[Fourier transform of distributions|Fourier transform]] $\hat \delta(0)$ does not suitably decay. But this Fourier transform is in fact a [[constant function]] (example \ref{FourierTransformOfDeltaDistribution}) and hence does not decay in any direction.
 
@@ -20371,9 +20614,9 @@ Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangian
 Then a collection of _irreducible closed [[gauge parameters]]_ for $(E,\mathbf{L})$ is
 
 1. a [[vector bundle]] $\mathcal{G} \overset{gb}{\longrightarrow} \Sigma$ over [[spacetime]] $\Sigma$;
-   the [[sections]] $\epsilon$ of which are to be called the _[[gauge parameters]]_;
+   the [[sections]] $\epsilon \in \Gamma_\Sigma(\mathcal{G})$ (def. \ref{Sections}) of which are to be called the _[[gauge parameters]]_; 
 
-1. a [[bundle morphism]] $R$ from the
+1. a [[bundle morphism]] (def. \ref{BundlesAndFibers}) $R$ from the
    [[jet bundle]] of the  [[fiber product]] $\mathcal{G} \times_\Sigma E$ with the [[field bundle]] (def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) to the [[vertical tangent bundle]] of $E$ (def. \ref{VerticalTangentBundle}):
 
    $$
@@ -20397,7 +20640,7 @@ such that
 1. $i \circ R$ is an [[evolutionary vector field]] on $\mathcal{G} \times_\Sigma E$ (def. \ref{EvolutionaryVectorField});
 
 1. $R(e,-)$ is an [[infinitesimal symmetry of the Lagrangian]] (def. \ref{SymmetriesAndConservedCurrents})
-   for every point in $e \in J^\infty_\Sigma(\mathcal{G})$ (i.e. for every jet of a gauge parameter);
+   for every point $e \in J^\infty_\Sigma(\mathcal{G})$ (i.e. for every jet of a gauge parameter);
 
 1. $\mathcal{G}$ is closed under the [[Lie bracket]] of [[evolutionary vector fields]] (prop. \ref{EvolutionaryVectorFieldLieAlgebra})
    in that for $e_1, e_2$ two points in the same fiber of $J^\infty_\Sigma(E)$ then there
@@ -20493,7 +20736,7 @@ $$
   \,.
 $$
 
-These are called _[[Noether identities]]_ of the [[Euler-Lagrange equations|Euler-Lagrange]] [[equations of motion]] (def \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime}).
+These relations are called the _[[Noether identities]]_ of the [[Euler-Lagrange equations|Euler-Lagrange]] [[equations of motion]] (def \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime}).
 
 =--
 
@@ -20534,7 +20777,7 @@ $$
 
 +-- {: .num_example #InfinitesimalGaugeSymmetryElectromagnetism}
 ###### Example
-**(implicit [[infinitesimal gauge symmetry]] of [[electromagnetism]])**
+**(implicit [[infinitesimal gauge symmetry]] of [[electromagnetic field]])**
 
 Consider the [[Lagrangian field theory]] of [[free field|free]] [[electromagnetism]]
 on [[Minkowski spacetime]] $\Sigma$ from example \ref{ElectromagnetismLagrangianDensity}.
@@ -20562,12 +20805,12 @@ This is because the [[Euler-Lagrange form]]
 $$
   \delta_{EL}\mathbf{L}
   \;=\;
-  \frac{d}{d x^\mu }f^{\mu \nu} \delta_{a_\nu} dvol_\Sigma
+  \frac{d}{d x^\mu }f^{\mu \nu} \delta a_\nu \, dvol_\Sigma
 $$
 
 of the theory (example \ref{ElectromagnetismEl}),
 corresponding to the [[vacuum]] [[Maxwell equations]] (example \ref{MaxwellVacuumEquation}),
-satisfies the following evident [[Noether identity]] (prop. \ref{NoetherIdentities}):
+satisfies the following [[Noether identity]] (prop. \ref{NoetherIdentities}):
 
 $$
   \frac{d}{d x^\mu} \frac{d}{d x^\nu} f^{\mu \nu} = 0
@@ -20906,11 +21149,11 @@ with dual basis $(c^\alpha)$ for $\mathfrak{g}^\ast$. Then the
 Lie action has components
 
 $$
-  d_{CE} \phi^a = \rho^{a}_{\alpha} c^\alpha
-$$
-
-$$
-  d_{CE} c^\alpha = -\tfrac{1}{2} \gamma^\alpha{}_{\beta \gamma} c^\beta \wedge c^\gamma
+  \begin{aligned}
+    d_{CE} \phi^a & = \rho^{a}_{\alpha} c^\alpha
+    \\
+    d_{CE} c^\alpha & = -\tfrac{1}{2} \gamma^\alpha{}_{\beta \gamma} \, c^\beta \wedge c^\gamma
+  \end{aligned}
 $$
 
 where on the right we have the structure constants of the Lie algebra in this basis:
@@ -20991,7 +21234,7 @@ $$
 **(local [[BRST complex]] and [[ghost fields]] for irreducible closed [[gauge parameters]])**
 
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}), and let
-$\mathcal{G} =  \overset{gb}{\to} \Sigma$ be a bundle of irreducible closed  [[gauge parameters]]
+$\mathcal{G} \overset{gb}{\longrightarrow} \Sigma$ be a bundle of irreducible closed  [[gauge parameters]]
 for the theory (def. \ref{GaugeParametrizedInfinitesimalGaugeTransformation}) with
 bundle morphism
 
@@ -21121,9 +21364,9 @@ and extended from there to $Obs_\Sigma(E \times_\Sigma \mathcal{G}[1])$ as a gra
 
 =--
 
-+-- {: .num_prop #}
++-- {: .num_prop #LocalBRSTComplexForFreeElectromagneticFieldOnMinkowskiSpacetim}
 ###### Example
-**([[local BRST complex]] for [[free field|free]] [[electromagnetism]] on [[Minkowski spacetime]])**
+**([[local BRST complex]] for [[free field|free]] [[electromagnetic field]] on [[Minkowski spacetime]])**
 
 Consider the [[Lagrangian field theory]] of [[free field|free]] [[electromagnetism]] on [[Minkowski spacetime]] (example \ref{ElectromagnetismLagrangianDensity}) with its [[gauge parameter]] bundle as in
 example \ref{InfinitesimalGaugeSymmetryElectromagnetism}.
