@@ -849,7 +849,7 @@ and in the book
 
 A systematic/axiomatic account from the point of view of [[higher geometry]] is given in
 
-* [[Urs Schreiber]], _[[schreiber:derived critical locus]]_
+* [[Urs Schreiber]], _[[derived critical locus]]_
 
 ### Lagrangian BV
  {#ReferencesForLagrangianBV}
