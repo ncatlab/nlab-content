@@ -19132,8 +19132,32 @@ $$
 +-- {: .proof}
 ###### Proof
 
-The statement follows immediately from prop. \ref{FourierTransformOfDeltaDistributionappliedToMassShell}.
-We make this fully explicit now in the special case of [[spacetime]] [[dimension]]
+By prop. \ref{CausalPropagatorAsFourierTransformOfDeltaDistributionOnTransformedKGOperator} the causal propagator is equivalently the [[Fourier transform of distributions]] of the [[delta distribution]] of the [[mass shell]] times the [[sign function]] of the [[angular frequency]];
+and by basic properties of the Fourier transform this is the [[convolution of distributions]] of the separate
+Fourier transforms:
+
+$$
+  \begin{aligned}
+    \Delta_S(x)
+    & \propto
+    \widehat{
+      \delta\left( \eta^{-1}(k,k) + \left( \tfrac{m c}{\hbar}\right)^2 \right) sgn( k_0 )
+    }
+    \\
+    &\propto
+    \widehat{\delta\left( \eta^{-1}(k,k) + \left( \tfrac{m c}{\hbar}\right)^2 \right)}
+    \star
+    \widehat{sgn( k_0 )}
+  \end{aligned}
+$$
+
+Now by prop. \ref{FourierTransformOfDeltaDistributionappliedToMassShell} the [[singular support]]
+of the first convolution factor is the [[light cone]], while by the "complex [[Schwinger parameterization]]" in $k_0$
+([this prop](Cauchy+principal+value#RelationToFourierTransformOfHeavisideDistribution)) and the fact that the
+Fourier transform of the constant function in $\vec k$ is $\delta(\vec x)$, the singular support of the second
+convolution factor is the origin. Thus the singular support of their convolution is still the light cone.
+
+We now make this general argument fully explicit in the special case of [[spacetime]] [[dimension]]
 
 $$
   p + 1 = 3 + 1
@@ -19549,11 +19573,36 @@ $$
 
 =--
 
+
 +-- {: .proof}
 ###### Proof
 
-The statement follows immediately from prop. \ref{FourierTransformOfDeltaDistributionappliedToMassShell}.
-We make this fully explicit now in the special case of [[spacetime]] [[dimension]]
+By prop. \ref{CausalPropagatorAsFourierTransformOfDeltaDistributionOnTransformedKGOperator} the causal propagator is equivalently the [[Fourier transform of distributions]] of the [[delta distribution]] of the [[mass shell]] times the [[sign function]] of the [[angular frequency]];
+and by basic properties of the Fourier transform this is the [[convolution of distributions]] of the separate
+Fourier transforms:
+
+$$
+  \begin{aligned}
+    \Delta_S(x)
+    & \propto
+    \widehat{
+      \delta\left( \eta^{-1}(k,k) + \left( \tfrac{m c}{\hbar}\right)^2 \right) \Theta(-k_0 )
+    }
+    \\
+    &\propto
+    \widehat{\delta\left( \eta^{-1}(k,k) + \left( \tfrac{m c}{\hbar}\right)^2 \right)}
+    \star
+    \widehat{\Theta( -k_0 )}
+  \end{aligned}
+$$
+
+Now by prop. \ref{FourierTransformOfDeltaDistributionappliedToMassShell}, the [[singular support]]
+of the first convolution factor is the [[light cone]], while by the "complex [[Schwinger parameterization]]" in $k_0$
+([this prop](Cauchy+principal+value#RelationToFourierTransformOfHeavisideDistribution)) and the fact that the
+Fourier transform of the constant function in $\vec k$ is $\delta(\vec x)$, the singular support of the second
+convolution factor is the origin. Thus the singular support of their convolution is still the light cone.
+
+We now make this general statement fully explicit in the special case of [[spacetime]] [[dimension]]
 
 $$
   p + 1 = 3 + 1
@@ -19751,11 +19800,25 @@ $$
 
 =--
 
+(e.g [DeWitt 03 (27.85)](Feynman+propagator#DeWitt03))
+
 
 +-- {: .proof}
 ###### Proof
 
-The statement follows immediately from prop. \ref{FourierTransformOfPrincipalValueOfPowerOfQuadraticForm}.
+By prop. \ref{FeynmanPropagatorAsACauchyPrincipalvalue} the Feynman propagator is equivalently
+the [[Cauchy principal value]] of the inverse of the Fourier transformed Klein-Gordon operator:
+
+$$
+  \Delta_F
+  \;\propto\;
+  \widehat{
+    \frac{1}{-k_\mu k^\mu - \left(\tfrac{m c}{\hbar}\right)^2 + i 0^+}
+  }
+  \,.
+$$
+
+With this, the statement follows immediately from prop. \ref{FourierTransformOfPrincipalValueOfPowerOfQuadraticForm}.
 
 =--
 
