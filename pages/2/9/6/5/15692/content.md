@@ -3031,6 +3031,7 @@ Textbook accounts for quantum fields on [[Minkowski spacetime]] includes
 
 * {#Scharf01} [[Günter Scharf]], section 1 of  _[[Quantum Gauge Theories -- A True Ghost Story]]_, Wiley 2001
 
+* {#DeWitt03} [[Bryce DeWitt]], _The global approach to Quantum Field Theory_ (2 volumes), Oxford 2003
 
 An concise overview of the [[Green functions]] of the [[Klein-Gordon operator]], hence of the Feynman propagator, [[advanced propagator]], [[retarded propagator]], [[causal propagator]] etc. is given in
 
