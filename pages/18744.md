@@ -142,7 +142,7 @@ $$
   \left\{
     (x + y, k)
     \;\vert\;
-    (x,k) \in WF(u) \,\text{and}\, (y,k) \in WF(y)
+    (x,k) \in WF(u) \,\text{and}\, (y,k) \in WF(u)
   \right\}
   \,.
 $$
