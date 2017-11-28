@@ -139,13 +139,26 @@ $$
 
 for $c \in \mathbb{C}$, is a distributional solution to $x F(x) =  1$.
 
+The [[wave front set]] of all these solutions is
+
+$$
+  WF\left(
+    PV(1/x) + c \delta(x)
+  \right)
+  \;=\;
+  \left\{
+    (0,k) \;\vert\; k \in \mathbb{R}^\ast \setminus \{0\}
+  \right\}
+  \,.
+$$
+
 =--
 
 
 +-- {: .proof}
 ###### Proof
 
-This is immediate from the definition: For $b \in C^\infty_c(\mathbb{R}^1)$ any [[bump function]] we have that 
+The first statement is immediate from the definition: For $b \in C^\infty_c(\mathbb{R}^1)$ any [[bump function]] we have that 
 
 $$
   \begin{aligned}
@@ -163,6 +176,7 @@ $$
   \end{aligned}
 $$
 
+Regarding the second statement: It is clear that the wave front set is concentrated at the origin. By symmetry of the distribution around the origin, it must contain both [[direction of a vector|directions]].
 
 =--
 
