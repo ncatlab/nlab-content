@@ -161,7 +161,7 @@ $$
 ###### Proof
 
 We first unwind what the structure of an abelian group object
-$(p:  K \to R)$ in the overcaregory $CRing/R$ is explicitly
+$(p:  K \to R)$ in the overcategory $CRing/R$ is explicitly
 
 The unit of the abelian group object in $CRing/R$ is a diagram
 
