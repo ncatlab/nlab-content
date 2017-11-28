@@ -85,12 +85,12 @@ Examples of AQFT [[local nets of observables]] that encode interacting quantum f
 ### Free scalar field / Klein Gordon field
  {#FreeScalarField}
 
-A survey of the AQFT description of the free scalar field on [[Minkowski spacetime]] is in ([Motoya, slides 11-17](#Montoya)). Discussion in more general context of [[AQFT on curved spacetimes]] in ([Brunetti-Fredenhagen, section 5.2](#BrunettiFredenhagen))
+A survey of the AQFT description of the [[free field theor|free]] [[scalar field]] on [[Minkowski spacetime]] is in ([Motoya, slides 11-17](#Montoya)). Discussion in more general context of [[AQFT on curved spacetimes]] in ([Brunetti-Fredenhagen, section 5.2](#BrunettiFredenhagen))
 
 ### Free fermion / Dirac field
 
 
-The free [[fermion]] / Dirac field and its deformations is discussed for instance in ([DLM, section 3.2](#DLM)), ([Dimock 83](#Dimock82)).
+The [[free field theory|free]] [[Dirac field]] and its deformations is discussed for instance in ([DLM, section 3.2](#DLM)), ([Dimock 83](#Dimock82)).
 
 
 ### Electromagnetic field
@@ -134,7 +134,11 @@ The quantized [[electromagnetic field]] is discussed for instance in ([Dimock 92
 
 The original article that introduced the [[Haag-Kastler axioms]] is
 
-* [[Rudolf Haag]], [[Daniel Kastler]], _An algebraic approach to quantum field theory_ , Journal of Mathematical Physics, Bd.5, 1964, S.848-861 
+* {#Haag64} [[Rudolf Haag]], [[Daniel Kastler]], _An algebraic approach to quantum field theory_ , Journal of Mathematical Physics, Bd.5, 1964, S.848-861 
+
+following 
+
+* {#Haag59} [[Rudolf Haag]], _Discussion des "axiomes" et des propri&#233;t&#233;s asymptotiques d&#8217;une th&#233;orie des champs locales avec particules compos&#233;es, Les Probl&#232;mes Math&#233;matiques de la Th&#233;orie Quantique des Champs_, Colloque Internationaux du CNRS LXXV (Lille 1957), CNRS Paris (1959), 151.
 
 The generalization of the [[spacetime]] [[site]] from open in [[Minkowski space]] to more general and [[curvature|curved]] spacetimes (see [[AQFT on curved spacetimes]]) is due to
 
