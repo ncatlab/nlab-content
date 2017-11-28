@@ -1958,7 +1958,7 @@ $$
     \Delta_S(x)
     & \propto
     \widehat{
-      \delta\left( \eta^{-1}(k,k) + \left( \tfrac{m c}{\hbar}\right)^2 \right) sgn( k_0 ) 
+      \delta\left( \eta^{-1}(k,k) + \left( \tfrac{m c}{\hbar}\right)^2 \right) sgn( k_0 )
     }
     \\
     &\propto
@@ -1968,13 +1968,34 @@ $$
   \end{aligned}
 $$
 
-Now by ([Gel'fand-Shilov 66, III 2.11 (7), p 294](#GelfandShilov66)), see [this prop.](Cauchy+principal+value#FourierTransformOfDeltaDistributionappliedToMassShell), the [[singular support]]
-of the first convolution factor is the [[light cone]], while by the "complex [[Schwinger parameterization]]" in $k_0$
-([this prop](Cauchy+principal+value#RelationToFourierTransformOfHeavisideDistribution)) and the fact that the
-Fourier transform of the constant function in $\vec k$ is $\delta(\vec x)$, the singular support of the second
-convolution factor is the origin, in fact the [[wave front set]] of the second factor is $\{(0,k) \vert k\in \mathbb{R}^{p+1}\setminus \{0\}\}$ . It follows with [this prop.](convolution+product+of+distributions#WaveFrontSetOfCompactlySupportedDistributions) that the singular support of their convolution is still the light cone.
+By ([Gel'fand-Shilov 66, III 2.11 (7), p 294](#GelfandShilov66)), see [this prop.](Cauchy+principal+value#FourierTransformOfDeltaDistributionappliedToMassShell), the [[singular support]]
+of the first convolution factor is the [[light cone]].
 
-We now make this general argument fully explicit in the special case of [[spacetime]] [[dimension]]
+The second factor is
+
+$$
+  \begin{aligned}
+    \widehat{sgn(k_0)}
+    & \propto
+    \left(2\widehat{\Theta(k_0)} - \widehat{1}\right) \delta(\vec k)
+    \\
+    & \propto
+    \left(2\tfrac{1}{i x^0 + 0^+}  - \delta(x^0)\right) \delta(\vec k)
+  \end{aligned}
+$$
+
+(by [this example](Dirac+distribution#FourierTransformOfDeltaDistribution) and [this example](Cauchy+principal+value#RelationToFourierTransformOfHeavisideDistribution)) and hence the [[wave front set]] of the second
+factor is
+
+$$
+  WF\left(\widehat{sgn(k_0)}\right) = \{(0,k) \;\vert\; k \in S(\mathbb{R}^{p+1})\}
+$$
+
+(by [this example](wavefront+set#WaveFrontOfDeltaDistribution) and [this example](Cauchy+principal+value#PrincipalValueOfInverseFunctionCharacteristicEquation)).
+
+With this the statement follows, via a [[partition of unity]], from [this prop.](convolution+product+of+distributions#WaveFrontSetOfCompactlySupportedDistributions).
+
+For illustration we now make this general argument more explicit in the special case of [[spacetime]] [[dimension]]
 
 $$
   p + 1 = 3 + 1
@@ -2403,23 +2424,39 @@ $$
     \Delta_S(x)
     & \propto
     \widehat{
-      \delta\left( \eta^{-1}(k,k) + \left( \tfrac{m c}{\hbar}\right)^2 \right) \Theta(-k_0 )
+      \delta\left( \eta^{-1}(k,k) + \left( \tfrac{m c}{\hbar}\right)^2 \right) sgn( k_0 )
     }
     \\
     &\propto
     \widehat{\delta\left( \eta^{-1}(k,k) + \left( \tfrac{m c}{\hbar}\right)^2 \right)}
     \star
-    \widehat{\Theta( -k_0 )}
+    \widehat{sgn( k_0 )}
   \end{aligned}
 $$
 
-Now by ([Gel'fand-Shilov 66, III 2.11 (7), p 294](#GelfandShilov66)), see [this prop.](Cauchy+principal+value#FourierTransformOfDeltaDistributionappliedToMassShell), the [[singular support]]
-of the first convolution factor is the [[light cone]], while by the "complex [[Schwinger parameterization]]" in $k_0$
-([this prop](Cauchy+principal+value#RelationToFourierTransformOfHeavisideDistribution)) and the fact that the
-Fourier transform of the constant function in $\vec k$ is $\delta(\vec x)$, the singular support of the second
-convolution factor is the origin, in fact the [[wave front set]] of the second factor is $\{(0,k) \vert k\in \mathbb{R}^{p+1}\setminus \{0\}\}$ . It follows with [this prop.](convolution+product+of+distributions#WaveFrontSetOfCompactlySupportedDistributions) that the singular support of their convolution is still the light cone.
+By ([Gel'fand-Shilov 66, III 2.11 (7), p 294](#GelfandShilov66)), see [this prop.](Cauchy+principal+value#FourierTransformOfDeltaDistributionappliedToMassShell), the [[singular support]]
+of the first convolution factor is the [[light cone]].
 
-We now make this general statement fully explicit in the special case of [[spacetime]] [[dimension]]
+The second factor is
+
+$$
+  \widehat{\Theta(k_0)}
+  \propto
+  \tfrac{1}{i x^0 + 0^+} \delta(\vec k)
+$$
+
+(by [this example](Dirac+distribution#FourierTransformOfDeltaDistribution) and [this example](Cauchy+principal+value#RelationToFourierTransformOfHeavisideDistribution)) and hence the [[wave front set]] of the second
+factor is
+
+$$
+  WF\left(\widehat{sgn(k_0)}\right) = \{(0,k) \;\vert\; k \in S(\mathbb{R}^{p+1})\}
+$$
+
+(by [this example](wavefront+set#WaveFrontOfDeltaDistribution) and [this example](Cauchy+principal+value#PrincipalValueOfInverseFunctionCharacteristicEquation)).
+
+With this the statement follows, via a [[partition of unity]], from [this prop.](convolution+product+of+distributions#WaveFrontSetOfCompactlySupportedDistributions).
+
+For illustration, we now make this general statement fully explicit in the special case of [[spacetime]] [[dimension]]
 
 $$
   p + 1 = 3 + 1
@@ -2731,7 +2768,7 @@ Therefore now same argument as before says that the wave front set consists of w
 
 Finally regarding the [[Feynman propagator]]:
 
-by prop. \ref{ModeExpansionForFeynmanPropagatorOfKleinGordonEquationOnMinkowskiSpacetime} the Feynman propagator
+By prop. \ref{ModeExpansionForFeynmanPropagatorOfKleinGordonEquationOnMinkowskiSpacetime} the Feynman propagator
 coincides with the positive frequency Hadamard propagator for $x^0 \gt 0$ and with the "negative frequency Hadamard operator"
 for $x^0 \lt 0$. Therefore the form of $WF(\Delta_F)$ now follows directly with that of $WF(\Delta_H)$ above.
 
