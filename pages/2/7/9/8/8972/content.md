@@ -17,7 +17,7 @@ The book
 lays the foundations of the theory of [[programming languages]] in terms of [[type theory]].
 In over 500 pages, the author formally specifies and step-by-step extends established type systems and reasons about type safety and operational semantics (not so much dependent types and categorical semantics). The book also contains a discussion of logic in type theory and features of variants of the Algol programming language, in particular.
 
-The first edition (2012) is available as a [pdf](http://www.cs.cmu.edu/~rwh/plbook/book.pdf). A description of the changes is [here](https://existentialtype.wordpress.com/2016/04/11/practical-foundations-of-programming-languages-second-edition/).
+The preview of the second edition (2016) is available as a [pdf](https://www.cs.cmu.edu/~rwh/pfpl/2nded.pdf). A description of the changes is [here](https://existentialtype.wordpress.com/2016/04/11/practical-foundations-of-programming-languages-second-edition/).
 
 
 
