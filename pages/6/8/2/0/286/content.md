@@ -82,7 +82,7 @@ This definition should be the conclusion of a theorem that using certain languag
 
 ### In category theory
 
-The most common source of of breaking of equivalence-invariance is a statement that two [[objects]] of a given [[category]] are [[equality|equal]].  One should instead say that they are [[isomorphism|isomorphic]] and then (usually) impose some [[coherence relation]] on the relevant family of isomorphisms.  But of course, this is more complicated!
+The most common source of the breaking of equivalence-invariance is a statement that two [[objects]] of a given [[category]] are [[equality|equal]].  One should instead say that they are [[isomorphism|isomorphic]] and then (usually) impose some [[coherence relation]] on the relevant family of isomorphisms.  But of course, this is more complicated!
 
 It does not break equivalence-invariance to state that two [[morphisms]] are equal, given a common [[source]] and [[target]]; this is because a [[hom-set]] is a [[set]], where equality is meaningful.  However, it violates the principle of equivalence to state that two morphisms are equal if the source and target are *not* given, because this includes the claim that their sources (which are objects) are equal, and similarly for the targets.
 
