@@ -1972,7 +1972,7 @@ Now by ([Gel'fand-Shilov 66, III 2.11 (7), p 294](#GelfandShilov66)), see [this 
 of the first convolution factor is the [[light cone]], while by the "complex [[Schwinger parameterization]]" in $k_0$
 ([this prop](Cauchy+principal+value#RelationToFourierTransformOfHeavisideDistribution)) and the fact that the
 Fourier transform of the constant function in $\vec k$ is $\delta(\vec x)$, the singular support of the second
-convolution factor is the origin. Thus the singular support of their convolution is still the light cone.
+convolution factor is the origin, in fact the [[wave front set]] of the second factor is $\{(0,k) \vert k\in \mathbb{R}^{p+1}\setminus \{0\}\}$ . It follows with [this prop.](convolution+product+of+distributions#WaveFrontSetOfCompactlySupportedDistributions) that the singular support of their convolution is still the light cone.
 
 We now make this general argument fully explicit in the special case of [[spacetime]] [[dimension]]
 
@@ -2417,7 +2417,7 @@ Now by ([Gel'fand-Shilov 66, III 2.11 (7), p 294](#GelfandShilov66)), see [this 
 of the first convolution factor is the [[light cone]], while by the "complex [[Schwinger parameterization]]" in $k_0$
 ([this prop](Cauchy+principal+value#RelationToFourierTransformOfHeavisideDistribution)) and the fact that the
 Fourier transform of the constant function in $\vec k$ is $\delta(\vec x)$, the singular support of the second
-convolution factor is the origin. Thus the singular support of their convolution is still the light cone.
+convolution factor is the origin, in fact the [[wave front set]] of the second factor is $\{(0,k) \vert k\in \mathbb{R}^{p+1}\setminus \{0\}\}$ . It follows with [this prop.](convolution+product+of+distributions#WaveFrontSetOfCompactlySupportedDistributions) that the singular support of their convolution is still the light cone.
 
 We now make this general statement fully explicit in the special case of [[spacetime]] [[dimension]]
 
