@@ -290,10 +290,16 @@ The BRST formalism originates around
 
 see also the references at _[[BRST]]_.
 
+A classical standard references for the Lagrangian formalism is
 
-The canonical textbook reference on the BRST complex is (chapter 8 of) 
+* {#Henneaux90} [[Marc Henneaux]], _Lectures on the Antifield-BRST formalism for gauge theories_, Nuclear Physics B (Proceedings Supplement) 18A (1990) 47-106 ([pdf](http://www.math.uni-hamburg.de/home/schweigert/ws07/henneaux2.pdf))
+
+Similarly the bulk of the textbook
 
 * [[Marc Henneaux]], [[Claudio Teitelboim]], _[[Quantization of Gauge Systems]]_
+
+considers the Hamiltonian formulation. Chapters 17 and 18 are about the Lagrangian ("antifield") formulation, with section 18.4 devoted to the relation between the two.
+
 
 Discussion with more emphasis on the applications to quantum field theory of interest is in lecture 3 of 
 
