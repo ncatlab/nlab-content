@@ -3,7 +3,7 @@
 
 **[[plane waves]] on [[Minkowski spacetime]]**
 
-$
+$$
   \array{
     \mathbb{R}^{p,1} 
     &\overset{\psi_k}{\longrightarrow}&
@@ -15,7 +15,7 @@ $
     \\
     (\vec x, c t) &\mapsto& \exp\left( \, i \vec k \cdot \vec x - i \omega t \, \right)
   }
-$
+$$
 
 | symbol | name |
 |--------|------|
