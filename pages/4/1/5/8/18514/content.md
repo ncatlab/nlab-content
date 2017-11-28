@@ -1932,13 +1932,56 @@ $$
 =--
 
 
-+-- {: .proof}
++-- {: .proof #ProofThatSingularSupportOfCausalPropagatorForKleinGordonEquationOnMinkowskiSpacetimeIsTheLightCone}
 ###### Proof
 
-The statement follows immediately from the result 
-([Gel'fand-Shilov 66, III 2.11 (7), p 294](#GelfandShilov66)), see [this prop.](Cauchy+principal+value#FourierTransformOfDeltaDistributionappliedToMassShell)
+By prop. \ref{CausalPropagatorAsFourierTransformOfDeltaDistributionOnTransformedKGOperator} the causal propagator is equivalently the [[Fourier transform of distributions]] of the [[delta distribution]] of the [[mass shell]] times the [[sign function]] of the [[angular frequency]];
+and by basic properties of the Fourier transform this is the [[convolution of distributions]] of the separate
+Fourier transforms:
 
-We make this fully explicit now in the special case of [[spacetime]] [[dimension]]
+$$
+  \begin{aligned}
+    \Delta_S(x)
+    & \propto
+    \widehat{
+      \delta\left( \eta^{-1}(k,k) + \left( \tfrac{m c}{\hbar}\right)^2 \right) sgn( k_0 )
+    }
+    \\
+    &\propto
+    \widehat{\delta\left( \eta^{-1}(k,k) + \left( \tfrac{m c}{\hbar}\right)^2 \right)}
+    \star
+    \widehat{sgn( k_0 )}
+  \end{aligned}
+$$
+
+By ([Gel'fand-Shilov 66, III 2.11 (7), p 294](#GelfandShilov66)), see [this prop.](Cauchy+principal+value#FourierTransformOfDeltaDistributionappliedToMassShell), the [[singular support]]
+of the first convolution factor is the [[light cone]].
+
+The second factor is
+
+$$
+  \begin{aligned}
+    \widehat{sgn(k_0)}
+    & \propto
+    \left(2\widehat{\Theta(k_0)} - \widehat{1}\right) \delta(\vec k)
+    \\
+    & \propto
+    \left(2\tfrac{1}{i x^0 + 0^+}  - \delta(x^0)\right) \delta(\vec k)
+  \end{aligned}
+$$
+
+(by [this example](Dirac+distribution#FourierTransformOfDeltaDistribution) and [this example](Cauchy+principal+value#RelationToFourierTransformOfHeavisideDistribution)) and hence the [[wave front set]] of the second
+factor is
+
+$$
+  WF\left(\widehat{sgn(k_0)}\right) = \{(0,k) \;\vert\; k \in S(\mathbb{R}^{p+1})\}
+$$
+
+(by [this example](wavefront+set#WaveFrontOfDeltaDistribution) and [this example](Cauchy+principal+value#PrincipalValueOfInverseFunctionCharacteristicEquation)).
+
+With this the statement follows, via a [[partition of unity]], from [this prop.](convolution+product+of+distributions#WaveFrontSetOfCompactlySupportedDistributions).
+
+For illustration we now make this general argument more explicit in the special case of [[spacetime]] [[dimension]]
 
 $$
   p + 1 = 3 + 1
@@ -2354,13 +2397,52 @@ $$
 
 =--
 
+
 +-- {: .proof}
 ###### Proof
 
-The statement follows immediately from the result
-([Gel'fand-Shilov 66, III 2.11 (7), p 294](#GelfandShilov66)), see [this prop.](Cauchy+principal+value#FourierTransformOfDeltaDistributionappliedToMassShell).
+By prop. \ref{CausalPropagatorAsFourierTransformOfDeltaDistributionOnTransformedKGOperator} the causal propagator is equivalently the [[Fourier transform of distributions]] of the [[delta distribution]] of the [[mass shell]] times the [[sign function]] of the [[angular frequency]];
+and by basic properties of the Fourier transform this is the [[convolution of distributions]] of the separate
+Fourier transforms:
 
-We make this fully explicit now in the special case of [[spacetime]] [[dimension]]
+$$
+  \begin{aligned}
+    \Delta_S(x)
+    & \propto
+    \widehat{
+      \delta\left( \eta^{-1}(k,k) + \left( \tfrac{m c}{\hbar}\right)^2 \right) sgn( k_0 )
+    }
+    \\
+    &\propto
+    \widehat{\delta\left( \eta^{-1}(k,k) + \left( \tfrac{m c}{\hbar}\right)^2 \right)}
+    \star
+    \widehat{sgn( k_0 )}
+  \end{aligned}
+$$
+
+By ([Gel'fand-Shilov 66, III 2.11 (7), p 294](#GelfandShilov66)), see [this prop.](Cauchy+principal+value#FourierTransformOfDeltaDistributionappliedToMassShell), the [[singular support]]
+of the first convolution factor is the [[light cone]].
+
+The second factor is
+
+$$
+  \widehat{\Theta(k_0)}
+  \propto
+  \tfrac{1}{i x^0 + 0^+} \delta(\vec k)
+$$
+
+(by [this example](Dirac+distribution#FourierTransformOfDeltaDistribution) and [this example](Cauchy+principal+value#RelationToFourierTransformOfHeavisideDistribution)) and hence the [[wave front set]] of the second
+factor is
+
+$$
+  WF\left(\widehat{sgn(k_0)}\right) = \{(0,k) \;\vert\; k \in S(\mathbb{R}^{p+1})\}
+$$
+
+(by [this example](wavefront+set#WaveFrontOfDeltaDistribution) and [this example](Cauchy+principal+value#PrincipalValueOfInverseFunctionCharacteristicEquation)).
+
+With this the statement follows, via a [[partition of unity]], from [this prop.](convolution+product+of+distributions#WaveFrontSetOfCompactlySupportedDistributions).
+
+For illustration, we now make this general statement fully explicit in the special case of [[spacetime]] [[dimension]]
 
 $$
   p + 1 = 3 + 1
@@ -2558,11 +2640,25 @@ $$
 
 =--
 
+(e.g [DeWitt 03 (27.85)](Feynman+propagator#DeWitt03))
+
 
 +-- {: .proof}
 ###### Proof
 
-The statement follows immediately from the result
+By prop. \ref{FeynmanPropagatorAsACauchyPrincipalvalue} the Feynman propagator is equivalently
+the [[Cauchy principal value]] of the inverse of the Fourier transformed Klein-Gordon operator:
+
+$$
+  \Delta_F
+  \;\propto\;
+  \widehat{
+    \frac{1}{-k_\mu k^\mu - \left(\tfrac{m c}{\hbar}\right)^2 + i 0^+}
+  }
+  \,.
+$$
+
+With this the statement follows immediately from the result
 ([Gel'fand-Shilov 66, III 2.8 (8) and (9), p 289](#GelfandShilov66)), see [this prop.](Cauchy+principal+value#FourierTransformOfPrincipalValueOfPowerOfQuadraticForm).
 
 =--
@@ -2658,12 +2754,11 @@ Therefore now same argument as before says that the wave front set consists of w
 
 Finally regarding the [[Feynman propagator]]:
 
-by prop. \ref{ModeExpansionForFeynmanPropagatorOfKleinGordonEquationOnMinkowskiSpacetime} the Feynman propagator
+By prop. \ref{ModeExpansionForFeynmanPropagatorOfKleinGordonEquationOnMinkowskiSpacetime} the Feynman propagator
 coincides with the positive frequency Hadamard propagator for $x^0 \gt 0$ and with the "negative frequency Hadamard operator"
 for $x^0 \lt 0$. Therefore the form of $WF(\Delta_F)$ now follows directly with that of $WF(\Delta_H)$ above.
 
 =--
-
 
 
 
