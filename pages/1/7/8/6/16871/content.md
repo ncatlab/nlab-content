@@ -65,10 +65,29 @@ $$
   \,.
 $$
 
+## Properties
+
+For $(E,\mathbf{L})$ a [[Lagrangian field theory]], let $\mathcal{E}^\infty \hookrightarrow J^\infty_\Sigma(E)$ be the prolonged shell.
+
+The following is intuitively obvious but not entirely trivial to prove:
+
++-- {: .num_prop #InfinitesialSymmetryOfTheLagrangianIsAlsoSymmetryOfTheShell}
+###### Proposition
+**([[infinitesimal symmetry of the Lagrangian]] is also symmetry of the shell)**
+
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]]. Then if $\hat v$ is the prolongation of an [[evolutionary vector field]] which is an [[infinitesimal symmetry of the Lagrangian]] in that the [[Lie derivative]] of $\mathbf{L}$ along $\hat v$ is [[horizontal derivative|horizontally exact]], then the [[flow]] of $\hat v$ preserves the prolonged shell.
+
+=--
+
+([Olver 95, theorem 5.53](#Olver95))
 
 ## References
 
 * _[Higher prequantum geometry II: The principle of extremal action -- comonadically](https://www.physicsforums.com/insights/higher-prequantum-geometry-ii-principle-extremal-action-comonadically/)_
+
+
+* {#Olver95} [[Peter Olver]], _Applications of Lie groups to differential equations_, Springer; _Equivalence, invariants, and symmetry_, Cambridge Univ. Press 1995.
+
 
 [[!redirects shells]]
 
@@ -77,3 +96,5 @@ $$
 
 [[!redirects mass shell]]
 [[!redirects mass shells]]
+
+[[!redirects prolonged shell]]
