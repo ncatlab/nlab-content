@@ -172,6 +172,8 @@ Linearly distributive categories have now been used as the substrate for a numbe
 
 * [[polycategory]], [[star-autonomous category]]
 
+* A linearly distributive category in which the units of the two monoidal structures coincide is an (iso-)[[mix category]].
+
 * [[linear bicategory]]
 
 ## References
