@@ -200,6 +200,8 @@ The logic described above is full classical linear logic.  There are many import
 
 * first-order linear logic, which adds quantifiers $\exists$ and $\forall$ (sometimes denoted $\bigvee$ and $\bigwedge$), either over a fixed domain or over varying types.  These quantifiers are usually considered "additive"; for a theory that has a certain kind of "multiplicative quantifier" see [[bunched implication]].
 
+One can also consider adding additional rules to linear logic.  For instance, by adding the [[weakening rule]] (but not the [[contraction rule]]) one obtains [[affine logic]], whereas by adding contraction but not weakening one obtains [[relevance logic]].  Another rule that is sometimes considered is the [[mix rule]].
+
 
 ## Categorial semantics
 
