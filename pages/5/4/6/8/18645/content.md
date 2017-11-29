@@ -9236,6 +9236,7 @@ $$
       +
       \frac{\partial L}{\partial \phi^a_{,\mu}} \delta \phi^a_{,\mu}
     \right)
+    \delta \phi^a
     \wedge
     dvol_\Sigma
     \\
@@ -9388,7 +9389,8 @@ $$
   \,.
 $$
 
-First of all, the result of applying the [[variational derivative]] ([[vertical derivative]]) to the local Lagrangian density is
+First of all, using just the [[variational derivative]] ([[vertical derivative]]) $\delta$ is a graded [[derivation]],
+the result of applying it to the local Lagrangian density is
 
 $$
   \delta L
@@ -9412,7 +9414,11 @@ $$
   \delta \phi_{,\nu} \wedge \mathrm{dvol}_\Sigma
   =
   \delta d \phi \wedge \iota_{\partial_\nu} \mathrm{dvol}_\Sigma
+  \,,
 $$
+
+where on the right we have the contraction (def. \ref{ContractionOfFormsWithVectorFields}) of the [[tangent vector field]]
+along $x^\nu$ into the [[volume form]].
 
 Hence we may take the presymplectic potential (eq:PresymplecticPotential) of the free scalar field to be
 
