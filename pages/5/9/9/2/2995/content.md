@@ -1,5 +1,5 @@
 
-* [website](http://www.maths.dept.shef.ac.uk/maths/staff_info.php?id=348)
+* [website](http://casfaculty.case.edu/nick-gurski/cv/)
 
 # related $n$Lab pages #
 
