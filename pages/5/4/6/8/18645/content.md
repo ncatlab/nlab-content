@@ -538,7 +538,7 @@ $f \colon E_1 \to E_2$ (def. \ref{CartesianSpacesAndSmoothFunctionsBetweenThem})
 total spaces which respects the bundle projections, in that
 
 $$
-  fb_2  \circ f = fb_2
+  fb_2  \circ f = fb_1
   \phantom{AAAA}
   \text{i.e.}
   \phantom{AAA}
@@ -577,7 +577,7 @@ Given a [[bundle]] $E \overset{fb}{\to} X$ (def. \ref{BundlesAndFibers})
 a _[[section]]_ is a [[smooth function]] $s \colon X \to E$ such that
 
 $$
-  fb \circ f = id_X
+  fb \circ s = id_X
   \phantom{AAAAA}
   \array{
     && E
@@ -1201,6 +1201,7 @@ $$
 This is compatible with [[identity morphisms]] and [[composition]] in that
 
 $$
+  \label{PullbackOfDifferentialFormsCompatibleWithComposition}
   (id_{\mathbb{R}^n})^\ast = id_{\Omega^1(\mathbb{R}^n)}
   \phantom{AAAA}
   (g \circ f)^\ast = f^\ast \circ g^\ast
@@ -10895,10 +10896,10 @@ $$
       &\hookrightarrow&
     \Gamma_\Sigma(E)
     \\
-    {}^{\mathllap{\exp(\hat v)\vert_{\delta_{EL}\mathbf{L} = 0}  }}
+    {\mathllap{\exp(\hat v)\vert_{\delta_{EL}\mathbf{L} = 0}  }}
     \uparrow
       &&
-    \uparrow^{\mathrlap{\exp(\hat v)}}
+    \uparrow {\mathrlap{\exp(\hat v)}}
     \\
     \Gamma_\Sigma(E)_{\delta_{EL}\mathbf{L} = 0}
       &\hookrightarrow&
@@ -10912,136 +10913,21 @@ $$
 +-- {: .proof}
 ###### Proof
 
+
 By def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime} a field history
-$\Phi$ is [[on-shell]] precisely if
+$\Phi \in \Gamma_\Sigma(E)$ is [[on-shell]] precisely if its [[jet prolongation]] $j^\infty_\Sigma(E)$ (def. \ref{JetProlongation})
+factors through the [[shell]] $\mathcal{E} \hookrightarrow J^\infty_\Sigma(E)$ (eq:ShellInJetBundle).
+Hence by def. \ref{FlowOfFieldHistoriesAlongEvolutionaryVectorField} the statement is equivalently that
+the ordinary flow (prop. \ref{CartanHomotopyFormula}) of $\hat v$ (def. \ref{EvolutionaryVectorFieldProlongation})
+on the [[jet bundle]] $J^\infty_\Sigma(E)$ preserves the [[shell]]. This in turn means that it preserves the
+vanishing locus of the [[Euler-Lagrange form]] $\delta_{EL} \mathbf{L}$. 
 
-$$
-  j^\infty_\Sigma(\Phi(-))^\ast(\delta_{EL}\mathbf{L}) = 0
-$$
-
-and this is the case precisely if for
-all [[bump functions]] $b \in C^\infty_{cp}(\Sigma)$ the [[integration of differential forms|integral]]
-against $b dvol_\Sigma$ vanishes
-
-$$
-  \int_\Sigma j^\infty_\Sigma(\Phi(-))^\ast(\delta_{EL}\mathbf{L}) \, b dvol_\Sigma
-  \;=\;
-  0
-  \,.
-$$
-
-
-Hence we need to show that this holds true also for all values $t$ of the flow parameter
-if it holds at $t = 0$, hence that the above implies for  all bump functions $b$ that
-
-$$
-  \begin{aligned}
-    \int_\Sigma
-    \left(
-      \exp(t \hat v)
-        \circ
-      j^\infty_\Sigma(\Phi(-))
-    \right)^\ast (\delta_{EL}\mathbf{L})
-    \, b dvol_\Sigma
-    & =
-    \int_\Sigma
-      (j^\infty_\Sigma(\Phi(-)))^\ast
-      \exp(t \hat v)^\ast
-      (\delta_{EL}\mathbf{L})
-      \,
-      b dvol_\Sigma
-    \\
-    & =
-    0
-  \end{aligned}
-$$
-
-for all $t \in \mathbb{R}^1$. But since we know it holds true at one point $t = 0$,
-it is in fact sufficient to show that the [[derivative]] of this smooth family of
-differential forms with respect to $t$ vanishes at all $t$. This argument in turn is
-the same at $t = 0$ as at any other value, so we consider the derivative at $t = 0$.
-
-Now by definition of [[Lie derivatives]], the derivative of the above expression with respect to $t$ at $t = 0$ is given
-by the Lie derivative $\mathcal{L}_{\hat v}$ via
-
-$$
-    \frac{d}{d t }
-    \int_\Sigma
-    \left(
-        (j^\infty_\Sigma(\Phi(-)))^\ast
-        \exp(t \hat v)^\ast
-        (\delta_{EL}\mathbf{L})
-    \right)
-    \, b dvol_\Sigma
-    \vert_{t = 0}
-    =
-    \int_\Sigma
-    (j^\infty_\Sigma(\Phi(-)))^\ast
-    \underset{= d (\iota_{\hat v}\Omega_{BFV} -\delta J_v)  \Omega_{BFV} }{
-    \underbrace{
-     \mathcal{L}_{\hat v}
-     \delta_{EL}\mathbf{L}
-     }}
-     \,
-     b dvol_\Sigma
-  \,.
-$$
-
-We compute that the Lie derivative has the value indicated under the braces as follows:
-
-$$
-  \begin{aligned}
-     \mathcal{L}_{\hat v} \delta_{EL}\mathbf{L}
-     & =
-     \iota_{\hat v}
-       \underset{ = - d\Omega_{BFV} }{\underbrace{\delta \delta_{EL} \mathbf{L}} }
-     + \delta \,\underset{= d J_v}{\underbrace{\iota_{\hat v} \delta_{EL}\mathbf{L}}}
-     \\
-     & =
-     - \iota_{\hat v} d\Omega_{BFV}  + \delta d J_v
-     \\
-     & =
-     d \left(\iota_{\hat v} \Omega_{BFV} - \delta J_v \right)
-  \end{aligned}
-$$
-
-Here we first used [[Cartan's homotopy formula]] for evolutionary vector fields (eq:HomotopyFormulaForLieDerivativeAlongProlongationOfEvolutionaryVectorField),
-then, under the braces,
-the [[conserved current]] property of the presymplectic current (prop. \ref{HorizontalDerivativeOfPresymplecticCurrentVanishesOnShell}) as well as [[Noether's theorem|Noether's theorem I]] (prop. \ref{NoethersFirstTheorem}),
-and finally
-the defining verticality condition of prolongations of evolutionary vector fields (prop. \ref{EvolutionaryVectorFieldProlongation})
-as well as the anti-commutativity of $\delta$ and $d$.
-
-Hence continuing the computation of the derivative above we have
-
-$$
-  \begin{aligned}
-    \frac{d}{d t }
-    \int_\Sigma
-    \left(
-        (j^\infty_\Sigma(\Phi(-)))^\ast
-        \exp(t \hat v)^\ast
-        (\delta_{EL}\mathbf{L})
-    \right)
-    \, b dvol_\Sigma
-    \vert_{t = 0}
-    & =
-    -
-    \int_\Sigma
-    (j^\infty_\Sigma(\Phi(-)))^\ast
-    d (\iota_{\hat v} \Omega_{BFV} - \delta J_v)
-    \,
-    b dvol_\Sigma
-    \\
-    & =
-    - \int_\Sigma d j^\infty_\Sigma(\Phi(-))^\ast (\iota_{\hat v}\Omega_{BFV} -  \delta J_v) \, b dvol_\Sigma
-    \\
-    & = 0
-  \end{aligned}
-$$
-
-by prop. \ref{PullbackAlongJetProlongationIntertwinesHorizontalDerivative}.
-
+But by definition $\delta_{EL} \mathbf{L} = \mathbf{d} \mathbf{L} + d \Theta_{BFV}$ is the unique component of
+the [[de Rham differential]] $\mathbf{d} \mathbf{L}$ proportional to the [[variational derivative]] of the fields
+modulo a [[total spacetime derivative]] (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}).
+Now by definition of [[infinitesimal symmetries of the Lagrangian]] (def. \ref{SymmetriesAndConservedCurrents})
+the infinitesimal change of $\mathbf{L}$ along the flow is horizontally exact
+$\mathcal{L}_{\hat v} \mathbf{L} = d J_{\hat v}$, which implies that $\mathcal{L}_{\hat v} \delta_{EL} \mathbf{L} = 0$.
 
 =--
 
@@ -20564,7 +20450,7 @@ gauge symmetries have been made explicit (by the [[BV-BRST complex]]) the distin
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]].
 
 If there exists a single implicit infinitesimal gauge transformation $\epsilon$ (def. \ref{ImplicitInfinitesimalGaugeSymmetry})
-that does not vanish [[on-shell]] (not a trivial one, example \ref{TrivialImplicialInfinitesimalGaugeTransformations})
+that does not vanish [[on-shell]] (so not a trivial one, example \ref{TrivialImplicialInfinitesimalGaugeTransformations})
 then there does not exist any [[Cauchy surface]] (def. \ref{CauchySurface}) for the [[Euler-Lagrange equations|Euler-Lagrange]] [[equations of motion]] (def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime}) outside of $supp_\Sigma(v)$.
 
 =--
@@ -20614,7 +20500,7 @@ Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangian
 Then a collection of _irreducible closed [[gauge parameters]]_ for $(E,\mathbf{L})$ is
 
 1. a [[vector bundle]] $\mathcal{G} \overset{gb}{\longrightarrow} \Sigma$ over [[spacetime]] $\Sigma$;
-   the [[sections]] $\epsilon \in \Gamma_\Sigma(\mathcal{G})$ (def. \ref{Sections}) of which are to be called the _[[gauge parameters]]_; 
+   the [[sections]] $\epsilon \in \Gamma_\Sigma(\mathcal{G})$ (def. \ref{Sections}) of which are to be called the _[[gauge parameters]]_;
 
 1. a [[bundle morphism]] (def. \ref{BundlesAndFibers}) $R$ from the
    [[jet bundle]] of the  [[fiber product]] $\mathcal{G} \times_\Sigma E$ with the [[field bundle]] (def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) to the [[vertical tangent bundle]] of $E$ (def. \ref{VerticalTangentBundle}):
@@ -20743,14 +20629,15 @@ These relations are called the _[[Noether identities]]_ of the [[Euler-Lagrange 
 +-- {: .proof}
 ###### Proof
 
-We need to show that $v_\epsilon$ is a gauge symmetry as claimed precisely if
+We need to show that $v_\epsilon$ is a gauge symmetry, as claimed, precisely if the contraction (def. \ref{ContractionOfFormsWithVectorFields})
+of $v_\epsilon$ with the [[Euler-Lagrange form]] (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime})
+vanishes for all choices of $\epsilon$, up to a horizontally exact term:
 
 $$
   \iota_{v_\epsilon} \delta_{EL}\mathbf{L} = d(\cdots)
 $$
 
-vanishes for all choices of $\epsilon$ up to a horizontally exact term. From (eq:CoordinateExpressionForGaugeParameterized) this
-means that
+From (eq:CoordinateExpressionForGaugeParameterized) this means that
 
 $$
   \begin{aligned}
@@ -20767,9 +20654,18 @@ $$
       \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}}
       \frac{\delta_{EL} \mathbf{L}}{\delta \phi^a}
     +
-    d J_{v_\epsilon}
+    d \tilde J_{v_\epsilon}
+    \,,
   \end{aligned}
 $$
+
+where on the right
+
+$$
+  J_{v_\epsilon} \coloneqq J_{v_\epsilon} - \iota_{v_\epsilon} \Theta_{BFV}
+$$
+
+is the [[conserved current]] corresponding to this infinitesimal symmetry by [[Noether's theorem|Noether's theorem I]] (prop. \ref{NoethersFirstTheorem}).
 
 
 =--
