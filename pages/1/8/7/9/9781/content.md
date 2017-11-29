@@ -60,6 +60,7 @@ With the notation of Definition \ref{frderiv}, a function $f U \supseteq E \to F
 
 The differentiability of $x \mapsto D f_x$ can then be questioned, and for $n \in \mathbb{N}$, the class $C^n$ is defined by iteration in the obvious way.
 
+
 [[!redirects Frechet derivative]]
 [[!redirects Fréchet derivatives]]
 [[!redirects Frechet derivatives]]
