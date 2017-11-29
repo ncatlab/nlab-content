@@ -10,5 +10,5 @@ category: people
 
 
 [[!redirects R. A. G. Seely]]
-
+[[!redirects R.A.G. Seely]]
 [[!redirects R.A.G.Seely]]
