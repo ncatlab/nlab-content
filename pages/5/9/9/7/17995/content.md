@@ -24,9 +24,14 @@ Over a [[paracompact topological space]] then every [[vector bundle]] is [[isomo
 
 [[!redirects pullback bundles]]
 
+[[!redirects pullback of bundles]]
+[[!redirects pullbacks of bundles]]
+
 [[!redirects pullback of fiber bundles]]
 [[!redirects pullbacks of fiber bundles]]
 
 [[!redirects pullback of vector bundles]]
 [[!redirects pullbacks of vector bundles]]
+
+
 
