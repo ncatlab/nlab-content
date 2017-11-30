@@ -387,6 +387,39 @@ $$
 
 =--
 
++-- {: .num_prop #EvolutionaryDerivativeOfEulerLagrangeFormIsFormallySelfAdjoint}
+###### Proposition
+**([[evolutionary derivative]] of [[Euler-Lagrange forms]] is [[formally self-adjoint differential operator|formally self-adjoint]])**
+
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] over [[Minkowski spacetime]] and regard the [[Euler-Lagrange derivative]] 
+
+$$
+  \delta_{EL}\mathbf{L}
+  \;=\;
+  \delta_{EL}L \wedge dvol_\Sigma
+$$
+
+as a field-dependent section of the [[vertical cotangent bundle]]
+
+$$
+  \delta_{EL}L
+  \;\in\;
+  \Gamma_{J^\infty_\Sigma(E)}(T^\ast_\Sigma E)
+$$
+
+as in example \ref{EvolutionaryVectorFieldsAsFieldDependentSections}. Then the corresponding [[evolutionary derivative]] field-dependent [[differential operator]] $D_{\delta_{EL}L}$ (def. \ref{FieldDependentDifferentialOperatorDerivative})  is [[formally self-adjoint differential operator|formally self-adjoint]]:
+
+$$
+  (D_{\delta_{EL}L})^\ast
+  \;=\;
+  D_{\delta_{EL}L}
+$$
+
+=--
+
+([Olver 93, theorem 5.92](#Olver93))
+
+
 
 ## References
 
