@@ -142,8 +142,8 @@ following
 
 The generalization of the [[spacetime]] [[site]] from open in [[Minkowski space]] to more general and [[curvature|curved]] spacetimes (see [[AQFT on curved spacetimes]]) is due to
 
-* [[Romeo Brunetti]], [[Klaus Fredenhagen]], _Quantum field theory on curved spacetimes_ [arXiv:0901.2063](http://arxiv.org/abs/0901.2063)
- {#BrunettiFredenhagen}
+* {#BrunettiFredenhagen} [[Romeo Brunetti]], [[Klaus Fredenhagen]], _Quantum field theory on curved spacetimes_ [arXiv:0901.2063](http://arxiv.org/abs/0901.2063)
+ 
 
 * [[Romeo Brunetti]], [[Klaus Fredenhagen]], [[Rainer Verch]], _The generally covariant locality principle -- A new paradigm for local quantum physics_ Commun. Math. Phys. 237:31-68 (2003) ([arXiv:math-ph/0112041](http://arxiv.org/abs/math-ph/0112041))
 
@@ -151,7 +151,11 @@ The generalization of the [[spacetime]] [[site]] from open in [[Minkowski space]
 
 See also _[[AQFT on curved spacetimes]]_ .
 
-### Textbooks
+### Lecture notes and Textbooks
+
+Introductory lecture notes include
+
+* {#Fredenhagen03} [[Klaus Fredenhagen]], _Algebraische Quantenfeldtheorie_, lecture notes, 2003 ([[FredenhagenAQFT2003.pdf:file]])
 
 Classical textbooks are
 
