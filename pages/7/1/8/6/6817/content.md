@@ -50,8 +50,8 @@ See at [supersymmetry -- Classification -- Superconformal algebra -- In dimensio
 
 ## Related concepts
 
+* [[perturbative string theory vacuum]]
 
-[[!include table of branes]]
 
 ## References
 
