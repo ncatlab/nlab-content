@@ -562,62 +562,62 @@ $$
 
 $\,$
 
-To see this we need to consider
-
 $\,$
 
-$$
-  \begin{aligned}
-    w^b D(\delta_{EL}L)_{b}(v)
-    & =
-    w^b 
-    \left(
-      \frac{\partial}{\partial \phi^a}
-      \frac{
-         \delta_{EL}L
-      }{
-          \delta \phi^b
-      }
-    \right)
-    v^a
-    \;+\;
-    w^b
-    \left(
-      \frac{\partial}{\partial \phi^a_{,\mu}}
-      \frac{
-         \delta_{EL}L
-      }{
-          \delta \phi^b
-      }
-    \right)
-    \frac{d}{d x^\mu}
-    v^a
-    \;+\;
-    \cdots
-  \end{aligned}
-$$
++-- {: .proof}
+###### Proof
 
-We need to see that as we throw over the $\frac{d}{d x^\mu}$ we have
+By definition we have
+
 
 $$
-  \frac{d}{d x^\mu}
-    \left(
-      \frac{\partial}{\partial \phi^a_{,\mu}}
-      \frac{
-         \delta_{EL}L
-      }{
-          \delta \phi^b
-      }
-    \right)
-    \;=\;
-    0
+  \frac{\delta_{EL} L }{\delta \phi^a}
+  \delta \phi^a
+  \, 
+  \wedge 
+  dvol_\Sigma
+  \;=\;
+  \delta L \,\wedge dvol_\Sigma + d(...)
+  \,.
 $$
 
-Hm, why is that??
+Applying the [[variational derivative]] to both sides of this equation yields
+
+$$
+  \delta \frac{\delta_{EL} L }{\delta \phi^a}
+  \wedge
+  \delta \phi^a
+  \, 
+  \wedge 
+  dvol_\Sigma
+  \;=\;
+  d(...)
+  \,.
+$$
+
+It follows that for $v,w$ two [[evolutionary vector fields]] we have
+
+$$
+  \left(
+    \delta \frac{\delta_{EL} L }{\delta \phi^a}
+    \wedge
+    \delta \phi^a
+  \right(v,w)
+  =
+  \tfrac{1}{2}
+  \left(
+    (\mathrm{D}_{\delta_{EL}})_a(v)
+    w^a
+    -
+    (\mathrm{D}_{\delta_{EL}})_b(w) v^b
+  \right)
+  \;=\;
+  d(-)
+$$
+
+On the right this is the defining condition for a [[formally self-adjoint differential operator]].
 
 
-$\,$
-
-$\,$
+=--
 
 
