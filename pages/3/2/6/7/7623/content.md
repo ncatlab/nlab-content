@@ -37,6 +37,12 @@ in the [[category]] of [[C-star algebras]], which is the [[norm]]-closure of the
 
 Next, there is typically for each $\Lambda \in P_f(\mathbf{L})$ a [[Hamiltonian]] $H_\Lambda$ with $\exp(i t H) \in \mathcal{A}_\Lambda$ for all $t \in \mathbb{R}$. Under suitable (subtle) conditions (e.g. [Bratteli-Robinson, part I, chapter 6.2](#BratteliRobinson)) the 1-parameter time evolution $\mathbb{R} \to \mathrm{Aut}(\mathcal{A}_\Lambda)$ induced by this unitary extends to an suitably continuous family of automorphisms of $\mathcal{A}$ (this is no longer given in general by an [[inner automorphism]] even though for each finite $\Lambda$ it is).
 
+## Related concepts
+
+* [[harmonic oscillator]]
+
+* [[hydrogen atom]]
+
 ## References
 
 Detailed discussion of quantum lattice systems in [[statistical physics]] formulated with [[AQFT]] tools is in 
