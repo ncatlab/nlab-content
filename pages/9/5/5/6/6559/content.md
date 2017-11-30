@@ -63,6 +63,8 @@ The [[moduli space]] of these vacua -- which is hardly understood -- has come to
 
   * [[instanton in QCD]], [[QCD vacuum]]
 
+* [[perturbative string theory vacuum]]
+
 * [[landscape of string theory vacua]]
 
 * [string theory FAQ -- What does it mean to say that string theory has a "landscape of solutions"?](http://ncatlab.org/nlab/show/string+theory+FAQ#WhatDoesItMeanToSayStringTheoryHasALandscapeOfSolutions)
