@@ -285,6 +285,8 @@ Quantum mechanics, as opposed to [[classical mechanics]], is necessary for an ac
 
 * [[harmonic oscillator]]
 
+* [[hydrogen atom]]
+
 * [[quantum lattice system]]
 
 ## Related concepts
