@@ -40,7 +40,7 @@ with both module structures being compatible in the obvious way:
 
 1. $\mathfrak{g}$ acts as [[derivations]] of $A$: that is, we have a Lie algebra [[homomorphism]] $\mathfrak{g} \to Der(A)$. 
 
-1. $A$ acts as linear transformations of $\mathfrak{g}$ in a way obeying the [[Leibniz rule]]: that is, we have an associative algebra homomorphism from $A \to End(\mathfrak{g})$, where $End(\mathfrak{g})$ is the algebra of all linear transformations of $\mathfrak{g}$, such that
+1. $A$ acts as linear transformations of $\mathfrak{g}$ in a way obeying the [[Leibniz rule]]: that is, we have an associative algebra homomorphism $A \to End(\mathfrak{g})$, where $End(\mathfrak{g})$ is the algebra of all linear transformations of $\mathfrak{g}$, such that
 $$  [v, a w] = v(a) w + a [v,w]. $$ 
 
 
