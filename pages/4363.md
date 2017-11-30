@@ -1,3 +1,6 @@
+
+> this entry is about the concept in [[topology]], especially in [[point-free topology]]. For the concept in [[physics]]/[[chemistry]] see [[nucleus (physics)]], or see [[nucleus (disambiguation)]].
+
 # Nuclei
 * table of contents
 {: toc}
