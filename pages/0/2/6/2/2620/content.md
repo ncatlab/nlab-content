@@ -55,6 +55,12 @@ The creation operator $z$ adds a photon to the mix; there's only one way to do t
 \[\psi(t) = \sum_{n=0}^{\infty} e^{-itn} a_n z^n.\]
 This way of representing the state of a QHO is known as the _Fock basis_.
 
+## Related concepts
+
+* [[hydrogen atom]]
+
+* [[quantum lattice system]]
+
 ## References
 
 ### Geometric quantization
