@@ -34,6 +34,8 @@ However, since on a general [[globally hyperbolic spacetime]] there is no global
 
 * [[vacuum expectation value]]
 
+* [[perturbative string theory vacuum]]
+
 * [[landscape of string theory vacua]]
 
 ## References
