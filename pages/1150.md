@@ -119,3 +119,6 @@ A useful collection of introductory notes to fiber bundles, vector bundles and f
 
 [[!redirects bundle morphism]]
 [[!redirects bundle morphisms]]
+
+[[!redirects bundle homomorphism]]
+[[!redirects bundle homomorphisms]]
