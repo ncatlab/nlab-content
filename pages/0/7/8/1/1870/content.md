@@ -396,4 +396,8 @@ Discussion of twisted [[K-homology]]:
 
 * Bei Liu, _Twisted K-homology,Geometric cycles and T-duality_ ([arXiv:1411.1575](https://arxiv.org/abs/1411.1575))
 
+Discussion of combined [[twisted K-theory|twisted]] and [[equivariant K-theory|equivariant]] and [[real K-theory|real]] K-theory
+
+* {#Gomi17} [[Kiyonori Gomi]], _Freed-Moore K-theory_ ([arXiv:1705.09134](https://arxiv.org/abs/1705.09134))
+
 [[!redirects twisted K-theories]]
