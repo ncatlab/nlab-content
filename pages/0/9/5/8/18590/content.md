@@ -45,6 +45,8 @@ In [[analysis]] or [[differential geometry]], a _derivative_ is the result of ap
 
 * [[directional derivative]]
 
+* [[evolutionary derivative]]
+
 * [[Radon-Nikodym derivative]]
 
 * [[Schwarzian derivative]]
