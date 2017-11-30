@@ -23,7 +23,7 @@ _under construction_
 
 ## Idea
 
-The Gelfand--Naimark--Segal (GNS) construction establishes a correspondence between cyclic $*$-[[representation]]s of $C^*$-[[C*-algebra|algebras]] and certain linear functionals (usually called _states_) on those same $C^*$-algebras.  The correspondence comes about from an explicit construction of the [[star-representation|*-representation]] from one of the [[linear functionals|linear functionals]] (states).
+The Gelfand--Naimark--Segal (GNS) construction establishes a correspondence between cyclic $*$-[[representation]]s of $C^*$-[[C*-algebra|algebras]] and certain linear functionals (usually called _[[state on an operator algebra|states]]_) on those same $C^*$-algebras.  The correspondence comes about from an explicit construction of the [[star-representation|*-representation]] from one of the [[linear functionals]] ([[state on an operator algebra|states]]).
 
 
 ## The nPOV
@@ -74,7 +74,14 @@ for every $x$ in $A$.
 
 The GNS construction is a central ingredient that translates between the [[Heisenberg picture]] and the [[Schrödinger picture]] of [[quantum mechanics]]: the [[AQFT]] and the [[FQFT]] picture of [[quantum field theory]]. In the former one considers $C^\ast$-[[algebras of observables]], in the latter the [[spaces of states]]. Given a $C^\ast$-algebra of observables, the corresponding space of state can be taken to be that given by the GNS construction.
 
+## References
+
+See also 
+
+* Wikipedia, _[Gelfand-Naimark-Segal construction](https://en.wikipedia.org/wiki/Gelfand%E2%80%93Naimark%E2%80%93Segal_construction)_
+
 category: operator algebras
+
 [[!redirects Gelfand-Naimark-Segal construction]]
 [[!redirects Gelfand–Naimark–Segal construction]]
 [[!redirects Gelfand--Naimark--Segal construction]]
