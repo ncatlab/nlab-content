@@ -3831,7 +3831,7 @@ $\,$
 ## Fields
  {#Fields}
 
-A [[field history]] on a given [[spacetime]] $\Sigma$ is a [[quantity]] assigned to each point of spacetime (each [[event]]), such that this assignment varies smoothly with spacetime points. For instance an _[[electromagnetic field]] [[field history|history]]_ (example \ref{Electromagnetism} below) is at each point of spacetime a collection of [[vectors]] that encode the direction in which a [[charged particle]] passing through that point would feel a [[force]] (the "[[Lorentz force]]", see example \ref{Electromagnetism} below).
+A [[field history]] on a given [[spacetime]] $\Sigma$ (a history of spatial [[field configurations]], see remark \ref{FieldHistoriesAsHistoriesOfFieldConfigurations} below) is a [[quantity]] assigned to each point of spacetime (each [[event]]), such that this assignment varies smoothly with spacetime points. For instance an _[[electromagnetic field]] [[field history|history]]_ (example \ref{Electromagnetism} below) is at each point of spacetime a collection of [[vectors]] that encode the direction in which a [[charged particle]] passing through that point would feel a [[force]] (the "[[Lorentz force]]", see example \ref{Electromagnetism} below).
 
 This is readily formalized (def. \ref{FieldsAndFieldBundles} below): If $F$ denotes the [[smooth manifold]] of "values" that the given kind of field may take at any spacetime point, then a field history $\Phi$ is modeled as a [[smooth function]] from spacetime to this space of values:
 
@@ -3977,6 +3977,14 @@ $$
 
 =--
 
+
++-- {: .num_remark #FieldHistoriesAsHistoriesOfFieldConfigurations}
+###### Remark
+**([[field histories]] are histories of spatial [[field configurations]])**
+
+Given a [[section]] $\Phi \in \Gamma_\Sigma(E)$ of the [[field bundle]] (def. \ref{FieldsAndFieldBundles}) and given a [[spacelike]] (def. \ref{SpacelikeTimelikeLightlike}) [[submanifold]] $\Sigma_p \hookrightarrow \Sigma$ (def. \ref{SmoothManifoldInsideDiffeologicalSpaces}) of [[spacetime]] in [[codimension]] 1, then the [[restriction]] $\Phi\vert_{\Sigma_p}$ of $\Phi$ to $\Sigma_p$ may be thought of as a _[[field configuration]]_ in space. As different spatial slices $\Sigma_p$ are chosen, one obtains such field configurations _at different times_. It is in this sense that the entirety of a section $\Phi \in \Gamma_\Sigma(E)$ is a _history_ of field configurations, hence a [[field history]] (def \ref{FieldsAndFieldBundles}).
+
+=--
 
 +-- {: .num_remark #PossibleFieldHistories}
 ###### Remark
@@ -7669,6 +7677,10 @@ $$
 where $dvol_\Sigma$ is the [[volume form]] on [[Minkowski spacetime]] (eq:MinkowskiVolume) and
 where $d$ denoted the [[de Rham differential]] (def. \ref{deRhamDifferential}).
 
+This implies by [[Stokes' theorem]] (prop. \ref{StokesTheorem}) in the case of [[compact support]] that
+under an [[integral]] $P$ and $P^\ast$ are related via [[integration by parts]].
+
+
 =--
 
 ([Khavkine 14, def. 2.4](Green+hyperbolic+partial+differential+equation#Khavkine14))
@@ -8512,7 +8524,7 @@ $( (x^\mu), (b_{\mu \nu}), (b_{\mu \nu, \mu_1}), (b_{\mu \nu, \mu_1 \mu_2}), \cd
 Consider then the [[local Lagrangian density]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) given by
 
 $$
-  \label{ElectromagnetismLagrangian}
+  \label{LagrangianForBField}
   \mathbf{L}
     \;\coloneqq\;
   \tfrac{1}{2}
@@ -8728,7 +8740,7 @@ $$
    \delta_{EL} \;\colon\; \Omega^{p+1,0}_{\Sigma}(E) \longrightarrow \Omega^{p+1,0}_{\Sigma}(E) \wedge \delta \Omega^{0,0}_{\Sigma}(E)
 $$
 
-thus defined is called the _[[Euler-Lagrange operator]]_ and is explicitly given by
+thus defined is called the _[[Euler-Lagrange operator]]_ and is explicitly given by the _[[Euler-Lagrange derivative]]_
 
 $$
   \label{EulerLagrangeEquationGeneral}
@@ -10886,58 +10898,6 @@ this yields the claim.
 =--
 
 
-+-- {: .num_prop #FlowAlongImplicitInfinitesimalGaugeSymmetryPreservesOnShellSpaceofFieldHistories}
-###### Proposition
-**([[flow]] along [[infinitesimal symmetry of the Lagrangian]] preserves [[on-shell]] [[space of field histories]])**
-
-Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}).
-
-For $v$ an [[infinitesimal symmetry of the Lagrangian]] (def. \ref{SymmetriesAndConservedCurrents})
-the [[flow]] on the [[space of field histories]] (example \ref{DiffeologicalSpaceOfFieldHistories}) that it induces by def. \ref{FlowOfFieldHistoriesAlongEvolutionaryVectorField}
-preserves the space of [[on-shell]] field histories (from prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}):
-
-$$
-  \array{
-    \Gamma_\Sigma(E)_{\delta_{EL}\mathbf{L} = 0}
-      &\hookrightarrow&
-    \Gamma_\Sigma(E)
-    \\
-    {\mathllap{\exp(\hat v)\vert_{\delta_{EL}\mathbf{L} = 0}  }}
-    \uparrow
-      &&
-    \uparrow {\mathrlap{\exp(\hat v)}}
-    \\
-    \Gamma_\Sigma(E)_{\delta_{EL}\mathbf{L} = 0}
-      &\hookrightarrow&
-    \Gamma_\Sigma(E)
-  }
-$$
-
-=--
-
-
-+-- {: .proof}
-###### Proof
-
-
-By def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime} a field history
-$\Phi \in \Gamma_\Sigma(E)$ is [[on-shell]] precisely if its [[jet prolongation]] $j^\infty_\Sigma(E)$ (def. \ref{JetProlongation})
-factors through the [[shell]] $\mathcal{E} \hookrightarrow J^\infty_\Sigma(E)$ (eq:ShellInJetBundle).
-Hence by def. \ref{FlowOfFieldHistoriesAlongEvolutionaryVectorField} the statement is equivalently that
-the ordinary flow (prop. \ref{CartanHomotopyFormula}) of $\hat v$ (def. \ref{EvolutionaryVectorFieldProlongation})
-on the [[jet bundle]] $J^\infty_\Sigma(E)$ preserves the [[shell]]. This in turn means that it preserves the
-vanishing locus of the [[Euler-Lagrange form]] $\delta_{EL} \mathbf{L}$. 
-
-But by definition $\delta_{EL} \mathbf{L} = \mathbf{d} \mathbf{L} + d \Theta_{BFV}$ is the unique component of
-the [[de Rham differential]] $\mathbf{d} \mathbf{L}$ proportional to the [[variational derivative]] of the fields
-modulo a [[total spacetime derivative]] (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}).
-Now by definition of [[infinitesimal symmetries of the Lagrangian]] (def. \ref{SymmetriesAndConservedCurrents})
-the infinitesimal change of $\mathbf{L}$ along the flow is horizontally exact
-$\mathcal{L}_{\hat v} \mathbf{L} = d J_{\hat v}$, which implies that $\mathcal{L}_{\hat v} \delta_{EL} \mathbf{L} = 0$.
-
-=--
-
-
 +-- {: .num_example #ScalarFieldEnergyMomentum}
 ###### Example
 **([[energy-momentum]] of the [[scalar field]])**
@@ -11111,6 +11071,584 @@ $$
 $$
 
 =--
+
+
+$\,$
+
+
+
+
+Since an [[infinitesimal symmetry of a Lagrangian]] (def. \ref{SymmetriesAndConservedCurrents}) by definition changes the Lagrangian only up to a [[total spacetime derivative]], and since the [[Euler-Lagrange equation|Euler-Lagrange]] [[equations of motion]] by construction depend on the [[Lagrangian density]] only up to a [[total spacetime derivative]] (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}), it is plausible that and [[infinitesimal symmetry of the Lagrangian]] preserves the [[equations of motion]] (eq:EulerLagrangeEquationGeneral), hence the [[shell]] (eq:ProlongedShellInJetBundle). That this is indeed the case is the statement of prop. \ref{InfinitesimalSymmetriesOfLagrangianAreAlsoSymmetriesOfTheEquationsOfMotion} below.
+
+To make the proof transparent, we now first introduce the concept of the _[[evolutionary derivative]]_ (def. \ref{FieldDependentDifferentialOperatorDerivative}) below and then observe that in terms of these the [[Euler-Lagrange derivative]] is in fact a [[derivation]] (prop. \ref{EulerLagrangeDerivativeIsDerivationViaAdjointFrechetDerivatives}).
+
++-- {: .num_defn #FieldDependentSections}
+###### Definition
+**([[field (physics)|field]]-dependent [[sections]])**
+
+For
+
+$$
+  E \overset{fb}{\longrightarrow} \Sigma
+$$
+
+a [[fiber bundle]] (def. \ref{FiberBundle}), regarded as a [[field bundle]] (def. \ref{FieldsAndFieldBundles}), and for
+
+$$
+  E' \overset{fb'}{\longrightarrow} \Sigma
+$$
+
+any other [[fiber bundle]] over the same base space ([[spacetime]]), we write
+
+$$
+  \Gamma_{J^\infty_\Sigma(E)}(E')
+  \;\coloneqq\;
+  \Gamma_{J^\infty_\Sigma(E)}( jb^\ast E' )
+  \;=\;
+  Hom_\Sigma(J^\infty_\Sigma(E), E')
+  \;\simeq\;
+  DiffOp(E,E')
+$$
+
+for the [[space of sections]] of the [[pullback of bundles]] of $E'$ to the [[jet bundle]] $J^\infty_\Sigma(E) \overset{jb}{\longrightarrow} \Sigma$ (def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) along $jb$.
+
+$$
+  \Gamma_{J^\infty_\Sigma(E)}(E')
+  \;=\;
+  \left\{
+    \array{
+       && E'
+       \\
+       & {}^{\mathllap{}}\nearrow & \downarrow \mathrlap{fb'}
+       \\
+       J^\infty_\Sigma(E)
+       &\underset{jb}{\longrightarrow}&
+       \Sigma
+    }
+    \phantom{A}\,\,
+  \right\}
+  \,.
+$$
+
+(Equivalently this is the space of [[differential operators]] from sections of $E$ to sections of $E'$, according to prop. \ref{DifferentialOperator}. )
+
+=--
+
+
+In ([Olver 93, section 5.1, p. 288](evolutionary+derivative#Olver93)) the field dependent sections of def. \ref{FieldDependentSections}, considered in [[local coordinates]], are referred to as [[tuples]] of _differential functions_.
+
++-- {: .num_example #EvolutionaryVectorFieldsAsFieldDependentSections}
+###### Example
+**([[source forms]] and [[evolutionary vector fields]] are field-dependent sections)**
+
+For $E \overset{fb}{\to} \Sigma$ a [[field bundle]], write $T_\Sigma E$ for its [[vertical tangent bundle]] (example \ref{VerticalTangentBundle}) and $T_\Sigma^\ast E$ for its [[dual vector bundle]] (def. \ref{DualVectorBundle}), the [[vertical cotangent bundle]].
+
+Then the field-dependent sections of these bundles according to def. \ref{FieldDependentSections} are identified as follows:
+
+* the space $\Gamma_{J^\infty_\Sigma(E)}(T_\Sigma E)$ contains the space of [[evolutionary vector fields]] $v$ (def. \ref{EvolutionaryVectorField}) as those bundle morphism which respect not just the projection to $\Sigma$ but also its factorization through $E$:
+
+  $$
+    \left(
+      \array{
+        && T_\Sigma E
+        \\
+        & {}^{\mathllap{v}}\nearrow & \downarrow^{\mathrlap{tb_\Sigma}}
+        \\
+        J^\infty_\Sigma(E) &\underset{jb_{\infty,0}}{\longrightarrow}& E & \underset{fb}{\longrightarrow}& \Sigma
+      }
+    \right)
+    \;\in\;
+    \Gamma_{J^\infty_\Sigma(E)}(T_\Sigma E)
+  $$
+
+* $\Gamma_{J^\infty_\Sigma(E)}( T^\ast_\Sigma E) \otimes \wedge^{p+1}_\Sigma(T^\ast \Sigma)$ contains the space of [[source forms]] $E$ (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}) as those bundle morphisms which respect not just the projection to $\Sigma$ but also its factorization through $E$:
+
+  $$
+    \left(
+      \array{
+        && T^\ast_\Sigma E
+        \\
+        & {}^{E}\nearrow & \downarrow^{\mathrlap{ctb_\Sigma}}
+        \\
+        J^\infty_\Sigma(E) &\underset{jb_{\infty,0}}{\longrightarrow}& E & \underset{fb}{\longrightarrow}& \Sigma
+      }
+    \right)
+    \;\in\;
+    \Gamma_{J^\infty_\Sigma(E)}(T^\ast_\Sigma E)
+  $$
+
+
+This makes manifest the duality pairing between [[source forms]] and [[evolutionary vector fields]]
+
+$$
+  \array{
+    \Gamma_{J^\infty_\Sigma(E)}(T_\Sigma E)
+    \otimes
+    \Gamma_{J^\infty_\Sigma(E)}(T^\ast_\Sigma E)
+    &\longrightarrow&
+    C^\infty(J^\infty_\Sigma(E))
+  }
+$$
+
+which in local coordinates is given by
+
+$$
+  (v^a \partial_{\phi^a} \,,\, \omega_a \delta \phi^a)
+  \mapsto
+  v^a \omega_a
+$$
+
+for $v^a, \omega_a \in C^\infty(J^\infty_\Sigma(E))$ [[smooth functions]] on the [[jet bundle]] (as in prop. \ref{JetBundleIsLocallyProManifold}).
+
+=--
+
++-- {: .num_defn #FieldDependentDifferentialOperatorDerivative}
+###### Definition
+**([[evolutionary derivative of field-dependent section]])**
+
+Let
+
+$$
+  E \overset{fb}{\to} \Sigma
+$$
+
+be a [[fiber bundle]] regarded as a [[field bundle]] (def. \ref{FieldsAndFieldBundles}) and let
+
+$$
+  V \overset{vb}{\to} \Sigma
+$$
+
+be a [[vector bundle]] (def. \ref{VectorBundle}). Then for
+
+$$
+  P \in \Gamma_{J^\infty_\Sigma(E)}(V)
+$$
+
+a field-dependent section of $E$ according to def. \ref{FieldDependentSections}, its _evolutionary derivative_ is the morphism
+
+$$
+  \array{
+    \Gamma_{J^\infty_\Sigma(E)}(T_\Sigma E)
+      & \overset{  \mathrm{D}P }{\longrightarrow} &
+    \Gamma_{J^\infty_\Sigma(E)}(V)
+    \\
+    v &\mapsto& \hat v(P)
+  }
+$$
+
+which, under the identification of example \ref{EvolutionaryVectorFieldsAsFieldDependentSections}, sense an [[evolutionary vector field]] $v$ to the [[derivative]] of $P$ (example \ref{TangentVectorFields}) along the prolongation [[tangent vector field]] $\hat v $ of $v$ (prop. \ref{EvolutionaryVectorFieldProlongation}).
+
+
+In the case that $E$ and $V$ are [[trivial vector bundles]] over [[Minkowski spacetime]] with coordinates $((x^\mu), (\phi^a))$ and $((x^\mu),  (\rho^b))$, respectively (example \ref{TrivialVectorBundleAsAFieldBundle}), then by (eq:ProlongationOfEvolutionaryVectorFieldExplicit) this is given by
+
+$$
+  ((\mathrm{D}P)(v))^b
+   \;=\;
+  \left(
+     v^a \frac{\partial P^b}{\partial \phi^a}
+     +
+     \frac{d v^a}{d x^\mu}
+     \frac{\partial P^b}{\partial \phi^a_{,\mu}}
+     +
+      \frac{d^2 v^a}{d x^\mu d x^\nu}
+      \frac{\partial  P^b}{\partial \phi^a_{,\mu \nu}}
+      +
+     \cdots
+  \right)
+$$
+
+This makes manifest that $\mathrm{D}P$ may equivalently be regarded as a $J^\infty_\Sigma(E)$-dependent [[differential operator]] (def. \ref{DifferentialOperator}) from the [[vertical tangent bundle]] $T_\Sigma E$ (def. \ref{VerticalTangentBundle}) to $V$, namely a [[bundle homomorphism]] over $\Sigma$ of the form
+
+$$
+  \mathrm{D}_P
+  \;\colon\;
+  J^\infty_\Sigma(E) \times_\Sigma J^\infty_\Sigma T_\Sigma E
+  \longrightarrow
+  V
+$$
+
+in that
+
+$$
+  \label{FrechetDerivativeAsDifferentialOperatorEquality}
+  \mathrm{D}_P(-,v)
+  =
+  \mathrm{D}P(v)
+  =
+  \hat v (P)
+  \,.
+$$
+
+=--
+
+
+([Olver 93, def. 5.24](evolutionary+derivative#Olver93))
+
+
++-- {: .num_example #DifferentialOperatorDerivativeOfLagrangianFunction}
+###### Example
+**([[evolutionary derivative]] of [[Lagrangian function]])**
+
+Over [[Minkowski spacetime]] $\Sigma$ (def. \ref{MinkowskiSpacetime}), let $\mathbf{L} = L dvol \in \Omega^{p,0}_\Sigma(E)$ be a [[Lagrangian density]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}), with coefficient function regarded as a field-dependent section (def. \ref{FieldDependentSections}) of the [[trivial bundle|trivial]] [[real line bundle]]:
+
+$$
+  L \;\in \; \Gamma_{J^\infty_\Sigma}(E)(\Sigma \times \mathbb{R})
+  \,,
+$$
+
+Then the [[formally adjoint differential operator]] (def. \ref{FormallyAdjointDifferentialOperators})
+
+$$
+  (\mathrm{D}_L)^\ast
+    \;\colon\;
+  J^\infty_\Sigma(E)\times_\Sigma (\Sigma \times \mathbb{R})^\ast
+  \longrightarrow
+  T_\Sigma^\ast E
+$$
+
+
+of its [[evolutionary derivative]], def. \ref{FieldDependentDifferentialOperatorDerivative}, regarded as a $J^\infty_\Sigma(E)$-dependent differential operator $\mathrm{D}_P$ from $T_\Sigma$ to $V$ and applied to the constant section
+
+$$
+  1 \in \Gamma_\Sigma(\Sigma \times \mathbb{R}^\ast)
+$$
+
+is the [[Euler-Lagrange derivative]] (eq:EulerLagrangeEquationGeneral)
+
+$$
+  \delta_{EL}\mathbf{L}
+  \;=\;
+  \left(\mathrm{D}_{L}\right)^\ast(1)
+  \;\in\;
+  \Gamma_{J^\infty_\Sigma(E)}(T_\Sigma^\ast)
+   \simeq
+   \Omega^{p+1,1}_\Sigma(E)_{source}
+$$
+
+via the identification from example \ref{EvolutionaryVectorFieldsAsFieldDependentSections}.
+
+=--
+
++-- {: .num_prop #EulerLagrangeDerivativeIsDerivationViaAdjointFrechetDerivatives}
+###### Proposition
+**([[Euler-Lagrange derivative]] is [[derivation]] via [[evolutionary derivatives]])**
+
+Let $V \overset{vb}{\to} \Sigma$ be a [[vector bundle]] (def. \ref{VectorBundle}) and write $V^\ast \overset{}{\to} \Sigma$ for its [[dual vector bundle]] (def. \ref{DualVectorBundle}).
+
+For field-dependent sections (def. \ref{FieldDependentSections})
+
+$$
+  \alpha \in \Gamma_{J^\infty_\Sigma(E)}(V)
+$$
+
+and
+
+$$
+  \beta^\ast \in \Gamma_{J^\infty_\Sigma(E)}(V^\ast)
+$$
+
+we have that the [[Euler-Lagrange derivative]] (eq:EulerLagrangeEquationGeneral) of their canonical pairing to a [[smooth function]] on the [[jet bundle]] (as in prop. \ref{JetBundleIsLocallyProManifold}) is the sum of the derivative of either one via the [[formally adjoint differential operator]] (def. \ref{FormallyAdjointDifferentialOperators}) of the [[evolutionary derivative]] (def. \ref{FieldDependentDifferentialOperatorDerivative}) of the other:
+
+$$
+  \delta_{EL}( \alpha \cdot \beta^\ast )
+  \;=\;
+  (\mathrm{D}_\alpha)^\ast(\beta^\ast)
+  +
+  (\mathrm{D}_{\beta^\ast})^\ast(\alpha)
+$$
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+It is sufficient to check this in [[local coordinates]]. By the [[product law]] for [[differentiation]] we have
+
+$$
+  \begin{aligned}
+    \frac{
+      \delta_{EL} \left(\alpha \cdot \beta^\ast \right)
+    }
+    {
+      \delta \phi^a
+    }
+    & =
+    \frac{\partial \left(\alpha \cdot \beta^\ast \right)}{\partial \phi^a}
+    -
+    \frac{d}{d x^\mu}
+    \left(
+       \frac{\partial \left( \alpha \cdot \beta^\ast \right)}{\partial \phi^a_{,\mu}}
+    \right)
+    +
+    \frac{d}{d x^\mu d x^\nu}
+    \left(
+       \frac{\partial \left( \alpha \cdot \beta^\ast \right) }{\partial \phi^a_{,\mu \nu}}
+    \right)
+    -
+    \cdots
+    \\
+    & =
+    \phantom{+}
+    \frac{\partial \alpha }{\partial \phi^a}
+    \cdot \beta^\ast
+    -
+    \frac{d}{d x^\mu}
+    \left(
+       \frac{\partial \alpha }{\partial \phi^a_{,\mu}}
+       \cdot
+       \beta^\ast
+    \right)
+    +
+    \frac{d}{d x^\mu d x^\nu}
+    \left(
+       \frac{\partial \alpha  }{\partial \phi^a_{,\mu \nu}}
+       \cdot
+       \beta^\ast
+    \right)
+    -
+    \cdots
+    \\
+    & \phantom{=}
+    +
+    \frac{\partial \beta^\ast }{\partial \phi^a}
+    \cdot \alpha
+    -
+    \frac{d}{d x^\mu}
+    \left(
+       \frac{\partial \beta^\ast }{\partial \phi^a_{,\mu}}
+       \cdot
+       \alpha
+    \right)
+    +
+    \frac{d}{d x^\mu d x^\nu}
+    \left(
+       \frac{\partial \beta^\ast  }{\partial \phi^a_{,\mu \nu}}
+       \cdot
+       \alpha
+    \right)
+    -
+    \cdots
+    \\
+    & =
+    (\mathrm{D}_\alpha)^\ast(\beta^\ast)
+    +
+    (\mathrm{D}_{\beta^\ast})^\ast(\alpha)
+  \end{aligned}
+$$
+
+=--
+
+
++-- {: .num_prop #EvolutionaryDerivativeOfEulerLagrangeFormIsFormallySelfAdjoint}
+###### Proposition
+**([[evolutionary derivative]] of [[Euler-Lagrange forms]] is [[formally self-adjoint differential operator|formally self-adjoint]])**
+
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) over [[Minkowski spacetime]] (def. \ref{MinkowskiSpacetime}) and regard the [[Euler-Lagrange derivative]]
+
+$$
+  \delta_{EL}\mathbf{L}
+  \;=\;
+  \delta_{EL}L \wedge dvol_\Sigma
+$$
+
+(from prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}) as a field-dependent section of the [[vertical cotangent bundle]]
+
+$$
+  \delta_{EL}L
+  \;\in\;
+  \Gamma_{J^\infty_\Sigma(E)}(T^\ast_\Sigma E)
+$$
+
+as in example \ref{EvolutionaryVectorFieldsAsFieldDependentSections}. Then the corresponding [[evolutionary derivative]] field-dependent [[differential operator]] $D_{\delta_{EL}L}$ (def. \ref{FieldDependentDifferentialOperatorDerivative})  is [[formally self-adjoint differential operator|formally self-adjoint]] (def. \ref{FormallyAdjointDifferentialOperators}):
+
+$$
+  (D_{\delta_{EL}L})^\ast
+  \;=\;
+  D_{\delta_{EL}L}
+$$
+
+=--
+
+([Olver 93, theorem 5.92](evolutionary+derivative#Olver93))
+
+$\,$
+
+Now we may finally prove that an [[infinitesimal symmetry of the Lagrangian]] is also an infinitesimal symmetry of the [[Euler-Lagrange equations|Euler-Lagrange]] [[equations of motion]]:
+
++-- {: .num_prop #InfinitesimalSymmetriesOfLagrangianAreAlsoSymmetriesOfTheEquationsOfMotion}
+###### Proposition
+**([[infinitesimal symmetries of the Lagrangian]] are also [[infinitesimal symmetries]] of the [[equations of motion]])**
+
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]]. If an [[evolutionary vector field]] $v$ is an [[infinitesimal symmetry of the Lagrangian]] then the [[flow]] along its prolongation $\hat v$ preserves the [[prolonged shell]] $\mathcal{E}^\infty \hookrightarrow J^\infty_\Sigma(E)$ (eq:ProlongedShellInJetBundle) in that the [[Lie derivative]] of the [[Euler-Lagrange form]] $\delta_{EL}\mathbf{L}$ along $\hat v$ vanishes on $\mathcal{E}^\infty$:
+
+$$
+  \mathcal{L}_{\hat v}\mathbf{L} = d(...)
+  \phantom{AAA}
+  \Rightarrow
+  \phantom{AAA}
+  \mathcal{L}_{\hat v} \, \delta_{EL}\mathbf{L}\vert_{\mathcal{E}^\infty} = 0
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Notice that for any vector field $\hat v$ the [[Lie derivative]] (prop. \ref{CartanHomotopyFormula})$\mathcal{L}_{\hat v}$ of the [[Euler-Lagrange form]] $\delta_{EL}\mathbf{L} = \frac{\delta_{EL}L}{\delta \phi^a} \delta \phi^a \wedge dvol_\Sigma$ differs from that of its component functions $\frac{\delta_{EL}L}{\delta \phi^a} dvol_\Sigma$ by a term proportional to these component functions, which by definition vanishes on-shell:
+
+$$
+  \mathcal{L}_{\hat v} \left( \frac{\delta_{EL} L}{\delta \phi^a} \delta \phi^a \wedge dvol_\Sigma \right)
+  \;=\;
+  \underset{
+    = \hat v\left( \frac{\delta_{EL}L}{\delta \phi^a} \right)
+  }{
+  \underbrace{
+  \left(
+    \mathcal{L}_{\hat v}
+     \frac{\delta_{EL}L}{\delta \phi^a}
+  \right)
+  }
+  }
+  \delta \phi^a
+  \wedge
+  dvol_\Sigma
+  +
+  \underset{
+    = 0 \, \text{on} \, \mathcal{E}^\infty
+  }{
+  \underbrace{
+    \frac{\delta_{EL}L}{\delta \phi^a}
+  }
+  }
+    \left(
+    \mathcal{L}_{\hat v} \delta \phi^a
+    \right)
+    \wedge dvol_\Sigma
+$$
+
+ But the Lie derivative of the component functions is just their plain derivative. Therefore it is sufficient to show that
+
+$$
+  \hat v
+  \left(
+    \frac{\delta_{EL} L}{\delta \phi^a}
+  \right)
+  \vert_{\mathcal{E}^\infty}
+  \;=\;
+  0
+  \,.
+$$
+
+Now by [[Noether's theorem|Noether's theorem I]] (prop. \ref{NoethersFirstTheorem}) the condition $\mathcal{L}_{\hat v} = d \tilde J_{\hat v}$ for an [[infinitesimal symmetry of the Lagrangian]] implies that  the contraction (def. \ref{ContractionOfFormsWithVectorFields}) of the [[Euler-Lagrange form]] with the corresponding [[evolutionary vector field]] is a [[total spacetime derivative]]:
+
+$$
+  \iota_{\hat v} \, \delta_{EL}\mathbf{L}
+  \;=\;
+  d J_{\hat v}
+  \,.
+$$
+
+Since the [[Euler-Lagrange derivative]] vanishes on [[total spacetime derivative]] (example \ref{TrivialLagrangianDensities}) also its application on the contraction on the left vanishes. But via example \ref{EvolutionaryVectorFieldsAsFieldDependentSections} that contraction is a pairing of field-dependent sections as in prop. \ref{EulerLagrangeDerivativeIsDerivationViaAdjointFrechetDerivatives}. Hence we use this proposition to compute:
+
+$$
+  \begin{aligned}
+    0
+    & =
+    \frac{\delta_{EL} \left( v \cdot \delta_{EL} L\right) }{ \delta \phi^a }
+    \\
+    & =
+    (\mathrm{D}_{v})^\ast( \delta_{EL}L )
+    +
+    (\mathrm{D}_{\delta_{EL}L})^\ast(v)
+    \\
+    & =
+    (\mathrm{D}_{v})^\ast( \delta_{EL}L )
+    +
+    (\mathrm{D}_{\delta_{EL}L})(v)
+    \\
+    & =
+    (\mathrm{D}_{v})^\ast( \delta_{EL}L )
+    +
+    \hat v(\delta_{EL}L)
+    \,.
+  \end{aligned}
+$$
+
+Here the first step is by prop. \ref{EulerLagrangeDerivativeIsDerivationViaAdjointFrechetDerivatives}, the second step is by prop. \ref{EvolutionaryDerivativeOfEulerLagrangeFormIsFormallySelfAdjoint} and the third step is
+(eq:FrechetDerivativeAsDifferentialOperatorEquality).
+
+Hence
+
+$$
+  \begin{aligned}
+    \hat v(\delta_{EL}L) \vert_{\mathcal{E}^\infty}
+    & =
+    -
+    (\mathrm{D}_{v})^\ast( \delta_{EL}L ) \vert_{\mathcal{E}^\infty}
+    \\
+    & =
+    0
+  \end{aligned}
+  \,,
+$$
+
+where in the last line we used that on the [[prolonged shell]] $\delta_{EL}L$ and all its horizontal derivatives vanish, by definition.
+
+
+=--
+
+
+As a corollary we obtain:
+
+
+
++-- {: .num_prop #FlowAlongImplicitInfinitesimalGaugeSymmetryPreservesOnShellSpaceofFieldHistories}
+###### Proposition
+**([[flow]] along [[infinitesimal symmetry of the Lagrangian]] preserves [[on-shell]] [[space of field histories]])**
+
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}).
+
+For $v$ an [[infinitesimal symmetry of the Lagrangian]] (def. \ref{SymmetriesAndConservedCurrents})
+the [[flow]] on the [[space of field histories]] (example \ref{DiffeologicalSpaceOfFieldHistories}) that it induces by def. \ref{FlowOfFieldHistoriesAlongEvolutionaryVectorField}
+preserves the space of [[on-shell]] field histories (from prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}):
+
+$$
+  \array{
+    \Gamma_\Sigma(E)_{\delta_{EL}\mathbf{L} = 0}
+      &\hookrightarrow&
+    \Gamma_\Sigma(E)
+    \\
+    {\mathllap{\exp(\hat v)\vert_{\delta_{EL}\mathbf{L} = 0}  }}
+    \uparrow
+      &&
+    \uparrow {\mathrlap{\exp(\hat v)}}
+    \\
+    \Gamma_\Sigma(E)_{\delta_{EL}\mathbf{L} = 0}
+      &\hookrightarrow&
+    \Gamma_\Sigma(E)
+  }
+$$
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+
+By def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime} a field history
+$\Phi \in \Gamma_\Sigma(E)$ is [[on-shell]] precisely if its [[jet prolongation]] $j^\infty_\Sigma(E)$ (def. \ref{JetProlongation})
+factors through the [[shell]] $\mathcal{E} \hookrightarrow J^\infty_\Sigma(E)$ (eq:ShellInJetBundle).
+Hence by def. \ref{FlowOfFieldHistoriesAlongEvolutionaryVectorField} the statement is equivalently that
+the ordinary flow (prop. \ref{CartanHomotopyFormula}) of $\hat v$ (def. \ref{EvolutionaryVectorFieldProlongation})
+on the [[jet bundle]] $J^\infty_\Sigma(E)$ preserves the [[shell]]. This in turn means that it preserves the
+vanishing locus of the [[Euler-Lagrange form]] $\delta_{EL} \mathbf{L}$, which is the case by prop. \ref{InfinitesimalSymmetriesOfLagrangianAreAlsoSymmetriesOfTheEquationsOfMotion}.
+
+=--
+
+
 
 
 
@@ -11644,7 +12182,7 @@ $$
 
 $\,$
 
-This concludes our discussion of general infinitesimal symmetries. We pick this up again in the discussion of
+This concludes our discussion of general [[infinitesimal symmetries of a Lagrangian]]. We pick this up again in the discussion of
 _[Gauge symmetries](#GaugeSymmetries)_ below. First, in the [next chapter](#Observables) we discuss
 the concept of [[observables]] in [[field theory]].
 
@@ -20815,7 +21353,7 @@ $$
 **([[action]] of irreducible closed [[gauge parameter|gauge parameterized]] implicit [[infinitesimal gauge symmetries]] on [[field (physics)|fields]])**
 
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}), and let
-$\mathcal{G} =  \overset{gb}{\to} \Sigma$ be a bundle of irreducible closed [[gauge parameters]]
+$\mathcal{G}   \overset{gb}{\to} \Sigma$ be a bundle of irreducible closed [[gauge parameters]]
 for the theory (def. \ref{GaugeParametrizedInfinitesimalGaugeTransformation}) with
 bundle morphism
 
@@ -20834,7 +21372,7 @@ $$
 exhibiting the corresponding parameterized implicit [[infinitesimal gauge symmetries]].
 
 By passing from these [[evolutionary vector fields]] $R(e)$ (def. \ref{EvolutionaryVectorField})
-to their prolongations $\widehat{R(e)}$ to actual vector fields on the jet bundle (prop. \ref{EvolutionaryVectorFieldProlongation})
+to their prolongations $\widehat{R(e)}$,  being actual vector fields on the jet bundle (prop. \ref{EvolutionaryVectorFieldProlongation}),
 we obtain a bundle morphism of the form
 
 $$
@@ -20850,7 +21388,14 @@ $$
   \,.
 $$
 
-In the case that $\mathcal{G} = \mathfrak{g} \times \Sigma$ is a [[trivial vector bundle]], with [[fiber]] $\mathfrak{g}$, then so is its [[jet bundle]] $J^\infty_\Sigma(\mathfrak{g} \times \Sigma) = \mathfrak{g}^\infty \times \Sigma$, and so in this case the above becomes of the form
+In the case that $\mathcal{G} = \mathfrak{g} \times \Sigma$ is a [[trivial vector bundle]], with [[fiber]] $\mathfrak{g}$, then so is its [[jet bundle]]
+
+$$
+  J^\infty_\Sigma(\mathfrak{g} \times \Sigma) = \mathfrak{g}^\infty \times \Sigma
+  \,,
+$$
+
+and so in this case the above becomes of the form
 
 $$
   \array{
