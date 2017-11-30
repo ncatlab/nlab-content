@@ -1,4 +1,6 @@
 
+> This entry is about the concept in [[mathematics]], specifically in [[set theory]]/[[type theory]]/[[category theory]]. For the concept in [[chemistry]] see at [[chemical element]].
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
