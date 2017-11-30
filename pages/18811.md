@@ -420,6 +420,116 @@ $$
 ([Olver 93, theorem 5.92](#Olver93))
 
 
++-- {: .num_prop #EvolutionaryDerivativeOfEulerLagrangeFormIsFormallySelfAdjoint}
+###### Proposition
+**([[evolutionary derivative]] of [[Euler-Lagrange forms]] is [[formally self-adjoint differential operator|formally self-adjoint]])**
+
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] over [[Minkowski spacetime]] and regard the [[Euler-Lagrange derivative]] 
+
+$$
+  \delta_{EL}\mathbf{L}
+  \;=\;
+  \delta_{EL}L \wedge dvol_\Sigma
+$$
+
+as a field-dependent section of the [[vertical cotangent bundle]]
+
+$$
+  \delta_{EL}L
+  \;\in\;
+  \Gamma_{J^\infty_\Sigma(E)}(T^\ast_\Sigma E)
+$$
+
+as in example \ref{EvolutionaryVectorFieldsAsFieldDependentSections}. Then the corresponding [[evolutionary derivative]] field-dependent [[differential operator]] $D_{\delta_{EL}L}$ (def. \ref{FieldDependentDifferentialOperatorDerivative})  is [[formally self-adjoint differential operator|formally self-adjoint]]:
+
+$$
+  (D_{\delta_{EL}L})^\ast
+  \;=\;
+  D_{\delta_{EL}L}
+$$
+
+=--
+
+([Olver 93, theorem 5.92](evolutionary+derivative#Olver93)) The following proof is due to [[Igor Khavkine]].
+
++-- {: .proof}
+###### Proof
+
+By definition of the [[Euler-Lagrange form]] we have
+
+$$
+  \frac{\delta_{EL} L }{\delta \phi^a}
+  \delta \phi^a
+  \, 
+  \wedge 
+  dvol_\Sigma
+  \;=\;
+  \delta L \,\wedge dvol_\Sigma \;+\; d(...)
+  \,.
+$$
+
+Applying the [[variational derivative]] $\delta$ to both sides of this equation yields
+
+$$
+  \left(\delta \frac{\delta_{EL} L }{\delta \phi^a}\right)
+  \wedge
+  \delta \phi^a
+  \, 
+  \wedge 
+  dvol_\Sigma
+  \;=\;
+  \underset{= 0}{\underbrace{\delta \delta L}} \wedge dvol_\Sigma
+  \;+\;
+  d(...)
+  \,.
+$$
+
+It follows that for $v,w$ any two [[evolutionary vector fields]] the contraction of their prolongations $\hat v$ and $\hat w$ into the [[variational differential form|differential 2-form]] on the left is
+
+$$
+  \left(
+    \delta \frac{\delta_{EL} L }{\delta \phi^a}
+    \wedge
+    \delta \phi^a
+  \right)(v,w)
+  =
+    w^a
+    (\mathrm{D}_{\delta_{EL}})_a(v)
+    -
+    v^b(\mathrm{D}_{\delta_{EL}})_b(w) 
+  \,,
+$$
+
+by inspection of the definition of the [[evolutionary derivative]] (def. \ref{FieldDependentDifferentialOperatorDerivative}) and their contraction into the form on the right is
+
+$$
+  \iota_{\hat v}
+  \iota_{\hat w}
+  d(...)
+  \;=\;
+  d(...)
+$$
+
+by the fact (prop. \ref{EvolutionaryVectorFieldProlongation}) that contraction with prolongations of evolutionary vector fields coommutes with the [[total spacetime derivative]].
+
+Hence the last two equations combined give
+
+$$
+  w^a
+  (\mathrm{D}_{\delta_{EL}})_a(v)
+  -
+  v^b(\mathrm{D}_{\delta_{EL}})_b(w) 
+  \;=\;
+  d(...)
+  \,.
+$$
+
+
+This is the defining condition for $\mathrm{D}_{\delta_{EL}}$ to be [[formally self-adjoint differential operator]].
+
+=--
+
+
 
 ## References
 
