@@ -78,12 +78,13 @@ That is, incidentally, the very reason for the term "M-theory". First there had 
 
 > _M_ stands for _magic_, _mystery_, or _membrane_, according to taste ([Witten 95](M-theory#Witten95))
 
+
 ### What are the equations of string theory?
  {#WhatAreTheEquations}
 
 All [[local field theories]] in physics are prominently embodied by key [[equations]], their _[[nLab:equations of motion]]_. For instance [[classical field theory|classical]] [[gravity]] ([[general relativity]]) is essentially the theory of [[Einstein's equations]], [[quantum mechanics]] is governed by the [[Schrödinger equation]], and so forth.
 
-But [[perturbative string theory]] is not a [[local field theory]]. Instead it is an [[S-matrix theory]] (see _[What is string theory?](#WhatIsStringTheory)_). Therefore instead of being given by an [[equation]] that picks out the physical trajectories, it is given by a formula for how to compute [[scattering amplitudes]]. That formula is the [[string perturbation series]]: it says that the [[probability amplitude]] for $n_{in}$ asymptotic states of strings coming in (into a particle collider experiment, say), scattering, and $n_{out}$ other asymptotic string states emerging (and hitting a detector, say) is a sum over all [[Riemann surfaces]] with $(n_{in}, n_{out})$-punctures of the [[n-point functions]] of the given [[2d CFT]] that defines the scattering [[vacuum]].
+But [[perturbative string theory]] is not a [[local field theory]]. Instead it is an [[S-matrix theory]] (see _[What is string theory?](#WhatIsStringTheory)_). Therefore instead of being given by an [[equation]] that picks out the physical trajectories, it is given by a formula for how to compute [[scattering amplitudes]]. That formula is the [[string perturbation series]]: it says that the [[probability amplitude]] for $n_{in}$ asymptotic states of strings coming in (into a particle collider experiment, say), scattering, and $n_{out}$ other asymptotic string states emerging (and hitting a detector, say) is a sum over all [[Riemann surfaces]] with $(n_{in}, n_{out})$-punctures of the [[n-point functions]] of the given [[2d CFT]] that defines the [[string vacuum]] (see at _[What is a string vacuum?](#WhatIsAStringVacuum)_).
 
 More in detail, a string background is equivalently a choice of [[2d SCFT]] of central charge 15 (a "[[2-spectral triple]]"), and in terms of this the formula for the [[S-matrix]] element/[[scattering amplitude]] for a bunch of asymptotic string states $\psi^1_{in}, \cdots, \psi^{n_{in}}_{in}$ coming in, and a bunch of states $\psi^1_{out}, \cdots, \psi^{n_{out}}_{out}$ coming out is schematically of the form
 
@@ -195,7 +196,7 @@ The simple familiar example to compare this to is the [[cosmological constant]] 
 
 In string theory this happens with _all_ the parameters. (Except for one single constant: the string [[coupling constant]]. From the perspective of "[[M-theory]]" even that disappears. See at [string theory -- scales](string+theory#Scales).) There is no external choice of parameter, but there remains the choice of studying "solutions to the equations of motion" (which in string theory means: choices of 2d [[CFT]]s) which might model observed physics. 
 
-That is why in string theory instead of adjusting parameters one searches solutions. Since these are also called "[[vacua]]", one searches vacua. The infamous term "[[landscape of string theory vacua]]" refers to attempts to understand the space of possibilities here more globally. But very little is actually known to date. 
+That is why in string theory instead of adjusting parameters one searches solutions. Since these are also called "[[string vacua]]" (see at _[What is a string vacuum?](#WhatIsAStringVacuum)_), one searches vacua. The infamous term "[[landscape of string theory vacua]]" refers to attempts to understand the space of possibilities here more globally. But very little is actually known to date. 
 
 In summary: [[model (in theoretical physics)|models]] built in string theory make predictions just as any other [[model (in theoretical physics)|model]] in theoretical physics does. 
 The situation is actually better in that in principle the choice of model in string theory is constrained by the theory. While the [[standard model of particle physics]] is just written to paper, when one reproduces approximations to it in string theory one has to check that various consistency conditions are satisfied which guarantee that the parameters assumed indeed do arise as configurations of the fields in the theory. 
@@ -324,6 +325,26 @@ The role of [[local supersymmetry]] ([[supergravity]]) which superstring theory 
 On the other hand, in low [[worldvolume]] dimension this tends to be inevitable. For instance the [[worldline]] theory of any [[spinning particle]] (such as [[electrons]]) necessarily has worldline supersymmetry, see at _[spinning particle - Worldline supersymmetry](spinning+particle#WorldlineSupersymmetry)_ and at _[spinning particle - Worldline supersymmetry - References](http://ncatlab.org/nlab/show/spinning+particle#WorldlineSupersymmtryReferences)_.
 
 Similarly, the standard [[sigma-model]] [[worldsheet]] [[action functional]] of the [[spinning string]] was not originally intended to be supersymmetric, but just so happens to come out this way. The special phenomenon as opposed to the superparticle is that the worldsheet supersymmetry of the string _implies_ that its [[second quantization]] [[effective field theory]] is also locally supersymmetric, hence is a [[theory (physics)|theory]] of [[supergravity]].
+
+### What is a string vacuum?
+ {#WhatIsAStringVacuum}
+
+In [[perturbative quantum field theory]] a _[[vacuum state]]_ is the information needed to turn a product of field [[observables]] such as $\mathbf{\Phi}^a(x) \Phi^b(y)$ into a [[function]] (or rather: [[generalized function]]/[[distribution]]) of the insertion points $x$ any $y$, namely the [[n-point function]] (here [[2-point function]], also called the _[[Hadamard propagator]]_)
+
+$$
+  \langle \mathbf{\Phi}^a(x) \mathbf{\Phi}^b(y)\rangle
+$$
+
+which may be regarded as the [[probability amplitude]] for a quantum in state $b$ at spacetime point $y$ to turn into a quantum in state $a$ at spacetime point $x$, _in the given state_ that the fields are in, which is in, which is defined thereby (see at _[[state in AQFT]]_).
+
+In the [[worldline formalism]] of field theoris these _[[propagators]]_ arise from a 1-dimensional [[field theory]] on the "[[worldline]]" of ([[virtual particle|virtual]]) [[particles]] running from $y$ to $x$.
+
+Now by the very definition of [[perturbative string theory]], these particles are replaced by [[strings]] whose dynamics is now encoded in a 2d field theory on the [[worldsheet]] of strings, specifically a [[2d superconformal field theory]] ([[2d SCFT]]). Hence now it is the _[[2d SCFT]]_ which defines the _[[vacuum state]]_ that the perturbative string theory is in. This is then called a _[[perturbative string theory vacuum]]_.
+
+In practice full [[2d SCFTs]] are hard to construct, and often one considers them by [[perturbative quantum field theories|perturbation theory]] of a "[[sigma-model]]" which is defined by a [[spacetime]] manifold equipped with extra [[field (physics)|fields]] (e.g. the [[B-field]] etc.). It turns out that to low order these [[background field]] configurations that define [[sigma-model]] [[2d SCFTs]] are given by [[solutions]] to [[equations of motion]] of [[supergravity]] theories (e.g. [[type II supergravity]] for [[type II string theory]], etc.)
+
+Therefore often such [[supergravity]] solutions equipped with some extra data that makes them consistent CFT backgrounds are referred to as _vacua_ for string theory. But this is a coarse approximation. The full vacua are the full [[2d SCFTs]] that define the [[worldsheet]] theory of the string.
+
 
 ### How/why does string theory depend on "backgrounds"?
  {#BackgroundDependence}
@@ -456,7 +477,7 @@ For [[type IIB string theory]]/[[F-theory]] this was argued in the influential a
 
 Being a [[perturbation theory]] (see _[What is string theory?](http://ncatlab.org/nlab/show/string%20theory%20FAQ#WhatIsStringTheory)_ above), there are perturbative [[string scattering amplitudes]] for each solution of the [[equations of motion]] of the [[effective QFT|effective]] background theory of ([[super-gravity|super]])-[[Einstein-Yang-Mills-Dirac-Higgs theory]] (see also _[How/why does string theory depend on backgrounds?](http://ncatlab.org/nlab/show/string%20theory%20FAQ#BackgroundDependence)_ above). 
 
-In fact, more precisely, a perturbative background for string theory is a choice of [[2d SCFT|super]]-[[2d CFT]] of central charge -15, and each of them induces such an effective background (by a mechanism indicated at _[[2-spectral triple]]_). This imposes considerably more constraints than one has to solve to find a solution to just [[Einstein equations|Einstein]]-[[Yang-Mills equations]] (for instance "modular invariance" of the 2d theory, etc.). As a result, it is considerably harder to find a backround [[vacuum]] for [[string theory]] than for its [[UV-completion|non UV-complete]] non-renormalized [[effective QFT|effective]] [[Einstein-Yang-Mills-Dirac-Higgs theory]].
+In fact, more precisely, a perturbative background for string theory is a choice of [[2d SCFT|super]]-[[2d CFT]] of central charge -15, and each of them induces such an effective background (by a mechanism indicated at _[[2-spectral triple]]_). This imposes considerably more constraints than one has to solve to find a solution to just [[Einstein equations|Einstein]]-[[Yang-Mills equations]] (for instance "modular invariance" of the 2d theory, etc.). As a result, it is considerably harder to find a backround [[string vacuum]] for [[string theory]] than for its [[UV-completion|non UV-complete]] non-renormalized [[effective QFT|effective]] [[Einstein-Yang-Mills-Dirac-Higgs theory]].
 
 Due to these strong constraints, there had for many decades be a wide spread hope among some (many) string theorists that these constraints are in fact so strong as to maybe essentially uniquely single out one small class of [[vacua]]. And since the [[vacua]] in a [[KK-mechanism]] theory like string theory determine the [[fundamental particle]] content in the low dimensional [[effective QFT]], that would have meant that under maybe mild assumptions string theory would maybe even predict the particle content of the [[standard model of particle physics]], to some extent.
 
