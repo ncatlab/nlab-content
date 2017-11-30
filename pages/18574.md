@@ -4,6 +4,8 @@
 
 * [[integration]]
 
+* [[formally adjoint differential operator]]
+
 * [[derivative of a distribution]]
 
 ## References
