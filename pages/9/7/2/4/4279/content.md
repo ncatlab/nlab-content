@@ -25,9 +25,9 @@
 
 ## Idea
 
-In [[physics]] a _[[state]]_ $\langle - \rangle$ is the information that allows to  assign to each [[observable]] $A$ the [[expectation value]] $\langle A\rangle$ that this observable has when the [[physical system]] is assumed to be in the given state.
+In [[physics]], a _[[state]]_ $\langle - \rangle$ is the information that allows to  assign to each [[observable]] $A$ the [[expectation value]] $\langle A\rangle$ that this observable has when the [[physical system]] is assumed to be in that state.
 
-Often this is formalized in the [[Schrödinger picture]] where a [[Hilbert space|Hilbert]] [[space of states]] is taken as primary, and the [[observables]] are [[representation|represented]] on this [[Hilbert space]] $\mathcal{H}$  as suitable [[linear operators]] $A$ on $\mathcal{H}$. Then for $\psi \in \mathcal{H}$ a state ([[pure state]]) the [[expectation value]] of $A$ in this state is the [[inner product]] $\langle \psi \vert A \vert \psi \rangle \coloneqq (\psi, A \psi)$. This defines a [[linear function]]
+Often this is formalized in the [[Schrödinger picture]] where a [[Hilbert space|Hilbert]] [[space of states]] $\mathcal{H}$ is taken as primary, and the [[observables]] are [[representation|represented]] as suitable [[linear operators]] $A$ on $\mathcal{H}$. Then for $\psi \in \mathcal{H}$ a state ([[pure state]]) the [[expectation value]] of $A$ in this state is the [[inner product]] $\langle \psi \vert A \vert \psi \rangle \coloneqq (\psi, A \psi)$. This defines a [[linear function]]
 
 $$
   \langle \psi \vert (-) \vert \psi \rangle
@@ -59,7 +59,7 @@ The perspective that states are normalized positive linear functionals on the al
 
 ## Definition
 
-The definition of a state relies on the notion of positivity of the elements of an [[star-algebra]]. The following assume [[C* algebra]] structure.
+The definition of a state relies on the notion of _positivity_ of the elements of an [[star-algebra]]. The following discusses this assuming [[C* algebra]] structure.
 
 +-- {: .num_defn}
 ###### Definition
