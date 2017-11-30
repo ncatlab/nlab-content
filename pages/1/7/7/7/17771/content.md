@@ -54,6 +54,10 @@ $$
   d K(\Phi_1, \Phi_2)
 $$
 
+
+This implies by [[Stokes' theorem]], in the case of [[compact support]], that under an [[integral]] $P$ and $P^\ast$ are related via [[integration by parts]].
+
+
 =--
 
 ([Khavkine 14, def. 2.4](#Khavkine14))
