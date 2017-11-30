@@ -2,9 +2,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Differential geometry
-+--{: .hide}
-[[!include synthetic differential geometry - contents]]
+#### Variational calculus
++-- {: .hide}
+[[!include variational calculus - contents]]
 =--
 =--
 =--
@@ -113,10 +113,15 @@ Furthermore, $pr (\pi_{\infty,0*} \circ v) = v$ and $\pi_{\infty,0*} \circ (pr w
 
 ## Related concepts
 
+* [[source form]]
+
+* [[evolutionary derivative]]
+
 * [[point symmetry]]
 
 * [[conserved current]]
 
+* [[Noether's theorem]]
 
 ## References
 
