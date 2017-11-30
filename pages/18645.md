@@ -11470,7 +11470,86 @@ $$
 
 =--
 
-([Olver 93, theorem 5.92](evolutionary+derivative#Olver93))
+([Olver 93, theorem 5.92](evolutionary+derivative#Olver93)) The following proof is due to [[Igor Khavkine]]. 
+
++-- {: .proof}
+###### Proof
+
+By definition of the [[Euler-Lagrange form]] (def. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}) we have
+
+$$
+  \frac{\delta_{EL} L }{\delta \phi^a}
+  \delta \phi^a
+  \,
+  \wedge
+  dvol_\Sigma
+  \;=\;
+  \delta L \,\wedge dvol_\Sigma \;+\; d(...)
+  \,.
+$$
+
+Applying the [[variational derivative]] $\delta$ (def. \ref{VariationalBicomplexOnSecondOrderJetBundleOverTrivialVectorBundleOverMinkowskiSpacetime}) to both sides of this equation yields
+
+$$
+  \left(\delta \frac{\delta_{EL} L }{\delta \phi^a}\right)
+  \wedge
+  \delta \phi^a
+  \,
+  \wedge
+  dvol_\Sigma
+  \;=\;
+  \underset{= 0}{\underbrace{\delta \delta L}} \wedge dvol_\Sigma
+  \;+\;
+  d(...)
+  \,.
+$$
+
+It follows that for $v,w$ any two [[evolutionary vector fields]] the contraction (def. \ref{ContractionOfFormsWithVectorFields}) of their prolongations $\hat v$ and $\hat w$ (def. \ref{EvolutionaryVectorFieldProlongation}) into the [[variational differential form|differential 2-form]] on the left is
+
+$$
+  \left(
+    \delta \frac{\delta_{EL} L }{\delta \phi^a}
+    \wedge
+    \delta \phi^a
+  \right)(v,w)
+  =
+    w^a
+    (\mathrm{D}_{\delta_{EL}})_a(v)
+    -
+    v^b(\mathrm{D}_{\delta_{EL}})_b(w)
+  \,,
+$$
+
+by inspection of the definition of the [[evolutionary derivative]] (def. \ref{FieldDependentDifferentialOperatorDerivative}). 
+Moreover, their contraction into the differential form on the right is
+
+$$
+  \iota_{\hat v}
+  \iota_{\hat w}
+  d(...)
+  \;=\;
+  d(...)
+$$
+
+by the fact (prop. \ref{EvolutionaryVectorFieldProlongation}) that contraction with prolongations of evolutionary vector fields antio-commutes with the [[total spacetime derivative]] (eq:ProlongedEvolutionaryVectorFieldContractionAnticommutedWithHorizontalDerivative).
+
+Hence the last two equations combined give
+
+$$
+  w^a
+  (\mathrm{D}_{\delta_{EL}})_a(v)
+  -
+  v^b(\mathrm{D}_{\delta_{EL}})_b(w)
+  \;=\;
+  d(...)
+  \,.
+$$
+
+
+This is the defining condition for $\mathrm{D}_{\delta_{EL}}$ to be [[formally self-adjoint differential operator]] (def. \ref{FormallyAdjointDifferentialOperators}).
+
+=--
+
 
 $\,$
 
