@@ -21,6 +21,8 @@ The _evolutionary derivative_ or "[[Fréchet derivative]] of a [[tuple]] of diff
 
 ## Definition
 
+In the following _[[fiber bundles]]_ are considered in [[differential geometry]] and in particular _[[vector bundle]]_ means _[[smooth vector bundle]]_.
+
 +-- {: .num_defn #FieldDependentSections}
 ###### Definition
 **([[field (physics)|field]]-dependent [[sections]])**
@@ -73,6 +75,8 @@ $$
 
 =--
 
+In ([Olver 93, section 5.1, p. 288](#Olver93)) the field dependent sections of def. \ref{FieldDependentSections}, considered in [[local coordinates]], are referred to as [[tuples]] of _differential functions_.
+
 +-- {: .num_example #EvolutionaryVectorFieldsAsFieldDependentSections}
 ###### Example
 **([[source forms]] and [[evolutionary vector fields]] are field-dependent sections)**
@@ -81,11 +85,40 @@ For $E \overset{fb}{\to} \Sigma$ a [[field bundle]], write $T_\Sigma E$ for its 
 
 Then the field-dependent sections of these bundles according to def. \ref{FieldDependentSections} are identified as follows:
  
-* $\Gamma_{J^\infty_\Sigma(E)}(T_\Sigma E)$ is the space of [[evolutionary vector fields]];
+* the space $\Gamma_{J^\infty_\Sigma(E)}(T_\Sigma E)$ contains the space of [[evolutionary vector fields]] $v$ as those bundle morphism which respect not just the projection to $\Sigma$ but also its factorization through $E$:
 
-* $\Gamma_{J^\infty_\Sigma(E)}( T^\ast_\Sigma E) \otimes \wedge^{p+1}_\Sigma(T^\ast \Sigma)$ is the space of [[source forms]].
+  $$
+    \left(
+      \array{
+        && T_\Sigma E
+        \\
+        & {}^{\mathllap{v}}\nearrow & \downarrow^{\mathrlap{tb_\Sigma}}
+        \\
+        J^\infty_\Sigma(E) &\underset{jb_{\infty,0}}{\longrightarrow}& E & \overset{fb}{\longrightarrow}& \Sigma
+      }
+    \right)
+    \;\in\;
+    \Gamma_{J^\infty_\Sigma(E)}(T_\Sigma E)
+  $$
 
-Notice that this makes manifest a duality pairing between [[source forms]] and [[evolutionary vector fields]]
+* $\Gamma_{J^\infty_\Sigma(E)}( T^\ast_\Sigma E) \otimes \wedge^{p+1}_\Sigma(T^\ast \Sigma)$ contains the space of [[source forms]] $E$ as those bundle morphisms which respect not just the projection to $\Sigma$ but also its factorization through $E$:
+
+  $$
+    \left(
+      \array{
+        && T^\ast_\Sigma E
+        \\
+        & {}^{E}\nearrow & \downarrow^{\mathrlap{ctb_\Sigma}}
+        \\
+        J^\infty_\Sigma(E) &\underset{jb_{\infty,0}}{\longrightarrow}& E & \overset{fb}{\longrightarrow}& \Sigma
+      }
+    \right)
+    \;\in\;
+    \Gamma_{J^\infty_\Sigma(E)}(T^\ast_\Sigma E)
+  $$
+
+
+This makes manifest the duality pairing between [[source forms]] and [[evolutionary vector fields]]
 
 $$
   \array{
@@ -359,7 +392,9 @@ $$
 
 * {#Olver93} [[Peter Olver]], _Applications of Lie groups to Differential equations_, Graduate Texts in Mathematics, Springer 1993
 
+* [[Igor Khavkine]], starting with p. 45 of _Characteristics, Conal Geometry and Causality in Locally Covariant Field Theory_ ([arXiv:1211.1914](https://arxiv.org/abs/1211.1914))
+
 [[!redirects evolutionary derivatives]]
 
 [[!redirects evolutionary derivative of field-dependent section]]
-[[!redirects evoolutionary derivatives of fiedl-dependent sections]]
+[[!redirects evoolutionary derivatives of field-dependent sections]]
