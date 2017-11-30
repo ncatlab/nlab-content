@@ -2,7 +2,7 @@
 
 Since an [[infinitesimal symmetry of a Lagrangian]] (def. \ref{SymmetriesAndConservedCurrents}) by definition changes the Lagrangian only up to a [[total spacetime derivative]], and since the [[Euler-Lagrange equation|Euler-Lagrange]] [[equations of motion]] by construction depend on the [[Lagrangian density]] only up to a [[total spacetime derivative]] (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}), it is plausible that and [[infinitesimal symmetry of the Lagrangian]] preserves the [[equations of motion]] (eq:EulerLagrangeEquationGeneral), hence the [[shell]] (eq:ProlongedShellInJetBundle). That this is indeed the case is the statement of prop. \ref{InfinitesimalSymmetriesOfLagrangianAreAlsoSymmetriesOfTheEquationsOfMotion} below. 
 
-To make the proof transparent, we now first introduce the concept of the _[[evolutionary derivative of a field-dependent section]]_ (def. \ref{FieldDependentDifferentialOperatorDerivative}) below and then observe that in terms of these the [[Euler-Lagrange derivative]] is in fact a [[derivation]] (prop. \ref{EulerLagrangeDerivativeIsDerivationViaAdjointFrechetDerivatives}).
+To make the proof transparent, we now first introduce the concept of the _[[evolutionary derivative]]_ (def. \ref{FieldDependentDifferentialOperatorDerivative}) below and then observe that in terms of these the [[Euler-Lagrange derivative]] is in fact a [[derivation]] (prop. \ref{EulerLagrangeDerivativeIsDerivationViaAdjointFrechetDerivatives}).
 
 +-- {: .num_defn #FieldDependentSections}
 ###### Definition
@@ -56,6 +56,9 @@ $$
 
 =--
 
+
+In ([Olver 93, section 5.1, p. 288](evolutionary+derivative#Olver93)) the field dependent sections of def. \ref{FieldDependentSections}, considered in [[local coordinates]], are referred to as [[tuples]] of _differential functions_.
+
 +-- {: .num_example #EvolutionaryVectorFieldsAsFieldDependentSections}
 ###### Example
 **([[source forms]] and [[evolutionary vector fields]] are field-dependent sections)**
@@ -64,11 +67,40 @@ For $E \overset{fb}{\to} \Sigma$ a [[field bundle]], write $T_\Sigma E$ for its 
 
 Then the field-dependent sections of these bundles according to def. \ref{FieldDependentSections} are identified as follows:
  
-* $\Gamma_{J^\infty_\Sigma(E)}(T_\Sigma E)$ is the space of [[evolutionary vector fields]] (def. \ref{EvolutionaryVectorField});
+* the space $\Gamma_{J^\infty_\Sigma(E)}(T_\Sigma E)$ contains the space of [[evolutionary vector fields]] $v$ (def. \ref{EvolutionaryVectorField}) as those bundle morphism which respect not just the projection to $\Sigma$ but also its factorization through $E$:
 
-* $\Gamma_{J^\infty_\Sigma(E)}( T^\ast_\Sigma E) \otimes \wedge^{p+1}_\Sigma(T^\ast \Sigma)$ is the space of [[source forms]] (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}).
+  $$
+    \left(
+      \array{
+        && T_\Sigma E
+        \\
+        & {}^{\mathllap{v}}\nearrow & \downarrow^{\mathrlap{tb_\Sigma}}
+        \\
+        J^\infty_\Sigma(E) &\underset{jb_{\infty,0}}{\longrightarrow}& E & \underset{fb}{\longrightarrow}& \Sigma
+      }
+    \right)
+    \;\in\;
+    \Gamma_{J^\infty_\Sigma(E)}(T_\Sigma E)
+  $$
 
-Notice that this makes manifest a duality pairing between [[source forms]] and [[evolutionary vector fields]]
+* $\Gamma_{J^\infty_\Sigma(E)}( T^\ast_\Sigma E) \otimes \wedge^{p+1}_\Sigma(T^\ast \Sigma)$ contains the space of [[source forms]] $E$ (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}) as those bundle morphisms which respect not just the projection to $\Sigma$ but also its factorization through $E$:
+
+  $$
+    \left(
+      \array{
+        && T^\ast_\Sigma E
+        \\
+        & {}^{E}\nearrow & \downarrow^{\mathrlap{ctb_\Sigma}}
+        \\
+        J^\infty_\Sigma(E) &\underset{jb_{\infty,0}}{\longrightarrow}& E & \underset{fb}{\longrightarrow}& \Sigma
+      }
+    \right)
+    \;\in\;
+    \Gamma_{J^\infty_\Sigma(E)}(T^\ast_\Sigma E)
+  $$
+
+
+This makes manifest the duality pairing between [[source forms]] and [[evolutionary vector fields]]
 
 $$
   \array{
@@ -147,7 +179,7 @@ $$
   \right)
 $$
 
-This makes manifest that $\mathrm{D}P$ may equivalently be regarded as a $J^\infty_\Sigma(E)$-dependent [[differential operator]] (def. \ref{DifferentialOperator}) from the [[vertical tangent bundle]] $T_\Sigma E$ (def. \ref{VerticalTangentBundle}) to $V$, namely a morphism of the form
+This makes manifest that $\mathrm{D}P$ may equivalently be regarded as a $J^\infty_\Sigma(E)$-dependent [[differential operator]] (def. \ref{DifferentialOperator}) from the [[vertical tangent bundle]] $T_\Sigma E$ (def. \ref{VerticalTangentBundle}) to $V$, namely a [[bundle homomorphism]] over $\Sigma$ of the form
 
 $$
   \mathrm{D}_P
@@ -170,6 +202,9 @@ $$
 $$
 
 =--
+
+
+([Olver 93, def. 5.24](evolutionary+derivative#Olver93))
 
 
 +-- {: .num_example #DifferentialOperatorDerivativeOfLagrangianFunction}
@@ -416,4 +451,22 @@ where in the last line we used that on the [[prolonged shell]] $\delta_{EL}L$ an
 
 
 =--
+
+
+In [[perturbative quantum field theory]] a _[[vacuum state]]_ is the information needed to turn a product of field [[observables]] such as $\mathbf{\Phi}^a(x) \Phi^b(y)$ into a [[function]] (or rather: [[generalized function]]/[[distribution]]) of the insertion points $x$ any $y$, namely the [[n-point function]] (here [[2-point function]], also called the _[[Hadamard propagator]]_)
+
+$$
+  \langle \mathbf{\Phi}^a(x) \mathbf{\Phi}^b(y)\rangle
+$$
+
+which may be regarded as the [[probability amplitude]] for a quantum in state $b$ at spacetime point $y$ to turn into a quantum in state $a$ at spacetime point $x$, _in the given state_ that the fields are in, which is in, which is defined thereby (see at _[[state in AQFT]]_).
+
+In the [[worldline formalism]] of field theoris these _[[propagators]]_ arise from a 1-dimensional [[field theory]] on the "[[worldline]]" of ([[virtual partical|virtual]]) [[particles]] running from $y$ to $x$.
+
+Now by the very definition of [[perturbative string theory]], these particles are replaced by [[strings]] whose dynamics is now encoded in a 2d field theory on the [[worldsheet]] of strings, specifically a [[2d superconformal field theory]] ([[2d SCFT]]). Hence now it is the _[[2d SCFT]]_ which defines the _[[vacuum state]]_ that the perturbative string theory is in.
+
+In practice full [[2d SCFTs]] are hard to construct, and often one considers them by [[perturbative quantum field theories|perturbation theory]] of a "[[sigma-model]]" which is defined by a [[spacetime]] manifold equipped with extra [[field (physics)|fields]] (e.g. the [[B-field]] etc.). It turns out that to low order these [[background field]] configurations that define [[sigma-model]] [[2d SCFTs]] are given by [[solutions]] to [[equations of motion]] of [[supergravity]] theories (e.g. [[type II supergravity]] for [[type II string theory]], etc.)
+
+Therefore often such [[supergravity]] solutions equipped with some extra data that makes them consistent CFT backgrounds are referred to as _[[]]_
+
 
