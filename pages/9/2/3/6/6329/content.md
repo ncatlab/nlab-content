@@ -34,7 +34,7 @@ The pictures are named after those physicists ([[Werner Heisenberg]], [[Erwin Sc
 
 ### With global time
 
-Let us assume a global notion of [[time]], say a [[fixed background]] [[spacetime]] which is [[globally hyperbolic spacetime|globally hyperbolic]], so that it admits a [[foliation]] into [[Cauchy surfaces]], and choose a [[time coordinate]] for this foliation.  The upshot of this is that each [[event]] occurs at a time $t$, and conversely we can speak of [[space]] at any time $t$ (at least within certain bounds).  Thus we may speak sensibly of either the state of the world at time $t$ or the value of some observable quantity at time $t$.
+Let us assume a global notion of [[time]], say a [[background field|fixed background]] [[spacetime]] which is [[globally hyperbolic spacetime|globally hyperbolic]], so that it admits a [[foliation]] into [[Cauchy surfaces]], and choose a [[time coordinate]] for this foliation.  The upshot of this is that each [[event]] occurs at a time $t$, and conversely we can speak of [[space]] at any time $t$ (at least within certain bounds).  Thus we may speak sensibly of either the state of the world at time $t$ or the value of some observable quantity at time $t$.
 
 Because this is a picture of [[dynamics]], states or observables (as appropriate to the picture) will vary through time.  We therefore have a [[time evolution]] operator $U(t,t')$ between any two times $t,t'$; actually, we need consider only $U(t) \coloneqq U(t,0)$, since $U(t,t') = U(t) \circ U(t')^{-1}$.
 
@@ -109,9 +109,13 @@ There are presentations of the Haag-Ruelle theory that are a little more in the 
 
 Historically, the terms 'Schr&#246;dinger picture' and 'Heisenberg picture' (at least) referred to *more* than what we discuss above; they referred to the entirety of the differences between Schr&#246;dinger\'s and Heisenberg\'s approaches to quantum mechanics.
 
-For example, these terms included also Schr&#246;dinger\'s use of typically [[wave]]-like functions as pure states (and correspondingly [[operators]] in the higher-type-theoretic sense as observables) vs Heisenberg\'s use of infinite-dimensional [[matrix|matrices]] as observables (and correspondingly [[infinite sequences]] as pure states).  This difference was rectified by [[John von Neumann|von Neumann]]\'s application of [[Hilbert space]] to the problem, showing that (if one suitably restricts the allowed functions and sequences and also identifies equivalent functions a bit) both approaches used Hilbert space (what we would now call the infinite-dimensional separable Hilbert space) as the space of pure states.
+For example, these terms included also Schr&#246;dinger\'s use of typically [[wave]]-like functions as pure states (and correspondingly [[operators]] in the higher-type-theoretic sense as observables) vs Heisenberg\'s use of infinite-dimensional [[matrix|matrices]] as observables (and correspondingly [[infinite sequences]] as pure states).  This difference was rectified by [[John von Neumann|von Neumann]]\'s application of [[Hilbert space]] to the problem, showing that (if one suitably restricts the allowed functions and sequences and also identifies equivalent functions a bit) both approaches used Hilbert space (what we would now call the infinite-dimensional  iseparable Hilbert space) as the space of pure states.
 
 This is entirely separate from the question of whether states or observables are taken to evolve with time.  Still, there is this connection: Schr&#246;dinger evolved states, and his approach was called 'wave mechanics' after his representation for states, while Heisenberg evolved observables, and his approach was called 'matrix mechanics' after his representation for observables.
+
+## Examples
+
+* The [[quantization]] of the [[hydrogen atom]] in the various pictures is reviewed in [Nanni 15](#hydrogen+atom#Nanni15), chpapter 6 for the Schr&#246;dinger picture and chapter 12 for the Heisenberg picture.
 
 ## Related concepts
 
