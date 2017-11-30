@@ -283,6 +283,8 @@ In the special case that the functional to be varied comes from a [[Lagrangian d
 
 * [[Euler-Lagrange equations]], [[shell]]
 
+* [[source form]], [[evolutionary vector field]], [[evolutionary derivative]]
+
 * [[de Donder-Weyl formalism]]
 
 * [[phase space]]
