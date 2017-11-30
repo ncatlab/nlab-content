@@ -19,13 +19,15 @@
 
 ### recalling the context ##
 
-The undertaking called [[string theory]] started out as _perturbative string theory_ where the idea was to encode [[spacetime]] [[physics]] in [[perturbation theory]] by an [[S-matrix]] that is obtained by a sum of the integrals of the [[correlators]] of a fixed 2-dimensional [[conformal field theory]] over the [[moduli space]]s of conformal structures on surfaces of all possible genera -- thought of as the [[second quantization]] of a [[string]] [[sigma-model]].
+The undertaking called [[string theory]] started out as _perturbative string theory_ where the idea was to encode [[spacetime]] [[physics]] in [[perturbation theory]] by an [[S-matrix]] that is obtained by a sum of the integrals of the [[correlators]] of a fixed [[2d superconformal field theory]] over the [[moduli spaces]] of conformal structures on surfaces of all possible genera -- thought of as the [[second quantization]] of a [[string]] [[sigma-model]].
 
 The [[S-matrix]] elements obtained this way from the [[string perturbation series]] could be seen to be approximated by an ordinary [[effective QFT]] (some flavor of [[supergravity]] coupled to [[gauge theory]] and [[fermion]]s) on [[target space]]. 
 
-Moreover, the precise choice of 2d [[CFT]] also encodes a [[Euler-Lagrange equation|classical solution]] of the effective background QFT, hence a [[vacuum]] of that theory.
+(The _first superstring revolution_ was given by the realization that this makes sense: the effective background theories obtained this way are indeed free of [[quantum anomaly|quantum anomalies]].)
 
-The _first superstring revolution_ was given by the realization that this makes sense: the effective background theories obtained this way are indeed free of [[quantum anomaly|quantum anomalies]].
+
+Hence it is the chocie of [[worldsheet]] [[2d SCFT]] which in [[perturbative string theory]] translates products of "field insertions" into [[scattering amplitudes]]. In [[perturbative AQFT]] it is the choice of [[vacuum state]] which does this, and therefore [[2d SCFTs]] are the [[perturbative string theory vacua]]. 
+
 
 ### narrowing in on the issue ##
 
