@@ -46,6 +46,8 @@ is the corresponding [[Lepage form]].
 
 * [[variational bicomplex]]
 
+* [[evolutionary vector field]], [[evolutionary derivative]]
+
 ## References
 
 * {#Zuckerman87} [[Gregg Zuckerman|G. J. Zuckerman]], _Action principles and global geometry_ , in Mathematical Aspects of String Theory, S. T. Yau (Ed.), World Scientific, Singapore, 1987, pp. 259&#8364;284. ([[ZuckermanVariation.pdf:file]]) 
