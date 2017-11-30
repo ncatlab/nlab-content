@@ -35,7 +35,7 @@ The [[classical model structure on topological spaces|classical homotopy theory 
 
 * _[[homotopy type theory|homotopy type theories]]_.
 
-The terminology _[[model category]]_ is short for "category of models of homotopy types". The idea here is to consider [[categories]] equipped with suitable [[stuff, structure, property|extra structure and properties]] that encodes the existence of [[homotopies]] between all [[morphisms]] and convient means to handle and control these, in particular a means to construct the corresonding [[homotopy category]].
+The terminology _[[model category]]_ is short for "category of models of homotopy types". The idea here is to consider [[categories]] equipped with suitable [[stuff, structure, property|extra structure and properties]] that encodes the existence of [[homotopies]] between all [[morphisms]] and convenient means to handle and control these, in particular a means to construct the corresonding [[homotopy category]].
 
 For a detailed introduction to homotopy theory from this perspective see at _[[Introduction to Homotopy Theory]]_. 
 
