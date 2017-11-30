@@ -361,14 +361,51 @@ $$
 
 =--
 
+
++-- {: .num_prop #EvolutionaryDerivativeOfEulerLagrangeFormIsFormallySelfAdjoint}
+###### Proposition
+**([[evolutionary derivative]] of [[Euler-Lagrange forms]] is [[formally self-adjoint differential operator|formally self-adjoint]])**
+
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) over [[Minkowski spacetime]] (def. \ref{MinkowskiSpacetime}) and regard the [[Euler-Lagrange derivative]]  
+
+$$
+  \delta_{EL}\mathbf{L}
+  \;=\;
+  \delta_{EL}L \wedge dvol_\Sigma
+$$
+
+(from prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}) as a field-dependent section of the [[vertical cotangent bundle]]
+
+$$
+  \delta_{EL}L
+  \;\in\;
+  \Gamma_{J^\infty_\Sigma(E)}(T^\ast_\Sigma E)
+$$
+
+as in example \ref{EvolutionaryVectorFieldsAsFieldDependentSections}. Then the corresponding [[evolutionary derivative]] field-dependent [[differential operator]] $D_{\delta_{EL}L}$ (def. \ref{FieldDependentDifferentialOperatorDerivative})  is [[formally self-adjoint differential operator|formally self-adjoint]] (def. \ref{FormallyAdjointDifferentialOperators}):
+
+$$
+  (D_{\delta_{EL}L})^\ast
+  \;=\;
+  D_{\delta_{EL}L}
+$$
+
+=--
+
+([Olver 93, theorem 5.92](evolutionary+derivative#Olver93))
+
+$\,$
+
+Now we may finally prove that an [[infinitesimal symmetry of the Lagrangian]] is also an infinitesimal symmetry of the [[Euler-Lagrange equations|Euler-Lagrange]] [[equations of motion]]:
+
 +-- {: .num_prop #InfinitesimalSymmetriesOfLagrangianAreAlsoSymmetriesOfTheEquationsOfMotion}
 ###### Proposition
 **([[infinitesimal symmetries of the Lagrangian]] are also [[infinitesimal symmetries]] of the [[equations of motion]])**
 
-Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]]. If an [[evolutionary vector field]] $v$ is an [[infinitesimal symmetry of the Lagrangian]] then the [[flow]] along its prolongation $\hat v$ preserves the [[prolonged shell]] $\mathcal{E}^\infty \hookrightarrow J^\infty_\Sigma(E)$ in that the [[Lie derivative]] of the [[Euler-Lagrange form]] $\delta_{EL}\mathbf{L}$ along $\hat v$ vanishes on $\mathcal{E}^\infty$:
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]]. If an [[evolutionary vector field]] $v$ is an [[infinitesimal symmetry of the Lagrangian]] then the [[flow]] along its prolongation $\hat v$ preserves the [[prolonged shell]] $\mathcal{E}^\infty \hookrightarrow J^\infty_\Sigma(E)$ (eq:ProlongedShellInJetBundle) in that the [[Lie derivative]] of the [[Euler-Lagrange form]] $\delta_{EL}\mathbf{L}$ along $\hat v$ vanishes on $\mathcal{E}^\infty$:
 
 $$
-  \mathcal{L}_{\hat v}\mathbf{L} = 0 \, mod\, im(d)
+  \mathcal{L}_{\hat v}\mathbf{L} = d(...)
   \phantom{AAA}
   \Rightarrow
   \phantom{AAA}
@@ -381,7 +418,39 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Notice that for any vector field $\hat v$ the [[Lie derivative]] $\mathcal{L}_{\hat v}$ of the [[Euler-Lagrange form]] $\delta_{EL}\mathbf{L} = \frac{\delta_{EL}\mathbf{L}}{\delta \phi^a} \delta \phi^a dvol_\Sigma$ differs from that of its component functions $\frac{\delta_{EL}\mathbf{L}}{\delta \phi^a} dvol_\Sigma$ by a term proportional to these component functions, which by definition vanishes on-shell. But the Lie derivative of the component functions is just their plain derivative. So it is sufficient to show that 
+Notice that for any vector field $\hat v$ the [[Lie derivative]] (prop. \ref{CartanHomotopyFormula})$\mathcal{L}_{\hat v}$ of the [[Euler-Lagrange form]] $\delta_{EL}\mathbf{L} = \frac{\delta_{EL}L}{\delta \phi^a} \delta \phi^a \wedge dvol_\Sigma$ differs from that of its component functions $\frac{\delta_{EL}L}{\delta \phi^a} dvol_\Sigma$ by a term proportional to these component functions, which by definition vanishes on-shell:
+
+$$
+  \mathcal{L}_{\hat v} \left( \frac{\delta_{EL} L}{\delta \phi^a} \delta \phi^a \wedge dvol_\Sigma \right)
+  \;=\;
+  \underset{
+    = \hat v\left( \frac{\delta_{EL}L}{\delta \phi^a} \right)
+  }{
+  \underbrace{
+  \left( 
+    \mathcal{L}_{\hat v}
+     \frac{\delta_{EL}L}{\delta \phi^a}
+  \right)
+  }
+  }
+  \delta \phi^a
+  \wedge
+  dvol_\Sigma
+  +
+  \underset{
+    = 0 \, \text{on} \, \mathcal{E}^\infty
+  }{
+  \underbrace{
+    \frac{\delta_{EL}L}{\delta \phi^a}
+  }
+  }
+    \left(
+    \mathcal{L}_{\hat v} \delta \phi^a
+    \right)
+    \wedge dvol_\Sigma
+$$
+
+ But the Lie derivative of the component functions is just their plain derivative. Therefore it is sufficient to show that 
 
 $$
   \hat v
@@ -394,16 +463,16 @@ $$
   \,.
 $$ 
 
-Now by [[Noether's theorem]] the condition $\mathcal{L}_{\hat v} = d \tilde J_{\hat v}$ implies that 
+Now by [[Noether's theorem|Noether's theorem I]] (prop. \ref{NoethersFirstTheorem}) the condition $\mathcal{L}_{\hat v} = d \tilde J_{\hat v}$ for an [[infinitesimal symmetry of the Lagrangian]] implies that  the contraction (def. \ref{ContractionOfFormsWithVectorFields}) of the [[Euler-Lagrange form]] with the corresponding [[evolutionary vector field]] is a [[total spacetime derivative]]:
 
 $$
-  \iota_{\hat v} \delta_{EL}\mathbf{L}
+  \iota_{\hat v} \, \delta_{EL}\mathbf{L}
   \;=\;
   d J_{\hat v}
   \,.
 $$
 
-Since the right hand side is horizontally exact, the [[Euler-Lagrange derivative]] applied to the right hand vanishes, hence
+Since the [[Euler-Lagrange derivative]] vanishes on [[total spacetime derivative]] (example \ref{TrivialLagrangianDensities}) also its application on the contraction on the left vanishes. But via example \ref{EvolutionaryVectorFieldsAsFieldDependentSections} that contraction is a pairing of field-dependent sections as in prop. \ref{EulerLagrangeDerivativeIsDerivationViaAdjointFrechetDerivatives}. Hence we use this proposition to compute:
 
 $$
   \begin{aligned}
@@ -429,7 +498,7 @@ $$
   \end{aligned}
 $$
 
-Here the first step is by prop. \ref{EulerLagrangeDerivativeIsDerivationViaAdjointFrechetDerivatives}, the second step is by ... and the third step is
+Here the first step is by prop. \ref{EulerLagrangeDerivativeIsDerivationViaAdjointFrechetDerivatives}, the second step is by prop. \ref{EvolutionaryDerivativeOfEulerLagrangeFormIsFormallySelfAdjoint} and the third step is
 (eq:FrechetDerivativeAsDifferentialOperatorEquality).
 
 Hence
@@ -452,21 +521,103 @@ where in the last line we used that on the [[prolonged shell]] $\delta_{EL}L$ an
 
 =--
 
+$\,$
 
-In [[perturbative quantum field theory]] a _[[vacuum state]]_ is the information needed to turn a product of field [[observables]] such as $\mathbf{\Phi}^a(x) \Phi^b(y)$ into a [[function]] (or rather: [[generalized function]]/[[distribution]]) of the insertion points $x$ any $y$, namely the [[n-point function]] (here [[2-point function]], also called the _[[Hadamard propagator]]_)
+$\,$
+
+**Claim**
+ {#claim}
+
++-- {: .num_prop #EvolutionaryDerivativeOfEulerLagrangeFormIsFormallySelfAdjoint}
+###### Proposition
+**([[evolutionary derivative]] of [[Euler-Lagrange forms]] is [[formally self-adjoint differential operator|formally self-adjoint]])**
+
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] over [[Minkowski spacetime]] and regard the [[Euler-Lagrange derivative]] 
 
 $$
-  \langle \mathbf{\Phi}^a(x) \mathbf{\Phi}^b(y)\rangle
+  \delta_{EL}\mathbf{L}
+  \;=\;
+  \delta_{EL}L \wedge dvol_\Sigma
 $$
 
-which may be regarded as the [[probability amplitude]] for a quantum in state $b$ at spacetime point $y$ to turn into a quantum in state $a$ at spacetime point $x$, _in the given state_ that the fields are in, which is in, which is defined thereby (see at _[[state in AQFT]]_).
+as a field-dependent section of the [[vertical cotangent bundle]]
 
-In the [[worldline formalism]] of field theoris these _[[propagators]]_ arise from a 1-dimensional [[field theory]] on the "[[worldline]]" of ([[virtual partical|virtual]]) [[particles]] running from $y$ to $x$.
+$$
+  \delta_{EL}L
+  \;\in\;
+  \Gamma_{J^\infty_\Sigma(E)}(T^\ast_\Sigma E)
+$$
 
-Now by the very definition of [[perturbative string theory]], these particles are replaced by [[strings]] whose dynamics is now encoded in a 2d field theory on the [[worldsheet]] of strings, specifically a [[2d superconformal field theory]] ([[2d SCFT]]). Hence now it is the _[[2d SCFT]]_ which defines the _[[vacuum state]]_ that the perturbative string theory is in.
+as in example \ref{EvolutionaryVectorFieldsAsFieldDependentSections}. Then the corresponding [[evolutionary derivative]] field-dependent [[differential operator]] $D_{\delta_{EL}L}$ (def. \ref{FieldDependentDifferentialOperatorDerivative})  is [[formally self-adjoint differential operator|formally self-adjoint]]:
 
-In practice full [[2d SCFTs]] are hard to construct, and often one considers them by [[perturbative quantum field theories|perturbation theory]] of a "[[sigma-model]]" which is defined by a [[spacetime]] manifold equipped with extra [[field (physics)|fields]] (e.g. the [[B-field]] etc.). It turns out that to low order these [[background field]] configurations that define [[sigma-model]] [[2d SCFTs]] are given by [[solutions]] to [[equations of motion]] of [[supergravity]] theories (e.g. [[type II supergravity]] for [[type II string theory]], etc.)
+$$
+  (D_{\delta_{EL}L})^\ast
+  \;=\;
+  D_{\delta_{EL}L}
+$$
 
-Therefore often such [[supergravity]] solutions equipped with some extra data that makes them consistent CFT backgrounds are referred to as _[[]]_
+=--
+
+([Olver 93, theorem 5.92](evolutionary+derivative#Olver93))
+
+$\,$
+
+To see this we need to consider
+
+$\,$
+
+$$
+  \begin{aligned}
+    w^b D(\delta_{EL}L)_{b}(v)
+    & =
+    w^b 
+    \left(
+      \frac{\partial}{\partial \phi^a}
+      \frac{
+         \delta_{EL}L
+      }{
+          \delta \phi^b
+      }
+    \right)
+    v^a
+    \;+\;
+    w^b
+    \left(
+      \frac{\partial}{\partial \phi^a_{,\mu}}
+      \frac{
+         \delta_{EL}L
+      }{
+          \delta \phi^b
+      }
+    \right)
+    \frac{d}{d x^\mu}
+    v^a
+    \;+\;
+    \cdots
+  \end{aligned}
+$$
+
+We need to see that as we throw over the $\frac{d}{d x^\mu}$ we have
+
+$$
+  \frac{d}{d x^\mu}
+    \left(
+      \frac{\partial}{\partial \phi^a_{,\mu}}
+      \frac{
+         \delta_{EL}L
+      }{
+          \delta \phi^b
+      }
+    \right)
+    \;=\;
+    0
+$$
+
+Hm, why is that??
+
+
+$\,$
+
+$\,$
 
 
