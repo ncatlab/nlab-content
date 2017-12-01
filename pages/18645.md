@@ -66,6 +66,7 @@ Alongside the theory we develop the concrete examples of the [[real scalar field
 | [[real scalar field]] |  expl. \ref{RealScalarFieldBundle} |  expl. \ref{LagrangianForFreeScalarFieldOnMinkowskiSpacetime} | expl. \ref{FreeScalarFieldEOM} |
 | [[Dirac field]] | expl. \ref{DiracFieldBundle}  | expl. \ref{LagrangianDensityForDiracField}  |  expl. \ref{EquationOfMotionOfDiracFieldIsDiracEquation}  |
 | [[electromagnetic field]] | expl. \ref{Electromagnetism} | expl. \ref{ElectromagnetismLagrangianDensity} | expl. \ref{ElectromagnetismEl}  |
+| [[Yang-Mills field]] | expl. \ref{YangMillsFieldOverMinkowski}, <br/> expl. \ref{YangMillsFieldInInstantonSector} | expl. \ref{YangMillsLagrangian}  | expl. \ref{YangMillsOnMinkowskiEl} |
 | [[B-field]] | expl. \ref{BField} | expl \ref{BFieldLagrangianDensity} | expl. \ref{EulerLagrangeFormBField} |
 
 $\,$
@@ -4170,7 +4171,7 @@ $$
   \,.
 $$
 
-This is called a field history for _[[Yang-Mills theory|Yang-Mills]] [[gauge theory]]_.
+This is called a [[field history]] for _[[Yang-Mills theory|Yang-Mills]] [[gauge theory]]_.
 
 For $\mathfrak{g} = \mathbb{R}$ is the [[line Lie algebra]], this reduces to the case of the [[electromagnetic field]] (example \ref{Electromagnetism}).
 
@@ -7428,7 +7429,7 @@ example \ref{YangMillsFieldOverMinkowski}, consider the functions on the [[jet b
 given by
 
 $$
-  D_\mu a_\nu^\alpha
+  D_{[\mu} a_{\nu]}^\alpha
    \;\coloneqq\;
   a^\alpha_{[\nu,\mu]}
   +
@@ -7450,7 +7451,7 @@ $$
   \begin{aligned}
     F_{\mu \nu}
      & \coloneqq
-    A^\ast(D_\mu a_n)
+    A^\ast(D_{[\mu} a_{\nu]})
     \\
     & =
     (d_A A)_{\mu \nu}
@@ -8426,7 +8427,7 @@ $$
 
 +-- {: .num_example #ElectromagnetismLagrangianDensity}
 ###### Example
-**([[local Lagrangian density]] for [[free field|free]] [[electromagnetism]] and [[Yang-Mills theory]])**
+**([[local Lagrangian density]] for [[free field|free]] [[electromagnetism]])**
 
 Consider the [[field bundle]] $T^\ast \Sigma \to \Sigma$ for the [[electromagnetic field]] on [[Minkowski spacetime]] from example \ref{Electromagnetism},
 i.e. the [[cotangent bundle]], which over Minkowski spacetime happens to be a [[trivial vector bundle]] of [[rank of a vector bundle|rank]]
@@ -8486,8 +8487,16 @@ $$
 
 Here $\star_\eta$ denotes the [[Hodge star operator]] of [[Minkowski spacetime]].
 
-More generally, for $\mathfrak{g}$ a [[Lie algebra]] equipped
-with a binary [[invariant polynomial]] $k$ and for $E = T^\ast \Sigma \otimes \mathfrak{g}$
+=--
+
+More generally: 
+
++-- {: .num_example #YangMillsLagrangian}
+###### Example
+**([[Lagrangian density]] for [[Yang-Mills theory]] on [[Minkowski spacetime]])**
+
+For $\mathfrak{g}$ a [[Lie algebra]] equipped
+with a binary non-degenratre [[invariant polynomial]] $k$ and for $E = T^\ast \Sigma \otimes \mathfrak{g}$
 the field bundle for [[Yang-Mills theory]] as in example \ref{YangMillsFieldOverMinkowski}
 then the Lagrangian density for [[vacuum]] $\mathfrak{g}$-[[Yang-Mills theory]] is
 
@@ -9580,6 +9589,36 @@ $$
 
 =--
 
+More generally:
+
+
++-- {: .num_example #YangMillsOnMinkowskiEl}
+###### Example
+**([[Euler-Lagrange form]] for [[Yang-Mills theory]] on [[Minkowski spacetime]])**
+
+Let $\mathfrak{g}$ be a [[Lie algebra]] equipped with a binary non-degenerate [[invariant polynomial]] $k$
+and consider the [[Lagrangian field theory]] $(E,\mathbf{L})$ of $(\mathfrak{g},k)$-[[Yang-Mills theory]] from example \ref{YangMillsLagrangian}.
+
+Its [[Euler-Lagrange form]] (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}) is
+
+$$
+  \begin{aligned}
+  \delta_{EL}\mathbf{L}
+  & =
+  D_\mu f^{\mu \nu \alpha}  k_{\alpha \beta}  \delta a_\nu^\beta \, dvol_\Sigma
+  \\
+  & \coloneqq
+  \left(
+    f^{\mu \nu \alpha}_{,\mu} + \tfrac{1}{2}\gamma^\alpha{}_{\beta \gamma} a_\mu^\beta f^{\mu \nu \gamma}
+  \right)
+  k_{\alpha \beta}
+  \,\delta a_\mu^\beta
+  \, dvol_\Sigma
+  \,.
+  \end{aligned}
+$$
+
+=--
 
 
 +-- {: .num_example #EulerLagrangeFormBField}
@@ -10821,7 +10860,7 @@ Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangian
 Then
 
 1. an _[[infinitesimal symmetry of the Lagrangian]]_ is an [[evolutionary vector field]] $v$ (def. \ref{EvolutionaryVectorField})
-   such that the [[Lie derivative]] $\mathbf{L}_{\hat v} \mathbf{L}$ of the [[Lagrangian density]] along its
+   such that the [[Lie derivative]] of the [[Lagrangian density]] along its
    prolongation $\hat v$ (prop. \ref{EvolutionaryVectorFieldProlongation}) is a [[total spacetime derivative]]:
 
    $$
@@ -10893,7 +10932,7 @@ $$
   d(\underset{= J_{\hat v}}{\underbrace{\tilde J_{\hat v} - \iota_{\hat v} \Theta_{BFV}}}) = \iota_{\hat v} \delta_{EL}\mathbf{L}
 $$
 
-Since, by definition of the [[shell]] $\mathcal{E}$, the differential form on the right 
+Since, by definition of the [[shell]] $\mathcal{E}$, the differential form on the right
 vanishes on $\mathcal{E}$ this yields the claim.
 
 =--
@@ -20720,7 +20759,7 @@ sgn(k_0)
 \,.
 $$
 
-This means that the convolution product is the smearing of the mass shell by $\widehat b(k)e^{i k_\u a^\mu}$.
+This means that the convolution product is the smearing of the mass shell by $\widehat b(k)e^{i k_\mu a^\mu}$.
 
 Since the mass shell asymptotes to the light cone, and since $e^{i k_\mu a^\mu} = 1$ for $k$ on the light cone (given that $a$ is on the light cone), this implies the claim.
 
@@ -21030,13 +21069,13 @@ $$
   \Gamma_E^{ev}( T_\Sigma E )
 $$
 
-by smooth coefficient functions $\kappa^{a b}$ 
+by smooth coefficient functions $\kappa^{a b}$
 
 $$
   \kappa^{[a b]} \;\in\; \Omega^{0,0}_\Sigma(E)
 $$
 
-such that 
+such that
 
 1. each $\kappa^{a b}$ has compact spacetime support (def. \ref{SpacetimeSupport})
 
@@ -21075,17 +21114,17 @@ $$
   \end{aligned}
 $$
 
-Here the first steps are just recalling those in the proof of [[Noether's theorem|Noether's theorem I]] 
+Here the first steps are just recalling those in the proof of [[Noether's theorem|Noether's theorem I]]
 (prop. \ref{NoethersFirstTheorem})
-while the last step follows with the skew-symmetry of $\kappa$. 
+while the last step follows with the skew-symmetry of $\kappa$.
 
-Notice that this means that 
+Notice that this means that
 
 1. the [[Noether current]] (eq:NoetherCurrent) vanishes: $J_{\hat v} = 0$;
 
-1. the infinitesimal symmetry vanishes [[on-shell]] (eq:InclusionOfOnShellSpaceOfFieldHistories): $\hat v \vert_{\mathcal{E}} = 0$. 
+1. the infinitesimal symmetry vanishes [[on-shell]] (eq:InclusionOfOnShellSpaceOfFieldHistories): $\hat v \vert_{\mathcal{E}} = 0$.
 
-Therefore these implicit infinitesimal gauge symmetries 
+Therefore these implicit infinitesimal gauge symmetries
 are called the _trivial infinitesimal gauge transformations_.
 
 =--
@@ -21123,6 +21162,11 @@ actual Cauchy surface.
 
 =--
 
+$\,$
+
+Infinitesimal gauge symmetries typically form spring
+
+$\,$
 
 After these generalities on implicit [[infinitesimal gauge symmetries]] we turn attention to a more
 structured special class of them. To that end, recall that an [[evolutionary vector field]] (def. \ref{EvolutionaryVectorField})
@@ -21140,7 +21184,7 @@ $$
   }
 $$
 
-and that this is an [[infinitesimal symmetry of the Lagrangian]] (def. \ref{SymmetriesAndConservedCurrents}) if $\iota_v \delta_{EL}\mathbf{L}$ is horizontally exact.
+and that this is an [[infinitesimal symmetry of the Lagrangian]] (def. \ref{SymmetriesAndConservedCurrents}) if $\iota_{v} \delta_{EL}\mathbf{L}$ is horizontally exact.
 
 We now parameterize such morphisms by another bundle:
 
