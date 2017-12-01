@@ -28,7 +28,7 @@
 
 For [[central charge]] 15 this is the [[worldsheet]] [[theory (physics)|theory]] of the [[superstring]].
 
-May be regarded as a "[[2-spectral triple]]" (see there for more), the 2-dimensional generalization of [[spectral triples]] describing the quantum mechnanics of [[spinning particles]] (super-particles).
+May be regarded as a "[[2-spectral triple]]" (see there for more), the 2-dimensional generalization of [[spectral triples]] describing the quantum mechanics of [[spinning particles]] (super-particles).
 
 ## Examples
 
