@@ -60,7 +60,7 @@ the objects of $Int(\mathcal{C})$ are pairs $(A^+, A^-)$ of objects of $\mathcal
 
 ### Relation to star-autonomous categories
 
-A compact closed category is a [[star-autonomous category]]: the [[tensor unit]] is a [[dualizing object]].
+A compact closed category is a [[star-autonomous category]]: the [[tensor unit]] is a [[dualizing object]]. Thus it is also an [[mix rule|isomix]] category.
 
 ## Examples
 
