@@ -10820,20 +10820,20 @@ Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangian
 
 Then
 
-1. an _[[infinitesimal symmetry of the Lagrangian]]_ is a variation $v$ (def. \ref{Variation})
-   which arises as the prolongation $\hat v$ (prop. \ref{EvolutionaryVectorFieldProlongation})
-   of  an [[evolutionary vector field]] $v$ (def. \ref{EvolutionaryVectorField}) such that the [[Lie derivative]] $\mathcal{L}_v$ of the Lagrangian density along $\hat v$ is a [[total derivative|total spacetime derivative]]
+1. an _[[infinitesimal symmetry of the Lagrangian]]_ is an [[evolutionary vector field]] $v$ (def. \ref{EvolutionaryVectorField})
+   such that the [[Lie derivative]] $\mathbf{L}_{\hat v} \mathbf{L}$ of the [[Lagrangian density]] along its
+   prolongation $\hat v$ (prop. \ref{EvolutionaryVectorFieldProlongation}) is a [[total spacetime derivative]]:
 
    $$
-     \mathcal{L}_v \mathbf{L} = d \tilde J_v
+     \mathcal{L}_{\hat v} \mathbf{L} \;=\; d \tilde J_{\hat v}
    $$
 
 
-1. an _[[on-shell]] [[conserved current]]_ is a horizontal $p$-form $J \in \Omega^{p,0}_\Sigma(E)$
-   whose [[total derivative|total spacetime derivative]] vanishes on the prolonged [[shell]] (eq:ShellInJetBundle)
+1. an _[[on-shell]] [[conserved current]]_ is a horizontal $p$-form $J \in \Omega^{p,0}_\Sigma(E)$ (def. \ref{VariationalBicomplexOnSecondOrderJetBundleOverTrivialVectorBundleOverMinkowskiSpacetime})
+   whose [[total derivative|total spacetime derivative]] vanishes on the [[prolonged shell]] (eq:ShellInJetBundle)
 
    $$
-     d J\vert_{\mathcal{E}^\infty} = 0
+     d J\vert_{\mathcal{E}^\infty} \;=\; 0
      \,.
    $$
 
@@ -10849,10 +10849,11 @@ Then
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}).
 
 If $v$ is an [[infinitesimal symmetry of the Lagrangian]] (def. \ref{SymmetriesAndConservedCurrents})
-with $\mathcal{L}_v \mathbf{L} = d \tilde J_v$, then
+with $\mathcal{L}_{\hat v} \mathbf{L} = d \tilde J_{\hat v}$, then
 
 $$
-  J_v \coloneqq \tilde J_v - \iota_v \Theta_{BFV}
+  \label{NoetherCurrent}
+  J_{\hat v} \coloneqq \tilde J_{\hat v} - \iota_{\hat v} \Theta_{BFV}
 $$
 
 is an [[on-shell]] [[conserved current]] (def. \ref{SymmetriesAndConservedCurrents}), for $\Theta_{BFV}$
@@ -10871,29 +10872,29 @@ we may re-express the defining equation for the symmetry as follows:
 
 $$
   \begin{aligned}
-    d \tilde J_v
+    d \tilde J_{\hat v}
     & =
-    \mathcal{L}_v \mathbf{L}
+    \mathcal{L}_{\hat v} \mathbf{L}
     \\
     & =
-    \iota_v \underset{= \delta_{EL}\mathbf{L} - d \Theta_{BFV}}{\underbrace{\mathbf{d} \mathbf{L}}}
+    \iota_{\hat v} \underset{= \delta_{EL}\mathbf{L} - d \Theta_{BFV}}{\underbrace{\mathbf{d} \mathbf{L}}}
     +
     \mathbf{d} \underset{= 0}{\underbrace{\iota_v \mathbf{L}}}
     \\
     & =
-    \iota_v \delta_{EL} \mathbf{L}
-    + d \iota_v \Theta_{BFV}
+    \iota_{\hat v} \delta_{EL} \mathbf{L}
+    + d \iota_{\hat v} \Theta_{BFV}
   \end{aligned}
 $$
 
 which is equivalent to
 
 $$
-  d(\underset{= J_v}{\underbrace{\tilde J_v - \iota_v \Theta_{BFV}}}) = \iota_v \delta_{EL}\mathbf{L}
+  d(\underset{= J_{\hat v}}{\underbrace{\tilde J_{\hat v} - \iota_{\hat v} \Theta_{BFV}}}) = \iota_{\hat v} \delta_{EL}\mathbf{L}
 $$
 
-Since, by definition of the [[shell]] $\mathcal{E}$, the form $\frac{\delta_{EL} \mathbf{L}}{\delta v}$ vanishes on $\mathcal{E}$
-this yields the claim.
+Since, by definition of the [[shell]] $\mathcal{E}$, the differential form on the right 
+vanishes on $\mathcal{E}$ this yields the claim.
 
 =--
 
@@ -11470,7 +11471,7 @@ $$
 
 =--
 
-([Olver 93, theorem 5.92](evolutionary+derivative#Olver93)) The following proof is due to [[Igor Khavkine]]. 
+([Olver 93, theorem 5.92](evolutionary+derivative#Olver93)) The following proof is due to [[Igor Khavkine]].
 
 +-- {: .proof}
 ###### Proof
@@ -11520,7 +11521,7 @@ $$
   \,,
 $$
 
-by inspection of the definition of the [[evolutionary derivative]] (def. \ref{FieldDependentDifferentialOperatorDerivative}). 
+by inspection of the definition of the [[evolutionary derivative]] (def. \ref{FieldDependentDifferentialOperatorDerivative}).
 Moreover, their contraction into the differential form on the right is
 
 $$
@@ -16456,7 +16457,7 @@ We have moreover seen that the [[Poisson bracket]] on the [[covariant phase spac
 [[free field theory]] with [[Green hyperbolic differential equation|Green hyperbolic]] [[equations of motion]]
 -- the [[Peierls-Poisson bracket]] --
 is determined by the [[integral kernel]] of the _[[causal Green function]]_ (prop. \ref{PPeierlsBracket}).
-Under the identification of linear of-shell observables with off-shell observables
+Under the identification of linear on-shell observables with off-shell observables
 that are [[generalized solution of a PDE|generalized solutions]] to the [[equations of motion]] (theorem \ref{LinearObservablesForGreeFreeFieldTheoryAreDistributionalSolutionsToTheEquationsOfMotion}) the convolution with this [[integral kernel]]
 may be understood as _propagating_ the values of an off-shell observable through [[spacetime]],
 such as to then compare it with any other observable at any spacetime point (prop. \ref{PPeierlsBracket}).
@@ -20982,6 +20983,23 @@ then an _implicit [[infinitesimal gauge symmetry]]_ is an [[infinitesimal symmet
 
 =--
 
++-- {: .num_remark #ImplicitGaugeTransformationTerminology}
+###### Remark
+**(terminology)**
+
+We say "implicit" in def. \ref{ImplicitInfinitesimalGaugeSymmetry} in order to distinguish from their "explicit" incarnations
+[[action Lie algebroid|acting]] on [[field (physics)|fields]]:
+the morphisms in the [[action Lie algebroid]] whose [[Chevalley-Eilenberg algebra]]
+is the _[[BRST complex]]_ (example \ref{LocalOffShellBRSTComplex} below).
+
+Since the point of [[quantization]] of [[gauge field theory]] via [[causal perturbation theory]]
+is that it does _not apply_ as long as there are non-trivial implicit infinitesimal gauge symmetries
+present (prop. \ref{NonTrivialImplicitInfinitesimalGaugeSymmetriesPbstructExistenceOfCauchySurfaces} below),
+but only applies once all implicit infinitesimal
+gauge symmetries have been made explicit (by the [[BV-BRST complex]]) the distinction is relevant.
+
+=--
+
 
 There always exist "trivial" implicit infinitesimal gauge transformations:
 
@@ -20989,80 +21007,92 @@ There always exist "trivial" implicit infinitesimal gauge transformations:
 ###### Example
 **(trivial implicit [[infinitesimal gauge symmetries]])**
 
-Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}).
-
-Then every [[evolutionary vector field]] (def. \ref{EvolutionaryVectorField}) of the special form
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
+over [[Minkowski spacetime]] (def. \ref{MinkowskiSpacetime}), so that the [[Lagrangian density]]
+is canonically of the form
 
 $$
-  \epsilon
+  \mathbf{L} = L \, dvol_\Sigma
+$$
+
+with [[Lagrangian function]] $L \in \Omega^{0,0}_\Sigma(E) = C^\infty(J^\infty_\Sigma(E))$ a [[smooth function]] of the [[jet bundle]] (characterized by prop. \ref{JetBundleIsLocallyProManifold}).
+
+Then every [[evolutionary vector field]] (def. \ref{EvolutionaryVectorField}) whose [[coefficients]]
+which is proportional to the [[Euler-Lagrange derivative]] (eq:EulerLagrangeEquationGeneral) of the [[Lagrangian function]] $L$
+
+$$
+  v
+  \;
     \coloneqq
-  \frac{\delta L }{\delta \phi^a} \kappa^{[a b]} \partial_{\phi^a}
+  \;
+  \frac{\delta_{EL} L }{\delta \phi^a} \kappa^{[a b]} \, \partial_{\phi^a}
   \;\in\;
   \Gamma_E^{ev}( T_\Sigma E )
 $$
 
-for a collection of smooth functions with compact spacetimes support
+by smooth coefficient functions $\kappa^{a b}$ 
 
 $$
-  (\kappa^{[a b]} \in \Omega^{0,0}_\Sigma(E))
-  \;\;\;\;
-  \in \Omega^{0,0}_{\Sigma,cp}(E)
+  \kappa^{[a b]} \;\in\; \Omega^{0,0}_\Sigma(E)
 $$
 
-which is skew-symmetric in its indices ($\kappa^{[a b]} = - \kappa^{[b a]}$) is an
-implicit infinitesimal gauge symmetry (def. \ref{ImplicitInfinitesimalGaugeSymmetry}).
+such that 
 
-This is so for a "trivial reason" namely just that skew symmetry:
+1. each $\kappa^{a b}$ has compact spacetime support (def. \ref{SpacetimeSupport})
+
+1. $\kappa$ is skew-symmetric in its indices: $\kappa^{[a b]} = - \kappa^{[b a]}$
+
+is an implicit infinitesimal gauge symmetry (def. \ref{ImplicitInfinitesimalGaugeSymmetry}).
+
+This is so for a "trivial reason" namely due to that that skew symmetry:
 
 $$
-  \iota_\epsilon \delta_{EL} \mathbf{L}
-  =
-  \underset{= 0}{
-  \underbrace{
-   \left( \frac{\delta L }{\delta \phi^a} \right)
-   \left( \frac{\delta L }{\delta \phi^b} \right)
-   \kappa^{[a b]}
-  }
-  }
-  \,
-  dvol_\Sigma
+  \begin{aligned}
+    \mathcal{L}_{\hat v} \mathbf{L}
+    & =
+    \iota_{\hat v} \delta \mathbf{L}
+    \\
+    &=
+    \iota_{\hat v} ( \delta_{EL}\mathbf{L} - d \Theta_{BFV} )
+    \\
+    & =
+    \iota_\epsilon \frac{\delta_{EL}L}{\delta \phi^a} \delta \phi^a + d \iota_{\hat v}\Theta_{BFV}
+    \\
+    & =
+    \underset{= 0}{
+    \underbrace{
+     \left( \frac{\delta_{EL} L }{\delta \phi^a} \right)
+     \left( \frac{\delta_{EL} L }{\delta \phi^b} \right)
+     \kappa^{[a b]}
+    }
+    }
+    \,
+    dvol_\Sigma
+    \;+\; d \iota_{\hat v} \Theta_{BFV}
+    \\
+    & =
+    d \iota_{\hat v} \Theta_{BFV}
+  \end{aligned}
 $$
 
-These are called the _trivial infinitesimal gauge transformation_.
+Here the first steps are just recalling those in the proof of [[Noether's theorem|Noether's theorem I]] 
+(prop. \ref{NoethersFirstTheorem})
+while the last step follows with the skew-symmetry of $\kappa$. 
 
-Moreover, by prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime} the [[action]] of
-these implicit infinitesimal gauge symmetries  $\epsilon$ vanishes [[on-shell]] (def. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime})
-up to a [[total derivative|total horizontal derivative]] and hence indeed
-act trivially on on-shell local observables.
+Notice that this means that 
 
+1. the [[Noether current]] (eq:NoetherCurrent) vanishes: $J_{\hat v} = 0$;
+
+1. the infinitesimal symmetry vanishes [[on-shell]] (eq:InclusionOfOnShellSpaceOfFieldHistories): $\hat v \vert_{\mathcal{E}} = 0$. 
+
+Therefore these implicit infinitesimal gauge symmetries 
+are called the _trivial infinitesimal gauge transformations_.
 
 =--
 
+(e.g. [Henneaux 90, section 2.5](BRST+complex#Henneaux90))
 
 
-+-- {: .num_remark #ImplicitGaugeTransformationTerminology}
-###### Remark
-**(terminology)**
-
-The literature on the [[variational bicomplex]] knows a more refined concept
-of infinitesimal gauge transformations than the "implicit" infinitesimal gauge transformations of
-def. \ref{ImplicitInfinitesimalGaugeSymmetry}, namely in terms of [[differential operators]]
-taking values in infinitesimal symmetries of the Lagrangian.
-But for the purpose of constructing the [[covariant phase space]] of a [[gauge theory]],
-def. \ref{ImplicitInfinitesimalGaugeSymmetry} is what needs to be considered (prop. \ref{NonTrivialImplicitInfinitesimalGaugeSymmetriesPbstructExistenceOfCauchySurfaces} below).
-
-We do say "implicit" here to distinguish from their "explicit" incarnations
-[[action Lie algebroid|acting]] on [[field (physics)|fields]]:
-the morphisms in the [[action Lie algebroid]] whose [[Chevalley-Eilenberg algebra]]
-is the _[[BRST complex]]_ (example \ref{LocalOffShellBRSTComplex} below).
-
-Since the point of quantization of [[gauge field theory]] via [[causal perturbation theory]]
-is that it does _not apply_ as long as there are non-trivial implicit infinitesimal gauge symmetries
-present (prop. \ref{NonTrivialImplicitInfinitesimalGaugeSymmetriesPbstructExistenceOfCauchySurfaces} below),
-but only applies once all implicit infinitesimal
-gauge symmetries have been made explicit (by the [[BV-BRST complex]]) the distinction is important.
-
-=--
 
 
 
