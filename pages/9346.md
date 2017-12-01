@@ -329,7 +329,7 @@ Similarly, the standard [[sigma-model]] [[worldsheet]] [[action functional]] of 
 ### What is a string vacuum?
  {#WhatIsAStringVacuum}
 
-In [[perturbative quantum field theory]] a _[[vacuum state]]_ is the information needed to turn a product of field [[observables]] such as $\mathbf{\Phi}^a(x) \Phi^b(y)$ into a [[function]] (or rather: [[generalized function]]/[[distribution]]) of the insertion points $x$ any $y$, namely the [[n-point function]] (here [[2-point function]], also called the _[[Hadamard propagator]]_)
+In [[perturbative quantum field theory]] a _[[vacuum state]]_ is the information needed to turn a product of field [[observables]] such as $\mathbf{\Phi}^a(x) \mathbf{\Phi}^b(y)$ into a [[function]] (or rather: [[generalized function]]/[[distribution]]) of the insertion points $x$ any $y$, namely the [[n-point function]] (here [[2-point function]], also called the _[[Hadamard propagator]]_)
 
 $$
   \langle \mathbf{\Phi}^a(x) \mathbf{\Phi}^b(y)\rangle
@@ -337,7 +337,7 @@ $$
 
 which may be regarded as the [[probability amplitude]] for a quantum in state $b$ at spacetime point $y$ to turn into a quantum in state $a$ at spacetime point $x$, _in the given state_ that the fields are in, which is in, which is defined thereby (see at _[[state in AQFT]]_).
 
-In the [[worldline formalism]] of field theoris these _[[propagators]]_ arise from a 1-dimensional [[field theory]] on the "[[worldline]]" of ([[virtual particle|virtual]]) [[particles]] running from $y$ to $x$.
+In the [[worldline formalism]] of field theories these _[[propagators]]_ arise from a 1-dimensional [[field theory]] on the "[[worldline]]" of ([[virtual particle|virtual]]) [[particles]] running from $y$ to $x$.
 
 Now by the very definition of [[perturbative string theory]], these particles are replaced by [[strings]] whose dynamics is now encoded in a 2d field theory on the [[worldsheet]] of strings, specifically a [[2d superconformal field theory]] ([[2d SCFT]]) of [[central charge]] 15. Hence now it is the _[[2d SCFT]]_ which defines the _[[vacuum state]]_ that the perturbative string theory is in. This is then called a _[[perturbative string theory vacuum]]_.
 
