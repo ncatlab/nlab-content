@@ -24,6 +24,7 @@
 {: toc}
 
 ## Idea
+ {#Idea}
 
 In [[physics]], a _[[state]]_ $\langle - \rangle$ is the information that allows to  assign to each [[observable]] $A$ the [[expectation value]] $\langle A\rangle$ that this observable has when the [[physical system]] is assumed to be in that state.
 
