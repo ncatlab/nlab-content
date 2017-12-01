@@ -335,7 +335,7 @@ $$
   \langle \mathbf{\Phi}^a(x) \mathbf{\Phi}^b(y)\rangle
 $$
 
-which may be regarded as the [[probability amplitude]] for a quantum in state $b$ at spacetime point $y$ to turn into a quantum in state $a$ at spacetime point $x$, _in the given state_ that the fields are in, which is in, which is defined thereby (see at _[[state in AQFT]]_).
+which may be regarded as the [[probability amplitude]] for a quantum in state $b$ at spacetime point $y$ to turn into a quantum in state $a$ at spacetime point $x$, _in the given state_ that the fields are in, which is defined thereby (see at _[[state in AQFT]]_).
 
 In the [[worldline formalism]] of field theories these _[[propagators]]_ arise from a 1-dimensional [[field theory]] on the "[[worldline]]" of ([[virtual particle|virtual]]) [[particles]] running from $y$ to $x$.
 
