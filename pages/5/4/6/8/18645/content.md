@@ -4171,7 +4171,8 @@ $$
   \,.
 $$
 
-This is called a [[field history]] for _[[Yang-Mills theory|Yang-Mills]] [[gauge theory]]_.
+This is called a [[field history]] for _[[Yang-Mills theory|Yang-Mills]] [[gauge theory]]_
+(at least if $\mathfrak{g}$ is a _[[semisimple Lie algebra]]_, see example \ref{YangMillsLagrangian} below).
 
 For $\mathfrak{g} = \mathbb{R}$ is the [[line Lie algebra]], this reduces to the case of the [[electromagnetic field]] (example \ref{Electromagnetism}).
 
@@ -7424,23 +7425,38 @@ $$
   E \coloneqq T^\ast \Sigma \otimes \mathfrak{g}
 $$
 
-the [[field bundle]] for [[Yang-Mills theory]] from
-example \ref{YangMillsFieldOverMinkowski}, consider the functions on the [[jet bundle]]
-given by
+the [[field bundle]] for [[Yang-Mills theory]] from example \ref{YangMillsFieldOverMinkowski}, consider the functions
 
 $$
-  D_{[\mu} a_{\nu]}^\alpha
-   \;\coloneqq\;
-  a^\alpha_{[\nu,\mu]}
-  +
-  \tfrac{1}{2}
-    \gamma^{\alpha}{}_{\beta \gamma}
-    a^\beta_{[\mu} a^\gamma_{\nu]}
+  f^\alpha_{\mu \nu}
+  \;\in \;
+  \Omega^{0,0}_\Sigma(E)
+  =
+  C^\infty(J^\infty_\Sigma(E))
+$$
+
+on the [[jet bundle]] given by
+
+$$
+  \label{YangMillsJetFieldStrengthMinkowski}
+  \begin{aligned}
+    f^\alpha_{\mu \nu}
+    & \coloneqq
+    a^\alpha_{[\nu,\mu]}
+    +
+    \tfrac{1}{2}
+      \gamma^{\alpha}{}_{\beta \gamma}
+      a^\beta_{[\mu} a^\gamma_{\nu]}
+  \end{aligned}
 $$
 
 where $(\gamma^\alpha{}_{\beta \gamma})$ are the structure constants of the Lie algebra as in (eq:LieAlgebraStructureConstants),
 and where the square brackets around the indices denote anti-symmetrization.
-For $\mathfrak{g} = \mathbb{R}$ the [[line Lie algebra]] this reduces to the universal [[Faraday tensor]] (eq:FaradayTensorJet) for
+
+We may call this the _universal [[Yang-Mills theory|Yang-Mills]] [[field strength]]_, being the
+_[[covariant exterior derivative]]_ of the universal Yang-Mills field history.
+
+For $\mathfrak{g} = \mathbb{R}$  the [[line Lie algebra]] and $k$ the canonical [[inner product]] on $\mathbb{R}$ the expression (eq:YangMillsJetFieldStrengthMinkowski) reduces to the universal [[Faraday tensor]] (eq:FaradayTensorJet) for
 the [[electromagnetic field]] (example \ref{JetFaraday}).
 
 For $A \in \Gamma_\Sigma(T^\ast \Sigma \otimes \mathfrak{g}) = \Omega^1(\Sigma,\mathfrak{g})$ a field history of
@@ -8489,27 +8505,46 @@ Here $\star_\eta$ denotes the [[Hodge star operator]] of [[Minkowski spacetime]]
 
 =--
 
-More generally: 
+More generally:
 
 +-- {: .num_example #YangMillsLagrangian}
 ###### Example
 **([[Lagrangian density]] for [[Yang-Mills theory]] on [[Minkowski spacetime]])**
 
-For $\mathfrak{g}$ a [[Lie algebra]] equipped
-with a binary non-degenratre [[invariant polynomial]] $k$ and for $E = T^\ast \Sigma \otimes \mathfrak{g}$
-the field bundle for [[Yang-Mills theory]] as in example \ref{YangMillsFieldOverMinkowski}
-then the Lagrangian density for [[vacuum]] $\mathfrak{g}$-[[Yang-Mills theory]] is
+Let $\mathfrak{g}$ be a [[finite number|finite]] [[dimension|dimensional]] [[Lie algebra]] which is [[semisimple Lie algebra|semisimple]]. This means that the [[Killing form]] [[invariant polynomial]]
+
+$$
+  k \colon \mathfrak{g} \otimes \mathfrak{g} \longrightarrow \mathbb{R}
+$$
+
+is a non-degenerate [[bilinear form]]. Examples include the [[special unitary Lie algebras]] $\mathfrak{so}(n)$.
+
+Then for $E = T^\ast \Sigma \otimes \mathfrak{g}$
+the [[field bundle]] for [[Yang-Mills theory]] as in example \ref{YangMillsFieldOverMinkowski},
+the [[Lagrangian density]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) $\mathfrak{g}$-[[Yang-Mills theory]] on [[Minkowski spacetime]] is
 
 $$
   \label{YangMillsLagrangian}
   \mathbf{L}
     \;\coloneqq\;
   \tfrac{1}{2}
-  k_{\alpha \beta} f^\alpha_{\mu \nu} f^{\alpha \mu \nu} dvol_\Sigma
+  k_{\alpha \beta} f^\alpha_{\mu \nu} f^{\beta \mu \nu} dvol_\Sigma
   \;\in\;
   \Omega^{p+1,0}_\Sigma(T^\ast \Sigma)
   \,,
 $$
+
+where
+
+$$
+  f^\alpha_{\mu \nu}
+  \;=\;
+  D_{[\mu} a_{\nu]}^\alpha
+  \;\in\;
+  \Omega^{0,0}_\Sigma(E)
+$$
+
+is the universal [[Yang-Mills theory|Yang-Mills]] [[field strength]] (eq:YangMillsJetFieldStrengthMinkowski).
 
 =--
 
@@ -8749,7 +8784,7 @@ $$
    \delta_{EL} \;\colon\; \Omega^{p+1,0}_{\Sigma}(E) \longrightarrow \Omega^{p+1,0}_{\Sigma}(E) \wedge \delta \Omega^{0,0}_{\Sigma}(E)
 $$
 
-thus defined is called the _[[Euler-Lagrange operator]]_ and is explicitly given by the _[[Euler-Lagrange derivative]]_
+thus defined is called the _[[Euler-Lagrange operator]]_ and is explicitly given by the _[[Euler-Lagrange derivative]]_:
 
 $$
   \label{EulerLagrangeEquationGeneral}
@@ -9596,8 +9631,8 @@ More generally:
 ###### Example
 **([[Euler-Lagrange form]] for [[Yang-Mills theory]] on [[Minkowski spacetime]])**
 
-Let $\mathfrak{g}$ be a [[Lie algebra]] equipped with a binary non-degenerate [[invariant polynomial]] $k$
-and consider the [[Lagrangian field theory]] $(E,\mathbf{L})$ of $(\mathfrak{g},k)$-[[Yang-Mills theory]] from example \ref{YangMillsLagrangian}.
+Let $\mathfrak{g}$ be a [[semisimple Lie algebra]]
+and consider the [[Lagrangian field theory]] $(E,\mathbf{L})$ of $\mathfrak{g}$-[[Yang-Mills theory]] from example \ref{YangMillsLagrangian}.
 
 Its [[Euler-Lagrange form]] (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}) is
 
@@ -9609,14 +9644,96 @@ $$
   \\
   & \coloneqq
   \left(
-    f^{\mu \nu \alpha}_{,\mu} + \tfrac{1}{2}\gamma^\alpha{}_{\beta \gamma} a_\mu^\beta f^{\mu \nu \gamma}
+    f^{\mu \nu \alpha}_{,\mu} + \gamma^\alpha{}_{\beta \gamma} a_\mu^\beta f^{\mu \nu \gamma}
   \right)
   k_{\alpha \beta}
   \,\delta a_\mu^\beta
   \, dvol_\Sigma
-  \,.
+  \,,
   \end{aligned}
 $$
+
+where
+
+$$
+  f^\alpha_{\mu \nu}
+  \;\in\;
+  \Omega^{0,0}_\Sigma(E)
+$$
+
+is the universal [[Yang-Mills theory|Yang-Mills]] [[field strength]] (eq:YangMillsJetFieldStrengthMinkowski).
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+With the explicit form (eq:EulerLagrangeEquationGeneral) for the [[Euler-Lagrange derivative]] we compute as follows:
+
+$$
+  \begin{aligned}
+    \delta_{EL}
+    \left(
+      \tfrac{1}{2}
+      k_{\alpha \beta} f^\alpha_{\mu\nu} f^{\beta \mu \nu}
+    \right)
+    & =
+    \left(
+    \left(
+      \frac{\partial}{\partial a_{\mu'}^{\alpha'}}
+      \left(
+        a_{\mu,\nu}^\alpha
+        +
+        \tfrac{1}{2}
+        \gamma^{\alpha}{}_{\alpha_2 \alpha_3}
+        a_{\mu}^{\alpha_2} a_\nu^{\alpha_3}
+      \right)
+    \right)
+    k_{\alpha \beta}
+    f^{\beta \mu \nu}
+    -
+    \left(
+      \frac{d}{d x^{\nu'}}
+      \frac{\partial}{\partial a_{\mu',\nu'}^{\alpha'}}
+      \left(
+        a_{\mu,\nu}^\alpha
+        +
+        \tfrac{1}{2}
+        \gamma^{\alpha}{}_{\alpha_2 \alpha_3}
+        a_{\mu}^{\alpha_2} a_\nu^{\alpha_3}
+      \right)
+    \right)
+    k_{\alpha \beta}
+    f^{\beta \mu \nu}
+    \right)
+    \delta a_{\mu'}^{\alpha'}
+    \\
+    & =
+    \gamma^{\alpha}{}_{\alpha' \alpha_3} a_\nu^{\alpha_3}
+    f^{\beta \mu \nu}
+    k_{\alpha \beta}
+    \delta a_{\mu}^{\alpha'}
+    -
+    \left(
+      \frac{d}{d x^{\nu}} f^{\beta \mu \nu}
+    \right)
+    k_{\alpha \beta}
+    \delta a_{\mu}^{\alpha}
+    \\
+    &=
+    \left(
+      f^{\alpha \mu \nu}_{,\mu}
+      +
+      \gamma^\alpha{}_{\beta \gamma} a_\mu^\beta f^{\gamma \mu \nu}
+    \right)
+    k_{\alpha \beta}
+    \delta a_\nu^\beta
+  \end{aligned}
+$$
+
+In the last step we used that for a [[semisimple Lie algebra]] $\gamma_{\alpha \beta \gamma} \coloneqq k_{\alpha \alpha'} \gamma^{\alpha'}{}_{\beta \gamma}$ is totally skew-symmetric in its indices (this being the coefficients of the [[Lie algebra cocycle]])
+which is in transgression with the [[Killing form]] [[invariant polynomial]] $k$.
 
 =--
 
@@ -10899,6 +11016,8 @@ is an [[on-shell]] [[conserved current]] (def. \ref{SymmetriesAndConservedCurren
 a presymplectic potential (eq:PresymplecticPotential) from def. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}.
 
 =--
+
+([[Noether's theorem|Noether's theorem II]] is prop. \ref{NoetherIdentities} below.)
 
 +-- {: .proof}
 ###### Proof
@@ -21164,9 +21283,6 @@ actual Cauchy surface.
 
 $\,$
 
-Infinitesimal gauge symmetries typically form spring
-
-$\,$
 
 After these generalities on implicit [[infinitesimal gauge symmetries]] we turn attention to a more
 structured special class of them. To that end, recall that an [[evolutionary vector field]] (def. \ref{EvolutionaryVectorField})
@@ -21276,10 +21392,9 @@ locally of finite order (prop. \ref{JetBundleIsLocallyProManifold}).
 =--
 
 
-
 +-- {: .num_prop #NoetherIdentities}
 ###### Proposition
-**([[Noether identities]])**
+**([[Noether's theorem|Noether's theorem II]] -- [[Noether identities]])**
 
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}).
 
@@ -21291,17 +21406,16 @@ $$
   \left(
     \epsilon^\alpha R^a_\alpha
     +
-    \frac{d \epsilon^\alpha}{d x^\mu} R^{a \mu}_\alpha
+    \epsilon^\alpha_{,\mu} R^{a \mu}_\alpha
     +
-    \frac{d^2 \epsilon^\alpha}{d x^{\mu_1} d x^{\mu_2}} R^{a \mu_1 \mu_2}_\alpha
+    \epsilon^\alpha_{,\mu_1 \mu_2} R^{a \mu_1 \mu_2}_\alpha
     +
     \cdots
   \right)
   \partial_{\phi^a}
 $$
 
-is a [[gauge parameter|gauge parameterized]] implicit [[infinitesimal gauge transformation]]
-(def. \ref{GaugeParametrizedInfinitesimalGaugeTransformation}) precisely if the [[Euler-Lagrange form]] $\delta_{EL}\mathbf{L}$ (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime})
+is an [[infinitesimal symmetry of the Lagrangian]] for all [[gauge parameters]] $((\epsilon^\alpha), (\epsilon^\alpha_{,\mu}), \cdots)$ precisely if the [[Euler-Lagrange form]] $\delta_{EL}\mathbf{L}$ (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime})
 satisfies the following relation:
 
 $$
@@ -21326,46 +21440,69 @@ These relations are called the _[[Noether identities]]_ of the [[Euler-Lagrange 
 +-- {: .proof}
 ###### Proof
 
-We need to show that $v_\epsilon$ is a gauge symmetry, as claimed, precisely if the contraction (def. \ref{ContractionOfFormsWithVectorFields})
+By [[Noether's theorem|Noether's theorem I]],
+$v_\epsilon$ is an [[infinitesimal symmetry of the Lagrangian]] precisely if the contraction (def. \ref{ContractionOfFormsWithVectorFields})
 of $v_\epsilon$ with the [[Euler-Lagrange form]] (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime})
-vanishes for all choices of $\epsilon$, up to a horizontally exact term:
+is horizontally exact:
 
 $$
-  \iota_{v_\epsilon} \delta_{EL}\mathbf{L} = d(\cdots)
+  \iota_{v_\epsilon} \delta_{EL}\mathbf{L} = d J_{\hat v}
+  \,.
 $$
 
 From (eq:CoordinateExpressionForGaugeParameterized) this means that
 
 $$
   \begin{aligned}
+    d J_{\hat v}
+    & =
     \iota_{v_\epsilon} \delta_{EL} \mathbf{L}
+    \\
     & =
     \underset{k \in \mathbb{N}}{\sum}
       \frac{d^k \epsilon^\alpha}{d x^{\mu_1} \cdot d x^{\mu_k}} R^{a \mu_1 \cdots \mu_k}_\alpha
       \frac{\delta_{EL} \mathbf{L}}{\delta \phi^a}
     \\
     & =
+    \underset{A}{
+    \underbrace{
     \epsilon^\alpha
     \underset{k \in \mathbb{N}}{\sum}
       (-1)^k  R^{a \mu_1 \cdots \mu_k}_\alpha
       \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}}
       \frac{\delta_{EL} \mathbf{L}}{\delta \phi^a}
+    }
+    }
     +
-    d \tilde J_{v_\epsilon}
+    d (...)
     \,,
   \end{aligned}
 $$
 
-where on the right
+where in the last step we used [[integration by parts]] to move the [[total spacetime derivatives]] off of $\epsilon^\alpha$, thereby picking up some horizontally exact correction term, as show.
+
+This means that the term $A$ over the brace is horizontally exact:
 
 $$
-  J_{v_\epsilon} \coloneqq J_{v_\epsilon} - \iota_{v_\epsilon} \Theta_{BFV}
+  \label{NoetherIdentityTermIsHorizontallyExact}
+  \epsilon^\alpha
+   \underset{k \in \mathbb{N}}{\sum}
+     (-1)^k  R^{a \mu_1 \cdots \mu_k}_\alpha
+      \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}}
+      \frac{\delta_{EL} \mathbf{L}}{\delta \phi^a}
+   \;=\;
+   d(...)
 $$
 
-is the [[conserved current]] corresponding to this infinitesimal symmetry by [[Noether's theorem|Noether's theorem I]] (prop. \ref{NoethersFirstTheorem}).
+But now the term on the left is independent of the jet coordinates $\epsilon^\alpha_{,\mu_1 \cdots \mu_k}$
+of positive order $k \geq 1$, while the horizontal derivative increases the dependency on the jet order by one.
+Therefore the term on the left is horizontally exact precisely if it vanishes, which is the case precisely if the coefficients of $\epsilon^\alpha$ vanish, which is the statement of the Noether identities.
 
+Alternatively we may reach this conclusion from (eq:NoetherIdentityTermIsHorizontallyExact) by applying to both sides of (eq:NoetherIdentityTermIsHorizontallyExact) the [[Euler-Lagrange derivative]] (eq:EulerLagrangeEquationGeneral) _with respect to $\epsilon^\alpha$_. On the left this yields again the coefficients of $\epsilon^\alpha$,
+while by the argument from example \ref{TrivialLagrangianDensities} it makes the right hand side vanish.
 
 =--
+
 
 
 +-- {: .num_example #InfinitesimalGaugeSymmetryElectromagnetism}
