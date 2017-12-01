@@ -192,7 +192,9 @@ The logic described above is full classical linear logic.  There are many import
 
 * multiplicative intuitionistic linear logic (MILL), which contains only $\otimes,\mathbf{1},\multimap$ (the latter now as a primitive operation); in particular there is no longer the involutive negation $(-)^\perp$.  The sequents are also restricted to have only one formula on the right.
 
-* full intuitionistic linear logic, which contains all the additive connectives $\&,\oplus,\mathbf{0},\top$ as well as the intutionistic multiplicatives $\otimes,\mathbf{1},\multimap$ and the exponential $!$, with one formula on the right as above.  In this case all connectives are all independent of each other.
+* intuitionistic linear logic (ILL), which contains all the additive connectives $\&,\oplus,\mathbf{0},\top$ as well as the intutionistic multiplicatives $\otimes,\mathbf{1},\multimap$ and the exponential $!$, with one formula on the right as above.  In this case all connectives are all independent of each other.
+
+* full intuitionistic linear logic (FILL), which in addition to ILL contains the multiplicative disjunction $\parr$, and perhaps the exponential $?$.  (Sometimes ILL without $\parr,?$ is also called "full" intuitionistic linear logic.)
 
 * non-commutative linear logics (braided or not)
 
