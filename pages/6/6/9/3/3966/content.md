@@ -1,6 +1,28 @@
+
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
+=--
+#### Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
+
+## Idea
+
+The combination of an [[exterior derivative]] with a [[covariant derivative]].
 
 ## Definition
 
@@ -103,11 +125,19 @@ The [[Bianchi identity]] is $\mathrm{d}_{\omega}\Omega=0$.
 Under the isomorphism $\Omega^k_{\rho}(P,V) \cong \Omega^k(M,P \times_{\rho}V)$, the curvature $\Omega$ corresponds to a 2-form $F_{\omega} \in \Omega^2(M,\mathrm{Ad}(P))$, and the [[Bianchi identity]] corresponds to $\mathrm{D}_{\omega}F_{\omega} = 0$. 
 =--
 
+## Applications
+
+* In [[Yang-Mills theory]]...
+
 ## Related Concepts
 
- * [[differential form]]
- * [[connection on a bundle]]
- * [[covariant derivative]]
+* [[differential form]]
+
+* [[connection on a bundle]]
+
+* [[covariant derivative]]
+
+* [[Yang-Mills theory]]
 
 [[!redirects covariant exterior derivative]]
 [[!redirects exterior covariant derivative]]
