@@ -25,3 +25,4 @@ The [[Lie algebra]] $\mathfrak{su}(n)$ of the [[special unitary group]] $SU(n)$.
 
 
 
+[[!redirects special unitary Lie algebras]]
