@@ -708,7 +708,8 @@ Then:
        \underset{\Sigma_p}{\int} (\iota_{\Sigma_p})^\ast K(\mathbf{\Phi}_1, \mathbf{\Phi}_2)
      }
    $$
-Because the arguments $\Phi_1$ and $\Phi_2$ are annihilated respectively by $P$ and $P^*$, equation (eq:FormallyAdjointDifferentialOperatorWitness) ensures that the definition of $\{-,-\}_{\Sigma_p,K}$ is actually independent of the choice of $\Sigma_p$. (...treat restriction of distributions to $\Sigma_p$...)
+Note that, even though $\Phi_2\in \ker'(P^*)$ is a distribution on $\Sigma$, we are integrating it over a codimension-$1$ surface $\Sigma_p \hookrightarrow \Sigma$. In this case, the restriction to $\Sigma_p$ is well-defined by the theorem on the [[pullback of a distribution]] ([this prop.](pullback+of+a+distribution#PullbackOfDistributionsWhoseWaveFrontDoesNotIntersectNormalBundle) there). The only condition to check is that the [[conormal bundle]] of the embedding $\Sigma_p \hookrightarrow \Sigma$ does not intersect $WF(\Phi_2)$. But, since the $\Phi_2$ is annihilated by $P^*$, by the theorem on the [[propagation of singularities theorem|propagation of singularities]] ([this prop.](propagation+of+singularities+theorem#PropagationOfSingularitiesTheorem) there), $WF(\Phi_2)$ contains only covectors that are characteristic with respect to $P^*$ (those on which the [[principal symbol]] of $P^*$ fails to be invertible). But by its definition, a Cauchy surface $\Sigma_p$ must be nowhere characteristic, meaning that its conormal bundle does not intersect $WF(\Phi_2)$.  
+Because the arguments $\Phi_1$ and $\Phi_2$ are annihilated respectively by $P$ and $P^*$, equation (eq:FormallyAdjointDifferentialOperatorWitness) ensures that the definition of $\{-,-\}_{\Sigma_p,K}$ is actually independent of the choice of $\Sigma_p$.
 
 1. The _$P$-Peierls bracket_ is the [[bilinear map]]
    $$
