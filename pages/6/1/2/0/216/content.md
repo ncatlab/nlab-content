@@ -166,7 +166,7 @@ $$
   \,.
 $$
 
-(Here we regard the integrand naturally as taking values in actual [[densities]] tensored with the pullback of $\sqrt{Omega}$ along the composition map. This defines the [[integration]] of density-factor which then takes values in $\sqrt{\Omega}$.)
+(Here we regard the integrand naturally as taking values in actual [[densities]] tensored with the pullback of $\sqrt{\Omega}$ along the composition map. This defines the [[integration]] of density-factor which then takes values in $\sqrt{\Omega}$.)
 
 The algebra $(C_c^\infty(\mathcal{G}_1, \sqrt{\Omega}), \star)$ is the **groupoid convolution algebra** of smooth compactly supported functions. As in remark \ref{AsConvolutionAlgebra}, this is naturally a [[star-algebra]] with [[involution]] $inv^\ast$.
 
