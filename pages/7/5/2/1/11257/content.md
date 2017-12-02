@@ -16,8 +16,8 @@
 =--
 =--
 =--
-=--
-=--
+
+
 
 # $C^*$-correspondences
 * table of contents
@@ -102,12 +102,13 @@ $$
 
 ## References
 
-* [[Alcides Buss]], [[Chenchang Zhu]], [[Ralf Meyer]], _[A higher category approach to twisted actions on $C^*$-algebras](http://arxiv.org/abs/0908.0455)_
+* [[Alcides Buss]], [[Chenchang Zhu]], [[Ralf Meyer]], _A higher category approach to twisted actions on $C^*$-algebras,_ Proceedings of the Edinburgh Mathematical Society, **56** (2013), pp 387-426, doi:[10.1017/S0013091512000259](
+https://doi.org/10.1017/S0013091512000259), arXiv:[0908.0455](http://arxiv.org/abs/0908.0455)
 
 Relation to [[KK-theory]]:
 
-* [[El-kaioum Moutuou]], _[Equivariant KK-theory for generalised actions and Thom isomorphism in groupoid twisted K-theory](https://journals.cambridge.org/action/displayAbstract?fromPage=online&aid=9179799&fulltextType=RA&fileId=S1865243313000585)_
-
+* [[El-kaioum Moutuou]], _Equivariant KK-theory for generalised actions and Thom isomorphism in groupoid twisted K-theory_, Journal of K-theory, **13** (2014) pp83-113, doi:[10.1017/is013010018jkt244](
+https://doi.org/10.1017/is013010018jkt244), arXiv:[1305.2495](https://arxiv.org/abs/1305.2495)
 
 [[!redirects C*-correspondence]]
 [[!redirects C*-correspondences]]
