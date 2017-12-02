@@ -285,6 +285,10 @@ Some links and references can be found at Alsani's descent and category theory [
 
 In as far as nonabelian cohomology is nothing but the study of [[(infinity,1)-categorical hom-space|hom-spaces]] between [[∞-stack]]s, see also the references at [[∞-stack]].
 
+The following thesis continues Street's treatment of nonabelian cohomology
+
+* Alexander Campbell, _A higher categorical approach to Giraud's non-abelian cohomology_, PhD thesis, Macquarie University 2016 &lt;http://hdl.handle.net/1959.14/1261186>
+
 
 [[!redirects non-abelian cohomology]]
 
