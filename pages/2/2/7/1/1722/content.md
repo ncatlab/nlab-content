@@ -8,7 +8,7 @@ Recall that [[principal bundle]]s are classified by [[nonabelian cohomology]] in
 
 A central motivation for the introduction of the notion of [[gerbe]] was to find an analog of this statement for [[nonabelian cohomology]] in degree 2.
 
-The basic theorem of Giraud's theory of [[gerbe]]s says that in the sense of [[gerbe (as a stack)]], gerbes $G$-gerbes are classified by [[nonabelian cohomology]] (usually realized as nonabelian [[Čech cohomology]], see there for more details) with coefficients in the [[strict 2-group]] $AUT(G) = Aut_{Grpd}(\mathbf{B}G)$.
+The basic theorem of Giraud's theory of [[gerbe]]s says that in the sense of [[gerbe (as a stack)]], gerbes $G$-gerbes are classified by [[nonabelian cohomology]] (usually realized as nonabelian [[?ech cohomology]], see there for more details) with coefficients in the [[strict 2-group]] $AUT(G) = Aut_{Grpd}(\mathbf{B}G)$.
 
 #References#
 
@@ -59,3 +59,7 @@ This is described in some detail for instance in
 Another discussion more in the style of the [[Lie groupoid]] community is in section 2 of 
 
 * Ginot, Sti&#233;non, _$G$-gerbes, principal 2-group bundles and characteristic classes_ ([pdf](http://arxiv.org/PS_cache/arxiv/pdf/0801/0801.1238v2.pdf))
+
+Giraud's gerbes as being the objects classified by nonabelian cohomology are recovered from general principles in
+
+* Alexander Campbell, _A higher categorical approach to Giraud's non-abelian cohomology_, PhD thesis, Macquarie University 2016 &lt;http://hdl.handle.net/1959.14/1261186>
