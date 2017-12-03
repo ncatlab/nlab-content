@@ -102,6 +102,7 @@ for all $A \in \mathcal{A}$.
 
 
 ### For $C^\ast$-categories
+ {#ForCStarCategories}
 
 The GNS construction for $C^\ast$-algebras is a special case of a more general construction of Ghez, Lima and Roberts applied to [[C*-categories]] ([[horizontal categorification]] of $C^\ast$-algebras).
 
@@ -154,6 +155,10 @@ For general unital [[star-algebras]]:
 For [[formal power series algebras]] over $\mathbb{C}[ [ \hbar ] ]$:
 
 * {#BordemannWaldmann96} [[Martin Bordemann]], [[Stefan Waldmann]], _Formal GNS Construction and States in Deformation Quantization_, Commun. Math. Phys. (1998) 195: 549.  ([arXiv:q-alg/9607019](https://arxiv.org/abs/q-alg/9607019), [doi:10.1007/s002200050402](https://doi.org/10.1007/s002200050402))
+
+Discussion in terms of [[universal properties]] in [[higher category theory]] is in 
+
+* {#Parzygnat16} [[Arthur Parzygnat]], _From observables and states to Hilbert space and back: a 2-categorical adjunction_ ([arXiv:1609.08975](https://arxiv.org/abs/1609.08975))
 
 category: operator algebras
 
