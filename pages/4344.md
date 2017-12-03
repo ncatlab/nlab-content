@@ -69,6 +69,8 @@ For any (small) $C^*$-category $\mathcal{C}$ there exists a faithful $*$-functor
 
 ## Related concepts
 
+* [[GNS construction]]
+
 * [[star-category]], [[dagger-category]]
 
 * [[spaceoid]]
