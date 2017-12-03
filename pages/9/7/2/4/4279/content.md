@@ -10,7 +10,7 @@
 +-- {: .hide}
 [[!include functional analysis - contents]]
 =--
-#### AQFT
+#### Algeraic Quantum Field Theory
 +-- {: .hide}
 [[!include AQFT and operator algebra contents]]
 =--
@@ -47,7 +47,7 @@ $$
   \;\colon\;
   \mathcal{A}
   \longrightarrow
-  \mathcal{C}
+  \mathbb{C}
 $$
 
 which is _positive_ in that $\langle A^\ast A\rangle \geq 0$ and _normalized_ in that $\langle 1\rangle = 1$.   Under suitable conditions a [[Hilbert space|Hilbert]] [[space of states]] may be (re-)constructed from this a posteriori via the _[[GNS construction]]_. 
@@ -62,8 +62,9 @@ The perspective that states are normalized positive linear functionals on the al
 
 ### For unital star algebra
 
-+-- {: .num_defn}
++-- {: .num_defn #StateOnAStarAlgebra}
 ###### Definition
+**([[state]] on a [[unital algebra|unital]] [[star algebra]])**
 
 Let $\mathcal{A}$ be a [[unital]] [[star-algebra]] over the [[complex numbers]] $\mathbb{C}$. A _state_ on $\mathcal{A}$ is a [[linear function]]
 
@@ -84,6 +85,45 @@ such that
 =--
 
 (e.g. [Bordemann-Waldmann 96](#BordemannWaldmann96), [Fredenhagen-Rejzner 12, def. 2.4](#FredenhagenRejzner12), [Khavkine-Moretti 15, def. 6](#KhavkineMoretti15))
+
+
+
++-- {: .num_remark #StatesFormAConvexSet}
+###### Remark
+**([[states]] form a [[convex set]])**
+
+For $\mathcal{A}$ a unital [[star-algebra]], the [[set]] of states on $\mathcal{A}$ according to def. \ref{StateOnAStarAlgebra} is naturally a [[convex set]]: For $\rho_1, \rho_2 \colon \mathcal{A} \to \mathbb{C}$ two states then for every $p \in [0,1] \subset \mathbb{R}$ also the [[linear combination]]
+
+$$
+  \array{
+    \mathcal{A}
+     &\overset{p \rho_1 + (1-p) \rho_2}{\longrightarrow}&
+    \mathbb{C}
+    \\
+    A &\mapsto& p \rho_1(A) + (1-p) \rho_2(A)
+  }
+$$
+ 
+
+is a state.
+
+=--
+
++-- {: .num_defn #PureStateOnAStarAlgebra}
+###### Definition
+**([[pure state]])**
+
+A state $\rho \colon \mathcal{A} \to \mathbb{C}$ on a unital [[star-algebra]] (def. \ref{StateOnAStarAlgebra}) is called a _[[pure state]]_ if it is extremal in the [[convex set]] of all states (remark \ref{StatesFormAConvexSet}) in that an identification
+
+$$
+  \rho = p \rho_1 + (1-p) \rho_2
+$$
+
+for $p \in (0,1)$ implies that $\rho_1 = \rho_2$ (hence $= \rho$).
+
+=--
+
+
 ### For $C^\ast$-Algebras
 
 The following discusses states specifically on [[C*-algebras]].
