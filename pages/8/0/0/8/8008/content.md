@@ -119,6 +119,7 @@ For the special case of [[Poisson manifolds]] that are total spaces of [[Lie alg
 [[!redirects strict deformation quantizations]]
 
 [[!redirects C-star algebraic deformation quantization]]
+[[!redirects C*-algebraic deformation quantization]]
 
 [[!redirects strict C*-algebraic deformation quantization]]
 
