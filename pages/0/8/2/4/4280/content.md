@@ -69,6 +69,13 @@ Given a family $(\pi_i, H_i)$ of representations, we can form the direct sum $H 
 =--
 
 
+## Related concepts
+
+* [[cyclic vector]]
+
+* [[GNS construction]]
+
+
 ## References
 
 See at _[[operator algebras]]_.
@@ -87,3 +94,7 @@ See at _[[operator algebras]]_.
 [[!redirects C*-representation]]
 [[!redirects C*-representations]]
 
+[[!redirects representation of a C*-algebra]]
+[[!redirects representations of a C*-algebra]]
+[[!redirects representation of C*-algebras]]
+[[!redirects representations of C*-algebra]]
