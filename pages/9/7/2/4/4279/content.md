@@ -52,15 +52,41 @@ $$
 
 which is _positive_ in that $\langle A^\ast A\rangle \geq 0$ and _normalized_ in that $\langle 1\rangle = 1$.   Under suitable conditions a [[Hilbert space|Hilbert]] [[space of states]] may be (re-)constructed from this a posteriori via the _[[GNS construction]]_. 
 
-Tranditionally this definition is considered for [[algebras of observables]] which are [[C*-algebras]] (as usually required for [[non-perturbative quantum field theory]], see e.g. [Fredenhagen 03, section 2](#Fredenhagen03)), but the definition makes sense generally for plain [[star-algebras]], such as for instance for the [[formal power series algebras]] that appear in [[perturbative quantum field theory]] (e.g. [Fredenhagen-Rejzner 12, def. 2.4](#FredenhagenRejzner12)).
+Traditionally this definition is considered for [[algebras of observables]] which are [[C*-algebras]] (as usually required for [[non-perturbative quantum field theory]], see e.g. [Fredenhagen 03, section 2](#Fredenhagen03)), but the definition makes sense generally for plain [[star-algebras]], such as for instance for the [[formal power series algebras]] that appear in [[perturbative quantum field theory]] (e.g. [Bordemann-Waldmann 96, def. 1](#BordemannWaldmann96), [Fredenhagen-Rejzner 12, def. 2.4](#FredenhagenRejzner12), [Khavkine-Moretti 15, def. 6](#KhavkineMoretti15)).
 
-The perspective that states are normalized positive linear functionals on the algebra of observables is implicit in traditional [[perturbative quantum field theory]], where it is encoded in the [[2-point function]] corresponding to a [[vacuum state]] or more generally a [[quasi-free quantum state]] (the _[[Hadamard propagator]]_).  The perspective is made explicit in [[algebraic quantum field theory]] (see e.g. [Fredenhagen 03, section 2](#Fredenhagen03)) and for [[star-algebras]] of observables that are not necessarily [[C*-algebras]] in [[perturbative algebraic quantum field theory]] (e.g. [Fredenhagen-Rejzner 12, def. 2.4](#FredenhagenRejzner12)).
+The perspective that states are normalized positive linear functionals on the algebra of observables is implicit in traditional [[perturbative quantum field theory]], where it is encoded in the [[2-point function]] corresponding to a [[vacuum state]] or more generally a [[quasi-free quantum state]] (the _[[Hadamard propagator]]_).  The perspective is made explicit in [[algebraic quantum field theory]] (see e.g. [Fredenhagen 03, section 2](#Fredenhagen03)) and for [[star-algebras]] of observables that are not necessarily [[C*-algebras]] in [[perturbative algebraic quantum field theory]] (e.g. [Bordemann-Waldmann 96](#BordemannWaldmann96), [Fredenhagen-Rejzner 12, def. 2.4](#FredenhagenRejzner12), [Khavkine-Moretti 15, def. 6](#KhavkineMoretti15)).
 
 
 
 ## Definition
 
-The definition of a state relies on the notion of _positivity_ of the elements of an [[star-algebra]]. The following discusses this assuming [[C* algebra]] structure.
+### For unital star algebra
+
++-- {: .num_defn}
+###### Definition
+
+Let $\mathcal{A}$ be a [[unital]] [[star-algebra]] over the [[complex numbers]] $\mathbb{C}$. A _state_ on $\mathcal{A}$ is a [[linear function]]
+
+$$
+  \rho \;\colon\; \mathcal{A} \longrightarrow \mathbb{C}
+$$
+
+such that
+
+1. (positivity) for all $A \in \mathcal{A}$ the value of $\rho$ on the product $A^\ast A$ is 
+
+   1. [[real part|real]] $\rho(A^\ast A) \in \mathbb{R} \hookrightarrow \mathbb{C}$ 
+
+   1. as such [[non-negative real number|non-negative]]: $\rho(A^\ast A) \geq 0$.
+
+1. (normalization) $\rho(1) = 1$.
+
+=--
+
+(e.g. [Bordemann-Waldmann 96](#BordemannWaldmann96), [Fredenhagen-Rejzner 12, def. 2.4](#FredenhagenRejzner12), [Khavkine-Moretti 15, def. 6](#KhavkineMoretti15))
+### For $C^\ast$-Algebras
+
+The following discusses states specifically on [[C*-algebras]].
 
 +-- {: .num_defn}
 ###### Definition
@@ -175,11 +201,15 @@ An important theorem for the physical interpretation of states is [[Fell's theor
 
 * {#KadisonRingrose} Richard Kadison, John Ringrose, _Fundamentals of the theory of operator algebras_, AMS (1991)
 
+* {#BordemannWaldmann96} [[Martin Bordemann]], [[Stefan Waldmann]], _Formal GNS Construction and States in Deformation Quantization_, Commun. Math. Phys. (1998) 195: 549.  ([arXiv:q-alg/9607019](https://arxiv.org/abs/q-alg/9607019), [doi:10.1007/s002200050402](https://doi.org/10.1007/s002200050402))
+
 * {#Fredenhagen03} [[Klaus Fredenhagen]], section 2 of _Algebraische Quantenfeldtheorie_, lecture notes, 2003 ([[FredenhagenAQFT2003.pdf:file]])
 
 * {#HalvorsonMueger06} [[Hans Halvorson]], [[Michael Müger]], def. 1.11 in _Algebraic Quantum Field Theory_ ([arXiv:math-ph/0602036](https://arxiv.org/abs/math-ph/0602036))
 
 * {#FredenhagenRejzner12} [[Klaus Fredenhagen]], [[Katarzyna Rejzner]], definition 2.4 in _Perturbative algebraic quantum field theory_, In _Mathematical Aspects of Quantum Field Theories_, Springer 2016 ([arXiv:1208.1428](https://arxiv.org/abs/1208.1428))
+
+* {#KhavkineMoretti15}  [[Igor Khavkine]], [[Valter Moretti]], _Algebraic QFT in Curved Spacetime and quasifree Hadamard states: an introduction_, Chapter 5 in [[Romeo Brunetti]] et al. (eds.) _Advances in Algebraic Quantum Field Theory_, , Springer, 2015
 
 * {#Rejzner16} [[Katarzyna Rejzner]], section 2.1.2 of _Perturbative Algebraic Quantum Field Theory_, Mathematical Physics Studies, Springer 2016 ([web](https://link.springer.com/book/10.1007%2F978-3-319-25901-7))
 
