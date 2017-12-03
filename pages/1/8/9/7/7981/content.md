@@ -1,16 +1,38 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Measure and probability theory
++-- {: .hide}
+[[!include measure theory - contents]]
+=--
+#### Functional analysis
++-- {: .hide}
+[[!include functional analysis - contents]]
+=--
+#### Algebraic Quantum Field Theory
++-- {: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
+=--
+=--
+
+
 # Pure and mixed states
 * table of contents
 {: toc}
 
 ## Idea
 
+A _pure state_ is a [[state on a star-algebra]] which is an extremal point in the [[convex set]] of all states.
+
 In [[physics]], recall that a [[state]] of a [[physical system]] is (in the [[Bayesian interpretation of quantum mechanics|Bayesian interpretation]]) a specification of the information that one might have about the system (typically relative to some fixed background information).  States form (at least) a [[poset]] where $\psi \leq \phi$ means that $\phi$ contains all of the information of $\psi$ (and possibly more).  A __pure state__ is a [[maximal element]] of this poset: a state that specifies as much information as possible about the system.  A __mixed state__ is a state that is not pure.
 
 
 ## Definitions
 
-Fairly generally, a physical system has a complex $C^*$-[[C-star-algebra|algebra]] $A$ of [[observables]] and a __state__ is a positive-semidefinite linear operator $\rho\colon A \to \mathbb{C}$ such that $\rho(1) = 1$.  We might write $\rho$ as a convex-linear combination of two other states:
+Fairly generally, a physical system has a complex [[C*-algebra]] $\mathcal{A}$ of [[observables]] (or more generally a [[unital algebra|unital]] [[star algebra]]) and a __[[state on a star-algebra|state]]__ is a positive-semidefinite [[linear function]] $\rho\colon \mathcal{A} \to \mathbb{C}$ such that $\rho(1) = 1$.  We might write $\rho$ as a convex-[[linear combination]] of two other states:
 \[ \rho = a \sigma + b \tau ,\label{combo}\]
 where necessarily $0 \leq a, b \leq 1$ and $a + b = 1$.
 
@@ -41,11 +63,11 @@ In any case, a pure state is a state of maximal information, while a mixed state
 
 Not really references on this subject, but ones referred to in the text:
 
-*  [[Claude Shannon]] (1953): The lattice theory of information, IEEE Transactions on Information Theory 1, 105--107.
-   {#Shannon1953}
+* {#Shannon1953} [[Claude Shannon]] (1953): The lattice theory of information, IEEE Transactions on Information Theory 1, 105--107.
+   
 
-*  Hua Li and Edwin Chong (2011): On a connection between information and group lattices, Entropy 13, 683--708; [web](http://www.mdpi.com/1099-4300/13/3/683).
-   {#LiChong2011}
+* {#LiChong2011} Hua Li and Edwin Chong (2011): On a connection between information and group lattices, Entropy 13, 683--708; [web](http://www.mdpi.com/1099-4300/13/3/683).
+   
 
 
 
