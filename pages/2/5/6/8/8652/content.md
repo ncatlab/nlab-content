@@ -50,3 +50,13 @@ For more see at _[[geometry of physics]]_.
 
 [[!redirects gauge-of-gauge equivalence]]
 [[!redirects gauge-of-gauge equivalences]]
+
+[[!redirects gauge-of-gauge symmetry]]
+[[!redirects gauge-of-gauge symmetries]]
+
+[[!redirects infinitesimal gauge-of-gauge equivalence]]
+[[!redirects infinitesimal gauge-of-gauge equivalences]]
+
+[[!redirects infinitesimal gauge-of-gauge symmetry]]
+[[!redirects infinitesimal gauge-of-gauge symmetries]]
+
