@@ -60,115 +60,6 @@ Notice that the collection of all [[infinitesimal symmetries of the Lagrangian]]
 
 
 
-+-- {: .num_example}
-###### Example
-
-For $\mathfrak{g}$ a [[semisimple Lie algebra]], consider the [[Lagrangian field theory]] of [[Yang-Mills theory]] on [[Minkowski spacetime]] from example \ref{YangMillsLagrangian}, with [[Lagrangian density]]
-
-$$
-  \mathbf{L}
-  \;=\;
-  \tfrac{1}{2} f^\alpha_{\mu \nu} f_\alpha^{\mu \nu}
-$$
-
-given by the universal [[field strength]]
-
-$$
-  f^\alpha_{\mu \nu}
-  \;\coloneqq\;
-  \tfrac{1}{2}
-  \left(
-    a^\alpha_{[\nu,\mu]}
-    +
-    \tfrac{1}{2} \gamma^\alpha_{\beta \gamma} a^\beta_{[\mu} a^\gamma_{\nu]}
-  \right)
-  \,.
-$$
-
-Let $\mathcal{G} \coloneqq \Sigma \times \mathfrak{g}$ be the [[trivial vector bundle]] with [[fiber]] $\mathfrak{g}$, regarded as a
-[[gauge parameter]] bundle (def. \ref{GaugeParametrizedInfinitesimalGaugeTransformation}) with coordinate functions $((x^\mu), c^\alpha)$ and consider the [[gauge parameter|gauge parametrized]] [[evolutionary vector field]] (eq:CoordinateExpressionForGaugeParameterized) 
-
-$$
-  R
-  \;=\;
-  \left(
-    c^\alpha_{,\mu}
-    -
-    \gamma^\alpha_{\beta \gamma} c^\beta a^\gamma_\mu
-  \right)
-  \partial_{a^\alpha_\mu}
-$$
-
-with prolongation (prop. \ref{EvolutionaryVectorFieldProlongation})
-
-$$
-  \widehat{R}
-  \;=\;
-  \left(
-    c^\alpha_{,\mu}
-    -
-    \gamma^\alpha_{\beta \gamma} c^\beta a^\gamma_\mu
-  \right)
-  \partial_{a^\alpha_\mu}
-  \;+\;
-  \left(
-    c^\alpha_{,\mu \nu}
-    -
-    \gamma^\alpha_{\beta \gamma}
-    \left(
-      c^\beta_{,\nu} a^\gamma_\mu
-      +
-      c^\beta a^\gamma_{\mu,\nu}
-    \right)
-  \right)
-  \partial_{a^\alpha_{\mu,\nu}}
-  \;+\;
-  \cdots
-  \,.
-$$
-
-from example \ref{InfinitesimalGaugeSymmetryOfYangMillsTheory}. 
-
-This is closed in the sense of def. \ref{GaugeParametersClosed}.
-
-$$
- \left[
-    \left(
-     c^\alpha_{,\mu}
-     -
-     \gamma^\alpha_{\beta \gamma} c^\beta a^\gamma_\mu
-    \right)
-    \partial_{a^\alpha_\mu}
-    \;,\;
-    \left(
-     c^{\alpha'}_{,\mu}
-     -
-     \gamma^{\alpha'}_{\beta \gamma} c^\beta a^\gamma_\mu
-    \right)
-    \partial_{a^{\alpha'}_\mu}
-  \right]
-  =   
-  -
-  \gamma^{\alpha'}_{\beta \gamma} c^\beta 
-   \left(
-    c^\gamma_{,\mu}
-    -
-    \gamma^\gamma_{\beta \gamma'} c^\beta a^{\gamma'}_\mu
-   \right)
-   \partial_{a^{\alpha'}_\mu}
-  +
-  \gamma^\alpha_{\beta \gamma} c^\beta
-    \left(
-     c^{\gamma}_{,\mu}
-     -
-     \gamma^{\gamma}_{\beta \gamma'} c^\beta a^{\gamma'}_\mu
-    \right)
-    \partial_{a^\alpha_\mu}
-$$
-
-=--
-
-
 
 
 +-- {: .num_example #ActionOfGaugeParameterizedInfinitesimalGaugeSymmetriesOnJetBundle}
@@ -417,6 +308,149 @@ as is the [[Euler-Lagrange form]] (due to the symmetry $c_{,\mu \nu} = c_{,\nu \
 skew-symmetry $f_{\mu \nu} = - f_{\nu \mu}$).
 
 =--
+
++-- {: .num_example}
+###### Example
+
+For $\mathfrak{g}$ a [[semisimple Lie algebra]], consider the [[Lagrangian field theory]] of [[Yang-Mills theory]] on [[Minkowski spacetime]] from example \ref{YangMillsLagrangian}, with [[Lagrangian density]]
+
+$$
+  \mathbf{L}
+  \;=\;
+  \tfrac{1}{2} f^\alpha_{\mu \nu} f_\alpha^{\mu \nu}
+$$
+
+given by the universal [[field strength]]
+
+$$
+  f^\alpha_{\mu \nu}
+  \;\coloneqq\;
+  \tfrac{1}{2}
+  \left(
+    a^\alpha_{[\nu,\mu]}
+    +
+    \tfrac{1}{2} \gamma^\alpha_{\beta \gamma} a^\beta_{[\mu} a^\gamma_{\nu]}
+  \right)
+  \,.
+$$
+
+Let $\mathcal{G} \coloneqq \Sigma \times \mathfrak{g}$ be the [[trivial vector bundle]] with [[fiber]] $\mathfrak{g}$, regarded as a
+[[gauge parameter]] bundle (def. \ref{GaugeParametrizedInfinitesimalGaugeTransformation}) with coordinate functions $((x^\mu), c^\alpha)$ and consider the [[gauge parameter|gauge parametrized]] [[evolutionary vector field]] (eq:CoordinateExpressionForGaugeParameterized) 
+
+$$
+  R
+  \;=\;
+  \left(
+    c^\alpha_{,\mu}
+    -
+    \gamma^\alpha_{\beta \gamma} c^\beta a^\gamma_\mu
+  \right)
+  \partial_{a^\alpha_\mu}
+$$
+
+from example \ref{InfinitesimalGaugeSymmetryOfYangMillsTheory}. 
+
+We claim that these are _closed [[gauge parameters]]_ in the sense of def. \ref{GaugeParametersClosed}, hence that the [[local BRST complex]] in the form of example \ref{LocalOffShellBRSTComplex} exists. 
+
+To see this, observe that the candidate BRST differential needs to be of the form (eq:OnMinkowskiInfinitesimalGaugeSymmetryForYangMills) plus the dual of the Lie bracket $[-,-]_{\mathcal{G}}^\ast$
+
+$$
+  s_{BRST}
+  \;=\;
+   \left(
+  \left(
+    c^\alpha_{,\mu}
+    -
+    \gamma^\alpha_{\beta \gamma} c^\beta a^\gamma_\mu
+  \right)
+  \partial_{a^\alpha_\mu}
+  \;+\;
+  \text{prolongation}
+  \right)
+  +
+  ([-,-]_{\mathcal{G}})^\ast
+  \,.
+$$
+
+We may equivalently make an Ansatz for $([-,-]_{\mathcal{G}})^\ast$ and if the resulting operator $s_{BRST}$ square to zero, this defines the required closure bracket $[-,-]_\mathcal{G}$. Moreover, since $R$ only depends on the 0th-order jets, we may check nilpotency on the unprolonged symmetry
+
+We claim that 
+
+$$
+  s_{BRST}
+  \;=\;
+  \left(
+    c^\alpha_{,\mu}
+    -
+    \gamma^\alpha_{\beta \gamma} c^\beta a^\gamma_\mu
+  \right)
+  \frac{\partial}{\partial a^\alpha_\mu}
+  +
+  \gamma^\alpha{}_{\beta \gamma} \, c^\beta c^\gamma
+  \frac{\partial}{\partial c^\alpha}
+  \;+\;
+  \text{prolongation}
+  \,.
+$$
+
+
+
+
+$$
+  \left[
+    \left(
+     c^\alpha_{,\mu}
+     -
+     \gamma^\alpha_{\beta \gamma} c^\beta a^\gamma_\mu
+    \right)
+    \partial_{a^\alpha_\mu}
+    \;,\;
+    \left(
+     c^{\alpha'}_{,\mu}
+     -
+     \gamma^{\alpha'}_{\beta \gamma} c^\beta a^\gamma_\mu
+    \right)
+    \partial_{a^{\alpha'}_\mu}
+  \right]
+  =   
+  -
+  2
+  \gamma^{\alpha'}_{\beta \gamma} c^\beta 
+   \left(
+    c^\gamma_{,\mu}
+    -
+    \gamma^\gamma_{\beta \gamma'} c^\beta a^{\gamma'}_\mu
+   \right)
+   \frac{\partial}{\partial a^{\alpha'}_\mu}
+$$
+
+$$
+  \left[
+    \left(
+     c^\alpha_{,\mu}
+     -
+     \gamma^\alpha_{\beta \gamma} c^\beta a^\gamma_\mu
+    \right)
+    \partial_{a^\alpha_\mu}
+    \;,\;
+    \gamma^\alpha{}_{\beta \gamma}
+    \,
+    c^\beta c^\gamma \frac{\partial}{\partial c^\alpha}
+  \right]
+  =
+  2
+  \gamma^\alpha_{\beta \gamma} c^\beta_{,\mu} c^\gamma
+  \frac{\partial}{\partial a^\alpha_\mu}
+  -
+  \gamma^\alpha_{\beta \gamma} 
+   \gamma^\beta_{\beta' \gamma'} c^{\beta'} c^{\gamma'} 
+   a^\gamma_\mu
+   \frac{\partial}{\partial a^\alpha_\mu}
+$$
+
+=--
+
+
 
 +-- {: .num_example #LocalBRSTComplexBFieldMinkowskiSpacetime}
 ###### Example
