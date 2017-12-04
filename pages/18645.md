@@ -81,6 +81,7 @@ $\,$
 | [[field (physics)|field]] | [[gauge symmetry]] | [[local BRST complex]] | [[gauge fixing]] |
 |---------------------------|--------------------|------------------------|------------------|
 | [[electromagnetic field]] | expl. \ref{InfinitesimalGaugeSymmetryElectromagnetism}  | expl. \ref{LocalBRSTComplexForFreeElectromagneticFieldOnMinkowskiSpacetim} |  expl. \ref{NLGaugeFixingOfElectromagnetism}  |
+| [[Yang-Mills field]]      |   expl. \ref{InfinitesimalGaugeSymmetryOfYangMillsTheory}          |  ...     |   ...     |
 | [[B-field]]    |   ...  | ... |  ... |
 
 $\,$
@@ -4138,7 +4139,7 @@ $$
   \label{LieAlgebraStructureConstants}
   [t_\alpha, t_\beta]
   \;=\;
-  C^\gamma{}_{\alpha \beta} t_\gamma
+  \gamma^\gamma{}_{\alpha \beta} t_\gamma
   \,.
 $$
 
@@ -7154,7 +7155,18 @@ $$
 $$
 
 where the indices $\mu, \mu_1, \mu_2, \cdots$ range from 0 to $p$, while the index $a$ ranges from $1$ to $b$ for the
-even field coordinates, and them from $b+1$ to $b+s$ for the odd-graded field coordinates. In terms of these coordinates the [[bundle]] [[projection]] map $jb_k$ is just the one that remembers the spacetime coordinates $x^\mu$ and forgets the values of the field $\phi^a$ and its derivatives $\phi_{\mu}$. Similarly there are intermediate projection maps
+even field coordinates, and then from $b+1$ to $b+s$ for the odd-graded field coordinates and the lower indices are
+symmetric: 
+
+$$
+  \label{JetCoodinatesSymmetry}
+  \phi^a_{\mu_1 \cdots \mu_{i} \cdots \mu_j \cdots \mu_k}
+  \;=\;
+  \phi^a_{\mu_1 \cdots \mu_{j} \cdots \mu_i \cdots \mu_k}
+  \,.
+$$
+
+In terms of these coordinates the [[bundle]] [[projection]] map $jb_k$ is just the one that remembers the spacetime coordinates $x^\mu$ and forgets the values of the field $\phi^a$ and its derivatives $\phi_{\mu}$. Similarly there are intermediate projection maps
 
 $$
   \array{
@@ -7369,11 +7381,16 @@ $((x^\mu), (a_\mu), (a_{\mu,\nu}), \cdots )$ (def. \ref{JetBundleOfTrivialVector
 
 $$
   \label{FaradayTensorJet}
-  f_{\mu \nu}
-    \;\coloneqq\;
-  \tfrac{1}{2}\left(
-    a_{\mu,\nu} - a_{\nu,\mu}
-  \right)
+  \begin{aligned}
+    f_{\mu \nu}
+    & \coloneqq
+    a_{[\nu,\mu]}
+    \\
+    & \coloneqq
+    \tfrac{1}{2}\left(
+      a_{\nu,\mu} - a_{\mu,\nu}
+    \right)
+  \end{aligned}
 $$
 
 of the first order jets.
@@ -7442,11 +7459,15 @@ $$
   \begin{aligned}
     f^\alpha_{\mu \nu}
     & \coloneqq
-    a^\alpha_{[\nu,\mu]}
-    +
     \tfrac{1}{2}
+    \left(
+      a^\alpha_{\nu,\mu}
+      -
+      a^\alpha_{\mu,\nu}
+      +
       \gamma^{\alpha}{}_{\beta \gamma}
-      a^\beta_{[\mu} a^\gamma_{\nu]}
+      a^\beta_{\mu} a^\gamma_{\nu}
+    \right)
   \end{aligned}
 $$
 
@@ -8464,7 +8485,7 @@ $$
   \,,
 $$
 
-where $f_{\mu \nu} \coloneqq \tfrac{1}{2}(a_{\mu,\nu} - a_{\nu,\mu})$ are the components of the universal [[Faraday tensor]] on the [[jet bundle]] from example \ref{JetFaraday}.
+where $f_{\mu \nu} \coloneqq \tfrac{1}{2}(a_{\nu,\mu} - a_{\mu,\nu})$ are the components of the universal [[Faraday tensor]] on the [[jet bundle]] from example \ref{JetFaraday}.
 
 This is the [[Lagrangian density]] that defines the Lagrangian field theory of _[[free field|free]] [[electromagnetism]]_.
 
@@ -8524,7 +8545,6 @@ the [[field bundle]] for [[Yang-Mills theory]] as in example \ref{YangMillsField
 the [[Lagrangian density]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) $\mathfrak{g}$-[[Yang-Mills theory]] on [[Minkowski spacetime]] is
 
 $$
-  \label{YangMillsLagrangian}
   \mathbf{L}
     \;\coloneqq\;
   \tfrac{1}{2}
@@ -8539,7 +8559,15 @@ where
 $$
   f^\alpha_{\mu \nu}
   \;=\;
-  D_{[\mu} a_{\nu]}^\alpha
+  \tfrac{1}{2}
+  \left(
+    a^\alpha_{\nu,\mu}
+    -
+    a^\alpha_{\mu,\nu}
+    +
+    \gamma^{\alpha}{}_{\beta \gamma}
+    a^\beta_{\mu} a^\gamma_{\nu}
+ \right)
   \;\in\;
   \Omega^{0,0}_\Sigma(E)
 $$
@@ -8547,6 +8575,7 @@ $$
 is the universal [[Yang-Mills theory|Yang-Mills]] [[field strength]] (eq:YangMillsJetFieldStrengthMinkowski).
 
 =--
+
 
 
 
@@ -9617,7 +9646,7 @@ $$
     \delta a_{\alpha}
     \\
     & =
-    f^{\mu \nu}{}_{,\mu} \delta a_{\mu}
+    - f^{\mu \nu}{}_{,\mu} \delta a_{\nu}
     \,.
   \end{aligned}
 $$
@@ -9640,9 +9669,6 @@ $$
   \begin{aligned}
   \delta_{EL}\mathbf{L}
   & =
-  D_\mu f^{\mu \nu \alpha}  k_{\alpha \beta}  \delta a_\nu^\beta \, dvol_\Sigma
-  \\
-  & \coloneqq
   \left(
     f^{\mu \nu \alpha}_{,\mu} + \gamma^\alpha{}_{\beta \gamma} a_\mu^\beta f^{\mu \nu \gamma}
   \right)
@@ -9683,7 +9709,7 @@ $$
     \left(
       \frac{\partial}{\partial a_{\mu'}^{\alpha'}}
       \left(
-        a_{\mu,\nu}^\alpha
+        a_{\nu,\mu}^\alpha
         +
         \tfrac{1}{2}
         \gamma^{\alpha}{}_{\alpha_2 \alpha_3}
@@ -9697,7 +9723,7 @@ $$
       \frac{d}{d x^{\nu'}}
       \frac{\partial}{\partial a_{\mu',\nu'}^{\alpha'}}
       \left(
-        a_{\mu,\nu}^\alpha
+        a_{\nu,\mu}^\alpha
         +
         \tfrac{1}{2}
         \gamma^{\alpha}{}_{\alpha_2 \alpha_3}
@@ -9716,12 +9742,13 @@ $$
     \delta a_{\mu}^{\alpha'}
     -
     \left(
-      \frac{d}{d x^{\nu}} f^{\beta \mu \nu}
+      \frac{d}{d x^{\mu}} f^{\beta \mu \nu}
     \right)
     k_{\alpha \beta}
-    \delta a_{\mu}^{\alpha}
+    \delta a_{\nu}^{\alpha}
     \\
     &=
+    -
     \left(
       f^{\alpha \mu \nu}_{,\mu}
       +
@@ -11841,8 +11868,7 @@ where in the last line we used that on the [[prolonged shell]] $\delta_{EL}L$ an
 As a corollary we obtain:
 
 
-
-+-- {: .num_prop #FlowAlongImplicitInfinitesimalGaugeSymmetryPreservesOnShellSpaceofFieldHistories}
++-- {: .num_prop #FlowAlongInfinitesimalSymmetryOfLagrangianPreservesOnShellSpaceOfFieldHistories}
 ###### Proposition
 **([[flow]] along [[infinitesimal symmetry of the Lagrangian]] preserves [[on-shell]] [[space of field histories]])**
 
@@ -21082,38 +21108,37 @@ This concludes our discussion of [[propagators]] induced from the [[covariant ph
 $\,$
 
 
+
 ## Gauge symmetries
  {#GaugeSymmetries}
 
 The existence of the [[covariant phase space]] (prop. \ref{CovariantPhaseSpace}) of a [[Lagrangian field theory]]
-requires the existence of [[Cauchy surfaces]] (def. \ref{CauchySurface}) for its [[Euler-Lagrange equation|Euler-Lagrange]] [[equations of motion]], hence requires that the [[equations of motion]] are [[Green hyperbolic differential equation|Green hyperbolic]] (def. \ref{GreenHyperbolicDifferentialOperator}).
+requires the existence of [[Cauchy surfaces]] (def. \ref{CauchySurface}) for its [[Euler-Lagrange equation|Euler-Lagrange]] [[equations of motion]] This the case of [[free field theory]] (def. \ref{FreeFieldTheory}) this means that the [[equations of motion]] are [[Green hyperbolic differential equation|Green hyperbolic]] (def. \ref{GreenHyperbolicDifferentialOperator}).
 
 We have seen that this is the case for instance for the [[scalar field]] (example \ref{GreenHyperbolicKleinGordonEquation})
 and the [[Dirac field]] (example \ref{GreenHyperbolicDiracOperator}), but it is not the case generally,
-for instance it fails for the [[electromagnetic field]] (example \ref{ElectromagnetismEl}).
+for instance it fails for the [[electromagnetic field]] (example \ref{ElectromagnetismEl}), the [[Yang-Mills field]] (example \ref{YangMillsLagrangian}) and the [[B-field]] (example \ref{BFieldLagrangianDensity}).
 An [[obstruction]] to the existence of the [[covariant phase space]] turns out to be (prop. \ref{NonTrivialImplicitInfinitesimalGaugeSymmetriesPbstructExistenceOfCauchySurfaces} below)
 the presence of [[infinitesimal symmetries of the Lagrangian]] (def. \ref{SymmetriesAndConservedCurrents})
 that have compact spacetime support (def. \ref{SpacetimeSupport}).
 
 
-An obvious candidate example of such are
+An class of examples of such are those
 [[infinitesimal symmetries of the Lagrangian]] which occur
-linearly _parameterized_  by arbitrary [[sections]] (and their [[derivatives]]) of some [[vector bundle]] on [[spacetime]]:
-Because then for every choice of section of [[compact support]] the corresponding symmetry will have
-compact spacetime support.
-Typically all compactly supported [[infinitesimal symmetries of the Lagrangian]]
-arise from parameterized symmetries this way; this is notably the case for the [[Lagrangian density]] of the [[electromagnetic field]] (example \ref{InfinitesimalGaugeSymmetryElectromagnetism}) and more generally of the [[Yang-Mills field]].
-These parameterized [[infinitesimal symmetries of the Lagrangian]] we call _implicit [[infinitesimal gauge symmetries]]_,
-and their parameters we call the _[[gauge parameters]]_ (def. \ref{GaugeParametrizedInfinitesimalGaugeTransformation} below).
+linearly _parameterized_  by arbitrary [[sections]] (and their [[derivatives]]) of some [[vector bundle]] on [[spacetime]].
+Because then for every choice of section of [[compact support]] the corresponding symmetry will have compact spacetime support.
+These parameterized [[infinitesimal symmetries of the Lagrangian]] are called _[[infinitesimal gauge symmetries]]_,
+and their parameters we call the _[[gauge parameters]]_ (def. \ref{GaugeParameters} below).
+
+
+Typically all compactly supported [[infinitesimal symmetries of the Lagrangian]] arise from parameterized symmetries this way; this is notably the case for the [[Lagrangian density]] of the [[electromagnetic field]] (example \ref{InfinitesimalGaugeSymmetryElectromagnetism}) and more generally of the [[Yang-Mills field]].
 
 Therefore the presence of [[infinitesimal symmetries of the Lagrangian]] with compact spacetime support is a defect of the theory
 which however implies its own solution, by indicating which [[relations]] ought to be promoted
-to "[[gauge equivalences|gauge]]" [[equivalences]]. Therefore we call these the _implicit [[infinitesimal gauge symmetries]]_
-(remark \ref{ImplicitGaugeTransformationTerminology} below).
-
+to "[[gauge equivalences|gauge]]" [[equivalences]].
 
 This obstruction is neatly
-captured by the [[cochain cohomology]] of the _local [[BV-complex]]_ (def. \ref{BVComplexOfOrdinaryLagrangianDensity}) of the Lagrangian field theory (prop. \ref{BVComplexIsHomologicalResolutionPreciselyIfNoNonTrivialImplicitGaugeSymmetres} below).
+captured by the [[cochain cohomology]] of the _[[local BV-complex]]_ (def. \ref{BVComplexOfOrdinaryLagrangianDensity}) of the Lagrangian field theory (prop. \ref{BVComplexIsHomologicalResolutionPreciselyIfNoNonTrivialImplicitGaugeSymmetres} below).
 This may be understood as the [[algebra of functions]] on an extension of the [[jet bundle]] from a
 (locally pro-finite dimensional, prop. \ref{InfinitesimalActionByLieAlgebra}) [[smooth manifold]] to
 a [[differential graded manifold]].
@@ -21130,36 +21155,46 @@ means to hard-wire into the geometry of the  types of [[field (physics)|field]] 
 
 $\,$
 
+We now discuss these topics
 
-+-- {: .num_defn #ImplicitInfinitesimalGaugeSymmetry}
-###### Definition
-**(implicit [[infinitesimal gauge symmetry]])**
+* [Infinitesimal gauge symmetries](#InfinitesimalGauge)
 
-Given a [[Lagrangian field theory]] $(E, \mathbf{L})$ (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}),
-then an _implicit [[infinitesimal gauge symmetry]]_ is an [[infinitesimal symmetry of the Lagrangian]]
-(def. \ref{SymmetriesAndConservedCurrents}) with compact spacetime support  (def. \ref{SpacetimeSupport}).
+* [Lie algebra action and Lie algebroids](#LieAlgebraActionAndLieAlgebroids)
+
+* [BRST complex](#BRSTComplex)
+
+
+$\,$
+
+As an immediate corollary of prop. \ref{FlowAlongInfinitesimalSymmetryOfLagrangianPreservesOnShellSpaceOfFieldHistories} we have the following important observation:
+
++-- {: .num_prop #NonTrivialImplicitInfinitesimalGaugeSymmetriesPbstructExistenceOfCauchySurfaces}
+###### Proposition
+**(spacetime-compactly supported and [[on-shell]] non-trivial [[infinitesimal symmetries of the Lagrangian]] [[obstruction|obstruc]] the [[covariant phase space]])**
+
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] over a [[Lorentzian manifold|Lorentzian]] [[spacetime]].
+
+If there exists a single [[infinitesimal symmetry of the Lagrangian]] $v$ (def. \ref{SymmetriesAndConservedCurrents}) such that
+
+1. it has compact spacetime support (def. \ref{SpacetimeSupport})
+
+1. it does not vanish [[on-shell]] (eq:ProlongedShellInJetBundle) (so not a trivial one, example \ref{TrivialImplicialInfinitesimalGaugeTransformations})
+
+then there does not exist any [[Cauchy surface]] (def. \ref{CauchySurface}) for the [[Euler-Lagrange equations|Euler-Lagrange]] [[equations of motion]] (def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime}) outside the spacetime support of $v$.
 
 =--
 
-+-- {: .num_remark #ImplicitGaugeTransformationTerminology}
-###### Remark
-**(terminology)**
++-- {: .proof}
+###### Proof
 
-We say "implicit" in def. \ref{ImplicitInfinitesimalGaugeSymmetry} in order to distinguish from their "explicit" incarnations
-[[action Lie algebroid|acting]] on [[field (physics)|fields]]:
-the morphisms in the [[action Lie algebroid]] whose [[Chevalley-Eilenberg algebra]]
-is the _[[BRST complex]]_ (example \ref{LocalOffShellBRSTComplex} below).
+By prop. \ref{FlowAlongInfinitesimalSymmetryOfLagrangianPreservesOnShellSpaceOfFieldHistories}
+the flow along $\hat v$ preserves the [[on-shell]] [[space of field histories]]. Now by the assumption that $\hat v$ does not vanish [[on-shell]] implies that this flow is non-trivial, hence that it does continuously change the [[field histories]] over some points of spacetime, while the assumption that it has compact spacetime support means that these changes are confined to a [[compact subset]] of [[spacetime]].
 
-Since the point of [[quantization]] of [[gauge field theory]] via [[causal perturbation theory]]
-is that it does _not apply_ as long as there are non-trivial implicit infinitesimal gauge symmetries
-present (prop. \ref{NonTrivialImplicitInfinitesimalGaugeSymmetriesPbstructExistenceOfCauchySurfaces} below),
-but only applies once all implicit infinitesimal
-gauge symmetries have been made explicit (by the [[BV-BRST complex]]) the distinction is relevant.
+This means that there is a continuum of solutions to the [[equations of motion]] whose restriction to the [[infinitesimal neighbourhood]] of any [[codimension]]-1 suface $\Sigma_p \hookrightarrow \Sigma$ outside of this compact support coincides. Therefore this restriction map is not an [[isomorphism]] and $\Sigma_p$ not a [[Cauchy surface]] for the [[equations of motion]].
 
 =--
 
-
-There always exist "trivial" implicit infinitesimal gauge transformations:
+Notice that there always exist spacetime-compactly supported infinitesimal symmetries that however do vanish [[on-shell]]:
 
 +-- {: .num_example #TrivialImplicialInfinitesimalGaugeTransformations}
 ###### Example
@@ -21234,8 +21269,7 @@ $$
 $$
 
 Here the first steps are just recalling those in the proof of [[Noether's theorem|Noether's theorem I]]
-(prop. \ref{NoethersFirstTheorem})
-while the last step follows with the skew-symmetry of $\kappa$.
+(prop. \ref{NoethersFirstTheorem}) while the last step follows with the skew-symmetry of $\kappa$.
 
 Notice that this means that
 
@@ -21250,70 +21284,26 @@ are called the _trivial infinitesimal gauge transformations_.
 
 (e.g. [Henneaux 90, section 2.5](BRST+complex#Henneaux90))
 
-
-
-
-
-+-- {: .num_prop #NonTrivialImplicitInfinitesimalGaugeSymmetriesPbstructExistenceOfCauchySurfaces}
-###### Proposition
-**(non-trivial implicit [[infinitesimal gauge symmetries]] [[obstruction|obstruct]] existence of [[Cauchy surfaces]])**
-
-Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]].
-
-If there exists a single implicit infinitesimal gauge transformation $\epsilon$ (def. \ref{ImplicitInfinitesimalGaugeSymmetry})
-that does not vanish [[on-shell]] (so not a trivial one, example \ref{TrivialImplicialInfinitesimalGaugeTransformations})
-then there does not exist any [[Cauchy surface]] (def. \ref{CauchySurface}) for the [[Euler-Lagrange equations|Euler-Lagrange]] [[equations of motion]] (def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime}) outside of $supp_\Sigma(v)$.
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-
-By prop. \ref{FlowAlongImplicitInfinitesimalGaugeSymmetryPreservesOnShellSpaceofFieldHistories}
-the flow along $\hat \epsilon$ preserves the on-shell space of field histories.
-
-But if $\hat \epsilon$ is non-trivial, in that it does not vanish on-shell,
-then the flow along $\epsilon$ continuously changes solutions away from the would-be Cauchy surface.
-This means that there are infinitely many solutions to the equations of motion that restrict to the
-same solution on the would-be Cauchy surface, which contradicts the defining property of an
-actual Cauchy surface.
-
-=--
-
 $\,$
 
 
-After these generalities on implicit [[infinitesimal gauge symmetries]] we turn attention to a more
-structured special class of them. To that end, recall that an [[evolutionary vector field]] (def. \ref{EvolutionaryVectorField})
-is a bundle homomorphism of the form
+**[[infinitesimal gauge symmetries]]**
+ {#InfinitesimalGauge}
 
-$$
-  \array{
-    J^\infty_\Sigma(E)
-    && \overset{v}{\longrightarrow} &&
-    T_\Sigma E
-    \\
-    & {}_{\mathllap{jb_{\infty,0}}}\searrow && \swarrow_{\mathllap{}}
-    \\
-    && E
-  }
-$$
+Prop. \ref{NonTrivialImplicitInfinitesimalGaugeSymmetriesPbstructExistenceOfCauchySurfaces} says that  the problem is to identify the presence of spacetime-compactly supported infinitesimal symmetries that are on-shell non-trivial.
 
-and that this is an [[infinitesimal symmetry of the Lagrangian]] (def. \ref{SymmetriesAndConservedCurrents}) if $\iota_{v} \delta_{EL}\mathbf{L}$ is horizontally exact.
+One way they may be identified is if [[infinitesimal symmetries]] appear in _linearly [[dependent type|parameterized collections]]_, where the parameter itself is an _arbitrary_ [[spacetime]]-dependent [[section]] of some [[fiber bundle]] (hence is itself like a [[field history]]), because then choosing the parameter to have [[compact support]] yields an [[infinitesimal gauge symmetry]]. In this case we speak of a _[[gauge parameter]]_ (def. \ref{GaugeParameters} below). It turns out that in most examples of [[Lagrangian field theories]] of interest, the [[infinitesimal gauge symmetries]] all come from [[gauge parameters]] this way, and often "[[gauge symmetry]]" is undertood by default to refer to this case. Therefore we now consider this case in detail.
 
-We now parameterize such morphisms by another bundle:
 
-+-- {: .num_defn #GaugeParametrizedInfinitesimalGaugeTransformation}
++-- {: .num_defn #GaugeParameters}
 ###### Definition
-**(irreducible closed [[gauge parameters]])**
+**([[infinitesimal gauge symmetries]])**
 
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}).
 
-Then a collection of _irreducible closed [[gauge parameters]]_ for $(E,\mathbf{L})$ is
+Then a collection of _[[infinitesimal gauge symmetries]]_ of $(E,\mathbf{L})$ is
 
-1. a [[vector bundle]] $\mathcal{G} \overset{gb}{\longrightarrow} \Sigma$ over [[spacetime]] $\Sigma$;
-   the [[sections]] $\epsilon \in \Gamma_\Sigma(\mathcal{G})$ (def. \ref{Sections}) of which are to be called the _[[gauge parameters]]_;
+1. a [[vector bundle]] $\mathcal{G} \overset{gb}{\longrightarrow} \Sigma$ over [[spacetime]] $\Sigma$ of [[positive number|positive]] [[rank of a vector bundle|rank]], to be called a _[[gauge parameter]] bundle_;
 
 1. a [[bundle morphism]] (def. \ref{BundlesAndFibers}) $R$ from the
    [[jet bundle]] of the  [[fiber product]] $\mathcal{G} \times_\Sigma E$ with the [[field bundle]] (def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) to the [[vertical tangent bundle]] of $E$ (def. \ref{VerticalTangentBundle}):
@@ -21334,26 +21324,14 @@ Then a collection of _irreducible closed [[gauge parameters]]_ for $(E,\mathbf{L
 
 such that
 
-1. $R$ is [[linear map|linear]] in the first argument;
+1. $R$ is [[linear map|linear]] in the first argument (in the [[gauge parameter]]);
 
 1. $i \circ R$ is an [[evolutionary vector field]] on $\mathcal{G} \times_\Sigma E$ (def. \ref{EvolutionaryVectorField});
 
-1. $R(e,-)$ is an [[infinitesimal symmetry of the Lagrangian]] (def. \ref{SymmetriesAndConservedCurrents})
-   for every point $e \in J^\infty_\Sigma(\mathcal{G})$ (i.e. for every jet of a gauge parameter);
+1. $R$ is an [[infinitesimal symmetry of the Lagrangian]] (def. \ref{SymmetriesAndConservedCurrents}) in the second argument.
 
-1. $\mathcal{G}$ is closed under the [[Lie bracket]] of [[evolutionary vector fields]] (prop. \ref{EvolutionaryVectorFieldLieAlgebra})
-   in that for $e_1, e_2$ two points in the same fiber of $J^\infty_\Sigma(E)$ then there
-   exists a unique $[e_1,e_2] \in J^\infty_\Sigma(E)$ in that fiber such that
-
-   $$
-     \left[\widehat R(e_1,-), \widehat R(e_1,-)\right] = \widehat R([e_1, e_2],-)
-     \,.
-   $$
-
-   We call this the corresponding  _irreducible closed gauge Lie algebra_ of the Lagrangian theory (if it exists).
-
-
-In components this means that, if the [[field bundle]] $E$ is a [[trivial vector bundle]] with [[field (physics)|field]] [[fiber]] coordinates
+We may express this equivalently in components
+in the case that the [[field bundle]] $E$ is a [[trivial vector bundle]] with [[field (physics)|field]] [[fiber]] coordinates
 $(\phi^a)$ (example \ref{TrivialVectorBundleAsAFieldBundle})
 and also $\mathcal{G}$ happens to be a [[trivial vector bundle]]
 
@@ -21361,24 +21339,20 @@ $$
   \mathcal{G} = \Sigma \times \mathfrak{g}
 $$
 
-so that $R$ is a bundle morphism of the form
+where $\mathfrak{g}$ is a [[vector space]] with [[coordinate functions]] $\{c^\alpha\}$.
 
-$$
-  R \;\colon\; J^\infty_\Sigma(\mathfrak{g} \times E ) \longrightarrow T_\Sigma E
-$$
-
-then for $\epsilon \in \Gamma_{\Sigma}(\mathcal{G}) = C^\infty(\Sigma,\mathcal{g})$ a [[gauge parameter]], $v_\epsilon$ is of the form
+Then $R$ may be expanded in the form
 
 $$
   \label{CoordinateExpressionForGaugeParameterized}
-  v_\epsilon
-    \;=\;
+  R
+  \;=\;
   \left(
-    \epsilon^\alpha R^a_\alpha
+    c^\alpha R^a_\alpha
     +
-    \frac{d \epsilon^\alpha}{d x^\mu} R^{a \mu}_\alpha
+    c^\alpha_{,\mu} R^{a \mu}_\alpha
     +
-    \frac{d^2 \epsilon^\alpha}{d x^{\mu_1} d x^{\mu_2}} R^{a \mu_1 \mu_2}_\alpha
+    c^\alpha_{,\mu_1 \mu_2} R^{a \mu_1 \mu_2}_\alpha
     +
     \cdots
   \right)
@@ -21386,37 +21360,125 @@ $$
   \,,
 $$
 
-where the $R^{a \mu_1 \cdots \mu_k}_\alpha$ are smooth functions on the jet bundle of $E$,
-locally of finite order (prop. \ref{JetBundleIsLocallyProManifold}).
+where the components
+
+$$
+  R^{a \mu_1 \cdots \mu_k}_\alpha
+  =
+  R^{a \mu_1 \cdots \mu_k}_\alpha\left( (\phi^b), (\phi^b_{,\mu}), \cdots \right)
+  \;\in\; \Omega^{0,0}_\Sigma(E) = C^\infty(J^\infty_\Sigma(E))
+$$
+
+are [[smooth functions]] on the jet bundle of $E$,
+locally of finite order (prop. \ref{JetBundleIsLocallyProManifold}), and such that the [[Lie derivative]]
+of the [[Lagrangian density]] along $R(e)$ is a [[total spacetime derivative]], which by [[Noether's theorem|Noether's theorem I]] (prop. \ref{NoethersFirstTheorem}) mean in components that
+
+$$
+  \left(
+    c^\alpha R^a_\alpha
+    +
+    c^\alpha_{,\mu} R^{a \mu}_\alpha
+    +
+    c^\alpha_{,\mu_1 \mu_2} R^{a \mu_1 \mu_2}_\alpha
+    +
+    \cdots
+  \right)
+  \frac{\delta_{EL} \mathbf{L}}{\delta \phi^a}
+  \;=\;
+  \frac{d}{d x^\mu} J^\mu_{R(e)}
+  \,.
+$$
 
 =--
 
+The point is that [[infinitesimal gauge symmetries]] in particular yield spacetime-compactly supported infinitesimal gauge symmetries:
+
++-- {: .num_remark #GaugeParametrizedInfinitesimalGaugeTransformation}
+###### Remark
+**([[infinitesimal gauge symmetries]] yield spacetime-compactly supported [[infinitesimal symmetries of the Lagrangian]])**
+
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) and $\mathcal{G} \overset{gb}{\to} \Sigma$ a bundle of [[gauge parameters]] for it (def. \ref{GaugeParameters}) with gauge parametrization
+
+$$
+  J^\infty_\Sigma(\mathcal{G} \times_\Sigma E)
+  \overset{R}{\longrightarrow}
+  T_\Sigma E
+  \,.
+$$
+
+Then for _every_ smooth [[section]] $\epsilon \in \Gamma_\Sigma(\mathcal{G})$ of the [[gauge parameter]] bundle (def. \ref{Sections})
+there is an induced [[infinitesimal symmetry of the Lagrangian]] (def. \ref{SymmetriesAndConservedCurrents}) given by the [[composition]] of $R$ with the [[jet prolongation]] of $\epsilon$ (def. \ref{JetProlongation})
+
+$$
+  R(\epsilon)
+  \;\colon\;
+  J^\infty_\Sigma(E)
+    =
+  \Sigma_ \times_\Sigma J^\infty_\Sigma(E)
+    \overset{(j^\infty_\Sigma(eps),id)}{\longrightarrow}
+  J^\infty_\Sigma(\mathcal{G} \times_\Sigma E)
+    \overset{R}{\longrightarrow}
+  T_\Sigma E
+  \,.
+$$
+
+In the components (eq:CoordinateExpressionForGaugeParameterized) this means that
+
+$$
+  R(\epsilon)
+  \;=\;
+  \left(
+    \epsilon^\alpha R^a_\alpha
+    +
+    \frac{\partial^2 \epsilon^\alpha}{\partial x^\mu} R^{a \mu}_\alpha
+    +
+    \frac{\partial \epsilon^\alpha}{\partial x^\mu \partial x^\nu} R^{a \mu_1 \mu_2}_\alpha
+    +
+    \cdots
+  \right)
+  \,,
+$$
+
+where now $\frac{\partial^k \epsilon^\alpha}{\partial x^{\mu_1} \cdots \partial x^{\mu_k}}((x^\mu))$  are the actual [[spacetime]] [[partial derivatives]] of the [[gauge parameter]] [[section]].
+
+In particular, since $\mathcal{G} \overset{gb}{\to} \Sigma$ is assumed to be a [[vector bundle]], there always exists [[gauge parameter]] [[sections]] $\epsilon$ that have [[compact support]] ([[bump functions]]). For such compactly supported $\epsilon$ the infinitesimal symmetry $R(\epsilon)$ is
+spacetime-compactly supported as in prop. \ref{NonTrivialImplicitInfinitesimalGaugeSymmetriesPbstructExistenceOfCauchySurfaces}.
+
+=--
+
+The following is a way to identify [[infinitesimal gauge symmetries]]:
 
 +-- {: .num_prop #NoetherIdentities}
 ###### Proposition
 **([[Noether's theorem|Noether's theorem II]] -- [[Noether identities]])**
 
-Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}).
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) and let $\mathal{G} \overset{gb}{\to} \Sigma$ be a [[vector bundle]].
 
-A [[gauge parameter|gauge parameterized]] [[evolutionary vector field]] (eq:CoordinateExpressionForGaugeParameterized)
+The a [[bundle morphism]] of the form
 
 $$
-  v_\epsilon
+  J^\infty_\Sigma(\mathcal{G} \times_\Sigma E) \overset{R}{\longrightarrow} T_\Sigma E
+$$
+
+a collection of [[infinitesimal gauge symmetries]] (def. \ref{GaugeParameters}) with local components (eq:CoordinateExpressionForGaugeParameterized)
+
+$$
+  R
   \;=\;
   \left(
-    \epsilon^\alpha R^a_\alpha
+    c^\alpha R^a_\alpha
     +
-    \epsilon^\alpha_{,\mu} R^{a \mu}_\alpha
+    c^\alpha_{,\mu} R^{a \mu}_\alpha
     +
-    \epsilon^\alpha_{,\mu_1 \mu_2} R^{a \mu_1 \mu_2}_\alpha
+    c^\alpha_{,\mu_1 \mu_2} R^{a \mu_1 \mu_2}_\alpha
     +
     \cdots
   \right)
   \partial_{\phi^a}
 $$
 
-is an [[infinitesimal symmetry of the Lagrangian]] for all [[gauge parameters]] $((\epsilon^\alpha), (\epsilon^\alpha_{,\mu}), \cdots)$ precisely if the [[Euler-Lagrange form]] $\delta_{EL}\mathbf{L}$ (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime})
-satisfies the following relation:
+precisely if the [[Euler-Lagrange form]] $\delta_{EL}\mathbf{L}$ (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime})
+satisfies the following condition:
 
 $$
   \left(
@@ -21441,12 +21503,12 @@ These relations are called the _[[Noether identities]]_ of the [[Euler-Lagrange 
 ###### Proof
 
 By [[Noether's theorem|Noether's theorem I]],
-$v_\epsilon$ is an [[infinitesimal symmetry of the Lagrangian]] precisely if the contraction (def. \ref{ContractionOfFormsWithVectorFields})
-of $v_\epsilon$ with the [[Euler-Lagrange form]] (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime})
+$R$ is an [[infinitesimal symmetry of the Lagrangian]] precisely if the contraction (def. \ref{ContractionOfFormsWithVectorFields})
+of $R$ with the [[Euler-Lagrange form]] (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime})
 is horizontally exact:
 
 $$
-  \iota_{v_\epsilon} \delta_{EL}\mathbf{L} = d J_{\hat v}
+  \iota_{R} \delta_{EL}\mathbf{L} = d J_{\hat R}
   \,.
 $$
 
@@ -21454,19 +21516,19 @@ From (eq:CoordinateExpressionForGaugeParameterized) this means that
 
 $$
   \begin{aligned}
-    d J_{\hat v}
+    d J_{\hat R}
     & =
-    \iota_{v_\epsilon} \delta_{EL} \mathbf{L}
+    \iota_{R} \delta_{EL} \mathbf{L}
     \\
     & =
     \underset{k \in \mathbb{N}}{\sum}
-      \frac{d^k \epsilon^\alpha}{d x^{\mu_1} \cdot d x^{\mu_k}} R^{a \mu_1 \cdots \mu_k}_\alpha
+      c^\alpha_{\mu_1 \cdots \mu_k} R^{a \mu_1 \cdots \mu_k}_\alpha
       \frac{\delta_{EL} \mathbf{L}}{\delta \phi^a}
     \\
     & =
     \underset{A}{
     \underbrace{
-    \epsilon^\alpha
+    c^\alpha
     \underset{k \in \mathbb{N}}{\sum}
       (-1)^k  R^{a \mu_1 \cdots \mu_k}_\alpha
       \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}}
@@ -21479,13 +21541,13 @@ $$
   \end{aligned}
 $$
 
-where in the last step we used [[integration by parts]] to move the [[total spacetime derivatives]] off of $\epsilon^\alpha$, thereby picking up some horizontally exact correction term, as show.
+where in the last step we used jet-level [[integration by parts]] to move the [[total spacetime derivatives]] off of $c^\alpha$, thereby picking up some horizontally exact correction term, as show.
 
 This means that the term $A$ over the brace is horizontally exact:
 
 $$
   \label{NoetherIdentityTermIsHorizontallyExact}
-  \epsilon^\alpha
+  c^\alpha
    \underset{k \in \mathbb{N}}{\sum}
      (-1)^k  R^{a \mu_1 \cdots \mu_k}_\alpha
       \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}}
@@ -21496,41 +21558,90 @@ $$
 
 But now the term on the left is independent of the jet coordinates $\epsilon^\alpha_{,\mu_1 \cdots \mu_k}$
 of positive order $k \geq 1$, while the horizontal derivative increases the dependency on the jet order by one.
-Therefore the term on the left is horizontally exact precisely if it vanishes, which is the case precisely if the coefficients of $\epsilon^\alpha$ vanish, which is the statement of the Noether identities.
+Therefore the term on the left is horizontally exact precisely if it vanishes, which is the case precisely if the coefficients of $c^\alpha$ vanish, which is the statement of the Noether identities.
 
-Alternatively we may reach this conclusion from (eq:NoetherIdentityTermIsHorizontallyExact) by applying to both sides of (eq:NoetherIdentityTermIsHorizontallyExact) the [[Euler-Lagrange derivative]] (eq:EulerLagrangeEquationGeneral) _with respect to $\epsilon^\alpha$_. On the left this yields again the coefficients of $\epsilon^\alpha$,
+Alternatively we may reach this conclusion from (eq:NoetherIdentityTermIsHorizontallyExact) by applying to both sides of (eq:NoetherIdentityTermIsHorizontallyExact) the [[Euler-Lagrange derivative]] (eq:EulerLagrangeEquationGeneral) _with respect to $c^\alpha$_. On the left this yields again the coefficients of $c^\alpha$,
 while by the argument from example \ref{TrivialLagrangianDensities} it makes the right hand side vanish.
 
 =--
 
 
 
+
+
+$\,$
+
+
+
+
 +-- {: .num_example #InfinitesimalGaugeSymmetryElectromagnetism}
 ###### Example
-**(implicit [[infinitesimal gauge symmetry]] of [[electromagnetic field]])**
+**([[infinitesimal gauge symmetry]] of [[electromagnetic field]])**
 
-Consider the [[Lagrangian field theory]] of [[free field|free]] [[electromagnetism]]
-on [[Minkowski spacetime]] $\Sigma$ from example \ref{ElectromagnetismLagrangianDensity}.
+Consider the [[Lagrangian field theory]]  $(E,\mathbf{L})$ of [[free field|free]] [[electromagnetism]]
+on [[Minkowski spacetime]] $\Sigma$ from example \ref{ElectromagnetismLagrangianDensity}. With field coordinates denoted $((x^\mu), (a_\mu))$ the [[Lagrangian density]] is
+
+$$
+  \mathbf{L}
+  \;=\;
+  \tfrac{1}{2} f_{\mu \nu} f^{\mu \nu}
+  \, dvol_\Sigma
+  \,,
+$$
+
+where $f_{\mu \nu} \coloneqq a_{\nu,\mu}$ is the universal [[Faraday tensor]] from example \ref{JetFaraday}.
 
 Let $\mathcal{G} \coloneqq \Sigma \times \mathbb{R}$ be the [[trivial line bundle]], regarded as a
-[[gauge parameter]] bundle (def. \ref{GaugeParametrizedInfinitesimalGaugeTransformation}).
-Then the [[gauge parameter|gauge parametrized]] [[evolutionary vector field]] (eq:CoordinateExpressionForGaugeParameterized) given on a gauge parameter
+[[gauge parameter]] bundle (def. \ref{GaugeParametrizedInfinitesimalGaugeTransformation}) with coordinate functions $((x^\mu), c)$.
+
+Then a [[gauge parameter|gauge parametrized]] [[evolutionary vector field]] (eq:CoordinateExpressionForGaugeParameterized) is given by
 
 $$
-  \epsilon \in \Gamma_\Sigma(\mathcal{G}) = C^\infty(\Sigma)
+  R
+  \;=\;
+  c_{,\mu} \partial_{a_\mu}
 $$
 
-by
+with prolongation (prop. \ref{EvolutionaryVectorFieldProlongation})
 
 $$
-  \label{EMImplicitGaugeSymmetry}
-  v_\epsilon \coloneqq \frac{d \epsilon}{d x^\mu} \partial_{a_\mu}
+  \label{EMProlongedSymmetryVectorField}
+  \widehat R
+  \;=\;
+  c_{,\mu} \partial_{a_\mu}
+    +
+  c_{,\mu \nu} \partial_{a_{\mu,\nu}}
+    +
+  \cdots
+  \,.
 $$
 
-is a gauge paramterized implicit [[infinitesimal gauge transformation]] according to
-def. \ref{GaugeParametrizedInfinitesimalGaugeTransformation}.
+This is because already the universal [[Faraday tensor]] is [[invariant]] under this flow:
 
-This is because the [[Euler-Lagrange form]]
+$$
+  \begin{aligned}
+    \mathcal{L}_R f_{\mu \nu}
+    &=
+    \tfrac{1}{2}
+    c_{,\mu' \nu'} \partial_{a_{\mu',\nu'}}
+    \left(
+      a_{\nu, \mu} - a_{\mu,\nu}
+    \right)
+    \\
+    & =
+    \tfrac{1}{2}
+    \left(
+      c_{,\nu\mu} - c_{,\mu \nu}
+    \right)
+    \\
+    & = 0
+    \,,
+  \end{aligned}
+$$
+
+because [[partial derivatives]] commute with each other: $c_{,\mu \nu} = c_{,\nu \mu}$ (eq:JetCoodinatesSymmetry).
+
+Equivalently, the [[Euler-Lagrange form]]
 
 $$
   \delta_{EL}\mathbf{L}
@@ -21544,52 +21655,171 @@ satisfies the following [[Noether identity]] (prop. \ref{NoetherIdentities}):
 
 $$
   \frac{d}{d x^\mu} \frac{d}{d x^\nu} f^{\mu \nu} = 0
-  \,.
+  \,,
 $$
 
-This is simply because $f^{\mu \nu} = -f^{\nu \mu}$ is skew-symmetric by definition (eq:FaradayTensorJet),
-while [[partial derivatives]] commute with each other.
+again due to the fact that partial derivatives commute with each other.
 
 This is the archetypical _[[infinitesimal gauge symmetry]]_ that gives [[gauge theory]] its name.
 
-The prolongation (prop. \ref{EvolutionaryVectorFieldProlongation}) of the vector field $v_\epsilon$ (eq:EMImplicitGaugeSymmetry)
-is
+=--
+
+More generally:
+
++-- {: .num_example #InfinitesimalGaugeSymmetryOfYangMillsTheory}
+###### Example
+**([[infinitesimal gauge symmetry]] of [[Yang-Mills theory]])**
+
+For $\mathfrak{g}$ a [[semisimple Lie algebra]],
+consider the [[Lagrangian field theory]] of [[Yang-Mills theory]] on [[Minkowski spacetime]] from example \ref{YangMillsLagrangian}, with [[Lagrangian density]]
 
 $$
-  \label{EMProlongedSymmetryVectorField}
-  \hat v_\epsilon
-    \;=\;
-  \frac{d \epsilon}{d x^\mu} \partial_{a_\mu}
-  +
-  \frac{d^2 \epsilon}{d x^\mu d x^\nu} \partial_{a_{\mu,\nu}}
-  +
-  \frac{d^3 \epsilon}{d x^\mu d x^{\nu_1} d x^{\nu_2}} \partial_{a_{\mu, \nu_1 \nu_2}}
-  +
-  \cdots
+  \mathbf{L}
+  \;=\;
+  \tfrac{1}{2} f^\alpha_{\mu \nu} f_\alpha^{\mu \nu}
 $$
 
-This shows that the [[Lagrangian density]] of free electromagnetism is in fact strictly
-gauge invariant (not just up to a horizontally exact piece)
+given by the universal [[field strength]]
 
 $$
-  \mathcal{L}_{\hat v_\epsilon} \mathbf{L}_{EM} = 0
-$$
-
-as is its [[Euler-Lagrange form]]
-
-$$
-  \mathcal{L}_{\hat v_{\epsilon}} \delta_{EL}\mathbf{L} = 0
+  f^\alpha_{\mu \nu}
+  \;\coloneqq\;
+  \tfrac{1}{2}
+  \left(
+    a^\alpha_{[\nu,\mu]}
+    +
+    \tfrac{1}{2} \gamma^\alpha_{\beta \gamma} a^\beta_{[\mu} a^\gamma_{\nu]}
+  \right)
   \,.
 $$
 
+Let $\mathcal{G} \coloneqq \Sigma \times \mathfrak{g}$ be the [[trivial vector bundle]] with [[fiber]] $\mathfrak{g}$, regarded as a
+[[gauge parameter]] bundle (def. \ref{GaugeParametrizedInfinitesimalGaugeTransformation}) with coordinate functions $((x^\mu), c^\alpha)$.
+
+Then a [[gauge parameter|gauge parametrized]] [[evolutionary vector field]] (eq:CoordinateExpressionForGaugeParameterized) is given by
+
+$$
+  R
+  \;=\;
+  \left(
+    c^\alpha_{,\mu}
+    -
+    \gamma^\alpha_{\beta \gamma} c^\beta a^\gamma_\mu
+  \right)
+  \partial_{a^\alpha_\mu}
+$$
+
+with prolongation (prop. \ref{EvolutionaryVectorFieldProlongation})
+
+$$
+  \widehat{R}
+  \;=\;
+  \left(
+    c^\alpha_{,\mu}
+    -
+    \gamma^\alpha_{\beta \gamma} c^\beta a^\gamma_\mu
+  \right)
+  \partial_{a^\alpha_\mu}
+  \;+\;
+  \left(
+    c^\alpha_{,\mu \nu}
+    -
+    \gamma^\alpha_{\beta \gamma}
+    \left(
+      c^\beta_{,\nu} a^\gamma_\mu
+      +
+      c^\beta a^\gamma_{\mu,\nu}
+    \right)
+  \right)
+  \partial_{a^\alpha_{\mu,\nu}}
+  \;+\;
+  \cdots
+  \,.
+$$
+
+We compute the [[derivative]] of the [[Lagrangian function]] along this vector field:
+
+$$
+  \begin{aligned}
+    \widehat{R}
+    \tfrac{1}{2} f^\alpha_{\mu \nu} f_\alpha^{\mu \nu}
+    & =
+    \left(
+      R f^\alpha_{\mu \nu}
+    \right)
+    f_\alpha^{\mu \nu}
+    \\
+    & =
+    \left(
+      R
+      \left(
+        a_{\nu,\mu}
+        +
+        \tfrac{1}{2}\gamma^\alpha_{\beta \gamma} a^\beta_{\mu} a^\gamma_{\nu}
+      \right)
+    \right)
+    f_\alpha^{\mu \nu}
+    \\
+    & =
+    \left(
+      c^\alpha_{,\nu \mu}
+      -
+      \gamma^\alpha_{\beta \gamma}
+      \left(
+        c^\beta_{,\mu} a^\gamma_\nu
+        +
+        c^\beta a^\gamma_{\nu,\mu}
+      \right)
+      +
+      \gamma^\alpha_{\beta \gamma}
+      \left(
+        c^\beta_{,\mu}
+        -
+        \gamma^\beta_{\beta' \gamma'}
+        c^{\beta'} a^{\gamma'}_\mu
+      \right)
+      a^\gamma_{\nu}
+    \right)
+    f_\alpha^{\mu \nu}
+    \\
+    & =
+    - \gamma^{\alpha}_{\beta \gamma} c^\beta
+    \underset{
+      = 2 f^\gamma_{\mu \nu}
+    }{
+    \underbrace{
+      \left(
+        a^\gamma_{\nu,\mu}
+        +
+        \gamma^\gamma_{\beta' \gamma'}
+        a^{\beta'}_\mu a^{\gamma'}_\nu
+      \right)
+    }
+    }
+    f_\alpha{}^{\mu \nu}
+    \\
+    &=
+    2
+    \gamma_{\alpha \beta \gamma}
+    c^\alpha f^\beta_{\mu \nu} f^{\gamma \mu \nu}
+    \\
+    & = 0
+    \,.
+  \end{aligned}
+$$
+
+Here in the third step we used that $c^\alpha_{,\nu \mu} = + c^\alpha_{,\mu \nu}$ (eq:JetCoodinatesSymmetry), so that its contraction with the skew-symmetric $f_\alpha^{\mu\nu}$ vanishes, and in the last step we used that for a [[semisimple Lie algebra]] $\gamma_{\alpha \beta \gamma} \coloneqq k_{\alpha \alpha'} \gamma^{\alpha'}{}_{\beta \gamma}$ is totally skew symmetric.
+
+So the [[Lagrangian density]] of [[Yang-Mills theory]] is strictly invariant under these [[infinitesimal gauge symmetries]].
 
 =--
 
 
+$\,$
 
 
-
-
+**[[Lie algebra action]] and [[Lie algebroids]]**
+ {#LieAlgebraActionAndLieAlgebroids}
 
 
 
@@ -21637,6 +21867,49 @@ $$
 (with the [[Lie bracket]] of [[vector fields]] on the left).
 
 =--
+
+
+
++-- {: .num_defn #GaugeParametrizedInfinitesimalGaugeTransformationIrreducibleClosed}
+###### Definition
+**(irreducible closed [[gauge parameters]])**
+
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}). Then a collection
+
+$$
+  J^\infty_\Sigma(\mathcal{G} \times_\Sigma E) \overset{R}{\to} T_\Sigma E
+$$
+
+of [[infinitesimal gauge symmetries]] (def. \ref{GaugeParameters}) is called _irreducibly closed_ if it is closed under the [[Lie bracket]] of [[evolutionary vector fields]] (prop. \ref{EvolutionaryVectorFieldLieAlgebra}) in that there is a unique morphism
+
+$$
+  [-,-]
+  \;\colon\;
+  J^\infty_\Sigma(\mathcal{G}) \times_\Sigma J^\infty_\Sigma(\mathcal{G})
+  \longrightarrow
+  J^\infty_\Sigma(\mathcal{G})
+$$
+
+such that
+
+$$
+  \left[ R(-) , R(-)\right]
+  \;=\;
+  R([-,-])
+  \;\colon\;
+  J^\infty_\Sigma(\mathcal{G})
+  \times_\Sigma J^\infty_\Sigma(\mathcal{G})
+  \times_\Sigma J^\infty_\Sigma(E)
+  \longrightarrow
+  T_\Sigma(E)
+  \,,
+$$
+
+where on the left we have the Lie bracket of eolutionary vector fields from prop. \ref{EvolutionaryVectorFieldLieAlgebra}.
+
+
+=--
+
 
 +-- {: .num_example #ActionOfGaugeParameterizedInfinitesimalGaugeSymmetriesOnJetBundle}
 ###### Example
@@ -21964,6 +22237,11 @@ $$
 $$
 
 =--
+
+$\,$
+
+**[[local BRST complex|local]] [[off-shell]] [[BRST complex]]**
+ {#BRSTComplex}
 
 
 +-- {: .num_example #LocalOffShellBRSTComplex}
@@ -24765,7 +25043,6 @@ Since $g$ is a plain [[bump function]], its Fourier transform $\hat g$ is quickl
 This shows that microcausality in this case is related to conservation of momentum in th point interaction.
 
 More generally:
-
 
 
 
