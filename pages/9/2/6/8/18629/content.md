@@ -510,3 +510,6 @@ This is the statement of [Olver 95, theorem 5.53](#Olver95).
 [[!redirects infinitesimal symmetries of the Lagrangian]]
 
 [[!redirects infinitesimal symmetries of Lagrangians]]
+
+[[!redirects rigid infinitesimal symmetry of the Lagrangian]]
+[[!redirects rigid infinitesimal symmetries of the Lagrangian]]
