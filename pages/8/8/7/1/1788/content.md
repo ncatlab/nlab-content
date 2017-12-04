@@ -470,28 +470,70 @@ $\,$
 ###### Example
 **([[infinitesimal gauge symmetry]] of [[electromagnetic field]])**
 
-Consider the [[Lagrangian field theory]] of [[free field|free]] [[electromagnetism]]
-on [[Minkowski spacetime]] $\Sigma$ from example \ref{ElectromagnetismLagrangianDensity}.
+Consider the [[Lagrangian field theory]]  $(E,\mathbf{L})$ of [[free field|free]] [[electromagnetism]]
+on [[Minkowski spacetime]] $\Sigma$ from example \ref{ElectromagnetismLagrangianDensity}. With field coordinates denoted $((x^\mu), (a_\mu))$ the [[Lagrangian density]] is
+
+$$
+  \mathbf{L}
+  \;=\;
+  \tfrac{1}{2} f_{\mu \nu} f^{\mu \nu}
+  \, dvol_\Sigma
+  \,,
+$$
+
+where $f_{\mu \nu} \coloneqq a_{\nu,\mu}$ is the universal [[Faraday tensor]] from example \ref{JetFaraday}.
 
 Let $\mathcal{G} \coloneqq \Sigma \times \mathbb{R}$ be the [[trivial line bundle]], regarded as a
-[[gauge parameter]] bundle (def. \ref{GaugeParametrizedInfinitesimalGaugeTransformation}).
-Then the [[gauge parameter|gauge parametrized]] [[evolutionary vector field]] (eq:CoordinateExpressionForGaugeParameterized) given on a gauge parameter
+[[gauge parameter]] bundle (def. \ref{GaugeParametrizedInfinitesimalGaugeTransformation}) with coordinate functions $((x^\mu), c)$.
+
+Then a [[gauge parameter|gauge parametrized]] [[evolutionary vector field]] (eq:CoordinateExpressionForGaugeParameterized) is given by
 
 $$
-  \epsilon \in \Gamma_\Sigma(\mathcal{G}) = C^\infty(\Sigma)
+  R
+  \;=\;
+  c_{,\mu} \partial_{a_\mu} 
 $$
 
-by
+with prolongation (prop. \ref{EvolutionaryVectorFieldProlongation})
 
 $$
-  \label{EMImplicitGaugeSymmetry}
-  v_\epsilon \coloneqq \frac{d \epsilon}{d x^\mu} \partial_{a_\mu}
+  \label{EMProlongedSymmetryVectorField}
+  \widehat R
+  \;=\;
+  c_{,\mu} \partial_{a_\mu} 
+    +  
+  c_{,\mu \nu} \partial_{a_{\mu,\nu}}
+    + 
+  \cdots
+  \,.
 $$
 
-is a gauge paramterized implicit [[infinitesimal gauge transformation]] according to
-def. \ref{GaugeParametrizedInfinitesimalGaugeTransformation}.
+This is because already the universal [[Faraday tensor]] is [[invariant]] under this flow:
 
-This is because the [[Euler-Lagrange form]]
+$$
+  \begin{aligned}
+    \mathcal{L}_R f_{\mu \nu}
+    &=
+    \tfrac{1}{2}
+    c_{,\mu' \nu'} \partial_{a_{\mu',\nu'}}
+    \left(
+      a_{\nu, \mu} - a_{\mu,\nu}
+    \right)
+    \\
+    & =
+    \tfrac{1}{2}
+    \left(
+      c_{,\nu\mu} - c_{,\mu \nu}
+    \right)
+    \\
+    & = 0
+    \,,
+  \end{aligned}
+$$
+
+because [[partial derivatives]] commute with each other: $c_{,\mu \nu} = c_{,\nu \mu}$ (eq:JetCoodinatesSymmetry).
+
+Equivalently, the [[Euler-Lagrange form]]
 
 $$
   \delta_{EL}\mathbf{L}
@@ -505,42 +547,132 @@ satisfies the following [[Noether identity]] (prop. \ref{NoetherIdentities}):
 
 $$
   \frac{d}{d x^\mu} \frac{d}{d x^\nu} f^{\mu \nu} = 0
-  \,.
+  \,,
 $$
 
-This is simply because $f^{\mu \nu} = -f^{\nu \mu}$ is skew-symmetric by definition (eq:FaradayTensorJet),
-while [[partial derivatives]] commute with each other.
+again due to the fact that partial derivatives commute with each other.
 
 This is the archetypical _[[infinitesimal gauge symmetry]]_ that gives [[gauge theory]] its name.
 
-The prolongation (prop. \ref{EvolutionaryVectorFieldProlongation}) of the vector field $v_\epsilon$ (eq:EMImplicitGaugeSymmetry)
-is
+=--
+
+More generally:
+
++-- {: .num_example}
+###### Example
+
+For $\mathfrak{g}$ a [[semisimple Lie algebra]], 
+consider the [[Lagrangian field theory]] of [[Yang-Mills theory]] on [[Minkowski spacetime]] from example \ref{YangMillsLagrangian}, with [[Lagrangian density]]
 
 $$
-  \label{EMProlongedSymmetryVectorField}
-  \hat v_\epsilon
-    \;=\;
-  \frac{d \epsilon}{d x^\mu} \partial_{a_\mu}
-  +
-  \frac{d^2 \epsilon}{d x^\mu d x^\nu} \partial_{a_{\mu,\nu}}
-  +
-  \frac{d^3 \epsilon}{d x^\mu d x^{\nu_1} d x^{\nu_2}} \partial_{a_{\mu, \nu_1 \nu_2}}
-  +
-  \cdots
+  \mathbf{L}
+  \;=\;
+  \tfrac{1}{2} f^\alpha_{\mu \nu} f_\alpha^{\mu \nu}
 $$
 
-This shows that the [[Lagrangian density]] of free electromagnetism is in fact strictly
-gauge invariant (not just up to a horizontally exact piece)
+given by the universal [[field strength]]
 
 $$
-  \mathcal{L}_{\hat v_\epsilon} \mathbf{L}_{EM} = 0
-$$
-
-as is its [[Euler-Lagrange form]]
-
-$$
-  \mathcal{L}_{\hat v_{\epsilon}} \delta_{EL}\mathbf{L} = 0
+  f^\alpha_{\mu \nu}
+  \;\coloneqq\;
+  \tfrac{1}{2}
+  \left(
+    a^\alpha_{[\nu,\mu]}
+    +
+    \tfrac{1}{2} \gamma^\alpha_{\beta \gamma} a^\beta_{[\mu} a^\gamma_{\nu]}
+  \right)
   \,.
+$$
+
+Let $\mathcal{G} \coloneqq \Sigma \times \mathfrak{g}$ be the [[trivial vector bundle]] with [[fiber]] $\mathfrak{g}$, regarded as a
+[[gauge parameter]] bundle (def. \ref{GaugeParametrizedInfinitesimalGaugeTransformation}) with coordinate functions $((x^\mu), c^\alpha)$.
+
+Then a [[gauge parameter|gauge parametrized]] [[evolutionary vector field]] (eq:CoordinateExpressionForGaugeParameterized) is given by
+
+$$
+  R
+  \;=\;
+  \left(
+    c^\alpha_{,\mu} 
+    +
+    \tfrac{1}{2}\gamma^\alpha_{\beta \gamma} c^\beta a^\gamma_\mu 
+  \right)
+  \partial_{a^\alpha_\mu} 
+$$
+
+with prolongation (prop. \ref{EvolutionaryVectorFieldProlongation})
+
+$$
+  \widehat{R}
+  \;=\;
+  \left(
+    c^\alpha_{,\mu} 
+    +
+    \tfrac{1}{2}\gamma^\alpha_{\beta \gamma} c^\beta a^\gamma_\mu 
+  \right)
+  \partial_{a^\alpha_\mu} 
+  \;+\;
+  \left(
+    c^\alpha_{,\mu \nu} 
+    +
+    \tfrac{1}{2}\gamma^\alpha_{\beta \gamma} 
+    \left(
+      c^\beta_{,\nu} a^\gamma_\mu 
+      + 
+      c^\beta a^\gamma_{\mu,\nu}
+    \right)
+  \right)
+  \partial_{a^\alpha_{\mu,\nu}} 
+  \;+\;
+  \cdots
+  \,.
+$$
+
+To see this
+
+$$
+  \begin{aligned}
+    \widehat{R}
+    \tfrac{1}{2} f^\alpha_{\mu \nu} f_\alpha^{\mu \nu}
+    & =
+    \left(
+      R f^\alpha_{\mu \nu}
+    \right)
+    f_\alpha^{\mu \nu}
+    \\
+    & =
+    \left(
+      R 
+      \left(
+        a_{\nu,\mu}
+        +
+        \tfrac{1}{2}\gamma^\alpha_{\beta \gamma} a^\beta_{\mu} a^\gamma_{\nu}
+      \right)
+    \right)
+    f_\alpha^{\mu \nu}
+    \\
+    & =
+    \left(
+      c^\alpha_{,\nu \mu}
+      +
+      \tfrac{1}{2}\gamma^\alpha_{\beta \gamma} 
+      \left(
+        c^\beta_{,\mu} a^\gamma_\nu
+        + 
+        c^\beta a^\gamma_{\nu,\mu}
+      \right)
+      +
+      \gamma^\alpha_{\beta \gamma}
+      \left(  
+        c^\beta_{,\mu} 
+        +
+        \tfrac{1}{2}\gamma^\beta_{\beta' \gamma'} 
+        c^{\beta'} a^{\gamma'}_\mu   
+      \right)
+      a^\gamma_{\nu}
+    \right)
+    f_\alpha^{\mu \nu}
+  \end{aligned}  
 $$
 
 
