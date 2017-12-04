@@ -82,7 +82,7 @@ $\,$
 |---------------------------|--------------------|------------------------|------------------|
 | [[electromagnetic field]] | expl. \ref{InfinitesimalGaugeSymmetryElectromagnetism}  | expl. \ref{LocalBRSTComplexForFreeElectromagneticFieldOnMinkowskiSpacetim} |  expl. \ref{NLGaugeFixingOfElectromagnetism}  |
 | [[Yang-Mills field]]      |   expl. \ref{InfinitesimalGaugeSymmetryOfYangMillsTheory}          |  ...     |   ...     |
-| [[B-field]]    |   ...  | ... |  ... |
+| [[B-field]]    |   expl. \ref{InfinitesimalGaugeSymmetryOfTheBField} |  expl. \ref{LocalBRSTComplexBFieldMinkowskiSpacetime}  |  ... |
 
 $\,$
 
@@ -21141,7 +21141,7 @@ $\,$
 |------|----------|------|
 | [[infinitesimal symmetry of the Lagrangian]] |  [[evolutionary vector field]] which leaves [[invariant]] the [[Lagrangian density]] up to a [[total spacetime derivative]] | def. \ref{SymmetriesAndConservedCurrents} |
 | spacetime-compactly supported [[infinitesimal symmetry of the Lagrangian]] | [[obstruction|obstructs]] existence of the [[covariant phase space]] (if non-trivial [[on-shell]]) | prop. \ref{NonTrivialImplicitInfinitesimalGaugeSymmetriesPbstructExistenceOfCauchySurfaces}  |
-| [[infinitesimal gauge symmetry]] | [[gauge parameter|gauge parameterized]] collection of [[infinitesimal symmetries of the Lagrangian]]; <br/> for [[compact-support|compactly supported]] [[gauge parameter]] this yields spacetime-compactly supported infinitesimal symmetries |  def. \ref{GaugeParameters} |
+| [[infinitesimal gauge symmetry]] | [[gauge parameter|gauge parameterized]] collection of [[infinitesimal symmetries of the Lagrangian]]; <br/> for [[compact support|compactly supported]] [[gauge parameter]] this yields spacetime-compactly supported infinitesimal symmetries |  def. \ref{GaugeParameters} |
 | [[rigid infinitesimal symmetry of the Lagrangian]] | infinitesimal symmetry modulo gauge symmetry |  def. \ref{RigidInfinitesimalSymmetriesOfTheLagrangian} |
 | generating set of [[gauge parameters]] | reflects all the [[Noether identities]] | remark \ref{GeneratingSetOfGaugeTransformations} |
 | closed [[gauge parameters]] | [[Lie bracket]] of [[infinitesimal gauge symmetries]] closes on [[gauge parameters]] | def. \ref{GaugeParametersClosed} |
@@ -21152,7 +21152,7 @@ Therefore the presence of [[infinitesimal symmetries of the Lagrangian]] with co
 which however implies its own solution, by indicating which [[relations]] ought to be promoted
 to "[[gauge equivalences|gauge]]" [[equivalences]].
 
-We may hard-wire these [[gauge equivalences]] into the very [[geometry]] of the types of [[field (physics)|fields]] 
+We may hard-wire these [[gauge equivalences]] into the very [[geometry]] of the types of [[field (physics)|fields]]
 by forming the [[homotopy quotient]] of the [[action]] of the [[infinitesimal gauge symmetries]] on the [[jet bundle]].
 This [[homotopy quotient]] is modeled by the  _[[action Lie algebroid]]_ (def. \ref{ActionLieAlgebroid} below).
 Its [[algebra of functions]] is the _[[local BRST complex]]_ of the theory.
@@ -21605,17 +21605,17 @@ It is then useful to introduce the following terminology:
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
 and let $J^\infty_\Sigma(\mathcal{G} \times_\Sigma E) \overset{R}{\longrightarrow} T_\Sigma E$
 be [[infinitesimal gauge symmetries]] (def.  \ref{GaugeParameters}) whose [[gauge parameters]]
-form a generating set (remark \ref{GeneratingSetOfGaugeTransformations}). 
+form a generating set (remark \ref{GeneratingSetOfGaugeTransformations}).
 
 Then the [[vector space]] of _[[rigid infinitesimal symmetries of the Lagrangian]]_ is the [[quotient space]]
 of the [[infinitesimal symmetries of the Lagrangian]] by the [[image]] of the [[infinitesimal gauge symmetries]]:
 
 $$
-  \left\{ \text{rigid infinitesimal symmetries} \right\} 
-    \;=\; 
+  \left\{ \text{rigid infinitesimal symmetries} \right\}
+    \;=\;
   \left\{
     \text{infinitesimal symmetries}
-  \right\} \,/\, 
+  \right\} \,/\,
   \left\{ \text{infinitesimal gauge symmetries}  \right\}
   \,.
 $$
@@ -21898,6 +21898,7 @@ $$
 with prolongation (prop. \ref{EvolutionaryVectorFieldProlongation})
 
 $$
+  \label{InfinitesimalGaugeSymmetryForBFieldOnMinkowskiSpacetime}
   \widehat R
   \;=\;
   c_{\mu,\nu} \partial_{b_{\mu \nu}}
@@ -21948,8 +21949,21 @@ While so far all this is in direct analogy to the case of the [[electromagnetic 
 now replaced by [[differential 2-forms]], a key difference is that now the [[gauge parameter|gauge parameterization]] $R$
 itself has [[infinitesimal gauge symmetries]]:
 
-Let $\overset{(2)}{\mathcal{G}} \overset{\overset{(2)}{gb}}{\to} \Sigma$ be the [[trivial vector bundle|trivial]] [[real line bundle]]
-with coordinates $((x^\mu), \overset{(2)}{c})$, then
+Let
+
+$$
+  \label{SecondOrderGaugeParameterBundleForBFieldOnMinkowskiSpacetime}
+  \array{
+    \overset{(2)}{\mathcal{G}} &\coloneqq& \Sigma \times \mathbb{R}
+    \\
+    {}^{\overset{(2)}{gb}}\downarrow  && \downarrow^{\mathrlap{pr_1}}
+    \\
+    \Sigma &=&
+  }
+$$
+
+be the [[trivial vector bundle|trivial]] [[real line bundle]]
+with coordinates $((x^\mu), \overset{(2)}{c})$, to be regarded as second order [[infinitesimal gauge-of-gauge symmetry]], then
 
 $$
   \overset{(2)}{R}
@@ -21960,11 +21974,12 @@ $$
 with prolongation
 
 $$
+  \label{SecondOderGaugeSymmetryOfBFieldOnMinkowski}
   \widehat{\overset{(2)}{R}}
   \;\coloneqq\;
   \overset{(2)}{c}_{,\mu} \partial_{c_\mu}
   +
-  \overset{(2)}{c}_{,\mu \nu} \partial_{c_{\mu,\nu}}  
+  \overset{(2)}{c}_{,\mu \nu} \partial_{c_{\mu,\nu}}
   +
   \cdots
 $$
@@ -21972,6 +21987,7 @@ $$
 has the property that
 
 $$
+  \label{NoetherIdentitySecondOrderForBFieldOnMinkowskiSpacetime}
   \begin{aligned}
     \widehat{\overset{(2)}{R}} (R)
     &=
@@ -22171,7 +22187,7 @@ which is the one of central relevance for the discussion of [[gauge theory]]: th
 
 
 
-+-- {: .num_defn s#ActionLieAlgebroid}
++-- {: .num_defn #ActionLieAlgebroid}
 ###### Definition
 **([[action Lie algebroid]])**
 
@@ -22280,13 +22296,18 @@ $$
 =--
 
 
+
+
+
+
+
 $\,$
 
 **[[local BRST complex|local]] [[off-shell]] [[BRST complex]]**
  {#BRSTComplex}
 
 With the general concept of [[Lie algebra action]] (def. \ref{InfinitesimalActionByLieAlgebra}) and the corresponding [[action Lie algebroids]] (def. \ref{ActionLieAlgebroid}) and more general [[Lie ∞-algebroids]] in hand (def. \ref{LInfinityAlgebroid}})
-we now apply this to the [[action]] of [[infinitesimal gauge symmetries]] (def. \ref{GaugeParameters}) on field histories of a [[Lagrangian field theory]]:
+we now apply this to the [[action]] of [[infinitesimal gauge symmetries]] (def. \ref{GaugeParameters}) on field histories of a [[Lagrangian field theory]], but we consider this _[[local field theory|locally]]_, namel on the [[jet bundle]]. The [[Chevalley-Eilenberg algebra]] of the resulting [[action Lie algebroid]] (def. \ref{ActionLieAlgebroid}) is known as the _[[local BRST complex|local]] [[BRST complex]]_, example \ref{LocalOffShellBRSTComplex} below.
 
 +-- {: .num_defn #GaugeParametersClosed}
 ###### Definition
@@ -22298,7 +22319,7 @@ $$
   J^\infty_\Sigma(\mathcal{G} \times_\Sigma E) \overset{R}{\longrightarrow} T_\Sigma E
 $$
 
-is called _closed_ if it is closed under the [[Lie bracket]] of [[evolutionary vector fields]] (prop. \ref{EvolutionaryVectorFieldLieAlgebra}) in that there is a unique morphism
+is called _closed_ if it is closed under the [[Lie bracket]] of [[evolutionary vector fields]] (prop. \ref{EvolutionaryVectorFieldLieAlgebra}) in that there exists a morphism (not necessarily uniquely)
 
 $$
   \label{ClosedGaugeParametersBracket}
@@ -22332,7 +22353,7 @@ Notice that the collection of all [[infinitesimal symmetries of the Lagrangian]]
 
 +-- {: .num_example #ActionOfGaugeParameterizedInfinitesimalGaugeSymmetriesOnJetBundle}
 ###### Example
-**([[action]] of closed [[gauge parameter|gauge parameterized]] [[infinitesimal gauge symmetries]] on [[field (physics)|fields]])**
+**([[action]] of closed [[infinitesimal gauge symmetries]] on [[field (physics)|fields]])**
 
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}), and let
 $\mathcal{G} \overset{gb}{\to} \Sigma$ be a bundle of [[gauge parameters]] (def. \ref{GaugeParameters}) paramaterizing [[infinitesimal gauge symmetries]]
@@ -22343,7 +22364,7 @@ $$
   T_\Sigma E
 $$
 
-which are closed (def. \ref{GaugeParametersClosed}).
+which are closed (def. \ref{GaugeParametersClosed}), via a bracket $[-,-]_{\mathcal{G}}$.
 
 By passing from these [[evolutionary vector fields]] $R$ (def. \ref{EvolutionaryVectorField})
 to their prolongations $\widehat{R}$, being actual vector fields on the jet bundle (prop. \ref{EvolutionaryVectorFieldProlongation}),
@@ -22359,8 +22380,9 @@ $$
     \\
     && J^\infty_\Sigma(E)
   }
-  \,.
 $$
+
+and via the assumed bracket $[-,-]_{\mathcal{G}}$ on [[gauge parameters]] this exhibits [[Lie algebroid]] structure on $J^\infty_\Sigma(\mathcal{G}) \times_\Sigma J^\infty_\Sigma(E) \overset{pr_2}{\to} J^\infty_\Sigma(E)$.
 
 
 
@@ -22509,12 +22531,21 @@ $$
 $$
 
 The [[Chevalley-Eilenberg algebra]] of functions on this [[differential graded manifold]] (eq:CEAlgebra)
-is called the off-shell _[[local BRST complex]]_ ([Barnich-Brandt-Henneaux 94](local+BRST+cohomology#BarnichBrandtHenneaux94)).
+is called the [[off-shell]] _[[local BRST complex]]_.
 
-We may pass from the [[local BRST complex]] on the [[jet bundle]] to the "global" BRST
+=--
+
+([Barnich-Brandt-Henneaux 94](local+BRST+cohomology#BarnichBrandtHenneaux94)).
+
+
++-- {: .num_defn}
+###### Definition
+**(global [[BRST complex]])**
+
+We may pass from the [[off-shell]] [[local BRST complex]] (def. \ref{LocalOffShellBRSTComplex}) on the [[jet bundle]] to the "global" BRST
 complex by [[transgression of variational differential forms]] (def. \ref{TransgressionOfVariationalDifferentialFormsToConfigrationSpaces}):
 
-Write $Obs_\Sigma(E \times\Sigma \mathcal{G}[1])$ for the induced graded [[algebra of observables]] (def. \ref{LocalObservables}).
+Write $Obs(E \times_\Sigma \mathcal{G}[1])$ for the induced graded [[off-shell]] [[algebra of observables]] (def. \ref{LocalObservables}).
 For $A \in \Omega^{p+1,\bullet}_\Sigma(E \times_\Sigma \mathcal{G}[1])$ with corresponding [[local observable]]
 $\tau_\Sigma(A) \in LocObs_\Sigma(E \times_\Sigma \mathcal{G}[1])$ its BRST differential is defined by
 
@@ -22522,7 +22553,7 @@ $$
   s_{BRST} \tau_{\Sigma}(A) \;\coloneqq\; \tau_{\Sigma}(s_{BRST} A)
 $$
 
-and extended from there to $Obs_\Sigma(E \times_\Sigma \mathcal{G}[1])$ as a graded derivation.
+and extended from there to $Obs(E \times_\Sigma \mathcal{G}[1])$ as a graded derivation.
 
 =--
 
@@ -22562,12 +22593,109 @@ $$
   \end{aligned}
 $$
 
-as is the [[Euler-Lagrange form]] (due to the symmetry $c_{,\mu \nu} = c_{,\nu \mu}$ and in contrast to the
+as is the [[Euler-Lagrange form]] (due to the symmetry $c_{,\mu \nu} = c_{,\nu \mu}$ (eq:JetCoodinatesSymmetry) and in contrast to the
 skew-symmetry $f_{\mu \nu} = - f_{\nu \mu}$).
-
 
 =--
 
++-- {: .num_example #LocalBRSTComplexBFieldMinkowskiSpacetime}
+###### Example
+**([[local BRST complex]] for [[B-field]] on [[Minkowski spacetime]])**
+
+Consider the [[Lagrangian field theory]] of the [[B-field]] on [[Minkowski spacetime]] from example \ref{BFieldLagrangianDensity}, with [[field bundle]] the [[differential 2-form]]-bundle $E = \wedge^2_\Sigma T^\ast \Sigma$ with coordinates $((x^\mu), (b_{\mu \nu}))$ subject to $b_{\mu \nu} = - b_{\nu \mu}$; and with [[Lagrangian density]].
+
+By example \ref{InfinitesimalGaugeSymmetryOfTheBField} the [[local BRST complex]] (example \ref{example}) has BRST differential of the form
+
+$$
+  c_{\mu, \nu} \frac{\partial}{\partial b_{\mu \nu}}
+  +
+  c_{\mu,\nu_1 \nu_2} \frac{\partial}{\partial b_{\mu \nu_1, \nu_2}}
+  +
+  \cdots
+  \,.
+$$
+
+In this case this enhanced to an [[L-infinity algebroid|Lie 2-algebroid]] by regarding the second-order [[gauge parameters]] (eq:SecondOrderGaugeParameterBundleForBFieldOnMinkowskiSpacetime) in degree 2 to form a [[graded manifold|graded]] [[field bundle]]
+
+$$
+  \underset{ \{\overset{(2)}{c}\} }{
+  \underbrace{
+    \overset{(2)}{\mathcal{G}}[2]
+  }}
+    \times_\Sigma
+  \underset{\{c_\mu\}}{
+  \underbrace{
+    \mathcal{G}[1]
+  }
+  }
+    \times_\Sigma
+  \underset{
+    (b_{\mu \nu})
+  }{
+  \underbrace{
+    E
+  }}
+  \;=\;
+  \mathbb{R}[2] \times T^\ast \Sigma [1] \times_\Sigma E
+$$
+
+by adding the [[ghost-of-ghost field]] $(\overset{(2)}{c})$ (eq:SecondOderGaugeSymmetryOfBFieldOnMinkowski) and taking the local BRST differential to be the sum of the first order [[infinitesimal gauge symmetries]] (eq:InfinitesimalGaugeSymmetryForBFieldOnMinkowskiSpacetime) and the second order [[infinitesimal gauge-of-gauge symmetry]] (eq:SecondOderGaugeSymmetryOfBFieldOnMinkowski)
+
+$$
+  s_{BRST}
+  \;=\;
+  \left(
+  c_{\mu, \nu} \frac{\partial}{\partial b_{\mu \nu}}
+  +
+  c_{\mu,\nu_1 \nu_2} \frac{\partial}{\partial b_{\mu \nu_1, \nu_2}}
+  +
+  \cdots
+  \right)
+  +
+  \left(
+    \overset{(2)}{c}_{,\mu} \frac{\partial}{\partial c_\mu}
+    +
+    \overset{(2)}{c}_{,\mu \nu} \frac{\partial}{\partial c_{\mu,\nu}}
+    +
+    \cdots
+  \right)
+  \,.
+$$
+
+Notice that this indeed still squares to zero, due to the second-order [[Noether identity]] (eq:NoetherIdentitySecondOrderForBFieldOnMinkowskiSpacetime):
+
+$$
+  \begin{aligned}
+    \left( s_{BSRT} \right)^2
+    & =
+    \left[
+       \overset{(2)}{c}_{,\mu \nu} \frac{\partial}{\partial c_{\mu,\nu}},
+         c_{\mu, \nu} \frac{\partial}{\partial b_{\mu \nu}}
+    \right]
+    \;+\;
+    \left[
+       \overset{(2)}{c}_{,\mu \nu_1 \nu_2} \frac{\partial}{\partial c_{\mu,\nu_1 \nu_2}},
+         c_{\mu, \nu_1 \nu_2} \frac{\partial}{\partial b_{\mu \nu_1, \nu_2}}
+    \right]
+    \\
+    & =
+    \underset{ = 0 }{
+    \underbrace{
+      \overset{(2)}{c}_{,\mu \nu} \frac{\partial}{\partial b_{\mu \nu}}
+    }}
+    \;+\;
+    \underset{ = 0 }{
+    \underbrace{
+    \overset{(2)}{c}_{,\mu \nu_1 \nu_2} \frac{\partial}{\partial b_{\mu \nu_1, \nu_2}}
+    }}
+    \;+\;
+    \cdots
+    \\
+    & = 0
+  \end{aligned}
+$$
+
+=--
 
 
 $\,$
