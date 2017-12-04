@@ -1,36 +1,35 @@
 
+
 ## Gauge symmetries
  {#GaugeSymmetries}
 
 The existence of the [[covariant phase space]] (prop. \ref{CovariantPhaseSpace}) of a [[Lagrangian field theory]]
-requires the existence of [[Cauchy surfaces]] (def. \ref{CauchySurface}) for its [[Euler-Lagrange equation|Euler-Lagrange]] [[equations of motion]], hence requires that the [[equations of motion]] are [[Green hyperbolic differential equation|Green hyperbolic]] (def. \ref{GreenHyperbolicDifferentialOperator}).
+requires the existence of [[Cauchy surfaces]] (def. \ref{CauchySurface}) for its [[Euler-Lagrange equation|Euler-Lagrange]] [[equations of motion]] This the case of [[free field theory]] (def. \ref{FreeFieldTheory}) this means that the [[equations of motion]] are [[Green hyperbolic differential equation|Green hyperbolic]] (def. \ref{GreenHyperbolicDifferentialOperator}).
 
 We have seen that this is the case for instance for the [[scalar field]] (example \ref{GreenHyperbolicKleinGordonEquation})
 and the [[Dirac field]] (example \ref{GreenHyperbolicDiracOperator}), but it is not the case generally,
-for instance it fails for the [[electromagnetic field]] (example \ref{ElectromagnetismEl}).
+for instance it fails for the [[electromagnetic field]] (example \ref{ElectromagnetismEl}), the [[Yang-Mills field]] (example \ref{YangMillsLagrangian}) and the [[B-field]] (example \ref{BFieldLagrangianDensity}).
 An [[obstruction]] to the existence of the [[covariant phase space]] turns out to be (prop. \ref{NonTrivialImplicitInfinitesimalGaugeSymmetriesPbstructExistenceOfCauchySurfaces} below)
 the presence of [[infinitesimal symmetries of the Lagrangian]] (def. \ref{SymmetriesAndConservedCurrents})
 that have compact spacetime support (def. \ref{SpacetimeSupport}).
 
 
-An obvious candidate example of such are
+An class of examples of such are those
 [[infinitesimal symmetries of the Lagrangian]] which occur
-linearly _parameterized_  by arbitrary [[sections]] (and their [[derivatives]]) of some [[vector bundle]] on [[spacetime]]:
-Because then for every choice of section of [[compact support]] the corresponding symmetry will have
-compact spacetime support.
-Typically all compactly supported [[infinitesimal symmetries of the Lagrangian]]
-arise from parameterized symmetries this way; this is notably the case for the [[Lagrangian density]] of the [[electromagnetic field]] (example \ref{InfinitesimalGaugeSymmetryElectromagnetism}) and more generally of the [[Yang-Mills field]].
-These parameterized [[infinitesimal symmetries of the Lagrangian]] we call _implicit [[infinitesimal gauge symmetries]]_,
-and their parameters we call the _[[gauge parameters]]_ (def. \ref{GaugeParametrizedInfinitesimalGaugeTransformation} below).
+linearly _parameterized_  by arbitrary [[sections]] (and their [[derivatives]]) of some [[vector bundle]] on [[spacetime]].
+Because then for every choice of section of [[compact support]] the corresponding symmetry will have compact spacetime support.
+These parameterized [[infinitesimal symmetries of the Lagrangian]] are called _[[infinitesimal gauge symmetries]]_,
+and their parameters we call the _[[gauge parameters]]_ (def. \ref{GaugeParameters} below).
+
+
+Typically all compactly supported [[infinitesimal symmetries of the Lagrangian]] arise from parameterized symmetries this way; this is notably the case for the [[Lagrangian density]] of the [[electromagnetic field]] (example \ref{InfinitesimalGaugeSymmetryElectromagnetism}) and more generally of the [[Yang-Mills field]].
 
 Therefore the presence of [[infinitesimal symmetries of the Lagrangian]] with compact spacetime support is a defect of the theory
 which however implies its own solution, by indicating which [[relations]] ought to be promoted
-to "[[gauge equivalences|gauge]]" [[equivalences]]. Therefore we call these the _implicit [[infinitesimal gauge symmetries]]_
-(remark \ref{ImplicitGaugeTransformationTerminology} below).
-
+to "[[gauge equivalences|gauge]]" [[equivalences]]. 
 
 This obstruction is neatly
-captured by the [[cochain cohomology]] of the _local [[BV-complex]]_ (def. \ref{BVComplexOfOrdinaryLagrangianDensity}) of the Lagrangian field theory (prop. \ref{BVComplexIsHomologicalResolutionPreciselyIfNoNonTrivialImplicitGaugeSymmetres} below).
+captured by the [[cochain cohomology]] of the _[[local BV-complex]]_ (def. \ref{BVComplexOfOrdinaryLagrangianDensity}) of the Lagrangian field theory (prop. \ref{BVComplexIsHomologicalResolutionPreciselyIfNoNonTrivialImplicitGaugeSymmetres} below).
 This may be understood as the [[algebra of functions]] on an extension of the [[jet bundle]] from a
 (locally pro-finite dimensional, prop. \ref{InfinitesimalActionByLieAlgebra}) [[smooth manifold]] to
 a [[differential graded manifold]].
@@ -558,8 +557,9 @@ This is the archetypical _[[infinitesimal gauge symmetry]]_ that gives [[gauge t
 
 More generally:
 
-+-- {: .num_example}
++-- {: .num_example #InfinitesimalGaugeSymmetryOfYangMillsTheory}
 ###### Example
+**([[infinitesimal gauge symmetry]] of [[Yang-Mills theory]])**
 
 For $\mathfrak{g}$ a [[semisimple Lie algebra]], 
 consider the [[Lagrangian field theory]] of [[Yang-Mills theory]] on [[Minkowski spacetime]] from example \ref{YangMillsLagrangian}, with [[Lagrangian density]]
@@ -594,8 +594,8 @@ $$
   \;=\;
   \left(
     c^\alpha_{,\mu} 
-    +
-    \tfrac{1}{2}\gamma^\alpha_{\beta \gamma} c^\beta a^\gamma_\mu 
+    -
+    \gamma^\alpha_{\beta \gamma} c^\beta a^\gamma_\mu 
   \right)
   \partial_{a^\alpha_\mu} 
 $$
@@ -607,15 +607,15 @@ $$
   \;=\;
   \left(
     c^\alpha_{,\mu} 
-    +
-    \tfrac{1}{2}\gamma^\alpha_{\beta \gamma} c^\beta a^\gamma_\mu 
+    -
+    \gamma^\alpha_{\beta \gamma} c^\beta a^\gamma_\mu 
   \right)
   \partial_{a^\alpha_\mu} 
   \;+\;
   \left(
     c^\alpha_{,\mu \nu} 
-    +
-    \tfrac{1}{2}\gamma^\alpha_{\beta \gamma} 
+    -
+    \gamma^\alpha_{\beta \gamma} 
     \left(
       c^\beta_{,\nu} a^\gamma_\mu 
       + 
@@ -628,7 +628,7 @@ $$
   \,.
 $$
 
-To see this
+We compute the [[derivative]] of the [[Lagrangian function]] along this vector field:
 
 $$
   \begin{aligned}
@@ -654,8 +654,8 @@ $$
     & =
     \left(
       c^\alpha_{,\nu \mu}
-      +
-      \tfrac{1}{2}\gamma^\alpha_{\beta \gamma} 
+      -
+      \gamma^\alpha_{\beta \gamma} 
       \left(
         c^\beta_{,\mu} a^\gamma_\nu
         + 
@@ -665,16 +665,43 @@ $$
       \gamma^\alpha_{\beta \gamma}
       \left(  
         c^\beta_{,\mu} 
-        +
-        \tfrac{1}{2}\gamma^\beta_{\beta' \gamma'} 
+        -
+        \gamma^\beta_{\beta' \gamma'} 
         c^{\beta'} a^{\gamma'}_\mu   
       \right)
       a^\gamma_{\nu}
     \right)
     f_\alpha^{\mu \nu}
+    \\
+    & =
+    - \gamma^{\alpha}_{\beta \gamma} c^\beta
+    \underset{
+      = 2 f^\gamma_{\mu \nu}
+    }{
+    \underbrace{
+      \left(
+        a^\gamma_{\nu,\mu}
+        +
+        \gamma^\gamma_{\beta' \gamma'} 
+        a^{\beta'}_\mu a^{\gamma'}_\nu
+      \right)
+    }
+    }
+    f_\alpha{}^{\mu \nu}
+    \\
+    &=
+    2
+    \gamma_{\alpha \beta \gamma}
+    c^\alpha f^\beta_{\mu \nu} f^{\gamma \mu \nu}
+    \\
+    & = 0
+    \,.
   \end{aligned}  
 $$
 
+Here in the third step we used that $c^\alpha_{,\nu \mu} = + c^\alpha_{,\mu \nu}$ (eq:JetCoodinatesSymmetry), so that its contraction with the skew-symmetric $f_\alpha^{\mu\nu}$ vanishes, and in the last step we used that for a [[semisimple Lie algebra]] $\gamma_{\alpha \beta \gamma} \coloneqq k_{\alpha \alpha'} \gamma^{\alpha'}{}_{\beta \gamma}$ is totally skew symmetric.
+
+So the [[Lagrangian density]] of [[Yang-Mills theory]] is strictly invariant under these [[infinitesimal gauge symmetries]].
 
 =--
 
