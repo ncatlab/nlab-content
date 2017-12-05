@@ -372,81 +372,252 @@ $$
   \,.
 $$
 
-We may equivalently make an Ansatz for $([-,-]_{\mathcal{G}})^\ast$ and if the resulting operator $s_{BRST}$ square to zero, this defines the required closure bracket $[-,-]_\mathcal{G}$. Moreover, since $R$ only depends on the 0th-order jets, we may check nilpotency on the unprolonged symmetry
+We may equivalently make an Ansatz for $([-,-]_{\mathcal{G}})^\ast$ and if the resulting differential $s_{BRST}$ squares to zero, this defines the required closure bracket $[-,-]_\mathcal{G}$. 
 
 We claim that 
 
 $$
+  \label{OffShellYangMillsOnMinkowskiBRSTOperator}
   s_{BRST}
-  \;=\;
-  \left(
-    c^\alpha_{,\mu}
-    -
-    \gamma^\alpha_{\beta \gamma} c^\beta a^\gamma_\mu
-  \right)
-  \frac{\partial}{\partial a^\alpha_\mu}
-  +
-  \gamma^\alpha{}_{\beta \gamma} \, c^\beta c^\gamma
-  \frac{\partial}{\partial c^\alpha}
-  \;+\;
-  \text{prolongation}
-  \,.
+  \;\coloneqq\;
+  \widehat{
+    \left(
+      c^\alpha_{,\mu}
+      -
+      \gamma^\alpha_{\beta \gamma} c^\beta a^\gamma_\mu
+    \right)
+    \frac{\partial}{\partial a^\alpha_\mu}
+   }
+    +
+   \widehat{
+    \tfrac{1}{2}\gamma^\alpha{}_{\beta \gamma} \, c^\beta c^\gamma
+    \frac{\partial}{\partial c^\alpha}
+   }
+  \,,
 $$
 
+where the hat denotes prolongation (prop. \ref{EvolutionaryVectorFieldProlongation}). This is the [[local BRST complex|local]] ([[jet bundle]]) [[BRST differential]] for [[Yang-Mills theory]] on [[Minkowski spacetime]].
+
+=--
 
 
++-- {: .proof}
+###### Proof
+
+We need to show that (eq:OffShellYangMillsOnMinkowskiBRSTOperator) squares to zero. Consider the two terms that appear:
 
 $$
+  (s_{BRST})^2 
+  =
   \left[
+    \widehat{
     \left(
      c^\alpha_{,\mu}
      -
      \gamma^\alpha_{\beta \gamma} c^\beta a^\gamma_\mu
     \right)
     \partial_{a^\alpha_\mu}
+    }
     \;,\;
+    \widehat{
     \left(
      c^{\alpha'}_{,\mu}
      -
      \gamma^{\alpha'}_{\beta \gamma} c^\beta a^\gamma_\mu
     \right)
     \partial_{a^{\alpha'}_\mu}
+    }
   \right]
-  =   
-  -
+  \;+\;
   2
-  \gamma^{\alpha'}_{\beta \gamma} c^\beta 
-   \left(
-    c^\gamma_{,\mu}
-    -
-    \gamma^\gamma_{\beta \gamma'} c^\beta a^{\gamma'}_\mu
-   \right)
-   \frac{\partial}{\partial a^{\alpha'}_\mu}
-$$
-
-$$
   \left[
+    \widehat{
     \left(
      c^\alpha_{,\mu}
      -
      \gamma^\alpha_{\beta \gamma} c^\beta a^\gamma_\mu
     \right)
     \partial_{a^\alpha_\mu}
+    }
+    \;,\;
+    \widehat{
+    \tfrac{1}{2}\gamma^\alpha{}_{\beta \gamma}
+    \,
+    c^\beta c^\gamma \frac{\partial}{\partial c^\alpha}
+    }
+  \right]
+  \,.
+$$
+
+The first term is
+
+$$
+  \begin{aligned}
+  \left[
+    \widehat{
+    \left(
+     c^\alpha_{,\mu}
+     -
+     \gamma^\alpha_{\beta \gamma} c^\beta a^\gamma_\mu
+    \right)
+    \partial_{a^\alpha_\mu}
+    }
+    \;,\;
+    \widehat{
+    \left(
+     c^{\alpha'}_{,\mu}
+     -
+     \gamma^{\alpha'}_{\beta \gamma} c^\beta a^\gamma_\mu
+    \right)
+    \partial_{a^{\alpha'}_\mu}
+    }
+  \right]
+  & =   
+    -
+    2
+    \gamma^{\alpha'}_{\beta \gamma} 
+    \widehat{
+    c^\beta 
+    \left(
+      c^\gamma_{,\mu}
+      -
+      \gamma^\gamma_{\beta' \gamma'} c^{\beta'} a^{\gamma'}_\mu
+     \right)
+    \frac{\partial}{\partial a^{\alpha'}_\mu}
+    }
+    \\
+    & =
+    -
+    2
+    \gamma^{\alpha'}_{\beta \gamma} 
+    \widehat{
+    c^\beta 
+      c^\gamma_{,\mu}
+    \frac{\partial}{\partial a^{\alpha'}_\mu}    
+     }
+     +    
+     2
+     \gamma^{\alpha'}_{\beta \gamma} 
+     \gamma^\gamma_{\beta' \gamma'} 
+     \widehat{
+     c^\beta c^{\beta'} a^{\gamma'}_\mu
+     \frac{\partial}{\partial a^{\alpha'}_\mu}    
+     }
+     \\
+    & =
+    -
+    2
+    \gamma^{\alpha'}_{\beta \gamma} 
+    \widehat{
+      c^\beta 
+      c^\gamma_{,\mu}
+      \frac{\partial}{\partial a^{\alpha'}_\mu}    
+     }
+     +
+     \gamma^{\alpha'}_{\beta \gamma} 
+     \gamma^\gamma_{\beta' \gamma'} 
+     \widehat{
+     \left(
+       c^\beta c^{\beta'} a^{\gamma'}_\mu
+       -
+       c^{\beta'} c^{\beta} a^{\gamma'}_\mu
+     \right)
+     \frac{\partial}{\partial a^{\alpha'}_\mu}    
+     }
+     \\
+    & =
+    -
+    2
+    \gamma^{\alpha'}_{\beta \gamma} 
+    \widehat{
+      c^\beta 
+      c^\gamma_{,\mu}
+      \frac{\partial}{\partial a^{\alpha'}_\mu}    
+     }
+     +
+     \gamma^{\alpha'}_{\beta \gamma} 
+     \gamma^\gamma_{\beta' \gamma'} 
+     \widehat{
+     \left(
+       -
+       c^\beta c^{\gamma'} a^{\beta'}_\mu
+       -
+       c^{\beta'} c^{\beta} a^{\gamma'}_\mu
+     \right)
+     \frac{\partial}{\partial a^{\alpha'}_\mu}  
+     }
+     \\  
+     & =
+    -
+    2
+    \gamma^{\alpha'}_{\beta \gamma} 
+    \widehat{
+      c^\beta 
+      c^\gamma_{,\mu}
+     \frac{\partial}{\partial a^{\alpha'}_\mu}    
+     }
+      +
+     \gamma^{\alpha'}_{\beta \gamma} 
+     \gamma^\gamma_{\beta' \gamma'} 
+     \widehat{
+       c^{\gamma'} c^{\beta'} a^{\beta}_\mu
+      \frac{\partial}{\partial a^{\alpha'}_\mu}    
+     }
+     \\  
+     & =
+    -
+    2
+    \gamma^{\alpha'}_{\beta \gamma} 
+    \widehat{
+      c^\beta 
+      c^\gamma_{,\mu}
+      \frac{\partial}{\partial a^{\alpha'}_\mu}    
+     }
+      +
+     \gamma^{\alpha'}_{\gamma \beta} 
+     \gamma^\beta_{\beta' \gamma'} 
+     \widehat{
+       c^{\beta'} c^{\gamma'} a^{\gamma}_\mu
+      \frac{\partial}{\partial a^{\alpha'}_\mu}    
+     }
+  \end{aligned}
+$$
+
+Here first we expanded out, then in the second-but-last line we used the [[Jacobi identity]] and in the last line we just readjusted indices, for convenience of comparison with the next term. That next term is
+ 
+$$
+  \left[
+    \widehat{
+    \left(
+     c^\alpha_{,\mu}
+     -
+     \gamma^\alpha_{\beta \gamma} c^\beta a^\gamma_\mu
+    \right)
+    \partial_{a^\alpha_\mu}
+    }
     \;,\;
     \gamma^\alpha{}_{\beta \gamma}
     \,
-    c^\beta c^\gamma \frac{\partial}{\partial c^\alpha}
+    \widehat{c^\beta c^\gamma \frac{\partial}{\partial c^\alpha}}
   \right]
   =
   2
-  \gamma^\alpha_{\beta \gamma} c^\beta_{,\mu} c^\gamma
-  \frac{\partial}{\partial a^\alpha_\mu}
+  \gamma^\alpha_{\beta \gamma} 
+  \widehat{
+    c^\beta_{,\mu} c^\gamma
+    \frac{\partial}{\partial a^\alpha_\mu}
+  }
   -
   \gamma^\alpha_{\beta \gamma} 
-   \gamma^\beta_{\beta' \gamma'} c^{\beta'} c^{\gamma'} 
-   a^\gamma_\mu
-   \frac{\partial}{\partial a^\alpha_\mu}
+  \gamma^\beta_{\beta' \gamma'} 
+  \widehat{
+    c^{\beta'} c^{\gamma'} 
+    a^\gamma_\mu
+    \frac{\partial}{\partial a^\alpha_\mu}
+  }
 $$
+
+and thus is evidently cancels the first term.
 
 =--
 
@@ -548,6 +719,8 @@ $$
     & = 0
   \end{aligned}
 $$
+
+and thus it clearly cancels the first term.
 
 =--
 
