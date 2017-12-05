@@ -331,6 +331,8 @@ Tiny objects in presheaf categories ([[Cauchy complete categories|Cauchy complet
 * [[Francis Borceux]] and D. Dejean, _Cauchy completion in category theory_  Cahiers Topologie G&#233;om. Diff&#233;rentielle Cat&#233;goriques, 27:133&#8211;146, (1986) ([numdam](http://www.numdam.org/item?id=CTGDC_1986__27_2_133_0))
   {#BorceuxDejean}
 
+* David Yetter, _On right adjoints to exponential functors_ [link](https://www.sciencedirect.com/science/article/pii/0022404987900776)
+
 The term "atomic object" or rather "a.t.o.m" is suggested in 
 
 * [[William Lawvere]], _[[Toposes of laws of motion]]_, 1997
