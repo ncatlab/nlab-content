@@ -634,7 +634,7 @@ This appears as ([Sachse, corollary 3.3](#Sachse)).
 
 ## Related concepts
 
-* [[supercommutative algebra]]
+* [[supercommutative algebra]], [[differential graded-commutative superalgebra]]
 
 * [[smooth superalgebra]]
 
