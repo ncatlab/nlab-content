@@ -535,7 +535,8 @@ This is the defining condition for $\mathrm{D}_{\delta_{EL}}$ to be [[formally s
 
 * {#Olver93} [[Peter Olver]], _Applications of Lie groups to Differential equations_, Graduate Texts in Mathematics, Springer 1993
 
-* [[Glenn Barnich]], equation(3) of _A note on gauge systems from the point of view of Lie algebroids_, AIP Conference Proceedings 1307, 7 (2010) ([arXiv:1010.0899](https://arxiv.org/abs/1010.0899), [doi:/10.1063/1.3527427]( https://doi.org/10.1063/1.3527427))
+* {#Barnich10} [[Glenn Barnich]], equation(3) of _A note on gauge systems from the point of view of Lie algebroids_, in P. Kielanowski, V. Buchstaber, A. Odzijewicz, 
+M.. Schlichenmaier, T Voronov,  (eds.) XXIX Workshop on Geometric Methods in Physics, vol. 1307 of AIP Conference Proceedings, 1307, 7 (2010) ([arXiv:1010.0899](https://arxiv.org/abs/1010.0899), [doi:/10.1063/1.3527427]( https://doi.org/10.1063/1.3527427))
 
 * [[Igor Khavkine]], starting with p. 45 of _Characteristics, Conal Geometry and Causality in Locally Covariant Field Theory_ ([arXiv:1211.1914](https://arxiv.org/abs/1211.1914))
 
