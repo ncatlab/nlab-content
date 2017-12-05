@@ -15,7 +15,7 @@
 
 ## Idea
 
-The _commutative operad_ is the [[operad]] whose [[algebras over an operad]] are  [[commutative monoids]] in the ambient [[enriched category|enriching category]], hence the [[commutative algebras]] if interpreted in [[vector spaces]] and the [[differential graded-commutative algebras]] if interpreted n [[chain complexes]].
+The _commutative operad_ is the [[operad]] whose [[algebras over an operad]] are  [[commutative monoids]] in the ambient [[enriched category|enriching category]], hence the [[commutative algebras]] if interpreted in [[vector spaces]] and the [[differential graded-commutative algebras]] if interpreted in [[chain complexes]].
  
 Its cofibrant [[resolutions]] in the [[model structure on operads]] are [[E-infinity operads]] whose [[algebras over an operad|algebras]] are [[E-infinity algebras]].
 
