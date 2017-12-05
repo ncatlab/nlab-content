@@ -1,7 +1,36 @@
 
+**[[gauge parameters]] and [[ghost fields]]**
+
+| symbol | meaning |  def.  |
+|--------|---------|--------|
+| $\mathcal{G} \overset{gb}{\to} \Sigma$ | [[gauge parameter]] bundle | def. \ref{GaugeParameters} |
+| $c^\alpha \in C^\infty(\mathcal{G})$ | [[coordinate function]] on [[gauge parameter]] bundle |   |
+| $\epsilon \in \Gamma_\Sigma(\mathcal{G})$ | [[gauge parameter]] |  |
+| $\mathcal{G}[1]$ | [[gauge parameter]] [[bundle]] regarded as [[graded manifold]] in degree 1 |  expl. \ref{LocalOffShellBRSTComplex}  |
+| $C \in \Gamma_\Sigma(\mathcal{G}[1])$ | [[ghost field|gost]] [[field history]] |  |
+| $\underset{deg = 1}{\underbrace{c^\alpha}} \in C^\infty(\mathcal{G}[1])$ | [[ghost field]] component function |  |
+| $\underset{deg = 1}{\underbrace{c^\alpha_{,\mu_1 \cdots \mu_k}}} \in C^\infty(J^\infty_\Sigma(\mathcal{G}[1]))$ | [[ghost field]] [[jet]] component function |  |
+| $\phantom{A}$ |   |  |
+| $\overset{(2)}{\mathcal{G}} \overset{gb}{\to} \Sigma$ | [[gauge-of-gauge transformation|gauge-of-gauge parameter]] bundle | expl. \ref{LocalBRSTComplexBFieldMinkowskiSpacetime} |
+| $\overset{(2)}{c}^\alpha \in C^\infty(\overset{(2)}{\mathcal{G}})$ | [[coordinate function]] on [[gauge-of-gauge transformation|gauge-of-gauge parameter]] bundle |  |
+| $\overset{(2)}{\epsilon} \in \Gamma_\Sigma(\mathcal{G})$ | gauge-of-gauge parameter |  |
+| $\overset{(2)}{\mathcal{G}}[2]$ | [[gauge-of-gauge transformation|gauge-of-gauge parameter]] [[bundle]] regarded as [[graded manifold]] in degree 1 |  |
+| $\overset{(2)}{C} \in \Gamma_\Sigma(\mathcal{G}[1])$ | [[ghost-of-ghost field|gost-of-ghost]] [[field history]] |  |
+| $\underset{deg = 2}{\underbrace{\overset{(2)}{c}{}^\alpha}} \in C^\infty(\overset{(2)}{\mathcal{G}}[2])$ | [[ghost-of-ghost field]] component function |  |
+| $\underset{deg = 2}{\underbrace{{\overset{(2)}{c}}{}^\alpha_{,\mu_1 \cdots \mu_k}}} \in C^\infty(J^\infty_\Sigma(\overset{(2)}{\mathcal{G}}[2]))$ | [[ghost-of-ghost field]] [[jet]] component function |  |
+
+$\,$
+
+$\,$
+
+$\,$
+
+
 
 ## Gauge symmetries
  {#GaugeSymmetries}
+
+An [[infinitesimal gauge symmetry]] of a [[Lagrangian field theory]] is a [[infinitesimal symmetry of the Lagrangian]] which may freely be parameterized, hence "gauged", by a _[[gauge parameter]]_.
 
 The existence of the [[covariant phase space]] (prop. \ref{CovariantPhaseSpace}) of a [[Lagrangian field theory]]
 requires the existence of [[Cauchy surfaces]] (def. \ref{CauchySurface}) for its [[Euler-Lagrange equation|Euler-Lagrange]] [[equations of motion]] This the case of [[free field theory]] (def. \ref{FreeFieldTheory}) this means that the [[equations of motion]] are [[Green hyperbolic differential equation|Green hyperbolic]] (def. \ref{GreenHyperbolicDifferentialOperator}).
@@ -13,8 +42,7 @@ An [[obstruction]] to the existence of the [[covariant phase space]] turns out t
 the presence of [[infinitesimal symmetries of the Lagrangian]] (def. \ref{SymmetriesAndConservedCurrents})
 that have compact spacetime support (def. \ref{SpacetimeSupport}).
 
-A class of examples of such are those
-[[infinitesimal symmetries of the Lagrangian]] which occur
+A class of examples of such are those [[infinitesimal symmetries of the Lagrangian]] which occur
 linearly _parameterized_  by arbitrary [[sections]] (and their [[derivatives]]) of some [[vector bundle]] on [[spacetime]].
 Because then for every choice of section of [[compact support]] the corresponding symmetry will have compact spacetime support.
 These parameterized [[infinitesimal symmetries of the Lagrangian]] are called _[[infinitesimal gauge symmetries]]_,
@@ -42,10 +70,43 @@ Therefore the presence of [[infinitesimal symmetries of the Lagrangian]] with co
 which however implies its own solution, by indicating which [[relations]] ought to be promoted
 to "[[gauge equivalences|gauge]]" [[equivalences]].
 
-We may hard-wire these [[gauge equivalences]] into the very [[geometry]] of the types of [[field (physics)|fields]]
-by forming the [[homotopy quotient]] of the [[action]] of the [[infinitesimal gauge symmetries]] on the [[jet bundle]].
+We may hard-wire these [[gauge equivalences]] into the very [[geometry]] of the [[types]] of [[field (physics)|fields]]
+by forming the _[[homotopy quotient]]_ of the _[[action]]_ of the [[infinitesimal gauge symmetries]] on the [[jet bundle]].
 This [[homotopy quotient]] is modeled by the  _[[action Lie algebroid]]_ (def. \ref{ActionLieAlgebroid} below).
-Its [[algebra of functions]] is the _[[local BRST complex]]_ of the theory.
+Its [[algebra of functions]] is the _[[local BRST complex]]_ of the theory (def. \ref{LocalOffShellBRSTComplex}) below.
+
+In this construction the [[gauge parameters]] appear as [[auxiliary fields]] whose [[field bundle]]
+is a _[[graded manifold|graded]]_ version of the [[gauge parameter]]-bundle. As such they are called 
+_[[ghost fields]]_. The ghost fields may have [[infinitesimal gauge symmetries]] themselves
+which leads to [[ghost-of-ghost fields]], etc. (example \ref{LocalBRSTComplexBFieldMinkowskiSpacetime}) below.
+
+It is these [[auxiliary fields|auxiliary]] [[ghost fields]] and [[ghost-of-ghost fields]] which will serve to remove the [[obstruction]] to the existence of the [[covariant phase space]] for [[gauge theories]], this we arrive at in _[Gauge fixing](#GaugeFixing)_, further below. 
+
+
+**[[gauge parameters]] and [[ghost fields]]**
+
+| symbol | meaning |  def.  |
+|--------|---------|--------|
+| $\mathcal{G} \overset{gb}{\to} \Sigma$ | [[gauge parameter]] bundle | def. \ref{GaugeParameters} |
+| $c^\alpha \in C^\infty(\mathcal{G})$ | [[coordinate function]] on [[gauge parameter]] bundle |   |
+| $\epsilon \in \Gamma_\Sigma(\mathcal{G})$ | [[gauge parameter]] |  |
+| $\mathcal{G}[1]$ | [[gauge parameter]] [[bundle]] regarded as [[graded manifold]] in degree 1 |  expl. \ref{LocalOffShellBRSTComplex}  |
+| $C \in \Gamma_\Sigma(\mathcal{G}[1])$ | [[ghost field|gost]] [[field history]] |  |
+| $\underset{deg = 1}{\underbrace{c^\alpha}} \in C^\infty(\mathcal{G}[1])$ | [[ghost field]] component function |  |
+| $\underset{deg = 1}{\underbrace{c^\alpha_{,\mu_1 \cdots \mu_k}}} \in C^\infty(J^\infty_\Sigma(\mathcal{G}[1]))$ | [[ghost field]] [[jet]] component function |  |
+| $\phantom{A}$ |   |  |
+| $\overset{(2)}{\mathcal{G}} \overset{gb}{\to} \Sigma$ | [[gauge-of-gauge transformation|gauge-of-gauge parameter]] bundle | expl. \ref{LocalBRSTComplexBFieldMinkowskiSpacetime} |
+| $\overset{(2)}{c}^\alpha \in C^\infty(\overset{(2)}{\mathcal{G}})$ | [[coordinate function]] on [[gauge-of-gauge transformation|gauge-of-gauge parameter]] bundle |  |
+| $\overset{(2)}{\epsilon} \in \Gamma_\Sigma(\mathcal{G})$ | gauge-of-gauge parameter |  |
+| $\overset{(2)}{\mathcal{G}}[2]$ | [[gauge-of-gauge transformation|gauge-of-gauge parameter]] [[bundle]] regarded as [[graded manifold]] in degree 1 |  |
+| $\overset{(2)}{C} \in \Gamma_\Sigma(\mathcal{G}[1])$ | [[ghost-of-ghost field|gost-of-ghost]] [[field history]] |  |
+| $\underset{deg = 2}{\underbrace{\overset{(2)}{c}{}^\alpha}} \in C^\infty(\overset{(2)}{\mathcal{G}}[2])$ | [[ghost-of-ghost field]] component function |  |
+| $\underset{deg = 2}{\underbrace{{\overset{(2)}{c}}{}^\alpha_{,\mu_1 \cdots \mu_k}}} \in C^\infty(J^\infty_\Sigma(\overset{(2)}{\mathcal{G}}[2]))$ | [[ghost-of-ghost field]] [[jet]] component function |  |
+
+
+The mathematical theory capturing these phenomena is the [[higher Lie theory]] of [[Lie-∞ alghebroids]] (def. \ref{LInfinityAlgebroid} below).
+
+
 
 
 $\,$
@@ -618,7 +679,7 @@ $$
   \tfrac{1}{2} f^\alpha_{\mu \nu} f_\alpha^{\mu \nu}
 $$
 
-given by the universal [[field strength]]
+given by the universal [[field strength]] (eq:YangMillsJetFieldStrengthMinkowski)
 
 $$
   f^\alpha_{\mu \nu}
@@ -915,26 +976,86 @@ to take the _[[homotopy quotient]]_ of the [[jet bundle]] of the [[field bundle]
 
 Here we introduce the required _[[higher Lie theory]]_ of [[Lie ∞-algebroids]] (def. \ref{LInfinityAlgebroid} below).
 Further [below](#BRSTComplex) we specify this to actions by [[infinitesimal gauge symmetries]] to obtain the
-_[[local BRST complex|local]] [[BRST complex]]_ of a [[Lagrangia field theory]] (def. \ref{LocalOffShellBRSTComplex}) below.
+_[[local BRST complex|local]] [[BRST complex]]_ of a [[Lagrangian field theory]] (def. \ref{LocalOffShellBRSTComplex}) below.
 
 
 $\,$
 
-The following discussion introduces and uses the tremendously useful fact that [[]Lie theory]] may usefully
-be dually expressed in terms of [[differential graded-commutative algebra]], namely in terms of "[[Chevalley-Eilenberg algebras]]".
-In the [[physics]] literature, besides
-the [[BRST-BV formalism]], this fact underlies the [[D'Auria-Fre formulation of supergravity]] ("[[FDAs]]").
+The following discussion introduces and uses the tremendously useful fact that ([[higher Lie theory|higher]]) [[Lie theory]] may usefully
+be dually expressed in terms of [[differential graded-commutative algebra]] (def. \ref{differentialgradedcommutativeSuperalgebra} below), namely in terms of "[[Chevalley-Eilenberg algebras]]".
+In the [[physics]] literature, besides the [[BRST-BV formalism]], this fact underlies the [[D'Auria-Fré formulation of supergravity]] ("[[FDAs]]", see the convoluted [history of the concept](L-infinity-algebra#History)).
 Mathematically the deep underlying phenomenon  is called the "[[Koszul duality]] between the [[Lie operad]]
 and the [[commutative algebra operad]]", but this need not concern us here. The phenomenon is readily seen in direct
 application:
 
-+-- {: .num_defn #LieAlgebraInTermsOfChevalleyEilenbergAlgebra}
-###### Definition/Proposition
+
+Before we proceed, we make explicit a [[structure]] wich we already encountered in example \ref{DifferentialFormOnSuperCartesianSpaces}.
+
++-- {: .num_defn #differentialgradedcommutativeSuperalgebra}
+###### Definition
+**([[differential graded-commutative superalgebra]])**
+
+A _[[differential graded-commutative superalgebra]]_ is
+
+1. a [[cochain complex]] $A_\bullet$ of [[super vector spaces]], hence for each $n \in \mathbb{Z}$
+
+   1 a [[super vector space]] $A_n = (A_n)_{even} \oplus (A_n)_{odd}$;
+
+   1. a super-degree preserving [[linear map]]
+
+      $$
+        d \;\colon\; A_{n} \longrightarrow A_{n+1}
+      $$
+
+   such that
+
+   $$
+     d \circ d = 0
+   $$
+
+1, an [[associative algebra]]-[[structure]] on $A \coloneqq \underset{n \in \mathbb{Z}}{\oplus} A_n$
+
+such that for all $a_1, a_2 \in A$ with homogenous bidegree $a_i \in (A_{n_a})_{\sigma_a}$ we have
+the [[signs in supergeometry|super sign rule]]
+
+1. $a b = (-1)^{n_a n_b} (-1)^{\sigma_a \sigma_b} \, b a$
+
+1. $d(a b) = (d a) b + (-1)^{n_1} a (d b)$.
+
+A [[homomorphism]] between two [[differential graded-commutative superalgebras]] is a [[lineat map]] between the underlying [[super vector spaces]] which preserves both degrees, and respects the product as well as the [[differential]] $d$.
+
+We write $dgcSAlg$ for the [[category]] of [[differential graded-commutative superalgebra]].
+
+=--
+
+For the [[signs in supergeometry|super sigsn rule]] appearing here see also e.g. [Castellani-D'Auria-Fr&#233; 91 (II.2.106) and (II.2.109)](signs+in+supergeometry#CastellaniDAuriaFre91), [Deligne-Freed 99, section 6](signs+in+supergeometry#DeligneFreed99). 
+
++-- {: .num_example #deRhamAlgebraOfSuperDifferentialFormsIsDifferentialGradedCommutativeSuperalgebra}
+###### Example
+**([[de Rham algebra]] of [[super differential forms]] is [[differential graded-commutative superalgebra]])**
+
+For $X$ a [[super Cartesian space]], def. \ref{SuperCartesianSpace} (or more generally a [[supermanifold]], def. \ref{SuperSmoothManifolds}) the [[de Rham algebra]] of [[super differential forms]] from def. \ref{DifferentialFormOnSuperCartesianSpaces}
+
+$$
+  (\Omega^\bull(X), d)
+$$
+
+is a [[differential graded-commutative superalgebra]] (def. \ref{differentialgradedcommutativeSuperalgebra}) with
+product the [[wedge product]] of differential forms and differential the [[de Rham differential]].
+
+We will recognize the [[formal duality|dual]] incarnation of this in [[higher Lie theory]] below in example \ref{HorizontalTangentLieAlgebroid}.
+
+
+=--
+
+
++-- {: .num_prop #LieAlgebraInTermsOfChevalleyEilenbergAlgebra}
+###### Proposition
 **([[Lie algebra]] in terms of [[Chevalley-Eilenberg algebra]])**
 
 Let $\mathfrak{g}$ be a [[finite dimensional vector space|finite dimensional]] [[super vector space]]
 equipped with a [[super Lie algebra|super]] [[Lie bracket]] $[-,-] \colon \mathfrak{g} \otimes \mathfrak{g} \to \mathfrak{g}$.
-Write $\mathfrak{g}^\ast$ for the [[dual vector space]] and $[-,-]^\ast \;\colon\; \mathfrak{g}^\ast \to \mathfrak{g}^\ast \wedge \mathfrak{g}^\ast$ for the dual linear map of the [[Lie bracket]]. Then on the [[Grassmann algebra]] $\wedge^\bullet \mathfrak{g}^\ast$
+Write $\mathfrak{g}^\ast$ for the [[dual vector space]] and $[-,-]^\ast \;\colon\; \mathfrak{g}^\ast \to \mathfrak{g}^\ast \wedge \mathfrak{g}^\ast$ for the [[linear dual]] map of the [[Lie bracket]]. Then on the [[Grassmann algebra]] $\wedge^\bullet \mathfrak{g}^\ast$
 (which is $\mathbb{Z} \times \mathbb{Z}(2$ bigraded as in def. \ref{DifferentialFormOnSuperCartesianSpaces})
 the graded [[derivation]] $d_{CE}$ of degree $(1,even)$, which on $\mathfrak{g}^\ast$ is given by $[-,-]^\ast$ constitutes a [[differential]]
 in that $(d_{CE})^2 = 0$. The resulting [[differential graded-commutative algebra]] is called the [[Chevalley-Eilenberg algebra]]
@@ -956,10 +1077,10 @@ In components:
 If $\{c_\alpha\}$ is a [[linear basis]] of $\mathfrak{g}$, so that the [[Lie bracket]] is given by the structure constants $(\gamma^\alpha{}_{\beta \gamma})$ as
 
 $$
-  [c_\beta, c_\gamma] = \gamma^\alpha{}_{\beta \gamma} c_\gamma
+  [c_\beta, c_\gamma] = \tfrac{1}{2} \gamma^\alpha{}_{\beta \gamma} c_\gamma
 $$
 
-and if $\{c^\alpha\}$ denotes the correspnding dual basis, then $\wedge^\bullet \mathfrak{g}^\ast$is equivalently the [[differential-graded commutative superalgebra]] generated from the $c^\alpha$ in bi-degree $(1,\sigma)$, where $\sigma \in \mathbb{Z}/2$ is the super-degree of $c_\alpha$ as in def. \ref{DifferentialFormOnSuperCartesianSpaces} subject to the relation
+and if $\{c^\alpha\}$ denotes the corresponding dual basis, then $\wedge^\bullet \mathfrak{g}^\ast$is equivalently the [[differential-graded commutative superalgebra]] (def. \ref{differentialgradedcommutativeSuperalgebra}) generated from the $c^\alpha$ in bi-degree $(1,\sigma)$, where $\sigma \in \mathbb{Z}/2$ is the super-degree of $c_\alpha$ as in def. \ref{DifferentialFormOnSuperCartesianSpaces} subject to the relation
 
 $$
   c^\alpha \wedge c^\beta = (-1) (-1)^{\sigma_\alpha \sigma_\beta} c^\beta \wedge c^\alpha
@@ -1011,7 +1132,7 @@ $$
 
 (where the square brackets on the right denote super-skew-symmetrization).
 
-Hence not only is $CE(\mathfrak{g})$ a [[differential graded-commutative superalgebra]] whenever $\mathfrak{g}$ is a [[super Lie algebra]],
+Hence not only is $CE(\mathfrak{g})$ a [[differential graded-commutative superalgebra]] (def. \ref{differentialgradedcommutativeSuperalgebra}) whenever $\mathfrak{g}$ is a [[super Lie algebra]],
 but conversely [[super Lie algebra]]-[[structure]] on a [[super vector space]] $\mathfrak{g}$ is the same as
 a differential of degree $(1,even)$ on the [[Grassmann algebra]] $\wedge^\bullet \mathfrak{g}^\ast$.
 
@@ -1034,7 +1155,7 @@ $$
   \,.
 $$
 
-This is a [[natural bijection]] between homomrophism of [[super Lie algebras]] and of [[differential graded-commutative superalgebras]]
+This is a [[natural bijection]] between homomrophism of [[super Lie algebras]] and of [[differential graded-commutative superalgebras]] (def. \ref{differentialgradedcommutativeSuperalgebra})
 
 $$
   Hom_{SuperLieAlg}( \mathfrak{g}, \mathfrak{h}  )
@@ -1057,7 +1178,7 @@ $$
 
 =--
 
-Notice that def./prop. \ref{LieAlgebraInTermsOfChevalleyEilenbergAlgebra} establishes a dual algebraic incarnation of ([[super Lie algebras|super-]])[[Lie algebras]] which is of analogous form as the dual algebraic characterization of ([[super Cartesian space|super-]])[[Cartesian spaces]] from prop. \ref{AlgebraicFactsOfDifferentialGeometry} and def. \ref{SuperCartesianSpace}.
+Notice that prop. \ref{LieAlgebraInTermsOfChevalleyEilenbergAlgebra} establishes a [[formal dual|dual]] algebraic incarnation of ([[super Lie algebras|super-]])[[Lie algebras]] which is of analogous form as the dual algebraic characterization of ([[super Cartesian space|super-]])[[Cartesian spaces]] from prop. \ref{AlgebraicFactsOfDifferentialGeometry} and def. \ref{SuperCartesianSpace}.
 In fact both these concepts unify into the concept of an [[action Lie algebroid]]:
 
 
@@ -1065,7 +1186,7 @@ In fact both these concepts unify into the concept of an [[action Lie algebroid]
 ###### Definition
 **([[action]] of [[Lie algebra]] by [[infinitesimal]] [[diffeomorphism]])**
 
-Let $X$ be a [[supermanifold]] (def. \ref{SuperSmoothManifolds}), for instance a [[super Cartesian space]] (def. \ref{SuperCartesianSpace}), and let $\mathfrak{g}$ be a [[finite dimensional vector space|finite dimensional]] [[super Lie algebra]] as in def./prop. \ref{LieAlgebraInTermsOfChevalleyEilenbergAlgebra}.
+Let $X$ be a [[supermanifold]] (def. \ref{SuperSmoothManifolds}), for instance a [[super Cartesian space]] (def. \ref{SuperCartesianSpace}), and let $\mathfrak{g}$ be a [[finite dimensional vector space|finite dimensional]] [[super Lie algebra]] as in prop. \ref{LieAlgebraInTermsOfChevalleyEilenbergAlgebra}.
 
 An _[[action]]_ of $\mathfrak{g}$ on $X$ by
 [[infinitesimal]] [[diffeomorphisms]], is a [[homomorphism]]
@@ -1099,8 +1220,10 @@ $$
 
 (with the [[Lie bracket]] of [[tangent vector fields]] on the left).
 
-In components: If $\{c^\alpha\}$ is a linear basis of $\mathfrak{g}^\ast$
-with corresponding structure constants $(\gamma^\alpha{}_{\beta \gamma})$ (as in def./prop. \ref{LieAlgebraInTermsOfChevalleyEilenbergAlgebra})
+In components: 
+
+If $\{c^\alpha\}$ is a linear basis of $\mathfrak{g}^\ast$
+with corresponding structure constants $(\gamma^\alpha{}_{\beta \gamma})$ (as in prop. \ref{LieAlgebraInTermsOfChevalleyEilenbergAlgebra})
 and if $\{\phi^a\}$ is a [[coordinate chart]] of $X$, then $R$ is given by
 
 $$
@@ -1110,6 +1233,111 @@ $$
 
 =--
 
+Now the construction of the [[Chevalley-Eilenberg algebra]] of a [[super Lie algebra]] (prop. \ref{LieAlgebraInTermsOfChevalleyEilenbergAlgebra})
+extends to the case where this super Lie algebra [[action|acts]] on a [[supermanifold]] (def. \ref{InfinitesimalActionByLieAlgebra}):
+
++-- {: .num_defn #ActionLieAlgebroid}
+###### Definition
+**([[action Lie algebroid]])**
+
+Given a [[Lie algebra action]] 
+
+$$
+  \mathfrak{g} \times X
+    \overset{R}{\longrightarrow}
+  T X
+$$
+
+of a [[finite-dimensional vector space|finite-dimensional]] [[super Lie algebra]] $\mathfrak{g}$ on a [[supermanifold]] $X$ (def. \ref{InfinitesimalActionByLieAlgebra}) we obtain a [[differential graded-commutative superalgebra]] to be denoted $CE(X/\mathfrak{g})$
+
+1. whose underlying graded-commutative superalgebra is the [[Grassmann algebra]] of the $C^\infty(X)$-[[free module]] on $\mathfrak{g}^\ast$ over $C^\infty(X)$
+
+   $$
+     \wedge^\bullet_{C^\infty(X)} (\mathfrak{g}^\ast \otimes C^\infty(X))
+     \;=\;
+     \underset{
+       deg = 0
+     }{
+     \underbrace{
+       C^\infty(X) 
+     }}
+       \oplus 
+     \underset{
+       deg = 1
+     }{
+     \undebrace{
+     C^\infty(X) \otimes \mathfrak{g}^\ast 
+     }}
+       \oplus 
+     \underset{
+       def = 2
+     }{
+     \underbrace{
+     C^\infty(X) 
+       \otimes 
+     \mathfrak{g}^\ast \wedge \mathfrak{g}^\ast 
+     }}
+       \oplus 
+     \cdots
+   $$
+
+1. whose [[differential]] $d_{CE}$ is given
+
+   1. on functions $f \in C^\infty(X)$ by the [[linear dual]] of the Lie algebra action
+
+     $$  
+       d_{CE} f \coloneqq \rho(-)(f) \in C^\infty(X) \otimes \mathfrak{g}^\ast
+     $$
+
+   1. on dual Lie algebra elements $\omega \in \mathfrak{g}^\ast$ by the [[linear dual]] of the [[Lie bracket]]
+
+      $$
+        d_{CE} \omega \coloneqq \omega([-,-]) \;\in \; \mathfrak{g}^\ast \wedge \mathfrak{g}^\ast
+        \,.
+      $$
+
+In components: 
+
+Assume that $X = \mathbb{R}^n$ is a [[super Cartesian space]]
+with [[coordinate functions]] $(\phi^a)$ and let $\{c_\alpha\}$ be a [[linear basis]] for $\mathfrak{g}$
+with dual basis $(c^\alpha)$ for $\mathfrak{g}^\ast$ and structure constants $(\gamma^\alpha){}_{\beta \gamma}$ as in prop. \ref{LieAlgebraInTermsOfChevalleyEilenbergAlgebra} and
+with the Lie action given in components $(R_\alpha^a)$ as in def. \ref{InfinitesimalActionByLieAlgebra}.
+Then the [[differential]] is given by
+
+$$
+  \begin{aligned}
+    d_{CE(X/\mathfrak{g})} c^\alpha & = \tfrac{1}{2} \gamma^\alpha{}_{\beta \gamma} \, c^\beta \wedge c^\gamma
+    \\
+    d_{CE(X/\mathfrak{g})} \phi^a & = R^a_\alpha c^\alpha
+  \end{aligned}
+$$
+
+That this squares to zero is equivalently
+
+* in degree 0 the [[Lie algebra action|action property]]: $\rho([t, t']) = [\rho(t), \rho(t')]$
+
+* in degree 1 the [[Jacobi identity]] (eq:JacobiIdentity).
+
+$$
+  (d_{CE(X/\mathfrak{g})})^2 = 0
+  \phantom{AAA}
+  \Leftrightarrow
+  \phantom{AAA}
+  \array{
+    \phantom{and} \, \text{Jacobi identity}
+    \\
+    \text{and} \, \text{action property}
+  }
+$$
+
+Hence as before in prop. \ref{LieAlgebraInTermsOfChevalleyEilenbergAlgebra} the [[Lie theory|Lie theoretic]] [[structure]] is faithfully captured dually by [[differential graded-commutative superalgebra]].
+
+We call the [[formal duality|formal dual]] of this dgc-superalgebra the _[[action Lie algebroid]]_ $X/\mathfrak{g}$ of
+$\mathfrak{g}$ acting on $X$.
+
+=--
+
+The concept emerging by this example we may consider generally:
 
 +-- {: .num_defn #LInfinityAlgebroid}
 ###### Definition
@@ -1140,7 +1368,7 @@ Then  a _connected [[super L-∞ algebra|super]] [[Lie ∞-algebroid]]_ $\mathfr
 If we allow $\mathfrak{a}_\bullet$ to also have terms in non-positive degree, then we speak of a _[[derived Lie algebroid]]_.
 If $\mathfrak{a}_\bullet$ is _only_ concentrated in negative degrees, we also speak of a _[[derived manifold]]_.
 
-With $C^\infty(X)$ canonically itself regarded as a [[dgc-algebra]], there is a canonical
+With $C^\infty(X)$ canonically itself regarded as a [[differentia graded commutative superalgebra]], there is a canonical
 dg-algebra homomorphism
 
 $$
@@ -1148,6 +1376,20 @@ $$
 $$
 
 which is the identity on $C^\infty(X)$ and zero on $\mathfrak{a}^\ast_{\neq 0}$.
+
+Generally, we say that for $\mathfrak{a}_1$ and $\mathfrak{a}_2$ two [[super L-∞ algebra|super]]-[[Lie ∞-algebroids]],
+then a [[homomorphism]]
+
+$$
+ \mathfrak{a}_1 \overset{}{\longrightarrow} \mathfrak{a}_2
+$$
+
+between them is equivalently a homomorphism of [[differential graded-commutative superalgebras]] between their [[Chevalley-Eilenberg algebras]] going in the other direction:
+
+$$
+  CE(\mathfrak{a}_1) \longleftarrow CE(\mathfrak{a}_2)
+  \,.
+$$
 
 =--
 
@@ -1187,123 +1429,34 @@ these are also called _[[derived manifolds]]_.
 
 Two basic examples of [[Lie algebroids]] are:
 
-1. For $X$ any [[smooth manifold]], then setting $\mathfrak{a}_{\neq 0 } \coloneqq 0$ and $d_{CE} \coloneqq 0$
-   makes it a Lie algebroid. We will just still just write $X$ for the manifold trivially regarded
-   as a Lie alebroid this way.
+1. For $X$ any [[supermanifold]] (def. \ref{SuperSmoothManifolds}), for instance a [[super Cartesian space]] (def. \ref{SuperCartesianSpace}) then setting $\mathfrak{a}_{\neq 0 } \coloneqq 0$ and $d_{CE} \coloneqq 0$ makes it a Lie algebroid in the sense of def. \ref{LInfinityAlgebroid}. 
 
-1. For $\mathfrak{g}$ a [[finite number|finite]] [[dimension|dimensional]] [[Lie algebra]]
-   we obtain a Lie algebroid denoted $\ast/\mathfrak{g}$ or $B \mathfrak{g}$ by taking the base manifold
-   to be the point, taking $\mathfrak{a}$ to be concentrated in degree 1 on $\mathfrak{g}$, and
-   taking the differential to be given by the linear dual of the [[Lie bracket]]
+1. For $\mathfrak{g}$ a [[finite-dimensional vector space|finite-dimensional]] [[super Lie algebra]], its [[Chevalley-Eilenberg algebra]] (prop. \ref{LieAlgebraInTermsOfChevalleyEilenbergAlgebra}) $CE(\mathfrak{g})$ exhibits $\mathfrak{g}$ as a [[Lie alghebroid]] in the sense of def. \ref{LInfinityAlgebroid}. We write $B\mathfrak{g}$ or $\ast/\mathfrak{g}$ for $\mathfrak{g}$ regarded as a [[Lie algebroid]] this way.
 
-   $$
-     d_{CE} \;\colon\; \mathfrak{g}^\ast \overset{[-,-]^\ast}{\longrightarrow} \mathfrak{g}^\ast \wedge \mathfrak{g}^\ast
-     \,.
-   $$
+1. For $X$ and $\mathfrak{g}$ as in the previous items, and for $R \colon \mathfrak{g} \times X \to T X$ a [[Lie allgebra action]] (def. \ref{InfinitesimalActionByLieAlgebra}) of $\mathfrak{g}$ on $X$, then the dgs-superalegbra $CE(X/\mathfrak{g})$ from def. \ref{ActionLieAlgebroid} defines a [[Lie algebroid]] in the sense of def. \ref{LInfinityAlgebroid}, the _[[action Lie algebroid]]_.
 
-   If $(t_\alpha)$ is a [[linear basis]] for $\mathfrak{g}$ and $(t^\alpha)$ a corresponding dual basis for $\mathfrak{g}^\ast$,
-   then this is given by
-
-   $$
-     d_{CE} t^\alpha -\tfrac{1}{2} C^\alpha_{\beta \gamma} t^\beta \wedge t^\gamma
-     \,,
-   $$
-
-   where on the right we have the structure constants of the [[Lie bracket]] in this basis:
-
-   $$
-     [t^\beta, t^\gamma] = t_\alpha C^\alpha{}_{\beta \gamma}
-     \,.
-   $$
-
-   The resulting [[dgc-algebra]]
-
-   $$
-     \left(
-       \wedge^\bullet \mathfrak{g}^\ast, d_{CE} = [-,-]^\ast
-     \right)
-   $$
-
-   is the standard [[Chevalley-Eilenberg algebra]] from basic [[Lie theory]], whence the name of the general concept.
-
+   In the special case that $\mathfrak{g} = 0$ this reduces to the first example, while for $X = \ast$ this reduces to the second example.
 
 =--
 
-The two basic examples \ref{BasicExamplesOfLieAlgebroids} are unified by the concept of _[[action Lie algebroid]]_
-(def. \ref{ActionLieAlgebroid} below),
-which is the one of central relevance for the discussion of [[gauge theory]]: the local [[BRST complex]] (def. \ref{LocalOffShellBRSTComplex} below).
 
 
-
-
-
-+-- {: .num_defn #ActionLieAlgebroid}
-###### Definition
-**([[action Lie algebroid]])**
-
-Given an [[infinitesimal]] [[action]] of a [[Lie algebra]] $\mathfrak{g}$
-on a manifold $X$ (def. \ref{InfinitesimalActionByLieAlgebra}) the _[[action Lie algebroid]]_ $X/\mathfrak{g}$
-is the [[Lie algebroid]] (def. \ref{LInfinityAlgebroid}) whose underlying space is $X$;
-whose $C^\infty(X)$-module is concentrated in degree 1 on the [[free module]] $C^\infty(X) \otimes_{\mathbb{R}} \mathfrak{g}$
-and whose [[Chevalley-Eilenberg algebra|CE-differential]] is given
-
-* on functions $f \in C^\infty(X)$ by the Lie algebra action
-
-  $$
-    d_{CE} f \coloneqq \rho(-)(f) \in C^\infty(X) \otimes \mathfrak{g}^\ast
-  $$
-
-* on dual Lie algebra elements $\omega \in \mathfrak{g}^\ast$ by the [[linear dual]] of the [[Lie bracket]]
-
-  $$
-    d_{CE} \omega \coloneqq \omega([-,-]) \;\in \; \mathfrak{g}^\ast \wedge \mathfrak{g}^\ast
-    \,.
-  $$
-
-In terms of [[coordinates]] this means the following. Assume that $X = \mathbb{R}^n$ is a [[Cartesian space]]
-with coordinates $(\phi^a)$ and let $\{t_\alpha\}$ be a [[linear basis]] for $\mathfrak{g}$
-with dual basis $(c^\alpha)$ for $\mathfrak{g}^\ast$. Then the
-Lie action has components
-
-$$
-  \begin{aligned}
-    d_{CE} \phi^a & = \rho^{a}_{\alpha} c^\alpha
-    \\
-    d_{CE} c^\alpha & = -\tfrac{1}{2} \gamma^\alpha{}_{\beta \gamma} \, c^\beta \wedge c^\gamma
-  \end{aligned}
-$$
-
-where on the right we have the structure constants of the Lie algebra in this basis:
-
-$$
-  [t_\beta, t_\gamma] = \gamma^\alpha{}_{\beta \gamma} t_\alpha
-  \,.
-$$
-
-That the differential $d_{CE}$ thus defined indeed squares to 0 is
-
-* in degree 0 the action property: $\rho([t, t']) = [\rho(t), \rho(t')]$
-
-* in degree 1 the [[Jacobi identity]].
-
-=--
-
+Here is another basic examples of [[Lie algebroids]] that will plays a role:
 
 +-- {: .num_example #HorizontalTangentLieAlgebroid}
 ###### Example
 **(horizontal [[tangent Lie algebroid]])**
 
-Let $\Sigma$ be a [[smooth manifold]] or more generally a [[locally pro-manifold]] (prop. \ref{JetBundleIsLocallyProManifold}).
+Let $\Sigma$ be a [[smooth manifold]] or more generally a [[supermanifold]] or more generally a [[locally pro-manifold]] (prop. \ref{JetBundleIsLocallyProManifold}).
 Then we write $\Sigma/T\Sigma$ for the [[Lie algebroid]] over $X$ and whose [[Chevalley-Eilenberg algebra]] is generated
-over $C^\infty(X)$ in degree 1
-from the [[module]]
+over $C^\infty(X)$ in degree 1 from the [[module]]
 
 $$
   \mathfrak{a}_1^\ast \coloneqq (\Gamma(T \Sigma))^\ast \simeq\Gamma(T^\ast \Sigma) = \Omega^1(\Sigma)
 $$
 
 of [[differential 1-forms]] and whose [[Chevalley-Eilenberg differential]] is the [[de Rham differential]],
-so that the [[Chevalley-Eilenberg algebra]] is the [[de Rham dg-algebra]]
+so that the [[Chevalley-Eilenberg algebra]] is the [[de Rham dg-algebra]] of [[super differential forms]] (example \ref{deRhamAlgebraOfSuperDifferentialFormsIsDifferentialGradedCommutativeSuperalgebra})
 
 $$
   CE( \Sigma/T\Sigma ) \coloneqq (\Omega^\bullet(\Sigma), d_{dR})
@@ -1592,7 +1745,7 @@ is called the [[off-shell]] _[[local BRST complex]]_.
 ([Barnich-Brandt-Henneaux 94](local+BRST+cohomology#BarnichBrandtHenneaux94)).
 
 
-+-- {: .num_defn}
++-- {: .num_defn} 
 ###### Definition
 **(global [[BRST complex]])**
 
@@ -1652,8 +1805,9 @@ skew-symmetry $f_{\mu \nu} = - f_{\nu \mu}$).
 
 =--
 
-+-- {: .num_example}
++-- {: .num_example #YangMillsLocalBRSTComplex}
 ###### Example
+**([[local BRST complex]] for the [[Yang-Mills field]] on [[Minkowski spacetime]])**
 
 For $\mathfrak{g}$ a [[semisimple Lie algebra]], consider the [[Lagrangian field theory]] of [[Yang-Mills theory]] on [[Minkowski spacetime]] from example \ref{YangMillsLagrangian}, with [[Lagrangian density]]
 
@@ -1663,7 +1817,7 @@ $$
   \tfrac{1}{2} f^\alpha_{\mu \nu} f_\alpha^{\mu \nu}
 $$
 
-given by the universal [[field strength]]
+given by the universal [[field strength]] spring
 
 $$
   f^\alpha_{\mu \nu}
@@ -1695,7 +1849,7 @@ from example \ref{InfinitesimalGaugeSymmetryOfYangMillsTheory}.
 
 We claim that these are _closed [[gauge parameters]]_ in the sense of def. \ref{GaugeParametersClosed}, hence that the [[local BRST complex]] in the form of example \ref{LocalOffShellBRSTComplex} exists.
 
-To see this, observe that the candidate BRST differential needs to be of the form (eq:OnMinkowskiInfinitesimalGaugeSymmetryForYangMills) plus the dual of the Lie bracket $[-,-]_{\mathcal{G}}^\ast$
+To see this, observe that, by def. \ref{ActionLieAlgebroid} the candidate BRST differential needs to be of the form (eq:OnMinkowskiInfinitesimalGaugeSymmetryForYangMills) plus the [[linear dual]] of the [[Lie bracket]] $[-,-]_{\mathcal{G}}^\ast$
 
 $$
   s_{BRST}
@@ -1715,7 +1869,7 @@ $$
   \,.
 $$
 
-We may equivalently make an Ansatz for $([-,-]_{\mathcal{G}})^\ast$ and if the resulting differential $s_{BRST}$ squares to zero, this defines the required closure bracket $[-,-]_\mathcal{G}$.
+Moreover, by def. \ref{ActionLieAlgebroid} we may equivalently make an Ansatz for $([-,-]_{\mathcal{G}})^\ast$ and if the resulting differential $s_{BRST}$ squares to zero, as this dually defines the required closure bracket $[-,-]_\mathcal{G}$.
 
 We claim that
 
@@ -1926,7 +2080,7 @@ $$
   \end{aligned}
 $$
 
-Here first we expanded out, then in the second-but-last line we used the [[Jacobi identity]] and in the last line we just readjusted indices, for convenience of comparison with the next term. That next term is
+Here first we expanded out, then in the second-but-last line we used the [[Jacobi identity]] (eq:JacobiIdentity) and in the last line we just re-adjusted indices, just for convenience of comparison with the next term. That next term is
 
 $$
   \left[
@@ -2077,737 +2231,4 @@ This concludes our discussion of [[gauge symmetries]] as such. In the [next chap
 the [[homotopy quotient]] of the [[covariant phase space]] by the [[gauge symmetries]], called the _[[reduced phase space]]_.
 
 
-
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-$\,$
-
-
-**[[local BRST complex|local]] [[off-shell]] [[BRST complex]]**
- {#BRSTComplex}
-
-With the general concept of [[Lie algebra action]] (def. \ref{InfinitesimalActionByLieAlgebra}) and the corresponding [[action Lie algebroids]] (def. \ref{ActionLieAlgebroid}) and more general [[Lie ∞-algebroids]] in hand (def. \ref{LInfinityAlgebroid}})
-we now apply this to the [[action]] of [[infinitesimal gauge symmetries]] (def. \ref{GaugeParameters}) on field histories of a [[Lagrangian field theory]], but we consider this _[[local field theory|locally]]_, namel on the [[jet bundle]]. The [[Chevalley-Eilenberg algebra]] of the resulting [[action Lie algebroid]] (def. \ref{ActionLieAlgebroid}) is known as the _[[local BRST complex|local]] [[BRST complex]]_, example \ref{LocalOffShellBRSTComplex} below.
-
-+-- {: .num_defn #GaugeParametersClosed}
-###### Definition
-**(closed [[gauge parameters]])**
-
-Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}). Then a [[gauge parameter]] bundle $\mathcal{G} \overset{gb}{\to} \Sigma$ parameterizing [[infinitesimal gauge symmetries]] (def. \ref{GaugeParameters})
-
-$$
-  J^\infty_\Sigma(\mathcal{G} \times_\Sigma E) \overset{R}{\longrightarrow} T_\Sigma E
-$$
-
-is called _closed_ if it is closed under the [[Lie bracket]] of [[evolutionary vector fields]] (prop. \ref{EvolutionaryVectorFieldLieAlgebra}) in that there exists a morphism (not necessarily uniquely)
-
-$$
-  \label{ClosedGaugeParametersBracket}
-  [-,-]_{\mathcal{G}}
-  \;\colon\;
-  J^\infty_\Sigma( \mathcal{G} \times_\Sigma \mathcal{G} \times_\Sigma E )
-  \longrightarrow
-  J^\infty_\Sigma(\mathcal{G} \times_\Sigma E)
-$$
-
-such that
-
-$$
-  \left[ R(-) , R(-)\right]
-  \;=\;
-  R([-,-]_{\mathcal{G}})
-  \,,
-$$
-
-where on the left we have the Lie bracket of [[evolutionary vector fields]] from prop. \ref{EvolutionaryVectorFieldLieAlgebra}.
-
-Beware that $[-,-]_{\mathcal{G}}$ may be a function of the fields, namely of the [[jet bundle]] of the [[field bundle]] $E$. Hence for closed [[gauge parameters]] $[-,-]_{\mathcal{G}}$ in general defines a [[Lie algebroid]]-structure (def. \ref{LInfinityAlgebroid}).
-
-Notice that the collection of all [[infinitesimal symmetries of the Lagrangian]] by necessity always forms a (very large) [[Lie algebra]]. The condition of closed [[gauge parameters]] is a condition on the _choice_ of parameterization of the [[infinitesimal gauge symmetries]], see remark \ref{GeneratingSetOfGaugeTransformations}.
-
-=--
-
-([Henneaux 90, section 2.9](BRST+complex#Henneaux90))
-
-
-
-
-
-+-- {: .num_example #ActionOfGaugeParameterizedInfinitesimalGaugeSymmetriesOnJetBundle}
-###### Example
-**([[action]] of closed [[infinitesimal gauge symmetries]] on [[field (physics)|fields]])**
-
-Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}), and let
-$\mathcal{G} \overset{gb}{\to} \Sigma$ be a bundle of [[gauge parameters]] (def. \ref{GaugeParameters}) paramaterizing [[infinitesimal gauge symmetries]]
-
-$$
-  J^\infty_\Sigma(\mathcal{G} \times_\Sigma E)
-  \overset{R}{\longrightarrow}
-  T_\Sigma E
-$$
-
-which are closed (def. \ref{GaugeParametersClosed}), via a bracket $[-,-]_{\mathcal{G}}$.
-
-By passing from these [[evolutionary vector fields]] $R$ (def. \ref{EvolutionaryVectorField})
-to their prolongations $\widehat{R}$, being actual vector fields on the jet bundle (prop. \ref{EvolutionaryVectorFieldProlongation}),
-we obtain a bundle morphism of the form
-
-$$
-  \array{
-    J^\infty_\Sigma(\mathcal{G}) \times_\Sigma J^\infty_\Sigma (E)
-     && \overset{\widehat{R(e)}}{\longrightarrow} &&
-    T_\Sigma J^\infty_\Sigma(E)
-    \\
-    & \searrow && \swarrow
-    \\
-    && J^\infty_\Sigma(E)
-  }
-$$
-
-and via the assumed bracket $[-,-]_{\mathcal{G}}$ on [[gauge parameters]] this exhibits [[Lie algebroid]] structure on $J^\infty_\Sigma(\mathcal{G}) \times_\Sigma J^\infty_\Sigma(E) \overset{pr_2}{\to} J^\infty_\Sigma(E)$.
-
-
-
-In the case that $\mathcal{G} = \mathfrak{g} \times \Sigma$ is a [[trivial vector bundle]], with [[fiber]] $\mathfrak{g}$, then so is its [[jet bundle]]
-
-$$
-  J^\infty_\Sigma(\mathfrak{g} \times \Sigma) = \mathfrak{g}^\infty \times \Sigma
-  \,.
-$$
-
-If moreover the bracket (eq:ClosedGaugeParametersBracket) on the [[infinitesimal gauge symmetries]] is independent of the fields, then this induces a [[Lie algebra]] structure on $\mathfrak{g}^\infty$ and exhibits an [[Lie algebra action]]
-
-
-$$
-  \array{
-    \mathfrak{g}^\infty \times J^\infty_\Sigma E
-     && \overset{\widehat{R(e)}}{\longrightarrow} &&
-    T_\Sigma J^\infty_\Sigma(E)
-    \\
-    & \searrow && \swarrow
-    \\
-    && J^\infty_\Sigma(E)
-  }
-  \,.
-$$
-
-of the [[gauge parameter|gauge parameterized]] [[infinitesimal gauge symmetries]] on the [[jet bundle]] of the [[field bundle]] by [[infinitesimal]] [[diffeomorphisms]].
-
-=--
-
-+-- {: .num_example #LocalOffShellBRSTComplex}
-###### Example
-**(local [[BRST complex]] and [[ghost fields]] for closed [[gauge parameters]])**
-
-Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}), and let
-$\mathcal{G} \overset{gb}{\longrightarrow} \Sigma$ be a bundle of irreducible closed  [[gauge parameters]]
-for the theory (def. \ref{GaugeParametrizedInfinitesimalGaugeTransformation}) with
-bundle morphism
-
-$$
-  \array{
-    J^\infty_\Sigma( \mathcal{G} \times_\Sigma E )
-    && \overset{R}{\longrightarrow} &&
-    T_\Sigma E
-    \\
-    & \searrow && \swarrow
-    \\
-    && E
-  }
-  \,.
-$$
-
-Assuming that the gauge parameter bundle is [[trivial vector bundle|trivial]], $\mathcal{G} = \mathfrak{g} \times \Sigma$,
-then by example \ref{ActionOfGaugeParameterizedInfinitesimalGaugeSymmetriesOnJetBundle} this
-induces an [[action]] $\hat R$
-of a Lie algebra $\mathfrak{g}^\infty$ on $J^\infty_\Sigma E$ by [[infinitesimal]] [[diffeomorphisms]].
-
-The corresponding [[action Lie algebroid]] $J^\infty_\Sigma(E)/\mathfrak{g}^\infty$
-(def. \ref{ActionLieAlgebroid}) has as underlying [[graded manifold]] (remark \ref{dgManifolds})
-
-$$
-  \mathfrak{g}^\infty[1] \times J^\infty_\Sigma(E)
-  \;\simeq\;
-  J^\infty_\Sigma( \mathcal{G}[1] \times_\Sigma E  )
-$$
-
-the [[jet bundle]] of the _[[graded manifold|graded]] [[field bundle]]_
-
-$$
-  E_{BRST} \coloneqq \mathcal{G}[1]  \times E
-$$
-
-which regards the [[gauge parameters]] as [[field (physics)|fields]] in degree 1.
-As such these are called _[[ghost fields]]_:
-
-$$
-  \left\{
-    \text{ghost field histories}
-  \right\}
-   \;\coloneqq\;
-  \Gamma_\Sigma( \mathcal{G}[1] )
-  \,.
-$$
-
-Therefore we write suggestively
-
-$$
-  E/\mathcal{G}
-  \;\coloneqq\;
-  J^\infty_\Sigma(E)/\mathfrak{g}^\infty
-$$
-
-for the [[action Lie algebroid]] of the [[gauge parameter|gauge parameterized]] implicit [[infinitesimal gauge symmetries]]
-on the [[jet bundle]] of the [[field bundle]].
-
-The Chevalley-Eilenberg [[differential]] of the [[BRST complex]] is traditionally denoted
-
-$$
-  s_{BRST} \coloneqq d_{CE}
-  \,.
-$$
-
-To express this in [[coordinates]], assume that the [[field bundle]] $E$ as well as the [[gauge parameter]]
-bundle are [[trivial vector bundles]] (example \ref{TrivialVectorBundleAsAFieldBundle})
-with $(\phi^a)$ the [[field (physics)|field]] coordinates on the [[fiber]] of $E$
-with induced jet coordinates $((x^\mu), (\phi^a), (\phi^a_{\mu}), \cdots)$ and
-$(c^\alpha)$ are [[ghost field]] coordinates on the fiber of $\mathcal{G}[1]$ with induced
-jet coordinates $((x^\mu), (c^\alpha), (c^\alpha_\mu), \cdots)$.
-
-Then in terms of the
-corresponding coordinate expression for the gauge symmetries $R$ (eq:CoordinateExpressionForGaugeParameterized)
-the [[BRST differential]] is given on the [[field (physics)|fields]] by
-
-$$
-  s_{BRST} \, \phi^a
-  \;=\;
-  \underset{k \in \mathbb{N}}{\sum}
-    R^{a \mu_1 \cdots \mu_k}_{\alpha} c^\alpha_{\mu_1 \cdots \mu_k}
-$$
-
-and on the [[ghost fields]] by
-
-$$
-  s_{BRST} \, c^\alpha = \tfrac{1}{2}\gamma^\alpha{}_{\beta \gamma} c^\beta c^\gamma
-  \,,
-$$
-
-and it extends from there, via prop. \ref{EvolutionaryVectorFieldProlongation},
-to jets of fields and ghost fields by (anti-)commutativity with the [[total derivative|total spacetime derivative]].
-
-Moreover, since the action of the [[infinitesimal gauge symmetries]] is by definition via
-prolongations (prop. \ref{EvolutionaryVectorFieldProlongation}) of [[evolutionary vector fields]] (def. \ref{EvolutionaryVectorField}) and hence compatible with the [[total derivative|total spacetime derivative]] (eq:ProlongedEvolutionaryVectorFieldContractionAnticommutedWithHorizontalDerivative) this construction
-descends to the horizontal tangent Lie algebroid $J^\infty_\Sigma(E)/T\Sigma$ (example \ref{HorizontalTangentLieAlgebroid})
-to yield
-
-$$
-  E/(\mathcal{G}\times_\Sigma T \Sigma)
-  \;\coloneqq\;
-  \left(J^\infty_\Sigma(E)/T\Sigma\right)/\mathfrak{g}^\infty
-$$
-
-The [[Chevalley-Eilenberg differential]] on $E/(\mathcal{G}\times_\Sigma T \Sigma)$ is
-
-$$
-  d - s_{BRST}
-$$
-
-The [[Chevalley-Eilenberg algebra]] of functions on this [[differential graded manifold]] (eq:CEAlgebra)
-is called the [[off-shell]] _[[local BRST complex]]_. 
-
-=--
-
-([Barnich-Brandt-Henneaux 94](local+BRST+cohomology#BarnichBrandtHenneaux94)).
-
-
-+-- {: .num_defn}
-###### Definition
-**(global [[BRST complex]])**
-
-We may pass from the [[off-shell]] [[local BRST complex]] (def. \ref{LocalOffShellBRSTComplex}) on the [[jet bundle]] to the "global" BRST
-complex by [[transgression of variational differential forms]] (def. \ref{TransgressionOfVariationalDifferentialFormsToConfigrationSpaces}):
-
-Write $Obs(E \times_\Sigma \mathcal{G}[1])$ for the induced graded [[off-shell]] [[algebra of observables]] (def. \ref{LocalObservables}).
-For $A \in \Omega^{p+1,\bullet}_\Sigma(E \times_\Sigma \mathcal{G}[1])$ with corresponding [[local observable]]
-$\tau_\Sigma(A) \in LocObs_\Sigma(E \times_\Sigma \mathcal{G}[1])$ its BRST differential is defined by
-
-$$
-  s_{BRST} \tau_{\Sigma}(A) \;\coloneqq\; \tau_{\Sigma}(s_{BRST} A)
-$$
-
-and extended from there to $Obs(E \times_\Sigma \mathcal{G}[1])$ as a graded derivation.
-
-=--
-
-+-- {: .num_prop #LocalBRSTComplexForFreeElectromagneticFieldOnMinkowskiSpacetim}
-###### Example
-**([[local BRST complex]] for [[free field|free]] [[electromagnetic field]] on [[Minkowski spacetime]])**
-
-Consider the [[Lagrangian field theory]] of [[free field|free]] [[electromagnetism]] on [[Minkowski spacetime]] (example \ref{ElectromagnetismLagrangianDensity}) with its [[gauge parameter]] bundle as in
-example \ref{InfinitesimalGaugeSymmetryElectromagnetism}.
-
-By (eq:EMProlongedSymmetryVectorField) the action of the [[BRST differential]] is the derivation
-
-$$
-  s_{BRST}
-   \;=\;
-  c_{,\mu} \frac{\partial}{\partial a_\mu}
-  +
-  c_{, \mu \nu} \frac{\partial}{\partial a_{\mu, \nu}}
-  +
-  \cdots
-  \,.
-$$
-
-In particular the [[Lagrangian density]] is BRST-closed
-
-$$
-  \begin{aligned}
-    s_{BRST} \mathbf{L}
-    & =
-    s_{BRST} f_{\mu \nu} f^{\mu \nu} dvol_\Sigma
-    \\
-    & =
-    c_{,\mu \nu} f^{\mu \nu} dvol_\Sigma
-    \\
-    & =
-    0
-  \end{aligned}
-$$
-
-as is the [[Euler-Lagrange form]] (due to the symmetry $c_{,\mu \nu} = c_{,\nu \mu}$ (eq:JetCoodinatesSymmetry) and in contrast to the
-skew-symmetry $f_{\mu \nu} = - f_{\nu \mu}$).
-
-=--
-
-+-- {: .num_example}
-###### Example
-
-For $\mathfrak{g}$ a [[semisimple Lie algebra]], consider the [[Lagrangian field theory]] of [[Yang-Mills theory]] on [[Minkowski spacetime]] from example \ref{YangMillsLagrangian}, with [[Lagrangian density]]
-
-$$
-  \mathbf{L}
-  \;=\;
-  \tfrac{1}{2} f^\alpha_{\mu \nu} f_\alpha^{\mu \nu}
-$$
-
-given by the universal [[field strength]]
-
-$$
-  f^\alpha_{\mu \nu}
-  \;\coloneqq\;
-  \tfrac{1}{2}
-  \left(
-    a^\alpha_{[\nu,\mu]}
-    +
-    \tfrac{1}{2} \gamma^\alpha_{\beta \gamma} a^\beta_{[\mu} a^\gamma_{\nu]}
-  \right)
-  \,.
-$$
-
-Let $\mathcal{G} \coloneqq \Sigma \times \mathfrak{g}$ be the [[trivial vector bundle]] with [[fiber]] $\mathfrak{g}$, regarded as a
-[[gauge parameter]] bundle (def. \ref{GaugeParametrizedInfinitesimalGaugeTransformation}) with coordinate functions $((x^\mu), c^\alpha)$ and consider the [[gauge parameter|gauge parametrized]] [[evolutionary vector field]] (eq:CoordinateExpressionForGaugeParameterized) 
-
-$$
-  R
-  \;=\;
-  \left(
-    c^\alpha_{,\mu}
-    -
-    \gamma^\alpha_{\beta \gamma} c^\beta a^\gamma_\mu
-  \right)
-  \partial_{a^\alpha_\mu}
-$$
-
-from example \ref{InfinitesimalGaugeSymmetryOfYangMillsTheory}. 
-
-We claim that these are _closed [[gauge parameters]]_ in the sense of def. \ref{GaugeParametersClosed}, hence that the [[local BRST complex]] in the form of example \ref{LocalOffShellBRSTComplex} exists. 
-
-To see this, observe that the candidate BRST differential needs to be of the form (eq:OnMinkowskiInfinitesimalGaugeSymmetryForYangMills) plus the dual of the Lie bracket $[-,-]_{\mathcal{G}}^\ast$
-
-$$
-  s_{BRST}
-  \;=\;
-   \left(
-  \left(
-    c^\alpha_{,\mu}
-    -
-    \gamma^\alpha_{\beta \gamma} c^\beta a^\gamma_\mu
-  \right)
-  \partial_{a^\alpha_\mu}
-  \;+\;
-  \text{prolongation}
-  \right)
-  +
-  ([-,-]_{\mathcal{G}})^\ast
-  \,.
-$$
-
-We may equivalently make an Ansatz for $([-,-]_{\mathcal{G}})^\ast$ and if the resulting differential $s_{BRST}$ squares to zero, this defines the required closure bracket $[-,-]_\mathcal{G}$. 
-
-We claim that 
-
-$$
-  \label{OffShellYangMillsOnMinkowskiBRSTOperator}
-  s_{BRST}
-  \;\coloneqq\;
-  \widehat{
-    \left(
-      c^\alpha_{,\mu}
-      -
-      \gamma^\alpha_{\beta \gamma} c^\beta a^\gamma_\mu
-    \right)
-    \frac{\partial}{\partial a^\alpha_\mu}
-   }
-    +
-   \widehat{
-    \tfrac{1}{2}\gamma^\alpha{}_{\beta \gamma} \, c^\beta c^\gamma
-    \frac{\partial}{\partial c^\alpha}
-   }
-  \,,
-$$
-
-where the hat denotes prolongation (prop. \ref{EvolutionaryVectorFieldProlongation}). This is the [[local BRST complex|local]] ([[jet bundle]]) [[BRST differential]] for [[Yang-Mills theory]] on [[Minkowski spacetime]].
-
-=--
-
-
-+-- {: .proof}
-###### Proof
-
-We need to show that (eq:OffShellYangMillsOnMinkowskiBRSTOperator) squares to zero. Consider the two terms that appear:
-
-$$
-  (s_{BRST})^2 
-  =
-  \left[
-    \widehat{
-    \left(
-     c^\alpha_{,\mu}
-     -
-     \gamma^\alpha_{\beta \gamma} c^\beta a^\gamma_\mu
-    \right)
-    \partial_{a^\alpha_\mu}
-    }
-    \;,\;
-    \widehat{
-    \left(
-     c^{\alpha'}_{,\mu}
-     -
-     \gamma^{\alpha'}_{\beta \gamma} c^\beta a^\gamma_\mu
-    \right)
-    \partial_{a^{\alpha'}_\mu}
-    }
-  \right]
-  \;+\;
-  2
-  \left[
-    \widehat{
-    \left(
-     c^\alpha_{,\mu}
-     -
-     \gamma^\alpha_{\beta \gamma} c^\beta a^\gamma_\mu
-    \right)
-    \partial_{a^\alpha_\mu}
-    }
-    \;,\;
-    \widehat{
-    \tfrac{1}{2}\gamma^\alpha{}_{\beta \gamma}
-    \,
-    c^\beta c^\gamma \frac{\partial}{\partial c^\alpha}
-    }
-  \right]
-  \,.
-$$
-
-The first term is
-
-$$
-  \begin{aligned}
-  \left[
-    \widehat{
-    \left(
-     c^\alpha_{,\mu}
-     -
-     \gamma^\alpha_{\beta \gamma} c^\beta a^\gamma_\mu
-    \right)
-    \partial_{a^\alpha_\mu}
-    }
-    \;,\;
-    \widehat{
-    \left(
-     c^{\alpha'}_{,\mu}
-     -
-     \gamma^{\alpha'}_{\beta \gamma} c^\beta a^\gamma_\mu
-    \right)
-    \partial_{a^{\alpha'}_\mu}
-    }
-  \right]
-  & =   
-    -
-    2
-    \gamma^{\alpha'}_{\beta \gamma} 
-    \widehat{
-    c^\beta 
-    \left(
-      c^\gamma_{,\mu}
-      -
-      \gamma^\gamma_{\beta' \gamma'} c^{\beta'} a^{\gamma'}_\mu
-     \right)
-    \frac{\partial}{\partial a^{\alpha'}_\mu}
-    }
-    \\
-    & =
-    -
-    2
-    \gamma^{\alpha'}_{\beta \gamma} 
-    \widehat{
-    c^\beta 
-      c^\gamma_{,\mu}
-    \frac{\partial}{\partial a^{\alpha'}_\mu}    
-     }
-     +    
-     2
-     \gamma^{\alpha'}_{\beta \gamma} 
-     \gamma^\gamma_{\beta' \gamma'} 
-     \widehat{
-     c^\beta c^{\beta'} a^{\gamma'}_\mu
-     \frac{\partial}{\partial a^{\alpha'}_\mu}    
-     }
-     \\
-    & =
-    -
-    2
-    \gamma^{\alpha'}_{\beta \gamma} 
-    \widehat{
-      c^\beta 
-      c^\gamma_{,\mu}
-      \frac{\partial}{\partial a^{\alpha'}_\mu}    
-     }
-     +
-     \gamma^{\alpha'}_{\beta \gamma} 
-     \gamma^\gamma_{\beta' \gamma'} 
-     \widehat{
-     \left(
-       c^\beta c^{\beta'} a^{\gamma'}_\mu
-       -
-       c^{\beta'} c^{\beta} a^{\gamma'}_\mu
-     \right)
-     \frac{\partial}{\partial a^{\alpha'}_\mu}    
-     }
-     \\
-    & =
-    -
-    2
-    \gamma^{\alpha'}_{\beta \gamma} 
-    \widehat{
-      c^\beta 
-      c^\gamma_{,\mu}
-      \frac{\partial}{\partial a^{\alpha'}_\mu}    
-     }
-     +
-     \gamma^{\alpha'}_{\beta \gamma} 
-     \gamma^\gamma_{\beta' \gamma'} 
-     \widehat{
-     \left(
-       -
-       c^\beta c^{\gamma'} a^{\beta'}_\mu
-       -
-       c^{\beta'} c^{\beta} a^{\gamma'}_\mu
-     \right)
-     \frac{\partial}{\partial a^{\alpha'}_\mu}  
-     }
-     \\  
-     & =
-    -
-    2
-    \gamma^{\alpha'}_{\beta \gamma} 
-    \widehat{
-      c^\beta 
-      c^\gamma_{,\mu}
-     \frac{\partial}{\partial a^{\alpha'}_\mu}    
-     }
-      +
-     \gamma^{\alpha'}_{\beta \gamma} 
-     \gamma^\gamma_{\beta' \gamma'} 
-     \widehat{
-       c^{\gamma'} c^{\beta'} a^{\beta}_\mu
-      \frac{\partial}{\partial a^{\alpha'}_\mu}    
-     }
-     \\  
-     & =
-    -
-    2
-    \gamma^{\alpha'}_{\beta \gamma} 
-    \widehat{
-      c^\beta 
-      c^\gamma_{,\mu}
-      \frac{\partial}{\partial a^{\alpha'}_\mu}    
-     }
-      +
-     \gamma^{\alpha'}_{\gamma \beta} 
-     \gamma^\beta_{\beta' \gamma'} 
-     \widehat{
-       c^{\beta'} c^{\gamma'} a^{\gamma}_\mu
-      \frac{\partial}{\partial a^{\alpha'}_\mu}    
-     }
-  \end{aligned}
-$$
-
-Here first we expanded out, then in the second-but-last line we used the [[Jacobi identity]] and in the last line we just readjusted indices, for convenience of comparison with the next term. That next term is
- 
-$$
-  \left[
-    \widehat{
-    \left(
-     c^\alpha_{,\mu}
-     -
-     \gamma^\alpha_{\beta \gamma} c^\beta a^\gamma_\mu
-    \right)
-    \partial_{a^\alpha_\mu}
-    }
-    \;,\;
-    \gamma^\alpha{}_{\beta \gamma}
-    \,
-    \widehat{c^\beta c^\gamma \frac{\partial}{\partial c^\alpha}}
-  \right]
-  =
-  2
-  \gamma^\alpha_{\beta \gamma} 
-  \widehat{
-    c^\beta_{,\mu} c^\gamma
-    \frac{\partial}{\partial a^\alpha_\mu}
-  }
-  -
-  \gamma^\alpha_{\beta \gamma} 
-  \gamma^\beta_{\beta' \gamma'} 
-  \widehat{
-    c^{\beta'} c^{\gamma'} 
-    a^\gamma_\mu
-    \frac{\partial}{\partial a^\alpha_\mu}
-  }
-  \,,
-$$
-
-where the first term on the right comes from the prolongation.
-
-This shows that the two terms cancel.
-
-=--
-
-
-
-+-- {: .num_example #LocalBRSTComplexBFieldMinkowskiSpacetime}
-###### Example
-**([[local BRST complex]] for [[B-field]] on [[Minkowski spacetime]])**
-
-Consider the [[Lagrangian field theory]] of the [[B-field]] on [[Minkowski spacetime]] from example \ref{BFieldLagrangianDensity}, with [[field bundle]] the [[differential 2-form]]-bundle $E = \wedge^2_\Sigma T^\ast \Sigma$ with coordinates $((x^\mu), (b_{\mu \nu}))$ subject to $b_{\mu \nu} = - b_{\nu \mu}$; and with [[Lagrangian density]].
-
-By example \ref{InfinitesimalGaugeSymmetryOfTheBField} the [[local BRST complex]] (example \ref{example}) has BRST differential of the form
-
-$$
-  c_{\mu, \nu} \frac{\partial}{\partial b_{\mu \nu}}
-  +
-  c_{\mu,\nu_1 \nu_2} \frac{\partial}{\partial b_{\mu \nu_1, \nu_2}}
-  + 
-  \cdots
-  \,.
-$$
-
-In this case this enhanced to an [[L-infinity algebroid|Lie 2-algebroid]] by regarding the second-order [[gauge parameters]] (eq:SecondOrderGaugeParameterBundleForBFieldOnMinkowskiSpacetime) in degree 2 to form a [[graded manifold|graded]] [[field bundle]]
-
-$$
-  \underset{ \{\overset{(2)}{c}\} }{
-  \underbrace{
-    \overset{(2)}{\mathcal{G}}[2]
-  }}
-    \times_\Sigma
-  \underset{\{c_\mu\}}{
-  \underbrace{
-    \mathcal{G}[1]
-  }
-  }
-    \times_\Sigma
-  \underset{
-    (b_{\mu \nu})
-  }{
-  \underbrace{
-    E
-  }}
-  \;=\;
-  \mathbb{R}[2] \times T^\ast \Sigma [1] \times_\Sigma E
-$$
-
-by adding the [[ghost-of-ghost field]] $(\overset{(2)}{c})$ (eq:SecondOderGaugeSymmetryOfBFieldOnMinkowski) and taking the local BRST differential to be the sum of the first order [[infinitesimal gauge symmetries]] (eq:InfinitesimalGaugeSymmetryForBFieldOnMinkowskiSpacetime) and the second order [[infinitesimal gauge-of-gauge symmetry]] (eq:SecondOderGaugeSymmetryOfBFieldOnMinkowski)
-
-$$
-  s_{BRST}
-  \;=\;
-  \left(
-  c_{\mu, \nu} \frac{\partial}{\partial b_{\mu \nu}}
-  +
-  c_{\mu,\nu_1 \nu_2} \frac{\partial}{\partial b_{\mu \nu_1, \nu_2}}
-  + 
-  \cdots
-  \right)
-  +
-  \left(
-    \overset{(2)}{c}_{,\mu} \frac{\partial}{\partial c_\mu}
-    +
-    \overset{(2)}{c}_{,\mu \nu} \frac{\partial}{\partial c_{\mu,\nu}}
-    +
-    \cdots
-  \right)
-  \,.
-$$
-
-Notice that this indeed still squares to zero, due to the second-order [[Noether identity]] (eq:NoetherIdentitySecondOrderForBFieldOnMinkowskiSpacetime):
-
-$$
-  \begin{aligned}
-    \left( s_{BSRT} \right)^2
-    & =
-    \left[ 
-       \overset{(2)}{c}_{,\mu \nu} \frac{\partial}{\partial c_{\mu,\nu}},
-         c_{\mu, \nu} \frac{\partial}{\partial b_{\mu \nu}}
-    \right]
-    \;+\;
-    \left[ 
-       \overset{(2)}{c}_{,\mu \nu_1 \nu_2} \frac{\partial}{\partial c_{\mu,\nu_1 \nu_2}},
-         c_{\mu, \nu_1 \nu_2} \frac{\partial}{\partial b_{\mu \nu_1, \nu_2}}
-    \right]
-    \\
-    & =
-    \underset{ = 0 }{
-    \underbrace{
-      \overset{(2)}{c}_{,\mu \nu} \frac{\partial}{\partial b_{\mu \nu}}
-    }}
-    \;+\;
-    \underset{ = 0 }{
-    \underbrace{
-    \overset{(2)}{c}_{,\mu \nu_1 \nu_2} \frac{\partial}{\partial b_{\mu \nu_1, \nu_2}}
-    }}
-    \;+\;
-    \cdots
-    \\
-    & = 0
-  \end{aligned}
-$$
-
-and thus it clearly cancels the first term.
-
-=--
-
-
-$\,$
-
-This concludes our discussion of [[gauge symmetries]] as such. In the [next chapter](#ReducedPhaseSpace) we discuss
-the [[homotopy quotient]] of the [[covariant phase space]] by the [[gauge symmetries]], called the _[[reduced phase space]]_.
 
