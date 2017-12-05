@@ -31,8 +31,16 @@ Its cofibrant [[resolutions]] in the [[model structure on operads]] are [[E-infi
 
 * [[Lie operad]]
 
+[[!redirects commutative monoid operads]]
+
 [[!redirects operad for commutative algebras]]
+[[!redirects operads for commutative algebras]]
 
 [[!redirects Comm]]
 
 [[!redirects commutative algebra operad]]
+[[!redirects commutative algebra operads]]
+
+[[!redirects commutative operad]]
+[[!redirects commutative operads]]
+
