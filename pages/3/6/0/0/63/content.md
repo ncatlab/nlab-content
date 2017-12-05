@@ -300,6 +300,11 @@ Similarly the bulk of the textbook
 
 considers the Hamiltonian formulation. Chapters 17 and 18 are about the Lagrangian ("antifield") formulation, with section 18.4 devoted to the relation between the two.
 
+The [[L-infinity algebroid]]-structure of the [[local BRST complex]] on the [[jet bundle]] is made manifest in
+
+* {#Barnich10} [[Glenn Barnich]], equation(3) of _A note on gauge systems from the point of view of Lie algebroids_, in P. Kielanowski, V. Buchstaber, A. Odzijewicz, 
+M.. Schlichenmaier, T Voronov,  (eds.) XXIX Workshop on Geometric Methods in Physics, vol. 1307 of AIP Conference Proceedings, 1307, 7 (2010) ([arXiv:1010.0899](https://arxiv.org/abs/1010.0899), [doi:/10.1063/1.3527427]( https://doi.org/10.1063/1.3527427))
+
 
 Discussion with more emphasis on the applications to quantum field theory of interest is in lecture 3 of 
 
