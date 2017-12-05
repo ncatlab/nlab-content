@@ -202,7 +202,7 @@ The $\omega$-groupoids $\Pi_\omega(\Delta^{n})$ are discussed in detail in
 
 * [[Ronnie Brown]], Philip J. Higgins and Rafael Sivera, _Nonabelian algebraic topology_ ([pdf](http://www.bangor.ac.uk/~mas010/pdffiles/rbrsbookb-e040609.pdf))
 
-An introductory survey of the role of orientals in Steet's definition of an $\omega$-category is given in section 6 of
+An introductory survey of the role of orientals in Street's definition of an $\omega$-category is given in section 6 of
 
 * [[Eugenia Cheng]], [[Aaron Lauda]], _Higher dimensional categories: an illustrated guidebook_ (2004) ([pdf](http://www.cheng.staff.shef.ac.uk/guidebook/guidebook-new.pdf))
 
