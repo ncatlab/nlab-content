@@ -69,7 +69,7 @@ There is however also a different sign rule use in the literature, the relation 
 ### Differential forms on supermanifolds
  {#DifferentialFormsOnSupermanifolds}
 
-We discuss the sign rules for the [[de Rham complex]] of [[differential forms]] on a [[supermanifold]] ([[superdifferential forms]]). 
+We discuss the sign rules for the [[de Rham algebra]] of [[differential forms]] on a [[supermanifold]] ([[superdifferential forms]]), which is a [[differential graded-commutative superalgebra]]. 
 
 
 For $p,q \in \mathbb{N}$, let $\mathbb{R}^{p|q}$ the [[super Cartesian space]] of [[dimension]] $(p|q)$. This is the [[supermanifold]] defined by the fact that its [[algebra of functions]] is freely generated, as a [[smooth superalgebra]] by even-graded [[coordinate]]-functions $\langle \{x^a\}_{1}^p$ and odd-graded coordinate function $\{ \theta^\alpha\}_{\alpha= 1}^q$
