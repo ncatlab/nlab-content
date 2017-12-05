@@ -123,5 +123,28 @@ $\,$
 
 [[!include A first idea of quantum field theory -- Phase space]]
 
+[[!include A first idea of quantum field theory -- Propagators]]
+
+[[!include A first idea of quantum field theory -- Gauge symmetries]]
+
+[[!include A first idea of quantum field theory -- Reduced phase space]]
+
+[[!include A first idea of quantum field theory -- Gauge fixing]]
+
+[[!include A first idea of quantum field theory -- Quantization]]
+
+[[!include A first idea of quantum field theory -- Free quantum fields]]
+
+[[!include A first idea of quantum field theory -- Scattering]]
+
+[[!include A first idea of quantum field theory -- Quantum observables]]
+
+[[!include A first idea of quantum field theory -- Feynman diagrams]]
+
+[[!include A first idea of quantum field theory -- Renormalization]]
+
+[[!include A first idea of quantum field theory -- Quantum electrodynamics]]
+
+
 [[!redirects A first idea of quantum field theory]]
 
