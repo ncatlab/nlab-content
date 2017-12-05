@@ -797,6 +797,8 @@ By the above definition, any structure in $sVect$ works just like the correspond
 
 * [[super vector bundle]]
 
+* [[superalgebra]], [[supercommutative superalgebra]], [[differential graded-commutative superalgebra]]
+
 * [[geometry of physics -- supergeometry]]
 
 ## References
