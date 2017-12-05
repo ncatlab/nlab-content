@@ -350,3 +350,6 @@ For more along these lines see [[BV-BRST formalism]].
 
 [[!redirects BRST differential]]
 [[!redirects BRST differentials]]
+
+[[!redirects BRST operator]]
+[[!redirects BRST operators]]
