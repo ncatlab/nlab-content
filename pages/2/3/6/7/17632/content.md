@@ -18,11 +18,11 @@ Fields are finitely [[first-order theory|first-order]] axiomatizable. An [[algeb
 ## Definition
 $\mathsf{ACF}$ is the countable collection of sentences in the language $\mathcal{L}_{\operatorname{ring}}$ of rings given by:
 
-$$\{\text{field axioms}\} + \left\{ (\exists x)[a_n x^n + \dots + a_0 = 0] \right\},$$
+$$\{\text{field axioms}\} + \left\{ (\forall a_0, \ldots, a_{n-1}) (\exists x)[x^n + \sum_{i=0}^{n-1} a_i x_i = 0] \right\},$$
 
-where the tuples $\overline{a}$ range over all finite $(n+1)$-tuples of elements with $n \geq 1$ such that $a_n \neq 0$. 
+where $n = 1, 2, \ldots$. 
 
-We additionally specify a characteristic $p$ to obtain $\mathsf{ACF}_p$ by either saying that $1 + \dots \text{ (n times) } \dots + 1 \neq 0$ for all $n$, or that equality obtains for some minimal $n$ which we call $p$.
+We can additionally specify a characteristic $p$ to obtain $\mathsf{ACF}_p$ by either adding the axioms $\{ 1 \ne 0 , 1+1 \ne 0 , \cdots \}$ to get $\mathsf{ACF}_0$ or adding the axiom $\underbrace{1+\cdots+1}_\text{$p$ terms} = 0$ to get $\mathsf{ACF}_p$ (where $p$ is prime).
 
 ## Properties
 * $\mathsf{ACF}$ has quantifier elimination. This amounts to a special case of Chevalley's direct image theorem from algebraic geometry.
