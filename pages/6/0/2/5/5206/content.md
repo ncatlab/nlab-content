@@ -15,9 +15,13 @@
 
 ## Idea
 
-The _commutative operad_ is the [[operad]] whose [[algebras over an operad]] are commutative [[monoid]]s.
+The _commutative operad_ is the [[operad]] whose [[algebras over an operad]] are  [[commutative monoids]] in the ambient [[enriched category|enriching category]], hence the [[commutative algebras]] if interpreted in [[vector spaces]] and the [[differential graded-commutative algebras]] if interpreted n [[chain complexes]].
+ 
+Its cofibrant [[resolutions]] in the [[model structure on operads]] are [[E-infinity operads]] whose [[algebras over an operad|algebras]] are [[E-infinity algebras]].
 
-Its cofibrant [[resolution]]s in the [[model structure on operads]] are [[E-infinity operad]]s.
+## Properties
+
+* [[Koszul duality]] relates the commutative operad with the [[Lie operad]].
 
 ## Related concepts
 
@@ -30,3 +34,5 @@ Its cofibrant [[resolution]]s in the [[model structure on operads]] are [[E-infi
 [[!redirects operad for commutative algebras]]
 
 [[!redirects Comm]]
+
+[[!redirects commutative algebra operad]]
