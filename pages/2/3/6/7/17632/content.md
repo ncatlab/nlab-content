@@ -13,16 +13,16 @@
 {:toc}
 
 ## Idea
-Fields are finitely [[first-order theory|first-order]] axiomatizable. An [[algebraically closed field]] is further axiomatized by infinitely many sentences which state that all polynomials with coefficients from the ring of integers of the [[prime field]] have a root. Once we additionally specify a characteristic $p$, $\mathsf{ACF}_p$ turns out to be complete, [[elimination of imaginaries|eliminates imaginaries]], is [[stability theory|stable]], and admits [[quantifier elimination]].
+Fields are finitely [[first-order theory|first-order]] axiomatizable. An [[algebraically closed field]] is further axiomatized by infinitely many sentences which state that all non-constant polynomials have a root. Once we additionally specify a characteristic $p$, $\mathsf{ACF}_p$ turns out to be complete, [[elimination of imaginaries|eliminates imaginaries]], is [[stability theory|stable]], and admits [[quantifier elimination]].
 
 ## Definition
 $\mathsf{ACF}$ is the countable collection of sentences in the language $\mathcal{L}_{\operatorname{ring}}$ of rings given by:
 
 $$\{\text{field axioms}\} + \left\{ (\exists x)[a_n x^n + \dots + a_0 = 0] \right\},$$
 
-where the tuples $\overline{a}$ range over all finite tuples of integers (which are actually shorthand for the unit $1$ added to itself as many times as necessary (or the additive inverse of this)). 
+where the tuples $\overline{a}$ range over all finite $(n+1)$-tuples of elements with $n \geq 1$ such that $a_n \neq 0$. 
 
-We additionally specify a characteristic $p$ to obtain $\mathsf{ACF}_p$ by either saying that $1 + \dots \text{ (n times) } \dots + 1 \neq 0$ for all $n$, or that this does happen at $p$.
+We additionally specify a characteristic $p$ to obtain $\mathsf{ACF}_p$ by either saying that $1 + \dots \text{ (n times) } \dots + 1 \neq 0$ for all $n$, or that equality obtains for some minimal $n$ which we call $p$.
 
 ## Properties
 * $\mathsf{ACF}$ has quantifier elimination. This amounts to a special case of Chevalley's direct image theorem from algebraic geometry.
