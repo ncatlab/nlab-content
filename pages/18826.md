@@ -6,6 +6,13 @@
 An [[infinitesimal gauge symmetry]] of a [[Lagrangian field theory]] (def. \ref{GaugeParameters} below) is a [[infinitesimal symmetry of the Lagrangian]] which may be freely parameterized, hence "gauged", by a _[[gauge parameter]]_. A [[Lagrangian field theory]]
 exhibiting these is also called a _[[gauge theory]]_.
 
+By choosing the [[gauge parameter]] to have [[compact support]] [[infinitesimal gauge symmetries]] in particular yield
+[[infinitesimal symmetries of the Lagrangian]] with compact spacetime support.
+One finds (prop. \ref{NonTrivialImplicitInfinitesimalGaugeSymmetriesPbstructExistenceOfCauchySurfaces} below)
+that the the existence of [[on-shell]] non-trivial symmetries of this form is an [[obstruction]] to  
+the existence of the [[covariant phase space]] of the theory (prop. \ref{CovariantPhaseSpace}).
+
+
 $\,$
 
 **[[gauge symmetries]]**
@@ -21,10 +28,6 @@ $\,$
 
 $\,$
 
-
-One finds (prop. \ref{NonTrivialImplicitInfinitesimalGaugeSymmetriesPbstructExistenceOfCauchySurfaces} below)
-that the presence of non-trivial [[infinitesimal gauge symmetries]] is an [[obstruction]] to the
-the existence of the [[covariant phase space]] of the theory (prop. \ref{CovariantPhaseSpace}).
 
 But we  may hard-wire these [[gauge equivalences]] into the very [[geometry]] of the [[types]] of [[field (physics)|fields]]
 by forming the _[[homotopy quotient]]_ of the _[[action]]_ of the [[infinitesimal gauge symmetries]] on the [[jet bundle]].
@@ -1454,7 +1457,10 @@ $\,$
  {#BRSTComplex}
 
 With the general concept of [[Lie algebra action]] (def. \ref{InfinitesimalActionByLieAlgebra}) and the corresponding [[action Lie algebroids]] (def. \ref{ActionLieAlgebroid}) and more general [[Lie ∞-algebroids]] in hand (def. \ref{LInfinityAlgebroid}})
-we now apply this to the [[action]] of [[infinitesimal gauge symmetries]] (def. \ref{GaugeParameters}) on field histories of a [[Lagrangian field theory]], but we consider this _[[local field theory|locally]]_, namel on the [[jet bundle]]. The [[Chevalley-Eilenberg algebra]] of the resulting [[action Lie algebroid]] (def. \ref{ActionLieAlgebroid}) is known as the _[[local BRST complex|local]] [[BRST complex]]_, example \ref{LocalOffShellBRSTComplex} below.
+we now apply this to the [[action]] of [[infinitesimal gauge symmetries]] (def. \ref{GaugeParameters}) on field histories of a [[Lagrangian field theory]], but we consider this _[[local field theory|locally]]_, namely on the [[jet bundle]]. The [[Chevalley-Eilenberg algebra]] of the resulting [[action Lie algebroid]] (def. \ref{ActionLieAlgebroid}) is known as the _[[local BRST complex|local]] [[BRST complex]]_, example \ref{LocalOffShellBRSTComplex} below.
+
+The [[Lie algebroid]]-perspective on [[BV-BRST formalism]] has been made explicit in ([Barnich 10](BRST+complex#Barnich10)).
+
 
 +-- {: .num_defn #GaugeParametersClosed}
 ###### Definition
@@ -1686,7 +1692,7 @@ is called the [[off-shell]] _[[local BRST complex]]_.
 
 =--
 
-([Barnich-Brandt-Henneaux 94](local+BRST+cohomology#BarnichBrandtHenneaux94)).
+([Barnich-Brandt-Henneaux 94](local+BRST+cohomology#BarnichBrandtHenneaux94), [Barnich 10 (35)](BRST+complex#Barnich10)).
 
 
 +-- {: .num_defn}
@@ -2171,7 +2177,4 @@ and thus it clearly cancels the first term.
 
 $\,$
 
-This concludes our discussion of [[gauge symmetries]] as such. In the [next chapter](#ReducedPhaseSpace) we discuss
-the [[homotopy quotient]] of the [[covariant phase space]] by the [[gauge symmetries]], called the _[[reduced phase space]]_.
-
-
+This concludes our discussion of [[infinitesimal gauge symmetries]], their [[off-shell]] [[action]] on the [[jet bundle]] of the [[field bundle]] and the corresponding [[homotopy quaotient]] exhibited by the [[local BRST complex]]. In the [next chapter](#ReducedPhaseSpace) we discuss the [[homotopy intersection]] of this construction with the [[shell]]: the _[[reduced phase space]]_.
