@@ -10,6 +10,8 @@ A _derived intersection_ or _homotopy intersection_ is an [[intersection]] compu
 
 ## Related concepts
 
+* [[derived critical locus]]
+
 * [[BV-complex]]
 
 [[!redirects derived intersections]]
