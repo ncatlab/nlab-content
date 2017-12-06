@@ -332,7 +332,7 @@ $$
   \;\colon\;
   J^\infty_\Sigma(E)
     =
-  \Sigma_ \times_\Sigma J^\infty_\Sigma(E)
+  \Sigma \times_\Sigma J^\infty_\Sigma(E)
     \overset{(j^\infty_\Sigma(\epsilon),id)}{\longrightarrow}
   J^\infty_\Sigma(\mathcal{G} \times_\Sigma E)
     \overset{R}{\longrightarrow}
@@ -340,7 +340,7 @@ $$
   \,.
 $$
 
-In the components (eq:CoordinateExpressionForGaugeParameterized) this means that
+In terms of the components (eq:CoordinateExpressionForGaugeParameterized) this means that
 
 $$
   R(\epsilon)
@@ -370,7 +370,7 @@ The following is a way to identify [[infinitesimal gauge symmetries]]:
 ###### Proposition
 **([[Noether's theorem|Noether's theorem II]] -- [[Noether identities]])**
 
-Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) and let $\mathal{G} \overset{gb}{\to} \Sigma$ be a [[vector bundle]].
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) and let $\mathcal{G} \overset{gb}{\to} \Sigma$ be a [[vector bundle]].
 
 The a [[bundle morphism]] of the form
 
@@ -996,7 +996,7 @@ For the [[signs in supergeometry|super sigsn rule]] appearing here see also e.g.
 For $X$ a [[super Cartesian space]], def. \ref{SuperCartesianSpace} (or more generally a [[supermanifold]], def. \ref{SuperSmoothManifolds}) the [[de Rham algebra]] of [[super differential forms]] from def. \ref{DifferentialFormOnSuperCartesianSpaces}
 
 $$
-  (\Omega^\bull(X), d)
+  (\Omega^\bullet(X), d)
 $$
 
 is a [[differential graded-commutative superalgebra]] (def. \ref{differentialgradedcommutativeSuperalgebra}) with
@@ -1095,9 +1095,9 @@ Hence not only is $CE(\mathfrak{g})$ a [[differential graded-commutative superal
 but conversely [[super Lie algebra]]-[[structure]] on a [[super vector space]] $\mathfrak{g}$ is the same as
 a differential of degree $(1,even)$ on the [[Grassmann algebra]] $\wedge^\bullet \mathfrak{g}^\ast$.
 
-We may state this equivalence in a more refined form: A [[homomorphism]] $\phi \;\colon\; \mathrak{g} \longrightarrow \mathfrak{h}$
+We may state this equivalence in a more refined form: A [[homomorphism]] $\phi \;\colon\; \mathfrak{g} \longrightarrow \mathfrak{h}$
 between [[super vector space]] is, by degree-reasons, the same as a graded algebra homomorphism
-$\phi^\ast \;\colon\; \wedge^\bullet \mathfrak{h}^\ast \longrightarrow \wedge^\bullet \mathfrak{g}^\ast$
+$\phi^\ast \;\colon\; \wedge^\\bullet \mathfrak{h}^\ast \longrightarrow \wedge^\bullet \mathfrak{g}^\ast$
 and it is immediate to check that $\phi$ is a [[homomorphism]] of [[super Lie algebras]] precisely if
 $\phi^\ast$ is a homomorpism of differential algebras:
 
@@ -2114,7 +2114,7 @@ $$
   \mathbb{R}[2] \times T^\ast \Sigma [1] \times_\Sigma E
 $$
 
-by adding the [[ghost-of-ghost field]] $(\overset{(2)}{c})$ (eq:SecondOderGaugeSymmetryOfBFieldOnMinkowski) and taking the local BRST differential to be the sum of the first order [[infinitesimal gauge symmetries]] (eq:InfinitesimalGaugeSymmetryForBFieldOnMinkowskiSpacetime) and the second order [[infinitesimal gauge-of-gauge symmetry]] (eq:SecondOderGaugeSymmetryOfBFieldOnMinkowski)
+by adding the [[ghost-of-ghost field]] $(\overset{(2)}{c})$ (eq:SecondOderGaugeSymmetryOfBFieldOnMinkowski) and taking the local BRST differential to be the sum of the first order [[infinitesimal gauge symmetries]] (eq:InfinitesimalGaugeSymmetryForBFieldOnMinkowskiSpacetime) and the second order [[infinitesimal gauge-of-gauge symmetry]] (eq:SecondOderGaugeSymmetryOfBFieldOnMinkowski):
 
 $$
   s_{BRST}
@@ -2167,10 +2167,10 @@ $$
     \cdots
     \\
     & = 0
+    \,.
   \end{aligned}
 $$
 
-and thus it clearly cancels the first term.
 
 =--
 
