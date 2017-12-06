@@ -208,7 +208,7 @@ $$
 
 Review includes
 
-* [[Glenn Barnich]], [[Friedemann Brandt]], [[Marc Henneaux]], _Local BRST cohomology in gauge theories_, Phys. Rept. 338:439-569, 2000 ([arXiv:hep-th/0002245](https://arxiv.org/abs/hep-th/0002245))
+* {#BarnichBrandtHenneaux00} [[Glenn Barnich]], [[Friedemann Brandt]], [[Marc Henneaux]], _Local BRST cohomology in gauge theories_, Phys. Rept. 338:439-569, 2000 ([arXiv:hep-th/0002245](https://arxiv.org/abs/hep-th/0002245))
 
 The general theory is discussed in
 
