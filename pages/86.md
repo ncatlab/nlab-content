@@ -824,32 +824,11 @@ Similarly the bulk of the textbook
 
 considers the Hamiltonian formulation. Chapters 17 and 18 are about the Lagrangian ("antifield") formulation, with section 18.4 devoted to the relation between the two.
 
-This is written in the traditional informal style of the physics literature. A general formalization of Lagrangian quantum BV (chapter 18 of Henneaux-Teitelboim) in the Chiral algebra setting for 
-[[perturbative quantum field theory]] on algebraic curves is in
+The [[L-infinity algebroid]]-structure of the [[local BV-BRST complex]] on the [[jet bundle]] is made manifest in
 
-* {#BeilinsonDrinfeld} [[Alexander Beilinson]], [[Vladimir Drinfeld]], _[[Chiral Algebras]]_ . 
-
-
-The extension of this approach to higher dimensions is being worked out in terms of _[[factorization algebra]]_ in
-
-* [[Kevin Costello]], [[Owen Gwilliam]] _Factorization algebras in perturbative quantum field theory_ ([pdf](http://math.northwestern.edu/~costello/factorization_public.html))
-
-and in
-
-* {#GaitsgoryFrancis} [[Dennis Gaitsgory]], [[John Francis]] _Chiral Koszul duality_ ([arXiv:1103.5803](http://arxiv.org/abs/1103.5803))
+* {#Barnich10} [[Glenn Barnich]], equation(3) of _A note on gauge systems from the point of view of Lie algebroids_, in P. Kielanowski, V. Buchstaber, A. Odzijewicz, 
+M.. Schlichenmaier, T Voronov,  (eds.) XXIX Workshop on Geometric Methods in Physics, vol. 1307 of AIP Conference Proceedings, 1307, 7 (2010) ([arXiv:1010.0899](https://arxiv.org/abs/1010.0899), [doi:/10.1063/1.3527427]( https://doi.org/10.1063/1.3527427))
  
-
-The general classical BV formalism (chapter 17 of Henneaux-Teitelboim) is formalized in the same language in
-
-* [[Frédéric Paugam]], _Homotopical Poisson Reduction of gauge theories_ ([pdf](http://people.math.jussieu.fr/~fpaugam/documents/homotopical-poisson-reduction-of-gauge-theories.pdf))
-
-and in the book
-
-* [[Frédéric Paugam]], _Towards the mathematics of quantum field theory_ ([pdf](http://people.math.jussieu.fr/~fpaugam/documents/enseignement/master-mathematical-physics.pdf))
-
-A systematic/axiomatic account from the point of view of [[higher geometry]] is given in
-
-* [[Urs Schreiber]], _[[derived critical locus]]_
 
 ### Lagrangian BV
  {#ReferencesForLagrangianBV}
