@@ -32,9 +32,9 @@ There are various ways to state the monoidal structure. One is in terms of fibra
 
 *  [[Jacob Lurie]], _Noncommutative algebra_ ([arXiv](http://arxiv.org/abs/math/0702299))
 
-Another is in terms of [[(∞,1)-operad]]s (see there). This approach has been taken in ([Francis](#Francis)) 
+Another is in terms of [[(∞,1)-operad]]s (see there). This approach has been taken in ([Francis](#Francis)).  Both are described below.
 
-Both are described below.
+Just as many ordinary $(\infty,1)$-categories (particularly, all of those that are [[locally presentable (infinity,1)-category|locally presentable]]) can be presented by [[model categories]], many monoidal $(\infty,1)$-categories can be presented by [[monoidal model categories]].  See for instance [NikolausSagave15](#NikolausSagave15).
 
 
 ### Idea of the simplicial definition 
@@ -255,6 +255,9 @@ An introductory survey is in
 
 * [[Moritz Groth]], _A short course on $\infty$-categories_ ([pdf](http://www.math.uni-bonn.de/~mgroth/InfinityCategories.pdf))
 
+A relation to [[monoidal model categories]] (in particular, that every locally presentable symmetric monoidal $(\infty,1)$-category arises from a symmetric monoidal model category) is described in
+
+* {#NikolausSagave15} [[Thomas Nikolaus]], [[Steffen Sagave]], _Presentably symmetric monoidal infinity-categories are represented by symmetric monoidal model categories_. Algebr. Geom. Topol. 17 (2017), no. 5, 3189--3212. ([arXiv:1506.01475](http://arxiv.org/abs/1506.01475))
 
 [[!redirects monoidal (infinity,1)-categories]]
 [[!redirects monoidal (∞,1)-category]]
