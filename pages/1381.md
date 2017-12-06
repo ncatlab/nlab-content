@@ -37,6 +37,9 @@ This can be understood as a special case of an [[(∞,1)-operad]] (...to be expa
 
 Equivalently, a symmetric monoidal $(\infty,1)$-category is a [[commutative algebra in an (infinity,1)-category]] in the [[(infinity,1)-category of (infinity,1)-categories]].
 
+Just as many ordinary $(\infty,1)$-categories (particularly, all of those that are [[locally presentable (infinity,1)-category|locally presentable]]) can be presented by [[model categories]], many symmetric monoidal $(\infty,1)$-categories can be presented by symmetric [[monoidal model categories]].  See for instance [NikolausSagave15](#NikolausSagave15).
+
+
 ## Definition in terms of quasi-categories 
 
 Recall that in terms of [[quasi-category|quasi-categories]] a general [[monoidal (infinity,1)-category]] is conceived as a coCartesian fibration $C^\otimes \to N(\Delta)^{op}$ of [[simplicial set]]s over the ([[opposite category|opposite]] of) the [[nerve]]  $N(\Delta)^{op}$ of the [[simplex category]] satisfying a certain property. 
@@ -147,9 +150,9 @@ A concise treatment is also available in
 
 * [[Moritz Groth]], _A short course on infinity-categories_, [pdf](http://www.math.ru.nl/~mgroth/preprints/groth_scinfinity.pdf).
 
-Relation to [[monoidal model categories]] is discussed in
+Relation to [[monoidal model categories]] (in particular, that every locally presentable symmetric monoidal $(\infty,1)$-category arises from a symmetric monoidal model category) is discussed in
 
-* {#NikolausSagave15} [[Thomas Nikolaus]], [[Steffen Sagave]], _Presentably symmetric monoidal infinity-categories are represented by symmetric monoidal model categories_ ([arXiv:1506.01475](http://arxiv.org/abs/1506.01475))
+* {#NikolausSagave15} [[Thomas Nikolaus]], [[Steffen Sagave]], _Presentably symmetric monoidal infinity-categories are represented by symmetric monoidal model categories_. Algebr. Geom. Topol. 17 (2017), no. 5, 3189--3212. ([arXiv:1506.01475](http://arxiv.org/abs/1506.01475))
 
 
 [[!redirects symmetric monoidal (infinity,1)-categories]]
