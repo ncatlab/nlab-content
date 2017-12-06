@@ -21,7 +21,7 @@ The _category of cubical sets_ is the [[free co-completion]] of $\square$, the c
 +-- {: .num_defn}
 ###### Remark
 
-The free co-completion of a small category can be constructed as the category of [[presheaf | presheaves]] presheaves of sets on this category. Thus we can also think of the category of cubical sets as the category of presheaves of sets on $\square$.
+The free co-completion of a small category can be constructed as the category of [[presheaf | presheaves]] of sets on this category. Thus we can also think of the category of cubical sets as the category of presheaves of sets on $\square$.
 
 =--
 
