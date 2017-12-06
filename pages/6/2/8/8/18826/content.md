@@ -333,7 +333,7 @@ $$
   J^\infty_\Sigma(E)
     =
   \Sigma_ \times_\Sigma J^\infty_\Sigma(E)
-    \overset{(j^\infty_\Sigma(eps),id)}{\longrightarrow}
+    \overset{(j^\infty_\Sigma(\epsilon),id)}{\longrightarrow}
   J^\infty_\Sigma(\mathcal{G} \times_\Sigma E)
     \overset{R}{\longrightarrow}
   T_\Sigma E
@@ -2177,4 +2177,4 @@ and thus it clearly cancels the first term.
 
 $\,$
 
-This concludes our discussion of [[infinitesimal gauge symmetries]], their [[off-shell]] [[action]] on the [[jet bundle]] of the [[field bundle]] and the corresponding [[homotopy quaotient]] exhibited by the [[local BRST complex]]. In the [next chapter](#ReducedPhaseSpace) we discuss the [[homotopy intersection]] of this construction with the [[shell]]: the _[[reduced phase space]]_.
+This concludes our discussion of [[infinitesimal gauge symmetries]], their [[off-shell]] [[action]] on the [[jet bundle]] of the [[field bundle]] and the corresponding [[homotopy quotient]] exhibited by the [[local BRST complex]]. In the [next chapter](#ReducedPhaseSpace) we discuss the [[homotopy intersection]] of this construction with the [[shell]]: the _[[reduced phase space]]_.
