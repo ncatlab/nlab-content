@@ -1,5 +1,4 @@
 
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -10,10 +9,9 @@
 =--
 =--
 
-
-#Contents#
+# Contents
 * table of contents
-{:toc}
+{: toc}
 
 ## Idea
 
@@ -43,26 +41,29 @@ $$
 
 This particular class of instances of the [[Einstein summation convention]] on the right is further abbreviated with a slash as
 
-
 $$
-  A\!\!\!/\, \coloneqq A_\mu \gamma^\mu
+  \slash{A} \coloneqq A_\mu \gamma^\mu
   \,.
 $$
 
-This is the _Feynman slash notation_.
+This is the __Feynman slash notation__.
 
 Similarly in [[quantum field theory]], the [[Dirac operator]] on [[Minkowski spacetime]] may be expanded as $i \gamma^\mu \frac{\partial}{\partial x^\mu}$ and this is then similarly abbreviated as
 
 $$
-  i \partial\!\!\!/\, \coloneqq i \gamma^\mu \frac{\partial}{\partial x^\mu}
+  i \slash{\partial} \coloneqq i \gamma^\mu \frac{\partial}{\partial x^\mu}
 $$
+
 
 ## Related concepts
 
 * [[Einstein summation convention]]
 
+
 ## References
 
 * Wikipedia, _[Feynman slash notation](https://en.wikipedia.org/wiki/Feynman_slash_notation)_
 
+
 [[!redirects Feynman slash]]
+[[!redirects Feynman slash notation]]
