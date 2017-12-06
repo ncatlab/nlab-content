@@ -17,12 +17,20 @@ only up to horizontally exact terms. This culminates in example \ref{LocalBVBRST
 
 $\,$
 
-The key to understanding the "derived reduced prolonged shell", and hence the [[reduced phase space]],
-as a [[derived critical locus]] is first to exhibit the [[Euler-Lagrange form|Euler-Lagrange variation]]
-of the [[action functional]], or rather of the [[Lagrangian density]], as a [[section]] of the analog of
-a [[cotangent bundle]], but now in the realm of [[Lie ∞-algebroids]] (prop. \ref{ExteriorDifferentialOfGaugeInvariantFunctionIsSectionOfInfinitesimalCotangentLieAlgebroid} and prop. \ref{EulerLagrangeFormIsSectionOfLocalCotangentBundleOfJetBundleGaugeActionLieAlgebroid} below).
-To this end we need to first of all consider [[homomorphisms]] of [[Lie algebroids]]:
+The key to understanding the "derived reduced prolonged shell", and hence the [[reduced phase space]], as a [[derived critical locus]] is first to exhibit the [[Euler-Lagrange form|Euler-Lagrange variation]] of the [[action functional]], or rather of the [[Lagrangian density]], as a [[section]] of the analog of a [[cotangent bundle]], but now in the realm of [[Lie ∞-algebroids]] (prop. \ref{ExteriorDifferentialOfGaugeInvariantFunctionIsSectionOfInfinitesimalCotangentLieAlgebroid} and prop. \ref{EulerLagrangeFormIsSectionOfLocalCotangentBundleOfJetBundleGaugeActionLieAlgebroid} below).
 
+$\,$
+
+We now discuss these topics
+
+* [Derived critical locus inside Lie algebroids](#DerivedCriticalLocusInsideLieAlgebroids)
+
+* [Derived critical locus in jet bundle -- the Local BV-BRST complex](#DerivedCriticalLocusOnJetBundle)
+
+$\,$
+
+**([[derived critical loci]] inside [[Lie algebroids]])**
+ {#DerivedCriticalLocusInsideLieAlgebroids}
 
 
 +-- {: .num_defn #HomomorphismBetweenLieAlgebroids}
@@ -578,7 +586,7 @@ and the CE-differential is given by
 $$
   \label{ExplitiCEDifferentialInCotangentBundleOfActionLieAlgebroid}
   \array{
-    & d_{CE(\mathfrak{a}_{d S \simeq 0})}
+    & d_{CE((X/\mathfrak{g})_{d S \simeq 0})}
     \\
     \phi^a
       &\mapsto&
@@ -607,8 +615,11 @@ $$
   }
 $$
 
-which is like the differential (eq:CEDifferentialOnGeneratorsForInfinitesimalCotangentBundleOfActionLieAlgebroid) of the cotangent Lie algebroid from example \ref{CotangentBundleOfActionLieAlgebroid}, except
-for the degree-shift by -1 of the derivation generators and except for the crucial new term indicated by the underbrace.
+which is just like the differential (eq:CEDifferentialOnGeneratorsForInfinitesimalCotangentBundleOfActionLieAlgebroid) of the cotangent Lie algebroid from example \ref{CotangentBundleOfActionLieAlgebroid}, except for 
+
+1. the degree-shift by -1 of the derivation generators 
+
+1. the crucial new term indicated by the underbrace.
 
 =--
 
@@ -616,9 +627,9 @@ for the degree-shift by -1 of the derivation generators and except for the cruci
 ###### Definition
 **([[Schouten bracket]] and [[antibracket]] for [[action Lie algebroid]])**
 
-Consider a [[derived critical locus]] inside an [[action Lie algebroid]] $X/\mathfrak{g}$ as in example \ref{ArchetypeOfBVBRSTComplex}.
+Consider a [[derived critical locus]] $(X/\mathfrak{g})_{d S \simeq 0}$ inside an [[action Lie algebroid]] $X/\mathfrak{g}$ as in example \ref{ArchetypeOfBVBRSTComplex}.
 
-Then the [[commutator]] of [[derivations]] 
+Then the [[commutator]] of graded [[derivations]] of the [[Chevalley-Eilenberg algebra]] of $X/\mathfrak{g}$
 
 $$
   [-,-]
@@ -627,24 +638,26 @@ $$
     \otimes 
    Der(CE(X/\mathfrak{g})) 
     \longrightarrow
-   Der(CE(X/\mathrak{g})) 
+   Der(CE(X/\mathfrak{g})) 
 $$
 
-uniquely [[extension|extends]] to a graded bracket
+uniquely [[extension|extends]], by the graded [[Leibniz rule]], to a graded bracket of degree $(1,even)$ on the CE-algebra of the [[derived critical locus]] $(X/\mathfrak{g})_{d S \simeq 0}$
 
 $$
   \left\{ -,-\right\}
     \;\colon\;
-   CE(T^\ast(X/\mathfrak{g})) 
+   CE( (X/\mathfrak{g})_{d S \simeq 0} ) 
     \otimes 
-   CE(T^\ast(X/\mathfrak{g}))
+   CE( (X/\mathfrak{g})_{d S \simeq 0} )
     \longrightarrow
-   CE(T^\ast(X/\mathfrak{g}))
+   CE( (X/\mathrak{g})_{d S \simeq 0} )
 $$
 
-of degree $(1,even)$. This is called the _[[Schouten bracket]]_.
+such that this is a graded [[derivation]] in both arguments.
 
-There is an elegant way to rewrite this: With the notation (eq:AntiNotationForDerivations) we may write the [[commutator]] of two [[derivations]] $f,g$ as 
+This is called the _[[Schouten bracket]]_.
+
+There is an elegant way to rewrite this in terms of components: With the notation (eq:AntiNotationForDerivations) for the coordinate-derivations the [[Schouten bracket]] is equivalently given by
 
 $$
   \begin{aligned}
@@ -658,6 +671,7 @@ $$
     \frac{\overset{\rightarrow}{\partial} g}{\partial \overline{\phi}_a} 
     \\
     &
+    \phantom{=}
     + 
     \frac{\overset{\leftarrow}{\partial} f}{\partial \overline{c}_\alpha}  
     \frac{\overset{\rightarrow}{\partial} g}{\partial {c}^\alpha}
@@ -670,28 +684,51 @@ $$
 
 where the arrow over the [[partial derivative]] indicates that we we pick up signs via the [[Leibniz rule]] either as usual, going through products from left to right (for $\overset{\rightarrow}{\partial}$) or by going through the products from right to left (for $\overset{\leftarrow}{\partial}$).
 
-In this form this is called the _[[antibracket]]_.
 
-Inspection shows that the CE-differential (eq:ExplitiCEDifferentialInCotangentBundleOfActionLieAlgebroid) of the [[derived critical locus]] $X/\mathfrak{g}\vert_{S \simeq 0}$ is simply the [[Schouten bracket]]/[[antibracket]]  with the [[sum]] of the the CE-differential of $X/\mathfrak{G}$ with the function S:
+In this form the [[Schouten bracket]] is called the _[[antibracket]]_.
+
+Inspection shows that the CE-differential (eq:ExplitiCEDifferentialInCotangentBundleOfActionLieAlgebroid) of the [[derived critical locus]] $X/\mathfrak{g}\vert_{S \simeq 0}$ is simply the [[Schouten bracket]]/[[antibracket]]  with the [[sum]] of the the CE-differential of $X/\mathfrak{G}$ with the function $S$:
 
 $$
-  d_{CE(T^\ast(X/\mathfrak{g}))}
+  d_{CE( (X/\mathfrak{g})_{d S \simeq 0} ) }
   \;=\;
   \left\{
     S + d_{CE}(X/\mathfrak{g})
     \,.\,
     -
   \right\}
+  \,.
+$$
+
+In components and using the notation (eq:AntiNotationForDerivations) this means that 
+
+$$
+  d_{CE( (X/\mathfrak{g})_{d S \simeq 0} )}
+  \;=\;
+  \left\{
+     S 
+      +
+     c^\alpha R_\alpha^a \overline{\phi}_a 
+      +
+     \tfrac{1}{2}\gamma^\alpha{}_{\beta \gamma} c^\beta c^\gamma \overline{c}_\alpha
+     \,,\,
+     -
+  \right\}
+  \,.
 $$
 
 =--
 
+$\,$
+
+**([[derived critical locus]] on [[jet bundle]] -- the [[local BV-BRST complex]])**
+  {#DerivedCriticalLocusOnJetBundle}
 
 If we think of the function $S$ as being the [[action functional]] (example \ref{ActionFunctional})
 of a [[Lagrangian field theory]] $(E,\mathbf{L})$ (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) over a [[compact space|compact]] [[spacetime]] $\Sigma$,
 with $X$ the  [[space of field histories]] (or rather an [[infinitesimal neighbourhood]] therein),
 hence with $\mathfrak{g}$ a Lie algebra of [[gauge symmetries]] acting on the field histories, then
-the [[Chevalley-Eilenberg algebra]] $CE(X/\mathfrak{g}_{d S \simeq 0})$ of the [[derived critical locus]] of $S$ is called the
+the [[Chevalley-Eilenberg algebra]] $CE((X/\mathfrak{g})_{d S \simeq 0})$ of the [[derived critical locus]] of $S$ is called the
 _[[BV-BRST complex]]_ of the theory.
 
 
@@ -779,7 +816,7 @@ $$
   \,.
 $$
 
-Recall the global [[anitbracket]] on an [[action Lie algebroid]] from def. \ref{SchoutenBracketAndAntibracket}. On the jet bundle we consider the following modification:
+Recall the global [[antibracket]] on an [[action Lie algebroid]] from def. \ref{SchoutenBracketAndAntibracket}. On the jet bundle we consider the following modification:
 
 $$
   \label{LocalCommutatorOfDerivationsOnJetBundle}
