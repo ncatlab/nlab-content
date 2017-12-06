@@ -1,0 +1,1345 @@
+## Reduced phase space
+ {#ReducedPhaseSpace}
+
+We have seen [above](#PhaseSpace) that the [[covariant phase space]] of a [[Lagrangian field theory]] is,
+if it exists, the "covariant [[transgression of variational differential forms|transgression]]" of the [[shell]] (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}) equipped
+with the [[Poisson bracket Lie n-algebra|local Poisson bracket]] (example \ref{LocalPoissonBracket}).
+The [[local observables]] (def. \ref{LocalObservables}) which operationally define the [[classical field theory]] (or rather [[prequantum field theory]]) are functions on the [[covariant phase space]], and the [[Poisson bracket Lie n-algebra|local Poisson bracket]]
+on them operationally defines the corresponding [[quantum field theory]] ([below](#Quantization)). Therefore
+the existence of the [[covariant phase space]] is crucial for the construction of the [[field theory]].
+
+However, we have then seen in prop. \ref{NonTrivialImplicitInfinitesimalGaugeSymmetriesPbstructExistenceOfCauchySurfaces} that
+there may be an [[obstruction]] to the existence of the [[covariant phase space]], namely the presence of
+[[infinitesimal gauge symmetries]] [[infinitesimal symmetry of the Lagrangian|of the Lagrangian]] which have been "left implicit".
+We have then discussed how to make these [[infinitesimal gauge symmetries]] "explicit" by hard-wiring their [[action]] into the geometry of the [[field (physics)|fields]] by passing to the corresponding infinitesimal [[homotopy quotient]] (def. \ref{LInfinityAlgebroid}) of (the [[jet bundle]] of) the [[field bundle]], given by the corresponding [[action Lie algebroid]] (def. \ref{ActionLieAlgebroid}). Its [[Chevalley-Eilenberg algebra|Chevalley-Eilenberg]] [[algebra of functions]] is called the _[[local BRST complex]]_ of the theory (example \ref{LocalOffShellBRSTComplex}).
+
+The corresponding [[covariant phase space]] with [[infinitesimal gauge symmetries]] made explicit is now correspondingly given by the
+[[shell]] (eq:ShellInJetBundle) not inside the plain space of fields, but inside this [[homotopy quotient]] by the
+[[infinitesimal gauge symmetries]]. This [[homotopy quotient]] of the naive phase space by the [[infinitesimal gauge symmetries]]
+is called the _[[reduced phase space]]_. Refined to its local incarnation in the [[jet bundle]]
+we may call this the "derived reduced prolonged [[shell]]"
+(def. \ref{DerivedProlongedShell} below). Its [[algebra of functions]] is called the _[[local BV-BRST complex]]_ of the theory.
+
+In the next section [below](#GaugeFixing) we find that, at least in good situations, if all non-trivial implicit
+[[infinitesimal gauge symmetries]] have been made explicit this way by hard-wiring their action into the geometry of the [[reduced phase space]], then
+the [[obstruction]] to the existence of the [[covariant phase space]] vanishes.  Hence in this case then the ([[perturbative quantum field theory|perturbative]]) [[quantum field theory]] can exist (discussed [further below](#Quantization)). This is
+why we do need to pass to the [[reduced phase space]].
+
+
+In order to exhibit the key structure of the [[reduced phase space]] without getting distracted
+by the local [[jet bundle]] geometry, we first discuss now the simple form in
+which it would appear after [[transgression of variational differential forms|transgression]] (def. \ref{TransgressionOfVariationalDifferentialFormsToConfigrationSpaces})
+if [[spacetime]] were [[compact space|compact]], so that, by the [[principle of extremal action]] (prop. \ref{PrincipleOfExtremalAction}),
+it would be the [[derived critical locus]] ($d S = 0$) of a globally defined [[action functional]] $S$.
+This is example \ref{ArchetypeOfBVBRSTComplex} below.
+
+This serves as a warmup to the true construction of the derived [[shell]] in the [[action Lie algebroid]] of the [[jet bundle]], where the
+action functional is "de-transgressed" to the [[Lagrangian density]], which is invariant under gauge transformations
+only up to horizontally exact terms. This culminates in example \ref{LocalBVBRSTComplexIsDerivedCriticalLocusOfEulerLagrangeForm} below.
+
+
+$\,$
+
+The key to understanding the "derived reduced prolonged shell", and hence the [[reduced phase space]],
+as a [[derived critical locus]] is first to exhibit the [[Euler-Lagrange form|Euler-Lagrange variation]]
+of the [[action functional]], or rather of the [[Lagrangian density]], as a [[section]] of the analog of
+a [[cotangent bundle]], but now in the realm of [[Lie ∞-algebroids]] (prop. \ref{ExteriorDifferentialOfGaugeInvariantFunctionIsSectionOfInfinitesimalCotangentLieAlgebroid} and prop. \ref{EulerLagrangeFormIsSectionOfLocalCotangentBundleOfJetBundleGaugeActionLieAlgebroid} below).
+To this end we need to first of all consider [[homomorphisms]] of [[Lie algebroids]]:
+
+
+
++-- {: .num_defn #HomomorphismBetweenLieAlgebroids}
+###### Definition
+**([[homomorphism]] between [[Lie algebroids]])**
+
+Given two [[derived Lie algebroids]] $\mathfrak{a}$, $\mathfrak{a}'$ (def. \ref{LInfinityAlgebroid}), then a [[homomorphism]]
+between them
+
+$$
+  f \;\colon\; \mathfrak{a} \longrightarrow \mathfrak{a}'
+$$
+
+is a [[dg-algebra]]-[[homomorphism]] between their [[Chevalley-Eilenberg algebras]] going the other way around
+
+$$
+  CE(\mathfrak{a}) \longleftarrow CE(\mathfrak{a}') \;\colon\; f^\ast
+$$
+
+such that this covers an algebra homomorphism on the function algebras (a "[[curved sh-map|non-curved sh-map]]")
+
+$$
+  \array{
+    CE(\mathfrak{a}) &\overset{f^\ast}{\longleftarrow}& CE(\mathfrak{a}')
+    \\
+    \downarrow && \downarrow
+    \\
+    C^\infty(X) &\underset{(f\vert_X)^\ast}{\longleftarrow}& C^\infty(Y)
+  }
+  \,.
+$$
+
+=--
+
+
++-- {: .num_example #GaugeInvariantFunctionsIntermsOfLieAlgebroids}
+###### Example
+**([[gauge invariance|gauge invariant]] [[functions]] in terms of [[Lie algebroids]])**
+
+Let $X/\mathfrak{g}$ be an [[action Lie algebroid]] (example \ref{ActionLieAlgebroid})
+and regard the [[real line]] $\mathbb{R}^1$ as a Lie algebroid by example \ref{BasicExamplesOfLieAlgebroids}.
+Then homomorphisms of Lie algebroids (def. \ref{HomomorphismBetweenLieAlgebroids}) of the form
+
+$$
+  f \;\colon\; X/\mathfrak{g} \longrightarrow \mathbb{R}^1
+  \,,
+$$
+
+hence _smooth functions on the Lie algebroid_, are equivalently
+
+* ordinary [[smooth functions]] $f \colon X \longrightarrow \mathbb{R}^1$ on the underlying [[smooth manifold]],
+
+* which are [[invariant]] under the Lie action in that $\rho(-)(f) = 0$.
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+An $\mathbb{R}$-algebra homomorphism
+
+$$
+  CE( X/\mathfrak{g} )
+    \longleftarrow
+  C^\infty(\mathbb{R}^1)
+$$
+
+is fixed by what it does to the canonical coordinate function on $\mathbb{R}^1$, which is taken by
+$f^\ast$ to $f \in C^\infty(X) \hookrightarrow CE(X/\mathfrak{g})$. For this to be a dg-algebra
+homomorphism it needs to respect the differentials on both sides. Since the differential
+on right right is trivial, the condition is that $0 = d_{CE} f = \rho(-)(f)$.
+
+=--
+
+
+Given a gauge invariant function, hence a function $S \colon X/\mathfrak{g} \to \mathbb{R}$ on a Lie algebroid (example \ref{GaugeInvariantFunctionsIntermsOfLieAlgebroids}), its [[exterior derivative]] $d S$ should be a
+[[section]] of the [[cotangent bundle]] of the Lie algebroid. Moreover, if all field variations are
+infinitesimal (as in def. \ref{LocalObservablesOnInfinitesimalNeighbourhood}) then it should in fact be
+a section of the [[infinitesimal neighbourhood]] (example \ref{InfinitesimalNeighbourhood}) of the [[zero section]] inside the [[cotangent bundle]], the _infinitesimal cotangent bundle_ $T^\ast(X/\mathfrak{g})$ of the Lie algebroid (def. \ref{LieAlgebroidInfinitesimalCotangentBundle} ebelow).
+
+To motivate the definition \ref{LieAlgebroidInfinitesimalCotangentBundle} below of _infinitesimal cotangent bundle of a Lie algebroid_
+recall from example \ref{InfinitesimalNeighbourhood} that the [[algebra of functions]]
+on the infinitesimal cotangent bundle should be fiberwise the [[formal power series algebra]] in the [[linear functions]].
+But a fiberwise linear function on a [[cotangent bundle]] is by definition a [[vector field]].
+Finally observe that [[derivations of smooth functions are vector fields|vector fields are equivalently derivations of smooth functions]] (prop. \ref{AlgebraicFactsOfDifferentialGeometry}). This leads to the following definition:
+
++-- {: .num_defn #LieAlgebroidInfinitesimalCotangentBundle}
+###### Definition
+**([[automorphism ∞-Lie algebra|infinitesimal cotangent Lie algebroid]])**
+
+Let $\mathfrak{a}$ be a [[Lie ∞-algebroid]] (def. \ref{LInfinityAlgebroid}) over some manifold $X$.
+Then its _infinitesimal cotangent bundle_ $T^\ast \mathfrak{a}$ is the [[Lie ∞-algebroid]] over $X$
+whose underlying [[graded module]] over $C^\infty(X)$ is the [[direct sum]] of the original module
+with the [[derivations]] of the graded algebra underlying $CE(\mathfrak{a})$:
+
+$$
+ (T^\ast \mathfrak{a})^\ast_\bullet
+ \;\coloneqq\;
+ \mathfrak{a}^\ast_\bullet \oplus Der(CE(\mathfrak{a}))_\bullet
+$$
+
+with [[differential]] on the summand $\mathfrak{a}$ being the original differential and
+on $Der(CE(\mathfrak{a}))$ being the [[commutator]] with the differential $d_{CE(\mathfrak{a})}$ on $CE(\mathfrak{a})$
+(which is itself a graded derivation of degree +1):
+
+
+$$
+  d_{CE(T^\ast \mathfrak{a})}\vert_{\mathfrak{a}^\ast} \;\coloneqq\; d_{CE(\mathfrak{a})}
+$$
+
+$$
+  d_{CE(T^\ast \mathfrak{a})}\vert_{Der(\mathfrak{a})} \;\coloneqq\; [d_{CE(\mathfrak{a})},-]
+  \,.
+$$
+
+There is a canonical homomorphism of Lie algebroids (def. \ref{HomomorphismBetweenLieAlgebroids})
+
+$$
+  \label{CotangentLieAlgebrpoidProjection}
+  T^\ast \mathfrak{a} \longrightarrow \mathfrak{a}
+$$
+
+given dually by the identity on the original generators.
+
+=--
+
+
++-- {: .num_example #CotangentBundleOfActionLieAlgebroid}
+###### Example
+**([[automorphism ∞-Lie algebra|infinitesimal cotangent bundle]] of [[action Lie algebroid]])**
+
+Let $X/\mathfrak{g}$ be an [[action Lie algebroid]] (def. \ref{ActionLieAlgebroid})
+where
+
+* $X = \mathbb{R}^n$ is a [[Cartesian space]] with [[coordinates]] $(\phi^a)$;
+
+* $\mathfrak{g}$ is a [[Lie algebra]] with [[linear basis]] $(c_\alpha)$
+  and corresponding structure constants $(\gamma^{\alpha}{}_{\beta \gamma})$ (as in prop. \ref{LieAlgebraInTermsOfChevalleyEilenbergAlgebra}), so that its [[Chevalley-Eilenberg algebra|Chevalley-Eilenberg differential]] is given by
+
+  $$
+    d_{CE} c^\alpha = \tfrac{1}{2}\gamma^\alpha{}_{\beta \gamma} c^\beta c^\gamma
+    \,,
+  $$
+
+* the infinitesimal [[action]] (def. \ref{InfinitesimalActionByLieAlgebra}) is given in components by
+
+  $$
+    d_{CE} \;\phi^a\; = R^a_\alpha c^\alpha
+  $$
+
+  for smooth functions $R^a_\alpha$ on $X$.
+
+So that in total
+
+$$
+  d_{CE(X/\mathfrak{g})}
+  \;=\;
+  \tfrac{1}{2}\gamma^\alpha{}_{\beta \gamma} c^\beta c^\gamma \frac{\partial}{\partial c^\alpha}
+  +
+  R_a^\alpha c^\alpha \frac{\partial}{\partial \phi^a}
+$$
+
+Then the infinitesimal cotangent Lie algebroid $T^\ast (X/\mathfrak{g})$ (def. \ref{LieAlgebroidInfinitesimalCotangentBundle})
+has as underlying cochain complex the generators
+
+
+$$
+  \array{
+    &
+    \left(
+      \frac{\partial}{\partial c^\alpha}
+    \right)
+    &
+    \left(
+      \phi^a
+    \right)
+    ,
+    \left(
+      \frac{\partial}{\partial \phi^a}
+    \right)
+    &
+    \left(
+      c^\alpha
+    \right)
+    \\
+    deg =
+    &
+    -1
+    &
+    0
+    &
+    +1
+  }
+  \,.
+$$
+
+The CE-differential on the new derivation generators is given by
+
+$$
+  \label{CotangentLieAlgebroidDifferentialForActionLieAlgebroidOnGhostFieldCoordinates}
+  \begin{aligned}
+    d_{CE(T^\ast(X/\mathfrak{g}))}
+    \left(
+      \frac{\partial}{\partial c^\alpha}
+    \right)
+    & \coloneqq
+    \left[d_{CE(X/\mathfrak{g})}, \frac{\partial}{\partial c^\alpha} \right]
+    \\
+     & =
+     R_\alpha^a  \frac{\partial}{\partial \phi^a}
+      +
+     \gamma^\beta{}_{\alpha \gamma} c^\gamma \frac{\partial}{\partial c^\beta}
+  \end{aligned}
+$$
+
+and
+
+$$
+  \label{CotangentLieAlgebroidDifferentialForActionLieAlgebroidOnFieldCoordinates}
+  \begin{aligned}
+    d_{CE(T^\ast(X/\mathfrak{g}))}
+    \left(
+      \frac{\partial}{\partial \phi^a}
+    \right)
+    & \coloneqq
+    \left[
+      d_{CE(X/\mathfrak{g})},
+      \frac{\partial}{\partial \phi^a}
+    \right]
+    \\
+    & =
+    c^\alpha \frac{\partial R_\alpha^b}{\partial \phi^a} \frac{\partial}{\partial \phi^b}
+  \end{aligned}
+  \,.
+$$
+
+To ease the notation one abbreviates
+
+$$
+  \label{AntiNotationForDerivations}
+  \overline{\phi}_a \;\coloneqq\; \frac{\partial}{\partial \phi^a}
+  \phantom{AAAAA}
+  \overline{c}_\alpha \;\coloneqq\; \frac{\partial}{\partial c^\alpha}
+$$
+
+so that the generator content then reads
+
+$$
+  \label{GeneratorsOfDerivedCriticalLocusInActionLieAlgebroid}
+  \array{
+    &
+    \left(
+      \overline{c}_\alpha
+    \right)
+    &
+      \left(
+        \phi^a
+      \right)
+      ,
+      \left(
+        \overline{\phi}_a
+      \right)
+    &
+    \left(
+      c^\alpha
+    \right)
+    \\
+    deg =
+    &
+    -1
+    &
+    0
+    &
+    +1
+  }
+  \,.
+$$
+
+In this notation the full action of the CE-differential is therefore the following:
+
+$$
+  \label{CEDifferentialOnGeneratorsForInfinitesimalCotangentBundleOfActionLieAlgebroid}
+  \array{
+    & d_{CE(T^\ast(X/\mathfrak{g}))}
+    \\
+    \phi^a
+      &\mapsto&
+    c^\alpha R^a_\alpha
+    \\
+    c^\alpha
+      & \mapsto&
+    \tfrac{1}{2} \gamma^\alpha{}_{\beta \gamma} c^\beta c^\gamma
+    \\
+    \overline{\phi}_a
+      &\mapsto&
+    c^\alpha \frac{\partial R_\alpha^b}{\partial \phi^a} \overline{\phi}_b
+    \\
+    \overline{c}_\alpha
+      &\mapsto&
+    R_\alpha^a  \overline{\phi}_a
+      +
+    \gamma^\beta{}_{\alpha \gamma} c^\gamma \overline{c}_\beta
+  }
+$$
+
+
+=--
+
+
++-- {: .num_prop #ExteriorDifferentialOfGaugeInvariantFunctionIsSectionOfInfinitesimalCotangentLieAlgebroid}
+###### Proposition
+**([[exterior differential]] of [[gauge invariant]] function is [[section]] of [[automorphism ∞-Lie algebra|infinitesimal cotangent bundle]])**
+
+For $\mathfrak{a}$ a [[Lie ∞-algebroid]] (def. \ref{LInfinityAlgebroid}) over some $X$;
+and $S \;\colon\;\mathfrak{a} \longrightarrow \mathbb{R}$ a [[gauge invariant]] smooth function on it (example \ref{GaugeInvariantFunctionsIntermsOfLieAlgebroids})
+there is an induced [[section]] $d S$ of the infinitesimal cotangent Lie algebroid (def. \ref{LieAlgebroidInfinitesimalCotangentBundle})
+bundle projection (eq:CotangentLieAlgebrpoidProjection):
+
+$$
+  \array{
+    && T^\ast \mathfrak{a}
+    \\
+    & {}^{\mathllap{d S}}\nearrow & \downarrow
+    \\
+    \mathfrak{a}
+    &=&
+    \mathfrak{a}
+  }
+  \,,
+$$
+
+given dually
+
+$$
+  (d S)^\ast \;\colon\; CE(T^\ast \mathfrak{a}) \longrightarrow CE(\mathfrak{a})
+$$
+
+by the map which sends
+
+1. the generators in $\mathfrak{a}^\ast$ to themselves;
+
+1. a [[vector field]] $v$ on $X$, regarded as a degree-0 [[derivation]] to
+   $d S(v) = v(S) \in C^\infty(X)$;
+
+1. all other derivations to zero.
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We discuss the proof in the special case of example \ref{CotangentBundleOfActionLieAlgebroid}.
+The general case is directly analogous.
+
+We need to check that $(d S)^\ast$ respects the CE-differentials.
+
+On the original generators in
+$\mathfrak{a}^\ast$ this is immediate, since on these the CE-differential on both sides
+are by definition the same.
+
+On the derivation $\frac{\partial}{ \partial \phi^a}$ we find from (eq:CotangentLieAlgebroidDifferentialForActionLieAlgebroidOnFieldCoordinates)
+
+$$
+  \array{
+    \left\{
+       \frac{\partial S}{\partial \phi^a}
+    \right\}
+      &\overset{(d S)^\ast}{\longleftarrow}&
+    \left\{ \frac{\partial}{\partial \phi^a} \right\}
+    \\
+    {}^{\mathllap{d_{CE(\mathfrak{a})}}}\downarrow && \downarrow^{\mathrlap{d_{CE(T^\ast \mathfrak{a})}}}
+    \\
+    \left\{
+       c^\alpha \frac{\partial R_\alpha^b}{\partial \phi^a} \frac{\partial S}{\partial \phi^b}
+    \right\}
+      &\underset{(d S)^\ast}{\longleftarrow}&
+    \left\{
+       c^\alpha \frac{\partial R_\alpha^b}{\partial \phi^a} \frac{\partial}{\partial \phi^b}
+    \right\}
+  }
+$$
+
+and on the derivation $\frac{\partial}{\partial c^\alpha}$ we find from (eq:CotangentLieAlgebroidDifferentialForActionLieAlgebroidOnGhostFieldCoordinates)
+and using the gauge invariance of $S$ (example \ref{GaugeInvariantFunctionsIntermsOfLieAlgebroids})
+
+$$
+  \array{
+    \left\{
+      0
+    \right\}
+      &\overset{(d S)^\ast}{\longleftarrow}&
+    \left\{
+      \frac{\partial}{\partial c^\alpha}
+    \right\}
+    \\
+    \downarrow && \downarrow
+    \\
+    \left\{
+      0 = R_\alpha^a \frac{\partial S}{\partial \phi^a}
+    \right\}
+      &\overset{(d S)^\ast}{\longleftarrow}&
+    \left\{
+      R_\alpha^a  \frac{\partial}{\partial \phi^a}
+      +
+      \gamma^\beta{}_{\alpha \gamma} c^\gamma \frac{\partial}{\partial c^\beta}
+    \right\}
+  }
+  \,.
+$$
+
+=--
+
+
++-- {: .num_defn #DerivedCriticalLocusOfGaugeInvariantFunctionOnLieAlgebroid}
+###### Definition
+**([[derived critical locus]] of [[gauge invariant]] function on [[Lie ∞-algebroid]])**
+
+Let $\mathfrak{a}$ be a [[Lie ∞-algebroid]] (def. \ref{LInfinityAlgebroid}) over some $X$, let
+
+$$
+  S \;\colon\; \mathfrak{a} \longrightarrow \mathbb{R}
+$$
+
+be a [[gauge invariant]] function (example \ref{GaugeInvariantFunctionsIntermsOfLieAlgebroids}) and consider
+the section of its infinitesimal cotangent bundle $T^\ast \mathfrak{a}$ (def. \ref{CotangentBundleOfActionLieAlgebroid}) corresponding to its exterior derivative
+via prop. \ref{ExteriorDifferentialOfGaugeInvariantFunctionIsSectionOfInfinitesimalCotangentLieAlgebroid}.
+
+$$
+  \array{
+    \mathfrak{a} && \overset{d S}{\longrightarrow} && T^\ast \mathfrak{a}
+    \\
+    & \searrow && \swarrow
+    \\
+    && \mathfrak{a}
+  }
+$$
+
+Then the _[[derived critical locus]]_ of $S$ is the [[derived Lie algebroid]] (def. \ref{LInfinityAlgebroid})
+to be denoted $\mathfrak{a}_{d S \simeq 0}$ which is the [[homotopy pullback]] of the section $d S$ along the [[zero section]]:
+
+$$
+  \array{
+    \mathfrak{a}_{d S \simeq 0}
+      &\longrightarrow&
+    \mathfrak{a}
+    \\
+    \downarrow &(pb)& \downarrow^{\mathrlap{0}}
+    \\
+    \mathfrak{a}
+      &\underset{d S}{\longrightarrow}&
+    T^\ast \mathfrak{a}
+  }
+  \,.
+$$
+
+This means equivalently (details are at _[[derived critical locus]]_) that the Chevalley-Eilenberg algebra of $\mathfrak{a}_{d S \simeq 0}$ is like that of the infinitesimal cotangent Lie algebroid $T^\ast \mathfrak{a}$ (def. \ref{LieAlgebroidInfinitesimalCotangentBundle}) except for two changes:
+
+1. all [[derivations]] are shifted down in degree by one;
+
+1. the CE-differential on the derivations coming from vector fields $v$ on $X$ is that of the infinitesimal
+   cotangent Lie algebroid $T^\ast \mathfrak{a}$ plus $d S(v) = v(S)$.
+
+
+=--
+
++-- {: .num_example #ArchetypeOfBVBRSTComplex}
+###### Example
+**(archetype of the [[BV-BRST complex]])**
+
+Consider a gauge invariant function $S \;\colon\emph{}\; X/\mathfrak{g} \to \mathbb{R}$ (def. \ref{GaugeInvariantFunctionsIntermsOfLieAlgebroids})
+on an [[action Lie algebroid]] (def. \ref{ActionLieAlgebroid})
+for the case that the underlying manifold is a [[Cartesian space]] with global [[coordinates]] as in example \ref{CotangentBundleOfActionLieAlgebroid}. Then the generators
+of the [[derived critical locus]] $(X/\mathfrak{g})_{d S \simeq 0}$ (def. \ref{DerivedCriticalLocusOfGaugeInvariantFunctionOnLieAlgebroid})
+are as in (eq:GeneratorsOfDerivedCriticalLocusInActionLieAlgebroid), except for the degree shift:
+
+$$
+  \array{
+    &
+    \left(
+      \overline{c}^\alpha
+    \right)
+    &
+    \left(
+      \overline{\phi}^a
+    \right)
+    &
+    \left(
+      \phi^a
+    \right)
+    &
+    \left(
+      c^\alpha
+    \right)
+    \\
+    deg = &
+    -2
+    &
+    -1
+    &
+    0
+    &
+    +1
+  }
+$$
+
+and the CE-differential is given by
+
+$$
+  \array{
+    & d_{CE(\mathfrak{a}_{d S \simeq 0})}
+    \\
+    \phi^a
+      &\mapsto&
+    c^\alpha R^a_\alpha
+    \\
+    c^\alpha
+      & \mapsto&
+    \tfrac{1}{2} \gamma^\alpha{}_{\beta \gamma} c^\beta c^\gamma
+    \\
+    \overline{\phi}_a
+      &\mapsto&
+    \underset{
+      new
+    }{
+    \underbrace{
+      \frac{\partial S}{\partial \phi^a}
+    }}
+    +
+    c^\alpha \frac{\partial R_\alpha^b}{\partial \phi^a} \overline{\phi}_b
+    \\
+    \overline{c}_\alpha
+      &\mapsto&
+    R_\alpha^a  \overline{\phi}_a
+      +
+    \gamma^\beta{}_{\alpha \gamma} c^\gamma \overline{c}_\beta
+  }
+$$
+
+which is like the differential (eq:CEDifferentialOnGeneratorsForInfinitesimalCotangentBundleOfActionLieAlgebroid) of the cotangent Lie algebroid from example \ref{CotangentBundleOfActionLieAlgebroid}, except
+for the degree-shift by -1 of the derivation generators and except for the crucial new term indicated by the underbrace.
+
+If we think of the function $S$ as being the [[action functional]] (example \ref{ActionFunctional})
+of a [[Lagrangian field theory]] $(E,\mathbf{L})$ (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) over a [[compact space|compact]] [[spacetime]] $\Sigma$,
+with $X$ the  [[space of field histories]] (or rather an [[infinitesimal neighbourhood]] therein),
+hence with $\mathfrak{g}$ a Lie algebra of [[gauge symmetries]] acting on the field histories, then
+the [[Chevalley-Eilenberg algebra]] $CE(X/\mathfrak{g}_{d S \simeq 0})$ of the [[derived critical locus]] of $S$ is called the
+_[[BV-BRST complex]]_ of the theory.
+
+=--
+
+In applications of interest, the spacetime $\Sigma$ is _not_ [[compact space|compact]].
+In that case one may still appeal to a construction on the [[space of field histories]]
+as in example \ref{ArchetypeOfBVBRSTComplex} by considering the action functional for all
+[[adiabatic switching|adiabatically switched]] $b \mathbf{L}$ Lagrangians, with $b \in C_{cp}^\infty(\Sigma)$.
+This approach is taken in ([Fredenhagen-Rejzner 11a](BV-BRST+formalism#FredenhagenRejzner11a)).
+
+Here we instead consider now the "local lift" or "de-transgression" of the above construction from the
+[[space of field histories]] to the [[jet bundle]] of the field bundle of the theory, refining the
+[[BV-BRST complex]] to the _[[local BV-BRST complex]]_, corresponding to the [[local BRST complex]]
+from example \ref{LocalOffShellBRSTComplex}.
+
+This requires a slight refinement of the construction that leads to example \ref{ArchetypeOfBVBRSTComplex}:
+In contrast to the [[action functional]] $S = \tau_\Sigma(\mathbf{L})$,
+the [[Lagrangian density]] $\mathbf{L}$ is not strictly _invariant_ under implicit [[infinitesimal gauge transformations]], in general,
+rather it may change up to a horizontally exact term (by the very definition \ref{ImplicitInfinitesimalGaugeSymmetry}). The same is then true for its
+[[Euler-Lagrange variational derivative]] $\delta_{EL} \mathbf{L}$. This means that $\delta_{EL} \mathbf{L}$
+is not a section of the infinitesimal cotangent bundle (def. \ref{LieAlgebroidInfinitesimalCotangentBundle}) of the
+gauge action Lie algebroid on the jet bundle, but by a local version of it, which is twisted by horizontally exact terms.
+
+The following definition \ref{LocalInfinitesimalCotangentLieAlgebroid} is the local refinement of
+def. \ref{LieAlgebroidInfinitesimalCotangentBundle}:
+
++-- {: .num_defn #LocalInfinitesimalCotangentLieAlgebroid}
+###### Definition
+**(local infinitesimal cotangent Lie algebroid)**
+
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
+over some [[spacetime]] $\Sigma$, and let $\mathcal{G} \overset{gb}{\to} \Sigma$ be
+a bundle of closed irreducible [[gauge parameters]] (def. \ref{GaugeParametrizedInfinitesimalGaugeTransformation}),
+inducing via example \ref{LocalOffShellBRSTComplex} the [[Lie algebroid]]
+
+$$
+  E / ( \mathcal{G} \times_\Sigma T \Sigma )
+  \;=\;
+  \left(
+    J^\infty_\Sigma( E \times_\Sigma (\mathcal{G}[1]) )
+    ,
+    s_{BRST} )
+  \right)
+$$
+
+whose [[Chevalley-Eilenberg algebra]] is the [[local BRST complex]] of the field theory.
+
+Consider the case that both the [[field bundle]] $E \overset{fb}{\to} \Sigma$ (def. \ref{FieldsAndFieldBundles})
+as well as the [[gauge parameter]] bundle $\mathcal{G} \overset{gb}{\to} \Sigma$ are [[trivial vector bundles]]
+(example \ref{TrivialVectorBundleAsAFieldBundle}) over [[Minkowski spacetime]]
+with [[field (physics)|field]] coordinates $(\phi^a)$ and [[gauge parameter]] coordinates $(\epsilon^\alpha)$.
+
+Then the vertical infinitesimal cotangent Lie algebroid (def. \ref{LieAlgebroidInfinitesimalCotangentBundle}) has
+coordinates as in (eq:GeneratorsOfDerivedCriticalLocusInActionLieAlgebroid) as well as all the corresponding jets
+and including also the horizontal differentials:
+
+$$
+  \array{
+    &
+    \left(
+      \overline{c}_{\alpha,\mu_1 \cdots \mu_k}
+    \right)
+    &
+      \left(
+        \phi^a_{,\mu_1 \cdots \mu_k}
+      \right)
+      ,
+      \left(
+        \overline{\phi}_{a,\mu_1 \cdots \mu_k}
+      \right)
+    &
+    \left(
+      c^\alpha_{,\mu_1 \cdots \mu_k}
+    \right),
+    \left(
+      d x^\mu
+    \right)
+    \\
+    deg =
+    &
+    -1
+    &
+    0
+    &
+    +1
+  }
+  \,.
+$$
+
+Observe that in terms of these coordinates the ordinary commutator of graded derivations
+has the following succinct expression:
+
+(...)
+
+Now consider the modification of this formula to the formula
+
+$$
+  \label{LocalCommutatorOfDerivationsOnJetBundle}
+  \begin{aligned}
+    \left\{
+      f dvol_\Sigma,
+      g
+    \right\}
+    & \coloneqq
+    \phantom{+ (-1)^{\vert f \vert + (p+1)}}
+    \left(
+      \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}}
+      \left(
+        \frac{\delta_{EL} f}{\delta \phi^a}
+      \right)
+    \right)
+    \left(
+      \frac{\partial g}{\partial \overline{\phi}_{a,\mu_1 \cdots \mu_k}}
+    \right)
+    -
+    \left(
+      \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}}
+      \left(
+        \frac{\delta_{EL} f}{\delta \overline{\phi}_a}
+      \right)
+    \right)
+    \left(
+      \frac{\partial g}{\partial \phi^a_{,\mu_1 \cdots \mu_k}}
+    \right)
+    \\
+    &
+    \phantom{=} + (-1)^{\vert f \vert + (p+1)}
+    \left(
+    \left(
+      \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}}
+      \left(
+        \frac{\delta_{EL} f}{\delta c^\alpha}
+      \right)
+    \right)
+    \left(
+      \frac{\partial g}{\partial \overline{c}_{\alpha,\mu_1 \cdots \mu_k}}
+    \right)
+    -
+    \left(
+      \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}}
+      \left(
+        \frac{\delta_{EL} f}{\delta \overline{c}_\alpha}
+      \right)
+    \right)
+    \left(
+      \frac{\partial g}{\partial c^\alpha_{,\mu_1 \cdots \mu_k}}
+    \right)
+    \right)
+  \end{aligned}
+$$
+
+where $\delta_{EL}$ denotes the [[Euler-Lagrange variational derivative]].
+
+We define the CE-differential on functions on $T^\ast( E/(\mathcal{G} \times_\Sigma T \Sigma) )$ to be
+
+$$
+  d_{CE(T^\ast_\Sigma( E/(\mathcal{G} \times_\Sigma T \Sigma) ))}
+  \;\coloneqq\;
+  \left\{
+    s_{BRST} dvol_\Sigma, -
+  \right\}
+$$
+
+This defines an $L_\infty$-algebroid to be denoted
+
+$$
+  T^\ast_\Sigma( E/(\mathcal{G} \times_\Sigma T \Sigma) )
+  \,.
+$$
+
+=--
+
+The local refinement of prop. \ref{ExteriorDifferentialOfGaugeInvariantFunctionIsSectionOfInfinitesimalCotangentLieAlgebroid} is now this:
+
++-- {: .num_prop #EulerLagrangeFormIsSectionOfLocalCotangentBundleOfJetBundleGaugeActionLieAlgebroid}
+###### Proposition
+**([[Euler-Lagrange form]] is [[section]] of local cotangent bundle of [[jet bundle]] [[gauge symmetry|gauge]]-[[action Lie algebroid]])**
+
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
+over some [[spacetime]] $\Sigma$, and let $\mathcal{G} \overset{gb}{\to} \Sigma$ be
+a bundle of closed irreducible [[gauge parameters]] (def. \ref{GaugeParametrizedInfinitesimalGaugeTransformation}),
+inducing via example \ref{LocalOffShellBRSTComplex} the [[Lie algebroid]] $E / ( \mathcal{G} \times_\Sigma T \Sigma )$
+and via def. \ref{LocalInfinitesimalCotangentLieAlgebroid} its local cotangent [[Lie ∞-algebroid]]
+$T^\ast_\Sigma(E / ( \mathcal{G} \times_\Sigma T \Sigma ))$.
+
+Then the [[Euler-Lagrange variational derivative]]
+(prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}) constitutes
+a [[section]] of the local cotangent Lie ∞-algebroid (def. \ref{LocalInfinitesimalCotangentLieAlgebroid})
+
+$$
+  \array{
+    && T^\ast_\Sigma\left( E/(\mathcal{G} \times_\Sigma T \Sigma) \right)
+    \\
+    & {}^{\mathllap{ \delta_{EL} \mathbf{L} }}\nearrow & \downarrow
+    \\
+    E/(\mathcal{G} \times_\Sigma T \Sigma)
+    &=&
+    E/(\mathcal{G} \times_\Sigma T \Sigma)
+  }
+$$
+
+given dually
+
+$$
+  CE(E/(\mathcal{G} \times_\Sigma T\Sigma))
+    \overset{(\delta_{EL}\mathbf{L})^\ast}{\longleftarrow}
+  CE(T^\ast(E/(\mathcal{G}\times_\Sigma T \Sigma)))
+$$
+
+by
+
+$$
+  \array{
+    \left\{
+      \phi^a_{,\mu_1 \cdots \mu_k}
+    \right\}
+      &\longleftarrow&
+    \left\{
+      \phi^a_{,\mu_1 \cdots \mu_k}
+    \right\}
+    \\
+    \left\{
+      c^\alpha_{,\mu_1 \cdots \mu_k}
+    \right\}
+      &\longleftarrow&
+    \left\{
+      c^\alpha_{,\mu_1 \cdots \mu_k}
+    \right\}
+    \\
+    \left\{
+       \frac{d^k}{ d x^{\mu_1} \cdots d x^{\mu_k}}
+       \left(
+         \frac{\delta_{EL} L}{\delta \phi^a}
+       \right)
+    \right\}
+      &\longleftarrow&
+    \left\{
+      \overline{\phi}_{a,\mu_1 \cdots \mu_k}
+    \right\}
+    \\
+    \left\{
+      0
+    \right\}
+      &\longleftarrow&
+    \left\{
+      \overline{c}_{\alpha,\mu_1 \cdots \mu_k}
+    \right\}
+  }
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The proof of this proposition is a special case of the
+observation that the differentials involved are part of the local BV-BRST differential;
+this will be a direct consequence of the proof of prop. \ref{LocalBVBRSTComplexIsDerivedCriticalLocusOfEulerLagrangeForm} below.
+
+=--
+
+
+The local analog of def. \ref{DerivedCriticalLocusOfGaugeInvariantFunctionOnLieAlgebroid} is now the following
+definition \ref{DerivedProlongedShell} of the "derived prolonged shell" of the theory (recall the ordinary prolonged shell
+$\mathcal{E}^\infty \hookrightarrow J^\infty_\Sigma(E)$ from (eq:ProlongedShellInJetBundle)):
+
++-- {: .num_defn #DerivedProlongedShell}
+###### Definition
+**(derived reduced prolonged [[shell]])**
+
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
+over some [[spacetime]] $\Sigma$, and let $\mathcal{G} \overset{gb}{\to} \Sigma$ be
+a bundle of closed irreducible [[gauge parameters]] (def. \ref{GaugeParametrizedInfinitesimalGaugeTransformation}),
+inducing via prop. \ref{EulerLagrangeFormIsSectionOfLocalCotangentBundleOfJetBundleGaugeActionLieAlgebroid}
+a section $\delta_{EL} L$ of the local cotangent Lie algebroid of the jet bundle gauge-action Lie algebroid.
+
+Then the _derived prolonged shell_ $\mathcal{E}^\infty_{BV}$ is the [[derived critical locus]]
+of $\delta_{EL} L$, hence the [[homotopy pullback]] of $\delta_{EL} L$
+along the zero section of the local cotangent Lie $\infty$-algebroid:
+
+$$
+  \array{
+    \mathcal{E}^\infty_{BV}
+      &\longrightarrow&
+    E/( \mathcal{G} \times_\Sigma T \Sigma )
+    \\
+    \downarrow && \downarrow^{\mathrlap{0}}
+    \\
+    E/(\mathcal{G} \times_\Sigma T \Sigma)
+     &\underset{\delta_{EL} L}{\longrightarrow}&
+    T^\ast_\Sigma\left(
+      E/( \mathcal{G} \times_\Sigma T \Sigma )
+    \right)
+  }
+$$
+
+=--
+
+
+
+The local refinement of example \ref{ArchetypeOfBVBRSTComplex} is now the following:
+
++-- {: .num_prop #LocalBVBRSTComplexIsDerivedCriticalLocusOfEulerLagrangeForm}
+###### Proposition
+**([[local BV-BRST complex]])**
+
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] with bundle of closed irreducible [[gauge parameters]]
+$\mathcal{G}$...
+
+.... the [[Chevalley-Eilenberg algebra]] of the derived prolonged shell $\mathcal{E}^\infty_{BV}$
+(def. \ref{DerivedProlongedShell}) is the [[local BV-BRST complex]]...
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By unwinding the definitions analogous to the proof of example \ref{CotangentBundleOfActionLieAlgebroid},
+the CE-differential is given by the modified bracket of derivations (eq:LocalCommutatorOfDerivationsOnJetBundle)
+with the sum of the BRST-differential and the Lagrangian density:
+
+$$
+  d_{CE( T^\ast_\Sigma(E/(\mathcal{G} \times_\Sigma T\Sigma)) )}
+  \;=\;
+  \left\{
+    \left(L + L_{BRST}\right) dvol_\Sigma
+    \;,\;
+    -
+  \right\}
+$$
+
+only that in the homotopy fiber $\mathcal{E}^\infty_{BV}$ the derivations receive a degree-shift by -1 compared to
+their degree in $T^\ast(E /( \mathcal{G} \times_\Sigma T \Sigma ))$.
+
+This operation is the local BV-BRST differential by ([Barnich-Henneaux 96 (2.12)-(2.13)](local+BRST+cohomology#BarnichHenneaux96)).
+
+=--
+
+
+
++-- {: .num_example #DerivedProlongedShellInAbsenceOfExplicitGaugeSymmetries}
+###### Example
+**(derived prolonged shell in the absence of explicit gauge symmetry -- the [[local BV-complex]])**
+
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
+with _no_ non-trivial [[infinitesimal gauge symmetries]] made explicit (possibly because there are none,
+as for the [[scalar field]]), hence with no [[ghost fields]] introduced. Then the
+local [[derived critical locus]] of its [[Lagrangian density]] (def. \ref{DerivedProlongedShell})
+is the [[local BV-complex]] of def. \ref{BVComplexOfOrdinaryLagrangianDensity}.
+
+=--
+
+
++-- {: .num_example #LocalBVComplexOfVacuumElectromagnetismOnMinkowskiSpacetime}
+###### Example
+**([[local BV-complex]] of [[vacuum]] [[electromagnetism]] on [[Minkowski spacetime]])**
+
+Consider the [[Lagrangian field theory]] of [[free field theory|free]] [[electromagnetism]]
+on [[Minkowski spacetime]] (example \ref{ElectromagnetismLagrangianDensity})
+with [[gauge parameter]] as in example \ref{InfinitesimalGaugeSymmetryElectromagnetism}.
+With the [[field (physics)|field]] and [[gauge parameter]] coordinates as chosen in these examples
+
+$$
+  \left(
+    (a_\mu), c
+  \right)
+$$
+
+then the [[local BV-BRST complex]] (prop. \ref{LocalBVBRSTComplexIsDerivedCriticalLocusOfEulerLagrangeForm})
+has generators
+
+$$
+  \array{
+    & \overline{c} & \overline{a}^\mu & a_\mu & c
+    \\
+    deg =
+    &
+    -2 & -1 & 0 & 1
+  }
+$$
+
+together with their [[total spacetime derivatives]],
+and the local BV-BRST differential $s$ acts on these generators as follows:
+
+$$
+  s
+  \;\colon\;
+  \left\{
+  \array{
+    \overline{a}^\mu &\mapsto&  f^{\nu \mu}_{,\nu}  & \text{(equations of Motion -- vacuum Maxwell equations)}
+    \\
+    \overline{c} &\mapsto& \overline{a}^\mu_{,\mu} & \text{(Noether identity)}
+    \\
+    a_\mu &\mapsto& c_{,\mu} & \text{(infinitesimal gauge transformation)}
+  }
+  \right.
+$$
+
+
+=--
+
+
+$\,$
+
+So far the discussion yields just the [[algebra of functions]] on the derived reduced prolonged shell.
+We now discuss the derived analog of the full [[variational bicomplex]] (def. \ref{VariationalBicomplexOnSecondOrderJetBundleOverTrivialVectorBundleOverMinkowskiSpacetime})
+to the derived reduced shell.
+
+The analog of the [[de Rham complex]] of a [[derived Lie algebroid]] is called the _[[Weil algebra]]_:
+
++-- {: .num_defn #WeilAlgebra}
+###### Definition
+**([[Weil algebra]] of a [[Lie algebroid]])**
+
+Given a [[derived Lie algebroid]] $\mathfrak{a}$ over some $X$ (def. \ref{LInfinityAlgebroid}), its [[Weil algebra]] is
+
+$$
+  W(\mathfrak{a})
+    \;\coloneqq\;
+  \left(
+    Sym_{C^\infty(X)}( \Gamma(T^\ast X) \oplus \mathfrak{a}_\bullet \oplus \mathfrak{a}[1]_\bullet )
+     \;,\;
+    \mathbf{d}_W \coloneqq \mathbf{d} + d_{CE}
+  \right)
+  \,,
+$$
+
+where $\mathbf{d}$ acts as the de Rham differential $\mathbf{d} \colon C^\infty(X) \to \Gamma(T^\ast X)$
+on functions, and as the degree shift operator $\mathbf{d} \colon \mathfrak{a}_\bullet \to \mathfrak{a}[1]_\bullet$
+on the graded elements.
+
+=--
+
+| [[smooth manifolds]] | [[derived Lie algebroids]] |
+|----------------------|----------------------------|
+| [[algebra of functions]] | [[Chevalley-Eilenberg algebra]] |
+| algebra of [[differential forms]] | [[Weil algebra]] |
+
+
++-- {: .num_example #ClassicalWeilAlgebra}
+###### Example
+**(classical [[Weil algebra]])**
+
+Let $\mathfrak{g}$ be a [[Lie algebra]] with corresponding
+[[Lie algebroid]] $B \mathfrak{g}$ (example \ref{BasicExamplesOfLieAlgebroids}).
+Then the Weil algebra (def. \ref{WeilAlgebra}) of $B \mathfrak{g}$ is
+the traditional Weil algebra of $\mathfrak{g}$ from classical [[Lie theory]].
+
+=--
+
++-- {: .num_defn #BVVariationalBicomplex}
+###### Definition
+**([[variational BV-bicomplex]])**
+
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
+equipped with a closed irreducible [[gauge parameter]]  bundle $\mathcal{G}$ (def. \ref{GaugeParametrizedInfinitesimalGaugeTransformation}).
+Consider the [[Lie algebroid]] $E/(\mathcal{G} \times_\Sigma T \Sigma)$ from example \ref{LocalOffShellBRSTComplex},
+whose [[Chevalley-Eilenberg algebra]] is the [[local BRST complex]] of the theory.
+
+Then its [[Weil algebra]] $W(E/(\mathcal{G} \times_\Sigma T \Sigma))$ (def. \ref{WeilAlgebra})
+has as differential the [[variational derivative]] (def. \ref{VariationalBicomplexOnSecondOrderJetBundleOverTrivialVectorBundleOverMinkowskiSpacetime})
+plus the [[BRST differential]]
+
+$$
+  \begin{aligned}
+    d_{W}
+    & = \mathbf{d} - (d - s_{BRST})
+    \\
+    & =
+    \delta + s_{BRST}
+  \end{aligned}
+  \,.
+$$
+
+Therefore we speak of the _[[variational BRST-bicomplex]]_ and write
+
+$$
+  \Omega^\bullet_\Sigma( E/(\mathcal{G} \times_\Sigma T \Sigma) )
+  \,.
+$$
+
+Similarly, the Weil algebra of the derived prolonged shell $\mathcal{E}^\infty_{BV}$ (def. \ref{DerivedProlongedShell})
+has differential
+
+$$
+  \begin{aligned}
+    d_W
+      & =  \mathbf{d} - (d - s)
+    \\
+    & = \delta + s
+  \end{aligned}
+  \,.
+$$
+
+Since $s$ is the [[BV-BRST differential]] (prop. \ref{LocalBVBRSTComplexIsDerivedCriticalLocusOfEulerLagrangeForm})
+this defines the "variational BV-BRST-bicomplex".
+
+(...)
+
+=--
+
+
+
+
+
+
+
+
+$\,$
+
+
+It turns out that the [[local BV-BRST cohomology]] (prop. \ref{LocalBVBRSTComplexIsDerivedCriticalLocusOfEulerLagrangeForm})
+of the "derived reduced prolonged shell" very neatly captures all the aspects of [[Lagrangian field theory]]
+that we have been discussing so far:
+
+
++-- {: .num_example #dWCohomology}
+###### Example
+**([[Noether's theorem|Noether theorem I]] in terms of [[local BRST cohomology]])**
+
+The $d-s$-closed elements in degree $(p,0)$ are precisely pairs $(v,J_v)$
+consisting of an implicit infinitesimal local gauge symmetry $v$ and a conserved current $J_v$ for it.
+
+The $d_W$-exact elements in this degree are sums of
+
+1. $d$-exact currents;
+
+1. on-shell vanishing implicit gauge transformations;
+
+1. on-shell vanishing currents with their horizontally exact gauge transformations
+
+(...)
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+
+The $d_W$-closed element are
+the implicit infinitesimal gauge symmetries $v$ regarded as an [[antifield]] $v^a \overline{\phi}_a$
+multiplied with the [[volume form]] $dvol_\Sigma$
+together with their Noether current $J_v \in \Omega^{p,0}_\Sigma(E)$ (prop. \ref{NoethersFirstTheorem})
+
+
+$$
+  \array{
+    \{J_v\} &\overset{d}{\longrightarrow}& \{ \overset{= 0}{\overbrace{ d J_v - \iota_v \delta_{EL}\mathbf{L} }} \}
+    \\
+    && \uparrow\mathrlap{s_{BV}}
+    \\
+    && \{ v^a \overline{\phi}_a dvol_\Sigma\}
+  }
+$$
+
+
+
+Such a pair is exact if
+
+$$
+  \array{
+    \{K\}
+     &\overset{d}{\longrightarrow}&
+    \{ d K + v^{a \mu} \frac{\delta_{EL}L}{\delta \phi^a} \iota_{\partial_\mu} dvol_\Sigma   \} &\overset{d}{\longrightarrow}& \{ \overset{= 0}{\overbrace{ d J_v - \iota_v \delta_{EL}\mathbf{L} }} \}
+    \\
+    && \mathllap{s_{BV}}\uparrow && \uparrow\mathrlap{s_{BV}}
+    \\
+    && v^{a \mu} \overline{\phi}_a \iota_{\partial_\mu} dvol_\Sigma
+      &\underset{-d}{\longrightarrow}&
+    \{ v^a \overline{\phi}_a dvol_\Sigma\}
+    \\
+    && && \uparrow\mathrlap{s_{BV}}
+    \\
+    &&
+    && \kappa^{a b } \overline{\phi}_a \overline{\phi}_b dvol_\Sigma
+  }
+$$
+
+(...)
+
+=--
+
+
+
+
+
++-- {: .num_example }
+###### Example
+**([[infinitesimal gauge symmetry]] via [[local BRST cohomology]])**
+
+An  [[infinitesimal gauge symmetry]] $v_\epsilon$  of [[gauge parameter]] $(\epsilon^\alpha)$ is a vector field on the jet bundle with components of the form
+
+$$
+  \mathcal{L}_{v_\epsilon} \phi^a
+   \;\coloneqq\;
+  R^a_\alpha \epsilon^\alpha
+    +
+  R^{a \mu}_\alpha \frac{d \epsilon^\alpha}{d x^\mu}
+$$
+
+such that this is an [[infinitesimal symmetry of the Lagrangian]] in that
+
+$$
+  \begin{aligned}
+    \iota_{v_\epsilon} \delta_{EL} \mathbf{L}
+    & =
+    v^a \frac{\delta_{EL} L}{\delta \phi^a} dvol_\Sigma
+    \\
+    & =
+    \epsilon^\alpha
+    \left(
+       R^a_\alpha \frac{\delta_{EL} L}{ \delta \phi^a}
+       -
+       \frac{d}{d x^\mu}
+       \left(
+          R^{a \mu}_\alpha \frac{\delta_{EL} L}{\delta \phi^a}
+       \right)
+    \right)
+    dvol_\Sigma
+    +
+    d\left(
+       \epsilon^\alpha R^{a \mu}_\alpha \frac{\delta_{EL} L}{\delta \phi^a}
+    \right)
+    \iota_{\partial_\mu} dvol_\Sigma
+    \\
+    & =
+    0 + d(...)
+  \end{aligned}
+$$
+
+for all $(\epsilon^\alpha)$.
+
+The corresponding [[antifield|anti]] [[ghost field]] $\overline{c}_\alpha$ are taken by the BV-BRST differential to the antifield-preimage of the term on the left:
+
+$$
+  s\left(\overline{c}_\alpha\right)
+  \;=\;
+  R^a_\alpha \overline{\phi}_a
+  -
+  \frac{d}{d x^\mu}
+  \left(
+    R^{a \mu}_\alpha \overline{\phi}_a
+  \right)
+  \,.
+$$
+
+Moreover, an [[on-shell]] vanishing [[infinitesimal symmetry of the Lagrangian]] is a vector field with components of the form
+
+$$
+  \kappa^{a b} \frac{\delta_{EL} L}{\delta \phi^a}
+$$
+
+for $\kappa^{a b} = - \kappa^{b a}$ a skew-symmetric system of smooth functions on the jet bundle.
+
+The linear combination of such an infinitesimal gauge symmetry and an on-shell vanishing infinitesimal symmetry is $(s+d)$-exact:
+
+
+$$
+  \begin{aligned}
+    v^a dvol_\Sigma
+    & =
+    \left(
+      R^a_\alpha \epsilon^\alpha
+      +
+      R^{a \mu}_\alpha \frac{d \epsilon^\alpha}{d x^\mu}
+      +
+      \kappa^{a b} \frac{\delta_{EL} L }{ \delta \phi^a }
+    \right)
+    dvol_\Sigma
+    \\
+    & =
+    s
+    \left(
+      \epsilon^\alpha \overline{c}_\alpha
+      -
+      \tfrac{1}{2}\kappa^{a b} \overline{\phi}_a \overline{\phi}_b
+    \right) dvol_\sigma
+    +
+    d\left(
+      \epsilon^\alpha R^{a \mu}_\alpha
+    \right)
+    \iota_{\partial_\mu} dvol_\Sigma
+  \end{aligned}
+$$
+
+([Barnich-Brandt-Henneaux 94, p. 20](local+BRST+cohomology#BarnichBrandtHenneaux94))
+
+
+It may be useful to organize this expression into the $s+d$-[[bicomplex]] like so:
+
+$$
+  \array{
+    \{K\}
+     &\overset{d}{\longrightarrow}&
+     \{ d K
+       +
+     \epsilon^\alpha R^{a \mu}_\alpha \frac{\delta_{EL}\mathbf{L}}{ \delta \phi^a}
+     \}
+     &\overset{d}{\longrightarrow}&
+    \{ \overset{= 0}{\overbrace{ d J_v - \iota_v \delta_{EL}\mathbf{L} }} \}
+    \\
+    && \mathllap{s}\uparrow && \uparrow\mathrlap{-s}
+    \\
+    &&
+    \epsilon^\alpha R^{a \mu}_\alpha \overline{\phi}_a
+    \iota_{\partial_\mu} dvol_\Sigma
+      &\underset{d}{\longrightarrow}&
+    \left\{
+      d\left(
+        \epsilon^\alpha R^{a \mu}_\alpha \overline{\phi}_a
+      \right)
+      \iota_{\partial_\mu} dvol_\Sigma
+      +
+      \left(
+        R^a_\alpha \epsilon^\alpha
+        +
+        R^{a \mu}_\alpha \frac{d \epsilon^\alpha}{d x^\mu}
+        +
+        \kappa^{a b} \frac{\delta_{EL} L }{ \delta \phi^a }
+      \right)
+      \overline{\phi}_a
+      \,
+      dvol_\Sigma
+    \right\}
+    \\
+    && && \uparrow\mathrlap{-s}
+    \\
+    &&
+    &&
+    \left(
+       - \epsilon^\alpha \overline{c}_\alpha
+       +
+      \tfrac{1}{2}\kappa^{a b } \overline{\phi}_a \overline{\phi}_b
+    \right)
+    dvol_\Sigma
+  }
+$$
+
+
+=--
+
+$\,$
+
+
+This concludes our discussion of the [[reduced phase space]] of a [[Lagrangian field theory]] exhibited, [[formal dual|dually]] by its
+[[local BV-BRST complex]]. In the [next chapter](#GaugeFixing) we finally turn to the key implication of this construction:
+the [[gauge fixing]] of a [[Lagrangian field theory|Lagrangian]] [[gauge theory]] which makes the collection of [[field (physics)|fields]]
+and [[auxiliary fields]] ([[ghost fields]] and [[antifields]]) jointly have a (differential-graded) [[covariant phase space]].
