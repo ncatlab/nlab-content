@@ -3,7 +3,7 @@ Catalan numbers are a specific sequence of nonnegative integers, here denoted $C
 
 $$C_n = \frac{1}{n+1}\binom{2 n}{n}$$
 
-A Catalan number $C_n$ describes a number of matching pairs of $n$ parenthesis properly matched. It is the number of nonisomorphic ordered trees with $n$ vertices.  
+A Catalan number $C_n$ describes a number of matching pairs of $n$ parentheses properly matched. It is also the number of nonisomorphic ordered (planar) binary trees with $n$ vertices.  
 
 ## Related concepts
 
