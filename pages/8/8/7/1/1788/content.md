@@ -1,2 +1,2 @@
 
-$a^\ddagger$
+$\slash{A}\slash{\partial}$
