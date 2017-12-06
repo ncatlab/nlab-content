@@ -7,6 +7,8 @@
 
 If $X$ is a [[metric space]], we can construct a version of its [[complete space|Cauchy completion]] as a [[locale]], by taking as basic opens formal symbols $B_\delta(x)$ representing [[open balls]], and imposing relations ensuring that the points are [[Cauchy filters]].  (We can equivalently regard $X$ as a [[Lawvere metric space]] and build a locale whose points are "Cauchy [[profunctors]]".)  This is the **localic completion** of $X$.
 
+The construction can also be generalized in various ways.
+
 ## Definition
 
 Consider the collection of "formal balls" $B(x,\delta)$, where $x\in X$ and $\delta\in\mathbb{Q}^+$ (technically this is just another notation for the ordered pair $(x,\delta)\in X\times \mathbb{Q}^+$).  We say:
@@ -38,7 +40,7 @@ When interpreted as a [[geometric theory]], conditions (1)--(4) say that the loc
 
 ## Generalizations
 
-We can allow $X$ to be a [[pseudometric space]], a [[Lawvere metric space]], or even a "[[metric locale]]".  See the references.
+We can allow $X$ to be a [[pseudometric space]], a [[Lawvere metric space]], or even a "[[metric locale]]".  We can also allow $X$ to be a certain sort of [[uniform space]], with uniformity induced by a family of [[upper real number]] valued [[pseudometrics]].  See the references.
 
 
 ## References
@@ -53,3 +55,4 @@ We can allow $X$ to be a [[pseudometric space]], a [[Lawvere metric space]], or 
 * [[Erik Palmgren]], *A constructive and functorial embedding of locally compact metric spaces into locales*
 {#Palmgren}
 
+* Kawai, Tatsuji. *Localic completion of uniform spaces*. Log. Methods Comput. Sci. 13 2017), no. 3, Paper No. 22, 39pp.  [arxiv](https://arxiv.org/abs/1703.02255)
