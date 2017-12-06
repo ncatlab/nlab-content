@@ -538,7 +538,7 @@ This means equivalently (details are at _[[derived critical locus]]_) that the C
 ###### Example
 **([[derived critical locus]] inside [[action Lie algebroid]])**
 
-Consider a gauge invariant function $S \;\colon\emph{}\; X/\mathfrak{g} \to \mathbb{R}$ (def. \ref{GaugeInvariantFunctionsIntermsOfLieAlgebroids})
+Consider an [[invariant]] function $S \;\colon\emph{}\; X/\mathfrak{g} \to \mathbb{R}$ (def. \ref{GaugeInvariantFunctionsIntermsOfLieAlgebroids})
 on an [[action Lie algebroid]] (def. \ref{ActionLieAlgebroid})
 for the case that the underlying manifold is a [[Cartesian space]] with global [[coordinates]] as in example \ref{CotangentBundleOfActionLieAlgebroid}. Then the generators of the [[derived critical locus]] $(X/\mathfrak{g})_{d S \simeq 0}$ (def. \ref{DerivedCriticalLocusOfGaugeInvariantFunctionOnLieAlgebroid})
 are as in (eq:GeneratorsOfDerivedCriticalLocusInActionLieAlgebroid), except for the degree shift:
@@ -576,6 +576,7 @@ $$
 and the CE-differential is given by
 
 $$
+  \label{ExplitiCEDifferentialInCotangentBundleOfActionLieAlgebroid}
   \array{
     & d_{CE(\mathfrak{a}_{d S \simeq 0})}
     \\
@@ -609,21 +610,82 @@ $$
 which is like the differential (eq:CEDifferentialOnGeneratorsForInfinitesimalCotangentBundleOfActionLieAlgebroid) of the cotangent Lie algebroid from example \ref{CotangentBundleOfActionLieAlgebroid}, except
 for the degree-shift by -1 of the derivation generators and except for the crucial new term indicated by the underbrace.
 
+=--
+
++-- {: .num_defn #SchoutenBracketAndAntibracket}
+###### Definition
+**([[Schouten bracket]] and [[antibracket]] for [[action Lie algebroid]])**
+
+Consider a [[derived critical locus]] inside an [[action Lie algebroid]] $X/\mathfrak{g}$ as in example \ref{ArchetypeOfBVBRSTComplex}.
+
+Then the [[commutator]] of [[derivations]] 
+
+$$
+  [-,-]
+  \;\colon\;
+   Der(CE(X/\mathfrak{g})) 
+    \otimes 
+   Der(CE(X/\mathfrak{g})) 
+    \longrightarrow
+   Der(CE(X/\mathrak{g})) 
+$$
+
+uniquely [[extension|extends]] to a graded bracket
+
+$$
+  \left\{ -,-\right\}
+    \;\colon\;
+   CE(T^\ast(X/\mathfrak{g})) 
+    \otimes 
+   CE(T^\ast(X/\mathfrak{g}))
+    \longrightarrow
+   CE(T^\ast(X/\mathfrak{g}))
+$$
+
+of degree $(1,even)$. This is called the _[[Schouten bracket]]_.
+
 There is an elegant way to rewrite this: With the notation (eq:AntiNotationForDerivations) we may write the [[commutator]] of two [[derivations]] $f,g$ as 
 
 $$
   \begin{aligned}
-    \left[ f,g\right]  
+    \left[ f,g \right]  
     & =
+    \phantom{+}
     \frac{\overset{\leftarrow}{\partial} f}{\partial \overline{\phi}_a}  
     \frac{\overset{\rightarrow}{\partial} g}{\partial {\phi}^a}
     -
     \frac{\overset{\leftarrow}{\partial} f}{\partial \phi^a}
     \frac{\overset{\rightarrow}{\partial} g}{\partial \overline{\phi}_a} 
+    \\
+    &
+    + 
+    \frac{\overset{\leftarrow}{\partial} f}{\partial \overline{c}_\alpha}  
+    \frac{\overset{\rightarrow}{\partial} g}{\partial {c}^\alpha}
+    -
+    \frac{\overset{\leftarrow}{\partial} f}{\partial c^\alpha}
+    \frac{\overset{\rightarrow}{\partial} g}{\partial \overline{c}_\alpha} 
   \end{aligned}
+  \,,
+$$
+
+where the arrow over the [[partial derivative]] indicates that we we pick up signs via the [[Leibniz rule]] either as usual, going through products from left to right (for $\overset{\rightarrow}{\partial}$) or by going through the products from right to left (for $\overset{\leftarrow}{\partial}$).
+
+In this form this is called the _[[antibracket]]_.
+
+Inspection shows that the CE-differential (eq:ExplitiCEDifferentialInCotangentBundleOfActionLieAlgebroid) of the [[derived critical locus]] $X/\mathfrak{g}\vert_{S \simeq 0}$ is simply the [[Schouten bracket]]/[[antibracket]]  with the [[sum]] of the the CE-differential of $X/\mathfrak{G}$ with the function S:
+
+$$
+  d_{CE(T^\ast(X/\mathfrak{g}))}
+  \;=\;
+  \left\{
+    S + d_{CE}(X/\mathfrak{g})
+    \,.\,
+    -
+  \right\}
 $$
 
 =--
+
 
 If we think of the function $S$ as being the [[action functional]] (example \ref{ActionFunctional})
 of a [[Lagrangian field theory]] $(E,\mathbf{L})$ (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) over a [[compact space|compact]] [[spacetime]] $\Sigma$,
@@ -717,17 +779,7 @@ $$
   \,.
 $$
 
-Observe that in terms of these coordinates the ordinary commutator of graded derivations 
-
-$$
-  f,g \in Der(C^\infty( J^\infty_\Sigma(E \times_\Sigma \mathcal{G}[1]) ))
-$$
-  
-has the following equivalent expression:
-
-(...)
-
-Now consider the modification of this formula to the formula
+Recall the global [[anitbracket]] on an [[action Lie algebroid]] from def. \ref{SchoutenBracketAndAntibracket}. On the jet bundle we consider the following modification:
 
 $$
   \label{LocalCommutatorOfDerivationsOnJetBundle}
@@ -784,7 +836,9 @@ $$
   \end{aligned}
 $$
 
-where $\frac{\delta_{EL}}{\delta \phi^a}$ denotes the [[Euler-Lagrange variational derivative]] (eq:EulerLagrangeEquationGeneral).
+where $\frac{\delta_{EL}}{\delta \phi^a}$ denotes the [[Euler-Lagrange variational derivative]] (eq:EulerLagrangeEquationGeneral) ([Barnich-Henneaux 96 (2.12)-(2.13)](local+BRST+cohomology#BarnichHenneaux96)).
+
+
 
 We define the CE-differential on functions on $T^\ast( E/(\mathcal{G} \times_\Sigma T \Sigma) )$ to be
 
