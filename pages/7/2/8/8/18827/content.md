@@ -1,30 +1,7 @@
 ## Reduced phase space
  {#ReducedPhaseSpace}
 
-We have seen [above](#PhaseSpace) that the [[covariant phase space]] of a [[Lagrangian field theory]] is,
-if it exists, the "covariant [[transgression of variational differential forms|transgression]]" of the [[shell]] (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}) equipped
-with the [[Poisson bracket Lie n-algebra|local Poisson bracket]] (example \ref{LocalPoissonBracket}).
-The [[local observables]] (def. \ref{LocalObservables}) which operationally define the [[classical field theory]] (or rather [[prequantum field theory]]) are functions on the [[covariant phase space]], and the [[Poisson bracket Lie n-algebra|local Poisson bracket]]
-on them operationally defines the corresponding [[quantum field theory]] ([below](#Quantization)). Therefore
-the existence of the [[covariant phase space]] is crucial for the construction of the [[field theory]].
-
-However, we have then seen in prop. \ref{NonTrivialImplicitInfinitesimalGaugeSymmetriesPbstructExistenceOfCauchySurfaces} that
-there may be an [[obstruction]] to the existence of the [[covariant phase space]], namely the presence of
-[[infinitesimal gauge symmetries]] [[infinitesimal symmetry of the Lagrangian|of the Lagrangian]] which have been "left implicit".
-We have then discussed how to make these [[infinitesimal gauge symmetries]] "explicit" by hard-wiring their [[action]] into the geometry of the [[field (physics)|fields]] by passing to the corresponding infinitesimal [[homotopy quotient]] (def. \ref{LInfinityAlgebroid}) of (the [[jet bundle]] of) the [[field bundle]], given by the corresponding [[action Lie algebroid]] (def. \ref{ActionLieAlgebroid}). Its [[Chevalley-Eilenberg algebra|Chevalley-Eilenberg]] [[algebra of functions]] is called the _[[local BRST complex]]_ of the theory (example \ref{LocalOffShellBRSTComplex}).
-
-The corresponding [[covariant phase space]] with [[infinitesimal gauge symmetries]] made explicit is now correspondingly given by the
-[[shell]] (eq:ShellInJetBundle) not inside the plain space of fields, but inside this [[homotopy quotient]] by the
-[[infinitesimal gauge symmetries]]. This [[homotopy quotient]] of the naive phase space by the [[infinitesimal gauge symmetries]]
-is called the _[[reduced phase space]]_. Refined to its local incarnation in the [[jet bundle]]
-we may call this the "derived reduced prolonged [[shell]]"
-(def. \ref{DerivedProlongedShell} below). Its [[algebra of functions]] is called the _[[local BV-BRST complex]]_ of the theory.
-
-In the next section [below](#GaugeFixing) we find that, at least in good situations, if all non-trivial implicit
-[[infinitesimal gauge symmetries]] have been made explicit this way by hard-wiring their action into the geometry of the [[reduced phase space]], then
-the [[obstruction]] to the existence of the [[covariant phase space]] vanishes.  Hence in this case then the ([[perturbative quantum field theory|perturbative]]) [[quantum field theory]] can exist (discussed [further below](#Quantization)). This is
-why we do need to pass to the [[reduced phase space]].
-
+Where for a [[Lagrangian field theory]] without [[infinitesimal gauge symmetries]] the [[covariant phase space]] is (the [[transgression of variational differential forms|transgression of]]) the plain [[shell]], the _[[reduced phase space]]_ in a theory with [[infinitesimal gauge symmetries]] is the [[homotopy quotient]] of the  [[shell]] by the [[gauge symmetries]].
 
 In order to exhibit the key structure of the [[reduced phase space]] without getting distracted
 by the local [[jet bundle]] geometry, we first discuss now the simple form in
@@ -65,7 +42,7 @@ $$
   CE(\mathfrak{a}) \longleftarrow CE(\mathfrak{a}') \;\colon\; f^\ast
 $$
 
-such that this covers an algebra homomorphism on the function algebras (a "[[curved sh-map|non-curved sh-map]]")
+such that this covers an algebra homomorphism on the function algebras:
 
 $$
   \array{
@@ -78,6 +55,8 @@ $$
   \,.
 $$
 
+(This is also called a "[[curved sh-map|non-curved sh-map]]".)
+
 =--
 
 
@@ -86,7 +65,7 @@ $$
 **([[gauge invariance|gauge invariant]] [[functions]] in terms of [[Lie algebroids]])**
 
 Let $X/\mathfrak{g}$ be an [[action Lie algebroid]] (example \ref{ActionLieAlgebroid})
-and regard the [[real line]] $\mathbb{R}^1$ as a Lie algebroid by example \ref{BasicExamplesOfLieAlgebroids}.
+and regard the [[real line]] [[manifold]] $\mathbb{R}^1$ as a Lie algebroid by example \ref{BasicExamplesOfLieAlgebroids}.
 Then homomorphisms of Lie algebroids (def. \ref{HomomorphismBetweenLieAlgebroids}) of the form
 
 $$
@@ -100,6 +79,26 @@ hence _smooth functions on the Lie algebroid_, are equivalently
 
 * which are [[invariant]] under the Lie action in that $\rho(-)(f) = 0$.
 
+$$
+  \array{
+    X &\overset{f}{\longrightarrow}& \mathbb{R}^1
+    \\
+    \downarrow 
+      & 
+    \nearrow_{ 
+      \mathrlap{ 
+        \array{ 
+          \text{exists if} 
+          \\ 
+          f \, \text{is invariant} 
+        } 
+       } 
+     }
+    \\
+    X/\mathfrak{g}
+  }
+$$
+
 =--
 
 
@@ -110,14 +109,30 @@ An $\mathbb{R}$-algebra homomorphism
 
 $$
   CE( X/\mathfrak{g} )
-    \longleftarrow
+    \overset{f^\ast}{\longleftarrow}
   C^\infty(\mathbb{R}^1)
 $$
 
-is fixed by what it does to the canonical coordinate function on $\mathbb{R}^1$, which is taken by
-$f^\ast$ to $f \in C^\infty(X) \hookrightarrow CE(X/\mathfrak{g})$. For this to be a dg-algebra
-homomorphism it needs to respect the differentials on both sides. Since the differential
-on right right is trivial, the condition is that $0 = d_{CE} f = \rho(-)(f)$.
+is fixed by what it does to the canonical [[coordinate function]] $x$ on $\mathbb{R}^1$, which is taken by
+$f^\ast$ to $f \in C^\infty(X) \hookrightarrow CE(X/\mathfrak{g})$. For this to be a dg-algebra homomorphism it needs to respect the differentials on both sides. Since the differential on the right is trivial, the condition is that $0 = d_{CE} f = \rho(-)(f)$:
+
+$$
+  \array{
+     \left\{ f \right\} &\overset{f^\ast}{\longleftarrow}& \left\{ x \right\}
+     \\
+     {}^{\mathllap{d_{CE(X/\mathfrak{g})}}}\downarrow 
+       && 
+     \downarrow^{\mathrlap{d_{CE(\mathbb{R}^1)} = 0 } }
+     \\
+     \left\{ 
+       \rho(-)(f)
+       =
+       0
+     \right\}
+     &\underset{f^\ast}{\longleftarrow}&
+     \left\{ 0 \right\}
+  }
+$$
 
 =--
 
@@ -166,7 +181,13 @@ There is a canonical homomorphism of Lie algebroids (def. \ref{HomomorphismBetwe
 
 $$
   \label{CotangentLieAlgebrpoidProjection}
-  T^\ast \mathfrak{a} \longrightarrow \mathfrak{a}
+  \array{
+    T^\ast \mathfrak{a} 
+    \\
+    \downarrow
+    \\
+    \mathfrak{a}
+  }
 $$
 
 given dually by the identity on the original generators.
@@ -181,9 +202,9 @@ given dually by the identity on the original generators.
 Let $X/\mathfrak{g}$ be an [[action Lie algebroid]] (def. \ref{ActionLieAlgebroid})
 where
 
-* $X = \mathbb{R}^n$ is a [[Cartesian space]] with [[coordinates]] $(\phi^a)$;
+* $X = \mathbb{R}^n$ is a [[super Cartesian space]] (def. \ref{SuperCartesianSpace}) with [[coordinates]] $(\phi^a)$;
 
-* $\mathfrak{g}$ is a [[Lie algebra]] with [[linear basis]] $(c_\alpha)$
+* $\mathfrak{g}$ is a [[super Lie algebra]] with [[linear basis]] $(c_\alpha)$
   and corresponding structure constants $(\gamma^{\alpha}{}_{\beta \gamma})$ (as in prop. \ref{LieAlgebraInTermsOfChevalleyEilenbergAlgebra}), so that its [[Chevalley-Eilenberg algebra|Chevalley-Eilenberg differential]] is given by
 
   $$
@@ -358,10 +379,10 @@ $$
 
 +-- {: .num_prop #ExteriorDifferentialOfGaugeInvariantFunctionIsSectionOfInfinitesimalCotangentLieAlgebroid}
 ###### Proposition
-**([[exterior differential]] of [[gauge invariant]] function is [[section]] of [[automorphism ∞-Lie algebra|infinitesimal cotangent bundle]])**
+**([[exterior differential]] of [[invariant]] function is [[section]] of [[automorphism ∞-Lie algebra|infinitesimal cotangent bundle]])**
 
 For $\mathfrak{a}$ a [[Lie ∞-algebroid]] (def. \ref{LInfinityAlgebroid}) over some $X$;
-and $S \;\colon\;\mathfrak{a} \longrightarrow \mathbb{R}$ a [[gauge invariant]] smooth function on it (example \ref{GaugeInvariantFunctionsIntermsOfLieAlgebroids})
+and $S \;\colon\;\mathfrak{a} \longrightarrow \mathbb{R}$ a [[invariant]] smooth function on it (example \ref{GaugeInvariantFunctionsIntermsOfLieAlgebroids})
 there is an induced [[section]] $d S$ of the infinitesimal cotangent Lie algebroid (def. \ref{LieAlgebroidInfinitesimalCotangentBundle})
 bundle projection (eq:CotangentLieAlgebrpoidProjection):
 
@@ -463,7 +484,7 @@ $$
 
 +-- {: .num_defn #DerivedCriticalLocusOfGaugeInvariantFunctionOnLieAlgebroid}
 ###### Definition
-**([[derived critical locus]] of [[gauge invariant]] function on [[Lie ∞-algebroid]])**
+**([[derived critical locus]] of [[invariant]] function on [[Lie ∞-algebroid]])**
 
 Let $\mathfrak{a}$ be a [[Lie ∞-algebroid]] (def. \ref{LInfinityAlgebroid}) over some $X$, let
 
@@ -515,12 +536,11 @@ This means equivalently (details are at _[[derived critical locus]]_) that the C
 
 +-- {: .num_example #ArchetypeOfBVBRSTComplex}
 ###### Example
-**(archetype of the [[BV-BRST complex]])**
+**([[derived critical locus]] inside [[action Lie algebroid]])**
 
-Consider a gauge invariant function $S \;\colon\emph{}\; X/\mathfrak{g} \to \mathbb{R}$ (def. \ref{GaugeInvariantFunctionsIntermsOfLieAlgebroids})
+Consider an [[invariant]] function $S \;\colon\emph{}\; X/\mathfrak{g} \to \mathbb{R}$ (def. \ref{GaugeInvariantFunctionsIntermsOfLieAlgebroids})
 on an [[action Lie algebroid]] (def. \ref{ActionLieAlgebroid})
-for the case that the underlying manifold is a [[Cartesian space]] with global [[coordinates]] as in example \ref{CotangentBundleOfActionLieAlgebroid}. Then the generators
-of the [[derived critical locus]] $(X/\mathfrak{g})_{d S \simeq 0}$ (def. \ref{DerivedCriticalLocusOfGaugeInvariantFunctionOnLieAlgebroid})
+for the case that the underlying manifold is a [[Cartesian space]] with global [[coordinates]] as in example \ref{CotangentBundleOfActionLieAlgebroid}. Then the generators of the [[derived critical locus]] $(X/\mathfrak{g})_{d S \simeq 0}$ (def. \ref{DerivedCriticalLocusOfGaugeInvariantFunctionOnLieAlgebroid})
 are as in (eq:GeneratorsOfDerivedCriticalLocusInActionLieAlgebroid), except for the degree shift:
 
 $$
@@ -556,6 +576,7 @@ $$
 and the CE-differential is given by
 
 $$
+  \label{ExplitiCEDifferentialInCotangentBundleOfActionLieAlgebroid}
   \array{
     & d_{CE(\mathfrak{a}_{d S \simeq 0})}
     \\
@@ -589,6 +610,83 @@ $$
 which is like the differential (eq:CEDifferentialOnGeneratorsForInfinitesimalCotangentBundleOfActionLieAlgebroid) of the cotangent Lie algebroid from example \ref{CotangentBundleOfActionLieAlgebroid}, except
 for the degree-shift by -1 of the derivation generators and except for the crucial new term indicated by the underbrace.
 
+=--
+
++-- {: .num_defn #SchoutenBracketAndAntibracket}
+###### Definition
+**([[Schouten bracket]] and [[antibracket]] for [[action Lie algebroid]])**
+
+Consider a [[derived critical locus]] inside an [[action Lie algebroid]] $X/\mathfrak{g}$ as in example \ref{ArchetypeOfBVBRSTComplex}.
+
+Then the [[commutator]] of [[derivations]] 
+
+$$
+  [-,-]
+  \;\colon\;
+   Der(CE(X/\mathfrak{g})) 
+    \otimes 
+   Der(CE(X/\mathfrak{g})) 
+    \longrightarrow
+   Der(CE(X/\mathrak{g})) 
+$$
+
+uniquely [[extension|extends]] to a graded bracket
+
+$$
+  \left\{ -,-\right\}
+    \;\colon\;
+   CE(T^\ast(X/\mathfrak{g})) 
+    \otimes 
+   CE(T^\ast(X/\mathfrak{g}))
+    \longrightarrow
+   CE(T^\ast(X/\mathfrak{g}))
+$$
+
+of degree $(1,even)$. This is called the _[[Schouten bracket]]_.
+
+There is an elegant way to rewrite this: With the notation (eq:AntiNotationForDerivations) we may write the [[commutator]] of two [[derivations]] $f,g$ as 
+
+$$
+  \begin{aligned}
+    \left[ f,g \right]  
+    & =
+    \phantom{+}
+    \frac{\overset{\leftarrow}{\partial} f}{\partial \overline{\phi}_a}  
+    \frac{\overset{\rightarrow}{\partial} g}{\partial {\phi}^a}
+    -
+    \frac{\overset{\leftarrow}{\partial} f}{\partial \phi^a}
+    \frac{\overset{\rightarrow}{\partial} g}{\partial \overline{\phi}_a} 
+    \\
+    &
+    + 
+    \frac{\overset{\leftarrow}{\partial} f}{\partial \overline{c}_\alpha}  
+    \frac{\overset{\rightarrow}{\partial} g}{\partial {c}^\alpha}
+    -
+    \frac{\overset{\leftarrow}{\partial} f}{\partial c^\alpha}
+    \frac{\overset{\rightarrow}{\partial} g}{\partial \overline{c}_\alpha} 
+  \end{aligned}
+  \,,
+$$
+
+where the arrow over the [[partial derivative]] indicates that we we pick up signs via the [[Leibniz rule]] either as usual, going through products from left to right (for $\overset{\rightarrow}{\partial}$) or by going through the products from right to left (for $\overset{\leftarrow}{\partial}$).
+
+In this form this is called the _[[antibracket]]_.
+
+Inspection shows that the CE-differential (eq:ExplitiCEDifferentialInCotangentBundleOfActionLieAlgebroid) of the [[derived critical locus]] $X/\mathfrak{g}\vert_{S \simeq 0}$ is simply the [[Schouten bracket]]/[[antibracket]]  with the [[sum]] of the the CE-differential of $X/\mathfrak{G}$ with the function S:
+
+$$
+  d_{CE(T^\ast(X/\mathfrak{g}))}
+  \;=\;
+  \left\{
+    S + d_{CE}(X/\mathfrak{g})
+    \,.\,
+    -
+  \right\}
+$$
+
+=--
+
+
 If we think of the function $S$ as being the [[action functional]] (example \ref{ActionFunctional})
 of a [[Lagrangian field theory]] $(E,\mathbf{L})$ (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) over a [[compact space|compact]] [[spacetime]] $\Sigma$,
 with $X$ the  [[space of field histories]] (or rather an [[infinitesimal neighbourhood]] therein),
@@ -596,7 +694,6 @@ hence with $\mathfrak{g}$ a Lie algebra of [[gauge symmetries]] acting on the fi
 the [[Chevalley-Eilenberg algebra]] $CE(X/\mathfrak{g}_{d S \simeq 0})$ of the [[derived critical locus]] of $S$ is called the
 _[[BV-BRST complex]]_ of the theory.
 
-=--
 
 In applications of interest, the spacetime $\Sigma$ is _not_ [[compact space|compact]].
 In that case one may still appeal to a construction on the [[space of field histories]]
@@ -606,16 +703,15 @@ This approach is taken in ([Fredenhagen-Rejzner 11a](BV-BRST+formalism#Fredenhag
 
 Here we instead consider now the "local lift" or "de-transgression" of the above construction from the
 [[space of field histories]] to the [[jet bundle]] of the field bundle of the theory, refining the
-[[BV-BRST complex]] to the _[[local BV-BRST complex]]_, corresponding to the [[local BRST complex]]
-from example \ref{LocalOffShellBRSTComplex}.
+[[BV-BRST complex]] to the _[[local BV-BRST complex]]_, corresponding to the [[local BRST complex]] from example \ref{LocalOffShellBRSTComplex} ([Barnich-Brandt-Henneaux 00](local+BRST+cohomology#BarnichBrandtHenneaux00)).
 
 This requires a slight refinement of the construction that leads to example \ref{ArchetypeOfBVBRSTComplex}:
-In contrast to the [[action functional]] $S = \tau_\Sigma(\mathbf{L})$,
-the [[Lagrangian density]] $\mathbf{L}$ is not strictly _invariant_ under implicit [[infinitesimal gauge transformations]], in general,
-rather it may change up to a horizontally exact term (by the very definition \ref{ImplicitInfinitesimalGaugeSymmetry}). The same is then true for its
-[[Euler-Lagrange variational derivative]] $\delta_{EL} \mathbf{L}$. This means that $\delta_{EL} \mathbf{L}$
-is not a section of the infinitesimal cotangent bundle (def. \ref{LieAlgebroidInfinitesimalCotangentBundle}) of the
-gauge action Lie algebroid on the jet bundle, but by a local version of it, which is twisted by horizontally exact terms.
+In contrast to the [[action functional]] $S = \tau_\Sigma(g\mathbf{L})$ (example \ref{ActionFunctional}),
+the [[Lagrangian density]] $\mathbf{L}$ is not strictly _invariant_ under [[infinitesimal gauge transformations]], in general,
+rather it may change up to a horizontally exact term (by the very definition \ref{GaugeParameters}). The same is then true, in general, for its
+[[Euler-Lagrange variational derivative]] $\delta_{EL} \mathbf{L}$ (unless we have already restricted to the [[shell]], by prop. \ref{InfinitesimalSymmetriesOfLagrangianAreAlsoSymmetriesOfTheEquationsOfMotion}). This means that $\delta_{EL} \mathbf{L}$
+is, [[off-shell]], not a section of the infinitesimal cotangent bundle (def. \ref{LieAlgebroidInfinitesimalCotangentBundle}) of the
+gauge action Lie algebroid on the jet bundle. But it turns out that it still is a section of local refinement of the cotangent bundle, which is twisted by horizontally exact terms. This is what we now describe.
 
 The following definition \ref{LocalInfinitesimalCotangentLieAlgebroid} is the local refinement of
 def. \ref{LieAlgebroidInfinitesimalCotangentBundle}:
@@ -626,7 +722,7 @@ def. \ref{LieAlgebroidInfinitesimalCotangentBundle}:
 
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
 over some [[spacetime]] $\Sigma$, and let $\mathcal{G} \overset{gb}{\to} \Sigma$ be
-a bundle of closed irreducible [[gauge parameters]] (def. \ref{GaugeParametrizedInfinitesimalGaugeTransformation}),
+a bundle of [[gauge parameters]] (def. \ref{GaugeParametrizedInfinitesimalGaugeTransformation}) which are closed (def. \ref{GaugeParametersClosed}),
 inducing via example \ref{LocalOffShellBRSTComplex} the [[Lie algebroid]]
 
 $$
@@ -644,7 +740,7 @@ whose [[Chevalley-Eilenberg algebra]] is the [[local BRST complex]] of the field
 Consider the case that both the [[field bundle]] $E \overset{fb}{\to} \Sigma$ (def. \ref{FieldsAndFieldBundles})
 as well as the [[gauge parameter]] bundle $\mathcal{G} \overset{gb}{\to} \Sigma$ are [[trivial vector bundles]]
 (example \ref{TrivialVectorBundleAsAFieldBundle}) over [[Minkowski spacetime]]
-with [[field (physics)|field]] coordinates $(\phi^a)$ and [[gauge parameter]] coordinates $(\epsilon^\alpha)$.
+with [[field (physics)|field]] coordinates $(\phi^a)$ and [[gauge parameter]] coordinates $(c^\alpha)$.
 
 Then the vertical infinitesimal cotangent Lie algebroid (def. \ref{LieAlgebroidInfinitesimalCotangentBundle}) has
 coordinates as in (eq:GeneratorsOfDerivedCriticalLocusInActionLieAlgebroid) as well as all the corresponding jets
@@ -683,12 +779,7 @@ $$
   \,.
 $$
 
-Observe that in terms of these coordinates the ordinary commutator of graded derivations
-has the following succinct expression:
-
-(...)
-
-Now consider the modification of this formula to the formula
+Recall the global [[anitbracket]] on an [[action Lie algebroid]] from def. \ref{SchoutenBracketAndAntibracket}. On the jet bundle we consider the following modification:
 
 $$
   \label{LocalCommutatorOfDerivationsOnJetBundle}
@@ -745,7 +836,9 @@ $$
   \end{aligned}
 $$
 
-where $\delta_{EL}$ denotes the [[Euler-Lagrange variational derivative]].
+where $\frac{\delta_{EL}}{\delta \phi^a}$ denotes the [[Euler-Lagrange variational derivative]] (eq:EulerLagrangeEquationGeneral) ([Barnich-Henneaux 96 (2.12)-(2.13)](local+BRST+cohomology#BarnichHenneaux96)).
+
+
 
 We define the CE-differential on functions on $T^\ast( E/(\mathcal{G} \times_\Sigma T \Sigma) )$ to be
 
