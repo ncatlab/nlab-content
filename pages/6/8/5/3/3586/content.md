@@ -48,6 +48,8 @@ As the name suggests, normal ordering was originally an operation implementd sim
 
 * [[propagation of singularities theorem]]
 
+* [[microformal morphism]]
+
 ## References
 
 Microlocal analysis of [[distributions]] in terms of [[wave front sets]] was introduced in
