@@ -70,22 +70,60 @@ $$
 
 +-- {: .num_example #GaugeInvariantFunctionsIntermsOfLieAlgebroids}
 ###### Example
-**([[gauge invariance|gauge invariant]] [[functions]] in terms of [[Lie algebroids]])**
+**([[invariant]] [[functions]] in terms of [[Lie algebroids]])**
 
-Let $X/\mathfrak{g}$ be an [[action Lie algebroid]] (example \ref{ActionLieAlgebroid})
-and regard the [[real line]] [[manifold]] $\mathbb{R}^1$ as a Lie algebroid by example \ref{BasicExamplesOfLieAlgebroids}.
+Let $\mathfrak{g}$ be a [[super Lie algebra]] equipped with a [[Lie algebra action]] (def. \ref{InfinitesimalActionByLieAlgebra})
+
+$$
+  \array{
+    \mathfrak{g} \times X && \overset{R}{\longrightarrow} && T X
+    \\
+    & \searrow && \swarrow
+    \\
+    && X
+  }
+$$
+
+on a [[supermanifold]] $X$. Then there is a canonical homomorphism of [[Lie algebroids]] (def. \ref{HomomorphismBetweenLieAlgebroids})
+
+$$
+  \label{ProjectionMapForActionLieAlgebroid}
+  \array{
+    X &&& CE(X) &=& C^\infty(X) &\oplus& 0
+    \\
+    \downarrow^{\mathrlap{p}} 
+      &\phantom{A}&& 
+    \uparrow^{\mathrlap{p^\ast}}
+      && 
+    \uparrow^{\mathrlap{id}} && \uparrow^{\mathrlap{0}}
+    \\
+    X/\mathfrak{g} 
+      &&& 
+    CE(X/\mathfrak{g}) 
+      &=& 
+    C^\infty(X) 
+      &\oplus& 
+    C^\infty(X) \otimes \wedge^\bullet \mathfrak{g}^\ast
+  }
+$$
+
+from the manifold $X$ regarded as a Lie algebroid by example \ref{BasicExamplesOfLieAlgebroids} to the [[action Lie algebroid]] $X/\mathfrak{g}$ (example \ref{ActionLieAlgebroid}), which may be called the _[[homotopy quotient]] [[coprojection]] map_. The dual homomorphism of [[differential graded-commutative superalgebras]] is given simply by the identity on $C^\infty(X)$ and the [[zero map]] on $\mathfrak{g}^\ast$.
+ 
+Next regard the [[real line]] [[manifold]] $\mathbb{R}^1$ as a Lie algebroid by example \ref{BasicExamplesOfLieAlgebroids}.
 Then homomorphisms of Lie algebroids (def. \ref{HomomorphismBetweenLieAlgebroids}) of the form
 
 $$
-  f \;\colon\; X/\mathfrak{g} \longrightarrow \mathbb{R}^1
+  S \;\colon\; X/\mathfrak{g} \longrightarrow \mathbb{R}^1
   \,,
 $$
 
 hence _smooth functions on the Lie algebroid_, are equivalently
 
-* ordinary [[smooth functions]] $f \colon X \longrightarrow \mathbb{R}^1$ on the underlying [[smooth manifold]],
+* ordinary [[smooth functions]] $S \;\colon\; X \longrightarrow \mathbb{R}^1$ on the underlying [[smooth manifold]],
 
-* which are [[invariant]] under the Lie action in that $\rho(-)(f) = 0$.
+* which are [[invariant]] under the Lie algebra action in that $R(-)(S) = 0$.
+
+In terms of the canonical [[homotopy quotient]] [[coprojection]] map $p$ (eq:ProjectionMapForActionLieAlgebroid) this says that a smooth function on $X$ [[extension]] extends to the [[action Lie algebroid]] precisely if it is [[invariant]]:
 
 $$
   \array{
@@ -96,9 +134,9 @@ $$
     \nearrow_{ 
       \mathrlap{ 
         \array{ 
-          \text{exists if} 
+          \text{exists precisely if} 
           \\ 
-          f \, \text{is invariant} 
+          S \, \text{is invariant} 
         } 
        } 
      }
@@ -117,27 +155,29 @@ An $\mathbb{R}$-algebra homomorphism
 
 $$
   CE( X/\mathfrak{g} )
-    \overset{f^\ast}{\longleftarrow}
+    \overset{S^\ast}{\longleftarrow}
   C^\infty(\mathbb{R}^1)
 $$
 
 is fixed by what it does to the canonical [[coordinate function]] $x$ on $\mathbb{R}^1$, which is taken by
-$f^\ast$ to $f \in C^\infty(X) \hookrightarrow CE(X/\mathfrak{g})$. For this to be a dg-algebra homomorphism it needs to respect the differentials on both sides. Since the differential on the right is trivial, the condition is that $0 = d_{CE} f = \rho(-)(f)$:
+$S^\ast$ to $S \in C^\infty(X) \hookrightarrow CE(X/\mathfrak{g})$. For this to be a dg-algebra homomorphism it needs to respect the differentials on both sides. Since the differential on the right is trivial, the condition is that $0 = d_{CE} S = R(-)(f)$:
 
 $$
   \array{
-     \left\{ f \right\} &\overset{f^\ast}{\longleftarrow}& \left\{ x \right\}
+     \left\{ S \right\} 
+       &\overset{S^\ast}{\longleftarrow}& 
+     \left\{ x \right\}
      \\
      {}^{\mathllap{d_{CE(X/\mathfrak{g})}}}\downarrow 
        && 
      \downarrow^{\mathrlap{d_{CE(\mathbb{R}^1)} = 0 } }
      \\
      \left\{ 
-       \rho(-)(f)
+       R(-)(S)
        =
        0
      \right\}
-     &\underset{f^\ast}{\longleftarrow}&
+     &\underset{S^\ast}{\longleftarrow}&
      \left\{ 0 \right\}
   }
 $$
