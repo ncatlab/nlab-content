@@ -6,7 +6,7 @@
 An [[infinitesimal gauge symmetry]] of a [[Lagrangian field theory]] (def. \ref{GaugeParameters} below) is a [[infinitesimal symmetry of the Lagrangian]] which may be freely parameterized, hence "gauged", by a _[[gauge parameter]]_. A [[Lagrangian field theory]]
 exhibiting these is also called a _[[gauge theory]]_.
 
-By choosing the [[gauge parameter]] to have [[compact support]] [[infinitesimal gauge symmetries]] in particular yield
+By choosing the [[gauge parameter]] to have [[compact support]], [[infinitesimal gauge symmetries]] in particular yield
 [[infinitesimal symmetries of the Lagrangian]] with compact spacetime support.
 One finds (prop. \ref{NonTrivialImplicitInfinitesimalGaugeSymmetriesPbstructExistenceOfCauchySurfaces} below)
 that the the existence of [[on-shell]] non-trivial symmetries of this form is an [[obstruction]] to  
