@@ -465,7 +465,9 @@ $$
     }
     }
     +
-    d (...)
+    d \left(
+      ...
+    \right)
     \,,
   \end{aligned}
 $$
