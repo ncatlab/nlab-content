@@ -294,6 +294,7 @@ The differential on $L\star L'$ is the unique Lie algebra derivation extending $
 
 
 ### Relation to $L_\infty$-algebras
+ {#RelationToLInfinityAlgebras}
 
 Every dg-Lie algebra is in an evident way an 
 [[L-infinity algebra]]. Dg-Lie algebras are precisely those $L_\infty$-algebras for which all $n$-ary brackets for $n \gt 2$ are trivial. These may be thought of as the _strict_ $L_\infty$-algebras: those for which the [[Jacobi identity]] holds on the nose and all its possible higher coherences are trivial.
@@ -327,6 +328,11 @@ such that for each $\mathfrak{g} \in L_\infty Alg_k$
 
 This appears for instance as ([KrizMay, cor. 1.6](#KrizMay)).
 
+For more see at 
+
+* _[[model structure on dg-Lie algebras]]_ the section _[Relation to L-infinity algebras](model+structure+on+dg-Lie+algebras#RectificationResolution)_.
+
+* [[mode structure for L-infinity algebras]], the section _[on dg-Lie algebras](model+structure+for+L-infinity+algebras#OndgLieAlgebras)_.
 
 ### Relation to dg-coAlgebras
 
