@@ -303,7 +303,7 @@ $$
   \right)
   \frac{\delta_{EL} \mathbf{L}}{\delta \phi^a}
   \;=\;
-  \frac{d}{d x^\mu} J^\mu_{R(e)}
+  \frac{d}{d x^\mu} J^\mu_{R}
   \,.
 $$
 
@@ -312,7 +312,7 @@ $$
 (e.g. [Henneaux 90 (3)](BRST+complex#Henneaux90))
 
 
-The point is that [[infinitesimal gauge symmetries]] in particular yield spacetime-compactly supported infinitesimal gauge symmetries:
+The point is that [[infinitesimal gauge symmetries]] in particular yield spacetime-compactly supported infinitesimal gauge symmetries as in prop. \ref{NonTrivialImplicitInfinitesimalGaugeSymmetriesPbstructExistenceOfCauchySurfaces}:
 
 +-- {: .num_remark #GaugeParametrizedInfinitesimalGaugeTransformation}
 ###### Remark
@@ -360,7 +360,15 @@ $$
   \,,
 $$
 
-where now $\frac{\partial^k \epsilon^\alpha}{\partial x^{\mu_1} \cdots \partial x^{\mu_k}}((x^\mu))$  are the actual [[spacetime]] [[partial derivatives]] of the [[gauge parameter]] [[section]].
+where now 
+
+$$
+  \frac{\partial^k \epsilon^\alpha}{\partial x^{\mu_1} \cdots \partial x^{\mu_k}}
+   \;=\;
+  \frac{\partial^k \epsilon^\alpha}{\partial x^{\mu_1} \cdots \partial x^{\mu_k}}((x^\mu))
+$$
+
+are the actual [[spacetime]] [[partial derivatives]] of the [[gauge parameter]] [[section]] (which are functions of spacetime).
 
 In particular, since $\mathcal{G} \overset{gb}{\to} \Sigma$ is assumed to be a [[vector bundle]], there always exists [[gauge parameter]] [[sections]] $\epsilon$ that have [[compact support]] ([[bump functions]]). For such compactly supported $\epsilon$ the infinitesimal symmetry $R(\epsilon)$ is
 spacetime-compactly supported as in prop. \ref{NonTrivialImplicitInfinitesimalGaugeSymmetriesPbstructExistenceOfCauchySurfaces}.
@@ -381,7 +389,7 @@ $$
   J^\infty_\Sigma(\mathcal{G} \times_\Sigma E) \overset{R}{\longrightarrow} T_\Sigma E
 $$
 
-a collection of [[infinitesimal gauge symmetries]] (def. \ref{GaugeParameters}) with local components (eq:CoordinateExpressionForGaugeParameterized)
+is a collection of [[infinitesimal gauge symmetries]] (def. \ref{GaugeParameters}) with local components (eq:CoordinateExpressionForGaugeParameterized)
 
 $$
   R
@@ -399,7 +407,7 @@ $$
 $$
 
 precisely if the [[Euler-Lagrange form]] $\delta_{EL}\mathbf{L}$ (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime})
-satisfies the following condition:
+satisfies the following conditions:
 
 $$
   \left(
@@ -443,7 +451,7 @@ $$
     \\
     & =
     \underset{k \in \mathbb{N}}{\sum}
-      c^\alpha_{\mu_1 \cdots \mu_k} R^{a \mu_1 \cdots \mu_k}_\alpha
+      c^\alpha_{,\mu_1 \cdots \mu_k} R^{a \mu_1 \cdots \mu_k}_\alpha
       \frac{\delta_{EL} \mathbf{L}}{\delta \phi^a}
     \\
     & =
