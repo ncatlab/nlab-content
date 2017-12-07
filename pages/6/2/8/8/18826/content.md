@@ -3,13 +3,12 @@
 ## Gauge symmetries
  {#GaugeSymmetries}
 
-An [[infinitesimal gauge symmetry]] of a [[Lagrangian field theory]] (def. \ref{GaugeParameters} below) is a [[infinitesimal symmetry of the Lagrangian]] which may be freely parameterized, hence "gauged", by a _[[gauge parameter]]_. A [[Lagrangian field theory]]
+An [[infinitesimal gauge symmetry]] of a [[Lagrangian field theory]] (def. \ref{GaugeParameters} below) is a [[infinitesimal symmetry of the Lagrangian]] which may be freely parameterized, hence "gauged", by a _[[gauge parameter]]_. A [[Lagrangian field theory]]t
 exhibiting these is also called a _[[gauge theory]]_.
 
 By choosing the [[gauge parameter]] to have [[compact support]], [[infinitesimal gauge symmetries]] in particular yield
 [[infinitesimal symmetries of the Lagrangian]] with compact spacetime support.
-One finds (prop. \ref{NonTrivialImplicitInfinitesimalGaugeSymmetriesPbstructExistenceOfCauchySurfaces} below)
-that the the existence of [[on-shell]] non-trivial symmetries of this form is an [[obstruction]] to  
+One finds (prop. \ref{NonTrivialImplicitInfinitesimalGaugeSymmetriesPbstructExistenceOfCauchySurfaces} below) that the existence of [[on-shell]] non-trivial symmetries of this form is an [[obstruction]] to  
 the existence of the [[covariant phase space]] of the theory (prop. \ref{CovariantPhaseSpace}).
 
 
@@ -501,7 +500,7 @@ As a corollary we obtain:
 ###### Proposition
 **([[conserved charge]] of [[infinitesimal gauge symmetry]] vanishes)**
 
-The [[conserved current]] 
+The [[conserved current]] (def. \ref{SymmetriesAndConservedCurrents})
 
 $$
   J_R
@@ -509,44 +508,77 @@ $$
   \Omega^{p,0}_\Sigma(E \times_\Sigma \mathcal{G})
 $$
 
-which corresponds to an [[infinitesimal gauge symmetry]] $R$ (def. \ref{GaugeParameters}) by [[Noether's theorem|Noether's first theorem]] (prop. \ref{NoethersFirstTheorem}) is up to a term which vanishes [[on-shell]]
+which corresponds to an [[infinitesimal gauge symmetry]] $R$ (def. \ref{GaugeParameters}) by [[Noether's theorem|Noether's first theorem]] (prop. \ref{NoethersFirstTheorem}), is up to a term which vanishes [[on-shell]] (eq:ProlongedShellInJetBundle)
 
 $$
   K \;\in\; \Omega^p_\Sigma(E \times_\Sigma \mathcal{G})
   \phantom{AA}\,,
-  \phantom{AAA}
+  \phantom{AA}
   K\vert_{\mathcal{E}^\infty} = 0
+  \,,
 $$
 
-not just [[on-shell]] conserved, but [[off-shell]] conserved, in that 
+not just [[on-shell]]-conserved, but [[off-shell]]-conserved, in that its [[total spacetime derivative]] vanishes identically:
 
 $$
-  d( J_R + K ) \;=\; 0
+  d( J_R - K ) \;=\; 0
+  \,.
 $$
 
-identically. 
-
-In the case that the [[field bundle]] as well as the [[gauge parameter]]-bundles are [[trivial vector bundles]] over [[Minkowski spacetime]] (example \ref{TrivialVectorBundleAsAFieldBundle}) then $J_R$ is horizontally exact [[on-shell]]
+Moreover, if the [[field bundle]] as well as the [[gauge parameter]]-bundles are [[trivial vector bundles]] over [[Minkowski spacetime]] (example \ref{TrivialVectorBundleAsAFieldBundle}) then $J_R$ is horizontally exact [[on-shell]] (eq:ProlongedShellInJetBundle)
 
 $$
   J_R \vert_{\mathcal{E}^\infty} = d(...)
   \,.
 $$
 
-In particular therefore the [[conserved charge]] (prop. \ref{ConservedCharge}) corresponding to an [[infinitesimal gauge symmetry]] vanishes on every [[codimension]] one [[submanifold]] $\Sigma_p \hookrightarrow \Sigma$ of [[spacetime]] (without [[manifold with boundary|without boundary]]).
+In particular the [[conserved charge]] (prop. \ref{ConservedCharge}) 
+
+$$
+  Q_R \;\coloneqq\; \tau_{\Sigma_p}(J_R)
+  \;\in\;
+  C^\infty\left( \Gamma_{\Sigma_p}(E)_{\delta_{EL}\mathbf{L} = 0} \right)
+$$
+
+corresponding to an [[infinitesimal gauge symmetry]] vanishes on every [[codimension]] one [[submanifold]] $\Sigma_p \hookrightarrow \Sigma$ of [[spacetime]] (without [[manifold with boundary|boundary]], $\partial \Sigma_p = \emptyset$):
+
+
+$$
+  Q_R = 0
+  \,.
+$$
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-Take $K$ to be as in (eq:NoetherIExpressionForInfinitesimalGaugeSymmetry):
+Take $K$ to be as in equation (eq:NoetherIExpressionForInfinitesimalGaugeSymmetry):
 
 $$
   d J_R = A + d K
+  \,.
 $$
 
-This vanishes [[on-shell]] by [[Noether's theorem|Noether's second theorem]] (prop. \ref{NoetherIdentities}).
+By the construction there, $K$ manifestly vanishes on the [[prolonged shell]] $\mathcal{E}^\infty$ (eq:ProlongedShellInJetBundle), being a sum of [[total spacetime derivatives]] of terms proportional to the components of the [[Euler-Lagrange form]].
+
+By [[Noether's theorem|Noether's second theorem]] (prop. \ref{NoetherIdentities}) we have $A = 0$ and hence 
+
+$$
+  d(J_R - K) = 0
+  \,.
+$$
+
+Now if the [[field bundle]] and [[gauge parameter]] bundle are trivial, then prop. \ref{HorizontalVariationalComplexOfTrivialFieldBundleIsExact} implies that 
+
+$$
+  J_R - K = d(...)
+  \,.
+$$
+
+By restricting this equation to the [[prolonged shell]] and using that $K\vert_{\mathcal{E}^\infty} = 0$, it follows that $ J_R \vert_{\mathcal{E}^\infty} = d(...)$.
+
+This implies $Q_R = 0$ by prop. \ref{PullbackAlongJetProlongationIntertwinesHorizontalDerivative} and [[Stokes' theorem]] (prop. \ref{StokesTheorem}).
 
 =--
 
@@ -936,12 +968,12 @@ $$
     \\
     {}^{\overset{(2)}{gb}}\downarrow  && \downarrow^{\mathrlap{pr_1}}
     \\
-    \Sigma &=&
+    \Sigma &=& \Sigma
   }
 $$
 
 be the [[trivial vector bundle|trivial]] [[real line bundle]]
-with coordinates $((x^\mu), \overset{(2)}{c})$, to be regarded as second order [[infinitesimal gauge-of-gauge symmetry]], then
+with coordinates $((x^\mu), \overset{(2)}{c})$, to be regarded as a second order [[infinitesimal gauge-of-gauge symmetry]], then
 
 $$
   \overset{(2)}{R}
@@ -1164,7 +1196,7 @@ a differential of degree $(1,even)$ on the [[Grassmann algebra]] $\wedge^\bullet
 
 We may state this equivalence in a more refined form: A [[homomorphism]] $\phi \;\colon\; \mathfrak{g} \longrightarrow \mathfrak{h}$
 between [[super vector space]] is, by degree-reasons, the same as a graded algebra homomorphism
-$\phi^\ast \;\colon\; \wedge^\\bullet \mathfrak{h}^\ast \longrightarrow \wedge^\bullet \mathfrak{g}^\ast$
+$\phi^\ast \;\colon\; \wedge^\bullet \mathfrak{h}^\ast \longrightarrow \wedge^\bullet \mathfrak{g}^\ast$
 and it is immediate to check that $\phi$ is a [[homomorphism]] of [[super Lie algebras]] precisely if
 $\phi^\ast$ is a homomorpism of differential algebras:
 
