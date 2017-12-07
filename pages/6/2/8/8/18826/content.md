@@ -70,7 +70,7 @@ The mathematical theory capturing these phenomena is the [[higher Lie theory]] o
 
 $\,$
 
-We now discuss these topics
+We now discuss these topics:
 
 * [Infinitesimal gauge symmetries](#InfinitesimalGauge)
 
@@ -81,11 +81,15 @@ We now discuss these topics
 
 $\,$
 
+**[[infinitesimal gauge symmetries]]**
+ {#InfinitesimalGauge}
+
+
 As an immediate corollary of prop. \ref{FlowAlongInfinitesimalSymmetryOfLagrangianPreservesOnShellSpaceOfFieldHistories} we have the following important observation:
 
 +-- {: .num_prop #NonTrivialImplicitInfinitesimalGaugeSymmetriesPbstructExistenceOfCauchySurfaces}
 ###### Proposition
-**(spacetime-compactly supported and [[on-shell]] non-trivial [[infinitesimal symmetries of the Lagrangian]] [[obstruction|obstruc]] the [[covariant phase space]])**
+**(spacetime-compactly supported and [[on-shell]] non-trivial [[infinitesimal symmetries of the Lagrangian]] [[obstruction|obstruct]] the [[covariant phase space]])**
 
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] over a [[Lorentzian manifold|Lorentzian]] [[spacetime]].
 
@@ -202,12 +206,11 @@ are called the _trivial infinitesimal gauge transformations_.
 $\,$
 
 
-**[[infinitesimal gauge symmetries]]**
- {#InfinitesimalGauge}
 
 Prop. \ref{NonTrivialImplicitInfinitesimalGaugeSymmetriesPbstructExistenceOfCauchySurfaces} says that  the problem is to identify the presence of spacetime-compactly supported infinitesimal symmetries that are on-shell non-trivial.
+One way they may be identified is if [[infinitesimal symmetries]] appear in _linearly [[dependent type|parameterized collections]]_, where the parameter itself is an _arbitrary_ [[spacetime]]-dependent [[section]] of some [[fiber bundle]] (hence is itself like a [[field history]]), because then choosing the parameter to have [[compact support]] yields an [[infinitesimal symmetry of the Lagrangian]] with compact spacetime support (remark \ref{GaugeParametrizedInfinitesimalGaugeTransformation} below). 
 
-One way they may be identified is if [[infinitesimal symmetries]] appear in _linearly [[dependent type|parameterized collections]]_, where the parameter itself is an _arbitrary_ [[spacetime]]-dependent [[section]] of some [[fiber bundle]] (hence is itself like a [[field history]]), because then choosing the parameter to have [[compact support]] yields an [[infinitesimal gauge symmetry]]. In this case we speak of a _[[gauge parameter]]_ (def. \ref{GaugeParameters} below). It turns out that in most examples of [[Lagrangian field theories]] of interest, the [[infinitesimal gauge symmetries]] all come from [[gauge parameters]] this way, and often "[[gauge symmetry]]" is undertood by default to refer to this case. Therefore we now consider this case in detail.
+In this case we speak of a _[[gauge parameter]]_ (def. \ref{GaugeParameters} below). It turns out that in most examples of [[Lagrangian field theories]] of interest, the compactly supported infinitesimal symmetries all come from [[gauge parameters]] this way. Therefore we now consider this case in detail.
 
 
 +-- {: .num_defn #GaugeParameters}
