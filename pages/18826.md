@@ -383,7 +383,7 @@ The following is a way to identify [[infinitesimal gauge symmetries]]:
 
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) and let $\mathcal{G} \overset{gb}{\to} \Sigma$ be a [[vector bundle]].
 
-The a [[bundle morphism]] of the form
+Then a [[bundle morphism]] of the form
 
 $$
   J^\infty_\Sigma(\mathcal{G} \times_\Sigma E) \overset{R}{\longrightarrow} T_\Sigma E
@@ -444,6 +444,7 @@ $$
 From (eq:CoordinateExpressionForGaugeParameterized) this means that
 
 $$
+  \label{NoetherIExpressionForInfinitesimalGaugeSymmetry}
   \begin{aligned}
     d J_{\hat R}
     & =
@@ -465,9 +466,7 @@ $$
     }
     }
     +
-    d \left(
-      ...
-    \right)
+    d K
     \,,
   \end{aligned}
 $$
@@ -493,6 +492,61 @@ Therefore the term on the left is horizontally exact precisely if it vanishes, w
 
 Alternatively we may reach this conclusion from (eq:NoetherIdentityTermIsHorizontallyExact) by applying to both sides of (eq:NoetherIdentityTermIsHorizontallyExact) the [[Euler-Lagrange derivative]] (eq:EulerLagrangeEquationGeneral) _with respect to $c^\alpha$_. On the left this yields again the coefficients of $c^\alpha$,
 while by the argument from example \ref{TrivialLagrangianDensities} it makes the right hand side vanish.
+
+=--
+
+As a corollary we obtain:
+
++-- {: .num_prop #ConservedChargeOfInfinitesimalGaugeSymmetryVanishes}
+###### Proposition
+**([[conserved charge]] of [[infinitesimal gauge symmetry]] vanishes)**
+
+The [[conserved current]] 
+
+$$
+  J_R
+  \;\in\;
+  \Omega^{p,0}_\Sigma(E \times_\Sigma \mathcal{G})
+$$
+
+which corresponds to an [[infinitesimal gauge symmetry]] $R$ (def. \ref{GaugeParameters}) by [[Noether's theorem|Noether's first theorem]] (prop. \ref{NoethersFirstTheorem}) is up to a term which vanishes [[on-shell]]
+
+$$
+  K \;\in\; \Omega^p_\Sigma(E \times_\Sigma \mathcal{G})
+  \phantom{AA}\,,
+  \phantom{AAA}
+  K\vert_{\mathcal{E}^\infty} = 0
+$$
+
+not just [[on-shell]] conserved, but [[off-shell]] conserved, in that 
+
+$$
+  d( J_R + K ) \;=\; 0
+$$
+
+identically. 
+
+In the case that the [[field bundle]] as well as the [[gauge parameter]]-bundles are [[trivial vector bundles]] over [[Minkowski spacetime]] (example \ref{TrivialVectorBundleAsAFieldBundle}) then $J_R$ is horizontally exact [[on-shell]]
+
+$$
+  J_R \vert_{\mathcal{E}^\infty} = d(...)
+  \,.
+$$
+
+In particular therefore the [[conserved charge]] (prop. \ref{ConservedCharge}) corresponding to an [[infinitesimal gauge symmetry]] vanishes on every [[codimension]] one [[submanifold]] $\Sigma_p \hookrightarrow \Sigma$ of [[spacetime]] (without [[manifold with boundary|without boundary]]).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Take $K$ to be as in (eq:NoetherIExpressionForInfinitesimalGaugeSymmetry):
+
+$$
+  d J_R = A + d K
+$$
+
+This vanishes [[on-shell]] by [[Noether's theorem|Noether's second theorem]] (prop. \ref{NoetherIdentities}).
 
 =--
 
