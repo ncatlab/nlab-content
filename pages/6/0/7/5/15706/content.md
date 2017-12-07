@@ -23,12 +23,12 @@
 
 Under this analogy, the [[3-sphere]], $S^3$ corresponds to the ring of [[rational numbers]] $\mathbb{Q}$, or rather (the closure of) $spec(\mathcal{O}_{\mathbb{Q}})$ (i.e., $spec(\mathbb{Z})$), since the 3-sphere has no non-trivial ([[branched cover|unbranched]]) covers while $\mathbb{Q}$ has no non-trivial [[unramified extensions]]. The [[linking number]] between two embedded knots in the 3-sphere then corresponds to the [[Legendre symbol]] between two primes in the ordinary integers.
 
-The so-called _MKR dictionary_ (Mazur-Kapranov-Reznikov) relates terms from each side of the analogy (see sec 2.2 of [Sikora](#Sikora)).
+The so-called _M^2KR dictionary_ (Mazur-Morishita-Kapranov-Reznikov) relates terms from each side of the analogy (see sec 2.2 of [Sikora](#Sikora)).
 
 ## The dictionary
 
-### Version of Mazur-Kapranov-Reznikov (MKR)
- {#VersionOfMKR}
+### Version of Mazur-Morishita-Kapranov-Reznikov (M^2KR)
+ {#VersionOfM^2KR}
  
 1. [[closed manifold|Closed]], [[orientation|orientable]], [[connected topological space|connected]] [[3-manifolds]] correspond to (the closure of) schemes $Spec \mathcal{O}_K$ for number fields $K$.
 1. Links correspond to ideals in $\mathcal{O}_K$ and knots correspond to prime ideals (tame in both cases). Knots can be represented by immersions of $S^1$ into $M$, and prime ideals in $\mathcal{O}_K$ can be identified with closed immersions $Spec \mathbb{F} \to Spec \mathcal{O}_K$, where $\mathbb{F}$'s are finite fields. Each link decomposes uniquely as a union of knots and each ideal decomposes uniquely as a product of primes.
@@ -54,7 +54,7 @@ The correspondence between $\pi^{et}_1(\mathbb{Z} -\{p\})$ and $\pi_1(S^3 \setmi
 
 ### Version of Deninger
 
-Similar to MKR, but with the introduction of a 2-dimensional foliation on the 3-manifold and a flow such that finite primes $p$ correspond to periodic orbits of length $log N p$ and the infinite primes correspond to the fixed points of the flow ([Deninger02](#Deninger02)). (See also the work of [Baptiste Morin](http://www.math.uni-muenster.de/reine/u/baptiste.morin/) on the Weil-&#233;tale topos.)
+Similar to M^2KR, but with the introduction of a 2-dimensional foliation on the 3-manifold and a flow such that finite primes $p$ correspond to periodic orbits of length $log N p$ and the infinite primes correspond to the fixed points of the flow ([Deninger02](#Deninger02)). (See also the work of [Baptiste Morin](http://www.math.uni-muenster.de/reine/u/baptiste.morin/) on the Weil-&#233;tale topos.)
 
 ### Version of Reznikov
  {#ReznikovVariant}
