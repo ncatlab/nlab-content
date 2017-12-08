@@ -79,7 +79,7 @@ $$
   \array{
     \mathfrak{g} \times X && \overset{R}{\longrightarrow} && T X
     \\
-    & \searrow && \swarrow
+    & {}_{\mathllap{pr_2}}\searrow && \swarrow_{\mathrlap{rb}}
     \\
     && X
   }
@@ -93,7 +93,7 @@ $$
     X &&& CE(X) &=& C^\infty(X) &\oplus& 0
     \\
     \downarrow^{\mathrlap{p}} 
-      &\phantom{A}&& 
+      &\phantom{AAA}&& 
     \uparrow^{\mathrlap{p^\ast}}
       && 
     \uparrow^{\mathrlap{id}} && \uparrow^{\mathrlap{0}}
@@ -128,18 +128,14 @@ In terms of the canonical [[homotopy quotient]] [[coprojection]] map $p$ (eq:Pro
 
 $$
   \array{
-    X &\overset{f}{\longrightarrow}& \mathbb{R}^1
+    X &\overset{S}{\longrightarrow}& \mathbb{R}^1
     \\
-    \downarrow 
+    {}^{\mathllap{p}}\downarrow 
       & 
     \nearrow_{ 
       \mathrlap{ 
-        \array{ 
-          \text{exists precisely if} 
-          \\ 
-          S \, \text{is invariant} 
-        } 
-       } 
+          \text{exists precisely if} \; S \; \text{is invariant} 
+      } 
      }
     \\
     X/\mathfrak{g}
@@ -219,22 +215,38 @@ on $Der(CE(\mathfrak{a}))$ being the graded [[commutator]] with the differential
 
 $$
   \array{
-    d_{CE(T^\ast \mathfrak{a})} &\vert_{\mathfrak{a}^\ast}& \coloneqq & d_{CE(\mathfrak{a})}
+    \mathllap{ d_{CE(T^\ast \mathfrak{a})} }
+      &\mathrlap{ \vert_{\mathfrak{a}^\ast} }& 
+      &
+    \coloneqq & d_{CE(\mathfrak{a})}
   \\
-  d_{CE(T^\ast \mathfrak{a})} &\vert_{Der(\mathfrak{a})} & \coloneqq & [d_{CE(\mathfrak{a})},-]
+  \mathllap{ d_{CE(T^\ast \mathfrak{a})} }
+     & \mathrlap{ \vert_{Der(\mathfrak{a})} } & 
+     \phantom{ \vert_{Der(\mathfrak{a})} }
+     &
+   \coloneqq & [d_{CE(\mathfrak{a})},-]
   }
 $$
 
-There is a canonical homomorphism of Lie algebroids (def. \ref{HomomorphismBetweenLieAlgebroids})
+Just as for ordinary [[cotangent bundles]] (def. \ref{Differential1FormsOnCartesianSpaces}) there is a canonical homomorphism of Lie algebroids (def. \ref{HomomorphismBetweenLieAlgebroids}) from the infinitesimal cotangent Lie algebroid down to the base Lie algebroid:
 
 $$
   \label{CotangentLieAlgebrpoidProjection}
   \array{
     T^\ast \mathfrak{a} 
+       &\phantom{AAA}&& 
+    CE(T^\ast \mathfrak{g})
+     &=&
+    CE(\mathfrak{a}) 
+      &\oplus& 
+    \wedge^{\bullet \geq 1}_{CE(\mathfrak{a})} Der(\mathfrak{a})
     \\
-    \downarrow
+    \downarrow^{\mathrlap{cb}} &&& \uparrow^{\mathrlap{cb^\ast}}
+      && \uparrow^{\mathrlap{id}} && \uparrow^{\mathrlap{0}}
     \\
-    \mathfrak{a}
+    \mathfrak{a} 
+      &&& 
+    CE(\mathfrak{a}) &=& CE(\mathfrak{a}) &\oplus& 0
   }
 $$
 
@@ -419,7 +431,7 @@ $$
   \array{
     && T^\ast \mathfrak{a}
     \\
-    & {}^{\mathllap{d S}}\nearrow & \downarrow
+    & {}^{\mathllap{d S}}\nearrow & \downarrow^{\mathrlap{cb}}
     \\
     \mathfrak{a}
     &=&
@@ -541,7 +553,7 @@ This shows that the differentials are being respected.
 
 =--
 
-Next we describe the [[vanishing locus]] of $d S$, hence the [[critical locus]] of $S$. Notice if $d S$ is regarded as an ordinary [[differential 1-form]] on an ordinary [[smooth manifold]] $X$, then its [[vanishing locus]] 
+Next we describe the [[vanishing locus]] of $d S$, hence the [[critical locus]] of $S$. Notice that if $d S$ is regarded as an ordinary [[differential 1-form]] on an ordinary [[smooth manifold]] $X$, then its ordinary [[vanishing locus]] 
 
 $$
   X_{d S = 0}
@@ -557,7 +569,7 @@ is simply the [[fiber product]] of $d S$ with the [[zero section]] of the [[cota
 $$
   \array{
     X_{d S = 0}
-      &\longrightarrow&
+      &\overset{\phantom{AAA}}{\hookrightarrow}&
     X
     \\
     \downarrow && \downarrow^{\mathrlap{0}}
@@ -567,7 +579,9 @@ $$
   \,.
 $$
 
-In this [[category theory|general abstract]] form the concept of [[critical locus]] generalizes to [[invariant]] functions on [[super L-infinity algebra|super]] [[Lie algebroids]], where the vanishing of $d S$ is regarded only  _up to [[homotopy]]_, namely up to [[infinitesimal symmetry]] transformations by the [[Lie algebra]] $\mathfrak{g}$. In this [[homotopy theory|homotopy-theoretic]] refinement we speak of the _[[derived critical locus]]_. The following definition simply states what this comes down to in components. For technical detail see at _[[derived critical locus]]_ and for general introduction to [[higher differential geometry]] and [[higher Lie theory]] see at _[[schreiber:Higher Structures|Higher structures in Physics]]_.
+This is just the [[category theory|general abstract]] way to express the [[equation]] $d S = 0$.
+
+In this [[category theory|general abstract]] form the concept of [[critical locus]] generalizes to [[invariant]] functions on [[super L-infinity algebra|super]] [[Lie algebroids]], where the vanishing of $d S$ is regarded only  _up to [[homotopy]]_, namely up to [[infinitesimal symmetry]] transformations by the [[Lie algebra]] $\mathfrak{g}$. In this [[homotopy theory|homotopy-theoretic]] refinement we speak of the _[[derived critical locus]]_. The following definition simply states what this comes down to in components. For a detailed derivation see at _[[derived critical locus]]_ and for general introduction to [[higher differential geometry]] and [[higher Lie theory]] see at _[[schreiber:Higher Structures|Higher structures in Physics]]_.
 
 +-- {: .num_defn #DerivedCriticalLocusOfGaugeInvariantFunctionOnLieAlgebroid}
 ###### Definition
@@ -587,7 +601,7 @@ $$
   \array{
     \mathfrak{a} && \overset{d S}{\longrightarrow} && T^\ast \mathfrak{a}
     \\
-    & {}_{\mathllap{id}}\searrow && \swarrow
+    & {}_{\mathllap{id}}\searrow && \swarrow_{\mathrlap{cb}}
     \\
     && \mathfrak{a}
   }
@@ -620,14 +634,29 @@ This means equivalently (details are at _[[derived critical locus]]_) that the C
 
 =--
 
+We make this explicit in our running example; the reader not concerned with the general idea of [[homotopy pullbacks]] may consider just the following explicit expressions:
+
 +-- {: .num_example #ArchetypeOfBVBRSTComplex}
 ###### Example
 **([[derived critical locus]] inside [[action Lie algebroid]])**
 
-Consider an [[invariant]] function $S \;\colon\; X/\mathfrak{g} \to \mathbb{R}$ (def. \ref{GaugeInvariantFunctionsIntermsOfLieAlgebroids})
+Consider an [[invariant]] function (def. \ref{GaugeInvariantFunctionsIntermsOfLieAlgebroids})
 on an [[action Lie algebroid]] (def. \ref{ActionLieAlgebroid})
-for the case that the underlying manifold is a [[super Cartesian space]] (def. \ref{SuperCartesianSpace}) with global [[coordinates]] as in example \ref{CotangentBundleOfActionLieAlgebroid}. Then the generators of the [[derived critical locus]] $(X/\mathfrak{g})_{d S \simeq 0}$ (def. \ref{DerivedCriticalLocusOfGaugeInvariantFunctionOnLieAlgebroid})
-are as in (eq:GeneratorsOfDerivedCriticalLocusInActionLieAlgebroid), except for the degree shift:
+
+
+$$
+  S \;\colon\; X/\mathfrak{g} \overset{\phantom{AAA}}{\longrightarrow} \mathbb{R}
+$$ 
+
+for the case that the underlying [[supermanifold]] $X$ is a [[super Cartesian space]] (def. \ref{SuperCartesianSpace}) with global [[coordinates]] $(\phi^a)$ as in example \ref{CotangentBundleOfActionLieAlgebroid}. Then the [[derived critical locus]] (def. \ref{DerivedCriticalLocusOfGaugeInvariantFunctionOnLieAlgebroid})
+
+$$
+  (X/\mathfrak{g})_{d S \simeq 0}
+$$ 
+
+is, in terms of its [[Chevalley-Eilenberg algebra]] $CE\left(  (X/\mathfrak{g})_{d S \simeq 0} \right)$ (def. \ref{LInfinityAlgebroid}) given as follows:
+
+Its generators are those of $CE\left( T^\ast(X/\mathfrak{g}) \right)$ as in (eq:GeneratorsOfDerivedCriticalLocusInActionLieAlgebroid), except for a shift of degree of the [[derivation]]-generators down by one:
 
 $$
   \array{
@@ -659,7 +688,7 @@ $$
   }
 $$
 
-and the CE-differential is given by
+Moreover, on these generators the CE-differential is given by
 
 $$
   \label{ExplitiCEDifferentialInCotangentBundleOfActionLieAlgebroid}
@@ -693,13 +722,11 @@ $$
   }
 $$
 
-which is just like the differential (eq:CEDifferentialOnGeneratorsForInfinitesimalCotangentBundleOfActionLieAlgebroid) of the cotangent Lie algebroid from example \ref{CotangentBundleOfActionLieAlgebroid}, except for 
-
-1. the degree-shift by -1 of the derivation generators 
-
-1. the crucial new term indicated by the underbrace.
+which is just the expression for the differential (eq:CEDifferentialOnGeneratorsForInfinitesimalCotangentBundleOfActionLieAlgebroid) in $CE\left( T^\ast(X/\mathfrak{g}) \right)$  from example \ref{CotangentBundleOfActionLieAlgebroid}, except for  the new term $\frac{\partial S}{\partial \phi^a}$ over the brace.
 
 =--
+
+Since the infinitesimal cotangent Lie algebroid $T^\ast \mathfrak{a}$ has function algebra given by tensor products of [[tangent vector fields]]/[[derivations]], we expect that a graded analogue of the [[Lie bracket]] of ordinary [[tangent vector fields]] exists on the [[Chevalley-Eilenberg algebra]] $CE\left( T^\ast \mathfrak{a}\right)$. This is indeed the case, and crucial for the theory:
 
 +-- {: .num_defn #SchoutenBracketAndAntibracket}
 ###### Definition
@@ -776,14 +803,13 @@ The great power of the [[Schouten bracket]]/[[antibracket]] rests in the fact th
 
 Let $(X/\mathfrak{g})_{d S \simeq 0}$ be a [[derived critical locus]] inside an [[action Lie algebroid]] as in example \ref{ArchetypeOfBVBRSTComplex}. 
 
-Then the CE-differential (eq:ExplitiCEDifferentialInCotangentBundleOfActionLieAlgebroid) of the [[derived critical locus]] $X/\mathfrak{g}\vert_{S \simeq 0}$ is simply the [[Schouten bracket]]/[[antibracket]] (def. \ref{SchoutenBracketAndAntibracket}) with the [[sum]] of the the CE-differential of $X/\mathfrak{g}$ with the function $S$:
+Then the CE-differential (eq:ExplitiCEDifferentialInCotangentBundleOfActionLieAlgebroid) of the [[derived critical locus]] $X/\mathfrak{g}\vert_{S \simeq 0}$ is simply the [[Schouten bracket]]/[[antibracket]] (def. \ref{SchoutenBracketAndAntibracket}) with the [[sum]] of the CE-differential of $X/\mathfrak{g}$ and the function $-S$:
 
 $$
   d_{CE\left( (X/\mathfrak{g})_{d S \simeq 0} \right) }(-)
   \;=\;
-  -
   \left\{
-    S - d_{CE(X/\mathfrak{g})}
+    - S + d_{CE(X/\mathfrak{g})}
     \,,\,
     (-)
   \right\}
@@ -795,10 +821,9 @@ In coordinates, using the expression for $d_{CE(X/\mathfrak{g})}$ from (eq:Diffe
 $$
   d_{CE\left( (X/\mathfrak{g})_{d S \simeq 0} \right)}(-)
   \;=\;
-  -
   \left\{
-     S 
-      -
+     - S 
+     +
      c^\alpha R_\alpha^a \phi^\ddagger_a
       -
      \tfrac{1}{2}\gamma^\alpha{}_{\beta \gamma} c^\beta c^\gamma 
@@ -820,10 +845,9 @@ for $\phi^a$:
 
 $$
   \begin{aligned}
-  -
   \left\{
-     S 
-      -
+     - S 
+     +
      c^\alpha R_\alpha^{a'} \phi^\ddagger_{a'}
       -
      \tfrac{1}{2}\gamma^\alpha{}_{\beta \gamma} c^\beta c^\gamma 
@@ -858,10 +882,9 @@ for $c^\alpha$:
 
 $$
   \begin{aligned}
-  -
   \left\{
-     S 
-      -
+     - S 
+     +
      c^\alpha R_\alpha^{a} \phi^\ddagger_{a}
       -
      \tfrac{1}{2}\gamma^{\alpha'}{}_{\beta \gamma} c^\beta c^\gamma 
@@ -900,10 +923,9 @@ for $\phi^\ddagger_a$:
 
 $$
   \begin{aligned}
-  -
   \left\{
-     S 
-      -
+     - S 
+     +
      c^\alpha R_\alpha^{a'} \phi^\ddagger_{a'}
       -
      \tfrac{1}{2}\gamma^{\alpha}{}_{\beta \gamma} c^\beta c^\gamma 
@@ -953,10 +975,9 @@ for $c^\ddagger_\alpha$:
 
 $$
   \begin{aligned}
-  -
   \left\{
-     S 
-      -
+     - S 
+     +
      c^{\alpha'} R_{\alpha'}^{a} \phi^\ddagger_{a}
       -
      \tfrac{1}{2}\gamma^{\alpha'}{}_{\beta \gamma} c^\beta c^\gamma 
@@ -1211,7 +1232,7 @@ $$
   \array{
     && T^\ast_\Sigma\left( E/(\mathcal{G} \times_\Sigma T \Sigma) \right)
     \\
-    & {}^{\mathllap{ \delta_{EL} \mathbf{L} }}\nearrow & \downarrow
+    & {}^{\mathllap{ \delta_{EL} \mathbf{L} }}\nearrow & \downarrow^{\mathrlap{cb}}
     \\
     E/(\mathcal{G} \times_\Sigma T \Sigma)
     &=&
