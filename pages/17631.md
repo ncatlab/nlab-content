@@ -8,7 +8,6 @@ A Catalan number $C_n$ describes a number of matching pairs of $n$ parentheses p
 ## Related concepts
 
 * [[associahedron]]
-* [[Cayley-Dickson construction]]
 
 ## References
 
