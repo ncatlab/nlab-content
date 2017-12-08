@@ -28,11 +28,12 @@ A _global field_ is either
 
 hence is a [[finite number|finite]]-[[dimension|dimensional]] [[field extension]] of either
 
-* the [[rational functions]] $\mathbb{F}_q(t)$ with [[coefficients]] in the [[finite field]] $\mathbb{F}_q$;
+* the [[rational numbers]] $\mathbb{Q}$;
 
-* the [[rational numbers]] $\mathbb{Q}$.
+* the [[rational functions]] $\mathbb{F}_q(t)$ with [[coefficients]] in the [[finite field]] $\mathbb{F}_q$.
 
-The [[function field analogy]] says how both these kinds of global fields are indeed analogous in that they behave have as rings of [[rational functions]] on [[arithmetic curves]] over $\mathbb{F}_q$ and "over [[F1]]", respectively. In particular for both types there is a concept of [[ring of adeles]], [[group of ideles]], etc.
+
+The [[function field analogy]] says how both these kinds of global fields are indeed analogous in that they behave as rings of [[rational functions]] on "[[arithmetic curves]] over the would-be [[field with one element]] $\mathbb{F}_1$" and $\mathbb{F}_q$, respectively. In particular for both types there is a concept of [[ring of adeles]], [[group of ideles]], etc.
 
 The [[Langlands conjectures]] concern the [[arithmetic geometry]] of global fields.
 
