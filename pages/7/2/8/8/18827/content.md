@@ -21,17 +21,18 @@ The key to understanding the "derived reduced prolonged shell", and hence the [[
 
 $\,$
 
-We now discuss these topics
+We now discuss these topics:
 
-* [Derived critical locus inside Lie algebroids](#DerivedCriticalLocusInsideLieAlgebroids)
+* [Derived critical loci inside Lie algebroids](#DerivedCriticalLocusInsideLieAlgebroids)
 
-* [Derived critical locus in jet bundle -- the Local BV-BRST complex](#DerivedCriticalLocusOnJetBundle)
+* [Derived critical loci in jet bundles -- the Local BV-BRST complex](#DerivedCriticalLocusOnJetBundle)
 
 $\,$
 
-**([[derived critical loci]] inside [[Lie algebroids]])**
+**[[derived critical loci]] inside [[Lie algebroids]]**
  {#DerivedCriticalLocusInsideLieAlgebroids}
 
+By analogy with the algebraic formulation of [[smooth functions]] between [[Cartesian spaces]] (the [[embedding of smooth manifolds into formal duals of R-algebras|embedding of Cartesian spaces into formal duals of R-algebras]], prop. \ref{AlgebraicFactsOfDifferentialGeometry}) it is clear how to define a map ([[homomorphism]]) between [[Lie algebroids]]: 
 
 +-- {: .num_defn #HomomorphismBetweenLieAlgebroids}
 ###### Definition
@@ -212,17 +213,16 @@ $$
 $$
 
 with [[differential]] on the summand $\mathfrak{a}$ being the original differential and
-on $Der(CE(\mathfrak{a}))$ being the [[commutator]] with the differential $d_{CE(\mathfrak{a})}$ on $CE(\mathfrak{a})$
+on $Der(CE(\mathfrak{a}))$ being the graded [[commutator]] with the differential $d_{CE(\mathfrak{a})}$ on $CE(\mathfrak{a})$
 (which is itself a graded derivation of degree +1):
 
 
 $$
-  d_{CE(T^\ast \mathfrak{a})}\vert_{\mathfrak{a}^\ast} \;\coloneqq\; d_{CE(\mathfrak{a})}
-$$
-
-$$
-  d_{CE(T^\ast \mathfrak{a})}\vert_{Der(\mathfrak{a})} \;\coloneqq\; [d_{CE(\mathfrak{a})},-]
-  \,.
+  \array{
+    d_{CE(T^\ast \mathfrak{a})} &\vert_{\mathfrak{a}^\ast}& \coloneqq & d_{CE(\mathfrak{a})}
+  \\
+  d_{CE(T^\ast \mathfrak{a})} &\vert_{Der(\mathfrak{a})} & \coloneqq & [d_{CE(\mathfrak{a})},-]
+  }
 $$
 
 There is a canonical homomorphism of Lie algebroids (def. \ref{HomomorphismBetweenLieAlgebroids})
@@ -247,39 +247,19 @@ given dually by the identity on the original generators.
 ###### Example
 **([[automorphism ∞-Lie algebra|infinitesimal cotangent bundle]] of [[action Lie algebroid]])**
 
-Let $X/\mathfrak{g}$ be an [[action Lie algebroid]] (def. \ref{ActionLieAlgebroid})
-where
-
-* $X = \mathbb{R}^n$ is a [[super Cartesian space]] (def. \ref{SuperCartesianSpace}) with [[coordinates]] $(\phi^a)$;
-
-* $\mathfrak{g}$ is a [[super Lie algebra]] with [[linear basis]] $(c_\alpha)$
-  and corresponding structure constants $(\gamma^{\alpha}{}_{\beta \gamma})$ (as in prop. \ref{LieAlgebraInTermsOfChevalleyEilenbergAlgebra}), so that its [[Chevalley-Eilenberg algebra|Chevalley-Eilenberg differential]] is given by
-
-  $$
-    d_{CE} c^\alpha = \tfrac{1}{2}\gamma^\alpha{}_{\beta \gamma} c^\beta c^\gamma
-    \,,
-  $$
-
-* the infinitesimal [[action]] (def. \ref{InfinitesimalActionByLieAlgebra}) is given in components by
-
-  $$
-    d_{CE} \;\phi^a\; = R^a_\alpha c^\alpha
-  $$
-
-  for smooth functions $R^a_\alpha$ on $X$.
-
-So that in total
+Let $X/\mathfrak{g}$ be an [[action Lie algebroid]] (def. \ref{ActionLieAlgebroid}) whose [[Chevalley-Eilenberg differential]] is given in local coordinates by (eq:DifferentialOnActionLieAlgebroid)
 
 $$
   d_{CE(X/\mathfrak{g})}
   \;=\;
   \tfrac{1}{2}\gamma^\alpha{}_{\beta \gamma} c^\beta c^\gamma \frac{\partial}{\partial c^\alpha}
   +
-  R_a^\alpha c^\alpha \frac{\partial}{\partial \phi^a}
+  c^\alpha R_a^\alpha  \frac{\partial}{\partial \phi^a}
+  \,.
 $$
 
-Then the infinitesimal cotangent Lie algebroid $T^\ast (X/\mathfrak{g})$ (def. \ref{LieAlgebroidInfinitesimalCotangentBundle})
-has as underlying cochain complex the generators
+Then its infinitesimal cotangent Lie algebroid $T^\ast (X/\mathfrak{g})$ (def. \ref{LieAlgebroidInfinitesimalCotangentBundle})
+has the generators
 
 
 $$
@@ -309,13 +289,11 @@ $$
     &
     +1
   }
-  \,.
 $$
 
-The CE-differential on the new derivation generators is given by
+and we find that CE-differential on the new derivation generators is given by
 
-$$
-  \label{CotangentLieAlgebroidDifferentialForActionLieAlgebroidOnGhostFieldCoordinates}
+$$  \label{CotangentLieAlgebroidDifferentialForActionLieAlgebroidOnGhostFieldCoordinates}
   \begin{aligned}
     d_{CE(T^\ast(X/\mathfrak{g}))}
     \left(
@@ -352,23 +330,24 @@ $$
   \,.
 $$
 
-To ease the notation one abbreviates
+To amplify that the [[derivations]] _on_ $CE(X/\mathfrak{g})$, such as $\frac{\partial}{\partial \phi^a}$ and $\frac{\partial}{\partial c^\alpha}$, are now [[coordinate functions]] _in_ $CE(T^\ast(X/\mathfrak{g}))$ one writes them as 
 
 $$
   \label{AntiNotationForDerivations}
-  \overline{\phi}_a \;\coloneqq\; \frac{\partial}{\partial \phi^a}
+  \phi^\ddagger_a \;\coloneqq\; \frac{\partial}{\partial \phi^a}
   \phantom{AAAAA}
-  \overline{c}_\alpha \;\coloneqq\; \frac{\partial}{\partial c^\alpha}
+  c\ddagger_\alpha \;\coloneqq\; \frac{\partial}{\partial c^\alpha}
+  \,.
 $$
 
-so that the generator content then reads
+so that the generator content then reads as follows:
 
 $$
   \label{GeneratorsOfDerivedCriticalLocusInActionLieAlgebroid}
   \array{
     &
     \left(
-      \overline{c}_\alpha
+      c^\ddagger_\alpha
     \right)
     &
       \left(
@@ -376,7 +355,7 @@ $$
       \right)
       ,
       \left(
-        \overline{\phi}_a
+        \phi^\ddagger_a
       \right)
     &
     \left(
@@ -394,7 +373,7 @@ $$
   \,.
 $$
 
-In this notation the full action of the CE-differential is therefore the following:
+In this notation the full action of the CE-differential for $T^\ast(X/\mathfrak{g})$ is therefore the following:
 
 $$
   \label{CEDifferentialOnGeneratorsForInfinitesimalCotangentBundleOfActionLieAlgebroid}
@@ -409,21 +388,22 @@ $$
       & \mapsto&
     \tfrac{1}{2} \gamma^\alpha{}_{\beta \gamma} c^\beta c^\gamma
     \\
-    \overline{\phi}_a
+    \phi^\ddagger_a
       &\mapsto&
-    c^\alpha \frac{\partial R_\alpha^b}{\partial \phi^a} \overline{\phi}_b
+    c^\alpha \frac{\partial R_\alpha^b}{\partial \phi^a} \phi^\ddagger_b
     \\
-    \overline{c}_\alpha
+    c^\ddagger_\alpha
       &\mapsto&
-    R_\alpha^a  \overline{\phi}_a
+    R_\alpha^a  \phi^\ddagger_a
       +
-    \gamma^\beta{}_{\alpha \gamma} c^\gamma \overline{c}_\beta
+    \gamma^\beta{}_{\alpha \gamma} c^\gamma c^\ddagger_\beta
   }
 $$
 
 
 =--
 
+With a concept of [[cotangent bundles]] for [[Lie algebroids]] in hand, we want to see next that their [[sections]] are [[differential 1-forms]] on a [[Lie algebroid]] in an appropriate sense:
 
 +-- {: .num_prop #ExteriorDifferentialOfGaugeInvariantFunctionIsSectionOfInfinitesimalCotangentLieAlgebroid}
 ###### Proposition
@@ -447,13 +427,13 @@ $$
   \,,
 $$
 
-given dually
+given dually by the [[homomorphism]] of [[differential graded-commutative superalgebras]]
 
 $$
   (d S)^\ast \;\colon\; CE(T^\ast \mathfrak{a}) \longrightarrow CE(\mathfrak{a})
 $$
 
-by the map which sends
+which sends
 
 1. the generators in $\mathfrak{a}^\ast$ to themselves;
 
@@ -468,16 +448,16 @@ by the map which sends
 +-- {: .proof}
 ###### Proof
 
-We discuss the proof in the special case of example \ref{CotangentBundleOfActionLieAlgebroid}.
-The general case is directly analogous.
+We discuss the proof in the special case that $\mathfrak{a} = X/\mathfrak{g}$ is an [[action Lie algebroid]] (def. \ref{ActionLieAlgebroid}) hence where $T^\ast(\mathfrak{a}) = T^\ast(X/\mathfrak{g})$ is as in example \ref{CotangentBundleOfActionLieAlgebroid}. The general case is directly analogous.
 
-We need to check that $(d S)^\ast$ respects the CE-differentials.
+Since $(d S)^\ast$ has been defined on generators, it is uniquely a homomorphism of graded algebras.
+It is clear that if $(d S)^\ast$ is indeed a [[homomorphism]] of [[differential graded-commutative superalgebras]] in that it also respects the CE-differentials, then it yields a section as claimed, because by definition it is the identity on $\mathfrak{a}^\ast$. 
+Hence all we need to check is that $(d S)^\ast$ indeed respects the CE-differentials.
 
-On the original generators in
-$\mathfrak{a}^\ast$ this is immediate, since on these the CE-differential on both sides
+On the original generators in $\mathfrak{a}^\ast$ this is immediate, since on these the CE-differential on both sides
 are by definition the same.
 
-On the derivation $\frac{\partial}{ \partial \phi^a}$ we find from (eq:CotangentLieAlgebroidDifferentialForActionLieAlgebroidOnFieldCoordinates)
+On the derivation $\phi^\ddagger_a \coloneqq \frac{\partial}{ \partial \phi^a}$ we find from (eq:CotangentLieAlgebroidDifferentialForActionLieAlgebroidOnFieldCoordinates)
 
 $$
   \array{
@@ -485,22 +465,24 @@ $$
        \frac{\partial S}{\partial \phi^a}
     \right\}
       &\overset{(d S)^\ast}{\longleftarrow}&
-    \left\{ \frac{\partial}{\partial \phi^a} \right\}
+    \left\{ \phi^\ddagger_a \right\}
     \\
-    {}^{\mathllap{d_{CE(\mathfrak{a})}}}\downarrow && \downarrow^{\mathrlap{d_{CE(T^\ast \mathfrak{a})}}}
+    {}^{\mathllap{d_{CE(X/\mathfrak{g})}}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{d_{CE(T^\ast (X/\mathfrak{g}))}}}
     \\
     \left\{
        c^\alpha \frac{\partial R_\alpha^b}{\partial \phi^a} \frac{\partial S}{\partial \phi^b}
     \right\}
       &\underset{(d S)^\ast}{\longleftarrow}&
     \left\{
-       c^\alpha \frac{\partial R_\alpha^b}{\partial \phi^a} \frac{\partial}{\partial \phi^b}
+       c^\alpha \frac{\partial R_\alpha^b}{\partial \phi^a} \phi^\ddagger_b
     \right\}
   }
 $$
 
-and on the derivation $\frac{\partial}{\partial c^\alpha}$ we find from (eq:CotangentLieAlgebroidDifferentialForActionLieAlgebroidOnGhostFieldCoordinates)
-and using the gauge invariance of $S$ (example \ref{GaugeInvariantFunctionsIntermsOfLieAlgebroids})
+and on the derivation $c^\ddagger_\alpha \coloneqq \frac{\partial}{\partial c^\alpha}$ we find from (eq:CotangentLieAlgebroidDifferentialForActionLieAlgebroidOnGhostFieldCoordinates)
+and using the invariance of $S$ (example \ref{GaugeInvariantFunctionsIntermsOfLieAlgebroids})
 
 $$
   \array{
@@ -509,26 +491,58 @@ $$
     \right\}
       &\overset{(d S)^\ast}{\longleftarrow}&
     \left\{
-      \frac{\partial}{\partial c^\alpha}
+      c^\ddagger_\alpha
     \right\}
     \\
-    \downarrow && \downarrow
+    {}^{\mathllap{d_{CE(X/\mathfrak{g})}}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{d_{CE(T^\ast(X/\mathfrak{g}))}}}
     \\
     \left\{
       0 = R_\alpha^a \frac{\partial S}{\partial \phi^a}
     \right\}
-      &\overset{(d S)^\ast}{\longleftarrow}&
+      &\underset{(d S)^\ast}{\longleftarrow}&
     \left\{
-      R_\alpha^a  \frac{\partial}{\partial \phi^a}
+      R_\alpha^a  \phi^\ddagger_a
       +
-      \gamma^\beta{}_{\alpha \gamma} c^\gamma \frac{\partial}{\partial c^\beta}
+      \gamma^\beta{}_{\alpha \gamma} c^\gamma 
+      c^\ddagger_\alpha
     \right\}
   }
   \,.
 $$
 
+This shows that the differentials are being respected.
+
 =--
 
+Next we describe the [[vanishing locus]] of $d S$, hence the [[critical locus]] of $S$. Notice if $d S$ is regarded as an ordinary [[differential 1-form]] on an ordinary [[smooth manifold]] $X$, then its [[vanishing locus]] 
+
+$$
+  X_{d S = 0}
+  \;=\;
+  \left\{
+     x \in X \;\vert\;
+     d S(x) = 0
+  \right\}
+$$ 
+
+is simply the [[fiber product]] of $d S$ with the [[zero section]] of the [[cotangent bundle]], hence the [[universal property|universal]] space that  makes the following [[commuting diagram|diagram commute]]:
+
+$$
+  \array{
+    X_{d S = 0}
+      &\longrightarrow&
+    X
+    \\
+    \downarrow && \downarrow^{\mathrlap{0}}
+    \\
+    X &\underset{d S}{\longrightarrow}& T^\ast X
+  }
+  \,.
+$$
+
+In this [[category theory|general abstract]] form the concept of [[critical locus]] generalizes to [[invariant]] functions on [[super L-infinity algebra|super]] [[Lie algebroids]], where the vanishing of $d S$ is regarded only  _up to [[homotopy]]_, namely up to [[infinitesimal symmetry]] transformations by the [[Lie algebra]] $\mathfrak{g}$. In this [[homotopy theory|homotopy-theoretic]] refinement we speak of the _[[derived critical locus]]_. The following definition simply states what this comes down to in components. For technical detail see at _[[derived critical locus]]_ and for general introduction to [[higher differential geometry]] and [[higher Lie theory]] see at _[[schreiber:Higher Structures|Higher structures in Physics]]_.
 
 +-- {: .num_defn #DerivedCriticalLocusOfGaugeInvariantFunctionOnLieAlgebroid}
 ###### Definition
@@ -540,15 +554,15 @@ $$
   S \;\colon\; \mathfrak{a} \longrightarrow \mathbb{R}
 $$
 
-be a [[gauge invariant]] function (example \ref{GaugeInvariantFunctionsIntermsOfLieAlgebroids}) and consider
-the section of its infinitesimal cotangent bundle $T^\ast \mathfrak{a}$ (def. \ref{CotangentBundleOfActionLieAlgebroid}) corresponding to its exterior derivative
-via prop. \ref{ExteriorDifferentialOfGaugeInvariantFunctionIsSectionOfInfinitesimalCotangentLieAlgebroid}.
+be an [[invariant]] function (example \ref{GaugeInvariantFunctionsIntermsOfLieAlgebroids}) and consider
+the [[section]] of its infinitesimal [[cotangent bundle]] $T^\ast \mathfrak{a}$ (def. \ref{CotangentBundleOfActionLieAlgebroid}) corresponding to its exterior derivative
+via prop. \ref{ExteriorDifferentialOfGaugeInvariantFunctionIsSectionOfInfinitesimalCotangentLieAlgebroid}:
 
 $$
   \array{
     \mathfrak{a} && \overset{d S}{\longrightarrow} && T^\ast \mathfrak{a}
     \\
-    & \searrow && \swarrow
+    & {}_{\mathllap{id}}\searrow && \swarrow
     \\
     && \mathfrak{a}
   }
@@ -576,8 +590,7 @@ This means equivalently (details are at _[[derived critical locus]]_) that the C
 
 1. all [[derivations]] are shifted down in degree by one;
 
-1. the CE-differential on the derivations coming from vector fields $v$ on $X$ is that of the infinitesimal
-   cotangent Lie algebroid $T^\ast \mathfrak{a}$ plus $d S(v) = v(S)$.
+1. the CE-differential on the derivations coming from vector fields $v$ on $X$ is that of the infinitesimal cotangent Lie algebroid $T^\ast \mathfrak{a}$ plus $d S(v) = v(S)$.
 
 
 =--
@@ -586,20 +599,20 @@ This means equivalently (details are at _[[derived critical locus]]_) that the C
 ###### Example
 **([[derived critical locus]] inside [[action Lie algebroid]])**
 
-Consider an [[invariant]] function $S \;\colon\emph{}\; X/\mathfrak{g} \to \mathbb{R}$ (def. \ref{GaugeInvariantFunctionsIntermsOfLieAlgebroids})
+Consider an [[invariant]] function $S \;\colon\; X/\mathfrak{g} \to \mathbb{R}$ (def. \ref{GaugeInvariantFunctionsIntermsOfLieAlgebroids})
 on an [[action Lie algebroid]] (def. \ref{ActionLieAlgebroid})
-for the case that the underlying manifold is a [[Cartesian space]] with global [[coordinates]] as in example \ref{CotangentBundleOfActionLieAlgebroid}. Then the generators of the [[derived critical locus]] $(X/\mathfrak{g})_{d S \simeq 0}$ (def. \ref{DerivedCriticalLocusOfGaugeInvariantFunctionOnLieAlgebroid})
+for the case that the underlying manifold is a [[super Cartesian space]] (def. \ref{SuperCartesianSpace}) with global [[coordinates]] as in example \ref{CotangentBundleOfActionLieAlgebroid}. Then the generators of the [[derived critical locus]] $(X/\mathfrak{g})_{d S \simeq 0}$ (def. \ref{DerivedCriticalLocusOfGaugeInvariantFunctionOnLieAlgebroid})
 are as in (eq:GeneratorsOfDerivedCriticalLocusInActionLieAlgebroid), except for the degree shift:
 
 $$
   \array{
     &
     \left(
-      \overline{c}^\alpha
+      c^\ddagger_{\alpha}
     \right)
     &
     \left(
-      \overline{\phi}^a
+      \phi^\ddagger_a
     \right)
     &
     \left(
@@ -626,7 +639,7 @@ and the CE-differential is given by
 $$
   \label{ExplitiCEDifferentialInCotangentBundleOfActionLieAlgebroid}
   \array{
-    & d_{CE((X/\mathfrak{g})_{d S \simeq 0})}
+    & d_{CE\left((X/\mathfrak{g})_{d S \simeq 0}\right)}
     \\
     \phi^a
       &\mapsto&
@@ -636,7 +649,7 @@ $$
       & \mapsto&
     \tfrac{1}{2} \gamma^\alpha{}_{\beta \gamma} c^\beta c^\gamma
     \\
-    \overline{\phi}_a
+    \phi^\ddagger_a
       &\mapsto&
     \underset{
       new
@@ -645,13 +658,13 @@ $$
       \frac{\partial S}{\partial \phi^a}
     }}
     +
-    c^\alpha \frac{\partial R_\alpha^b}{\partial \phi^a} \overline{\phi}_b
+    c^\alpha \frac{\partial R_\alpha^b}{\partial \phi^a} \phi^\ddagger_b
     \\
-    \overline{c}_\alpha
+    c^\ddagger_\alpha
       &\mapsto&
-    R_\alpha^a  \overline{\phi}_a
+    R_\alpha^a  \phi^\ddagger_a
       +
-    \gamma^\beta{}_{\alpha \gamma} c^\gamma \overline{c}_\beta
+    \gamma^\beta{}_{\alpha \gamma} c^\gamma c^\ddagger_b
   }
 $$
 
@@ -669,7 +682,7 @@ which is just like the differential (eq:CEDifferentialOnGeneratorsForInfinitesim
 
 Consider a [[derived critical locus]] $(X/\mathfrak{g})_{d S \simeq 0}$ inside an [[action Lie algebroid]] $X/\mathfrak{g}$ as in example \ref{ArchetypeOfBVBRSTComplex}.
 
-Then the [[commutator]] of graded [[derivations]] of the [[Chevalley-Eilenberg algebra]] of $X/\mathfrak{g}$
+Then the graded [[commutator]] of graded [[derivations]] of the [[Chevalley-Eilenberg algebra]] of $X/\mathfrak{g}$
 
 $$
   [-,-]
@@ -686,11 +699,11 @@ uniquely [[extension|extends]], by the graded [[Leibniz rule]], to a graded brac
 $$
   \left\{ -,-\right\}
     \;\colon\;
-   CE( (X/\mathfrak{g})_{d S \simeq 0} ) 
+   CE\left( (X/\mathfrak{g})_{d S \simeq 0} \right) 
     \otimes 
-   CE( (X/\mathfrak{g})_{d S \simeq 0} )
+   C\left( (X/\mathfrak{g})_{d S \simeq 0} \right)
     \longrightarrow
-   CE( (X/\mathrak{g})_{d S \simeq 0} )
+   CE\left( (X/\mathfrak{g})_{d S \simeq 0} \right)
 $$
 
 such that this is a graded [[derivation]] in both arguments.
@@ -700,24 +713,25 @@ This is called the _[[Schouten bracket]]_.
 There is an elegant way to rewrite this in terms of components: With the notation (eq:AntiNotationForDerivations) for the coordinate-derivations the [[Schouten bracket]] is equivalently given by
 
 $$
+  \label{Antibracket}
   \begin{aligned}
-    \left[ f,g \right]  
+    \left\{ f,g \right\}  
     & =
     \phantom{+}
-    \frac{\overset{\leftarrow}{\partial} f}{\partial \overline{\phi}_a}  
+    \frac{\overset{\leftarrow}{\partial} f}{\partial \phi^\ddagger_a}  
     \frac{\overset{\rightarrow}{\partial} g}{\partial {\phi}^a}
     -
     \frac{\overset{\leftarrow}{\partial} f}{\partial \phi^a}
-    \frac{\overset{\rightarrow}{\partial} g}{\partial \overline{\phi}_a} 
+    \frac{\overset{\rightarrow}{\partial} g}{\partial \phi^\ddagger_a} 
     \\
     &
     \phantom{=}
     + 
-    \frac{\overset{\leftarrow}{\partial} f}{\partial \overline{c}_\alpha}  
+    \frac{\overset{\leftarrow}{\partial} f}{\partial c^\ddagger_\alpha}  
     \frac{\overset{\rightarrow}{\partial} g}{\partial {c}^\alpha}
     -
     \frac{\overset{\leftarrow}{\partial} f}{\partial c^\alpha}
-    \frac{\overset{\rightarrow}{\partial} g}{\partial \overline{c}_\alpha} 
+    \frac{\overset{\rightarrow}{\partial} g}{\partial c^\ddagger_\alpha} 
   \end{aligned}
   \,,
 $$
@@ -727,30 +741,40 @@ where the arrow over the [[partial derivative]] indicates that we we pick up sig
 
 In this form the [[Schouten bracket]] is called the _[[antibracket]]_.
 
-Inspection shows that the CE-differential (eq:ExplitiCEDifferentialInCotangentBundleOfActionLieAlgebroid) of the [[derived critical locus]] $X/\mathfrak{g}\vert_{S \simeq 0}$ is simply the [[Schouten bracket]]/[[antibracket]]  with the [[sum]] of the the CE-differential of $X/\mathfrak{G}$ with the function $S$:
+=--
+
+The great power of the [[Schouten bracket]]/[[antibracket]] rests in the fact that it makes the [[Chevalley-Eilenberg differential]] on a [[derived critical locus]] $(X/\mathfrak{g})_{d S \simeq 0}$ become a [[Hamiltonian vector field]], for "[[Hamiltonian]]" the sum of $S$ with the [[Chevalley-Eilenberg differential]] of $X/\mathfrak{g}$:
+
++-- {: .num_example}
+###### Example
+
+Let $(X/\mathfrak{g})_{d S \simeq 0}$ be a [[derived critical locus]] inside an [[action Lie algebroid]] as in example \ref{ArchetypeOfBVBRSTComplex}. 
+
+Then the CE-differential (eq:ExplitiCEDifferentialInCotangentBundleOfActionLieAlgebroid) of the [[derived critical locus]] $X/\mathfrak{g}\vert_{S \simeq 0}$ is simply the [[Schouten bracket]]/[[antibracket]] (def. \ref{SchoutenBracketAndAntibracket}) with the [[sum]] of the the CE-differential of $X/\mathfrak{g}$ with the function $S$:
 
 $$
-  d_{CE( (X/\mathfrak{g})_{d S \simeq 0} ) }
+  d_{CE\left( (X/\mathfrak{g})_{d S \simeq 0} \right) }
   \;=\;
   \left\{
-    S + d_{CE}(X/\mathfrak{g})
+    S + d_{CE(X/\mathfrak{g})}
     \,.\,
     -
   \right\}
   \,.
 $$
 
-In components and using the notation (eq:AntiNotationForDerivations) this means that 
+In coordinates, using the expression for $d_{CE(X/\mathfrak{g})}$ from (eq:DifferentialOnActionLieAlgebroid) and using the notation for derivations from (eq:AntiNotationForDerivations) this means that 
 
 $$
-  d_{CE( (X/\mathfrak{g})_{d S \simeq 0} )}
+  d_{CE\left( (X/\mathfrak{g})_{d S \simeq 0} \right)}
   \;=\;
   \left\{
      S 
       +
-     c^\alpha R_\alpha^a \overline{\phi}_a 
+     c^\alpha R_\alpha^a \phi^\ddagger_a
       +
-     \tfrac{1}{2}\gamma^\alpha{}_{\beta \gamma} c^\beta c^\gamma \overline{c}_\alpha
+     \tfrac{1}{2}\gamma^\alpha{}_{\beta \gamma} c^\beta c^\gamma 
+     c^\ddagger_\alpha
      \,,\,
      -
   \right\}
@@ -759,16 +783,213 @@ $$
 
 =--
 
++-- {: .proof}
+###### Proof
+
+This is a simple straightforward computation, but we spell it out for illustration of the general principle. The result is to be compared with (eq:ExplitiCEDifferentialInCotangentBundleOfActionLieAlgebroid):
+
+for $\phi^a$:
+
+$$
+  \begin{aligned}
+  \left\{
+     S 
+      +
+     c^\alpha R_\alpha^{a'} \phi^\ddagger_{a'}
+      +
+     \tfrac{1}{2}\gamma^\alpha{}_{\beta \gamma} c^\beta c^\gamma 
+     c^\ddagger_\alpha
+     \,,\,
+     \phi^a
+  \right\}
+  &
+  =
+  \left\{
+   c^\alpha R_\alpha^{a'} \phi^\ddagger_{a'} \,,\, \phi^a
+  \right\}
+  \\
+  & =
+  c^\alpha R_\alpha^{a'} 
+  \underset{
+    \delta_{a'}^a
+  }{
+  \underbrace{
+  \left\{
+   \phi^\ddagger_{a'} \,,\, \phi^a
+  \right\}
+  }
+  }
+  \\
+  & =
+  c^\alpha R_\alpha^{a}
+  \end{aligned}
+$$
+
+for $c^\alpha$:
+
+$$
+  \begin{aligned}
+  \left\{
+     S 
+      +
+     c^\alpha R_\alpha^{a} \phi^\ddagger_{a}
+      +
+     \tfrac{1}{2}\gamma^{\alpha'}{}_{\beta \gamma} c^\beta c^\gamma 
+     c^\ddagger_{\alpha'}
+     \,,\,
+     c^\alpha
+  \right\}
+  & =
+  \left\{
+     \tfrac{1}{2}\gamma^{\alpha'}{}_{\beta \gamma} c^\beta c^\gamma 
+     c^\ddagger_{\alpha'}
+     \,,\,
+     c^\alpha
+  \right\}
+  \\
+  & =
+  \tfrac{1}{2}\gamma^{\alpha'}{}_{\beta \gamma} c^\beta c^\gamma 
+  \underset{
+    \delta_{\alpha'}^\alpha
+  }{
+  \underbrace{
+  \left\{
+     c^\ddagger_{\alpha'}
+     \,,\,
+     c^\alpha
+  \right\}
+  }
+  }
+  \\
+  & =
+  \tfrac{1}{2}\gamma^{\alpha}{}_{\beta \gamma} c^\beta c^\gamma 
+  \end{aligned}
+$$
+
+for $\phi^\ddagger_a$:
+
+$$
+  \begin{aligned}
+  \left\{
+     S 
+      +
+     c^\alpha R_\alpha^{a'} \phi^\ddagger_{a'}
+      +
+     \tfrac{1}{2}\gamma^{\alpha}{}_{\beta \gamma} c^\beta c^\gamma 
+     c^\ddagger_{\alpha}
+     \,,\,
+     \phi^\ddagger_a
+  \right\}
+  & =
+  \underset{
+   = -\frac{\partial S}{\partial \phi^a}
+  }{
+  \underbrace{
+  \left\{
+    S \,,\, \phi^{\ddagger}_a
+  \right\}
+  }
+  }
+  +
+  \left\{
+    c^\alpha R_\alpha^{a'} \phi^\ddagger_{a'}
+    \,,\,
+    \phi^\dagger_a
+  \right\}
+  \\
+  & =
+  - \frac{\partial S}{\partial \phi^a}
+   - c^\alpha 
+    \underset{
+      = \frac{\partial R_\alpha^{a'}}{\partial \phi^a}
+    }{
+    \underbrace{
+      \left\{ R_\alpha^{a'} \,,\, \phi^\ddagger_a \right\} 
+    }
+    }
+   \phi^\ddagger_{a'}
+  \\
+  & =
+   - \frac{\partial S}{\partial \phi^a}
+   -
+   c^\alpha \frac{\partial R_\alpha^{a'}}{\partial \phi^a}
+   \phi^\ddagger_{a'}
+  \end{aligned}
+$$
+
+for $c^\ddagger_\alpha$:
+
+$$
+  \begin{aligned}
+  \left\{
+     S 
+      +
+     c^{\alpha'} R_{\alpha'}^{a} \phi^\ddagger_{a}
+      +
+     \tfrac{1}{2}\gamma^{\alpha'}{}_{\beta \gamma} c^\beta c^\gamma 
+     c^\ddagger_{\alpha'}
+     \,,\,
+     c^\ddagger_\alpha
+  \right\}
+  & =
+  \left\{ 
+    c^{\alpha'} R_{\alpha'}^a \phi^{\ddagger}_a
+    \,,\,
+    c^\ddagger_{\alpha}
+  \right\}
+  \;+\;
+  \left\{
+    \tfrac{1}{2} \gamma^{\alpha'}{}_{\beta \gamma} c^\beta c^\gamma 
+    c^\ddagger_{\alpha'}
+    \,,\,
+    c^\ddagger_\alpha
+  \right\}
+  \\
+  & =
+  \left\{ 
+    c^{\alpha'} 
+    \,,\,
+    c^\ddagger_{\alpha}
+  \right\}
+  R_{\alpha'}^a \phi^{\ddagger}_a
+  \;-\;
+  \tfrac{1}{2} \gamma^{\alpha'}{}_{\beta \gamma} 
+  \underset{ = c^\beta \delta_{\alpha}^\gamma - \delta_{\alpha}^\beta c^\gamma}{
+  \underbrace{
+  \left\{
+    c^\beta c^\gamma 
+    \,,\,
+    c^\ddagger_\alpha
+  \right\}
+  }}
+  c^\ddagger_{\alpha'}
+  \\
+  & = 
+  R_\alpha^a \phi^\ddagger_{a}
+  +
+  \gamma^{\alpha'}{}_{\alpha \gamma} c^\gamma c^\ddagger_{\alpha'}
+  \end{aligned}
+$$
+
+
+
+
+=--
+
 $\,$
 
-**([[derived critical locus]] on [[jet bundle]] -- the [[local BV-BRST complex]])**
+Next we turn to applying these considerations about [[derived critical loci]] to [[Lagrangian densities]] defined on the [[homotopy quotient]] of a [[jet bundle]] by [[infinitesimal gauge symmetries]]. 
+
+$\,$
+
+**[[derived critical locus]] on [[jet bundle]] -- the [[local BV-BRST complex]]**
   {#DerivedCriticalLocusOnJetBundle}
 
 If we think of the function $S$ as being the [[action functional]] (example \ref{ActionFunctional})
 of a [[Lagrangian field theory]] $(E,\mathbf{L})$ (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) over a [[compact space|compact]] [[spacetime]] $\Sigma$,
 with $X$ the  [[space of field histories]] (or rather an [[infinitesimal neighbourhood]] therein),
 hence with $\mathfrak{g}$ a Lie algebra of [[gauge symmetries]] acting on the field histories, then
-the [[Chevalley-Eilenberg algebra]] $CE((X/\mathfrak{g})_{d S \simeq 0})$ of the [[derived critical locus]] of $S$ is called the
+the [[Chevalley-Eilenberg algebra]] $CE\left((X/\mathfrak{g})_{d S \simeq 0}\right)$ of the [[derived critical locus]] of $S$ is called the
 _[[BV-BRST complex]]_ of the theory.
 
 
