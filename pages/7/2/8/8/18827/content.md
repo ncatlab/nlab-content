@@ -325,6 +325,7 @@ $$
     \right]
     \\
     & =
+    -
     c^\alpha \frac{\partial R_\alpha^b}{\partial \phi^a} \frac{\partial}{\partial \phi^b}
   \end{aligned}
   \,.
@@ -390,7 +391,7 @@ $$
     \\
     \phi^\ddagger_a
       &\mapsto&
-    c^\alpha \frac{\partial R_\alpha^b}{\partial \phi^a} \phi^\ddagger_b
+    - c^\alpha \frac{\partial R_\alpha^b}{\partial \phi^a} \phi^\ddagger_b
     \\
     c^\ddagger_\alpha
       &\mapsto&
@@ -454,8 +455,7 @@ Since $(d S)^\ast$ has been defined on generators, it is uniquely a homomorphism
 It is clear that if $(d S)^\ast$ is indeed a [[homomorphism]] of [[differential graded-commutative superalgebras]] in that it also respects the CE-differentials, then it yields a section as claimed, because by definition it is the identity on $\mathfrak{a}^\ast$. 
 Hence all we need to check is that $(d S)^\ast$ indeed respects the CE-differentials.
 
-On the original generators in $\mathfrak{a}^\ast$ this is immediate, since on these the CE-differential on both sides
-are by definition the same.
+On the original generators in $\mathfrak{a}^\ast$ this is immediate, since on these the CE-differential on both sides are by definition the same.
 
 On the derivation $\phi^\ddagger_a \coloneqq \frac{\partial}{ \partial \phi^a}$ we find from (eq:CotangentLieAlgebroidDifferentialForActionLieAlgebroidOnFieldCoordinates)
 
@@ -472,17 +472,42 @@ $$
     \downarrow^{\mathrlap{d_{CE(T^\ast (X/\mathfrak{g}))}}}
     \\
     \left\{
-       c^\alpha \frac{\partial R_\alpha^b}{\partial \phi^a} \frac{\partial S}{\partial \phi^b}
+       -c^\alpha \frac{\partial R_\alpha^b}{\partial \phi^a} \frac{\partial S}{\partial \phi^b}
     \right\}
       &\underset{(d S)^\ast}{\longleftarrow}&
     \left\{
-       c^\alpha \frac{\partial R_\alpha^b}{\partial \phi^a} \phi^\ddagger_b
+       -c^\alpha \frac{\partial R_\alpha^b}{\partial \phi^a} \phi^\ddagger_b
     \right\}
   }
 $$
 
-and on the derivation $c^\ddagger_\alpha \coloneqq \frac{\partial}{\partial c^\alpha}$ we find from (eq:CotangentLieAlgebroidDifferentialForActionLieAlgebroidOnGhostFieldCoordinates)
-and using the invariance of $S$ (example \ref{GaugeInvariantFunctionsIntermsOfLieAlgebroids})
+{#NoticeThatTheLeftVerticalMap} Notice that the left vertical map is indeed as shown, due to the invariance of $S$ (example \ref{GaugeInvariantFunctionsIntermsOfLieAlgebroids}), which allows an "[[integration by parts]]":
+
+$$
+  \begin{aligned}
+    d_{CE(X/\mathfrak{g})}\left( \frac{\partial S}{\partial \phi_a} \right)
+    & =
+    c^\alpha R_\alpha^{b} \frac{\partial}{\partial \phi^b} \frac{\partial}{\partial \phi^a} S
+    \\
+    & =     
+    \frac{\partial}{\partial \phi^a}
+    \left(
+      c^\alpha 
+      \underset{
+        = 0
+      }{
+      \underbrace{
+        R_\alpha^b \frac{\partial S}{\partial \phi^b}  
+      }
+      }
+    \right)
+    \;-\;
+    c^\alpha \frac{\partial R_\alpha^b}{\partial \phi^a}
+    \frac{\partial S}{\partial \phi^b}
+  \end{aligned}
+$$
+
+Similarly, on the derivation $c^\ddagger_\alpha \coloneqq \frac{\partial}{\partial c^\alpha}$ we find from (eq:CotangentLieAlgebroidDifferentialForActionLieAlgebroidOnGhostFieldCoordinates) and using the invariance of $S$ (example \ref{GaugeInvariantFunctionsIntermsOfLieAlgebroids})
 
 $$
   \array{
@@ -657,7 +682,7 @@ $$
     \underbrace{
       \frac{\partial S}{\partial \phi^a}
     }}
-    +
+    -
     c^\alpha \frac{\partial R_\alpha^b}{\partial \phi^a} \phi^\ddagger_b
     \\
     c^\ddagger_\alpha
@@ -745,20 +770,22 @@ In this form the [[Schouten bracket]] is called the _[[antibracket]]_.
 
 The great power of the [[Schouten bracket]]/[[antibracket]] rests in the fact that it makes the [[Chevalley-Eilenberg differential]] on a [[derived critical locus]] $(X/\mathfrak{g})_{d S \simeq 0}$ become a [[Hamiltonian vector field]], for "[[Hamiltonian]]" the sum of $S$ with the [[Chevalley-Eilenberg differential]] of $X/\mathfrak{g}$:
 
-+-- {: .num_example}
++-- {: .num_example #ChevalleyEilenbergDifferentialOnDerivedCriticalLocusIsHamiltonianViaAntibracket}
 ###### Example
+**([[Chevalley-Eilenberg differential]] of [[derived critical locus]] is [[Hamiltonian vector field]] for the [[Schouten bracket]]/[[antibracket]])**
 
 Let $(X/\mathfrak{g})_{d S \simeq 0}$ be a [[derived critical locus]] inside an [[action Lie algebroid]] as in example \ref{ArchetypeOfBVBRSTComplex}. 
 
 Then the CE-differential (eq:ExplitiCEDifferentialInCotangentBundleOfActionLieAlgebroid) of the [[derived critical locus]] $X/\mathfrak{g}\vert_{S \simeq 0}$ is simply the [[Schouten bracket]]/[[antibracket]] (def. \ref{SchoutenBracketAndAntibracket}) with the [[sum]] of the the CE-differential of $X/\mathfrak{g}$ with the function $S$:
 
 $$
-  d_{CE\left( (X/\mathfrak{g})_{d S \simeq 0} \right) }
+  d_{CE\left( (X/\mathfrak{g})_{d S \simeq 0} \right) }(-)
   \;=\;
+  -
   \left\{
-    S + d_{CE(X/\mathfrak{g})}
-    \,.\,
-    -
+    S - d_{CE(X/\mathfrak{g})}
+    \,,\,
+    (-)
   \right\}
   \,.
 $$
@@ -766,17 +793,18 @@ $$
 In coordinates, using the expression for $d_{CE(X/\mathfrak{g})}$ from (eq:DifferentialOnActionLieAlgebroid) and using the notation for derivations from (eq:AntiNotationForDerivations) this means that 
 
 $$
-  d_{CE\left( (X/\mathfrak{g})_{d S \simeq 0} \right)}
+  d_{CE\left( (X/\mathfrak{g})_{d S \simeq 0} \right)}(-)
   \;=\;
+  -
   \left\{
      S 
-      +
+      -
      c^\alpha R_\alpha^a \phi^\ddagger_a
-      +
+      -
      \tfrac{1}{2}\gamma^\alpha{}_{\beta \gamma} c^\beta c^\gamma 
      c^\ddagger_\alpha
      \,,\,
-     -
+     (-)
   \right\}
   \,.
 $$
@@ -792,11 +820,12 @@ for $\phi^a$:
 
 $$
   \begin{aligned}
+  -
   \left\{
      S 
-      +
+      -
      c^\alpha R_\alpha^{a'} \phi^\ddagger_{a'}
-      +
+      -
      \tfrac{1}{2}\gamma^\alpha{}_{\beta \gamma} c^\beta c^\gamma 
      c^\ddagger_\alpha
      \,,\,
@@ -829,11 +858,12 @@ for $c^\alpha$:
 
 $$
   \begin{aligned}
+  -
   \left\{
      S 
-      +
+      -
      c^\alpha R_\alpha^{a} \phi^\ddagger_{a}
-      +
+      -
      \tfrac{1}{2}\gamma^{\alpha'}{}_{\beta \gamma} c^\beta c^\gamma 
      c^\ddagger_{\alpha'}
      \,,\,
@@ -870,17 +900,19 @@ for $\phi^\ddagger_a$:
 
 $$
   \begin{aligned}
+  -
   \left\{
      S 
-      +
+      -
      c^\alpha R_\alpha^{a'} \phi^\ddagger_{a'}
-      +
+      -
      \tfrac{1}{2}\gamma^{\alpha}{}_{\beta \gamma} c^\beta c^\gamma 
      c^\ddagger_{\alpha}
      \,,\,
      \phi^\ddagger_a
   \right\}
   & =
+  -
   \underset{
    = -\frac{\partial S}{\partial \phi^a}
   }{
@@ -898,10 +930,10 @@ $$
   \right\}
   \\
   & =
-  - \frac{\partial S}{\partial \phi^a}
-   - c^\alpha 
+  \frac{\partial S}{\partial \phi^a}
+   + c^\alpha 
     \underset{
-      = \frac{\partial R_\alpha^{a'}}{\partial \phi^a}
+      = -\frac{\partial R_\alpha^{a'}}{\partial \phi^a}
     }{
     \underbrace{
       \left\{ R_\alpha^{a'} \,,\, \phi^\ddagger_a \right\} 
@@ -910,7 +942,7 @@ $$
    \phi^\ddagger_{a'}
   \\
   & =
-   - \frac{\partial S}{\partial \phi^a}
+   \frac{\partial S}{\partial \phi^a}
    -
    c^\alpha \frac{\partial R_\alpha^{a'}}{\partial \phi^a}
    \phi^\ddagger_{a'}
@@ -921,11 +953,12 @@ for $c^\ddagger_\alpha$:
 
 $$
   \begin{aligned}
+  -
   \left\{
      S 
-      +
+      -
      c^{\alpha'} R_{\alpha'}^{a} \phi^\ddagger_{a}
-      +
+      -
      \tfrac{1}{2}\gamma^{\alpha'}{}_{\beta \gamma} c^\beta c^\gamma 
      c^\ddagger_{\alpha'}
      \,,\,
@@ -971,7 +1004,7 @@ $$
   \end{aligned}
 $$
 
-
+Hence these values of the [[Schouten bracket]]/[[antibracket]] indeed all agree with the values of the CE-differential from (eq:(eq:ExplitiCEDifferentialInCotangentBundleOfActionLieAlgebroid)).
 
 
 =--
