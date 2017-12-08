@@ -3,7 +3,7 @@
 ## Gauge symmetries
  {#GaugeSymmetries}
 
-An [[infinitesimal gauge symmetry]] of a [[Lagrangian field theory]] (def. \ref{GaugeParameters} below) is a [[infinitesimal symmetry of the Lagrangian]] which may be freely parameterized, hence "gauged", by a _[[gauge parameter]]_. A [[Lagrangian field theory]]t
+An [[infinitesimal gauge symmetry]] of a [[Lagrangian field theory]] (def. \ref{GaugeParameters} below) is a [[infinitesimal symmetry of the Lagrangian]] which may be freely parameterized, hence "gauged", by a _[[gauge parameter]]_. A [[Lagrangian field theory]]
 exhibiting these is also called a _[[gauge theory]]_.
 
 By choosing the [[gauge parameter]] to have [[compact support]], [[infinitesimal gauge symmetries]] in particular yield
@@ -1368,6 +1368,18 @@ $$
     \\
     d_{CE(X/\mathfrak{g})} \phi^a & = R^a_\alpha c^\alpha
   \end{aligned}
+$$
+
+We may summarize this by writing the [[derivation]] $d_{CE(X/\mathfrak{g})}$ as follows:
+
+$$
+  \label{DifferentialOnActionLieAlgebroid}
+  d_{CE(X/\mathfrak{g})}
+  \;=\;
+  c^\alpha R_\alpha^a \frac{\partial}{\partial \phi^a}
+  \;+\;
+  \tfrac{1}{2} \gamma^{\alpha}{}_{\beta \gamma} c^\beta c^\gamma \frac{\partial}{\partial c^\alpha}
+  \,.
 $$
 
 That this squares to zero is equivalently
