@@ -310,7 +310,7 @@ Discussion of standard example includes
 
 The observation that in [[perturbation theory]] the [[renormalization|Stückelberg-Bogoliubov-Epstein-Glaser]] local [[S-matrix|S-matrices]] yield a [[local net of observables]] was first made in 
 
-* V. Il'in, D. Slavnov, _Observable algebras in the S-matrix approach_ Theor. Math. Phys. **36** , 32 (1978)
+* V. Il'in, D. Slavnov, _Observable algebras in the S-matrix approach_ Theor. Math. Phys. **36** , 32 (1978) ([spire](http://inspirehep.net/record/135575), [doi](http://dx.doi.org/10.1007/BF01035870))
 
 which was however mostly ignored and forgotten. It is taken up again in
 
@@ -318,6 +318,7 @@ which was however mostly ignored and forgotten. It is taken up again in
 
 (a quick survey is in section 8, details are in section 2).
 
+For more on this see at _[[S-matrix]]_ and at _[[pAQFT]]_.
 
 [[!redirects causally local nets of observables]]
 
@@ -333,6 +334,9 @@ which was however mostly ignored and forgotten. It is taken up again in
 [[!redirects nets of observables]]
 [[!redirects local net of observables]]
 [[!redirects local nets of observables]]
+
+[[!redirects local net of algebras of observables]]
+[[!redirects local nets of algebras of observables]]
 
 [[!redirects net of quantum observables]]
 [[!redirects nets of quantum observables]]
