@@ -17,6 +17,10 @@ A vector bundle minus its zero-section is a [[spherical fibration]].
 
 * [[projective bundle]]
 
+* [[vanishing locus]], [[critical locus]], [[derived critical locus]]
+
+* [[Hörmander's criterion]] on [[wave front set]]
+
 [[!redirects zero-section]]
 
 [[!redirects zero sections]]
