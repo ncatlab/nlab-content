@@ -97,10 +97,10 @@ is primitive recursive since $\chi_Q(y, \mathbf{z}) = \prod_{x=0}^{y-1} \chi_R(x
 1. (Bounded least choice operator) If $R(x, y, \mathbf{z})$ is a primitive recursive relation and $h$ is a primitive recursive function, then the function $f(y, \mathbf{z})$ defined to be "the least $x \leq h(y)$ such that $R(x, y, \mathbf{z})$ if such $x$ exists, else $y$" is primitive recursive. Indeed, 
 $$f(y, \mathbf{z}) = [\sum_{x=0}^{h(y)} (x \cdot \chi_R(x, y, \mathbf{z}) \cdot (\prod_{w=0}^{x-1} \chi_{\neg R}(w, y, \mathbf{z}))] + y \cdot \prod_{x=0}^{h(y)} \chi_{\neg R}(x, y, \mathbf{z}).$$ 
 
-1. (Pairing and unpairing) There is an isomorphism $\mathbb{N}^2 \to \mathbb{N}$ in the Lawvere theory $Th(PrimRec)$, i.e., there is a primitive recursive function $f: \mathbb{N}^2 \to \mathbb{N}$ with a primitive recursive inverse $g: \mathbb{N} \to \mathbb{N}^2$. The function $f$ can be taken to be 
+1. (Pairing and unpairing) There is an isomorphism $\mathbb{N}^2 \to \mathbb{N}$ in the Lawvere theory $Th(PrimRec)$, i.e., there is a primitive recursive function $f: \mathbb{N}^2 \to \mathbb{N}$ with a primitive recursive inverse $g: \mathbb{N} \to \mathbb{N}^2$. For example, take $f$ to be the function 
 $$f: (m, n) \mapsto \binom{m+n+1}{2} + n$$ 
-and the function $g$ can be described as taking $m$ to the pair 
-$$(a \stackrel{\cdot}{-} (y+2), m - \binom{a \stackrel{\cdot}{-} 1}{2})$$ 
+Its inverse $g$ takes $m$ to the pair 
+$$(a \stackrel{\cdot}{-} (m - \binom{a \stackrel{\cdot}{-} 1}{2}+2), m - \binom{a \stackrel{\cdot}{-} 1}{2})$$ 
 where $a$ is the least element less than $m+2$ such that $\binom{a}{2} \gt m$. By the aforementioned properties, this $g$ is manifestly primitive recursive. 
 
 As a consequence of this last property, there exist primitive recursive [[isomorphisms]] between $\mathbb{N}$ and $\mathbb{N}^k$ for any $k \gt 0$. Since partial/primitive recursive functions are closed under composition, it is sufficient (and sometimes convenient) to consider only partial/primitive recursive functions on $\mathbb{N}$ itself.  (The exception is the case $k = 0$, but this is trivial, since every partial function $1 \to \mathbb{N}$ is recursive.) 
