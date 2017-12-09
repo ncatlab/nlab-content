@@ -220,7 +220,7 @@ Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangian
 
 Then a collection of _[[infinitesimal gauge symmetries]]_ of $(E,\mathbf{L})$ is
 
-1. a [[vector bundle]] $\mathcal{G} \overset{gb}{\longrightarrow} \Sigma$ over [[spacetime]] $\Sigma$ of [[positive number|positive]] [[rank of a vector bundle|rank]], to be called a _[[gauge parameter]] bundle_;
+1. a [[vector bundle]] $\mathcal{G} \overset{gb}{\longrightarrow} \Sigma$ over [[spacetime]] $\Sigma$ of [[positive number|positive]] [[rank of a vector bundle|rank]], to be called a _[[gauge parameter bundle]] _;
 
 1. a [[bundle morphism]] (def. \ref{BundlesAndFibers}) $R$ from the
    [[jet bundle]] of the  [[fiber product]] $\mathcal{G} \times_\Sigma E$ with the [[field bundle]] (def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) to the [[vertical tangent bundle]] of $E$ (def. \ref{VerticalTangentBundle}):
