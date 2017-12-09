@@ -47,3 +47,11 @@ For more details and further pointers see at _[[BRST complex]]_ and in particula
 
 [[!redirects Fadeev-Popov ghost]]
 [[!redirects Fadeev-Popov ghosts]]
+
+[[!redirects ghost number]]
+[[!redirects ghost numbers]]
+
+
+[[!redirects ghost field number]]
+[[!redirects ghost field numbers]]
+
