@@ -526,6 +526,8 @@ Introductions and surveys include
 
 * [[Michael Atiyah]], Maciej Dunajski, Lionel Mason, _Twistor theory at fifty: from contour integrals to twistor strings_ ([arXiv:1704.07464](https://arxiv.org/abs/1704.07464))
 
+* {#Adamo17} Tim Adamo, _Lectures on twistor theory_ ([arXiv:1712.02196](https://arxiv.org/abs/1712.02196))
+
 Review of the application in [[super Yang-Mills theory]] includes
 
 * {#Adamo13} [[Tim Adamo]], _Twistor actions for gauge theory and gravity_ ([arXiv:1308.2820](https://arxiv.org/abs/1308.2820)) 
