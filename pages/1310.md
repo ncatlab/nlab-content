@@ -17,7 +17,7 @@
 
 ## Idea
 
-This entry discusses [[∞-actions]]/[[∞-representations]] of [[Lie-infinity algebroids]], hence the [[infinitesimal object|infinitesimal]] version of [[∞-actions]] of [[smooth ∞-groupoids]].
+This entry discusses [[∞-actions]]/[[∞-representations]] of [[Lie-infinity algebroids]] (generalizing [[Lie algebra actions]]), hence the [[infinitesimal object|infinitesimal]] version of [[∞-actions]] of [[smooth ∞-groupoids]].
 
 Recall that an $L_\infty$-[[Lie infinity-algebroid|algebroid]] is both a
 
@@ -364,3 +364,10 @@ The [[Lie integration]] of representations of Lie 1-algebroids $\mathfrak{a} \to
 
 [[!redirects ∞-Lie algebroid representation]]
 [[!redirects ∞-Lie algebroid representations]]
+
+[[!redirects L-∞ algebra action]]
+[[!redirects L-∞ algebra actions]]
+
+[[!redirects L-infinity algebra action]]
+[[!redirects L-infinity algebra actions]]
+
