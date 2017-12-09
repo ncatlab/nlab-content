@@ -77,3 +77,6 @@ where the $R^{a \mu_1 \cdots \mu_k}_\alpha$ are smooth functions on the jet bund
 =--
 
 [[!redirects gauge parameters]]
+
+[[!redirects gauge parameter bundle]]
+[[!redirects gauge parameter bundles]]
