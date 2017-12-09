@@ -36,7 +36,7 @@ In [[first-order logic]], a paradigmatic example of a judgement is the judgement
 
 Another example of a judgement is the judgement that these symbols form a proposition [[proof|proved]] to be [[true]].  This judgment is often written as "$P\;true$".
 
-Neither of these judgements is the same thing as the proposition $P$ itself.  In particular, the proposition is a statement *in* the logic, while the judgement that the proposition is a proposition, or is provably true, is a statement *about* the logic.  However, often people abuse notation and conflate a proposition with the judgment that it is true, writing $P$ instead of than $P\;true$.
+Neither of these judgements is the same thing as the proposition $P$ itself.  In particular, the proposition is a statement *in* the logic, while the judgement that the proposition is a proposition, or is provably true, is a statement *about* the logic.  However, often people abuse notation and conflate a proposition with the judgment that it is true, writing $P$ instead of $P\;true$.
 
 
 ### In type theory
