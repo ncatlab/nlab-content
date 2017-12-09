@@ -1406,7 +1406,7 @@ $$
   \left\{
     c^\alpha R_\alpha^{a'} \phi^\ddagger_{a'}
     \,,\,
-    \phi^\dagger_a
+    \phi^\ddagger_a
   \right\}
   \\
   & =
@@ -1464,9 +1464,9 @@ $$
     c^\ddagger_{\alpha}
   \right\}
   R_{\alpha'}^a \phi^{\ddagger}_a
-  \;-\;
+  \;+\;
   \tfrac{1}{2} \gamma^{\alpha'}{}_{\beta \gamma}
-  \underset{ = c^\beta \delta_{\alpha}^\gamma - \delta_{\alpha}^\beta c^\gamma}{
+  \underset{ = - c^\beta \delta_{\alpha}^\gamma + \delta_{\alpha}^\beta c^\gamma}{
   \underbrace{
   \left\{
     c^\beta c^\gamma
@@ -1498,9 +1498,11 @@ $\,$
 **[[local BV-BRST complex|local]] [[antibracket]]**
  {#LocalJetBundleAntibracket}
 
+The following is the direct refinement of the concept of the underlying [[graded manifold]] of the infinitesimal [[cotangent bundle]] of an [[action Lie algebroid]] in example \ref{CotangentBundleOfActionLieAlgebroid} to the case where the base manifold is generalized to a [[field bundle]] (def. \ref{FieldsAndFieldBundles}) and the [[Lie algebra]] to a [[gauge parameter bundle]] (def. \ref{GaugeParameters}):
 
-+-- {: .num_defn}
++-- {: .num_defn #InfinitesimalCotangentBundleOfFieldAndGaugeParameterBundle}
 ###### Definition
+**([[infinitesimal neighbourhood]] of [[zero section]] in [[cotangent bundle]] of [[fiber product]] of [[field bundle]] with shifted [[gauge parameter bundle]])**
 
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
 over some [[spacetime]] $\Sigma$, and let $\mathcal{G} \overset{gb}{\to} \Sigma$ be
@@ -1529,10 +1531,95 @@ $$
 
 for the [[infinitesimal neighbourhood]] of the [[zero section]] of the [[vertical cotangent bundle]] of the [[graded manifold|graded]] [[fiber product]] of the [[field bundle]] with the fiber-wise shifted [[gauge parameter bundle]].
 
+In [[local coordinates]] this means the following: Assuming that the [[field bundle]] $E$ and the [[gauge parameter bundle]] $\mathcal{G}$ are [[trivial vector bundles]] (example \ref{TrivialVectorBundleAsAFieldBundle}) with fiber coordinates $(\phi^a)$ and $(c^\alpha)$, respectively, then $T^\ast_{\Sigma,inf}\left(E \times_\Sigma (\mathcal{G}[1])\right)$ is the trivial graded vector bundle with fiber coordinates
+
+$$
+  \label{coordslocalOnInfinitesimalCotangentOfFieldBundleTimesGaugeParameterBundle}
+  \array{
+    & (c^\ddagger_\alpha), & (\phi^\ddagger_a),(\phi^a), &  (c^\alpha)
+    \\
+    deg = & -1 & 0 & 1
+  }
+$$
+
+and such that smooth functions on $T^\ast_{\Sigma,inf}\left(E \times_\Sigma (\mathcal{G}[1])\right)$ are [[formal power series]] in $c^\ddagger_\alpha$ (necessarily due to degree reasons) and in $\phi^\ddagger_a$ (reflecting the [[infinitesimal neighbourhood]] of the [[zero section]]).
+ 
 =--
 
 
-Recall the global [[antibracket]] on an [[action Lie algebroid]] from def. \ref{SchoutenBracketAndAntibracket}. On the jet bundle we consider the following modification:
+
+The following is the direct refinement of the concept of the [[Schouten bracket]] on an [[action Lie algebroid]] from def. \ref{SchoutenBracketAndAntibracket} to the case where the base manifold is generalized to the [[jet bundle]] (def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) [[field bundle]] (def. \ref{FieldsAndFieldBundles}) and the [[Lie algebra]] to the [[jet bundle]] of a [[gauge parameter bundle]] (def. \ref{GaugeParameters}):
+
++-- {: .num_defn}
+###### Definition
+
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
+over [[Minkowski spacetime]] $\Sigma$ (def. \ref{MinkowskiSpacetime}), and let $\mathcal{G} \overset{gb}{\to} \Sigma$ be a bundle of [[gauge parameters]] (def. \ref{GaugeParametrizedInfinitesimalGaugeTransformation}) which are closed (def. \ref{GaugeParametersClosed}),
+inducing via example \ref{LocalOffShellBRSTComplex} the [[Lie algebroid]]
+
+$$
+  E / ( \mathcal{G} \times_\Sigma T \Sigma )
+  \;=\;
+  \left(
+    J^\infty_\Sigma( E \times_\Sigma (\mathcal{G}[1]) )
+    ,
+    s_{BRST} )
+  \right)
+$$
+
+whose [[Chevalley-Eilenberg algebra]] is the _[[local BRST complex]]_ of the field theory as well as the infinitesimal [[vertical cotangent bundle]] 
+
+$$
+  T^\ast_{\Sigma,inf}\left(
+    E \times_\Sigma (\mathcal{G}[1])
+  \right)
+$$
+
+of its underlying graded bundle
+from def. \ref{InfinitesimalCotangentBundleOfFieldAndGaugeParameterBundle}. On the horizontal $p+1$-forms (def. \ref{VariationalBicomplexOnSecondOrderJetBundleOverTrivialVectorBundleOverMinkowskiSpacetime}) the _[[local antibracket]]_
+
+$$
+  \{-,-\}'
+  \;\colon\;
+  \Omega^{p+1,0}_\Sigma( T^\ast_{\Sigma,inf}(E \times_\Sigma \mathcal{G}[1]) )
+    \otimes
+  \Omega^{p+1,0}_\Sigma( T^\ast_{\Sigma,inf}(E \times_\Sigma \mathcal{G}[1]) )
+    \longrightarrow
+  \Omega^{p+1,0}_\Sigma( T^\ast_{\Sigma,inf}(E \times_\Sigma \mathcal{G}[1]) )
+$$
+
+is the map given in the [[local coordinates]] (eq:coordslocalOnInfinitesimalCotangentOfFieldBundleTimesGaugeParameterBundle) by
+
+$$
+  \begin{aligned}
+    \left\{ f\, dvol_\Sigma \,,\,g \, dvol_\Sigma \right\}
+    & =
+    \phantom{+}
+    \left(
+    \frac{\overset{\leftarrow}{\delta}_{EL} f }{\delta \phi^\ddagger_a}
+    \frac{\overset{\rightarrow}{\delta}_{EL} g}{\delta \phi^a}
+    -
+    \frac{\overset{\leftarrow}{\delta}_{EL}}{\delta \phi^a}
+    \frac{\overset{\rightarrow}{\delta}_{EL} g}{\delta \phi^\ddagger_a}
+    \right)
+    dvol_\Sigma
+    \\
+    &
+    \phantom{=} + 
+    \left(
+    \frac{\overset{\leftarrow}{\delta}_{EL} f}{\delta c^\ddagger_\alpha}
+    \frac{\overset{\rightarrow}{\delta}_{EL} g}{\delta c^\alpha}
+    -
+    \frac{\overset{\leftarrow}{\delta}_{EL}}{\delta c^\alpha}
+    \frac{\overset{\rightarrow}{\delta}_{EL} g}{\delta c^\ddagger_\alpha}
+    \right)
+    dvol_\Sigma
+  \end{aligned}
+$$
+
+which is of the form of the [[Schouten bracket]] (eq:Antibracket) but with [[Euler-Lagrange derivatives]] (eq:EulerLagrangeEquationGeneral) instead of [[partial derivatives]].
+
+and the variant
 
 $$
   \label{LocalCommutatorOfDerivationsOnJetBundle}
@@ -1591,7 +1678,7 @@ $$
 
 where $\frac{\delta_{EL}}{\delta \phi^a}$ denotes the [[Euler-Lagrange variational derivative]] (eq:EulerLagrangeEquationGeneral) ([Barnich-Henneaux 96 (2.12)-(2.13)](local+BRST+cohomology#BarnichHenneaux96)).
 
-
+=--
 
 $\,$
 
