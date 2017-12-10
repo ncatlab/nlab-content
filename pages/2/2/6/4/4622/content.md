@@ -36,7 +36,7 @@ Constructive logic is still [[two-valued logic|two-valued]] in the sense that an
 
 ### In linear logic
 
-In [[linear logic]], there is both _additive_ truth, denoted $0$, and _multiplicative_ truth, denoted $\bot$.  Despite the notation, it is $0$ that is the [[bottom element]] of the lattice of linear truth values.  (In particular, $0 \vdash \bot$ but $\bot \nvdash 0$.)
+In [[linear logic]], there is both _additive_ falsity, denoted $0$, and _multiplicative_ falsity, denoted $\bot$.  Despite the notation, it is $0$ that is the [[bottom element]] of the lattice of linear truth values.  (In particular, $0 \vdash \bot$ but $\bot \nvdash 0$.)
 
 
 ### In a topos
