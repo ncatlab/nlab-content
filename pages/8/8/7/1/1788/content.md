@@ -61,7 +61,7 @@ In particular for $(E,\mathbf{L})$ a [[Lagrangian field theory]] (def. \ref{Loca
 
 =--
 
-+-- {: .num_defn #States}
++-- {: .num_defn #StateOnAStarAlgebra#}
 ###### Definition
 **([[state on a star-algebra]])**
 
@@ -105,7 +105,15 @@ such that
 
 (e.g. [Bordemann-Waldmann 96](state+on+a+star-algebra#BordemannWaldmann96), [Fredenhagen-Rejzner 12, def. 2.4](state+on+a+star-algebra#FredenhagenRejzner12), [Khavkine-Moretti 15, def. 6](state+on+a+star-algebra#KhavkineMoretti15))
 
-A [[star algebra]] $\mathcal{A}$ equipped with a state this way is also called a _[[quantum probability space]]_, at least when $\mathcal{A}$ is in fact a [[von Neumann algebra]].
++-- {: .num_remark #ProbabilityTheoreticInterpretationOfStateOnAStarAlgebra}
+###### Remark
+**([[probability theory|probability theoretic]] interpretation of [[state on a star-algebra]])**
+
+A [[star algebra]] $\mathcal{A}$ (def. \ref{StarAlgebra}) equipped with a [[state on a star-algebra|state]] $\mathcal{A} \overset{\langle -\rangle}{\longrightarrow} \mathbb{C}$ (def. \ref{States}) is also called a _[[quantum probability space]]_, at least when $\mathcal{A}$ is in fact a [[von Neumann algebra]]. 
+
+For this interpretation we think of each element $A \in \mathcal{A}$ as an [[observable]] as in example \ref{StarAlgebraOfObservables} and of the state as assigning _[[expectation values]]_.
+
+=--
 
 
 
@@ -151,7 +159,7 @@ for $p \in (0,1)$ implies that $\langle (-) \rangle_1 = \langle (-)\rangle_2$ (h
 ###### Definition
 **(classical state)**
 
-Given a [[Lagrangian field theory]] $(E,\mathbf{L})$ (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) then a _classical state_ is a [[state on a star-algebra|state on the star algebra]] (def. \ref{States}) of [[on-shell]] [[observables]] (example \ref{StarAlgebraOfObservables}):
+Given a [[Lagrangian field theory]] $(E,\mathbf{L})$ (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) then a _classical state_ is a [[state on a star-algebra|state on the star algebra]] (def. \ref{StateOnAStarAlgebra}) of [[on-shell]] [[observables]] (example \ref{StarAlgebraOfObservables}):
 
 $$
   \langle -\rangle
