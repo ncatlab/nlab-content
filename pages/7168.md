@@ -37,6 +37,7 @@ is a [[bilinear form]].
 
 From the converse point of view, $q$ is a [[quadratic refinement]] of the bilinear form $(-,-)$.  (This always exists uniquely if $2 \in k$ is invertible, but in general the question involves the [[characteristic elements of a bilinear form|characteristic elements]] of $(-u,-)$.  See there for more.)
 
+Quadratic forms with values in the [[real numbers]] $k = \mathbb[R}$ are called _positive define_ or _negative definite_ if $q(v) \gt 0$ or $q(v) \lt 0$, respectively, for all $v \neq 0$.
 
 ## Related concepts
 
@@ -95,6 +96,11 @@ Quadratic refinements of [[intersection pairing]] in [[cohomology]] is a powerfu
 
 * [[Mike Hopkins]], [[Isadore Singer]], _[[Quadratic Functions in Geometry, Topology, and M-Theory]]_
 
+See also 
+
+* Wikipedia, _[Quadratic form](https://en.wikipedia.org/wiki/Quadratic_form)_
+
+* Wikipedia, _[Definitine quadratic form](https://en.wikipedia.org/wiki/Definite_quadratic_form)_
 
 [[!redirects quadratic form]]
 [[!redirects quadratic forms]]
@@ -105,5 +111,18 @@ Quadratic refinements of [[intersection pairing]] in [[cohomology]] is a powerfu
 [[!redirects signature of a quadratic form]]
 [[!redirects signatures of a quadratic form]]
 [[!redirects signatures of quadratic forms]]
+
+[[!redirects positive definite quadratic form]]
+[[!redirects positive definite quadratic forms]]
+
+[[!redirects negative definite quadratic form]]
+[[!redirects negative definite quadratic forms]]
+
+[[!redirects positive quadratic form]]
+[[!redirects positive quadratic forms]]
+
+[[!redirects negative quadratic form]]
+[[!redirects negative quadratic forms]]
+
 
 
