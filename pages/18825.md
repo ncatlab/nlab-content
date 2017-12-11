@@ -2592,7 +2592,7 @@ $$
 
 <img src="https://ncatlab.org/nlab/files/ContourForCausalPropagator.png" height="160">
 
-> graphics grabbed from [Kocic 16](#Kocic16)
+> graphics grabbed from [Kocic 16](advanced+and+retarded+causal+propagators#Kocic16#Kocic16)
 
 
 +-- {: .proof}
@@ -2798,7 +2798,7 @@ where the [[Jordan curve]] $C_+(\vec k) \subset \mathbb{C}$ runs counter-clockwi
 
 <img src="https://ncatlab.org/nlab/files/ContourForHadamardPropagator.png" height="200">
 
-> graphics grabbed from [Kocic 16](#Kocic16)
+> graphics grabbed from [Kocic 16](advanced+and+retarded+causal+propagators#Kocic16#Kocic16)
 
 =--
 
@@ -4149,7 +4149,7 @@ $$
 
 This expression has singularities on the [[light cone]] due to the [[step functions]].
 In fact the expression being differentiated is continuous at the light cone
-([Scharf 95 (2.3.34)](#Scharf95)), so that the singularity on the light cone is not a [[delta distribution]]
+([Scharf 95 (2.3.34)](causal+perturbation+theory#Scharf95)), so that the singularity on the light cone is not a [[delta distribution]]
 singularity from the derivative of the step functions. Accordingly it does not cancel the singularity
 of $\tfrac{i}{2}\Delta_S(x,y)$ as above, and hence the singular support of $\Delta_H$ is still the whole
 light cone.
