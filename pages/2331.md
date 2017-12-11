@@ -56,7 +56,7 @@ let $R$ be a [[ring]], to be thought of as the ring of functions on the [[space]
 Then consider the new ring, whose underlying group is the [[direct sum]] $R \oplus N$, equipped with the product structure
 
 $$
-  (r_1, n_1) \cdot (r_2, n_2) = (r_1 r_2, r_1 n_2 + n_2 r_1)
+  (r_1, n_1) \cdot (r_2, n_2) = (r_1 r_2, r_1 n_2 + n_1 r_2)
   \,.
 $$
 
