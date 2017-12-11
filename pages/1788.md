@@ -61,7 +61,7 @@ In particular for $(E,\mathbf{L})$ a [[Lagrangian field theory]] (def. \ref{Loca
 
 =--
 
-+-- {: .num_defn #StateOnAStarAlgebra#}
++-- {: .num_defn #StateOnAStarAlgebra}
 ###### Definition
 **([[state on a star-algebra]])**
 
@@ -152,6 +152,92 @@ $$
 for $p \in (0,1)$ implies that $\langle (-) \rangle_1 = \langle (-)\rangle_2$ (hence $= \langle (-)\rangle$).
 
 =--
+
+
++-- {: .num_prop #ClassicalProbabilityMeasureAsStateOnMeasurableFunctions}
+###### Proposition
+**(classical [[probability measure]] as state on [[measurable functions]])**
+
+For $\Omega$ classical [[probability space]], hence a [[measure space]] which normalized total measure $\int_\Omega d\mu = 1$, let $\mathcal{A} \cloneqq L^1(\Omega)$ be the algebra of Lebesgue [[measurable functions]] with values in the [[complex numbers]], regarded as a [[star algebra]] (def. \ref{StarAlgebra}) by pointwise [[complex conjugation]] as in example \ref{StarAlgebraOfObservables}. Then forming the [[expectation value]] with respect to $\mu$ defines a [[state on a star-algebra|state]] (def. \ref{StateOnAStarAlgebra}):
+
+$$
+  \array{
+    L^1(\Omega) 
+      &\overset{\langle (-)\rangle_\mu}{\longrightarrow}& 
+    \mathbb{C}
+    \\
+    A &\mapsto& \int_\Omega A d\mu
+  }
+$$
+
+
+=--
+
++-- {: .num_example #ElementsOfHilbertSpaceAsPureStates}
+###### Example
+**(elements of a [[Hilbert space]] as [[pure states]] on [[bounded operators]])**
+
+Let $\mathcal{H}$ be a [[complex numbers|complex]] [[separable Hilbert space|separable]] [[Hilbert space]] with [[inner product]] $\langle -,-\rangle$ and let $\mathcal{A} \coloneqq \mathcal{B}(\mathcal{H})$ be the algebra of [[bounded operators]], regarded as a [[star algebra]] (def. \ref{StarAlgebra}) under forming [[adjoint operators]]. Then for every element $\psi \in \mathcal{H}$ of unit [[norm]] $\langle \psi,\psi\rangle = 1$ there is the [[state on a star-algebra|state]] (def. \ref{StateOnAStarAlgebra}) given by
+
+$$
+  \array{
+    \mathcal{B}(\mathcal{H})
+      &\overset{\langle (-)\rangle_\psi}{\longrightarrow}&
+     \mathbb{C}
+     \\
+     A &\mapsto& \langle \psi \vert\, A \, \vert \psi \rangle &\coloneqq& \langle \psi, A \psi \rangle
+  }
+$$
+
+These are [[pure states]] (def. \ref{PureStateOnAStarAlgebra}).
+
+More general states in this case are given by [[density matrices]].
+
+=--
+
++-- {: .num_theorem #GNSConstruction}
+###### Theorem
+**([[GNS construction]])**
+
+Given 
+
+1. a [[star-algebra]], $\mathcal{A}$ (def. \ref{StarAlgebra});
+
+1. a [[state on a star-algbra|state]], $\langle (-)\rangle \;\colon\; \mathcal{A} \to \mathbb{C}$ (def. \ref{StateOnAStarAlgebra})
+
+there exists 
+
+1. a [[star-representation]]
+
+   $$
+     \pi 
+     \;\colon\;
+     \mathcal{A}
+      \longrightarrow
+      End(\mathcal{H})
+   $$
+
+   of $\mathcal{A}$ on some [[Hilbert space]] $\mathcal{H}$
+
+1. a [[cyclic vector]] $\psi \in \mathcal{H}$ 
+
+such that $\langle (-)\rangle$ is the state corresponding to $\psi$ via example \ref{ElementsOfHilbertSpaceAsPureStates}, in that
+
+$$
+  \begin{aligned}
+    \langle A \rangle
+      & = \langle \psi \vert\, A \, \vert \psi \rangle
+      \\
+      & \coloneqq
+      \langle \psi , \pi(A) \psi \rangle
+  \end{aligned}
+$$
+
+for all $A \in \mathcal{A}$.
+
+=--
+
+([Khavkine-Moretti 15, theorem 1](GNS+construction#KhavkineMoretti15))
 
 
 
