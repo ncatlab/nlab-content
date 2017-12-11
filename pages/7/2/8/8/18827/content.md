@@ -635,9 +635,11 @@ $$
 
 This means equivalently (details are at _[[derived critical locus]]_) that the Chevalley-Eilenberg algebra of $\mathfrak{a}_{d S \simeq 0}$ is like that of the infinitesimal cotangent Lie algebroid $T^\ast_{inf} \mathfrak{a}$ (def. \ref{LieAlgebroidInfinitesimalCotangentBundle}) except for two changes:
 
-1. all [[derivations]] are shifted down in degree by one;
+1. all [[derivations]] are shifted down in degree by one; 
 
-1. the CE-differential on the derivations coming from vector fields $v$ on $X$ is that of the infinitesimal cotangent Lie algebroid $T^\ast_{inf} \mathfrak{a}$ plus $d S(v) = v(S)$.
+   rephrased in terms of [[graded manifold]] (remark \ref{dgManifolds}) this means that the [[graded manifold]] underlying $\mathfrak{a}_{d S \simeq 0}$ is $T^\ast_{inf}[-1]\mathfrak{a}$;
+
+1. the [[Chevalley-Eilenberg differential]] on the derivations coming from [[tangent vector fields]] $v$ on $X$ is that of the infinitesimal cotangent Lie algebroid $T^\ast_{inf} \mathfrak{a}$ plus $d S(v) = v(S)$.
 
 
 =--
@@ -695,6 +697,49 @@ $$
     +1
   }
 $$
+
+Rephrased in terms of [[graded manifold]] (remark \ref{dgManifolds}) this means that the [[graded manifold]] underlying the derived critical locus is the _shifted infinitesimal cotangent bundle_ of the graded manifold $\mathfrak{g}[1] \times X$ (eq:ActionLieAlgebroidGradedManifold) which underlies the [[action Lie algebroid]] (def. \ref{ActionLieAlgebroid}):
+
+$$
+  (X/\mathfrak{g})_{d S \simeq 0}
+    \;=_{grmfd}\;
+  T^\ast_{inf}[-1]\left( \mathfrak{g}[1] \times X \right)
+$$
+
+and if $X = \mathbb{R}^{b\vert s}$ is a [[super Cartesian space]] this becomes more specifically
+
+$$
+  \begin{aligned}
+    (\mathbb{R}^{p \vert q}/\mathfrak{g})_{d S \simeq 0}
+      & =_{grmfd}
+    T^\ast_{inf}[-1]\left( \mathfrak{g}[1] \times \mathbb{R}^{p \vert q} \right)
+    \\
+    & =_{\phantom{grmfd}}
+    \underset{
+       (c^\alpha)
+    }{ 
+    \underbrace{
+     \mathfrak{g}[1] 
+    }}
+      \times 
+    \underset{ (\phi^a) }{
+    \underbrace{
+      \mathbb{R}^{p\vert q}
+    }}
+      \times
+    \underset{ (\phi^\ddagger_a) }{
+    \underbrace{
+      (\mathbb{R}^{p \vert q})^\ast_{inf}[-1]
+    }}
+      \times
+    \underset{ (c^\dagger_\alpha) }{
+    \underbrace{
+      \mathfrak{g}^\ast[-2]
+    }}
+  \end{aligned}
+$$
+
+
 
 Moreover, on these generators the CE-differential is given by
 
@@ -1046,7 +1091,20 @@ $$
 
 all three terms have to vanish separately, as shown, since they each have different bidegree (the last term denotes the graded commutator, hence the [[anticommutator]]). This is the statement to be proven.
 
-Notice that the nilpotency of $s_{BV}$ is also immediately checked explicitly, due to the [[invariant|invariance]] of $S$ (example \ref{GaugeInvariantFunctionsIntermsOfLieAlgebroids}).
+Notice that the nilpotency of $s_{BV}$ is also immediately checked explicitly, due to the [[invariant|invariance]] of $S$ (example \ref{GaugeInvariantFunctionsIntermsOfLieAlgebroids}):
+
+$$
+  \begin{aligned}
+    s_{BV} \left( s_{BV} \left( c^\ddagger_\alpha \right) \right)
+    & =
+    s_BV\left( R_\alpha^a \phi^\ddagger_a \right)
+    \\
+    & =
+    R_\alpha^a \frac{\partial S}{\partial \phi^a}
+    \\
+    & = 0
+  \end{aligned}
+$$
 
 =--
 
