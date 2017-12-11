@@ -171,6 +171,28 @@ Other theorems about the foundations of [[quantum mechanics]] include:
 
 * [[Bell's inequalities]]
 
+
+Other theorems about the foundations and [[interpretation of quantum mechanics]] include:
+
+* [[order-theoretic structure in quantum mechanics]]
+
+  * [[Alfsen-Shultz theorem]]
+
+  * [[Harding-Döring-Hamhalter theorem]]
+
+* [[Fell's theorem]]
+
+* [[Gleason's theorem]]
+
+* [[Wigner theorem]]
+
+* [[Bell's theorem]]
+
+* [[Bub-Clifton theorem]]
+
+* [[Kadison-Singer problem]]
+
+
 ## References
 
 The original article is
