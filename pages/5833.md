@@ -60,6 +60,10 @@ $$ C_0(X)^* \cong RM(X) .$$
 
 ## $L_0^* = BA$
 
+## Related concepts
+
+* [[GNS construction]]
+
 
 ## References
 
