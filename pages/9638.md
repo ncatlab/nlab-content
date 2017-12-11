@@ -49,6 +49,8 @@ There are arguments that a good formal context for quantum computing is (via [[c
 
 * [[computable physics]]
 
+* [[quantum probability]]
+
 ## References
 
 ### General
