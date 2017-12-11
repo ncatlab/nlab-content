@@ -27,7 +27,7 @@
 
 
 ## Idea ##
-Fell's theorem is about a property of vector [[states]] of a [[C-star algebra]], it says that if the kernels of two representations of the algebra coincide, then the vector [[states]] are mutually weak-* dense. This has a profound consequence for the [[AQFT]] interpretation: A state represents the physical state of a physical system. Since one can always only perform a finite number of measurements, with a finite precision, it is only possible to determine a weak-* neigborhood of a given state. This means that it is not possible - not even in principle - to distinguish representations with coinciding kernels by measurements. 
+Fell's theorem is about a property of vector [[state on a star-algebra|states]] of a [[C-star algebra]], it says that if the kernels of two representations of the algebra coincide, then the vector [[states]] are mutually weak-* dense. This has a profound consequence for the [[AQFT]] interpretation: A state represents the physical state of a physical system. Since one can always only perform a finite number of measurements, with a finite precision, it is only possible to determine a weak-* neigborhood of a given state. This means that it is not possible - not even in principle - to distinguish representations with coinciding kernels by measurements. 
 
 For this reason representations with coinciding kernels are sometimes called **physically equivalent** in the [[AQFT]] literature.
 
@@ -40,6 +40,30 @@ Let A be a unital $C^*-$algebra and $\pi_1, \pi_2$ be two representations of A o
 **equivalence theorem**
 Every vector state of $\pi_1$ is the weak-* limit of vector states of $\pi_2$ iff the kernel of $\pi_1$ contains the kernel of $\pi_2$. 
 =--
+
+## Related concepts
+
+
+
+Other theorems about the foundations and [[interpretation of quantum mechanics]] include:
+
+* [[order-theoretic structure in quantum mechanics]]
+
+  * [[Kochen-Specker theorem]]
+
+  * [[Alfsen-Shultz theorem]]
+
+  * [[Harding-Döring-Hamhalter theorem]]
+
+* [[Gleason's theorem]]
+
+* [[Wigner theorem]]
+
+* [[Bell's theorem]]
+
+* [[Bub-Clifton theorem]]
+
+* [[Kadison-Singer problem]]
 
 
 ## References ##
