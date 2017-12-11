@@ -194,6 +194,30 @@ $$
 
 Then (14) is violated for $0 \lt \theta \lt \frac{\pi}{2}$.  For example, if $\theta = \frac{\pi}{4}$, (14) would become $0.500 \le 0.292$ which is absurd!
 
+## Related concepts
+
+
+Other theorems about the foundations and [[interpretation of quantum mechanics]] include:
+
+* [[order-theoretic structure in quantum mechanics]]
+
+  * [[Kochen-Specker theorem]]
+
+  * [[Alfsen-Shultz theorem]]
+
+  * [[Harding-Döring-Hamhalter theorem]]
+
+* [[Fell's theorem]]
+
+* [[Gleason's theorem]]
+
+* [[Wigner theorem]]
+
+* [[Bub-Clifton theorem]]
+
+* [[Kadison-Singer problem]]
+
+
 ## References
 
 The original paper outlining [[Bell's theorem]] is
