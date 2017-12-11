@@ -1339,6 +1339,16 @@ of a [[finite-dimensional vector space|finite-dimensional]] [[super Lie algebra]
      \cdots
    $$
 
+   which means that the [[graded manifold]] underlying the action Lie algebroid according to remark \ref{dgManifolds} is
+
+   $$
+     \label{ActionLieAlgebroidGradedManifold}
+     X/\mathfrak{g}
+      \;=_{grmfd}\; 
+    \mathfrak{g}[1] \times X 
+     \,,
+   $$
+
 1. whose [[differential]] $d_{CE}$ is given
 
    1. on functions $f \in C^\infty(X)$ by the [[linear dual]] of the Lie algebra action
