@@ -86,11 +86,12 @@ such that
 
 (e.g. [Bordemann-Waldmann 96](#BordemannWaldmann96), [Fredenhagen-Rejzner 12, def. 2.4](#FredenhagenRejzner12), [Khavkine-Moretti 15, def. 6](#KhavkineMoretti15))
 
+A [[star algebra]] $\mathcal{A}$ equipped with a state this way is also called a _[[quantum probability space]]_, at least when $\mathcal{A}$ is in fact a [[von Neumann algebra]].
 
 
 +-- {: .num_remark #StatesFormAConvexSet}
 ###### Remark
-**([[states]] form a [[convex set]])**
+**([[state on a star-algebra|states]] form a [[convex set]])**
 
 For $\mathcal{A}$ a unital [[star-algebra]], the [[set]] of states on $\mathcal{A}$ according to def. \ref{StateOnAStarAlgebra} is naturally a [[convex set]]: For $\rho_1, \rho_2 \colon \mathcal{A} \to \mathbb{C}$ two states then for every $p \in [0,1] \subset \mathbb{R}$ also the [[linear combination]]
 
@@ -215,12 +216,11 @@ The term "pure" originates from the notion of [[entanglement]], a pure state is 
 
 ## Properties
 
-An important theorem for the physical interpretation of states is [[Fell's theorem]].
+* [[Fell's theorem]];
+
+* [[Gleason's theorem]]
 
 
-## Examples 
-
-...
 
 
 ## Related concepts
