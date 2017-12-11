@@ -63,6 +63,8 @@ Introduction to quantum probability theory includes
 * {#Attal} S. Attal, _Quantum probability_ ([pdf](http://math.univ-lyon1.fr/~attal/Quantum_Probability.pdf))
 
 
+* {#Yuan12} [[Qiaochu Yuan]], _[Noncommutative probability](https://qchu.wordpress.com/2012/08/18/noncommutative-probability/)_, 2012
+
 [[!redirects quantum probability theory]]
 
 [[!redirects quantum probability space]]
