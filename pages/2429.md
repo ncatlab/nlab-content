@@ -84,3 +84,6 @@ If however $f$ is a _surjective_ isometry between normed vector spaces, then $f$
 [[!redirects isometries]]
 [[!redirects global isometry]]
 [[!redirects global isometries]]
+
+[[!redirects isometric isomorphism]]
+[[!redirects isometric isomorphisms]]
