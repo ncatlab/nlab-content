@@ -121,25 +121,31 @@ See at _[[Bohr topos]]_ for more.
 
 * [[interpretation of quantum mechanics]]
 
-  * [[order-theoretic structure in quantum mechanics]]
+* [[order-theoretic structure in quantum mechanics]]
 
-    * [[Bub-Clifton theorem]]
+  * [[Kochen-Specker theorem]]
 
-    * [[Kochen-Specker theorem]]
+  * [[Alfsen-Shultz theorem]]
 
-    * [[Gleason's theorem]]
+  * [[Harding-Döring-Hamhalter theorem]]
 
-    * [[Alfsen-Shultz theorem]]
+* [[Fell's theorem]]
 
-    * [[Harding-Döring-Hamhalter theorem]]
+* [[Gleason's theorem]]
 
-  * [[Bell's theorem]]
+* [[Wigner theorem]]
 
-  * [[Wigner theorem]]
+* [[Bell's theorem]]
+
+* [[Bub-Clifton theorem]]
+
+* [[Kadison-Singer problem]]
 
 * [[collapse of the wave function]]
 
 * [[qbit]]
+
+* [[quantum probability]]
 
 * [[quantum circuit]]
 
