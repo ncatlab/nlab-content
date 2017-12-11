@@ -20,7 +20,7 @@
 
 ## Idea
 
-In [[physics]] the [[critical locus]] of the [[action functional]], hence the solution space to the [[equations of motion]] is often called the _shell_, or the _physical shell_. 
+In [[physics]] the [[critical locus]] of the [[action functional]], hence the [[solution]] space to the [[partial differential equation|partial differential]] [[equations of motion]] is often called the _shell_, or the _physical shell_ (the [[diffiety]] corresponding to the PDE of motion). 
 
 This terminology derives from the case of the free [[relativistic particle]] propagating in [[Minkowski spacetime]], for which the space of solutions is the hyperbola of vectors whose [[Minkowski metric|Minkowski norm square]] is the [[mass]] of the particle. This hyperbola is naturally called the _mass shell_.
 
@@ -42,7 +42,7 @@ $$
   }
 $$
 
-of the [[jet bundle]] $J^\infty_\Sigma E$ of $E$, namely the subbundle of those pointwise field configurations with those jets (derivatives) that do solve the equations of motion.
+of the [[jet bundle]] $J^\infty_\Sigma E$ of $E$, namely the subbundle of those pointwise field configurations with those jets (derivatives) that do solve the equations of motion (see at _[[diffiety]]_).
 
 This way a field configuration given by a section $\phi$ of $E$ is a solution to the equations of motion precisely if its [[jet prolongation]], being a section of $J^\infty_\Sigma E$ comes from a section of $\mathcal{E}$ under this inclusion.
 
