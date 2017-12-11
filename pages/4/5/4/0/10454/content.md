@@ -69,7 +69,8 @@ same [[state on an operator algebra|states]] precisely if they are Jordan-isomor
 
 ## Related theorems
 
-Other theorems on the foundations and [[interpretation of quantum mechanics]] include
+
+Other theorems about the foundations and [[interpretation of quantum mechanics]] include:
 
 * [[order-theoretic structure in quantum mechanics]]
 
@@ -77,13 +78,17 @@ Other theorems on the foundations and [[interpretation of quantum mechanics]] in
 
   * [[Alfsen-Shultz theorem]]
 
-  * [[Gleason's theorem]]
+* [[Fell's theorem]]
+
+* [[Gleason's theorem]]
 
 * [[Wigner theorem]]
 
 * [[Bell's theorem]]
 
 * [[Bub-Clifton theorem]]
+
+* [[Kadison-Singer problem]]
 
 ## References
 
