@@ -30,17 +30,26 @@ Given a [[Hilbert space]] $H$ and a [[quantum observable]] represented by a [[He
 
 * [[beable]]
 
+
+Other theorems about the foundations and [[interpretation of quantum mechanics]] include:
+
 * [[order-theoretic structure in quantum mechanics]]
 
-  * [[Gleason's theorem]]
+  * [[Kochen-Specker theorem]]
 
   * [[Alfsen-Shultz theorem]]
 
   * [[Harding-Döring-Hamhalter theorem]]
 
-* [[Bell's theorem]]
+* [[Fell's theorem]]
+
+* [[Gleason's theorem]]
 
 * [[Wigner theorem]]
+
+* [[Bell's theorem]]
+
+* [[Kadison-Singer problem]]
 
 
 ## References
