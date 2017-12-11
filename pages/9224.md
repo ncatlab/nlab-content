@@ -13,6 +13,12 @@
 * table of contents
 {:toc}
 
+## Idea
+
+In [[probability theory]] the _expectation value_ of a _[[random variable]]_ or _[[observable]]_ is to be thought of as the _[[mean]]_ value of that variable/observable under the given [[probabilities]].
+
+Taking the concept of expectation value as the primary concept ([Whittle 92](#Whittle92)) leads to _[[quantum probability theory]]_.
+
 ## Definition
 
 For $(X, \mu)$ a [[measure space]] of finite total measure $\int_X \mu$ and for $f$ an [[measurable function]] on $X$, a _[[random variable]]_, then its **expectation value** is 
@@ -40,5 +46,11 @@ $$
 * [[vacuum expectation value]]
 
 * [[Feynman diagram]]
+
+## References
+
+
+* {#Whittle92} [[Peter Whittle]], _Probability via expectation_, Springer 1992
+
 
 [[!redirects expectation values]]
