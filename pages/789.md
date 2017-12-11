@@ -172,6 +172,8 @@ It was in particular motivated by the observation that this provides a natural f
 
 * [[Bn-geometry]]
 
+* [[generalized contact geometry]]
+
 ## References
 
 #### General
