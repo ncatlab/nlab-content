@@ -20,9 +20,9 @@ A __$*$-algebra__ is an [[associative algebra]] (or even a [[nonassociative alge
 
 ## Definition
 
-In more detail, begin with a [[commutative ring]] (often a [[field]], or possibly just a [[rig]]) $K$ equipped with an [[involution]] (a [[homomorphism]] whose square is the [[identity morphism|identity]]), written $x \mapsto \bar{x}$.  (The usual example for $K$ is the field of [[complex numbers]], but the concept of $*$-algebra makes sense in more general contexts.  Note that we can take *any* commutative ring $K$ and simply define $\bar{x} \coloneqq x$.)
+In more detail, begin with a [[commutative ring]] (often a [[field]], or possibly just a [[rig]]) $K$ equipped with an [[involution]] (a [[homomorphism]] whose square is the [[identity morphism|identity]]), written $x \mapsto \bar{x}$.  (The usual example for $K$ is the field of [[complex numbers]] with involution given by [[complex conjugation]], but the concept of $*$-algebra makes sense in more general contexts.  Note that we can take *any* commutative ring $K$ and simply define $\bar{x} \coloneqq x$.)
 
-A __$K$-$*$-algebra__ (a $*$-algebra over $K$) is a $K$-[[module]] $A$ equipped with a $K$-[[bilinear map]] $A\times A \to A$, written as multiplication (and often assumed to be associative) and a $K$-antilinear map $A \to A$, written as $x \mapsto x^*$, such that
+a __$K$-$*$-algebra__ (a $*$-algebra over $K$) is a $K$-[[module]] $A$ equipped with a $K$-[[bilinear map]] $A\times A \to A$, written as multiplication (and often assumed to be [[associativity|associative]]) and a $K$-antilinear map $A \to A$, written as $x \mapsto x^*$, such that
 
 * $x^{**} = x$ for all $x$ in $A$ (so we have an [[involution]] on the underlying $K$-module), and
 * $(x y)^* = y^* x^*$ for all $x,y$ in $A$ (so it is an anti-involution on $A$ itself).
@@ -52,17 +52,26 @@ Arguably, one should require that the map $*$ be an [[isometry]] (which follows 
 
 ## Examples
 
-A [[groupoid convolution algebra]] is naturally a $*$-algebra, with the [[involution]] given by pullback along the [[inverse|inversion]] operation of the groupoid.
+* A _[[C-star algebra]]_ is in particular a star-algebra.
 
-More generally the [[category convolution algebra]] of a [[dagger-category]] is a $*$-algebra, with the involution being the pullback along the $\dagger$ operation.
+* A [[groupoid convolution algebra]] is naturally a $*$-algebra, with the [[involution]] given by pullback along the [[inverse|inversion]] operation of the groupoid.
+
+* More generally the [[category convolution algebra]] of a [[dagger-category]] is a $*$-algebra, with the involution being the pullback along the $\dagger$ operation.
 
 
 ## Related concepts
 
-* [[star-representation]]
-
 * [[real part]], [[imaginary part]]
 
+* [[state on a star-algebra]]
+
+* [[star-representation]]
+
+## References
+
+See also 
+
+* Wikipedia, _[star-algebra](https://en.wikipedia.org/wiki/*-algebra)_
 
 [[!redirects star-algebra]]
 [[!redirects star-algebras]]
