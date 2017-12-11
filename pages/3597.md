@@ -20,7 +20,7 @@
 
 ## Idea
 
-In [[quantum mechanics]] a _density matrix_ is a linear endomorphism of a [[Hilbert space]] of pure [[quantum states]] that represents a [[statistical ensemble]] of [[quantum states]], hence [[mixed states]].
+In [[quantum mechanics]] a _density matrix_ is a linear endomorphism of a [[Hilbert space]] of pure [[quantum states]] that represents a [[statistical ensemble]] of [[quantum states]], hence [[state on a star-algebra|states]] which are not necessarily [[pure states]] but [[mixed states]].
 
 The space of density matrices inside all suitable endomorphisms is called the _[[Bloch region]]_.
 
