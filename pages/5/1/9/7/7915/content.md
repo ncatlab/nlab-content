@@ -67,6 +67,8 @@ One of the milestones in the study of contact geometry is Bennequin's proof of t
 
 * [[symplectic field theory]]
 
+* [[generalized contact geometry]]
+
 
 
 ## References
