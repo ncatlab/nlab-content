@@ -204,7 +204,7 @@ Notice that the condition of $A$ being a von Neumann algebra (being closed in th
 ## Relation to measurable spaces
  {#RelationToMeasureSpaces}
 
-The [[Gelfand-Naimark theorem|Gel'fand–Naimark theorem]] states that the category of [[localizable measurable spaces]] is contravariantly [[equivalence of categories|equivalent]] to (that is equivalent to the [[opposite category|opposite]] of) the category of commutative von Neumann algebras.  As such, arbitrary von Neumann algebras may be interpreted as 'noncommutative' measurable spaces in a sense analogous to [[noncommutative geometry]].
+The [[Gelfand-Naimark theorem|Gel'fand–Naimark theorem]] states that the category of [[localizable measurable spaces]] is contravariantly [[equivalence of categories|equivalent]] to (that is equivalent to the [[opposite category|opposite]] of) the category of commutative von Neumann algebras.  As such, arbitrary von Neumann algebras may be interpreted as 'noncommutative' measurable spaces in a sense analogous to [[noncommutative geometry]]. See at _[[noncommutative probability space]]_.
 
 
 ## Topics of interest for the understanding of AQFT
