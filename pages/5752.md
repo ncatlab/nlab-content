@@ -1,7 +1,7 @@
 
 Igor Khavkine is a mathematical physicist working on [[field theory]]. 
 
-* [website](http://www.science.unitn.it/~khavkine/)
+* [website](http://users.math.cas.cz/~khavkine/)
 
 ## Selected publications
 
