@@ -24,3 +24,5 @@ An adjoint does not need to exist in general.
 ##Related concepts
 
 * [[self-adjoint operator]]
+
+[[!redirects adjoint operators]]
