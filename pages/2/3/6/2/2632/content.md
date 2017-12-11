@@ -305,6 +305,8 @@ Quantum mechanics, as opposed to [[classical mechanics]], is necessary for an ac
 
   * [[Schrödinger picture]], [[Heisenberg picture]], [[Dirac picture]]
 
+  * [[quantum probability]]
+
   * [[propagator]]
 
   * [[quantum superposition]], [[quantum fluctuation]], [[quantum entanglement]]
