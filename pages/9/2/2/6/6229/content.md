@@ -29,6 +29,8 @@ Accordingly, a [[measurable function]] $f$ on a probability space has the interp
 
 * [[entropy]]
 
+* [[quantum probability space]]
+
 ## References
 
 The modern formal concept originates around
