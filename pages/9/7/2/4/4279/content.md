@@ -50,7 +50,7 @@ $$
   \mathbb{C}
 $$
 
-which is _positive_ in that $\langle A^\ast A\rangle \geq 0$ and _normalized_ in that $\langle 1\rangle = 1$.   Under suitable conditions a [[Hilbert space|Hilbert]] [[space of states]] may be (re-)constructed from this a posteriori via the _[[GNS construction]]_. 
+which is _positive_ in that $\langle A^\ast A\rangle \geq 0$ and _normalized_ in that $\langle 1\rangle = 1$.   Under suitable conditions a [[Hilbert space|Hilbert]] [[space of states]] may be (re-)constructed from this *a posteriori* via the _[[GNS construction]]_. 
 
 Traditionally this definition is considered for [[algebras of observables]] which are [[C*-algebras]] (as usually required for [[non-perturbative quantum field theory]], see e.g. [Fredenhagen 03, section 2](#Fredenhagen03)), but the definition makes sense generally for plain [[star-algebras]], such as for instance for the [[formal power series algebras]] that appear in [[perturbative quantum field theory]] (e.g. [Bordemann-Waldmann 96, def. 1](#BordemannWaldmann96), [Fredenhagen-Rejzner 12, def. 2.4](#FredenhagenRejzner12), [Khavkine-Moretti 15, def. 6](#KhavkineMoretti15)).
 
@@ -60,7 +60,7 @@ The perspective that states are normalized positive linear functionals on the al
 
 ## Definition
 
-### For unital star algebra
+### For unital star algebras
 
 +-- {: .num_defn #StateOnAStarAlgebra}
 ###### Definition
@@ -174,7 +174,7 @@ A **normal state** $\rho$ is a state that satisfies one of the following equival
 
 =--
 
-This apears as [KadisonRingrose, def. 7.1.11, theorem 7.1.12](#KadisonRingrose)
+This appears as [KadisonRingrose, def. 7.1.11, theorem 7.1.12](#KadisonRingrose)
 
 
 +-- {: .num_remark}
@@ -209,7 +209,7 @@ This appears as [KadisonRingrose, theorem 7.2.3](#KadisonRingrose).
 
 The set of states of an $C^*$-algebra is sometimes called the **[[space of quantum states|state space]]**.
 
-The state space is non-empty (define a state on the subalgebra $\mathbb{C} 1$ and extend it to the whole $C^*$-algebra via the [[Hahn-Banach theorem]]), convex and weak$^*$-compact, so it has extreme points. By the  [[Krein-Milman theorem]] (see Wikipedia: [Krein-Milman theorem] (http://en.wikipedia.org/wiki/Krein%E2%80%93Milman_theorem)) it is the weak$^*$-closure of its extreme points.
+The state space is non-empty (define a state on the subalgebra $\mathbb{C} 1$ and extend it to the whole $C^*$-algebra via the [[Hahn-Banach theorem]]), convex and weak$^*$-compact, so it has extreme points. By the [[Krein-Milman theorem]] (see Wikipedia: [Krein-Milman theorem] (http://en.wikipedia.org/wiki/Krein%E2%80%93Milman_theorem)) it is the weak$^*$-closure of its extreme points.
 
 +-- {: .num_defn}
 ###### Definition
@@ -226,7 +226,7 @@ The term "pure" originates from the notion of [[entanglement]], a pure state is 
 ###### Proposition
 **(classical [[probability measure]] as state on [[measurable functions]])**
 
-For $\Omega$ classical [[probability space]], hence a [[measure space]] which normalized total measure $\int_\Omega d\mu = 1$, let $\mathcal{A} \cloneqq L^1(\Omega)$ be the algebra of Lebesgue [[measurable functions]] with values in the [[complex numbers]], regarded as a [[star algebra]] by pointwise [[complex conjugation]]. Then forming the [[expectation value]] with respect to $\mu$ defines a [[state on a star-algebra|state]] (def. \ref{StateOnAStarAlgebra}):
+For $\Omega$ classical [[probability space]], hence a [[measure space]] which normalized total measure $\int_\Omega d\mu = 1$, let $\mathcal{A} \coloneqq L^1(\Omega)$ be the algebra of Lebesgue [[measurable functions]] with values in the [[complex numbers]], regarded as a [[star algebra]] by pointwise [[complex conjugation]]. Then forming the [[expectation value]] with respect to $\mu$ defines a [[state on a star-algebra|state]] (def. \ref{StateOnAStarAlgebra}):
 
 $$
   \array{
