@@ -70,7 +70,7 @@ Given
 
 there exists 
 
-1. a $*$-[[representation]] 
+1. a [[C*-representation]] 
 
    $$
      \pi 
