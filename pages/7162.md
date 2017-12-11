@@ -21,21 +21,26 @@ This is to some extent a [[Jordan algebra]]-analog of the [[Gelfand-Naimark theo
 
 ## Related theorems
 
-Other theorems on the foundations and [[interpretation of quantum mechanics]] include
+
+Other theorems about the foundations and [[interpretation of quantum mechanics]] include:
 
 * [[order-theoretic structure in quantum mechanics]]
 
   * [[Kochen-Specker theorem]]
 
-  * [[Gleason's theorem]]
-
   * [[Harding-Döring-Hamhalter theorem]]
+
+* [[Fell's theorem]]
+
+* [[Gleason's theorem]]
 
 * [[Wigner theorem]]
 
 * [[Bell's theorem]]
 
 * [[Bub-Clifton theorem]]
+
+* [[Kadison-Singer problem]]
 
 ## References
 
