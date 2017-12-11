@@ -860,7 +860,7 @@ $$
   \label{BVPresymplecticPotential}
   \Theta_{BV}
     \;\coloneqq\;
-  \overline{\phi}_a \delta \phi^a \, dvol_\Sigma
+  \phi^{\ddagger}_a \delta \phi^a \, dvol_\Sigma
   \;\in\;
   \Omega^{p,1}_\Sigma(E,\varphi)\vert_{\mathcal{E}_{BV}}
 $$
@@ -882,13 +882,13 @@ $$
     \delta \Theta_{BV}
      \\
      & =
-     \delta \overline{\phi}_a \wedge \delta \phi^a \wedge dvol_{\Sigma}
+     \delta \phi^{\ddagger}_a \wedge \delta \phi^a \wedge dvol_{\Sigma}
   \end{aligned}
   \,,
 $$
 
 where $(\phi^a)$ are the given [[field (physics)|field]]
-[[coordinates]], $\overline{\phi}_a$ the corresponding [[antifield]] coordinates (eq:AntifieldCoordinates)
+[[coordinates]], $\phi^{\ddagger}_a$ the corresponding [[antifield]] coordinates (eq:AntifieldCoordinates)
 and $\frac{\delta_{EL} \mathbf{L}}{\delta \phi^a}$ the corresponding components of the [[Euler-Lagrange form]]
 (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}).
 
@@ -964,7 +964,7 @@ $$
   \begin{aligned}
    s \Omega_{BV}
     & =
-  - \delta (s \overline{\phi}_a) \delta \phi^a \wedge dvol_{\Sigma}
+  - \delta (s \phi^{\ddagger}_a) \delta \phi^a \wedge dvol_{\Sigma}
   \\
     & =
   - \delta \frac{\delta_{EL}L }{\delta \phi^a}  \delta \phi^a dvol_{\Sigma}
@@ -986,9 +986,6 @@ the proof of prop. \ref{CovariantPhaseSpace}.
 =--
 
 
-
-
-=--
 
 +-- {: .num_example #DerivedPresymplecticCurrentOfRealScalarField}
 ###### Example
