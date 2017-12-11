@@ -105,6 +105,8 @@ such that
 
 (e.g. [Bordemann-Waldmann 96](state+on+a+star-algebra#BordemannWaldmann96), [Fredenhagen-Rejzner 12, def. 2.4](state+on+a+star-algebra#FredenhagenRejzner12), [Khavkine-Moretti 15, def. 6](state+on+a+star-algebra#KhavkineMoretti15))
 
+A [[star algebra]] $\mathcal{A}$ equipped with a state this way is also called a _[[quantum probability space]]_, at least when $\mathcal{A}$ is in fact a [[von Neumann algebra]].
+
 
 
 
