@@ -2487,7 +2487,7 @@ $(\phi^a)$, then we write
 
 $$
   \label{AntifieldCoordinates}
-  \overline{\phi}_{a,\mu_1 \cdots \mu_l}
+  \phi^{\ddagger}_{a,\mu_1 \cdots \mu_l}
   \;\coloneqq\;
   \left(
      \partial_{(\phi^a_{\mu_1 \cdots \mu_l})}
@@ -2536,10 +2536,10 @@ $$
 
 In the special case that the [[field bundle]] $E \overset{fb}{\to} \Sigma$ is a [[trivial vector bundle]]
 (example \ref{TrivialVectorBundleAsAFieldBundle}) with [[field (physics)|field]] coordinates $(\phi^a)$
-so that the Euler-Lagrange variational derivative has the coordinate expansion
+so that the [[Euler-Lagrange form]] has the coordinate expansion
 
 $$
-  \delta_L
+  \delta_{EL} \mathbf{L}
   \;=\;
   \frac{\delta_{EL}\mathbf{L}}{\delta \phi^a} \delta \phi^a
 $$
@@ -2549,7 +2549,7 @@ then this map is given on the [[antifield]] basis elements (eq:AntifieldCoordina
 $$
   \iota_{(-)} {\delta L_{EL}}
   \;\colon\;
-  \overline{\phi}_{a,\mu_1 \cdots \mu_l}
+  \phi^{\ddagger}_{a,\mu_1 \cdots \mu_l}
     \;\mapsto\;
   \frac{d^l}{d x^{\mu_1} \cdots d x^{\mu_l}} \frac{\delta_{EL} L}{\delta \phi^a}
   \,.
