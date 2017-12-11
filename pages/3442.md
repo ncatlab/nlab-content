@@ -161,6 +161,8 @@ In this diagram now
 
 * [[differentiation]], [[differential calculus]]
 
+* [[diffiety]]
+
 * [[ordinary differential equation]], [[partial differential equation]]
 
 * [[linear differential equation]]
