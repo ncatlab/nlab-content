@@ -25,7 +25,9 @@ for $v \in H$ is [[positive quadratic form|positive]].
 
 +-- {: .num_prop}
 ###### Proposition
-Every positive operator $A$ on a Hilbert space is self-adjoint.
+
+Every positive operator $A$ on a Hilbert space is [[self-adjoint operator|self-adjoint]].
+
 =--
 
 +-- {: .proof}
