@@ -2226,16 +2226,28 @@ Then the [[Chevalley-Eilenberg algebra]] of the derived prolonged shell $\mathca
 
 $$
   \array{
+    \text{field}
+    & 
     \phi^a
       &\mapsto&
     \left(
       \underset{k \in \mathbb{N}}{\sum} c^\alpha_{,\mu_1 \cdots \mu_k} R_\alpha^{a \mu_1 \cdots \mu_k}
     \right)
+    &
+    \text{gauge symmetry}
     \\
+    \text{
+      ghost field
+    }
+    & 
     c^\alpha 
       &\mapsto&
     \tfrac{1}{2}\gamma^\alpha{}_{\beta \gamma} c^\beta c^\gamma
+    &
+    \text{Lie bracket}
     \\
+    \text{antield}
+    &
     \phi^\ddagger_\alpha
       &\mapsto&
     \frac{\delta_{EL} L}{\delta \phi^a}
@@ -2244,17 +2256,23 @@ $$
       \underset{k \in \mathbb{N}}{\sum} c^\alpha_{,\mu_1 \cdots \mu_k} \frac{\delta_{EL} R_\alpha^{b \mu_1 \cdots \mu_k}}{\delta \phi^a}
       \phi^\ddagger_b
     \right)    
+    &
+    \text{equations of motion}
     \\
+    \text{anti ghostfield}
+    &
     c^\ddagger_\alpha
       &\mapsto&
     \underset{k \in \mathbb{N}}{\sum}
       (-1)^k \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}} R_\alpha^{a \mu_1 \cdots \mu_k} \phi^\ddagger_a
+    &
+    \text{Noether identity}
   }
 $$
 
 
 
-[[local BV-BRST complex]].
+This is called the _[[local BV-BRST complex]]_.
 
 =--
 
