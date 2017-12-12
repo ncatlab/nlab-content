@@ -108,6 +108,7 @@ By example \ref{BasicFactsAboutVarationalCalculusOnJetBundleOfTrivialVectorBundl
 in terms of the given [[volume form]] on spacetimes, any such Lagrangian density may uniquely be written as
 
 $$
+  \label{LagrangianFunctionViaVolumeForm}
   \mathbf{L} = L \, dvol_\Sigma
 $$
 
