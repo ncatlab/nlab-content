@@ -1968,6 +1968,8 @@ where the hat denotes prolongation (prop. \ref{EvolutionaryVectorFieldProlongati
 
 =--
 
+(e.g. [Barnich-Brandt-Henneaux 00 (7.2)](local+BRST+cohomology#BarnichBrandtHenneaux00))
+
 
 +-- {: .proof}
 ###### Proof
@@ -2151,7 +2153,7 @@ $$
   \end{aligned}
 $$
 
-Here first we expanded out, then in the second-but-last line we used the [[Jacobi identity]] (eq:JacobiIdentity) and in the last line we just re-adjusted indices, just for convenience of comparison with the next term. That next term is
+Here first we expanded out, then in the second-but-last line we used the [[Jacobi identity]] (eq:JacobiIdentity) and in the last line we adjusted indices, just for convenience of comparison with the next term. That next term is
 
 $$
   \left[
@@ -2186,7 +2188,7 @@ $$
   \,,
 $$
 
-where the first term on the right comes from the prolongation.
+where the first summand on the right comes from the prolongation.
 
 This shows that the two terms cancel.
 
