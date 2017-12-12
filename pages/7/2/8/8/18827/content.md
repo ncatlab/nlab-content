@@ -701,6 +701,7 @@ $$
 Rephrased in terms of [[graded manifold]] (remark \ref{dgManifolds}) this means that the [[graded manifold]] underlying the derived critical locus is the _shifted infinitesimal cotangent bundle_ of the graded manifold $\mathfrak{g}[1] \times X$ (eq:ActionLieAlgebroidGradedManifold) which underlies the [[action Lie algebroid]] (def. \ref{ActionLieAlgebroid}):
 
 $$
+  \label{ShiftedCotangentBundleForCriticalLocusInsideLieAlgebroid}
   (X/\mathfrak{g})_{d S \simeq 0}
     \;=_{grmfd}\;
   T^\ast_{inf}[-1]\left( \mathfrak{g}[1] \times X \right)
@@ -1564,8 +1565,7 @@ The following is the direct refinement of the concept of the underlying [[graded
 
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
 over some [[spacetime]] $\Sigma$, and let $\mathcal{G} \overset{gb}{\to} \Sigma$ be
-a bundle of [[gauge parameters]] (def. \ref{GaugeParametrizedInfinitesimalGaugeTransformation}) which are closed (def. \ref{GaugeParametersClosed}),
-inducing via example \ref{LocalOffShellBRSTComplex} the [[Lie algebroid]]
+a bundle of [[gauge parameters]] (def. \ref{GaugeParametrizedInfinitesimalGaugeTransformation}) which are closed (def. \ref{GaugeParametersClosed}), inducing the [[Lie algebroid]]
 
 $$
   E / ( \mathcal{G} \times_\Sigma T \Sigma )
@@ -1577,7 +1577,7 @@ $$
   \right)
 $$
 
-whose [[Chevalley-Eilenberg algebra]] is the _[[local BRST complex]]_ of the field theory.
+whose [[Chevalley-Eilenberg algebra]] is the _[[local BRST complex]]_ of the field theory (example \ref{LocalOffShellBRSTComplex}).
 
 Then we write 
 
@@ -1585,18 +1585,42 @@ $$
   T^\ast_{\Sigma,inf}\left(
     E \times_\Sigma (\mathcal{G}[1])
   \right)
+  \,,
+  \phantom{AAA}
+  T^\ast_{\Sigma,inf}[-1]\left(
+    E \times_\Sigma (\mathcal{G}[1])
+  \right)
 $$
 
-for the [[infinitesimal neighbourhood]] of the [[zero section]] of the [[vertical cotangent bundle]] of the [[graded manifold|graded]] [[fiber product]] of the [[field bundle]] with the fiber-wise shifted [[gauge parameter bundle]].
+for, on the left, the [[infinitesimal neighbourhood]] of the [[zero section]] of the [[vertical cotangent bundle]] of the [[graded manifold|graded]] [[fiber product]] of the [[field bundle]] with the fiber-wise shifted [[gauge parameter bundle]], as well as its shifted version on the right, as in (eq:ShiftedCotangentBundleForCriticalLocusInsideLieAlgebroid).
+
 
 In [[local coordinates]] this means the following: Assuming that the [[field bundle]] $E$ and the [[gauge parameter bundle]] $\mathcal{G}$ are [[trivial vector bundles]] (example \ref{TrivialVectorBundleAsAFieldBundle}) with fiber coordinates $(\phi^a)$ and $(c^\alpha)$, respectively, then $T^\ast_{\Sigma,inf}\left(E \times_\Sigma (\mathcal{G}[1])\right)$ is the trivial graded vector bundle with fiber coordinates
 
 $$
   \label{coordslocalOnInfinitesimalCotangentOfFieldBundleTimesGaugeParameterBundle}
   \array{
+      T^\ast_{\Sigma,inf}\left(
+    E \times_\Sigma (\mathcal{G}[1])
+  \right)
+  & \phantom{AA}&
+  T^\ast_{\Sigma,inf}[-1]\left(
+    E \times_\Sigma (\mathcal{G}[1])
+  \right)
+  \\
+  & \phantom{A}
+  \\
+  \array{
     & (c^\ddagger_\alpha), & (\phi^\ddagger_a),(\phi^a), &  (c^\alpha)
     \\
     deg = & -1 & 0 & 1
+  }
+  & \phantom{AA}&
+  \array{
+    & (c^\ddagger_\alpha), & (\phi^\ddagger_a)\, & (\phi^a), &  (c^\alpha)
+    \\
+    deg = & -2 & -1 &  0 & 1
+  }
   }
 $$
 
@@ -1695,13 +1719,13 @@ $$
       \right)
     \right)
     \left(
-      \frac{\partial g}{\partial \overline{\phi}_{a,\mu_1 \cdots \mu_k}}
+      \frac{\partial g}{\partial {\phi}^\ddagger_{a,\mu_1 \cdots \mu_k}}
     \right)
     -
     \left(
       \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}}
       \left(
-        \frac{\delta_{EL} f}{\delta \overline{\phi}_a}
+        \frac{\delta_{EL} f}{\delta \phi^\ddagger_a}
       \right)
     \right)
     \left(
@@ -1718,13 +1742,13 @@ $$
       \right)
     \right)
     \left(
-      \frac{\partial g}{\partial \overline{c}_{\alpha,\mu_1 \cdots \mu_k}}
+      \frac{\partial g}{\partial c^\ddagger_{\alpha,\mu_1 \cdots \mu_k}}
     \right)
     -
     \left(
       \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}}
       \left(
-        \frac{\delta_{EL} f}{\delta \overline{c}_\alpha}
+        \frac{\delta_{EL} f}{\delta c^\ddagger_\alpha}
       \right)
     \right)
     \left(
@@ -1806,7 +1830,7 @@ $$
   \array{
     &
     \left(
-      \overline{c}_{\alpha,\mu_1 \cdots \mu_k}
+      c^\ddagger_{\alpha,\mu_1 \cdots \mu_k}
     \right)
     &
       \left(
@@ -1814,7 +1838,7 @@ $$
       \right)
       ,
       \left(
-        \overline{\phi}_{a,\mu_1 \cdots \mu_k}
+        \phi^\ddagger_{a,\mu_1 \cdots \mu_k}
       \right)
     &
     \left(
@@ -1920,7 +1944,7 @@ $$
     \right\}
       &\longleftarrow&
     \left\{
-      \overline{\phi}_{a,\mu_1 \cdots \mu_k}
+      \phi^\ddagger_{a,\mu_1 \cdots \mu_k}
     \right\}
     \\
     \left\{
@@ -1928,7 +1952,7 @@ $$
     \right\}
       &\longleftarrow&
     \left\{
-      \overline{c}_{\alpha,\mu_1 \cdots \mu_k}
+      c^\dagger_{\alpha,\mu_1 \cdots \mu_k}
     \right\}
   }
 $$
@@ -2056,7 +2080,7 @@ has generators
 
 $$
   \array{
-    & \overline{c} & \overline{a}^\mu & a_\mu & c
+    & c^\ddagger & (a^\ddagger)^\mu & a_\mu & c
     \\
     deg =
     &
@@ -2072,9 +2096,9 @@ $$
   \;\colon\;
   \left\{
   \array{
-    \overline{a}^\mu &\mapsto&  f^{\nu \mu}_{,\nu}  & \text{(equations of Motion -- vacuum Maxwell equations)}
+    (a^\dagger)^\mu &\mapsto&  f^{\nu \mu}_{,\nu}  & \text{(equations of Motion -- vacuum Maxwell equations)}
     \\
-    \overline{c} &\mapsto& \overline{a}^\mu_{,\mu} & \text{(Noether identity)}
+    c^\ddagger &\mapsto& (a^\ddagger)^\mu_{,\mu} & \text{(Noether identity)}
     \\
     a_\mu &\mapsto& c_{,\mu} & \text{(infinitesimal gauge transformation)}
   }
@@ -2224,7 +2248,7 @@ The $d_W$-exact elements in this degree are sums of
 
 
 The $d_W$-closed element are
-the implicit infinitesimal gauge symmetries $v$ regarded as an [[antifield]] $v^a \overline{\phi}_a$
+the implicit infinitesimal gauge symmetries $v$ regarded as an [[antifield]] $v^a \phi^\ddagger_a$
 multiplied with the [[volume form]] $dvol_\Sigma$
 together with their Noether current $J_v \in \Omega^{p,0}_\Sigma(E)$ (prop. \ref{NoethersFirstTheorem})
 
@@ -2235,7 +2259,7 @@ $$
     \\
     && \uparrow\mathrlap{s_{BV}}
     \\
-    && \{ v^a \overline{\phi}_a dvol_\Sigma\}
+    && \{ v^a \phi^\ddagger_a dvol_\Sigma\}
   }
 $$
 
@@ -2251,14 +2275,14 @@ $$
     \\
     && \mathllap{s_{BV}}\uparrow && \uparrow\mathrlap{s_{BV}}
     \\
-    && v^{a \mu} \overline{\phi}_a \iota_{\partial_\mu} dvol_\Sigma
+    && v^{a \mu} \phi^\ddagger_a \iota_{\partial_\mu} dvol_\Sigma
       &\underset{-d}{\longrightarrow}&
-    \{ v^a \overline{\phi}_a dvol_\Sigma\}
+    \{ v^a \phi^\ddagger_a dvol_\Sigma\}
     \\
     && && \uparrow\mathrlap{s_{BV}}
     \\
     &&
-    && \kappa^{a b } \overline{\phi}_a \overline{\phi}_b dvol_\Sigma
+    && \kappa^{a b } \phi^\ddagger_a \phi^\ddagger_b dvol_\Sigma
   }
 $$
 
@@ -2316,16 +2340,16 @@ $$
 
 for all $(\epsilon^\alpha)$.
 
-The corresponding [[antifield|anti]] [[ghost field]] $\overline{c}_\alpha$ are taken by the BV-BRST differential to the antifield-preimage of the term on the left:
+The corresponding [[antifield|anti]] [[ghost field]] $c^\ddagger_\alpha$ are taken by the BV-BRST differential to the antifield-preimage of the term on the left:
 
 $$
-  s\left(\overline{c}_\alpha\right)
+  s\left(c^\ddagger_\alpha\right)
   \;=\;
-  R^a_\alpha \overline{\phi}_a
+  R^a_\alpha \phi^\ddagger_a
   -
   \frac{d}{d x^\mu}
   \left(
-    R^{a \mu}_\alpha \overline{\phi}_a
+    R^{a \mu}_\alpha \phi^\ddagger_a
   \right)
   \,.
 $$
@@ -2357,9 +2381,9 @@ $$
     & =
     s
     \left(
-      \epsilon^\alpha \overline{c}_\alpha
+      \epsilon^\alpha c^\ddagger_\alpha
       -
-      \tfrac{1}{2}\kappa^{a b} \overline{\phi}_a \overline{\phi}_b
+      \tfrac{1}{2}\kappa^{a b} \phi^\ddagger_a \phi^\ddagger_b
     \right) dvol_\sigma
     +
     d\left(
@@ -2388,12 +2412,12 @@ $$
     && \mathllap{s}\uparrow && \uparrow\mathrlap{-s}
     \\
     &&
-    \epsilon^\alpha R^{a \mu}_\alpha \overline{\phi}_a
+    \epsilon^\alpha R^{a \mu}_\alpha \phi^\ddagger_a
     \iota_{\partial_\mu} dvol_\Sigma
       &\underset{d}{\longrightarrow}&
     \left\{
       d\left(
-        \epsilon^\alpha R^{a \mu}_\alpha \overline{\phi}_a
+        \epsilon^\alpha R^{a \mu}_\alpha \phi^\ddagger_a
       \right)
       \iota_{\partial_\mu} dvol_\Sigma
       +
@@ -2404,7 +2428,7 @@ $$
         +
         \kappa^{a b} \frac{\delta_{EL} L }{ \delta \phi^a }
       \right)
-      \overline{\phi}_a
+      \phi^\ddagger_a
       \,
       dvol_\Sigma
     \right\}
@@ -2414,9 +2438,9 @@ $$
     &&
     &&
     \left(
-       - \epsilon^\alpha \overline{c}_\alpha
+       - \epsilon^\alpha c^\ddagger_\alpha
        +
-      \tfrac{1}{2}\kappa^{a b } \overline{\phi}_a \overline{\phi}_b
+      \tfrac{1}{2}\kappa^{a b } \phi^\ddagger_a \phi^\ddagger_b
     \right)
     dvol_\Sigma
   }
