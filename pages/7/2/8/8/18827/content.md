@@ -733,7 +733,7 @@ $$
       (\mathbb{R}^{p \vert q})^\ast_{inf}[-1]
     }}
       \times
-    \underset{ (c^\dagger_\alpha) }{
+    \underset{ (c^\ddagger_\alpha) }{
     \underbrace{
       \mathfrak{g}^\ast[-2]
     }}
@@ -1984,7 +1984,7 @@ whose [[Chevalley-Eilenberg algebra]] is the _[[local BRST complex]]_ of the fie
 
 Consider the case that both the [[field bundle]] $E \overset{fb}{\to} \Sigma$ (def. \ref{FieldsAndFieldBundles})
 as well as the [[gauge parameter]] bundle $\mathcal{G} \overset{gb}{\to} \Sigma$ are [[trivial vector bundles]]
-(example \ref{TrivialVectorBundleAsAFieldBundle}) over [[Minkowski spacetime]]
+(example \ref{TrivialVectorBundleAsAFieldBundle}) over [[Minkowski spacetime]] $\Sigma$ (def. \ref{MinkowskiSpacetime})
 with [[field (physics)|field]] coordinates $(\phi^a)$ and [[gauge parameter]] coordinates $(c^\alpha)$.
 
 Then the vertical infinitesimal cotangent Lie algebroid (def. \ref{LieAlgebroidInfinitesimalCotangentBundle}) has
@@ -2024,21 +2024,57 @@ $$
   \,.
 $$
 
-Consider the horizontally adjusted [[local BV-BRST complex|local]] [[antibracket]] $\{-,-\}$ from (eq:LocalCommutatorOfDerivationsOnJetBundle).
-We define the CE-differential on functions on $T^\ast_{inf}( E/(\mathcal{G} \times_\Sigma T \Sigma) )$ to be
+In terms of these coordinates [[BRST differential]] $s_{BRST}$, thought of as a prolonged [[evolutionary vector field]]
+on $E \times_\Sigma \mathcal{G}$,
+corresponds to the smooth function on the shifted cotangent bundle given by
 
 $$
-  d_{CE(T^\ast_{inf}_\Sigma( E/(\mathcal{G} \times_\Sigma T \Sigma) ))}
+  \label{BRSTFunctionForClosed}
+  L_{BRST}
+  \;=\;
+  \left(
+    \underset{k \in \mathbb{N}}{\sum}
+    c^\alpha_{,\mu_1 \cdots \mu_k}
+    R_\alpha^{a \mu_1 \cdots \mu_k} 
+  \right)
+  \phi^\ddagger_a
+  \;+\;
+  \tfrac{1}{2}
+  \gamma^\alpha{}_{\beta \gamma} c^\beta c^\gamma
+  c^\ddagger_\alpha
+  \;\in\;
+  C^\infty\left(
+    T^\ast_{\Sigma,inf}( E \times_\Sigma \mathcal{G}[1] )
+  \right)
+  \,,
+$$
+
+to be called the _[[BRST complex|BRST]] [[Lagrangian function]]_ and the product with the [[spacetime]] [[volume form]]
+
+$$
+  L_{BRST} \, dvol_\Sigma
+  \;\in\;
+  \Omega^{p+1,0}_\Sigma(E \times_\Sigma \mathcal{G}[1])
+$$
+
+as the _[[BRST complex|BRST]] [[Lagrangian density]]_.
+
+We now define the [[Chevalley-Eilenberg differential]] on smooth functions on $T^\ast_{inf}( E/(\mathcal{G} \times_\Sigma T \Sigma) )$ to be
+given by the [[local BV-BRST complex|local]] [[antibracket]] $\{-,-\}$ (eq:LocalCommutatorOfDerivationsOnJetBundle)
+with the BRST Lagrangian density (eq:BRSTFunctionForClosed)
+
+$$
+  d_{CE(T^\ast_{\Sigma,inf}( E/(\mathcal{G} \times_\Sigma T \Sigma) ))}
   \;\coloneqq\;
   \left\{
-    s_{BRST} dvol_\Sigma, -
+    L_{BRST} dvol_\Sigma, -
   \right\}
 $$
 
 This defines an $L_\infty$-algebroid to be denoted
 
 $$
-  T^\ast_{inf}_\Sigma( E/(\mathcal{G} \times_\Sigma T \Sigma) )
+  T^\ast_{\Sigma,inf}( E/(\mathcal{G} \times_\Sigma T \Sigma) )
   \,.
 $$
 
@@ -2051,8 +2087,8 @@ The local refinement of prop. \ref{ExteriorDifferentialOfGaugeInvariantFunctionI
 **([[Euler-Lagrange form]] is [[section]] of local cotangent bundle of [[jet bundle]] [[gauge symmetry|gauge]]-[[action Lie algebroid]])**
 
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
-over some [[spacetime]] $\Sigma$, and let $\mathcal{G} \overset{gb}{\to} \Sigma$ be
-a bundle of closed irreducible [[gauge parameters]] (def. \ref{GaugeParametrizedInfinitesimalGaugeTransformation}),
+over some [[spacetime]] $\Sigma$, and let $\mathcal{G} \overset{gb}{\to} \Sigma$ be a [[gauge parameter bundle]] (def. \ref{GaugeParameters})
+which are closed (def. \ref{GaugeParametersClosed}),
 inducing via example \ref{LocalOffShellBRSTComplex} the [[Lie algebroid]] $E / ( \mathcal{G} \times_\Sigma T \Sigma )$
 and via def. \ref{LocalInfinitesimalCotangentLieAlgebroid} its local cotangent [[Lie ∞-algebroid]]
 $T^\ast_{inf}_\Sigma(E / ( \mathcal{G} \times_\Sigma T \Sigma ))$.
@@ -2063,7 +2099,7 @@ a [[section]] of the local cotangent Lie ∞-algebroid (def. \ref{LocalInfinites
 
 $$
   \array{
-    && T^\ast_{inf}_\Sigma\left( E/(\mathcal{G} \times_\Sigma T \Sigma) \right)
+    && T^\ast_{\Sigma,inf}\left( E/(\mathcal{G} \times_\Sigma T \Sigma) \right)
     \\
     & {}^{\mathllap{ \delta_{EL} \mathbf{L} }}\nearrow & \downarrow^{\mathrlap{cb}}
     \\
@@ -2117,7 +2153,7 @@ $$
     \right\}
       &\longleftarrow&
     \left\{
-      c^\dagger_{\alpha,\mu_1 \cdots \mu_k}
+      c^\ddagger_{\alpha,\mu_1 \cdots \mu_k}
     \right\}
   }
 $$
@@ -2135,12 +2171,12 @@ this will be a direct consequence of the proof of prop. \ref{LocalBVBRSTComplexI
 
 
 The local analog of def. \ref{DerivedCriticalLocusOfGaugeInvariantFunctionOnLieAlgebroid} is now the following
-definition \ref{DerivedProlongedShell} of the "derived prolonged shell" of the theory (recall the ordinary prolonged shell
+definition \ref{DerivedProlongedShell} of the "derived prolonged shell" of the theory (recall the ordinary [[prolonged shell]]
 $\mathcal{E}^\infty \hookrightarrow J^\infty_\Sigma(E)$ from (eq:ProlongedShellInJetBundle)):
 
 +-- {: .num_defn #DerivedProlongedShell}
 ###### Definition
-**(derived reduced prolonged [[shell]])**
+**(derived reduced [[prolonged shell]])**
 
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
 over some [[spacetime]] $\Sigma$, and let $\mathcal{G} \overset{gb}{\to} \Sigma$ be
@@ -2158,11 +2194,14 @@ $$
       &\longrightarrow&
     E/( \mathcal{G} \times_\Sigma T \Sigma )
     \\
-    \downarrow && \downarrow^{\mathrlap{0}}
+    \downarrow 
+      &(pb)& 
+    \downarrow^{\mathrlap{0}}
     \\
     E/(\mathcal{G} \times_\Sigma T \Sigma)
      &\underset{\delta_{EL} L}{\longrightarrow}&
-    T^\ast_{inf}_\Sigma\left(
+    T^\ast_{\Sigma,inf}
+    \left(
       E/( \mathcal{G} \times_\Sigma T \Sigma )
     \right)
   }
@@ -2170,19 +2209,52 @@ $$
 
 =--
 
-
-
-The local refinement of example \ref{ArchetypeOfBVBRSTComplex} is now the following:
+As before, for the purpose of our running examples the reader may take the following example as the 
+definition of the derived reduced prolonged shell (def. \ref{DerivedProlongedShell}).
+This is local refinement of example \ref{ArchetypeOfBVBRSTComplex}:
 
 +-- {: .num_prop #LocalBVBRSTComplexIsDerivedCriticalLocusOfEulerLagrangeForm}
 ###### Proposition
 **([[local BV-BRST complex]])**
 
-Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] with bundle of closed irreducible [[gauge parameters]]
-$\mathcal{G}$...
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
+over some [[spacetime]] $\Sigma$, and let $\mathcal{G} \overset{gb}{\to} \Sigma$ be
+a bundle of [[gauge parameters]] (def. \ref{GaugeParametrizedInfinitesimalGaugeTransformation}) which are closed (def. \ref{GaugeParametersClosed}).
 
-.... the [[Chevalley-Eilenberg algebra]] of the derived prolonged shell $\mathcal{E}^\infty_{BV}$
-(def. \ref{DerivedProlongedShell}) is the [[local BV-BRST complex]]...
+Then the [[Chevalley-Eilenberg algebra]] of the derived prolonged shell $\mathcal{E}^\infty_{BV}$
+(def. \ref{DerivedProlongedShell}) is given by
+
+$$
+  \array{
+    \phi^a
+      &\mapsto&
+    \left(
+      \underset{k \in \mathbb{N}}{\sum} c^\alpha_{,\mu_1 \cdots \mu_k} R_\alpha^{a \mu_1 \cdots \mu_k}
+    \right)
+    \\
+    c^\alpha 
+      &\mapsto&
+    \tfrac{1}{2}\gamma^\alpha{}_{\beta \gamma} c^\beta c^\gamma
+    \\
+    \phi^\ddagger_\alpha
+      &\mapsto&
+    \frac{\delta_{EL} L}{\delta \phi^a}
+    +
+    \left(
+      \underset{k \in \mathbb{N}}{\sum} c^\alpha_{,\mu_1 \cdots \mu_k} \frac{\delta_{EL} R_\alpha^{b \mu_1 \cdots \mu_k}}{\delta \phi^a}
+      \phi^\ddagger_b
+    \right)    
+    \\
+    c^\ddagger_\alpha
+      &\mapsto&
+    \underset{k \in \mathbb{N}}{\sum}
+      (-1)^k \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}} R_\alpha^{a \mu_1 \cdots \mu_k} \phi^\ddagger_a
+  }
+$$
+
+
+
+[[local BV-BRST complex]].
 
 =--
 
@@ -2197,7 +2269,7 @@ $$
   d_{CE( T^\ast_{inf}_\Sigma(E/(\mathcal{G} \times_\Sigma T\Sigma)) )}
   \;=\;
   \left\{
-    \left(L + L_{BRST}\right) dvol_\Sigma
+    - \left(L - L_{BRST}\right) dvol_\Sigma
     \;,\;
     -
   \right\}
@@ -2280,7 +2352,12 @@ So far the discussion yields just the [[algebra of functions]] on the derived re
 We now discuss the derived analog of the full [[variational bicomplex]] (def. \ref{VariationalBicomplexOnSecondOrderJetBundleOverTrivialVectorBundleOverMinkowskiSpacetime})
 to the derived reduced shell.
 
+$\,$
+
+**(derived variational bicomplex)**
+
 The analog of the [[de Rham complex]] of a [[derived Lie algebroid]] is called the _[[Weil algebra]]_:
+
 
 +-- {: .num_defn #WeilAlgebra}
 ###### Definition
