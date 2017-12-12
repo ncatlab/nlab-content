@@ -40,6 +40,23 @@ The connected component $SO(d-1,2)$ of the anti de Sitter group is [[isomorphism
 
 [[!include local and global geometry - table]]
 
+
+## References
+ {#References}
+
+The anti de Sitter [[Lie algebra]] is discussed for instance in
+
+* {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], volume 1, chapter I.3.8 of _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
+
+The [[representation theory]] and its [[Inönü-Wigner contraction]] to that of the [[Poincaré group]] is discussed in
+
+* [[Jouko Mickelsson]], J. Niederle, _Contractions of Representations of de Sitter Groups_, Comm. Math. Phys. Volume 27, Number 3 (1972), 167-180. ([Euclid](http://projecteuclid.org/euclid.cmp/1103858248))
+
+* Mauricio Ayala, Richard Haase, _Group contractions and its consequences upon representations of different spatial symmetry groups_ ([arXiv:hep-th/0206037](https://arxiv.org/abs/hep-th/0206037))
+
+* Francisco J. Herranz, Mariano Santander, section 4 of _(Anti)de Sitter/Poincare symmetries and representations from Poincare/Galilei through a classical deformation approach_, J.Phys.A41:015204,2008 ([arXiv:math-ph/0612059](https://arxiv.org/abs/math-ph/0612059))
+
+
 [[!redirects AdS group]]
 
 [[!redirects anti de Sitter Lie algebra]]
