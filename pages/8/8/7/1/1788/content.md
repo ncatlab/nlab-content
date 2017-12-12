@@ -125,7 +125,8 @@ $$
       \frac{\delta_{EL}}{\delta \phi^a}
       \left(
         c^\alpha_{,\mu_1 \cdots \mu_k} 
-        R_\alpha^{b \mu_1 \cdots \mu_k}        \phi^\ddagger_b
+        R_\alpha^{b \mu_1 \cdots \mu_k}        
+        \phi^\ddagger_b
       \right)
     \right)    
     &
@@ -255,7 +256,7 @@ $$
   \end{aligned}
 $$
 
-hm, why is 
+hence 
 
 $$
   \left(
@@ -268,5 +269,7 @@ $$
   0
 $$
 
-??
+by (eq:TowardsProofThatSymmetriesPreserveTheShell)
+
+
 
