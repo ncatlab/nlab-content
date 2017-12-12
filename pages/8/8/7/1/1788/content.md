@@ -1,1 +1,272 @@
-[[!include A first idea of quantum field theory -- Lagrangians]]
+&#180;
+the local antibracket
+
+$$
+  \label{LocalCommutatorOfDerivationsOnJetBundle}
+  \begin{aligned}
+    \left\{
+      f \, dvol_\Sigma,
+      g \, dvol_\Sigma
+    \right\}
+    & \coloneqq
+    \phantom{+}
+    \left(
+    \left(
+      \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}}
+      \left(
+        \frac{\overset{\leftarrow}{\delta}_{EL} f}{\delta \phi^a}
+      \right)
+    \right)
+    \left(
+      \frac{\overset{\rightarrow}{\partial} g}{\partial {\phi}^\ddagger_{a,\mu_1 \cdots \mu_k}}
+    \right)
+    -
+    \left(
+      \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}}
+      \left(
+        \frac{\overset{\leftarrow}{\delta}_{EL} f}{\delta \phi^\ddagger_a}
+      \right)
+    \right)
+    \left(
+      \frac{\overset{\rightarrow}{\partial} g}{\partial \phi^a_{,\mu_1 \cdots \mu_k}}
+    \right)
+    \right) \, dvol_\Sigma
+    \\
+    &
+    \phantom{\coloneqq}
+    +
+    \left(
+    \left(
+      \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}}
+      \left(
+        \frac{\overset{\leftarrow}{\delta}_{EL} f}{\delta c^\alpha}
+      \right)
+    \right)
+    \left(
+      \frac{\overset{\rightarrow}{\partial} g}{\partial {c}^\ddagger_{\alpha,\mu_1 \cdots \mu_k}}
+    \right)
+    -
+    \left(
+      \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}}
+      \left(
+        \frac{\overset{\leftarrow}{\delta}_{EL} f}{\delta c^\ddagger_\alpha}
+      \right)
+    \right)
+    \left(
+      \frac{\overset{\rightarrow}{\partial} g}{\partial c^\alpha_{,\mu_1 \cdots \mu_k}}
+    \right)
+    \right) \, dvol_\Sigma
+  \end{aligned}
+$$
+
+The BRST Lagrangian
+
+$$
+  L_{BRST}
+  \;=\;
+  \underset{k}{\sum} c^\alpha_{,\mu_1 \cdots \mu_k} 
+  R_\alpha^{a \mu_1 \cdots \mu_k} \phi^\ddagger_a
+  \;+\;
+  \tfrac{1}{2}\gamma^\alpha{}_{\beta \gamma} c^\beta c^\gamma
+  c^\ddagger_\alpha
+$$
+
+the BV-BRST differential
+
+$$
+  s 
+  \;\coloneqq\;
+  \left\{
+    -L + L_{BRST}
+    \,,\,
+    -
+  \right\}
+$$
+
+its action on 0-jets
+
+$$
+  \array{
+    & & s &
+    \\
+    \text{field}
+    & 
+    \phi^a
+      &\mapsto&
+    \left(
+      \underset{k \in \mathbb{N}}{\sum} c^\alpha_{,\mu_1 \cdots \mu_k} R_\alpha^{a \mu_1 \cdots \mu_k}
+    \right)
+    &
+    \text{gauge symmetry}
+    \\
+    \text{
+      ghost field
+    }
+    & 
+    c^\alpha 
+      &\mapsto&
+    \tfrac{1}{2}\gamma^\alpha{}_{\beta \gamma} c^\beta c^\gamma
+    &
+    \text{Lie bracket}
+    \\
+    \text{antifield}
+    &
+    \phi^\ddagger_\alpha
+      &\mapsto&
+    \phantom{-}
+    \frac{\delta_{EL} L}{\delta \phi^a}
+    &
+    \text{equations of motion}
+    \\
+    &&&
+    -
+    \left(
+      \underset{k \in \mathbb{N}}{\sum}  
+      \frac{\delta_{EL}}{\delta \phi^a}
+      \left(
+        c^\alpha_{,\mu_1 \cdots \mu_k} 
+        R_\alpha^{b \mu_1 \cdots \mu_k}        \phi^\ddagger_b
+      \right)
+    \right)    
+    &
+    \\
+    \text{anti ghostfield}
+    &
+    c^\ddagger_\alpha
+      &\mapsto&
+    -
+    \underset{k \in \mathbb{N}}{\sum}
+      (-1)^k \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}} 
+      \left(
+        R_\alpha^{a \mu_1 \cdots \mu_k} \phi^\ddagger_a
+      \right)
+    &
+    \text{Noether identities}
+    \\
+    &&& + \gamma^{\alpha'}{}_{ \alpha \beta} c^\beta c^\ddagger_{\alpha'}
+  }
+$$
+
+decompose
+
+$$
+  s = s_{BV} + s_{BRST}
+$$
+
+We already showed that 
+
+$$
+  \left(s_{BRST}\right)^2 = 0
+$$
+
+Moreover the fact that
+
+$$
+  \left( s_{BV} \right)^2 = 0
+$$
+
+is Noether's second theorem.
+
+Hence to show that $s^2 = 0$ we need to show that 
+
+$$
+  \left[ s_{BV}, s_{BRST} \right]
+  =
+  0
+$$
+
+(anticommutator).
+
+We may check this on 0-jets.
+
+On fields we get
+
+$$
+  s_{BRST} s_{BV} \phi^a
+  =
+  0
+$$
+
+$$
+  s_{BV} s_{BRST} \phi^a  
+  =
+  0
+$$
+
+On ghost fields we get
+
+$$
+  s_{BRST} s_{BV} c^\alpha
+  =
+  0
+$$
+
+$$
+  s_{BV} s_{BRST} c^\alpha
+  = 0
+$$
+
+now on antifields we get
+
+$$
+  \begin{aligned}
+    s_{BRST} s_{BV} \phi^{\ddagger}_a
+    & =
+    s_{BRST} \frac{\delta_{EL} L}{\delta \phi^a}
+    \\
+    & =
+    \underset{k}{\sum} 
+    \underset{q}{\sum}
+    \frac{d^q}{d x^{\nu_1} \cdots d x^{\nu_q}}
+    \left(
+      c^\alpha_{,\mu_1 \cdots \mu_k}
+      R_\alpha^{b \mu_1 \cdots \mu_k}
+    \right)
+    \frac{\partial}{\partial \phi^b_{,\nu_1 \cdots \nu_q}}
+    \frac{\delta_{EL} L}{\delta \phi^a}
+  \end{aligned}
+$$
+
+as well as
+
+$$
+  \begin{aligned}
+    s_{BV} s_{BRST} \phi^\ddagger_a
+    & =
+    -
+    s_{BV} 
+    \underset{k}{\sum} 
+    \frac{\delta_{EL}}{\delta \phi^a}
+    \left(
+      c^\alpha_{,\mu_1 \cdots \mu_k}
+      R_\alpha^{b \mu_1 \cdots \mu_k}
+      \phi^\ddagger_b
+    \right)
+    \\
+    & =
+    -
+    \underset{k}{\sum} 
+    \frac{\delta_{EL}}{\delta \phi^a}
+    \left(
+      c^\alpha_{,\mu_1 \cdots \mu_k}
+      R_\alpha^{b \mu_1 \cdots \mu_k}
+     \frac{\delta_{EL} L}{\delta \phi^b}
+    \right)
+  \end{aligned}
+$$
+
+hm, why is 
+
+$$
+  \left(
+    s_{BRST}s_{BV}
+    +
+    s_{BV} s_{BRST}
+  \right)
+  \phi^\ddagger_a
+  = 
+  0
+$$
+
+??
+
