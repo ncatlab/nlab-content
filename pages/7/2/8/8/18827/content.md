@@ -635,7 +635,7 @@ $$
 
 This means equivalently (details are at _[[derived critical locus]]_) that the Chevalley-Eilenberg algebra of $\mathfrak{a}_{d S \simeq 0}$ is like that of the infinitesimal cotangent Lie algebroid $T^\ast_{inf} \mathfrak{a}$ (def. \ref{LieAlgebroidInfinitesimalCotangentBundle}) except for two changes:
 
-1. all [[derivations]] are shifted down in degree by one; 
+1. all [[derivations]] are shifted down in degree by one;
 
    rephrased in terms of [[graded manifold]] (remark \ref{dgManifolds}) this means that the [[graded manifold]] underlying $\mathfrak{a}_{d S \simeq 0}$ is $T^\ast_{inf}[-1]\mathfrak{a}$;
 
@@ -718,11 +718,11 @@ $$
     & =_{\phantom{grmfd}}
     \underset{
        (c^\alpha)
-    }{ 
+    }{
     \underbrace{
-     \mathfrak{g}[1] 
+     \mathfrak{g}[1]
     }}
-      \times 
+      \times
     \underset{ (\phi^a) }{
     \underbrace{
       \mathbb{R}^{p\vert q}
@@ -1557,6 +1557,39 @@ $\,$
 **[[local BV-BRST complex|local]] [[antibracket]]**
  {#LocalJetBundleAntibracket}
 
+
+
+If we think of the invariant function $S$ in def. \ref{DerivedCriticalLocusOfGaugeInvariantFunctionOnLieAlgebroid} as being the [[action functional]] (example \ref{ActionFunctional})
+of a [[Lagrangian field theory]] $(E,\mathbf{L})$ (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) over a [[compact space|compact]] [[spacetime]] $\Sigma$,
+with $X$ the  [[space of field histories]] (or rather an [[infinitesimal neighbourhood]] therein),
+hence with $\mathfrak{g}$ a Lie algebra of [[gauge symmetries]] acting on the field histories, then
+the [[Chevalley-Eilenberg algebra]] $CE\left((X/\mathfrak{g})_{d S \simeq 0}\right)$ of the [[derived critical locus]] of $S$ is called the
+_[[BV-BRST complex]]_ of the theory.
+
+
+In applications of interest, the spacetime $\Sigma$ is _not_ [[compact space|compact]]. In that case one may still appeal to a construction on the [[space of field histories]]
+as in example \ref{ArchetypeOfBVBRSTComplex} by considering the action functional for all [[adiabatic switching|adiabatically switched]] $b \mathbf{L}$ Lagrangians, with $b \in C_{cp}^\infty(\Sigma)$.
+This approach is taken in ([Fredenhagen-Rejzner 11a](BV-BRST+formalism#FredenhagenRejzner11a)).
+
+Here we instead consider now the "local lift" or "de-transgression" of the above construction from the
+[[space of field histories]] to the [[jet bundle]] of the field bundle of the theory, refining the
+[[BV-BRST complex]] (prop. \ref{DerivedCriticalLocusOfActionLiAlgebroidBicomplexStructure}) to the _[[local BV-BRST complex]]_ (prop. \ref{LocalBVBRSTComplexIsDerivedCriticalLocusOfEulerLagrangeForm} below), corresponding to the [[local BRST complex]] from example \ref{LocalOffShellBRSTComplex} ([Barnich-Brandt-Henneaux 00](local+BRST+cohomology#BarnichBrandtHenneaux00)).
+
+This requires a slight refinement of the construction that leads to example \ref{ArchetypeOfBVBRSTComplex}:
+In contrast to the [[action functional]] $S = \tau_\Sigma(g\mathbf{L})$ (example \ref{ActionFunctional}),
+the [[Lagrangian density]] $\mathbf{L}$ is not strictly _invariant_ under [[infinitesimal gauge transformations]], in general,
+rather it may change up to a horizontally exact term (by the very definition \ref{GaugeParameters}). The same is then true, in general, for its
+[[Euler-Lagrange variational derivative]] $\delta_{EL} \mathbf{L}$ (unless we have already restricted to the [[shell]], by prop. \ref{InfinitesimalSymmetriesOfLagrangianAreAlsoSymmetriesOfTheEquationsOfMotion}, which however here we do not explicitly, but only via passing to [[cochain cohomology]] as in example \ref{OrdinaryCriticalLocusAsCohomologyOfDerivedCriticalLocus}).
+
+This means that the [[Euler-Lagrange form]] $\delta_{EL} \mathbf{L}$
+is, [[off-shell]], not a section of the infinitesimal cotangent bundle (def. \ref{LieAlgebroidInfinitesimalCotangentBundle}) of the
+gauge action Lie algebroid on the jet bundle.
+
+But it turns out that it still is a section of local refinement of the cotangent bundle, which is twisted by horizontally exact terms (prop. \ref{EulerLagrangeFormIsSectionOfLocalCotangentBundleOfJetBundleGaugeActionLieAlgebroid} below). To see the required twist, it is most convenient to make use of a local version of the [[antibracket]] (def. \ref{LocalAntibracket} below), via local refinement of example \ref{ChevalleyEilenbergDifferentialOnDerivedCriticalLocusIsHamiltonianViaAntibracket}. As a result we may form the _local_ [[derived critical locus]] as in def. \ref{DerivedCriticalLocusOfGaugeInvariantFunctionOnLieAlgebroid} but now with the invariance of the [[Lagrangian density]] only up to [[total spacetime derivatives]] taken into account. Its [[Chevalley-Eilenberg algebra]] is called the _[[local BV-BRST complex]]_ (prop. \ref{LocalBVBRSTComplexIsDerivedCriticalLocusOfEulerLagrangeForm} below).
+
+
+
+
 The following is the direct refinement of the concept of the underlying [[graded manifold]] of the infinitesimal [[cotangent bundle]] of an [[action Lie algebroid]] in example \ref{CotangentBundleOfActionLieAlgebroid} to the case where the base manifold is generalized to a [[field bundle]] (def. \ref{FieldsAndFieldBundles}) and the [[Lie algebra]] to a [[gauge parameter bundle]] (def. \ref{GaugeParameters}):
 
 +-- {: .num_defn #InfinitesimalCotangentBundleOfFieldAndGaugeParameterBundle}
@@ -1579,7 +1612,7 @@ $$
 
 whose [[Chevalley-Eilenberg algebra]] is the _[[local BRST complex]]_ of the field theory (example \ref{LocalOffShellBRSTComplex}).
 
-Then we write 
+Then we write
 
 $$
   T^\ast_{\Sigma,inf}\left(
@@ -1603,7 +1636,7 @@ $$
       T^\ast_{\Sigma,inf}\left(
     E \times_\Sigma (\mathcal{G}[1])
   \right)
-  & \phantom{AA}&
+  & \phantom{AAAAA}&
   T^\ast_{\Sigma,inf}[-1]\left(
     E \times_\Sigma (\mathcal{G}[1])
   \right)
@@ -1625,15 +1658,16 @@ $$
 $$
 
 and such that smooth functions on $T^\ast_{\Sigma,inf}\left(E \times_\Sigma (\mathcal{G}[1])\right)$ are [[formal power series]] in $c^\ddagger_\alpha$ (necessarily due to degree reasons) and in $\phi^\ddagger_a$ (reflecting the [[infinitesimal neighbourhood]] of the [[zero section]]).
- 
+
 =--
 
 
 
 The following is the direct refinement of the concept of the [[Schouten bracket]] on an [[action Lie algebroid]] from def. \ref{SchoutenBracketAndAntibracket} to the case where the base manifold is generalized to the [[jet bundle]] (def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) [[field bundle]] (def. \ref{FieldsAndFieldBundles}) and the [[Lie algebra]] to the [[jet bundle]] of a [[gauge parameter bundle]] (def. \ref{GaugeParameters}):
 
-+-- {: .num_defn}
++-- {: .num_defn #LocalAntibracket}
 ###### Definition
+**([[local antibracket]])**
 
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
 over [[Minkowski spacetime]] $\Sigma$ (def. \ref{MinkowskiSpacetime}), and let $\mathcal{G} \overset{gb}{\to} \Sigma$ be a bundle of [[gauge parameters]] (def. \ref{GaugeParametrizedInfinitesimalGaugeTransformation}) which are closed (def. \ref{GaugeParametersClosed}),
@@ -1649,69 +1683,87 @@ $$
   \right)
 $$
 
-whose [[Chevalley-Eilenberg algebra]] is the _[[local BRST complex]]_ of the field theory as well as the infinitesimal [[vertical cotangent bundle]] 
+whose [[Chevalley-Eilenberg algebra]] is the _[[local BRST complex]]_ of the field theory with shifted infinitesimal [[vertical cotangent bundle]]
 
 $$
-  T^\ast_{\Sigma,inf}\left(
+  T^\ast_{\Sigma,inf}[-1]\left(
     E \times_\Sigma (\mathcal{G}[1])
   \right)
 $$
 
 of its underlying graded bundle
-from def. \ref{InfinitesimalCotangentBundleOfFieldAndGaugeParameterBundle}. On the horizontal $p+1$-forms (def. \ref{VariationalBicomplexOnSecondOrderJetBundleOverTrivialVectorBundleOverMinkowskiSpacetime}) the _[[local antibracket]]_
+from def. \ref{InfinitesimalCotangentBundleOfFieldAndGaugeParameterBundle}.
+
+Then on the horizontal $p+1$-forms on this bundle (def. \ref{VariationalBicomplexOnSecondOrderJetBundleOverTrivialVectorBundleOverMinkowskiSpacetime}) which in terms of the [[volume form]] may all be decomposed as (eq:LagrangianFunctionViaVolumeForm)
+
+$$
+  H
+    \;=\;
+  h \, dvol_\Sigma
+  \;\in\;
+  \Omega^{p+1}_\Sigma\left( \,T^\ast_{\Sigma,inf}[-1]\left( E \times_\Sigma (\mathcal{G}[1]) \right) \, \right)
+$$
+
+the _[[local antibrackets]]_
 
 $$
   \{-,-\}'
+  ,
+  \{-,-\}
   \;\colon\;
-  \Omega^{p+1,0}_\Sigma( T^\ast_{\Sigma,inf}(E \times_\Sigma \mathcal{G}[1]) )
-    \otimes
-  \Omega^{p+1,0}_\Sigma( T^\ast_{\Sigma,inf}(E \times_\Sigma \mathcal{G}[1]) )
+  \Omega^{p+1,0}_\Sigma( \, T^\ast_{\Sigma,inf}[-1](E \times_\Sigma \mathcal{G}[1]) \, )
+    \,\otimes\,
+  \Omega^{p+1,0}_\Sigma( \, T^\ast_{\Sigma,inf}[-1](E \times_\Sigma \mathcal{G}[1]) \, )
     \longrightarrow
-  \Omega^{p+1,0}_\Sigma( T^\ast_{\Sigma,inf}(E \times_\Sigma \mathcal{G}[1]) )
+  \Omega^{p+1,0}_\Sigma( \, T^\ast_{\Sigma,inf}[-1](E \times_\Sigma \mathcal{G}[1]) \, )
 $$
 
-is the map given in the [[local coordinates]] (eq:coordslocalOnInfinitesimalCotangentOfFieldBundleTimesGaugeParameterBundle) by
+are the functions which are given in the [[local coordinates]] (eq:coordslocalOnInfinitesimalCotangentOfFieldBundleTimesGaugeParameterBundle) as follows:
+
+The first version is
 
 $$
   \begin{aligned}
-    \left\{ f\, dvol_\Sigma \,,\,g \, dvol_\Sigma \right\}
-    & =
+    \left\{ f\, dvol_\Sigma \,,\,g \, dvol_\Sigma \right\}'
+    & \coloneqq
     \phantom{+}
     \left(
     \frac{\overset{\leftarrow}{\delta}_{EL} f }{\delta \phi^\ddagger_a}
-    \frac{\overset{\rightarrow}{\delta}_{EL} g}{\delta \phi^a}
+    \frac{\overset{\rightarrow}{\delta}_{EL} g}{\delta {\phi^a}^{\phantom{\ddagger}}}
     -
-    \frac{\overset{\leftarrow}{\delta}_{EL}}{\delta \phi^a}
+    \frac{\overset{\leftarrow}{\delta}_{EL}}{\delta {\phi^a}^{\phantom{\ddagger}}}
     \frac{\overset{\rightarrow}{\delta}_{EL} g}{\delta \phi^\ddagger_a}
     \right)
     dvol_\Sigma
     \\
     &
-    \phantom{=} + 
+    \phantom{=} +
     \left(
     \frac{\overset{\leftarrow}{\delta}_{EL} f}{\delta c^\ddagger_\alpha}
-    \frac{\overset{\rightarrow}{\delta}_{EL} g}{\delta c^\alpha}
+    \frac{\overset{\rightarrow}{\delta}_{EL} g}{\delta {c^\alpha}^{\phantom{\ddagger}}}
     -
-    \frac{\overset{\leftarrow}{\delta}_{EL}}{\delta c^\alpha}
+    \frac{\overset{\leftarrow}{\delta}_{EL}}{\delta {c^\alpha}^{\phantom{\ddagger}}}
     \frac{\overset{\rightarrow}{\delta}_{EL} g}{\delta c^\ddagger_\alpha}
     \right)
     dvol_\Sigma
+    \,.
   \end{aligned}
 $$
 
-which is of the form of the [[Schouten bracket]] (eq:Antibracket) but with [[Euler-Lagrange derivatives]] (eq:EulerLagrangeEquationGeneral) instead of [[partial derivatives]].
+This is of the form of the [[Schouten bracket]] (eq:Antibracket) but with [[Euler-Lagrange derivatives]] (eq:EulerLagrangeEquationGeneral) instead of [[partial derivatives]],
 
-and the variant
+The second version is this:
 
 $$
   \label{LocalCommutatorOfDerivationsOnJetBundle}
   \begin{aligned}
     \left\{
-      f dvol_\Sigma,
-      g
+      f \, dvol_\Sigma,
+      g \, dvol_\Sigma
     \right\}
     & \coloneqq
-    \phantom{+ (-1)^{\vert f \vert + (p+1)}}
+    \phantom{+}
+    \left(
     \left(
       \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}}
       \left(
@@ -1731,9 +1783,11 @@ $$
     \left(
       \frac{\partial g}{\partial \phi^a_{,\mu_1 \cdots \mu_k}}
     \right)
+    \right) \, dvol_\Sigma
     \\
     &
-    \phantom{=} + (-1)^{\vert f \vert + (p+1)}
+    \phantom{\coloneqq}
+    +
     \left(
     \left(
       \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}}
@@ -1742,7 +1796,7 @@ $$
       \right)
     \right)
     \left(
-      \frac{\partial g}{\partial c^\ddagger_{\alpha,\mu_1 \cdots \mu_k}}
+      \frac{\partial g}{\partial {c}^\ddagger_{\alpha,\mu_1 \cdots \mu_k}}
     \right)
     -
     \left(
@@ -1754,44 +1808,80 @@ $$
     \left(
       \frac{\partial g}{\partial c^\alpha_{,\mu_1 \cdots \mu_k}}
     \right)
-    \right)
+    \right) \, dvol_\Sigma
   \end{aligned}
 $$
 
-where $\frac{\delta_{EL}}{\delta \phi^a}$ denotes the [[Euler-Lagrange variational derivative]] (eq:EulerLagrangeEquationGeneral) ([Barnich-Henneaux 96 (2.12)-(2.13)](local+BRST+cohomology#BarnichHenneaux96)).
+where again $\frac{\delta_{EL}}{\delta \phi^a}$ denotes the [[Euler-Lagrange variational derivative]] (eq:EulerLagrangeEquationGeneral)
 
 =--
 
+([Barnich-Henneaux 96 (2.9) and (2.12)](local+BRST+cohomology#BarnichHenneaux96)).
+
++-- {: .num_prop }
+###### Proposition
+
+
+The [[local antibracket]] from def. \ref{LocalAntibracket} satisfies the following properties:
+
+1. The two versions differ by a [[total spacetime derivative]] (def. \ref{VariationalBicomplexOnSecondOrderJetBundleOverTrivialVectorBundleOverMinkowskiSpacetime}):
+
+   $$
+     \{f,g\}
+     =
+     \{f,g\}' + d(...)
+     \,.
+   $$
+
+1. The primed version is strictly graded skew-symmetric:
+
+   $$
+     \left\{f \, dvol_\Sigma \,,\, g\, dvol_\Sigma \right\}'
+     ;\=\;
+     - (-1)^{deg(f) deg(g)} \left\{g \, dvol_\Sigma \,,\, f\, dvol_\Sigma \right\}     
+   $$
+
+1. The unprimed version $\{-,-\}$ strictly satisfies the graded [[Jacobi identity]], meaning that it is a graded [[derivation]] in the second argument:
+
+   $$
+     \left\{ f\, dvol_\Sigma, \left\{ g\, dvol_\Sigma \,,\, h\, dvol_\Sigma \right\}\right\}
+     \;=\;
+     \left\{
+       \left\{ f\, dvol_\Sigma \,,\, g\, dvol_\Sigma  \right\}
+       \,,
+       h\, dvol_\Sigma
+     \right\}
+     \;+\;
+     (-1)^{deg(f) deg(g)}
+     \left\{
+       g\, dvol_\Sigma  
+       \,,\,
+       \left\{
+         f\, dvol_\Sigma
+         \,,\,
+         h\, dvol_\Sigma
+       \right\}
+     \right\}
+   $$
+
+for all $f$,$g$ of homogeneous degree $deg(f)$, $deg(g)$, respectively.
+
+=--
+
+([Barnich-Henneaux 96 (B.6) and footnote 9](local+BRST+cohomology#BarnichHenneaux96)).
+
+
++-- {: .proof}
+###### Proof
+
+By the very definition of the [[Euler-Lagrange derivative]] (eq:EulerLagrangeEquationGeneral), these two
+
+
+=--
 $\,$
 
 **[[derived critical locus]] on [[jet bundle]] -- the [[local BV-BRST complex]]**
   {#DerivedCriticalLocusOnJetBundle}
-
-If we think of the function $S$ as being the [[action functional]] (example \ref{ActionFunctional})
-of a [[Lagrangian field theory]] $(E,\mathbf{L})$ (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) over a [[compact space|compact]] [[spacetime]] $\Sigma$,
-with $X$ the  [[space of field histories]] (or rather an [[infinitesimal neighbourhood]] therein),
-hence with $\mathfrak{g}$ a Lie algebra of [[gauge symmetries]] acting on the field histories, then
-the [[Chevalley-Eilenberg algebra]] $CE\left((X/\mathfrak{g})_{d S \simeq 0}\right)$ of the [[derived critical locus]] of $S$ is called the
-_[[BV-BRST complex]]_ of the theory.
-
-
-In applications of interest, the spacetime $\Sigma$ is _not_ [[compact space|compact]].
-In that case one may still appeal to a construction on the [[space of field histories]]
-as in example \ref{ArchetypeOfBVBRSTComplex} by considering the action functional for all
-[[adiabatic switching|adiabatically switched]] $b \mathbf{L}$ Lagrangians, with $b \in C_{cp}^\infty(\Sigma)$.
-This approach is taken in ([Fredenhagen-Rejzner 11a](BV-BRST+formalism#FredenhagenRejzner11a)).
-
-Here we instead consider now the "local lift" or "de-transgression" of the above construction from the
-[[space of field histories]] to the [[jet bundle]] of the field bundle of the theory, refining the
-[[BV-BRST complex]] to the _[[local BV-BRST complex]]_, corresponding to the [[local BRST complex]] from example \ref{LocalOffShellBRSTComplex} ([Barnich-Brandt-Henneaux 00](local+BRST+cohomology#BarnichBrandtHenneaux00)).
-
-This requires a slight refinement of the construction that leads to example \ref{ArchetypeOfBVBRSTComplex}:
-In contrast to the [[action functional]] $S = \tau_\Sigma(g\mathbf{L})$ (example \ref{ActionFunctional}),
-the [[Lagrangian density]] $\mathbf{L}$ is not strictly _invariant_ under [[infinitesimal gauge transformations]], in general,
-rather it may change up to a horizontally exact term (by the very definition \ref{GaugeParameters}). The same is then true, in general, for its
-[[Euler-Lagrange variational derivative]] $\delta_{EL} \mathbf{L}$ (unless we have already restricted to the [[shell]], by prop. \ref{InfinitesimalSymmetriesOfLagrangianAreAlsoSymmetriesOfTheEquationsOfMotion}). This means that $\delta_{EL} \mathbf{L}$
-is, [[off-shell]], not a section of the infinitesimal cotangent bundle (def. \ref{LieAlgebroidInfinitesimalCotangentBundle}) of the
-gauge action Lie algebroid on the jet bundle. But it turns out that it still is a section of local refinement of the cotangent bundle, which is twisted by horizontally exact terms. This is what we now describe.
 
 The following definition \ref{LocalInfinitesimalCotangentLieAlgebroid} is the local refinement of
 def. \ref{LieAlgebroidInfinitesimalCotangentBundle}:
