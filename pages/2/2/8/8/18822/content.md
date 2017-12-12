@@ -1146,7 +1146,7 @@ $$
   d(...)
 $$
 
-by the fact (prop. \ref{EvolutionaryVectorFieldProlongation}) that contraction with prolongations of evolutionary vector fields antio-commutes with the [[total spacetime derivative]] (eq:ProlongedEvolutionaryVectorFieldContractionAnticommutedWithHorizontalDerivative).
+by the fact (prop. \ref{EvolutionaryVectorFieldProlongation}) that contraction with prolongations of evolutionary vector fields anti-commutes with the [[total spacetime derivative]] (eq:ProlongedEvolutionaryVectorFieldContractionAnticommutedWithHorizontalDerivative).
 
 Hence the last two equations combined give
 
@@ -1247,6 +1247,7 @@ $$
 Since the [[Euler-Lagrange derivative]] vanishes on [[total spacetime derivative]] (example \ref{TrivialLagrangianDensities}) also its application on the contraction on the left vanishes. But via example \ref{EvolutionaryVectorFieldsAsFieldDependentSections} that contraction is a pairing of field-dependent sections as in prop. \ref{EulerLagrangeDerivativeIsDerivationViaAdjointFrechetDerivatives}. Hence we use this proposition to compute:
 
 $$
+  \label{TowardsProofThatSymmetriesPreserveTheShell}
   \begin{aligned}
     0
     & =
