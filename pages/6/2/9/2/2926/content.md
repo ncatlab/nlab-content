@@ -60,7 +60,7 @@ $$
 The Maurer-Cartan form is a Lie-algebra valued form with vanishing [[curvature]].
 
 $$
-  d \theta + [\theta \wedge \theta] = 0
+  d \theta + \frac{1}{2}[\theta \wedge \theta] = 0
 $$
 
 This is known as the [[Maurer-Cartan equation]].
