@@ -84,10 +84,15 @@ See there for more details.
 +-- {: .num_prop #TotOfBoundedDegreewiseExactIsExact}
 ###### Proposition
 
-1. If $C_{\bullet,\bullet}$ is bounded and has [[exact sequence|exact]] rows or columns then also $Tot(C)_\bullet$ is exact.
-1. If $C_{\bullet,\bullet}$ has exact rows then the product-sum total complex is exact.
-1. If $C_{\bullet,\bullet}$ has exact rows and kernels (or equivalently) images between row complexes are exact, then the sum and product total complexes are exact
-1. If $C_{\bullet,\bullet}$ has exact rows and for each $i$ taking $H_i$ of the columns gives an exact complex, then the sum-product total complex is exact.
+First let $C$ be a double complex in any abelian category
+
+* If $C_{\bullet,\bullet}$ is bounded and has [[exact sequence|exact]] rows or columns then also $Tot(C)_\bullet$ is exact.
+
+Now let $C$ be a double complex of abelian groups.
+
+* If $C_{\bullet,\bullet}$ has exact rows then the product-sum total complex is exact.
+* If $C_{\bullet,\bullet}$ has exact rows and kernels (or equivalently) images between row complexes are exact, then the sum and product total complexes are exact
+* If $C_{\bullet,\bullet}$ has exact rows and for each $i$ taking $H_i$ of the columns gives an exact complex, then the sum-product total complex is exact.
 
 =--
 
