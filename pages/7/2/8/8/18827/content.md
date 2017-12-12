@@ -1312,7 +1312,7 @@ In this form the [[Schouten bracket]] is called the _[[antibracket]]_.
 
 =--
 
-The great power of the [[Schouten bracket]]/[[antibracket]] rests in the fact that it makes the [[Chevalley-Eilenberg differential]] on a [[derived critical locus]] $(X/\mathfrak{g})_{d S \simeq 0}$ become a [[Hamiltonian vector field]], for "[[Hamiltonian]]" the sum of $S$ with the [[Chevalley-Eilenberg differential]] of $X/\mathfrak{g}$:
+The power of the [[Schouten bracket]]/[[antibracket]] rests in the fact that it makes the [[Chevalley-Eilenberg differential]] on a [[derived critical locus]] $(X/\mathfrak{g})_{d S \simeq 0}$ become a [[Hamiltonian vector field]], for "[[Hamiltonian]]" the sum of $S$ with the [[Chevalley-Eilenberg differential]] of $X/\mathfrak{g}$:
 
 +-- {: .num_example #ChevalleyEilenbergDifferentialOnDerivedCriticalLocusIsHamiltonianViaAntibracket}
 ###### Example
@@ -1320,7 +1320,16 @@ The great power of the [[Schouten bracket]]/[[antibracket]] rests in the fact th
 
 Let $(X/\mathfrak{g})_{d S \simeq 0}$ be a [[derived critical locus]] inside an [[action Lie algebroid]] as in example \ref{ArchetypeOfBVBRSTComplex}.
 
-Then the CE-differential (eq:ExplitiCEDifferentialInCotangentBundleOfActionLieAlgebroid) of the [[derived critical locus]] $X/\mathfrak{g}\vert_{S \simeq 0}$ is simply the [[Schouten bracket]]/[[antibracket]] (def. \ref{SchoutenBracketAndAntibracket}) with the [[sum]] of the CE-differential of $X/\mathfrak{g}$ and the function $-S$:
+Then the CE-differential (eq:ExplitiCEDifferentialInCotangentBundleOfActionLieAlgebroid) of the [[derived critical locus]] $X/\mathfrak{g}\vert_{S \simeq 0}$ is simply the [[Schouten bracket]]/[[antibracket]] (def. \ref{SchoutenBracketAndAntibracket}) with the [[sum]] 
+
+$$
+  \label{BVBRSTFunctionForActionLieAlgebroid}
+  S_{\text{BV-BRST}}
+  \;\coloneqq\;
+  S - d_{CE(X/\mathfrak{g})}
+$$
+
+of the [[Chevalley-Eilenberg differential]] of $X/\mathfrak{g}$ and the function $-S$:
 
 $$
   d_{CE\left( (X/\mathfrak{g})_{d S \simeq 0} \right) }(-)
@@ -1350,6 +1359,7 @@ $$
   \right\}
   \,.
 $$
+
 
 =--
 
@@ -1547,16 +1557,63 @@ Hence these values of the [[Schouten bracket]]/[[antibracket]] indeed all agree 
 
 =--
 
+As a corollary we obtain:
+
++-- {: .num_prop #ClassicalMasterEquation}
+###### Proposition
+**([[classical master equation]])**
+
+Let $(X/\mathfrak{g})_{d S \simeq 0}$ be a [[derived critical locus]] inside an [[action Lie algebroid]] as in example \ref{ArchetypeOfBVBRSTComplex}.
+
+Then the [[Schouten bracket]]/[[antibracket]] (def. \ref{SchoutenBracketAndAntibracket}) of the function $S_{\text{BV-BRST}}$ S_{\text{BV-BRST}}
+
+$$
+  S_{\text{BV-BRST}}
+  \;\coloneqq\;
+  S - d_{CE\left( X/\mathfrak{g}\right)}
+$$ 
+
+with itself vanishes:
+
+$$
+  \left\{
+    S_{\text{BV-BRST}}
+    \,,\,
+    S_{\text{BV-BRST}}
+  \right\}
+  \;=\;
+  0
+  \,.
+$$
+
+Conversely, given a shifted [[cotangent bundle]] of the form $T^\ast[-1](X \times \mathfrak{g}[1])$ (eq:ShiftedCotangentBundleForCriticalLocusInsideLieAlgebroid), then the [[mathematical structure|struture]] of a 
+[[differential]] of degree +1 on its [[algebra of functions]] is equivalent to a degree-0 element $S \in C^\infty(T^\ast[-1](X \times \mathfrak{g}[1]))$ such that 
+
+$$
+  \left\{
+    S, S
+  \right\}
+  \;=\;
+  0
+  \,.
+$$
+
+Since therefore this equation controls the structure of [[derived critical loci]] once the underlying manifold $X$ and 
+[[Lie algebra]] $\mathfrak{g}$ is specified, it is also called the _[[master equation]]_ and here specifically the 
+_[[classical master equation]]_.
+
+=--
+
 $\,$
 
-Next we turn to applying these considerations about [[derived critical loci]] to [[Lagrangian densities]] defined on the [[homotopy quotient]] of a [[jet bundle]] by [[infinitesimal gauge symmetries]]. By example \ref{ChevalleyEilenbergDifferentialOnDerivedCriticalLocusIsHamiltonianViaAntibracket} it is clear that this is best understood by first considering the refinement of the [[Schouten bracket]]/[[antibracket]] to this situation.
+This concludes our discussion of plain [[derived critical loci]] inside [[Lie algebroids]]. Now we turn to applying these considerations about to [[Lagrangian densities]] on a [[jet bundle]], which are [[invariant]] under [[infinitesimal gauge symmetries]] generally 
+only up to a [[total spacetime derivative]]. By example \ref{ChevalleyEilenbergDifferentialOnDerivedCriticalLocusIsHamiltonianViaAntibracket} it is clear that this is best understood by first considering the refinement of the [[Schouten bracket]]/[[antibracket]] to this situation.
 
 
 $\,$
 
 **[[local BV-BRST complex|local]] [[antibracket]]**
  {#LocalJetBundleAntibracket}
-
 
 
 If we think of the invariant function $S$ in def. \ref{DerivedCriticalLocusOfGaugeInvariantFunctionOnLieAlgebroid} as being the [[action functional]] (example \ref{ActionFunctional})
@@ -1767,21 +1824,21 @@ $$
     \left(
       \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}}
       \left(
-        \frac{\delta_{EL} f}{\delta \phi^a}
+        \frac{\overset{\leftarrow}{\delta}_{EL} f}{\delta \phi^a}
       \right)
     \right)
     \left(
-      \frac{\partial g}{\partial {\phi}^\ddagger_{a,\mu_1 \cdots \mu_k}}
+      \frac{\overset{\rightarrow}{\partial} g}{\partial {\phi}^\ddagger_{a,\mu_1 \cdots \mu_k}}
     \right)
     -
     \left(
       \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}}
       \left(
-        \frac{\delta_{EL} f}{\delta \phi^\ddagger_a}
+        \frac{\overset{\leftarrow}{\delta}_{EL} f}{\delta \phi^\ddagger_a}
       \right)
     \right)
     \left(
-      \frac{\partial g}{\partial \phi^a_{,\mu_1 \cdots \mu_k}}
+      \frac{\overset{\rightarrow}{\partial} g}{\partial \phi^a_{,\mu_1 \cdots \mu_k}}
     \right)
     \right) \, dvol_\Sigma
     \\
@@ -1792,21 +1849,21 @@ $$
     \left(
       \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}}
       \left(
-        \frac{\delta_{EL} f}{\delta c^\alpha}
+        \frac{\overset{\leftarrow}{\delta}_{EL} f}{\delta c^\alpha}
       \right)
     \right)
     \left(
-      \frac{\partial g}{\partial {c}^\ddagger_{\alpha,\mu_1 \cdots \mu_k}}
+      \frac{\overset{\rightarrow}{\partial} g}{\partial {c}^\ddagger_{\alpha,\mu_1 \cdots \mu_k}}
     \right)
     -
     \left(
       \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}}
       \left(
-        \frac{\delta_{EL} f}{\delta c^\ddagger_\alpha}
+        \frac{\overset{\leftarrow}{\delta}_{EL} f}{\delta c^\ddagger_\alpha}
       \right)
     \right)
     \left(
-      \frac{\partial g}{\partial c^\alpha_{,\mu_1 \cdots \mu_k}}
+      \frac{\overset{\rightarrow}{\partial} g}{\partial c^\alpha_{,\mu_1 \cdots \mu_k}}
     \right)
     \right) \, dvol_\Sigma
   \end{aligned}
@@ -1818,9 +1875,9 @@ where again $\frac{\delta_{EL}}{\delta \phi^a}$ denotes the [[Euler-Lagrange var
 
 ([Barnich-Henneaux 96 (2.9) and (2.12)](local+BRST+cohomology#BarnichHenneaux96)).
 
-+-- {: .num_prop }
++-- {: .num_prop #BasicPropertiesOfTheLocalAntibracket}
 ###### Proposition
-
+**(basic properties of the [[local antibracket]])**
 
 The [[local antibracket]] from def. \ref{LocalAntibracket} satisfies the following properties:
 
@@ -1837,8 +1894,8 @@ The [[local antibracket]] from def. \ref{LocalAntibracket} satisfies the followi
 
    $$
      \left\{f \, dvol_\Sigma \,,\, g\, dvol_\Sigma \right\}'
-     ;\=\;
-     - (-1)^{deg(f) deg(g)} \left\{g \, dvol_\Sigma \,,\, f\, dvol_\Sigma \right\}     
+     \;=\;
+     - (-1)^{deg(f) deg(g)} \, \left\{g \, dvol_\Sigma \,,\, f\, dvol_\Sigma \right\}     
    $$
 
 1. The unprimed version $\{-,-\}$ strictly satisfies the graded [[Jacobi identity]], meaning that it is a graded [[derivation]] in the second argument:
@@ -1846,11 +1903,26 @@ The [[local antibracket]] from def. \ref{LocalAntibracket} satisfies the followi
    $$
      \left\{ f\, dvol_\Sigma, \left\{ g\, dvol_\Sigma \,,\, h\, dvol_\Sigma \right\}\right\}
      \;=\;
-     \left\{
-       \left\{ f\, dvol_\Sigma \,,\, g\, dvol_\Sigma  \right\}
-       \,,
-       h\, dvol_\Sigma
-     \right\}
+       \underset{
+         =
+         \left\{
+           \left\{ f\, dvol_\Sigma \,,\, g\, dvol_\Sigma  \right\}'
+           \,,
+           h\, dvol_\Sigma
+         \right\}
+        }{
+        \underbrace{
+          \left\{
+          \left\{ 
+             f\, dvol_\Sigma 
+             \,,\, 
+             g\, dvol_\Sigma  
+          \right\}
+          \,,\,
+          h\, dvol_\Sigma
+          \right\}
+        }
+     }
      \;+\;
      (-1)^{deg(f) deg(g)}
      \left\{
@@ -1863,8 +1935,10 @@ The [[local antibracket]] from def. \ref{LocalAntibracket} satisfies the followi
        \right\}
      \right\}
    $$
+   
+   and the first term on the right is equivalently given by the primed bracket, as shown under the brace
 
-for all $f$,$g$ of homogeneous degree $deg(f)$, $deg(g)$, respectively.
+for all $f$,$g$ of homogeneous degree $deg(f)$ and $deg(g)$, respectively.
 
 =--
 
@@ -1874,8 +1948,9 @@ for all $f$,$g$ of homogeneous degree $deg(f)$, $deg(g)$, respectively.
 +-- {: .proof}
 ###### Proof
 
-By the very definition of the [[Euler-Lagrange derivative]] (eq:EulerLagrangeEquationGeneral), these two
+That the two expressions differ by a horizontally exact terms follows by the very definition of the [[Euler-Lagrange derivative]] (eq:EulerLagrangeEquationGeneral). Also the graded skew symmetry of the primed bracket is manifest.
 
+The third point requires some computation ([Barnich-Henneaux 96 (B.9)](local+BRST+cohomology#BarnichHenneaux96)).
 
 =--
 $\,$
