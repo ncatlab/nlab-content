@@ -803,7 +803,7 @@ $$
   \,.
 $$
 
-This is called the space of _distributional sections_ of the bundle $\tilde{E}^*$.
+This is called the space of _distributional sections_ of the [[dual vector bundle]] ${E}^*$.
 
 The _[[support of a distribution|support of a distributional section]]_ $supp(u)$ is the set of points in $\Sigma$ such that
 for every neighbourhood of that point $u$ does not vanish on all sections with support in that neighbourhood.
@@ -842,7 +842,7 @@ as a [[functional]] on sections with this support property is a [[dense subspace
 
 $$
   \array{
-    \Gamma_{\Sigma,cp}(\tilde E)
+    \Gamma_{\Sigma,cp}(E^\ast)
       &\overset{\phantom{A}u_{(-)}\phantom{A} }{\hookrightarrow}&
     \Gamma'_{\Sigma,s}(E)
     \\
@@ -1286,19 +1286,19 @@ $$
 \begin{aligned}
   \mathrm{G}_{P,+}
     &\;\colon\;
-  \Gamma_{\Sigma, pcp}(\tilde E^\ast)
+  \Gamma_{\Sigma, pcp}(E^\ast)
     \longrightarrow
   \Gamma_{\Sigma, pcp}(E) ,
   \\
   \mathrm{G}_{P,-}
     &\;\colon\;
-  \Gamma_{\Sigma, fcp}(\tilde E^\ast)
+  \Gamma_{\Sigma, fcp}(E^\ast)
     \longrightarrow
   \Gamma_{\Sigma, fcp}(E) ,
   \\
   \mathrm{G}_{P}
     &\;\colon\;
-  \Gamma_{\Sigma, tcp}(\tilde E^\ast)
+  \Gamma_{\Sigma, tcp}(E^\ast)
     \longrightarrow
   \Gamma_{\Sigma}(E) ,
 \end{aligned}
@@ -1319,7 +1319,7 @@ $$
 and
 
 $$
-  supp \mathrm{G}_{P,\pm}(\tilde{\alpha}^*) \subseteq J^\pm(supp \tilde{\alpha}^*)
+  supp \mathrm{G}_{P,\pm}({\alpha}^*) \subseteq J^\pm(supp {\alpha}^*)
   \,.
 $$
 
