@@ -1046,9 +1046,9 @@ $$
     \cdots
     \\
     & =
-    (\mathrm{D}_\alpha)^\ast(\beta^\ast)
+    (\mathrm{D}_\alpha)_a^\ast(\beta^\ast)
     +
-    (\mathrm{D}_{\beta^\ast})^\ast(\alpha)
+    (\mathrm{D}_{\beta^\ast})_a^\ast(\alpha)
   \end{aligned}
 $$
 
@@ -1254,19 +1254,19 @@ $$
     \frac{\delta_{EL} \left( v \cdot \delta_{EL} L\right) }{ \delta \phi^a }
     \\
     & =
-    (\mathrm{D}_{v})^\ast( \delta_{EL}L )
+    (\mathrm{D}_{v})^\ast_a( \delta_{EL}L )
     +
-    (\mathrm{D}_{\delta_{EL}L})^\ast(v)
+    (\mathrm{D}_{\delta_{EL}L})^\ast_a(v)
     \\
     & =
-    (\mathrm{D}_{v})^\ast( \delta_{EL}L )
+    (\mathrm{D}_{v})^\ast_a( \delta_{EL}L )
     +
-    (\mathrm{D}_{\delta_{EL}L})(v)
+    (\mathrm{D}_{\delta_{EL}L})_a(v)
     \\
     & =
-    (\mathrm{D}_{v})^\ast( \delta_{EL}L )
+    (\mathrm{D}_{v})^\ast_a( \delta_{EL}L )
     +
-    \hat v(\delta_{EL}L)
+    \hat v\left( \frac{\delta_{EL}L}{\delta \phi^a} \right)
     \,.
   \end{aligned}
 $$
