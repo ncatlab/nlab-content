@@ -27,10 +27,23 @@ Write $Ch_\bullet(\mathcal{A})$ for the [[category of chain complexes]] in $\mat
 +-- {: .num_defn}
 ###### Definition
 
-For $C_{\bullet, \bullet} \in Ch_\bullet(Ch_\bullet(\mathcal{A}))$ a [[double complex]], its associated **total complex** $Tot(C)_\bullet \in Ch_\bullet(\mathcal{A})$ is the [[chain complex]] whose components are the [[direct sums]]
+For $C_{\bullet, \bullet} \in Ch_\bullet(Ch_\bullet(\mathcal{A}))$ a [[double complex]], its associated **total complex** $Tot(C)_\bullet \in Ch_\bullet(\mathcal{A})$ is the [[chain complex]] whose components are the [[direct sums]], [[direct products]] or a mixture of those
 
+The sum total complex
 $$
-  Tot(C)_n = \bigoplus_{k+l = n} C_{k,l}
+  Tot^{\oplus}(C)_n = \bigoplus_{k+l = n} C_{k,l}
+$$
+the product total complex
+$$
+  Tot^{\pi}(C)_n = \prod_{k+l = n} C_{k,l}
+$$
+the product-sum total complex
+$$
+  Tot^{\pi\oplus}(C)_n = \prod_{k+l = n, k \lt 0} C_{k,l}\oplus\bigoplus_{k+l = n, k\geq 0} C_{k,l}
+$$
+and the sum-product total complex
+$$
+  Tot^{\oplus\pi}(C)_n = \bigoplus_{k+l = n, k \lt 0} C_{k,l}\oplus\prod_{k+l = n, k\geq 0} C_{k,l}
 $$
 
 and whose [[differentials]] are given by the [[linear combination]]
@@ -41,6 +54,7 @@ $$
   \partial^C_{vert} + (-1)^{vertical\;degree} \partial^C_{hor}  
   \,. 
 $$
+Using the four different types of total complexes gives the flexibility to make more nuanced exactness statements for the total complex under various assumptions on the double complex.
 
 =--
 
@@ -70,7 +84,10 @@ See there for more details.
 +-- {: .num_prop #TotOfBoundedDegreewiseExactIsExact}
 ###### Proposition
 
-If $C_{\bullet,\bullet}$ is bounded and has [[exact sequence|exact]] rows or columns then also $Tot(C)_\bullet$ is exact.
+1. If $C_{\bullet,\bullet}$ is bounded and has [[exact sequence|exact]] rows or columns then also $Tot(C)_\bullet$ is exact.
+1. If $C_{\bullet,\bullet}$ has exact rows then the product-sum total complex is exact.
+1. If $C_{\bullet,\bullet}$ has exact rows and kernels (or equivalently) images between row complexes are exact, then the sum and product total complexes are exact
+1. If $C_{\bullet,\bullet}$ has exact rows and for each $i$ taking $H_i$ of the columns gives an exact complex, then the sum-product total complex is exact.
 
 =--
 
