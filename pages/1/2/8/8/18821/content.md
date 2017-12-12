@@ -1447,7 +1447,9 @@ $$
   \delta_{EL}\mathbf{L}
   & =
   \left(
-    f^{\mu \nu \alpha}_{,\mu} + \gamma^\alpha{}_{\beta \gamma} a_\mu^\beta f^{\mu \nu \gamma}
+    f^{\mu \nu \alpha}_{,\mu} 
+    + 
+    \gamma^\alpha{}_{\beta' \gamma} a_\mu^{\beta'} f^{\mu \nu \gamma}
   \right)
   k_{\alpha \beta}
   \,\delta a_\mu^\beta
