@@ -2363,6 +2363,93 @@ $$
 
 =--
 
+More generally:
+
++-- {: .num_example}
+###### Example
+
+case of [[Yang-Mills theory]]
+
+here
+
+$$
+  L_{BRST}
+  =
+  \left(
+    c^\alpha_{,\mu}
+      -
+    \gamma^\alpha{}_{\beta \gamma}c^\beta a^\gamma_\mu 
+  \right)
+  (a^\ddagger)_\alpha^\mu
+  \;+\;
+  \tfrac{1}{2}
+  \gamma^\alpha{}_{\beta \gamma} c^\beta c^\gamma c^\ddagger_\alpha
+$$
+
+action of $s = \left\{ -L + L_{BRST} \,,\, - \right\}$ on 0-jets:
+
+$$
+  \array{
+    & & s &
+    \\
+    \text{field}
+    & 
+    a_\mu^\alpha
+       &\mapsto&
+    c^\alpha_{,\mu}
+      -
+    \gamma^\alpha{}_{\beta \gamma}c^\beta a^\gamma_\mu 
+    &
+    \text{gauge symmetry}
+    \\
+    \text{
+      ghost field
+    }
+    & 
+    c^\alpha 
+      &\mapsto&
+    \tfrac{1}{2}\gamma^\alpha{}_{\beta \gamma} c^\beta c^\gamma
+    &
+    \text{Lie bracket}
+    \\
+    \text{antifield}
+    &
+    (a^\ddagger)^\mu_\alpha
+      &\mapsto&
+    \phantom{-}
+    \left(
+      \frac{d}{d x^\mu} f^{\mu \nu \alpha'}
+        +
+      \gamma^{\alpha'}{}_{\beta' \gamma} a_\mu^{\beta'} f^{\mu \nu \gamma}
+    \right)
+    k_{\alpha' \alpha}
+    &
+    \text{equations of motion}
+    \\
+    &&&
+    -
+    \gamma^{\alpha'}{}_{\beta \alpha}c^\beta  
+    (a^\ddagger)_{\alpha'}^\mu
+    &
+    \\
+    \text{anti ghostfield}
+    &
+    c^\ddagger_\alpha
+      &\mapsto&
+     \gamma^{\alpha'}{}_{\alpha \gamma} a^\gamma_\mu (a^\ddagger)^\mu_{\alpha'}
+     +  \frac{d}{d x^\mu} (a^\ddagger)^\mu_\alpha
+    &
+    \text{Noether identities}
+    \\
+    &&& + \gamma^{\alpha'}{}_{ \alpha \beta} c^\beta c^\ddagger_{\alpha'}
+  }
+$$
+
+=--
+
+(e.g. [Barnich-Brandt-Henneaux 00 (2.8)](local+BRST+cohomology#BarnichBrandtHenneaux00))
+
+
 
 $\,$
 
