@@ -1112,12 +1112,6 @@ based on
 [[!redirects BV-BRST differentials]]
 
 
-[[!redirects classical master equation]]
-[[!redirects classical master equations]]
-
-[[!redirects quantum master equation]]
-[[!redirects quantum master equations]]
-
 [[!redirects BV-complex]]
 [[!redirects BV-complexes]]
 [[!redirects BV complex]]
