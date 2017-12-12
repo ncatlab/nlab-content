@@ -246,17 +246,22 @@ $$
     \\
     & =
     -
-    \underset{k}{\sum} 
-    \frac{\delta_{EL}}{\delta \phi^a}
+    \underset{k}{\sum}
+    \underset{q}{\sum} 
+    (-1)^q
+    \frac{d^q}{d x^{\nu_1} \cdots d x^{\nu_q}}
     \left(
-      c^\alpha_{,\mu_1 \cdots \mu_k}
-      R_\alpha^{b \mu_1 \cdots \mu_k}
-     \frac{\delta_{EL} L}{\delta \phi^b}
+      \frac{\partial}{\partial \phi^a_{,\mu_1 \cdots \mu_q}}
+      \left(
+        c^\alpha_{,\mu_1 \cdots \mu_k}
+        R_\alpha^{b \mu_1 \cdots \mu_k}
+      \right)
+      \frac{\delta_{EL} L}{\delta \phi^b}
     \right)
   \end{aligned}
 $$
 
-hence 
+that these two terms indeed cancel in that
 
 $$
   \left(
@@ -269,7 +274,9 @@ $$
   0
 $$
 
-by (eq:TowardsProofThatSymmetriesPreserveTheShell)
 
+should be [this equation](https://ncatlab.org/nlab/show/A+first+idea+of+quantum+field+theory+--+Symmetries#eq:TowardsProofThatSymmetriesPreserveTheShell)
+
+(relative sign?)
 
 
