@@ -794,7 +794,7 @@ Consider for simplicity the special case that $\mathfrak{g} = 0$ so that there i
 Then the [[Chevalley-Eilenberg algebra]] of the [[derived critical locus]] $X_{d S \simeq 0}$ of $S$ (example \ref{ArchetypeOfBVBRSTComplex}) has generators
 
 $$
-  \array{
+  \begin{aligned}
     &
     &
     \left(
@@ -812,7 +812,7 @@ $$
     &
     0
     &
-  }
+  \end{aligned}
 $$
 
 and [[differential]] given by
@@ -2651,7 +2651,7 @@ $$
      &\overset{d}{\longrightarrow}&
     \{ \overset{= 0}{\overbrace{ d J_v - \iota_v \delta_{EL}\mathbf{L} }} \}
     \\
-    && \mathllap{s}\uparrow && \uparrow\mathrlap{-s}
+    && \mathllap{s_{BV}}\uparrow && \uparrow\mathrlap{-s_{BV}}
     \\
     &&
     \epsilon^\alpha R^{a \mu}_\alpha \phi^\ddagger_a
@@ -2675,7 +2675,7 @@ $$
       dvol_\Sigma
     \right\}
     \\
-    && && \uparrow\mathrlap{-s}
+    && && \uparrow\mathrlap{-s_{BV}}
     \\
     &&
     &&
