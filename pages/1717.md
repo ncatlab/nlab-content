@@ -126,7 +126,7 @@ We now define the one-object strict [[2-groupoid]] $\mathbf{B}G$ from the crosse
 
   For $g \in G_1$ we write $\bullet \stackrel{g}{\to} \bullet$ for the corresponding 1-morphism in $\mathbf{B}G$;
 
-* Compositition of 1-morphisms is given by the product operation in $G_1$. There are two choice for the order in which to form the product.
+* Compositition of 1-morphisms is given by the product operation in $G_1$. There are two choices for the order in which to form the product.
 
   * **(convention F)** horizontal composition is given by
 
