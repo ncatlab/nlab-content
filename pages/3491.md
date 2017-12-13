@@ -134,7 +134,7 @@ $$
   f : X \to Z \to Y
 $$
 
-with $X \to Z$ a left/right/inner anodyne cofibraiton and $Z \to Y$ accordingly a left/right/inner Kan fibration.
+with $X \to Z$ a left/right/inner anodyne cofibration and $Z \to Y$ accordingly a left/right/inner Kan fibration.
 
 
 
