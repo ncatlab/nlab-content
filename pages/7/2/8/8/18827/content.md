@@ -1873,7 +1873,7 @@ where again $\frac{\delta_{EL}}{\delta \phi^a}$ denotes the [[Euler-Lagrange var
 
 =--
 
-([Barnich-Henneaux 96 (2.9) and (2.12)](local+BRST+cohomology#BarnichHenneaux96)).
+([Barnich-Henneaux 96 (2.9) and (2.12)](local+BRST+cohomology#BarnichHenneaux96), reviewed in [Barnich 10 (4.9)](BRST+complex#Barnich10))
 
 +-- {: .num_prop #BasicPropertiesOfTheLocalAntibracket}
 ###### Proposition
@@ -2213,19 +2213,68 @@ As before, for the purpose of our running examples the reader may take the follo
 definition of the derived reduced prolonged shell (def. \ref{DerivedProlongedShell}).
 This is local refinement of example \ref{ArchetypeOfBVBRSTComplex}:
 
-+-- {: .num_prop #LocalBVBRSTComplexIsDerivedCriticalLocusOfEulerLagrangeForm}
-###### Proposition
++-- {: .num_example #LocalBVBRSTComplexIsDerivedCriticalLocusOfEulerLagrangeForm}
+###### Example
 **([[local BV-BRST complex]])**
 
-Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
-over some [[spacetime]] $\Sigma$, and let $\mathcal{G} \overset{gb}{\to} \Sigma$ be
-a bundle of [[gauge parameters]] (def. \ref{GaugeParametrizedInfinitesimalGaugeTransformation}) which are closed (def. \ref{GaugeParametersClosed}).
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) over [[Minkowski spacetime]] $\Sigma$, and let $\mathcal{G} \overset{gb}{\to} \Sigma$ be a [[gauge parameter bundle]] (def. \ref{GaugeParametrizedInfinitesimalGaugeTransformation}) which is closed (def. \ref{GaugeParametersClosed}).  Assume that both are [[trivial vector bundles]] (example \ref{TrivialVectorBundleAsAFieldBundle}) with field coordinates as in prop. \ref{EulerLagrangeFormIsSectionOfLocalCotangentBundleOfJetBundleGaugeActionLieAlgebroid}.
 
-Then the [[Chevalley-Eilenberg algebra]] of the derived prolonged shell $\mathcal{E}^\infty_{BV}$
-(def. \ref{DerivedProlongedShell}) is given by
+Then the [[Chevalley-Eilenberg algebra]] of the derived prolonged shell $\mathcal{E}^\infty_{BV}$ (def. \ref{DerivedProlongedShell}) is
+
+$$
+  CE\left(
+   \mathcal{E}^\infty_{BV}
+  \right)
+  \;=\;
+  \left(
+    C^\infty\left(
+      T^\ast_{\Sigma,inf}( E \times_\Sigma \mathcal{G}[1] \times_\Sigma T^\ast \Sigma[1] )
+    \right)
+    \,,\,
+    \underset{
+       = s
+    }{
+    \underbrace{
+    \left\{
+       \left(- L + L_{BRST}\right) dvol_\Sigma
+       \,,
+       (-)
+    \right\}
+    }
+    }
+    \;+\;
+    d
+  \right)
+$$
+
+where the underlying graded algebra is the [[algebra of functions]] on the (-1)-shifted [[vertical cotangent bundle]] of the [[fiber product]] of the [[field bundle]] with the (+1)-shifted [[gauge parameter bundle]] (as in example \ref{ArchetypeOfBVBRSTComplex}) and the shifted cotangent bundle of $\Sigma$, and where the [[Chevalley-Eilenberg differential]] is the sum of the [[horizontal differential]] $d$ with the _[[BV-BRST differential]]_
+
+$$
+  s
+  \;\coloneqq\;
+    \left\{
+       \left(- L + L_{BRST}\right) dvol_\Sigma
+       \,,
+       (-)
+    \right\}  
+$$
+
+which is the [[local antibracket]] (def. \ref{LocalAntibracket}) with the _[[BV-BRST Lagrangian density]]_
+
+$$
+  \left( -L + L_{BRST}\right)
+  \;\in\;
+  \Omega^{p+1,0}_\Sigma\left( T^\ast_{\Sigma,inf}[-1]\left( E \times_\Sigma \mathcal{G}[1] \right)\right)
+$$
+
+which itself is the sum of (minus) the given [[Lagrangian density]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) with the BRST Lagrangian (eq:BRSTFunctionForClosed).
+
+The action of the [[BV-BRST differential]] on the generators is as follows:
 
 $$
   \array{
+    & & \array{ \text{BV-BRST differential} \\ s } &
+    \\
     \text{field}
     & 
     \phi^a
@@ -2246,29 +2295,47 @@ $$
     &
     \text{Lie bracket}
     \\
-    \text{antield}
+    \text{antifield}
     &
     \phi^\ddagger_\alpha
       &\mapsto&
+    \phantom{-}
     \frac{\delta_{EL} L}{\delta \phi^a}
-    +
-    \left(
-      \underset{k \in \mathbb{N}}{\sum} c^\alpha_{,\mu_1 \cdots \mu_k} \frac{\delta_{EL} R_\alpha^{b \mu_1 \cdots \mu_k}}{\delta \phi^a}
-      \phi^\ddagger_b
-    \right)    
     &
     \text{equations of motion}
+    \\
+    &&&
+    -
+    \left(
+      \underset{k \in \mathbb{N}}{\sum}  
+      \frac{\delta_{EL}}{\delta \phi^a}
+      \left(
+        c^\alpha_{,\mu_1 \cdots \mu_k} 
+        R_\alpha^{b \mu_1 \cdots \mu_k}        
+        \phi^\ddagger_b
+      \right)
+    \right)    
+    &
     \\
     \text{anti ghostfield}
     &
     c^\ddagger_\alpha
       &\mapsto&
+    -
     \underset{k \in \mathbb{N}}{\sum}
-      (-1)^k \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}} R_\alpha^{a \mu_1 \cdots \mu_k} \phi^\ddagger_a
+      (-1)^k \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}} 
+      \left(
+        R_\alpha^{a \mu_1 \cdots \mu_k} \phi^\ddagger_a
+      \right)
     &
-    \text{Noether identity}
+    \text{Noether identities}
+    \\
+    &&& + \gamma^{\alpha'}{}_{ \alpha \beta} c^\beta c^\ddagger_{\alpha'}
   }
 $$
+
+and this extends to jets of generator by $s \circ d + d \circ s = 0$.
+
 
 
 
