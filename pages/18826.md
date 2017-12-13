@@ -1693,7 +1693,7 @@ of the [[gauge parameter|gauge parameterized]] [[infinitesimal gauge symmetries]
 
 +-- {: .num_example #LocalOffShellBRSTComplex}
 ###### Example
-**(local [[BRST complex]] and [[ghost fields]] for closed [[infinitesimal gauge symmetries]])**
+**([[local BRST complex|local]] [[BRST complex]] and [[ghost fields]] for closed [[infinitesimal gauge symmetries]])**
 
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}), and let
 $\mathcal{G} \overset{gb}{\longrightarrow} \Sigma$ be a bundle of irreducible closed  [[gauge parameters]]
