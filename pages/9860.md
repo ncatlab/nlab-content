@@ -28,7 +28,7 @@ $$
   (X_1, \pi_1) \stackrel{i_1}{\leftarrow} (Z,\omega) \stackrel{i_2}{\to} (X_2, \pi_2)
 $$
 
-such that for all $f_1 \in C^\infty(X_1)$ and $f_2 \in C^\infty(X-2)$ the [[Poisson bracket]] on $Z$ vanishes:
+such that for all $f_1 \in C^\infty(X_1)$ and $f_2 \in C^\infty(X_2)$ the [[Poisson bracket]] on $Z$ vanishes:
 
 $$
   \{i_1^\ast f_1, i_2^\ast f_2\}_{\omega} = 0
