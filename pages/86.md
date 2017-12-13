@@ -803,7 +803,9 @@ $$
 
 * [[BRST complex]]
 
-* [[local BRST cohomology]]
+* [[local BV-BRST complex]]
+
+* [[variational BV-BRST bicomplex]]
 
 * [[homotopy BV algebra]]
 
