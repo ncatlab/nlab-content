@@ -90,15 +90,19 @@ its action on 0-jets
 
 $$
   \array{
-    & & s &
+    & & \array{ \text{BV-BRST differential} \\ s } &
     \\
     \text{field}
     & 
     \phi^a
       &\mapsto&
+    \underset{ = s_{BRST}(\phi^a) }{
+    \underbrace{
     \left(
       \underset{k \in \mathbb{N}}{\sum} c^\alpha_{,\mu_1 \cdots \mu_k} R_\alpha^{a \mu_1 \cdots \mu_k}
     \right)
+    }
+    }
     &
     \text{gauge symmetry}
     \\
@@ -108,7 +112,11 @@ $$
     & 
     c^\alpha 
       &\mapsto&
-    \tfrac{1}{2}\gamma^\alpha{}_{\beta \gamma} c^\beta c^\gamma
+    \underset{ = s_{BRST}(c^\alpha) }{
+    \underbrace{  
+      \tfrac{1}{2}\gamma^\alpha{}_{\beta \gamma} c^\beta c^\gamma
+    }
+    }
     &
     \text{Lie bracket}
     \\
@@ -117,11 +125,16 @@ $$
     \phi^\ddagger_\alpha
       &\mapsto&
     \phantom{-}
-    \frac{\delta_{EL} L}{\delta \phi^a}
+    \underset{ = s_{BV}(\phi^\ddagger_a) }{
+    \underbrace{
+      \frac{\delta_{EL} L}{\delta \phi^a}
+    }}
     &
     \text{equations of motion}
     \\
     &&&
+    \underset{ = s_{BRST}(\phi^\ddagger_a) }{
+    \underbrace{
     -
     \left(
       \underset{k \in \mathbb{N}}{\sum}  
@@ -132,22 +145,33 @@ $$
         \phi^\ddagger_b
       \right)
     \right)    
+    }
+    }
     &
     \\
     \text{anti ghostfield}
     &
     c^\ddagger_\alpha
       &\mapsto&
+    \underset{ = s_{BV}(c^\ddagger_\alpha) }{
+    \underbrace{
     -
     \underset{k \in \mathbb{N}}{\sum}
       (-1)^k \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}} 
       \left(
         R_\alpha^{a \mu_1 \cdots \mu_k} \phi^\ddagger_a
       \right)
+    }
+    }
     &
     \text{Noether identities}
     \\
-    &&& + \gamma^{\alpha'}{}_{ \alpha \beta} c^\beta c^\ddagger_{\alpha'}
+    &&& + 
+    \underset{ = s_{BRST}(c^\ddagger_\alpha) }{
+    \underbrace{
+      \gamma^{\alpha'}{}_{ \alpha \beta} c^\beta c^\ddagger_{\alpha'}
+    }
+    }
   }
 $$
 
@@ -312,4 +336,17 @@ $$
           R_\alpha^{a \mu_1 \cdots \mu_k} \phi^\ddagger_a
         \right)
   \right)
+$$
+
+Hence
+
+
+$$
+  \array{
+    \left( s_{BV} \right)^2 = 0 && \text{Noether's second theorem}
+    \\
+    \left( s_{BRST} \right)^2 = 0 && \text{closure of gauge symmetry}
+    \\
+    \left[ s_{BV}, s_{BRST} \right] = 0 && \text{ gauge symmetry preserves the shell }
+  }
 $$
