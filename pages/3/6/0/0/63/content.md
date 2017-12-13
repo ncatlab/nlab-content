@@ -265,6 +265,8 @@ The BRST complex described a homotopical [[quotient]] of a space by an infinites
 
 * [[local BRST complex]]
 
+* [[variational BRST-bicomplex]]
+
 * [[equivariant de Rham cohomology]]
 
 
