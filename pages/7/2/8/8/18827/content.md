@@ -2445,7 +2445,14 @@ $$
     \\
     \left( s_{BRST} \right)^2 = 0 && \text{closure of gauge symmetry}
     \\
-    \left[ s_{BV}, s_{BRST} \right] = 0 && \text{ gauge symmetry preserves the shell }
+    \left[ s_{BV}, s_{BRST} \right] = 0 && 
+    \left\{
+    \array{
+       \text{ gauge symmetry preserves the shell },
+       \\
+       \text{ gauge symmetry acts on Noether identities }
+    }
+    \right.
   }
 $$
 
@@ -2560,7 +2567,9 @@ $$
 That the sum of these two terms indeed vanishes is equation (eq:TowardsProofThatSymmetriesPreserveTheShell) in the proof of the
 on-shell invariance of the [[equations of motion]] under [[infinitesimal symmetries of the Lagrangian]] (prop. \ref{InfinitesimalSymmetriesOfLagrangianAreAlsoSymmetriesOfTheEquationsOfMotion})
 
-Finally on the [[antifields]] of the [[ghost fields]] we get
+
+finally on antifields of ghostfields we get
+ {#FinallyOnAntiFieldsOfGostFields}
 
 $$
   \begin{aligned}
@@ -2570,11 +2579,11 @@ $$
     \\
     & =
     -
-    \gamma^{\alpha'}{}_{\alpha \beta} c^\beta
+    \gamma^{\alpha'}{}_{\alpha \beta} c^\beta 
       \underset{k \in \mathbb{N}}{\sum}
-        (-1)^k \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}}
+        (-1)^k \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}} 
         \left(
-          R_\alpha^{a \mu_1 \cdots \mu_k} \phi^\ddagger_a
+          R_{\alpha'}^{a \mu_1 \cdots \mu_k} \phi^\ddagger_a
         \right)
   \end{aligned}
 $$
@@ -2582,18 +2591,91 @@ $$
 as well as
 
 $$
-  s_{BRST} s_{BV} c^\ddagger_\alpha
-  =
-  s_{BRST}
-  \left(
-      \underset{k \in \mathbb{N}}{\sum}
-        (-1)^k \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}}
-        \left(
-          R_\alpha^{a \mu_1 \cdots \mu_k} \phi^\ddagger_a
-        \right)
-  \right)
+  \begin{aligned}
+    s_{BRST} s_{BV} c^\ddagger_\alpha
+    & =
+    s_{BRST}
+    \left(
+        \underset{k \in \mathbb{N}}{\sum}
+          (-1)^k \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}} 
+          \left(
+            R_\alpha^{a \mu_1 \cdots \mu_k} \phi^\ddagger_a
+          \right)
+    \right)
+    \\
+    & =
+    R
+    \left(
+        \underset{k \in \mathbb{N}}{\sum}
+          (-1)^k \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}} 
+          \left(
+            R_\alpha^{a \mu_1 \cdots \mu_k} \phi^\ddagger_a
+          \right)
+    \right)
+    \;-\;
+    \left(
+        \underset{k \in \mathbb{N}}{\sum}
+          (-1)^k \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}} 
+          \left(
+            R_\alpha^{a \mu_1 \cdots \mu_k} 
+    \left(
+      \underset{q \in \mathbb{N}}{\sum}  
+      \frac{\delta_{EL}}{\delta \phi^a}
+      \left(
+        c^{\alpha'}_{,\nu_1 \cdots \nu_q} 
+        R_{\alpha'}^{b \nu_1 \cdots \nu_q}        
+        \phi^\ddagger_b
+      \right)
+    \right)    
+          \right)
+    \right)
+    \\
+    & +
+    R
+    \left(
+        \underset{k \in \mathbb{N}}{\sum}
+          (-1)^k \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}} 
+          \left(
+            R_\alpha^{a \mu_1 \cdots \mu_k} \phi^\ddagger_a
+          \right)
+    \right)
+    \;-\;
+    \left(
+        \underset{k \in \mathbb{N}}{\sum}
+          (-1)^k \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}} 
+          \left(
+            R_\alpha^{a \mu_1 \cdots \mu_k} 
+    \left(
+      \underset{q,r \in \mathbb{N}}{\sum} 
+      (-1)^{r} 
+      \frac{d^r}{d x^{\rho_1} \cdots d x^{\rho_r}}
+      \left(
+        c^{\alpha'}_{,\nu_1 \cdots \nu_q}
+        \frac{\partial R_{\alpha'}^{b \nu_1 \cdots \nu_q}}{\partial \phi^a_{,\rho_1 \cdots \rho_r}}         
+        \phi^\ddagger_b
+      \right)
+    \right)    
+          \right)
+    \right)
+    \\
+    & = (R \cdot N_R)_a^b (\phi^\ddagger_b)
+  \end{aligned}
 $$
 
+where in the last line we identified the [[Lie algebra action]] of [[infinitesimal symmetries of the Lagrangian]] on [[Noether operators]] from def. \ref{NoetherOperator}. Under this identification, the fact that
+
+$$
+  \left(
+    s_{BRST}s_{BV}
+    +
+    s_{BV} s_{BRST}
+  \right)
+  c^\ddagger_\alpha
+  = 
+  0
+$$
+
+is relation (eq:LieActionOnNoetherOperatorGivesLieBracketUnderNoetherTheorem) in prop. \ref{LieAlgebraActionOfInfinitesimalSymmetriesOfTheLagrangianOnNoetherOperators}.
 
 
 =--
