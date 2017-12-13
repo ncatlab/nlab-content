@@ -888,7 +888,9 @@ We compute the [[derivative]] of the [[Lagrangian function]] along this vector f
 $$
   \begin{aligned}
     \widehat{R}
-    \tfrac{1}{2} f^\alpha_{\mu \nu} f_\alpha^{\mu \nu}
+    \left(
+      \tfrac{1}{2} f^\alpha_{\mu \nu} f_\alpha^{\mu \nu}
+    \right)
     & =
     \left(
       R f^\alpha_{\mu \nu}
@@ -1864,8 +1866,9 @@ the [[BRST differential]] is given on the [[field (physics)|fields]] by
 $$
   s_{BRST} \, \phi^a
   \;=\;
+  c^\alpha_{,\mu_1 \cdots \mu_k}
   \underset{k \in \mathbb{N}}{\sum}
-    R^{a \mu_1 \cdots \mu_k}_{\alpha} c^\alpha_{\mu_1 \cdots \mu_k}
+    R^{a \mu_1 \cdots \mu_k}_{\alpha} 
 $$
 
 and on the [[ghost fields]] by
