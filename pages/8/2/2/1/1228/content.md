@@ -52,7 +52,7 @@ $$
 
 where on the left we have the [[hom-object]] in the [[enriched functor category]] between the [[representable functor|functor represented]] by $c$ and the given functor $F$.
 
-Using the expression of these hom-ebjects on the left as _[[ends]]_, this reads
+Using the expression of these hom-objects on the left as _[[ends]]_, this reads
 
 $$
   \int_{c' \in \mathcal{C}} V(\mathcal{C}(c',c), F(c')) \simeq F(c)
