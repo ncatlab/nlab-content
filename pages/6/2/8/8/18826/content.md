@@ -374,6 +374,58 @@ spacetime-compactly supported as in prop. \ref{NonTrivialImplicitInfinitesimalGa
 
 =--
 
+$\,$
+
+The following remark \ref{GeneratingSetOfGaugeTransformations} and def. \ref{RigidInfinitesimalSymmetriesOfTheLagrangian} introduce some useful terminology:
+
++-- {: .num_remark #GeneratingSetOfGaugeTransformations}
+###### Remark
+**(generating set of [[gauge transformations]])**
+
+Given a [[Lagrangian field theory]], then a choice of [[gauge parameter]] bundle $\mathcal{G} \overset{gb}{\to} \Sigma$ with gauge parameterized [[infinitesimal gauge symmetries]] $J^\infty_\Sigma(\mathcal{G} \times_\Sigma E) \overset{R}{\longrightarrow} T_\Sigma E$ (def. \ref{GaugeParameters}) is indeed a _choice_ and not uniquely fixed.
+
+For example given any such bundle one may form the [[direct sum of vector bundles]] $\mathcal{G} \oplus_\Sigma \mathcal{G}'$ with any other [[smooth vector bundle]] $\mathcal{G}'$ over $\Sigma$, extend $R$ by zero to $\mathbb{G}'$, and thereby obtain another [[gauge parameter|gauge parameterized]] of [[infinitesimal gauge symmetries]]
+
+$$
+  J^\infty_\Sigma((\mathcal{G}' \oplus_\Sigma \mathcal{G}) \times_\Sigma E) \overset{(0,R)}{\longrightarrow} T_\Sigma E
+  \,.
+$$
+
+Conversely, given any [[subbundle]] $\mathcal{G}' \hookrightarrow \mathcal{G}$, then the [[restriction]] of $R$ to $\mathcal{G}'$ is still a [[gauge parameter|gauge parameterized]] collection of [[infinitesimal gauge symmetries]].
+
+We will see that for the purpose of removing the [[obstruction]] to the existence of the [[covariant phase space]], the gauge parameters have to capture all [[Noether identities]] (prop. \ref{NoetherIdentities}). In this case one says that the gauge parameter bundle $\mathcal{G} \overset{gb}{\to} \Sigma$ is a _generating set_.
+
+=--
+
+(e.g.  [Henneaux 90, section (2.8)](BRST+complex#Henneaux90))
+
+
++-- {: .num_defn #RigidInfinitesimalSymmetriesOfTheLagrangian}
+###### Definition
+**([[rigid infinitesimal symmetries of the Lagrangian]])**
+
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
+and let $J^\infty_\Sigma(\mathcal{G} \times_\Sigma E) \overset{R}{\longrightarrow} T_\Sigma E$
+be [[infinitesimal gauge symmetries]] (def.  \ref{GaugeParameters}) whose [[gauge parameters]]
+form a generating set (remark \ref{GeneratingSetOfGaugeTransformations}).
+
+Then the [[vector space]] of _[[rigid infinitesimal symmetries of the Lagrangian]]_ is the [[quotient space]]
+of the [[infinitesimal symmetries of the Lagrangian]] by the [[image]] of the [[infinitesimal gauge symmetries]]:
+
+$$
+  \left\{ \text{rigid infinitesimal symmetries} \right\}
+    \;=\;
+  \left\{
+    \text{infinitesimal symmetries}
+  \right\} \,/\,
+  \left\{ \text{infinitesimal gauge symmetries}  \right\}
+  \,.
+$$
+
+=--
+
+
+
 The following is a way to identify [[infinitesimal gauge symmetries]]:
 
 +-- {: .num_prop #NoetherIdentities}
@@ -666,57 +718,6 @@ where now the equality in the second term from the left is equation (eq:Decompos
 
 =--
 
-
-$\,$
-
-+-- {: .num_remark #GeneratingSetOfGaugeTransformations}
-###### Remark
-**(generating set of [[gauge transformations]])**
-
-Given a [[Lagrangian field theory]], then a choice of [[gauge parameter]] bundle $\mathcal{G} \overset{gb}{\to} \Sigma$ with gauge parameterized [[infinitesimal gauge symmetries]] $J^\infty_\Sigma(\mathcal{G} \times_\Sigma E) \overset{R}{\longrightarrow} T_\Sigma E$ (def. \ref{GaugeParameters}) is indeed a _choice_ and not uniquely fixed.
-
-For example given any such bundle one may form the [[direct sum of vector bundles]] $\mathcal{G} \oplus_\Sigma \mathcal{G}'$ with any other [[smooth vector bundle]] $\mathcal{G}'$ over $\Sigma$, extend $R$ by zero to $\mathbb{G}'$, and thereby obtain another [[gauge parameter|gauge parameterized]] of [[infinitesimal gauge symmetries]]
-
-$$
-  J^\infty_\Sigma((\mathcal{G}' \oplus_\Sigma \mathcal{G}) \times_\Sigma E) \overset{(0,R)}{\longrightarrow} T_\Sigma E
-  \,.
-$$
-
-Conversely, given any [[subbundle]] $\mathcal{G}' \hookrightarrow \mathcal{G}$, then the [[restriction]] of $R$ to $\mathcal{G}'$ is still a [[gauge parameter|gauge parameterized]] collection of [[infinitesimal gauge symmetries]].
-
-We will see that for the purpose of removing the [[obstruction]] to the existence of the [[covariant phase space]], the gauge parameters have to capture all [[Noether identities]] (prop. \ref{NoetherIdentities}). In this case one says that the gauge parameter bundle $\mathcal{G} \overset{gb}{\to} \Sigma$ is a _generating set_.
-
-=--
-
-(e.g.  [Henneaux 90, section (2.8)](BRST+complex#Henneaux90))
-
-$\,$
-
-It is then useful to introduce the following terminology:
-
-+-- {: .num_defn #RigidInfinitesimalSymmetriesOfTheLagrangian}
-###### Definition
-**([[rigid infinitesimal symmetries of the Lagrangian]])**
-
-Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
-and let $J^\infty_\Sigma(\mathcal{G} \times_\Sigma E) \overset{R}{\longrightarrow} T_\Sigma E$
-be [[infinitesimal gauge symmetries]] (def.  \ref{GaugeParameters}) whose [[gauge parameters]]
-form a generating set (remark \ref{GeneratingSetOfGaugeTransformations}).
-
-Then the [[vector space]] of _[[rigid infinitesimal symmetries of the Lagrangian]]_ is the [[quotient space]]
-of the [[infinitesimal symmetries of the Lagrangian]] by the [[image]] of the [[infinitesimal gauge symmetries]]:
-
-$$
-  \left\{ \text{rigid infinitesimal symmetries} \right\}
-    \;=\;
-  \left\{
-    \text{infinitesimal symmetries}
-  \right\} \,/\,
-  \left\{ \text{infinitesimal gauge symmetries}  \right\}
-  \,.
-$$
-
-=--
 
 
 +-- {: .num_example #InfinitesimalGaugeSymmetryElectromagnetism}
