@@ -124,7 +124,7 @@ $$
 More generally, for $V$ a G-[[representation]], the $(n-V)$-[[RO(G)-grading|RO(G)-graded]] cohomology of $X$ with coefficients in $A$ is
 
 $$
-  H_G^{n-V}(X,A) = H_G^n(S^V \wedge X, X)
+  H_G^{n-V}(X,A) = H_G^n(S^V \wedge X,A)
   \,.
 $$
  
