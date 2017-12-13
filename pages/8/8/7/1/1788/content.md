@@ -251,7 +251,6 @@ $$
     +
     \underset{k}{\sum}
     \underset{q}{\sum} 
-    (-1)^q
     \frac{d^q}{d x^{\nu_1} \cdots d x^{\nu_q}}
     \left(
       \frac{\partial}{\partial \phi^a_{,\mu_1 \cdots \mu_q}}
@@ -280,7 +279,8 @@ $$
 
 is [this equation](https://ncatlab.org/nlab/show/A+first+idea+of+quantum+field+theory+--+Symmetries#eq:TowardsProofThatSymmetriesPreserveTheShell)
 
-finally on anti ghostfields we get
+finally on antifields of ghostfields we get
+ {#FinallyOnAntiFieldsOfGostFields}
 
 $$
   \begin{aligned}
@@ -323,14 +323,14 @@ $$
             R_\alpha^{a \mu_1 \cdots \mu_k} \phi^\ddagger_a
           \right)
     \right)
-    \;+\;
+    \;-\;
     \left(
         \underset{k \in \mathbb{N}}{\sum}
           (-1)^k \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}} 
           \left(
             R_\alpha^{a \mu_1 \cdots \mu_k} 
     \left(
-      \underset{1 \in \mathbb{N}}{\sum}  
+      \underset{q \in \mathbb{N}}{\sum}  
       \frac{\delta_{EL}}{\delta \phi^a}
       \left(
         c^{\alpha'}_{,\nu_1 \cdots \nu_q} 
@@ -350,14 +350,15 @@ $$
             R_\alpha^{a \mu_1 \cdots \mu_k} \phi^\ddagger_a
           \right)
     \right)
-    \;+\;
+    \;-\;
     \left(
         \underset{k \in \mathbb{N}}{\sum}
           (-1)^k \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}} 
           \left(
             R_\alpha^{a \mu_1 \cdots \mu_k} 
     \left(
-      \underset{q,r \in \mathbb{N}}{\sum}  
+      \underset{q,r \in \mathbb{N}}{\sum} 
+      (-1)^{r} 
       \frac{d^r}{d x^{\rho_1} \cdots d x^{\rho_r}}
       \left(
         c^{\alpha'}_{,\nu_1 \cdots \nu_q}
@@ -368,8 +369,23 @@ $$
           \right)
     \right)
     \\
-    & = 0
+    & = (R \cdot N_R)_a^b (\phi^\ddagger_b)
   \end{aligned}
 $$
 
-by [Barnich 10 (3.5)](BRST+complex#Barnich10)
+where the last line is [Barnich 10 (3.5)](BRST+complex#Barnich10)
+
+under this identification, the fact that
+
+$$
+  \left(
+    s_{BRST}s_{BV}
+    +
+    s_{BV} s_{BRST}
+  \right)
+  c^\ddagger_\alpha
+  = 
+  0
+$$
+
+is [Barnich 10 (3.8)](BRST+complex#Barnich10)
