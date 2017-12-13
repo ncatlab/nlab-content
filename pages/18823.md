@@ -1577,7 +1577,7 @@ $$
     \left(ker(P)\right)^\ast
        &\underoverset{\simeq}{(-)\circ \mathrm{G}}{\longrightarrow}&
      \left\{
-       u \in  \Gamma'_{\Sigma,scp}(E^\ast)
+       u \in  \Gamma'_{\Sigma,scp}(E)
        \,\vert\,
        P^\ast u = 0
      \right\}
@@ -1585,7 +1585,7 @@ $$
     \left(ker_{scp}(P)\right)^\ast
        &\underoverset{\simeq}{(-)\circ \mathrm{G}}{\longrightarrow}&
      \left\{
-       u \in  \Gamma'_{\Sigma}(E^\ast)
+       u \in  \Gamma'_{\Sigma}(E)
        \,\vert\,
        P^\ast u = 0
      \right\}
