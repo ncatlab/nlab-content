@@ -711,6 +711,8 @@ which is the right hand side of the equivalence to be proven.
 
 * [[BV-BRST complex]]
 
+* [[BV-BRST variational bicomplex]]
+
 * [[presymplectic current]], [[covariant phase space]]
 
 ## References
