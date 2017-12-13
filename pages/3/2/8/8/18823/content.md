@@ -454,7 +454,7 @@ inherits the structure of a [[super vector space|super]] [[vector space]] by spa
 Then an [[off-shell]] [[observable]] (def. \ref{Observable})
 
 $$
-  A \;\colon\; \Gamma_\Sigma(E)_{\delta_{EL}\mathbf{L} = 0} \longrightarrow \mathbb{C}
+  A \;\colon\; \Gamma_\Sigma(E) \longrightarrow \mathbb{C}
 $$
 
 is a _linear observable_ if it is a [[linear function]] with respect to this vector space structure, hence if
@@ -471,6 +471,8 @@ $$
 
 for all plots of [[field histories]] $\Phi_{(-)}, \Phi'_{(-)}$.
 
+If moreover $(E,\mathbf{L})$ is a [[free field theory]] (def. \ref{FreeFieldTheory}) then the [[on-shell]] [[space of field histories]] inherits this linear structure and we may similarly speak of linear on-shell observables.
+
 We write
 
 $$
@@ -484,7 +486,7 @@ $$
 $$
 
 for the linear off-shell observables inside all off-shell observables, and similarly
-for the subspaces of linear oobservables on field histories of spatially compact supprt (eq:SpaceOfObservablesOnFieldHistoriesOfSpatiallyCompactSupport):
+for the subspaces of linear observables on field histories of spatially compact supprt (eq:SpaceOfObservablesOnFieldHistoriesOfSpatiallyCompactSupport):
 
 $$
   \label{LinearObservablesOnSpatiallyCompactlySupportedOnShellFieldHistories}
@@ -501,8 +503,6 @@ $$
   Obs(E_{scp})
   \,.
 $$
-
-
 
 =--
 
@@ -971,7 +971,7 @@ whose [[field bundle]] $E$ (def. \ref{FieldsAndFieldBundles}) is a [[super vecto
 An [[off-shell]] [[observable]] (def. \ref{Observable})
 
 $$
-  A \;\colon\; \Gamma_\Sigma(E)_{\delta_{EL}\mathbf{L} = 0} \longrightarrow \mathbb{C}
+  A \;\colon\; \Gamma_\Sigma(E) \longrightarrow \mathbb{C}
 $$
 
 is _[[polynomial]]_ if it is the [[sum]] of a constant, and a linear observable (def. \ref{LinearObservables}),
@@ -1005,6 +1005,8 @@ $$
   \,.
   \end{aligned}
 $$
+
+For a [[free field theory]] we similarly have polynomial [[on-shell]] observables.
 
 =--
 
