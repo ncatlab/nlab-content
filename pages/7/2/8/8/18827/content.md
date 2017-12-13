@@ -1,23 +1,17 @@
 ## Reduced phase space
  {#ReducedPhaseSpace}
 
-Where for a [[Lagrangian field theory]] without [[infinitesimal gauge symmetries]] the [[covariant phase space]] is (the [[transgression of variational differential forms|transgression of]]) the plain [[shell]], the _[[reduced phase space]]_ in a theory with [[infinitesimal gauge symmetries]] is the [[homotopy quotient]] of the  [[shell]] by the [[gauge symmetries]].
+For a [[Lagrangian field theory]] with [[infinitesimal gauge symmetries]], the _[[reduced phase space]]_ is the [[quotient]] of the [[shell]] (the [[solution]]-locus of the [[equations of motion]]) by the [[action]] of the [[gauge symmetries]]; or rather it is the combined _[[homotopy quotient]]_ by the [[gauge symmetries]] and its [[homotopy intersection]] with the [[shell]]. Passing to the [[reduced phase space]] may lift the [[obstruction]] for a [[gauge theory]] to have a [[covariant phase space]] and hence a [[quantization]].
 
-In order to exhibit the key structure of the [[reduced phase space]] without getting distracted
-by the local [[jet bundle]] geometry, we first discuss now the simple form in
-which it would appear after [[transgression of variational differential forms|transgression]] (def. \ref{TransgressionOfVariationalDifferentialFormsToConfigrationSpaces})
+The [[higher differential geometry]] of [[homotopy quotients]] and [[homotopy intersections]] is is usefully modeled by tools from [[homological algebra]], here known as the _[[BV-BRST complex]]_.
+
+In order to exhibit the key structure without getting distracted by the local [[jet bundle]] geometry, we first discuss the simple form in which the reduced appears would after [[transgression of variational differential forms|transgression]] (def. \ref{TransgressionOfVariationalDifferentialFormsToConfigrationSpaces})
 if [[spacetime]] were [[compact space|compact]], so that, by the [[principle of extremal action]] (prop. \ref{PrincipleOfExtremalAction}),
-it would be the [[derived critical locus]] ($d S = 0$) of a globally defined [[action functional]] $S$.
-This is example \ref{ArchetypeOfBVBRSTComplex} below.
+it would be the [[derived critical locus]] ($d S \simeq 0$) of a globally defined [[action functional]] $S$.  This "global" version of the [[BV-BRST complex]] is example \ref{ArchetypeOfBVBRSTComplex} below.
 
 This serves as a warmup to the true construction of the derived [[shell]] in the [[action Lie algebroid]] of the [[jet bundle]], where the
 action functional is "de-transgressed" to the [[Lagrangian density]], which is invariant under gauge transformations
-only up to horizontally exact terms. This culminates in example \ref{LocalBVBRSTComplexIsDerivedCriticalLocusOfEulerLagrangeForm} below.
-
-
-$\,$
-
-The key to understanding the "derived reduced prolonged shell", and hence the [[reduced phase space]], as a [[derived critical locus]] is first to exhibit the [[Euler-Lagrange form|Euler-Lagrange variation]] of the [[action functional]], or rather of the [[Lagrangian density]], as a [[section]] of the analog of a [[cotangent bundle]], but now in the realm of [[Lie ∞-algebroids]] (prop. \ref{ExteriorDifferentialOfGaugeInvariantFunctionIsSectionOfInfinitesimalCotangentLieAlgebroid} and prop. \ref{EulerLagrangeFormIsSectionOfLocalCotangentBundleOfJetBundleGaugeActionLieAlgebroid} below).
+only up to horizontally exact terms. This genuine [[local BV-BRST complex]] is example \ref{LocalBVBRSTComplexIsDerivedCriticalLocusOfEulerLagrangeForm} below.
 
 $\,$
 
@@ -1320,7 +1314,7 @@ The power of the [[Schouten bracket]]/[[antibracket]] rests in the fact that it 
 
 Let $(X/\mathfrak{g})_{d S \simeq 0}$ be a [[derived critical locus]] inside an [[action Lie algebroid]] as in example \ref{ArchetypeOfBVBRSTComplex}.
 
-Then the CE-differential (eq:ExplitiCEDifferentialInCotangentBundleOfActionLieAlgebroid) of the [[derived critical locus]] $X/\mathfrak{g}\vert_{S \simeq 0}$ is simply the [[Schouten bracket]]/[[antibracket]] (def. \ref{SchoutenBracketAndAntibracket}) with the [[sum]] 
+Then the CE-differential (eq:ExplitiCEDifferentialInCotangentBundleOfActionLieAlgebroid) of the [[derived critical locus]] $X/\mathfrak{g}\vert_{S \simeq 0}$ is simply the [[Schouten bracket]]/[[antibracket]] (def. \ref{SchoutenBracketAndAntibracket}) with the [[sum]]
 
 $$
   \label{BVBRSTFunctionForActionLieAlgebroid}
@@ -1571,7 +1565,7 @@ $$
   S_{\text{BV-BRST}}
   \;\coloneqq\;
   S - d_{CE\left( X/\mathfrak{g}\right)}
-$$ 
+$$
 
 with itself vanishes:
 
@@ -1586,8 +1580,8 @@ $$
   \,.
 $$
 
-Conversely, given a shifted [[cotangent bundle]] of the form $T^\ast[-1](X \times \mathfrak{g}[1])$ (eq:ShiftedCotangentBundleForCriticalLocusInsideLieAlgebroid), then the [[mathematical structure|struture]] of a 
-[[differential]] of degree +1 on its [[algebra of functions]] is equivalent to a degree-0 element $S \in C^\infty(T^\ast[-1](X \times \mathfrak{g}[1]))$ such that 
+Conversely, given a shifted [[cotangent bundle]] of the form $T^\ast[-1](X \times \mathfrak{g}[1])$ (eq:ShiftedCotangentBundleForCriticalLocusInsideLieAlgebroid), then the [[mathematical structure|struture]] of a
+[[differential]] of degree +1 on its [[algebra of functions]] is equivalent to a degree-0 element $S \in C^\infty(T^\ast[-1](X \times \mathfrak{g}[1]))$ such that
 
 $$
   \left\{
@@ -1598,15 +1592,15 @@ $$
   \,.
 $$
 
-Since therefore this equation controls the structure of [[derived critical loci]] once the underlying manifold $X$ and 
-[[Lie algebra]] $\mathfrak{g}$ is specified, it is also called the _[[master equation]]_ and here specifically the 
+Since therefore this equation controls the structure of [[derived critical loci]] once the underlying manifold $X$ and
+[[Lie algebra]] $\mathfrak{g}$ is specified, it is also called the _[[master equation]]_ and here specifically the
 _[[classical master equation]]_.
 
 =--
 
 $\,$
 
-This concludes our discussion of plain [[derived critical loci]] inside [[Lie algebroids]]. Now we turn to applying these considerations about to [[Lagrangian densities]] on a [[jet bundle]], which are [[invariant]] under [[infinitesimal gauge symmetries]] generally 
+This concludes our discussion of plain [[derived critical loci]] inside [[Lie algebroids]]. Now we turn to applying these considerations about to [[Lagrangian densities]] on a [[jet bundle]], which are [[invariant]] under [[infinitesimal gauge symmetries]] generally
 only up to a [[total spacetime derivative]]. By example \ref{ChevalleyEilenbergDifferentialOnDerivedCriticalLocusIsHamiltonianViaAntibracket} it is clear that this is best understood by first considering the refinement of the [[Schouten bracket]]/[[antibracket]] to this situation.
 
 
@@ -1895,7 +1889,7 @@ The [[local antibracket]] from def. \ref{LocalAntibracket} satisfies the followi
    $$
      \left\{f \, dvol_\Sigma \,,\, g\, dvol_\Sigma \right\}'
      \;=\;
-     - (-1)^{deg(f) deg(g)} \, \left\{g \, dvol_\Sigma \,,\, f\, dvol_\Sigma \right\}     
+     - (-1)^{deg(f) deg(g)} \, \left\{g \, dvol_\Sigma \,,\, f\, dvol_\Sigma \right\}
    $$
 
 1. The unprimed version $\{-,-\}$ strictly satisfies the graded [[Jacobi identity]], meaning that it is a graded [[derivation]] in the second argument:
@@ -1913,10 +1907,10 @@ The [[local antibracket]] from def. \ref{LocalAntibracket} satisfies the followi
         }{
         \underbrace{
           \left\{
-          \left\{ 
-             f\, dvol_\Sigma 
-             \,,\, 
-             g\, dvol_\Sigma  
+          \left\{
+             f\, dvol_\Sigma
+             \,,\,
+             g\, dvol_\Sigma
           \right\}
           \,,\,
           h\, dvol_\Sigma
@@ -1926,7 +1920,7 @@ The [[local antibracket]] from def. \ref{LocalAntibracket} satisfies the followi
      \;+\;
      (-1)^{deg(f) deg(g)}
      \left\{
-       g\, dvol_\Sigma  
+       g\, dvol_\Sigma
        \,,\,
        \left\{
          f\, dvol_\Sigma
@@ -1935,7 +1929,7 @@ The [[local antibracket]] from def. \ref{LocalAntibracket} satisfies the followi
        \right\}
      \right\}
    $$
-   
+
    and the first term on the right is equivalently given by the primed bracket, as shown under the brace
 
 for all $f$,$g$ of homogeneous degree $deg(f)$ and $deg(g)$, respectively.
@@ -1957,6 +1951,10 @@ $\,$
 
 **[[derived critical locus]] on [[jet bundle]] -- the [[local BV-BRST complex]]**
   {#DerivedCriticalLocusOnJetBundle}
+
+With the local version of the [[antibracket]] in hand (def. \ref{LocalAntibracket}) it is now straightforward to refine the construction of a [[derived critical locus]] inside an [[action Lie algebroid]] (example \ref{ArchetypeOfBVBRSTComplex}) to the "derived" [[shell]] (eq:ShellInJetBundle) inside the formal dual of the [[local BRST complex]] (example \ref{LocalOffShellBRSTComplex}).
+The result is a [[derived Lie algebroid]] whose [[Chevalley-Eilenberg algebra]] is called the _[[local BV-BRST complex]]_.
+This is example \ref{LocalBVBRSTComplexIsDerivedCriticalLocusOfEulerLagrangeForm} below.
 
 The following definition \ref{LocalInfinitesimalCotangentLieAlgebroid} is the local refinement of
 def. \ref{LieAlgebroidInfinitesimalCotangentBundle}:
@@ -1989,7 +1987,8 @@ with [[field (physics)|field]] coordinates $(\phi^a)$ and [[gauge parameter]] co
 
 Then the vertical infinitesimal cotangent Lie algebroid (def. \ref{LieAlgebroidInfinitesimalCotangentBundle}) has
 coordinates as in (eq:GeneratorsOfDerivedCriticalLocusInActionLieAlgebroid) as well as all the corresponding jets
-and including also the horizontal differentials:
+and including also the
+horizontal differentials:
 
 $$
   \array{
@@ -2035,7 +2034,7 @@ $$
   \left(
     \underset{k \in \mathbb{N}}{\sum}
     c^\alpha_{,\mu_1 \cdots \mu_k}
-    R_\alpha^{a \mu_1 \cdots \mu_k} 
+    R_\alpha^{a \mu_1 \cdots \mu_k}
   \right)
   \phi^\ddagger_a
   \;+\;
@@ -2194,8 +2193,8 @@ $$
       &\longrightarrow&
     E/( \mathcal{G} \times_\Sigma T \Sigma )
     \\
-    \downarrow 
-      &(pb)& 
+    \downarrow
+      &(pb)&
     \downarrow^{\mathrlap{0}}
     \\
     E/(\mathcal{G} \times_\Sigma T \Sigma)
@@ -2209,7 +2208,7 @@ $$
 
 =--
 
-As before, for the purpose of our running examples the reader may take the following example as the 
+As before, for the purpose of our running examples the reader may take the following example as the
 definition of the derived reduced prolonged shell (def. \ref{DerivedProlongedShell}).
 This is local refinement of example \ref{ArchetypeOfBVBRSTComplex}:
 
@@ -2247,7 +2246,7 @@ $$
   \right)
 $$
 
-where the underlying graded algebra is the [[algebra of functions]] on the (-1)-shifted [[vertical cotangent bundle]] of the [[fiber product]] of the [[field bundle]] with the (+1)-shifted [[gauge parameter bundle]] (as in example \ref{ArchetypeOfBVBRSTComplex}) and the shifted cotangent bundle of $\Sigma$, and where the [[Chevalley-Eilenberg differential]] is the sum of the [[horizontal differential]] $d$ with the _[[BV-BRST differential]]_
+where the underlying graded algebra is the [[algebra of functions]] on the (-1)-shifted [[vertical cotangent bundle]] of the [[fiber product]] of the [[field bundle]] with the (+1)-shifted [[gauge parameter bundle]] (as in example \ref{ArchetypeOfBVBRSTComplex}) and the shifted cotangent bundle of $\Sigma$, and where the [[Chevalley-Eilenberg differential]] is the sum of the [[horizontal derivative]] $d$ with the _[[BV-BRST differential]]_
 
 $$
   s
@@ -2256,7 +2255,7 @@ $$
        \left(- L + L_{BRST}\right) dvol_\Sigma
        \,,
        (-)
-    \right\}  
+    \right\}
 $$
 
 which is the [[local antibracket]] (def. \ref{LocalAntibracket}) with the _[[BV-BRST Lagrangian density]]_
@@ -2271,27 +2270,36 @@ which itself is the sum of (minus) the given [[Lagrangian density]] (def. \ref{L
 
 The action of the [[BV-BRST differential]] on the generators is as follows:
 
+
 $$
   \array{
     & & \array{ \text{BV-BRST differential} \\ s } &
     \\
     \text{field}
-    & 
+    &
     \phi^a
       &\mapsto&
+    \underset{ = s_{BRST}(\phi^a) }{
+    \underbrace{
     \left(
       \underset{k \in \mathbb{N}}{\sum} c^\alpha_{,\mu_1 \cdots \mu_k} R_\alpha^{a \mu_1 \cdots \mu_k}
     \right)
+    }
+    }
     &
     \text{gauge symmetry}
     \\
     \text{
       ghost field
     }
-    & 
-    c^\alpha 
+    &
+    c^\alpha
       &\mapsto&
-    \tfrac{1}{2}\gamma^\alpha{}_{\beta \gamma} c^\beta c^\gamma
+    \underset{ = s_{BRST}(c^\alpha) }{
+    \underbrace{
+      \tfrac{1}{2}\gamma^\alpha{}_{\beta \gamma} c^\beta c^\gamma
+    }
+    }
     &
     \text{Lie bracket}
     \\
@@ -2300,70 +2308,293 @@ $$
     \phi^\ddagger_\alpha
       &\mapsto&
     \phantom{-}
-    \frac{\delta_{EL} L}{\delta \phi^a}
+    \underset{ = s_{BV}(\phi^\ddagger_a) }{
+    \underbrace{
+      \frac{\delta_{EL} L}{\delta \phi^a}
+    }}
     &
     \text{equations of motion}
     \\
     &&&
+    \underset{ = s_{BRST}(\phi^\ddagger_a) }{
+    \underbrace{
     -
     \left(
-      \underset{k \in \mathbb{N}}{\sum}  
+      \underset{k \in \mathbb{N}}{\sum}
       \frac{\delta_{EL}}{\delta \phi^a}
       \left(
-        c^\alpha_{,\mu_1 \cdots \mu_k} 
-        R_\alpha^{b \mu_1 \cdots \mu_k}        
+        c^\alpha_{,\mu_1 \cdots \mu_k}
+        R_\alpha^{b \mu_1 \cdots \mu_k}
         \phi^\ddagger_b
       \right)
-    \right)    
+    \right)
+    }
+    }
     &
     \\
-    \text{anti ghostfield}
+    \array{
+      \text{antifield of}
+      \\
+      \text{ghost field}
+    }
     &
     c^\ddagger_\alpha
       &\mapsto&
+    \underset{ = s_{BV}(c^\ddagger_\alpha) }{
+    \underbrace{
     -
     \underset{k \in \mathbb{N}}{\sum}
-      (-1)^k \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}} 
+      (-1)^k \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}}
       \left(
         R_\alpha^{a \mu_1 \cdots \mu_k} \phi^\ddagger_a
       \right)
+    }
+    }
     &
     \text{Noether identities}
     \\
-    &&& + \gamma^{\alpha'}{}_{ \alpha \beta} c^\beta c^\ddagger_{\alpha'}
+    &&& +
+    \underset{ = s_{BRST}(c^\ddagger_\alpha) }{
+    \underbrace{
+      \gamma^{\alpha'}{}_{ \alpha \beta} c^\beta c^\ddagger_{\alpha'}
+    }
+    }
   }
 $$
 
 and this extends to jets of generator by $s \circ d + d \circ s = 0$.
 
-
-
-
 This is called the _[[local BV-BRST complex]]_.
 
+By introducing a bigrading as in prop. \ref{DerivedCriticalLocusOfActionLiAlgebroidBicomplexStructure}
+
+$$
+  \array{
+    &
+    \left(
+      c^\ddagger_{\alpha, \mu_1 \cdots \mu_k}
+    \right)
+    &
+    \left(
+      \phi^\ddagger_{a, \mu_1 \cdots \mu_k}
+    \right)
+    &
+    \left(
+      \phi^a_{,\mu_1 \cdots \mu_k}
+    \right)
+    &
+    \left(
+      c^\alpha_{,\mu_1 \cdots \mu_k}
+    \right)
+    \\
+    deg_{gh} =
+    &
+    0
+    &
+    0
+    &
+    0
+    &
+    +1
+    \\
+    deg_{af} =
+    &
+    -2
+    &
+    -1
+    &
+    0
+    &
+    0
+  }
+$$
+
+this splits into the [[total complex]] of a [[bicomplex]] with
+
+$$
+  s \;=\; s_{BV} + s_{BRST}
+$$
+
+with
+
+$$
+  \array{
+     & s_{BRST} & s_{BV}
+     \\
+     deg_{gh} = & +1 & 0
+     \\
+     deg_{af} = & 0 & +1
+  }
+$$
+
+as shown in the above table. Under this decomposition, the _[[classical master equation]]_
+
+$$
+  s^2 = 0
+  \phantom{AAAA}
+  \Leftrightarrow
+  \phantom{AAAA}
+  \left\{ \left( -L + L_{BRST}\right) dvol_\Sigma \,,\, \left( -L + L_{BRST}\right) dvol_\Sigma \right\} = 0
+$$
+
+is equivalent to three conditions:
+
+$$
+  \array{
+    \left( s_{BV} \right)^2 = 0 && \text{Noether's second theorem}
+    \\
+    \left( s_{BRST} \right)^2 = 0 && \text{closure of gauge symmetry}
+    \\
+    \left[ s_{BV}, s_{BRST} \right] = 0 && \text{ gauge symmetry preserves the shell }
+  }
+$$
+
+
 =--
+
+(e.q. [Barnich 10 (4.10)](BRST+complex#Barnich10))
 
 +-- {: .proof}
 ###### Proof
 
-By unwinding the definitions analogous to the proof of example \ref{CotangentBundleOfActionLieAlgebroid},
-the CE-differential is given by the modified bracket of derivations (eq:LocalCommutatorOfDerivationsOnJetBundle)
-with the sum of the BRST-differential and the Lagrangian density:
+Due to the construction in def. \ref{DerivedProlongedShell} the [[BRST differential]] by itself is already assumed to square to the
 
 $$
-  d_{CE( T^\ast_{inf}_\Sigma(E/(\mathcal{G} \times_\Sigma T\Sigma)) )}
-  \;=\;
-  \left\{
-    - \left(L - L_{BRST}\right) dvol_\Sigma
-    \;,\;
+  \left(s_{BRST}\right)^2 = 0
+$$
+
+The remaining conditions we may check on 0-jet generators.
+
+The condition
+
+$$
+  \left( s_{BV} \right)^2 = 0
+$$
+
+is non-trivial only on the [[antifields]] of the [[ghost fields]]. Here we obtain
+
+$$
+  \begin{aligned}
+    s_{BV} s_{BV} c^\ddagger_\alpha
+    & =
+    -\underset{k \in \mathbb{N}}{\sum}
+    (-1)^k \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}}
+    \left(
+      R_\alpha^{a \mu_1 \cdots \mu_k} \phi^\ddagger_a
+    \right)
+    \\
+    & =
+    -\underset{k \in \mathbb{N}}{\sum}
+    (-1)^k \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}}
+    \left(
+      R_\alpha^{a \mu_1 \cdots \mu_k} \frac{\delta_{EL} L}{\delta \phi^a}
+    \right)
+  \end{aligned}
+$$
+
+That this vanishes is the statement of [[Noether's theorem|Noether's second theorem]] (prop. \ref{NoetherIdentities}).
+
+Next we check
+
+$$
+  s_{BV} \circ s_{BRST} + s_{BRST} \circ s_{BV}
+  =
+  0
+$$
+
+on generators. On the [[field (physics)|fields]] $\phi^a$ and the [[ghost fields]] $c^\alpha$ this is trivial (both summands vanish separately).
+On the [[antifields]] we get on the one hand
+
+$$
+  \begin{aligned}
+    s_{BRST} s_{BV} \phi^{\ddagger}_a
+    & =
+    s_{BRST} \frac{\delta_{EL} L}{\delta \phi^a}
+    \\
+    & =
+    \underset{k}{\sum}
+    \underset{q}{\sum}
+    \frac{d^q}{d x^{\nu_1} \cdots d x^{\nu_q}}
+    \left(
+      c^\alpha_{,\mu_1 \cdots \mu_k}
+      R_\alpha^{b \mu_1 \cdots \mu_k}
+    \right)
+    \frac{\partial}{\partial \phi^b_{,\nu_1 \cdots \nu_q}}
+    \frac{\delta_{EL} L}{\delta \phi^a}
+  \end{aligned}
+$$
+
+and on the other hand
+
+$$
+  \begin{aligned}
+    s_{BV} s_{BRST} \phi^\ddagger_a
+    & =
     -
-  \right\}
+    s_{BV}
+    \underset{k}{\sum}
+    \frac{\delta_{EL}}{\delta \phi^a}
+    \left(
+      c^\alpha_{,\mu_1 \cdots \mu_k}
+      R_\alpha^{b \mu_1 \cdots \mu_k}
+      \phi^\ddagger_b
+    \right)
+    \\
+    & =
+    +
+    \underset{k}{\sum}
+    \underset{q}{\sum}
+    (-1)^q
+    \frac{d^q}{d x^{\nu_1} \cdots d x^{\nu_q}}
+    \left(
+      \frac{\partial}{\partial \phi^a_{,\mu_1 \cdots \mu_q}}
+      \left(
+        c^\alpha_{,\mu_1 \cdots \mu_k}
+        R_\alpha^{b \mu_1 \cdots \mu_k}
+      \right)
+      \frac{\delta_{EL} L}{\delta \phi^b}
+    \right)
+  \end{aligned}
 $$
 
-only that in the homotopy fiber $\mathcal{E}^\infty_{BV}$ the derivations receive a degree-shift by -1 compared to
-their degree in $T^\ast_{inf}(E /( \mathcal{G} \times_\Sigma T \Sigma ))$.
+That the sum of these two terms indeed vanishes is equation (eq:TowardsProofThatSymmetriesPreserveTheShell) in the proof of the
+on-shell invariance of the [[equations of motion]] under [[infinitesimal symmetries of the Lagrangian]] (prop. \ref{InfinitesimalSymmetriesOfLagrangianAreAlsoSymmetriesOfTheEquationsOfMotion})
 
-This operation is the local BV-BRST differential by ([Barnich-Henneaux 96 (2.12)-(2.13)](local+BRST+cohomology#BarnichHenneaux96)).
+Finally on the [[antifields]] of the [[ghost fields]] we get
+
+$$
+  \begin{aligned}
+    s_{BV} s_{BRST} c^\ddagger_\alpha
+    & =
+    s_{BV} \gamma^{\alpha'}{}_{\alpha \beta} c^\beta c^\ddagger_{\alpha'}
+    \\
+    & =
+    -
+    \gamma^{\alpha'}{}_{\alpha \beta} c^\beta
+      \underset{k \in \mathbb{N}}{\sum}
+        (-1)^k \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}}
+        \left(
+          R_\alpha^{a \mu_1 \cdots \mu_k} \phi^\ddagger_a
+        \right)
+  \end{aligned}
+$$
+
+as well as
+
+$$
+  s_{BRST} s_{BV} c^\ddagger_\alpha
+  =
+  s_{BRST}
+  \left(
+      \underset{k \in \mathbb{N}}{\sum}
+        (-1)^k \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}}
+        \left(
+          R_\alpha^{a \mu_1 \cdots \mu_k} \phi^\ddagger_a
+        \right)
+  \right)
+$$
+
+
 
 =--
 
@@ -2373,11 +2604,16 @@ This operation is the local BV-BRST differential by ([Barnich-Henneaux 96 (2.12)
 ###### Example
 **(derived prolonged shell in the absence of explicit gauge symmetry -- the [[local BV-complex]])**
 
-Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
-with _no_ non-trivial [[infinitesimal gauge symmetries]] made explicit (possibly because there are none,
-as for the [[scalar field]]), hence with no [[ghost fields]] introduced. Then the
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrde
+rJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
+with vanishing [[gauge parameter bundle]] (def. \ref{GaugeParameters}) (possibly because there are no non-trivial [[infinitesimal gauge symmetries]], such as for the [[scalar field]], or because none were chose), hence with no [[ghost fields]] introduced. Then the
 local [[derived critical locus]] of its [[Lagrangian density]] (def. \ref{DerivedProlongedShell})
-is the [[local BV-complex]] of def. \ref{BVComplexOfOrdinaryLagrangianDensity}.
+is the plain [[local BV-complex]] of def. \ref{BVComplexOfOrdinaryLagrangianDensity}.
+
+$$
+  s = s_{BV}
+    \,.
+$$
 
 =--
 
@@ -2432,12 +2668,12 @@ $$
 
 More generally:
 
-+-- {: .num_example}
++-- {: .num_example #LocalBVBRSTComplexOfYangMillsTheory}
 ###### Example
+**([[local BV-BRST complex]] of [[Yang-Mills theory]])**
 
-case of [[Yang-Mills theory]]
-
-here
+For $\mathfrak{g}$ a [[semisimple Lie algebra]], consider $\mathfrak{g}$-[[Yang-Mills theory]] on [[Minkowski spacetime]] from example \ref{YangMillsLagrangian}, with [[local BRST complex]] as in example \ref{YangMillsLocalBRSTComplex}, hence with
+[[BRST Lagrangian]] (eq:BRSTFunctionForClosed) given by
 
 $$
   L_{BRST}
@@ -2445,35 +2681,37 @@ $$
   \left(
     c^\alpha_{,\mu}
       -
-    \gamma^\alpha{}_{\beta \gamma}c^\beta a^\gamma_\mu 
+    \gamma^\alpha{}_{\beta \gamma}c^\beta a^\gamma_\mu
   \right)
   (a^\ddagger)_\alpha^\mu
   \;+\;
   \tfrac{1}{2}
   \gamma^\alpha{}_{\beta \gamma} c^\beta c^\gamma c^\ddagger_\alpha
+  \,.
 $$
 
-action of $s = \left\{ -L + L_{BRST} \,,\, - \right\}$ on 0-jets:
+Then its [[local BV-BRST complex]] (example \ref{LocalBVBRSTComplexIsDerivedCriticalLocusOfEulerLagrangeForm}) has
+[[BV-BRST differential]] $s = \left\{ -L + L_{BRST} \,,\, - \right\}$ given on 0-jets as follows:
 
 $$
   \array{
     & & s &
     \\
     \text{field}
-    & 
+    &
     a_\mu^\alpha
        &\mapsto&
     c^\alpha_{,\mu}
       -
-    \gamma^\alpha{}_{\beta \gamma}c^\beta a^\gamma_\mu 
+    \gamma^\alpha{}_{\beta \gamma}c^\beta a^\gamma_\mu
     &
     \text{gauge symmetry}
     \\
     \text{
       ghost field
     }
-    & 
-    c^\alpha 
+    &
+    c^\alpha
       &\mapsto&
     \tfrac{1}{2}\gamma^\alpha{}_{\beta \gamma} c^\beta c^\gamma
     &
@@ -2495,7 +2733,7 @@ $$
     \\
     &&&
     -
-    \gamma^{\alpha'}{}_{\beta \alpha}c^\beta  
+    \gamma^{\alpha'}{}_{\beta \alpha}c^\beta
     (a^\ddagger)_{\alpha'}^\mu
     &
     \\
@@ -2576,7 +2814,7 @@ the traditional Weil algebra of $\mathfrak{g}$ from classical [[Lie theory]].
 **([[variational BV-bicomplex]])**
 
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
-equipped with a closed irreducible [[gauge parameter]]  bundle $\mathcal{G}$ (def. \ref{GaugeParametrizedInfinitesimalGaugeTransformation}).
+equipped with a [[gauge parameter bundle]]   $\mathcal{G}$ (def. \ref{GaugeParametrizedInfinitesimalGaugeTransformation}) which is closed (def. \ref{GaugeParametersClosed}).
 Consider the [[Lie algebroid]] $E/(\mathcal{G} \times_\Sigma T \Sigma)$ from example \ref{LocalOffShellBRSTComplex},
 whose [[Chevalley-Eilenberg algebra]] is the [[local BRST complex]] of the theory.
 
@@ -2616,252 +2854,12 @@ $$
 $$
 
 Since $s$ is the [[BV-BRST differential]] (prop. \ref{LocalBVBRSTComplexIsDerivedCriticalLocusOfEulerLagrangeForm})
-this defines the "variational BV-BRST-bicomplex".
-
-(...)
+this defines the "BV-BRST [[variational bicomplex]]".
 
 =--
 
 
 
-
-
-
-
-
-$\,$
-
-
-It turns out that the [[local BV-BRST cohomology]] (prop. \ref{LocalBVBRSTComplexIsDerivedCriticalLocusOfEulerLagrangeForm})
-of the "derived reduced prolonged shell" very neatly captures all the aspects of [[Lagrangian field theory]]
-that we have been discussing so far:
-
-
-+-- {: .num_example #dWCohomology}
-###### Example
-**([[Noether's theorem|Noether theorem I]] in terms of [[local BRST cohomology]])**
-
-The $d-s$-closed elements in degree $(p,0)$ are precisely pairs $(v,J_v)$
-consisting of an implicit infinitesimal local gauge symmetry $v$ and a conserved current $J_v$ for it.
-
-The $d_W$-exact elements in this degree are sums of
-
-1. $d$-exact currents;
-
-1. on-shell vanishing implicit gauge transformations;
-
-1. on-shell vanishing currents with their horizontally exact gauge transformations
-
-(...)
-
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-
-The $d_W$-closed element are
-the implicit infinitesimal gauge symmetries $v$ regarded as an [[antifield]] $v^a \phi^\ddagger_a$
-multiplied with the [[volume form]] $dvol_\Sigma$
-together with their Noether current $J_v \in \Omega^{p,0}_\Sigma(E)$ (prop. \ref{NoethersFirstTheorem})
-
-
-$$
-  \array{
-    \{J_v\} &\overset{d}{\longrightarrow}& \{ \overset{= 0}{\overbrace{ d J_v - \iota_v \delta_{EL}\mathbf{L} }} \}
-    \\
-    && \uparrow\mathrlap{s_{BV}}
-    \\
-    && \{ v^a \phi^\ddagger_a dvol_\Sigma\}
-  }
-$$
-
-
-
-Such a pair is exact if
-
-$$
-  \array{
-    \{K\}
-     &\overset{d}{\longrightarrow}&
-    \{ d K + v^{a \mu} \frac{\delta_{EL}L}{\delta \phi^a} \iota_{\partial_\mu} dvol_\Sigma   \} &\overset{d}{\longrightarrow}& \{ \overset{= 0}{\overbrace{ d J_v - \iota_v \delta_{EL}\mathbf{L} }} \}
-    \\
-    && \mathllap{s_{BV}}\uparrow && \uparrow\mathrlap{s_{BV}}
-    \\
-    && v^{a \mu} \phi^\ddagger_a \iota_{\partial_\mu} dvol_\Sigma
-      &\underset{-d}{\longrightarrow}&
-    \{ v^a \phi^\ddagger_a dvol_\Sigma\}
-    \\
-    && && \uparrow\mathrlap{s_{BV}}
-    \\
-    &&
-    && \kappa^{a b } \phi^\ddagger_a \phi^\ddagger_b dvol_\Sigma
-  }
-$$
-
-(...)
-
-=--
-
-
-
-
-
-+-- {: .num_example }
-###### Example
-**([[infinitesimal gauge symmetry]] via [[local BRST cohomology]])**
-
-An  [[infinitesimal gauge symmetry]] $v_\epsilon$  of [[gauge parameter]] $(\epsilon^\alpha)$ is a vector field on the jet bundle with components of the form
-
-$$
-  \mathcal{L}_{v_\epsilon} \phi^a
-   \;\coloneqq\;
-  R^a_\alpha \epsilon^\alpha
-    +
-  R^{a \mu}_\alpha \frac{d \epsilon^\alpha}{d x^\mu}
-$$
-
-such that this is an [[infinitesimal symmetry of the Lagrangian]] in that
-
-$$
-  \begin{aligned}
-    \iota_{v_\epsilon} \delta_{EL} \mathbf{L}
-    & =
-    v^a \frac{\delta_{EL} L}{\delta \phi^a} dvol_\Sigma
-    \\
-    & =
-    \epsilon^\alpha
-    \left(
-       R^a_\alpha \frac{\delta_{EL} L}{ \delta \phi^a}
-       -
-       \frac{d}{d x^\mu}
-       \left(
-          R^{a \mu}_\alpha \frac{\delta_{EL} L}{\delta \phi^a}
-       \right)
-    \right)
-    dvol_\Sigma
-    +
-    d\left(
-       \epsilon^\alpha R^{a \mu}_\alpha \frac{\delta_{EL} L}{\delta \phi^a}
-    \right)
-    \iota_{\partial_\mu} dvol_\Sigma
-    \\
-    & =
-    0 + d(...)
-  \end{aligned}
-$$
-
-for all $(\epsilon^\alpha)$.
-
-The corresponding [[antifield|anti]] [[ghost field]] $c^\ddagger_\alpha$ are taken by the BV-BRST differential to the antifield-preimage of the term on the left:
-
-$$
-  s\left(c^\ddagger_\alpha\right)
-  \;=\;
-  R^a_\alpha \phi^\ddagger_a
-  -
-  \frac{d}{d x^\mu}
-  \left(
-    R^{a \mu}_\alpha \phi^\ddagger_a
-  \right)
-  \,.
-$$
-
-Moreover, an [[on-shell]] vanishing [[infinitesimal symmetry of the Lagrangian]] is a vector field with components of the form
-
-$$
-  \kappa^{a b} \frac{\delta_{EL} L}{\delta \phi^a}
-$$
-
-for $\kappa^{a b} = - \kappa^{b a}$ a skew-symmetric system of smooth functions on the jet bundle.
-
-The linear combination of such an infinitesimal gauge symmetry and an on-shell vanishing infinitesimal symmetry is $(s+d)$-exact:
-
-
-$$
-  \begin{aligned}
-    v^a dvol_\Sigma
-    & =
-    \left(
-      R^a_\alpha \epsilon^\alpha
-      +
-      R^{a \mu}_\alpha \frac{d \epsilon^\alpha}{d x^\mu}
-      +
-      \kappa^{a b} \frac{\delta_{EL} L }{ \delta \phi^a }
-    \right)
-    dvol_\Sigma
-    \\
-    & =
-    s
-    \left(
-      \epsilon^\alpha c^\ddagger_\alpha
-      -
-      \tfrac{1}{2}\kappa^{a b} \phi^\ddagger_a \phi^\ddagger_b
-    \right) dvol_\sigma
-    +
-    d\left(
-      \epsilon^\alpha R^{a \mu}_\alpha
-    \right)
-    \iota_{\partial_\mu} dvol_\Sigma
-  \end{aligned}
-$$
-
-([Barnich-Brandt-Henneaux 94, p. 20](local+BRST+cohomology#BarnichBrandtHenneaux94))
-
-
-It may be useful to organize this expression into the $s+d$-[[bicomplex]] like so:
-
-$$
-  \array{
-    \{K\}
-     &\overset{d}{\longrightarrow}&
-     \{ d K
-       +
-     \epsilon^\alpha R^{a \mu}_\alpha \frac{\delta_{EL}\mathbf{L}}{ \delta \phi^a}
-     \}
-     &\overset{d}{\longrightarrow}&
-    \{ \overset{= 0}{\overbrace{ d J_v - \iota_v \delta_{EL}\mathbf{L} }} \}
-    \\
-    && \mathllap{s_{BV}}\uparrow && \uparrow\mathrlap{-s_{BV}}
-    \\
-    &&
-    \epsilon^\alpha R^{a \mu}_\alpha \phi^\ddagger_a
-    \iota_{\partial_\mu} dvol_\Sigma
-      &\underset{d}{\longrightarrow}&
-    \left\{
-      d\left(
-        \epsilon^\alpha R^{a \mu}_\alpha \phi^\ddagger_a
-      \right)
-      \iota_{\partial_\mu} dvol_\Sigma
-      +
-      \left(
-        R^a_\alpha \epsilon^\alpha
-        +
-        R^{a \mu}_\alpha \frac{d \epsilon^\alpha}{d x^\mu}
-        +
-        \kappa^{a b} \frac{\delta_{EL} L }{ \delta \phi^a }
-      \right)
-      \phi^\ddagger_a
-      \,
-      dvol_\Sigma
-    \right\}
-    \\
-    && && \uparrow\mathrlap{-s_{BV}}
-    \\
-    &&
-    &&
-    \left(
-       - \epsilon^\alpha c^\ddagger_\alpha
-       +
-      \tfrac{1}{2}\kappa^{a b } \phi^\ddagger_a \phi^\ddagger_b
-    \right)
-    dvol_\Sigma
-  }
-$$
-
-
-=--
 
 $\,$
 
