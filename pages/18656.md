@@ -202,6 +202,9 @@ $$
 $$
 
 
+## Related concepts
+
+* [[variational BV-BRST bicomplex]]
 
 
 ## References
@@ -243,5 +246,6 @@ Application to [[gravity]] and/or [[Yang-Mills theory]] ([[Einstein-Yang-Mills t
 [[!redirects local BV-BRST differential]]
 [[!redirects local BV-BRST differentials]]
 
-
+[[!redirects local BV-cohomology]]
+[[!redirects local BV cohomology]]
 
