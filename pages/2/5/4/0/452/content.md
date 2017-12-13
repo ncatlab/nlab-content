@@ -106,8 +106,10 @@ In other words, $\delta$ is equivariant for the action of $G_1$.
 
 *   The first diagram is slightly more subtle.  The group $G_2$ can act on itself in two different ways, (i) by the usual conjugation action, ${}^{g_2}g^\prime_2=g_2g^\prime_2g_2^{-1} $ and (ii) by first mapping $g_2$ down to $G_1$ and then using the action of that group back on $G_2$.  The first diagram says that the two actions coincide. Equationally this gives:
 $${}^{\delta(g_2)}g^\prime_2 = g_2g^\prime_2g_2^{-1}.$$
-
 This equation is known as the **Peiffer rule** in the literature.
+Another way to interpret it is to rewrite it slightly:
+$${}^{\delta(g_2)}g^\prime_2 g_2 = g_2g^\prime_2$$
+The Peiffer rule can thus be seen as a 'twisted commutativity law' for $G_2$.
 
 ### Morphisms {#Morphisms} 
 
