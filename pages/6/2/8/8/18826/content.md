@@ -8,7 +8,7 @@ exhibiting these is also called a _[[gauge theory]]_.
 
 By choosing the [[gauge parameter]] to have [[compact support]], [[infinitesimal gauge symmetries]] in particular yield
 [[infinitesimal symmetries of the Lagrangian]] with compact spacetime support.
-One finds (prop. \ref{NonTrivialImplicitInfinitesimalGaugeSymmetriesPbstructExistenceOfCauchySurfaces} below) that the existence of [[on-shell]] non-trivial symmetries of this form is an [[obstruction]] to  
+One finds (prop. \ref{NonTrivialImplicitInfinitesimalGaugeSymmetriesPbstructExistenceOfCauchySurfaces} below) that the existence of [[on-shell]] non-trivial symmetries of this form is an [[obstruction]] to
 the existence of the [[covariant phase space]] of the theory (prop. \ref{CovariantPhaseSpace}).
 
 
@@ -207,7 +207,7 @@ $\,$
 
 
 Prop. \ref{NonTrivialImplicitInfinitesimalGaugeSymmetriesPbstructExistenceOfCauchySurfaces} says that  the problem is to identify the presence of spacetime-compactly supported infinitesimal symmetries that are on-shell non-trivial.
-One way they may be identified is if [[infinitesimal symmetries]] appear in _linearly [[dependent type|parameterized collections]]_, where the parameter itself is an _arbitrary_ [[spacetime]]-dependent [[section]] of some [[fiber bundle]] (hence is itself like a [[field history]]), because then choosing the parameter to have [[compact support]] yields an [[infinitesimal symmetry of the Lagrangian]] with compact spacetime support (remark \ref{GaugeParametrizedInfinitesimalGaugeTransformation} below). 
+One way they may be identified is if [[infinitesimal symmetries]] appear in _linearly [[dependent type|parameterized collections]]_, where the parameter itself is an _arbitrary_ [[spacetime]]-dependent [[section]] of some [[fiber bundle]] (hence is itself like a [[field history]]), because then choosing the parameter to have [[compact support]] yields an [[infinitesimal symmetry of the Lagrangian]] with compact spacetime support (remark \ref{GaugeParametrizedInfinitesimalGaugeTransformation} below).
 
 In this case we speak of a _[[gauge parameter]]_ (def. \ref{GaugeParameters} below). It turns out that in most examples of [[Lagrangian field theories]] of interest, the compactly supported infinitesimal symmetries all come from [[gauge parameters]] this way. Therefore we now consider this case in detail.
 
@@ -359,7 +359,7 @@ $$
   \,,
 $$
 
-where now 
+where now
 
 $$
   \frac{\partial^k \epsilon^\alpha}{\partial x^{\mu_1} \cdots \partial x^{\mu_k}}
@@ -584,7 +584,7 @@ $$
   \,.
 $$
 
-In particular the [[conserved charge]] (prop. \ref{ConservedCharge}) 
+In particular the [[conserved charge]] (prop. \ref{ConservedCharge})
 
 $$
   Q_R \;\coloneqq\; \tau_{\Sigma_p}(J_R)
@@ -614,14 +614,14 @@ $$
 
 By the construction there, $K$ manifestly vanishes on the [[prolonged shell]] $\mathcal{E}^\infty$ (eq:ProlongedShellInJetBundle), being a sum of [[total spacetime derivatives]] of terms proportional to the components of the [[Euler-Lagrange form]].
 
-By [[Noether's theorem|Noether's second theorem]] (prop. \ref{NoetherIdentities}) we have $A = 0$ and hence 
+By [[Noether's theorem|Noether's second theorem]] (prop. \ref{NoetherIdentities}) we have $A = 0$ and hence
 
 $$
   d(J_R - K) = 0
   \,.
 $$
 
-Now if the [[field bundle]] and [[gauge parameter]] bundle are trivial, then prop. \ref{HorizontalVariationalComplexOfTrivialFieldBundleIsExact} implies that 
+Now if the [[field bundle]] and [[gauge parameter]] bundle are trivial, then prop. \ref{HorizontalVariationalComplexOfTrivialFieldBundleIsExact} implies that
 
 $$
   \label{DecompositionOfGaugSymmetryConservedCurrent}
@@ -664,11 +664,11 @@ An element of the [[local BV-complex]] in degee $p$ is the [[direct sum]] of a [
 
 $$
   \array{
-    \{J_v\} && 
+    \{J_v\} &&
     \\
-    && 
+    &&
     \\
-    && \{ v^a \phi^\ddagger_a dvol_\Sigma\}  
+    && \{ v^a \phi^\ddagger_a dvol_\Sigma\}
   }
 $$
 
@@ -718,7 +718,121 @@ where now the equality in the second term from the left is equation (eq:Decompos
 
 =--
 
+We will need some further technical results on [[Noether identities]]:
 
++-- {: .num_defn #NoetherOperator}
+###### Definition
+**([[Noether operator]])**
+
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) over [[Minkowski spacetime]] $\Sigma$ of [[dimension]] $ p + 1$, and let $\mathcal{G} \overset{gb}{\to} \Sigma$ be a [[gauge parameter bundle]] (def. \ref{GaugeParametrizedInfinitesimalGaugeTransformation}) which is closed (def. \ref{GaugeParametersClosed}).  Assume that both are [[trivial vector bundles]] (example \ref{TrivialVectorBundleAsAFieldBundle}) with field coordinates as in prop. \ref{EulerLagrangeFormIsSectionOfLocalCotangentBundleOfJetBundleGaugeActionLieAlgebroid}.
+
+A _Noether operator_ $N$ is a [[differential operator]] (def. \ref{DifferentialOperator}) from the [[vertical cotangent bundle]] of $E$ (example \ref{VerticalTangentBundle}) to the [[trivial vector bundle|trivial]] [[real line bundle]]
+
+$$
+  N(\omega)
+   \;=\;
+  \underset{k \in \mathbb{N}}{\sum}
+  N^{a \mu_1 \cdots \mu_k}
+  \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}} \omega_a
+$$
+
+such that it annihilates the [[Euler-Lagrange form]] (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}):
+
+$$
+  \underset{k \in \mathbb{N}}{\sum}
+  N^{a \mu_1 \cdots \mu_k}
+  \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}} \frac{\delta_{EL} L}{\delta \phi^a}
+  \;=\; 0
+  \,.
+$$
+
+Given  For $v$ an [[evolutionary vector field]] which is an [[infinitesimal symmetry of the Lagrangian]] (def. \ref{SymmetriesAndConservedCurrents}), we define a new differentia opeator $v \cdot N$ by
+
+$$
+  \label{MultiplyingANoetherOperatorWithAnInfinitesimalSymmetry}
+  (v \cdot N)^{a \mu_1 \cdots \mu_k}
+  \;\coloneqq\;
+  \widehat{v}\left( 
+    N^{a \mu_1 \cdots \mu_k}
+  \right)
+  \;-\;
+  N^a \circ (\mathrm{D}_v)^\ast_a
+  \,,
+$$
+
+where $\widehat{v}$ denotes the prolongation of the [[evolutionary vector field]] $v$ (prop. \ref{EvolutionaryVectorFieldProlongation})
+and where $(\mathrm{D}_v)^\ast$ denotes the [[formally adjoint differential operator]] (def. \ref{FormallyAdjointDifferentialOperators})
+of the [[evolutionary derivative]] of $v$ (def. \ref{FieldDependentDifferentialOperatorDerivative}).
+
+=--
+
+([Barnich 10 (3.1) and (3.5)](BRST+complex#Barnich10))
+
++-- {: .num_prop #LieAlgebraActionOfInfinitesimalSymmetriesOfTheLagrangianOnNoetherOperators}
+###### Proposition
+**([[Lie algebra action]] of [[infinitesimal symmetries of the Lagrangian]] on [[Noether operators]])**
+
+The operation (eq:MultiplyingANoetherOperatorWithAnInfinitesimalSymmetry) exhibits a [[Lie algebra action]]
+of the [[Lie algebra]] of [[infinitesimal symmetries of the Lagrangian]] (prop. \ref{EvolutionaryVectorFieldLieAlgebra})
+on Noether operators (def. \ref{NoetherOperator}), in that
+
+1. $v \cdot N$ is again a Noether operator;
+
+1. $v_1 \cdot (v_2 \cdot N) - v_2 \cdot (v_1 \cdot N) = [v_1, v_2] \cdot N$.
+
+Moreover, if $\rho$ denotes the map which identifies a [[Noether identity]] with an [[infinitesimal gauge symmetry]]
+by [[Noether's theorem|Noether's second theorem]] (def. \ref{NoetherIdentities}) then 
+
+$$
+  \label{LieActionOnNoetherOperatorGivesLieBracketUnderNoetherTheorem}
+  \rho \left(
+    v \cdot N
+  \right)
+  \;=\;
+  \left[ v, \rho(N)\right]
+  \,,
+$$
+
+where on the right we have again the [[Lie bracket]] of [[evolutionary vector fields]] from (prop. \ref{EvolutionaryVectorFieldLieAlgebra}).
+
+=--
+
+([Barnich 10, prop. 3.1 and (3.8)](BRST+complex#Barnich10))
+
+
++-- {: .proof}
+###### Proof
+
+For the first statement observe that by the [[product law]] for [[differentiation]] we have
+
+$$
+  \begin{aligned}
+    0
+    & =
+    \widehat{v}\left( 
+      N(\delta_{EL} L)
+    \right)
+    \\
+    & =
+    \widehat{v}
+    \left(
+      \underset{k \in \mathbb{N}}{\sum} N^{a \mu_1 \cdots \mu_k} 
+    \right)
+    -
+    \left(
+      N^a \circ (\mathrm{D}_v)_a^b\left(  \frac{\delta_{EL} L}{\delta \phi^a} \right)
+    \right)
+    \,,
+  \end{aligned}
+$$
+
+where on the right we used (eq:TowardsProofThatSymmetriesPreserveTheShell).
+
+=--
+
+$\,$
+
+Here are examples of [[infinitesimal gauge symmetries]] in [[Lagrangian field theory]]:
 
 +-- {: .num_example #InfinitesimalGaugeSymmetryElectromagnetism}
 ###### Example
@@ -1434,8 +1548,8 @@ of a [[finite-dimensional vector space|finite-dimensional]] [[super Lie algebra]
    $$
      \label{ActionLieAlgebroidGradedManifold}
      X/\mathfrak{g}
-      \;=_{grmfd}\; 
-    \mathfrak{g}[1] \times X 
+      \;=_{grmfd}\;
+    \mathfrak{g}[1] \times X
      \,,
    $$
 
@@ -1869,7 +1983,7 @@ $$
   \;=\;
   c^\alpha_{,\mu_1 \cdots \mu_k}
   \underset{k \in \mathbb{N}}{\sum}
-    R^{a \mu_1 \cdots \mu_k}_{\alpha} 
+    R^{a \mu_1 \cdots \mu_k}_{\alpha}
 $$
 
 and on the [[ghost fields]] by
