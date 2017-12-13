@@ -1,81 +1,375 @@
-
-+-- {: .num_example #dWCohomology}
-###### Example
-**([[Noether's theorem|Noether's theorems I and II]] in terms of [[local BV-cohomology]])**
-
-
-Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) over [[Minkowski spacetime]] $\Sigma$ of [[dimension]] $ p + 1$, and let $\mathcal{G} \overset{gb}{\to} \Sigma$ be a [[gauge parameter bundle]] (def. \ref{GaugeParametrizedInfinitesimalGaugeTransformation}) which is closed (def. \ref{GaugeParametersClosed}).  Assume that both are [[trivial vector bundles]] (example \ref{TrivialVectorBundleAsAFieldBundle}) with field coordinates as in prop. \ref{EulerLagrangeFormIsSectionOfLocalCotangentBundleOfJetBundleGaugeActionLieAlgebroid}.
-
-Then in the [[local BV-complex]] (def. \ref{BVComplexOfOrdinaryLagrangianDensity}) we have:
-
-The $(s_{BV} + d)$-closure of an element in total degree $p$ is characterizes as the [[direct sum]] of an [[evolutionary vector field]] which is an [[infinitesimal symmetry of the Lagrangian]] and the[[conserved current]] that corresponds to it under [[Noether's theorem|Noether's first theorem]] (prop. \ref{NoethersFirstTheorem}).
-
-Moreover, such a pair is $(s_{BV} + d)$-exact precisely if the [[infinitesimal symmetry of the Lagrangian]] is in fact an [[infinitesimal gauge symmetry]] as witnessed by [[Noether's theorem|Noether's second theorem]] (prop. \ref{NoetherIdentities}).
-
-=--
-
-
-([Barnich-Brandt-Henneaux 94, top of p. 20](local+BRST+cohomology#BarnichBrandtHenneaux94))
-
-
-+-- {: .proof}
-###### Proof
-
-An element of the [[local BV-complex]] in degee $p$ is the [[direct sum]] of a [[horizontal differential form]] of degree $p$ with the product of a horizontal form of degree $(p+1)$ times a function proportional to the [[antifields]]:
+&#180;
+the local antibracket
 
 $$
-  \array{
-    \{J_v\} && 
+  \label{LocalCommutatorOfDerivationsOnJetBundle}
+  \begin{aligned}
+    \left\{
+      f \, dvol_\Sigma,
+      g \, dvol_\Sigma
+    \right\}
+    & \coloneqq
+    \phantom{+}
+    \left(
+    \left(
+      \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}}
+      \left(
+        \frac{\overset{\leftarrow}{\delta}_{EL} f}{\delta \phi^a}
+      \right)
+    \right)
+    \left(
+      \frac{\overset{\rightarrow}{\partial} g}{\partial {\phi}^\ddagger_{a,\mu_1 \cdots \mu_k}}
+    \right)
+    -
+    \left(
+      \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}}
+      \left(
+        \frac{\overset{\leftarrow}{\delta}_{EL} f}{\delta \phi^\ddagger_a}
+      \right)
+    \right)
+    \left(
+      \frac{\overset{\rightarrow}{\partial} g}{\partial \phi^a_{,\mu_1 \cdots \mu_k}}
+    \right)
+    \right) \, dvol_\Sigma
     \\
-    && 
-    \\
-    && \{ v^a \phi^\ddagger_a dvol_\Sigma\}  
-  }
-$$
-
-Its closure means that
-
-$$
-  \array{
-    \{J_v\} &\overset{d}{\longrightarrow}& \{ \overset{= 0}{\overbrace{ d J_v - \iota_v \delta_{EL}\mathbf{L} }} \}
-    \\
-    && \uparrow\mathrlap{s_{BV}}
-    \\
-    && \{ v^a \phi^\ddagger_a dvol_\Sigma\}
-  }
-$$
-
-where the equality in the top right corner is euqation
-
-It being exact means that
-
-$$
-  \array{
-    \left\{ ... \right\}
     &
-      \overset{d}{\longrightarrow}
+    \phantom{\coloneqq}
+    +
+    \left(
+    \left(
+      \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}}
+      \left(
+        \frac{\overset{\leftarrow}{\delta}_{EL} f}{\delta c^\alpha}
+      \right)
+    \right)
+    \left(
+      \frac{\overset{\rightarrow}{\partial} g}{\partial {c}^\ddagger_{\alpha,\mu_1 \cdots \mu_k}}
+    \right)
+    -
+    \left(
+      \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}}
+      \left(
+        \frac{\overset{\leftarrow}{\delta}_{EL} f}{\delta c^\ddagger_\alpha}
+      \right)
+    \right)
+    \left(
+      \frac{\overset{\rightarrow}{\partial} g}{\partial c^\alpha_{,\mu_1 \cdots \mu_k}}
+    \right)
+    \right) \, dvol_\Sigma
+  \end{aligned}
+$$
+
+The BRST Lagrangian
+
+$$
+  L_{BRST}
+  \;=\;
+  \underset{k}{\sum} c^\alpha_{,\mu_1 \cdots \mu_k} 
+  R_\alpha^{a \mu_1 \cdots \mu_k} \phi^\ddagger_a
+  \;+\;
+  \tfrac{1}{2}\gamma^\alpha{}_{\beta \gamma} c^\beta c^\gamma
+  c^\ddagger_\alpha
+$$
+
+the BV-BRST differential
+
+$$
+  s 
+  \;\coloneqq\;
+  \left\{
+    \left(
+      - L + L_{BRST}
+    \right)
+    dvol_\Sigma
+    \,,\,
+    -
+  \right\}
+$$
+
+its action on 0-jets
+
+$$
+  \array{
+    & & s &
+    \\
+    \text{field}
+    & 
+    \phi^a
+      &\mapsto&
+    \left(
+      \underset{k \in \mathbb{N}}{\sum} c^\alpha_{,\mu_1 \cdots \mu_k} R_\alpha^{a \mu_1 \cdots \mu_k}
+    \right)
     &
-    \left\{
-      J_R
-      =
-      K + d(...)
-    \right\}
-      &\overset{d}{\longrightarrow}&
-    \left\{
-      d J_R
-    \right\}
+    \text{gauge symmetry}
     \\
-    &&
-    \uparrow
+    \text{
+      ghost field
+    }
+    & 
+    c^\alpha 
+      &\mapsto&
+    \tfrac{1}{2}\gamma^\alpha{}_{\beta \gamma} c^\beta c^\gamma
+    &
+    \text{Lie bracket}
     \\
-    &&
-    \left\{
-      K^{a \mu} \phi^\ddagger_a \iota_{\partial_\mu} dvol_\Sigma
-    \right\}
+    \text{antifield}
+    &
+    \phi^\ddagger_\alpha
+      &\mapsto&
+    \phantom{-}
+    \frac{\delta_{EL} L}{\delta \phi^a}
+    &
+    \text{equations of motion}
+    \\
+    &&&
+    -
+    \left(
+      \underset{k \in \mathbb{N}}{\sum}  
+      \frac{\delta_{EL}}{\delta \phi^a}
+      \left(
+        c^\alpha_{,\mu_1 \cdots \mu_k} 
+        R_\alpha^{b \mu_1 \cdots \mu_k}        
+        \phi^\ddagger_b
+      \right)
+    \right)    
+    &
+    \\
+    \text{anti ghostfield}
+    &
+    c^\ddagger_\alpha
+      &\mapsto&
+    -
+    \underset{k \in \mathbb{N}}{\sum}
+      (-1)^k \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}} 
+      \left(
+        R_\alpha^{a \mu_1 \cdots \mu_k} \phi^\ddagger_a
+      \right)
+    &
+    \text{Noether identities}
+    \\
+    &&& + \gamma^{\alpha'}{}_{ \alpha \beta} c^\beta c^\ddagger_{\alpha'}
   }
 $$
 
-where now the equality in the second term from the left is equation (eq:DecompositionOfGaugSymmetryConservedCurrent) for [[conserved currents]] corresponding to [[infinitesimal gauge symmetries]] (prop. \ref{ConservedChargeOfInfinitesimalGaugeSymmetryVanishes}).
+decompose
 
-=--
+$$
+  s = s_{BV} + s_{BRST}
+$$
 
+We already showed that 
+
+$$
+  \left(s_{BRST}\right)^2 = 0
+$$
+
+Moreover the fact that
+
+$$
+  \left( s_{BV} \right)^2 = 0
+$$
+
+is Noether's second theorem.
+
+Hence to show that $s^2 = 0$ we need to show that 
+
+$$
+  \left[ s_{BV}, s_{BRST} \right]
+  =
+  0
+$$
+
+(anticommutator).
+
+We may check this on 0-jets.
+
+On fields we get
+
+$$
+  s_{BRST} s_{BV} \phi^a
+  =
+  0
+$$
+
+$$
+  s_{BV} s_{BRST} \phi^a  
+  =
+  0
+$$
+
+On ghost fields we get
+
+$$
+  s_{BRST} s_{BV} c^\alpha
+  =
+  0
+$$
+
+$$
+  s_{BV} s_{BRST} c^\alpha
+  = 0
+$$
+
+now on antifields we get
+
+$$
+  \begin{aligned}
+    s_{BRST} s_{BV} \phi^{\ddagger}_a
+    & =
+    s_{BRST} \frac{\delta_{EL} L}{\delta \phi^a}
+    \\
+    & =
+    \underset{k}{\sum} 
+    \underset{q}{\sum}
+    \frac{d^q}{d x^{\nu_1} \cdots d x^{\nu_q}}
+    \left(
+      c^\alpha_{,\mu_1 \cdots \mu_k}
+      R_\alpha^{b \mu_1 \cdots \mu_k}
+    \right)
+    \frac{\partial}{\partial \phi^b_{,\nu_1 \cdots \nu_q}}
+    \frac{\delta_{EL} L}{\delta \phi^a}
+  \end{aligned}
+$$
+
+as well as
+
+$$
+  \begin{aligned}
+    s_{BV} s_{BRST} \phi^\ddagger_a
+    & =
+    -
+    s_{BV} 
+    \underset{k}{\sum} 
+    \frac{\delta_{EL}}{\delta \phi^a}
+    \left(
+      c^\alpha_{,\mu_1 \cdots \mu_k}
+      R_\alpha^{b \mu_1 \cdots \mu_k}
+      \phi^\ddagger_b
+    \right)
+    \\
+    & =
+    +
+    \underset{k}{\sum}
+    \underset{q}{\sum} 
+    (-1)^q
+    \frac{d^q}{d x^{\nu_1} \cdots d x^{\nu_q}}
+    \left(
+      \frac{\partial}{\partial \phi^a_{,\mu_1 \cdots \mu_q}}
+      \left(
+        c^\alpha_{,\mu_1 \cdots \mu_k}
+        R_\alpha^{b \mu_1 \cdots \mu_k}
+      \right)
+      \frac{\delta_{EL} L}{\delta \phi^b}
+    \right)
+  \end{aligned}
+$$
+
+that these two terms indeed cancel in that
+
+$$
+  \left(
+    s_{BRST}s_{BV}
+    +
+    s_{BV} s_{BRST}
+  \right)
+  \phi^\ddagger_a
+  = 
+  0
+$$
+
+
+is [this equation](https://ncatlab.org/nlab/show/A+first+idea+of+quantum+field+theory+--+Symmetries#eq:TowardsProofThatSymmetriesPreserveTheShell)
+
+finally on anti ghostfields we get
+
+$$
+  \begin{aligned}
+    s_{BV} s_{BRST} c^\ddagger_\alpha
+    & =
+    s_{BV} \gamma^{\alpha'}{}_{\alpha \beta} c^\beta c^\ddagger_{\alpha'}
+    \\
+    & =
+    -
+    \gamma^{\alpha'}{}_{\alpha \beta} c^\beta 
+      \underset{k \in \mathbb{N}}{\sum}
+        (-1)^k \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}} 
+        \left(
+          R_{\alpha'}^{a \mu_1 \cdots \mu_k} \phi^\ddagger_a
+        \right)
+  \end{aligned}
+$$
+
+as well as
+
+$$
+  \begin{aligned}
+    s_{BRST} s_{BV} c^\ddagger_\alpha
+    & =
+    s_{BRST}
+    \left(
+        \underset{k \in \mathbb{N}}{\sum}
+          (-1)^k \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}} 
+          \left(
+            R_\alpha^{a \mu_1 \cdots \mu_k} \phi^\ddagger_a
+          \right)
+    \right)
+    \\
+    & =
+    R
+    \left(
+        \underset{k \in \mathbb{N}}{\sum}
+          (-1)^k \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}} 
+          \left(
+            R_\alpha^{a \mu_1 \cdots \mu_k} \phi^\ddagger_a
+          \right)
+    \right)
+    \;+\;
+    \left(
+        \underset{k \in \mathbb{N}}{\sum}
+          (-1)^k \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}} 
+          \left(
+            R_\alpha^{a \mu_1 \cdots \mu_k} 
+    \left(
+      \underset{1 \in \mathbb{N}}{\sum}  
+      \frac{\delta_{EL}}{\delta \phi^a}
+      \left(
+        c^{\alpha'}_{,\nu_1 \cdots \nu_q} 
+        R_{\alpha'}^{b \nu_1 \cdots \nu_q}        
+        \phi^\ddagger_b
+      \right)
+    \right)    
+          \right)
+    \right)
+    \\
+    & +
+    R
+    \left(
+        \underset{k \in \mathbb{N}}{\sum}
+          (-1)^k \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}} 
+          \left(
+            R_\alpha^{a \mu_1 \cdots \mu_k} \phi^\ddagger_a
+          \right)
+    \right)
+    \;+\;
+    \left(
+        \underset{k \in \mathbb{N}}{\sum}
+          (-1)^k \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}} 
+          \left(
+            R_\alpha^{a \mu_1 \cdots \mu_k} 
+    \left(
+      \underset{q,r \in \mathbb{N}}{\sum}  
+      \frac{d^r}{d x^{\rho_1} \cdots d x^{\rho_r}}
+      \left(
+        c^{\alpha'}_{,\nu_1 \cdots \nu_q}
+        \frac{\partial R_{\alpha'}^{b \nu_1 \cdots \nu_q}}{\partial \phi^a_{,\rho_1 \cdots \rho_r}}         
+        \phi^\ddagger_b
+      \right)
+    \right)    
+          \right)
+    \right)
+    \\
+    & = 0
+  \end{aligned}
+$$
+
+by [Barnich 10 (3.5)](BRST+complex#Barnich10)
