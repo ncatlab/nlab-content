@@ -77,7 +77,10 @@ $$
   s 
   \;\coloneqq\;
   \left\{
-    -L + L_{BRST}
+    \left(
+      - L + L_{BRST}
+    \right)
+    dvol_\Sigma
     \,,\,
     -
   \right\}
@@ -245,7 +248,7 @@ $$
     \right)
     \\
     & =
-    -
+    +
     \underset{k}{\sum}
     \underset{q}{\sum} 
     (-1)^q
@@ -275,8 +278,38 @@ $$
 $$
 
 
-should be [this equation](https://ncatlab.org/nlab/show/A+first+idea+of+quantum+field+theory+--+Symmetries#eq:TowardsProofThatSymmetriesPreserveTheShell)
+is [this equation](https://ncatlab.org/nlab/show/A+first+idea+of+quantum+field+theory+--+Symmetries#eq:TowardsProofThatSymmetriesPreserveTheShell)
 
-(relative sign?)
+finally on anti ghostfields we get
 
+$$
+  \begin{aligned}
+    s_{BV} s_{BRST} c^\ddagger_\alpha
+    & =
+    s_{BV} \gamma^{\alpha'}{}_{\alpha \beta} c^\beta c^\ddagger_{\alpha'}
+    \\
+    & =
+    -
+    \gamma^{\alpha'}{}_{\alpha \beta} c^\beta 
+      \underset{k \in \mathbb{N}}{\sum}
+        (-1)^k \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}} 
+        \left(
+          R_\alpha^{a \mu_1 \cdots \mu_k} \phi^\ddagger_a
+        \right)
+  \end{aligned}
+$$
 
+as well as
+
+$$
+  s_{BRST} s_{BV} c^\ddagger_\alpha
+  =
+  s_{BRST}
+  \left(
+      \underset{k \in \mathbb{N}}{\sum}
+        (-1)^k \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}} 
+        \left(
+          R_\alpha^{a \mu_1 \cdots \mu_k} \phi^\ddagger_a
+        \right)
+  \right)
+$$
