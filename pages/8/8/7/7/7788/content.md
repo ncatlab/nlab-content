@@ -90,6 +90,7 @@ Here the $level \leq 2$-truncation happens to coincide with the bosonic [[body]]
 * H. Mkrtchyan, R. Mkrtchyan, _$E_{11},K_{11}$ and $EE_{11}$_ ([arXiv:hep-th/0407148](http://arxiv.org/abs/hep-th/0407148))
 
 ### Relation to supergravity
+ {#ReferencesRelationToSupergravity}
 
 Literature discussing $E_{11}$ [[U-duality]] and in the context of [[exceptional generalized geometry]] of [[11-dimensional supergravity]].
 
