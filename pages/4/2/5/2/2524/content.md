@@ -78,7 +78,7 @@ is the corresponding [[local action functional]].
 
 * [[action functional]]
 
-* [[extended Lagrangian]]
+* [[extended Lagrangian]], [[BV-Lagrangian density]]
 
 * traditional [[Lagrangian mechanics]] and [[Hamiltonian mechanics]] are naturally embedding into [[local prequantum field theory]] by the notion of [[prequantized Lagrangian correspondences]]
 
