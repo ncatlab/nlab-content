@@ -220,22 +220,81 @@ $$
   }
 $$
 
-and the [[BV-BBRST differential]] acts as
+and the [[BV-BRST differential]] acts as
 
 $$
-  s
-  \;\colon\;
-  \left\{
   \array{
-    a_\mu &\mapsto& c_{,\mu} & \text{(infinitesimal gauge transformation)}
+    \left.
+    \array{
+       \text{ electromagnetic field }
+       \\
+       \text{ ("vector potential") }
+    }
+    \right\}
+    & a_\mu &\mapsto& c_{,\mu} & \text{gauge transformation}
     \\
-    c &\mapsto& 0 \text{abelian Lie algebra}
     \\
-    (a^\ddagger)^\mu &\mapsto&  f^{\nu \mu}_{,\nu}  & \text{(equations of Motion -- vacuum Maxwell equations)}
+    \left.
+      \text{ ghost field }
+    \right\}
+    & c &\mapsto& 0 & \text{abelian Lie algebra}
     \\
-    c^\ddagger &\mapsto& (a^\ddagger)^\mu_{,\mu} & \text{(Noether identity)}
+    \\
+    \left.
+    \array{
+      \text{antifield of}
+      \\
+      \text{electromagnetic field}
+    }
+    \right\}
+    & (a^\ddagger)^\mu &\mapsto&  f^{\nu \mu}_{,\nu}  & \text{equations of Motion}
+    \\
+    \\
+    \left.
+    \array{
+      \text{antifield of}
+      \\
+      \text{ghostfield}
+    }
+    \right\}
+    & c^\ddagger &\mapsto& (a^\ddagger)^\mu_{,\mu} & \text{Noether identity}
+    \\
+    \\
+    \left.
+      \text{Nakanishi-Lautrup field}
+    \right\}
+    &
+    b &\mapsto& 0
+    \\
+    \\
+    \left.
+      \text{antighost field}
+    \right\}
+    &
+    \overline{c} &\mapsto& b & \text{ NL-field vanishes in cohomology }
+    \\
+    \\
+    \left.
+    \array{
+      \text{antifield of}
+      \\
+      \text{ Nakanishi-Lautrup field }
+    }
+    \right\}
+    &
+    b^\ddagger &\mapsto& \overline{c}^\ddagger & \array{ \text{antifield of antighost field} \\ \text{vanishes in cohomology} }
+    \\
+    \\
+    \left.
+    \array{
+      \text{antifield of}
+      \\
+      \text{antighost field}
+    }
+    \right\}
+    & 
+    \overline{c}^\ddagger &\mapsto& 0
   }
-  \right.
 $$
 
 The [[Lagrangian density]] for [[vacuum]] [[electromagnetism]] is (eq:ElectromagnetismLagrangian)
@@ -264,7 +323,14 @@ $$
   \,.
 $$
 
-In this context $\Sigma \times \langle b\rangle$ is called the [[field bundle]] for the _[[Nakanishi-Lautrup field]]_ and $\Sigma \times \langle \overline{c}\rangle$ that for the _[[antighost field]]_.
+Here the notation means that $\Sigma \times \langle b\rangle$ is the [[trivial vector bundle|trivial]] [[real line bundle]]
+with fiber coordinate denoted $b$; and similarly for $\overline{c}$.
+
+In this context one says
+
+*  $\Sigma \times \langle b\rangle$ is the [[field bundle]] for the _[[Nakanishi-Lautrup field]]_ 
+
+* $\Sigma \times \langle \overline{c}\rangle$ that for the _[[antighost field]]_.
 
 The corresponding product [[BV-BRST complex]] [[quasi-isomorphism|quasi-isomorphic]] to the original one
 
@@ -282,11 +348,29 @@ $$
     \\
     & & \overline{c} & b
     \\
+    & & b^{\ddagger} & \overline{c}^\ddagger
+    \\
     deg =
     &
     -2 & -1 & 0 & 1
   }
   \,.
+$$
+
+and [[BV-BRST differential]]
+
+$$
+  s
+  \;=\;
+  \left\{
+    - \underset{ = L}{\underbrace{\tfrac{1}{2}f_{\mu \nu} f^{\mu \nu}}}
+    +
+    \underset{ = L_{BRST} }{\underbrace{ c_{,\mu} (a^\ddagger)^\mu }}
+    +
+    \underset{ = L_{NL} }{\underbrace{ b \overline{c}^{\ddagger} }}
+    \,,\,
+    (-)
+  \right\}
 $$
 
 We say that the _Nakanishi-Lautrup [[gauge fixing fermion]] for Gaussian averaged [[Lorentz gauge]]_ is
@@ -305,7 +389,7 @@ $$
   \,.
 $$
 
-With $L_{NL}$ denoting the anti-Hamiltonin for the differential $s_{NL}$ of the [[resolution|resolved]] [[local BV-BRST complex]] $  \left(E/(\mathcal{G} \times_\Sigma T \Sigma) \right)_{d L \simeq 0} \times_\Sigma NL$ we find from (eq:VacuumEMLagrangianDensityRecalledForNLFields) and (eq:NLGaugeFixingFermion) the [[antibracket]]
+With $L_{NL}$ denoting the anti-Hamiltonian for the differential $s_{NL}$ of the [[resolution|resolved]] [[local BV-BRST complex]] $  \left(E/(\mathcal{G} \times_\Sigma T \Sigma) \right)_{d L \simeq 0} \times_\Sigma NL$ we find from (eq:VacuumEMLagrangianDensityRecalledForNLFields) and (eq:NLGaugeFixingFermion) the [[antibracket]]
 
 $$
   \{\psi,L_{NL}\} = b ( b + a^{\mu}_{,\mu} ) + \overline{c}_{,\mu} c^{,\mu}
@@ -374,7 +458,7 @@ Here on the left we show the equations as the appear directly from the [[Euler-L
 (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}).
 The operator $\Box$ on the right is the [[wave operator]] (example \ref{EquationOfMotionOfFreeRealScalarField})
 and $div$ denotes the [[divergence]].
-The equivalence to the equations on the right follows from using in the first first equation the derivative of the second equation
+The equivalence to the equations on the right follows from using in the first equation the derivative of the second equation
 on the left, which is
 
 $$
@@ -396,7 +480,7 @@ $$
   \,.
 $$
 
-The [[differential equations]] on the right are manifestly a system of [[normally hyperbolic differential operator|normally hyperbolic]] [[differential equations]], as opposed to the plain [[vacuum]] [[Maxwell equations]] on [[Minkowski spacetime]] $\frac{d}{d x^\mu} f^{\mu \nu} = 0$ (see also [Rejzner 16, section 7.2](Nakanishi-Lautrup+field#Rejzner16)).
+The [[differential equations]] on the right are manifestly a system of [[normally hyperbolic differential operator|normally hyperbolic]] [[differential equations]], hence of [[Green hyperbolic differential equations]] (def. \ref{GreenHyperbolicDifferentialOperator}), as opposed to the plain [[Maxwell equations]] on [[Minkowski spacetime]] $\frac{d}{d x^\mu} f^{\mu \nu} = 0$ (see also [Rejzner 16, section 7.2](Nakanishi-Lautrup+field#Rejzner16)).
 
 
 =--
