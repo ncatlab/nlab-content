@@ -171,7 +171,7 @@ $\,$
 In practice this choice of gauge fixing by choice of quasi-isomorphism to a "manifestly covariant" [[BV-BRST complex]]
 is realized as the composite of two seperate quasi-isomorphisms:
 
-1. an "anti-canonical transformation"
+1) an "anti-canonical transformation"
 
    $$
      e^{-\{\psi,-\}} \;\colon\; BV(s^g) \longrightarrow BV( \exp^{-\{\psi,-\}} s^g )
@@ -180,7 +180,98 @@ is realized as the composite of two seperate quasi-isomorphisms:
    (induced by a degree -1 element $\psi$ called, for better or worse, the "[[gauge fixing fermion]]")
   which is actually a genuine [[isomorphism]], not just a [[quasi-isomorphism]];
 
-1. a genuine [[quasi-isomorphism]] which contracts away a [[contractible space|contractible]] [[direct sum|direct summand]]
+Since the [[local antibracket]] $\left\{ -,-\right\}$ is a graded [[derivation]] in its second argument (prop. \ref{BasicPropertiesOfTheLocalAntibracket}) of degree one more than the degree of its first argument (eq:LocalAntibracketGradedDerivationInSecondArgument), it follows for $\psi$ of degree -1 that
+
+$$
+  \exp\left(
+    \left\{ \psi \,,\, (-)
+  \right)
+  \left(
+    \left\{ (-) \,,\, (-) \right\}
+  \right)
+  =
+  \left\{
+    \exp\left(
+      \left\{ \psi \,,\, (-) \right\}
+    \right)
+    \left(-\right)
+    \,,\,
+    \exp\left(
+      \left\{ \psi \,,\, (-) \right\}
+    \right)
+    \left(-\right)
+  \right\}
+$$
+
+This in turn implies by the fact that the BRST differential is a [[Hamiltonian vector field]] with respect to the [[local antibracket]],
+in that
+
+$$
+  s
+  \;=\;
+  \left\{
+    L_{BV}
+    \,,\,
+    (-)
+  \right\}
+$$
+
+that any $\psi$ of degree -1 determines a [[chain map]]
+
+$$
+  \array{
+    \phi^a &\mapsto& \exp\left( \left\{ \psi\,,\, (-) \right\} \right)(\phi^a)
+    \\
+    c_\alpha &\mapsto& \exp\left( \left\{ \psi\,,\, (-) \right\} \right)(c_\alpha)
+    \\
+    \phi^\ddagger_a &\mapsto& \exp\left( \left\{ \psi\,,\, (-) \right\} \right)(\phi^\ddagger_a)
+    \\
+    c^\ddagger_\alpha &\mapsto&  \exp\left( \left\{ \psi\,,\, (-) \right\} \right)(c^\ddagger_\alpha)
+  }
+$$
+
+since
+
+$$
+  \array{
+    \left\{ \phi^a\right\}
+      &\overset{ \exp\left( \left\{ \psi \,,\, (- )\right\}\right) }{\longrightarrow}&
+    \left\{ \exp\left( \left\{ \psi \,,\, (- )\right\}\right)(\phi^a)  \right\}
+    \\
+    {}^{\mathllap{s}}\downarrow && \downarrow^{\mathrlap{  }}^{\mathrlap{ s_\psi }}
+    \\
+    \left\{
+      \left\{
+        L_{BV}
+        \,,\,
+        \phi^a
+      \right\}
+    \right\}
+     &\underset{ \exp\left( \left\{ \psi \,,\, ( - )\right\}\right) }{\longrightarrow}&
+    \left\{
+      \left\{
+        \exp\left( \left\{ \psi\,,\,(-)\right\}\right)\left(L_{BV}\right)
+        \,,\,
+        \exp\left( \left\{ \psi \,,\, (-) \right\}  \right)\left( \phi^a \right)
+      \right\}
+    \right\}
+  }
+$$
+
+moreover, this chain map  has an [[inverse morphism]] given by $-\psi$.
+\begin{table}
+  \centering
+\begin{table}
+  \centering
+  
+  \caption{}\label{}
+\end{table}
+  
+  \caption{}\label{}
+\end{table}
+Accordingly it is an [[isomorphism]] of [[chain complexes]], hence in particular a [[quasi-isomorphism]].
+
+2) a genuine [[quasi-isomorphism]] which contracts away a [[contractible space|contractible]] [[direct sum|direct summand]]
    of [[auxiliary fields]]
 
    $$
@@ -224,6 +315,7 @@ and the [[BV-BRST differential]] acts as
 
 $$
   \array{
+    & &\array{ \text{BV-BRST} \\ \text{differential} }&
     \left.
     \array{
        \text{ electromagnetic field }
@@ -259,20 +351,20 @@ $$
     \right\}
     & c^\ddagger &\mapsto& (a^\ddagger)^\mu_{,\mu} & \text{Noether identity}
     \\
+    \,
     \\
     \left.
       \text{Nakanishi-Lautrup field}
     \right\}
     &
-    b &\mapsto& 0
+    b &\mapsto& 0 & \text{vanishing of auxiliary fields...}
     \\
     \\
     \left.
       \text{antighost field}
     \right\}
     &
-    \overline{c} &\mapsto& b & \text{ NL-field vanishes in cohomology }
-    \\
+    \overline{c} &\mapsto& b & \text{... in cohomology}
     \\
     \left.
     \array{
@@ -282,7 +374,7 @@ $$
     }
     \right\}
     &
-    b^\ddagger &\mapsto& \overline{c}^\ddagger & \array{ \text{antifield of antighost field} \\ \text{vanishes in cohomology} }
+    b^\ddagger &\mapsto& -\overline{c}^\ddagger &
     \\
     \\
     \left.
@@ -292,7 +384,7 @@ $$
       \text{antighost field}
     }
     \right\}
-    & 
+    &
     \overline{c}^\ddagger &\mapsto& 0
   }
 $$
@@ -328,9 +420,21 @@ with fiber coordinate denoted $b$; and similarly for $\overline{c}$.
 
 In this context one says
 
-*  $\Sigma \times \langle b\rangle$ is the [[field bundle]] for the _[[Nakanishi-Lautrup field]]_ 
+*  $\Sigma \times \langle b\rangle$ is the [[field bundle]] for the _[[Nakanishi-Lautrup field]]_
 
-* $\Sigma \times \langle \overline{c}\rangle$ that for the _[[antighost field]]_.
+* $\Sigma \times \langle \overline{c}\rangle$ is the [[field bundle]] for the _[[antighost field]]_.
+
+**Beware** there is _no_ relation between
+
+* "antifield of the ghost field" $c^\ddagger$
+
+* "antighost field" $\overline{c}$.
+
+In particular there is also the "antifield of the antighost field" $\overline{c}^\ddagger \coloneqq (\overline{c})^\ddagger$.
+
+The terminology and notation is unfortunate but entirely established.
+
+
 
 The corresponding product [[BV-BRST complex]] [[quasi-isomorphism|quasi-isomorphic]] to the original one
 
@@ -389,10 +493,25 @@ $$
   \,.
 $$
 
-With $L_{NL}$ denoting the anti-Hamiltonian for the differential $s_{NL}$ of the [[resolution|resolved]] [[local BV-BRST complex]] $  \left(E/(\mathcal{G} \times_\Sigma T \Sigma) \right)_{d L \simeq 0} \times_\Sigma NL$ we find from (eq:VacuumEMLagrangianDensityRecalledForNLFields) and (eq:NLGaugeFixingFermion) the [[antibracket]]
+We find from (eq:VacuumEMLagrangianDensityRecalledForNLFields) and (eq:NLGaugeFixingFermion) the [[local antibracket]]
 
 $$
-  \{\psi,L_{NL}\} = b ( b + a^{\mu}_{,\mu} ) + \overline{c}_{,\mu} c^{,\mu}
+  \begin{aligned}
+    \left\{\psi\,,\,L_{NL} \right\}
+    & =
+    \left\{
+      \overline{c}\left( b + a^\mu_{,\mu}\right)
+      \,,\,
+      -\tfrac{1}{2}f_{\mu \nu}f^{\mu \nu}
+      +
+      c_{,\mu} (a^\ddagger)^\mu
+      +
+      b \overline{c}^\ddagger
+    \right\}
+    \\
+    & =
+    b ( b + a^{\mu}_{,\mu} ) - \overline{c}_{,\mu} c^{,\mu}
+  \end{aligned}
 $$
 
 and then
