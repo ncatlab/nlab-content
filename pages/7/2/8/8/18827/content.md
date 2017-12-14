@@ -1948,6 +1948,53 @@ That the two expressions differ by a horizontally exact terms follows by the ver
 The third point requires some computation ([Barnich-Henneaux 96 (B.9)](local+BRST+cohomology#BarnichHenneaux96)).
 
 =--
+
+
+The following is the local refinement of prop. \ref{ClassicalMasterEquation}:
+
++-- {: .num_defn #ClassicalMasterEquationLocal}
+###### Remark
+**(local [[classical master equation]])**
+
+
+The third item in prop. \ref{BasicPropertiesOfTheLocalAntibracket} implies that the following
+conditions on a [[Lagrangian density]] $\mathbf{K} \in \Omega^{p+1}_\Sigma( T^\ast_{\Sigma,inf}( E \times_\Sigma \mathcal{G}[1] ) )$
+whose degree is even
+
+$$
+  \mathbf{K} = K\, dvol_\Sigma
+  \,,
+  \phantom{AAA}
+  deg(L) \in 2 \mathbb{Z}
+$$
+
+are equivalent:
+
+1. forming the [[local antibracket]] (def.  \ref{LocalAntibracket}) with $\mathbf{K}$ is a [[differential]] 
+
+   $$
+     \left(\left\{ \mathbf{K},-\right\}\right)^2 = 0
+     \,,
+   $$
+
+1. the [[local antibracket]] (def. \ref{LocalAntibracket}) of $\mathbf{K}$ with itself is a [[total spacetime derivative]]: 
+
+   $$
+     \left\{ \mathbf{K}, \mathbf{K}\right\} = d(...)
+   $$
+
+1. the other variant of the [[local antibracket]] (def. \ref{LocalAntibracket}) of $\mathbf{K}$ with itself is a [[total spacetime derivative]]:
+
+   $$
+     \left\{ \mathbf{K}, \mathbf{K}\right\}' = d(...)
+   $$
+
+This condition is also called the _local [[classical master equation]]_.
+
+=--
+
+
+
 $\,$
 
 **[[derived critical locus]] on [[jet bundle]] -- the [[local BV-BRST complex]]**
