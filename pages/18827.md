@@ -1892,9 +1892,10 @@ The [[local antibracket]] from def. \ref{LocalAntibracket} satisfies the followi
      - (-1)^{deg(f) deg(g)} \, \left\{g \, dvol_\Sigma \,,\, f\, dvol_\Sigma \right\}
    $$
 
-1. The unprimed version $\{-,-\}$ strictly satisfies the graded [[Jacobi identity]], meaning that it is a graded [[derivation]] in the second argument:
+1. The unprimed version $\{-,-\}$ strictly satisfies the graded [[Jacobi identity]]; in that it is a graded [[derivation]] in the second argument, of degree one more than the degree of the first argument:
 
    $$
+     \label{LocalAntibracketGradedDerivationInSecondArgument}
      \left\{ f\, dvol_\Sigma, \left\{ g\, dvol_\Sigma \,,\, h\, dvol_\Sigma \right\}\right\}
      \;=\;
        \underset{
@@ -1918,7 +1919,7 @@ The [[local antibracket]] from def. \ref{LocalAntibracket} satisfies the followi
         }
      }
      \;+\;
-     (-1)^{deg(f) deg(g)}
+     (-1)^{(deg(f)+1) deg(g)}
      \left\{
        g\, dvol_\Sigma
        \,,\,
