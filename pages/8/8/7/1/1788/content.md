@@ -196,7 +196,7 @@ is realized as the composite of two seperate quasi-isomorphisms:
 Let 
 
 $$
-  CE\left(  E/(\mathcal{G} \times_\Sigma \Sigma)_{\delta_{EL} L \simeq 0} \right)
+  CE\left(  E/(\mathcal{G} \times_\Sigma T\Sigma)_{\delta_{EL} L \simeq 0} \right)
   \;=\;
   \left(
     C^\infty\left( 
@@ -325,7 +325,7 @@ $$
 and hence another [[differential graded-commutative superalgebra]] (def. \ref{differentialgradedcommutativeSuperalgebra})
 
 $$
-  CE\left(  E/(\mathcal{G} \times_\Sigma \Sigma)^{gf}_{\delta_{EL} L \simeq 0} \right)
+  CE\left(  E/(\mathcal{G} \times_\Sigma T\Sigma)^{gf}_{\delta_{EL} L \simeq 0} \right)
   \;=\;
   \left(
     C^\infty\left(
@@ -396,44 +396,17 @@ $$
 
 
 
-+-- {: .num_example}
-###### Example
++-- {: .num_defn #AuxiliaryFields}
+###### Definition
+**([[auxiliary fields]])**
 
-Let
-
-$$
-  CE\left(  E/(\mathcal{G} \times_\Sigma \Sigma)_{\delta_{EL} L \simeq 0} \right)
-  \;=\;
-  \left(
-    C^\infty\left(
-      T^\ast_{\Sigma,inf}[-1]\left(E \times_\Sigma \mathcal{G}[1]\right) \times_\Sigma T \Sigma[1]
-    \right)
-    \;,\;
-    d_{CE}
-    =
-    \underset{s}{
-    \underbrace{
-      \left\{
-        \left( - L + L_{BRST}\right) dvol_\Sigma
-        \,,\,
-        -
-      \right\}
-    }
-    }
-    \;+\;
-    d
-  \right)
-$$
-
-be a  [[local BV-BRST complex]] of a [[Lagrangian field theory]] $(E,\mathbf{L})$ (example \ref{LocalBVBRSTComplexIsDerivedCriticalLocusOfEulerLagrangeForm}).
-
-Let
+Over [[Minkowski spacetime]] $\Sigma$, let
 
 $$
   A \overset{aux}{\longrightarrow} \Sigma
 $$
 
-be any other [[graded manifold|graded]] [[vector bundle]] (remark \ref{dgManifolds}) over [[spacetime]] $\Sigma$, regarded as a [[field bundle]] (def. \ref{FieldsAndFieldBundles}) for further _[[auxiliary fields]]_. If this is a [[trivial vector bundle]] (example \ref{TrivialVectorBundleAsAFieldBundle}) we denote its field coordinates $(b^i)$. On the corresponding graded bundle with degrees shifted down by one
+be any [[graded manifold|graded]] [[vector bundle]] (remark \ref{dgManifolds}), to be regarded as a [[field bundle]] (def. \ref{FieldsAndFieldBundles}) for _[[auxiliary fields]]_. If this is a [[trivial vector bundle]] (example \ref{TrivialVectorBundleAsAFieldBundle}) we denote its field coordinates $(b^i)$. On the corresponding graded bundle with degrees shifted down by one
 
 $$
   A[-1] \overset{aux[-1]}{\longrightarrow} \Sigma
@@ -481,6 +454,7 @@ $$
 On this [[fiber bundle]] consider the [[Lagrangian density]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
 
 $$
+  \label{LagrangianDensityForAuxiliaryFields}
   \mathbf{L}_{aux}
   \;\in\;
   \Omega^{p+1,0}_\Sigma( T^\ast_{\Sigma,inf}[-1]\left( A \times_\Sigma A[-1] \right) )
@@ -496,9 +470,10 @@ $$
 $$
 
 This is such that the [[local antibracket]] (def. \ref{LocalAntibracket}) with this Lagrangian 
-acts on generatos as follows:
+acts on generators as follows:
 
 $$
+  \label{BVDifferentialOnauxiliaryFields}
   \array{
     && \left\{ \mathbf{L}_{aux},- \right\}
     \\
@@ -520,12 +495,167 @@ $$
   }
 $$
 
+=--
 
+The following is immediate from def. \ref{AuxiliaryFields}, in fact this is the purpose of the definition:
+
++-- {: .num_prop #QuasiIsomorphismAdjoiningAuxiliaryFields}
+###### Proposition
+**(adjoining [[auxiliary fields]] is [[quasi-isomorphism]] of [[BV-BRST complexes]])**
+
+Let
+
+$$
+  CE\left(  E/(\mathcal{G} \times_\Sigma T\Sigma)_{\delta_{EL} L \simeq 0} \right)
+  \;=\;
+  \left(
+    C^\infty\left(
+      T^\ast_{\Sigma,inf}[-1]\left(E \times_\Sigma \mathcal{G}[1]\right) \times_\Sigma T \Sigma[1]
+    \right)
+    \;,\;
+    d_{CE}
+    =
+    \underset{s}{
+    \underbrace{
+      \left\{
+        \left( - L + L_{BRST}\right) dvol_\Sigma
+        \,,\,
+        -
+      \right\}
+    }
+    }
+    \;+\;
+    d
+  \right)
+$$
+
+be a  [[local BV-BRST complex]] of a [[Lagrangian field theory]] $(E,\mathbf{L})$ (example \ref{LocalBVBRSTComplexIsDerivedCriticalLocusOfEulerLagrangeForm}).
+
+Let moreover $A \overset{aux}{\longrightarrow} \Sigma$ be any [[auxiliary field bundle]] (def. \ref{AuxiliaryFields}).
+Then on the [[fiber product]] of the original [[field bundle]] $E$ and the shifted [[gauge parameter bundle]] $\mathcal{G}[1]$ with the [[auxiliary field bundle]] $A$
+the sum of the original [[BV-Lagrangian density]] $-\mathbf{L} + \mathbf{L}_{BRST}$ with the 
+auxiliary Lagrangian density $\mathbf{L}_{aux}$ (eq:LagrangianDensityForAuxiliaryFields)
+induce a new [[differential graded-commutative superalgebra]]:
+
+$$
+  \begin{aligned}
+  & CE\left( E/(\mathcal{G} \times_\Sigma (A \times_\Sigma A[-1]) \times_\Sigma T \Sigma)^{aux}_{\delta_{EL} L \simeq 0} \right)
+  \\
+  & \coloneqq\;
+  \left(
+    C^\infty\left(
+      T^\ast_{\Sigma,inf}[-1]
+      \left(
+         E \times_\Sigma \mathcal{G}[1] \times_\Sigma \left( A \times_\Sigma A[-1]\right) \right) \times_\Sigma T \Sigma[1]
+    \right)
+    \;,\;
+    d_{CE}
+    =
+    \underset{s}{
+    \underbrace{
+      \left\{
+        \left( - L + L_{BRST} + \mathbf{L}_{aux} \right) dvol_\Sigma
+        \,,\,
+        -
+      \right\}
+    }
+    }
+    \;+\;
+    d
+  \right)
+  \end{aligned}
+$$
+
+with generators
+
+$$
+  \array{
+    \text{fields} & \phi^a & E &  \phi^\ddagger_a & \text{antifields}
+    \\
+    \\
+    \text{ghost fields} & c^\alpha & \mathcal{G}[1] & c^\ddagger_\alpha & \array{ \text{antifields of} \\ \text{ghost fields} }
+    \\
+    \\
+    \text{ auxiliary fields } & b^i & A & b^\ddagger_i & \array{ \text{antifields of} \\ \text{auxiliary fields} }
+    \\
+    \\
+    \text{ antighost fields } & \overline{c}^i & A[-1] & \overline{c}^{\ddagger}_i & \array{ \text{antifields of} \\ \text{antighost fields} }
+  }
+$$
+
+Moreover, the canonical inclusion map
+
+$$
+  CE\left( E/(\mathcal{G} \times_\Sigma \times_\Sigma T \Sigma)_{\delta_{EL} L \simeq 0} \right)
+    \overset{\phantom{AAA}}{\hookrightarrow}
+  CE\left( E/(\mathcal{G} \times_\Sigma (A \times_\Sigma A[-1]) \times_\Sigma T \Sigma)^{aux}_{\delta_{EL} L \simeq 0} \right)
+$$
+
+is a [[quasi-isomorphism]].
 
 =--
 
++-- {: .proof}
+###### Proof
 
+From (eq:BVDifferentialOnauxiliaryFields) we read off that
 
+1. the map $s_{aux} \coloneqq \left\{ \mathbf{L}_{aux},- \right\}$ is a [[differential]] (squares to zero), and
+   the auxiliary [[Lagrangian density]] satisfies its [[classical master equation]] (remark \ref{ClassicalMasterEquationLocal}) strictly
+   
+   $$
+      \{\mathbf{L}_{aux}, \mathbf{L}_{aux}\} = 0
+   $$ 
+
+1. the [[cochain cohomology]] of this differential is trivial:
+ 
+   $$
+     H^\bullet( s_{aux} )\;=\;0
+   $$
+
+1. The [[local antibracket]] of the [[BV-Lagrangian density]] with the auxiliary Lagrangian density vanishes:
+
+   $$
+     \left\{
+       - \mathbf{L} + \mathbf{L}_{BRST}
+       \,,\,
+       \mathbf{L}_{aux}
+     \right\}
+     \;=\;
+     0
+   $$
+
+Together this implies that the sum $-\mathbf{L} + \mathbf{L}_{BRST} + \mathbf{L}_{aux}$ satisfies the [[classical master equation]] (remark \ref{ClassicalMasterEquationLocal})
+
+$$
+  \left\{
+    \left(
+    - \mathbf{L} + \mathbf{L}_{BRST} + \mathbf{L}_{aux}
+    \right)
+    \,,\,
+    \left(
+    - \mathbf{L} + \mathbf{L}_{BRST} + \mathbf{L}_{aux}
+    \right)
+  \right\}
+  \;=\;
+  0
+$$
+
+and hence that 
+
+$$
+  s + s_{aux}
+  \;\coloneqq\;
+  \left\{
+    - \mathbf{L} + \mathbf{L}_{BRST} + \mathbf{L}_{aux}
+    \,,\,
+    -
+  \right\}
+$$
+
+is indeed a [[differential]]; such that its [[cochain cohomology]] is identified with that of $s = \left\{-\mathbf{L} + \mathbf{L}_{BRST},-\right\}$ under the canonical inclusion map.
+
+=--
 
 
 +-- {: .num_example #NLGaugeFixingOfElectromagnetism}
@@ -542,7 +672,7 @@ $$
 
 for [[vacuum]] [[electromagnetism]] on [[Minkowski spacetime]] from example \ref{LocalBVComplexOfVacuumElectromagnetismOnMinkowskiSpacetime}:
 
-The [[field bundle]] is $E \coloneqq T^\ast \Sigma$ and the [[gauge parameter]] bundle is $\mathcal{G} \coloneqq \Sigma \times \mathbb{R}$.
+The [[field bundle]] is $E \coloneqq T^\ast \Sigma$ and the [[gauge parameter bundle]]  is $\mathcal{G} \coloneqq \Sigma \times \mathbb{R}$.
 The 0-jet generators are
 
 $$
@@ -560,74 +690,63 @@ and the [[BV-BRST differential]] acts as
 $$
   \array{
     & &\array{ \text{BV-BRST} \\ \text{differential} }&
-    \left.
+    \\
     \array{
        \text{ electromagnetic field }
        \\
        \text{ ("vector potential") }
     }
-    \right\}
     & a_\mu &\mapsto& c_{,\mu} & \text{gauge transformation}
     \\
+    \phantom{A}
     \\
-    \left.
       \text{ ghost field }
-    \right\}
     & c &\mapsto& 0 & \text{abelian Lie algebra}
     \\
+    \phantom{A}
     \\
-    \left.
     \array{
       \text{antifield of}
       \\
       \text{electromagnetic field}
     }
-    \right\}
     & (a^\ddagger)^\mu &\mapsto&  f^{\nu \mu}_{,\nu}  & \text{equations of Motion}
     \\
+    \phantom{A}
     \\
-    \left.
     \array{
       \text{antifield of}
       \\
       \text{ghostfield}
     }
-    \right\}
     & c^\ddagger &\mapsto& (a^\ddagger)^\mu_{,\mu} & \text{Noether identity}
     \\
     \,
     \\
-    \left.
       \text{Nakanishi-Lautrup field}
-    \right\}
     &
     b &\mapsto& 0 & \text{vanishing of auxiliary fields...}
     \\
     \\
-    \left.
       \text{antighost field}
-    \right\}
     &
     \overline{c} &\mapsto& b & \text{... in cohomology}
     \\
-    \left.
     \array{
       \text{antifield of}
       \\
       \text{ Nakanishi-Lautrup field }
     }
-    \right\}
     &
     b^\ddagger &\mapsto& -\overline{c}^\ddagger &
     \\
+    \phantom{A}
     \\
-    \left.
     \array{
       \text{antifield of}
       \\
       \text{antighost field}
     }
-    \right\}
     &
     \overline{c}^\ddagger &\mapsto& 0
   }
@@ -933,7 +1052,7 @@ $$
 
 +-- {: .num_prop #BVComplexIsHomologicalResolutionPreciselyIfNoNonTrivialImplicitGaugeSymmetres}
 ###### Proposition
-**(local [[BV-complex]] is [[homological resolution]] of the [[shell]] precisely if there are no non-trivial implicit [[infinitesimal gauge symmetries]])**
+**(local [[BV-complex]] is [[homological resolution]] of the [[shell]] precisely if there are no non-trivial compactly supported [[infinitesimal symmetries of the Lagrangian]])**
 
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
 whose [[field bundle]] $E$ is a [[trivial vector bundle]] (example \ref{TrivialVectorBundleAsAFieldBundle}) and whose [[Lagrangian density]] $\mathbf{L}$ is spacetime-independent (example \ref{ShellForSpacetimeIndependentLagrangians})
@@ -956,7 +1075,7 @@ $$
     \array{
       \text{there are no non-trivial}
       \\
-      \text{implicit infinitesimal gauge transformations}
+      \text{compactly supported infinitesimal symmetries}
     }
   \right)
   \,.
@@ -968,8 +1087,8 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By example \ref{InterpretationCohomologyOfBVComplex} the vanishing of non-trivial implicit infinitesimal
-gauge symmetries is equivalent to the vanishing of the cochain cohomology of the local BV-complex in degree -1 (eq:NegativeOneCohomologyBV).
+By example \ref{InterpretationCohomologyOfBVComplex} the vanishing of compactly supported infinitesimal symmetries
+is equivalent to the vanishing of the cochain cohomology of the local BV-complex in degree -1 (eq:NegativeOneCohomologyBV).
 
 Therefore the statement to be proven is
 equivalently that the [[Koszul complex]] of the sequence of elements
