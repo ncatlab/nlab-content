@@ -212,7 +212,7 @@ The 0-jet generators are
 
 $$
   \array{
-    & \overline{c} & \overline{a}^\mu & a_\mu & c
+    & c^\ddagger & (a^\ddagger)^\mu & a_\mu & c
     \\
     deg =
     &
@@ -220,18 +220,20 @@ $$
   }
 $$
 
-and the [[differential]] acts as
+and the [[BV-BBRST differential]] acts as
 
 $$
   s
   \;\colon\;
   \left\{
   \array{
-    \overline{a}^\mu &\mapsto&  f^{\nu \mu}_{,\nu}  & \text{(equations of Motion -- vacuum Maxwell equations)}
-    \\
-    \overline{c} &\mapsto& \overline{a}^\mu_{,\mu} & \text{(Noether identity)}
-    \\
     a_\mu &\mapsto& c_{,\mu} & \text{(infinitesimal gauge transformation)}
+    \\
+    c &\mapsto& 0 \text{abelian Lie algebra}
+    \\
+    (a^\ddagger)^\mu &\mapsto&  f^{\nu \mu}_{,\nu}  & \text{(equations of Motion -- vacuum Maxwell equations)}
+    \\
+    c^\ddagger &\mapsto& (a^\ddagger)^\mu_{,\mu} & \text{(Noether identity)}
   }
   \right.
 $$
@@ -252,8 +254,8 @@ $$
   \left(
   \array{
     &
-    \Sigma \times \langle \tilde c\rangle
-      &\overset{\tilde c \mapsto b}{\longrightarrow}&
+    \Sigma \times \langle \overline{c}\rangle
+      &\overset{ \overline{c} \mapsto b}{\longrightarrow}&
     \Sigma \times\langle b\rangle
     \\
     deg = & -1 && 0
@@ -262,7 +264,7 @@ $$
   \,.
 $$
 
-In this context $\Sigma \times \langle b\rangle$ is called the [[field bundle]] for the _[[Nakanishi-Lautrup field]]_ and $\Sigma \times \langle \tilde c\rangle$ that for the _[[antighost field]]_.
+In this context $\Sigma \times \langle b\rangle$ is called the [[field bundle]] for the _[[Nakanishi-Lautrup field]]_ and $\Sigma \times \langle \overline{c}\rangle$ that for the _[[antighost field]]_.
 
 The corresponding product [[BV-BRST complex]] [[quasi-isomorphism|quasi-isomorphic]] to the original one
 
@@ -276,9 +278,9 @@ has coordinate generators
 
 $$
   \array{
-    & \overline{c} & \overline{a}^\mu & a_\mu & c
+    & c^\ddagger & (a^\ddagger)^\mu & a_\mu & c
     \\
-    & & \tilde c & b
+    & & \overline{c} & b
     \\
     deg =
     &
@@ -293,7 +295,7 @@ $$
   \label{NLGaugeFixingFermion}
   \psi
      \coloneqq
-  \tilde c( b + a^{\mu}_{,\mu} )
+  \overline{c}( b + a^{\mu}_{,\mu} )
   \;\in\;
   CE\left(
     \left(
@@ -306,7 +308,7 @@ $$
 With $L_{NL}$ denoting the anti-Hamiltonin for the differential $s_{NL}$ of the [[resolution|resolved]] [[local BV-BRST complex]] $  \left(E/(\mathcal{G} \times_\Sigma T \Sigma) \right)_{d L \simeq 0} \times_\Sigma NL$ we find from (eq:VacuumEMLagrangianDensityRecalledForNLFields) and (eq:NLGaugeFixingFermion) the [[antibracket]]
 
 $$
-  \{\psi,L_{NL}\} = b ( b + a^{\mu}_{,\mu} ) + \tilde c_{,\mu} c^{,\mu}
+  \{\psi,L_{NL}\} = b ( b + a^{\mu}_{,\mu} ) + \overline{c}_{,\mu} c^{,\mu}
 $$
 
 and then
@@ -328,7 +330,7 @@ $$
     \left(
       \tfrac{1}{2} f_{\mu \nu} f^{\mu \nu}
        +
-       b ( b + a^{\mu}_{,\mu} ) + \tilde c_{,\mu} c^{,\mu}
+       b ( b + a^{\mu}_{,\mu} ) + \overline{c}_{,\mu} c^{,\mu}
     \right) dvol_\Sigma
   \end{aligned}
   \,.
@@ -349,7 +351,7 @@ $$
     \\
     c_{,\mu}{}^{,\mu} & = 0
     \\
-    \tilde c_{,\mu}{}^{,\mu} & = 0
+    \overline{c}_{,\mu}{}^{,\mu} & = 0
   \end{aligned}
   \right.
   \phantom{AAA}
@@ -363,7 +365,7 @@ $$
     \\
     \Box c & = 0
     \\
-    \Box \tilde c & = 0
+    \Box \overline{c} & = 0
   \end{aligned}
   \right.
 $$
