@@ -29,3 +29,6 @@ For instance in the [[quantization of Yang-Mills theory]] the _[[Nakanishi-Lautr
 In fact even before it comes to [[gauge fixing]], [[BV-BRST formalism]] introduces a variety of auxiliary fields: the [[ghosts]], the [[ghosts-of-ghosts]], etc., and the [[antifields]]. 
 
 [[!redirects auxiliary fields]]
+
+[[!redirects auxiliary field bundle]]
+[[!redirects auxiliary field bundles]]
