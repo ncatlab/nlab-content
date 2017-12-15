@@ -1,4 +1,4 @@
-Marco Robalo is a Ph.D. student under the direction of [[Bertrand Toen]].
+Marco Robalo was a Ph.D. student under the direction of [[Bertrand Toen]].
 
 * [web](http://ens.math.univ-montp2.fr/~robalo/)
 
