@@ -1160,7 +1160,7 @@ $$
     \right)
     \, dvol_\Sigma
     \\
-    \phantom{a}
+    \phantom{A}
     \\
    \{ \mathbf{L}_{gf}, \{ \mathbf{L}_{gf} , (-\mathbf{L} + \mathbf{L}_{BRST} + \mathbf{L}_{aux}  )\}\}
    & = 0
@@ -1169,10 +1169,10 @@ $$
 
 (So we are in the traditional situation of example \ref{GaugeFixingViaAntiLagrangianSubspaces}.)
 
-Therefore the corresponding [[gauge fixing|gauge fixed]] [[Lagrangian density]] $\mathbf{L}'$ (eq:GaugeFixedLagrangianDensity) is given by
+Therefore the corresponding [[gauge fixing|gauge fixed]] [[Lagrangian density]]  (eq:GaugeFixedLagrangianDensity) is ([Henneaux 90 (103b)](Nakanishi-Lautrup+field#Henneaux90))
 
 $$
-  \label{GaussianAveragedLorentzianGaugeFixOfElectromagneticFieldOnMinkowskiSpacetime}
+\label{GaussianAveragedLorentzianGaugeFixOfElectromagneticFieldOnMinkowskiSpacetime}
   \begin{aligned}
     -\mathbf{L}' + \mathbf{L}'_{BRST}
       & \coloneqq
@@ -1185,21 +1185,46 @@ $$
     }{
     \underbrace{
     \left(
-      \tfrac{1}{2} f_{\mu \nu} f^{\mu \nu}
-       +
-       b ( b - a^{\mu}_{,\mu} )
-       +
-       \overline{c}_{,\mu} c^{,\mu}
+      \underset{ = L_{EM} }{
+        \underbrace{
+          \tfrac{1}{2} f_{\mu \nu} f^{\mu \nu}
+        }
+      }
+      +
+      \underset{ = -\left\{ L_{gf}, L_{BRST} + L_{aux} \right\} }{
+        \underbrace{
+          b ( b - a^{\mu}_{,\mu} )
+          +
+          \overline{c}_{,\mu} c^{,\mu}
+        }
+      }
     \right) dvol_\Sigma
     }
     }
     \;+\;
-    \mathbf{L}'_{BRST}
+    \underset{ = \mathbf{L}'_{BRST} }{
+      \underbrace{
+        \left(
+          \underset{ = L_{BRST} }{
+            \underbrace{
+              c_{,\mu} (a^\ddagger)^\mu
+            }
+          }
+          +
+          \underset{ = L_{aux} }{
+            \underbrace{
+              b \overline{c}^\ddagger
+            }
+          }
+        \right) 
+        dvol_\Sigma
+      }
+    }
   \end{aligned}
   \,.
 $$
 
-([Henneaux 90 (103b)](Nakanishi-Lautrup+field#Henneaux90)).
+
 
 The [[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]] (def.
  \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime})
