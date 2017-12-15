@@ -205,7 +205,7 @@ $\,$
 
 Proposition \ref{NonTrivialImplicitInfinitesimalGaugeSymmetriesPbstructExistenceOfCauchySurfaces} implies
 that we need a good handle on determining whether the space of non-trivial
-compactly supported [[infinitesimal symmetries of the lagrangian]] modulo trivial ones is non-zero. This
+compactly supported [[infinitesimal symmetries of the Lagrangian]] modulo trivial ones is non-zero. This
 [[obstruction]] turns out to be neatly captured by methods of [[homological algebra]]
 applied to the [[local BV-complex]] (def. \ref{BVComplexOfOrdinaryLagrangianDensity}):
 
@@ -366,14 +366,31 @@ $\,$
 **[[quasi-isomorphisms]] between [[BV-BRST complexes]]**
  {#QuasiIsomorphismsBetweenBVBRSTComplexes}
 
+Recall (prop. \ref{CochainCohomologyOfBVBRSTComplexInDegreeZero}) that given a [[local BV-BRST complex]] (example  \ref{LocalBVBRSTComplexIsDerivedCriticalLocusOfEulerLagrangeForm}) with [[BV-BRST differential]] $s$, then the space of
+[[local observables]] which are [[on-shell]] and [[gauge invariance|gauge invariant]] is the [[cochain cohomology]]
+of $s$ in degree zero:
+
+$$
+  H^0(s \vert d)
+  \;=\;
+  \left\{
+    \array{
+      \text{gauge invariant on-shell}
+      \\
+      \text{local observables}
+    }
+  \right\}
+$$
+
 The key point of having [[resolution|resolved]] (in chapter _[Reduced phase space](#ReducedPhaseSpace)_) the naive [[quotient]] by [[infinitesimal gauge symmetries]] of the naive [[intersection]] with the [[shell]] by the [[L-infinity algebroid]] whose [[Chevalley-Eilenberg algebra]] is called the _[[local BV-BRST complex]]_, is that placing the [[reduced phase space]] into the [[(infinity,1)-category|context]]
 of [[homotopy theory]]/[[homological algebra]] this way provides the freedom of changing the choice of [[field bundle]] and of
 [[Lagrangian density]] without actually changing the [[Lagrangian field theory]] _up to [[equivalence]]_, namely without changing the
 [[cochain cohomology]] of the [[BV-BRST complex]].
 
-A [[homomorphism]] of [[differential graded-commutative superalgebras]] (such as [[BV-BRST complexes]]) which 
+
+A [[homomorphism]] of [[differential graded-commutative superalgebras]] (such as [[BV-BRST complexes]]) which
 induces an [[isomorphism]] in [[cochain cohomology]] is called a _[[quasi-isomorphism]]_. We now discuss two
-classes of [[quasi-isomorphisms]] between [[BV-BRST complexes]]: 
+classes of [[quasi-isomorphisms]] between [[BV-BRST complexes]]:
 
 1. _[[gauge fixing]] (def. \ref{GaugeFixingLagrangianDensity} below)
 
@@ -392,7 +409,7 @@ $$
   CE\left(  E/(\mathcal{G} \times_\Sigma T\Sigma)_{\delta_{EL} L \simeq 0} \right)
   \;=\;
   \left(
-    C^\infty\left(
+    \Omega^{0,0}_\Sigma\left(
       T^\ast_{\Sigma,inf}[-1]\left(E \times_\Sigma \mathcal{G}[1]\right) \times_\Sigma T \Sigma[1]
     \right)
     \;,\;
@@ -523,7 +540,7 @@ $$
   CE\left(  E/(\mathcal{G} \times_\Sigma T\Sigma)^{gf}_{\delta_{EL} L \simeq 0} \right)
   \;=\;
   \left(
-    C^\infty\left(
+    \Omega^{0,0}_\Sigma\left(
       T^\ast_{\Sigma,inf}[-1]\left(E \times_\Sigma \mathcal{G}[1]\right) \times_\Sigma T \Sigma[1]
     \right)
     \;,\;
@@ -589,6 +606,7 @@ $$
 
 =--
 
+
 +-- {: .num_defn #GaugeFixingLagrangianDensity}
 ###### Definition
 **([[gauge fixing Lagrangian density]])**
@@ -599,7 +617,7 @@ $$
   CE\left(  E/(\mathcal{G} \times_\Sigma T\Sigma)_{\delta_{EL} L \simeq 0} \right)
   \;=\;
   \left(
-    C^\infty\left(
+    \Omega^{0,0}_\Sigma\left(
       T^\ast_{\Sigma,inf}[-1]\left(E \times_\Sigma \mathcal{G}[1]\right) \times_\Sigma T \Sigma[1]
     \right)
     \;,\;
@@ -651,17 +669,143 @@ $$
 is such that for the transformed graded [[Lagrangian field theory]]
 
 $$
+  \label{GaugeFixedLagrangianDensity}
+  -\underset{deg_{af} = 0}{\underbrace{\mathbf{L}' }} + \mathbf{L}'_{BRST}
+  \;\coloneqq\;
   e^{\{\mathbf{L}_{gf},-\}}(-\mathbf{L} + \mathbf{L}_{BRST})
-  \;=\;
-  -\underset{deg_{af} = 0}{\underbrace{\mathbf{L}}}' + \mathbf{L}'_{BRST}
 $$
 
 (with [[Lagrangian density]] $\mathbf{L}'$ the part independent of [[antifields]])
-the [[covariant phase space]] exists (prop. \ref{CovariantPhaseSpace}), then we call $\mathbf{L}_{gf}$ a _[[gauge fixing Lagrangian density]]_
-for the original Lagrangian field theory.
+the [[Euler-Lagrange equation|Euler-Lagrange]] [[equations of motion]] (def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime}) admit [[Cauchy surfaces]] (def. \ref{CauchySurface}), then we call $\mathbf{L}_{gf}$ a _[[gauge fixing Lagrangian density]]_
+for the original Lagrangian field theory, and $\mathbf{L}'$ the corresponding _gauge fixed_ form of the original [[Lagrangian density]] $\mathbf{L}$.
 
-(In the literature such $\\mathbf{L}_{gf}$ is traditionally called a _[[gauge fixing fermion]]_ and denoted by "$\psi$".)
+=--
 
+
++-- {: .num_remark}
+###### Remark
+**(warning on terminology)**
+
+What we call a _[[gauge fixing Lagrangian density]]_ $\mathbf{L}_{gf}$ in def. \ref{GaugeFixingLagrangianDensity} is traditionally called a _[[gauge fixing fermion]]_ and denoted by "$\psi$" ([Henneaux 90, section 8.3, 8.4](BRST+complex#Henneaux90)).
+
+Here "fermion" is meant as a reference to the fact that the cohomological degree $deg(L_{gf}) = -1$, which is reminiscent of the odd [[supergeometry|super-degree]] of [[fermion]] fields such as the [[Dirac field]] (example \ref{DiracFieldBundle}); see at _[[signs in supergeometry]]_ the section _[The super odd sign rule](signs+in+ supergeometry#SuperOddConvention)_. But the [[gauge fixing Lagrangian density]] in general has nothing to do with [[fermion fields]], even though of course it may depend on any fermion fields present in the theory.
+
+=--
+
++-- {: .num_example }
+###### Example
+**([[gauge fixing]] via [[local antibracket|anti-]][[Lagrangia subspaces]])**
+
+
+
+Let $\mathbf{L}_{gf}$ be a [[gauge fixing Lagrangian density]] as in def. \ref{GaugeFixingLagrangianDensity}
+such that
+
+1. its [[local antibracket]]-square vanishes 
+
+   $$
+     \left\{ \mathbf{L}_{gf},\, \left\{ \mathbf{L}_{gf}, \, -\right\} \right\} = 0
+   $$
+   
+   hence its [[local antibracket|anti-]][[Hamiltonian flow]] has at most a linear component in its argument $\mathbf{A}$:
+   
+   $$
+     e^{\left\{ \mathbf{L}_{gf} \,,\, \mathbf{A}  \right\}}
+     \;=\;
+     \mathbf{A} + \left\{ \mathbf{L}_{gf} \,,\, \mathbf{A}  \right\}
+   $$
+
+1. it is independent of the [[antifields]]
+
+   $$
+     deg_{af}left( L_{gf} \right) \;=\; 0
+     \,.
+   $$
+
+Then with 
+
+* $(\phi^A)$ collectively denoting all the [[field (physics)|field]] coordinates
+
+  (including the actual fields $\phi^a$, the [[ghost fields]] $c^\alpha$ as well as possibly further [[auxiliary field]])
+
+* $(\phi^\ddagger_A)$ collectively denoting all the [[antifield]] coordinates
+
+  (includion the antifields $\phi^\ddagger_a$ of the actual fields, the antifields $c^\ddagger_\alpha$ of the [[ghost fields]] as well as those of possibly further [[auxiliary fields]] )
+
+we have 
+
+$$
+  \begin{aligned}
+    (\phi')^A 
+    & \coloneqq
+    e^{\left\{ \mathbf{L}_{gf}\,,\, - \right\}}(\phi^A)
+    \\
+    & = \phi^A
+    \\
+    \phantom{A}
+    \\
+    (\phi')^\ddagger_A
+    & \coloneqq
+    e^{\left\{ \mathbf{L}_{gf}\,,\, - \right\}}
+    \left( \phi^\ddagger_A \right)
+    \\
+    &  =
+    \phi^\ddagger_A - \frac{\overset{\leftarrow}{\delta}_{EL} \mathbf{L}_{gf}}{\delta \phi^a}
+  \end{aligned}
+$$
+
+(and similarly for the higher jets); and the corresponding transformed [[Lagrangian density]] (eq:GaugeFixedLagrangianDensity)
+may be written as
+
+$$
+  \begin{aligned}
+    -\mathbf{L}' +  \mathbf{L}'_{BRST}
+    & \coloneqq
+    e^{\left\{ \mathbf{L}_{gf}\,,\, - \right\}}\left( -\mathbf{L} + \mathbf{L}_{BRST} \right)
+    \\
+    & = 
+    \left(
+      -\mathbf{L}
+      +
+      \mathbf{L}_{BRST}
+    \right)
+    \left( \phi', (\phi')^\ddagger  \right)
+  \end{aligned}
+  \,.
+$$
+
+where the notation on the right denotes that $\phi'$ is [[substitution|substituted]] for $\phi$ and $\phi'_\ddagger$ for $\phi-\ddagger$.
+ 
+This means that the defining condition that $\mathbf{L}'$ be the antifield-independent summand, which we may write as
+
+$$
+  \mathbf{L}' 
+  \coloneqq
+  \left(
+    -\mathbf{L}
+    +
+    \mathbf{L}_{BRST}
+  \right)
+  \left( \phi'(\phi), \phi_\ddagger = 0  \right) 
+$$
+
+translates into
+
+$$
+  \mathbf{L}'
+  \coloneqq
+  \left(
+    -\mathbf{L}
+    +
+    \mathbf{L}_{BRST}
+  \right)
+  \left( \phi', (\phi')^\ddagger_A  = -\frac{\overset{\leftarrow}{\delta}_{EL} L_{gf}}{\delta \phi^A}  \right)
+  \,.
+$$
+
+In this form BV-gauge fixing is considered traditionally 
+(e.g. [Hennaux 90, section 8.3, page 83, equation (76b) and item (iii)](gauge+fixing#Henneaux90).
+ 
 =--
 
 $\,$
@@ -773,6 +917,27 @@ $$
 
 =--
 
+
++-- {: .num_remark}
+###### Remark
+**(warning on terminology)**
+
+Beware that when adjoining [[antifields]] as in def. \ref{AuxiliaryFields} to a [[Lagrangian field theory]] which also has [[ghost fields]] $(c^\alpha)$ adjoined (example \ref{LocalOffShellBRSTComplex}) then there is _no_ relation, a priori, between
+
+* the "antighost field" $\overline{c}^i$
+
+and
+
+* the "antifield of the ghost field" $c^\ddagger_\alpha$
+
+In particular there is also the
+
+* "antifield of the antighost field" $\overline{c}^\ddagger_i$
+
+The terminology and notation is maybe unfortunate but entirely established.
+
+=--
+
 The following is immediate from def. \ref{AuxiliaryFields}, in fact this is the purpose of the definition:
 
 +-- {: .num_prop #QuasiIsomorphismAdjoiningAuxiliaryFields}
@@ -785,7 +950,7 @@ $$
   CE\left(  E/(\mathcal{G} \times_\Sigma T\Sigma)_{\delta_{EL} L \simeq 0} \right)
   \;=\;
   \left(
-    C^\infty\left(
+    \Omega^{0,0}_\Sigma\left(
       T^\ast_{\Sigma,inf}[-1]\left(E \times_\Sigma \mathcal{G}[1]\right) \times_\Sigma T \Sigma[1]
     \right)
     \;,\;
@@ -819,7 +984,7 @@ $$
   \\
   & \coloneqq\;
   \left(
-    C^\infty\left(
+    \Omega^{0,0}_\Sigma\left(
       T^\ast_{\Sigma,inf}[-1]
       \left(
          E \times_\Sigma \mathcal{G}[1] \times_\Sigma \left( A \times_\Sigma A[-1]\right) \right) \times_\Sigma T \Sigma[1]
@@ -859,14 +1024,27 @@ $$
   }
 $$
 
-Moreover, the canonical inclusion map
+Moreover, the [[differential graded-commutative superalgebra]] of [[auxiliary fields]] and their [[antighost fields]] is a [[contractible chain complex]]
+
+$$
+  \left(
+    \Omega^{0,0}_\Sigma( A \times_{\Sigma} A[-1] )
+    \,,\,
+    d_{CE} = \left\{ \overline{c}^\ddagger_i b^i \, dvol_\Sigma \,,\, - \right\}
+  \right)
+    \overset{\simeq_{qi}}{\longrightarrow}
+  0
+$$
+
+and thus the canonical inclusion map
 
 $$
   CE\left( E/(\mathcal{G} \times_\Sigma \times_\Sigma T \Sigma)_{\delta_{EL} L \simeq 0} \right)
-    \overset{\phantom{AAA}}{\hookrightarrow}
+    \overset{\phantom{AA} \simeq_{qi} \phantom{aa}}{\hookrightarrow}
   CE\left( E/(\mathcal{G} \times_\Sigma (A \times_\Sigma A[-1]) \times_\Sigma T \Sigma)^{aux}_{\delta_{EL} L \simeq 0} \right)
 $$
 
+(of the original [[BV-BRST complex]] into its [[tensor product]] with that for the [[auxiliary fields]] and their [[antighost fields]])
 is a [[quasi-isomorphism]].
 
 =--
@@ -943,17 +1121,10 @@ $\,$
 **([[Nakanishi-Lautrup field|Nakanishi-Lautrup]] [[gauge fixing]] of [[vacuum]] [[electromagnetism]])**
 
 Consider the [[local BV-BRST complex]]
-
-$$
-  \left(
-    E/(\mathcal{G} \times_\Sigma T \Sigma)
-  \right)_{d L \simeq 0}
-$$
-
 for [[vacuum]] [[electromagnetism]] on [[Minkowski spacetime]] from example \ref{LocalBVComplexOfVacuumElectromagnetismOnMinkowskiSpacetime}:
 
 The [[field bundle]] is $E \coloneqq T^\ast \Sigma$ and the [[gauge parameter bundle]]  is $\mathcal{G} \coloneqq \Sigma \times \mathbb{R}$.
-The 0-jet generators are
+The 0-jet field coordinates are
 
 $$
   \array{
@@ -965,7 +1136,14 @@ $$
   }
 $$
 
-and the [[BV-BRST differential]] acts as
+the [[Lagrangian density]] is (eq:ElectromagnetismLagrangian)
+
+$$
+  \label{VacuumEMLagrangianDensityRecalledForNLFields}
+  \mathbf{L}_{EM} \coloneqq \tfrac{1}{2} f_{\mu \nu} f^{\mu \nu}
+$$
+
+and the [[BV-BRST differential]] acts as:
 
 $$
   \array{
@@ -1039,20 +1217,11 @@ $$
   }
 $$
 
-The [[Lagrangian density]] for [[vacuum]] [[electromagnetism]] is (eq:ElectromagnetismLagrangian)
+
+Introduce a [[trivial vector bundle|trivial]] [[real line bundle]] for [[auxiliary fields]] $b$
+in degree 0 and their [[antighost fields]] $\overline{c}$ (def. \ref{AuxiliaryFields}) in degree -1:
 
 $$
-  \label{VacuumEMLagrangianDensityRecalledForNLFields}
-  \mathbf{L}_{em} \coloneqq \tfrac{1}{2} f_{\mu \nu} f^{\mu \nu}
-  \,.
-$$
-
-Consider the [[contractible chain complex]] of [[vector bundles]] over $\Sigma$
-
-$$
-  NL
-  \;\coloneqq\;
-  \left(
   \array{
     &
     \Sigma \times \langle \overline{c}\rangle
@@ -1061,39 +1230,13 @@ $$
     \\
     deg = & -1 && 0
   }
-  \right)
   \,.
 $$
 
-Here the notation means that $\Sigma \times \langle b\rangle$ is the [[trivial vector bundle|trivial]] [[real line bundle]]
-with fiber coordinate denoted $b$; and similarly for $\overline{c}$.
+In the present context the [[auxiliary field]] $b$ is called the _[[Nakanishi-Lautrup field]]_.
 
-In this context one says
-
-*  $\Sigma \times \langle b\rangle$ is the [[field bundle]] for the _[[Nakanishi-Lautrup field]]_
-
-* $\Sigma \times \langle \overline{c}\rangle$ is the [[field bundle]] for the _[[antighost field]]_.
-
-**Beware** there is _no_ relation between
-
-* "antifield of the ghost field" $c^\ddagger$
-
-* "antighost field" $\overline{c}$.
-
-In particular there is also the "antifield of the antighost field" $\overline{c}^\ddagger \coloneqq (\overline{c})^\ddagger$.
-
-The terminology and notation is unfortunate but entirely established.
-
-
-
-The corresponding product [[BV-BRST complex]] [[quasi-isomorphism|quasi-isomorphic]] to the original one
-
-$$
-  \left(
-    E/(\mathcal{G} \times_\Sigma T \Sigma)
-  \right)_{d L \simeq 0} \times_\Sigma NL
-$$
-
+The corresponding [[BV-BRST complex]] with [[auxiliary fields]] adjoined,
+which, by prop. \ref{QuasiIsomorphismAdjoiningAuxiliaryFields}, is [[quasi-isomorphism|quasi-isomorphic]] to the original one above,
 has coordinate generators
 
 $$
@@ -1111,26 +1254,28 @@ $$
   \,.
 $$
 
-and [[BV-BRST differential]]
+and [[BV-BRST differential]] given by the [[local antibracket]] (def. \ref{LocalAntibracket}) with $-\mathbf{L}_{EM} + \mathbf{L}_{BRST} + \mathbf{L}_{aux}$:
 
 $$
   s
   \;=\;
   \left\{
-    - \underset{ = L}{\underbrace{\tfrac{1}{2}f_{\mu \nu} f^{\mu \nu}}}
+    \left(
+    - \underset{ = L_{EM}}{\underbrace{\tfrac{1}{2}f_{\mu \nu} f^{\mu \nu}}}
     +
     \underset{ = L_{BRST} }{\underbrace{ c_{,\mu} (a^\ddagger)^\mu }}
     +
-    \underset{ = L_{NL} }{\underbrace{ b \overline{c}^{\ddagger} }}
+    \underset{ = L_{aux} }{\underbrace{ b \overline{c}^{\ddagger} }}
+    \right)
+    dvol_\Sigma
     \,,\,
     (-)
   \right\}
 $$
 
-We say that the _Nakanishi-Lautrup [[gauge fixing fermion]] for Gaussian averaged [[Lorentz gauge]]_ is
+We say that the [[gauge fixing Lagrangian]] (def. \ref{GaugeFixingLagrangianDensity}) for _Gaussian averaged [[Lorentz gauge]]_ for the [[electromagnetic field]]
 
 $$
-  \label{NLGaugeFixingFermion}
   \mathbf{L}_{gf}
   \;\in\;
   \Omega^{p+1}_\Sigma\left(
@@ -1139,72 +1284,114 @@ $$
   \,.
 $$
 
-given by
+is given by ([Henneaux 90 (103a)](Nakanishi-Lautrup+field#Henneaux90))
 
 $$
-    \mathbf{L}_{gf}
-    \;\coloneqq\;
-    \overline{c}( b + a^{\mu}_{,\mu} )
+  \label{GaugeFixingLagrangianForGaussianAveragedLorentzGauge}
+  \mathbf{L}_{gf}
+  \;\coloneqq\;
+  \underset{deg = -1}{
+  \underbrace{
+    \phantom{A}\overline{c}\phantom{A}
+  }}
+  \underset{deg = 0}{\underbrace{( b - a^{\mu}_{,\mu} )}} \, dvol_\Sigma
+  \,.
 $$
 
-We find from (eq:VacuumEMLagrangianDensityRecalledForNLFields) and (eq:NLGaugeFixingFermion) the [[local antibracket]]
+We find from (eq:VacuumEMLagrangianDensityRecalledForNLFields) and (eq:NLGaugeFixingFermion) the [[local antibracket|local antibrackets]] (def. \ref{LocalAntibracket}) with this [[gauge fixing Lagrangian density]] to be
 
 $$
   \begin{aligned}
-    \left\{\psi\,,\,L_{NL} \right\}
+    \left\{\mathbf{L}_{gf}\,,\,\left( - \mathbf{L}_{EM} + \mathbf{L}_{BRST} +  \mathbf{L}_{aux} \right) \right\}
     & =
     \left\{
-      \overline{c}\left( b + a^\mu_{,\mu}\right)
+      \overline{c}\left( b - a^\mu_{,\mu}\right) \, dvol_\Sigma
       \,,\,
-      -\tfrac{1}{2}f_{\mu \nu}f^{\mu \nu}
-      +
-      c_{,\mu} (a^\ddagger)^\mu
-      +
-      b \overline{c}^\ddagger
+      \left(
+        -\tfrac{1}{2}f_{\mu \nu}f^{\mu \nu}
+        +
+        c_{,\mu} (a^\ddagger)^\mu
+        +
+        b \overline{c}^\ddagger
+      \right)
+      dvol_\Sigma
     \right\}
     \\
     & =
-    b ( b + a^{\mu}_{,\mu} ) - \overline{c}_{,\mu} c^{,\mu}
+    \left\{
+      \overline{c}\left( b - a^\mu_{,\mu}\right) \, dvol_\Sigma
+      \,,\,
+      b \overline{c}^{\ddagger} \, dvol_\Sigma
+    \right\}
+    +
+    \left\{
+      \overline{c}\left( b - a^\mu_{,\mu}\right) \, dvol_\Sigma
+      \,,\,
+      c_{,\mu} (a^{\ddagger})^\mu \, dvol_\Sigma
+    \right\}
+    \\
+    & =
+    -
+    \left(
+       b ( b - a^{\mu}_{,\mu} ) + \overline{c}_{,\mu} c^{,\mu}
+    \right)
+    \, dvol_\Sigma
+    \\
+    \phantom{a}
+    \\
+   \{ \mathbf{L}_{gf}, \{ \mathbf{L}_{gf} , (-\mathbf{L} + \mathbf{L}_{BRST} + \mathbf{L}_{aux}  )\}\}
+   & = 0
   \end{aligned}
-$$
-
-and then
-
-$$
-  \{\psi, \{\psi, L_{NL}\}\} = 0
   \,.
 $$
 
-Therefore the corresponding [[gauge fixing|gauge fixed]] [[Lagrangian density]] is
+Therefore the corresponding [[gauge fixing|gauge fixed]] [[Lagrangian density]] $\mathbf{L}'$ (eq:GaugeFixedLagrangianDensity) is given by
 
 $$
+  \label{GaussianAveragedLorentzianGaugeFixOfElectromagneticFieldOnMinkowskiSpacetime}
   \begin{aligned}
-    \mathbf{L}^g
+    -\mathbf{L}' + \mathbf{L}'_{BRST}
       & \coloneqq
-    \e^{\{\psi,-\}}\mathbf{L}_{NL}
+    \e^{\left\{ \mathbf{L}_{gf} ,-\right\}}\left( -\mathbf{L}_{EM} + \mathbf{L}_{BRST} + \mathbf{L}_{aux}  \right)
     \\
     & =
+    -
+    \underset{
+      = \mathbf{L}'
+    }{
+    \underbrace{
     \left(
       \tfrac{1}{2} f_{\mu \nu} f^{\mu \nu}
        +
-       b ( b + a^{\mu}_{,\mu} ) + \overline{c}_{,\mu} c^{,\mu}
+       b ( b - a^{\mu}_{,\mu} )
+       +
+       \overline{c}_{,\mu} c^{,\mu}
     \right) dvol_\Sigma
+    }
+    }
+    \;+\;
+    \mathbf{L}'_{BRST}
   \end{aligned}
   \,.
 $$
 
-(see also [Henneaux 90, section 9.1](Nakanishi-Lautrup+field#Henneaux90))
+([Henneaux 90 (103b)](Nakanishi-Lautrup+field#Henneaux90)).
 
-The [[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]] induced by this Lagrangian density $\mathbf{L}^g$ (def \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime}) are
-
+The [[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]] (def.
+ \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime})
+induced by the gauge fixed Lagrangian density $\mathbf{L}'$ at antifield degree 0 are (using (eq:ElectromagneticFieldEulerLagrangeForm)):
 
 $$
   \label{LorenzGaugeFixedEOMForVacuumElectromagnetism}
+  \delta_{EL} \mathbf{L}' \;=\; 0
+  \phantom{AAA}
+  \Leftrightarrow
+  \phantom{AAA}
   \left\{
   \begin{aligned}
-    f^{\mu \nu}{}_{,\mu} & =  b^{,\nu}
+    -\frac{d}{d x^\mu} f^{\mu \nu} & =  b^{,\nu}
     \\
-    b & = -\tfrac{1}{2} a^\mu_{,\mu}
+    b & = \tfrac{1}{2} a^\mu_{,\mu}
     \\
     c_{,\mu}{}^{,\mu} & = 0
     \\
@@ -1218,7 +1405,7 @@ $$
   \begin{aligned}
     \Box a_\nu & = 0
     \\
-    b & = - \tfrac{1}{2} div a
+    b & = \tfrac{1}{2} div a
     \\
     \Box c & = 0
     \\
@@ -1227,22 +1414,24 @@ $$
   \right.
 $$
 
-Here on the left we show the equations as the appear directly from the [[Euler-Lagrange variational derivative]]
+([Rejzner 16 (7.15) and (7.16)](Nakanishi-Lautrup+field#Rejzner16)).
+
+Here in the middle we show the equations as the appear directly from the [[Euler-Lagrange variational derivative]]
 (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}).
-The operator $\Box$ on the right is the [[wave operator]] (example \ref{EquationOfMotionOfFreeRealScalarField})
+The [[differential operator]] $\Box = \eta^{\mu \nu} \frac{d}{d x^\mu} \frac{d}{d x^\nu} $ on the right is the [[wave operator]] (example \ref{EquationOfMotionOfFreeRealScalarField})
 and $div$ denotes the [[divergence]].
 The equivalence to the equations on the right follows from using in the first equation the derivative of the second equation
 on the left, which is
 
 $$
-  b^{,\nu} = -\tfrac{1}{2} a^{\mu,\nu}{}_{,\mu}
+  b^{,\nu} = \tfrac{1}{2} a^{\mu,\nu}{}_{,\mu}
   \,,
 $$
 
 and recalling the definition of the universal [[Faraday tensor]] (eq:FaradayTensorJet):
 
 $$
-  f^{\mu \nu}{}_{,\mu}
+  \frac{d}{d x^\mu} f^{\mu \nu}
   =
   \tfrac{1}{2}
   \left(
@@ -1253,7 +1442,13 @@ $$
   \,.
 $$
 
-The [[differential equations]] on the right are manifestly a system of [[normally hyperbolic differential operator|normally hyperbolic]] [[differential equations]], hence of [[Green hyperbolic differential equations]] (def. \ref{GreenHyperbolicDifferentialOperator}), as opposed to the plain [[Maxwell equations]] on [[Minkowski spacetime]] $\frac{d}{d x^\mu} f^{\mu \nu} = 0$ (see also [Rejzner 16, section 7.2](Nakanishi-Lautrup+field#Rejzner16)).
+
+The [[differential equations]] on the right are manifestly a system of [[normally hyperbolic differential operator|normally hyperbolic]] [[differential equations]], hence of [[Green hyperbolic differential equations]] (def. \ref{GreenHyperbolicDifferentialOperator}),
+hence admit [[Cauchy surfaces]] (def. \ref{CauchySurface}); as opposed to the plain [[Maxwell equations]] on [[Minkowski spacetime]] $\frac{d}{d x^\mu} f^{\mu \nu} = 0$.
+
+Therefore (eq:GaussianAveragedLorentzianGaugeFixOfElectromagneticFieldOnMinkowskiSpacetime) indeed is a [[gauge fixing]] of
+the [[Lagrangian density]] of the [[electromagnetic field]] on [[Minkowski spacetime]] according to def. \ref{GaugeFixingLagrangianDensity}.
+
 
 
 =--
