@@ -1355,9 +1355,10 @@ Consider the [[Lagrangian field theory]] of [[free field|free]] [[electromagneti
 The [[Euler-Lagrange variational derivative]] is
 
 $$
+  \label{ElectromagneticFieldEulerLagrangeForm}
   \delta_{EL} \mathbf{L}
   \;=\;
-  f^{\mu \nu}_{,\mu} \delta a_\nu
+  - f^{\mu \nu}_{,\mu} \delta a_\nu
   \,.
 $$
 
@@ -1446,6 +1447,7 @@ $$
   \begin{aligned}
   \delta_{EL}\mathbf{L}
   & =
+  -
   \left(
     f^{\mu \nu \alpha}_{,\mu} 
     + 
