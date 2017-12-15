@@ -83,7 +83,7 @@ A classical instance of gauge fixing is when $X=\tilde{X}//G$ is an action group
 
 ## References
 
-Discussion in [[BV-BRST formalism]] includes
+Discussion in [[BV-BRST formalism]] via [[gauge fixing Lagrangian densities]] includes
 
 
 * {#Henneaux90} [[Marc Henneaux]], from section 8.2 on in _Lectures on the Antifield-BRST formalism for gauge theories_, Nuclear Physics B (Proceedings Supplement) 18A (1990) 47-106 ([pdf](http://www.math.uni-hamburg.de/home/schweigert/ws07/henneaux2.pdf))
