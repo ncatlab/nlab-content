@@ -1,3 +1,4 @@
+[[!redirects Max New]]
 
 * [webpage](http://maxsnew.github.io/)
 
