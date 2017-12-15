@@ -1105,8 +1105,9 @@ $$
 
 As a corollary of prop. \refDerivedCriticalLocusOfActionLiAlgebroidBicomplexStructure{} we obtain the generalization of example \ref{OrdinaryCriticalLocusAsCohomologyOfDerivedCriticalLocus} to non-trivial $\mathfrak{g}$-actions:
 
-+-- {: .num_prop}
++-- {: .num_prop #CochainCohomologyOfBVBRSTComplexInDegreeZero}
 ###### Proposition
+**([[cochain cohomology]] of [[BV-BRST complex]] in degree 0 is the [[invariant]] function on the [[critical locus]])**
 
 Let $(X/\mathfrak{g})_{d S \simeq 0}$ be a [[derived critical locus]] inside an [[action Lie algebroid]] as in example \ref{ArchetypeOfBVBRSTComplex}.
 
