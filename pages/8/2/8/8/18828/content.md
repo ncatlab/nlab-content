@@ -171,194 +171,17 @@ $\,$
 In practice this choice of gauge fixing by choice of quasi-isomorphism to a "manifestly covariant" [[BV-BRST complex]]
 is realized as the composite of two seperate quasi-isomorphisms:
 
-1. an "anti-canonical transformation"
+1. adjoining a [[contractible chain complex|contractible BV-complex]] of [[auxiliary fields]] (def. \ref{AuxiliaryFields} and prop. \ref{QuasiIsomorphismAdjoiningAuxiliaryFields} below)
 
-   $$
-     e^{-\{\psi,-\}} \;\colon\; BV(s^g) \longrightarrow BV( \exp^{-\{\psi,-\}} s^g )
-   $$
-
-   (induced by a degree -1 element $\psi$ called, for better or worse, the "[[gauge fixing fermion]]")
-  which is actually a genuine [[isomorphism]], not just a [[quasi-isomorphism]];
-
-
-1. a genuine [[quasi-isomorphism]] which contracts away a [[contractible space|contractible]] [[direct sum|direct summand]]
-   of [[auxiliary fields]]
-
-   $$
-     BV( e^{-\{\psi,-\}} s^g ) \overset{ \text{forget contractible complex} \atop \text{of auxiliary fields} }{\longrightarrow}  BV(s) .
-   $$
+1. an [[local antibracket|anti-]][[Hamiltonian flow]] that re-identifies [[field (physics)|fields]], [[ghost fields]] and [[auxiliary fields]] (prop. \ref{ExponentialOfLocalAntibracket} below).
 
 $\,$
 
 We now discuss these topics:
 
-1. _[Cohomological characterization of the obstruction to the covariant phase space](#CohomologicalCharacterizationOfTheObstructionToTheCovariantPhaseSpace)_
-
 1. _[Quasi-isomorphisms between BV-BRST complexes](#QuasiIsomorphismsBetweenBVBRSTComplexes)_
 
-1. _[Examples](#Examples)_
-
-$\,$
-
-**cohomological characterization of the [[obstruction]] to the [[covariant phase space]]**
- {#CohomologicalCharacterizationOfTheObstructionToTheCovariantPhaseSpace}
-
-Proposition \ref{NonTrivialImplicitInfinitesimalGaugeSymmetriesPbstructExistenceOfCauchySurfaces} implies
-that we need a good handle on determining whether the space of non-trivial
-compactly supported [[infinitesimal symmetries of the Lagrangian]] modulo trivial ones is non-zero. This
-[[obstruction]] turns out to be neatly captured by methods of [[homological algebra]]
-applied to the [[local BV-complex]] (def. \ref{BVComplexOfOrdinaryLagrangianDensity}):
-
-+-- {: .num_example #InterpretationCohomologyOfBVComplex}
-###### Example
-**([[cochain cohomology]] of [[local BV-complex]])**
-
-Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
-whose [[field bundle]] $E$ is a [[trivial vector bundle]] (example \ref{TrivialVectorBundleAsAFieldBundle}) and whose [[Lagrangian density]] $\mathbf{L}$ is spacetime-independent (example \ref{ShellForSpacetimeIndependentLagrangians}),
-and let $\Sigma \times \{\varphi\} \hookrightarrow \mathcal{E}$ be a constant section of the shell (eq:ConstantSectionOfTrivialShellBundle).
-
-By inspection we find that the [[cochain cohomology]] of the local [[BV-complex]]
-$\Omega^{0,0}_{\Sigma,cp}(E,\varphi)\vert_{\mathcal{E}_{BV}}$ (def. \ref{BVComplexOfOrdinaryLagrangianDensity}) has the following interpretation:
-
-In degree 0 the [[image]] of the [[BV-differential]] coming from degree -1 and modulo $d$-exact terms
-
-$$
-  im\left( \Gamma_{\Sigma,cp}(J^\infty_\Sigma T_\Sigma(E,\varphi)) \overset{s_{BV}}{\to} \Omega^{0,0}_\Sigma(E,\varphi)/im(d) \right)
-$$
-
-is the ideal of functions modulo $im(d)$ that vanish [[on-shell]]. Since the differential going _from_ degree 0 to degree 1 vanishes,
-the [[cochain cohomology]] in this degree is the [[quotient ring]]
-
-$$
-  \begin{aligned}
-    H^0\left(\Omega^{0,0}_{\Sigma,cp}(E,\varphi)\vert_{\mathcal{E}_{BV}}\vert d\right)
-      & \simeq
-    \Omega^{0,0}_{\Sigma,cp}(E,\varphi)\vert_{\mathcal{E}}/im(d)
-  \end{aligned}
-$$
-
-of functions on the [[shell]] $\mathcal{E}$ (eq:ObservablesOnInfinitesimalNeighbourhoodOfZeroInShellInFieldFiber).
-
-In degree -1 the [[kernel]] of the [[BV-differential]] going to degree 0
-
-$$
-  ker\left( \Gamma_{\Sigma,cp}(J^\infty_\Sigma T_\Sigma(E,\varphi)) \overset{s_{BV}}{\to} \Omega^{0,0}_\Sigma(E,\varphi)\right)
-$$
-
-is the space of implicit [[infinitesimal gauge symmetries]] (def. \ref{ImplicitInfinitesimalGaugeSymmetry})
-and the [[image]] of the differential coming from degree -2
-
-$$
-  im\left(
-    \Gamma_{\Sigma,cp}(J^\infty_\Sigma T_\Sigma E,\varphi)
-       \wedge_{\Omega^{0,0}_{\Sigma,cp}(E,\varphi)}
-    \Gamma_{\Sigma,cp}(J^\infty_\Sigma T_\Sigma E,\varphi)
-      \overset{s_{BV}}{\longrightarrow}
-    \Gamma_{\Sigma,cp}(J^\infty_\Sigma T_\Sigma E,\varphi)
-  \right)
-$$
-
-is the trivial implicit infinitesimal gauge transformations (example \ref{TrivialImplicialInfinitesimalGaugeTransformations}).
-
-Therefore the [[cochain cohomology]] in degree -1 is the [[quotient space]] of implicit infinitesimal gauge transformations
-modulo the trivial ones:
-
-$$
-  \label{NegativeOneCohomologyBV}
-  H^{-1}\left( \Omega^{0,0}_\Sigma(E,\varphi)\vert_{\mathcal{E}_{BV}} \right)
-    \simeq
-  \frac{
-    \left\{
-      \text{implicit infinitesimal gauge transformations}
-    \right\}
-  }
-  {
-    \left\{
-      \text{ trivial implicit infinitesimal gauge transformations}
-    \right\}
-  }
-$$
-
-=--
-
-
-
-+-- {: .num_prop #BVComplexIsHomologicalResolutionPreciselyIfNoNonTrivialImplicitGaugeSymmetres}
-###### Proposition
-**(local [[BV-complex]] is [[homological resolution]] of the [[shell]] precisely if there are no non-trivial compactly supported [[infinitesimal symmetries of the Lagrangian]])**
-
-Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
-whose [[field bundle]] $E$ is a [[trivial vector bundle]] (example \ref{TrivialVectorBundleAsAFieldBundle}) and whose [[Lagrangian density]] $\mathbf{L}$ is spacetime-independent (example \ref{ShellForSpacetimeIndependentLagrangians})
-and let $\Sigma \times \{\varphi\} \hookrightarrow \mathcal{E}$ be a constant section of the shell (eq:ConstantSectionOfTrivialShellBundle).
-Furthermore assume that $\mathbf{L}$ is at least quadratic in the vertical coordinates around $\varphi$.
-
-Then the local [[BV-complex]] $\Omega^{0,0}_\Sigma(E,\varphi)\vert_{\mathcal{E}_{BV}}$ of local observables (def. \ref{BVComplexOfOrdinaryLagrangianDensity}) is a [[homological resolution]] of the algebra of functions on the [[infinitesimal neighbourhood]] of $\varphi$ in the [[shell]] (example \ref{ShellForSpacetimeIndependentLagrangians}),
-hence the canonical comparison morphisms (eq:ComparisonMorphismFromOrdinaryBVComplexToLocalObservables)
-is a [[quasi-isomorphism]]
-precisely if there is no non-trivial (example \ref{TrivialImplicialInfinitesimalGaugeTransformations}) implicit [[infinitesimal gauge symmetry]] (def. \ref{ImplicitInfinitesimalGaugeSymmetry}):
-
-$$
-  \left(
-    \Omega^{0,0}_{\Sigma}(E,\varphi)\vert_{\mathcal{E}_{BV}}
-      \overset{\simeq}{\longrightarrow}
-    \Omega^{0,0}_{\Sigma}(E,\varphi)\vert_{\mathcal{E}}
-  \right)
-  \;\Leftrightarrow\;
-  \left(
-    \array{
-      \text{there are no non-trivial}
-      \\
-      \text{compactly supported infinitesimal symmetries}
-    }
-  \right)
-  \,.
-$$
-
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-By example \ref{InterpretationCohomologyOfBVComplex} the vanishing of compactly supported infinitesimal symmetries
-is equivalent to the vanishing of the cochain cohomology of the local BV-complex in degree -1 (eq:NegativeOneCohomologyBV).
-
-Therefore the statement to be proven is
-equivalently that the [[Koszul complex]] of the sequence of elements
-
-$$
-  \left(
-    \frac{\delta_{EL} L}{\delta \phi^a} \in \Omega^{0,0}_{\Sigma,\varphi}(E)
-  \right)_{a = 1}^s
-$$
-
-is a [[homological resolution]] of $\Omega^{0,0}_\Sigma(E,\varphi)\vert_{\mathcal{E}}$, hence has vanishing cohomology in all negative degrees,
-already if it has vanishing cohomology in degree -1.
-
-By a standard fact about [[Koszul complexes]] ([this prop.](Koszul+complex#KoszulResolutionForNoetherianRngAndElementsInJacobson))
-a sufficient condition for this to be the case is that
-
-1. the ring $\Omega^{0,0}_{\Sigma}(E,\varphi)$ is the tensor product of $C^\infty(\Sigma)$ with a [[Noetherian ring]];
-
-1. the elements $\frac{\delta_{EL} L }{\delta \phi^a}$ are contained in its [[Jacobson radical]].
-
-The first condition is the case since $\Omega^{0,0}_{\Sigma}(E,\varphi)$ is by definition a [[formal power series ring]] over a [[field]]
-tensored with $C^\infty(\Sigma)$
-(by [this example](noetherian+ring#PolynomialAlgebraOverNoetherianRingIsNoetherian)).
-Since the Jacobson radical of a power series algebra consists of those elements whose constant term
-vanishes (see [this example](Koszul+complex#KoszulComplexForFormalPowerSeriesAlgebras)),
-the assumption that $\mathbf{L}$ is at least quadratic, hence that $\delta_{EL}\mathbf{L}$
-is at least linear in the fields, guarantees that all $\frac{\delta_{EL}L}{\delta \phi^a}$ are contained
-in the Jacobson radical.
-
-=--
-
-Prop. \ref{BVComplexIsHomologicalResolutionPreciselyIfNoNonTrivialImplicitGaugeSymmetres}
-says what [[gauge fixing]] has to accomplish: given a [[local BV-BRST complex]] we need
-to find a [[quasi-isomorphism]] to another complex which is such that it comes from a
-_graded_ Lagrangian density whose BV-cohomology vanishes in degree -1
-and hence induces a graded covariant phase space, and such that
-the remaining BRST differential respects the Poisson bracket on this graded covariant phase space.
+1. _[Examples](#GaugeFixingExamples)_
 
 
 $\,$
@@ -692,13 +515,129 @@ Here "fermion" is meant as a reference to the fact that the cohomological degree
 
 =--
 
++-- {: .num_example #GaugeFixingViaAntiLagrangianSubspaces}
+###### Example
+**([[gauge fixing]] via [[local antibracket|anti-]][[Lagrangian subspaces]])**
+
+
+
+Let $\mathbf{L}_{gf}$ be a [[gauge fixing Lagrangian density]] as in def. \ref{GaugeFixingLagrangianDensity}
+such that
+
+1. its [[local antibracket]]-square vanishes 
+
+   $$
+     \left\{ \mathbf{L}_{gf},\, \left\{ \mathbf{L}_{gf}, \, -\right\} \right\} = 0
+   $$
+   
+   hence its [[local antibracket|anti-]][[Hamiltonian flow]] has at most a linear component in its argument $\mathbf{A}$:
+   
+   $$
+     e^{\left\{ \mathbf{L}_{gf} \,,\, \mathbf{A}  \right\}}
+     \;=\;
+     \mathbf{A} + \left\{ \mathbf{L}_{gf} \,,\, \mathbf{A}  \right\}
+   $$
+
+1. it is independent of the [[antifields]]
+
+   $$
+     deg_{af}\left( L_{gf} \right) \;=\; 0
+     \,.
+   $$
+
+Then with 
+
+* $(\phi^A)$ collectively denoting all the [[field (physics)|field]] coordinates
+
+  (including the actual fields $\phi^a$, the [[ghost fields]] $c^\alpha$ as well as possibly further [[auxiliary fields]])
+
+* $(\phi^\ddagger_A)$ collectively denoting all the [[antifield]] coordinates
+
+  (includion the antifields $\phi^\ddagger_a$ of the actual fields, the antifields $c^\ddagger_\alpha$ of the [[ghost fields]] as well as those of possibly further [[auxiliary fields]] )
+
+we have 
+
+$$
+  \begin{aligned}
+    (\phi')^A 
+    & \coloneqq
+    e^{\left\{ \mathbf{L}_{gf}\,,\, - \right\}}(\phi^A)
+    \\
+    & = \phi^A
+    \\
+    \phantom{A}
+    \\
+    (\phi')^\ddagger_A
+    & \coloneqq
+    e^{\left\{ \mathbf{L}_{gf}\,,\, - \right\}}
+    \left( \phi^\ddagger_A \right)
+    \\
+    &  =
+    \phi^\ddagger_A - \frac{\overset{\leftarrow}{\delta}_{EL} \mathbf{L}_{gf}}{\delta \phi^a}
+  \end{aligned}
+$$
+
+(and similarly for the higher jets); and the corresponding transformed [[Lagrangian density]] (eq:GaugeFixedLagrangianDensity)
+may be written as
+
+$$
+  \begin{aligned}
+    -\mathbf{L}' +  \mathbf{L}'_{BRST}
+    & \coloneqq
+    e^{\left\{ \mathbf{L}_{gf}\,,\, - \right\}}\left( -\mathbf{L} + \mathbf{L}_{BRST} \right)
+    \\
+    & = 
+    \left(
+      -\mathbf{L}
+      +
+      \mathbf{L}_{BRST}
+    \right)
+    \left( \phi', (\phi')^\ddagger  \right)
+  \end{aligned}
+  \,,
+$$
+
+where the notation on the right denotes that $\phi'$ is [[substitution|substituted]] for $\phi$ and $\phi'_\ddagger$ for $\phi_\ddagger$.
+ 
+This means that the defining condition that $\mathbf{L}'$ be the antifield-independent summand (eq:GaugeFixedLagrangianDensity), which we may write as
+
+$$
+  \mathbf{L}' 
+  \coloneqq
+  \left(
+    -\mathbf{L}
+    +
+    \mathbf{L}_{BRST}
+  \right)
+  \left( \phi'(\phi), \phi_\ddagger = 0  \right) 
+$$
+
+translates into
+
+$$
+  \mathbf{L}'
+  \coloneqq
+  \left(
+    -\mathbf{L}
+    +
+    \mathbf{L}_{BRST}
+  \right)
+  \left( \phi', (\phi')^\ddagger_A  = -\frac{\overset{\leftarrow}{\delta}_{EL} L_{gf}}{\delta \phi^A}  \right)
+  \,.
+$$
+
+In this form BV-gauge fixing is considered traditionally 
+(e.g. [Hennaux 90, section 8.3, page 83, equation (76b) and item (iii)](gauge+fixing#Henneaux90)).
+ 
+=--
+
 $\,$
 
 
-Typically a [[Lagrangian field theory]] $(E,\mathbf{L})$ for given choice of [[field bundle]], even after finding appropriate [[gauge parameter bundles]] $\mathcal{G}$ does not admit a [[gauge fixing Lagrangian density]].  But if the [[gauge parameter bundle]] has been
-chosen properlysuitably, then the remaining problem vanishes "up to [[homotopy]]" in that the [[gauge fixing Lagrangian density]]
-does exist if only one adjoins sufficiently many [[auxiliary fields]] without changing the [[cochain cohomology]] of
-the [[BV-BRST complex]]:
+Typically a [[Lagrangian field theory]] $(E,\mathbf{L})$ for given choice of [[field bundle]], even after finding appropriate [[gauge parameter bundles]] $\mathcal{G}$ does not yet admit a [[gauge fixing Lagrangian density]] (def. \ref{GaugeFixingLagrangianDensity}).  
+But if the [[gauge parameter bundle]] has been
+chosen suitably, then the remaining [[obstruction]] vanishes "up to [[homotopy]]" in that a [[gauge fixing Lagrangian density]]
+does exist if only one adjoins sufficiently many [[auxiliary fields]] forming a [[contractible chain complex|contractible complex]], hence without changing the [[cochain cohomology]] of the [[BV-BRST complex]]:
 
 +-- {: .num_defn #AuxiliaryFields}
 ###### Definition
@@ -997,8 +936,8 @@ is indeed a [[differential]]; such that its [[cochain cohomology]] is identified
 
 $\,$
 
-**Examples**
- {#Examples}
+**Examples of gauge fixing of Lagrangian field theories**
+ {#GaugeFixingExamples}
 
 +-- {: .num_example #NLGaugeFixingOfElectromagnetism}
 ###### Example
@@ -1117,7 +1056,7 @@ $$
   \,.
 $$
 
-In the present context the [[auxiliary field]] $b$ is called the _[[Nakanishi-Lautrup field]]_.
+In the present context the [[auxiliary field]] $b$ is called the _[[abelian Lie algebra|abelian]] [[Nakanishi-Lautrup field]]_.
 
 The corresponding [[BV-BRST complex]] with [[auxiliary fields]] adjoined,
 which, by prop. \ref{QuasiIsomorphismAdjoiningAuxiliaryFields}, is [[quasi-isomorphism|quasi-isomorphic]] to the original one above,
@@ -1157,7 +1096,7 @@ $$
   \right\}
 $$
 
-We say that the [[gauge fixing Lagrangian]] (def. \ref{GaugeFixingLagrangianDensity}) for _Gaussian averaged [[Lorentz gauge]]_ for the [[electromagnetic field]] 
+We say that the [[gauge fixing Lagrangian]] (def. \ref{GaugeFixingLagrangianDensity}) for _Gaussian averaged [[Lorentz gauge]]_ for the [[electromagnetic field]]
 
 $$
   \mathbf{L}_{gf}
@@ -1205,7 +1144,7 @@ $$
     \left\{
       \overline{c}\left( b - a^\mu_{,\mu}\right) \, dvol_\Sigma
       \,,\,
-      b \overline{c}^{\ddagger} \, dvol_\Sigma      
+      b \overline{c}^{\ddagger} \, dvol_\Sigma
     \right\}
     +
     \left\{
@@ -1223,11 +1162,12 @@ $$
     \\
     \phantom{a}
     \\
-   \{ \mathbf{L}_{gf}, \{ \mathbf{L}_{gf} , (-\mathbf{L} + \mathbf{L}_{BRST} + \mathbf{L}_{aux}  )\}\} 
+   \{ \mathbf{L}_{gf}, \{ \mathbf{L}_{gf} , (-\mathbf{L} + \mathbf{L}_{BRST} + \mathbf{L}_{aux}  )\}\}
    & = 0
   \end{aligned}
-  \,.
 $$
+
+(So we are in the traditional situation of example \ref{GaugeFixingViaAntiLagrangianSubspaces}.)
 
 Therefore the corresponding [[gauge fixing|gauge fixed]] [[Lagrangian density]] $\mathbf{L}'$ (eq:GaugeFixedLagrangianDensity) is given by
 
@@ -1247,8 +1187,8 @@ $$
     \left(
       \tfrac{1}{2} f_{\mu \nu} f^{\mu \nu}
        +
-       b ( b - a^{\mu}_{,\mu} ) 
-       + 
+       b ( b - a^{\mu}_{,\mu} )
+       +
        \overline{c}_{,\mu} c^{,\mu}
     \right) dvol_\Sigma
     }
@@ -1298,40 +1238,26 @@ $$
   \right.
 $$
 
-Here in the middle we show the equations as the appear directly from the [[Euler-Lagrange variational derivative]]
+([Rejzner 16 (7.15) and (7.16)](Nakanishi-Lautrup+field#Rejzner16)).
+
+(Here in the middle we show the equations as the appear directly from the [[Euler-Lagrange variational derivative]]
 (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}).
 The [[differential operator]] $\Box = \eta^{\mu \nu} \frac{d}{d x^\mu} \frac{d}{d x^\nu} $ on the right is the [[wave operator]] (example \ref{EquationOfMotionOfFreeRealScalarField})
 and $div$ denotes the [[divergence]].
 The equivalence to the equations on the right follows from using in the first equation the derivative of the second equation
-on the left, which is
-
-$$
-  b^{,\nu} = \tfrac{1}{2} a^{\mu,\nu}{}_{,\mu}
-  \,,
-$$
-
+on the left, which is $b^{,\nu} = \tfrac{1}{2} a^{\mu,\nu}{}_{,\mu}$
 and recalling the definition of the universal [[Faraday tensor]] (eq:FaradayTensorJet):
+$\frac{d}{d x^\mu} f^{\mu \nu} = \tfrac{1}{2} \left( a^{\nu,\mu}{}_{,\mu} - a^{\mu,\nu}{}_{,\mu} \right)$.)
 
-$$
-  \frac{d}{d x^\mu} f^{\mu \nu}
-  =
-  \tfrac{1}{2}
-  \left(
-    a^{\nu,\mu}{}_{,\mu}
-    -
-    a^{\mu,\nu}{}_{,\mu}
-  \right)
-  \,.
-$$
 
-([Rejzner 16, section 7.2](Nakanishi-Lautrup+field#Rejzner16)).
+Now the [[differential equations]] for [[gauge fixing|gauge-fixed]] [[electromagnetism]] on the right in (eq:LorenzGaugeFixedEOMForVacuumElectromagnetism) are
+nothing but the [[wave equations]] [[equations of motion|of motion]] of $(p+1) + 1 + 1$ [[free field theory|free]] [[mass|massless]] [[scalar fields]] (example \ref{EquationOfMotionOfFreeRealScalarField}).
 
-The [[differential equations]] on the right are manifestly a system of [[normally hyperbolic differential operator|normally hyperbolic]] [[differential equations]], hence of [[Green hyperbolic differential equations]] (def. \ref{GreenHyperbolicDifferentialOperator}),
-hence admit [[Cauchy surfaces]] (def. \ref{CauchySurface}); as opposed to the plain [[Maxwell equations]] on [[Minkowski spacetime]] $\frac{d}{d x^\mu} f^{\mu \nu} = 0$.
+As such, by example \ref{GreenHyperbolicKleinGordonEquation} they are a system of [[Green hyperbolic differential equations]] (def. \ref{GreenHyperbolicDifferentialOperator}),
+hence admit [[Cauchy surfaces]] (def. \ref{CauchySurface}).
 
-Therefore (eq:GaussianAveragedLorentzianGaugeFixOfElectromagneticFieldOnMinkowskiSpacetime) indeed is a [[gauge fixing]] of 
+Therefore (eq:GaussianAveragedLorentzianGaugeFixOfElectromagneticFieldOnMinkowskiSpacetime) indeed is a [[gauge fixing]] of
 the [[Lagrangian density]] of the [[electromagnetic field]] on [[Minkowski spacetime]] according to def. \ref{GaugeFixingLagrangianDensity}.
-
 
 
 =--
