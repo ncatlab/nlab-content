@@ -1124,6 +1124,8 @@ A quantitative analysis showing that locally supersymmetric [[spacetime]] theori
 
 * Pran Nath, _Supersymmetry after the Higgs_ ([arXiv:1501.01679](http://arxiv.org/abs/1501.01679))
 
+* Nathaniel Craig, _The State of Supersymmetry after Run I of the LHC_ ([arXiv:1309.0528](https://arxiv.org/abs/1309.0528))
+
 Remembering that there is a considerable difference between global low energy supersymmetry and local higher energy supersymmetry aka [[supergravity]]:
 
 * {#Duff04} [[Michael Duff]], _Erice lectures on "The status of local supersymmetry"_ ([arXiv:hep-th/0403160](http://arxiv.org/abs/hep-th/0403160))
