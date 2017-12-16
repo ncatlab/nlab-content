@@ -20,14 +20,14 @@
 
 ## Idea
 
-A **De Morgan topos** $\mathcal{E}$ is a middle thing between a [[Boolean topos]] with a [[classical logic|classical internal logic]] and a general [[topos]] with an [[intuitionistic logic|intuitionistic internal logic]], in that the lattices of [[subobjects]] in $\mathcal{E}$ obey a weak form of the [[law of excluded middle]] which defines a [[De Morgan algebra]].
+A **De Morgan topos** $\mathcal{E}$ is a middle thing between a [[Boolean topos]] with a [[classical logic|classical internal logic]] and a general [[topos]] with an [[intuitionistic logic|intuitionistic internal logic]], in that the lattices of [[subobjects]] in $\mathcal{E}$ obey a weak form of the [[law of excluded middle]] which defines a [[De Morgan Heyting algebra]].
 
 The de Morgan property has many equivalent formulations and many facets making the class of de Morgan toposes an important one in [[topos theory]]. From the perspective on toposes as generalized spaces they correspond to _extremally disconnected spaces_ in [[topology]].
 
 
 ## Definition
 
-A topos $\mathcal{E}$ is called a __De Morgan topos__ if its [[subobject classifier]] $\Omega$ is an internal [[De Morgan algebra]].
+A topos $\mathcal{E}$ is called a __De Morgan topos__ if its [[subobject classifier]] $\Omega$ is an internal [[De Morgan Heyting algebra]].
 
 
 ## Examples
@@ -61,7 +61,7 @@ Let $\mathcal{E}$ be a topos. The following are equivalent:
 
 * For every subobject $X\rightarrowtail Y$: $\neg X\vee\neg\neg X=Y$.
 
-* $Sub(X)$ is a De Morgan algebra for every $X\in\mathcal{E}$.
+* $Sub(X)$ is a De Morgan Heyting algebra for every $X\in\mathcal{E}$.
 
 * The canonical monomorphism $(\top,\bot):1\coprod 1\rightarrowtail\Omega_{\neg\neg}$ to the subobject classifier of $Sh_{\neg\neg}(\mathcal{E})$ is an isomorphism.
 
@@ -76,7 +76,7 @@ Let $\mathcal{E}$ be a topos. The following are equivalent:
 * $\bot:1\to\Omega$ has a [[complement]].
 =--
 
-The first few equivalences are based mainly on the validity of the "law of excluded middle" for elements of the form $\neg a$ in any [[De Morgan algebra]]. For the rest see e.g. [Johnstone (2002, pp.999-1000)](#Johnstone).
+The first few equivalences are based mainly on the validity of the "law of excluded middle" for elements of the form $\neg a$ in any [[De Morgan Heyting algebra]]. For the rest see e.g. [Johnstone (2002, pp.999-1000)](#Johnstone).
 
 
 ## Properties
@@ -166,7 +166,7 @@ This result appears without proof in [Harun (1976, p.73)](#Harun96) where it is 
 ## Related entries
 
 * [[De Morganization]]
-* [[De Morgan algebra]]
+* [[De Morgan Heyting algebra]]
 * [[Ore condition]]
 * [[double negation]]
 * [[Boolean topos]]
