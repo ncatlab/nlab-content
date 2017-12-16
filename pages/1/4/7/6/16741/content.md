@@ -105,7 +105,7 @@ Conversely, assume all $\mathcal{F}\to\mathcal{E}$ are m-skeletal. Then the surj
 
 * [[De Morgan topos]]
 
-* [[De Morgan algebra]]
+* [[De Morgan Heyting algebra]]
 
 * [[double negation]]
 
