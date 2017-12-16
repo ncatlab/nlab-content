@@ -1,7 +1,7 @@
 ## Reduced phase space
  {#ReducedPhaseSpace}
 
-For a [[Lagrangian field theory]] with [[infinitesimal gauge symmetries]], the _[[reduced phase space]]_ is the [[quotient]] of the [[shell]] (the [[solution]]-locus of the [[equations of motion]]) by the [[action]] of the [[gauge symmetries]]; or rather it is the combined _[[homotopy quotient]]_ by the [[gauge symmetries]] and its [[homotopy intersection]] with the [[shell]]. Passing to the [[reduced phase space]] may lift the [[obstruction]] for a [[gauge theory]] to have a [[covariant phase space]] and hence a [[quantization]].
+For a [[Lagrangian field theory]] with [[infinitesimal gauge symmetries]], the _[[reduced phase space]]_ is the [[quotient]] of the [[shell]] (the [[solution]]-locus of the [[equations of motion]]) by the [[action]] of the [[gauge symmetries]]; or rather it is the combined _[[homotopy quotient]]_ by the [[gauge symmetries]] and its _[[homotopy intersection]]_ with the [[shell]]. Passing to the [[reduced phase space]] may lift the [[obstruction]] for a [[gauge theory]] to have a [[covariant phase space]] and hence a [[quantization]].
 
 The [[higher differential geometry]] of [[homotopy quotients]] and [[homotopy intersections]] is is usefully modeled by tools from [[homological algebra]], here known as the _[[BV-BRST complex]]_.
 
@@ -739,7 +739,7 @@ $$
 Moreover, on these generators the CE-differential is given by
 
 $$
-  \label{ExplitiCEDifferentialInCotangentBundleOfActionLieAlgebroid}
+  \label{ExplicitCEDifferentialInCotangentBundleOfActionLieAlgebroid}
   \array{
     & d_{CE\left((X/\mathfrak{g})_{d S \simeq 0}\right)}
     \\
@@ -862,7 +862,7 @@ In order to generalize the statement of example \ref{OrdinaryCriticalLocusAsCoho
 ###### Proposition
 **([[Chevalley-Eilenberg algebra]] of [[derived critical locus]] is [[total complex]] of [[BV-BRST formalism|BV-BRST]] [[bicomplex]])**
 
-Let $(X/\mathfrak{g})_{d S \simeq 0}$ be a [[derived critical locus]] inside an [[action Lie algebroid]] as in example \ref{ArchetypeOfBVBRSTComplex}. Then its [[Chevalley-Eilenberg differential]] (eq:ExplitiCEDifferentialInCotangentBundleOfActionLieAlgebroid) may be decomposed as the sum of two anti-commuting differential
+Let $(X/\mathfrak{g})_{d S \simeq 0}$ be a [[derived critical locus]] inside an [[action Lie algebroid]] as in example \ref{ArchetypeOfBVBRSTComplex}. Then its [[Chevalley-Eilenberg differential]] (eq:ExplicitCEDifferentialInCotangentBundleOfActionLieAlgebroid) may be decomposed as the sum of two anti-commuting differential
 
 $$
   d_{CE\left( (X/\mathfrak{g})_{d S \simeq 0}  \right)}
@@ -873,7 +873,7 @@ $$
 which are defined on the generators of the [[Chevalley-Eilenberg algebra]] as follows:
 
 $$
-  \label{ExplitiCEDifferentialInCotangentBundleOfActionLieAlgebroid}
+  \label{ExplicitBVandBRSTDifferentialInCotangentBundleOfActionLieAlgebroid}
   \array{
     & s_{BV}
     \\
@@ -892,14 +892,9 @@ $$
     c^\ddagger_\alpha
       &\mapsto&
     R_\alpha^a  \phi^\ddagger_a
-  }
-$$
-
-and
-
-$$
-  \label{ExplitiCEDifferentialInCotangentBundleOfActionLieAlgebroid}
-  \array{
+    \\
+    \phantom{A}
+    \\
     & s_{BRST}
     \\
     \phi^a
@@ -1315,7 +1310,7 @@ The power of the [[Schouten bracket]]/[[antibracket]] rests in the fact that it 
 
 Let $(X/\mathfrak{g})_{d S \simeq 0}$ be a [[derived critical locus]] inside an [[action Lie algebroid]] as in example \ref{ArchetypeOfBVBRSTComplex}.
 
-Then the CE-differential (eq:ExplitiCEDifferentialInCotangentBundleOfActionLieAlgebroid) of the [[derived critical locus]] $X/\mathfrak{g}\vert_{S \simeq 0}$ is simply the [[Schouten bracket]]/[[antibracket]] (def. \ref{SchoutenBracketAndAntibracket}) with the [[sum]]
+Then the CE-differential (eq:ExplicitCEDifferentialInCotangentBundleOfActionLieAlgebroid) of the [[derived critical locus]] $X/\mathfrak{g}\vert_{S \simeq 0}$ is simply the [[Schouten bracket]]/[[antibracket]] (def. \ref{SchoutenBracketAndAntibracket}) with the [[sum]]
 
 $$
   \label{BVBRSTFunctionForActionLieAlgebroid}
@@ -1361,7 +1356,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-This is a simple straightforward computation, but we spell it out for illustration of the general principle. The result is to be compared with (eq:ExplitiCEDifferentialInCotangentBundleOfActionLieAlgebroid):
+This is a simple straightforward computation, but we spell it out for illustration of the general principle. The result is to be compared with (eq:ExplicitCEDifferentialInCotangentBundleOfActionLieAlgebroid):
 
 for $\phi^a$:
 
@@ -1547,7 +1542,7 @@ $$
   \end{aligned}
 $$
 
-Hence these values of the [[Schouten bracket]]/[[antibracket]] indeed all agree with the values of the CE-differential from (eq:(eq:ExplitiCEDifferentialInCotangentBundleOfActionLieAlgebroid)).
+Hence these values of the [[Schouten bracket]]/[[antibracket]] indeed all agree with the values of the CE-differential from (eq:ExplicitCEDifferentialInCotangentBundleOfActionLieAlgebroid).
 
 
 =--
@@ -1971,14 +1966,14 @@ $$
 
 are equivalent:
 
-1. forming the [[local antibracket]] (def.  \ref{LocalAntibracket}) with $\mathbf{K}$ is a [[differential]] 
+1. forming the [[local antibracket]] (def.  \ref{LocalAntibracket}) with $\mathbf{K}$ is a [[differential]]
 
    $$
      \left(\left\{ \mathbf{K},-\right\}\right)^2 = 0
      \,,
    $$
 
-1. the [[local antibracket]] (def. \ref{LocalAntibracket}) of $\mathbf{K}$ with itself is a [[total spacetime derivative]]: 
+1. the [[local antibracket]] (def. \ref{LocalAntibracket}) of $\mathbf{K}$ with itself is a [[total spacetime derivative]]:
 
    $$
      \left\{ \mathbf{K}, \mathbf{K}\right\} = d(...)
@@ -2267,7 +2262,7 @@ This is local refinement of example \ref{ArchetypeOfBVBRSTComplex}:
 
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) over [[Minkowski spacetime]] $\Sigma$, and let $\mathcal{G} \overset{gb}{\to} \Sigma$ be a [[gauge parameter bundle]] (def. \ref{GaugeParametrizedInfinitesimalGaugeTransformation}) which is closed (def. \ref{GaugeParametersClosed}).  Assume that both are [[trivial vector bundles]] (example \ref{TrivialVectorBundleAsAFieldBundle}) with field coordinates as in prop. \ref{EulerLagrangeFormIsSectionOfLocalCotangentBundleOfJetBundleGaugeActionLieAlgebroid}.
 
-Then the [[Chevalley-Eilenberg algebra]] of the derived prolonged shell 
+Then the [[Chevalley-Eilenberg algebra]] of the derived prolonged shell
 $(E/( \mathcal{G} \times_\Sigma T \Sigma ))_{\delta_{EL}L \simeq 0}$ (def. \ref{DerivedProlongedShell}) is
 
 $$
@@ -2495,7 +2490,7 @@ $$
     \\
     \left( s_{BRST} \right)^2 = 0 && \text{closure of gauge symmetry}
     \\
-    \left[ s_{BV}, s_{BRST} \right] = 0 && 
+    \left[ s_{BV}, s_{BRST} \right] = 0 &&
     \left\{
     \array{
        \text{ gauge symmetry preserves the shell },
@@ -2629,9 +2624,9 @@ $$
     \\
     & =
     -
-    \gamma^{\alpha'}{}_{\alpha \beta} c^\beta 
+    \gamma^{\alpha'}{}_{\alpha \beta} c^\beta
       \underset{k \in \mathbb{N}}{\sum}
-        (-1)^k \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}} 
+        (-1)^k \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}}
         \left(
           R_{\alpha'}^{a \mu_1 \cdots \mu_k} \phi^\ddagger_a
         \right)
@@ -2647,7 +2642,7 @@ $$
     s_{BRST}
     \left(
         \underset{k \in \mathbb{N}}{\sum}
-          (-1)^k \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}} 
+          (-1)^k \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}}
           \left(
             R_\alpha^{a \mu_1 \cdots \mu_k} \phi^\ddagger_a
           \right)
@@ -2657,7 +2652,7 @@ $$
     R
     \left(
         \underset{k \in \mathbb{N}}{\sum}
-          (-1)^k \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}} 
+          (-1)^k \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}}
           \left(
             R_\alpha^{a \mu_1 \cdots \mu_k} \phi^\ddagger_a
           \right)
@@ -2665,18 +2660,18 @@ $$
     \;-\;
     \left(
         \underset{k \in \mathbb{N}}{\sum}
-          (-1)^k \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}} 
+          (-1)^k \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}}
           \left(
-            R_\alpha^{a \mu_1 \cdots \mu_k} 
+            R_\alpha^{a \mu_1 \cdots \mu_k}
     \left(
-      \underset{q \in \mathbb{N}}{\sum}  
+      \underset{q \in \mathbb{N}}{\sum}
       \frac{\delta_{EL}}{\delta \phi^a}
       \left(
-        c^{\alpha'}_{,\nu_1 \cdots \nu_q} 
-        R_{\alpha'}^{b \nu_1 \cdots \nu_q}        
+        c^{\alpha'}_{,\nu_1 \cdots \nu_q}
+        R_{\alpha'}^{b \nu_1 \cdots \nu_q}
         \phi^\ddagger_b
       \right)
-    \right)    
+    \right)
           \right)
     \right)
     \\
@@ -2684,7 +2679,7 @@ $$
     R
     \left(
         \underset{k \in \mathbb{N}}{\sum}
-          (-1)^k \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}} 
+          (-1)^k \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}}
           \left(
             R_\alpha^{a \mu_1 \cdots \mu_k} \phi^\ddagger_a
           \right)
@@ -2692,19 +2687,19 @@ $$
     \;-\;
     \left(
         \underset{k \in \mathbb{N}}{\sum}
-          (-1)^k \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}} 
+          (-1)^k \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}}
           \left(
-            R_\alpha^{a \mu_1 \cdots \mu_k} 
+            R_\alpha^{a \mu_1 \cdots \mu_k}
     \left(
-      \underset{q,r \in \mathbb{N}}{\sum} 
-      (-1)^{r} 
+      \underset{q,r \in \mathbb{N}}{\sum}
+      (-1)^{r}
       \frac{d^r}{d x^{\rho_1} \cdots d x^{\rho_r}}
       \left(
         c^{\alpha'}_{,\nu_1 \cdots \nu_q}
-        \frac{\partial R_{\alpha'}^{b \nu_1 \cdots \nu_q}}{\partial \phi^a_{,\rho_1 \cdots \rho_r}}         
+        \frac{\partial R_{\alpha'}^{b \nu_1 \cdots \nu_q}}{\partial \phi^a_{,\rho_1 \cdots \rho_r}}
         \phi^\ddagger_b
       \right)
-    \right)    
+    \right)
           \right)
     \right)
     \\
@@ -2721,7 +2716,7 @@ $$
     s_{BV} s_{BRST}
   \right)
   c^\ddagger_\alpha
-  = 
+  =
   0
 $$
 
