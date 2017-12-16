@@ -54,7 +54,7 @@ $$
   \,.
 $$
 
-This is in fact a [[left adjoint]] to the [[direct image]] or restriction functor $F_* : [D^{op}, Set] \to [C^{op}, Set]$ which maps $H \mapsto H \circ F$; see [[restriction and extension of sheaves]].
+This is in fact a [[left adjoint]] to the restriction functor $F_* : [D^{op}, Set] \to [C^{op}, Set]$ which maps $H \mapsto H \circ F$.  This is relevant, for instance, to [[restriction and extension of sheaves]].
 
 ### Formula ###
 
