@@ -19,14 +19,14 @@
 
 ## Idea
 
-A **De Morgan** or **Stone algebra** [^stone] is a [[Heyting algebra]] that satisfies the [[De Morgan laws]], which may be considered a weak form of the [[law of excluded middle]]. The corresponding logic is an interesting intermediate logic between [[intuitionistic logic]] and [[classical logic]].
+A [[Heyting algebra]] is called a **De Morgan Heyting algebra** if it satisfies the [[De Morgan laws]], which may be considered a weak form of the [[law of excluded middle]].  The corresponding [[logic]] is an interesting intermediate logic between [[intuitionistic logic]] and [[classical logic]].
 
-[^stone]: Called a **Stone lattice** as well in the literature on lattice theory.
+De Morgan Heyting algebras are also known as **Stone algebras** or **Stone lattices**.  They are also often called simply **de Morgan algebras**, although that clashes with a different notion; see [[De Morgan algebra]].
 
 
 ## Definition
 
-A [[Heyting algebra]] $M$ that satisfies the following equivalent conditions is called a _De Morgan algebra_:
+A [[Heyting algebra]] $M$ that satisfies the following equivalent conditions is called a _De Morgan Heyting algebra_:
 
 1. For all $a,b \in M$: $\not(a\wedge b) =\not a\vee\not b$. (second **[[De Morgan law]]**)
 
@@ -59,8 +59,8 @@ The dual _first_ De Morgan law $\not (a\vee b) = \not a\wedge\not b$ is valid in
 
 ## Examples
 
-* Every [[Boolean algebra]] is a De Morgan algebra.
-* The [[lattice of open subsets]] of the [[Sierpinski space]] is a De Morgan algebra (assuming a classical metalogic).
+* Every [[Boolean algebra]] is a De Morgan Heyting algebra.
+* The [[lattice of open subsets]] of the [[Sierpinski space]] is a De Morgan Heyting algebra (assuming a classical metalogic).
 
 
 ## Related entries
@@ -82,12 +82,12 @@ The dual _first_ De Morgan law $\not (a\vee b) = \not a\wedge\not b$ is valid in
 * M. E. Szabo, _Categorical De Morgan Laws_ , Alg. Universalis **12** (1981) pp.93-102.
 
 
-[[!redirects De Morgan algebra]]
-[[!redirects de Morgan algebra]]
-[[!redirects de morgan algebra]]
-[[!redirects De Morgan algebras]]
-[[!redirects de Morgan algebras]]
-[[!redirects de morgan algebras]]
+[[!redirects De Morgan Heyting algebra]]
+[[!redirects de Morgan Heyting algebra]]
+[[!redirects de morgan Heyting algebra]]
+[[!redirects De Morgan Heyting algebras]]
+[[!redirects de Morgan Heyting algebras]]
+[[!redirects de morgan Heyting algebras]]
 
 [[!redirects Stone lattice]]
 [[!redirects Stone lattices]]
