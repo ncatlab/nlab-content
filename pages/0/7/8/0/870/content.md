@@ -85,6 +85,8 @@ since every other aspect of the first two lines is already constructively valid,
 
 ## Related concepts
 
+* [[De Morgan Heyting algebra]]
+
 * [[De Morgan algebra]]
 
 * [[excluded middle]]
