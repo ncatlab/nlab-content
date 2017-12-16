@@ -5,7 +5,7 @@
 
 ## Idea
 
-Recall that for [[presheaf|presheaves]] on a [[site]] $X$ with values in a category $A$ that admits small [[limit]]s and small colimits (so in particular for $A =$  [[Set]]), $PSh(X, A) = [S_X^{op}, A]$, every functor $f^t : S_Y \to S_X$ induces three functors of presheaf catgeories:
+Recall that for [[presheaf|presheaves]] on a [[site]] $X$ (with underlying category $S_X$) with values in a category $A$ that admits small [[limit]]s and small colimits (so in particular for $A =$  [[Set]]), $PSh(X, A) = [S_X^{op}, A]$, every functor $f^t : S_Y \to S_X$ induces three functors of presheaf catgeories:
 
 | Notation                                 | | Definition                    |
 | ---------------------------------------- |-| ----------------------------- |
