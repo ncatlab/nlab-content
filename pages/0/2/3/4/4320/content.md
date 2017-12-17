@@ -100,6 +100,47 @@ $$ \array {
    V &          & \longrightarrow &          & A
 } $$
 
+## Examples
+
++-- {: .num_example #SymmetricAlgebraInCoChainComplexes}
+###### Example
+**(symmetric algebra in [[chain complexes]] is [[differential graded-commutative algebra]])**
+
+Let the ambient [[category]] be the [[category of cochain complexes]] over a [[ground field]] of [[characteristic zero]], regarded as a [[symmetric monoidal category]] via the [[tensor product of chain complexes]].
+
+Then for $(V^\bullet, d)$ a [[cochain complex]], the symmetric algebra
+
+$$
+  Sym\left( (V^\bullet, d) \right)
+  \;\in\; CMon( Ch^\bullet, \otimes )
+$$
+
+is the [[differential graded-commutative algebra]] whose underlying [[graded algebra]] is the [[graded-commutative algebra]] on $V^\bullet$, and whose [[differential]] is the original $d$, extended, uniquely, as a graded [[derivation]] of degree +1.
+
+=--
+
+
+## Properties
+
++-- {: .num_prop #CochainCohomologyOfSymmetricAlgebraOnCochainComplex}
+###### Proposition
+
+Let the ambient [[category]] be the [[category of cochain complexes]] over a [[ground field]] of [[characteristic zero]], regarded as a [[symmetric monoidal category]] via the [[tensor product of chain complexes]] and consider the [[differential graded-commutative algebra]] $Sym((V^\bullet,d))$ free on a cochain complex $(V^\bullet,d)$ from example \ref{SymmetricAlgebraInCoChainComplexes}. 
+
+Then the [[cochain cohomology]] (of the [[forgetful functor|underlying]] cochain complex) of $Sym((V^\bullet,d))$ is the graded symmetric algebra on the [[cochain cohomology]] of $(V^\bullet,d)$:
+
+$$
+  H^\bullet\left( 
+    Sym\left((V^\bullet,d)\right)
+  \right)
+  \;\simeq\;
+  Sym\left( H^\bullet(V^\bullet,d) \right)
+  \,.
+$$
+
+=--
+
+This must be a textbook fact. But one reference is [this MO discussion](https://mathoverflow.net/a/91243/381).
 ## Related concepts
 
 * [[symmetric algebra spectrum]]
