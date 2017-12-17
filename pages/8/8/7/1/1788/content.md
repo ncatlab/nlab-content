@@ -1325,7 +1325,7 @@ for $k = (k_\mu) \in (\mathbb{R}^{p,1})^\ast$ the _[[wave vector]]_
 
 for $e = (e^\mu) \in \mathbb{R}^{p,1}$ the _[[wave polarization]]_
 
-The corresponding on-shell observables are given by multiplication with the [[causal propagator]], which in Fourier space is $\delta(k^\mu k_\mu) \theta(k_0)$.
+The corresponding on-shell observables are given by multiplication with the [[causal propagator]], which in Fourier space is $\delta(k^\mu k_\mu) sgn(k_0)$.
 
 {#LinObsBRST} The above BRST differential acts on the Fourier modes of the linear observables as follows
 
@@ -1340,7 +1340,7 @@ $$
      \widehat{\mathbf{B}}(k)  & \text{Nakanishi-Lautrup field}
      \\
      &&& \underset{\text{on-shell}}{=}
-     \tfrac{1}{2} k^\mu \widehat{\mathbf{A}}_\mu(k)
+     \tfrac{i}{2} k^\mu \widehat{\mathbf{A}}_\mu(k)
      &
      \text{Lorenz gauge condition}
     \\
@@ -1348,9 +1348,13 @@ $$
     &
     e^\mu \widehat{\mathbf{A}}_\mu(k)
       &\mapsto&
-    \left(e^\mu k_\mu\right) \widehat{\mathbf{C}}(k)  
+    i \left(e^\mu k_\mu\right) \widehat{\mathbf{C}}(k)  
     &
-    \text{polarization projected on wave vector}
+    \array{
+      \text{polarization contracted with wave vector}
+      \\
+      \text{times ghost field}
+    }
     \\
     \text{Nakanishi-Lautrup field}
     & \widehat{\mathbf{B}}
@@ -1363,21 +1367,43 @@ This means that the BRST cohomology on linear on-shell observables at $deg_{gh} 
 
 
 $$
-  H^0(LinObs(E,\mathbf{L}), s_{BRST})_{deg_{gh} = 0}
-  \;=\;
-  \left\langle
-  \frac{
-    \left\{
-      e^\mu \widehat{\mathbf{A}}_\mu(k) \,\vert \, k^\mu k_\mu = 0 \,\text{and} \, e^\mu k_\mu = 0
-    \right\}
-  }
-  {
-    \left\{
-      e^\mu \widehat{\mathbf{A}}_\mu(k) \,\vert \, k^\mu k_\mu = 0 \,\text{and} \, e^\mu = k^\mu
-    \right\}
-  }
-  \oplus \text{similar expressions at higher jet order}
-  \right\rangle
+  \label{LinearOnShellObservablesGaugeFixedBRSTCohomologyForEMField}
+  \begin{aligned}
+    H^0(LinObs(E,\mathbf{L}), s_{BRST})_{deg_{gh} = 0}
+    & =
+    \left\langle
+      \frac{
+        \left\{
+        e^\mu \widehat{\mathbf{A}}_{\mu}(k)
+        \,\vert\, k^\mu k_\mu = 0 \,\,\text{and}\,\,0 = d_{BRST}\left( e^\mu \widehat{\mathbf{A}}_\mu(k)
+ \right)  = i (e^\mu k_\mu) \widehat{\mathbf{C}}(k)
+        \right\}
+      }{
+        \left\{
+        e^\mu \widehat{\mathbf{A}}_\mu(k)
+        \,\vert\, k^\mu k_\mu = 0 \,\,\text{and}\,\, e^\mu \widehat{\mathbf{A}}_\mu(k) \propto s_{BRST}( \widehat{\overline{\mathbf{C}}}(k) ) = \tfrac{i}{2} k^\mu \widehat{ \mathbf{A} }_\mu(k)
+        \right\}
+      }
+      \oplus 
+      \array{\text{analogous expressions} \\ \text{at higher jet order} }
+    \right\rangle
+    \\
+    & =
+    \left\langle
+    \frac{
+      \left\{
+        e^\mu \widehat{\mathbf{A}}_\mu(k) \,\vert \, k^\mu k_\mu = 0 \,\, \text{and} \,\, e^\mu k_\mu = 0
+      \right\}
+    }
+    {
+      \left\{
+        e^\mu \widehat{\mathbf{A}}_\mu(k) \,\vert \, k^\mu k_\mu = 0 \,\, \text{and} \,\, e^\mu \propto k^\mu
+      \right\}
+    }
+    \oplus 
+    \array{\text{analogous expressions} \\ \text{at higher jet order} }
+    \right\rangle
+  \end{aligned}
 $$
 
 For given [[light-like]] [[wave vector]] $k$ the space 
@@ -1391,7 +1417,7 @@ $$
   }
   {
     \left\{
-      e \,\vert \, e^\mu = k^\mu
+      e \,\vert \, e^\mu \propto k^\mu
     \right\}
   }
 $$
@@ -1419,15 +1445,16 @@ $$
   \left\langle
   \frac{
     \left\{
-      e^\mu \widehat{\mathbf{A}}_\mu(k) \,\vert \, k^\mu k_\mu = 0 \,\text{and} \, e^\mu k_\mu = 0
+      e^\mu \widehat{\mathbf{A}}_\mu(k) \,\vert \, k^\mu k_\mu = 0 \,\, \text{and} \,\, e^\mu k_\mu = 0
     \right\}
   }
   {
     \left\{
-      e^\mu \widehat{\mathbf{A}}_\mu(k) \,\vert \, k^\mu k_\mu = 0 \,\text{and} \, e^\mu = k^\mu
+      e^\mu \widehat{\mathbf{A}}_\mu(k) \,\vert \, k^\mu k_\mu = 0 \,\, \text{and} \,\, e^\mu \propto k^\mu
     \right\}
   }
-  \oplus \text{similar expressions at higher jet order}
+  \oplus
+  \array{\text{analogous expressions} \\ \text{at higher jet order} }
   \right\rangle
 $$
 
