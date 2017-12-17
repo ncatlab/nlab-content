@@ -16,3 +16,7 @@ This theory pursues the surprising analogies between 3-dimensional topology and 
 * {#Kim1} [[Minhyong Kim]], _Arithmetic Chern-Simons Theory I_, ([arXiv:1510.05818](http://arxiv.org/abs/1510.05818)).
 
 * {#Kim2} Hee-Joong Chung, Dohyeong Kim, [[Minhyong Kim]], Jeehoon Park, Hwajong Yoo, _Arithmetic Chern-Simons Theory II_, ([arXiv:1609.03012](http://arxiv.org/abs/1609.03012))
+
+For an introductory talk see 
+
+* [[Minhyong Kim]], _Arithmetic topological quantum field theory?_, ([slides](ttps://simonsfoundation.s3.amazonaws.com/share/mps/conferences/2017_Conference_on_Number_Theory_Geometry_Moonshine_and_Strings/Kim.pdf))
