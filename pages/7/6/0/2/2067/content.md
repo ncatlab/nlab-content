@@ -113,7 +113,7 @@ $$
   }
 $$
 
-such that the last edge of the 2-[[horn]] is the given edge $f$, a lift $\sigma$
+such that the last edge of the 2-[[horn]] is the given edge $f$, a unique lift $\sigma$
 
 $$
   \array{
