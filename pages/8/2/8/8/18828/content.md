@@ -1121,7 +1121,7 @@ $$
   \,.
 $$
 
-We find from (eq:VacuumEMLagrangianDensityRecalledForNLFields) and (eq:NLGaugeFixingFermion) the [[local antibracket|local antibrackets]] (def. \ref{LocalAntibracket}) with this [[gauge fixing Lagrangian density]] to be
+We find from (eq:VacuumEMLagrangianDensityRecalledForNLFields) and (eq:GaugeFixingLagrangianForGaussianAveragedLorentzGauge) the [[local antibracket|local antibrackets]] (def. \ref{LocalAntibracket}) with this [[gauge fixing Lagrangian density]] to be
 
 $$
   \begin{aligned}
