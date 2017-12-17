@@ -140,7 +140,16 @@ $$
 
 =--
 
-This must be a textbook fact. But one reference is [this MO discussion](https://mathoverflow.net/a/91243/381).
+See also [this MO discussion](https://mathoverflow.net/a/91243/381).
+
+
++-- {: .proof}
+###### Proof
+
+In [[characteristic zero]] the [[symmetric algebra]] may equivalent be given by the [[invariants]] of the [[symmetric group]] [[action]]. Hence it is sufficient to see that for [[finite groups]] in [[characteristic zero]], taking [[invariants]] is compatible with passing to [[cochain cohomology]]. This is the statement of [this prop.](invariant#TakingInvariantsForFiniteGroupCommutesWithTaingHomologyInCharZero)
+
+=--
+
 ## Related concepts
 
 * [[symmetric algebra spectrum]]
