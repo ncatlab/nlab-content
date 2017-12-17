@@ -21,4 +21,4 @@ This theory pursues the surprising analogies between 3-dimensional topology and 
 
 For an introductory talk see 
 
-* [[Minhyong Kim]], _Arithmetic topological quantum field theory?_, ([slides](ttps://simonsfoundation.s3.amazonaws.com/share/mps/conferences/2017_Conference_on_Number_Theory_Geometry_Moonshine_and_Strings/Kim.pdf))
+* [[Minhyong Kim]], _Arithmetic topological quantum field theory?_, ([slides](https://simonsfoundation.s3.amazonaws.com/share/mps/conferences/2017_Conference_on_Number_Theory_Geometry_Moonshine_and_Strings/Kim.pdf))
