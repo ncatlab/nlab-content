@@ -53,15 +53,6 @@ For more on the history see
 
 and ([Scharf 95, section 0.0](#Scharf95)).
 
-### Texbooks
-
-A decent textbook discussion of the standard lore is in 
-
-* {#Zeidler} [[Eberhard Zeidler]], _Quantum field theory II: Quantum electrodynamics --  A bridge between mathematicians and physicists_, Springer (2009)
-  
-Mathematically rigorous discussion in [[causal perturbation theory]] is in
-
-* {#Scharf95} [[Günter Scharf]], _[[Finite Quantum Electrodynamics -- The Causal Approach]]_, Berlin: Springer-Verlag, 1995, 2nd edition
 
 A construction of QED in the context of [[locally covariant perturbative quantum field theory|pertubative AQFT]] is discussed in 
 
@@ -71,9 +62,27 @@ and in the further generality of non-abelian [[Yang-Mills theory]] in
 
 * {#Hollands07} [[Stefan Hollands]], _Renormalized Quantum Yang-Mills Fields in Curved Spacetime_, Rev. Math. Phys. 20:1033-1172, 2008 ([arXiv:0705.3340](https://arxiv.org/abs/0705.3340))
 
+
 Discussion of the [[adiabatic limit]] (dealing with [[infrared divergences]]) is in
 
 * {#Duch17} [[Paweł Duch]], _Massless fields and adiabatic limit in quantum field theory_ ([arXiv:1709.09907](https://arxiv.org/abs/1709.09907))
+
+
+### Review
+
+Traditional discussion includes
+
+* [[Radovan Dermisek]], _Quantum Electrodynamics (QED)_ ([pdf](http://www.physics.indiana.edu/~dermisek/QFT_09/qft-II-5-4p.pdf), [[DermisekQED.pdf:file]])
+
+* {#Zeidler} [[Eberhard Zeidler]], _Quantum field theory II: Quantum electrodynamics --  A bridge between mathematicians and physicists_, Springer (2009)
+  
+Mathematically rigorous discussion in [[causal perturbation theory]] is in
+
+* {#Scharf95} [[Günter Scharf]], _[[Finite Quantum Electrodynamics -- The Causal Approach]]_, Berlin: Springer-Verlag, 1995, 2nd edition
+
+
+
+### Phenomenology
 
 Comparison to [[experiment]] is reviewed in
 
