@@ -17,7 +17,7 @@ This theory pursues the surprising analogies between 3-dimensional topology and 
 
 * {#Kim2} Hee-Joong Chung, Dohyeong Kim, [[Minhyong Kim]], Jeehoon Park, Hwajong Yoo, _Arithmetic Chern-Simons Theory II_, ([arXiv:1609.03012](http://arxiv.org/abs/1609.03012))
 
-* Frauke M. Bleher, Ted Chinburg, Ralph Greenberg, Mahesh Kakde, George Pappas, Martin J. Taylor, _Unramified arithmetic Chern-Simons invariants_, ([ arXiv:1705.07110](Unramified arithmetic Chern-Simons invariants))
+* Frauke M. Bleher, Ted Chinburg, Ralph Greenberg, Mahesh Kakde, George Pappas, Martin J. Taylor, _Unramified arithmetic Chern-Simons invariants_, ([arXiv:1705.07110](https://arxiv.org/abs/1705.07110))
 
 For an introductory talk see 
 
