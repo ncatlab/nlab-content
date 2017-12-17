@@ -178,6 +178,87 @@ $$
 The connected components of this is equivalently the [[group cohomology]] of $G$ with [[coefficients]] in the [[infinity-module]] $V$.
 
 
+## Properties
+
++-- {: .num_prop #TakingInvariantsForFiniteGroupCommutesWithTaingHomologyInCharZero}
+###### Proposition
+**(in [[characteristic zero]], [[invariants]] for [[finite group]] are compatible with [[chain homology]])
+
+Let $(V_\bullet, \partial)$ be a [[chain complex]] over a [[ground field]] of [[characteristic zero]], equipped with an [[action]] by a [[finite group]] $G$. Then taking $G$-invariants commutes with passing to [[chain homology]]:
+
+$$
+  H_\bullet((V_\bullet,\partial)^G)
+  \;\simeq\;
+  H_\bullet((V_\bullet,\partial))^G
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Since the [[ground field]] has [[characteristic zero]], [[group averaging]] exists and provides a [[linear map]]
+
+$$
+  \array{
+    V_\bullet & \overset{p}{\longrightarrow} & V_\bullet^G
+    \\
+    x &\mapsto& \frac{1}{{\vert G \vert}} \underset{g \in G}{\sum} g(x)
+  }
+$$
+
+onto the $G$-invariants. 
+
+Now for a [[chain homology]]-class $[x] \in H_\bullet((V_\bullet,\partial))$ being $G$-invariant means that $g[x] \coloneqq [g(x)] = [x]$ for all $g \in G$, which implies that $[x] = [p(x)]$. This means that each invariant homology class has an invariant representative, hence that the map from invariant [[cycles]] to invariant [[chain homology]]-classes
+
+$$
+  Z((V_\bullet^G,\partial)) \longrightarrow H_\bullet((V_\bullet,\partial))
+$$
+
+is an [[epimorphism]].
+
+Next consider the [[kernel]] of this map, which a priori is $Z((V_\bullet^G,\partial)) \cap B((V_\bullet,\partial))$. It is now sufficient to show that this coincides with the space of $G$-invariant [[boundaries]]:
+
+$$
+  Z((V_\bullet^G,\partial)) \cap B((V_\bullet,\partial))
+  \;\simeq\;
+  B((V_\bullet^G, \partial))
+  \,.
+$$
+
+It is clear that there is an [[injective map|inclusion]]
+
+$$
+  B((V_\bullet^G, \partial)) 
+    \hookrightarrow 
+  Z((V_\bullet^G,\partial)) \cap B((V_\bullet,\partial))
+$$
+
+so it only remains to see that this is also a [[surjection]]. 
+
+To that end, consider any
+
+$$
+  x \in Z((V_\bullet^G,\partial)) \cap B((V_\bullet,\partial))
+  \,.
+$$
+
+Since in particular $x \in B((V_\bullet,\partial))$, there is $y \in V_\bullet$ with $x = \partial y$; and since moreover $x \in V_\bullet(G)$, the above implies that 
+
+$$
+  x = p(x) = p(\partial y) = \partial(p y)
+$$
+
+and hence that 
+
+$$
+  x \in B((V_\bullet^G,\partial)) 
+  \,.
+$$
+
+=--
+
 ## Related concepts
 
 * [[group averaging]], [[norm map]]
