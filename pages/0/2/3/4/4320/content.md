@@ -125,13 +125,13 @@ is the [[differential graded-commutative algebra]] whose underlying [[graded alg
 +-- {: .num_prop #CochainCohomologyOfSymmetricAlgebraOnCochainComplex}
 ###### Proposition
 
-Let the ambient [[category]] be the [[category of cochain complexes]] over a [[ground field]] of [[characteristic zero]], regarded as a [[symmetric monoidal category]] via the [[tensor product of chain complexes]] and consider the [[differential graded-commutative algebra]] $Sym((V^\bullet,d))$ free on a cochain complex $(V^\bullet,d)$ from example \ref{SymmetricAlgebraInCoChainComplexes}. 
+Let the ambient [[category]] be the [[category of cochain complexes]] over a [[ground field]] of [[characteristic zero]], regarded as a [[symmetric monoidal category]] via the [[tensor product of chain complexes]] and consider the [[differential graded-commutative algebra]] $Sym(V^\bullet,d)$ free on a cochain complex $(V^\bullet,d)$ from example \ref{SymmetricAlgebraInCoChainComplexes}. 
 
-Then the [[cochain cohomology]] (of the [[forgetful functor|underlying]] cochain complex) of $Sym((V^\bullet,d))$ is the graded symmetric algebra on the [[cochain cohomology]] of $(V^\bullet,d)$:
+Then the [[cochain cohomology]] (of the [[forgetful functor|underlying]] cochain complex) of $Sym(V^\bullet,d)$ is the graded symmetric algebra on the [[cochain cohomology]] of $(V^\bullet,d)$:
 
 $$
   H^\bullet\left( 
-    Sym\left((V^\bullet,d)\right)
+    Sym\left(V^\bullet,d\right)
   \right)
   \;\simeq\;
   Sym\left( H^\bullet(V^\bullet,d) \right)
@@ -146,7 +146,58 @@ See also [this MO discussion](https://mathoverflow.net/a/91243/381).
 +-- {: .proof}
 ###### Proof
 
-In [[characteristic zero]] the [[symmetric algebra]] may equivalent be given by the [[invariants]] of the [[symmetric group]] [[action]]. Hence it is sufficient to see that for [[finite groups]] in [[characteristic zero]], taking [[invariants]] is compatible with passing to [[cochain cohomology]]. This is the statement of [this prop.](invariant#TakingInvariantsForFiniteGroupCommutesWithTaingHomologyInCharZero)
+We have the following sequence of [[linear isomorphisms]]:
+
+$$
+  \begin{aligned}
+    H^\bullet
+    \left(
+      Sym( V^\bullet,d )
+    \right)
+    & \simeq
+    H^\bullet
+    \left(
+      \underset{k \in \mathbb{N}}{\oplus}
+      \left( 
+        (V^\bullet,d)^{\otimes_k} 
+      \right)^{\Sigma_k}
+    \right)
+    \\
+    & \simeq
+    \underset{k \in \mathbb{N}}{\oplus}
+    H^\bullet\left(
+       \left( (V^\bullet,d)^{\otimes_k}\right)^{\Sigma_k}
+    \right)
+    \\
+    & \simeq
+    \underset{k \in \mathbb{N}}{\oplus}
+    H^\bullet\left(
+       \left( (V^\bullet,d)^{\otimes_k}\right)
+    \right)^{\Sigma_k}
+    \\
+    & \simeq
+    \underset{k \in \mathbb{N}}{\oplus}
+    \left(
+      H^\bullet\left(
+        V^\bullet,d
+      \right)^{\otimes_k}
+    \right)^{\Sigma_k}
+    \\
+    & =
+    Sym\left( H^\bullet(V^\bullet,d)\right)
+  \end{aligned}
+$$
+
+Here:
+
+1. the first step uses that, while _a priori_ the symmetric algebra is equivalently the [[quotient]] of the [[tensor algebra]] by the [[symmetric group]] [[action]], in [[characteristic zero]] this is equivalently [[invariants]] of the [[symmetric group]] [[action]], because here $V^G \to V \to V_G$ is a [[linear isomorphism]];
+
+1. the second step uses that [[cochain cohomology]] respects [[direct sums]];
+
+1. the third step uses that for [[finite groups]] in [[characteristic zero]], taking [[invariants]] is compatible with passing to [[cochain cohomology]] ([this prop.](invariant#TakingInvariantsForFiniteGroupCommutesWithTaingHomologyInCharZero)):
+
+1. the fourth step is the [[Künneth theorem]] for [[ordinary homology]] over a [[field]] ([this prop.](K&#252;nneth+theorem#InordinaryHomology)).
+
 
 =--
 
@@ -165,7 +216,6 @@ The [[symmetric algebra spectrum]] of the [[sphere spectrum]], and its structure
 * [[Neil Strickland]], [[Paul Turner]], _Rational Morava $E$-theory and $D S^0$_, Topology Volume 36, Issue 1, January 1997, Pages 137-151 ([pdf](http://hopf.math.purdue.edu/Strickland-PTurner/rme.pdf))
 
 
-[[!redirects symmetric algebra]]
 [[!redirects symmetric algebras]]
 [[!redirects symmetric power]]
 [[!redirects symmetric powers]]
