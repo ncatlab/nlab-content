@@ -995,6 +995,10 @@ More mathematical accounts include
 
 * {#Varadarajan04} [[Veeravalli Varadarajan]], _[[Supersymmetry for mathematicians]]: An introduction_, Courant lecture notes in mathematics, American Mathematical Society, Providence, R.I 2004
 
+* C. Carmeli, L. Caston, R. Fioresi, _Mathematical foundation of supersymmetry_,
+with an appendix by I. Dimitrov, EMS Series of Lectures in Mathematics (European
+Mathematical Society, Zurich, 2011)
+
 * {#Freed99} [[Daniel Freed]], _[[Five lectures on supersymmetry]]_ AMS (1999)
 
 
