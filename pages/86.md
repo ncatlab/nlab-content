@@ -1134,6 +1134,9 @@ based on
 [[!redirects quantum BV complex]]
 [[!redirects quantum BV complexes]]
 
+[[!redirects BV-BRST cohomology]]
+[[!redirects BV-BRST cohomologies]]
+
 [[!redirects BV-BRST Lagrangian density]]
 [[!redirects BV-BRST Lagrangian densities]]
 
