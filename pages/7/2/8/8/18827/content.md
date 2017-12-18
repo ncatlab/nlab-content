@@ -5,13 +5,12 @@ For a [[Lagrangian field theory]] with [[infinitesimal gauge symmetries]], the _
 
 The [[higher differential geometry]] of [[homotopy quotients]] and [[homotopy intersections]] is usefully modeled by tools from [[homological algebra]], here known as the _[[BV-BRST complex]]_.
 
-In order to exhibit the key structure without getting distracted by the local [[jet bundle]] geometry, we first discuss the simple form in which the reduced appears would after [[transgression of variational differential forms|transgression]] (def. \ref{TransgressionOfVariationalDifferentialFormsToConfigrationSpaces})
+In order to exhibit the key structure without getting distracted by the local [[jet bundle]] geometry, we first discuss the simple form in which the reduced phase space  would appear after [[transgression of variational differential forms|transgression]] (def. \ref{TransgressionOfVariationalDifferentialFormsToConfigrationSpaces})
 if [[spacetime]] were [[compact space|compact]], so that, by the [[principle of extremal action]] (prop. \ref{PrincipleOfExtremalAction}),
 it would be the [[derived critical locus]] ($d S \simeq 0$) of a globally defined [[action functional]] $S$.  This "global" version of the [[BV-BRST complex]] is example \ref{ArchetypeOfBVBRSTComplex} below.
 
-This serves as a warmup to the true construction of the derived [[shell]] in the [[action Lie algebroid]] of the [[jet bundle]], where the
-action functional is "de-transgressed" to the [[Lagrangian density]], which is invariant under gauge transformations
-only up to horizontally exact terms. This genuine [[local BV-BRST complex]] is example \ref{LocalBVBRSTComplexIsDerivedCriticalLocusOfEulerLagrangeForm} below.
+The genuine _[[local field theory|local]]_ construction of the derived [[shell]] is in the [[jet bundle]] of the [[field bundle]], where the [[action functional]] appears "de-transgressed" in the form of the [[Lagrangian density]], which however is invariant under gauge transformations generally 
+only up to horizontally exact terms. This _local_ incarnation of the redcuced phase space is modeled by the genuine _[[local BV-BRST complex]]_, example \ref{LocalBVBRSTComplexIsDerivedCriticalLocusOfEulerLagrangeForm} below.
 
 $\,$
 
