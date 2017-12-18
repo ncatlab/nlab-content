@@ -67,7 +67,7 @@ $$
    \right)
 $$  
 
-between the chain homology of the tensor product of chain complexes and the tensor product of chain homologies.
+between the [[chain homology]] of the [[tensor product of chain complexes]] and the [[tensor product of abelian groups]] of chain homologies.
 
 =--
 
