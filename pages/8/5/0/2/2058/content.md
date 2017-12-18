@@ -69,3 +69,7 @@ Section 6.1.1 of
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
 
 [[!redirects universal colimits]]
+[[!redirects stable colimit]]
+[[!redirects stable colimits]]
+[[!redirects pullback-stable colimit]]
+[[!redirects pullback-stable colimits]]
