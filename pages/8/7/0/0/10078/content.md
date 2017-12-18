@@ -19,25 +19,29 @@
 
 ## Idea
 
-Traditionally the [[perturbation series]]/[[scattering amplitudes]] of a [[quantum field theory]] are defined, given an [[action functional]]/[[local Lagrangian]], by applying the _[[Feynman rules]]_ to the monomial terms in the Lagrangian and deriving from that (via "[[second quantization]]") a rule for how to weight each [[Feynman diagram]] by a [[probability amplitude]].
+Traditionally the [[Feynman perturbation series]]/[[scattering amplitudes]] in [[perturbative quantum field theory]] are defined, given an [[action functional]]/[[local Lagrangian]], by applying the _[[Feynman rules]]_ to the monomial terms in the [[Lagrangian density]] and deriving from that a rule for how to weight each [[Feynman diagram]] by a [[probability amplitude]].
 
-In what is called the _worldline formalism_ of [[quantum field theory]] this assignment is obtained instead more conceptually as the [[correlators]]/[[n-point functions]] of a 1-dimensional QFT that lives on the graphs, namely the [[worldline]] theory (usually a [[sigma-model]] in the given [[target|target]] [[spacetime]]) of the [[particles]] that are the quanta of the [[field (physics)|fields]] in the field theory.
+In what is called the _worldline formalism_ of [[quantum field theory]] this assignment is obtained instead more conceptually as the [[correlators]]/[[n-point functions]] of a 1-dimensional QFT that lives _on_ the Feynman graphs, namely the [[worldline]] theory (usually a [[sigma-model]] in the given [[target|target]] [[spacetime]]) of the [[particles]] that are the quanta of the [[field (physics)|fields]] in the field theory.
 
-Mathematically the key step here is a [[Mellin transform]] -- introducing a "[[Schwinger parameter]]" -- which turns the [[partition function]] of a worldline theory, schematically of the form $t \mapsto Tr\, \exp(-t H)$ (for $H$ the [[Hamiltonian]]/[[wave operator]]) into the [[zeta function regularization|zeta regulated]] [[Feynman propagator]]
+Mathematically the key step here is a [[Mellin transform]] -- introducing a "[[Schwinger parameter]]" -- which realizes the [[Feynman propagator]] $\Delta_F(x,y)$ as a [[path integral]] for a [[relativistic particle]] travelling from $y$ to $x$.
 
-$$ 
-  \hat \zeta_H(s)  = \int_0^\infty Tr_{reg} \exp(-t H) t^{s-1} d t = Tr_{reg} H^{-s}
-  \,.
-$$
-
-This worldline formalism is equivalent to the traditional formulation. It has the conceptual advantage that it expresses the QFT (in [[perturbation theory]]) more manifestly as a [[second quantization]] of its particle content given explicitly of the [[superposition]] of all 1-particle processes.
+This worldline formalism is equivalent to the traditional formulation. It has the conceptual advantage that it expresses the [[Feynman perturbation series]] of [[perturbative  quantum field theory]] manifestly as a [[second quantization]] of its particle content given explicitly as the [[superposition]] of all 1-particle processes.
 
 The worldline formulation of QFT has an evident generalization to higher dimensional [[worldvolumes]]: in direct analogy one can consider summing the [[correlators]]/[[n-point functions]] over [[worldvolume]] [[theory (physics)|theories]] of "higher dimensional particles" ("[[branes]]") over all possible worldvolume geometries. Indeed, for 2-[[dimensional]] branes this is precisely the way in which [[perturbative string theory]] is defined: the [[string scattering amplitudes]] are given by the analogous "worldsheet formalism" known as the [[string perturbation series]] as the sum over all surfaces of the [[correlators]]/[[n-point functions]] of of a 2d [[SCFT]] of central charge 15.
 
 [[!include second quantization -- table]]
 
-Indeed, after decades of [[Feynman rules]], the worldline formalism for QFT was found only _via_ [[string theory]] in ([Bern-Kosower 91](#BernKosower91)), by looking at the point particle limit of [[string scattering amplitudes]]. Then ([Strassler 92](#Strassler92), [Strassler 93](#Strassler93)) observed that generally the worldline formlism is obtained from the correlators of the 1d QFT of [[relativistic particles]] on their [[worldline]]. 
 
+
+Indeed, after decades of [[Feynman rules]], the worldline formalism for QFT was found only _via_ [[string theory]] in ([Bern-Kosower 91](#BernKosower91)), by looking at the point particle limit of [[string scattering amplitudes]]. 
+
+
+<img src="https://ncatlab.org/nlab/files/StringFeynmanDiagrams.png" width="300">
+
+> graphics grabbed from [Jurke 10](https://benjaminjurke.com/content/articles/2010/string-theory/)
+
+
+Then ([Strassler 92](#Strassler92), [Strassler 93](#Strassler93)) observed that generally the worldline formlism is obtained from the correlators of the 1d QFT of [[relativistic particles]] on their [[worldline]]. 
 
 <img src="http://ncatlab.org/nlab/files/worldlineformalismoverview.jpg">
 
@@ -83,7 +87,7 @@ Exposition with an eye towards [[quantum gravity]] is
 
 Discussion specifically for [[fermions]] is in 
 
-* C. Alexandrou, R. Rosenfelder, A. W. Schreiber, _Worldline path integral for the massive Dirac propagator : A four-dimensional approach_, Phys. Rev. A59 (1999) 1762-1776 ([arXiv:hep-th/9809101](http://arxiv.org/abs/hep-th/9809101))
+* C. Alexandrou, R. Rosenfelder, A. W. Schreiber, _Worldline path integral for the massive Dirac propagator: A four-dimensional approach_, Phys. Rev. A59 (1999) 1762-1776 ([arXiv:hep-th/9809101](http://arxiv.org/abs/hep-th/9809101))
 
 [[!redirects worldline formalisms]]
 
