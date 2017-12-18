@@ -26,6 +26,8 @@ In [[BV-BRST formalism]] this gauge (and its variants) is implement by introduci
 
 ## References
 
+Named after [[Ludvik Lorenz]] (not to be confused with [[Hendrik Lorentz]] whose name is attached to the [[Lorentz group]]).
+
 * {#Henneaux90} [[Marc Henneaux]], section 9.1 of _Lectures on the Antifield-BRST formalism for gauge theories_, Nuclear Physics B (Proceedings Supplement) 18A (1990) 47-106 ([pdf](http://www.math.uni-hamburg.de/home/schweigert/ws07/henneaux2.pdf))
 
 [[!redirects Lorentz gauge]]
