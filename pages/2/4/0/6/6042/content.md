@@ -28,6 +28,12 @@ If one models the [[electromagnetic field]] via the [[Kaluza-Klein mechanism]] a
 
 ## References
 
+Named after [[Hendrik Lorentz]].
+
+See also 
+
+* Wikipedia, _[Lorentz force](https://en.wikipedia.org/wiki/Lorentz_force)_
+
 The generalization to the [[spinning particle]] is discussed for instance in 
 
 * J.W. van Holten, _Relativistic Dynamics of Spin in Strong
