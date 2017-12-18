@@ -32,7 +32,9 @@ Hadamard states are mathematically characterized as follows:
 
 Given a [[globally hyperbolic spacetime]], the [[causal propagator]] defines a [[symplectic form]] on the [[covariant phase space]] of the [[free field|free]] [[scalar field]]. However its [[wave front set]] is too large for the would-be induced [[Moyal star product]] to exist on but a very small subalgebra of smooth functionals, due to the failure of the relevant [[products of distributions]] to exist. However the Moyal star product makes sense more generally for [[almost Kähler structures]] with a symmetric contribution added to the skew-symmetric symplectic form. 
 
-A _Hadamard distribution_ is such a modification of the causal propagator by a symmetric component such that the resulting [[wave front set]] is just one causal half of that of the [[causal propagator]]. This allows to define the corresponding [[Moyal star product]] on the larger algebra of [[microcausal functionals]] which is large enough to contain the [[adiabatic switching|adiabatically switched]] point [[interaction]] terms $g \phi(x)^n$ (as in [[phi^4 theory]] etc.). The resulting [[algebra of observables]] is the _[[Wick algebra]]_ of the free scalar field.
+A _Hadamard distribution_ is such a modification of the [[causal propagator]] by a symmetric component such that the resulting [[wave front set]] is just one causal half of that of the [[causal propagator]]. This is usually called a _Wightman propagator_. (Unfortunately the term "Hadamard propagator" is used for something else.) 
+
+This allows to define the corresponding [[Moyal star product]] on the larger algebra of [[microcausal functionals]] which is large enough to contain the [[adiabatic switching|adiabatically switched]] point [[interaction]] terms $g \phi(x)^n$ (as in [[phi^4 theory]] etc.). The resulting [[algebra of observables]] is the _[[Wick algebra]]_ of the free scalar field.
 
 The Hadamard distribution may also be thought of as the [[2-point function]] of a [[quasi-free quantum state]]. These states are therefore called _Hadamard states_.
 
@@ -254,7 +256,7 @@ We now discuss
 
 1. _[Causal propagator](#CausalPropagatorForKleinGordonEquationOnMinkowskiSpacetime)_
 
-1. _[Hadamard propagator](#HadamardPropagatorForKleinGordonOnMinkowskiSpacetime)_
+1. _[Wightman propagator](#HadamardPropagatorForKleinGordonOnMinkowskiSpacetime)_
 
 1. _[Wave front sets](#WaveFrontSetsOfPropagatorsForKleinGordonOperatorOnMinkowskiSpacetime)_
 
@@ -3190,6 +3192,9 @@ Phys. 63, 257 (1978).
 
 [[!redirects Hadamard 2-point function]]
 [[!redirects Hadamard 2-point functions]]
+
+[[!redirects Wightman propagator]]
+[[!redirects Wightman propagators]]
 
 
 
