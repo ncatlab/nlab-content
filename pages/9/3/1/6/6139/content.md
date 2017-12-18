@@ -40,7 +40,7 @@ Write
 
 * $Grpd^{\ast/}$ for the $(2,1)$-category of [[pointed objects]] in [[Grpd]], 
 
-* $Grpd_{\geq 1} \hookrightarrow Grpd$ for the [[full sub-(infinity,1)-category|full sub-(2,1)-category]] on [[connected object in an (infinity,1)-topos|connected]] groupoids, those for which $\pi_0 \simeq \ast$;
+* $Grpd_{\geq 1} \hookrightarrow Grpd$ for the [[full sub-(infinity,1)-category|full sub-(2,1)-category]] of [[connected object in an (infinity,1)-topos|connected]] groupoids, those for which $\pi_0 \simeq \ast$;
 
 * $Grp^{\ast/}_{\geq 1}$ for the [[pointed objects]] in connected groupoids.
 
