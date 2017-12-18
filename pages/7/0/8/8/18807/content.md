@@ -24,6 +24,8 @@ In [[physics]], the [[atom (physics)|atom]] whose [[nucleus (physics)|nucleus]] 
 
 ## Related concepts
 
+* [[Lamb shift]]
+
 * [[harmonic oscillator]]
 
 * [[quantum lattice system]]
