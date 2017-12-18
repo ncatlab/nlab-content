@@ -10,7 +10,7 @@ appearing in the [[standard model of particle physics]].
 
 For broad introduction of the idea of the topic of _[[perturbative quantum field theory]]_ see [[perturbative quantum field theory|there]] and see
 
-* PhysicsForums-Insights: _[Introduction to Perturbative Quantum Field Theory](https:/www.physicsforums.com/insights/paqft-idea-references/)_
+* PhysicsForums-Insights: _[Introduction to Perturbative Quantum Field Theory](https://www.physicsforums.com/insights/paqft-idea-references/)_
 
 Here, first we consider [[classical field theory]] (or rather [[pre-quantum field theory]]), complete with [[BV-BRST formalism]];
 then its [[deformation quantization]] via [[causal perturbation theory]] to [[perturbative quantum field theory]].
