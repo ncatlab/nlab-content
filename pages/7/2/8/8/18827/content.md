@@ -3,7 +3,7 @@
 
 For a [[Lagrangian field theory]] with [[infinitesimal gauge symmetries]], the _[[reduced phase space]]_ is the [[quotient]] of the [[shell]] (the [[solution]]-locus of the [[equations of motion]]) by the [[action]] of the [[gauge symmetries]]; or rather it is the combined _[[homotopy quotient]]_ by the [[gauge symmetries]] and its _[[homotopy intersection]]_ with the [[shell]]. Passing to the [[reduced phase space]] may lift the [[obstruction]] for a [[gauge theory]] to have a [[covariant phase space]] and hence a [[quantization]].
 
-The [[higher differential geometry]] of [[homotopy quotients]] and [[homotopy intersections]] is is usefully modeled by tools from [[homological algebra]], here known as the _[[BV-BRST complex]]_.
+The [[higher differential geometry]] of [[homotopy quotients]] and [[homotopy intersections]] is usefully modeled by tools from [[homological algebra]], here known as the _[[BV-BRST complex]]_.
 
 In order to exhibit the key structure without getting distracted by the local [[jet bundle]] geometry, we first discuss the simple form in which the reduced appears would after [[transgression of variational differential forms|transgression]] (def. \ref{TransgressionOfVariationalDifferentialFormsToConfigrationSpaces})
 if [[spacetime]] were [[compact space|compact]], so that, by the [[principle of extremal action]] (prop. \ref{PrincipleOfExtremalAction}),
