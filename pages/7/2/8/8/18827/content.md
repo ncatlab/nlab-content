@@ -2747,7 +2747,7 @@ $$
 
 +-- {: .num_example #LocalBVComplexOfVacuumElectromagnetismOnMinkowskiSpacetime}
 ###### Example
-**([[local BV-complex]] of [[vacuum]] [[electromagnetism]] on [[Minkowski spacetime]])**
+**([[local BV-BRST complex]] of [[vacuum]] [[electromagnetism]] on [[Minkowski spacetime]])**
 
 Consider the [[Lagrangian field theory]] of [[free field theory|free]] [[electromagnetism]]
 on [[Minkowski spacetime]] (example \ref{ElectromagnetismLagrangianDensity})
