@@ -49,6 +49,8 @@ is called the _[[frequency]]_ of the wave (in this chosen [[coordinate system]])
 
 * [[wave]]
 
+* [[wave polarization]]
+
 * [[Fourier transform]]
 
 * [[wave function]]
