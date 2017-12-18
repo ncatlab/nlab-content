@@ -26,9 +26,9 @@ of [[plane waves]] which satisfy the [[dispersion relation]] of the given [[equa
 to [[wave length]].
 
 This way the [[causal propagator]] is naturally decomposed into its contribution from [[positive real number|positive]]
-and from [[negative real number|negative]] [[frequencies]]. The positive frequency part of the [[causal propagator]] is called the _[[Hadamard propagator]]_ (def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime} below). It turns out (prop. \ref{SkewSymmetricPartOfHadmrdPropagatorIsCausalPropagatorForKleinGordonEquationOnMinkowskiSpacetime} below) that this is equivalently the [[sum]] of the [[causal propagator]], which itself is skew-symmetric (cor. \ref{CausalPropagatorIsSkewSymmetric} below), with a symmetric component, or equivalently that the [[causal propagator]] is the skew-symmetrization of the [[Hadamard propagator]].
+and from [[negative real number|negative]] [[frequencies]]. The positive frequency part of the [[causal propagator]] is called the _[[Wightman propagator]]_ (def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime} below). It turns out (prop. \ref{SkewSymmetricPartOfHadmrdPropagatorIsCausalPropagatorForKleinGordonEquationOnMinkowskiSpacetime} below) that this is equivalently the [[sum]] of the [[causal propagator]], which itself is skew-symmetric (cor. \ref{CausalPropagatorIsSkewSymmetric} below), with a symmetric component, or equivalently that the [[causal propagator]] is the skew-symmetrization of the [[Wightman propagator]].
 After [[quantization]] of [[free field theory]] discussed [further below](#FreeQuantumFields), we will see that the
-Hadamard propagator is equivalently the [[2-point function|correlation function]] between two point-evaluation field observables (example \ref{PointEvaluationObservables}) in a _[[vacuum state]]_ of the field theory (a [[state]] in the sense of def. \ref{States}).
+Wightman propagator is equivalently the [[2-point function|correlation function]] between two point-evaluation field observables (example \ref{PointEvaluationObservables}) in a _[[vacuum state]]_ of the field theory (a [[state]] in the sense of def. \ref{States}).
 
 Moreover, by def. \ref{AdvancedAndRetardedGreenFunctions} the [[causal propagator]] also decomposes into its
 contributions with [[future]] and [[past]] [[support of a distribution|support]], given by the _difference_ between
@@ -48,7 +48,7 @@ their [[singular support]] propagates itself through [[spacetime]] along the [[w
 
 Using this theorem we work out the [[wave front sets]] of the [[propagators]] (prop. \ref{WaveFronSetsForKGPropagatorsOnMinkowski} below).
 Via [[Hörmander's criterion]] (prop. \ref{HoermanderCriterionForProductOfDistributions}) this computation will serve to show
-why upon [[quantization]] the [[Hadamard propagator]] replaces the [[causal propagator]] in the construction of the [[Wick algebra]]
+why upon [[quantization]] the [[Wightman propagator]] replaces the [[causal propagator]] in the construction of the [[Wick algebra]]
 of [[quantum observables]] of the [[free field theory]] (discussed below in _[Free quantum fields](#FreeQuantumFields)_) and the the [[Feynman propagator]] similarly controls the [[quantum observables]] of the [[interaction|interacting]] [[quantum field theory]]
 (below in _[Feynman diagrams](#FeynmanDiagrams)_).
 
@@ -84,7 +84,7 @@ We now discuss these topics:
 
   * _[causal propagator](#CausalPropagatorForKleinGordonEquationOnMinkowskiSpacetime)_
 
-  * _[Hadamard propagator](#HadamardPropagatorForKleinGordonOnMinkowskiSpacetime)_
+  * _[Wightman propagator](#HadamardPropagatorForKleinGordonOnMinkowskiSpacetime)_
 
   * _[Feynman propagator](#FeynmanPropagator)_
 
@@ -1237,7 +1237,7 @@ $\,$
 An important application of the [[Fourier analysis]] of [[distributions]] is the class of distributions known
 broadly as _[[Cauchy principal values]]_. Below we will find that these control the detailed nature of the
 various [[propagators]] of [[free field theories]], notably the [[Feynman propagator]] is manifestly a [[Cauchy principal value]] (prop. \ref{FeynmanPropagatorAsACauchyPrincipalvalue} and def. \ref{FeynmanPropagatorForDiracOperatorOnMinkowskiSpacetime} below),
-but also the [[singular support]] properties of the [[causal propagator]] and the [[Hadamard propagator]] are governed by
+but also the [[singular support]] properties of the [[causal propagator]] and the [[Wightman propagator]] are governed by
 Cauchy principal values (prop. \ref{SingularSupportOfCausalPropagatorForKleinGordonEquationOnMinkowskiSpacetimeIsTheLightCone} and prop. \ref{SingularSupportOfHadamardPropagatorForKleinGordonEquationOnMinkowskiSpacetimeIsTheLightCone} below). This way the understanding of
 Cauchy principal values eventually allows us to determine the [[wave front set]] of all the propagators (prop. \ref{WaveFronSetsForKGPropagatorsOnMinkowski}) below.
 
@@ -1875,7 +1875,7 @@ $\,$
 
 1. _[Causal propagator](#CausalPropagatorForKleinGordonEquationOnMinkowskiSpacetime)_
 
-1. _[Hadamard propagator](#HadamardPropagatorForKleinGordonOnMinkowskiSpacetime)_
+1. _[Wightman propagator](#HadamardPropagatorForKleinGordonOnMinkowskiSpacetime)_
 
 1. _[Feynman propagator](#FeynmanPropagator)_
 
@@ -2731,12 +2731,12 @@ The last line is the expression for the causal propagator from prop. \ref{ModeEx
 
 $\,$
 
-**[[Hadamard propagator]]**
+**[[Wightman propagator]]**
 {#HadamardPropagatorForKleinGordonOnMinkowskiSpacetime}
 
 Prop. \ref{CausalPropagatorAsFourierTransformOfDeltaDistributionOnTransformedKGOperator} exhibits the [[causal propagator]] of the [[Klein-Gordon operator]] on [[Minkowski spacetime]] as the difference of a contribution for [[positive real number|positive]] temporal [[angular frequency]] $k_0 \propto \omega(\vec k)$ (hence positive [[energy]] $\hbar \omega(\vec k)$ and a contribution of negative temporal [[angular frequency]].
 
-The [[positive real number|positive]] [[frequency]] contribution to the [[causal propagator]] is called the _[[Hadamard propagator]]_ (def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime} below), also known as the the _[[vacuum state]] [[2-point function]] of the [[free field|free]] [[real scalar field]] on [[Minkowski spacetime]]_. Notice that the temporal component
+The [[positive real number|positive]] [[frequency]] contribution to the [[causal propagator]] is called the _[[Wightman propagator]]_ (def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime} below), also known as the the _[[vacuum state]] [[2-point function]] of the [[free field|free]] [[real scalar field]] on [[Minkowski spacetime]]_. Notice that the temporal component
 of the [[wave vector]] is proportional to the _negative_ [[angular frequency]]
 
 $$
@@ -2747,9 +2747,9 @@ $$
 
 +-- {: .num_defn #StandardHadamardDistributionOnMinkowskiSpacetime}
 ###### Definition
-**([[Hadamard propagator]] or [[vacuum state]] [[2-point function]] for [[Klein-Gordon operator]] on [[Minkowski spacetime]])**
+**([[Wightman propagator]] or [[vacuum state]] [[2-point function]] for [[Klein-Gordon operator]] on [[Minkowski spacetime]])**
 
-The _[[Hadamard propagator]]_ for the [[Klein-Gordon operator]] at [[mass]] $m$ on [[Minkowski spacetime]] (example \ref{EquationOfMotionOfFreeRealScalarField}) is the [[tempered distribution|tempered]] [[distribution in two variables]] $\Delta_H \in \mathcal{S}'(\mathbb{R}^{p,1})$ which as a [[generalized function]] is given by the expression
+The _[[Wightman propagator]]_ for the [[Klein-Gordon operator]] at [[mass]] $m$ on [[Minkowski spacetime]] (example \ref{EquationOfMotionOfFreeRealScalarField}) is the [[tempered distribution|tempered]] [[distribution in two variables]] $\Delta_H \in \mathcal{S}'(\mathbb{R}^{p,1})$ which as a [[generalized function]] is given by the expression
 
 $$
 \label{HadamardPropagatorForKleinGordonOperatorOnMinkowskiSpacetime}
@@ -2775,9 +2775,9 @@ Here in the first line we have in the [[integrand]] the [[delta distribution]] o
 
 +-- {: .num_prop #ContourIntegralForStandardHadamardPropagatorOnMinkowskiSpacetime}
 ###### Proposition
-**([[contour integral]] representation of the [[Hadamard propagator]] for the [[Klein-Gordon operator]] on [[Minkowski spacetime]])
+**([[contour integral]] representation of the [[Wightman propagator]] for the [[Klein-Gordon operator]] on [[Minkowski spacetime]])
 
-The [[Hadamard propagator]] from def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime} is
+The [[Wightman propagator]] from def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime} is
 equivalently given by the [[contour integral]]
 
 $$
@@ -2860,9 +2860,9 @@ The last step is application of [[Cauchy's integral formula]], which says that t
 
 +-- {: .num_prop #SkewSymmetricPartOfHadmrdPropagatorIsCausalPropagatorForKleinGordonEquationOnMinkowskiSpacetime}
 ###### Proposition
-**(skew-symmetric part of [[Hadamard propagator]] is the [[causal propagator]])**
+**(skew-symmetric part of [[Wightman propagator]] is the [[causal propagator]])**
 
-The [[Hadamard propagator]] for the [[Klein-Gordon equation]] on [[Minkowski spacetime]] (def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime}) is of the form
+The [[Wightman propagator]] for the [[Klein-Gordon equation]] on [[Minkowski spacetime]] (def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime}) is of the form
 
 $$
   \label{DeompositionOfHadamardPropagatorOnMinkowkski}
@@ -2967,7 +2967,7 @@ $\,$
 **[[Feynman propagator]]**
  {#FeynmanPropagator}
 
-We have seen that the [[positive real number|positive]] [[frequency]] component of the [[causal propagator]] $\Delta_S$ for the [[Klein-Gordon equation]] on [[Minkowski spacetime]] (prop. \ref{AdvancedRetardedPropagatorsForKleinGordonOnMinkowskiSpacetime}) is the [[Hadamard propagator]] $\Delta_H$ (def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime}) given, according to prop. \ref{SkewSymmetricPartOfHadmrdPropagatorIsCausalPropagatorForKleinGordonEquationOnMinkowskiSpacetime}, by (eq:DeompositionOfHadamardPropagatorOnMinkowkski)
+We have seen that the [[positive real number|positive]] [[frequency]] component of the [[causal propagator]] $\Delta_S$ for the [[Klein-Gordon equation]] on [[Minkowski spacetime]] (prop. \ref{AdvancedRetardedPropagatorsForKleinGordonOnMinkowskiSpacetime}) is the [[Wightman propagator]] $\Delta_H$ (def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime}) given, according to prop. \ref{SkewSymmetricPartOfHadmrdPropagatorIsCausalPropagatorForKleinGordonEquationOnMinkowskiSpacetime}, by (eq:DeompositionOfHadamardPropagatorOnMinkowkski)
 
 $$
   \begin{aligned}
@@ -3008,7 +3008,7 @@ $$
     H
 $$
 
-where the first term is proportional to the sum of the [[advanced and retarded propagators]] (prop. \ref{AdvancedRetardedPropagatorsForKleinGordonOnMinkowskiSpacetime}) and the second is the symmetric part of the [[Hadamard propagator]] according to prop. \ref{SkewSymmetricPartOfHadmrdPropagatorIsCausalPropagatorForKleinGordonEquationOnMinkowskiSpacetime}.
+where the first term is proportional to the sum of the [[advanced and retarded propagators]] (prop. \ref{AdvancedRetardedPropagatorsForKleinGordonOnMinkowskiSpacetime}) and the second is the symmetric part of the [[Wightman propagator]] according to prop. \ref{SkewSymmetricPartOfHadmrdPropagatorIsCausalPropagatorForKleinGordonEquationOnMinkowskiSpacetime}.
 
 Similarly the _[[anti-Feynman propagator]]_ is
 
@@ -3922,9 +3922,9 @@ $$
 
 +-- {: .num_prop #SingularSupportOfHadamardPropagatorForKleinGordonEquationOnMinkowskiSpacetimeIsTheLightCone}
 ###### Proposition
-**([[singular support]] of the [[Hadamard propagator]] of the [[Klein-Gordon equation]] on [[Minkowski spacetime]] is the [[light cone]])**
+**([[singular support]] of the [[Wightman propagator]] of the [[Klein-Gordon equation]] on [[Minkowski spacetime]] is the [[light cone]])**
 
-The [[singular support]] of the [[Hadamard propagator]] $\Delta_H$ (def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime}) for the [[Klein-Gordon equation]] on [[Minkowski spacetime]], regarded via [[translation]] [[invariant|invariance]] as a [[distribution]]
+The [[singular support]] of the [[Wightman propagator]] $\Delta_H$ (def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime}) for the [[Klein-Gordon equation]] on [[Minkowski spacetime]], regarded via [[translation]] [[invariant|invariance]] as a [[distribution]]
 in a single variable, is the [[light cone]] of the origin:
 
 $$
@@ -4221,7 +4221,7 @@ $$
 <img src="https://ncatlab.org/nlab/files/RetGreenFunction.png" width="60"> <br/> - <br/> <img src="https://ncatlab.org/nlab/files/AdvancedGreenFunction.png" width="60">
 </center>
 
-* the [[Hadamard propagator]] $\Delta_H$ (def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime}) has wave front set all pairs $(x,k)$ with $x$ and $k$ both on the light cone and $k^0 \gt 0$:
+* the [[Wightman propagator]] $\Delta_H$ (def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime}) has wave front set all pairs $(x,k)$ with $x$ and $k$ both on the light cone and $k^0 \gt 0$:
 
 $$
 WF(\Delta_H) = \left\{ (x,k) \,\vert\, {\vert x\vert}^2_\eta = 0 \;\text{and} \; {\vert k\vert}^2_\eta = 0 \; \text{and} \; k^0 \gt 0   \right\}
@@ -4279,7 +4279,7 @@ This means that the convolution product is the smearing of the mass shell by $\w
 Since the mass shell asymptotes to the light cone, and since $e^{i k_\mu a^\mu} = 1$ for $k$ on the light cone (given that $a$ is on the light cone), this implies the claim.
 
 
-Now for the [[Hadamard propagator]]:
+Now for the [[Wightman propagator]]:
 
 By def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime} its Fourier transform is of the form
 
@@ -4296,7 +4296,7 @@ Therefore now same argument as before says that the wave front set consists of w
 Finally regarding the [[Feynman propagator]]:
 
 by prop. \ref{ModeExpansionForFeynmanPropagatorOfKleinGordonEquationOnMinkowskiSpacetime} the Feynman propagator
-coincides with the positive frequency Hadamard propagator for $x^0 \gt 0$ and with the "negative frequency Hadamard operator"
+coincides with the positive frequency Wightman propagator for $x^0 \gt 0$ and with the "negative frequency Hadamard operator"
 for $x^0 \lt 0$. Therefore the form of $WF(\Delta_F)$ now follows directly with that of $WF(\Delta_H)$ above.
 
 =--
@@ -4399,10 +4399,10 @@ Similarly we obtain the other [[propagators]] for the [[Dirac field]] from those
 
 +-- {: .num_defn #HadamardPropagatorForDiracOperatorOnMinkowskiSpacetime}
 ###### Definition
-**([[Hadamard propagator]] for [[Dirac operator]] on [[Minkowski spacetime]])**
+**([[Wightman propagator]] for [[Dirac operator]] on [[Minkowski spacetime]])**
 
-The _[[Hadamard propagator]]_ for the [[Dirac operator]] on [[Minkowski spacetime]] is the [[positive real number|positive]] [[frequency]] part of the [[causal propagator]] (prop. \ref{DiracEquationOnMinkowskiSpacetimeAdvancedAndRetardedPropagators}),
-hence the [[derivative of distributions]] of the Hadamard propagator for the Klein-Gordon field (def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime}) by the [[Dirac operator]]:
+The _[[Wightman propagator]]_ for the [[Dirac operator]] on [[Minkowski spacetime]] is the [[positive real number|positive]] [[frequency]] part of the [[causal propagator]] (prop. \ref{DiracEquationOnMinkowskiSpacetimeAdvancedAndRetardedPropagators}),
+hence the [[derivative of distributions]] of the Wightman propagator for the Klein-Gordon field (def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime}) by the [[Dirac operator]]:
 
 $$
   \begin{aligned}
@@ -4421,7 +4421,7 @@ $$
   \end{aligned}
 $$
 
-Here we used the expression (eq:StandardHadamardDistributionOnMinkowskiSpacetime) for the Hadamard propagator of the Klein-Gordon equation.
+Here we used the expression (eq:StandardHadamardDistributionOnMinkowskiSpacetime) for the Wightman propagator of the Klein-Gordon equation.
 
 =--
 
@@ -4439,7 +4439,7 @@ $$
   i \Delta_{D, -}
 $$
 
-of the [[Hadamard propagator]] (def. \ref{HadamardPropagatorForDiracOperatorOnMinkowskiSpacetime}) and the retarded propagator (prop. \ref{DiracEquationOnMinkowskiSpacetimeAdvancedAndRetardedPropagators}). By prop. \ref{FeynmanPropagatorAsACauchyPrincipalvalue}
+of the [[Wightman propagator]] (def. \ref{HadamardPropagatorForDiracOperatorOnMinkowskiSpacetime}) and the retarded propagator (prop. \ref{DiracEquationOnMinkowskiSpacetimeAdvancedAndRetardedPropagators}). By prop. \ref{FeynmanPropagatorAsACauchyPrincipalvalue}
 this means that it is the
 [[derivative of distributions]] of the [[Feynman propagator]] of the [[Klein-Gordon equation]] (def. \ref{FeynmanPropagatorForKleinGordonEquationOnMinkowskiSpacetime}) by the [[Dirac operator]]
 
