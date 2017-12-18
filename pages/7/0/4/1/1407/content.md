@@ -60,6 +60,10 @@ When made explicit this is called the _[[worldline formalism]]_ for computing th
 
 The premise of perturbative string theory is to replace the [[perturbation series]] over correlators of a 1-d QFT over graphs by a sum of correlators of a 2-dQFT over 2-dimensional surfaces -- called _[[worldsheets]]_ and hence produce an [[S-matrix]] this way. Again in simple cases this 2d QFT is a [[sigma-model]] whose target is the spacetime in which one computes interactions. 
 
+<img src="https://ncatlab.org/nlab/files/StringFeynmanDiagrams.png" width="300">
+
+> graphics grabbed from [Jurke 10](https://benjaminjurke.com/content/articles/2010/string-theory/)
+
 In analogy to the previous case, one thinks of the amplitude assigned this way to a surface as the amplitude for the boundary arcs -- the _string_s -- to interact in the way given by the surface.
 
 Some of the motivations for considering this replacement of  graphs by surfaces have been the following:
@@ -216,7 +220,7 @@ The [[action functional]] for the [[string]]-[[sigma model]] in general has a [[
 
 * [[11-dimensional supergravity]], [[M-theory]]
 
-  * [[Ho?ava-Witten theory]]
+  * [[Hořava-Witten theory]]
 
 ### Extended objects
 
@@ -365,11 +369,11 @@ A nontrivial consistency check on the suggestion that this means that string bac
 
 Discussion of type II [[quantum anomalies]] is in 
 
-* [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Orientifold Pr&#233;cis_ in: [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ Proceedings of Symposia in Pure Mathematics, AMS (2011) ([arXiv](http://arxiv.org/abs/0906.0795), [slides](http://www.ma.utexas.edu/users/dafr/bilbao.pdf))
- {#DFMI}
+* {#DFMI} [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Orientifold Pr&#233;cis_ in: [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ Proceedings of Symposia in Pure Mathematics, AMS (2011) ([arXiv](http://arxiv.org/abs/0906.0795), [slides](http://www.ma.utexas.edu/users/dafr/bilbao.pdf))
+ 
 
-* [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Spin structures and superstrings_ ([arXiv:1007.4581](http://arxiv.org/abs/1007.4581))
-  {#DFMII} 
+* {#DFMII}  [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Spin structures and superstrings_ ([arXiv:1007.4581](http://arxiv.org/abs/1007.4581))
+  
 
 Discussion of [[superstring]] [[perturbation theory]] is in 
 
