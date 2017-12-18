@@ -66,6 +66,8 @@ is called the _[[frequency]]_ of the corresponding [[plane wave]] (in the chosen
 
 * [[frequency]], [[amplitude]]
 
+* [[wave polarization]]
+
 ## References
 
 See also
