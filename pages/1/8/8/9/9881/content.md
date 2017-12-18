@@ -227,4 +227,8 @@ Scattering amplitudes of highly excited strings:
 * Dimitri P. Skliros, Edmund J. Copeland, Paul M. Saffin, _Highly Excited Strings I: Generating Function_ ([arxiv:1611.06498](https://arxiv.org/abs/1611.06498))
 [[!redirects string scattering amplitudes]]
 
-[[!redirects string scatt]]
+[[!redirects string scattering amplitudes]]
+
+[[!redirects string scattering]]
+
+[[!redirects string perturbation series]]
