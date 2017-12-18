@@ -84,6 +84,8 @@ While the proper orthochronous Lorentz group $SO^+(d-1,1)$ is [[connected topolo
 
 ## References
 
+Named after [[Hendrik Lorentz]]. (Not to be confused with [[Ludvik Lorenz]], whose name is attached to the [[Lorenz gauge]].)
+
 * Wikipedia, _[Lorentz group](https://en.wikipedia.org/wiki/Lorentz_group)_
 
 [[!redirects Lorentz groups]]
