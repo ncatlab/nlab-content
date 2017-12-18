@@ -24,7 +24,12 @@
 
 ## Idea
 
-In [[perturbative string theory]] [[scattering amplitudes]] are defined as in [[quantum field theory]], but with [[n-point functions]] of 1-dimensional [[worldline]] theories replaced by those of [[worldsheet]] [[2d CFTs]]. 
+In [[perturbative string theory]] [[scattering amplitudes]] are defined as in [[quantum field theory]], but with [[n-point functions]] of 1-dimensional [[worldline theories]] ([[Feynman diagrams]]) replaced by those of [[worldsheet]] [[2d CFTs]]. 
+
+<img src="https://ncatlab.org/nlab/files/StringFeynmanDiagrams.png" width="300">
+
+> graphics grabbed from [Jurke 10](https://benjaminjurke.com/content/articles/2010/string-theory/)
+
 
 ## Properties
 
