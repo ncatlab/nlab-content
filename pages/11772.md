@@ -38,7 +38,7 @@ If one chooses [[coordinates]] such that $k = (\kappa, 0, \cdots, 0, \kappa)$ th
 
 * Wikipedia, _<a href="http://en.wikipedia.org/wiki/Polarization_(waves)">Polarization (waves)</a>_
 
-* [[Radovan Dermisek]], _Quantum Electrodynamics (QED)_ ([pdf](http://www.physics.indiana.edu/~dermisek/QFT_09/qft-II-5-4p.pdf), [[DermisekQED.pdf:file]])
+* {#Dermisek09} [[Radovan Dermisek]], _Quantum Electrodynamics (QED)_ ([pdf](http://www.physics.indiana.edu/~dermisek/QFT_09/qft-II-5-4p.pdf), [[DermisekQED.pdf:file]])
 
 
 [[!redirects wave polarizations]]
