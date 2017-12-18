@@ -1786,7 +1786,7 @@ $$
   \widehat
   {
     \left(
-      \frac{1}{q + m^2 + i0^+}
+      \frac{1}{(q + m^2 + i0^+)^\kappa}
     \right)
   }
   \;=\;
@@ -1809,7 +1809,7 @@ where
 
 1. $\Gamma$ deotes the [[Gamma function]]
 
-1. $K_{\nu}$ denotes the [[modified Bessel function]].
+1. $K_{\nu}$ denotes the [[modified Bessel function]] of order $\nu$.
 
 Notice that $K_\nu(a)$ diverges for $a \to 0$ as $a^{-\nu}$ ([DLMF 10.30.2](http://dlmf.nist.gov/10.30#E2)).
 
