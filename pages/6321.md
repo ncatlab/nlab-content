@@ -90,7 +90,9 @@ Comparison to [[experiment]] is reviewed in
 
 * _Tests of QED_ ([pdf](http://edu.itp.phys.ethz.ch/hs10/ppp1/PPP1_6.pdf))
 
+Specifically via the [[Lamb shift]]:
 
+* Savely G. Karshenboim, D. I. Mendeleev, _The Lamb Shift of Hydrogen and Low-Energy Tests of QED_ ([arXiv:hep-ph/9411356](https://arxiv.org/abs/hep-ph/9411356))
 
 
 [[!redirects quantum electrodynamics]]
