@@ -242,9 +242,11 @@ Then the path $(2,1)$-category $P_1(X)$ is defined as follows:
 
 ## References
 
+Named after [[Hendrik Lorentz]].
+
 A classic reference for general relativity is
 
-* Robert Wald: _General Relativity_
+* [[Robert Wald]], _General Relativity_
 
 A textbook dedicated to the classical [[differential geometry|diffential geometric]] aspects Lorentzian manifolds is
 
@@ -252,7 +254,7 @@ A textbook dedicated to the classical [[differential geometry|diffential geometr
 
 A classical influential text on the nature of Lorentzian space is
 
-* Roger Penrose, Wolfgang Rindler, _Spinors and space time_, in 2 vols. Cambridge Univ. Press 1984/1988.  
+* [[Roger Penrose]], [[Wolfgang Rindler]], _Spinors and space time_, in 2 vols. Cambridge Univ. Press 1984/1988.  
 
 The relation between causality and [[poset]]-structure (see also [[causal set]]) is reviewed for instance in 
 
