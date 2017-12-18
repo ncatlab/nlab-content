@@ -82,11 +82,12 @@ More generally, if $\mathbf{H}$ is an [[(∞,1)-topos]], $A$ is an [[n-groupoid]
 
 In general, for any class of limits $\Phi$, one may consider the class of all colimits that commute with $\Phi$-limits and dually.  These classes of limits and colimits share many of the properties of the above examples, especially when $\Phi$ is a [[sound doctrine]].
 
-## Certain colimits are stable by base change {#ColimitsStableByBaseChange}
+## Certain colimits are stable by base change 
+  {#ColimitsStableByBaseChange}
 
-Let $C$ be a category with [[pullback]]s and [[colimit]]s of shape $D$. 
+Let $C$ be a category with [[pullbacks]] and [[colimits]] of shape $D$. 
 
-We say that colimits of shape $D$ are **stable by [[base change]]** or **stable under pullback** if for every functor $F : D \to C$ and for all [[pullback]] diagrams of the form
+We say that colimits of shape $D$ are _stable by [[base change]]_ or _stable under pullback_ or that these _[[universal colimit|colimits are universal]]_ if for every functor $F : D \to C$ and for all [[pullback]] diagrams of the form
 
 $$
   \array{
@@ -101,9 +102,9 @@ $$
 the canonical morphism
 
 $$
-  colim_{d \in D} (F(d) \times_Z Y)
-  \stackrel{\simeq}{\to}
-  (colim_D F) \times_Z Y
+  \underset{d \in D}{colim} (F(d) \times_Z Y)
+    \stackrel{\simeq}{\to}
+  (\underset{d \in D}{colim} F(d)) \times_Z Y
 $$
 
 is an [[isomorphism]].
@@ -121,3 +122,4 @@ but not in for instance
 **Remark**
 
 In [[topos]] theory and [[(∞,1)-topos]] theory one says that _[[universal colimits|colimits are universal]]_ if they are preserved under pullback.
+
