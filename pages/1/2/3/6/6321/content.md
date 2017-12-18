@@ -24,6 +24,8 @@ _Quantum electrodynamics_ ("QED") is the [[quantum field theory]] of [[electroma
 
 ## Related concepts
 
+* [[photon propagator]]
+
 * [[quantum field theory]]
 
   * [[scalar field]]
