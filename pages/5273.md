@@ -59,6 +59,8 @@ The term "spinor" is due to [[Paul Ehrenfest]].
 
 * {#Cartan66} [[Élie Cartan]], _Theory of Spinors_, Dover,  first edition 1966
 
+* [[Roger Penrose]], [[Wolfgang Rindler]], _Spinors and space time_, in 2 vols. Cambridge Univ. Press 1984/1988.  
+
 * [[H. Blaine Lawson]], [[Marie-Louise Michelsohn]], chapter II, section 3 _[[Spin geometry]]_, Princeton University Press (1989)
 
 * [[Daniel Freed]], _[[Five lectures on supersymmetry]]_
