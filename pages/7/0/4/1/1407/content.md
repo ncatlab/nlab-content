@@ -428,7 +428,5 @@ See also
 [[!redirects superstring theory]]
 [[!redirects superstring theories]]
 
-[[!redirects string perturbation series]]
 [[!redirects perturbative string theory]]
 
-[[!redirects tring perturbation theory]]
