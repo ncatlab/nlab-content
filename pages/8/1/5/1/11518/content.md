@@ -175,6 +175,9 @@ Characterization via [[excisive functors]] is in
 
 * {#Blumberg05} [[Andrew Blumberg]], _Continuous functors as a model for the equivariant stable homotopy category_ ([arXiv:math.AT/0505512](http://arxiv.org/abs/math.AT/0505512))
 
+In the case of a [[cyclic group]] of prime order, genuine $G$-spectra admit a simple model which amounts to specifying a spectrum $E$, a $G$-action on $E$, a genuine fixed point spectrum $E^G$, and a diagram $E_{hG} \to E^G \to E^{hG}$.  See Example 3.29 in:
+
+* [[Saul Glasman]], _Stratified categories, geometric fixed points and a generalized  Arone-Ching theorem_, [arXiv:1507.01976](https://arxiv.org/abs/1507.01976).
 
 [[!redirects G-spectra]]
 
