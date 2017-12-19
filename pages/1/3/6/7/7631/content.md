@@ -26,7 +26,7 @@ The [[logical connectives]] can then be defined inductively by clauses such as t
 * $x \Vdash P \oplus Q$ (the positive [[disjunction]]) if and only if $x \Vdash P$ or $x\Vdash Q$.
 * $x \Vdash \mathbf{0}$ (the positive [[falsity]]) never.
 * $x \Vdash \top$ (the negative [[truth]]) always.
-* $x \Vdash P \multimap Q$ (the one-sided linear implication) if and only if for all $x,y,z$, if $R x y z$ and $y\Vdash P$, then $z\Vdash Q$.
+* $x \Vdash P \multimap Q$ (the one-sided linear implication) if and only if for all $y,z$, if $R x y z$ and $y\Vdash P$, then $z\Vdash Q$.
 * $x \Vdash P \otimes Q$ (the positive conjunction) if and only if there exist $y,z$ such that $R y z x$ and $y\Vdash P$ and $z\Vdash Q$.
 
 The logic obtained thereby will generally be [[substructural logic|substructural]]: it need not satisfy the structural rules like [[weakening rule|weakening]], [[contraction rule|contraction]], or even [[exchange rule|exchange]].  On this page, we have used the notation for substructural connectives from [[linear logic]].
