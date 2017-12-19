@@ -81,6 +81,13 @@ The Moyal product was introduced independently in
 
 * [[José Moyal]], _Quantum mechanics as a statistical theory_. Mathematical Proceedings of the Cambridge Philosophical Society 45: 99 (1949)
 
+General accounts include
+
+* D.B. Fairlie, _Moyal Brackets, Star Products and the Generalised Wigner Function_ ([arXiv:hep-th/9806198](https://arxiv.org/abs/hep-th/9806198))
+
+* Maciej Blaszak, Ziemowit Domanski, _Maciej Blaszak, Ziemowit Domanski_ ([arXiv:1009.0150](https://arxiv.org/abs/1009.0150))
+
+
 The understanding of the Moyal product as the [[polarization|polarized]] [[groupoid convolution algebra]] of the corresponding [[symplectic groupoid]], hence as an example of [[geometric quantization of symplectic groupoids]] had been suggested without proof in
 
 * [[Alan Weinstein]], in P. Donato et al. (eds.) _Symplectic Geometry and Mathematical Physics,  (Birkh&#228;user, Basel, 1991); p. 446.
