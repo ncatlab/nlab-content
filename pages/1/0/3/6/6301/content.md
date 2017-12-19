@@ -185,7 +185,7 @@ A brief look at the causality property of the string 2-point function is in
 
 * {#Martinec95} [[Emil Martinec]], _Strings and Causality_ ([pdf](cds.cern.ch/record/569030/files/9311129.pdf)) in L. Baulieu, V.  Dotsenko, V. Kazakov, P. Windey (eds.) Quantum Field Theory and String Theory , NATO ASI Series B: Physics Vol. 328 (1995)
 
-An in-depth discussion of causality of the [[string scattering amplitude|string scattring]] [[S-matrix]] via [[open string field theory]] is in
+An in-depth discussion of causality of the [[string scattering amplitude|string scattering]] [[S-matrix]] via [[open string field theory]] is in
 
 * {#ErlerGross04} [[Theodore Erler]], [[David Gross]], _Locality, Causality, and an Initial Value Formulation for Open String Field Theory_ ([arXiv:hep-th/0406199](https://arxiv.org/abs/hep-th/0406199))
 
