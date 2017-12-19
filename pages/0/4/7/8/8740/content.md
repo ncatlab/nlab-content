@@ -85,7 +85,7 @@ $$
   \;\coloneqq\;
   prod 
     \circ \exp\left(
-       \hbar \omega^{i j} \partial_i \otimes \partial_j
+       \hbar \omega^{i j} \frac{\partial}{\partial x^i} \otimes \frac{\partial}{\partial x^j}
   \right)
 $$
 
