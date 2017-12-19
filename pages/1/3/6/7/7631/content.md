@@ -86,12 +86,13 @@ If we were to additionally add the assumption that $R$ is *associative*, in the 
 
 then $A^{op}$ would become a [[promonoidal category|promonoidal]] poset, and hence $\mathbf{2}^A$ would be a complete and cocomplete closed monoidal poset, i.e. a [[quantale]].
 
-+--{: .query}
-Compatibility relations, satisfying some axioms, should make $\mathbf{2}^A$ [[*-autonomous category|*-autonomous]]?  Is a compatibility relation a "pro-*-autonomous poset"?
-=--
-
 A false set $F$ is of course just an arbitrary object of this quantale.  Closing up under double-negation means restricting to the sub-poset of elements that are equal to their "double dual" $x = (x \multimap F) \multimap F$.  Since the self-adjunction $(-\multimap F)$ is [[idempotent adjunction|idempotent]], this sub-poset is itself a quantale, and indeed a [[star-autonomous category|*-autonomous]] one.
 
+The quantale-theoretic content of a compatibility relation is somewhat trickier: as defined it is a profunctor from $A$ to itself, whereas the negation of a pro-$*$-autonomous poset would be a profunctor from $A^{op}$ to $A$.  (This would induce a functor $(\mathbf{2}^A)^{op} \to \mathbf{2}^{A}$ due to the special property that $\mathbf{2}\cong \mathbf{2}^{op}$.)  Moreover, the definition of $x \Vdash \neg P$ for a compatibility relation is also the (metatheoretic) *negation* of the map on $\mathbf{2}^A$ that would be induced profunctorially.  If we put these together, we can see that negation ought to be the the composite of the map $\mathbf{2}^A \to \mathbf{2}^A$ induced by the profunctor $C$ with the isomorphism $\mathbf{2}^A \cong (\mathbf{2}^{A^{op}})^{op}$ (using again that $\mathbf{2}\cong \mathbf{2}^{op}$).  At least if $A$ is discrete, so that $A\cong A^{op}$, then this has the correct domain and codomain, so we should be able to assert an axiom ensuring that it makes $\mathbf{2}^A$ $*$-autononmous.
+
+### Generalizations
+
+The quantale-theoretic viewpoint suggests a generalization replacing $\mathbf{2}$ by any other quantale.  That is, for any quantale $Q$, we can define a notion of "$Q$-valued ternary frame" that generates a new quantale by Day convolution.  Everything goes through without significant change, except that compatibility relations seem to require $Q$ itself to be $*$-autonomous.
 
 ## Examples
 
