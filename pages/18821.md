@@ -1358,7 +1358,7 @@ $$
   \label{ElectromagneticFieldEulerLagrangeForm}
   \delta_{EL} \mathbf{L}
   \;=\;
-  - f^{\mu \nu}_{,\mu} \delta a_\nu
+  - \frac{d}{d x^\mu} f^{\mu \nu} \delta a_\nu
   \,.
 $$
 
@@ -1939,6 +1939,8 @@ In the case that the field bundle is a [[trivial vector bundle]] over [[Minkowsk
 $\Phi_{(-)}$ satisfies the following [[differential equation]] (again using prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}):
 
 $$
+  \frac{\delta_{EL} L}{\delta \phi^a}
+  \;\coloneqq\;
   \left(
     \frac{\partial L}{\partial \phi^a}
       -
@@ -1958,8 +1960,21 @@ $$
   \right)
   \;=\;
   0
-  \,.
+  \,,
 $$
+
+where the [[differential operator]] (def. \ref{DifferentialOperator})
+
+$$
+  \label{DifferentialOperatorEulerLagrangeDerivative}
+  \delta_{EL}
+  \;\colon\;
+  \Gamma_\Sigma(E)
+    \longrightarrow
+  \Gamma_\Sigma(T^\ast_\Sigma E)
+$$
+
+from the [[field bundle]] (def. \ref{FieldsAndFieldBundles}) to its [[vertical cotangent bundle]] (def. \ref{VerticalTangentBundle}) is given by the _[[Euler-Lagrange derivative]]_ (eq:EulerLagrangeEquationGeneral).
 
 The _[[on-shell]] [[space of field histories]]_ is the space of solutions to this condition, namely the
 the sub-[[super formal smooth set|super smooth set]] (def. \ref{SuperFormalSmoothSet})
@@ -2218,23 +2233,40 @@ $$
 
 (in spacetime dimension $p+1 \in \{3,4,6,10\}$ with $m = 0$ unless $p+1 = 4$).
 
-From example \ref{PresymplecticCurrentDiracField} it follows that
-the corresponding [[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]] (def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime}) is
+By example \ref{PresymplecticCurrentDiracField} the [[Euler-Lagrange derivative|Euler-Lagrange]] [[differential operator]] (eq:DifferentialOperatorEulerLagrangeDerivative) for the [[Dirac field]] is of the form
+
+$$
+  \label{DiracOperatorAsELOperator}
+  \array{
+    \Gamma_\Sigma(\Sigma \times S)
+     &\overset{  }{\longrightarrow}&
+    \Gamma_\Sigma(\Sigma \times S^\ast)
+    \\
+    \Psi &\mapsto& \overline{(-)} D \psi
+  }
+$$
+
+so that the corresponding [[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]] (def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime}) is equivalently
 
 $$
   \label{DiracEquation}
-  \left(-i \gamma^\mu \partial_\mu + m\right)\psi \;=\; 0
+  \underset{D}{
+  \underbrace{
+     \left(-i \gamma^\mu \partial_\mu + m\right)
+  }}
+  \psi \;=\; 0
   \,.
 $$
 
-This is the _[[Dirac equation]]_. In terms of the _[[Feynman slash notation]]_ from (eq:FeynmanSlashNotationForMasslessDiracOperator)
+This is the _[[Dirac equation]]_ and $D$ is called a _[[Dirac operator]]_. In terms of the _[[Feynman slash notation]]_ from (eq:FeynmanSlashNotationForMasslessDiracOperator)
 the corresponding [[differential operator]], the _[[Dirac operator]]_ reads
 
 $$
+  D
+  \;=\;
   \left(
     - i \partial\!\!\!/\, + m
   \right)
-  \psi = 0
   \,.
 $$
 
@@ -2294,16 +2326,15 @@ $$
 ###### Proof
 
 
-Regard the Dirac operator as taking values in the [[dual vector bundle|dual]] [[spin bundle]] by using the [[Dirac conjugate]] $\overline{(-)}$ (eq:DiracConjugate):
+By (eq:DiracOperatorAsELOperator) we are to regard the Dirac operator as taking values in the [[dual vector bundle|dual]] [[spin bundle]] by using the [[Dirac conjugate]] $\overline{(-)}$ (eq:DiracConjugate):
 
 $$
   \array{
     \Gamma_\Sigma(\Sigma \times S)
-      &\overset{D}{\longrightarrow}&
+      &\overset{}{\longrightarrow}&
     \Gamma_\Sigma(\Sigma \times S^\ast)
     \\
-   \Psi &\mapsto&
-   \overline{(-)} \gamma^\mu \partial_\mu  \Psi
+   \Psi &\mapsto& \overline{(-)} D \Psi
   }
 $$
 
