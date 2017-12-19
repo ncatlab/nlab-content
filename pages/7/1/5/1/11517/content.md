@@ -19,112 +19,22 @@
 
 ## Idea
 
-For $G$ a [[topological group]], a _spectrum with $G$-action_ is a [[spectrum object]] in the [[category]] of [[topological G-spaces]] ([e.g. Carlsson 92, def. 3.1](#Carlsson92)). The [[stable homotopy theory]] of spectra with $G$-action is part of the subject of [[equivariant stable homotopy theory]]. 
+For $G$ a [[topological group]], a _spectrum with $G$-action_ is a [[spectrum]] equipped with an [[action]] of $G$. In other words, it is a functor from $BG$ to the [[(infinity,1)-category]] of spectra. The [[stable homotopy theory]] of spectra with $G$-action is part of the subject of [[equivariant stable homotopy theory]]. 
 
-There one typically considers a richer concept of _[[G-spectra]]_. In that context a spectrum with $G$-action is a [[G-spectrum]] for the "trivial universe" and is called a _naive G-spectrum_.
+Spectra with $G$-action are sometimes called "doubly naive" $G$-spectra. They are even more naive than [[naive G-spectra]], and can be identified with the full subcategory of [[G-spectra]] consisting of "Borel-complete" $G$-spectra (see Prop. 6.17 in [MNN](#MNN) or Thm. II.2.7 in [NS](#NikolausScholze)).
 
-## Properties
+## See also
 
+* [[naive G-spectra]], [[G-spectra]]
 
-### Relation to $G$-spectra
+* [[G-spaces]]
 
-For $U$ a universe of $G$-[[representations]] in the sense of [[genuine G-spectra]], there is the inclusion
-
-$$
-  i \;\colon\; U^G \longrightarrow U
-$$
-
-of the [[fixed points]]. A [[genuine G-spectrum]] modeled on $U^G$ is a [[spectrum with G-action]] ("[[naive G-spectrum]]"). The induced [[adjunction]]
-
-$$
-  (i_\ast \dashv i^\ast) \;\colon\; G Spectra \longrightarrow Spectra(PSh_\infty(Orb_G))
-$$
-
-has [[unit]] and [[counit]] which are [[equivalences]] on the underlying bare [[spectra]].
-
-(e.g. [Carlsson 92, p. 14](#Carlsson92), [Greenlees May, p. 16](#GreenleesMay))
-
-### Homotopy fixed points and homotopy quotients
-
-Write
-
-$$
-  (-)^G \;\colon\; Spectra(G Top) \longrightarrow Spectra
-  \,.
-$$
-
-for the [[fixed point]] ([[invariants]]) [[functor]] and
-
-$$
-  (-)/Q \;\colon\; Spectra(G Top) \longrightarrow Spectra
-$$
-
-for the [[quotient]] ([[coinvariants]]) functor.
-
-Write $E G$, as usual, for a [[contractible topological space|contractible]] [[topological G-space]] whose $G$-[[action]] is [[free action|free]]. Write $E G_+$ for this regarded as a pointed $G$-space with a point freely adjoined.
-
-Then there are two functor
-
-$$
-  EG_+ \wedge (-) , [EG_+,-] \;\colon\;  Spectra(G Top) \to Spectra(G Top)
-$$
-
-given by forming [[smash product]] with $E G_+$ and forming the [[internal hom]] out of $E G_+$.
-
-Then the [[homotopy fixed point]] functor is
-
-$$
-  (-)^{h g} \coloneqq [E G_+, -]^G \;\colon\; Spectra(G Top) \longrightarrow Spectra
-$$
-
-and the [[homotopy quotient]] functor is
-
-$$
-  (-)//G \coloneqq (-)_{h G} \coloneqq (E G_+ \wedge (-))/G
-  \;\colon\; Spectra(G Top) \longrightarrow Spectra
-$$
-
-### Relation to equivariant cohomology
- {#RelationToEquivariantCohomology}
-
-Spectra with $G$-action [[Brown representability theorem|represent]] $\mathbb{Z}$-graded [[equivariant cohomology]] on [[G-spaces]].
-
-For $X$ a [[G-space]] and $E$ a spectrum with $G$-action, then the corresponding cohomology is
-
-$$
-  E^\bullet(X) \coloneqq \pi_\bullet(Hom(X,E)^G)
-  \,,
-$$
-
-where on the right we have the [[homotopy fixed points]] of the [[mapping spectrum]], which inherits a [[conjugation action]] by $G$ from the $G$-action on $X$ and $E$.
-
-More abstractly, in terms of the [[tangent cohesive (∞,1)-topos]] $T PSh_\infty(Orb)_{/\mathbf{B}G}$ of the [[slice (∞,1)-topos]] of [[orbispaces]] over $\mathbf{B}G$, this means that
-
-$$
-  E(X) = \underset{\mathbf{B}G}{\prod} [X,E]
-$$
-
-is the [[dependent product]] over $\mathbf{B}G$ of the intrinsic [[cohomology]] of the tangent slice topos. See at _[[∞-action]]_ for more on this.
-
-Notice here [[Elmendorf's theorem]] which identifies [[G-spaces]] with [[(∞,1)-presheaves]] over the [[orbit category]] $Orb_G$. It is via this equivalence that spectra with $G$-action represent [[equivariant cohomology]] in the form of [[Bredon cohomology]].
-
-Hence exhibiting a spectrum $E$ with $G$-action as a [[spectrum]]-valued [[presheaf]] on the [[orbit category]] means to assign to any [[coset space]] $G/H$ of $G$ the $H$-[[homotopy fixed points]] of $E$:
-
-$$
-  E//G \;\colon\;  G/H \mapsto E^{H}
-  \,.
-$$
-
-
+* [[equivariant stable homotopy theory]]
 
 ## References
 
-* {#Carlsson92} [[Gunnar Carlsson]], _A survey of equivariant stable homotopy theory_,Topology, Vol 31, No. 1, pp. 1-27, 1992 ([pdf](http://www.maths.ed.ac.uk/~aar/papers/carlsson1.pdf))
+* {#MNN} [[Akhil Mathew]], [[Niko Naumann]], [[Justin Noel]], _Nilpotence and descent in equivariant stable homotopy theory_, Adv. Math. 305 (2017), 994--1084, [arXiv:1507.06869](https://arxiv.org/abs/1507.06869).
 
-* {#GreenleesMay} [[John Greenlees]], [[Peter May]], _Equivariant stable homotopy theory_ ([pdf](http://www.math.uchicago.edu/~may/PAPERS/Newthird.pdf))
-
+* {#NikolausScholze} [[Thomas Nikolaus]], [[Peter Scholze]], _On topological cyclic homology_, [arXiv:1707.01799](https://arxiv.org/abs/1707.01799).
 
 [[!redirects spectra with G-action]]
-
-[[!redirects naive G-spectrum]]
-[[!redirects naive G-spectra]]
