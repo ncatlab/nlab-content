@@ -2744,7 +2744,11 @@ See also at _[[sigma model]]_ the section _<a href="http://ncatlab.org/nlab/show
 
 Early work basing [[perturbative quantum field theory]] on the concept of the S-matrix is
 
-* {#Heisenberg43} [[Werner Heisenberg]], Zeitschrift f&#252;r Physik 120, 513, 1943
+* {#Heisenberg43} [[Werner Heisenberg]], Zeitschrift für Physik 120, 513, 1943
+
+A textbook account of the axiomatic approach is 
+
+* Eden, Landshoff, Olive, Polkinghorne, _The Analytic S-matrix_, Cambridge 1966 ([pdf](http://assets.cambridge.org/97805210/48699/sample/9780521048699ws.pdf))
 
 A textbook account of the traditional heuristic picture is in
 
