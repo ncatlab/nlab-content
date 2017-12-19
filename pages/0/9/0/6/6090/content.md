@@ -31,7 +31,7 @@ There have been attempts to _define_ [[perturbative quantum field theory]] by di
 
 In the [[field theory]]-picture the crucial condition on the S-matrix is its [[causal additivity]] (def. \ref{PerturbativeSMatrixOnMinkowskiSpacetime} below) which reflects the [[microcausality]] of [[quantum observables]] (prop. \ref{PerturbativeQuantumObservablesIsLocalnet} below), whence the name "[[causal perturbation theory]]". 
 
-{#TheAnalyticSMatrix} This [[microcausality]] property of the S-matrix when understood in terms of underlying [[spacetime]] and [[field (physics)|fields]] is supposed to be detected more abstractly by the S-matrix being a suitable [[analytic function]] of the [[wave vectors]] of the scattering asymptotic states, often refereed to via "dispersion relations" (e.g. [Eden-Ladshoff-Olive-Polkinhorne 66 (1.1.1)-(1.1.5)](#EdenLadshoffOlivePolkinhorne66), [Weinberg 95, section 10.8](#Weinberg95)). Since thereby analycity is recognized as the crucial property of the S-matrix in the spacetime/field-independent axiomatization, this is often referred to as "the analytic S-matrix" (e.g. [Eden-Ladshoff-Olive-Polkinhorne 66](#EdenLadshoffOlivePolkinhorne66)).
+{#TheAnalyticSMatrix} This [[microcausality]] property of the S-matrix when understood in terms of underlying [[spacetime]] and [[field (physics)|fields]] is supposed to be detected more abstractly by the S-matrix being a suitable [[analytic function]] of the [[wave vectors]] of the scattering asymptotic states, often refereed to via "dispersion relations" (e.g. [Eden-Ladshoff-Olive-Polkinhorne 66 (1.1.1)-(1.1.5)](#EdenLadshoffOlivePolkinhorne66), [Gribov 69, 1.1.2](#Gribov69), [Weinberg 95, section 10.8](#Weinberg95)). Since thereby analycity is recognized as the crucial property of the S-matrix in the spacetime/field-independent axiomatization, this is often referred to as "the analytic S-matrix" (e.g. [Eden-Ladshoff-Olive-Polkinhorne 66](#EdenLadshoffOlivePolkinhorne66)).
 
 The perception of the nature of the S-matrix as a primary or derived concept in the foundations of quantum field theory has a convoluted (and ongoing) history, see [below](#History).
 
@@ -2836,7 +2836,7 @@ Textbooks account of this axiomatic approach to defining the S-matrix (i.e. not 
 
 * {#EdenLadshoffOlivePolkinhorne66} Eden, Landshoff, [[David Olive]], [[John Polkinghorne]], _The Analytic S-matrix_, Cambridge 1966 ([pdf](http://assets.cambridge.org/97805210/48699/sample/9780521048699ws.pdf))
 
-* {#Gribov03} [[Vladimir Gribov]], _The theory of complex angular momenta_, Cambridge 2003 ([doi:10.1017/CBO9780511534959](https://doi.org/10.1017/CBO9780511534959))
+* {#Gribov69} [[Vladimir Gribov]], _The theory of complex angular momenta_, Lecture St. Petersburg 1996, publsihed.  Cambridge 2003 ([doi:10.1017/CBO9780511534959](https://doi.org/10.1017/CBO9780511534959))
 
 A textbook account of the traditional heuristic picture deriving the S-matrix in [[perturbative quantum field theory|perturbative]] [[Lagrangian field theory]] is in
 
