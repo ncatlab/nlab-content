@@ -63,6 +63,36 @@ $$
 
 ## Properties
 
+### Integral representation
+
+
++-- {: .num_prop #IntegralRepresentationOfStarProduct}
+###### Proposition
+**([[integral]] representation of [[star product]])**
+
+If the functions $f,g$ admit [[Fourier analysis]] (are [[functions with rapidly decreasing partial derivatives]]), then  their [[star product]] is equivalently given by the following [[integral]] expression:
+
+$$
+  \begin{aligned}
+  \left(f \star_\omega g\right)(x)
+   &= 
+  \frac{(det(\omega)^{2n})}{(2 \pi \hbar)^{2n} }
+  \int
+    e^{ - \tfrac{1}{i \hbar} \omega((x - \tilde y),(x-y))}
+    f(y)
+    g(\tilde y)
+   \,
+   d^{2 n} y
+   \,
+   d^{2 n} \tilde y
+  \end{aligned}
+$$
+
+=--
+
+([Baker 58](#Baker58), see at _[[star product]]_ [this prop](star+product#IntegralRepresentationOfStarProduct)).
+
+
 ### Via geometric quantization
  {#ViaGeometricQuantization}
 
@@ -81,9 +111,13 @@ The Moyal product was introduced independently in
 
 * [[José Moyal]], _Quantum mechanics as a statistical theory_. Mathematical Proceedings of the Cambridge Philosophical Society 45: 99 (1949)
 
+The integral expression (prop. \ref{IntegralRepresentationOfStarProduct}) is apparently due to 
+
+* {#Baker58} George A. Baker, _Formulation of Quantum Mechanics Based on the Quasi-Probability Distribution Induced on Phase Space_, Jr. Phys. Rev. 109, 2198 – Published 15 March 1958 ([doi:10.1103/PhysRev.109.2198](https://doi.org/10.1103/PhysRev.109.2198))
+
 General accounts include
 
-* D.B. Fairlie, _Moyal Brackets, Star Products and the Generalised Wigner Function_ ([arXiv:hep-th/9806198](https://arxiv.org/abs/hep-th/9806198))
+* D. B. Fairlie, _Moyal Brackets, Star Products and the Generalised Wigner Function_ ([arXiv:hep-th/9806198](https://arxiv.org/abs/hep-th/9806198))
 
 * Maciej Blaszak, Ziemowit Domanski, _Maciej Blaszak, Ziemowit Domanski_ ([arXiv:1009.0150](https://arxiv.org/abs/1009.0150))
 
