@@ -118,3 +118,5 @@ based on
 [[!redirects exponential conjunction]]
 [[!redirects exponential modality]]
 [[!redirects storage modality]]
+[[!redirects exponential modalities]]
+[[!redirects storage modalities]]
