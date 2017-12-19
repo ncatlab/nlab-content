@@ -75,7 +75,7 @@ sends $1_X$ to $j_X$.  The two are essentially equivalent, and the one given her
 +-- {: .query}
 [[Tobias Fritz]]: I suspect there is a variant of the definition involving a transformation $R^Z_{X Y} \colon  [X,Y] \to [[Y,Z],[X,Z]]$ rather than $L$. Is this correct? If so, how do these two definitions relate? Can one of them be expressed in terms of the other? Or is there a refined definition which comprises both $L$ and $R$?
 
-[Discussion](http://nforum.mathforge.org/discussion/4632/closed-category/)
+[Discussion](http://nforum.ncatlab.org/discussion/4632/closed-category/)
 =--
 
 
