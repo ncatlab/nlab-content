@@ -112,7 +112,7 @@ and for the interacting scalar field in the toy example of regular non-local int
 
 ### On Minkowski spacetime
 
-Causal perturbation teory has been worked out in detail for the example of [[quantum electrodynamics]] on [[Minkowski spacetime]] in
+Causal perturbation theory has been worked out in detail for the example of [[quantum electrodynamics]] on [[Minkowski spacetime]] in
 
 * {#Scharf95} [[Günter Scharf]], _[[Finite Quantum Electrodynamics -- The Causal Approach]]_, Berlin: Springer-Verlag, 1995, 2nd edition
 
