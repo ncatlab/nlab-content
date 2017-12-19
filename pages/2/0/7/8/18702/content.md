@@ -11,6 +11,8 @@ Topological recursion ([Chekhov-Eynard-Orantin 06](#ChekhovEynardOrantin06),[Eyn
 
 There is some deep relation to the [[topological string]] [[B-model]] and [[Gromov-Witten invariants]] ([Bouchard-Klemm-Marino-Pasquetti 09](#BouchardKlemmMarinoPasquetti09)). It yields proofs of [[mirror symmetry]] in certain cases, valid at all [[genus of a surface|genera]] ([Eynard-Orantin 12](#EynardOrantin12),[Fang-Liu-Zong 13](#FangLiuZong13)).
 
+A geometric refinement of topological recursion is known as _geometric recursion_ and developed in ([Andersen-Borot-Orantin 17](#AndersenBorotOrantin17)).
+
 ## Related concepts
 
 * [[spectral curve]]
@@ -64,6 +66,8 @@ The relation to the [[topological string]] [[B-model]], [[Gromov-Witten invarian
 
 * {#FangLiuZong13} Bohan Fang, Chiu-Chu Melissa Liu, Zhengyu Zong, _All Genus Open-Closed Mirror Symmetry for Affine Toric Calabi-Yau 3-Orbifolds_ ([arXiv:1310.4818](https://arxiv.org/abs/1310.4818))
 
+### Geometric refinement
 
+* {#AndersenBorotOrantin17} [[Jørgen Andersen]], [[Gaëtan Borot]], [[Nicolas Orantin]], _Geometric recursion_, ([arXiv:1711.04729](https://arxiv.org/abs/1711.04729))
 
 [[!redirects topological recursions]]
