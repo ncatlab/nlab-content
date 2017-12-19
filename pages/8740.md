@@ -17,7 +17,7 @@
 
 In [[deformation quantization]] of [[Poisson manifolds]] the commutative product $\cdot$ of the [[commutative algebra|commutative]] [[algebra of functions]] is replaced by a noncommutative associative product. This is often called a **star product** and denoted "$\star$". 
 
-An archetypical example is the _[[Moyal star product]]_ (example \ref{MoyalStarProduct} below) that deforms the function algebra on a Poisson vector space, and often "star product" is by default understood to be a Moyal star product. Indeed every star product induced from a constant rank-2 tensor on a vector space is [[isomorphism|isomorphic]] to a Moyal star product (prop. \ref{SymmetricContribution} below).
+An [[archetypal example]] is the _[[Moyal star product]]_ (example \ref{MoyalStarProduct} below) that deforms the function algebra on a Poisson vector space, and often "star product" is by default understood to be a Moyal star product. Indeed every star product induced from a constant rank-2 tensor on a vector space is [[isomorphism|isomorphic]] to a Moyal star product (prop. \ref{SymmetricContribution} below).
 
 More recently also nonassociative "star products" have been proposed to be of interest.
 
