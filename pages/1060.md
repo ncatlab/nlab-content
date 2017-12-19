@@ -186,6 +186,8 @@ where $\sigma: V \otimes W \to W \otimes V$ is the symmetry. The unit is the ten
 
 * Suppose $\langle C,\otimes, I,\multimap\rangle$ is a closed symmetric monoidal category equipped with a "pre-dualizing object" $\bot$, in the sense that the contravariant self-adjunction $(-\multimap\bot) \dashv (-\multimap\bot)$ is [[idempotent adjunction|idempotent]], i.e. the double-dualization map $A \to (A \multimap \bot) \multimap \bot$ is an isomorphism whenever $A$ is of the form $B\multimap\bot$.  (Note that idempotence is automatic if $C$ is a poset.)  Then the category of [[fixed point of an adjunction|fixed points]] of this adjunction, i.e. the full subcategory of objects of the form $B\multimap\bot$, is $*$-autonomous.  For it is closed under $\multimap$, as $(A\multimap (B\multimap \bot)) \cong (A\otimes B\multimap \bot)$, and reflective with reflector $(-\multimap\bot)\multimap\bot$; hence it is closed symmetric monoidal with tensor product $((A\otimes B)\multimap\bot)\multimap\bot$, and all its double-dualization maps are isomorphisms by assumption.  A historically important example is Girard's [[phase semantics]] of [[linear logic]].
 
+* Phase semantics is also a special case of a [[ternary frame]], which is the case of the previous example when $\langle C,\otimes, I,\multimap\rangle$ has the [[Day convolution]] structure induced from a [[promonoidal category|promonoidal]] poset.  There is also another way to obtain negation in a ternary frame involving a "compatibility relation"...
+
 ## References ##
 
 The notion is originally due to
