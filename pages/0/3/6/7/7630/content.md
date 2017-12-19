@@ -10,7 +10,7 @@ A **promonoidal category** is like a [[monoidal category]] in whose structure (n
 
 A **promonoidal category** is a [[pseudomonoid]] in the [[monoidal bicategory]] [[Prof]].  This means that it is a [[category]] $A$ together with
 
-* A profunctor $P \colon A\times A$ &#8696; $A$.
+* A profunctor $P \colon A\times A &#8696; A$.
 * A profunctor $J\colon 1$ &#8696; $A$.
 * Associativity and unit isomorphisms $P \odot (P\times 1) \cong P\odot (1\times P)$, $P\odot (J\times 1) \cong 1$, and $P\odot (1\times J) \cong 1$.
 * The usual pentagon and unit conditions hold, as in a [[monoidal category]].
