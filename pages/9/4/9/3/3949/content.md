@@ -2,8 +2,11 @@ Interloper/dilettante. "Functional analyst", who sometimes wonders if the term m
 
 * [website](http://maths.lancs.ac.uk/~choiy1/)
 
+(Last properly active in 2014, but might be returning in 2018...)
+
 ### To do list ###
 Some things I am considering trying to write about, or contribute to. (This is mainly meant as a list to remind or nag me to write things down.)
+
 * [[projective Banach space|projective, injective and flat Banach spaces]] (both in the metric and topological categories of [[Banach space]]s)
 * RKHS
 * the bidualization monad on [[Banach space]]s
