@@ -490,6 +490,8 @@ $$
   pr_1^\ast \omega - pr_2^\ast \omega
 $$
 
+$\,$
+
 $$
   \begin{aligned}
     \Omega 
@@ -501,13 +503,63 @@ $$
   \end{aligned}
 $$
 
+$\,$
+
 $$
   \Theta 
    \coloneqq
-   \omega_{i j} ( x^i - y^i ) \wedge   d (x^j +  y^j) )  
+   \omega_{i j} ( x^i - y^i ) d (x^j +  y^j) )  
 $$
 
+polarized section is function $f = f(x,y)$ such that 
 
+$$
+  \iota_{\partial_{x^j} + \partial_{y^j}}(d f + i \Theta f) = 0
+$$
+
+hence
+
+$$
+  f(x,y) = f(x-y) e^{i \hbar \omega( x - y , x + y)}
+$$
+
+So 
+
+$$
+  \begin{aligned}
+  \int
+    f \bullet g (x,y)
+   d (x-y)
+  & =
+  \int
+    \int f(x,t) g(t,y) \, d t
+  d (x-y)
+  \\
+  & =
+  \int
+    \int 
+      f(x-t) g(t-y) 
+      e^{i \hbar \omega(x-t, x+t) + i \hbar \omega(t-y, t+y) }
+    d t
+  d(x-y)
+  \\
+  & =
+  \int
+    \int 
+      f(t) g((x-y)-t) 
+      e^{i \hbar \omega(t, (x + y) + x - y - t) + i \hbar \omega(x-y-t, x+y-t) }
+    d t
+  d(x-y)
+  \\
+  & =
+  \int
+    \int 
+      f(t) g(\tilde t) 
+      e^{i \hbar \omega(t, (x+ y) + \tilde t) + i \hbar \omega(\tilde t, x+y-t)}
+    d t
+  d\tilde t
+  \end{aligned}
+$$
 
 
 ## Related concepts
