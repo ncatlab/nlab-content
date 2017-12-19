@@ -39,7 +39,7 @@ We also need additional structure in order to model positive truth, negative fal
 
 ### Truth sets
 
-A **truth set** in an ordered ternary frame is a subset $T\subseteq A$ such that $x\le y$ if and only if there exists a $t\in T$ with $R t x y$.  Alternatively, given an unordered ternary frame $A$ and a subset $T$, we could *define* $x\le y$ in this way, and then require as a property of $T$ that the resulting relation is a [[partial order]].
+A **truth set** in an ordered ternary frame is a subset $T\subseteq A$ such that $x\le y$ if and only if there exists a $t\in T$ with $R t x y$, and if and only if there exists an $s\in T$ with $R x s y$.  (If $R$ is commutative, as above, then the two conditions are equivalent.)  Alternatively, given an unordered ternary frame $A$ and a subset $T$, we could *define* $x\le y$ in this way, and then require as a property of $T$ that the resulting relation is a [[partial order]].
 
 If $T$ is a truth set, then it makes sense to define
 
@@ -89,6 +89,10 @@ then $A^{op}$ would become a [[promonoidal category|promonoidal]] poset, and hen
 A false set $F$ is of course just an arbitrary object of this quantale.  Closing up under double-negation means restricting to the sub-poset of elements that are equal to their "double dual" $x = (x \multimap F) \multimap F$.  Since the self-adjunction $(-\multimap F)$ is [[idempotent adjunction|idempotent]], this sub-poset is itself a quantale, and indeed a [[star-autonomous category|*-autonomous]] one.
 
 The quantale-theoretic content of a compatibility relation is somewhat trickier: as defined it is a profunctor from $A$ to itself, whereas the negation of a pro-$*$-autonomous poset would be a profunctor from $A^{op}$ to $A$.  (This would induce a functor $(\mathbf{2}^A)^{op} \to \mathbf{2}^{A}$ due to the special property that $\mathbf{2}\cong \mathbf{2}^{op}$.)  Moreover, the definition of $x \Vdash \neg P$ for a compatibility relation is also the (metatheoretic) *negation* of the map on $\mathbf{2}^A$ that would be induced profunctorially.  If we put these together, we can see that negation ought to be the the composite of the map $\mathbf{2}^A \to \mathbf{2}^A$ induced by the profunctor $C$ with the isomorphism $\mathbf{2}^A \cong (\mathbf{2}^{A^{op}})^{op}$ (using again that $\mathbf{2}\cong \mathbf{2}^{op}$).  At least if $A$ is discrete, so that $A\cong A^{op}$, then this has the correct domain and codomain, so we should be able to assert an axiom ensuring that it makes $\mathbf{2}^A$ $*$-autononmous.
+
++--{: .query}
+To be completed...
+=--
 
 ### Generalizations
 
