@@ -25,9 +25,9 @@
 
 ## Idea
 
-The _causal propagator_ or _Pauli-Jordan distribution_ ([Jordan-Pauli 27](#JordanPauli27)) or _commutator function_ is a [[distribution]] which gives the [[integral kernel]] for the [[Poisson bracket]] on the [[covariant phase space]] of a [[free field|free]] [[local field theory]] (also known as the _[[Peierls bracket]]_).
+The _causal propagator_ or _Pauli-Jordan distribution_ ([Jordan-Pauli 27](#JordanPauli27)) or _commutator function_ is a [[distribution]] which gives the [[integral kernel]] for the [[Poisson bracket]] on the [[covariant phase space]] of a [[free fields|free]] [[local field theory]] (also known as the _[[Peierls bracket]]_).
 
-Specifcally for the [[free field|free]] [[scalar field]] on a [[spacetime]] $\Sigma$, its [[phase space]] is the space $ker(\Box + m^2) \hookrightarrow C^\infty(\Sigma)$ of solutions of the [[Klein-Gordon equation]] (the [[wave equation]] for vanishing [[mass]] $m$). For any  point $x \in \Sigma$ we denote by $\phi(x) \colon ker(\Box + m^2) \to \mathbb{R}$ the point [[evaluation]] [[functional]] which sends $\Phi \in C^\infty(\Sigma)$ to $\Phi(x)$. An [[observable]] of the scalar field is then a [[functional]] of the form $\phi(b) \coloneqq \int b(x) \phi(x) dvol(x)$, for $b$ a [[bump function]] on $\Sigma$. On the algebra of these observables there is a canonical [[Poisson bracket]] pairing defined (also known as the _[[Peierls bracket]]_ see at _[[scalar field]]_ for details), taking $\phi(b_1)$ and $\phi(b_2)$ to a new observable denoted $\{\phi(b_1), \phi(b_2)\}$. While a priori this Poisson bracket is defined only on the "smeared" observables $\phi(b)$, not on the point observables $\phi(x)$, nevertheless it has a [[distributional density|distributional]] [[integral kernel]] $\{\phi(x), \phi(y)\}$ such that
+Specifcally for the [[free fields|free]] [[scalar field]] on a [[spacetime]] $\Sigma$, its [[phase space]] is the space $ker(\Box + m^2) \hookrightarrow C^\infty(\Sigma)$ of solutions of the [[Klein-Gordon equation]] (the [[wave equation]] for vanishing [[mass]] $m$). For any  point $x \in \Sigma$ we denote by $\phi(x) \colon ker(\Box + m^2) \to \mathbb{R}$ the point [[evaluation]] [[functional]] which sends $\Phi \in C^\infty(\Sigma)$ to $\Phi(x)$. An [[observable]] of the scalar field is then a [[functional]] of the form $\phi(b) \coloneqq \int b(x) \phi(x) dvol(x)$, for $b$ a [[bump function]] on $\Sigma$. On the algebra of these observables there is a canonical [[Poisson bracket]] pairing defined (also known as the _[[Peierls bracket]]_ see at _[[scalar field]]_ for details), taking $\phi(b_1)$ and $\phi(b_2)$ to a new observable denoted $\{\phi(b_1), \phi(b_2)\}$. While a priori this Poisson bracket is defined only on the "smeared" observables $\phi(b)$, not on the point observables $\phi(x)$, nevertheless it has a [[distributional density|distributional]] [[integral kernel]] $\{\phi(x), \phi(y)\}$ such that
 
 $$
   \{ \phi(b_1), \phi(b_2) \}
@@ -1190,7 +1190,7 @@ $\,$
 
 Prop. \ref{CausalPropagatorAsFourierTransformOfDeltaDistributionOnTransformedKGOperator} exhibits the [[causal propagator]] of the [[Klein-Gordon operator]] on [[Minkowski spacetime]] as the difference of a contribution for [[positive real number|positive]] temporal [[angular frequency]] $k_0 \propto \omega(\vec k)$ (hence positive [[energy]] $\hbar \omega(\vec k)$ and a contribution of negative temporal [[angular frequency]].
 
-The [[positive real number|positive]] [[frequency]] contribution to the [[causal propagator]] is called the _[[Hadamard propagator]]_ (def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime} below), also known as the the _[[vacuum state]] [[2-point function]] of the [[free field|free]] [[real scalar field]] on [[Minkowski spacetime]]_. Notice that the temporal component
+The [[positive real number|positive]] [[frequency]] contribution to the [[causal propagator]] is called the _[[Hadamard propagator]]_ (def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime} below), also known as the the _[[vacuum state]] [[2-point function]] of the [[free fields|free]] [[real scalar field]] on [[Minkowski spacetime]]_. Notice that the temporal component
 of the [[wave vector]] is proportional to the _negative_ [[angular frequency]]
 
 $$
@@ -2986,7 +2986,7 @@ is the _causal propagator_ on the given spacetime.
 
 ## Properties
 
-The causal propagator yields the [[Peierls bracket]], which is the [[Poisson bracket]] on the [[covariant phase space]] of the [[free field|field]] [[scalar field|scalar]] [[field (physics)|field]]. The [[Moyal deformation quantization]] of this [[covariant phase space]] yields the [[Wick algebra]] of [[quantum observables]] of the free scalar field.
+The causal propagator yields the [[Peierls bracket]], which is the [[Poisson bracket]] on the [[covariant phase space]] of the [[free fields|field]] [[scalar field|scalar]] [[field (physics)|field]]. The [[Moyal deformation quantization]] of this [[covariant phase space]] yields the [[Wick algebra]] of [[quantum observables]] of the free scalar field.
 
 
 ## Related concepts
