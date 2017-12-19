@@ -1193,7 +1193,7 @@ $$
   \phantom{AAA}
   \left\{
   \begin{aligned}
-    \Box a_\nu & = 0
+    \Box a^\mu & = 0
     \\
     b & = \tfrac{1}{2} div a
     \\
@@ -1299,17 +1299,28 @@ $$
   \,.
 $$
 
-This shows that the propoagator is proportional to that of the [[real scalar field]]. To see that the index structure is as claimed, we need to unravel [[domains]] and [[codomains]] in def. \ref{AdvancedAndRetardedGreenFunctions}: First the [[wave equation]] [[differential operator]] $\Box$ is to be regarded as going from section of the [[field bundle]] (here the [[cotangent bundle]]) to those of its [[dual vector bundle]] (here the [[tangent bundle]], example \ref{TangentVectorFields}) such that the result is a [[formally self-adjoint differential operator]] (def. \ref{FormallyAdjointDifferentialOperators}). This is accomplished by contraction with the inverse [[Minkowski metric]] $\eta$:
+This shows that the propoagator is proportional to that of the [[real scalar field]]. 
+
+To see that the index structure is as claimed, recall that the [[domain]] and [[codomain]] of the [[advanced and retarded propagators]] in def. \ref{AdvancedAndRetardedGreenFunctions} is 
 
 $$
   \array{
-    \Gamma_{\Sigma}(T^\ast \Sigma)
-      &\overset{\eta^{-1} \circ \Box}{\longrightarrow}&
+    \Gamma_\Sigma(T\Sigma) 
+      &\overset{\left( (\mathrm{G}_{\pm})_{\mu \nu} \right)}{\longrightarrow}&
+    \Gamma_\Sigma(T^\ast \Sigma)
+  }
+$$
+
+corresponding to a [[differential operator]] for the [[equations of motion]] which by (eq:ElectromagneticFieldEulerLagrangeForm) and (eq:LorenzGaugeFixedEOMForVacuumElectromagnetism) is given by
+
+$$
+  \array{
+    \Gamma_\Sigma(T^\ast \Sigma)
+      &\overset{ \eta^{-1} \circ \Box }{\longrightarrow}&
     \Gamma_\Sigma(T \Sigma)
     \\
-    \left(A_\mu\right) &\mapsto&  \left(\eta^{\mu \nu}\Box A_\nu)\right)
+    A_\mu &\mapsto& \eta^{\mu \nu} \Box A_\nu
   }
-  \,.
 $$
 
 Then the defining equation (eq:AdvancedRetardedGreenFunctionIsRightInverseToDiffOperator) for the [[advanced and retarded Green functions]] is, in terms of their [[integral kernels]], the [[advanced and retarded propagators]] $\Delta_{\pm}$
