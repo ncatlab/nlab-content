@@ -3,6 +3,8 @@
 
 ## related $n$Lab entries
 
+* [[S-matrix]]
+
 * [[Montonen-Olive duality]] ([[S-duality]])
 
 * [[BPS state]]
