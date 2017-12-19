@@ -58,7 +58,7 @@ When these conditions hold, the adjunction is said to be **idempotent**.
 +-- {: .num_remark}
 ###### Remark
 
-For an idempotent adjunction as in def. \ref{IdempotentAdjunction}, the functors $F$ and $G$ restrict to an [[equivalence of categories]] between the [[full images]] of $F$ and of $G$ (which are, respectively, a [[coreflective subcategory]] of $D$ and a [[reflective subcategory]] of $C$, both equivalent to the $E$ in the last item above).
+For an idempotent adjunction as in def. \ref{IdempotentAdjunction}, the functors $F$ and $G$ restrict to an [[equivalence of categories]] between the [[full images]] of $F$ and of $G$ (which are, respectively, a [[coreflective subcategory]] of $D$ and a [[reflective subcategory]] of $C$, both equivalent to the $E$ in the last item above).  In other words, for an idempotent adjunction, the category of [[fixed point of an adjunction|fixed points]] has a particularly simple form.
 
 =--
 
