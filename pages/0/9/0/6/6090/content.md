@@ -21,6 +21,7 @@
 
 In [[quantum field theory]] a _[[scattering amplitude]]_ or _scattering matrix_, usually just _S-matrix_ for short, encodes the [[probability amplitudes]] for scatterings processes of [[particles]] off each other.
 
+### General idea
 
 Every [[Lagrangian field theory|Lagrangian]] [[perturbative quantum field theory]] has an S-matrix associated with its (after [[renormalization]]), usually thought of as a [[perturbation series]] over [[Feynman diagrams]] extracted from the [[Lagrangian density]]. The rigorous construction of this as an [[operator-valued distribution]] is the content of _[[causal perturbation theory]]_ ([Epstein-Glaser 73](#EpsteinGlaser73)).
 
@@ -33,6 +34,78 @@ In the [[field theory]]-picture the crucial condition on the S-matrix is its [[c
 {#TheAnalyticSMatrix} This [[microcausality]] property of the S-matrix when understood in terms of underlying [[spacetime]] and [[field (physics)|fields]] is supposed to be detected more abstractly by the S-matrix being a suitable [[analytic function]] of the [[wave vectors]] of the scattering asymptotic states, often refereed to via "dispersion relations" (e.g. [Eden-Ladshoff-Olive-Polkinhorne 66 (1.1.1)-(1.1.5)](#EdenLadshoffOlivePolkinhorne66), [Weinberg 95, section 10.8](#Weinberg95)). Since thereby analycity is recognized as the crucial property of the S-matrix in the spacetime/field-independent axiomatization, this is often referred to as "the analytic S-matrix" (e.g. [Eden-Ladshoff-Olive-Polkinhorne 66](#EdenLadshoffOlivePolkinhorne66)).
 
 The perception of the nature of the S-matrix as a primary or derived concept in the foundations of quantum field theory has a convoluted (and ongoing) history, see [below](#History).
+
+### The S-matrix bootstrap
+
+From [this Phyics.SE comment](https://physics.stackexchange.com/a/17973/5603) by [[Ron Maimon]]:
+
+The idea of the S-matrix "bootstrap" is that one may compute the S-matrix directly from suitable axioms without using a [[local field theory|local]] [[quantum field theory]] involving [[field (physics)|fields]] on [[spacetime]]. In order for the theory to be interesting, the S-matrix should obey certain properties abstracted away from field theory
+
+* It should be unitary
+* It should be Lorentz invariant
+* It should be crossing invariant: this means that the antiparticle scattering 
+should be described by the analytic continuation of the particle scattering
+* It should obey the Landau property--- that all singularities of scattering are poles and cuts corresponding to exchange of collections of real particles on shell.
+* It should obey (Mandelstam) analyticity: the amplitude should be writable as an integral over the imaginary part of the cut discontinuity from production of physical particles. Further, this cut discontinuity itself can be expanded in terms of another cut discontinuity (these are the mysterious then and still mysterious now double dispersion relations of Mandelstam).
+
+This is a sketchy summary, because each of these conditions is involved. The unitarity condition in particular, is very difficult, because it is so nonlinear. The only practical way to solve it is in a perturbation series which starts with weakly interacting nearly stable particles (described by poles of the S-matrix) which exchange each other (the exchange picture is required by crossing, and the form of the scattering is fixed by the Landau and Mandelstam analyticity, once you know the spectrum).
+
+The "Bootstrap property" is then the following heuristic idea, which is included in the above formal relations:
+
+* The particles and interactions which emerge as the spectrum of the S-matrix from the scattering of states, including their binding together into bound states, should be the same spectrum of particles that come in as in-states.
+
+This is a heuristic idea, because it is only saying that the S-matrix is consistent, and the formal consistency relations are those above. But the bootstrap was a slogan that implied that all the consistency conditions were not yet discovered, and there might be more.
+
+This idea was very inspirational to many great people in the 1960s, because it was an approach to strong interactions that could accommodate non-field theories of infinitely many particle types of high spin, without postulating constituent particles (like quarks and gluons).
+
+### Regge theory
+
+Continuing with [this Phyics.SE comment](https://physics.stackexchange.com/a/17973/5603) by [[Ron Maimon]]:
+
+
+The theory above doesn't get you anywhere without the following additional stuff. If you don't do this, you end up starting with a finite number of particles and interactions, and then you end up in effective field theory land. The finite-number-of-particles version of S-matrix theory is a dead end, or at least, it is equivalent to effective field theory, and this was understood in the late 1960s by Weinberg, and others, and this led S-matrix theory to die. This was the road the Chew travelled on, and the end of this road must be very personally painful to him.
+
+But there is another road for S-matrix theory which is much more interesting, so that Chew should not be disheartened. You need to know that the scattering amplitude is analytic in the angular momentum of the exchanged particles, so that the particles lie on Regge trajectories, which give their angular momentum as a function of their mass squared, s.
+
+Where the Regge trajectories hit an integer angular momentum, you see a particle. The trajectory interpolates the particle mass-squared vs. angular momentum graph, and it gives the asymptotic scattering caused by exchanging all these particles _together_. This scattering can be softer than the exchange of any one of these particles, because exchanging a particle of high spin necessarily has very singular scattering amplitudes at high energy. The Regge trajectory cancels out this growth with an infinite series of higher particles which soften the blowup, and lead to a power-law near-beam scattering at an angle which shrinks to zero as the energy goes to infinity in a way determined by the shape of the trajectory.
+
+So the Regge bootstrap adds the following conditions
+
+* All the particles in the theory lie on Regge trajectories, and the scattering of these particles is by Regge theory.
+
+This condition is the most stringent, because you can't deform a pure Regge trajectory by adding a single particle--- you have to add new trajectories. The following restriction was suggested by experiment
+
+* The Regge trajectories are linear in s
+
+This was suggested by Chew and Frautschi from the resonances known in 1960! The straight lines mostly had two points. The next condition is also ad-hoc and experimental
+
+* The Regge slope is universal (for mesons), it's the same for all the trajectories.
+
+There are also "pomerons" in this approach which are not mesons, which have a different Regge slopem but ignore this for now.
+
+Finally, there is the following condition, which was experimentally motivated, but has derivations by Mandelstam and others from more theoretical foundations (although this is S-matrix theory, it doesn't have axioms, so derivation is a loose word).
+
+* The exchange of trajectories is via the s-channel or the t-channel, but not both. It is double counting to exchange the same trajectories in both channels.
+
+These conditions essentially uniquely determine Veneziano's amplitude and bosonic string theory. Adding Fermion trajectories requires Ramond style supersymmetry, and then the road to string theory is to reinterpret all these conditions in the string picture which emerges.
+
+String theory incorporates and gives concrete form to all the boostrap ideas, so much so that anyone doing bootstrap today is doing string theory, especially since AdS/CFT showed why the bootstrap is relevant to gauge theories like QCD in the first place.
+
+The highlight of Regge theory is the Reggeon calculus, a full diagrammatic formalism, due to Gribov, for calculating the exchange of pomerons in a perturbation framework. This approach inspired a 2d parton picture of QCD which is studied heavily by several people, notably, Gribov, Lipatov, Feynman (as part of his parton program), and more recently Rajeev. Nearly every problem here is open and interesting.
+
+For an example of a reasearch field which (partly) emerged from this, one of the major motivations for taking PT quantum mechanics seriously was the strange non-Hermitian form of the Reggeon field theory Hamiltonian.
+
+### Pomerons and Reggeon Field theory
+
+Further from [this Phyics.SE comment](https://physics.stackexchange.com/a/17973/5603) by [[Ron Maimon]]:
+
+The main success of this picture is describing near-beam scattering, or diffractive scattering, at high energies. The idea here is that there is a Regge trajectory which is called the pomeron, which dominates high energy scattering, and which has no quantum numbers. This means that any particle will exchange the pomeron at high energies, so that p-pbar and p-p total cross sections will become equal.
+
+This idea is spectacularly confirmed by mid 90's measurements of total p-p and p-pbar cross sections, and in a better political climate, this would have won some boostrap theorists a Nobel prize. Instead, it is never mentioned.
+
+The pomeron in string theory becomes the closed string, which includes the graviton, which couples universally to stress energy. The relation between the closed string and the QCD pomeron is the subject of active research, associated with the names of Lipatov, Polchinski, Tan, and collaborators.
+
+Regge scattering also predicts near beam scattering amplitudes from the sum of the appropriate trajectory function you can exchange. These predictions have been known to roughly work since the late 1960s.
 
 
 ## Details
@@ -2759,11 +2832,11 @@ Early work basing [[perturbative quantum field theory]] on the concept of the S-
 
 This proposal was vocally promoted as the "bootstrap program" in
 
-spring
-
-A textbook account of this axiomatic approach to defining the S-matrix (i.e. not proceeding via [[Lagrangian field theory]]) is 
+Textbooks account of this axiomatic approach to defining the S-matrix (i.e. not proceeding via [[Lagrangian field theory]]) is 
 
 * {#EdenLadshoffOlivePolkinhorne66} Eden, Landshoff, [[David Olive]], [[John Polkinghorne]], _The Analytic S-matrix_, Cambridge 1966 ([pdf](http://assets.cambridge.org/97805210/48699/sample/9780521048699ws.pdf))
+
+* {#Gribov03} [[Vladimir Gribov]], _The theory of complex angular momenta_, Cambridge 2003 ([doi:10.1017/CBO9780511534959](https://doi.org/10.1017/CBO9780511534959))
 
 A textbook account of the traditional heuristic picture deriving the S-matrix in [[perturbative quantum field theory|perturbative]] [[Lagrangian field theory]] is in
 
