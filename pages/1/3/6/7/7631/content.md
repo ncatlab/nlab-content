@@ -86,7 +86,12 @@ If we were to additionally add the assumption that $R$ is *associative*, in the 
 
 then $A^{op}$ would become a [[promonoidal category|promonoidal]] poset, and hence $\mathbf{2}^A$ would be a complete and cocomplete closed monoidal poset, i.e. a [[quantale]].
 
-... compatibility relations, satisfying some axioms, should make $\mathbf{2}^A$ [[*-autonomous category|*-autonomous]]...
++--{: .query}
+Compatibility relations, satisfying some axioms, should make $\mathbf{2}^A$ [[*-autonomous category|*-autonomous]]?  Is a compatibility relation a "pro-*-autonomous poset"?
+=--
+
+A false set $F$ is of course just an arbitrary object of this quantale.  Closing up under double-negation means restricting to the sub-poset of elements that are equal to their "double dual" $x = (x \multimap F) \multimap F$.  Since the self-adjunction $(-\multimap F)$ is [[idempotent adjunction|idempotent]], this sub-poset is itself a quantale, and indeed a [[star-autonomous category|*-autonomous]] one.
+
 
 ## Examples
 
@@ -98,7 +103,7 @@ If $\cdot$ has a unit object $t$, then $T = \{t\}$ (in the unordered case) or $T
 
 Categorically, this corresponds to the usual way of regarding a [[monoidal category]] as a [[promonoidal category]].
 
-In the special case when $A$ is a commutative [[monoid]] equipped with a "false set" $F$ as above (usually written $\bot$) in this context, this semantics for linear logic is called [[phase semantics]].  It is usually expressed in terms of the quantale $\mathbf{2}^A$ obtained by Day convolution, but after passing to fixed points of the double-negation monad (in order to obtain an involutive negation).  In this context, fixed points of $\neg\neg$ are referred to as *facts*.
+In the special case when $A$ is a commutative [[monoid]] equipped with a "false set" $F$ as above (usually written $\bot$) in this context, this semantics for linear logic is called [[phase semantics]] (see there for more).  It is usually expressed in terms of the quantale $\mathbf{2}^A$ obtained by Day convolution, but after passing to fixed points of the double-negation monad (in order to obtain an involutive negation).  In this context, fixed points of $\neg\neg$ are referred to as *facts*.
 
 It is also possible to interpret the exponential modalities $!$ and $?$ of linear logic using phase space semantics.  For instance, we can define
 
