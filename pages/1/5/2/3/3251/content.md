@@ -105,6 +105,10 @@ The notion of [[cohomology]] relevant in equivariant stable homotopy theory is t
 
 * [[equivariant spectrum]], [[equivariant sphere spectrum]], [[equivariant suspension spectrum]], [[equivariant homotopy group]], [[equivariant stable homotopy category]], [[tom Dieck splitting]], [[slice spectral sequence]]
 
+* [[G-spectra]], [[naive G-spectra]], [[spectra with G-action]]
+
+* [[G-spaces]]
+
 ## References
 
 Original articles include
