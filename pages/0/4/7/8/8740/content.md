@@ -470,6 +470,45 @@ This is the case notably for [[Wick algebras]] ([[algebras of quantum observable
 
 =--
 
+## Something
+
+$$
+  \array{
+    && \mathbb{R}^{2n} \times \mathbb{R}^{2n}
+    \\
+    & {}^{\mathllap{pr_1}}\swarrow && \searrow^{\mathrlap{pr_2}}
+    \\
+    \mathbb{R}^{2n} && && \mathbb{R}^{2n}
+  }
+$$
+
+$\,$
+
+$$
+  \Omega
+  \;\coloneqq\;
+  pr_1^\ast \omega - pr_2^\ast \omega
+$$
+
+$$
+  \begin{aligned}
+    \Omega 
+    & = 
+    \omega_{i j} d x^i \wedge d x^j - \omega_{i j} d y^i \wedge d y^j
+    \\
+    & =
+    \omega_{i j} ( d x^i - d y^i ) \wedge ( d x^j +  d y^j )
+  \end{aligned}
+$$
+
+$$
+  \Theta 
+   \coloneqq
+   \omega_{i j} ( x^i - y^i ) \wedge   d (x^j +  y^j) )  
+$$
+
+
+
 
 ## Related concepts
 
