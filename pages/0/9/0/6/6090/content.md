@@ -28,6 +28,10 @@ But there are also S-matrices not arising from a local field theory, for instanc
 
 There have been attempts to _define_ [[perturbative quantum field theory]] by directly [[axiom|axiomatizing]] properties of the S-matrix, without requiring concepts of [[field (physics)|fields]] in [[spacetime]]. This perspective goes back to ([Heisenberg 43](#Heisenberg43)) and was vocally promoted in [[Geoffrey Chew]]'s "bootstrap program" (a textbook account is in [Eden-Ladshoff-Olive-Polkinhorne 66](#EdenLadshoffOlivePolkinhorne66)).
 
+In the [[field theory]]-picture the crucial condition on the S-matrix is its [[causal additivity]] (def. \ref{PerturbativeSMatrixOnMinkowskiSpacetime} below) which reflects the [[microcausality]] of [[quantum observables]] (prop. \ref{PerturbativeQuantumObservablesIsLocalnet} below), whence the name "[[causal perturbation theory]]". 
+
+{#TheAnalyticSMatrix} This [[microcausality]] property of the S-matrix when understood in terms of underlying [[spacetime]] and [[field (physics)|fields]] is supposed to be detected more abstractly by the S-matrix being a suitable [[analytic function]] of the [[wave vectors]] of the scattering asymptotic states, often refereed to via "dispersion relations" (e.g. [Eden-Ladshoff-Olive-Polkinhorne 66 (1.1.1)-(1.1.5)](#EdenLadshoffOlivePolkinhorne66), [Weinberg 95, section 10.8](#Weinberg95)). Since thereby analycity is recognized as the crucial property of the S-matrix in the spacetime/field-independent axiomatization, this is often referred to as "the analytic S-matrix" (e.g. [Eden-Ladshoff-Olive-Polkinhorne 66](#EdenLadshoffOlivePolkinhorne66)).
+
 The perception of the nature of the S-matrix as a primary or derived concept in the foundations of quantum field theory has a convoluted (and ongoing) history, see [below](#History).
 
 
