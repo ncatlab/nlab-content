@@ -27,6 +27,10 @@ The [[equivalences of categories]] that arise from fixed points of adjunctions t
 
 If $F \colon \mathcal{D} \longrightarrow \mathcal{C}$ is [[left adjoint]] to $G  \colon \mathcal{C} \longrightarrow \mathcal{D}$, then we take the [[fixed points of the endofunctor]] $F G$ to be those [[objects]] of $\mathcal{C}$ on which the [[counit of an adjunction|counit]] $\epsilon$ is an [[isomorphism]], and take the fixed points of $G F$ to be those objects of $\mathcal{D}$ on which the [[unit of an adjunction|unit]] $\eta$ is an isomorphism. The [[triangle identities]] then imply that $F$ and $G$ induce an [[equivalence of categories]] between the [[full subcategories]] of fixed points of $F G$ and the fixed points of $G F$. 
 
+## Remarks
+
+* If the adjunction is [[idempotent adjunction|idempotent]], then the fixed objects in $\mathcal{C}$ are precisely those of the form $G d$, and dually the fixed objects in $\mathcal{D}$ are those of the form $F c$.  Indeed, this is essentially the definition of an idempotent adjunction.
+
 ## Related concepts
 
 * [[nucleus of a profunctor]]
