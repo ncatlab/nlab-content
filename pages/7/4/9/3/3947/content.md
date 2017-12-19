@@ -28,7 +28,7 @@ Conversely this means that for a general distribution those [[covectors]] along 
 ## Statement
 
 
-+-- {: .num_theorem}
++-- {: .num_theorem #PWSTheorem}
 ###### Theorem
 **(Paley-Wiener-Schwartz theorem)**
 
