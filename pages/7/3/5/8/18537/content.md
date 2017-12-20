@@ -44,7 +44,7 @@ Incidentally, in the context of [[causal perturbation theory]]/[[locally covaria
 ## Definition
  {#Definition}
 
-Let $V$ be a [[topological vector space]] and $M$ a [[smooth manifold]]. A _$V$-valued distribution_ on $M$ is a [[continuous linear functional]] from the space $C^\infty_c(X)$ of [[bump functions]] to $V$. 
+Let $V$ be a [[topological vector space]] and $X$ a [[smooth manifold]]. A _$V$-valued distribution_ on $X$ is a [[continuous linear functional]] from the space $C^\infty_c(X)$ of [[bump functions]] to $V$. 
 
 If instead of $C^\infty_c(X)$ one uses the space $C^\infty(X)$ of all [[smooth functions]] then these are _[[compactly supported distributions]]_, or if one uses the [[Schwartz space]] $\mathcal{S}(X)$, then these are [[tempered distributions]].
 
