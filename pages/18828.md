@@ -1450,7 +1450,7 @@ with $\left\{e \,\vert\, e =  (0,e_1, e_2, \cdots, e_{p-1}, 0) \right\}$.
 
 +-- {: .num_prop #GausianAveragedLorenzGaugeFixedLinearObservablesOfTheElectromagneticField}
 ###### Proposition
-**([[BRST cohomology]] on linear [[on-shell]] [[observables]] of the [[Gaussian-averaged Lorenz gauge]] [[gauge fixed|fixed]] [[electromagnetic field]])**
+**([[BRST cohomology]] on linear [[on-shell]] [[observables]] of the [[Gaussian-averaged Lorenz gauge]] [[gauge fixing|fixed]] [[electromagnetic field]])**
 
 After [[gauge fixing|fixing]] [[Gaussian-averaged Lorenz gauge]] (example \ref{NLGaugeFixingOfElectromagnetism}) of the [[electromagnetic field]] on [[Minkowski spacetime]], the [[BRST cohomology]] on the [[Gaussian-averaged Lorenz gauge]] [[gauge fixing|fixed]] (def. \ref{NLGaugeFixingOfElectromagnetism}) linear on-shell observables (def. \ref{LinearObservables}) at $deg_{gh} = 0$ (prop. \ref{DerivedCriticalLocusOfActionLiAlgebroidBicomplexStructure}) is [[isomorphism|isomorphic]] to the space of transversally polarized linear observables, def. \ref{LinearObservablesOfElectromagenticFieldWavePolarization}:
 
