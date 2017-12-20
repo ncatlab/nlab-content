@@ -96,9 +96,9 @@ $$
 ### Via geometric quantization
  {#ViaGeometricQuantization}
 
-The Moyal quantization of a Poisson vector space $(V,\pi)$ arises equivalently as the canonical [[geometric quantization of symplectic groupoids]] of the [[symplectic groupoid]] which is the [[Lie integration]] of the corresponding [[Poisson Lie algebroid]] ([GBV 94](#GBV), [EH 06](#EH)).
+The Moyal quantization of a Poisson vector space $(V,\pi)$ arises equivalently as the canonical [[geometric quantization of symplectic groupoids]] of the [[symplectic groupoid]] which is the [[Lie integration]] of the corresponding [[Poisson Lie algebroid]] ([Weinstein 91, p. 446](#Weinstein91), [Garcia-Bondia & Varilly 94, section V](#GBV), [Hawkins 06](#EH)).
 
-See at _[geometric quantization of symplectic groupoids -- Examples -- Moyal quantization](geometric+quantization+of+symplectic+groupoids#MoyalQuantizationofPoissonVectorSpace)_ for more. 
+See at _[[star product]]_ [this prop.](star+product#PolarizedSymplecticGroupoidConvolutionProductOfSymplecticVectorSpaceIsMoyalStarProduct) for the **proof**; and see at _[geometric quantization of symplectic groupoids -- Examples -- Moyal quantization](geometric+quantization+of+symplectic+groupoids#MoyalQuantizationofPoissonVectorSpace)_ for more. 
 
 
 
@@ -124,7 +124,7 @@ General accounts include
 
 The understanding of the Moyal product as the [[polarization|polarized]] [[groupoid convolution algebra]] of the corresponding [[symplectic groupoid]], hence as an example of [[geometric quantization of symplectic groupoids]] had been suggested without proof in
 
-* [[Alan Weinstein]], in P. Donato et al. (eds.) _Symplectic Geometry and Mathematical Physics,  (Birkh&#228;user, Basel, 1991); p. 446.
+* {#Weinstein91} [[Alan Weinstein]], p. 446 in P. Donato et al. (eds.) _Symplectic Geometry and Mathematical Physics,  (Birkh&#228;user, Basel, 1991);
 
 and was proven in detail in
 
