@@ -675,9 +675,15 @@ The equivalence between the [[dendroidal set]]-formulation and the one in terms 
 
 * [[Gijs Heuts]], [[Vladimir Hinich]], [[Ieke Moerdijk]], _The equivalence between Lurie's model and the dendroidal model for infinity-operads_ ([arXiv:1305.3658](http://arxiv.org/abs/1305.3658))
 
-Further equivalence to Barwicks's complete Segal operads is discussed in
+Further equivalence to Barwick's complete Segal operads is discussed in
 
 * Hongyi Chu, [[Rune Haugseng]], [[Gijs Heuts]], _Two models for the homotopy theory of $\infty$-operads_ ([arXiv:1606.03826](https://arxiv.org/abs/1606.03826))
+
+For an account in terms of _analytic_ [[monads]], that is, monads that are cartesian (multiplication and unit transformations are cartesian) and the underlying endofunctor preserves sifted colimits and wide pullbacks (or equivalently all weakly contractible limits), see
+
+* [[David Gepner]], [[Rune Haugseng]], [[Joachim Kock]], _∞-Operads as Analytic Monads_, ([arXiv:1712.06469](https://arxiv.org/abs/1712.06469))
+
+
 
 [[!redirects (∞,1)-operad]]
 [[!redirects (∞,1)-operads]]
