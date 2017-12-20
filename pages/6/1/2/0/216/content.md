@@ -744,3 +744,5 @@ Construction of cocycles in [[KK-theory]] and [[spectral triples]] from groupoid
 [[!redirects groupoid convolution C-star-algebra]]
 [[!redirects groupoid convolution C-star-algebras]]
 
+[[!redirects groupoid convolution product]]
+[[!redirects groupoid convolution products]]
