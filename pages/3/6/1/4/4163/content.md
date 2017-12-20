@@ -54,7 +54,7 @@ In particular the [[phenomenology|phenomenologically]] interesting case of a com
 
 ## Related concepts
 
-* [[renormalization]]
+* [[renormalization]], [[radiative correction]]
 
 * [[causal perturbation theory]], [[perturbative AQFT]]
 
