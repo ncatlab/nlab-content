@@ -297,6 +297,8 @@ and the second summand corresponds to the "theta" Feynman diagram of the form
 
 * [[loop order]]
 
+* [[radiative correction]]
+
 ## References
 
 For general accounts see at 
