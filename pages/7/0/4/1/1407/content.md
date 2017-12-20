@@ -382,7 +382,7 @@ Discussion of [[superstring]] [[perturbation theory]] is in
 ### Fields medal (and other) work related to string theory
  {#FieldMedalWork}
 
-Pure [[mathematics]] work which is closely related string theory and was awared with a [[Fields medal]] includes the following.
+Pure [[mathematics]] work which is closely related string theory and was awarded with a [[Fields medal]] includes the following.
 
 [[Richard Borcherds]], 1998
 
