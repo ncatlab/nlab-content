@@ -7,6 +7,8 @@
 
 ## related entries
 
+* [[S-matrix]]
+
 * [[string scattering amplitude]]
 
 category: people
