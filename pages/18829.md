@@ -48,6 +48,8 @@ $\,$
 
 We now discuss these topics:
 
+* _[Geometric quantization](#GeometricQuantization)_
+
 * _[Star products](#StarProducts)_
 
 * _[Moyal star product via Geometric quantization](#MoyalStarProductViaGeometricQuantization)_
@@ -55,6 +57,92 @@ We now discuss these topics:
 $\,$
 
 
+**[[geometric quantization]]**
+  {#GeometricQuantization}
+
+(...)
+
+Consider the [[phase space]] given by $\mathbb{R}^2$ with canonical [[coordinate functions]] $\{q,p\}$ and equipped with the [[symplectic form]] given by
+
+$$
+  \omega = d p \wedge d q
+  \,.
+$$
+
+A _[[prequantum line bundle]]_ for this is given by the
+[[trivial vector bundle|trivial]] [[complex line bundle]] over $\mathbb{R}^2$ which is equipped with the [[connection on a bundle|connection]] that is given
+by the globally defined [[differential 1-form]]
+
+$$
+  \label{CanonicalSymplecticPotentialOnR2}
+  \theta \;\coloneqq\; q \, d p
+  \,.
+$$
+
+(Other choices of connection are possible, notably $\theta = - p \, d q$).
+
+A [[section]] of this complex line bundle is canonically identified simply with a $\mathbb{C}$-valued [[smooth function]] on $\mathbb{R}^2$.
+
+A choice of [[foliation]] and hence of [[real polarization]] of this phase space is given by constant-$q$-slices
+
+$$
+  \label{ConstantqSlicesOnR2}
+  \Lambda_q = \subset \mathbb{R}^2
+  \,.
+$$
+
+(Other choices of [[polarization]] are possible, notably the constant $p$-slices as well as the canonical [[Kähler polarization]] on $\mathbb{R}^2 \simeq \mathbb{C}$.)
+
+The [[polarization]] condition on [[sections]] $\psi$ is that their [[covariant derivative]] along the [[leaves]] vanishes, which for the choice of polarization in (eq:ConstantqSlicesOnR2) means that
+
+$$
+  \nabla_{\partial/\partial p} \psi = 0
+  \,,
+$$
+
+which in turn for the choice of connection in (eq:CanonicalSymplecticPotentialOnR2) means that
+
+$$
+  \frac{\partial}{\partial p} \psi + i q \psi = 0
+  \,.
+$$
+
+The solutions to this [[differential equation]] are of the form
+
+$$
+  \psi(q,p) = \psi(q,0) \exp(i p q)
+  \,.
+$$
+
+The space of these "[[wave functions]]" is (noncanonically) identified with the space of complex-valued [[smooth functions]] on the line by evaluating at $p = 0$.
+
+Since we have the [[hamiltonian vector fields]]
+
+$$
+  v_q = \frac{\partial}{\partial p}
+$$ 
+
+$$
+  v_p = -\frac{\partial}{\partial q}  
+$$
+
+the action of the [[quantum operator (in geometric quantization)|quantum operators]] $\hat q$ and $\hat p$ on these states is
+
+$$
+  \hat q \psi = - i \nabla_{\partial/\partial p}\psi + q \psi
+  = q \psi
+$$
+
+and
+
+$$
+  \hat p \psi =  i \nabla_{\partial/ \partial q} \psi + p \psi
+  = i \frac{\partial}{\partial q} \psi
+  \,.
+$$
+
+
+$\,$
 
 
 **[[star products]]**
