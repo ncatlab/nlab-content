@@ -27,6 +27,8 @@ In [[perturbation theory]] in [[quantum field theory]], the edges in a the [[Fey
 
 * [[fundamental particle]], [[antiparticle]]
 
+* [[radiative correction]]
+
 ## References
 
 * [[Arnold Neumaier]], _[The Physics of Virtual Particles](https://www.physicsforums.com/insights/physics-virtual-particles/)_
