@@ -410,6 +410,12 @@ Pure [[mathematics]] work which is closely related string theory and was awarded
 
 * [[Ricci flow]] for string [[sigma-model]] in [[dilaton gravity]] background
 
+[[Maryam Mirzakhani]], 2014
+
+* The dynamics and geometry of Riemann surfaces and their moduli spaces, including a new proof of the [[Witten conjecture]]
+
+
+
 In ([Madsen 07](Mumford+conjecture#Madsen07)) it says with respect to the [[proof]] ([Madsen-Weiss 02](Mumford+conjecture#MadsenWeiss02)) of the [[Mumford conjecture]]:
 
 > These tools $[$ used in the proof $]$ are all rather old, known for at least twenty years, and one may wonder why they have not before been put to use in connection with the Riemann moduli space. Maybe we lacked the inspiration that comes from the renewed interaction with physics, exemplified in conformal field theories.
