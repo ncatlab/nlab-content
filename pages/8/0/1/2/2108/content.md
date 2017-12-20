@@ -807,32 +807,37 @@ $$
 $$
 
 A [[prequantum line bundle]] for this is given by the
-trivial line bundle equipped with the 
-[[connection on a bundle|connection]] that is given
-by the globally defined 1-form
+[[trivial vector bundle|trivial]] [[complex line bundle]] over $\mathbb{R}^2$ which is equipped with the [[connection on a bundle|connection]] that is given
+by the globally defined [[differential 1-form]]
 
 $$
-  \theta := q \wedge d p
+  \label{CanonicalSymplecticPotentialOnR2}
+  \theta \;\coloneqq\; q \, d p
   \,.
 $$
 
-A [[section]] of this complex line bundle is canonically identified simply with a $\mathbb{C}$-valued smooth function on $\mathbb{R}^2$.
+(Other choices of connection are possible, notably $\theta = - p \, d q$).
 
-A choice of [[foliation]] of phase space is given by constant-$q$-slices
+A [[section]] of this complex line bundle is canonically identified simply with a $\mathbb{C}$-valued [[smooth function]] on $\mathbb{R}^2$.
+
+A choice of [[foliation]] and hence of [[real polarization]] of this phase space is given by constant-$q$-slices
 
 $$
+  \label{ConstantqSlicesOnR2}
   \Lambda_q = \subset \mathbb{R}^2
   \,.
 $$
 
-The polarization condition is that the [[covariant derivative]] along the [[leaves]] vanishes
+(Other choices of [[polarization]] are possible, notably the constant $p$-slices as well as the canonical [[Kähler polarization]] on $\mathbb{R}^2 \simeq \mathbb{C}$.)
+
+The [[polarization]] condition on [[sections]] $\psi$ is that their [[covariant derivative]] along the [[leaves]] vanishes, which for the choice of polarization in (eq:ConstantqSlicesOnR2) means that
 
 $$
   \nabla_{\partial/\partial p} \psi = 0
   \,,
 $$
 
-which with the above choice of connection is equivalently
+which in turn for the choice of connection in (eq:CanonicalSymplecticPotentialOnR2) means that
 
 $$
   \frac{\partial}{\partial p} \psi + i q \psi = 0
@@ -846,7 +851,7 @@ $$
   \,.
 $$
 
-The space of these quantum states is (noncanonically) identified with the space of complex functions on the line by evaluating at $p = 0$.
+The space of these "[[wave functions]]" is (noncanonically) identified with the space of complex-valued [[smooth functions]] on the line by evaluating at $p = 0$.
 
 Since we have the [[hamiltonian vector fields]]
 
