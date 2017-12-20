@@ -45,7 +45,10 @@ In [[quantum field theory]] generating functions often appear as [[partition fun
 ## Related concepts
 
 * [[Bogoliubov's formula]] for [[quantum observables]] in [[perturbative quantum field theory]] generated from an [[S-matrix]] functional
+
 * [[species]]
+
+* [[Witten conjecture]]
 
 ## References
 
