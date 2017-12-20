@@ -125,6 +125,9 @@ $$
 (For the analogous discussion of the dependence on the actual [[quantum observables]] on $\hbar$ given by [[Bogoliubov's formula]], see [there](Bogoliubov's+formula#PowersInPlancksConstant).)
 
 
+## Related concepts
+
+* [[radiative correction]]
 
 
 ## References
