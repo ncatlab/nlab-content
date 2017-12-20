@@ -76,6 +76,8 @@ Traditional discussion includes
 
 * [[Radovan Dermisek]], _Quantum Electrodynamics (QED)_ ([pdf](http://www.physics.indiana.edu/~dermisek/QFT_09/qft-II-5-4p.pdf), [[DermisekQED.pdf:file]])
 
+* [[Hitoshi Murayama]], _Quantum Electrodynamics_ ([pdf](http://hitoshi.berkeley.edu/221B-S02/QED.pdf))
+
 * {#Zeidler} [[Eberhard Zeidler]], _Quantum field theory II: Quantum electrodynamics --  A bridge between mathematicians and physicists_, Springer (2009)
   
 Mathematically rigorous discussion in [[causal perturbation theory]] is in
