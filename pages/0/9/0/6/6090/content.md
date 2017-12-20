@@ -31,7 +31,7 @@ There have been attempts to _define_ [[perturbative quantum field theory]] by di
 
 In the [[field theory]]-picture the crucial condition on the S-matrix is its [[causal additivity]] (def. \ref{PerturbativeSMatrixOnMinkowskiSpacetime} below) which reflects the [[microcausality]] of [[quantum observables]] (prop. \ref{PerturbativeQuantumObservablesIsLocalnet} below), whence the name "[[causal perturbation theory]]". 
 
-{#TheAnalyticSMatrix} This [[microcausality]] property of the S-matrix when understood in terms of underlying [[spacetime]] and [[field (physics)|fields]] is supposed to be detected more abstractly by the S-matrix being a suitable [[analytic function]] of the [[wave vectors]] of the scattering asymptotic states, often refereed to via "dispersion relations" (e.g. [Eden-Ladshoff-Olive-Polkinhorne 66 (1.1.1)-(1.1.5)](#EdenLadshoffOlivePolkinhorne66), [Gribov 69, 1.1.2](#Gribov69), [Weinberg 95, section 10.8](#Weinberg95)). Since thereby analycity is recognized as the crucial property of the S-matrix in the spacetime/field-independent axiomatization, this is often referred to as "the analytic S-matrix" (e.g. [Eden-Ladshoff-Olive-Polkinhorne 66](#EdenLadshoffOlivePolkinhorne66)).
+{#TheAnalyticSMatrix} This [[causality]] of the S-matrix when understood in terms of underlying [[spacetime]] and [[field (physics)|fields]] is supposed to be detected more abstractly by the S-matrix being a suitable [[analytic function]] of the [[wave vectors]] of the scattering asymptotic states ([Newton 82, 10.3.3](#Newton82)), often refereed to via "dispersion relations" (e.g. [Eden-Ladshoff-Olive-Polkinhorne 66 (1.1.1)-(1.1.5)](#EdenLadshoffOlivePolkinhorne66), [Gribov 69, 1.1.2](#Gribov69)). Since thereby analyticity is recognized as the crucial property of the S-matrix in the spacetime/field-independent axiomatization, this is often referred to as "the analytic S-matrix" (e.g. [Eden-Ladshoff-Olive-Polkinhorne 66](#EdenLadshoffOlivePolkinhorne66)). More specifically [[microcausality]] is what induces "crossing symmetry" of the S-matrix ([Weinberg 95, section 10.8](#Weinberg95)).
 
 The perception of the nature of the S-matrix as a primary or derived concept in the foundations of quantum field theory has a convoluted (and ongoing) history, see [below](#History).
 
@@ -46,7 +46,7 @@ The idea of the S-matrix "bootstrap" is that one may compute the S-matrix direct
 * It should be crossing invariant: this means that the antiparticle scattering 
 should be described by the analytic continuation of the particle scattering
 * It should obey the Landau property--- that all singularities of scattering are poles and cuts corresponding to exchange of collections of real particles on shell.
-* It should obey (Mandelstam) analyticity: the amplitude should be writable as an integral over the imaginary part of the cut discontinuity from production of physical particles. Further, this cut discontinuity itself can be expanded in terms of another cut discontinuity (these are the mysterious then and still mysterious now double dispersion relations of Mandelstam).
+* It should obey ([[Stanley Mandelstam|Mandelstam]]) analyticity: the amplitude should be writable as an integral over the imaginary part of the cut discontinuity from production of physical particles. Further, this cut discontinuity itself can be expanded in terms of another cut discontinuity (these are the mysterious then and still mysterious now double dispersion relations of Mandelstam).
 
 This is a sketchy summary, because each of these conditions is involved. The unitarity condition in particular, is very difficult, because it is so nonlinear. The only practical way to solve it is in a perturbation series which starts with weakly interacting nearly stable particles (described by poles of the S-matrix) which exchange each other (the exchange picture is required by crossing, and the form of the scattering is fixed by the Landau and Mandelstam analyticity, once you know the spectrum).
 
@@ -2830,13 +2830,17 @@ Early work basing [[perturbative quantum field theory]] on the concept of the S-
 
 * {#Heisenberg43} [[Werner Heisenberg]], Zeitschrift für Physik 120, 513, 1943
 
-This proposal was vocally promoted as the "bootstrap program" in
+This proposal was vocally promoted as the "bootstrap program" by [[Geoffrey Chew]] and [[Stanley Mandelstam]] (see [Chew 70](#Chew70)).
 
 Textbooks account of this axiomatic approach to defining the S-matrix (i.e. not proceeding via [[Lagrangian field theory]]) is 
 
 * {#EdenLadshoffOlivePolkinhorne66} Eden, Landshoff, [[David Olive]], [[John Polkinghorne]], _The Analytic S-matrix_, Cambridge 1966 ([pdf](http://assets.cambridge.org/97805210/48699/sample/9780521048699ws.pdf))
 
 * {#Gribov69} [[Vladimir Gribov]], _The theory of complex angular momenta_, Lecture St. Petersburg 1996, publsihed.  Cambridge 2003 ([doi:10.1017/CBO9780511534959](https://doi.org/10.1017/CBO9780511534959))
+
+General discussion of scattering theory is in 
+
+* {#Newton82} Roger G. Newton, _Scattering Theory of Waves and Particles_, Springer 1982 ([TOC pdf](https://cds.cern.ch/record/1562608/files/0486425355_TOC.pdf))
 
 A textbook account of the traditional heuristic picture deriving the S-matrix in [[perturbative quantum field theory|perturbative]] [[Lagrangian field theory]] is in
 
