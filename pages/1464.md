@@ -118,6 +118,7 @@ All colimits are stable under base change in for instance
 * $C =$ [[Set]];
 * hence for $C =$ a [[presheaf]] category $[S^{op},Set]$ (since colimits in such $C$ are computed objectwise in $Set$), see [[limits and colimits by example]]);
 * more generally, any [[topos]];
+* even more generally, any [[regular category|regular]] infinitary [[extensive category]];
 
 but not in for instance
 
