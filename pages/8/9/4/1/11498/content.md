@@ -57,11 +57,11 @@ See at _[level structure -- relation to spin structure](level%20structure%20on%2
 
 ## References
 
-* Wikipediam, _[Congruence subgroup](https://en.wikipedia.org/wiki/Congruence_subgroup)_
+* Wikipedia, _[Congruence subgroup](https://en.wikipedia.org/wiki/Congruence_subgroup)_
 
 A list of congruence subgroups is provided in
 
-* [[Sebastian Pauli]], _[Congruence subgroups of PSL(2,R)](http://www.uncg.edu/mat/faculty/pauli/congruence/)_
+* [[Sebastian Pauli]], _[Congruence subgroups of PSL(2,Z)](http://www.uncg.edu/mat/faculty/pauli/congruence/)_
 
 
 [[!redirects congruence subgroups]]
