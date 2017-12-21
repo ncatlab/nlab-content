@@ -72,6 +72,12 @@ Understood in this form the construction directly generalized to [[quantum field
 
 Finally, the shift by the [[quasi-free Hadamard state]], which is the very source of the "normal ordering", was understood as an example of the almost-K&#228;hler version of the quantization recipe of [[Fedosov deformation quantization]] ([Collini 16](#Collini16)). For more on this see at _[[locally covariant perturbative quantum field theory]]_.
 
+$\,$
+
+
+[[!include Wick algebra -- table]]
+
+
 
 ## Definition
 
@@ -330,12 +336,12 @@ $$
 Using this, we find the [[star product]] 
 
 $$
-  A \start_\pi B
+  A \star_\pi B
   \;=\;
   prod \circ \exp\left( \hbar \frac{\partial}{\partial a} \otimes \frac{\partial }{\partial a^\ast}  \right)
 $$
 
-as follows (where we write $(-)\cdot (-)$ for the plain commutative product in the [[formal power series algebra]]):
+to be as follows (where we write $(-)\cdot (-)$ for the plain commutative product in the [[formal power series algebra]]):
 
 $$
   \begin{aligned}
@@ -343,7 +349,7 @@ $$
     \\
     a^\ast \star_\pi a^\ast & = a^\ast \cdot a^\ast
     \\
-    a^\ast \star_\pi a & = a^\ast \star_\pi a
+    a^\ast \star_\pi a & = a^\ast \cdot a
     \\
     a \star_\pi a^\ast
     & =
@@ -351,9 +357,42 @@ $$
   \end{aligned}
 $$
 
-These four cases are sufficient to see that in the star-product $P_1 \star_\pi P_2$ of general elements, we obtain correction term $\hbar$ to the ordinary commutative product precisely for every pair consisting  of a factor of $a$ in $P_1$ and a factor $a^\ast$ in $P_2$. This is exactly the "normal ordering" prescription.
+and so forth, for instance
+
+$$
+  \array{
+    (a a ) \star_\pi (a^\ast a^\ast)
+    & =
+    a^\ast \cdot a^\ast \cdot a \cdot a
+    +
+    4 \hbar a^\ast \cdot a
+    +   
+    \hbar^2
+  }
+$$
+
+If we instead indicate the commutative pointwise product by 
+
+$$
+  :f g: \;\coloneqq\; f \cdot g
+$$
+
+and indicate the star-product by juxtaposition, then this reads
+
+$$
+  \array{
+    :a a: \, :a^\ast a^\ast:
+    & =
+    : a^\ast a^\ast a  a :
+    +
+    4 \hbar : a^\ast \cdot a :
+    +   
+    \hbar^2
+  }
+$$
 
 =--
+
 
 ### For free fields on curved spacetimes
  {#ForFreeFieldsOnCurvedSpacetime}
