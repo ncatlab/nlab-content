@@ -197,3 +197,6 @@ and in
 
 [[!redirects almost complex manifold]]
 [[!redirects almost complex manifolds]]
+
+[[!redirects linear complex structure]]
+[[!redirects linear complex structures]]
