@@ -81,9 +81,9 @@ Finally, the shift by the [[quasi-free Hadamard state]], which is the very sourc
 
 +-- {: .num_defn #AlmostKaehlerVectorSpace}
 ###### Definition
-**(almost K&#228;hler vector space)**
+**([[Kähler vector space]])**
 
-An _almost K&#228;hler vector space_ is a [[real vector space]] $V$ equipped with a [[linear complex structure]] $J$ as well as two [[bilinear forms]] $\omega, g \;\colon\; V \otimes_{\mathbb{R}} V \longrightarrow \mathbb{R}$ such that the following equivalent conditions hold:
+An _[[Kähler vector space]]_ is a [[real vector space]] $V$ equipped with a [[linear complex structure]] $J$ as well as two [[bilinear forms]] $\omega, g \;\colon\; V \otimes_{\mathbb{R}} V \longrightarrow \mathbb{R}$ such that the following equivalent conditions hold:
 
 1. $\omega(J v, J w) = \omega(v,w)$ and $g(v,w) = \omega(v,J w)$;
 
@@ -93,9 +93,9 @@ An _almost K&#228;hler vector space_ is a [[real vector space]] $V$ equipped wit
 
 +-- {: .num_example #StandardAlmostKaehlerVectorSpaces}
 ###### Example
-**(standard almost K&#228;hler vector spaces)**
+**(standard [[Kähler vector spaces]])**
 
-Let $V \coloneqq \mathbb{R}^2$ equipped with the [[complex structure]] $J$ which isgiven by the canonical identification $\mathbb{R}^2 \simeq \mathbb{C}$, hence, in terms of the canonical [[linear basis]] $(e_i)$ of $\mathbb{R}^2$, this is
+Let $V \coloneqq \mathbb{R}^2$ equipped with the [[complex structure]] $J$ which is given by the canonical identification $\mathbb{R}^2 \simeq \mathbb{C}$, hence, in terms of the canonical [[linear basis]] $(e_i)$ of $\mathbb{R}^2$, this is
 
 $$
   J = (J^i{}_j) 
@@ -123,129 +123,14 @@ $$
   \,.
 $$ 
 
-Then $(V, J, \omega, g)$ is an almost Kähler vector space (def. \ref{AlmostKaehlerVectorSpace}).
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-This is elementary, but, for the record, here is one way to make it fully explicit (we use [[Einstein summation convention]] and "$\cdot$" denotes [[matrix multiplication]]):
-
-$$
-  \begin{aligned}
-    \omega_{i j'} J^{j'}{}_j
-    & =
-    \left(
-       \array{
-         0 & 1
-         \\
-         -1 & 0
-       }
-    \right)
-      \cdot
-    \left(
-      \array{
-        0 & -1
-        \\
-        1 & 0
-      }
-    \right)
-    \\
-    & 
-    =
-    \left(
-      \array{
-        1 & 0
-        \\
-        0 & 1
-      }
-    \right)
-    \\
-    & =
-    g_{i j}
-  \end{aligned}
-$$
-
-
-and similarly
-
-$$
-  \begin{aligned}
-    \omega(J(-),J(-))_{i j}
-    & =
-    \omega_{i' j'} J^{i'}{}_{i} J^{j'}{}_{j}
-    \\
-    & =
-    (J^t \cdot \omega \cdot J)_{i j}
-    \\
-    & =
-    \left(
-    \left(
-      \array{
-        0 & 1
-        \\
-        -1 & 0
-      }
-    \right)
-    \cdot
-    \left(
-      \array{
-        0 & 1
-        \\
-        -1 & 0
-      }
-    \right)
-      \cdot
-    \left(
-      \array{
-        0 & -1
-        \\
-        1 & 0
-      }
-    \right)
-    \right)_{i j}
-    \\
-    & =
-    \left(
-    \left(
-      \array{
-        -1 & 0
-        \\
-        0 & -1
-      }
-    \right)
-    \cdot
-    \left(
-      \array{
-        0 & -1
-        \\
-        1 & 0
-      }
-    \right)
-    \right)_{i j}
-    \\
-    & = 
-    \left(
-      \array{
-        0 & 1
-        \\
-        -1 & 0
-      }
-    \right)_{i j}
-    \\
-    & = 
-    \omega_{i j}
-  \end{aligned}
-$$
-
+Then $(V, J, \omega, g)$ is a [[Kähler vector space]] (def. \ref{AlmostKaehlerVectorSpace}).
 
 =--
 
 
 +-- {: .num_defn #WickAlgebraOfAlmostKaehlerVectorSpace}
 ###### Definition
-**(Wick algebra of an almost K&#228;hler vector space)**
+**([[Wick algebra]] of a [[Kähler vector space]])**
 
 Let $(\mathbb{R}^{2n},\sigma, g)$ be an almost K&#228;hler vector space (def. \ref{AlmostKaehlerVectorSpace}). Then its _Wick algebra_ is the [[formal power series]] vector space $\mathbb{C}[ [ a_1, a^\ast_1, \cdots, a_n, a^\ast_n  ] ] [ [ \hbar ] ]$ equipped with the [[star product]]
 
