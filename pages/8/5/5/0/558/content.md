@@ -495,9 +495,15 @@ While [[strict omega-groupoids]] in the sense of
 The issue however is somewhat subtle, as very much highlighted by Voevodsky [here](http://ncatlab.org/nlab/show/homotopy+type+theory#VoevodskyIASTalk2014).
 For more on this see at _[[Simpson's conjecture]]_.
 
+## Generalizations
+
 ### For stratified spaces
 
 For a [[categorified]] version which finds an equivalence for $(\infty, 1)$-categories, see [[stratified homotopy hypothesis]] ([Ayala-Francis-Rozenblyum](#AFR15)).
+
+### For spectra
+
+For a stabilized version which finds an equivalence between stable homotopy types (i.e. [[spectra]]) and symmetric monoidal $\infty$-groupoids, see [[stable homotopy hypothesis]] ([Johnson-Osorno](#JO12), [Gurski-Johnson-Osorno](#GJO17))
 
 
 ## References and a bit of history.
@@ -573,3 +579,9 @@ groupoids_, EMS Tracts in Mathematics Vol. 15, 703 pages. (August
 A version for [[stratified spaces]] is discussed in
 
 * {#AFR15} [[David Ayala]], [[John Francis]], [[Nick Rozenblyum]], *A stratified homotopy hypothesis*, [arXiv](http://arxiv.org/abs/1502.01713)
+
+A version for [[spectra]] is discussed in
+
+* {#JO12} [[Niles Johnson]] and [[Angelica Osorno]], *Modeling stable one-types*, [tac](http://tac.mta.ca/tac/volumes/26/20/26-20abs.html)
+
+* {#GJO17} [[Nick Gurski]], [[Niles Johnson]], and [[Angelica Osorno]], *The 2-dimensional stable homotopy hypothesis*, [arxiv](https://arxiv.org/abs/1712.07218)
