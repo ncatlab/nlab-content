@@ -92,6 +92,9 @@ See at _[[S-matrix]]_ for details.
 
 [[!include products in pQFT -- table]]
 
+$\,$
+
+[[!include Wick algebra -- table]]
 
 ## Related concepts
 
