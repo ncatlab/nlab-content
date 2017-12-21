@@ -178,7 +178,7 @@ on the [[Cartesian product]] manifold such that
 1. (Klein-Gordon bi-solution) $(\Box_g - m^2) \omega(-,x) = 0$ and $(\Box_g - m^2)\omega(x,-) = 0$, for all $x \in X$;
 
 
-1. (positive semi-definiteness) For any complex-valued [[bump function]] $b$ we have that
+1. {#PositiveSemiDefiniteness} (positive semi-definiteness) For any complex-valued [[bump function]] $b$ we have that
 
    $$
      \int_{X \times X} b^\ast(x) \omega(x,y) b(y) \, dvol(x) dvol(y)
@@ -1502,7 +1502,7 @@ Here in the first line we have in the [[integrand]] the [[delta distribution]] o
 
 =--
 
-(e.g. [Khavkine-Moretti 14, equation (38) and section 3.4](Hadamard+distribution#KhavineMoretti14))
+(e.g. [Khavkine-Moretti 14, equation (38) and section 3.4](#KhavkineMoretti14))
 
 +-- {: .num_prop #ContourIntegralForStandardHadamardPropagatorOnMinkowskiSpacetime}
 ###### Proposition
@@ -3158,7 +3158,7 @@ Review and further developments are in
 
 * {#Hollands07} [[Stefan Hollands]], appendix D of _Renormalized Quantum Yang-Mills Fields in Curved Spacetime_, Rev. Math. Phys. 20:1033-1172, 2008 ([arXiv:0705.3340](https://arxiv.org/abs/0705.3340))
 
-*  {#KhavkineMoretti14} [[Igor Khavkine]], [[Valter Moretti]], _Algebraic QFT in Curved Spacetime and quasifree Hadamard states: an introduction_, Chapter 5 in [[Romeo Brunetti]] et al. (eds.) _Advances in Algebraic Quantum Field Theory_, Springer, 2015 ([arXiv:1412.5945](https://arxiv.org/abs/1412.5945))
+* {#KhavkineMoretti14} [[Igor Khavkine]], [[Valter Moretti]], _Algebraic QFT in Curved Spacetime and quasifree Hadamard states: an introduction_, Chapter 5 in [[Romeo Brunetti]] et al. (eds.) _Advances in Algebraic Quantum Field Theory_, Springer, 2015 ([arXiv:1412.5945](https://arxiv.org/abs/1412.5945))
 
 Discussion for [[electromagnetism]] is in
 
