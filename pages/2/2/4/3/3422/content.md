@@ -422,7 +422,7 @@ $$
 
 where 
 
-* on the left we have the $(\infty,1)$-category of [[Cartesian fibration]]s over $C$ -- incarnated as the full [[sSet]]-[[subcategory]]
+* on the left we have the $(\infty,1)$-category of [[Cartesian fibration]]s over $C$ -- incarnated as a [[sSet]]-[[subcategory]]
 of the [[overcategory]] $sSet/C$ on [[Cartesian fibration]]s;
 
 * and on the right the [[(∞,1)-category of (∞,1)-functors]] from $C^{op}$ to the [[(∞,1)-category of (∞,1)-categories]].
