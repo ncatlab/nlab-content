@@ -76,7 +76,7 @@ $$
 $$
 =--
 
-The following equivalent characterizations are immediate but useful:
+The following equivalent characterizations are immediate but use#ful:
 
 +-- {: .num_prop #ComplexProjectiveSpaceAsGrassmannian}
 ###### Proposition
@@ -695,6 +695,7 @@ where the last step is [this prop.](formal+scheme#FormalPowerSeries).
 
 * [[classifying space]]
 
+* [[Fubini-Study metric]]
 
 ## References
 
