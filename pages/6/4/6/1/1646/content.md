@@ -152,6 +152,8 @@ This is really two theorems (at least): an abstract theorem that the inequality 
 
 * [[Hilbert C-star-module]], [[Hilbert bimodule]]
 
+* [[Kähler vector space]]
+
 ## References
 
 Standard accounts of Hilbert spaces in [[quantum mechanics]] include
