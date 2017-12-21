@@ -275,6 +275,7 @@ See at _[[M5-brane charge]]_
 
 
 ## References
+ {#References}
 
 ### Survey
 
@@ -354,6 +355,7 @@ Further developments include
 * Samuel Monnier, _global gravitational anomaly cancellation for five-branes_, 2013 ([pdf](http://media.scgp.stonybrook.edu/presentations/20130618_monnier.pdf))
 
 ### Worldvolume theory
+ {#ReferencesWorldvolumeTheory}
 
 The original article suggesting the description of the [[self-dual higher gauge theory]] on the 5-brane [[holographic principle|holographically]] by a dual [[higher dimensional Chern-Simons theory]] is
 
@@ -376,11 +378,18 @@ The [[double dimensional reduction]] to the [[D4-brane]] [[D=5 super Yang-Mills 
 
 * {#Witten11} [[Edward Witten]], _Fivebranes and Knots_ ([arXiv:1101.3216](http://arxiv.org/abs/1101.3216)) 
  
-
 with further comments in 
 
 * Michele Nardelli, _On some equations concerning Fivebranes and Knots, Wilson Loops in Chern-Simons Theory, cusp anomaly and integrability from String theory. Mathematical connections with
 some sectors of Number Theory_  (2011) ([pdf](http://empslocal.ex.ac.uk/people/staff/mrwatkin/zeta/nardelli2011b.pdf))
+
+A proposal for a construction as a [[higher gauge theory]] for [[differential string structure|string 2-connections]] is due to 
+
+* {#SaemannSchmidt17b} [[Christian Saemann]], Lennart Schmidt, _An M5-Brane Model_ ([arXiv:1712.06623](https://arxiv.org/abs/1712.06623))
+
+based on 
+
+* {#SaemannSchmidt17a} [[Christian Saemann]], Lennart Schmidt, _The Non-Abelian Self-Dual String and the (2,0)-Theory_ ([arXiv:1705.02353](https://arxiv.org/abs/1705.02353))
 
 ### Relation to D4-brane
 
