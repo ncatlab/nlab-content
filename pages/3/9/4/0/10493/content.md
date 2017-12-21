@@ -45,9 +45,10 @@ An [[(∞,1)-functor]] $F \colon \mathcal{C} \longrightarrow \mathcal{D}$ is **$
  
 A 1-excisive (∞,1)-functor is often just called _[[excisive (∞,1)-functor]]_ for short.
 
-An $(\infty,1)$-functor which is $n$-excisive for some $n \in \mathbb{N}$ is also called a _[[polynomial (∞,1)-functor]]_.
-
 =--
+
+An $(\infty,1)$-functor which is $n$-excisive for some $n \in \mathbb{N}$ is also called a __polynomial (∞,1)-functor__ (not to be confused with [[polynomial (∞,1)-functor|other concepts having the same name]]).  It has **degree $k$** when the smallest value of $n$ for which it is $n$-excisive is $k$.
+
 
 +-- {: .num_remark}
 ###### Remark
@@ -92,7 +93,7 @@ which moreover is [[left exact (infinity,1)-functor|left exact]] (preserves [[fi
 
 =--
 
-This is essentially the statement of ([Goodwillie 03, theorem 1.8](#Goodwillie03)). In the above form it appears explicitly as ([Lurie, theorem 6.1.1.10](#HigherAlg)). The construction of the reflector$P_n$ is in ([Lurie, constrution 6.1.1.27](#HigherAlg)).
+This is essentially the statement of ([Goodwillie 03, theorem 1.8](#Goodwillie03)). In the above form it appears explicitly as ([Lurie, theorem 6.1.1.10](#HigherAlg)). The construction of the reflector $P_n$ is in ([Lurie, constrution 6.1.1.27](#HigherAlg)).
 
 For $n = 1$ this reflection is _[[spectrification]]_.
 
@@ -142,6 +143,8 @@ In the situation of def. \ref{nExcisiveApproximations}, the functors $F$ for whi
 (e.g. [Lurie, def. 6.1.2.1](#HigherAlg))
 
 ### Homogeneous pieces
+
+A polynomial $\infty$-functor of degree $k$ --- that is, a $k$-excisive functor which is not $n$-excisive for any $n\lt k$ --- is a **homogeneous** polynomial if its approximation by an $(k-1)$ degree polynomial is trivial.
 
 (...)
 
