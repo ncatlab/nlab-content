@@ -1,4 +1,5 @@
 
+> under construction
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -470,6 +471,70 @@ $$
 
 =--
 
+## Hadamard vacuum states on Wick algebras
+
+(...)
+
+there is a [[state on a star-algebra|state]] on the [[Wick algebra]], given by evaluation on the zero [[field history]]
+
+$$
+  \array{
+    \mathcal{W}
+      &\overset{\langle -\rangle}{\longrightarrow}&
+    \mathbb{C}
+    \\
+    A &\mapsto& A(\Phi = 0) 
+  }
+$$
+
+(by positive semi-definiteness of [[Hadamard distributions]], [this condition](Hadamard+distribution#PositiveSemiDefiniteness)...)
+
+With respect to this state, $\Delta_H(x,y)$ itself is the [[vacuum expectation value]] of the [[2-point function]]:
+
+$$
+  \langle \Phi(x) \star_{\Delta_F} \Phi(y) \rangle
+  \;=\;
+  \underset{ = 0 }{
+  \underbrace{
+    \left\langle 
+       \mathbf{\Phi}(x) \mathbf{\Phi}(y)
+    \right\rangle
+  }}
+  +
+  \underset{ = \hbar \Delta_H(x,y) }{
+  \underbrace{
+    \left \langle 
+      \hbar \Delta_H(x,y)
+    \right\rangle
+  }}
+$$
+
+or equivalently in physics notation
+
+$$
+  \langle \Phi(x) \Phi(y) \rangle
+  \;=\;
+  \underset{ = 0 }{
+  \underbrace{
+    \left\langle 
+       :\mathbf{\Phi}(x) \mathbf{\Phi}(y):
+    \right\rangle
+  }}
+  +
+  \underset{ = \Delta_\hbar H(x,y) }{
+  \underbrace{
+    \left \langle 
+      \hbar \Delta_H(x,y)
+    \right\rangle
+  }}
+$$
+
+(...)
+
+
+## Examples
+
+### On Minkowski spacetime
 
 In [[Minkowski spacetime]] the [[Hadamard state]] is simply the usual [[vacuum state]] $\vert vac \rangle$, hence the [[Hadamard distribution]] is, as a [[generalized function]]
 
