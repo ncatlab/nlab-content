@@ -39,6 +39,193 @@ The K&#228;hler 2-form can be decomposed as $h = g+i\omega$; here $g$ is a [[Rie
 
 ## Definition
 
+### Linear Kähler structure
+
++-- {: .num_defn #KählerVectorSpace}
+###### Definition
+**([[Kähler vector space]])**
+
+Let $V$ be a [[finite dimensional vector space|finite-dimensional]] [[real vector space]]. Then a _linear Kähler structure_ on $V$ is
+
+1. a _[[linear complex structure]]_ on $V$, namely a [[linear map|linear]] [[endomorphism]]
+
+   $$
+     J \;\colon\; V \to V
+   $$
+
+   whose [[composition]] with itself is minus the [[identity morphism]]:
+
+   $$
+     J \circ J = - id_V
+   $$
+
+1. a skew-symmetric [[bilinear form]]
+
+   $$
+     \omega \in \wedge^2 V^\ast
+   $$
+
+such that
+
+1. $\omega(J(-),J(-)) = \omega(-,-)$;
+
+1. $g(-,-) \coloneqq \omega(-,J(-))$ is a [[Riemannian metric]], namely
+
+   a non-degenerate positive-definite [[bilinear form]] on $V$ 
+
+  (necessarily symmetric, due to the other properties: $g(w,v) = \omega(w,J(v)) = -\omega(J(v),w) = + \omega(J(J(v)), J(w)) = \omega(w,J(w)) = g(v,w)$).
+
+=--
+
+(e.g. [Boalch 09, p. 26-27](#Boalch09))
+
+Linear Kähler space structure may conveniently be encoded in terms of [[Hermitiann space]] structure:
+
++-- {: .num_defn #HermitianForm}
+###### Definition
+**([[Hermitian form]] and [[Hermitian space]])**
+
+Let $V$ be a [[real vector space]] equipped with a [[complex structure]] $J\colon V \to V$. Then a _[[Hermitian form]]_ on $V$ is 
+
+* a complex-valued real-[[bilinear form]]
+
+  $$
+    h \;\colon\; V \otimes V \longrightarrow \mathbb{C}
+  $$
+
+such that this is _symmetric sesquilinear_, in that:
+
+1. $h$ is complex-linear in the first argument;
+
+1. $h(w,v) = \left(h(v,w) \right)^\ast$ for all $v,w \in V$ 
+
+where $(-)^\ast$ denotes [[complex conjugation]].
+
+A Hermitian form is _positive definite_ (often assumed by default) if for all $v \in V$
+
+1. $h(v,v) \geq 0$
+
+1. $h(v,v) = 0 \phantom{AA} \Leftrightarrow \phantom{AA} v = 0$.
+
+A [[complex vector space]] $(V,J)$ equipped with a (positive definite) Hermitian form $h$ is called a (positive definite) _[[Hermitian space]]_.
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+Let $((V,J),h)$ be a positive definite [[Hermitian space]] (def. \ref{HermitianForm}). Then 
+
+1. the [[real part]] of the [[Hermitian form]] 
+
+   $$
+     g(-,-) \;\coloneqq\; Re(h(-,-))
+   $$
+  
+   is a [[Riemannian metric]], hence a symmetric positive-definite real-[[bilinear form]] 
+
+   $$
+     g \;\colon\; V \otimes V \to \mathbb{R}
+   $$
+
+1. the [[imaginary part]] of the [[Hermitian form]]
+
+   $$
+     \omega(-,-) \;\coloneqq\; -Im(h(-,-))
+   $$
+
+   is a [[symplectic form]], hence a non-degenerate skew-symmetric real-[[bilinear form]]
+
+   $$
+     \omega \;\colon\; V \wedge V \to \mathbb{R}
+     \,.
+   $$
+
+The two components are related by
+
+$$
+  \omega(v,w)
+  \;=\;
+  g(J(v),w)
+  \phantom{AAAAA}
+  g(v,w)
+  \;=\;
+  \omega(v,J(v))
+  \,.
+$$
+
+Finally, the  Riemannian metrics $g$ on $V$ appearing from (and fully determining) Hermitian forms this way are precisely those for which
+
+$$
+  g(J(-),J(-)) = g(-,-)
+  \,.
+$$
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+The positive-definiteness of $g$ is immediate from that of $h$. The symmetry of $g$ follows from the symmetric sesquilinearity of $h$:
+
+$$
+  \begin{aligned}
+    g(w,v)
+    & \coloneqq
+    Re(h(w,v))
+    \\
+    & =
+    Re\left( h(v,w)^\ast\right)
+    \\
+    & =
+    Re(h(v,w))
+    \\
+    & =
+    g(v,w)
+    \,.
+  \end{aligned}
+$$
+
+Analogously follows that $\omega$ is skew symmetric:
+
+$$
+  \begin{aligned}
+    \omega(w,v)
+    & \coloneqq
+    -Im(h(w,v))
+    \\
+    & =
+    -Im\left( h(v,w)^\ast\right)
+    \\
+    & =
+    Im(h(v,w))
+    \\
+    & = - \omega(v,w)
+    \,,
+  \end{aligned}
+$$
+
+as well as the relation between the two components:
+
+$$
+    \omega(v,w)
+    =
+    - Im(h(v,w))
+    =
+    Re(i h(v,w))
+    =
+    Re(h(J(v),w))
+    =
+    
+$$
+
+
+
+
+=--
+
+
 ### In terms of $G$-Structure
  {#InTermsOfGStructure}
 
@@ -49,8 +236,171 @@ By the fact (see at _[unitary group -- relation to orthogonal, symplectic and ge
 
 
 ## Examples
+ {#Examples}
 
-There is a unique up to a scalar hermitian metric on a complex [[projective space]] (which can be normalized), the [[Fubini-Study metric]]. All analytic subvarieties of a complex projective space are in fact [[algebraic variety|algebraic subvarieties]] and they inherit the K&#228;hler structure from the projective space. Examples include complex tori $\mathbb{C}^n/L$ where $L$ is a lattice in $\mathbb{C}^n$, [[K3-surfaces]], compact [[Calabi-Yau manifolds]], quadrics, products of projective spaces and so on. 
+The archetypical elementary example is the following:
+
++-- {: .num_example #StandardAlmostKaehlerVectorSpaces}
+###### Example
+**(standard [[Kähler vector space]])**
+
+Let $V \coloneqq \mathbb{R}^2$ be the 2-dimensional [[real vector space]] equipped with the [[complex structure]] $J$ which is given by the canonical identification $\mathbb{R}^2 \simeq \mathbb{C}$, hence, in terms of the canonical [[linear basis]] $(e_i)$ of $\mathbb{R}^2$, this is
+
+$$
+  J = (J^i{}_j) 
+  \coloneqq 
+  \left( 
+    \array{
+      0 & -1
+      \\
+      1 & 0
+    }
+  \right)
+  \,.
+$$
+
+Moreover let 
+
+$$
+  \omega = (\omega_{i j}) \coloneqq \left( \array{0 & 1 \\ -1 & 0} \right)
+$$ 
+
+and 
+
+$$
+  g = (g_{i j}) \coloneqq \left( \array{ 1 & 0 \\ 0 & 1}  \right)
+  \,.
+$$ 
+
+Then $(V, J, \omega, g)$ is a [[Kähler vector space]] (def. \ref{KählerVectorSpace}), hence a Kähler manifold if $\mathbb{R}^2$ is regarded as a [[smooth manifold]] in the standard way and if these [[bilinear forms]] $J, \omega g$ are extended as constant rank-2 [[tensors]] over this manifold.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is elementary, but, for the record, here is one way to make it fully explicit (we use [[Einstein summation convention]] and "$\cdot$" denotes [[matrix multiplication]]):
+
+$$
+  \begin{aligned}
+    \omega_{i j'} J^{j'}{}_j
+    & =
+    \left(
+       \array{
+         0 & 1
+         \\
+         -1 & 0
+       }
+    \right)
+      \cdot
+    \left(
+      \array{
+        0 & -1
+        \\
+        1 & 0
+      }
+    \right)
+    \\
+    & 
+    =
+    \left(
+      \array{
+        1 & 0
+        \\
+        0 & 1
+      }
+    \right)
+    \\
+    & =
+    g_{i j}
+  \end{aligned}
+$$
+
+
+and similarly
+
+$$
+  \begin{aligned}
+    \omega(J(-),J(-))_{i j}
+    & =
+    \omega_{i' j'} J^{i'}{}_{i} J^{j'}{}_{j}
+    \\
+    & =
+    (J^t \cdot \omega \cdot J)_{i j}
+    \\
+    & =
+    \left(
+    \left(
+      \array{
+        0 & 1
+        \\
+        -1 & 0
+      }
+    \right)
+    \cdot
+    \left(
+      \array{
+        0 & 1
+        \\
+        -1 & 0
+      }
+    \right)
+      \cdot
+    \left(
+      \array{
+        0 & -1
+        \\
+        1 & 0
+      }
+    \right)
+    \right)_{i j}
+    \\
+    & =
+    \left(
+    \left(
+      \array{
+        -1 & 0
+        \\
+        0 & -1
+      }
+    \right)
+    \cdot
+    \left(
+      \array{
+        0 & -1
+        \\
+        1 & 0
+      }
+    \right)
+    \right)_{i j}
+    \\
+    & = 
+    \left(
+      \array{
+        0 & 1
+        \\
+        -1 & 0
+      }
+    \right)_{i j}
+    \\
+    & = 
+    \omega_{i j}
+  \end{aligned}
+$$
+
+=--
+
++-- {: .num_example}
+###### Example
+**([[Fubini-Study metric]])**
+
+There is a unique (up to a scalar) hermitian metric on  [[complex projective space]] (which may be normalized), the _[[Fubini-Study metric]]_. 
+
+All analytic subvarieties of a complex projective space are in fact [[algebraic variety|algebraic subvarieties]] and they inherit the K&#228;hler structure from the projective space. 
+
+Examples include [[complex tori]] $\mathbb{C}^n/L$ where $L$ is a lattice in $\mathbb{C}^n$, [[K3-surfaces]], compact [[Calabi-Yau manifolds]], quadrics, products of projective spaces and so on. 
+
+=--
 
 ## Properties
 
@@ -183,6 +533,8 @@ Lecture notes include
 
 * Andrei Moroianu, _Lectures on K&#228;hler Geometry_ ([pdf]
 (http://www.math.polytechnique.fr/~moroianu/tex/kg.pdf))
+
+* {#Boalch09} Philip Boalch, _Noncompact complex symplectic and hyperkähler manifolds_, 2009 ([pdf](https://www.math.u-psud.fr/~boalch/cours09/hk.pdf))
 
 Discussion in terms of [[integrability of G-structure|first-order integrable]] [[G-structure]] include
 
