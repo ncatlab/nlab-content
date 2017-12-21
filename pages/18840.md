@@ -21,7 +21,8 @@
 
 ## Idea
 
-The concept of _noncommutative probability space_ or _quantum probability space_ is the generalization of that of _[[probability space]]_ as the concept of "space" is generalized to [[non-commutative geometry]].
+In [[probability theory]],
+the concept of _noncommutative probability space_ or _quantum probability space_ is the generalization of that of _[[probability space]]_ as the concept of "space" is generalized to [[non-commutative geometry]].
 
 The basic idea is to encode a would-be [[probability space]] dually in its [[algebra of functions]] $\mathcal{A}$, typically regarded as a [[star algebra]], and encode the [[probability measure]] as a [[state on a star-algebra|state on this star algebra]] 
 
@@ -36,7 +37,7 @@ $$
   \,.
 $$
 
-Hence this primarily [[axiom|axiomatizes]] the concept of _[[expectation values]]_ $\langle A\rangle$ ([Whittle 92](#Whittle92)) while leaving the nature of the underlying [[probability measure]] implicit (in contrast to the classical formalization of [[probability theory]] by [[Andrey Kolmogorov]]).
+Hence this primarily [[axiom|axiomatizes]] the concept of _[[expectation values]]_ $\langle A\rangle$ ([Segal 65](#Segal65), [Whittle 92](#Whittle92)) while leaving the nature of the underlying [[probability measure]] implicit (in contrast to the classical formalization of [[probability theory]] by [[Andrey Kolmogorov]]).
 
 Often $\mathcal{A}$ is assumed/required to be a [[von Neumann algebra]] (e.g. [Kuperberg 05, section 1.8](#Kuperberg05)). Often $\mathcal{A}$ is taken to be the full algebra of [[bounded operators]] on some [[Hilbert space]] (e.g. [Attal, def. 7.1](#Attal)).
 
@@ -51,6 +52,8 @@ In [[quantum physics]], $\mathcal{A}$ is an [[algebra of observables]] (or a [[l
 ## References
 
 The axiomatization of [[probability theory]] in terms of the concept of [[expectation values]] (instead of [[probability measures]]) was amplified in
+
+*  {#Segal65} [[Irving Segal]], _Algebraic integration theory_, Bull. Amer. Math. Soc. Volume 71, Number 3, Part 1 (1965), 419-489 ([Euclid](https://projecteuclid.org/euclid.bams/1183526903))
 
 * {#Whittle92} [[Peter Whittle]], _Probability via expectation_, Springer 1992
 
