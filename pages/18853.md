@@ -25,7 +25,7 @@ The _Lamb shift_ is a tiny shift in the [[energy]] spectrum of excitations of th
 
 <img src="https://ncatlab.org/nlab/files/LambShift.png" width="500">
 
-This is a "fine structure" effect not seen by the [[quantum mechanics]] of the [[electron]], but resulting from [[radiative corrections]] involving [[photon]] emission/abosorption only seen by regarding the electron in [[perturbative quantum field theory]], here in [[quantum electrodynamics]].
+This is a "fine structure" effect not seen by the [[quantum mechanics]] of the [[electron]], but resulting from [[radiative corrections]] involving [[photon]] emission/absorption only seen by regarding the electron in [[perturbative quantum field theory]], here in [[quantum electrodynamics]].
 
 The Lamb shift may be attributed to [[loop order|1-loop]] [[Feynman diagram]]-contributions giving "[[radiative corrections]]" to the basic [[tree level]] vertex that describes the basic interaction of the electron with the [[background field|background]] [[electromagnetic field]], hence called _vertex corrections_.
 
