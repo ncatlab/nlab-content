@@ -1395,6 +1395,8 @@ Exposition is at
 [[!redirects cohesive ∞-topos]]
 [[!redirects cohesive ∞-toposes]]
 
+[[!redirects cohesive infinity-topos]]
+[[!redirects cohesive infinity-toposes]]
 
 
 [[!redirects cohesive ∞-groupoid]]
