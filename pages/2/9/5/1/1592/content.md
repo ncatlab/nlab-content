@@ -275,12 +275,12 @@ The [[universal property]] of $\hat X$ is immediate from the abstract setup:
 
 
    $$
-     0 \to \pi_1(\hat X) \longrightarrow \pi_1(X) \overset{=}{\longrightarrow} \pi_1(X) \to \cdots
+     0 \to \pi_1(&#643; \hat X) \longrightarrow \pi_1(&#643; X) \overset{=}{\longrightarrow} \pi_1(\tau_1 &#643; X) \to \cdots
    $$
 
-   which implies that $\pi_1( &#643; X )$ and hence $\tau_1 &#643;$ is indeed trivial.
+   which implies that $\pi_1( &#643; \hat X )$ and hence $\tau_1 &#643; \hat X$ is indeed trivial.
 
-1. Let $E \longrightarrow X$ be any other object of $\mathbf{H}_{/X}$ such that $\tau_1(&#643; E) \simeq \ast$, then there is morphism
+1. Let $E \longrightarrow X$ be any other object of $\mathbf{H}_{/X}$ such that $\tau_1(&#643; E) \simeq \ast$, then there is a morphism
 
    $$
      \array{
@@ -308,7 +308,7 @@ The [[universal property]] of $\hat X$ is immediate from the abstract setup:
 
 This shows that $\hat X$ is the universal cover on abstract grounds.
 
-We may also check explicitly that $\hat X$ is given as the space of homotopy classes of [[paths]] in $X$ from the given basepoint. To that end we use that, as least over the site [[CartSp]], the [[shape modality|shape]] of $X$ is represented by the topological [[path ∞-groupoid]]. See at _[[shape via cohesive path ∞-groupoid]]_.
+We may also check explicitly that $\hat X$ is given as the space of homotopy classes of [[paths]] in $X$ from the given basepoint. To that end we use that, at least over the site [[CartSp]], the [[shape modality|shape]] of $X$ is represented by the topological [[path ∞-groupoid]]. See at _[[shape via cohesive path ∞-groupoid]]_.
 
 > The following is old material that deserves to be harmonized a bit more with the above stuff.
 
