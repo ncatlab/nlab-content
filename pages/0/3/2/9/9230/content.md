@@ -273,6 +273,10 @@ and the second summand corresponds to the "theta" Feynman diagram of the form
 
 ### In quantum field theory
 
+[[!include Wick algebra -- table]]
+
+$\,$
+
 [[!include Feynman diagrams in causal perturbation theory -- summary]]
 
 ## Related concepts
