@@ -20,6 +20,8 @@ The notion of jet space or _[[jet bundle]]_ is a generalization of the notion of
 
 One version in algebraic geometry is [[jet scheme]].
 
+From the [[nPOV]], the map from a bundle to its jet bundle can be understood in terms of the [[jet comonad]].
+
 
 ## Related pages
 
