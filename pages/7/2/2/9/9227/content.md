@@ -26,6 +26,8 @@ From the point of view of [[path integral quantization]], Wick's lemma is about 
 
 From the point of view of [[causal perturbation theory]] Wick's lemma expresses the [[Moyal deformation quantization]] of a [[free field theory]], see at _[[Wick algebra]]_ for more on this.
 
+[[!include Wick algebra -- table]]
+
 From the point of view of [[BV-quantization]] Wick's lemma arises as a consequence of the [[homological perturbation lemma]]  ([Gwilliam, section 2.3](#Gwilliam)).
 
 ## Related concepts
@@ -36,13 +38,18 @@ From the point of view of [[BV-quantization]] Wick's lemma arises as a consequen
 
 ## References
 
+Original articles include
 
 * {#Wick50} [[Gian-Carlo Wick]], _The evaluation of the collision matrix_, Phys. Rev. 80, 268-272 (1950)
-
 
 * {#Hepp69} [[Klaus Hepp]], _Th&#233;orie de la Renormalisation_ Lect. Notes in Physics, Springer 1969
 
 * {#BrunettiFredenhagenVerch03} [[Romeo Brunetti]], [[Klaus Fredenhagen]], [[Rainer Verch]], theorem 2.4 in _The generally covariant locality principle -- A new paradigm for local quantum physics_, Commun.Math.Phys.237:31-68, 2003 ([arXiv:math-ph/0112041](https://arxiv.org/abs/math-ph/0112041))
+
+Textbook accounts include
+
+* {#Scharf95} [[Günter Scharf]], theorem 3.1 in _[[Finite Quantum Electrodynamics -- The Causal Approach]]_, Berlin: Springer-Verlag, 1995, 2nd edition
+
 
 See also
 
