@@ -7,7 +7,7 @@
 +--{: .hide}
 [[!include higher algebra - contents]]
 =--
-#### AQFT
+#### Algebraic Quantum Field Theory
 +--{: .hide}
 [[!include AQFT and operator algebra contents]]
 =--
@@ -72,6 +72,9 @@ One a curved [[spacetime]] these relations become more complicated, see at _[[Wi
 
 If the field in question is not a [[bosonic field]] but a [[fermionic field]] then all of the above has to be understood in [[superalgebra]] with the fermionic variabled in off super-degree. This yields [[anti-commutator]] relations as above, heence often called "canonical anti-commutation relations".
 
+## Related concepts
+
+* [[Wick algebra]]
 
 
 [[!redirects canonical commutation relations]]
