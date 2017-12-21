@@ -12,6 +12,8 @@
 
 * [[function field analogy]]
 
+* [[renormalization]]
+
 category: people
 
 [[!redirects Helene Esnault]]
