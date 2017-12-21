@@ -94,61 +94,119 @@ After [[deformation quantization]] to the [[Wick algebra]]/[[interacting field a
 
 ## Examples
 
++-- {: .num_defn #MicrocausalFunctionals}
+###### Definition
+**([[microcausal observables]])**
 
-+-- {: .num_example }
-###### Example
-**(regular functionals are microcausal)**
-
-Every regular functional (def. \ref{SmoothFunctionalsOnSmoothFunctions}) is a [[microcausal functional]] (def. \ref{MicrocausalFunctionals}), since the [[wave front set]] of a distribution that is given by an ordinary function is empty:
+Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]] over a [[spacetime]] $\Sigma$.
+Then a polynomial observable ([this def.](A+first+idea+of+quantum+field+theory+--+Observables#PolynomialObservables))
 
 $$
-  \mathcal{F}_{reg} \subset \mathcal{F}_{mc}
+  A
+  \;\colon\;
+  \Gamma_\Sigma(E) \longrightarrow \mathbb{C}
+$$
+
+is called _[[microcausal observable|microcausal]]_ if the component [[distributions]] $\alpha_{a_1 \cdots a_k}$ in its expansion ([this equation](A+first+idea+of+quantum+field+theory+--+Observables#eq:ExpansionOfPolynomialObservables), written in [[generalized function]]-notation)
+
+$$
+  \label{RecalledForWickAlgebraExpansionOfPolynomialObservables}
+  \begin{aligned}
+    A(\Phi)
+     & = \phantom{+}
+    \alpha
+    \\
+    &
+    \phantom{=}
+      +
+    \int_{\Sigma} \Phi^a(x) \alpha_a(x) \, dvol_\Sigma(x)
+    \\
+    &
+    \phantom{=}
+     +
+    \int_{\Sigma^2} \Phi^{a_1}(x_1) \Phi^{a_2}(x_2) \alpha_{a_1 a_2}(x_1, x_2) \, dvol_\Sigma(x_1) dvol_\Sigma(x_2)
+    \\
+    &
+    \phantom{=}
+     +
+    \int_{\Sigma^3} \Phi^{a_1}(x_1) \Phi^{a_2}(x_2) \Phi^{a_3}(x_3) \alpha_{a_1 a_2 a_3}(x_1,x_2,x_3) \, dvol_\Sigma(x_1) dvol_\Sigma(x_2) dvol_\Sigma(x^3)
+    \\
+    &
+    \phantom{=}
+     +
+    \cdots
   \,.
+  \end{aligned}
 $$
+
+all have [[wave front sets]] which exclude those covectors to a point in $\Sigma^k$ all whose components are in the [[future cone]] or all whose components are in the [[past cone]].
 
 =--
 
-+-- {: .num_example #AdiabaticallySwitchedPointInteractions}
-###### Example
-**([[adiabatic switching|adiabtaically switched]] point interactions are microcausal)**
 
-Let $g \in C^\infty_c(X)$ be a [[bump function]], then for $n \in \mathbb{N}$ the smooth functional
+
++-- {: .num_example }
+###### Example
+**([[non-singular distribution|non-singular observables]] are [[microcausal observables|microcausal]])**
+
+Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]].
+
+Then polynomial observable ([this def.](A+first+idea+of+quantum+field+theory+--+Observables#PolynomialObservables)) whose [[distribution|distributional]] [[coefficients]] $\alpha_{a_1 \cdots a_k}$ (eq:RecalledForWickAlgebraExpansionOfPolynomialObservables) are [[non-singular distributions]] is a [[microcausal observable]] (def. \ref{MicrocausalFunctionals}).
+
+This is simply because the [[wave front set]] of [[non-singular distributions]] is [[empty set|empty]] (by definition, via the [[Paley-Wiener-Schwartz theorem]], [this prop.](Schwartz+theorem#DecayPropertyOfFourierTransformOfCompactlySupportedFunctions)).
+
+=--
+
++-- {: .num_example}
+###### Example
+**(compactly averaged point evaluations are microcausal)**
+
+Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]]. Assume the [[field bundle]] $E$ is a [[trivial vector bundle]] with linear [[fiber]] coordinates $(\phi^a)$.
+
+Let $g \in C^\infty_c(X)$ be a [[bump function]], then for $n \in \mathbb{N}$ the polynomial observables ([this def.](A+first+idea+of+quantum+field+theory+--+Observables#PolynomialObservables)) of the form
 
 $$
   \array{
-    C^\infty(X) &\overset{}{\longrightarrow}& \mathbb{R}
+    \Gamma_\Sigma(E) &\overset{}{\longrightarrow}& \mathbb{C}
     \\
-    \phi &\mapsto& \int_X g(x) (\phi(x))^n dvol(x)
+    \Phi 
+      &\mapsto& 
+    \int_X g(x) 
+      \tilde \alpha_{a_1 \cdots a_k}(x) 
+      \Phi^{a_1}(x) \cdtos \Phi^(a_k)\,  dvol_\Sigma(x)
   }
 $$
 
-is a [[microcausal functional]] (def. \ref{MicrocausalFunctionals}).
+are [[microcausal observable|microcausal]] (def. \ref{MicrocausalFunctionals}).
 
-If here we think of $\phi(x)^n$ as a point-[[interaction]] term (as for instance in [[phi^4 theory]]) then $g$ is to be thought of as an "[[adiabatic switching|adiabatically switched]]" [[coupling constant]]. These are the relevant interaction terms to be quantized via [[causal perturbation theory]].
+If here we think of $\phi(x)^n$ as a point-[[interaction]] term (as for instance in [[phi^4 theory]]) then $g$ is to be thought of as an "[[adiabatic switching|adiabatically switched]]" [[coupling constant]]. These are the relevant [[interaction terms]] to be quantized via [[causal perturbation theory]].
 
 =--
 
 +-- {: .proof}
 ###### Proof
 
-For notational convenience, consider the case $n = 2$, the other cases are directly analogous. The distribution in question is the [[delta distribution]]
-
-$$
-  \int_X g(x) \phi(x)^2 dvol(x)
-  \;=\;
-  \int_{X \times X} g(x_1) \phi(x_1) \phi(x_2) dvol(x_1) dvol(x_2)
-  =
-  \langle g \cdot \delta(-,-) , (\phi \circ pr_1)\cdot (\phi \circ pr_2)  \rangle_g
-  \,.
-$$
-
-Now for $(x_1, x_2) \in X \times X$ and $\mathbb{R}^{2n} \simeq U \subset X \times X$ a [[chart]] around this point,  the [[Fourier transform]] of $g \cdot \delta(-,-)$ restricted to this chart is proportional to the Fourier transform $\hat g$ of $g$ evaluated at the sum of the two covectors:
+For notational convenience, consider the case of the [[scalar field]] with $k = 2$; the general case is directly analogous. The distribution in question is the [[delta distribution]]
 
 $$
   \begin{aligned}
-    (k_1, k_2) 
-      & \mapsto 
-     \int_{\mathbb{R}^{2n}} g(x_1) \delta(x_1, x_2) \exp( k_1 \cdot x_1 + k_2 \cdot x_2 ) dvol(x_1) dvol(x_2)
+    A(\Phi)
+    & =
+    \int_X g(x) (\Phi(x))^2 \,dvol_\Sigma(x)
+    \\
+    & =
+    \int_{\Sigma \times \Sigma} g(x_1) \Phi(x_1) \Phi(x_2) \, dvol_\Sigma(x_1) \, dvol_\Sigma(x_2)
+  \end{aligned}
+  \,.
+$$
+
+Now for $(x_1, x_2) \in \Sigma \times \Sigma$ and $\mathbb{R}^{2n} \simeq U \subset X \times X$ a [[chart]] around this point,  the [[Fourier transform of distributions]] of $g \cdot \delta(-,-)$ restricted to this chart is proportional to the Fourier transform $\hat g$ of $g$ evaluated at the sum of the two covectors:
+
+$$
+  \begin{aligned}
+    (k_1, k_2)
+      & \mapsto
+     \int_{\mathbb{R}^{2n}} g(x_1) \delta(x_1, x_2) \exp( k_1 \cdot x_1 + k_2 \cdot x_2 ) dvol_\Sigma(x_1) \, dvol_\Sigma(x_2)
     \\
     & \propto \hat g(k_1 + k_2)
    \end{aligned}
@@ -156,20 +214,20 @@ $$
 $$
 
 
-Since $g$ is a plain [[bump function]], its Fourier transform $\hat g$ is quickly decaying (in the sense of wave front sets)  with $k_1 + k_2$ ([this prop.](wavefront+set#EmptyWaveFronSetCorrespondsToOrdinaryFunction)). Thus only on the cone $k_1 + k_2 = 0$ that function is in fact constant and in particular not decaying. 
+Since $g$ is a plain [[bump function]], its [[Fourier transform]] $\hat g$ is quickly decaying (according to [this inequality](compactly+supported+distribution#eq:DecayEstimateForFourierTransformOfNonSingularDistribution))  along $k_1 + k_2$ ([this prop.](wavefront+set#EmptyWaveFronSetCorrespondsToOrdinaryFunction)), as long as $k_1 + k_2 \neq 0$. Only on the cone $k_1 + k_2 = 0$ the Fourier transform is constant, and hence in particular not decaying.
 
 
 <div style="float:right;margin:0 10px 10px 0;">
 <img src="https://ncatlab.org/nlab/files/WaveFrontSetOfDeltaDistributionInTwoVariables.png" width="200"/>
 </div>
 
-This means that the wave front set consists of the element of the form $(x, (k, -k))$ with $k \neq 0$. Since $k$ and $-k$ are both in the [[future cone]] or both in the past cone precisely if $k = 0$, this situation is excluded in the wave front set and hence the distribution $g \cdot \delta(-,-)$ is microcausal.
+{#WaveFrontOfdeltaxy} This means that the wave front set consists of the elements of the form $(x, (k, -k))$ with $k \neq 0$. Since $k$ and $-k$ are both in the [[future cone]] or both in the past cone precisely if $k = 0$, this situation is excluded in the wave front set and hence the distribution $g \cdot \delta(-,-)$ is [[microcausal observable|microcausal]].
 
-> (graphics grabbed from [Khavkine-Moretti 14, p. 45](quasi-free+quantum+state#KhavkineMoretti14))
+> (graphics grabbed from [Khavkine-Moretti 14, p. 45](#KhavkineMoretti14))
 
 =--
 
-This shows that microcausality in this case is related to conservation of momentum in th point interaction.
+This shows that microcausality in this case is related to conservation of momentum in the point interaction.
 
 More generally:
 
@@ -227,6 +285,7 @@ into the space of microcausal functionals (e.g. [Fredenhagen-Rejzner 12, p. 21](
 
 * {#FredenhagenRejzner12} [[Klaus Fredenhagen]], [[Katarzyna Rejzner]], _Perturbative algebraic quantum field theory_, In _Mathematical Aspects of Quantum Field Theories_, Springer 2016 ([arXiv:1208.1428](https://arxiv.org/abs/1208.1428))
 
+* {#KhavkineMoretti14} [[Igor Khavkine]], [[Valter Moretti]], _Algebraic QFT in Curved Spacetime and quasifree Hadamard states: an introduction_, Chapter 5 in [[Romeo Brunetti]] et al. (eds.) _Advances in Algebraic Quantum Field Theory_, Springer, 2015 ([arXiv:1412.5945](https://arxiv.org/abs/1412.5945))
 
 * [[Katarzyna Rejzner]], section 4.4.1 of _Perturbative Algebraic Quantum Field Theory_, Mathematical Physics Studies, Springer 2016 ([pdf](https://link.springer.com/book/10.1007%2F978-3-319-25901-7))
 
