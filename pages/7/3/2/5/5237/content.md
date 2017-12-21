@@ -22,7 +22,7 @@
 +-- {: .num_defn}
 ###### Definition
 
-For $C$ a [[monoidal category]], the **category of [[monoids]]** $Mon(C)$  in the $C$ is the [[category]] whose
+For $C$ a [[monoidal category]], the **category of [[monoids]]** $Mon(C)$  in $C$ is the [[category]] whose
 
 * [[objects]] are [[monoids]] in $C$;
 
