@@ -33,7 +33,7 @@ The Lamb shift may be attributed to [[loop order|1-loop]] [[Feynman diagram]]-co
 
 (Here the dot on the right is the external vertex for the [[background field|background]] [[electromagnetic field]].)
 
-The main contribution (often referred to as _the_ vertex correction) is due to the [[radiative correction]] induced by the [[electron]] emitting a [[virtual particle|virtual]] [[photon]], then interacting with the [[background field|background]] [[electromagnetic field]], and and re-absorbing the [[virtual particle|virtual]] [[photon]]; described by this [[Feynman diagram]]:
+The main contribution (often referred to as _the_ vertex correction) is due to the [[radiative correction]] induced by the [[electron]] emitting a [[virtual particle|virtual]] [[photon]], then interacting with the [[background field|background]] [[electromagnetic field]], and and finally re-absorbing the [[virtual particle|virtual]] [[photon]]; described by this [[Feynman diagram]]:
 
 <img src="https://ncatlab.org/nlab/files/LambShiftMainVertexCorrection.png" width="100">
 
