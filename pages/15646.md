@@ -11,3 +11,4 @@
 
 
 [[!redirects zeta-functions and eta-functions and L-functions -- table]]
+[[!redirects zeta functions table]]
