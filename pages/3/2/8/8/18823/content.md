@@ -978,6 +978,7 @@ is _[[polynomial]]_ if it is the [[sum]] of a constant, and a linear observable 
 and a quadratic observable (def. \ref{QuadraticObservables}) and so on:
 
 $$
+  \label{ExpansionOfPolynomialObservables}
   \begin{aligned}
     A(\Phi)
      & = \phantom{+}
