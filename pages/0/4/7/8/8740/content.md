@@ -636,6 +636,8 @@ This is the case notably for [[Wick algebras]] ([[algebras of quantum observable
 
 =--
 
+[[!include Wick algebra -- table]]
+
 
 ## Related concepts
 
