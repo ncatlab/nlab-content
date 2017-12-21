@@ -50,7 +50,7 @@ $$
   \omega(-,-) \coloneqq g(-,J(-))
 $$
 
-is a non-degenrate [[differential 2-form]], then called the **Hermitian form** or similar.
+is a non-degenerate [[differential 2-form]], then called the **Hermitian form** or similar.
 
 =--
 
@@ -98,6 +98,8 @@ Moreover, the corresponding [[Dirac operator]] is the [[Dolbeault-Dirac operator
 This is due to ([Hitchin 74](#Hitchin74)). A textbook account is for instance in ([Friedrich 74, around p. 79 and p. 82](#Friedrich74)).
 
 ## Related concepts
+
+* [[Hermitian space]]
 
 * [[Kähler manifold]]
 
