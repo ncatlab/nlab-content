@@ -371,7 +371,71 @@ $$
   \,.
 $$ 
 
-Then $(V, J, \omega, g)$ is a [[Kähler vector space]] (def. \ref{KaehlerVectorSpace}), hence a Kähler manifold if $\mathbb{R}^2$ is regarded as a [[smooth manifold]] in the standard way and if these [[bilinear forms]] $J, \omega g$ are extended as constant rank-2 [[tensors]] over this manifold.
+Then $(V, J, \omega, g)$ is a [[Kähler vector space]] (def. \ref{KaehlerVectorSpace})
+
+
+The corresponding [[Kähler manifold]] is $\mathbb{R}^2$ regarded as a [[smooth manifold]] in the standard way and equipped with the [[bilinear forms]] $J, \omega g$ extended as constant rank-2 [[tensors]] over this manifold.
+
+If we write 
+
+$$
+  x,y \;\colon\; \mathbb{R}^2 \longrightarrow \mathbb{R}
+$$
+
+for the standard [[coordinate functions]] on $\mathbb{R}^2$ with 
+
+$$
+  z \coloneqq x + i y \;\coloneqq\; \mathbb{R}^2 \to \mathbb{C}
+$$
+
+and
+
+$$
+ \overline{z} \coloneqq x - i y \;\coloneqq\; \mathbb{R}^2 \to \mathbb{C}
+$$
+
+for the corresponding complex coordinates, then this translates to 
+
+$$
+  \omega
+  \in
+  \Omega^2(\mathbb{R}^2)
+$$ 
+
+being the [[differential 2-form]] given by
+
+$$
+  \begin{aligned}
+    \omega
+    & =
+    d x \wedge d y
+    \\
+    & =
+    \tfrac{1}{2i} d z \wedge d \overline{z}
+  \end{aligned}
+$$
+
+and with [[Riemannian metric]] [[tensor]] given by
+
+$$
+  g = d x \otimes d x + d y \otimes d y
+  \,.
+$$
+
+The [[Hermitian form]] is given by
+
+$$
+  \begin{aligned}
+    h 
+    & = 
+    g - i \omega
+    \\
+    & = 
+    d z \otimes d \overline{z}
+    \,.
+  \end{aligned}
+$$
+
 
 =--
 
