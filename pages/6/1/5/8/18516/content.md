@@ -233,3 +233,6 @@ into the space of microcausal functionals (e.g. [Fredenhagen-Rejzner 12, p. 21](
 
 [[!redirects microcausal functionals]]
 [[!redirects microcausal functionals]]
+
+[[!redirects microcausal observable]]
+[[!redirects microcausal observables]]
