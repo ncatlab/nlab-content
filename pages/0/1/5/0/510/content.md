@@ -154,6 +154,10 @@ In direct analogy to how topological spaces form the archetypical example, [[Top
 
 * [[model structure on spectra]]
 
+### Relation to symmetric monoidal ∞-groupoids
+
+* [[stable homotopy hypothesis]]
+
 ## Related concepts
 
 * [[homotopy group of a spectrum]]
@@ -177,6 +181,8 @@ In direct analogy to how topological spaces form the archetypical example, [[Top
 * [[motivic spectrum]]
 
 * [[Brown representability theorem]]
+
+* [[stable homotopy hypothesis]]
 
 [[!include k-monoidal table]]
 
