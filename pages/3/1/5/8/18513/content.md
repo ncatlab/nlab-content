@@ -43,12 +43,15 @@ $$
 The intuitive idea is that these operators span a [[Hilbert space]] $\mathcal{H}$ of [[quantum states]] from a [[vacuum state]] $\vert vac \rangle \in \mathcal{H}$ characterized by the condition
 
 $$
-  \underset{k}{\forall} \left( a_k \vert vac \rangle = 0 \right)
+  a_k \vert vac \rangle = 0
+  \phantom{AAA}
+  \text{for all} \,\, k
 $$
 
 hence (if we think of $a_k$ as acting by "removing a quantum in mode $k$") by the condition that it contains no quanta. So the normal ordered Wick polynomials represent the [[quantum observables]] with vanishing [[vacuum expectation value]]. In [[quantum field theory]] they model [[scattering]] processes where quanta enter a reaction process (the modes corresponding to the "annihilation" operators $a_k$) and other particles come out of the reaction (the modes corresppnding to the "creation" operators $a^\ast_k$).
 
-The product of two Wick polynomials, computed in the ambient operator algebra and then re-expressed as a Wick polynomial, is given by computing the relevant sequence of [[commutators]] by [[Wick's lemma]], for example
+The product of two Wick polynomials, computed in the ambient operator algebra and 
+then re-expressed as a Wick polynomial, is given by computing the relevant sequence of [[commutators]] by [[Wick's lemma]], for example
 
 $$
   {:a^\ast a:} \, {:a^\ast a:}
@@ -80,7 +83,11 @@ Finally, the shift by the [[quasi-free Hadamard state]], which is the very sourc
 ###### Definition
 **(almost K&#228;hler vector space)**
 
-An _almost K&#228;hler vector space_ is a [[complex vector space]] $V$ equipped with two [[bilinear forms]] $\sigma, h \;\colon\; V \otimes_{\mathbb{R}} V \longrightarrow \mathbb{R}$ such that with $V$ regarded as a [[smooth manifold]] and with $\sigma, g$ regarded as constant [[tensors]], then $(V,\sigma,h)$ is an [[almost Kähler manifold]].
+An _almost K&#228;hler vector space_ is a [[real vector space]] $V$ equipped with a [[linear complex structure]] $J$ as well as two [[bilinear forms]] $\omega, g \;\colon\; V \otimes_{\mathbb{R}} V \longrightarrow \mathbb{R}$ such that the following equivalent conditions hold:
+
+1. $\omega(J v, J w) = \omega(v,w)$ and $g(v,w) = \omega(v,J w)$;
+
+1. with $V$ regarded as a [[smooth manifold]] and with $\omega, g$ regarded as constant [[tensors]], then $(V, \omega, g)$ is an [[almost Kähler manifold]].
 
 =--
 
@@ -88,7 +95,150 @@ An _almost K&#228;hler vector space_ is a [[complex vector space]] $V$ equipped 
 ###### Example
 **(standard almost K&#228;hler vector spaces)**
 
-Let $V \coloneqq \mathbb{R}^2$ equipped with the [[complex structure]] given by the canonical identification $\mathbb{R}^2 \simeq \mathbb{C}$, let $\sigma \coloneqq \left( \array{0 & -1 \\ 1 & 0} \right)$ and $h \coloneqq \left( \array{ 1 & 0 \\ 0 & 1}  \right)$. Then $(V,\sigma,g)$ is an almost K&#228;hler vector space (def. \ref{AlmostKaehlerVectorSpace}).
+Let $V \coloneqq \mathbb{R}^2$ equipped with the [[complex structure]] $J$ which isgiven by the canonical identification $\mathbb{R}^2 \simeq \mathbb{C}$, hence, in terms of the canonical [[linear basis]] $(e_i)$ of $\mathbb{R}^2$, this is
+
+$$
+  J = (J^i{}_j) 
+  \coloneqq 
+  \left( 
+    \array{
+      0 & -1
+      \\
+      1 & 0
+    }
+  \right)
+  \,.
+$$
+
+Moreover let 
+
+$$
+  \omega = (\omega_{i j}) \coloneqq \left( \array{0 & 1 \\ -1 & 0} \right)
+$$ 
+
+and 
+
+$$
+  g = (g_{i j}) \coloneqq \left( \array{ 1 & 0 \\ 0 & 1}  \right)
+  \,.
+$$ 
+
+Then $(V, J, \omega, g)$ is an almost Kähler vector space (def. \ref{AlmostKaehlerVectorSpace}).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This is elementary, but, for the record, here is one way to make it fully explicit (we use [[Einstein summation convention]] and "$\cdot$" denotes [[matrix multiplication]]):
+
+$$
+  \begin{aligned}
+    \omega_{i j'} J^{j'}{}_j
+    & =
+    \left(
+       \array{
+         0 & 1
+         \\
+         -1 & 0
+       }
+    \right)
+      \cdot
+    \left(
+      \array{
+        0 & -1
+        \\
+        1 & 0
+      }
+    \right)
+    \\
+    & 
+    =
+    \left(
+      \array{
+        1 & 0
+        \\
+        0 & 1
+      }
+    \right)
+    \\
+    & =
+    g_{i j}
+  \end{aligned}
+$$
+
+
+and similarly
+
+$$
+  \begin{aligned}
+    \omega(J(-),J(-))_{i j}
+    & =
+    \omega_{i' j'} J^{i'}{}_{i} J^{j'}{}_{j}
+    \\
+    & =
+    (J^t \cdot \omega \cdot J)_{i j}
+    \\
+    & =
+    \left(
+    \left(
+      \array{
+        0 & 1
+        \\
+        -1 & 0
+      }
+    \right)
+    \cdot
+    \left(
+      \array{
+        0 & 1
+        \\
+        -1 & 0
+      }
+    \right)
+      \cdot
+    \left(
+      \array{
+        0 & -1
+        \\
+        1 & 0
+      }
+    \right)
+    \right)_{i j}
+    \\
+    & =
+    \left(
+    \left(
+      \array{
+        -1 & 0
+        \\
+        0 & -1
+      }
+    \right)
+    \cdot
+    \left(
+      \array{
+        0 & -1
+        \\
+        1 & 0
+      }
+    \right)
+    \right)_{i j}
+    \\
+    & = 
+    \left(
+      \array{
+        0 & 1
+        \\
+        -1 & 0
+      }
+    \right)_{i j}
+    \\
+    & = 
+    \omega_{i j}
+  \end{aligned}
+$$
+
 
 =--
 
@@ -101,12 +251,12 @@ Let $(\mathbb{R}^{2n},\sigma, g)$ be an almost K&#228;hler vector space (def. \r
 
 $$
   \begin{aligned}
-    P_1 \star_\omega P_2
+    P_1 \star_\pi P_2
     & \coloneqq
-    prod \circ \exp \left( \hbar\underoverset{k_1, k_2 = 1}{2 n}{\sum}\omega^{a b} \partial_a \otimes  \partial_b \right)  (P_1 \otimes P_2)
+    prod \circ \exp \left( \hbar\underoverset{k_1, k_2 = 1}{2 n}{\sum}\pi^{a b} \partial_a \otimes  \partial_b \right)  (P_1 \otimes P_2)
     \\
     & =
-    P_1 \cdot P_2 + \hbar \underoverset{k_1, k_2 = 1}{2n}{\sum}\omega^{k_1 k_2}(\partial_{k_1} P_1) \cdot (\partial_{k_2} P_2)
+    P_1 \cdot P_2 + \hbar \underoverset{k_1, k_2 = 1}{2n}{\sum}\pi^{k_1 k_2}(\partial_{k_1} P_1) \cdot (\partial_{k_2} P_2)
     + \cdots
   \end{aligned}
 $$
@@ -114,7 +264,7 @@ $$
 given by the bilinear form
 
 $$
-  \omega \coloneqq \tfrac{i}{2} \sigma + \tfrac{1}{2} g
+  \pi \coloneqq \tfrac{i}{2} \omega^{-1} + \tfrac{1}{2} g^{-1}
   \,.
 $$
 
@@ -135,7 +285,7 @@ To make contact with the traditional notation we decorate the elements $P$ in th
 $$
   : P_1 : \, :P_2:
   \;\coloneqq\;
-  : P_1 \star_\omega P_2 :
+  : P_1 \star_\pi P_2 :
 $$
 
 =--
@@ -226,7 +376,7 @@ Using this, we find the [[star product]] as follows (where we write $(-)\cdot (-
 
 $$
   \begin{aligned}
-    a \star_\omega a^\ast
+    a \star_\pi a^\ast
     & =
     a \cdot a^\ast
     +
@@ -241,7 +391,7 @@ $$
     a^\ast \cdot a + \hbar
     \\
     \\
-    a^\ast \star_\omega a
+    a^\ast \star_\pi a
     & =
     a^\ast \cdot a
     +
@@ -256,18 +406,18 @@ $$
     a^\ast \cdot a
     \\
     \\
-    a \star_\omega a
+    a \star_\pi a
      & =
     a \cdot a
     \\
     \\
-    a^\ast \star_\omega a^\ast
+    a^\ast \star_\pi a^\ast
     & =
     a^\ast \cdot a^\ast
   \end{aligned}
 $$
 
-These four cases are sufficient to see that in the star-product $P_1 \star_\omega P_2$ of general elements, we obtain correction term $\hbar$ to the ordinary commutative product precisely for every pair consisting  of a factor of $a$ in $P_1$ and a factor $a^\ast$ in $P_2$. This is exactly the "normal ordering" prescription.
+These four cases are sufficient to see that in the star-product $P_1 \star_\pi P_2$ of general elements, we obtain correction term $\hbar$ to the ordinary commutative product precisely for every pair consisting  of a factor of $a$ in $P_1$ and a factor $a^\ast$ in $P_2$. This is exactly the "normal ordering" prescription.
 
 =--
 
@@ -486,16 +636,16 @@ Let $(X,g)$ be a [[time orientation|time oriented]] [[globally hyperbolic spacet
 A _[[Hadamard 2-point function]]_ for the [[free field|free]] [[scalar field]] on $(X,g)$ is a [[distribution]]
 
 $$
-  \omega \in \mathcal{D}'(X \times X)
+  \pi \in \mathcal{D}'(X \times X)
 $$
 
 on the [[Cartesian product]] manifold such that
 
 
-1. the anti-symmetric part of $\omega$ is the [[causal propagator]] $E$ (from prop. \ref{PropertiesOfTheCausalPropagator})
+1. the anti-symmetric part of $\pi$ is the [[causal propagator]] $E$ (from prop. \ref{PropertiesOfTheCausalPropagator})
 
    $$
-     \omega(x_1, x_2) - \omega(x_2, x_1)
+     \pi(x_1, x_2) - \pi(x_2, x_1)
      \;=\;
      i E(x_1, x_2)
    $$
@@ -503,7 +653,7 @@ on the [[Cartesian product]] manifold such that
 1. the [[wave front set]] is one causal half that of the causal propagator:
 
    $$
-     WF(\omega)
+     WF(\pi)
      \;=\;
      \left\{
        ((x_1, x_2), (k_1, -k_2))
@@ -514,14 +664,14 @@ on the [[Cartesian product]] manifold such that
      \right\}
    $$
 
-1. (Klein-Gordon bi-solution) $(\Box_g - m^2) \omega(-,x) = 0$ and $(\Box_g - m^2)\omega(x,-) = 0$, for all $x \in X$;
+1. (Klein-Gordon bi-solution) $(\Box_g - m^2) \pi(-,x) = 0$ and $(\Box_g - m^2)\pi(x,-) = 0$, for all $x \in X$;
 
 1. (positive semi-definiteness) For any complex-valued [[bump function]] $b$ we have that
 
    $$
-     \int_{X \times X} b^\ast(x) \omega(x,y) b(y) \, dvol(x) dvol(y)
+     \int_{X \times X} b^\ast(x) \pi(x,y) b(y) \, dvol(x) dvol(y)
      \;\coloneqq\;
-     \langle \omega, b^\ast \otimes b \rangle
+     \langle \pi, b^\ast \otimes b \rangle
      \;\geq\; 0
    $$
 
@@ -531,7 +681,7 @@ on the [[Cartesian product]] manifold such that
 ###### Proposition
 **(existence of Hadamard distributions)
 
-Let $(X,g)$ be a [[globally hyperbolic spacetime]]. Then a [[Hadamard distribution]] $\omega$ according to def. \ref{HadamardDistribution} does exist.
+Let $(X,g)$ be a [[globally hyperbolic spacetime]]. Then a [[Hadamard distribution]] $\pi$ according to def. \ref{HadamardDistribution} does exist.
 
 =--
 
@@ -647,7 +797,7 @@ More generally:
 Write
 
 $$
-  \Omega_{poly}^{h,v}(E)
+  \Pi_{poly}^{h,v}(E)
 $$
 
 for the space of differential forms on the [[jet bundle]] of $E$ which locally are [[polynomials]]
@@ -656,7 +806,7 @@ in the field variables.
 $$
   \mathcal{F}_{loc}
     \; \subset \;
-  C^\infty_c(\Sigma) \underset{\Omega_{poly}^{0,0}(E)}{\otimes} \Omega_{poly}^{d,0}(E)
+  C^\infty_c(\Sigma) \underset{\Pi_{poly}^{0,0}(E)}{\otimes} \Pi_{poly}^{d,0}(E)
 $$
 
 for the subspace of [[horizontal differential forms]] of degree $d$ on the [[jet bundle]] ([[local Lagrangian densities]])
@@ -693,17 +843,17 @@ into the space of [[microcausal functionals]]. (See [this example](microcausal+f
 ###### Proposition
 **(Hadamard-Moyal star product on microcausal functionals)
 
-Let $(X,g)$ be a [[globally hyperbolic spacetime]], and let $\omega \in \mathcal{D}'(X \times X)$ be a [[Hadamard distribution]] (def. \ref{HadamardDistribution}) which is guaranteed to exist by prop. \ref{ExistenceOfHadamardDistributions}.
+Let $(X,g)$ be a [[globally hyperbolic spacetime]], and let $\pi \in \mathcal{D}'(X \times X)$ be a [[Hadamard distribution]] (def. \ref{HadamardDistribution}) which is guaranteed to exist by prop. \ref{ExistenceOfHadamardDistributions}.
 
 Then the [[star product]]
 
 $$
-  P_1 \star_\omega P_2
+  P_1 \star_\pi P_2
   \;\coloneqq\;
   prod
    \circ
   \exp\left(
-    \int_{X^2} \hbar \omega(x_1, x_2) \frac{\delta}{\delta \phi(x_1)}
+    \int_{X^2} \hbar \pi(x_1, x_2) \frac{\delta}{\delta \phi(x_1)}
     \otimes \frac{\delta}{\delta \phi(x_2)} dvol_g
   \right)
   (P_1 \otimes P_2)
@@ -716,7 +866,7 @@ on microcausal functionals $P_1, P_2 \in \mathcal{F}_{mc}$ is well defined in th
 +-- {: .proof}
 ###### Proof
 
-By definition of [[Hadamard distribution]], the [[wave front set]] of powers of $\omega$ has all cotangents on the first variables future pointing, and all those on the second variables past pointing. The first variables are integrated against those of $P_1$ and the second against $P_2$. By definition of microcausal functionals, the wave front sets of $P_1$ and $P_2$ are disjoint from the subsets where all components are future pointing or all components are past-pointing. Therefore the relevant sum of of the wave front covectors never vanishes.
+By definition of [[Hadamard distribution]], the [[wave front set]] of powers of $\pi$ has all cotangents on the first variables future pointing, and all those on the second variables past pointing. The first variables are integrated against those of $P_1$ and the second against $P_2$. By definition of microcausal functionals, the wave front sets of $P_1$ and $P_2$ are disjoint from the subsets where all components are future pointing or all components are past-pointing. Therefore the relevant sum of of the wave front covectors never vanishes.
 
 See [Collini 16, p. 25-26](#Collini16)
 
@@ -726,15 +876,15 @@ See [Collini 16, p. 25-26](#Collini16)
 ###### Definition
 **(Wick algebra of free quantum field)**
 
-Let $(X,g)$ be a [[globally hyperbolic spacetime]] and let $\omega \in \mathcal{D}'(X \times X)$ be a [[Hadamard distribution]] (def. \ref{HadamardDistribution}) which is guaranteed to exist by prop. \ref{ExistenceOfHadamardDistributions}.
+Let $(X,g)$ be a [[globally hyperbolic spacetime]] and let $\pi \in \mathcal{D}'(X \times X)$ be a [[Hadamard distribution]] (def. \ref{HadamardDistribution}) which is guaranteed to exist by prop. \ref{ExistenceOfHadamardDistributions}.
 
 Then the _Wick algebra_ of [[quantum observables]] of the [[free field|free]] [[scalar field]] on $(X,g)$ is the space of [[microcausal functionals]] $\mathcal{F}_{mc}$ (def. \ref{MicrocausalFunctionals}) equipped with the Hadamard-Moyal [[star product]] from prop. \ref{MoyalStarProductOnMicrocausal}:
 
 $$
-  \mathcal{W}(X,\omega)
+  \mathcal{W}(X,\pi)
   \;\coloneqq\;
   \left(
-    \mathcal{F}_{mc}, \star_\omega
+    \mathcal{F}_{mc}, \star_\pi
   \right)
   \,.
 $$
@@ -748,7 +898,7 @@ $$
 In [[Minkowski spacetime]] the [[Hadamard state]] is simply the usual [[vacuum state]] $\vert vac \rangle$, hence the [[Hadamard distribution]] is, as a [[generalized function]]
 
 $$
-  \omega(x,y) = \langle vac \vert \Phi(x) \Phi(y) \vert vac \rangle
+  \pi(x,y) = \langle vac \vert \Phi(x) \Phi(y) \vert vac \rangle
   \,.
 $$
 
