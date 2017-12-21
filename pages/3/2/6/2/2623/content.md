@@ -708,7 +708,7 @@ Applications to the renoamrliaztion of [[Yang-Mills theory]] on curved [[backgro
 
 BPHZ renormalization was introduced in particular in
 
-* K. Hepp.: _Th&#233;orie de la Renormalisation_ Lect. Notes in Phys. Springer (1969)
+* [[Klaus Hepp]], _Th&#233;orie de la Renormalisation_ Lect. Notes in Phys. Springer (1969)
 
 
 Review includes
@@ -771,11 +771,11 @@ A vaguely related approach earlier appeared in
 
 ### Relations to motives, polylogarithms, positivity
 
-* Alexander B. Goncharov, Marcus Spradlin, C. Vergu, Anastasia Volovich, _Classical polylogarithms for amplitudes and Wilson loops_,  Phys.Rev.Lett.105:151605,2010 [arxiv/1006.5703](http://arxiv.org/abs/1006.5703)
+* [[Alexander Goncharov]], Marcus Spradlin, C. Vergu, Anastasia Volovich, _Classical polylogarithms for amplitudes and Wilson loops_,  Phys.Rev.Lett.105:151605,2010 [arxiv/1006.5703](http://arxiv.org/abs/1006.5703)
  
-* Nima Arkani-Hamed, Jacob L. Bourjaily, Freddy Cachazo, Alexander B. Goncharov, Alexander Postnikov, Jaroslav Trnka, _Scattering amplitudes and the positive Grassmannian_, [arxiv/1212.5605](http://arxiv.org/abs/1212.5605)
+* [[Nima Arkani-Hamed]], Jacob L. Bourjaily, Freddy Cachazo, [[Alexander Goncharov]], Alexander Postnikov, Jaroslav Trnka, _Scattering amplitudes and the positive Grassmannian_, [arxiv/1212.5605](http://arxiv.org/abs/1212.5605)
  
-* [[Spencer Bloch]], H&#233;l&#232;ne Esnault, [[Dirk Kreimer]], _On motives associated to graph polynomials_, Commun.Math.Phys. __267__ (2006) 181-225 [math.AG/0510011](http://arxiv.org/abs/math/0510011) [doi](http:&&dx.doi.org/10.1007/s00220-006-0040-2)
+* [[Spencer Bloch]], [[Hélène Esnault]], [[Dirk Kreimer]], _On motives associated to graph polynomials_, Commun.Math.Phys. __267__ (2006) 181-225 [math.AG/0510011](http://arxiv.org/abs/math/0510011) [doi](http:&&dx.doi.org/10.1007/s00220-006-0040-2)
 
 
 [[!redirects renormalizable]]
