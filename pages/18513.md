@@ -652,9 +652,9 @@ on the [[Cartesian product]] manifold such that
 
 +-- {: .num_prop #ExistenceOfHadamardDistributions}
 ###### Proposition
-**(existence of Hadamard distributions)
+**(existence of [[Hadamard distributions]])
 
-Let $(X,g)$ be a [[globally hyperbolic spacetime]]. Then a [[Hadamard distribution]] $\pi$ according to def. \ref{HadamardDistribution} does exist.
+Let $(X,g)$ be a [[globally hyperbolic spacetime]]. Then a [[Hadamard distribution]] ([[Whightman propagator]]) $\pi$ according to def. \ref{HadamardDistribution} does exist.
 
 =--
 
@@ -699,7 +699,7 @@ $$
 
 +-- {: .num_example}
 ###### Example
-**([[adiabatic switching|adiabtaically switched]] point interactions are microcausal)**
+**([[adiabatic switching|adiabatically switched]] point interactions are microcausal)**
 
 Let $g \in C^\infty_c(X)$ be a [[bump function]], then for $n \in \mathbb{N}$ the smooth functional
 
