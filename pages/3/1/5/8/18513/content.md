@@ -37,7 +37,7 @@ $$
     \\
     etc.
   }
-  \,.S
+  \,
 $$
 
 The intuitive idea is that these operators span a [[Hilbert space]] $\mathcal{H}$ of [[quantum states]] from a [[vacuum state]] $\vert vac \rangle \in \mathcal{H}$ characterized by the condition
@@ -56,11 +56,11 @@ then re-expressed as a Wick polynomial, is given by computing the relevant seque
 $$
   {:a^\ast a:} \, {:a^\ast a:}
   =
-  :a^\ast a^\ast a a: + c \, :a^\ast a:
+  :a^\ast a^\ast a a: + \hbar \, :a^\ast a:
   \,,
 $$
 
-where $c \coloneqq [a, a^\ast]$ is the value of the canonical [[commutator]].
+where $\hbar = [a, a^\ast]$ is the value of the [[canonical commutation relations|canonical commutator]].
 
 The [[associative algebra]] thus obtained is hence called the _algebra of normal ordered operators_ or _Wick polynomial algebra_ or just _Wick algebra_.
 
@@ -125,14 +125,77 @@ $$
 
 Then $(V, J, \omega, g)$ is a [[Kähler vector space]] (def. \ref{AlmostKaehlerVectorSpace}).
 
+The corresponding [[Kähler manifold]] is $\mathbb{R}^2$ regarded as a [[smooth manifold]] in the standard way and equipped with the [[bilinear forms]] $J, \omega g$ extended as constant rank-2 [[tensors]] over this manifold.
+
+If we write 
+
+$$
+  x,y \;\colon\; \mathbb{R}^2 \longrightarrow \mathbb{R}
+$$
+
+for the standard [[coordinate functions]] on $\mathbb{R}^2$ with 
+
+$$
+  z \coloneqq x + i y \;\coloneqq\; \mathbb{R}^2 \to \mathbb{C}
+$$
+
+and
+
+$$
+ \overline{z} \coloneqq x - i y \;\coloneqq\; \mathbb{R}^2 \to \mathbb{C}
+$$
+
+for the corresponding complex coordinates, then this translates to 
+
+$$
+  \omega
+  \in
+  \Omega^2(\mathbb{R}^2)
+$$ 
+
+being the [[differential 2-form]] given by
+
+$$
+  \begin{aligned}
+    \omega
+    & =
+    d x \wedge d y
+    \\
+    & =
+    \tfrac{1}{2i} d z \wedge d \overline{z}
+  \end{aligned}
+$$
+
+and with [[Riemannian metric]] [[tensor]] given by
+
+$$
+  g = d x \otimes d x + d y \otimes d y
+  \,.
+$$
+
+The [[Hermitian form]] is given by
+
+$$
+  \begin{aligned}
+    h 
+    & = 
+    g - i \omega
+    \\
+    & = 
+    d z \otimes d \overline{z}
+  \end{aligned}
+$$
+
+
 =--
 
+(for more see at _[[Kähler vector space]]_ [this example](Kähler+vector+space#StandardAlmostKaehlerVectorSpaces)).
 
 +-- {: .num_defn #WickAlgebraOfAlmostKaehlerVectorSpace}
 ###### Definition
 **([[Wick algebra]] of a [[Kähler vector space]])**
 
-Let $(\mathbb{R}^{2n},\sigma, g)$ be an almost K&#228;hler vector space (def. \ref{AlmostKaehlerVectorSpace}). Then its _Wick algebra_ is the [[formal power series]] vector space $\mathbb{C}[ [ a_1, a^\ast_1, \cdots, a_n, a^\ast_n  ] ] [ [ \hbar ] ]$ equipped with the [[star product]]
+Let $(\mathbb{R}^{2n},\sigma, g)$ be a [[Kähler vector space]] (def. \ref{AlmostKaehlerVectorSpace}). Then its _Wick algebra_ is the [[formal power series]] vector space $\mathbb{C}[ [ a_1, a^\ast_1, \cdots, a_n, a^\ast_n  ] ] [ [ \hbar ] ]$ equipped with the [[star product]]
 
 $$
   \begin{aligned}
@@ -177,128 +240,114 @@ $$
 
 +-- {: .num_example #WickAlgebraOfASingleMode}
 ###### Example
-**(Wick algebra of a single mode)**
+**([[Wick algebra]] of a single mode)**
 
-Let $V \coloneqq \mathbb{R}^2 \simeq Span(\{x,y\})$ be a standard almost K&#228;hler vector space according to example \ref{StandardAlmostKaehlerVectorSpaces}, with canonical coordinates denoted $x$ and $y$. We discuss its Wick algebra according to def. \ref{WickAlgebraOfAlmostKaehlerVectorSpace} and show that this reproduces the traditional definition of products of "normal ordered" operators as [above](#Idea).
+Let $V \coloneqq \mathbb{R}^2 \simeq Span(\{x,y\})$ be the standard [[Kähler vector space]] according to example \ref{StandardAlmostKaehlerVectorSpaces}, with canonical coordinates denoted $x$ and $y$. We discuss its Wick algebra according to def. \ref{WickAlgebraOfAlmostKaehlerVectorSpace} and show that this reproduces the traditional definition of products of "normal ordered" operators as [above](#Idea).
 
-To that end, consider the complex linear combination of the coordinates to the canonical complex coordinates $z \coloneqq x + i y$ and $\overline{z} \coloneqq x - i y$, which we suggestively write instead as
+To that end, consider the complex linear combination of the coordinates to the canonical complex coordinates 
 
 $$
-  a \coloneqq \tfrac{1}{\sqrt{2}}(x + i y)
-  \phantom{AAAA}
-  a^\ast \coloneqq \tfrac{1}{\sqrt{2}}(x - i y)
+  z \;\coloneqq\; x + i y
+  \phantom{AAA} 
+    \text{and} 
+  \phantom{AAA}
+  \overline{z} \coloneqq x - i y
+$$ 
+
+which we use in the form
+
+$$
+  a^\ast \;\coloneqq\; \tfrac{1}{\sqrt{2}}(x + i y)
+  \phantom{AAA}
+  \text{and}
+  \phantom{AAA}
+  a \;\coloneqq\; \tfrac{1}{\sqrt{2}}(x - i y)
 $$
 
 (with "$a$" the traditional symbol for the _amplitude_ of a field mode).
 
-We find the value of the almost-K&#228;hler forms on these elements to be
+Now
+
+$$
+  \omega^{-1}
+  =
+  \frac{\partial}{\partial y} \otimes \frac{\partial}{\partial x}  
+  -
+  \frac{\partial}{\partial x} \otimes \frac{\partial}{\partial y}
+$$
+
+$$
+  g^{-1} 
+  =
+  \frac{\partial}{\partial x} 
+  \otimes
+  \frac{\partial}{\partial x} 
+  +
+  \frac{\partial}{\partial y} 
+  \otimes
+  \frac{\partial}{\partial y} 
+$$
+
+so that with
+
+$$
+  \frac{\partial}{\partial z}
+  =
+  \tfrac{1}{2}
+  \left(
+     \frac{\partial}{\partial x}
+     -i
+     \frac{\partial}{\partial y}
+  \right)
+  \phantom{AAAA}
+  \frac{\partial}{\partial \overline{z}}
+  =
+  \frac{1}{2}
+  \left(
+    \frac{\partial}{\partial x}
+    +
+    i
+    \frac{\partial}{\partial y}
+  \right)
+$$
+
+we get
 
 $$
   \begin{aligned}
-    \sigma(a,a^\ast)
+    \tfrac{i \hbar}{2}\omega^{-1} + \tfrac{\hbar}{2} g^{-1}
     & =
-    \tfrac{1}{2} \sigma( (x + i y), (x - i y) )
+    2 \hbar
+    \frac{\partial}{\partial \overline{z}}
+      \otimes 
+    \frac{\partial}{\partial z}
     \\
     & =
-    \tfrac{-i}{2}( \sigma(x,y) - \sigma(y,x) )
-    \\
-    & =
-    - i
+    \hbar \frac{\partial}{\partial a} \otimes \frac{\partial }{\partial a^\ast}
   \end{aligned}
 $$
 
+Using this, we find the [[star product]] 
+
 $$
-  \begin{aligned}
-    h(a, a^\ast)
-    & =
-    \tfrac{1}{2} h( (x + i y), (x - i y) )
-    \\
-    & =
-    \tfrac{1}{2}(h(x,x) + h(y,y))
-    \\
-    & =
-    1
-  \end{aligned}
+  A \start_\pi B
+  \;=\;
+  prod \circ \exp\left( \hbar \frac{\partial}{\partial a} \otimes \frac{\partial }{\partial a^\ast}  \right)
 $$
+
+as follows (where we write $(-)\cdot (-)$ for the plain commutative product in the [[formal power series algebra]]):
 
 $$
   \begin{aligned}
-    \sigma(a,a)
-    & =
-    \sigma(a^\ast, a^\ast)
+    a \star_\pi a & = a \cdot a
     \\
-    & =
-    0
-    \phantom{AAAAAA} \text{by anti-symmetry}
-  \end{aligned}
-$$
-
-$$
-  \begin{aligned}
-    h(a,a)
-    & =
-    \tfrac{1}{2}( h( (x + i y), (x + i y) ) )
+    a^\ast \star_\pi a^\ast & = a^\ast \cdot a^\ast
     \\
-    & =
-    \tfrac{1}{2}( h(x,x) - h(y,y))
+    a^\ast \star_\pi a & = a^\ast \star_\pi a
     \\
-    & =
-    0
-  \end{aligned}
-$$
-
-$$
-  \begin{aligned}
-    h(a^\ast, a^\ast)
-    & =
-    \tfrac{1}{2}( h(x,x) - h(y,y) )
-    \\
-    & = 0
-  \end{aligned}
-$$
-
-Using this, we find the [[star product]] as follows (where we write $(-)\cdot (-)$ for the plain commutative product in the [[formal power series algebra]]):
-
-$$
-  \begin{aligned}
     a \star_\pi a^\ast
     & =
-    a \cdot a^\ast
-    +
-    \tfrac{\hbar}{2}
-    \left(
-       \underset{= 1}{\underbrace{i \sigma( a, a^\ast )}}
-       +
-       \underset{= 1}{\underbrace{h(a, a^\ast)}}
-    \right)
-    \\
-    & =
-    a^\ast \cdot a + \hbar
-    \\
-    \\
-    a^\ast \star_\pi a
-    & =
-    a^\ast \cdot a
-    +
-    \tfrac{\hbar}{2}
-    \left(
-      \underset{= -1}{\underbrace{i \sigma( a^\ast , a )}}
-      +
-      \underset{ = 1}{\underbrace{h( a^\ast, a )}}
-    \right)
-    \\
-    & =
-    a^\ast \cdot a
-    \\
-    \\
-    a \star_\pi a
-     & =
-    a \cdot a
-    \\
-    \\
-    a^\ast \star_\pi a^\ast
-    & =
-    a^\ast \cdot a^\ast
+    a \cdot a^\ast + \hbar
   \end{aligned}
 $$
 
