@@ -40,8 +40,9 @@ The K&#228;hler 2-form can be decomposed as $h = g+i\omega$; here $g$ is a [[Rie
 ## Definition
 
 ### Linear Kähler structure
+ {#LinearKählerStructure}
 
-+-- {: .num_defn #KählerVectorSpace}
++-- {: .num_defn #KaehlerVectorSpace}
 ###### Definition
 **([[Kähler vector space]])**
 
@@ -73,13 +74,13 @@ such that
 
    a non-degenerate positive-definite [[bilinear form]] on $V$ 
 
-  (necessarily symmetric, due to the other properties: $g(w,v) = \omega(w,J(v)) = -\omega(J(v),w) = + \omega(J(J(v)), J(w)) = \omega(w,J(w)) = g(v,w)$).
+   (necessarily symmetric, due to the other properties: $g(w,v) = \omega(w,J(v)) = -\omega(J(v),w) = + \omega(J(J(v)), J(w)) = \omega(w,J(w)) = g(v,w)$).
 
 =--
 
 (e.g. [Boalch 09, p. 26-27](#Boalch09))
 
-Linear Kähler space structure may conveniently be encoded in terms of [[Hermitiann space]] structure:
+Linear Kähler space structure may conveniently be encoded in terms of [[Hermitian space]] structure:
 
 +-- {: .num_defn #HermitianForm}
 ###### Definition
@@ -111,8 +112,9 @@ A [[complex vector space]] $(V,J)$ equipped with a (positive definite) Hermitian
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #BasicPropertiesOfHermitianForms}
 ###### Proposition
+**(basic properties of [[Hermitian forms]])**
 
 Let $((V,J),h)$ be a positive definite [[Hermitian space]] (def. \ref{HermitianForm}). Then 
 
@@ -141,9 +143,17 @@ Let $((V,J),h)$ be a positive definite [[Hermitian space]] (def. \ref{HermitianF
      \,.
    $$
 
+hence
+
+$$
+  h = g - i \omega
+  \,.
+$$
+
 The two components are related by
 
 $$
+  \label{RelationBetweennOmegaAndgOnHermitianSpace}
   \omega(v,w)
   \;=\;
   g(J(v),w)
@@ -154,12 +164,21 @@ $$
   \,.
 $$
 
-Finally, the  Riemannian metrics $g$ on $V$ appearing from (and fully determining) Hermitian forms this way are precisely those for which
+Finally 
 
 $$
+  h(J(-),J(-)) = h(-,-)
+$$
+
+and so the  Riemannian metrics $g$ on $V$ appearing from (and fully determining) Hermitian forms $h$ via $h = g - i \omega$ are precisely those for which
+
+$$  
+  \label{HermitianMetric}
   g(J(-),J(-)) = g(-,-)
   \,.
 $$
+
+These are called the _[[Hermitian metrics]]_.
 
 =--
 
@@ -187,7 +206,29 @@ $$
   \end{aligned}
 $$
 
-Analogously follows that $\omega$ is skew symmetric:
+That $h$ is invariant under $J$ follows from its sesquilinarity
+
+$$
+  \begin{aligned}
+    h(J(v),J(w))
+    &=
+    i h(v,J(w))
+    \\
+    & =
+    i (h(J(w),v))^\ast
+    \\
+    & =
+    i (-i) (h(w,v))^\ast
+    \\
+    & =
+    h(v,w)
+  \end{aligned}
+$$
+
+and this immediately implies the corresponding invariance of $g$ and $\omega$.
+
+
+Analogously it follows that $\omega$ is skew symmetric:
 
 $$
   \begin{aligned}
@@ -206,25 +247,83 @@ $$
   \end{aligned}
 $$
 
-as well as the relation between the two components:
+and the relation between the two components:
 
 $$
+  \begin{aligned}
     \omega(v,w)
-    =
+    & =
     - Im(h(v,w))
-    =
+    \\
+    & =
     Re(i h(v,w))
-    =
+    \\
+    & =
     Re(h(J(v),w))
-    =
-    
+    \\
+    & = 
+    g(J(v),w)
+  \end{aligned}    
 $$
 
+as well as
 
+$$
+  \begin{aligned}
+    g(v,w)
+    & =
+    Re(h(v,w)
+    \\
+    & =
+    Im(i h(v,w))
+    \\
+    & =
+    Im(h(J(v),w))
+    \\
+    & =
+    Im(h(J^2(v),J(w)))
+    \\
+    & = 
+    - Im(h(v,J(w)))
+    \\
+    & = \omega(v,J(w))
+    \,.
+  \end{aligned}
+$$
 
 
 =--
 
+As a corollary:
+
++-- {: .num_prop #RelationBetweenKählerVectorSpacesAndHermitianSpaces}
+###### Proposition
+**(relation between [[Kähler vector spaces]] and [[Hermitian spaces]])**
+
+Given a [[real vector space]] $V$ with a [[linear complex structure]] $J$, then the following are equivalent:
+
+1. $\omega \in \wedge^2 V^\ast$ is a [[linear Kähler structure]] (def. \ref{KaehlerVectorSpace});
+
+1. $g \in V \otimes V \to  \mathbb{R}$ is a [[Hermitian metric]] (eq:HermitianMetric)
+
+where $\omega$ and $g$ are related by (eq:RelationBetweennOmegaAndgOnHermitianSpace)
+
+$$
+  \omega(v,w)
+  \;=\;
+  g(J(v),w)
+  \phantom{AAAAA}
+  g(v,w)
+  \;=\;
+  \omega(v,J(v))
+  \,.
+$$
+
+=--
+
+### Kähler manifolds
+
+(...)
 
 ### In terms of $G$-Structure
  {#InTermsOfGStructure}
@@ -272,7 +371,7 @@ $$
   \,.
 $$ 
 
-Then $(V, J, \omega, g)$ is a [[Kähler vector space]] (def. \ref{KählerVectorSpace}), hence a Kähler manifold if $\mathbb{R}^2$ is regarded as a [[smooth manifold]] in the standard way and if these [[bilinear forms]] $J, \omega g$ are extended as constant rank-2 [[tensors]] over this manifold.
+Then $(V, J, \omega, g)$ is a [[Kähler vector space]] (def. \ref{KaehlerVectorSpace}), hence a Kähler manifold if $\mathbb{R}^2$ is regarded as a [[smooth manifold]] in the standard way and if these [[bilinear forms]] $J, \omega g$ are extended as constant rank-2 [[tensors]] over this manifold.
 
 =--
 
@@ -531,8 +630,7 @@ Textbook accounts include
 
 Lecture notes include
 
-* Andrei Moroianu, _Lectures on K&#228;hler Geometry_ ([pdf]
-(http://www.math.polytechnique.fr/~moroianu/tex/kg.pdf))
+* Andrei Moroianu, _Lectures on K&#228;hler Geometry_ (<a href="http://www.math.polytechnique.fr/~moroianu/tex/kg.pdf">pdf</a>)
 
 * {#Boalch09} Philip Boalch, _Noncompact complex symplectic and hyperkähler manifolds_, 2009 ([pdf](https://www.math.u-psud.fr/~boalch/cours09/hk.pdf))
 
@@ -580,4 +678,12 @@ Discussion of [[Hodge theory]] on K&#228;hler manifolds is in
 [[!redirects almost Kähler structures]]
 [[!redirects almost Kaehler structure]]
 [[!redirects almost Kaehler structures]]
+
+[[!redirects Kähler manifold structure]]
+[[!redirects Kähler manifold structures]]
+
+[[!redirects Kaehler manifold structure]]
+[[!redirects Kaehler manifold structures]]
+
+
 
