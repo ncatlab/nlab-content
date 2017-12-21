@@ -23,7 +23,7 @@
 
 The concept of _noncommutative probability space_ or _quantum probability space_ is the generalization of that of _[[probability space]]_ as the concept of "space" is generalized to [[non-commutative geometry]].
 
-The basic idea is to encode a would-be [[probability space]] dually in its [[algebra of functions]] $\mathcal{A}$, typically regarded as a [[star algebra]], andencode the [[probability measure]] as a [[state on a star-algebra|state on this star algebra]] 
+The basic idea is to encode a would-be [[probability space]] dually in its [[algebra of functions]] $\mathcal{A}$, typically regarded as a [[star algebra]], and encode the [[probability measure]] as a [[state on a star-algebra|state on this star algebra]] 
 
 $$
   \langle
@@ -36,11 +36,11 @@ $$
   \,.
 $$
 
-Hence this primarily [[axiom|axiomatizes]] the concept of _[[expectation values]]_ $\langle A\rangle$ ([Whittle 92](#Whittle92)) while leaving the nature of the underlying [[probability space]] more implicit.
+Hence this primarily [[axiom|axiomatizes]] the concept of _[[expectation values]]_ $\langle A\rangle$ ([Whittle 92](#Whittle92)) while leaving the nature of the underlying [[probability measure]] implicit (in contrast to the classical formalization of [[probability theory]] by [[Andrey Kolmogorov]]).
 
 Often $\mathcal{A}$ is assumed/required to be a [[von Neumann algebra]] (e.g. [Kuperberg 05, section 1.8](#Kuperberg05)). Often $\mathcal{A}$ is taken to be the full algebra of [[bounded operators]] on some [[Hilbert space]] (e.g. [Attal, def. 7.1](#Attal)).
 
-In [[quantum physics]] $\mathcal{A}$ is an [[algebra of observables]] (or a [[local net of observables|local net]] thereof) and $\langle (-)\rangle$ is a particular [[quantum state]], for instance a [[vacuum state]].
+In [[quantum physics]], $\mathcal{A}$ is an [[algebra of observables]] (or a [[local net of observables|local net]] thereof) and $\langle (-)\rangle$ is a particular [[quantum state]], for instance a [[vacuum state]].
 
 ## Related concepts
 
@@ -50,7 +50,7 @@ In [[quantum physics]] $\mathcal{A}$ is an [[algebra of observables]] (or a [[lo
 
 ## References
 
-The axiomatization of [[probability theory]] in terms of the concept of [[expectation values]] (instead of underlying [[probability spaces]]) was amplified in
+The axiomatization of [[probability theory]] in terms of the concept of [[expectation values]] (instead of [[probability measures]]) was amplified in
 
 * {#Whittle92} [[Peter Whittle]], _Probability via expectation_, Springer 1992
 
