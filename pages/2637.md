@@ -72,6 +72,12 @@ One a curved [[spacetime]] these relations become more complicated, see at _[[Wi
 
 If the field in question is not a [[bosonic field]] but a [[fermionic field]] then all of the above has to be understood in [[superalgebra]] with the fermionic variabled in off super-degree. This yields [[anti-commutator]] relations as above, heence often called "canonical anti-commutation relations".
 
+## Properties
+
+* The [[Stone-von Neumann theorem]] says that for finitely many generators the canonical commutation relations have, up to [[isomorphism]], a unique [[irreducible representation|irreducible]] [[unitary representation]]: the _[[Schrödinger representation]]_.
+
+  [[Haag's theorem]] says that this uniqueness fails for infinitely many generators.
+
 ## Related concepts
 
 * [[Wick algebra]]
