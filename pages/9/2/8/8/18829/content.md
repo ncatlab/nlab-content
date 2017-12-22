@@ -61,34 +61,60 @@ We now discuss these topics:
 $\,$
 
 
+
+
 **[[geometric quantization]]**
   {#GeometricQuantization}
+
+We had seen that every [[Lagrangian field theory]] induces a [[presymplectic current]] $\Omega_{BFV}$ (def. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime}) on the [[jet bundle]] of its [[field bundle]] in terms of which there is a concept of [[Hamiltonian differential forms]] and [[Hamiltonian vector fields]] on the jet bundle (def. \ref{HamiltonianForms}). The concept of [[quantization]] is induced by this _local [[phase space]]_-structure. 
+
+In order to disentangle the core concept of [[quantization]] from the technicalities involved in fully fledged [[field theory]], we now first discuss the [[finite number|finite]] [[dimension|dimensional]] situation.
 
 
 +-- {: .num_example}
 ###### Example
 **([[Schrödinger representation]] via [[geometric quantization]])**
 
-Consider the [[phase space]] given by $\mathbb{R}^2$ with canonical [[coordinate functions]] $\{q,p\}$ and equipped with the [[symplectic form]] given by
+Conside the [[Cartesian space]] $\mathbb{R}^2$ (def. \ref{CartesianSpacesAndSmoothFunctionsBetweenThem}) with canonical [[coordinate functions]] denoted $\{q,p\}$ and to be called the _[[canonical coordinate]]_ $q$ and its [[canonical momentum]] $p$ (as in example \ref{CanonicalMomentum})
+
+
+and equipped with the [[left invariant differential form|constant]] [[differential 2-form]] given in in (eq:CanonicalMomentumPresymplecticCurrent) by
 
 $$
+  \label{R2SymplecticForm}
   \omega = d p \wedge d q
   \,.
 $$
 
-A _[[prequantum line bundle]]_ for this is given by the
-[[trivial vector bundle|trivial]] [[complex line bundle]] over $\mathbb{R}^2$ which is equipped with the [[connection on a bundle|connection]] that is given
-by the globally defined [[differential 1-form]]
+This is [[closed differential form|closed]] in that $d \omega = 0$, and invertible in that the contraction of [[tangent vector fields]] into it (def. \ref{ContractionOfFormsWithVectorFields}) is an [[isomorphism]] to [[differential 1-forms]], and as such it is a _[[symplectic form]]_.
+
+A choice of [[presymplectic potential]] for this [[symplectic form]] is
 
 $$
   \label{CanonicalSymplecticPotentialOnR2}
-  \theta \;\coloneqq\; q \, d p
-  \,.
+  \theta \;\coloneqq\; - q \, d p
 $$
 
-(Other choices of connection are possible, notably $\theta = - p \, d q$).
+in that $d \theta = \omega$. (Other choices are possible, notably $\theta = p \, d q$).
 
-A [[section]] of this complex line bundle is canonically identified simply with a $\mathbb{C}$-valued [[smooth function]] on $\mathbb{R}^2$.
+
+For 
+
+$$
+  A 
+    \;\colon\;
+  \mathbb{R}^2 
+    \longrightarrow 
+  \mathbb{C}
+$$
+
+a [[smooth function]] (an [[observable]]), we say that a _[[Hamiltonian vector field]]_ for it (as in def. \ref{HamiltonianForms}) is a [[tangent vector field]] $v_A$(example \ref{TangentVectorFields}) whose contraction (def. \ref{ContractionOfFormsWithVectorFields}) into the [[symplectic form]] (eq:R2SymplecticForm) is the [[de Rham differential]] of $A$:
+
+$$
+  \label{HamiltonianVectorFieldOnR2}
+  \iota_{v_H} \omega = d A
+  \,.
+$$
 
 A choice of [[foliation]] and hence of [[real polarization]] of this phase space is given by constant-$q$-slices
 
