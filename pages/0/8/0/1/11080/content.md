@@ -1247,7 +1247,8 @@ $$
   \stackrel{\overset{Disc}{\leftarrow}}{\underset{\Gamma}{\to}}
   \, .
   \stackrel{\overset{\Gamma}{\leftarrow}}{\underset{coDisc}{\to}}
-  \, .
+  \, \mathbf{H}
+
 $$
 
 for the induced [[adjoint functor|adjoint]] [[monad]] $\sharp$ and [[comonad]] $\flat$. We
