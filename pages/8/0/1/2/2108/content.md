@@ -168,9 +168,9 @@ The multiple of the [[Chern class]] of this line bundle is identified with the i
 
 #### Prequantum states
 
-(...)
-
 A _prequantum state_ is a [[section]] of the [[prequantum bundle]].
+
+This becomes a _[[quantum spate]]_ or [[wavefunction]] if [[polarization|polarized]] (...).
 
 #### Prequantum operators
 
@@ -178,18 +178,20 @@ Let $\nabla : X \to \mathbf{B} U(1)_{conn}$ be a
 [[prequantum line bundle]] $E \to X$ [[connection on a bundle|with connection]] for $\omega$. Write $\Gamma_X(E)$ for its space of smooth [[sections]], the _[[prequantum space of states]]_.
 
 
-+-- {: .num_defn}
++-- {: .num_defn #PrequantumOperator}
 ###### Definition
+**([[prequantum operators]])**
 
 For $f \in C^\infty(X, \mathbb{C})$ a function on phase space, the corresponding **[[quantum operator (in geometric quantization)|quantum operator]]** is the linear map
 
 $$
-  \hat f : \Gamma_X(E) \to \Gamma_X(E)
+  \hat f \colon \Gamma_X(E) \to \Gamma_X(E)
 $$
 
 given by
 
 $$
+  \label{FormulaForPrequantumOperator}
   \psi \mapsto -i \nabla_{v_f} \psi + f \cdot \psi
   \,,
 $$
@@ -202,6 +204,35 @@ corresponding to $f$;
 * $\nabla_{v_f} : \Gamma_X(E) \to \Gamma_X(E)$ is the [[covariant derivative]] of sections along $v_f$ for the given choice of prequantum connection;
 
 * $f \cdot (-) : \Gamma_X(E) \to \Gamma_X(E)$ is the operation of degreewise multiplication pf sections.
+
+=--
+
++-- {: .num_remark #OriginOfTheFormulaForPrequantumOperators}
+###### Remark
+**(origin of the formulas for [[prequantum operators]])*+
+
+The formula (eq:FormulaForPrequantumOperator) may look a bit mysterious on first sight. The correction term to the [[covariant derivative]] appearing in this formula is ultimately due to the fact that with $v$ the [[Hamiltonian vector field]] corresponding to a [[Hamiltonian]] $H_v$ via
+
+$$
+  \iota_v \omega = d H_v
+$$
+
+then the [[Lie derivative]] of $\theta$ (the symplectic potentiation, related by $d \theta = \omega$) is
+
+$$
+  \mathcal{L}_v \theta = d \tilde H_v
+$$
+
+for 
+
+$$
+  \tilde H_v = H_v + \iota_v \theta
+  \,.
+$$
+
+Here the second term on the right is what yields the [[covariant derivative]] in (eq:FormulaForPrequantumOperator), while the first summand is the correction term in (eq:FormulaForPrequantumOperator).
+
+A derivation of these formulas from first principles is given in ([Fiorenza-Rogers-Schreiber 13a](#FiorenzaRogersSchreiber13a), example 3.2.3 and remark 3.3.16).
 
 =--
 
@@ -788,7 +819,8 @@ To a large extent geometric quantization is realized by [[central extension]] of
 ## Examples
 
 
-### Cotangent bundles -- Schr&#246;dinger representation
+### Schrödinger representation
+ {#ExamplesSchroedingerRepresentation}
 
 For the [[particle]] propagating on the [[line]]
 with respect to some standard [[action functional]], 
@@ -877,6 +909,8 @@ $$
   = i \frac{\partial}{\partial q} \psi
   \,.
 $$
+
+This is the _[[Schrödinger representation]]_ of the [[canonical commutation relation]] $[q,p] = - i \hbar$.
 
 ### K&#228;hler manifolds
 
@@ -1223,11 +1257,9 @@ The [[geometric quantization of symplectic groupoids]] is accomplished in
 
 Discussion of geometric prequantization in fully fledged [[higher geometry]] is in 
 
-* [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], 
+* {#FiorenzaRogersSchreiber13a} [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]],  _[[schreiber:Higher geometric prequantum theory|Higher U(1)-gerbe connections in geometric prequantization]]_, Reviews in Mathematical Physics, Volume 28, Issue 06, July 2016 ([arXiv:1304.0236](http://arxiv.org/abs/1304.0236))
 
-  _[[schreiber:Higher geometric prequantum theory]]_
-
-  _[[schreiber:L-∞ algebras of local observables from higher prequantum bundles]]_
+* {#FiorenzaRogersSchreiber13b} [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]]  _[[schreiber:L-∞ algebras of local observables from higher prequantum bundles]]_, Homology, Homotopy and Applications, Volume 16 (2014) Number 2, p. 107  142 ([arXiv:1304.6292](http://arxiv.org/abs/1304.6292))
 
 [[!redirects geometric prequantization]]
 
