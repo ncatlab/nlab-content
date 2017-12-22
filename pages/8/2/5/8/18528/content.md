@@ -6,4 +6,6 @@
 
 * [[causal perturbation theory]]
 
+* [[Stückelberg-Petermann renormalization group]]
+
 category: people
