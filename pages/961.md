@@ -61,6 +61,13 @@ Equivalently, a congruence on $X$ is an [[internal category]] with $X$ the objec
 
 =--
 
++-- {: .num_remark}
+###### Remark
+
+We can equivalently define a congruence $R$ as (a representing object of) a representable sub-presheaf of $\hom(-, X \times X)$ so that for each object $Y$, the composite of $R(Y) \hookrightarrow \hom(Y, X \times X) \cong \hom(Y, X) \times \hom(Y, X)$ exhibits $R(Y)$ as an equivalence relation on the set $\hom(Y, X)$. The upshot of this definition is that it makes sense even when $C$ is not finitely complete.
+
+=--
+
 +-- {: .num_defn #EffectiveCongruence}
 ###### Definition
 
