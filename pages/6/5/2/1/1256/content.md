@@ -93,6 +93,14 @@ A survey of results on geometric and coherent logic is in
 
 * {#Reyes77}[[Gonzalo Reyes]], _Sheaves and concepts: A model-theoretic interpretation of Grothendieck topoi_ , Cah. Top. Diff. G&#233;o. Cat. **XVIII** no.2 (1977) pp.405-437. ([numdam](http://www.numdam.org/item?id=CTGDC_1977__18_2_105_0))
 
+A standard textbook account of coherent logic (called 'geometric logic' there) can be found in
+
+* {#MM94} [[Saunders Mac Lane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_ , Springer Heidelberg 1994.
+
+Properties of the generic model of a coherent theory are investigated in
+
+* Marc Bezem, [[Ulrik Buchholtz]], [[Thierry Coquand]], _Syntactic Forcing Models for Coherent Logic_ , arXiv:72.07743 (2017). ([abstract](https://arxiv.org/abs/1712.07743))
+
 Else consider the monographs
 
 * [[Michael Makkai]] and [[Gonzalo Reyes]], *First Order Categorical Logic:  Model-theoretical methods in the theory of topoi and related categories*, Springer-Verlag, 1977.
