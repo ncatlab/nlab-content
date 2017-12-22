@@ -526,7 +526,7 @@ $$
 
 +-- {: .num_prop #PolarizedSymplecticGroupoidConvolutionProductOfSymplecticVectorSpaceIsMoyalStarProduct}
 ###### Proposition
-**(polarized [[symplectic groupoid|symplectic]] [[groupoid convolution product]] of [[symplectic vector space]] is give by [[Moyal star product]])**
+**(polarized [[symplectic groupoid|symplectic]] [[groupoid convolution product]] of [[symplectic vector space]] is given by [[Moyal star product]])**
 
 Given a [[symplectic vector space]] $(\mathbb{R}^{2n}, \omega)$, then 
 the [[groupoid convolution product]] on polarized sections (eq:PolarizedSectionOnMorphismsOfSymplecticGroupoid) on its [[symplectic groupoid]] (def. \ref{SymplecticGroupoidOfSymplecticVectorSpace}), given by [[convolution product]] followed by averaging ([[integration]]) over the polarization [[fiber]], is given by the [[star product]] (def. \ref{StarPoduct}) for the corresponding [[Poisson tensor]] $\pi \coloneqq \omega^{-1}$, in that
@@ -603,6 +603,7 @@ fnally in the last line we used prop. \ref{IntegralRepresentationOfStarProduct}.
 
 ## Examples
 
+### General examples
 
 Some examples of star products as in def. \ref{StarPoduct}:
 
@@ -623,6 +624,322 @@ If the tensor $\pi$ in def. \ref{StarPoduct} is skew-symmetric, it may be regard
 
 =--
 
+### Wick algebras of normal ordered products
+
+#### Finite dimensional
+
+
++-- {: .num_defn #AlmostKaehlerVectorSpace}
+###### Definition
+**([[Kähler vector space]])**
+
+An _[[Kähler vector space]]_ is a [[real vector space]] $V$ equipped with a [[linear complex structure]] $J$ as well as two [[bilinear forms]] $\omega, g \;\colon\; V \otimes_{\mathbb{R}} V \longrightarrow \mathbb{R}$ such that the following equivalent conditions hold:
+
+1. $\omega(J v, J w) = \omega(v,w)$ and $g(v,w) = \omega(v,J w)$;
+
+1. with $V$ regarded as a [[smooth manifold]] and with $\omega, g$ regarded as constant [[tensors]], then $(V, \omega, g)$ is an [[almost Kähler manifold]].
+
+=--
+
++-- {: .num_example #StandardAlmostKaehlerVectorSpaces}
+###### Example
+**(standard [[Kähler vector spaces]])**
+
+Let $V \coloneqq \mathbb{R}^2$ equipped with the [[complex structure]] $J$ which is given by the canonical identification $\mathbb{R}^2 \simeq \mathbb{C}$, hence, in terms of the canonical [[linear basis]] $(e_i)$ of $\mathbb{R}^2$, this is
+
+$$
+  J = (J^i{}_j) 
+  \coloneqq 
+  \left( 
+    \array{
+      0 & -1
+      \\
+      1 & 0
+    }
+  \right)
+  \,.
+$$
+
+Moreover let 
+
+$$
+  \omega = (\omega_{i j}) \coloneqq \left( \array{0 & 1 \\ -1 & 0} \right)
+$$ 
+
+and 
+
+$$
+  g = (g_{i j}) \coloneqq \left( \array{ 1 & 0 \\ 0 & 1}  \right)
+  \,.
+$$ 
+
+Then $(V, J, \omega, g)$ is a [[Kähler vector space]] (def. \ref{AlmostKaehlerVectorSpace}).
+
+The corresponding [[Kähler manifold]] is $\mathbb{R}^2$ regarded as a [[smooth manifold]] in the standard way and equipped with the [[bilinear forms]] $J, \omega g$ extended as constant rank-2 [[tensors]] over this manifold.
+
+If we write 
+
+$$
+  x,y \;\colon\; \mathbb{R}^2 \longrightarrow \mathbb{R}
+$$
+
+for the standard [[coordinate functions]] on $\mathbb{R}^2$ with 
+
+$$
+  z \coloneqq x + i y \;\coloneqq\; \mathbb{R}^2 \to \mathbb{C}
+$$
+
+and
+
+$$
+ \overline{z} \coloneqq x - i y \;\coloneqq\; \mathbb{R}^2 \to \mathbb{C}
+$$
+
+for the corresponding complex coordinates, then this translates to 
+
+$$
+  \omega
+  \in
+  \Omega^2(\mathbb{R}^2)
+$$ 
+
+being the [[differential 2-form]] given by
+
+$$
+  \begin{aligned}
+    \omega
+    & =
+    d x \wedge d y
+    \\
+    & =
+    \tfrac{1}{2i} d z \wedge d \overline{z}
+  \end{aligned}
+$$
+
+and with [[Riemannian metric]] [[tensor]] given by
+
+$$
+  g = d x \otimes d x + d y \otimes d y
+  \,.
+$$
+
+The [[Hermitian form]] is given by
+
+$$
+  \begin{aligned}
+    h 
+    & = 
+    g - i \omega
+    \\
+    & = 
+    d z \otimes d \overline{z}
+  \end{aligned}
+$$
+
+
+=--
+
+(for more see at _[[Kähler vector space]]_ [this example](Kähler+vector+space#StandardAlmostKaehlerVectorSpaces)).
+
++-- {: .num_defn #WickAlgebraOfAlmostKaehlerVectorSpace}
+###### Definition
+**([[Wick algebra]] of a [[Kähler vector space]])**
+
+Let $(\mathbb{R}^{2n},\sigma, g)$ be a [[Kähler vector space]] (def. \ref{AlmostKaehlerVectorSpace}). Then its _Wick algebra_ is the [[formal power series]] vector space $\mathbb{C}[ [ a_1, a^\ast_1, \cdots, a_n, a^\ast_n  ] ] [ [ \hbar ] ]$ equipped with the [[star product]]
+
+$$
+  \begin{aligned}
+    P_1 \star_\pi P_2
+    & \coloneqq
+    prod \circ \exp \left( \hbar\underoverset{k_1, k_2 = 1}{2 n}{\sum}\pi^{a b} \partial_a \otimes  \partial_b \right)  (P_1 \otimes P_2)
+    \\
+    & =
+    P_1 \cdot P_2 + \hbar \underoverset{k_1, k_2 = 1}{2n}{\sum}\pi^{k_1 k_2}(\partial_{k_1} P_1) \cdot (\partial_{k_2} P_2)
+    + \cdots
+  \end{aligned}
+$$
+
+given by the bilinear form
+
+$$
+  \label{InStarProductTensorInvertingHermitianForm}
+  \pi \coloneqq \tfrac{i}{2} \omega^{-1} + \tfrac{1}{2} g^{-1}
+  \,.
+$$
+
+Here
+
+$$
+  prod \;\colon\; \mathbb{C}[ [ a_1, a^\ast_1, \cdots, a_n, a^\ast_n  ] ] [ [ \hbar ] ]
+  \otimes_{\mathbb{R}}
+  \mathbb{C}[ [ a_1, a^\ast_1, \cdots, a_n, a^\ast_n  ] ] [ [ \hbar ] ]
+   \longrightarrow
+   \mathbb{C}[ [ a_1, a^\ast_1, \cdots, a_n, a^\ast_n  ] ] [ [ \hbar ] ]
+$$
+
+is the ordinary (commutative) product in the [[formal power series algebra]].
+
+To make contact with the traditional notation we decorate the elements $P$ in the formal power series algebra with colons and declare the notation
+
+$$
+  : P_1 : \, :P_2:
+  \;\coloneqq\;
+  : P_1 \star_\pi P_2 :
+$$
+
+=--
+
++-- {: .num_example #WickAlgebraOfASingleMode}
+###### Example
+**([[Wick algebra]] of a single mode)**
+
+Let $V \coloneqq \mathbb{R}^2 \simeq Span(\{x,y\})$ be the standard [[Kähler vector space]] according to example \ref{StandardAlmostKaehlerVectorSpaces}, with canonical coordinates denoted $x$ and $y$. We discuss its Wick algebra according to def. \ref{WickAlgebraOfAlmostKaehlerVectorSpace} and show that this reproduces the traditional definition of products of "normal ordered" operators as [above](#Idea).
+
+To that end, consider the complex linear combination of the coordinates to the canonical complex coordinates 
+
+$$
+  z \;\coloneqq\; x + i y
+  \phantom{AAA} 
+    \text{and} 
+  \phantom{AAA}
+  \overline{z} \coloneqq x - i y
+$$ 
+
+which we use in the form
+
+$$
+  a^\ast \;\coloneqq\; \tfrac{1}{\sqrt{2}}(x + i y)
+  \phantom{AAA}
+  \text{and}
+  \phantom{AAA}
+  a \;\coloneqq\; \tfrac{1}{\sqrt{2}}(x - i y)
+$$
+
+(with "$a$" the traditional symbol for the _amplitude_ of a field mode).
+
+Now
+
+$$
+  \omega^{-1}
+  =
+  \frac{\partial}{\partial y} \otimes \frac{\partial}{\partial x}  
+  -
+  \frac{\partial}{\partial x} \otimes \frac{\partial}{\partial y}
+$$
+
+$$
+  g^{-1} 
+  =
+  \frac{\partial}{\partial x} 
+  \otimes
+  \frac{\partial}{\partial x} 
+  +
+  \frac{\partial}{\partial y} 
+  \otimes
+  \frac{\partial}{\partial y} 
+$$
+
+so that with
+
+$$
+  \frac{\partial}{\partial z}
+  =
+  \tfrac{1}{2}
+  \left(
+     \frac{\partial}{\partial x}
+     -i
+     \frac{\partial}{\partial y}
+  \right)
+  \phantom{AAAA}
+  \frac{\partial}{\partial \overline{z}}
+  =
+  \frac{1}{2}
+  \left(
+    \frac{\partial}{\partial x}
+    +
+    i
+    \frac{\partial}{\partial y}
+  \right)
+$$
+
+we get
+
+$$
+  \begin{aligned}
+    \tfrac{i \hbar}{2}\omega^{-1} + \tfrac{\hbar}{2} g^{-1}
+    & =
+    2 \hbar
+    \frac{\partial}{\partial \overline{z}}
+      \otimes 
+    \frac{\partial}{\partial z}
+    \\
+    & =
+    \hbar \frac{\partial}{\partial a} \otimes \frac{\partial }{\partial a^\ast}
+  \end{aligned}
+$$
+
+Using this, we find the [[star product]] 
+
+$$
+  A \star_\pi B
+  \;=\;
+  prod \circ \exp\left( \hbar \frac{\partial}{\partial a} \otimes \frac{\partial }{\partial a^\ast}  \right)
+$$
+
+to be as follows (where we write $(-)\cdot (-)$ for the plain commutative product in the [[formal power series algebra]]):
+
+$$
+  \begin{aligned}
+    a \star_\pi a & = a \cdot a
+    \\
+    a^\ast \star_\pi a^\ast & = a^\ast \cdot a^\ast
+    \\
+    a^\ast \star_\pi a & = a^\ast \cdot a
+    \\
+    a \star_\pi a^\ast
+    & =
+    a \cdot a^\ast + \hbar
+  \end{aligned}
+$$
+
+and so forth, for instance
+
+$$
+  \array{
+    (a a ) \star_\pi (a^\ast a^\ast)
+    & =
+    a^\ast \cdot a^\ast \cdot a \cdot a
+    +
+    4 \hbar a^\ast \cdot a
+    +   
+    \hbar^2
+  }
+$$
+
+If we instead indicate the commutative pointwise product by 
+
+$$
+  :f g: \;\coloneqq\; f \cdot g
+$$
+
+and indicate the star-product by juxtaposition, then this reads
+
+$$
+  \array{
+    :a a: \, :a^\ast a^\ast:
+    & =
+    : a^\ast a^\ast a  a :
+    +
+    4 \hbar \, : a^\ast a :
+    +   
+    \hbar^2
+  }
+$$
+
+=--
+
+
+#### Infinite-dimensional
 
 +-- {: .num_example #WickAlgebras}
 ###### Example
@@ -632,7 +949,7 @@ In cases where $V$ is _not_ [[finite number|finite]] [[dimension|dimensional]], 
 
 In these situations it happens that the star product for some Poisson tensor $\tfrac{1}{2}\pi$ is not defined due to [[wavefront set]] collision (violation of [[Hörmander's criterion]]), but the star product $\star_{\tfrac{1}{2}\pi + \alpha}$ for the tensor $\tfrac{1}{2}\pi + \alpha$ shifted by a symmetric contribition $\alpha$ as in prop. \ref{SymmetricContribution} is defined, and serves as the proper stand-in for the non-existing $\star_{\tfrac{1}{2}\pi}$.
 
-This is the case notably for [[Wick algebras]] ([[algebras of quantum observables]] of [[free fields]]): here $\tfrac{1}{2}\pi$ is the [[causal propagator]] for which $\star_\pi$ does not exist, and $\pi = \tfrac{1}{2}\pi + \alpha$ is a [[Hadamard propagator]], so that $\star_{\pi}$ does exist on [[microcausal functionals]]: it is the "[[normal-ordered product]]" of quantum observables.
+This is the case notably for [[Wick algebras]] ([[algebras of quantum observables]] of [[free fields]]): here $\tfrac{1}{2}\pi$ is the [[causal propagator]] for which $\star_\pi$ does not exist, and $\pi = \tfrac{1}{2}\pi + \alpha$ is a [[Wightman propagator]], so that $\star_{\pi}$ does exist on [[microcausal functionals]]: it is the "[[normal-ordered product]]" of quantum observables.
 
 =--
 
