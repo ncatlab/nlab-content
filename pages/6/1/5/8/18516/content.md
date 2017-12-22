@@ -57,7 +57,7 @@ $$
   \,,
 $$
 
-Write $\mathcal{F}_{reg}$ for the sub-algebra of smooth functions on the smooth space $C^\infty(X)$ which is generated from the functions $\Phi(f)$ for $n \in \mathbb{N}$ and $f \in C^\infty_c(X^n)$.
+Write $\mathcal{F}_{reg}$ for the observables given by diagonals of [[non-singular distributions]] on $X^n$.
 
 A further evident generalization of this takes $f \in \mathcal{E}'(X^n)$ to be a [[compactly supported distribution]] and induces the function
 
@@ -279,9 +279,57 @@ into the space of microcausal functionals (e.g. [Fredenhagen-Rejzner 12, p. 21](
 
 =--
 
+## Properties
+
++-- {: .num_prop #}
+###### Proposition
+
+Write $\mathcal{F}_{reg} \subset \mathcal{F}_{mc}$ for that subalgebra of the algebra of microcausal functionals whose [[coefficients]] are [[non-singular distributions]].
+
+Let 
+
+$$
+  \langle -\rangle 
+  \;\colon\;
+  \mathcal{F}_{reg} 
+  \longrightarrow 
+  \mathbb{C}
+$$
+
+be a [[state on a star-algebra|state]] on regular observables which is [[quasi-free Hadamard state|quasi-free Hadamard]]. Then this uniquely [[extensions|extends]] to a state on microcausal functionsal
+
+$$
+  \array{
+    \mathcal{F}_{reg} &\overset{\langle -\rangle}{\longrightarrow}& \mathcal{C}
+    \\
+    \downarrow & \nearrow_{\mathrlap{\exists ! \langle -\rangle}}
+    \\
+    \mathcal{F}_{mc}
+  }
+$$
+
+=--
+
+([Hollands-Ruan 01, remark 1 on p. 12](#HollandRuan01), implied by [Brunetti-Fredenhagen 00](#BrunettiFredenhagen00), [Hollands-Wald 01](#HollandsWald01), a special case of [Hollands-Ruan 01, theorem III.1 (ii)](#HollandRuan01))
+
 
 ## References
 
+### Original articles
+
+* {#BrunettiFredenhagen00} [[Romeo Brunetti]], [[Klaus Fredenhagen]], _Microlocal Analysis and Interacting Quantum Field Theories: Renormalization on Physical Backgrounds_, Commun. Math. Phys. 208 : 623-661, 2000 ([math-ph/9903028](https://arxiv.org/abs/math-ph/9903028))
+
+* {#DuetschFredenhagen01a} [[Michael Dütsch]], [[Klaus Fredenhagen]], _Algebraic Quantum Field Theory, Perturbation Theory, and the Loop Expansion_, Commun.Math.Phys. 219 (2001) 5-30 ([arXiv:hep-th/0001129](https://arxiv.org/abs/hep-th/0001129))
+
+* {#HollandsWald01} [[Stefan Hollands]], [[Robert Wald]], _Local Wick polynomials and time ordered products of quantum fields in curved spacetime_, Commun. Math. Phys., Commun.Math.Phys.223:289-326,2001 ([arXiv:gr-qc/0103074](https://arxiv.org/abs/gr-qc/0103074))
+
+* {#DutschFredenhagen01b} [[Michael Dütsch]], [[Klaus Fredenhagen]], _Perturbative algebraic field theory, and deformation quantization_, in [[Roberto Longo]] (ed.), _Mathematical Physics in Mathematics and Physics, Quantum and Operator Algebraic Aspects_, volume 30 of Fields Institute Communications, pages 151&#8211;160. American Mathematical Society, 2001
+([arXiv:hep-th/0101079](https://arxiv.org/abs/hep-th/0101079))
+
+* {#HollandRuan01} [[Stefan Hollands]], Weihua Ruan, _The State Space of Perturbative Quantum Field Theory in Curved Spacetimes_, Annales Henri Poincare 3 (2002) 635-657 ([arXiv:gr-qc/0108032](https://arxiv.org/abs/gr-qc/0108032))
+
+
+### Review
 
 * {#FredenhagenRejzner12} [[Klaus Fredenhagen]], [[Katarzyna Rejzner]], _Perturbative algebraic quantum field theory_, In _Mathematical Aspects of Quantum Field Theories_, Springer 2016 ([arXiv:1208.1428](https://arxiv.org/abs/1208.1428))
 
