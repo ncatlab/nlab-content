@@ -25,7 +25,7 @@ $$
   \,.
 $$
 
-The collection of these operations $Z$ forms a [[group]] called the _[[Stückelberg-Peterson renormalization group]]_. Hence the space of renormalization schemes is a [[torsor]] over this group.
+The collection of these operations $Z$ forms a [[group]] called the _[[Stückelberg-Petermann renormalization group]]_. Hence the space of renormalization schemes is a [[torsor]] over this group.
 
 This theorem is a mathematical reflection of the idea that renormalization is about regarding a [[perturbative quantum field theory]] with [[interaction]] $V$ as a [[effective field theory]] at some energy scale and then discovering that at higher energy there is a more fundamental interaction $Z(V)$ which effectively looks like $V$ at lower energy.
 
@@ -50,6 +50,7 @@ Review is in
 
 * {#Rejzner16} [[Katarzyna Rejzner]], section 6.3 of _Perturbative Algebraic Quantum Field Theory_, Mathematical Physics Studies, Springer 2016 ([web](https://link.springer.com/book/10.1007%2F978-3-319-25901-7))
 
+* [[Michael Dütsch]], section 3.5.2 of _From classical field theory
+to perturbative quantum field theory_
 
 
-[[!redirects Stückelberg-Peterson renormalization group]]
