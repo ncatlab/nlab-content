@@ -1,8 +1,8 @@
 *under construction*
 
-__operator product expansion__ (OPE) in QFT-s (especially in CFT)
+__operator product expansion__ (OPE) of [[operator products]] in [[quantum field theory]] (especially in [[CFT]])
 
-Mantra in the case of perturbative QFTs: perturbative QFTs are about the deformation theory controlled by certain L-infinity algebra which is constructed from OPE-s 
+Mantra in the case of [[perturbative QFT]]: perturbative QFTs are about the deformation theory controlled by certain L-infinity algebra which is constructed from OPE-s 
 
 ## See also
 
