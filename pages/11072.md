@@ -67,6 +67,23 @@ Let $C$ be a [[linearly distributive category]] with tensor product $\otimes$ an
 Here a functor $F$ is [[strong functor|strong]] with respect to a lax monoidal functor $G$ if there is a natural transformation $F A \otimes G B \to F(A\otimes G B)$ satisfying some natural axioms, and we similarly require compatibility of the monad and comonad structure transformations.
 
 
+## Modal term calculi
+
+Girard's original presentation of linear logic involved rules that explicitly assumed the presence of $!$ on hypotheses or on entire contexts, such as [[weakening rule|weakening]] and [[contraction rule|contraction]]:
+
+$$ \frac{\Gamma \vdash B}{\Gamma, !A\vdash B} \qquad \frac{\Gamma,!A,!A \vdash B}{\Gamma, !A\vdash B} $$
+
+and "promotion":
+
+$$ \frac{!\Gamma \vdash A}{!\Gamma\vdash !A} $$
+
+If this is translated into a [[natural deduction]] style term calculus, the resulting rules are more complicated than those of most type formers.  This can be avoided using [[adjoint type theory]] with two context zones, one "nonlinear" one where contraction and weakening are permitted (and [[admissible rule|admissible]]) and one "linear" one where they are not, with $!$ as a modality relating the two zones.
+
+Such a "modal" presentation of linear logic was first introduced by Girard in his work on [[LU]] and then developed by a number of other people such as Plotkin, Wadler, Benton, and Barber.  See the references for details.
+
+This presentation also generalizes naturally to [[dependent linear type theory]], with the nonlinear type theory being dependent, and the linear types depending on the nonlinear ones but nothing depending on linear types.  In this context, the $!$-modality decomposes into "context extension" and a "dependent sum".
+
+
 ## Related concepts
 
 * [[exponential map]]
@@ -109,7 +126,17 @@ based on
 
 * {#AroneMahowald98} [[Gregory Arone]], [[Mark Mahowald]], _The Goodwillie tower of the identity functor and the unstable periodic homotopy of spheres_, 1998 ([pdf](http://hopf.math.purdue.edu/Arone-Mahowald/ArMahowald.pdf))
 
+The modal approach to a term calculus for the $!$-modality can be found in:
 
+* [[Jean-Yves Girard]].  *On the unity of logic.* Annals  of Pure and Applied  Logic, 59:201-217, 1993.
+
+* G.  Plotkin.  *Type  theory  and  recursion.*   In Proceedings  of  the  Eigth  Symposium  of Logic in Computer Science, Montreal , page 374. IEEE Computer Society Press, 1993.
+
+* N. Benton.  *A mixed linear and non-linear logic; proofs, terms and models.*  In Proceedings of Computer Science Logic '94, number 933 in LNCS. Verlag, June 1995.
+
+* Philip  Wadler.   *A  syntax  for  linear  logic.*   In Ninth  International  Coference  on  the Mathematical Foundations of Programming Semantics , volume 802 of LNCS . Springer Verlag, April 1993
+
+* Andrew Barber, *Dual Intuitionistic Linear Logic*, Technical Report ECS-LFCS-96-347, University of Edinburgh, Edinburgh (1996), [web](http://www.lfcs.inf.ed.ac.uk/reports/96/ECS-LFCS-96-347/)
 
 [[!redirects of course]]
 [[!redirects !]]
