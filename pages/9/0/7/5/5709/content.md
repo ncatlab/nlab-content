@@ -124,6 +124,8 @@ See also at _[string theory FAQ -- What is string theory?](string+theory+FAQ#Wha
 
 * [[higher order curvature corrections]]
 
+* [[Stückelberg-Petermann renormalization group]]
+
 * [string theory FAQ -- What is the relationship between quantum field theory and string theory?](string+theory+FAQ#RelationshipBetweenQuantumFieldTheoryAndStringTheory)
 
 ## References
