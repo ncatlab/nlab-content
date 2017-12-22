@@ -34,6 +34,9 @@ If we interpret $X$ as the [[real line]], then $X^X$ consists of real-valued map
 
 A [[differential operator]] is a good example of something that is both an operator in the logical sense (since it turns functions into functions) and a linear operator in the sense of functional analysis (since [[differentiable functions]] form a vector space and [[differentiation]] acts linearly).
 
+## Related concepts
+
+* [[operator product]]
 
 [[!redirects operator]]
 [[!redirects operators]]
