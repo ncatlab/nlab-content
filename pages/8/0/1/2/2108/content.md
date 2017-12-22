@@ -822,37 +822,48 @@ To a large extent geometric quantization is realized by [[central extension]] of
 ### Schrödinger representation
  {#ExamplesSchroedingerRepresentation}
 
-For the [[particle]] propagating on the [[line]]
-with respect to some standard [[action functional]], 
-the  [[phase space]] is 
-the [[cotangent bundle]] 
-$T^* \mathbb{R} \simeq \mathbb{R}^2$,
-where the [[isomorphism]] is given by choosing standard
-[[coordinate chart|coordinates]], $\{q,p\}$.
+We discuss how the standard [[Schrödinger representation]] of the 
+[[canonical commutation relation]] $\{q,p\} = -1$ arises via geometric quantization:
 
-The [[symplectic form]] is the canonical [[volume form]],
-which in these coordinates reads
+Consider the [[Cartesian space]] $\mathbb{R}^2$ with canonical [[coordinate functions]] denoted $\{q,p\}$ and to be called the _[[canonical coordinate]]_ $q$ and its [[canonical momentum]] $p$ and equipped with the [[left invariant differential form|constant]] [[differential 2-form]] given in in (eq:CanonicalMomentumPresymplecticCurrent) by
 
 $$
+  \label{R2SymplecticForm}
   \omega = d p \wedge d q
   \,.
 $$
 
-A [[prequantum line bundle]] for this is given by the
-[[trivial vector bundle|trivial]] [[complex line bundle]] over $\mathbb{R}^2$ which is equipped with the [[connection on a bundle|connection]] that is given
-by the globally defined [[differential 1-form]]
+This is [[closed differential form|closed]] in that $d \omega = 0$, and invertible in that the contraction of [[tangent vector fields]] into it (def. \ref{ContractionOfFormsWithVectorFields}) is an [[isomorphism]] to [[differential 1-forms]], and as such it is a _[[symplectic form]]_.
+
+A choice of [[presymplectic potential]] for this [[symplectic form]] is
 
 $$
   \label{CanonicalSymplecticPotentialOnR2}
-  \theta \;\coloneqq\; q \, d p
+  \theta \;\coloneqq\; - q \, d p
+$$
+
+in that $d \theta = \omega$. (Other choices are possible, notably $\theta = p \, d q$).
+
+
+For 
+
+$$
+  A 
+    \;\colon\;
+  \mathbb{R}^2 
+    \longrightarrow 
+  \mathbb{C}
+$$
+
+a [[smooth function]] (an [[observable]]), we say that a _[[Hamiltonian vector field]]_ for it (as in def. \ref{HamiltonianForms}) is a [[tangent vector field]] $v_A$  whose contraction into the [[symplectic form]] (eq:R2SymplecticForm) is the [[de Rham differential]] of $A$:
+
+$$
+  \label{HamiltonianVectorFieldOnR2}
+  \iota_{v_A} \omega = d A
   \,.
 $$
 
-(Other choices of connection are possible, notably $\theta = - p \, d q$).
-
-A [[section]] of this complex line bundle is canonically identified simply with a $\mathbb{C}$-valued [[smooth function]] on $\mathbb{R}^2$.
-
-A choice of [[foliation]] and hence of [[real polarization]] of this phase space is given by constant-$q$-slices
+Consider the [[foliation]] of this phase space by constant-$q$-slices
 
 $$
   \label{ConstantqSlicesOnR2}
@@ -860,57 +871,158 @@ $$
   \,.
 $$
 
-(Other choices of [[polarization]] are possible, notably the constant $p$-slices as well as the canonical [[Kähler polarization]] on $\mathbb{R}^2 \simeq \mathbb{C}$.)
+These are also called the _[[leaves]]_ of a _[[real polarization]]_ of the [[phase space]].
 
-The [[polarization]] condition on [[sections]] $\psi$ is that their [[covariant derivative]] along the [[leaves]] vanishes, which for the choice of polarization in (eq:ConstantqSlicesOnR2) means that
+(Other choices of [[polarization]] are possible, notably the constant $p$-slices.)
+
+We says that a smooth function 
 
 $$
-  \nabla_{\partial/\partial p} \psi = 0
+ \psi \;\colon\; \mathbb{R}^2 \longrightarrow \mathbb{C}
+$$
+
+is _[[polarization|polarized]]_ if its [[covariant derivative]] with [[connection on a bundle]] $i \theta$ along the [[leaves]] vanishes; which for the choice of polarization in (eq:ConstantqSlicesOnR2) means that
+
+$$
+  \nabla_{\partial_p} \psi = 0
+  \phantom{AAA}
+  \Leftrightarrow
+   \phantom{AAA}
+  \iota_{\partial_p} \left(  d \psi + i \theta \psi \right)
+  = 
+  0
   \,,
 $$
 
-which in turn for the choice of connection in (eq:CanonicalSymplecticPotentialOnR2) means that
+which in turn, for the choice of [[presymplectic potential]] in (eq:CanonicalSymplecticPotentialOnR2), means that
 
 $$
-  \frac{\partial}{\partial p} \psi + i q \psi = 0
+  \frac{\partial}{\partial p} \psi - i q \psi = 0
   \,.
 $$
 
 The solutions to this [[differential equation]] are of the form
 
 $$
-  \psi(q,p) = \psi(q,0) \exp(i p q)
+  \label{PolarizedFunctionsForBasicExampleOnR2}
+  \Psi(q,p) = \psi(q) \, \exp(+ i p q)
+$$
+
+for $\psi \colon \mathbb{R} \to \mathbb{C}$ any [[smooth function]], now called a _[[wave function]]_.
+
+This establishes a [[linear isomorphism]] between  polarized smooth functions and [[wave functions]].
+
+
+By (eq:HamiltonianVectorFieldOnR2) we have the [[Hamiltonian vector fields]]
+
+$$
+  v_q = \partial_p
+  \phantom{AAAA}
+  v_p = -\partial_q  
   \,.
 $$
 
-The space of these "[[wave functions]]" is (noncanonically) identified with the space of complex-valued [[smooth functions]] on the line by evaluating at $p = 0$.
-
-Since we have the [[hamiltonian vector fields]]
+The corresponding _[[Poisson bracket]]_ is
 
 $$
-  v_q = \frac{\partial}{\partial p}
-$$ 
+  \label{R2PoissonBracket}
+  \begin{aligned}
+    \{q,p\}
+    & \coloneqq 
+    \iota_{v_p} \iota_{v_q}  \omega
+    \\
+    & = 
+    -\iota_{\partial_q} \iota_{\partial_p} d p \wedge d q
+    =
+    \\
+    & = 
+    - 1
+  \end{aligned}  
+$$
+
+The action of the corresponding [[quantum operator (in geometric quantization)|quantum operators]] $\hat q$ and $\hat p$ on the polarized functions (eq:PolarizedFunctionsForBasicExampleOnR2) is as follows
 
 $$
-  v_p = -\frac{\partial}{\partial q}  
-$$
-
-the action of the [[quantum operator (in geometric quantization)|quantum operators]] $\hat q$ and $\hat p$ on these states is
-
-$$
-  \hat q \psi = - i \nabla_{\partial/\partial p}\psi + q \psi
-  = q \psi
+  \begin{aligned}
+    \hat q \Psi(q,p)
+      & =
+      - i \nabla_{\partial_p}\Psi(q,p) + q \Psi(q,p)
+      \\
+      & = -i
+      \underset{ = 0 }{
+        \underbrace{
+          \left(
+            \underset{
+              = i q \Psi(q,p)
+            }{
+              \underbrace{
+                \frac{\partial}{\partial p}
+                \left( 
+                  \psi(q) e^{i q p}
+                \right)
+              }
+            }
+            - i q \Psi(q,p)
+        \right)
+       }
+      }
+      +
+      q \Psi(q,p)
+      \\
+      & = \left( q \psi(q) \right) e^{i q p}
+  \end{aligned}
 $$
 
 and
 
 $$
-  \hat p \psi =  i \nabla_{\partial/ \partial q} \psi + p \psi
-  = i \frac{\partial}{\partial q} \psi
+  \begin{aligned}
+    \hat p \Psi(q,p)
+    & =  
+    i \nabla_{\partial_q} \Psi(q,p) + p \Psi(q,p)
+    \\
+    & = i \frac{\partial}{\partial q} (\psi(q)e^{i q p}) + p \Psi(q,p)
+    \\
+    & =
+    \left(
+      i \frac{\partial}{\partial q}\psi(q)
+    \right) e^{i q p}
+    +
+    \underset{ = 0}{
+      \underbrace{
+        \underset{ 
+           = - p \Psi(q,p) 
+        }{
+          \underbrace{
+            \psi(q) 
+            \left( 
+              i \frac{\partial}{\partial q} e^{i q p}
+            \right)
+          }
+        }
+        +
+        p \Psi(q,p)
+     }  
+   }
+   \\
+   & = 
+   \left( 
+     i \frac{\partial}{\partial q}\psi(q)
+   \right) e^{i p q}
+  \end{aligned}   
   \,.
 $$
 
-This is the _[[Schrödinger representation]]_ of the [[canonical commutation relation]] $[q,p] = - i \hbar$.
+Hence under the identification (eq:PolarizedFunctionsForBasicExampleOnR2) we have
+
+$$
+  \hat q \psi = q \psi
+  \phantom{AAAA}
+  \hat p \psi = i \frac{\partial}{\partial q} \psi
+  \,.
+$$
+
+This is called the [[Schrödinger representation]] of the [[canonical commutation relation]] (eq:R2PoissonBracket).
 
 ### K&#228;hler manifolds
 
