@@ -21,8 +21,30 @@
 
 The _Stone--von Neumann theorem_ (due to [[Marshall Stone]] and [[John von Neumann]]) says that there is -- up to [[isomorphism]] -- a unique [[irreducible representation|irreducible]] [[unitary representation]] of the [[Heisenberg group]] on finitely many generators (equivalently: of the [[associative algebra|algebra]] of [[canonical commutation relations]]).
 
-The analogous statement does _not_ hold for infinitely many generators. See also [[Haag's theorem]].
+The analogous statement does _not_ hold for infinitely many generators (as they appear in [[quantum field theory]]); this is _[[Haag's theorem]]_.
 
+Explicitly, the [[canonical commutation relations]] on two generators ([[canonical coordinate]] $q$ and [[canonical momentum]] $p$) in the form 
+
+$$
+  [q,p] = i \hbar
+$$
+
+may be represented as [[unbounded operators]] on the [[Hilbert space]] of [[square integrable functions]] $L^2(\mathbb{R})$ on the [[real line]] by defining them on the [[dense subspace]] of [[smooth functions]] $\psi \colon \mathbb{R} \to \mathbb{C}$ as
+
+$$
+  (q \psi)(x) \coloneqq x \psi(x)
+  \phantom{AAAA}
+  (p \psi)(x) \coloneqq -i \hbar \frac{\partial}{\partial x} \psi(x)
+  \,,
+$$
+
+where on the right we have the [[derivative]] along the canonical [[coordinate function]] on $\mathbb{R}$.
+
+This is often called the _Schrödinger representation_ (after [[Erwin Schrödinger]], e.g. [Redei](#Redei)), to be distinguished from "[[Schrödinger picture]]" which is a related but different concept.
+
+## Related concepts
+
+* for the Schrödinger representation obtained via [[geometric quantization]] see [there](geometric+quantization#ExamplesSchroedingerRepresentation)
 
 ## References
 
@@ -34,7 +56,22 @@ The original articles are
 
 * [[Marc Rieffel]], _On the uniqueness of the Heisenberg commutation relations_ ([pdf](http://www.univie.ac.at/nuhag-php/bibtex/open_files/ri72_rieffuhcr.pdf))
 
+Review includes
+
+* {#Redei} [[Miklós Rédei]], _Von Neumann's proof of Uniqueness of Schrödinger representation of Heisenberg's commutation relation_ ([[RedeiCCRRepUniqueness.pdf:file]])
+
+See also 
+
+* Wikipedia, _[Stone-von Neumann theorem](https://en.wikipedia.org/wiki/Stone%E2%80%93von_Neumann_theorem)_
+
 [[!redirects Stone von Neumann theorem]]
 [[!redirects Stone-von Neumann theorem]]
 [[!redirects Stone–von Neumann theorem]]
 [[!redirects Stone--von Neumann theorem]]
+
+[[!redirects Schrödinger representation]]
+[[!redirects Schrödinger representations]]
+
+[[!redirects Schroedinger representation]]
+[[!redirects Schroedinger representations]]
+
