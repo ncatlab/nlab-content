@@ -98,6 +98,10 @@ Although diagrammatic order has advantages and partisans, especially among categ
 
 In some older category theory papers, arrows were written pointing from right to left, so that the composition of arrows could be written in the "classical" style, while still preserving the diagrammatic intuition. Hom-sets were accordingly written $C(b,a)$, where $a$ is the [[source]], and $b$ is the [[target]].  This sort of convention has also been used by people working with [[string diagrams]] and [[surface diagram]]s.
 
+## Related concepts
+
+* [[operator product]]
+
 [[!redirects composite]]
 [[!redirects composites]]
 [[!redirects diagrammatic order]]
