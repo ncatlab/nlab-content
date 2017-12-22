@@ -141,6 +141,8 @@ of sections whose [[support]] is inside $K$ becomes a [[Fréchet space|Fréchet]
 
 * [[twisted cohomology]]
 
+* [[space of states (in geometric quantization)]]
+
 ## References
 
 The [[topological vector space]] on spaces of smooth sections is discussed in
