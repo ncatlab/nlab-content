@@ -211,6 +211,8 @@ $$
 
 ## References
 
+* {#Hoermander71} [[Lars Hörmander]], _Fourier integral operators. I_.  Acta Mathematica 127, 79–183 (1971) ([Euclid](https://projecteuclid.org/euclid.acta/1485889699))
+
 * {#Hoermander90} [[Lars Hörmander]], section 8.1 of _The analysis of linear partial differential operators_, vol. I, Springer 1983, 1990
 
 * {#Melrose03} [[Richard Melrose]], chapter 1 of _Introduction to microlocal analysis_, 2003 ([pdf](http://www-math.mit.edu/~rbm/iml90.pdf))
