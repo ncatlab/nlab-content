@@ -176,7 +176,7 @@ Even if in the above definition we speak only about the [[set]] $\Omega^1(\mathb
          \omega + \lambda & =
           \sum_{i = 1}^k \omega_i \mathbf{d}x^i + \sum_{j = 1}^k \lambda_j \mathbf{d}x^j
          \\
-         & = \sum_{i = 1}^k(\omega_i + \lambda_i) \mathbf{d}x^j
+         & = \sum_{i = 1}^k(\omega_i + \lambda_i) \mathbf{d}x^i
       \end{aligned}
       \,,
    $$
