@@ -7,6 +7,14 @@ basis of the construction of all [[interaction|interacting]] theories in the [[i
 of the [[free field theories]].
 
 
+$\,$
+
+[[!include Wick algebra -- table]]
+
+$\,$
+
+We now discuss these topics
+
 * _[Wick algebra and normal ordered products](#WickAlgebraAndNormalOrderedProducts)_
 
 
@@ -20,221 +28,6 @@ $\,$
 
 **[[Wick algebra]] and [[normal ordered products]]**
  {#WickAlgebraAndNormalOrderedProducts}
-
-* [[Wick algebra]] and [[normal-ordered product]]
-
-  $\mathcal{F}_{loc} \overset{:-:}{\longrightarrow} \mathcal{F}_{mc}[ [ \hbar ] ]$
-
-
-(...)
-
-
-To warm up, we first discuss how the [[star product]] (def. \ref{StarPoduct})
-of a [[finite dimensional vector space]] equipped with [[almost Kähler manifold|almost Kähler structure]]
-may be interpreted as "[[normal-ordered product]] for a single mode":
-
-
-+-- {: .num_defn #AlmostKaehlerVectorSpace}
-###### Definition
-**(almost K&#228;hler vector space)**
-
-An _almost K&#228;hler vector space_ is a [[complex vector space]] $V$ equipped with two [[bilinear forms]] $\sigma, h \;\colon\; V \otimes_{\mathbb{R}} V \longrightarrow \mathbb{R}$ such that with $V$ regarded as a [[smooth manifold]] and with $\sigma, g$ regarded as constant [[tensors]], then $(V,\sigma,h)$ is an [[almost Kähler manifold]].
-
-=--
-
-+-- {: .num_example #StandardAlmostKaehlerVectorSpaces}
-###### Example
-**(standard almost K&#228;hler vector spaces)**
-
-Let $V \coloneqq \mathbb{R}^2$ equipped with the [[complex structure]] given by the canonical identification $\mathbb{R}^2 \simeq \mathbb{C}$, let $\sigma \coloneqq \left( \array{0 & -1 \\ 1 & 0} \right)$ and $h \coloneqq \left( \array{ 1 & 0 \\ 0 & 1}  \right)$. Then $(V,\sigma,g)$ is an almost K&#228;hler vector space (def. \ref{AlmostKaehlerVectorSpace}).
-
-=--
-
-
-+-- {: .num_defn #WickAlgebraOfAlmostKaehlerVectorSpace}
-###### Definition
-**(Wick algebra of an almost K&#228;hler vector space)**
-
-Let $(\mathbb{R}^{2n},\sigma, g)$ be an almost K&#228;hler vector space (def. \ref{AlmostKaehlerVectorSpace}). Then its _Wick algebra_ is the [[formal power series]] vector space $\mathbb{C}[ [ a_1, a^\ast_1, \cdots, a_n, a^\ast_n  ] ] [ [ \hbar ] ]$ equipped with the [[star product]]
-
-$$
-  \begin{aligned}
-    P_1 \star_\omega P_2
-    & \coloneqq
-    prod \circ \exp \left( \hbar\underoverset{k_1, k_2 = 1}{2 n}{\sum}\omega^{a b} \partial_a \otimes  \partial_b \right)  (P_1 \otimes P_2)
-    \\
-    & =
-    P_1 \cdot P_2 + \hbar \underoverset{k_1, k_2 = 1}{2n}{\sum}\omega^{k_1 k_2}(\partial_{k_1} P_1) \cdot (\partial_{k_2} P_2)
-    + \cdots
-  \end{aligned}
-$$
-
-given by the bilinear form
-
-$$
-  \omega \coloneqq \tfrac{i}{2} \sigma + \tfrac{1}{2} g
-  \,.
-$$
-
-Here
-
-$$
-  prod \;\colon\; \mathbb{C}[ [ a_1, a^\ast_1, \cdots, a_n, a^\ast_n  ] ] [ [ \hbar ] ]
-  \otimes_{\mathbb{R}}
-  \mathbb{C}[ [ a_1, a^\ast_1, \cdots, a_n, a^\ast_n  ] ] [ [ \hbar ] ]
-   \longrightarrow
-   \mathbb{C}[ [ a_1, a^\ast_1, \cdots, a_n, a^\ast_n  ] ] [ [ \hbar ] ]
-$$
-
-is the ordinary (commutative) product in the [[formal power series algebra]].
-
-To make contact with the traditional notation we decorate the elements $P$ in the formal power series algebra with colons and declare the notation
-
-$$
-  : P_1 : \, :P_2:
-  \;\coloneqq\;
-  : P_1 \star_\omega P_2 :
-$$
-
-=--
-
-+-- {: .num_example #WickAlgebraOfASingleMode}
-###### Example
-**([[Wick algebra]] of a single mode)**
-
-Let $V \coloneqq \mathbb{R}^2 \simeq Span(\{x,y\})$ be a standard almost K&#228;hler vector space according to example \ref{StandardAlmostKaehlerVectorSpaces}, with canonical coordinates denoted $x$ and $y$. We discuss its Wick algebra according to def. \ref{WickAlgebraOfAlmostKaehlerVectorSpace} and show that this reproduces the traditional definition of products of "normal ordered" operators.
-
-To that end, consider the complex linear combination of the coordinates to the canonical complex coordinates $z \coloneqq x + i y$ and $\overline{z} \coloneqq x - i y$, which we suggestively write instead as
-
-$$
-  a \coloneqq \tfrac{1}{\sqrt{2}}(x + i y)
-  \phantom{AAAA}
-  a^\ast \coloneqq \tfrac{1}{\sqrt{2}}(x - i y)
-$$
-
-(with "$a$" the traditional symbol for the _amplitude_ of a field mode).
-
-We find the value of the almost-K&#228;hler forms on these elements to be
-
-$$
-  \begin{aligned}
-    \sigma(a,a^\ast)
-    & =
-    \tfrac{1}{2} \sigma( (x + i y), (x - i y) )
-    \\
-    & =
-    \tfrac{-i}{2}( \sigma(x,y) - \sigma(y,x) )
-    \\
-    & =
-    - i
-  \end{aligned}
-$$
-
-$$
-  \begin{aligned}
-    h(a, a^\ast)
-    & =
-    \tfrac{1}{2} h( (x + i y), (x - i y) )
-    \\
-    & =
-    \tfrac{1}{2}(h(x,x) + h(y,y))
-    \\
-    & =
-    1
-  \end{aligned}
-$$
-
-$$
-  \begin{aligned}
-    \sigma(a,a)
-    & =
-    \sigma(a^\ast, a^\ast)
-    \\
-    & =
-    0
-    \phantom{AAAAAA} \text{by anti-symmetry}
-  \end{aligned}
-$$
-
-$$
-  \begin{aligned}
-    h(a,a)
-    & =
-    \tfrac{1}{2}( h( (x + i y), (x + i y) ) )
-    \\
-    & =
-    \tfrac{1}{2}( h(x,x) - h(y,y))
-    \\
-    & =
-    0
-  \end{aligned}
-$$
-
-$$
-  \begin{aligned}
-    h(a^\ast, a^\ast)
-    & =
-    \tfrac{1}{2}( h(x,x) - h(y,y) )
-    \\
-    & = 0
-  \end{aligned}
-$$
-
-Using this, we find the [[star product]] as follows (where we write $(-)\cdot (-)$ for the plain commutative product in the [[formal power series algebra]]):
-
-$$
-  \begin{aligned}
-    a \star_\omega a^\ast
-    & =
-    a \cdot a^\ast
-    +
-    \tfrac{\hbar}{2}
-    \left(
-       \underset{= 1}{\underbrace{i \sigma( a, a^\ast )}}
-       +
-       \underset{= 1}{\underbrace{h(a, a^\ast)}}
-    \right)
-    \\
-    & =
-    a^\ast \cdot a + \hbar
-    \\
-    \\
-    a^\ast \star_\omega a
-    & =
-    a^\ast \cdot a
-    +
-    \tfrac{\hbar}{2}
-    \left(
-      \underset{= -1}{\underbrace{i \sigma( a^\ast , a )}}
-      +
-      \underset{ = 1}{\underbrace{h( a^\ast, a )}}
-    \right)
-    \\
-    & =
-    a^\ast \cdot a
-    \\
-    \\
-    a \star_\omega a
-     & =
-    a \cdot a
-    \\
-    \\
-    a^\ast \star_\omega a^\ast
-    & =
-    a^\ast \cdot a^\ast
-  \end{aligned}
-$$
-
-These four cases are sufficient to see that in the star-product $P_1 \star_\omega P_2$ of general elements, we obtain correction term $\hbar$ to the ordinary commutative product precisely for every pair consisting  of a factor of $a$ in $P_1$ and a factor $a^\ast$ in $P_2$. This is exactly the "normal ordering" prescription.
-
-=--
-
-
-$\,$
-
-
-Now to generalize this to the infinite dimensional case of [[free field theory]]:
-
 
 
 +-- {: .num_defn #MicrocausalFunctionals}
@@ -410,5 +203,6 @@ $$
 
 This is the traditional expression for the normal ordered Wick product on Minkowski spacetime (e.g. [here](https://en.wikipedia.org/wiki/Normal_order#Free_fields)).
 
+(...)
 
 $\,$
