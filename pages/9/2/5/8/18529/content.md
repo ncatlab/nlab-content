@@ -33,7 +33,8 @@ This theorem is a mathematical reflection of the idea that renormalization is ab
 
 The theorem is originally due to 
 
-* G. Popineau and [[Raymond Stora]], _A Pedagogical Remark on the Main Theorem of Perturbative Renormalization Theory, unpublished preprint
+* G. Popineau and [[Raymond Stora]], _A Pedagogical Remark on the Main Theorem of Perturbative Renormalization Theory, Nucl. Phys. B 912 (2016), 70–78, preprint:
+LAPP–TH, Lyon (1982)
 
 In various variants it has been (re-)proved in the following articles:
 
