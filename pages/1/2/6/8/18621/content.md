@@ -16,7 +16,7 @@
 
 ## Idea
 
-In [[perturbative quantum field theory]] formalized as [[causal perturbation theory]]/[[perturbative AQFT]] the _retarded products_ ([Glaser-Lehmann-Zimmermann 57](#GlaserLehmannZimmermann57)) is a system of [[operator-valued distributions]] which are the [[coefficients]] in the [[formal power series]] expression for the [[quantum observables on interacting fields]]. 
+In [[perturbative quantum field theory]] formalized as [[causal perturbation theory]]/[[perturbative AQFT]] the _retarded products_ ([Glaser-Lehmann-Zimmermann 57](#GlaserLehmannZimmermann57), [Steinmann 71](#Steinmann71)) is a system of [[operator-valued distributions]] which are the [[coefficients]] in the [[formal power series]] expression for the [[quantum observables on interacting fields]]. 
 
 If the quantum observables are obtained via [[Bogoliubov's formula]] from the [[S-matrix]] induced by [[time-ordered products]], then the retarded products may be expressed in terms of the [[time-ordered products]]. But the retarded producst may also be [[axiom|axiomatized]] directly ([D&#252;tsch-Fredenhagen 04](#DuetschFredenhagen04)),
 see ([Collini 16, section 2.2](#Collini16)).
@@ -135,9 +135,9 @@ The actual retarded products are, via _[[Bogoliubov's formula]]_, the [[derivati
 
 The concept goes back to
 
-* {#GlaserLehmannZimmermann57} [[Vladimir Glaser]], H. Lehmann, W. Zimmermann, _Field operators and retarded functions_, Il Nuovo Cimento 6, 1122-1128 (1957) ([doi:10.1007/bf02747395](http://dx.doi.org/10.1007/bf02747395))
+* {#GlaserLehmannZimmermann57} [[Vladimir Glaser]], [[Harry Lehmann]], [[Wolfhart Zimmermann]], _Field operators and retarded functions_, Il Nuovo Cimento 6, 1122-1128 (1957) ([doi:10.1007/bf02747395](http://dx.doi.org/10.1007/bf02747395))
 
-* O. Steinmann, _Perturbation Expansions in Axiomatic Field Theory_, Lecture Notes in Physics, vol. 11, Springer, Berlin and Heidelberg, 1971.
+* {#Steinmann71} O. Steinmann, _Perturbation Expansions in Axiomatic Field Theory_, Lecture Notes in Physics, vol. 11, Springer, Berlin and Heidelberg, 1971.
 
 Discussion of retarded products as derived from [[time-ordered products]] in [[causal perturbation theory]] is due to
 
