@@ -58,13 +58,29 @@ Products of local observables are called _multilocal observables_.
 
 For the moment see at _[[geometry of physics -- A first idea of quantum field theory]]_ [this def.](geometry+of+physics+--+A+first+idea+of+quantum+field+theory#LocalObservables)
 
-## Properties
 
-* polynomial local observables are [[microcausal functional|microcausal]] ([this example](microcausal+functional#CompactlySupportedPolynomialLocalDensities))
+## Examples
+
++-- {: .num_example #PolynomialLocalObservablesArePolynomialObservables}
+###### Example
+**([[polynomial]] [[local observables]] are [[polynomial observables]])**
+
+A [[local observable]] which comes form a [[variational differential form|horizontal differential form]] which is a [[polynomial]] in the fields and their jets times the [[volume form]] on [[spacetime]] is a [[polynomial observable]].
+
+These happen to be also [[microcausal observables]] ([this example](microcausal+functional#CompactlySupportedPolynomialLocalDensities)).
+
+=--
+
+
 
 ## Related concepts
 
+
+[[polynomial]] [[local observables]] $\hookrightarrow$ [[microcausal observables]] $\hookrightarrow$ [[polynomial observables]] $\hookrightarrow$ [[observables]]
+
+
 * [[Wick algebra]]
+
 
 
 [[!redirects local observables]]
