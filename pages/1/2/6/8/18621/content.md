@@ -151,4 +151,9 @@ reviewed for instance in
 
 * {#Collini16} [[Giovanni Collini]], section 2.2 of _Fedosov Quantization and Perturbative Quantum Field Theory_ ([arXiv:1603.09626](https://arxiv.org/abs/1603.09626))
 
+A textbook account is in
+
+* {#Duetsch18} [[Michael Dütsch]], _[[From classical field theory to perturbative quantum field theory]]_, 2018
+
+
 [[!redirects retarded products]]
