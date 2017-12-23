@@ -1,5 +1,20 @@
 
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebraic Quantum Field Theory
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
 The algebra of [[quantum observables]] of a [[quantum field theory]] with non-trivial [[interaction]] is often called the _interacting field algebra_, in contrast to the [[Wick algebra]] for non-interacting [[free fields]].
@@ -11,6 +26,8 @@ More abstractly, the interacting field algebra in [[perturbative quantum field t
 (...)
 
 ## Related concepts
+
+* [[Bogoliubov's formula]]
 
 * [[interaction picture]]
 
