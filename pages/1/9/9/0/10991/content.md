@@ -25,6 +25,9 @@ The _Bub-Clifton-Halvorson theorem_ ([Bub-Clifton 96](#BubClifton96), [Clifton-B
 
 Given a [[Hilbert space]] $H$ and a [[quantum observable]] represented by a [[Hermitean operator]] on this space, and given a [[pure state]], the Bub-Clifton theorem characterizes a maximal sub-[[lattice]] of the Birkhoff-vonNeumann [[Hilbert lattice]] of subspace of $H$ (the "[[quantum logic]]" of $H$) such that there are sufficiently many yes-no questions on the elements in the lattice to recover all the probabilities induced by the given pure state to compatible sets of projections ([[classical contexts]]).
 
+A useful summary is in [Bub 09, pages 1-2](#Bub09).
+
+
 
 ## Related concepts
 
@@ -63,14 +66,16 @@ and Philosophy of Modern Physics 27, 181-219. (1996)
 
 * {#CliftonBubHalvorson03} Rob Clifton, [[Jeffrey Bub]], [[Hans Halvorson]], _Characterizing Quantum Theory in Terms of Information-Theoretic Constraints_, Foundations of Physics 33 (2003), p 1561 ([arXiv:quant-ph/0211089](https://arxiv.org/abs/quant-ph/0211089))
 
-* [[Jeffrey Bub]], _Bub&#8212;Clifton Theorem_, Compendium of Quantum Physics
-2009, pp 84-86
-
-
+* {#Bub09} [[Jeffrey Bub]], _Bub-Clifton Theorem_, in Greenberger D., Hentschel K., Weinert F. (eds.) _Compendium of Quantum Physics_
+Springer 2009, pp 84-86 ([web](https://link.springer.com/chapter/10.1007%2F978-3-540-70626-7_25))
 
 A broader textbook discussion is in 
 
 * [[Jeffrey Bub]], _Interpreting the quantum world_, Cambridge University Press, Aug 26, 1999 
+
+An interpretation in [[topos theory]] is proposed in
+
+* {#Nakayama07} Kunji Nakayama, _Topos-Theoretic Extension of a Modal Interpretation of Quantum Mechanics_, Int. J. Theor. Phys. 47:2065-2094, 2008 ([arXiv:0711.2200](https://arxiv.org/abs/0711.2200))
 
 See also
 
