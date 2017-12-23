@@ -349,6 +349,11 @@ This and much more history is recalled in
 
 * [[Emily Riehl]], _Category theory in context_, 2016 ([pdf](http://www.math.jhu.edu/~eriehl/727/context.pdf))
 
+A textbook that introduces categories by examples arising in [[mathematical physics]] is 
+
+* {#Geroch85} [[Robert Geroch]], _Mathematical Physics_, Chicago 1985
+
+
 #### Topos theory
 
 The standard monographs on [[topos theory]] are
