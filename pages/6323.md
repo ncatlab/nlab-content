@@ -34,7 +34,7 @@ While [[canonical commutation relations]] with a [[finite number]] of generators
 
 Haag's theorem was first stated in 
 
-* {#Haag55} [[Rudolf Haag]], _On quantum fi&#8230;eld theorie_, Det Kongelige Danske Videnskabernes Selskab, Matematisk-fysiske Meddelelser 29, nr. 12: 1-37.(1955)
+* {#Haag55} [[Rudolf Haag]], _On quantum field theorie_, Det Kongelige Danske Videnskabernes Selskab, Matematisk-fysiske Meddelelser 29, nr. 12: 1-37.(1955)
 
 but the proof had some gaps. It was completed in 
 
