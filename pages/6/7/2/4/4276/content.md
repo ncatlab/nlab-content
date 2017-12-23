@@ -16,12 +16,25 @@
 
 * [[covariant phase space]]
   
+* [[Peierls-Poisson bracket]], [[causal propagator]]
+
+**[[quantization]]**
+
+* [[geometric quantization]]
+
+* [[algebraic deformation quantization]]
 
 **[[quantum mechanical system]]** 
 
 * [[subsystem]]
 
-* [[quantum observable]]
+* [[observables]]
+
+  * [[local observables]]
+
+  * [[polynomial observables]]
+
+  * [[microcausal observables]]
 
   * [[operator algebra]], [[C*-algebra]], [[von Neumann algebra]]
 
@@ -37,7 +50,7 @@
 
   * [[conformal net]]
 
-* [[states in AQFT and operator algebra|quantum states]], 
+* [[state on a star-algebra]], 
 
   * [[cyclic vector]], [[separating vector]]
 
@@ -47,20 +60,26 @@
 
   * [[Hadamard state]]
 
+  * [[space of quantum states]]
 
-**[[quantization]]**
+* [[picture of quantum mechanics]]
 
-* [[covariant phase space]]
 
-* [[Peierls-Poisson bracket]], [[causal propagator]]
+**[[free field]] [[quantization]]**
 
-* [[causal perturbation theory]], [[perturbative AQFT]]
+* [[star algebra]], [[Moyal deformation quantization]]
 
 * [[Wick algebra]]
 
-  * [[microcausal functionals]]
-
   * [[normal ordered product]]
+
+* [[Fock space]]
+
+* [[Wick's lemma]]
+
+**[[interaction|interacting]] field [[quantization]]**
+
+* [[causal perturbation theory]], [[perturbative AQFT]]
 
 * [[S-matrix]], [[scattering amplitude]]
 
@@ -72,19 +91,37 @@
 
 * [[interacting field algebra]]
 
+  * [[Bogoliubov's formula]]
 
 
 ## Theorems
 
 ### States and observables
 
+* [[order-theoretic structure in quantum mechanics]]
+
+  * [[Alfsen-Shultz theorem]]
+
+  * [[Harding-Döring-Hamhalter theorem]]
+
 * [[Kochen-Specker theorem]]
+
+* [[Bell's theorem]]
+
+* [[Fell's theorem]]
 
 * [[Gleason's theorem]]
 
 * [[Wigner theorem]]
 
+* [[Bub-Clifton theorem]]
+
+* [[Kadison-Singer problem]]
+
+
 ### Operator algebra
+
+* [[Wick's theorem]]
 
 * [[GNS construction]]
 
@@ -108,12 +145,12 @@
 
 * [[DHR superselection theory]]
 
+* [[Osterwalder-Schrader theorem]] ([[Wick rotation]])
+
 ### Perturbative QFT
 
 * [[main theorem of perturbative renormalization]]
 
-### Euclidean QFT
 
-* [[Osterwalder-Schrader theorem]] ([[Wick rotation]])
 
 
