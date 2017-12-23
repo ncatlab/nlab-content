@@ -78,6 +78,8 @@ $$
 
 * [[tensor product of distributions]]
 
+* [[polynomial observable]], [[microcausal observable]]
+
 ## References
 
 * {#Hoermander90} [[Lars Hörmander]], section 5.2 of _The analysis of linear partial differential operators_, vol. I, Springer 1983, 1990 ([pdf](http://www.ctr.maths.lu.se/media/MATP11/2014vt2014/distho.pdf))
