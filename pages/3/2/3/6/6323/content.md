@@ -38,7 +38,7 @@ Haag's theorem was first stated in
 
 but the proof had some gaps. It was completed in 
 
-* {#Hall57} D. Hall, [[Arthur Wightman]]  _A theorem on invariant analytic functions with applications to relativistic quantum fi&#8230;eld theory_ , Det Kongelige Danske Videnskabernes Selskab, Matematisk-fysiske Meddelelser 31, nr. 5:
+* {#Hall57} D. Hall, [[Arthur Wightman]]  _A theorem on invariant analytic functions with applications to relativistic quantum field theory_ , Det Kongelige Danske Videnskabernes Selskab, Matematisk-fysiske Meddelelser 31, nr. 5:
 1-41.(1957)
 
 A brief statement in context is in
