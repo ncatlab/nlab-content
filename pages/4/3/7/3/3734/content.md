@@ -41,3 +41,5 @@
 * G. Corti&#241;as, _De Rham and infinitesimal cohomology in Kapranov's model for noncommutative algebraic geometry_, Compositio Mathematica __136__, 171-208, 2003, [math.AG/0102133](http://arxiv.org/abs/math/0102133).
 
 * Shilin Yu, _Dolbeault dga of a formal neighborhood_, [arxiv/1206.5155](http://arxiv.org/abs/1206.5155); _The Dolbeault dga of the formal neighborhood of a diagonal_, [arxiv/1211.1567](http://arxiv.org/abs/1211.1567)
+
+* Alexander Polishchuk, Junwu Tu. _DG-resolutions of NC-smooth thickenings and NC-Fourier-Mukai transforms_, [arXiv/1308.4244](https://arxiv.org/abs/1308.4244)
