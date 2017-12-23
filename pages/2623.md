@@ -53,7 +53,7 @@ There are different procedures of renormalization
 ### St&#252;ckelberg-Bogoliubov-Epstein-Glaser renormalization
  {#SBEG Renormalization}
 
-Based on [St&#252;ckelberg-Peterman-53](#StueckelbergPeterman53), [Bogoliubov-Shirkov 76](#BogoliubovShirkov76), developed by [Epstein-Glaser 73](#EpsteinGlaser73). Generalized to [[quantum field theory on curved spacetimes]] in [Brunetti-Fredenhagen 99](#BrunettiFredenhagen99).
+Based on [St&#252;ckelberg-Peterman-53](#StueckelbergPetermann53), [Bogoliubov-Shirkov 76](#BogoliubovShirkov76), developed by [Epstein-Glaser 73](#EpsteinGlaser73). Generalized to [[quantum field theory on curved spacetimes]] in [Brunetti-Fredenhagen 99](#BrunettiFredenhagen99).
 
 See at _[[causal perturbation theory]]_ 
 and _[[locally covariant perturbative quantum field theory]]_.
@@ -677,7 +677,9 @@ Reviews include
 
 In [[causal perturbation theory]]
 
-* {#St&#252;ckelbergPeterman53} St&#252;ckelberg, E. C. G., and Peterman, A., _La normalisation des constants dans la theorie des quanta_ Helv. Phys. Acta 26, 499 (1953); and earlier references therein
+* {#StueckelbergPetermann53} [[Ernst Stückelberg]], A. Peterman, , _La normalisation des constants dans la theorie des quanta_ Helv. Phys. Acta 26, 499 (1953); and earlier references therein
+
+  (see also _[[Stückelberg-Petermann renormalization group]]_)
 
 * {#BogoliubovShirkov76} Bogoliubov, N. N., and Shirkov, D. V., _Introduction to the Theory of Quantized Fiels_, New York: John Wiley and Sons, 1976, 3rd edition
 
