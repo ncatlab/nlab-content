@@ -41,6 +41,8 @@ Quadratic forms with values in the [[real numbers]] $k = \mathbb[R}$ are called 
 
 ## Related concepts
 
+* [[linear function]]
+
 * [[polarization identity]]
 
 * [[bilinear form]]
@@ -53,6 +55,7 @@ Quadratic forms with values in the [[real numbers]] $k = \mathbb[R}$ are called 
 
 * [[quadratic refinement]]
 
+* [[polynomial observable]]
 
 ## References
  {#References}
@@ -124,5 +127,6 @@ See also
 [[!redirects negative quadratic form]]
 [[!redirects negative quadratic forms]]
 
-
+[[!redirects quadratic function]]
+[[!redirects quadratic functions]]
 
