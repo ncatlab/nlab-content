@@ -6,8 +6,13 @@
 +--{: .hide}
 [[!include functional analysis - contents]]
 =--
+#### Algebraic Quantum Field Theory
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
 =--
 =--
+=--
+
 
 #Contents#
 * table of contents
