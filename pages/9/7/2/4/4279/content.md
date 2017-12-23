@@ -312,6 +312,8 @@ For more references see at _[[operator algebra]]_.
 
 [[!redirects states on a star-algebra]]
 
+[[!redirects states on star-algebras]]
+
 [[!redirects state on an operator algebra]]
 [[!redirects state of an operator algebra]]
 [[!redirects states of an operator algebra]]
@@ -334,4 +336,5 @@ For more references see at _[[operator algebra]]_.
 
 [[!redirects normal state]]
 [[!redirects normal states]]
+
 
