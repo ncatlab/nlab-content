@@ -960,6 +960,12 @@ This is the case notably for [[Wick algebras]] ([[algebras of quantum observable
 
 * [[deformation theory]]
 
+## References
+
+In [[perturbative quantum field theory]]:
+
+* [[Michael Dütsch]], section 2.1 of _[[From classical field theory to perturbative quantum field theory]]_
+
 
 [[!redirects star products]]
 
