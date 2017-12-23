@@ -3131,7 +3131,9 @@ Textbook discussion of the Hadamard distribution for [[free fields]] in [[Minkow
 
 (there the Hadamard distribution is denoted "$-i D^+_m(x-y)$").
 
-An concise overview of the standard Wightman propagator in Minkowski spacetime and its relation to the other pertinent propagors is given in
+* {#Duetsch18} [[Michael Dütsch]], section 2.2. of _[[From classical field theory to perturbative quantum field theory]]_, 2018
+
+A concise overview of the standard [[Wightman propagator]] on [[Minkowski spacetime]] and its relation to the other pertinent propagors is given in
 
 * {#Kocic16} [[Mikica Kocic]], _Invariant Commutation and Propagation Functions Invariant Commutation and Propagation Functions_, 2016 ([[KGPropagatorsOnMinkowskiTable.pdf:file]])
 
