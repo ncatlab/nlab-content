@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include homotopy - contents]]
 =--
+#### Algebraic Quantum Field Theory
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
 =--
 =--
 
@@ -19,7 +23,9 @@ In [[physics]] the symmetric [[tensor algebra]] on a [[space of quantum states]]
 
 Similarly the [[exterior algebra]]/[[Grassmann algebra]] is called the _[[fermion|fermionic]] [[Fock space]]_.
 
-The process of passing from a given [[space of quantum states]] to its Fock space is also known as (or rather: is part of) what is called _[[second quantization]]_.
+The process of passing from a given [[space of quantum states]] to its Fock space is also known as (or rather: is part of) what is called _[[second quantization]]_. 
+
+Fock spaces hence appear as [[spaces of quantum states]] of [[free fields]] in [[quantum field theory]]. In [[perturbative quantum field theory]] they are still used indirectly in for non-free field theories.
 
 ## Related entries
 
@@ -31,7 +37,14 @@ The process of passing from a given [[space of quantum states]] to its Fock spac
 
 Named after _[[Vladimir Aleksandrovich Fock]]_.
 
+
 ### General
+
+A textbook account with an eye towards [[perturbative algebraic quantum field theory]] is in
+
+* [[Michael Dütsch]], appendix E of _[[From classical field theory to perturbative quantum field theory]]_
+
+See also
 
 * Wikipedia, _[Fock space](http://en.wikipedia.org/wiki/Fock_space)_
 
