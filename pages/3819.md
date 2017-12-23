@@ -43,6 +43,12 @@ In [[non-perturbative quantum field theory]] the [[algebras of observables]] are
 
 * [[local observable]]
 
+* [[polynomial observable]]
+
+  * [[regular observable]]
+
+  * [[microcausal observable]]
+
 * [[quantum observable]]
 
 * [[space of states (in geometric quantization)]]
