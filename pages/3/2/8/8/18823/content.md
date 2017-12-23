@@ -67,7 +67,7 @@ _[[distributions of several variables]]_ (def. \ref{PolynomialObservables} below
 one considers only the [[infinitesimal neighbourhood]] (example \ref{InfinitesimalNeighbourhood}) of a single [[on-shell]] [[field history]]
 and in this case all [[observables]] are in fact given by such multilinear observables (def. \ref{LocalObservablesOnInfinitesimalNeighbourhood} below).
 
-For a [[free field theory]] (def. \ref{FreeFieldTheory}) whose [[Euler-Lagrange equations|Euler-Lagrange]] [[equations of motion]] are given by a [[linear differential operator]] which behaves well in that it is  "[[Green hyperbolic differential operator|Green hyperbolic]]" (def. \ref{GreenHyperbolicDifferentialOperator} below) it follows that the actual [[on-shell]] linear observables are equivalently those off-shell observables which are
+For a [[free field theory]] (def. \ref{FreeFieldTheory}) whose [[Euler-Lagrange equations|Euler-Lagrange]] [[equations of motion]] are given by a [[linear differential operator]] which behaves well in that it is  "[[Green hyperbolic differential operator|Green hyperbolic]]" (def. \ref{GreenHyperbolicDifferentialOperator} below) it follows that the actual [[on-shell]] [[linear observables]] are equivalently those off-shell observables which are
 _spatially [[compactly supported distribution|compactly supported]] [[distributional solution of a PDE|distributional solutions]]_ to the [[formally adjoint differential operator|formally adjoint]]
 [[equation of motion]] (prop. \ref{DistributionsOnSolutionSpaceAreTheGeneralizedPDESolutions} below);
 and this equivalence is exhibited by [[composition]] with the _[[causal Green function]]_
@@ -430,7 +430,7 @@ $\,$
 **Polynomial off-shell Observables and Distributions**
 {#LinearOffShellObservablesAreDistributions}
 
-We consider here _linear observables_ (def. \ref{LinearObservables} below) and more generally
+We consider here _[[linear observables]]_ (def. \ref{LinearObservables} below) and more generally
 _quadratic observables_ (def. \ref{QuadraticObservables}) and generally _polynomial observables_ (def. \ref{PolynomialObservables} below) for [[free field theories]] and discuss how these are equivalently given by
 [[integration]] against [[generalized functions]] called _[[distributions]]_ (prop. \ref{LinearObservablesAreTheCompactlySupportedDistributions} and prop. \ref{DistributionsAreGeneralizedFunctions} below).
 
@@ -457,7 +457,7 @@ $$
   A \;\colon\; \Gamma_\Sigma(E) \longrightarrow \mathbb{C}
 $$
 
-is a _linear observable_ if it is a [[linear function]] with respect to this vector space structure, hence if
+is a _[[linear observable]]_ if it is a [[linear function]] with respect to this vector space structure, hence if
 
 $$
   A\left( c \Phi_{(-)}) = c A(\Phi_{(-)} \right)
@@ -479,14 +479,14 @@ $$
   LinObs(E,\mathbf{L}) \hookrightarrow Obs(E,\mathbf{L})
 $$
 
-for the subspace of linear observables inside all observables (def. \ref{Observable}) and similarly
+for the subspace of [[linear observables]] inside all [[observables]] (def. \ref{Observable}) and similarly
 
 $$
   LinObs(E) \hookrightarrow Obs(E)
 $$
 
 for the linear off-shell observables inside all off-shell observables, and similarly
-for the subspaces of linear observables on field histories of spatially compact supprt (eq:SpaceOfObservablesOnFieldHistoriesOfSpatiallyCompactSupport):
+for the subspaces of [[linear observables]] on [[field histories]] of spatially compact supprt (eq:SpaceOfObservablesOnFieldHistoriesOfSpatiallyCompactSupport):
 
 $$
   \label{LinearObservablesOnSpatiallyCompactlySupportedOnShellFieldHistories}
@@ -529,7 +529,7 @@ $$
   }
 $$
 
-is a linear observable according to def. \ref{LinearObservables}. The [[distribution]]
+is a [[linear observable]] according to def. \ref{LinearObservables}. The [[distribution]]
 that it corresponds to under prop. \ref{LinearObservablesAreTheCompactlySupportedDistributions}
 is the _[[Dirac delta-distribution]]_ at the point $x$ combined with the [[Kronecker delta]] on the index $a$:
 In the [[generalized function]]-notation of remark \ref{LinearObservablesAsGeneralizedFunctions} this reads:
@@ -551,7 +551,7 @@ over [[Minkowski spacetime]] (def. \ref{MinkowskiSpacetime}),
 whose [[field bundle]] $E$ (def. \ref{FieldsAndFieldBundles}) is the [[trivial vector bundle|trivial]] [[real line bundle]]
 (as for the [[real scalar field]], example \ref{RealScalarFieldBundle}).
 This means that the [[off-shell]] [[space of field histories]] $\Gamma_\Sigma(E) \simeq C^\infty(\Sigma)$ (eq:SpaceOfFieldHistoriesOfRealScalarField) is the
-[[real vector space]] of [[smooth functions]] on [[Minkowski spacetime]] and that every linear observable $A$ (def. \ref{LinearObservables})
+[[real vector space]] of [[smooth functions]] on [[Minkowski spacetime]] and that every [[linear observable]] $A$ (def. \ref{LinearObservables})
 gives a [[linear function]]
 
 $$
@@ -893,7 +893,7 @@ $$
 
 
 
-The concept of linear observables naturally generalizes to that of [[multilinear map|multilinear observables]]:
+The concept of [[linear observables]] naturally generalizes to that of [[multilinear map|multilinear observables]]:
 
 +-- {: .num_defn #QuadraticObservables}
 ###### Definition
@@ -962,7 +962,7 @@ This notation makes manifest how the concept of  quadratic observables is a gene
 
 +-- {: .num_defn #PolynomialObservables}
 ###### Definition
-**([[polynomial]] [[off-shell]] [[observables]])**
+**([[off-shell]] [[polynomial observables]])**
 
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
 over a [[spacetime]] $\Sigma$
@@ -974,7 +974,7 @@ $$
   A \;\colon\; \Gamma_\Sigma(E) \longrightarrow \mathbb{C}
 $$
 
-is _[[polynomial]]_ if it is the [[sum]] of a constant, and a linear observable (def. \ref{LinearObservables}),
+is a _[[polynomial observable]]_ if it is the [[sum]] of a constant, and a [[linear observable]] (def. \ref{LinearObservables}),
 and a quadratic observable (def. \ref{QuadraticObservables}) and so on:
 
 $$
@@ -1007,12 +1007,12 @@ $$
   \end{aligned}
 $$
 
-For a [[free field theory]] we similarly have polynomial [[on-shell]] observables.
+For a [[free field theory]] we similarly have [[on-shell]] [[polynomial observables]].
 
 =--
 
 In summary, the above establishes that the [[Schwartz space|Schwartz]] theory of ([[compactly supported distributions|compactly supported]])
-[[distributions]] neatly applies to characterize smooth polynomial observables on the [[diffeological space|diffeological]]
+[[distributions]] neatly applies to characterize smooth [[polynomial observables]] on the [[diffeological space|diffeological]]
 [[space of field histories]] for a [[field bundle]] which is a [[vector bundle]].
 
 
@@ -1359,7 +1359,7 @@ is called the _[[causal propagator]]_.
 
 
 
-We now come to the main theorem on polynomial observables:
+We now come to the main theorem on [[polynomial observables]]:
 
 +-- {: .num_lemma #ExactSequenceOfGreenHyperbolicSystem}
 ###### Lemma
@@ -1661,7 +1661,7 @@ With this the second statement follows by prop. \ref{DistributionsOnSolutionSpac
 
 =--
 
-We will be interested in those linear observables which under the identification from theorem \ref{LinearObservablesForGreeFreeFieldTheoryAreDistributionalSolutionsToTheEquationsOfMotion} correspond to the [[non-singular distributions]] (because on these the [[Poisson-Peierls bracket]] of the theory is defined, theorem \ref{PPeierlsBracket} below):
+We will be interested in those [[linear observables]] which under the identification from theorem \ref{LinearObservablesForGreeFreeFieldTheoryAreDistributionalSolutionsToTheEquationsOfMotion} correspond to the [[non-singular distributions]] (because on these the [[Poisson-Peierls bracket]] of the theory is defined, theorem \ref{PPeierlsBracket} below):
 
 +-- {: .num_defn #RegularLinearFieldObservables}
 ###### Definition
@@ -1711,11 +1711,11 @@ $$
   \,.
 $$
 
-The point-evaluation field observables $\mathbf{\Psi}^a(x)$ (example \ref{PointEvaluationObservables}) are linear observables (example \ref{LinearPointEvaluationObservables}) but far from being regular (eq:RegularLinearObservables)
+The point-evaluation field observables $\mathbf{\Psi}^a(x)$ (example \ref{PointEvaluationObservables}) are [[linear observables]] (example \ref{LinearPointEvaluationObservables}) but far from being regular (eq:RegularLinearObservables)
 (except in [[spacetime]] [[dimension]] $p +1 = 0+1$). But the regular observables are precisely the
 averages ("smearings") of these point evaluation observables against compactly supported weights.
 
-Viewed this way, the defining inclusion of the regular linear observables (eq:RegularLinearObservables) is itself
+Viewed this way, the defining inclusion of the [[regular observable|regular]] [[linear observables]] (eq:RegularLinearObservables) is itself
 an _[[operator-valued distribution|observable valued distribution]]_
 
 $$
@@ -2665,7 +2665,7 @@ $\,$
 ###### Definition
 **([[star algebra]])**
 
-A _[[star ring]]_ is a [[ring]] $R$ equipped with 
+A _[[star ring]]_ is a [[ring]] $R$ equipped with
 
 * a [[linear map]]
 
@@ -2693,9 +2693,9 @@ $$
   f \;\colon\; R_1 \longrightarrow R_2
 $$
 
-which respects the star-[[involutions]] in that 
+which respects the star-[[involutions]] in that
 
-$$ 
+$$
   f \circ (-)^\ast \;=\; (-)^\dagger \circ f
   \,.
 $$
@@ -2741,14 +2741,14 @@ such that
 1. (linearity) this is a complex-[[linear map]]:
 
    $$
-     \left\langle 
+     \left\langle
        c_1 A_1 + c_2 A_2
      \right\rangle
      \;=\;
      c_1 \langle A_1 \rangle + c_2 \langle A_2 \rangle
    $$
 
-1. (positivity) for all $A \in Obs$ we have that 
+1. (positivity) for all $A \in Obs$ we have that
 
    $$
      \langle A^\ast A \rangle \geq 0 \;\in\; \mathbb{R}
@@ -2771,7 +2771,7 @@ such that
 ###### Remark
 **([[probability theory|probability theoretic]] interpretation of [[state on a star-algebra]])**
 
-A [[star algebra]] $\mathcal{A}$ (def. \ref{StarAlgebra}) equipped with a [[state on a star-algebra|state]] $\mathcal{A} \overset{\langle -\rangle}{\longrightarrow} \mathbb{C}$ (def. \ref{States}) is also called a _[[quantum probability space]]_, at least when $\mathcal{A}$ is in fact a [[von Neumann algebra]]. 
+A [[star algebra]] $\mathcal{A}$ (def. \ref{StarAlgebra}) equipped with a [[state on a star-algebra|state]] $\mathcal{A} \overset{\langle -\rangle}{\longrightarrow} \mathbb{C}$ (def. \ref{States}) is also called a _[[quantum probability space]]_, at least when $\mathcal{A}$ is in fact a [[von Neumann algebra]].
 
 For this interpretation we think of each element $A \in \mathcal{A}$ as an [[observable]] as in example \ref{StarAlgebraOfObservables} and of the state as assigning _[[expectation values]]_.
 
@@ -2795,7 +2795,7 @@ $$
     A &\mapsto& p \langle A \rangle_1 + (1-p) \langle A \rangle_2
   }
 $$
- 
+
 
 is a [[state on a star-algebra|state]].
 
@@ -2824,8 +2824,8 @@ For $\Omega$ classical [[probability space]], hence a [[measure space]] which no
 
 $$
   \array{
-    L^1(\Omega) 
-      &\overset{\langle (-)\rangle_\mu}{\longrightarrow}& 
+    L^1(\Omega)
+      &\overset{\langle (-)\rangle_\mu}{\longrightarrow}&
     \mathbb{C}
     \\
     A &\mapsto& \int_\Omega A d\mu
@@ -2861,18 +2861,18 @@ More general states in this case are given by [[density matrices]].
 ###### Theorem
 **([[GNS construction]])**
 
-Given 
+Given
 
 1. a [[star-algebra]], $\mathcal{A}$ (def. \ref{StarAlgebra});
 
 1. a [[state on a star-algebra|state]], $\langle (-)\rangle \;\colon\; \mathcal{A} \to \mathbb{C}$ (def. \ref{StateOnAStarAlgebra})
 
-there exists 
+there exists
 
 1. a [[star-representation]]
 
    $$
-     \pi 
+     \pi
      \;\colon\;
      \mathcal{A}
       \longrightarrow
@@ -2881,7 +2881,7 @@ there exists
 
    of $\mathcal{A}$ on some [[Hilbert space]] $\mathcal{H}$
 
-1. a [[cyclic vector]] $\psi \in \mathcal{H}$ 
+1. a [[cyclic vector]] $\psi \in \mathcal{H}$
 
 such that $\langle (-)\rangle$ is the state corresponding to $\psi$ via example \ref{ElementsOfHilbertSpaceAsPureStates}, in that
 
