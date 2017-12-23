@@ -2,12 +2,14 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Physics
+#### Algebraic Quantum Field Theory
 +--{: .hide}
-[[!include physicscontents]]
+[[!include AQFT and operator algebra contents]]
 =--
 =--
 =--
+
+
 
 #Contents#
 * table of contents
@@ -220,5 +222,5 @@ The original paper outlining [[Bell's theorem]] is
 
 The original paper outlining [[Gleason's theorem]] is
 
-* A.M. Gleason, _Measures on the closed subspaces of a Hilbert space_, Journal of Mathematics and Mechanics,  Indiana Univ. Math. J. 6 No. 4 (1957), 885&#8211;893 ([web](http://www.iumj.indiana.edu/IUMJ/FULLTEXT/1957/6/56050))
-  {#Gleason57}
+* {#Gleason57} A. M. Gleason, _Measures on the closed subspaces of a Hilbert space_, Journal of Mathematics and Mechanics,  Indiana Univ. Math. J. 6 No. 4 (1957), 885&#8211;893 ([web](http://www.iumj.indiana.edu/IUMJ/FULLTEXT/1957/6/56050))
+  
