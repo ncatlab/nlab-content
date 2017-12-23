@@ -52,9 +52,9 @@ $$
 
 which is _positive_ in that $\langle A^\ast A\rangle \geq 0$ and _normalized_ in that $\langle 1\rangle = 1$.   Under suitable conditions a [[Hilbert space|Hilbert]] [[space of states]] may be (re-)constructed from this *a posteriori* via the _[[GNS construction]]_. 
 
-Traditionally this definition is considered for [[algebras of observables]] which are [[C*-algebras]] (as usually required for [[non-perturbative quantum field theory]], see e.g. [Fredenhagen 03, section 2](#Fredenhagen03)), but the definition makes sense generally for plain [[star-algebras]], such as for instance for the [[formal power series algebras]] that appear in [[perturbative quantum field theory]] (e.g. [Bordemann-Waldmann 96, def. 1](#BordemannWaldmann96), [Fredenhagen-Rejzner 12, def. 2.4](#FredenhagenRejzner12), [Khavkine-Moretti 15, def. 6](#KhavkineMoretti15)).
+Traditionally this definition is considered for [[algebras of observables]] which are [[C*-algebras]] (as usually required for [[non-perturbative quantum field theory]], see e.g. [Fredenhagen 03, section 2](#Fredenhagen03)), but the definition makes sense generally for plain [[star-algebras]], such as for instance for the [[formal power series algebras]] that appear in [[perturbative quantum field theory]] (e.g. [Bordemann-Waldmann 96, def. 1](#BordemannWaldmann96), [Fredenhagen-Rejzner 12, def. 2.4](#FredenhagenRejzner12), [Khavkine-Moretti 15, def. 6](#KhavkineMoretti15), [Dütsch 18, def. 2.11](#Duetsch18)).
 
-The perspective that states are normalized positive linear functionals on the algebra of observables is implicit in traditional [[perturbative quantum field theory]], where it is encoded in the [[2-point function]] corresponding to a [[vacuum state]] or more generally a [[quasi-free quantum state]] (the _[[Hadamard propagator]]_).  The perspective is made explicit in [[algebraic quantum field theory]] (see e.g. [Fredenhagen 03, section 2](#Fredenhagen03)) and for [[star-algebras]] of observables that are not necessarily [[C*-algebras]] in [[perturbative algebraic quantum field theory]] (e.g. [Bordemann-Waldmann 96](#BordemannWaldmann96), [Fredenhagen-Rejzner 12, def. 2.4](#FredenhagenRejzner12), [Khavkine-Moretti 15, def. 6](#KhavkineMoretti15)).
+The perspective that states are normalized positive linear functionals on the algebra of observables is implicit in traditional [[perturbative quantum field theory]], where it is encoded in the [[2-point function]] corresponding to a [[vacuum state]] or more generally a [[quasi-free quantum state]] (the _[[Hadamard propagator]]_).  The perspective is made explicit in [[algebraic quantum field theory]] (see e.g. [Fredenhagen 03, section 2](#Fredenhagen03)) and for [[star-algebras]] of observables that are not necessarily [[C*-algebras]] in [[perturbative algebraic quantum field theory]] (e.g. [Bordemann-Waldmann 96](#BordemannWaldmann96), [Fredenhagen-Rejzner 12, def. 2.4](#FredenhagenRejzner12), [Khavkine-Moretti 15, def. 6](#KhavkineMoretti15), [Dütsch 18, def. 2.11](#Duetsch18)).
 
 
 
@@ -303,6 +303,9 @@ More general states in this case are given by [[density matrices]].
 * {#Rejzner16} [[Katarzyna Rejzner]], section 2.1.2 of _Perturbative Algebraic Quantum Field Theory_, Mathematical Physics Studies, Springer 2016 ([web](https://link.springer.com/book/10.1007%2F978-3-319-25901-7))
 
 * {#FredenhagenLindner13} [[Klaus Fredenhagen]], Falk Lindner, _Construction of KMS States in Perturbative QFT and Renormalized Hamiltonian Dynamics_, Communications in Mathematical Physics Volume 332, Issue 3, pp 895-932, 2014-12-01 ([arXiv:1306.6519](https://arxiv.org/abs/1306.6519))
+
+
+* {#Duetsch18} [[Michael Dütsch]], section 2.5 of _[[From classical field theory to perturbative quantum field theory]]_, 2018
 
 
 For more references see at _[[operator algebra]]_.
