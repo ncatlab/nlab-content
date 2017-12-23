@@ -17,7 +17,7 @@
 
 ## Idea
 
-In [[perturbative quantum field theory]] the _Stückelberg-Petermann renormalization group_ ([Stückelberg-Petermann 53](#StiecelbergPetermann53)) is the incarnation of the [[renormalization]] [[group]] in the perspective of [[causal perturbation theory]]: It is a group if formal deformation of [[interaction]] [[Lagrangian densities]] which is such that any two choices of [[renormalization|renormalized]] perturbative [[S-matrices]] differ by precomposition with a unique group element. This is the statement of the [[main theorem of perturbative renormalization]].
+In [[perturbative quantum field theory]] the _Stückelberg-Petermann renormalization group_ ([Stückelberg-Petermann 53](#StiecelbergPetermann53)) is the incarnation of the [[renormalization]] [[group]] in the perspective of [[causal perturbation theory]]: It is a group of formal deformation of [[interaction]] [[Lagrangian densities]] which is such that any two choices of [[renormalization|renormalized]] perturbative [[S-matrices]] differ by precomposition with a unique group element. This is the statement of the [[main theorem of perturbative renormalization]].
 
 A priori the Stückelberg-Petermann renormalization group is not related to [[scale transformation]] as in the Wilsonian picture of [[effective field theories]], but a relation exists ([Gell-Mann & Low 54](#GellMannLow54)) see [Dütsch 18, section 3.5.3](#Duetsch18)
 
