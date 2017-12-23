@@ -50,7 +50,7 @@ Review is in
 
 * {#Rejzner16} [[Katarzyna Rejzner]], section 6.3 of _Perturbative Algebraic Quantum Field Theory_, Mathematical Physics Studies, Springer 2016 ([web](https://link.springer.com/book/10.1007%2F978-3-319-25901-7))
 
-* [[Michael Dütsch]], section 3.5.2 of _From classical field theory
-to perturbative quantum field theory_
+* [[Michael Dütsch]], section 3.5.2 of _[[From classical field theory
+to perturbative quantum field theory]]_, 2018
 
 
