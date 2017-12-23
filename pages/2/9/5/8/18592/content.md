@@ -20,7 +20,7 @@
 {:toc}
 
 
-# Idea
+## Idea
 
 In [[quantum field theory]] a _vacuum state_ is supposed to be a [[quantum state]] that expresses the absence of any [[particle]] excitations of the fields.
 
@@ -45,6 +45,7 @@ However, since on a general [[globally hyperbolic spacetime]] there is no global
 
 * {#BrumFredenhagen13} Marcos Brum, [[Klaus Fredenhagen]], _"Vacuum-like" Hadamard states for quantum fields on curved spacetimes_ ([arXiv:1307.0482](https://arxiv.org/abs/1307.0482))
 
+* {#Duetsch18} [[Michael Dütsch]], def. 2.12 in _[[From classical field theory to perturbative quantum field theory]]_, 2018
 
 
 [[!redirects vacuum states]]
