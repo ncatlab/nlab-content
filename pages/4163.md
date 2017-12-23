@@ -131,7 +131,10 @@ Quantization of [[gauge theories]] ([[Yang-Mills theory]]) in [[causal perturbat
 
 and surveyed in
 
-* {#Rejzner16} [[Kasia Rejzner]], section 7 of _Perturbative algebraic quantum field theory_ Springer 2016
+* {#Rejzner16} [[Kasia Rejzner]], section 7 of _[[Perturbative Algebraic Quantum Field Theory]]_, Springer 2016
+
+* {#Duetsch18} [[Michael Dütsch]], _[[From classical field theory to perturbative quantum field theory]]_, 2018
+
 
 
 
