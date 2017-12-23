@@ -6,6 +6,10 @@
 +-- {: .hide}
 [[!include measure theory - contents]]
 =--
+#### Deduction and Induction
++-- {: .hide}
+[[!include deduction and induction - contents]]
+=--
 =--
 =--
 
@@ -94,6 +98,10 @@ Of course, exchangeability may not represent the strength of one's prior beliefs
 
 * {#BBF} A. Bach, H. Blank, H. Francke, _Bose-Einstein statistics derived from the statistics of classical particles_, Lettere Al Nuovo Cimento Series 2, Volume 43, Issue 4, pp 195-198.
 
+See also 
+
+* Wikipedia, _[Bayesian inference](https://en.wikipedia.org/wiki/Bayesian_inference)_
+
 Placing Bayesian inference in a category theoretic setting occurs in
 
 * [[Kirk Sturtz]] _Bayesian Inference using the Symmetric Monoidal Closed Category Structure_, ([ arXiv:1601.02593](https://arxiv.org/abs/1601.02593))
@@ -111,3 +119,7 @@ Discussion of applications in [[astronomy]] and [[cosmology]] includes
 [[!redirects Bayesian induction]]
 [[!redirects Bayesian probability]]
 [[!redirects Bayesianism]]
+
+
+[[!redirects Bayesian inference]]
+[[!redirects Bayesian inferences]]
