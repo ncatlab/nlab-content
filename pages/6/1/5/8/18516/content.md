@@ -337,6 +337,8 @@ $$
 
 * [[Katarzyna Rejzner]], section 4.4.1 of _Perturbative Algebraic Quantum Field Theory_, Mathematical Physics Studies, Springer 2016 ([pdf](https://link.springer.com/book/10.1007%2F978-3-319-25901-7))
 
+* {#Duetsch18} [[Michael Dütsch]], def. 1.2 in _[[From classical field theory to perturbative quantum field theory]]_, 2018
+
 
 [[!redirects microcausal functionals]]
 [[!redirects microcausal functionals]]
