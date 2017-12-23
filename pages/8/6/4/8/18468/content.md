@@ -108,7 +108,7 @@ When comparing with the bulk of the literature, the reader should beware that mo
 That this algorithm in fact constructs the [[formal deformation quantization]] of the covariant phase space of the given local Lagrangian density $L$ was understood only very recently in ([Collini 16](#Collini16)) (for [[phi^4 theory]] of the [[scalar field]]) and in ([Hawkins-Rejzner 16](#HawkinsRejzner16)) (for the [[scalar field]] with regular non-local interaction terms).
 
 There are choices to be made in finding this deformation quantization. In ([Collini 16](#Collini16)) these are parameterized as the choices of initial conditions in the [[induction|inductive]] construction of [[Fedosov's deformation quantization]] and shown to be equivalent to the choices of causal splitting of distributions in the above algorithm of [[causal perturbation theory]] due to [Epstein-Glaser 73](#EpsteinGlaser73), which in turn equivalently are the choices known as _[[renormalization]]_ coefficients in traditional perspectives to perturbative quantum field theory (which in a mathematically rigorous approach might better be called "normalization" coefficients as in [Scharf 95, section 4.3](#Scharf95)).
-The [[main theorem of perturbative renormalization]] states that the space of these choices is a [[torsor]] over a [[group]], called the [[Stückelberg-Peterson renormalization group]].
+The [[main theorem of perturbative renormalization]] states that the space of these choices is a [[torsor]] over a [[group]], called the [[Stückelberg-Petermann renormalization group]].
 
 Finally notice that there is also a choice involved in restricting attention to the [[microcausal functionals]] inside the algebra of all smooth functions on phase space. For deformation quantization on finite-dimensional manifolds it is understood that the full algebra of smooth functions is to be quantized, but for the infinite-dimensional phase space of field theory the full algebra of functions does not even support the [[Poisson bracket]] which is to be deformed. The subalgebra of microcausal functionals just happens to be technically under control, closed under the Poisson bracket, and large enough to contain the point-interaction terms that are relevant in quantum field theories observed in nature ([[QED]], [[QCD]], [[perturbative quantum gravity]]). It seems to be unclear and in fact un-studied what a lift of the whole program to larger subalgebras would mean or entail.
 
@@ -142,8 +142,9 @@ Survey and exposition of locally covariant algebraic quantum field theory beyond
 
 * [[Klaus Fredenhagen]], _Quantum field theory and gravitation_, talk at closing colloquium of trimester "Le Monde Quantique", IHES April 2015 ([pdf](https://indico.math.cnrs.fr/event/782/material/slides/1.pdf))
 
-* {#Rejzner16} [[Katarzyna Rejzner]], _Perturbative Algebraic Quantum Field Theory_, Mathematical Physics Studies, Springer 2016 ([web](https://link.springer.com/book/10.1007%2F978-3-319-25901-7))
+* {#Rejzner16} [[Katarzyna Rejzner]], _[[Perturbative Algebraic Quantum Field Theory]]_, Mathematical Physics Studies, Springer 2016 ([web](https://link.springer.com/book/10.1007%2F978-3-319-25901-7))
 
+* {#Duetsch18} [[Michael Dütsch]], _[[From classical field theory to perturbative quantum field theory]]_, 2018
 
 
 ### Original articles
