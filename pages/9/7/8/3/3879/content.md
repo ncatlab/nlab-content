@@ -74,6 +74,24 @@ The version of this belief in the necessity of deep mathematics for physics to b
 
 ## References and links
 
+* {#Dirac78} [[Paul Dirac]], _The mathematical foundations of quantum theory_, pages 1-8 in A. R. Marlow (ed.) _Mathematical Foundations of Quantum Theory_, Ac. Press 1978
+
+> "One should keep the need for a sound mathematical basis dominating one’s search 
+for a new theory. Any physical or philosophical ideas that one has must be adjusted to  fit the mathematics. Not the way round. 
+
+> Too many physicists are inclined to start from some preconceived physical ideas 
+and then to try to develop them and ?nd a mathematical scheme that incorporates them.  Such a line of attack is unlikely to lead to success. One runs into difficulties and ?nds no  reasonable way out of them. One ought then to realize that one’s whole line of approach  is wrong and to seek a new starting point with a sound mathematical basis."
+
+
+* {#Geroch85} [[Robert Geroch]], _Mathematical Physics_, Chicago 1985
+
+  (introduces concepts via [[categories]])
+
+* {#Matolcsi86} [[Tamás Matolcsi]], _A Concept of Mathematical Physics_
+
+  _Models for spacetimes_, Akad&eacute;miai Kiad&oacute;, 1984 ([djvu]( http://szofi.elte.hu/~szaboa/MatolcsiKonyvek/djvu/konyv/spacetime_ocr.djvu))
+
+  _Models in Mechanics_, Akad&eacute;miai Kiad&oacute;, 1986 ([djvu](http://szofi.elte.hu/~szaboa/MatolcsiKonyvek/djvu/konyv/mechanics_ocr.djvu))
 
 * {#Fadeev00} [[Ludwig Faddeev]], _Modern Mathematical Physics: what it should be?_, in Fokos, Grigoryan, Kibble, Zegarlinski (eds) _Mathematical Physics 2000_, World Scientific (2000) ([arXiv:math-ph/0002018](https://arxiv.org/abs/math-ph/0002018))
 
