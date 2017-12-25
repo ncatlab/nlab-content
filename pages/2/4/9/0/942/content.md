@@ -120,7 +120,7 @@ For more on this see at _[[p-adic integers]]_, at _[[adele]]_ and _[[idele]]_.
 Profinite completion of groups is a special case of a general process that 'completes' a category together with a 'forgetful functor' to some 'base' category, replacing it by a category which is equational/monadic over the base.
 
 *  D. Gildenhuys and J. Kennison, _Equational completions, model induced 
-triples and pro-objects_, J. Pure Applied Alg., 4, (1971), 317&#8211;346.
+triples and pro-objects_, J. Pure Applied Alg., 1(4), (1971), 317&#8211;346.
 
 ### Profinite rings 
 
