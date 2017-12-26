@@ -37,7 +37,7 @@ Here $K^I$ is the [[functor category]] and $D'\colon I\times K^I\to C$ is obtain
 $$ lim_I D'(-,s) \to D'(i,s) = D(i,s(i)) \to colim_K D(i,-) $$
 of the limit projection for $i\in I$ and the colimit injection for $c(i)\in K$.  We say that **$I$-limits distribute over $K$-colimits** if $h$ is an isomorphism for any $D$.
 
-More generally, we can allow $K$ to vary with $i$, becoming a functor $K\colon I\to Cat$.  Now instead of $K^I$ we use the limit category $lim_I K$.  We recover the above definition when $K$ is a [[constant functor]].
+More generally, we can allow $K$ to vary with $i$, becoming a functor $K\colon I\to Cat$.  Now instead of $K^I$ we use the limit category $lim_I K$, and the diagram $D$ is defined on the [[Grothendieck construction]] ([[lax colimit]]) $\int^I K$.  We recover the above definition when $K$ is a [[constant functor]].
 
 If $\mathcal{K}$ is a class of small categories rather than a single one, we say that **$I$-limits distribute over $\mathcal{K}$-colimits** in a category $C$ if the corresponding map is an isomorphism for any $K:I\to Cat$ taking values in $\mathcal{K}$.  For instance, if $\mathcal{K}$ is the class of all [[discrete categories]], we obtain the notion of $I$-limits distributing over coproducts, and so on.  If instead $I$-limits distribute over $K$-colimits for any single $K\in \mathcal{K}$, we may say instead that "$I$-limits distribute over uniform $K$-limits."
 
@@ -143,12 +143,18 @@ that preserve sifted colimits.
 
 When the definition for Kan extensions is internalized to internal categories and fibrations, and then specialized to the case of discrete categories, the notion of distributivity of dependent products over dependent sums encoded by a [[distributivity pullback]] becomes the statement that in the [[codomain fibration]], [[indexed products]] distribute over [[indexed coproducts]] in this sense.
 
+### Pullback-stable colimits
+
+As a nontrivial example of the $K\colon I\to Cat$ case, let $I$ be the [[walking structure|walking]] [[cospan]] $0 \to 1 \leftarrow 2$, and let $K(0) = J$ for some category $J$ while $K(1)=K(2)=\ast$, the [[terminal category]].  Then $\int^I K$ is $J$ together with a new terminal object $1$ and a new object $2$ having only a map to $1$, and so a diagram $D: \int^I K \to C$ consists of a $J$-diagram $D_0$ in a slice category $C/Z$ over some object $Z$ along with a morphism $f:Z\to Y$.  The limit category $\lim_I K$ is isomorphic to $J$, and the functor $D'\colon I\times \lim_I K\to C$ has $D'(0,j) = D_0(j)$, with $D'(1,j) =Z$ and $D'(2,j)=Y$.  Therefore, $\colim_{\lim_I K} \lim_I D'$ is the $J$-colimit of the pullback of $D_0$ along $f$, while $\lim_{i\in I} \colim_{K(i)} D$ is the pullback along $f$ of the colimit of $D_0$.  Thus, the distributivity condition for this $K$ holds if and only if $J$-colimits are [[universal colimit|universal]] (stable under pullback).
+
+
 ## Related entries
 
 * [[commutativity of limits and colimits]]
 * [[distributivity pullback]]
 * [[distributive law]]
 * [[distributivity for monoidal structures]]
+* [[universal colimit]]
 
 ## References
 
