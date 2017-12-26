@@ -109,7 +109,7 @@ For a discussion of this in the finite-dimensional case see for instance ([Vicar
  {#Properties}
 
 $C^*$-algebras are [[monadic]] over sets. 
-More precisely, the forgetful functor $\mathbf{C^*Alg}\to\mathbf{Set}$ that assigns to each algebra the set of points in its unit ball is monadic. See J Wick Pelletier & J Rosicky, On the equational theory of $C*$-algebras, Algebra Universalis 30:275-284, 1993.
+More precisely, the forgetful functor $\mathbf{C^*Alg}\to\mathbf{Set}$ that assigns to each algebra the set of points in its unit ball is monadic. See J Wick Pelletier & J Rosicky, On the equational theory of $C^*$-algebras, Algebra Universalis 30:275-284, 1993.
 
 See also [[operator algebras]].
 
@@ -126,7 +126,7 @@ The [[Gelfand-Naimark-Segal construction]] ([[GNS construction]]) establishes a 
 
 ### Gelfand duality
 
-[[Gelfand duality]] says that every ([[unital algebra|unital]]) _[[commutative C-star-algebra|commutative]]_ $C^*$-algebra over the [[complex numbers]] is that of complex-valued [[continuous functions]] from some [[compactum|compact Hausdorff topological space]]: there is an [[equivalence of categories]] $C^* CAlg_{com} \simeq $ [[Top]]${}_{cpt}$.
+[[Gelfand duality]] says that every ([[unital algebra|unital]]) _[[commutative C-star-algebra|commutative]]_ $C^*$-algebra over the [[complex numbers]] is that of complex-valued [[continuous functions]] from some [[compactum|compact Hausdorff topological space]]: there is an [[equivalence of categories]] $C^* CAlg \simeq $ [[Top]]${}_{cpt}$.
 
 Accordingly one may think of the study of non-commutative $C^\ast$-algebras as _[[non-commutative topology]]_.
 
