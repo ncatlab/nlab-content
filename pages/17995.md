@@ -19,7 +19,7 @@ Given a [[bundle]] $p \colon E \to X$, and a morphism $f \colon Y \to X$, then t
 
 ## Universal bundles
 
-Over a [[paracompact topological space]] then every [[vector bundle]] is [[isomorphism|isomorphic]] to a pullback bundle of a [[universal vector bundle]] over a [[classifying space]]. See there for more.
+Over a [[paracompact topological space]] every [[vector bundle]] is [[isomorphism|isomorphic]] to a pullback bundle of a [[universal vector bundle]] over a [[classifying space]]. See there for more.
 
 
 [[!redirects pullback bundles]]
