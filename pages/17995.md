@@ -21,6 +21,11 @@ Given a [[bundle]] $p \colon E \to X$, and a morphism $f \colon Y \to X$, then t
 
 Over a [[paracompact topological space]] every [[vector bundle]] is [[isomorphism|isomorphic]] to a pullback bundle of a [[universal vector bundle]] over a [[classifying space]]. See there for more.
 
+## Related concepts
+
+* [[fiber product]]
+
+* [[base change]]
 
 [[!redirects pullback bundles]]
 
