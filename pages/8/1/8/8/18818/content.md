@@ -2025,15 +2025,15 @@ Write $\Gamma_{\Sigma}(E)$ for the [[space of sections|spaces of smooth sections
 
 $$
   \begin{aligned}
-    \Gamma_{cp}(E) & \text{compact support}
+    \Gamma_{cp}(E) & \,\text{compact support}
     \\
-    \Gamma_{\Sigma,\pm cp}(E) & \text{compactly sourced future/past support}
+    \Gamma_{\Sigma,\pm cp}(E) & \,\text{compactly sourced future/past support}
     \\
-    \Gamma_{\Sigma,scp}(E) & \text{spacelike compact support}
+    \Gamma_{\Sigma,scp}(E) & \,\text{spacelike compact support}
     \\
-    \Gamma_{\Sigma,(f/p)cp}(E) & \text{future/past compact support}
+    \Gamma_{\Sigma,(f/p)cp}(E) & \,\text{future/past compact support}
     \\
-    \Gamma_{\Sigma,tcp}(E) & \text{timelike compact support}
+    \Gamma_{\Sigma,tcp}(E) & \,\text{timelike compact support}
   \end{aligned}
 $$
 
