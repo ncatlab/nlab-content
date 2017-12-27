@@ -65,10 +65,10 @@ $$
 where 
 
 $$
-  \alpha^{(k)} \in \Gamma'_{\Sigma^k}((E^\ast)^{\boxtimes^k})
+  \alpha^{(k)} \in \Gamma'_{\Sigma^k}\left((E^\ast)^{\boxtimes^k_{sym}} \right)
 $$
 
-is a [[compactly supported distribution]] [[distribution of two variables|of k variables]] on the $k$-fold [[external tensor product of vector bundles]] of the [[field bundle]] with itself.
+is a [[compactly supported distribution]] [[distribution of two variables|of k variables]] on the $k$-fold graded-symmetric [[external tensor product of vector bundles]] of the [[field bundle]] with itself.
 
 =--
 
