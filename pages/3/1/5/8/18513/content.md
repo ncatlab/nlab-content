@@ -133,7 +133,8 @@ $$
     \\
     & \phantom{=} + 
     \int \int 
-      \alpha^{(2)}_{a_1 a_2}(x_1, x_2) \Phi^{a_1 a_2}(x_1, x_2)
+      \alpha^{(2)}_{a_1 a_2}(x_1, x_2) 
+       \Phi^{a_1}(x_1) \Phi^{a_2}(x_2)
       \, dvol_\Sigma(x_1)
       \, dvol_\Sigma(x_2)
     \\
@@ -257,12 +258,24 @@ $$
   A_1 \star_H A_2
   \;=\;
   A_1 \cdot A_2
-  +
-  i \hbar \left\{ A_1, a_2\right\}
+  \;mod\;
+  \hbar
+$$
+
+and
+
+$$
+  A_1 \star_H A_2
+  -
+  A_2 \star_H a_1
+  \;=\;
+  i \hbar \{A_1, A_2\}
   \;mod\;
   \hbar^2
   \,.
 $$
+
+
 
 =--
 
@@ -272,6 +285,62 @@ $$
 ###### Proof
 
 By prop. \ref{MoyalStarProductOnMicrocausal} this is immediate from the general properties of the [[star product]] ([this example](A+first+idea+of+quantum+field+theory+--+Quantization#MoyalStarProductIsFormalDeformationQuantization)). 
+
+Explicitly, let, without restriction of generality, $A_1 = \int (\alpha_1)_a(x) \mathbf{\Phi}^a(x)\, dvol_\Sigma(x)$ and $A_2 = \int (\alpha_2)_a(x) \mathbf{\Phi}^a(x)\, dvol_\Sigma(x)$ be two linear observables. Then
+
+$$
+  \begin{aligned}
+    A_1 \star_H A_2
+    & =
+    A_1 A_2 
+    +
+    \hbar 
+    \int \left( \tfrac{i}{2} \Delta^{a_1 a_2}(x_1, x_2) + H^{a_1 a_2}(x_1,x_2)  
+      \frac{\partial A_1}{\partial \mathbf{\Phi}^{a_1}(x_1)}
+      \frac{\partial A_2}{\partial \mathbf{\Phi}^{a_2}(x_2)}
+   \right) 
+    \;mod\;
+    \hbar^2  
+   \\
+   & = 
+   A_1 A_2 
+   + 
+   \hbar 
+   \left(
+    \int 
+      (\alpha_1)_{a_1}(x_1)
+      \left(
+       \tfrac{i}{2}\Delta^{a_1 a_2}(x_1, x_2)
+       + H^{a_1 a_2}(x_1, x_2)
+      \right)
+      (\alpha_2)_{a_2}(x_2)
+   \right)
+   \;mod\;
+   \hbar^2
+  \end{aligned}
+$$
+
+Now since $\Delta$ is skew-symmetric, while $H$ is symmetric is follows that
+
+$$
+  A_1 \star_H A_2
+  - 
+  A_2 \star_H A_1
+  =
+  i \hbar 
+  \left(
+   \int 
+     (\alpha_1)_{a_1}(x_1)
+     \Delta^{a_1 a_2}(x_1, x_2)
+     (\alpha_2)_{a_2}(x_2)
+  \right)
+  \;mod\;
+  \hbar^2
+  \,.
+$$
+
+The right hand side is the [[integral kernel]]-expression for the [[Poisson-Peierls bracket]].
+
 
 =--
 
