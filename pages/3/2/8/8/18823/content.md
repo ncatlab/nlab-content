@@ -1541,7 +1541,7 @@ is equivalently a [[distribution|distributional section]] (def. \ref{Distributio
 whose [[support of a distribution|support]] is spacelike compact (def. \ref{CompactlySourceCausalSupport}, prop. \ref{DistributionsWithCausalSupports})
 
 $$
-  u \in \Gamma'_{\Sigma,scp}(E^\ast)
+  u \in \Gamma'_{\Sigma,scp}(E)
 $$
 
 and which is a [[distributional solution of a PDE|distributional solution]] (def. \ref{DistributionalDerivatives}) to the differential equation
@@ -1561,7 +1561,7 @@ is equivalently a [[distribution|distributional section]] (def. \ref{Distributio
 without constraint on its [[support of a distribution|distributional support]]
 
 $$
-  u \in \Gamma'_{\Sigma}(E^\ast)
+  u \in \Gamma'_{\Sigma}(E)
 $$
 
 and which is a [[distributional solution of a PDE|distributional solution]] (def. \ref{DistributionalDerivatives}) to the differential equation
@@ -1614,13 +1614,12 @@ whose [[Euler-Lagrange equation|Euler-Lagrange]] [[differential equation|differe
 or the [[Dirac equation]] (example \ref{GreenHyperbolicDiracOperator}). Then:
 
 1. The linear off-shell observables (def. \ref{LinearObservables}) are equivalently the
-   [[compactly supported distribution|compactly supported distributional sections]]  (def. \ref{DistributionalSections})
-   of the [[dual vector bundle]] (def. \ref{DualVectorBundle}) of the [[field  bundle]]:
+   [[compactly supported distribution|compactly supported distributional sections]]  (def. \ref{DistributionalSections}) of the [[field  bundle]]:
 
    $$
      LinObs(E)
       \;\simeq\;
-     \Gamma'_{\Sigma,cp}(E^\ast)
+     \Gamma'_{\Sigma,cp}(E)
    $$
 
 1. The linear on-shell [[observables]] (def. \ref{LinearObservables}) are equivalently
@@ -1629,9 +1628,9 @@ or the [[Dirac equation]] (example \ref{GreenHyperbolicDiracOperator}). Then:
 
    $$
      LinObs(E,\mathbf{L})
-      \;\underoverset{\simeq}{\phantom{A} \mathrm{G}_P \phantom{A}}{\longleftarrow}\;
+      \;\underoverset{\simeq}{\phantom{A}(-)\circ\mathrm{G}_P \phantom{A}}{\longrightarrow}\;
      \left\{
-       A \in \Gamma'_{\Sigma,scp}(E^\ast)
+       A \in \Gamma'_{\Sigma,scp}(E)
        \;\vert\;
        P^\ast A = 0
      \right\}
@@ -1641,9 +1640,9 @@ or the [[Dirac equation]] (example \ref{GreenHyperbolicDiracOperator}). Then:
 
    $$
      LinObs(E_{scp},\mathbf{L})
-      \;\underoverset{\simeq}{\phantom{A} \mathrm{G}_P \phantom{A}}{\longleftarrow}\;
+      \;\underoverset{\simeq}{\phantom{A}(-) \circ \mathrm{G}_P \phantom{A}}{\longrightarrow}\;
      \left\{
-       A \in \Gamma'_{\Sigma}(E^\ast)
+       A \in \Gamma'_{\Sigma}(E)
        \;\vert\;
        P^\ast A = 0
      \right\}
@@ -1673,7 +1672,7 @@ Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]]
 Define the _[[regular linear observable|regular]]_ [[linear observables]] among the linear on-shell observables (def. \ref{LinearObservables}) to be the [[non-singular distributions]] on the [[on-shell]] [[space of field histories]], hence the [[image]]
 
 $$
-  LinObs(E_{scp},\mathbf{L})^{reg}
+  LinObs(E_{scp},\mathbf{L})_{reg}
     \hookrightarrow
   LinObs(E_{scp},\mathbf{L})
 $$
@@ -1696,7 +1695,7 @@ $$
     \left(
       \Phi
         \mapsto
-      \underset{\Sigma}{\int} \alpha^\ast_a(x) \cdot \Phi^a(x)
+      \underset{\Sigma}{\int} \alpha^\ast_a(x) \Phi^a(x)
        \, dvol_\Sigma(x)
     \right)
   }
@@ -1706,7 +1705,7 @@ By lemma \ref{ExactSequenceOfGreenHyperbolicSystem} every $\Phi \in \Gamma_{\Sig
 
 $$
   \label{RegularLinearObservablesAreCompactlySupportedSectionsModuloImageOfP}
-  LinObs(E_{scp},\mathbf{L})^{reg}
+  LinObs(E_{scp},\mathbf{L})_{reg}
    \;\simeq\;
   \Gamma_{\Sigma,scp}(E^\ast)/im(P)
   \,.
