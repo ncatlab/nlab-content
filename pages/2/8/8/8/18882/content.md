@@ -17,7 +17,7 @@
 
 ## Idea
 
-Give a [[field theory]] (for instance a [[Lagrangian field theory]]) whose [[field bundle]] is a [[vector bundle]], then the [[space of sections]] of the field bundle, hence the [[space of field histories]] is canonically a [[vector space]] and hence it makes sense to consider [[observables]] which are [[linear functions]], or [[quadratic functions]] of the [[field histories]], etc. A [[sum]] of such is a _polynomial observable_.
+Give a [[field theory]] (for instance a [[Lagrangian field theory]]) whose [[field bundle]] is a [[vector bundle]], then the [[space of sections]] of the field bundle, hence the [[space of field histories]], is canonically a [[vector space]] and hence it makes sense to consider [[observables]] which are [[linear functions]], or [[quadratic functions]] of the [[field histories]], etc. A [[sum]] of such is a _polynomial observable_.
 
 Since linear smooth observables are [[compactly supported distributions]] (see at _[[distributions are the smooth linear functionals]]_) polynomial observables are sums of [[diagonals]] of [[distributions of several variables]].
 
@@ -31,7 +31,7 @@ Of all the distributional coefficients at order $k$ satisfy the condition that t
 ###### Definition
 **([[polynomial observable]])**
 
-Let $E \overset{fb}{\to}$ be [[field bundle]] which is a [[vector bundle]]. An ([[off-shell]]) _[[polynomial observable]]_ is a [[smooth function]]
+Let $E \overset{fb}{\to}$ be [[field bundle]] which is a [[vector bundle]]. An [[off-shell]] _[[polynomial observable]]_ is a [[smooth function]]
 
 $$
   A 
@@ -69,6 +69,32 @@ $$
 $$
 
 is a [[compactly supported distribution]] [[distribution of two variables|of k variables]] on the $k$-fold graded-symmetric [[external tensor product of vector bundles]] of the [[field bundle]] with itself.
+
+Write 
+
+$$
+  PolyObs(E) \hookrightarrow Obs(E)
+$$
+
+for the [[subspace]] of off-shell polynomial observables onside all off-shell [[observables]].
+
+Let moreover $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]] whose [[equations of motion]] are [[Green hyperbolic differential equations]]. Then an _[[on-shell]] polynomial observable_ is the [[restriction]] of an off-shell polynomial observable along the inclusion of the [[on-shell]] [[space of field histories]] $\Gamma_{\Sigma}(E)_{\delta_{EL}\mathbf{L} = 0} \hookrightarrow \Gamma_\Sigma(E)$. Write
+
+$$
+  PolyObs(E,\mathbf{L}) \hookrightarrow Obs(E,\mathbf{L})
+$$
+
+for the subspace of all on-shell polynomial observables inside all on-shell [[observables]].
+
+
+By [this prop.](Green+hyperbolic+partial+differential+equation#DistributionsOnSolutionSpaceAreTheGeneralizedPDESolutions) restriction yields an [[isomorphism]] between polynomial on-shell observables and polynomial off-shell observables modulo the image of the [[differential operator]] $P$:
+
+$$
+  PolyObs(E,\mathbf{L})
+    \underoverset{\simeq}{\text{restriction}}{\longleftarrow}
+  PolyObs(E)/im(P)
+  \,.
+$$
 
 =--
 
