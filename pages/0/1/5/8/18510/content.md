@@ -98,7 +98,7 @@ $$
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #ProductOfDistributionsViaDiagonalPullbackOfTensorProductIsWellDefined}
 ###### Proposition
 
 Def. \ref{ProductOfDistributions} is indeed well defined.
@@ -155,6 +155,86 @@ Since any wave front set excludes the zero-section by definition, the second and
 =--
 
 ## Properties
+
+### General
+
++-- {: .num_prop #WaveFrontSetOfProductOfDistributionsInsideFiberProductOfFactorWaveFrontSets}
+###### Proposition
+**([[wave front set]] of [[product of distributions]] is inside [[fiber product]] o factor [[wave front sets]])**
+
+Let $u,v \in \mathcal{D}'(X)$ be a [[pair]] of [[distributions]] satisfying [[Hörmander's criterion]], so that their product of distributions $u \cdot v$ (def. \ref{ProductOfDistributions}) exists by prop. \ref{ProductOfDistributionsViaDiagonalPullbackOfTensorProductIsWellDefined}. Then the [[wave front set]] of the product distribution is contained inside the [[fiber product]] of the wave front sets of the two factors:
+
+$$
+  WF(u \cdot v)
+  \;\subset\;
+  WF(u) \times_X WF(v)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By def. \ref{ProductOfDistributions} and prop. \ref{ProductOfDistributionsViaDiagonalPullbackOfTensorProductIsWellDefined} we have $u \cdot v = \Delta_X^\ast(u \otimes v)$. By [this example](tensor+product+of+distributions#WaveFrontOfTensorProductDistribution) the wave front set of the tensor product distribution $u \otimes v$ is
+
+$$
+  WF(u \otimes v)
+  \;\subset\;
+  \left(
+     WF(u) \times WF(v)
+  \right)
+    \;\cup\;
+  \left(
+    \left( supp(u) \times \{0\} \right)
+    \times WF(v)
+  \right)
+    \;\cup\;
+   \left(
+     WF(u)
+     \times
+     \left(
+       supp(v) \times \{0\}
+     \right)
+   \right)
+$$
+
+and by [this prop. ](pullback+of+a+distribution#PullbackOfDistributionsWhoseWaveFrontDoesNotIntersectNormalBundle) we have
+
+$$
+  WF(\Delta_X^\ast (u \otimes v))
+    \subset 
+  \Delta_X^\ast WF(u \otimes v)
+  \,.
+$$
+
+Now for $E_1$ and $E_2$ any two [[bundles]] over $X$ their [[Cartesian product]] [[pullback bundle|pulled back]] along the [[diagonal]] is their [[fiber product]], so that in summary
+
+$$
+  WF(u \cdot v)
+  \subset
+  WF(u)\times_X WF(v)
+   \cup
+  \underset{ = \emptyset
+  }{
+  \underbrace{
+    \left( supp(u) \times \{0\} \right) \times_X WF(v)
+  }}
+   \cup
+  \underset{ = \emptyset }{
+  \underbrace{
+    WF(u) \times_X
+     \left(
+       supp(v) \times \{0\}
+     \right)  
+  }}
+ \,,
+$$
+
+where the two fiber products on the right vanish since wave front sets by definition never contain zero wave vectors.
+
+
+=--
 
 ### Non-existence of a global product
  {#NonExistenceOfAGlobalProduct}
