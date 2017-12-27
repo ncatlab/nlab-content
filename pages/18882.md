@@ -126,3 +126,6 @@ See the references at _[[microcausal observable]]_.
 
 [[!redirects regular observable]]
 [[!redirects regular observables]]
+
+[[!redirects regular linear observable]]
+[[!redirects regular linear observables]]
