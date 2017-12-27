@@ -32,7 +32,7 @@ These functionals underly the [[Wick algebra]] of [[free field theories]]. The c
 ###### Definition
 **([[polynomial observable]])**
 
-Let $E \overset{fb}{\to}$ be [[field bundle]] which is a [[vector bundle]]. An ([[off-shell]]) _[[polynomial observable]]_ is a [[smooth function]]
+Let $E \overset{fb}{\to}$ be [[field bundle]] which is a [[vector bundle]]. An [[off-shell]] _[[polynomial observable]]_ is a [[smooth function]]
 
 $$
   A 
@@ -66,10 +66,35 @@ $$
 where 
 
 $$
-  \alpha^{(k)} \in \Gamma'_{\Sigma^k}((E^\ast)^{\boxtimes^k})
+  \alpha^{(k)} \in \Gamma'_{\Sigma^k}\left((E^\ast)^{\boxtimes^k_{sym}} \right)
 $$
 
-is a [[compactly supported distribution]] [[distribution of two variables|of k variables]] on the $k$-fold [[external tensor product of vector bundles]] of the [[field bundle]] with itself.
+is a [[compactly supported distribution]] [[distribution of two variables|of k variables]] on the $k$-fold graded-symmetric [[external tensor product of vector bundles]] of the [[field bundle]] with itself.
+
+Write 
+
+$$
+  PolyObs(E) \hookrightarrow Obs(E)
+$$
+
+for the [[subspace]] of off-shell polynomial observables onside all off-shell [[observables]].
+
+Let moreover $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]] whose [[equations of motion]] are [[Green hyperbolic differential equations]]. Then an _[[on-shell]] polynomial observable_ is the [[restriction]] of an off-shell polynomial observable along the inclusion of the [[on-shell]] [[space of field histories]] $\Gamma_{\Sigma}(E)_{\delta_{EL}\mathbf{L} = 0} \hookrightarrow \Gamma_\Sigma(E)$. Write
+
+$$
+  PolyObs(E,\mathbf{L}) \hookrightarrow Obs(E,\mathbf{L})
+$$
+
+for the subspace of all on-shell polynomial observables inside all on-shell [[observables]].
+
+By [this prop.](Green+hyperbolic+partial+differential+equation#DistributionsOnSolutionSpaceAreTheGeneralizedPDESolutions) restriction yields an [[isomorphism]] between polynomial on-shell observables and polynomial off-shell observables modulo the image of the [[differential operator]] $P$:
+
+$$
+  PolyObs(E,\mathbf{L})
+    \underoverset{\simeq}{\text{restriction}}{\longleftarrow}
+  PolyObs(E)/im(P)
+  \,.
+$$
 
 =--
 
@@ -113,7 +138,7 @@ $$
       &\mapsto& 
     \int_X g(x) 
       \tilde \alpha_{a_1 \cdots a_k}(x) 
-      \Phi^{a_1}(x) \cdtos \Phi^(a_k)\,  dvol_\Sigma(x)
+      \Phi^{a_1}(x) \cdots \Phi^(a_k)\,  dvol_\Sigma(x)
   }
 $$
 
@@ -283,7 +308,7 @@ $$
 
 * [[Katarzyna Rejzner]], section 4.4.1 of _Perturbative Algebraic Quantum Field Theory_, Mathematical Physics Studies, Springer 2016 ([pdf](https://link.springer.com/book/10.1007%2F978-3-319-25901-7))
 
-* {#Duetsch18} [[Michael Dütsch]], def. 1.2 in _[[From classical field theory to perturbative quantum field theory]]_, 2018
+* {#Duetsch18} [[Michael Dütsch]], def. 1.2 and equation (2.47) in _[[From classical field theory to perturbative quantum field theory]]_, 2018
 
 
 [[!redirects microcausal observables]]
