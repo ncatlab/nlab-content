@@ -9,7 +9,7 @@
 
 * [[renormalization]]
 
-* [[Feynman diagram]
+* [[Feynman diagram]]
 
 
 
