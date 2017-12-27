@@ -922,7 +922,7 @@ $$
   A \;\colon\; \Gamma_\Sigma(E) \longrightarrow \mathbb{C}
 $$
 
-is _[[quadratic form|quadratic]]_ if it comes from a "[[bilinear map|bilinear]] observable", namely a smooth function on the [[space of sections]]
+is _[[quadratic form|quadratic]]_ if it comes from a "graded-symmetric [[bilinear map|bilinear]] observable", namely a smooth function on the [[space of sections]]
 of the [[external tensor product|external]] [[tensor product of vector bundles|tensor product of]] the [[field bundle]]
 with itself
 
@@ -944,7 +944,7 @@ $$
 
 More explicitly: By prop. \ref{LinearObservablesAreTheCompactlySupportedDistributions} the quadratic observable $A$
 is given by a [[compactly supported distribution]] [[distribution of two variables|of two variables]]
-which in the notation of remark \ref{LinearObservablesAsGeneralizedFunctions} comes from a [[matrix]] of
+which in the notation of remark \ref{LinearObservablesAsGeneralizedFunctions} comes from a graded-symmetric [[matrix]] of
 [[generalized functions]]
 $\beta_{a_1 a_2} \in \mathcal{E}'(\Sigma \times \Sigma, E \boxtimes E)$ as
 
@@ -982,22 +982,23 @@ $$
   \begin{aligned}
     A(\Phi)
      & = \phantom{+}
-    \alpha
+    \alpha^{(0)}
     \\
     &
     \phantom{=}
       +
-    \int_{\Sigma} \Phi^a(x) \alpha_a(x) \, dvol_\Sigma(x)
+    \int_{\Sigma} \Phi^a(x) \alpha^{(1)}_a(x) \, dvol_\Sigma(x)
     \\
     &
     \phantom{=}
      +
-    \int_{\Sigma^2} \Phi^{a_1}(x_1) \Phi^{a_2}(x_2) \alpha_{a_1 a_2}(x_1, x_2) \, dvol_\Sigma(x_1) dvol_\Sigma(x_2)
+    \int_{\Sigma^2} \Phi^{a_1}(x_1) \Phi^{a_2}(x_2) \alpha^{(2)}_{a_1 a_2}(x_1, x_2) \, dvol_\Sigma(x_1) dvol_\Sigma(x_2)
     \\
     &
     \phantom{=}
      +
-    \int_{\Sigma^3} \Phi^{a_1}(x_1) \Phi^{a_2}(x_2) \Phi^{a_3}(x_3) \alpha_{a_1 a_2 a_3}(x_1,x_2,x_3) \, dvol_\Sigma(x_1) dvol_\Sigma(x_2) dvol_\Sigma(x^3)
+    \int_{\Sigma^3} \Phi^{a_1}(x_1) \Phi^{a_2}(x_2) \Phi^{a_3}(x_3) 
+    \alpha^{(3)}_{a_1 a_2 a_3}(x_1,x_2,x_3) \, dvol_\Sigma(x_1) dvol_\Sigma(x_2) dvol_\Sigma(x^3)
     \\
     &
     \phantom{=}
@@ -1400,7 +1401,7 @@ $$
 of these operators restricted to functions with causally restricted supports as indicated (def. \ref{CompactlySourceCausalSupport})
 are [[exact sequence]]s of [[topological vector spaces]] and continuous [[linear map]]s between them.
 
-Under passing to [[dual spaces]] and using the isomorphisms of spaces of distributional sections (def. \ref{DistributionalSections}) from prop. \ref{DistributionsWithCausalSupports} this yields the following dual [[exact sequence]] of [[topological vector spaces]] and continuous [[linear map]] between them:
+Under passing to [[dual spaces]] and using the isomorphisms of spaces of distributional sections (def. \ref{DistributionalSections}) from prop. \ref{DistributionsWithCausalSupports} this yields the following dual [[exact sequence]] of [[topological vector spaces]] and continuous [[linear maps]] between them:
 
 $$
   \label{GreenHyperbolicOperatorDualExactSequence}
@@ -1493,7 +1494,7 @@ $\Gamma_{\Sigma,cp}(E)^\ast/im(P)$. Therefore on this quotient space it becomes 
 
 =--
 
-+-- {: .num_reamrk #LinearOnShellObservablesAreTheGeneralizedPDESolutionsNaiveVersion}
++-- {: .num_remark #LinearOnShellObservablesAreTheGeneralizedPDESolutionsNaiveVersion}
 ###### Remark
 
 Under passing to [[dual vector spaces]], the linear isomorphism in corollary \ref{OnShellSpaceOfFieldHistoriesForFreeFieldTheoryGreenHyperbolic}
@@ -1665,14 +1666,14 @@ We will be interested in those [[linear observables]] which under the identifica
 
 +-- {: .num_defn #RegularLinearFieldObservables}
 ###### Definition
-**(regular linear field observables and [[operator-valued distribution|observable-valued distributions]])**
+**(linear [[regular observables]] and [[operator-valued distribution|observable-valued distributions]])**
 
 Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]] (def. \ref{FreeFieldTheory}) whose [[Euler-Lagrange equation|Euler-Lagrange]] [[equations of motion]] (prop. \ref{EulerLagrangeFormIsSectionOfLocalCotangentBundleOfJetBundleGaugeActionLieAlgebroid}) is [[Green hyperbolic differential equation|Green hyperbolic]] (def. \ref{GreenHyperbolicDifferentialOperator}).
 
-Define the _regular_ linear field observables among the linear on-shell observables (def. \ref{LinearObservables}) to be the [[non-singular distributions]] on the [[on-shell]] [[space of field histories]], hence the [[image]]
+Define the _[[regular linear observable|regular]]_ [[linear observables]] among the linear on-shell observables (def. \ref{LinearObservables}) to be the [[non-singular distributions]] on the [[on-shell]] [[space of field histories]], hence the [[image]]
 
 $$
-  LinObs(E_{scp},\mathbf{L})
+  LinObs(E_{scp},\mathbf{L})^{reg}
     \hookrightarrow
   LinObs(E_{scp},\mathbf{L})
 $$
@@ -1701,7 +1702,7 @@ $$
   }
 $$
 
-By lemma \ref{ExactSequenceOfGreenHyperbolicSystem} every $\Phi \in \Gamma_{\Sigma,scp}(E)$ is in the image of $\mathrm{G}$ and by example \ref{CausalGreenFunctionOfFormallyAdjointDifferentialOperatorAreFormallyAdjoint} this implies that the [[kernel]] of this map is the [[image]] of $P \;\colon\; \Gamma_{\Sigma,cp}(E) \to \Gamma_{\Sigma,cp}(E^\ast)$:
+By lemma \ref{ExactSequenceOfGreenHyperbolicSystem} every $\Phi \in \Gamma_{\Sigma,scp}(E)_{\delta_{EL}\mathbf{L} = 0}$ is in the image of $\mathrm{G}$, and by example \ref{CausalGreenFunctionOfFormallyAdjointDifferentialOperatorAreFormallyAdjoint} this implies that the [[kernel]] of this map is the [[image]] of $P \;\colon\; \Gamma_{\Sigma,cp}(E) \to \Gamma_{\Sigma,cp}(E^\ast)$:
 
 $$
   \label{RegularLinearObservablesAreCompactlySupportedSectionsModuloImageOfP}
@@ -1711,7 +1712,7 @@ $$
   \,.
 $$
 
-The point-evaluation field observables $\mathbf{\Psi}^a(x)$ (example \ref{PointEvaluationObservables}) are [[linear observables]] (example \ref{LinearPointEvaluationObservables}) but far from being regular (eq:RegularLinearObservables)
+The point-evaluation field observables $\mathbf{\Phi}^a(x)$ (example \ref{PointEvaluationObservables}) are [[linear observables]] (example \ref{LinearPointEvaluationObservables}) but far from being regular (eq:RegularLinearObservables)
 (except in [[spacetime]] [[dimension]] $p +1 = 0+1$). But the regular observables are precisely the
 averages ("smearings") of these point evaluation observables against compactly supported weights.
 
