@@ -81,7 +81,7 @@ A popular impression is (or has been) that the failure of distributions to have 
 ###### Definition
 **(multiplication of distributions)
 
-Let $u,v \in \mathcal{D}'(X)$ be two [[distributions]] such that the sum of their [[wave front sets]] $WF(u) + WF(v)$  does not intersect zero. Then their _product distribution_
+Let $u,v \in \mathcal{D}'(X)$ be two [[distributions]] such that the sum of their [[wave front sets]] $WF(u) + WF(v)$  does not intersect zero ([[Hörmander's criterion]]). Then their _product distribution_
 
 $$
   u \cdot v \in \mathcal{D}'(X)
