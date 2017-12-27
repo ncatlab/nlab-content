@@ -82,13 +82,25 @@ $$
     \array{
       \text{polynomial}
       \\
+      \text{on-shell}
+      \\
       \text{observables}
     }
     \,\,
   \right\}
-    \underoverset{\simeq}{
-       \text{causal propagator}
-    }{\longleftarrow}
+    \underoverset{\simeq}{\text{restriction}}{\longleftarrow}
+  \left\{
+    \array{
+      \text{polynomial}
+      \\
+      \text{off-shell}
+      \\
+      \text{observables}
+      \\
+      \text{modulo equations of motion}
+    }
+  \right\}
+    \underoverset{\simeq}{\text{causal propagator}}{\longleftarrow}
   \left\{
     \array{
       \text{spatially compactly supported}
@@ -997,7 +1009,7 @@ $$
     &
     \phantom{=}
      +
-    \int_{\Sigma^3} \Phi^{a_1}(x_1) \Phi^{a_2}(x_2) \Phi^{a_3}(x_3) 
+    \int_{\Sigma^3} \Phi^{a_1}(x_1) \Phi^{a_2}(x_2) \Phi^{a_3}(x_3)
     \alpha^{(3)}_{a_1 a_2 a_3}(x_1,x_2,x_3) \, dvol_\Sigma(x_1) dvol_\Sigma(x_2) dvol_\Sigma(x^3)
     \\
     &
@@ -1008,7 +1020,6 @@ $$
   \end{aligned}
 $$
 
-For a [[free field theory]] we similarly have [[on-shell]] [[polynomial observables]].
 
 =--
 
@@ -1531,69 +1542,96 @@ That this remains true also for [[topological vector space]] [[structure]] follo
 
 Let $P, P \ast \;\colon\; \Gamma_\Sigma(E) \overset{}{\longrightarrow} \Gamma_\Sigma(E^\ast)$ be a pair of  [[Green hyperbolic differential operators]] (def. \ref{GreenHyperbolicDifferentialOperator}) which are [[formally adjoint differential operator|formally adjoint]] (def. \ref{FormallyAdjointDifferentialOperators}).
 
-Then a [[continuous linear functional]] on the solution space
+Then
 
-$$
-  u_{sol} \in \left(ker(P)\right)^\ast
-$$
+1. the canonical pairing (from prop. \ref{DistributionsWithCausalSupports})
 
-is equivalently a [[distribution|distributional section]] (def. \ref{DistributionalSections})
-whose [[support of a distribution|support]] is spacelike compact (def. \ref{CompactlySourceCausalSupport}, prop. \ref{DistributionsWithCausalSupports})
+   $$
+     \array{
+       \Gamma'_{\Sigma,cp}(E^\ast) &\otimes& \Gamma_\Sigma(E)
+         &\overset{}{\longrightarrow}&
+       \mathbb{C}
+       \\
+       \alpha^\ast &,& \Phi &\mapsto& \int \alpha^\ast_a(x) \Phi^a(x)\, dvol_\Sigma(x)
+     }
+   $$
 
-$$
-  u \in \Gamma'_{\Sigma,scp}(E)
-$$
+   induces a [[continuous linear map|continuous]] [[linear isomorphism]]
 
-and which is a [[distributional solution of a PDE|distributional solution]] (def. \ref{DistributionalDerivatives}) to the differential equation
-
-$$
-  P^\ast u = 0
-  \,.
-$$
-
-Similarly, a [[continuous linear functional]] on the subspace of solutions that have spatially compact support (def. \ref{CompactlySourceCausalSupport})
-
-$$
-  u_{sol} \in \left(ker(P)_{scp}\right)^\ast
-$$
-
-is equivalently a [[distribution|distributional section]] (def. \ref{DistributionalSections})
-without constraint on its [[support of a distribution|distributional support]]
-
-$$
-  u \in \Gamma'_{\Sigma}(E)
-$$
-
-and which is a [[distributional solution of a PDE|distributional solution]] (def. \ref{DistributionalDerivatives}) to the differential equation
-
-$$
-  P^\ast u = 0
-  \,.
-$$
+   $$
+     \label{LinearDualOfSolutionSpaceIsLinearDualOfFullSpaceModuloImageOfDifferentialOperator}
+     (ker(P))^\ast
+     \;\simeq\;
+     \Gamma'_{\Sigma,cp}(E^\ast)/im_{cp}(P^\ast)
+   $$
 
 
-Moreover, these [[linear isomorphisms]] are both given by composition with the [[causal Green function]] $\mathrm{G}$ (def. \ref{AdvancedAndRetardedGreenFunctions}):
+1. a [[continuous linear functional]] on the solution space
 
-$$
-  \array{
-    \left(ker(P)\right)^\ast
-       &\underoverset{\simeq}{(-)\circ \mathrm{G}}{\longrightarrow}&
-     \left\{
-       u \in  \Gamma'_{\Sigma,scp}(E)
-       \,\vert\,
-       P^\ast u = 0
-     \right\}
-    \\
-    \left(ker_{scp}(P)\right)^\ast
-       &\underoverset{\simeq}{(-)\circ \mathrm{G}}{\longrightarrow}&
-     \left\{
-       u \in  \Gamma'_{\Sigma}(E)
-       \,\vert\,
-       P^\ast u = 0
-     \right\}
-  }
-  \,.
-$$
+   $$
+     u_{sol} \in \left(ker(P)\right)^\ast
+   $$
+
+   is equivalently a [[distribution|distributional section]] (def. \ref{DistributionalSections})
+   whose [[support of a distribution|support]] is spacelike 
+   compact (def. \ref{CompactlySourceCausalSupport}, prop. \ref{DistributionsWithCausalSupports})
+
+   $$
+     u \in \Gamma'_{\Sigma,scp}(E)
+   $$
+
+   and which is a [[distributional solution of a PDE|distributional solution]] (def. \ref{DistributionalDerivatives}) 
+   to the differential equation
+
+   $$
+     P^\ast u = 0
+     \,.
+   $$
+
+   Similarly, a [[continuous linear functional]] on the subspace of solutions that have spatially compact support (def. \ref{CompactlySourceCausalSupport})
+
+   $$
+     u_{sol} \in \left(ker(P)_{scp}\right)^\ast
+   $$
+
+   is equivalently a [[distribution|distributional section]] (def. \ref{DistributionalSections})
+   without constraint on its [[support of a distribution|distributional support]]
+
+   $$
+     u \in \Gamma'_{\Sigma}(E)
+   $$
+
+   and which is a [[distributional solution of a PDE|distributional solution]] (def. \ref{DistributionalDerivatives}) 
+   to the differential equation
+
+   $$
+     P^\ast u = 0
+     \,.
+   $$
+
+   Moreover, these [[linear isomorphisms]] are both given by composition with 
+   the [[causal Green function]] $\mathrm{G}$ (def. \ref{AdvancedAndRetardedGreenFunctions}):
+
+   $$
+     \array{
+       \left(ker(P)\right)^\ast
+          &\underoverset{\simeq}{(-)\circ \mathrm{G}}{\longrightarrow}&
+        \left\{
+          u \in  \Gamma'_{\Sigma,scp}(E)
+          \,\vert\,
+          P^\ast u = 0
+        \right\}
+       \\
+       \left(ker_{scp}(P)\right)^\ast
+          &\underoverset{\simeq}{(-)\circ \mathrm{G}}{\longrightarrow}&
+        \left\{
+          u \in  \Gamma'_{\Sigma}(E)
+          \,\vert\,
+          P^\ast u = 0
+        \right\}
+     }
+     \,.
+   $$
 
 =--
 
@@ -1622,7 +1660,30 @@ or the [[Dirac equation]] (example \ref{GreenHyperbolicDiracOperator}). Then:
      \Gamma'_{\Sigma,cp}(E)
    $$
 
-1. The linear on-shell [[observables]] (def. \ref{LinearObservables}) are equivalently
+1. The linear on-shell [[observables]] (def. \ref{LinearObservables}) are equivalently the linear off-shell observables
+   modulo the image of the [[differential operator]] $P$:
+   
+   $$
+     \label{LinearOnShellObservablesAreLinearOffShellobservableModuloTheEquationsOfMotion}
+     LinObs(E,\mathbf{L})
+     \simeq
+     LinObs(E)/im(P)
+     \,.
+   $$
+   
+   More generally the on-shell [[polynomial observables]] are identified with the off-shell polynomial observables (def. \ref{PolynomialObservables}) modulo the image of $P$:
+   
+   $$
+     \label{PolynomialOnShellObservablesArePolynomialOffShellobservableModuloTheEquationsOfMotion}
+     PolObs(E,\mathbf{L})
+     \simeq
+     PolyObs(E)/im(P)
+     \,.
+   $$
+   
+
+
+1. The linear on-shell [[observables]] (def. \ref{LinearObservables}) are also equivalently
    those spacelike compactly supported [[distribution|compactly distributional sections]]  (def. \ref{DistributionalSections})
    which are [[distributional solution of a PDE|distributional solutions]] of the [[formally adjoint differential operator|formally adjoint]] [[equations of motion]] (def. \ref{FormallyAdjointDifferentialOperators}), and this isomorphism is exhibited by precomposition with the [[causal propagator]] $\mathrm{G}$:
 
@@ -1657,7 +1718,7 @@ or the [[Dirac equation]] (example \ref{GreenHyperbolicDiracOperator}). Then:
 The first statement follows with prop. \ref{LinearObservablesAreTheCompactlySupportedDistributions}
 applied componentwise. The same proof applies verbatim to the subspace of solutions,
 showing that $LinObs(E,\mathbf{L}) \simeq \left( ker(P)\right)^\ast$, with the [[dual topological vector space]] on the right.
-With this the second statement follows by prop. \ref{DistributionsOnSolutionSpaceAreTheGeneralizedPDESolutions}.
+With this the second and third statement follows by prop. \ref{DistributionsOnSolutionSpaceAreTheGeneralizedPDESolutions}.
 
 =--
 
@@ -1701,7 +1762,7 @@ $$
   }
 $$
 
-By lemma \ref{ExactSequenceOfGreenHyperbolicSystem} every $\Phi \in \Gamma_{\Sigma,scp}(E)_{\delta_{EL}\mathbf{L} = 0}$ is in the image of $\mathrm{G}$, and by example \ref{CausalGreenFunctionOfFormallyAdjointDifferentialOperatorAreFormallyAdjoint} this implies that the [[kernel]] of this map is the [[image]] of $P \;\colon\; \Gamma_{\Sigma,cp}(E) \to \Gamma_{\Sigma,cp}(E^\ast)$:
+By theorem \ref{LinearObservablesForGreeFreeFieldTheoryAreDistributionalSolutionsToTheEquationsOfMotion} we have the identification (eq:LinearDualOfSolutionSpaceIsLinearDualOfFullSpaceModuloImageOfDifferentialOperator) (eq:LinearOnShellObservablesAreLinearOffShellobservableModuloTheEquationsOfMotion)
 
 $$
   \label{RegularLinearObservablesAreCompactlySupportedSectionsModuloImageOfP}
