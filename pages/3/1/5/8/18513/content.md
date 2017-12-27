@@ -103,58 +103,66 @@ $\,$
 +-- {: .num_defn #MicrocausalObservable}
 ###### Definition
 **([[microcausal observable|microcausal]] [[polynomial observables]])**
-
-Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]]. then the [[off-shell]] [[polynomial observables]] are those functions
+Let $E \overset{fb}{\to}$ be [[field bundle]] which is a [[vector bundle]]. An [[off-shell]] _[[polynomial observable]]_ is a [[smooth function]]
 
 $$
-  A
-    \;\colon\;
-  \Gamma_{\Sigma,scp}(E)
-    \longrightarrow
+  A 
+  \;\colon\;
+  \Gamma_\Sigma(E)
+    \longrightarrow 
   \mathbb{C}
 $$
 
-which are given by graded-symmetric [[distribution|distributional]] [[coefficients]] 
+on the [[on-shell]] [[space of sections]] of the [[field bundle]] $E \overset{fb}{\to} \Sigma$ (space of field histories) which may be expressed as
 
 $$
-  \alpha^{(k)} \in \Gamma'_{\Sigma,cp}\left( E^{\boxtimes^k_{sym}} \right)
+  A(\Phi)
+  \;=\;
+  \alpha^{(0)}
+  +
+  \int_\Sigma
+    \alpha^{(1)}_a(x) \Phi^a(x)
+   \,
+  dvol_\Sigma(x)
+  +
+  \int_\Sigma \int_\Sigma
+   \alpha^{(2)}_{a_1 a_2}(x_1, x_2) \Phi^{a_1}(x_1) \Phi^{a_2}(x_2)
+  \,dvol_\Sigma(x_1)
+  \, dvol_\Sigma(x_2)
+  +
+  \cdots
+  \,,
 $$
 
-as 
+where 
 
 $$
-  \begin{aligned}
-    A(\Phi)
-    & =
-    \alpha^{(0)}
-    \\
-    & \phantom{=} +
-    \int \alpha^{(1)}_{a}(x) \Phi^a(x)\, dvol_\Sigma(x)
-    \\
-    & \phantom{=} + 
-    \int \int 
-      \alpha^{(2)}_{a_1 a_2}(x_1, x_2) 
-       \Phi^{a_1}(x_1) \Phi^{a_2}(x_2)
-      \, dvol_\Sigma(x_1)
-      \, dvol_\Sigma(x_2)
-    \\
-    & \phantom{=} + \cdots 
-  \end{aligned}
+  \alpha^{(k)} \in \Gamma'_{\Sigma^k}\left((E^\ast)^{\boxtimes^k_{sym}} \right)
 $$
 
-where we use [[generalized function]]-notation.
+is a [[compactly supported distribution]] [[distribution of two variables|of k variables]] on the $k$-fold graded-symmetric [[external tensor product of vector bundles]] of the [[field bundle]] with itself.
 
-Moreover, if the [[Euler-Lagrange equation|Euler-Lagrange]] [[equations of motion]]
+Write 
 
 $$
-  P \Phi = 0
+  PolyObs(E) \hookrightarrow Obs(E)
 $$
 
-are [[Green hyperbolic differential equations]], then the [[on-shell]] [[polynomial observables]] form the [[quotient space]] of that of off-shell polynomial observables by those with coefficients in the image of the [[differential operator]] $P$ corresponding to the [[equations of motion]]:
+for the [[subspace]] of off-shell polynomial observables onside all off-shell [[observables]].
+
+Let moreover $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]] whose [[equations of motion]] are [[Green hyperbolic differential equations]]. Then an _[[on-shell]] polynomial observable_ is the [[restriction]] of an off-shell polynomial observable along the inclusion of the [[on-shell]] [[space of field histories]] $\Gamma_{\Sigma}(E)_{\delta_{EL}\mathbf{L} = 0} \hookrightarrow \Gamma_\Sigma(E)$. Write
+
+$$
+  PolyObs(E,\mathbf{L}) \hookrightarrow Obs(E,\mathbf{L})
+$$
+
+for the subspace of all on-shell polynomial observables inside all on-shell [[observables]].
+
+By [this prop.](Green+hyperbolic+partial+differential+equation#DistributionsOnSolutionSpaceAreTheGeneralizedPDESolutions) restriction yields an [[isomorphism]] between polynomial on-shell observables and polynomial off-shell observables modulo the image of the [[differential operator]] $P$:
 
 $$
   PolyObs(E,\mathbf{L})
-  \simeq
+    \underoverset{\simeq}{\text{restriction}}{\longleftarrow}
   PolyObs(E)/im(P)
   \,.
 $$
@@ -186,7 +194,7 @@ for the [[subspace]] of [[off-shell]]/[[on-shell]] [[microcausal observables]] i
 ###### Proposition
 **(Hadamard-Moyal star product on [[microcausal observables]])
 
-Let $(E,\mathbf{L})$ a [[free field theory|free]] [[Lagrangian field theory]] with [[Green hyperbolic differential equation|Green hyperbolic]] [[equations of motion]] $P \Phi = 0$ with [[causal propagator]] $\Delta$ and let 
+Let $(E,\mathbf{L})$ a [[free field theory|free]] [[Lagrangian field theory]] with [[Green hyperbolic differential equation|Green hyperbolic]] [[equations of motion]] $P \Phi = 0$. Write $\Delta$ for the [[causal propagator]] and let 
 
 $$
   \Delta_H
@@ -196,7 +204,7 @@ $$
 
 be a corresponding [[Wightman propagator]] ([[Hadamard 2-point function]]).
 
-Then the [[star product]]
+Then the [[star product]] induced by $\Delta_H$
 
 $$
   A \star_H A
@@ -235,7 +243,7 @@ $$
 
 =--
 
-(e.g. [Collini 16, p. 25-26](#Collini16))
+([Dütsch-Fredenhagen 00](#DuetshFredenhagen00), a detailed account is in [Collini 16, p. 25-26](#Collini16))
 
 +-- {: .proof}
 ###### Proof
@@ -286,7 +294,7 @@ $$
 
 By prop. \ref{MoyalStarProductOnMicrocausal} this is immediate from the general properties of the [[star product]] ([this example](A+first+idea+of+quantum+field+theory+--+Quantization#MoyalStarProductIsFormalDeformationQuantization)). 
 
-Explicitly, let, without restriction of generality, $A_1 = \int (\alpha_1)_a(x) \mathbf{\Phi}^a(x)\, dvol_\Sigma(x)$ and $A_2 = \int (\alpha_2)_a(x) \mathbf{\Phi}^a(x)\, dvol_\Sigma(x)$ be two linear observables. Then
+Explicitly, consider, without restriction of generality, $A_1 = \int (\alpha_1)_a(x) \mathbf{\Phi}^a(x)\, dvol_\Sigma(x)$ and $A_2 = \int (\alpha_2)_a(x) \mathbf{\Phi}^a(x)\, dvol_\Sigma(x)$ be two linear observables. Then
 
 $$
   \begin{aligned}
@@ -295,10 +303,12 @@ $$
     A_1 A_2 
     +
     \hbar 
-    \int \left( \tfrac{i}{2} \Delta^{a_1 a_2}(x_1, x_2) + H^{a_1 a_2}(x_1,x_2)  
+    \int 
+    \left( 
+      \tfrac{i}{2} \Delta^{a_1 a_2}(x_1, x_2) + H^{a_1 a_2}(x_1,x_2)  
+     \right) 
       \frac{\partial A_1}{\partial \mathbf{\Phi}^{a_1}(x_1)}
       \frac{\partial A_2}{\partial \mathbf{\Phi}^{a_2}(x_2)}
-   \right) 
     \;mod\;
     \hbar^2  
    \\
@@ -320,22 +330,27 @@ $$
   \end{aligned}
 $$
 
-Now since $\Delta$ is skew-symmetric, while $H$ is symmetric is follows that
+Now since $\Delta$ is skew-symmetric while $H$ is symmetric is follows that
 
 $$
-  A_1 \star_H A_2
-  - 
-  A_2 \star_H A_1
-  =
-  i \hbar 
-  \left(
-   \int 
-     (\alpha_1)_{a_1}(x_1)
-     \Delta^{a_1 a_2}(x_1, x_2)
-     (\alpha_2)_{a_2}(x_2)
-  \right)
-  \;mod\;
-  \hbar^2
+  \begin{aligned}
+    A_1 \star_H A_2
+    - 
+    A_2 \star_H A_1
+    & =
+    i \hbar 
+    \left(
+     \int 
+       (\alpha_1)_{a_1}(x_1)
+       \Delta^{a_1 a_2}(x_1, x_2)
+       (\alpha_2)_{a_2}(x_2)
+    \right)
+    \;mod\;
+    \hbar^2
+    \\
+    & =
+    i \hbar \left\{ A_1, A_2\right\}
+  \end{aligned}
   \,.
 $$
 
