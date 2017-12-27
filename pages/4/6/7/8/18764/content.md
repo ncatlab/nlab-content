@@ -459,9 +459,9 @@ $$
 $$
 
 of these operators restricted to functions with causally restricted supports as indicated (def. \ref{CompactlySourceCausalSupport})
-are [[exact sequence]]s of [[topological vector spaces]] and continuous [[linear map]]s between them.
+are [[exact sequence]]s of [[topological vector spaces]] and continuous [[linear maps]] between them.
 
-Under passing to [[dual spaces]] and using the isomorphisms of spaces of distributional sections (def. \ref{DistributionalSections}) from prop. \ref{DistributionsWithCausalSupports} this yields the following dual [[exact sequence]] of [[topological vector spaces]] and continuous [[linear map]] between them:
+Under passing to [[dual spaces]] and using the isomorphisms of spaces of distributional sections (def. \ref{DistributionalSections}) from prop. \ref{DistributionsWithCausalSupports} this yields the following dual [[exact sequence]] of [[topological vector spaces]] and continuous [[linear maps]] between them:
 
 $$
   \label{GreenHyperbolicOperatorDualExactSequence}
@@ -591,7 +591,33 @@ Putting the above results together, it follows:
 
 Let $P, P^\ast \;\colon\; \Gamma_\Sigma(E) \overset{}{\longrightarrow} \Gamma_\Sigma(\tilde E^\ast)$ be a pair of [[Green hyperbolic differential operators]] (def. \ref{GreenHyperbolicDifferentialOperator}) which are [[formally adjoint differential operator|formally adjoint]] (def. \ref{FormallyAdjointDifferentialOperators}).
 
-Then [[continuous linear functional]] on the solution space
+Then 
+
+1)
+
+the canonical pairing (from prop. \ref{DistributionsWithCausalSupports})
+
+$$
+  \array{
+    \Gamma'_{\Sigma,cp}(\tilde E^\ast) &\otimes& \Gamma_\Sigma(E)
+      &\overset{}{\longrightarrow}&
+    \mathbb{C}
+    \\
+    \alpha^\ast &,& \Phi &\mapsto& \int \alpha^\ast_a(x) \Phi^a(x)\, dvol_\Sigma(x)
+  }
+$$
+
+induces a [[continuous linear map|continuous]] [[linear isomorphism]]
+
+$$
+  (ker(P))^\ast 
+  \;\simeq\;
+  \Gamma'_{\Sigma,cp}(\tilde E^\ast)/im_{cp}(P^\ast)
+$$
+
+2)
+
+a [[continuous linear functional]] on the solution space
 
 $$
   u_{sol} \in \left(ker_{scp}(P)\right)^\ast
@@ -648,7 +674,15 @@ $$
 
 Observe that both $\ker_{scp}(P) \subset \Gamma_{\Sigma,scp}(E)$ and $im_{tcp}(P^*) \subset \Gamma'_{\Sigma,tcp}(\tilde{E}^*)$ are [[closed subspaces]]: the first by [[continuous function|continuity]] of $P$ and the second by exactness of the sequence (eq:GreenHyperbolicOperatorDualExactSequence) in prop. \ref{ExactSequenceOfGreenHyperbolicSystem}, which implies that this, too, is the kernel of a continuous linear functional. 
 
-This implies ([Treves 67, props. 35.5, 35.6](#Treves67)) that the linear isomorphism
+This implies ([Treves 67, props. 35.5, 35.6](#Treves67)) that the linear isomorphisms
+
+$$
+  (ker(P))^\ast 
+  \;\simeq\;
+  \Gamma'_{\Sigma,cp}(\tilde E^\ast)/im_{cp}(P^\ast)
+$$
+
+and 
 
 $$
   \label{ContinuousLinearDualsOnGreenHyperbolicSolutionSpace}
@@ -657,9 +691,11 @@ $$
   \Gamma'_{\Sigma,tcp}(\tilde{E}^*) / im_{tcp}(P^*) 
 $$
 
-obtained from the underlying exact sequences of vector spaces in prop. \ref{ExactSequenceOfGreenHyperbolicSystem} is also a [[continuous linear map|continuous]] linear isomorphism for the [[dual space]] topology on the left. 
+obtained from the underlying exact sequences of vector spaces in prop. \ref{ExactSequenceOfGreenHyperbolicSystem} are also [[continuous linear map|continuous]] linear isomorphisms for the [[dual space]] topology on the left. 
 
-Moreover, once again exploiting the exactness of the sequence (eq:GreenHyperbolicOperatorDualExactSequence) in prop. \ref{ExactSequenceOfGreenHyperbolicSystem}, we also have the chain of isomorphisms
+The first of these is the statement 1) to be proven.
+
+From the second, by once again exploiting the exactness of the sequence (eq:GreenHyperbolicOperatorDualExactSequence) in prop. \ref{ExactSequenceOfGreenHyperbolicSystem}, we also have the chain of isomorphisms
 
 $$
   \label{ChainOfIsomorphisms}
@@ -670,9 +706,9 @@ $$
 $$
 
 Combining this with (eq:ContinuousLinearDualsOnGreenHyperbolicSolutionSpace)
-yields the desired isomorphism.
+yields the desired isomorphism in 2)
 
-The same argument applied to the exact sequence (eq:GreenHyperbolicOperatorDualExactSequence2) yields the second statement.
+The same argument applied to the exact sequence (eq:GreenHyperbolicOperatorDualExactSequence2) yields the second statement in 2)
 
 =--
 
