@@ -31,7 +31,7 @@ $$ lim_I D(-,k) \to D(i,k) \to colim_K D(i,-) $$
 of the limit projection for $i\in I$ and the colimit injection for $k\in K$.
 Recall that $I$-[[limits]] are said to [[commutativity of limits and colimits|commute]] with $K$-[[colimits]] if and only if $f$ is an [[isomorphism]] for any $D$.
 
-Now we note that $f$ [[factors]] as a [[composition]]
+Now we note that $f$ factors as a [[composition]]
 $$colim_K lim_I D \xrightarrow{g} colim_{K^I} lim_I D' \xrightarrow{h} lim_I colim_K D.$$
 Here $K^I$ is the [[functor category]] and $D'\colon I\times K^I\to C$ is obtained from $D$ by [[precomposition]] with the functor $(\pi_1,ev) : I\times K^I \to I\times K$ that sends a pair $(i,s)$ to $(i,s(i))$.  The map $g$ is induced by the diagonal functor $K\to K^I$ sending each $k$ to the corresponding [[constant functor]], while $h$ is defined by the universal properties of $colim_{K^I}$ and $lim_I$ from the family of composites
 $$ lim_I D'(-,s) \to D'(i,s) = D(i,s(i)) \to colim_K D(i,-) $$
@@ -79,7 +79,7 @@ What is the relationship of this to the above explicit definitions?
 
 ## Relation to commutativity of limits and colimits
 
-Observe that distributivity is asymmetric with respect to limits and colimits, whereas commutativity of limits and colimits is a symmetric notion.  In some cases, however, distributivity and commutativity are equivalent.  This happens exactly when the above functor $g$ is an isomorphism, which is to say that the diagonal map $K\to K^I$ is a [[final functor]].
+Observe that distributivity is asymmetric with respect to limits and colimits, whereas [[commutativity of limits and colimits]] is a symmetric notion.  In some cases, however, distributivity and commutativity are equivalent.  This happens exactly when the above functor $g$ is an isomorphism, which is to say that the [[diagonal]] map $K\to K^I$ is a [[final functor]].
 
 Thus, for instance, finite limits distribute over (uniform) filtered colimits if and only if finite limits commute with filtered colimits.  The same is true for finite products and sifted colimits.
 
@@ -144,6 +144,7 @@ that preserve sifted colimits.
 When the definition for Kan extensions is internalized to internal categories and fibrations, and then specialized to the case of discrete categories, the notion of distributivity of dependent products over dependent sums encoded by a [[distributivity pullback]] becomes the statement that in the [[codomain fibration]], [[indexed products]] distribute over [[indexed coproducts]] in this sense.
 
 ### Pullback-stable colimits
+ {#PullbackStableColimits}
 
 As a nontrivial example of the $K\colon I\to Cat$ case, let $I$ be the [[walking structure|walking]] [[cospan]] $0 \to 1 \leftarrow 2$, and let $K(0) = J$ for some category $J$ while $K(1)=K(2)=\ast$, the [[terminal category]].  Then $\int^I K$ is $J$ together with a new terminal object $1$ and a new object $2$ having only a map to $1$, and so a diagram $D: \int^I K \to C$ consists of a $J$-diagram $D_0$ in a slice category $C/Z$ over some object $Z$ along with a morphism $f:Z\to Y$.  The limit category $\lim_I K$ is isomorphic to $J$, and the functor $D'\colon I\times \lim_I K\to C$ has $D'(0,j) = D_0(j)$, with $D'(1,j) =Z$ and $D'(2,j)=Y$.  Therefore, $\colim_{\lim_I K} \lim_I D'$ is the $J$-colimit of the pullback of $D_0$ along $f$, while $\lim_{i\in I} \colim_{K(i)} D$ is the pullback along $f$ of the colimit of $D_0$.  Thus, the distributivity condition for this $K$ holds if and only if $J$-colimits are [[universal colimit|universal]] (stable under pullback).
 
