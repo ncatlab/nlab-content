@@ -69,21 +69,7 @@ This plays a central role in [[perturbative quantum field theory]], where the [[
 
 But the Wick algebra in [[quantum field theory]] may also be understood more systematically from first principles of [[quantization]]. It turns out that it is [[Moyal deformation quantization]] of the canonical [[Poisson bracket]] on the [[covariant phase space]] of the [[free field]], which is the [[Peierls bracket]] modified to an [[almost Kähler structure]] by the [[2-point function]] of a [[quasi-free Hadamard state]] ([Dito 90](#Dito90), [D&#252;tsch-Fredenhagen 01](#DutschFredenhagen01)). See example \ref{WickAlgebraOfASingleMode} and def. \ref{WickAlgebraOfFreeQuantumField} below.
 
-Understood in this form the construction directly generalized to [[quantum field theory on curved spacetimes]] ([Brunetti-Fredenhagen 95](#BrunettiFredenhagen95), [Brunetti-Fredenhagen 00](#BrunettiFredenhagen00), [Hollands-Wald 01](#HollandsWald01)).
-
-Finally, the shift by the [[quasi-free Hadamard state]], which is the very source of the "normal ordering", was understood as an example of the almost-K&#228;hler version of the quantization recipe of [[Fedosov deformation quantization]] ([Collini 16](#Collini16)). For more on this see at _[[locally covariant perturbative quantum field theory]]_.
-
-$\,$
-
-
-[[!include Wick algebra -- table]]
-
-
-
-## Definition
-
-
-In [[free field theory]] with [[Green hyperbolic differential equation|Green hyperbolic]] [[equations]] of motion, then analog of (eq:InStarProductTensorInvertingHermitianForm)
+In [[free field theory]] with [[Green hyperbolic differential equation|Green hyperbolic]] [[equations]] of motion, then analog of the star product tenstor ([this equation](star+product#eq:InStarProductTensorInvertingHermitianForm))
 
 $$
   \pi \;=\; \tfrac{i}{2}\omega^{-1} + \tfrac{1}{2}g^{-1}
@@ -99,17 +85,120 @@ $$
 $$
 
 
+Understood in this form the construction directly generalized to [[quantum field theory on curved spacetimes]] ([Brunetti-Fredenhagen 95](#BrunettiFredenhagen95), [Brunetti-Fredenhagen 00](#BrunettiFredenhagen00), [Hollands-Wald 01](#HollandsWald01)).
+
+Finally, the shift by the [[quasi-free Hadamard state]], which is the very source of the "normal ordering", was understood as an example of the almost-K&#228;hler version of the quantization recipe of [[Fedosov deformation quantization]] ([Collini 16](#Collini16)). For more on this see at _[[locally covariant perturbative quantum field theory]]_.
+
+$\,$
+
+
+[[!include Wick algebra -- table]]
+
+
+
+## Definition
+
+### Abstract Wick algebra
+
++-- {: .num_defn #MicrocausalObservable}
+###### Definition
+**([[microcausal observable|microcausal]] [[polynomial observables]])**
+
+Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]]. then the [[off-shell]] [[polynomial observables]] are those functions
+
+$$
+  A
+    \;\colon\;
+  \Gamma_{\Sigma,scp}(E)
+    \longrightarrow
+  \mathbb{C}
+$$
+
+which are given by graded-symmetric [[distribution|distributional]] [[coefficients]] 
+
+$$
+  \alpha^{(k)} \in \Gamma'_{\Sigma,cp}\left( E^{\boxtimes^k_{sym}} \right)
+$$
+
+as 
+
+$$
+  \begin{aligned}
+    A(\Phi)
+    & =
+    \alpha^{(0)}
+    \\
+    & \phantom{=} +
+    \int \alpha^{(1)}_{a}(x) \Phi^a(x)\, dvol_\Sigma(x)
+    \\
+    & \phantom{=} + 
+    \int \int 
+      \alpha^{(2)}_{a_1 a_2}(x_1, x_2) \Phi^{a_1 a_2}(x_1, x_2)
+      \, dvol_\Sigma(x_1)
+      \, dvol_\Sigma(x_2)
+    \\
+    & \phantom{=} + \cdots 
+  \end{aligned}
+$$
+
+where we use [[generalized function]]-notation.
+
+Moreover, if the [[Euler-Lagrange equation|Euler-Lagrange]] [[equations of motion]]
+
+$$
+  P \Phi = 0
+$$
+
+are [[Green hyperbolic differential equations]], then the [[on-shell]] [[polynomial observables]] form the [[quotient space]] of that of off-shell polynomial observables by those with coefficients in the image of the [[differential operator]] $P$ corresponding to the [[equations of motion]]:
+
+$$
+  PolyObs(E,\mathbf{L})
+  \simeq
+  PolyObs(E)/im(P)
+  \,.
+$$
+
+Finally a polynomial observable is a _[[microcausal observable]]_ if each [[coefficient]] $\alpha^{(k)}$ as above has [[wave front set]] away from those points where the $k$ [[wave vectors]] are all in the [[future cone]] or all in the [[past cone]]. We write
+
+$$
+  \array{
+    PolyObs(E)_{mc}
+     &\hookrightarrow&
+    PolyObs(E)
+    \\
+    PolyObs(E,\mathbf{L})_{mc}
+    \simeq
+    PolyObs(E)_{mc}/im(P)
+     &\hookrightarrow&
+    PolyObs(E,\mathbf{L})
+  }
+$$
+
+for the [[subspace]] of [[off-shell]]/[[on-shell]] [[microcausal observables]] insides all [[off-shell]]/[[on-shell]] [[polynomial observables]].
+
+
+=--
+
+
 
 +-- {: .num_prop #MoyalStarProductOnMicrocausal}
 ###### Proposition
 **(Hadamard-Moyal star product on [[microcausal observables]])
 
-Let $(E,\mathbf{L})$ a [[free field theory|free]] [[Lagrangian field theory]] with [[Green hyperbolic differential equation|Green hyperbolic]] [[equations of motion]] and let $\Delta_H$ be a corresponding [[Hadamard distribution]] ([[Wightman propagator]]).
+Let $(E,\mathbf{L})$ a [[free field theory|free]] [[Lagrangian field theory]] with [[Green hyperbolic differential equation|Green hyperbolic]] [[equations of motion]] $P \Phi = 0$ with [[causal propagator]] $\Delta$ and let 
+
+$$
+  \Delta_H
+  \;=\;
+  \tfrac{i}{2}\Delta + H
+$$ 
+
+be a corresponding [[Wightman propagator]] ([[Hadamard 2-point function]]).
 
 Then the [[star product]]
 
 $$
-  P_1 \star_{\Delta_H} P_2
+  A \star_H A
   \;\coloneqq\;
   prod
    \circ
@@ -120,7 +209,28 @@ $$
   (P_1 \otimes P_2)
 $$
 
-on [[microcausal observables]] $P_1, P_2 \in \mathcal{F}_{mc}$ is well defined in that the [[products of distributions]] that appear in expanding out the [[exponential]] are such that the sum of the [[wave front sets]] of the factors does not intersect the zero section.
+on [[off-shell]] [[microcausal observables]] $A_1, A_2 \in \mathcal{F}_{mc}$ (def. \ref{MicrocausalObservable}) is well defined in that the [[wave front sets]] involved in the [[products of distributions]] that appear in expanding out the [[exponential]] satisfy [[Hörmander's criterion]].
+
+Hence by the general properties of [[star products]] ([this prop.](star+product#AssociativeAndUnitalStarProduct)) this yields a [[unital algebra|unital]] [[associative algebra]] [[structure]] on the space of [[off-shell]] [[microcausal observables]]
+
+$$
+  \left(
+    PolyObs(E)_{mc} \,,\, \star_H
+  \right)
+  \,.
+$$ 
+
+This is the _[[off-shell]] [[Wick algebra]]_ corresponding to the choice of [[Wightman propagator]] $H$.
+
+Moreover the image of $P$ is an ideal with respect to this algebra structure, so that it descends to the [[on-shell]] [[microcausal observables]] to yield the _[[on-shell]] [[Wick algebra]]_
+
+$$
+  \left(
+    PolyObs(E,\mathbf{L})_{mc} \,,\, \star_H
+  \right)
+  \,.
+$$ 
+
 
 =--
 
@@ -129,30 +239,42 @@ on [[microcausal observables]] $P_1, P_2 \in \mathcal{F}_{mc}$ is well defined i
 +-- {: .proof}
 ###### Proof
 
-By definition of [[Hadamard distribution]], the [[wave front set]] of powers of $\pi$ has all cotangents on the first variables future pointing, and all those on the second variables past pointing. The first variables are integrated against those of $P_1$ and the second against $P_2$. By definition of microcausal functionals, the wave front sets of $P_1$ and $P_2$ are disjoint from the subsets where all components are future pointing or all components are past-pointing. Therefore the relevant sum of of the wave front covectors never vanishes.
+By definition of [[Wightman propagator]], the [[wave front set]] of powers of $\Delta_H$ has all cotangents on the first variables future pointing, and all those on the second variables past pointing. The first variables are integrated against those of $A_1$ and the second against $A_2$. By definition of [[microcausal observables]] (def. \ref{MicrocausalObservable}), the wave front sets of $A_1$ and $A_2$ are disjoint from the subsets where all components are future pointing or all components are past-pointing. Therefore the relevant sum of of the wave front covectors never vanishes and hence [[Hörmander's criterion]] is met.
 
 =--
 
-+-- {: .num_defn #WickAlgebraOfFreeQuantumField}
-###### Definition
-**(Wick algebra of free quantum field)**
++-- {: .num_remark #WickAlgebraIsFormalDeformationQuantization}
+###### Remark
+**([[Wick algebra]] is [[formal deformation quantization]] of [[Poisson-Peierls bracket|Poisson-Peierls algebra of observables]])**
 
-Let $(E,\mathbf{L})$ a [[free field theory|free]] [[Lagrangian field theory]] with [[Green hyperbolic differential equation|Green hyperbolic]] [[equations of motion]] and let $\Delta_H$ be a corresponding [[Hadamard distribution]] ([[Wightman propagator]]).
 
-Then the _Wick algebra_ of [[quantum observables]] of the [[free field|free]] [[scalar field]] on $(X,g)$ is the space of [[microcausal functionals]] $\mathcal{F}_{mc}$ equipped with the Hadamard-Moyal [[star product]] from prop. \ref{MoyalStarProductOnMicrocausal}:
+Let $(E,\mathbf{L})$ a [[free field theory|free]] [[Lagrangian field theory]] with [[Green hyperbolic differential equation|Green hyperbolic]] [[equations of motion]] $P \Phi = 0$ with [[causal propagator]] $\Delta$ and let $\Delta_H \;=\; \tfrac{i}{2}\Delta + H$  be a corresponding [[Wightman propagator]] ([[Hadamard 2-point function]]).
+
+
+Then the [[Wick algebra]]  $\left( PolyObs(E,\mathbf{L})_{mc} \,,\, \star_H \right)$ from prop. \ref{MoyalStarProductOnMicrocausal} is a [[formal deformation quantization]] of the [[Poisson algebra]] on the [[covariant phase space]] given by the [[on-shell]] [[polynomial observables]] equipped with the [[Poisson-Peierls bracket]] $\{-,-\} \;\colon\; PolyObs(E,\mathbf{L})_{mc} \otimes PolyObs(E,\mathbf{L})_{mc}  \to PolyObs(E,\mathbf{L})_{mc}$ in that for all $A_1, A_2 \in PolyObs(E,\mathbf{L})_{mc}$ we have
 
 $$
-  \mathcal{W}(X,\Delta_H)
-  \;\coloneqq\;
-  \left(
-    \mathcal{F}_{mc}, \star_{\Delta_H}
-  \right)
+  A_1 \star_H A_2
+  \;=\;
+  A_1 \cdot A_2
+  +
+  i \hbar \left\{ A_1, a_2\right\}
+  \;mod\;
+  \hbar^2
   \,.
 $$
 
-> (this is [[off-shell]])
+=--
+
+([Dito 90](#Dito90), [Dütsch-Fredenhagen 01](#DutschFredenhagen01))
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{MoyalStarProductOnMicrocausal} this is immediate from the general properties of the [[star product]] ([this example](A+first+idea+of+quantum+field+theory+--+Quantization#MoyalStarProductIsFormalDeformationQuantization)). 
 
 =--
+
 
 ## Hadamard vacuum states on Wick algebras
 
