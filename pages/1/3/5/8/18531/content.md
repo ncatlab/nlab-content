@@ -85,9 +85,19 @@ $$
 
 such that on smooth functions it acts by precomposition with $f$.
 
+Moreover for $u$ a distribution in the domain on the left, the [[wave front set]] of its pullback is inside the pullback of its wave front set
+
+$$
+  \label{WaveFrontSetOfPullbackDistributionIsInsidePullbackOfWaveFrontSet}
+  WF(f^\ast u)
+  \subset
+  f^\ast WF(u)
+  \,.
+$$
+
 =--
 
-([H&#246;rmander 90, theorem 8.2.4](#Hoermander90))
+([Hörmander 90, theorem 8.2.4](#Hoermander90))
 
 
 ## Examples
@@ -109,7 +119,7 @@ $$
   \,,
 $$
 
-where $i_\ast b \in C^\infty_c(X)$ is the result of [[extension|extending]] $b$ by zero to all of $X$.
+where $i_\ast b \in C^\infty_{cp}(X)$ is the result of [[extension|extending]] $b$ by zero to all of $X$.
 
 
 =--
