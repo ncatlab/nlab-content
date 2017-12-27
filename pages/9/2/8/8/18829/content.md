@@ -686,7 +686,7 @@ meaning that
 
 =--
 
-+-- {: .num_example}
++-- {: .num_example #MoyalStarProductIsFormalDeformationQuantization}
 ###### Example
 **([[Moyal star product]] is [[formal deformation quantization]])**
 
@@ -711,7 +711,7 @@ $$
     \\
     (f,g)
       &\mapsto&
-    ((-)\cdot (-)) \circ \exp\left( (\tfrac{1}{2}\pi^{i j} + \alpha^{i j}) \frac{\partial}{\patial x^i} \otimes \frac{\partial}{\partial x^j}  \right\}
+    ((-)\cdot (-)) \circ \exp\left( (\tfrac{1}{2}\pi^{i j} + \alpha^{i j}) \frac{\partial}{\partial x^i} \otimes \frac{\partial}{\partial x^j}  \right\}
   }
   (f,g)
 $$
