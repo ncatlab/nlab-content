@@ -108,3 +108,10 @@ In some older category theory papers, arrows were written pointing from right to
 
 [[!redirects compositions]]
 [[!redirects compose]]
+
+[[!redirects precomposition]]
+[[!redirects precompositions]]
+
+[[!redirects postcomposition]]
+[[!redirects postcompositions]]
+
