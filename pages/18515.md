@@ -3195,6 +3195,9 @@ Phys. 63, 257 (1978).
 [[!redirects Hadamard 2-point function]]
 [[!redirects Hadamard 2-point functions]]
 
+[[!redirects Wightman 2-point function]]
+[[!redirects Wightman 2-point functions]]
+
 [[!redirects Wightman propagator]]
 [[!redirects Wightman propagators]]
 
