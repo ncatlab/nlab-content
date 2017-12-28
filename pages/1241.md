@@ -29,9 +29,20 @@ Since no GUT model has been fully validated yet (but see for instance [Fong-Melo
 
 (Here it is important to remember the context, both "grand unified" and "of everything" refers to aspects of presently available models of fundamental physics, and not to deeper philosophical questions of [[ontology]].)
 
-## Relation to neutrino masses
+## Properties
 
-The high energy scale required by a [[seesaw mechanism]] to produce the experimentally observer [[neutrino]] masses happens to be about the convetional GUT scale, for review see for instance ([Mohapatra 06](#Mohapatra06)).
+### Relation to proton decay
+  {#RelationToProtonDecay}
+
+Many GUT models imply that the [[proton]] -- which in the [[standard model of particle physics]] is a stable [[bound state]] (of [[quarks]]) -- is in fact unstable, albeit with an extremely long mean liftetime, and hence may decay (e.g. [KM 14](#KM14)). [[experiment|Experimental]] searches for such _[[proton decay]]_ (see there for more) put strong bounds on this effect and hence heavily constrain or rule out many [[GUT]] [[model (physics)|models]].
+
+Recently it was claimed that there are in fact realistic [[GUT]] [[model (physics)|models]] that do not imply any [[proton decay]] ([Mütter-Ratz-Vaudrvange 16](#MuetterRatzVaudrvange16), [Fornal-Grinstein 17](#FornalGrinstein17)).
+
+### Relation to neutrino masses
+
+The high energy scale required by a [[seesaw mechanism]] to produce the experimentally observer [[neutrino]] masses happens to be about the conventional GUT scale, for review see for instance ([Mohapatra 06](#Mohapatra06)).
+
+
 
 ## Related concepts
 
@@ -82,11 +93,6 @@ for [[supersymmetry|supersymmetric]] [[model (physics)|models]]:
 
 * Ila Garg, _New minimal supersymmetric $SO(10)$ GUT phenomenology and its cosmological implications_ ([arXiv:1506.05204](http://arxiv.org/abs/1506.05204))
 
-Specifically discussion of experimental bounds on [[proton]] instability in GUTs includes
-
-* Helena Kole&#353;ov&#225;, [[Michal Malinský]], _Proton lifetime in the minimal $SO(10)$ GUT and its implications for the LHC_, Phys. Rev. D 90, 115001 (2014) ([arXiv:1409.4961](http://arxiv.org/abs/1409.4961))
-
-
 Realization of GUTs in the context of [[M-theory on G2-manifolds]] and possible resolution of the [[doublet-triplet splitting problem]] is discussed in
 
 * {#Witten02b} [[Edward Witten]], _Deconstruction, $G_2$ Holonomy, and Doublet-Triplet Splitting_, ([arXiv:hep-ph/0201018](http://arxiv.org/abs/hep-ph/0201018))
@@ -106,11 +112,17 @@ of $E_8$ in F-theory_, 2014 ([pdf](http://stringpheno2014.ictp.it/parallels/tues
 
 * {#Vafa15} [[Cumrun Vafa]], _Reflections on F-theory_, 2015 (<a href="http://f-theory15.mpp.mpg.de/talks/Vafa.pdf">pdf</a>
 
+Discussion of experimental bounds on [[proton decay]] in GUTs includes
+
+* {#KM14} Helena Kole&#353;ov&#225;, [[Michal Malinský]], _Proton lifetime in the minimal $SO(10)$ GUT and its implications for the LHC_, Phys. Rev. D 90, 115001 (2014) ([arXiv:1409.4961](http://arxiv.org/abs/1409.4961))
+
 Claim that [[proton decay]] may be entirely avoided:
 
-* Andreas Mütter, Michael Ratz, Patrick K.S. Vaudrevange, _Grand Unification without Proton Decay_ ([arXiv:1606.02303](https://arxiv.org/abs/1606.02303))
+* {#MuetterRatzVaudrvange16} Andreas Mütter, Michael Ratz, Patrick K.S. Vaudrevange, _Grand Unification without Proton Decay_ ([arXiv:1606.02303](https://arxiv.org/abs/1606.02303))
 
-* Bartosz Fornal, Benjamin Grinstein, _$SU(5)$ Unification without Proton Decay_, Physics Review Letters ([arXiv:1706.08535](https://arxiv.org/abs/1706.08535))
+  (claims that many [[string theory]] and [[supergravity]] models have this property)
+
+* {#FornalGrinstein17} Bartosz Fornal, Benjamin Grinstein, _$SU(5)$ Unification without Proton Decay_, Physics Review Letters ([arXiv:1706.08535](https://arxiv.org/abs/1706.08535))
 
 [[!redirects GUTs]]
 [[!redirects grand unified theory]]
