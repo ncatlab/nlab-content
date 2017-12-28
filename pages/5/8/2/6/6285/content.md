@@ -1,4 +1,6 @@
 
+> not to be confused with _[[Wigner classification]]_
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -15,8 +17,8 @@
 
 ## Statement
 
-Wigner's theorem asserts that a [[function]] $f : H \to H$  from a [[Hilbert space]] to itself (not _assumed_ to be a [[linear functor]])  
-is linear and in fact a (anti-)[[unitary operator]] (up to a phase) if only the function is 
+Wigner's theorem asserts that a [[function]] $f : H \to H$  from a [[Hilbert space]] to itself (not _assumed_ to be a [[linear function]])  
+is [[linear function|linear]] and in fact a (anti-)[[unitary operator]] (up to a phase) if only the function is 
 
 1. [[surjective map|surjective]];
 
@@ -55,6 +57,9 @@ Other theorems about the foundations and [[interpretation of quantum mechanics]]
  
 * [[Dan Freed]], _On Wigner's theorem_ ([arXiv:1112.2133](http://arxiv.org/abs/1112.2133))
 
+See also 
+
+* Wikipedia, _[Wigner's theorem](https://en.wikipedia.org/wiki/Wigner%27s_theorem#Statement)_
 
 [[!redirects Wigner theorem]]
 [[!redirects Wigner's theorem]]
