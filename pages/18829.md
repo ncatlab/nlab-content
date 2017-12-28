@@ -1134,6 +1134,9 @@ $$
 
 =--
 
+(e.g. [Collini 16, def. 1](star+product#Collini16))
+
+
 +-- {: .num_prop #StarProductAlgebraOfKaehlerVectorSpaceIsStarAlgebra}
 ###### Proposition
 **([[star product]] [[associative algebra|algebra]] of [[Kähler vector space]] is [[star-algebra]])**
