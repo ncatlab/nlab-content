@@ -162,16 +162,20 @@ Since any wave front set excludes the zero-section by definition, the second and
 ###### Proposition
 **([[wave front set]] of [[product of distributions]] is inside [[fiber product]] o factor [[wave front sets]])**
 
-Let $u,v \in \mathcal{D}'(X)$ be a [[pair]] of [[distributions]] satisfying [[Hörmander's criterion]], so that their product of distributions $u \cdot v$ (def. \ref{ProductOfDistributions}) exists by prop. \ref{ProductOfDistributionsViaDiagonalPullbackOfTensorProductIsWellDefined}. Then the [[wave front set]] of the product distribution is contained inside the [[fiber product]] of the wave front sets of the two factors:
+Let $u,v \in \mathcal{D}'(X)$ be a [[pair]] of [[distributions]] satisfying [[Hörmander's criterion]], so that their product of distributions $u \cdot v$ (def. \ref{ProductOfDistributions}) exists by prop. \ref{ProductOfDistributionsViaDiagonalPullbackOfTensorProductIsWellDefined}. Then the [[wave front set]] of the product distribution is contained inside the fiberwise [[sum]] of the wave front set elements of the two factors:
 
 $$
   WF(u \cdot v)
   \;\subset\;
-  WF(u) \times_X WF(v)
+  (WF(u) \cup (X \times \{0\})) 
+    + 
+  (WF(v) \cup (X \times \{0\}))
   \,.
 $$
 
 =--
+
+([Hörmander 90, theorem 8.2.10](#Hoermander90))
 
 +-- {: .proof}
 ###### Proof
@@ -205,33 +209,16 @@ $$
   WF(\Delta_X^\ast (u \otimes v))
     \subset 
   \Delta_X^\ast WF(u \otimes v)
+  \coloneqq
+  \left\{
+    (x, k_1 + k_2 )
+    \;\vert\;
+    ((x,k_1),(x,k_2))
+    \in 
+    WF(u \otimes v)
+  \right\}  
   \,.
 $$
-
-Now for $E_1$ and $E_2$ any two [[bundles]] over $X$ their [[Cartesian product]] [[pullback bundle|pulled back]] along the [[diagonal]] is their [[fiber product]], so that in summary
-
-$$
-  WF(u \cdot v)
-  \subset
-  WF(u)\times_X WF(v)
-   \cup
-  \underset{ = \emptyset
-  }{
-  \underbrace{
-    \left( supp(u) \times \{0\} \right) \times_X WF(v)
-  }}
-   \cup
-  \underset{ = \emptyset }{
-  \underbrace{
-    WF(u) \times_X
-     \left(
-       supp(v) \times \{0\}
-     \right)  
-  }}
- \,,
-$$
-
-where the two fiber products on the right vanish since wave front sets by definition never contain zero wave vectors.
 
 
 =--
