@@ -39,8 +39,8 @@ The relation to [[scale transformation]] is due to
 
 Review includes
 
-* {#Duetsch18} [[Michael Dütsch]], section 3.5.1 of _From classical field theory
-to perturbative quantum field theory_
+* {#Duetsch18} [[Michael Dütsch]], section 3.5.1 of _[[From classical field theory
+to perturbative quantum field theory]]_, 2018
 
 
 See also
