@@ -195,10 +195,11 @@ By the above discussion (...) the [[partition function]] of self-dual higher gau
 ## Examples
 
 ### Chiral boson in 2d (on the string)
+ {#ChiralBosonin2d}
 
 For $k = 0$ the self-dual theory abelian is that of a [[scalar field]] $\phi$ on a real-2-dimensional surface $\Sigma$ such that $\mathbf{d}\phi$ is self-dual. For any [[complex structure]] on $\Sigma$, making it a [[complex torus]], this makes $\phi$ a "chiral" boson, in the sense of a chiral half of the $U(1)$-[[WZW model]].
 
-A quick review is as a warm-up for the higher dimensional case is in 
+A quick review as a warm-up for the higher dimensional case is in 
 ([Witten 96, section 2](#Witten96)). A detailed discussion is in ([GBMNV](#GBMNV)) and see the references at _[[AdS3-CFT2 and CS-WZW correspondence]]_.
 
 
