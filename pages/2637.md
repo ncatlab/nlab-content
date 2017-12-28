@@ -36,7 +36,7 @@ where $diag((a_k))$ is some [[diagonal matrix]] with entries $(a_k)_{k \in K}$.
 
 The archetypical example is the [[deformation quantization]] of the simple [[phase space]] which is the [[symplectic vector space]] $\mathbb{R}^2$ equipped with the [[symplectic form]] $\omega = \left( \array{ 0 & -1 \\ 1 & 0 } \right)$. 
 
-The resulting algebra is equivalently the [[quotient]] of the [[universal enveloping algebra]] of the [[Heisenberg Lie algebra]] $h_2$ which identifies the central element with a multiple of the 1 (the multiplicative neutral element).
+The resulting algebra is equivalently the [[quotient]] of the [[universal enveloping algebra]] of the [[Heisenberg Lie algebra]] $h_2$ which identifies the [[center|central element]] with a multiple of the 1 (the multiplicative neutral element, see at _[[polynomial Poisson algebra]]_ for more).
 
 More concretely, in the [[quantization]] of a single particle propagating on the [[real line]] the [[Hilbert space]] of [[quantum states]] is identified with the the space of [[square integrable functions]] $L^2(\mathbb{R})$. On this the operators
 
@@ -70,15 +70,19 @@ Therefore operators satisfying the "canonical commutation relations" are often r
 
 One a curved [[spacetime]] these relations become more complicated, see at _[[Wick algebra]]_ for more.
 
-If the field in question is not a [[bosonic field]] but a [[fermionic field]] then all of the above has to be understood in [[superalgebra]] with the fermionic variabled in off super-degree. This yields [[anti-commutator]] relations as above, heence often called "canonical anti-commutation relations".
+If the field in question is not a [[bosonic field]] but a [[fermionic field]] then all of the above has to be understood in [[superalgebra]] with the fermionic variabled in off super-degree. This yields [[anti-commutator]] relations as above, hence often called "canonical anti-commutation relations".
+
+Under passing to [[exponentials]] the canomical commutation relations are also called the _[[Weyl relations]]_.
 
 ## Properties
 
-* The [[Stone-von Neumann theorem]] says that for finitely many generators the canonical commutation relations have, up to [[isomorphism]], a unique [[irreducible representation|irreducible]] [[unitary representation]]: the _[[Schrödinger representation]]_.
+* The [[Stone-von Neumann theorem]] says that for finitely many generators the canonical commutation relations (in the form of the [[Weyl relations]]) have, up to [[isomorphism]], a unique [[irreducible representation|irreducible]] [[unitary representation]]: the _[[Schrödinger representation]]_.
 
   [[Haag's theorem]] says that this uniqueness fails for infinitely many generators.
 
 ## Related concepts
+
+* [[Weyl relation]]
 
 * [[Wick algebra]]
 
@@ -88,3 +92,4 @@ If the field in question is not a [[bosonic field]] but a [[fermionic field]] th
 [[!redirects canonical anti-commutation relation]]
 [[!redirects canonical anti-commutation relations]]
 
+[[!redirects CCR]]
