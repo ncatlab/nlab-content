@@ -14,6 +14,8 @@ Resolution about $10^{-20}m \simeq 10$ [[TeV]] ad currently reached $\simeq 7 Te
 
 ## Related entries
 
+* [[LIGO]], [[Super-Kamiokande]]
+
 * [[standard model of particle physics]]
 
 * [[Higgs boson]]
