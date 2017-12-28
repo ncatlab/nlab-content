@@ -19,6 +19,10 @@ An [[experiment]] designed to directly detect [[gravitational waves]].
 
 Reported detections include: [LIGO 16](#LIGO16), [LIGO-Virgo 17](#LIGOVirgo17).
 
+## Related entries
+
+* [[LHC]], [[Super-Kamiokande]]
+
 ## References
 
 * [LIGO website](https://www.ligo.caltech.edu)
