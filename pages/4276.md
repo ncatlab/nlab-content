@@ -50,17 +50,18 @@
 
   * [[conformal net]]
 
-* [[state on a star-algebra]], 
+* [[state on a star-algebra]], [[quantum probability]]
 
-  * [[cyclic vector]], [[separating vector]]
+  * [[pure state]], [[mixed state]], [[density matrix]]
 
-  * [[quasi-free state]]
+  * [[space of quantum states]]
 
   * [[vacuum state]]
 
-  * [[Hadamard state]]
+    * [[quasi-free state]], 
 
-  * [[space of quantum states]]
+    * [[Hadamard state]]
+
 
 * [[picture of quantum mechanics]]
 
@@ -71,11 +72,12 @@
 
 * [[Wick algebra]]
 
+  * [[canonical commutation relations]], [[Weyl relations]]
+
   * [[normal ordered product]]
 
 * [[Fock space]]
 
-* [[Wick's lemma]]
 
 **[[interaction|interacting]] field [[quantization]]**
 
@@ -124,6 +126,8 @@
 * [[Wick's theorem]]
 
 * [[GNS construction]]
+
+  * [[cyclic vector]], [[separating vector]]
 
 * [[modular theory]]
 
