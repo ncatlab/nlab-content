@@ -91,6 +91,14 @@
 
   * [[Feynman diagram]], [[Feynman perturbation series]]
 
+* [[renormalization]]
+
+  * [[extension of distributions]]
+
+  * [[Stückelberg-Petermann renormalization group]]
+
+  * [[Gell-Mann-Low renormalization cocycle]]
+
 * [[interacting field algebra]]
 
   * [[Bogoliubov's formula]]
