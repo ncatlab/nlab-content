@@ -220,11 +220,11 @@ $$
 
 on [[off-shell]] [[microcausal observables]] $A_1, A_2 \in \mathcal{F}_{mc}$ (def. \ref{MicrocausalObservable}) is well defined in that the [[wave front sets]] involved in the [[products of distributions]] that appear in expanding out the [[exponential]] satisfy [[Hörmander's criterion]].
 
-Hence by the general properties of [[star products]] ([this prop.](star+product#AssociativeAndUnitalStarProduct)) this yields a [[unital algebra|unital]] [[associative algebra]] [[structure]] on the space of [[off-shell]] [[microcausal observables]]
+Hence by the general properties of [[star products]] ([this prop.](star+product#AssociativeAndUnitalStarProduct)) this yields a [[unital algebra|unital]] [[associative algebra]] [[structure]] on the space of [[formal power series]] in $\hbar$ of [[off-shell]] [[microcausal observables]]
 
 $$
   \left(
-    PolyObs(E)_{mc} \,,\, \star_H
+    PolyObs(E)_{mc}[ [\hbar] ] \,,\, \star_H
   \right)
   \,.
 $$ 
@@ -235,7 +235,7 @@ Moreover the image of $P$ is an ideal with respect to this algebra structure, so
 
 $$
   \left(
-    PolyObs(E,\mathbf{L})_{mc} \,,\, \star_H
+    PolyObs(E,\mathbf{L})_{mc}[ [ \hbar ] ] \,,\, \star_H
   \right)
   \,.
 $$ 
@@ -352,12 +352,12 @@ $$
     \hbar^2
     \\
     & =
-    i \hbar \left\{ A_1, A_2\right\}
+    i \hbar \, \left\{ A_1, A_2\right\}
   \end{aligned}
   \,.
 $$
 
-The right hand side is the [[integral kernel]]-expression for the [[Poisson-Peierls bracket]].
+The right hand side is the [[integral kernel]]-expression for the [[Poisson-Peierls bracket]], as shown in the second line.
 
 
 =--
