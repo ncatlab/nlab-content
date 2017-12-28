@@ -91,11 +91,11 @@ Physical Mathematics_ , talk at Strings2011 ([pdf slides](http://www.physics.rut
   
 * [[Greg Moore]], _Applications of the six-dimensional (2,0) theories to Physical Mathematics_, [Felix Klein lectures Bonn (2012)](http://www.hcm.uni-bonn.de/events/eventpages/felix-klein-lectures/applications-of-the-six-dimensional-20-theories-to-physical-mathematics/) ([pdf](http://www.physics.rutgers.edu/~gmoore/FelixKleinLectureNotes.pdf))
 
-Workshops include
 
-* {#Workshop14} _[Mathematical Aspects of Six-Dimensional Quantum Field Theories](http://www.math.northwestern.edu/~celliott/workshop/)_, Berkeley, December 8th-12th, 2014
+* {#Workshop14}  [[Qiaochu Yuan)]]: _[lecture notes](https://math.berkeley.edu/~qchu/Notes/6d/))_ for _[Mathematical Aspects of Six-Dimensional Quantum Field Theories](http://www.math.northwestern.edu/~celliott/workshop/)_, Berkeley, December 8th-12th, 2014 at the University of California, Berkeley
 
-at the University of California, Berkeley
+ 
+
 
 See also the references and discussion at _[[M5-brane]]_.
 
