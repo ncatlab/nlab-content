@@ -110,7 +110,7 @@ Discussion of GUTs in [[F-theory]] includes
 * {#Zoccarato14} Gianluca Zoccarato, _Yukawa couplings at the point
 of $E_8$ in F-theory_, 2014 ([pdf](http://stringpheno2014.ictp.it/parallels/tuesday/F-theory(B)/zoccarato.pdf))
 
-* {#Vafa15} [[Cumrun Vafa]], _Reflections on F-theory_, 2015 (<a href="http://f-theory15.mpp.mpg.de/talks/Vafa.pdf">pdf</a>
+* {#Vafa15} [[Cumrun Vafa]], _Reflections on F-theory_, 2015 (<a href="http://f-theory15.mpp.mpg.de/talks/Vafa.pdf">pdf</a>)
 
 Discussion of experimental bounds on [[proton decay]] in GUTs includes
 
