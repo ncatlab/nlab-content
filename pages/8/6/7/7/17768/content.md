@@ -16,13 +16,13 @@
 
 ## Idea 
 
-The _Helmholtz operator_ (going back to [Helmholtz 87](#Helmholtz87), [Sonin](#Sonin), with modern version due to [Vinogradov 78](#Vinogradov78), [Tulczyjew 80](#Tulczyjew80)) is a map from [[partial differential equations]] (on [[sections]] of some [[bundle]]) to [[differential operators]] (on sections of that bundle) with the property that locally its [[kernel]] consists precisely of those [[PDEs]] which are _variational_ in that there is a [[local Lagrangian density]] such that the PDE is the [[Euler-Lagrange equation]] which says that the variational of this Lagrangian (equivalently: of the [[action functional]] that it induces) vanishes.
+The _Helmholtz operator_ (going back to [Helmholtz 87](#Helmholtz87), [Sonin](#Sonin), with modern version due to [Vinogradov 78](#Vinogradov78), [Tulczyjew 80](#Tulczyjew80)) is a map from [[partial differential equations]] (on [[sections]] of some [[bundle]]) to [[differential operators]] (on sections of that bundle) with the property that locally its [[kernel]] consists precisely of those [[PDEs]] which are _variational_ in that there is a [[local Lagrangian density]] such that the PDE is the [[Euler-Lagrange equation]] which says that the [[variational derivative]] of this Lagrangian (equivalently: of the [[action functional]] that it induces) vanishes.
 
-In modern terminology this says that together with the [[Euler-Lagrange operator]] the Helmholtz operator constitutes a [[chain complex]] of [[abelian sheaves]] (namely of [[differential forms]] on a [[jet bundle]]) which is locally [[long exact sequence|exact]]. In fact this extends in both directions to a locally [[long exact sequence]] of forms on the jet bundle, called the [[Euler-Lagrange complex]]. See there for more.
+In modern terminology this says that together with the [[Euler-Lagrange operator]] the Helmholtz operator constitutes a [[chain complex]] of [[abelian sheaves]] (namely of [[differential forms]] on a [[jet bundle]]) which is locally [[long exact sequence|exact]]. In fact this extends in both directions to a locally [[long exact sequence]] of forms on the jet bundle, called the _[[Euler-Lagrange complex]]_. See there for more.
 
 ## Details
 
-A quick way to write the Helmholtz operator $H$ is as follows: If $\mathcal{E}$ denotes a [[partial differential equation]] and $L\mathcal{E}$ its linearization, and $(L\mathcal{E}^\ast$ its [[formal adjoint differential operator]], as a [[differential operator]] then
+A quick way to write the Helmholtz operator $H$ is as follows: If $\mathcal{E}$ denotes a [[partial differential equation]] and $L\mathcal{E}$ its linearization ([[evolutionary derivative]]), and $(L\mathcal{E}^\ast$ its [[formal adjoint differential operator]], as a [[differential operator]] then
 
 $$
   H[\mathcal{E}]
@@ -34,6 +34,10 @@ $$
 $$ 
 
 This means that the PDE $\mathcal{E}$ is locally variational precisely if its linearization is formally self-adjoint.
+
+## Properties
+
+For proof that every [[Euler-Lagrange equation]] is in the kernel of the Helmholtz operator see _[[geometry of physics -- A first idea of quantum field theory]]_ [this prop.](geometry+of+physics+--+A+first+idea+of+quantum+field+theory#EvolutionaryDerivativeOfEulerLagrangeFormIsFormallySelfAdjoint).
 
 ## References
 
