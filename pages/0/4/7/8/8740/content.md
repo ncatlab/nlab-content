@@ -769,6 +769,8 @@ $$
 
 =--
 
+(e.g. [Collini 16, def. 1](#Collini16))
+
 +-- {: .num_prop #StarProductAlgebraOfKaehlerVectorSpaceIsStarAlgebra}
 ###### Proposition
 **([[star product]] [[associative algebra|algebra]] of [[Kähler vector space]] is [[star-algebra]])**
@@ -982,6 +984,8 @@ This is the case notably for [[Wick algebras]] ([[algebras of quantum observable
 * [[deformation theory]]
 
 ## References
+
+* {#Collini16} [[Giovanni Collini]], _Fedosov Quantization and Perturbative Quantum Field Theory_ ([arXiv:1603.09626](https://arxiv.org/abs/1603.09626))
 
 In [[perturbative quantum field theory]]:
 
