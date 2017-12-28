@@ -391,6 +391,66 @@ The right hand side is the [[integral kernel]]-expression for the [[Poisson-Peie
 
 =--
 
+
++-- {: .num_example}
+###### Example
+**([[Hadamard vacuum state]] [[2-point function]])**
+
+Let 
+
+$$
+  A_i \in LinObs(E,\mathbf{L})_{mc} \hookrightarrow PolyObs(E,\mathbf{L})_{mc}
+$$
+
+for $i \in \{1,2\}$ be two [[linear observable|linear]] [[microcausal observables]] represented by [[distributions]] which in [[generalized function]]-notation are given by
+
+$$
+  A_i
+  \;=\;
+  \int (\alpha_i)_{a_i}(x_i) \mathbf{\Phi}^{a_i}(x_i) \, dvol_\Sigma(x_i)
+  \,.
+$$
+
+Then their Hadamard-Moyal [[star product]] (prop. \ref{MoyalStarProductOnMicrocausal}) is the [[sum]] of their pointwise product with $\tfrac{1}{2} i \hbar$ times the evaluation 
+
+$$
+  \begin{aligned}
+    \langle A_1 A_2\rangle
+    & \coloneqq
+    \int \int
+      (\alpha_1)_{a_1}(x_1) 
+      \,
+      \left\langle \mathbf{\Phi}^{a_1}(x_1) \mathbf{\Phi}^{a_2}(x_2)\right\rangle
+     \,  
+     (\alpha_2)_{a_2}(x_2)
+     \, dvol_\Sigma(x_1)
+     \, dvol_\Sigma(x_2)
+    \\
+    & \coloneqq
+      \tfrac{1}{2} 
+     i \hbar \int \int 
+     (\alpha_1)_{a_1}(x_1) \Delta_H^{a_1 a_2}(x_1,x_2) (\alpha_2)_{a_2}(x_2)
+      \,dvol_\Sigma(x_1)
+      \,dvol_\Sigma(x_2)
+  \end{aligned}
+$$
+
+of the [[Wightman propagator]] $\Delta_H$:
+
+$$
+  \label{StarProductOfTwoLinearObservables}
+  A_1 \star_H A_2
+  =
+  A_1 \cdot A_2
+  +
+  \langle A_1 A_2\rangle
+$$
+
+Further [below](#HadamardVacuumStatesOnWickAlgebras) we see that this evaluation is the [[2-point function]] of a [[state on a star-algebra|state]] on the [[Wick algebra]].
+
+=--
+
+
 +-- {: .num_example #WeylRelations}
 ###### Example
 **([[Weyl relations]])**
@@ -414,16 +474,17 @@ $$
   \star_H
   e^{A_2}
   \;=\;
-  e^{A_1 + A_2} e^{i \hbar \{A_1,A_2\}}
+  e^{A_1 + A_2} \; e^{\langle A_1 A_2\rangle}
 $$
 
-where on the right we have the [[exponential]] of the [[Peierls-Poisson bracket]].
+where on the right we have the [[exponential]] [[Wightman 2-point function]] (eq:StarProductOfTwoLinearObservables).
 
 =--
 
 (e.g. [Dütsch 18, exercise 2.3](#Duetsch18))
 
 ## Hadamard vacuum states on Wick algebras
+ {#HadamardVacuumStatesOnWickAlgebras}
 
 (...)
 
