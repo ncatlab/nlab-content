@@ -1,3 +1,4 @@
+> not to be confused with [[Wigner's theorem]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
