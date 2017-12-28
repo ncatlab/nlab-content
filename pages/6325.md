@@ -19,7 +19,7 @@
 
 ## Idea
 
-The _Stone--von Neumann theorem_ (due to [[Marshall Stone]] and [[John von Neumann]]) says that there is -- up to [[isomorphism]] -- a unique [[irreducible representation|irreducible]] [[unitary representation]] of the [[Heisenberg group]] on finitely many generators (equivalently: of the [[associative algebra|algebra]] of [[canonical commutation relations]]).
+The _Stone--von Neumann theorem_ (due to [[Marshall Stone]] and [[John von Neumann]]) says that there is -- up to [[isomorphism]] -- a unique [[irreducible representation|irreducible]] [[unitary representation]] of the [[Heisenberg group]] on finitely many generators (equivalently: of the [[Weyl relations]] of the [[canonical commutation relations]]).
 
 The analogous statement does _not_ hold for infinitely many generators (as they appear in [[quantum field theory]]); this is _[[Haag's theorem]]_.
 
