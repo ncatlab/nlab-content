@@ -1081,7 +1081,10 @@ $$
   (D_{\delta_{EL}L})^\ast
   \;=\;
   D_{\delta_{EL}L}
+  \,.
 $$
+
+(In terms of the [[Euler-Lagrange complex]], remark \ref{EulerLagrangeComplex}, this says that the [[Helmholtz operator]] vanishes on the image of the [[Euler-Lagrange operator]].)
 
 =--
 
