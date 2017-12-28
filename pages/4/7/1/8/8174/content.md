@@ -27,7 +27,7 @@ The [[Bousfield-Kan spectral sequence]] was introduced and originally studied in
 
 * [[Aldridge Bousfield]], [[Daniel Kan]], _The homotopy spectral sequence of a space with coefficients in a ring_. Topology, 11, pp. 79&#8211;106, 1972.
 
-* [[Aldridge Bousfield]], [[Daniel Kan]], _A second quadrant homotopy spectral sequence_, Transactions of the American Mathematical Society Vol. 177, Mar., 1973 
+* [[Aldridge Bousfield]], [[Daniel Kan]], _A second quadrant homotopy spectral sequence_, Transactions of the American Mathematical Society Vol. 177, Mar., 1973 ([pdf](http://www.ams.org/journals/tran/1973-177-00/S0002-9947-1973-0372859-6/S0002-9947-1973-0372859-6.pdf))
 
 * [[Aldridge Bousfield]], [[Daniel Kan]], _Pairings and products in the homotopy
 spectral sequence_. Transactions of the American Mathematical Society, 177,
