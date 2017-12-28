@@ -108,6 +108,8 @@ of $E_8$ in F-theory_, 2014 ([pdf](http://stringpheno2014.ictp.it/parallels/tues
 
 Claim that [[proton decay]] may be entirely avoided:
 
+* Andreas Mütter, Michael Ratz, Patrick K.S. Vaudrevange, _Grand Unification without Proton Decay_ ([arXiv:1606.02303](https://arxiv.org/abs/1606.02303))
+
 * Bartosz Fornal, Benjamin Grinstein, _$SU(5)$ Unification without Proton Decay_, Physics Review Letters ([arXiv:1706.08535](https://arxiv.org/abs/1706.08535))
 
 [[!redirects GUTs]]
