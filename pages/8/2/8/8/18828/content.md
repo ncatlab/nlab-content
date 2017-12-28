@@ -5,12 +5,12 @@
 
 While in the [previous chapter](#ReducedPhaseSpace) we had constructed the [[reduced phase space]] of a [[Lagrangian field theory]], embodied by the [[local BV-BRST complex]] (example \ref{LocalBVBRSTComplexIsDerivedCriticalLocusOfEulerLagrangeForm}), as the [[homotopy quotient]] by the [[infinitesimal gauge symmetries]] of the [[homotopy intersection]] with the [[shell]], this in general still does not yield a [[covariant phase space]] of [[on-shell]] [[field histories]] (prop. \ref{CovariantPhaseSpace}), since [[Cauchy surfaces]] for the [[equations of motion]] may still not exist (def. \ref{CauchySurface}).
 
-However, with the [[homological resolution]] constituted by the [[BV-BRST complex]] in hand, we now have the freedom to adjust the [[field (physics)|field]]-content of the theory without changing its would-be [[reduced phase space]], namely without changing its [[BV-BRST cohomology]]. In particular we may adjoin further "[[auxiliary fields]]" in various degrees, as long as they contribute only a [[contractible chain complex|contractible cochain complex]] to the [[BV-BRST complex]]. If such a _[[quasi-isomorphism]]_ of [[BV-BRST complexes]] brings the [[Lagrangian field theory]] into a form such that the [[equations of motion]] of the combined [[field (physics)|fields]], [[ghost fields]] and potential further [[auxiliary fields]] are [[Green hyperbolic differential equations]] after all, and thus admit a [[covariant phase space]], then this is called a _[[gauge fixing]]_ (def. \ref{GaugeFixingLagrangianDensity} below), since it is the [[infinitesimal gauge symmetries]] which [[obstruction|obstruct]] the existence of [[Cauchy surfaces]] (by prop. \ref{NonTrivialImplicitInfinitesimalGaugeSymmetriesPbstructExistenceOfCauchySurfaces} and remark \ref{GaugeParametrizedInfinitesimalGaugeTransformation}.
+However, with the [[homological resolution]] constituted by the [[BV-BRST complex]] in hand, we now have the freedom to adjust the [[field (physics)|field]]-content of the theory without changing its would-be [[reduced phase space]], namely without changing its [[BV-BRST cohomology]]. In particular we may adjoin further "[[auxiliary fields]]" in various degrees, as long as they contribute only a [[contractible chain complex|contractible cochain complex]] to the [[BV-BRST complex]]. If such a _[[quasi-isomorphism]]_ of [[BV-BRST complexes]] brings the [[Lagrangian field theory]] into a form such that the [[equations of motion]] of the combined [[field (physics)|fields]], [[ghost fields]] and potential further [[auxiliary fields]] are [[Green hyperbolic differential equations]] after all, and thus admit a [[covariant phase space]], then this is called a _[[gauge fixing]]_ (def. \ref{GaugeFixingLagrangianDensity} below), since it is the [[infinitesimal gauge symmetries]] which [[obstruction|obstruct]] the existence of [[Cauchy surfaces]] (by prop. \ref{NonTrivialImplicitInfinitesimalGaugeSymmetriesPbstructExistenceOfCauchySurfaces} and remark \ref{GaugeParametrizedInfinitesimalGaugeTransformation}).
 
 The archetypical example is the [[Gaussian-averaged Lorenz gauge]] [[gauge fixing|fixing]] of the [[electromagnetic field]] (example \ref{NLGaugeFixingOfElectromagnetism} below) which reveals that the gauge-invariant content of [[electromagnetic waves]] is only in their transversal [[wave polarization]] (prop. \ref{GaugeInvariantPolynomialOnShellObservablesOfFreeElectromagneticField} below).
 
 The tool of [[gauge fixing]] via [[quasi-isomorphisms]] of [[BV-BRST complexes]] finally brings us in position to consider, in the following chapters, the [[quantization]] also of [[gauge theories]]: We use [[gauge fixing]] [[quasi-isomorphisms]]
-to bring the [[BV-BRST complexes]] of the given [Lagrangian field theories]] into a form that admits degreewise [[quantization]] of a [[graded manifold|graded]] [[covariant phase space]] of [[fields (physics)|fields]], [[ghost fields]] and possibly further [[auxiliary fields]], compatible with the gaug-fixed [[BV-BRST differential]]:
+to bring the [[BV-BRST complexes]] of the given [[Lagrangian field theories]] into a form that admits degreewise [[quantization]] of a [[graded manifold|graded]] [[covariant phase space]] of [[fields (physics)|fields]], [[ghost fields]] and possibly further [[auxiliary fields]], compatible with the gaug-fixed [[BV-BRST differential]]:
 
 $\,$
 
@@ -150,7 +150,7 @@ A [[homomorphism]] of [[differential graded-commutative superalgebras]] (such as
 induces an [[isomorphism]] in [[cochain cohomology]] is called a _[[quasi-isomorphism]]_. We now discuss two
 classes of [[quasi-isomorphisms]] between [[BV-BRST complexes]]:
 
-1. _[[gauge fixing]] (def. \ref{GaugeFixingLagrangianDensity} below)
+1. _[[gauge fixing]]_ (def. \ref{GaugeFixingLagrangianDensity} below)
 
 1. _adjoining [[auxiliary fields]]_ (def. \ref{AuxiliaryFields} below).
 
@@ -338,7 +338,7 @@ $$
 ###### Proof
 
 By prop. \ref{BasicPropertiesOfTheLocalAntibracket}
-the [[local antibracket]] $\left\{ -,-\right\}$ is a graded [[derivation]] in its second of degree one more than the degree of its first argument (eq:LocalAntibracketGradedDerivationInSecondArgument). Hence for the first argument of degree -1 this implies
+the [[local antibracket]] $\left\{ -,-\right\}$ is a graded [[derivation]] in its second argument, of degree one more than the degree of its first argument (eq:LocalAntibracketGradedDerivationInSecondArgument). Hence for the first argument of degree -1 this implies
 that $e^{\{\mathbf{L}_{gf}, - \}}$ is an automorphism of the local antibracket. Moreover, it is clear from the definition that
 $\left\{ \mathbf{L}_{gf},-\right\}$ is a [[derivation]] with respect to the pointwise product of smooth functions,
 so that $e^{\{\mathbf{L}_{gf},-\}}$ is also a homomorpism of graded algebras.
@@ -448,7 +448,7 @@ for the original Lagrangian field theory, and $\mathbf{L}'$ the corresponding _g
 
 What we call a _[[gauge fixing Lagrangian density]]_ $\mathbf{L}_{gf}$ in def. \ref{GaugeFixingLagrangianDensity} is traditionally called a _[[gauge fixing fermion]]_ and denoted by "$\psi$" ([Henneaux 90, section 8.3, 8.4](BRST+complex#Henneaux90)).
 
-Here "fermion" is meant as a reference to the fact that the cohomological degree $deg(L_{gf}) = -1$, which is reminiscent of the odd [[supergeometry|super-degree]] of [[fermion]] fields such as the [[Dirac field]] (example \ref{DiracFieldBundle}); see at _[[signs in supergeometry]]_ the section _[The super odd sign rule](signs+in+ supergeometry#SuperOddConvention)_. But the [[gauge fixing Lagrangian density]] in general has nothing to do with [[fermion fields]], even though of course it may depend on any fermion fields present in the theory.
+Here "fermion" is meant as a reference to the fact that the cohomological degree $deg(L_{gf}) = -1$, which is reminiscent of the odd [[supergeometry|super-degree]] of [[fermion]] fields such as the [[Dirac field]] (example \ref{DiracFieldBundle}); see at _[[signs in supergeometry]]_ the section _[The super odd sign rule](signs+in+ supergeometry#SuperOddConvention)_. 
 
 =--
 
@@ -573,7 +573,7 @@ $\,$
 **adjoining [[contractible chain complexes|contractible cochain complexes]] of [[auxiliary fields]]**
   {#AdjoiningAuiliaryFields}
 
-Typically a [[Lagrangian field theory]] $(E,\mathbf{L})$ for given choice of [[field bundle]], even after finding appropriate [[gauge parameter bundles]] $\mathcal{G}$ does not yet admit a [[gauge fixing Lagrangian density]] (def. \ref{GaugeFixingLagrangianDensity}).
+Typically a [[Lagrangian field theory]] $(E,\mathbf{L})$ for given choice of [[field bundle]], even after finding appropriate [[gauge parameter bundles]] $\mathcal{G}$, does not yet admit a [[gauge fixing Lagrangian density]] (def. \ref{GaugeFixingLagrangianDensity}).
 But if the [[gauge parameter bundle]] has been
 chosen suitably, then the remaining [[obstruction]] vanishes "up to [[homotopy]]" in that a [[gauge fixing Lagrangian density]]
 does exist if only one adjoins sufficiently many [[auxiliary fields]] forming a [[contractible chain complex|contractible complex]], hence without changing the [[cochain cohomology]] of the [[BV-BRST complex]]:
@@ -588,7 +588,7 @@ $$
   A \overset{aux}{\longrightarrow} \Sigma
 $$
 
-be any [[graded manifold|graded]] [[vector bundle]] (remark \ref{dgManifolds}), to be regarded as a [[field bundle]] (def. \ref{FieldsAndFieldBundles}) for _[[auxiliary fields]]_. If this is a [[trivial vector bundle]] (example \ref{TrivialVectorBundleAsAFieldBundle}) we denote its field coordinates $(b^i)$. On the corresponding graded bundle with degrees shifted down by one
+be any [[graded manifold|graded]] [[vector bundle]] (remark \ref{dgManifolds}), to be regarded as a [[field bundle]] (def. \ref{FieldsAndFieldBundles}) for _[[auxiliary fields]]_. If this is a [[trivial vector bundle]] (example \ref{TrivialVectorBundleAsAFieldBundle}) we denote its field [[coordinates]] by $(b^i)$. On the corresponding graded bundle with degrees shifted down by one
 
 $$
   A[-1] \overset{aux[-1]}{\longrightarrow} \Sigma
@@ -884,7 +884,7 @@ As an example of the general theory of BV-BRST [[gauge fixing]] above we now dis
 ###### Example
 **([[Gaussian-averaged Lorenz gauge]] [[gauge fixing|fixing]] of [[vacuum]] [[electromagnetism]])**
 
-Consider the [[local BV-BRST complex]] for [[vacuum]] [[electromagnetism]] on [[Minkowski spacetime]] from example \ref{LocalBVComplexOfVacuumElectromagnetismOnMinkowskiSpacetime}:
+Consider the [[local BV-BRST complex]] for the [[free field theory|free]] [[electromagnetic field]] on [[Minkowski spacetime]] from example \ref{LocalBVComplexOfVacuumElectromagnetismOnMinkowskiSpacetime}:
 
 The [[field bundle]] is $E \coloneqq T^\ast \Sigma$ and the [[gauge parameter bundle]]  is $\mathcal{G} \coloneqq \Sigma \times \mathbb{R}$.
 The 0-jet field coordinates are
@@ -931,7 +931,7 @@ $$
       \\
       \text{electromagnetic field}
     }
-    & (a^\ddagger)^\mu &\mapsto&  f^{\nu \mu}_{,\nu}  & \text{equations of Motion}
+    & (a^\ddagger)^\mu &\mapsto&  f^{\nu \mu}_{,\nu}  & \text{equations of motion}
     \\
     \phantom{A}
     \\
@@ -1111,14 +1111,14 @@ $$
 
 (So we are in the traditional situation of example \ref{GaugeFixingViaAntiLagrangianSubspaces}.)
 
-Therefore the corresponding [[gauge fixing|gauge fixed]] [[Lagrangian density]]  (eq:GaugeFixedLagrangianDensity) is ([Henneaux 90 (103b)](Nakanishi-Lautrup+field#Henneaux90))
+Therefore the corresponding [[gauge fixing|gauge fixed]] [[Lagrangian density]]  (eq:GaugeFixedLagrangianDensity) is (see also [Henneaux 90 (103b)](Nakanishi-Lautrup+field#Henneaux90)):
 
 $$
 \label{GaussianAveragedLorentzianGaugeFixOfElectromagneticFieldOnMinkowskiSpacetime}
   \begin{aligned}
     -\mathbf{L}' + \mathbf{L}'_{BRST}
       & \coloneqq
-    \e^{\left\{ \mathbf{L}_{gf} ,-\right\}}\left( -\mathbf{L}_{EM} + \mathbf{L}_{BRST} + \mathbf{L}_{aux}  \right)
+     e^{\left\{ \mathbf{L}_{gf} ,-\right\}}\left( -\mathbf{L}_{EM} + \mathbf{L}_{BRST} + \mathbf{L}_{aux}  \right)
     \\
     & =
     -
@@ -1236,7 +1236,7 @@ $$
     \\
     b &\mapsto& 0
     \\
-    \overline{c} &\mapsto b&
+    \overline{c} &\mapsto & b
   }
 $$
 
@@ -1475,37 +1475,45 @@ $$
   \array{
      & & s'_{BRST}
      \\
-     \text{antighost field}
+     \array{ \text{antighost} \\ \text{field} }
      &
      \widehat{\overline{\mathbf{C}}}(k)
      &\mapsto&
-     \widehat{\mathbf{B}}(k)  & \text{Nakanishi-Lautrup field}
+     \widehat{\mathbf{B}}(k)  & \array{ \text{Nakanishi-Lautrup} \\ \text{field} }
+     \\
+     \phantom{a}
      \\
      &&& \underset{\text{on-shell}}{=}
      \tfrac{i}{2} k^\mu \widehat{\mathbf{A}}_\mu(k)
      &
-     \text{Lorenz gauge condition}
+     \array{ \text{Lorenz gauge} \\ \text{condition} }
     \\
-    \text{electromagnetic field}
+    \phantom{A}
+    \\ 
+    \array{ \text{electromagnetic} \\ \text{field} }
     &
     e^\mu \widehat{\mathbf{A}}_\mu(k)
       &\mapsto&
     i \left(e^\mu k_\mu\right) \widehat{\mathbf{C}}(k)
     &
     \array{
-      \text{polarization contracted with wave vector}
+      \text{polarization contracted} 
+      \\ 
+      \text{with wave vector}
       \\
       \text{times ghost field}
     }
     \\
-    \text{Nakanishi-Lautrup field}
+    \phantom{A}
+    \\
+    \array{ \text{Nakanishi-Lautrup} \\ \text{field} }
     & \widehat{\mathbf{B}}
     &\mapsto&
     0
   }
 $$
 
-This means that the BRST cohomology on linear on-shell observables at $deg_{gh} = 0$ is
+This impies that the gauge fixed [[BRST cohomology]] on linear on-shell observables at $deg_{gh} = 0$ is the space of transversally polarized linear observables (def. \ref{LinearObservablesOfElectromagenticFieldWavePolarization}):
 
 
 $$
@@ -1555,7 +1563,7 @@ As a corollary we obtain:
 
 +-- {: .num_prop #BRSTCohomologyOnPolynomialOnShellObservabledOfTheGaussianAveragedLorenzGaugeFixedElectromagneticField}
 ###### Proposition
-**([[BRST cohomology]] on polynomial [[on-shell]] [[observables]] of the [[Gaussian-averaged Lorenz gauge]] [[gauge fixed|fixed]] [[electromagnetic field]])**
+**([[BRST cohomology]] on polynomial [[on-shell]] [[observables]] of the [[Gaussian-averaged Lorenz gauge]] [[gauge fixing|fixed]] [[electromagnetic field]])**
 
 After [[gauge fixing|fixing]] [[Gaussian-averaged Lorenz gauge]] (example \ref{NLGaugeFixingOfElectromagnetism}) of the [[electromagnetic field]] on [[Minkowski spacetime]], the [[BRST cohomology]] on the [[Gaussian-averaged Lorenz gauge]] [[gauge fixing|fixed]] (def. \ref{NLGaugeFixingOfElectromagnetism}) polynomial on-shell observables (def. \ref{PolynomialObservables}) at $deg_{gh} = 0$ (prop. \ref{DerivedCriticalLocusOfActionLiAlgebroidBicomplexStructure}) is [[isomorphism|isomorphic]] to the distributional polynomial algebra on transversally polarized linear observables, def. \ref{LinearObservablesOfElectromagenticFieldWavePolarization}:
 
