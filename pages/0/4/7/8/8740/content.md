@@ -128,7 +128,7 @@ $(-) \star_\pi (-)$ from def. \ref{StarPoduct}
 is [[associativity|associative]] and [[unitality|unital]]
 with unit the [[constant function]] $1 \in C^\infty(V) \hookrightarrow C^\infty(V)[ [ \hbar ] ]$.
 
-Hence the [[vector space]] $C^\infty(V)$ equipped with the star product $\pi$ is a [[unital algebra|unital]] [[associative algebra]].
+Hence the [[vector sspace]] $C^\infty(V)$ equipped with the [[star product]] $\pi$ is a [[unital algebra|unital]] [[associative algebra]].
 
 =--
 
@@ -628,7 +628,6 @@ If the tensor $\pi$ in def. \ref{StarPoduct} is skew-symmetric, it may be regard
 
 #### Finite dimensional
 
-
 +-- {: .num_defn #AlmostKaehlerVectorSpace}
 ###### Definition
 **([[Kähler vector space]])**
@@ -745,49 +744,71 @@ $$
 ###### Definition
 **([[Wick algebra]] of a [[Kähler vector space]])**
 
-Let $(\mathbb{R}^{2n},\sigma, g)$ be a [[Kähler vector space]] (def. \ref{AlmostKaehlerVectorSpace}). Then its _Wick algebra_ is the [[formal power series]] vector space $\mathbb{C}[ [ a_1, a^\ast_1, \cdots, a_n, a^\ast_n  ] ] [ [ \hbar ] ]$ equipped with the [[star product]]
-
-$$
-  \begin{aligned}
-    P_1 \star_\pi P_2
-    & \coloneqq
-    prod \circ \exp \left( \hbar\underoverset{k_1, k_2 = 1}{2 n}{\sum}\pi^{a b} \partial_a \otimes  \partial_b \right)  (P_1 \otimes P_2)
-    \\
-    & =
-    P_1 \cdot P_2 + \hbar \underoverset{k_1, k_2 = 1}{2n}{\sum}\pi^{k_1 k_2}(\partial_{k_1} P_1) \cdot (\partial_{k_2} P_2)
-    + \cdots
-  \end{aligned}
-$$
-
-given by the bilinear form
+Let $(\mathbb{R}^{2n},\sigma, g)$ be a [[Kähler vector space]] (def. \ref{AlmostKaehlerVectorSpace}). Then its _Wick algebra_ is the [[formal power series]] vector space $\mathbb{C}[ [ \mathbb{R}^{2n}  ] ] [ [ \hbar ] ]$ equipped with the [[star product]] (def. \ref{StarPoduct})
+which is given by the [[bilinear form]]
 
 $$
   \label{InStarProductTensorInvertingHermitianForm}
   \pi \coloneqq \tfrac{i}{2} \omega^{-1} + \tfrac{1}{2} g^{-1}
-  \,.
+  \,,
 $$
 
-Here
+hence:
 
 $$
-  prod \;\colon\; \mathbb{C}[ [ a_1, a^\ast_1, \cdots, a_n, a^\ast_n  ] ] [ [ \hbar ] ]
-  \otimes_{\mathbb{R}}
-  \mathbb{C}[ [ a_1, a^\ast_1, \cdots, a_n, a^\ast_n  ] ] [ [ \hbar ] ]
-   \longrightarrow
-   \mathbb{C}[ [ a_1, a^\ast_1, \cdots, a_n, a^\ast_n  ] ] [ [ \hbar ] ]
-$$
-
-is the ordinary (commutative) product in the [[formal power series algebra]].
-
-To make contact with the traditional notation we decorate the elements $P$ in the formal power series algebra with colons and declare the notation
-
-$$
-  : P_1 : \, :P_2:
-  \;\coloneqq\;
-  : P_1 \star_\pi P_2 :
+  \begin{aligned}
+    A_1 \star_\pi A_2
+    & \coloneqq
+    ((-)\cdot (-)) \circ \exp \left( \hbar\underoverset{k_1, k_2 = 1}{2 n}{\sum}\pi^{a b} \partial_a \otimes  \partial_b \right)  (A_1 \otimes A_2)
+    \\
+    & =
+    A_1 \cdot A_2 + \hbar \underoverset{k_1, k_2 = 1}{2n}{\sum}\pi^{k_1 k_2}(\partial_{k_1} A_1) \cdot (\partial_{k_2} A_2)
+    + \cdots
+  \end{aligned}
 $$
 
 =--
+
++-- {: .num_prop #StarProductAlgebraOfKaehlerVectorSpaceIsStarAlgebra}
+###### Proposition
+**([[star product]] [[associative algebra|algebra]] of [[Kähler vector space]] is [[star-algebra]])**
+
+Under [[complex conjugation]] the [[star product]] $\star_\pi$ of a [[Kähler vector space]] structure (def. \ref{WickAlgebraOfAlmostKaehlerVectorSpace}) is a [[star algebra]] in that for all $A_1, A_2 \in \mathbb{C}[ [\mathbb{R}^{2n}] ][ [\hbar] ]$ we have
+
+$$
+  \left( A_1 \star_\pi A_2 \right)^\ast
+  \;=\;
+  A_2^\ast \star_\pi A_1^\ast
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+This follows directly from that fact that in $\pi = \tfrac{i}{2} \omega^{-1} + \tfrac{1}{2} g^{-1}$ the [[imaginary part]] coincides with the skew-symmetric part, so that
+
+$$
+  \begin{aligned}
+    (\pi^\ast)^{a b}
+    & =
+    -\tfrac{i}{2} (\omega^{-1})^{a b}
+    + \tfrac{1}{2} (g^{-1})^{a b}
+    \\
+    & = 
+    \tfrac{i}{2} (\omega^{-1})^{b a}
+    +   
+    \tfrac{1}{2} (g^{-1})^{b a}
+    \\
+    & = \pi^{b a}
+    \,.
+  \end{aligned}
+$$
+
+
+
+=--
+
 
 +-- {: .num_example #WickAlgebraOfASingleMode}
 ###### Example
@@ -815,7 +836,7 @@ $$
   a \;\coloneqq\; \tfrac{1}{\sqrt{2}}(x - i y)
 $$
 
-(with "$a$" the traditional symbol for the _amplitude_ of a field mode).
+(with "$a$" the traditional symbol for the _[[amplitude]]_ of a field mode).
 
 Now
 
