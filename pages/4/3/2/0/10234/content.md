@@ -22,7 +22,9 @@
 
 A _proton_ is a [[bound state]] of three [[quarks]], hence a [[baryon]].
 
-The bound states of [[protons]] and [[neutrons]] are called [[nucleus (physics)|nuclei]], the core of [[atoms]].
+The bound states of [[protons]] and [[neutrons]] are called [[nucleus (physics)|nuclei]], the core of [[atoms]]. The proton alone is the nucleus of the [[hydrogen atom]].
+
+In the [[standard model of particle physics]] the proton is stable, and [[experiment]] highly constrains possible rare [[proton decay]] (see there). But some [[model (physics)|models]] beyond the standard model (notably many, but not all, [[GUT]] [[model (physics)|models]]) do imply rare [[proton decay]].
 
 ## Properties
 
