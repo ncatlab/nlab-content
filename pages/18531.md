@@ -83,21 +83,36 @@ $$
   \mathcal{D}'(X)
 $$
 
-such that on smooth functions it acts by precomposition with $f$.
+such that 
 
-Moreover for $u$ a distribution in the domain on the left, the [[wave front set]] of its pullback is inside the pullback of its wave front set
+1. on [[non-singular distributions]] $u_g$ corresponding to [[smooth functions]] $g \colon Y \to \mathbb{C}$ it acts by [[precomposition]] with $f$:
 
-$$
-  \label{WaveFrontSetOfPullbackDistributionIsInsidePullbackOfWaveFrontSet}
-  WF(f^\ast u)
-  \subset
-  f^\ast WF(u)
-  \,.
-$$
+   $$
+     f^\ast (u_g) = u_{g \circ f}
+   $$
+
+1. for $u$ a distribution in the domain on the left, the [[wave front set]] of its pullback is inside the pullback of its wave front set
+
+  $$
+    \label{WaveFrontSetOfPullbackDistributionIsInsidePullbackOfWaveFrontSet}
+    WF(f^\ast u)
+    \subset
+    f^\ast WF(u)
+    \coloneqq
+    \left\{ 
+      (x, (d f(x))^\ast k)
+      \;\vert\;
+      ( f(x), \eta )
+      \in 
+      WF(u)
+    \right\}
+  $$
+
 
 =--
 
 ([Hörmander 90, theorem 8.2.4](#Hoermander90))
+
 
 
 ## Examples
@@ -123,6 +138,8 @@ where $i_\ast b \in C^\infty_{cp}(X)$ is the result of [[extension|extending]] $
 
 
 =--
+
+
 
 ## Related concepts
 
