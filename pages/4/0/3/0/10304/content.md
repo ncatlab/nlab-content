@@ -13,6 +13,12 @@
 * table of contents
 {:toc}
 
+## Experiments
+
+* [[LHC]], [[LIGO]]
+
+* [[Super-Kamiokande]]
+
 ## Related entries
 
 * [[measurement]], [[quantum measurement]]
@@ -20,8 +26,6 @@
 * [[theory (physics)]], [[coordination]]
 
 * [[observable universe]]
-
-* [[LHC]], [[LIGO]]
 
 * [[standard model of particle physics]], [[standard model of cosmology]]
 
