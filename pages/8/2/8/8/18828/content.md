@@ -10,7 +10,7 @@ However, with the [[homological resolution]] constituted by the [[BV-BRST comple
 The archetypical example is the [[Gaussian-averaged Lorenz gauge]] [[gauge fixing|fixing]] of the [[electromagnetic field]] (example \ref{NLGaugeFixingOfElectromagnetism} below) which reveals that the gauge-invariant content of [[electromagnetic waves]] is only in their transversal [[wave polarization]] (prop. \ref{GaugeInvariantPolynomialOnShellObservablesOfFreeElectromagneticField} below).
 
 The tool of [[gauge fixing]] via [[quasi-isomorphisms]] of [[BV-BRST complexes]] finally brings us in position to consider, in the following chapters, the [[quantization]] also of [[gauge theories]]: We use [[gauge fixing]] [[quasi-isomorphisms]]
-to bring the [[BV-BRST complexes]] of the given [[Lagrangian field theories]] into a form that admits degreewise [[quantization]] of a [[graded manifold|graded]] [[covariant phase space]] of [[fields (physics)|fields]], [[ghost fields]] and possibly further [[auxiliary fields]], compatible with the gaug-fixed [[BV-BRST differential]]:
+to bring the [[BV-BRST complexes]] of the given [[Lagrangian field theories]] into a form that admits degreewise [[quantization]] of a [[graded manifold|graded]] [[covariant phase space]] of [[fields (physics)|fields]], [[ghost fields]] and possibly further [[auxiliary fields]], compatible with the gauge-fixed [[BV-BRST differential]]:
 
 $\,$
 
