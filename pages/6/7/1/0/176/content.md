@@ -406,7 +406,9 @@ Introduction and surveys include
 
 * [[Ingo Runkel]], _Boundary problems in conformal field theory_ ([pdf](http://www.math.uni-hamburg.de/home/runkel/PDF/phd.pdf))
 
-* Yu Nakayama, _A lecture note on scale invariance vs conformal invariance_ ([arXiv:1302.0884](http://arxiv.org/abs/1302.0884))
+* Yu Nakayama, _A lecture note on scale invariance vs conformal invariance_, [arXiv:1302.0884](http://arxiv.org/abs/1302.0884)
+
+* Jeorg Teschner, _A guide to two-dimensional conformal field theory_, [arXiv:1708.00680](http://arxiv.org/abs/1708.00680)
 
 For a survey of perspectives in CFT with an eye towards [[string theory]] see various contributions in 
 
