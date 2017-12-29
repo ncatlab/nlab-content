@@ -85,7 +85,7 @@ The [[tensor product]] of [[vector spaces]] has the universal property that a [[
 We have more degenerate examples such as the terminal object:
 +-- {: .num_example}
 ###### Example (terminal and initial objects)
-In the [[category of sets]], the singleton $1$ satisfies the property that there is always a unique from any object to $1$. So we can say that the maps $A \to 1$ biject (necessarily naturally) with the set $1$. More generally, in any category, if an object $X$ is such that there is always a unique map from any object to $X$, then $X$ is called the [[terminal object]].
+In the [[category of sets]], the singleton $1$ satisfies the property that there is always a unique map from any object to $1$. So we can say that the maps $A \to 1$ biject (necessarily naturally) with the set $1$. More generally, in any category, if an object $X$ is such that there is always a unique map from any object to $X$, then $X$ is called the [[terminal object]].
 
 Dually, an intial object is an object $0$ such that there is a unique map from $0$ to any object $X$.
 =--
