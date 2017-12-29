@@ -1112,7 +1112,16 @@ $\alpha \in \Omega^{s-1,0}_\Sigma(E)$ with $\omega = d \alpha$.
 
 (e.g. [Anderson 89, prop. 4.3](variational+bicomplex#Anderson89))
 
-We will encounter the extension of the [[exact sequence]] (eq:ExactSequenceTotalSpacetimeDerivative) further steps to the right below in example \ref{TrivialLagrangianDensities}.
+
++-- {: .num_remark #EulerLagrangeComplex}
+###### Remark
+**([[Euler-Lagrange complex]])**
+
+In fact the exact sequence (eq:ExactSequenceTotalSpacetimeDerivative) from prop. \ref{HorizontalVariationalComplexOfTrivialFieldBundleIsExact} continues further to the right, as such called the _[[Euler-Lagrange complex]]_. The next differential is the _[[Euler-Lagrange operator]]_ and then then next is the _[[Helmholtz operator]]_.
+
+Here we do not discuss this in detail, but we encounter aspects of the exactness further to the right below in example \ref{TrivialLagrangianDensities} and in prop. \ref{EvolutionaryDerivativeOfEulerLagrangeFormIsFormallySelfAdjoint}.
+
+=--
 
 
 $\,$
