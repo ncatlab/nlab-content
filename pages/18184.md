@@ -42,11 +42,11 @@ More [[category theory|category theoretically]], the attaching space is the [[pu
 
 $$
   \array{
-    A &\overset{\phantom{A}i\phantom{A}}{\hookrightarrow}& Y
+    A &\overset{\phantom{A}i\phantom{A}}{\hookrightarrow}& X
     \\
     {}^{\mathllap{f}}\downarrow &(po)& \downarrow
     \\
-    X &\longrightarrow& X \cup_f Y
+    Y &\longrightarrow& X \cup_f Y
   }
   \,.
 $$
