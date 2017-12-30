@@ -235,6 +235,10 @@ The relation of locally constant factorization algebras to higher order [[Hochsc
 
 * [[Gregory Ginot]], Thomas Tradler, Mahmoud Zeinalian, _Derived higher Hochschild homology, topological chiral homology and factorization algebras_, [arxiv/1011.6483](http://arxiv.org/abs/1011.6483)
 
+A comparison with FQFT for TFTs is presented in
+
+* C. Scheimbauer, _A factorization view on states/observables in topological field theories_ [youtube](https://www.youtube.com/watch?v=nN-qtnbtpW4) 19 min, string-math 2017, Hamburg
+
 An [[(infinity,1)-category theory|(infinity,1)-category theoretic ]] treatment of higher factorization algebras is in 
 
 * [[Dennis Gaitsgory]], [[John Francis]] _Chiral Koszul duality_ ([arXiv:1103.5803](http://arxiv.org/abs/1103.5803))
