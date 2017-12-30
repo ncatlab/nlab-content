@@ -53,6 +53,16 @@ However, a more direct argument makes the structure of the proof more clear.  Wh
 
 In particular, this shows how the [[double negation]] [[modality]] can be regarded computationally as a sort of [[continuation-passing]] transform.
 
+However, there is another meaning of "double negated PEM" that is not valid.  The above argument shows that
+
+$$ \forall A, \neg\neg(A\vee \neg A). $$
+
+But a stronger statement is
+
+$$ \neg\neg \forall A, (A \vee \neg A).$$
+
+This is related to the above valid statement by a [[double-negation shift]]; and in fact, the truth of $ \neg\neg \forall A, (A \vee \neg A)$ is equivalent to the principle of double-negation shift.  In particular, it is *not* constructively provable.
+
 ## Related concepts
 
 * [[axiom of choice]]
