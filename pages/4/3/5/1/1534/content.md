@@ -208,9 +208,13 @@ A fairly comprehensive account of factorization algebras as a formalization of [
 
 * [[Owen Gwilliam]], _Factorization algebras and free field theories_ PhD thesis ([[GwilliamThesis.pdf:file]])
 
-and the beginning of
+* [[Owen Gwilliam]], [[Kasia Rejzner]], _Comparing nets and factorization algebras of observables: the free scalar field_, [arxiv:1711.06674](https://arxiv.org/abs/1711.06674)
 
-* [[Kevin Costello]], _Notes on supersymmetric and holomorphic field theories in dimensions 2 and 4_ ([arXiv:1111.4234](http://arxiv.org/abs/1111.4234))
+
+and the beginnings of
+
+* [[Kevin Costello]], _Notes on supersymmetric and holomorphic field theories in dimensions 2 and 4_, [arXiv:1111.4234](http://arxiv.org/abs/1111.4234)
+* K. Costello, C. Scheimbauer, _Lectures on mathematical aspects of (twisted) supersymmetric gauge theories_, pp. 57-88 in: Mathematical aspects of QFTs, D. Calaque, T. Strobl editors, Springer 2015
 
 Lecture notes include
 
