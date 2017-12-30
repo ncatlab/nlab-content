@@ -81,6 +81,9 @@ There are various other results that are equivalent to or related to the princip
 [[!redirects principle of omniscience]]
 [[!redirects principles of omniscience]]
 
+[[!redirects omniscience principle]]
+[[!redirects omniscience principles]]
+
 [[!redirects LPO]]
 [[!redirects Limited Principle of Omniscience]]
 [[!redirects limited principle of omniscience]]
