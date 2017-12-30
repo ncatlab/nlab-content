@@ -50,6 +50,15 @@ classical logic can be just as 'constructive' as
 intuitionistic logic as far as proving the totality of
 functions $\mathbb{N} \to \mathbb{N}$ is concerned.
 
+## Classicality principles
+
+The principle of [[excluded middle]] is not provable in intuitionistic logic, and if we assume it then the logic becomes [[classical logic]].  But there are other principles that are provable classically but not intuitionistically, but which are weaker than full PEM, such as
+
+* various [[omniscience principles]] such as LPO and LLPO
+* the [[double-negation shift]]
+* [[de Morgan's law]], i.e. [[weak excluded middle]]
+* the [[world's simplest axiom of choice]]
+
 ## Related concepts
 
 * [[BHK interpretation]]
