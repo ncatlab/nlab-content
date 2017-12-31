@@ -244,6 +244,10 @@ An [[(infinity,1)-category theory|(infinity,1)-category theoretic ]] treatment o
 * [[Dennis Gaitsgory]], [[John Francis]] _Chiral Koszul duality_ ([arXiv:1103.5803](http://arxiv.org/abs/1103.5803))
  {#GaitsgoryFrancis}
 
+A construction of [[chiral differential operator]]s via quantization of $\beta\gamma$ system in [[BV formalism]] with an intermediate step using factorization algebras:
+
+* Vassily Gorbounov, Owen Gwilliami, Brian Williams, _Chiral differential operators via Batalin-Vilkovisky quantization_, [pdf](http://people.mpim-bonn.mpg.de/gwilliam/cdo.pdf)
+
 A higher-dimensional generalization of vertex algebras is suggested in the framework of factorization algebras in
  
 * Emily Cliff, _Universal factorization spaces and algebras_, [arxiv/1608.08122](http://arxiv.org/abs/1608.08122)
