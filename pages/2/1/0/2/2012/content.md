@@ -67,6 +67,7 @@ were invented with a view toward quantum integrable systems systematizing analog
 * B. A. Dubrovin, _Completely integrable Hamiltonian systems that are associated with matrix operators, and Abelian varieties_, Funkcional. Anal. i Prilo&#382;en. __11__ (1977), no. 4, 28-41, 96, [MR0650114](http://www.ams.org/mathscinet-getitem?mr=0650114)
 * B. A. Dubrovin, _Integrable systems and Riemann surfaces
 lecture notes_, [pdf](http://people.sissa.it/~dubrovin/rsnleq_web.pdf)
+* [[Kevin Costello]], [[Edward Witten]], Masahito Yamazaki, _Gauge theory and integrability I_, [arxiv:1709.09993](https://arxiv.org/abs/1709.09993)
 
 Discussion in the context of [[harmonic maps]] is in 
 
