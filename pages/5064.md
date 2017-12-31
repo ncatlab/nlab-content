@@ -172,3 +172,8 @@ Discussion in the context of [[BV-quantization]] and [[factorization algebras]] 
 
 * [[Owen Gwilliam]], _Factorization algebras and free field theories_ PhD thesis ([pdf](http://math.berkeley.edu/~gwilliam/thesis.pdf)) 
  {#Gwilliam}
+
+A construction of [[chiral differential operator]]s via quantization of $\beta\gamma$ system in [[BV formalism]] with an intermediate step using factorization algebras:
+
+* [[Vassily Gorbounov]], [[Owen Gwilliami]], Brian Williams, _Chiral differential operators via Batalin-Vilkovisky quantization_, [pdf](http://people.mpim-bonn.mpg.de/gwilliam/cdo.pdf)
+
