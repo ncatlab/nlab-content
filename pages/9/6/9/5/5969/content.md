@@ -243,7 +243,7 @@ and is reviewed in
 
 * [[Glenn Barnich]], [[Marc Henneaux]],  section 3 of _Isomorphisms between the Batalin-Vilkovisky antibracket and the Poisson bracket_, Journal of Mathematical Physics 37, 5273-5296 (1996) ([arXiv:hep-th/9601124](http://arxiv.org/abs/hep-th/9601124), [DOI 10.1063/1.531726](http://dx.doi.org/10.1063/1.531726))
 
-The statement that the algebra of currents is a central [[Lie algebra extension]] of the algebra of symmetries by [[de Rham cohomology]] of the jet bundle appears as theorem 11.2 in (Part II of)
+The statement that the Dickey bracket Lie algebra of currents is a central [[Lie algebra extension]] of the algebra of symmetries by [[de Rham cohomology]] of the jet bundle appears as theorem 11.2 in (Part II of)
 
 * {#Vinogradov84a} [[Alexandre Vinogradov]], _The $\mathcal{C}$-spectral sequence, Lagrangian formalism, and conservation laws. I. the linear theory_, Journal of Mathematical Analysis and Applications **100**, 1-40 (1984) ([doi](http://dx.doi.org/10.1016/0022-247x(84)90071-4))
 
@@ -259,6 +259,9 @@ A lift of the Dickey Lie bracket on cohomologically trivial spaces to an equival
 
 * [[Martin Markl]], [[Steve Shnider]], _Differential Operator Endomorphisms of an Euler-Lagrange Complex_, Contemporary Mathematics, Volume 231, 1999 ([arXiv:9808105](http://arxiv.org/abs/math/9808105))
 
+The cohomologically non-trivial lift is discussed in
+
+* [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:Lie n-algebras of BPS charges]]_, J. High Energ. Phys. (2017) 2017: 87 ([arXiv:1507.08692](http://arxiv.org/abs/1507.08692))
 
 ### In variational calculus
 
@@ -309,14 +312,3 @@ category: physics
 [[!redirects Noether current algebra]]
 [[!redirects Noether current algebras]]
 
-[[!redirects Dickey bracket]]
-[[!redirects Dickey brackets]]
-[[!redirects Dickey Lie bracket]]
-[[!redirects Dickey Lie brackets]]
-[[!redirects Dickey Lie-bracket]]
-[[!redirects Dickey Lie-brackets]]
-[[!redirects Dickey-Lie bracket]]
-[[!redirects Dickey-Lie brackets]]
-
-[[!redirects Dickey bracket Lie algebra]]
-[[!redirects Dickey bracket Lie algebras]]
