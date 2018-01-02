@@ -831,7 +831,7 @@ statement of example \ref{GreenHyperbolicDiracOperator} with example \ref{Presym
 
 For the [[free field theory|free]] [[electromagnetic field]] (example \ref{ElectromagnetismLagrangianDensity})
 the assumptions of theorem \ref{PPeierlsBracket} are violated, the [[covariant phase space]] does not exist.
-But in the discuss of _[Gauge fixing](#GaugeFixing)_, below,
+But in the discussion of _[Gauge fixing](#GaugeFixing)_, below,
 we will find that for an equivalent re-incarnation of the electromagnetic field, they are met after all.
 
 
