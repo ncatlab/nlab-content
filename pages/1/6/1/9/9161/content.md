@@ -54,3 +54,6 @@ and (p. 13)
 [[!redirects EM waves]]
 [[!redirects em wave]]
 [[!redirects em waves]]
+
+[[!redirects light wave]]
+[[!redirects light waves]]
