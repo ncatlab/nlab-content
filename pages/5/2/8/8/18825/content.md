@@ -1,8 +1,7 @@
 ## Propagators
  {#Propagators}
 
-In the [previous chapter](#PhaseSpace) we have seen the [[covariant phase space]] (prop. \ref{CovariantPhaseSpace}) of sufficiently nice [[Lagrangian field theories]],
-which is the [[on-shell]] [[space of field histories]] equipped with the [[presymplectic form]] [[transgression of variational differential forms|transgressed]] from the [[presymplectic current]]
+In the [previous chapter](#PhaseSpace) we have seen the [[covariant phase space]] (prop. \ref{CovariantPhaseSpace}) of sufficiently nice [[Lagrangian field theories]], which is the [[on-shell]] [[space of field histories]] equipped with the [[presymplectic form]] [[transgression of variational differential forms|transgressed]] from the [[presymplectic current]]
 of the theory; and we have seen that in good cases this induces a bilinear pairing on sufficiently well-behaved [[observables]],
 called the _[[Poisson bracket]]_ (def. \ref{PoissonBracketOnHamiltonianLocalObservables}), which reflects the [[infinitesimal symmetries]] of the [[presymplectic current]]. This [[Poisson bracket]] is of central importance for passing to actual [[quantum field theory]],
 since, as we will discuss in _[Quantization](#Quantization)_ below, it is the [[infinitesimal]] approximation to the [[quantization]] of a [[Lagrangian field theory]].
@@ -40,7 +39,7 @@ propagator, the _[[Feynman propagator]]_ (def. \ref{FeynmanPropagatorForKleinGor
 We will see [below](#Quantization) that the [[quantization]] of a [[free field theory]] is given by a
 "[[star product]]" (on [[observables]]) which is given by "[[exponential|exponentiating]]" these [[propagators]].
 For that to make sense, certain pointwise products of these [[propagators]], regarded as [[generalized functions]] (prop. \ref{DistributionsAreGeneralizedFunctions}) need to exist. But since the [[propagators]] are [[distributions]] with
-[[singularities]], the existence of these products requires that certain potential "[[UV divergences]]" in their [[Fourier transform of distributions|Fourier transforms]] are absent ("[[Hörmander's criterion]]", prop. \ref{HoermanderCriterionForProductOfDistributions} below). These [[UV divergences]] are captured by what what is called the _[[wave front set]]_ (def. \ref{WaveFrontSet} below).
+[[singularities]], the existence of these products requires that certain potential "[[UV divergences]]" in their [[Fourier transform of distributions|Fourier transforms]] (remark \ref{UltravioletDivergencesFromPaleyWiener} below) are absent ("[[Hörmander's criterion]]", prop. \ref{HoermanderCriterionForProductOfDistributions} below). These [[UV divergences]] are captured by what what is called the _[[wave front set]]_ (def. \ref{WaveFrontSet} below).
 
 The study of [[UV divergences]] of [[distributions]] via their [[wave front sets]] is called _[[microlocal analysis]]_
 and provides powerful tools for the understanding of [[quantum field theory]]. In particular the _[[propagation of singularities theorem]]_ (prop. \ref{PropagationOfSingularitiesTheorem}) shows that for [[distributional solutions to a PDE|distributional solutions]] (def. \ref{DistributionalDerivatives}) of [[Euler-Lagrange equation|Euler-Lagrange]] [[equations of motion]], such as the [[propagators]],
@@ -724,11 +723,16 @@ Equivalently, the above computation shows that the [[delta distribution]] is the
 
 +-- {: .num_prop #PaleyWienerSchwartzTheorem}
 ###### Proposition
-**([[Paley-Wiener-Schwartz theorem]])**
+**([[Paley-Wiener-Schwartz theorem]] I)**
 
 Let $u \in \mathcal{E}'(\mathbb{R}^n) \hookrightarrow \mathcal{S}'(\mathbb{R}^n)$ be a [[compactly supported distribution]] regarded as a [[tempered distribution]] by example \ref{CompactlySupportedDistibutionsAreTemperedDistributions}. Then its [[Fourier transform of distributions]] (def. \ref{FourierTransformOnTemperedDistributions}) is a [[non-singular distribution]] induced from a [[smooth function]] that grows at most exponentially.
 
 =--
+
+(e.g. [Hoermander 90, theorem 7.3.1](Paley-Wiener-Schwartz theorem#Hoermander90))
+
+
+
 
 +-- {: .num_prop #FourierInversionTheoremForDistributions}
 ###### Proposition
@@ -823,7 +827,7 @@ $\,$
 
 A _[[distribution]]_ (def. \ref{LinearObservablesAreTheCompactlySupportedDistributions}) or _[[generalized function]]_ (prop. \ref{DistributionsAreGeneralizedFunctions}) is like a [[smooth function]] which may have "[[singularities]]", namely points at which it values or that of its [[derivative of a distribution|derivatives]] "become infinite". Conversely, [[smooth functions]] are the [[non-singular distributions]] (prop. \ref{DistributionsAreGeneralizedFunctions}). The collection of points around which a distribution is singular (i.e. not [[non-singular distribution|non-singular]]) is called its _[[singular support]]_ (def. \ref{SingularSupportOfADistribution} below).
 
-The [[Fourier transform of distributions]] (def. \ref{FourierTransformOnTemperedDistributions}) decomposes a [[generalized function]] into the [[plane wave]] modes that it is made of (def. \ref{PlaneWaves}). The [[Paley-Wiener-Schwartz theorem]] (prop. \ref{DecayPropertyOfFourierTransformOfCompactlySupportedFunctions} below) says that the singular nature of a [[compactly supported distribution]] may be read off from this [[Fourier mode]] decomposition:  Singularities correspond to large contributions by Fourier modes of high [[frequency]] and small [[wavelength]], hence to large "[[ultraviolet divergence|ultraviolet]]" (UV) contributions. Therefore the [[singular support]] of a distribution is the set of points around which the Fourier transform does not sufficiently decay "in the UV".
+The [[Fourier transform of distributions]] (def. \ref{FourierTransformOnTemperedDistributions}) decomposes a [[generalized function]] into the [[plane wave]] modes that it is made of (def. \ref{PlaneWaves}). The [[Paley-Wiener-Schwartz theorem]] (prop. \ref{DecayPropertyOfFourierTransformOfCompactlySupportedFunctions} below) says that the singular nature of a [[compactly supported distribution]] may be read off from this [[Fourier mode]] decomposition:  Singularities correspond to large contributions by Fourier modes of high [[frequency]] and small [[wavelength]], hence to large "[[ultraviolet divergence|ultraviolet]]" (UV) contributions (remark \ref{UltravioletDivergencesFromPaleyWiener} below). Therefore the [[singular support]] of a distribution is the set of points around which the Fourier transform does not sufficiently decay "in the UV".
 
 But since the [[Fourier transform]] is a function of the full [[wave vector]] of the [[plane wave]] modes (def. \ref{PlaneWaves}),  not just of the [[frequency]]/[[wavelength]], but also of the [[direction of a vector|direction]] of the wave vector, this means that it contains _[[direction of a vector|directional]] information_ about the singularities: A distribution may have UV-singularities at some point and in some [[wave vector]] [[direction of a vector|direction]], but maybe not in other [[direction of a vector|directions]].
 
@@ -914,7 +918,7 @@ $$
 
 +-- {: .num_prop #DecayPropertyOfFourierTransformOfCompactlySupportedFunctions}
 ###### Proposition
-**([[Paley-Wiener-Schwartz theorem]] -- decay of [[Fourier transform of distributions|Fourier transform]] of [[compactly supported functions]])**
+**([[Paley-Wiener-Schwartz theorem]] II -- decay of [[Fourier transform of distributions|Fourier transform]] of [[compactly supported functions]])**
 
 A [[compactly supported distribution]] $u \in \mathcal{E}'(\mathbb{R}^n)$ is non-[[singular support of a distribution|singular]], hence given by a [[compactly supported function]] $b \in C^\infty_{cp}(\mathbb{R}^n)$ via $u(f) = \int b(x) f(x) dvol(x)$, precisely if its [[Fourier transform of a distribution|Fourier transform]] $\hat u$ ([this def.](compactly+supported+distribution#FourierTransformOfCompactlySupportedDistribution)) satisfies the following decay property:
 
@@ -932,16 +936,19 @@ $$
 
 ([H&#246;rmander 90, around (8.1.1)](Paley-Wiener-Schwartz+theorem#Hoermander90))
 
-+-- {: .num_remark}
++-- {: .num_remark #UltravioletDivergencesFromPaleyWiener}
 ###### Remark
 **([[ultraviolet divergences]])**
 
-In words, the [[Paley-Wiener-Schwartz theorem]] (prop. \ref{DecayPropertyOfFourierTransformOfCompactlySupportedFunctions}) says that the [[singular support|singularities]] of a [[distribution]] "in position space" are reflected in the contribution of arbitrarily high [[frequencies]] (small [[wavelength]]) in its [[Fourier transform of distributions|Fourier mode]]-decomposition. Since for ordinary [[light waves]] one associated high [[frequency]] with the "ultraviolet", we may think of these as "ultaviolet contributions".
+In words, the [[Paley-Wiener-Schwartz theorem]] II (prop. \ref{DecayPropertyOfFourierTransformOfCompactlySupportedFunctions}) says that the [[singular support|singularities]] of a [[distribution]] "in position space" are reflected in non-decaying contributions of high [[frequencies]] (small [[wavelength]]) in its [[Fourier transform of distributions|Fourier mode]]-decomposition (def. \ref{FourierTransformOnTemperedDistributions}). Since for ordinary [[light waves]] one associates high [[frequency]] with the "ultraviolet", we may think of these as "ultaviolet contributions".
 
 But apart from the [[wavelength]], the [[wave vector]] that the [[Fourier transform of distributions]] depends on also encodes the _[[direction of a vector|direction]]_ of the corresponding [[plane wave]]. Therefore the [[Paley-Wiener-Schwartz theorem]] says in more dtail that a [[distribution]] is singular at some point already if along any _one_ [[direction of a vector|direction]] of the [[wave vector]] its local [[Fourier transform of distributions|Fourier transform]] picks up ultraviolet contributions _in that direction_.
 
 It therefore makes sense to record this extra directional information in the singularity structure of a distribution. This is called the [[wave front set]] (def. \ref{WaveFrontSet}) below. The refined study of singularities taking this directional information into account is what is called _[[microlocal analysis]]_.
 
+Moreover, the [[Paley-Wiener-Schwartz theorem]] I (prop. \ref{PaleyWienerSchwartzTheorem}) says that if the ultraviolet contributions diverge more than polynomially with high [[frequency]], then the corresponding would-be [[compactly supported distribution]] is not only singular, but is actually ill defined. 
+
+Such _[[ultraviolet divergences]]_ appear notably when forming a would-be [[product of distributions]] whose two factors have [[wave front sets]] whose UV-contributions "add up". This condition for the appearance/avoidance of [[UV-divergences]] is called _[[Hörmander's criterion]]_ (prop. \ref{HoermanderCriterionForProductOfDistributions} below). 
 
 
 =--
@@ -1108,7 +1115,7 @@ $$
 
 
 
-+-- {: .num_prop #HoermanderCriterionForProductOfDistributions}
++-- {: .num_prop s#HoermanderCriterionForProductOfDistributions}
 ###### Proposition
 **([[Hörmander's criterion]] for [[product of distributions]])**
 
