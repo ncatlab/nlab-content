@@ -2468,13 +2468,17 @@ A pedagogical exposition of how the physicist's way of thinking about the path i
 
 * [[Kevin Walker]], _TQFTs_ ([pdf](http://canyon23.net/math/tc.pdf))
 
-A pedagogical exposition of the notion of quantum field theory as a functor on [[cobordism]]s is in 
+A pedagogical exposition of the notion of quantum field theory as a functor on [[cobordisms]] is in 
 
 * {#Baez04} [[John Baez]], _Quantum quandaries: a Category-Theoretic perspective_ ([arXiv](http://arxiv.org/abs/quant-ph/0404040))
 
 and a review of much of the existing material in the literature is in 
 
 * [[Bruce Bartlett]], _Categorical Aspects of Topological Quantum Field Theories_ ([arXiv](http://arxiv.org/abs/math/0512103)).
+
+A survey of some further developments and conjectures is in 
+
+* {#Tachikawa17} [[Yuji Tachikawa]], _On 'categories' of quantum field theories_ ([arXiv:1712.09456](https://arxiv.org/abs/1712.09456))
 
 The discussion of the open-closed case of 2d TQFT goes back to
 
