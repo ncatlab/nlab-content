@@ -49,7 +49,7 @@ their [[singular support]] propagates itself through [[spacetime]] along the [[w
 Using this theorem we work out the [[wave front sets]] of the [[propagators]] (prop. \ref{WaveFronSetsForKGPropagatorsOnMinkowski} below).
 Via [[Hörmander's criterion]] (prop. \ref{HoermanderCriterionForProductOfDistributions}) this computation will serve to show
 why upon [[quantization]] the [[Wightman propagator]] replaces the [[causal propagator]] in the construction of the [[Wick algebra]]
-of [[quantum observables]] of the [[free field theory]] (discussed below in _[Free quantum fields](#FreeQuantumFields)_) and the the [[Feynman propagator]] similarly controls the [[quantum observables]] of the [[interaction|interacting]] [[quantum field theory]]
+of [[quantum observables]] of the [[free field theory]] (discussed below in _[Free quantum fields](#FreeQuantumFields)_) and the [[Feynman propagator]] similarly controls the [[quantum observables]] of the [[interaction|interacting]] [[quantum field theory]]
 (below in _[Feynman diagrams](#FeynmanDiagrams)_).
 
 
@@ -932,14 +932,25 @@ $$
 
 ([H&#246;rmander 90, around (8.1.1)](Paley-Wiener-Schwartz+theorem#Hoermander90))
 
++-- {: .num_remark}
+###### Remark
+**([[ultraviolet divergences]])**
+
+In words, the [[Paley-Wiener-Schwartz theorem]] (prop. \ref{DecayPropertyOfFourierTransformOfCompactlySupportedFunctions}) says that the [[singular support|singularities]] of a [[distribution]] "in position space" are reflected in the contribution of arbitrarily high [[frequencies]] (small [[wavelength]]) in its [[Fourier transform of distributions|Fourier mode]]-decomposition. Since for ordinary [[light waves]] one associated high [[frequency]] with the "ultraviolet", we may think of these as "ultaviolet contributions".
+
+But apart from the [[wavelength]], the [[wave vector]] that the [[Fourier transform of distributions]] depends on also encodes the _[[direction of a vector|direction]]_ of the corresponding [[plane wave]]. Therefore the [[Paley-Wiener-Schwartz theorem]] says in more dtail that a [[distribution]] is singular at some point already if along any _one_ [[direction of a vector|direction]] of the [[wave vector]] its local [[Fourier transform of distributions|Fourier transform]] picks up ultraviolet contributions _in that direction_.
+
+It therefore makes sense to record this extra directional information in the singularity structure of a distribution. This is called the [[wave front set]] (def. \ref{WaveFrontSet}) below. The refined study of singularities taking this directional information into account is what is called _[[microlocal analysis]]_.
+
+
+
+=--
 
 +-- {: .num_defn #WaveFrontSet}
 ###### Definition
 **([[wavefront set]])**
 
-Let $u \in \mathcal{D}'(\mathbb{R}^n)$ be a [[distribution]].
-
-For $b \in C^\infty_{cp}(\mathbb{R}^n)$ a [[compactly supported function|compactly supported]] [[smooth function]], write $b u \in \mathcal{E}'(\mathbb{R}^n)$ for the corresponding product (def. \ref{PropductOfDistributionWithASmoothFunction}), which is now a [[compactly supported distribution]].
+Let $u \in \mathcal{D}'(\mathbb{R}^n)$ be a [[distribution]]. For $b \in C^\infty_{cp}(\mathbb{R}^n)$ a [[compactly supported function|compactly supported]] [[smooth function]], write $b u \in \mathcal{E}'(\mathbb{R}^n)$ for the corresponding product (def. \ref{PropductOfDistributionWithASmoothFunction}), which is now a [[compactly supported distribution]].
 
 For $x\in supp(b) \subset \mathbb{R}^n$, we say that a unit [[covector]] $k \in S((\mathbb{R}^n)^\ast)$ is _regular_ if there exists a [[neighbourhood]] $U \subset S((\mathbb{R}^n)^\ast)$ of $k$ in the [[unit sphere]] such that for all $c k' \in (\mathbb{R}^n)^\ast$ with $c \in \mathbb{R}_+$ and  $k' \in U \subset S((\mathbb{R}^n)^\ast)$ the decay estimate (eq:DecayEstimateForFourierTransformOfNonSingularDistribution) is valid for the [[Fourier transform of distributions|Fourier transform]] $\widehat{b u}$ of $b u$; at $c k'$. Otherwise $k$ is _non-regular_. Write
 
