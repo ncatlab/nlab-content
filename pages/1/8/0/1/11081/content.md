@@ -29,7 +29,7 @@ So far we have dealt with _cohesive_ structures for which there is a notion of _
 
 There are two stages to the theory of differentiation:
 
-1. We may think of differentiation as just a means to analyze more in detail the [[cohesive topos|cohesive structure]] already given, without adding new [[structure]], hence without a priori refining our notion of what a "[[cohesion|cohesive]] [[trajectory]]" is. Indeed, given any [[line object]] $\mathbb{R}$ in a [[cohesive ∞-topos]], there is a canonically a homomorphism of cohesive spaces
+1. We may think of differentiation as just a means to analyze more in detail the [[cohesive topos|cohesive structure]] already given, without adding new [[structure]], hence without a priori refining our notion of what a "[[cohesion|cohesive]] [[trajectory]]" is. Indeed, given any [[line object]] $\mathbb{R}$ in a [[cohesive ∞-topos]], there is canonically a homomorphism of cohesive spaces
 
    $$
       \mathbf{d} \colon \mathbb{R} \to \Omega^1_{cl}(-,\mathbb{R})
@@ -1125,7 +1125,7 @@ $$
   \array{
     X &\stackrel{}{\to}& \mathbf{\Pi}_{inf}(X)
     \\
-    \downarrow^{\mathrlap{f}} && \downarrow^{\athrlap{\mathbf{\Pi}_{inf}(f)}}
+    \downarrow^{\mathrlap{f}} && \downarrow^{\mathrlap{\mathbf{\Pi}_{inf}(f)}}
   }
     \\
     Y &\to& \mathbf{\Pi}_{inf}(Y)
