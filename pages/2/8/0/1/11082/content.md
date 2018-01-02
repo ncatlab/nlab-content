@@ -614,7 +614,7 @@ $$
   \,,
 $$
 
-where on the right $\mathbb{R}^k_s$ denotes, just for emphasis, the underlying set of $\mathbb{R}^k_s$. This function manifestly sends a smooth differential form $\omega \in \Omega^n(X \times \mathbb{R}^k)$ to the function from points $v$ of $\mathbb{R}^k$ to differential forms on $X$ given by
+where on the right $\mathbb{R}^k_s$ denotes, just for emphasis, the underlying set of $\mathbb{R}^k$. This function manifestly sends a smooth differential form $\omega \in \Omega^n(X \times \mathbb{R}^k)$ to the function from points $v$ of $\mathbb{R}^k$ to differential forms on $X$ given by
 
 $$
   \omega \mapsto \left(v \mapsto  (id_X, v)^* \omega \right)
@@ -633,7 +633,7 @@ For $n = 0$ we have (for any $X\in Smooth0Type$)
 $$
   \begin{aligned}
     \mathbf{\Omega}^0(X) 
-      & \coloneqq Conc [X, \Omega^1]
+      & \coloneqq Conc [X, \Omega^0]
     \\
     & \simeq Conc [X, \mathbb{R}]
     \\
