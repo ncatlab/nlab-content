@@ -37,7 +37,7 @@ infinitesimal symmetries is called the _[[Poisson bracket Lie n-algebra|local Po
 
 $\,$
 
-In _[Phase space](#PhaseSpace)_ below we [[transgression|transgress]] this [[Poisson bracket Lie n-algebra|local Poisson bracket]]
+In the chapter _[Phase space](#PhaseSpace)_ below we [[transgression|transgress]] this [[Poisson bracket Lie n-algebra|local Poisson bracket]]
 of [[infinitesimal symmetries]] of the [[presymplectic potential current]] to the "global" [[Poisson bracket]] on the _[[covariant phase space]]_ (def. \ref{PoissonBracketOnHamiltonianLocalObservables} below). This is the structure which then [further below](#Quantization) leads over to the
 [[quantization]] ([[deformation quantization]]) of the [[prequantum field theory]] to a genuine [[perturbative quantum field theory]].
 However, it will turn out that there may be an [[obstruction]] to this construction, namely the existence of
@@ -83,11 +83,7 @@ But for discussion of symmetries of [[Lagrangian densities]] we are interested i
 explicitly varying just the [[field (physics)|field]] coordinates (def. \ref{EvolutionaryVectorField} below)
 and inducing from this the corresponding variations of the field derivatives (prop. \ref{EvolutionaryVectorFieldProlongation}) below.
 
-In order to motivate the following definition \ref{EvolutionaryVectorField}
-of _[[evolutionary vector fields]]_ we follow remark \ref{ReplacingBundleMorphismsByDifferentialOperators}
-saying that concepts in [[variational calculus]] are obtained from their analogous concepts
-in plain [[differential calculus]] by replacing plain [[bundle morphisms]] by morphism out of
-the [[jet bundle]]:
+In order to motivate the following definition \ref{EvolutionaryVectorField} of _[[evolutionary vector fields]]_ we follow remark \ref{ReplacingBundleMorphismsByDifferentialOperators} saying that concepts in [[variational calculus]] are obtained from their analogous concepts in plain [[differential calculus]] by replacing plain [[bundle morphisms]] by morphisms out of the [[jet bundle]]:
 
 Given a [[fiber bundle]] $E \overset{fb}{\to} \Sigma$, then a _[[vertical vector field]]_ on $E$ is
 a [[section]] of its [[vertical tangent bundle]] $T_\Sigma E$ (def. \ref{VerticalTangentBundle}), hence is a [[bundle morphism]]
