@@ -2476,7 +2476,7 @@ and a review of much of the existing material in the literature is in
 
 * [[Bruce Bartlett]], _Categorical Aspects of Topological Quantum Field Theories_ ([arXiv](http://arxiv.org/abs/math/0512103)).
 
-A survey of some further developments and conjectures is in 
+A survey of some further developments and conjectures (especially as related to the [[AGT correspondence]]) is in 
 
 * {#Tachikawa17} [[Yuji Tachikawa]], _On 'categories' of quantum field theories_ ([arXiv:1712.09456](https://arxiv.org/abs/1712.09456))
 
