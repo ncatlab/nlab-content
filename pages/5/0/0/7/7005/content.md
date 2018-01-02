@@ -226,6 +226,7 @@ The univalence axiom implies [[function extensionality]].
 A commented version of a formal proof of this fact can be found in ([Bauer-Lumsdaine](#BauerLumsdaine)).
 
 ### Weaker equivalent forms
+ {#WeakerEquivalentForms}
 
 The univalence axiom proper says that the canonical map $coe:(X=Y)\to (X\simeq Y)$ is an equivalence.  However, there are several seemingly-weaker (and therefore often easier to verify) statements that are equivalent to this, such as:
 
