@@ -2077,6 +2077,8 @@ $$
    \,.
 $$
 
+(Beware that this is just a [[relation]], not a [[partial order]].)
+
 If $S_1 \geq S_2$ and $S_2 \geq S_1$ we say that the two subsets are _[[spacelike]] separated_.
 
 =--
