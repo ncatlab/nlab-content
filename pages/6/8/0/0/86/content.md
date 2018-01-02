@@ -895,7 +895,7 @@ The [[perturbative quantum field theory|perturbative quantization]] of [[gauge t
 
 and surveyed in
 
-* {#Rejzner16} [[Kasia Rejzner]], section 7 of _Perturbative algebraic quantum field theory_ Springer 2016
+* {#Rejzner16} [[Kasia Rejzner]], section 7 of _Perturbative algebraic quantum field theory_ Springer 2016 ([web](https://link.springer.com/book/10.1007%2F978-3-319-25901-7))
 
 
 
