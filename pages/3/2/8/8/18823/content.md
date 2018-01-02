@@ -1911,8 +1911,7 @@ $$
 **([[transgression of variational differential forms|transgression]] to dimension $r$ picks out horizontal $r$-forms)**
 
 In def. \ref{TransgressionOfVariationalDifferentialFormsToConfigrationSpaces}
-we regard [[integration of differential forms]] over $\Sigma_r$ as an operation defined on differential forms
-of all degrees, which vanishes except on forms of degree $r$, and hence transgression of variational differential forms
+we regard [[integration of differential forms]] over $\Sigma_r$ as an operation defined on differential forms of all degrees, which vanishes except on forms of degree $r$, and hence transgression of variational differential forms
 to $\Sigma_r$ vanishes except on the subspace
 
 $$
@@ -2343,10 +2342,7 @@ $$
   \langle LocObs_\Sigma \rangle_{C^\infty\left(\Gamma_\Sigma(E)\right)_{\delta_{EL}\mathbf{L} = 0}}
 $$
 
-for the smallest subalgebra of observables, under the pointwise product, that contains all the local observables.
-This is called the algebra of _multilocal observables_.
-
-> maybe better consider formal power series of observables around a background solution
+for the smallest subalgebra of observables, under the pointwise product, that contains all the local observables. This is called the algebra of _multilocal observables_.
 
 =--
 
