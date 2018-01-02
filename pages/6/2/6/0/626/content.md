@@ -159,7 +159,7 @@ String diagrams for [[monoidal categories]] are discussed in
 
 For [[1-categories]] in 
 
-* [[Dan Marsden]]: Category Theory Using String Diagrams. arXiv:1401.7220v2  [math.CT]
+* [[Dan Marsden]], _Category Theory Using String Diagrams_, ([arXiv:1401.7220](https://arxiv.org/abs/1401.7220)).
 
 (therein: many explicit calculations, colored illustrations, avoiding the common practice of indicating 0-cells by non-filled circles)
 
