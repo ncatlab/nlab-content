@@ -9,8 +9,10 @@ In order to exhibit the key structure without getting distracted by the local [[
 if [[spacetime]] were [[compact space|compact]], so that, by the [[principle of extremal action]] (prop. \ref{PrincipleOfExtremalAction}),
 it would be the [[derived critical locus]] ($d S \simeq 0$) of a globally defined [[action functional]] $S$.  This "global" version of the [[BV-BRST complex]] is example \ref{ArchetypeOfBVBRSTComplex} below.
 
-The genuine _[[local field theory|local]]_ construction of the derived [[shell]] is in the [[jet bundle]] of the [[field bundle]], where the [[action functional]] appears "de-transgressed" in the form of the [[Lagrangian density]], which however is invariant under gauge transformations generally 
+The genuine _[[local field theory|local]]_ construction of the derived [[shell]] is in the [[jet bundle]] of the [[field bundle]], where the [[action functional]] appears "de-transgressed" in the form of the [[Lagrangian density]], which however is invariant under gauge transformations generally
 only up to horizontally exact terms. This _local_ incarnation of the redcuced phase space is modeled by the genuine _[[local BV-BRST complex]]_, example \ref{LocalBVBRSTComplexIsDerivedCriticalLocusOfEulerLagrangeForm} below.
+
+Finally, under [[transgression of variational differential forms]] this yields a [[differential]] on the graded [[local observables]] of the field theory. This is the _global [[BV-BRST complex]]_ (def. \ref{ComplexBVBRSTGlobal} below).
 
 $\,$
 
@@ -27,6 +29,8 @@ We now discuss these topics:
   * _[Local antibracket](#LocalJetBundleAntibracket)_
 
   * _[Local BV-BRST complex](#DerivedCriticalLocusOnJetBundle)_
+  
+  * _[Global BV-BRST complex](#BVBRSTComplexGlobal)_
 
 $\,$
 
@@ -1593,7 +1597,9 @@ _[[classical master equation]]_.
 
 =--
 
+
 $\,$
+
 
 This concludes our discussion of plain [[derived critical loci]] inside [[Lie algebroids]]. Now we turn to applying these considerations about to [[Lagrangian densities]] on a [[jet bundle]], which are [[invariant]] under [[infinitesimal gauge symmetries]] generally
 only up to a [[total spacetime derivative]]. By example \ref{ChevalleyEilenbergDifferentialOnDerivedCriticalLocusIsHamiltonianViaAntibracket} it is clear that this is best understood by first considering the refinement of the [[Schouten bracket]]/[[antibracket]] to this situation.
@@ -1732,6 +1738,9 @@ $$
 whose [[Chevalley-Eilenberg algebra]] is the _[[local BRST complex]]_ of the field theory with shifted infinitesimal [[vertical cotangent bundle]]
 
 $$
+  \label{BVBRSTGradedFieldBundle}
+  E_{\text{BV-BRST}}
+  \;\coloneqq\;
   T^\ast_{\Sigma,inf}[-1]\left(
     E \times_\Sigma (\mathcal{G}[1])
   \right)
@@ -2304,6 +2313,7 @@ $$
 where the underlying graded algebra is the [[algebra of functions]] on the (-1)-shifted [[vertical cotangent bundle]] of the [[fiber product]] of the [[field bundle]] with the (+1)-shifted [[gauge parameter bundle]] (as in example \ref{ArchetypeOfBVBRSTComplex}) and the shifted cotangent bundle of $\Sigma$, and where the [[Chevalley-Eilenberg differential]] is the sum of the [[horizontal derivative]] $d$ with the _[[BV-BRST differential]]_
 
 $$
+  \label{LocalAntibracketVersionOfBVBRSTDifferential}
   s
   \;\coloneqq\;
     \left\{
@@ -2622,9 +2632,7 @@ $$
 That the sum of these two terms indeed vanishes is equation (eq:TowardsProofThatSymmetriesPreserveTheShell) in the proof of the
 on-shell invariance of the [[equations of motion]] under [[infinitesimal symmetries of the Lagrangian]] (prop. \ref{InfinitesimalSymmetriesOfLagrangianAreAlsoSymmetriesOfTheEquationsOfMotion})
 
-
-finally on antifields of ghostfields we get
- {#FinallyOnAntiFieldsOfGostFields}
+Finally, on antifields of ghostfields we get
 
 $$
   \begin{aligned}
@@ -2996,6 +3004,100 @@ this defines the "BV-BRST [[variational bicomplex]]".
 =--
 
 
+
+
+$\,$
+
+
+**global [[BV-BRST complex]]**
+ {#BVBRSTComplexGlobal}
+
+
++-- {: .num_defn #ComplexBVBRSTGlobal}
+###### Definition
+**(global [[BV-BRST complex]])**
+
+Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
+equipped with a [[gauge parameter bundle]] $\mathcal{G}$ (def. \ref{GaugeParametrizedInfinitesimalGaugeTransformation}) which is closed (def. \ref{GaugeParametersClosed}). Then on the [[local observables]] (def. \ref{LocalObservables}) on the [[space of field histories]] (def. \ref{FieldsAndFieldBundles}) of the [[graded manifold|graded]] [[field bundle]] 
+
+$$
+  E_{\text{BV-BRST}}
+  =
+  T^\ast_{\Sigma,inf}[-1](E \times_\Sigma \mathcal{G}[1])
+$$
+
+underlying the [[local BV-BRST complex]] (eq:BVBRSTGradedFieldBundle), consider the [[linear map]]
+
+$$
+  \array{
+    LocObs(E_{\text{BV-BRST}})
+      \otimes
+    LocObs(E_{\text{BV-BRST}})
+      &\overset{\{-,-\}}{\longrightarrow}&
+    LocObs(E_{\text{BV-BRST}})
+    \\
+    \tau_\Sigma(\alpha), \tau_\Sigma(\beta)
+    &\mapsto&
+    \tau_\Sigma( \{\alpha, \beta\} )
+  }
+$$
+
+where $\alpha, \beta \in \Omega^{p+1,0}_{\Sigma,cp}(E_{\text{BV-BRST}})$ (def. \ref{SpacetimeSupport}), where $\tau_\Sigma$ denotes
+[[transgression of variational differential forms]] (def. \ref{TransgressionOfVariationalDifferentialFormsToConfigrationSpaces}), and where on the right $\{-,-\}$ is the [[local antibracket]] (def. \ref{LocalAntibracket}).
+
+This is well-defined, in that this formula indeed depends on the [[horizontal differential forms]] $\alpha$ and $\beta$ only through the [[local observables]] $\tau_\Sigma(\alpha), \tau_\Sigma(\beta)$ which they induce. The resulting bracket is called the (global) _[[antibracket]]_.
+
+Indeed the formula makes sense already if at least one of $\alpha, \beta$ have compact spacetime support (def. \ref{SpacetimeSupport}), and hence
+the [[transgression]] of the [[BV-BRST differential]] (eq:LocalAntibracketVersionOfBVBRSTDifferential) is a well-defined
+[[differential]] on the graded [[local observables]]
+
+$$
+  \left\{
+    -\tau_\Sigma \mathbf{L}
+    + \tau_\Sigma \mathbf{L}_{BRST}
+    \;,\, -
+  \right\}
+  \;\colon\;
+  LocObs(E_{\text{BV-BRST}})
+  \longrightarrow
+  LocObs(E_{\text{BV-BRST}})
+  \,,
+$$
+
+where by example \ref{ActionFunctional} we may think of the first argument on the left as the BV-BRST [[action functional]]
+without [[adiabatic switching]], which makes sense inside the [[antibracket]] when acting on functionals with compact spacetime support.
+Hence we may suggestively write
+
+$$
+  \label{GlobalBVBRSTDifferential}
+  \left\{
+    -S + S_{BRST}
+    \;,\;-
+  \right\}
+  \;\coloneqq\;
+  \left\{
+    -\tau_\Sigma \mathbf{L}
+    + \tau_\Sigma \mathbf{L}_{BRST}
+    \;,\, -
+  \right\}
+$$
+
+for this (global) _[[BV-BRST differential]]_.
+
+The resulting [[chain complex]] is called the (global) _[[BV-BRST complex]]_ of the given [[Lagrangian field theory]] with the chosen 
+[[gauge parameters]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the last item of prop. \ref{BasicPropertiesOfTheLocalAntibracket} the horizontally exact horizontal differential forms
+form a "[[Lie ideal]]" for the [[local antibracket]]. With this the proof that the transgressed bracket is well defined
+is the same as the proof that the global [[Poisson bracket]] on the [[Hamiltonian differential form|Hamiltonian]]
+[[local observables]] is well defined, def. \ref{PoissonBracketOnHamiltonianLocalObservables}.
+
+=--
 
 
 $\,$
