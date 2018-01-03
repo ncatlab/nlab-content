@@ -18,7 +18,7 @@ In [[phenomenology]] the theta angle has to be very close to an integer multiple
 
 ## Related concepts
 
-* [[theta angle]]
+* [[theta vacuum]]
 
 ## References
 
