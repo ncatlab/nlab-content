@@ -127,6 +127,20 @@ For $\Sigma$ a [[spacetime]], hence a [[Lorentzian manifold]] with [[time orient
 ## Examples
  {#Examples}
 
++-- {: .num_example }
+###### Example
+**([[field observables]])**
+
+If the [[field bundle]] is a [[vector bundle]], then the [[field observables]]
+
+$$
+  \mathbf{\Phi}^a(x) \;\colon\; \Phi \mapsto \Phi^a(x)
+$$
+
+are [[linear observables]] (def. \ref{LinearObservable}).
+
+=--
+
 +-- {: .num_example #PolynomialLocalObservablesArePolynomialObservables}
 ###### Example
 **([[polynomial]] [[local observables]] are [[polynomial observables]])**
