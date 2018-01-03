@@ -54,6 +54,8 @@ is a [[fiber bundle]] regarded as the [[field bundle]] that defines the given [[
 
 Products of local observables are called _multilocal observables_.
 
+[[!include perturbative observables -- table]]
+
 ## Definition
 
 For the moment see at _[[geometry of physics -- A first idea of quantum field theory]]_ [this def.](geometry+of+physics+--+A+first+idea+of+quantum+field+theory#LocalObservables)
@@ -75,8 +77,6 @@ These happen to be also [[microcausal observables]] ([this example](microcausal+
 
 ## Related concepts
 
-
-[[polynomial]] [[local observables]] $\hookrightarrow$ [[microcausal observables]] $\hookrightarrow$ [[polynomial observables]] $\hookrightarrow$ [[observables]]
 
 
 * [[Wick algebra]]
