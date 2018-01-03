@@ -15,15 +15,11 @@
 
 ## Idea
 
-In the specification of [[theory (physics)|physical theories]] sometimes it is assumed that the space of [[field (physics)|fields]] on some [[spacetime]]/[[worldvolume]] $X$ is the space of [[sections]] of some [[fiber bundle]] $E \to X$. This is then called the _field bundle_.
+In [[Lagrangian field theory]] a _[[field history]]_ is a [[section]] of some [[fiber bundle]] $E \overset{fb}{\to} \Sigma$ over [[spacetime]]/[[worldvolume]] $\Sigma$. This is then called the _field bundle_.
 
-+-- {: .num_remark}
-###### Remark
+The [[de Rham complex]] of the [[jet bundle]] of the field bundle, equipped with its canonical horizontal/vertical bigrading, is the _[[variational bicomplex]]_ of the [[Lagrangian field theory]].
 
-The dual [[jet bundle]] of the field bundle serves as the _[[extended phase space]]_ in [[multisymplectic geometry]].
-The [[de Rham complex]] of the [[jet bundle]] of the field bundle, equipped with its canonical horizontal/vertical bigrading, is the _[[variational bicomplex]]_ of the system.
-
-=--
+For more see at _[[A first idea of quantum field theory]]_ the chapter _[Fields](A+first+idea+of+quantum+field+theory#Fields)_.
 
 +-- {: .num_remark}
 ###### Remark
