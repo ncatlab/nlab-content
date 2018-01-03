@@ -55,9 +55,9 @@ An [[algebra over an operad|algebra over]] these in chain complexes  -- a [[homo
 
 $$
   \array{
-     operation && d && (-,-) & &  \{-,-\} && \Delta
+     operation && d && (-)\cdot(-) & &  \{-,-\} && \Delta
      \\
-     degree && +1 && 0 && -1 && +1
+     degree && +1 && 0 && -1 && -1
   }
   \,,
 $$
