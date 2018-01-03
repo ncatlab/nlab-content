@@ -234,6 +234,8 @@ Often this is interpreted as saying that "a Yang-Mills instanton describes the [
 
 ## Related concepts
 
+* [[theta vacuum]], [[instanton sea]]
+
 * [[instanton]]
 
 * [[contact instanton]]
@@ -269,9 +271,11 @@ For a fairly comprehensive list of literature see the bibliography of
 
 * Marcus Hutter, _Instantons in QCD: Theory and Application of the Instanton Liquid Model_ ([arXiv:hep-ph/0107098](http://arxiv.org/abs/hep-ph/0107098))
 
-Discussion of the $\theta$-vacuun
+Detailed argument for the [[theta-vacuum]] structure from [[chiral symmetry breaking]] is offered in 
 
-* Curtis G. Callan, Jr., R.F. Dashen, David J. Gross, _The Structure of the Gauge Theory Vacuum_, Phys.Lett. 63B (1976) 334-340 (spire](http://inspirehep.net/record/3673?ln=ru))
+* [[Curtis Callan]], R.F. Dashen, [[David Gross]], _The Structure of the Gauge Theory Vacuum_, Phys.Lett. 63B (1976) 334-340 ([spire](http://inspirehep.net/record/3673?ln=en))
+
+* G. Morchio, [[Franco Strocchi]], _Chiral symmetry breaking and theta vacuum structure in QCD_, Annals Phys.324:2236-2254, 2009 ([arXiv:0907.2522](https://arxiv.org/abs/0907.2522))
 
 The multi-instantons in $SU(2)$-Yang-Mills theory ([[BPTS instantons]]) were discovered in
 
