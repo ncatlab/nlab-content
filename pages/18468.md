@@ -222,7 +222,7 @@ The [[perturbative quantum field theory|perturbative quantization]] of [[gauge t
 
 and surveyed in
 
-* {#Rejzner16} [[Kasia Rejzner]], section 7 of _Perturbative algebraic quantum field theory_ Springer 2016
+* [Rejzner 16, chapter 7](#Rejzner16)
 
 
 A survey of the required generalization for [[gauge theory]] with non-trivial [[instanton sectors]] via [[homotopical algebraic quantum field theory]] is in 
