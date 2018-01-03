@@ -131,6 +131,8 @@ See for instance [Geometric spaces and their homotopy types](http://ncatlab.org/
 
 * [[twisted arrow category]]
 
+* [[t-norm]]
+
 
 [[!redirects interval]]
 [[!redirects intervals]]
