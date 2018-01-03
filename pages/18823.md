@@ -443,7 +443,7 @@ $\,$
 {#LinearOffShellObservablesAreDistributions}
 
 We consider here _[[linear observables]]_ (def. \ref{LinearObservables} below) and more generally
-_quadratic observables_ (def. \ref{QuadraticObservables}) and generally _polynomial observables_ (def. \ref{PolynomialObservables} below) for [[free field theories]] and discuss how these are equivalently given by
+_quadratic observables_ (def. \ref{QuadraticObservables}) and generally _[[polynomial observables]]_ (def. \ref{PolynomialObservables} below) for [[free field theories]] and discuss how these are equivalently given by
 [[integration]] against [[generalized functions]] called _[[distributions]]_ (prop. \ref{LinearObservablesAreTheCompactlySupportedDistributions} and prop. \ref{DistributionsAreGeneralizedFunctions} below).
 
 This is the basis for the discussion of [[quantum observables]] for [[free field theories]] [further below](#FreeQuantumFields).
@@ -1020,13 +1020,23 @@ $$
   \end{aligned}
 $$
 
+If all the [[coefficient]] [[distributions]] $\alpha^{(k)}$ are [[non-singular distributions]], then we say that $A$ is a _[[regular polynomial observable]]_.
+
+We write
+
+$$
+  PolyObs(E)_{reg} \hookrightarrow PolyObs(E) \hookrightarrow Obs(E)
+$$
+
+for the subspace of (regular) polynomial off-shell observables.
+
+
 
 =--
 
-In summary, the above establishes that the [[Schwartz space|Schwartz]] theory of ([[compactly supported distributions|compactly supported]])
-[[distributions]] neatly applies to characterize smooth [[polynomial observables]] on the [[diffeological space|diffeological]]
-[[space of field histories]] for a [[field bundle]] which is a [[vector bundle]].
+$\,$
 
+Next we discuss the restriction of these off-shell polynomial observables to the [[shell]] to yield [[on-shell]]  polynomial observables, characterized by theorem \ref{LinearObservablesForGreeFreeFieldTheoryAreDistributionalSolutionsToTheEquationsOfMotion} below.
 
 $\,$
 
@@ -1035,20 +1045,69 @@ $\,$
 **Polynomial on-shell Observables and Distributional solutions to PDEs**
 {#PolynomialOnShellObservablesAreDistributionalSolutionsToTheEquationsOfMotion}
 
-While every off-shell observable induces an on-shell observables
-simply by restriction (eq:OffShellObservablesRestrictToOnShellObservables),
+The evident [[on-shell]] version of def. \ref{PolynomialObservables} is this:
+
++-- {: .num_defn #PolynomialObservablesOnShell}
+###### Definition
+**([[on-shell]] [[polynomial observables]])**
+
+Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]] (def. \ref{FreeFieldTheory}) with [[on-shell]] [[space of field histories]]  $\Gamma_\Sigma(E)_{\delta_{EL}\mathbf{L} = 0} \hookrightarrow \Gamma_\Sigma(E)$. Then an [[on-shell]] [[observable]] (def. \ref{Observable})
+
+$$
+  A \;\colon\; \Gamma_\Sigma(E) \longrightarrow \mathbb{C}
+$$
+
+is an _[[on-shell]] [[polynomial observable]]_ if it is the [[restriction]] of an [[off-shell]] [[polynomial observable]] $A_{off}$ according to def. \ref{PolynomialObservables}:
+
+$$
+  \array{
+    \Gamma_{\Sigma}(E)_{\delta_{EL}\mathbf{L} = 0} &\overset{\phantom{A}A\phantom{A}}{\longrightarrow}&
+    \\
+    \downarrow & \nearrow_{\mathrlap{A_{off}}}
+    \\
+    \Gamma_\Sigma(E)
+  }
+  \,.
+$$
+
+Similarly $A$ is an [[on-shell]] [[linear observable]] or [[on-shell]] [[regular polynomial observable]] etc. if it is the [[restriction]] of a [[linear observable]] or [[regular polynomial observable]], respectively, according to def. \ref{PolynomialObservables}. We write
+
+$$
+  PolyObs(E,\mathbf{L}) \hookrightarrow Obs(E,\mathbf{L})
+$$
+
+for the subspace of polynomial on-shell observables inside all on-shell observables, and similarly
+
+
+$$
+  LinObs(E,\mathbf{L}) \hookrightarrow Obs(E,\mathbf{L})
+$$
+
+and
+
+$$
+  PolyObs(E,\mathbf{L})_{reg} \hookrightarrow Obs(E,\mathbf{L})
+$$
+
+etc.
+
+$$
+
+=--
+
+While by def. \ref{PolynomialObservablesOnShell} every [[off-shell]] [[observable]] induces an [[on-shell]] [[observable]]
+simply by [[restriction]] (eq:OffShellObservablesRestrictToOnShellObservables),
 different off-shell observables may restrict to the _same_ on-shell observale.
 It is therefore useful to find a condition on off-shell observables
 that makes them equivalent to on-shell observables under restriction.
-Here we discuss
-in the case of sufficiently well behaved [[free field theory|free field]] [[equations of motion]]
--- namely [[Green hyperbolic differential equations]], def. \ref{GreenHyperbolicDifferentialOperator} below --
-that this on-shell condition on the linear off-shell observables (def. \ref{LinearObservables})
-is that they are [[distributional solution of a PDE|distributional solutions]] to the  [[formally adjoint differential operator|formal adjoint]] to the [[equations of motion]], under their identification with [[distributions]] via prop. \ref{LinearObservablesAreTheCompactlySupportedDistributions}.
+We now discuss such precise characterizations of the off-shell polynomial observables
+for the case of sufficiently well behaved [[free field theory|free field]] [[equations of motion]]
+-- namely [[Green hyperbolic differential equations]], def. \ref{GreenHyperbolicDifferentialOperator} below.
+The main result is theorem \ref{LinearObservablesForGreeFreeFieldTheoryAreDistributionalSolutionsToTheEquationsOfMotion} below.
 
 While in general the [[equations of motion]] are not [[Green hyperbolic differential equations|Green hyperbolic]] --
 namely not in the presence of implicit [[infinitesimal gauge symmetries]] discussed in _[Gauge symmetries](#GaugeSymmetries)_ below --
-it turns out that up to a suitable notion of [[equivalence]] they are equivalent to those that are, this we discuss in _[Gauge fixing](#GaugeFixing)_ below.
+it turns out that up to a suitable notion of [[equivalence]] they are equivalent to those that are; this we discuss in the chapter _[Gauge fixing](#GaugeFixing)_ below.
 
 $\,$
 
@@ -1675,7 +1734,7 @@ or the [[Dirac equation]] (example \ref{GreenHyperbolicDiracOperator}). Then:
 
    $$
      \label{PolynomialOnShellObservablesArePolynomialOffShellobservableModuloTheEquationsOfMotion}
-     PolObs(E,\mathbf{L})
+     PolyObObs(E,\mathbf{L})
      \simeq
      PolyObs(E)/im(P)
      \,.
@@ -2379,7 +2438,36 @@ averaged over spacetime.
 
 =--
 
+For the construction of the [[algebra of quantum observables]] it will be important to notice that the
+[[intersection]] between [[local observables]] and [[regular polynomial observables]] is very small:
 
++-- {: .num_example #RegularPolynomialLocalObservablesAreNecessarilyLinear}
+###### Example
+**([[local observable|local]] [[regular polynomial observables]] are [[linear observables]])**
+
+An [[observable]] (def. \ref{Observable}) which is 
+
+1. a [[regular polynomial observable]] (def. \ref{PolynomialObservables});
+
+1. a [[local observable]] (def. \ref{LocalObservables})
+
+is necessarily 
+
+* a [[linear observable]] (def. \ref{LinearObservables}).
+
+This is because non-linear local expressions are polynomials in the sense of def. \ref{PolynomialObservables}
+with [[delta distribution]]-[[coefficients]], for instance for the [[real scalar field]] the $\Phi^2$ [[interaction]]
+term is
+
+$$
+  \int (\Phi(x))^2 \, dvol_\Sigma(x)
+  \;=\;
+  \int \int \Phi(x) \Phi(y) \underset{ = \alpha^{(2)}(x,y) }{\underbrace{\delta(x-y)}} \, dvol_\Sigma(y)
+$$
+
+and so its [[coeffcient]] $\alpha^{(2)}$ is manifestly not a [[non-singular distribution]].
+
+=--
 
 
 
