@@ -65,6 +65,10 @@ An even weaker form of countable choice was proposed by [Martin Escardo](#Escard
 
 *  {#RichmanFTA} [[Fred Richman]], *The fundamental theorem of algebra: a constructive development without choice*.  [pdf](http://math.fau.edu/richman/Docs/Fta.pdf)
 
+See also 
+
+* Wikipedia, _[Axiom of countable choice](https://en.wikipedia.org/wiki/Axiom_of_countable_choice)_
+
 category: foundational axiom
 
 [[!redirects countable choice]]
