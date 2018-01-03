@@ -188,6 +188,8 @@ where $\sigma: V \otimes W \to W \otimes V$ is the symmetry. The unit is the ten
 
 * Phase semantics is also a special case of a [[ternary frame]], which is the case of the previous example when $\langle C,\otimes, I,\multimap\rangle$ has the [[Day convolution]] structure induced from a [[promonoidal category|promonoidal]] poset.  There is also another way to obtain negation in a ternary frame involving a "compatibility relation"...
 
+* The [[unit interval]] $[0,1]$ is a [[semicartesian monoidal category|semicartesian]] $\ast$-autonomous poset with the monoidal structure $x \otimes y = \max(x+y-1,0)$ and dualizing object $0$.  The involution is $x^\ast = 1-x$ and the dual [[multiplicative disjunction]] is $x\parr y = \min(x+y,1)$.  This is known as [[Lukasiewicz logic]] and is used in [[fuzzy logic]]; it is also a special case of a [[t-norm]].
+
 ## References ##
 
 The notion is originally due to
