@@ -65,7 +65,7 @@ A detailed review is in
 
 See also
 
-* A. A. Belavin, M. A. Bershtein, B. L. Feigin, A. V. Litvinov, G. M. Tarnopolsky, _Instanton moduli spaces and bases in coset conformal field theory_, [http://arxiv.org/abs/1111.2803](arxiv/1111.2803)
+* [[Alexander Belavin]], M. A. Bershtein, B. L. Feigin, A. V. Litvinov, G. M. Tarnopolsky, _Instanton moduli spaces and bases in coset conformal field theory_, [http://arxiv.org/abs/1111.2803](arxiv/1111.2803)
 
 * [[Volker Schomerus]], Paulina Suchanek, _Liouville's imaginary shadow_, [arxiv/1210.1856](http://arxiv.org/abs/1210.1856)
 
