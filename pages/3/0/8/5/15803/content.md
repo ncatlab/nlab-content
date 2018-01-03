@@ -38,6 +38,13 @@ A detailed mathematical derivation is in
 
 * [[Luis Alvarez-Gaumé]], [[Paul Ginsparg]], section 3 of _The structure of gauge and gravitational anomalies_ , Ann. Phys. 161 (1985) 423. ([spire](http://inspirehep.net/record/202565/?ln=en))
 
+Detailed argument for the [[theta vacuum]] ([[Yang-Mills instanton]] vacuum) from chiral symmetry breaking is offered in 
+
+* [[Curtis Callan]], R.F. Dashen, [[David Gross]], _The Structure of the Gauge Theory Vacuum_, Phys.Lett. 63B (1976) 334-340 ([spire](http://inspirehep.net/record/3673?ln=en))
+
+* G. Morchio, [[Franco Strocchi]], _Chiral symmetry breaking and theta vacuum structure in QCD_, Annals Phys.324:2236-2254, 2009 ([arXiv:0907.2522](https://arxiv.org/abs/0907.2522))
+
+
 Review includes
 
 * [[Raphael Flauger]], _Anomalies and the Atiyah-Singer Index Theorem_ ([pdf](http://www.ma.utexas.edu/~dafr/Index/Flauger.pdf))
