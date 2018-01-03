@@ -38,9 +38,9 @@ $\mathbf{\Phi}^a(x)$ are really the _[[observables]]_ or _[[quantum observables]
 |--|------------|-|---------|----|
 | [[field bundle|field component]] | $\phi^a$, $\phi^a_{,\mu}$ |  $J^\infty_\Sigma(E) \to \mathbb{R}$ |[[coordinate function]] on [[jet bundle]] of [[field bundle]] | def. \ref{FieldsAndFieldBundles}, def. \ref{JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime} |
 | [[field history]] | $\Phi$, $\frac{\partial \Phi}{\partial x^\mu}$ | $\Sigma \to J^\infty_\Sigma(E)$  | [[jet prolongation]] of [[section]] of [[field bundle]] | def. \ref{FieldsAndFieldBundles}, def. \ref{JetProlongation}  |
-| [[observable|field observable]] | $\mathbf{\Phi}^a(x)$, $\partial_{\mu} \mathbf{\Phi}^a(x),   $ | $\Gamma_{\Sigma}(E) \to \mathbb{R}$  | [[derivative of a distribution|derivatives]] of [[delta-distribution|delta]]-[[functional]] on [[space of sections]] | def. \ref{Observable}, example \ref{PointEvaluationObservables} |
-| averaging of [[observable|field observable]] | $\alpha^\ast \mapsto \underset{\Sigma}{\int} \alpha^\ast_a(x) \mathbf{\Phi}^a(x) \, dvol_\Sigma(x)$ | $\Gamma_{\Sigma,cp}(E^\ast) \to Obs(E_{scp},\mathbf{L})$ |  [[operator-valued distribution|observable-valued distribution]]  | def. \ref{RegularLinearFieldObservables} |
-| [[algebra of quantum observables]] | $\left( Obs(E,\mathbf{L})_{\mu c},\, \star\right)$  | $\mathbb{C}Alg$  | [[non-commutative algebra]] [[structure]] on [[observable|field observables]] | def. \ref{WickAlgebraOfFreeQuantumField}, def. \ref{GeneratingFunctionsForCorrelationFunctions} |
+| [[field observable]] | $\mathbf{\Phi}^a(x)$, $\partial_{\mu} \mathbf{\Phi}^a(x),   $ | $\Gamma_{\Sigma}(E) \to \mathbb{R}$  | [[derivative of a distribution|derivatives]] of [[delta-distribution|delta]]-[[functional]] on [[space of sections]] | def. \ref{Observable}, example \ref{PointEvaluationObservables} |
+| averaging of [[field observable]] | $\alpha^\ast \mapsto \underset{\Sigma}{\int} \alpha^\ast_a(x) \mathbf{\Phi}^a(x) \, dvol_\Sigma(x)$ | $\Gamma_{\Sigma,cp}(E^\ast) \to Obs(E_{scp},\mathbf{L})$ |  [[operator-valued distribution|observable-valued distribution]]  | def. \ref{RegularLinearFieldObservables} |
+| [[algebra of quantum observables]] | $\left( Obs(E,\mathbf{L})_{\mu c},\, \star\right)$  | $\mathbb{C}Alg$  | [[non-commutative algebra]] [[structure]] on [[field observables]] | def. \ref{WickAlgebraOfFreeQuantumField}, def. \ref{GeneratingFunctionsForCorrelationFunctions} |
 
 $\,$
 
@@ -356,7 +356,7 @@ The most basic kind of observables are the following:
 
 +-- {: .num_example #PointEvaluationObservables}
 ###### Example
-**(point evaluation observables -- field observables)**
+**(point evaluation observables -- [[field observables]])**
 
 Let $(E,\mathbf{L})$ be a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime})
 whose [[field bundle]] (def. \ref{FieldsAndFieldBundles}) over some [[spacetime]] $\Sigma$
@@ -1573,14 +1573,14 @@ Then
    $$
 
    is equivalently a [[distribution|distributional section]] (def. \ref{DistributionalSections})
-   whose [[support of a distribution|support]] is spacelike 
+   whose [[support of a distribution|support]] is spacelike
    compact (def. \ref{CompactlySourceCausalSupport}, prop. \ref{DistributionsWithCausalSupports})
 
    $$
      u \in \Gamma'_{\Sigma,scp}(E)
    $$
 
-   and which is a [[distributional solution of a PDE|distributional solution]] (def. \ref{DistributionalDerivatives}) 
+   and which is a [[distributional solution of a PDE|distributional solution]] (def. \ref{DistributionalDerivatives})
    to the differential equation
 
    $$
@@ -1601,7 +1601,7 @@ Then
      u \in \Gamma'_{\Sigma}(E)
    $$
 
-   and which is a [[distributional solution of a PDE|distributional solution]] (def. \ref{DistributionalDerivatives}) 
+   and which is a [[distributional solution of a PDE|distributional solution]] (def. \ref{DistributionalDerivatives})
    to the differential equation
 
    $$
@@ -1609,7 +1609,7 @@ Then
      \,.
    $$
 
-   Moreover, these [[linear isomorphisms]] are both given by composition with 
+   Moreover, these [[linear isomorphisms]] are both given by composition with
    the [[causal Green function]] $\mathrm{G}$ (def. \ref{AdvancedAndRetardedGreenFunctions}):
 
    $$
@@ -1662,7 +1662,7 @@ or the [[Dirac equation]] (example \ref{GreenHyperbolicDiracOperator}). Then:
 
 1. The linear on-shell [[observables]] (def. \ref{LinearObservables}) are equivalently the linear off-shell observables
    modulo the image of the [[differential operator]] $P$:
-   
+
    $$
      \label{LinearOnShellObservablesAreLinearOffShellobservableModuloTheEquationsOfMotion}
      LinObs(E,\mathbf{L})
@@ -1670,9 +1670,9 @@ or the [[Dirac equation]] (example \ref{GreenHyperbolicDiracOperator}). Then:
      LinObs(E)/im(P)
      \,.
    $$
-   
+
    More generally the on-shell [[polynomial observables]] are identified with the off-shell polynomial observables (def. \ref{PolynomialObservables}) modulo the image of $P$:
-   
+
    $$
      \label{PolynomialOnShellObservablesArePolynomialOffShellobservableModuloTheEquationsOfMotion}
      PolObs(E,\mathbf{L})
@@ -1680,7 +1680,7 @@ or the [[Dirac equation]] (example \ref{GreenHyperbolicDiracOperator}). Then:
      PolyObs(E)/im(P)
      \,.
    $$
-   
+
 
 
 1. The linear on-shell [[observables]] (def. \ref{LinearObservables}) are also equivalently
@@ -1772,7 +1772,7 @@ $$
   \,.
 $$
 
-The point-evaluation field observables $\mathbf{\Phi}^a(x)$ (example \ref{PointEvaluationObservables}) are [[linear observables]] (example \ref{LinearPointEvaluationObservables}) but far from being regular (eq:RegularLinearObservables)
+The point-evaluation [[field observables]] $\mathbf{\Phi}^a(x)$ (example \ref{PointEvaluationObservables}) are [[linear observables]] (example \ref{LinearPointEvaluationObservables}) but far from being regular (eq:RegularLinearObservables)
 (except in [[spacetime]] [[dimension]] $p +1 = 0+1$). But the regular observables are precisely the
 averages ("smearings") of these point evaluation observables against compactly supported weights.
 
@@ -1788,7 +1788,7 @@ $$
   }
 $$
 
-which to a "smearing function" $\alpha^\ast$ assigns the observable which is the field observable smeared by (i.e. averaged against)
+which to a "smearing function" $\alpha^\ast$ assigns the observable which is the [[field observable]] smeared by (i.e. averaged against)
 that smearing function.
 
 Below in _[Free quantum fields](#FreeQuantumFields)_ we discuss how the [[polynomial Poisson algebra]] of regular polynomial observables of a [[free field theory]] may be [[deformation quantization|deformed]] to a [[non-commutative algebra|non-commutative]] [[algebra of quantum observables]]. Often this may be [[representation|represented]] by [[linear operators]] acting on some [[Hilbert space]].
