@@ -122,7 +122,9 @@ See at _[[monster vertex algebra]]_.
 
 * [[sheaf of vertex operator algebras]], [[vertex operator algebroid]]
 
-## Related entries
+## Related concepts
+
+* [[operator product expansion]], [[conformal bootstrap]]
 
 * [[affine Lie algebra]]
 
