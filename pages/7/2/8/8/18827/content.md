@@ -1926,9 +1926,18 @@ The [[local antibracket]] from def. \ref{LocalAntibracket} satisfies the followi
      \right\}
    $$
 
-   and the first term on the right is equivalently given by the primed bracket, as shown under the brace
+   and the first term on the right is equivalently given by the primed bracket, as shown under the brace;
 
-for all $f$,$g$ of homogeneous degree $deg(f)$ and $deg(g)$, respectively.
+1. the [[horizontal derivative|horizontally]] [[exact differential form|exact]] [[horizontal differential forms]] are an [[ideal]] for either bracket, in that for $f dvol_\Sigma = d(\cdots)$ or $g dvol_\Sigma = d(\cdots)$ we have
+
+   $$
+     \{ f dvol_\Sigma, g \, dvol_\Sigma \}' = 0
+     \phantom{AAA}
+     \{ f dvol_\Sigma, g \, dvol_\Sigma \} = d(\cdots)
+   $$
+
+for all $f$, $g$ of homogeneous degree $deg(f)$ and $deg(g)$, respectively.
+
 
 =--
 
@@ -1941,6 +1950,8 @@ for all $f$,$g$ of homogeneous degree $deg(f)$ and $deg(g)$, respectively.
 That the two expressions differ by a horizontally exact terms follows by the very definition of the [[Euler-Lagrange derivative]] (eq:EulerLagrangeEquationGeneral). Also the graded skew symmetry of the primed bracket is manifest.
 
 The third point requires some computation ([Barnich-Henneaux 96 (B.9)](local+BRST+cohomology#BarnichHenneaux96)).
+
+Finally that $\{-,-\}'$ vanishes when at least one of its arguments is horizontally exact follows from the fact that already the [[Euler-Lagrange derivative]] vanishes on this argument (example \ref{TrivialLagrangianDensities}). This implies that $\{-,-\}$ is horizontally exact when at least one of its arguments is so, by the first item.
 
 =--
 
