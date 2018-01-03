@@ -169,3 +169,6 @@ See the references at _[[microcausal observable]]_.
 
 [[!redirects regular linear observable]]
 [[!redirects regular linear observables]]
+
+[[!redirects regular polynomial observable]]
+[[!redirects regular polynomial observables]]
