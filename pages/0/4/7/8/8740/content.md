@@ -27,8 +27,9 @@ More recently also nonassociative "star products" have been proposed to be of in
 
 ## Definition
 
+### On finite-dimensional vector spaces
 
-Let $V$ be a [[vector space]] of [[finite number|finite]] [[dimension]] and let $\pi \in V \otimes V$ be an element of the [[tensor product]] (not necessarily skew symmetric at the moment).
+Let $V$ be a [[finite dimensional vector space]] and let $\pi \in V \otimes V$ be an element of the [[tensor product]] (not necessarily skew symmetric at the moment).
 
 We may canonically regard $V$ as a [[smooth manifold]], in which case $\pi$ is canonically regarded as a constant rank-2 [[tensor]]. As such it has a canonical [[action]] by forming [[derivatives]] on the tensor product of the space of [[smooth functions]]:
 
@@ -128,7 +129,7 @@ $(-) \star_\pi (-)$ from def. \ref{StarPoduct}
 is [[associativity|associative]] and [[unitality|unital]]
 with unit the [[constant function]] $1 \in C^\infty(V) \hookrightarrow C^\infty(V)[ [ \hbar ] ]$.
 
-Hence the [[vector sspace]] $C^\infty(V)$ equipped with the [[star product]] $\pi$ is a [[unital algebra|unital]] [[associative algebra]].
+Hence the [[vector space]] $C^\infty(V)$ equipped with the [[star product]] $\pi$ is a [[unital algebra|unital]] [[associative algebra]].
 
 =--
 
@@ -204,6 +205,54 @@ $$
 
 =--
 
+### On polynomial observables in field theory
+
++-- {: .num_defn #PropagatorStarProduct}
+###### Definition
+**([[star products]] on [[regular polynomial observables]] induced from [[propagators]])**
+
+Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]] with [[field bundle]] $E \overset{fb}{\to} \Sigma$, and let $\Delta \in \Gamma'_\Sigma((E \boxtimes E)^\ast)$ be a [[distribution of two variables]] on [[field histories]].  
+
+On the [[off-shell]] [[regular polynomial observables]] with a [[formal power series|formal paramater]] $\hbar$ adjoined consider the bilinear map
+
+$$
+  PolyObs(E)_{reg}[ [\hbar] ]
+    \otimes
+  PolyObs(E)_{reg} [ [ \hbar ] ]
+    \overset{\star_{\Delta}}{\longrightarrow} 
+  PolyObs(E)_{reg}[ [\hbar] ]
+$$
+
+given as in def. \ref{StarPoduct}, but with [[partial derivatives]] replaced by [[functional derivatives]]
+
+$$
+  A_1 \star_{\Delta} A_2
+  \;\coloneqq\;
+  ((-)\cdot(-))
+  \circ
+  \exp\left(
+    \int_\Sigma \Delta^{a b}(x,y)
+    \frac{\delta}{\delta \Phi^a(x)}
+      \otimes
+    \frac{\delta}{\delta \Phi^b(y)}
+  \right)
+  (A_1 \otimes A_2)
+$$
+
+As in prop. \ref{AssociativeAndUnitalStarProduct} this defines a [[unital algebra|unital]] and [[associative algebra]] [[structure]].
+
+If the [[Euler-Lagrange equations|Euler-Lagrange]] [[equations of motion]] induced by the [[Lagrangian density]] $\mathbf{L}$ are [[Green hyperbolic differential equations]] and if $\Delta$ is a [[propagator]] for these [[differential equations]], then this [[star product]] algebra descends to the [[on-shell]] [[regular polynomial observables]]
+
+$$
+  PolyObs(E,\mathbf{L})_{reg}[ [\hbar] ]
+    \otimes
+  PolyObs(E, \mathbf{L})_{reg} [ [ \hbar ] ]
+    \overset{\star_{\Delta}}{\longrightarrow} 
+  PolyObs(E, \mathbf{L})_{reg}[ [\hbar] ]
+  \,.
+$$
+
+=--
 
 ## Properties
 
@@ -215,32 +264,34 @@ $$
 
 Let $V$ be a vector space, $\pi \in V \otimes V$ a rank-2 [[tensor]] and $\alpha \in Sym(V \otimes V)$ a _symmetric_ rank-2 tensor.
 
-Then the linear map
+Then the [[linear map]]
 
 $$
   \array{
     C^\infty(V)
-     &\overset{\exp\left(-\hbar\tfrac{1}{2}\alpha \right)}{\longrightarrow}&
+     &\overset{\exp\left(\tfrac{1}{2}\alpha \right)}{\longrightarrow}&
     C^\infty(V)
     \\
-    f &\mapsto& \exp\left( -\hbar\tfrac{1}{2}\alpha^{i j} \partial_i \partial_j \right) f
+    f 
+      &\mapsto& 
+    \exp\left( \tfrac{1}{2}\hbar \alpha^{i j} \partial_i \partial_j \right) f
   }
 $$
 
 constitutes an [[isomorphism]] of star product algebras (prop. \ref{AssociativeAndUnitalStarProduct}) of the form
 
 $$
-  \exp\left(-\hbar\tfrac{1}{2}\alpha \right)
+  \exp\left(\hbar\tfrac{1}{2}\hbar\alpha \right)
    \;\colon\;
-  (C^\infty(V)[ [\hbar] ], \star_\pi)
+  (C^\infty(V)[ [\hbar] ], \star_{\pi + \alpha})
     \overset{\simeq}{\longrightarrow}
-  (C^\infty(V))[ [\hbar] ], \star_{\pi + \alpha})
+  (C^\infty(V))[ [\hbar] ], \star_{\pi })
   \,,
 $$
 
 hence identifying the star product induced from $\pi$ with that induced from $\pi + \alpha$.
 
-In particular every star product algebra $(C^\infty(V)[ [\hbar] ],\star_\pi)$ is isomorphic to a Moyal star product algebra $\star_{\tfrac{1}{2}\pi}$ (example \ref{MoyalStarProduct}) with $\tfrac{1}{2}\pi_{skew}^{i j} = \tfrac{1}{2}(\pi^{i j} - \pi^{j i})$ the skew-symmetric part of $\pi$, this isomorphism being exhibited by $\alpha^{i j} = - \tfrac{1}{2}(\pi^{i j} + \pi^{j i})$ (minus) the symmetric part.
+In particular every star product algebra $(C^\infty(V)[ [\hbar] ],\star_\pi)$ is isomorphic to a Moyal star product algebra $\star_{\tfrac{1}{2}\pi}$ (example \ref{MoyalStarProduct}) with $\tfrac{1}{2}\pi_{skew}^{i j} = \tfrac{1}{2}(\pi^{i j} - \pi^{j i})$ the skew-symmetric part of $\pi$, this isomorphism being exhibited by the symmetric part $2\alpha^{i j} = \tfrac{1}{2}(\pi^{i j} + \pi^{j i})$.
 
 =--
 
@@ -251,16 +302,39 @@ In particular every star product algebra $(C^\infty(V)[ [\hbar] ],\star_\pi)$ is
 We need to show that
 
 $$
+  \array{
+    (C^\infty(V)[ [\hbar] ] \otimes  (C^\infty(V)[ [\hbar] ]
+    &
+     \overset{ 
+       \exp\left( \tfrac{1}{2}\hbar \alpha \right)    
+       \otimes
+       \exp\left( \tfrac{1}{2}\hbar \alpha \right)    
+     }{\longrightarrow}&
+    (C^\infty(V)[ [\hbar] ] \otimes  (C^\infty(V)[ [\hbar] ]
+     \\
+     {}^{\mathllap{\star_{\pi + \alpha}}}\downarrow 
+       && 
+    \downarrow^{\mathrlap{\star_{\pi}}}
+    \\
+    (C^\infty(V)[ [\hbar] ]
+      &\underset{\exp\left( \tfrac{1}{2} \alpha \right) }{\longrightarrow}&
+    (C^\infty(V)[ [\hbar] ]
+  }
+$$
+
+hence that 
+
+$$
   prod \circ
-  \exp( \pi )
+  \exp( \hbar(\pi + \alpha) )
   \circ
   \left(
-    \exp\left( -\tfrac{1}{2}\alpha\right)
+    \exp\left( \tfrac{1}{2}\alpha\right)
     \otimes
-    \exp\left( -\tfrac{1}{2}\alpha \right)
+    \exp\left( \tfrac{1}{2}\alpha \right)
   \right)
   \;=\;
-  \exp\left( -\tfrac{1}{2}\alpha \right)
+  \exp\left( \tfrac{1}{2}\alpha \right)
   \circ
    prod \circ \exp( \pi )
   \,.
@@ -289,22 +363,25 @@ Using this we compute
 
 $$
   \begin{aligned}
-    \exp\left( - \hbar\tfrac{1}{2}\alpha^{i j} \partial_i \partial_j \right)
+    \exp\left( \hbar\tfrac{1}{2}\alpha^{i j} \partial_i \partial_j \right)
     \circ
     prod
     \circ
-    \exp( \hbar \pi^{i j} \partial_{k} \otimes \partial_l )
+    \exp( \hbar \pi^{i j} \partial_{i} \otimes \partial_j )
     & =
     prod
       \circ
-      \exp\left( - \hbar \tfrac{1}{2}\alpha^{i j}
-         (\partial_i \partial_j) \otimes id
-         +
-         id \otimes (\partial_i \partial_j)
-         +
-         \partial_i \otimes \partial_j
-         +
-         \partial_j \otimes \partial_i
+      \exp\left( 
+        \hbar \tfrac{1}{2}\alpha^{i j}
+        \left(
+           (\partial_i \partial_j) \otimes id
+           +
+           id \otimes (\partial_i \partial_j)
+           +
+           \partial_i \otimes \partial_j
+           +
+           \partial_j \otimes \partial_i
+        \right)
       \right)
       \circ
     \exp( \hbar \pi^{i j} \partial_{k} \otimes \partial_l )
@@ -318,8 +395,8 @@ $$
     \right)
     \circ
     \exp\left(
-      - \hbar \tfrac{1}{2} \alpha^{i j} (\partial_i \partial_j) \otimes id
-      - \hbar \tfrac{1}{2} \alpha^{i j} id \otimes (\partial_i \partial_j)
+      \hbar \tfrac{1}{2} \alpha^{i j} (\partial_i \partial_j) \otimes id
+      \hbar \tfrac{1}{2} \alpha^{i j} id \otimes (\partial_i \partial_j)
     \right)
     \\
     & =
@@ -330,9 +407,9 @@ $$
     \right)
     \circ
     \left(
-      \exp(-\hbar \tfrac{1}{2}\alpha)
+      \exp\left( \tfrac{1}{2} \hbar \alpha \right)
         \otimes
-      \exp(-\hbar \tfrac{1}{2}\alpha)
+      \exp\left( \tfrac{1}{2} \hbar \alpha \right)
     \right)
   \end{aligned}
 $$
