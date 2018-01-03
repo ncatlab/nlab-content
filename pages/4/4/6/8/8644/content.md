@@ -88,6 +88,8 @@ For more see at _[Yang-Mills instanton -- SU(2)-instantons from the correct math
 
 * [[Yang-Mills instanton]]
 
+  * [[theta vacuum]]
+
   * [[BPTS-instanton]]
 
 * [[CP violation]]
@@ -110,7 +112,7 @@ Physics-style  surveys include the introductory lecture notes
  
 * [[Edward Shuryak]], _Physics of QCD Instantons_, Proceedings of the International School of Subnuclear Physics Erice, Sicily, Italy, August &#8211; September 2002 ([web](http://www.worldscientific.com/doi/abs/10.1142/9789812796653_0003))
 
-and the fairly detailed account (with lot of pointers to the literature)
+and the fairly detailed account (with lots of pointers to the literature)
 
 * {#SchaeferShuryak98} [[Thomas Schaefer]], [[Edward Shuryak]], _Instantons in QCD_, Rev. Mod. Phys.70:323-426,1998 ([arXiv:hep-ph/9610451](http://arxiv.org/abs/hep-ph/9610451)) 
   
@@ -122,6 +124,14 @@ and the fairly detailed account (with lot of pointers to the literature)
 See also the survey in 
 
 * Marcus Hutter, _Instantons in QCD: Theory and Application of the Instanton Liquid Model_ ([arXiv:hep-ph/0107098](http://arxiv.org/abs/hep-ph/0107098))
+
+Detailed argument for the [[theta-vacuum]] structure from [[chiral symmetry breaking]] is offered in 
+
+* [[Curtis Callan]], R.F. Dashen, [[David Gross]], _The Structure of the Gauge Theory Vacuum_, Phys.Lett. 63B (1976) 334-340 ([spire](http://inspirehep.net/record/3673?ln=en))
+
+* G. Morchio, [[Franco Strocchi]], _Chiral symmetry breaking and theta vacuum structure in QCD_, Annals Phys.324:2236-2254, 2009 ([arXiv:0907.2522](https://arxiv.org/abs/0907.2522))
+
+
 
 A review in view of the [[asymptotic series]] nature of the [[Feynman perturbation series]] is in
 
