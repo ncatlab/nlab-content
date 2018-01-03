@@ -7,7 +7,7 @@
 
 A _heap_ is an algebraic structure which is basically equivalent to a [[group]] when one forgets about which element is the [[identity element|unit]].  Similar notions are [[affine space]], [[principal homogeneous space]] and so on. However, the notion of a heap has a directness and simplicity in the sense that it is formalized as an algebraic structure with only one ternary operation satisfying a short list of axioms. If we start with a group the ternary operation is defined via $(a,b,c)\mapsto a b^{-1}c$.  We can interpret that operation as shifting $a$ by the (right) translation in the group which translates $b$ into $c$.  There is also a dual version, [[quantum heap]].
 
-Heaps in the sense of algebra should not be confused with [heaps](http://en.wikipedia.org/wiki/Heap) in the sense of theoretical computer science.  There are also a number of synonyms for the term "heap;" below we consider "torsor" in this light.  In Russian one term for a heap is "gruda" meaning a 'heap of soil'; this is a pun as it is parallel to the russian word "gruppa" meaning a 'group': forgetting the unit element is sort of creating an amorphous version.  This term also appears in English as 'groud'.
+Heaps in the sense of algebra should not be confused with [heaps](http://en.wikipedia.org/wiki/Heap) in the sense of theoretical computer science.  There are also a number of synonyms for the term 'heap'; below we consider 'torsor' in this light.  In Russian one term for a heap is 'груда' ('gruda') meaning a heap of soil; this is a pun as it is parallel to the russian word 'группа' ('gruppa') meaning a group: forgetting the unit element is sort of creating an amorphous version.  This term also appears in English as 'groud'.
 
 
 ## Definition
@@ -93,7 +93,7 @@ On the other hand, we could generalize the notion of [[group]] to allow for an e
 
 Then any possibly-empty-group is a possibly-empty-heap, and every possibly-empty-heap arises in this way from its automorphism possibly-empty-group (defined by either method (2) or (3)); the category of possibly-empty-heaps is equivalent to the category of possibly-empty-groups equipped with torsors over the point; etc.
 
-This is even [[constructive mathematics|constructive]]; the theorems can be proved uniformly, rather than by the (rather trivial) method of treating the empty and nonempty cases separately.
+This is even [[constructive mathematics|constructive]]; the theorems can be proved uniformly, rather than by treating the empty and inhabited cases separately. (This rather trivial method is obvious to a classical mathematician, but it\'s not constructively valid, since a possibly-empty-group/heap as defined here can\'t be constructively proved empty or inhabited; it can only be proved empty iff not inhabited.  Indeed, taking any group $G$ and any [[truth value]] $P$, the possibly-empty-subgroup $\{x \in G \;|\; P\}$ is empty or inhabited iff $P$ is false or true.)
 
 
 ## References and remarks
@@ -116,5 +116,4 @@ There is an oidification ([[horizontal categorification]]) of a heap, sometimes 
 
 [[!redirects heap]]
 [[!redirects heaps]]
-
 [[!redirects Heap]]
