@@ -1,4 +1,5 @@
 
+
 ## Observables
  {#Observables}
 
@@ -161,7 +162,7 @@ In summary we find the following system of types of observables:
 
 In the chapter _[Free quantum fields](#FreeQuantumFields)_ we will see that the space of all [[polynomial observables]]
 is too large to admit [[quantization]], while the space of [[regular polynomial observables|regular]] [[local observables]]
-is too small to contain the usual [[interaction]] terms for [[perturbative quantum field theory]] (example \ref{RegularPolynomialLocalObservablesAreNecessarilyLinear}) below. The space of [[microcausal polynomial observables]] 
+is too small to contain the usual [[interaction]] terms for [[perturbative quantum field theory]] (example \ref{RegularPolynomialLocalObservablesAreNecessarilyLinear}) below. The space of [[microcausal polynomial observables]]
 (def. \ref{MicrocausalObservable} below) is in between these two extremes, and evades both of these obstacles.
 
 $\,$
@@ -209,7 +210,7 @@ But, moreover, the [[superposition principle]] of [[quantum physics]] says that 
 are only those of the form $A^\ast A$ (for $A^\ast$ the image under the star-operation on the [[star algebra]]
 of observables.
 
-This finally leads to the definition of _[[states]]_ in def. \ref{States} below.
+This finally leads to the definition of _[[states]]_ in def. \ref{StateOnAStarAlgebra} below.
 
 
 
@@ -2923,7 +2924,7 @@ such that
 ###### Remark
 **([[probability theory|probability theoretic]] interpretation of [[state on a star-algebra]])**
 
-A [[star algebra]] $\mathcal{A}$ (def. \ref{StarAlgebra}) equipped with a [[state on a star-algebra|state]] $\mathcal{A} \overset{\langle -\rangle}{\longrightarrow} \mathbb{C}$ (def. \ref{States}) is also called a _[[quantum probability space]]_, at least when $\mathcal{A}$ is in fact a [[von Neumann algebra]].
+A [[star algebra]] $\mathcal{A}$ (def. \ref{StarAlgebra}) equipped with a [[state on a star-algebra|state]] $\mathcal{A} \overset{\langle -\rangle}{\longrightarrow} \mathbb{C}$ (def. \ref{StateOnAStarAlgebra}) is also called a _[[quantum probability space]]_, at least when $\mathcal{A}$ is in fact a [[von Neumann algebra]].
 
 For this interpretation we think of each element $A \in \mathcal{A}$ as an [[observable]] as in example \ref{StarAlgebraOfObservables} and of the state as assigning _[[expectation values]]_.
 
