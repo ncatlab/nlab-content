@@ -20,7 +20,7 @@
 
 ## Idea
 
-In a [[sigma-model]] [[quantum field theory]] a [[field (physics)|field]] history is a [[morphism]] $\phi \colon \Sigma \to X$ for $\Sigma$ an $n$-[[dimension|dimensional]] [[manifold]] or similar. One is to think of this as being the _trajectory: of an $(n-1)$-[[brane]] propagating in the [[target space]] $X$. 
+In a [[sigma-model]] [[quantum field theory]] a [[field history]] is a [[morphism]] $\phi \colon \Sigma \to X$ for $\Sigma$ an $n$-[[dimension|dimensional]] [[manifold]] or similar. One is to think of this as being the _trajectory: of an $(n-1)$-[[brane]] propagating in the [[target space]] $X$. 
 
 For the case $n = 1$ (for instance the [[relativistic particle]], a 0-[[brane]]) the term **worldline** for $\Sigma$ has a long tradition. Accordingly one calls $\Sigma$ the **worldvolume** of the given $(n-1)$-[[brane]] when $n \gt 1$. For the case $n=2$ (the case of relevance in [[string theory]]) one also says **worldsheet**.
 
@@ -64,9 +64,4 @@ The [[space]] of all these is the _[[space of trajectories]]_ (space of historie
 [[!redirects world volume]]
 [[!redirects world sheet]]
 
-[[!redirects trajectory]]
-[[!redirects trajectories]]
-
-[[!redirects field history]]
-[[!redirects field histories]]
 
