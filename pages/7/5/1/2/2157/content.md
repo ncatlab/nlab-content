@@ -90,12 +90,15 @@ This definition is an affine version of the usual definition of a vector space i
 * $\mu(x,y,z) = \mu(z,y,x)$ (commutativity of addition)
 * $\Lambda_{r s}(x,y) = \Lambda_r(x, \Lambda_s(x,y))$ (associativity of scalar multiplication)
 * $\Lambda_1(x,y) = y$ (identity for scalar multiplication)
+* $\Lambda_0(x,y) = x$ (left zero for scalar multiplication)
 * $\Lambda_{r+s}(x,y) = \mu(\Lambda_r(x,y), x, \Lambda_s(x,y))$ (left distributivity of scalar multiplication)
 * $\Lambda_r(w, \mu(x,y,z)) = \mu(\Lambda_r(w,x), \Lambda_r(w,y), \Lambda_r(w,z))$ (right distributivity of scalar multiplication)
 
 +-- {: .query}
 
-Joost: Could it be that there is an axiom missing here ? One can go from Vector spaces to the 2 ternary operations definition and back, but I can't see that by starting with the two ternary operations definition, going to vectorspaces and back, you get the same $\Lambda$. I guess you need an extra axiom as $\mu(x,y,\Lamda_r(y,z))=\Lambda_r(x,\mu(x,y,z))$.
+_Joost_: Could it be that there is an axiom missing here ? One can go from Vector spaces to the 2 ternary operations definition and back, but I can't see that by starting with the two ternary operations definition, going to vectorspaces and back, you get the same $\Lambda$. I guess you need an extra axiom as $\mu(x,y,\Lambda_r(y,z))=\Lambda_r(x,\mu(x,y,z))$.
+
+_Toby_:  Conceptually, there is something missing, which I\'ve inserted as the left zero property of scalar multiplication.  (The right zero property $\Lambda_r(x,x) = x$ follows from this using associativity of scalar multiplication with $s = 0$, same as with vector spaces.)  But I have to leave, and I haven\'t yet derived your axiom, even with this aid.
 
 =--
 
