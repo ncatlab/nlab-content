@@ -288,6 +288,13 @@ More general states in this case are given by [[density matrices]].
 
 ## References 
 
+### Exposition
+
+* {#Gleason09} Jonathan Gleason, _The $C*$-algebraic formalism of quantum mechanics_, 2009 ([pdf](http://www.math.uchicago.edu/~may/VIGRE/VIGRE2009/REUPapers/Gleason.pdf))
+
+
+### Original articles
+
 * {#KadisonRingrose} Richard Kadison, John Ringrose, _Fundamentals of the theory of operator algebras_, AMS (1991)
 
 * {#BordemannWaldmann96} [[Martin Bordemann]], [[Stefan Waldmann]], _Formal GNS Construction and States in Deformation Quantization_, Commun. Math. Phys. (1998) 195: 549.  ([arXiv:q-alg/9607019](https://arxiv.org/abs/q-alg/9607019), [doi:10.1007/s002200050402](https://doi.org/10.1007/s002200050402))
