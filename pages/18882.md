@@ -25,6 +25,10 @@ If all these distributional coefficients are [[non-singular distributions]] one 
 
 Of all the distributional coefficients at order $k$ satisfy the condition that their [[wave front sets]] exclude the subsets where all $k$ [[wave vectors]] are all in the [[future cone]] or all in the [[past cone]], then one speaks of _[[microcausal observables]]_. 
 
+
+[[!include perturbative observables -- table]]
+
+
 ## Definition
 
 +-- {: .num_defn #PolynomialObservable}
