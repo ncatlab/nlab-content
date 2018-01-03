@@ -36,6 +36,8 @@ $$
 
 Hence in the case that $E$ is a [[vector bundle]], then under the identification of [[linear observables]] with [[distributions]] ([this prop.](geometry+of+physics+--+A+first+idea+of+quantum+field+theory#LinearObservablesAreTheCompactlySupportedDistributions)), these field observable are the [[Dirac delta distributions]].
 
+[[!include perturbative observables -- table]]
+
 In general such $\mathbf{\Phi}^a(x)$ itself is far from being [[on-shell]] [[gauge invariance|gauge invariant]] and hence far from being an element in the [[BV-BRST cohomology]] of the theory. But since most observables that are may be expressed as algebraic combinations of these "point evaluation observables" they are of particular interest. Since they manifestly reflect the value of [[field histories]], it is common to terminologically conflate the field observables $\mathbf{\Phi}^a(x)$ with "the fields" of the field theory.
 
 ## Related entries
