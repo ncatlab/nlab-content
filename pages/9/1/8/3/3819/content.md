@@ -39,6 +39,9 @@ In the [[AQFT]] approach to [[quantum field theory]] the system of [[quantum obs
 In [[non-perturbative quantum field theory]] the [[algebras of observables]] are meant to be [[C*-algebras]], while in [[perturbative quantum field theory]] ([[perturbative AQFT]]) they are [[formal power series algebras]].
 
 
+[[!include perturbative observables -- table]]
+
+
 ## Related concepts
 
 * [[local observable]]
