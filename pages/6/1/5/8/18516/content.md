@@ -23,7 +23,9 @@
 
 The _microcausal functionals_ on the space $C^\infty(X)$ of [[smooth functions]] on a [[globally hyperbolic spacetime]] $(X,e)$ are those which come from [[compactly supported distributions]] on some [[Cartesian product]] of copies of $X$ such that the [[wave front set]] of the distributions excludes those covectors to a point in $X^n$ all whose components are in the [[future cone]] or all whose components are in the [[past cone]]
 
-These functionals underly the [[Wick algebra]] of [[free field theories]]. The condition on the wave front is such that the [[product of distributions]] with a [[Hadamard distribution]] is well defined, so that the coresponding [[Moyal star product]] is well defined, which gives the [[Wick algebra]]. At the same time the condition is flexible enough to allow the usual ([[adiabatic switching|adiabatically switched]]) point-[[interaction]] terms, such as of [[phi^4 theory]], see example \ref{AdiabaticallySwitchedPointInteractions} below.
+These functionals underly the [[Wick algebra]] of [[free field theories]]. The condition on the wave front is such that the [[product of distributions]] with a [[Hadamard distribution]] is well defined, so that the coresponding [[Moyal star product]] is well defined, which gives the [[Wick algebra]]. At the same time the condition includes [[local observables]] and hence in particular the usual ([[adiabatic switching|adiabatically switched]]) point-[[interaction]] terms, such as of [[phi^4 theory]].
+
+[[!include perturbative observables -- table]]
 
 ## Definition
 
@@ -278,8 +280,6 @@ $$
 ([Hollands-Ruan 01, remark 1 on p. 12](#HollandRuan01), implied by [Brunetti-Fredenhagen 00](#BrunettiFredenhagen00), [Hollands-Wald 01](#HollandsWald01), a special case of [Hollands-Ruan 01, theorem III.1 (ii)](#HollandRuan01))
 
 ## Related concepts
-
-[[polynomial]] [[local observables]] $\hookrightarrow$ [[microcausal observables]] $\hookrightarrow$ [[polynomial observables]] $\hookrightarrow$ [[observables]]
 
 * [[Wick algebra]]
 
