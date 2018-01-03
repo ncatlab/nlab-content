@@ -110,7 +110,7 @@ $\,$
 
 We now discuss these topics:
 
-1. _[Quasi-isomorphisms between BV-BRST complexes](#QuasiIsomorphismsBetweenBVBRSTComplexes)_
+1. _[Quasi-isomorphisms between local BV-BRST complexes](#QuasiIsomorphismsBetweenBVBRSTComplexes)_
 
    1. [gauge fixing chain maps](#GaugeFixingChainMaps);
 
@@ -121,7 +121,7 @@ We now discuss these topics:
 
 $\,$
 
-**[[quasi-isomorphisms]] between [[BV-BRST complexes]]**
+**[[quasi-isomorphisms]] between [[local BV-BRST complexes]]**
  {#QuasiIsomorphismsBetweenBVBRSTComplexes}
 
 Recall (prop. \ref{CochainCohomologyOfBVBRSTComplexInDegreeZero}) that given a [[local BV-BRST complex]] (example  \ref{LocalBVBRSTComplexIsDerivedCriticalLocusOfEulerLagrangeForm}) with [[BV-BRST differential]] $s$, then the space of
