@@ -29,6 +29,8 @@ $$
 
 such that composition of such operations is suitably respected.
 
+In Euclidean ([[Wick rotation|Wick rotated]]) [[field theory]] factorization algebras serve to axiomatize the [[operator product expansion]].
+
 ## Definition
 
 ### Prefactorization algebra
