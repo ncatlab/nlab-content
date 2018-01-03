@@ -3528,6 +3528,10 @@ The moduli stack of these fields is that of background fields that satisfy the [
 
 ## Related concepts
 
+* [[field history]]
+
+* [[field observable]]
+
 [[prequantum field theory]]
 
 * **physical field**
