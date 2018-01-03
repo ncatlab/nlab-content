@@ -2,13 +2,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Functional analysis
-+-- {: .hide}
-[[!include functional analysis - contents]]
-=--
 #### Algebraic Quantum Field Theory
 +--{: .hide}
 [[!include AQFT and operator algebra contents]]
+=--
+#### Functional analysis
++-- {: .hide}
+[[!include functional analysis - contents]]
 =--
 =--
 =--
@@ -279,9 +279,11 @@ $$
 
 ## Related concepts
 
-
 [[polynomial]] [[local observables]] $\hookrightarrow$ [[microcausal observables]] $\hookrightarrow$ [[polynomial observables]] $\hookrightarrow$ [[observables]]
 
+* [[Wick algebra]]
+
+* [[time-ordered products]]
 
 
 ## References
@@ -310,7 +312,9 @@ $$
 
 * {#Duetsch18} [[Michael Dütsch]], def. 1.2 and equation (2.47) in _[[From classical field theory to perturbative quantum field theory]]_, 2018
 
+[[!redirects microcausal polynomial observables]]
 
+[[!redirects microcausal observable]]
 [[!redirects microcausal observables]]
 
 [[!redirects microcausal functional]]
