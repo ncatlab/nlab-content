@@ -27,5 +27,7 @@ In [[field theory]] over [[Lorentzian manifolds|Lorentzian]] [[spacetime]] one i
 
 * [[phase space]]
 
+* [[field history]]
+
 [[!redirects space of field configurations]]
 [[!redirects spaces of field configurations]]
