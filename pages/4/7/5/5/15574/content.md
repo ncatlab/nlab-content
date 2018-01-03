@@ -114,7 +114,7 @@ Whereas $T\circ L$ and $T\circ R$ are each the identity, the reverse composition
 
 ### Reflexivity vs. irreflexivity
 
-Let us briefly consider a second example of a unity-and-identity of opposites:
+Let us consider a second example of a unity-and-identity of opposites:
 
 The category $\mathbf{Bin}$ of sets equipped with a binary relation has objects pairs $(X,\rho)$ with $X$ a set and $\rho$ a binary relation on $X$ and morphims $(X_1,\rho_1)\to (X_2,\rho_2)$ are functions $f:X_1\to X_2$ such that $x\rho_1 y$ implies $f(x)\rho_2 f(y)$. Here we view a [[relation]] as set of ordered pairs $(x_1,x_2)$ of elements $x_1,x_2\in X$.
 $(\empty,\empty)$ and $(\{\ast\},(\ast,\ast))$ are the initial resp. the terminal object in $\mathbf{Bin}$.
@@ -144,6 +144,12 @@ $$ \Pi\dashv\Delta\dashv\Gamma: \mathbf{Bin}\to Set \quad .$$
 
 Here $\Pi$ lumps together all individuals $x_1,x_2,\dots$ that have some chain of $\rho$ links $x_i\rho x_j$ between them into a group of maximally interrelated individuals and then maps $(X,\rho)$ to the set of these groups. $\Delta$ maps a set $X$ of individuals to the individualistic society $(X,id_X)$ whereas $\Gamma$ maps a society $(X,\rho)$ to the set $\{x\in X: x\rho x\}$ of selves.
 
+We can do even better and embed $\mathbf{Ind}$ aka $Set$ as unity-and-identity of opposites into $\mathbf{Bin}$ by using the following adjoint triple:
+
+$$ e\dashv\d\dashv\t: \mathbf{Ind}\hookrightarrow \mathbf{Bin} \quad .$$
+
+Here $t$ maps $(X,id_X)$ to $(X,\tau_X)$ with $\tau_X$ the total relation $X\times X$ on the set $X$, $d$ maps $(X,\rho)$ to $(X,id_X)$ and $e$ maps $(X,id_X)$ to $(X,\empty)$. This identifies $Set$ with the subcategories of sets with lack of relatedness $(X,\empty)$ and the sets with an excess of relatedness $(X,\tau_X)$. We denote the corresponding adjoint modalities as $\mathbf{Iso}\vdash \mathbf{Com}$ ("isolationism vs. communitarianism").
+ 
 [^kin]: For another example of a such crude but useful mathematical modelling intended to capture social phenomena see at [[kinship]].
 
 Interestingly, crude as this picture is we can nevertheless interpret our adjoint oppositions $0\dashv 1$ and $\mathbf{IrRefl}\dashv \mathbf{Refl}$ in it. For instance, the terminal object $(\{\ast\},(\ast,\ast))$ models _pure selfconciousness_ and the corresponding adjoint modality $0\dashv 1$ can interpreted as saying that pure ego is empty, indeed a Hegelian contention and one of his reason to replace the Fichtean Ego with 'pure being' (see below!) as the starting point of philosophy. The opposition $\mathbf{IrRefl}\dashv \mathbf{Refl}$ can be interpreted as saying that a society where everything is a self is equivalent to a society consisting purely of (irreflexive) things, that would suggest to reinterpret a society as a _Lebenswelt_ i.e. as consisting of set of individuals together with a set of things - in particular, the contradiction $\mathbf{IrRefl}\dashv \mathbf{Refl}$ expresses that a purely anamistic Lebenswelt where everything is a self is contradictory, in other words selfconciousness requires not only other selves but also not-selves!
