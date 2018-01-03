@@ -51,11 +51,14 @@ In [[quantum physics]], $\mathcal{A}$ is an [[algebra of observables]] (or a [[l
 
 ## References
 
-The axiomatization of [[probability theory]] in terms of the concept of [[expectation values]] (instead of [[probability measures]]) was amplified in
+The axiomatization of [[probability theory]] in terms of the concept of [[expectation values]] (instead of [[probability measures]]) is amplified in
 
 *  {#Segal65} [[Irving Segal]], _Algebraic integration theory_, Bull. Amer. Math. Soc. Volume 71, Number 3, Part 1 (1965), 419-489 ([Euclid](https://projecteuclid.org/euclid.bams/1183526903))
 
 * {#Whittle92} [[Peter Whittle]], _Probability via expectation_, Springer 1992
+
+* {#Gleason09} Jonathan Gleason, _The $C*$-algebraic formalism of quantum mechanics_, 2009 ([pdf](http://www.math.uchicago.edu/~may/VIGRE/VIGRE2009/REUPapers/Gleason.pdf))
+
 
 Introduction to quantum probability theory includes
 
