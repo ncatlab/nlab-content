@@ -1110,6 +1110,14 @@ based on
 [[!redirects BV-differential]]
 [[!redirects BV-differentials]]
 
+[[!redirects BV differential]]
+[[!redirects BVdifferentials]]
+
+
+[[!redirects BV-BRST-differential]]
+[[!redirects BV-BRST-differentials]]
+
+
 [[!redirects BV-BRST differential]]
 [[!redirects BV-BRST differentials]]
 
