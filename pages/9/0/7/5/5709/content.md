@@ -167,8 +167,13 @@ whose author describes his goal as: "This is intended to be a book on quantum fi
 
 Introductory lecture notes are for instance in 
 
-* A. Pich, _Effective Field Theory_ ([arXiv:hep-ph/9806303](http://arxiv.org/abs/hep-ph/9806303))
- {#Pich}
+* {#Pich} A. Pich, _Effective Field Theory_ ([arXiv:hep-ph/9806303](http://arxiv.org/abs/hep-ph/9806303))
+ 
+
+Discussion of the relation to the perspective of [[causal perturbation theory]] the [[Stückelberg-Petermann renormalization group]] is in 
+
+* {#BrunettiDuetschFredenhagen09} [[Romeo Brunetti]], [[Michael Dütsch]], [[Klaus Fredenhagen]], section 5.2 of _Perturbative Algebraic Quantum Field Theory and the Renormalization Groups_, Adv. Theor. Math. Physics 13 (2009), 1541-1599 ([arXiv:0901.2038](https://arxiv.org/abs/0901.2038))
+
 
 The point that perturbatively [[renormalization|non-renormalizable]] theories may be regarded as effective field theories at each energy scale was highligted in
 
