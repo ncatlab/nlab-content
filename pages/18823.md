@@ -13,24 +13,23 @@ on the [[on-shell]] [[space of field histories]] (example \ref{DiffeologicalSpac
 hence a [[smooth function|smooth]] "[[functional]]" of field histories. We think
 of this as assigning to each physically realizable field history $\Phi$ the value $A(\Phi)$ of the given quantity as exhibited by
 that field history. For instance concepts like "average [[field strength]] in the compact spacetime region $\mathcal{O}$" should be
-observables. In particular the _field amplitude at spacetime point $x$_ should be an observable, denoted $\mathbf{\Phi}^a(x)$.
+observables. In particular the _field [[amplitude]] at spacetime point $x$_ should be an observable, the "[[field observable]]" denoted $\mathbf{\Phi}^a(x)$.
 
-In much of the literature on [[field theory]], these point evaluation observables $\mathbf{\Phi}^a(x)$
-(example below \ref{PointEvaluationObservables}) are eventually referred to as "fields" themselves,
-blurring the distinction between
+Beware that in much of the literature on [[field theory]], these point-evaluation [[field observables]] $\mathbf{\Phi}^a(x)$
+(example below \ref{PointEvaluationObservables}) are eventually referred to as "fields" themselves, blurring the distinction between
 
-1. field species/[[field bundles]] $E$,
+1. [[types]] of fields/[[field bundles]] $E$,
 
 1. [[field histories]]/[[sections]] $\Phi$,
 
 1. [[functions]] on the [[space of field histories]] $\mathbf{\Phi}^a(x)$.
 
 In particular, the process of _[[quantization]]_ (discussed in _[Quantization](#Quantization)_ below)
-affects the third of these concepts only, in that it deforms the [[associative algebra|algebra]] structure
+affects the third of these concepts only, in that it [[deformation theory|deforms]] the [[associative algebra|algebra]] [[structure]]
 on observables to a [[non-commutative algebra|non-commutative]] [[algebra of quantum observables]].
-For this reason the observables $\mathbf{\Phi}^a(x)$ are often referred to as _quantum fields_.
+For this reason the [[field observables]] $\mathbf{\Phi}^a(x)$ are often referred to as _quantum fields_.
 But to understand the conceptual nature of [[quantum field theory]] it is important that the
-$\mathbf{\Phi}^a(x)$ are really the _[[observables]]_ or _[[quantum observables]]_ on the space of field histories.
+$\mathbf{\Phi}^a(x)$ are really the _[[observables]]_ or _[[quantum observables]]_ on the [[space of field histories]].
 
 **[[field (physics)|fields]]**
 
@@ -156,10 +155,18 @@ The [[equations of motion]] of a [[Lagrangian field theory]] say that those fiel
 are physically realized which are [[critical points]] of this [[action functional]] observable. This is
 the _[[principle of extremal action]]_ (prop. \ref{PrincipleOfExtremalAction} below).
 
-This formalizes what it means for a [[field (physics)|field]] history $\Phi$ to be "realizable" (physically admissible)
-(a solution to the [[Euler-Lagrange equations]], def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime})
-and what the ([[local observable|local]]) [[observable]] quantities on field histories are (def. \ref{LocalObservables}).
-It remains to formalize what it means for the [[physical system]] to be in some definite _[[state]]_
+In summary we find the following system of types of observables:
+
+[[!include perturbative observables -- table]]
+
+In the chapter _[Free quantum fields](#FreeQuantumFields)_ we will see that the space of all [[polynomial observables]]
+is too large to admit [[quantization]], while the space of [[regular polynomial observables|regular]] [[local observables]]
+is too small to contain the usual [[interaction]] terms for [[perturbative quantum field theory]] (example \ref{RegularPolynomialLocalObservablesAreNecessarilyLinear}) below. The space of [[microcausal polynomial observables]] 
+(def. \ref{MicrocausalObservable} below) is in between these two extremes, and evades both of these obstacles.
+
+$\,$
+
+Given the concept of [[observables]], it remains to formalize what it means for the [[physical system]] to be in some definite _[[state]]_
 so that the [[observable]] quantities take some definite value, reflecting the properties of that state.
 
 Whatever formalization for _[[states]]_ of a [[field theory]] one considers, at the very least
@@ -2445,13 +2452,13 @@ For the construction of the [[algebra of quantum observables]] it will be import
 ###### Example
 **([[local observable|local]] [[regular polynomial observables]] are [[linear observables]])**
 
-An [[observable]] (def. \ref{Observable}) which is 
+An [[observable]] (def. \ref{Observable}) which is
 
 1. a [[regular polynomial observable]] (def. \ref{PolynomialObservables});
 
 1. a [[local observable]] (def. \ref{LocalObservables})
 
-is necessarily 
+is necessarily
 
 * a [[linear observable]] (def. \ref{LinearObservables}).
 
@@ -2465,7 +2472,7 @@ $$
   \int \int \Phi(x) \Phi(y) \underset{ = \alpha^{(2)}(x,y) }{\underbrace{\delta(x-y)}} \, dvol_\Sigma(y)
 $$
 
-and so its [[coeffcient]] $\alpha^{(2)}$ is manifestly not a [[non-singular distribution]].
+and so its [[coefficient]] $\alpha^{(2)}$ is manifestly not a [[non-singular distribution]].
 
 =--
 
