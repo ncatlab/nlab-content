@@ -6,7 +6,11 @@
 
 **[[Lagrangian field theory]]** 
 
-* [[field bundle]]
+* [[field (physics)]]
+
+  * [[field bundle]]
+
+  * [[field history]]
 
 * [[Lagrangian density]]
 
@@ -29,6 +33,8 @@
 * [[subsystem]]
 
 * [[observables]]
+
+  * [[field observable]]
 
   * [[local observables]]
 
