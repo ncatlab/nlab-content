@@ -30,19 +30,13 @@ $\,$
  {#WickAlgebraAndNormalOrderedProducts}
 
 
-+-- {: .num_defn #MicrocausalFunctionals}
+
+
++-- {: .num_defn #MicrocausalObservable}
 ###### Definition
-**([[microcausal functionals]])**
+**([[microcausal observable]])**
 
-Let $(X,g)$ be a [[globally hyperbolic spacetime]].
-
-Write $\mathcal{F}_{mc} \subset \mathcal{F}_{dist}$ for the subalgebra of smooth functionals
-
-$$
-  C^\infty(X) \longrightarrow \mathbb{R}
-$$
-
-on the [[smooth space]] of smooth functions on $X$ which is generated from those [[distributions]] on some Cartesian product $X^n$ whose [[wave front set]] excludes those covectors to a point in $X^n$ all whose components are in the [[future cone]] or all whose components are in the [[past cone]].
+For $\Sigma$ a [[spacetime]], hence a [[Lorentzian manifold]] with [[time orientation]], then a _[[microcausal observable]]_ is a [[polynomial observable]] (def. \ref{PolynomialObservable}) such that each [[coefficient]] $\alpha^{(k)}$ has [[wave front set]] excluding those points  where all $k$ [[wave vectors]] are in the [[future cone]] or all in the [[past cone]].
 
 =--
 
