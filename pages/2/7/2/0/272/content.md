@@ -157,6 +157,10 @@ Introductory lecture notes include
 
 * {#Fredenhagen03} [[Klaus Fredenhagen]], _Algebraische Quantenfeldtheorie_, lecture notes, 2003 ([[FredenhagenAQFT2003.pdf:file]])
 
+and for just [[quantum mechanics]] in the algebraic perspective:
+
+* {#Gleason09} Jonathan Gleason, _The $C*$-algebraic formalism of quantum mechanics_, 2009 ([pdf](http://www.math.uchicago.edu/~may/VIGRE/VIGRE2009/REUPapers/Gleason.pdf))
+
 Classical textbooks are
 
 * [[Huzihiro Araki]], _[[Mathematical Theory of Quantum Fields]]_
