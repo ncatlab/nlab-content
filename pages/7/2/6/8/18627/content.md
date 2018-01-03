@@ -27,7 +27,7 @@ For the moment see at _[[field theory]]_ for more details.
 
 ## Related concepts
 
-* [[configuration space]]
+* [[configuration space (physics)]]
 
 [[!redirects space of trajectories]]
 [[!redirects spaces of trajectories]]
