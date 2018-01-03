@@ -45,6 +45,10 @@ In [[non-perturbative quantum field theory]] the [[algebras of observables]] are
 
 * [[polynomial observable]]
 
+  * [[linear observable]]
+  
+    * [[field observable]]
+
   * [[regular observable]]
 
   * [[microcausal observable]]
