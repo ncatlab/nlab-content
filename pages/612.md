@@ -95,8 +95,11 @@ Survey on the general program
   on [[derived algebraic geometry]]
 
 
-The basic definitions of [[E-∞ geometry]] (spectral geometry) are in
+A volume on [[E-∞ geometry]] ([[spectral algebraic geometry]])
 
+* [[Jacob Lurie]], _[[Spectral Algebraic Geometry]]_
+
+The basic definitions are in
 
 * [[Jacob Lurie]], _[[Spectral Schemes]]_
  {#Lurie}
