@@ -1777,6 +1777,7 @@ $$
 
 As before for the [[causal propagator]], there are equivalent reformulations of the [[Feynman propagator]], which are useful for computations:
 
+
 +-- {: .num_prop #FeynmanPropagatorAsACauchyPrincipalvalue}
 ###### Proposition
 **([[Feynman propagator]] as a [[Cauchy principal value]])**
@@ -1794,7 +1795,7 @@ $$
   \right\}
   & =
   \underset{ {\epsilon \in (0,\infty)} \atop {\epsilon \to 0} }{\lim}
-  \frac{-i}{(2\pi)^{p+1}}
+  \frac{+i}{(2\pi)^{p+1}}
   \int
   \int_{-\infty}^\infty
   \frac{
@@ -1818,7 +1819,7 @@ We compute as follows:
 $$
   \begin{aligned}
   \underset{ {\epsilon \in (0,\infty)} \atop {\epsilon \to 0} }{\lim}
-  \frac{-i}{(2\pi)^{p+1}}
+  \frac{i}{(2\pi)^{p+1}}
   \int
   \int_{-\infty}^\infty
   \frac{
@@ -1829,7 +1830,7 @@ $$
   \, d k_0 \, d^p \vec k
   & =
   \underset{ {\epsilon \in (0,\infty)} \atop {\epsilon \to 0} }{\lim}
-  \frac{-i}{(2\pi)^{p+1}}
+  \frac{i}{(2\pi)^{p+1}}
   \int
   \int_{-\infty}^\infty
   \frac{
@@ -1839,13 +1840,13 @@ $$
       -
     \underset{
       \coloneqq \omega_{\pm\epsilon}(\vec k)^2/c^2
-    }{\underbrace{ \left( \omega(\vec k)^2/c^2 \mp i \epsilon \right) }}
+    }{\underbrace{ \left( \omega(\vec k)^2/c^2 \pm i \epsilon \right) }}
   }
   \, d k_0 \, d^p \vec k
   \\
   & =
   \underset{ {\epsilon \in (0,\infty)} \atop {\epsilon \to 0} }{\lim}
-  \frac{-i}{(2\pi)^{p+1}}
+  \frac{i}{(2\pi)^{p+1}}
   \int
   \int_{-\infty}^\infty
   \frac{
@@ -1863,18 +1864,18 @@ $$
   & =
   \left\{
     \array{
-    \frac{\pm 1}{(2\pi)^p}
+    \frac{\mp 1}{(2\pi)^p}
     \int
     \frac{1}{2\omega(\vec k)c}
-    e^{\mp i\omega(\vec k)(x^0 - y^0)/c} e^{i \vec k \cdot (\vec x - \vec y)}
+    e^{\pm i\omega(\vec k)(x^0 - y^0)/c} e^{i \vec k \cdot (\vec x - \vec y)}
     \, d^p \vec k
     &\vert&
     (x^0 - y^0) \gt 0
     \\
-    \frac{\pm 1}{(2\pi)^p}
+    \frac{\mp 1}{(2\pi)^p}
     \int
     \frac{1}{2\omega(\vec k)c}
-    e^{\pm i\omega(\vec k)(x^0 - y^0)/c} e^{i \vec k \cdot (\vec x - \vec y)}
+    e^{\mp i\omega(\vec k)(x^0 - y^0)/c} e^{i \vec k \cdot (\vec x - \vec y)}
     \, d^p \vec k
     &\vert&
     (x^0 - y^0) \lt 0
@@ -1894,7 +1895,7 @@ $$
 
 Here
 
-1. In the first step we introduced the [[complex number|complex]] [[square root]] $\omega_{\pm \epsilon}(\vec k)$. For this to be compatible with the choice of _non-negative_ square root for $\epsilon = 0$ in (eq:DispersionRelationForKleinGordonooeratorObMinkowskiSpacetime) we need to choose that complex square root whose [[complex phase]] is one half that of $\omega(\vec k)^2 - i \epsilon$ (instead of that plus [[π]]). This means that $\omega_{+ \epsilon}(\vec k)$ is in the _[[lower half plane]]_ and $\omega_-(\vec k)$ is in the [[upper half plane]].
+1. In the first step we introduced the [[complex number|complex]] [[square root]] $\omega_{\pm \epsilon}(\vec k)$. For this to be compatible with the choice of _non-negative_ square root for $\epsilon = 0$ in (eq:DispersionRelationForKleinGordonooeratorObMinkowskiSpacetime) we need to choose that complex square root whose [[complex phase]] is one half that of $\omega(\vec k)^2 - i \epsilon$ (instead of that plus [[π]]). This means that $\omega_{+ \epsilon}(\vec k)$ is in the _[[upper half plane]]_ and $\omega_-(\vec k)$ is in the [[lower half plane]].
 
 1. In the third step we observe that
 
