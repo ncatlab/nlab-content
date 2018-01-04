@@ -40,6 +40,10 @@ This may be understood as arising from the [[causal additivity]]-[[axiom]] of th
 More precisely, the time-ordere product is a  [[commutative algebra]]-[[structure]] on the [[microcausal polynomial observables]] of a [[free field theory|free]] [[Lagrangian field theory]] equipped with a [[vacuum state]] ([[Hadamard state]]) which on [[regular polynomial observables]] given on the [[regular polynomial observables]] by the [[star product]] which is induced (via [this def.](star+product#PropagatorStarProduct)) by the [[Feynman propagator]] and which is extended from there, in the sense of [[extensions of distributions]], to all [[microcausal polynomial observables]]. (This extension is the "[[renormalization]]" of the time-ordered product).
 
 ## Definition
+ {#Definition}
+
+### On regular polynomial observables
+ {#OnRegularPolynomialObservables}
 
 +-- {: .num_defn #OnRegularPolynomialObservablesTimeOrderedProduct}
 ###### Definition
@@ -155,7 +159,7 @@ $$
     & = 
     \left\{
       \array{
-        A_1 \underset{\tfrac{i}{2}\Delta_+ + H}{\star} A_2 &\vert& supp(A_1) {\vee\!\!\!wedge} supp(A_2)
+        A_1 \underset{\tfrac{i}{2}\Delta_+ + H}{\star} A_2 &\vert& supp(A_1) {\vee\!\!\!\wedge} supp(A_2)
        \\
        A_2 \underset{\tfrac{i}{2}\Delta_+ + H}{\star} A_1 &\vert& supp(A_2) {\vee\!\!\!\wedge} supp(A_2)    
       }
