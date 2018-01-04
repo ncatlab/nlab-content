@@ -232,9 +232,9 @@ $$
   \circ
   \exp\left(
     \int_\Sigma \Delta^{a b}(x,y)
-    \frac{\delta}{\delta \Phi^a(x)}
+    \frac{\delta}{\delta \mathbf{\Phi}^a(x)}
       \otimes
-    \frac{\delta}{\delta \Phi^b(y)}
+    \frac{\delta}{\delta \mathbf{\Phi}^b(y)}
   \right)
   (A_1 \otimes A_2)
 $$
