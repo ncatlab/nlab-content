@@ -47,7 +47,7 @@ Recall the following general facts about the [[wave equation]]/[[Klein-Gordon eq
 
 +-- {: .num_prop #PropertiesOfTheCausalPropagator}
 ###### Proposition
-**(the [[causal propagator]]])**
+**(the [[causal propagator]])**
 
 Let $(X,g)$ be a [[time orientation|time-oriented]] [[globally hyperbolic spacetime]] and let $m \in \mathbb{R}_{\geq 0}$ (the "[[mass]]"). Then the [[Klein-Gordon equation]]
 
