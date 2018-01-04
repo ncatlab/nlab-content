@@ -2059,27 +2059,34 @@ for the subsets on those smooth sections whose [[support]] is
 
 +-- {: .num_defn #CausalOrdering}
 ###### Definition
-**(causal order)**
+**([[causal order]])**
 
 Consider the [[relation]] on the set $P(\Sigma)$ of [[subsets]] of [[spacetime]]
 which says a [[subset]] $S_1 \subset \Sigma$ is _not prior_ to a subset $S_2 \subset \Sigma$,
-denoted $S_1 \geq S_2$, if $S_1$ does not [[intersection|intersect]] the [[causal past]] of $S_2$ (def. \ref{CausalPastAndFuture}),
+denoted $S_1 {\vee\!\!\!\wedge} S_2$, if $S_1$ does not [[intersection|intersect]] the [[causal past]] of $S_2$ (def. \ref{CausalPastAndFuture}),
 or equivalently that $S_2$ does not intersect the [[causal future]] of $S_1$:
 
 $$
   \begin{aligned}
-    (S_1 \geq S_2)
-    & \coloneqq
+    S_1 {\vee\!\!\!\wedge} S_2
+    & \;\;\coloneqq\;\;
     S_1 \cap \overline{V}^-(S_2) = \emptyset
     \\
-    & \Leftrightarrow S_2 \cap \overline{V}^+(S_1) = \emptyset
+    & \;\;\Leftrightarrow\;\; S_2 \cap \overline{V}^+(S_1) = \emptyset
    \end{aligned}
    \,.
 $$
 
-(Beware that this is just a [[relation]], not a [[partial order]].)
+(Beware that this is just a [[relation]], not an [[ordering]], since it is not [[transitive relation|relation]].)
 
-If $S_1 \geq S_2$ and $S_2 \geq S_1$ we say that the two subsets are _[[spacelike]] separated_.
+If $S_1 {\vee\!\!\!\wedge} S_2$ and $S_2 {\vee\!\!\!\wedge} S_1$ we say that the two subsets are _[[spacelike]] separated_ and write
+
+$$
+  S_1 {\gt\!\!\!\!\lt} S_2
+  \;\;\;\coloneqq\;\;\;
+  S_1 {\vee\!\!\!\wedge} S_2 \;\text{and}\; S_2 {\vee\!\!\!\wedge} S_1
+  \,.
+$$
 
 =--
 
@@ -2182,7 +2189,7 @@ such that
 1. their [[support]] satisfies the following causal ordering (def. \ref{CausalOrdering})
 
    $$
-     supp(a) \geq \mathcal{O} \geq supp(r)
+     supp(a) {\vee\!\!\!\wedge} \mathcal{O} {\vee\!\!\!\wedge} supp(r)
      \,.
    $$
 
