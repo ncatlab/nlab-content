@@ -1,5 +1,5 @@
-Wic
-> under construction
+
+>  under construction
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -483,11 +483,14 @@ where on the right we have the [[exponential]] [[Wightman 2-point function]] (eq
 
 (e.g. [Dütsch 18, exercise 2.3](#Duetsch18))
 
-## Hadamard vacuum states on Wick algebras
+## Properties
+
+### Hadamard vacuum states 
  {#HadamardVacuumStatesOnWickAlgebras}
 
-+-- {: .num_prop }
++-- {: .num_prop #WickAlgebraCanonicalState}
 ###### Proposition
+**(canonical [[state on a star algebras|state]] on abstract [[Wick algebra]])**
 
 Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]] with [[Green hyperbolic differential equation|Green-hyperbolic]] [[Euler-Lagrange equation|Euler-Lagrange]] [[equations of motion]]; and let $\Delta_H$ be a compatible [[Wightman propagator]]. 
 
@@ -514,11 +517,25 @@ $$
 
 which sends each ([[microcausal polynomial observables|microcausal]]) [[polynomial observable]] to its value $A(\Phi = 0)$ on the zero [[field history]], hence to the constant contribution $\alpha^{(0)}$ in its [[polynomial]] expansion.
 
-This is a [[state on a star-algebra|state]] on the [[Wick algebra]] $\left( (PolyObs(E,\mathbf{L}))_{mc}[ [\hbar] ], \star_H\right)$ (prop. \ref{MoyalStarProductOnMicrocausal}).
+This function $\langle -\rangle_H$ is a [[state on a star-algebra|state]] on the [[Wick algebra]] $\left( (PolyObs(E,\mathbf{L}))_{mc}[ [\hbar] ], \star_H\right)$ (prop. \ref{MoyalStarProductOnMicrocausal}) in that it is
+
+1. [[linear function|linear]] over $\mathbb{C}[ [\hbar] ]$;
+
+1. positive, in that for all $A \in PolyObs(E,\mathbf{L})_{mc}[ [\hbar] ]$ 
+
+   $$
+     \langle A^\ast \star_H A\rangle_H \geq 0
+   $$
+
+   in the sense that the first non-vanishing coefficient of a power of $\hbar$ (if any) is a [[positive real number]]
+
+1. normalized, in that 
+
+   $$
+     \langle 1\rangle_H = 1
+   $$
 
 =--
-
-([Dütsch 18, def. 2.12 and remark 2.20](#Duetsch18))
 
 (positivity follows by positive semi-definiteness of [[Hadamard distributions]], [this condition](Hadamard+distribution#PositiveSemiDefiniteness)...)
 
