@@ -1,4 +1,4 @@
-
+Wic
 > under construction
 
 +-- {: .rightHandSide}
@@ -486,21 +486,41 @@ where on the right we have the [[exponential]] [[Wightman 2-point function]] (eq
 ## Hadamard vacuum states on Wick algebras
  {#HadamardVacuumStatesOnWickAlgebras}
 
-(...)
++-- {: .num_prop }
+###### Proposition
 
-there is a [[state on a star-algebra|state]] on the [[Wick algebra]], given by evaluation on the zero [[field history]]
+Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]] with [[Green hyperbolic differential equation|Green-hyperbolic]] [[Euler-Lagrange equation|Euler-Lagrange]] [[equations of motion]]; and let $\Delta_H$ be a compatible [[Wightman propagator]]. 
+
+Consider the function
 
 $$
   \array{
-    \mathcal{W}
-      &\overset{\langle -\rangle}{\longrightarrow}&
-    \mathbb{C}
+    PolyObs(E,\mathbf{L})_{mc}[ [[\hbar] ]
+    &\overset{\langle -\rangle_H}{\longrightarrow}&
+    \mathbb{C}[ [\hbar] ]
     \\
-    A &\mapsto& A(\Phi = 0) 
+    \left.
+    \begin{aligned}
+      A & = \alpha^{(0)}
+      \\ & \phantom{=} + \underset{\Sigma}{\int} \alpha^{(1)}_a(x) \mathbf{\Phi}^a(x) \, dvol_\Sigma(x)
+      \\
+      & \phantom{=} + \cdots
+    \end{aligned}
+    \right\}
+    &\mapsto&
+    A(0) = \alpha^{(0)}
   }
 $$
 
-(by positive semi-definiteness of [[Hadamard distributions]], [this condition](Hadamard+distribution#PositiveSemiDefiniteness)...)
+which sends each ([[microcausal polynomial observables|microcausal]]) [[polynomial observable]] to its value $A(\Phi = 0)$ on the zero [[field history]], hence to the constant contribution $\alpha^{(0)}$ in its [[polynomial]] expansion.
+
+This is a [[state on a star-algebra|state]] on the [[Wick algebra]] $\left( (PolyObs(E,\mathbf{L}))_{mc}[ [\hbar] ], \star_H\right)$ (prop. \ref{MoyalStarProductOnMicrocausal}).
+
+=--
+
+([Dütsch 18, def. 2.12 and remark 2.20](#Duetsch18))
+
+(positivity follows by positive semi-definiteness of [[Hadamard distributions]], [this condition](Hadamard+distribution#PositiveSemiDefiniteness)...)
 
 With respect to this state, $\Delta_H(x,y)$ itself is the [[vacuum expectation value]] of the [[2-point function]]:
 
