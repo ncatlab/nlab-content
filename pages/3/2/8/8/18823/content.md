@@ -303,6 +303,30 @@ for the spaces of (off-shell) observables on [[field histories]] with spatially 
 
 $\,$
 
+Observables form a [[commutative algebra]] under pointwise product:
+
+$$
+  \label{ObservablesPointwiseProduct}
+  \array{
+    Obs(E) \otimes Obs(E) &\overset{(-)\cdot (-)}{\longrightarrow}& Obs(E)
+    \\
+    (A_1, A_2) &\mapsto& A_1 \cdot A_2
+  }
+$$
+
+given by
+
+$$
+  (A_1 \cdot A_2)(\Phi_{(-)}) \coloneqq A_1(\Phi_{(-)}) \cdot A_2(\Phi_{(-)})
+  \,,
+$$
+
+where on the right we have the product in $\mathbb{C}$.
+
+(Suitable subspaces of observables will in addition carry other products, notably [[non-commutative algebra]] [[structures]], this is the topic of the chapters _[Free quantum fields](#FreeQuantumFields)_ and _[Quantum observables](#QuantumObservables)_ below.)
+
+$\,$
+
 **Observables on bosonic fields**
 
 In the case that $E$ is a purely [[bosonic]] [[field bundle]] in [[smooth manifolds]] so that $\Gamma_\Sigma(E)_{\delta_{EL}\mathbf{L} = 0}$
@@ -2354,29 +2378,7 @@ vanish, which is the statement of the Euler-Lagrange equations of motion.
 ###### Definition
 **([[local observables]])**
 
-Given a [[Lagrangian field theory]] $(E,\mathbf{L})$ (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) with  [[on-shell]] [[space of histories]] $\Gamma_\Sigma(E)_{\delta_{EL} \mathbf{L} = 0}$ (eq:OnShellFieldHistories)
-then the space
-
-$$
-  \label{GlobalObservables}
-  Obs_\Sigma(E)
-  \;\coloneqq\;
-  C^\infty( \Gamma_\Sigma(E) )
-$$
-
-of _[[observables]]_ is simply the space of [[complex numbers|complex]]-valued [[smooth functions]]
-
-$$
-  A \;\colon\;  \Gamma_\Sigma(E)_{\delta_{EL}\mathbf{L} = 0} \longrightarrow \mathbb{C}
-$$
-
-on the [[on-shell]] [[space of field histories]] (eq:OnShellFieldHistories).
-This is a [[star-algebra]] under pointwise [[complex conjugation]].
-
-(That we consider functions with values in [[complex numbers]] instead of [[real numbers]] is a
-reflection of the [[superposition principle]] in [[quantum physics]], more about this below.)
-
-On the other hand the _[[local observables]]_ are the [[horizontal differential form|horizontal p+1-forms]]
+Given a [[Lagrangian field theory]] $(E,\mathbf{L})$ (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) the _[[local observables]]_ are the [[horizontal differential form|horizontal p+1-forms]]
 
 1. of compact spacetime support (def. \ref{SpacetimeSupport})
 
@@ -2385,7 +2387,7 @@ On the other hand the _[[local observables]]_ are the [[horizontal differential 
 1. restricted to the [[shell]] $\mathcal{E}^\infty$ (eq:ProlongedShellInJetBundle):
 
 $$
-  LocObs_\Sigma(E) \;\coloneqq\; \left(\Omega^{p+1,0}_{\Sigma,cp}(E)/(im(d))\right)\vert_{\mathcal{E}^\infty}
+  LocObs(E) \;\coloneqq\; \left(\Omega^{p+1,0}_{\Sigma,cp}(E)/(im(d))\right)\vert_{\mathcal{E}^\infty}
 $$
 
 which we may identify with the subspace of all observables (eq:GlobalObservables)
@@ -2394,7 +2396,7 @@ on those that arise as the [[image]] under
 of local observables to [[functionals]] on the [[on-shell]] [[space of field histories]] (eq:OnShellFieldHistories):
 
 $$
-  LocObs_\Sigma(E)
+  LocObs(E)
     \overset{\tau_\Sigma}{\hookrightarrow}
   \in
   C^\infty\left( \Gamma_\Sigma(E)_{\delta_{EL}\mathbf{L} = 0} \right)
@@ -2404,7 +2406,7 @@ $$
 This is a sub-vector space inside all observables which is in general not closed under the product of functions. We write
 
 $$
-  \mathcal{F}
+  MultiLocObs(E)
     \;\coloneqq\;
   \langle LocObs_\Sigma \rangle_{C^\infty\left(\Gamma_\Sigma(E)\right)_{\delta_{EL}\mathbf{L} = 0}}
 $$
