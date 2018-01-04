@@ -12,7 +12,7 @@ it would be the [[derived critical locus]] ($d S \simeq 0$) of a globally define
 The genuine _[[local field theory|local]]_ construction of the derived [[shell]] is in the [[jet bundle]] of the [[field bundle]], where the [[action functional]] appears "de-transgressed" in the form of the [[Lagrangian density]], which however is invariant under gauge transformations generally
 only up to horizontally exact terms. This _local_ incarnation of the redcuced phase space is modeled by the genuine _[[local BV-BRST complex]]_, example \ref{LocalBVBRSTComplexIsDerivedCriticalLocusOfEulerLagrangeForm} below.
 
-Finally, under [[transgression of variational differential forms]] this yields a [[differential]] on the graded [[local observables]] of the field theory. This is the _global [[BV-BRST complex]]_ (def. \ref{ComplexBVBRSTGlobal} below).
+Finally, under [[transgression of variational differential forms]] this yields a [[differential]] on the graded [[local observables]] of the field theory. This is the _global [[BV-BRST complex]]_ of the [[Lagrangian field theory]] (def. \ref{ComplexBVBRSTGlobal} below).
 
 $\,$
 
