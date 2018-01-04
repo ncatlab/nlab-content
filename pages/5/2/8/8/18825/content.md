@@ -2181,6 +2181,7 @@ because on those bump functions $b(k)$ which happen to be products with $\left(-
 we clearly have
 
 $$
+  \label{LimitOfDistributionsForFourierTransformedPropagators}
 \begin{aligned}
 \underset{ {\epsilon \in (0,\infty)} \atop { \epsilon \to 0 }   }{\lim}
 \underset{\mathbb{R}^{p,1}}{\int}
@@ -3334,6 +3335,7 @@ As before for the [[causal propagator]], there are equivalent reformulations of 
 The [[Feynman propagator]] and [[anti-Feynman propagator]] (def. \ref{FeynmanPropagatorForKleinGordonEquationOnMinkowskiSpacetime}) for the [[Klein-Gordon equation]] on [[Minkowski spacetime]] is equivalently given by the following expressions, respectively:
 
 $$
+  \label{FeynmanPropagatorInCauchyPrincipalValueForm}
   \begin{aligned}
   \left.
   \array{
@@ -3463,6 +3465,46 @@ Here
 
 =--
 
+It follows that:
+
++-- {: .num_prop #GreenFunctionFeynmanPropagator}
+###### Proposition
+**([[Feynman propagator]] is [[Green function]])**
+
+The [[Feynman propagator]] $\Delta_F$ for the [[Klein-Gordon equation]] on [[Minkowski spacetime]] (def. \ref{FeynmanPropagatorForKleinGordonEquationOnMinkowskiSpacetime}) is a [[Green function]] for the [[Klein-Gordon equation]] in that
+
+$$
+  \left( \Box_x - \left( \tfrac{m c}{\hbar}\right)^2 \right) \Delta_{F}(x,y)
+  =
+  (-i) \delta(x-y)
+  \,.
+$$
+
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+Equation (eq:FeynmanPropagatorInCauchyPrincipalValueForm) in prop. \ref{FeynmanPropagatorAsACauchyPrincipalvalue} says that the Feynman propagator is the [[Fourier inversion theorem|inverse]] [[Fourier transform of distributions]] of
+
+$$
+  \widehat{\Delta_F}(k)
+  \;=\;
+  (-i)
+  \underset{ {\epsilon \in (0,\infty)} \atop {\epsilon \to 0} }{\lim}
+  \frac{
+    1   
+  }{
+    - k_\mu k^\mu - \left( \tfrac{m c}{\hbar} \right)^2 \pm i \epsilon
+  }
+$$
+
+This implies the statement as in the proof of prop. \ref{AdvancedRetardedPropagatorsForKleinGordonOnMinkowskiSpacetime}, via the analogue of equation (eq:LimitOfDistributionsForFourierTransformedPropagators).
+
+=--
+
 $\,$
 
 **[[singular support]] and [[wave front sets]]**
@@ -3498,7 +3540,7 @@ $$
 ###### Proof
 
 By prop. \ref{CausalPropagatorAsFourierTransformOfDeltaDistributionOnTransformedKGOperator} the causal propagator is equivalently the [[Fourier transform of distributions]] of the [[delta distribution]] of the [[mass shell]] times the [[sign function]] of the [[angular frequency]];
-and by basic properties of the Fourier transform this is the [[convolution of distributions]] of the separate
+and by the basic properties of the Fourier transform (prop. \ref{BasicPropertiesOfFourierTransformOverCartesianSpaces}) this is the [[convolution of distributions]] of the separate
 Fourier transforms:
 
 $$
@@ -3963,7 +4005,7 @@ $$
 ###### Proof
 
 By prop. \ref{CausalPropagatorAsFourierTransformOfDeltaDistributionOnTransformedKGOperator} the causal propagator is equivalently the [[Fourier transform of distributions]] of the [[delta distribution]] of the [[mass shell]] times the [[sign function]] of the [[angular frequency]];
-and by basic properties of the Fourier transform this is the [[convolution of distributions]] of the separate
+and by basic properties of the Fourier transform (prop. \ref{BasicPropertiesOfFourierTransformOverCartesianSpaces}) this is the [[convolution of distributions]] of the separate
 Fourier transforms:
 
 $$
