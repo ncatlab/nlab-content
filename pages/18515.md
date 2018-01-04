@@ -3188,6 +3188,10 @@ Phys. 63, 257 (1978).
 [[!redirects Hadamard state]]
 [[!redirects Hadamard states]]
 
+[[!redirects Hadamard vacuum state]]
+[[!redirects Hadamard vacuum states]]
+
+
 [[!redirects Wightman propagator]]
 [[!redirects Wightman propagators]]
 
