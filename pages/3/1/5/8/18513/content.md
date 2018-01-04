@@ -490,7 +490,7 @@ where on the right we have the [[exponential]] [[Wightman 2-point function]] (eq
 
 +-- {: .num_prop #WickAlgebraCanonicalState}
 ###### Proposition
-**(canonical [[state on a star algebras|state]] on abstract [[Wick algebra]])**
+**(canonical [[state on a star algebra|state]] on abstract [[Wick algebra]])**
 
 Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]] with [[Green hyperbolic differential equation|Green-hyperbolic]] [[Euler-Lagrange equation|Euler-Lagrange]] [[equations of motion]]; and let $\Delta_H$ be a compatible [[Wightman propagator]]. 
 
