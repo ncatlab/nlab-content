@@ -101,6 +101,8 @@
 
   * [[extension of distributions]]
 
+  * [[renormalization scheme]]
+
   * [[Stückelberg-Petermann renormalization group]]
 
   * [[Gell-Mann-Low renormalization cocycle]]
