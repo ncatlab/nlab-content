@@ -23,7 +23,19 @@
 
 ## Idea
 
-In [[perturbative quantum field theory]], for a suitable [[free field theory]] to perturb around, given an  [[interaction]] [[Lagrangian density]] then the [[renormalization]] of the corresponding [[Lagrangian field theory]] (i.e. the choice of its [[perturbative S-matrix]]) is in each order $\omega \in \mathbb{Z}$ a choice from an [[affine space]] of renormalization parameters. A _renormalization scheme_ is a way to pick for all interaction Lagrangians at once an origin in these affine spaces, making them [[finite dimensional vector spaces]] relative to this choice.
+In [[perturbative quantum field theory]], for a suitable [[free field theory]] to perturb around, given an  [[interaction]] [[Lagrangian density]] then the [[renormalization]] of the corresponding [[Lagrangian field theory]] is in each order $\omega \in \mathbb{Z}$ a choice from an [[affine space]] of renormalization parameters. A _renormalization scheme_ is a way to pick for all interaction Lagrangians at once an origin in these affine spaces, making them [[finite dimensional vector spaces]] relative to this choice.
+
+This means that, given a [[free field theory]] $\mathbf{L}_{kin}$, then a renormalization scheme makes the construction of the [[perturbative S-matrix]] become a [[function]]
+
+$$
+  S 
+    \;\colon\; 
+  LocObs(E)[ [\hbar] ] 
+    \longrightarrow 
+  PolyObs(E,\mathbf{L}_{kin})_{mc}
+$$
+
+which assigns to each [[local observable]] $\mathbf{L}_{int} \in LocObs(E)$, regarded as an [[adiabatic switching|adiabatically switched]] [[interaction]] [[Lagrangian density]], the corresponding perturbative [[scattering matrix]] $S(\mathbf{L}_{int}) \in PolyObs(E,\mathbf{L}_{kin})$ (in the form of an element of the [[Wick algebra]] $(PolyObs(E,\mathbf{L})_{mc}, \star_{H})$) satisfying some conditions (notably [[causal additivity]]).
 
 Concretely, in [[causal perturbation theory]] [[renormalization]] is understood as the choice of [[extension of distributions]] of the [[Feynman amplitudes]] (which are [[products of distributions]], along [[edges]] of [[Feynman diagrams]], of [[Feynman propagators]] with the [[interaction]] [[Lagrangian densities]]) to the [[diagonal]] where the interaction points coincide. For translation-invariant theories this amounts, locally, to [[extension of distributions]] from the [[complement]] $\mathbb{R}^n \setminus \{0\}$ of the origin in some (high-dimensional) [[Cartesian space]] to the full space. For given [[scaling degree of a distribution]] $\omega$, the space of such extensions is an [[affine space]] modeled on the [[finite dimensional vector space]] of [[point-supported distributions]] at the origin of degree $\leq \omega$. 
 
