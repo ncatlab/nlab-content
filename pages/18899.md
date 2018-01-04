@@ -86,8 +86,9 @@ $$
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #CausalOrderingTimeOrderedProductOnRegular}
 ###### Proposition
+**([[time-ordered product]] is indeed causally ordered [[Wick algebra]] product)**
 
 Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]] 
 over a [[Lorentzian manifold|Lorentzian]] [[spacetime]] and with [[Green hyperbolic differential equation|Green-hyperbolic]] [[Euler-Lagrange equation|Euler-Lagrange]] [[differential equations]]; write $\Delta_S = \Delta_+ - \Delta_-$ for the induced [[causal propagator]]. Let moreover $\Delta_H = \tfrac{i}{2}\Delta_S + H $ be a compatible [[Wightman propagator]] and write $\Delta_F = \tfrac{i}{2}(\Delta_+ + \Delta_-) + H$ for the induced [[Feynman propagator]].
@@ -107,10 +108,77 @@ $$
     \array{
       A_1 \star_H A_2 &\vert& supp(A_1) {\vee\!\!\!\wedge} supp(A_2)
       \\
-      A_2 \star_H A_1 &\vert& supp(A_2) \vee\!\!\!\wedge supp(A_2)
+      A_2 \star_H A_1 &\vert& supp(A_2) {\vee\!\!\!\wedge} supp(A_2)
     }
   \right.
   \,.
+$$
+
+Here $S_1 {\vee\!\!\!\wedge} S_2$ is the [[causal order]] relation ("$S_1$ does not intersect the [[past cone]] of $S_2$"). Beware that for general [[pairs]] $(S_1, S-2)$ of subsets neither $S_1 {\vee\!\!\!\wedge} S_2$ nor $S_2 {\vee\!\!\!\wedge} S_1$.
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+The [[advanced and retarded propagators]] $\Delta_{pm}$ by definition are [[support|supported]] in the [[future cone]]/[[past cone]], respectively
+
+$$
+  supp(\Delta_{\pm}) \subset \overline{V}^{\pm}
+$$
+
+and since they turn into each other under exchange of their arguments ([this cor.](causal+propagator#CausalPropagatorIsSkewSymmetric)):
+
+$$
+  \Delta_\pm(y,x) = \Delta_{\mp}(x,y)
+  \,.
+$$
+
+Using this we compute as follows:
+
+$$
+  \begin{aligned}
+    A_1 \underset{\Delta_{F}}{\star} A_2
+    & =
+    A_1 \underset{\tfrac{i}{2}(\Delta_+ + \Delta_-) + H}{\star} A_2
+    \\
+    & =
+    \left\{
+      \array{
+        A_1 \underset{\tfrac{i}{2}\Delta_+ + H}{\star} A_2 &\vert& supp(A_1) {\vee\!\!\!\wedge} supp(A_2)
+       \\
+       A_1 \underset{\tfrac{i}{2}\Delta_- + H}{\star} A_2 &\vert& supp(A_2) {\vee\!\!\!\wedge} supp(A_2)    
+      }
+    \right.
+    \\
+    & = 
+    \left\{
+      \array{
+        A_1 \underset{\tfrac{i}{2}\Delta_+ + H}{\star} A_2 &\vert& supp(A_1) {\vee\!\!\!wedge} supp(A_2)
+       \\
+       A_2 \underset{\tfrac{i}{2}\Delta_+ + H}{\star} A_1 &\vert& supp(A_2) {\vee\!\!\!\wedge} supp(A_2)    
+      }
+    \right.
+    \\
+    & =
+    \left\{
+      \array{
+        A_1 \underset{\tfrac{i}{2}(\Delta_+ - \Delta_-) + H}{\star} A_2 &\vert& supp(A_1) {\vee\!\!\!\wedge} supp(A_2)
+       \\
+       A_2 \underset{\tfrac{i}{2}(\Delta_+ - \Delta_-) + H}{\star} A_1 &\vert& supp(A_2) {\vee\!\!\!\wedge} supp(A_2)    
+      }
+    \right.
+    \\
+    & =
+    \left\{
+      \array{
+        A_1 \underset{\Delta_H}{\star} A_2 &\vert& supp(A_1) {\vee\!\!\!\wedge} supp(A_2)
+       \\
+       A_2 \underset{\Delta_H}{\star} A_1 &\vert& supp(A_2) {\vee\!\!\!\wedge} supp(A_2)    
+      }
+    \right.
+  \end{aligned}
 $$
 
 
