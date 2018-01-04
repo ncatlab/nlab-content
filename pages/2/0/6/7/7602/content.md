@@ -40,7 +40,7 @@ A polycategory that is "representable on both sides", meaning informally that mo
 
 ### Internal structures
 
-Some categorical structures that are normally defined in a monoidal category can instead be defined in a polycategory, including [[Frobenius algebras]] and [[dual objects]].  Dual objects, in particular, are a form of "negation" that make a linearly distributive category into a [[star-autonomous category]].
+Some categorical structures that are normally defined in a monoidal category can instead be defined in a polycategory, including [[Frobenius algebras]] and [[dual objects]].  Dual objects, in particular, are one approach to [[star-polycategories]]; they are the form of "negation" that makes a linearly distributive category into a [[star-autonomous category]].
 
 ## Generalizations
 
