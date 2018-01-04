@@ -8,8 +8,6 @@
 
 ## related $n$Lab entries
 
-* [[Cahiers topos]]
-
-* [[manifold with boundary]]
+* [[rational parameterized stable homotopy theory]]
 
 category: people
