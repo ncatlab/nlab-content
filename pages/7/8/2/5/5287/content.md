@@ -27,7 +27,7 @@ For the relation between the two see _[[relation between BV and BD]]_.
 
 ## In perturbative quantum field theory
 
-Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]] and let $\mathbf{L}' - \mathbf{L}'_{BRST}$ be its [[Lagrangian density]] after [[gauge fixing]], so that the gauge-fixed [[local BRST complex|local BV-BRST differential]] is given by the [[local antibracket]] as
+Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]] and let $\mathbf{L}' - \mathbf{L}'_{BRST}$ be its BV-BRSt [[Lagrangian density]] after [[gauge fixing]], so that the gauge-fixed [[local BRST complex|local BV-BRST differential]] is given by the [[local antibracket]] as
 
 $$
   s' 
@@ -35,13 +35,18 @@ $$
   \left\{ -\mathbf{L}' + \mathbf{L}'_{BRST}, - \right\}
 $$
 
-This descends to [[regular polynomial observables]]:
+The corresponding global BV-BRSt differential on [[regular polynomial observables]] is ([this def.](A+first+idea+of+quantum+field+theory#ComplexBVBRSTGlobal))
 
 $$
-  \int \left\{ -\mathbf{L}'(x) + \mathbf{L}'_{BRST}(x), - \right\} dvol(x)
+  \left\{ -S' + S'_{BRST} \;,\; -\right\}
+  \;\coloneqq\;
+  \left\{ -\tau_\Sigma\mathbf{L}'(x) + \tau_\Sigma\mathbf{L}'_{BRST}(x), - \right\} 
+  \;\colon\;
+  PolyObs(E)_{reg} \longrightarrow PolyObs(E)_{reg}
+  \,.
 $$
 
-By definition of [[gauge fixing]] the [[equation of motion]] for $\mathbf{L}'$ are [[Green hyperbolic differential equations|Green hyperbolic]] and hence admit, in particular, a _[[Wightman propagator]]_ $\Delta_H$ and a [[Feynman propagator]] $\Delta_F$.  The [[star products]] with respect to these ([this def.](star+product#PropagatorStarProduct)) are, respectively, the [[Wick algebra]] product 
+By definition of [[gauge fixing]], the [[equation of motion]] for $\mathbf{L}'$ are [[Green hyperbolic differential equations|Green hyperbolic]] and hence admit, in particular, a _[[Wightman propagator]]_ $\Delta_H$ and a [[Feynman propagator]] $\Delta_F$.  The [[star products]] with respect to these ([this def.](star+product#PropagatorStarProduct)) are, respectively, the [[Wick algebra]] product 
 
 $$
   A_1 \star_H A_2 
@@ -49,7 +54,13 @@ $$
   ((-) \cdot (-))
   \circ
   \exp\left(
-    \hbar \int_\Sigma \Delta_{H}(x,y)^{a b} \frac{\delta}{\delta \phi^a(x)} \otimes \frac{\delta}{\delta \phi^b(y)}
+    \hbar 
+    \underset{\Sigma \times \Sigma}{\int}
+      \Delta_{H}(x,y)^{a b} 
+      \frac{\delta}{\delta \mathbf{\Phi}^a(x)} 
+        \otimes 
+      \frac{\delta}{\delta \mathbf{\Phi}^b(y)}
+      \, dvol_\Sigma(x) \, dvol_\Sigma(y)
   \right)
   (A_1 \otimes A_2)
 $$
@@ -62,14 +73,20 @@ $$
   ((-) \cdot (-))
   \circ
   \exp\left(
-    \hbar \int_\Sigma \Delta_{F}(x,y)^{a b} \frac{\delta}{\delta \phi^a(x)} \otimes \frac{\delta}{\delta \phi^b(y)}
+    \hbar 
+    \underset{\Sigma \times \Sigma}{\int}
+      \Delta_{F}(x,y)^{a b} 
+      \frac{\delta}{\delta \mathbf{\Phi}^a(x)} 
+        \otimes 
+      \frac{\delta}{\delta \mathbf{\Phi}^b(y)}
+      \, dvol_\Sigma(x)\, dvol_\Sigma(y)
   \right)
   (A_1 \otimes A_2)
   \,,
 $$
 
 
-Since the [[Feynman propagator]] is symmetric, the latter [[time ordered product]] on [[regular polynomial observables]] is [[isomorphism|isomorphic]] (via [this prop.](star+product#SymmetricContribution)), on [[regular polynomial observables]], to the pointwise product, via
+Since the [[Feynman propagator]] is symmetric, the latter [[time ordered product]] on [[regular polynomial observables]] is [[isomorphism|isomorphic]] (via [this prop.](star+product#SymmetricContribution)) to the pointwise product, via
 
 $$
   \mathcal{T}A
@@ -77,7 +94,9 @@ $$
   \exp\left(
     \tfrac{1}{2}
     \hbar 
-    \int_\Sigma \Delta_F(x,y)^{a b} \frac{\delta^2}{\delta \Phi^a(x) \delta \Phi^b(y)}
+    \underset{\Sigma}{\int} 
+     \Delta_F(x,y)^{a b} 
+     \frac{\delta^2}{\delta \mathbf{\Phi}^a(x) \delta \mathbf{\Phi}^b(y)}
   \right)
   A
 $$
@@ -94,14 +113,16 @@ The _BV-operator_ $\Delta$ on [[regular polynomial observables]] is, up to a pre
 
 $$
   i \hbar \Delta 
-    =  
-  \mathcal{T} \circ s' \circ \mathcal{T}^{-1}
+    \coloneqq
+  \mathcal{T} \circ 
+  \left\{ -S',(-) \right\} 
+  \circ \mathcal{T}^{-1}
   -
-  s'
+  \left\{ -S',(-) \right\}
   \,.
 $$
 
-Using that $\Delta_F$ is a [[Green function]] for the linear [[equations of motion]], this yields the more explicit formula
+Assume that all [[field bundles]] are [[trivial vector bundles]], then 
 
 $$
   \Delta 
@@ -110,6 +131,91 @@ $$
 $$
 
 ([Fredenhagen-Rejzner 11](#FredenhagenRejzner11))
+
+To see this:
+
+By definition $\mathbf{L}'$ is independent of antifields, so that 
+
+$$
+  \begin{aligned}
+    \left\{ -S', -\right\}
+    & =
+    \underset{\Sigma}{\int}
+    j^{\infty}\left(\mathbf{\Phi}\right)^\ast
+    \left(
+      \frac{\overset{\leftarrow}{\delta}_{EL} L}{\delta \phi^a}
+    \right)(x) 
+    \frac{\delta}{\delta \mathbf{\Phi}^\ddagger_a(x)} 
+    \,
+    dvol_\Sigma(x)
+    \\
+    & =
+    \underset{a}{\sum}
+      (-1)^{deg(\phi^a)}
+    \underset{}{\int}
+      (P\mathbf{\Phi})_a(x)
+      \frac{\delta}{\delta \mathbf{\Phi}^\ddagger_a(x)}
+    \,
+    dvol_\Sigma(x)
+  \end{aligned}
+$$
+
+Hence 
+
+$$
+  \label{AAA}
+  \begin{aligned}
+    \mathcal{T} \circ \left\{ -S,-\right\} \circ \mathcal{T}^{-1}
+    & =
+    \phantom{+}
+    \left\{ -S , -\right\}
+    \\
+    &
+    \phantom{=}
+    +
+    \left[
+      \tfrac{1}{2}\hbar 
+      \underset{\Sigma \times \Sigma}{\int} 
+      \Delta_F^{a b}(x,y)
+      \frac{\delta^2}{\delta \mathbf{\Phi}^a(x) \delta \mathbf{\Phi}^b(y)}
+      \, dvol_\Sigma(x)
+      \, dvol_\Sigma(y)
+      \;,\;
+      \underset{a}{\sum}
+      (-1)^{deg(\phi^a)}
+      \underset{\Sigma}{\int}
+        (P\mathbf{\Phi})_a(x)
+        \frac{\delta}{\delta \mathbf{\Phi}^\ddagger_a(x)}
+      \,
+      dvol_\Sigma(x)
+    \right]
+   \\
+   & =
+   \left\{ -S', -\right\}
+   \\
+   & \phantom{=}
+   +
+   \underset{a}{\sum} 
+    (-1)^{deg(\phi^a)}
+   \underset{\Sigma \times \Sigma}{\int} 
+     \underset{ = -i \delta(x-y) }{\underbrace{P \Delta_F(x,y)}}
+     \frac{\delta}{\delta \mathbf{\Phi}^a(x)}
+     \frac{\delta}{\delta \mathbf{\Phi}^\ddagger_a(y)}
+    \, dvol_\Sigma(x)
+    \, dvol_\Sigma(y)
+    \\
+   & = \left\{ -S', -\right\} 
+   - i \hbar 
+   \underset{a}{\sum}
+   (-1)^{deg(\phi^a)}
+   \underset{\Sigma}{\int}
+    \frac{\delta}{\delta \mathbf{\Phi}^a(x)}
+    \frac{\delta}{\delta \mathbf{\Phi}^\ddagger_a(x)}
+    \,
+    dvol_\Sigma(x)
+  \end{aligned}
+$$
+
 
 ## References
 
