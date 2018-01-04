@@ -122,7 +122,7 @@ torus fibrations_ , ([math.SG/0011041](http://arxiv.org/abs/math/0011041))
 
 Discussion of aspects of [[effective field theories]] which might rule them out as having a [[UV-completion]] by a [[string theory]] [[vacuum]] has been initiated in 
 
-* [[Cumrun Vafa]], _The String Landscape and the Swampland_ ([arXiv:hepth/0509212](http://arxiv.org/abs/hepth/0509212))
+* {#Vafa05} [[Cumrun Vafa]], _The String Landscape and the Swampland_ ([arXiv:hepth/0509212](http://arxiv.org/abs/hepth/0509212))
 
 ### Phenomenological speculation
  {#ReferencesPhenomenologicalSpeculation}
@@ -133,7 +133,7 @@ Early and technical articles that amplified the existence of a finite but very l
 
 which says on p. 2
 
-> Although the consistenty requirements which string theories have to satisfy are quite restrictive, it has become clear that there are more solutions than one originally expected. [...] Although the possibility of making Lorentz rotations suggests a continuous infinity of new ten dimensional theories, there is actually only a discrete set of theories that makes physical sense, as we will explain below.
+> Although the consistency requirements which string theories have to satisfy are quite restrictive, it has become clear that there are more solutions than one originally expected. [...] Although the possibility of making Lorentz rotations suggests a continuous infinity of new ten dimensional theories, there is actually only a discrete set of theories that makes physical sense, as we will explain below.
 
 and
 
