@@ -29,7 +29,7 @@ But there are also S-matrices not arising from a local field theory, for instanc
 
 There have been attempts to _define_ [[perturbative quantum field theory]] by directly [[axiom|axiomatizing]] properties of the S-matrix, without requiring concepts of [[field (physics)|fields]] in [[spacetime]]. This perspective goes back to ([Heisenberg 43](#Heisenberg43)) and was vocally promoted in [[Geoffrey Chew]]'s "bootstrap program" (a textbook account is in [Eden-Ladshoff-Olive-Polkinhorne 66](#EdenLadshoffOlivePolkinhorne66)).
 
-In the [[field theory]]-picture the crucial condition on the S-matrix is its [[causal additivity]] (def. \ref{PerturbativeSMatrixOnMinkowskiSpacetime} below) which reflects the [[microcausality]] of [[quantum observables]] (prop. \ref{PerturbativeQuantumObservablesIsLocalnet} below), whence the name "[[causal perturbation theory]]". 
+In the [[field theory]]-picture the crucial condition on the S-matrix is its [[causal additivity]] (def. \ref{PerturbativeSMatrixOnMinkowskiSpacetime} below) which reflects the [[microcausality]] of [[quantum observables]] (prop. \ref{PerturbativeQuantumObservablesIsLocalnet} below), whence the name "[[causal perturbation theory]]".
 
 {#TheAnalyticSMatrix} This [[causality]] of the S-matrix when understood in terms of underlying [[spacetime]] and [[field (physics)|fields]] is supposed to be detected more abstractly by the S-matrix being a suitable [[analytic function]] of the [[wave vectors]] of the scattering asymptotic states ([Newton 82, 10.3.3](#Newton82)), often refereed to via "dispersion relations" (e.g. [Eden-Ladshoff-Olive-Polkinhorne 66 (1.1.1)-(1.1.5)](#EdenLadshoffOlivePolkinhorne66), [Gribov 69, 1.1.2](#Gribov69)). Since thereby analyticity is recognized as the crucial property of the S-matrix in the spacetime/field-independent axiomatization, this is often referred to as "the analytic S-matrix" (e.g. [Eden-Ladshoff-Olive-Polkinhorne 66](#EdenLadshoffOlivePolkinhorne66)). More specifically [[microcausality]] is what induces "crossing symmetry" of the S-matrix ([Weinberg 95, section 10.8](#Weinberg95)).
 
@@ -43,7 +43,7 @@ The idea of the S-matrix "bootstrap" is that one may compute the S-matrix direct
 
 * It should be unitary
 * It should be Lorentz invariant
-* It should be crossing invariant: this means that the antiparticle scattering 
+* It should be crossing invariant: this means that the antiparticle scattering
 should be described by the analytic continuation of the particle scattering
 * It should obey the Landau property--- that all singularities of scattering are poles and cuts corresponding to exchange of collections of real particles on shell.
 * It should obey ([[Stanley Mandelstam|Mandelstam]]) analyticity: the amplitude should be writable as an integral over the imaginary part of the cut discontinuity from production of physical particles. Further, this cut discontinuity itself can be expanded in terms of another cut discontinuity (these are the mysterious then and still mysterious now double dispersion relations of Mandelstam).
@@ -248,9 +248,9 @@ $$
   \;\coloneqq\;
   \left\{
     \array{
-      V_I(t_1) V_I(t_2) &\vert& t_1 \geq t_2
+      V_I(t_1) V_I(t_2) &\vert& t_1 {\vee\!\!\!\wedge} t_2
       \\
-      V_I(t_2) V_I(t_1) &\vert& t_2 \geq t_1
+      V_I(t_2) V_I(t_1) &\vert& t_2 {\vee\!\!\!\wedge} t_1
     }
   \right.
   \,.
@@ -357,17 +357,17 @@ for the union of the future/past closed cones of all its points.
 
 +-- {: .num_defn #CausalOrdering}
 ###### Definition
-**(causal order)**
+**([[causal order]])**
 
 Consider the [[relation]] on the set $P(\Sigma)$ of [[subsets]] of spacetime
 which says a [[subset]] $S_1 \subset \Sigma$ is _not prior_ to a subset $S_2 \subset \Sigma$,
-denoted $S_1 \geq S_2$, if $S_1$ does not [[intersection|intersect]] the [[causal past]] of $S_2$ (def. \ref{CausalPastAndFuture}),
+denoted $S_1 {\vee\!\!\!\wedge} S_2$, if $S_1$ does not [[intersection|intersect]] the [[causal past]] of $S_2$ (def. \ref{CausalPastAndFuture}),
 or equivalently that $S_2$ does not intersect the [[causal future]] of $S_1$:
 
 $$
   \begin{aligned}
-    (S_1 \geq S_2)
-    & \coloneqq
+    S_1 {\vee\!\!\!\wedge} S_2
+    & \;\coloneqq\;
     S_1 \cap \overline{V}^-(S_2) = \emptyset
     \\
     & \Leftrightarrow S_2 \cap \overline{V}^+(S_1) = \emptyset
@@ -375,7 +375,13 @@ $$
    \,.
 $$
 
-If $S_1 \geq S_2$ and $S_2 \geq S_1$ we say that the two subsets are _[[spacelike]] separated_.
+If $S_1 {\vee\!\!\!\wedge} S_2$ and $S_2 {\vee\!\!\!\wedge} S_1$ we say that the two subsets are _[[spacelike]] separated_ and
+write
+
+$$
+   S_1 {\gt\!\!\!\!\lt} S_2
+   \,.
+$$
 
 =--
 
@@ -463,7 +469,7 @@ such that
 1. their [[support]] satisfies the following causal ordering (def. \ref{CausalOrdering})
 
    $$
-     supp(a) \geq \mathcal{O} \geq supp(r)
+     supp(a) {\vee\!\!\!\wedge} \mathcal{O} {\vee\!\!\!\wedge} supp(r)
      \,.
    $$
 
@@ -776,7 +782,7 @@ such that the following conditions hold for fixed $L_{int}, \{ J_n\}_{n = 1}^N$:
   For all $J_1, J_2, L \in \mathcal{F}_{loc}$ we have
 
    $$
-     \left( supp(J_1) \geq supp(J_2) \right)
+     \left( supp(J_1) {\vee\!\!\!\wedge} supp(J_2) \right)
      \;\; \Rightarrow \;\;
      \left(
        \underset{L \in \mathcal{F}_{loc}}{\forall}
@@ -942,7 +948,7 @@ for all $k \in \mathbb{N}$, such that:
 
 1. (symmetry) each $T_k$ is symmetric in its arguments
 
-1. ([[causal factorization]]) If $supp(L_1) \cup \cdots \cup supp(L_r) \;\geq\; supp(L_{r+1}) \cup \cdots \cup supp(L_k)$ then
+1. ([[causal factorization]]) If $supp(L_1) \cup \cdots \cup supp(L_r) \;{\vee\!\!\!\wedge}\; supp(L_{r+1}) \cup \cdots \cup supp(L_k)$ then
 
    $$
      T((g L_1 + j A_1)  \cdots (g L_k + j A_k) )
@@ -1135,7 +1141,7 @@ $$
       T( L_{\sigma(k_1 + 1)} \cdots L_{\sigma(k_2)} )
       \cdots
       T( L_{\sigma(k_{r-1}+1)} \cdots L_{\sigma_{k_r}}  )
-      &\vert& k \geq 1
+      &\vert& k {\vee\!\!\!\wedge} 1
       \\
       1 &\vert& k = 0
     }
@@ -1217,7 +1223,7 @@ $$
     \tfrac{1}{k!}
     \underoverset{r = 1}{k}{\sum}
     (-1)^r
-    \underset{ {\sigma \in \Sigma(k)} \atop { { k_1 + \cdots + k_r = k } \atop { \underset{i}{\forall} (k_i \geq 1) } } }{\sum}
+    \underset{ {\sigma \in \Sigma(k)} \atop { { k_1 + \cdots + k_r = k } \atop { \underset{i}{\forall} (k_i {\vee\!\!\!\wedge} 1) } } }{\sum}
     \tfrac{1}{k_1!} \cdots \tfrac{1}{k_r !}
     \,
     T( L_{\sigma(1)} \cdots L_{\sigma(k_1)} )
@@ -1324,7 +1330,7 @@ then
 
 $$
   \left(
-    \mathbf{P} \geq \mathbf{Q}
+    \mathbf{P} {\vee\!\!\!\wedge} \mathbf{Q}
   \right)
   \;\Rightarrow\;
   \left(
@@ -1336,7 +1342,7 @@ $$
 $$
 
 We proceed by [[induction]]. If ${\vert \mathbf{X}\vert} = 1$ the statement is immediate.
-So assume that the statement is true for sets of [[cardinality]] $n \geq 1$ and consider
+So assume that the statement is true for sets of [[cardinality]] $n {\vee\!\!\!\wedge} 1$ and consider
 $\mathbf{X}$ with ${\vert \mathbf{X}\vert} = n+1$.
 
 We make free use of the condensed notation as in example \ref{ProductOfPerturbationSeriesInGenealizedFunctionNotation}.
@@ -1348,7 +1354,7 @@ $$
   = 0
 $$
 
-(which uses the induction assumption that ${\vert \mathbf{X}\vert} \geq 1$) it follows that
+(which uses the induction assumption that ${\vert \mathbf{X}\vert} {\vee\!\!\!\wedge} 1$) it follows that
 
 $$
   \begin{aligned}
@@ -1466,7 +1472,7 @@ the causal factorization property of the time-ordered products.
 Notice that also the simple causal factorization property of the S-matrix
 
 $$
-  (supp(g_{sw_1}L_1) \geq supp(g_{sw,}L_2))
+  (supp(g_{sw_1}L_1) {\vee\!\!\!\wedge} supp(g_{sw,}L_2))
     \;\Rightarrow\;
   \left(
     S(g_{sw,1}L_1 + g_{sw,2}L_2)
@@ -1517,7 +1523,7 @@ $\mathbf{Y}$ is in the [[causal past]] of $\mathbf{X}$. This will imply the clai
 multi-linearity of $R(-,-)$ it then follows that
 
 $$
-  \left(J_1 \geq J_2\right) \Rightarrow \left( Z_{L + J_1}(J_2) = Z_L(J_2) \right)
+  \left(J_1 {\vee\!\!\!\wedge} J_2\right) \Rightarrow \left( Z_{L + J_1}(J_2) = Z_L(J_2) \right)
 $$
 
 and by lemma \ref{CausalLocalityOfThePerturbativeSMatrix} this is equivalent to [[causal additivity]] of the S-matrix.
@@ -1528,7 +1534,7 @@ Consider $\mathbf{X}, \mathbf{Y} \subset \Sigma$ such that the subset $\mathbf{P
 of points not in the past of $\mathbf{X}$ (def. \ref{CausalOrdering}), hence the maximal subset with
 
 $$
-  \mathbf{P} \geq \mathbf{X}
+  \mathbf{P} {\vee\!\!\!\wedge} \mathbf{X}
   \,,
 $$
 
@@ -1539,7 +1545,7 @@ for the complementary set of points, so that all points of $\mathbf{Q}$ are in t
 Notice that this implies that $\mathbf{P}$ is also not in the past of $\mathbf{Q}$:
 
 $$
-  \mathbf{P} \geq \mathbf{Q}
+  \mathbf{P} {\vee\!\!\!\wedge} \mathbf{Q}
   \,.
 $$
 
@@ -1828,11 +1834,11 @@ with $Z$ the generating functional (eq:GeneratingFunctionInducedFromSMatrix) it 
    1. $S(L + J_1 + J_2) = S(L + J_1) \, S(L)^{-1} \, S(L + J_2)$
 
    Hence causal additivity in def. \ref{PerturbativeSMatrixOnMinkowskiSpacetime}
-implies that all these conditions hold if $supp(J_1) \geq supp(J_2)$.
+implies that all these conditions hold if $supp(J_1) {\vee\!\!\!\wedge} supp(J_2)$.
 
 
 1. If $supp(J_1)$ is [[spacelike]] separted from $supp(J_1)$, hence if the causal ordering (def \ref{CausalOrdering}) is
-   $supp(J_1) \geq supp(J_2)$ and $supp(J_2) \geq supp(J_1)$ then
+   $supp(J_1) {\vee\!\!\!\wedge} supp(J_2)$ and $supp(J_2) {\vee\!\!\!\wedge} supp(J_1)$ then
 
    $$
      Z_{L_{int}}(J_1) Z_{L_{int}}(J_2) = Z_{L_{int}}(J_2) J_{L_{int}}(J_1)
@@ -1840,7 +1846,7 @@ implies that all these conditions hold if $supp(J_1) \geq supp(J_2)$.
    $$
 
 
-   Similarly, if $supp(L_1) \geq supp(L_2)$ and $supp(L_2) \geq supp(L_1)$ then
+   Similarly, if $supp(L_1) {\vee\!\!\!\wedge} supp(L_2)$ and $supp(L_2) {\vee\!\!\!\wedge} supp(L_1)$ then
 
    $$
      S(L_1) \, S(L_2) = S(L_2) \, S(L_1)
@@ -1891,7 +1897,7 @@ reduces to
 
 $$
   \left(
-    supp(L_1) \geq supp(L_2)
+    supp(L_1) {\vee\!\!\!\wedge} supp(L_2)
   \right)
    \;\Rightarrow\;
   S(L_1 + L_2)
@@ -1900,7 +1906,7 @@ $$
   \,.
 $$
 
-Hence if $supp(L_1) \geq supp(L_2)$ and $supp(L_2) \geq supp(L_1)$ then
+Hence if $supp(L_1) {\vee\!\!\!\wedge} supp(L_2)$ and $supp(L_2) {\vee\!\!\!\wedge} supp(L_1)$ then
 
 $$
   S(L_1) S(L_2) = S(L_1 + L_2) = S(L_2 + L_1) = S(L_2) S(L_1)
@@ -1922,7 +1928,7 @@ $$
 such that their causal order (def. \ref{CausalOrdering}) is
 
 $$
-  supp(a) \geq supp(J) \geq supp(r)
+  supp(a) {\vee\!\!\!\wedge} supp(J) {\vee\!\!\!\wedge} supp(r)
 $$
 
 It follows with causal additivity and its equivalent formulations above that
@@ -2072,9 +2078,9 @@ is a [[causally local net of observables]] in that
    which are [[spacelike]] separated, in that their causal ordering (def. \ref{CausalOrdering}) satisfies
 
    $$
-     \mathcal{O}_1 \geq \mathcal{O}_2
+     \mathcal{O}_1 {\vee\!\!\!\wedge} \mathcal{O}_2
        \;\text{and}\;
-     \mathcal{O}_2 \geq \mathcal{O}_1
+     \mathcal{O}_2 {\vee\!\!\!\wedge} \mathcal{O}_1
    $$
 
    then for $\mathcal{O} \subset X$ any further causally closed subset which contains both
@@ -2210,9 +2216,9 @@ is a [[local net of observables]] in that
    which are [[spacelike]] separated, in that their causal ordering (def. \ref{CausalOrdering}) satisfies
 
    $$
-     \mathcal{O}_1 \geq \mathcal{O}_2
+     \mathcal{O}_1 {\vee\!\!\!\wedge} \mathcal{O}_2
        \;\text{and}\;
-     \mathcal{O}_2 \geq \mathcal{O}_1
+     \mathcal{O}_2 {\vee\!\!\!\wedge} \mathcal{O}_1
    $$
 
    then for $\mathcal{O} \subset X$ any further causally closed subset which contains both
@@ -2274,7 +2280,7 @@ $$
   \end{aligned}
 $$
 
-for $supp(J_1) \geq supp(J_2)$ and $supp(J_2) \geq supp(J_1)$.
+for $supp(J_1) {\vee\!\!\!\wedge} supp(J_2)$ and $supp(J_2) {\vee\!\!\!\wedge} supp(J_1)$.
 
 =--
 
@@ -2370,10 +2376,10 @@ $$
 
 where the propagators on the right have, in particular, the following properties:
 
-1. the [[advanced propagator]] vanishes when its first argument is not in the causal past of its second argument:
+1. the [[advanced propagator]] vanishes when its first argument is not in the causal [[past]] of its second argument (def. \ref{CausalOrdering}):
 
    $$
-     (supp(F) \geq supp(G))
+     (supp(F) {\vee\!\!\!\wedge} supp(G))
      \;\Rightarrow\;
      \left(
        \left\langle \Delta_A , \frac{\delta F}{\delta \phi} \otimes \frac{\delta G}{\delta \phi}  \right\rangle = 0
@@ -2397,7 +2403,7 @@ where the propagators on the right have, in particular, the following properties
      \left\langle H, \frac{\delta G}{\delta \phi} \otimes \frac{\delta F}{\delta \phi} \right\rangle
    $$
 
-It follows for causal ordering $supp(F) \geq supp(G)$ (def. \ref{CausalOrdering}) that
+It follows for causal ordering $supp(F) {\vee\!\!\!\wedge} supp(G)$ (def. \ref{CausalOrdering}) that
 
 $$
   \begin{aligned}
@@ -2446,13 +2452,13 @@ $$
   \end{aligned}
 $$
 
-and for $supp(G) \geq supp(F)$ that
+and for $supp(G) {\vee\!\!\!\wedge} supp(F)$ that
 
 $$
   \begin{aligned}
     F \star_{\omega_F} G
     & =
-    prod \circ \exp\left(   
+    prod \circ \exp\left(
       \hbar
       \left\langle  \omega_F , \frac{\delta }{\delta \phi} \otimes \frac{\delta}{\delta \phi}  \right\rangle
     \right)
@@ -2594,7 +2600,7 @@ where the edge numbers $e_{r,s} = e_{r,s}(\Gamma)$ are those of the given Feynma
 
 We proceed by [[induction]] over the number of [[vertices]].
 The statement is trivially true for a single vertex.
-Assume it is true for $v \geq 1$ vertices. It follows that
+Assume it is true for $v {\vee\!\!\!\wedge} 1$ vertices. It follows that
 
 $$
   \begin{aligned}
@@ -2686,7 +2692,7 @@ which yield in total the sum over all diagrams with $v+1$ vertices.
 **([[loop order]] and powers of [[Planck's constant]])
 
 From prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints} one deduces that the
-order in [[Planck's constant]] that a ([[planar graph|planar]]) [[Feynman diagram]] contributes to the 
+order in [[Planck's constant]] that a ([[planar graph|planar]]) [[Feynman diagram]] contributes to the
 S-matrix is given (up to a possible offset due to external vertices) by the "number of loops" in the diagram.
 See at _[[loop order]]_ the section _[Relation to powers in Planck's constant](loop+order#RelationToPowersInPlancksConstant)_ for details.
 
@@ -2773,7 +2779,7 @@ see at _[[Haag–Lopuszanski–Sohnius theorem]]_
  {#History}
 
 
-In the 1960s there was a prominent proposal, around [[Geoffrey Chew]], that ([[perturbative quantum field theory|perturbative]]) [[quantum field theory]] should be _defined_ by [[axiom|axiomatizing]] properties of the S-matrix _without_ explicit reference to [[field (physics)|fields]] on [[spacetime]]. 
+In the 1960s there was a prominent proposal, around [[Geoffrey Chew]], that ([[perturbative quantum field theory|perturbative]]) [[quantum field theory]] should be _defined_ by [[axiom|axiomatizing]] properties of the S-matrix _without_ explicit reference to [[field (physics)|fields]] on [[spacetime]].
 
 Here _analycity_ (or more general the _crossing property_) of the S-matrix reflects its [[causal factorization]], and hence this is often referred to as the _analytic S-matrix_ (see [Eden-Ladshoff-Olive-Polkinhorne 66](#EdenLadshoffOlivePolkinhorne66)).
 
@@ -2783,7 +2789,7 @@ Historically, this S-matrix "bootstrap" approach fell out of fashion with the su
 
 See also the discussion in ([Chew 70](#Chew70), [Schroer 11](#Schroer11)).
 
-But later [[perturbative string theory]] revived the axiomatic S-matrix perspective. In general, perturbative string theory is not defined by a geometric spacetime background. Instead the background is algebraically encoded by a [[2d SCFT]] ("[[2-spectral triple]]") and the [[string perturbation series]] is a formula that translates this into an S-matrix. Spacetime physics then is whatever is seen by string scattering processes (see also at _[string theory FAQ -- What are the equations of string theory?](string%20theory%20FAQ#WhatAreTheEquations)_). 
+But later [[perturbative string theory]] revived the axiomatic S-matrix perspective. In general, perturbative string theory is not defined by a geometric spacetime background. Instead the background is algebraically encoded by a [[2d SCFT]] ("[[2-spectral triple]]") and the [[string perturbation series]] is a formula that translates this into an S-matrix. Spacetime physics then is whatever is seen by string scattering processes (see also at _[string theory FAQ -- What are the equations of string theory?](string%20theory%20FAQ#WhatAreTheEquations)_).
 
 More recently, the S-matrix perspective becomes fashionable also in [[Yang-Mills theory]], at least in [[super Yang-Mills theory]]: one observes that the theory enjoys good structures in its scattering amplitudes which are
 essentially invisible in the vast summation of [[Feynman diagrams]] that extract the S-matrix from the [[action functional]]. Instead there are entirely different mathematical structures that encode at least some sub-class of scattering amplitudes (see at _[[amplituhedron]]_).
@@ -2832,13 +2838,13 @@ Early work basing [[perturbative quantum field theory]] on the concept of the S-
 
 This proposal was vocally promoted as the "bootstrap program" by [[Geoffrey Chew]] and [[Stanley Mandelstam]] (see [Chew 70](#Chew70)).
 
-Textbooks account of this axiomatic approach to defining the S-matrix (i.e. not proceeding via [[Lagrangian field theory]]) is 
+Textbooks account of this axiomatic approach to defining the S-matrix (i.e. not proceeding via [[Lagrangian field theory]]) is
 
 * {#EdenLadshoffOlivePolkinhorne66} Eden, Landshoff, [[David Olive]], [[John Polkinghorne]], _The Analytic S-matrix_, Cambridge 1966 ([pdf](http://assets.cambridge.org/97805210/48699/sample/9780521048699ws.pdf))
 
 * {#Gribov69} [[Vladimir Gribov]], _The theory of complex angular momenta_, Lecture St. Petersburg 1996, publsihed.  Cambridge 2003 ([doi:10.1017/CBO9780511534959](https://doi.org/10.1017/CBO9780511534959))
 
-General discussion of scattering theory is in 
+General discussion of scattering theory is in
 
 * {#Newton82} Roger G. Newton, _Scattering Theory of Waves and Particles_, Springer 1982 ([TOC pdf](https://cds.cern.ch/record/1562608/files/0486425355_TOC.pdf))
 
