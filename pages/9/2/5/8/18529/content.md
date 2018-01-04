@@ -18,16 +18,16 @@
 
 ## Idea
 
-A central result in the construction of [[perturbative quantum field theories]] via the method of [[causal perturbation theory]] is called the _main theorem of perturbative renormalization theory_. This says that any two _[[renormalization]] schemes_, hence any two solutions to the inductive construction of the [[S-matrix]] $V \mapsto S(V)$ for [[interaction]] terms $V$, are related by a unique transformation $Z \colon V \mapsto V'$
+A central result in the construction of [[perturbative quantum field theories]] via the method of [[causal perturbation theory]] is called the _main theorem of perturbative renormalization theory_. This says that any two _[[renormalization schemes]] _, hence any two solutions to the [[induction|inductive]] construction of the [[perturbative S-matrix]] $V \mapsto S(V)$ for [[interaction]] [[Lagrangian densities]]  $V$, are related by a unique transformation $Z \colon V \mapsto V'$
 
 $$
   S' = S \circ Z
   \,.
 $$
 
-The collection of these operations $Z$ forms a [[group]] called the _[[Stückelberg-Petermann renormalization group]]_. Hence the space of renormalization schemes is a [[torsor]] over this group.
+The collection of these operations $Z$ forms a [[group]] called the _[[Stückelberg-Petermann renormalization group]]_. Hence the space of [[renormalization schemes]] is a [[torsor]] over this group.
 
-This theorem is a mathematical reflection of the idea that renormalization is about regarding a [[perturbative quantum field theory]] with [[interaction]] $V$ as a [[effective field theory]] at some energy scale and then discovering that at higher energy there is a more fundamental interaction $Z(V)$ which effectively looks like $V$ at lower energy.
+Via the perspective of the [[Gell-Mann-Low cocycles]] this theorem is a mathematical reflection of the idea that renormalization is about regarding a [[perturbative quantum field theory]] with [[interaction]] $V$ as a [[effective field theory]] at some energy scale and then discovering that at higher energy there is a more fundamental interaction $Z(V)$ which effectively looks like $V$ at lower energy.
 
 ## References
 
