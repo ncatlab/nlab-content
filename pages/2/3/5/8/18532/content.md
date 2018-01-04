@@ -160,7 +160,7 @@ Exposition of the application to [[renormalization]] of [[Feynman diagrams]] is 
 
 The refinement to the point-extension problem for distributions in the solution space of a given system of [[differential equations]] is discussed in
 
-* Dorothea Bahns, Micha&#322; Wrochna, _On-shell extension of distributions_, [arXiv:1210.5448](https://arxiv.org/abs/1210.5448)
+* {#BahnsWrochna12} Dorothea Bahns, Micha&#322; Wrochna, _On-shell extension of distributions_, [arXiv:1210.5448](https://arxiv.org/abs/1210.5448)
 
 Examples and applications to [[renormalization]] in [[perturbative quantum field theory]] are discussed for instance in
 
