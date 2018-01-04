@@ -113,7 +113,7 @@ Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]]
 | [[space of field histories]] <br/>  $\Gamma_\Sigma(E)$ |  $\mathbb{R}^{2n}$ |
 | [[symplectic form]] <br/> $\tau_{\Sigma_p} \Omega_{BFV}$ | [[Kähler form]] $\omega$ |
 | [[causal propagator]] $\Delta$ | $\omega^{-1}$ |
-| [[Peierls-Poisson bracket]] <br/> $\{A_1,A_2\} = \int \Delta^{a_1 a_2}(x_1,x_2) \frac{\delta A_1}{\delta \Phi^{a_1}(x_1)} \frac{\delta A_2}{\delta \Phi^{a_2}(x_2)} dvol_\Sigma(x)$ | [[Poisson bracket]] |
+| [[Peierls-Poisson bracket]] <br/> $\{A_1,A_2\} = \int \Delta^{a_1 a_2}(x_1,x_2) \frac{\delta A_1}{\delta \mathbf{\Phi}^{a_1}(x_1)} \frac{\delta A_2}{\delta \mathbf{\Phi}^{a_2}(x_2)} dvol_\Sigma(x)$ | [[Poisson bracket]] |
 | [[Wightman propagator]] <br/> $\Delta_H = \tfrac{i}{2} \Delta + H$  | [[Hermitian form]] <br/>  $\pi = \tfrac{i}{2}\omega^{-1} + \tfrac{1}{2}g^{-1}$ | 
  
 =--
@@ -232,8 +232,8 @@ $$
   prod
    \circ
   \exp\left(
-    \int_{X^2} \hbar \Delta_H^{a b}(x_1, x_2) \frac{\delta}{\delta \Phi^a(x_1)}
-    \otimes \frac{\delta}{\delta \Phi^b(x_2)} dvol_g
+    \int_{X^2} \hbar \Delta_H^{a b}(x_1, x_2) \frac{\delta}{\delta \mathbf{\Phi}^a(x_1)}
+    \otimes \frac{\delta}{\delta \mathbf{\Phi}^b(x_2)} dvol_g
   \right)
   (P_1 \otimes P_2)
 $$
