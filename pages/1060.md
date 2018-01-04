@@ -26,6 +26,7 @@ There are many ways to describe a $*$-autonomous category; here are a few:
 * it is a [[closed monoidal category]] in which the internal-hom can be expressed in terms of the tensor product in a particular way.
 * it is a [[linearly distributive category]] in which all objects have "duals" in an appropriate linearly distributive sense.
 * it is a semantics for classical multiplicative [[linear logic]].
+* it is a representable [[star-polycategory]].
 * it is a sort of categorified [[Frobenius algebra]].
 
 In particular, it has two monoidal structures $\otimes$ and $\parr$, as in a linearly distributive category.  However, because of the dualization operation $(-)^\ast$, each of them determines the other by a "multiplicative [[de Morgan's laws|de Morgan]] duality": $A\parr B \cong (A^\ast \otimes B^\ast)^\ast$.  Thus, in the definition we only have to refer to one monoidal structure.
