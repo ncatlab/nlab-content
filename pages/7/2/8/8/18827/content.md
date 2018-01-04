@@ -3029,6 +3029,7 @@ $$
 underlying the [[local BV-BRST complex]] (eq:BVBRSTGradedFieldBundle), consider the [[linear map]]
 
 $$
+  \label{LocalAntibracketTransgressed}
   \array{
     LocObs(E_{\text{BV-BRST}})
       \otimes
@@ -3087,10 +3088,46 @@ for this (global) _[[BV-BRST differential]]_.
 The resulting [[chain complex]] is called the (global) _[[BV-BRST complex]]_ of the given [[Lagrangian field theory]] with the chosen 
 [[gauge parameters]].
 
+Explicitly we have:
+
+$$
+  \begin{aligned}
+    \left\{ -S', -\right\}
+    & =
+    \int_\Sigma
+    j^{\infty}\left(\mathbf{\Phi}\right)^\ast
+    \left(
+      \frac{\overset{\leftarrow}{\delta}_{EL} L}{\delta \phi^a}
+    \right)(x) 
+    \frac{\delta}{\delta \mathbf{\Phi}^\ddagger_a(x)} 
+    \,
+    dvol_\Sigma(x)
+    \\
+    & =
+    \underset{a}{\sum}
+      (-1)^{n_{\phi^a} + \sigma_{\phi^a}}
+    \int_\Sigma
+      (P_{a b}\mathbf{\Phi}^a)(x)
+      \frac{\delta}{\delta \mathbf{\Phi}^\ddagger_a(x)}
+    \,
+    dvol_\Sigma(x)
+  \end{aligned}
+$$
+
+where 
+
+$$
+  P \;\colon\; \Gamma_\Sigma(E) \longrightarrow \Gamma_\Sigma(E^\ast)
+$$
+
+is the [[differential operator]] corresponding to the [[Euler-Lagrange equation|Euler-Lagrange]] [[equations of motion]].
+
 =--
 
 +-- {: .proof}
 ###### Proof
+
+We need to check that the global [[antibracket]] (eq:LocalAntibracketTransgressed) is well defined: 
 
 By the last item of prop. \ref{BasicPropertiesOfTheLocalAntibracket} the horizontally exact horizontal differential forms
 form a "[[Lie ideal]]" for the [[local antibracket]]. With this the proof that the transgressed bracket is well defined
@@ -3098,6 +3135,8 @@ is the same as the proof that the global [[Poisson bracket]] on the [[Hamiltonia
 [[local observables]] is well defined, def. \ref{PoissonBracketOnHamiltonianLocalObservables}.
 
 =--
+
+
 
 
 $\,$
