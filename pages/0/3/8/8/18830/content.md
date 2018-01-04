@@ -503,24 +503,32 @@ Here $S_1 {\vee\!\!\!\wedge} S_2$ is the [[causal order]] relation ("$S_1$ does 
 +-- {: .proof}
 ###### Proof
 
-The [[advanced and retarded propagators]] $\Delta_{pm}$ by definition are [[support|supported]] in the [[future cone]]/[[past cone]], respectively
+Recall the following facts:
 
-$$
-  supp(\Delta_{\pm}) \subset \overline{V}^{\pm}
-$$
+1. the [[advanced and retarded propagators]] $\Delta_{\pm}$ by definition are [[support|supported]] in the [[future cone]]/[[past cone]], respectively
 
-and since they turn into each other under exchange of their arguments ([this cor.](causal+propagator#CausalPropagatorIsSkewSymmetric)):
+   $$
+     supp(\Delta_{\pm}) \subset \overline{V}^{\pm}
+   $$
 
-$$
-  \Delta_\pm(y,x) = \Delta_{\mp}(x,y)
-  \,.
-$$
+1. they turn into each other under exchange of their arguments ([this cor.](causal+propagator#CausalPropagatorIsSkewSymmetric)):
+
+   $$
+     \Delta_\pm(y,x) = \Delta_{\mp}(x,y)
+     \,.
+   $$
+
+1. the real part $H$ of the [[Feynman propagator]], which by definition is the real part of the [[Wightman propagator]] is symmetric (by definition or else by [this prop.](Hadamard+distribution#SkewSymmetricPartOfHadmrdPropagatorIsCausalPropagatorForKleinGordonEquationOnMinkowskiSpacetime)):
+
+   $$
+     H(x,y) = H(y,x)
+   $$
 
 Using this we compute as follows:
 
 $$
   \begin{aligned}
-    A_1 \underset{\Delta_{F}}{\star} A_2
+    A_1 \underset{\Delta_{F}}{\star} A_2\;
     & =
     A_1 \underset{\tfrac{i}{2}(\Delta_+ + \Delta_-) + H}{\star} A_2
     \\
