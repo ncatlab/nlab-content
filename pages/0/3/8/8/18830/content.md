@@ -15,7 +15,9 @@ $\,$
 
 We now discuss these topics
 
-* _[Wick algebra and normal ordered products](#WickAlgebraAndNormalOrderedProducts)_
+* _[Abstract Wick algebra](#WickAlgebraAbstact)_
+
+* [Time-ordered product on regular polynomial observables](#TimeOrderedProuctOnRegularPolynomialObservables)
 
 
 
@@ -26,177 +28,539 @@ $\,$
 
 $\,$
 
-**[[Wick algebra]] and [[normal ordered products]]**
- {#WickAlgebraAndNormalOrderedProducts}
+**abstract [[Wick algebra]]**
+ {#WickAlgebraAbstract}
 
+The abstract [[Wick algebra]] of a [[free field theory]] with [[Green hyperbolic differential equation]] is directly analogous to the [[star product]]-algebra induced by a [[finite dimensional vector space|finite dimensional]] [[Kähler vector space]] ([this def.](star+product#WickAlgebraOfAlmostKaehlerVectorSpace))  under the following identification of the [[Wightman propagator]] with the [[Kähler space]]-[[structure]]:
 
++-- {: .num_remark #WightmanPropagatorAsKaehlerVectorSpaceStructure}
+###### Remark
+**([[Wightman propagator]] as [[Kähler vector space]]-[[structure]])**
 
+Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]] whose [[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]] is a [[Green hyperbolic differential equation]]. Then the corresponding [[Wightman propagator]] is analogous to the rank-2 tensor on a [[Kähler vector space]] as follows:
+
+| [[covariant phase space]] <br/> of [[free field theory|free]] [[Green hyperbolic differential equation|Green hyperbolic]] <br/> [[Lagrangian field theory]] | [[finite dimensional vector space|finite dimensional]] <br/> [[Kähler vector space]] |
+|-------------------|-------------------------|
+| [[space of field histories]] <br/>  $\Gamma_\Sigma(E)$ |  $\mathbb{R}^{2n}$ |
+| [[symplectic form]] <br/> $\tau_{\Sigma_p} \Omega_{BFV}$ | [[Kähler form]] $\omega$ |
+| [[causal propagator]] $\Delta$ | $\omega^{-1}$ |
+| [[Peierls-Poisson bracket]] <br/> $\{A_1,A_2\} = \int \Delta^{a_1 a_2}(x_1,x_2) \frac{\delta A_1}{\delta \mathbf{\Phi}^{a_1}(x_1)} \frac{\delta A_2}{\delta \mathbf{\Phi}^{a_2}(x_2)} dvol_\Sigma(x)$ | [[Poisson bracket]] |
+| [[Wightman propagator]] <br/> $\Delta_H = \tfrac{i}{2} \Delta + H$  | [[Hermitian form]] <br/>  $\pi = \tfrac{i}{2}\omega^{-1} + \tfrac{1}{2}g^{-1}$ | 
+ 
+=--
+
+([Fredenhagen-Rejzner 15, section 3.6](pAQFT#FredenhagenRejzner15), [Collini 16, table 2.1](#pAQFT#Collini16))
 
 +-- {: .num_defn #MicrocausalObservable}
 ###### Definition
-**([[microcausal observable]])**
-
-For $\Sigma$ a [[spacetime]], hence a [[Lorentzian manifold]] with [[time orientation]], then a _[[microcausal observable]]_ is a [[polynomial observable]] (def. \ref{PolynomialObservable}) such that each [[coefficient]] $\alpha^{(k)}$ has [[wave front set]] excluding those points  where all $k$ [[wave vectors]] are in the [[future cone]] or all in the [[past cone]].
-
-=--
-
-(After [[deformation quantization]] below, the [[distributions]] appearing in def. \ref{MicrocausalFunctionals} are the origin of "[[operator-valued distributions]]" in [[perturbative quantum field theory]]).
-
-
-+-- {: .num_example }
-###### Example
-**(regular functionals are microcausal)**
-
-Every regular functional is a [[microcausal functional]] (def. \ref{MicrocausalFunctionals}), since the [[wave front set]] of a distribution that is given by an ordinary function is empty:
+**([[microcausal observable|microcausal]] [[polynomial observables]])**
+Let $E \overset{fb}{\to}$ be [[field bundle]] which is a [[vector bundle]]. An [[off-shell]] _[[polynomial observable]]_ is a [[smooth function]]
 
 $$
-  \mathcal{F}_{reg} \subset \mathcal{F}_{mc}
+  A 
+  \;\colon\;
+  \Gamma_\Sigma(E)
+    \longrightarrow 
+  \mathbb{C}
+$$
+
+on the [[on-shell]] [[space of sections]] of the [[field bundle]] $E \overset{fb}{\to} \Sigma$ (space of field histories) which may be expressed as
+
+$$
+  A(\Phi)
+  \;=\;
+  \alpha^{(0)}
+  +
+  \int_\Sigma
+    \alpha^{(1)}_a(x) \Phi^a(x)
+   \,
+  dvol_\Sigma(x)
+  +
+  \int_\Sigma \int_\Sigma
+   \alpha^{(2)}_{a_1 a_2}(x_1, x_2) \Phi^{a_1}(x_1) \Phi^{a_2}(x_2)
+  \,dvol_\Sigma(x_1)
+  \, dvol_\Sigma(x_2)
+  +
+  \cdots
+  \,,
+$$
+
+where 
+
+$$
+  \alpha^{(k)} \in \Gamma'_{\Sigma^k}\left((E^\ast)^{\boxtimes^k_{sym}} \right)
+$$
+
+is a [[compactly supported distribution]] [[distribution of two variables|of k variables]] on the $k$-fold graded-symmetric [[external tensor product of vector bundles]] of the [[field bundle]] with itself.
+
+Write 
+
+$$
+  PolyObs(E) \hookrightarrow Obs(E)
+$$
+
+for the [[subspace]] of off-shell polynomial observables onside all off-shell [[observables]].
+
+Let moreover $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]] whose [[equations of motion]] are [[Green hyperbolic differential equations]]. Then an _[[on-shell]] polynomial observable_ is the [[restriction]] of an off-shell polynomial observable along the inclusion of the [[on-shell]] [[space of field histories]] $\Gamma_{\Sigma}(E)_{\delta_{EL}\mathbf{L} = 0} \hookrightarrow \Gamma_\Sigma(E)$. Write
+
+$$
+  PolyObs(E,\mathbf{L}) \hookrightarrow Obs(E,\mathbf{L})
+$$
+
+for the subspace of all on-shell polynomial observables inside all on-shell [[observables]].
+
+By [this prop.](Green+hyperbolic+partial+differential+equation#DistributionsOnSolutionSpaceAreTheGeneralizedPDESolutions) restriction yields an [[isomorphism]] between polynomial on-shell observables and polynomial off-shell observables modulo the image of the [[differential operator]] $P$:
+
+$$
+  PolyObs(E,\mathbf{L})
+    \underoverset{\simeq}{\text{restriction}}{\longleftarrow}
+  PolyObs(E)/im(P)
   \,.
 $$
 
-=--
-
-+-- {: .num_example}
-###### Example
-**([[adiabatic switching|adiabtaically switched]] point interactions are microcausal)**
-
-Let $g \in C^\infty_c(X)$ be a [[bump function]], then for $n \in \mathbb{N}$ the smooth functional
+Finally a polynomial observable is a _[[microcausal observable]]_ if each [[coefficient]] $\alpha^{(k)}$ as above has [[wave front set]] away from those points where the $k$ [[wave vectors]] are all in the [[future cone]] or all in the [[past cone]]. We write
 
 $$
   \array{
-    C^\infty(X) &\overset{}{\longrightarrow}& \mathbb{R}
+    PolyObs(E)_{mc}
+     &\hookrightarrow&
+    PolyObs(E)
     \\
-    \phi &\mapsto& \int_X g(x) (\phi(x))^n dvol(x)
+    PolyObs(E,\mathbf{L})_{mc}
+    \simeq
+    PolyObs(E)_{mc}/im(P)
+     &\hookrightarrow&
+    PolyObs(E,\mathbf{L})
   }
 $$
 
-is a [[microcausal functional]] (def. \ref{MicrocausalFunctionals}).
+for the [[subspace]] of [[off-shell]]/[[on-shell]] [[microcausal observables]] insides all [[off-shell]]/[[on-shell]] [[polynomial observables]].
 
-If here we think of $\phi(x)^n$ as a point-[[interaction]] term (as for instance in [[phi^4 theory]]) then $g$ is to be thought of as an "[[adiabatic switching|adiabatically switched]]" [[coupling constant]]. These are the relevant interaction terms to be quantized via [[causal perturbation theory]].
 
 =--
-
-+-- {: .proof}
-###### Proof
-
-For notational convenience, consider the case $n = 2$, the other cases are directly analogous. The distribution in question is the [[delta distribution]]
-
-$$
-  \int_X g(x) \phi(x)^2 dvol(x)
-  \;=\;
-  \int_{X \times X} g(x_1) \phi(x_1) \phi(x_2) dvol(x_1) dvol(x_2)
-  =
-  \langle g \cdot \delta(-,-) , (\phi \circ pr_1)\cdot (\phi \circ pr_2)  \rangle_g
-  \,.
-$$
-
-Now for $(x_1, x_2) \in X \times X$ and $\mathbb{R}^{2n} \simeq U \subset X \times X$ a [[chart]] around this point,  the [[Fourier transform]] of $g \cdot \delta(-,-)$ restricted to this chart is proportional to the Fourier transform $\hat g$ of $g$ evaluated at the sum of the two covectors:
-
-$$
-  \begin{aligned}
-    (k_1, k_2)
-      & \mapsto
-     \int_{\mathbb{R}^{2n}} g(x_1) \delta(x_1, x_2) \exp( k_1 \cdot x_1 + k_2 \cdot x_2 ) dvol(x_1) dvol(x_2)
-    \\
-    & \propto \hat g(k_1 + k_2)
-   \end{aligned}
-  \,.
-$$
-
-
-Since $g$ is a plain [[bump function]], its Fourier transform $\hat g$ is quickly decaying (in the sense of wave front sets)  with $k_1 + k_2$ ([this prop.](wavefront+set#EmptyWaveFronSetCorrespondsToOrdinaryFunction)). Thus only on the cone $k_1 + k_2 = 0$ that function is in fact constant and in particular not decaying.
-
-
-<div style="float:right;margin:0 10px 10px 0;">
-<img src="https://ncatlab.org/nlab/files/WaveFrontSetOfDeltaDistributionInTwoVariables.png" width="200"/>
-</div>
-
-{#WaveFrontOfdeltaxy} This means that the wave front set consists of the element of the form $(x, (k, -k))$ with $k \neq 0$. Since $k$ and $-k$ are both in the [[future cone]] or both in the past cone precisely if $k = 0$, this situation is excluded in the wave front set and hence the distribution $g \cdot \delta(-,-)$ is microcausal.
-
-> (graphics grabbed from [Khavkine-Moretti 14, p. 45](quasi-free+quantum+state#KhavkineMoretti14))
-
-=--
-
-This shows that microcausality in this case is related to conservation of momentum in th point interaction.
-
-More generally:
 
 
 
 +-- {: .num_prop #MoyalStarProductOnMicrocausal}
 ###### Proposition
-**(Hadamard-Moyal star product on microcausal functionals)**
+**([[Hadamard distribution|Hadamard]]-[[Moyal star product]] on [[microcausal observables]] -- [[abstract Wick algebra]])**
 
-Let $(X,g)$ be a [[globally hyperbolic spacetime]], and let $\omega \in \mathcal{D}'(X \times X)$ be a [[Hadamard distribution]] (def. \ref{HadamardDistribution}) which is guaranteed to exist by prop. \ref{ExistenceOfHadamardDistributions}.
-
-Then the [[star product]]
+Let $(E,\mathbf{L})$ a [[free field theory|free]] [[Lagrangian field theory]] with [[Green hyperbolic differential equation|Green hyperbolic]] [[equations of motion]] $P \Phi = 0$. Write $\Delta$ for the [[causal propagator]] and let 
 
 $$
-  P_1 \star_\omega P_2
+  \Delta_H
+  \;=\;
+  \tfrac{i}{2}\Delta + H
+$$ 
+
+be a corresponding [[Wightman propagator]] ([[Hadamard 2-point function]]).
+
+Then the [[star product]] induced by $\Delta_H$
+
+$$
+  A \star_H A
   \;\coloneqq\;
   prod
    \circ
   \exp\left(
-    \int_{X^2} \hbar \omega(x_1, x_2) \frac{\delta}{\delta \phi(x_1)}
-    \otimes \frac{\delta}{\delta \phi(x_2)} dvol_g
+    \int_{X^2} \hbar \Delta_H^{a b}(x_1, x_2) \frac{\delta}{\delta \mathbf{\Phi}^a(x_1)}
+    \otimes \frac{\delta}{\delta \mathbf{\Phi}^b(x_2)} dvol_g
   \right)
   (P_1 \otimes P_2)
 $$
 
-on microcausal functionals $P_1, P_2 \in \mathcal{F}_{mc}$ is well defined in that the [[products of distributions]] that appear in expanding out the [[exponential]] are such that the sum of the [[wave front sets]] of the factors does not intersect the zero section.
+on [[off-shell]] [[microcausal observables]] $A_1, A_2 \in \mathcal{F}_{mc}$ (def. \ref{MicrocausalObservable}) is well defined in that the [[wave front sets]] involved in the [[products of distributions]] that appear in expanding out the [[exponential]] satisfy [[Hörmander's criterion]].
+
+Hence by the general properties of [[star products]] ([this prop.](star+product#AssociativeAndUnitalStarProduct)) this yields a [[unital algebra|unital]] [[associative algebra]] [[structure]] on the space of [[formal power series]] in $\hbar$ of [[off-shell]] [[microcausal observables]]
+
+$$
+  \left(
+    PolyObs(E)_{mc}[ [\hbar] ] \,,\, \star_H
+  \right)
+  \,.
+$$ 
+
+This is the _[[off-shell]] [[Wick algebra]]_ corresponding to the choice of [[Wightman propagator]] $H$.
+
+Moreover the image of $P$ is an ideal with respect to this algebra structure, so that it descends to the [[on-shell]] [[microcausal observables]] to yield the _[[on-shell]] [[Wick algebra]]_
+
+$$
+  \left(
+    PolyObs(E,\mathbf{L})_{mc}[ [ \hbar ] ] \,,\, \star_H
+  \right)
+  \,.
+$$ 
+
+Finally, under [[complex conjugation]] $(-)^\ast$ these are [[star algebras]] in that 
+
+$$
+  \left(
+    A_1 \star_H A_2
+  \right)^\ast
+  =
+  A_2^\ast \star_H A_1^\ast
+  \,.
+$$
 
 =--
+
+([Dütsch-Fredenhagen 00](#DuetshFredenhagen00); see [Collini 16, p. 25-26](#Collini16))
 
 +-- {: .proof}
 ###### Proof
 
-By definition of [[Hadamard distribution]], the [[wave front set]] of powers of $\omega$ has all cotangents on the first variables future pointing, and all those on the second variables past pointing. The first variables are integrated against those of $P_1$ and the second against $P_2$. By definition of microcausal functionals, the wave front sets of $P_1$ and $P_2$ are disjoint from the subsets where all components are future pointing or all components are past-pointing. Therefore the relevant sum of of the wave front covectors never vanishes.
+By definition of [[Wightman propagator]], the [[wave front set]] of powers of $\Delta_H$ has all cotangents on the first variables future pointing, and all those on the second variables past pointing. The first variables are integrated against those of $A_1$ and the second against $A_2$. By definition of [[microcausal observables]] (def. \ref{MicrocausalObservable}), the wave front sets of $A_1$ and $A_2$ are disjoint from the subsets where all components are future pointing or all components are past-pointing. Therefore the relevant sum of of the wave front covectors never vanishes and hence [[Hörmander's criterion]] is met and the star product is well defined.
 
-See [Collini 16, p. 25-26](Hadamard+distribution#Collini16)
+It remains to see that the star product $A_1 \star_H A_2$ is itself again a [[microcausal observable]]. It is clear that it is again a [[polynomial observable]] and that it respects the ideal generated by the equations of motion. That it still satisfies the condition on the [[wave front set]] follows directly from the fact that the wave front set of a [[product of distributions]] is inside the fiberwise sum of elements of the factor wave front sets ([this prop.](product+of+distributions#WaveFrontSetOfProductOfDistributionsInsideFiberProductOfFactorWaveFrontSets)).
 
-=--
-
-+-- {: .num_defn #WickAlgebraOfFreeQuantumField}
-###### Definition
-**([[Wick algebra]] of [[free quantum field]])**
-
-Let $(X,g)$ be a [[globally hyperbolic spacetime]] and let $\omega \in \mathcal{D}'(X \times X)$ be a [[Hadamard distribution]] (def. \ref{HadamardDistribution}) which is guaranteed to exist by prop. \ref{ExistenceOfHadamardDistributions}.
-
-Then the _Wick algebra_ of [[quantum observables]] of the [[free field|free]] [[scalar field]] on $(X,g)$ is the space of [[microcausal functionals]] $\mathcal{F}_{mc}$ (def. \ref{MicrocausalFunctionals}) equipped with the Hadamard-Moyal [[star product]] from prop. \ref{MoyalStarProductOnMicrocausal}:
-
-$$
-  \mathcal{W}(X,\omega)
-  \;\coloneqq\;
-  \left(
-    \mathcal{F}_{mc}, \star_\omega
-  \right)
-  \,.
-$$
-
-> need to quotient out ideal of elements in the image of $\Box_g + m^2$ to go on [[shell]]
+Finally the [[star algebra]]-structure follows via remark \ref{WickAlgebraOfAlmostKaehlerVectorSpace} as in [this prop.](star+product#StarProductAlgebraOfKaehlerVectorSpaceIsStarAlgebra).
 
 =--
 
++-- {: .num_remark #WickAlgebraIsFormalDeformationQuantization}
+###### Remark
+**([[Wick algebra]] is [[formal deformation quantization]] of [[Poisson-Peierls bracket|Poisson-Peierls algebra of observables]])**
 
-In [[Minkowski spacetime]] the [[Hadamard state]] is simply the usual [[vacuum state]] $\vert vac \rangle$, hence the [[Hadamard distribution]] is, as a [[generalized function]]
+
+Let $(E,\mathbf{L})$ a [[free field theory|free]] [[Lagrangian field theory]] with [[Green hyperbolic differential equation|Green hyperbolic]] [[equations of motion]] $P \Phi = 0$ with [[causal propagator]] $\Delta$ and let $\Delta_H \;=\; \tfrac{i}{2}\Delta + H$  be a corresponding [[Wightman propagator]] ([[Hadamard 2-point function]]).
+
+
+Then the [[Wick algebra]]  $\left( PolyObs(E,\mathbf{L})_{mc}[ [\hbar] ] \,,\, \star_H \right)$ from prop. \ref{MoyalStarProductOnMicrocausal} is a [[formal deformation quantization]] of the [[Poisson algebra]] on the [[covariant phase space]] given by the [[on-shell]] [[polynomial observables]] equipped with the [[Poisson-Peierls bracket]] $\{-,-\} \;\colon\; PolyObs(E,\mathbf{L})_{mc} \otimes PolyObs(E,\mathbf{L})_{mc}  \to PolyObs(E,\mathbf{L})_{mc}$ in that for all $A_1, A_2 \in PolyObs(E,\mathbf{L})_{mc}$ we have
 
 $$
-  \omega(x,y) = \langle vac \vert \Phi(x) \Phi(y) \vert vac \rangle
-  \,.
-$$
-
-
-Therefore the abstractly defined Wick algebra as in def. \ref{WickAlgebraOfFreeQuantumField} in this case satisfies the relation
-
-$$
-  \int_{X} f(x,y)  \;  :\Phi(x): \,  :\Phi(y): \; dvol_g
+  A_1 \star_H A_2
   \;=\;
-  \int_X f(x,y) \left( :\Phi(x) \Phi(y): -  \langle vac \vert \Phi(x) \Phi(y) \vert vac \rangle \right)  \; dvol_g
+  A_1 \cdot A_2
+  \;mod\;
+  \hbar
+$$
+
+and
+
+$$
+  A_1 \star_H A_2
+  -
+  A_2 \star_H a_1
+  \;=\;
+  i \hbar \{A_1, A_2\}
+  \;mod\;
+  \hbar^2
   \,.
 $$
 
-This is the traditional expression for the normal ordered Wick product on Minkowski spacetime (e.g. [here](https://en.wikipedia.org/wiki/Normal_order#Free_fields)).
+=--
 
-(...)
+([Dito 90](#Dito90), [Dütsch-Fredenhagen 01](#DutschFredenhagen01))
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{MoyalStarProductOnMicrocausal} this is immediate from the general properties of the [[star product]] ([this example](A+first+idea+of+quantum+field+theory+--+Quantization#MoyalStarProductIsFormalDeformationQuantization)). 
+
+Explicitly, consider, without restriction of generality, $A_1 = \int (\alpha_1)_a(x) \mathbf{\Phi}^a(x)\, dvol_\Sigma(x)$ and $A_2 = \int (\alpha_2)_a(x) \mathbf{\Phi}^a(x)\, dvol_\Sigma(x)$ be two linear observables. Then
+
+$$
+  \begin{aligned}
+    A_1 \star_H A_2
+    & =
+    A_1 A_2 
+    +
+    \hbar 
+    \int 
+    \left( 
+      \tfrac{i}{2} \Delta^{a_1 a_2}(x_1, x_2) + H^{a_1 a_2}(x_1,x_2)  
+     \right) 
+      \frac{\partial A_1}{\partial \mathbf{\Phi}^{a_1}(x_1)}
+      \frac{\partial A_2}{\partial \mathbf{\Phi}^{a_2}(x_2)}
+    \;mod\;
+    \hbar^2  
+   \\
+   & = 
+   A_1 A_2 
+   + 
+   \hbar 
+   \left(
+    \int 
+      (\alpha_1)_{a_1}(x_1)
+      \left(
+       \tfrac{i}{2}\Delta^{a_1 a_2}(x_1, x_2)
+       + H^{a_1 a_2}(x_1, x_2)
+      \right)
+      (\alpha_2)_{a_2}(x_2)
+   \right)
+   \;mod\;
+   \hbar^2
+  \end{aligned}
+$$
+
+Now since $\Delta$ is skew-symmetric while $H$ is symmetric is follows that
+
+$$
+  \begin{aligned}
+    A_1 \star_H A_2
+    - 
+    A_2 \star_H A_1
+    & =
+    i \hbar 
+    \left(
+     \int 
+       (\alpha_1)_{a_1}(x_1)
+       \Delta^{a_1 a_2}(x_1, x_2)
+       (\alpha_2)_{a_2}(x_2)
+    \right)
+    \;mod\;
+    \hbar^2
+    \\
+    & =
+    i \hbar \, \left\{ A_1, A_2\right\}
+  \end{aligned}
+  \,.
+$$
+
+The right hand side is the [[integral kernel]]-expression for the [[Poisson-Peierls bracket]], as shown in the second line.
+
+
+=--
+
+
++-- {: .num_example}
+###### Example
+**([[Hadamard vacuum state]] [[2-point function]])**
+
+Let 
+
+$$
+  A_i \in LinObs(E,\mathbf{L})_{mc} \hookrightarrow PolyObs(E,\mathbf{L})_{mc}
+$$
+
+for $i \in \{1,2\}$ be two [[linear observable|linear]] [[microcausal observables]] represented by [[distributions]] which in [[generalized function]]-notation are given by
+
+$$
+  A_i
+  \;=\;
+  \int (\alpha_i)_{a_i}(x_i) \mathbf{\Phi}^{a_i}(x_i) \, dvol_\Sigma(x_i)
+  \,.
+$$
+
+Then their Hadamard-Moyal [[star product]] (prop. \ref{MoyalStarProductOnMicrocausal}) is the [[sum]] of their pointwise product with $\tfrac{1}{2} i \hbar$ times the evaluation 
+
+$$
+  \begin{aligned}
+    \langle A_1 A_2\rangle
+    & \coloneqq
+    \int \int
+      (\alpha_1)_{a_1}(x_1) 
+      \,
+      \left\langle \mathbf{\Phi}^{a_1}(x_1) \mathbf{\Phi}^{a_2}(x_2)\right\rangle
+     \,  
+     (\alpha_2)_{a_2}(x_2)
+     \, dvol_\Sigma(x_1)
+     \, dvol_\Sigma(x_2)
+    \\
+    & \coloneqq
+      \tfrac{1}{2} 
+     i \hbar \int \int 
+     (\alpha_1)_{a_1}(x_1) \Delta_H^{a_1 a_2}(x_1,x_2) (\alpha_2)_{a_2}(x_2)
+      \,dvol_\Sigma(x_1)
+      \,dvol_\Sigma(x_2)
+  \end{aligned}
+$$
+
+of the [[Wightman propagator]] $\Delta_H$:
+
+$$
+  \label{StarProductOfTwoLinearObservables}
+  A_1 \star_H A_2
+  =
+  A_1 \cdot A_2
+  +
+  \langle A_1 A_2\rangle
+$$
+
+Further [below](#HadamardVacuumStatesOnWickAlgebras) we see that this evaluation is the [[2-point function]] of a [[state on a star-algebra|state]] on the [[Wick algebra]].
+
+=--
+
+
++-- {: .num_example #WeylRelations}
+###### Example
+**([[Weyl relations]])**
+
+Let $(E,\mathbf{L})$ a [[free field theory|free]] [[Lagrangian field theory]] with [[Green hyperbolic differential equation|Green hyperbolic]] [[equations of motion]] and with [[Wightman propagator]] $\Delta_H$.
+
+Then for 
+
+$$
+  A_1, A_2 
+  \;\in\;
+  LinObs(E,\mathbf{L})_{mc}
+  \hookrightarrow
+  PolyObs(E,\mathbf{L})_{mc}
+$$
+
+two [[linear observables|linear]] [[microcausal observables]], the Hadamard-Moyal star product (def. \ref{MoyalStarProductOnMicrocausal}) of their [[exponentials]] exhibits the [[Weyl relations]]:
+
+$$
+  e^{A_1}
+  \star_H
+  e^{A_2}
+  \;=\;
+  e^{A_1 + A_2} \; e^{\langle A_1 A_2\rangle}
+$$
+
+where on the right we have the [[exponential]] [[Wightman 2-point function]] (eq:StarProductOfTwoLinearObservables).
+
+=--
+
+(e.g. [Dütsch 18, exercise 2.3](#Duetsch18))
+
 
 $\,$
+
+$\,$
+
+**[[time-ordered product]] on [[regular polynomial observables]]**
+ {#TimeOrderedProuctOnRegularPolynomialObservables}
+
++-- {: .num_defn #OnRegularPolynomialObservablesTimeOrderedProduct}
+###### Definition
+**([[time-ordered product]] on [[regular polynomial observables]])**
+
+Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]] 
+over a [[Lorentzian manifold|Lorentzian]] [[spacetime]] and with [[Green hyperbolic differential equation|Green-hyperbolic]] [[Euler-Lagrange equation|Euler-Lagrange]] [[differential equations]]; write $\Delta_S = \Delta_+ - \Delta_-$ for the induced [[causal propagator]]. Let moreover $\Delta_H = \tfrac{i}{2}\Delta_S + H $ be a compatible [[Wightman propagator]] and write $\Delta_F = \tfrac{i}{2}(\Delta_+ + \Delta_-) + H$ for the induced [[Feynman propagator]].
+
+Then the _[[time-ordered product]]_ on the space of [[on-shell]] [[regular polynomial observable]] $PolyObs(E,\mathbf{L})_{reg}$ is the [[star product]] induced by the [[Feynman propagator]] (via [this prop.](star+product#PropagatorStarProduct)):
+
+$$
+  \array{
+    PolyObs(E,\mathbf{L})_{reg}[ [\hbar] ]
+    \otimes
+    PolyObs(E,\mathbf{L})_{reg}[ [\hbar] ]
+      &\overset{T((-)(-))}{\longrightarrow}&
+    PolyObs(E,\mathbf{L})_{reg}[ [\hbar] ]
+    \\
+    (A_1, A_2)
+    &\mapsto&
+    \phantom{\coloneqq} A_1 \star_F A_2
+  }
+$$
+
+hence
+
+$$
+  T(A_1 A_2)
+  \coloneqq
+  ((-)\cdot(-))
+  \circ
+  \exp\left(
+    \underset{\Sigma \times \Sigma}{\int}
+    \Delta_F^{a b}(x,y)
+    \frac{\delta}{\delta \mathbf{\Phi}^a(x)}
+    \otimes
+    \frac{\delta}{\delta \mathbf{\Phi}^b(y)}
+    \,
+    dvol_\Sigma(x)
+    \,
+    dvol_\Sigma(y)
+  \right)
+$$
+
+=--
+
++-- {: .num_prop #CausalOrderingTimeOrderedProductOnRegular}
+###### Proposition
+**([[time-ordered product]] is indeed causally ordered [[Wick algebra]] product)**
+
+Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]] 
+over a [[Lorentzian manifold|Lorentzian]] [[spacetime]] and with [[Green hyperbolic differential equation|Green-hyperbolic]] [[Euler-Lagrange equation|Euler-Lagrange]] [[differential equations]]; write $\Delta_S = \Delta_+ - \Delta_-$ for the induced [[causal propagator]]. Let moreover $\Delta_H = \tfrac{i}{2}\Delta_S + H $ be a compatible [[Wightman propagator]] and write $\Delta_F = \tfrac{i}{2}(\Delta_+ + \Delta_-) + H$ for the induced [[Feynman propagator]].
+
+Then the [[time-ordered product]] on [[regular polynomial observables]] (def. \ref{OnRegularPolynomialObservablesTimeOrderedProduct}) is indeed a time-ordering of the [[Wick algebra]] product $\star_H$ in that for all [[pairs]] of [[regular polynomial observables]]
+
+$$
+  A_1, A_2 \in PolyObs(E,\mathbf{L})_{reg}[ [\hbar] ]
+$$
+
+with [[disjoint subset|disjoint]] [[spacetime]] [[support]] we have
+
+$$  
+  T(A_1 A_2)
+  \;=\;
+  \left\{
+    \array{
+      A_1 \star_H A_2 &\vert& supp(A_1) {\vee\!\!\!\wedge} supp(A_2)
+      \\
+      A_2 \star_H A_1 &\vert& supp(A_2) {\vee\!\!\!\wedge} supp(A_2)
+    }
+  \right.
+  \,.
+$$
+
+Here $S_1 {\vee\!\!\!\wedge} S_2$ is the [[causal order]] relation ("$S_1$ does not intersect the [[past cone]] of $S_2$"). Beware that for general [[pairs]] $(S_1, S-2)$ of subsets neither $S_1 {\vee\!\!\!\wedge} S_2$ nor $S_2 {\vee\!\!\!\wedge} S_1$.
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+The [[advanced and retarded propagators]] $\Delta_{pm}$ by definition are [[support|supported]] in the [[future cone]]/[[past cone]], respectively
+
+$$
+  supp(\Delta_{\pm}) \subset \overline{V}^{\pm}
+$$
+
+and since they turn into each other under exchange of their arguments ([this cor.](causal+propagator#CausalPropagatorIsSkewSymmetric)):
+
+$$
+  \Delta_\pm(y,x) = \Delta_{\mp}(x,y)
+  \,.
+$$
+
+Using this we compute as follows:
+
+$$
+  \begin{aligned}
+    A_1 \underset{\Delta_{F}}{\star} A_2
+    & =
+    A_1 \underset{\tfrac{i}{2}(\Delta_+ + \Delta_-) + H}{\star} A_2
+    \\
+    & =
+    \left\{
+      \array{
+        A_1 \underset{\tfrac{i}{2}\Delta_+ + H}{\star} A_2 &\vert& supp(A_1) {\vee\!\!\!\wedge} supp(A_2)
+       \\
+       A_1 \underset{\tfrac{i}{2}\Delta_- + H}{\star} A_2 &\vert& supp(A_2) {\vee\!\!\!\wedge} supp(A_2)    
+      }
+    \right.
+    \\
+    & = 
+    \left\{
+      \array{
+        A_1 \underset{\tfrac{i}{2}\Delta_+ + H}{\star} A_2 &\vert& supp(A_1) {\vee\!\!\!\wedge} supp(A_2)
+       \\
+       A_2 \underset{\tfrac{i}{2}\Delta_+ + H}{\star} A_1 &\vert& supp(A_2) {\vee\!\!\!\wedge} supp(A_2)    
+      }
+    \right.
+    \\
+    & =
+    \left\{
+      \array{
+        A_1 \underset{\tfrac{i}{2}(\Delta_+ - \Delta_-) + H}{\star} A_2 &\vert& supp(A_1) {\vee\!\!\!\wedge} supp(A_2)
+       \\
+       A_2 \underset{\tfrac{i}{2}(\Delta_+ - \Delta_-) + H}{\star} A_1 &\vert& supp(A_2) {\vee\!\!\!\wedge} supp(A_2)    
+      }
+    \right.
+    \\
+    & =
+    \left\{
+      \array{
+        A_1 \underset{\Delta_H}{\star} A_2 &\vert& supp(A_1) {\vee\!\!\!\wedge} supp(A_2)
+       \\
+       A_2 \underset{\Delta_H}{\star} A_1 &\vert& supp(A_2) {\vee\!\!\!\wedge} supp(A_2)    
+      }
+    \right.
+  \end{aligned}
+$$
+
+
+=--
