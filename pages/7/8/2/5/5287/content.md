@@ -198,14 +198,14 @@ $$
    \underset{a}{\sum} 
     (-1)^{deg(\phi^a)}
    \underset{\Sigma \times \Sigma}{\int} 
-     \underset{ = -i \delta(x-y) }{\underbrace{P \Delta_F(x,y)}}
+     \underset{ =  i \delta(x-y) }{\underbrace{P_x \Delta_F(x,y)}}
      \frac{\delta}{\delta \mathbf{\Phi}^a(x)}
      \frac{\delta}{\delta \mathbf{\Phi}^\ddagger_a(y)}
     \, dvol_\Sigma(x)
     \, dvol_\Sigma(y)
     \\
    & = \left\{ -S', -\right\} 
-   - i \hbar 
+   + i \hbar 
    \underset{a}{\sum}
    (-1)^{deg(\phi^a)}
    \underset{\Sigma}{\int}
@@ -216,6 +216,7 @@ $$
   \end{aligned}
 $$
 
+Here under the brace we used that the [[Feynman propagator]] is $+i$ times a [[Green function]] for the [[Klein-Gordon equation]] ([this cor.](A+first+idea+of+quantum+field+theory#GreenFunctionFeynmanPropagator))
 
 ## References
 
