@@ -490,7 +490,7 @@ $\,$
 **operator product notation**
  {#OperatorProductAndNormalOrderedProduct}
 
-+-- {: .num_prop #NormalOrderedProductNotation}
++-- {: .num_defn #NormalOrderedProductNotation}
 ###### Definition
 **(notation for [[operator product]] and [[normal-ordered product]])**
 
