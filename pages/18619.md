@@ -60,8 +60,8 @@ Products of local observables are called _multilocal observables_.
 
 For the moment see at _[[geometry of physics -- A first idea of quantum field theory]]_ [this def.](geometry+of+physics+--+A+first+idea+of+quantum+field+theory#LocalObservables)
 
+## Properties
 
-## Examples
 
 +-- {: .num_example #PolynomialLocalObservablesArePolynomialObservables}
 ###### Example
@@ -73,6 +73,14 @@ These happen to be also [[microcausal observables]] ([this example](microcausal+
 
 =--
 
+The resultiing inclusion
+
+$$
+  LocPolyObs(E) \hookrightarrow PolyObs(E)_{cm}
+$$
+
+of the local polynomial observables into the [[microcausal polynomial observables]] is a [[dense subspace]]-inclusion. ([Fredenhagen-Rejzner 12, p. 23](#FredenhagenRejzner12))
+
 
 
 ## Related concepts
@@ -81,6 +89,17 @@ These happen to be also [[microcausal observables]] ([this example](microcausal+
 
 * [[Wick algebra]]
 
+
+## References
+
+* {#BrunettiFredenhagen09} [[Romeo Brunetti]], [[Klaus Fredenhagen]], section 5.4.1 of _Quantum Field Theory on Curved Backgrounds_, chapter 5 in [[Christian Bär]], [[Klaus Fredenhagen]] (eds.), _Quantum Field Theory on Curved Spacetime_, Springer 2009
+
+* {#BrunettiDuetschFredenhagen09} [[Romeo Brunetti]], [[Michael Dütsch]], [[Klaus Fredenhagen]], section 3.2 of_Perturbative Algebraic Quantum Field Theory and the Renormalization Groups_, Adv. Theor. Math. Physics 13 (2009), 1541-1599 ([arXiv:0901.2038](https://arxiv.org/abs/0901.2038))
+
+* {#FredenhagenRejzner12} [[Klaus Fredenhagen]], [[Katarzyna Rejzner]], _Perturbative algebraic quantum field theory_, In _Mathematical Aspects of Quantum Field Theories_, Springer 2016 ([arXiv:1208.1428](https://arxiv.org/abs/1208.1428))
+
+
+* {#Rejzner16} [[Katarzyna Rejzner]], def. 3.14 in _[[Perturbative Algebraic Quantum Field Theory]]_, Mathematical Physics Studies, Springer 2016 ([web](https://link.springer.com/book/10.1007%2F978-3-319-25901-7))
 
 
 [[!redirects local observables]]
