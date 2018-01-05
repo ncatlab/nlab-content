@@ -66,6 +66,7 @@ Bishop rejected the usual notion of pointwise [[continuous function]] (and more 
 
 A more modern perspective is to use [[locale]] theory (or the predicative variant [[formal topologies]]) instead.  [Palmgren](#Palmgren03) shows that the continuous endomaps of the [[locale of real numbers]] $\mathbb{R}$ coincide with Bishop's locally uniformly continuous functions, whereas for spaces other than $\mathbb{R}$ itself locale maps are better-behaved than Bishops': in particular, they are of course closed under composition, and they contain inversion (suitably interpreted).  Similarly, locally compact spaces and measure theory are arguably better done with locales than spaces.
 
+Alternatively, one can consider sheaves over the localic unit interval to model the [[fan theorem]]. This approach is pushed even further in [[continuous truth]].
 
 ## References
 
