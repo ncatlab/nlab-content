@@ -19,3 +19,6 @@ See also
 
 [[!redirects scaling transformation]]
 [[!redirects scaling transformations]]
+
+[[!redirects scale]]
+[[!redirects scales]]
