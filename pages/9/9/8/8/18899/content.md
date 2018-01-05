@@ -44,23 +44,22 @@ More precisely, the time-ordere product is a  [[commutative algebra]]-[[structur
 
 ### On regular polynomial observables
  {#OnRegularPolynomialObservables}
-
 +-- {: .num_defn #OnRegularPolynomialObservablesTimeOrderedProduct}
 ###### Definition
 **([[time-ordered product]] on [[regular polynomial observables]])**
 
-Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]] 
+Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]]
 over a [[Lorentzian manifold|Lorentzian]] [[spacetime]] and with [[Green hyperbolic differential equation|Green-hyperbolic]] [[Euler-Lagrange equation|Euler-Lagrange]] [[differential equations]]; write $\Delta_S = \Delta_+ - \Delta_-$ for the induced [[causal propagator]]. Let moreover $\Delta_H = \tfrac{i}{2}\Delta_S + H $ be a compatible [[Wightman propagator]] and write $\Delta_F = \tfrac{i}{2}(\Delta_+ + \Delta_-) + H$ for the induced [[Feynman propagator]].
 
-Then the _[[time-ordered product]]_ on the space of [[on-shell]] [[regular polynomial observable]] $PolyObs(E,\mathbf{L})_{reg}$ is the [[star product]] induced by the [[Feynman propagator]] (via [this prop.](star+product#PropagatorStarProduct)):
+Then the _[[time-ordered product]]_ on the space of [[off-shell]] [[regular polynomial observable]] $PolyObs(E)_{reg}$ is the [[star product]] induced by the [[Feynman propagator]] (via [this prop.](star+product#PropagatorStarProduct)):
 
 $$
   \array{
-    PolyObs(E,\mathbf{L})_{reg}[ [\hbar] ]
+    PolyObs(E)_{reg}[ [\hbar] ]
     \otimes
-    PolyObs(E,\mathbf{L})_{reg}[ [\hbar] ]
-      &\overset{T((-)(-))}{\longrightarrow}&
-    PolyObs(E,\mathbf{L})_{reg}[ [\hbar] ]
+    PolyObs(E)_{reg}[ [\hbar] ]
+      &\overset{}{\longrightarrow}&
+    PolyObs(E)_{reg}[ [\hbar] ]
     \\
     (A_1, A_2)
     &\mapsto&
@@ -71,8 +70,10 @@ $$
 hence
 
 $$
-  T(A_1 A_2)
+  A_1 \star_F A_2
+  \;
   \coloneqq
+  \;
   ((-)\cdot(-))
   \circ
   \exp\left(
@@ -88,6 +89,8 @@ $$
   \right)
 $$
 
+(Notice that this does not descend to the [[on-shell]] observables, since the [[Feynman propagator]] is not a solution to the _homogeneous_ [[equations of motion]].)
+
 =--
 
 +-- {: .num_prop #CausalOrderingTimeOrderedProductOnRegular}
@@ -100,7 +103,7 @@ over a [[Lorentzian manifold|Lorentzian]] [[spacetime]] and with [[Green hyperbo
 Then the [[time-ordered product]] on [[regular polynomial observables]] (def. \ref{OnRegularPolynomialObservablesTimeOrderedProduct}) is indeed a time-ordering of the [[Wick algebra]] product $\star_H$ in that for all [[pairs]] of [[regular polynomial observables]]
 
 $$
-  A_1, A_2 \in PolyObs(E,\mathbf{L})_{reg}[ [\hbar] ]
+  A_1, A_2 \in PolyObs(E)_{reg}[ [\hbar] ]
 $$
 
 with [[disjoint subset|disjoint]] [[spacetime]] [[support]] we have
@@ -197,6 +200,81 @@ $$
 
 =--
 
++-- {: .num_prop #IsomorphismOnRegularPolynomialObservablesTimeOrderedandPointwise}
+###### Proposition
+**([[time-ordered product]] on [[regular polynomial observables]] [[isomorphism|isomorphic]] to pointwise product)
+
+The [[time-ordered product]] on [[regular polynomial observables]] (def. \ref{CausalOrderingTimeOrderedProductOnRegular}) is [[isomorphism|isomorphism]] to the pointwise product of [[observables]] ([this def.](A+first+idea+of+quantum+field+theory#Observable)) via the [[linear isomorphism]]
+
+$$
+  \mathcal{T}
+  \;\colon\;
+  PolyObs(E)_{reg}[ [\hbar] ]
+    \longrightarrow
+  PolyObs(E)_{reg}[ [\hbar] ]
+$$
+
+given by
+
+$$
+  \mathcal{T}A
+  \;\coloneqq\;
+  \exp\left(
+    \tfrac{1}{2}
+    \hbar 
+    \underset{\Sigma}{\int} 
+     \Delta_F(x,y)^{a b} 
+     \frac{\delta^2}{\delta \mathbf{\Phi}^a(x) \delta \mathbf{\Phi}^b(y)}
+  \right)
+  A
+$$
+
+in that 
+
+$$
+  \begin{aligned}
+    T(A_1 A_2)
+    & \coloneqq
+    A_1 \star_{F} A_2
+    \\
+    & =
+    \mathcal{T}( \mathcal{T}^{-1}(A_1) \cdot \mathcal{T}^{-1}(A_2) )
+  \end{aligned}
+$$
+
+hence
+
+$$
+  \array{
+    PolyObs(E)_{reg}[ [\hbar] ]
+      \otimes
+    PolyObs(E)_{reg}[ [\hbar] ]
+      &\overset{(-)\cdot (-)}{\longrightarrow}&   
+    PolyObs(E)_{reg}[ [\hbar] ]
+    \\
+    {}^{\mathllap{\mathcal{T} \otimes \mathcal{T}}}_\simeq\Big\downarrow 
+      && 
+    \downarrow^{\mathrlap{\mathcal{T}}}_\simeq
+    \\
+    PolyObs(E)_{reg}[ [\hbar] ]
+      \otimes
+    PolyObs(E)_{reg}[ [\hbar] ]
+      &\overset{(-) \star_F (-)}{\longrightarrow}&   
+    PolyObs(E)_{reg}[ [\hbar] ]
+  }
+$$
+
+=--
+
+([Brunetti-Dütsch-Fredenhagen 09, (12)-(13)](#BrunettiDuetschFredenhagen09), [Fredenhagen-Rejzner 11b, (14)](#FredenhagenRejzner11b))
+
++-- {: .proof}
+###### Proof
+
+Since the [[Feynman propagator]] is symmetric ([this prop.](A+first+idea+of+quantum+field+theory#SymmetricFeynmanPropagator)), the statement is a special case of [this prop.](star+product#SymmetricContribution)).
+
+=--
+
 ## Related concepts
 
 [[!include products in pQFT -- table]]
@@ -208,7 +286,16 @@ $\,$
 
 ## References
 
-See the references at _[[S-matrix]]_
+See also the references at _[[S-matrix]]_
+
+The equivalence of the time-ordered product on regular observables to the point-wise product was maybe first highlighted in
+
+* {#BrunettiDuetschFredenhagen09} [[Romeo Brunetti]], [[Michael Dütsch]], [[Klaus Fredenhagen]], p. 6 of _Perturbative Algebraic Quantum Field Theory and the Renormalization Groups_, Adv. Theor. Math. Physics 13 (2009), 1541-1599 ([arXiv:0901.2038](http://arxiv.org/abs/0901.2038))
+
+and then further amplified in 
+
+* {#FredenhagenRejzner11b} [[Klaus Fredenhagen]], [[Kasia Rejzner]], p. 6 of _Batalin-Vilkovisky formalism in perturbative algebraic quantum field theory_, Commun. Math. Phys. 317(3), 697&#8211;725 (2012) ([arXiv:1110.5232](https://arxiv.org/abs/1110.5232))
+
 
 [[!redirects time-ordered products]]
 
