@@ -61,6 +61,14 @@ There are, however, differences among constructivists as well, even discounting 
 
 Many constructivists (like many classical mathematicians) believe in an absolute mathematical sense of "truth," and that in this sense choice and excluded middle are simply _wrong_.  (Some constructivists, using classically false axioms, can even refute them; others merely claim that no possible correct reasoning could ever prove them.  See [Truth versus assertability](#truevassert) below.)  To most mathematicians, this makes them seem quite strange.  Other constructivists adopt a wait-and-see attitude, or even a relative notion of truth (which can seem strange in another way).
 
+The following is a partial list of schools and subtheories of constructive mathematics:
+
+* Brouwer's [[intuitionistic mathematics]]
+* [[Russian constructivism]]
+* [[Bishop's constructive mathematics]]
+* [[constructive reverse mathematics]]
+* (at least related) [[explicit mathematics]]
+
 
 ## Topos theory
 
@@ -125,6 +133,25 @@ This practice can be understood through a careful distinction between [[object l
 Even without the notational convention of the Bishop school, it is important when reading constructive mathematics to remember the difference between what can be refuted (proved false) and what merely cannot be proved true. Although Brouwer\'s and Markov\'s schools will sometimes claim to prove statements that are (classically) outright false (such as that every function $[0,1] \to R$ is pointwise-continuous), it is more common (and can happen in any school) that a constructive mathematician makes a claim that merely *sounds* false, when what they really mean is only that they don\'t accept what you say as true. Often modal phrases like 'not necessarily' will be used where Bishop would use '<i>not</i>', as a clue that we\'re shifting to a metalanguage, or at least merely remaining agnostic rather than outright disagreeing.
 
 The distinction between object language and metalanguage exists even in [[classical mathematics]], but it seems that most classical mathematicians are not used to remembering it, although it is not entirely clear why this should be so.  One possibly relevant observation is that even if $P$ is a statement which is neither provable nor disprovable (like the continuum hypothesis), in classical mathematics it is still provable that "$P$ is either true or false."  Moreover, classical [[model theory]] often restricts itself to [[two-valued model]]s in which the only truth values are "true" and "false," although classical logic still holds in [[Boolean algebra|Boolean-valued]] models, and in such a case the truth value of $P$ may be neither "true" nor "false," although the truth value of "$P$ or not $P$" is still "true."  Certainly when talking about classical truths which fail constructively, such as excluded middle, it is important to remember that "fails to be provable" is different from "is provably false."
+
+
+## Prehistory
+
+In 
+
+* [[Georg Hegel]], _[[Phenomenology of Spirit]]_  (1807)
+
+the following comment about mathematical proof (in section _[12 Historical and mathematical proof](https://www.marxists.org/reference/archive/hegel/works/ph/phprefac.htm#12)_ of the Preface) might be read as being a complaint about the traditional non-constructive concept of proof and about the traditional lack of [[proof relevance]]:
+
+> {#PoSOnProofRelevance} All the same, while proof is essential in the case of mathematical knowledge, it still does not have the significance and nature of being
+a moment in the result itself; the proof is over when we get the
+result, and has disappeared. The process of mathematical proof does not belong to the object; it is a function that takes place outside the matter in hand.
+
+> [footnote 42](https://www.marxists.org/reference/archive/hegel/help/finpref.htm#m042): Mathematical truths are not thought to be known unless proved true. Their demonstrations are not, however, kept as parts of what they prove, but are only our subjective means towards knowing the latter. In philosophy, however, consequences always form part of the essence made manifest in them, which returns to itself in such expressions.
+
+See also earlier conceptions of proofs expressing the 'cause' of a theorem, where *reductio* proofs in particular were taken generally to fail. Such an idea goes back to Aristotle for whom a proper answer to the question "Why is the angle in a semicircle a right-angle?" gives its cause.
+
+* Paolo Mancosu, _Philosophy of Mathematics and Mathematical Practice in the Seventeenth Century_, OUP, 1996.
 
 
 ## Related entries
@@ -242,6 +269,8 @@ Other references include the following.
 
 *  [[Errett Bishop]] (1967). _Foundations of Constructive Analysis_. Rewritten with Douglas Bridges in 1985 as _Constructive Analysis_.
 
+* [[Douglas Bridges]] and [[Fred Richman]], _Varieties of constructive mathematics_ (1987)
+
 *  [[Douglas Bridges]], [[Fred Richman]], Peter Schuster (1998). A weak countable choice principle. Available from [Fred Richman's Documents](http://www.math.fau.edu/Richman/HTML/DOCS.HTM).
 
 *  [[Michael Makkai]] (1996). [Avoiding the axiom of choice in general category theory](http://www.math.mcgill.ca/makkai/anafun/).
@@ -272,24 +301,6 @@ The relation to [[realizability]] and [[computability]] is discussed in
 * {#Bauer05} [[Andrej Bauer]], _Realizability as connection between constructive and computable mathematics_, in T. Grubba, P. Hertling, H. Tsuiki, and [[Klaus Weihrauch]], (eds.) _CCA 2005 - Second International Conference on Computability and Complexity in Analysis_, August 25-29,2005, Kyoto, Japan, ser. Informatik Berichte, vol. 326-7/2005. FernUniversit&#228;t Hagen, Germany, 2005, pp. 378&#8211;379. ([pdf](http://math.andrej.com/data/c2c.pdf))
 
 See also the references at _[[intuitionistic mathematics]]_ for more.
-
-### Prehistory
-
-In 
-
-* [[Georg Hegel]], _[[Phenomenology of Spirit]]_  (1807)
-
-the following comment about mathematical proof (in section _[12 Historical and mathematical proof](https://www.marxists.org/reference/archive/hegel/works/ph/phprefac.htm#12)_ of the Preface) might be read as being a complaint about the traditional non-constructive concept of proof and about the traditional lack of [[proof relevance]]:
-
-> {#PoSOnProofRelevance} All the same, while proof is essential in the case of mathematical knowledge, it still does not have the significance and nature of being
-a moment in the result itself; the proof is over when we get the
-result, and has disappeared. The process of mathematical proof does not belong to the object; it is a function that takes place outside the matter in hand.
-
-> [footnote 42](https://www.marxists.org/reference/archive/hegel/help/finpref.htm#m042): Mathematical truths are not thought to be known unless proved true. Their demonstrations are not, however, kept as parts of what they prove, but are only our subjective means towards knowing the latter. In philosophy, however, consequences always form part of the essence made manifest in them, which returns to itself in such expressions.
-
-See also earlier conceptions of proofs expressing the 'cause' of a theorem, where *reductio* proofs in particular were taken generally to fail. Such an idea goes back to Aristotle for whom a proper answer to the question "Why is the angle in a semicircle a right-angle?" gives its cause.
-
-* Paolo Mancosu, _Philosophy of Mathematics and Mathematical Practice in the Seventeenth Century_, OUP, 1996.
 
 [[!redirects constructive]]
 [[!redirects constructive mathematics]]
