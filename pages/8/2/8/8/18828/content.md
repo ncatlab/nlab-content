@@ -448,7 +448,7 @@ for the original Lagrangian field theory, and $\mathbf{L}'$ the corresponding _g
 
 What we call a _[[gauge fixing Lagrangian density]]_ $\mathbf{L}_{gf}$ in def. \ref{GaugeFixingLagrangianDensity} is traditionally called a _[[gauge fixing fermion]]_ and denoted by "$\psi$" ([Henneaux 90, section 8.3, 8.4](BRST+complex#Henneaux90)).
 
-Here "fermion" is meant as a reference to the fact that the cohomological degree $deg(L_{gf}) = -1$, which is reminiscent of the odd [[supergeometry|super-degree]] of [[fermion]] fields such as the [[Dirac field]] (example \ref{DiracFieldBundle}); see at _[[signs in supergeometry]]_ the section _[The super odd sign rule](signs+in+ supergeometry#SuperOddConvention)_. 
+Here "fermion" is meant as a reference to the fact that the cohomological degree $deg(L_{gf}) = -1$, which is reminiscent of the odd [[supergeometry|super-degree]] of [[fermion]] fields such as the [[Dirac field]] (example \ref{DiracFieldBundle}); see at _[[signs in supergeometry]]_ the section _[The super odd sign rule](signs+in+supergeometry#SuperOddConvention)_. 
 
 =--
 
