@@ -27,7 +27,7 @@
 
 ## Idea
 
-A _Bishop set_ is a notion of _[[set]]_ in [[constructive mathematics]].
+A _Bishop set_ is a notion of _[[set]]_ in [[constructive mathematics]], commonly used in [[Bishop's constructive mathematics]].
 
 In ([Bishop](#Bishop)) the notion of _[[set]]_ is specified by stating that a set has to be given by a description of how to build [[elements]] of this set and by giving a binary [[relation]] of [[equality]], which has to be an [[equivalence relation]]. 
 
