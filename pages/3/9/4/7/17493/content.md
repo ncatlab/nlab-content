@@ -213,7 +213,7 @@ About the Mahlo level: this also corresponds to inductive-recursive definitions 
 
 ### Explicit mathematics systems
 
-* EM$_0$ is basic explicit mathematics with elementary comprehension
+* EM$_0$ is basic [[explicit mathematics]] with elementary comprehension
 * JR is the join rule, J is the join axioms
 * T$_0$ is EM$_0$+J+IG, where IG is inductive generation
 
