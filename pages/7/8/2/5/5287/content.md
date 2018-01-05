@@ -28,10 +28,47 @@ For the relation between the two see _[[relation between BV and BD]]_.
 ## In perturbative quantum field theory
  {#InPerturbativeQuantumFieldTheory}
 
-Traditionally the BV-operator in [[perturbative quantum field theory]] was motivated via [[path integral]]-heuristics. In ([Fredenhagen-Rejzner 11b](#FredenhagenRejzner11b), [Rejzner 11](#Rejzner11)) a rigorous derivation in [[causal perturbation theory]] was found.
+Traditionally the BV-operator in [[perturbative quantum field theory]] was motivated via [[path integral]]-heuristics. For finite-dimensional spaces this may be made precise. This we discuss in:
 
-* [In causal perturbation theory](#InCausalPerturbationTheory)
+* _[In finite-dimensional toy path integrals](#ForFiniteDimensionalToyPathIntegrals)_
 
+A rigorous derivation applicable to [[relativistic field theory|relativistic]] [[perturbative quantum field theory]] exists in [[causal perturbation theory]]/[[perturbative AQFT]] ([Fredenhagen-Rejzner 11b](#FredenhagenRejzner11b), [Rejzner 11](#Rejzner11)). This we discuss in:
+
+* _[In causal perturbation theory](#InCausalPerturbationTheory)_
+
+
+### For finite-dimensional toy path integrals
+ {#ForFiniteDimensionalToyPathIntegrals}
+
+If $X$ is a [[finite number|finite]] [[dimension|dimensional]] [[closed manifold|closed]] [[orientation|oriented]] [[smooth manifold]], then [[integration of differential forms]] of top degree over $X$ may be identified with sending such differential forms to their [[image]] in the [[de Rham cohomology]] of $X$.
+
+This may be slightly reformulated: Fixing a [[volume form]] $\mu$ on $X$ it induces by contraction with [[vector fields]] degreewise a [[linear isomorphism]] 
+
+$$
+  \mu \;\colon\;
+  \Gamma_X(\wedge^n T^\ast X)
+   \overset{\simeq}{\longrightarrow}
+  \Gamma_X(\wedge^{dim(X)-n} T X)
+$$
+
+between the spaces of [[differential n-forms]] on $X$ and the space of [[multivector fields]] on $X$ of degree $n-dim(X)$. Under this isomorphism the [[de Rham differential]] induces a differential on [[multivector fields]]:
+
+$$
+  \Delta_{BV}
+  \;\coloneqq\;
+  \mu \circ d_{dR} \circ \mu^{-1}
+$$
+
+This $\Delta_{BV}$ is the _BV-operator_ in this simple situation. 
+
+The above statement about [[integration]] now translates into saying that for $f$ any [[smooth function]] on $X$, then its [[integration of differential forms]] $\int f \mu$ may be identified with the [[image]] of $f$ in the [[chain homology]] of the BV-operator $\Delta_{BV}$.
+
+If one thinks of $X$ as a space of [[field configurations]] and of  $f = \exp(i \hbar S)$ as an exponentiated [[action functional]], the one may think of this integral $\int \exp(i \hbar S) \mu$ as the finite-dimensional toy version of a [[path integral]]. 
+
+While this is in general not defined in the actual non-finite dimensional situations in [[field theory]], the above re-formulation in terms of the [[chain homology]] of a BV-operator does make sense whenever an appropriate kind of differential is given. One may then try to axiomatize which chain complexes qualify as BV-complex and try to interpret their chain homology as computing perturbative [[path integrals]].
+
+For more on this perspective see at _[[BV-BRST formalism]]_ the section _[Quantum BV as homological (path-)integration](BV-BRST+formalism#HomologicalIntegration)_
+ 
 ### In causal perturbation theory
   {#InCausalPerturbationTheory}
 
