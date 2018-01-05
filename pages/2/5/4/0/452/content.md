@@ -172,7 +172,7 @@ $$\delta \sigma = a+b-a +b $$
 
 makes sense with $\sigma$ a generator of a free crossed module; in the usual abelian chain theory we can write only $\partial \sigma =2b$, thus losing information. 
 
-Whitehad's proof of this theorem used knot theory and transversality. The theorem is also a consequence of the $2$-dimensional Seifert-van Kampen Theorem, proved by Brown and Higgins, which states that the functor
+Whitehead's proof of this theorem used knot theory and transversality. The theorem is also a consequence of the $2$-dimensional Seifert-van Kampen Theorem, proved by Brown and Higgins, which states that the functor
  
 $\Pi_2$: (pairs of pointed spaces) $\to$ (crossed modules) 
 
