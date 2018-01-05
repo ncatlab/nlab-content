@@ -23,7 +23,7 @@ The generalization of a $G$-[[principal ∞-bundle]] over an [[∞-group]] $G$ a
 
 ## Definition
 
-For $\mathbf{H}$ an [[(∞,1)-topos]] and $\mathbf{G}_\bullet \in Grp_\infty(\mathbf{H})$ a [[groupoid object in an (∞,1)-category]], a **$\mathcal{G}_\bullet$-principal $\infty$-bundle** over $X$ is
+For $\mathbf{H}$ an [[(∞,1)-topos]] and $\mathcal{G}_\bullet \in Grp_\infty(\mathbf{H})$ a [[groupoid object in an (∞,1)-category]], a **$\mathcal{G}_\bullet$-principal $\infty$-bundle** over $X$ is
 
 * a morphism $P \to X$
 
