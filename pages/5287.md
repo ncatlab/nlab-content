@@ -26,6 +26,16 @@ In [[higher algebra]], under the identification of a [[BV-algebra]] with the [[c
 For the relation between the two see _[[relation between BV and BD]]_.
 
 ## In perturbative quantum field theory
+ {#InPerturbativeQuantumFieldTheory}
+
+Traditionally the BV-operator in [[perturbative quantum field theory]] was motivated via [[path integral]]-heuristics. In ([Fredenhagen-Rejzner 11b](#FredenhagenRejzner11b), [Rejzner 11](#Rejzner11)) a rigorous derivation in [[causal perturbation theory]] was found.
+
+* [In causal perturbation theory](#InCausalPerturbationTheory)
+
+### In causal perturbation theory
+  {#InCausalPerturbationTheory}
+
+Recall the following context
 
 Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]] admitting a [[gauge fixing]], and let $\mathbf{L}' - \mathbf{L}'_{BRST}$ be its BV-BRST [[Lagrangian density]] after [[gauge fixing]] ([this def.](A+first+idea+of+quantum+field+theory#GaugeFixingLagrangianDensity)), so that the gauge-fixed [[local BRST complex|local BV-BRST differential]] is given by the [[local antibracket]] as
 
@@ -38,6 +48,7 @@ $$
 The corresponding global BV-BRST differential on [[regular polynomial observables]] is ([this def.](A+first+idea+of+quantum+field+theory#ComplexBVBRSTGlobal))
 
 $$
+  \label{GaugeFixedGlobalBVBRSTDifferentialRecalled}
   \left\{ -S' + S'_{BRST} \;,\; -\right\}
   \;\coloneqq\;
   \left\{ -\tau_\Sigma\mathbf{L}'(x) + \tau_\Sigma\mathbf{L}'_{BRST}(x), - \right\} 
@@ -102,6 +113,7 @@ $$
 Since the [[Feynman propagator]] is symmetric ([this prop.](A+first+idea+of+quantum+field+theory#SymmetricFeynmanPropagator)), the latter [[time ordered product]] on [[regular polynomial observables]] is [[isomorphism|isomorphic]] (via [this prop.](star+product#SymmetricContribution)) to the pointwise product, via
 
 $$
+  \label{RecallIsomorphsimTimeOrdering}
   \mathcal{T}A
   \;\coloneqq\;
   \exp\left(
@@ -122,9 +134,37 @@ $$
   \mathcal{T}( \mathcal{T}^{-1}A_1 \cdot \mathcal{T}^{-1}A_2 )
 $$
 
-([this prop.](time-ordered product#IsomorphismOnRegularPolynomialObservablesTimeOrderedandPointwise)).
+([this prop.](time-ordered+product#IsomorphismOnRegularPolynomialObservablesTimeOrderedandPointwise)).
 
-The _BV-operator_ $\Delta$ on [[regular polynomial observables]] is, up to a prefactor, the difference between the gauge-fixed [[BV-differential]] $s'$ from above with its transformation under this isomorphism:
+
++-- {: .num_defn #ForGaugeFixedFreeLagrangianFieldTheoryBVOperator}
+###### Definition
+**([[BV-operator]] for [[gauge fixing|gauge fixed]] [[free field theory|free]] [[Lagrangian field theory]])**
+
+Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]]
+with [[local BV-BRST complex]] supported on the BV-BRST-extended graded [[field bundle]] $T^\ast_{\Sigma,inf}( E \times_\Sigma \mathcal{G}[1] \times_[\Sigma] A \times_\Sigma A[-1] )$, and which admits [[gauge fixing]] with corresponding gauge-fixed global [[BV-BRST differential]] on graded [[regular polynomial observables]]
+
+$$
+  \{-S' + S'_{BRST}, -\}
+  \;\colon\;
+  PolyObs(T^\ast_{\Sigma,inf}( E \times_\Sigma \mathcal{G}[1] \times_[\Sigma] A \times_\Sigma A[-1] ))_{reg}[ [\hbar] ]
+  \longrightarrow
+  PolyObs(T^\ast_{\Sigma,inf}( E \times_\Sigma \mathcal{G}[1] \times_[\Sigma] A \times_\Sigma A[-1] ))_{reg}[ [\hbar] ]
+$$ 
+
+([this def.](A+first+idea+of+quantum+field+theory#GaugeFixingLagrangianDensity)).
+
+Then the corresponding _[[BV-operator]]_ 
+
+$$
+  \Delta_{BV}
+  \;\colon\;
+  PolyObs(T^\ast_{\Sigma,inf}( E \times_\Sigma \mathcal{G}[1] \times_[\Sigma] A \times_\Sigma A[-1] ))_{reg}[ [\hbar] ]
+  \longrightarrow
+  PolyObs(T^\ast_{\Sigma,inf}( E \times_\Sigma \mathcal{G}[1] \times_[\Sigma] A \times_\Sigma A[-1] ))_{reg}[ [\hbar] ]
+$$ 
+
+on [[regular polynomial observables]] is, up to a prefactor of $i \hbar$, the difference between the free component $\{-S',-\}$ of the gauge fixed global BV differential its [[conjugation]] with the [[time-ordered product|time-ordering]] [[isomorphism]] (eq:RecallIsomorphsimTimeOrdering)
 
 $$
   i \hbar \Delta 
@@ -137,19 +177,31 @@ $$
   \,.
 $$
 
-Assume that all [[field bundles]] are [[trivial vector bundles]], then 
-
-$$
-  \Delta 
-  \;=\;
-  \int \pm \frac{\delta}{\delta \Phi^a(x)} \frac{\delta}{\delta \Phi^{\ddagger}_a(y)}
-$$
+=--
 
 ([Fredenhagen-Rejzner 11](#FredenhagenRejzner11))
 
-To see this:
++-- {: .num_prop }
+###### Proposition
 
-By definition $\mathbf{L}'$ is independent of antifields, so that 
+If the [[field bundles]] of all [[field (physics)|fields]], [[ghost fields]] and [[auxiliary fields]] are [[trivial vector bundles]], with field/ghost-field/auxiliary-field coordinates collectively denoted $(\phi^A)$ then 
+the [[BV-operator]] $\Delta_{BV}$ from prop. \ref{ForGaugeFixedFreeLagrangianFieldTheoryBVOperator} is given explicitly by
+
+$$
+  \Delta_{BV}
+  \;=\;
+  \underset{a}{\sum} (-1)^{deg(\Phi^A)}
+  \underset{\Sigma}{\int} 
+    \frac{\delta}{\delta \Phi^A(x)} \frac{\delta}{\delta \Phi^{\ddagger}_A(y)}
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+
+By [this example](A+first+idea+of+quantum+field+theory#BVDifferentialGlobal) the global BV-differential is
 
 $$
   \begin{aligned}
@@ -175,7 +227,7 @@ $$
   \end{aligned}
 $$
 
-Hence 
+With this we compute as follows:
 
 $$
   \label{AAA}
@@ -233,11 +285,13 @@ $$
 
 Here under the brace we used that the [[Feynman propagator]] is $+i$ times a [[Green function]] for the [[Klein-Gordon equation]] ([this cor.](A+first+idea+of+quantum+field+theory#GreenFunctionFeynmanPropagator))
 
+=--
+
 ## References
 
 The understanding of the BV-operator in the rigorous formulation [[perturbative quantum field theory]] via [[causal perturbation theory]]/[[perturbative AQFT]] is due to 
 
-* {#FredenhagenRejzner11} [[Klaus Fredenhagen]], [[Katarzyna Rejzner]], _Batalin-Vilkovisky formalism in perturbative algebraic quantum field theory_, Commun. Math. Phys. (2013) 317: 697 ([arXiv:1110.5232](https://arxiv.org/abs/1110.5232), [doi:10.1007/s00220-012-1601-1](https://doi.org/10.1007/s00220-012-1601-1))
+* {#FredenhagenRejzner11b} [[Klaus Fredenhagen]], [[Katarzyna Rejzner]], _Batalin-Vilkovisky formalism in perturbative algebraic quantum field theory_, Commun. Math. Phys. (2013) 317: 697 ([arXiv:1110.5232](https://arxiv.org/abs/1110.5232), [doi:10.1007/s00220-012-1601-1](https://doi.org/10.1007/s00220-012-1601-1))
 
 * {#Rejzner11} [[Katarzyna Rejzner]], section 5.1.2 of _Batalin-Vilkovisky formalism in locally covariant field theory_ ([arXiv:1111.5130](https://arxiv.org/abs/1111.5130))
 
