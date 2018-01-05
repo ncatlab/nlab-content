@@ -63,7 +63,7 @@ As such this is the [[local Lagrangian]] of abelian [[Chern-Simons theory]] with
 This universal class is suitably equivariant under the action of the integral T-duality group $O(n,n,\mathbb{Z})$, so that one may consider ([Nikolaus 14](#Nikolaus14))
 
 $$
-  \langle -\cup -\rangle \;\colon\;\mathbf{B} T \times \tilde T // O(n,n,\mathbb{Z}) \longrightarrow \mathbf{B}^3 U(1)
+  \langle -\cup -\rangle \;\colon\;\mathbf{B} T \times \mathbf{B} \tilde T // O(n,n,\mathbb{Z}) \longrightarrow \mathbf{B}^3 U(1)
   \,.
 $$
 
