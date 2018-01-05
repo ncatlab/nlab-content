@@ -3088,7 +3088,28 @@ for this (global) _[[BV-BRST differential]]_.
 The resulting [[chain complex]] is called the (global) _[[BV-BRST complex]]_ of the given [[Lagrangian field theory]] with the chosen 
 [[gauge parameters]].
 
-Explicitly we have:
+=--
+
++-- {: .proof}
+###### Proof
+
+We need to check that the global [[antibracket]] (eq:LocalAntibracketTransgressed) is well defined: 
+
+By the last item of prop. \ref{BasicPropertiesOfTheLocalAntibracket} the horizontally exact horizontal differential forms
+form a "[[Lie ideal]]" for the [[local antibracket]]. With this the proof that the transgressed bracket is well defined
+is the same as the proof that the global [[Poisson bracket]] on the [[Hamiltonian differential form|Hamiltonian]]
+[[local observables]] is well defined, def. \ref{PoissonBracketOnHamiltonianLocalObservables}.
+
+=--
+
++-- {: .num_example #BVDifferentialGlobal}
+###### Example
+**(global BV-differential in components)**
+
+In the situation of def. \ref{ComplexBVBRSTGlobal}, 
+assume that the [[field bundles]] of all [[field (physics)|fields]], [[ghost fields]] and [[auxiliary fields]] are [[trivial vector bundles]], with field/ghost-field/auxiliary-field coordinates on their [[fiber product]] bundle collectively denoted $(\phi^A)$.
+
+Then the first summand of the global BV-BRST differential (def. \ref{ComplexBVBRSTGlobal}) is given by
 
 $$
   \begin{aligned}
@@ -3127,17 +3148,19 @@ is the [[differential operator]] corresponding to the [[Euler-Lagrange equation|
 +-- {: .proof}
 ###### Proof
 
-We need to check that the global [[antibracket]] (eq:LocalAntibracketTransgressed) is well defined: 
+By definition, the part $\mathbf{L}'$ of the gauge fields Lagrangian density is independent of [[antifields]], so that the [[local antibracket]] with $\mathbf{L}'$ reduces to
 
-By the last item of prop. \ref{BasicPropertiesOfTheLocalAntibracket} the horizontally exact horizontal differential forms
-form a "[[Lie ideal]]" for the [[local antibracket]]. With this the proof that the transgressed bracket is well defined
-is the same as the proof that the global [[Poisson bracket]] on the [[Hamiltonian differential form|Hamiltonian]]
-[[local observables]] is well defined, def. \ref{PoissonBracketOnHamiltonianLocalObservables}.
+$$
+  \left\{ -\mathbf{L}',-\right\}
+  \;=\;
+  -
+  \frac{\overset{\leftarrow}{\delta}_{EL} \mathbf{L}'}{\delta \phi^A}
+  \frac{\delta}{\delta \phi^{\ddagger}_A}
+$$
+
+With this the claim follows directly.
 
 =--
-
-
-
 
 $\,$
 
