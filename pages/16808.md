@@ -52,7 +52,22 @@ We can allow $X$ to be a [[pseudometric space]], a [[Lawvere metric space]], or 
 
 * [[Simon Henry]], *Localic Metric spaces and the localic Gelfand duality*, [arXiv](http://arxiv.org/abs/1411.0898)
 
-* [[Erik Palmgren]], *A constructive and functorial embedding of locally compact metric spaces into locales*
-{#Palmgren}
+* [[Erik Palmgren]], _Continuity on the real line and in formal spaces_. (2003). Revised version of U.U.D.M. Report 2003:32. [link](http://www2.math.uu.se/~palmgren/crealform-rvd2.pdf)
+ {#Palmgren03}
 
-* Kawai, Tatsuji. *Localic completion of uniform spaces*. Log. Methods Comput. Sci. 13 2017), no. 3, Paper No. 22, 39pp.  [arxiv](https://arxiv.org/abs/1703.02255)
+* [[Erik Palmgren]], _From intuitionistic to point-free topology_ (2005) U.U.D.M. Report 2005:47. [link](http://www2.math.uu.se/~palmgren/homotopy.pdf)
+ {#Palmgren05}
+
+* [[Erik Palmgren]], _A constructive and functorial embedding of locally compact metric spaces into locales_. Topology and its Applications, 154
+(2007), 1854--1880.
+ {#Palmgren}
+
+* [[Erik Palmgren]], _Resolution of the uniform lower bound problem in constructive analysis_, [link](http://onlinelibrary.wiley.com/doi/10.1002/malq.200710034/full)
+
+* [[Bas Spitters]], _Locatedness and overt sublocales_, doi:10.1016/j.apal.2010.07.002 APAL
+
+* [[Thierry Coquand]], [[Erik Palmgren]], [[Bas Spitters]], _Metric complements of overt closed sets_, Mathematical Logic Quarterly, 57(4), 373-378, 2011. [link](http://dx.doi.org/10.1002/malq.201010011)
+
+* Tatsuji Kawai, _A point-free characterisation of Bishop locally compact metric spaces_, [link](http://www.logicandanalysis.com/index.php/jla/article/viewFile/239/120)
+
+* Tatsuji Kawai. *Localic completion of uniform spaces*. Log. Methods Comput. Sci. 13 2017), no. 3, Paper No. 22, 39pp.  [arxiv](https://arxiv.org/abs/1703.02255)
