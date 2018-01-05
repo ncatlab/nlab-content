@@ -64,11 +64,13 @@ Thus, working with "sets" in tripos logic (defined there as [[partial equivalenc
 
 Bishop rejected the usual notion of pointwise [[continuous function]] (and more generally [[topological spaces]]) as inadequate for analysis and instead defined a "continuous function" (from $\mathbb{R}$ to $\mathbb{R}$) to be "locally uniformly continuous".  However, there is some confusion about this definition diagnosed by [Waaldijk](#Waaldijk).  In particular, the two books _FCA_ and _CA_ use different definitions, which can be reconciled only using the [[fan theorem]] (which Bishop rejected).  There is a similar problem with the notion of [[locally compact space]].  In fact, Waaldijk showed more strongly that if there is *any* notion of "kontinuous" function between subsets of $\mathbb{R}$ which is (1) closed under composition, (2) specializes on closed intervals to uniformly continuous functions, and (3) includes $f(x)= \frac{1}{x}$, then the fan theorem holds.  This seems quite damaging to the prospect of a treatment of analysis as Bishop envisioned it.
 
-A more modern perspective is to use [[locale]] theory (or the predicative variant [[formal topologies]]) instead.  [Palmgren](#Palmgren03) shows that the continuous endomaps of the [[locale of real numbers]] $\mathbb{R}$ coincide with Bishop's locally uniformly continuous functions, whereas for spaces other than $\mathbb{R}$ itself locale maps are better-behaved than Bishops': in particular, they are of course closed under composition, and they contain inversion (suitably interpreted).  Similarly, locally compact spaces and measure theory are arguably better done with locales than spaces.
+A more modern perspective is to use [[locale]] theory (or the predicative variant [[formal topologies]]) instead.  [Palmgren](#Palmgren03) shows that the continuous endomaps of the [[locale of real numbers]] $\mathbb{R}$ coincide with Bishop's locally uniformly continuous functions, whereas for spaces other than $\mathbb{R}$ itself locale maps are better-behaved than Bishops': in particular, they are of course closed under composition, and they contain inversion (suitably interpreted).  Similarly, locally compact spaces and measure theory are arguably better done with locales than spaces.  In particular, see [[localic completion]] and the references below.
 
 Alternatively, one can consider sheaves over the localic unit interval to model the [[fan theorem]]. This approach is pushed even further in [[continuous truth]].
 
 ## References
+
+Books about or using Bishop's constructive mathematics include:
 
 * [[Errett Bishop]], _[[Foundations of Constructive Analysis]]_ (1967), the work which made him famous in the foundations of mathematics circles;
 
@@ -82,10 +84,14 @@ Alternatively, one can consider sheaves over the localic unit interval to model 
 
 * [[Douglas Bridges]] and [[Fred Richman]], _Varieties of constructive mathematics_ (1987)
 
+Other papers mentioned above:
+
 * {#Waaldijk} [[Frank Waaldijk]], _On the foundations of constructive mathematics - especially in relation to the theory of continuous functions_  (2001).  [web site](http://www.fwaaldijk.nl/mathematics.html)
 
 * [[Fred Richman]] (2000). [Constructive mathematics without choice](http://math.fau.edu/richman/HTML/nsf.htm).
  {#Richman00}
+
+For more about the localic approach, see:
 
 * [[Erik Palmgren]], _Continuity on the real line and in formal spaces_. (2003). Revised version of U.U.D.M. Report 2003:32. [link](http://www2.math.uu.se/~palmgren/crealform-rvd2.pdf)
  {#Palmgren03}
@@ -93,6 +99,18 @@ Alternatively, one can consider sheaves over the localic unit interval to model 
 * [[Erik Palmgren]], _From intuitionistic to point-free topology_ (2005) U.U.D.M. Report 2005:47. [link](http://www2.math.uu.se/~palmgren/homotopy.pdf)
  {#Palmgren05}
 
+* [[Erik Palmgren]], _A constructive and functorial embedding of locally compact metric spaces into locales_. Topology and its Applications, 154
+(2007), 1854--1880.
+
+* [[Erik Palmgren]], _Resolution of the uniform lower bound problem in constructive analysis_, [link](http://onlinelibrary.wiley.com/doi/10.1002/malq.200710034/full)
+
+* [[Bas Spitters]], _Locatedness and overt sublocales_, doi:10.1016/j.apal.2010.07.002 APAL
+
+* [[Thierry Coquand]], [[Erik Palmgren]], [[Bas Spitters]], _Metric complements of overt closed sets_, Mathematical Logic Quarterly, 57(4), 373-378, 2011.  [link](http://dx.doi.org/10.1002/malq.201010011)
+
+* T Kawai, _A point-free characterisation of Bishop locally compact metric spaces_, [link](http://www.logicandanalysis.com/index.php/jla/article/viewFile/239/120)
+
+* T Kawai, _Localic completion of uniform spaces_, [arxiv](https://arxiv.org/pdf/1703.02255)
 
 [[!redirects BCM]]
 [[!redirects BISH]]
