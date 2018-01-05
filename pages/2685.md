@@ -8,6 +8,13 @@
 
 * [[path integral]]
 
+* [[Feynman propagator]]
+
+* [[Feynman diagram]]
+
+* [[Feynman perturbation series]]
+
+* [[Feynman slash notation]]
 
 category: people
 
