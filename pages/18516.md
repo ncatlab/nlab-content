@@ -14,6 +14,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -301,6 +302,7 @@ $$
 
 * {#HollandRuan01} [[Stefan Hollands]], Weihua Ruan, _The State Space of Perturbative Quantum Field Theory in Curved Spacetimes_, Annales Henri Poincare 3 (2002) 635-657 ([arXiv:gr-qc/0108032](https://arxiv.org/abs/gr-qc/0108032))
 
+* {#BrunettiFredenhagenRibeiro12} [[Romeo Brunetti]], [[Klaus Fredenhagen]], [[Pedro Lauridsen Ribeiro]], section 4.1 of _Algebraic Structure of Classical Field Theory: Kinematics and Linearized Dynamics for Real Scalar Fields_ ([arXiv:1209.2148](https://arxiv.org/abs/1209.2148))
 
 ### Review
 
