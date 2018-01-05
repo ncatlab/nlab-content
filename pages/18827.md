@@ -3012,6 +3012,7 @@ $\,$
 **global [[BV-BRST complex]]**
  {#BVBRSTComplexGlobal}
 
+Finally we may apply [[transgression of variational differential forms]] to turn the [[local BV-BRST complex]] on smooth functions on the [[jet bundle]] into a global [[BV-BRST complex]] on graded [[local observables]] on the graded [[space of field histories]].
 
 +-- {: .num_defn #ComplexBVBRSTGlobal}
 ###### Definition
