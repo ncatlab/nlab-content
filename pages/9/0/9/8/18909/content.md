@@ -1,3 +1,15 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Constructivism, Realizability, Computability
++-- {: .hide}
+[[!include constructivism - contents]]
+=--
+=--
+=--
+
+
 # Bishop's constructive mathematics
 
 * table of contents
@@ -67,8 +79,8 @@ Summarising, Bishop studied pointwise analysis, but constructive pointwise analy
 
 * [[Douglas Bridges]] and [[Luminiţa Vîţă]], _Apartness and Uniformity: A Constructive Development_ (2011)
 
-* [[Frank Waaldijk]], _On the foundations of constructive mathematics - especially in relation to the theory of continuous functions_  (2001).  [web site](http://www.fwaaldijk.nl/mathematics.html)
- {#Waaldijk}
+* {#Waaldijk} [[Frank Waaldijk]], _On the foundations of constructive mathematics - especially in relation to the theory of continuous functions_  (2001).  [web site](http://www.fwaaldijk.nl/mathematics.html)
+ 
 
 [[!redirects BCM]]
 [[!redirects BISH]]
