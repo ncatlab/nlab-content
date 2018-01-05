@@ -98,8 +98,10 @@ of the local polynomial observables into the [[microcausal polynomial observable
 
 * {#FredenhagenRejzner12} [[Klaus Fredenhagen]], [[Katarzyna Rejzner]], _Perturbative algebraic quantum field theory_, In _Mathematical Aspects of Quantum Field Theories_, Springer 2016 ([arXiv:1208.1428](https://arxiv.org/abs/1208.1428))
 
-
 * {#Rejzner16} [[Katarzyna Rejzner]], def. 3.14 in _[[Perturbative Algebraic Quantum Field Theory]]_, Mathematical Physics Studies, Springer 2016 ([web](https://link.springer.com/book/10.1007%2F978-3-319-25901-7))
+
+
+* {#Duetsch18} [[Michael Dütsch]], def. 1.2 in _[[From classical field theory to perturbative quantum field theory]]_, 2018
 
 
 [[!redirects local observables]]
