@@ -503,9 +503,9 @@ constitutes an [[isomorphism]] of star product algebras (prop. \ref{AssociativeA
 $$
   \exp\left(\hbar\tfrac{1}{2}\hbar\alpha \right)
    \;\colon\;
-  (C^\infty(V)[ [\hbar] ], \star_{\pi + \alpha})
+  (C^\infty(V)[ [\hbar] ], \star_{\pi})
     \overset{\simeq}{\longrightarrow}
-  (C^\infty(V))[ [\hbar] ], \star_{\pi })
+  (C^\infty(V))[ [\hbar] ], \star_{\pi + \alpha})
   \,,
 $$
 
@@ -523,22 +523,22 @@ We need to show that
 
 $$
   \array{
-    (C^\infty(V)[ [\hbar] ] \otimes  (C^\infty(V)[ [\hbar] ]
+    C^\infty(V)[ [\hbar] ] \otimes  C^\infty(V)[ [\hbar] ]
     &
      \overset{ 
        \exp\left( \tfrac{1}{2}\hbar \alpha \right)    
        \otimes
        \exp\left( \tfrac{1}{2}\hbar \alpha \right)    
      }{\longrightarrow}&
-    (C^\infty(V)[ [\hbar] ] \otimes  (C^\infty(V)[ [\hbar] ]
+    C^\infty(V)[ [\hbar] ] \otimes  C^\infty(V)[ [\hbar] ]
      \\
-     {}^{\mathllap{\star_{\pi + \alpha}}}\downarrow 
+     {}^{\mathllap{\star_{\pi}}}\downarrow 
        && 
-    \downarrow^{\mathrlap{\star_{\pi}}}
+    \downarrow^{\mathrlap{\star_{\pi + \alpha}}}
     \\
-    (C^\infty(V)[ [\hbar] ]
+    C^\infty(V)[ [\hbar] ]
       &\underset{\exp\left( \tfrac{1}{2} \alpha \right) }{\longrightarrow}&
-    (C^\infty(V)[ [\hbar] ]
+    C^\infty(V)[ [\hbar] ]
   }
 $$
 
