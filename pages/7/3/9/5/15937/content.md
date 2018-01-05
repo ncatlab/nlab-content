@@ -33,3 +33,5 @@ _Constructive reverse mathematics_ refers to a similar program initiated by Ishi
 * Wikipedia, _[Reverse mathematics](http://en.wikipedia.org/wiki/Reverse_mathematics)_
 
 * _Natural examples of Reverse Mathematics outside classical analysis?_, [MO discussion](http://mathoverflow.net/q/185941/381)
+
+[[!redirects constructive reverse mathematics]]
