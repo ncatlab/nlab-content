@@ -268,7 +268,9 @@ be a [[state on a star-algebra|state]] on regular observables which is [[quasi-f
 
 $$
   \array{
-    \mathcal{F}_{reg} &\overset{\langle -\rangle}{\longrightarrow}& \mathcal{C}
+    \mathcal{F}_{reg} 
+      &\overset{\langle -\rangle}{\longrightarrow}& 
+    \mathbb{C}
     \\
     \downarrow & \nearrow_{\mathrlap{\exists ! \langle -\rangle}}
     \\
@@ -310,7 +312,7 @@ $$
 
 * {#KhavkineMoretti14} [[Igor Khavkine]], [[Valter Moretti]], _Algebraic QFT in Curved Spacetime and quasifree Hadamard states: an introduction_, Chapter 5 in [[Romeo Brunetti]] et al. (eds.) _Advances in Algebraic Quantum Field Theory_, Springer, 2015 ([arXiv:1412.5945](https://arxiv.org/abs/1412.5945))
 
-* [[Katarzyna Rejzner]], section 4.4.1 of _Perturbative Algebraic Quantum Field Theory_, Mathematical Physics Studies, Springer 2016 ([pdf](https://link.springer.com/book/10.1007%2F978-3-319-25901-7))
+* [[Katarzyna Rejzner]], section 4.4.1 of _Perturbative Algebraic Quantum Field Theory_, Mathematical Physics Studies, Springer 2016 ([web](https://link.springer.com/book/10.1007%2F978-3-319-25901-7))
 
 * {#Duetsch18} [[Michael Dütsch]], def. 1.2 and equation (2.47) in _[[From classical field theory to perturbative quantum field theory]]_, 2018
 
