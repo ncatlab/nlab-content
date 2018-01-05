@@ -39,7 +39,7 @@ $$
   \,.
 $$
 
-One equivalently (with non-negligible but conventional chance of confusion of terminology) calls such $P \to G$ a $\mathbf{B}G$-**groupoid principal bundle.
+One equivalently (with non-negligible but conventional chance of confusion of terminology) calls such $P \to X$ a $\mathbf{B}G$-**groupoid principal bundle.
 
 So more generally, for $\mathcal{G}$ any groupoid object with collection $\mathcal{G}_0$ of [[object]]s, the $(\infty,1)$-pullbacks
 
@@ -62,7 +62,7 @@ are **groupoid principal bundles** .
 
 ###Lie groupoid principal bundles
 
-For $\mathbf{H}$ = $\infty LieGrpd$ and $G:=G_1 \Rightarrow G_0$ a [[Lie groupoid]], a $G$-prinipal bundle is locally of the form
+For $\mathbf{H}$ = $\infty LieGrpd$ and $G:=G_1 \Rightarrow G_0$ a [[Lie groupoid]], a $G$-principal bundle is locally of the form
 
 $$
   U_i \times \mathcal{G}_{x_i}
