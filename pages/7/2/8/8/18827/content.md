@@ -3118,18 +3118,18 @@ $$
     \int_\Sigma
     j^{\infty}\left(\mathbf{\Phi}\right)^\ast
     \left(
-      \frac{\overset{\leftarrow}{\delta}_{EL} L}{\delta \phi^a}
+      \frac{\overset{\leftarrow}{\delta}_{EL} L}{\delta \phi^A}
     \right)(x) 
-    \frac{\delta}{\delta \mathbf{\Phi}^\ddagger_a(x)} 
+    \frac{\delta}{\delta \mathbf{\Phi}^\ddagger_A(x)} 
     \,
     dvol_\Sigma(x)
     \\
     & =
     \underset{a}{\sum}
-      (-1)^{n_{\phi^a} + \sigma_{\phi^a}}
+      (-1)^{deg(\phi^A)}
     \int_\Sigma
-      (P_{a b}\mathbf{\Phi}^a)(x)
-      \frac{\delta}{\delta \mathbf{\Phi}^\ddagger_a(x)}
+      (P_{A B}\mathbf{\Phi}^A)(x)
+      \frac{\delta}{\delta \mathbf{\Phi}^\ddagger_A(x)}
     \,
     dvol_\Sigma(x)
   \end{aligned}
@@ -3141,7 +3141,7 @@ $$
   P \;\colon\; \Gamma_\Sigma(E) \longrightarrow \Gamma_\Sigma(E^\ast)
 $$
 
-is the [[differential operator]] corresponding to the [[Euler-Lagrange equation|Euler-Lagrange]] [[equations of motion]].
+is the [[differential operator]] (eq:DifferentialOperatorEulerLagrangeDerivative) from def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime}, corresponding to the [[Euler-Lagrange equation|Euler-Lagrange]] [[equations of motion]].
 
 =--
 
@@ -3153,12 +3153,16 @@ By definition, the part $\mathbf{L}'$ of the gauge fields Lagrangian density is 
 $$
   \left\{ -\mathbf{L}',-\right\}
   \;=\;
-  -
   \frac{\overset{\leftarrow}{\delta}_{EL} \mathbf{L}'}{\delta \phi^A}
   \frac{\delta}{\delta \phi^{\ddagger}_A}
 $$
 
-With this the claim follows directly.
+With this the claim follows directly from the definition of the global antibracket (def. \ref{ComplexBVBRSTGlobal}) and the [[Euler-Lagrange equations]] (eq:DifferentialOperatorEulerLagrangeDerivative)
+
+$$
+  (P \Phi)_A = j^\infty_\Sigma(\Phi)\left( \frac{\delta_{EL} L}{\delta \phi^A} \right)
+  \,.
+$$
 
 =--
 
