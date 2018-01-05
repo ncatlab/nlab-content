@@ -2358,8 +2358,9 @@ slice through the origin in $\mathbb{R}^{p,1}$, hence in the [[closed future con
 Under reversal of arguments the [[advanced and retarded causal propagators]] from prop. \ref{AdvancedRetardedPropagatorsForKleinGordonOnMinkowskiSpacetime} are related by
 
 $$
-\Delta_{\pm}(y-x) = \Delta_\mp(x-y)
-\,.
+  \label{AdvancedAndRetardedPropagatorTurnIntoEachOtherUnderSwitchingArguments}
+  \Delta_{\pm}(y-x) = \Delta_\mp(x-y)
+  \,.
 $$
 
 It follows that the [[causal propagator]] $\Delta \coloneqq \Delta_+ - \Delta_-$ is skew-symmetric in its arguments:
@@ -2919,6 +2920,7 @@ where
 1. $H$ is real and symmetric
 
    $$
+     \label{RealAndSymmetricH}
      (H(x,y))^\ast = H(x,y)
      \phantom{AA}
      \,,
@@ -3043,6 +3045,30 @@ $$
   \,.
 $$
 
+
+=--
+
+
+It follows immediately that:
+
++-- {: .num_prop #SymmetricFeynmanPropagator}
+###### Proposition
+**([[Feynman propagator]] is symmetric)
+
+The [[Feynman propagator]] $\Delta_F$ and anti-Feynman propagator $\Delta_{\overline{F}}$ (def. \ref{FeynmanPropagatorForKleinGordonEquationOnMinkowskiSpacetime}) are symmetric:
+
+$$
+  \Delta_F(x,y) = \Delta_F(y,x)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By equation (eq:AdvancedAndRetardedPropagatorTurnIntoEachOtherUnderSwitchingArguments) in cor. \ref{CausalPropagatorIsSkewSymmetric} we have that $\Delta_+ + \Delta_-$
+is symmetric, and equation (eq:RealAndSymmetricH) in prop. \ref{SkewSymmetricPartOfHadmrdPropagatorIsCausalPropagatorForKleinGordonEquationOnMinkowskiSpacetime} says that $H$ is symmetric. 
 
 =--
 
