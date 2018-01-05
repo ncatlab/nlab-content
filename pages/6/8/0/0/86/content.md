@@ -33,35 +33,13 @@
 
 ## Idea
 
-Given a local [[action functional]] 
+In [[physics]] and specifically in [[field theory]], the _BV-BRST formalism_ is a tool in [[homological algebra]], [[higher differential geometry]] and [[derived geometry]] to handle the [[intersection]]- and [[quotient]]-constructions that appear 
 
-$$
-  \exp(i S) : C \to U(1)
-$$
+1. in the construction of [[reduced phase space|reduced]] [[phase spaces]] of [[Lagrangian field theories]], in particular including [[gauge theories]]; ("Lagrangian BV")
 
-on some [[configuration space]] $C$, BRST-BV formalism provides a construction of a [[symplectic manifold|symplectic]] [[reduced phase space]] $P := (C_{\{d S = 0\}})_{red}$ suitable for [[quantization]] ([[deformation quantization]], [[geometric quantization]]) in the context of [[derived geometry|derived]] [[dg-geometry]].
+1. in [[symplectic reduction]] of [[phase spaces]] ("Hamiltonian BV")
 
-Notice that if $S$ is a <a href="http://ncatlab.org/nlab/show/action+functional#LocalActionFunctional">local action functional</a> (is the [[integral]] $S(\phi) = \int_X L(\phi, \dot \phi, \cdots)$ over a [[Lagrangian]] $L$  on the [[jet bundle]] of some bundle over [[spacetime]] $X$) then the [[covariant phase space]] $C_{\{d S = 0\}}$ (the [[critical locus]]) of $S$ is canonically equipped with [[presymplectic structure]]. The [[quotient]] of $C$ by the [[action]] of the flow of those [[vector field]]s on which the presymplectic form is degenerate -- the [[gauge transformation]]s of the action functional -- is the [[reduced phase space]] $C_{\{d S = 0\}}_{red}$ which is genuinely [[symplectic manifold|symplectic]], and whose [[deformation quantization]] or [[geometric quantization]] is the desired quantization of $S$.
-
-But $C_{\{d S = 0\}}_{red}$ may either not even exist as a suitable geometric space, and even if it does exist it is in generally intractable in practice. The BRST-BV construction guarantees the existence of a tractable presentation of $(C_{\{d S = 0\}})_{red}$ in the context of [[derived geometry|derived]] [[dg-geometry]]:
-
-it is constructed as the [[Isbell duality|formal dual]] of a graded-commutative [[dg-algebra]] called the _BRST-BV complex_ $C^\infty(P_{BV})$ , equipped with the structure of a differential-graded [[Poisson algebra]]
-
-$$
-  \{-,-\} : C^\infty(P_{BV}) \otimes C^\infty(P_{BV}) \to 
-   C^\infty(P_{BV})
-   \,.
-$$
-
-One distinguishes two somewhat different constructions 
-
-* **Lagrangian BV formalism** (or "field-antifield formalism") constructs the [[phase space]] starting from an [[action functional]] $S$ by restricting homologically to the locus where $d S = 0$ and then weakly dividing out [[gauge group]] actions;
-
-
-* **Hamiltonian BFV formalism** implements a homological version of [[symplectic reduction]].
-
-
-In either case  _BRST-BV_ complex $C^\infty(P^{BV})$ is a model in [[dg-geometry]] of a joint [[homotopy theory|homotopical]] [[quotient]] and [[intersection]], hence of an [[(∞,1)-colimit]] and [[(∞,1)-limit]], of  a [[space]] in [[higher geometry]]/[[derived geometry]], in the presence of or induced by [[Poisson structure]]: it is the formal dual to a restriction, up to homotopy, to the [[Euler-Lagrange equation]]s and to a quotient, up to homotopy, by the (higher) symmetries.
+In either case  _BRST-BV_ complex $C^\infty(P^{BV})$ is a model in [[dg-geometry]] of a joint [[homotopy intersection]] and [[homotopy quotient]], hence of an [[(∞,1)-colimit]] and [[(∞,1)-limit]], of  a [[space]] in [[higher differential geometry]]/[[derived geometry]].
 
 
 Accordingly, the BRST-BV complex is built from two main pieces:
@@ -73,11 +51,397 @@ Accordingly, the BRST-BV complex is built from two main pieces:
 
 
 
-## Hamiltonian BFV
- {#HamiltonianBV}
+## Lagrangian BV
+ {#LagrangianBV}
 
-### Homotopical Poisson reduction
-  {#PoissonReduction}
+### Classical BV as homological resolution of reduced phase space
+ {#ClassicalBVAsHomologicalResolutionOfReducedPhaseSpace}
+
+The _classical Lagrangian BV-BRST complex_ of a [[Lagrangian field theory]] is, under suitable conditions, a [[homological resolution]] of the [[homotopy intersection]] with the [[Euler-Lagrange equations|Euler-Lagrange]] [[equations of motion]] (this is the BV part) of the [[homotopy quotient]] by the [[infinitesimal symmetries of the Lagrangian]] (this is the BRST part), and hence a homological model of the [[reduced phase space]] of the Lagrangian field theory.
+
+A detailed introduction to the classical Lagrangian BV-BRST formalism is at 
+
+* _[[A first idea of quantum field theory]]_, chapter _[11. Reduced phase space](geometry+of+physics+--+A+first+idea+of+quantum+field+theory#ReducedPhaseSpace)
+
+### Quantum BV as homological (path-)integration
+ {#HomologicalIntegration}
+
+We discuss here the interpretation of the _quantum BV-complex_ as a homological implementation of [[integration]] thought of as [[path integral]]-[[quantization]] (in [[perturbative quantum field theory]]). 
+
+
+We indicate how on a finite dimensional smooth manifold the [[BV-algebra]] appearing in Lagrangian BV-formalism is the dual of the [[de Rham complex]] of [[configuration space]] in the presence of a [[volume form]] and how, by extention, this allows to interpret the BV-complex as a means for defining ([[path integral|path]]-)[[integration]] over general [[configuration spaces]] of [[field (physics)|fields]] by passing to BV-[[cochain cohomology]]. 
+
+(The interpretation of the BV-differential as the dual de Rham differential necessary for this is due to ([Witten 90](#Witten90)) ([Schwarz 92](#Schwarz92)). A particularly clear-sighted account of the general relation is in [Gwilliam 2013](#Gwilliam) ). 
+
+Further [below](#PoincareDualityOnHochschild) we discuss the generalization of these relation in terms of [[Poincaré duality]] on [[Hochschild cohomology|Hochschild (co)homology]].
+
+1. [The idea of path integral quantization](#IdeaOfPathIntegralQuantization)
+
+1. [Multivector fields dual to differential forms](#MultivectorFieldsDualToDifferentialForms)
+
+1. [The quantum master equation: the path integral measure is a closed form](#TheQuantumMasterEquationAsClosureOfIntegralMeasure)
+
+1. [Integration over manifolds by BV cohomology](#IntegrationOverManifoldsByBVCohomology)
+
+1. [BV-quantization](#BVQuantization)
+
+1. [Path integration and quantum observables by BV-cohomology](#PathIntegrationAndQuantumObservablesByBVCohomology)
+
+#### The idea of path integal quantization
+ {#IdeaOfPathIntegralQuantization}
+
+The [[path integral]] in [[quantum field theory]] is supposed to be the [[integral]] over a [[configuration space]] $X$ of [[field (physics)|fields]] $\phi$ using a [[measure]] $\mu_S$ which is thought of in the form
+
+$$
+  \mu_S(\phi) 
+    \coloneqq 
+  \exp\left(\frac{i}{\hbar} S\left(\phi\right)\right) \cdot \mu(\phi)
+  \;\;\;\;
+  \phi \in X
+  \,,
+$$
+
+for $\mu$ some other measure and $S : X \to \mathbb{R}$ the _[[action functional]]_ of the [[theory (physics)|theory]].
+
+For $f$ a [[smooth function]] on the space of [[field (physics)|fields]] its value as an [[observable]] of the system is supposed to be what would be the [[expectation value]]
+
+$$
+  \langle f \rangle_S
+  =
+  \frac{\int_{\phi \in Fields} f(\phi) \cdot \mu(\phi)}{\int_{\phi \in Fields} \mu(\phi) }
+$$
+
+if the measure existed. Of course this does not make sense in terms of the usual notion of [[integration]] against [[measures]] since such measures do not exists except in the most simplest situation. But there is a [[cohomology|cohomological]] notion of integration where instead of actually performing an integral, we identify its value, if it exists, with a cohomology class and generally interpret that cohomology class as the expectation value, even if an actual integral against a measure does not exist. This is what BV formalism achieves, which we discuss after some preliminaries below in _[Integration over manifolds by BV cohomology](#IntegrationOverManifoldsByBVCohomology)_.
+
+#### Multivector fields dual to differential forms
+ {#MultivectorFieldsDualToDifferentialForms}
+
+If one thinks of $X$ as an ordinary $(d \lt \infty)$-[[dimension|dimensional]] [[smooth manifold]], then $\mu_S$ will be given by a [[volume form]], $\mu_S \in \Omega^d(X)$. By contraction of [[multivector fields]] with [[differential forms]], every choice of volume form on $X$ induces an [[isomorphism]] between [[differential forms]] and [[polyvector fields]]
+
+$$
+  \mu 
+    \colon 
+  \Omega^\bullet(X) 
+    \stackrel{\simeq}{\longrightarrow}
+  \wedge^{-\bullet} \Gamma(T X)
+  \,,
+$$
+
+which is usefully thought of as reversing degrees. Under this isomorphism the [[deRham differential]] maps to a [[divergence]] operator, the _[[BV-operator]]_, conventionally denoted
+
+$$
+  \Delta
+  \;\coloneqq\;
+  \mu \circ d_{dR} \circ \mu^{-1}
+  
+$$
+
+which interacts naturally with the canonical bracket on multivector fields: the [[Schouten bracket]]. (See at _[[polyvector field]]_ for more details.)
+
+
++-- {: .num_defn #TheDualBVComplexOfTheDeRhamComplexOnAManifolds}
+###### Definition
+
+For $X$ an [[orientation|oriented]] [[smooth manifold]] of [[dimension]] $n \in \mathbb{N}$ and for $\mu \in \Omega^n(X)$a [[volume form]], write
+
+$$
+  BV(X, \mu)
+  \coloneqq
+  (\wedge^\bullet \Gamma(T X), \Delta_\mu)
+$$
+
+for the [[cochain complex]] induced on [[multivector fields]] by dualizing the [[de Rham differential]] with $\mu$.
+
+=--
+
++-- {: .num_remark #BVComplexOfManifoldIsPoisson0}
+###### Remark
+
+The [[Schouten bracket]] on $BV(X,\mu)$ makes this cochain complex a [[Poisson 0-algebra]].
+
+=--
+
+For more see at _[[relation between BV and BD]]_.
+
+
+#### The quantum master equation: the path integral measure is a closed form
+ {#TheQuantumMasterEquationAsClosureOfIntegralMeasure}
+
+Observe that
+
+* if we think of 
+
+  * the measure $\mu$ as some closed reference differential form on $X$;
+
+  *  the exponentiated action functional $exp\left(\frac{i}{\hbar}S\left(-\right)\right)$ as a [[multivector field]] on $X$;
+
+  * the expression $exp(\frac{i}{\hbar}S(-)) \mu$ as the contraction of this multivector field with $\mu$
+
+* then the **BV quantum master equaton**
+$\Delta \exp(\frac{i}{\hbar}S) = 0$ says nothing but that
+$exp(\frac{i}{\hbar}S(-)) \mu$ is a _closed differential form_.
+
+* If we furthermore take into account that in the presence of gauge symmetries the space $X$ is not a plain manifold but the $L_\infty$-[[Lie infinity-algebroid|algebroid]] of the gauge symmetries acting on the space of fields, hence an [[NQ-supermanifold]] (whose Chevalley-Eilenberg algebra is the **BRST complex**), then this just says that $\exp(\frac{i}{\hbar}S) \mu$ is an [[integration over supermanifolds|integrable form]] in the sense of [[integration over supermanifolds|integration theory of supermanifolds]].
+
+This means that Lagrangian BV formalism is nothing but a way of describing closed differential forms on [[Lie infinity-algebroid]] in terms of multivectors contracted into a reference differention form. The multivectors dual to degree 0 elements in the $L_\infty$-[[Lie infinity-algebroid|algebroid]] are the so-called "**anti-fields**", while those dual to the higher degree elements are the so-called "**anti-ghosts**".
+
+
+#### Integration over manifolds by BV-cohomology
+ {#IntegrationOverManifoldsByBVCohomology}
+
+The following proposition about integration of differential $n$-forms is the archetype for interpreting cohomology in BV-complexes in terms of [[integration]]. See also at _[[cohomological interpretation]]_.
+
++-- {: .num_example}
+###### Example
+
+On the [[open ball]] of [[dimension]] $n$, the [[integration of differential forms]] of compact support $\int \;\colon\; \Omega^n_{cp} \to \mathbb{R}$ is equivalently given by the projection onto the [[quotient]] by the exact forms, hence by passing to [[cochain cohomology]] in the truncated [[de Rham complex]] $C^\infty(B^n) \to \cdots \to \Omega^{n-1}(B^n) \to \Omega^n(B^n)$.
+
+=--
+
+This "integration without integration" is discussed in more detail at _[[Lie integration]]_.
+
+Let $X$ be a [[closed manifold|closed]] [[orientation|oriented]] [[smooth manifold]] of [[finite number]] [[dimension]] $n$ and let $\mu_S \in \Omega^n(X)$ be any [[volume form]]. Let again 
+
+$$
+  BV(X,\mu_S) \coloneqq( \wedge^\bullet \Gamma(T X), \Delta_{\mu_S} )
+$$ 
+
+be the corresponding dual [[cochain complex]] of the [[de Rham complex]] by def. \ref{TheDualBVComplexOfTheDeRhamComplexOnAManifolds} above. 
+
++-- {: .num_defn #ExpectationValueOfFunctionOnManifold}
+###### Definition
+
+For $f \in C^\infty(X)$ a [[smooth function]], its **[[expectation value]]** with respect to $\mu_S$ is
+
+$$
+  \langle f\rangle_{\mu_S}
+  \coloneqq
+  \frac{ \int_X f \cdot \mu_S }{\int_X \mu_S } 
+  \,.
+$$
+
+=--
+
+Write $[-]_{BV}$ for the [[cochain cohomology]] classes in the BV complex $BV(X, \mu_S)$.
+
+
++-- {: .num_prop #ExpectationValueOfFunctionOnManifoldByBVCohomology}
+###### Proposition
+
+For $f \in BV(X,\mu_S)_0 \simeq C^\infty(X)$ the cohomology class of $f$ in the BV complex is the [[expectation value]] of $f$, def. \ref{ExpectationValueOfFunctionOnManifold} times the cohomology class of the unit function 1:
+
+$$
+  [f]_{BV}
+  = 
+  \langle f\rangle_{\mu_S}
+  [1]_{BV}
+  \,.
+$$
+
+=--
+
+See ([Gwilliam 13, lemma 2.2.2](#Gwilliam)).
+
+#### BV quantization
+ {#BVQuantization}
+
+Let $X$ be a [[closed manifold]] as above and write $BV(X, \mu)$ for the BV-complex def. \ref{TheDualBVComplexOfTheDeRhamComplexOnAManifolds}, induced by a given [[volume form]] $\mu \in \Omega^n(X)$.
+
++-- {: .num_prop #ShiftInBVDifferentialOnManifoldDueToFunctional}
+###### Proposition
+
+If $S \in C^\infty(X)$ then the BV-complex induced via def. \ref{TheDualBVComplexOfTheDeRhamComplexOnAManifolds} by the volume form
+
+$$
+  \mu_S \coloneqq \exp\left(\frac{1}{\hbar} S\right) \cdot \mu
+$$
+
+(for any constant $\hbar$ to be read as [[Planck's constant]]) has BV-differential related to that of $\mu$ itself by
+
+$$
+  \Delta_{\mu_S}
+  = 
+  \Delta_\mu + \frac{1}{\hbar}\iota_{d S}
+  \,,
+$$
+
+where $\iota_{d S} : \wedge^\bullet \Gamma(T X) \to \wedge^{\bullet-1} \Gamma(T X)$ is the operation of acting with a [[vector field]] on $S$ by [[differentiation]], extended as a graded [[derivation]] to [[multivector fields]].
+
+=--
+
++-- {: .num_prop #ClassicalBVComplexOnManifoldAsDerivedCriticalLocus}
+###### Proposition
+
+The complex
+
+$$
+  BV_{cl}(X, S)
+  \coloneqq
+  (\wedge^\bullet \Gamma(T X), \iota_{d S})
+$$
+
+is the [[derived critical locus]] of the function $S$.
+
+=--
+
+By the discussion at _[[derived critical locus]]_.
+
++-- {: .num_remark #ClassicalAndQuantumBVComplexOverManifold}
+###### Remark
+
+Prop. \ref{ShiftInBVDifferentialOnManifoldDueToFunctional} and prop. \ref{ClassicalBVComplexOnManifoldAsDerivedCriticalLocus} together say that the BV-complex of a manifold $X$ for a volume form $\mu_S$ shifted from a background volume form $\mu$ by a function $\exp\left(\frac{1}{\hbar} S\right)$ is an $\hbar$-deformation of the [[derived critical locus]] of $S$ by a contribution of the background volume form $\mu$.
+
+We call $(\wedge^\bullet \Gamma(T X), \iota_{d S})$ the **classical BV complex** and $(\wedge^\bullet \Gamma(T X), \iota_{d S} + \hbar \Delta_{\mu} )$ the **quantum BV complex** of the manifold $X$ equipped with the function $S$ and the voume form $\mu$. 
+
+=--
+
+The crucial idea now is the following.
+
++-- {: .num_remark}
+###### Remark
+**(central idea of BV quantization)**
+
+In the above discussion of BV complexes over finite-dimensional manifolds, the construction of the **classical BV complex** in remark \ref{ClassicalAndQuantumBVComplexOverManifold} as a [[derived critical locus]] directly makes sense in great generality for [[action functionals]] $S$ defined on spaces of [[field (physics)|fields]] more general than finite-dimensional [[smooth manifolds]]. (It makes sense in a general context of [[differential cohesion]], see at _[differential  cohesive infinity-topos -- critical locus](differential+cohesive+infinity-topos#CriticalLocus)_). On the other hand, the construction of the quantum BV complex as the dual to the de Rham complex by a [[volume form]] by def. \ref{TheDualBVComplexOfTheDeRhamComplexOnAManifolds} breaks down as soon as the space of fields is no longer a finite dimensional manifold, hence breaks down for all but the most degenerate [[quantum field theories]]. But by remark \ref{ClassicalAndQuantumBVComplexOverManifold} we may instead think of the quantum BV complex as a certain **deformation** of the classical BV complex, and _that_ notion continues to make sense in full generality.
+
+And once such a deformation of a critical locus has been obtained, we may read prop. \ref{ExpectationValueOfFunctionOnManifoldByBVCohomology} the other way round and regard the [[cochain cohomology]] of the deformed complex as the _definition_ of quantum expectation values of [[observables]].
+
+=--
+
+See for instance ([Park, 2.1](#Park))
+
+In order to implement this idea, we need to axiomatize those properties of classical BV complexes and their quantum deformation as above which we demand to be preserved by the generalization away from finite dimensional manifolds. This is what the following definitions do.
+
++-- {: .num_defn #ClassicalBVComplexAsPoisson0Algebra}
+###### Definition
+
+A **classical BV complex** is a [[cochain complex]] equipped with the structure of a [[Poisson 0-algebra]].
+
+=--
+
++-- {: .num_defn #BeilinsonDrinfeldAlgebra}
+###### Definition
+
+A **quantum BV complex** or **Beilinson-Drinfeld algebra** is a $\mathbb{Z}$-[[graded algebra]] $A$ over the ring $\mathbb{R} [ [ \hbar ] ]$ of [[formal power series]] in a formal constant $\hbar$, equipped with a [[Poisson 0-algebra|Poisson bracket]] $\{-,-\}$ of degree 1 and with an operator $\Delta \colon A \to A$ of degree 1 which satisfies:
+
+1. $\Delta^2 = 0$
+
+1. $\Delta( a b) = (\Delta a) b  + (-1)^{\vert a\vert} a (\Delta b) + \hbar \{a,b\}$ for all homogenous elements $a, b \in A$
+
+=--
+
+In ([Gwilliam 2013](#Gwilliam)) this is def. 2.2.5.
+
++-- {: .num_remark}
+###### Remark
+
+A [[Beilinson-Drinfeld algebra]] is _not_ a [[dg-algebra]] with [[differential]] $\Delta$: the Poisson bracket $\hbar \{-,-\}$ measures the failure for the differential to satisfy the [[Leibniz rule]]. In particular the $\Delta$-[[cohomology]] is _not_ an [[associative algebra]].
+
+In this respect the notion of BV-quantization via BD-algebras differs from other traditional notions of BV-quantization, where one demands the quantum BV-complex to be a noncommutative dg-algebra deformation of the classical BV complex. But instead the BD-algebras induced by a [[local action functional]] and varying over open subsets of [[spacetime]]/[[worldvolume]] form a [[factorization algebra]] and _that_ encodes the [[algebra of observables]]: the _[[factorization algebra of observables]]_ (see there for more).
+
+=--
+
+But:
+
++-- {: .num_defn #ClassicalLimitOfBeilinsonDrinfeldAlgebra}
+###### Definition
+
+For $A_\hbar$ a [[Beilinson-Drinfeld algebra]], its [[classical limit]] is the [[tensor product of algebras]]
+
+$$
+  A_{\hbar = 0}
+  \coloneqq 
+  A_\hbar \otimes_{\mathbb{R}[ [ \hbar ] ]} \mathbb{R}
+$$
+
+hence the result of setting the formal parameter $\hbar$ ("[[Planck's constant]]") to 0. 
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+The classical limit of a [[Beilinson-Drinfeld algebra]] is canonically a classical BV-complex, def. \ref{ClassicalBVComplexAsPoisson0Algebra}.
+
+=--
+
++-- {: .num_defn #BVQuantizationByBDAlgebra}
+###### Definition
+
+For $A_{\hbar = 0}$ a classical BV complex, def. \ref{ClassicalBVComplexAsPoisson0Algebra}, a **BV quantization** of it is a [[Beilinson-Drinfeld algebra]] $A_{\hbar}$, def. \ref{BeilinsonDrinfeldAlgebra} whose classical limit, def. \ref{ClassicalLimitOfBeilinsonDrinfeldAlgebra}, is the given $A_{\hbar = 0}$.
+
+=--
+
+In ([Gwilliam 2013](#Gwilliam)) this is def. 2.2.6.
+
+
+[[!include action (physics) - table]]
+
+#### Quantum observables by BV-cohomology
+ {#PathIntegrationAndQuantumObservablesByBVCohomology}
+
+
++-- {: .num_defn }
+###### Definition
+
+Given a [[quantum BV-complex]], its [[cochain cohomology]] are the **[[expectation values]] of [[observables]]** of the [[theory (physics)|theory]].
+
+Specifically, an observable is a closed element $f$ in the quantum BV-complex and its _expectation value_ is its image $[f]$ in [[cochain cohomology]]. 
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+Given a [[quantum BV-complex]] by def. \ref{BVQuantizationByBDAlgebra}
+its [[cochain cohomology]] is, by definition, a perturbation of that of its [[classical limit]] BV complex, def. \ref{ClassicalLimitOfBeilinsonDrinfeldAlgebra}. Accordingly, the quantum observables may be computed from the classical observables by the [[homological perturbation lemma]]. For [[free field theories]] this yields [[Wick's lemma]] and [[Feynman diagrams]] for computing observables. ([Gwilliam 2013, section 2.3](#Gwilliam)).
+
+=--
+
++-- {: .num_remark }
+###### Remark
+
+For local theories (...) [[gauge fixing operator]] (...) [[Hodge theory]] (...)
+
+=--
+
+(...)
+
+### Poincar&#233; duality on Hochschild (co)homology and framed little disk algebra
+ {#PoincareDualityOnHochschild}
+
+The [above](#HomologicalIntegration) duality between [[differential forms]] and [[multivector field]] may be understood in a more general context.
+
+Multivector fields may be understood in terms of [[Hochschild cohomology]] of $C$.
+Under the identification of 
+[[Hochschild homology]]/[[cyclic homology]] with  the [[de Rham complex]] the product of the  [[action functional]] 
+$\exp(i S(-))$ with a formal [[measure]] $vol$
+on $C$ is regarded as a [[cycle]] in [[cyclic homology]]. Or rather, 
+an [[isomorphism]] with [[Hochschild cohomology]] is picked,
+and interpreted as a choice of [[volume form]] $vol$ and 
+$\exp(i S(-))$ is regarded as a cocycle in cyclic cohomology, hence
+as a [[multivector field]] whose closure condition
+$\Delta \exp(i S(-)) = 0 $
+is the quantum master equation of BV-formalism.
+
+By the identification of [[Hochschild cohomology]]  
+with functions on [[derived loop space]]s we know that 
+the operator $\Delta$ encodes the rotation of loops. 
+Accordingly, the resuling [[BV-algebra]] has an interpretation
+as an algebra over (the homology of) the 
+[[framed little disk operad]]. 
+
+
+For certain algebras $A$ there exists [[Poincaré duality]] between [[Hochschild cohomology]] and [[Hochschild homology]]
+
+$$
+  \tau : HH_i(A) \to HH^{n-i}(A)
+$$
+
+([VanDenBergh](#VanDenBergh)) and this takes the [[Connes coboundary operator]] to the [[BV operator]] ([Ginzburg](#Ginzburg)).
+
+
+## Hamiltonian BFV -- Homotopical Poisson reduction
+ {#HamiltonianBV}
 
 The following is a rough survey of homotopical Poisson reduction, following ([Stasheff 96](#Stasheff96)).
 
@@ -243,560 +607,6 @@ the **BRST-BV charge** such that
 =--
 
 
-## Lagrangian BV
- {#LagrangianBV}
-
-Given a non-degenerate action functional $S : C \to \mathbb{R}$ (i.e., one that does not possess gauge symmetries), the derived manifold of Lagrangian BV is constructed by extending $S$ to an element $S^{BV} \in \mathcal{X}^\bullet(C)$ of the algebra of [[multivector field]]s ("antifields") of $C$, such that 
-
-$$
-  (S^{BV},S^{BV}) = 0
-$$
-
-(called the **classical [[master equation]]**) with respect to the [[Schouten bracket]] $(-,-) : \mathcal{X}^\bullet(X) \otimes \mathcal{X}^\bullet(C) \to\mathcal{X}^\bullet(C)$ (the "anti-bracket") and then considering the formal dual of the [[dg-algebra]] $(\mathcal{X}^\bullet(C), d = (S^{BV},-))$.
-
-When the action $S$ is degenerate, the BV complex has to be extended further.
-
-The central theorem says that formal integration in this dg-manifold over [[Lagrangian submanifold]]s with respect to the Schouten bracket regarded as an odd Poisson bracket is independent of the choice of Lagrangian submanifold precisely due to the equation $(S,S) = 0$.
-
-
-
-### The standard construction
- {#StandardLagrangianBV}
-
-We discuss the standard constructions and theorems in Lagrangian BV formalism. The discussion here is supposed to be a direct formalization of the informal discussion in the standard physics literature (e.g. [HenneauxTeitelboim](#HenneauxTeitelboim)) but more pedestrian and more lightweight than for instance the more powerful formalization of ([BeilinsonDrinfeld](#BeilinsonDrinfeld)).
-
-Let $k$ be a [[field]] of [[characteristic]] 0. Write $dgcAlg_{k}$ for the [[category]] of graded-commutative [[dg-algebra]]s over $k$ (not assumed to be finitely generated and not assumed to be bounded). For the present discussion we regared the [[opposite category]] $Space := dgAlg_k^{op}$ as our category of [[space]]s and write
-
-$$
-  \mathcal{O} : Space \stackrel{=}{\to}  dgAlg_k^{op}
-$$
-
-to indicate that a space $X \in C$ is defined as having an algebra of functions $\mathcal{O} \in dgAlg_k$.
-
-See [[dg-geometry]] for a more comprehensive discussion of the ambient [[higher geometry]].
-
-We write
-
-$$
-  \mathbb{A}^1 \in Space
-$$
-
-for the canonical [[line object]] in $Space$, the [[affine line]]. This is the space defined by the fact that its dg-algebra of functions 
-
-$$
-  \mathcal{O}(\mathbb{A}^1) = k[x]
-$$
-
-is the [[polynomial]] algebra over $k$ on a single generator. 
-
-The starting point of standard Lagrangian BV is
-
-1. a space $C \in Space$ such that $\mathcal{O}(C) \in CAlg_k \hookrightarrow dgAlg_k$ is an ordinary [[associative algebra|commutative algebra]] over $k$, called the **[[configuration space]]**;
-
-1. a morphism in $Space$
-
-   $$
-     S : C \to \mathbb{A}^1
-     \,,
-   $$
-   
-   called the **[[action functional]]** .
-
-Dually $S$ is a morphism
-
-$$
-  \mathcal{O}(C) \leftarrow \mathcal{O}(\mathbb{A}^1) = k[x] : S^*
-  \,.
-$$
-
-By the defining [[free functor|free property]] of $\mathbb{A}^1$ and since $\mathcal{O}(C)$ is assumed to be concentrated in degree 0, this morphism is fixed by its image $S^*(x)$ and hence we may identify $S$ as an element in $\mathcal{O}(C)$
-
-$$
-  S \in \mathcal{O}(C)
-  \,.
-$$
-
-Write $\Omega^1(C)$ for the $\mathcal{O}(C)$-[[module]] of [[Kähler differential]]s on $C$. By its defining property there is a [[bijection]] between [[derivation]]s
-
-$$
-  v : \mathcal{O}(C) \to \mathcal{O}(C)
-$$
-
-and $\mathcal{O}(C)$-[[module]] homomorphism
-
-$$
-  \iota_v : \Omega^1(C) \to \mathcal{O}(C)
-$$
-
-to be thought of a giving by evaluating a 1-form on the [[vector field]] corresponding to the derivation.
-
-Conversely, the fixed [[Kähler differential]]
-
-$$
-  d S \in \Omega^1(C)
-$$
-
-defines a $k$-linear function
-
-$$
-  \iota_{d S} 
-    : 
-   Der(\mathcal{O}(C)) 
-    \to 
-   \mathcal{O}(C)
-$$
-
-by $v \mapsto \iota_v (d S)$.
-
-We define the following notions
-
-* the [[kernel]]
-
-  $$
-    N_S 
-      \hookrightarrow 
-    Der(\mathcal{O}(S))
-      \stackrel{\iota_{d S}}{\to}
-    \mathcal{O}(C)
-  $$
-
-  of $\iota_{d S}$ is called the module of **[[Noether identities]]** of the [[action functional]] $S$.
-
-* the [[image]]
-
-  $$
-    \iota_{d S}
-    :
-    Der(\mathcal{O}(S))
-    \to
-     I_S
-     \hookrightarrow
-    \mathcal{O}(C)
-  $$
-
-  is called the **Euler-Lagrange ideal** of $S$. The space whose function algebra is the [[quotient]]
-
-  $$
-    \mathcal{O}(C_{\{d S = 0\}}) = \mathcal{O}(C)/I_S
-  $$
-
-  is the unresolved [[covariant phase space]] of $S$.
-
-Consider then the [[dg-algebra]]
-
-$$
-  Sym_{\mathcal{O}(C)}(
-    N_S \to Der(\mathcal{O}(C)) \stackrel{\iota_{d S}}{\to} \mathcal{O}(C)
-  )
-$$
-
-free on the [[cochain complex]] of $\mathcal{O}(C)$-[[module]]s 
-
-$$
-  \array{
-    N_S &\hookrightarrow& Der(\mathcal{O}(C)) &\to& \mathcal{O}(C)
-    \\
-    -2 && -1 && 0
-  }
-$$
-
-with degrees as indicated. One says that the generators in degree 0 are the _fields_ , the generators degree -1 the _antifields_ and the generators in degree -2 the _antighosts_ .
-
-This comes with a canonical morphism
-
-$$
-  \array{
-    Sym_{\mathcal{O}(C)}(
-      N_S \to Der(\mathcal{O}(C)) \stackrel{\iota_{d S}}{\to} 
-     \mathcal{O}(C)
-  )
-  \\
-  \downarrow
-  \\
-  \mathcal{O}(C)/I_S
-  }
-$$
-
-that is a [[quasi-isomorphism]]. Under suitable conditions on $\mathcal{O}(C)$ and $S$, this is a [[resolution]] of $\mathcal{O}(C)/_S$ by a complex of [[projective object]]s in the category of $\mathcal{O}(C)$-[[module]]s, hence a cofibrant resolution of the unresolved [[covariant phase space]] with function algebra $\mathcal{O}(C)/I_S$ in a typical [[model structure on dg-algebras]]. Under non-suitable conditions $N_S$ itself needs to be further resolved in order to achieve this. 
-
-The main point of the Lagrangian BV construction is that this resolution naturally carries a useful [[BV-algebra]] structure. The [[Poisson 2-algebra]]-structure is induced by the [[Schouten bracket]] on the [[polyvector field]]s $Der(\mathcal{O})$.
-
-(...)
-
-### As a derived critical locus
-
-In ([CostelloGwilliam](#CostelloGwilliam)) it is observed that the BV-complex ought to play the role of the [[critical locus]] of the [[action functional]] as seen in [[derived geometry]]. A precsie formulation and derivation of this statement is at _[[schreiber:derived critical locus]]_.
-See at _[[derived critical locus]]_ for more pointers.
-
-
-### The BV-complex and homological (path-)integration
- {#HomologicalIntegration}
-
-We discuss the _BV differential_ as a homological implementation of [[integration]] which makes the _quantum BV-complex_ a homological implementation of [[path integral]]-[[quantization]] (in [[perturbation theory]]). See also at _[[cohomological integration]]_.
-
-
-We indicate how on a finite dimensional smooth manifold the [[BV-algebra]] appearing in Lagrangian BV-formalism is the dual of the [[de Rham complex]] of [[configuration space]] in the presence of a [[volume form]] and how, by extention, this allows to interpret the BV-complex as a means for defining ([[path integral|path]]-)[[integration]] over general [[configuration spaces]] of [[field (physics)|fields]] by passing to BV-[[cochain cohomology]]. 
-
-(The interpretation of the BV-differential as the dual de Rham differential necessary for this is due to ([Witten 90](#Witten90)) ([Schwarz 92](#Schwarz92)). A particularly clear-sighted account of the general relation is in [Gwilliam 2013](#Gwilliam) ). 
-
-Further [below](#PoincareDualityOnHochschild) we discuss the generalization of these relation in terms of [[Poincaré duality]] on [[Hochschild cohomology|Hochschild (co)homology]].
-
-1. [The idea of path integral quantization](#IdeaOfPathIntegralQuantization)
-
-1. [Multivector fields dual to differential forms](#MultivectorFieldsDualToDifferentialForms)
-
-1. [The quantum master equation: the path integral measure is a closed form](#TheQuantumMasterEquationAsClosureOfIntegralMeasure)
-
-1. [Integration over manifolds by BV cohomology](#IntegrationOverManifoldsByBVCohomology)
-
-1. [BV-quantization](#BVQuantization)
-
-1. [Path integration and quantum observables by BV-cohomology](#PathIntegrationAndQuantumObservablesByBVCohomology)
-
-#### The idea of path integal quantization
- {#IdeaOfPathIntegralQuantization}
-
-The [[path integral]] in [[quantum field theory]] is supposed to be the [[integral]] over a [[configuration space]] $X$ of [[field (physics)|field]] $\phi$ using a [[measure]] $\mu_S$ which is thought of in the form
-
-$$
-  \mu_S(\phi) 
-    \coloneqq 
-  \exp\left(\frac{i}{\hbar} S\left(\phi\right)\right) \cdot \mu(\phi)
-  \;\;\;\;
-  \phi \in X
-  \,,
-$$
-
-for $\mu$ some other measure and $S : X \to \mathbb{R}$ the _[[action functional]]_ of the [[theory (physics)|theory]].
-
-For $f$ a [[smooth function]] on the space of [[field (physics)|fields]] its value as an [[observable]] of the system is supposed to be what would be the [[expectation value]]
-
-$$
-  \langle f \rangle_S
-  =
-  \frac{\int_{\phi \in Fields} f(\phi) \cdot \mu(\phi)}{\int_{\phi \in Fields} \mu(\phi) }
-$$
-
-if the measure existed. Of course this does not make sense in terms of the usual notion of [[integration]] against [[measures]] since such measures do not exists except in the most simplest situation. But there is a [[cohomology|cohomological]] notion of integration where instead of actually performing an integral, we identify its value, if it exists, with a cohomology class and generally interpret that cohomology class as the expectation value, even if an actual integral against a measure does not exist. This is what BV formalism achieves, which we discuss after some preliminaries below in _[Integration over manifolds by BV cohomology](#IntegrationOverManifoldsByBVCohomology)_.
-
-#### Multivector fields dual to differential forms
- {#MultivectorFieldsDualToDifferentialForms}
-
-If one thinks of $X$ as an ordinary $(d \lt \infty)$-[[dimension|dimensional]] [[smooth manifold]], then $\mu_S$ will be given by a [[volume form]], $\mu_S \in \Omega^d(X)$. By contraction of [[multivector fields]] with [[differential forms]], every choice of volume form on $X$ induces an [[isomorphism]] between [[differential forms]] and [[polyvector fields]]
-
-$$
-  \mu : \Omega^\bullet(X) \stackrel{\simeq}{\to}
-  \wedge^{-\bullet} \Gamma(T X)
-  \,,
-$$
-
-which is usefully thought of as reversing degrees. Under this isomorphism the [[deRham differential]] maps to a [[divergence]] operator conventionally denoted
-
-$$
-  \mu : d \mapsto \Delta
-$$
-
-which interacts naturally with the canonical bracket on multivector fields: the [[Schouten bracket]]. (See at _[[polyvector field]]_ for more details.)
-
-+-- {: .num_defn #TheDualBVComplexOfTheDeRhamComplexOnAManifolds}
-###### Definition
-
-For $X$ an [[orientation|oriented]] [[smooth manifold]] of [[dimension]] $n \in \mathbb{N}$ and for $\mu \in \Omega^n(X)$a [[volume form]], write
-
-$$
-  BV(X, \mu)
-  \coloneqq
-  (\wedge^\bullet \Gamma(T X), \Delta_\mu)
-$$
-
-for the [[cochain complex]] induced on [[multivector fields]] by dualizing the [[de Rham differential]] with $\mu$.
-
-=--
-
-+-- {: .num_remark #BVComplexOfManifoldIsPoisson0}
-###### Remark
-
-The [[Schouten bracket]] on $BV(X,\mu)$ makes this cochain complex a [[Poisson 0-algebra]].
-
-=--
-
-For more see at _[[relation between BV and BD]]_.
-
-
-#### The quantum master equation: the path integral measure is a closed form
- {#TheQuantumMasterEquationAsClosureOfIntegralMeasure}
-
-Observe that
-
-* if we think of 
-
-  * the measure $\mu$ as some closed reference differential form on $X$;
-
-  *  the exponentiated action functional $exp\left(\frac{i}{\hbar}S\left(-\right)\right)$ as a [[multivector field]] on $X$;
-
-  * the expression $exp(\frac{i}{\hbar}S(-)) \mu$ as the contraction of this multivector field with $\mu$
-
-* then the **BV quantum master equaton**
-$\Delta \exp(\frac{i}{\hbar}S) = 0$ says nothing but that
-$exp(\frac{i}{\hbar}S(-)) \mu$ is a _closed differential form_.
-
-* If we furthermore take into account that in the presence of gauge symmetries the space $X$ is not a plain manifold but the $L_\infty$-[[Lie infinity-algebroid|algebroid]] of the gauge symmetries acting on the space of fields, hence an [[NQ-supermanifold]] (whose Chevalley-Eilenberg algebra is the **BRST complex**), then this just says that $\exp(\frac{i}{\hbar}S) \mu$ is an [[integration over supermanifolds|integrable form]] in the sense of [[integration over supermanifolds|integration theory of supermanifolds]].
-
-This means that Lagrangian BV formalism is nothing but a way of describing closed differential forms on [[Lie infinity-algebroid]] in terms of multivectors contracted into a reference differention form. The multivectors dual to degree 0 elements in the $L_\infty$-[[Lie infinity-algebroid|algebroid]] are the so-called "**anti-fields**", while those dual to the higher degree elements are the so-called "**anti-ghosts**".
-
-
-#### Integration over manifolds by BV-cohomology
- {#IntegrationOverManifoldsByBVCohomology}
-
-The following proposition about integration of differential $n$-forms is the archetype for interpreting cohomology in BV-complexes in terms of [[integration]]. See also at _[[cohomological interpretation]]_.
-
-+-- {: .num_example}
-###### Example
-
-On the [[open ball]] of [[dimension]] $n$, the [[integration of differential forms]] of compact support $\int \;\colon\; \Omega^n_{cp} \to \mathbb{R}$ is equivalently given by the projection onto the [[quotient]] by the exact forms, hence by passing to [[cochain cohomology]] in the truncated [[de Rham complex]] $C^\infty(B^n) \to \cdots \to \Omega^{n-1}(B^n) \to \Omega^n(B^n)$.
-
-=--
-
-This "integration without integration" is discussed in more detail at _[[Lie integration]]_.
-
-Let $X$ be a [[closed manifold|closed]] [[orientation|oriented]] [[smooth manifold]] of [[dimension]] $n$ and let $\mu_S \in \Omega^n(X)$ be any [[volume form]]. Let again 
-
-$$
-  BV(X,\mu_S) \coloneqq( \wedge^\bullet \Gamma(T X), \Delta_{\mu_S} )
-$$ 
-
-be the corresponding dual [[cochain complex]] of the [[de Rham complex]] by def. \ref{TheDualBVComplexOfTheDeRhamComplexOnAManifolds} above. 
-
-+-- {: .num_defn #ExpectationValueOfFunctionOnManifold}
-###### Definition
-
-For $f \in C^\infty(X)$ a [[smooth function]], its **[[expectation value]]** with respect to $\mu_S$ is
-
-$$
-  \langle f\rangle_{\mu_S}
-  \coloneqq
-  \frac{ \int_X f \cdot \mu_S }{\int_X \mu_S } 
-  \,.
-$$
-
-=--
-
-Write $[-]_{BV}$ for the [[cochain cohomology]] classes in the BV complex $BV(X, \mu_S)$.
-
-
-+-- {: .num_prop #ExpectationValueOfFunctionOnManifoldByBVCohomology}
-###### Proposition
-
-For $f \in BV(X,\mu_S)_0 \simeq C^\infty(X)$ the cohomology class of $f$ in the BV complex is the [[expectation value]] of $f$, def. \ref{ExpectationValueOfFunctionOnManifold} times the cohomology class of the unit function 1:
-
-$$
-  [f]_{BV}
-  = 
-  \langle f\rangle_{\mu_S}
-  [1]_{BV}
-  \,.
-$$
-
-=--
-
-See ([Gwilliam 13, lemma 2.2.2](#Gwilliam)).
-
-#### BV quantization
- {#BVQuantization}
-
-Let $X$ be a [[closed manifold]] as above and write $BV(X, \mu)$ for the BV-complex def. \ref{TheDualBVComplexOfTheDeRhamComplexOnAManifolds}, induced by a given [[volume form]] $\mu \in \Omega^n(X)$.
-
-+-- {: .num_prop #ShiftInBVDifferentialOnManifoldDueToFunctional}
-###### Proposition
-
-If $S \in C^\infty(X)$ then the BV-complex induced via def. \ref{TheDualBVComplexOfTheDeRhamComplexOnAManifolds} by the volume form
-
-$$
-  \mu_S \coloneqq \exp\left(\frac{1}{\hbar} S\right) \cdot \mu
-$$
-
-(for any constant $\hbar$ to be read as [[Planck's constant]]) has BV-differential related to that of $\mu$ itself by
-
-$$
-  \Delta_{\mu_S}
-  = 
-  \Delta_\mu + \frac{1}{\hbar}\iota_{d S}
-  \,,
-$$
-
-where $\iota_{d S} : \wedge^\bullet \Gamma(T X) \to \wedge^{\bullet-1} \Gamma(T X)$ is the operation of acting with a [[vector field]] on $S$ by [[differentiation]], extended as a graded [[derivation]] to [[multivector fields]].
-
-=--
-
-+-- {: .num_prop #ClassicalBVComplexOnManifoldAsDerivedCriticalLocus}
-###### Proposition
-
-The complex
-
-$$
-  BV_{cl}(X, S)
-  \coloneqq
-  (\wedge^\bullet \Gamma(T X), \iota_{d S})
-$$
-
-is the [[derived critical locus]] of the function $S$.
-
-=--
-
-By the discussion at _[[schreiber:derived critical locus]]_.
-
-+-- {: .num_remark #ClassicalAndQuantumBVComplexOverManifold}
-###### Remark
-
-Prop. \ref{ShiftInBVDifferentialOnManifoldDueToFunctional} and prop. \ref{ClassicalBVComplexOnManifoldAsDerivedCriticalLocus} together say that the BV-complex of a manifold $X$ for a volume form $\mu_S$ shifted from a background volume form $\mu$ by a function $\exp\left(\frac{1}{\hbar} S\right)$ is an $\hbar$-deformation of the [[derived critical locus]] of $S$ by a contrinution of the background volume form $\mu$.
-
-We call $(\wedge^\bullet \Gamma(T X), \iota_{d S})$ the **classical BV complex** and $(\wedge^\bullet \Gamma(T X), \iota_{d S} + \hbar \Delta_{\mu} )$ the **quantum BV complex** of the manifold $X$ equipped with the function $S$ and the voume form $\mu$. 
-
-=--
-
-The crucial idea now is the following.
-
-+-- {: .num_remark}
-###### Remark
-**(central idea of BV quantization)**
-
-In the above discussion of BV complexes over finite-dimensional manifolds, the construction of the **classical BV complex** in remark \ref{ClassicalAndQuantumBVComplexOverManifold} as a [[derived critical locus]] directly makes sense in great generality for [[action functionals]] $S$ defined on spaces of [[field (physics)|fields]] more general than finite-dimensional [[smooth manifolds]]. (It makes sense in a general context of [[differential cohesion]], see at _[differential  cohesive infinity-topos -- critical locus](differential+cohesive+infinity-topos#CriticalLocus)_). On the other hand, the construction of the quantum BV complex as the dual to the de Rham complex by a [[volume form]] by def. \ref{TheDualBVComplexOfTheDeRhamComplexOnAManifolds} breaks down as soon as the space of fields is no longer a finite dimensional manifold, hence breaks down for all but the most degenerate [[quantum field theories]]. But by remark \ref{ClassicalAndQuantumBVComplexOverManifold} we may instead think of the quantum BV complex as a certain **deformation** of the classical BV complex, and _that_ notion continues to make sense in full generality.
-
-And once such a deformation of a critical locus has been obtained, we may read prop. \ref{ExpectationValueOfFunctionOnManifoldByBVCohomology} the other way round and regard the [[cochain cohomology]] of the deformed complex as the _definition_ of quantum expectation values of [[observables]].
-
-=--
-
-See for instance ([Park, 2.1](#Park))
-
-In order to implement this idea, we need to axiomatize those properties of classical BV complexes and their quantum deformation as above which we demand to be preserved by the generalization away from finite dimensional manifolds. This is what the following definitions do.
-
-+-- {: .num_defn #ClassicalBVComplexAsPoisson0Algebra}
-###### Definition
-
-A **classical BV complex** is a [[cochain complex]] equipped with the structure of a [[Poisson 0-algebra]].
-
-=--
-
-+-- {: .num_defn #BeilinsonDrinfeldAlgebra}
-###### Definition
-
-A **quantum BV complex** or **Beilinson-Drinfeld algebra** is a $\mathbb{Z}$-[[graded algebra]] $A$ over the ring $\mathbb{R} [ [ \hbar ] ]$ of [[formal power series]] in a formal constant $\hbar$, equipped with a [[Poisson 0-algebra|Poisson bracket]] $\{-,-\}$ of degree 1 and with an operator $\Delta \colon A \to A$ of degree 1 which satisfies:
-
-1. $\Delta^2 = 0$
-
-1. $\Delta( a b) = (\Delta a) b  + (-1)^{\vert a\vert} a (\Delta b) + \hbar \{a,b\}$ for all homogenous elements $a, b \in A$
-
-=--
-
-In ([Gwilliam 2013](#Gwilliam)) this is def. 2.2.5.
-
-+-- {: .num_remark}
-###### Remark
-
-A [[Beilinson-Drinfeld algebra]] is _not_ a [[dg-algebra]] with [[differential]] $\Delta$: the Poisson bracket $\hbar \{-,-\}$ measures the failure for the differential to satisfy the [[Leibniz rule]]. In particular the $\Delta$-[[cohomology]] is _not_ an [[associative algebra]].
-
-In this respect the notion of BV-quantization via BD-algebras differs from other traditional notions of BV-quantization, where one demands the quantum BV-complex to be a noncommutative dg-algebra deformation of the classical BV complex. But instead the BD-algebras induced by a [[local action functional]] and varying over open subsets of [[spacetime]]/[[worldvolume]] form a [[factorization algebra]] and _that_ encodes the [[algebra of observables]]: the _[[factorization algebra of observables]]_ (see there for more).
-
-=--
-
-But:
-
-+-- {: .num_defn #ClassicalLimitOfBeilinsonDrinfeldAlgebra}
-###### Definition
-
-For $A_\hbar$ a [[Beilinson-Drinfeld algebra]], its [[classical limit]] is the [[tensor product of algebras]]
-
-$$
-  A_{\hbar = 0}
-  \coloneqq 
-  A_\hbar \otimes_{\mathbb{R}[ [ \hbar ] ]} \mathbb{R}
-$$
-
-hence the result of setting the formal parameter $\hbar$ ("[[Planck's constant]]") to 0. 
-
-=--
-
-+-- {: .num_remark}
-###### Remark
-
-The classical limit of a [[Beilinson-Drinfeld algebra]] is canonically a classical BV-complex, def. \ref{ClassicalBVComplexAsPoisson0Algebra}.
-
-=--
-
-+-- {: .num_defn #BVQuantizationByBDAlgebra}
-###### Definition
-
-For $A_{\hbar = 0}$ a classical BV complex, def. \ref{ClassicalBVComplexAsPoisson0Algebra}, a **BV quantization** of it is a [[Beilinson-Drinfeld algebra]] $A_{\hbar}$, def. \ref{BeilinsonDrinfeldAlgebra} whose classical limit, def. \ref{ClassicalLimitOfBeilinsonDrinfeldAlgebra}, is the given $A_{\hbar = 0}$.
-
-=--
-
-In ([Gwilliam 2013](#Gwilliam)) this is def. 2.2.6.
-
-
-[[!include action (physics) - table]]
-
-#### Quantum observables by BV-cohomology
- {#PathIntegrationAndQuantumObservablesByBVCohomology}
-
-
-+-- {: .num_defn }
-###### Definition
-
-Given a [[quantum BV-complex]], its [[cochain cohomology]] are the **[[expectation values]] of [[observables]]** of the [[theory (physics)|theory]].
-
-Specifically, an observable is a closed element $f$ in the quantum BV-complex and its _expectation value_ is its image $[f]$ in [[cochain cohomology]]. 
-
-=--
-
-+-- {: .num_remark }
-###### Remark
-
-Given a [[quantum BV-complex]] by def. \ref{BVQuantizationByBDAlgebra}
-its [[cochain cohomology]] is, by definition, a perturbation of that of its [[classical limit]] BV complex, def. \ref{ClassicalLimitOfBeilinsonDrinfeldAlgebra}. Accordingly, the quantum observables may be computed from the classical observables by the [[homological perturbation lemma]]. For [[free field theories]] this yields [[Wick's lemma]] and [[Feynman diagrams]] for computing observables. ([Gwilliam 2013, section 2.3](#Gwilliam)).
-
-=--
-
-+-- {: .num_remark }
-###### Remark
-
-For local theories (...) [[gauge fixing operator]] (...) [[Hodge theory]] (...)
-
-=--
-
-(...)
-
-### Poincar&#233; duality on Hochschild (co)homology and framed little disk algebra
- {#PoincareDualityOnHochschild}
-
-The [above](#HomologicalIntegration) duality between [[differential forms]] and [[multivector field]] may be understood in a more general context.
-
-Multivector fields may be understood in terms of [[Hochschild cohomology]] of $C$.
-Under the identification of 
-[[Hochschild homology]]/[[cyclic homology]] with  the [[de Rham complex]] the product of the  [[action functional]] 
-$\exp(i S(-))$ with a formal [[measure]] $vol$
-on $C$ is regarded as a [[cycle]] in [[cyclic homology]]. Or rather, 
-an [[isomorphism]] with [[Hochschild cohomology]] is picked,
-and interpreted as a choice of [[volume form]] $vol$ and 
-$\exp(i S(-))$ is regarded as a cocycle in cyclic cohomology, hence
-as a [[multivector field]] whose closure condition
-$\Delta \exp(i S(-)) = 0 $
-is the quantum master equation of BV-formalism.
-
-By the identification of [[Hochschild cohomology]]  
-with functions on [[derived loop space]]s we know that 
-the operator $\Delta$ encodes the rotation of loops. 
-Accordingly, the resuling [[BV-algebra]] has an interpretation
-as an algebra over (the homology of) the 
-[[framed little disk operad]]. 
-
-
-For certain algebras $A$ there exists [[Poincaré duality]] between [[Hochschild cohomology]] and [[Hochschild homology]]
-
-$$
-  \tau : HH_i(A) \to HH^{n-i}(A)
-$$
-
-([VanDenBergh](#VanDenBergh)) and this takes the [[Connes coboundary operator]] to the [[BV operator]] ([Ginzburg](#Ginzburg)).
 
 
 ## Related concepts
