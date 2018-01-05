@@ -40,7 +40,7 @@ $$
   \,,
 $$
 
-where on the rght we have the [[universal principal infinity-bundle|universal principal 2-bundle]].
+where on the right we have the [[universal principal infinity-bundle|universal principal 2-bundle]].
 
 The resulting [[Lie groupoid]] $\tilde P$ is an extension of the [[Cech groupoid]] $C(Y)$ by $AUT(H)$.
 This generalizes the case of ordinary [[bundle gerbe]]s, which are models for $\mathbf{B}U(1)$-principal 2-bundles, for $\mathbf{B}U(1)$ the <a href="http://ncatlab.org/nlab/show/Lie+infinity-groupoid#BnU1">circle 2-group</a>.
