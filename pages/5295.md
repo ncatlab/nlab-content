@@ -69,7 +69,7 @@ There is variant of the [[NuPrl]] type theory with choice sequences [PDF](http:/
 
 ## Mathematical principles
 
-Brouwer did not believe in a rigourous formalization of mathematics, for various reasons (amongst which the mathematical incompleteness of formal systems, as later proved by G&#246;del). He saw mathematical logic and formal systems as a correct part of mathematics, but held that this part could capture the essence nor the scope of mathematics in a meaningful way. Nonetheless he admitted that certain often-used arguments and mental constructions could be formalized `as an abbreviation'.
+Brouwer did not believe in a rigourous formalization of mathematics, for various reasons (amongst which the mathematical incompleteness of formal systems, as later proved by [[Gödel's incompleteness theorem]]). He saw mathematical logic and formal systems as a correct part of mathematics, but held that this part could capture the essence nor the scope of mathematics in a meaningful way. Nonetheless he admitted that certain often-used arguments and mental constructions could be formalized `as an abbreviation'.
 
 Brouwer's student Arend Heyting (who later succeeded Brouwer as professor in Amsterdam) formalized what is now known as [[intuitionistic logic]]. He also is largely responsible for the [[Brouwer-Heyting-Kolmogorov interpretation]] (BHK) of intuitionistic logic, BHK can be seen as a precursor to realizability. 
 
