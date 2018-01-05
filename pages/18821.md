@@ -1967,7 +1967,10 @@ where the [[differential operator]] (def. \ref{DifferentialOperator})
 
 $$
   \label{DifferentialOperatorEulerLagrangeDerivative}
-  \delta_{EL}
+  j^\infty_\Sigma(-)^\ast
+  \left(
+    \frac{\delta_{EL}L}{\delta \phi^{(-)}}
+  \right)
   \;\colon\;
   \Gamma_\Sigma(E)
     \longrightarrow
