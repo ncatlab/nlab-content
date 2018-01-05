@@ -114,13 +114,15 @@ $$
   A
 $$
 
-as
+as 
 
 $$
   A_1 \star_{F} A_2
   \;=\;
   \mathcal{T}( \mathcal{T}^{-1}A_1 \cdot \mathcal{T}^{-1}A_2 )
 $$
+
+([this prop.](time-ordered product#IsomorphismOnRegularPolynomialObservablesTimeOrderedandPointwise)).
 
 The _BV-operator_ $\Delta$ on [[regular polynomial observables]] is, up to a prefactor, the difference between the gauge-fixed [[BV-differential]] $s'$ from above with its transformation under this isomorphism:
 
