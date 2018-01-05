@@ -85,6 +85,8 @@ Brouwer's student Arend Heyting (who later succeeded Brouwer as professor in Ams
 
 Although it\'s not enough to derive all of the above, much of the essence of intuitionistic mathematics, or at least intuitionistic [[analysis]], can be summarized in the theorem that every (set-theoretic) [[function]] from the [[unit interval]] to the [[real line]] is [[uniformly continuous map|uniformly continuous]].
 
+Intuitionistic mathematics is often regarded as a specialization of [[Bishop's constructive mathematics]] obtained by adding the above principles, but this is somewhat questionable if it refers to what Bishop actually did (and in particular the fact that he worked with [[Bishop sets]]); see [[Bishop's constructive mathematics]] for discussion.
+
 
 ## Feel
 
