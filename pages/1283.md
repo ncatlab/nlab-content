@@ -31,7 +31,7 @@ The definition of _bundle gerbe_ is not in fact a special case (nor a generaliza
 
 ## Definition
 
-A **bundle gerbe'* over a [[smooth manifold]] $X$ is 
+A **bundle gerbe** over a [[smooth manifold]] $X$ is 
 
 * a [[surjective submersion]]
 
