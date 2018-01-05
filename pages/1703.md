@@ -29,7 +29,7 @@ An expository introduction to the concepts is at [[infinity-Chern-Weil theory in
 
 ## Definition
 
-For $G$ a topological of [[Lie 2-group]], a topological or smooth **$G$-principal 2-bundle** $P \to X$ is a topological or [[Lie groupoid]] that arises as the [[homotopy fiber]] of a [[cocycle]] $X \to \mathbf{B}G$ in [[ETop∞Grpd]] or [[Smooth∞Grpd]], respectively, i.e. as an [[(∞,1)-pullback]] of the form
+For $G$ a topological [[Lie 2-group]], a topological or smooth **$G$-principal 2-bundle** $P \to X$ is a topological or [[Lie groupoid]] that arises as the [[homotopy fiber]] of a [[cocycle]] $X \to \mathbf{B}G$ in [[ETop∞Grpd]] or [[Smooth∞Grpd]], respectively, i.e. as an [[(∞,1)-pullback]] of the form
 
 $$
   \array{
