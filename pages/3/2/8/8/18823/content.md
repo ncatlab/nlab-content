@@ -995,7 +995,9 @@ $\beta_{a_1 a_2} \in \mathcal{E}'(\Sigma \times \Sigma, E \boxtimes E)$ as
 $$
   A(\Phi)
     \;=\;
-  \int_{\Sigma \times \Sigma} \Phi^{a_1}(x_1) \beta_{a_1 a_2}(x_1,x_2) \Phi^{a_2}(x_2)\, dvol_\Sigma(x_1) dvol_\Sigma(x_2)
+  \int_{\Sigma \times \Sigma} 
+   \beta_{a_1 a_2}(x_1,x_2) 
+   \Phi^{a_1}(x_1) \cdot \Phi^{a_2}(x_2)\, dvol_\Sigma(x_1) dvol_\Sigma(x_2)
   \,.
 $$
 
@@ -1036,13 +1038,17 @@ $$
     &
     \phantom{=}
      +
-    \int_{\Sigma^2} \Phi^{a_1}(x_1) \Phi^{a_2}(x_2) \alpha^{(2)}_{a_1 a_2}(x_1, x_2) \, dvol_\Sigma(x_1) dvol_\Sigma(x_2)
+    \int_{\Sigma^2} 
+      \Phi^{a_1}(x_1) \cdot \Phi^{a_2}(x_2) 
+      \alpha^{(2)}_{a_1 a_2}(x_1, x_2) \, dvol_\Sigma(x_1) dvol_\Sigma(x_2)
     \\
     &
     \phantom{=}
      +
-    \int_{\Sigma^3} \Phi^{a_1}(x_1) \Phi^{a_2}(x_2) \Phi^{a_3}(x_3)
-    \alpha^{(3)}_{a_1 a_2 a_3}(x_1,x_2,x_3) \, dvol_\Sigma(x_1) dvol_\Sigma(x_2) dvol_\Sigma(x^3)
+    \int_{\Sigma^3} 
+      \Phi^{a_1}(x_1) \cdot \Phi^{a_2}(x_2) \cdot \Phi^{a_3}(x_3)
+      \alpha^{(3)}_{a_1 a_2 a_3}(x_1,x_2,x_3) 
+      \, dvol_\Sigma(x_1) dvol_\Sigma(x_2) dvol_\Sigma(x^3)
     \\
     &
     \phantom{=}
