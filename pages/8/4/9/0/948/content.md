@@ -47,7 +47,7 @@ Thus, constructivists (including many still active today) reject proofs that mak
 
 There are, however, differences among constructivists as well, even discounting the pluralists.
 
-* Some, like [[Errett Bishop]], simply remove choice and excluded middle from [[classical mathematics]] with nothing to replace them.  However, this makes it difficult to define a satisfactory notion of [[continuous function]], even from the [[real line]] to itself, without using [[locales]]; see (Waaldijk 2003).
+* Some, like [[Errett Bishop]], simply remove choice and excluded middle from [[classical mathematics]] with nothing to replace them.  (Although this is not quite a correct and complete description of [[Bishop's constructive mathematics]]; see there.)   However, this makes it difficult to define a satisfactory notion of [[continuous function]], even from the [[real line]] to itself, without using [[locales]]; see (Waaldijk 2003).
 
 * Others add "non-classical" axioms which contradict choice or excluded middle, but which are consistent in their absence, such as "all total functions $[0,1] \to \mathbb{R}$ are continuous" (the [[continuity axiom]] of the "[[intuitionism|intuitionistic]]" school of [[L. E. J. Brouwer]]) or "all partial functions $\mathbb{N} \to \mathbb{N}$ are computable" (the [[computability axiom]] of the "[[Russian constructivism|Russian]]" school of [[Andrey Markov Jr|A. A. Markov]], which is also called "constructive recursive analysis").
 
