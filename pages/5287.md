@@ -27,7 +27,7 @@ For the relation between the two see _[[relation between BV and BD]]_.
 
 ## In perturbative quantum field theory
 
-Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]] and let $\mathbf{L}' - \mathbf{L}'_{BRST}$ be its BV-BRSt [[Lagrangian density]] after [[gauge fixing]], so that the gauge-fixed [[local BRST complex|local BV-BRST differential]] is given by the [[local antibracket]] as
+Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]] admitting a [[gauge fixing]], and let $\mathbf{L}' - \mathbf{L}'_{BRST}$ be its BV-BRST [[Lagrangian density]] after [[gauge fixing]] ([this def.](A+first+idea+of+quantum+field+theory#GaugeFixingLagrangianDensity)), so that the gauge-fixed [[local BRST complex|local BV-BRST differential]] is given by the [[local antibracket]] as
 
 $$
   s' 
@@ -35,7 +35,7 @@ $$
   \left\{ -\mathbf{L}' + \mathbf{L}'_{BRST}, - \right\}
 $$
 
-The corresponding global BV-BRSt differential on [[regular polynomial observables]] is ([this def.](A+first+idea+of+quantum+field+theory#ComplexBVBRSTGlobal))
+The corresponding global BV-BRST differential on [[regular polynomial observables]] is ([this def.](A+first+idea+of+quantum+field+theory#ComplexBVBRSTGlobal))
 
 $$
   \left\{ -S' + S'_{BRST} \;,\; -\right\}
@@ -46,9 +46,21 @@ $$
   \,.
 $$
 
-By definition of [[gauge fixing]], the [[equation of motion]] for $\mathbf{L}'$ are [[Green hyperbolic differential equations|Green hyperbolic]] and hence admit, in particular, a _[[Wightman propagator]]_ $\Delta_H$ and a [[Feynman propagator]] $\Delta_F$.  The [[star products]] with respect to these ([this def.](star+product#PropagatorStarProduct)) are, respectively, the [[Wick algebra]] product 
+By definition of [[gauge fixing]] ([this def.](A+first+idea+of+quantum+field+theory#GaugeFixingLagrangianDensity)), the [[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]] for $\mathbf{L}'$ are [[Green hyperbolic differential equations|Green hyperbolic]] and hence have a [[causal propagator]] $\Deta = \Delta_+ - \Delta_-$ and admit a compatible _[[Wightman propagator]]_ $\Delta_H = \tfrac{i}{2}(\Delta_+ - \Delta_-) + H$ and the corresponding [[Feynman propagator]] $\Delta_F \coloneqq \tfrac{i}{2}(\Delta_+ + \Delta_-) + H$.  The [[star products]] with respect to these ([this def.](star+product#PropagatorStarProduct)) on [[regular polynomial observables]] 
 
 $$
+  \star_H, \star_F
+  \;\colon\;
+  PolyObs(E)_{reg}[ [\hbar] ]
+    \longrightarrow
+  PolyObs(E)_{reg}[ [\hbar] ]
+$$
+
+are, respectively, the [[Wick algebra]] product ([[operator product]], see [this def.](Wick+algebra#NormalOrderedProductNotation))
+
+$$
+  A_1 A_2
+  \;\coloneqq\;
   A_1 \star_H A_2 
   \;\coloneqq\;
   ((-) \cdot (-))
@@ -65,9 +77,11 @@ $$
   (A_1 \otimes A_2)
 $$
 
-and the [[time-ordered product]]
+and the [[time-ordered product]] (see again [this def.](Wick+algebra#NormalOrderedProductNotation))
 
 $$
+  T(A_1 A_2)
+  \;\coloneqq\;
   A_1 \star_F A_2 
   \;\coloneqq\;
   ((-) \cdot (-))
@@ -85,8 +99,7 @@ $$
   \,,
 $$
 
-
-Since the [[Feynman propagator]] is symmetric, the latter [[time ordered product]] on [[regular polynomial observables]] is [[isomorphism|isomorphic]] (via [this prop.](star+product#SymmetricContribution)) to the pointwise product, via
+Since the [[Feynman propagator]] is symmetric ([this prop.](A+first+idea+of+quantum+field+theory#SymmetricFeynmanPropagator)), the latter [[time ordered product]] on [[regular polynomial observables]] is [[isomorphism|isomorphic]] (via [this prop.](star+product#SymmetricContribution)) to the pointwise product, via
 
 $$
   \mathcal{T}A
