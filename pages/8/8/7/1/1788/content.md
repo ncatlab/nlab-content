@@ -1,2 +1,4 @@
 
-...
+$$
+  \array{ \Big\downarrow }
+$$
