@@ -16,7 +16,7 @@
 
 ## Idea
 
-In [[perturbative quantum field theory]] the _Schwinger-Dyson equation_ equates, [[on-shell]], the [[time-ordered product]] of the [[functional derivative]] of the [[action functional]] $S$ for a [[free field theory]] and another [[observable]] $A$ with the [[time ordered product|time ordering]] of the corresponding [[functional derivative]] of just $A$ itself, times $i \hbar$ ([[imaginary unit]] times [[Planck's constant]]):
+In [[perturbative quantum field theory]] the _Schwinger-Dyson equation_ ([Dyson 49](#Dyson49), [Schwinger 51](#Schinger51)) equates, [[on-shell]], the [[time-ordered product]] of the [[functional derivative]] of the [[action functional]] $S$ for a [[free field theory]] and another [[observable]] $A$ with the [[time ordered product|time ordering]] of the corresponding [[functional derivative]] of just $A$ itself, times $i \hbar$ ([[imaginary unit]] times [[Planck's constant]]):
 
 $$
   \mathcal{T}
@@ -104,42 +104,12 @@ $$
   0
 $$ 
 
-is the [[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]] (for the [[classical field theory]]) this may be interpreted as saying that the classical equations of motion for fields at $x_0$ still holds for [[quantum theory|quantum]] [[expectation values]], as long as all other observables are evaluated away from $x_0$.
+
+is  the [[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]] (for the [[classical field theory]]) "at $x_0$", this may be interpreted as saying that the classical equations of motion for fields at $x_0$ still hold for [[time-ordered product|time-ordered]] [[quantum theory|quantum]] [[expectation values]], as long as all other observables are evaluated away from $x_0$; while if observables do coincide at $x_0$ then there is a correction (governed by the [[BV-operator]] of the theory, see [this prop.](BV-operator#DysonSchwinger)).
 
 ## Details
 
-
-in which case the first term above becomes
-
-$$
-  \underset{\Sigma}{\int}
-    A^a(x) 
-    \frac{\delta S}{\delta \mathbf{\Phi}^a(x)}
-   \, dvol_\Sigma
-   \;=\;
-  \frac{\delta S}{\delta \mathbf{\Phi}^{a_0}(x_0)}
-  \cdot 
-  \mathbf{\Phi}^{a_1}(x_1) \cdots \mathbf{\Phi}^{a_n}(x_n)
-$$
-
-while the second becomes
-
-$$
-  \underset{\Sigma}{\int}
-    \frac{\delta A^a (x)}{\delta \mathbf{\Phi}^a(x)}
-  \, dvol_\Sigma
-  \;=\;
-  \mathbf{\Phi}^{a_1}(x_1)
-    \cdots
-  \mathbf{\Phi}^{a_{k-1}}(x_{k-1})
-    \cdot
-  \delta(x_0 - x_k) \delta^{a_0}_{a_k}
-    \cdots
-  \mathbf{\Phi}^{a_{k+1}}(x_{k+1})
-    \cdots
-  \mathbf{\Phi}^{a_n}(x_m)
-$$
-
+For details and proof see at _[[BV-operator]]_ [this prop.](BV-operator#DysonSchwinger), following [Rejzner 16, remark 7.7](#Rejzner16).
 
 ## Related concepts
 
@@ -149,13 +119,20 @@ $$
 
 ## References
 
-The traditional informal account in terms of [[path integral]]-heuristics is discussed for instance in
+The equation is originally due to 
+
+* {#Dyson49} [[Freeman Dyson]], _The S Matrix in Quantum Electrodynamics_, Phys. Rev. 75: 1736 (1949) ([doi:10.1103/PhysRev.75.1736](https://doi.org/10.1103/PhysRev.75.1736))
+
+* {#Schinger51} [[Julian Schwinger]], _On Green's functions of quantized fields I + II_, PNAS. 37: 452–459 (1951) ([doi:10.1073/pnas.37.7.452](https://doi.org/10.1073%2Fpnas.37.7.452))
+
+
+The traditional informal account in terms of [[path integral]]-heuristics is reviewed for instance in
 
 * {#Dermisek09} [[Radovan Dermisek]], _Schwinger-Dyson equations_, 2009  ([pdf](http://www.physics.indiana.edu/~dermisek/QFT_09/qft-II-4-4p.pdf))
 
-A rigorous derivation in [[causal perturbation theory]]/[[pAQFT]] is discussed in
+A rigorous derivation in terms of [[BV-formalism]] in [[causal perturbation theory]]/[[pAQFT]] is provided in
 
-* {#Rejzner16} [[Katarzyna Rejzner]], p. 152 of _Perturbative Algebraic Quantum Field Theory_, Mathematical Physics Studies, Springer 2016 ([web](https://link.springer.com/book/10.1007%2F978-3-319-25901-7))
+* {#Rejzner16} [[Katarzyna Rejzner]], remark 7.7 _Perturbative Algebraic Quantum Field Theory_, Mathematical Physics Studies, Springer 2016 ([web](https://link.springer.com/book/10.1007%2F978-3-319-25901-7))
 
 
 [[!redirects Schwinger-Dyson equations]]
