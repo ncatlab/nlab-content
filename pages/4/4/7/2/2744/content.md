@@ -813,7 +813,7 @@ In G. E. Kaiser, J. E. Marsden, Geometric methods in mathematical physics, Proc.
 
 * [14] P. A. M. Dirac, _Lectures on Quantum Mechanic_ Belfer Graduate School of Science, Yeshiva University, N.Y., 1964.
 
-* [15] M. Henneaux, C. Teitelboim, _Quantization of Gauge systems_ Princeton University Press, 1992.
+* [15] [[Marc Henneaux]], [[Claudio Teitelboim]], _[[Quantization of Gauge Systems]]_ Princeton University Press, 1992.
 
 * [16] M. J. Gotay, J. Isenberg, J. E. Marsden, R. Montgomery, _Momentum Maps and Classical Relativistic Fields II: Canonical Analysis of Field Theories_ (2004) [arXiv:math-ph/0411032](http://arxiv.org/abs/math-ph/0411032).
 
