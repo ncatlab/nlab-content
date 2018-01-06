@@ -239,7 +239,7 @@ Then the [[time-ordered product|time-ordered]] [[antibracket]] (def. \ref{Antibr
 $$
   \{-S',-\}_{\mathcal{T}}
   \;=\;
-  \mathcal{T} \circ \{-S',-\} \circ mathcal{T}^{-1}
+  \mathcal{T} \circ \{-S',-\} \circ \mathcal{T}^{-1}
   \,,
 $$
 
@@ -347,6 +347,7 @@ $$
 hence 
 
 $$
+  \label{BVOperatorDefiningRelation}
   \{-S',-\}_{\mathcal{T}}
   \;=\;
   \{-S',-\} + i \hbar \Delta_{BV}
@@ -514,6 +515,179 @@ Here we used
 
 =--
 
+#### Schwinger-Dyson equation
+  {#SchwingerDysonEquation}
+
+A special case of the general occurence of the [[BV-operator]] is the following important property of [[on-shell]] [[time-ordered products]]:
+
++-- {: .num_prop #DysonSchwinger}
+###### Proposition
+**([[Schwinger-Dyson equation]])**
+
+Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]] ([this def.](A+first+idea+of+quantum+field+theory#FreeFieldTheory)) with [[gauge fixing|gauge fixed]] BV-BRST [[Lagrangian density]] $-\mathbf{L}' + \mathbf{L}'_{BRST}$ ([this def.](A+first+idea+of+quantum+field+theory#GaugeFixingLagrangianDensity)) on a graded BV-BRST [[field bundle]] $E_{\text{BV-BRST}} \coloneqq T^\ast[-1]_{\Sigma,inf}(E \times_\Sigma \mathcal{G}[1] \times_{\Sigma} A \times_\Sigma A[-1])$.
+
+Let 
+
+$$
+  \label{SchwingerDysonTestObservable}
+  A
+  \;\coloneqq\;
+  \underset{\Sigma}{\int}
+    A^a(x) \cdot \mathbf{\Phi}^\ddagger_a(x)
+  \, dvol_\Sigma(x)
+  \;\in\;
+  PolyObs(E_{\text{BV-BRST}})
+$$
+
+be a [[polynomial observable]] which is linear in the [[antifields]] $\Phi^\ddagger$. Then 
+
+$$
+  \label{EquationSchwingerDyson}
+  \mathcal{T}^{-1}
+  \left(
+    \underset{\Sigma}{\int}
+      \frac{\delta S'}{\delta \mathbf{\Phi}^a(x)}
+      \cdot
+      A^a(x)
+      \, dvol_\Sigma(x)
+  \right)
+  \;=\;
+  - i \hbar
+  \mathcal{T}^{-1}
+  \left(
+    \underset{\Sigma}{\int}
+    \frac{\delta A^a(x)}{\delta \mathbf{\Phi}^a(x)}
+    \,
+    dvol_\Sigma(x)     
+  \right)  
+  \phantom{AAA}
+  \text{on-shell}
+  \,.
+$$
+
+This is called the _[[Schwinger-Dyson equation]]_.
+
+=--
+
+The following proof is due to ([Rejzner 16, remark 7.7](#Rejzner16)).
+
++-- {: .proof}
+###### Proof
+
+Applying the inverse time-ordering map $\mathcal{T}^{-1}$ ([this prop.](time-ordered+product#IsomorphismOnRegularPolynomialObservablesTimeOrderedandPointwise)) to equation (eq:BVOperatorDefiningRelation) applied to $A$ yields
+
+$$
+  \underset{
+    \mathcal{T}^{-1}
+    \underset{\Sigma}{\int}
+      \frac{\delta S'}{\delta \mathbf{\Phi}^a(x)}
+      \cdot
+      A^a(x)
+    dvol_\Sigma(x)
+  }{
+  \underbrace{
+    \mathcal{T}^{-1}\left\{ -S', A\right\}
+  }
+  }
+  \;=\;
+  -
+  \underset{
+    i \hbar
+    \mathcal{T}^{-1}
+    \underset{\Sigma}{\int} 
+      \frac{\delta A^a(x)}{\delta \mathbf{\Phi}^a(x)} 
+    \, dvol_\Sigma
+  }{
+  \underbrace{
+    i \hbar \mathcal{T}^{-1}\Delta_{BV}(A)
+  }
+  }
+  +
+  \underset{
+    \{-S',\mathcal{T}^{-1}(A)\}
+  }{
+  \underbrace{
+    \mathcal{T}^{-1}\left\{ -S',A\right\}_{\mathcal{T}}
+  }
+  }
+$$
+
+where we have identified the terms under the braces by 1) the component expression for the BV-differential $\{-S',-\}$ from [this prop](A+first+idea+of+quantum+field+theory#BVDifferentialGlobal), 2) prop. \ref{ComponentsBVOperator} and 3) prop. \ref{GaugeFixedActionFunctionalTimeOrderedAntibracket}.
+
+The last term is in the [[image]] of the [[BV-differential]] $\{-S',-\}$ and hence vanishes [[on-shell]] (by [this example.](A+first+idea+of+quantum+field+theory#BVDifferentialGlobal)).
+
+=--
+
++-- {: .num_remark #SchwingerDysonDistributional}
+###### Remark
+**([[distribution|distributional]] [[Schwinger-Dyson equation]])**
+
+
+Traditionally the [[Schwinger-Dyson equation]] (prop. \ref{DysonSchwinger}) is displayed before spacetime-smearing of [[field observables]] in terms of [[operator products]] of [[operator-valued distributions]], taking the observable $A$ in (eq:SchwingerDysonTestObservable) to be
+
+$$
+  A^a(x) 
+    \;\coloneqq\;
+  \delta(x-x_0) \delta^a_{a_0} 
+  \mathbf{\Phi}^{a_1}(x_1) \cdots \mathbf{\Phi}^{a_n}(x_n)
+  \,.
+$$
+
+This choice makes (eq:EquationSchwingerDyson) become the [[distribution|distributional]] [[Schwinger-Dyson equation]]
+
+$$
+  T
+  \left(
+    \frac{\delta S}{\delta \mathbf{\Phi}^{a_0}(x_0)}
+      \cdot 
+    \mathbf{\Phi}^{a_1}(x_1) \cdots \mathbf{\Phi}^{a_n}(x_n)
+  \right)
+  \;=\;
+  - i \hbar
+  T
+  \left(
+    \mathbf{\Phi}^{a_1}(x_1)
+      \cdots
+    \mathbf{\Phi}^{a_{k-1}}(x_{k-1})
+      \cdot
+    \delta(x_0 - x_k) \delta^{a_0}_{a_k}
+      \cdots
+    \mathbf{\Phi}^{a_{k+1}}(x_{k+1})
+      \cdots
+    \mathbf{\Phi}^{a_n}(x_m)
+  \right)
+  \phantom{AAA}
+  \text{on-shell}
+$$
+
+(e.q. [Dermisek 09](Schwinger-Dyson+equation#Dermisek09)).
+
+In particular this means that if $(x_0,a_0) \neq (x_k, a_k)$ for all $k \in \{1,\cdots ,n\}$ then
+
+$$
+  T
+  \left(
+    \frac{\delta S}{\delta \mathbf{\Phi}^{a_0}(x_0)}
+      \cdot 
+    \mathbf{\Phi}^{a_1}(x_1) \cdots \mathbf{\Phi}^{a_n}(x_n)
+  \right)
+  \;=\;
+  0
+  \phantom{AAA}
+  \text{on-shell}
+$$
+
+Since by the [[principle of extremal action]] ([this prop.](A+first+idea+of+quantum+field+theory#PrincipleOfExtremalAction)) the equation 
+
+$$
+  \frac{\delta S}{\delta \mathbf{\Phi}^{a_0}(x_0)}
+  \;=\;
+  0
+$$ 
+
+is  the [[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]] (for the [[classical field theory]]) "at $x_0$", this may be interpreted as saying that the classical equations of motion for fields at $x_0$ still hold for [[time-ordered product|time-ordered]] [[quantum theory|quantum]] [[expectation values]], as long as all other observables are evaluated away from $x_0$; while if observables do coincide at $x_0$ then there is a correction measured by the [[BV-operator]].
+
+=--
 
 ## References
 
@@ -521,6 +695,7 @@ The concept originates with
 
 * {#BatalinVilkovisky81} [[Igor Batalin]], [[Grigori Vilkovisky]],  _Gauge Algebra and Quantization_, Phys. Lett. B 102 (1): 27&#8211;31, 1981 ([doi:10.1016/0370-2693(81)90205-7](https://doi.org/10.1016/0370-2693(81)90205-7)) 
 
+see at _[[BV-formalism]]_ for more references.
 
 The understanding of the BV-operator in the rigorous formulation [[perturbative quantum field theory]] via [[causal perturbation theory]]/[[perturbative AQFT]] is due to 
 
