@@ -3086,8 +3086,56 @@ $$
 
 for this (global) _[[BV-BRST differential]]_.
 
-The resulting [[chain complex]] is called the (global) _[[BV-BRST complex]]_ of the given [[Lagrangian field theory]] with the chosen 
-[[gauge parameters]].
+This uniquely extends as a graded [[derivation]] to [[multilocal observables]] (def. \ref{LocalObservables}) and from there along the [[dense subspace]] inclusion  (eq:InclusionOfPolynomialLocalObservablesIntoPolynomialObservables)
+
+$$
+  PolyMultiLocObs(E_{\text{BV-BRST}})
+    \overset{\text{dense}}{\hookrightarrow}
+  PolyObs(E_{\text{BV-BRST}})
+$$
+
+to a differential on [[off-shell]] [[polynomial observables]] (def. \ref{PolynomialObservables}):
+
+$$
+  \{-S' + S'_{BRST}\}
+   \;\colon\;
+  PolyObs(E_{\text{BV-BRST}})
+    \longrightarrow
+  PolyObs(E_{\text{BV-BRST}})
+$$
+
+This [[differential graded-commutative superalgebra]] 
+
+$$
+  \label{GlobalBVComplexdgAlgebra}
+  \left(
+    \left(
+      \underset{
+        \text{vector space}
+      }{
+      \underbrace{
+        PolyObs(E_{\text{BV-BRST}})
+      }}
+      ,
+      \underset{
+        \text{product}
+      }{
+      \underbrace{
+        (-)\cdot(-)
+      }}
+    \right)
+    ,
+    \underset{
+      \text{differential}
+    }{
+    \underbrace{
+      \{-S' + S'_{BRST}, -\}
+    }}
+  \right)
+$$
+
+is the _global [[BV-BRST complex]]_ of the given [[Lagrangian field theory]] with the chosen [[gauge parameters]].
+
 
 =--
 
@@ -3144,6 +3192,26 @@ $$
 
 is the [[differential operator]] (eq:DifferentialOperatorEulerLagrangeDerivative) from def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime}, corresponding to the [[Euler-Lagrange equation|Euler-Lagrange]] [[equations of motion]].
 
+It follows that the [[cochain cohomology]] of the global [[BV-differential]] $\{-S',-\}$ (eq:GlobalBVComplexdgAlgebra) in $deg_{af} = 0$ is the space of [[on-shell]] [[polynomial observables]]:
+
+$$
+  \label{OnShellPolynomialObservablesAsBVCohomology}
+  \underset{
+    \text{off-shell}
+  }{
+  \underbrace{
+    PolyObs(E_{\text{BV-BRST}})_{def(af = 0)}
+  }}/im(\{-S',-\})
+  \;\simeq\;
+  \underset{
+    \text{on-shell}
+  }{
+  \underbrace{
+    PolyObs(E_{\text{BV-BRST}}, \mathbf{L}')
+  }}
+  \,.
+$$
+
 =--
 
 +-- {: .proof}
@@ -3158,12 +3226,14 @@ $$
   \frac{\delta}{\delta \phi^{\ddagger}_A}
 $$
 
-With this the claim follows directly from the definition of the global antibracket (def. \ref{ComplexBVBRSTGlobal}) and the [[Euler-Lagrange equations]] (eq:DifferentialOperatorEulerLagrangeDerivative)
+With this the expression for $\{-S',-\}$ follows directly from the definition of the global antibracket (def. \ref{ComplexBVBRSTGlobal}) and the [[Euler-Lagrange equations]] (eq:DifferentialOperatorEulerLagrangeDerivative)
 
 $$
   (P \Phi)_A = j^\infty_\Sigma(\Phi)\left( \frac{\delta_{EL} L}{\delta \phi^A} \right)
   \,.
 $$
+
+Finally from this the identification (eq:OnShellPolynomialObservablesAsBVCohomology) follows by (eq:PolynomialOnShellObservablesArePolynomialOffShellobservableModuloTheEquationsOfMotion) in theorem \ref{LinearObservablesForGreeFreeFieldTheoryAreDistributionalSolutionsToTheEquationsOfMotion}.
 
 =--
 
