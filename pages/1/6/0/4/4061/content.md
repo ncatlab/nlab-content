@@ -120,6 +120,7 @@ On [[integrable system]]s and [[soliton]]s:
 
 * Ludwig D. Faddeev, Leon Takhtajan, _Hamiltonian methods in the theory of solitons_, Springer
 
+
 ## Modern mathematical approaches to QFT and strings
 
 On [[quantum field theory]] and [[string theory]]:
@@ -130,7 +131,9 @@ On [[quantum field theory]] and [[string theory]]:
 
 * Howard Georgi: _Lie Algebras in Particle Physics. From isospin to unified theories._ ([ZMATH entry] (http://www.zentralblatt-math.org/zmath/en/advanced/?q=an:0505.00036&format=complete))
 
-* Eberhard Zeidler, *Quantum field theory. A bridge between mathematicians and physicists*. I: Basics in mathematics and physics. , II: Quantum electrodynamics
+* [[Eberhard Zeidler]], *Quantum field theory. A bridge between mathematicians and physicists*. I: Basics in mathematics and physics. , II: Quantum electrodynamics
+
+* {#HenneauxTeitelboim} [[Marc Henneaux]], [[Claudio Teitelboim]], _[[Quantization of Gauge Systems]]_, Princeton University Press 1992. 
 
 * Charles Nash, *Differential topology and quantum field theory*, Acad. Press 1991.
 
