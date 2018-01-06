@@ -2390,10 +2390,11 @@ Given a [[Lagrangian field theory]] $(E,\mathbf{L})$ (def. \ref{LocalLagrangianD
 
 1. modulo [[total spacetime derivatives]]
 
-1. restricted to the [[shell]] $\mathcal{E}^\infty$ (eq:ProlongedShellInJetBundle):
 
 $$
-  LocObs(E) \;\coloneqq\; \left(\Omega^{p+1,0}_{\Sigma,cp}(E)/(im(d))\right)\vert_{\mathcal{E}^\infty}
+  LocObs(E) 
+    \;\coloneqq\; 
+  \left(\Omega^{p+1,0}_{\Sigma,cp}(E)/(im(d))\right)\vert_{\mathcal{E}^\infty}
 $$
 
 which we may identify with the subspace of all observables (eq:GlobalObservables)
@@ -2402,22 +2403,25 @@ on those that arise as the [[image]] under
 of local observables to [[functionals]] on the [[on-shell]] [[space of field histories]] (eq:OnShellFieldHistories):
 
 $$
-  LocObs(E)
-    \overset{\tau_\Sigma}{\hookrightarrow}
-  \in
-  C^\infty\left( \Gamma_\Sigma(E)_{\delta_{EL}\mathbf{L} = 0} \right)
+  \array{
+    LocObs(E)
+      &\overset{\tau_\Sigma}{\hookrightarrow}&
+    Obs(E)
+    \\
+    \alpha &\maptos& \tau_\Sigma \alpha
+  }
   \,.
 $$
 
-This is a sub-vector space inside all observables which is in general not closed under the product of functions. We write
+This is a sub-vector space inside all observables which is in general not closed under the pointwise product of observables (eq:ObservablesPointwiseProduct). Write
 
 $$
   MultiLocObs(E)
-    \;\coloneqq\;
-  \langle LocObs_\Sigma \rangle_{C^\infty\left(\Gamma_\Sigma(E)\right)_{\delta_{EL}\mathbf{L} = 0}}
+    \hookrightarrow
+  Obs(E)
 $$
 
-for the smallest subalgebra of observables, under the pointwise product, that contains all the local observables. This is called the algebra of _multilocal observables_.
+for the smallest subalgebra of observables, under the pointwise product (eq:ObservablesPointwiseProduct), that contains all the local observables. This is called the algebra of _[[multilocal observables]]_.
 
 =--
 
