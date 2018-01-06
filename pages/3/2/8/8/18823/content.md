@@ -2413,7 +2413,7 @@ $$
   \,.
 $$
 
-This is a sub-vector space inside all observables which is in general not closed under the pointwise product of observables (eq:ObservablesPointwiseProduct). Write
+This is a sub-vector space inside all observables which is however not closed under the pointwise product of observables (eq:ObservablesPointwiseProduct) (unless $E =0). We write
 
 $$
   MultiLocObs(E)
@@ -2422,6 +2422,19 @@ $$
 $$
 
 for the smallest subalgebra of observables, under the pointwise product (eq:ObservablesPointwiseProduct), that contains all the local observables. This is called the algebra of _[[multilocal observables]]_.
+
+The [[intersetion]] of the (multi-)[[local observables]] with the [[off-shell]] [[polynomial observables]] (def. \ref{PolynomialObservables}) are the (multi-)local polynomial observables
+
+$$
+  \label{InclusionOfPolynomialLocalObservablesIntoPolynomialObservables}
+  PolyLocObs(E) 
+   \hookrightarrow 
+  PolyMultiLocObs(E)
+   \overset{\text{dense}}{\hookrightarrow}
+  PolyObs(E)
+    \hookrightarrow
+  Obs(E)
+$$
 
 =--
 
