@@ -3161,6 +3161,7 @@ assume that the [[field bundles]] of all [[field (physics)|fields]], [[ghost fie
 Then the first summand of the global BV-BRST differential (def. \ref{ComplexBVBRSTGlobal}) is given by
 
 $$
+  \label{ComponentsOfGlobalBVDifferential}
   \begin{aligned}
     \left\{ -S', -\right\}
     & =
@@ -3186,11 +3187,13 @@ $$
 
 where 
 
-$$
-  P \;\colon\; \Gamma_\Sigma(E) \longrightarrow \Gamma_\Sigma(E^\ast)
-$$
+1. $P \;\colon\; \Gamma_\Sigma(E) \longrightarrow \Gamma_\Sigma(E^\ast)$
 
-is the [[differential operator]] (eq:DifferentialOperatorEulerLagrangeDerivative) from def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime}, corresponding to the [[Euler-Lagrange equation|Euler-Lagrange]] [[equations of motion]].
+   is the [[differential operator]] (eq:DifferentialOperatorEulerLagrangeDerivative) from def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime}, corresponding to the [[Euler-Lagrange equation|Euler-Lagrange]] [[equations of motion]].
+
+1. $deg(\phi^A) \coloneqq n_{(\Phi^A)} + \sigma_{\Phi^A} \;\in\; \mathbb{Z}/2$
+
+   is the sum of the cohomological degree and of the super-degree of $\Phi^A$ (as in def. \ref{differentialgradedcommutativeSuperalgebra}, def. \ref{A+first+idea+of+quantum+field+theoryDifferentialFormOnSuperCartesianSpaces}).
 
 It follows that the [[cochain cohomology]] of the global [[BV-differential]] $\{-S',-\}$ (eq:GlobalBVComplexdgAlgebra) in $deg_{af} = 0$ is the space of [[on-shell]] [[polynomial observables]]:
 
@@ -3233,7 +3236,36 @@ $$
   \,.
 $$
 
-Finally from this the identification (eq:OnShellPolynomialObservablesAsBVCohomology) follows by (eq:PolynomialOnShellObservablesArePolynomialOffShellobservableModuloTheEquationsOfMotion) in theorem \ref{LinearObservablesForGreeFreeFieldTheoryAreDistributionalSolutionsToTheEquationsOfMotion}.
+where the sign $(-1)^{deg(\phi^A)}$ is the relative sign between $\frac{\delta_{EL} L}{\delta \phi^A} = \frac{\overset{\rightarrow}{\delta}_{EL} L'}{\delta \phi^A}$ and $\frac{\overset{\leftarrow}{\delta}_{EL} L'}{\delta \phi^A}$ (def. \ref{SchoutenBracketAndAntibracket}): 
+
+By the assumption that $L'$ defines a [[free field theory]], $\mathbf{L}'$ is quadratic in the fields, so that from $deg(\mathbf{L}) = 0$ it follows that the derivations from the left and from the right differ by the relative sign
+
+
+$$
+  \begin{aligned}
+    (-1)^{
+      \left(
+        n_{(\phi^A)} n_{(\phi^A)} 
+          + 
+        \sigma_{(\phi^A)} \sigma_{(\phi^A)}
+      \right)
+    }
+    & =
+    (-1)^{
+      \left(
+        n_{(\phi^A)} + \sigma_{(\phi^A)}
+      \right)
+    }
+    \\
+    & =
+    (-1)^{deg(\phi^A)}
+  \end{aligned}
+  \,.
+$$
+
+
+From this the identification (eq:OnShellPolynomialObservablesAsBVCohomology) follows by (eq:PolynomialOnShellObservablesArePolynomialOffShellobservableModuloTheEquationsOfMotion) in theorem \ref{LinearObservablesForGreeFreeFieldTheoryAreDistributionalSolutionsToTheEquationsOfMotion}.
+
 
 =--
 
