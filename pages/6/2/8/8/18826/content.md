@@ -1487,7 +1487,7 @@ We will recognize the [[formal duality|dual]] incarnation of this in [[higher Li
 Let $\mathfrak{g}$ be a [[finite dimensional vector space|finite dimensional]] [[super vector space]]
 equipped with a [[super Lie algebra|super]] [[Lie bracket]] $[-,-] \colon \mathfrak{g} \otimes \mathfrak{g} \to \mathfrak{g}$.
 Write $\mathfrak{g}^\ast$ for the [[dual vector space]] and $[-,-]^\ast \;\colon\; \mathfrak{g}^\ast \to \mathfrak{g}^\ast \wedge \mathfrak{g}^\ast$ for the [[linear dual]] map of the [[Lie bracket]]. Then on the [[Grassmann algebra]] $\wedge^\bullet \mathfrak{g}^\ast$
-(which is $\mathbb{Z} \times \mathbb{Z}(2$ bigraded as in def. \ref{DifferentialFormOnSuperCartesianSpaces})
+(which is $\mathbb{Z} \times \mathbb{Z}/2$-bigraded as in def. \ref{DifferentialFormOnSuperCartesianSpaces})
 the graded [[derivation]] $d_{CE}$ of degree $(1,even)$, which on $\mathfrak{g}^\ast$ is given by $[-,-]^\ast$ constitutes a [[differential]]
 in that $(d_{CE})^2 = 0$. The resulting [[differential graded-commutative algebra]] is called the [[Chevalley-Eilenberg algebra]]
 
