@@ -17,15 +17,24 @@ The primary systems are called $T_0$ (the classical variant) and $T_0^i$ (the in
  
 ## The basic theory of operations and numbers
 
-The first-order part of the systems treat an applicative universe in the sense of combinatory algebra. It includes constants $k$ and $s$ (combinators), $p$, $p_0$, and $p_1$ (pairing and projection), $0$, $s_N$, and $p_N$ (zero, successor, and predecessor), and $d_N$ (definition by cases on the natural numbers), and possibly further applicative constants.
+The first-order part of the systems treat an applicative universe in the sense of combinatory algebra. It includes constants $\mathrm{k}$ and $\mathrm{s}$ (combinators), $\mathrm{p}$, $\mathrm{p}_0$, and $\mathrm{p}_1$ (pairing and projection), $0$, $\mathrm{s}_N$, and $\mathrm{p}_N$ (zero, successor, and predecessor), and $\mathrm{d}_N$ (definition by cases on the natural numbers), and possibly further applicative constants.
 
-There is one binary function symbol $\cdot$ for application, and one unary relation symbol $\downarrow$ (defined), as well as equality.
+There is one binary function symbol ${\cdot}$ for application (usual just indicated by juxtaposition), one unary relation symbol $\downarrow$ for being defined, one unary relation symbol $\mathrm{N}$ for natural numbers, as well the binary equality relation.
 
-[todo: write the axioms for the applicative constants]
+In the logic of partial terms, we use the usual abbreviation $s \simeq t \leftrightarrow ({s\downarrow} \wedge {t\downarrow} \to s=t)$. The basic axioms for the operations and natural numbers are:
+
+1. $\mathrm{k} a b = a$,
+1. $\mathrm{s} a b \downarrow \wedge \mathrm{s} a b c \simeq a c(b c)$,
+1. $\mathrm{p}_0(a,b)=a \wedge \mathrm{p}_1(a,b) = b$,
+1. $0\in N \wedge (\forall x\in N)(\mathrm{s}_N x \in N)$,
+1. $(\forall x\in N)(\mathrm{s}_N x \ne 0 \wedge \mathrm{p}_N(\mathrm{s}_N x)=x)$,
+1. $(\forall x\in N)(x\ne0 \to \mathrm{s}_N(\mathrm{p}_N x) = x)$,
+1. $a\in N \wedge b\in N \wedge a=b \to \mathrm{d}_N u v a b = u$,
+1. $a\in N \wedge b\in N \wedge a\ne b \to \mathrm{d}_N u v a b = v$.
 
 ## Elementary comprehension
 
-When we go from the purely applicative theory to the theories of classes and names, we add a second sort (for classes) as well as several new constants, a binary relation symbol $\in$ (for membership) and a binary relation symbol for names $\mathfrak R$, where $\mathfrak R(s, U)$ means that $s$ is a name for the class $U$.
+When we go from the purely applicative theory to the theories of classes and names, we add a second sort (for classes) as well as several new constants, a binary relation symbol $\in$ (for membership) and a binary relation symbol for names $\Re$, where $\Re(s, U)$ means that $s$ is a name for the class $U$.
 
 [todo: write the axioms of elementary comprehension]
 
