@@ -44,6 +44,8 @@ More precisely, the time-ordere product is a  [[commutative algebra]]-[[structur
 
 ### On regular polynomial observables
  {#OnRegularPolynomialObservables}
+
+
 +-- {: .num_defn #OnRegularPolynomialObservablesTimeOrderedProduct}
 ###### Definition
 **([[time-ordered product]] on [[regular polynomial observables]])**
@@ -274,6 +276,22 @@ $$
 Since the [[Feynman propagator]] is symmetric ([this prop.](A+first+idea+of+quantum+field+theory#SymmetricFeynmanPropagator)), the statement is a special case of [this prop.](star+product#SymmetricContribution)).
 
 =--
+
+### On local observables
+ {#OnLocalObservables}
+
+The time-ordered product on regular polynomial observables from prop. \ref{OnRegularPolynomialObservablesTimeOrderedProduct} extends to a product on [[polynomial observable|polynomial]] [[local observables]], then taking values in [[microcausal observables]]:
+
+$$
+  T
+  \;\colon\;
+  PolyLocObs(E)^{\otimes_n}[ [\hbar] ]
+    \longrightarrow
+  PolyObs(E)_{mc}[ [\hbar] ]
+  \,.
+$$
+
+This extension is not unique. A choice of such an extension, satisfying some evident compatibility conditions, is a choice of _[[renormalization scheme]]_ for the given [[perturbative quantum field theory]]. Every such choice corresponds to a choice of [[perturbative S-matrix]] for the theory. This construction is called _[[causal perturbation theory]]_.
 
 ## Related concepts
 
