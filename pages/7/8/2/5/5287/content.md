@@ -74,6 +74,8 @@ For more on this perspective see at _[[BV-BRST formalism]]_ the section _[Quantu
 ### In causal perturbation theory
   {#InCausalPerturbationTheory}
 
+#### Background
+
 Recall the following context
 
 Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]] admitting a [[gauge fixing]], and let $\mathbf{L}' - \mathbf{L}'_{BRST}$ be its BV-BRST [[Lagrangian density]] after [[gauge fixing]] ([this def.](A+first+idea+of+quantum+field+theory#GaugeFixingLagrangianDensity)), so that the gauge-fixed [[local BRST complex|local BV-BRST differential]] is given by the [[local antibracket]] as
@@ -175,7 +177,7 @@ $$
 
 ([this prop.](time-ordered+product#IsomorphismOnRegularPolynomialObservablesTimeOrderedandPointwise)).
 
-
+#### Free field theory
 
 +-- {: .num_defn #AntibracketTimeOrdered}
 ###### Definition
@@ -511,6 +513,7 @@ Here we used
 1.  under the second brace that the [[Feynman propagator]] is $+i$ times the [[Green function]] for the [[Green hyperbolic differential equation|Green hyperbolic]] [[Euler-Lagrange equation|Euler-Lagrange]] [[equations of motion]] ([this cor.](A+first+idea+of+quantum+field+theory#GreenFunctionFeynmanPropagator)).
 
 =--
+
 
 ## References
 
