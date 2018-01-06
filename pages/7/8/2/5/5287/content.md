@@ -1,6 +1,4 @@
 
-> under construction
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -570,7 +568,7 @@ This is called the _[[Schwinger-Dyson equation]]_.
 
 =--
 
-The following proof is due to ([Rejzner 16, remark 7.7](#Rejzner16)).
+The following proof is due to ([Rejzner 16, remark 7.7](#Rejzner16)) following the informal traditional argument ([Henneaux-Teitelboim 92, (15.108b)](#HenneauxTeitelboim92)).
 
 +-- {: .proof}
 ###### Proof
@@ -619,12 +617,30 @@ The last term is in the [[image]] of the [[BV-differential]] $\{-S',-\}$ and hen
 
 =--
 
++-- {: .num_remark }
+###### Remark
+**("Schwinger-Dyson operator")**
+
+The proof of the [[Schwinger-Dyson equation]] in prop. \ref{DysonSchwinger} shows that, up to [[time-ordered product|time-ordering]], the [[Schwinger-Dyson equation]] is the on-shell vanishing of the "quantized" [[BV-differential]] (eq:BVOperatorDefiningRelation)
+
+$$
+  \{-S',-\}_{\mathcal{T}}
+  \;=\;
+  \{-S', -\}
+  \,+\,
+  i \hbar \, \Delta_{BV}
+  \,,
+$$
+
+where the [[BV-operator]] is the quantum correction of order $\hbar$. Therefore this is also called the _Schwinger-Dyson operator_ ([Henneaux-Teitelboim 92, (15.111)](#HenneauxTeitelboim92)).
+
+=--
+
 +-- {: .num_remark #SchwingerDysonDistributional}
 ###### Remark
 **([[distribution|distributional]] [[Schwinger-Dyson equation]])**
 
-
-Traditionally the [[Schwinger-Dyson equation]] (prop. \ref{DysonSchwinger}) is displayed before spacetime-smearing of [[field observables]] in terms of [[operator products]] of [[operator-valued distributions]], taking the observable $A$ in (eq:SchwingerDysonTestObservable) to be
+Often the [[Schwinger-Dyson equation]] (prop. \ref{DysonSchwinger}) is displayed before spacetime-smearing of [[field observables]] in terms of [[operator products]] of [[operator-valued distributions]], taking the observable $A$ in (eq:SchwingerDysonTestObservable) to be
 
 $$
   A^a(x) 
@@ -645,7 +661,8 @@ $$
     \mathbf{\Phi}^{a_1}(x_1) \cdots \mathbf{\Phi}^{a_n}(x_n)
   \right)
   \\
-  & \underset{\text{on-shell}}{=}
+  & 
+  \underset{\text{on-shell}}{=}
   - i \hbar
   \underset{k}{\sum}
   T
@@ -660,6 +677,7 @@ $$
       \cdots
     \mathbf{\Phi}^{a_n}(x_m)
   \right)
+  \end{aligned}
 $$
 
 (e.q. [Dermisek 09](Schwinger-Dyson+equation#Dermisek09)).
@@ -697,7 +715,9 @@ The concept originates with
 
 * {#BatalinVilkovisky81} [[Igor Batalin]], [[Grigori Vilkovisky]],  _Gauge Algebra and Quantization_, Phys. Lett. B 102 (1): 27&#8211;31, 1981 ([doi:10.1016/0370-2693(81)90205-7](https://doi.org/10.1016/0370-2693(81)90205-7)) 
 
-see at _[[BV-formalism]]_ for more references.
+Traditional review includes
+
+* {#HenneauxTeitelboim92} [[Marc Henneaux]], [[Claudio Teitelboim]], section 15.5.3  of _[[Quantization of Gauge Systems]]_, Princeton University Press, 1992
 
 The understanding of the BV-operator in the rigorous formulation [[perturbative quantum field theory]] via [[causal perturbation theory]]/[[perturbative AQFT]] is due to 
 
@@ -709,5 +729,10 @@ surveyed in
 
 * {#Rejzner16} [[Katarzyna Rejzner]], section 7.3 of _[[Perturbative Algebraic Quantum Field Theory]]_, Mathematical Physics Studies, Springer 2016 ([web](https://link.springer.com/book/10.1007%2F978-3-319-25901-7))
 
+See at _[[BV-formalism]]_ for more references.
+
 
 [[!redirects BV-operators]]
+
+[[!redirects Schwinger-Dyson operator]]
+[[!redirects Schwinger-Dyson operators]]
