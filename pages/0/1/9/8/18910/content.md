@@ -34,9 +34,21 @@ In the logic of partial terms, we use the usual abbreviation $s \simeq t \leftri
 
 ## Elementary comprehension
 
-When we go from the purely applicative theory to the theories of classes and names, we add a second sort (for classes) as well as several new constants, a binary relation symbol $\in$ (for membership) and a binary relation symbol for names $\Re$, where $\Re(s, U)$ means that $s$ is a name for the class $U$.
+When we go from the purely applicative theory to the theories of classes and names, we add a second sort (for classes) as well as several new constants, a binary relation symbol $\in$ (for membership) and a binary relation symbol for names $\Re$, where $\Re(s, U)$ means that $s$ is a name for the class $U$. We use the abbreviation $\Re(s) :\leftrightarrow \exists U \Re(s,U)$, indicating that $s$ is a name.
 
-[todo: write the axioms of elementary comprehension]
+The basic axioms regarding classes and names state that every class has a name, that there are no homonyms, and that $\Re$ respects extensional equality.
+
+The names of classes corresponding to elementary comprehension are generated from $nat$ (natural numbers) and $id$ (the equality relation) using $co$ (complements), $int$ (intersections), $dom$ (domains), and $inv$ (inverse images). [These are for the classical systems. The intuitionistic systems are slightly different. Todo: look this up]
+
+Using the abbreviation $s\dot\in t :\leftrightarrow \exists U(\Re(t,U) \wedge s\in U)$, the axioms are:
+
+1. $\Re(nat) \wedge \forall x(x \dot\in nat \leftrightarrow N(x))$,
+1. $\Re(id) \wedge \forall x(x \dot\in id \leftrightarrow \exists y(x = (y,y)))$,
+1. $\Re(a) \to \Re(co(a)) \wedge \forall x(x \dot\in co(a) \leftrightarrow \neg x\dot\in a)$,
+1. $\Re(a) \wedge \Re(b) \to \Re(int(a,b)) \wedge \forall x(x \dot\in int(a,b) \leftrightarrow x \dot\in a \wedge x \dot\in b)$,
+1. $\Re(a) \to \Re(dom(a)) \wedge \forall x(x \dot\in dom(a) \leftrightarrow \exists y((x,y) \dot\in a))$,
+1. $\Re(a) \to \Re(inv(a,f)) \wedge \forall x(x \dot\in inv(a,f) \leftrightarrow f x \dot\in a)$,
+
 
 ## Join and inductive generation
 
