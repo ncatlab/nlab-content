@@ -1,4 +1,4 @@
-
+F
 #Contents#
 * table of contents
 {: toc}
@@ -59,7 +59,7 @@ For the full and faithful contravariant functor
 $$Sp_k:\begin{cases}
 M_k&\to& co Psh(M_k)
 \\
-A&\to& M_k(A,-)
+A&\mapsto& M_k(A,-)
 \end{cases}$$
 
  $Sp_k A$ (and every isomorphic functor) is called an _affine $k$-scheme_. $Sp_k$ restricts to an equivalence between the categories of $k$-rings and the category $Aff Sch_k$ of affine $k$-schemes. We think of this category as of $M_k^{op}$. The functor $Sp_k$ commutes with limits and scalar extension (see below). Consequently $Aff Sch_k$ is closed under limits and base change.
