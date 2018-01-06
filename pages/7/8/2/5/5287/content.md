@@ -18,21 +18,23 @@
 
 ## Idea
 
-In [[perturbative quantum field theory]] the _BV-operator_ is the difference between the action of the [[BV differential]] on the [[algebra of observables]] before and after [[quantization]].
+The concept of _BV-operator_ has two different but (somewhat subtly) related meanings:
+
+1. In [[perturbative quantum field theory]] (discussed [below](#InPerturbativeQuantumFieldTheory)) the _BV-operator_ ([Batalin-Vilkovisky 81](#BatalinVilkovisky81)) is essentially the difference between the action of the [[BV differential]] on the [[algebra of observables]] before and after [[quantization]] of the [[free field theory]] around which the [[perturbative quantum field theory|perturbative quantization]] is considered; it is a quantum correction $i \hbar \Delta_{BV}$ (of order of [[Planck's constant]] $\hbar$) to the [[BV differential]] $s_{BV} = \{-S',-.\}$. Where the condition $\left(\{-S',-\}\right)^2 = 0$ for the [[BV-differential]] to be a [[differential]] is called the "[[master equation]]" in [[BV-BRST theory]], the quantum corrected version $\left( \{-S',-\} + i \hbar \Delta\right)^2 = 0$ is called the _[[quantum master equation]]_.
 
 
-In [[higher algebra]], under the identification of a [[BV-algebra]] with the [[chain homology]] of a [[little k-cubes operad|E2-algebra]], the _BV-operator_ corresponds to the operation of rotating a little disk around.
+1. In [[higher algebra]], under the identification of a [[BV-algebra]] with the [[chain homology]] of a [[little k-cubes operad|E2-algebra]], the _BV-operator_ corresponds to the operation of rotating a little disk around.
 
 For the relation between the two see _[[relation between BV and BD]]_.
 
 ## In perturbative quantum field theory
  {#InPerturbativeQuantumFieldTheory}
 
-Traditionally the BV-operator in [[perturbative quantum field theory]] was motivated via [[path integral]]-heuristics. For finite-dimensional spaces this may be made precise. This we discuss in:
+In [[perturbative quantum field theory]] the BV-operator $i \hbar \Delta$ may be understood intuitively as reflecting the contribution of the [[Gaussian measure]] in the [[path integral]] of the [[free field theory]] around which the perturbative quantization takes place. This intuition may be made precise for finite-dimensional toy path integrals. This we discuss in:
 
 * _[In finite-dimensional toy path integrals](#ForFiniteDimensionalToyPathIntegrals)_
 
-A rigorous derivation applicable to [[relativistic field theory|relativistic]] [[perturbative quantum field theory]] exists in [[causal perturbation theory]]/[[perturbative AQFT]] ([Fredenhagen-Rejzner 11b](#FredenhagenRejzner11b), [Rejzner 11](#Rejzner11)). This we discuss in:
+In the rigorous construction of [[relativistic field theory|relativistic]] [[perturbative quantum field theory]] via [[causal perturbation theory]]/[[perturbative AQFT]] there is a rigorous incarnation of the BV-operator ([Fredenhagen-Rejzner 11b, section 2](#FredenhagenRejzner11b), [Rejzner 11, section 5.1.2](#Rejzner11)): The would-be path integral is reflected in the [[perturbative S-matrix]], hence in the [[time ordered products]], and the BV-operator on [[regular polynomial observables]] is the difference between the classical [[BV-differential]] and its [[conjugation]] into the [[time-ordered products]] (def. \ref{ForGaugeFixedFreeLagrangianFieldTheoryBVOperator} below). This we discuss in
 
 * _[In causal perturbation theory](#InCausalPerturbationTheory)_
 
@@ -216,10 +218,9 @@ $$
 
 =--
 
-([Fredenhagen-Rejzner 11](#FredenhagenRejzner11))
-
-+-- {: .num_prop }
++-- {: .num_prop #ComponentsBVOperator}
 ###### Proposition
+**([[BV-operator]] in components)**
 
 If the [[field bundles]] of all [[field (physics)|fields]], [[ghost fields]] and [[auxiliary fields]] are [[trivial vector bundles]], with field/ghost-field/auxiliary-field coordinates collectively denoted $(\phi^A)$ then 
 the [[BV-operator]] $\Delta_{BV}$ from prop. \ref{ForGaugeFixedFreeLagrangianFieldTheoryBVOperator} is given explicitly by
@@ -229,10 +230,14 @@ $$
   \;=\;
   \underset{a}{\sum} (-1)^{deg(\Phi^A)}
   \underset{\Sigma}{\int} 
-    \frac{\delta}{\delta \Phi^A(x)} \frac{\delta}{\delta \Phi^{\ddagger}_A(y)}
+    \frac{\delta}{\delta \Phi^A(x)} 
+    \frac{\delta}{\delta \Phi^{\ddagger}_A(y)}
+  dvol_\Sigma
 $$
 
 =--
+
+([Fredenhagen-Rejzner 11, (29)](#FredenhagenRejzner11), [Rejzner 11, (5.20)](#Rejzner11))
 
 +-- {: .proof}
 ###### Proof
@@ -326,9 +331,14 @@ Here under the brace we used that the [[Feynman propagator]] is $+i$ times a [[G
 
 ## References
 
+The concept originates with
+
+* {#BatalinVilkovisky81} [[Igor Batalin]], [[Grigori Vilkovisky]],  _Gauge Algebra and Quantization_, Phys. Lett. B 102 (1): 27&#8211;31, 1981 ([doi:10.1016/0370-2693(81)90205-7](https://doi.org/10.1016/0370-2693(81)90205-7)) 
+
+
 The understanding of the BV-operator in the rigorous formulation [[perturbative quantum field theory]] via [[causal perturbation theory]]/[[perturbative AQFT]] is due to 
 
-* {#FredenhagenRejzner11b} [[Klaus Fredenhagen]], [[Katarzyna Rejzner]], _Batalin-Vilkovisky formalism in perturbative algebraic quantum field theory_, Commun. Math. Phys. (2013) 317: 697 ([arXiv:1110.5232](https://arxiv.org/abs/1110.5232), [doi:10.1007/s00220-012-1601-1](https://doi.org/10.1007/s00220-012-1601-1))
+* {#FredenhagenRejzner11b} [[Klaus Fredenhagen]], [[Katarzyna Rejzner]], section 2 of _Batalin-Vilkovisky formalism in perturbative algebraic quantum field theory_, Commun. Math. Phys. (2013) 317: 697 ([arXiv:1110.5232](https://arxiv.org/abs/1110.5232), [doi:10.1007/s00220-012-1601-1](https://doi.org/10.1007/s00220-012-1601-1))
 
 * {#Rejzner11} [[Katarzyna Rejzner]], section 5.1.2 of _Batalin-Vilkovisky formalism in locally covariant field theory_ ([arXiv:1111.5130](https://arxiv.org/abs/1111.5130))
 
