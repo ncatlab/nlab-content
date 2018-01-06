@@ -286,6 +286,8 @@ A proposal for a full formalization of the notion of quantization for "finite" t
 
 A historical discussion by [[Zoran Škoda|one]] of the $n$labizants is here: [mathlight:quantization](http://mathlight.wordpress.com/2010/03/19/quantization). See also Urs's manifesto at [[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]].
 
+* {#HenneauxTeitelboim} [[Marc Henneaux]], [[Claudio Teitelboim]], _[[Quantization of Gauge Systems]]_, Princeton University Press 1992
+
 * [[Nikolai Reshetikhin]], _Lectures on quantization of gauge systems_, [arxiv/1008.1411](http://arxiv.org/abs/1008.1411)
 
 The [[quantization via the A-model]]-method is described in
