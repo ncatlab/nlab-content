@@ -14,7 +14,9 @@ The classes of explicit mathematics are not like the classes of [[set theory]], 
 The systems come in flavors with either intuitionistic or [[classical logic]]. On benefit is that they allow for smooth axiomatization of strong notions of [[universes]], see below.
 
 The primary systems are called $T_0$ (the classical variant) and $T_0^i$ (the intuitionistic variant).
- 
+
+In the 1980s there was a proof assistant and program extraction tool called PX based on a version of $T_0$ relative to the Lisp programming language.
+
 ## The basic theory of operations and numbers
 
 The first-order part of the systems treat an applicative universe in the sense of combinatory algebra. It includes constants $\mathrm{k}$ and $\mathrm{s}$ (combinators), $\mathrm{p}$, $\mathrm{p}_0$, and $\mathrm{p}_1$ (pairing and projection), $0$, $\mathrm{s}_N$, and $\mathrm{p}_N$ (zero, successor, and predecessor), and $\mathrm{d}_N$ (definition by cases on the natural numbers), and possibly further applicative constants.
@@ -32,6 +34,10 @@ In the logic of partial terms, we use the usual abbreviation $s \simeq t \leftri
 1. $a\in N \wedge b\in N \wedge a=b \to \mathrm{d}_N u v a b = u$,
 1. $a\in N \wedge b\in N \wedge a\ne b \to \mathrm{d}_N u v a b = v$.
 
+From the first two axioms we get lambda-definability and a fixed-point combinator.
+
+To these axioms we add the scheme of induction over the natural numbers to obtain the theory $BON + (\mathrm{L}{-}Ind_N)$. This is proof-theoretically equivalent to first-order Peano arithmetic, $PA$, via interpretations both ways. We can interpret $BON + (\mathrm{L}{-}Ind_N)$ in $PA$ by coding operations as indices for recursive functions using Kleene's $T$ and $U$ predicates.
+
 ## Elementary comprehension
 
 When we go from the purely applicative theory to the theories of classes and names, we add a second sort (for classes) as well as several new constants, a binary relation symbol $\in$ (for membership) and a binary relation symbol for names $\Re$, where $\Re(s, U)$ means that $s$ is a name for the class $U$. We use the abbreviation $\Re(s) :\leftrightarrow \exists U \Re(s,U)$, indicating that $s$ is a name.
@@ -47,14 +53,17 @@ Using the abbreviation $s\dot\in t :\leftrightarrow \exists U(\Re(t,U) \wedge s\
 1. $\Re(a) \to \Re(co(a)) \wedge \forall x(x \dot\in co(a) \leftrightarrow \neg x\dot\in a)$,
 1. $\Re(a) \wedge \Re(b) \to \Re(int(a,b)) \wedge \forall x(x \dot\in int(a,b) \leftrightarrow x \dot\in a \wedge x \dot\in b)$,
 1. $\Re(a) \to \Re(dom(a)) \wedge \forall x(x \dot\in dom(a) \leftrightarrow \exists y((x,y) \dot\in a))$,
-1. $\Re(a) \to \Re(inv(a,f)) \wedge \forall x(x \dot\in inv(a,f) \leftrightarrow f x \dot\in a)$,
+1. $\Re(a) \to \Re(inv(a,f)) \wedge \forall x(x \dot\in inv(a,f) \leftrightarrow f x \dot\in a)$.
 
+Again we add some induction over the natural numbers to obtain theories $EC + (\mathrm{C}{-}Ind_N)$ (induction axiom for classes) and $EC + (\mathrm{L}{-}Ind_N)$ (induction schema for all formulas). These correspond proof-theoretically to the subsystems of second-order arithmetic $ACA_0$ and $ACA$, respectively.
 
 ## Join and inductive generation
 
-The _join_ of classes correspond to the $\Sigma$-types of type theory, …
+The _join_ of classes gives disjoint unions of classes, and thus corresponds to the $\Sigma$-types of type theory. The inductive generation operation provides accesible parts of classes coding binary relations.
 
 [todo: the axioms for join and inductive generation.]
+
+The theory $T_0$ has elementary comprehension, join, inductive generation, and full induction over the natural numbers. It has the same proof-theoretic strength as [[CZF]] plus $REA$, the [[regular extension axiom]]. Further equivalences are listed at [[ordinal analysis]].
 
 ## Universes in explicit mathematics
 
@@ -71,3 +80,5 @@ The _join_ of classes correspond to the $\Sigma$-types of type theory, …
 * [Bibliography of explicit mathematics](http://home.inf.unibe.ch/~ltg/em_bibliography/)
 
 * Reinhard Kahle and Anton Setzer, [An extended predicative definition of the Mahlo universe](http://www.cs.swan.ac.uk/~csetzer/articles/kahleSetzerExtendedPredicativeMahloPohlersFestschrift.pdf), In: Ways of Proof Theory, pp. 315–340. Ontos Mathematical Logic, vol. 2, 2010.
+
+* Susumu Hayashi and Hiroshi Nakano, [PX: a computational logic](https://dl.acm.org/citation.cfm?id=62010), MIT Press, 1988.
