@@ -19,6 +19,7 @@
 In [[perturbative quantum field theory]] the _Schwinger-Dyson equation_ ([Dyson 49](#Dyson49), [Schwinger 51](#Schinger51)) equates, [[on-shell]], the [[time-ordered product]] of the [[functional derivative]] of the [[action functional]] $S$ for a [[free field theory]] and another [[observable]] $A$ with the [[time ordered product|time ordering]] of the corresponding [[functional derivative]] of just $A$ itself, times $i \hbar$ ([[imaginary unit]] times [[Planck's constant]]):
 
 $$
+ \label{EquationSchwingerDyson}
   \mathcal{T}
   \left(
     \underset{\Sigma}{\int}
@@ -41,9 +42,11 @@ $$
   \,.
 $$
 
-(e.q. [Rejzner 16, remark 7.7](#Rejzner16)).
+(e.q. [Henneaux-Teitelboim 92, (15.52)](#HenneauxTeitelboim92), [Rejzner 16, remark 7.7](#Rejzner16)).
 
-Traditionally this is displayed before spacetime-smearing of observables in terms of [[operator products]] of [[operator-valued distributions]] 
+This may be understood as a special case of the quantum-correction of the [[BV-differential]] by the [[BV-operator]] in [[pQFT]], which is hence also called the _[[Schwinger-Dyson operator]]_; see [there](BV-operator#SchwingerDysonEquation).
+
+Often (eq:EquationSchwingerDyson) is displayed before spacetime-smearing of observables in terms of [[operator products]] of [[operator-valued distributions]] 
 
 $$
   A^a(x) 
@@ -55,14 +58,18 @@ $$
 which makes the [[distribution|distributional]] [[Schwinger-Dyson equation]] read
 
 $$
-  T
+  \begin{aligned}
+  & T
   \left(
     \frac{\delta S}{\delta \mathbf{\Phi}^{a_0}(x_0)}
       \cdot 
     \mathbf{\Phi}^{a_1}(x_1) \cdots \mathbf{\Phi}^{a_n}(x_n)
   \right)
-  \;=\;
+  \\
+  & 
+  \underset{\text{on-shell}}{=}
   i \hbar
+  \underset{k}{\sum}
   T
   \left(
     \mathbf{\Phi}^{a_1}(x_1)
@@ -70,13 +77,12 @@ $$
     \mathbf{\Phi}^{a_{k-1}}(x_{k-1})
       \cdot
     \delta(x_0 - x_k) \delta^{a_0}_{a_k}
-      \cdots
+      \cdot
     \mathbf{\Phi}^{a_{k+1}}(x_{k+1})
       \cdots
     \mathbf{\Phi}^{a_n}(x_m)
   \right)
-  \phantom{AAA}
-  \text{on-shell}
+  \end{aligned}
 $$
 
 (e.q. [Dermisek 09](#Dermisek09))
@@ -109,7 +115,7 @@ is  the [[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]] (for t
 
 ## Details
 
-For details and proof see at _[[BV-operator]]_ [this prop.](BV-operator#DysonSchwinger), following [Rejzner 16, remark 7.7](#Rejzner16).
+For details and proof see at _[[BV-operator]]_ [this prop.](BV-operator#DysonSchwinger), following [Rejzner 16, remark 7.7](#Rejzner16), following [Henneaux-Teitelboim 92, section 15.5.3](#HenneauxTeitelboim92)
 
 ## Related concepts
 
@@ -128,12 +134,17 @@ The equation is originally due to
 
 The traditional informal account in terms of [[path integral]]-heuristics is reviewed for instance in
 
+* {#HenneauxTeitelboim92} [[Marc Henneaux]], [[Claudio Teitelboim]], section 15.1.4, 15.5.1, 15.5.3 of _[[Quantization of Gauge Systems]]_, Princeton University Press 1992. 
+
 * {#Dermisek09} [[Radovan Dermisek]], _Schwinger-Dyson equations_, 2009  ([pdf](http://www.physics.indiana.edu/~dermisek/QFT_09/qft-II-4-4p.pdf))
 
 A rigorous derivation in terms of [[BV-formalism]] in [[causal perturbation theory]]/[[pAQFT]] is provided in
 
 * {#Rejzner16} [[Katarzyna Rejzner]], remark 7.7 _Perturbative Algebraic Quantum Field Theory_, Mathematical Physics Studies, Springer 2016 ([web](https://link.springer.com/book/10.1007%2F978-3-319-25901-7))
 
+See also 
+
+* Wikipedia, _[Schwinger-Dyson equation](https://en.wikipedia.org/wiki/Schwinger%E2%80%93Dyson_equation)_
 
 [[!redirects Schwinger-Dyson equations]]
 
