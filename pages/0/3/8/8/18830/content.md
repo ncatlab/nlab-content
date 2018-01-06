@@ -565,6 +565,29 @@ Since the [[Feynman propagator]] is symmetric ([this prop.](A+first+idea+of+quan
 =--
 
 
++-- {: .num_remark }
+###### Remark
+**([[renormalization]] of [[time-ordered product]])**
+
+
+The [[time-ordered product]] on [[regular polynomial observables]] from prop. \ref{OnRegularPolynomialObservablesTimeOrderedProduct} extends to a product on [[polynomial observable|polynomial]] [[local observables]] (def. \ref{LocalObservables}), then taking values in [[microcausal observables]] (def. \ref{MicrocausalObservable}):
+
+$$
+  T
+  \;\colon\;
+  PolyLocObs(E)^{\otimes_n}[ [\hbar] ]
+    \longrightarrow
+  PolyObs(E)_{mc}[ [\hbar] ]
+  \,.
+$$
+
+This extension is not unique. A choice of such an extension, satisfying some evident compatibility conditions, is a choice of _[[renormalization scheme]]_ for the given [[perturbative quantum field theory]]. Every such choice corresponds to a choice of [[perturbative S-matrix]] for the theory. This construction is called _[[causal perturbation theory]]_. 
+
+This we discuss below in chapter _[Scattering](#Scattering)_ and chapter _[Renormalization](#Renormalization)_.
+
+=--
+
+
 $\,$
 
 **operator product notation**
