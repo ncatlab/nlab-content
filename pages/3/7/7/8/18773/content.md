@@ -17,7 +17,7 @@
 
 ## Idea
 
-The origins of [[perturbative quantum field theory]] go back to ideas on [[quantum electrodynamics]] due to [[Julian Schwinger]], [[Shin'ichir? Tomonaga]], [[Richard Feynman]], [[Freeman Dyson]].
+The origins of [[perturbative quantum field theory]] go back to ideas on [[quantum electrodynamics]] due to [[Julian Schwinger]], [[Shin'ichirō Tomonaga]], [[Richard Feynman]], [[Freeman Dyson]].
 
 While highly succesful, the conceptual nature of the original formulation, in particular of the process of [[renormalization]] ("removal of [[UV-divergences]]"), had remained mysterious. In [Feynman 85, Chap. 4. "Loose Ends"](#Feynman85) it still says:
 
