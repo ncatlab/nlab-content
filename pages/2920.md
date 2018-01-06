@@ -988,7 +988,7 @@ Moreover, it satisfies the following conditions:
 +-- {: .proof}
 ###### Proof
 
-A proof of this making use of [Jeff Smith's recognition theorem](http://ncatlab.org/nlab/show/combinatorial+model+category#DuggerTheorem) for [[combinatorial model category|combinatorial model categories]] appears
+A proof of this making use of [Jeff Smith's recognition theorem](http://ncatlab.org/nlab/show/combinatorial+model+category#SmithTheorem) for [[combinatorial model category|combinatorial model categories]] appears
 as [[Higher Topos Theory|HTT, prop. A.3.7.3]] and
 as theorem 2.11 in [Bar07](http://arxiv.org/abs/0708.2067) and as theorem 4.7 in [Bar](http://www.math.harvard.edu/~clarkbar/complete.pdf).
 
@@ -1073,7 +1073,7 @@ The following proof uses the [[small object argument]] several times. In particu
 
 For the small object argument itself, this requirement comes from the fact that it involves colimits indexed by $S$. These won't in general exist if $S$ is not a set.
 
-The collection of $S$-local weak equivalences $W_S$, however, won't be a small set in general even if $S$ is. But for [Smith's recognition theorem](http://ncatlab.org/nlab/show/combinatorial+model+category#DuggerTheorem) to apply we need to check that the full subcategory of $Arr(C)$ on $W_S$ is, while not small, [[accessible category|accessible]].
+The collection of $S$-local weak equivalences $W_S$, however, won't be a small set in general even if $S$ is. But for [Smith's recognition theorem](http://ncatlab.org/nlab/show/combinatorial+model+category#SmithTheorem) to apply we need to check that the full subcategory of $Arr(C)$ on $W_S$ is, while not small, [[accessible category|accessible]].
 
 To establish this we need two [properties of accessible categories](http://ncatlab.org/nlab/show/accessible+category#Properties): the inverse image of an accessible subcategory under a functor is accessible, and the collections of fibrations, weak equivalences and acyclic fibrations in a combinatorial model category are accessible.
 
@@ -1090,7 +1090,7 @@ To establish this we need two [properties of accessible categories](http://ncatl
 
 #### Recognition of the combinatorial model structure
 
-Using [Smith's recognition theorem](http://ncatlab.org/nlab/show/combinatorial+model+category#DuggerTheorem), for establishing the [[combinatorial model category]] structure, it is sufficient to
+Using [Smith's recognition theorem](http://ncatlab.org/nlab/show/combinatorial+model+category#SmithTheorem), for establishing the [[combinatorial model category]] structure, it is sufficient to
 
 * exhibit a [[set]] $I$ of cofibrations of $L_S C$ such that $inj(I) \subset W_{L_S C}$ and such that $cof(I) \cap W_{L_S C}$ is closed under [[pushout]] and [[transfinite composition]].
 
