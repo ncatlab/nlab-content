@@ -5,6 +5,10 @@ People often get these two notions mixed up.  (For example, $2 + 3\mathrm{i}$ is
 
 The purely imaginary numbers, on the other hand, form the [[Lie algebra]] $\mathfrak{u}(1)$.  Often people substitute $\mathbb{R}$ (the algebra of real numbers), which is simpler, when they only care about this Lie algebra up to [[isomorphism]].  However, using $\mathrm{i}\mathbb{R}$ (the algebra of purely imaginary numbers) makes $\mathfrak{u}(1)$ fit with the [[matrix]] formulas used in higher dimensions.
 
+## Related concepts
+
+* [[imaginary unit]]
+
 
 [[!redirects imaginary number]]
 [[!redirects imaginary numbers]]
