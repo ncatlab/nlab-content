@@ -111,58 +111,6 @@ T(k)=\Bigg\{ \array{\frac{k}{2}\quad k\in N_{even} \\
 $$
 
 Whereas $T\circ L$ and $T\circ R$ are each the identity, the reverse compositions $L\circ T$ and $R\circ T$ yield an [[idempotent comonad]] $sk:N\to N$ and an [[idempotent monad]] $cosk:N\to N$, respectively, where $sk(2n)=2n$ and $sk(2n+1)=2n$ and $cosk(2n)=2n+1$ and $cosk(2n+1)=2n+1$: in new guises $L$ and $R$ resurface again but this time within an 'opposition' $sk\dashv cosk$ which expresses formally the 'conflict' between $N_{even}$ and $N_{odd}$, even and odd, as well as their essential identity and unity.
-
-### Reflexivity vs. irreflexivity
-
-Let us consider a second example of a unity-and-identity of opposites:
-
-The category $\mathbf{Bin}$ of sets equipped with a binary relation has objects pairs $(X,\rho)$ with $X$ a set and $\rho$ a binary relation on $X$ and morphims $(X_1,\rho_1)\to (X_2,\rho_2)$ are functions $f:X_1\to X_2$ such that $x\rho_1 y$ implies $f(x)\rho_2 f(y)$. Here we view a [[relation]] as set of ordered pairs $(x_1,x_2)$ of elements $x_1,x_2\in X$.
-$(\empty,\empty)$ and $(\{\ast\},(\ast,\ast))$ are the initial resp. the terminal object in $\mathbf{Bin}$.
-
-A relation $\rho$ on set $X$ is called _reflexive_ (resp. _irreflexive_) when $\rho\cap id_X=id_X$ (resp. $\rho\cap id_X=\empty$). In other words a reflexive relation contains $(x,x)$ for every $x\in X$. Let $\mathbf{Refl}$ and $\mathbf{IrRefl}$ be the respective full subcategories of $\mathbf{Bin}$.
-
-They are strongly opposed to each other in the sense that they have almost disjoint object classes, in fact the initial object of $\mathbf{Bin}$ $(\empty,\empty)$ is the only object that is reflexive and irreflexive. Furthermore, it is the only reflexive object $(X,\rho)$ at all that even admits a map $(X,\rho)\to (Y,\iota)$ to some irreflexive object $(Y,\iota)$.
-This is because maps have to preserve the structure and $(x,x)\in\rho$ requires $(f(x),f(x))\in\iota$.
-
-On the other hand, considering only reflexive objects among themselves in $\mathbf{Refl}$ the reflexive pairs in $\rho$ play no longer a role in determining whether a function $f:X\to Y$ is structure preserving or not, since the codomain is equipped with a reflexive relation as well so requirements like $(f(x),f(x))\in\iota$ are automatically met. In other words, a function $f:X\to Y$ between two sets underlies a structure preserving map $(X,\rho) \to(Y,\zeta)$ in $\mathbf{Refl}$ exactly iff it underlies a structure preserving map $(X,\rho\setminus id_X)\to (Y,\zeta\setminus id_X)$ in $\mathbf{IrRefl}$. In functorial language, the functor $\mathbf{Refl}\to\mathbf{IrRefl}$ that maps $(X,\rho)$ to $(X,\rho\setminus id_X)$ and lets the (underlying) functions of the morphisms unchanged is an _isomorphim_ with inverse $(Y,\iota)\mapsto (Y,\iota\cup id_X)$. This isomorphism expresses the identity of reflexivity and irreflexivity. 
-
-The language of adjunctions permits one to encapsulate all the three relations of unity, opposition and identity:
-
-The inclusion $i:\mathbf{Refl}\hookrightarrow\mathbf{Bin}$ is an essential localization:
-
-$$d\dashv r \dashv i:\mathbf{Refl}\hookrightarrow\mathbf{Bin}\quad .$$
-
-Here $r$ is the reflexivization functor that maps $(X,\rho)$ to $(X,\rho\cup id_X)$, whereas $d:\mathbf{Refl}\hookrightarrow \mathbf{Bin}$ is the irreflexivization functor that maps $(X,\rho)$ to $(X,\rho\setminus id_X)$. The corresponding identical opposite of $\mathbf{Refl}$ is, of course, the full subcategory $\mathbf{IrRefl}$ of sets equipped with an irreflexive relation.
-
-Another interesting essential localisation of $\mathbf{Bin}$ is given by the inclusion $i:1\hookrightarrow\mathbf{Bin}\quad$, where $1$ denotes the category with just one identity morphism (and, accordingly, just one object $\bullet$) and $\bullet$ is mapped to the terminal object $(\{\ast\},(\ast,\ast))$. The left adjoint to $i$ forcibly maps everything $(X,\rho)$ to $\bullet$, which in turn is right adjoint to the essentiality that maps $\bullet$ to the initial object $(\empty,\empty)$. Whence the corresponding adjoint modalities oppose then the endofunctor that maps everything to the initial object to the one that maps everything to the terminal object: $0\dashv 1\quad$.
-
-How can we throw some philosophical meat in this mathematical soup? In Brandom ([2004](#Brandom04), p.60) it is suggested that the concept of an [[equivalence relation]], i.e. transitive, reflexive and symmetric relation, lends itself as a crude mathematical model of Hegel's concept of _recognition_ that is a key concept in the dynamical unfolding of selfconciousness in the corresponding chapter in the "[[Phenomenology of Spirit|Phänomenologie des Geistes]]" (1807). On this suggestion we would interpret $(X,\rho)$ as a society $X$ of individuals $x\in X$ and $\rho$ as a partial recognition relation between its members, a society $(S,\epsilon)$ could be called _intersubjective_ when $\epsilon$ is an equivalence relation because then every member is a self $x\epsilon x$, recognition is reciprocal and if $x$ recognize $y$ and $y$ recognizes $z$ then $x$ recognizes $z$ as well.[^kin] Note that such an intersubjective society could still be unspiritual in the sense that it is partitioned into disjoint sets of equivalence classes whose members recognize each other but not the members of the other classes, an extreme case of this is an 'individualistic' or discrete society $(X,id_X)$.
-
-Incidentally, the full subcategory $\mathbf{Ind}$ of $\mathbf{Bin}$ with objects the discrete societies is equivalent to $Set$ and is reflective and coflective:
-
-$$ \Pi\dashv\Delta\dashv\Gamma: \mathbf{Bin}\to Set \quad .$$
-
-Here $\Pi$ lumps together all individuals $x_1,x_2,\dots$ that have some chain of $\rho$ links $x_i\rho x_j$ between them into a group of maximally interrelated individuals and then maps $(X,\rho)$ to the set of these groups. $\Delta$ maps a set $X$ of individuals to the individualistic society $(X,id_X)$ whereas $\Gamma$ maps a society $(X,\rho)$ to the set $\{x\in X: x\rho x\}$ of selves.
-
-We can do even better and embed $\mathbf{Ind}$ aka $Set$ as unity-and-identity of opposites into $\mathbf{Bin}$ by using the following adjoint triple:
-
-$$ e\dashv\d\dashv\t: \mathbf{Ind}\hookrightarrow \mathbf{Bin} \quad .$$
-
-Here $t$ maps $(X,id_X)$ to $(X,\tau_X)$ with $\tau_X$ the total relation $X\times X$ on the set $X$, $d$ maps $(X,\rho)$ to $(X,id_X)$ and $e$ maps $(X,id_X)$ to $(X,\empty)$. This identifies $Set$ with the subcategories of sets with lack of relatedness $(X,\empty)$ and the sets with an excess of relatedness $(X,\tau_X)$. We denote the corresponding adjoint modalities as $\mathbf{Iso}\vdash \mathbf{Com}$ ("isolationism vs. communitarianism").
- 
-[^kin]: For another example of a such crude but useful mathematical modelling intended to capture social phenomena see at [[kinship]].
-
-Interestingly, crude as this picture is we can nevertheless interpret our adjoint oppositions $0\dashv 1$ and $\mathbf{IrRefl}\dashv \mathbf{Refl}$ in it. For instance, the terminal object $(\{\ast\},(\ast,\ast))$ models _pure selfconciousness_ and the corresponding adjoint modality $0\dashv 1$ can interpreted as saying that pure ego is empty, indeed a Hegelian contention and one of his reason to replace the Fichtean Ego with 'pure being' (see below!) as the starting point of philosophy. The opposition $\mathbf{IrRefl}\dashv \mathbf{Refl}$ can be interpreted as saying that a society where everything is a self is equivalent to a society consisting purely of (irreflexive) things, that would suggest to reinterpret a society as a _Lebenswelt_ i.e. as consisting of set of individuals together with a set of things - in particular, the contradiction $\mathbf{IrRefl}\dashv \mathbf{Refl}$ expresses that a purely anamistic Lebenswelt where everything is a self is contradictory, in other words selfconciousness requires not only other selves but also not-selves!
-
-Indeed, Brandom remarks (p.61) that in this philosophical context "reflexivity can be neglected" in the definition of an equivalence relation in other words we care for transitive and symmetric relations - the so called [[partial equivalence relation|partial equivalence relations]] (per). Their inclusion as full subcategory $i:\mathbf{Per}\hookrightarrow\mathbf{Bin}$ has a reflector:
-
-$$s\dashv i:\mathbf{Per}\hookrightarrow\mathbf{Bin}\quad .$$
-
-Here $s$ maps $(X,\rho)$ to the smallest per $\overline{\rho}$ containing $\rho$, its symmetric and transitive closure. Note that general societies $(X,\rho)$ in $\mathbf{Per}$ correspond to _Lebenswelten_ since they consist of a set of things $X$ some of which occur as $\rho$-relata and on these subset $dom(\rho)$ the restriction of $\rho$ is indeed an equivalence aka recognition relation.
-
-Now the gambit in Lawvere's approach is that by using the concept of adjoint opposition and a suitable mathematical notion of Aufhebung we can try to reconstruct the dynamics of selfconciousness in Hegel from 'pure selfconciousness' ($0\dashv 1$) to '(society of) general reflexivity' ($\mathbf{IrRefl}\dashv \mathbf{Refl}$). The key observation of Lawvere is that the opposed subcategories with object $(\empty,\empty)$ and $(\{\ast\},(\ast,\ast))$, respectively, at the level of pure ego, are subcategories of $\mathbf{IrRefl}$ and $\mathbf{Refl}$, respectively, at the level of 'general reflxivity' with the crucial difference that now $(\empty,\empty)$ is also contained in the righthand modality $\mathbf{Refl}$ i.e. abstract pure ego (= the category $1$) is split into the two concrete contradictions $(\empty,\empty)$ and $(\{\ast\},(\ast,\ast))$ at $0\dashv 1$ which are reunited in the concrete $\mathbf{Refl}$: in a sense the contradiction of pure selfconciousness is _resolved_ at the level of general reflexivity.
-
-Hopefully the two examples have provided some intuition how a mediated adjunction $l\dashv t\dashv r$ between two fully faithful functors $l,r$ captures the idea of unity-and-identity-of-opposites (UIO). The concept of Aufhebung then intends to capture the passage from such an UIO to another UIO thereby creating a dynamics between logical concepts.
  
 ### The mathematics of _Aufhebung_
  {#TheMathematicsOfAufhebung}
