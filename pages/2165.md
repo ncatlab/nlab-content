@@ -20,7 +20,7 @@
 
 ## Definition
 
-A __complex number__ is a [[number]] of the form $a + \mathrm{i} b$, where $a$ and $b$ are [[real numbers]] and $\mathrm{i}^2 = - 1$.  The set of complex numbers (in fact a [[field]] and [[topological vector space]]) is denoted $\mathbf{C}$ or $\mathbb{C}$.
+A __complex number__ is a [[number]] of the form $a + \mathrm{i} b$, where $a$ and $b$ are [[real numbers]] and $\mathrm{i}^2 = - 1$ is an [[imaginary unit]].  The set of complex numbers (in fact a [[field]] and [[topological vector space]]) is denoted $\mathbf{C}$ or $\mathbb{C}$.
 
 This can be thought of as:
 
