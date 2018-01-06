@@ -539,7 +539,7 @@ $$
   PolyObs(E_{\text{BV-BRST}})
 $$
 
-be a [[polynomial observable]] which is linear in the [[antifields]] $\Phi^\ddagger$. Then 
+be a [[polynomial observable]] which is [[linear map|linear]] in the [[antifield]] [[field observables]] $\mathbf{\Phi}^\ddagger$. Then 
 
 $$
   \label{EquationSchwingerDyson}
@@ -553,6 +553,7 @@ $$
   \right)
   \;=\;
   - i \hbar
+  \,
   \mathcal{T}^{-1}
   \left(
     \underset{\Sigma}{\int}
@@ -636,14 +637,17 @@ $$
 This choice makes (eq:EquationSchwingerDyson) become the [[distribution|distributional]] [[Schwinger-Dyson equation]]
 
 $$
-  T
+  \begin{aligned}
+  & T
   \left(
     \frac{\delta S}{\delta \mathbf{\Phi}^{a_0}(x_0)}
       \cdot 
     \mathbf{\Phi}^{a_1}(x_1) \cdots \mathbf{\Phi}^{a_n}(x_n)
   \right)
-  \;=\;
+  \\
+  & \underset{\text{on-shell}}{=}
   - i \hbar
+  \underset{k}{\sum}
   T
   \left(
     \mathbf{\Phi}^{a_1}(x_1)
@@ -651,13 +655,11 @@ $$
     \mathbf{\Phi}^{a_{k-1}}(x_{k-1})
       \cdot
     \delta(x_0 - x_k) \delta^{a_0}_{a_k}
-      \cdots
+      \cdot
     \mathbf{\Phi}^{a_{k+1}}(x_{k+1})
       \cdots
     \mathbf{\Phi}^{a_n}(x_m)
   \right)
-  \phantom{AAA}
-  \text{on-shell}
 $$
 
 (e.q. [Dermisek 09](Schwinger-Dyson+equation#Dermisek09)).
