@@ -650,10 +650,10 @@ M.. Schlichenmaier, T Voronov,  (eds.) XXIX Workshop on Geometric Methods in Phy
 
 The original articles are
 
-* {#BV81} [[Igor Batalin]], [[Grigori Vilkovisky]],  _Gauge Algebra and Quantization_ . Phys. Lett. B 102 (1): 27&#8211;31. doi:10.1016/0370-2693(81)90205-7 (1981)
+* {#BV81} [[Igor Batalin]], [[Grigori Vilkovisky]],  _Gauge Algebra and Quantization_, Phys. Lett. B 102 (1): 27&#8211;31, 1981 ([doi:10.1016/0370-2693(81)90205-7](https://doi.org/10.1016/0370-2693(81)90205-7)) 
 
 
-* {#BV83} [[Igor Batalin]], [[Grigori Vilkovisky]],  (1983). _Quantization of Gauge Theories with Linearly Dependent Generators_ . Phys. Rev. D 28 (10): 2567&#8211;2582. doi:10.1103/PhysRevD.28.2567.  Erratum-ibid. 30 (1984) 508 doi:10.1103/PhysRevD.30.508
+* {#BV83} [[Igor Batalin]], [[Grigori Vilkovisky]],  (1983). _Quantization of Gauge Theories with Linearly Dependent Generators_, Phys. Rev. D 28 (10): 2567&#8211;2582. doi:10.1103/PhysRevD.28.2567.  Erratum-ibid. 30 (1984) 508 doi:10.1103/PhysRevD.30.508
 
 
 * [[Igor Batalin]], [[Grigori Vilkovisky]], _Existence Theorem For Gauge Algebra_ , J. Math. Phys. 26 (1985) 172-184.
@@ -954,6 +954,8 @@ based on
 
 [[!redirects BV-BRST cohomology]]
 [[!redirects BV-BRST cohomologies]]
+
+[[!redirects BV-BRST theory]]
 
 [[!redirects BV-BRST Lagrangian density]]
 [[!redirects BV-BRST Lagrangian densities]]
