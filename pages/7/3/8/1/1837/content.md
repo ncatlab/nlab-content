@@ -215,7 +215,7 @@ An introduction to concepts in the [[quantization]] of gauge theories is in
 
 A standard textbook on the [[BV-BRST formalism]] for the quantization of gauge systems is in
 
-* [[Marc Henneaux]], [[Claudio Teitelboim]], _Quantization of gauge systems_ Princeton University Press, 1992
+* [[Marc Henneaux]], [[Claudio Teitelboim]], _[[Quantization of Gauge Systems]]_ Princeton University Press, 1992
 
 Discussion of abelian higher gauge theory in terms of [[differential cohomology]] is in
 
