@@ -176,19 +176,142 @@ $$
 ([this prop.](time-ordered+product#IsomorphismOnRegularPolynomialObservablesTimeOrderedandPointwise)).
 
 
+
++-- {: .num_defn #AntibracketTimeOrdered}
+###### Definition
+**([[time-ordered product|time-ordered]] [[antibracket]])
+
+
+Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]] ([this def.](A+first+idea+of+quantum+field+theory#FreeFieldTheory)) with [[gauge fixing|gauge fixed]] BV-BRST [[Lagrangian density]] $-\mathbf{L}' + \mathbf{L}'_{BRST}$ ([this def.](A+first+idea+of+quantum+field+theory#GaugeFixingLagrangianDensity)) on a graded BV-BRST [[field bundle]] $E_{\text{BV-BRST}} \coloneqq T^\ast[-1]_{\Sigma,inf}(E \times_\Sigma \mathcal{G}[1] \times_{\Sigma} A \times_\Sigma A[-1])$.
+
+Then the _time-ordered global [[antibracket]]_ on [[regular polynomial observables]] 
+
+$$
+  PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
+   \otimes
+  PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
+    \overset{\{-,-\}_{\mathcal{T}}}{\longrightarrow}
+  PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
+$$
+
+is the [[conjugation]] of the global [[antibracket]] ([this def. ](A+first+idea+of+quantum+field+theory#ComplexBVBRSTGlobal)) by the time-ordering operator $\mathcal{T}$ (from [this prop.](time-ordered+product#IsomorphismOnRegularPolynomialObservablesTimeOrderedandPointwise)):
+
+$$
+  \{-,-\}_{\mathcal{T}}
+  \;\coloneqq\;
+  \mathcal{T}\left(\left\{ \mathcal{T}^{-1}(-), \mathcal{T}^{-1}(-)\right\}\right)
+$$
+
+hence
+
+$$
+  \array{
+    PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
+      \otimes
+    PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
+      &\overset{\{-,-\}}{\longrightarrow}&
+    PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
+    \\
+    {}^{\mathllap{\mathcal{T}}}_{\mathllap{\simeq}}\downarrow && \downarrow^{\mathrlap{\mathcal{T}}}_\simeq
+    \\
+    PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
+      \otimes
+    PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
+      &\overset{ \{-,-\}_{\mathcal{T}} }{\longrightarrow}&
+    PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
+  }
+$$
+
+=--
+
+([Fredenhagen-Rejzner 11, (27)](#FredenhagenRejzner11), [Rejzner 11, (5.14)](#Rejzner11))
+
++-- {: .num_prop #GaugeFixedActionFunctionalTimeOrderedAntibracket}
+###### Proposition
+**([[time-ordered product|time-ordered]] [[antibracket]] with [[gauge fixing|gauge fixed]] [[action functional]])**
+
+Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]] ([this def.](A+first+idea+of+quantum+field+theory#FreeFieldTheory)) with [[gauge fixing|gauge fixed]] BV-BRST [[Lagrangian density]] $-\mathbf{L}' + \mathbf{L}'_{BRST}$ ([this def.](A+first+idea+of+quantum+field+theory#GaugeFixingLagrangianDensity)) on a graded BV-BRST [[field bundle]] $E_{\text{BV-BRST}} \coloneqq T^\ast[-1]_{\Sigma,inf}(E \times_\Sigma \mathcal{G}[1] \times_{\Sigma} A \times_\Sigma A[-1])$.
+
+Then the [[time-ordered product|time-ordered]] [[antibracket]] (def. \ref{AntibracketTimeOrdered}) with the gauge fixed BV-[[action functional]] $-S'$ (def. \ref{ComplexBVBRSTGlobal}) equals the [[conjugation]] of the global [[BV-differential]] with the [[isomorphism]] $\mathcal{T}$ from the pointwise to the [[time-ordered product]] of [[observables]] (from [this prop.](time-ordered+product#IsomorphismOnRegularPolynomialObservablesTimeOrderedandPointwise))
+
+$$
+  \{-S',-\}_{\mathcal{T}}
+  \;=\;
+  \mathcal{T} \circ \{-S',-\} \circ mathcal{T}^{-1}
+  \,,
+$$
+
+hence
+
+$$
+  \array{
+    PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
+     &\overset{ \{-S',-\} }{\longrightarrow}&
+    PoyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
+    \\
+    {}^{\mathllap{\mathcal{T}}}\downarrow 
+      &&
+    \downarrow^{\mathrlap{\mathcal{T}}}
+    \\
+    PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
+     &\overset{ \{-S',-\}_{\mathcal{T}} }{\longrightarrow}&
+    PoyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
+  }
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By the assumption that $(E,\mathbf{L})$ is a [[free field theory]] its [[Euler-Lagrange equations]] are linear in the fields, and hence $S'$ is quadratic in the fields. This means that
+
+$$
+  \mathcal{T}^{-1}S' = S' + const
+  \,,
+$$
+
+where the second term on the right is independent of the fields, and hence that
+
+$$
+  \{\mathcal{T}^{-1}(-S'),-\}
+  = 
+  \{-S', - \}
+  \,.
+$$
+
+This implies the claim:
+
+$$
+  \begin{aligned}
+    \{-S',-\}_{\mathcal{T}}
+    & \coloneqq
+    \mathcal{T}\left(\{ \mathcal{T}^{-1}(-S'), \mathcal{T}^{-1}(-) \}\right)
+    \\
+   & =
+   \mathcal{T}\left(\{ -S', \mathcal{T}^{-1}(-) \}\right)
+   \\
+   & =
+   \mathcal{T} \circ \{-S',-\} \circ \mathcal{T}^{-1}
+   \,.
+  \end{aligned}
+$$
+
+
+=--
+
 +-- {: .num_defn #ForGaugeFixedFreeLagrangianFieldTheoryBVOperator}
 ###### Definition
 **([[BV-operator]] for [[gauge fixing|gauge fixed]] [[free field theory|free]] [[Lagrangian field theory]])**
 
-Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]]
-with [[local BV-BRST complex]] supported on the BV-BRST-extended graded [[field bundle]] $T^\ast_{\Sigma,inf}( E \times_\Sigma \mathcal{G}[1] \times_[\Sigma] A \times_\Sigma A[-1] )$, and which admits [[gauge fixing]] with corresponding gauge-fixed global [[BV-BRST differential]] on graded [[regular polynomial observables]]
+Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]] ([this def.](A+first+idea+of+quantum+field+theory#FreeFieldTheory)) with [[gauge fixing|gauge fixed]] BV-BRST [[Lagrangian density]] $-\mathbf{L}' + \mathbf{L}'_{BRST}$ ([this def.](A+first+idea+of+quantum+field+theory#GaugeFixingLagrangianDensity)) on a graded BV-BRST [[field bundle]] $E_{\text{BV-BRST}} \coloneqq T^\ast[-1]_{\Sigma,inf}(E \times_\Sigma \mathcal{G}[1] \times_{\Sigma} A \times_\Sigma A[-1])$ and with corresponding gauge-fixed global [[BV-BRST differential]] on graded [[regular polynomial observables]]
 
 $$
   \{-S' + S'_{BRST}, -\}
   \;\colon\;
-  PolyObs(T^\ast_{\Sigma,inf}( E \times_\Sigma \mathcal{G}[1] \times_[\Sigma] A \times_\Sigma A[-1] ))_{reg}[ [\hbar] ]
+  PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
   \longrightarrow
-  PolyObs(T^\ast_{\Sigma,inf}( E \times_\Sigma \mathcal{G}[1] \times_[\Sigma] A \times_\Sigma A[-1] ))_{reg}[ [\hbar] ]
+  PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
 $$ 
 
 ([this def.](A+first+idea+of+quantum+field+theory#GaugeFixingLagrangianDensity)).
@@ -198,25 +321,38 @@ Then the corresponding _[[BV-operator]]_
 $$
   \Delta_{BV}
   \;\colon\;
-  PolyObs(T^\ast_{\Sigma,inf}( E \times_\Sigma \mathcal{G}[1] \times_[\Sigma] A \times_\Sigma A[-1] ))_{reg}[ [\hbar] ]
+  PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
   \longrightarrow
-  PolyObs(T^\ast_{\Sigma,inf}( E \times_\Sigma \mathcal{G}[1] \times_[\Sigma] A \times_\Sigma A[-1] ))_{reg}[ [\hbar] ]
+  PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
 $$ 
 
-on [[regular polynomial observables]] is, up to a prefactor of $i \hbar$, the difference between the free component $\{-S',-\}$ of the gauge fixed global BV differential its [[conjugation]] with the [[time-ordered product|time-ordering]] [[isomorphism]] (eq:RecallIsomorphsimTimeOrdering)
+on [[regular polynomial observables]] is, up to a factor of $i \hbar$, the difference between the free component $\{-S',-\}$ of the gauge fixed global BV differential its time-ordered version (def. \ref{AntibracketTimeOrdered})
 
 $$
-  i \hbar \Delta 
-    \coloneqq
-  \mathcal{T} \circ 
-  \left\{ -S',(-) \right\} 
-  \circ \mathcal{T}^{-1}
-  -
-  \left\{ -S',(-) \right\}
+  \Delta_{BV}
+    \;\coloneqq\;
+  \tfrac{1}{i \hbar}
+  \left(
+    \left\{
+      -S',-
+    \right\}_{\mathcal{T}}
+    -
+    \left\{ -S',(-) \right\}
+  \right)
+  \,,
+$$
+
+hence 
+
+$$
+  \{-S',-\}_{\mathcal{T}}
+  \;=\;
+  \{-S',-\} + i \hbar \Delta_{BV}
   \,.
 $$
 
 =--
+
 
 +-- {: .num_prop #ComponentsBVOperator}
 ###### Proposition
@@ -242,8 +378,17 @@ $$
 +-- {: .proof}
 ###### Proof
 
+By prop. \ref{GaugeFixedActionFunctionalTimeOrderedAntibracket} we have equivalently
 
-By [this example](A+first+idea+of+quantum+field+theory#BVDifferentialGlobal) the global BV-differential is
+$$
+  i \hbar \Delta_{BV}
+  \;=\;
+  \mathcal{T} \circ \{-S',-\} \circ \mathcal{T}^{-1}
+  \,-\,
+  \{-S',-\}
+$$
+
+and by [this example](A+first+idea+of+quantum+field+theory#BVDifferentialGlobal) the the second term on the right is
 
 $$
   \begin{aligned}
@@ -274,10 +419,44 @@ With this we compute as follows:
 $$
   \label{AAA}
   \begin{aligned}
+    \{-S',-\}_{\mathcal{T}}
+    & =
     \mathcal{T} \circ \left\{ -S,-\right\} \circ \mathcal{T}^{-1}
+    \\
+    & = 
+    \exp\left( 
+     \left[
+       \hbar \tfrac{1}{2} \Delta_F
+       \left( 
+         \frac{\delta}{\delta \mathbf{\Phi}}, 
+         \frac{\delta}{\delta \mathbf{\Phi}}      
+        \right)
+        \,,\,
+        -
+      \right]
+    \right)
+    \left(
+      \{-S',-\}
+    \right)
+    \\
+    & = 
+    \{-S',-\}
+    +
+    \left[
+      \hbar \tfrac{1}{2}
+      \Delta_F
+      \left( 
+        \frac{\delta}{\delta \mathbf{\Phi}}, 
+        \frac{\delta}{\delta \mathbf{\Phi}}      
+      \right)
+      \,,
+      \{-S',-\}
+    \right]
+    + \underset{ = 0 }{\underbrace{\hbar^2(...)}}
+    \\
     & =
     \phantom{+}
-    \left\{ -S , -\right\}
+    \left\{ -S' , -\right\}
     \\
     &
     \phantom{=}
@@ -325,7 +504,11 @@ $$
   \end{aligned}
 $$
 
-Here under the brace we used that the [[Feynman propagator]] is $+i$ times a [[Green function]] for the [[Klein-Gordon equation]] ([this cor.](A+first+idea+of+quantum+field+theory#GreenFunctionFeynmanPropagator))
+Here we used
+
+1. under the first brace that by assumption of a [[free field theory]], $\{-S',-\}$ is linear in the fields, so that the first [[commutator]] with the [[Feynman propagator]] is independent of the fields, and hence all the higher commutators vanish;
+
+1.  under the second brace that the [[Feynman propagator]] is $+i$ times the [[Green function]] for the [[Green hyperbolic differential equation|Green hyperbolic]] [[Euler-Lagrange equation|Euler-Lagrange]] [[equations of motion]] ([this cor.](A+first+idea+of+quantum+field+theory#GreenFunctionFeynmanPropagator)).
 
 =--
 
