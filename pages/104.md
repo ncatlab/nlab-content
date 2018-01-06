@@ -65,7 +65,7 @@ Depending on the situation one may want to demand that the (co)homology in all o
 Discussion for an audience of physicists in the context of [[BV-BRST formalism]] is in
 
 
-* [[Marc Henneaux]], [[Claudio Teitelboim]], section 8.3 of _Quantization of gauge systems_, Princeton University Press, 1992
+* [[Marc Henneaux]], [[Claudio Teitelboim]], section 8.3 of _[[Quantization of Gauge Systems]]_, Princeton University Press, 1992
 
 
 [[!redirects homological resolutions]]
