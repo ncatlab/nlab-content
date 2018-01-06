@@ -89,7 +89,7 @@ $$V(E)(R):=\{x\in X(R) | f\in E, f(x)=0\}$$
 
 and
 
-$$D(E)(R):=\{x\in X(R)|f\in E, \text{the} f(x) \text{generate the unit ideal of} R\}$$
+$$D(E)(R):=\{x\in X(R)|f\in E, \text{the } \ f(x) \ \text{ generate the unit ideal of} R\}$$
 
 For a transformation $u:Y\to X$ of $k$-functors and $Z\subseteq X$ a subfunctor we define
 
