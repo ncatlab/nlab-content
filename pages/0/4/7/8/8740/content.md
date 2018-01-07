@@ -1039,7 +1039,7 @@ $$
   }
 $$
 
-This is the way the _[[Wick algebra]]_ with its _[[operator product]]_ $\star_\po$  and _[[normal-ordered product]]_ $:-:$ is traditionally presented. 
+This is the way the _[[Wick algebra]]_ with its _[[operator product]]_ $\star_\pi$  and _[[normal-ordered product]]_ $:-:$ is traditionally presented. 
 
 =--
 
