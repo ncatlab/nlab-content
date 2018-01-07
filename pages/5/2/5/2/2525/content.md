@@ -6,9 +6,9 @@
 +-- {: .hide}
 [[!include variational calculus - contents]]
 =--
-#### Physics
-+-- {: .hide}
-[[!include physicscontents]]
+#### Algebraic Quantum Field Theory
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
 =--
 #### Equality and Equivalence
 +-- {: .hide}
@@ -23,21 +23,13 @@
 
 ## Idea
 
-The **Euler-Lagrange [[equations]]** of a [[nonlinear functional]] characterize in [[variational calculus]] the _[[extrema]]_ of that functional, hence its _[[critical locus]]_, the "[[shell]]". 
+In [[variational calculus]] the  **Euler-Lagrange [[equations]]** of a [[nonlinear functional]] arising from [[transgression of variational differential forms|transgression]] of a [[local Lagrangian density]] characterize the _[[extrema]]_ of that functional, hence its _[[critical locus]]_ (the "[[shell]]"). 
 
-This originates from and is mainly used in [[physics]], where the functional in question is the _[[action functional]]_ of a [[physical system]], and where its critical points encode the physically observable [[particle]] [[trajectories]] and [[field (physics)|field]] configurations by the _[[principle of extremal action]]_.
+This originates from and is mainly used in [[physics]], specifically in [[Lagrangian field theory]], where the functional in question is the _[[action functional]]_ of a [[physical system]], and where its critical points encode the physically realized [[field histories]] by the _[[principle of extremal action]]_.
 
 ## Details 
 
-Given a [[Lagrangian]] $L = L(q,\stackrel{\cdot}q,t)$ of a [[classical mechanics|classical mechanical]] system the corresponding [[action principle]] can be expressed as **Euler-Lagrange equations**: for all $i$, 
-
-$$
-\frac{d}{dt} \left( \frac{\partial L}{\partial \stackrel{\cdot}{q}_i} \right) - \frac{\partial L}{\partial {q}_i}  = 0
-$$
-
-If there is only one degree of freedom then one talks in singular: Euler-Lagrange equation. 
-
-Unlike in the usual [[classical mechanics|classical mechanical]] systems, in some other problems of [[calculus of variations]] one has Lagrangians involving higher time derivatives; the Euler-Lagrange equations have then correspondingly more terms. Similarly, one can have dependence on more parameters than a single time parameter, what can also be easily incorporated. 
+See at _[[A first idea of quantum field theory]]_ [this def.](A+first+idea+of+quantum+field+theory#EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime)
 
 ## Examples
 
@@ -58,6 +50,8 @@ Unlike in the usual [[classical mechanics|classical mechanical]] systems, in som
   * [[Hamilton's equations]], [[de Donder-Weyl-Hamilton equation]]
 
   * [[Einstein's equations]]
+
+* [[Schwinger-Dyson equation]], [[Ward identity]]
 
 * [[variational calculus]]
 
