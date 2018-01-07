@@ -42,6 +42,51 @@ $$
 $$
 
 
+## Details
+
+> under construction
+
+[[S-matrix]]
+
+$$
+  \mathcal{S}(V)
+  =
+  \exp_{\star_F}(\tfrac{i}{\hbar} V)
+$$
+
+quantum Moller operator:
+
+$$
+  \mathcal{R}_V
+  \;\coloneqq\;
+  \mathcal{S}(V)^{-1} \star_H (\mathcal{S}(V) \star_F (-))
+$$
+
+inverse:
+
+$$
+  \mathcal{R}_V^{-1}
+  \;=\;
+  \mathcal{S}(-V) \star_F ( \mathcal{F}(V) \star(-) )
+$$
+
+isomorphism to interacting star product on regular polynomial observables:
+
+$$
+  A_1 \star_V A_2
+  \;\coloneqq\;
+  \mathcal{R}_V(\mathcal{R}_V^{-1}(A_1) \star_H \mathcal{R}_V^{-1}(A_2))
+$$
+
+(e.g. [Fredenhagen-Rejzner 11b, (19)](#FredenhagenRejzner11b))
+
+interacting quantum BV-differential:
+
+$$
+  \mathcal{R}_V \circ \{-S', (-)\} \circ \mathcal{R}_V^{-1}
+$$
+
+([Rejzner 11, (5.38)](#Rejzner11))
 
 ## Related concepts
 
