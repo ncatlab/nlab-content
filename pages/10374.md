@@ -32,7 +32,12 @@ Named after _[[John Clive Ward]]_.
 
 Discussion in the rigorous context of [[causal perturbation theory]] is in
 
+* {#DuetschBoas02} [[Michael Dütsch]], F.-M. Boas, _The Master Ward Identity_, Rev. Math. Phys 14, (2002) 977-1049 ([pdf](http://cds.cern.ch/record/526377/files/0111101.pdf))
+
+
 * {#DuetschFredenhagen02} [[Michael Dütsch]], [[Klaus Fredenhagen]], _The Master Ward Identity and Generalized Schwinger-Dyson Equation in Classical Field Theory_, Commun.Math.Phys. 243 (2003) 275-314 ([arXiv:hep-th/0211242](https://arxiv.org/abs/hep-th/0211242))
+
+* Ferdinand Brennecke, [[Michael Dütsch]], _Removal of violations of the Master Ward Identity_, in perturbative QFT, Rev.Math.Phys. 20 (2008) 119-172 ([arXiv:https://arxiv.org/abs/0705.3160](https://arxiv.org/abs/0705.3160))
 
 * {#Duetsch18} [[Michael Dütsch]], chapter 4 of _[[From classical field theory to perturbative quantum field theory]]_, 2018
 
