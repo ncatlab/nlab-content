@@ -142,7 +142,9 @@ A rigorous derivation in terms of [[BV-formalism]] in [[causal perturbation theo
 
 * {#Rejzner16} [[Katarzyna Rejzner]], remark 7.7 _Perturbative Algebraic Quantum Field Theory_, Mathematical Physics Studies, Springer 2016 ([web](https://link.springer.com/book/10.1007%2F978-3-319-25901-7))
 
-See also 
+For discussion in the context of the [[master Ward identity]], see
+
+* {#DuetschFredenhagen02} [[Michael Dütsch]], [[Klaus Fredenhagen]], _The Master Ward Identity and Generalized Schwinger-Dyson Equation in Classical Field Theory_, Commun.Math.Phys. 243 (2003) 275-314 ([arXiv:hep-th/0211242](https://arxiv.org/abs/hep-th/0211242))
 
 * Wikipedia, _[Schwinger-Dyson equation](https://en.wikipedia.org/wiki/Schwinger%E2%80%93Dyson_equation)_
 
