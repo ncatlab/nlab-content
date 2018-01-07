@@ -59,7 +59,7 @@ $$
 $$
 
 
-For $A \in \mathcal{F}_{loc}$ a [[local observable]] and $j \in C^\infty_{cp}(\Sigm)$, write
+For $A \in \mathcal{F}_{loc}$ a [[local observable]] and $j \in C^\infty_{cp}(\Sigma)$, write
 
 $$
   Z_L(\epsilon j A)
@@ -133,7 +133,7 @@ $$
   S(g_{sw}L_{int})^{-1} \star S(g_{sw}L_{int} + j_{sw} A)
 $$
 
-involves the [[star product]] of the free theory (the [[normal-ordered product]] of the [[Wick algebra]]). This is a [[formal deformation quantization]] of the [[Peierls-Poisson bracket]], and therefore the [[commutator]] in this algebra is a [[formal power series]] in $\hbar$ that howver has no constant term in $\hbar$ (but starts out with $\hbar$ times the [[Poisson bracket]], followed by possibly higher order terms in $\hbar$):
+involves the [[star product]] of the free theory (the [[normal-ordered product]] of the [[Wick algebra]]). This is a [[formal deformation quantization]] of the [[Peierls-Poisson bracket]], and therefore the [[commutator]] in this algebra is a [[formal power series]] in $\hbar$ that however has no constant term in $\hbar$ (but starts out with $\hbar$ times the [[Poisson bracket]], followed by possibly higher order terms in $\hbar$):
 
 $$
   [L_{int},A] \;=\; \hbar(\cdots)
