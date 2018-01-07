@@ -534,14 +534,14 @@ $$
     A^a(x) \cdot \mathbf{\Phi}^\ddagger_a(x)
   \, dvol_\Sigma(x)
   \;\in\;
-  PolyObs(E_{\text{BV-BRST}})
+  PolyObs_{reg}(E_{\text{BV-BRST}})
 $$
 
-be a [[polynomial observable]] which is [[linear map|linear]] in the [[antifield]] [[field observables]] $\mathbf{\Phi}^\ddagger$. Then 
+be an [[off-shell]] [[regular polynomial observable]] which is [[linear map|linear]] in the [[antifield]] [[field observables]] $\mathbf{\Phi}^\ddagger$. Then 
 
 $$
   \label{EquationSchwingerDyson}
-  \mathcal{T}^{-1}
+  \mathcal{T}^{\pm 1}
   \left(
     \underset{\Sigma}{\int}
       \frac{\delta S'}{\delta \mathbf{\Phi}^a(x)}
@@ -550,17 +550,23 @@ $$
       \, dvol_\Sigma(x)
   \right)
   \;=\;
-  - i \hbar
+  \pm i \hbar
   \,
-  \mathcal{T}^{-1}
+  \mathcal{T}^{\pm}
   \left(
     \underset{\Sigma}{\int}
     \frac{\delta A^a(x)}{\delta \mathbf{\Phi}^a(x)}
     \,
     dvol_\Sigma(x)     
   \right)  
-  \phantom{AAA}
-  \text{on-shell}
+  \phantom{A}
+  \in
+  \underset{
+    \text{on-shell}
+  }{
+  \underbrace{
+    PolyObs_{reg}(E_{\text{BV-BRST}}, \mathbf{L'})
+  }}
   \,.
 $$
 
@@ -613,7 +619,27 @@ $$
 
 where we have identified the terms under the braces by 1) the component expression for the BV-differential $\{-S',-\}$ from [this prop](A+first+idea+of+quantum+field+theory#BVDifferentialGlobal), 2) prop. \ref{ComponentsBVOperator} and 3) prop. \ref{GaugeFixedActionFunctionalTimeOrderedAntibracket}.
 
-The last term is in the [[image]] of the [[BV-differential]] $\{-S',-\}$ and hence vanishes [[on-shell]] (by [this example.](A+first+idea+of+quantum+field+theory#BVDifferentialGlobal)).
+The last term is manifestly in the [[image]] of the [[BV-differential]] $\{-S',-\}$ and hence vanishes when passing to [[on-shell]] observables along the [[isomorphism]] ([this equation](A+first+idea+of+quantum+field+theory#eq;OnShellPolynomialObservablesAsBVCohomology))
+
+$$
+  \underset{
+    \text{on-shell}
+  }{
+  \underbrace{
+    PolyObs(E_{\text{BV-BRST}}, \mathbf{L}')
+  }}
+  \;\simeq\;
+  \underset{
+    \text{off-shell}
+  }{
+  \underbrace{
+    PolyObs(E_{\text{BV-BRST}})_{def(af = 0)}
+  }}/im(\{-S',-\})
+$$
+
+(by [this example.](A+first+idea+of+quantum+field+theory#BVDifferentialGlobal)).
+
+The same argument with the replacement $\mathcal{T} \leftrightarrow \mathcal{T}^{-1}$ throughout yields the other version of the equation (with time-ordering instead of reverse time ordering and the sign of the $\hbar$-term reversed).
 
 =--
 
