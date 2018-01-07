@@ -1002,11 +1002,12 @@ $$
   \end{aligned}
 $$
 
+
 and so forth, for instance
 
 $$
   \array{
-    (a a ) \star_\pi (a^\ast a^\ast)
+    (a \cdot a ) \star_\pi (a^\ast \cdot a^\ast)
     & =
     a^\ast \cdot a^\ast \cdot a \cdot a
     +
@@ -1016,13 +1017,15 @@ $$
   }
 $$
 
-If we instead indicate the commutative pointwise product by 
+If we instead indicate the commutative pointwise product by colons and the star product by plain juxtaposition
 
 $$
   :f g: \;\coloneqq\; f \cdot g
+  \phantom{AAAA}
+  f g \;\coloneqq\; f \star_\pi
 $$
 
-and indicate the star-product by juxtaposition, then this reads
+then this reads
 
 $$
   \array{
@@ -1035,6 +1038,8 @@ $$
     \hbar^2
   }
 $$
+
+This is the way the _[[Wick algebra]]_ with its _[[operator product]]_ $\star_\po$  and _[[normal-ordered product]]_ $:-:$ is traditionally presented. 
 
 =--
 
