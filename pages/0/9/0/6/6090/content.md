@@ -2848,6 +2848,10 @@ General discussion of scattering theory is in
 
 * {#Newton82} Roger G. Newton, _Scattering Theory of Waves and Particles_, Springer 1982 ([TOC pdf](https://cds.cern.ch/record/1562608/files/0486425355_TOC.pdf))
 
+* {#Iagolnitzer07} Daniel Iagolnitzer, _The Analyticity Program in Axiomatic Quantum Field Theory_, in  A.B. de Monvel, [[Detlev Buchholz]], Daniel Iagolnitzer, Moschella U. (eds.) _Rigorous Quantum Field Theory_, Progress in Mathematics, vol 251. Birkhäuser, Basel, 2007, ([web](https://link.springer.com/chapter/10.1007/978-3-7643-7434-1_11))
+
+* {#Iagolnitzer14} Daniel Iagolnitzer, _Scattering in Quantum Field Theories, The Axiomatic and Constructive Approaches_, Princeton 2014 ([web](https://press.princeton.edu/titles/5157.html))
+
 A textbook account of the traditional heuristic picture deriving the S-matrix in [[perturbative quantum field theory|perturbative]] [[Lagrangian field theory]] is in
 
 * {#Weinberg95} [[Steven Weinberg]], chapter 3 of _The quantum theory of fields - Volume I: Foundations_, Cambridge 1995
