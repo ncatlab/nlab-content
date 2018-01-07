@@ -1,11 +1,17 @@
 ## Quantization
  {#Quantization}
 
-We had found the [[Poisson bracket]] on the [[covariant phase space]] of a [[gauge fixing|gauge fixed]] [[Lagrangian field theory]]. This is a [[Lie bracket]] and hence reflects [[infinitesimal symmetries]] acting on the phase space. The corresponding finite (instead of infinitesimal) structure is called the _[[symplectic groupoid]]_; this is the original [[phase space]], but with its [[Hamiltonian flows]] hard-wired into the geometry. Where smooth functions on the plain phase space form the [[commutative algebra|commutative]] [[algebra of observables]] under their pointwise product, the smooth functions on this [[symplectic groupoid]]-refinement of the phase space are multiplied by the _[[groupoid convolution product]]_ and as such become a [[noncommutative algebra|non-commutative]] [[algebra of quantum observables]]. This passage from the commutative to the non-commutative algebra of observables is called _[[quantization]]_, here specifically _[[geometric quantization of symplectic groupoids]]_.
+In the previous chapters we had found the [[Poisson bracket]] ([[Peierls bracket]]) on the [[covariant phase space]] of a [[gauge fixing|gauge fixed]] [[Lagrangian field theory]]. This is a [[Lie bracket]] and hence reflects [[infinitesimal symmetries]] acting on the [[covariant phase space]]. The corresponding finite (instead of infinitesimal) structure is called the _[[symplectic groupoid]]_; this is the original [[phase space]], but with its [[Hamiltonian flows]] hard-wired into the geometry. 
 
-Instead of discussing this in generality, we here focus right away on the simple special case relevant for the [[quantization]] of [[free field theories]] in the [next chapter](#FreeQuantumFields). In this case the quantization turns the commutative agebra of observables into a _[[Moyal star product|Moyal]]-[[star product]]_. This is given by the [[exponentiation]] of the [[integral kernel]] of the [[Poisson bracket]] plus a symmetric correct term, and as such is a _[[formal deformation quantization]]_ of the original commutative pointwise product. 
+Where smooth functions on the plain phase space form the [[commutative algebra|commutative]] [[algebra of observables]] under their pointwise product, the smooth functions on this [[symplectic groupoid]]-refinement of the phase space are multiplied by the _[[groupoid convolution product]]_ and as such become a [[noncommutative algebra|non-commutative]] [[algebra of quantum observables]]. This passage from the commutative to the non-commutative algebra of observables is called _[[quantization]]_, here specifically _[[geometric quantization of symplectic groupoids]]_.
 
-Hence in the case of [[free field theory|free]] [[gauge fixing|gauge fixed]] [[Lagrangian field theory]] this is given by exponentiating [[propagators]]. It is the [[combinatorics]] of these exponentiated propagator expressions that yield the hallmark structures of [[perturbative quantum field theory]], namely the combinatorics of [[Wick's lemma]] for the [[Wick algebra]] of free fields, and the combinatorics of [[Feynman diagrams]] for the [[time-ordered products]]. This is the topic of the following chapters _[Free quantum fields](#FreeQuantumFields)_ and _[Scattering](#Scattering)_; here we conclude just with discussing the finite-dimensional toy version of the [[normal-ordered product]] in the [[Wick algebra]].
+Instead of discussing this in generality, we here focus right away on the simple special case relevant for the [[quantization]] of [[free field theories]] in the [next chapter](#FreeQuantumFields). We first discuss how the archetypical textbook version of [[quantum mechanics]] in the [[Schrödinger representation]] arises from _[[polarization]]_  in [[geometric quantization]] (example \ref{GeometricRepresentationSchroedingerRepresentation} below), and then we use this to find the polarized [[groupoid convolution algebra]]_ of the [[symplectic groupoid]] of a free theory (prop. \ref{PolarizedSymplecticGroupoidConvolutionProductOfSymplecticVectorSpaceIsMoyalStarProduct} below). The result is the  "[[Moyal star product|Moyal]]-[[star product]]" (def. \ref{StarPoduct} below). 
+
+This [[star product]] is given by the [[exponentiation]] of the [[integral kernel]] of the [[Poisson bracket]] plus possibly a symmetric shift (prop. \ref{SymmetricContribution} below), and as such is a _[[formal deformation quantization]]_ of the original commutative pointwise product (def. \ref{FormalDeformationQuantization} below). 
+
+Hence in the case of [[free field theory|free]] [[gauge fixing|gauge fixed]] [[Lagrangian field theory]] the product on the [[algebra of quantum observables]] is given by exponentiating [[propagators]]. It is the [[combinatorics]] of these exponentiated propagator expressions that yield the hallmark structures of [[perturbative quantum field theory]], namely the combinatorics of [[Wick's lemma]] for the [[Wick algebra]] of free fields, and the combinatorics of [[Feynman diagrams]] for the [[time-ordered products]]. This is the topic of the following chapters _[Free quantum fields](#FreeQuantumFields)_ and _[Scattering](#Scattering)_. 
+
+Here we conclude just with discussing the finite-dimensional toy version of the [[normal-ordered product]] in the [[Wick algebra]] (example \ref{WickAlgebraOfASingleMode} below).
 
 $\,.$
 
@@ -124,7 +130,7 @@ We had seen that every [[Lagrangian field theory]] induces a [[presymplectic cur
 In order to disentangle the core concept of [[quantization]] from the technicalities involved in fully fledged [[field theory]], we now first discuss the [[finite number|finite]] [[dimension|dimensional]] situation.
 
 
-+-- {: .num_example}
++-- {: .num_example #GeometricRepresentationSchroedingerRepresentation}
 ###### Example
 **([[Schrödinger representation]] via [[geometric quantization]])**
 
@@ -1455,7 +1461,7 @@ $$
   }
 $$
 
-This is the way the _[[Wick algebra]]_ with its _[[operator product]]_ $\star_\po$  and _[[normal-ordered product]]_ $:-:$ is traditionally presented. 
+This is the way the _[[Wick algebra]]_ with its _[[operator product]]_ $\star_\pi$  and _[[normal-ordered product]]_ $:-:$ is traditionally presented. 
 
 =--
 
