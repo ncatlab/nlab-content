@@ -1,52 +1,17 @@
 ## Quantization
  {#Quantization}
 
-Given any [[space]] with [[infinitesimal symmetries]] acting on it, there is the corresponding [[homotopy quotient]]
-by these infinitesimal symmetries. For the [[covariant phase space]] of a [[Lagrangian field theory]], as [above](#PhaseSpace) with its [[Poisson Lie algebra]] of infinitesimal symmetries (def. \ref{PoissonBracketOnHamiltonianLocalObservables}),
-this infinitesimal [[homotopy quotient]] is known as the _[[Poisson Lie algebroid]]_ and the corresponding genuine
-[[homotopy quotient]] is known as the _[[symplectic groupoid]]_. As one passes from [[phase space]] to its [[symplectic groupoid]],
-the [[algebra of functions]] on phase space -- hence the [[algebra of observables]] $Obs$ (def. \ref{LocalObservables}) -- which is always a [[commutative algebra]] _[[deformation quantization|deforms]]_ to the corresponding algebra of functions on a [[Lie groupoid]]
-called the ([[polarization|polarized]]) [[convolution algebra of a Lie groupoid]]. This is now a [[non-commutative algebra]]
-called the _[[algebra of quantum observables]]_ $Obs_{\hbar}$; and this passage from
-[[phase space]] to its [[symplectic groupoid]] [[homotopy quotient]] by  Hamiltonian symmetries is called _[[quantization]]_
-(specifically: "[[geometric quantization of symplectic groupoids]]").
-Here the strength of the non-commutativity is measured by a [[deformation]] parameter called _[[Planck's constant]]_ $\hbar$.
+We had found the [[Poisson bracket]] on the [[covariant phase space]] of a [[gauge fixing|gauge fixed]] [[Lagrangian field theory]]. This is a [[Lie bracket]] and hence reflects [[infinitesimal symmetries]] acting on the phase space. The corresponding finite (instead of infinitesimal) structure is called the _[[symplectic groupoid]]_; this is the original [[phase space]], but with its [[Hamiltonian flows]] hard-wired into the geometry. Where smooth functions on the plain phase space form the [[commutative algebra|commutative]] [[algebra of observables]] under their pointwise product, the smooth functions on this [[symplectic groupoid]]-refinement of the phase space are multiplied by the _[[groupoid convolution product]]_ and as such become a [[noncommutative algebra|non-commutative]] [[algebra of quantum observables]]. This passage from the commutative to the non-commutative algebra of observables is called _[[quantization]]_, here specifically _[[geometric quantization of symplectic groupoids]]_.
 
-Since the product in the [[algebra of quantum observables]] $Obs_\hbar$ differs from that in $Obs$, the
-positivity condition $\langle A^\ast A\rangle \geq 0$ in the definition of  _[[states]]_ $\langle - \rangle$
-of a field theory (def. \ref{States}) acquires a different meaning. The states after [[quantization]] are called
-_[[quantum states]]_ and their difference witnesses that after [[quantization]] the [[Lagrangian field theory]] is of a different nature:
-one says that it is no longer a _[[classical field theory]]_, but a _[[quantum field theory]]_
-and that the objects whose states are expressed by these new [[quantum states]] are _[[quantum fields]]_.
+Instead of discussing this in generality, we here focus right away on the simple special case relevant for the [[quantization]] of [[free field theories]] in the [next chapter](#FreeQuantumFields). In this case the quantization turns the commutative agebra of observables into a _[[Moyal star product|Moyal]]-[[star product]]_. This is given by the [[exponentiation]] of the [[integral kernel]] of the [[Poisson bracket]] plus a symmetric correct term, and as such is a _[[formal deformation quantization]]_ of the original commutative pointwise product. 
 
-Unfortunately, explicitly constructing the [[algebra of quantum observables]] of a [[Lagrangian field theory]] and hence "constructing the [[quantum field theory]]" turns out to be extremely hard, unless some simplifying assumptions are made.
+Hence in the case of [[free field theory|free]] [[gauge fixing|gauge fixed]] [[Lagrangian field theory]] this is given by exponentiating [[propagators]]. It is the [[combinatorics]] of these exponentiated propagator expressions that yield the hallmark structures of [[perturbative quantum field theory]], namely the combinatorics of [[Wick's lemma]] for the [[Wick algebra]] of free fields, and the combinatorics of [[Feynman diagrams]] for the [[time-ordered products]]. This is the topic of the following chapters _[Free quantum fields](#FreeQuantumFields)_ and _[Scattering](#Scattering)_; here we conclude just with discussing the finite-dimensional toy version of the [[normal-ordered product]] in the [[Wick algebra]].
 
-One kind of simplification occurs when the  [[spacetime]] [[dimension]] is very low. For instance if the spacetime dimension is taken to be $p+1 = 1$ -- modelling the approximation where one completely ignores the variation of fields in space
-and retains just their time evolution -- then one speaks of [[quantum mechanics]], which is well understood.
-Another simplification occurs when the field theory is a _[[free field theory]]_, meaning that its [[equation of motion]]
-is a [[normally hyperbolic differential operator|normally hyperbolic]] [[linear differential operator]].
-In this case the [[quantum field theory]] is fully understood as long as the underlying [[spacetime]] is a
-[[time orientation|time-orientable]] and [[globally hyperbolic spacetime|globally hyperbolic]]. But, as the
-name indicates, this captures only the case where there is no [[interaction]] among the [[field (physics)|fields]].
-
-Since the [[algebra of quantum observables]] $Obs_\hbar$ is a _[[deformation]]_ with strength $\hbar$ of the commutative algebra of classical
-observables $Obs$ controlled by the [[Poisson Lie algebra]], another simplification occurs if one
-gives up on the demand to understand the full deformation at finite value of [[Planck's constant]] $\hbar$
-and considers just [[infinitesimal]] values of $\hbar$. Since this means that the resulting [[quantum observables]]
-are no longer actual [[smooth functions]] of $\hbar$, but just _[[formal power series]]_, this is called
-_[[formal deformation quantization]]_. The resulting "infinitesimally quantized" [[field theory]] is called
-_[[perturbative quantum field theory]]_.
-
-For [[interaction|interacting]] [[field theories]] in [[spacetime]] dimension $p+1 \geq 3+1$
-their quantization has been constructed to date only in [[perturbation theory]] this way.
-The construction of full [[non-perturbative quantum field theory]] (in dimension $\geq 3+1$ with
-non-vanishing [[interaction]]) is, at the time of this writing, a wide open problem.
-
-But [[perturbative quantum field theory]] is well understood. This we turn to in the following chapters.
-
-$\,$
+$\,.$
 
 We now discuss these topics:
+
+* _[Motivation from Lie theory](#MotivationFromLieTheory)_
 
 * _[Geometric quantization](#GeometricQuantization)_
 
@@ -58,9 +23,97 @@ We now discuss these topics:
 
 * _[Example: Wick algebra of normal ordered product on Kähler vector space](#WickAlgebraOfNormalOrderedProductsOnKählerVectorspace)_
 
+
+
 $\,$
 
+**motivation from Lie theory**
+ {#MotivationFromLieTheory}
 
+
+Quantization of course was and is motivated by experiment, hence by observation of the [[observable universe]]: it just so happens that [[quantum mechanics]] and [[quantum field theory]] correctly account for experimental observations where [[classical mechanics]] and [[classical field theory]] gives no answer or incorrect answers. A historically important example is the phenomenon called the "[[ultraviolet catastrophe]]", a [[paradox]] predicted by classical [[statistical mechanics]] which is _not_ observed in nature, and which is corrected by [[quantum mechanics]].
+
+But one may also ask, independently of experimental input, if there are good formal mathematical reasons and motivations to pass from [[classical mechanics]] to [[quantum mechanics]]. Could one have been led to [[quantum mechanics]] by just pondering the mathematical formalism of [[classical mechanics]]? 
+
+The following spells out an argument to this effect. It will work for readers with a background in modern [[mathematics]], notably in [[Lie theory]], and with an understanding of the formalization of classical/prequantum mechanics in terms of [[symplectic geometry]]. 
+
+So to briefly recall, a system of [[classical mechanics]]/[[prequantum field theory|prequantum mechanics]] is a [[phase space]], formalized as a [[symplectic manifold]] $(X, \omega)$. A symplectic manifold is in particular a [[Poisson manifold]], which means that the [[algebra of functions]] on [[phase space]] $X$, hence the algebra of _classical [[observables]]_, is canonically equipped with a compatible [[Lie bracket]]: the _[[Poisson bracket]]_. This Lie bracket is what controls [[dynamics]] in [[classical mechanics]]. For instance if $H \in C^\infty(X)$ is the function on [[phase space]] which is interpreted as assigning to each configuration of the system its [[energy]] -- the [[Hamiltonian]] function -- then the [[Poisson bracket]] with $H$ yields the [[infinitesimal object|infinitesimal]] time evolution of the system: the [[differential equation]] famous as [[Hamilton's equations]].
+
+Something to take notice of here is the _[[infinitesimal space|infinitesimal]]_ nature of the [[Poisson bracket]]. Generally, whenever one has a [[Lie algebra]] $\mathfrak{g}$, then it is to be regarded as the [[infinitesimal object|infinitesimal]] approximation to a globally defined object, the corresponding [[Lie group]] (or generally [[smooth group]]) $G$. One also says that $G$ is a _[[Lie integration]]_ of $\mathfrak{g}$ and that $\mathfrak{g}$ is the [[Lie differentiation]] of $G$.
+
+Therefore a natural question to ask is: _Since the observables in [[classical mechanics]] form a [[Lie algebra]] under [[Poisson bracket]], what then is the corresponding [[Lie group]]?_
+
+The answer to this is of course "well known" in the literature, in the sense that there are relevant monographs which state the answer. But, maybe surprisingly, the answer to this question is not (at time of this writing) a widely advertized fact that has found its way into the basic educational textbooks. The answer is that this [[Lie group]] which integrates the [[Poisson bracket]] is the "[[quantomorphism group]]", an object that seamlessly leads to the [[quantum mechanics]] of the system.
+
+Before we spell this out in more detail, we need a brief technical aside: of course [[Lie integration]] is not quite unique. There may be different global [[Lie group]] objects with the same [[Lie algebra]]. 
+
+The simplest example of this is already one of central importance for the issue of quantization, namely, the Lie integration of the abelian [[line Lie algebra]] $\mathbb{R}$. This has essentially two different [[Lie groups]] associated with it: the [[simply connected topological space|simply connected]] [[translation group]], which is just $\mathbb{R}$ itself again, equipped with its canonical additive [[abelian group]] structure, and the [[discrete space|discrete]] [[quotient]] of this by the group of [[integers]], which is the [[circle group]]
+
+$$
+  U(1) = \mathbb{R}/\mathbb{Z}
+  \,.
+$$
+
+Notice that it is the discrete and hence "quantized" nature of the [[integers]] that makes the [[real line]] become a [[circle]] here. This is not entirely a coincidence of terminology, but can be traced back to the heart of what is "quantized" about [[quantum mechanics]].
+
+Namely, one finds that the [[Poisson bracket]] [[Lie algebra]] $\mathfrak{poiss}(X,\omega)$ of the classical [[observables]] on [[phase space]] is (for $X$ a [[connected topological space|connected]] [[manifold]]) a [[Lie algebra extension]] of the Lie algebra $\mathfrak{ham}(X)$ of [[Hamiltonian vector fields]] on $X$ by the [[line Lie algebra]]:
+
+$$
+  \mathbb{R} \longrightarrow \mathfrak{poiss}(X,\omega) \longrightarrow \mathfrak{ham}(X)
+  \,.
+$$
+
+This means that under [[Lie integration]] the [[Poisson bracket]] turns into an [[central extension]] of the group of [[Hamiltonian symplectomorphisms]] of $(X,\omega)$. And either it is the fairly trivial non-compact extension by $\mathbb{R}$, or it is the interesting [[central extension]] by the [[circle group]] $U(1)$. For this non-trivial [[Lie integration]] to exist, $(X,\omega)$ needs to satisfy a quantization condition which says that it admits a [[prequantum line bundle]]. If so, then this $U(1)$-[[central extension]] of the group $Ham(X,\omega)$ of [[Hamiltonian symplectomorphisms]] exists and is called... the _[[quantomorphism group]]_ $QuantMorph(X,\omega)$:
+
+$$
+  U(1) \longrightarrow QuantMorph(X,\omega) \longrightarrow Ham(X,\omega)
+  \,.
+$$
+
+While important, for some reason this group is not very well known, which is striking because it contains a small [[subgroup]] which is famous in [[quantum mechanics]]: the _[[Heisenberg group]]_.
+
+More precisely, whenever $(X,\omega)$ itself has a [[Hamiltonian action|compatible]] [[group]] structure, notably if $(X,\omega)$ is just a [[symplectic vector space]] (regarded as a group under addition of vectors), then we may ask for the [[subgroup]] of the [[quantomorphism group]] which covers the (left) [[action]] of [[phase space]] $(X,\omega)$ on itself. This is the corresponding [[Heisenberg group]] $Heis(X,\omega)$, which in turn is a $U(1)$-[[central extension]] of the group $X$ itself:
+
+$$
+  U(1) \longrightarrow Heis(X,\omega) \longrightarrow X
+  \,.
+$$
+
+At this point it is worth pausing for a second to note how the hallmark of [[quantum mechanics]] has appeared as if out of nowhere simply by applying [[Lie integration]] to the [[Lie algebra|Lie algebraic]] structures in [[classical mechanics]]:
+
+if we think of [[Lie integration|Lie integrating]] $\mathbb{R}$ to the interesting [[circle group]] $U(1)$ instead of to the uninteresting [[translation group]] $\mathbb{R}$, then the name of its canonical [[basis]] element $1 \in \mathbb{R}$ is canonically "$i$", the imaginary unit. Therefore one often writes the above [[central extension]] instead as follows:
+
+$$
+  i \mathbb{R} \longrightarrow \mathfrak{poiss}(X,\omega) \longrightarrow \mathfrak{ham}(X,\omega)
+$$
+
+in order to amplify this. But now consider the simple special case where $(X,\omega) = (\mathbb{R}^2, d p \wedge d q)$ is the 2-dimensional [[symplectic vector space]] which is for instance the [[phase space]] of the [[particle]] propagating on the line. Then a canonical set of generators for the corresponding [[Poisson bracket]] [[Lie algebra]] consists of the linear functions $p$ and $q$ of classical mechanics textbook fame, together with the _constant_ function. Under the above Lie theoretic identification, this constant function is the canonical basis element of $i \mathbb{R}$, hence purely Lie theoretically it is to be called "$i$".
+
+With this notation then the [[Poisson bracket]], written in the form that makes its [[Lie integration]] manifest, indeed reads
+
+$$
+  [q,p] = i
+  \,.
+$$
+
+Since the choice of [[basis]] element of $i \mathbb{R}$ is arbitrary, we may rescale here the $i$ by any non-vanishing [[real number]] without changing this statement. If we write "$\hbar$" for this element, then the [[Poisson bracket]] instead reads
+
+$$
+  [q,p] = i \hbar
+  \,.
+$$
+
+
+This is of course the hallmark equation for [[quantum physics]], if we interpret $\hbar$ here indeed as [[Planck's constant]]. We see it arises here merely by considering the non-trivial (the interesting, the non-simply connected) [[Lie integration]] of the [[Poisson bracket]]. 
+
+This is only the beginning of the story of quantization, naturally understood and indeed "derived" from applying [[Lie theory]] to [[classical mechanics]]. From here the story continues. It is called the story of _[[geometric quantization]]_. We close this motivation section here by some brief outlook.
+
+The [[quantomorphism group]] which is the non-trivial [[Lie integration]] of the [[Poisson bracket]] is naturally constructed as follows: given the [[symplectic form]] $\omega$, it is natural to ask if it is the [[curvature]] 2-form of a $U(1)$-[[principal connection]] $\nabla$ on [[complex line bundle]] $L$ over $X$ (this is directly analogous to [[Dirac charge quantization]] when instead of a [[symplectic form]] on [[phase space]] we consider the  the [[field strength]] 2-form of [[electromagnetism]] on [[spacetime]]). If so, such a connection $(L, \nabla)$ is called a _[[prequantum line bundle]]_ of the [[phase space]] $(X,\omega)$. The [[quantomorphism group]] is simply the [[automorphism group]] of the [[prequantum line bundle]], covering [[diffeomorphisms]] of the phase space (the [[Hamiltonian symplectomorphisms]] mentioned above).
+
+As such, the [[quantomorphism group]] naturally [[action|acts]] on the [[space of sections]] of $L$. Such a [[section]] is like a [[wavefunction]], except that it depends on all of [[phase space]], instead of just on the "[[canonical coordinates]]". For purely abstract mathematical reasons (which we won't discuss here, but see at _[[motivic quantization]]_ for more) it is indeed natural to choose a "[[polarization]]" of [[phase space]] into [[canonical coordinates]] and [[canonical momenta]] and consider only those [[sections]] of the [[prequantum line bundle]] which depend only on the former. These are the actual _[[wavefunctions]]_ of [[quantum mechanics]], hence the _[[quantum states]]_. And the [[subgroup]] of the [[quantomorphism group]] which preserves these polarized sections is the group of exponentiated [[quantum observables]]. For instance in the simple case mentioned before where $(X,\omega)$ is the 2-dimensional [[symplectic vector space]], this is the [[Heisenberg group]] with its famous action by multiplication and differentiation operators on the space of complex-valued functions on the real line.
+
+
+$\,$
 
 
 **[[geometric quantization]]**
@@ -1370,7 +1423,7 @@ and so forth, for instance
 
 $$
   \array{
-    (a a ) \star_\pi (a^\ast a^\ast)
+    (a \cdot a ) \star_\pi (a^\ast \cdot a^\ast)
     & =
     a^\ast \cdot a^\ast \cdot a \cdot a
     +
@@ -1380,13 +1433,15 @@ $$
   }
 $$
 
-If we instead indicate the commutative pointwise product by 
+If we instead indicate the commutative pointwise product by colons and the star product by plain juxtaposition
 
 $$
   :f g: \;\coloneqq\; f \cdot g
+  \phantom{AAAA}
+  f g \;\coloneqq\; f \star_\pi
 $$
 
-and indicate the star-product by juxtaposition, then this reads
+then this reads
 
 $$
   \array{
@@ -1400,7 +1455,11 @@ $$
   }
 $$
 
+This is the way the _[[Wick algebra]]_ with its _[[operator product]]_ $\star_\po$  and _[[normal-ordered product]]_ $:-:$ is traditionally presented. 
+
 =--
 
-(...)
+$\,$
 
+
+This concludes our discussion of [[quantization]]. In the [next chapter](#FreeQuantumFields) we apply this to discuss the [[algebra of quantum observables]] of [[free field theories|free]] [[Lagrangian field theories]]. Further below in the chapter _[Quantum observables](#QuantumObservables)_ we then discuss also the quantization of the [[interaction|interacting]] [[Lagrangian field theories]], [[perturbation theory|perturbatively]].
