@@ -67,13 +67,13 @@ $$
   S(g_{sw}\mathbf{L}_{int})^{-1} S( g_{sw}\mathbf{L}_{int} + j A )
 $$
 
-for the [[generating function]] induced by the perturvbative [[S-matrix]].
+for the [[generating function]] induced by the perturbative [[S-matrix]] (where the product shown by juxtaposition is that in the [[Wick algebra]], hence the [[star product]] induced by the [[Wightman propagator]]).
 
 
 
 +-- {: .num_defn #GeneratingFunctionsForCorrelationFunctions}
 ###### Definition
-**(Bogoliubov's formula)**
+**([[Bogoliubov's formula]])**
 
 
 The perturbative
