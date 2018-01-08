@@ -692,7 +692,7 @@ If $\pi = 0$ in def. \ref{StarPoduct}, then the star product $\star_0 = \cdot$ i
 =--
 
 
-+-- {: .num_prop #MoyalStarProduct}
++-- {: .num_example #MoyalStarProduct}
 ###### Example
 **([[Moyal star product]])**
 
