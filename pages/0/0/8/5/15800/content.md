@@ -157,6 +157,10 @@ The original article stating the _Sakharov conditions_ is
 
 * {#Sakharov67} [[Andrei Sakharov]], _Violation of CP invariance, C asymmetry, and baryon asymmetry of the universe_. Journal of Experimental and Theoretical Physics 5: 24&#8211;27. 1967, republished as A. D. Sakharov (1991). _Violation of CP invariance, C asymmetry, and baryon asymmetry of the universe_. Soviet Physics Uspekhi 34 (5): 392&#8211;393. Bibcode:1991SvPhU..34..392S. doi:[10.1070/PU1991v034n05ABEH002497](http://dx.doi.org/10.1070/PU1991v034n05ABEH002497). 1967
 
+reviewed in
+
+* [[Dennis Perepelitsa]], _Sakharov Conditions for Baryogenesis_, 2008 ([pdf](http://phys.columbia.edu/~dvp/dvp-sakharov.pdf))
+
 The derivation that [[instantons]] lead to baryon number violation is due to
 
 * {#Hooft76} [[Gerard 't Hooft]], _Symmetry Breaking through Bell-Jackiw Anomalies_ Phys. Rev. Lett. 37 (1976) ([pdf](http://www.staff.science.uu.nl/~hooft101/gthpub/symm_br_bell_jackiw.pdf))
