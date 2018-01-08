@@ -14,7 +14,7 @@ Under the identification of linear on-shell observables with off-shell observabl
 that are [[generalized solution of a PDE|generalized solutions]] to the [[equations of motion]] (theorem \ref{LinearObservablesForGreeFreeFieldTheoryAreDistributionalSolutionsToTheEquationsOfMotion}) the convolution with this [[integral kernel]]
 may be understood as _propagating_ the values of an off-shell observable through [[spacetime]],
 such as to then compare it with any other observable at any spacetime point (prop. \ref{PPeierlsBracket}).
-Therefore the [[integral kernel]] of the [[causal Green function]] is also called the _[[causal propagator]]_.
+Therefore the [[integral kernel]] of the [[causal Green function]] is also called the _[[causal propagator]]_ (prop. \ref{GreenFunctionsAreContinuous}).
 
 This means that for [[Green hyperbolic differential equation|Green hyperbolic]] [[free field theory|free]] [[Lagrangian field theory]]
 the [[Poisson bracket]], and hence the infinitesimal [[quantization]] of the theory, is all encoded in the
@@ -810,7 +810,7 @@ $$
 
 which would complete the generalization of of property (eq:FourierTransformInterchangesPointwiseProductWithConvolution) from prop. \ref{BasicPropertiesOfFourierTransformOverCartesianSpaces}.
 
-For this to make sense, the [[convolution product]] of the [[smooth functions]] on the right needs to exist, which is not guaranteed (prop. \ref{ConvolutionProductOnSchwartzSpace} does not apply here!). The condition that this exists is the [[Hörmander criterion]] on the _[[wave front set]]_ of $u_1$ and $u_2$. This we further discuss in _[Microlocal analysis and UV-Divergences](#MicrolocalAnalysisAndUltravioletDivergence)_ below.
+For this to make sense, the [[convolution product]] of the [[smooth functions]] on the right needs to exist, which is not guaranteed (prop. \ref{ConvolutionProductOnSchwartzSpace} does not apply here!). The condition that this exists is the [[Hörmander criterion]] on the _[[wave front set]]_ (def. \ref{WaveFrontSet}) of $u_1$ and $u_2$. This we further discuss in _[Microlocal analysis and UV-Divergences](#MicrolocalAnalysisAndUltravioletDivergence)_ below.
 
 
 =--
@@ -1030,6 +1030,22 @@ The [[Paley-Wiener-Schwartz theorem]] (prop. \ref{DecayPropertyOfFourierTransfor
 =--
 
 
++-- {: .num_example #NonSingularDistributionTrivialWaveFrontSet}
+###### Example
+**([[wave front set]] of [[non-singular distribution]] is [[empty set|empty]])**
+
+By prop. \ref{DecayPropertyOfFourierTransformOfCompactlySupportedFunctions}, the [[wave front set]] (def. \ref{WaveFrontSetIsBundleOverSingularSupport}) of a [[non-singular distribution]] (prop. \ref{DistributionsAreGeneralizedFunctions}) is [[empty set|empty]]. Conversely, a [[distribution]] is [[non-singular distribution|non-singular]] if its wave front set is empty:
+
+
+$$
+  u \in \mathcal{D}'\;\text{non-singular}
+  \phantom{AA}
+  \Leftrightarrow
+  \phantom{AA}
+  WF(u) = \emptyset
+$$
+
+=--
 
 +-- {: .num_example #WaveFrontOfDeltaDistribution}
 ###### Example
@@ -1115,7 +1131,7 @@ $$
 
 
 
-+-- {: .num_prop s#HoermanderCriterionForProductOfDistributions}
++-- {: .num_prop #HoermanderCriterionForProductOfDistributions}
 ###### Proposition
 **([[Hörmander's criterion]] for [[product of distributions]])**
 
@@ -2131,7 +2147,7 @@ $$
 where in the second line we used the [[Fourier transform of distributions|Fourier transform]] of the [[delta distribution]]
 from example \ref{FourierTransformOfDeltaDistribution}.
 
-Notice that this implies that the [[Fourier transform]] of the [[causal propagator]]
+Notice that this implies that the [[Fourier transform]] of the [[causal propagator]] (eq:CausalPropagator)
 
 $$
   \Delta_S \coloneqq \Delta_+ - \Delta_-
@@ -2363,7 +2379,7 @@ $$
   \,.
 $$
 
-It follows that the [[causal propagator]] $\Delta \coloneqq \Delta_+ - \Delta_-$ is skew-symmetric in its arguments:
+It follows that the [[causal propagator]] (eq:CausalPropagator) $\Delta \coloneqq \Delta_+ - \Delta_-$ is skew-symmetric in its arguments:
 
 $$
 \Delta_S(x-y) = - \Delta_S(y-x)
