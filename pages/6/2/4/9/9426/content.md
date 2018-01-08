@@ -1,10 +1,36 @@
-Fermat's curve is a projective algebraic curve over a ground field $k$ given by the Fermat equation $x^n + y^n = z^n$ where $n$ is a positive integer greater or equal $2$. Fermat's last theorem is the theorem, by Andrew Wiles with aid of Richard Taylor, that for $n\gt 2$ this equation has no solutions in rationals (or, equivalently, has no solutions in integers). In other words, the Fermat's curve has no $\mathbf{Q}$-[[rational points]]. 
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
+The _Fermat curve_ is a projective [[algebraic curve]] over a [[ground field]] $k$ given by the Fermat equation 
+
+$$
+  x^n + y^n = z^n
+  \,,
+$$ 
+
+where $n$ is a positive [[integer]] greater or equal $2$. 
+
+_Fermat's last theorem_ is the statement, that for $n\gt 2$ this equation has no solutions in rationals (or, equivalently, has no solutions in integers). In other words, the Fermat's curve has no $\mathbb{Q}$-[[rational points]]. 
+
+Famously a [[proof]] of this theorem had been announced by [[Pierre de Fermat]], but no proof was recorded before [[Andrew Wiles]] with aid of [[Richard Taylor]] proved the [[Taniyama-Shimura modularity conjecture]], which by [[Ribet's theorem]] implies Fermat's last theorem (see [[Wiles' proof of Fermat's last theorem]]).
+
+Therefore, while Fermat's theorem is generally accepted as proven now, the methods used in the proof go far beyond the mathematics known at [[Pierre de Fermat]]'s time. Moreover [[Ribet's theorem]] and the [[modularity theorem]] are major conceptual statements in [[arithmetic geometry]], quite different in character from the content of Fermat's last theorem in itself:
+
+> I confess that Fermat's Last Theorem, as an isolated proposition, has very little interest for me, because I could easily lay down a multitude of such propositions, which one could neither prove nor dispose of. ([[Carl Friedrich Gauss]], quoted in J. R. Newman (ed.) _The World of Mathematics_ (1956))
+
+It is open whether there exists a more direct proof.
 
 ## References
 
 * wikipedia: [Fermat curve](http://en.wikipedia.org/wiki/Fermat_curve), [Fermat's last theorem](http://en.wikipedia.org/wiki/Fermat%27s_last_theorem)
+
 * [[eom]]: [Fermat's last theorem](http://www.encyclopediaofmath.org/index.php?title=p/f110070)
-* Colin McLarty, _What does it take to prove Fermat's last theorem? Grothendieck and the logic of number theory_, Bull. Symbolic Logic __16__ (2010), no. 3, 359&#8211;377 [jstor](http://www.jstor.org/stable/20749620)
+
+* {#McLarty10} [[Colin McLarty]], _What does it take to prove Fermat's last theorem? Grothendieck and the logic of number theory_, Bull. Symbolic Logic __16__ (2010), no. 3, 359&#8211;377 [jstor](http://www.jstor.org/stable/20749620)
 
 [[!redirects Fermat's last theorem]]
 [[!redirects Fermat equation]]
