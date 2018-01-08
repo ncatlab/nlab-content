@@ -1950,7 +1950,7 @@ $\,$
 **[[local BRST complex|local]] [[off-shell]] [[BRST complex]]**
  {#BRSTComplex}
 
-With the general concept of [[Lie algebra action]] (def. \ref{InfinitesimalActionByLieAlgebra}) and the corresponding [[action Lie algebroids]] (def. \ref{ActionLieAlgebroid}) and more general [[Lie ∞-algebroids]] in hand (def. \ref{LInfinityAlgebroid}})
+With the general concept of [[Lie algebra action]] (def. \ref{InfinitesimalActionByLieAlgebra}) and the corresponding [[action Lie algebroids]] (def. \ref{ActionLieAlgebroid}) and more general [[Lie ∞-algebroids]] in hand (def. \ref{LInfinityAlgebroid})
 we now apply this to the [[action]] of [[infinitesimal gauge symmetries]] (def. \ref{GaugeParameters}) on field histories of a [[Lagrangian field theory]], but we consider this _[[local field theory|locally]]_, namely on the [[jet bundle]]. The [[Chevalley-Eilenberg algebra]] of the resulting [[action Lie algebroid]] (def. \ref{ActionLieAlgebroid}) is known as the _[[local BRST complex|local]] [[BRST complex]]_, example \ref{LocalOffShellBRSTComplex} below.
 
 The [[Lie algebroid]]-perspective on [[BV-BRST formalism]] has been made explicit in ([Barnich 10](BRST+complex#Barnich10)).
