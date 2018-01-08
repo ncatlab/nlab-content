@@ -3,30 +3,25 @@
 
 In the previous chapters we had found the [[Peierls-Poisson bracket]] (theorem \ref{PPeierlsBracket}) on the [[covariant phase space]] (prop. \ref{CovariantPhaseSpace}) of a [[gauge fixing|gauge fixed]] (def. \ref{GaugeFixingLagrangianDensity}) [[free field theory|free]] [[Lagrangian field theory]] (def. \ref{FreeFieldTheory}). 
 
-This is [[Poisson bracket]] is a  [[Lie bracket]] and hence reflects [[infinitesimal symmetries]] acting on the [[covariant phase space]]. Just as with the [[infinitesimal symmetries of the Lagrangian]], we may hard-wire these [[Hamiltonian]] symmetries into the very geometry of the phase space by forming their [[homotopy quotient]] given by the corresponding [[Lie algebroid]] (def. \ref{LInfinityAlgebroid}): this is called the _[[Poisson Lie algebroid]]_. Its [[Lie integration]] to a  finite (instead of infinitesimal) structure is called the _[[symplectic groupoid]]_. This is the original [[covariant phase space]], but with its [[Hamiltonian flows]] hard-wired into its [[higher differential geometry]] ([[schreiber:master thesis Bongers|Bongers 14, section 4]]).
+This [[Poisson bracket]] (def. \ref{SuperPoissonAlgebra} below) is a  [[Lie bracket]] and hence reflects [[infinitesimal symmetries]] acting on the [[covariant phase space]]. Just as with the [[infinitesimal symmetries of the Lagrangian]] and the [[BRST-complex|BRST]]-[[reduced phase space|reduced]] [[field bundle]] (example \ref{LocalOffShellBRSTComplex}), we may hard-wire these [[Hamiltonian]] symmetries into the very geometry of the phase space by forming their [[homotopy quotient]] given by the corresponding [[Lie algebroid]] (def. \ref{LInfinityAlgebroid}): here this is called the _[[Poisson Lie algebroid]]_. Its [[Lie integration]] to a  finite (instead of infinitesimal) structure is called the _[[symplectic groupoid]]_. This is the original [[covariant phase space]], but with its [[Hamiltonian flows]] hard-wired into its [[higher differential geometry]] ([[schreiber:master thesis Bongers|Bongers 14, section 4]]).
 
 Where smooth functions on the plain covariant phase space form the [[commutative algebra|commutative]] [[algebra of observables]] under their pointwise product (def. \ref{Observable}), the smooth functions on this [[symplectic groupoid]]-refinement of the phase space are multiplied by the _[[groupoid convolution product]]_ and as such become a [[noncommutative algebra|non-commutative]] [[algebra of quantum observables]]. This passage from the commutative to the non-commutative algebra of observables is called _[[quantization]]_, here specifically _[[geometric quantization of symplectic groupoids]]_ ([Hawkins 04](geometric+quantization+of+symplectic+groupoids#EH), [[schreiber:master thesis Nuiten|Nuiten 13]]).
 
 Instead of discussing this in generality, we here focus right away on the simple special case relevant for the [[quantization]] of [[gauge fixing|gauge fixed]] [[free field theories|free]] [[Lagrangian field theories]] in the [next chapter](#FreeQuantumFields). 
 
-After an informal motivation of [[geometric quantization]] from [[Lie theory]] [below](#MotivationFromLieTheory), we first showcase [[geometric quantization]] by dscussing how the archetypical example of [[quantum mechanics]] in the [[Schrödinger representation]] arises from the _[[polarization|polarized]]_ action of the [[Poisson bracket]] [[Lie algebra]]   (example \ref{GeometricRepresentationSchroedingerRepresentation} below). With the concept of [[polarization]] thus motivated, we use this to find the polarized [[groupoid convolution algebra]]_ of the [[symplectic groupoid]] of a free theory (prop. \ref{PolarizedSymplecticGroupoidConvolutionProductOfSymplecticVectorSpaceIsMoyalStarProduct} below). 
+After an informal motivation of [[geometric quantization]] from [[Lie theory]] [below](#MotivationFromLieTheory) (for a self-contained introduction see [[schreiber:master thesis Bongers|Bongers 14]]), we first showcase [[geometric quantization]] by discussing how the archetypical example of [[quantum mechanics]] in the [[Schrödinger representation]] arises from the _[[polarization|polarized]]_ action of the [[Poisson bracket]] [[Lie algebra]]   (example \ref{GeometricRepresentationSchroedingerRepresentation} below). With the concept of [[polarization]] thus motivated, we use this to find the polarized [[groupoid convolution algebra]] of the [[symplectic groupoid]] of a free theory (prop. \ref{PolarizedSymplecticGroupoidConvolutionProductOfSymplecticVectorSpaceIsMoyalStarProduct} below). 
 
-The result is the  "[[Moyal star product|Moyal]]-[[star product]]" (def. \ref{StarPoduct} below). 
+The result is the  "[[Moyal star product|Moyal]]-[[star product]]" (def. \ref{StarPoduct} below).  This is the [[exponentiation]] of the [[integral kernel]] of the [[Poisson bracket]] plus possibly a symmetric shift (prop. \ref{SymmetricContribution} below), and as turns out to be (example \ref{MoyalStarProductIsFormalDeformationQuantization} below) a _[[formal deformation quantization]]_ of the original commutative pointwise product (def. \ref{FormalDeformationQuantization} below). 
 
-This [[star product]] is given by the [[exponentiation]] of the [[integral kernel]] of the [[Poisson bracket]] plus possibly a symmetric shift (prop. \ref{SymmetricContribution} below), and as such is a _[[formal deformation quantization]]_ of the original commutative pointwise product (def. \ref{FormalDeformationQuantization} below). 
+Below we spell out the (elementary) proofs of these statements for the case of [[phase spaces]] which are [[finite dimensional vector spaces]]. But these proofs manifestly depend only on elementary algebraic properties of [[polynomials]] and hence go through in more general contexts as long as these basic algebraic properties are retained. 
 
-We give the (elementary) proofs of these statements for [[phase spaces]] which are [[finite dimensional vector spaces]], but they depend only on elementary algebraic properties of [[polynomials]] and hence go through in more general contexts as long as these algebraic properties are retained. 
+In the context of [[free field theory|free]] [[Lagrangian field theory]] the analogue of the [[formal power series algebras]] on a linear [[phase space]] is, a priori, the algebra of [[polynomial observables]] (def. \ref{PolynomialObservables}). These are effectively [[polynomials]] in the [[field observables]] $\mathbf{\Phi}^a(x)$ (def. \ref{PointEvaluationObservables}) whose [[coefficients]], however, are [[distributions]] [[distribution of several variables|of several variables]]. By [[microlocal analysis]], such polynomial distributions do satisfy the usual algebraic properties of ordinary polynomials _if_ potential [[UV-divergences]] (remark \ref{UltravioletDivergencesFromPaleyWiener}) encoded in their [[wave front set]] (def. \ref{WaveFrontSet}) vanish, according to _[[Hörmander's criterion]]_ (prop. \ref{HoermanderCriterionForProductOfDistributions}).
 
-In the context of [[gauge fixing|gauge fixed]] [[Lagrangian field theory]] the analogue of the [[formal power series algebras]] on a linear [[phase space]] is, a priori, the algebra of [[polynomial observables]] (def. \ref{PolynomialObservables}), which are effectively [[polynomials]] in the [[field observables]] $\mathbf{\Phi}^a(x)$ (def. \ref{PointEvaluationObservables}) whose [[coefficients]], however, are [[distributions]] [[distribution of several variables|of several variables]]. By [[microlocal analysis]], such polynomial distributions do satisfy the usual algebraic properties of ordinary polynomials _if_ potential [[UV-divergences]] (remark \ref{UltravioletDivergencesFromPaleyWiener}) encoded in their [[wave front set]] vanish, according to _[[Hörmander's criterion]]_ (prop. \ref{HoermanderCriterionForProductOfDistributions}).
+This criterion is always met on the subspace of _[[regular polynomial observables]]_ and hence every [[propagator]] induces a [[star product]] on these (prop. \ref{PropagatorStarProduct} below). In particular thus the [[star product]] of the [[causal propagator]] of a [[gauge fixing|gauge fixed]] [[free field theory|free]] [[Lagrangian field theory]] is a [[formal deformation quantization]] of its algebra of [[regular polynomial observables]] (cor. \ref{FreeGaugeFixedLagrangianFieldTheoryQuantizationOfRegularObservables} below). In order to extend this to [[local observables]] one may appeal to a certain quantization freedom (prop. \ref{SymmetricContribution} below) and shift the [[causal propagator]] by a symmetric contribution, such that it becomes the [[Wightman propagator]]; this is the topic of the following chapters (remark \ref{TowardsQuantizationExtendingBeyondRegularPolynomialObservables} at the end below).
 
-This criterion is always met on the subspace of _[[regular polynomial observables]]_ and hence every [[propagator]] induces a [[star product]] on these (prop. \ref{PropagatorStarProduct}). In particular thus the [[star product]] of the [[causal propagator]] of a [[gauge fixing|gauge fixed]] [[free field theory|free]] [[Lagrangian field theory]] is a [[formal deformation quantization]] of its algebra of [[regular polynomial observables]].
+In conclusion, for [[free field theory|free]] [[gauge fixing|gauge fixed]] [[Lagrangian field theory]] the product in the [[algebra of quantum observables]] is given by [[exponential|exponentiating]] [[propagators]]. It is the [[combinatorics]] of these exponentiated propagator expressions that yields the hallmark structures of [[perturbative quantum field theory]], namely the combinatorics of [[Wick's lemma]] for the [[Wick algebra]] of free fields, and the combinatorics of [[Feynman diagrams]] for the [[time-ordered products]]. This is the topic of the following chapters _[Free quantum fields](#FreeQuantumFields)_ and _[Scattering](#Scattering)_.  Here we conclude just with discussing the finite-dimensional toy version of the [[normal-ordered product]] in the [[Wick algebra]] (example \ref{WickAlgebraOfASingleMode} below).
 
-
-Hence in the case of [[free field theory|free]] [[gauge fixing|gauge fixed]] [[Lagrangian field theory]] the product on the [[algebra of quantum observables]] is given by exponentiating [[propagators]]. It is the [[combinatorics]] of these exponentiated propagator expressions that yield the hallmark structures of [[perturbative quantum field theory]], namely the combinatorics of [[Wick's lemma]] for the [[Wick algebra]] of free fields, and the combinatorics of [[Feynman diagrams]] for the [[time-ordered products]]. This is the topic of the following chapters _[Free quantum fields](#FreeQuantumFields)_ and _[Scattering](#Scattering)_. 
-
-Here we conclude just with discussing the finite-dimensional toy version of the [[normal-ordered product]] in the [[Wick algebra]] (example \ref{WickAlgebraOfASingleMode} below).
-
-$\,.$
+$\,$
 
 We now discuss these topics:
 
@@ -42,6 +37,7 @@ We now discuss these topics:
 
 * _[Example: Wick algebra of normal ordered product on Kähler vector space](#WickAlgebraOfNormalOrderedProductsOnKählerVectorspace)_
 
+* _[Star-product on regular polynomial observables in field theory](#RegularPolynomialFieldTheoryStarProduct)_
 
 
 $\,$
@@ -455,7 +451,7 @@ If $\pi = 0$ in def. \ref{StarPoduct}, then the star product $\star_0 = \cdot$ i
 =--
 
 
-+-- {: .num_prop #MoyalStarProduct}
++-- {: .num_exaple #MoyalStarProduct}
 ###### Example
 **([[Moyal star product]])**
 
@@ -495,7 +491,8 @@ Using this we compute as follows:
 
 $$
   \begin{aligned}
-  (f \star_\pi  g) \star_\pi h
+  & (f \star_\pi  g) \star_\pi h
+  \\
   & =
   prod \circ
   \exp( \pi^{i j} \partial_i \otimes \partial_j )  \circ
@@ -655,11 +652,13 @@ Using this we compute
 
 $$
   \begin{aligned}
+    & 
     \exp\left( \hbar\tfrac{1}{2}\alpha^{i j} \partial_i \partial_j \right)
     \circ
     prod
     \circ
     \exp( \hbar \pi^{i j} \partial_{i} \otimes \partial_j )
+    \\
     & =
     prod
       \circ
@@ -1030,7 +1029,7 @@ $$
 
 =--
 
-([Weinstein 91, p. 446](Moyal+deformation+quantization#Weinstein91), [Garcia-Bondia & Varilly 94, section V](Moyal+deformation+quantization#GBV))
+([Weinstein 91, p. 446](Moyal+deformation+quantization#Weinstein91), [Garcia-Bondia & Varilly 94, section V](Moyal+deformation+quantization#GBV), [Hawkins 06, example6.2](Moyal+deformation+quantization#EH))
 
 +-- {: .proof}
 ###### Proof
@@ -1039,8 +1038,10 @@ We compute as follows:
 
 $$
   \begin{aligned}
+    &
     \int \int 
       F(x,t) G(t,y) \, d^{2n} t \, d^{2n} (x-y)
+    \\
     & \coloneqq
     \int \int f((x + t)/2) g( (t + y)/2 ) 
       e^{ \tfrac{1}{i \hbar} \tfrac{1}{4} \omega( x-t, x+t ) + \tfrac{1}{i \hbar} \tfrac{1}{4} \omega(t-y, t + y)  }
@@ -1082,7 +1083,7 @@ $$
 $$
 
 The first line just unwinds the definition of polarized sections from def. \ref{SymplecticGroupoidOfSymplecticVectorSpace}, the following lines each implement a [[change of integration variables]] and 
-fnally in the last line we used prop. \ref{IntegralRepresentationOfStarProduct}.
+finally in the last line we used prop. \ref{IntegralRepresentationOfStarProduct}.
 
 =--
 
@@ -1434,6 +1435,7 @@ This is the way the _[[Wick algebra]]_ with its _[[operator product]]_ $\star_\p
 $\,$
 
 **[[star products]] on [[regular polynomial observables]] in [[field theory]]**
+  {#RegularPolynomialFieldTheoryStarProduct}
 
 
 +-- {: .num_prop #PropagatorStarProduct}
@@ -1470,7 +1472,7 @@ $$
 
 As in prop. \ref{AssociativeAndUnitalStarProduct} this defines a [[unital algebra|unital]] and [[associative algebra]] [[structure]].
 
-If the [[Euler-Lagrange equations|Euler-Lagrange]] [[equations of motion]] induced by the [[Lagrangian density]] $\mathbf{L}$ are [[Green hyperbolic differential equations]] and if $\Delta$ is a [[propagator]] for these [[differential equations]], then this [[star product]] algebra descends to the [[on-shell]] [[regular polynomial observables]]
+If the [[Euler-Lagrange equations|Euler-Lagrange]] [[equations of motion]] $P\Phi ) = 0$ induced by the [[Lagrangian density]] $\mathbf{L}$ are [[Green hyperbolic differential equations]] and if $\Delta$ is a _homogeneous_ [[propagator]] for these [[differential equations]] in that $P \Delta = 0$, then this [[star product]] algebra descends to the [[on-shell]] [[regular polynomial observables]]
 
 $$
   PolyObs(E,\mathbf{L})_{reg}[ [\hbar] ]
@@ -1483,8 +1485,140 @@ $$
 
 =--
 
+
++-- {: .proof}
+###### Proof
+
+The proof of prop. \ref{AssociativeAndUnitalStarProduct} goes through verbatim in the present case, as long as all [[products of distributions]] that appear when the [[propagator]] is multiplied with the [[coefficients]] of the [[polynomial observables]] are well-defined, in that [[Hörmander's criterion]] (prop. \ref{HoermanderCriterionForProductOfDistributions}) on the [[wave front sets]] (def. \ref{WaveFrontSet}) of the [[propagator]] and of these [[coefficients]] is met. But the definition the [[coefficients]] of [[regular polynomial observables]] are [[non-singular distributions]], whose wave front set is necessarily empty (example \ref{NonSingularDistributionTrivialWaveFrontSet}), so that their [[product of distributions]] is always well-defined.
+
+
+=--
+
+
++-- {: .num_cor #FreeGaugeFixedLagrangianFieldTheoryQuantizationOfRegularObservables}
+###### Corollary
+**([[quantization]] of [[regular polynomial observables]] of [[gauge fixing|gauge fixed]] [[free field theory|free]] [[Lagrangian field theory]])**
+
+Consider a [[gauge fixing|gauge fixed]] (def. \ref{GaugeFixingLagrangianDensity}) [[free field theory|free]] [[Lagrangian field theory]] (def. \ref{FreeFieldTheory}) with BV-BRST-extended [[field bundle]] (remark \ref{FieldBundleBVBRST})
+
+$$
+  E_{\text{BV-BRST}}
+  \;\coloneqq\;
+  T^\ast_{\Sigma,inf}[-1]
+  \left( 
+     E 
+      \times_\Sigma 
+     \mathcal{G}[1] 
+       \times_\Sigma 
+     A 
+       \times_\Sigma 
+     A[-1]  
+  \right)
+$$
+
+and with [[causal propagator]] (eq:CausalPropagator)
+
+$$
+  \Delta 
+    \;\in\; 
+  \Gamma'_{\Sigma \times \Sigma}( E_{\text{BV-BRST}} \boxtimes E_{\text{BV-BRST}} )
+  \,.
+$$
+
+Then the [[star product]] $\star_\Delta$ (def. \ref{StarPoduct}) is well-defined on [[off-shell]] (as well as [[on-shell]]) [[regular polynomial observables]] (def. \ref{PolynomialObservables})
+
+$$
+  PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ] 
+    \otimes
+  PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
+    \overset{\star_{\tfrac{i}{2}\Delta}}{\longrightarrow}
+  PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
+$$
+
+and the resulting [[non-commutative algebra]] [[structure]]
+
+$$
+  \left(
+    PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
+    \,,\,
+    \star_\Delta
+  \right)
+$$
+
+is a [[formal deformation quantization]] (def. \ref{FormalDeformationQuantization}) of the [[Peierls-Poisson bracket]] on the [[covariant phase space]] (theorem \ref{PPeierlsBracket}), restricted to [[regular polynomial observables]].
+
+=--
+
+([Dito 90](deformation+quantization#Dito90), [Dütsch-Fredenhagen 00](deformation+quantization#DuetschFredenhagen00) [Dütsch-Fredenhagen 01](deformation+quantization#DuetschFredenhagen01), [Hirshfeld-Henselder 02](deformation+quantization#HirschfeldHenselder02))
+
++-- {: .proof}
+###### Proof
+
+As in prop. \ref{PropagatorStarProduct}, the vanishing of the [[wave front set]] of the [[coefficients]] of the [[regular polynomial observables]] implies that all arguments go through as for [[star products]] on [[polynomial algebras]] on [[finite dimensional vector spaces]]. By theorem \ref{PPeierlsBracket} the [[causal propagator]] is the [[integral kernel]] of the [[Peierls-Poisson bracket]], so that the tensor $\pi$ from the definition of the [[Moyal star product]] (example \ref{MoyalStarProduct}) now is
+
+$$
+  \pi = \Delta
+  \,.
+$$
+
+With this the statement follows by example \ref{MoyalStarProductIsFormalDeformationQuantization}.
+
+=--
+
+
++-- {: .num_remark #TowardsQuantizationExtendingBeyondRegularPolynomialObservables}
+###### Remark
+**(extending [[quantization]] beyond [[regular polynomial observables]])**
+
+While cor. \ref{FreeGaugeFixedLagrangianFieldTheoryQuantizationOfRegularObservables} provides a [[quantization]] of the [[regular polynomial observables]] of any [[gauge fixing|gauge fixed]] [[free field theory|free]] [[Lagrangian field theory]], the [[regular polynomial observables]] are too small a subspace of that of all [[polynomial observables]]: 
+
+By example \ref{RegularPolynomialLocalObservablesAreNecessarilyLinear} the only [[local observables]] (def. \ref{LocalObservables}) contained among the [[regular polynomial observables]] are the [[linear observables]] (def. \ref{LinearObservables}). But in general it is necessary to consider also non-linear polynomial [[local observables]]. Notably the [[interaction]] [[action functionals]] $S_{int}$ induced from interaction [[Lagrangian densities]] $\mathbf{L}_{int}$ (example \ref{ActionFunctional}) are non-linear polynomial observables.
+
+For example:
+
+* For the combined [[electromagnetic field]] (example \ref{ElectromagnetismLagrangianDensity}) and [[Dirac field]] (example \ref{LagrangianDensityForDiracField}) on [[Minkowski spacetime]] the cubic [[local observable]]
+
+  $$
+    S_{int} 
+      = 
+    \underset{\Sigma}{\int}
+      g_{sw} 
+      \Gamma_a{}^{\alpha}{}_\beta
+      \overline{\mathbf{\Psi}}_\alpha(x) 
+      \cdot \mathbf{\Psi}^\beta(x) 
+      \cdot \mathbf{A}^a(x)
+      \, dvol_\Sigma(x) 
+  $$
+
+  defines the [[adiabatic switching|adiabatically switched]] [[interaction]]-[[action functional|functional]] (example \ref{ActionFunctional}) for the interacting field theory called _[[quantum electrodynamics]]_.
+
+* For the [[real scalar field]] on [[Minkowski spacetime]] (example \ref{LagrangianForFreeScalarFieldOnMinkowskiSpacetime}) the quartic [[local observable]] 
+
+  $$
+    S_{int} = \underset{\Sigma}{\int} g_{sw} \left(\mathbf{\Phi}(x)\right)^4 \, dvol_\Sigma(x)
+  $$ 
+
+  defines the [[adiabatic switching|adiabatically switched]] [[interaction]]-[[action functional|functional]] (example \ref{ActionFunctional}) for the interacting field theory called _[[phi^4 theory]]_.
+
+Therefore one needs to extend the [[formal deformation quantization]] provided by corollary \ref{FreeGaugeFixedLagrangianFieldTheoryQuantizationOfRegularObservables} to a larger subspace of [[polynomial observables]] that includes at least the [[local observables]].
+
+But prop. \ref{SymmetricContribution} characterizes the freedom in choosing a [[formal deformation quantization]]: We may shift the [[causal propagator]] by a symmetric contribution. In view of prop. \ref{PropagatorStarProduct} and in view of of  [[Hörmander's criterion]] for the [[product of distributions]] (prop. \ref{HoermanderCriterionForProductOfDistributions}) to be well defined, we are looking for symmetric [[integral kernels]] $H$ such that the sum
+
+$$
+  \label{ShiftingCausalPropagatorBySymmetricContribution}
+  \Delta_H = \tfrac{i}{2}\Delta + H
+$$
+
+has a _smaller_ [[wave front set]] (def. \ref{WaveFrontSet}) than $\tfrac{i}{2}\Delta$ itself has. The smaller $WF(\tfrac{i}{2}\Delta + H)$, the larger the subspace of [[polynomial observables]] on which the corresponding [[formal deformation quantization]] exists.
+
+Now by prop. \ref{SkewSymmetricPartOfHadmrdPropagatorIsCausalPropagatorForKleinGordonEquationOnMinkowskiSpacetime} the [[Wightman propagator]] $\Delta_H$ is of the form (eq:ShiftingCausalPropagatorBySymmetricContribution) and by prop. \ref{WaveFronSetsForKGPropagatorsOnMinkowski} its [[wave front set]] is only "half" that of the [[causal propagator]]. It turns out that $\Delta_H$ does yield a [[formal deformation quantization]] of a subspace of [[polynomial observables]] that includes all [[local observables]]: this is the _[[Wick algebra]]_ on [[microcausal polynomial observables]]. We discuss this in detail in the chapter _[Free quantum fields](#FreeQuantumFields)_.
+
+With such a [[formal deformation quantization]] of the [[local observables]] [[free field theory]] in hand, we may then finally obtain also a formal deformation quantization of [[interaction|interacting]] [[Lagrangian field theories]] by [[perturbative quantum field theory|perturbation theory]]. This we discuss in the chapters _[Scattering](#Scattering)_ and _[Quantum observables](#QuantumObservables)_.
+
+=--
+
 $\,$
 
 
 
-This concludes our discussion of [[quantization]]. In the [next chapter](#FreeQuantumFields) we apply this to discuss the [[algebra of quantum observables]] of [[free field theories|free]] [[Lagrangian field theories]]. Further below in the chapter _[Quantum observables](#QuantumObservables)_ we then discuss also the quantization of the [[interaction|interacting]] [[Lagrangian field theories]], [[perturbation theory|perturbatively]].
+This concludes our discussion of some basic concepts of [[quantization]]. In the [next chapter](#FreeQuantumFields) we apply this to discuss the [[algebra of quantum observables]] of [[free field theories|free]] [[Lagrangian field theories]]. Further below in the chapter _[Quantum observables](#QuantumObservables)_ we then discuss also the quantization of the [[interaction|interacting]] [[Lagrangian field theories]], [[perturbation theory|perturbatively]].
