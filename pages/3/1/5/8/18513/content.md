@@ -1,6 +1,4 @@
 
->  under construction
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -311,7 +309,7 @@ $$
 
 =--
 
-([Dütsch-Fredenhagen 00](#DuetshFredenhagen00); see [Collini 16, p. 25-26](#Collini16))
+([Dito 90](deformation+quantization#Dito90), [Dütsch-Fredenhagen 00](deformation+quantization#DuetschFredenhagen00) [Dütsch-Fredenhagen 01](deformation+quantization#DuetschFredenhagen01), [Hirshfeld-Henselder 02](deformation+quantization#HirschfeldHenselder02), see [Collini 16, p. 25-26](#Collini16))
 
 +-- {: .proof}
 ###### Proof
@@ -1074,6 +1072,9 @@ further amplified in
 * {#DuetshFredenhagen00} [[Michael Dütsch]], [[Klaus Fredenhagen]], section 5.1 of _Algebraic Quantum Field Theory, Perturbation Theory, and the Loop Expansion_, Commun.Math.Phys. 219 (2001) 5-30 ([arXiv:hep-th/0001129](https://arxiv.org/abs/hep-th/0001129))
 
 * {#DutschFredenhagen01} [[Michael Dütsch]], [[Klaus Fredenhagen]], _Perturbative algebraic field theory, and deformation quantization_, in [[Roberto Longo]] (ed.), _Mathematical Physics in Mathematics and Physics, Quantum and Operator Algebraic Aspects_, volume 30 of Fields Institute Communications, pages 151&#8211;160. American Mathematical Society, 2001 ([arXiv:hep-th/0101079](https://arxiv.org/abs/hep-th/0101079))
+
+* {#HirschfeldHenselder02} A. C. Hirshfeld, P. Henselder, _Star Products and Perturbative Quantum Field Theory_, Annals Phys. 298 (2002) 382-393 ([arXiv:hep-th/0208194](https://arxiv.org/abs/hep-th/0208194))
+
 
 and the generalization to [[quantum field theory on curved spacetime]] is discussed in
 
