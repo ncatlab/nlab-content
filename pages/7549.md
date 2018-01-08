@@ -7,4 +7,8 @@
 
 * [[wave front set]]
 
+* [[lattice gauge theory]]
+
 category: people
+
+[[!redirects Jon Dimock]]
