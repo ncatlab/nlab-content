@@ -1,13 +1,26 @@
 ## Quantization
  {#Quantization}
 
-In the previous chapters we had found the [[Poisson bracket]] ([[Peierls bracket]]) on the [[covariant phase space]] of a [[gauge fixing|gauge fixed]] [[Lagrangian field theory]]. This is a [[Lie bracket]] and hence reflects [[infinitesimal symmetries]] acting on the [[covariant phase space]]. The corresponding finite (instead of infinitesimal) structure is called the _[[symplectic groupoid]]_; this is the original [[phase space]], but with its [[Hamiltonian flows]] hard-wired into the geometry. 
+In the previous chapters we had found the [[Peierls-Poisson bracket]] (theorem \ref{PPeierlsBracket}) on the [[covariant phase space]] (prop. \ref{CovariantPhaseSpace}) of a [[gauge fixing|gauge fixed]] (def. \ref{GaugeFixingLagrangianDensity}) [[free field theory|free]] [[Lagrangian field theory]] (def. \ref{FreeFieldTheory}). 
 
-Where smooth functions on the plain phase space form the [[commutative algebra|commutative]] [[algebra of observables]] under their pointwise product, the smooth functions on this [[symplectic groupoid]]-refinement of the phase space are multiplied by the _[[groupoid convolution product]]_ and as such become a [[noncommutative algebra|non-commutative]] [[algebra of quantum observables]]. This passage from the commutative to the non-commutative algebra of observables is called _[[quantization]]_, here specifically _[[geometric quantization of symplectic groupoids]]_.
+This is [[Poisson bracket]] is a  [[Lie bracket]] and hence reflects [[infinitesimal symmetries]] acting on the [[covariant phase space]]. Just as with the [[infinitesimal symmetries of the Lagrangian]], we may hard-wire these [[Hamiltonian]] symmetries into the very geometry of the phase space by forming their [[homotopy quotient]] given by the corresponding [[Lie algebroid]] (def. \ref{LInfinityAlgebroid}): this is called the _[[Poisson Lie algebroid]]_. Its [[Lie integration]] to a  finite (instead of infinitesimal) structure is called the _[[symplectic groupoid]]_. This is the original [[covariant phase space]], but with its [[Hamiltonian flows]] hard-wired into its [[higher differential geometry]] ([[schreiber:master thesis Bongers|Bongers 14, section 4]]).
 
-Instead of discussing this in generality, we here focus right away on the simple special case relevant for the [[quantization]] of [[free field theories]] in the [next chapter](#FreeQuantumFields). We first discuss how the archetypical textbook version of [[quantum mechanics]] in the [[Schrödinger representation]] arises from _[[polarization]]_  in [[geometric quantization]] (example \ref{GeometricRepresentationSchroedingerRepresentation} below), and then we use this to find the polarized [[groupoid convolution algebra]]_ of the [[symplectic groupoid]] of a free theory (prop. \ref{PolarizedSymplecticGroupoidConvolutionProductOfSymplecticVectorSpaceIsMoyalStarProduct} below). The result is the  "[[Moyal star product|Moyal]]-[[star product]]" (def. \ref{StarPoduct} below). 
+Where smooth functions on the plain covariant phase space form the [[commutative algebra|commutative]] [[algebra of observables]] under their pointwise product (def. \ref{Observable}), the smooth functions on this [[symplectic groupoid]]-refinement of the phase space are multiplied by the _[[groupoid convolution product]]_ and as such become a [[noncommutative algebra|non-commutative]] [[algebra of quantum observables]]. This passage from the commutative to the non-commutative algebra of observables is called _[[quantization]]_, here specifically _[[geometric quantization of symplectic groupoids]]_ ([Hawkins 04](geometric+quantization+of+symplectic+groupoids#EH), [[schreiber:master thesis Nuiten|Nuiten 13]]).
+
+Instead of discussing this in generality, we here focus right away on the simple special case relevant for the [[quantization]] of [[gauge fixing|gauge fixed]] [[free field theories|free]] [[Lagrangian field theories]] in the [next chapter](#FreeQuantumFields). 
+
+After an informal motivation of [[geometric quantization]] from [[Lie theory]] [below](#MotivationFromLieTheory), we first showcase [[geometric quantization]] by dscussing how the archetypical example of [[quantum mechanics]] in the [[Schrödinger representation]] arises from the _[[polarization|polarized]]_ action of the [[Poisson bracket]] [[Lie algebra]]   (example \ref{GeometricRepresentationSchroedingerRepresentation} below). With the concept of [[polarization]] thus motivated, we use this to find the polarized [[groupoid convolution algebra]]_ of the [[symplectic groupoid]] of a free theory (prop. \ref{PolarizedSymplecticGroupoidConvolutionProductOfSymplecticVectorSpaceIsMoyalStarProduct} below). 
+
+The result is the  "[[Moyal star product|Moyal]]-[[star product]]" (def. \ref{StarPoduct} below). 
 
 This [[star product]] is given by the [[exponentiation]] of the [[integral kernel]] of the [[Poisson bracket]] plus possibly a symmetric shift (prop. \ref{SymmetricContribution} below), and as such is a _[[formal deformation quantization]]_ of the original commutative pointwise product (def. \ref{FormalDeformationQuantization} below). 
+
+We give the (elementary) proofs of these statements for [[phase spaces]] which are [[finite dimensional vector spaces]], but they depend only on elementary algebraic properties of [[polynomials]] and hence go through in more general contexts as long as these algebraic properties are retained. 
+
+In the context of [[gauge fixing|gauge fixed]] [[Lagrangian field theory]] the analogue of the [[formal power series algebras]] on a linear [[phase space]] is, a priori, the algebra of [[polynomial observables]] (def. \ref{PolynomialObservables}), which are effectively [[polynomials]] in the [[field observables]] $\mathbf{\Phi}^a(x)$ (def. \ref{PointEvaluationObservables}) whose [[coefficients]], however, are [[distributions]] [[distribution of several variables|of several variables]]. By [[microlocal analysis]], such polynomial distributions do satisfy the usual algebraic properties of ordinary polynomials _if_ potential [[UV-divergences]] (remark \ref{UltravioletDivergencesFromPaleyWiener}) encoded in their [[wave front set]] vanish, according to _[[Hörmander's criterion]]_ (prop. \ref{HoermanderCriterionForProductOfDistributions}).
+
+This criterion is always met on the subspace of _[[regular polynomial observables]]_ and hence every [[propagator]] induces a [[star product]] on these (prop. \ref{PropagatorStarProduct}). In particular thus the [[star product]] of the [[causal propagator]] of a [[gauge fixing|gauge fixed]] [[free field theory|free]] [[Lagrangian field theory]] is a [[formal deformation quantization]] of its algebra of [[regular polynomial observables]].
+
 
 Hence in the case of [[free field theory|free]] [[gauge fixing|gauge fixed]] [[Lagrangian field theory]] the product on the [[algebra of quantum observables]] is given by exponentiating [[propagators]]. It is the [[combinatorics]] of these exponentiated propagator expressions that yield the hallmark structures of [[perturbative quantum field theory]], namely the combinatorics of [[Wick's lemma]] for the [[Wick algebra]] of free fields, and the combinatorics of [[Feynman diagrams]] for the [[time-ordered products]]. This is the topic of the following chapters _[Free quantum fields](#FreeQuantumFields)_ and _[Scattering](#Scattering)_. 
 
@@ -691,53 +704,6 @@ $$
       \exp\left( \tfrac{1}{2} \hbar \alpha \right)
     \right)
   \end{aligned}
-$$
-
-=--
-
-+-- {: .num_defn #PropagatorStarProduct}
-###### Definition
-**([[star products]] on [[regular polynomial observables]] induced from [[propagators]])**
-
-Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]] with [[field bundle]] $E \overset{fb}{\to} \Sigma$, and let $\Delta \in \Gamma'_\Sigma((E \boxtimes E)^\ast)$ be a [[distribution of two variables]] on [[field histories]].  
-
-On the [[off-shell]] [[regular polynomial observables]] with a [[formal power series|formal paramater]] $\hbar$ adjoined consider the bilinear map
-
-$$
-  PolyObs(E)_{reg}[ [\hbar] ]
-    \otimes
-  PolyObs(E)_{reg} [ [ \hbar ] ]
-    \overset{\star_{\Delta}}{\longrightarrow} 
-  PolyObs(E)_{reg}[ [\hbar] ]
-$$
-
-given as in def. \ref{StarPoduct}, but with [[partial derivatives]] replaced by [[functional derivatives]]
-
-$$
-  A_1 \star_{\Delta} A_2
-  \;\coloneqq\;
-  ((-)\cdot(-))
-  \circ
-  \exp\left(
-    \int_\Sigma \Delta^{a b}(x,y)
-    \frac{\delta}{\delta \Phi^a(x)}
-      \otimes
-    \frac{\delta}{\delta \Phi^b(y)}
-  \right)
-  (A_1 \otimes A_2)
-$$
-
-As in prop. \ref{AssociativeAndUnitalStarProduct} this defines a [[unital algebra|unital]] and [[associative algebra]] [[structure]].
-
-If the [[Euler-Lagrange equations|Euler-Lagrange]] [[equations of motion]] induced by the [[Lagrangian density]] $\mathbf{L}$ are [[Green hyperbolic differential equations]] and if $\Delta$ is a [[propagator]] for these [[differential equations]], then this [[star product]] algebra descends to the [[on-shell]] [[regular polynomial observables]]
-
-$$
-  PolyObs(E,\mathbf{L})_{reg}[ [\hbar] ]
-    \otimes
-  PolyObs(E, \mathbf{L})_{reg} [ [ \hbar ] ]
-    \overset{\star_{\Delta}}{\longrightarrow} 
-  PolyObs(E, \mathbf{L})_{reg}[ [\hbar] ]
-  \,.
 $$
 
 =--
@@ -1466,6 +1432,59 @@ This is the way the _[[Wick algebra]]_ with its _[[operator product]]_ $\star_\p
 =--
 
 $\,$
+
+**[[star products]] on [[regular polynomial observables]] in [[field theory]]**
+
+
++-- {: .num_prop #PropagatorStarProduct}
+###### Proposition
+**([[star products]] on [[regular polynomial observables]] induced from [[propagators]])**
+
+Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]] with [[field bundle]] $E \overset{fb}{\to} \Sigma$, and let $\Delta \in \Gamma'_\Sigma((E \boxtimes E)^\ast)$ be a [[distribution of two variables]] on [[field histories]].  
+
+On the [[off-shell]] [[regular polynomial observables]] with a [[formal power series|formal paramater]] $\hbar$ adjoined consider the bilinear map
+
+$$
+  PolyObs(E)_{reg}[ [\hbar] ]
+    \otimes
+  PolyObs(E)_{reg} [ [ \hbar ] ]
+    \overset{\star_{\Delta}}{\longrightarrow} 
+  PolyObs(E)_{reg}[ [\hbar] ]
+$$
+
+given as in def. \ref{StarPoduct}, but with [[partial derivatives]] replaced by [[functional derivatives]]
+
+$$
+  A_1 \star_{\Delta} A_2
+  \;\coloneqq\;
+  ((-)\cdot(-))
+  \circ
+  \exp\left(
+    \int_\Sigma \Delta^{a b}(x,y)
+    \frac{\delta}{\delta \Phi^a(x)}
+      \otimes
+    \frac{\delta}{\delta \Phi^b(y)}
+  \right)
+  (A_1 \otimes A_2)
+$$
+
+As in prop. \ref{AssociativeAndUnitalStarProduct} this defines a [[unital algebra|unital]] and [[associative algebra]] [[structure]].
+
+If the [[Euler-Lagrange equations|Euler-Lagrange]] [[equations of motion]] induced by the [[Lagrangian density]] $\mathbf{L}$ are [[Green hyperbolic differential equations]] and if $\Delta$ is a [[propagator]] for these [[differential equations]], then this [[star product]] algebra descends to the [[on-shell]] [[regular polynomial observables]]
+
+$$
+  PolyObs(E,\mathbf{L})_{reg}[ [\hbar] ]
+    \otimes
+  PolyObs(E, \mathbf{L})_{reg} [ [ \hbar ] ]
+    \overset{\star_{\Delta}}{\longrightarrow} 
+  PolyObs(E, \mathbf{L})_{reg}[ [\hbar] ]
+  \,.
+$$
+
+=--
+
+$\,$
+
 
 
 This concludes our discussion of [[quantization]]. In the [next chapter](#FreeQuantumFields) we apply this to discuss the [[algebra of quantum observables]] of [[free field theories|free]] [[Lagrangian field theories]]. Further below in the chapter _[Quantum observables](#QuantumObservables)_ we then discuss also the quantization of the [[interaction|interacting]] [[Lagrangian field theories]], [[perturbation theory|perturbatively]].
