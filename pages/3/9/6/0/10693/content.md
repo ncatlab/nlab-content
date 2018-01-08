@@ -283,7 +283,7 @@ $$
 
 +-- {: .num_example}
 ###### Example
-**(standatd resolution)**
+**(standard resolution)**
 
 Consider the augmented [[cosimplicial object|cosimplicial]] which is the $\mathbb{S} \to E$-[[Amitsur complex]] [[smash product of spectra|smashed]] with $X$:
 
