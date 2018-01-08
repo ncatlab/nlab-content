@@ -17,7 +17,7 @@
 
 ## Idea
 
-In [[perturbative quantum field theory]] formulated in terms of [[BV-BRST formalism]], the _classical master equation_ expresses the nilpotency of the [[BV-differential]] before [[quantization]], with the latter regarded as a [[Hamiltonian vector field]] with respect to the _[[antibracket]]_ $\{-,-\}$, for "Hamiltonian" the BV-BRST [[action functional]]:
+In [[perturbative quantum field theory]] formulated in terms of [[BV-BRST formalism]], the _classical master equation_ expresses the nilpotency of the [[BV-differential]] before [[quantization]], with the latter regarded as a [[Hamiltonian vector field]] with respect to the _[[antibracket]]_ $\{-,-\}$, for "Hamiltonian" the BV-BRST-extended [[action functional]] "S + S_{BRST}":
 
 $$
   \left( 
@@ -46,36 +46,85 @@ $$
 
 > under construction
 
-[[S-matrix]]
+Let $(E_{\text{BV-BST}},\mathbf{L}')$ be a [[gauge fixing|gauge fixed]] [[free field theory|free]] [[Lagrangian field theory]] with global [[BV-differential]]
 
 $$
-  \mathcal{S}(V)
+  \{-S', -\}
+  \;\colon\;
+  PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
+    \longrightarrow
+  PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ] 
+$$
+
+and with [[Feynman propagator]] $\Delta_F$.
+
+the [[perturbative S-matrix]] on [[regular polynomial observables]]
+
+$$
+  \mathcal{S} 
+  \;\colon\;
+  PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
+    \longrightarrow
+  PolyObs(E_{\text{BV-BRST}})_{reg}((\hbar))
+$$
+
+is
+
+$$
+  \mathcal{S}(S_{int})
   =
-  \exp_{\star_F}(\tfrac{i}{\hbar} V)
+  \exp_{\star_F}(\tfrac{1}{i \hbar} S_{int})
+  \coloneqq
+  1 
+    + 
+  \tfrac{1}{\i \hbar} S_{int} 
+    +
+  \tfrac{1}{2}
+  \tfrac{1}{(i \hbar)^2} 
+  S_{int} \star_F S_{int}
+  + 
+  \cdots
 $$
 
-quantum Moller operator:
+[[quantum Møller operator]] from [[Bogoliubov's formula]]
 
 $$
-  \mathcal{R}_V
-  \;\coloneqq\;
-  \mathcal{S}(V)^{-1} \star_H (\mathcal{S}(V) \star_F (-))
+  \mathcal{R}
+    \;\coloneqq\;
+  \mathcal{S}(S_{int})^{-1} 
+    \star_H 
+  (\mathcal{S}(S_{int}) \star_F (-))
 $$
 
-inverse:
+its inverse:
 
 $$
-  \mathcal{R}_V^{-1}
+  \mathcal{R}^{-1}
   \;=\;
-  \mathcal{S}(-V) \star_F ( \mathcal{F}(V) \star(-) )
+  \mathcal{S}(-S_{int}) \star_F ( \mathcal{S}(S_{int}) \star(-) )
 $$
+
+notice the implicit dependencies
+
+| symbol | meaning | depends on choice of |
+|--------|---------|----------------------|
+| $\mathcal{T}$ | [[time-orered product|time-ordering]] | [[free field theory|free]] [[Lagrangian density]] and [[Wightman propagator]] |
+| $\mathcal{S}$ | [[S-matrix]] | [[free field theory|free]] [[Lagrangian density]] and [[Wightman propagator]] |
+| $\mathcal{R}$ | [[quantum Møller operator]] | [[free field theory|free]] [[Lagrangian density]] and [[Wightman propagator]] and [[interaction]] |
+
+
 
 isomorphism to interacting star product on regular polynomial observables:
 
 $$
-  A_1 \star_V A_2
+  A_1 \star_{int} A_2
   \;\coloneqq\;
-  \mathcal{R}_V(\mathcal{R}_V^{-1}(A_1) \star_H \mathcal{R}_V^{-1}(A_2))
+  \mathcal{R}_{S_{int}}
+  \left(
+    \mathcal{R}_{S_{int}}^{-1}(A_1) 
+     \star_H 
+    \mathcal{R}_{S_{int}}^{-1}(A_2)
+  \right)
 $$
 
 (e.g. [Fredenhagen-Rejzner 11b, (19)](#FredenhagenRejzner11b))
@@ -87,6 +136,30 @@ $$
 $$
 
 ([Rejzner 11, (5.38)](#Rejzner11))
+
+proposition:
+
+if the [[perturbative S-matrix]] for [[interaction]] $S_{int}$ is $BV$-closed 
+
+$$
+  \{-S', \mathcal{S}(S_{int})\} = 0
+$$
+
+then the interacting quantum BV-differential is equal to
+
+$$
+  \mathcal{S}(-S_{int}) \star_F \{-S', \mathcal{S}(S_{int} \star_F  (-))\}
+$$
+
+proof:
+
+$$
+  \{-S', \mathcal{R}_{S_{int}}(A)\}
+  \coloneqq
+  \left\{
+   -S', 
+  \right\}
+$$
 
 ## Related concepts
 
