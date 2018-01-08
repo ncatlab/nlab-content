@@ -116,7 +116,11 @@ Every classical Cauchy real number is modulated, and any two equal Cauchy real n
 Every multivalued Cauchy real number is equal (as a multivalued Cauchy real number) to some classical Cauchy real number, and two classical Cauchy real numbers are equal if they are equal as multivalued Cauchy real numbers.
 =--
 
-Most practitioners of both [[constructive mathematics]] and [[topos theory]] want to use the Dedekind real numbers.  Without $WCC$, the classical Cauchy real numbers are not very well behaved.  The modulated Cauchy real numbers, however, do have their good points; for example, the [[fundamental theorem of algebra]] is simplest for them.
+Most practitioners of both [[constructive mathematics]] and [[topos theory]] want to use the Dedekind real numbers.  Without $WCC$, the classical Cauchy real numbers are not very well behaved.  The modulated Cauchy real numbers, however, do have their good points; for example, the [[fundamental theorem of algebra]] is simplest for them.  They also make sense in [[predicative mathematics]] with [[function-sets]], whereas the Dedekind reals require [[powersets]] for their definition.
+
+On the other hand, even the (modulated) Cauchy real numbers are not necessarily Cauchy complete, i.e. a Cauchy sequence (even a modulated one) of Cauchy real numbers need not converge to another Cauchy real number (though it always does converge to a Dedekind real number, since the Dedekind real numbers *are* always Cauchy complete).  The problem is that without countable choice, we cannot lift a Cauchy sequence of real numbers to a Cauchy sequence of Cauchy sequences in order to "diagonalize" it.
+
+In fact, [Lubarsky](#Lubarsky) shows that ....
 
 
 ## Generalisations
@@ -146,6 +150,9 @@ Even for Dedekind reals without $WCC$, we can always approximate a real number i
 *  [[Fred Richman]], Douglas Bridges, Peter Schuster; 1998; _A weak countable choice principle_; available from &lt;http://math.fau.edu/Richman/HTML/DOCS.HTM>.
 
 *  [[Fred Richman]]; 1998; _The fundamental theorem of algebra: a constructive development without choice_; available from &lt;http://math.fau.edu/Richman/HTML/DOCS.HTM>.
+
+* [[Robert Lubarsky]], _On the Cauchy Completeness of the Constructive Cauchy Reals_, [doi](https://doi.org/10.1016/j.entcs.2006.09.012)
+ {#Lubarsky}
 
 Formalization of Cauchy real numbers in [[homotopy type theory]] is discussed in 
 
