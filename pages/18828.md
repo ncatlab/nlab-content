@@ -580,7 +580,7 @@ does exist if only one adjoins sufficiently many [[auxiliary fields]] forming a 
 
 +-- {: .num_defn #AuxiliaryFields}
 ###### Definition
-**([[auxiliary fields]])**
+**([[auxiliary fields]] and [[antighost fields]])**
 
 Over [[Minkowski spacetime]] $\Sigma$, let
 
@@ -870,6 +870,63 @@ $$
 $$
 
 is indeed a [[differential]]; such that its [[cochain cohomology]] is identified with that of $s = \left\{-\mathbf{L} + \mathbf{L}_{BRST},-\right\}$ under the canonical inclusion map.
+
+=--
+
++-- {: .num_remark #FieldBundleBVBRST}
+###### Remark
+**([[gauge fixing|gauge fixed]] [[BV-BRST formalism|BV-BRST]] [[field bundle]])**
+
+In conclusion, we have that, given
+
+1. $(E,\mathbf{L})$ a [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}), with [[field bundle]] $E$ (def. \ref{FieldsAndFieldBundles});
+
+1. $\mathcal{G}$ a choice of [[gauge parameters]] (def. \ref{GaugeParameters}), 
+
+   hence 
+
+   $\mathcal{G}[1]$ a choice of [[ghost fields]] (example \ref{LocalOffShellBRSTComplex});
+
+1. $A$ a choice of [[auxiliary fields]] (def. \ref{AuxiliaryFields}), 
+
+   hence 
+
+   $A[-1]$ a choice of [[antighost fields]] (def. \ref{AuxiliaryFields})
+
+1. $T^\ast_{\Sigma,inf}[-1](\cdots)$ the corresponding [[antifields]] (def. \ref{InfinitesimalCotangentBundleOfFieldAndGaugeParameterBundle})
+
+1. a [[gauge fixing Lagrangian density]] $\mathbf{L}_{gf}$ (def. \ref{GaugeFixingLagrangianDensity}) 
+
+then the result is a new [[Lagrangian field theory]]
+
+$$
+  \left( E_{\text{BV-BRST}}, \mathbf{L}' \right)
+$$
+
+now with [[graded manifold|graded]] [[field bundle]] (remark \ref{dgManifolds}) the [[fiber product]]
+
+$$
+  E_{\text{BV-BRST}}
+  \;\coloneqq\;
+  \underset{
+    \array{ \text{anti-} \\ \text{fields} }
+  }{
+  \underbrace{
+  T^\ast_{\Sigma,inf}
+  }
+  }
+  \left(
+    \underset{\text{fields}}{\underbrace{E}}
+      \times_\Sigma 
+    \underset{ \array{ \text{ghost} \\ \text{fields} }}{\underbrace{\mathcal{G}[1]}}
+       \times_\Sigma
+    \underset{\array{ \text{auxiliary} \\ \text{fields} }}{\underbrace{A}}
+       \times_{\Sigma}
+    \underset{ \array{ \text{antighost} \\ \text{fields} } }{\underbrace{A[-1]}}
+  \right)
+$$
+
+and with [[Lagrangian density]] $\mathbf{L'}$ independent of the [[antifields]], but complemented by an auxiliary Lagrangian density $\mathbf{L}'_{BRST}$.
 
 =--
 
