@@ -10,4 +10,3 @@
 
 * Wikipedia, _[Binary pulsar](https://en.wikipedia.org/wiki/Binary_pulsar)_
 
-category: people
