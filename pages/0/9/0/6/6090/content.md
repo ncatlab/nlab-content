@@ -31,7 +31,7 @@ There have been attempts to _define_ [[perturbative quantum field theory]] by di
 
 In the [[field theory]]-picture the crucial condition on the S-matrix is its [[causal additivity]] (def. \ref{PerturbativeSMatrixOnMinkowskiSpacetime} below) which reflects the [[microcausality]] of [[quantum observables]] (prop. \ref{PerturbativeQuantumObservablesIsLocalnet} below), whence the name "[[causal perturbation theory]]".
 
-{#TheAnalyticSMatrix} This [[causality]] of the S-matrix when understood in terms of underlying [[spacetime]] and [[field (physics)|fields]] is supposed to be detected more abstractly by the S-matrix being a suitable [[analytic function]] of the [[wave vectors]] of the scattering asymptotic states ([Newton 82, 10.3.3](#Newton82)), often refereed to via "dispersion relations" (e.g. [Eden-Ladshoff-Olive-Polkinhorne 66 (1.1.1)-(1.1.5)](#EdenLadshoffOlivePolkinhorne66), [Gribov 69, 1.1.2](#Gribov69)). Since thereby analyticity is recognized as the crucial property of the S-matrix in the spacetime/field-independent axiomatization, this is often referred to as "the analytic S-matrix" (e.g. [Eden-Ladshoff-Olive-Polkinhorne 66](#EdenLadshoffOlivePolkinhorne66)). More specifically [[microcausality]] is what induces "crossing symmetry" of the S-matrix ([Weinberg 95, section 10.8](#Weinberg95)).
+{#TheAnalyticSMatrix} This [[causality]] of the S-matrix, when understood in terms of underlying [[spacetime]] and [[field (physics)|fields]], is supposed to be detected more abstractly by the S-matrix being a suitable [[analytic function]] of the [[wave vectors]] of the scattering asymptotic states ([Newton 82, 10.3.3](#Newton82), [Arkani-Hamed et al. 06](#AAHDNR06)), often refereed to via "dispersion relations" (e.g. [Eden-Ladshoff-Olive-Polkinhorne 66 (1.1.1)-(1.1.5)](#EdenLadshoffOlivePolkinhorne66), [Gribov 69, 1.1.2](#Gribov69)). Since thereby analyticity is recognized as the crucial property of the S-matrix in the spacetime/field-independent axiomatization, this is often referred to as "the analytic S-matrix" (e.g. [Eden-Ladshoff-Olive-Polkinhorne 66](#EdenLadshoffOlivePolkinhorne66)). More specifically [[microcausality]] is what induces "crossing symmetry" of the S-matrix ([Weinberg 95, section 10.8](#Weinberg95)).
 
 The perception of the nature of the S-matrix as a primary or derived concept in the foundations of quantum field theory has a convoluted (and ongoing) history, see [below](#History).
 
@@ -2838,11 +2838,15 @@ Early work basing [[perturbative quantum field theory]] on the concept of the S-
 
 This proposal was vocally promoted as the "bootstrap program" by [[Geoffrey Chew]] and [[Stanley Mandelstam]] (see [Chew 70](#Chew70)).
 
-Textbooks account of this axiomatic approach to defining the S-matrix (i.e. not proceeding via [[Lagrangian field theory]]) is
+Textbooks account of this axiomatic approach to defining the S-matrix (i.e. not proceeding via [[Lagrangian field theory]] but via analyticity axioms) is
 
 * {#EdenLadshoffOlivePolkinhorne66} Eden, Landshoff, [[David Olive]], [[John Polkinghorne]], _The Analytic S-matrix_, Cambridge 1966 ([pdf](http://assets.cambridge.org/97805210/48699/sample/9780521048699ws.pdf))
 
 * {#Gribov69} [[Vladimir Gribov]], _The theory of complex angular momenta_, Lecture St. Petersburg 1996, publsihed.  Cambridge 2003 ([doi:10.1017/CBO9780511534959](https://doi.org/10.1017/CBO9780511534959))
+
+Discussion of S-matrix analyticity as a constraint on global causality violation of locally Lorentz invariant theories is in 
+
+* {#AAHDNR06} Allan Adams, [[Nima Arkani-Hamed]], Sergei Dubovsky, Alberto Nicolis, Riccardo Rattazzi, _Causality, Analyticity and an IR Obstruction to UV Completion_, JHEP 0610:014, 2006 ([arXiv:hep-th/0602178](https://arxiv.org/abs/hep-th/0602178))
 
 General discussion of scattering theory is in
 
