@@ -29,6 +29,8 @@ More abstractly, the interacting field algebra in [[perturbative quantum field t
 
 * [[Bogoliubov's formula]]
 
+* [[quantum Møller operator]]
+
 * [[interaction picture]]
 
 ## References
