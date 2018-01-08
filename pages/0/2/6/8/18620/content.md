@@ -102,6 +102,8 @@ $$
 This definition of $\widehat{A}$ without the [[adiabatic switching]] $g_{sw}$ is originally due to [Bogoliubov-Shirkov 59](#BogoliubovShirkov59), later named _Bogoliubov's formula_ (e.g. [Rejzner 16 (6.12)](#Rejzner16)).
 The version with adiabatic switching is due to ([Epstein-Glaser 73 around (74)](#EpsteinGlaser73)). Review includes ([D&#252;tsch-Fredenhagen 00, around (17)](#DuetschFredenhagen00)).
 
+This assignment is also called the _[[quantum Møller operator]]_.
+
 The [[coefficients]] of $\widehat{A}(j)$ as a [[formal power series]] in the [[coupling constant]] and [[Planck's constant]] are called the _[[retarded products]]_.
 
 
