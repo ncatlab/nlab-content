@@ -1,4 +1,22 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Arithmetic geometry
++--{: .hide}
+[[!include arithmetic geometry - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 [[Andrew Wiles]] with [[Richard Taylor]] proved the [[Taniyama-Shimura modularity conjecture]]. By [[Ribet's theorem]] this implied a proof of [[Fermat's last theorem]].
 
 ## References
