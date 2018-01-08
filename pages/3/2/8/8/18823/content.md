@@ -2423,7 +2423,7 @@ $$
 
 for the smallest subalgebra of observables, under the pointwise product (eq:ObservablesPointwiseProduct), that contains all the local observables. This is called the algebra of _[[multilocal observables]]_.
 
-The [[intersetion]] of the (multi-)[[local observables]] with the [[off-shell]] [[polynomial observables]] (def. \ref{PolynomialObservables}) are the (multi-)local polynomial observables
+The [[intersection]] of the (multi-)[[local observables]] with the [[off-shell]] [[polynomial observables]] (def. \ref{PolynomialObservables}) are the (multi-)local polynomial observables
 
 $$
   \label{InclusionOfPolynomialLocalObservablesIntoPolynomialObservables}
