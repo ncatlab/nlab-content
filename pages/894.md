@@ -34,5 +34,7 @@ category: foundational axiom
 
 [[!redirects function set]]
 [[!redirects function sets]]
+[[!redirects function-set]]
+[[!redirects function-sets]]
 
 [[!redirects axiom of function sets]]
