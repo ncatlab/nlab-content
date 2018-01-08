@@ -42,9 +42,13 @@ $$
 $$
 
 
-## Details
+## In causal perturbation theory
 
 > under construction
+
+We discuss the quantum master equation in the rigorous formulation of [[relativistic field theory|relativistic]] [[perturbative quantum field theory]] via [[causal perturbation theory]]/[[perturbative AQFT]] ([Fredenhagen-Rejzner 11b](#FredenhagenRejzner11b), [Rejzner 11](#Rejzner11)).
+
+### Background
 
 Let $(E_{\text{BV-BST}},\mathbf{L}')$ be a [[gauge fixing|gauge fixed]] [[free field theory|free]] [[Lagrangian field theory]] with global [[BV-differential]]
 
@@ -57,6 +61,52 @@ $$
 $$
 
 and with [[Feynman propagator]] $\Delta_F$.
+
++-- {: .num_lemma #DerivationBVDifferentialForWickAlgebra}
+###### Lemma
+**(global [[BV-differential]] is [[derivation]] on [[Wick algebra]])**
+
+The global [[BV-differential]] 
+
+$$
+  \{-S',-\}
+  \;\colon\;
+  PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
+   \longrightarrow
+  PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
+$$
+
+is a [[derivation]] also with respect to the [[Wick algebra]] structure:
+
+$$
+  \left\{
+    -S', A_1 \star_H A_2
+  \right\}
+  \;=\;
+  \left\{
+    -S', A_1
+  \right\}
+    \star_H
+  A_2
+    \;+\;
+  A_1
+    \star_H
+  \left\{
+   -S', A_2
+  \right\}
+  \,.
+$$
+
+=--
+
+([Fredenhagen-Rejzner 11b, below (37)](#FredenhagenRejzner11b), [Rejzner 16, below (5.28)](#Rejzner16))
+
++-- {: .proof}
+###### Proof
+
+By the assumption of a [[free field theory]], the [[equations of motion]] $P \Phi = 0$ are linear and since the [[causal propagator]] satisfies $P \Delta = 0$ hence all contractions of the [[causal propagator]] with $\frac{\delta S}{\delta \Phi^a(x)}$ vanish.
+
+=--
 
 the [[perturbative S-matrix]] on [[regular polynomial observables]]
 
@@ -106,60 +156,197 @@ $$
 
 notice the implicit dependencies
 
-| symbol | meaning | depends on choice of |
+| [[endomorphism]] of <br/> [[regular polynomial observables]] | meaning | depends on choice of |
 |--------|---------|----------------------|
-| $\mathcal{T}$ | [[time-orered product|time-ordering]] | [[free field theory|free]] [[Lagrangian density]] and [[Wightman propagator]] |
-| $\mathcal{S}$ | [[S-matrix]] | [[free field theory|free]] [[Lagrangian density]] and [[Wightman propagator]] |
-| $\mathcal{R}$ | [[quantum Møller operator]] | [[free field theory|free]] [[Lagrangian density]] and [[Wightman propagator]] and [[interaction]] |
+| $\phantom{AA}\mathcal{T}$ | [[time-ordered product|time-ordering]] | [[free field theory|free]] [[Lagrangian density]] and [[Wightman propagator]] |
+| $\phantom{AA}\mathcal{S}$ | [[S-matrix]] | [[free field theory|free]] [[Lagrangian density]] and [[Wightman propagator]] |
+| $\phantom{AA}\mathcal{R}$ | [[quantum Møller operator]] | [[free field theory|free]] [[Lagrangian density]] and [[Wightman propagator]] and [[interaction]] |
 
 
 
-isomorphism to interacting star product on regular polynomial observables:
++-- {: .num_defn #FieldAlgebraObservable}
+###### Definition
+**([[interacting field algebra]])**
+
+The [[interacting field algebra]] [[structure]] on [[regular polynomial observables]]
+
+$$
+  PolyObs(E_{\text{BV-BRST}})[ [\hbar] ] 
+    \otimes 
+  PolyObs(E_{\text{BV-BRST}})[ [\hbar] ] 
+    \overset{ \star_{int} }{\longrightarrow}
+  PolyObs(E_{\text{BV-BRST}})[ [\hbar] ] 
+$$
+
+is the [[conjugation]] of with [[Wick algebra]]-[[structure]] by the [[quantum Møller operator]]:
 
 $$
   A_1 \star_{int} A_2
   \;\coloneqq\;
-  \mathcal{R}_{S_{int}}
+  \mathcal{R}
   \left(
-    \mathcal{R}_{S_{int}}^{-1}(A_1) 
+    \mathcal{R}^{-1}(A_1) 
      \star_H 
-    \mathcal{R}_{S_{int}}^{-1}(A_2)
+    \mathcal{R}^{-1}(A_2)
   \right)
 $$
 
+=--
+
 (e.g. [Fredenhagen-Rejzner 11b, (19)](#FredenhagenRejzner11b))
 
-interacting quantum BV-differential:
+
+### Interacting quantum BV-differential
+
++-- {: .num_defn #BVDifferentialInteractingQuantum}
+###### Definition
+**(interacting quantum [[BV-differential]])**
+
+The _interacting quantum BV-differential_ on the [[interacting field algebra]]
+on [[regular polynomial observables]]
 
 $$
-  \mathcal{R}_V \circ \{-S', (-)\} \circ \mathcal{R}_V^{-1}
+  \mathcal{R}_V \circ \{-S', (-)\} \circ \mathcal{R}^{-1}
 $$
+
+=--
 
 ([Rejzner 11, (5.38)](#Rejzner11))
 
-proposition:
++-- {: .num_prop }
+###### Proposition
 
-if the [[perturbative S-matrix]] for [[interaction]] $S_{int}$ is $BV$-closed 
+If the [[perturbative S-matrix]] for [[interaction]] $S_{int}$ is $BV$-closed 
 
 $$
   \{-S', \mathcal{S}(S_{int})\} = 0
 $$
 
-then the interacting quantum BV-differential is equal to
+then the interacting quantum BV-differential (def. \ref{BVDifferentialInteractingQuantum}) is equal to
 
 $$
-  \mathcal{S}(-S_{int}) \star_F \{-S', \mathcal{S}(S_{int} \star_F  (-))\}
+  \mathcal{S}(-S_{int}) \star_F \{-S', \mathcal{S}(S_{int}) \star_F  (-)\}
 $$
 
-proof:
+=--
+
+([Rejzner 11, (5.38)](#Rejzner11))
+
++-- {: .proof}
+###### Proof
+
+
+We use that the BV-differential $\{-S',-\}$ is a [[derivation]] also of the [[Wick algebra]] product $\star_H$ (lemma \ref{DerivationBVDifferentialForWickAlgebra}).
+
+First this implies that with $\{-S', \mathcal{S}(S_{int})\} = 0$ also 
+$\{-S', \mathcal{S}(S_{int})^{-1}\} = 0$, and then that
 
 $$
-  \{-S', \mathcal{R}_{S_{int}}(A)\}
-  \coloneqq
-  \left\{
-   -S', 
-  \right\}
+  \begin{aligned}
+    \{-S', \mathcal{R}(A)\}
+    & \coloneqq
+    \left\{
+      -S', 
+      \mathcal{S}(S_{int})^{-1} 
+        \star_H 
+      \left( \mathcal{S}(S_{int}) \star_F a \right)
+    \right\}_H
+    \\
+    & = \phantom{+}
+    \underset{
+      = 0
+    }{ 
+    \underbrace{
+    \left\{
+      -S', \mathcal{S}(S_{int})^{-1}
+    \right\}_H
+    }
+    }
+      \star_H
+    \left(
+      \mathcal{S}(S_{int}) \star_F A
+    \right)    
+    \\
+    & \phantom{=}
+    +
+    \mathcal{S}(S_{int})^{-1}
+      \star_H
+    \left\{
+      -S',
+      \mathcal{S}(S_{int}) \star_F A
+    \right\}
+    \\
+    & = 
+    \mathcal{S}(S_{int})^{-1}
+      \star_H
+    \left(
+      \underset{
+        = 1
+      }{
+      \underbrace{
+        \mathcal{S}(+ S_{int}) 
+          \star_F 
+        \mathcal{S}(- S_{int})
+      }
+      }
+        \star_F
+      \left\{
+        -S',
+        \mathcal{S}(S_{int}) \star_F A
+      \right\}
+   \right)
+   \\
+   & =
+    \mathcal{S}(S_{int})^{-1}
+      \star_H
+    \left(
+      \mathcal{S}(+ S_{int}) 
+        \star_F 
+      \underset{  }{
+      \underbrace{
+        \mathcal{S}(- S_{int})
+          \star_F
+        \left\{
+          -S',
+          \mathcal{S}(S_{int}) \star_F A
+        \right\}
+     }
+     }
+   \right)
+   \\
+   & =
+   \mathcal{R}
+   \left(
+     \mathcal{S}(-S_{int})
+       \star_F
+     \left\{
+       -S',
+       \mathcal{S}(S_{int}) \star_F A
+     \right\}
+   \right)
+  \end{aligned}
 $$
+
+=--
+
+### Quantum master equation
+
+Let $\Delta_{BV}$ be the [[BV-operator]].
+
++-- {: .num_defn }
+###### Definition
+**([[quantum master equation]])**
+
+$$
+  \left(
+    \left\{-S' - S_{int}, (-) \right\}
+    + i \hbar \Delta_{BV}
+  \right)^2
+  \;=\;
+  0
+$$
+
+=--
 
 ## Related concepts
 
