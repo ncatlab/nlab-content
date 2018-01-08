@@ -970,7 +970,7 @@ $\,$
 **([[time-ordered product|time-ordered]] [[antibracket]])
 
 
-Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]] ([this def.](A+first+idea+of+quantum+field+theory#FreeFieldTheory)) with [[gauge fixing|gauge fixed]] BV-BRST [[Lagrangian density]] $-\mathbf{L}' + \mathbf{L}'_{BRST}$ ([this def.](A+first+idea+of+quantum+field+theory#GaugeFixingLagrangianDensity)) on a graded BV-BRST [[field bundle]] $E_{\text{BV-BRST}} \coloneqq T^\ast[-1]_{\Sigma,inf}(E \times_\Sigma \mathcal{G}[1] \times_{\Sigma} A \times_\Sigma A[-1])$.
+Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]] ([this def.](A+first+idea+of+quantum+field+theory#FreeFieldTheory)) with [[gauge fixing|gauge fixed]] BV-BRST [[Lagrangian density]] $-\mathbf{L}' + \mathbf{L}'_{BRST}$ ([this def.](A+first+idea+of+quantum+field+theory#GaugeFixingLagrangianDensity)) on a graded BV-BRST [[field bundle]] $E_{\text{BV-BRST}} \coloneqq T^\ast[-1]_{\Sigma,inf}(E \times_\Sigma \mathcal{G}[1] \times_{\Sigma} A \times_\Sigma A[-1])$ (remark \ref{FieldBundleBVBRST}).
 
 Then the _time-ordered global [[antibracket]]_ on [[regular polynomial observables]] 
 
@@ -1018,7 +1018,7 @@ $$
 ###### Proposition
 **([[time-ordered product|time-ordered]] [[antibracket]] with [[gauge fixing|gauge fixed]] [[action functional]])**
 
-Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]] ([this def.](A+first+idea+of+quantum+field+theory#FreeFieldTheory)) with [[gauge fixing|gauge fixed]] BV-BRST [[Lagrangian density]] $-\mathbf{L}' + \mathbf{L}'_{BRST}$ ([this def.](A+first+idea+of+quantum+field+theory#GaugeFixingLagrangianDensity)) on a graded BV-BRST [[field bundle]] $E_{\text{BV-BRST}} \coloneqq T^\ast[-1]_{\Sigma,inf}(E \times_\Sigma \mathcal{G}[1] \times_{\Sigma} A \times_\Sigma A[-1])$.
+Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]] ([this def.](A+first+idea+of+quantum+field+theory#FreeFieldTheory)) with [[gauge fixing|gauge fixed]] BV-BRST [[Lagrangian density]] $-\mathbf{L}' + \mathbf{L}'_{BRST}$ ([this def.](A+first+idea+of+quantum+field+theory#GaugeFixingLagrangianDensity)) on a graded BV-BRST [[field bundle]] $E_{\text{BV-BRST}} \coloneqq T^\ast[-1]_{\Sigma,inf}(E \times_\Sigma \mathcal{G}[1] \times_{\Sigma} A \times_\Sigma A[-1])$ (remark \ref{FieldBundleBVBRST}).
 
 Then the [[time-ordered product|time-ordered]] [[antibracket]] (def. \ref{AntibracketTimeOrdered}) with the gauge fixed BV-[[action functional]] $-S'$ (def. \ref{ComplexBVBRSTGlobal}) equals the [[conjugation]] of the global [[BV-differential]] with the [[isomorphism]] $\mathcal{T}$ from the pointwise to the [[time-ordered product]] of [[observables]] (from [this prop.](time-ordered+product#IsomorphismOnRegularPolynomialObservablesTimeOrderedandPointwise))
 
@@ -1092,7 +1092,7 @@ $$
 ###### Definition
 **([[BV-operator]] for [[gauge fixing|gauge fixed]] [[free field theory|free]] [[Lagrangian field theory]])**
 
-Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]] ([this def.](A+first+idea+of+quantum+field+theory#FreeFieldTheory)) with [[gauge fixing|gauge fixed]] BV-BRST [[Lagrangian density]] $-\mathbf{L}' + \mathbf{L}'_{BRST}$ ([this def.](A+first+idea+of+quantum+field+theory#GaugeFixingLagrangianDensity)) on a graded BV-BRST [[field bundle]] $E_{\text{BV-BRST}} \coloneqq T^\ast[-1]_{\Sigma,inf}(E \times_\Sigma \mathcal{G}[1] \times_{\Sigma} A \times_\Sigma A[-1])$ and with corresponding gauge-fixed global [[BV-BRST differential]] on graded [[regular polynomial observables]]
+Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]] ([this def.](A+first+idea+of+quantum+field+theory#FreeFieldTheory)) with [[gauge fixing|gauge fixed]] BV-BRST [[Lagrangian density]] $-\mathbf{L}' + \mathbf{L}'_{BRST}$ ([this def.](A+first+idea+of+quantum+field+theory#GaugeFixingLagrangianDensity)) on a graded BV-BRST [[field bundle]] $E_{\text{BV-BRST}} \coloneqq T^\ast[-1]_{\Sigma,inf}(E \times_\Sigma \mathcal{G}[1] \times_{\Sigma} A \times_\Sigma A[-1])$ (remark \ref{FieldBundleBVBRST}) and with corresponding gauge-fixed global [[BV-BRST differential]] on graded [[regular polynomial observables]]
 
 $$
   \{-S' + S'_{BRST}, -\}
@@ -1312,7 +1312,7 @@ A special case of the general occurence of the [[BV-operator]] is the following 
 ###### Proposition
 **([[Schwinger-Dyson equation]])**
 
-Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]] ([this def.](A+first+idea+of+quantum+field+theory#FreeFieldTheory)) with [[gauge fixing|gauge fixed]] BV-BRST [[Lagrangian density]] $-\mathbf{L}' + \mathbf{L}'_{BRST}$ ([this def.](A+first+idea+of+quantum+field+theory#GaugeFixingLagrangianDensity)) on a graded BV-BRST [[field bundle]] $E_{\text{BV-BRST}} \coloneqq T^\ast[-1]_{\Sigma,inf}(E \times_\Sigma \mathcal{G}[1] \times_{\Sigma} A \times_\Sigma A[-1])$.
+Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]] ([this def.](A+first+idea+of+quantum+field+theory#FreeFieldTheory)) with [[gauge fixing|gauge fixed]] BV-BRST [[Lagrangian density]] $-\mathbf{L}' + \mathbf{L}'_{BRST}$ ([this def.](A+first+idea+of+quantum+field+theory#GaugeFixingLagrangianDensity)) on a graded BV-BRST [[field bundle]] $E_{\text{BV-BRST}} \coloneqq T^\ast[-1]_{\Sigma,inf}(E \times_\Sigma \mathcal{G}[1] \times_{\Sigma} A \times_\Sigma A[-1])$ (remark \ref{FieldBundleBVBRST}).
 
 Let 
 
