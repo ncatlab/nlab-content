@@ -12,7 +12,7 @@ $\,$
 
 We now discuss these topics:
 
-* _[Wick algebra](#WickAlgebraAbstact)_
+* _[Wick algebra](#WickAlgebraAbstract)_
 
 * _[Time-ordered product](#AbstractTimeOrderedProduct)_
 
@@ -212,7 +212,8 @@ $$
 
 =--
 
-([Dütsch-Fredenhagen 00](#DuetshFredenhagen00); see [Collini 16, p. 25-26](#Collini16))
+([Dito 90](deformation+quantization#Dito90), [Dütsch-Fredenhagen 00](deformation+quantization#DuetschFredenhagen00) [Dütsch-Fredenhagen 01](deformation+quantization#DuetschFredenhagen01), [Hirshfeld-Henselder 02](deformation+quantization#HirschfeldHenselder02), [Collini 16, p. 25-26](deformation+quantization#Collini16))
+
 
 +-- {: .proof}
 ###### Proof
