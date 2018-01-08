@@ -649,11 +649,18 @@ See also
 * MO discussion , _[Kontsevich's conjectures on the Grothendieck-Teichm&#252;ller group?](http://mathoverflow.net/questions/42148/kontsevichs-conjectures-on-the-grothendieck-teichmuller-group)_
 
 
-Deformation quantization in [[perturbative quantum field theory]] is discussed for [[free field theory]] in
+Deformation quantization in [[perturbative quantum field theory]] is discussed for [[free field theory]] is due to
+
+* {#Dito90} Joseph Dito, _Star-product approach to quantum field theory: The free scalar field_. Letters in Mathematical Physics, 20(2):125&#8211;134, 1990 ([spire](https://inspirehep.net/record/303898/))
+
+and further expanded on in
+
+* {#DuetschFredenhagen00} [[Michael Dütsch]], [[Klaus Fredenhagen]], section 5.1 of _Algebraic Quantum Field Theory, Perturbation Theory, and the Loop Expansion_, Commun.Math.Phys. 219 (2001) 5-30 ([arXiv:hep-th/0001129](https://arxiv.org/abs/hep-th/0001129))
+
+* {#DuetschFredenhagen01} [[Michael Dütsch]], [[Klaus Fredenhagen]], _Perturbative algebraic quantum field theory and deformation quantization_, Proceedings of the Conference on Mathematical Physics in Mathematics and Physics, Siena June 20-25 (2000) ([arXiv:hep-th/0101079](http://xxx.uni-augsburg.de/abs/hep-th/0101079))
 
 * {#HirschfeldHenselder02} A. C. Hirshfeld, P. Henselder, _Star Products and Perturbative Quantum Field Theory_, Annals Phys. 298 (2002) 382-393 ([arXiv:hep-th/0208194](https://arxiv.org/abs/hep-th/0208194))
 
-* [[Michael Dütsch]], [[Klaus Fredenhagen]], _Perturbative algebraic quantum field theory and deformation quantization_, Proceedings of the Conference on Mathematical Physics in Mathematics and Physics, Siena June 20-25 (2000) ([arXiv:hep-th/0101079](http://xxx.uni-augsburg.de/abs/hep-th/0101079))
 
 and for interacting [[perturbative quantum field theory]] ([[perturbative AQFT]]) in
 
@@ -662,9 +669,7 @@ and for interacting [[perturbative quantum field theory]] ([[perturbative AQFT]]
 * {#HawkinsRejzner16} [[Eli Hawkins]], [[Kasia Rejzner]], _The Star Product in Interacting Quantum Field Theory_ ([arXiv:1612.09157](https://arxiv.org/abs/1612.09157))
 
 
-
-
-The relation [[geometric quantization]] is discussed in
+The relation to [[geometric quantization]] is discussed in
 
 * [[Eli Hawkins]], _The Correspondence between Geometric Quantization and Formal Deformation Quantization_ ([arXiv:math/9811049](http://arxiv.org/abs/math/9811049))
 
