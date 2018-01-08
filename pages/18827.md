@@ -1711,6 +1711,12 @@ $$
 
 and such that smooth functions on $T^\ast_{\Sigma,inf}\left(E \times_\Sigma (\mathcal{G}[1])\right)$ are [[formal power series]] in $c^\ddagger_\alpha$ (necessarily due to degree reasons) and in $\phi^\ddagger_a$ (reflecting the [[infinitesimal neighbourhood]] of the [[zero section]]).
 
+Here the shifted cotangents to the fields are called the _[[antifields]]_:
+
+* $\phi^\ddagger_a$ is _[[antifield]]_ to the [[field (physics)|field]] $\phi^a$
+
+* $c^\ddagger_\alpha$ is _[[antifield]]_ to the [[ghost field]] $c^\alpha$.
+
 =--
 
 
