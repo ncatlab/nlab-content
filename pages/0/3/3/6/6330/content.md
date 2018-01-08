@@ -226,6 +226,8 @@ The analogue of the limit $t \to \infty$ in the construction of the [[S-matrix]]
 
 * [[interacting field algebra]]
 
+* [[Møller operator]]
+
 ## References
 
 For instance 
