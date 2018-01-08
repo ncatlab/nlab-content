@@ -116,11 +116,19 @@ Every classical Cauchy real number is modulated, and any two equal Cauchy real n
 Every multivalued Cauchy real number is equal (as a multivalued Cauchy real number) to some classical Cauchy real number, and two classical Cauchy real numbers are equal if they are equal as multivalued Cauchy real numbers.
 =--
 
-Most practitioners of both [[constructive mathematics]] and [[topos theory]] want to use the Dedekind real numbers.  Without $WCC$, the classical Cauchy real numbers are not very well behaved.  The modulated Cauchy real numbers, however, do have their good points; for example, the [[fundamental theorem of algebra]] is simplest for them.  They also make sense in [[predicative mathematics]] with [[function-sets]], whereas the Dedekind reals require [[powersets]] for their definition.
+Most practitioners of both [[constructive mathematics]] and [[topos theory]] want to use the Dedekind real numbers.  Without $WCC$, the classical Cauchy real numbers are not very well behaved.  The modulated Cauchy real numbers, however, do have their good points; for example, the [[fundamental theorem of algebra]] is simplest for them.  They also make sense in [[predicative mathematics]] with [[function sets]], whereas the Dedekind reals require [[powersets]] for their definition.
 
-On the other hand, even the (modulated) Cauchy real numbers are not necessarily Cauchy complete, i.e. a Cauchy sequence (even a modulated one) of Cauchy real numbers need not converge to another Cauchy real number (though it always does converge to a Dedekind real number, since the Dedekind real numbers *are* always Cauchy complete).  The problem is that without countable choice, we cannot lift a Cauchy sequence of real numbers to a Cauchy sequence of Cauchy sequences in order to "diagonalize" it.
+On the other hand, even the (modulated) Cauchy real numbers are not necessarily Cauchy complete, i.e. a Cauchy sequence (even a modulated one) of Cauchy real numbers need not converge to another Cauchy real number (though it always does converge to a Dedekind real number, since the Dedekind real numbers *are* always Cauchy complete).  The problem is that without countable choice, we cannot lift a (modulated) Cauchy sequence of (modulated Cauchy) real numbers to a Cauchy sequence of Cauchy sequences in order to "diagonalize" it; a countermodel is constructed by [Lubarsky](#Lubarsky).
 
-In fact, [Lubarsky](#Lubarsky) shows that ....
+For non-modulated Cauchy sequences and reals, there are additional problems even if we assume representatives are already chosen.  A modulated Cauchy sequence of modulated Cauchy sequences does converge to a modulated Cauchy sequence.  Moreover, a *modulated* Cauchy sequence of *classical* Cauchy sequences, and a *classical* Cauchy sequence of *modulated* Cauchy sequences, both necessarily converge to a *classical* Cauchy sequence.  But the results need not be modulated, and a classical Cauchy sequence of classical Cauchy sequences need not converge to a classical Cauchy sequence.  In fact, [Lubarsky](#Lubarsky) shows that:
+
+* The generic classical Cauchy sequence, in the [[classifying topos]] of classical Cauchy sequences, is not modulated.  Thus, we cannot prove that every classical Cauchy sequence is modulated.  Hence, we cannot prove that a classical Cauchy sequence of modulated Cauchy sequences has a modulated limit (since a classical Cauchy sequence of rationals can be regarded as a classical Cauchy sequence of (constant) modulated Cauchy sequences).
+
+* The generic classical Cauchy sequence of classical Cauchy sequences, in the classifying topos of such, does not converge to a classical Cauchy sequence.
+
+* The generic modulated Cauchy sequence of classical Cauchy sequences, in the classifying topos of such, does not converge to a modulated Cauchy sequence.
+
+(Actually, Lubarsky writes using [[Heyting-valued sets]] on topological spaces rather than classifying toposes of propositional [[geometric theories]], but it seems almost certain to me that his results can be rephrased as the above.)
 
 
 ## Generalisations
