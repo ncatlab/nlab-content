@@ -277,6 +277,45 @@ Since the [[Feynman propagator]] is symmetric ([this prop.](A+first+idea+of+quan
 
 =--
 
+
++-- {: .num_example #RegularObservablesExponentialTimeOrdered}
+###### Example
+**([[time-ordered product|time-ordered]] [[exponential]] of [[regular polynomial observables]])**
+
+Let 
+
+$$
+  V \in PolyObs_{reg, deg = 0}[ [ \hbar ] ]
+$$
+
+be a [[regular polynomial observables]] of degree zero, and write 
+
+$$
+  \exp(V)
+  =
+  1 + V + \tfrac{1}{2!} V \cdot V + \tfrac{1}{3!} V \cdot V \cdot V + \cdots
+$$
+
+for the [[exponential]] of $V$ with respect to the pointwise product.
+
+Then the [[exponential]] $\exp_{\mathcal{T}}(V)$ of $V$ with respect to the [[time-ordered product]] $\star_F$ (def. \ref{OnRegularPolynomialObservablesTimeOrderedProduct}) is equal to the [[conjugation]] of the exponential with respect to the
+pointwise product by the time-ordering isomorphism $\mathcal{T}$ from prop. \ref{IsomorphismOnRegularPolynomialObservablesTimeOrderedandPointwise}:
+
+$$
+  \begin{aligned}
+    \exp_{\mathcal{T}}(V)
+    &
+    \coloneqq
+    1 + V + \tfrac{1}{2} V \star_F V + \tfrac{1}{3!} V \star_F V \star_F V + \cdots
+    \\
+    & = 
+    \mathcal{T} \circ \exp(-) \circ \mathcal{T}^{-1}(V)
+  \end{aligned}
+$$
+
+=--
+
+
 ### On local observables
  {#OnLocalObservables}
 
