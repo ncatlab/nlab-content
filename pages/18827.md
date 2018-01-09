@@ -1290,9 +1290,9 @@ $$
     \phantom{=}
     +
     \frac{\overset{\leftarrow}{\partial} f}{\partial c^\ddagger_\alpha}
-    \frac{\overset{\rightarrow}{\partial} g}{\partial {c}^\alpha}
+    \frac{\overset{\rightarrow}{\partial} g}{\partial {c}^{\alpha}}
     -
-    \frac{\overset{\leftarrow}{\partial} f}{\partial c^\alpha}
+    \frac{\overset{\leftarrow}{\partial} f}{\partial c^{\alpha}}
     \frac{\overset{\rightarrow}{\partial} g}{\partial c^\ddagger_\alpha}
   \end{aligned}
   \,,
@@ -1304,6 +1304,8 @@ where the arrow over the [[partial derivative]] indicates that we we pick up sig
 In this form the [[Schouten bracket]] is called the _[[antibracket]]_.
 
 =--
+
+(e. g. [Henneaux 90, (53d)](antibracket#Henneaux90), [Henneaux-Teitelboim 92, section 15.5.2](antibracket#HenneauxTeitelboim92))
 
 The power of the [[Schouten bracket]]/[[antibracket]] rests in the fact that it makes the [[Chevalley-Eilenberg differential]] on a [[derived critical locus]] $(X/\mathfrak{g})_{d S \simeq 0}$ become a [[Hamiltonian vector field]], for "[[Hamiltonian]]" the sum of $S$ with the [[Chevalley-Eilenberg differential]] of $X/\mathfrak{g}$:
 
