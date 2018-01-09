@@ -222,9 +222,13 @@ The analogue of the limit $t \to \infty$ in the construction of the [[S-matrix]]
 
 ## Related concepts
 
-* [[S-matrix]]
+* [[interaction]]
 
 * [[interacting field algebra]]
+
+* [[interacting field theory]]
+
+* [[S-matrix]]
 
 * [[Møller operator]]
 
