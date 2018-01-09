@@ -160,7 +160,7 @@ Since any wave front set excludes the zero-section by definition, the second and
 
 +-- {: .num_prop #WaveFrontSetOfProductOfDistributionsInsideFiberProductOfFactorWaveFrontSets}
 ###### Proposition
-**([[wave front set]] of [[product of distributions]] is inside [[fiber product]] o factor [[wave front sets]])**
+**([[wave front set]] of [[product of distributions]] is inside [[fiber]]-wise [[sum]] of [[wave front sets]])**
 
 Let $u,v \in \mathcal{D}'(X)$ be a [[pair]] of [[distributions]] satisfying [[Hörmander's criterion]], so that their product of distributions $u \cdot v$ (def. \ref{ProductOfDistributions}) exists by prop. \ref{ProductOfDistributionsViaDiagonalPullbackOfTensorProductIsWellDefined}. Then the [[wave front set]] of the product distribution is contained inside the fiberwise [[sum]] of the wave front set elements of the two factors:
 
