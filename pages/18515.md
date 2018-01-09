@@ -1504,6 +1504,46 @@ Here in the first line we have in the [[integrand]] the [[delta distribution]] o
 
 (e.g. [Khavkine-Moretti 14, equation (38) and section 3.4](#KhavkineMoretti14))
 
+It is immediate but important that:
+
++-- {: .num_prop #OnMinkowskiWightmanIsDistributionalSolutionToKleinGordon}
+###### Proposition
+**([[Wightman propagator]] on [[Minkowski spacetime]] is [[distributional solution to a PDE|distributional solution]] to [[Klein-Gordon equation]])**
+
+The [[Wightman propagator]] $\Delta_H$ (def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime}) is a [[distributional solution to a PDE|distributional solution]] to the [[Klein-Gordon equation]]
+
+$$
+  (\Box_x - m^2)\Delta_H(x,y) = 0
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By definition \ref{StandardHadamardDistributionOnMinkowskiSpacetime} the Wightman propagator is the [[Fourier transform of distributions]] of the [[product of distributions]]
+
+$$
+  \delta(k_\mu k^\mu + m^2) \Theta(-k_0)
+  \,,
+$$
+
+where in turn the argument of the [[delta distribution]] is just $-1$ times the Fourier transform of the [Klein-Gordon operator]] itsel. This is clearly a solution to the equation
+
+$$
+  (-k_\mu k^\mu - m^2) \, \delta(k_\mu k^\mu + m^2) \Theta(-k_0)
+  \;=\;
+  0
+  \,.
+$$
+
+Under [[Fourier inversion theorem|Fourier inversion]], this is the equation $(\Box_x - m^2)\Delta_H(x,y) = 0$, as in the proof of prop. \ref{AdvancedRetardedPropafatorsForKleinGordonOnMinkowskiSpacetime}.
+
+=--
+
+
+
 +-- {: .num_prop #ContourIntegralForStandardHadamardPropagatorOnMinkowskiSpacetime}
 ###### Proposition
 **([[contour integral]] representation of the [[Wightman propagator]] for the [[Klein-Gordon operator]] on [[Minkowski spacetime]])
