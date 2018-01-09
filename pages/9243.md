@@ -21,7 +21,7 @@ $$
   L = L_{free} + L_{int}
 $$ 
 
-of a term $L_{free}$ that defines a [[free field theory]] ([[kinetic energy]]) and a remainder $L_{int}$. That remainder then describes the _interactions_ that the otherwise free fields undergo.
+of a term $L_{free}$ that defines a [[free field theory]] ([[kinetic energy]]) and a remainder $L_{int}$ defining the interactions of a corresponding [[interacting field theory]]. That remainder then describes the _interactions_ that the otherwise free fields undergo.
 
 The _[[interaction picture]]_ of [[quantum physics]] serves to decompose the [[quantization]] of [[local field theories]] such that the interaction is seen as a [[perturbation]] of the quantization of the [[free field theory]]. This underlies most constructions of [[perturbative quantum field theory]], including the mathematically rigorous formulation via [[causal perturbation theory]].
 
@@ -33,7 +33,11 @@ More generally the [[volume holonomy]] of a [[circle n-bundle with connection]] 
 
 ## Related concepts
 
-* [[perturbation theory]]
+* [[interacting field algebra]]
+
+* [[interacting field theory]]
+
+* [[perturbative quantum field theory]]
 
 [[!include action (physics) - table]]
 
