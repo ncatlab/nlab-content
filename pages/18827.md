@@ -3181,7 +3181,7 @@ $$
     dvol_\Sigma(x)
     \\
     & =
-    \underset{a}{\sum}
+    \underset{A}{\sum}
       (-1)^{deg(\phi^A)}
     \int_\Sigma
       (P_{A B}\mathbf{\Phi}^A)(x)
