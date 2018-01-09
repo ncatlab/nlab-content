@@ -962,4 +962,3 @@ based on
 [[!redirects BV-BRST Lagrangian density]]
 [[!redirects BV-BRST Lagrangian densities]]
 
-[[!redirects antibracket]]
