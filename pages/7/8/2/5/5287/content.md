@@ -18,7 +18,7 @@
 
 The concept of _BV-operator_ has two different but (somewhat subtly) related meanings:
 
-1. In [[perturbative quantum field theory]] (discussed [below](#InPerturbativeQuantumFieldTheory)) the _BV-operator_ ([Batalin-Vilkovisky 81](#BatalinVilkovisky81)) is essentially the difference between the action of the [[BV differential]] on the [[algebra of observables]] before and after [[quantization]] of the [[free field theory]] around which the [[perturbative quantum field theory|perturbative quantization]] is considered; it is a quantum correction $i \hbar \Delta_{BV}$ (of order of [[Planck's constant]] $\hbar$) to the [[BV differential]] $s_{BV} = \{-S',-.\}$. Where the condition $\left(\{-S',-\}\right)^2 = 0$ for the [[BV-differential]] to be a [[differential]] is called the "[[master equation]]" in [[BV-BRST theory]], the quantum corrected version $\left( \{-S',-\} + i \hbar \Delta\right)^2 = 0$ is called the _[[quantum master equation]]_.
+1. In [[perturbative quantum field theory]] (discussed [below](#InPerturbativeQuantumFieldTheory)) the _BV-operator_ or _BV-Laplacian_ ([Batalin-Vilkovisky 81](#BatalinVilkovisky81)) is essentially the difference between the action of the [[BV differential]] on the [[algebra of observables]] before and after [[quantization]] of the [[free field theory]] around which the [[perturbative quantum field theory|perturbative quantization]] is considered; it is a quantum correction $i \hbar \Delta_{BV}$ (of order of [[Planck's constant]] $\hbar$) to the [[BV differential]] $s_{BV} = \{-S',-.\}$. Where the condition $\left(\{-S',-\}\right)^2 = 0$ for the [[BV-differential]] to be a [[differential]] is called the "[[master equation]]" in [[BV-BRST theory]], the quantum corrected version $\left( \{-S',-\} + i \hbar \Delta\right)^2 = 0$ is called the _[[quantum master equation]]_.
 
 
 1. In [[higher algebra]], under the identification of a [[BV-algebra]] with the [[chain homology]] of a [[little k-cubes operad|E2-algebra]], the _BV-operator_ corresponds to the operation of rotating a little disk around.
@@ -372,6 +372,8 @@ $$
   dvol_\Sigma
 $$
 
+Since this formula exhibits a graded [[Laplace operator]], the BV-operator is also called the _BV-Laplace operator_ or _BV-Laplacian_, for short.
+
 =--
 
 ([Fredenhagen-Rejzner 11, (29)](#FredenhagenRejzner11), [Rejzner 11, (5.20)](#Rejzner11))
@@ -515,8 +517,9 @@ Here we used
 
 From this component expression in turn we find the following relations:
 
-+-- {: .num_prop}
++-- {: .num_prop #AntibracketBVOperatorRelation}
 ###### Proposition
+**(global [[antibracket]] exhibits failure of [[BV-operator]] to be a [[derivation]])**
 
 Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]] ([this def.](A+first+idea+of+quantum+field+theory#FreeFieldTheory)) with [[gauge fixing|gauge fixed]] BV-BRST [[Lagrangian density]] $-\mathbf{L}' + \mathbf{L}'_{BRST}$ ([this def.](A+first+idea+of+quantum+field+theory#GaugeFixingLagrangianDensity)) on a graded BV-BRST [[field bundle]] $E_{\text{BV-BRST}} \coloneqq T^\ast[-1]_{\Sigma,inf}(E \times_\Sigma \mathcal{G}[1] \times_{\Sigma} A \times_\Sigma A[-1])$
 
@@ -526,11 +529,15 @@ $$
   \label{GlobalAntibracketInteractingWithBVOperator}
   \{A_1, A_2\}
   \;=\;
+  (-1)^{deg(A_2)}
+  \,
   \Delta_{BV}(A_1 \cdot A_2)
   - 
+  (-1)^{deg(A_2)}
+  \,
   \Delta_{BV}(A_1) \cdot A_2
   -
-  (-1)^{n_{A_1}} A_1 \cdot \Delta(A_2)  
+  A_1 \cdot \Delta(A_2)  
 $$
 
 for $(-) \cdot (-)$ the pointwise product of observables (def. \ref{Observable}). 
@@ -552,20 +559,36 @@ and hence satisfies the analogue of relation (eq:GlobalAntibracketInteractingWit
 $$
   \{A_1, A_2\}_{\mathcal{T}}
   \;=\;
+  (-1)^{deg(A_2)}
+  \,
   \Delta_{BV}(A_1 \star_F A_2)
   - 
+  (-1)^{dag(A_2)}
   \Delta_{BV}(A_1) \star_F A_2
   -
-  (-1)^{n_{A_1}} A_1 \star_F \Delta(A_2)  
+  A_1 \star_F \Delta(A_2)  
   \,.
 $$
 
 =--
 
+(e.g. [Henneaux-Teitelboim 92, (15.105d)](antibracket#HenneauxTeitelboim92))
+
 +-- {: .proof}
 ###### Proof
 
-...
+With prop. \ref{ComponentsBVOperator} the first statement is a graded version of the analogous relation for an ordinary [[Laplace operator]] $\Delta \coloneqq g^{a b} \partial_a \partial_b$ acting on [[smooth functions]] on [[Cartesian space]], which on [[smooth functions]] $f,g$ satisfies
+
+$$
+  \Delta(f \cdot g)
+  \;=\;
+  (\nabla f, \nabla g) - \Delta(f) g - f \Delta(g)
+  \,,
+$$
+
+by the [[product law]] for [[differentiation]], where now $\nabla f \coloneqq (g^{a b} \partial_b f)$ is the [[gradient]] and $(v,w) \coloneqq g_{a b} v^a w b$ the [[inner product]]. Here one just needs to carefully record the relative signs that appear.
+
+That the BV-operator commutes with the time-ordering operator is clear from the fact that both of these are given by [[partial derivative|partial]] [[functional derivatives]] with _[[constant function|constant]]_ [[coefficients]]. This immediately implies the last statement from the first.
 
 =--
 
@@ -816,5 +839,12 @@ See at _[[BV-formalism]]_ for more references.
 
 [[!redirects BV-operators]]
 
+[[!redirects BV-Laplacian]]
+[[!redirects BV-Laplacians]]
+
+[[!redirects BV-Laplace operator]]
+[[!redirects BV-Laplace operators]]
+
 [[!redirects Schwinger-Dyson operator]]
 [[!redirects Schwinger-Dyson operators]]
+
