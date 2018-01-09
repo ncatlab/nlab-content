@@ -926,7 +926,9 @@ $$
   \right)
 $$
 
-and with [[Lagrangian density]] $\mathbf{L'}$ independent of the [[antifields]], but complemented by an auxiliary Lagrangian density $\mathbf{L}'_{BRST}$.
+and with [[Lagrangian density]] $\mathbf{L'}$ independent of the [[antifields]], but complemented by an auxiliary Lagrangian density $\mathbf{L}'_{BRST}$. 
+
+The key point being that $\mathbf{L}'$ admits a [[covariant phase space]] (while $\mathbf{L}$ may not), while in [[BV-BRST cohomology]] both theories still have the same gauge-invariant on-shell observables.
 
 =--
 
