@@ -7,7 +7,7 @@ I've got tenured at [G&#246;ttingen](http://www.uni-math.gwdg.de/zhu) (since 201
 
 
 ***
-**Courses/Seminars** (upper level):
+**Courses/Seminars** (upper levels):
 
 [[Winter 2017-2018 seminar on higher structures (Higher Lie Groupoids)]]
 
@@ -24,9 +24,13 @@ Fall 2014 [[seminar on factorization algebras]].
 ***
 **Academic Activities**
 
-June 11-22, 2018, [SMS 2018, Derived and Higher Structures in Geometry and Physics](https://ncatlab.org/higherstructureconferences/show/sms2018)
+June 11-22, 2018, [SMS 2018, Derived and Higher Structures in Geometry and Physics](https://ncatlab.org/higherstructureconferences/show/sms2018) at Fields Institute, Toronto
 
-July 2017, [Lie Theory and Mathematical Physics](https://ncatlab.org/higherstructureconferences/show/Lie+Theory+and+Mathematical+Physics)
+May 1-May 10, Simon Center.
+
+April 29-May 1, [Applied Category Theory](http://www.appliedcategorytheory.org/), Leiden, see old friend, John :)
+
+July 2017, [Lie Theory and Mathematical Physics](https://ncatlab.org/higherstructureconferences/show/Lie+Theory+and+Mathematical+Physics) at MIT
 
 16.04.2017--21.04.2017, [Banff](http://www.birs.ca/events/2017/5-day-
 workshops/17w5023)
