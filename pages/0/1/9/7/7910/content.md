@@ -81,7 +81,7 @@ $$
 
 =--
 
-This is due to ([Kostant](#Kostant)). It appears also ([Brylinski, prop. 2.4.5](#Brylinski)). 
+This is due to ([Kostant](#Kostant)). It appears also ([Brylinski, prop. 2.4.5](#Brylinski93)). 
 
 [[!include geometric quantization extensions - table]]
 
@@ -163,9 +163,9 @@ Original accounts are
 * {#Kostant} [[Bertram Kostant]], _Quantization and unitary representations_, in _Lectures in modern analysis and applications III_. Lecture Notes in Math. 170 (1970), Springer Verlag, 87&#8212;208 doi:[10.1007/BFb0079068](https://doi.org/10.1007/BFb0079068)
  
 
-A textbook account is in section II.4 of 
+A textbook account is in 
 
-* [[Jean-Luc Brylinski]], _Loop spaces, characteristic classes and geometric quantization_, Birkh&#228;user (1993)
+* {#Brylinski93} [[Jean-Luc Brylinski]], section II.4 _Loop spaces, characteristic classes and geometric quantization_, Birkh&#228;user (1993)
 
 and in 
 
@@ -212,7 +212,7 @@ A [[metric]]-structure on quantomorphism groups is discussed in
 
 The quantomorphisms over elements of the [[symplectic group]] of a [[symplectic vector space]] are discussed in 
 
-* {#Segal63} [[Irving Segal]], _Transforms for operators and symplectic automorphisms over a locally compact abelian group_, Math. Scand. 13 (1963) 31-43 &lt;https://www.mscand.dk/article/download/10686/8707>
+* {#Segal63} [[Irving Segal]], _Transforms for operators and symplectic automorphisms over a locally compact abelian group_, Math. Scand. 13 (1963) 31-43
 
 
 * {#RobbinSalamon93} [[Joel Robbin]],  [[Dietmar Salamon]], _Feynman path integrals on phase space and the metaplectic representation_ in [[Dietmar Salamon]] (ed.), _Symplectic Geometry_, LMS Lecture Note series 192 (1993) ([[RobbinSalamonMetaplectic.pdf:file]])
