@@ -639,7 +639,7 @@ considers the Hamiltonian formulation. Chapters 17 and 18 are about the Lagrangi
 The [[L-infinity algebroid]]-structure of the [[local BV-BRST complex]] on the [[jet bundle]] is made manifest in
 
 * {#Barnich10} [[Glenn Barnich]], equation(3) of _A note on gauge systems from the point of view of Lie algebroids_, in P. Kielanowski, V. Buchstaber, A. Odzijewicz, 
-M.. Schlichenmaier, T Voronov,  (eds.) XXIX Workshop on Geometric Methods in Physics, vol. 1307 of AIP Conference Proceedings, 1307, 7 (2010) ([arXiv:1010.0899](https://arxiv.org/abs/1010.0899), [doi:/10.1063/1.3527427]( https://doi.org/10.1063/1.3527427))
+M. Schlichenmaier, T Voronov,  (eds.) XXIX Workshop on Geometric Methods in Physics, vol. 1307 of AIP Conference Proceedings, 1307, 7 (2010) ([arXiv:1010.0899](https://arxiv.org/abs/1010.0899), [doi:/10.1063/1.3527427]( https://doi.org/10.1063/1.3527427))
  
 
 ### Lagrangian BV
@@ -650,7 +650,7 @@ M.. Schlichenmaier, T Voronov,  (eds.) XXIX Workshop on Geometric Methods in Phy
 
 The original articles are
 
-* {#BV81} [[Igor Batalin]], [[Grigori Vilkovisky]],  _Gauge Algebra and Quantization_, Phys. Lett. B 102 (1): 27&#8211;31, 1981 ([doi:10.1016/0370-2693(81)90205-7](https://doi.org/10.1016/0370-2693(81)90205-7)) 
+* {#BV81} [[Igor Batalin]], [[Grigori Vilkovisky]],  _Gauge Algebra and Quantization_, Phys. Lett. B 102 (1): 27&#8211;31, 1981 (<a href="https://doi.org/10.1016/0370-2693(81)90205-7">doi:10.1016/0370-2693(81)90205-7</a>) 
 
 
 * {#BV83} [[Igor Batalin]], [[Grigori Vilkovisky]],  (1983). _Quantization of Gauge Theories with Linearly Dependent Generators_, Phys. Rev. D 28 (10): 2567&#8211;2582. doi:10.1103/PhysRevD.28.2567.  Erratum-ibid. 30 (1984) 508 doi:10.1103/PhysRevD.30.508
