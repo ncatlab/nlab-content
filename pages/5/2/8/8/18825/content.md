@@ -866,7 +866,7 @@ This shows that the [[product of distributions]] exists once there is a [[bump f
 Now the [[Paley-Wiener-Schwartz theorem]] says more, it says that the Fourier transforms $\widehat {b u}$ and $\widehat {b u}$ are polynomially bounded. On the other hand, the [[integral]] above is well defined if the [[integrand]] decreases at least quadratically with $k \to \infty$.
 This means that for the convolution product to be well defined, either $\widehat {b u}$ has to polynomially decrease faster with $k \to \pm \infty$ than $\widehat {b v}$ grows in the _other_ direction, $k \to \mp \infty$ (due to the minus sign in the argument of the second factor in the [[convolution product]]), or the other way around.
 
-Moreover, the degree of polynomial growth of the [[Fourier transform of distributions|Fourier transform]] increases by one with each [[derivative of distributions|derivative]]. Therefore if the [[product law]] for [[derivatives of distributions]] is to hold generally, we need that either $\widehat{b u}$ or $\widehat{b v}$ decays faster than _any_ polynomial in the opposite of the directions in which the respective other factor does not decay.
+Moreover, the degree of polynomial growth of the [[Fourier transform of distributions|Fourier transform]] increases by one with each [[derivative of distributions|derivative]] (def. \ref{DistributionalDerivatives}). Therefore if the [[product law]] for [[derivatives of distributions]] is to hold generally, we need that either $\widehat{b u}$ or $\widehat{b v}$ decays faster than _any_ polynomial in the opposite of the directions in which the respective other factor does not decay.
 
 Here the set of directions of wave vectors in which the Fourier transform of a distribution localized around any point does not decay exponentially is the _[[wave front set]]_ of a distribution (def. \ref{WaveFrontSet} below). Hence the condition that the product of two distributions is well defined is that for each wave vector direction in the wave front set of one of the two distributions, the opposite direction must not be an element of the wave front set of the other distribution. This is called _[[Hörmander's criterion]]_ (prop. \ref{HoermanderCriterionForProductOfDistributions} below).
 
@@ -1168,6 +1168,44 @@ then the [[product of distributions]] $u \cdot v$ exists, given, locally, by the
 
 =--
 
+For making use of [[wave front sets]], we need a collection of results about how wave front sets change as we apply certain operations to distributions:
+
++-- {: .num_prop #RetainsOrShrinksWaveFrontSetDifferentialOperator}
+###### Proposition
+**([[differential operator]] preserves or shrinks [[wave front set]])**
+
+Let $P$ be a [[differential operator]] (def. \ref{DifferentialOperator}). Then for $u \in \mathcal{D}'$ a [[distribution]], the [[wave front set]] (def. \ref{WaveFrontSet}) of the [[derivative of distributions]] $P u$ (def. \ref{DistributionalDerivatives}) is contained in the original wave front set of $u$:
+
+$$
+  WF(P u) \subset WF(u)
+$$
+
+=--
+
+([Hörmander 90, (8.1.11)](differential+operator#Hoermander90))
+
++-- {: .num_prop #WaveFrontSetOfProductOfDistributionsInsideFiberProductOfFactorWaveFrontSets}
+###### Proposition
+**([[wave front set]] of [[product of distributions]] is inside [[fiber]]-wise [[sum]] of [[wave front sets]])**
+
+Let $u,v \in \mathcal{D}'(X)$ be a [[pair]] of [[distributions]] satisfying [[Hörmander's criterion]], so that their [[product of distributions]] $u \cdot v$ exists by prop. \ref{HoermanderCriterionForProductOfDistributions}. Then the [[wave front set]] (def. \ref{WaveFrontSet}) of the product distribution is contained inside the [[fiber]]-wise [[sum]] of the wave front set elements of the two factors:
+
+$$
+  WF(u \cdot v)
+  \;\subset\;
+  (WF(u) \cup (X \times \{0\})) 
+    + 
+  (WF(v) \cup (X \times \{0\}))
+  \,.
+$$
+
+=--
+
+([Hörmander 90, theorem 8.2.10](product+of+distributions#Hoermander90))
+
+
+A key fact for identifying [[wave front sets]] is the _[[propagation of singularities theorem]]_ (prop. \ref{PropagationOfSingularitiesTheorem} below). In order to state this we need the following concepts regarding symbols of differential operators:
+
 
 +-- {: .num_defn #SymbolOfADifferentialOperator}
 ###### Definition
@@ -1207,6 +1245,7 @@ $D^{\mu_1 \cdots \mu_k} k_{\mu_1} \cdots k_{\mu_N}$.
 
 =--
 
+
 +-- {: .num_defn #SymbolOrder}
 ###### Definition
 **([[symbol order]])**
@@ -1244,7 +1283,7 @@ with symbol $q$ of order $m$, in the above sense.
 ###### Proposition
 **([[propagation of singularities theorem]])**
 
-Let $Q$ be a [[pseudo-differential operator]] on some [[smooth manifold]] $X$ which is [[properly supported pseudo-differential operator|properly supported]] (def. \ref{ProperlySupportedPseudoDifferentialOperator}) and of [[symbol class]] $L^m$ (def. \ref{SymbolOrder}) with real [[principal symbol]] $q$ that is [[homogeneous function|homogeneous]] of degree $m$.
+Let $Q$ be a [[differential operator]] (def. \ref{DifferentialOperator}) of [[symbol class]] $L^m$ (def. \ref{SymbolOrder}) with real [[principal symbol]] $q$ that is [[homogeneous function|homogeneous]] of degree $m$.
 
 For $u \in \mathcal{D}'(X)$ a [[distribution]] with $Q u = f$, then the [[complement]] of the [[wave front set]] of $u$ by that of $f$ is contained in the set of covectors on which the [[principal symbol]] $q$ vanishes:
 
@@ -4503,7 +4542,7 @@ Similarly we obtain the other [[propagators]] for the [[Dirac field]] from those
 **([[Wightman propagator]] for [[Dirac operator]] on [[Minkowski spacetime]])**
 
 The _[[Wightman propagator]]_ for the [[Dirac operator]] on [[Minkowski spacetime]] is the [[positive real number|positive]] [[frequency]] part of the [[causal propagator]] (prop. \ref{DiracEquationOnMinkowskiSpacetimeAdvancedAndRetardedPropagators}),
-hence the [[derivative of distributions]] of the Wightman propagator for the Klein-Gordon field (def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime}) by the [[Dirac operator]]:
+hence the [[derivative of distributions]] (def. \ref{DistributionalDerivatives}) of the Wightman propagator for the Klein-Gordon field (def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime}) by the [[Dirac operator]]:
 
 $$
   \begin{aligned}
@@ -4542,7 +4581,7 @@ $$
 
 of the [[Wightman propagator]] (def. \ref{HadamardPropagatorForDiracOperatorOnMinkowskiSpacetime}) and the retarded propagator (prop. \ref{DiracEquationOnMinkowskiSpacetimeAdvancedAndRetardedPropagators}). By prop. \ref{FeynmanPropagatorAsACauchyPrincipalvalue}
 this means that it is the
-[[derivative of distributions]] of the [[Feynman propagator]] of the [[Klein-Gordon equation]] (def. \ref{FeynmanPropagatorForKleinGordonEquationOnMinkowskiSpacetime}) by the [[Dirac operator]]
+[[derivative of distributions]] (def. \ref{DistributionalDerivatives}) of the [[Feynman propagator]] of the [[Klein-Gordon equation]] (def. \ref{FeynmanPropagatorForKleinGordonEquationOnMinkowskiSpacetime}) by the [[Dirac operator]]
 
 $$
   \begin{aligned}
