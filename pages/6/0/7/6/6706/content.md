@@ -99,14 +99,8 @@ $$
 
 =--
 
-([Fredenhagen-Rejzner 11b, below (37)](#FredenhagenRejzner11b), [Rejzner 16, below (5.28)](#Rejzner16))
+([Fredenhagen-Rejzner 11b, below (37)](#FredenhagenRejzner11b), [Rejzner 11, below (5.28)](#Rejzner11)) For **proof** see [this prop](A+first+idea+of+quantum+field+theory#OnMicrocausalObservablesGlobalBVDifferential)
 
-+-- {: .proof}
-###### Proof
-
-By the assumption of a [[free field theory]], the [[equations of motion]] $P \Phi = 0$ are linear and since the [[causal propagator]] satisfies $P \Delta = 0$ hence all contractions of the [[causal propagator]] with $\frac{\delta S}{\delta \Phi^a(x)}$ vanish.
-
-=--
 
 the [[perturbative S-matrix]] on [[regular polynomial observables]]
 
@@ -355,7 +349,15 @@ $$
 
 ## References
 
-Discussion in the rigorous context of [[relativistic field theory]] in [[causal perturbation theory]]/[[perturbative AQFT]] is in:
+The concept originates with
+
+* {#BatalinVilkovisky81} [[Igor Batalin]], [[Grigori Vilkovisky]],  _Gauge Algebra and Quantization_, Phys. Lett. B 102 (1): 27&#8211;31, 1981 (<a href="https://doi.org/10.1016/0370-2693(81)90205-7">doi:10.1016/0370-2693(81)90205-7</a>) 
+
+Traditional review includes
+
+* {#HenneauxTeitelboim92} [[Marc Henneaux]], [[Claudio Teitelboim]], section 15.5.3  of _[[Quantization of Gauge Systems]]_, Princeton University Press, 1992
+
+Discussion in the rigorous context of [[relativistic field theory|relativistic]] [[perturbative QFT]] formulated in [[causal perturbation theory]]/[[perturbative AQFT]] is in:
 
 * {#FredenhagenRejzner11a} [[Klaus Fredenhagen]], [[Kasia Rejzner]], _Batalin-Vilkovisky formalism in the functional approach to classical field theory_, Commun. Math. Phys. 314(1), 93&#8211;127 (2012) ([arXiv:1101.5112](https://arxiv.org/abs/1101.5112))
 
