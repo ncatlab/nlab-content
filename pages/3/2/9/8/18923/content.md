@@ -3,7 +3,7 @@
 {:toc}
 
 ## Idea
-A surreal space is essentially the space of [[surreal numbers]]. The arithmetic properties of the surreals of course follow suit in this space. We denote the surreal space as $\mathbf{S}^n$. Any given real vector space $\mathbb{R}^m$ is by default a subspace. In a sense, $\mathbf{S}^n$ is a module over any given field of [[real numbers]]. 
+A surreal space is essentially the space of [[surreal numbers]]. The basic construction is given by a [[vector space]] over a field of surreal numbers. The arithmetic properties of the surreals of course follow suit in this space. We denote the surreal space as $\mathbf{S}^n$. Any given real vector space $\mathbb{R}^m$ is by default a subspace. In a sense, $\mathbf{S}^n$ is a module over any given field of [[real numbers]]. 
 
 ## Outline
 
