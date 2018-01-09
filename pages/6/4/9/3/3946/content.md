@@ -214,16 +214,23 @@ e.g. ([H&#246;rmander 90, below (8.1.1)](#Hoermander90))
 
 Taking [[derivatives of distributions]] retains or shrinks the wave front set:
 
-For $u \in \mathcal{D}'(\mathbb{R}^n)$ a distribution and $\alpha \in \mathbb{N}^n$ a multi-index with $D^\alpha$ denoting the corresponding [[partial derivative]], then 
+For $u \in \mathcal{D}'(\mathbb{R}^n)$ a distribution and $\alpha \in \mathbb{N}^n$ a multi-index with $D^\alpha$ denoting the corresponding [[partial derivative|partial]] [[derivative of distributions]], then 
 
 $$
   WF(D^\alpha u) \subset WF(u)
   \,.
 $$ 
 
+Hence if $P$ is any [[differential operator]] with [[smooth function]] [[coefficients]], then
+
+$$
+  WF(P u) \subset WF(u)
+  \,.
+$$
+
 =--
 
-([H&#246;rmander 90, (8.1.10), p. 256](#Hoermander90))
+([H&#246;rmander 90, (8.1.10) (8.1.11), p. 256](#Hoermander90))
 
 
 +-- {: .num_prop #WaveFrontSetOfCompactlySupportedDistributions}
