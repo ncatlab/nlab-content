@@ -323,6 +323,85 @@ $$
 
 =--
 
+$$
+  \begin{aligned}
+    \exp_{\mathcal{T}}
+    \left( 
+      - \tfrac{1}{i \hbar} V 
+    \right)
+      \star_F 
+    \left\{
+      -S', 
+      \exp_{\mathcal{T}}
+      \left(
+         \tfrac{1}{i \hbar} V
+      \right) 
+        \star_F  
+      A 
+    \right\}
+    & =
+    \exp_{\mathcal{T}}
+    \left( 
+      \tfrac{1}{i \hbar} 
+        V 
+    \right)
+      \star_F
+    \left(
+      \left\{
+        -S', 
+        \exp_{\mathcal{T}}
+        \left( 
+          \tfrac{1}{i \hbar} V 
+        \right) 
+          \star_F  
+        A 
+      \right\}_{\mathcal{T}}
+      - 
+      i \hbar 
+      \Delta_{BV}
+      \left(
+        \exp_{\mathcal{T}}
+        \left( 
+           \tfrac{1}{i \hbar} V 
+        \right) 
+          \star_F 
+        A
+      \right)
+    \right)
+    \\
+    & = 
+    \tfrac{1}{i \hbar} \{-S', V\}_{\mathcal{T}} \star_F   A
+    + 
+    \{-S', A\}_{\mathcal{T}}
+    - 
+    \left(  
+      \Delta_{BV}(V) 
+      + 
+      \tfrac{1}{2 i \hbar}\{V,V\}_{\mathcal{T}} 
+    \right) 
+      \star_{F} 
+    A
+    \pm
+    \{V,A\}_{\mathcal{T}}
+    +  
+    i \hbar \Delta_{BV}(A)
+    \\
+    & = 
+    \{-S' + V, A\}_{\mathcal{T}} 
+      + 
+    i \hbar \Delta_{BV}(A)
+    +
+    \tfrac{1}{i \hbar}
+    \left(
+      \tfrac{1}{2} \{-S' + V, -S' + V\}_{\mathcal{T}}
+      -
+      i \hbar  \Delta_{BV}(-S' + V)
+    \right)
+      \star_F A
+  \end{aligned}
+$$
+
+
 ### Quantum master equation
 
 Let $\Delta_{BV}$ be the [[BV-operator]].
