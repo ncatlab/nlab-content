@@ -150,9 +150,25 @@ induced by [[base change]] along the [[unit of a monad|unit]] $i \colon X \to \I
 
 For the case of [[algebraic geometry]], where $\Im X$ is known as the [[de Rham stack]] of a [[scheme]] $X$, and the [[quasicoherent sheaves]] on $i^\ast i_\ast X$ are the [[D-modules]] over $X$ (see at _[[jet bundle]]_ for more on this), this statement is implicit in ([Saito 89, def. 1.3](#Saito89)).
 
+## Properties
+
++-- {: .num_prop #RetainsOrShrinksWaveFrontSetDifferentialOperator}
+###### Proposition
+**([[differential operator]] preserves or shrinks [[wave front set]])**
+
+Let $P$ be a [[differential operator]] (with [[smooth function|smooth]] [[coefficients]]). Then for $u \in \mathcal{D}'$ a [[distribution]], the [[wave front set]] of the [[derivative of distributions]] $P u$ is contained in the original wave front set of $u$:
+
+$$
+  WF(P u) \subset WF(u)
+  \,.
+$$
+
+=--
+
+([Hörmander 90, (8.1.11)](#Hoermander90))
 
 
-## Entries
+## Types of differential operators
 
 * [[elliptic differential operator]]
 
@@ -181,6 +197,7 @@ For the case of [[algebraic geometry]], where $\Im X$ is known as the [[de Rham 
 
 ## References
 
+
 * {#Marvan86} [[Michal Marvan]], _A note on the category of partial differential equations_, in _Differential geometry and its applications_, Proceedings of the Conference August 24-30, 1986, Brno ([[MarvanJetComonad.pdf:file]])
 
   (notice that prop. 1.3 there holds only when the equalizer exists in the first place)
@@ -188,6 +205,9 @@ For the case of [[algebraic geometry]], where $\Im X$ is known as the [[de Rham 
 * {#Saunders89} [[David Saunders]], _The geometry of jet bundles_, London Mathematical Society Lecture Note Series __142__, Cambridge Univ. Press 1989.
 
 * {#Saito89} [[Morihiko Saito]], _Induced D-modules and differential complexes_, Bull. Soc. Math. France 117 (1989), 361&#8211;387, [pdf](http://smf4.emath.fr/Publications/Bulletin/117/pdf/smf_bull_117_361-387.pdf)
+
+* {#Hoermander90} [[Lars Hörmander]], _The analysis of linear partial differential operators_, vol. I, Springer 1983, 1990
+
 
 * {#Marvan93} [[Michal Marvan]], _On Zero-Curvature Representations of Partial Differential Equations_,  (1993) ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.45.5631))
 
