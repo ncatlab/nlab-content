@@ -389,7 +389,7 @@ $$
   \{-S',-\}
 $$
 
-and by [this example](A+first+idea+of+quantum+field+theory#BVDifferentialGlobal) the the second term on the right is
+and by [this example](A+first+idea+of+quantum+field+theory#BVDifferentialGlobal) the second term on the right is
 
 $$
   \begin{aligned}
@@ -398,18 +398,18 @@ $$
     \underset{\Sigma}{\int}
     j^{\infty}\left(\mathbf{\Phi}\right)^\ast
     \left(
-      \frac{\overset{\leftarrow}{\delta}_{EL} L}{\delta \phi^a}
+      \frac{\overset{\leftarrow}{\delta}_{EL} L}{\delta \phi^A}
     \right)(x) 
-    \frac{\delta}{\delta \mathbf{\Phi}^\ddagger_a(x)} 
+    \frac{\delta}{\delta \mathbf{\Phi}^\ddagger_A(x)} 
     \,
     dvol_\Sigma(x)
     \\
     & =
     \underset{a}{\sum}
-      (-1)^{deg(\phi^a)}
+      (-1)^{deg(\phi^A)}
     \underset{}{\int}
-      (P\mathbf{\Phi})_a(x)
-      \frac{\delta}{\delta \mathbf{\Phi}^\ddagger_a(x)}
+      (P\mathbf{\Phi})_A(x)
+      \frac{\delta}{\delta \mathbf{\Phi}^\ddagger_A(x)}
     \,
     dvol_\Sigma(x)
   \end{aligned}
@@ -465,16 +465,16 @@ $$
     \left[
       \tfrac{1}{2}\hbar 
       \underset{\Sigma \times \Sigma}{\int} 
-      \Delta_F^{a b}(x,y)
-      \frac{\delta^2}{\delta \mathbf{\Phi}^a(x) \delta \mathbf{\Phi}^b(y)}
+      \Delta_F^{A B}(x,y)
+      \frac{\delta^2}{\delta \mathbf{\Phi}^A(x) \delta \mathbf{\Phi}^B(y)}
       \, dvol_\Sigma(x)
       \, dvol_\Sigma(y)
       \;,\;
       \underset{a}{\sum}
-      (-1)^{deg(\phi^a)}
+      (-1)^{deg(\phi^A)}
       \underset{\Sigma}{\int}
-        (P\mathbf{\Phi})_a(x)
-        \frac{\delta}{\delta \mathbf{\Phi}^\ddagger_a(x)}
+        (P\mathbf{\Phi})_A(x)
+        \frac{\delta}{\delta \mathbf{\Phi}^\ddagger_A(x)}
       \,
       dvol_\Sigma(x)
     \right]
@@ -484,22 +484,22 @@ $$
    \\
    & \phantom{=}
    +
-   \underset{a}{\sum} 
-    (-1)^{deg(\phi^a)}
+   \underset{A}{\sum} 
+    (-1)^{deg(\phi^A)}
    \underset{\Sigma \times \Sigma}{\int} 
      \underset{ =  i \delta(x-y) }{\underbrace{P_x \Delta_F(x,y)}}
-     \frac{\delta}{\delta \mathbf{\Phi}^a(x)}
-     \frac{\delta}{\delta \mathbf{\Phi}^\ddagger_a(y)}
+     \frac{\delta}{\delta \mathbf{\Phi}^A(x)}
+     \frac{\delta}{\delta \mathbf{\Phi}^\ddagger_A(y)}
     \, dvol_\Sigma(x)
     \, dvol_\Sigma(y)
     \\
    & = \left\{ -S', -\right\} 
    + i \hbar 
-   \underset{a}{\sum}
-   (-1)^{deg(\phi^a)}
+   \underset{A}{\sum}
+   (-1)^{deg(\phi^A)}
    \underset{\Sigma}{\int}
-    \frac{\delta}{\delta \mathbf{\Phi}^a(x)}
-    \frac{\delta}{\delta \mathbf{\Phi}^\ddagger_a(x)}
+    \frac{\delta}{\delta \mathbf{\Phi}^A(x)}
+    \frac{\delta}{\delta \mathbf{\Phi}^\ddagger_A(x)}
     \,
     dvol_\Sigma(x)
   \end{aligned}
@@ -510,6 +510,62 @@ Here we used
 1. under the first brace that by assumption of a [[free field theory]], $\{-S',-\}$ is linear in the fields, so that the first [[commutator]] with the [[Feynman propagator]] is independent of the fields, and hence all the higher commutators vanish;
 
 1.  under the second brace that the [[Feynman propagator]] is $+i$ times the [[Green function]] for the [[Green hyperbolic differential equation|Green hyperbolic]] [[Euler-Lagrange equation|Euler-Lagrange]] [[equations of motion]] ([this cor.](A+first+idea+of+quantum+field+theory#GreenFunctionFeynmanPropagator)).
+
+=--
+
+From this component expression in turn we find the following relations:
+
++-- {: .num_prop}
+###### Proposition
+
+Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]] ([this def.](A+first+idea+of+quantum+field+theory#FreeFieldTheory)) with [[gauge fixing|gauge fixed]] BV-BRST [[Lagrangian density]] $-\mathbf{L}' + \mathbf{L}'_{BRST}$ ([this def.](A+first+idea+of+quantum+field+theory#GaugeFixingLagrangianDensity)) on a graded BV-BRST [[field bundle]] $E_{\text{BV-BRST}} \coloneqq T^\ast[-1]_{\Sigma,inf}(E \times_\Sigma \mathcal{G}[1] \times_{\Sigma} A \times_\Sigma A[-1])$
+
+The [[BV-operator]] $\Delta_{BV}$ (def. \ref{ForGaugeFixedFreeLagrangianFieldTheoryBVOperator}) and the global [[antibracket]] $\{-,-\}$ (def. \ref{ComplexBVBRSTGlobal}) satisfy for all [[polynomial observables]] ([this def.](A+first+idea+of+quantum+field+theory#PolynomialObservables)) $A_1, A_2 \in PolyObs(E_{\text{BV-BRST}})[ [\hbar] ]$ the relation 
+
+$$
+  \label{GlobalAntibracketInteractingWithBVOperator}
+  \{A_1, A_2\}
+  \;=\;
+  \Delta_{BV}(A_1 \cdot A_2)
+  - 
+  \Delta_{BV}(A_1) \cdot A_2
+  -
+  (-1)^{n_{A_1}} A_1 \cdot \Delta(A_2)  
+$$
+
+for $(-) \cdot (-)$ the pointwise product of observables (def. \ref{Observable}). 
+
+Moreover, it commutes on [[regular polynomial observables]] with the [[time-ordered product|time-ordering operator]] $\mathcal{T}$ ([this prop.](time-ordered+product#IsomorphismOnRegularPolynomialObservablesTimeOrderedandPointwise))
+
+$$
+  \Delta_{BV} \circ \mathcal{T}
+  =
+  \mathcal{T} \circ \Delta_{BV}
+  \phantom{AAA}
+  \text{on}
+  \,\,
+  PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
+$$
+
+and hence satisfies the analogue of relation (eq:GlobalAntibracketInteractingWithBVOperator) also for the time-ordered antibracket $\{-,-\}_{\mathcal{T}}$ (def. \ref{AntibracketTimeOrdered}) and the [[time-ordered product]] $\star_F$ on regular polynomial observables
+
+$$
+  \{A_1, A_2\}_{\mathcal{T}}
+  \;=\;
+  \Delta_{BV}(A_1 \star_F A_2)
+  - 
+  \Delta_{BV}(A_1) \star_F A_2
+  -
+  (-1)^{n_{A_1}} A_1 \star_F \Delta(A_2)  
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+...
 
 =--
 
@@ -574,7 +630,7 @@ This is called the _[[Schwinger-Dyson equation]]_.
 
 =--
 
-The following proof is due to ([Rejzner 16, remark 7.7](#Rejzner16)) following the informal traditional argument ([Henneaux-Teitelboim 92, (15.108b)](#HenneauxTeitelboim92)).
+The proof below is due to ([Rejzner 16, remark 7.7](#Rejzner16)), following the informal traditional argument ([Henneaux-Teitelboim 92, (15.108b)](#HenneauxTeitelboim92)).
 
 +-- {: .proof}
 ###### Proof
@@ -739,7 +795,7 @@ is  the [[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]] (for t
 
 The concept originates with
 
-* {#BatalinVilkovisky81} [[Igor Batalin]], [[Grigori Vilkovisky]],  _Gauge Algebra and Quantization_, Phys. Lett. B 102 (1): 27&#8211;31, 1981 ([doi:10.1016/0370-2693(81)90205-7](https://doi.org/10.1016/0370-2693(81)90205-7)) 
+* {#BatalinVilkovisky81} [[Igor Batalin]], [[Grigori Vilkovisky]],  _Gauge Algebra and Quantization_, Phys. Lett. B 102 (1): 27&#8211;31, 1981 (<a href="https://doi.org/10.1016/0370-2693(81)90205-7">doi:10.1016/0370-2693(81)90205-7</a>) 
 
 Traditional review includes
 
