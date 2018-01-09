@@ -9,8 +9,6 @@
 =--
 =--
 
-
-
 #Contents#
 * table of contents
 {:toc}
@@ -93,6 +91,8 @@ To some degree, and with appropriate caveats, one can do analysis and number the
 * [[Hahn series]]
 * [[infinitesimal]]
 * [[∞-number]]
+* [[Surreal space]]
+* [[Surreal geometry]]
 
 ## References 
 
