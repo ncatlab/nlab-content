@@ -570,10 +570,41 @@ Since the [[Feynman propagator]] is symmetric ([this prop.](A+first+idea+of+quan
 =--
 
 
++-- {: .num_example #RegularObservablesExponentialTimeOrdered}
+###### Example
+**([[time-ordered product|time-ordered]] [[exponential]] of [[regular polynomial observables]])**
+
+Let  $V \in PolyObs_{reg, deg = 0}[ [ \hbar ] ]$ be a [[regular polynomial observable]] (def. \ref{PolynomialObservables}) of degree zero, and write 
+
+$$
+  \exp(V)
+  =
+  1 + V + \tfrac{1}{2!} V \cdot V + \tfrac{1}{3!} V \cdot V \cdot V + \cdots
+$$
+
+for the [[exponential]] of $V$ with respect to the pointwise product (eq:ObservablesPointwiseProduct).
+
+Then the [[exponential]] $\exp_{\mathcal{T}}(V)$ of $V$ with respect to the [[time-ordered product]] $\star_F$ (def. \ref{OnRegularPolynomialObservablesTimeOrderedProduct}) is equal to the [[conjugation]] of the exponential with respect to the
+pointwise product by the time-ordering isomorphism $\mathcal{T}$ from prop. \ref{IsomorphismOnRegularPolynomialObservablesTimeOrderedandPointwise}:
+
+$$
+  \begin{aligned}
+    \exp_{\mathcal{T}}(V)
+    &
+    \coloneqq
+    1 + V + \tfrac{1}{2} V \star_F V + \tfrac{1}{3!} V \star_F V \star_F V + \cdots
+    \\
+    & = 
+    \mathcal{T} \circ \exp(-) \circ \mathcal{T}^{-1}(V)
+    \,.
+  \end{aligned}
+$$
+
+=--
+
 +-- {: .num_remark }
 ###### Remark
 **([[renormalization]] of [[time-ordered product]])**
-
 
 The [[time-ordered product]] on [[regular polynomial observables]] from prop. \ref{OnRegularPolynomialObservablesTimeOrderedProduct} extends to a product on [[polynomial observable|polynomial]] [[local observables]] (def. \ref{LocalObservables}), then taking values in [[microcausal observables]] (def. \ref{MicrocausalObservable}):
 
@@ -586,9 +617,9 @@ $$
   \,.
 $$
 
-This extension is not unique. A choice of such an extension, satisfying some evident compatibility conditions, is a choice of _[[renormalization scheme]]_ for the given [[perturbative quantum field theory]]. Every such choice corresponds to a choice of [[perturbative S-matrix]] for the theory. This construction is called _[[causal perturbation theory]]_. 
+This extension is not unique. A choice of such an extension, satisfying some evident compatibility conditions, is a choice of _[[renormalization scheme]]_ for the given [[perturbative quantum field theory]]. Every such choice corresponds to a choice of [[perturbative S-matrix]] for the theory, namely an extension of the time-ordered exponential $\exp_{\mathcal{T}}$ (example \ref{RegularObservablesExponentialTimeOrdered}) from regular to local observables. 
 
-This we discuss below in chapter _[Scattering](#Scattering)_ and chapter _[Renormalization](#Renormalization)_.
+This construction of [[perturbative quantum field theory]] is called _[[causal perturbation theory]]_.  We discuss this belo in chapter _[Scattering](#Scattering)_ and in chapter _[Renormalization](#Renormalization)_.
 
 =--
 
@@ -1357,6 +1388,7 @@ $$
 =--
 
 
+
 +-- {: .num_prop #ComponentsBVOperator}
 ###### Proposition
 **([[BV-operator]] in components)**
@@ -1373,6 +1405,8 @@ $$
     \frac{\delta}{\delta \Phi^{\ddagger}_A(y)}
   dvol_\Sigma
 $$
+
+Since this formula exhibits a graded [[Laplace operator]], the BV-operator is also called the _BV-Laplace operator_ or _BV-Laplacian_, for short.
 
 =--
 
@@ -1391,7 +1425,7 @@ $$
   \{-S',-\}
 $$
 
-and by [this example](A+first+idea+of+quantum+field+theory#BVDifferentialGlobal) the the second term on the right is
+and by [this example](A+first+idea+of+quantum+field+theory#BVDifferentialGlobal) the second term on the right is
 
 $$
   \begin{aligned}
@@ -1400,18 +1434,18 @@ $$
     \underset{\Sigma}{\int}
     j^{\infty}\left(\mathbf{\Phi}\right)^\ast
     \left(
-      \frac{\overset{\leftarrow}{\delta}_{EL} L}{\delta \phi^a}
+      \frac{\overset{\leftarrow}{\delta}_{EL} L}{\delta \phi^A}
     \right)(x) 
-    \frac{\delta}{\delta \mathbf{\Phi}^\ddagger_a(x)} 
+    \frac{\delta}{\delta \mathbf{\Phi}^\ddagger_A(x)} 
     \,
     dvol_\Sigma(x)
     \\
     & =
     \underset{a}{\sum}
-      (-1)^{deg(\phi^a)}
+      (-1)^{deg(\phi^A)}
     \underset{}{\int}
-      (P\mathbf{\Phi})_a(x)
-      \frac{\delta}{\delta \mathbf{\Phi}^\ddagger_a(x)}
+      (P\mathbf{\Phi})_A(x)
+      \frac{\delta}{\delta \mathbf{\Phi}^\ddagger_A(x)}
     \,
     dvol_\Sigma(x)
   \end{aligned}
@@ -1467,16 +1501,16 @@ $$
     \left[
       \tfrac{1}{2}\hbar 
       \underset{\Sigma \times \Sigma}{\int} 
-      \Delta_F^{a b}(x,y)
-      \frac{\delta^2}{\delta \mathbf{\Phi}^a(x) \delta \mathbf{\Phi}^b(y)}
+      \Delta_F^{A B}(x,y)
+      \frac{\delta^2}{\delta \mathbf{\Phi}^A(x) \delta \mathbf{\Phi}^B(y)}
       \, dvol_\Sigma(x)
       \, dvol_\Sigma(y)
       \;,\;
       \underset{a}{\sum}
-      (-1)^{deg(\phi^a)}
+      (-1)^{deg(\phi^A)}
       \underset{\Sigma}{\int}
-        (P\mathbf{\Phi})_a(x)
-        \frac{\delta}{\delta \mathbf{\Phi}^\ddagger_a(x)}
+        (P\mathbf{\Phi})_A(x)
+        \frac{\delta}{\delta \mathbf{\Phi}^\ddagger_A(x)}
       \,
       dvol_\Sigma(x)
     \right]
@@ -1486,22 +1520,22 @@ $$
    \\
    & \phantom{=}
    +
-   \underset{a}{\sum} 
-    (-1)^{deg(\phi^a)}
+   \underset{A}{\sum} 
+    (-1)^{deg(\phi^A)}
    \underset{\Sigma \times \Sigma}{\int} 
      \underset{ =  i \delta(x-y) }{\underbrace{P_x \Delta_F(x,y)}}
-     \frac{\delta}{\delta \mathbf{\Phi}^a(x)}
-     \frac{\delta}{\delta \mathbf{\Phi}^\ddagger_a(y)}
+     \frac{\delta}{\delta \mathbf{\Phi}^A(x)}
+     \frac{\delta}{\delta \mathbf{\Phi}^\ddagger_A(y)}
     \, dvol_\Sigma(x)
     \, dvol_\Sigma(y)
     \\
    & = \left\{ -S', -\right\} 
    + i \hbar 
-   \underset{a}{\sum}
-   (-1)^{deg(\phi^a)}
+   \underset{A}{\sum}
+   (-1)^{deg(\phi^A)}
    \underset{\Sigma}{\int}
-    \frac{\delta}{\delta \mathbf{\Phi}^a(x)}
-    \frac{\delta}{\delta \mathbf{\Phi}^\ddagger_a(x)}
+    \frac{\delta}{\delta \mathbf{\Phi}^A(x)}
+    \frac{\delta}{\delta \mathbf{\Phi}^\ddagger_A(x)}
     \,
     dvol_\Sigma(x)
   \end{aligned}
@@ -1515,7 +1549,143 @@ Here we used
 
 =--
 
+
++-- {: .num_prop #AntibracketBVOperatorRelation}
+###### Proposition
+**(global [[antibracket]] exhibits failure of [[BV-operator]] to be a [[derivation]])**
+
+Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]] ([this def.](A+first+idea+of+quantum+field+theory#FreeFieldTheory)) with [[gauge fixing|gauge fixed]] BV-BRST [[Lagrangian density]] $-\mathbf{L}' + \mathbf{L}'_{BRST}$ ([this def.](A+first+idea+of+quantum+field+theory#GaugeFixingLagrangianDensity)) on a graded BV-BRST [[field bundle]] $E_{\text{BV-BRST}} \coloneqq T^\ast[-1]_{\Sigma,inf}(E \times_\Sigma \mathcal{G}[1] \times_{\Sigma} A \times_\Sigma A[-1])$
+
+The [[BV-operator]] $\Delta_{BV}$ (def. \ref{ForGaugeFixedFreeLagrangianFieldTheoryBVOperator}) and the global [[antibracket]] $\{-,-\}$ ([this def.](A+first+idea+of+quantum+field+theory#ComplexBVBRSTGlobal)) satisfy for all [[polynomial observables]] ([this def.](A+first+idea+of+quantum+field+theory#PolynomialObservables)) $A_1, A_2 \in PolyObs(E_{\text{BV-BRST}})[ [\hbar] ]$ the relation 
+
+$$
+  \label{GlobalAntibracketInteractingWithBVOperator}
+  \{A_1, A_2\}
+  \;=\;
+  (-1)^{deg(A_2)}
+  \,
+  \Delta_{BV}(A_1 \cdot A_2)
+  - 
+  (-1)^{deg(A_2)}
+  \,
+  \Delta_{BV}(A_1) \cdot A_2
+  -
+  A_1 \cdot \Delta_{BV}(A_2)  
+$$
+
+for $(-) \cdot (-)$ the pointwise product of observables (def. \ref{Observable}). 
+
+Moreover, it commutes on [[regular polynomial observables]] with the [[time-ordered product|time-ordering operator]] $\mathcal{T}$ ([this prop.](time-ordered+product#IsomorphismOnRegularPolynomialObservablesTimeOrderedandPointwise))
+
+$$
+  \Delta_{BV} \circ \mathcal{T}
+  =
+  \mathcal{T} \circ \Delta_{BV}
+  \phantom{AAA}
+  \text{on}
+  \,\,
+  PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
+$$
+
+and hence satisfies the analogue of relation (eq:GlobalAntibracketInteractingWithBVOperator) also for the time-ordered antibracket $\{-,-\}_{\mathcal{T}}$ (def. \ref{AntibracketTimeOrdered}) and the [[time-ordered product]] $\star_F$ on regular polynomial observables
+
+$$
+  \{A_1, A_2\}_{\mathcal{T}}
+  \;=\;
+  (-1)^{deg(A_2)}
+  \,
+  \Delta_{BV}(A_1 \star_F A_2)
+  - 
+  (-1)^{dag(A_2)}
+  \Delta_{BV}(A_1) \star_F A_2
+  -
+  A_1 \star_F \Delta_{BV}(A_2)  
+  \,.
+$$
+
+=--
+
+(e.g. [Henneaux-Teitelboim 92, (15.105d)](antibracket#HenneauxTeitelboim92))
+
++-- {: .proof}
+###### Proof
+
+With prop. \ref{ComponentsBVOperator} the first statement is a graded version of the analogous relation for an ordinary [[Laplace operator]] $\Delta \coloneqq g^{a b} \partial_a \partial_b$ acting on [[smooth functions]] on [[Cartesian space]], which on [[smooth functions]] $f,g$ satisfies
+
+$$
+  \Delta(f \cdot g)
+  \;=\;
+  (\nabla f, \nabla g) - \Delta(f) g - f \Delta(g)
+  \,,
+$$
+
+by the [[product law]] for [[differentiation]], where now $\nabla f \coloneqq (g^{a b} \partial_b f)$ is the [[gradient]] and $(v,w) \coloneqq g_{a b} v^a w b$ the [[inner product]]. Here one just needs to carefully record the relative signs that appear.
+
+That the BV-operator commutes with the time-ordering operator is clear from the fact that both of these are given by [[partial derivative|partial]] [[functional derivatives]] with _[[constant function|constant]]_ [[coefficients]]. This immediately implies the last statement from the first.
+
+=--
+
++-- {: .num_example #TimeOrderedExponentialBVOperator}
+###### Example
+**([[BV-operator]] on [[time-ordered product|time-ordered]] [[exponentials]])**
+
+Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]] ([this def.](A+first+idea+of+quantum+field+theory#FreeFieldTheory)) with [[gauge fixing|gauge fixed]] BV-BRST [[Lagrangian density]] $-\mathbf{L}' + \mathbf{L}'_{BRST}$ ([this def.](A+first+idea+of+quantum+field+theory#GaugeFixingLagrangianDensity)) on a graded BV-BRST [[field bundle]] $E_{\text{BV-BRST}} \coloneqq T^\ast[-1]_{\Sigma,inf}(E \times_\Sigma \mathcal{G}[1] \times_{\Sigma} A \times_\Sigma A[-1])$.
+
+Let moreover $V \in PolyObs(E_{\text{BV-BRST}})_{reg, deg = 0}[ [\hbar] ]$  be a [[regular polynomial observable]] (def. \ref{PolynomialObservables}) of degree zero. Then the application of the [[BV-operator]] $\Delta_{BV}$ (def. \ref{ForGaugeFixedFreeLagrangianFieldTheoryBVOperator}) to the [[time-ordered product|time-ordered]] [[exponential]] $\exp_{\mathcal{T}}(V)$ ([this example](time-ordered+product#RegularObservablesExponentialTimeOrdered)) is the [[time-ordered product]] of the time-ordered exponential with the sum of $\Delta_{BV}(V)$ and the global [[antibracket]] $\tfrac{1}{2}\{V,V\}$ of $V$ with itself:
+
+$$
+  \Delta_{BV}
+  \left(
+    \exp_{\mathcal{T}}(V)
+  \right)
+  \;=\;
+  \left(
+    \Delta_{BV}(V)
+    +
+    \tfrac{1}{2}\{V,V\}
+  \right)
+   \star_F
+  \exp_{\mathcal{T}}(V)
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{AntibracketBVOperatorRelation} $\Delta_{BV}$ acts as a [[derivation]] on the [[time-ordered product]] up to a correction given by the antibracket of the two factors. This yields the result by the usual combinatorics of [[exponentials]].
+
+$$
+  \begin{aligned}
+    \Delta_{BV}
+    \left(
+      1 + V + \tfrac{1}{2}V \star_F V + \cdots
+    \right)
+    & =
+    \Delta_{BV}(V) 
+      + 
+    \tfrac{1}{2}\left( \Delta_{BV}(V) \star_F V + V \star_F \Delta_{BV}(V) \right)
+      +
+    \tfrac{1}{2}\{V,V\}
+      +
+    \cdots
+    \\
+    & = 
+    \Delta_{BV}(V) 
+      +  
+    \tfrac{1}{2}\{V,V\}
+      \;+\;
+    \Delta_{BV}(V) \star_F V 
+     + \cdots
+  \end{aligned}
+$$ 
+
+=--
+
+
+
 $\,$
+
 
 **[[Schwinger-Dyson equation]]**
   {#SchwingerDysonEquation}
