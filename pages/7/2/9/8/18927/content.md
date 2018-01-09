@@ -28,6 +28,8 @@ By [[transgression of variational differential forms]] this yields the ("global"
 
 For details see at _[[A first idea of quantum field theory]]_ the chapter _[Reduced phase space](A+first+idea+of+quantum+field+theory#ReducedPhaseSpace)_ for the antibracket before [[quantization]], and the chapter _[Free quantum fields](A+first+idea+of+quantum+field+theory#FreeQuantumFields)_ for the ([[time-ordered product|time-ordered]]) antibracket after quantization.
 
+The global [[antibracket]] is closely related to the _[[BV-operator]]_. See there fore more.
+
 ## Related concepts
 
 *  [[BV-operator]]
@@ -39,6 +41,8 @@ Review includes
 * {#Henneaux90} [[Marc Henneaux]], section 7.3 of _Lectures on the Antifield-BRST formalism for gauge theories_, Nuclear Physics B (Proceedings Supplement) 18A (1990) 47-106 ([pdf](http://www.math.uni-hamburg.de/home/schweigert/ws07/henneaux2.pdf))
 
 * {#HenneauxTeitelboim92} [[Marc Henneaux]], [[Claudio Teitelboim]], section 15.5.2 of _[[Quantization of Gauge Systems]]_, Princeton University Press 1992. 
+
+* {#GomisParisSamuel94} [[Joaquim Gomis]], Jordi Paris, Stuart Samuel, section 4.2 of _Antibracket, Antifields and Gauge-Theory Quantization_, Phys. Rept. 259 (1995) 1-145 ([arXiv:hep-th/9412228](https://arxiv.org/abs/hep-th/9412228))
 
 * {#CattaneoRossi01} [[Alberto Cattaneo]], Carlo Rossi, section 4.2 of _Higher-dimensional BF theories in the Batalin-Vilkovisky formalism: The BV action and generalized Wilson loops_, Commun.Math.Phys. 221 (2001) 591-657 ([arXiv:0010172](https://arxiv.org/abs/math/0010172))
 
