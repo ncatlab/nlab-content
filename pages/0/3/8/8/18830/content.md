@@ -971,7 +971,7 @@ So far we have discussed the plain (graded-commutative) [[algebra of quantum obs
 
 +-- {: .num_prop #OnMicrocausalObservablesGlobalBVDifferential}
 ###### Proposition
-**(global [[BV-differential]] restricts to [[derivation]] on [[microcausal polynomial observables]])**
+**(global [[BV-differential]] on [[Wick algebra]])**
 
 Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]] ([this def.](A+first+idea+of+quantum+field+theory#FreeFieldTheory)) with [[gauge fixing|gauge fixed]] BV-BRST [[Lagrangian density]] $-\mathbf{L}' + \mathbf{L}'_{BRST}$ ([this def.](A+first+idea+of+quantum+field+theory#GaugeFixingLagrangianDensity)) on a graded BV-BRST [[field bundle]] $E_{\text{BV-BRST}} \coloneqq T^\ast[-1]_{\Sigma,inf}(E \times_\Sigma \mathcal{G}[1] \times_{\Sigma} A \times_\Sigma A[-1])$ (remark \ref{FieldBundleBVBRST}). Let $\Delta_H$ be a compatible [[Wightman propagator]] (def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime}). 
 
@@ -996,9 +996,11 @@ $$
   \,.
 $$
 
-We call $\{-S,(-)\}$ regarded as a nilpotent derivation on [[microcausal polynomial observables]] this way the _free quantum [[BV-differential]]_.
+We call $\{-S,(-)\}$ regarded as a nilpotent derivation on the [[Wick algebra]] this way the _free quantum [[BV-differential]]_.
 
 =--
+
+([Fredenhagen-Rejzner 11b, below (37)](BV-differential#FredenhagenRejzner11b), [Rejzner 11, below (5.28)](BV-differential#Rejzner11))
 
 +-- {: .proof}
 ###### Proof
