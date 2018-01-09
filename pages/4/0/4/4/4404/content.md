@@ -45,6 +45,7 @@ There exists a unique smooth structure on the [[Euclidean space]] $\mathbb{R}^n$
 
 
 ### Exotic Euclidean 4-space
+ {#ExoticEuclideal4Space}
 
 There exists uncountably many exotic smooth structures on the [[Euclidean space]] $\mathbb{R}^4$ of dimension 4 ([Gompf 1985](#Gompf), [Freedman/Taylor 1986](#FreedTay), [Taubes 1987](#Taubes)). See also at _[[exotic R^4]]_.
 
@@ -57,11 +58,13 @@ There are two classes of exotic $\mathbb{R}^4$'s: large and small. A large exoti
 * The _small exotic $\mathbb{R}^4$_ (or _ribbon $\mathbb{R}^4$_) is constructed by using the failure of the smooth [[h-cobordism theorem]] in dimension 4 ([Donaldson 1987](#Donaldson1), [1990](#Donaldson2)). [Bizaca and Gompf (1996)](#BizGompf) are able to present an infinite handle body of a small exotic $\mathbb{R}^4$ which serve as a coordinate representation.
 
 ### Exotic 4-spheres?
+ {#Exotic4Spheres}
 
 It is open whether the [[4-sphere]] admits an exotic smooth structure. See ([Freedman-Gompf-Morrison-Walker 09](#FreedmanGompfMorrisonWalker09) for review).
 
 
 ### Exotic 7-sphere
+ {#Exotic7Sphere}
 
 [Milnor (1956)](#Milnor1956) gave the first examples of exotic smooth structures on the [[7-sphere]], finding at least seven. 
 
@@ -87,7 +90,7 @@ By using the [[connected sum]] operation, the set of smooth, non-diffeomorphic s
 
 The only odd-dimensional spheres with _no_ exotic smooth structure are the [[circle]] $S^1$, the [[3-sphere]] $S^3$, as well as $S^5$ and $S^{61}$ ([Wang-Xu 16, corollary 1.13](#WangXu16))
 
-In the range $5 \leq n  \leq 61$ the only $n$-spheres with no exotic smooth structures are $S^5$, $S^6$, $S^{12}$, $S^{56}$ and $S^{61}$ ([Wang-Xu 16, corollary 1.15](#WangXu16)).
+In the range $5 \leq n  \leq 61$ the only $n$-spheres with _no_ exotic smooth structures are $S^5$, $S^6$, $S^{12}$, $S^{56}$ and $S^{61}$ ([Wang-Xu 16, corollary 1.15](#WangXu16)).
 
 It is conjectured that this exhausts in fact all examples of $n$-spheres without exotic smooth structure for $n \geq 5$ ([Wang-Xu 16, conjecture 1.17](#WangXu16)).
 
@@ -174,14 +177,15 @@ See also
 
 
 ### For applications to physics
+ {#ReferencesForApplicationsToPhysics}
 
 The relevance of exotic smooth structure to [[physics]] is tantalizing but remains by and large unclear. Some of the following references probably ought to be handled with care.
 
 #### General relativity
 
-The original argument that exotic spheres are to be regarded as [[instantons]] of [[gravity]] is on p. 12 of
+The original argument that exotic spheres are to be regarded as [[instantons]] of [[gravity]] is in
 
-* [[Edward Witten]], _Global gravitational anomalies_ Comm. Math. Phys. Volume 100, Number 2 (1985), 197--229.  ([EUCLID](http://projecteuclid.org/euclid.cmp/1103943444))
+* {#Witten85} [[Edward Witten]], p. 12 of _Global gravitational anomalies_, Comm. Math. Phys. Volume 100, Number 2 (1985), 197--229.  ([EUCLID](http://projecteuclid.org/euclid.cmp/1103943444))
 
 Further discussion of exotic $4$-manifolds from the [[general relativity]] point of view is in 
 
@@ -234,10 +238,9 @@ The relation between TQFT and differential-topological invariants of smooth mani
 
 
 #### String theory
+ {#ReferencesInStringTheory}
 
-An argument for interpreting exotic smooth spheres as [[gravitational instanton]]s and to cancel the gravitational anomalies of [[string theory]] is in
-
-* [[Edward Witten]], _Global gravitational anomalies_ Comm. Math. Phys. Volume 100, Number 2 (1985), 197--229.  ([web](http://projecteuclid.org/euclid.cmp/1103943444))
+An argument for interpreting exotic smooth spheres as [[instantons]] of [[gravity]] and to cancel the gravitational anomalies of [[string theory]] is in ([Witten 85](#Witten85)).
 
 The influence of exotic smoothness for [[Kaluza-Klein mechanism|Kaluza-Klein models]] was discussed here:
 
