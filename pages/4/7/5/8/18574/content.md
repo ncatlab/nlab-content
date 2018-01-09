@@ -15,3 +15,6 @@ See also
 * Wikipedia, _[Integration by parts](https://en.wikipedia.org/wiki/Integration_by_parts)_
 
 [[!redirects integrations by parts]]
+
+[[!redirects partial integration]]
+[[!redirects partial integrations]]
