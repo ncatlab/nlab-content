@@ -35,6 +35,8 @@ The [[functional determinant]] of Laplace operator on a given space of [[differe
 
 * [[hearing the shape of a drum]]
 
+* [[BV-Laplacian]]
+
 ## References
 
 Lecture notes include
