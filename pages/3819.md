@@ -60,7 +60,7 @@ In [[non-perturbative quantum field theory]] the [[algebras of observables]] are
 
 * [[space of states (in geometric quantization)]]
 
-* [[Wick algebra]]
+* [[Wick algebra]], [[interacting field algebra of observables]]
 
 * [[beable]]
 
