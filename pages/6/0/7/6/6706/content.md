@@ -145,10 +145,30 @@ $$
 
 We think of $S_{int}$ here as an [[adiabatic switching|adiabatically switched]] non-point-[[interaction]] [[action functional]].
 
+We write $\mathcal{S}(S_{int})^{-1}$ for the [[inverse]] with respect to the [[Wick product]] (which exists by [this remark](S-matrix#PerturbativeSMatrixInverse))
+
+$$
+  \mathcal{S}(S_{int})^{-1} \star_H \mathcal{S}(S_{int})
+  = 
+  1
+  \,.
+$$
+
+Notice that this is in general different form the inverse with respect to the [[time-ordered product]] $\star_F$, which is $\mathcal{S}(-S_{int})$:
+
+$$
+  \mathcal{S}(-S_{int}) 
+    \star_F
+  \mathcal{S}(S_{int})
+  =
+  1
+  \,. 
+$$
+
 =--
 
 
-+-- {: .num_prop #MollerOperatorOnRegularPolynomialObservables}
++-- {: .num_defn #MollerOperatorOnRegularPolynomialObservables}
 ###### Definition
 **([[quantum Møller operator]] on [[regular polynomial observables]])**
 
@@ -183,6 +203,8 @@ $$
 
 where $\mathcal{S}(S_{int}) = \exp_{\mathcal{T}}\left( \tfrac{-1}{i \hbar} S_{int} \right)$ is the [[perturbative S-matrix]] from  def. \ref{OnRegularObservablesPerturbativeSMatrix}.
 
+This indeed lands in [[formal power series]] in [[Planck's constant]] $\hbar$ (by [this remark](Bogoliubov's+formula#PowersInPlancksConstant)),  instead of in more general [[Laurent series]] as the [[perturbative S-matrix]] does (def. \ref{OnRegularObservablesPerturbativeSMatrix}).
+
 Hence the inverse map is
 
 $$
@@ -196,7 +218,7 @@ $$
 
 ([Bogoliubov-Shirkov 59](Bogoliubov's+formula#BogoliubovShirkov59); the above terminology follows [Hawkins-Rejzner 16, below def. 5.1](Møller+operator#HawkinsRejzner16))
 
-notice that compared to Fredenhagen-Rejzner et. al. we have changed notation conventions $\mathcal{R} \leftrightarrow \mathcal{R}^{-1}$ in order to bring out the analogy to (the conventions for the) [[time-ordered product]]  $A_1 \star_F A_2 = \mathcal{T}(\mathcal{T}^{-1}(A_1) \cdot \mathcal{T}^{-1}(A_2))$ on regular polynomial observables.
+Notice that compared to Fredenhagen-Rejzner et. al. we have changed notation conventions $\mathcal{R} \leftrightarrow \mathcal{R}^{-1}$ in order to bring out the analogy to (the conventions for the) [[time-ordered product]]  $A_1 \star_F A_2 = \mathcal{T}(\mathcal{T}^{-1}(A_1) \cdot \mathcal{T}^{-1}(A_2))$ on regular polynomial observables.
 
 
 notice the implicit dependencies
@@ -253,13 +275,28 @@ $$
 
 ### Interacting quantum BV-differential
 
+Recall how the global BV-differential 
+
+$$
+  \{S',-\}
+  \;\colon\;
+  PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
+    \longrightarrow
+  PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
+$$ 
+
+on [[regular polynomial observables]] ([this def.](A+first+idea+of+quantum+field+theory#BVDifferentialGlobal)) is conjugated into the [[time-ordered product]] via the time ordering operator
+$\mathcal{T} \circ \{-S',-\} \circ \mathcal{T}^{-}$ ([this prop.](BV-operator#GaugeFixedActionFunctionalTimeOrderedAntibracket)).
+
+In the same way we may use the [[quantum Møller operators]] to conjugat the BV-differential into the regular part of the [[interacting field algebra of observables]]:
+
 +-- {: .num_defn #BVDifferentialInteractingQuantum}
 ###### Definition
 **(interacting quantum [[BV-differential]])**
 
 Given an [[adiabatic switching|adiabatically switched]] non-point-[[interaction]] [[action functional]] in the form of a [[regular polynomial observable]] $S_{int}$,
 then the _interacting quantum BV-differential_ on the [[interacting field algebra]] (def. \ref{FieldAlgebraObservablesInteracting})
-on [[regular polynomial observables]] is
+on [[regular polynomial observables]] is the [[conjugation]] of the plain [[BV-differential]] $\{-S',-\}$ by the [[quantum Møller operator]] induced by $S_{int}$ (def. \ref{MollerOperatorOnRegularPolynomialObservables}):
 
 $$
   \mathcal{R}_V \circ \{-S', (-)\} \circ \mathcal{R}^{-1}
@@ -267,6 +304,7 @@ $$
   PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
     \longrightarrow
   PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
+  \,.
 $$
 
 =--
@@ -278,21 +316,38 @@ $$
 ###### Proposition
 **([[quantum master equation]] on [[regular polynomial observables]])**
 
-If the [[perturbative S-matrix]] on [[regular polynomial observables]] (def. \ref{OnRegularObservablesPerturbativeSMatrix}) for [[interaction]] $S_{int}$ is $BV$-closed 
+Consider an [[adiabatic switching|adiabatically switched]] non-point-[[interaction]] [[action functional]] in the form of a [[regular polynomial observable]]
 
 $$
-  \{-S', \mathcal{S}(S_{int})\} = 0
+  S_{int} 
+  \;\in\;
+  PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
+  \,,
 $$
 
-then 
+Then the following are equivalent:
 
-1. the interacting quantum BV-differential (def. \ref{BVDifferentialInteractingQuantum}) is equal, up to a sign, to the sum of the [[time-ordered product|time-ordered]] [[antibracket]] with the _total_ [[action functional]] 
+1. The _quantum master equation_ (QME)
 
    $$
-     S_{tot} \coloneqq S' + S_{int}
-   $$ 
+      \tfrac{1}{2} \{ S' + S_{int}, S' + S_{int} \}_{\mathcal{T}}
+      +
+      i \hbar  \Delta_{BV}( S' + S_{int} )
+     \;=\;
+     0
+   $$
 
-   and $i \hbar$ times the [[BV-operator]]:
+   holds on [[regular polynomial observables]].
+
+
+1. The  [[perturbative S-matrix]] on [[regular polynomial observables]] (def. \ref{OnRegularObservablesPerturbativeSMatrix}) is $BV$-closed 
+
+  $$
+    \{-S', \mathcal{S}(S_{int})\} = 0
+    \,.
+  $$
+
+Moreover, if these equivalent conditions hold, then the interacting quantum BV-differential (def. \ref{BVDifferentialInteractingQuantum}) is equal, up to a sign, to the sum of the [[time-ordered product|time-ordered]] [[antibracket]] with the _total_ [[action functional]] $S' + S_{int}$ and $i \hbar$ times the [[BV-operator]]:
 
    $$
      \mathcal{R} \circ \{-S',(-)\} \circ \mathcal{R}^{-1}   
@@ -303,17 +358,6 @@ then
      \right)
    $$
 
-1. the equation
-
-   $$
-      \tfrac{1}{2} \{ S' + S_{int}, S' + S_{int} \}_{\mathcal{T}}
-      +
-      i \hbar  \Delta_{BV}( S' + S_{int} )
-     \;=\;
-     0
-   $$
-
-   holds, called the _[[quantum master equation]]_ (QME).
 
 =--
 
@@ -321,6 +365,120 @@ then
 
 +-- {: .proof}
 ###### Proof
+
+To see that the two conditions are equivalent, we compute as follows
+
+$$
+  \begin{aligned}
+    \left\{
+      -S',  \mathcal{S}(S_{int})
+    \right\}
+    & =
+    \left\{
+      -S'
+      , 
+      \exp_{\mathcal{T}}
+      \left(
+        \tfrac{1}{i \hbar} S_{int}
+      \right)
+    \right\}
+    \\
+    & =  
+    \underset{
+      {
+        \tfrac{-1}{i \hbar} \{S',S\}_{\mathcal{T}}
+      }
+      \atop
+      {
+        \star_F 
+        \exp_{\mathcal{T}}
+        \left(
+          \tfrac{1}{i \hbar} S_{int}
+        \right)
+      }
+    }{
+    \underbrace{
+    \left\{
+      -S'
+      , 
+      \exp_{\mathcal{T}}
+      \left(
+        \tfrac{1}{i \hbar} S_{int}
+      \right)
+    \right\}_{\mathcal{T}}
+    }
+    }
+    - 
+    i \hbar 
+    \underset{
+      {
+        \left( 
+          \tfrac{1}{i \hbar}
+          \Delta_{BV}(S_{int})
+          +
+          \tfrac{1}{2 (i \hbar)^2}
+          \left\{
+            S_{int}, S_{int}
+          \right\}_{\mathcal{T}}
+        \right)
+      }
+      \atop
+      {
+        \star_{F} 
+        \exp_{\mathcal{T}}
+        \left(
+          \tfrac{1}{i \hbar}
+          S_{int}
+        \right)
+      }
+    }{
+    \underbrace{
+    \Delta_{BV}
+    \left(
+      \exp_{\mathcal{T}}
+      \left(
+        \tfrac{1}{i \hbar} S_{int}
+      \right)
+    \right)    
+    }
+    }
+    \\
+    & = 
+    \tfrac{-1}{i \hbar}
+    \underset{ \text{QME} }{
+    \underbrace{
+    \left(
+      \{S',S_{int}\} 
+      + 
+      \tfrac{1}{2}\{S_{int}, S_{int}\}
+      +
+      i \hbar \Delta_{BV}(S_{int})
+    \right)
+    }
+    }
+      \star_F
+    \exp_{\mathcal{T}}
+    \left(
+      \tfrac{1}{i \hbar}
+      S_{int}
+    \right)
+  \end{aligned}
+$$
+
+Here in the first step we used the definition of the [[BV-operator]] ([this def.](ForGaugeFixedFreeLagrangianFieldTheoryBVOperator)) to rewrite the plain antibracket in terms of the time-ordered antibracket ([this def.](BV-operator#AntibracketTimeOrdered)), then under the second brace we used that the time-ordered antibracket is the failure of the BV_operator to be a derivation ([this prop](BV-operator#AntibracketBVOperatorRelation)) and under the first brace the consequence of this statement for application to exponentials ([this example](BV-operator#TimeOrderedExponentialBVOperator)). Finally we collected terms, and to "complete the square" we added the terms on the left of 
+
+
+$$
+  \frac{1}{2} \underset{= 0}{\underbrace{\{S', S'\}}_{\mathcal{T}}} 
+  - 
+  i \hbar \underset{ = 0}{\underbrace{ \Delta_{BV}(S')}} = 0
+$$
+
+which vanish because, by definition of [[gauge fixing]] ([this def.](A+first+idea+of+quantum+field+theory#GaugeFixingLagrangianDensity)), the free gauge-fixed action functional $S'$ is independent of [[antifields]]. 
+
+But since the operation $(-) \star_F \exp_{\mathcal{T}}\left( \tfrac{1}{i \hbar}  S_{int} \right)$ has the [[inverse]] $(-) \star_F \exp_{\mathcal{T}}\left( \tfrac{-1}{i \hbar}  S_{int} \right)$, this implies the claim.
+
+Next we show that these equivalent conditions imply the last claim.
 
 We use that the BV-differential $\{-S',-\}$ is a [[derivation]] of the [[Wick algebra]] product $\star_H$ (lemma \ref{DerivationBVDifferentialForWickAlgebra}).
 
@@ -578,45 +736,29 @@ $$
     & \phantom{=}
     -
     \tfrac{1}{i \hbar}
+    \underset{ \text{QME} }{
+    \underbrace{
     \left(
       \tfrac{1}{2} \{ S' + S_{int}, S' + S_{int} \}_{\mathcal{T}}
       +
       i \hbar  \Delta_{BV}( S' + S_{int} )
     \right)
+    }}
       \star_F A
+    \\
+    & =
+    -
+    \left(
+      \{ S' + S_{int}\,,\, A\}_{\mathcal{T}} 
+        +
+      i \hbar \Delta_{BV}(A)
+    \right)
   \end{aligned}
 $$
 
 Here in the line with the braces we used that the [[BV-operator]] is a [[derivation]] of the [[time-ordered product]] up to correction by the time-ordered [[antibracket]] ([this prop.](BV-operator#AntibracketBVOperatorRelation)), and under the first brace we used the effect of that property on time-ordered exponentials ([this example](BV-operator#TimeOrderedExponentialBVOperator)), while under the second brace we used that $\{(-),A\}_{\mathcal{T}}$ is a derivation of the time-ordered product.
 
-In the last step we collected terms and to bring out the very last line we added the terms on the left hand side of
-
-$$
-  \frac{1}{2} \underset{= 0}{\underbrace{\{S', S'\}}_{\mathcal{T}}} 
-  - 
-  i \hbar \underset{ = 0}{\underbrace{ \Delta_{BV}(S')}} = 0
-$$
-
-which vanish because, by definition, the free gauge-fixed action functional is independent of [[antifields]]. 
-
-Finally using again that $\{-S',-\}$ is a derivation of the [[Wick algebra]] product $\star_H$, it follows immediately that $\mathcal{R} \circ \{-S',(-)\} \circ \mathcal{R}^{-1}$ is a derivation of the [[interacting field algebra of observables]], which implies with (eq:QMESecondStep) the [[quantum master equation]]:
-
-$$
-  \begin{aligned}
-    0 
-    & =
-    \mathcal{R} \circ \{-S',(-)\} \circ \mathcal{R}^{-1}(1)
-    \\
-    & =
-    -
-    \tfrac{1}{i \hbar}
-    \left(
-      \tfrac{1}{2} \{ S' + S_{int}, S' + S_{int} \}_{\mathcal{T}}
-      +
-      i \hbar  \Delta_{BV}( S' + S_{int} )
-    \right)
-  \end{aligned}
-$$ 
+Finally we collected terms, added $0 = \{S',S'\} + i \hbar \Delta_{BV}(S')$ as before, and then used the QME.
 
 
 =--
