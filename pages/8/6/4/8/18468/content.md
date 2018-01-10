@@ -130,7 +130,7 @@ This remaining problem is meant to be solved by passing from plain [[algebras of
 
 Survey and exposition of locally covariant algebraic quantum field theory beyond [[causal perturbation theory]] in [[Minkowski spacetime]] (for which see [there](causal+perturbation+theory#References)) includes the following:
 
-* [Hollands 07, section 3](#Hollands 07)
+* [Hollands 07, section 3](#Hollands07)
 
 * [[Robert Wald]], _The Formulation of Quantum Field Theory in Curved Spacetime_ ([arXiv:0907.0416](https://arxiv.org/abs/0907.0416))
 
