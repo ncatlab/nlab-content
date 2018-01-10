@@ -371,6 +371,7 @@ Moreover, if these equivalent conditions hold, then the interacting quantum BV-d
 To see that the two conditions are equivalent, we compute as follows
 
 $$
+  \label{aaa}
   \begin{aligned}
     \left\{
       -S',  \mathcal{S}(S_{int})
