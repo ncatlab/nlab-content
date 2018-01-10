@@ -115,7 +115,7 @@ In 2000 in the article _[[Comments on the development of topos theory]]_ Lawvere
 > $[...]$ Several books treating the simplified [[topos theory]] ([[Sheaves in Geometry and Logic|MacLane-Moerdijk]] being the most recent and readable text), together with the three excellent books on [[synthetic differential geometry]] $[...]$ provide a solid basis on which further treatment of [[functional analysis]] and the needed development of [[continuum physics]] can be based.
 
 
-The [Wikipdia entry](http://en.wikipedia.org/wiki/William_Lawvere) concludes:
+The [Wikipedia entry](http://en.wikipedia.org/wiki/William_Lawvere) concludes:
 
 > Lawvere continues to work on his 50-year quest for a rigorous flexible base for physical ideas, free of unnecessary analytic complications. 
 
