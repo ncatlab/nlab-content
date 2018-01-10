@@ -174,12 +174,12 @@ $$
 ###### Definition
 **([[quantum Møller operator]] on [[regular polynomial observables]])**
 
-Given an [[adiabatic switching|adiabatically switched]] non-point-[[interaction]] [[action functional]] in the form of a [[regular polynomial observable]]
+Given an [[adiabatic switching|adiabatically switched]] non-point-[[interaction]] [[action functional]] in the form of a [[regular polynomial observable]] of degree 0
 
 $$
   S_{int} 
   \;\in\;
-  PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
+  PolyObs(E_{\text{BV-BRST}})_{{reg} \atop {deg = 0}}[ [\hbar] ]
 $$
 
 then the corresponding _[[quantum Møller operator]]_ on [[regular polynomial observables]]
@@ -237,12 +237,12 @@ notice the implicit dependencies
 ###### Definition
 **([[interacting field algebra]])**
 
-Given an [[adiabatic switching|adiabatically switched]] non-point-[[interaction]] [[action functional]] in the form of a [[regular polynomial observable]]
+Given an [[adiabatic switching|adiabatically switched]] non-point-[[interaction]] [[action functional]] in the form of a [[regular polynomial observable]] in degree 0
 
 $$
   S_{int}
   \;\in\;
-  PolyObs(E_{\text{BV-BRST}})_{reg}[ [\jhbar] ]
+  PolyObs(E_{\text{BV-BRST}})_{{reg} \atop {deg = 0}}[ [\jhbar] ]
   \,,
 $$
 
@@ -316,14 +316,14 @@ $$
 
 +-- {: .num_prop #QuantumMasterEquation}
 ###### Proposition
-**([[quantum master equation]] on [[regular polynomial observables]])**
+**([[quantum master equation]] implies [[quantum master Ward identity]] on [[regular polynomial observables]])**
 
-Consider an [[adiabatic switching|adiabatically switched]] non-point-[[interaction]] [[action functional]] in the form of a [[regular polynomial observable]]
+Consider an [[adiabatic switching|adiabatically switched]] non-point-[[interaction]] [[action functional]] in the form of a [[regular polynomial observable]] in degree 0
 
 $$
   S_{int} 
   \;\in\;
-  PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
+  PolyObs(E_{\text{BV-BRST}})_{{reg} \atop {deg = 0}}[ [\hbar] ]
   \,,
 $$
 
@@ -332,6 +332,7 @@ Then the following are equivalent:
 1. The _quantum master equation_ (QME)
 
    $$
+     \label{OnRegularObservablesQuantumMasterEquation}
       \tfrac{1}{2} \{ S' + S_{int}, S' + S_{int} \}_{\mathcal{T}}
       +
       i \hbar  \Delta_{BV}( S' + S_{int} )
@@ -349,17 +350,19 @@ Then the following are equivalent:
     \,.
   $$
 
-Moreover, if these equivalent conditions hold, then the interacting quantum BV-differential (def. \ref{BVDifferentialInteractingQuantum}) is equal, up to a sign, to the sum of the [[time-ordered product|time-ordered]] [[antibracket]] with the _total_ [[action functional]] $S' + S_{int}$ and $i \hbar$ times the [[BV-operator]]:
+Moreover, if the [[quantum master equation]] (eq:OnRegularObservablesQuantumMasterEquation) holds, then the interacting quantum [[BV-differential]] (def. \ref{BVDifferentialInteractingQuantum}) is equal, up to a sign, to the sum of the [[time-ordered product|time-ordered]] [[antibracket]] ([this def.](BV-operator#AntibracketTimeOrdered)) with the _total_ [[action functional]] $S' + S_{int}$ and $i \hbar$ times the [[BV-operator]] ([](BV-operator#ForGaugeFixedFreeLagrangianFieldTheoryBVOperator)):
 
-   $$
-     \mathcal{R} \circ \{-S',(-)\} \circ \mathcal{R}^{-1}   
-     \;=\;
-     -
-     \left(
-       \left\{ S' + S_{int} \,,\, (-) \right\}_{\mathcal{T}} + i \hbar \Delta_{BV}
-     \right)
-   $$
+$$
+  \label{OnRegularObservablesQuantumMasterWardIdentity}
+  \mathcal{R} \circ \{-S',(-)\} \circ \mathcal{R}^{-1}   
+  \;=\;
+  -
+  \left(
+    \left\{ S' + S_{int} \,,\, (-) \right\}_{\mathcal{T}} + i \hbar \Delta_{BV}
+  \right)
+$$
 
+This is called the _[[quantum master Ward identity]]_ on [[regular polynomial observables]].
 
 =--
 
@@ -479,7 +482,7 @@ $$
 
 which vanish because, by definition of [[gauge fixing]] ([this def.](A+first+idea+of+quantum+field+theory#GaugeFixingLagrangianDensity)), the free gauge-fixed action functional $S'$ is independent of [[antifields]]. 
 
-But since the operation $(-) \star_F \exp_{\mathcal{T}}\left( \tfrac{1}{i \hbar}  S_{int} \right)$ has the [[inverse]] $(-) \star_F \exp_{\mathcal{T}}\left( \tfrac{-1}{i \hbar}  S_{int} \right)$, this implies the claim.
+But since the operation $(-) \star_F \exp_{\mathcal{T}}\left( \tfrac{1}{i \hbar} S_{int} \right)$ has the [[inverse]] $(-) \star_F \exp_{\mathcal{T}}\left( \tfrac{-1}{i \hbar}  S_{int} \right)$, this implies the claim.
 
 Next we show that these equivalent conditions imply the last claim.
 
@@ -763,8 +766,69 @@ Here in the line with the braces we used that the [[BV-operator]] is a [[derivat
 
 Finally we collected terms, added $0 = \{S',S'\} + i \hbar \Delta_{BV}(S')$ as before, and then used the QME.
 
+=--
+
++-- {: .num_example #MasterWardIdentityClassical}
+###### Example
+**([[classical master Ward identity]])**
+
+The [[classical limit]] $\hbar \to 0$ of the [[quantum master Ward identity]] (eq:OnRegularObservablesQuantumMasterWardIdentity) is 
+
+$$
+  \{-S',(-)\} \circ \mathcal{R}^{-1}   
+  \;=\;
+  -
+  \mathcal{R}^{-1}
+  \left(
+    \left\{ S' + S_{int} \,,\, (-) \right\}
+  \right)
+$$
+
+Applied to an observable which is linear in the [[antifields]]
+
+$$
+  A 
+    \;=\; 
+  \underset{\Sigma}{\int}
+    A^a(x) 
+    \mathbf{\Phi}^\ddagger_a(x)
+  \, 
+  dvol_\Sigma(x)
+$$
+
+this becomes
+
+$$
+  \begin{aligned}
+    0
+    & =
+    \{-S', \mathcal{R}^{-1}(A)\} 
+    +
+    \mathcal{R}^{-1}
+    \left(
+      \left\{ S' + S_{int} \,,\, A \right\}_{\mathcal{T}}
+    \right)
+    \\
+    & = 
+    \underset{\Sigma}{\int} 
+      \frac{\delta S'}{\delta \mathbf{\Phi}^a(x)} \mathcal{R}^{-1}(A^a(x))
+    \, dvol_\Sigma(x)
+    +   
+    \mathcal{R}^{-1}
+    \left(
+      \underset{\Sigma}{\int}
+          A^a(x) \frac{\delta (S' + S_{int})}{\delta \mathbf{\Phi}^a(x)}
+        \, dvol_\Sigma(x)
+    \right)
+  \end{aligned}
+$$
+
+This equation is called_classical Master Ward identity_ ([Dütsch-Fredenhagen 02, (90)](master+Ward+identity#DuetschFredenhagen02), [Brennecke-Dütsch 07, (5.5)](master+Ward+identity#BrennecketDuetsch07), following [Dütsch-Boas 02](master+Ward+identity#DuetschBoas02)). 
+
 
 =--
+
+
 
 ### Renormalization and Master ward identity
  {#RenormalizationAndMasterWardIdentity}
@@ -786,7 +850,7 @@ The concept originates with
 
 Traditional review includes
 
-* {#HenneauxTeitelboim92} [[Marc Henneaux]], [[Claudio Teitelboim]], section 15.5.3  of _[[Quantization of Gauge Systems]]_, Princeton University Press, 1992
+* {#HenneauxTeitelboim92} [[Marc Henneaux]], [[Claudio Teitelboim]], section 15.5.3 of _[[Quantization of Gauge Systems]]_, Princeton University Press, 1992
 
 Discussion in the rigorous context of [[relativistic field theory|relativistic]] [[perturbative QFT]] formulated in [[causal perturbation theory]]/[[perturbative AQFT]] is in:
 
