@@ -869,6 +869,11 @@ is  the [[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]] (for t
 
 =--
 
+#### Quantum master equation
+
+Passing from [[free field theory]] to [[perturbative quantum field theory|perturbative]] [[quantization]] of [[interacting field theory]], the above BV-operator of the underying free field theory appears as a quantum correction to the "[[classical master equation]]" which expresses the nilpotency of the [[BV-differential]]. This "master equation" corrected by the BV-operator is called the _[[quantum master equation]]_. See [this prop.](quantum+master+equation#QuantumMasterEquation).
+
+
 ## References
 
 The concept originates with
