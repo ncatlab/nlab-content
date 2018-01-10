@@ -268,17 +268,13 @@ The elephant contains a lot of basic information and some good intuition[^caveat
 
 [^caveat]: But beware that Johnstone uses the non-standard words "prone" and "supine" where most people say "cartesian" and "opcartesian" morphism!
 
-Also
-
-* {#Streicher18} [[Thomas Streicher]], _Fibred Categories à la Jean Bénabou_ ([arXiv:1801.02927](https://arxiv.org/abs/1801.02927))
-
 A standard reference that focusses on the interplay with [[type theory]] is
 
 * [[Bart Jacobs]], _Categorical Logic and Type Theory_ , Elsevier Amsterdam 1999.
 
 B&#233;nabou's perspective on fibrations and some results related to Moens' thesis are documented in the highly recommendable lecture notes:
 
-* [[Thomas Streicher]], _Fibred Categories &#224; la Jean B&#233;nabou_ , ms. TU Darmstadt 2005. ([pdf](http://www.mathematik.tu-darmstadt.de/~streicher/FIBR/FibLec.pdf))
+* {#Streicher18} [[Thomas Streicher]], _Fibred Categories &#224; la Jean B&#233;nabou_ , arXiv:1801.02927 (2018). ([abstract](https://arxiv.org/abs/1801.02927))
 
 B&#233;nabou _en personne_ on the role of fibrations in the foundations of category theory and on differences to [[indexed categories]]:
 
