@@ -284,6 +284,9 @@ For **[[proof]]** see [this prop.](S-matrix#PerturbativeQuantumObservablesIsLoca
 
 ## Related concepts
 
+* [[quantum Møller operator]]
+
+* [[interacting field algebra]]
 
 [[!include products in pQFT -- table]]
 
