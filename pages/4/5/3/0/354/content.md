@@ -32,7 +32,7 @@ Specifically for the [[nerve]] $N(\mathcal{G}_\bullet)$ of a [[groupoid]] $\math
 
 Hence generally, in a Kan complex a $k$-face of an $(k+1)$-[[simplex]] may be thought of as the [[composition]] of the remaining faces, all regarded as [[k-morphisms]]. But unless the Kan complex is the [[nerve]] of a [[groupoid]] (a [[1-groupoid]]), there is in general not a unique such composite. Indeed, _choosing_ one of the fillers of each horn in a Kan complex to be _the_ composite means passing from Kan complexes to an [[algebraic definition of higher category|algebraic model]] for [[∞-groupoids]], _[[algebraic Kan complexes]]_.
 
-Among all [[∞-groupoids]] the [[strict ∞-groupoids]] correspond to [[crossed complexes]] and various other related algebraic models, all or most of of which have a [[full subcategory|faithful embedding]] into Kan complexes under a suitable [[nerve]] operation. One of these are the [[simplicial T-complexes]], the nerves crossed complexes. There all horns have unique 'thin' fillers, so these are Kan complexes corresponding to a strict form of higher dimensional groupoid. 
+Among all [[∞-groupoids]] the [[strict ∞-groupoids]] correspond to [[crossed complexes]] and various other related algebraic models, all or most of which have a [[full subcategory|faithful embedding]] into Kan complexes under a suitable [[nerve]] operation. One of these are the [[simplicial T-complexes]], the nerves crossed complexes. There all horns have unique 'thin' fillers, so these are Kan complexes corresponding to a strict form of higher dimensional groupoid. 
 
 
  
