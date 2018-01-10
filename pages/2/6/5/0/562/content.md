@@ -268,6 +268,9 @@ The elephant contains a lot of basic information and some good intuition[^caveat
 
 [^caveat]: But beware that Johnstone uses the non-standard words "prone" and "supine" where most people say "cartesian" and "opcartesian" morphism!
 
+Also
+
+* {#Streicher18} [[Thomas Streicher]], _Fibred Categories à la Jean Bénabou_ ([arXiv:1801.02927](https://arxiv.org/abs/1801.02927))
 
 A standard reference that focusses on the interplay with [[type theory]] is
 
