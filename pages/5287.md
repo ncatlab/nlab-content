@@ -716,6 +716,7 @@ The proof below is due to ([Rejzner 16, remark 7.7](#Rejzner16)), following the 
 Applying the inverse time-ordering map $\mathcal{T}^{-1}$ ([this prop.](time-ordered+product#IsomorphismOnRegularPolynomialObservablesTimeOrderedandPointwise)) to equation (eq:BVOperatorDefiningRelation) applied to $A$ yields
 
 $$
+  \label{BVDerivationOfSchwingerDyson}
   \underset{
     \mathcal{T}^{-1}
     \underset{\Sigma}{\int}
