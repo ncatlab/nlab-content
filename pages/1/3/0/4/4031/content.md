@@ -18,7 +18,7 @@ The notion of _algebraic Kan complex_ is an [[algebraic definition of higher cat
 
 It builds on the classical [[geometric definition of higher categories|geometric definition]] of $\infty$-groupoids in terms of [[Kan complex]]es. A Kan complex is like an algebraic $\infty$-groupoid in which we have forgotten what precisely the [[composition]] operation and what the [[inverse]]s are, and only know that they do exist. This becomes an _algebraic model_ for $\infty$-groupoids by adding the specific choices of composites back in. 
 
-The nontrivial apsect of the definition of algebraic Kan complexes is that they do still [[presentable (∞,1)-category|present]] the full [[(∞,1)-category]] [[∞Grpd]]. Notably the [[homotopy hypothesis]] is true for algebraic Kan complexes.
+The nontrivial aspect of the definition of algebraic Kan complexes is that they do still [[presentable (∞,1)-category|present]] the full [[(∞,1)-category]] [[∞Grpd]]. Notably the [[homotopy hypothesis]] is true for algebraic Kan complexes.
 
 ## Definition
 
