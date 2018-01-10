@@ -42,10 +42,10 @@ $$
 Let moreover
 
 $$
-  S_1 \;\in\; PolyObs(E_{\text{BV-BRST}})_{reg}[ [ \hbar ] ]
+  S_1 \;\in\; PolyObs(E_{\text{BV-BRST}})_{{reg}\atop {deg = 0}}[ [ \hbar ] ]
 $$
 
-be a [[regular polynomial observable]] (regarded as an [[adiabatic switching|adiabatically switched]] non-point-[[interaction]] [[action functional]]) such that the total action $S' + S_{int}$ satisfies the [[quantum master equation]] ([this prop.](quantum+master+equation#QuantumMasterEquation)); and write
+be a [[regular polynomial observable]] in degree 0 (regarded as an [[adiabatic switching|adiabatically switched]] non-point-[[interaction]] [[action functional]]) such that the total action $S' + S_{int}$ satisfies the [[quantum master equation]] ([this prop.](quantum+master+equation#QuantumMasterEquation)); and write
 
 $$
   \mathcal{R}^{-1}(-)
@@ -123,7 +123,8 @@ $$
   \end{aligned}
 $$
 
-This is the _classical Master Ward identity_ according to ([Brennecke-Dütsch 07, (5.5)](#BrennecketDuetsch07)).
+This is the _classical Master Ward identity_ according to ([Dütsch-Fredenhagen 02](#DuetschFredenhagen02), [Brennecke-Dütsch 07, (5.5)](#BrennecketDuetsch07)), following ([Dütsch-Boas 02](#DuetschBoas02)).
+
 
 
 ## Examples
@@ -159,6 +160,9 @@ See also
 
 [[!redirects Ward–Takahashi identity]]
 [[!redirects Ward–Takahashi identities]]
+
+[[!redirects quantum master Ward identity]]
+[[!redirects quantum master Ward identities]]
 
 [[!redirects master Ward identity]]
 [[!redirects master Ward identities]]
