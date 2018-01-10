@@ -17,7 +17,7 @@
 
 ## Idea
 
-The algebra of [[quantum observables]] of a [[quantum field theory]] with non-trivial [[interaction]] is often called the _interacting field algebra_, in contrast to the [[Wick algebra]] for non-interacting [[free fields]].
+The algebra of [[algebra of quantum observables]] of a [[quantum field theory]] with non-trivial [[interaction]] is often called the _interacting field algebra_, in contrast to the [[Wick algebra]] for non-interacting [[free fields]].
 
 In [[perturbative quantum field theory]] the interacting field algebra may be constructed from the [[Wick algebra]] by "conjugation" with the [[S-matrix]] of the interaction. A mathematically rigorous formulation of this construction is the content of [[causal perturbation theory]]/[[locally covariant perturbative quantum field theory]].
 
@@ -41,4 +41,8 @@ More abstractly, the interacting field algebra in [[perturbative quantum field t
 * {#HawkinsRejzner16} [[Eli Hawkins]], [[Kasia Rejzner]], _The Star Product in Interacting Quantum Field Theory_ ([arXiv:1612.09157](https://arxiv.org/abs/1612.09157))
 
 
+[[!redirects interacting field algebra]]
 [[!redirects interacting field algebras]]
+
+[[!redirects interacting field algebra of observables]]
+[[!redirects interacting field algebras of observables]]
