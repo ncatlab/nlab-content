@@ -565,7 +565,7 @@ $$
   \,
   \Delta_{BV}(A_1 \star_F A_2)
   - 
-  (-1)^{dag(A_2)}
+  (-1)^{deg(A_2)}
   \Delta_{BV}(A_1) \star_F A_2
   -
   A_1 \star_F \Delta_{BV}(A_2)  
@@ -600,7 +600,7 @@ That the BV-operator commutes with the time-ordering operator is clear from the 
 
 Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]] ([this def.](A+first+idea+of+quantum+field+theory#FreeFieldTheory)) with [[gauge fixing|gauge fixed]] BV-BRST [[Lagrangian density]] $-\mathbf{L}' + \mathbf{L}'_{BRST}$ ([this def.](A+first+idea+of+quantum+field+theory#GaugeFixingLagrangianDensity)) on a graded BV-BRST [[field bundle]] $E_{\text{BV-BRST}} \coloneqq T^\ast[-1]_{\Sigma,inf}(E \times_\Sigma \mathcal{G}[1] \times_{\Sigma} A \times_\Sigma A[-1])$.
 
-Let moreover $V \in PolyObs(E_{\text{BV-BRST}})_{reg, deg = 0}[ [\hbar] ]$  be a [[regular polynomial observable]] (def. \ref{PolynomialObservables}) of degree zero. Then the application of the [[BV-operator]] $\Delta_{BV}$ (def. \ref{ForGaugeFixedFreeLagrangianFieldTheoryBVOperator}) to the [[time-ordered product|time-ordered]] [[exponential]] $\exp_{\mathcal{T}}(V)$ ([this example](time-ordered+product#RegularObservablesExponentialTimeOrdered)) is the [[time-ordered product]] of the time-ordered exponential with the sum of $\Delta_{BV}(V)$ and the global [[antibracket]] $\tfrac{1}{2}\{V,V\}$ of $V$ with itself:
+Let moreover $V \in PolyObs(E_{\text{BV-BRST}})_{reg, deg = 0}[ [\hbar] ]$  be a [[regular polynomial observable]] (def. \ref{PolynomialObservables}) of degree zero. Then the application of the [[BV-operator]] $\Delta_{BV}$ (def. \ref{ForGaugeFixedFreeLagrangianFieldTheoryBVOperator}) to the [[time-ordered product|time-ordered]] [[exponential]] $\exp_{\mathcal{T}}(V)$ ([this example](time-ordered+product#RegularObservablesExponentialTimeOrdered)) is the [[time-ordered product]] of the time-ordered exponential with the sum of $\Delta_{BV}(V)$ and the global [[time-ordered product|time-ordered]] [[antibracket]] $\tfrac{1}{2}\{V,V\}_{\mathcal{T}}$ (def. \ref{AntibracketTimeOrdered}) of $V$ with itself:
 
 $$
   \Delta_{BV}
@@ -611,7 +611,7 @@ $$
   \left(
     \Delta_{BV}(V)
     +
-    \tfrac{1}{2}\{V,V\}
+    \tfrac{1}{2}\{V,V\}_{\mathcal{T}}
   \right)
    \star_F
   \exp_{\mathcal{T}}(V)
@@ -635,12 +635,12 @@ $$
       + 
     \tfrac{1}{2}\left( \Delta_{BV}(V) \star_F V + V \star_F \Delta_{BV}(V) \right)
       +
-    \tfrac{1}{2}\{V,V\}
+    \tfrac{1}{2}\{V,V\}_{\mathcal{T}}
       +
     \cdots
     \\
     & = 
-    \Delta_{BV}(V) +  \Delta_{BV}(V) \star_F V + \tfrac{1}{2}\{V,V\}
+    \Delta_{BV}(V) +  \Delta_{BV}(V) \star_F V + \tfrac{1}{2}\{V,V\}_{\mathcal{T}}
     + \cdots
   \end{aligned}
 $$ 
