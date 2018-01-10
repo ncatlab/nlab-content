@@ -47,7 +47,9 @@ $$
 We discuss the quantum master equation in the rigorous formulation of [[relativistic field theory|relativistic]] [[perturbative quantum field theory]] via [[causal perturbation theory]]/[[perturbative AQFT]] ([Fredenhagen-Rejzner 11b](#FredenhagenRejzner11b), [Rejzner 11](#Rejzner11)).
 
 
-First we consider all structure just on [[regular polynomial observables]], hence excluding non-linear [[local observables]] such as the usual point-[[interaction]] [[action functionals]]. The [[extension]] of all structure from regular to [[local observables]] is the [[renormalization]] step, discussed [below](#RenormalizationAndMasterWardIdentity).
+First we consider all structure just on [[regular polynomial observables]], hence excluding non-linear [[local observables]] such as the usual point-[[interaction]] [[action functionals]]. 
+
+Then the [[extension]] of all structures from regular to [[local observables]] is the [[renormalization]] step, discussed [furthter below](#RenormalizationAndMasterWardIdentity).
 
 ### Background
 
@@ -145,7 +147,7 @@ $$
 
 We think of $S_{int}$ here as an [[adiabatic switching|adiabatically switched]] non-point-[[interaction]] [[action functional]].
 
-We write $\mathcal{S}(S_{int})^{-1}$ for the [[inverse]] with respect to the [[Wick product]] (which exists by [this remark](S-matrix#PerturbativeSMatrixInverse))
+We write $\mathcal{S}(S_{int})^{-1}$ for the [[inverse]] with respect to the [[Wick algebra|Wick product]] (which exists by [this remark](S-matrix#PerturbativeSMatrixInverse))
 
 $$
   \mathcal{S}(S_{int})^{-1} \star_H \mathcal{S}(S_{int})
@@ -465,11 +467,11 @@ $$
   \end{aligned}
 $$
 
-Here in the first step we used the definition of the [[BV-operator]] ([this def.](ForGaugeFixedFreeLagrangianFieldTheoryBVOperator)) to rewrite the plain antibracket in terms of the time-ordered antibracket ([this def.](BV-operator#AntibracketTimeOrdered)), then under the second brace we used that the time-ordered antibracket is the failure of the BV_operator to be a derivation ([this prop](BV-operator#AntibracketBVOperatorRelation)) and under the first brace the consequence of this statement for application to exponentials ([this example](BV-operator#TimeOrderedExponentialBVOperator)). Finally we collected terms, and to "complete the square" we added the terms on the left of 
+Here in the first step we used the definition of the [[BV-operator]] ([this def.](ForGaugeFixedFreeLagrangianFieldTheoryBVOperator)) to rewrite the plain antibracket in terms of the time-ordered antibracket ([this def.](BV-operator#AntibracketTimeOrdered)), then under the second brace we used that the time-ordered antibracket is the failure of the BV-operator to be a derivation ([this prop](BV-operator#AntibracketBVOperatorRelation)) and under the first brace the consequence of this statement for application to exponentials ([this example](BV-operator#TimeOrderedExponentialBVOperator)). Finally we collected terms, and to "complete the square" we added the terms on the left of 
 
 
 $$
-  \frac{1}{2} \underset{= 0}{\underbrace{\{S', S'\}}_{\mathcal{T}}} 
+  \frac{1}{2} \underset{= 0}{\underbrace{\{S', S'\}_{\mathcal{T}}}} 
   - 
   i \hbar \underset{ = 0}{\underbrace{ \Delta_{BV}(S')}} = 0
 $$
@@ -607,7 +609,7 @@ $$
 $$
   \label{QMESecondStep}
   \begin{aligned}
-    & \mathcal{R} \circ \{-S', (-)\} \circ \mathcal{R}^{-1}
+    & \mathcal{R} \circ \{-S', (-)\} \circ \mathcal{R}^{-1}( A )
     \\
     & =
    \exp_{\mathcal{T}}
