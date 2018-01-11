@@ -34,6 +34,8 @@ This idea is mentioned as motivation for developing concepts of causal manifolds
 
 * [[causal set]]
 
+* [[causal order]]
+
 * [[causal complement]], [[causal closure]]
 
 * [[causal locality]], [[causal additivity]]
