@@ -45,13 +45,17 @@ A causal set, or **causet** is a [[partial order|poset]] $X$ such that for all o
 
 * [[causal structure]]
 
-* [[causal closure]]
+* [[causal order]]
 
-* [[causal locality]]
+* [[causal complement]], [[causal closure]]
 
-* [[causal additivity]]
+* [[causal locality]], [[causal additivity]]
 
 * [[causal perturbation theory]]
+
+* [[time-ordered product]]
+
+* [[S-matrix]]
 
 ## References
 
