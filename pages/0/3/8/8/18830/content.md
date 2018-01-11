@@ -1,10 +1,41 @@
 ## Free quantum fields
  {#FreeQuantumFields}
 
-We discuss here the [[quantum observables]] for the special case of
-[[free field theories]] (def. \ref{FreeFieldTheory}). In [[perturbative quantum field theory]] this is the
-basis of the construction of all [[interaction|interacting]] theories in the [[infinitesimal neighbourhood]]
-of the [[free field theories]].
+In the [previous chapter](#Quantization) we discussed _[[quantization]]_ of linear [[phase spaces]], which turns the [[algebra of observables]] into a [[noncommutative algebra]] of [[quantum observables]]. Here we apply this to the [[covariant phase spaces]] of [[gauge fixing|gauge fixed]] [[free field theory|free]] [[Lagrangian field theories]] (as discussed in the chapter _[Gauge fixing](#GaugeFixing)_), obtaining genuine [[quantum field theory]] for [[free fields]].
+
+The resulting [[algebra of quantum observables]] is called the _[[Wick algebra]]_ (prop. \ref{MoyalStarProductOnMicrocausal} below), which is the [[star product]] induced by the [[Wightman propagator]].
+It may be expressed in terms of a commutative "[[normal-ordered product]]" (def. \ref{NormalOrderedProductNotation} below) and 
+the [[vacuum expectation values]] of [[field observables]] in a canonically induced [[vacuum state]] (prop. \ref{WickAlgebraCanonicalState} below).
+
+The analogous [[star product]] induced by the [[Feynman propagator]] (def. \ref{OnRegularPolynomialObservablesTimeOrderedProduct}) acts by first [[causal ordering]] its arguments and then multiplying them with the [[Wick algebra|Wick algebra product]] (prop. \ref{CausalOrderingTimeOrderedProductOnRegular} below) and hence is called the _[[time-ordered product]]_ (def. \ref{OnRegularPolynomialObservablesTimeOrderedProduct} below). This is the key structure in the discussion of [[interactions]]
+of [[field (physics)|fields]] via [[scattering]]-processes, discussed in the next chapter _[Scattering](#Scattering)_.
+Here we consider this on [[regular polynomial observables]] only, hence for averages of [[field observables]] that evaluate
+at distinct [[spacetime]] points. The [[extension]] of the [[time-ordered product]] to
+[[local observables]] is possible, but requires making choices: This is called _[[renormalization]]_, which we turn to in 
+the chapter _[Renormalization](#Renormalization)_ below.
+
+While the [[Wick algebra]] with its [[vacuum state]] provides a [[quantization]] of the [[algebra of observables]]
+of [[free field theory|free]] [[gauge fixing|gauge fixed]] [[Lagrangian field theories]], the possible existence of
+[[infinitesimal gauge symmetries]] implies that the physically relevant observables are
+just the [[gauge invariance|gauge invariant]] [[on-shell]] ones, exhibited by the [[cochain cohomology]] of the [[BV-BRST differential]] $\{-S' + S'_{BRST}, (-)\}$. Hence to complete [[quantization]]
+of [[gauge theories]], the [[BV-BRST differential]] needs to be lifted to the [[noncommutative algebra]] of [[quantum observables]] -- 
+this is called _[[BV-BRST quantization]]_.
+
+To do so, we may regard the [[gauge fixing|gauge fixed]] [[BRST complex|BRST]]-[[action functional]] $S'_{BRST}$ as an [[interaction]] term,
+to be dealt with later via [[scattering theory]], and hence consider quantization of just the free BV-differential $\{-S',(-)\}$.
+One finds that this is equal to its [[time-ordered product|time-ordered]] version $\{-S',(-)\}_{\mathcal{T}}$ (prop. \ref{GaugeFixedActionFunctionalTimeOrderedAntibracket} below) plus a quantum correction, called the _[[BV-operator]]_ (def. \ref{ForGaugeFixedFreeLagrangianFieldTheoryBVOperator} below) or _[[BV-Laplacian]]_ (prop. \ref{ComponentsBVOperator} below).
+
+Applied to [[observables]] this relation is the _[[Schwinger-Dyson equation]]_ (prop. \ref{DysonSchwinger} below), which expresses 
+the [[quantum physics|quantum]]-correction to the [[equations of motion]] of the [[free field theory|free]] [[gauge fixing|gauge field]] [[Lagrangian field theory]] as seen by [[time-ordered products]] of [[observables]] (example \ref{SchwingerDysonDistributional} below.)
+
+After introducing [[field (physics)|field]]-[[interactions]] via [[scattering theory]] in the [next chapter](#Scattering)
+the quantum correction to the [[BV-differential]] by the [[BV-operator]] becomes the "[[quantum master equation]]"
+and the [[Schwinger-Dyson equation]] becomes the "[[master Ward identity]]". When choosing [[renormalization]] these
+identities become _conditions_ to be satisfied by [[renormalization]] choices in order for the 
+interacting quantum BV-BRST differential, and hence for [[gauge invariance|gauge invariant]] quantum observables, to be well defined in
+[[perturbative quantum field theory]] of [[gauge theories]]. This we discuss below in _[Renormalization](#Renormalization)_.
+
+
 
 
 $\,$
@@ -30,7 +61,7 @@ $\,$
 **[[Wick algebra]]**
  {#WickAlgebraAbstract}
 
-The abstract [[Wick algebra]] of a [[free field theory]] with [[Green hyperbolic differential equation]] is directly analogous to the [[star product]]-algebra induced by a [[finite dimensional vector space|finite dimensional]] [[Kähler vector space]] ([this def.](star+product#WickAlgebraOfAlmostKaehlerVectorSpace))  under the following identification of the [[Wightman propagator]] with the [[Kähler space]]-[[structure]]:
+The abstract [[Wick algebra]] of a [[free field theory]] with [[Green hyperbolic differential equation]] is directly analogous to the [[star product]]-algebra induced by a [[finite dimensional vector space|finite dimensional]] [[Kähler vector space]] (def. \ref{WickAlgebraOfAlmostKaehlerVectorSpace})  under the following identification of the [[Wightman propagator]] with the [[Kähler space]]-[[structure]]:
 
 +-- {: .num_remark #WightmanPropagatorAsKaehlerVectorSpaceStructure}
 ###### Remark
@@ -117,7 +148,7 @@ $$
 
 for the subspace of all on-shell polynomial observables inside all on-shell [[observables]].
 
-By [this prop.](Green+hyperbolic+partial+differential+equation#DistributionsOnSolutionSpaceAreTheGeneralizedPDESolutions) restriction yields an [[isomorphism]] between polynomial on-shell observables and polynomial off-shell observables modulo the image of the [[differential operator]] $P$:
+By prop. \ref{DistributionsOnSolutionSpaceAreTheGeneralizedPDESolutions} restriction yields an [[isomorphism]] between polynomial on-shell observables and polynomial off-shell observables modulo the image of the [[differential operator]] $P$:
 
 $$
   PolyObs(E,\mathbf{L})
@@ -179,7 +210,7 @@ $$
 
 on [[off-shell]] [[microcausal observables]] $A_1, A_2 \in \mathcal{F}_{mc}$ (def. \ref{MicrocausalObservable}) is well defined in that the [[wave front sets]] involved in the [[products of distributions]] that appear in expanding out the [[exponential]] satisfy [[Hörmander's criterion]].
 
-Hence by the general properties of [[star products]] ([this prop.](star+product#AssociativeAndUnitalStarProduct)) this yields a [[unital algebra|unital]] [[associative algebra]] [[structure]] on the space of [[formal power series]] in $\hbar$ of [[off-shell]] [[microcausal observables]]
+Hence by the general properties of [[star products]] (prop. \ref{AssociativeAndUnitalStarProduct}) this yields a [[unital algebra|unital]] [[associative algebra]] [[structure]] on the space of [[formal power series]] in $\hbar$ of [[off-shell]] [[microcausal observables]]
 
 $$
   \left(
@@ -212,7 +243,8 @@ $$
 
 =--
 
-([Dito 90](deformation+quantization#Dito90), [Dütsch-Fredenhagen 00](deformation+quantization#DuetschFredenhagen00) [Dütsch-Fredenhagen 01](deformation+quantization#DuetschFredenhagen01), [Hirshfeld-Henselder 02](deformation+quantization#HirschfeldHenselder02), [Collini 16, p. 25-26](deformation+quantization#Collini16))
+([Dito 90](Wick+algebra#Dito90), [Dütsch-Fredenhagen 00](Wick+algebra#DuetschFredenhagen00), [Dütsch-Fredenhagen 01](Wick+algebra#DuetschFredenhagen01), [Hirshfeld-Henselder 02](Wick+algebra#HirschfeldHenselder02), see [Collini 16, p. 25-26](Wick+algebra#Collini16))
+
 
 
 +-- {: .proof}
@@ -264,7 +296,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By prop. \ref{MoyalStarProductOnMicrocausal} this is immediate from the general properties of the [[star product]] ([this example](A+first+idea+of+quantum+field+theory+--+Quantization#MoyalStarProductIsFormalDeformationQuantization)).
+By prop. \ref{MoyalStarProductOnMicrocausal} this is immediate from the general properties of the [[star product]] (example \ref{MoyalStarProductIsFormalDeformationQuantization}).
 
 Explicitly, consider, without restriction of generality, $A_1 = \int (\alpha_1)_a(x) \mathbf{\Phi}^a(x)\, dvol_\Sigma(x)$ and $A_2 = \int (\alpha_2)_a(x) \mathbf{\Phi}^a(x)\, dvol_\Sigma(x)$ be two linear observables. Then
 
@@ -343,7 +375,7 @@ $\,$
 Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]]
 over a [[Lorentzian manifold|Lorentzian]] [[spacetime]] and with [[Green hyperbolic differential equation|Green-hyperbolic]] [[Euler-Lagrange equation|Euler-Lagrange]] [[differential equations]]; write $\Delta_S = \Delta_+ - \Delta_-$ for the induced [[causal propagator]]. Let moreover $\Delta_H = \tfrac{i}{2}\Delta_S + H $ be a compatible [[Wightman propagator]] and write $\Delta_F = \tfrac{i}{2}(\Delta_+ + \Delta_-) + H$ for the induced [[Feynman propagator]].
 
-Then the _[[time-ordered product]]_ on the space of [[off-shell]] [[regular polynomial observable]] $PolyObs(E)_{reg}$ is the [[star product]] induced by the [[Feynman propagator]] (via [this prop.](star+product#PropagatorStarProduct)):
+Then the _[[time-ordered product]]_ on the space of [[off-shell]] [[regular polynomial observable]] $PolyObs(E)_{reg}$ is the [[star product]] induced by the [[Feynman propagator]] (via prop. \ref{PropagatorStarProduct}):
 
 $$
   \array{
@@ -429,14 +461,14 @@ Recall the following facts:
      supp(\Delta_{\pm}) \subset \overline{V}^{\pm}
    $$
 
-1. they turn into each other under exchange of their arguments ([this cor.](causal+propagator#CausalPropagatorIsSkewSymmetric)):
+1. they turn into each other under exchange of their arguments (cor. \ref{CausalPropagatorIsSkewSymmetric}):
 
    $$
      \Delta_\pm(y,x) = \Delta_{\mp}(x,y)
      \,.
    $$
 
-1. the real part $H$ of the [[Feynman propagator]], which by definition is the real part of the [[Wightman propagator]] is symmetric (by definition or else by [this prop.](Hadamard+distribution#SkewSymmetricPartOfHadmrdPropagatorIsCausalPropagatorForKleinGordonEquationOnMinkowskiSpacetime)):
+1. the real part $H$ of the [[Feynman propagator]], which by definition is the real part of the [[Wightman propagator]] is symmetric (by definition or else by prop. \ref{SkewSymmetricPartOfHadmrdPropagatorIsCausalPropagatorForKleinGordonEquationOnMinkowskiSpacetime}):
 
    $$
      H(x,y) = H(y,x)
@@ -497,7 +529,7 @@ $$
 ###### Proposition
 **([[time-ordered product]] on [[regular polynomial observables]] [[isomorphism|isomorphic]] to pointwise product)
 
-The [[time-ordered product]] on [[regular polynomial observables]] (def. \ref{CausalOrderingTimeOrderedProductOnRegular}) is [[isomorphism|isomorphism]] to the pointwise product of [[observables]] ([this def.](A+first+idea+of+quantum+field+theory#Observable)) via the [[linear isomorphism]]
+The [[time-ordered product]] on [[regular polynomial observables]] (def. \ref{CausalOrderingTimeOrderedProductOnRegular}) is [[isomorphism|isomorphism]] to the pointwise product of [[observables]] (def. \ref{Observable}) via the [[linear isomorphism]]
 
 $$
   \mathcal{T}
@@ -514,15 +546,15 @@ $$
   \;\coloneqq\;
   \exp\left(
     \tfrac{1}{2}
-    \hbar 
-    \underset{\Sigma}{\int} 
-     \Delta_F(x,y)^{a b} 
+    \hbar
+    \underset{\Sigma}{\int}
+     \Delta_F(x,y)^{a b}
      \frac{\delta^2}{\delta \mathbf{\Phi}^a(x) \delta \mathbf{\Phi}^b(y)}
   \right)
   A
 $$
 
-in that 
+in that
 
 $$
   \begin{aligned}
@@ -542,17 +574,17 @@ $$
     PolyObs(E)_{reg}[ [\hbar] ]
       \otimes
     PolyObs(E)_{reg}[ [\hbar] ]
-      &\overset{(-)\cdot (-)}{\longrightarrow}&   
+      &\overset{(-)\cdot (-)}{\longrightarrow}&
     PolyObs(E)_{reg}[ [\hbar] ]
     \\
-    {}^{\mathllap{\mathcal{T} \otimes \mathcal{T}}}_\simeq\Big\downarrow 
-      && 
+    {}^{\mathllap{\mathcal{T} \otimes \mathcal{T}}}_\simeq\Big\downarrow
+      &&
     \downarrow^{\mathrlap{\mathcal{T}}}_\simeq
     \\
     PolyObs(E)_{reg}[ [\hbar] ]
       \otimes
     PolyObs(E)_{reg}[ [\hbar] ]
-      &\overset{(-) \star_F (-)}{\longrightarrow}&   
+      &\overset{(-) \star_F (-)}{\longrightarrow}&
     PolyObs(E)_{reg}[ [\hbar] ]
   }
 $$
@@ -565,7 +597,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-Since the [[Feynman propagator]] is symmetric ([this prop.](A+first+idea+of+quantum+field+theory#SymmetricFeynmanPropagator)), the statement is a special case of [this prop.](star+product#SymmetricContribution)).
+Since the [[Feynman propagator]] is symmetric (prop. \ref{SymmetricFeynmanPropagator}), the statement is a special case of prop. \ref{SymmetricContribution}.
 
 =--
 
@@ -574,7 +606,7 @@ Since the [[Feynman propagator]] is symmetric ([this prop.](A+first+idea+of+quan
 ###### Example
 **([[time-ordered product|time-ordered]] [[exponential]] of [[regular polynomial observables]])**
 
-Let  $V \in PolyObs_{reg, deg = 0}[ [ \hbar ] ]$ be a [[regular polynomial observable]] (def. \ref{PolynomialObservables}) of degree zero, and write 
+Let  $V \in PolyObs_{reg, deg = 0}[ [ \hbar ] ]$ be a [[regular polynomial observable]] (def. \ref{PolynomialObservables}) of degree zero, and write
 
 $$
   \exp(V)
@@ -594,7 +626,7 @@ $$
     \coloneqq
     1 + V + \tfrac{1}{2} V \star_F V + \tfrac{1}{3!} V \star_F V \star_F V + \cdots
     \\
-    & = 
+    & =
     \mathcal{T} \circ \exp(-) \circ \mathcal{T}^{-1}(V)
     \,.
   \end{aligned}
@@ -617,7 +649,7 @@ $$
   \,.
 $$
 
-This extension is not unique. A choice of such an extension, satisfying some evident compatibility conditions, is a choice of _[[renormalization scheme]]_ for the given [[perturbative quantum field theory]]. Every such choice corresponds to a choice of [[perturbative S-matrix]] for the theory, namely an extension of the time-ordered exponential $\exp_{\mathcal{T}}$ (example \ref{RegularObservablesExponentialTimeOrdered}) from regular to local observables. 
+This extension is not unique. A choice of such an extension, satisfying some evident compatibility conditions, is a choice of _[[renormalization scheme]]_ for the given [[perturbative quantum field theory]]. Every such choice corresponds to a choice of [[perturbative S-matrix]] for the theory, namely an extension of the time-ordered exponential $\exp_{\mathcal{T}}$ (example \ref{RegularObservablesExponentialTimeOrdered}) from regular to local observables.
 
 This construction of [[perturbative quantum field theory]] is called _[[causal perturbation theory]]_.  We discuss this belo in chapter _[Scattering](#Scattering)_ and in chapter _[Renormalization](#Renormalization)_.
 
@@ -651,7 +683,7 @@ It is traditional to use the following alternative notation for the product stru
      \,.
    $$
 
-1. The pointwise product of observables ([this def.](A+first+idea+of+quantum+field+theory#Observable))  $A_1 \cdot A_2$
+1. The pointwise product of observables (def. \ref{Observable})  $A_1 \cdot A_2$
    is equivalently written as plain juxtaposition enclosed by colons:
 
    $$
@@ -1004,7 +1036,7 @@ So far we have discussed the plain (graded-commutative) [[algebra of quantum obs
 ###### Proposition
 **(global [[BV-differential]] on [[Wick algebra]])**
 
-Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]] ([this def.](A+first+idea+of+quantum+field+theory#FreeFieldTheory)) with [[gauge fixing|gauge fixed]] BV-BRST [[Lagrangian density]] $-\mathbf{L}' + \mathbf{L}'_{BRST}$ ([this def.](A+first+idea+of+quantum+field+theory#GaugeFixingLagrangianDensity)) on a graded BV-BRST [[field bundle]] $E_{\text{BV-BRST}} \coloneqq T^\ast[-1]_{\Sigma,inf}(E \times_\Sigma \mathcal{G}[1] \times_{\Sigma} A \times_\Sigma A[-1])$ (remark \ref{FieldBundleBVBRST}). Let $\Delta_H$ be a compatible [[Wightman propagator]] (def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime}). 
+Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]] (def. \ref{FreeFieldTheory}) with [[gauge fixing|gauge fixed]] BV-BRST [[Lagrangian density]] $-\mathbf{L}' + \mathbf{L}'_{BRST}$ (def. \ref{GaugeFixingLagrangianDensity}) on a graded BV-BRST [[field bundle]] $E_{\text{BV-BRST}} \coloneqq T^\ast[-1]_{\Sigma,inf}(E \times_\Sigma \mathcal{G}[1] \times_{\Sigma} A \times_\Sigma A[-1])$ (remark \ref{FieldBundleBVBRST}). Let $\Delta_H$ be a compatible [[Wightman propagator]] (def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime}).
 
 Then the global [[BV-differential]] $\{-S',(-)\}$ (def. \ref{ComplexBVBRSTGlobal}) restricts from [[polynomial observables]] to a linear map on [[microcausal polynomial observables]] (def. \ref{MicrocausalObservable})
 
@@ -1022,7 +1054,7 @@ $$
   \{-S', A_1 \star_H A_2\}
   \;=\;
   \{-S', A_1\} \star_H A_2
-  + 
+  +
   A_1 \star_H \{-S', A_2\}
   \,.
 $$
@@ -1036,7 +1068,7 @@ We call $\{-S,(-)\}$ regarded as a nilpotent derivation on the [[Wick algebra]] 
 +-- {: .proof}
 ###### Proof
 
-By example \ref{BVDifferentialGlobal} the action of $\{-S',(-)\}$ on polyomial observables is to replace [[antifield]] [[field observables]] by 
+By example \ref{BVDifferentialGlobal} the action of $\{-S',(-)\}$ on polyomial observables is to replace [[antifield]] [[field observables]] by
 
 $$
   \mathbf{\Phi}^\ddagger_a(x)
@@ -1046,7 +1078,7 @@ $$
   \,,
 $$
 
-where $P$ is a [[differential operator]]. By [[partial integration]] this translates to $\{-S',(-)\}$ acting by the [[formally adjoint differential operator]] $P^\ast$ (def. \ref{FormallyAdjointDifferentialOperators}) via [[derivative of distributions|distributional derivative]] on the [[distribution|distributional]] [[coefficients]] of the given polynomial observable. 
+where $P$ is a [[differential operator]]. By [[partial integration]] this translates to $\{-S',(-)\}$ acting by the [[formally adjoint differential operator]] $P^\ast$ (def. \ref{FormallyAdjointDifferentialOperators}) via [[derivative of distributions|distributional derivative]] on the [[distribution|distributional]] [[coefficients]] of the given polynomial observable.
 
 Now by prop. \ref{RetainsOrShrinksWaveFrontSetDifferentialOperator} the application of $P^\ast$ retains or shrinks the [[wave front set]] of the distributional coefficient, hence it preserves the microcausality condition (def. \ref{MicrocausalObservable}). This makes $\{-S',(-)\}$ restrict to microcausal polynomial observables.
 
@@ -1057,11 +1089,11 @@ $$
     \{-S',(-)\} \otimes id
     \;,\;
        \Delta_H
-       \left( 
-         \frac{\delta}{\delta \mathbf{\Phi}}  
-           \otimes 
-         \frac{\delta}{\delta \mathbf{\Phi}} 
-       \right) 
+       \left(
+         \frac{\delta}{\delta \mathbf{\Phi}}
+           \otimes
+         \frac{\delta}{\delta \mathbf{\Phi}}
+       \right)
   \right]
   \;=\;
   0
@@ -1075,11 +1107,11 @@ $$
     id \otimes \{-S',(-)\}
     \;,\;
        \Delta_H
-       \left( 
-         \frac{\delta}{\delta \mathbf{\Phi}}  
-           \otimes 
-         \frac{\delta}{\delta \mathbf{\Phi}} 
-       \right) 
+       \left(
+         \frac{\delta}{\delta \mathbf{\Phi}}
+           \otimes
+         \frac{\delta}{\delta \mathbf{\Phi}}
+       \right)
   \right]
   \;=\;
   0
@@ -1096,9 +1128,9 @@ $$
     \circ
      ((-)\cdot(-))
      \circ
-     \exp\left( 
+     \exp\left(
        \hbar
-        \Delta_H\left( 
+        \Delta_H\left(
           \frac{\delta}{\delta \mathbf{\Phi}}
           \otimes
           \frac{\delta}{\delta \mathbf{\Phi}}
@@ -1116,9 +1148,9 @@ $$
        id \otimes \{-S',(-)\}
      \right)
      \circ
-     \exp\left( 
+     \exp\left(
        \hbar
-        \Delta_H\left( 
+        \Delta_H\left(
           \frac{\delta}{\delta \mathbf{\Phi}}
           \otimes
           \frac{\delta}{\delta \mathbf{\Phi}}
@@ -1129,15 +1161,15 @@ $$
      & =
      ((-)\cdot(-))
      \circ
-     \exp\left( 
+     \exp\left(
        \hbar
-        \Delta_H\left( 
+        \Delta_H\left(
           \frac{\delta}{\delta \mathbf{\Phi}}
           \otimes
           \frac{\delta}{\delta \mathbf{\Phi}}
         \right)
      \right)
-     \circ 
+     \circ
      \left(
        \phantom{a \atop b}
        \{-S',-\} \otimes id
@@ -1146,7 +1178,7 @@ $$
      \right)
      (A_1 \otimes A_2)
      \\
-     & = 
+     & =
      \{-S',A_1\} \star_H A_2
      +
      A_1 \star_H \{-S', A_2\}
@@ -1170,9 +1202,9 @@ $$
     \left[
       \underset{A}{\sum} (-1)^{deg(\phi^A)}
       \underset{\Sigma}{\int}
-      (P_{A B}\mathbf{\Phi}^A)(x) 
+      (P_{A B}\mathbf{\Phi}^A)(x)
       \frac{\delta}{\delta \mathbf{\Phi}^\ddagger_A(x)} \otimes id
-      \, 
+      \,
       dvol_\Sigma(x)
       \;\,\;
       \underset{\Sigma \times \Sigma}{\int}
@@ -1196,7 +1228,7 @@ $$
       }
       \frac{\delta}{\delta \mathbf{\Phi}^\ddagger_A(x)}
       \otimes
-      \frac{\delta}{\delta \mathbf{\Phi}^B(y)}      
+      \frac{\delta}{\delta \mathbf{\Phi}^B(y)}
       \, dvol_\Sigma(x)
       \, dvol_\Sigma(y)
      \\
@@ -1215,9 +1247,9 @@ To analyze the behaviour of the free quantum BV-differential in general and spec
 **([[time-ordered product|time-ordered]] [[antibracket]])
 
 
-Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]] ([this def.](A+first+idea+of+quantum+field+theory#FreeFieldTheory)) with [[gauge fixing|gauge fixed]] BV-BRST [[Lagrangian density]] $-\mathbf{L}' + \mathbf{L}'_{BRST}$ ([this def.](A+first+idea+of+quantum+field+theory#GaugeFixingLagrangianDensity)) on a graded BV-BRST [[field bundle]] $E_{\text{BV-BRST}} \coloneqq T^\ast[-1]_{\Sigma,inf}(E \times_\Sigma \mathcal{G}[1] \times_{\Sigma} A \times_\Sigma A[-1])$ (remark \ref{FieldBundleBVBRST}).
+Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]] (def. \ref{FreeFieldTheory}) with [[gauge fixing|gauge fixed]] BV-BRST [[Lagrangian density]] $-\mathbf{L}' + \mathbf{L}'_{BRST}$ (def. \ref{GaugeFixingLagrangianDensity}) on a graded BV-BRST [[field bundle]] $E_{\text{BV-BRST}} \coloneqq T^\ast[-1]_{\Sigma,inf}(E \times_\Sigma \mathcal{G}[1] \times_{\Sigma} A \times_\Sigma A[-1])$ (remark \ref{FieldBundleBVBRST}).
 
-Then the _time-ordered global [[antibracket]]_ on [[regular polynomial observables]] 
+Then the _time-ordered global [[antibracket]]_ on [[regular polynomial observables]]
 
 $$
   PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
@@ -1227,7 +1259,7 @@ $$
   PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
 $$
 
-is the [[conjugation]] of the global [[antibracket]] ([this def. ](A+first+idea+of+quantum+field+theory#ComplexBVBRSTGlobal)) by the time-ordering operator $\mathcal{T}$ (from [this prop.](time-ordered+product#IsomorphismOnRegularPolynomialObservablesTimeOrderedandPointwise)):
+is the [[conjugation]] of the global [[antibracket]] (def. \ref{ComplexBVBRSTGlobal}) by the time-ordering operator $\mathcal{T}$ (from prop. \ref{IsomorphismOnRegularPolynomialObservablesTimeOrderedandPointwise}):
 
 $$
   \{-,-\}_{\mathcal{T}}
@@ -1263,9 +1295,9 @@ $$
 ###### Proposition
 **([[time-ordered product|time-ordered]] [[antibracket]] with [[gauge fixing|gauge fixed]] [[action functional]])**
 
-Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]] ([this def.](A+first+idea+of+quantum+field+theory#FreeFieldTheory)) with [[gauge fixing|gauge fixed]] BV-BRST [[Lagrangian density]] $-\mathbf{L}' + \mathbf{L}'_{BRST}$ ([this def.](A+first+idea+of+quantum+field+theory#GaugeFixingLagrangianDensity)) on a graded BV-BRST [[field bundle]] $E_{\text{BV-BRST}} \coloneqq T^\ast[-1]_{\Sigma,inf}(E \times_\Sigma \mathcal{G}[1] \times_{\Sigma} A \times_\Sigma A[-1])$ (remark \ref{FieldBundleBVBRST}).
+Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]] (def. \ref{FreeFieldTheory}) with [[gauge fixing|gauge fixed]] BV-BRST [[Lagrangian density]] $-\mathbf{L}' + \mathbf{L}'_{BRST}$ (def. \ref{GaugeFixingLagrangianDensity}) on a graded BV-BRST [[field bundle]] $E_{\text{BV-BRST}} \coloneqq T^\ast[-1]_{\Sigma,inf}(E \times_\Sigma \mathcal{G}[1] \times_{\Sigma} A \times_\Sigma A[-1])$ (remark \ref{FieldBundleBVBRST}).
 
-Then the [[time-ordered product|time-ordered]] [[antibracket]] (def. \ref{AntibracketTimeOrdered}) with the gauge fixed BV-[[action functional]] $-S'$ (def. \ref{ComplexBVBRSTGlobal}) equals the [[conjugation]] of the global [[BV-differential]] with the [[isomorphism]] $\mathcal{T}$ from the pointwise to the [[time-ordered product]] of [[observables]] (from [this prop.](time-ordered+product#IsomorphismOnRegularPolynomialObservablesTimeOrderedandPointwise))
+Then the [[time-ordered product|time-ordered]] [[antibracket]] (def. \ref{AntibracketTimeOrdered}) with the gauge fixed BV-[[action functional]] $-S'$ (def. \ref{ComplexBVBRSTGlobal}) equals the [[conjugation]] of the global [[BV-differential]] with the [[isomorphism]] $\mathcal{T}$ from the pointwise to the [[time-ordered product]] of [[observables]] (from prop. \ref{IsomorphismOnRegularPolynomialObservablesTimeOrderedandPointwise})
 
 $$
   \{-S',-\}_{\mathcal{T}}
@@ -1282,7 +1314,7 @@ $$
      &\overset{ \{-S',-\} }{\longrightarrow}&
     PoyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
     \\
-    {}^{\mathllap{\mathcal{T}}}\downarrow 
+    {}^{\mathllap{\mathcal{T}}}\downarrow
       &&
     \downarrow^{\mathrlap{\mathcal{T}}}
     \\
@@ -1308,7 +1340,7 @@ where the second term on the right is independent of the fields, and hence that
 
 $$
   \{\mathcal{T}^{-1}(-S'),-\}
-  = 
+  =
   \{-S', - \}
   \,.
 $$
@@ -1337,7 +1369,7 @@ $$
 ###### Definition
 **([[BV-operator]] for [[gauge fixing|gauge fixed]] [[free field theory|free]] [[Lagrangian field theory]])**
 
-Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]] ([this def.](A+first+idea+of+quantum+field+theory#FreeFieldTheory)) with [[gauge fixing|gauge fixed]] BV-BRST [[Lagrangian density]] $-\mathbf{L}' + \mathbf{L}'_{BRST}$ ([this def.](A+first+idea+of+quantum+field+theory#GaugeFixingLagrangianDensity)) on a graded BV-BRST [[field bundle]] $E_{\text{BV-BRST}} \coloneqq T^\ast[-1]_{\Sigma,inf}(E \times_\Sigma \mathcal{G}[1] \times_{\Sigma} A \times_\Sigma A[-1])$ (remark \ref{FieldBundleBVBRST}) and with corresponding gauge-fixed global [[BV-BRST differential]] on graded [[regular polynomial observables]]
+Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]] (def. \ref{FreeFieldTheory}) with [[gauge fixing|gauge fixed]] BV-BRST [[Lagrangian density]] $-\mathbf{L}' + \mathbf{L}'_{BRST}$ (def. \ref{GaugeFixingLagrangianDensity}) on a graded BV-BRST [[field bundle]] $E_{\text{BV-BRST}} \coloneqq T^\ast[-1]_{\Sigma,inf}(E \times_\Sigma \mathcal{G}[1] \times_{\Sigma} A \times_\Sigma A[-1])$ (remark \ref{FieldBundleBVBRST}) and with corresponding gauge-fixed global [[BV-BRST differential]] on graded [[regular polynomial observables]]
 
 $$
   \{-S' + S'_{BRST}, -\}
@@ -1345,11 +1377,11 @@ $$
   PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
   \longrightarrow
   PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
-$$ 
+$$
 
-([this def.](A+first+idea+of+quantum+field+theory#GaugeFixingLagrangianDensity)).
+(def. \ref{GaugeFixingLagrangianDensity}).
 
-Then the corresponding _[[BV-operator]]_ 
+Then the corresponding _[[BV-operator]]_
 
 $$
   \Delta_{BV}
@@ -1357,7 +1389,7 @@ $$
   PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
   \longrightarrow
   PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
-$$ 
+$$
 
 on [[regular polynomial observables]] is, up to a factor of $i \hbar$, the difference between the free component $\{-S',-\}$ of the gauge fixed global BV differential its time-ordered version (def. \ref{AntibracketTimeOrdered})
 
@@ -1375,7 +1407,7 @@ $$
   \,,
 $$
 
-hence 
+hence
 
 $$
   \label{BVOperatorDefiningRelation}
@@ -1393,15 +1425,15 @@ $$
 ###### Proposition
 **([[BV-operator]] in components)**
 
-If the [[field bundles]] of all [[field (physics)|fields]], [[ghost fields]] and [[auxiliary fields]] are [[trivial vector bundles]], with field/ghost-field/auxiliary-field coordinates collectively denoted $(\phi^A)$ then 
+If the [[field bundles]] of all [[field (physics)|fields]], [[ghost fields]] and [[auxiliary fields]] are [[trivial vector bundles]], with field/ghost-field/auxiliary-field coordinates collectively denoted $(\phi^A)$ then
 the [[BV-operator]] $\Delta_{BV}$ from prop. \ref{ForGaugeFixedFreeLagrangianFieldTheoryBVOperator} is given explicitly by
 
 $$
   \Delta_{BV}
   \;=\;
   \underset{a}{\sum} (-1)^{deg(\Phi^A)}
-  \underset{\Sigma}{\int} 
-    \frac{\delta}{\delta \Phi^A(x)} 
+  \underset{\Sigma}{\int}
+    \frac{\delta}{\delta \Phi^A(x)}
     \frac{\delta}{\delta \Phi^{\ddagger}_A(y)}
   dvol_\Sigma
 $$
@@ -1425,7 +1457,7 @@ $$
   \{-S',-\}
 $$
 
-and by [this example](A+first+idea+of+quantum+field+theory#BVDifferentialGlobal) the second term on the right is
+and by example \ref{BVDifferentialGlobal}) the second term on the right is
 
 $$
   \begin{aligned}
@@ -1435,8 +1467,8 @@ $$
     j^{\infty}\left(\mathbf{\Phi}\right)^\ast
     \left(
       \frac{\overset{\leftarrow}{\delta}_{EL} L}{\delta \phi^A}
-    \right)(x) 
-    \frac{\delta}{\delta \mathbf{\Phi}^\ddagger_A(x)} 
+    \right)(x)
+    \frac{\delta}{\delta \mathbf{\Phi}^\ddagger_A(x)}
     \,
     dvol_\Sigma(x)
     \\
@@ -1460,13 +1492,13 @@ $$
     & =
     \mathcal{T} \circ \left\{ -S,-\right\} \circ \mathcal{T}^{-1}
     \\
-    & = 
-    \exp\left( 
+    & =
+    \exp\left(
      \left[
        \hbar \tfrac{1}{2} \Delta_F
-       \left( 
-         \frac{\delta}{\delta \mathbf{\Phi}}, 
-         \frac{\delta}{\delta \mathbf{\Phi}}      
+       \left(
+         \frac{\delta}{\delta \mathbf{\Phi}},
+         \frac{\delta}{\delta \mathbf{\Phi}}
         \right)
         \,,\,
         -
@@ -1476,15 +1508,15 @@ $$
       \{-S',-\}
     \right)
     \\
-    & = 
+    & =
     \{-S',-\}
     +
     \left[
       \hbar \tfrac{1}{2}
       \Delta_F
-      \left( 
-        \frac{\delta}{\delta \mathbf{\Phi}}, 
-        \frac{\delta}{\delta \mathbf{\Phi}}      
+      \left(
+        \frac{\delta}{\delta \mathbf{\Phi}},
+        \frac{\delta}{\delta \mathbf{\Phi}}
       \right)
       \,,
       \{-S',-\}
@@ -1499,8 +1531,8 @@ $$
     \phantom{=}
     +
     \left[
-      \tfrac{1}{2}\hbar 
-      \underset{\Sigma \times \Sigma}{\int} 
+      \tfrac{1}{2}\hbar
+      \underset{\Sigma \times \Sigma}{\int}
       \Delta_F^{A B}(x,y)
       \frac{\delta^2}{\delta \mathbf{\Phi}^A(x) \delta \mathbf{\Phi}^B(y)}
       \, dvol_\Sigma(x)
@@ -1520,17 +1552,17 @@ $$
    \\
    & \phantom{=}
    +
-   \underset{A}{\sum} 
+   \underset{A}{\sum}
     (-1)^{deg(\phi^A)}
-   \underset{\Sigma \times \Sigma}{\int} 
+   \underset{\Sigma \times \Sigma}{\int}
      \underset{ =  i \delta(x-y) }{\underbrace{P_x \Delta_F(x,y)}}
      \frac{\delta}{\delta \mathbf{\Phi}^A(x)}
      \frac{\delta}{\delta \mathbf{\Phi}^\ddagger_A(y)}
     \, dvol_\Sigma(x)
     \, dvol_\Sigma(y)
     \\
-   & = \left\{ -S', -\right\} 
-   + i \hbar 
+   & = \left\{ -S', -\right\}
+   + i \hbar
    \underset{A}{\sum}
    (-1)^{deg(\phi^A)}
    \underset{\Sigma}{\int}
@@ -1545,7 +1577,7 @@ Here we used
 
 1. under the first brace that by assumption of a [[free field theory]], $\{-S',-\}$ is linear in the fields, so that the first [[commutator]] with the [[Feynman propagator]] is independent of the fields, and hence all the higher commutators vanish;
 
-1.  under the second brace that the [[Feynman propagator]] is $+i$ times the [[Green function]] for the [[Green hyperbolic differential equation|Green hyperbolic]] [[Euler-Lagrange equation|Euler-Lagrange]] [[equations of motion]] ([this cor.](A+first+idea+of+quantum+field+theory#GreenFunctionFeynmanPropagator)).
+1.  under the second brace that the [[Feynman propagator]] is $+i$ times the [[Green function]] for the [[Green hyperbolic differential equation|Green hyperbolic]] [[Euler-Lagrange equation|Euler-Lagrange]] [[equations of motion]] (cor. \ref{GreenFunctionFeynmanPropagator}).
 
 =--
 
@@ -1554,9 +1586,9 @@ Here we used
 ###### Proposition
 **(global [[antibracket]] exhibits failure of [[BV-operator]] to be a [[derivation]])**
 
-Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]] ([this def.](A+first+idea+of+quantum+field+theory#FreeFieldTheory)) with [[gauge fixing|gauge fixed]] BV-BRST [[Lagrangian density]] $-\mathbf{L}' + \mathbf{L}'_{BRST}$ ([this def.](A+first+idea+of+quantum+field+theory#GaugeFixingLagrangianDensity)) on a graded BV-BRST [[field bundle]] $E_{\text{BV-BRST}} \coloneqq T^\ast[-1]_{\Sigma,inf}(E \times_\Sigma \mathcal{G}[1] \times_{\Sigma} A \times_\Sigma A[-1])$
+Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]] (def. \ref{FreeFieldTheory}) with [[gauge fixing|gauge fixed]] BV-BRST [[Lagrangian density]] $-\mathbf{L}' + \mathbf{L}'_{BRST}$ (def. \ref{GaugeFixingLagrangianDensity}) on a graded BV-BRST [[field bundle]] $E_{\text{BV-BRST}} \coloneqq T^\ast[-1]_{\Sigma,inf}(E \times_\Sigma \mathcal{G}[1] \times_{\Sigma} A \times_\Sigma A[-1])$
 
-The [[BV-operator]] $\Delta_{BV}$ (def. \ref{ForGaugeFixedFreeLagrangianFieldTheoryBVOperator}) and the global [[antibracket]] $\{-,-\}$ ([this def.](A+first+idea+of+quantum+field+theory#ComplexBVBRSTGlobal)) satisfy for all [[polynomial observables]] ([this def.](A+first+idea+of+quantum+field+theory#PolynomialObservables)) $A_1, A_2 \in PolyObs(E_{\text{BV-BRST}})[ [\hbar] ]$ the relation 
+The [[BV-operator]] $\Delta_{BV}$ (def. \ref{ForGaugeFixedFreeLagrangianFieldTheoryBVOperator}) and the global [[antibracket]] $\{-,-\}$ (def. \ref{ComplexBVBRSTGlobal}) satisfy for all [[polynomial observables]] (def. \ref{PolynomialObservables}) $A_1, A_2 \in PolyObs(E_{\text{BV-BRST}})[ [\hbar] ]$ the relation
 
 $$
   \label{GlobalAntibracketInteractingWithBVOperator}
@@ -1565,17 +1597,17 @@ $$
   (-1)^{deg(A_2)}
   \,
   \Delta_{BV}(A_1 \cdot A_2)
-  - 
+  -
   (-1)^{deg(A_2)}
   \,
   \Delta_{BV}(A_1) \cdot A_2
   -
-  A_1 \cdot \Delta_{BV}(A_2)  
+  A_1 \cdot \Delta_{BV}(A_2)
 $$
 
-for $(-) \cdot (-)$ the pointwise product of observables (def. \ref{Observable}). 
+for $(-) \cdot (-)$ the pointwise product of observables (def. \ref{Observable}).
 
-Moreover, it commutes on [[regular polynomial observables]] with the [[time-ordered product|time-ordering operator]] $\mathcal{T}$ ([this prop.](time-ordered+product#IsomorphismOnRegularPolynomialObservablesTimeOrderedandPointwise))
+Moreover, it commutes on [[regular polynomial observables]] with the [[time-ordered product|time-ordering operator]] $\mathcal{T}$ (prop. \ref{IsomorphismOnRegularPolynomialObservablesTimeOrderedandPointwise})
 
 $$
   \Delta_{BV} \circ \mathcal{T}
@@ -1595,11 +1627,11 @@ $$
   (-1)^{deg(A_2)}
   \,
   \Delta_{BV}(A_1 \star_F A_2)
-  - 
+  -
   (-1)^{dag(A_2)}
   \Delta_{BV}(A_1) \star_F A_2
   -
-  A_1 \star_F \Delta_{BV}(A_2)  
+  A_1 \star_F \Delta_{BV}(A_2)
   \,.
 $$
 
@@ -1629,9 +1661,9 @@ That the BV-operator commutes with the time-ordering operator is clear from the 
 ###### Example
 **([[BV-operator]] on [[time-ordered product|time-ordered]] [[exponentials]])**
 
-Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]] ([this def.](A+first+idea+of+quantum+field+theory#FreeFieldTheory)) with [[gauge fixing|gauge fixed]] BV-BRST [[Lagrangian density]] $-\mathbf{L}' + \mathbf{L}'_{BRST}$ ([this def.](A+first+idea+of+quantum+field+theory#GaugeFixingLagrangianDensity)) on a graded BV-BRST [[field bundle]] $E_{\text{BV-BRST}} \coloneqq T^\ast[-1]_{\Sigma,inf}(E \times_\Sigma \mathcal{G}[1] \times_{\Sigma} A \times_\Sigma A[-1])$.
+Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]] (def. \ref{FreeFieldTheory}) with [[gauge fixing|gauge fixed]] BV-BRST [[Lagrangian density]] $-\mathbf{L}' + \mathbf{L}'_{BRST}$ (def. \ref{GaugeFixingLagrangianDensity}) on a graded BV-BRST [[field bundle]] $E_{\text{BV-BRST}} \coloneqq T^\ast[-1]_{\Sigma,inf}(E \times_\Sigma \mathcal{G}[1] \times_{\Sigma} A \times_\Sigma A[-1])$.
 
-Let moreover $V \in PolyObs(E_{\text{BV-BRST}})_{reg, deg = 0}[ [\hbar] ]$  be a [[regular polynomial observable]] (def. \ref{PolynomialObservables}) of degree zero. Then the application of the [[BV-operator]] $\Delta_{BV}$ (def. \ref{ForGaugeFixedFreeLagrangianFieldTheoryBVOperator}) to the [[time-ordered product|time-ordered]] [[exponential]] $\exp_{\mathcal{T}}(V)$ ([this example](time-ordered+product#RegularObservablesExponentialTimeOrdered)) is the [[time-ordered product]] of the time-ordered exponential with the sum of $\Delta_{BV}(V)$ and the global [[antibracket]] $\tfrac{1}{2}\{V,V\}$ of $V$ with itself:
+Let moreover $V \in PolyObs(E_{\text{BV-BRST}})_{reg, deg = 0}[ [\hbar] ]$  be a [[regular polynomial observable]] (def. \ref{PolynomialObservables}) of degree zero. Then the application of the [[BV-operator]] $\Delta_{BV}$ (def. \ref{ForGaugeFixedFreeLagrangianFieldTheoryBVOperator}) to the [[time-ordered product|time-ordered]] [[exponential]] $\exp_{\mathcal{T}}(V)$ (example \ref{RegularObservablesExponentialTimeOrdered}) is the [[time-ordered product]] of the time-ordered exponential with the sum of $\Delta_{BV}(V)$ and the global [[antibracket]] $\tfrac{1}{2}\{V,V\}$ of $V$ with itself:
 
 $$
   \Delta_{BV}
@@ -1662,23 +1694,23 @@ $$
       1 + V + \tfrac{1}{2}V \star_F V + \cdots
     \right)
     & =
-    \Delta_{BV}(V) 
-      + 
+    \Delta_{BV}(V)
+      +
     \tfrac{1}{2}\left( \Delta_{BV}(V) \star_F V + V \star_F \Delta_{BV}(V) \right)
       +
     \tfrac{1}{2}\{V,V\}
       +
     \cdots
     \\
-    & = 
-    \Delta_{BV}(V) 
-      +  
+    & =
+    \Delta_{BV}(V)
+      +
     \tfrac{1}{2}\{V,V\}
       \;+\;
-    \Delta_{BV}(V) \star_F V 
+    \Delta_{BV}(V) \star_F V
      + \cdots
   \end{aligned}
-$$ 
+$$
 
 =--
 
@@ -1696,9 +1728,9 @@ A special case of the general occurence of the [[BV-operator]] is the following 
 ###### Proposition
 **([[Schwinger-Dyson equation]])**
 
-Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]] ([this def.](A+first+idea+of+quantum+field+theory#FreeFieldTheory)) with [[gauge fixing|gauge fixed]] BV-BRST [[Lagrangian density]] $-\mathbf{L}' + \mathbf{L}'_{BRST}$ ([this def.](A+first+idea+of+quantum+field+theory#GaugeFixingLagrangianDensity)) on a graded BV-BRST [[field bundle]] $E_{\text{BV-BRST}} \coloneqq T^\ast[-1]_{\Sigma,inf}(E \times_\Sigma \mathcal{G}[1] \times_{\Sigma} A \times_\Sigma A[-1])$ (remark \ref{FieldBundleBVBRST}).
+Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]] (def. \ref{FreeFieldTheory}) with [[gauge fixing|gauge fixed]] BV-BRST [[Lagrangian density]] $-\mathbf{L}' + \mathbf{L}'_{BRST}$ (def. \ref{GaugeFixingLagrangianDensity}) on a graded BV-BRST [[field bundle]] $E_{\text{BV-BRST}} \coloneqq T^\ast[-1]_{\Sigma,inf}(E \times_\Sigma \mathcal{G}[1] \times_{\Sigma} A \times_\Sigma A[-1])$ (remark \ref{FieldBundleBVBRST}).
 
-Let 
+Let
 
 $$
   \label{SchwingerDysonTestObservable}
@@ -1711,7 +1743,7 @@ $$
   PolyObs_{reg}(E_{\text{BV-BRST}})
 $$
 
-be an [[off-shell]] [[regular polynomial observable]] which is [[linear map|linear]] in the [[antifield]] [[field observables]] $\mathbf{\Phi}^\ddagger$. Then 
+be an [[off-shell]] [[regular polynomial observable]] which is [[linear map|linear]] in the [[antifield]] [[field observables]] $\mathbf{\Phi}^\ddagger$. Then
 
 $$
   \label{EquationSchwingerDyson}
@@ -1731,8 +1763,8 @@ $$
     \underset{\Sigma}{\int}
     \frac{\delta A^a(x)}{\delta \mathbf{\Phi}^a(x)}
     \,
-    dvol_\Sigma(x)     
-  \right)  
+    dvol_\Sigma(x)
+  \right)
   \phantom{A}
   \in
   \underset{
@@ -1753,7 +1785,7 @@ The following proof is due to ([Rejzner 16, remark 7.7](#Rejzner16)) following t
 +-- {: .proof}
 ###### Proof
 
-Applying the inverse time-ordering map $\mathcal{T}^{-1}$ ([this prop.](time-ordered+product#IsomorphismOnRegularPolynomialObservablesTimeOrderedandPointwise)) to equation (eq:BVOperatorDefiningRelation) applied to $A$ yields
+Applying the inverse time-ordering map $\mathcal{T}^{-1}$ (prop. \ref{IsomorphismOnRegularPolynomialObservablesTimeOrderedandPointwise}) to equation (eq:BVOperatorDefiningRelation) applied to $A$ yields
 
 $$
   \underset{
@@ -1773,8 +1805,8 @@ $$
   \underset{
     i \hbar
     \mathcal{T}^{-1}
-    \underset{\Sigma}{\int} 
-      \frac{\delta A^a(x)}{\delta \mathbf{\Phi}^a(x)} 
+    \underset{\Sigma}{\int}
+      \frac{\delta A^a(x)}{\delta \mathbf{\Phi}^a(x)}
     \, dvol_\Sigma
   }{
   \underbrace{
@@ -1791,9 +1823,9 @@ $$
   }
 $$
 
-where we have identified the terms under the braces by 1) the component expression for the BV-differential $\{-S',-\}$ from [this prop](A+first+idea+of+quantum+field+theory#BVDifferentialGlobal), 2) prop. \ref{ComponentsBVOperator} and 3) prop. \ref{GaugeFixedActionFunctionalTimeOrderedAntibracket}.
+where we have identified the terms under the braces by 1) the component expression for the BV-differential $\{-S',-\}$ from prop. \ref{BVDifferentialGlobal}, 2) prop. \ref{ComponentsBVOperator} and 3) prop. \ref{GaugeFixedActionFunctionalTimeOrderedAntibracket}.
 
-The last term is manifestly in the [[image]] of the [[BV-differential]] $\{-S',-\}$ and hence vanishes when passing to [[on-shell]] observables along the [[isomorphism]] ([this equation](A+first+idea+of+quantum+field+theory#eq;OnShellPolynomialObservablesAsBVCohomology))
+The last term is manifestly in the [[image]] of the [[BV-differential]] $\{-S',-\}$ and hence vanishes when passing to [[on-shell]] observables along the [[isomorphism]] (eq:OnShellPolynomialObservablesAsBVCohomology)
 
 $$
   \underset{
@@ -1811,7 +1843,7 @@ $$
   }}/im(\{-S',-\})
 $$
 
-(by [this example.](A+first+idea+of+quantum+field+theory#BVDifferentialGlobal)).
+(by example \ref{BVDifferentialGlobal}).
 
 The same argument with the replacement $\mathcal{T} \leftrightarrow \mathcal{T}^{-1}$ throughout yields the other version of the equation (with time-ordering instead of reverse time ordering and the sign of the $\hbar$-term reversed).
 
@@ -1836,16 +1868,16 @@ where the [[BV-operator]] is the quantum correction of order $\hbar$. Therefore 
 
 =--
 
-+-- {: .num_remark #SchwingerDysonDistributional}
-###### Remark
++-- {: .num_example #SchwingerDysonDistributional}
+###### Example
 **([[distribution|distributional]] [[Schwinger-Dyson equation]])**
 
 Often the [[Schwinger-Dyson equation]] (prop. \ref{DysonSchwinger}) is displayed before spacetime-smearing of [[field observables]] in terms of [[operator products]] of [[operator-valued distributions]], taking the observable $A$ in (eq:SchwingerDysonTestObservable) to be
 
 $$
-  A^a(x) 
+  A^a(x)
     \;\coloneqq\;
-  \delta(x-x_0) \delta^a_{a_0} 
+  \delta(x-x_0) \delta^a_{a_0}
   \mathbf{\Phi}^{a_1}(x_1) \cdots \mathbf{\Phi}^{a_n}(x_n)
   \,.
 $$
@@ -1857,11 +1889,11 @@ $$
   & T
   \left(
     \frac{\delta S}{\delta \mathbf{\Phi}^{a_0}(x_0)}
-      \cdot 
+      \cdot
     \mathbf{\Phi}^{a_1}(x_1) \cdots \mathbf{\Phi}^{a_n}(x_n)
   \right)
   \\
-  & 
+  &
   \underset{\text{on-shell}}{=}
   - i \hbar
   \underset{k}{\sum}
@@ -1888,7 +1920,7 @@ $$
   T
   \left(
     \frac{\delta S}{\delta \mathbf{\Phi}^{a_0}(x_0)}
-      \cdot 
+      \cdot
     \mathbf{\Phi}^{a_1}(x_1) \cdots \mathbf{\Phi}^{a_n}(x_n)
   \right)
   \;=\;
@@ -1897,13 +1929,13 @@ $$
   \text{on-shell}
 $$
 
-Since by the [[principle of extremal action]] ([this prop.](A+first+idea+of+quantum+field+theory#PrincipleOfExtremalAction)) the equation 
+Since by the [[principle of extremal action]] (prop. \ref{PrincipleOfExtremalAction}) the equation
 
 $$
   \frac{\delta S}{\delta \mathbf{\Phi}^{a_0}(x_0)}
   \;=\;
   0
-$$ 
+$$
 
 is  the [[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]] (for the [[classical field theory]]) "at $x_0$", this may be interpreted as saying that the classical equations of motion for fields at $x_0$ still hold for [[time-ordered product|time-ordered]] [[quantum theory|quantum]] [[expectation values]], as long as all other observables are evaluated away from $x_0$; while if observables do coincide at $x_0$ then there is a correction measured by the [[BV-operator]].
 
