@@ -106,6 +106,8 @@ Cartmell's paper explains how, for every GAT there is an EAT with the
 same models and for every EAT there is a GAT with the same models.  In
 this sense they are more or less equivalent in descriptive power.
 
+Cartmell (sec 6)compares essentially algebraic theories to [[Cartesian logic]].
+
 However (not in Cartmell's paper), there is no notion in the world of
 EAT's equivalent to a "GAT without sort equations".  This is relevant
 because it yields an interpretation result.  Just as the theory of
