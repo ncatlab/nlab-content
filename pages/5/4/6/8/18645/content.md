@@ -70,9 +70,10 @@ $\,$
 
 $\,$
 
-The [[electromagnetic field]] and the [[Dirac field]] combined are the [[field (physics)|fields]] of _[[quantum electrodynamics]]_
-which we turn to at the end [below](#QED).
-
+| [[interacting field theory]] | [[interaction]] [[Lagrangian density]] | [[interaction]] [[Wick algebra]]-element |
+|------------------------------|------------------------|---------------|
+| [[phi^n theory]] | exp. \ref{phintheoryLagrangian} | expl. \ref{InWickAlgebraphinInteraction} |
+| [[quantum electrodynamics]] | expl. \ref{LagrangianQED} | expl. \ref{InWickAlgebraElectronPhotonInteraction} | 
 $\,$
 
 **Acknowledgement**
