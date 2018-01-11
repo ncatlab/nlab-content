@@ -58,8 +58,22 @@ $$
 
 (e.g. [Epstein-Glaser 73, p. 5 (273)](#EpsteinGlaser73))
 
+## Related concepts
+
+* [[causality]], [[microcausality]]
+
+* [[time-ordered product]]
+
+* [[S-matrix]]
+
+* [[causal additivity]]
+
+
 ## References
 
 
 * {#EpsteinGlaser73} [[Henri Epstein]], [[Vladimir Glaser]], _[[The Role of locality in perturbation theory]]_, Annales Poincar&#233; Phys. Theor. A 19 (1973) 211 ([Numdam](http://www.numdam.org/item?id=AIHPA_1973__19_3_211_0 ))
+
+
+[[!redirects causal ordering]]
 
