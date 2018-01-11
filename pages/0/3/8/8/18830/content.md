@@ -3,16 +3,25 @@
 
 In the [previous chapter](#Quantization) we discussed _[[quantization]]_ of linear [[phase spaces]], which turns the [[algebra of observables]] into a [[noncommutative algebra]] of [[quantum observables]]. Here we apply this to the [[covariant phase spaces]] of [[gauge fixing|gauge fixed]] [[free field theory|free]] [[Lagrangian field theories]] (as discussed in the chapter _[Gauge fixing](#GaugeFixing)_), obtaining genuine [[quantum field theory]] for [[free fields]].
 
-The resulting [[algebra of quantum observables]] is called the _[[Wick algebra]]_ (prop. \ref{MoyalStarProductOnMicrocausal} below), which is the [[star product]] induced by the [[Wightman propagator]].
-It may be expressed in terms of a commutative "[[normal-ordered product]]" (def. \ref{NormalOrderedProductNotation} below) and 
+For this purpose we first need to find a sub-algebra of all observables which is large enough to contain all [[local observables]] (such as the [[phi^n interaction]], example \ref{InWickAlgebraphinInteraction} below, and the [[electron-photon interaction]], example \ref{InWickAlgebraElectronPhotonInteraction} below) but small enough for the [[star product]] [[deformation quantization]] to meet [[Hörmander's criterion]] for absence of [[UV-divergences]] (remark \ref{UltravioletDivergencesFromPaleyWiener}). This does exist (example \ref{PointwiseProductsOfFieldObservablesAdiabaticallySwitchedIsMicrocausal} below): It is called the algebra of _[[microcausal polynomial observables]]_ (def. \ref{MicrocausalObservable} below).
+
+[[!include perturbative observables -- table]]
+
+While the [[star product]] of the [[causal propagator]] still violates [[Hörmander's criterion]] for absence of [[UV-divergences]] on [[microcausal polynomial observables]], we have seen in the [previous chapter](#Quantization) that qantization freedom allows to shift this [[Poisson tensor]] by a symmetric contribution. By prop. \ref{SkewSymmetricPartOfHadmrdPropagatorIsCausalPropagatorForKleinGordonEquationOnMinkowskiSpacetime} such a shift is provided by  passage from the [[causal propagator]] to the [[Wightman propagator]], and by prop. \ref{WaveFronSetsForKGPropagatorsOnMinkowski} this reduces the [[wave front set]] and hence the UV-singularities "by half". 
+
+This way the [[deformation quantization]] of the [[Peierls-Poisson bracket]] exists on  [[microcausal polynomial observables]] as the [[star product]] algebra induced by the [[Wightman propagator]]. The resuling [[non-commutative algebra|non-commutative]] [[algebra of observables]] is called the _[[Wick algebra]]_ (prop. \ref{MoyalStarProductOnMicrocausal} below).
+Its algebra structure may be expressed in terms of a commutative "[[normal-ordered product]]" (def. \ref{NormalOrderedProductNotation} below) and 
 the [[vacuum expectation values]] of [[field observables]] in a canonically induced [[vacuum state]] (prop. \ref{WickAlgebraCanonicalState} below).
 
-The analogous [[star product]] induced by the [[Feynman propagator]] (def. \ref{OnRegularPolynomialObservablesTimeOrderedProduct}) acts by first [[causal ordering]] its arguments and then multiplying them with the [[Wick algebra|Wick algebra product]] (prop. \ref{CausalOrderingTimeOrderedProductOnRegular} below) and hence is called the _[[time-ordered product]]_ (def. \ref{OnRegularPolynomialObservablesTimeOrderedProduct} below). This is the key structure in the discussion of [[interactions]]
+The analogous [[star product]] induced by the [[Feynman propagator]] (def. \ref{OnRegularPolynomialObservablesTimeOrderedProduct} below) acts by first [[causal ordering]] its arguments and then multiplying them with the [[Wick algebra|Wick algebra product]] (prop. \ref{CausalOrderingTimeOrderedProductOnRegular} below) and hence is called the _[[time-ordered product]]_ (def. \ref{OnRegularPolynomialObservablesTimeOrderedProduct} below). This is the key structure in the discussion of [[interactions]]
 of [[field (physics)|fields]] via [[scattering]]-processes, discussed in the next chapter _[Scattering](#Scattering)_.
 Here we consider this on [[regular polynomial observables]] only, hence for averages of [[field observables]] that evaluate
 at distinct [[spacetime]] points. The [[extension]] of the [[time-ordered product]] to
 [[local observables]] is possible, but requires making choices: This is called _[[renormalization]]_, which we turn to in 
 the chapter _[Renormalization](#Renormalization)_ below.
+
+[[!include Wick algebra -- table]]
+
 
 While the [[Wick algebra]] with its [[vacuum state]] provides a [[quantization]] of the [[algebra of observables]]
 of [[free field theory|free]] [[gauge fixing|gauge fixed]] [[Lagrangian field theories]], the possible existence of
@@ -175,9 +184,79 @@ $$
 
 for the [[subspace]] of [[off-shell]]/[[on-shell]] [[microcausal observables]] insides all [[off-shell]]/[[on-shell]] [[polynomial observables]].
 
+=--
+
+The important point is that [[microcausal polynomial observables]] still contain all [[regular polynomial observables]] but also all polynomial [[local observables]]:
+
++-- {: .num_example #MicrocausalRegularObservables}
+###### Example
+**([[regular polynomial observables]] are [[microcausal observables|microcausal]])**
+
+
+Every [[regular polynomial observable]] (def. \ref{PolynomialObservables}) is [[microcausal polynomial observable|microcausal]] (def. \ref{MicrocausalObservable}).
 
 =--
 
++-- {: .proof}
+###### Proof
+
+By definition of regular polynomial observables, their [[coefficients]] are [[non-singular distributions]] and because the [[wave front set]] of [[non-singular distributions]] is [[empty set|empty]] (example \ref{NonSingularDistributionTrivialWaveFrontSet})
+
+=--
+
++-- {: .num_example #PointwiseProductsOfFieldObservablesAdiabaticallySwitchedIsMicrocausal}
+###### Example
+**(polynomial [[local observables]] are [[microcausal polynomial observables|microcausal]])**
+
+Every polynomial [[local observable]] (def. \ref{LocalObservables}) is a [[microcausal polynomial observable]] (def. \ref{MicrocausalObservable}).
+
+=--
+
++-- {: .proof}
+###### Proof
+
+For notational convenience, consider the case of the [[scalar field]] with $k = 2$; the general case is directly analogous. The distribution in question is the [[delta distribution]]
+
+$$
+  \begin{aligned}
+    A(\Phi)
+    & =
+    \int_X g(x) (\Phi(x))^2 \,dvol_\Sigma(x)
+    \\
+    & =
+    \int_{\Sigma \times \Sigma} 
+      g(x_1) 
+     \Phi(x_1) \Phi(x_2) \, dvol_\Sigma(x_1) \, dvol_\Sigma(x_2)
+  \end{aligned}
+  \,.
+$$
+
+Now for $(x_1, x_2) \in \Sigma \times \Sigma$ and $\mathbb{R}^{2n} \simeq U \subset X \times X$ a [[chart]] around this point,  the [[Fourier transform of distributions]] of $g \cdot \delta(-,-)$ restricted to this chart is proportional to the Fourier transform $\hat g$ of $g$ evaluated at the sum of the two covectors:
+
+$$
+  \begin{aligned}
+    (k_1, k_2)
+      & \mapsto
+     \int_{\mathbb{R}^{2n}} g(x_1) \delta(x_1, x_2) \exp( k_1 \cdot x_1 + k_2 \cdot x_2 ) dvol_\Sigma(x_1) \, dvol_\Sigma(x_2)
+    \\
+    & \propto \hat g(k_1 + k_2)
+   \end{aligned}
+  \,.
+$$
+
+
+Since $g$ is a plain [[bump function]], its [[Fourier transform]] $\hat g$ is quickly decaying (according to [this inequality](compactly+supported+distribution#eq:DecayEstimateForFourierTransformOfNonSingularDistribution))  along $k_1 + k_2$ ([this prop.](wavefront+set#EmptyWaveFronSetCorrespondsToOrdinaryFunction)), as long as $k_1 + k_2 \neq 0$. Only on the cone $k_1 + k_2 = 0$ the Fourier transform is constant, and hence in particular not decaying.
+
+
+<div style="float:right;margin:0 10px 10px 0;">
+<img src="https://ncatlab.org/nlab/files/WaveFrontSetOfDeltaDistributionInTwoVariables.png" width="200"/>
+</div>
+
+{#WaveFrontOfdeltaxy} This means that the wave front set consists of the elements of the form $(x, (k, -k))$ with $k \neq 0$. Since $k$ and $-k$ are both in the [[future cone]] or both in the past cone precisely if $k = 0$, this situation is excluded in the wave front set and hence the distribution $g \cdot \delta(-,-)$ is [[microcausal observable|microcausal]].
+
+> (graphics grabbed from [Khavkine-Moretti 14, p. 45](#KhavkineMoretti14))
+
+=--
 
 
 +-- {: .num_prop #MoyalStarProductOnMicrocausal}
@@ -243,8 +322,7 @@ $$
 
 =--
 
-([Dito 90](Wick+algebra#Dito90), [Dütsch-Fredenhagen 00](Wick+algebra#DuetschFredenhagen00), [Dütsch-Fredenhagen 01](Wick+algebra#DuetschFredenhagen01), [Hirshfeld-Henselder 02](Wick+algebra#HirschfeldHenselder02), see [Collini 16, p. 25-26](Wick+algebra#Collini16))
-
+(e.g. [Collini 16, p. 25-26](Wick+algebra#Collini16))
 
 
 +-- {: .proof}
@@ -291,7 +369,7 @@ $$
 
 =--
 
-([Dito 90](#Dito90), [Dütsch-Fredenhagen 01](#DutschFredenhagen01))
+([Dito 90](Wick+algebra#Dito90), [Dütsch-Fredenhagen 00](Wick+algebra#DuetschFredenhagen00), [Dütsch-Fredenhagen 01](Wick+algebra#DuetschFredenhagen01), [Hirshfeld-Henselder 02](Wick+algebra#HirschfeldHenselder02))
 
 +-- {: .proof}
 ###### Proof
@@ -729,10 +807,114 @@ refer to these "abstract" products as the "operator product" and the "normal-ord
 =--
 
 
-[[!include Wick algebra -- table]]
+
+$\,$
+
++-- {: .num_example #InWickAlgebraphinInteraction}
+###### Example
+**([[phi^n interaction]])**
+
+Consider [[phi^n theory]] from example \ref{phintheoryLagrangian}.
+The [[adiabatic switching|adiabatically switched]] [[action functional]] (example \ref{ActionFunctional}) which is the [[transgression of variational differential forms|transgression]] of the [[phi^n interaction]] is the following [[local observable|local]] (hence, by example \ref{PointwiseProductsOfFieldObservablesAdiabaticallySwitchedIsMicrocausal}, [[microcausal polynomial observable|microcausal]]) observable:
 
 
+$$
+  \begin{aligned}
+  S_{int}
+  & =
+  \underset{\Sigma}{\int}
+  \underset{
+     n \, \text{factors}
+  }{
+  \underbrace{
+    \mathbf{\Phi}(x)
+     \cdot
+    \mathbf{\Phi}(x)
+     \cdots
+    \mathbf{\Phi}(x)
+     \cdot
+    \mathbf{\Phi}(x)
+  }
+  }
+  \, 
+  dvol_\Sigma(x)
+  \\
+  & =
+  \underset{\Sigma}{\int}
+  :
+  \underset{
+     n \, \text{factors}
+  }{
+  \underbrace{
+    \mathbf{\Phi}(x)
+    \mathbf{\Phi}(x)
+      \cdots
+    \mathbf{\Phi}(x)
+    \mathbf{\Phi}(x)
+  }
+  }
+  :
+  \,
+  dvol_\Sigma(X)
+  \end{aligned}
+  \,,
+$$
 
+Here in the first line we have the [[integral]] over a pointwise product (def. \ref{Observable}) of $n$ [[field observables]] (example \ref{PointEvaluationObservables}), which in the second line we write equivalently as a [[normal ordered product]] by def. \ref{NormalOrderedProductNotation}.
+
+=--
+
+
++-- {: .num_example #InWickAlgebraElectronPhotonInteraction}
+###### Example
+**([[electron-photon interaction]])**
+
+Consider the [[Lagrangian field theory]] defining [[quantum electrodynamics]] from example \ref{LagrangianQED}.
+The [[adiabatic switching|adiabatically switched]] [[action functional]] (example \ref{ActionFunctional}) which is the [[transgression of variational differential forms|transgression]] of the [[electron-photon interaction]] is the [[local observable|local]] (hence, by example \ref{PointwiseProductsOfFieldObservablesAdiabaticallySwitchedIsMicrocausal}, [[microcausal polynomial observable|microcausal]]) observable
+
+$$
+  \begin{aligned}
+    S_{int}
+    & \coloneqq
+    i
+    \underset{\Sigma}{\int}
+      g_{sw}(x)
+      \,
+      (\Gamma^\mu)^\alpha{}_\beta
+      \,
+      \overline{\mathbf{\Psi}}_\alpha(x)
+      \cdot
+      \mathbf{\Psi}^\beta(x)
+      \cdot
+      \mathbf{A}_\mu(x)
+      \,
+     dvol_\Sigma(x)
+     \\
+     & =
+    i
+    \underset{\Sigma}{\int}
+      g_{sw}(x)
+      \,
+      (\Gamma^\mu)^\alpha{}_\beta
+      \,
+      :
+      \overline{\mathbf{\Psi}}_\alpha(x)
+      \mathbf{\Psi}^\beta(x)
+      \mathbf{A}_\mu(x)
+      :
+      \,
+     dvol_\Sigma(x)
+  \end{aligned}
+  \,,
+$$
+
+Here in the first line we have the [[integral]] over a pointwise product (def. \ref{Observable}) of $n$ [[field observables]] (example \ref{PointEvaluationObservables}), which in the second line we write equivalently as a [[normal ordered product]] by def. \ref{NormalOrderedProductNotation}.
+
+=--
+
+(e.g. [Scharf 95, (3.3.1)](electron-photon+interaction#Scharf95))
+
+$\,$
 
 
 **[[Hadamard vacuum state]]**
