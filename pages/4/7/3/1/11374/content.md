@@ -23,13 +23,13 @@ While the theory of [[cosmic inflation]] in general is in excellent agreement wi
 
 ## Description
 
-Despite its name and its consequences, chaotic inflation is arguably the most uncontrived model of [[cosmic inflation]], in that (reviewed e.g. in [Linde 02, section II](#Linder02)) it takes the [[potential]] term $V$ of the hypothetical [[inflaton]] field $\phi$ simply to be parabolic
+Despite its name and its consequences, chaotic inflation is arguably the most uncontrived model of [[cosmic inflation]], in that (reviewed e.g. in [Linde 02, section II](#Linder02)) it takes the [[potential]] term $V$ of the hypothetical [[inflaton field]]  $\phi$ simply to be parabolic
 
 $$
   V(\phi) \coloneqq \frac{m_\phi^2}{2} \phi^2
 $$
 
-hence to be the standard [[mass]] term of a [[scalar field]]. 
+hence to be the standard [[mass]] term of a [[scalar field]] ([[phi^2 interaction]]). 
 
 Whereas other inflationary models assume a more monotonely decreasing potential with and assume in an _ad hoc_ way that the inflaton field is to have a large amplitude "at the big bang" to then slowly "roll down" (at each point in spacetime, being a field!) its potential, the idea of ([Linde 83](#Linde83)) is that instead the inflaton by and large sits in its potential minimum in equilibrium, but that [[quantum fluctuations]] stochastically ("chaotically") drive it out of its minimum here and there. Wherever this happens [[cosmic inflation]] sets in and blows up the region of the ambient spacetime in which the inflaton happened to have fluctuated out of its equilibrium.
 
