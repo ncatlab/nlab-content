@@ -29,7 +29,7 @@ But there are also S-matrices not arising from a local field theory, for instanc
 
 There have been attempts to _define_ [[perturbative quantum field theory]] by directly [[axiom|axiomatizing]] properties of the S-matrix, without requiring concepts of [[field (physics)|fields]] in [[spacetime]]. This perspective goes back to ([Heisenberg 43](#Heisenberg43)) and was vocally promoted in [[Geoffrey Chew]]'s "bootstrap program" (a textbook account is in [Eden-Ladshoff-Olive-Polkinhorne 66](#EdenLadshoffOlivePolkinhorne66)).
 
-In the [[field theory]]-picture the crucial condition on the S-matrix is its [[causal additivity]] (def. \ref{PerturbativeSMatrixOnMinkowskiSpacetime} below) which reflects the [[microcausality]] of [[quantum observables]] (prop. \ref{PerturbativeQuantumObservablesIsLocalnet} below), whence the name "[[causal perturbation theory]]".
+In the [[field theory]]-picture the crucial condition on the S-matrix is its [[causal additivity]] (def. \ref{LagrangianFieldTheoryPerturbativeScattering} below) which reflects the [[microcausality]] of [[quantum observables]] (prop. \ref{PerturbativeQuantumObservablesIsLocalnet} below), whence the name "[[causal perturbation theory]]".
 
 {#TheAnalyticSMatrix} This [[causality]] of the S-matrix, when understood in terms of underlying [[spacetime]] and [[field (physics)|fields]], is supposed to be detected more abstractly by the S-matrix being a suitable [[analytic function]] of the [[wave vectors]] of the scattering asymptotic states ([Newton 82, 10.3.3](#Newton82), [Arkani-Hamed et al. 06](#AAHDNR06)), often refereed to via "dispersion relations" (e.g. [Eden-Ladshoff-Olive-Polkinhorne 66 (1.1.1)-(1.1.5)](#EdenLadshoffOlivePolkinhorne66), [Gribov 69, 1.1.2](#Gribov69)). Since thereby analyticity is recognized as the crucial property of the S-matrix in the spacetime/field-independent axiomatization, this is often referred to as "the analytic S-matrix" (e.g. [Eden-Ladshoff-Olive-Polkinhorne 66](#EdenLadshoffOlivePolkinhorne66)). More specifically [[microcausality]] is what induces "crossing symmetry" of the S-matrix ([Weinberg 95, section 10.8](#Weinberg95)).
 
@@ -282,6 +282,7 @@ This limit (if it exists) is called the _scattering matrix_ or _S-matrix_, for s
 
 ### In perturbative algebraic quantum field theory
 
+> under construction
 
 In [[perturbative algebraic quantum field theory]] the broad structure of the [[interaction picture]] in [[quantum mechanics]] ([above](#InQuantumMechanics)) remains a very good guide, but various technical details have to be generalized with due care:
 
@@ -297,408 +298,70 @@ Together these three point are taken care of by the axiomatization of the "[[adi
 The analogue of the limit $t \to \infty$ in the construction of the [[S-matrix]] (now: [[adiabatic limit]]) in general does not exist in field theory ("infrared divergencies"). But in fact it need not be taken: The field algebra in a bounded region of [[spacetime]] may be computed with any adiabatic switching that is constant on this region. Moreover, the algebras assigned to regions of spacetime this way satisfy [[causal locality]] by the causal ordering in the construction of the S-matrix. Therefore, even without taking the adiabatic limit in [[causal perturbation theory]] one obtains a field theory in the form of a _[[local net of observables]]_. This is the topic of **[[locally covariant perturbative quantum field theory]]**.
 
 
-$\,$
+#### Free vacuum
 
+In considering [[perturbative QFT]], we are considering [[perturbation theory]] around a fixed [[free field theory|free]] [[quantum field theory]] in a chosen [[Hadamard vacuum state]].
+For convenience we collect all the structure and notation that goes into this in the following definition:
 
-#### Spacetime and Causality
- {#SpacetimeAndCausality}
-
-
-
-Throughout, let
-$\Sigma$ be a [[time orientation|time-oriented]] [[globally hyperbolic Lorentzian manifold]] of [[dimension]]
-
-$$
-  p + 1 \in \mathbb{N}
-$$
-
-This is to model the [[spacetime]] over which we consider [[field theory]]. Hence we will often refer to $\Sigma$
-just as _[[spacetime]]_, for short.
-
-We need to consider the following concepts and constructions related to the [[causal structure]] of $\Sigma$.
-
-+-- {: .num_defn #CausalPastAndFuture}
++-- {: .num_defn #VacuumFree}
 ###### Definition
-**(causal [[past]] and [[future]])**
+**([[free field theory|free]] [[quantum field theory|quantum field]] [[vacuum]])**
 
-For $x \in \Sigma$ a point in spacetime, we write
+Let
 
-$$
-  V^+(x), V^-(x) \subset \Sigma
-$$
+1. $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]] ([this def.](A+first+idea+of+quantum+field+theory#FreeFieldTheory)),
+with [[gauge parameter bundle]] $\mathcal{G}$ ([this def.](A+first+idea+of+quantum+field+theory#GaugeParameters)),
 
-for its [[open future cone]] and [[open past cone]], respectively, and
+1. $(E_{\text{BV-BRST}}, \mathbf{L}')$ be a [[gauge fixing]] ([this def.](A+first+idea+of+quantum+field+theory#GaugeFixingLagrangianDensity)) with [[graded manifold|graded]] BV-BRST [[field bundle]] $E_{\text{BV-BRST}}$ ([this remark](A+first+idea+of+quantum+field+theory#FieldBundleBVBRST)),
 
-$$
-  \overline{V}^+(x), \overline{V}^-(x) \subset \Sigma
-$$
+1. $\Delta_H \in \Gamma'( E_{\text{BV-BRST}} \boxtimes E_{\text{BV-BRST}} )$ be a [[Wightman propagator]] $\Delta_H = \tfrac{i}{2} \Delta + H$ compatible with the [[causal propagator]] $\Delta$ induced by $\mathbf{L}'$.
 
-for the corresponding closed cones. We write
 
-$$
-  J(x) \coloneqq \overline{V}^+(x) \cup \overline{V}^-(x)
-$$
+Write $(PolyObs(E_{\text{BV-BRST}})_{mc}[ [\hbar] ], \star_H)$ for the corresponding [[Wick algebra]] of [[microcausal polynomial observables]] of the [[free field theory|free]] [[quantum field theory]].
 
-for the full [[causal cone]].
-
-For $S \subset \Sigma$ a [[subset]] we write
+Write
 
 $$
-  \overline{V}^\pm(S)
-  \;\coloneqq\;
-  \underset{x \in S}{\cup} \overline{V}^{\pm}(x)
-$$
-
-for the union of the future/past closed cones of all its points.
-
-=--
-
-
-
-+-- {: .num_defn #CausalOrdering}
-###### Definition
-**([[causal order]])**
-
-Consider the [[relation]] on the set $P(\Sigma)$ of [[subsets]] of spacetime
-which says a [[subset]] $S_1 \subset \Sigma$ is _not prior_ to a subset $S_2 \subset \Sigma$,
-denoted $S_1 {\vee\!\!\!\wedge} S_2$, if $S_1$ does not [[intersection|intersect]] the [[causal past]] of $S_2$ (def. \ref{CausalPastAndFuture}),
-or equivalently that $S_2$ does not intersect the [[causal future]] of $S_1$:
-
-$$
-  \begin{aligned}
-    S_1 {\vee\!\!\!\wedge} S_2
-    & \;\coloneqq\;
-    S_1 \cap \overline{V}^-(S_2) = \emptyset
-    \\
-    & \Leftrightarrow S_2 \cap \overline{V}^+(S_1) = \emptyset
-   \end{aligned}
-   \,.
-$$
-
-If $S_1 {\vee\!\!\!\wedge} S_2$ and $S_2 {\vee\!\!\!\wedge} S_1$ we say that the two subsets are _[[spacelike]] separated_ and
-write
-
-$$
-   S_1 {\gt\!\!\!\!\lt} S_2
-   \,.
-$$
-
-=--
-
-+-- {: .num_example #CausalComplementOfSubsetOfLorentzianManifold}
-###### Definition
-**([[causal complement]] and [[causal closure]] of subset of [[spacetime]])**
-
-For $S \subset X$ a [[subset]] of [[spacetime]], its _[[causal complement]]_ $S^\perp$ is the [[complement]] of the [[causal cone]]:
-
-$$
-  S^\perp \;\coloneqq\; S \setminus J_X(S)
-  \,.
-$$
-
-The causal complement $S^{\perp \perp}$ of the causal complement $S^\perp$ is called the _[[causal closure]]_. If
-
-$$
-  S = S^{\perp \perp}
-$$
-
-then the subset $S$ is called a _[[causally closed subset]]_.
-
-Given a [[spacetime]] $\Sigma$, we write
-
-$$
-  CausClsdSubsets(\Sigma) \;\in\; Cat
-$$
-
-for the [[partially ordered set]] of causally closed subsets, partially ordered by
-inclusion $\mathcal{O}_1 \subset \mathcal{O}_2$.
-
-=--
-
-
-+-- {: .num_defn #CutoffFunctions}
-###### Definition
-**([[adiabatic switching]])**
-
-For a [[causally closed subset]] $\mathcal{O} \subset \Sigma$ of [[spacetime]] (def. \ref{CausalComplementOfSubsetOfLorentzianManifold}) say that an
-_[[adiabatic switching]] function_ or  _cutoff function_ for $\mathcal{O}$
-is a [[smooth function]] $g_{sw}$ of [[compact support]] (a [[bump function]]) whose
-restriction to some [[neighbourhood]] of $\mathcal{O}$ is the [[constant function]]
-with value $1$:
-
-$$
-  Cutoffs(\mathcal{O})
-  \;\coloneqq\;
-  \left\{
-    g_{sw} \in \mathcal{C}^\infty_c(\Sigma)
-    \;\vert\;
-    \underset{ {U \supset \mathcal{O}} \atop { \text{neighbourhood} } }{\exists}
-    \left(
-      g_{sw}\vert_S = const_1
-    \right)
-  \right\}
-  \,.
-$$
-
-Often we consider the vctor space space $C^\infty(\Sigma)\langle g \rangle $ spanned by a formal
-variable $g$ under multiplication with smooth functions, and consider as adiabatic switching functions
-the corresponding images in this space, which are hence bump functions constant on $g$ over
-a neighbourhood of $\mathcal{O}$.
-
-
-=--
-
-+-- {: .num_lemma #CausalPartition}
-###### Lemma
-**(causal partition)**
-
-Let $\mathcal{O} \subset \Sigma$ be a [[causally closed subset]] (def. \ref{CausalComplementOfSubsetOfLorentzianManifold})
-and let $f \in C^\infty_{cp}(\Sigma)$ be a [[compact support|compactly supported]] [[smooth function]] which vanishes
-on a [[neighbourhood]] $U \supset \mathcal{O}$, i.e. $f\vert_U = 0$.
-
-Then there exists a _causal partition_ of $f$ in that there
-exist compactly supported smooth functions $a,r \in C^\infty_{cp}(\Sigma)$
-such that
-
-1. they sum up to $f$:
-
-   $$
-     f = a + r
-   $$
-
-1. their [[support]] satisfies the following causal ordering (def. \ref{CausalOrdering})
-
-   $$
-     supp(a) {\vee\!\!\!\wedge} \mathcal{O} {\vee\!\!\!\wedge} supp(r)
-     \,.
-   $$
-
-=--
-
-+-- {: .proof}
-###### Proof idea
-
-By assumption $\mathcal{O}$ has a [[Cauchy surface]]. This may be
-extended to a Cauchy surface $\Sigma_p$ of $\Sigma$, such that this is one [[leaf]]
-of a [[foliation]] of $\Sigma$ by Cauchy surfaces, given by a [[diffeomorphism]]
-$\Sigma \simeq (-1,1) \times \Sigma_p$ with the original $\Sigma_p$ at zero.
-There exists then $\epsilon \in (0,1)$ such that
-the restriction of $supp(f)$ to the interval $(-\epsilon, \epsilon)$ is
-in the [[causal complement]] $\overline{\mathcal{O}}$ of the given region (def. \ref{CausalComplementOfSubsetOfLorentzianManifold}):
-
-$$
-  supp(f) \cap (-\epsilon, \epsilon) \times \Sigma_p
-  \;\subset\;
-  \overline{\mathcal{O}}
-  \,.
-$$
-
-Let then $\chi \colon \Sigma \to \mathbb{R}$ be any [[smooth function]] with
-
-1. $\chi\vert_{(-1,0] \times \Sigma_p} = 1$
-
-1. $\chi\vert_{(\epsilon,1) \times \Sigma_p} = 0$.
-
-Then
-
-$$
-  r \coloneqq \chi \cdot f
-  \phantom{AAA}
-  \text{and}
-  \phantom{AAA}
-  a \coloneqq (1-\chi) \cdot f
-$$
-
-are smooth functions as required.
-
-=--
-
-
-
-#### Free fields and Propagators
-
-The definition and construction of a perturbative S-matrix below proceeds on the backdrop of a
-[[formal deformation quantization|formal]] of the underlying [[free field theory]],
-in particular a corresponding perturbative [[algebra of observables]], the _[[Wick algebra]]_ $\mathcal{W}$.
-Here we briefly recall relevant bckground from [[free field theory]].
-
-But just stating the [[axioms]] for the perturbative Lagrangian S-matrix ([below](#PerturbativeSMatrixAndTimeOrderedProducts))
-and deducing from these axioms the [[causally local net of quantum observables]] ([further below](#CausalLocality))
-only requires knowing that there is a
-[[continuous linear functional]]
-
-$$
-  :(-):
-    \;\colon\;
-  \mathcal{F}_{loc} \longrightarrow \mathcal{W}
-$$
-
-from [[local observables]] to the coresponding [[quantum observables]], being elements of the [[Wick algebra]].
-
-The actual construction of the S-matrix ([further below](#ExistenceAndRenormalization)) and the proof of the
-[[main theorem of perturbative renormalization]] requires more details, which we briefly summarize here.
-
-
-
-+-- {: .num_defn #CompactlySupportedPolynomialLocalDensities}
-###### Definition
-**([[local observables]])**
-
-Let $\Sigma$ be a [[globally hyperbolic spacetime]], let
-
-$$
+  \label{NormalOrderingLocalObservables}
   \array{
-    E
+    LocObs(E_{\text{BV-BRST}})
+      &\overset{\phantom{A}:(-):\phantom{A}}{\hookrightarrow}&
+    PolyObs(E_{\text{BV-BRST}})_{mc}
     \\
-    \downarrow^{\mathrlap{fb}}
-    \\
-    \Sigma
+    A &\mapsto& :A:
   }
 $$
 
-be a smooth [[fiber bundle]] regarded as a [[field bundle]] and let
+for the inclusion of [[local observables]] into [[microcausal polynomial observables]] ([this example](A+first+idea+of+quantum+field+theory#PointwiseProductsOfFieldObservablesAdiabaticallySwitchedIsMicrocausal)), thought of as forming [[normal-ordered products]] in the [[Wick algebra]] (by [this def.](A+first+idea+of+quantum+field+theory#NormalOrderedProductNotation)).
+
+We denote the [[Wick algebra]]-product (the [[star product]] $\star_H$ induced by the [[Wightman propagator]] $\Delta_H$) by juxtaposition ([this def.](A+first+idea+of+quantum+field+theory#NormalOrderedProductNotation))
 
 $$
-  \mathbf{L} \in \Omega^{p+1,0}_\Sigma(E)
-$$
-
-be a [[local Lagrangian density]]. We write
-
-$$
-  \Omega \in \Omega^{p,2}_\Sigma(E)
-$$
-
-for the corresponding [[pre-symplectic current]] and
-
-$$
-  \Omega^{p,0}_{\Sigma, Ham}(E)
-$$
-
-for the induced space of [[Hamiltonian differential forms]]. We write
-
-$$
-  \Gamma_\Sigma(E)_{\delta_{EL}\mathbf{L} = 0} \hookrightarrow \Gamma_\Sigma(E)
-$$
-
-for the subspace of solutions to the [[Euler-Lagrange equations]] inside the full field [[configuration space]] (the [[shell]]).
-
-If the [[Euler-Lagrange operator]] $j^\infty_\Sigma(-)^\ast \delta_{EL}\mathbf{L}$ is a _linear [[normally hyperbolic differential operator]]_ on $\Gamma_\Sigma(E)$ we say that the field theory is a _[[free field theory]]_.
-
-Since $\Sigma$ is assumed to be [[time orientation|time-oriented]] [[globally hyperbolic spacetime|globally hyperbolic]], there
-exists a 1-form $e^0$ which represents the [[time orientation]]. The space $\mathcal{F}_{loc}$ of _[[local observables]]_
-is the [[image]] of the [[Hamiltonian differential forms]] with compact spacetime support in the smooth functions on the [[on-shell]] under the
-operations of forming the wedge product with $e^0$ followed by [[transgression]]
-
-
-$$
-  \mathcal{F}_{loc}
-   \;\coloneqq\;
-  im\left(
-    \Omega^{p+1,0}_{\Sigma,Ham,cp}(E)
-      \overset{e^0 \wedge (-)}{\longrightarrow}
-    \Omega^{p2,0}_{\Sigma, cp}(E)
-      \overset{\tau_{\Sigma}}{\longrightarrow}
-    C^\infty\left( \Gamma_\Sigma(E)_{\delta_{EL}\mathbf{L} = 0} \right)
-  \right)
+  A_1 A_2 \;\coloneqq\; A_1 \star_H A_2
   \,.
 $$
 
-Since the [[kernel]] of the transgression map is the space of forms in the image of the
-[[total derivative|total horizontal derivative]] ([[horizontal derivative]]), this is equivalently
+If an element $A \in PolyObs(E_{\text{BV-BRST}})$ has an [[inverse]] with respect to this product, we denote that by
+$A^{-1}$:
 
 $$
-  \mathcal{F}_{loc}
-    \simeq
-  im\left(
-    \Omega^{p+1,0}_{\Sigma,Ham, cp}(E)
-      \overset{e^0 \wedge (-)}{\longrightarrow}
-    \Omega^{p2,0}_{\Sigma, cp}(E)
-  \right)
-  /im(d)
+  A^{-1} A = 1
   \,.
 $$
 
-Due to the restriction to [[Hamiltonian differential forms]] in the construction of $\mathcal{F}_{loc}$,
-the [[presymplectic current]] $\Omega$ induces a [[Poisson bracket]] on the space of local observables
+We write $\Sigma$ for the underlying [[spacetime]]. For $A \in LocObs(E_{\text{BV-BRST}})$ we write $supp(A) \subset \Sigma$ for its spacetime support ([this def.](A+first+idea+of+quantum+field+theory#SpacetimeSupport)).
+For $S_1, S_2 \subset \Sigma$ two [[subsets]] of [[spacetime]] we write $S_1 {\vee\!\!\!\wedge} S_2$ for the  [[causal ordering]]-[[relation]]
+"$S_1$ does not intersect the [[past cone]] of $S_2$", equivalently "$S_2$ does not intersect the [[future cone]] of $S_1$".
 
-$$
-  \{-,-\}
-  \;\colon\;
-  \mathcal{F}_{loc} \otimes \mathcal{F}_{loc}
-    \longrightarrow
-  \mathcal{F}_{loc}
-  \,.
-$$
-
-Given a [[formal deformation quantization]] $\mathcal{W}$ of this Poisson bracket, then we write
-
-$$
-  \mathcal{F}_{loc}
-    \overset{:(-):}{\longrightarrow}
-  \mathcal{W}
-$$
-
-for the corresponding quantization map.
 
 =--
-
-In the case of _[[free field theories]]_ such $\mathcal{W}$ is given by the _[[Wick algebra]]_.
-See there for more.
-
-
-In the following we need to keep track of powers of the [[coupling constant]] and the [[source field]].
-To that end, we write $\langle g,j\rangle$ be the vector space spanned by the elements $g$ and $j$ and
-
-$$
-  \mathcal{F}_{loc} \langle g,j\rangle
-  \;\coloneqq\;
-  \mathcal{F}_{loc} \otimes \langle g,j\rangle
-$$
-
-Then every element of $\mathcal{F}_{loc}\langle g,j \rangle$ may be presented as
-
-$$
-  \underset{n_1}{\sum} g_{sw,n_1} L_{n_1} + \underset{n_2}{\sum} j_{sw,n_2} A_{n_2}
-$$
-
-where $L_{n_1}, L_{n_2} \in \Omega_{\Sigma,poly}^{p+1,0}(E)$ are polynomial local observables, to be regarded
-as [[interaction]] [[Lagrangian densities]] and [[observables]], respectively, and where
-
-$$
-  g_{sw, n_1} \in C^\infty_{cp}(\Sigma) \langle g\rangle
-$$
-
-and
-
-$$
-  j_{sw,n_2} \in C^\infty_{cp}(\Sigma) \langle j \rangle
-$$
-
-are [[compact support|compactly supported]] [[smooth functions]]
-([[bump functions]]) on spacetime $\Sigma$ times the [[coupling constant]] or source strength, respectively,
- to be regarded as [[adiabatic switching|adiabatically switched]]
-[[coupling constant]] and [[source field]], respectively.
-
-
-We will be considering [[formal power series]] in $g/\hbar$ and $j/\hbar$ with coefficients in the
-[[Wick algebra]] $\mathcal{W}$. Since the vector space underlying the Wick algebra
-$\mathcal{W} = (\mathcal{F}_{mc}[ [ \hbar ] ],  \cdot_H  )$
-is itself that of a formal power series in $\hbar$, we have
-
-$$
-  \mathcal{W}[ [ g/\hbar, j/\hbar] ] \subset  ( \mathcal{F}_{mc}((\hbar)) [ [ g, j ] ], \cdot_H )
-  \,.
-$$
-
 
 
 #### Perturbative S-Matrix and Time-ordered products
  {#PerturbativeSMatrixAndTimeOrderedProducts}
 
-We consider now the [[axioms]] for a perturbative S-matrix of a [[Lagrangian field theory]]
-as used in  [[causal perturbation theory]] (def. \ref{PerturbativeSMatrixOnMinkowskiSpacetime} below).
-Since, by definition, the S-matrix is a formal sum of multi-[[linear continuous functionals]],
-it is convenient to impose axioms on these directly: this is the axiomatics for _[[time-ordered products]]_
+We consider now the [[axioms]] for a perturbative S-matrix of a [[Lagrangian field theory]] as used in  [[causal perturbation theory]] (def. \ref{LagrangianFieldTheoryPerturbativeScattering} below).
+Since, by definition, the S-matrix is a formal sum of multi-[[linear continuous functionals]], it is convenient to impose axioms on these directly: this is the axiomatics for _[[time-ordered products]]_
 in def. \ref{TimeOrderedProduct} below. That these latter axioms already imply the former
 is the statement of prop. \ref{TimeOrderedProductInducesPerturbativeSMatrix} below. Its proof
 requires a close look at the "reverse-time ordered products" for the inverse S-matrix (def. \ref{ReverseTimeOrderedProduct} below)
@@ -713,148 +376,151 @@ In applications one considers further axioms, in particular compatibility of the
 (see [below](#ExistenceAndRenormalization)).
 
 
-+-- {: .num_defn #PerturbativeSMatrixOnMinkowskiSpacetime}
+
++-- {: .num_defn #LagrangianFieldTheoryPerturbativeScattering}
 ###### Definition
-**(perturbative Lagrangian S-matrix)**
+**([[S-matrix]] and [[renormalization scheme]])**
 
-Let $\mathcal{W}$ be a [[Wick algebra]]
-encoding the quantization of [[free fields]] in $E$, with
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}.
 
-$$
-  \mathcal{F}_{loc} \overset{:(-):}{\longrightarrow} \mathcal{W}
-$$
-
-the quantization map (def. \ref{CompactlySupportedPolynomialLocalDensities}).
-
-Then a _Lagrangian S-matrix for fields of type $E$ perturbing the free fields encoded by $\mathcal{W}$_, is a [[functional]]
+Then a _perturbative [[S-matrix]]_ or _[[renormalization scheme]]_ for [[perturbative QFT]] around this [[free field|free]] [[vacuum]] is a [[function]]
 
 $$
-  S
+  \mathcal{S}
     \;\colon\;
-  \mathcal{F}_{loc}\otimes ( \langle g,j\rangle  ) \longrightarrow \mathcal{W}[ [ g/\hbar, j/\hbar ] ]
+  LocObs(E_{\text{BV-BRST}})[ [\hbar , g, j] ]
+    \longrightarrow
+  PolyObs(E_{\text{BV-BRST}})_{mc}((\hbar))[ [ g,j ] ]
 $$
 
-(on [[local observables]] (def. \ref{CompactlySupportedPolynomialLocalDensities})
-times the coupling constant $g$ or source strength $j$
-with values in the algebra of [[formal power series]] in the formal variables $g/\hbar$
-and $j/\hbar$  in the given [[Wick algebra]])
-such that the following conditions hold for fixed $L_{int}, \{ J_n\}_{n = 1}^N$:
+from [[local observables]] to [[microcausal polynomial observables]] with formal paramaters adjoined as indicated ([[Laurent series]] in [[Planck's constant]] $\hbar$ and [[formal power series]] in [[coupling constant]] $g$ and [[source field]] coupling $j$)
+such that the following conditions hold:
 
 1. (perturbation)
 
-   There exist [[distributions]] ([[multilinear map|multi-]] [[linear continuous functionals]]) of the form
+   There exist [[multilinear map|multi-]][[linear continuous functionals]] (over $\mathcal{C}[ [\hbar, g, j] ]$) of the form
 
    $$
-     T \;\colon\; (\mathcal{F}_{loc} \otimes ( \langle g,j \rangle ) )^{\otimes^k} \longrightarrow \mathcal{W}[ [ g/\hbar, j/\hbar ] ]
+     T
+       \;\colon\;
+     \left(
+       {\, \atop \,}
+       PolyLocObs(E_{\text{BV-BRST}})[ [\hbar, g, j] ]
+       {\, \atop \,}
+     \right)^{\otimes^k_{\mathbb{C}[ [\hbar, g, j] ]}}
+       \longrightarrow
+     PolyObs(E_{\text{BV-BRST}})_{mc}((\hbar))[ [ g, j ]
    $$
 
    for all $k \in \mathbb{N}$, such that:
 
-   1. The unary operation is the quantization map
+   1. The unary operation is the inclusion as [[normal-ordered products]] (eq:NormalOrderingLocalObservables)
 
       $$
-        T(L + A) = :L: + :A:
+        T(A) = :A:
       $$
 
-   1. The S-matrix is the [[exponential]] of "time-ordered products" in that  for $L, A  \in \mathcal{F}_{loc}$
+   1. The S-matrix is the [[exponential]] of "[[time-ordered products]]" in that  for $S_{int}, A  \in LocObs(E_{\text{BV-BRST}})$
 
       $$
         \begin{aligned}
-          S( g L + j A )
+          \mathcal{S}( A)
           & =
-          T\left( \exp_{\otimes}\left( \tfrac{1}{i \hbar} \left( g L + j A\right) \right) \right)
+          T\left( \exp_{\otimes}\left( \tfrac{1}{i \hbar} A  \right) \right)
           \\
           & \coloneqq
-          \underoverset{k = 0}{\infty}{\sum} \tfrac{1}{k!}
+          \underoverset{k = 0}{\infty}{\sum} \frac{1}{k}
           \frac{1}{(i \hbar)^k}
-          T(\underset{k\, \text{arguments}}{\underbrace{ (g L + j A) \cdots (g L + j A) }})
+          T(\underset{k\, \text{arguments}}{\underbrace{ A, \cdots,  A  }})
         \end{aligned}
       $$
 
-1. (normalization)
-
-   $$
-     S(0) = 1
-   $$
-
 1. ([[causal additivity]])
 
-  For all $J_1, J_2, L \in \mathcal{F}_{loc}$ we have
+   For all [[local observables]] $S_{int}, A_1, A_2 \in LocObs(E_{\text{BV-BRST}})[ [\hbar, g, j] ]$ we have
 
    $$
-     \left( supp(J_1) {\vee\!\!\!\wedge} supp(J_2) \right)
+     \left(
+        {\, \atop \,}
+        supp(A_1) {\vee\!\!\!\wedge} supp(A_2)
+        {\, \atop \,}
+     \right)
      \;\; \Rightarrow \;\;
      \left(
-       \underset{L \in \mathcal{F}_{loc}}{\forall}
-       \left(
-         S(L + J_1 + J_2)
-         =
-         S(L + J_1) S(L)^{-1} S(L + J_2)
-       \right)
+       {\, \atop \,}
+       \mathcal{S}(S_{int} + A_1 + A_2)
+       =
+       \mathcal{S}(S_{int} + A_1) \mathcal{S}(S_{int})^{-1} \mathcal{S}(S_{int} + A_2)
+       {\, \atop \,}
      \right)
-     \,.
+     \,,
    $$
 
+
 Given such perturbative $S$-matrix, then we say that the _[[generating function]]_
-(for [[quantum observables]], see def. \ref{GeneratingFunctionsForCorrelationFunctions} below) that it induces is the functional
+(for [[quantum observables]] (def. \ref{GeneratingFunctionsForCorrelationFunctions} below) that it induces is the functional
 
 $$
   \label{GeneratingFunctionInducedFromSMatrix}
-  Z
+  \mathcal{Z}_{(-)}(-)
     \;\colon\;
-  \mathcal{F}_{loc} \langle g \rangle
-    \times
-  \mathcal{F}_{loc} \langle j \rangle
+  \left(
+    {\, \atop \,}
+    LocObs(E_{\text{BV-BRST}})[ [\hbar, g, j] ]
+    {\, \atop \,}
+  \right)^2
     \longrightarrow
-  \mathcal{W}[ [ g/\hbar] ][ [ j/\hbar ] ]
+  PolyObs(E_{\text{BV-BRST}})_{mc}((\hbar))[ [g , j] ]
 $$
 
 given by
 
 $$
-  Z_{g_{sw}L_{int}}(j_{sw}A)
-  \;\coloneqq\;
-  S(g_{sw}L_{int})^{-1} S( g_{sw}L_{int} + j_{sw}A )
+  \mathcal{Z}_{S_{int}}(A)
+    \;\coloneqq\;
+  \mathcal{S}(S_{int})^{-1} \mathcal{S}( S_{int} + A )
   \,.
 $$
 
 
 =--
 
-Def. \ref{PerturbativeSMatrixOnMinkowskiSpacetime} is due to ([Epstein-Glaser 73 (1)](#EpsteinGlaser73))
-(in view of lemma \ref{CausalLocalityOfThePerturbativeSMatrix} below), except that these authors
-remain a little vague on the nature of the domain.
-The domain $\mathcal{F}_{loc}$ is made explicit (in terms of axioms
+Def. \ref{LagrangianFieldTheoryPerturbativeScattering} is due to ([Epstein-Glaser 73 (1)](#EpsteinGlaser73)), 
+in view of lemma \ref{CausalLocalityOfThePerturbativeSMatrix} below, except that these authors
+remain a vague about nature of the domain.
+The domain $LocObs$ is made explicit (in terms of axioms
 for the [[time-ordered products]], see def. \ref{TimeOrderedProduct} below),
 in ([Brunetti-Fredenhagen 99, section 3](#BrunettiFredenhagen99), [D&#252;tschFredenhagen 04, appendix E](#DuetschFredenhagen04),
-[Hollands-Wald 04,  around (20)](#HollandsWald04)); for review see ([Rejzner 16, around def. 6.7](#Rejzner16)).
+[Hollands-Wald 04,  around (20)](#HollandsWald04)); for review see ([Rejzner 16, around def. 6.7](#Rejzner16), [Dütsch 18, section 3.3](#Duetsch18)).
 
 +-- {: .num_remark}
 ###### Remark
-**(further axioms)**
+**([[quantum anomalies]] and [[master Ward identity]])**
 
-The list of axioms in def. \ref{PerturbativeSMatrixOnMinkowskiSpacetime},
-similarly those for the [[time-ordered products]] below in def. \ref{TimeOrderedProduct}, is just the bare
-minimum which implies that the corresponding [[quantum observables]]
-organize into a [[causally local net]] (discussed [below](#CausalLocality)).
-In applications such as in discussion of [[renormalization]] ([below](#ExistenceAndRenormalization))
-one considers further axioms, such a unitarity and compatibility with spacetime symmetry.
+The list of [[axioms]] for the [[S-matrix]] in def. \ref{LagrangianFieldTheoryPerturbativeScattering}
+(and similarly that for the [[time-ordered products]] below in def. \ref{TimeOrderedProduct}) 
+is sufficient to imply a [[causally local net]] of perturbative [[interacting field algebras of quantum observables]] (discussed [below](#CausalLocality)). 
+
+It does not guarantee, however, that the [[BV-BRST differential]] passes to those
+[[algebras of quantum observables]], hence it does not guarantee that the [[infinitesimal symmetries of the Lagrangian]]
+are respected by the [[quantization]] process (there may be "[[quantum anomalies]]"). 
+The extra condition that does ensure this is the _[[quantum master Ward identity]]_ or _[[quantum master equation]]_. 
+This we discuss elsewhere.
 
 =--
 
 
 +-- {: .num_remark #PerturbativeSMatrixInverse}
 ###### Remark
-**(invertibility of the perturbative S-matrix)**
+**([[inverse|invertibility]] of the [[S-matrix]])**
 
-The mutliplicative inverse $S(-)^{-1}$ of the perturbative S-matrix in def. \ref{PerturbativeSMatrixOnMinkowskiSpacetime}
-always exists: By the axioms "perturbation" and "normalization" this follows with the usual formula
-for the multiplicative inverse of [[formal power series]] that are non-vanishing in degree 0:
+The mutliplicative inverse $S(-)^{-1}$ of the perturbative S-matrix in def. \ref{LagrangianFieldTheoryPerturbativeScattering}
+indeed exists, so that the list of axioms is indeed well defined: By the axiom "perturbation" and "normalization" this follows with the usual formula for the multiplicative inverse of [[formal power series]] that are non-vanishing in degree 0:
 
 If we write
 
 $$
-  S(g L +  j A) \coloneqq 1 + D(g L + j A)
+  \mathcal{S}(A) = 1 + \mathcal{D}(A)
 $$
 
 then
@@ -862,20 +528,20 @@ then
 $$
   \label{InfverseOfPerturbativeSMatrix}
   \begin{aligned}
-    S(g L + j A)^{-1} &= (1 + D(j L + j A))^{-1}
+    \mathcal{S}(A)^{-1} &= (1 + \mathcal{D}(A))^{-1}
     \\
     & =
-    \underoverset{r = 0}{\infty}{\sum} (-D(g L + j A))^r
+    \underoverset{r = 0}{\infty}{\sum} (-\mathcal{D}(A))^r
     \\
     & =
-    \underoverset{r = 0}{\infty}{\sum} (1 - S(g L + j A))^r
+    \underoverset{r = 0}{\infty}{\sum} (1 - \mathcal{S}(A))^r
     \,,
   \end{aligned}
 $$
 
-where the last sum does exist in $\mathcal{W}[ [ g/\hbar, j/\hbar] ]$ because by
-the axiom "normalization"
-$D(L)$ has vanishing coefficient in zeroth order, so that
+where the sum does exist in $PolyObs(E_{\text{BV-BRST}})((\hbar))[ [[ g,j ] ]$, because (by
+the axiom "perturbation")
+$\mathcal{D}(A)$ has vanishing coefficient in zeroth order in the formal parameters, so that
 only a finite sub-sum of the formal infinite sum contributes in each order.
 
 =--
@@ -883,9 +549,9 @@ only a finite sub-sum of the formal infinite sum contributes in each order.
 
 +-- {: .num_remark #InterpretationOfPerturbativeSMatrix}
 ###### Remark
-**(interpretation of the perturbative S-matrix as a [[path integral]])**
+**(interpretation of [[S-matrix]] as [[path integral]])**
 
-In def. \ref{PerturbativeSMatrixOnMinkowskiSpacetime} $g/\hbar$ has the interpretation of the
+In def. \ref{LagrangianFieldTheoryPerturbativeScattering} $g/\hbar$ has the interpretation of the
 [[coupling constant]] divided by [[Planck's constant]]. One obtains a [[formal power series]]
 with the expected non-negative powers of $\hbar$ after passing to the [[quantum observables]]
 induced by the S-matrix, see def. \ref{GeneratingFunctionsForCorrelationFunctions} below.
@@ -898,8 +564,8 @@ In informal heuristic discussion of [[perturbative quantum field theory]] the S-
 written
 
 $$
-  S\left(
-    \tfrac{g}{\hbar} L_{int} + j
+  \mathcal{S}\left(
+    g S_{int} + j A
   \right)
   \;\overset{\text{not really!}}{=}\;
   \underset{\Phi \in \Gamma_\Sigma(E)_{asmpt}}{\int}
@@ -909,21 +575,23 @@ $$
       \tfrac{g}{i \hbar} L_{int}(\Phi) + j A(\Phi)
     \right)
   \right)  e^{\tfrac{1}{i \hbar}\int_X L_{free}(\Phi) }D[\Phi]
+  \,,
 $$
 
-where the integration is thought to be over the [[configuration space]] $\Gamma_\Sigma(E)_{asmpt}$ of [[field (physics)|fields]] $\Phi$
+where the would-be [[integration]] is thought to be over the [[space of field histories]] 
+$\Gamma_\Sigma(E_{\text{BV-BRST}})_{asmpt}$ 
 (the [[space of sections]] of the given [[field bundle]])
-which satisfy given asymptotic conditions at $x^0 \to \pm \infty$; and as these boundary conditions
-vary the above is regarded as an integral kernel that defines the required operator in $\mathcal{W}$
+for [[field histories]] which satisfy given asymptotic conditions at $x^0 \to \pm \infty$; and as these boundary conditions
+vary the above is regarded as a would-be [[integral kernel]] that defines the required operator in the [[Wick algebra]]
 (e.g. [Weinberg 95, around (9.3.10) and (9.4.1)](#Weinberg95)).
 
-We may think of the axioms in def. \ref{PerturbativeSMatrixOnMinkowskiSpacetime} as rigorously _defining_
+We may think of the axioms in def. \ref{LagrangianFieldTheoryPerturbativeScattering} as rigorously _defining_
 the [[path integral]], not as an actual [[integration]], but "[[synthetic mathematics|synthetically]]"
-by defining the expected causal behaviour of the would-be integration.
+by defining the expected causal behaviour of the outcome.
 
 =--
 
-Definition \ref{PerturbativeSMatrixOnMinkowskiSpacetime} suggests to focus on the
+Definition \ref{LagrangianFieldTheoryPerturbativeScattering} suggests to focus on the
 multilinear operations $T(...)$ which define the perturbative S-matix order-by-order:
 
 
@@ -931,30 +599,62 @@ multilinear operations $T(...)$ which define the perturbative S-matix order-by-o
 ###### Definition
 **([[time-ordered product]])**
 
-Let $\mathcal{W}$ be a [[Wick algebra]]
-encoding the quantization of [[free fields]] in $E$ (def. \ref{CompactlySupportedPolynomialLocalDensities}).
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}.
 
-A _[[time-ordered product]]_ is a sequence of [[distributions]] ([[multilinear map|multi-]] [[linear continuous functionals]]) of the form
+A _[[time-ordered product]]_ is a sequence of [[multilinear map|multi-]][[linear continuous functionals]]) of the form
 
 $$
-  T_k \;\colon\; \mathcal{F}_{loc}^{\otimes^k} \longrightarrow \mathcal{W}[ [ g/\hbar ] ]
+  T_k 
+    \;\colon\; 
+  \left(
+    {\, \atop \,}
+    LocObs(E_{\text{BV-BRST}})[ [\hbar, g, j] ]
+    {\, \atop \,}
+  \right)^{\otimes^k_{\mathcal{C}[ [\hbar, g, j] ]}}
+    \longrightarrow 
+  PolyObs(E_{\text{BV-BRST}})_{reg}((\hbar))[ [g , j] ]
 $$
 
 for all $k \in \mathbb{N}$, such that:
 
-1. (perturbation) $T_1(g L + j A) =  :g L: +  :j A:$
+1. (normalization) $T_0(A) = 1$
 
-1. (normalization) $T_0 = 1$
+1. (perturbation) $T_1(A) =  :A:$
 
-1. (symmetry) each $T_k$ is symmetric in its arguments
+1. (symmetry) each $T_k$ is graded-symmetric in its arguments
 
-1. ([[causal factorization]]) If $supp(L_1) \cup \cdots \cup supp(L_r) \;{\vee\!\!\!\wedge}\; supp(L_{r+1}) \cup \cdots \cup supp(L_k)$ then
+1. ([[causal factorization]]) If 
 
    $$
-     T((g L_1 + j A_1)  \cdots (g L_k + j A_k) )
+     \left(
+       {\, \atop \,}
+       supp(A_1) 
+         \cup 
+         \cdots 
+         \cup 
+       supp(A_r)
+       {\, \atop \,}
+     \right) 
+       \;{\vee\!\!\!\wedge}\; 
+     \left(
+       {\, \atop \,} 
+       supp(A_{r+1}) 
+         \cup 
+         \cdots 
+         \cup 
+       supp(A_k) 
+       {\, \atop \,}
+     \right)
+   $$ 
+   
+   then
+
+   $$
+     T(A_1, \cdots, A_k)
        =
-     T( (g L_1 + j A_1)  \cdots (g L_r + j A_r) )
-     T( (g L_{r+1} + j A_{r+1})  \cdots ( g L_k + j A_{k} ) )
+     T( A_1,   \cdots , A_r )
+     \,
+     T( A_{r+1},   \cdots , A_k )
      \,.
    $$
 
@@ -962,9 +662,11 @@ for all $k \in \mathbb{N}$, such that:
 
 +-- {: .num_defn #NotationForTimeOrderedProductsAsGeneralizedFunctions}
 ###### Definition
-**(notation for time-ordered products as [[generalized functions]])**
+**([[time-ordered products]] as [[generalized functions]])**
 
-It will be convenient (as in [Epstein-Glaser 73](#EpsteinGlaser73)) to think of the time-ordered products, being [[operator-valued distributions]], as [[generalized functions]] with dependence on spacetime points:
+It isconvenient (as in [Epstein-Glaser 73](#EpsteinGlaser73)) to think of the [[time-ordered products]], being 
+[[Wick algebra]]-valued [[distributions]] (hence [[operator-valued distributions]] if we were to choose a [[representation]] of the
+[[Wick algebra]] by [[linear operator]] on a [[Hilbert space]]), as [[generalized functions]] depending on spacetime points:
 
 $$
   \begin{aligned}
@@ -1457,7 +1159,7 @@ $$
   \end{aligned}
 $$
 
-is indeed a perturbative S-matrix according to def. \ref{PerturbativeSMatrixOnMinkowskiSpacetime}.
+is indeed a perturbative S-matrix according to def. \ref{LagrangianFieldTheoryPerturbativeScattering}.
 
 =--
 
@@ -1613,7 +1315,7 @@ turns out to yield the [[formal deformation quantization|formal]] [[Fedosov defo
 the interacting field theory ([Collini 16](#Collini16)).)
 
 
-Namely a key consequence of the "[[causal additivity]]" axiom on the S-matrix in def. \ref{PerturbativeSMatrixOnMinkowskiSpacetime}
+Namely a key consequence of the "[[causal additivity]]" axiom on the S-matrix in def. \ref{LagrangianFieldTheoryPerturbativeScattering}
 turns out to be that the perturbative [[quantum observables on interacting fields]] with compact spacetime support (def. \ref{GeneratingFunctionsForCorrelationFunctions})
 
 1. depend on the [[adiabatic switching]] $g_{sw}$ of the [[interaction]] [[Lagrangian density]]
@@ -1623,7 +1325,7 @@ only up to _canonical_ unitary [[isomorphism]] (lemma \ref{CausalLocalityOfThePe
 
 To the extent that a [[local net of observables]] may be regarded as _defining_ a [[quantum field theory]],
 which is the claim of ([[perturbative AQFT|perturbative]]) [[AQFT]],
-this proves that the perturbative S-matrices in [[causal perturbation theory]] as in def. \ref{PerturbativeSMatrixOnMinkowskiSpacetime}
+this proves that the perturbative S-matrices in [[causal perturbation theory]] as in def. \ref{LagrangianFieldTheoryPerturbativeScattering}
 indeed make sense, despite the involvement of [[adiabatic switching]] of the [[interaction]] [[Lagrangian density]]
 which does not make physical sense when interpreted naively: In reality the interaction is of course not (for realistic [[theory (physics)|theories]] at least) "switched off" outside some bounded region of spacetime; but the result here shows that if we pretend that it does
 then first of all we get consistent mathematical formulas and moreover we can then nevertheless compute the correct [[quantum observables]] that are localized in this spacetime region. But the [[local net of observables]] as the spacetime localization varies
@@ -1638,7 +1340,7 @@ $\,$
 ###### Definition
 **(perturbative [[quantum observables on interacting fields]] via [[Bogoliubov's formula]])**
 
-Let $S$ be a perturbative S-matrix as in def. \ref{PerturbativeSMatrixOnMinkowskiSpacetime},
+Let $S$ be a perturbative S-matrix as in def. \ref{LagrangianFieldTheoryPerturbativeScattering},
 and $g_{sw} L_{int} \in \mathcal{F}_{loc}\langle g\rangle$ an [[adiabatic switching|adiabatically switched]]
 [[interaction]] [[Lagrangian density]].
 
@@ -1653,7 +1355,7 @@ $$
   \mathcal{W}[ [ g ] ][ [ \hbar ] ]
 $$
 
-which is the [[derivative]] of the generating functional $Z$ ((eq:GeneratingFunctionInducedFromSMatrix) in def. \ref{PerturbativeSMatrixOnMinkowskiSpacetime}) at vanishing [[source field]]:
+which is the [[derivative]] of the generating functional $Z$ ((eq:GeneratingFunctionInducedFromSMatrix) in def. \ref{LagrangianFieldTheoryPerturbativeScattering}) at vanishing [[source field]]:
 
 $$
   \widehat{A}(j)
@@ -1759,7 +1461,7 @@ just for completeness:
 ###### Definition
 **([[retarded products]] induced from perturbative S-matrix)
 
-It follows from the perturbation axiom in def. \ref{PerturbativeSMatrixOnMinkowskiSpacetime} that there is a system of [[continuous linear functionals]]
+It follows from the perturbation axiom in def. \ref{LagrangianFieldTheoryPerturbativeScattering} that there is a system of [[continuous linear functionals]]
 
 $$
   R
@@ -1822,7 +1524,7 @@ in terms of the generating functions / [[retarded products]]:
 ###### Lemma
 **(causal locality of the perturbative S-matrix)**
 
-Let $S$ be a perturbative S-matrix according to def. \ref{PerturbativeSMatrixOnMinkowskiSpacetime}
+Let $S$ be a perturbative S-matrix according to def. \ref{LagrangianFieldTheoryPerturbativeScattering}
 with $Z$ the generating functional (eq:GeneratingFunctionInducedFromSMatrix) it induces
 
 1. The following conditions are equivalent for all $L, J_1, J_2 \in \mathcal{F}_{loc}$:
@@ -1833,7 +1535,7 @@ with $Z$ the generating functional (eq:GeneratingFunctionInducedFromSMatrix) it 
 
    1. $S(L + J_1 + J_2) = S(L + J_1) \, S(L)^{-1} \, S(L + J_2)$
 
-   Hence causal additivity in def. \ref{PerturbativeSMatrixOnMinkowskiSpacetime}
+   Hence causal additivity in def. \ref{LagrangianFieldTheoryPerturbativeScattering}
 implies that all these conditions hold if $supp(J_1) {\vee\!\!\!\wedge} supp(J_2)$.
 
 
@@ -1967,7 +1669,7 @@ system of localized [[quantum observables on interacting fields]]:
 ###### Definition
 **(system of perturbative generating [[algebras of observables]])
 
-Let $S$ be a perturbative S-matrix according to def. \ref{PerturbativeSMatrixOnMinkowskiSpacetime}
+Let $S$ be a perturbative S-matrix according to def. \ref{LagrangianFieldTheoryPerturbativeScattering}
 and let $L_{int} \in \Omega^{d,0}(E)$ be an [[interaction]] [[Lagrangian density]].
 
 
@@ -2060,7 +1762,7 @@ conjugation by each such $K$ gives the same result on the given generators: $Z_{
 ###### Proposition
 **(system of perturbative generating algebras is [[causally local net of observables]])**
 
-Given a perturbative S-matrix according to def. \ref{PerturbativeSMatrixOnMinkowskiSpacetime}
+Given a perturbative S-matrix according to def. \ref{LagrangianFieldTheoryPerturbativeScattering}
 and an interaction [[Lagrangian density]] $L_{int}$, then the system of generating algebras of observables $Gen_{L_{int}}$ (def. \ref{PerturbativeGeneratingLocalNetOfObservables})
 is a [[causally local net of observables]] in that
 
@@ -2128,7 +1830,7 @@ of perturbative [[quantum observables]] (def. \ref{GeneratingFunctionsForCorrela
 ###### Definition
 **(system of [[algebras of quantum observables]])
 
-Let $S$ be a perturbative S-matrix according to def. \ref{PerturbativeSMatrixOnMinkowskiSpacetime}
+Let $S$ be a perturbative S-matrix according to def. \ref{LagrangianFieldTheoryPerturbativeScattering}
 and let $L_{int} \in \Omega^{d,0}(E)$ be an [[interaction]] [[Lagrangian density]].
 
 
@@ -2199,7 +1901,7 @@ As a corollary of prop. \ref{GeneratingAlgebrasIsLocalNet} we then have the key 
 **(system of algebras of perturbative quantum observables is [[local net of observables]])**
 
 
-Given a perturbative S-matrix according to def. \ref{PerturbativeSMatrixOnMinkowskiSpacetime}
+Given a perturbative S-matrix according to def. \ref{LagrangianFieldTheoryPerturbativeScattering}
 and an interaction [[Lagrangian density]] $L_{int}$, then the system of [[algebras of observables]] $Obs_{L_{int}}$ (def. \ref{SystemOfAlgebrasOfQuantumObservables})
 is a [[local net of observables]] in that
 
@@ -2844,7 +2546,7 @@ Textbooks account of this axiomatic approach to defining the S-matrix (i.e. not 
 
 * {#Gribov69} [[Vladimir Gribov]], _The theory of complex angular momenta_, Lecture St. Petersburg 1996, publsihed.  Cambridge 2003 ([doi:10.1017/CBO9780511534959](https://doi.org/10.1017/CBO9780511534959))
 
-Discussion of S-matrix analyticity as a constraint on global causality violation of locally Lorentz invariant theories is in 
+Discussion of S-matrix analyticity as a constraint on global causality violation of locally Lorentz invariant theories is in
 
 * {#AAHDNR06} Allan Adams, [[Nima Arkani-Hamed]], Sergei Dubovsky, Alberto Nicolis, Riccardo Rattazzi, _Causality, Analyticity and an IR Obstruction to UV Completion_, JHEP 0610:014, 2006 ([arXiv:hep-th/0602178](https://arxiv.org/abs/hep-th/0602178))
 
@@ -2924,8 +2626,9 @@ following
 
 For review and further development in the context of [[perturbative AQFT]] see the references there, such as
 
-
 * {#Rejzner16} [[Katarzyna Rejzner]], _Perturbative Algebraic Quantum Field Theory_, Mathematical Physics Studies, Springer 2016 ([pdf](https://link.springer.com/book/10.1007%2F978-3-319-25901-7))
+
+* {#Duetsch18} [[Michael Dütsch]], _[[From classical field theory to perturbative quantum field theory]]_, 2018
 
 
 See also
