@@ -21,10 +21,19 @@
 
 _Quantum electrodynamics_ ("QED") is the [[quantum field theory]] of [[electromagnetism]]: it describes the [[quantum theory]] of [[photons]] and [[electrons]].
 
+The [[Lagrangian density]] defining QED is the sum of 
+
+1. the [[free field]] contribution of the [[electromagnetic field]];
+
+1. the [[free field]] contribution of the [[Dirac field]]
+
+1. the [[electron-photon interaction]] term.
 
 ## Related concepts
 
 * [[photon propagator]]
+
+* [[Lamb shift]]
 
 * [[quantum field theory]]
 
