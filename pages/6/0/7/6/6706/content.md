@@ -316,7 +316,7 @@ $$
 
 +-- {: .num_prop #QuantumMasterEquation}
 ###### Proposition
-**([[quantum master equation]] implies [[quantum master Ward identity]] on [[regular polynomial observables]])**
+**([[quantum master equation]] and [[quantum master Ward identity]] on [[regular polynomial observables]])**
 
 Consider an [[adiabatic switching|adiabatically switched]] non-point-[[interaction]] [[action functional]] in the form of a [[regular polynomial observable]] in degree 0
 
@@ -329,7 +329,7 @@ $$
 
 Then the following are equivalent:
 
-1. The _quantum master equation_ (QME)
+1. The _[[quantum master equation]]_ (QME)
 
    $$
      \label{OnRegularObservablesQuantumMasterEquation}
@@ -338,43 +338,63 @@ Then the following are equivalent:
       i \hbar  \Delta_{BV}( S' + S_{int} )
      \;=\;
      0
+     \,.
    $$
 
-   holds on [[regular polynomial observables]].
 
+1. The  [[perturbative S-matrix]] (def. \ref{OnRegularObservablesPerturbativeSMatrix}) is $BV$-closed 
 
-1. The  [[perturbative S-matrix]] on [[regular polynomial observables]] (def. \ref{OnRegularObservablesPerturbativeSMatrix}) is $BV$-closed 
+   $$
+     \{-S', \mathcal{S}(S_{int})\} = 0
+     \,.
+   $$
 
-  $$
-    \{-S', \mathcal{S}(S_{int})\} = 0
-    \,.
-  $$
+1. The quantum _[[master Ward identity]]_ (MWI) on [[regular polynomial observables]] _in terms of [[retarded products]]_:
 
-Moreover, if the [[quantum master equation]] (eq:OnRegularObservablesQuantumMasterEquation) holds, then the interacting quantum [[BV-differential]] (def. \ref{BVDifferentialInteractingQuantum}) is equal, up to a sign, to the sum of the [[time-ordered product|time-ordered]] [[antibracket]] ([this def.](BV-operator#AntibracketTimeOrdered)) with the _total_ [[action functional]] $S' + S_{int}$ and $i \hbar$ times the [[BV-operator]] ([](BV-operator#ForGaugeFixedFreeLagrangianFieldTheoryBVOperator)):
+   $$
+     \label{OnRegularObservablesQuantumMasterWardIdentity}
+     \mathcal{R} \circ \{-S',(-)\} \circ \mathcal{R}^{-1}   
+     \;=\;
+     -
+     \left(
+       \left\{ S' + S_{int} \,,\, (-) \right\}_{\mathcal{T}} 
+       + i \hbar   \Delta_{BV}
+     \right)
+   $$
 
-$$
-  \label{OnRegularObservablesQuantumMasterWardIdentity}
-  \mathcal{R} \circ \{-S',(-)\} \circ \mathcal{R}^{-1}   
-  \;=\;
-  -
-  \left(
-    \left\{ S' + S_{int} \,,\, (-) \right\}_{\mathcal{T}} + i \hbar \Delta_{BV}
-  \right)
-$$
+   ([Dütsch 18, (4.2)](Ward+identity#Duetsch18))
 
-This is called the _[[quantum master Ward identity]]_ on [[regular polynomial observables]].
+   expressing the interacting quantum [[BV-differential]] (def. \ref{BVDifferentialInteractingQuantum}) as the sum of the [[time-ordered product|time-ordered]] [[antibracket]] ([this def.](BV-operator#AntibracketTimeOrdered)) with the _total_ [[action functional]] $S' + S_{int}$ and $i \hbar$ times the [[BV-operator]] ([BV-operator](BV-operator#ForGaugeFixedFreeLagrangianFieldTheoryBVOperator)).
+
+1. The quantum _[[master Ward identity]]_ (MWI) on [[regular polynomial observables]] _in terms of [[time-ordered products]]_:
+
+   $$
+     \label{OnRegularObservablesQuantumMasterWardIdentityViaTimeOrdered}
+     \mathcal{S}(-S_{int}) 
+       \star_F 
+     \{-S', \mathcal{S}(S_{int}) \star_F  (-)\}
+     \;=\;
+     -
+     \left(
+       \left\{ S' + S_{int} \,,\, (-) \right\}_{\mathcal{T}} 
+       + i \hbar   \Delta_{BV}
+     \right)
+   $$
+
+   ([Dütsch 18, (4.8)](Ward+identity#Duetsch18))
 
 =--
 
-([Rejzner 11, (5.35) - (5.38)](#Rejzner11))
+([Rejzner 11, (5.35) - (5.38)](#Rejzner11), following [Hollands 07, (342)-(345)](Ward+identity#Hollands07))
+
 
 +-- {: .proof}
 ###### Proof
 
-To see that the two conditions are equivalent, we compute as follows
+To see that the first two conditions are equivalent, we compute as follows
 
 $$
-  \label{aaa}
+  \label{QuantumMasterOnRegularObservablesBVDifferentialOfSMatrixInTerms}
   \begin{aligned}
     \left\{
       -S',  \mathcal{S}(S_{int})
@@ -473,7 +493,6 @@ $$
 
 Here in the first step we used the definition of the [[BV-operator]] ([this def.](ForGaugeFixedFreeLagrangianFieldTheoryBVOperator)) to rewrite the plain antibracket in terms of the time-ordered antibracket ([this def.](BV-operator#AntibracketTimeOrdered)), then under the second brace we used that the time-ordered antibracket is the failure of the BV-operator to be a derivation ([this prop](BV-operator#AntibracketBVOperatorRelation)) and under the first brace the consequence of this statement for application to exponentials ([this example](BV-operator#TimeOrderedExponentialBVOperator)). Finally we collected terms, and to "complete the square" we added the terms on the left of 
 
-
 $$
   \frac{1}{2} \underset{= 0}{\underbrace{\{S', S'\}_{\mathcal{T}}}} 
   - 
@@ -484,7 +503,7 @@ which vanish because, by definition of [[gauge fixing]] ([this def.](A+first+ide
 
 But since the operation $(-) \star_F \exp_{\mathcal{T}}\left( \tfrac{1}{i \hbar} S_{int} \right)$ has the [[inverse]] $(-) \star_F \exp_{\mathcal{T}}\left( \tfrac{-1}{i \hbar}  S_{int} \right)$, this implies the claim.
 
-Next we show that these equivalent conditions imply the last claim.
+Next we show that the [[quantum master equation]] implies the [[quantum master Ward identities]].
 
 We use that the BV-differential $\{-S',-\}$ is a [[derivation]] of the [[Wick algebra]] product $\star_H$ (lemma \ref{DerivationBVDifferentialForWickAlgebra}).
 
@@ -593,12 +612,14 @@ By applying $\mathcal{R}$ to both sides of this equation, this means
 first of all that the interacting quantum BV-differential 
 is equivalently given by
 
-
 $$
   \mathcal{R} \circ \{-S', (-)\} \circ \mathcal{R}^{-1}
   \;=\;
   \mathcal{S}(-S_{int}) \star_F \{-S', \mathcal{S}(S_{int}) \star_F  (-)\}
+  \,,
 $$
+
+hence that if either version (eq:OnRegularObservablesQuantumMasterWardIdentity) or (eq:OnRegularObservablesQuantumMasterWardIdentityViaTimeOrdered)  of the [[master Ward identity]] holds, it implies the other.
 
 Now expanding out the definition of $\mathcal{S}$ (def. \ref{OnRegularObservablesPerturbativeSMatrix}) and expressing $\{-S',-\}$ via the [[time-ordered product|time-ordered]] [[antibracket]] ([this def.](BV-operator#AntibracketTimeOrdered)) and the [[BV-operator]] $\Delta_{BV}$ ([this prop.](BV-operator#ForGaugeFixedFreeLagrangianFieldTheoryBVOperator)) as
 
@@ -762,9 +783,89 @@ $$
   \end{aligned}
 $$
 
-Here in the line with the braces we used that the [[BV-operator]] is a [[derivation]] of the [[time-ordered product]] up to correction by the time-ordered [[antibracket]] ([this prop.](BV-operator#AntibracketBVOperatorRelation)), and under the first brace we used the effect of that property on time-ordered exponentials ([this example](BV-operator#TimeOrderedExponentialBVOperator)), while under the second brace we used that $\{(-),A\}_{\mathcal{T}}$ is a derivation of the time-ordered product.
+Here in the line with the braces we used that the [[BV-operator]] is a [[derivation]] of the [[time-ordered product]] up to correction by the time-ordered [[antibracket]] ([this prop.](BV-operator#AntibracketBVOperatorRelation)), and under the first brace we used the effect of that property on time-ordered exponentials ([this example](BV-operator#TimeOrderedExponentialBVOperator)), while under the second brace we used that $\{(-),A\}_{\mathcal{T}}$ is a derivation of the time-ordered product. Finally we have collected terms, added $0 = \{S',S'\} + i \hbar \Delta_{BV}(S')$ as before, and then used the QME.
 
-Finally we collected terms, added $0 = \{S',S'\} + i \hbar \Delta_{BV}(S')$ as before, and then used the QME.
+This shows that the quantum [[master Ward identities]] follow from the [[quantum master equation]]. To conclude, it is now sufficient to show that, conversely, the MWI in terms of, say, retarded products implies the QME.
+
+To see this, observe that with the BV-differential being nilpotent, also its conjugation by $\mathcal{R}$ is, so that with the above we have:
+
+$$
+  \begin{aligned}
+  & \left( \{-S',-\}\right)^2 = 0
+  \\
+  \Leftrightarrow
+  \;
+  &
+  \left( \mathcal{R} \circ \{-S',(-)\} \circ \mathcal{R}^{-1} \right)^2 = 0
+  \\
+  \Leftrightarrow  
+  \;
+  &
+  \underset{
+    \left\{
+      {\, \atop \,}
+      \tfrac{1}{2}\{S' + S_{int}, S' + S_{int}\}_{\mathcal{T}} 
+      + 
+      i \hbar \Delta_{BV}(S' + S_{int})
+      \,,\,
+      (-)
+    \right\}
+  }{
+  \underbrace{
+    \left(
+      \{S' + S_{int}, (-)\}_{\mathcal{T}} + i \hbar \Delta_{BV}
+    \right)^2 
+  }
+  } = 0
+  \end{aligned}
+$$
+
+Here under the brace we computed as follows:
+
+$$
+  \begin{aligned}
+  \left(
+    \{S' + S_{int}, (-)\}_{\mathcal{T}} + i \hbar \Delta_{BV}
+  \right)^2 
+  & =
+  \phantom{+}
+  \underset{
+    \tfrac{1}{2} \{ \{S' + S, S'+ S\}_{\mathcal{T}}, (-) \}_{\mathcal{T}}
+  }{
+  \underbrace{
+    \{S' + S_{int}, \{S' + S_{int}\}_{\mathcal{T}}, (-) \}_{\mathcal{T}}
+  }}
+  \\
+  &
+  \phantom{=}
+  +
+  i \hbar
+  \underset{
+    \{  \Delta_{BV}(S'+ S)\,,\, (-)  \}_{\mathcal{T}}
+  }{
+  \underbrace{
+  \left(
+    \{S' + S_{int}, (-)\}_{\mathcal{T}} \circ \Delta_{BV}
+    + 
+    \Delta_{BV} \circ \{S' + S_{int}, (-)\}_{\mathcal{T}}
+  \right)
+  }}
+  \\
+  &
+  \phantom{=}
+  +   
+  (i \hbar)^2 
+   \underset{= 0}
+   {
+     \underbrace{
+       \Delta_{BV} \circ \Delta_{BV}
+      }
+    }
+  \end{aligned}
+  \,.
+$$
+
+where, in turn, the term under the first brace follows by the graded [[Jacobi identity]], the one under the second brace by Henneaux-Teitelboim (15.105c) and the one under the third brace by Henneaux-Teitelboim (15.105b).
 
 =--
 
@@ -782,6 +883,7 @@ $$
   \left(
     \left\{ S' + S_{int} \,,\, (-) \right\}
   \right)
+  \,.
 $$
 
 Applied to an observable which is linear in the [[antifields]]
@@ -823,7 +925,7 @@ $$
   \end{aligned}
 $$
 
-This equation is called_classical Master Ward identity_ ([Dütsch-Fredenhagen 02, (90)](master+Ward+identity#DuetschFredenhagen02), [Brennecke-Dütsch 07, (5.5)](master+Ward+identity#BrennecketDuetsch07), following [Dütsch-Boas 02](master+Ward+identity#DuetschBoas02)). 
+In this form the _classical Master Ward identity_ was originally identified in ([Dütsch-Fredenhagen 02, (90)](master+Ward+identity#DuetschFredenhagen02), [Brennecke-Dütsch 07, (5.5)](master+Ward+identity#BrennecketDuetsch07), following [Dütsch-Boas 02](master+Ward+identity#DuetschBoas02)). 
 
 
 =--
