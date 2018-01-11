@@ -138,9 +138,8 @@ and in section 5 of
 * {#Troelstra91} [[Anne Sjerp Troelstra]], _History of Constructivism in the 20th Century_, 1991 ([preprint](https://www.illc.uva.nl/Research/Publications/Reports/ML-1991-05.text.pdf))
  
 
-Philip Wadler is currently in the process of writing another history:
+Philip Wadler is currently in the process of writing another history [here](http://homepages.inf.ed.ac.uk/wadler/topics/history.html#propositions-as-types).
 
-* &lt;http://homepages.inf.ed.ac.uk/wadler/topics/history.html#propositions-as-types>
 
 
 [[!redirects propositions as types]]
