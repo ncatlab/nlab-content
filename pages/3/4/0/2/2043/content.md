@@ -27,7 +27,7 @@ Given a unital (typically noncommutative) [[ring]] $R$, the __Jacobson radical__
 Alternatively,
 
 4. $J(R)$ is the intersection of all maximal left ideals of $R$.
-5. $J(R)$ is the intersection of all maxaimal right ideals of $R$. 
+5. $J(R)$ is the intersection of all maximal right ideals of $R$. 
 
 The properties required remain the same if one interchanges left and right (modules, invertibility etc.) i.e. $J(R)=J(R^{op})$.
 
@@ -38,9 +38,9 @@ Given any ring $R$, the [[quotient object|quotient]] $R/J(R)$ is semiprimitive.
 
 +-- {: .num_example #JacobsonRadicalOfFormalPowerSeriesAlgebra}
 ###### Example
-**(Jacoboson radical of [[formal power series algebra]])**
+**(Jacobson radical of [[formal power series algebra]])**
 
-The Jacobson radical of a [[formal power series algebra]] consist of those formal power series whose constant term vanishes.
+The Jacobson radical of a [[formal power series algebra]] consists of those formal power series whose constant term vanishes.
 
 
 =--
