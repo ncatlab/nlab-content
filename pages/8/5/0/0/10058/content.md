@@ -3,6 +3,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Fields and quanta
++--{: .hide}
+[[!include fields and quanta - table]]
+=--
 #### Algebraic Quantum Field Theory
 +--{: .hide}
 [[!include AQFT and operator algebra contents]]
@@ -18,17 +22,111 @@
 
 ## Idea
 
-An [[interacting field theory|interacting]] [[quantum field theory]] with a single [[scalar field]] $\phi$ and [[action functional]]/[[Lagrangian density]] the sum of the [[kinetic action]] (as for a [[free field theory]]) plus an [[interaction]] term proportional to the 4th power $(\mathbf{\Phi}(x))^4$ of the [[field observable]].
+In [[quantum field theory]] of the [[scalar field]] $\Phi$, the canonical [[local observable|local]] [[interaction]] term is a [[Lagrangian density]] of the form
+
+$$
+  \mathbf{L}_{int}
+  \;=\;
+  \phi^n \, dvol_\Sigma
+$$
+
+(with notation as at _[[A first idea of quantum field theory]]_).
+
+For $g_{sw} \in C^\infty_{cp}(\Sigma)$ any [[bump function]] on [[spacetime]], the corresponding [[adiabatic switching|adiabatically switched]] [[local observable]] is
+
+$$
+  \begin{aligned}
+  S_{int}
+  & =
+  \underset{\Sigma}{\int}
+  \underset{
+     n \, \text{factors}
+  }{
+  \underbrace{
+    \mathbf{\Phi}(x)
+     \cdot
+    \mathbf{\Phi}(x)
+     \cdots
+    \mathbf{\Phi}(x)
+     \cdot
+    \mathbf{\Phi}(x)
+  }
+  }
+  \, 
+  dvol_\Sigma(x)
+  \\
+  & =
+  \underset{\Sigma}{\int}
+  :
+  \underset{
+     n \, \text{factors}
+  }{
+  \underbrace{
+    \mathbf{\Phi}(x)
+    \mathbf{\Phi}(x)
+      \cdots
+    \mathbf{\Phi}(x)
+    \mathbf{\Phi}(x)
+  }
+  }
+  :
+  \,
+  dvol_\Sigma(X)
+  \end{aligned}
+  \,,
+$$
+
+where in the first line we have the [[integral]] over a pointwise product ([this def.](A+first+idea+of+quantum+field+theory#Observable)) of $n$ [[field observables]] ([this def.](A+first+idea+of+quantum+field+theory#PointEvaluationObservables)), which in the second line we write equivalently as a [[normal ordered product]], by the discusssion at _[[Wick algebra]]_ ([this def.](Wick+algebra#NormalOrderedProductNotation)).
+
+The [[interacting field theory]] with [[Lagrangian density]] that of the [[free field|free]] [[scalar field]] plus a $\phi^n$ interaction as above is often called simply "$\Phi^n$-theory". 
+
+## Examples
+
+
+The [[mass]] term of the [[free field theory|free]] [[scalar field]] is a $\Phi^2$-interaction. 
+
+The [[Higgs field]] involves a quadratic and quartic interaction of this form.
+
+The potential for the [[inflaton field]] in [[chaotic cosmic inflation]] is a $\Phi^2$-interaction.
 
 ## Related concepts
 
 * [[perturbative quantum field theory]]
 
+* [[Higgs field]]
+
+* [[inflaton field]]
+
 ## References
 
 * Wikipedia, _[Quartic interaction](http://en.wikipedia.org/wiki/Quartic_interaction)_
 
-[[!redirects Phi^4 thoery]]
-
-[[!redirects phi^n interaction]]
 [[!redirects phi^n interactions]]
+
+[[!redirects Phi^n interaction]]
+[[!redirects Phi^n interactions]]
+
+[[!redirects phi^2 interaction]]
+[[!redirects phi^2 interactions]]
+
+[[!redirects Phi^2 interaction]]
+[[!redirects Phi^2 interactions]]
+
+[[!redirects phi^3 interaction]]
+[[!redirects phi^3 interactions]]
+
+[[!redirects Phi^3 interaction]]
+[[!redirects Phi^3 interactions]]
+
+[[!redirects phi^n theory]]
+[[!redirects phi^n theory]]
+
+[[!redirects Phi^n theory]]
+[[!redirects phi^n theory]]
+
+[[!redirects phi^4 theory]]
+[[!redirects phi^4 theory]]
+
+[[!redirects Phi^4 theory]]
+[[!redirects phi^4 theory]]
+
