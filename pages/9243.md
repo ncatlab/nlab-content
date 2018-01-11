@@ -27,17 +27,23 @@ The _[[interaction picture]]_ of [[quantum physics]] serves to decompose the [[q
 
 ## Examples
 
-For instance the [[holonomy]] of a [[circle bundle with connection]] gives the _[[gauge theory|gauge]] interaction_ term for a [[particle]] [[sigma-model]] charged under an [[electromagnetic field]] given by a [[line bundle with connection]].
+* [[phi^n interaction]]
 
-More generally the [[volume holonomy]] of a [[circle n-bundle with connection]] gives the _[[higher gauge theory|higher gauge]]_ interaction of an $(n-1)$-[[brane]] [[sigma model]], for instance the [[string]] sigma-model charged under the [[B-field]] or the [[membrane]] sigma-model charged under the [[supergravity C-field]].
+* [[electron-photon interaction]]
+
+*  The [[holonomy]] of a [[circle bundle with connection]] gives the _[[gauge theory|gauge]] interaction_ term for a [[particle]] [[sigma-model]] charged under an [[electromagnetic field]] given by a [[line bundle with connection]].
+
+* More generally the [[volume holonomy]] of a [[circle n-bundle with connection]] gives the _[[higher gauge theory|higher gauge]]_ interaction of an $(n-1)$-[[brane]] [[sigma model]], for instance the [[string]] sigma-model charged under the [[B-field]] or the [[membrane]] sigma-model charged under the [[supergravity C-field]].
 
 ## Related concepts
 
-* [[interacting field algebra]]
-
 * [[interacting field theory]]
 
+* [[interacting field algebra]]
+
 * [[perturbative quantum field theory]]
+
+* [[scattering]], [[scattering matrix]]
 
 [[!include action (physics) - table]]
 
