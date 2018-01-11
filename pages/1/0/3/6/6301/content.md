@@ -126,6 +126,8 @@ Then they comment on Martinec's account above, and other's, by saying:
 
 ## Related concepts
 
+* [[causal order]]
+
 * [[causal structure]]
 
 * [[causal additivity]]
