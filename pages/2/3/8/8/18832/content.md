@@ -237,11 +237,11 @@ with $Z$ the generating functional (eq:GeneratingFunctionInducedFromSMatrix) it 
    1. $S(L + J_1 + J_2) = S(L + J_1) \, S(L)^{-1} \, S(L + J_2)$
 
    Hence causal additivity in def. \ref{PerturbativeSMatrixOnMinkowskiSpacetime}
-implies that all these conditions hold if $supp(J_1) \geq supp(J_2)$.
+implies that all these conditions hold if $supp(J_1) {\vee\!\!\!\wedge} supp(J_2)$.
 
 
 1. If $supp(J_1)$ is [[spacelike]] separted from $supp(J_1)$, hence if the causal ordering (def \ref{CausalOrdering}) is
-   $supp(J_1) \geq supp(J_2)$ and $supp(J_2) \geq supp(J_1)$ then
+   $supp(J_1) {\vee\!\!\!\wedge} supp(J_2)$ and $supp(J_2) {\vee\!\!\!\wedge} supp(J_1)$ then
 
    $$
      Z_{L_{int}}(J_1) Z_{L_{int}}(J_2) = Z_{L_{int}}(J_2) J_{L_{int}}(J_1)
@@ -249,7 +249,7 @@ implies that all these conditions hold if $supp(J_1) \geq supp(J_2)$.
    $$
 
 
-   Similarly, if $supp(L_1) \geq supp(L_2)$ and $supp(L_2) \geq supp(L_1)$ then
+   Similarly, if $supp(L_1) {\vee\!\!\!\wedge} supp(L_2)$ and $supp(L_2) {\vee\!\!\!\wedge} supp(L_1)$ then
 
    $$
      S(L_1) \, S(L_2) = S(L_2) \, S(L_1)
@@ -300,7 +300,7 @@ reduces to
 
 $$
   \left(
-    supp(L_1) \geq supp(L_2)
+    supp(L_1) {\vee\!\!\!\wedge} supp(L_2)
   \right)
    \;\Rightarrow\;
   S(L_1 + L_2)
@@ -309,7 +309,7 @@ $$
   \,.
 $$
 
-Hence if $supp(L_1) \geq supp(L_2)$ and $supp(L_2) \geq supp(L_1)$ then
+Hence if $supp(L_1) {\vee\!\!\!\wedge} supp(L_2)$ and $supp(L_2) {\vee\!\!\!\wedge} supp(L_1)$ then
 
 $$
   S(L_1) S(L_2) = S(L_1 + L_2) = S(L_2 + L_1) = S(L_2) S(L_1)
@@ -331,7 +331,7 @@ $$
 such that their causal order (def. \ref{CausalOrdering}) is
 
 $$
-  supp(a) \geq supp(J) \geq supp(r)
+  supp(a) {\vee\!\!\!\wedge} supp(J) {\vee\!\!\!\wedge} supp(r)
 $$
 
 It follows with causal additivity and its equivalent formulations above that
@@ -481,9 +481,9 @@ is a [[causally local net of observables]] in that
    which are [[spacelike]] separated, in that their causal ordering (def. \ref{CausalOrdering}) satisfies
 
    $$
-     \mathcal{O}_1 \geq \mathcal{O}_2
+     \mathcal{O}_1 {\vee\!\!\!\wedge} \mathcal{O}_2
        \;\text{and}\;
-     \mathcal{O}_2 \geq \mathcal{O}_1
+     \mathcal{O}_2 {\vee\!\!\!\wedge} \mathcal{O}_1
    $$
 
    then for $\mathcal{O} \subset X$ any further causally closed subset which contains both
@@ -619,9 +619,9 @@ is a [[local net of observables]] in that
    which are [[spacelike]] separated, in that their causal ordering (def. \ref{CausalOrdering}) satisfies
 
    $$
-     \mathcal{O}_1 \geq \mathcal{O}_2
+     \mathcal{O}_1 {\vee\!\!\!\wedge} \mathcal{O}_2
        \;\text{and}\;
-     \mathcal{O}_2 \geq \mathcal{O}_1
+     \mathcal{O}_2 {\vee\!\!\!\wedge} \mathcal{O}_1
    $$
 
    then for $\mathcal{O} \subset X$ any further causally closed subset which contains both
@@ -683,6 +683,6 @@ $$
   \end{aligned}
 $$
 
-for $supp(J_1) \geq supp(J_2)$ and $supp(J_2) \geq supp(J_1)$.
+for $supp(J_1) {\vee\!\!\!\wedge} supp(J_2)$ and $supp(J_2) {\vee\!\!\!\wedge} supp(J_1)$.
 
 =--
