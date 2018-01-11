@@ -4,25 +4,25 @@
 $$
   \array{
     &&
-    \text{<a href="local+observable">local</a>}
+    \text{local}
     \\
     &&
     & \searrow
     \\ 
-    \text{<a href="field+observable">field</a>}
+    \text{field}
     &\longrightarrow&
-    \text{<a href="linear+observable">linear</a>}    
+    \text{linear}    
     &\longrightarrow&
-    \text{<a href="microcausal+polynomial+observable">microcausal</a>}
+    \text{microcausal}
     &\longrightarrow&
-    \text{<a href="polynomial+observable">polynomial</a>}
+    \text{polynomial}
     &\longrightarrow&
-    \text{<a href="observable">general</a>}
+    \text{general}
     \\
     &&
     & \nearrow
     \\
     &&
-    \text{<a href="regular+polynomial+observable">regular</a>}
+    \text{regular}
   }
 $$
