@@ -29,3 +29,6 @@ An [[interacting field theory|interacting]] [[quantum field theory]] with a sing
 * Wikipedia, _[Quartic interaction](http://en.wikipedia.org/wiki/Quartic_interaction)_
 
 [[!redirects Phi^4 thoery]]
+
+[[!redirects phi^n interaction]]
+[[!redirects phi^n interactions]]
