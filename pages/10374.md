@@ -149,7 +149,7 @@ Discussion in the rigorous context of [[relativistic field theory|relativistic]]
 
 * {#Rejzner13} [[Katarzyna Rejzner]], equation (37) of _Remarks on local symmetry invariance in perturbative algebraic quantum field theory_ ([arXiv:1301.7037](https://arxiv.org/abs/1301.7037))
 
-* {#Duetsch18} [[Michael Dütsch]], chapter 4 of _[[From classical field theory to perturbative quantum field theory]]_, 2018
+* {#Duetsch18} [[Michael Dütsch]], equation (4.2) of _[[From classical field theory to perturbative quantum field theory]]_, 2018
 
 See also
 
@@ -160,6 +160,9 @@ See also
 
 [[!redirects Ward–Takahashi identity]]
 [[!redirects Ward–Takahashi identities]]
+
+[[!redirects classical master Ward identity]]
+[[!redirects classical master Ward identities]]
 
 [[!redirects quantum master Ward identity]]
 [[!redirects quantum master Ward identities]]
