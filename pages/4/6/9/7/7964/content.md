@@ -44,7 +44,11 @@ So for the Higgs particle prediction and experimental detection lie apart by abo
 
 ## Related concepts
 
+* [[phi^n interaction]]
+
 * [[electroweak field]]
+
+* [[inflaton field]]
 
 * [[higgsino]]
 
