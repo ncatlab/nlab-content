@@ -238,10 +238,51 @@ $$
 
 =--
 
++-- {: .num_example #phintheoryLagrangian}
+###### Example
+**([[phi^n theory]])**
+
+Consider the [[field bundle]] for the [[real scalar field]] from example \ref{RealScalarFieldBundle},
+i.e. the [[trivial line bundle]] over [[Minkowski spacetime]]. More generally we may 
+consider adding to the [[free field]] [[Lagrangian density]] from example \ref{LagrangianForFreeScalarFieldOnMinkowskiSpacetime}
+some power of the field coordinate
+
+$$
+  \mathbf{L}_{int}
+  \;\coloneqq\;
+  g \phi^n \, dvol_\Sigma
+  \,,
+$$
+
+for $g \in \mathbb{R}$ some number, here called the _[[coupling constant]]_.
+
+
+The [[interacting field theory|interacting]] [[Lagrangian field theory]] defined by the resulting [[Lagrangian density]]
+
+$$
+  \mathbf{L}
+  +
+  \mathbf{L}_{int}
+  \;0\;
+  \tfrac{1}{2}
+  \left(
+    \eta^{\mu \nu} \phi_{,\mu} \phi_{,\nu}
+    -
+    m^2 \phi^2
+    +
+    g \phi^n
+  \right)
+  \mathrm{dvol}_\Sigma
+$$
+
+is usually called just _[[phi^n theory]]_.
+
+=--
+
 
 +-- {: .num_example #ElectromagnetismLagrangianDensity}
 ###### Example
-**([[local Lagrangian density]] for [[free field|free]] [[electromagnetism]])**
+**([[local Lagrangian density]] for [[free field|free]] [[electromagnetic field]])**
 
 Consider the [[field bundle]] $T^\ast \Sigma \to \Sigma$ for the [[electromagnetic field]] on [[Minkowski spacetime]] from example \ref{Electromagnetism},
 i.e. the [[cotangent bundle]], which over Minkowski spacetime happens to be a [[trivial vector bundle]] of [[rank of a vector bundle|rank]]
@@ -546,6 +587,77 @@ and similarly for $i \xi^\dagger \tilde \sigma^\mu  \partial_\mu\xi$
 =--
 
 (e.g. [Dermisek I-9](Dirac+field#DermisekI9))
+
++-- {: .num_example #LagrangianQED}
+###### Example
+**([[Lagrangian density]] for [[quantum electrodynamics]])**
+
+Consider the [[fiber product]] of the [[field bundles]] for the [[electromagnetic field]] (example \ref{Electromagnetism})
+and the [[Dirac field]] (example \ref{DiracFieldBundle}) over 4-dimensional [[Minkowski spacetime]] $\Sigma \coloneqq  \mathbb{R}^{3,1}$ (def. \ref{MinkowskiSpacetime}):
+
+$$
+  E 
+    \;\coloneqq\; 
+  \underset{ \array{ \text{electromagnetic} \\ \text{field} }  }{\underbrace{T^\ast \Sigma}} 
+    \times  
+  \underset{
+    \array{
+      \text{Dirac} \\ \text{field}
+    }
+  }{
+  \underbrace{
+    S_{odd}
+  }
+  }
+  \,.
+$$
+
+This means that now a [[field history]] is a [[pair]] $(A,\Psi)$, with $A$ a field history of the [[electromagnetic field]]
+and $\Psi$ a field history of the [[Dirac field]].
+
+On the resulting [[jet bundle]] consider the [[Lagrangian density]]
+
+$$
+  L_{int}
+    \;\colon\;
+  i g \, \overline{\psi} \gamma^\mu \psi a_\mu
+$$
+
+for $g \in \mathbb{R}$ some number, called the _[[coupling constant]]_. This is called the _[[electron-photon interaction]]_.
+
+Then the sum of the [[Lagrangian densities]] for
+
+1. the [[free field|free]] [[electromagnetic field]] (example \ref{ElectromagnetismLagrangianDensity});
+
+1. the [[free field|free]] [[Dirac field]] (example \ref{LagrangianDensityForDiracField})
+
+1. the above [[electron-photon interaction]]
+
+$$
+  \mathbf{L}_{EM} + \mathbf{L}_{Dir} + \mathbf{L}_{int}
+  \;=\;
+  \left(
+    \tfrac{1}{2} f_{\mu \nu} f^{\mu \nu} 
+    \;+\;  
+    i \, \overline{\psi} \, \gamma^\mu \, \psi_{,\mu} +  m \overline{\psi} \psi
+    \;+\;
+    i g \, \overline{\psi} \gamma^\mu \psi a_\mu
+  \right)
+  \, dvol_\Sigma
+$$
+
+defines the [[interacting field theory]] [[Lagrangian field theory]] whose [[perturbative quantum field theory|perturbative quantization]] is called _[[quantum electrodynamics]]_.
+
+In this context the square of the [[coupling constant]]
+
+$$
+  \alpha \coloneqq \frac{g^2}{4 \pi}
+$$
+
+is called the _[[fine structure constant]]_.
+
+=--
+
 
 $\,$
 
@@ -1449,8 +1561,8 @@ $$
   & =
   -
   \left(
-    f^{\mu \nu \alpha}_{,\mu} 
-    + 
+    f^{\mu \nu \alpha}_{,\mu}
+    +
     \gamma^\alpha{}_{\beta' \gamma} a_\mu^{\beta'} f^{\mu \nu \gamma}
   \right)
   k_{\alpha \beta}
