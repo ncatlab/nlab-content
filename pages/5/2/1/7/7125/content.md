@@ -129,7 +129,7 @@ so that $U$ is naturally identified with an open sublocale of $X$, $K$ with the 
 
 Now suppose given [[topos|toposes]] $E$, $E'$ and a [[left exact functor]] $\Phi \colon E \to E'$. There is an induced left exact [[comonad]] 
 
-$$E \times E' \stackrel{\delta \times 1}{\to} E \times E \times E' \stackrel{1 \times \Phi \times 1}{\to} E \times E' \times E' \stackrel{1 \times prod}{\to} E \times E' \qquad (3)$$ 
+$$E \times E' \stackrel{\delta \times 1}{\to} E \times E \times E' \stackrel{1 \times \Phi \times 1}{\to} E \times E' \times E' \stackrel{1 \times product}{\to} E \times E' \qquad (3)$$ 
 
 whose category of coalgebras is again (by a basic theorem of topos theory; see for instance [here](http://ncatlab.org/toddtrimble/published/Three+topos+theorems+in+one)) a topos, called the **Artin gluing** construction for $\Phi$, denoted $\mathbf{Gl}(\Phi)$. 
 
