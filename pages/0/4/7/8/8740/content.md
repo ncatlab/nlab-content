@@ -254,6 +254,9 @@ $$
 
 =--
 
+([Dito 90](deformation+quantization#Dito90), [Dütsch-Fredenhagen 00](deformation+quantization#DuetschFredenhagen00) [Dütsch-Fredenhagen 01](deformation+quantization#DuetschFredenhagen01), [Hirshfeld-Henselder 02](deformation+quantization#HirschfeldHenselder02))
+
+
 ## Properties
 
 ### Equivalences of star products
