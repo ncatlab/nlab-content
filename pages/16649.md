@@ -7,7 +7,7 @@
 
 The *exponent* of a [[group]] $G$, denoted $\exp(G)$, is the least [[natural number]] $n$ such that $g^n = 1$, the [[identity element]], for all $g \in G$. 
 
-Here "least" should, by all rights, refer to the *divisibility order* on $\mathbb{N}$, where $m \leq n$ means $m$ divides $n$. Notice that with this poset structure, $\mathbb{N}$ is a [[complete lattice]] with bottom element $1$ and top element $0$; under this convention, the exponent always exists as the least common multiple of the orders of elements, which is their join ([[supremum]]) in the lattice, and is $0$ if (for example) $G$ is a [[torsion|torsionfree group]]. 
+Here "least" should, by all rights, refer to the *divisibility order* on $\mathbb{N}$, where $m \leq n$ means $m$ divides $n$. Notice that with this poset structure, $\mathbb{N}$ is a [[complete lattice]] with bottom element $1$ and top element $0$; under this convention, the exponent always exists as the least common multiple of the orders of elements, which is their join ([[supremum]]) in the lattice, and is $0$ if (for example) $G$ is a [[torsion|torsion-free group]]. 
 
 ## Properties 
 
