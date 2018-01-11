@@ -34,14 +34,20 @@ Surreal space (denoted as $\mathbf{S}^n$) can be seen as a [[topologically enric
 ####1. Every surreal line is a projective line.
 Every [[ordered field]] can be hypothetically embedded within the surreals. Now given this, we can say that for a drawn line of surreal numbers we have that it is in a sense a [[projective line]]. More specifically, if say you have the field of real numbers $\mathbb{R}$ microscopically embedded within $\mathbf{S}^n$ and given a disjoint union of $\mathbb{R}$ and $(\infty)$, the latter of which is contained within the surreals as they contain the infinite numbers, we have a one-point compactification for any given union for a subfield of reals and a collection of infinite numbers. This makes every surreal line a special kind of projective line. This connection leads us to seeing that the asymptotic collection of real-valued functions is contained within $obj({Sur})$ 
 
-###Infinitely blown up space
+
 
 ## Genetic spaces, schemes, and surreal curves
 In [Salzedo] it is from here we can define polynomials over surreal spaces. Zeroes of polynomials over these surreal polynomials is analogous to projective schemes in a real space. A genetic space is a space in which [[ringed spaces]] can be related with genetic formulas. The surreal curve is defined as a surreal space of dimension one. Genetic spaces are essentially real algebraic cycles of schemes. 
 
-## Vector Bundles as elements of surreal space
+###Infinitely blown up space
+
+### Vector Bundles as elements of surreal space
+
+### Motivic meaning
 
 ### Genetic transformations
+
+### Polynomial inequalities 
 
 ## Motivic surreal spaces
 The [[sheaf cohomology]] on a surreal space is equivalent to a [[motivic cohomology]] of real algebraic cycles. ${Sur}$ contains real motives. 
