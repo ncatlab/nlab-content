@@ -25,7 +25,7 @@ To date [[perturbative quantum field theory]] is the only way known to approach 
 
 ## Examples
 
-Key examples of interacting field theories are [[phi^4 theory]] ([[scalar field theory]] with [[interaction]] term given by the power $(\mathbf{\Phi}(x))$ of the [[field observable]]), [[Yang-Mills theory]] for [[nonabelian group|nonabelian]] [[gauge group]] and [[gravity]]. 
+Key examples of interacting field theories are [[phi^n theory]] ([[scalar field theory]] with [[interaction]] term given by the power $(\mathbf{\Phi}(x))$ of the [[field observable]]), [[quantum electrodynamics]] (with its [[electron-photon interaction]]), pure [[Yang-Mills theory]] for [[nonabelian group|nonabelian]] [[gauge group]], [[quantum chromodynamics]], and [[gravity]]. 
 
 The [[quantization of Yang-Mills theory]], as a [[non-perturbative quantum field theory]] is a famous open problem.
 Yang-Mills theory with [[abelian group|abelian]] [[gauge group]] the [[circle group]] is a [[free field theory]], but coupled to a [[Dirac field]] there is a canonical [[interaction]] term that makes this the interacting field theory called _[[quantum electrodynamics]]_ (QED).  Similarly [[quantum chromodynamics]] (QCD) is an interacting field theories. These interacting theories (QED, QCD with [[Higgs field]]-coupling) make up the [[standard model of particle physics]].
