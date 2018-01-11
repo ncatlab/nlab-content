@@ -1576,29 +1576,49 @@ By example \ref{RegularPolynomialLocalObservablesAreNecessarilyLinear} the only 
 
 For example:
 
-* For the combined [[electromagnetic field]] (example \ref{ElectromagnetismLagrangianDensity}) and [[Dirac field]] (example \ref{LagrangianDensityForDiracField}) on [[Minkowski spacetime]] the cubic [[local observable]]
+* For [[quantum electrodynamics]] on [[Minkowski spacetime]] (example \ref{LagrangianQED}) the [[adiabatic switching|adiabatically switched]] [[action functional]] (example \ref{ActionFunctional}) which is the [[transgression of variational differential forms|transgression]] of the [[electron-photon interaction]] is a cubic [[local observable]]
 
   $$
     S_{int} 
-      = 
+      \;=\; 
+    i
     \underset{\Sigma}{\int}
-      g_{sw} 
-      \Gamma_a{}^{\alpha}{}_\beta
+      g_{sw}(x)
+      \,
+      (\gamma^\mu)^{\alpha}{}_\beta
+      \,
       \overline{\mathbf{\Psi}}_\alpha(x) 
       \cdot \mathbf{\Psi}^\beta(x) 
       \cdot \mathbf{A}^a(x)
       \, dvol_\Sigma(x) 
   $$
 
-  defines the [[adiabatic switching|adiabatically switched]] [[interaction]]-[[action functional|functional]] (example \ref{ActionFunctional}) for the interacting field theory called _[[quantum electrodynamics]]_.
-
-* For the [[real scalar field]] on [[Minkowski spacetime]] (example \ref{LagrangianForFreeScalarFieldOnMinkowskiSpacetime}) the quartic [[local observable]] 
+* For [[scalar field]] [[phi^n theory]] (example \ref{phintheoryLagrangian}) the [[adiabatic switching|adiabatically switched]] [[action functional]] (example \ref{ActionFunctional}) which is the [[transgression of variational differential forms|transgression]] of the [[phi^n interaction]]
 
   $$
-    S_{int} = \underset{\Sigma}{\int} g_{sw} \left(\mathbf{\Phi}(x)\right)^4 \, dvol_\Sigma(x)
+    S_{int} 
+     \;=\;
+   \underset{\Sigma}{\int} 
+     g_{sw} 
+     \,
+     \underset{
+       n \, \text{factors}
+     }{
+     \underbrace{
+       \mathbf{\Phi}(x)
+        \cdot
+       \mathbf{\Phi}(x)
+         \cdots
+       \mathbf{\Phi}(x)
+         \cdot
+       \mathbf{\Phi}(x)
+     }
+     }
+   \, 
+   dvol_\Sigma(x)
   $$ 
 
-  defines the [[adiabatic switching|adiabatically switched]] [[interaction]]-[[action functional|functional]] (example \ref{ActionFunctional}) for the interacting field theory called _[[phi^4 theory]]_.
+  is a [[local observable]] of order $n$.
 
 Therefore one needs to extend the [[formal deformation quantization]] provided by corollary \ref{FreeGaugeFixedLagrangianFieldTheoryQuantizationOfRegularObservables} to a larger subspace of [[polynomial observables]] that includes at least the [[local observables]].
 
