@@ -27,9 +27,13 @@ The [[Lagrangian density]] defining QED is the sum of
 
 1. the [[free field]] contribution of the [[Dirac field]]
 
-1. the [[electron-photon interaction]] term.
+1. the [[electron-photon interaction]] term with [[coupling constant]] given by the [[fine structure constant]].
+
+See at _[[A first idea of quantum field theory]]_ [this example](A+first+idea+of+quantum+field+theory#LagrangianQED).
 
 ## Related concepts
+
+* [[fine structure constant]]
 
 * [[photon propagator]]
 
