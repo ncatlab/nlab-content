@@ -345,17 +345,17 @@ The analogue of the limit $t \to \infty$ in the construction of the [[S-matrix]]
 
 
 
-#### Perturbative S-Matrix
+#### Perturbative S-Matrices
  {#PerturbativeSMatrixAndTimeOrderedProducts}
 
-We consider here the [[axioms]] for a perturbative S-matrix relative to a fixed [[relativistic field theory|relativistic]] [[free field theory|free]] [[Lagrangian field theory|Lagrangian]] [[quantum field theory|quantum field]] [[vacuum]], as used in  [[causal perturbation theory]] (def. \ref{LagrangianFieldTheoryPerturbativeScattering} below).
-Since, by definition, the S-matrix is a formal sum of multi-[[linear continuous functionals]], it is convenient to impose axioms on these directly: this is the axiomatics for _[[time-ordered products]]_
+We consider here the [[axioms]] for perturbative S-matrices relative to a fixed [[relativistic field theory|relativistic]] [[free field theory|free]] [[Lagrangian field theory|Lagrangian]] [[quantum field theory|quantum field]] [[vacuum]] (def. \ref{VacuumFree} below) according to _[[causal perturbation theory]]_ (def. \ref{LagrangianFieldTheoryPerturbativeScattering} below).
+Since the first of these axioms requires the S-matrix to be a formal sum of [[multilinear map|multi-]][[linear continuous functionals]], it is convenient to impose axioms on these directly: this is the axiomatics for _[[time-ordered products]]_
 in def. \ref{TimeOrderedProduct} below. That these latter axioms already imply the former
 is the statement of prop. \ref{TimeOrderedProductInducesPerturbativeSMatrix} below. Its proof
 requires a close look at the "reverse-time ordered products" for the inverse S-matrix (def. \ref{ReverseTimeOrderedProduct} below)
 and their induced reverse-causal factorization (prop. \ref{ReverseCausalFactorizationOfReverseTimeOrderedProducts} below).
 
-
+$\,$
 
 In considering [[perturbative QFT]], we are considering [[perturbation theory]] around a fixed [[free field theory|free]]
 [[Lagrangian field theory|Lagrangian]] [[quantum field theory]] in a chosen [[Hadamard vacuum state]].
@@ -465,12 +465,12 @@ $$
   PolyObs(E_{\text{BV-BRST}})_{mc}((\hbar))[ [ g,j ] ]
 $$
 
-from [[local observables]] to [[microcausal polynomial observables]] of the free vacuum theory,  with formal parameter adjoined as indicated ([[Laurent series]] in [[Planck's constant]] $\hbar$ and [[formal power series]] in [[coupling constant]] $g$ and [[source field]] coupling $j$)
+from [[local observables]] to [[microcausal polynomial observables]] of the free vacuum theory,  with formal parameters adjoined as indicated ([[Laurent series]] in [[Planck's constant]] $\hbar$ and [[formal power series]] in [[coupling constant]] $g$ and [[source field]] coupling $j$)
 such that the following two conditions "perturbation" and "causal additivity (jointly: "[[causal perturbation theory]]") hold:
 
 1. ([[perturbative quantum field theory|perturbation]])
 
-   There exist [[multilinear map|multi-]][[linear continuous functionals]] (over $\mathcal{C}[ [\hbar, g, j] ]$) of the form
+   There exist [[multilinear map|multi-]][[linear continuous functionals]] (over $\mathbb{C}[ [\hbar, g, j] ]$) of the form
 
    $$
      T_k
@@ -486,30 +486,45 @@ such that the following two conditions "perturbation" and "causal additivity (jo
 
    for all $k \in \mathbb{N}$, such that:
 
-   1. The nullary operation is the unit of the [[Wick algebra]]
+   1. The nullary map is the unit of the [[Wick algebra]]
    
       $$
         T_0(A) = 1
       $$
 
-   1. The unary operation is the inclusion as [[normal-ordered products]] (eq:NormalOrderingLocalObservables)
+   1. The unary map is the inclusion as [[normal-ordered products]] (eq:NormalOrderingLocalObservables)
 
       $$
         T_1(A) = :A:
       $$
 
-   1. The S-matrix is the [[exponential]] of these in that  for $S_{int}, A  \in LocObs(E_{\text{BV-BRST}})$
+   1. The S-matrix is the [[exponential]] of these maps in that for all $S_{int}, A  \in LocObs(E_{\text{BV-BRST}})[ [\hbar] ] $
 
       $$
         \begin{aligned}
-          \mathcal{S}( A)
+          \mathcal{S}( g S_{int} + j A)
           & =
-          T\left( \exp_{\otimes}\left( \tfrac{1}{i \hbar} A  \right) \right)
+          T
+          \left( 
+            \exp_{\otimes}
+            \left( 
+              \tfrac{ 1 }{i \hbar} 
+              \left( 
+                g S_{int} + j A 
+              \right)  
+            \right) 
+          \right)
           \\
           & \coloneqq
-          \underoverset{k = 0}{\infty}{\sum} \frac{1}{k}
-          \frac{1}{(i \hbar)^k}
-          (\underset{k\, \text{arguments}}{\underbrace{ A, \cdots,  A  }})
+          \underoverset{k = 0}{\infty}{\sum} 
+          \frac{1}{k!}
+          \left( \frac{1}{i \hbar} \right)^k
+          T_k
+          \left(
+            {\, \atop \,}
+            \underset{k\,\text{arguments}}{\underbrace{ (g S_{int}  + jA) , \cdots,  (g S_{int} + j A)  }}
+          {\, \atop \,}
+          \right)
         \end{aligned}
       $$
 
@@ -526,15 +541,15 @@ such that the following two conditions "perturbation" and "causal additivity (jo
      \;\; \Rightarrow \;\;
      \left(
        {\, \atop \,}
-       \mathcal{S}(S_{int} + A_1 + A_2)
+       \mathcal{S}(g S_{int} + j A_1 + j A_2)
        =
-       \mathcal{S}(S_{int} + A_1) \, \mathcal{S}(S_{int})^{-1} \, \mathcal{S}(S_{int} + A_2)
+       \mathcal{S}(g S_{int} + j A_1) \, \mathcal{S}(g S_{int})^{-1} \, \mathcal{S}(g S_{int} + j A_2)
        {\, \atop \,}
      \right)
      \,.
    $$
 
-(The [[inverse]] $\mathcal{S}(S_{int})^{-1}$ of $\mathcal{S}(S_{int})$ with respect to the [[Wick algebra]]-[[structure]]
+(The [[inverse]] $\mathcal{S}(g S_{int})^{-1}$ of $\mathcal{S}(g S_{int})$ with respect to the [[Wick algebra]]-[[structure]]
 is implied to exist by axiom "perturbation", see remark \ref{PerturbativeSMatrixInverse} below.)
 
 Given such an S-matrix scheme, we say that the corresponding _[[generating function]] scheme_
@@ -597,7 +612,56 @@ for the [[time-ordered products]], see def. \ref{TimeOrderedProduct} below),
 in ([Brunetti-Fredenhagen 99, section 3](#BrunettiFredenhagen99), [D&#252;tsch-Fredenhagen 04, appendix E](#DuetschFredenhagen04),
 [Hollands-Wald 04,  around (20)](#HollandsWald04)); for review see ([Rejzner 16, around def. 6.7](#Rejzner16), [Dütsch 18, section 3.3](#Duetsch18)).
 
-A few remarks are in order:
+The simple axioms for [[S-matrices]] in [[causal perturbation theory]] (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) have a wealth of
+implications and consequences. Before analyzing these formally, we make a few informal remarks in order to put these axioms into perspective.
+
++-- {: .num_remark #PerturbativeSMatrixInverse}
+###### Remark
+**([[inverse|invertibility]] of the [[S-matrix]])**
+
+The mutliplicative inverse $S(-)^{-1}$ of the perturbative S-matrix in def. \ref{LagrangianFieldTheoryPerturbativeScattering}
+indeed exists, so that the list of axioms is indeed well defined: By the axiom "perturbation" this follows with the usual formula for the multiplicative inverse of [[formal power series]] that are non-vanishing in degree 0:
+
+If we write
+
+$$
+  \mathcal{S}(g S_{int} + j A) = 1 + \mathcal{D}(g S_{int} + j A)
+$$
+
+then
+
+$$
+  \label{InfverseOfPerturbativeSMatrix}
+  \begin{aligned}
+    \left(
+      {\, \atop \,}
+      \mathcal{S}(g S_{int} + j A)
+      {\, \atop \,}
+    \right)^{-1}
+    &=
+    \left(
+      {\, \atop \,}
+      1 + \mathcal{D}(g S_{int} + j A)
+      {\, \atop \,}
+    \right)^{-1}
+    \\
+    & =
+    \underoverset{r = 0}{\infty}{\sum}
+    \left(
+      {\, \atop \,}
+      -\mathcal{D}(g S_{int} + j A)
+      {\, \atop \,}
+    \right)^r
+  \end{aligned}
+$$
+
+where the sum does exist in $PolyObs(E_{\text{BV-BRST}})((\hbar))[ [[ g,j ] ]$, because (by
+the axiom "perturbation")
+$\mathcal{D}(g S_{int} + j A)$ has vanishing coefficient in zeroth order in the formal parameters $g$ and $j$, so that
+only a finite sub-sum of the formal infinite sum contributes in each order in $g$ and $j$.
+
+=--
+
 
 +-- {: .num_remark #DysonCausalFactorization}
 ###### Remark
@@ -648,60 +712,6 @@ the induced [[interacting field algebra of observables]] forms a [[causally loca
 
 =--
 
-+-- {: .num_remark #PerturbativeSMatrixInverse}
-###### Remark
-**([[inverse|invertibility]] of the [[S-matrix]])**
-
-The mutliplicative inverse $S(-)^{-1}$ of the perturbative S-matrix in def. \ref{LagrangianFieldTheoryPerturbativeScattering}
-indeed exists, so that the list of axioms is indeed well defined: By the axiom "perturbation" this follows with the usual formula for the multiplicative inverse of [[formal power series]] that are non-vanishing in degree 0:
-
-If we write
-
-$$
-  \mathcal{S}(A) = 1 + \mathcal{D}(A)
-$$
-
-then
-
-$$
-  \label{InfverseOfPerturbativeSMatrix}
-  \begin{aligned}
-    \mathcal{S}(A)^{-1} &= (1 + \mathcal{D}(A))^{-1}
-    \\
-    & =
-    \underoverset{r = 0}{\infty}{\sum} (-\mathcal{D}(A))^r
-    \\
-    & =
-    \underoverset{r = 0}{\infty}{\sum} (1 - \mathcal{S}(A))^r
-    \,,
-  \end{aligned}
-$$
-
-where the sum does exist in $PolyObs(E_{\text{BV-BRST}})((\hbar))[ [[ g,j ] ]$, because (by
-the axiom "perturbation")
-$\mathcal{D}(A)$ has vanishing coefficient in zeroth order in the formal parameters, so that
-only a finite sub-sum of the formal infinite sum contributes in each order.
-
-=--
-
-
-+-- {: .num_remark}
-###### Remark
-**([[quantum anomalies]])**
-
-The list of [[axioms]] for the [[S-matrix]] in def. \ref{LagrangianFieldTheoryPerturbativeScattering}
-(and similarly that for the [[time-ordered products]] below in def. \ref{TimeOrderedProduct})
-is sufficient to imply a [[causally local net]] of perturbative [[interacting field algebras of quantum observables]] (discussed [below](#CausalLocality)).
-
-It does not guarantee, however, that the [[BV-BRST differential]] passes to those
-[[algebras of quantum observables]], hence it does not guarantee that the [[infinitesimal symmetries of the Lagrangian]]
-are respected by the [[quantization]] process (there may be "[[quantum anomalies]]").
-The extra condition that does ensure this is the _[[quantum master Ward identity]]_ or _[[quantum master equation]]_.
-This we discuss elsewhere.
-
-Apart from [[gauge symmetries]] one also wants to require that rigid symmetries  are preserved by the S-matrix, notably [[Poincare group]]-symmetry for scattering on [[Minkowski spacetime]]. This extra axiom is needed to imply the _[[main theorem of perturbative renormalization]]_.
-
-=--
 
 
 +-- {: .num_remark #FromAxiomaticSMatrixScatteringAmplitudes}
@@ -817,54 +827,86 @@ Or rather:
 
 +-- {: .num_remark #AdiabaticLimit}
 ###### Remark
-**([[adiabatic limit]])**
+**([[adiabatic limit]], [[infrared divergences]] and [[interacting vacuum]])**
 
 Since a [[local observable]] $S_{int} \in LocObs(E_{\text{BV-BRST}})[ [\hbar, g, j] ]$  by definition
 has compact spacetime support, the [[scattering amplitudes]] in remark \ref{FromAxiomaticSMatrixScatteringAmplitudes} 
-describe [[scattering]] processes for [[interactions]] that are are trivial outside a compact subset of 
-[[spacetime]]. 
+describe [[scattering]] processes for [[interactions]] that vanisj ( are "[[adiabatic switching|adiabatically switched off]]") outside a compact subset of [[spacetime]]. 
+
+There are several aspects to this:
 
 * ([[adiabatic limit]]) On the one hand, real physical interactions $\mathbf{L}_{int}$ (say the [[electron-photon interaction]])
 are not really supposed to vanish outside a compact region of spacetime. In order to reflect this mathematically,
-one may consider a [[sequence]] of [[adiabatic switchings]] $g_{sw} \in C^\infty_{cp}(\Sigma)\langle g \rangle$ (each of [[compact support]]) whose [[limit of a sequence|limit]] is the [[constant function]] $g \in C^\infty(\Sigma)\langle g\rangle$, consider the corresponding [[sequence]] of [[interaction]] [[action functionals]] $S_{int} \coloneqq \tau_\Sigma( g_{sw} \mathbf{L}_{int} )$ and then consider 
+one may consider a [[sequence]] of [[adiabatic switchings]] $g_{sw} \in C^\infty_{cp}(\Sigma)\langle g \rangle$ (each of [[compact support]]) whose [[limit of a sequence|limit]] is the [[constant function]] $g \in C^\infty(\Sigma)\langle g\rangle$, consider the corresponding [[sequence]] of [[interaction]] [[action functionals]] $S_{int,sw} \coloneqq \tau_\Sigma( g_{sw} \mathbf{L}_{int} )$ and then consider 
 as the true [[scattering amplitude]] the corresponding [[limit of a sequence|limit]] 
 
-$$
-  \underset{g_{sw} \to 1}{\lim}
-  \left\langle
-    A_{out} \vert \mathcal{S}(S_{ing}) \vert A_{int}
-  \right\rangle
-$$
+  $$
+    \left\langle
+      A_{out} \vert \mathcal{S}(S_{int}) \vert A_{int}
+    \right\rangle
+    \;\coloneqq\;
+    \underset{g_{sw} \to 1}{\lim}
+    \left\langle
+      A_{out} \vert \mathcal{S}(S_{int}) \vert A_{int}
+    \right\rangle
+  $$
 
-of adiabatically switched scattering amplitudes --  if it exists. This is called the _[[adiabatic limit]]_.
+  of adiabatically switched scattering amplitudes --  if it exists. This is called the _[[adiabatic limit]]_.
 If this does not exist, one says the [[perturbative QFT]] has an _[[infrared divergence]]_.
 
-* ([[algebraic adiabatic limit]]) On the other hand, it is equally unrealistic that an actual [[experiment]] _detects_ physics outside a
-given compact subset of spacetime. Realistic scattering [[experiments]] such as the [[LHC]] do not really prepare or measure
-[[plane wave]] filling all of [[spacetime]]. Any [[observable]] that is realistically measurable must have compact spacetime support.
+* ([[algebraic adiabatic limit]]) On the other hand, it is equally unrealistic that an actual [[experiment]] _detects_ phenomena outside a
+given compact subset of spacetime. Realistic scattering [[experiments]] (such as the [[LHC]]) do not really prepare or measure
+[[plane waves]] filling all of [[spacetime]]. Any [[observable]] that is realistically measurable must have compact spacetime support.
 We see below in prop. \ref{WellDefinedInteractingFieldAlgebra} that such [[interacting field observables]] with compact spacetime support
 may be computed without taking the [[adiabatic limit]]: It is sufficient to use any [[adiabatic switching]] which is constant
 on the support of the observable. 
 
   This way one obtains for each [[causally closed subset]] $\mathcal{O}$ of spacetime an 
-algebra of observables $\mathcal{A}_{\mathcal{O}}$ whose support is in $\mathcal{O}$,
-and for each inclusion of subsets a corresponding inclusion of algebras of observables (prop. \ref{PerturbativeQuantumObservablesIsLocalnet} ebelow). Of this system of observables one may form the [[category theory|category-theoretic]] [[inductive limit]] to obtain a single global algebra of observables.
+algebra of observables $\mathcal{A}_{int}(\mathcal{O})$ whose support is in $\mathcal{O}$,
+and for each inclusion of subsets a corresponding inclusion of algebras of observables (prop. \ref{PerturbativeQuantumObservablesIsLocalnet} below). Of this system of observables one may form the [[category theory|category-theoretic]] [[inductive limit]] to obtain a single global algebra of observables.
 
   $$
-    \mathcal{A} \;\coloneqq\; \underset{\underset{\mathcal{O}}{\longrightarrow}}{\lim} \mathcal{A}_{\mathcal{O}}
+    \mathcal{A}_{int} 
+      \;\coloneqq\; 
+    \underset{\underset{\mathcal{O}}{\longrightarrow}}{\lim} 
+      \mathcal{A}_{int}(\mathcal{O})
   $$
 
   This always exists. It is called the _[[algebraic adiabatic limit]]_.
 
-Hence via the [[algebraic adiabatic limit]] [[causal perturbation theory]] yields the correct [[interacting field algebra of quantum observables]] independent of [[adiabatic switching]], which is rendered just a mathematical convenience involved in the computation.
+* ([[interacting vacuum]]) While via the [[algebraic adiabatic limit]], [[causal perturbation theory]] yields the correct [[interacting field algebra of quantum observables]] independent of [[adiabatic switching]], a theory of _[[quantum probability]]_ requires, on top of the
+[[algebra of observables]], also a _[[state on a star-algebra|state]]_ 
 
-However, causal perturbation theory has nothing to say about how the [[vacuum state]] $\langle -\rangle$ of the [[free field theory]] 
-(def. \ref{VacuumFree}) should _change_ as an interaction is turned on. In those theories where the plain [[adiabatic limit]]
-does not exist, the [[algebraic adiabatic limit]] which does exists and which does construct the [[algebra of observables]]
-seems to have to be supplemented by a compatible adjustment of the [[vacuum state]] to the interacting theory. 
-This problem remains open.
+  $$
+    \langle - \rangle_{int} \;\colon\; \mathcal{A}_{int} \longrightarrow \mathbb{C}[ [\hbar] ]
+  $$
+  
+  While the original [[Hadamard vacuum state]] of the [[free field theory]] (def. \ref{VacuumFree}) will still be a 
+  [[state on a star-algebra|state]] on $\mathcal{A}_{int}$, 
+  it is not to be expected to be a _[[vacuum]]_ state for the [[interacting field theory]]in a suitable sense. Rather, just as the [[interacting field algebra of observables]] $\mathcal{A}_{int}$ is a [[deformation]] of the free field algbra of observables ([[Wick algebra]]), there ought to be a corresponding deformation of the free [[Hadamard vacuum state]] $\langle- \rangle$ into an "interacting vacuum state" $\langle - \rangle_{int}$.
+  
+  This is an open problem of [[perturbative quantum field theory]].
+  
+=--
+
++-- {: .num_remark}
+###### Remark
+**([[quantum anomalies]])**
+
+The [[axioms]] for the [[S-matrix]] in def. \ref{LagrangianFieldTheoryPerturbativeScattering}
+(and similarly that for the [[time-ordered products]] below in def. \ref{TimeOrderedProduct})
+are sufficient to imply a [[causally local net]] of perturbative [[interacting field algebras of quantum observables]] (prop. \ref{PerturbativeQuantumObservablesIsLocalnet} below), and thus its [[algebraic adiabatic limit]] (remark \ref{AdiabaticLimit}).
+
+It does not guarantee, however, that the [[BV-BRST differential]] passes to those
+[[algebras of quantum observables]], hence it does not guarantee that the [[infinitesimal symmetries of the Lagrangian]]
+are respected by the [[quantization]] process (there may be "[[quantum anomalies]]").
+The extra condition that does ensure this is the _[[quantum master Ward identity]]_ or _[[quantum master equation]]_.
+This we discuss elsewhere.
+
+Apart from [[gauge symmetries]] one also wants to require that rigid symmetries  are preserved by the S-matrix, notably [[Poincare group]]-symmetry for scattering on [[Minkowski spacetime]]. This extra axiom is needed to imply the _[[main theorem of perturbative renormalization]]_.
 
 =--
+
 
 +-- {: .num_remark #calSFunctionIsRenormalizationScheme}
 ###### Remark
