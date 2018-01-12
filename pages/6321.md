@@ -78,20 +78,27 @@ and in the further generality of non-abelian [[Yang-Mills theory]] in
 * {#Hollands07} [[Stefan Hollands]], _Renormalized Quantum Yang-Mills Fields in Curved Spacetime_, Rev. Math. Phys. 20:1033-1172, 2008 ([arXiv:0705.3340](https://arxiv.org/abs/0705.3340))
 
 
-Discussion of the [[adiabatic limit]] (dealing with [[infrared divergences]]) is in
+Discussion of the [[adiabatic limit]] and [[infrared divergences]]) includes
+
+* Daniel Kapec, Malcolm Perry, Ana-Maria Raclariu, [[Andrew Strominger]], _Infrared Divergences in QED, Revisited_, Phys. Rev. D 96, 085002 (2017) ([arXiv:1705.04311](https://arxiv.org/abs/1705.04311))
 
 * {#Duch17} [[Paweł Duch]], _Massless fields and adiabatic limit in quantum field theory_ ([arXiv:1709.09907](https://arxiv.org/abs/1709.09907))
+
+
 
 
 ### Review
 
 Traditional discussion includes
 
+
 * [[Radovan Dermisek]], _Quantum Electrodynamics (QED)_ ([pdf](http://www.physics.indiana.edu/~dermisek/QFT_09/qft-II-5-4p.pdf), [[DermisekQED.pdf:file]])
 
 * [[Hitoshi Murayama]], _Quantum Electrodynamics_ ([pdf](http://hitoshi.berkeley.edu/221B-S02/QED.pdf))
 
 * {#Zeidler} [[Eberhard Zeidler]], _Quantum field theory II: Quantum electrodynamics --  A bridge between mathematicians and physicists_, Springer (2009)
+
+* Einan Gardi, lectures 19, 20 of _[Modern Quantum Field Theory](https://www2.ph.ed.ac.uk/~egardi/MQFT/)_, 2015 ([pdf](https://www2.ph.ed.ac.uk/~egardi/MQFT/MQFT_2015_lecture_19_20.pdf))
   
 Mathematically rigorous discussion in [[causal perturbation theory]] is in
 
