@@ -17,7 +17,7 @@
 
 ## Idea
 
-In the formulation of [[quantum field theory]] various naive mathematical constructions give rise to ill-defined "[[divergent series|divergent]]" expressions. 
+In the formulation of ([[perturbative quantum field theory|perturbative]]) [[quantum field theory]] various naive mathematical constructions give rise to ill-defined "[[divergent series|divergent]]" expressions. 
 
 Some of these occur in the [[limit of a sequence|limit]] that [[interaction]] points are taken _close_ to each other. Since the short distances involved in this limit translate, under [[Fourier transform]], to high [[frequencies]], these are called _[[ultraviolet divergences]]_. The correct way to deal with them is called _[[renormalization]]_.
 
@@ -26,6 +26,7 @@ Other divergences occur in the [[limit of a sequence|limit]] that the spacetime 
 In [[perturbative AQFT]] the issue is dealt with by realizing that, despite superficial appearance, the [[adiabatic switching|adiabatically switched]] [[S-matrix]] already makes physical sense, namely, for the computation of those [[quantum observables]] whose [[spacetime]] [[support]] is such that its [[causal closure]] lies inside the support of the switched S-matrix ([this prop.](S-matrix#PerturbativeQuantumObservablesIsLocalnet)). This gives a well-defined meaning to [[causal perturbation theory]] _without_ having to consider the [[adiabatic limit]].
 
 ## Properties
+
 
 > The [[Lee-Nauenberg theorem]] is a fundamental quantum mechanical result which provides the standard theoretical response to the problem of collinear and infrared divergences. Its argument, that the divergences due to massless charged particles can be removed by summing over degenerate states, has been successfully applied to systems with final state degeneracies such as LEP processes. If there are massless particles in both the initial and final states, as will be the case at the [[LHC]], the theorem requires the incorporation of disconnected [[Feynman diagrams|diagrams]] which produce connected interference effects at the level of the cross-section. However, this aspect of the theory has never been fully tested in the calculation of a cross-section. We show through explicit examples that in such cases the theorem introduces a divergent series of diagrams and hence fails to cancel the infrared divergences. It is also demonstrated that the widespread practice of treating soft infrared divergences by the [[Bloch-Nordsieck method]] and handling collinear divergences by the Lee-Nauenberg method is not consistent in such cases.
 
@@ -40,7 +41,13 @@ In [[perturbative AQFT]] the issue is dealt with by realizing that, despite supe
 
 ## References
 
-A famous approach to teh problem is due to
+Infrared divergences in [[QED]] were first observed in
+
+* {#Mott31} N. F. Mott, _On the influence of radiative forces on the scattering of electrons_, Proc. Camb. Phil. Soc. 27, 255 (1931).
+
+* {#BlockNordsiek37} [[Felix Bloch]] and [[Arnold Nordsieck]], _Note on the Radiation Field of the electron_, Phys. Rev. 52 , 54 (1937)
+
+A famous approach to the problem is due to
 
 * {#FadeevKulish70} [[Ludwig Faddeev]], P. P. Kulish, _Asymptotic conditions and infrared divergences in quantum electrodynamics_, Theoretical and Mathematical Physics June 1970, Volume 4, Issue 2, pp 745&#8211;757 ([mathnet.ru](http://www.mathnet.ru/php/archive.phtml?wshow=paper&jrnid=tmf&paperid=4141&option_lang=eng), [springer](https://link.springer.com/article/10.1007%2FBF01066485))
 
@@ -62,13 +69,17 @@ Discussion from the point of view of [[causal perturbation theory]] / [[perturba
 
 * {#AAS10} Andreas Aste, Cyrill von Arx, [[Günter Scharf]], section 4 of _Regularization in quantum field theory from the causal point of view_, Prog. Part. Nucl. Phys.64:61-119, 2010 ([arXiv:0906.1952](https://arxiv.org/abs/0906.1952))
 
-* {#Duch17} [[Pawe? Duch]], _Massless fields and adiabatic limit in quantum field theory_ ([arXiv:1709.09907](https://arxiv.org/abs/1709.09907))
+* {#Duch17} [[Paweł Duch]], _Massless fields and adiabatic limit in quantum field theory_ ([arXiv:1709.09907](https://arxiv.org/abs/1709.09907))
 
 
 
-See also 
+Further developments include
+
+* Daniel Kapec, Malcolm Perry, Ana-Maria Raclariu, [[Andrew Strominger]], _Infrared Divergences in QED, Revisited_, Phys. Rev. D 96, 085002 (2017) ([arXiv:1705.04311](https://arxiv.org/abs/1705.04311))
 
 * {#Strominger17} [[Andrew Strominger]], _Lectures on the Infrared Structure of Gravity and Gauge Theory_ ([arXiv:1703.05448](https://arxiv.org/abs/1703.05448))
+
+See also
 
 * Wikipedia, _[Infrared divergence](https://en.wikipedia.org/wiki/Infrared_divergence)_
 
