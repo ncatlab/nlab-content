@@ -1,4 +1,23 @@
-| [[interacting field theory]] | [[interaction]] [[Lagrangian density]] | [[interaction]] [[Wick algebra]] element |
-|------------------------------|------------------------|---------------|
-| [[phi^n theory]] | exp. \ref{phintheoryLagrangian} | expl. \ref{InWickAlgebraphinInteraction} |
-| [[quantum electrodynamics]] | expl. \ref{LagrangianQED} | expl. \ref{InWickAlgebraElectronPhotonInteraction} | 
+$$
+  \begin{aligned}
+    \left(
+      {\, \atop \,}
+      \mathcal{S}(g S_{int} + j A)
+      {\, \atop \,}
+    \right)^{-1} 
+    &= 
+    \left(
+      {\, \atop \,}
+      1 + \mathcal{D}(g S_{int} + j A)
+      {\, \atop \,}
+    \right)^{-1}
+    \\
+    & =
+    \underoverset{r = 0}{\infty}{\sum} 
+    \left( 
+      {\, \atop \,}
+      -\mathcal{D}(g S_{int} + j A)
+      {\, \atop \,}
+    \right)^r
+  \end{aligned}
+$$
