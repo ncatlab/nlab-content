@@ -118,7 +118,16 @@ The observation that this in  fact makes causal perturbation theory a tool for c
 
 * {#BrunettiFredenhagen00} [[Romeo Brunetti]], [[Klaus Fredenhagen]], _Microlocal Analysis and Interacting Quantum Field Theories: Renormalization on Physical Backgrounds_, Commun. Math. Phys. 208 : 623-661,2000 ([math-ph/9903028](https://arxiv.org/abs/math-ph/9903028))
 
-Detailed discussion of the adiabatic limit is in
+The weak adiabatic limit in [[causal perturbation theory]] for massive fields was shown to exists in 
+
+* [Epstein-Glaser 73](#EpsteinGlaser73)
+
+Extension of this result to [[quantum electrodynamics]] and [[phi^4 theory]] was given in
+
+* {#BlanchardSeneor75} P. Blanchard and R. Seneor, _Green’s functions for theories with massless particles (in perturbation theory)_, Ann. Inst. H. Poincaré Sec. A
+23 (2), 147–209 (1975) ([Numdam](http://www.numdam.org/item?id=AIHPA_1975__23_2_147_0))
+
+Further discussion of the adiabatic limit is in
 
 * {#Duch17} [[Paweł Duch]], _Massless fields and adiabatic limit in quantum field theory_ ([arXiv:1709.09907](https://arxiv.org/abs/1709.09907))
 
