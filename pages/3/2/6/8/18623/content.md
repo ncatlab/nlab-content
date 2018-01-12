@@ -77,14 +77,22 @@ The observation that these algebras are the [[formal deformation quantization]] 
 [[!redirects quantum observable on interacting fields]]
 [[!redirects quantum observables on interacting fields]]
 
-[[!redirects interacting field algebras of quantum observable]]
+[[!redirects interacting field algebra of quantum observable]]
 [[!redirects interacting field algebras of quantum observables]]
 
 [[!redirects interacting field quantum observable]]
 [[!redirects interacting field quantum observables]]
 
+[[!redirects interacting field observable]]
+[[!redirects interacting field observables]]
+
 [[!redirects interacting field algebra]]
 [[!redirects interacting field algebras]]
 
+[[!redirects interacting field algebra of observables]]
+[[!redirects interacting field algebras of observables]]
+
 [[!redirects interacting observable algebra]]
 [[!redirects interacting observable algebras]]
+
+
