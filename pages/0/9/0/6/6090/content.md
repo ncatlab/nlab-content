@@ -203,7 +203,7 @@ $$
 
 is under control. Hence the question now is how to find $\vert \psi(-)\rangle_I$ given its value at some time $t$. (It is conventional to consider this for $t \to \pm \infty$, see (eq:SMatrixInQuantumMechanics) below.)
 
-Now it is clear from the construction and using the [[product law]] for [[differentiation]], that $\vert \psi(-)\rangle_S$ satisfies the following [[differential equation]]:
+Now it is clear from the construction and using the [[product law]] for [[differentiation]], that $\vert \psi(-)\rangle_S$ satisfies the following [[differential equation]] ("[[Schrödinger equation]] in [[interaction picture]]"):
 
 \[
   \label{DifferentialEquationInInteractionPicture}
@@ -228,6 +228,7 @@ is known as the [[interaction]] term $V$ "viewed in the [[interaction picture]]"
 Solutions to equations of the "[[parallel transport]]"-type such as (eq:DifferentialEquationInInteractionPicture) are given by [[time-ordered product|time-ordering]] of Heisenberg picture operators, denoted $T$, applied to the naive exponential solution as above. This is known as the _[[Dyson formula]]_:
 
 $$
+  \label{DysonFormula}
   \vert \psi(t)\rangle_I
   \;=\;
   T\left(
@@ -256,7 +257,7 @@ $$
   \,.
 $$
 
-(This is abuse of notation: Strictly speaking time ordering acts on the [[tensor algebra]] spanned by the $\{V_I(t)\}_{t \in \mathbb{R}}$ and has to be _followed_ by taking tensor products to actual products. )
+Beware the conventional abuse of notation here: Strictly speaking time ordering acts on the [[tensor algebra]] spanned by the $\{V_I(t)\}_{t \in \mathbb{R}}$ and has to be _followed_ by taking tensor products to actual products. 
 
 In applications to [[scattering]] processes one is interest in prescribing the [[quantum state]]/[[wave function]] far in the past, hence for $t \to - \infty$, and computing its form far in the future, hence for $t \to \infty$.
 
@@ -264,7 +265,7 @@ The operator that sends such "asymptotic ingoing-states" $\vert \psi(-\infty) \r
 
 \[
   \label{SMatrixInQuantumMechanics}
-  S
+  \mathcal{S}(V_I)
   \;\coloneqq\;
   \underset{t \to \infty}{\lim}
   T\left(
@@ -279,8 +280,51 @@ The operator that sends such "asymptotic ingoing-states" $\vert \psi(-\infty) \r
 
 This limit (if it exists) is called the _scattering matrix_ or _S-matrix_, for short.
 
+For example if $V_{I,1}$ and $V_{I,2}$ are two [[interactions]] such that the [[support]] in [[time]] of $V_{I,1}$
+is _after_ the support of $V_{I,2}$:
+
+$$
+  \left\{
+  \array{
+    \left(t \gt t_0 \right) &\Rightarrow& V_{I,2} = 0
+    \\
+    \left(t \lt t_0 \right) &\Rightarrow& V_{I,1} = 0  
+  }
+  \right.
+$$
+
+then, assuming the S-matrix for $V_{I,1}$, $V_{I,2}$ and $V_I \coloneqq V_{I,1} + V_{I,2}$ exists, the [[Dyson formula]] (eq:DysonFormula)
+implies the "[[causal factorization]]"
+
+$$
+  \label{IntegralVersionSchroedingerEquationInInteractionPicture}
+  \mathcal{S}(V_{I,1} + V_{I,2})
+  \;=\;
+  \mathcal{S}(V_{I,1}) \, \mathcal{S}(V_{I,2})
+$$
+
+Conversely, decomposing any $V_I(t)$ with the [[step function]] $\Theta$ as
+
+$$
+  V_I(t) 
+    \;=\; 
+  \underset{ \coloneqq V_{I,1}(t) }{\underbrace{V_I(t) \Theta(t-t_0)}}
+   \;+\; 
+  \underset{ \coloneqq V_{I,2}(t) }{\underbrace{V_I(t)\Theta(t_0 - t)}}
+$$
+
+then this [[causal factorization]]-relation may be understood as the integral version of the 
+"[[Schrödinger equation]] in the [[interaction picture]]" (eq:DifferentialEquationInInteractionPicture).
+
+It is this "integral-version of the [[Schrödinger equation]] in the [[interaction picture]]" (eq:IntegralVersionSchroedingerEquationInInteractionPicture) that has a fairly
+evident generalization from [[quantum mechanics]] to [[relativistic field theory|relativistic]] [[perturbative quantum field theory]]
+in the form of _[[causal perturbation theory]]_, def. \ref{LagrangianFieldTheoryPerturbativeScattering} below, see remark \ref{DysonCausalFactorization} below that. 
+
+
+
 
 ### In perturbative relativistic Lagrangian QFT -- Causal perturbation theory
+ {#InCausalPerturbationTheory}
 
 > under construction
 
@@ -476,11 +520,14 @@ such that the following two conditions "perturbation" and "causal additivity (jo
        {\, \atop \,}
        \mathcal{S}(S_{int} + A_1 + A_2)
        =
-       \mathcal{S}(S_{int} + A_1) \mathcal{S}(S_{int})^{-1} \mathcal{S}(S_{int} + A_2)
+       \mathcal{S}(S_{int} + A_1) \, \mathcal{S}(S_{int})^{-1} \, \mathcal{S}(S_{int} + A_2)
        {\, \atop \,}
      \right)
-     \,,
+     \,.
    $$
+
+(The [[inverse]] $\mathcal{S}(S_{int})^{-1}$ of $\mathcal{S}(S_{int})$ with respect to the [[Wick algebra]]-[[structure]]
+is implied to exist by axiom "perturbation", see remark \ref{PerturbativeSMatrixInverse} below.)
 
 Given such an S-matrix scheme, then the corresponding _[[generating function]] scheme_
 (for [[interacting field algebra|interacting field observables]], def. \ref{GeneratingFunctionsForCorrelationFunctions} below) is the functional
@@ -507,8 +554,30 @@ $$
   \,.
 $$
 
-(The [[inverse]] $\mathcal{S}(S_{int})^{-1}$ of $\mathcal{S}(S_{int})$ with respect to the [[Wick algebra]]-[[structure]]
-exists by remark \ref{PerturbativeSMatrixInverse} below.)
+In terms of the generating functions the axiom "causal additivity" is equivalent to 
+
+* ([[causal additivity]] for $\mathcal{Z}$)
+
+  For all [[local observables]] $S_{int}, A_1, A_2 \in LocObs(E_{\text{BV-BRST}})[ [\hbar, g, j] ]$ we have
+
+  $$
+    \left(
+       {\, \atop \,}
+       supp(A_1) {\vee\!\!\!\wedge} supp(A_2)
+       {\, \atop \,}
+    \right)
+    \;\; \Rightarrow \;\;
+    \left(
+      {\, \atop \,}
+      \mathcal{Z}_{S_{int}}(A_1) \, \mathcal{Z}_{S_{int}}(A_2)
+      =
+      \mathcal{Z}_{S_{int}}(A_1 + A_2)
+      {\, \atop \,}
+    \right)
+    \,.
+  $$
+
+(Whence the term "additivity".)
 
 =--
 
@@ -522,6 +591,55 @@ in ([Brunetti-Fredenhagen 99, section 3](#BrunettiFredenhagen99), [D&#252;tsch-F
 [Hollands-Wald 04,  around (20)](#HollandsWald04)); for review see ([Rejzner 16, around def. 6.7](#Rejzner16), [Dütsch 18, section 3.3](#Duetsch18)).
 
 A few remarks are in order:
+
++-- {: .num_remark #DysonCausalFactorization}
+###### Remark
+**([[causal factorization]], [[Dyson series]] and [[Schrödinger equation]] in [[interaction picture]])**
+
+The axiom "perturbation" for an [[S-matrix]] scheme $\mathcal{S}$ in def. \ref{LagrangianFieldTheoryPerturbativeScattering}
+implies immediately the conditon
+
+* (normalization)
+
+  $$
+    \mathcal{S}(0) = 1
+    \,.
+  $$
+
+With this, the axiom "[[causal additivity]]" implies immediately this weaker condition :
+
+* ([[causal factorization]])
+
+  For all [[local observables]] $A_1, A_2 \in LocObs(E_{\text{BV-BRST}})[ [\hbar, h, j] ]$ we have
+
+  $$
+    \left(
+       {\, \atop \,}
+       supp(A_1) {\vee\!\!\!\wedge} supp(A_2)
+       {\, \atop \,}
+    \right)
+    \;\; \Rightarrow \;\;
+    \left(
+      {\, \atop \,}
+      \mathcal{S}(A_1 + A_2)
+      =
+      \mathcal{S}(A_1) \, \mathcal{S}(A_2)
+      {\, \atop \,}
+   \right)
+  $$
+
+This exhibits an [[S-matrix]]-scheme according to [[causal perturbation theory]] as a "[[causal ordering|causally ordered]] [[exponential]]"
+or "[[Dyson series]]" of the [[interaction]], hence as a refinement to [[relativistic field theory]] of what in 
+[[quantum mechanics]] is the "integral version of the [[Schrödinger equation]] in the [[interaction picture]]" (eq:IntegralVersionSchroedingerEquationInInteractionPicture). (See also [Scharf 95, second half of 0.3](#Scharf95)).
+
+While [[causal additivity]] is in fact stronger than [[causal factorization]], we find below that the
+evident analogue of [[causal factorization]] imposed directly on the [[time-ordered products]] (def. \ref{TimeOrderedProduct} below)
+does _imply_ [[causal additivity]] of the [[S-matrix]] (prop. \ref{TimeOrderedProductInducesPerturbativeSMatrix} below).
+
+The relevance of [[causal additivity]] of the [[S-matrix]], over just [[causal factorization]], is that it implies that 
+the induced [[interacting field algebra of observables]] forms a [[causally local net]] (prop. \ref{PerturbativeQuantumObservablesIsLocalnet} below).
+
+=--
 
 +-- {: .num_remark #PerturbativeSMatrixInverse}
 ###### Remark
@@ -583,20 +701,20 @@ Apart from [[gauge symmetries]] one also wants to require that rigid symmetries 
 ###### Remark
 **([[scattering amplitudes]])**
 
-Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}, let $\mathcal{S}$ be a corresponding [[S-matrix]] scheme according to def. \ref{LagrangianFieldTheoryPerturbativeScattering}, and let 
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}, let $\mathcal{S}$ be a corresponding [[S-matrix]] scheme according to def. \ref{LagrangianFieldTheoryPerturbativeScattering}, and let
 
 $$
   S_{int} \in LocObs(E_{\text{BV-BRST}})[ [ \hbar, g ] ]
-$$ 
+$$
 
 be a [[local observable]], regarded
 as an [[adiabatic switching|adiabatically switched]] [[interaction]] [[action functional]].
 
-Then for 
+Then for
 
 $$
   A_{in}, A_{out} \in PolyObs(E_{\text{BV-BRST}})_{mc}[ [\hbar] ]
-$$ 
+$$
 
 two [[microcausal  polynomial observables]], the corresponding _[[scattering amplitude]]_ is the value ("[[expectation value]]")
 
@@ -627,7 +745,7 @@ $$
   \begin{aligned}
   &
   \left\langle
-    \mathbf{\Phi}^{a_{out,1}}(x_{out,1}) \cdots \mathbf{\Phi}^{a_{out,s}}(x_{out,s}) 
+    \mathbf{\Phi}^{a_{out,1}}(x_{out,1}) \cdots \mathbf{\Phi}^{a_{out,s}}(x_{out,s})
     \vert
     \,
     \mathcal{S}(S_{int})
@@ -739,7 +857,7 @@ $$
     \left(
       \tfrac{g}{i \hbar} L_{int}(\Phi) + j A(\Phi)
     \right)
-  \right)  
+  \right)
   \, e^{\tfrac{1}{i \hbar}\int_X L_{free}(\Phi) }D[\Phi]
   \,,
 $$
@@ -788,7 +906,7 @@ for all $k \in \mathbb{N}$, such that:
 1. (normalization)
 
    $$
-     T_0(A) =
+     T_0(A) = 1
    $$
 
 1. (perturbation)
@@ -848,7 +966,7 @@ If
 
 $$
   \left\{
-    \alpha_i \in \Omega^{p+1,0}_\Sigma(E_{\text{BV-BRST}})\langle g \rangle 
+    \alpha_i \in \Omega^{p+1,0}_\Sigma(E_{\text{BV-BRST}})\langle g \rangle
   \right\}
   \cup
   \left\{
@@ -1046,15 +1164,15 @@ Given a time-ordered product $T = \{T_k\}_{k \in \mathbb{N}}$ (def. \ref{TimeOrd
 its _reverse-time ordered product_
 
 $$
-  \overline{T}_k 
-    \;\colon\; 
+  \overline{T}_k
+    \;\colon\;
   \left(
     {\, \atop \,}
     LocObs(E_{\text{BV-BRST}})[ [\hbar, g, j] ]
     {\, \atop \,}
   \right)
-    \longrightarrow 
-  PolyObs(E_{\text{BV-BRST}}((\hbar))[ [\hbar, g, j] ]  
+    \longrightarrow
+  PolyObs(E_{\text{BV-BRST}}((\hbar))[ [\hbar, g, j] ]
 $$
 
 for $k \in \mathbb{N}$ is defined by
@@ -1370,7 +1488,7 @@ we may finally prove that [[time-ordered products]] indeed do induced a perturba
 
 +-- {: .num_prop #TimeOrderedProductInducesPerturbativeSMatrix}
 ###### Proposition
-**([[time-ordered products]] induce perturbative S-matrix)**
+**([[time-ordered products]] induce [[S-matrix]])**
 
 Let $\{T_k\}_{k \in \mathbb{N}}$ be a system of [[time-ordered products]] according to def. \ref{TimeOrderedProduct}.
 Then
