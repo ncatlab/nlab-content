@@ -257,7 +257,7 @@ $$
   \,.
 $$
 
-Beware the conventional abuse of notation here: Strictly speaking time ordering acts on the [[tensor algebra]] spanned by the $\{V_I(t)\}_{t \in \mathbb{R}}$ and has to be _followed_ by taking tensor products to actual products. 
+Beware the conventional abuse of notation here: Strictly speaking time ordering acts on the [[tensor algebra]] spanned by the $\{V_I(t)\}_{t \in \mathbb{R}}$ and has to be _followed_ by taking tensor products to actual products.
 
 In applications to [[scattering]] processes one is interest in prescribing the [[quantum state]]/[[wave function]] far in the past, hence for $t \to - \infty$, and computing its form far in the future, hence for $t \to \infty$.
 
@@ -288,7 +288,7 @@ $$
   \array{
     \left(t \gt t_0 \right) &\Rightarrow& V_{I,2} = 0
     \\
-    \left(t \lt t_0 \right) &\Rightarrow& V_{I,1} = 0  
+    \left(t \lt t_0 \right) &\Rightarrow& V_{I,1} = 0
   }
   \right.
 $$
@@ -306,19 +306,19 @@ $$
 Conversely, decomposing any $V_I(t)$ with the [[step function]] $\Theta$ as
 
 $$
-  V_I(t) 
-    \;=\; 
+  V_I(t)
+    \;=\;
   \underset{ \coloneqq V_{I,1}(t) }{\underbrace{V_I(t) \Theta(t-t_0)}}
-   \;+\; 
+   \;+\;
   \underset{ \coloneqq V_{I,2}(t) }{\underbrace{V_I(t)\Theta(t_0 - t)}}
 $$
 
-then this [[causal factorization]]-relation may be understood as the integral version of the 
+then this [[causal factorization]]-relation may be understood as the integral version of the
 "[[Schrödinger equation]] in the [[interaction picture]]" (eq:DifferentialEquationInInteractionPicture).
 
 It is this "integral-version of the [[Schrödinger equation]] in the [[interaction picture]]" (eq:IntegralVersionSchroedingerEquationInInteractionPicture) that has a fairly
 evident generalization from [[quantum mechanics]] to [[relativistic field theory|relativistic]] [[perturbative quantum field theory]]
-in the form of _[[causal perturbation theory]]_, def. \ref{LagrangianFieldTheoryPerturbativeScattering} below, see remark \ref{DysonCausalFactorization} below that. 
+in the form of _[[causal perturbation theory]]_, def. \ref{LagrangianFieldTheoryPerturbativeScattering} below, see remark \ref{DysonCausalFactorization} below that.
 
 
 
@@ -345,7 +345,7 @@ The analogue of the limit $t \to \infty$ in the construction of the [[S-matrix]]
 
 
 
-#### Perturbative S-Matrix and Time-ordered products
+#### Perturbative S-Matrix
  {#PerturbativeSMatrixAndTimeOrderedProducts}
 
 We consider here the [[axioms]] for a perturbative S-matrix relative to a fixed [[relativistic field theory|relativistic]] [[free field theory|free]] [[Lagrangian field theory|Lagrangian]] [[quantum field theory|quantum field]] [[vacuum]], as used in  [[causal perturbation theory]] (def. \ref{LagrangianFieldTheoryPerturbativeScattering} below).
@@ -369,20 +369,22 @@ Let
 
 1. $\Sigma$ be a [[spacetime]] (e.g. [[Minkowski spacetime]]);
 
-1. $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]] ([this def.](A+first+idea+of+quantum+field+theory#FreeFieldTheory)), with [[field bundle]] $E \overset{fb}{\to} \Sigma$;
+1. $(E,\mathbf{L})$ a [[free field theory|free]] [[Lagrangian field theory]] ([this def.](A+first+idea+of+quantum+field+theory#FreeFieldTheory)), with [[field bundle]] $E \overset{fb}{\to} \Sigma$;
 
 1. $\mathcal{G} \overset{fb}{\to} \Sigma$ a [[gauge parameter bundle]] for $(E,\mathbf{L})$ ([this def.](A+first+idea+of+quantum+field+theory#GaugeParameters)), with induced [[BRST-complex|BRST]]-[[reduced phase space|reduced]] [[Lagrangian field theory]] $\left( E \times_\Sigma \mathcal{G}[1], \mathbf{L} - \mathbf{L}_{BRST}\right)$ ([this example](A+first+idea+of+quantum+field+theory#LocalOffShellBRSTComplex));
 
-1. $(E_{\text{BV-BRST}}, \mathbf{L}' - \mathbf{L}'_{BRST})$ a [[gauge fixing]] ([this def.](A+first+idea+of+quantum+field+theory#GaugeFixingLagrangianDensity)) with [[graded manifold|graded]] BV-BRST [[field bundle]] $E_{\text{BV-BRST}} = T^\ast_{\Sigma}[-1]\left( E\times_\Sigma \mathcal{G}[1] \times_\Sigma A \times_\Sigma A[-1]\right)$ ([this remark](A+first+idea+of+quantum+field+theory#FieldBundleBVBRST));
+1. $(E_{\text{BV-BRST}}, \mathbf{L}' - \mathbf{L}'_{BRST})$ a [[gauge fixing]] ([this def.](A+first+idea+of+quantum+field+theory#GaugeFixingLagrangianDensity)) with [[graded manifold|graded]] [[BV-BRST formalism|BV-BRST]] [[field bundle]] $E_{\text{BV-BRST}} = T^\ast_{\Sigma}[-1]\left( E\times_\Sigma \mathcal{G}[1] \times_\Sigma A \times_\Sigma A[-1]\right)$ ([this remark](A+first+idea+of+quantum+field+theory#FieldBundleBVBRST));
 
 1. $\Delta_H \in \Gamma'( E_{\text{BV-BRST}} \boxtimes E_{\text{BV-BRST}} )$ a [[Wightman propagator]] $\Delta_H = \tfrac{i}{2} \Delta + H$ compatible with the [[causal propagator]] $\Delta$ which corresponds to the [[Green hyperbolic partial differential equation|Green hyperbolic]] [[Euler-Lagrange equation|Euler-Lagrange]] [[equations of motion]] induced by the [[gauge fixing|gauge-fixed]] [[Lagrangian density]] $\mathbf{L}'$.
 
-Write
+Given this, we write
 
 $$
   \left(
+    {\, \atop \,}
     PolyObs(E_{\text{BV-BRST}})_{mc}[ [\hbar] ] \;,\;
    \star_H
+   {\, \atop \,}
   \right)
 $$
 
@@ -471,7 +473,7 @@ such that the following two conditions "perturbation" and "causal additivity (jo
    There exist [[multilinear map|multi-]][[linear continuous functionals]] (over $\mathcal{C}[ [\hbar, g, j] ]$) of the form
 
    $$
-     T
+     T_k
        \;\colon\;
      \left(
        {\, \atop \,}
@@ -479,18 +481,24 @@ such that the following two conditions "perturbation" and "causal additivity (jo
        {\, \atop \,}
      \right)^{\otimes^k_{\mathbb{C}[ [\hbar, g, j] ]}}
        \longrightarrow
-     PolyObs(E_{\text{BV-BRST}})_{mc}((\hbar))[ [ g, j ]
+     PolyObs(E_{\text{BV-BRST}})_{mc}((\hbar))[ [ g, j ] ]
    $$
 
    for all $k \in \mathbb{N}$, such that:
 
+   1. The nullary operation is the unit of the [[Wick algebra]]
+   
+      $$
+        T_0(A) = 1
+      $$
+
    1. The unary operation is the inclusion as [[normal-ordered products]] (eq:NormalOrderingLocalObservables)
 
       $$
-        T(A) = :A:
+        T_1(A) = :A:
       $$
 
-   1. The S-matrix is the [[exponential]] of "[[time-ordered products]]" in that  for $S_{int}, A  \in LocObs(E_{\text{BV-BRST}})$
+   1. The S-matrix is the [[exponential]] of these in that  for $S_{int}, A  \in LocObs(E_{\text{BV-BRST}})$
 
       $$
         \begin{aligned}
@@ -501,7 +509,7 @@ such that the following two conditions "perturbation" and "causal additivity (jo
           & \coloneqq
           \underoverset{k = 0}{\infty}{\sum} \frac{1}{k}
           \frac{1}{(i \hbar)^k}
-          T(\underset{k\, \text{arguments}}{\underbrace{ A, \cdots,  A  }})
+          (\underset{k\, \text{arguments}}{\underbrace{ A, \cdots,  A  }})
         \end{aligned}
       $$
 
@@ -529,7 +537,7 @@ such that the following two conditions "perturbation" and "causal additivity (jo
 (The [[inverse]] $\mathcal{S}(S_{int})^{-1}$ of $\mathcal{S}(S_{int})$ with respect to the [[Wick algebra]]-[[structure]]
 is implied to exist by axiom "perturbation", see remark \ref{PerturbativeSMatrixInverse} below.)
 
-Given such an S-matrix scheme, then the corresponding _[[generating function]] scheme_
+Given such an S-matrix scheme, we say that the corresponding _[[generating function]] scheme_
 (for [[interacting field algebra|interacting field observables]], def. \ref{GeneratingFunctionsForCorrelationFunctions} below) is the functional
 
 $$
@@ -554,7 +562,7 @@ $$
   \,.
 $$
 
-In terms of the generating functions the axiom "causal additivity" is equivalent to 
+In terms of the generating functions the axiom "causal additivity" is equivalent to
 
 * ([[causal additivity]] for $\mathcal{Z}$)
 
@@ -583,9 +591,8 @@ In terms of the generating functions the axiom "causal additivity" is equivalent
 
 
 Def. \ref{LagrangianFieldTheoryPerturbativeScattering} is due to ([Epstein-Glaser 73 (1)](#EpsteinGlaser73)),
-in view of lemma \ref{CausalLocalityOfThePerturbativeSMatrix} below, except that these authors
-remain a vague about nature of the [[domain]].
-The domain $LocObs$ is made explicit (in terms of axioms
+in view of lemma \ref{CausalLocalityOfThePerturbativeSMatrix} below. 
+That the domain is indeed $LocObs$ was made explicit (in terms of axioms
 for the [[time-ordered products]], see def. \ref{TimeOrderedProduct} below),
 in ([Brunetti-Fredenhagen 99, section 3](#BrunettiFredenhagen99), [D&#252;tsch-Fredenhagen 04, appendix E](#DuetschFredenhagen04),
 [Hollands-Wald 04,  around (20)](#HollandsWald04)); for review see ([Rejzner 16, around def. 6.7](#Rejzner16), [Dütsch 18, section 3.3](#Duetsch18)).
@@ -606,7 +613,7 @@ implies immediately the conditon
     \,.
   $$
 
-With this, the axiom "[[causal additivity]]" implies immediately this weaker condition :
+With this, the axiom "[[causal additivity]]" implies immediately this weaker condition
 
 * ([[causal factorization]])
 
@@ -629,14 +636,14 @@ With this, the axiom "[[causal additivity]]" implies immediately this weaker con
   $$
 
 This exhibits an [[S-matrix]]-scheme according to [[causal perturbation theory]] as a "[[causal ordering|causally ordered]] [[exponential]]"
-or "[[Dyson series]]" of the [[interaction]], hence as a refinement to [[relativistic field theory]] of what in 
+or "[[Dyson series]]" of the [[interaction]], hence as a refinement to [[relativistic field theory]] of what in
 [[quantum mechanics]] is the "integral version of the [[Schrödinger equation]] in the [[interaction picture]]" (eq:IntegralVersionSchroedingerEquationInInteractionPicture). (See also [Scharf 95, second half of 0.3](#Scharf95)).
 
 While [[causal additivity]] is in fact stronger than [[causal factorization]], we find below that the
 evident analogue of [[causal factorization]] imposed directly on the [[time-ordered products]] (def. \ref{TimeOrderedProduct} below)
 does _imply_ [[causal additivity]] of the [[S-matrix]] (prop. \ref{TimeOrderedProductInducesPerturbativeSMatrix} below).
 
-The relevance of [[causal additivity]] of the [[S-matrix]], over just [[causal factorization]], is that it implies that 
+The relevance of [[causal additivity]] of the [[S-matrix]], over just [[causal factorization]], is that it implies that
 the induced [[interacting field algebra of observables]] forms a [[causally local net]] (prop. \ref{PerturbativeQuantumObservablesIsLocalnet} below).
 
 =--
@@ -804,6 +811,58 @@ These are interpreted as the (distributional) _[[probability amplitudes]]_ for [
 with [[wave vector]] $k_{in,\cdot}$ to come in from the far past, ineract with each other via $S_{int}$,
 and emerge in the far future as [[plane waves]] of field species $a_{out,\cdot}$ with [[wave vectors]] $k_{out,\cdot}$.
 
+=--
+
+Or rather:
+
++-- {: .num_remark #AdiabaticLimit}
+###### Remark
+**([[adiabatic limit]])**
+
+Since a [[local observable]] $S_{int} \in LocObs(E_{\text{BV-BRST}})[ [\hbar, g, j] ]$  by definition
+has compact spacetime support, the [[scattering amplitudes]] in remark \ref{FromAxiomaticSMatrixScatteringAmplitudes} 
+describe [[scattering]] processes for [[interactions]] that are are trivial outside a compact subset of 
+[[spacetime]]. 
+
+* ([[adiabatic limit]]) On the one hand, real physical interactions $\mathbf{L}_{int}$ (say the [[electron-photon interaction]])
+are not really supposed to vanish outside a compact region of spacetime. In order to reflect this mathematically,
+one may consider a [[sequence]] of [[adiabatic switchings]] $g_{sw} \in C^\infty_{cp}(\Sigma)\langle g \rangle$ (each of [[compact support]]) whose [[limit of a sequence|limit]] is the [[constant function]] $g \in C^\infty(\Sigma)\langle g\rangle$, consider the corresponding [[sequence]] of [[interaction]] [[action functionals]] $S_{int} \coloneqq \tau_\Sigma( g_{sw} \mathbf{L}_{int} )$ and then consider 
+as the true [[scattering amplitude]] the corresponding [[limit of a sequence|limit]] 
+
+$$
+  \underset{g_{sw} \to 1}{\lim}
+  \left\langle
+    A_{out} \vert \mathcal{S}(S_{ing}) \vert A_{int}
+  \right\rangle
+$$
+
+of adiabatically switched scattering amplitudes --  if it exists. This is called the _[[adiabatic limit]]_.
+If this does not exist, one says the [[perturbative QFT]] has an _[[infrared divergence]]_.
+
+* ([[algebraic adiabatic limit]]) On the other hand, it is equally unrealistic that an actual [[experiment]] _detects_ physics outside a
+given compact subset of spacetime. Realistic scattering [[experiments]] such as the [[LHC]] do not really prepare or measure
+[[plane wave]] filling all of [[spacetime]]. Any [[observable]] that is realistically measurable must have compact spacetime support.
+We see below in prop. \ref{WellDefinedInteractingFieldAlgebra} that such [[interacting field observables]] with compact spacetime support
+may be computed without taking the [[adiabatic limit]]: It is sufficient to use any [[adiabatic switching]] which is constant
+on the support of the observable. 
+
+  This way one obtains for each [[causally closed subset]] $\mathcal{O}$ of spacetime an 
+algebra of observables $\mathcal{A}_{\mathcal{O}}$ whose support is in $\mathcal{O}$,
+and for each inclusion of subsets a corresponding inclusion of algebras of observables (prop. \ref{PerturbativeQuantumObservablesIsLocalnet} ebelow). Of this system of observables one may form the [[category theory|category-theoretic]] [[inductive limit]] to obtain a single global algebra of observables.
+
+  $$
+    \mathcal{A} \;\coloneqq\; \underset{\underset{\mathcal{O}}{\longrightarrow}}{\lim} \mathcal{A}_{\mathcal{O}}
+  $$
+
+  This always exists. It is called the _[[algebraic adiabatic limit]]_.
+
+Hence via the [[algebraic adiabatic limit]] [[causal perturbation theory]] yields the correct [[interacting field algebra of quantum observables]] independent of [[adiabatic switching]], which is rendered just a mathematical convenience involved in the computation.
+
+However, causal perturbation theory has nothing to say about how the [[vacuum state]] $\langle -\rangle$ of the [[free field theory]] 
+(def. \ref{VacuumFree}) should _change_ as an interaction is turned on. In those theories where the plain [[adiabatic limit]]
+does not exist, the [[algebraic adiabatic limit]] which does exists and which does construct the [[algebra of observables]]
+seems to have to be supplemented by a compatible adjustment of the [[vacuum state]] to the interacting theory. 
+This problem remains open.
 
 =--
 
@@ -876,6 +935,10 @@ the [[path integral]], not analytically as an actual [[integration]], but "[[syn
 by axiomatizing the behaviour of the _outcome_.
 
 =--
+
+$\,$
+
+#### Time-ordered products
 
 Definition \ref{LagrangianFieldTheoryPerturbativeScattering} suggests to focus on the
 multilinear operations $T(...)$ which define the perturbative S-matix order-by-order in $\hbar$:
@@ -2085,9 +2148,9 @@ from the [[poset]] of [[causally closed subsets]] of [[spacetime]] to the [[cate
 
 ([Brunetti-Fredenhagen 99, (65)-(67)](#BrunettiFredenhagen99))
 
-+-- {: .num_remark}
-###### Remark
-**([[algebra of observables]] well defined up to canonical [[isomorphism]])**
++-- {: .num_prop #WellDefinedInteractingFieldAlgebra}
+###### Propsition
+**([[interacting algebra of observables]] well defined up to canonical [[isomorphism]])**
 
 By lemma \ref{CausalLocalityOfThePerturbativeSMatrix},
 for every causally closed $\mathcal{O} \subset X$ and every $g_{sw} \in Cutoffs(\mathcal{O})$
@@ -2245,7 +2308,7 @@ As a corollary of prop. \ref{GeneratingAlgebrasIsLocalNet} we then have the key 
 
 +-- {: .num_prop #PerturbativeQuantumObservablesIsLocalnet}
 ###### Proposition
-**(system of algebras of perturbative quantum observables is [[local net of observables]])**
+**(system of [[interacting field algebras of observables]] is [[local net of observables]])**
 
 
 Given a perturbative S-matrix according to def. \ref{LagrangianFieldTheoryPerturbativeScattering}
