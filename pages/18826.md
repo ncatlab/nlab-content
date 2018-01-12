@@ -2103,7 +2103,7 @@ $$
 the [[jet bundle]] of the _[[graded manifold|graded]] [[field bundle]]_
 
 $$
-  E_{BRST} \coloneqq \mathcal{G}[1]  \times E
+  E_{BRST} \;\coloneqq\; E \times_\Sigma \mathcal{G}[1]
 $$
 
 which regards the [[gauge parameters]] as [[field (physics)|fields]] in degree 1.
