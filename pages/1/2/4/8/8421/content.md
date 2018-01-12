@@ -129,7 +129,9 @@ However, it is also possible to incorporate some "knowledge" about the meaning o
 
 ### Relation to category theory
 
-The four classes of rules of natural deduction are close to being specifications of [[universal constructions]] in [[category theory]]. In [[categorical semantics]] one considers categories which are such that their [[objects]] are regarded as [[types]] and their [[generalized elements]] as [[terms]], then the rules of natural deductions describe the possible construction of [[morphisms]] in that category.
+The four classes of rules of natural deduction combined give alternative specifications of [[universal constructions]] in [[category theory]]. In [[categorical semantics]] one considers categories which are such that their [[objects]] are regarded as [[types]] and their [[generalized elements]] as [[terms]], then the rules of natural deductions describe the possible construction of [[morphisms]] in that category.
+
+For instance, the connectives of type theory are presentations of [[functors]], but their action on morphisms is not explicitly defined, because [[representability determines functoriality| the action is definable from the introduction and elimination rules]].
 
 (...)
 
