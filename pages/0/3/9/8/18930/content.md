@@ -15,8 +15,9 @@
 
 ## Idea
 
-If a functor represents a given profunctor, then the action of the functor on morphisms is determined by the action of the profunctor and the representation isomorphism.
-This lemma can make it easier to define certain adjoint functors, and is also implicit in [[type theory]] where type connectives are presentation of functors, but the action on morphisms is derivable rather than primitive.
+If a [[functor]] represents a given [[profunctor]], then the action of the functor on morphisms is determined by the action of the profunctor and the representation isomorphism.
+
+This lemma can make it easier to define certain [[adjoint functors]], and is also implicit in [[type theory]] where type connectives are presentation of functors, but the action on morphisms is derivable rather than primitive.
 
 ## Statement
 
