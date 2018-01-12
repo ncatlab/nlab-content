@@ -198,7 +198,7 @@ More explicitly:
 +-- {: .num_defn #UniversalThomSpectrum}
 ###### Definition
 
-As a [[sequential spectrum]], the _universal Thom spectrum_ $M O$ is the is represented by the [[sequential prespectrum]] whose $n$th component space is the [[Thom space]] 
+As a [[sequential spectrum]], the _universal Thom spectrum_ $M O$ is represented by the [[sequential prespectrum]] whose $n$th component space is the [[Thom space]] 
 
 $$
   (M O)_n \coloneqq Th(E O(n)\underset{O(n)}{\times}\mathbb{R}^n)
@@ -332,7 +332,7 @@ for the [[pullback]] of the rank-$n$ [[universal vector bundle]] from $B O(n)$ t
 Observe that the analog of prop. \ref{PullbackOfUniversalOnBundleUnderCoordinateRestriction} still holds:
 
 +-- {: .num_prop #PullbackOfUniversalBfBundleUnderCoordinateRestriction}
-###### Proposiiton
+###### Proposition
 
 Given a [[(B,f)-structure]] $\mathcal{B}$ (def. \ref{BfStructure}), then the pullback of its rank-$(n+1)$ vector bundle $E^{\mathcal{B}}_{n+1}$ (def. \ref{VectorBundleAssociatedWithBfStructure}) along the map $j_n \colon B_n \to B_{n+1}$ is the [[direct sum of vector bundles]] of the rank-$n$ bundle $E^{\mathcal{B}}_n$ with the trivial rank-1-bundle: there is a pullback square
 
