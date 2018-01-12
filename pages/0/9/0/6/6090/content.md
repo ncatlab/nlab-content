@@ -447,6 +447,7 @@ For $S_1, S_2 \subset \Sigma$ two [[subsets]] of [[spacetime]] we write $S_1 {\v
 
 =--
 
+For the purposes of constructing or defining the Wick algebra, the conditions on $\Delta_H$ or $H$ could be relaxed. Requiring $\Delta_H$ to be an honest [[Wightman propagator]] means that it is a distribution satisfying the Hadamard wavefront condition, as well as addition positivity and normalization requirements. Dropping the positivity and some of the normalization requirements, $\Delta_H$ is then only a _Hadamard parametrix_ for the Wightman propagator. The construction of the Wick algebra with respect to $\Delta_H$ still makes sense, but $:(-):$ can no longer be interpreted as normal ordering with respect to a fixed vacuum state. In fact, in locally covariant pAQFT, the property for $\Delta_H$ to be the Wightman propagator for a state is in conflict with local covariance. On the other hand, there is no problem with selecting a locally covariant Hadamard parametrix $\Delta_H$, which allows the construction or definition of the Wick algebra to be locally covariant.
 
 
 +-- {: .num_defn #LagrangianFieldTheoryPerturbativeScattering}
@@ -498,7 +499,7 @@ such that the following two conditions "perturbation" and "causal additivity (jo
         T_1(A) = :A:
       $$
 
-   1. The S-matrix is the [[exponential]] of these maps in that for all $S_{int}, A  \in LocObs(E_{\text{BV-BRST}})[ [\hbar] ] $
+   1. The S-matrix is the [[generating function|exponential generating function]] of these maps in that for all $S_{int}, A  \in LocObs(E_{\text{BV-BRST}})[ [\hbar] ] $
 
       $$
         \begin{aligned}
@@ -733,7 +734,7 @@ $$
   A_{in}, A_{out} \in PolyObs(E_{\text{BV-BRST}})_{mc}[ [\hbar] ]
 $$
 
-two [[microcausal  polynomial observables]], the corresponding _[[scattering amplitude]]_ is the value ("[[expectation value]]")
+two [[microcausal  polynomial observables]], the corresponding _[[scattering amplitude]]_ is the value ("[[expectation value]]" when referring to $A^\ast_{out} \, \mathcal{S}(S_{int}) \, A_{in}$, or "matrix element" when referring to $\mathcal{S}(S_{int})$, or "transition amplitude" when referring to $\left\langle A_{out} \right\vert$ and $\left\vert A_{in} \right\rangle$)
 
 $$
   \left\langle
@@ -752,7 +753,7 @@ $$
   \,.
 $$
 
-of the [[Wick algebra]]-product $A^\ast_{out} \, \mathcal{S}(S_{int})\, A_{in} \in PolyObs(E_{\text{BV-BRST}})[ [\hbar, g ] ]$
+for the [[Wick algebra]]-product $A^\ast_{out} \, \mathcal{S}(S_{int})\, A_{in} \in PolyObs(E_{\text{BV-BRST}})[ [\hbar, g ] ]$
 in the given [[Hadamard vacuum state]] $\langle -\rangle \colon PolyObs(E_{\text{BV-BRST}})[ [\hbar, g] ] \to \mathcal{C}[ [\hbar,g] ]$.
 
 If here $A_{in}$ and $A_{out}$ are monomials in [[Wick algebra]]-products of the [[field observables]] $\mathbf{\Phi}^a(x) \in Obs(E_{\text{BV-BRST}})[ [\hbar] ]$,
@@ -831,7 +832,7 @@ Or rather:
 
 Since a [[local observable]] $S_{int} \in LocObs(E_{\text{BV-BRST}})[ [\hbar, g, j] ]$  by definition
 has compact spacetime support, the [[scattering amplitudes]] in remark \ref{FromAxiomaticSMatrixScatteringAmplitudes} 
-describe [[scattering]] processes for [[interactions]] that vanisj ( are "[[adiabatic switching|adiabatically switched off]]") outside a compact subset of [[spacetime]]. 
+describe [[scattering]] processes for [[interactions]] that vanish ( are "[[adiabatic switching|adiabatically switched off]]") outside a compact subset of [[spacetime]]. 
 
 There are several aspects to this:
 
@@ -1020,7 +1021,15 @@ for all $k \in \mathbb{N}$, such that:
      T_1(A) =  :A:
    $$
 
-1. (symmetry) each $T_k$ is graded-symmetric in its arguments
+1. (symmetry) each $T_k$ is graded-symmetric in its arguments, which means that
+   $$
+     T_k(A_{\sigma(1)}, \ldots, A_{\sigma(k)})
+       = (-)^\epsilon T_k(A_1, \ldots, A_k)
+     \quad whenever \quad
+     A_{\sigma(1)} \cdots A_{\sigma(k)}
+       = (-)^\epsilon A_1 \cdots A_k
+   $$
+   for any collection of graded elements $A_1, \ldots, A_k \in LocObs(E_{\text{BV-BRST}})[ [\hbar, g, j] ]$ permutation on $k$ elements $\sigma\in \Sigma(k)$.
 
 1. ([[causal factorization]]) If
 
