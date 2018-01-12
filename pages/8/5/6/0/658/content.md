@@ -165,6 +165,13 @@ One can show that comma objects are always discrete fibrations, and dually cocom
 
 * for [[enriched category|enrichment]] over a [[category of chain complexes]] an [[enriched category]] is a [[dg-category]] and a profunctor is now a dg-[[bimodule]] of dg-categories. This appears notably in the definition of [[noncommutative motives]].
 
+## Properties
+ {#Properties}
+
+* If a [[functor]] represents a given profunctor, then the action of the functor on morphisms is determined by the action of the profunctor and the representation isomorphism. For details see at _[[representability determines functoriality]]_
+
+* ...
+
 ## Related entries ##
 
 * [[module]]
