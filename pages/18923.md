@@ -58,6 +58,7 @@ Certain tools can be used to show the quasi-categorical format of surreal spaces
 ## Translations and transformations on surreal spaces
 
 ## Asymptotic Parts of Real Numbers (Asymptotic Numbers)
+We use sheaves to discuss this. 
 
 ## Ordinal, Simplicial, and Surreal (Genealogical cohomology) 
 
