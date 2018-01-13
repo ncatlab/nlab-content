@@ -127,7 +127,7 @@ Extension of this result to [[quantum electrodynamics]] and [[phi^4 theory]] was
 * {#BlanchardSeneor75} P. Blanchard and R. Seneor, _Green’s functions for theories with massless particles (in perturbation theory)_, Ann. Inst. H. Poincaré Sec. A
 23 (2), 147–209 (1975) ([Numdam](http://www.numdam.org/item?id=AIHPA_1975__23_2_147_0))
 
-Further discussion of the adiabatic limit is in
+Further extension of the result is due to
 
 * {#Duch17} [[Paweł Duch]], _Massless fields and adiabatic limit in quantum field theory_ ([arXiv:1709.09907](https://arxiv.org/abs/1709.09907))
 
