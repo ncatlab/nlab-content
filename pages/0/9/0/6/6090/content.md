@@ -618,7 +618,7 @@ That the domain is indeed the space of [[local observable]] was made explicit (i
 
 Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}, let $\mathcal{S}$ be a corresponding [[S-matrix]] scheme according to def. \ref{LagrangianFieldTheoryPerturbativeScattering}, and let $S_{int} \in LocObs(E_{\text{BV-BRST}})[ [ \hbar, g ] ]$ be a [[local observable]] regarded as an [[adiabatic switching|adiabatically switched]] [[interaction]]-[[action functional|functional]].
 
-Then for $A \in LocObs(E_{\text{BV-BRST}})[ [\hbar] ]$ a [[local observable]] of the [[free field theory]], write 
+Then for $A \in LocObs(E_{\text{BV-BRST}})[ [\hbar] ]$ a [[local observable]] of the [[free field theory]], write
 
 $$
   A_{int} \in PolyObs(E_{\text{BV-BRST}})_{mc}[ [\hbar, g] ]
@@ -642,7 +642,7 @@ $$
 This expression is called _[[Bogoliubov's formula]]_, due to ([Bogoliubov-Shirkov 59](#BogoliubovShirkov59)).
 The assignment $A \mapsto A_{int}$ is also called the _[[quantum Møller operator]]_ ([Hawkins-Rejzner 16](perturbative+algebraic+quantum+field+theory#HawkinsRejzner16)).
 
-One thinks of $A_{int}$ as the [[deformation]] of the observable $A$ as the [[interaction]] $S_{int}$ is turned on; and speaks of an element of the _[[interacting field algebra of observables]]_. 
+One thinks of $A_{int}$ as the [[deformation]] of the observable $A$ as the [[interaction]] $S_{int}$ is turned on; and speaks of an element of the _[[interacting field algebra of observables]]_.
 
 =--
 
@@ -1006,17 +1006,19 @@ wich states that the space of choices for $\mathcal{S}$ is a [[torsor]] over the
 
 +-- {: .num_remark #InterpretationOfPerturbativeSMatrix}
 ###### Remark
-**([[path integral]] heuristics)**
+**([[path integral]]-intuition)**
 
-In informal heuristic discussion of [[perturbative QFT]], the perturbative scattering matrix is often thought of
-in terms of a would-be _[[path integral]]_, symbolically written
+In informal discussion of [[perturbative QFT]] going back to informal ideas of [[Schwinger-Tomonaga-Feynman-Dyson]], the
+perturbative [[S-matrix]] is thought of in terms of a would-be _[[path integral]]_, symbolically written
 
 $$
   \mathcal{S}\left(
     g S_{int} + j A
   \right)
   \;\overset{\text{not really!}}{=}\;
+  \!\!\!
   \underset{\Phi \in \Gamma_\Sigma(E_{\text{BV-BRST}})_{asm}}{\int}
+  \!\!\!\!\!\!
   \exp\left(
     \tfrac{1}{i \hbar}
     \int_\Sigma
@@ -1024,36 +1026,33 @@ $$
       g L_{int}(\Phi) + j A(\Phi)
     \right)
   \right)
-  \, 
+  \,
   \exp\left(
-    \tfrac{1}{i \hbar}\int_\Sigma L_{free}(\Phi) 
+    \tfrac{1}{i \hbar}\int_\Sigma L_{free}(\Phi)
   \right) D[\Phi]
-  \,,
+  \,.
 $$
 
-where the would-be [[integration]] is thought to be over the [[space of field histories]] $\Gamma_\Sigma(E_{\text{BV-BRST}})_{asm}$ (the [[space of sections]] of the given [[field bundle]]) for [[field histories]] which satisfy given asymptotic conditions at $x^0 \to \pm \infty$; and as these boundary conditions
-vary the above is regarded as a would-be [[integral kernel]] that defines the required operator in the [[Wick algebra]] (e.g. [Weinberg 95, around (9.3.10) and (9.4.1)](#Weinberg95)).
+Here the would-be [[integration]] is thought to be over the [[space of field histories]] $\Gamma_\Sigma(E_{\text{BV-BRST}})_{asm}$ (the [[space of sections]] of the given [[field bundle]]) for [[field histories]] which satisfy given asymptotic conditions at $x^0 \to \pm \infty$; and as these boundary conditions vary the above is regarded as a would-be [[integral kernel]] that defines the required operator in the [[Wick algebra]] (e.g. [Weinberg 95, around (9.3.10) and (9.4.1)](#Weinberg95)).
 
 Beyond toy examples, it is not known how to define the would be [[measure]] $D[\Phi]$ and it is not known how to make sense of this expression as an actual [[integral]].
 
-But we may think of the axioms for the [[S-matrix]] in def. \ref{LagrangianFieldTheoryPerturbativeScattering} as rigorously _defining_
-the [[path integral]], not analytically as an actual [[integration]], but _[[synthetic mathematics|synthetically]]_ by axiomatizing the properties of the desired _outcome_ of the would-be integration.
-
-With the S-matrix thought of as a [[path integral]], the analogous path-integral heuristics for [[Bogoliubov's formula]] for [[interacting field observables]] (def. \ref{InteractingFieldObservables}) symbolically reads
+The analogous path-integral intuition for [[Bogoliubov's formula]] for [[interacting field observables]] (def. \ref{InteractingFieldObservables}) symbolically reads
 
 $$
   \begin{aligned}
   A_{int}
   & \overset{\text{not really!}}{=}
   \frac{d}{d j}
-  \ln 
+  \ln
   \left(
   \underset{\Phi \in \Gamma_\Sigma(E)_{asm}}{\int}
+  \!\!\!\!
   \exp\left(
     \underset{\Sigma}{\int}
       g L_{int}(\Phi) + j A(\Phi)
   \right)
-  \, 
+  \,
   \exp\left( \underset{\Sigma}{\int} L_{free}(\Phi) \right)
   D[\Phi]
   \right)
@@ -1071,25 +1070,82 @@ $$
   }
   {
     \underset{\Phi \in \Gamma_\Sigma(E_{\text{BV-BRST}})_{asm}}{\int}
+    \!\!\!\!
     \exp\left( \underset{\Sigma}{\int} L_{free}(\Phi) \right)\, D[\Phi]
   }
 $$
 
-as a would-be [[Gaussian measure]], normlized such as to be a would-be [[probablity measure]] on the [[space of field histories]], then this formula
-would express an ordinary [[expectation value]] 
+as a would-be [[Gaussian measure]] on the [[space of field histories]], normalized to a would-be [[probability measure]], then this formula
+would express interacting field observables as ordinary [[expectation values]]
 
 $$
-  A_{int} 
-   \overset{\text{not really!}}{=} 
-  [A]_{\mu} 
-  \;=\; 
+  A_{int}
+   \overset{\text{not really!}}{=}
+   \!\!\!
   \underset{\Phi \in \Gamma_\Sigma(E_{\text{BV-BRST}})_{asm}}{\int}
-     A(\Phi) 
+  \!\!\!\!\!\!
+     A(\Phi)
   \,\mu(\Phi)
   \,.
 $$
 
-As before, beyond toy examples it is not known how to make sense of this. Instead of defining this analytically as an actual [[integration]], [[Bogoliubov's formula]] with the axioms for the [[S-matrix]] (def. \ref{LagrangianFieldTheoryPerturbativeScattering}, def. \ref{InteractingFieldObservables}) may be thought of as defining this _[[synthetic mathematics|synthetically]]_, by characterizing the behaviour of the desired outcome of the would-be integration.
+As before, beyond toy examples it is not known how to make sense of this as an actual [[integration]].
+
+But we may think of the axioms for the [[S-matrix]] in [[causal perturbation theory]] (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) as rigorously _defining_ the [[path integral]], not analytically as an actual [[integration]], but _[[synthetic mathematics|synthetically]]_ by axiomatizing the properties of the desired _outcome_ of the would-be integration:
+
+The analogy with a well-defined [[integral]] and the usual properties of an [[exponential]] vividly _suggest_
+that the would-be [[path integral]] should obey [[causal factorization]]. But instead of trying to make sense of
+[[path integral|path integration]] so that this factorization property could then be appealed to as a _consequence_ of general properties
+of [[integration]] and [[exponentials]], the axioms of [[causal perturbation theory]] directly prescribe the
+desired factorization property, without insisting that it derives from an actual integration.
+
+The great success of [[path integral]] intuition in the development of [[quantum field theory]], despite the absence of
+an actual construction, indicates that it is not the would-be integration process as such that actually matters in field
+theory, but only the resulting properties that this _suggests_ the S-matrix should have; which is what
+[[causal perturbation theory]] axiomatizes. Indeed, the simple [[axioms]] of [[causal perturbation theory]]
+provably _imply_ finite (i.e. [[renormalization|renormalized]]) [[perturbative quantum field theory]] ([Epstein-Glaser 73](#EpsteinGlaser73)).
+
+$$
+  \array{
+  \array{
+    \text{would-be}
+    \\
+    \text{path integral}
+    \\
+    \text{intuition}
+  }
+  &
+  \overset{
+    \array{
+      \text{informally}
+      \\
+      \text{suggests}
+    }
+  }{\longrightarrow}
+  &
+  \array{
+    \text{causally additive}
+    \\
+    \text{scattering matrix}
+  }
+  &
+  \overset{
+    \array{
+      \text{rigorously}
+      \\
+      \text{implies}
+    }
+  }{\longrightarrow}
+  &
+  \array{
+    \text{UV-finite}
+    \\
+    \text{(i.e. renormalized)}
+    \\
+    \text{perturbative QFT}
+  }
+  }
+$$
 
 
 =--
@@ -1108,7 +1164,7 @@ multilinear operations $T(...)$ which define the perturbative S-matix order-by-o
 
 Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}.
 
-A _[[time-ordered product]]_ is a sequence of [[multilinear map|multi-]][[linear continuous functionals]]) of the form
+A _[[time-ordered product]]_ is a sequence of [[multilinear map|multi-]][[linear continuous functionals]] of the form
 
 $$
   T_k
@@ -1193,6 +1249,45 @@ for all $k \in \mathbb{N}$, such that:
 
 =--
 
++-- {: .num_remark #TheTraditionalErrorThatLeadsToTheNotoriouDivergencies}
+###### Remark
+**(the traditional error that leads to the notorious divergences)**
+
+Naively it might seem that, over [[Minkowski spacetime]], examples of [[time-ordered products]] according to def. \ref{TimeOrderedProduct}
+may simply be obtained by multiplication with [[step functions]] $\Theta$, in the notation as
+generalized functions (def. \ref{NotationForTimeOrderedProductsAsGeneralizedFunctions}):
+
+$$
+  T(x_1, x_2)
+  \overset{\text{no!}}{=}
+  \Theta(x_1^0 - x_2^0) T(x_1) T(x_2)
+  +
+  \Theta(x_2^0 - x_1^0) T(x_2) T(x_1)
+$$
+
+etc. (for instance [Weinberg 95, p. 143, between (3.5.9) and (3.5.10)](#Weinberg95)).
+
+This however is simply a mathematical error, in general: Both $T(-,-)$ as well as $\Theta$
+are actualy [[distributions]] and their [[product of distributions]] is in general not defined ([[Hörmander's criterion]] may be violated).
+The notorious divergences which plagued ([Feynman 85](Schwinger-Tomonaga-Feynman-Dyson#Feynman85SuchABunchOfWords)) the original conception of [[perturbative QFT]] due to [[Schwinger-Tomonaga-Feynman-Dyson]] are the signature
+of this ill-defined product.
+
+On the other hand, when both distributions are restricted to the [[complement]] of the [[diagonal]]
+(i.e. restricted away from $x_1 = x_2$) then the above expression happens to be well defined and does
+solve the axioms for time-ordered products.
+
+Hence what needs to be done to properly define the [[time-ordered product]] is to
+choose an [[extension of distributions]] of the above expression from the complement of the
+diagonal to the diagonal. Any such extension will produce time-ordered products.
+There are in general several different such extensions. This freedom of choice is the freedom
+of _[[renormalization]]_; or equivalently, by the [[main theorem of perturbative renormalization theory]],
+this is the freedom of choosing "counter terms" for the local interactions. This we discuss below in
+_[Feynman diagrams and (re-)normalization](#ExistenceAndRenormalization)_.
+
+
+=--
+
+
 +-- {: .num_defn #NotationForTimeOrderedProductsAsGeneralizedFunctions}
 ###### Definition
 **([[time-ordered products]] as [[generalized functions]])**
@@ -1205,7 +1300,7 @@ If
 
 $$
   \left\{
-    \alpha_i \in \Omega^{p+1,0}_\Sigma(E_{\text{BV-BRST}})\langle g \rangle
+    \alpha_ \in \Omega^{p+1,0}_\Sigma(E_{\text{BV-BRST}})\langle g \rangle
   \right\}
   \cup
   \left\{
@@ -1262,7 +1357,7 @@ $$
 $$
 
 Moreover, the subscripts on these [[generalized functions]] will always be
-clear from the context, so that in computations we will notationally suppress these.
+clear from the context, so that in computations we may notationally suppress these.
 
 Finally, due to the "symmetry" axiom in def. \ref{TimeOrderedProduct}, a time-ordered product
 depends, up to signs, only on its [[set]] of arguments, not on the order of the arguments. We will write
@@ -1273,11 +1368,12 @@ generalized function in the above as $T(\mathbf{X}, \mathbf{Y})$ etc.
 In this condensed notation the above reads
 
 $$
-    \int_{\Sigma^{r+s}}
+    \underset{\Sigma^{r+s}}{\int}
       T(\mathbf{X}, \mathbf{Y})
       \,
       g_1(x_1) \cdots g_r(x_r)
       j_{r+1}(x_{r+1}) \cdots j_n(x_n)
+    \,
     dvol_{\Sigma^{r+s}}(\mathbf{X})
   \,.
 $$
@@ -1337,10 +1433,15 @@ $$
   \,.
 $$
 
+=--
+
 ([Epstein-Glaser 73 (5)](#EpsteinGlaser73))
 
-This is because for fixed cardinality ${\vert \mathbf{I} \vert} = n_1$
-this sum over all subsets $\mathbf{I} \subset \mathbf{X}$ overcounts the sum over
++-- {: .proof}
+###### Proof
+
+For fixed [[cardinality]] ${\vert \mathbf{I} \vert} = n_1$
+the sum over all subsets $\mathbf{I} \subset \mathbf{X}$ overcounts the sum over
 partitions of the coordinates as $(x_1, \cdots x_{n_1}, x_{n_1 + 1}, \cdots x_n)$ precisely by the
 [[binomial coefficient]] $\frac{n!}{n_1! (n - n_1) !}$. Here the factor of $n!$ cancels
 against the "global" combinatorial prefactor in the above expansion of $W(g)$, while the remaining
@@ -1352,43 +1453,6 @@ when expanding the product $U(g)V(g)$.
 
 
 
-+-- {: .num_remark #TheTraditionalErrorThatLeadsToTheNotoriouDivergencies}
-###### Remark
-**(the traditional error that leads to the notorious divergences)**
-
-Naively it might seem that, over [[Minkowski spacetime]], examples of [[time-ordered products]] according to def. \ref{TimeOrderedProduct}
-may simply be obtained by multiplication with [[step functions]] $\Theta$, in the notation as
-generalized functions (def. \ref{NotationForTimeOrderedProductsAsGeneralizedFunctions}):
-
-$$
-  T(x_1, x_2)
-  \overset{\text{no!}}{=}
-  \Theta(x_1^0 - x_2^0) T(x_1) T(x_2)
-  +
-  \Theta(x_2^0 - x_1^0) T(x_2) T(x_1)
-$$
-
-etc. (for instance [Weinberg 95, p. 143, between (3.5.9) and (3.5.10)](#Weinberg95)).
-
-This however is simply a mathematical error, in general: Both $T(-,-)$ as well as $\Theta$
-are actualy [[distributions]] and their [[product of distributions]] is in general not defined ([[Hörmander's criterion]] may be violated).
-The notorious divergences which plagued ([Feynman 85](Schwinger-Tomonaga-Feynman-Dyson#Feynman85SuchABunchOfWords)) the original conception of [[perturbative QFT]] due to [[Schwinger-Tomonaga-Feynman-Dyson]] are the signature
-of this ill defined operation.
-
-On the other hand, when both distributions are restricted to the [[complement]] of the [[diagonal]]
-(i.e. restricted away from $x_1 = x_2$) then the above expression happens to be well defined and does
-solve the axioms for time-ordered products.
-
-Hence what needs to be done to properly define the [[time-ordered product]] is to
-choose an [[extension of distributions]] of the above expression from the complement of the
-diagonal to the diagonal. Any such extension will produce time-ordered products.
-There are in general several different such extensions. This freedom of choice is the freedom
-of _[[renormalization]]_; or equivalently, by the [[main theorem of perturbative renormalization theory]],
-this is the freedom of choosing "counter terms" for the local interactions. This we discuss below in
-_[Feynman diagrams and (re-)normalization](#ExistenceAndRenormalization)_.
-
-
-=--
 
 In order to prove that the axioms for [[time-ordered products]] do imply those for a perturbative [[S-matrix]]
 (prop. \ref{TimeOrderedProductInducesPerturbativeSMatrix} below) we need to consider
