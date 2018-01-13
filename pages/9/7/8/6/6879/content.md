@@ -22,11 +22,23 @@ In the corresponding [[quantum field theory]], however, a state that is initiall
 
 ## Related concepts
 
-* [[vacuum]], [[tachyon]]
+* **[[vacuum]]**
 
-* [[Coleman-De Luccia instanton]]
+  * [[vacuum state]], [[Hadamard state]]
 
-* [[landscape of string theory vacua]]
+  * [[interacting vacuum]]
+
+  * [[vacuum expectation value]], [[vacuum amplitude]], [[vacuum fluctuation]]
+
+  * [[vacuum energy]]
+
+  * [[false vacuum]], [[tachyon]], [[Coleman-De Luccia instanton]]
+
+  * [[theta vacuum]]
+
+  * [[perturbative string theory vacuum]]
+
+  * [[landscape of string theory vacua]]
 
 
 ## References
