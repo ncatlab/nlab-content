@@ -45,13 +45,19 @@ The [[moduli space]] of these vacua -- which is hardly understood -- has come to
 
 * [[vacuum state]], [[Hadamard state]]
 
-* [[false vacuum]], [[tachyon]]
+* [[vacuum expectation value]], [[vacuum amplitude]], [[vacuum fluctuation]]
 
-* [[Coleman-De Luccia instanton]]
+* [[vacuum energy]]
 
-* [[vacuum expectation value]], [[vacuum fluctuation]]
+* [[interacting vacuum]]
 
-* [[vacuum amplitude]]
+* [[false vacuum]], [[tachyon]], [[Coleman-De Luccia instanton]]
+
+* [[theta vacuum]]
+
+* [[perturbative string theory vacuum]]
+
+* [[landscape of string theory vacua]]
 
 * [[QFT with defects|topological defects]] due to [[spontaneous symmetry breaking]]
 
@@ -63,9 +69,6 @@ The [[moduli space]] of these vacua -- which is hardly understood -- has come to
 
   * [[instanton in QCD]], [[QCD vacuum]]
 
-* [[perturbative string theory vacuum]]
-
-* [[landscape of string theory vacua]]
 
 * [string theory FAQ -- What does it mean to say that string theory has a "landscape of solutions"?](http://ncatlab.org/nlab/show/string+theory+FAQ#WhatDoesItMeanToSayStringTheoryHasALandscapeOfSolutions)
 
