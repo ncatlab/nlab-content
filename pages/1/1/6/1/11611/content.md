@@ -22,6 +22,27 @@
 
 The local decay process of a [[false vacuum]] in the presence of [[gravity]] ([[general relativity]]), hence the case relevant in [[cosmology]].
 
+## Related concepts
+
+* **[[vacuum]]**
+
+  * [[vacuum state]], [[Hadamard state]]
+
+  * [[interacting vacuum]]
+
+  * [[vacuum expectation value]], [[vacuum amplitude]], [[vacuum fluctuation]]
+
+  * [[vacuum energy]]
+
+  * [[false vacuum]], [[tachyon]], [[Coleman-De Luccia instanton]]
+
+  * [[theta vacuum]]
+
+  * [[perturbative string theory vacuum]]
+
+  * [[landscape of string theory vacua]]
+
+
 ## References
 
 * {#Coleman77} [[Sidney Coleman]], _Fate of the false vacuum: Semiclassical theory_, Phys. Rev. D 15, 2929 &#8211; Published 15 May 1977 ([publisher](http://journals.aps.org/prd/abstract/10.1103/PhysRevD.15.2929))
