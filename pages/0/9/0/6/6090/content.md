@@ -621,10 +621,10 @@ Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field the
 Then for $A \in LocObs(E_{\text{BV-BRST}})[ [\hbar] ]$ a [[local observable]] of the [[free field theory]], write 
 
 $$
-  A_{int} \in PolyObs(E_{\text{BV-BRST}})_{mc}[ [\hbar] ]
+  A_{int} \in PolyObs(E_{\text{BV-BRST}})_{mc}[ [\hbar, g] ]
 $$
 
-for the term of order $j^1$ in the [[generating function]] (eq:GeneratingFunctionInducedFromSMatrix):
+for the [[coefficient]] of $j^1$ in the [[generating function]] (eq:GeneratingFunctionInducedFromSMatrix):
 
 $$
   \label{BogoliubovsFormula}
@@ -635,21 +635,20 @@ $$
     \mathcal{Z}_{S_{int}}( j A ) \vert_{j = 0}
     \\
     & \coloneqq
-    i \hbar \frac{d}{d j} \mathcal{S}^{-1}(S_{int}) \, \mathcal{S}( S_{int} + j A )
+    i \hbar \frac{d}{d j} \mathcal{S}^{-1}(S_{int}) \, \mathcal{S}( S_{int} + j A )\vert_{j = 0}
   \end{aligned}
 $$
 
-This expression is called _[[Bogoliubov's formula]]_.
-The assignment $A \mapsto A_{int}$ is also called the _[[quantum Møller operator]]_.
+This expression is called _[[Bogoliubov's formula]]_, due to ([Bogoliubov-Shirkov 59](#BogoliubovShirkov59)).
+The assignment $A \mapsto A_{int}$ is also called the _[[quantum Møller operator]]_ ([Hawkins-Rejzner 16](perturbative+algebraic+quantum+field+theory#HawkinsRejzner16)).
 
-We think of the $A_{int}$ as the [[deformation]] of $A_{int}$ as the [[interaction]] $S_{int}$ is turned on; and call it an _[[interacting field observable]]_. 
+One thinks of $A_{int}$ as the [[deformation]] of the observable $A$ as the [[interaction]] $S_{int}$ is turned on; and speaks of an element of the _[[interacting field algebra of observables]]_. 
 
 =--
 
-Formula (eq:BogoliubovsFormula) is due to ([Bogoliubov-Shirkov 59](#BogoliubovShirkov59)), whence the name.
-The adiabatic switching is made explicit in ([Epstein-Glaser 73 around (74)](#EpsteinGlaser73)).
-Review includes ([D&#252;tsch-Fredenhagen 00, around (17)](#DuetschFredenhagen00)).
+([Epstein-Glaser 73 around (74)](#EpsteinGlaser73); review includes ([D&#252;tsch-Fredenhagen 00, around (17)](#DuetschFredenhagen00)).
 
+$\,$
 
 The simple axioms for [[S-matrices]] in [[causal perturbation theory]] (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) have a wealth of
 implications and consequences. Before analyzing these formally, we make a few informal remarks in order to put these axioms into perspective.
@@ -1007,64 +1006,59 @@ wich states that the space of choices for $\mathcal{S}$ is a [[torsor]] over the
 
 +-- {: .num_remark #InterpretationOfPerturbativeSMatrix}
 ###### Remark
-**([[path integral]])**
+**([[path integral]] heuristics)**
 
 In informal heuristic discussion of [[perturbative QFT]], the perturbative scattering matrix is often thought of
-in terms of a _[[path integral]]_, symbolically written
+in terms of a would-be _[[path integral]]_, symbolically written
 
 $$
   \mathcal{S}\left(
     g S_{int} + j A
   \right)
   \;\overset{\text{not really!}}{=}\;
-  \underset{\Phi \in \Gamma_\Sigma(E)_{asm}}{\int}
+  \underset{\Phi \in \Gamma_\Sigma(E_{\text{BV-BRST}})_{asm}}{\int}
   \exp\left(
-    \int_X
+    \tfrac{1}{i \hbar}
+    \int_\Sigma
     \left(
-      \tfrac{g}{i \hbar} L_{int}(\Phi) + j A(\Phi)
+      g L_{int}(\Phi) + j A(\Phi)
     \right)
   \right)
-  \, e^{\tfrac{1}{i \hbar}\int_X L_{free}(\Phi) }D[\Phi]
+  \, 
+  \exp\left(
+    \tfrac{1}{i \hbar}\int_\Sigma L_{free}(\Phi) 
+  \right) D[\Phi]
   \,,
 $$
 
-where the would-be [[integration]] is thought to be over the [[space of field histories]]
-$\Gamma_\Sigma(E_{\text{BV-BRST}})_{asmpt}$
-(the [[space of sections]] of the given [[field bundle]])
-for [[field histories]] which satisfy given asymptotic conditions at $x^0 \to \pm \infty$; and as these boundary conditions
-vary the above is regarded as a would-be [[integral kernel]] that defines the required operator in the [[Wick algebra]]
-(e.g. [Weinberg 95, around (9.3.10) and (9.4.1)](#Weinberg95)).
+where the would-be [[integration]] is thought to be over the [[space of field histories]] $\Gamma_\Sigma(E_{\text{BV-BRST}})_{asm}$ (the [[space of sections]] of the given [[field bundle]]) for [[field histories]] which satisfy given asymptotic conditions at $x^0 \to \pm \infty$; and as these boundary conditions
+vary the above is regarded as a would-be [[integral kernel]] that defines the required operator in the [[Wick algebra]] (e.g. [Weinberg 95, around (9.3.10) and (9.4.1)](#Weinberg95)).
 
-Beyond toy examples, it is unknown how to make sense of the expression on the right as an actual [[integral]].
+Beyond toy examples, it is not known how to define the would be [[measure]] $D[\Phi]$ and it is not known how to make sense of this expression as an actual [[integral]].
 
 But we may think of the axioms for the [[S-matrix]] in def. \ref{LagrangianFieldTheoryPerturbativeScattering} as rigorously _defining_
-the [[path integral]], not analytically as an actual [[integration]], but "[[synthetic mathematics|synthetically]]"
-by axiomatizing the behaviour of the _outcome_.
+the [[path integral]], not analytically as an actual [[integration]], but _[[synthetic mathematics|synthetically]]_ by axiomatizing the properties of the desired _outcome_ of the would-be integration.
 
-With the S-matrix interpreted as a [[path integral]] this way [[Bogoliubov formula]] for [[interacting field observables]] (def. \ref{InteractingFieldObservables}) simimlarly would have the following interpretation:
+With the S-matrix thought of as a [[path integral]], the analogous path-integral heuristics for [[Bogoliubov's formula]] for [[interacting field observables]] (def. \ref{InteractingFieldObservables}) symbolically reads
 
 $$
+  \begin{aligned}
   A_{int}
-  \;\overset{\text{not really!}}{=}\;
-  \frac{
-    \int
-    A(\Phi)
-    \exp\left(
-      \int_X
-      \left(
-        \tfrac{g}{i \hbar} L_{int}(\Phi)
-      \right)
-    \right)  e^{\tfrac{1}{i \hbar}\int_X L_{free}(\Phi) }D[\Phi]
-  }
-  {
-    \int
-    \exp\left(
-      \int_X
-      \left(
-        \tfrac{g}{i \hbar} L_{int}(\Phi)
-      \right)
-    \right)  e^{\tfrac{1}{i \hbar}\int_X L_{free}(\Phi) }D[\Phi]
-  }
+  & \overset{\text{not really!}}{=}
+  \frac{d}{d j}
+  \ln 
+  \left(
+  \underset{\Phi \in \Gamma_\Sigma(E)_{asm}}{\int}
+  \exp\left(
+    \underset{\Sigma}{\int}
+      g L_{int}(\Phi) + j A(\Phi)
+  \right)
+  \, 
+  \exp\left( \underset{\Sigma}{\int} L_{free}(\Phi) \right)
+  D[\Phi]
+  \right)
+  \vert_{j = 0}
+  \end{aligned}
 $$
 
 If here we were to regard the expression
@@ -1073,31 +1067,29 @@ $$
   \mu(\Phi)
   \;\overset{\text{not really}}{\coloneqq}\;
   \frac{
-    \exp\left(
-      \int_X
-      \left(
-        \tfrac{g}{i \hbar} L_{int}(\Phi)
-      \right)
-    \right)  e^{\tfrac{1}{i \hbar}\int_X L_{free}(\Phi) }D[\Phi]
+    \exp\left( \underset{\Sigma}{\int} L_{free}(\Phi) \right)\, D[\Phi]
   }
   {
-    \int
-    \exp\left(
-      \int_X
-      \left(
-        \tfrac{g}{i \hbar} L_{int}(\Phi)
-      \right)
-    \right)  e^{\tfrac{1}{i \hbar}\int_X L_{free}(\phi) }D[\phi]
+    \underset{\Phi \in \Gamma_\Sigma(E_{\text{BV-BRST}})_{asm}}{\int}
+    \exp\left( \underset{\Sigma}{\int} L_{free}(\Phi) \right)\, D[\Phi]
   }
 $$
 
-as a "complex probability measure" on the the configuration space of fields, then this formula
-would express the [[expectation value]] of the functional $A$ under this measure:
+as a would-be [[Gaussian measure]], normlized such as to be a would-be [[probablity measure]] on the [[space of field histories]], then this formula
+would express an ordinary [[expectation value]] 
 
 $$
-  A_{int} \overset{\text{not really!}}{=} [ A]_{\mu} = \int A(\Phi) \mu(\Phi)
+  A_{int} 
+   \overset{\text{not really!}}{=} 
+  [A]_{\mu} 
+  \;=\; 
+  \underset{\Phi \in \Gamma_\Sigma(E_{\text{BV-BRST}})_{asm}}{\int}
+     A(\Phi) 
+  \,\mu(\Phi)
   \,.
 $$
+
+As before, beyond toy examples it is not known how to make sense of this. Instead of defining this analytically as an actual [[integration]], [[Bogoliubov's formula]] with the axioms for the [[S-matrix]] (def. \ref{LagrangianFieldTheoryPerturbativeScattering}, def. \ref{InteractingFieldObservables}) may be thought of as defining this _[[synthetic mathematics|synthetically]]_, by characterizing the behaviour of the desired outcome of the would-be integration.
 
 
 =--
