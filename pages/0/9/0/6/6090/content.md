@@ -249,9 +249,9 @@ $$
   \;\coloneqq\;
   \left\{
     \array{
-      V_I(t_1) V_I(t_2) &\vert& t_1 {\vee\!\!\!\wedge} t_2
+      V_I(t_1) V_I(t_2) &\vert& t_1 \geq t_2
       \\
-      V_I(t_2) V_I(t_1) &\vert& t_2 {\vee\!\!\!\wedge} t_1
+      V_I(t_2) V_I(t_1) &\vert& t_2 \geq t_1
     }
   \right.
   \,.
@@ -338,8 +338,6 @@ In [[perturbative algebraic quantum field theory]] the broad structure of the [[
 
 Together these three points are taken care of by the axiomatization of the "[[adiabatic switching|adiabatically switched]] [[S-matrix]]" according to **[[causal perturbation theory]]**.
 
-
-The analogue of the limit $t \to \infty$ in the construction of the [[S-matrix]] (now: [[adiabatic limit]]) in general does not exist in field theory ("infrared divergencies"). But in fact it need not be taken: The field algebra in a bounded region of [[spacetime]] may be computed with any adiabatic switching that is constant on this region. Moreover, the algebras assigned to regions of spacetime this way satisfy [[causal locality]] by the causal ordering in the construction of the S-matrix. Therefore, even without taking the adiabatic limit in [[causal perturbation theory]] one obtains a field theory in the form of a _[[local net of observables]]_. This is the topic of **[[locally covariant perturbative quantum field theory]]**.
 
 
 
@@ -447,8 +445,12 @@ For $S_1, S_2 \subset \Sigma$ two [[subsets]] of [[spacetime]] we write $S_1 {\v
 
 =--
 
-For the purposes of constructing or defining the Wick algebra, the conditions on $\Delta_H$ or $H$ could be relaxed. Requiring $\Delta_H$ to be an honest [[Wightman propagator]] means that it is a distribution satisfying the Hadamard wavefront condition, as well as addition positivity and normalization requirements. Dropping the positivity and some of the normalization requirements, $\Delta_H$ is then only a _Hadamard parametrix_ for the Wightman propagator. The construction of the Wick algebra with respect to $\Delta_H$ still makes sense, but $:(-):$ can no longer be interpreted as normal ordering with respect to a fixed vacuum state. In fact, in locally covariant pAQFT, the property for $\Delta_H$ to be the Wightman propagator for a state is in conflict with local covariance. On the other hand, there is no problem with selecting a locally covariant Hadamard parametrix $\Delta_H$, which allows the construction or definition of the Wick algebra to be locally covariant.
++-- {: .num_remark}
+###### Remark
 
+For the purposes of constructing or defining the Wick algebra, the conditions on $\Delta_H$ or $H$ could be relaxed. Requiring $\Delta_H$ to be an honest [[Wightman propagator]] means that it is a distribution satisfying the [[Hadamard distribution|Hadamard wavefront condition]], as well as addition positivity and normalization requirements. Dropping the positivity and some of the normalization requirements, $\Delta_H$ is then only a _Hadamard parametrix_ for the Wightman propagator. The construction of the Wick algebra with respect to $\Delta_H$ still makes sense, but $:(-):$ can no longer be interpreted as normal ordering with respect to a fixed vacuum state. In fact, in [[locally covariant pAQFT]], the property for $\Delta_H$ to be the Wightman propagator for a state is in conflict with local covariance. On the other hand, there is no problem with selecting a locally covariant Hadamard parametrix $\Delta_H$, which allows the construction or definition of the Wick algebra to be locally covariant.
+
+=--
 
 +-- {: .num_defn #LagrangianFieldTheoryPerturbativeScattering}
 ###### Definition
@@ -734,7 +736,7 @@ $$
   A_{in}, A_{out} \in PolyObs(E_{\text{BV-BRST}})_{mc}[ [\hbar] ]
 $$
 
-two [[microcausal  polynomial observables]], the corresponding _[[scattering amplitude]]_ is the value ("[[expectation value]]" when referring to $A^\ast_{out} \, \mathcal{S}(S_{int}) \, A_{in}$, or "matrix element" when referring to $\mathcal{S}(S_{int})$, or "transition amplitude" when referring to $\left\langle A_{out} \right\vert$ and $\left\vert A_{in} \right\rangle$)
+two [[microcausal  polynomial observables]], the corresponding _[[scattering amplitude]]_ is the value (called "[[expectation value]]" when referring to $A^\ast_{out} \, \mathcal{S}(S_{int}) \, A_{in}$, or "matrix element" when freferring to $\mathcal{S}(S_{int})$, or "transition amplitude" when referring to $\left\langle A_{out} \right\vert$ and $\left\vert A_{in} \right\rangle$)
 
 $$
   \left\langle
@@ -790,6 +792,7 @@ $$
 or similarly, under [[Fourier transform of distributions]],
 
 $$
+  \label{ScatteringPlaneWaves}
   \begin{aligned}
   &
   \left\langle
@@ -836,9 +839,8 @@ describe [[scattering]] processes for [[interactions]] that vanish ( are "[[adia
 
 There are several aspects to this:
 
-* ([[adiabatic limit]]) On the one hand, real physical interactions $\mathbf{L}_{int}$ (say the [[electron-photon interaction]])
-are not really supposed to vanish outside a compact region of spacetime. In order to reflect this mathematically,
-one may consider a [[sequence]] of [[adiabatic switchings]] $g_{sw} \in C^\infty_{cp}(\Sigma)\langle g \rangle$ (each of [[compact support]]) whose [[limit of a sequence|limit]] is the [[constant function]] $g \in C^\infty(\Sigma)\langle g\rangle$, consider the corresponding [[sequence]] of [[interaction]] [[action functionals]] $S_{int,sw} \coloneqq \tau_\Sigma( g_{sw} \mathbf{L}_{int} )$ and then consider 
+* ([[strong adiabatic limit]]) On the one hand, real physical interactions $\mathbf{L}_{int}$ (say the [[electron-photon interaction]])
+are not _really_ supposed to vanish outside a compact region of spacetime. In order to reflect this mathematically, one may consider a [[sequence]] of [[adiabatic switchings]] $g_{sw} \in C^\infty_{cp}(\Sigma)\langle g \rangle$ (each of [[compact support]]) whose [[limit of a sequence|limit]] is the [[constant function]] $g \in C^\infty(\Sigma)\langle g\rangle$, then consider the corresponding [[sequence]] of [[interaction]] [[action functionals]] $S_{int,sw} \coloneqq \tau_\Sigma( g_{sw} \mathbf{L}_{int} )$ and finally consider 
 as the true [[scattering amplitude]] the corresponding [[limit of a sequence|limit]] 
 
   $$
@@ -852,19 +854,19 @@ as the true [[scattering amplitude]] the corresponding [[limit of a sequence|lim
     \right\rangle
   $$
 
-  of adiabatically switched scattering amplitudes --  if it exists. This is called the _[[adiabatic limit]]_.
-If this does not exist, one says the [[perturbative QFT]] has an _[[infrared divergence]]_.
+  of adiabatically switched [[scattering amplitudes]] (remark \ref{FromAxiomaticSMatrixScatteringAmplitudes}) --  if it exists. This is called the _[[strong adiabatic limit]]_.
+
+  The strong adiabatic limit has (only) been shown to exist (by [Epstein-Glaser 73](#EpsteinGlaser73)) if all [[field (physics)|fields]] are [[mass|massive]].
+
+  If this limit not exist, one says the [[perturbative QFT]] has an _[[infrared divergence]]_.
 
 * ([[algebraic adiabatic limit]]) On the other hand, it is equally unrealistic that an actual [[experiment]] _detects_ phenomena outside a
 given compact subset of spacetime. Realistic scattering [[experiments]] (such as the [[LHC]]) do not really prepare or measure
-[[plane waves]] filling all of [[spacetime]]. Any [[observable]] that is realistically measurable must have compact spacetime support.
+[[plane waves]] filling all of [[spacetime]] as described by the [[scattering amplitudes]] (eq:ScatteringPlaneWaves). Any [[observable]] that is realistically measurable must have compact spacetime support.
 We see below in prop. \ref{WellDefinedInteractingFieldAlgebra} that such [[interacting field observables]] with compact spacetime support
-may be computed without taking the [[adiabatic limit]]: It is sufficient to use any [[adiabatic switching]] which is constant
-on the support of the observable. 
+may be computed without taking the [[adiabatic limit]]: It is sufficient to use any [[adiabatic switching]] which is constant on the support of the observable. 
 
-  This way one obtains for each [[causally closed subset]] $\mathcal{O}$ of spacetime an 
-algebra of observables $\mathcal{A}_{int}(\mathcal{O})$ whose support is in $\mathcal{O}$,
-and for each inclusion of subsets a corresponding inclusion of algebras of observables (prop. \ref{PerturbativeQuantumObservablesIsLocalnet} below). Of this system of observables one may form the [[category theory|category-theoretic]] [[inductive limit]] to obtain a single global algebra of observables.
+  This way one obtains for each [[causally closed subset]] $\mathcal{O}$ of spacetime an  algebra of observables $\mathcal{A}_{int}(\mathcal{O})$ whose support is in $\mathcal{O}$, and for each inclusion of subsets a corresponding inclusion of algebras of observables (prop. \ref{PerturbativeQuantumObservablesIsLocalnet} below). Of this system of observables one may form the [[category theory|category-theoretic]] [[inductive limit]] to obtain a single global algebra of observables.
 
   $$
     \mathcal{A}_{int} 
@@ -875,18 +877,15 @@ and for each inclusion of subsets a corresponding inclusion of algebras of obser
 
   This always exists. It is called the _[[algebraic adiabatic limit]]_.
 
-* ([[interacting vacuum]]) While via the [[algebraic adiabatic limit]], [[causal perturbation theory]] yields the correct [[interacting field algebra of quantum observables]] independent of [[adiabatic switching]], a theory of _[[quantum probability]]_ requires, on top of the
-[[algebra of observables]], also a _[[state on a star-algebra|state]]_ 
+* ([[interacting vacuum]]) While, via the above [[algebraic adiabatic limit]], [[causal perturbation theory]] yields the correct [[interacting field algebra of quantum observables]] independent of choices of [[adiabatic switching]], a theory of _[[quantum probability]]_ requires, on top of the [[algebra of observables]], also a _[[state on a star-algebra|state]]_ 
 
   $$
     \langle - \rangle_{int} \;\colon\; \mathcal{A}_{int} \longrightarrow \mathbb{C}[ [\hbar] ]
   $$
   
-  While the original [[Hadamard vacuum state]] of the [[free field theory]] (def. \ref{VacuumFree}) will still be a 
-  [[state on a star-algebra|state]] on $\mathcal{A}_{int}$, 
-  it is not to be expected to be a _[[vacuum]]_ state for the [[interacting field theory]]in a suitable sense. Rather, just as the [[interacting field algebra of observables]] $\mathcal{A}_{int}$ is a [[deformation]] of the free field algbra of observables ([[Wick algebra]]), there ought to be a corresponding deformation of the free [[Hadamard vacuum state]] $\langle- \rangle$ into an "interacting vacuum state" $\langle - \rangle_{int}$.
+  While the original [[Hadamard vacuum state]] of the [[free field theory]] (def. \ref{VacuumFree}) will still be a  [[state on a star-algebra|state]] on $\mathcal{A}_{int}$, it is not to be expected to be a _[[vacuum]]_ state for the [[interacting field theory]] in a suitable sense. Rather, just as the [[interacting field algebra of observables]] $\mathcal{A}_{int}$ is a [[deformation]] of the free field algebra of observables ([[Wick algebra]]), there ought to be a corresponding deformation of the free [[Hadamard vacuum state]] $\langle- \rangle$ into an "interacting vacuum state" $\langle - \rangle_{int}$.
   
-  This is an open problem of [[perturbative quantum field theory]].
+  This is an open problem of [[perturbative QFT]].
   
 =--
 
@@ -1021,15 +1020,25 @@ for all $k \in \mathbb{N}$, such that:
      T_1(A) =  :A:
    $$
 
-1. (symmetry) each $T_k$ is graded-symmetric in its arguments, which means that
+1. (symmetry) each $T_k$ is graded-symmetric in its arguments, in that
+
    $$
-     T_k(A_{\sigma(1)}, \ldots, A_{\sigma(k)})
+     \left(
+       {\, \atop \,}
+       A_{\sigma(1)} \cdot A_{\sigma(2)} \cdots A_{\sigma(k-1)} \cdot  A_{\sigma(k)}
+       = (-)^\epsilon A_1 \cdot A_2 \cdots A_{k-1} \cdot A_k
+       {\, \atop \,}
+     \right)
+     \;\;\Rightarrow\;\;
+     \left(
+       {\, \atop \,}
+       T_k(A_{\sigma(1)}, \ldots, A_{\sigma(k)})
        = (-)^\epsilon T_k(A_1, \ldots, A_k)
-     \quad whenever \quad
-     A_{\sigma(1)} \cdots A_{\sigma(k)}
-       = (-)^\epsilon A_1 \cdots A_k
+       {\, \atop \,}
+     \right)
    $$
-   for any collection of graded elements $A_1, \ldots, A_k \in LocObs(E_{\text{BV-BRST}})[ [\hbar, g, j] ]$ permutation on $k$ elements $\sigma\in \Sigma(k)$.
+
+   for all [[tuples]] of [[local observables]] $A_1, \ldots, A_k \in LocObs(E_{\text{BV-BRST}})[ [\hbar, g, j] ]$ and any [[permutation]] $\sigma\in \Sigma(k)$
 
 1. ([[causal factorization]]) If
 
@@ -1247,7 +1256,7 @@ etc. (for instance [Weinberg 95, p. 143, between (3.5.9) and (3.5.10)](#Weinberg
 
 This however is simply a mathematical error, in general: Both $T(-,-)$ as well as $\Theta$
 are actualy [[distributions]] and their [[product of distributions]] is in general not defined ([[Hörmander's criterion]] may be violated).
-The notorious divergeces which plagued ([Feynman 85](Schwinger-Tomonaga-Feynman-Dyson#Feynman85SuchABunchOfWords)) the original conception of [[perturbative QFT]] due to [[Schwinger-Tomonaga-Feynman-Dyson]] are the signature
+The notorious divergences which plagued ([Feynman 85](Schwinger-Tomonaga-Feynman-Dyson#Feynman85SuchABunchOfWords)) the original conception of [[perturbative QFT]] due to [[Schwinger-Tomonaga-Feynman-Dyson]] are the signature
 of this ill defined operation.
 
 On the other hand, when both distributions are restricted to the [[complement]] of the [[diagonal]]
@@ -1849,7 +1858,9 @@ $$
     \left(
       \tfrac{g}{i \hbar} L_{int}(\Phi) + j A(\Phi)
     \right)
-  \right)  e^{\tfrac{1}{i \hbar}\int_X L_{free}(\Phi) }D[\Phi]
+  \right)  
+  \,
+  e^{\tfrac{1}{i \hbar}\int_X L_{free}(\Phi) }D[\Phi]
 $$
 
 the [[Bogoliubov formula]] in def. \ref{GeneratingFunctionsForCorrelationFunctions}
@@ -1920,7 +1931,7 @@ just for completeness:
 
 +-- {: .num_defn #RetardedProductFromPerturbativeSMatrix}
 ###### Definition
-**([[retarded products]] induced from perturbative S-matrix)
+**([[retarded products]] from [[S-matrix]])**
 
 It follows from the perturbation axiom in def. \ref{LagrangianFieldTheoryPerturbativeScattering} that there is a system of [[continuous linear functionals]]
 
@@ -2000,7 +2011,7 @@ with $Z$ the generating functional (eq:GeneratingFunctionInducedFromSMatrix) it 
 implies that all these conditions hold if $supp(J_1) {\vee\!\!\!\wedge} supp(J_2)$.
 
 
-1. If $supp(J_1)$ is [[spacelike]] separted from $supp(J_1)$, hence if the causal ordering (def \ref{CausalOrdering}) is
+1. If $supp(J_1)$ is [[spacelike]] separted from $supp(J_1)$, hence if the [[causal ordering]] is
    $supp(J_1) {\vee\!\!\!\wedge} supp(J_2)$ and $supp(J_2) {\vee\!\!\!\wedge} supp(J_1)$ then
 
    $$
@@ -2018,9 +2029,7 @@ implies that all these conditions hold if $supp(J_1) {\vee\!\!\!\wedge} supp(J_2
 
 
 
-1. If $L_1\vert_{O} = L_2\vert_{O}$ on a [[causally closed subset]] $O \subset \mathbb{R}^{d-1,1}$
-then there exists an invertible $K \in \mathcal{W}[ [ g/\hbar] ]$ such that for all $J$ with $supp(J) \subset O$
-   it relates $Z_{L_1}(J)$ to $Z_{L_2}(J)$ by [[conjugation]]:
+1. {#ChangeOfAdiabaticSwitchingAlgebraIso} If $L_1\vert_{O} = L_2\vert_{O}$ on a [[causally closed subset]] $O \subset \mathbb{R}^{d-1,1}$ then there exists an invertible $K \in \mathcal{W}[ [ g/\hbar] ]$ such that for all $J$ with $supp(J) \subset O$ it relates $Z_{L_1}(J)$ to $Z_{L_2}(J)$ by [[conjugation]]:
 
    $$
      Z_{L_2}(J) = K^{-1} \, Z_{L_1}(J) \, K
@@ -2088,7 +2097,7 @@ $$
   L_2 - L_1 = a + r
 $$
 
-such that their causal order (def. \ref{CausalOrdering}) is
+such that their [[causal order]] ([this def.](A+first+idea+of+quantum+field+theory#CausalOrdering)) is
 
 $$
   supp(a) {\vee\!\!\!\wedge} supp(J) {\vee\!\!\!\wedge} supp(r)
@@ -2123,7 +2132,7 @@ and hence the last statement holds for $K \coloneqq Z_{L_1}(r)$.
 
 =--
 
-We now use this fact (lemma \ref{CausalLocalityOfThePerturbativeSMatrix}) to neatly organize the
+We now use lemma \ref{CausalLocalityOfThePerturbativeSMatrix} to neatly organize the
 system of localized [[quantum observables on interacting fields]]:
 
 +-- {: .num_defn #PerturbativeGeneratingLocalNetOfObservables}
@@ -2135,8 +2144,8 @@ and let $L_{int} \in \Omega^{d,0}(E)$ be an [[interaction]] [[Lagrangian density
 
 
 For $\mathcal{O} \subset \Sigma$ a [[causally closed subset]] of [[spacetime]]
-(def. \ref{CausalComplementOfSubsetOfLorentzianManifold})
-and for $g_{sw} \in Cutoffs(\mathcal{O})$ an [[adiabatic switching]] function (def. \ref{CutoffFunctions})
+([this def. ](A+first+idea+of+quantum+field+theory#CausalComplementOfSubsetOfLorentzianManifold))
+and for $g_{sw} \in Cutoffs(\mathcal{O})$ an [[adiabatic switching]] function ([this def.](A+first+idea+of+quantum+field+theory#CutoffFunctions))
 which is constant on a [[neighbourhood]] of $\mathcal{O}$, write
 
 $$
@@ -2201,7 +2210,7 @@ from the [[poset]] of [[causally closed subsets]] of [[spacetime]] to the [[cate
 
 +-- {: .num_prop #WellDefinedInteractingFieldAlgebra}
 ###### Propsition
-**([[interacting algebra of observables]] well defined up to canonical [[isomorphism]])**
+**([[interacting field algebra of observables]] well defined up to canonical [[isomorphism]])**
 
 By lemma \ref{CausalLocalityOfThePerturbativeSMatrix},
 for every causally closed $\mathcal{O} \subset X$ and every $g_{sw} \in Cutoffs(\mathcal{O})$
@@ -2238,7 +2247,7 @@ is a [[causally local net of observables]] in that
    $$
 
 1. ([[causal locality]]) For $\mathcal{O}_1, \mathcal{O}_2 \subset X$ two [[causally closed subsets]]
-   which are [[spacelike]] separated, in that their causal ordering (def. \ref{CausalOrdering}) satisfies
+   which are [[spacelike]] separated, in that their [[causal ordering]] ([this def.](A+first+idea+of+quantum+field+theory#CausalOrdering)) satisfies
 
    $$
      \mathcal{O}_1 {\vee\!\!\!\wedge} \mathcal{O}_2
@@ -2376,7 +2385,7 @@ is a [[local net of observables]] in that
    $$
 
 1. ([[causal locality]]) For $\mathcal{O}_1, \mathcal{O}_2 \subset X$ two [[causally closed subsets]]
-   which are [[spacelike]] separated, in that their causal ordering (def. \ref{CausalOrdering}) satisfies
+   which are [[spacelike]] separated, in that their [[causal ordering]] ([this def.](A+first+idea+of+quantum+field+theory#CausalOrdering)) satisfies
 
    $$
      \mathcal{O}_1 {\vee\!\!\!\wedge} \mathcal{O}_2
@@ -2566,7 +2575,7 @@ where the propagators on the right have, in particular, the following properties
      \left\langle H, \frac{\delta G}{\delta \phi} \otimes \frac{\delta F}{\delta \phi} \right\rangle
    $$
 
-It follows for causal ordering $supp(F) {\vee\!\!\!\wedge} supp(G)$ (def. \ref{CausalOrdering}) that
+It follows for [[causal ordering]] $supp(F) {\vee\!\!\!\wedge} supp(G)$ ([this def.](A+first+idea+of+quantum+field+theory#CausalOrdering)) that
 
 $$
   \begin{aligned}
@@ -2881,7 +2890,7 @@ The [[main theorem of perturbative renormalization]] states that
    here $Z(L_{int})$ is $L_{int}$ with "counterterms added".
 
 1. The transformations $Z \colon \mathcal{T}_{loc} \to \mathcal{T}_{loc}$ form a [[group]], called the
-   _[[Stückelberg-Peterson renormalization group]]_. Hence the renormalization schemes / coherent perturbative
+   _[[Stückelberg-Petermann renormalization group]]_. Hence the renormalization schemes / coherent perturbative
    S-matrices form a [[torsor]] over this group.
 
 
