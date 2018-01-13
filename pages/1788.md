@@ -1,26 +1,43 @@
 
-...
 
 $$
-  e^{\big\int}
-$$
-
-
-$$
-  \left\langle
-    \mathbf{\Phi}^{a_1}_{int}(x_1)
-     \mathbf{\Phi}^{a_2}_{int}(x_2)
-      \cdots
-    \mathbf{\Phi}^{a_{n-1}}_{int}(x_{n-1})
-    \mathbf{\Phi}^{a_n}_{int}(x_n)
-   \right\rangle
-   \;\coloneqq\;
-   \underset{\underset{g_{sw} \to 1}{\longrightarrow}}{\lim}
-   \left\langle
-     \mathbf{\Phi}^{a_1}_{int,sw}(x_1)
-     \mathbf{\Phi}^{a_2}_{int,sw}(x_2)
-       \cdots
-     \mathbf{\Phi}^{a_{n-1}}_{int,sw}(x_{n-1})
-     \mathbf{\Phi}^{a_n}_{int,sw}(x_n)
-  \right\rangle
+  \array{
+  \array{
+    \text{would-be}
+    \\
+    \text{path integral}
+    \\
+    \text{intuition}
+  }
+  &
+  \overset{  
+    \array{
+      \text{informally}
+      \\
+      \text{suggests}
+    }
+  }{\longrightarrow}
+  &
+  \array{
+    \text{causal additivity}
+    \\
+    \text{of the S-matrix}
+  }
+  &
+  \overset{
+    \array{
+      \text{rigorously}
+      \\
+      \text{implies}
+    }
+  }{\longrightarrow}
+  &
+  \array{
+    \text{UV-finite}
+    \\
+    \text{(i.e. renormalized)}
+    \\
+    \text{perturbative QFT}
+  }
+  }
 $$
