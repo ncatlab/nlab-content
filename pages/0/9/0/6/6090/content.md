@@ -490,7 +490,7 @@ such that the following two conditions "perturbation" and "causal additivity (jo
    for all $k \in \mathbb{N}$, such that:
 
    1. The nullary map is the unit of the [[Wick algebra]]
-   
+
       $$
         T_0(A) = 1
       $$
@@ -508,18 +508,18 @@ such that the following two conditions "perturbation" and "causal additivity (jo
           \mathcal{S}( g S_{int} + j A)
           & =
           T
-          \left( 
+          \left(
             \exp_{\otimes}
-            \left( 
-              \tfrac{ 1 }{i \hbar} 
-              \left( 
-                g S_{int} + j A 
-              \right)  
-            \right) 
+            \left(
+              \tfrac{ 1 }{i \hbar}
+              \left(
+                g S_{int} + j A
+              \right)
+            \right)
           \right)
           \\
           & \coloneqq
-          \underoverset{k = 0}{\infty}{\sum} 
+          \underoverset{k = 0}{\infty}{\sum}
           \frac{1}{k!}
           \left( \frac{1}{i \hbar} \right)^k
           T_k
@@ -609,11 +609,47 @@ In terms of the generating functions the axiom "causal additivity" is equivalent
 
 
 Def. \ref{LagrangianFieldTheoryPerturbativeScattering} is due to ([Epstein-Glaser 73 (1)](#EpsteinGlaser73)),
-in view of lemma \ref{CausalLocalityOfThePerturbativeSMatrix} below. 
-That the domain is indeed $LocObs$ was made explicit (in terms of axioms
-for the [[time-ordered products]], see def. \ref{TimeOrderedProduct} below),
-in ([Brunetti-Fredenhagen 99, section 3](#BrunettiFredenhagen99), [D&#252;tsch-Fredenhagen 04, appendix E](#DuetschFredenhagen04),
-[Hollands-Wald 04,  around (20)](#HollandsWald04)); for review see ([Rejzner 16, around def. 6.7](#Rejzner16), [Dütsch 18, section 3.3](#Duetsch18)).
+in view of lemma \ref{CausalLocalityOfThePerturbativeSMatrix} below.
+That the domain is indeed the space of [[local observable]] was made explicit (in terms of axioms for the [[time-ordered products]], see def. \ref{TimeOrderedProduct} below), in ([Brunetti-Fredenhagen 99, section 3](#BrunettiFredenhagen99), [D&#252;tsch-Fredenhagen 04, appendix E](#DuetschFredenhagen04), [Hollands-Wald 04,  around (20)](#HollandsWald04)). Review includes ([Rejzner 16, around def. 6.7](#Rejzner16), [Dütsch 18, section 3.3](#Duetsch18)).
+
++-- {: .num_defn #InteractingFieldObservables}
+###### Definition
+**([[interacting field observables]] -- [[Bogoliubov's formula]])**
+
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}, let $\mathcal{S}$ be a corresponding [[S-matrix]] scheme according to def. \ref{LagrangianFieldTheoryPerturbativeScattering}, and let $S_{int} \in LocObs(E_{\text{BV-BRST}})[ [ \hbar, g ] ]$ be a [[local observable]] regarded as an [[adiabatic switching|adiabatically switched]] [[interaction]]-[[action functional|functional]].
+
+Then for $A \in LocObs(E_{\text{BV-BRST}})[ [\hbar] ]$ a [[local observable]] of the [[free field theory]], write 
+
+$$
+  A_{int} \in PolyObs(E_{\text{BV-BRST}})_{mc}[ [\hbar] ]
+$$
+
+for the term of order $j^1$ in the [[generating function]] (eq:GeneratingFunctionInducedFromSMatrix):
+
+$$
+  \label{BogoliubovsFormula}
+  \begin{aligned}
+    A_{int}
+    &\coloneqq
+    i \hbar \frac{d}{d j}
+    \mathcal{Z}_{S_{int}}( j A ) \vert_{j = 0}
+    \\
+    & \coloneqq
+    i \hbar \frac{d}{d j} \mathcal{S}^{-1}(S_{int}) \, \mathcal{S}( S_{int} + j A )
+  \end{aligned}
+$$
+
+This expression is called _[[Bogoliubov's formula]]_.
+The assignment $A \mapsto A_{int}$ is also called the _[[quantum Møller operator]]_.
+
+We think of the $A_{int}$ as the [[deformation]] of $A_{int}$ as the [[interaction]] $S_{int}$ is turned on; and call it an _[[interacting field observable]]_. 
+
+=--
+
+Formula (eq:BogoliubovsFormula) is due to ([Bogoliubov-Shirkov 59](#BogoliubovShirkov59)), whence the name.
+The adiabatic switching is made explicit in ([Epstein-Glaser 73 around (74)](#EpsteinGlaser73)).
+Review includes ([D&#252;tsch-Fredenhagen 00, around (17)](#DuetschFredenhagen00)).
+
 
 The simple axioms for [[S-matrices]] in [[causal perturbation theory]] (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) have a wealth of
 implications and consequences. Before analyzing these formally, we make a few informal remarks in order to put these axioms into perspective.
@@ -834,59 +870,88 @@ Or rather:
 **([[adiabatic limit]], [[infrared divergences]] and [[interacting vacuum]])**
 
 Since a [[local observable]] $S_{int} \in LocObs(E_{\text{BV-BRST}})[ [\hbar, g, j] ]$  by definition
-has compact spacetime support, the [[scattering amplitudes]] in remark \ref{FromAxiomaticSMatrixScatteringAmplitudes} 
-describe [[scattering]] processes for [[interactions]] that vanish ( are "[[adiabatic switching|adiabatically switched off]]") outside a compact subset of [[spacetime]]. 
+has compact spacetime support, the [[scattering amplitudes]] in remark \ref{FromAxiomaticSMatrixScatteringAmplitudes}
+describe [[scattering]] processes for [[interactions]] that vanish (are "[[adiabatic switching|adiabatically switched off]]") outside a compact subset of [[spacetime]]. This constraint is crucial for [[causal perturbation theory]] to work.
 
 There are several aspects to this:
 
-* ([[strong adiabatic limit]]) On the one hand, real physical interactions $\mathbf{L}_{int}$ (say the [[electron-photon interaction]])
-are not _really_ supposed to vanish outside a compact region of spacetime. In order to reflect this mathematically, one may consider a [[sequence]] of [[adiabatic switchings]] $g_{sw} \in C^\infty_{cp}(\Sigma)\langle g \rangle$ (each of [[compact support]]) whose [[limit of a sequence|limit]] is the [[constant function]] $g \in C^\infty(\Sigma)\langle g\rangle$, then consider the corresponding [[sequence]] of [[interaction]] [[action functionals]] $S_{int,sw} \coloneqq \tau_\Sigma( g_{sw} \mathbf{L}_{int} )$ and finally consider 
-as the true [[scattering amplitude]] the corresponding [[limit of a sequence|limit]] 
+* ([[adiabatic limit]]) On the one hand, real physical interactions $\mathbf{L}_{int}$ (say the [[electron-photon interaction]])
+are not _really_ supposed to vanish outside a compact region of spacetime. In order to reflect this mathematically, one may consider a [[sequence]] of [[adiabatic switchings]] $g_{sw} \in C^\infty_{cp}(\Sigma)\langle g \rangle$ (each of [[compact support]]) whose [[limit of a sequence|limit]] is the [[constant function]] $g \in C^\infty(\Sigma)\langle g\rangle$ (the actual [[coupling constant]]), then consider the corresponding [[sequence]] of [[interaction]] [[action functionals]] $S_{int,sw} \coloneqq \tau_\Sigma( g_{sw} \mathbf{L}_{int} )$ and finally consider:
 
-  $$
-    \left\langle
-      A_{out} \vert \mathcal{S}(S_{int}) \vert A_{int}
-    \right\rangle
-    \;\coloneqq\;
-    \underset{g_{sw} \to 1}{\lim}
-    \left\langle
-      A_{out} \vert \mathcal{S}(S_{int}) \vert A_{int}
-    \right\rangle
-  $$
 
-  of adiabatically switched [[scattering amplitudes]] (remark \ref{FromAxiomaticSMatrixScatteringAmplitudes}) --  if it exists. This is called the _[[strong adiabatic limit]]_.
+   1. as the true [[scattering amplitude]] the corresponding [[limit of a sequence|limit]]
 
-  The strong adiabatic limit has (only) been shown to exist (by [Epstein-Glaser 73](#EpsteinGlaser73)) if all [[field (physics)|fields]] are [[mass|massive]].
+      $$
+        \left\langle
+          A_{out} \vert \mathcal{S}(S_{int}) \vert A_{int}
+        \right\rangle
+        \;\coloneqq\;
+        \underset{g_{sw} \to 1}{\lim}
+        \left\langle
+          A_{out} \vert \mathcal{S}(S_{int,sw}) \vert A_{int}
+        \right\rangle
+      $$
 
-  If this limit not exist, one says the [[perturbative QFT]] has an _[[infrared divergence]]_.
+      of adiabatically switched [[scattering amplitudes]] (remark \ref{FromAxiomaticSMatrixScatteringAmplitudes}) --  if it exists. This is called the _[[strong adiabatic limit]]_.
 
-* ([[algebraic adiabatic limit]]) On the other hand, it is equally unrealistic that an actual [[experiment]] _detects_ phenomena outside a
-given compact subset of spacetime. Realistic scattering [[experiments]] (such as the [[LHC]]) do not really prepare or measure
-[[plane waves]] filling all of [[spacetime]] as described by the [[scattering amplitudes]] (eq:ScatteringPlaneWaves). Any [[observable]] that is realistically measurable must have compact spacetime support.
-We see below in prop. \ref{WellDefinedInteractingFieldAlgebra} that such [[interacting field observables]] with compact spacetime support
-may be computed without taking the [[adiabatic limit]]: It is sufficient to use any [[adiabatic switching]] which is constant on the support of the observable. 
+  1. as the true [[n-point functions]] the corresponding [[limit of a sequence|limit]]
+
+     $$
+       \begin{aligned}
+       &
+       \left\langle
+         \mathbf{\Phi}^{a_1}_{int}(x_1)
+         \mathbf{\Phi}^{a_2}_{int}(x_2)
+           \cdots
+         \mathbf{\Phi}^{a_{n-1}}_{int}(x_{n-1})
+         \mathbf{\Phi}^{a_n}_{int,sw}(x_n)
+       \right\rangle
+       \\
+       & =
+       \underset{\underset{g_{sw} \to 1}{\longrightarrow}}{\lim}
+       \left\langle
+         \mathbf{\Phi}^{a_1}_{int,sw}(x_1)
+         \mathbf{\Phi}^{a_2}_{int,sw}(x_2)
+           \cdots
+         \mathbf{\Phi}^{a_{n-1}}_{int,sw}(x_{n-1})
+         \mathbf{\Phi}^{a_n}_{int,sw}(x_n)
+       \right\rangle
+       \end{aligned}
+     $$
+
+     of [[tempered distribution|tempered distributional]] [[expectation values]] of products of [[interacting field algebra|interacting]] [[field observables]] (def. \ref{InteractingFieldObservables}) -- if it exists. (Similarly for [[time-ordered products]].)  This is called the _[[weak adiabatic limit]]_.
+
+  Beware that the left hand sides here are symbolic: Even if the limit exists in [[expectation values]], in general there is no actual observable whose expectation value is that limit.
+
+  The strong and weak adiabatic limits have been shown to exist if all [[field (physics)|fields]] are [[mass|massive]] ([Epstein-Glaser 73](#EpsteinGlaser73)). The weak adiabatic limit has been shown to exists for [[quantum electrodynamics]] and for [[mass]]-less [[phi^4 theory]] ([Blanchard-Seneor 75](adiabatic+switching#BlanchardSeneor75)) and for larger classes of field theories in ([Duch 17, p. 113, 114](adiabatic+switching#Duch17)).
+
+  If these limits do not exist, one says that the [[perturbative QFT]] has an _[[infrared divergence]]_.
+
+* ([[algebraic adiabatic limit]]) On the other hand, it is equally unrealistic that an actual [[experiment]] _detects_ phenomena outside a given compact subset of spacetime. Realistic scattering [[experiments]] (such as the [[LHC]]) do not really prepare or measure [[plane waves]] filling all of [[spacetime]] as described by the [[scattering amplitudes]] (eq:ScatteringPlaneWaves). Any [[observable]] that is realistically measurable must have compact spacetime support. We see below in prop. \ref{WellDefinedInteractingFieldAlgebra} that such [[interacting field observables]] with compact spacetime support may be computed without taking the [[adiabatic limit]]: It is sufficient to use any [[adiabatic switching]] which is constant on the support of the observable.
 
   This way one obtains for each [[causally closed subset]] $\mathcal{O}$ of spacetime an  algebra of observables $\mathcal{A}_{int}(\mathcal{O})$ whose support is in $\mathcal{O}$, and for each inclusion of subsets a corresponding inclusion of algebras of observables (prop. \ref{PerturbativeQuantumObservablesIsLocalnet} below). Of this system of observables one may form the [[category theory|category-theoretic]] [[inductive limit]] to obtain a single global algebra of observables.
 
   $$
-    \mathcal{A}_{int} 
-      \;\coloneqq\; 
-    \underset{\underset{\mathcal{O}}{\longrightarrow}}{\lim} 
+    \mathcal{A}_{int}
+      \;\coloneqq\;
+    \underset{\underset{\mathcal{O}}{\longrightarrow}}{\lim}
       \mathcal{A}_{int}(\mathcal{O})
   $$
 
-  This always exists. It is called the _[[algebraic adiabatic limit]]_.
+  This always exists. It is called the _[[algebraic adiabatic limit]]_ (going back to [Brunetti-Fredenhagen 00, section 8](perturbative+algebraic+quantum+field+theory#BrunettiFredenhagen00)).
 
-* ([[interacting vacuum]]) While, via the above [[algebraic adiabatic limit]], [[causal perturbation theory]] yields the correct [[interacting field algebra of quantum observables]] independent of choices of [[adiabatic switching]], a theory of _[[quantum probability]]_ requires, on top of the [[algebra of observables]], also a _[[state on a star-algebra|state]]_ 
+  The [[algebraic adiabatic limit]]  was worked out for [[quantum electrodynamics]] in ([Dütsch-Fredenhagen 98](quantum+electrodynamics#DuetschFredenhagen98))
+
+* ([[interacting vacuum]]) While, via the above [[algebraic adiabatic limit]], [[causal perturbation theory]] yields the correct [[interacting field algebra of quantum observables]] independent of choices of [[adiabatic switching]], a theory of _[[quantum probability]]_ requires, on top of the [[algebra of observables]], also a _[[state on a star-algebra|state]]_
 
   $$
     \langle - \rangle_{int} \;\colon\; \mathcal{A}_{int} \longrightarrow \mathbb{C}[ [\hbar] ]
   $$
-  
-  While the original [[Hadamard vacuum state]] of the [[free field theory]] (def. \ref{VacuumFree}) will still be a  [[state on a star-algebra|state]] on $\mathcal{A}_{int}$, it is not to be expected to be a _[[vacuum]]_ state for the [[interacting field theory]] in a suitable sense. Rather, just as the [[interacting field algebra of observables]] $\mathcal{A}_{int}$ is a [[deformation]] of the free field algebra of observables ([[Wick algebra]]), there ought to be a corresponding deformation of the free [[Hadamard vacuum state]] $\langle- \rangle$ into an "interacting vacuum state" $\langle - \rangle_{int}$.
-  
-  This is an open problem of [[perturbative QFT]].
-  
+
+  Just as the [[interacting field algebra of observables]] $\mathcal{A}_{int}$ is a [[deformation]] of the free field algebra of observables ([[Wick algebra]]), there ought to be a corresponding deformation of the free [[Hadamard vacuum state]] $\langle- \rangle$ into an "[[interacting vacuum state]]" $\langle - \rangle_{int}$.
+
+  Sometimes the [[weak adiabatic limit]] serves to define the [[interacting vacuum]] (see [Duch 17, p. 113-114](adiabatic+switching#Duch17)).
+
 =--
 
 +-- {: .num_remark}
@@ -975,6 +1040,65 @@ Beyond toy examples, it is unknown how to make sense of the expression on the ri
 But we may think of the axioms for the [[S-matrix]] in def. \ref{LagrangianFieldTheoryPerturbativeScattering} as rigorously _defining_
 the [[path integral]], not analytically as an actual [[integration]], but "[[synthetic mathematics|synthetically]]"
 by axiomatizing the behaviour of the _outcome_.
+
+With the S-matrix interpreted as a [[path integral]] this way [[Bogoliubov formula]] for [[interacting field observables]] (def. \ref{InteractingFieldObservables}) simimlarly would have the following interpretation:
+
+$$
+  A_{int}
+  \;\overset{\text{not really!}}{=}\;
+  \frac{
+    \int
+    A(\Phi)
+    \exp\left(
+      \int_X
+      \left(
+        \tfrac{g}{i \hbar} L_{int}(\Phi)
+      \right)
+    \right)  e^{\tfrac{1}{i \hbar}\int_X L_{free}(\Phi) }D[\Phi]
+  }
+  {
+    \int
+    \exp\left(
+      \int_X
+      \left(
+        \tfrac{g}{i \hbar} L_{int}(\Phi)
+      \right)
+    \right)  e^{\tfrac{1}{i \hbar}\int_X L_{free}(\Phi) }D[\Phi]
+  }
+$$
+
+If here we were to regard the expression
+
+$$
+  \mu(\Phi)
+  \;\overset{\text{not really}}{\coloneqq}\;
+  \frac{
+    \exp\left(
+      \int_X
+      \left(
+        \tfrac{g}{i \hbar} L_{int}(\Phi)
+      \right)
+    \right)  e^{\tfrac{1}{i \hbar}\int_X L_{free}(\Phi) }D[\Phi]
+  }
+  {
+    \int
+    \exp\left(
+      \int_X
+      \left(
+        \tfrac{g}{i \hbar} L_{int}(\Phi)
+      \right)
+    \right)  e^{\tfrac{1}{i \hbar}\int_X L_{free}(\phi) }D[\phi]
+  }
+$$
+
+as a "complex probability measure" on the the configuration space of fields, then this formula
+would express the [[expectation value]] of the functional $A$ under this measure:
+
+$$
+  A_{int} \overset{\text{not really!}}{=} [ A]_{\mu} = \int A(\Phi) \mu(\Phi)
+  \,.
+$$
+
 
 =--
 
@@ -1806,124 +1930,6 @@ region, and hence the algebra of observables localized in this region is suffici
 $\,$
 
 
-+-- {: .num_defn #GeneratingFunctionsForCorrelationFunctions}
-###### Definition
-**(perturbative [[quantum observables on interacting fields]] via [[Bogoliubov's formula]])**
-
-Let $S$ be a perturbative S-matrix as in def. \ref{LagrangianFieldTheoryPerturbativeScattering},
-and $g_{sw} L_{int} \in \mathcal{F}_{loc}\langle g\rangle$ an [[adiabatic switching|adiabatically switched]]
-[[interaction]] [[Lagrangian density]].
-
-Then for $A \in \mathcal{F}_{loc}$ a [[local observable]], the perturbative
-[[quantum observable]] $\widehat{A}$ corresponding to $A$ is the [[operator-valued distribution]]
-
-$$
-  \widehat{A}
-  \;\colon\;
-  C^\infty_{cp}(\Sigma)
-    \longrightarrow
-  \mathcal{W}[ [ g ] ][ [ \hbar ] ]
-$$
-
-which is the [[derivative]] of the generating functional $Z$ ((eq:GeneratingFunctionInducedFromSMatrix) in def. \ref{LagrangianFieldTheoryPerturbativeScattering}) at vanishing [[source field]]:
-
-$$
-  \widehat{A}(j)
-    \;\coloneqq\;
-  - i \hbar \frac{d}{d \epsilon} Z_{g_{sw} L_{int}}( \epsilon j  A)\vert_{\epsilon = 0}
-  \,.
-$$
-
-
-=--
-
-This definition of $\widehat{A}$ without the [[adiabatic switching]] $g_{sw}$ is originally due to [Bogoliubov-Shirkov 59](#BogoliubovShirkov59), nowadays sometimes called _[[Bogoliubov's formula]]_ (e.g. [Rejzner 16 (6.12)](#Rejzner16)).
-The version with adiabatic switching is due to ([Epstein-Glaser 73 around (74)](#EpsteinGlaser73)).
-Review includes ([D&#252;tsch-Fredenhagen 00, around (17)](#DuetschFredenhagen00)).
-
-
-+-- {: .num_remark }
-###### Remark
-**(interpretation of Bogoliubov's formula in terms of the path integral
-
-With the perturbative S-matrix informally thought of as a path integral as in
-remark \ref{InterpretationOfPerturbativeSMatrix}
-
-$$
-  S(\tfrac{g}{\hbar} L_{int} + j A)
-    \;\overset{\text{not really!}}{=}\;
-  \int
-  \exp\left(
-    \int_X
-    \left(
-      \tfrac{g}{i \hbar} L_{int}(\Phi) + j A(\Phi)
-    \right)
-  \right)  
-  \,
-  e^{\tfrac{1}{i \hbar}\int_X L_{free}(\Phi) }D[\Phi]
-$$
-
-the [[Bogoliubov formula]] in def. \ref{GeneratingFunctionsForCorrelationFunctions}
-simimlarly would have the following interpretation:
-
-
-$$
-  \widehat A(j)
-  \;\overset{\text{not really!}}{=}\;
-  \frac{
-    \int
-    j A(\Phi)
-    \exp\left(
-      \int_X
-      \left(
-        \tfrac{g}{i \hbar} L_{int}(\Phi)
-      \right)
-    \right)  e^{\tfrac{1}{i \hbar}\int_X L_{free}(\Phi) }D[\Phi]
-  }
-  {
-    \int
-    \exp\left(
-      \int_X
-      \left(
-        \tfrac{g}{i \hbar} L_{int}(\Phi)
-      \right)
-    \right)  e^{\tfrac{1}{i \hbar}\int_X L_{free}(\Phi) }D[\Phi]
-  }
-$$
-
-If here we were to regard the expression
-
-$$
-  \mu(\Phi)
-  \;\overset{\text{not really}}{\coloneqq}\;
-  \frac{
-    \exp\left(
-      \int_X
-      \left(
-        \tfrac{g}{i \hbar} L_{int}(\Phi)
-      \right)
-    \right)  e^{\tfrac{1}{i \hbar}\int_X L_{free}(\Phi) }D[\Phi]
-  }
-  {
-    \int
-    \exp\left(
-      \int_X
-      \left(
-        \tfrac{g}{i \hbar} L_{int}(\Phi)
-      \right)
-    \right)  e^{\tfrac{1}{i \hbar}\int_X L_{free}(\phi) }D[\phi]
-  }
-$$
-
-as a "complex probability measure" on the the configuration space of fields, then this formula
-would express the [[expectation value]] of the functional $A$ under this measure:
-
-$$
-  \widehat{A}(j) \overset{\text{not really!}}{=} [j A]_{\mu} = \int j A(\Phi) \mu(\Phi)
-  \,.
-$$
-
-=--
 
 The power series coefficients of the [[quantum observables on interacting fields]]
 are also called the _[[retarded products]]_. For the time being we mention these here
