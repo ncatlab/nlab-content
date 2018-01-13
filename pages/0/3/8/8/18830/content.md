@@ -88,7 +88,7 @@ Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]]
 
 =--
 
-([Fredenhagen-Rejzner 15, section 3.6](pAQFT#FredenhagenRejzner15), [Collini 16, table 2.1](#pAQFT#Collini16))
+([Fredenhagen-Rejzner 15, section 3.6](pAQFT#FredenhagenRejzner15), [Collini 16, table 2.1](pAQFT#Collini16))
 
 +-- {: .num_defn #MicrocausalObservable}
 ###### Definition
@@ -1104,7 +1104,7 @@ where on the right we have the [[exponential]] of the value of the [[Hadamard va
 
 =--
 
-(e.g. [Dütsch 18, exercise 2.3](#Duetsch18))
+(e.g. [Dütsch 18, exercise 2.3](Wick+algebra#Duetsch18))
 
 
 
