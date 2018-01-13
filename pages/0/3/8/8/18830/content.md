@@ -254,7 +254,7 @@ Since $g$ is a plain [[bump function]], its [[Fourier transform]] $\hat g$ is qu
 
 {#WaveFrontOfdeltaxy} This means that the wave front set consists of the elements of the form $(x, (k, -k))$ with $k \neq 0$. Since $k$ and $-k$ are both in the [[future cone]] or both in the past cone precisely if $k = 0$, this situation is excluded in the wave front set and hence the distribution $g \cdot \delta(-,-)$ is [[microcausal observable|microcausal]].
 
-> (graphics grabbed from [Khavkine-Moretti 14, p. 45](#KhavkineMoretti14))
+> (graphics grabbed from [Khavkine-Moretti 14, p. 45](microcausal+polynomial+observable#KhavkineMoretti14))
 
 =--
 
@@ -380,9 +380,12 @@ Explicitly, consider, without restriction of generality, $A_1 = \int (\alpha_1)_
 
 $$
   \begin{aligned}
-    A_1 \star_H A_2
+    & A_1 \star_H A_2
+    \\
     & =
-    A_1 A_2
+    \phantom{+} A_1 A_2
+    \\
+    & \phantom{=}
     +
     \hbar
     \int
@@ -395,7 +398,9 @@ $$
     \hbar^2
    \\
    & =
-   A_1 A_2
+   \phantom{+} A_1 A_2
+   \\
+   & \phantom{=}
    +
    \hbar
    \left(
@@ -412,7 +417,7 @@ $$
   \end{aligned}
 $$
 
-Now since $\Delta$ is skew-symmetric while $H$ is symmetric is follows that
+Now since $\Delta$ is skew-symmetric while $H$ is symmetric (prop. \ref{SkewSymmetricPartOfHadmrdPropagatorIsCausalPropagatorForKleinGordonEquationOnMinkowskiSpacetime}) it follows that
 
 $$
   \begin{aligned}
@@ -1639,7 +1644,7 @@ $$
   \{-S',-\}
 $$
 
-and by example \ref{BVDifferentialGlobal}) the second term on the right is
+and by example \ref{BVDifferentialGlobal} the second term on the right is
 
 $$
   \begin{aligned}
@@ -1871,10 +1876,11 @@ By prop. \ref{AntibracketBVOperatorRelation} $\Delta_{BV}$ acts as a [[derivatio
 
 $$
   \begin{aligned}
-    \Delta_{BV}
+    & \Delta_{BV}
     \left(
       1 + V + \tfrac{1}{2}V \star_F V + \cdots
     \right)
+    \\
     & =
     \Delta_{BV}(V)
       +
