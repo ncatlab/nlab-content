@@ -37,12 +37,16 @@ Every [[ordered field]] can be hypothetically embedded within the surreals. Now 
 
 
 ## Genetic spaces, schemes, and surreal curves
-In [Salzedo] it is from here we can define polynomials over surreal spaces. Zeroes of polynomials over these surreal polynomials is analogous to projective schemes in a real space. A genetic space is a space in which [[ringed spaces]] can be related with genetic formulas. The surreal curve is defined as a surreal space of dimension one. Genetic spaces are essentially real algebraic cycles of schemes. 
+Starting from page 5 of [Salzedo], Definition 6, the discussion of the topology of surreal numbers begin. We can take this conception and graduate it towards surreal spaces. One notable thing is the genetic construction of polynomials on page 7. This would mean each and every surreal polynomial is a real algebraic scheme. Or more precisely in motivic terms a surreal space is a category of correspondences of real algebraic cycles.
+
+It is from here we can define polynomials over surreal spaces. Zeroes of polynomials over these surreal polynomials is analogous to projective schemes in a real space. A genetic space is a space in which [[ringed spaces]] can be related with genetic formulas. The surreal curve is defined as a surreal space of dimension one. Genetic spaces are essentially real algebraic cycles of schemes. 
+
+Adjoin any given ring to a surreal space and you thus have a ringed space. For any given polynomial, each may be constructed through the use of genetic formulas. Equipped with a locally real asymptotic real sheaf structure we can thus define the category of real algebraic correspondences. 
 
 ###Infinitely blown up space
 
 ### Vector Bundles as elements of surreal space
-
+The union of all projectivized vector bundles in a real space is a point in surreal space. 
 ### Motivic meaning
 
 ### Genetic transformations
