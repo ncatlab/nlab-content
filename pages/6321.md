@@ -84,6 +84,10 @@ The [[weak adiabatic limit]] of QED was established in
 
 * {#Duch17} [[Paweł Duch]], _Massless fields and adiabatic limit in quantum field theory_ ([arXiv:1709.09907](https://arxiv.org/abs/1709.09907))
 
+The [[local net of algebras of observables]] and hence the [[algebraic adiabatic limit]] was worked out in
+
+* {#DuetschFredenhagen98} [[Michael Dütsch]], [[Klaus Fredenhagen]], _A local (perturbative) construction of observables in gauge theories: the example of QED_, Commun. Math. Phys. 203 (1999) 71-105 ([arXiv:hep-th/9807078](https://arxiv.org/abs/hep-th/9807078))
+
 Further discussion of the [[adiabatic limit]] and [[infrared divergences]]) includes
 
 * Daniel Kapec, Malcolm Perry, Ana-Maria Raclariu, [[Andrew Strominger]], _Infrared Divergences in QED, Revisited_, Phys. Rev. D 96, 085002 (2017) ([arXiv:1705.04311](https://arxiv.org/abs/1705.04311))
