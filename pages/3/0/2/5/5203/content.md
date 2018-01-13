@@ -43,6 +43,10 @@ An inserter in $K^{op}$ (see [[opposite 2-category]]) is called a **coinserter**
 
 * Strict inserters are (by definition) a particular class of [[PIE-limits]].
 
+## Examples
+
+* Let $C$ denote a category and $F : C \rightarrow C$ denote a functor. Then the notion of an [[algebra for an endofunctor]] of $F$ corresponds to the inserter of $F$ and $\mathrm{id}_C$, and the notion of a [[coalgebra for an endofunctor]] of $F$ corresponds to the inserter of $\mathrm{id}_C$ and $F$.
+
 [[!redirects inserters]]
 [[!redirects strict inserter]]
 [[!redirects strict inserters]]
