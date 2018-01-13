@@ -78,7 +78,7 @@ $$
 
 where in the first line we have the [[integral]] over a pointwise product ([this def.](A+first+idea+of+quantum+field+theory#Observable)) of $n$ [[field observables]] ([this def.](A+first+idea+of+quantum+field+theory#PointEvaluationObservables)), which in the second line we write equivalently as a [[normal ordered product]], by the discusssion at _[[Wick algebra]]_ ([this def.](Wick+algebra#NormalOrderedProductNotation)).
 
-The [[interacting field theory]] with [[Lagrangian density]] that of the [[free field|free]] [[scalar field]] plus a $\phi^n$ interaction as above is often called simply "$\Phi^n$-theory". 
+The [[interacting field theory]] with [[Lagrangian density]] that of the [[free field|free]] [[scalar field]] plus interactions of the form $\phi^k$ as above, up to order $n$, is often called simply "$\Phi^n$-theory". 
 
 ## Examples
 
@@ -98,6 +98,14 @@ The potential for the [[inflaton field]] in [[chaotic cosmic inflation]] is a $\
 * [[inflaton field]]
 
 ## References
+
+The [[weak adiabatic limit]] for [[mass]]-less $\Phi^4$ theory was established in 
+
+* {#BlanchardSeneor75} P. Blanchard and R. Seneor, _Green’s functions for theories with massless particles (in perturbation theory)_, Ann. Inst. H. Poincaré Sec. A
+23 (2), 147–209 (1975) ([Numdam](http://www.numdam.org/item?id=AIHPA_1975__23_2_147_0))
+
+
+See also
 
 * Wikipedia, _[Quartic interaction](http://en.wikipedia.org/wiki/Quartic_interaction)_
 
