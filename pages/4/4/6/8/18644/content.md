@@ -38,6 +38,8 @@ In [[perturbative AQFT]] the issue is dealt with by realizing that, despite supe
 
 * [[ultraviolet divergence]]
 
+* [[infraparticle]]
+
 
 ## References
 
