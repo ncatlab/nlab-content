@@ -242,7 +242,7 @@ Given an [[adiabatic switching|adiabatically switched]] non-point-[[interaction]
 $$
   S_{int}
   \;\in\;
-  PolyObs(E_{\text{BV-BRST}})_{{reg} \atop {deg = 0}}[ [\jhbar] ]
+  PolyObs(E_{\text{BV-BRST}})_{{reg} \atop {deg = 0}}[ [\hbar] ]
   \,,
 $$
 
