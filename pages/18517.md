@@ -141,5 +141,8 @@ Further discussion of the adiabatic limit is in
 [[!redirects algebraic adiabatic limit]]
 [[!redirects algebraic adiabatic limits]]
 
+[[!redirects strong adiabatic limit]]
+[[!redirects strong adiabatic limits]]
+
 [[!redirects weak adiabatic limit]]
 [[!redirects weak adiabatic limits]]
