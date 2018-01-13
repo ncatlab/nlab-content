@@ -39,13 +39,23 @@ The collection of all string vacua, possibly subject to some assumptions, has co
 
 ## Related concepts
 
-* [[vacuum]]
+* **[[vacuum]]**
 
-* [[vacuum state]]
+  * [[vacuum state]], [[Hadamard state]]
 
-* [[vacuum expectation value]]
+  * [[interacting vacuum]]
 
-* [[landscape of string theory vacua]]
+  * [[vacuum expectation value]], [[vacuum amplitude]], [[vacuum fluctuation]]
+
+  * [[vacuum energy]]
+
+  * [[false vacuum]], [[tachyon]], [[Coleman-De Luccia instanton]]
+
+  * [[theta vacuum]]
+
+  * [[perturbative string theory vacuum]]
+
+  * [[landscape of string theory vacua]]
 
 
 [[!redirects perturbative string theory vacua]]
