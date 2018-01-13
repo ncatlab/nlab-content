@@ -29,16 +29,23 @@ On [[Minkowski spacetime]] the _vacuum state_ for a [[free field theory]] is the
 However, since on a general [[globally hyperbolic spacetime]] there is no globally well-defined concept of [[particles]], there is in general no concept of vacuum state. But under good conditions (such as existence of suitable [[timelike]] [[Killing vectors]]) one may identify Hadamard states which deserve to be thought of as vacuum states ([Brum-Fredenhagen 13](#BrumFredenhagen13)).
 
 ## Related concepts
+* **[[vacuum]]**
 
-* [[vacuum]]
+  * [[vacuum state]], [[Hadamard state]]
 
-* [[vacuum expectation value]]
+  * [[interacting vacuum]]
 
-* [[theta vacuum]]
+  * [[vacuum expectation value]], [[vacuum amplitude]], [[vacuum fluctuation]]
 
-* [[perturbative string theory vacuum]]
+  * [[vacuum energy]]
 
-* [[landscape of string theory vacua]]
+  * [[false vacuum]], [[tachyon]], [[Coleman-De Luccia instanton]]
+
+  * [[theta vacuum]]
+
+  * [[perturbative string theory vacuum]]
+
+  * [[landscape of string theory vacua]]
 
 ## References
 
