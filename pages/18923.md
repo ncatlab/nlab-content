@@ -62,6 +62,8 @@ We use sheaves to discuss this.
 
 ## Ordinal, Simplicial, and Surreal (Genealogical cohomology) 
 
+## Universal algebraic definition
+
 ## Supercomplex Spaces
 ## References
 * [AS] Simon Rubinstein-Salzedo and Ashvin A. Swaminathan, _Analysis on Surreal Numbers_, Journal of Logic and Analysis, [arXiv](https://arxiv.org/abs/1307.7392)
