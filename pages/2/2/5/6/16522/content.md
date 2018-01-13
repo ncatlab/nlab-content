@@ -28,7 +28,7 @@ In [[physics]] an _atom_ is a [[bound state]] of a [[nucleus]] and a shell of [[
 
 In [[chemistry]] the different types of atoms that exist are also called _[[chemical elements]]_. Their [[bound states]] in turn are called _[[molecules]]_. The [[phenomenology]] of the [[elements]] that is captured by the [[periodic table of the elements]] is explained by the [[quantum physics]] of atoms. This transition area between [[quantum physics]] and [[chemistry]] is called _[[quantum chemistry]]_.
 
-## Terminlogy
+## Terminology
 
 When the term _atom_ ("indivisible") for these physical objects was established, the inner structure of atoms was not known yet.  Similarly what today are called [[elementary particles|elementary]] (hence again: indivisible) [[particles]] are subject to speculation that they might be compound after all (e.g. in [[technicolor]] models, or [[string theory]]).
 
