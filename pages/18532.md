@@ -18,7 +18,7 @@
 
 ## Idea
 
-Given a suitable [[subspace]] inclusion $X \hookrightarrow \hat X$ and a [[distribution]] $u$ on $X$, then an _extension_  of $u$ to $\hat X$ is an distribution $\hat u$ on $\hat X$ whose restriction to $X$ coincides with $u$. If $u$ comes from an ordinary [[smooth function]] or else if $u$ is properly understood as a [[generalized function]], then this corresponds to an ordinary [[extension]]
+Given a suitable [[subspace]] inclusion $X \hookrightarrow \hat X$ and a [[distribution]] $u$ on $X$, then an _extension_  of $u$ to $\hat X$ is a distribution $\hat u$ on $\hat X$ whose [[restriction of distributions]] to $X$ coincides with $u$. If $u$ comes from an ordinary [[smooth function]] or else if $u$ is properly understood as a [[generalized function]], then this corresponds to an ordinary [[extension]]
 
 $$
   \array{
@@ -170,9 +170,8 @@ For more on extension of distributions in [[renormalization]] see the references
 
 
 [[!redirects extensions of distributions]]
-[[!redirects restriction of distributions]]
 [[!redirects extension of a distribution]]
-[[!redirects restriction of a distribution]]
+
 [[!redirects point-extension of a distribution]]
 [[!redirects point-extensions of distributions]]
 
