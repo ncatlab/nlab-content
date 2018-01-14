@@ -14,6 +14,8 @@
 
 * [[graviton]] - [[field (physics)|field]] of [[gravity]]
 
+* [[infraparticle]]
+
 **[[scalar field|scalar]] [[bosons]]**
 
 * [[Higgs boson]], [[inflaton]] ([[scalar field]])
