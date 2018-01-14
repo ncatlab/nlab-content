@@ -126,7 +126,7 @@ Therefore, since $(Y,\tau_Y)$ is assumed to be [[compact topological space|compa
 $$
   \left\{
     \left(
-      (V_{k_1} \times W_{k_1}) \cap (\{x\} \times Y) 
+      (V_{k_i} \times W_{k_i}) \cap (\{x\} \times Y) 
     \right)
       \;\subset\; 
     \{x\}\times Y 
