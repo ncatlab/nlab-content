@@ -62,6 +62,8 @@ The following review provides concise background on actual technical details:
 
 See also
 
+* Roberto Percacci, _Asymptotic Safety FAQs_ ([web](http://www.percacci.it/roberto/physics/as/faq.html))
+
 * {#BiemansPlataniaSaueressig17} Jorn Biemans, Alessia Platania, Frank Saueressig, _Renormalization group fixed points of foliated gravity-matter systems_ ([arXiv:1702.06539](https://arxiv.org/abs/1702.06539))
 
 
