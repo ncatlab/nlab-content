@@ -93,7 +93,7 @@ Recall that a frame $X$ is *compact* if whenever its top element $\top$ is the j
 
 +-- {: .num_prop #char} 
 ###### Proposition 
-Let $X$ be a frame, and let $\chi_\top: X \to \mathbf{2}$ be the characteristic map of the poset inclusion $\top: 1 \hookrightarrow X$. Then $X$ is *compact* iff $\chi_\top$ is a preframe map. (Of course $\phi_\top$ preserves finite meets for any frame, so the essential condition is preservation of directed joins). 
+Let $X$ be a frame, and let $\chi_\top: X \to \mathbf{2}$ be the characteristic map of the poset inclusion $\top: 1 \hookrightarrow X$. Then $X$ is *compact* iff $\chi_\top$ is a preframe map. (Of course $\phi_\top$ preserves finite meets for any frame, so the essential condition is preservation of directed joins.) 
 =-- 
 
 An essential insight of Johnstone and Vickers is that since directed joins commute with finite meets, the theory of preframes is essentially a commutative theory, and thus the category of preframes forms a symmetric monoidal closed category; moreover, frames are exactly those preframes $X$ such that the binary join operation $\vee: X \times X \to X$ is a preframe map in each separate variable. Thus, frames can be described either as commutative monoids $(X, \wedge, \top)$ in the smc category of sup-lattices, or as commutative monoids $(X, \vee, \bot)$ in the smc category of preframes. In either case, coproducts of frames can be described as tensor products in either of these smc categories, with preframe tensors offering a description that is, roughly speaking, "De Morgan dual" to the sup-lattice tensor description. 
