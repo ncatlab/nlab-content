@@ -167,9 +167,9 @@ where $i_\ast b \in C^\infty_{cp}(X)$ is the result of [[extension|extending]] $
 [[!redirects pullback of distributions]]
 [[!redirects pullbacks of distributions]]
 
-
 [[!redirects restriction of a distribution]]
 [[!redirects restrictions of a distribution]]
+
 
 [[!redirects restriction of distributions]]
 [[!redirects restrictions of distributions]]
