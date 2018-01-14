@@ -35,6 +35,8 @@ Then the difference formula $\Delta x^{\underline{k}} = k x^{\underline{k-1}}$ a
 
 ## Related entries 
 
+* [[factorial]]
+
 * [[binomial theorem]] 
 
 ## References
