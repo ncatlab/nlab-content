@@ -19,9 +19,9 @@
 
 ### General
 
-An _asymptotic series_ is a [[formal power series]] that may not [[convergence|converge]], but whose terms decrease fast enough such that the truncation of the series at any finite order still provides a controled approximation to a given [[function]].  
+An _asymptotic expansion_ of a [[function]] is a [[formal power series]] that may not [[convergence|converge]], but whose terms decrease fast enough such that the truncation of the series at any finite order still provides a controled approximation to a given [[function]].  
 
-A key class of examples of asymptotic series are [[Taylor series]] of [[smooth functions]] (example \ref{TaylorSeriesOfSmoothFunctionIsAsymptoticSeries} below) around any point.
+A key class of examples of asymptotic expansions are the [[Taylor series]] of [[smooth functions]] (example \ref{TaylorSeriesOfSmoothFunctionIsAsymptoticSeries} below) around any point.
 
 In [[resurgence theory]] one tries to re-identify from an asymptotic series the corresponding [[analytic function|non-analytic]] contributions.
 
@@ -68,12 +68,13 @@ This definition makes makes no statement about the behaviour as $n \to \infty$. 
 
 
 ## Examples
+ {#Examples}
 
 +-- {: .num_example #TaylorSeriesOfSmoothFunctionIsAsymptoticSeries}
 ###### Example
 **([[Taylor series]] of [[smooth function]] is asymptotic series)**
 
-The [[Taylor series]] of a [[smooth function]] $f \colon \mathbb{R} \to \mathbb{R}$ at any point is always an [[asymptotic series]], regardless of whether its [[radius of convergence]] vanishes or not.
+The [[Taylor series]] of a [[smooth function]] $f \colon \mathbb{R} \to \mathbb{R}$ at any point is always an asymptotic expansion of $f$ around that point, regardless of whether its [[radius of convergence]] vanishes or not.
 
 =--
 
@@ -137,6 +138,16 @@ $$
   \,.
 $$
 
+Here in taking the [[limit of a sequence|limit]] we used from [[Hadamard's lemma]] that $h_n(x)$ and hence also $x h_n(x)$ is a [[smooth function]], hence in particular a [[continuous function]], on all of $\mathbb{R}$, hence that its limit as $x \to 0$ is just the value of the function at $x = 0$.
+
+=--
+
+
++-- {: .num_remark}
+###### Remark
+**([[Borel's theorem]])**
+
+Beware that by [[Borel's theorem]], _every_ [[formal power series]] is the [[Taylor series]] of _some_ [[smooth function]], and of more than one smooth function; hence by example \ref{TaylorSeriesOfSmoothFunctionIsAsymptoticSeries} every formal power series is the asymptotic expansion of _some_ smooth function, and of more than one smooth function. 
 
 =--
 
@@ -199,6 +210,7 @@ recalled for instance in
 * {#HollandsWald14} [[Stefan Hollands]], [[Robert Wald]], section 4.1 of _Quantum fields in curved spacetime_, Physics Reports Volume 574, 16 April 2015, Pages 1-35 ([arXiv:1401.2026](https://arxiv.org/abs/1401.2026))
 
 
-[[!redirects asymptotic expansion]]
 [[!redirects asymptotic expansions]]
+
+[[!redirects asymptotic series]]
 
