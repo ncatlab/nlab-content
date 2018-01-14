@@ -1199,7 +1199,7 @@ dealt with by [[causal perturbation theory]]:
 
 +-- {: .num_remark #CausalPerturbationTheoryAbsenceOfUVDivergences}
 ###### Remark
-**(absence of [[UV-divergences]] and [[renormalization|re-normalization]])**
+**(absence of [[ultraviolet divergences]] and [[renormalization|re-normalization]])**
 
 The simple axioms of [[causal perturbation theory]] (def. \ref{LagrangianFieldTheoryPerturbativeScattering})
 do fully capture [[perturbative quantum field theory]] "in the ultraviolet": A solution to these axioms
@@ -1207,7 +1207,7 @@ induces, by definition, well-defined [[perturbative QFT|perturbative]] [[scatter
 and well-defined [[perturbative QFT|perturbative]] [[probability amplitudes]] of [[interacting field observables]] (def. \ref{InteractingFieldObservables}) induced by _[[local observables|local]]_ (describing point-interactions such as the [[electron-photon interaction]]). By the [[main theorem of perturbative renormalization]] such solutions exist. This means that, while these are necessarily [[formal power series]] in $\hbar$ and $g$ (remark \ref{AsymptoticSeriesObservables}) all the [[coefficients]] of these formal power series ("[[loop order]] contributions") are well defined.
 
 This is in contrast to the original informal conception of [[perturbative QFT]] due to [[Schwinger-Tomonaga-Feynman-Dyson]],
-which in a first stage produced ill-defined [[divergence|divrging]] expressions for the [[coefficients]], which were then
+which in a first stage produced ill-defined [[divergence|divrging]] expressions for the [[coefficients]] (due to a mathematical error, see remark \ref{TheTraditionalErrorThatLeadsToTheNotoriouDivergencies} below), which were then
 "[[renormalization|re-normalized]]" to finite values, by further informal arguments.
 
 Here in [[causal perturbation theory]] no [[divergences]] in the [[coefficients]] of the [[formal power series]] are considered in the first place, all coefficients are well-defined, hence "finite". In this sense [[causal perturbation theory]] is about "finite" perturbative QFT, where instead of "re-normalization" of ill-defined expressions one just encounters "normalization" (prominently highlighted in [Scharf 95](causal+perturbation+theory#Scharf95)), namely compatible choices of these finite values, parameterited by the [[Stückelberg-Petermann renormalization group]].
@@ -1496,9 +1496,9 @@ $$
    g(x_1) \cdots g(x_n) \, dvol
 $$
 
-be power series of [[Wick-algebra]]-valued [[distributions]] in the [[generalized function]]-notation of def. \ref{NotationForTimeOrderedProductsAsGeneralizedFunctions}.
+be power series of [[Wick algebra]]-valued [[distributions]] in the [[generalized function]]-notation of def. \ref{NotationForTimeOrderedProductsAsGeneralizedFunctions}.
 
-Then their product $W(g) \coloneqq U(g) V(g)$ with [[generalzed function]]-representation
+Then their product $W(g) \coloneqq U(g) V(g)$ with [[generalized function]]-representation
 
 $$
   W(g)
@@ -1539,11 +1539,12 @@ when expanding the product $U(g)V(g)$.
 
 +-- {: .num_remark #TheTraditionalErrorThatLeadsToTheNotoriouDivergencies}
 ###### Remark
-**(the traditional error that leads to the notorious divergences)**
+**(the traditional error leading to [[UV-divergences]] and [[renormalization|"re-"normalization]] by [[extension of distributions]])**
 
-Naively it might seem that, over [[Minkowski spacetime]], examples of [[time-ordered products]] according to def. \ref{TimeOrderedProduct}
+Naively it might seem that (say over [[Minkowski spacetime]], for simplicity) 
+examples of [[time-ordered products]] according to def. \ref{TimeOrderedProduct}
 may simply be obtained by multiplication with [[step functions]] $\Theta$, in the notation as
-generalized functions (def. \ref{NotationForTimeOrderedProductsAsGeneralizedFunctions}):
+[[generalized functions]] (def. \ref{NotationForTimeOrderedProductsAsGeneralizedFunctions}):
 
 $$
   T(x_1, x_2)
@@ -1555,21 +1556,21 @@ $$
 
 etc. (for instance [Weinberg 95, p. 143, between (3.5.9) and (3.5.10)](#Weinberg95)).
 
-This however is simply a mathematical error, in general: Both $T(-,-)$ as well as $\Theta$
-are actualy [[distributions]] and their [[product of distributions]] is in general not defined ([[Hörmander's criterion]] may be violated).
-The notorious divergences which plagued ([Feynman 85](Schwinger-Tomonaga-Feynman-Dyson#Feynman85SuchABunchOfWords)) the original conception of [[perturbative QFT]] due to [[Schwinger-Tomonaga-Feynman-Dyson]] are the signature
-of this ill-defined product.
+This however is simply a mathematical error (as amplified in [Scharf 95, below (3.2.4), below (3.2.44) and fig. 3](causal+perturbation+theory#Scharf95)): 
 
-On the other hand, when both distributions are restricted to the [[complement]] of the [[diagonal]]
-(i.e. restricted away from $x_1 = x_2$) then the above expression happens to be well defined and does
-solve the axioms for time-ordered products.
+Both $T(-,-)$ as well as $\Theta$ are [[distributions]] and their [[product of distributions]] is in general not defined ([[Hörmander's criterion]] may be violated). The notorious [[ultraviolet divergences]] which plagued ([Feynman 85](Schwinger-Tomonaga-Feynman-Dyson#Feynman85SuchABunchOfWords)) the original conception of [[perturbative QFT]] due to [[Schwinger-Tomonaga-Feynman-Dyson]] are the signature of this ill-defined product (see remark \ref{CausalPerturbationTheoryAbsenceOfUVDivergences}).
+
+On the other hand, when both distributions are [[restriction of distributions|restricted]] to the [[complement]] of the [[diagonal]]
+(i.e. restricted away from coinciding points $x_1 = x_2$), then the [[step function]] becomes a [[non-singular distribution]]
+so that the above expression happens to be well defined and does solve the axioms for time-ordered products.
 
 Hence what needs to be done to properly define the [[time-ordered product]] is to
-choose an [[extension of distributions]] of the above expression from the complement of the
-diagonal to the diagonal. Any such extension will produce time-ordered products.
-There are in general several different such extensions. This freedom of choice is the freedom
-of _[[renormalization]]_; or equivalently, by the [[main theorem of perturbative renormalization theory]],
-this is the freedom of choosing "counter terms" for the local interactions. This we discuss below in
+choose an [[extension of distributions]] of the above product expression back from the complement of the
+diagonal to the whole space of [[tuples]] of points. Any such extension will produce time-ordered products.
+
+There are in general several different such [[extension of distributions|extensions]]. This freedom of choice is the freedom
+of _[[renormalization|"re-"normalization]]_; or equivalently, by the [[main theorem of perturbative renormalization theory]],
+this is the freedom of choosing "counter terms" for the [[local observable|local]] [[interactions]]. This we discuss below in
 _[Feynman diagrams and (re-)normalization](#ExistenceAndRenormalization)_.
 
 
@@ -1601,7 +1602,7 @@ $$
     {\, \atop \,}
   \right)
     \longrightarrow
-  PolyObs(E_{\text{BV-BRST}}((\hbar))[ [g, j] ]
+  PolyObs(E_{\text{BV-BRST}})((\hbar))[ [g, j] ]
 $$
 
 for $k \in \mathbb{N}$ is defined by
@@ -1840,7 +1841,7 @@ $$
 $$
 
 We proceed by [[induction]]. If ${\vert \mathbf{X}\vert} = 1$ the statement is immediate.
-So assume that the statement is true for sets of [[cardinality]] $n {\vee\!\!\!\wedge} 1$ and consider
+So assume that the statement is true for sets of [[cardinality]] $n \geq 1$ and consider
 $\mathbf{X}$ with ${\vert \mathbf{X}\vert} = n+1$.
 
 We make free use of the condensed notation as in example \ref{ProductOfPerturbationSeriesInGenealizedFunctionNotation}.
@@ -1852,7 +1853,7 @@ $$
   = 0
 $$
 
-(which uses the induction assumption that ${\vert \mathbf{X}\vert} {\vee\!\!\!\wedge} 1$) it follows that
+(which uses the induction assumption that ${\vert \mathbf{X}\vert} \geq 1$) it follows that
 
 $$
   \begin{aligned}
@@ -1882,6 +1883,7 @@ $$
       \atop
       { \mathbf{L}' \neq \emptyset }
     }{\sum}
+     \!\!\!
      \overline{T}( \mathbf{L} )
      \underset{ = 0}{
        \underbrace{
@@ -1918,14 +1920,14 @@ $$
 Here
 
 1. in the second line we used that $\mathbf{X} = \mathbf{Q} \sqcup \mathbf{P}$, together with the
-causal factorization property of $T(-)$ (which holds by general assumption) and that of $\overline{T}(-)$
+[[causal factorization]] property of $T(-)$ (which holds by def. \ref{TimeOrderedProduct}) and that of $\overline{T}(-)$
 (which holds by the induction assumption, using that $\mathbf{J} \neq \mathbf{X}$ hence that
 ${\vert \mathbf{J}\vert} \lt {\vert \mathbf{X}\vert}$).
 
 1. in the third line we decomposed the sum over $\mathbf{J}, \mathbf{J}' \subset \mathbf{X}$
 into two sums over subsets of $\mathbf{Q}$ and $\mathbf{P}$:
 
-   1. The first summand in the third line is the contribution where $\mathbf{J}'$ has a non-empty intersection with $\mathbf{Q}$. This makes $\mathbf{K}$ range without constraint, and therefore the sum in the middle vanishes, as indicated, as it is the contribution at order ${\vert \mathbf{Q}\vert}$ of the inversion formula from prop. \ref{InversionFormulaForTimeOrderedProducts}
+   1. The first summand in the third line is the contribution where $\mathbf{J}'$ has a non-empty intersection with $\mathbf{Q}$. This makes $\mathbf{K}$ range without constraint, and therefore the sum in the middle vanishes, as indicated, as it is the contribution at order ${\vert \mathbf{Q}\vert}$ of the inversion formula from prop. \ref{InversionFormulaForTimeOrderedProducts}.
 
    1. The second summand in the third line is the contribution where $\mathbf{J}'$ does not intersect $\mathbf{Q}$.
      Now the sum over $\mathbf{K}$ is the inversion formula from prop. \ref{InversionFormulaForTimeOrderedProducts} except for one term, and so it equals that term.
@@ -1944,14 +1946,21 @@ Then
 
 $$
   \begin{aligned}
-    S(-)
+    \mathcal{S}(-)
     & \coloneqq
-    T \exp\left(
-      \tfrac{1}{i \hbar}(-)
+    T 
+    \left( 
+      \exp_\otimes
+      \left(
+        \tfrac{1}{i \hbar}(-)
       \right)
+    \right)
     \\
     &
-    \coloneqq \underset{k \in \mathbb{N}}{\sum} \tfrac{1}{(i \hbar)^k} \tfrac{1}{k!} T( \underset{k \, \text{factors}}{\underbrace{- \cdots -}} )
+    \coloneqq 
+    \underset{k \in \mathbb{N}}{\sum} 
+    \tfrac{1}{k!}
+    \tfrac{1}{(i \hbar)^k}  T( \underset{k \, \text{factors}}{\underbrace{-,  \cdots , -}} )
   \end{aligned}
 $$
 
@@ -1962,38 +1971,32 @@ is indeed a perturbative S-matrix according to def. \ref{LagrangianFieldTheoryPe
 +-- {: .proof}
 ###### Proof
 
-The axiom "perturbation" and "normalization" for the S-matrix are
-immediate from the corresponding axioms of the time-ordered products.
+The axiom "perturbation" of the S-matrix is
+immediate from the axioms "perturbation" and "normalization" of the time-ordered products.
 What requires proof is that [[causal additivity]] of the S-matrix follows from
-the causal factorization property of the time-ordered products.
+the [[causal factorization]] property of the time-ordered products.
 
-Notice that also the simple causal factorization property of the S-matrix
-
-$$
-  (supp(g_{sw_1}L_1) {\vee\!\!\!\wedge} supp(g_{sw,}L_2))
-    \;\Rightarrow\;
-  \left(
-    S(g_{sw,1}L_1 + g_{sw,2}L_2)
-    =
-    S(g_{sw,1}L_1) S(g_{sw,2}L_2)
-  \right)
-$$
-
-is immediate from the time-ordering axiom of the time-ordered products.
+Notice that also the weaker [[causal factorization]] property of the S-matrix (remark \ref{DysonCausalFactorization})
+is immediate from the causal factorization condition on the time-ordered products.
 
 But [[causal additivity]] is stronger. It is remarkable that this, too,
 follows from just the time-ordering ([Epstein-Glaser 73, around (73)](#EpsteinGlaser73)):
 
 To see this, first expand the
-generating functional $Z$ (eq:GeneratingFunctionInducedFromSMatrix)  into
-powers of $(g/\hbar)$ and $(j/\hbar)$
+generating function $\mathcal{Z}$ (eq:GeneratingFunctionInducedFromSMatrix)  into
+powers of $g$ and $j$
 
 $$
-  Z_{L}(L + A)
+  \mathcal{Z}_{g S_{int}}(j A)
   \;=\;
   \underoverset{n,m = 0}{\infty}{\sum}
    \frac{1}{n! m!}
-   R(  \underset{n\, \text{factors}}{\underbrace{L \cdots L}},  ( \underset{m \, \text{factors}}{ \underbrace{ A \cdots A } }  ) )
+   R\left(
+      {\, \atop \,}  
+      \underset{n\, \text{factors}}{\underbrace{g S_{int},  \cdots ,g S_{int}}},  
+      ( \underset{m \, \text{factors}}{ \underbrace{ j A ,  \cdots , j A } }  ) 
+      {\, \atop \,}
+   \right)
 $$
 
 and then compare order-by-order with the given time-ordered product $T$ and
@@ -2021,7 +2024,9 @@ $\mathbf{Y}$ is in the [[causal past]] of $\mathbf{X}$. This will imply the clai
 multi-linearity of $R(-,-)$ it then follows that
 
 $$
-  \left(J_1 {\vee\!\!\!\wedge} J_2\right) \Rightarrow \left( Z_{L + J_1}(J_2) = Z_L(J_2) \right)
+  \left(supp(A_1) {\vee\!\!\!\wedge} supp(A_2)\right) 
+  \Rightarrow 
+  \left( Z_{g S_{int}  + j A_1}(j A_2) = Z_{S_{int}}(A_2) \right)
 $$
 
 and by lemma \ref{CausalLocalityOfThePerturbativeSMatrix} this is equivalent to [[causal additivity]] of the S-matrix.
@@ -2029,7 +2034,7 @@ and by lemma \ref{CausalLocalityOfThePerturbativeSMatrix} this is equivalent to 
 It remains to prove the claim:
 
 Consider $\mathbf{X}, \mathbf{Y} \subset \Sigma$ such that the subset $\mathbf{P} \subset \mathbf{Y}$
-of points not in the past of $\mathbf{X}$ (def. \ref{CausalOrdering}), hence the maximal subset with
+of points not in the past of $\mathbf{X}$, hence the maximal subset with [[causal ordering]]
 
 $$
   \mathbf{P} {\vee\!\!\!\wedge} \mathbf{X}
