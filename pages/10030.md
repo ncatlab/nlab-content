@@ -21,20 +21,18 @@
 
 An _asymptotic expansion_ of a [[function]] is a [[formal power series]] that may not [[convergence|converge]], but whose terms decrease fast enough such that the truncation of the series at any finite order still provides a controled approximation to a given [[function]].  
 
-A key class of examples of asymptotic expansions are the [[Taylor series]] of [[smooth functions]] (example \ref{TaylorSeriesOfSmoothFunctionIsAsymptoticSeries} below) around any point.
+A key class of examples of asymptotic expansions are the [[Taylor series]] of [[smooth functions]] (example \ref{TaylorSeriesOfSmoothFunctionIsAsymptoticSeries} below) around any point. Beware that by [[Borel's theorem]] this means that _every_ [[formal power series]] is the asymptotic expansion of _some_ smooth function and of more than one smooth function (remark \ref{TheoremBorel} below).
 
-In [[resurgence theory]] one tries to re-identify from an asymptotic series the corresponding [[analytic function|non-analytic]] contributions.
+In [[resurgence theory]] one tries to re-identify from an asymptotic expansion the corresponding [[analytic function|non-analytic]] contributions.
 
 
 ### In perturbative quantum field theory
 
 The concept of asymptotic expansions plays a key role in the interpretation of [[perturbative quantum field theory]] (pQFT): This computes [[quantum observables]] as [[formal power series]] (in the [[coupling constant]] and in [[Planck's constant]]) whose [[radius of convergence]] necessarily vanishes in cases of interest ([Dyson 52](#Dyson52)). 
 
-Nevertheless, for examples such as [[quantum electrodynamics]] and [[quantum chromodynamics]] as in the [[standard model of particle physics]], the truncation of these series to the first handful of [[loop orders]]  happens to agree with [[experiment]] (such as at the [[LHC]] collider) to high precision (for [[QED]]) or at least good precision (for [[QCD]]). Therefore one interprets the [[scattering matrix]] in [[perturbative quantum field theory]] as an asymptotic series. 
+Nevertheless, for examples such as [[quantum electrodynamics]] and [[quantum chromodynamics]] as in the [[standard model of particle physics]], the truncation of these series to the first handful of [[loop orders]]  happens to agree with [[experiment]] (such as at the [[LHC]] collider) to high precision (for [[QED]]) or at least good precision (for [[QCD]]). Therefore one interprets the [[scattering matrix]] in [[perturbative quantum field theory]] as an asymptotic expansion of what should be the true [[non-perturbative field theory|non-perturbative]] result. 
 
-By example \ref{TaylorSeriesOfSmoothFunctionIsAsymptoticSeries} this makes sense if one assumes that [[pQFT]] computes the [[Taylor series]] expansion of the observables of a [[non-perturbative quantum field theory]] around the point where the [[Planck constant]]/[[coupling constant]] vanishes.
-
-With [[resurgence theory]] one may try to deduce from the asymptotic [[Feynman perturbation series]] the hidden [[non-perturbative effects]].
+With [[resurgence theory]] one may try to deduce from the [[Feynman perturbation series]] regarded as an asymptotic expansion the hidden [[non-perturbative effects]].
 
 ## Definition
 
@@ -143,7 +141,7 @@ Here in taking the [[limit of a sequence|limit]] we used from [[Hadamard's lemma
 =--
 
 
-+-- {: .num_remark}
++-- {: .num_remark #TheoremBorel}
 ###### Remark
 **([[Borel's theorem]])**
 
