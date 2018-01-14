@@ -2,13 +2,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Physics
-+-- {: .hide}
-[[!include physicscontents]]
-=--
 #### Algebraic Qunantum Field Theory
 +--{: .hide}
 [[!include AQFT and operator algebra contents]]
+=--
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
 =--
 =--
 =--
@@ -47,7 +47,7 @@ See at _[[A first idea of quantum field theory]]_ [this example](A+first+idea+of
 
     * **QED**
 
-    * [[QCD]]
+    * [[QCD]], [[quantization of Yang-Mills theory]]
 
 
 ## References
@@ -69,11 +69,15 @@ For more on the history see
 and ([Scharf 95, section 0.0](#Scharf95)).
 
 
-A construction of QED in the context of [[locally covariant perturbative quantum field theory|pertubative AQFT]] is discussed in 
+The rigorous construction of [[perturbative QFT|perturbative]] QED in [[causal perturbation theory]] is worked out in 
 
-* [[Michael Dütsch]], [[Klaus Fredenhagen]], _A local (perturbative) construction of observables in gauge theores: the example of QED_ , Commun. Math. Phys. 203 (1999), no.1, 71-105,  ([arXiv:hep-th/9807078](http://xxx.uni-augsburg.de/abs/hep-th/9807078)). 
+* [Scharf 95](#Scharf95)
 
-and in the further generality of non-abelian [[Yang-Mills theory]] in
+and refined to [[perturbative AQFT]] in
+
+* {#DuetschFredenhagen98} [[Michael Dütsch]], [[Klaus Fredenhagen]], _A local (perturbative) construction of observables in gauge theores: the example of QED_ , Commun. Math. Phys. 203 (1999), no.1, 71-105,  ([arXiv:hep-th/9807078](http://xxx.uni-augsburg.de/abs/hep-th/9807078)). 
+
+and generalized to possibly non-abelian [[Yang-Mills theory]] in
 
 * {#Hollands07} [[Stefan Hollands]], _Renormalized Quantum Yang-Mills Fields in Curved Spacetime_, Rev. Math. Phys. 20:1033-1172, 2008 ([arXiv:0705.3340](https://arxiv.org/abs/0705.3340))
 
@@ -86,9 +90,9 @@ The [[weak adiabatic limit]] of QED was established in
 
 The [[local net of algebras of observables]] and hence the [[algebraic adiabatic limit]] was worked out in
 
-* {#DuetschFredenhagen98} [[Michael Dütsch]], [[Klaus Fredenhagen]], _A local (perturbative) construction of observables in gauge theories: the example of QED_, Commun. Math. Phys. 203 (1999) 71-105 ([arXiv:hep-th/9807078](https://arxiv.org/abs/hep-th/9807078))
+* [Dütsch-Fredenhagen 98](#DuetschFredenhagen98)
 
-Further discussion of the [[adiabatic limit]] and [[infrared divergences]]) includes
+Further discussion of the [[adiabatic limit]] and [[infrared divergences]] includes
 
 * Daniel Kapec, Malcolm Perry, Ana-Maria Raclariu, [[Andrew Strominger]], _Infrared Divergences in QED, Revisited_, Phys. Rev. D 96, 085002 (2017) ([arXiv:1705.04311](https://arxiv.org/abs/1705.04311))
 
@@ -100,7 +104,6 @@ Further discussion of the [[adiabatic limit]] and [[infrared divergences]]) incl
 
 Traditional discussion includes
 
-
 * [[Radovan Dermisek]], _Quantum Electrodynamics (QED)_ ([pdf](http://www.physics.indiana.edu/~dermisek/QFT_09/qft-II-5-4p.pdf), [[DermisekQED.pdf:file]])
 
 * [[Hitoshi Murayama]], _Quantum Electrodynamics_ ([pdf](http://hitoshi.berkeley.edu/221B-S02/QED.pdf))
@@ -109,10 +112,13 @@ Traditional discussion includes
 
 * Einan Gardi, lectures 19, 20 of _[Modern Quantum Field Theory](https://www2.ph.ed.ac.uk/~egardi/MQFT/)_, 2015 ([pdf](https://www2.ph.ed.ac.uk/~egardi/MQFT/MQFT_2015_lecture_19_20.pdf))
   
-Mathematically rigorous discussion in [[causal perturbation theory]] is in
+Mathematically rigorous discussion in [[causal perturbation theory]]/[[perturbative AQFT]] is in
 
 * {#Scharf95} [[Günter Scharf]], _[[Finite Quantum Electrodynamics -- The Causal Approach]]_, Berlin: Springer-Verlag, 1995, 2nd edition
 
+* {#Duetsch18} [[Michael Dütsch]], chapter 5 of _[[From classical field theory to perturbative quantum field theory]]_, 2018
+
+  following ([Dütsch-Fredenhagen 98](#DuetschFredenhagen98))
 
 
 ### Phenomenology
