@@ -128,6 +128,9 @@ making $c_k$ the $k$th coefficient of the Taylor series of $f$ at $0$, as desire
 
 * [[derivations of smooth functions are vector fields]]
 
+## Related concepts
+
+* [[asymptotic expansion]]
 
 ## References
 
