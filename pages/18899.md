@@ -17,7 +17,11 @@
 
 ## Idea
 
-In [[relativistic field theory|relativistic]] [[perturbative quantum field theory]], the _time-ordered product_ is a product on [[observables]] which is such that observables which evaluate [[field histories]] not in the [[past]] of some [[event]] are ordered to the left of those which do, before taking their [[Wick algebra]] product. For example for point-evaluation [[field observables]] and distinct [[events]] $x,y \in \Sigma$ the time-ordered product is defined by
+In [[relativistic field theory|relativistic]] [[perturbative quantum field theory]], the _time-ordered product_ is a product on suitably well-behave [[observables]]  which re-orders its arguments according to the [[causal ordering]] of their spacetime supports befor multiplying with the [[Wick algebra]] product. 
+
+(Analogously reverse [[causal ordering]] this is called the _reverse-time ordered_ or _anti-time ordered_ prouct.)
+
+For example for point-evaluation [[field observables]] and distinct [[events]] $x,y \in \Sigma$ the time-ordered product is defined by
 
 $$
   T(\mathbf{\Phi}^a(x) \mathbf{\Phi}^b(y))
@@ -358,3 +362,10 @@ and then further amplified in
 
 [[!redirects time ordered product]]
 [[!redirects time ordered products]]
+
+[[!redirects reverse-time ordered product]]
+[[!redirects reverse-time ordered products]]
+
+[[!redirects anti-time ordered product]]
+[[!redirects anti-time ordered products]]
+
