@@ -350,7 +350,7 @@ We consider here the [[axioms]] for perturbative S-matrices relative to a fixed 
 Since the first of these axioms requires the S-matrix to be a formal sum of [[multilinear map|multi-]][[linear continuous functionals]], it is convenient to impose axioms on these directly: this is the axiomatics for _[[time-ordered products]]_
 in def. \ref{TimeOrderedProduct} below. That these latter axioms already imply the former
 is the statement of prop. \ref{TimeOrderedProductInducesPerturbativeSMatrix} below. Its proof
-requires a close look at the "reverse-time ordered products" for the inverse S-matrix (def. \ref{ReverseTimeOrderedProduct} below)
+requires a close look at the "[[reverse-time ordered products]]" for the inverse S-matrix (def. \ref{ReverseTimeOrderedProduct} below)
 and their induced reverse-causal factorization (prop. \ref{ReverseCausalFactorizationOfReverseTimeOrderedProducts} below).
 
 $\,$
@@ -659,6 +659,8 @@ the axiom "perturbation")
 $\mathcal{D}(g S_{int} + j A)$ has vanishing coefficient in zeroth order in the formal parameters $g$ and $j$, so that
 only a finite sub-sum of the formal infinite sum contributes in each order in $g$ and $j$.
 
+This expression for the inverse of S-matrix may usefully be re-ordganized in terms of "rever-time ordered products" (def. \ref{ReverseTimeOrderedProduct} below), see prop. \ref{ReverseTimOrderedProductsGiveReverseSMatrix} below.
+
 =--
 
 Given a perturbative [[S-matrix]] scheme (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) it immediately
@@ -742,7 +744,7 @@ implications and consequences. Before analyzing these formally, we make a few in
 
 +-- {: .num_remark #AsymptoticSeriesObservables}
 ###### Remark
-**([[perturbative quantum field theory|perturbative QFT]] and [[asymptotic series]])**
+**([[perturbative quantum field theory|perturbative QFT]] and [[asymptotic expansion]] of [[probability amplitudes]])**
 
 Given a perturbative [[S-matrix]] scheme (def. \ref{LagrangianFieldTheoryPerturbativeScattering}), then by remark \ref{FormalPowerSeriesInteractingFieldObservables} the
 [[expectation values]] of [[interacting field observables]] (def. \ref{InteractingFieldObservables}) are [[formal power series]]
@@ -1276,7 +1278,7 @@ $\,$
 #### Time-ordered products
 
 Definition \ref{LagrangianFieldTheoryPerturbativeScattering} suggests to focus on the
-multilinear operations $T(...)$ which define the perturbative S-matix order-by-order in $\hbar$:
+multilinear operations $T(...)$ which define the perturbative [[S-matrix]] order-by-order in $\hbar$:
 
 
 +-- {: .num_defn #TimeOrderedProduct}
@@ -1285,7 +1287,7 @@ multilinear operations $T(...)$ which define the perturbative S-matix order-by-o
 
 Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}.
 
-A _[[time-ordered product]]_ is a sequence of [[multilinear map|multi-]][[linear continuous functionals]] of the form
+A _[[time-ordered product]]_ is a sequence of [[multilinear map|multi-]][[linear continuous functionals]] for all $k \in \mathbb{N}$ of the form
 
 $$
   T_k
@@ -1299,7 +1301,8 @@ $$
   PolyObs(E_{\text{BV-BRST}})_{reg}((\hbar))[ [g , j] ]
 $$
 
-for all $k \in \mathbb{N}$, such that:
+(from [[tensor products]] of [[local observables]] to [[microcausal polynomial observables]], with formal parameters adjoined as shown)
+such that the following conditions hold for all possible arguments:
 
 1. (normalization)
 
@@ -1370,52 +1373,13 @@ for all $k \in \mathbb{N}$, such that:
 
 =--
 
-+-- {: .num_remark #TheTraditionalErrorThatLeadsToTheNotoriouDivergencies}
-###### Remark
-**(the traditional error that leads to the notorious divergences)**
-
-Naively it might seem that, over [[Minkowski spacetime]], examples of [[time-ordered products]] according to def. \ref{TimeOrderedProduct}
-may simply be obtained by multiplication with [[step functions]] $\Theta$, in the notation as
-generalized functions (def. \ref{NotationForTimeOrderedProductsAsGeneralizedFunctions}):
-
-$$
-  T(x_1, x_2)
-  \overset{\text{no!}}{=}
-  \Theta(x_1^0 - x_2^0) T(x_1) T(x_2)
-  +
-  \Theta(x_2^0 - x_1^0) T(x_2) T(x_1)
-$$
-
-etc. (for instance [Weinberg 95, p. 143, between (3.5.9) and (3.5.10)](#Weinberg95)).
-
-This however is simply a mathematical error, in general: Both $T(-,-)$ as well as $\Theta$
-are actualy [[distributions]] and their [[product of distributions]] is in general not defined ([[Hörmander's criterion]] may be violated).
-The notorious divergences which plagued ([Feynman 85](Schwinger-Tomonaga-Feynman-Dyson#Feynman85SuchABunchOfWords)) the original conception of [[perturbative QFT]] due to [[Schwinger-Tomonaga-Feynman-Dyson]] are the signature
-of this ill-defined product.
-
-On the other hand, when both distributions are restricted to the [[complement]] of the [[diagonal]]
-(i.e. restricted away from $x_1 = x_2$) then the above expression happens to be well defined and does
-solve the axioms for time-ordered products.
-
-Hence what needs to be done to properly define the [[time-ordered product]] is to
-choose an [[extension of distributions]] of the above expression from the complement of the
-diagonal to the diagonal. Any such extension will produce time-ordered products.
-There are in general several different such extensions. This freedom of choice is the freedom
-of _[[renormalization]]_; or equivalently, by the [[main theorem of perturbative renormalization theory]],
-this is the freedom of choosing "counter terms" for the local interactions. This we discuss below in
-_[Feynman diagrams and (re-)normalization](#ExistenceAndRenormalization)_.
-
-
-=--
-
-
 +-- {: .num_defn #NotationForTimeOrderedProductsAsGeneralizedFunctions}
 ###### Definition
 **([[time-ordered products]] as [[generalized functions]])**
 
 It is convenient (as in [Epstein-Glaser 73](#EpsteinGlaser73)) to think of [[time-ordered products]] (def. \ref{TimeOrderedProduct}), being
 [[Wick algebra]]-valued [[distributions]] (hence [[operator-valued distributions]] if we were to choose a [[representation]] of the
-[[Wick algebra]] by [[linear operator]] on a [[Hilbert space]]), as [[generalized functions]] depending on spacetime points:
+[[Wick algebra]] by [[linear operators]] on a [[Hilbert space]]), as [[generalized functions]] depending on spacetime points:
 
 If
 
@@ -1506,13 +1470,13 @@ combinatorial prefactors:
 
 +-- {: .num_example #ProductOfPerturbationSeriesInGenealizedFunctionNotation}
 ###### Example
-**(product of perturbation series in generalized function notation)**
+**(product of perturbation series in [[generalized function]]-notation)**
 
 Let
 
 $$
   U(g)
-  =
+  \coloneqq
   \underoverset{n = 0}{\infty}{\sum}
    \frac{1}{n!}
    \int U(x_1, \cdots, x_n)
@@ -1524,7 +1488,7 @@ and
 
 $$
   V(g)
-  =
+  \coloneqq
   \underoverset{n = 0}{\infty}{\sum}
    \frac{1}{n!}
    \int V(x_1, \cdots, x_n)
@@ -1532,12 +1496,13 @@ $$
    g(x_1) \cdots g(x_n) \, dvol
 $$
 
-be power series of distributions in formal power series in $g/\hbar$ as in def. \ref{NotationForTimeOrderedProductsAsGeneralizedFunctions}.
-Then the product $W(g) \coloneqq U(g) V(g)$ with expansion
+be power series of [[Wick-algebra]]-valued [[distributions]] in the [[generalized function]]-notation of def. \ref{NotationForTimeOrderedProductsAsGeneralizedFunctions}.
+
+Then their product $W(g) \coloneqq U(g) V(g)$ with [[generalzed function]]-representation
 
 $$
   W(g)
-  =
+  \coloneqq
   \underoverset{n = 0}{\infty}{\sum}
    \frac{1}{n!}
    \int W(x_1, \cdots, x_n)
@@ -1563,11 +1528,49 @@ $$
 
 For fixed [[cardinality]] ${\vert \mathbf{I} \vert} = n_1$
 the sum over all subsets $\mathbf{I} \subset \mathbf{X}$ overcounts the sum over
-partitions of the coordinates as $(x_1, \cdots x_{n_1}, x_{n_1 + 1}, \cdots x_n)$ precisely by the
+[[partitions]] of the coordinates as $(x_1, \cdots x_{n_1}, x_{n_1 + 1}, \cdots x_n)$ precisely by the
 [[binomial coefficient]] $\frac{n!}{n_1! (n - n_1) !}$. Here the factor of $n!$ cancels
 against the "global" combinatorial prefactor in the above expansion of $W(g)$, while the remaining
 factor $\frac{1}{n_1! (n - n_1) !}$ is just the "relative" combinatorial prefactor seen at total order $n$
 when expanding the product $U(g)V(g)$.
+
+=--
+
+
++-- {: .num_remark #TheTraditionalErrorThatLeadsToTheNotoriouDivergencies}
+###### Remark
+**(the traditional error that leads to the notorious divergences)**
+
+Naively it might seem that, over [[Minkowski spacetime]], examples of [[time-ordered products]] according to def. \ref{TimeOrderedProduct}
+may simply be obtained by multiplication with [[step functions]] $\Theta$, in the notation as
+generalized functions (def. \ref{NotationForTimeOrderedProductsAsGeneralizedFunctions}):
+
+$$
+  T(x_1, x_2)
+  \overset{\text{no!}}{=}
+  \Theta(x_1^0 - x_2^0) T(x_1) T(x_2)
+  +
+  \Theta(x_2^0 - x_1^0) T(x_2) T(x_1)
+$$
+
+etc. (for instance [Weinberg 95, p. 143, between (3.5.9) and (3.5.10)](#Weinberg95)).
+
+This however is simply a mathematical error, in general: Both $T(-,-)$ as well as $\Theta$
+are actualy [[distributions]] and their [[product of distributions]] is in general not defined ([[Hörmander's criterion]] may be violated).
+The notorious divergences which plagued ([Feynman 85](Schwinger-Tomonaga-Feynman-Dyson#Feynman85SuchABunchOfWords)) the original conception of [[perturbative QFT]] due to [[Schwinger-Tomonaga-Feynman-Dyson]] are the signature
+of this ill-defined product.
+
+On the other hand, when both distributions are restricted to the [[complement]] of the [[diagonal]]
+(i.e. restricted away from $x_1 = x_2$) then the above expression happens to be well defined and does
+solve the axioms for time-ordered products.
+
+Hence what needs to be done to properly define the [[time-ordered product]] is to
+choose an [[extension of distributions]] of the above expression from the complement of the
+diagonal to the diagonal. Any such extension will produce time-ordered products.
+There are in general several different such extensions. This freedom of choice is the freedom
+of _[[renormalization]]_; or equivalently, by the [[main theorem of perturbative renormalization theory]],
+this is the freedom of choosing "counter terms" for the local interactions. This we discuss below in
+_[Feynman diagrams and (re-)normalization](#ExistenceAndRenormalization)_.
 
 
 =--
@@ -1575,17 +1578,19 @@ when expanding the product $U(g)V(g)$.
 
 
 
+
+
 In order to prove that the axioms for [[time-ordered products]] do imply those for a perturbative [[S-matrix]]
 (prop. \ref{TimeOrderedProductInducesPerturbativeSMatrix} below) we need to consider
-the corresponding reverse-time ordere products:
+the corresponding reverse-time ordered products:
 
 
 +-- {: .num_defn #ReverseTimeOrderedProduct}
 ###### Definition
-**(reverse-time ordered product)**
+**([[reverse-time ordered products]])**
 
-Given a time-ordered product $T = \{T_k\}_{k \in \mathbb{N}}$ (def. \ref{TimeOrderedProduct}),
-its _reverse-time ordered product_
+Given a [[time-ordered product]] $T = \{T_k\}_{k \in \mathbb{N}}$ (def. \ref{TimeOrderedProduct}),
+its _[[reverse-time ordered product]]_
 
 $$
   \overline{T}_k
@@ -1596,7 +1601,7 @@ $$
     {\, \atop \,}
   \right)
     \longrightarrow
-  PolyObs(E_{\text{BV-BRST}}((\hbar))[ [\hbar, g, j] ]
+  PolyObs(E_{\text{BV-BRST}}((\hbar))[ [g, j] ]
 $$
 
 for $k \in \mathbb{N}$ is defined by
@@ -1614,7 +1619,7 @@ $$
       T( A_{\sigma(k_1 + 1)} \cdots A_{\sigma(k_2)} )
       \cdots
       T( A_{\sigma(k_{r-1}+1)} \cdots A_{\sigma_{k_r}}  )
-      &\vert& k {\vee\!\!\!\wedge} 1
+      &\vert& k \geq 1
       \\
       1 &\vert& k = 0
     }
@@ -1623,7 +1628,7 @@ $$
 $$
 
 where the sum is over all [[unshuffles]] $\sigma$ of $(1 \leq \cdots \leq n)$ into $r$ non-empty
-ordered subsequences. Alternatively, as a generalized function as in def. \ref{NotationForTimeOrderedProductsAsGeneralizedFunctions}, this reads
+ordered subsequences. Alternatively, in the [[generalized function]]-notation of def. \ref{NotationForTimeOrderedProductsAsGeneralizedFunctions}, this reads
 
 $$
   \overline{T}( \mathbf{X} )
@@ -1641,21 +1646,30 @@ $$
 
 =--
 
-(e.g. [Epstein-Glaser 73 (11)](#EpsteinGlaser73))
+([Epstein-Glaser 73, (11)](#EpsteinGlaser73))
 
 +-- {: .num_prop #ReverseTimOrderedProductsGiveReverseSMatrix}
 ###### Proposition
-**(reverse-time ordered products express inverse S-matrix)
+**([[reverse-time ordered products]] express [[inverse]] [[S-matrix]])
 
-Given a time-ordered products $T(-)$ (def. \ref{TimeOrderedProduct}), then the
+Given [[time-ordered products]] $T(-)$ (def. \ref{TimeOrderedProduct}), then the
 corresponding reverse time-ordered product $\overline{T}(-)$ (def. \ref{ReverseTimeOrderedProduct})
 expresses the [[inverse]] $S(-)^{-1}$ (according to remark \ref{PerturbativeSMatrixInverse}) of the corresponding
-perturbative S-matrix $\mathcal{S}(S_{int}) \coloneqq \underset{k \in \mathbb{N}}{\sum} \tfrac{1}{k!} T(\underset{k\,\text{args}}{\underbrace{S_{int}, \cdots , S_{int}}})$:
+perturbative [[S-matrix]] scheme $\mathcal{S}(S_{int}) \coloneqq \underset{k \in \mathbb{N}}{\sum} \tfrac{1}{k!} T(\underset{k\,\text{args}}{\underbrace{S_{int}, \cdots , S_{int}}})$ (def. \ref{LagrangianFieldTheoryPerturbativeScattering}):
 
 $$
-  \mathcal{S}(S_{int})^{-1}
-  =
-  \underset{k \in \mathbb{N}}{\sum} \tfrac{1}{k!} \overline{T}( \underset{k \, \text{args}}{\underbrace{S_{int}, \cdots, S_{int}}} )
+  \left(
+    {\, \atop \,}
+    \mathcal{S}(g S_{int} + j A )
+    {\, \atop \,}
+  \right)^{-1}
+  \;=\;
+  \underset{k \in \mathbb{N}}{\sum} 
+    \frac{1}{k!}
+    \left(
+      \frac{1}{i \hbar}
+    \right)^k
+    \overline{T}( \underset{k \, \text{arguments}}{\underbrace{ (g S_{int} + j A), \cdots, (g S_{int} + j A)}} )
   \,.
 $$
 
@@ -1664,29 +1678,37 @@ $$
 +-- {: .proof}
 ###### Proof
 
+For brevity we write just "$A$" for $\tfrac{1}{i \hbar}(g S_{int} + j A)$. 
+(Hence we assume without restriction that $A$ is not independent of
+powers of $g$ and $j$; this is just for making all sums in the following be order-wise finite sums.)
+ 
 By definition we have
 
 $$
+  \begin{aligned}
+  &
   \underset{k \in \mathbb{N}}{\sum}
-    \tfrac{1}{k!}
-    \overline{T}( \underset{k \, \text{args}}{\underbrace{L \cdots L}} )
-  =
+    \frac{1}{k!}
+    \overline{T}( \underset{k \, \text{args}}{\underbrace{A,  \cdots , A}} )
+  \\
+  & =
   \underset{ k \in \mathbb{N}}{\sum}
-    \tfrac{1}{k!}
+    \frac{1}{k!}
     \underoverset{r = 1}{k}{\sum}
     (-1)^r
-    \underset{\sigma \in Unshuffl(k,r)}{\sum}
-    T( L_{\sigma(1)} \cdots L_{\sigma(k_1)} )
-    T( L_{\sigma(k_1 + 1)} \cdots L_{\sigma(k_2)} )
+    \!\!\!\underset{\sigma \in Unshuffl(k,r)}{\sum}\!\!\!
+    T( A_{\sigma(1)} \cdots A_{\sigma(k_1)} )
+    T( A_{\sigma(k_1 + 1)} \cdots A_{\sigma(k_2)} )
     \cdots
-    T( L_{\sigma(k_{r-1}+1)} \cdots L_{\sigma_{k_r}} )
+    T( A_{\sigma(k_{r-1}+1)} \cdots A_{\sigma_{k_r}} )
+  \end{aligned}
 $$
 
-where $\underset{k \in \{1 , \cdots, n\}}{\forall} L_k \coloneqq L$.
+where all the $A_k$ happen to coincide: $A_k = A$.
 
-If instead of unshuffles (i.e. partitions into non-empty subsequences preserving the original order) we took
+If instead of [[unshuffles]] (i.e. [[partitions]] into non-empty subsequences preserving the original order) we took
 partitions into arbitrarily ordered subsequences,
-we would be overcounting by the factorial of the length of the subsequences, and hence the
+we would be overcounting by the [[factorial]] of the length of the subsequences, and hence the
 above may be equivalently written as:
 
 $$
@@ -1696,20 +1718,22 @@ $$
     \tfrac{1}{k!}
     \underoverset{r = 1}{k}{\sum}
     (-1)^r
-    \underset{ {\sigma \in \Sigma(k)} \atop { { k_1 + \cdots + k_r = k } \atop { \underset{i}{\forall} (k_i {\vee\!\!\!\wedge} 1) } } }{\sum}
+    \!\!\!
+    \underset{ {\sigma \in \Sigma(k)} \atop { { k_1 + \cdots + k_r = k } \atop { \underset{i}{\forall} (k_i \geq 1) } } }{\sum}
+    \!\!\!
     \tfrac{1}{k_1!} \cdots \tfrac{1}{k_r !}
     \,
-    T( L_{\sigma(1)} \cdots L_{\sigma(k_1)} )
+    T( A_{\sigma(1)} \cdots A_{\sigma(k_1)} )
     \,
-    T( L_{\sigma(k_1 + 1)} \cdots L_{\sigma(k_2)} )
+    T( A_{\sigma(k_1 + 1)} \cdots A_{\sigma(k_2)} )
     \cdots
-    T( L_{\sigma(k_{r-1}+1)} \cdots L_{\sigma_{k_r}} )
+    T( A_{\sigma(k_{r-1}+1)} \cdots A_{\sigma_{k_r}} )
     \,,
 $$
 
-where $\Sigma(k)$ denotes the [[symmetric group]] (the collection of all [[permutations]] of $k$ elements).
+where $\Sigma(k)$ denotes the [[symmetric group]] (the set of all [[permutations]] of $k$ elements).
 
-Moreover, since all the $L_k$ are equal, the sum is in fact independent of $\sigma$, it only depends
+Moreover, since all the $A_k$ are equal, the sum is in fact independent of $\sigma$, it only depends
 on the length of the subsequences. Since there are $k!$ permutations of $k$ elements
 the above reduces to
 
@@ -1720,21 +1744,22 @@ $$
     \underset{k \in \mathbb{N}}{\sum}
       \underoverset{r = 1}{k}{\sum}
       (-1)^r
+      \!\!\!
       \underset{  k_1 + \cdots + k_r = k }{\sum}
       \tfrac{1}{k_1!} \cdots \tfrac{1}{k_r !}
-      T( \underset{k_1 \, \text{factors}}{\underbrace{ L \cdots L }}  )
-      T( \underset{k_2 \, \text{factors}}{\underbrace{ L \cdots L }}  )
+      T( \underset{k_1 \, \text{factors}}{\underbrace{ A, \cdots , A  }}  )
+      T( \underset{k_2 \, \text{factors}}{\underbrace{ A, \cdots , A }}  )
       \cdots
-      T( \underset{k_r \, \text{factors}}{\underbrace{ L \cdots L }}  )
+      T( \underset{k_r \, \text{factors}}{\underbrace{ A,  \cdots , A }}  )
     \\
     & =
-      \underoverset{\infty}{r = 0}{\sum}
+      \underoverset{r = 0}{\infty}{\sum}
       \left(
-        - \underoverset{k = 0}{\infty}{\sum} T ( \underset{k\,\text{factors}}{\underbrace{L \cdots L}}   )
+        - \underoverset{k = 0}{\infty}{\sum} T ( \underset{k\,\text{factors}}{\underbrace{A,  \cdots , A}}   )
       \right)^r
     \\
     & =
-      S(L)^{-1}
+      \mathcal{S}(A)^{-1}
       \,,
   \end{aligned}
 $$
@@ -1749,12 +1774,12 @@ following more general statement:
 
 +-- {: .num_prop #InversionFormulaForTimeOrderedProducts}
 ###### Proposition
-**(inversion relation for reverse-time ordered products)
+**(inversion relation for [[reverse-time ordered products]])
 
 Let $\{T_k\}_{k \in \mathbb{N}}$ be [[time-ordered products]] according to def. \ref{TimeOrderedProduct}.
-Then the reverse-time ordered products according to def. \ref{ReverseTimeOrderedProduct}
+Then the [[reverse-time ordered products]] according to def. \ref{ReverseTimeOrderedProduct}
 satisfies the following inversion relation for all $\mathbf{X} \neq \emptyset$
-(in the condensed notation of def. \ref{NotationForTimeOrderedProductsAsGeneralizedFunctions})
+(in the condensed notation of def. \ref{NotationForTimeOrderedProductsAsGeneralizedFunctions}):
 
 $$
   \underset{\mathbf{J} \subset \mathbf{X}}{\sum}
@@ -1784,7 +1809,7 @@ This is immediate from unwinding the definitions.
 
 +-- {: .num_prop #ReverseCausalFactorizationOfReverseTimeOrderedProducts}
 ###### Proposition
-**(reverse [[causal factorization]] of reverse-time ordered products)**
+**(reverse [[causal factorization]] of [[reverse-time ordered products]])**
 
 Let $\{T_k\}_{k \in \mathbb{N}}$ be [[time-ordered products]] according to def. \ref{TimeOrderedProduct}.
 Then the reverse-time ordered products according to def. \ref{ReverseTimeOrderedProduct} satisfies
