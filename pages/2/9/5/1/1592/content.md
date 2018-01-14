@@ -56,7 +56,7 @@ $$
   \array{
     E_2 && \overset{g}{\longrightarrow} && E_1
     \\
-    & {}_{\mathllap{p_1}}\searrow && \swarrow_{\mathrlap{p_2}}
+    & {}_{\mathllap{p_2}}\searrow && \swarrow_{\mathrlap{p_1}}
     \\
     && X
   }
@@ -66,7 +66,7 @@ $$
   \array{
     E_i && \overset{id}{\longrightarrow} && E_i
     \\
-    & {}_{\mathllap{p_1}}\searrow && \swarrow_{\mathrlap{p_2}}
+    & {}_{\mathllap{p_i}}\searrow && \swarrow_{\mathrlap{p_i}}
     \\
     && X
   }
