@@ -57,7 +57,7 @@ The axiomatization of [[probability theory]] in terms of the concept of [[expect
 
 * {#Whittle92} [[Peter Whittle]], _Probability via expectation_, Springer 1992
 
-* {#Gleason09} Jonathan Gleason, _The $C*$-algebraic formalism of quantum mechanics_, 2009 ([pdf](http://www.math.uchicago.edu/~may/VIGRE/VIGRE2009/REUPapers/Gleason.pdf))
+* {#Gleason09} Jonathan Gleason, _The $C^*$-algebraic formalism of quantum mechanics_, 2009 ([pdf](http://www.math.uchicago.edu/~may/VIGRE/VIGRE2009/REUPapers/Gleason.pdf))
 
 
 Introduction to quantum probability theory includes
