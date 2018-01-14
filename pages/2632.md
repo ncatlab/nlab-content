@@ -381,32 +381,32 @@ Some standard references include
 
 * [[Klaas Landsman]], _[[Mathematical Topics Between Classical and Quantum Mechanics]]_
 
-
 * P. Cartier, C. DeWitt-Morette, _Functional integration: action and symmetries_, Cambridge Monographs on Mathematical Physics, 2006.
 
 * Leon Takhtajan, _[[Quantum mechanics for mathematicians]]_ , Amer. Math. Soc. 2008. 
 
-* Sean Bates, [[Alan Weinstein]], _Lectures on the geometry of quantization_, [pdf](http://www.math.berkeley.edu/~alanw/GofQ.pdf)
- {#BatesWeinstein}
+* {#BatesWeinstein} Sean Bates, [[Alan Weinstein]], _Lectures on the geometry of quantization_, [pdf](http://www.math.berkeley.edu/~alanw/GofQ.pdf)
+ 
+* F. Strocchi, _An introduction to the mathematical structure of quantum mechanics_ 
+
+Dicussion of quantum measurement is in
+
+* Jan Perina, Z. Hradil, [[Branislav Jurčo]], _[[Quantum optics and fundamentals of physics]]_, Kluwer 1994
 
 
-* F. Strocchi, _An introduction to the mathematical structure of quantum mechanics_ .
+Comments on the foundations of quantum physics include
 
-This follows an axiomatic approach with [[observable]]s as elements of 
-[[C-star algebra]]s.
+* {#Gleason09} Jonathan Gleason, _The $C^*$-algebraic formalism of quantum mechanics_, 2009 ([pdf](http://www.math.uchicago.edu/~may/VIGRE/VIGRE2009/REUPapers/Gleason.pdf))
 
-The following book has much emphasis on the theory of quantum measurement at physics level of rigor:
+* {#Hardy01} [[Lucien Hardy]], _Quantum Theory From Five Reasonable Axioms_ ([arXiv:quant-ph/0101012](https://arxiv.org/abs/quant-ph/0101012))
 
-* Jan Perina, Z. Hradil, [[B. Jurčo]], _[[Quantum optics and fundamentals of physics]]_, Kluwer 1994
+for more on this see at _[[quantum probability]]_.
 
-The generalization of this kind of discussion to [[quantum field theory]] is
+Generalization of the algebraic perspective to [[quantum field theory]] is discussed in 
 
 * [[Rudolf Haag]], _[[Local Quantum Physics -- Fields, Particles, Algebras]]_ 
 
-Discussion of independent quantum subsystems in the context of  [[causal locality]] in [[AQFT]] is in 
-
-* [[Romeo Brunetti]], [[Klaus Fredenhagen]], _Quantum field theory on curved backgrounds_ , in  [[Christian Bär]], [[Klaus Fredenhagen]], (eds.) _Quantum field theory on curved spacetime_ , Lecture notes in physics, Springer 2009 ([arXiv:0901.2063](http://arxiv.org/abs/0901.2063))
-  {#BrunettiFredenhagen}
+for more on this see at _[[AQFT]]_ and at _[[perturbative AQFT]]_  
 
 Different incarnations of this [[C*-algebra|C*-algebraic]] locality condition are discussed in section 3 of 
 
@@ -417,7 +417,6 @@ relating it to the [[topos theory|topos-theoretic]] formulation in
 * [[Joost Nuiten]], _[[schreiber:bachelor thesis Nuiten|Bohrification of local nets of observables]]_
 
 
-For more along these lines see the references at [[AQFT]].
 
 Aspects of quantum mechanics in [[category theory]] and [[topos theory]] are discussed in 
 
