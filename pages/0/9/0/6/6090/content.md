@@ -817,560 +817,20 @@ which express the [[probability amplitudes]] that reflect the predictions of the
 
 +-- {: .num_example #FormalPowerSeriesInteractingFieldObservables}
 ###### Remark
-**([[interacting field observables]] are indeed [[formal power series]] in [[Planck's constant]])**
+**([[interacting field observables]] are [[formal deformation quantization]])**
 
-The [[interacting field observables]] in def. \ref{InteractingFieldObservables} turn out to indeed be [[formal power series]]
-in the formal parameter $\hbar$ ([[Planck's constant]]), as opposed to being more general [[Laurent series]], hence they involve no negative powers of $\hbar$. This is not immediate, since the [[S-matrix]] that they are defined from does involve negative powers of $\hbar$,
-but it follows, this is prop. xyz below.
+The [[interacting field observables]] in def. \ref{InteractingFieldObservables} are indeed [[formal power series]] in the formal parameter $\hbar$ ([[Planck's constant]]), as opposed to being more general [[Laurent series]], hence they involve no [[negative number|negative]] powers of $\hbar$ ([Dütsch-Fredenhagen 00, prop. 2 (ii)](interacting+field+observable#DuetschFredenhagen00), [Hawkins-Rejzner 16, cor. 5.2](interacting+field+observable#HawkinsRejzner16)).  This is not immediate, since by def. \ref{LagrangianFieldTheoryPerturbativeScattering} the [[S-matrix]] that they are defined from does involve negative powers of $\hbar$. 
 
-
-=--
-
-
-$\,$
-
-#### Remarks
- {#RemarksOnCausalPerturbationTheoryAxioms}
-
-The simple axioms for [[S-matrices]] in [[causal perturbation theory]] (def. \ref{LagrangianFieldTheoryPerturbativeScattering}), hence for [[interacting field observables]] (def. \ref{InteractingFieldObservables}) have a wealth of
-implications and consequences. Before analyzing these formally, we make a few informal remarks in order to put these axioms into perspective:
-
-+-- {: .num_remark #AsymptoticSeriesObservables}
-###### Remark
-**([[perturbative quantum field theory|perturbative QFT]] and [[asymptotic expansion]] of [[probability amplitudes]])**
-
-Given a perturbative [[S-matrix]] scheme (def. \ref{LagrangianFieldTheoryPerturbativeScattering}), then by remark \ref{FormalPowerSeriesInteractingFieldObservables} the
-[[expectation values]] of [[interacting field observables]] (def. \ref{InteractingFieldObservables}) are [[formal power series]]
-in the formal parameters $\hbar$ and $g$ (which are interpreted as [[Planck's constant]], and as the [[coupling constant]], respectively):
-
-$$
- \left\langle A_{int} \right\rangle
- \;\in\;
- \mathbb{C}[ [\hbar, g] ]
- \,.
-$$
-
-This means that there is _no_ guarantee that these series _[[convergence|converge]]_ for any [[positive real number|positive]]
-value of $\hbar$ and/or $g$.
-In terms of [[synthetic differential geometry]] this means that in [[perturbative QFT]] the [[deformation]] of the [[free field theory]] induced by an [[interaction]] is so very tiny as to actually be [[infinitesimal]]: formal power series may be read as functions on the [[infinitesimal neighbourhood]] in a space of [[Lagrangian field theories]] of the point $\hbar = 0$, $g = 0$.
-
-A simple argument (due to [Dyson 52](perturbative+quantum+field+theory#Dyson52))
-suggests that in realistic field theories these series _never_ converge for _any_ [[positive real number|positive]] value of $\hbar$ and/or $g$. (Namely convergence for $g$ would imply a [[positive real number|positive]] _[[radius of convergence]]_ around $g = 0$, which would imply convergence also for $-g$ and even for [[imaginary number|imaginary]] values of $g$, which would however correspond to unstable [[interactions]] for which no converging field theory is to be expected.)
-
-In physical practice one tries to interpret these [[formal power series]] as _[[asymptotic expansions]]_ of
-actual but hypothetical functions in $\hbar, g$, which reflect the actual but hypothetical _[[non-perturbative field theory]]_
-that one imagines is being approximated by [[perturbative QFT]] methods.
-
-For examples such as [[quantum electrodynamics]] and [[quantum chromodynamics]] as in the [[standard model of particle physics]], the truncation of these [[formal power series]] [[scattering amplitudes]] to the first handful of [[loop orders]] in $\hbar$ happens to agree with [[experiment]] (such as at the [[LHC]] collider) to high precision (for [[QED]]) or at least decent precision (for [[QCD]]), at least away from infrared phenomena (as in remark \ref{AdiabaticLimit}).
-
-In summary this says that [[perturbative QFT]] is an extremely coarse approximation to what should be genuine [[non-perturbative quantum field theory]], while at the same time it happens to match certain experimental observations to remarkable degree, however only if some ad-hoc truncation of the resulting power series is considered.
-
-This is strong motivation for going beyond [[perturbative QFT]] to understand and construct [[non-perturbative quantum field theory]]. Unfortunately, this is a wide-open problem, away from toy examples. Not a single [[interacting field theory]] in [[spacetime]] [[dimension]] $\geq 4$ has been non-perturbatively quantized. Just one aspect of the non-perturbative [[quantization of Yang-Mills theory]] has famously been advertized as one of the _[Millenium Problems](http://www.claymath.org/millennium-problems/yang%E2%80%93mills-and-mass-gap)_ of this age, and speculation about non-perturbative [[quantum gravity]] is the subject of much activity.
-
-Now as the name indicates, the axioms of _[[causal perturbation theory]]_ (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) do
-_not_ address non-perturbative aspects of [[non-perturbative field theory]]; the convergence or non-convergence of the [[formal power series]] that are axiomatized by [[Bogoliubov's formula]] (def. \ref{InteractingFieldObservables}) is _not_ addressed by the theory.
-But the point of the axioms of [[causal perturbation theory]] is to give rigorous mathematical meaning to _everything else_
-about [[perturbative QFT]].
-
+It follows in particular that the [[interacting field observables]] have a [[classical limit]] $\hbar \to 0$. Indeed they constitute a [[formal deformation quantization]] of the interacting [[Peierls-Poisson bracket]] ([Collini 16](interacting+field+algebra+of+observables#Collini16), [Hawkins-Rejzner 16](interacting+field+algebra+of+observables#HawkinsRejzner16)).
 
 =--
-
-
-+-- {: .num_remark #DysonCausalFactorization}
-###### Remark
-**([[causal factorization]], [[Dyson series]] and [[Schrödinger equation]] in [[interaction picture]])**
-
-The axiom "[[causal additivity]]" (eq:CausalAdditivity) on an [[S-matrix]] scheme (def. \ref{LagrangianFieldTheoryPerturbativeScattering})
-implies immediately this weaker condition:
-
-* ([[causal factorization]])
-
-  For all [[local observables]] $A_1, A_2 \in LocObs(E_{\text{BV-BRST}})[ [\hbar, h, j] ]$ we have
-
-  $$
-    \left(
-       {\, \atop \,}
-       supp(A_1) {\vee\!\!\!\wedge} supp(A_2)
-       {\, \atop \,}
-    \right)
-    \;\; \Rightarrow \;\;
-    \left(
-      {\, \atop \,}
-      \mathcal{S}(A_1 + A_2)
-      =
-      \mathcal{S}(A_1) \, \mathcal{S}(A_2)
-      {\, \atop \,}
-   \right)
-  $$
-
-(This is the special case of "causal additivity" for $S_{int} = 0$, using that  by the axiom "perturbation" (eq:ExponentialSeriesScatteringMatrix) we have $\mathcal{S}(0) = 1$.)
-
-If we now think of $A_1$ and $A_2$ themselves as [[adiabatic switching|adiabatically switched]] [[interaction]] [[action functionals]],
-then this reads equivalently but more suggestively
-
-  $$
-    \left(
-       {\, \atop \,}
-       supp(S_1) {\vee\!\!\!\wedge} supp(S_2)
-       {\, \atop \,}
-    \right)
-    \;\; \Rightarrow \;\;
-    \left(
-      {\, \atop \,}
-      \mathcal{S}(S_1 + S_2)
-      =
-      \mathcal{S}(S_1) \, \mathcal{S}(S_2)
-      {\, \atop \,}
-   \right)
-  $$
-
-This exhibits the [[S-matrix]]-scheme as a "[[causal ordering|causally ordered]] [[exponential]]"
-or "[[Dyson series]]" of the [[interaction]], hence as a refinement to [[relativistic field theory]] of what in
-[[quantum mechanics]] is the "integral version of the [[Schrödinger equation]] in the [[interaction picture]]" (eq:IntegralVersionSchroedingerEquationInInteractionPicture). (See also [Scharf 95, second half of 0.3](#Scharf95)).
-
-While [[causal additivity]] is in fact stronger than [[causal factorization]], we find below that the
-evident analogue of [[causal factorization]] imposed directly on the [[time-ordered products]] (def. \ref{TimeOrderedProduct} below)
-does _imply_ [[causal additivity]] of the [[S-matrix]] (prop. \ref{TimeOrderedProductInducesPerturbativeSMatrix} below).
-
-The relevance of [[causal additivity]] of the [[S-matrix]], over just [[causal factorization]], is that it implies that
-the induced [[interacting field algebra of observables]] (def. \ref{InteractingFieldObservables}) forms a [[causally local net]] (prop. \ref{PerturbativeQuantumObservablesIsLocalnet} below).
-
-=--
-
-+-- {: .num_remark #InterpretationOfPerturbativeSMatrix}
-###### Remark
-**([[path integral]]-intuition)**
-
-In informal discussion of [[perturbative QFT]] going back to informal ideas of [[Schwinger-Tomonaga-Feynman-Dyson]], the
-perturbative [[S-matrix]] is thought of in terms of a would-be _[[path integral]]_, symbolically written
-
-$$
-  \mathcal{S}\left(
-    g S_{int} + j A
-  \right)
-  \;\overset{\text{not really!}}{=}\;
-  \!\!\!
-  \underset{\Phi \in \Gamma_\Sigma(E_{\text{BV-BRST}})_{asm}}{\int}
-  \!\!\!\!\!\!
-  \exp\left(
-    \tfrac{1}{i \hbar}
-    \int_\Sigma
-    \left(
-      g L_{int}(\Phi) + j A(\Phi)
-    \right)
-  \right)
-  \,
-  \exp\left(
-    \tfrac{1}{i \hbar}\int_\Sigma L_{free}(\Phi)
-  \right) D[\Phi]
-  \,.
-$$
-
-Here the would-be [[integration]] is thought to be over the [[space of field histories]] $\Gamma_\Sigma(E_{\text{BV-BRST}})_{asm}$ (the [[space of sections]] of the given [[field bundle]]) for [[field histories]] which satisfy given asymptotic conditions at $x^0 \to \pm \infty$; and as these boundary conditions vary the above is regarded as a would-be [[integral kernel]] that defines the required operator in the [[Wick algebra]] (e.g. [Weinberg 95, around (9.3.10) and (9.4.1)](#Weinberg95)).
-
-Beyond toy examples, it is not known how to define the would-be [[measure]] $D[\Phi]$ and it is not known how to make sense of this expression as an actual [[integral]].
-
-The analogous path-integral intuition for [[Bogoliubov's formula]] for [[interacting field observables]] (def. \ref{InteractingFieldObservables}) symbolically reads
-
-$$
-  \begin{aligned}
-  A_{int}
-  & \overset{\text{not really!}}{=}
-  \frac{d}{d j}
-  \ln
-  \left(
-  \underset{\Phi \in \Gamma_\Sigma(E)_{asm}}{\int}
-  \!\!\!\!
-  \exp\left(
-    \underset{\Sigma}{\int}
-      g L_{int}(\Phi) + j A(\Phi)
-  \right)
-  \,
-  \exp\left( \underset{\Sigma}{\int} L_{free}(\Phi) \right)
-  D[\Phi]
-  \right)
-  \vert_{j = 0}
-  \end{aligned}
-$$
-
-If here we were to regard the expression
-
-$$
-  \mu(\Phi)
-  \;\overset{\text{not really}}{\coloneqq}\;
-  \frac{
-    \exp\left( \underset{\Sigma}{\int} L_{free}(\Phi) \right)\, D[\Phi]
-  }
-  {
-    \underset{\Phi \in \Gamma_\Sigma(E_{\text{BV-BRST}})_{asm}}{\int}
-    \!\!\!\!
-    \exp\left( \underset{\Sigma}{\int} L_{free}(\Phi) \right)\, D[\Phi]
-  }
-$$
-
-as a would-be [[Gaussian measure]] on the [[space of field histories]], normalized to a would-be [[probability measure]], then this formula
-would express interacting field observables as ordinary [[expectation values]]
-
-$$
-  A_{int}
-   \overset{\text{not really!}}{=}
-   \!\!\!
-  \underset{\Phi \in \Gamma_\Sigma(E_{\text{BV-BRST}})_{asm}}{\int}
-  \!\!\!\!\!\!
-     A(\Phi)
-  \,\mu(\Phi)
-  \,.
-$$
-
-As before, beyond toy examples it is not known how to make sense of this as an actual [[integration]].
-
-But we may think of the axioms for the [[S-matrix]] in [[causal perturbation theory]] (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) as rigorously _defining_ the [[path integral]], not analytically as an actual [[integration]], but _[[synthetic mathematics|synthetically]]_ by axiomatizing the properties of the desired _outcome_ of the would-be integration:
-
-The analogy with a well-defined [[integral]] and the usual properties of an [[exponential]] vividly _suggest_
-that the would-be [[path integral]] should obey [[causal factorization]]. Instead of trying to make sense of
-[[path integral|path integration]] so that this factorization property could then be appealed to as a _consequence_ of general properties
-of [[integration]] and [[exponentials]], the axioms of [[causal perturbation theory]] directly prescribe the
-desired factorization property, without insisting that it derives from an actual integration.
-
-The great success of [[path integral]]-intuition in the development of [[quantum field theory]], despite the dearth of
-actual constructions, indicates that it is not the would-be integration process as such that actually matters in field
-theory, but only the resulting properties that this _suggests_ the S-matrix should have; which is what
-[[causal perturbation theory]] axiomatizes. Indeed, the simple [[axioms]] of [[causal perturbation theory]]
-provably _imply_ finite (i.e. [[renormalization|renormalized]]) [[perturbative quantum field theory]] (see remark \ref{CausalPerturbationTheoryAbsenceOfUVDivergences}):
-
-$$
-  \array{
-  \array{
-    \text{would-be}
-    \\
-    \text{path integral}
-    \\
-    \text{intuition}
-  }
-  &
-  \overset{
-    \array{
-      \text{informally}
-      \\
-      \text{suggests}
-    }
-  }{\longrightarrow}
-  &
-  \array{
-    \text{causally additive}
-    \\
-    \text{scattering matrix}
-  }
-  &
-  \overset{
-    \array{
-      \text{rigorously}
-      \\
-      \text{implies}
-    }
-  }{\longrightarrow}
-  &
-  \array{
-    \text{UV-finite}
-    \\
-    \text{(i.e. (re-)normalized)}
-    \\
-    \text{perturbative QFT}
-  }
-  }
-$$
-
-=--
-
-+-- {: .num_remark #FromAxiomaticSMatrixScatteringAmplitudes}
-###### Remark
-**([[scattering amplitudes]])**
-
-Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}, let $\mathcal{S}$ be a corresponding [[S-matrix]] scheme according to def. \ref{LagrangianFieldTheoryPerturbativeScattering}, and let
-
-$$
-  S_{int} \in LocObs(E_{\text{BV-BRST}})[ [ \hbar, g ] ]
-$$
-
-be a [[local observable]], regarded
-as an [[adiabatic switching|adiabatically switched]] [[interaction]] [[action functional]].
-
-Then for
-
-$$
-  A_{in}, A_{out} \in PolyObs(E_{\text{BV-BRST}})_{mc}[ [\hbar] ]
-$$
-
-two [[microcausal  polynomial observables]], the corresponding _[[scattering amplitude]]_ is the value (called "[[expectation value]]" when referring to $A^\ast_{out} \, \mathcal{S}(S_{int}) \, A_{in}$, or "matrix element" when freferring to $\mathcal{S}(S_{int})$, or "transition amplitude" when referring to $\left\langle A_{out} \right\vert$ and $\left\vert A_{in} \right\rangle$)
-
-$$
-  \left\langle
-    A_{out}
-    \,\vert\,
-    \mathcal{S}(S_{int})
-    \,\vert\,
-    A_{in}
-  \right\rangle
-  \;\coloneqq\;
-  \left\langle
-    A^\ast_{out} \, \mathcal{S}(S_{int}) \, A_{in}
-  \right\rangle
-  \;\in\;
-  \mathcal{C}[ [ \hbar, g ] ]
-  \,.
-$$
-
-for the [[Wick algebra]]-product $A^\ast_{out} \, \mathcal{S}(S_{int})\, A_{in} \in PolyObs(E_{\text{BV-BRST}})[ [\hbar, g ] ]$
-in the given [[Hadamard vacuum state]] $\langle -\rangle \colon PolyObs(E_{\text{BV-BRST}})[ [\hbar, g] ] \to \mathcal{C}[ [\hbar,g] ]$.
-
-If here $A_{in}$ and $A_{out}$ are monomials in [[Wick algebra]]-products of the [[field observables]] $\mathbf{\Phi}^a(x) \in Obs(E_{\text{BV-BRST}})[ [\hbar] ]$,
-then this [[scattering amplitude]] comes from the [[integral kernel]]
-
-$$
-  \begin{aligned}
-  &
-  \left\langle
-    \mathbf{\Phi}^{a_{out,1}}(x_{out,1}) \cdots \mathbf{\Phi}^{a_{out,s}}(x_{out,s})
-    \vert
-    \,
-    \mathcal{S}(S_{int})
-    \,
-    \vert
-    \mathbf{\Phi}^{a_{in,1}}(x_{in,1})
-    \cdots
-    \mathbf{\Phi}^{a_{in,r}}(x_{in,r})
-  \right\rangle
-  \\
-  & \coloneqq
-  \left\langle
-     \left(\mathbf{\Phi}^{a_{out,1}}(x_{out,1})\right)^\ast
-      \cdots
-      \left(\mathbf{\Phi}^{a_{out,s}}(x_{out,s})\right)^\ast
-    \;\mathcal{S}(S_{int})\;
-      \mathbf{\Phi}^{a_{in,1}}(x_{in,1})
-      \cdots
-      \mathbf{\Phi}^{a_{in,r}}(x_{in,r})
-  \right\rangle
-  \end{aligned}
-$$
-
-or similarly, under [[Fourier transform of distributions]],
-
-$$
-  \label{ScatteringPlaneWaves}
-  \begin{aligned}
-  &
-  \left\langle
-    \widehat{\mathbf{\Phi}}^{a_{out,1}}(k_{out,1}) \cdots \widehat{\mathbf{\Phi}}^{a_{out,s}}(k_{out,s})
-    \vert
-    \,
-    \mathcal{S}(S_{int})
-    \,
-    \vert
-    \widehat{\mathbf{\Phi}}^{a_{in,1}}(k_{in,1})
-    \cdots
-    \widehat{\mathbf{\Phi}}^{a_{in,r}}(k_{in,r})
-  \right\rangle
-  \\
-  & \coloneqq
-  \left\langle
-     \left(\widehat{\mathbf{\Phi}}^{a_{out,1}}(k_{out,1})\right)^\ast
-      \cdots
-      \left(\widehat{\mathbf{\Phi}}^{a_{out,s}}(k_{out,s})\right)^\ast
-    \;\mathcal{S}(S_{int})\;
-      \widehat{\mathbf{\Phi}}^{a_{in,1}}(k_{in,1})
-      \cdots
-      \widehat{\mathbf{\Phi}}^{a_{in,r}}(k_{in,r})
-  \right\rangle
-  \end{aligned}
-  \,.
-$$
-
-These are interpreted as the (distributional) _[[probability amplitudes]]_ for [[plane waves]] of field species $a_{in,\cdot}$
-with [[wave vector]] $k_{in,\cdot}$ to come in from the far past, ineract with each other via $S_{int}$,
-and emerge in the far future as [[plane waves]] of field species $a_{out,\cdot}$ with [[wave vectors]] $k_{out,\cdot}$.
-
-=--
-
-Or rather:
-
-+-- {: .num_remark #AdiabaticLimit}
-###### Remark
-**([[adiabatic limit]], [[infrared divergences]] and [[interacting vacuum]])**
-
-Since a [[local observable]] $S_{int} \in LocObs(E_{\text{BV-BRST}})[ [\hbar, g, j] ]$  by definition
-has compact spacetime support, the [[scattering amplitudes]] in remark \ref{FromAxiomaticSMatrixScatteringAmplitudes}
-describe [[scattering]] processes for [[interactions]] that vanish (are "[[adiabatic switching|adiabatically switched off]]") outside a compact subset of [[spacetime]]. This constraint is crucial for [[causal perturbation theory]] to work.
-
-There are several aspects to this:
-
-* ([[adiabatic limit]]) On the one hand, real physical interactions $\mathbf{L}_{int}$ (say the [[electron-photon interaction]])
-are not _really_ supposed to vanish outside a compact region of spacetime. In order to reflect this mathematically, one may consider a [[sequence]] of [[adiabatic switchings]] $g_{sw} \in C^\infty_{cp}(\Sigma)\langle g \rangle$ (each of [[compact support]]) whose [[limit of a sequence|limit]] is the [[constant function]] $g \in C^\infty(\Sigma)\langle g\rangle$ (the actual [[coupling constant]]), then consider the corresponding [[sequence]] of [[interaction]] [[action functionals]] $S_{int,sw} \coloneqq \tau_\Sigma( g_{sw} \mathbf{L}_{int} )$ and finally consider:
-
-
-   1. as the true [[scattering amplitude]] the corresponding [[limit of a sequence|limit]]
-
-      $$
-        \left\langle
-          A_{out} \vert \mathcal{S}(S_{int}) \vert A_{int}
-        \right\rangle
-        \;\coloneqq\;
-        \underset{g_{sw} \to 1}{\lim}
-        \left\langle
-          A_{out} \vert \mathcal{S}(S_{int,sw}) \vert A_{int}
-        \right\rangle
-      $$
-
-      of adiabatically switched [[scattering amplitudes]] (remark \ref{FromAxiomaticSMatrixScatteringAmplitudes}) --  if it exists. This is called the _[[strong adiabatic limit]]_.
-
-  1. as the true [[n-point functions]] the corresponding [[limit of a sequence|limit]]
-
-     $$
-       \begin{aligned}
-       &
-       \left\langle
-         \mathbf{\Phi}^{a_1}_{int}(x_1)
-         \mathbf{\Phi}^{a_2}_{int}(x_2)
-           \cdots
-         \mathbf{\Phi}^{a_{n-1}}_{int}(x_{n-1})
-         \mathbf{\Phi}^{a_n}_{int,sw}(x_n)
-       \right\rangle
-       \\
-       & =
-       \underset{\underset{g_{sw} \to 1}{\longrightarrow}}{\lim}
-       \left\langle
-         \mathbf{\Phi}^{a_1}_{int,sw}(x_1)
-         \mathbf{\Phi}^{a_2}_{int,sw}(x_2)
-           \cdots
-         \mathbf{\Phi}^{a_{n-1}}_{int,sw}(x_{n-1})
-         \mathbf{\Phi}^{a_n}_{int,sw}(x_n)
-       \right\rangle
-       \end{aligned}
-     $$
-
-     of [[tempered distribution|tempered distributional]] [[expectation values]] of products of [[interacting field algebra|interacting]] [[field observables]] (def. \ref{InteractingFieldObservables}) -- if it exists. (Similarly for [[time-ordered products]].)  This is called the _[[weak adiabatic limit]]_.
-
-  Beware that the left hand sides here are symbolic: Even if the limit exists in [[expectation values]], in general there is no actual observable whose expectation value is that limit.
-
-  The strong and weak adiabatic limits have been shown to exist if all [[field (physics)|fields]] are [[mass|massive]] ([Epstein-Glaser 73](#EpsteinGlaser73)). The weak adiabatic limit has been shown to exists for [[quantum electrodynamics]] and for [[mass]]-less [[phi^4 theory]] ([Blanchard-Seneor 75](adiabatic+switching#BlanchardSeneor75)) and for larger classes of field theories in ([Duch 17, p. 113, 114](adiabatic+switching#Duch17)).
-
-  If these limits do not exist, one says that the [[perturbative QFT]] has an _[[infrared divergence]]_. 
-  
-* ([[algebraic adiabatic limit]]) On the other hand, it is equally unrealistic that an actual [[experiment]] _detects_ phenomena outside a given compact subset of spacetime. Realistic scattering [[experiments]] (such as the [[LHC]]) do not really prepare or measure [[plane waves]] filling all of [[spacetime]] as described by the [[scattering amplitudes]] (eq:ScatteringPlaneWaves). Any [[observable]] that is realistically measurable must have compact spacetime support. We see below in prop. \ref{WellDefinedInteractingFieldAlgebra} that such [[interacting field observables]] with compact spacetime support may be computed without taking the [[adiabatic limit]]: It is sufficient to use any [[adiabatic switching]] which is constant on the support of the observable.
-
-  This way one obtains for each [[causally closed subset]] $\mathcal{O}$ of spacetime an  algebra of observables $\mathcal{A}_{int}(\mathcal{O})$ whose support is in $\mathcal{O}$, and for each inclusion of subsets a corresponding inclusion of algebras of observables (prop. \ref{PerturbativeQuantumObservablesIsLocalnet} below). Of this system of observables one may form the [[category theory|category-theoretic]] [[inductive limit]] to obtain a single global algebra of observables.
-
-  $$
-    \mathcal{A}_{int}
-      \;\coloneqq\;
-    \underset{\underset{\mathcal{O}}{\longrightarrow}}{\lim}
-      \mathcal{A}_{int}(\mathcal{O})
-  $$
-
-  This always exists. It is called the _[[algebraic adiabatic limit]]_ (going back to [Brunetti-Fredenhagen 00, section 8](perturbative+algebraic+quantum+field+theory#BrunettiFredenhagen00)).
-
-  For [[quantum electrodynamics]] the [[algebraic adiabatic limit]] was worked out in ([Dütsch-Fredenhagen 98](quantum+electrodynamics#DuetschFredenhagen98), reviewed in [Dütsch 18, 5,3](QED+Duetsch18)).
-
-* ([[interacting vacuum]]) While, via the above [[algebraic adiabatic limit]], [[causal perturbation theory]] yields the correct [[interacting field algebra of quantum observables]] independent of choices of [[adiabatic switching]], a theory of _[[quantum probability]]_ requires, on top of the [[algebra of observables]], also a _[[state on a star-algebra|state]]_
-
-  $$
-    \langle - \rangle_{int} \;\colon\; \mathcal{A}_{int} \longrightarrow \mathbb{C}[ [\hbar] ]
-  $$
-
-  Just as the [[interacting field algebra of observables]] $\mathcal{A}_{int}$ is a [[deformation]] of the free field algebra of observables ([[Wick algebra]]), there ought to be a corresponding deformation of the free [[Hadamard vacuum state]] $\langle- \rangle$ into an "[[interacting vacuum state]]" $\langle - \rangle_{int}$.
-
-  Sometimes the [[weak adiabatic limit]] serves to define the [[interacting vacuum]] (see [Duch 17, p. 113-114](adiabatic+switching#Duch17)).
-
-A stark example of these infrared issues is the phenomenon of _[[confinement]]_ of [[quarks]] to [[hadron]] [[bound states]] (notably to [[protons]] and [[neutrons]]) at large [[wavelengths]]. This is paramount in [[experiment|observation]] and reproduced in numerical [[lattice gauge theory]] simulation, but is invisible to [[perturbative QFT|perturbative]] [[quantum chromodynamics]] in its [[free field]] [[vacuum state]], due to [[infrared divergences]].
-It is expected that this should be rectified by the proper [[interacting vacuum]] of [[QCD]] ([Rafelski 90, pages 12-16](confinement#Rafelski90)), which is possibly a "[[theta-vacuum]]" exhibiting [[superposition]] of [[instanton in QCD|QCD instantons]] ([Schäfer-Shuryak 98, section III.D](instanton+in+QCD#SchaeferShuryak98)). This remains open, closely related to the _[Millenium Problem](http://www.claymath.org/millennium-problems/yang%E2%80%93mills-and-mass-gap)_ of [[quantization of Yang-Mills theory]].
-
-=--
-
-In contrast to the above subtleties about the [[infrared divergences]], any would-be [[UV-divergences]] in [[perturbative QFT]] are 
-dealt with by [[causal perturbation theory]]:
-
-+-- {: .num_remark #CausalPerturbationTheoryAbsenceOfUVDivergences}
-###### Remark
-**(absence of [[ultraviolet divergences]] and [[renormalization|re-normalization]])**
-
-The simple axioms of [[causal perturbation theory]] (def. \ref{LagrangianFieldTheoryPerturbativeScattering})
-do fully capture [[perturbative quantum field theory]] "in the ultraviolet": A solution to these axioms
-induces, by definition, well-defined [[perturbative QFT|perturbative]] [[scattering amplitudes]] (remark \ref{FromAxiomaticSMatrixScatteringAmplitudes})
-and well-defined [[perturbative QFT|perturbative]] [[probability amplitudes]] of [[interacting field observables]] (def. \ref{InteractingFieldObservables}) induced by _[[local observables|local]]_ (describing point-interactions such as the [[electron-photon interaction]]). By the [[main theorem of perturbative renormalization]] such solutions exist. This means that, while these are necessarily [[formal power series]] in $\hbar$ and $g$ (remark \ref{AsymptoticSeriesObservables}) all the [[coefficients]] of these formal power series ("[[loop order]] contributions") are well defined.
-
-This is in contrast to the original informal conception of [[perturbative QFT]] due to [[Schwinger-Tomonaga-Feynman-Dyson]],
-which in a first stage produced ill-defined [[divergence|divrging]] expressions for the [[coefficients]] (due to a mathematical error, see remark \ref{TheTraditionalErrorThatLeadsToTheNotoriouDivergencies} below), which were then
-"[[renormalization|re-normalized]]" to finite values, by further informal arguments.
-
-Here in [[causal perturbation theory]] no [[divergences]] in the [[coefficients]] of the [[formal power series]] are considered in the first place, all coefficients are well-defined, hence "finite". In this sense [[causal perturbation theory]] is about "finite" perturbative QFT, where instead of "re-normalization" of ill-defined expressions one just encounters "normalization" (prominently highlighted in [Scharf 95](causal+perturbation+theory#Scharf95)), namely compatible choices of these finite values, parameterited by the [[Stückelberg-Petermann renormalization group]].
-
-This refers to those [[divergences]] that are known as _[[UV-divergences]]_, namely short-distance effects,
-which are mathematically reflected in the fact that the perturbative [[S-matrix]] scheme (def. \ref{LagrangianFieldTheoryPerturbativeScattering})
-is defined on _[[local observables]]_, which, by their very locality, encode point-[[interactions]].
-See also remark \ref{AdiabaticLimit} on _[[infrared divergences]]_.
-
-=--
-
-+-- {: .num_remark #calSFunctionIsRenormalizationScheme}
-###### Remark
-**([[renormalization scheme]])**
-
-Beware the terminology in def. \ref{LagrangianFieldTheoryPerturbativeScattering}: A _single_ S-matrix is one single observable
-
-$$
-  \mathcal{S}(S_{int})
-  \;\in\;
-  PolyObs(E_{\text{BV-BRST}})_{mc}((\hbar))[ [g,j] ]
-$$
-
-for a fixed ([[adiabatic switching|adiabatically switched]] [[local observable|local]]) [[interaction]] $S_{int}$, reflecting the [[scattering amplitudes]] (remark \ref{FromAxiomaticSMatrixScatteringAmplitudes}) with respect to that particular interaction.  Hence the function
-
-$$
-  \mathcal{S}
-  \;\colon\;
-  LocObs(E_{\text{BV-BRST}})[ [\hbar, g,j] ]
-    \longrightarrow
-  PolyObs(E_{\text{BV-BRST}})((\hbar))[ [g,j] ]
-$$
-
-axiomatized in def. \ref{LagrangianFieldTheoryPerturbativeScattering} is really a whole _scheme_ for constructing compatible S-matrices for _all_ possible (adiabatically switched, local) interactions at once.
-
-Since the usual proof of the construction of such schemes of S-matrices involves _[[renormalization|("re"-)normalization]]_, the function $\mathcal{S}$ axiomatized by def. \ref{LagrangianFieldTheoryPerturbativeScattering} may also be referred to as a _[[renormalization scheme]]_.
-
-This perspective on $\mathcal{S}$ as a [[renormalization scheme]] is amplified by the [[main theorem of perturbative renormalization]]
-wich states that the space of choices for $\mathcal{S}$ is a [[torsor]] over the [[Stückelberg-Petermann renormalization group]].
-
-=--
-
-
-+-- {: .num_remark}
-###### Remark
-**([[quantum anomalies]])**
-
-The [[axioms]] for the [[S-matrix]] in def. \ref{LagrangianFieldTheoryPerturbativeScattering}
-(and similarly that for the [[time-ordered products]] below in def. \ref{TimeOrderedProduct})
-are sufficient to imply a [[causally local net]] of perturbative [[interacting field algebras of quantum observables]] (prop. \ref{PerturbativeQuantumObservablesIsLocalnet} below), and thus its [[algebraic adiabatic limit]] (remark \ref{AdiabaticLimit}).
-
-It does not guarantee, however, that the [[BV-BRST differential]] passes to those
-[[algebras of quantum observables]], hence it does not guarantee that the [[infinitesimal symmetries of the Lagrangian]]
-are respected by the [[quantization]] process (there may be "[[quantum anomalies]]").
-The extra condition that does ensure this is the _[[quantum master Ward identity]]_ or _[[quantum master equation]]_.
-This we discuss elsewhere.
-
-Apart from [[gauge symmetries]] one also wants to require that rigid symmetries  are preserved by the S-matrix, notably [[Poincare group]]-symmetry for scattering on [[Minkowski spacetime]]. This extra axiom is needed to imply the _[[main theorem of perturbative renormalization]]_.
-
-=--
-
-
-
 
 
 $\,$
 
 #### Time-ordered products
 
-Definition \ref{LagrangianFieldTheoryPerturbativeScattering} suggests to focus on the
-multilinear operations $T(...)$ which define the perturbative [[S-matrix]] order-by-order in $\hbar$:
+Definition \ref{LagrangianFieldTheoryPerturbativeScattering} suggests to focus on the multilinear operations $T(...)$ which define the perturbative [[S-matrix]] order-by-order in $\hbar$. We impose [[axioms]] on these _[[time-ordered products]]_ directly (def. \ref{TimeOrderedProduct}) and then prove that these axioms imply the axioms for the corresponding [[S-matrix]] (prop. \ref{TimeOrderedProductInducesPerturbativeSMatrix} below).
 
 
 +-- {: .num_defn #TimeOrderedProduct}
@@ -1627,48 +1087,6 @@ factor $\frac{1}{n_1! (n - n_1) !}$ is just the "relative" combinatorial prefact
 when expanding the product $U(g)V(g)$.
 
 =--
-
-
-+-- {: .num_remark #TheTraditionalErrorThatLeadsToTheNotoriouDivergencies}
-###### Remark
-**(the traditional error leading to [[UV-divergences]])**
-
-Naively it might seem that (say over [[Minkowski spacetime]], for simplicity) 
-examples of [[time-ordered products]] according to def. \ref{TimeOrderedProduct}
-may simply be obtained by multiplication with [[step functions]] $\Theta$, in the notation as
-[[generalized functions]] (remark \ref{NotationForTimeOrderedProductsAsGeneralizedFunctions}):
-
-$$
-  T(x_1, x_2)
-  \overset{\text{no!}}{=}
-  \Theta(x_1^0 - x_2^0) \, T(x_1) \, T(x_2)
-  +
-  \Theta(x_2^0 - x_1^0) \, T(x_2) \, T(x_1)
-$$
-
-etc. (for instance [Weinberg 95, p. 143, between (3.5.9) and (3.5.10)](#Weinberg95)).
-
-This however is simply a mathematical error (as amplified in [Scharf 95, below (3.2.4), below (3.2.44) and in fig. 3](causal+perturbation+theory#Scharf95)): 
-
-Both $T$ as well as $\Theta$ are [[distributions]] and their [[product of distributions]] is in general not defined ([[Hörmander's criterion]] may be violated). The notorious [[ultraviolet divergences]] which plagued ([Feynman 85](Schwinger-Tomonaga-Feynman-Dyson#Feynman85SuchABunchOfWords)) the original conception of [[perturbative QFT]] due to [[Schwinger-Tomonaga-Feynman-Dyson]] are the signature of this ill-defined product (see remark \ref{CausalPerturbationTheoryAbsenceOfUVDivergences}).
-
-On the other hand, when both distributions are [[restriction of distributions|restricted]] to the [[complement]] of the [[diagonal]]
-(i.e. restricted away from coinciding points $x_1 = x_2$), then the [[step function]] becomes a [[non-singular distribution]]
-so that the above expression happens to be well defined and does solve the axioms for time-ordered products.
-
-Hence what needs to be done to properly define the [[time-ordered product]] is to
-choose an [[extension of distributions]] of the above product expression back from the complement of the
-diagonal to the whole space of [[tuples]] of points. Any such extension will produce time-ordered products.
-
-There are in general several different such [[extension of distributions|extensions]]. This freedom of choice is the freedom
-of _[[renormalization|"re-"normalization]]_; or equivalently, by the [[main theorem of perturbative renormalization theory]],
-this is the freedom of choosing "counter terms" for the [[local observable|local]] [[interactions]]. This we discuss below in
-_[Feynman diagrams and (re-)normalization](#ExistenceAndRenormalization)_.
-
-
-=--
-
-
 
 
 
@@ -2189,14 +1607,591 @@ Here the sub-sum in brackets vanishes by the inversion formula, prop. \ref{Inver
 
 =--
 
+
+$\,$
+
+#### Conceptual remarks
+ {#RemarksOnCausalPerturbationTheoryAxioms}
+
+The simple axioms for [[S-matrices]] in [[causal perturbation theory]] (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) or equivalently (by prop. \ref{TimeOrderedProductInducesPerturbativeSMatrix}) for [[time-ordered products]] (def. \ref{TimeOrderedProduct}), hence for [[interacting field observables]] (def. \ref{InteractingFieldObservables}) have a wealth of
+implications and consequences. Before analyzing these formally, we make a few informal remarks meant to put these axioms into perspective:
+
++-- {: .num_remark #AsymptoticSeriesObservables}
+###### Remark
+**([[perturbative quantum field theory|perturbative QFT]] and [[asymptotic expansion]] of [[probability amplitudes]])**
+
+Given a perturbative [[S-matrix]] scheme (def. \ref{LagrangianFieldTheoryPerturbativeScattering}), then by remark \ref{FormalPowerSeriesInteractingFieldObservables} the
+[[expectation values]] of [[interacting field observables]] (def. \ref{InteractingFieldObservables}) are [[formal power series]]
+in the formal parameters $\hbar$ and $g$ (which are interpreted as [[Planck's constant]], and as the [[coupling constant]], respectively):
+
+$$
+ \left\langle A_{int} \right\rangle
+ \;\in\;
+ \mathbb{C}[ [\hbar, g] ]
+ \,.
+$$
+
+This means that there is _no_ guarantee that these series _[[convergence|converge]]_ for any [[positive real number|positive]]
+value of $\hbar$ and/or $g$.
+In terms of [[synthetic differential geometry]] this means that in [[perturbative QFT]] the [[deformation]] of the [[classical field theory|classical]] [[free field theory]] by quantum effects (measured by $\hbar$) and [[interactions]] (meaured by $g$) is so very tiny as to actually be [[infinitesimal]]: formal power series may be read as functions on the [[infinitesimal neighbourhood]] in a space of [[Lagrangian field theories]] at the point $\hbar = 0$, $g = 0$.
+
+In fact, a simple argument (due to [Dyson 52](perturbative+quantum+field+theory#Dyson52))
+suggests that in realistic field theories these series _never_ converge for _any_ [[positive real number|positive]] value of $\hbar$ and/or $g$. Namely convergence for $g$ would imply a [[positive real number|positive]] _[[radius of convergence]]_ around $g = 0$, which would imply convergence also for $-g$ and even for [[imaginary number|imaginary]] values of $g$, which would however correspond to unstable [[interactions]] for which no converging field theory is to be expected.
+
+In physical practice one tries to interpret these [[formal power series]] as _[[asymptotic expansions]]_ of
+actual but hypothetical functions in $\hbar, g$, which reflect the actual but hypothetical _[[non-perturbative quantum field theory]]_
+that one imagines is being approximated by [[perturbative QFT]] methods.
+
+For examples such as [[quantum electrodynamics]] and [[quantum chromodynamics]] as in the [[standard model of particle physics]], the truncation of these [[formal power series]] [[scattering amplitudes]] to the first handful of [[loop orders]] in $\hbar$ happens to agree with [[experiment]] (such as at the [[LHC]] collider) to high precision (for [[QED]]) or at least decent precision (for [[QCD]]), at least away from infrared phenomena (see remark \ref{AdiabaticLimit}).
+
+In summary this says that [[perturbative QFT]] is an extremely _coarse_ approximation to what should be genuine [[non-perturbative quantum field theory]], while at the same time it happens to match certain experimental observations to remarkable degree, however only if some ad-hoc truncation of the resulting power series is considered.
+
+This is strong motivation for going beyond [[perturbative QFT]] to understand and construct [[non-perturbative quantum field theory]]. Unfortunately, this is a wide-open problem, away from toy examples. Not a single [[interacting field theory]] in [[spacetime]] [[dimension]] $\geq 4$ has been non-perturbatively quantized. A single aspect of the non-perturbative [[quantization of Yang-Mills theory]] has famously been advertized as one of the _[Millenium Problems](http://www.claymath.org/millennium-problems/yang%E2%80%93mills-and-mass-gap)_ of our age, and speculation about non-perturbative [[quantum gravity]] is the subject of much activity.
+
+Now as the name indicates, the axioms of _[[causal perturbation theory]]_ (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) do
+_not_ address [[non-perturbative effect|non-perturbative aspects]] of [[non-perturbative field theory]]; the convergence or non-convergence of the [[formal power series]] that are axiomatized by [[Bogoliubov's formula]] (def. \ref{InteractingFieldObservables}) is _not_ addressed by the theory.
+The point of the axioms of [[causal perturbation theory]] is to give rigorous mathematical meaning to _everything else_ in [[perturbative QFT]].
+
+=--
+
+
++-- {: .num_remark #DysonCausalFactorization}
+###### Remark
+**([[Dyson series]] and [[Schrödinger equation]] in [[interaction picture]])**
+
+The axiom "[[causal additivity]]" (eq:CausalAdditivity) on an [[S-matrix]] scheme (def. \ref{LagrangianFieldTheoryPerturbativeScattering})
+implies immediately this weaker condition:
+
+* ([[causal factorization]])
+
+  For all [[local observables]] $A_1, A_2 \in LocObs(E_{\text{BV-BRST}})[ [\hbar, h, j] ]$ we have
+
+  $$
+    \left(
+       {\, \atop \,}
+       supp(A_1) {\vee\!\!\!\wedge} supp(A_2)
+       {\, \atop \,}
+    \right)
+    \;\; \Rightarrow \;\;
+    \left(
+      {\, \atop \,}
+      \mathcal{S}(A_1 + A_2)
+      =
+      \mathcal{S}(A_1) \, \mathcal{S}(A_2)
+      {\, \atop \,}
+   \right)
+  $$
+
+(This is the special case of "causal additivity" for $S_{int} = 0$, using that  by the axiom "perturbation" (eq:ExponentialSeriesScatteringMatrix) we have $\mathcal{S}(0) = 1$.)
+
+If we now think of $A_1$ and $A_2$ themselves as [[adiabatic switching|adiabatically switched]] [[interaction]] [[action functionals]],
+then this reads equivalently but more suggestively
+
+  $$
+    \left(
+       {\, \atop \,}
+       supp(S_1) {\vee\!\!\!\wedge} supp(S_2)
+       {\, \atop \,}
+    \right)
+    \;\; \Rightarrow \;\;
+    \left(
+      {\, \atop \,}
+      \mathcal{S}(S_1 + S_2)
+      =
+      \mathcal{S}(S_1) \, \mathcal{S}(S_2)
+      {\, \atop \,}
+   \right)
+  $$
+
+This exhibits the [[S-matrix]]-scheme as a "[[causal ordering|causally ordered]] [[exponential]]"
+or "[[Dyson series]]" of the [[interaction]], hence as a refinement to [[relativistic field theory]] of what in
+[[quantum mechanics]] is the "integral version of the [[Schrödinger equation]] in the [[interaction picture]]" (eq:IntegralVersionSchroedingerEquationInInteractionPicture). (See also [Scharf 95, second half of 0.3](#Scharf95)).
+
+While [[causal additivity]] is in fact stronger than [[causal factorization]], we find below that the
+evident analogue of [[causal factorization]] imposed directly on the [[time-ordered products]] (def. \ref{TimeOrderedProduct} below)
+does _imply_ [[causal additivity]] of the [[S-matrix]] (prop. \ref{TimeOrderedProductInducesPerturbativeSMatrix} below).
+
+The relevance of [[causal additivity]] of the [[S-matrix]], over just [[causal factorization]], is that it implies that
+the induced [[interacting field algebra of observables]] (def. \ref{InteractingFieldObservables}) forms a [[causally local net]] (prop. \ref{PerturbativeQuantumObservablesIsLocalnet} below).
+
+=--
+
++-- {: .num_remark #InterpretationOfPerturbativeSMatrix}
+###### Remark
+**([[path integral]]-intuition)**
+
+In informal discussion of [[perturbative QFT]] going back to informal ideas of [[Schwinger-Tomonaga-Feynman-Dyson]], the
+perturbative [[S-matrix]] is thought of in terms of a would-be _[[path integral]]_, symbolically written
+
+$$
+  \mathcal{S}\left(
+    g S_{int} + j A
+  \right)
+  \;\overset{\text{not really!}}{=}\;
+  \!\!\!\!\!
+  \underset{\Phi \in \Gamma_\Sigma(E_{\text{BV-BRST}})_{asm}}{\int}
+  \!\!\!\!\!\!
+  \exp\left(
+    \tfrac{1}{i \hbar}
+    \int_\Sigma
+    \left(
+      g L_{int}(\Phi) + j A(\Phi)
+    \right)
+  \right)
+  \,
+  \exp\left(
+    \tfrac{1}{i \hbar}\int_\Sigma L_{free}(\Phi)
+  \right) D[\Phi]
+  \,.
+$$
+
+Here the would-be [[integration]] is thought to be over the [[space of field histories]] $\Gamma_\Sigma(E_{\text{BV-BRST}})_{asm}$ (the [[space of sections]] of the given [[field bundle]]) for [[field histories]] which satisfy given asymptotic conditions at $x^0 \to \pm \infty$; and as these boundary conditions vary the above is regarded as a would-be [[integral kernel]] that defines the required operator in the [[Wick algebra]] (e.g. [Weinberg 95, around (9.3.10) and (9.4.1)](#Weinberg95)).
+
+Beyond toy examples, it is not known how to define the would-be [[measure]] $D[\Phi]$ and it is not known how to make sense of this expression as an actual [[integral]].
+
+The analogous path-integral intuition for [[Bogoliubov's formula]] for [[interacting field observables]] (def. \ref{InteractingFieldObservables}) symbolically reads
+
+$$
+  \begin{aligned}
+  A_{int}
+  & \overset{\text{not really!}}{=}
+  \frac{d}{d j}
+  \ln
+  \left(
+  \underset{\Phi \in \Gamma_\Sigma(E)_{asm}}{\int}
+  \!\!\!\!
+  \exp\left(
+    \underset{\Sigma}{\int}
+      g L_{int}(\Phi) + j A(\Phi)
+  \right)
+  \,
+  \exp\left( \underset{\Sigma}{\int} L_{free}(\Phi) \right)
+  D[\Phi]
+  \right)
+  \vert_{j = 0}
+  \end{aligned}
+$$
+
+If here we were to regard the expression
+
+$$
+  \mu(\Phi)
+  \;\overset{\text{not really!}}{\coloneqq}\;
+  \frac{
+    \exp\left( \underset{\Sigma}{\int} L_{free}(\Phi) \right)\, D[\Phi]
+  }
+  {
+    \underset{\Phi \in \Gamma_\Sigma(E_{\text{BV-BRST}})_{asm}}{\int}
+    \!\!\!\!
+    \exp\left( \underset{\Sigma}{\int} L_{free}(\Phi) \right)\, D[\Phi]
+  }
+$$
+
+as a would-be [[Gaussian measure]] on the [[space of field histories]], normalized to a would-be [[probability measure]], then this formula
+would express interacting field observables as ordinary [[expectation values]]
+
+$$
+  A_{int}
+   \overset{\text{not really!}}{=}
+   \!\!\!
+  \underset{\Phi \in \Gamma_\Sigma(E_{\text{BV-BRST}})_{asm}}{\int}
+  \!\!\!\!\!\!
+     A(\Phi)
+  \,\mu(\Phi)
+  \,.
+$$
+
+As before, beyond toy examples it is not known how to make sense of this as an actual [[integration]].
+
+But we may think of the axioms for the [[S-matrix]] in [[causal perturbation theory]] (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) as rigorously _defining_ the [[path integral]], not analytically as an actual [[integration]], but _[[synthetic mathematics|synthetically]]_ by axiomatizing the properties of the desired _outcome_ of the would-be integration:
+
+The analogy with a well-defined [[integral]] and the usual properties of an [[exponential]] vividly _suggest_
+that the would-be [[path integral]] should obey [[causal factorization]]. Instead of trying to make sense of
+[[path integral|path integration]] so that this factorization property could then be appealed to as a _consequence_ of general properties
+of [[integration]] and [[exponentials]], the axioms of [[causal perturbation theory]] directly prescribe the
+desired factorization property, without insisting that it derives from an actual integration.
+
+The great success of [[path integral]]-intuition in the development of [[quantum field theory]], despite the dearth of
+actual constructions, indicates that it is not the would-be integration process as such that actually matters in field
+theory, but only the resulting properties that this _suggests_ the S-matrix should have; which is what
+[[causal perturbation theory]] axiomatizes. Indeed, the simple [[axioms]] of [[causal perturbation theory]]
+rigorously _imply_ finite (i.e. [[renormalization|("re"-)normalized]]) [[perturbative quantum field theory]] (see remark \ref{CausalPerturbationTheoryAbsenceOfUVDivergences}).
+
+$$
+  \array{
+  \array{
+    \text{would-be}
+    \\
+    \text{path integral}
+    \\
+    \text{intuition}
+  }
+  &
+  \overset{
+    \array{
+      \text{informally}
+      \\
+      \text{suggests}
+    }
+  }{\longrightarrow}
+  &
+  \array{
+    \text{causally additive}
+    \\
+    \text{scattering matrix}
+  }
+  &
+  \overset{
+    \array{
+      \text{rigorously}
+      \\
+      \text{implies}
+    }
+  }{\longrightarrow}
+  &
+  \array{
+    \text{UV-finite}
+    \\
+    \text{(i.e. (re-)normalized)}
+    \\
+    \text{perturbative QFT}
+  }
+  }
+$$
+
+=--
+
+
+
++-- {: .num_remark #FromAxiomaticSMatrixScatteringAmplitudes}
+###### Remark
+**([[scattering amplitudes]])**
+
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}, let $\mathcal{S}$ be a corresponding [[S-matrix]] scheme according to def. \ref{LagrangianFieldTheoryPerturbativeScattering}, and let
+
+$$
+  S_{int} \in LocObs(E_{\text{BV-BRST}})[ [ \hbar, g ] ]
+$$
+
+be a [[local observable]], regarded
+as an [[adiabatic switching|adiabatically switched]] [[interaction]] [[action functional]].
+
+Then for
+
+$$
+  A_{in}, A_{out} \in PolyObs(E_{\text{BV-BRST}})_{mc}[ [\hbar] ]
+$$
+
+two [[microcausal  polynomial observables]], the corresponding _[[scattering amplitude]]_ is the value (called "[[expectation value]]" when referring to $A^\ast_{out} \, \mathcal{S}(S_{int}) \, A_{in}$, or "matrix element" when freferring to $\mathcal{S}(S_{int})$, or "transition amplitude" when referring to $\left\langle A_{out} \right\vert$ and $\left\vert A_{in} \right\rangle$)
+
+$$
+  \left\langle
+    A_{out}
+    \,\vert\,
+    \mathcal{S}(S_{int})
+    \,\vert\,
+    A_{in}
+  \right\rangle
+  \;\coloneqq\;
+  \left\langle
+    A^\ast_{out} \, \mathcal{S}(S_{int}) \, A_{in}
+  \right\rangle
+  \;\in\;
+  \mathcal{C}[ [ \hbar, g ] ]
+  \,.
+$$
+
+for the [[Wick algebra]]-product $A^\ast_{out} \, \mathcal{S}(S_{int})\, A_{in} \in PolyObs(E_{\text{BV-BRST}})[ [\hbar, g ] ]$
+in the given [[Hadamard vacuum state]] $\langle -\rangle \colon PolyObs(E_{\text{BV-BRST}})[ [\hbar, g] ] \to \mathcal{C}[ [\hbar,g] ]$.
+
+If here $A_{in}$ and $A_{out}$ are monomials in [[Wick algebra]]-products of the [[field observables]] $\mathbf{\Phi}^a(x) \in Obs(E_{\text{BV-BRST}})[ [\hbar] ]$,
+then this [[scattering amplitude]] comes from the [[integral kernel]]
+
+$$
+  \begin{aligned}
+  &
+  \left\langle
+    \mathbf{\Phi}^{a_{out,1}}(x_{out,1}) \cdots \mathbf{\Phi}^{a_{out,s}}(x_{out,s})
+    \vert
+    \,
+    \mathcal{S}(S_{int})
+    \,
+    \vert
+    \mathbf{\Phi}^{a_{in,1}}(x_{in,1})
+    \cdots
+    \mathbf{\Phi}^{a_{in,r}}(x_{in,r})
+  \right\rangle
+  \\
+  & \coloneqq
+  \left\langle
+     \left(\mathbf{\Phi}^{a_{out,1}}(x_{out,1})\right)^\ast
+      \cdots
+      \left(\mathbf{\Phi}^{a_{out,s}}(x_{out,s})\right)^\ast
+    \;\mathcal{S}(S_{int})\;
+      \mathbf{\Phi}^{a_{in,1}}(x_{in,1})
+      \cdots
+      \mathbf{\Phi}^{a_{in,r}}(x_{in,r})
+  \right\rangle
+  \end{aligned}
+$$
+
+or similarly, under [[Fourier transform of distributions]],
+
+$$
+  \label{ScatteringPlaneWaves}
+  \begin{aligned}
+  &
+  \left\langle
+    \widehat{\mathbf{\Phi}}^{a_{out,1}}(k_{out,1}) \cdots \widehat{\mathbf{\Phi}}^{a_{out,s}}(k_{out,s})
+    \vert
+    \,
+    \mathcal{S}(S_{int})
+    \,
+    \vert
+    \widehat{\mathbf{\Phi}}^{a_{in,1}}(k_{in,1})
+    \cdots
+    \widehat{\mathbf{\Phi}}^{a_{in,r}}(k_{in,r})
+  \right\rangle
+  \\
+  & \coloneqq
+  \left\langle
+     \left(\widehat{\mathbf{\Phi}}^{a_{out,1}}(k_{out,1})\right)^\ast
+      \cdots
+      \left(\widehat{\mathbf{\Phi}}^{a_{out,s}}(k_{out,s})\right)^\ast
+    \;\mathcal{S}(S_{int})\;
+      \widehat{\mathbf{\Phi}}^{a_{in,1}}(k_{in,1})
+      \cdots
+      \widehat{\mathbf{\Phi}}^{a_{in,r}}(k_{in,r})
+  \right\rangle
+  \end{aligned}
+  \,.
+$$
+
+These are interpreted as the (distributional) _[[probability amplitudes]]_ for [[plane waves]] of field species $a_{in,\cdot}$
+with [[wave vector]] $k_{in,\cdot}$ to come in from the far past, ineract with each other via $S_{int}$,
+and emerge in the far future as [[plane waves]] of field species $a_{out,\cdot}$ with [[wave vectors]] $k_{out,\cdot}$.
+
+=--
+
+Or rather:
+
++-- {: .num_remark #AdiabaticLimit}
+###### Remark
+**([[adiabatic limit]], [[infrared divergences]] and [[interacting vacuum]])**
+
+Since a [[local observable]] $S_{int} \in LocObs(E_{\text{BV-BRST}})[ [\hbar, g, j] ]$  by definition
+has compact spacetime support, the [[scattering amplitudes]] in remark \ref{FromAxiomaticSMatrixScatteringAmplitudes}
+describe [[scattering]] processes for [[interactions]] that vanish (are "[[adiabatic switching|adiabatically switched off]]") outside a compact subset of [[spacetime]]. This constraint is crucial for [[causal perturbation theory]] to work.
+
+There are several aspects to this:
+
+* ([[adiabatic limit]]) On the one hand, real physical interactions $\mathbf{L}_{int}$ (say the [[electron-photon interaction]])
+are not _really_ supposed to vanish outside a compact region of spacetime. In order to reflect this mathematically, one may consider a [[sequence]] of [[adiabatic switchings]] $g_{sw} \in C^\infty_{cp}(\Sigma)\langle g \rangle$ (each of [[compact support]]) whose [[limit of a sequence|limit]] is the [[constant function]] $g \in C^\infty(\Sigma)\langle g\rangle$ (the actual [[coupling constant]]), then consider the corresponding [[sequence]] of [[interaction]] [[action functionals]] $S_{int,sw} \coloneqq \tau_\Sigma( g_{sw} \mathbf{L}_{int} )$ and finally consider:
+
+
+   1. as the true [[scattering amplitude]] the corresponding [[limit of a sequence|limit]]
+
+      $$
+        \left\langle
+          A_{out} \vert \mathcal{S}(S_{int}) \vert A_{int}
+        \right\rangle
+        \;\coloneqq\;
+        \underset{g_{sw} \to 1}{\lim}
+        \left\langle
+          A_{out} \vert \mathcal{S}(S_{int,sw}) \vert A_{int}
+        \right\rangle
+      $$
+
+      of adiabatically switched [[scattering amplitudes]] (remark \ref{FromAxiomaticSMatrixScatteringAmplitudes}) --  if it exists. This is called the _[[strong adiabatic limit]]_.
+
+  1. as the true [[n-point functions]] the corresponding [[limit of a sequence|limit]]
+
+     $$
+       \begin{aligned}
+       &
+       \left\langle
+         \mathbf{\Phi}^{a_1}_{int}(x_1)
+         \mathbf{\Phi}^{a_2}_{int}(x_2)
+           \cdots
+         \mathbf{\Phi}^{a_{n-1}}_{int}(x_{n-1})
+         \mathbf{\Phi}^{a_n}_{int,sw}(x_n)
+       \right\rangle
+       \\
+       & =
+       \underset{\underset{g_{sw} \to 1}{\longrightarrow}}{\lim}
+       \left\langle
+         \mathbf{\Phi}^{a_1}_{int,sw}(x_1)
+         \mathbf{\Phi}^{a_2}_{int,sw}(x_2)
+           \cdots
+         \mathbf{\Phi}^{a_{n-1}}_{int,sw}(x_{n-1})
+         \mathbf{\Phi}^{a_n}_{int,sw}(x_n)
+       \right\rangle
+       \end{aligned}
+     $$
+
+     of [[tempered distribution|tempered distributional]] [[expectation values]] of products of [[interacting field algebra|interacting]] [[field observables]] (def. \ref{InteractingFieldObservables}) -- if it exists. (Similarly for [[time-ordered products]].)  This is called the _[[weak adiabatic limit]]_.
+
+  Beware that the left hand sides here are symbolic: Even if the limit exists in [[expectation values]], in general there is no actual observable whose expectation value is that limit.
+
+  The strong and weak adiabatic limits have been shown to exist if all [[field (physics)|fields]] are [[mass|massive]] ([Epstein-Glaser 73](#EpsteinGlaser73)). The weak adiabatic limit has been shown to exists for [[quantum electrodynamics]] and for [[mass]]-less [[phi^4 theory]] ([Blanchard-Seneor 75](adiabatic+switching#BlanchardSeneor75)) and for larger classes of field theories in ([Duch 17, p. 113, 114](adiabatic+switching#Duch17)).
+
+  If these limits do not exist, one says that the [[perturbative QFT]] has an _[[infrared divergence]]_. 
+  
+* ([[algebraic adiabatic limit]]) On the other hand, it is equally unrealistic that an actual [[experiment]] _detects_ phenomena outside a given compact subset of spacetime. Realistic scattering [[experiments]] (such as the [[LHC]]) do not really prepare or measure [[plane waves]] filling all of [[spacetime]] as described by the [[scattering amplitudes]] (eq:ScatteringPlaneWaves). Any [[observable]] that is realistically measurable must have compact spacetime support. We see below in prop. \ref{WellDefinedInteractingFieldAlgebra} that such [[interacting field observables]] with compact spacetime support may be computed without taking the [[adiabatic limit]]: It is sufficient to use any [[adiabatic switching]] which is constant on the support of the observable.
+
+  This way one obtains for each [[causally closed subset]] $\mathcal{O}$ of spacetime an  algebra of observables $\mathcal{A}_{int}(\mathcal{O})$ whose support is in $\mathcal{O}$, and for each inclusion of subsets a corresponding inclusion of algebras of observables (prop. \ref{PerturbativeQuantumObservablesIsLocalnet} below). Of this system of observables one may form the [[category theory|category-theoretic]] [[inductive limit]] to obtain a single global algebra of observables.
+
+  $$
+    \mathcal{A}_{int}
+      \;\coloneqq\;
+    \underset{\underset{\mathcal{O}}{\longrightarrow}}{\lim}
+      \mathcal{A}_{int}(\mathcal{O})
+  $$
+
+  This always exists. It is called the _[[algebraic adiabatic limit]]_ (going back to [Brunetti-Fredenhagen 00, section 8](perturbative+algebraic+quantum+field+theory#BrunettiFredenhagen00)).
+
+  For [[quantum electrodynamics]] the [[algebraic adiabatic limit]] was worked out in ([Dütsch-Fredenhagen 98](quantum+electrodynamics#DuetschFredenhagen98), reviewed in [Dütsch 18, 5,3](QED+Duetsch18)).
+
+* ([[interacting vacuum]]) While, via the above [[algebraic adiabatic limit]], [[causal perturbation theory]] yields the correct [[interacting field algebra of quantum observables]] independent of choices of [[adiabatic switching]], a theory of _[[quantum probability]]_ requires, on top of the [[algebra of observables]], also a _[[state on a star-algebra|state]]_
+
+  $$
+    \langle - \rangle_{int} \;\colon\; \mathcal{A}_{int} \longrightarrow \mathbb{C}[ [\hbar] ]
+  $$
+
+  Just as the [[interacting field algebra of observables]] $\mathcal{A}_{int}$ is a [[deformation]] of the free field algebra of observables ([[Wick algebra]]), there ought to be a corresponding deformation of the free [[Hadamard vacuum state]] $\langle- \rangle$ into an "[[interacting vacuum state]]" $\langle - \rangle_{int}$.
+
+  Sometimes the [[weak adiabatic limit]] serves to define the [[interacting vacuum]] (see [Duch 17, p. 113-114](adiabatic+switching#Duch17)).
+
+A stark example of these infrared issues is the phenomenon of _[[confinement]]_ of [[quarks]] to [[hadron]] [[bound states]] (notably to [[protons]] and [[neutrons]]) at large [[wavelengths]]. This is paramount in [[experiment|observation]] and reproduced in numerical [[lattice gauge theory]] simulation, but is invisible to [[perturbative QFT|perturbative]] [[quantum chromodynamics]] in its [[free field]] [[vacuum state]], due to [[infrared divergences]].
+It is expected that this should be rectified by the proper [[interacting vacuum]] of [[QCD]] ([Rafelski 90, pages 12-16](confinement#Rafelski90)), which is possibly a "[[theta-vacuum]]" exhibiting [[superposition]] of [[instanton in QCD|QCD instantons]] ([Schäfer-Shuryak 98, section III.D](instanton+in+QCD#SchaeferShuryak98)). This remains open, closely related to the _[Millenium Problem](http://www.claymath.org/millennium-problems/yang%E2%80%93mills-and-mass-gap)_ of [[quantization of Yang-Mills theory]].
+
+=--
+
+In contrast to the above subtleties about the [[infrared divergences]], any would-be [[UV-divergences]] in [[perturbative QFT]] are 
+dealt with by [[causal perturbation theory]]:
+
+
++-- {: .num_remark #TheTraditionalErrorThatLeadsToTheNotoriouDivergencies}
+###### Remark
+**(the traditional error leading to [[UV-divergences]])**
+
+Naively it might seem that (say over [[Minkowski spacetime]], for simplicity) 
+examples of [[time-ordered products]] according to def. \ref{TimeOrderedProduct}
+might simply be obtained by multiplying [[Wick algebra]]-products with [[step functions]] $\Theta$ of the time coordinates, hence to write, in the notation as [[generalized functions]] (remark \ref{NotationForTimeOrderedProductsAsGeneralizedFunctions}):
+
+$$
+  T(x_1, x_2)
+  \overset{\text{no!}}{=}
+  \Theta(x_1^0 - x_2^0) \, T(x_1) \, T(x_2)
+  +
+  \Theta(x_2^0 - x_1^0) \, T(x_2) \, T(x_1)
+$$
+
+and analogously for time-ordered products of more arguments (for instance [Weinberg 95, p. 143, between (3.5.9) and (3.5.10)](#Weinberg95)).
+
+This however is simply a mathematical error (as amplified in [Scharf 95, below (3.2.4), below (3.2.44) and in fig. 3](causal+perturbation+theory#Scharf95)): 
+
+Both $T$ as well as $\Theta$ are [[distributions]] and their [[product of distributions]] is in general not defined ([[Hörmander's criterion]] may be violated). The notorious [[ultraviolet divergences]] which plagued ([Feynman 85](Schwinger-Tomonaga-Feynman-Dyson#Feynman85SuchABunchOfWords)) the original conception of [[perturbative QFT]] due to [[Schwinger-Tomonaga-Feynman-Dyson]] are the signature of this ill-defined product (see remark \ref{CausalPerturbationTheoryAbsenceOfUVDivergences}).
+
+On the other hand, when both distributions are [[restriction of distributions|restricted]] to the [[complement]] of the [[diagonal]]
+(i.e. restricted away from coinciding points $x_1 = x_2$), then the [[step function]] becomes a [[non-singular distribution]]
+so that the above expression happens to be well defined and does solve the axioms for time-ordered products.
+
+Hence what needs to be done to properly define the [[time-ordered product]] is to choose an [[extension of distributions]] of the above product expression back from the complement of the diagonal to the whole space of [[tuples]] of points. Any such extension will produce time-ordered products.
+
+There are in general several different such [[extension of distributions|extensions]]. This freedom of choice is the freedom
+of _[[renormalization|"re-"normalization]]_; or equivalently, by the [[main theorem of perturbative renormalization theory]],
+this is the freedom of choosing "counter terms" for the [[local observable|local]] [[interactions]]. This we discuss below in
+_[Feynman diagrams and (re-)normalization](#ExistenceAndRenormalization)_.
+
+
+=--
+
+
++-- {: .num_remark #CausalPerturbationTheoryAbsenceOfUVDivergences}
+###### Remark
+**(absence of [[ultraviolet divergences]] and [[renormalization|re-normalization]])**
+
+The simple axioms of [[causal perturbation theory]] (def. \ref{LagrangianFieldTheoryPerturbativeScattering})
+do fully capture [[perturbative quantum field theory]] "in the ultraviolet": A solution to these axioms
+induces, by definition, well-defined [[perturbative QFT|perturbative]] [[scattering amplitudes]] (remark \ref{FromAxiomaticSMatrixScatteringAmplitudes})
+and well-defined [[perturbative QFT|perturbative]] [[probability amplitudes]] of [[interacting field observables]] (def. \ref{InteractingFieldObservables}) induced by _[[local observables|local]]_ [[action functionals]] (describing point-interactions such as the [[electron-photon interaction]]). By the [[main theorem of perturbative renormalization]] such solutions exist. This means that, while these are necessarily [[formal power series]] in $\hbar$ and $g$ (remark \ref{AsymptoticSeriesObservables}), all the [[coefficients]] of these formal power series ("[[loop order]] contributions") are well defined.
+
+This is in contrast to the original informal conception of [[perturbative QFT]] due to [[Schwinger-Tomonaga-Feynman-Dyson]],
+which in a first stage produced ill-defined [[divergence|diverging]] expressions for the [[coefficients]] (due to the mathematical error discussed in remark \ref{TheTraditionalErrorThatLeadsToTheNotoriouDivergencies} below), which were then "[[renormalization|re-normalized]]" to finite values, by further informal arguments.
+
+Here in [[causal perturbation theory]] no [[divergences]] in the [[coefficients]] of the [[formal power series]] are considered in the first place, all coefficients are well-defined, hence "finite". In this sense [[causal perturbation theory]] is about "finite" perturbative QFT, where instead of "re-normalization" of ill-defined expressions one just encounters "normalization" (prominently highlighted in [Scharf 95, see title, introduction, and section 4.3](causal+perturbation+theory#Scharf95)), namely compatible choices of these finite values, parameterized by the [[Stückelberg-Petermann renormalization group]].
+
+This refers to those [[divergences]] that are known as _[[UV-divergences]]_, namely short-distance effects,
+which are mathematically reflected in the fact that the perturbative [[S-matrix]] scheme (def. \ref{LagrangianFieldTheoryPerturbativeScattering})
+is defined on _[[local observables]]_, which, by their very locality, encode point-[[interactions]].
+See also remark \ref{AdiabaticLimit} on _[[infrared divergences]]_.
+
+=--
+
++-- {: .num_remark #calSFunctionIsRenormalizationScheme}
+###### Remark
+**([[renormalization scheme]])**
+
+Beware the terminology in def. \ref{LagrangianFieldTheoryPerturbativeScattering}: A _single_ S-matrix is one single observable
+
+$$
+  \mathcal{S}(S_{int})
+  \;\in\;
+  PolyObs(E_{\text{BV-BRST}})_{mc}((\hbar))[ [g,j] ]
+$$
+
+for a fixed ([[adiabatic switching|adiabatically switched]] [[local observable|local]]) [[interaction]] $S_{int}$, reflecting the [[scattering amplitudes]] (remark \ref{FromAxiomaticSMatrixScatteringAmplitudes}) with respect to that particular interaction.  Hence the function
+
+$$
+  \mathcal{S}
+  \;\colon\;
+  LocObs(E_{\text{BV-BRST}})[ [\hbar, g,j] ]
+    \longrightarrow
+  PolyObs(E_{\text{BV-BRST}})((\hbar))[ [g,j] ]
+$$
+
+axiomatized in def. \ref{LagrangianFieldTheoryPerturbativeScattering} is really a whole _scheme_ for constructing compatible S-matrices for _all_ possible (adiabatically switched, local) interactions at once.
+
+Since the usual proof of the construction of such schemes of S-matrices involves _[[renormalization|("re"-)normalization]]_, the function $\mathcal{S}$ axiomatized by def. \ref{LagrangianFieldTheoryPerturbativeScattering} may also be referred to as a _[[renormalization scheme|("re"-)normalization scheme]]_.
+
+This perspective on $\mathcal{S}$ as a [[renormalization scheme]] is amplified by the [[main theorem of perturbative renormalization]]
+wich states that the space of choices for $\mathcal{S}$ is a [[torsor]] over the [[Stückelberg-Petermann renormalization group]].
+
+=--
+
+
++-- {: .num_remark}
+###### Remark
+**([[quantum anomalies]])**
+
+The [[axioms]] for the [[S-matrix]] in def. \ref{LagrangianFieldTheoryPerturbativeScattering}
+(and similarly that for the [[time-ordered products]] below in def. \ref{TimeOrderedProduct})
+are sufficient to imply a [[causally local net]] of perturbative [[interacting field algebras of quantum observables]] (prop. \ref{PerturbativeQuantumObservablesIsLocalnet} below), and thus its [[algebraic adiabatic limit]] (remark \ref{AdiabaticLimit}).
+
+It does not guarantee, however, that the [[BV-BRST differential]] passes to those
+[[algebras of quantum observables]], hence it does not guarantee that the [[infinitesimal symmetries of the Lagrangian]]
+are respected by the [[quantization]] process (there may be "[[quantum anomalies]]").
+The extra condition that does ensure this is the _[[quantum master Ward identity]]_ or _[[quantum master equation]]_.
+This we discuss elsewhere.
+
+Apart from [[gauge symmetries]] one also wants to require that rigid symmetries  are preserved by the S-matrix, notably [[Poincare group]]-symmetry for scattering on [[Minkowski spacetime]]. This extra axiom is needed to imply the _[[main theorem of perturbative renormalization]]_.
+
+=--
+
+
+
+
+
+
 $\,$
 
 #### Feynman diagrams 
  {#ExistenceAndRenormalization}
 
 
-So far we considered only the [[axioms]] on a consistent perturbative S-matrix /[[time-ordered products]]
-and its formal consequences. Now we discuss the actual construction of [[time-ordered products]],
+So far we considered only the [[axioms]] on a consistent perturbative [[S-matrix]] scheme (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) or equivalently on [[time-ordered products]] (def. \ref{TimeOrderedProduct} prop. \ref{TimeOrderedProductInducesPerturbativeSMatrix}). 
+Now we discuss the actual construction of [[time-ordered products]],
 hence of perturbative S-matrices, by the process called _[[renormalization]] of [[Feynman diagrams]]_.
 
 We first discuss how [[time-ordered product]], and hence the perturbative S-matrix [above](#PerturbativeSMatrixAndTimeOrderedProducts),
@@ -3452,3 +3447,4 @@ An entertaining account of some of the history and the sociology of S-matrix the
 [[!redirects perturbative S-matrices]]
 
 [[!redirects Feynman perturbation series]]
+pa
