@@ -254,17 +254,53 @@ $$
 has [[wave front set]] constrained by
 
 $$
-  WF(K_1 \circ K_2)
+  WF'(K_1 \circ K_2)
   \;\subset\;
-  WF(K_1) \circ WF(K_2)
+  WF'(K_1) \circ WF'(K_2)
   \;\cup\;
-  (X \times \{0\}) \times WF(K_2)
+  (X \times \{0\}) \times WF'(K_2)_Z
   \;\cup\;
-  WF(K_1) \times (Z \times \{0\})
+  WF(K_1)_X \times (Z \times \{0\})
   \,,
 $$
 
-where on the left the composition symbol means composition of [[relations]] of [[wave vectors]] over points in $Y$.
+where on the left the composition symbol means composition of [[relations]] of [[wave vectors]] over points in $Y$. Explicitly this means that
+
+$$
+  \label{CompositionOfIntegralKernelsWaveFronConstraint}
+  WF(K_1 \circ K_2)
+  \;\subset\;
+  \left\{
+    (x,z, k_x, k_z)
+    \;\vert\;
+    \array{
+      \left(
+      (x,y,k_x,-k_y) \in WF(K_1)
+      \,\,
+      \text{and}
+      \,\,
+      (y,z,k_y, k_z) \in WF(K_2)
+      \right)
+      \\ 
+      \text{or}
+      \\
+      \left(
+        k_x = 0 
+        \,\text{and}\,
+        (y,z,0,k_z) \in WF(K_2)
+      \right)
+      \\
+      \text{or}
+      \\
+      \left(
+        k_z = 0
+        \,\text{and}\,
+        (x,y,k_x,0) \in WF(K_1)
+      \right)
+    }
+  \right\}
+$$
+
 
 =--
 
