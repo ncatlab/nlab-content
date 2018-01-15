@@ -223,6 +223,53 @@ $$
 
 =--
 
+More generally:
+
++-- {: .num_prop #PartialProductOfDistributionsOfSeveralVariables}
+###### Proposition
+**(partial product of [[distributions of several variables]])**
+
+Let 
+
+$$
+  K_1 \in \mathcal{D}'(X \times Y)
+  \phantom{AAA}
+  K_2 \in \mathcal{D}'(Y \times Z)
+$$
+
+be two [[distributions of two variables]]. For their [[product of distributions]] to be defined over $Y$, [[Hörmander's criterion]] on the [[pair]] of [[wave front sets]] $WF(K_1), WF(K_2)$  needs to hold for the [[wave front set|wave front]] [[wave vectors]] along $X$ and $Y$ taken to be zero.
+
+If this is satisfied, then composition of [[integral kernels]] (if it exists)
+
+$$
+  (K_1 \circ K_2)(-,-)
+  \;\coloneqq\;
+  \underset{Y}{\int}
+    K_1(-,y) K_2(y,-)
+  dvol_Y(y)
+  \;\in\;
+  \mathcal{D}'(X \times Z)
+$$
+
+has [[wave front set]] constrained by
+
+$$
+  WF(K_1 \circ K_2)
+  \;\subset\;
+  WF(K_1) \circ WF(K_2)
+  \;\cup\;
+  (X \times \{0\}) \times WF(K_2)
+  \;\cup\;
+  WF(K_1) \times (Z \times \{0\})
+  \,,
+$$
+
+where on the left the composition symbol means composition of [[relations]] of [[wave vectors]] over points in $Y$.
+
+=--
+
+([Hörmander 90, theorem 8.2.14](#Hoermander90))
+
 ### Non-existence of a global product
  {#NonExistenceOfAGlobalProduct}
 
