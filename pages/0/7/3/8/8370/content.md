@@ -82,6 +82,10 @@ An exposition with emphasis on [[linear logic]]/[[quantum logic]] and the relati
 
 * [[John Baez]], [[Mike Stay]], _Physics, Topology, Logic and Computation: A Rosetta Stone_, Notes in Physics vol. 813, Springer, Berlin, 2011, pp. 95-174 ([arXiv:0903.0340](http://arxiv.org/abs/0903.0340))
 
+A discussion in the context of [[homotopy type theory]] is in
+
+* [[Mike Shulman]], *Homotopical trinitarianism*, [talk slides](http://home.sandiego.edu/~shulman/papers/trinity.pdf)
+
 For further references see at _[[programs as proofs]]_, _[[propositions as types]]_, and _[[relation between category theory and type theory]]_.
 
 
