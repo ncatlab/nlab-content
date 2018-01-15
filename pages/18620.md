@@ -139,7 +139,7 @@ Now schematically the derivative of the generating function is of the form
 
 $$
   \begin{aligned}
-    \hat A
+    A_{int}
     & \coloneqq
     i \hbar \frac{d}{d j }
     \mathcal{Z}_{ S_{int}}(j A)\vert_{j  = 0}
@@ -153,7 +153,7 @@ $$
   \,.
 $$
 
-(The precise expression is given by the _[[retarded products]]_, see [Rejzner 16, prop. 6.1](#Rejzner16).)
+(The precise expression is given by the _[[retarded products]]_, see [Dütsch-Fredenhagen 00, prop. 2 (ii)](#DuetschFredenhagen00) [Rejzner 16, prop. 6.1](#Rejzner16), [Hawkins-Rejzner 16, cor. 5.2](#HawkinsRejzner16).)
 By the above, the exponent here yields a [[formal power series]] in $\hbar$, and hence so does the full exponential.
 
 
@@ -200,7 +200,7 @@ With the perturbative S-matrix informally thought of as a path integral this way
 similarly would have the following interpretation:
 
 $$
-  \widehat A(j)
+  A_{int}
   \;\overset{\text{not really!}}{=}\;
   \frac{
     \int
@@ -251,7 +251,9 @@ as a "complex probability measure" on the the configuration space of fields, the
 would express the [[expectation value]] of the functional $A$ under this measure:
 
 $$
-  \widehat{A}(j) \overset{\text{not really!}}{=} [j A]_{\mu} = \int j A(\Phi) \mu(\Phi)
+  A_{int} 
+    \overset{\text{not really!}}{=} 
+   [A]_{\mu} = \int  A(\Phi) \, \mu(\Phi)
   \,.
 $$
 
