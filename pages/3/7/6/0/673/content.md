@@ -2,13 +2,13 @@
 
 I am currently a visiting research fellow at the [Institute for Geometry and its Applications](http://www.iga.adelaide.edu.au/) in the [School of Mathematical Sciences](http://maths.adelaide.edu.au/) at the University of Adelaide.
 
-For the period July-December 2017 I will be a Lecturer at the University of Adelaide.
+For the period July-2017-February 2018 I will be a Lecturer at the University of Adelaide. After that I will take up a position as a Senior Research Associate for 2.5 years.
 
 I work on [[bundle gerbes]], [[principal 2-bundles|2-bundles]], [[geometric stacks]] and [[internal category|internal groupoids and categories]], and [[category theory]] more generally with a side interest in [[foundations]]. I have a particular interest in constructing examples in (low-dimensional) [[higher geometry]].
 
 I was a Research Associate (i.e. a postdoc) at the University of Adelaide from October 2013 to April 2015.
 
-You may also find me on: [MathSciNet](http://www.ams.org/mathscinet/search/author.html?mrauthid=788905)|[MathOverflow](http://mathoverflow.net/users/4177/david-roberts)|[Google+](https://plus.google.com/+DavidRoberts/)|[arXiv](http://arxiv.org/a/roberts_d_1.html)|[ORCiD](http://orcid.org/0000-0002-3478-0522)|[Publons](publons.com/a/430214/)
+You may also find me on: [MathSciNet](https://www.ams.org/mathscinet/search/author.html?mrauthid=788905)|[MathOverflow](https://mathoverflow.net/users/4177/david-roberts)|[Google+](https://plus.google.com/+DavidRoberts/)|[arXiv](https://arxiv.org/a/roberts_d_1.html)|[ORCiD](http://orcid.org/0000-0002-3478-0522)|[Publons](publons.com/a/430214/)
 
 If you need it, here is my email:  droberts.[fifth and largest-known [[Fermat prime]] ]@gmail.[etc]
 
@@ -16,43 +16,46 @@ If you need it, here is my email:  droberts.[fifth and largest-known [[Fermat pr
 
 ### Preprints
 
-* _Smooth loop stacks of differentiable stacks and gerbes_, [arXiv:1602.07973](http://arxiv.org/abs/1602.07973). Joint with [[nLab:Raymond Vozzo|Raymond Vozzo]]. Submitted for publication.
+* _Extending Whitney's extension theorem_, [arXiv:1801.04126](https://arxiv.org/abs/1801.04126). Joint with [[Alexander Schmeding]].
 
 
 ### Papers
 
-* _The smooth Hom-stack of an orbifold_, Joint with [[nLab:Raymond Vozzo|Raymond Vozzo]], [arXiv:1610.05904](https://arxiv.org/abs/1610.05904). To appear in the [2016 MATRIX Annals](https://www.matrix-inst.org.au/2016-matrix-annals/). (Accepted 13 December 2016) ([SpringerLink](http://www.springer.com/gp/book/9783319722986) - to be published 22 February 2018)
 
-* _Equivariant bundle gerbes_, [Advances in Theoretical and Mathematical Physics](http://intlpress.com/site/pub/pages/journals/items/atmp/_home/_main/)
+* _Smooth loop stacks of differentiable stacks and gerbes_, [arXiv:1602.07973](https://arxiv.org/abs/1602.07973). Accepted 15 January 2018 to appear, [[Cahiers de Topologie et Géométrie Différentielle Catégoriques]]. Joint with [[nLab:Raymond Vozzo|Raymond Vozzo]].
+
+* _The smooth Hom-stack of an orbifold_, [arXiv:1610.05904](https://arxiv.org/abs/1610.05904). To appear in the [2016 MATRIX Annals](https://www.matrix-inst.org.au/2016-matrix-annals/). (Accepted 13 December 2016) ([SpringerLink](https://www.springer.com/gp/book/9783319722986) - to be published March 2018). Joint with [[nLab:Raymond Vozzo|Raymond Vozzo]]
+
+* _Equivariant bundle gerbes_, [Advances in Theoretical and Mathematical Physics](https://intlpress.com/site/pub/pages/journals/items/atmp/_home/_main/)
  21 (2017) no. 4 pp 921-975, doi:[10.4310/ATMP.2017.v21.n4.a3
-](http://dx.doi.org/10.4310/ATMP.2017.v21.n4.a3
-), [arXiv:1506.07931](http://arxiv.org/abs/1506.07931). 
+](https://doi.org/10.4310/ATMP.2017.v21.n4.a3
+), [arXiv:1506.07931](https://arxiv.org/abs/1506.07931). 
 Joint with [[nLab:Michael Murray|Michael Murray]], [[nLab:Danny Stevenson|Danny Stevenson]] and [[nLab:Raymond Vozzo|Raymond Vozzo]]. 
 
-* _Quasi-periodic paths and a string 2-group model from the free loop group_, [Journal of Lie Theory](http://www.heldermann.de/JLT/jltcover.htm), 27 (2017), No. 4, 1151-1177. [journal version](http://www.heldermann.de/JLT/JLT27/JLT274/jlt27058.htm) (paywall), [arXiv:1702.01514](https://arxiv.org/abs/1702.01514). Joint with [[Michael Murray]] and [[Christoph Wockel]].  
+* _Quasi-periodic paths and a string 2-group model from the free loop group_, [Journal of Lie Theory](https://www.heldermann.de/JLT/jltcover.htm), 27 (2017), No. 4, 1151-1177. [journal version](https://www.heldermann.de/JLT/JLT27/JLT274/jlt27058.htm) (paywall), [arXiv:1702.01514](https://arxiv.org/abs/1702.01514). Joint with [[Michael Murray]] and [[Christoph Wockel]].  
 
-* _A bigroupoid's topology (or, Topologising the homotopy bigroupoid of a space)_, [Journal of Homotopy and Related Structures](http://link.springer.com/journal/40062) Volume 11, Issue 4 (2016) pp 923-942, doi:[10.1007/s40062-016-0160-0](http://dx.doi.org/10.1007/s40062-016-0160-0), [ReadCube](http://rdcu.be/l2yl), [arXiv:1302.7019](http://arxiv.org/abs/1302.7019).
+* _A bigroupoid's topology (or, Topologising the homotopy bigroupoid of a space)_, [Journal of Homotopy and Related Structures](https://link.springer.com/journal/40062) Volume 11, Issue 4 (2016) pp 923-942, doi:[10.1007/s40062-016-0160-0](https://doi.org/10.1007/s40062-016-0160-0), [ReadCube](http://rdcu.be/l2yl), [arXiv:1302.7019](https://arxiv.org/abs/1302.7019).
 
 * _On certain 2-categories admitting localisation by bicategories of
-  fractions_, [Applied Categorical Structures](http://link.springer.com/journal/10485) Volume 24, Issue 4 (2016) pp 373-384, doi:[10.1007/s10485-015-9400-4](http://dx.doi.org/10.1007/s10485-015-9400-4), [arXiv:1402.7108](http://arxiv.org/abs/1402.7108).
+  fractions_, [Applied Categorical Structures](https://link.springer.com/journal/10485) Volume 24, Issue 4 (2016) pp 373-384, doi:[10.1007/s10485-015-9400-4](http://dx.doi.org/10.1007/s10485-015-9400-4), [arXiv:1402.7108](http://arxiv.org/abs/1402.7108).
 
-* _Simplicial principal bundles in parameterized spaces_, [New York Journal of Mathematics](http://nyjm.albany.edu/) Volume 22 (2016) 405-440, [journal version](http://nyjm.albany.edu/j/2016/22-19.html), [arXiv:1203.2460](http://arxiv.org/abs/1203.2460), joint with [[nLab:Danny Stevenson|Danny Stevenson]].
+* _Simplicial principal bundles in parameterized spaces_, [New York Journal of Mathematics](https://nyjm.albany.edu/) Volume 22 (2016) 405-440, [journal version](https://nyjm.albany.edu/j/2016/22-19.html), [arXiv:1203.2460](https://arxiv.org/abs/1203.2460), joint with [[nLab:Danny Stevenson|Danny Stevenson]].
 
-* _A topological fibrewise fundamental groupoid_, [Homology, Homotopy and Applications](http://intlpress.com/site/pub/pages/journals/items/hha/_home/_main/index.html), Volume 17, Number 2 (2015) 37-51, doi:[10.4310/HHA.2015.v17.n2.a4](http://dx.doi.org/10.4310/HHA.2015.v17.n2.a4), [arXiv:1411.5779](http://arxiv.org/abs/1411.5779).
+* _A topological fibrewise fundamental groupoid_, [Homology, Homotopy and Applications](https://intlpress.com/site/pub/pages/journals/items/hha/_home/_main/index.html), Volume 17, Number 2 (2015) 37-51, doi:[10.4310/HHA.2015.v17.n2.a4](https://doi.org/10.4310/HHA.2015.v17.n2.a4), [arXiv:1411.5779](https://arxiv.org/abs/1411.5779).
 
-* _The weak choice principle WISC may fail in the category of sets_, [Studia Logica](http://link.springer.com/journal/11225) Volume 103, Issue 5 (2015) pp 1005-1017, doi:[10.1007/s11225-015-9603-6](http://dx.doi.org/10.1007/s11225-015-9603-6) [arXiv:1311.3074](http://arxiv.org/abs/1311.3074). 
+* _The weak choice principle WISC may fail in the category of sets_, [Studia Logica](https://link.springer.com/journal/11225) Volume 103, Issue 5 (2015) pp 1005-1017, doi:[10.1007/s11225-015-9603-6](https://doi.org/10.1007/s11225-015-9603-6) [arXiv:1311.3074](https://arxiv.org/abs/1311.3074). 
 
-* _The universal simplicial bundle is a simplicial group_, [New York Journal of Mathematics](http://nyjm.albany.edu/), Volume 19 (2013) 51-60, [journal version](http://nyjm.albany.edu/j/2013/19-5.html), [arXiv:1204.4886](http://arxiv.org/abs/1204.4886). 
+* _The universal simplicial bundle is a simplicial group_, [New York Journal of Mathematics](https://nyjm.albany.edu/), Volume 19 (2013) 51-60, [journal version](https://nyjm.albany.edu/j/2013/19-5.html), [arXiv:1204.4886](https://arxiv.org/abs/1204.4886). 
 
-* _On the existence of bibundles_, [Proc. London Math. Soc.](http://www.lms.ac.uk/publication/plms) (2012) 105 (6): 1290-1314, doi:[10.1112/plms/pds028](http://dx.doi.org/10.1112/plms/pds028), [arXiv:1102.4388](http://arxiv.org/abs/1102.4388). Joint with [[nLab:Michael Murray|Michael Murray]] and [[nLab:Danny Stevenson|Danny Stevenson]]
+* _On the existence of bibundles_, [Proc. London Math. Soc.](https://www.lms.ac.uk/publication/plms) (2012) 105 (6): 1290-1314, doi:[10.1112/plms/pds028](https://doi.org/10.1112/plms/pds028), [arXiv:1102.4388](https://arxiv.org/abs/1102.4388). Joint with [[nLab:Michael Murray|Michael Murray]] and [[nLab:Danny Stevenson|Danny Stevenson]]
 
-* _Internal categories, anafunctors and localisations_, [[Theory and Applications of Categories]], Vol. 26, 2012, No. 29, pp 788-829, [journal version](http://www.tac.mta.ca/tac/volumes/26/29/26-29abs.html), [arXiv:1101.2363](http://arxiv.org/abs/1101.2363)
+* _Internal categories, anafunctors and localisations_, [[Theory and Applications of Categories]], Vol. 26, 2012, No. 29, pp 788-829, [journal version](https://www.tac.mta.ca/tac/volumes/26/29/26-29abs.html), [arXiv:1101.2363](https://arxiv.org/abs/1101.2363)
 
-*  _Fundamental bigroupoids and 2-covering spaces_, PhD thesis, University of Adelaide (2010). [DSpace@Adelaide](http://digital.library.adelaide.edu.au/dspace/handle/2440/62680)
+*  _Fundamental bigroupoids and 2-covering spaces_, PhD thesis, University of Adelaide (2010). [DSpace@Adelaide](https://digital.library.adelaide.edu.au/dspace/handle/2440/62680)
 
-* _The inner automorphism 3-group of a strict 2-group_, [Journal of Homotopy and Related Structures](http://tcms.org.ge/Journals/JHRS/), vol. 3(1), 2008, pp.193&#8211;245, [journal version](http://tcms.org.ge/Journals/JHRS/volumes/2008/volume3-1.htm), [arXiv:0708.1741](http://arxiv.org/abs/0708.1741). Joint with [[nLab:Urs Schreiber|Urs Schreiber]].
+* _The inner automorphism 3-group of a strict 2-group_, [Journal of Homotopy and Related Structures](https://tcms.org.ge/Journals/JHRS/), vol. 3(1), 2008, pp.193&#8211;245, [journal version](https://tcms.org.ge/Journals/JHRS/volumes/2008/volume3-1.htm), [arXiv:0708.1741](https://arxiv.org/abs/0708.1741). Joint with [[nLab:Urs Schreiber|Urs Schreiber]].
 
-* _Yang-Mills theory for bundle gerbes_, [Journal of Physics A: Mathematical and Theoretical](http://iopscience.iop.org/1751-8121) 39:6039-6044, 2006, doi:[10.1088/0305-4470/39/20/027](http://dx.doi.org/10.1088/0305-4470/39/20/027), [arXiv:hep-th/0509037](http://arxiv.org/abs/hep-th/0509037). Joint with [[nLab:Mathai Varghese|Mathai Varghese]]
+* _Yang-Mills theory for bundle gerbes_, [Journal of Physics A: Mathematical and Theoretical](https://iopscience.iop.org/1751-8121) 39:6039-6044, 2006, doi:[10.1088/0305-4470/39/20/027](https://doi.org/10.1088/0305-4470/39/20/027), [arXiv:hep-th/0509037](https://arxiv.org/abs/hep-th/0509037). Joint with [[nLab:Mathai Varghese|Mathai Varghese]]
 
 
 ### In preparation
