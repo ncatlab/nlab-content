@@ -53,3 +53,4 @@ The weaker notion of [[applicative functors]] has also been used:
 
 * Oleg Kiselyov, _Applicative Abstract Categorial Grammars_, ([pdf](http://okmij.org/ftp/gengo/applicative-symantics/AACG.pdf))
 * Oleg Kiselyov, _Applicative Abstract Categorial Grammars in Full Swing_, ([pdf](http://okmij.org/ftp/gengo/applicative-symantics/AACG1.pdf))
+* Simon Charlow, _A modular theory of pronouns and binding_, ([pdf](http://ling.auf.net/lingbuzz/003720))
