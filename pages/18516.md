@@ -22,7 +22,7 @@
 
 ## Idea
 
-The _microcausal functionals_ on the space $C^\infty(X)$ of [[smooth functions]] on a [[globally hyperbolic spacetime]] $(X,e)$ are those which come from [[compactly supported distributions]] on some [[Cartesian product]] of copies of $X$ such that the [[wave front set]] of the distributions excludes those covectors to a point in $X^n$ all whose components are in the [[future cone]] or all whose components are in the [[past cone]]
+The _microcausal functionals_ on the space $C^\infty(X)$ of [[smooth functions]] on a [[globally hyperbolic spacetime]] $(X,e)$ are those which come from [[compactly supported distributions]] on some [[Cartesian product]] of copies of $X$ such that the [[wave front set]] of the distributions excludes those covectors to a point in $X^n$ all whose components are in the [[closed future cone]] or all whose components are in the [[closed past cone]]
 
 These functionals underly the [[Wick algebra]] of [[free field theories]]. The condition on the wave front is such that the [[product of distributions]] with a [[Hadamard distribution]] is well defined, so that the coresponding [[Moyal star product]] is well defined, which gives the [[Wick algebra]]. At the same time the condition includes [[local observables]] and hence in particular the usual ([[adiabatic switching|adiabatically switched]]) point-[[interaction]] terms, such as of [[phi^4 theory]].
 
@@ -106,7 +106,7 @@ $$
 ###### Definition
 **([[microcausal observable]])**
 
-For $\Sigma$ a [[spacetime]], hence a [[Lorentzian manifold]] with [[time orientation]], then a _[[microcausal observable]]_ is a [[polynomial observable]] (def. \ref{PolynomialObservable}) such that each [[coefficient]] $\alpha^{(k)}$ has [[wave front set]] excluding those points  where all $k$ [[wave vectors]] are in the [[future cone]] or all in the [[past cone]].
+For $\Sigma$ a [[spacetime]], hence a [[Lorentzian manifold]] with [[time orientation]], then a _[[microcausal observable]]_ is a [[polynomial observable]] (def. \ref{PolynomialObservable}) such that each [[coefficient]] $\alpha^{(k)}$ has [[wave front set]] excluding those points  where all $k$ [[wave vectors]] are in the [[closed future cone]] or all in the [[closed past cone]].
 
 =--
 
@@ -154,16 +154,24 @@ If here we think of $\phi(x)^n$ as a point-[[interaction]] term (as for instance
 +-- {: .proof}
 ###### Proof
 
-For notational convenience, consider the case of the [[scalar field]] with $k = 2$; the general case is directly analogous. The distribution in question is the [[delta distribution]]
+
+For notational convenience, consider the case of the [[scalar field]] with $k = 2$; the general case is directly analogous. Then the [[local observable]] coming from $\phi^2$ (a [[phi^n interaction]]-term), has, regarded as a [[polynomial observable]], the [[delta distribution]] $\delta(x_1-x_2)$ as [[coefficient]] in degree 2:
 
 $$
   \begin{aligned}
     A(\Phi)
     & =
-    \int_X g(x) (\Phi(x))^2 \,dvol_\Sigma(x)
+    \underset{\Sigma}{\int} g(x) (\Phi(x))^2 \,dvol_\Sigma(x)
     \\
     & =
-    \int_{\Sigma \times \Sigma} g(x_1) \Phi(x_1) \Phi(x_2) \, dvol_\Sigma(x_1) \, dvol_\Sigma(x_2)
+    \underset{\Sigma \times \Sigma}{\int} 
+      \underset{ = \alpha^{(2)}}{
+      \underbrace{
+        g(x_1)
+        \delta(x_1 - x_2)
+      }}
+      \, 
+     \Phi(x_1) \Phi(x_2) \, dvol_\Sigma(x_1) \, dvol_\Sigma(x_2)
   \end{aligned}
   \,.
 $$
@@ -174,7 +182,11 @@ $$
   \begin{aligned}
     (k_1, k_2)
       & \mapsto
-     \int_{\mathbb{R}^{2n}} g(x_1) \delta(x_1, x_2) \exp( k_1 \cdot x_1 + k_2 \cdot x_2 ) dvol_\Sigma(x_1) \, dvol_\Sigma(x_2)
+      \underset{\mathbb{R}^{2n}}{\int} 
+      g(x_1) 
+      \delta(x_1, x_2) 
+      e^{i (k_1 \cdot x_1 + k_2 \cdot x_2 )} 
+      \, dvol_\Sigma(x_1) \, dvol_\Sigma(x_2)
     \\
     & \propto \hat g(k_1 + k_2)
    \end{aligned}
@@ -189,7 +201,7 @@ Since $g$ is a plain [[bump function]], its [[Fourier transform]] $\hat g$ is qu
 <img src="https://ncatlab.org/nlab/files/WaveFrontSetOfDeltaDistributionInTwoVariables.png" width="200"/>
 </div>
 
-{#WaveFrontOfdeltaxy} This means that the wave front set consists of the elements of the form $(x, (k, -k))$ with $k \neq 0$. Since $k$ and $-k$ are both in the [[future cone]] or both in the past cone precisely if $k = 0$, this situation is excluded in the wave front set and hence the distribution $g \cdot \delta(-,-)$ is [[microcausal observable|microcausal]].
+{#WaveFrontOfdeltaxy} This means that the wave front set consists of the elements of the form $(x, (k, -k))$ with $k \neq 0$. Since $k$ and $-k$ are both in the [[closed future cone]] or both in the [[closed past cone]] precisely if $k = 0$, this situation is excluded in the wave front set and hence the distribution $g \cdot \delta(-,-)$ is [[microcausal observable|microcausal]].
 
 > (graphics grabbed from [Khavkine-Moretti 14, p. 45](#KhavkineMoretti14))
 
