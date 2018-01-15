@@ -34,11 +34,13 @@ In [[perturbative AQFT]] the issue is dealt with by realizing that, despite supe
 
 ## Related concepts
 
-* [[pAQFT]]
+* [[infraparticle]]
+
+* [[interacting vacuum]]
 
 * [[ultraviolet divergence]]
 
-* [[infraparticle]]
+* [[pAQFT]]
 
 
 ## References
