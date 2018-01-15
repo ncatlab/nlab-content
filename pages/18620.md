@@ -29,7 +29,9 @@ Much more recently it was shown that Bogoliubov's formula indeed expresses quant
 Let $\Sigma$ be a [[spacetime]] of [[dimension]] $p + 1$ and let $E \overset{fb}{\longrightarrow} \Sigma$ be a [[field bundle]]. Let $\mathbf{L}_{free}\in \Omega^{p+1,0}_\Sigma(E)$ be a [[local Lagrangian density]] for a [[free field theory]] with [[field (physics)|fields]] of type $E$. Let $\mathcal{W}$ be the corresponding [[Wick algebra]] of [[quantum observables]] of the free field, with 
 
 $$
-  \mathcal{F}_{loc} \overset{:(-):}{\longrightarrow} \mathcal{W}
+  LocObs(E_{\text{BV-BRST}}) 
+    \overset{:(-):}{\longrightarrow} 
+  PolyObs(E_{\text{BV-BRST}})
 $$
 
 the corresponding quantization map from [[local observables]] ("[[normal ordering]]").
@@ -37,34 +39,29 @@ the corresponding quantization map from [[local observables]] ("[[normal orderin
 Let then 
 
 $$
-  S
+  \mathcal{S}
   \;\colon\;
-  \mathcal{F}_{loc}\langle g,j\rangle 
+  LocObs(E_{\text{BV-BRST}})[ [\hbar, g, j] ]
     \longrightarrow 
-  \mathcal{W}[ [ g/\hbar ] ][ [ j/\hbar ] ]
+  PolyObs(E_{\text{BV-BRST}})((\hbar))[ [g,j] ]
 $$ 
 
-be a  [[perturbative S-matrix]]. Moreover let
+be a  [[perturbative S-matrix]] scheme. Moreover let
 
 $$
-  g_{sw} \mathbf{L}_{int} \in \mathcal{F}_{loc}\langle g\rangle
+  g S_{int} \in LocObs(E_{\text{BV-BRST}})[ [\hbar, g] ]
 $$ 
 
 be an [[adiabatic switching|adiabatically switched]]
-[[interaction]] [[Lagrangian density]], so that the full Lagrangian density is
-
-$$
-  \mathbf{L} = \mathbf{L}_{free} + g \mathbf{L}_{int}
-  \,.
-$$
+[[interaction]]-[[action functional|functional]].
 
 
 For $A \in \mathcal{F}_{loc}$ a [[local observable]] and $j \in C^\infty_{cp}(\Sigma)$, write
 
 $$
-  Z_L(\epsilon j A)
+  \mathcal{Z}_{g S_{int}}(j A)
   \; \coloneqq \;
-  S(g_{sw}\mathbf{L}_{int})^{-1} S( g_{sw}\mathbf{L}_{int} + j A )
+  \mathcal{S}(g S_{int})^{-1} \mathcal{S}( g S_{int} + j A )
 $$
 
 for the [[generating function]] induced by the perturbative [[S-matrix]] (where the product shown by juxtaposition is that in the [[Wick algebra]], hence the [[star product]] induced by the [[Wightman propagator]]).
@@ -75,36 +72,32 @@ for the [[generating function]] induced by the perturbative [[S-matrix]] (where 
 ###### Definition
 **([[Bogoliubov's formula]])**
 
-
-The perturbative
-[[quantum observable]] $\widehat{A}$ corresponding to $A$ is the [[operator-valued distribution]]
+The perturbative [[interacting field observable]] 
 
 $$
-  \widehat{A}
-  \;\colon\;
-  C^\infty_c(\Sigma)
-    \longrightarrow
-  \mathcal{W}[ [ g ] ][ [ \hbar ] ]
-$$
+  A_{int}
+  \;\in\;
+  PolyObs(E_{\text{BV-BRST}})[ [ \hbar, g] ]
+$$ 
 
-which is the [[derivative]] of the generating functional $Z$ ([this def.](S-matrix#PerturbativeSMatrixOnMinkowskiSpacetime)) at vanishing [[source field]]:
+corresponding to a [[free field]] [[local observable]] $A \in LocObs(E_{\text{BV-BRST}})$ is the [[coefficient]] in the [[generating function]] $\mathcal{S}$ ([this def.](S-matrix#SchemeGeneratingFunction)) of the term linear in the [[source field]] strenght $j$:
 
 $$
-  \widehat{A}(j)
+  A_{int}
     \;\coloneqq\;
-  \tfrac{1}{i \hbar} \frac{d}{d \epsilon} Z_{g_{sw} L_{int}}( \epsilon j  A)\vert_{\epsilon = 0}
+  i \hbar \frac{d}{d  j } \mathcal{Z}_{ g S_{int}}( j  A)\vert_{j = 0}
   \,.
 $$
 
 
 =--
 
-This definition of $\widehat{A}$ without the [[adiabatic switching]] $g_{sw}$ is originally due to [Bogoliubov-Shirkov 59](#BogoliubovShirkov59), later named _Bogoliubov's formula_ (e.g. [Rejzner 16 (6.12)](#Rejzner16)).
-The version with adiabatic switching is due to ([Epstein-Glaser 73 around (74)](#EpsteinGlaser73)). Review includes ([D&#252;tsch-Fredenhagen 00, around (17)](#DuetschFredenhagen00)).
+This is due to [Bogoliubov-Shirkov 59](#BogoliubovShirkov59), later named _Bogoliubov's formula_ (e.g. [Rejzner 16 (6.12)](#Rejzner16)).
+Based on this [[causal perturbation theory]] was formulated in ([Epstein-Glaser 73 around (74)](#EpsteinGlaser73)). Review includes ([D&#252;tsch-Fredenhagen 00, around (17)](#DuetschFredenhagen00)).
 
-This assignment is also called the _[[quantum Møller operator]]_.
+The assignment $A \mapsto A_{int}$ is also called the _[[quantum Møller operator]]_.
 
-The [[coefficients]] of $\widehat{A}(j)$ as a [[formal power series]] in the [[coupling constant]] and [[Planck's constant]] are called the _[[retarded products]]_.
+The [[coefficients]] of $A_{int}$ as a [[formal power series]] in the [[coupling constant]] and [[Planck's constant]] are called the _[[retarded products]]_.
 
 
 +-- {: .num_remark #PowersInPlancksConstant}
@@ -116,12 +109,12 @@ That the observables as defined in def. \ref{GeneratingFunctionsForCorrelationFu
 The explicit $\hbar$-dependence of the perturbative [[S-matrix]] is 
 
 $$
-  S(g_{sw} L_{int} + j_{sw} A)
+  \mathcal{S}(g S_{int} + j A)
   = 
   T \exp\left(
     \tfrac{1}{i \hbar}
      \left(
-       g_{sw} L_{int} + j_{sw} A
+       g S_{int} + j A
      \right)
   \right)
   \,,
@@ -130,9 +123,9 @@ $$
 where $T(-)$ denotes [[time-ordered products]]. The generating function
 
 $$
-  Z_{g_{sw}L_{int}}(j A)
+  \mathcal{Z}_{S_{int}}(j A)
   \;\coloneqq\;
-  S(g_{sw}L_{int})^{-1} \star S(g_{sw}L_{int} + j_{sw} A)
+  \mathcal{S}(S_{int})^{-1} \star_H \mathcal{S}(g S_{int} + j A)
 $$
 
 involves the [[star product]] of the free theory (the [[normal-ordered product]] of the [[Wick algebra]]). This is a [[formal deformation quantization]] of the [[Peierls-Poisson bracket]], and therefore the [[commutator]] in this algebra is a [[formal power series]] in $\hbar$ that however has no constant term in $\hbar$ (but starts out with $\hbar$ times the [[Poisson bracket]], followed by possibly higher order terms in $\hbar$):
@@ -148,14 +141,14 @@ $$
   \begin{aligned}
     \hat A
     & \coloneqq
-    \tfrac{1}{i \hbar} \frac{d}{d \epsilon}
-    Z_{g_{sw}L_{int}}(\epsilon j A)\vert_{\epsilon = 0}
+    i \hbar \frac{d}{d j }
+    \mathcal{Z}_{ S_{int}}(j A)\vert_{j  = 0}
     \\
     & =
     \exp\left(
-      \tfrac{1}{i \hbar}[g_{sw}L_{int}, -]
+      \tfrac{1}{i \hbar}[g S_{int}, -]
     \right)
-    (j A)
+    (A)
   \end{aligned}
   \,.
 $$
