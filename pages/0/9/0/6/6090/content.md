@@ -1728,9 +1728,9 @@ Now since one of the two arguments of the [[star product]] is assumed to be a [[
 
 $$
   \left(
-    \underset{i}{\prod} D^{n_i}_x\Delta_H(x,y)
+    \underset{i}{\prod} D^{n_i}_x\Delta_H(x,y_i)
   \right)
-  \alpha^{(n)}( \underset{k\,\text{args}}{\underbrace{y, y, \cdots, y}}, z_1, \cdots, z_m)
+  \alpha^{(n)}( y_1, \cdots, y_k, z_1, \cdots, z_m)
   \,,
 $$
 
@@ -1739,8 +1739,8 @@ where $D^{n_1}$ denoted [[partial derivatives|partial]] [[derivatives of distrib
 Since the [[derivative of distributions]] preserves or shrinks the [[wave front set]] (by [this prop.](derivative+of+a+distribution#DerivativeOfDistributionRetainsOrShrinksWaveFrontSet))it is sufficient to see that among these the expressions those of the simpler form
 
 $$
-  (\Delta_H(x,y))^{k}
-  \alpha^{(n)}(y, y, \cdots, y, z_1, \cdots, z_m)
+  (\underset{i}{\prod}\Delta_H(x,y_i))
+  \alpha^{(n)}(y_1, \cdots, y_k, z_1, \cdots, z_m)
 $$
 
 exist as partial [[products of distributions|products of]] [[distributions of several variables]]. 
