@@ -23,7 +23,7 @@
 
 ## Idea
 
-An _integral transform_ on [[functions]] is a [[linear map]] between functions on [[space]]s $X$, $Y$ encoded by a function $K$ on the [[product]] space $X \times Y$ and given by a formula of the type
+An _integral transform_ on [[functions]] is a [[linear map]] between functions on [[spaces]] $X$, $Y$ encoded by a function $K$ (or [[generalized function]], e.g. [[distribution of two variables]]) on the [[product]] space $X \times Y$ and given by a formula of the type
 
 $$
   (function\;f\;on\;X) \mapsto
@@ -42,6 +42,8 @@ Typically the definition of an integral transform on functions involves some del
 On the other hand, one may understand the general form of an integral transform as the [[decategorification]] of a very natural general abstract construction in [[higher category theory]]: that of [[integral transforms on sheaves]] given by spans of [[base change geometric morphism]]s.
 
 Special cases of such [[categorification|categorified]] integral transforms are discussed at
+
+* [[Schwartz kernel]] ([[distribution of two variables]])
 
 * [[Fourier-Mukai transform]], [[topological T-duality]]
 
