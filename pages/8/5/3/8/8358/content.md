@@ -36,7 +36,7 @@ There are a number of approaches toward constructing realizability toposes. One 
 
 ### Via tripos theory 
 
-...
+See [[tripos]].
 
 
 ### Via assemblies 
