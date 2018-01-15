@@ -2207,199 +2207,119 @@ is bounded by the given Feynman propagators.
 
 +-- {: .num_defn #TuplesOfCompactlySupportedPolynomialLocalFunctionalsWithPairwiseDisjointSupport}
 ###### Definition
+**([[tuples]] of [[local observables]] with pairwise disjoint spacetime support)**
+
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}.
 
 For $k \in \mathbb{N}$, write
 
 $$
-  \left(\mathcal{F}_{loc}\langle g,j\rangle\right)^{\otimes^k}_{pds}
+  \left(
+    {\, \atop \,}
+    LocPoly(E_{\text{BV-BRST}})[ [ \hbar, g, j ] ] 
+    {\, \atop \,}
+  \right)^{\otimes^k_{\mathbb{C}[ [\hbar, g, j ] ]}}_{pds}
   \hookrightarrow
-  \left(\mathcal{F}_{loc}\langle g,j\rangle\right)^{\otimes^k}
+  \left(
+    {\, \atop \,}
+    LocPoly(E_{\text{BV-BRST}})[ [ \hbar, g, j ] ] 
+    {\, \atop \,}
+  \right)^{\otimes^k_{\mathbb{C}[ [\hbar, g, j ] ]}}
 $$
 
-for the subspace of the $k$-fold [[tensor product]] of the space of compactly supported polynomial
-local densities (def. \ref{CompactlySupportedPolynomialLocalDensities}) on those [[tuples]]
-which have pairwise disjoint spacetime [[support]].
-
-=--
-
-+-- {: .num_prop #TimeOrderedProductAwayFromDiagonal}
-###### Proposition
-**([[time-ordered product]] away from the diagonal)**
-
-Restricted to $\left(\mathcal{F}_{loc}\langle g,j\rangle\right)^{\otimes^k}_{pds}$
-(def. \ref{TuplesOfCompactlySupportedPolynomialLocalFunctionalsWithPairwiseDisjointSupport})
-there is a unique [[time-ordered product]] (def. \ref{TimeOrderedProduct}),
-given by the [[star product]] that is induced by the [[Feynman propagator]] $\omega_F$
+for the linear subspace of the $k$-fold [[tensor product]] of [[local observables]] (as in def. \ref{LagrangianFieldTheoryPerturbativeScattering}, def. \ref{TimeOrderedProduct}) on those tensor products $A_1 \otimes \cdots A_k$ of [[tuples]] with disjoint spacetime [[support]]:
 
 $$
-  F \star_{\omega_F} G
-  \;\coloneqq\;
-  prod \circ
-  \exp\left(
-   \hbar
-   \left\langle
-     \omega_F , \frac{\delta}{\delta \phi} \otimes \frac{\delta}{\delta \phi}
-   \right\rangle
-  \right)
-  (F \otimes G)
-$$
-
-in that
-
-$$
-  T( L_1 \cdots L_k )
-  =
-  L_1 \star_{\omega_F} L_2 \star_{\omega_F} \cdots \star_{\omega_F} L_k
+  supp(A_j) \cap supp(A_k) = \emptyset
+  \phantom{AAA}
+  \text{for} $i \neq j \in \{1, \cdots, k\}$
   \,.
 $$
 
 =--
 
++-- {: .num_prop #TimeOrderedProductAwayFromDiagonal}
+###### Proposition
+**([[time-ordered product]] away from coinciding interaction points)**
+
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}, and let $T = \{T_k\}_{k \in \mathbb{N}}$ be a sequence of [[time-ordered products]] (def. \ref{TimeOrderedProduct})
+
+$$
+  T_k
+    \;\colon\;
+  \left(
+    {\, \atop \,}
+    LocObs(E_{\text{BV-BRST}})[ [\hbar, g, j] ]
+    {\, \atop \,}
+  \right)^{\otimes^k_{\mathcal{C}[ [\hbar, g, j] ]}}
+    \longrightarrow
+  PolyObs(E_{\text{BV-BRST}})_{reg}((\hbar))[ [g , j] ]
+$$
+
+Then their [[restriction]] to the subspace of [[tuples]] of [[local observables]] of pairwise disjoint spacetime support (def. \ref{TuplesOfCompactlySupportedPolynomialLocalFunctionalsWithPairwiseDisjointSupport}) is unique (independent of the [[renormalization|"re-"normalization]] freedom in choosing $T$) and is equal to the [[star product]] 
+
+$$
+  A_1 \star_{\star_F} A_2
+  \;\coloneqq\;
+  ((-)\cdot (-)) \circ
+  \exp\left(
+   \hbar
+   \left(
+     \underset{\Sigma \times \Sigma}{\int}
+     \Delta_F^{a b}(x,y)
+     \frac{\delta}{\delta \mathbf{\Phi}^a(x)}
+     \otimes
+     \frac{\delta}{\delta \mathbf{\Phi}^b(y)}
+     \,
+     dvol_\Sigma(x)\, dvol_\Sigma(y)
+   \right)   
+  \right)
+  (A_1 \otimes A_2)
+$$
+
+that is induced ([this def.](star+product#PropagatorStarProduct)) by the [[Feynman propagator]] $\Delta_F \coloneqq \tfrac{i}{2}(\Delta_+ + \Delta_- + H)$ (corresponding to the [[Wightman propagator]] $\Delta_H = \tfrac{i}{2}(\Delta_+ - \Delta_-) + H$ which is given by the choice of [[free field|free]] [[vacuum]]), in that
+
+$$
+  T
+  \left(
+    {\, \atop \,}
+    (g S_{int} + j A), \cdots, (g S_{int} + j A) 
+    {\, \atop \,}
+  \right)
+  \;=\;
+  (g S_{int} + j A) 
+    \star_F 
+    \cdots 
+    \star_F 
+  (g S_{int} + j A)
+  \,.
+$$
+
+=--
+
+([Rejzner 16, def. 6.5](#Rejzner16))
+
 +-- {: .proof}
 ###### Proof
 
-Since the [[singular support]] of the [[Feynman propagator]] is on the [[diagonal]],
-and since the support of elements in $\left(\mathcal{F}_{loc}\langle g,j\rangle\right)^{\otimes^k}_{pds}$
-is by definition in the complement of the diagonal, the star product $\star_{\omega_F}$ is well defined.
-By construction it satisfies the axioms "perturbation" and "normalization" in def. \ref{TimeOrderedProduct}.
-The only non-trivial point to check is that it indeed satisfies "[[causal factorization]]":
+First we need to see that the star product $\star_F$ is well defined on the given domain, in that [[Hörmander's criterion]] is met to guarantee that all [[products of distributions]] involved in expanding out the [[exponential]] in the definition of the star-product are well defined:
 
-Unwinding the definition of the [[Hadamard state]] $\omega$ and the [[Feynman propagator]] $\omega_F$, we have
+By [this prop.](Feynman+propagator#WaveFronSetsForKGPropagatorsOnMinkowski) the [[wave front set]] of the Feynman propagator $\Delta_H(x,y) = \Delta_H(x-y)$ contains all [[future]]-directed [[lightlike]] [[wave vectors]] based on the future [[light cone]], and all [[past]]-directed [[lightlike]] [[wave vectors]] on the past [[light cone]]. 
 
-$$
-  \begin{aligned}
-    \omega & = \tfrac{i}{2}( \Delta_R - \Delta_A ) + H
-    \\
-    \omega_F & = \tfrac{i}{2}( \Delta_R + \Delta_A ) + H
-  \end{aligned}
-$$
+<center>
+<img src="https://ncatlab.org/nlab/files/FeynmanPropagator.png" width="60">
+</center>
 
-where the propagators on the right have, in particular, the following properties:
+This means that whenever $x \neq y$, then the set of [[wave vectors]] in the wave front set of $\Delta_F$ at $x-y$ is either empty, or else all its elements are future-pointing, or all its elements are past-pointing. 
 
-1. the [[advanced propagator]] vanishes when its first argument is not in the causal [[past]] of its second argument (def. \ref{CausalOrdering}):
+> hm, no, it doesn't !?
 
-   $$
-     (supp(F) {\vee\!\!\!\wedge} supp(G))
-     \;\Rightarrow\;
-     \left(
-       \left\langle \Delta_A , \frac{\delta F}{\delta \phi} \otimes \frac{\delta G}{\delta \phi}  \right\rangle = 0
-     \right)
-     \,.
-   $$
+Notice that this is the condition which is met by the [[Wightman propagator]] for _all_ $x,y$ (including $x = y$), and hence now the argument in the proof that the Wightman propagator induces a well-defined star-product on [[microcausal observables]] ([this prop.](Wick+algebra#MoyalStarProductOnMicrocausal)) applies verbatim also for the Feynman propagator away from coinciding points: 
 
-1. the [[retarded propagator]] equals the [[advanced propagator]] with arguments switched:
+By [this prop.](microcausal+polynomial+observable#CompactlySupportedPolynomialLocalDensities) all polynomial [[local observables]], when regarded as [[polynomial observables]], are [[microcausal polynomial observable|microcausal]], meaning that the [[wave front sets]] of their [[coefficient]] [[distributions]] $\alpha^{(k)}$ are such that at every point of $\Sigma^k$ the [[wave vectors]] in the wave front set do not all point to the future and not all to the past. Since we just saw that they do so for the [[Feynman propagator]] away from coinciding points, this implies that [[Hörmander's criterion]] for the product of $\Delta_F$ with $\alpha^{(k)}$ is always met, away from coinciding points, and so the star product is well defined.
 
-   $$
-     \left\langle \Delta_R , \frac{\delta F}{\delta \phi} \otimes \frac{\delta G}{\delta \phi} \right\rangle
-       =
-     \left\langle \Delta_A , \frac{\delta G}{\delta \phi} \otimes \frac{\delta F}{\delta \phi} \right\rangle
-   $$
-
-1. $H$ is symmetric:
-
-   $$
-     \left\langle H, \frac{\delta F}{\delta \phi} \otimes \frac{\delta G}{\delta \phi} \right\rangle
-     =
-     \left\langle H, \frac{\delta G}{\delta \phi} \otimes \frac{\delta F}{\delta \phi} \right\rangle
-   $$
-
-It follows for [[causal ordering]] $supp(F) {\vee\!\!\!\wedge} supp(G)$ ([this def.](A+first+idea+of+quantum+field+theory#CausalOrdering)) that
-
-$$
-  \begin{aligned}
-    F \star_{\omega_F} G
-    & =
-    prod \circ \exp\left(
-      \hbar
-      \left\langle  \omega_F , \frac{\delta }{\delta \phi} \otimes \frac{\delta}{\delta \phi}  \right\rangle
-    \right)
-    ( F \otimes G )
-    \\
-    & =
-    prod \circ
-    \exp\left(
-      \hbar
-      \left\langle  \tfrac{i}{2}( \Delta_R + \Delta_A ) + H  , \frac{\delta }{\delta \phi} \otimes \frac{\delta}{\delta \phi}  \right\rangle
-    \right)
-    ( F \otimes G )
-    \\
-    & =
-    prod \circ
-    \exp\left(
-      \hbar
-      \left\langle  \tfrac{i}{2}\Delta_R + H  , \frac{\delta }{\delta \phi} \otimes \frac{\delta}{\delta \phi}  \right\rangle
-    \right)
-    ( F \otimes G )
-    \\
-    & =
-    prod \circ
-    \exp\left(
-      \hbar
-      \left\langle  \tfrac{i}{2}( \Delta_R - \Delta_A ) + H  , \frac{\delta }{\delta \phi} \otimes \frac{\delta}{\delta \phi}  \right\rangle
-    \right)
-    ( F \otimes G )
-    \\
-    & =
-    prod \circ
-    \exp\left(
-      \hbar
-      \left\langle  \omega , \frac{\delta }{\delta \phi} \otimes \frac{\delta}{\delta \phi}  \right\rangle
-    \right)
-    ( F \otimes G )
-    \\
-    & =
-    F \star_{\omega} G
-  \end{aligned}
-$$
-
-and for $supp(G) {\vee\!\!\!\wedge} supp(F)$ that
-
-$$
-  \begin{aligned}
-    F \star_{\omega_F} G
-    & =
-    prod \circ \exp\left(
-      \hbar
-      \left\langle  \omega_F , \frac{\delta }{\delta \phi} \otimes \frac{\delta}{\delta \phi}  \right\rangle
-    \right)
-    ( F \otimes G )
-    \\
-    & =
-    prod \circ \exp\left(
-      \hbar
-      \left\langle  \tfrac{i}{2}( \Delta_R + \Delta_A ) + H  , \frac{\delta }{\delta \phi} \otimes \frac{\delta}{\delta \phi}  \right\rangle
-    \right)
-    ( F \otimes G )
-    \\
-    & =
-    prod \circ \exp\left(
-      \hbar
-      \left\langle  \tfrac{i}{2} \Delta_A + H  , \frac{\delta }{\delta \phi} \otimes \frac{\delta}{\delta \phi}  \right\rangle
-    \right)
-    ( F \otimes G )
-    \\
-    & =
-    prod \circ \exp\left(
-      \hbar
-      \left\langle  \tfrac{i}{2} \Delta_R + H  , \frac{\delta }{\delta \phi} \otimes \frac{\delta}{\delta \phi}  \right\rangle
-    \right)
-    ( G \otimes F )
-    \\
-    & =
-    prod \circ \exp\left(
-      \hbar
-      \left\langle  \tfrac{i}{2} (\Delta_R - \Delta_A) + H  , \frac{\delta }{\delta \phi} \otimes \frac{\delta}{\delta \phi}  \right\rangle
-    \right)
-    ( G \otimes F )
-    \\
-    & =
-    G \star_{\omega} F
-    \,.
-  \end{aligned}
-$$
-
-This shows that $\star_F$ is a consistent time-ordered product on the subspace of functionals
-with disjoint support. It is immediate from the above that it is the unique solution on this subspace.
+Given that it exists, then by construction it is immediate that satisfies the axioms "perturbation" and "normalization" in def. \ref{TimeOrderedProduct}.
+The only non-trivial point to check is that it indeed satisfies "[[causal factorization]]". In [this prop.](Wick+algebra#CausalOrderingTimeOrderedProductOnRegular) this is proven for $\star_F$ applied to [[regular polynomial observables]], but the proof manifestly applies whenever $\star_F$ is defined. The proof there also makes manifest that when defined $\star_F$ is in fact the _unique_ solution to causal factorization.
 
 =--
 
