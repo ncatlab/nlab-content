@@ -1608,6 +1608,363 @@ Here the sub-sum in brackets vanishes by the inversion formula, prop. \ref{Inver
 =--
 
 
+#### ("Re"-)Normalization
+ {#ExistenceAndRenormalization}
+
+So far we considered only the [[axioms]] on a consistent perturbative [[S-matrix]] scheme (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) or equivalently on [[time-ordered products]] (def. \ref{TimeOrderedProduct} prop. \ref{TimeOrderedProductInducesPerturbativeSMatrix}). 
+Now we discuss the process of the actual construction of [[time-ordered products]], hence of perturbative [[S-matrices]], by the process called _[[renormalization|("re"-)normalization]] 
+
+We first discuss how [[time-ordered product]], and hence the perturbative S-matrix [above](#PerturbativeSMatrixAndTimeOrderedProducts),
+is uniquely determined away from the locus where interaction points coincide (prop. \ref{TimeOrderedProductAwayFromDiagonal} below).
+Moreover, we discuss how on that locus the time-ordered product is naturally expressed as a sum
+of [[products of distributions]] of [[Feynman propagators]] that are labeled by [[Feynman diagrams]]: the _[[Feynman perturbation series]]_ (prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints} below).
+
+This means that the full  [[time-ordered product]] is an [[extension of distributions]] to the locus of coinciding vertices. The space of possible such extensions turns out to be finite-dimensional in each order of $g/\hbar, j/\hbar$, parameterizing the choice of
+[[point-supported distributions]] at the interaction points whose [[degree of a distribution|scaling degree]]
+is bounded by the given Feynman propagators.
+
++-- {: .num_defn #TuplesOfCompactlySupportedPolynomialLocalFunctionalsWithPairwiseDisjointSupport}
+###### Definition
+**([[tuples]] of [[local observables]] with pairwise disjoint spacetime support)**
+
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}.
+
+For $k \in \mathbb{N}$, write
+
+$$
+  \left(
+    {\, \atop \,}
+    LocPoly(E_{\text{BV-BRST}})[ [ \hbar, g, j ] ] 
+    {\, \atop \,}
+  \right)^{\otimes^k_{\mathbb{C}[ [\hbar, g, j ] ]}}_{pds}
+  \hookrightarrow
+  \left(
+    {\, \atop \,}
+    LocPoly(E_{\text{BV-BRST}})[ [ \hbar, g, j ] ] 
+    {\, \atop \,}
+  \right)^{\otimes^k_{\mathbb{C}[ [\hbar, g, j ] ]}}
+$$
+
+for the linear subspace of the $k$-fold [[tensor product]] of [[local observables]] (as in def. \ref{LagrangianFieldTheoryPerturbativeScattering}, def. \ref{TimeOrderedProduct}) on those tensor products $A_1 \otimes \cdots A_k$ of [[tuples]] with disjoint spacetime [[support]]:
+
+$$
+  supp(A_j) \cap supp(A_k) = \emptyset
+  \phantom{AAA}
+  \text{for} $i \neq j \in \{1, \cdots, k\}$
+  \,.
+$$
+
+=--
+
++-- {: .num_prop #TimeOrderedProductAwayFromDiagonal}
+###### Proposition
+**([[time-ordered product]] away from coinciding interaction points)**
+
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}, and let $T = \{T_k\}_{k \in \mathbb{N}}$ be a sequence of [[time-ordered products]] (def. \ref{TimeOrderedProduct})
+
+$$
+  T_k
+    \;\colon\;
+  \left(
+    {\, \atop \,}
+    LocObs(E_{\text{BV-BRST}})[ [\hbar, g, j] ]
+    {\, \atop \,}
+  \right)^{\otimes^k_{\mathcal{C}[ [\hbar, g, j] ]}}
+    \longrightarrow
+  PolyObs(E_{\text{BV-BRST}})_{reg}((\hbar))[ [g , j] ]
+$$
+
+Then their [[restriction]] to the subspace of [[tuples]] of [[local observables]] of pairwise disjoint spacetime support (def. \ref{TuplesOfCompactlySupportedPolynomialLocalFunctionalsWithPairwiseDisjointSupport}) is unique (independent of the [[renormalization|"re-"normalization]] freedom in choosing $T$) and is equal to the [[star product]] 
+
+$$
+  A_1 \star_{\star_F} A_2
+  \;\coloneqq\;
+  ((-)\cdot (-)) \circ
+  \exp\left(
+   \hbar
+   \left(
+     \underset{\Sigma \times \Sigma}{\int}
+     \Delta_F^{a b}(x,y)
+     \frac{\delta}{\delta \mathbf{\Phi}^a(x)}
+     \otimes
+     \frac{\delta}{\delta \mathbf{\Phi}^b(y)}
+     \,
+     dvol_\Sigma(x)\, dvol_\Sigma(y)
+   \right)   
+  \right)
+  (A_1 \otimes A_2)
+$$
+
+that is induced ([this def.](star+product#PropagatorStarProduct)) by the [[Feynman propagator]] $\Delta_F \coloneqq \tfrac{i}{2}(\Delta_+ + \Delta_- + H)$ (corresponding to the [[Wightman propagator]] $\Delta_H = \tfrac{i}{2}(\Delta_+ - \Delta_-) + H$ which is given by the choice of [[free field|free]] [[vacuum]]), in that
+
+$$
+  T
+  \left(
+    {\, \atop \,}
+    (g S_{int} + j A), \cdots, (g S_{int} + j A) 
+    {\, \atop \,}
+  \right)
+  \;=\;
+  (g S_{int} + j A) 
+    \star_F 
+    \cdots 
+    \star_F 
+  (g S_{int} + j A)
+  \,.
+$$
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+First we need to see that the star product $\star_F$ is well defined on the given domain, in that [[Hörmander's criterion]] is met to guarantee that all [[products of distributions]] involved in expanding out the [[exponential]] in the definition of the star-product are well defined:
+
+By [this prop.](Feynman+propagator#WaveFronSetsForKGPropagatorsOnMinkowski) the [[wave front set]] of the Feynman propagator $\Delta_H(x,y) = \Delta_H(x-y)$ contains all [[future]]-directed [[lightlike]] [[wave vectors]] based on the future [[light cone]], and all [[past]]-directed [[lightlike]] [[wave vectors]] on the past [[light cone]]. 
+
+<center>
+<img src="https://ncatlab.org/nlab/files/FeynmanPropagator.png" width="60">
+</center>
+
+Now since we are applying the [[star-product]] to [[local observables]], the [[products of distributions]] that appear are powers of the Feynman propagator with itself, of the form $(\Delta_F(x,y))^k$, and more generally powers of [[derivatives of distributions|partial derivatives]] of the Feynman propagtor with itself. By [this prop.](derivative+of+a+distribution#DerivativeOfDistributionRetainsOrShrinksWaveFrontSet) the [[derivative of distributions]] preserves or shrinks the [[wave front set]], hence it is sufficient to see that the products $(\Delta_F(x,y))^k$ exist.
+ 
+But the above characterization of the [[wave front set]] of $\Delta_F$ means that as long as $x \neq y$, then the [[wave vectors]] in the [[wave front set]] at $x$ of each factor in these products of distributions are either all pointing to the future, or all pointing to the past. This implies that their [[sum]] does not vanish, hence that [[Hörmander's criterion]] is met. This shows that the star product exists as claimed.
+
+Given that it exists, then by construction it is immediate that satisfies the axioms "perturbation" and "normalization" in def. \ref{TimeOrderedProduct}.
+
+The only non-trivial point to check is that it indeed satisfies "[[causal factorization]]". In [this prop.](Wick+algebra#CausalOrderingTimeOrderedProductOnRegular) this is proven for $\star_F$ applied to [[regular polynomial observables]], but the proof manifestly applies whenever $\star_F$ is defined. The proof there also makes manifest that when defined, then $\star_F$ is in fact the _unique_ solution to causal factorization.
+
+=--
+
++-- {: .num_defn}
+###### Definition
+**([[renormalization|("re"-)normalization]] of [[perturbative QFT]])**
+
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}.
+
+Prop. \ref{TimeOrderedProductAwayFromDiagonal} implies that the 
+problem of constructing a sequence of [[time-ordered products]] (def. \ref{TimeOrderedProduct}), hence, by prop. \ref{TimeOrderedProductInducesPerturbativeSMatrix}, an [[S-matrix]] scheme (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) for [[perturbative quantum field theory]] around the given [[free field]] [[vacuum]] is equivalently a problem of a sequence of compatible _[[extensions of distributions]]_ of the [[star products]] $\underset{k \; \text{arguments}}{\underbrace{(-)\star_F \cdots \star_F (-)}}$ of the [[Feynman propagator]] on $k$ arguments from the [[complement]] $\Sigma^k \setminus diag(\Sigma)$ of the [[diagonal]] of coinciding [[events]]
+
+$$
+  \array{
+    diag(\Sigma) &\hookrightarrow& \Sigma^k
+    \\
+    x &\mapsto& (x, \cdots, x)
+  }
+$$
+
+inside the [[Cartesian products]] $\Sigma^k$ of [[spacetime]] $\Sigma$, along the canonical inclusion
+
+$$
+  \Sigma^k \setminus diag(\Sigma)
+    \overset{\phantom{AAA}}{\hookrightarrow}
+  \Sigma^k
+  \,.
+$$
+
+This choice of [[extension of distributions]] of the [[time-ordered product]] to coinciding interaction points deserves to be called a choice of _normalization_ of the [[time-ordered product]] (e.g. [Scharf 94, section 4.3](#Scharf95)) but for historical reasons it is known as _[[renormalization]]_ (see remark \ref{TheTraditionalErrorThatLeadsToTheNotoriouDivergencies} and remark \ref{CausalPerturbationTheoryAbsenceOfUVDivergences}).
+
+=--
+
+Moreover, by the nature of the exponential expression, this means in each order to
+extend [[product of distributions|products]] of Feynman propagators labeled by
+[[graphs]] whose [[vertices]] correspond to the polynomial factors in $F$ and $G$ and whose
+[[edges]] indicate over which variables the Feynman propagators are to be multiplied.
+
+
++-- {: .num_defn #ScalarFieldFeynmanDiagram}
+###### Definition
+**([[scalar field]] [[Feynman diagram]])**
+
+A _[[scalar field]] [[Feynman diagram]]_ $\Gamma$ is
+
+1. a [[natural number]] $v \in \mathcal{N}$ (number of [[vertices]]);
+
+1. a $v$-[[tuple]] of elements $(V_r \in \mathcal{F}_{loc} \langle g,j\rangle)_{r \in \{1, \cdots, v\}}$ (the interaction and external field vertices)
+
+1. for each $a \lt b \in \{1, \cdots, v\}$ a natural number $e_{a,b} \in \mathbb{N}$ ("of [[edges]] from the $a$th to the $b$th vertex").
+
+For a given [[tuple]] $(V_j)$ of interaction vertices we write
+
+$$
+  FDiag_{(V_j)}
+$$
+
+for set of scalar field Feynman diagrams with that tuple of vertices.
+
+=--
+
++-- {: .num_prop #FeynmanPerturbationSeriesAwayFromCoincidingPoints}
+###### Proposition
+**([[Feynman perturbation series]] away from coinciding vertices)
+
+
+For $v \in \mathbb{N}$ the $v$-fold
+[[time-ordered product]] away from the diagonal,
+given by prop. \ref{TimeOrderedProductAwayFromDiagonal}
+
+$$
+  T_v
+    \;\colon\;
+  \left(\mathcal{F}_{loc}\langle g,j\rangle\right)_{pds}^{\otimes^{v}}
+    \longrightarrow
+  \mathcal{W}[ [ g/\hbar, j/\hbar] ]
+$$
+
+is equal to
+
+$$
+  T_k(V_1 \cdots V_v)
+    \;=\;
+  prod
+    \circ
+  \underset{\Gamma \in \mathcal{G}_{(V_j)_{j = 1}^{v}}}{\sum}
+  \underset{ r \lt s \in \{1, \cdots, v\} }{\prod}
+  \tfrac{1}{e_{r,s}!}
+  \left\langle
+      \hbar \omega_F
+      \,,\,
+      \frac{\delta^{e_{r,s}}}{\delta \phi_r^{e_{r,s}}}
+      \frac{\delta^{e_{r,s}}}{ \delta \phi_s^{e_{r,s}} }
+  \right\rangle
+  (V_1 \otimes \cdots \otimes V_v)
+  \,,
+$$
+
+where the edge numbers $e_{r,s} = e_{r,s}(\Gamma)$ are those of the given Feynman diagram $\Gamma$.
+
+=--
+
+([Keller 10, IV.1](#Keller10))
+
++-- {: .proof}
+###### Proof
+
+We proceed by [[induction]] over the number of [[vertices]].
+The statement is trivially true for a single vertex.
+Assume it is true for $v {\vee\!\!\!\wedge} 1$ vertices. It follows that
+
+$$
+  \begin{aligned}
+    T(V_1 \cdots V_v V_{v+1})
+    & =
+    T( T(V_1 \cdots V_v) V_{v+1} )
+    \\
+    &=
+    prod \circ
+    \exp\left(
+      \left\langle
+         \hbar \omega_F, \frac{\delta}{\delta \phi} \otimes \frac{\delta}{\delta \phi}
+      \right\rangle
+    \right)
+    \left(
+      prod
+        \circ
+      \underset{\Gamma \in \mathcal{G}_{(V_j)_{j = 1}^{v}}}{\sum}
+      \underset{ r \gt s \in \{1, \cdots, v\} }{\prod}
+      \frac{1}{e_{r,s}!}
+      \left\langle
+          \hbar \omega_F
+          \,,\,
+          \frac{\delta^{e_{r,s}}}{\delta \phi_r^{e_{r,s}}}
+          \frac{\delta^{e_{r,s}}}{ \delta \phi_s^{e_{r,s}} }
+      \right\rangle
+      (V_1 \otimes \cdots \otimes V_v)
+    \right)
+    \;\otimes\;
+    V_{v+1}
+    \\
+    & =
+    prod
+      \circ
+    \underset{\Gamma \in \mathcal{G}_{(V_j)_{j = 1}^{v}}}{\sum}
+      \underset{ r \gt s \in \{1, \cdots, v\} }{\prod}
+      \tfrac{1}{e_{r,s}!}
+    \left\langle
+        \hbar \omega_F
+        \,,\,
+        \frac{\delta^{e_{r,s}}}{\delta \phi_r^{e_{r,s}}}
+        \frac{\delta^{e_{r,s}}}{ \delta \phi_s^{e_{r,s}} }
+    \right\rangle
+    \left(
+    \underset{e_{1,{v+1}}, \cdots e_{v,v+1} \in \mathbb{N}}{\sum}
+      \underset{t \in \{1, \cdots v\}}{\prod}
+      \tfrac{1}{e_{t,v+1} !}
+    \left(
+      \frac{\delta^{e_{1,v+1}} V_1 }{\delta \phi_{1}^{e_{1,v+1}}}
+        \otimes
+        \cdots
+        \otimes
+      \frac{ \delta^{e_{v,v+1}} V_v}{ \delta \phi_{v}^{e_{v,v+1}} }
+    \right)
+    \;\otimes\;
+    \frac{\delta^{e_{1,v+1} + \cdots + e_{v,v+1}} V_{v+1}}{\delta \phi_{v-1}^{e_{1,v+1} + \cdots + e_{v,v+1}}}
+    \right)
+    \\
+    &=
+    prod
+      \circ
+    \underset{\Gamma \in \mathcal{G}_{(V_j)_{j = 1}^{v+1}}}{\sum}
+    \underset{ r \lt s \in \{1, \cdots, v+1\} }{\prod}
+    \tfrac{1}{e_{r,s}!}
+    \left\langle
+        \hbar \omega_F
+        \,,\,
+        \frac{\delta^{e_{r,s}}}{\delta \phi_r^{e_{r,s}}}
+        \frac{\delta^{e_{r,s}}}{ \delta \phi_s^{e_{r,s}} }
+    \right\rangle
+    (V_1 \otimes \cdots \otimes V_{v+1})
+  \end{aligned}
+$$
+
+Here in the first step we use the [[associativity]] of the time-ordered product
+(remark \ref{TimeOrderedProductAssociative}), in the second step we use the induction assumption,
+in the third we pass the outer functional derivatives through the pointwise product
+using the [[product rule]], and in the fourth step we recognize that this amounts to summing
+in addition over all possible choices of sets of edges from the first $v$ vertices to the new $v+1$st vertex,
+which yield in total the sum over all diagrams with $v+1$ vertices.
+
+=--
+
+[[!include Feynman diagrams in causal perturbation theory -- summary]]
+
+
++-- {: .num_remark}
+###### Remark
+**([[loop order]] and powers of [[Planck's constant]])
+
+From prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints} one deduces that the
+order in [[Planck's constant]] that a ([[planar graph|planar]]) [[Feynman diagram]] contributes to the
+S-matrix is given (up to a possible offset due to external vertices) by the "number of loops" in the diagram.
+See at _[[loop order]]_ the section _[Relation to powers in Planck's constant](loop+order#RelationToPowersInPlancksConstant)_ for details.
+
+=--
+
+(...)
+
+The [[main theorem of perturbative renormalization]] states that
+
+1. For fixed $L_{int}$ the extension of these time-ordered products to the diagonal exists, and in each order there is a finite dimensional space of possible choices.
+
+1. There is a way to make these choices coherently, so that
+   one obtains the $S$-matrix indeed as a function in $L_{int}$. (a "renormalization scheme").
+
+1. The perturbative S-matrices $S$ and $\tilde S$ for two different such renormalization schemes are
+   related by a transformation $Z \;\colon\; \mathcal{F}_{loc} \longrightarrow \mathcal{F}_{loc}$ as
+
+   $$
+     \tilde S = S \circ Z
+     \,.
+   $$
+
+   here $Z(L_{int})$ is $L_{int}$ with "counterterms added".
+
+1. The transformations $Z \colon \mathcal{T}_{loc} \to \mathcal{T}_{loc}$ form a [[group]], called the
+   _[[Stückelberg-Petermann renormalization group]]_. Hence the renormalization schemes / coherent perturbative
+   S-matrices form a [[torsor]] over this group.
+
+
 $\,$
 
 #### Conceptual remarks
@@ -2185,357 +2542,6 @@ Apart from [[gauge symmetries]] one also wants to require that rigid symmetries 
 
 
 $\,$
-
-#### Feynman diagrams 
- {#ExistenceAndRenormalization}
-
-
-So far we considered only the [[axioms]] on a consistent perturbative [[S-matrix]] scheme (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) or equivalently on [[time-ordered products]] (def. \ref{TimeOrderedProduct} prop. \ref{TimeOrderedProductInducesPerturbativeSMatrix}). 
-Now we discuss the actual construction of [[time-ordered products]],
-hence of perturbative S-matrices, by the process called _[[renormalization]] of [[Feynman diagrams]]_.
-
-We first discuss how [[time-ordered product]], and hence the perturbative S-matrix [above](#PerturbativeSMatrixAndTimeOrderedProducts),
-is uniquely determined away from the locus where interaction points coincide (prop. \ref{TimeOrderedProductAwayFromDiagonal} below).
-Moreover, we discuss how on that locus the time-ordered product is naturally expressed as a sum
-of [[products of distributions]] of [[Feynman propagators]] that are labeled by [[Feynman diagrams]]: the _[[Feynman perturbation series]]_ (prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints} below).
-
-This means that the full  [[time-ordered product]] is an [[extension of distributions]] of these
-_[[scattering amplitudes]]- to the locus of coinciding vertices. The space of possible such
-extensions turns out to be finite-dimensional in each order of $g/\hbar, j/\hbar$, parameterizing the choice of
-[[point-supported distributions]] at the interaction points whose [[degree of a distribution|scaling degree]]
-is bounded by the given Feynman propagators.
-
-+-- {: .num_defn #TuplesOfCompactlySupportedPolynomialLocalFunctionalsWithPairwiseDisjointSupport}
-###### Definition
-**([[tuples]] of [[local observables]] with pairwise disjoint spacetime support)**
-
-Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}.
-
-For $k \in \mathbb{N}$, write
-
-$$
-  \left(
-    {\, \atop \,}
-    LocPoly(E_{\text{BV-BRST}})[ [ \hbar, g, j ] ] 
-    {\, \atop \,}
-  \right)^{\otimes^k_{\mathbb{C}[ [\hbar, g, j ] ]}}_{pds}
-  \hookrightarrow
-  \left(
-    {\, \atop \,}
-    LocPoly(E_{\text{BV-BRST}})[ [ \hbar, g, j ] ] 
-    {\, \atop \,}
-  \right)^{\otimes^k_{\mathbb{C}[ [\hbar, g, j ] ]}}
-$$
-
-for the linear subspace of the $k$-fold [[tensor product]] of [[local observables]] (as in def. \ref{LagrangianFieldTheoryPerturbativeScattering}, def. \ref{TimeOrderedProduct}) on those tensor products $A_1 \otimes \cdots A_k$ of [[tuples]] with disjoint spacetime [[support]]:
-
-$$
-  supp(A_j) \cap supp(A_k) = \emptyset
-  \phantom{AAA}
-  \text{for} $i \neq j \in \{1, \cdots, k\}$
-  \,.
-$$
-
-=--
-
-+-- {: .num_prop #TimeOrderedProductAwayFromDiagonal}
-###### Proposition
-**([[time-ordered product]] away from coinciding interaction points)**
-
-Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}, and let $T = \{T_k\}_{k \in \mathbb{N}}$ be a sequence of [[time-ordered products]] (def. \ref{TimeOrderedProduct})
-
-$$
-  T_k
-    \;\colon\;
-  \left(
-    {\, \atop \,}
-    LocObs(E_{\text{BV-BRST}})[ [\hbar, g, j] ]
-    {\, \atop \,}
-  \right)^{\otimes^k_{\mathcal{C}[ [\hbar, g, j] ]}}
-    \longrightarrow
-  PolyObs(E_{\text{BV-BRST}})_{reg}((\hbar))[ [g , j] ]
-$$
-
-Then their [[restriction]] to the subspace of [[tuples]] of [[local observables]] of pairwise disjoint spacetime support (def. \ref{TuplesOfCompactlySupportedPolynomialLocalFunctionalsWithPairwiseDisjointSupport}) is unique (independent of the [[renormalization|"re-"normalization]] freedom in choosing $T$) and is equal to the [[star product]] 
-
-$$
-  A_1 \star_{\star_F} A_2
-  \;\coloneqq\;
-  ((-)\cdot (-)) \circ
-  \exp\left(
-   \hbar
-   \left(
-     \underset{\Sigma \times \Sigma}{\int}
-     \Delta_F^{a b}(x,y)
-     \frac{\delta}{\delta \mathbf{\Phi}^a(x)}
-     \otimes
-     \frac{\delta}{\delta \mathbf{\Phi}^b(y)}
-     \,
-     dvol_\Sigma(x)\, dvol_\Sigma(y)
-   \right)   
-  \right)
-  (A_1 \otimes A_2)
-$$
-
-that is induced ([this def.](star+product#PropagatorStarProduct)) by the [[Feynman propagator]] $\Delta_F \coloneqq \tfrac{i}{2}(\Delta_+ + \Delta_- + H)$ (corresponding to the [[Wightman propagator]] $\Delta_H = \tfrac{i}{2}(\Delta_+ - \Delta_-) + H$ which is given by the choice of [[free field|free]] [[vacuum]]), in that
-
-$$
-  T
-  \left(
-    {\, \atop \,}
-    (g S_{int} + j A), \cdots, (g S_{int} + j A) 
-    {\, \atop \,}
-  \right)
-  \;=\;
-  (g S_{int} + j A) 
-    \star_F 
-    \cdots 
-    \star_F 
-  (g S_{int} + j A)
-  \,.
-$$
-
-=--
-
-
-+-- {: .proof}
-###### Proof
-
-First we need to see that the star product $\star_F$ is well defined on the given domain, in that [[Hörmander's criterion]] is met to guarantee that all [[products of distributions]] involved in expanding out the [[exponential]] in the definition of the star-product are well defined:
-
-By [this prop.](Feynman+propagator#WaveFronSetsForKGPropagatorsOnMinkowski) the [[wave front set]] of the Feynman propagator $\Delta_H(x,y) = \Delta_H(x-y)$ contains all [[future]]-directed [[lightlike]] [[wave vectors]] based on the future [[light cone]], and all [[past]]-directed [[lightlike]] [[wave vectors]] on the past [[light cone]]. 
-
-<center>
-<img src="https://ncatlab.org/nlab/files/FeynmanPropagator.png" width="60">
-</center>
-
-Now since we are applying the [[star-product]] to [[local observables]], the [[products of distributions]] that appear are powers of the Feynman propagator with itself, of the form $(\Delta_F(x,y))^k$, and more generally powers of [[derivatives of distributions|partial derivatives]] of the Feynman propagtor with itself. By [this prop.](derivative+of+a+distribution#DerivativeOfDistributionRetainsOrShrinksWaveFrontSet) the [[derivative of distributions]] preserves or shrinks the [[wave front set]], hence it is sufficient to see that the products $(\Delta_F(x,y))^k$ exist.
- 
-But the above characterization of the [[wave front set]] of $\Delta_F$ means that as long as $x \neq y$, then the [[wave vectors]] in the [[wave front set]] at $x$ of each factor in these products of distributions are either all pointing to the future, or all pointing to the past. This implies that their [[sum]] does not vanish, hence that [[Hörmander's criterion]] is met. This shows that the star product exists as claimed.
-
-Given that it exists, then by construction it is immediate that satisfies the axioms "perturbation" and "normalization" in def. \ref{TimeOrderedProduct}.
-
-The only non-trivial point to check is that it indeed satisfies "[[causal factorization]]". In [this prop.](Wick+algebra#CausalOrderingTimeOrderedProductOnRegular) this is proven for $\star_F$ applied to [[regular polynomial observables]], but the proof manifestly applies whenever $\star_F$ is defined. The proof there also makes manifest that when defined, then $\star_F$ is in fact the _unique_ solution to causal factorization.
-
-=--
-
-+-- {: .num_remark #TimeOrderedProductAssociative}
-###### Remark
-**([[time-ordered product]] is [[associativity|assocativative]])**
-
-Prop. \ref{TimeOrderedProductAwayFromDiagonal} implies in particular that the
-time-ordered product is [[associativity|associative]], in that
-
-$$
-  T( T(V_1 \cdots V_{k_1}) \cdots T(V_{k_{n-1}+1} \cdots V_{k_n} ) )
-  =
-  T( V_1 \cdots V_{k_1} \cdots V_{k_{n-1}+1} \cdots V_{n_n} )
-  \,.
-$$
-
-=--
-
-It follows that the problem of constructing time-ordered products, and hence (by prop. \ref{TimeOrderedProductInducesPerturbativeSMatrix}) the
-perturbative S-matrix, consists of finding compatible [[extension of distributions|extension]]
-of the distribution
-$ prod \circ \exp\left( \left\langle  \omega_F , \frac{\delta }{\delta \phi} \otimes \frac{\delta}{\delta \phi}  \right\rangle \right)$ to the diagonal.
-
-Moreover, by the nature of the exponential expression, this means in each order to
-extend [[product of distributions|products]] of Feynman propagators labeled by
-[[graphs]] whose [[vertices]] correspond to the polynomial factors in $F$ and $G$ and whose
-[[edges]] indicate over which variables the Feynman propagators are to be multiplied.
-
-
-+-- {: .num_defn #ScalarFieldFeynmanDiagram}
-###### Definition
-**([[scalar field]] [[Feynman diagram]])**
-
-A _[[scalar field]] [[Feynman diagram]]_ $\Gamma$ is
-
-1. a [[natural number]] $v \in \mathcal{N}$ (number of [[vertices]]);
-
-1. a $v$-[[tuple]] of elements $(V_r \in \mathcal{F}_{loc} \langle g,j\rangle)_{r \in \{1, \cdots, v\}}$ (the interaction and external field vertices)
-
-1. for each $a \lt b \in \{1, \cdots, v\}$ a natural number $e_{a,b} \in \mathbb{N}$ ("of [[edges]] from the $a$th to the $b$th vertex").
-
-For a given [[tuple]] $(V_j)$ of interaction vertices we write
-
-$$
-  FDiag_{(V_j)}
-$$
-
-for set of scalar field Feynman diagrams with that tuple of vertices.
-
-=--
-
-+-- {: .num_prop #FeynmanPerturbationSeriesAwayFromCoincidingPoints}
-###### Proposition
-**([[Feynman perturbation series]] away from coinciding vertices)
-
-
-For $v \in \mathbb{N}$ the $v$-fold
-[[time-ordered product]] away from the diagonal,
-given by prop. \ref{TimeOrderedProductAwayFromDiagonal}
-
-$$
-  T_v
-    \;\colon\;
-  \left(\mathcal{F}_{loc}\langle g,j\rangle\right)_{pds}^{\otimes^{v}}
-    \longrightarrow
-  \mathcal{W}[ [ g/\hbar, j/\hbar] ]
-$$
-
-is equal to
-
-$$
-  T_k(V_1 \cdots V_v)
-    \;=\;
-  prod
-    \circ
-  \underset{\Gamma \in \mathcal{G}_{(V_j)_{j = 1}^{v}}}{\sum}
-  \underset{ r \lt s \in \{1, \cdots, v\} }{\prod}
-  \tfrac{1}{e_{r,s}!}
-  \left\langle
-      \hbar \omega_F
-      \,,\,
-      \frac{\delta^{e_{r,s}}}{\delta \phi_r^{e_{r,s}}}
-      \frac{\delta^{e_{r,s}}}{ \delta \phi_s^{e_{r,s}} }
-  \right\rangle
-  (V_1 \otimes \cdots \otimes V_v)
-  \,,
-$$
-
-where the edge numbers $e_{r,s} = e_{r,s}(\Gamma)$ are those of the given Feynman diagram $\Gamma$.
-
-=--
-
-([Keller 10, IV.1](#Keller10))
-
-+-- {: .proof}
-###### Proof
-
-We proceed by [[induction]] over the number of [[vertices]].
-The statement is trivially true for a single vertex.
-Assume it is true for $v {\vee\!\!\!\wedge} 1$ vertices. It follows that
-
-$$
-  \begin{aligned}
-    T(V_1 \cdots V_v V_{v+1})
-    & =
-    T( T(V_1 \cdots V_v) V_{v+1} )
-    \\
-    &=
-    prod \circ
-    \exp\left(
-      \left\langle
-         \hbar \omega_F, \frac{\delta}{\delta \phi} \otimes \frac{\delta}{\delta \phi}
-      \right\rangle
-    \right)
-    \left(
-      prod
-        \circ
-      \underset{\Gamma \in \mathcal{G}_{(V_j)_{j = 1}^{v}}}{\sum}
-      \underset{ r \gt s \in \{1, \cdots, v\} }{\prod}
-      \frac{1}{e_{r,s}!}
-      \left\langle
-          \hbar \omega_F
-          \,,\,
-          \frac{\delta^{e_{r,s}}}{\delta \phi_r^{e_{r,s}}}
-          \frac{\delta^{e_{r,s}}}{ \delta \phi_s^{e_{r,s}} }
-      \right\rangle
-      (V_1 \otimes \cdots \otimes V_v)
-    \right)
-    \;\otimes\;
-    V_{v+1}
-    \\
-    & =
-    prod
-      \circ
-    \underset{\Gamma \in \mathcal{G}_{(V_j)_{j = 1}^{v}}}{\sum}
-      \underset{ r \gt s \in \{1, \cdots, v\} }{\prod}
-      \tfrac{1}{e_{r,s}!}
-    \left\langle
-        \hbar \omega_F
-        \,,\,
-        \frac{\delta^{e_{r,s}}}{\delta \phi_r^{e_{r,s}}}
-        \frac{\delta^{e_{r,s}}}{ \delta \phi_s^{e_{r,s}} }
-    \right\rangle
-    \left(
-    \underset{e_{1,{v+1}}, \cdots e_{v,v+1} \in \mathbb{N}}{\sum}
-      \underset{t \in \{1, \cdots v\}}{\prod}
-      \tfrac{1}{e_{t,v+1} !}
-    \left(
-      \frac{\delta^{e_{1,v+1}} V_1 }{\delta \phi_{1}^{e_{1,v+1}}}
-        \otimes
-        \cdots
-        \otimes
-      \frac{ \delta^{e_{v,v+1}} V_v}{ \delta \phi_{v}^{e_{v,v+1}} }
-    \right)
-    \;\otimes\;
-    \frac{\delta^{e_{1,v+1} + \cdots + e_{v,v+1}} V_{v+1}}{\delta \phi_{v-1}^{e_{1,v+1} + \cdots + e_{v,v+1}}}
-    \right)
-    \\
-    &=
-    prod
-      \circ
-    \underset{\Gamma \in \mathcal{G}_{(V_j)_{j = 1}^{v+1}}}{\sum}
-    \underset{ r \lt s \in \{1, \cdots, v+1\} }{\prod}
-    \tfrac{1}{e_{r,s}!}
-    \left\langle
-        \hbar \omega_F
-        \,,\,
-        \frac{\delta^{e_{r,s}}}{\delta \phi_r^{e_{r,s}}}
-        \frac{\delta^{e_{r,s}}}{ \delta \phi_s^{e_{r,s}} }
-    \right\rangle
-    (V_1 \otimes \cdots \otimes V_{v+1})
-  \end{aligned}
-$$
-
-Here in the first step we use the [[associativity]] of the time-ordered product
-(remark \ref{TimeOrderedProductAssociative}), in the second step we use the induction assumption,
-in the third we pass the outer functional derivatives through the pointwise product
-using the [[product rule]], and in the fourth step we recognize that this amounts to summing
-in addition over all possible choices of sets of edges from the first $v$ vertices to the new $v+1$st vertex,
-which yield in total the sum over all diagrams with $v+1$ vertices.
-
-=--
-
-[[!include Feynman diagrams in causal perturbation theory -- summary]]
-
-
-+-- {: .num_remark}
-###### Remark
-**([[loop order]] and powers of [[Planck's constant]])
-
-From prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints} one deduces that the
-order in [[Planck's constant]] that a ([[planar graph|planar]]) [[Feynman diagram]] contributes to the
-S-matrix is given (up to a possible offset due to external vertices) by the "number of loops" in the diagram.
-See at _[[loop order]]_ the section _[Relation to powers in Planck's constant](loop+order#RelationToPowersInPlancksConstant)_ for details.
-
-=--
-
-(...)
-
-The [[main theorem of perturbative renormalization]] states that
-
-1. For fixed $L_{int}$ the extension of these time-ordered products to the diagonal exists, and in each order there is a finite dimensional space of possible choices.
-
-1. There is a way to make these choices coherently, so that
-   one obtains the $S$-matrix indeed as a function in $L_{int}$. (a "renormalization scheme").
-
-1. The perturbative S-matrices $S$ and $\tilde S$ for two different such renormalization schemes are
-   related by a transformation $Z \;\colon\; \mathcal{F}_{loc} \longrightarrow \mathcal{F}_{loc}$ as
-
-   $$
-     \tilde S = S \circ Z
-     \,.
-   $$
-
-   here $Z(L_{int})$ is $L_{int}$ with "counterterms added".
-
-1. The transformations $Z \colon \mathcal{T}_{loc} \to \mathcal{T}_{loc}$ form a [[group]], called the
-   _[[Stückelberg-Petermann renormalization group]]_. Hence the renormalization schemes / coherent perturbative
-   S-matrices form a [[torsor]] over this group.
 
 
 
