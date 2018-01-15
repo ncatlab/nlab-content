@@ -234,7 +234,7 @@ $$
   \,.
 $$
 
-The functors $L$ and $R$ are adjoint precisely if the [[profunctors]] that they define in the above way are equal. This in turn is the case if
+The functors $L$ and $R$ are adjoint precisely if the [[profunctors]] that they define in the above way are equivalent. This in turn is the case if
 $C \star^L D \simeq (D^{op} \star^{R^{op}} C^{op})^{op}$.
 
 We say that $C \star^k D$ is the [[cograph of a functor|cograph of the functor]] $k$. See there for more on this.
