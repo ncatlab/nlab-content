@@ -93,80 +93,60 @@ Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]]
 +-- {: .num_defn #MicrocausalObservable}
 ###### Definition
 **([[microcausal observable|microcausal]] [[polynomial observables]])**
-Let $E \overset{fb}{\to}$ be [[field bundle]] which is a [[vector bundle]]. An [[off-shell]] _[[polynomial observable]]_ is a [[smooth function]]
 
-$$
-  A
-  \;\colon\;
-  \Gamma_\Sigma(E)
-    \longrightarrow
-  \mathbb{C}
-$$
+Let $E \overset{fb}{\to}$ be [[field bundle]] which is a [[vector bundle]], over some [[spacetime]] $\Sigma$.
 
-on the [[on-shell]] [[space of sections]] of the [[field bundle]] $E \overset{fb}{\to} \Sigma$ (space of field histories) which may be expressed as
+A [[polynomial observable]] (def. \ref{PolynomialObservables}) 
 
 $$
   \begin{aligned}
-  A(\Phi)
-  & =
-  \phantom{+} \alpha^{(0)}
-  \\
-  & \phantom{=}
-  +
-  \int_\Sigma
-    \alpha^{(1)}_a(x) \Phi^a(x)
-   \,
-  dvol_\Sigma(x)
-  \\
-  & \phantom{=}
-  +
-  \int_\Sigma \int_\Sigma
-   \alpha^{(2)}_{a_1 a_2}(x_1, x_2)
-   \Phi^{a_1}(x_1) \Phi^{a_2}(x_2)
-  \,dvol_\Sigma(x_1)
-  \, dvol_\Sigma(x_2)
-  \\
-  & \phantom{=}
-  +
-  \cdots
-  \,,
+    A)
+     & = \phantom{+}
+    \alpha^{(0)}
+    \\
+    &
+    \phantom{=}
+      +
+    \int_{\Sigma} \mathbf{\Phi}^a(x) \alpha^{(1)}_a(x) \, dvol_\Sigma(x)
+    \\
+    &
+    \phantom{=}
+     +
+    \int_{\Sigma^2} 
+      \mathbf{\Phi}^{a_1}(x_1) \cdot \mathbf{\Phi}^{a_2}(x_2) 
+      \alpha^{(2)}_{a_1 a_2}(x_1, x_2) \, dvol_\Sigma(x_1) dvol_\Sigma(x_2)
+    \\
+    &
+    \phantom{=}
+     +
+    \int_{\Sigma^3} 
+      \mathbf{\Phi}^{a_1}(x_1) 
+        \cdot 
+      \mathbf{\Phi}^{a_2}(x_2) 
+        \cdot 
+      \mathbf{\Phi}^{a_3}(x_3)
+      \alpha^{(3)}_{a_1 a_2 a_3}(x_1,x_2,x_3) 
+      \, dvol_\Sigma(x_1) dvol_\Sigma(x_2) dvol_\Sigma(x^3)
+    \\
+    &
+    \phantom{=}
+     +
+    \cdots
+  \,.
   \end{aligned}
 $$
 
-where
+is called _[[microcausal polynomial observable|microcausal]]_ if each [[distribution|distributional]] [[coefficient]] 
 
 $$
-  \alpha^{(k)} \in \Gamma'_{\Sigma^k}\left((E^\ast)^{\boxtimes^k_{sym}} \right)
-$$
+  \alpha^{(k)}
+  \;\in\;
+  \Gamma'_{\Sigma^k}(E^{\boxtimes^k})
+$$ 
 
-is a [[compactly supported distribution]] [[distribution of two variables|of k variables]] on the $k$-fold graded-symmetric [[external tensor product of vector bundles]] of the [[field bundle]] with itself.
+as above has [[wave front set]] (def. \ref{WaveFrontSet}) _not_ containing those elements $(x_1, \cdots x_k, k_1, \cdots k_k)$ where the $k$ [[wave vectors]] are all in the [[closed future cone]] or all in the [[closed past cone]] (def. \ref{CausalPastAndFuture}). 
 
-Write
-
-$$
-  PolyObs(E) \hookrightarrow Obs(E)
-$$
-
-for the [[subspace]] of off-shell polynomial observables onside all off-shell [[observables]].
-
-Let moreover $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]] whose [[equations of motion]] are [[Green hyperbolic differential equations]]. Then an _[[on-shell]] polynomial observable_ is the [[restriction]] of an off-shell polynomial observable along the inclusion of the [[on-shell]] [[space of field histories]] $\Gamma_{\Sigma}(E)_{\delta_{EL}\mathbf{L} = 0} \hookrightarrow \Gamma_\Sigma(E)$. Write
-
-$$
-  PolyObs(E,\mathbf{L}) \hookrightarrow Obs(E,\mathbf{L})
-$$
-
-for the subspace of all on-shell polynomial observables inside all on-shell [[observables]].
-
-By prop. \ref{DistributionsOnSolutionSpaceAreTheGeneralizedPDESolutions} restriction yields an [[isomorphism]] between polynomial on-shell observables and polynomial off-shell observables modulo the image of the [[differential operator]] $P$:
-
-$$
-  PolyObs(E,\mathbf{L})
-    \underoverset{\simeq}{\text{restriction}}{\longleftarrow}
-  PolyObs(E)/im(P)
-  \,.
-$$
-
-Finally a polynomial observable is a _[[microcausal observable]]_ if each [[coefficient]] $\alpha^{(k)}$ as above has [[wave front set]] away from those points where the $k$ [[wave vectors]] are all in the [[future cone]] or all in the [[past cone]]. We write
+We write
 
 $$
   \array{
@@ -182,7 +162,7 @@ $$
   }
 $$
 
-for the [[subspace]] of [[off-shell]]/[[on-shell]] [[microcausal observables]] insides all [[off-shell]]/[[on-shell]] [[polynomial observables]].
+for the [[subspace]] of [[off-shell]]/[[on-shell]] [[microcausal polynomial observables]] inside all [[off-shell]]/[[on-shell]] [[polynomial observables]].
 
 =--
 
@@ -215,17 +195,22 @@ Every polynomial [[local observable]] (def. \ref{LocalObservables}) is a [[micro
 +-- {: .proof}
 ###### Proof
 
-For notational convenience, consider the case of the [[scalar field]] with $k = 2$; the general case is directly analogous. The distribution in question is the [[delta distribution]]
+For notational convenience, consider the case of the [[scalar field]] with $k = 2$; the general case is directly analogous. Then the [[local observable]] coming from $\phi^2$ (a [[phi^n interaction]]-term), has, regarded as a [[polynomial observable]], the [[delta distribution]] $\delta(x_1-x_2)$ as [[coefficient]] in degree 2:
 
 $$
   \begin{aligned}
     A(\Phi)
     & =
-    \int_X g(x) (\Phi(x))^2 \,dvol_\Sigma(x)
+    \underset{\Sigma}{\int} g(x) (\Phi(x))^2 \,dvol_\Sigma(x)
     \\
     & =
-    \int_{\Sigma \times \Sigma} 
-      g(x_1) 
+    \underset{\Sigma \times \Sigma}{\int} 
+      \underset{ = \alpha^{(2)}}{
+      \underbrace{
+        g(x_1)
+        \delta(x_1 - x_2)
+      }}
+      \, 
      \Phi(x_1) \Phi(x_2) \, dvol_\Sigma(x_1) \, dvol_\Sigma(x_2)
   \end{aligned}
   \,.
@@ -237,7 +222,11 @@ $$
   \begin{aligned}
     (k_1, k_2)
       & \mapsto
-     \int_{\mathbb{R}^{2n}} g(x_1) \delta(x_1, x_2) \exp( k_1 \cdot x_1 + k_2 \cdot x_2 ) dvol_\Sigma(x_1) \, dvol_\Sigma(x_2)
+      \underset{\mathbb{R}^{2n}}{\int} 
+      g(x_1) 
+      \delta(x_1, x_2) 
+      e^{i (k_1 \cdot x_1 + k_2 \cdot x_2 )} 
+      \, dvol_\Sigma(x_1) \, dvol_\Sigma(x_2)
     \\
     & \propto \hat g(k_1 + k_2)
    \end{aligned}
@@ -245,14 +234,14 @@ $$
 $$
 
 
-Since $g$ is a plain [[bump function]], its [[Fourier transform]] $\hat g$ is quickly decaying (according to [this inequality](compactly+supported+distribution#eq:DecayEstimateForFourierTransformOfNonSingularDistribution))  along $k_1 + k_2$ ([this prop.](wavefront+set#EmptyWaveFronSetCorrespondsToOrdinaryFunction)), as long as $k_1 + k_2 \neq 0$. Only on the cone $k_1 + k_2 = 0$ the Fourier transform is constant, and hence in particular not decaying.
+Since $g$ is a plain [[bump function]], its [[Fourier transform]] $\hat g$ is quickly decaying (according to prop. \ref{DecayPropertyOfFourierTransformOfCompactlySupportedFunctions}) along $k_1 + k_2$, as long as $k_1 + k_2 \neq 0$. Only on the [[cone]] $k_1 + k_2 = 0$ the Fourier transform is [[constant function|constant]], and hence in particular not decaying.
 
 
 <div style="float:right;margin:0 10px 10px 0;">
 <img src="https://ncatlab.org/nlab/files/WaveFrontSetOfDeltaDistributionInTwoVariables.png" width="200"/>
 </div>
 
-{#WaveFrontOfdeltaxy} This means that the wave front set consists of the elements of the form $(x, (k, -k))$ with $k \neq 0$. Since $k$ and $-k$ are both in the [[future cone]] or both in the past cone precisely if $k = 0$, this situation is excluded in the wave front set and hence the distribution $g \cdot \delta(-,-)$ is [[microcausal observable|microcausal]].
+{#WaveFrontOfdeltaxy} This means that the wave front set consists of the elements of the form $(x, (k, -k))$ with $k \neq 0$. Since $k$ and $-k$ are both in the [[closed future cone]] or both in the [[closed past cone]] precisely if $k = 0$, this situation is excluded in the wave front set and hence the distribution $g \cdot \delta(-,-)$ is [[microcausal observable|microcausal]].
 
 > (graphics grabbed from [Khavkine-Moretti 14, p. 45](microcausal+polynomial+observable#KhavkineMoretti14))
 
