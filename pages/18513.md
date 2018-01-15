@@ -239,7 +239,7 @@ $$
   }
 $$
 
-for the [[subspace]] of [[off-shell]]/[[on-shell]] [[microcausal observables]] insides all [[off-shell]]/[[on-shell]] [[polynomial observables]].
+for the [[subspace]] of [[off-shell]]/[[on-shell]] [[microcausal observables]] inside all [[off-shell]]/[[on-shell]] [[polynomial observables]].
 
 
 =--
