@@ -625,7 +625,7 @@ holds.
 ## References 
  {#References}
 
-After the original informal suggestions by [[Tomonaga]], [[Julian Schwinger]], [[Richard Feynman]] and [[Freeman Dyson]], 
+After the original informal suggestions by [[Schwinger-Tomonaga-Feynman-Dyson]]
 
 * {#Dyson49} [[Freeman Dyson]], _The raditation theories of Tomonaga, Schwinger and Feynman_, Phys. Rev. 75, 486, 1949 ([pdf](http://web.ihep.su/dbserv/compas/src/dyson49b/eng.pdf))
 
