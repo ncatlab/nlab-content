@@ -2120,7 +2120,7 @@ and well-defined [[perturbative QFT|perturbative]] [[probability amplitudes]] of
 This is in contrast to the original informal conception of [[perturbative QFT]] due to [[Schwinger-Tomonaga-Feynman-Dyson]],
 which in a first stage produced ill-defined [[divergence|diverging]] expressions for the [[coefficients]] (due to the mathematical error discussed in remark \ref{TheTraditionalErrorThatLeadsToTheNotoriouDivergencies} below), which were then "[[renormalization|re-normalized]]" to finite values, by further informal arguments.
 
-Here in [[causal perturbation theory]] no [[divergences]] in the [[coefficients]] of the [[formal power series]] are considered in the first place, all coefficients are well-defined, hence "finite". In this sense [[causal perturbation theory]] is about "finite" perturbative QFT, where instead of "re-normalization" of ill-defined expressions one just encounters "normalization" (prominently highlighted in [Scharf 95, see title, introduction, and section 4.3](causal+perturbation+theory#Scharf95)), namely compatible choices of these finite values, parameterized by the [[Stückelberg-Petermann renormalization group]].
+Here in [[causal perturbation theory]] no [[divergences]] in the [[coefficients]] of the [[formal power series]] are considered in the first place, all coefficients are well-defined, hence "finite". In this sense [[causal perturbation theory]] is about "finite" perturbative QFT, where instead of "re-normalization" of ill-defined expressions one just encounters "normalization" (prominently highlighted in [Scharf 95, see title, introduction, and section 4.3](causal+perturbation+theory#Scharf95)), namely compatible choices of these finite values, parameterized by the [[Stückelberg-pPetermann renormalization group]].
 
 This refers to those [[divergences]] that are known as _[[UV-divergences]]_, namely short-distance effects,
 which are mathematically reflected in the fact that the perturbative [[S-matrix]] scheme (def. \ref{LagrangianFieldTheoryPerturbativeScattering})
@@ -2261,7 +2261,7 @@ $$
 Since the [[singular support]] of the [[Feynman propagator]] is on the [[diagonal]],
 and since the support of elements in $\left(\mathcal{F}_{loc}\langle g,j\rangle\right)^{\otimes^k}_{pds}$
 is by definition in the complement of the diagonal, the star product $\star_{\omega_F}$ is well defined.
-By construction it satisfies the axioms "peturbation" and "normalization" in def. \ref{TimeOrderedProduct}.
+By construction it satisfies the axioms "perturbation" and "normalization" in def. \ref{TimeOrderedProduct}.
 The only non-trivial point to check is that it indeed satisfies "[[causal factorization]]":
 
 Unwinding the definition of the [[Hadamard state]] $\omega$ and the [[Feynman propagator]] $\omega_F$, we have
@@ -3447,4 +3447,3 @@ An entertaining account of some of the history and the sociology of S-matrix the
 [[!redirects perturbative S-matrices]]
 
 [[!redirects Feynman perturbation series]]
-pa
