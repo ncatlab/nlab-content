@@ -1720,15 +1720,44 @@ $$
 
 First we need to see that the star product $\star_F$ is well defined on the given domain, in that [[Hörmander's criterion]] is met to guarantee that all [[products of distributions]] involved in expanding out the [[exponential]] in the definition of the star-product are well defined:
 
-By [this prop.](Feynman+propagator#WaveFronSetsForKGPropagatorsOnMinkowski) the [[wave front set]] of the Feynman propagator $\Delta_H(x,y) = \Delta_H(x-y)$ contains all [[future]]-directed [[lightlike]] [[wave vectors]] based on the future [[light cone]], and all [[past]]-directed [[lightlike]] [[wave vectors]] on the past [[light cone]]. 
+We proceed by [[induction]] over the number $k$ of arguments.
+
+For $k = 1$ there is nothing to be shown. So assume that the $\Delta_F$-star product of $k$ local observables with pairwise disjoint spacetime support exists as a [[microcausal polynomial observable]] $A_{mc} = A_1 \star_F \cdots \star_F A_k$. We need to see that for $A_{k+1}$ any [[local observable]] whose spacetime support is disjoint from that of all of the $A_i$, hence disjoint from that of $A_{mc}$, the star product $A_{k+1} \star_F A_{mc}$ exists and is again microcausal.
+
+Now since one of the two arguments of the [[star product]] is assumed to be a [[local observable]], the [[products of distributions]] that appear in the star product are of the form (written as [[generalized functions]])
+
+$$
+  \left(
+    \underset{i}{\prod} D^{n_i}_x\Delta_H(x,y)
+  \right)
+  \alpha^{(n)}( \underset{k\,\text{args}}{\underbrace{y, y, \cdots, y}}, z_1, \cdots, z_m)
+  \,,
+$$
+
+where $D^{n_1}$ denoted [[partial derivatives|partial]] [[derivatives of distributions]], and where $\alpha^{(n)}$ are the [[distribution|distributional]] [[coefficients]] of the [[polynomial observable]] $A_{mc}$, and where $x \neq y$, by assumption.
+
+Since the [[derivative of distributions]] preserves or shrinks the [[wave front set]] (by [this prop.](derivative+of+a+distribution#DerivativeOfDistributionRetainsOrShrinksWaveFrontSet))it is sufficient to see that among these the expressions those of the simpler form
+
+$$
+  (\Delta_H(x,y))^{k}
+  \alpha^{(n)}(y, y, \cdots, y, z_1, \cdots, z_m)
+$$
+
+exist as partial [[products of distributions|products of]] [[distributions of several variables]]. 
+
+Now by [this prop.](Feynman+propagator#WaveFronSetsForKGPropagatorsOnMinkowski) the [[wave front set]] of the Feynman propagator $\Delta_H(x,y)$ with contains [[wave vectors]] along $x$ in the [[closed future cone]] of [[covectors]] based on the [[future]] [[light cone]] of $(x-y)$, as well as [[wave vectors]] in the [[closed past cone]] of [[covectors]] based on the [[past]] [[light cone]]:
 
 <center>
 <img src="https://ncatlab.org/nlab/files/FeynmanPropagator.png" width="60">
 </center>
 
-Now since we are applying the [[star-product]] to [[local observables]], the [[products of distributions]] that appear are powers of the Feynman propagator with itself, of the form $(\Delta_F(x,y))^k$, and more generally powers of [[derivatives of distributions|partial derivatives]] of the Feynman propagtor with itself. By [this prop.](derivative+of+a+distribution#DerivativeOfDistributionRetainsOrShrinksWaveFrontSet) the [[derivative of distributions]] preserves or shrinks the [[wave front set]], hence it is sufficient to see that the products $(\Delta_F(x,y))^k$ exist.
- 
-But the above characterization of the [[wave front set]] of $\Delta_F$ means that as long as $x \neq y$, then the [[wave vectors]] in the [[wave front set]] at $x$ of each factor in these products of distributions are either all pointing to the future, or all pointing to the past. This implies that their [[sum]] does not vanish, hence that [[Hörmander's criterion]] is met. This shows that the star product exists as claimed.
+and similary but with opposite sign for $y$.
+
+This implies first of all that [[Hörmander's criterion]] for the existence of the product $(\Delta_H(x,y))^k$ is satisfied (since the wave front wave vectors at $x$ and at $y$ are all in the [[closed future cone]] or all in the [[closed past cone]] at $x\neq y$, their sum never adds up to zero). Moreover, by [this prop.](product+of+distributions#WaveFrontSetOfProductOfDistributionsInsideFiberProductOfFactorWaveFrontSets) the resulting product has wave front set contained in the fiberwise sum of the wave front sets of the factors, hence is still of the same general form.
+
+With this, finally [this prop.](product+of+distributions#PartialProductOfDistributionsOfSeveralVariables) implies, with the microcausal assumption on $\alpha^{(k)}$, that also the product $ (\Delta_H(x,y))^{k} \alpha^{(n)}(\underset{k\, \text{args}}{\underbrace{y, y, \cdots, y}}, z_1, \cdots, z_m)$ is defined, and a careful look at [this equation](product+of+distributions#eq:CompositionOfIntegralKernelsWaveFronConstraint) shows that its wave front set again satisfies the microcausality condition.
+
+This proves that the star product exists as claimed.
 
 Given that it exists, then by construction it is immediate that satisfies the axioms "perturbation" and "normalization" in def. \ref{TimeOrderedProduct}.
 
