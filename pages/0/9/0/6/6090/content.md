@@ -2297,7 +2297,6 @@ $$
 
 =--
 
-([Rejzner 16, def. 6.5](#Rejzner16))
 
 +-- {: .proof}
 ###### Proof
@@ -2310,16 +2309,13 @@ By [this prop.](Feynman+propagator#WaveFronSetsForKGPropagatorsOnMinkowski) the 
 <img src="https://ncatlab.org/nlab/files/FeynmanPropagator.png" width="60">
 </center>
 
-This means that whenever $x \neq y$, then the set of [[wave vectors]] in the wave front set of $\Delta_F$ at $x-y$ is either empty, or else all its elements are future-pointing, or all its elements are past-pointing. 
-
-> hm, no, it doesn't !?
-
-Notice that this is the condition which is met by the [[Wightman propagator]] for _all_ $x,y$ (including $x = y$), and hence now the argument in the proof that the Wightman propagator induces a well-defined star-product on [[microcausal observables]] ([this prop.](Wick+algebra#MoyalStarProductOnMicrocausal)) applies verbatim also for the Feynman propagator away from coinciding points: 
-
-By [this prop.](microcausal+polynomial+observable#CompactlySupportedPolynomialLocalDensities) all polynomial [[local observables]], when regarded as [[polynomial observables]], are [[microcausal polynomial observable|microcausal]], meaning that the [[wave front sets]] of their [[coefficient]] [[distributions]] $\alpha^{(k)}$ are such that at every point of $\Sigma^k$ the [[wave vectors]] in the wave front set do not all point to the future and not all to the past. Since we just saw that they do so for the [[Feynman propagator]] away from coinciding points, this implies that [[Hörmander's criterion]] for the product of $\Delta_F$ with $\alpha^{(k)}$ is always met, away from coinciding points, and so the star product is well defined.
+Now since we are applying the [[star-product]] to [[local observables]], the [[products of distributions]] that appear are powers of the Feynman propagator with itself, of the form $(\Delta_F(x,y))^k$, and more generally powers of [[derivatives of distributions|partial derivatives]] of the Feynman propagtor with itself. By [this prop.](derivative+of+a+distribution#DerivativeOfDistributionRetainsOrShrinksWaveFrontSet) the [[derivative of distributions]] preserves or shrinks the [[wave front set]], hence it is sufficient to see that the products $(\Delta_F(x,y))^k$ exist.
+ 
+But the above characterization of the [[wave front set]] of $\Delta_F$ means that as long as $x \neq y$, then the [[wave vectors]] in the [[wave front set]] at $x$ of each factor in these products of distributions are either all pointing to the future, or all pointing to the past. This implies that their [[sum]] does not vanish, hence that [[Hörmander's criterion]] is met. This shows that the star product exists as claimed.
 
 Given that it exists, then by construction it is immediate that satisfies the axioms "perturbation" and "normalization" in def. \ref{TimeOrderedProduct}.
-The only non-trivial point to check is that it indeed satisfies "[[causal factorization]]". In [this prop.](Wick+algebra#CausalOrderingTimeOrderedProductOnRegular) this is proven for $\star_F$ applied to [[regular polynomial observables]], but the proof manifestly applies whenever $\star_F$ is defined. The proof there also makes manifest that when defined $\star_F$ is in fact the _unique_ solution to causal factorization.
+
+The only non-trivial point to check is that it indeed satisfies "[[causal factorization]]". In [this prop.](Wick+algebra#CausalOrderingTimeOrderedProductOnRegular) this is proven for $\star_F$ applied to [[regular polynomial observables]], but the proof manifestly applies whenever $\star_F$ is defined. The proof there also makes manifest that when defined, then $\star_F$ is in fact the _unique_ solution to causal factorization.
 
 =--
 
