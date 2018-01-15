@@ -145,7 +145,7 @@ Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]]
 
 =--
 
-([Fredenhagen-Rejzner 15, section 3.6](pAQFT#FredenhagenRejzner15), [Collini 16, table 2.1](#pAQFT#Collini16))
+([Fredenhagen-Rejzner 15, section 3.6](pAQFT#FredenhagenRejzner15), [Collini 16, table 2.1](pAQFT#Collini16))
 
 +-- {: .num_defn #MicrocausalObservable}
 ###### Definition
