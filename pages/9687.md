@@ -76,6 +76,12 @@ For further developments see
 
 * _Dimensional Transmutation by Monopole Condensation in QCD_ ([arXiv:1206.6936](http://arxiv.org/abs/1206.6936))
 
+### Interacting field vacuum
+
+Discussion of confinement as a result of the [[interacting vacuum]] includes
+
+* {#Rafelski90} [[Johann Rafelski]], _Vacuum structure -- An Essay_, in pages 1-29 of H. Fried, Berndt Müller (eds.) _Vacuum Structure in Intense Fields_, Plenum Press 1990 ([GBooks](https://books.google.de/books?id=5uXcBwAAQBAJ&pg=PA14&lpg=PA14&dq=confinement+%22interacting+vacuum%22&source=bl&ots=xPGYJ-JOc-&sig=AoYbqWQeNRMg6hMSRZjJ3nzq8B0&hl=en&sa=X&ved=0ahUKEwjIgK68-tnYAhVCESwKHThMDykQ6AEIKTAA#v=onepage&q=confinement%20%22interacting%20vacuum%22&f=false))
+
 ### In super-Yang-Mills theory
  {#ReferencesInSuperYangMillsTheory}
 
