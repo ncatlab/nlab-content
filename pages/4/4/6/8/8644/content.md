@@ -82,6 +82,8 @@ For more see at _[Yang-Mills instanton -- SU(2)-instantons from the correct math
 
 ## Related concepts
 
+* [[interacting vacuum]]
+
 * [[fiber bundles in physics]]
 
 * [[non-perturbative effect]]
