@@ -107,7 +107,7 @@ The [[predicative topos]] formed by Bishop sets in type theory is discussed in
 
 A formalization of constructive set theory in terms of setoids in [[intensional type theory|intensional]] [[type theory]] coded in [[Coq]] is discussed in 
 
-* [[Erik Palmgren]], Olov Wilander, _Constructing categories of setoids of setoids in type theory_, ([pdf](http://www2.math.su.se/~palmgren/coq/czf_and_setoids/czf&setoids.pdf), [Coq](http://www2.math.su.se/~palmgren/coq/czf_and_setoids))
+* [[Erik Palmgren]], Olov Wilander, _Constructing categories of setoids in type theory_, ([pdf](http://www2.math.su.se/~palmgren/coq/czf_and_setoids/czf&setoids.pdf), [Coq](http://www2.math.su.se/~palmgren/coq/czf_and_setoids))
  {#PalmgrenWilander}
 
 See also 
