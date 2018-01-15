@@ -1,7 +1,6 @@
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-
 ###Context###
 #### Algebraic Qunantum Field Theory
 +--{: .hide}
@@ -562,7 +561,7 @@ is implied to exist by axiom "perturbation", see remark \ref{PerturbativeSMatrix
 =--
 
 Def. \ref{LagrangianFieldTheoryPerturbativeScattering} is due to ([Epstein-Glaser 73 (1)](#EpsteinGlaser73)),
-in view of lemma \ref{CausalLocalityOfThePerturbativeSMatrix} below, following ([Stückelberg 49-53](causal+pertrubation+theory#Stueckelberg49), [Bogoliubov-Shirkov 59](causal+perturbation+theory#BogoliubovShirkov59)).
+in view of lemma \ref{CausalLocalityOfThePerturbativeSMatrix} below, following ([Stückelberg 49-53](causal+perturbation+theory#Stueckelberg49), [Bogoliubov-Shirkov 59](causal+perturbation+theory#BogoliubovShirkov59)).
 That the [[domain]] of a S-matrix scheme is indeed the space of [[local observables]] was made explicit (in terms of axioms for the [[time-ordered products]], see def. \ref{TimeOrderedProduct} below), in ([Brunetti-Fredenhagen 99, section 3](#BrunettiFredenhagen99), [D&#252;tsch-Fredenhagen 04, appendix E](#DuetschFredenhagen04), [Hollands-Wald 04,  around (20)](#HollandsWald04)). Review includes ([Rejzner 16, around def. 6.7](#Rejzner16), [Dütsch 18, section 3.3](#Duetsch18)).
 
 +-- {: .num_remark #PerturbativeSMatrixInverse}
@@ -1737,14 +1736,14 @@ The only non-trivial point to check is that it indeed satisfies "[[causal factor
 
 =--
 
-+-- {: .num_defn}
++-- {: .num_defn #ExtensionOfTimeOrderedProoductsRenormalization}
 ###### Definition
 **([[renormalization|("re"-)normalization]] of [[perturbative QFT]])**
 
 Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}.
 
 Prop. \ref{TimeOrderedProductAwayFromDiagonal} implies that the 
-problem of constructing a sequence of [[time-ordered products]] (def. \ref{TimeOrderedProduct}), hence, by prop. \ref{TimeOrderedProductInducesPerturbativeSMatrix}, an [[S-matrix]] scheme (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) for [[perturbative quantum field theory]] around the given [[free field]] [[vacuum]] is equivalently a problem of a sequence of compatible _[[extensions of distributions]]_ of the [[star products]] $\underset{k \; \text{arguments}}{\underbrace{(-)\star_F \cdots \star_F (-)}}$ of the [[Feynman propagator]] on $k$ arguments from the [[complement]] $\Sigma^k \setminus diag(\Sigma)$ of the [[diagonal]] of coinciding [[events]]
+problem of constructing a sequence of [[time-ordered products]] (def. \ref{TimeOrderedProduct}), hence, by prop. \ref{TimeOrderedProductInducesPerturbativeSMatrix}, an [[S-matrix]] scheme (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) for [[perturbative quantum field theory]] around the given [[free field]] [[vacuum]], is equivalently a problem of a sequence of compatible _[[extensions of distributions]]_ of the [[star products]] $\underset{k \; \text{arguments}}{\underbrace{(-)\star_F \cdots \star_F (-)}}$ of the [[Feynman propagator]] on $k$ arguments from the [[complement]] $\Sigma^k \setminus diag(\Sigma)$ of the [[diagonal]] of coinciding [[events]]
 
 $$
   \array{
@@ -1767,7 +1766,48 @@ This choice of [[extension of distributions]] of the [[time-ordered product]] to
 
 =--
 
-Moreover, by the nature of the exponential expression, this means in each order to
+([Epstein-Glaser 73](#EpsteinGlaser73))
+
+
++-- {: .num_theorem #PerturbativeRenormalizationMainTheorem}
+###### Theorem
+**([[main theorem of perturbative renormalization]])**
+
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}.
+
+1. An [[S-matrix]] [[renormalization scheme]] (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) around this free vacuum exists, and its construction by choices of [[renormalization|("re"-)normalization]] according to def. \ref{ExtensionOfTimeOrderedProoductsRenormalization} involves precisely a [[finite-dimensional vector space]] of choices ("renormalization constants") at each order.
+
+1. Every [[pair]] of choices of perturbative [[S-matrix]] [[renormalization schemes]] $\mathcal{S}$, $\widetilde{\mathcal{S}}$ (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) are related by a unique transformation of the space of [[local observables]] ("adding counterterms to interactions")
+
+   $$
+     Z
+     \;\coloneqq\;
+     LocObs(E_{\text{BV-BRST}})[ [ \hbar, g ] ] 
+       \longrightarrow
+     LocObs(E_{\text{BV-BRST}})[ [ \hbar, h ] ]
+   $$
+
+   via [[precomposition]]
+
+   $$
+     \widetilde{\mathcal{S}} \;=\; \mathcal{S} \circ Z
+     \,.
+   $$
+
+1. The [[group]] of transformations $Z$ arising this is the _[[Stückelberg-Petermann renormalization group]]_. 
+
+> add assumption on Poincare invariance needed
+
+=--
+
+In summary this says that for each free field vacuum, the space of [[renormalization schemes]] for [[perturbative QFT]] around this vacuum is non-empty and is canonically a [[torsor]] over the [[Stückelberg-Petermann renormalization group]].
+
+
+#### Feynman diagrams
+ {#FeynmanDiagram}
+
+
+By the nature of the exponential expression, this means in each order to
 extend [[product of distributions|products]] of Feynman propagators labeled by
 [[graphs]] whose [[vertices]] correspond to the polynomial factors in $F$ and $G$ and whose
 [[edges]] indicate over which variables the Feynman propagators are to be multiplied.
@@ -1941,28 +1981,6 @@ See at _[[loop order]]_ the section _[Relation to powers in Planck's constant](l
 
 =--
 
-(...)
-
-The [[main theorem of perturbative renormalization]] states that
-
-1. For fixed $L_{int}$ the extension of these time-ordered products to the diagonal exists, and in each order there is a finite dimensional space of possible choices.
-
-1. There is a way to make these choices coherently, so that
-   one obtains the $S$-matrix indeed as a function in $L_{int}$. (a "renormalization scheme").
-
-1. The perturbative S-matrices $S$ and $\tilde S$ for two different such renormalization schemes are
-   related by a transformation $Z \;\colon\; \mathcal{F}_{loc} \longrightarrow \mathcal{F}_{loc}$ as
-
-   $$
-     \tilde S = S \circ Z
-     \,.
-   $$
-
-   here $Z(L_{int})$ is $L_{int}$ with "counterterms added".
-
-1. The transformations $Z \colon \mathcal{T}_{loc} \to \mathcal{T}_{loc}$ form a [[group]], called the
-   _[[Stückelberg-Petermann renormalization group]]_. Hence the renormalization schemes / coherent perturbative
-   S-matrices form a [[torsor]] over this group.
 
 
 $\,$
@@ -2457,7 +2475,7 @@ so that the above expression happens to be well defined and does solve the axiom
 Hence what needs to be done to properly define the [[time-ordered product]] is to choose an [[extension of distributions]] of the above product expression back from the complement of the diagonal to the whole space of [[tuples]] of points. Any such extension will produce time-ordered products.
 
 There are in general several different such [[extension of distributions|extensions]]. This freedom of choice is the freedom
-of _[[renormalization|"re-"normalization]]_; or equivalently, by the [[main theorem of perturbative renormalization theory]],
+of _[[renormalization|"re-"normalization]]_; or equivalently, by the [[main theorem of perturbative renormalization theory]] (theorem \ref{PerturbativeRenormalizationMainTheorem}),
 this is the freedom of choosing "counter terms" for the [[local observable|local]] [[interactions]]. This we discuss below in
 _[Feynman diagrams and (re-)normalization](#ExistenceAndRenormalization)_.
 
@@ -2472,7 +2490,7 @@ _[Feynman diagrams and (re-)normalization](#ExistenceAndRenormalization)_.
 The simple axioms of [[causal perturbation theory]] (def. \ref{LagrangianFieldTheoryPerturbativeScattering})
 do fully capture [[perturbative quantum field theory]] "in the ultraviolet": A solution to these axioms
 induces, by definition, well-defined [[perturbative QFT|perturbative]] [[scattering amplitudes]] (remark \ref{FromAxiomaticSMatrixScatteringAmplitudes})
-and well-defined [[perturbative QFT|perturbative]] [[probability amplitudes]] of [[interacting field observables]] (def. \ref{InteractingFieldObservables}) induced by _[[local observables|local]]_ [[action functionals]] (describing point-interactions such as the [[electron-photon interaction]]). By the [[main theorem of perturbative renormalization]] such solutions exist. This means that, while these are necessarily [[formal power series]] in $\hbar$ and $g$ (remark \ref{AsymptoticSeriesObservables}), all the [[coefficients]] of these formal power series ("[[loop order]] contributions") are well defined.
+and well-defined [[perturbative QFT|perturbative]] [[probability amplitudes]] of [[interacting field observables]] (def. \ref{InteractingFieldObservables}) induced by _[[local observables|local]]_ [[action functionals]] (describing point-interactions such as the [[electron-photon interaction]]). By the [[main theorem of perturbative renormalization]] (theorem \ref{PerturbativeRenormalizationMainTheorem}) such solutions exist. This means that, while these are necessarily [[formal power series]] in $\hbar$ and $g$ (remark \ref{AsymptoticSeriesObservables}), all the [[coefficients]] of these formal power series ("[[loop order]] contributions") are well defined.
 
 This is in contrast to the original informal conception of [[perturbative QFT]] due to [[Schwinger-Tomonaga-Feynman-Dyson]],
 which in a first stage produced ill-defined [[divergence|diverging]] expressions for the [[coefficients]] (due to the mathematical error discussed in remark \ref{TheTraditionalErrorThatLeadsToTheNotoriouDivergencies} below), which were then "[[renormalization|re-normalized]]" to finite values, by further informal arguments.
@@ -2512,7 +2530,7 @@ axiomatized in def. \ref{LagrangianFieldTheoryPerturbativeScattering} is really 
 
 Since the usual proof of the construction of such schemes of S-matrices involves _[[renormalization|("re"-)normalization]]_, the function $\mathcal{S}$ axiomatized by def. \ref{LagrangianFieldTheoryPerturbativeScattering} may also be referred to as a _[[renormalization scheme|("re"-)normalization scheme]]_.
 
-This perspective on $\mathcal{S}$ as a [[renormalization scheme]] is amplified by the [[main theorem of perturbative renormalization]]
+This perspective on $\mathcal{S}$ as a [[renormalization scheme]] is amplified by the [[main theorem of perturbative renormalization]] (theorem \ref{PerturbativeRenormalizationMainTheorem})
 wich states that the space of choices for $\mathcal{S}$ is a [[torsor]] over the [[Stückelberg-Petermann renormalization group]].
 
 =--
@@ -2532,7 +2550,7 @@ are respected by the [[quantization]] process (there may be "[[quantum anomalies
 The extra condition that does ensure this is the _[[quantum master Ward identity]]_ or _[[quantum master equation]]_.
 This we discuss elsewhere.
 
-Apart from [[gauge symmetries]] one also wants to require that rigid symmetries  are preserved by the S-matrix, notably [[Poincare group]]-symmetry for scattering on [[Minkowski spacetime]]. This extra axiom is needed to imply the _[[main theorem of perturbative renormalization]]_.
+Apart from [[gauge symmetries]] one also wants to require that rigid symmetries  are preserved by the S-matrix, notably [[Poincare group]]-symmetry for scattering on [[Minkowski spacetime]]. This extra axiom is needed to imply the _[[main theorem of perturbative renormalization]]_ (theorem \ref{PerturbativeRenormalizationMainTheorem}).
 
 =--
 
