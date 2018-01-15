@@ -84,7 +84,7 @@ Here
 
 1. the _algebraic adiabatic_ limit defines the _[[quantum observables]]_ in the limit;
 
-1. the weak adiabatic limit defines also the _[[quantum states]]_.
+1. the weak adiabatic limit may serve to define also the _[[state on a star-algebra|states]]_, hence the [[interacting vacuum]] ([Duch 17, p. 113-114](#Duch17)).
 
 ## References
 
