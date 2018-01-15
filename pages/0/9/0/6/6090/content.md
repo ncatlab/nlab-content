@@ -1281,9 +1281,8 @@ are not _really_ supposed to vanish outside a compact region of spacetime. In or
 
   Sometimes the [[weak adiabatic limit]] serves to define the [[interacting vacuum]] (see [Duch 17, p. 113-114](adiabatic+switching#Duch17)).
 
-A stark example of these infrared issues is the phenomenon of _[[confinement]]_ of [[quarks]] to [[hadron]] [[bound states]] (notably to [[protons]] and [[neutrons]]) at large [[wavelengths]]. This is paramount in [[experiment|observation]] and also seen in numerical [[lattice gauge theory]] simulation, but is invisible to [[perturbative QFT|perturbative]] [[quantum chromodynamics]] in its [[free field]] [[vacuum state]], due to [[infrared divergences]].
-It is expected that this should be rectified by the proper [[interacting vacuum]] of [[QCD]] (here: "[[theta-vacuum]]"), but this remains open.
-
+A stark example of these infrared issues is the phenomenon of _[[confinement]]_ of [[quarks]] to [[hadron]] [[bound states]] (notably to [[protons]] and [[neutrons]]) at large [[wavelengths]]. This is paramount in [[experiment|observation]] and reproduced in numerical [[lattice gauge theory]] simulation, but is invisible to [[perturbative QFT|perturbative]] [[quantum chromodynamics]] in its [[free field]] [[vacuum state]], due to [[infrared divergences]].
+It is expected that this should be rectified by the proper [[interacting vacuum]] of [[QCD]] ([Rafelski 90, pages 12-16](confinement#Rafelski90)), which is possibly a "[[theta-vacuum]]" exhibiting [[superposition]] of [[instanton in QCD|QCD instantons]] ([Schäfer-Shuryak 98, section III.D](instanton+in+QCD#SchaeferShuryak98)). This remains open, closely related to the _[Millenium Problem](http://www.claymath.org/millennium-problems/yang%E2%80%93mills-and-mass-gap)_ of [[quantization of Yang-Mills theory]].
 
 =--
 
