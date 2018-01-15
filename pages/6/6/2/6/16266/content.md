@@ -72,10 +72,7 @@ together with the associated colimit functor $colim\colon D-Ind(C)\to C$.
 
 We say that some class of limits _distributes over $D$-filtered colimits_ if the functor colim preserves these limits.
 
-+--{: .standout}
-What is the relationship of this to the above explicit definitions?
-
-=--
+See Appendix A in [AR](#AR) for a comparison of this definition to the above explicit definition.
 
 ## Relation to commutativity of limits and colimits
 
@@ -165,6 +162,8 @@ As a nontrivial example of the $K\colon I\to Cat$ case, let $I$ be the [[walking
 * {#ALRalg} [[Jiří Adámek]], [[William Lawvere]], [[Jiří Rosický]], [_How algebraic is algebra_](http://www.tac.mta.ca/tac/volumes/8/n9/8-09abs.html) TAC 8, 2001.
 
 * {#ABLR} [[Jiří Adámek]], [[Francis Borceux]], [[Stephen Lack]], [[Jiří Rosický]], [_A classification of accessible categories_](http://www.sciencedirect.com/science/article/pii/S0022404902001263) JPAA 175, 2002.
+
+* {#AR} [[Jiří Adámek]], [[Jiří Rosický]], [_Algebra and local presentability: how algebraic are they? (A survey)_](https://doi.org/10.1515/tmj-2017-0113).
 
 [[!redirects distributivity of limits and colimits]]
 [[!redirects distributivity of colimits over limits]]
