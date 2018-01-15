@@ -19,17 +19,21 @@
 
 ## Idea
 
-_Quantum electrodynamics_ ("QED") is the [[quantum field theory]] of [[electromagnetism]]: it describes the [[quantum theory]] of [[photons]] and [[electrons]].
+_Quantum electrodynamics_ ("QED") is the [[perturbative quantum field theory]] of [[electromagnetic field]] coupled to a [[Dirac field]] via the [[electron-photon interaction]]: it describes the [[quantum theory]] of [[photons]] and [[electrons]].
 
-The [[Lagrangian density]] defining QED is the sum of 
+## Definition
+
+The [[Lagrangian density]] defining QED is the [[sum]] of 
 
 1. the [[free field]] contribution of the [[electromagnetic field]];
 
-1. the [[free field]] contribution of the [[Dirac field]]
+1. the [[free field]] contribution of a [[Dirac field]];
 
 1. the [[electron-photon interaction]] term with [[coupling constant]] given by the [[fine structure constant]].
 
 See at _[[A first idea of quantum field theory]]_ [this example](A+first+idea+of+quantum+field+theory#LagrangianQED).
+
+(...)
 
 ## Related concepts
 
@@ -58,9 +62,13 @@ The term "quantum electrodynamics" is due to
 
 * [[Paul Dirac]], _The quantum theory of emission and absorption of radiation_, Proc. Roy. Soc. London A 114, 243, 1927 ([spire](http://inspirehep.net/record/42586?ln=en), [pdf](http://wwwhome.lorentz.leidenuniv.nl/~boyarsky/media/Proc.R.Soc.Lond.-1927-Dirac-243-65.pdf))
 
-This left some issues with the quantization of the rational field. These were addressed, and the [[causal propagator]] for the [[electromagnetic field]] was first found in 
+This left some issues with the quantization of the radiation field. These were addressed, and the [[causal propagator]] for the [[electromagnetic field]] was first found in 
 
 * [[Pascual Jordan]], [[Wolfgang Pauli]], _Zur Quantenelektrodynamik ladungsfreier Felder_, Zeitschrift f&#252;r Physik 47, 151 (1928)
+
+A comprehensive, albeit informal, theory of QED and of [[perturbative quantum field theory]] in general was eventually developed by
+
+* [[Schwinger-Tomonaga-Feynman-Dyson]], 1940s
 
 For more on the history see
 
