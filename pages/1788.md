@@ -1,4 +1,83 @@
 
++-- {: .num_prop #FeynmanDiagramLoopOrder}
+###### Proposition
+**([[loop order]] of [[Feynman diagrams]])**
+
+Let $\Gamma$ be a [[Feynman diagram]] (def. \ref{FeynmanDiagram}) whose underlying [[graph]] is [[planar]]. Then the order of $\hbar$ at which its [[Feynman amplitude]] (def. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints}) contributes in the [[S-matrix]] (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) is
+
+$$
+  \hbar^{L(\Gamma) - 1}
+  \,,
+$$
+
+where $L(\Gamma) \in \mathbb{N}$ is the number of _[[faces]]_ of the [[planar graph]] $\Gamma$, here called the _loop number_ of the diagram.
+
+Accordingly, the order in $\hbar$ at which the [[Feynman amplitude]] of a ([[planar graph|planar]]) [[Feynman diagram]] contributes is often referred to as the _loop order_.
+
+The contributions at loop order $L(\Gamma) = 0$ are often called the _[[tree level]]_ contributions.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+
+By def. \ref{LagrangianFieldTheoryPerturbativeScattering} the explicit $\hbar$-dependence of the [[S-matrix]] is
+
+$$
+  \mathcal{S}
+  \left(
+    S_{int}
+  \right)
+  \;=\; 
+  \underset{k \in \mathbb{N}}{\sum} 
+    \frac{1}{k!}
+    \frac{1}{(i \hbar)^k}
+    T( \underset{k \, \text{factors}}{\underbrace{S_{int}, \cdots,  S_{int}}} )
+$$
+
+and by prop. \ref{TimeOrderedProductAwayFromDiagonal} the further $\hbar$-dependence of the [[time-ordered product]] $T(\cdots)$ is
+
+$$
+  T(S_{int}, S_{int}) 
+  \;=\; 
+  prod \circ 
+  \exp\left(
+    \hbar
+    \left\langle 
+      \Delta_F, 
+      \frac{\delta}{\delta \mathbf{\Phi}} 
+        \otimes
+      \frac{\delta}{\delta \mathbf{\Phi}}
+    \right\rangle
+  \right)
+ ( S_{int} \otimes S_{int} )
+  \,,
+$$
+
+By the [[Feynman rules]] (prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints}) this means that 
+
+1. each [[vertex]] of the Feynman diagram contributes a power $\hbar^{-1}$;
+
+1. each [[edge]] of the Feynman diagram contributes a power $\hbar^1$.
+
+If we write
+
+$$
+  E(\Gamma), V(\Gamma) \;\in\; \mathcal{N}
+$$
+
+for the total number of [[vertices]] and [[edges]], respectively, in $\Gamma$, this means that $\Gamma$ contributes at the power
+
+$$
+  \hbar^{E(\Gamma) - V(\Gamma)}
+  \,.
+$$
+
+So far this holds for arbitrary $\Gamma$. Now using the assumption that 
+
+=--
+
 +-- {: .num_defn #FeynmanAmplitudes}
 ###### Definition
 **([[Feynman amplitude]])**
