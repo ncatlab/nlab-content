@@ -233,3 +233,5 @@ A comprehensive discussion of microlinearity is in chapter V, section 1 of
 
 
 [[!redirects microlinear spaces]]
+
+[[!redirects microlinearity]]
