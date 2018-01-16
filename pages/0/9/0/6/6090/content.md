@@ -326,7 +326,6 @@ in the form of _[[causal perturbation theory]]_, def. \ref{LagrangianFieldTheory
 ### In perturbative relativistic Lagrangian QFT -- Causal perturbation theory
  {#InCausalPerturbationTheory}
 
-> under construction
 
 In [[perturbative algebraic quantum field theory]] the broad structure of the [[interaction picture]] in [[quantum mechanics]] ([above](#InQuantumMechanics)) remains a very good guide, but various technical details have to be generalized with due care:
 
@@ -1894,9 +1893,10 @@ $\,$
  {#FeynmanDiagrams}
 
 
-By def \ref{ExtensionOfTimeOrderedProoductsRenormalization} and the [[main theorem of perturbative renormalization]] (theorem \ref{PerturbativeRenormalizationMainTheorem}) the consturction of perturbative [[S-matrix]] schemes/[[time-ordered products]] may be phrased as [[renormalization|("re-")normalization]] of the [[star product]] induced by the [[Feynman propagator]], namely as a choice of [[extension of distributions]] of the this star-product to the locus of coinciding interaction points. By the [[exponential]] nature of this star product, it is naturally expanded as a [[sum]] of [[products of distributions]] labeled by [[graphs]]. These graphs are called _[[Feynman diagrams]]_ (def. \ref{FeynmanDiagram}) below and the [[products of distributions]] which they label are called _[[Feynman amplitudes]]_. It is suggestive and often helpful to read these as [[probability amplitudes]] for [[interaction]] patterns of "[[virtual particles]]" (but this imagery has its limits).
+By def \ref{ExtensionOfTimeOrderedProoductsRenormalization} and the [[main theorem of perturbative renormalization]] (theorem \ref{PerturbativeRenormalizationMainTheorem}) the construction of perturbative [[S-matrix]] schemes/[[time-ordered products]] may be phrased as [[renormalization|("re-")normalization]] of the [[star product]] induced by the [[Feynman propagator]], namely as a choice of [[extension of distributions]] of the this star-product to the locus of coinciding interaction points. Since the [[star product]] is the [[exponential]] of of the binary contraction with the [[Feynman propagator]], it is naturally expanded as a [[sum]] of [[products of distributions]] labeled by [[graphs]], where each [[edge]] labels one of the contractions. These graphs are called _[[Feynman diagrams]]_ (def. \ref{FeynmanDiagram} below) and the [[products of distributions]] which they label are called _[[Feynman amplitudes]]_ built by the _[[Feynman rules]]_ (prop. \ref{FeynmanDiagramLoopOrder} below). 
+Thus expansion by [[Feynman diagrams]] makes the perturbative [[S-matrix]] equivalently a [[formal power series]] with [[coefficients]] given by [[Feynman amplitudes], and as such it is known as the _[[Feynman perturbation series]]_. 
 
-This makes the perturbative [[S-matrix]] equivalently a [[formal power series]] with [[coefficients]] given by [[Feynman amplitudes]] labeled by [[Feynman diagrams]], and as such it is known as the _[[Feynman perturbation series]]_. The choice of [[renormalization|("re"-)normalization]] of the [[time-ordered products]]/[[S-matrix]] is thus equivalently the choice of [[renormalization|("re"-)nromalization]] of all possible [[Feynman amplitudes]].
+The choice of [[renormalization|("re"-)normalization]] of the [[time-ordered products]]/[[S-matrix]] is thus equivalently the choice of [[renormalization|("re"-)normalization]] of all possible [[Feynman amplitudes]].
 
 +-- {: .num_defn #FeynmanDiagram}
 ###### Definition
@@ -2203,15 +2203,91 @@ which yield in total the sum over all diagrams with $v+1$ vertices.
 [[!include Feynman diagrams in causal perturbation theory -- summary]]
 
 
++-- {: .num_prop #FeynmanDiagramLoopOrder}
+###### Proposition
+**([[loop order]] and [[tree level]] of [[Feynman diagrams]])**
 
-+-- {: .num_remark}
-###### Remark
-**([[loop order]] and powers of [[Planck's constant]])
+Let $\Gamma$ be a [[Feynman diagram]] (def. \ref{FeynmanDiagram}) whose underlying [[graph]] is [[planar]]. Then the order of $\hbar$ at which its [[Feynman amplitude]] (def. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints}) contributes in the [[S-matrix]] (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) is
 
-From prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints} one deduces that the
-order in [[Planck's constant]] that a ([[planar graph|planar]]) [[Feynman diagram]] contributes to the
-S-matrix is given (up to a possible offset due to external vertices) by the "number of loops" in the diagram.
-See at _[[loop order]]_ the section _[Relation to powers in Planck's constant](loop+order#RelationToPowersInPlancksConstant)_ for details.
+$$
+  \hbar^{L(\Gamma) - 1}
+  \,,
+$$
+
+where $L(\Gamma) \in \mathbb{N}$ is the number of _[[faces]]_ of the [[planar graph]] $\Gamma$, here called the _loop number_ of the diagram.
+
+Accordingly, the order in $\hbar$ at which the [[Feynman amplitude]] of a ([[planar graph|planar]]) [[Feynman diagram]] contributes is often referred to as the _loop order_.
+
+The contributions at loop order $L(\Gamma) = 0$ are often called the _[[tree level]]_ contributions.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+
+By def. \ref{LagrangianFieldTheoryPerturbativeScattering} the explicit $\hbar$-dependence of the [[S-matrix]] is
+
+$$
+  \mathcal{S}
+  \left(
+    S_{int}
+  \right)
+  \;=\; 
+  \underset{k \in \mathbb{N}}{\sum} 
+    \frac{1}{k!}
+    \frac{1}{(i \hbar)^k}
+    T( \underset{k \, \text{factors}}{\underbrace{S_{int}, \cdots,  S_{int}}} )
+$$
+
+and by prop. \ref{TimeOrderedProductAwayFromDiagonal} the further $\hbar$-dependence of the [[time-ordered product]] $T(\cdots)$ is
+
+$$
+  T(S_{int}, S_{int}) 
+  \;=\; 
+  prod \circ 
+  \exp\left(
+    \hbar
+    \left\langle 
+      \Delta_F, 
+      \frac{\delta}{\delta \mathbf{\Phi}} 
+        \otimes
+      \frac{\delta}{\delta \mathbf{\Phi}}
+    \right\rangle
+  \right)
+ ( S_{int} \otimes S_{int} )
+  \,,
+$$
+
+By the [[Feynman rules]] (prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints}) this means that 
+
+1. each [[vertex]] of the Feynman diagram contributes a power $\hbar^{-1}$;
+
+1. each [[edge]] of the Feynman diagram contributes a power $\hbar^1$.
+
+If we write
+
+$$
+  E(\Gamma), V(\Gamma) \;\in\; \mathcal{N}
+$$
+
+for the total number of [[vertices]] and [[edges]], respectively, in $\Gamma$, this means that $\Gamma$ contributes at the power
+
+$$
+  \hbar^{E(\Gamma) - V(\Gamma)}
+  \,.
+$$
+
+So far this holds for arbitrary $\Gamma$. Now using the assumption that $\Gamma$ is [[planar]], then the formula for the _[[Euler characteristic of planar graphs]]_ says that 
+
+$$
+  E(\Gamma) - V(\Gamma)
+  \;=\;
+  L(\Gamma) - 1
+  \,.
+$$
+
+This yields the claim.
 
 =--
 
@@ -2354,7 +2430,7 @@ $$
   \,.
 $$
 
-Here the would-be [[integration]] is thought to be over the [[space of field histories]] $\Gamma_\Sigma(E_{\text{BV-BRST}})_{asm}$ (the [[space of sections]] of the given [[field bundle]]) for [[field histories]] which satisfy given asymptotic conditions at $x^0 \to \pm \infty$; and as these boundary conditions vary the above is regarded as a would-be [[integral kernel]] that defines the required operator in the [[Wick algebra]] (e.g. [Weinberg 95, around (9.3.10) and (9.4.1)](#Weinberg95)).
+Here the would-be [[integration]] is thought to be over the [[space of field histories]] $\Gamma_\Sigma(E_{\text{BV-BRST}})_{asm}$ (the [[space of sections]] of the given [[field bundle]]) for [[field histories]] which satisfy given asymptotic conditions at $x^0 \to \pm \infty$; and as these boundary conditions vary the above is regarded as a would-be [[integral kernel]] that defines the required operator in the [[Wick algebra]] (e.g. [Weinberg 95, around (9.3.10) and (9.4.1)](#Weinberg95)). This is related to the intuitive picture of the [[Feynman perturbation series]] expressing a sum over all possible interactions of [[virtual particles]] (remark \ref{WorldlineFormalism}).
 
 Beyond toy examples, it is not known how to define the would-be [[measure]] $D[\Phi]$ and it is not known how to make sense of this expression as an actual [[integral]].
 
@@ -2736,7 +2812,7 @@ and well-defined [[perturbative QFT|perturbative]] [[probability amplitudes]] of
 This is in contrast to the original informal conception of [[perturbative QFT]] due to [[Schwinger-Tomonaga-Feynman-Dyson]],
 which in a first stage produced ill-defined [[divergence|diverging]] expressions for the [[coefficients]] (due to the mathematical error discussed in remark \ref{TheTraditionalErrorThatLeadsToTheNotoriouDivergencies} below), which were then "[[renormalization|re-normalized]]" to finite values, by further informal arguments.
 
-Here in [[causal perturbation theory]] no [[divergences]] in the [[coefficients]] of the [[formal power series]] are considered in the first place, all coefficients are well-defined, hence "finite". In this sense [[causal perturbation theory]] is about "finite" perturbative QFT, where instead of "re-normalization" of ill-defined expressions one just encounters "normalization" (prominently highlighted in [Scharf 95, see title, introduction, and section 4.3](causal+perturbation+theory#Scharf95)), namely compatible choices of these finite values, parameterized by the [[Stückelberg-pPetermann renormalization group]].
+Here in [[causal perturbation theory]] no [[divergences]] in the [[coefficients]] of the [[formal power series]] are considered in the first place, all coefficients are well-defined, hence "finite". In this sense [[causal perturbation theory]] is about "finite" perturbative QFT, where instead of "re-normalization" of ill-defined expressions one just encounters "normalization" (prominently highlighted in [Scharf 95, see title, introduction, and section 4.3](causal+perturbation+theoryscatt#Scharf95)), namely compatible choices of these finite values, parameterized by the [[Stückelberg-Petermann renormalization group]].
 
 This refers to those [[divergences]] that are known as _[[UV-divergences]]_, namely short-distance effects,
 which are mathematically reflected in the fact that the perturbative [[S-matrix]] scheme (def. \ref{LagrangianFieldTheoryPerturbativeScattering})
@@ -2744,6 +2820,18 @@ is defined on _[[local observables]]_, which, by their very locality, encode poi
 See also remark \ref{AdiabaticLimit} on _[[infrared divergences]]_.
 
 =--
+
+
++-- {: .num_remark #WorldlineFormalism}
+###### Remark
+**([[virtual particles]], [[worldline formalism]] and [[perturbative string theory]])**
+
+It is suggestive to think of the [[edges]] in the [[Feynman diagrams]] (def. \ref{FeynmanDiagram}) as [[worldlines]] of "[[virtual particles]]" and of the [[vertices]] as the points where they collide and transmute. (Care must be exercised not to confuse this with concepts of real [[particles]].) With this interpretation prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints} may be read as saying that the [[scattering amplitude]] for given external [[source fields]] (remark \ref{FromAxiomaticSMatrixScatteringAmplitudes}) is the [[superposition]] of the [[Feynman amplitudes]] of all possible ways that these may interact; which is closely related to the intuition for the [[path integral]] (remark \ref{InterpretationOfPerturbativeSMatrix}).
+
+This intuition is made precise by the _[[worldline formalism]]_ of [[perturbative quantum field theory]] ([Strassler 92](worldline+formalism#Strassler92)). This is the perspective on [[perturbative QFT]] which directly relates [[perturbative QFT]] to [[perturbative string theory]] ([Schmidt-Schubert 94](worldline+formalism#SchmidtSchubert94)). In fact the [[worldline formalism]] for [[perturbative QFT]] was originally found by taking thre point-particle limit of [[string scattering amplitudes]] ([Bern-Kosower 91](worldline+formalism#BernKosower91), [Bern-Kosower 92](worldline+formalism#BernKosower92)).
+
+=--
+
 
 +-- {: .num_remark #calSFunctionIsRenormalizationScheme}
 ###### Remark
@@ -2808,6 +2896,8 @@ $\,$
 
 #### Quantum observables and Retarded products
  {#QuantumObservables}
+
+> notation needs to be harmonized with the above...
 
 A genuine local [[observable]] should depend on the values of the [[fields]] on some [[compact subset]]
 of spacetime. Moreover, a perturbative [[quantum observable]] should be a [[power series]] in [[Planck's constant]] $\hbar$,
