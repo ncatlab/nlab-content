@@ -1705,6 +1705,7 @@ $$
 In particular this implies that the time-ordered product extends from the restricted domain of tensor products of local observables to a restricted domain of [[microcausal polynomial observables]], where it becomes an [[associativity|associative]] product:
 
 $$
+  \label{RestritedTimeOrderedProductAssociative}
   \begin{aligned}
     T(A_1, \cdots, A_{k_n})
     & =
@@ -1725,7 +1726,7 @@ for all tuples of local observables $A_1, \cdots, A_{k_1}, A_{k_1+1}, \cdots, A_
 
 =--
 
-The idea of this statement goes back at least to [Epstein-Glaser 73](#EpsteinGlaser73), as in remark \ref{TheTraditionalErrorThatLeadsToTheNotoriouDivergencies}. One formulation appears as ([Brunetti-Fredenhagen 00, theorem 4.3](perturbative+algebraic+quantum+field+theory#BrunettiFredenhagen00)). The above formulation in terms of the [[star product]] is stated without proof in ([Fredenhagen-Rejzner 12, p. 27](perturbative+algebraic+quantum+field+theory#FredenhagenRejzner12)).
+The idea of this statement goes back at least to [Epstein-Glaser 73](#EpsteinGlaser73), as in remark \ref{TheTraditionalErrorThatLeadsToTheNotoriouDivergencies}. One formulation appears as ([Brunetti-Fredenhagen 00, theorem 4.3](perturbative+algebraic+quantum+field+theory#BrunettiFredenhagen00)). The above formulation in terms of the [[star product]] is stated in ([Fredenhagen-Rejzner 12, p. 27](perturbative+algebraic+quantum+field+theory#FredenhagenRejzner12), [Dütsch 18, lemma 3.63 (b)](perturbative+algebraic+quantum+field+theory#Duetsch18)).
 
 +-- {: .proof}
 ###### Proof
@@ -1796,30 +1797,23 @@ Finally the [[associativity]]-statement follows as in [this prop.](star+product#
 Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}.
 
 Prop. \ref{TimeOrderedProductAwayFromDiagonal} implies that the 
-problem of constructing a sequence of [[time-ordered products]] (def. \ref{TimeOrderedProduct}), hence, by prop. \ref{TimeOrderedProductInducesPerturbativeSMatrix}, an [[S-matrix]] scheme (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) for [[perturbative quantum field theory]] around the given [[free field]] [[vacuum]], is equivalently a problem of a sequence of compatible _[[extensions of distributions]]_ of the [[star products]] $\underset{k \; \text{arguments}}{\underbrace{(-)\star_F \cdots \star_F (-)}}$ of the [[Feynman propagator]] on $k$ arguments from the [[complement]] $\Sigma^k \setminus diag(\Sigma)$ of the [[diagonal]] of coinciding [[events]]
+problem of constructing a sequence of [[time-ordered products]] (def. \ref{TimeOrderedProduct}), hence, by prop. \ref{TimeOrderedProductInducesPerturbativeSMatrix}, an [[S-matrix]] scheme (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) for [[perturbative quantum field theory]] around the given [[free field]] [[vacuum]], is equivalently a problem of a sequence of compatible _[[extensions of distributions]]_ of the [[star products]] $\underset{k \; \text{arguments}}{\underbrace{(-)\star_F \cdots \star_F (-)}}$ of the [[Feynman propagator]] on $k$ arguments from the [[complement]] of coinciding [[events]] inside the [[Cartesian products]] $\Sigma^k$ of [[spacetime]] $\Sigma$, along the canonical inclusion
 
 $$
-  \array{
-    diag(\Sigma) &\hookrightarrow& \Sigma^k
-    \\
-    x &\mapsto& (x, \cdots, x)
-  }
-$$
-
-inside the [[Cartesian products]] $\Sigma^k$ of [[spacetime]] $\Sigma$, along the canonical inclusion
-
-$$
-  \Sigma^k \setminus diag(\Sigma)
+  \Sigma^k \setminus \left\{ (x_i) \,\vert\, \underset{i \neq j}{\exists} (x_i = x_j) \right\}
     \overset{\phantom{AAA}}{\hookrightarrow}
   \Sigma^k
   \,.
 $$
 
-This choice of [[extension of distributions]] of the [[time-ordered product]] to coinciding interaction points deserves to be called a choice of _normalization_ of the [[time-ordered product]] (e.g. [Scharf 94, section 4.3](#Scharf95)) but for historical reasons it is known as _[[renormalization]]_ (see remark \ref{TheTraditionalErrorThatLeadsToTheNotoriouDivergencies} and remark \ref{CausalPerturbationTheoryAbsenceOfUVDivergences}).
+Via the [[associativity]] (eq:RestritedTimeOrderedProductAssociative) of the restricted [[time-ordered product]] thesese choices are naturally made by [[induction]] over $k$, choosing the $(k+1)$-ary [[time-ordered product]] $T_{k+1}$ as an [[extension of distributions]] of $T_k(\underset{k \, \text{args}}{\underbrace{-, \cdots, -}}) \star_F (-)$.
+
+This [[induction|inductive]] choice of [[extension of distributions]] of the [[time-ordered product]] to coinciding interaction points deserves to be called a choice of _normalization_ of the [[time-ordered product]] (e.g. [Scharf 94, section 4.3](#Scharf95)), but for historical reasons (see remark \ref{TheTraditionalErrorThatLeadsToTheNotoriouDivergencies} and remark \ref{CausalPerturbationTheoryAbsenceOfUVDivergences}) it is known as _[[renormalization|re-normalization]]_.
 
 =--
 
-([Epstein-Glaser 73](#EpsteinGlaser73))
+In ([Epstein-Glaser 73](#EpsteinGlaser73)) this is phrased in terms of splitting of distributions. In ([Brunetti-Fredenhagen 00, sections 4 and 7](perturbative+algebraic+quantum+field+theory#BrunettiFredenhagen00)) the perspective via [[extension of distributions]] is introduced, following ([Stora 93](perturbative+algebraic+quantum+field+theory#Stora93)). Review is in ([Dütsch 18, section 3.3.2](perturbative+algebraic+quantum+field+theory#Duetsch18)).
+
 
 
 +-- {: .num_theorem #PerturbativeRenormalizationMainTheorem}
@@ -1834,7 +1828,7 @@ Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field the
 
    $$
      Z
-     \;\coloneqq\;
+     \;\colon\;
      LocObs(E_{\text{BV-BRST}})[ [ \hbar, g ] ] 
        \longrightarrow
      LocObs(E_{\text{BV-BRST}})[ [ \hbar, h ] ]
@@ -1855,28 +1849,35 @@ Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field the
 
 In summary this says that for each free field vacuum, the space of [[renormalization schemes]] for [[perturbative QFT]] around this vacuum is non-empty and is canonically a [[torsor]] over the [[Stückelberg-Petermann renormalization group]].
 
+Notice that theorem involves neither [[scaling transformations]] as in [[Gell-Mann-Low renormalization cocycles]], nor cutoffs as in Wilsonian [[effective field theory]]. But these perspective follow ([Brunetti-Dütsch-Fredenhagen 09](renormalization group#BrunettiDuetschFredenhagen09)).
 
 #### Feynman diagrams
  {#FeynmanDiagram}
 
 
-By the nature of the exponential expression, this means in each order to
-extend [[product of distributions|products]] of Feynman propagators labeled by
-[[graphs]] whose [[vertices]] correspond to the polynomial factors in $F$ and $G$ and whose
-[[edges]] indicate over which variables the Feynman propagators are to be multiplied.
+By def \ref{ExtensionOfTimeOrderedProoductsRenormalization} the consturction of perturbative [[S-matrix]] schemes/[[times-ordered products]] may be phrased as [[renormalization|("re-")normalization]] of the [[star product]] induced by the [[Feynman propagator]]. By the [[exponential]] nature of this star product, it is naturally expanded as a [[sum]] of [[products of distributions]] labeled by [[graphs]]. These graphs are called _[[Feynman diagrams]]_ (def. \ref{FeynmanDiagram}) below and the [[products of distributions]] which they label are called _[[Feynman amplitudes]]_. It is suggestive and often helpful to read these as [[probability amplitudes]] for [[interaction]] patterns of "[[virtual particles]]" (but this imagery has its limits).
 
+This makes the perturbative [[S-matrix]] equivalently a [[formal power series]] with [[coefficients]] given by [[Feynman amplitudes]] labeled by [[Feynman diagram]], and as such it is known as the _[[Feynman perturbation series]]_. The choice of [[renormalization|("re"-)normalization]] of the [[times-ordered products]]/[[S-matrix]] is thus equivalently the choice of [[renormalization|("re"-)nromalization]] of all possible [[Feynman amplitudes]].
 
-+-- {: .num_defn #ScalarFieldFeynmanDiagram}
++-- {: .num_defn #FeynmanDiagram}
 ###### Definition
-**([[scalar field]] [[Feynman diagram]])**
+**([[Feynman diagram]])**
 
-A _[[scalar field]] [[Feynman diagram]]_ $\Gamma$ is
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}.
+
+A _[[Feynman diagram]]_ $\Gamma$ is
 
 1. a [[natural number]] $v \in \mathcal{N}$ (number of [[vertices]]);
 
-1. a $v$-[[tuple]] of elements $(V_r \in \mathcal{F}_{loc} \langle g,j\rangle)_{r \in \{1, \cdots, v\}}$ (the interaction and external field vertices)
+1. a $v$-[[tuple]] of [[local observables]]
 
-1. for each $a \lt b \in \{1, \cdots, v\}$ a natural number $e_{a,b} \in \mathbb{N}$ ("of [[edges]] from the $a$th to the $b$th vertex").
+   $$
+     (V_r \in LocObs(E_{\text{BV-BRST}}) \langle g,j\rangle)_{r \in \{1, \cdots, v\}}
+   $$ 
+
+   (the [[interaction]] and external field vertices)
+
+1. for each $a \lt b \in \{1, \cdots, v\}$ a [[natural number]] $e_{a,b} \in \mathbb{N}$ ("of [[edges]] from the $a$th to the $b$th vertex").
 
 For a given [[tuple]] $(V_j)$ of interaction vertices we write
 
@@ -1884,14 +1885,13 @@ $$
   FDiag_{(V_j)}
 $$
 
-for set of scalar field Feynman diagrams with that tuple of vertices.
+for set of Feynman diagrams with that tuple of vertices.
 
 =--
 
 +-- {: .num_prop #FeynmanPerturbationSeriesAwayFromCoincidingPoints}
 ###### Proposition
 **([[Feynman perturbation series]] away from coinciding vertices)
-
 
 For $v \in \mathbb{N}$ the $v$-fold
 [[time-ordered product]] away from the diagonal,
