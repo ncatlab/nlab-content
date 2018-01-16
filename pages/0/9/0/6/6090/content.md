@@ -805,7 +805,7 @@ $$
     A_{int}
   \right\rangle
   \;\in\;
-  \mathcal{C}[ [\hbar, g] ]
+  \mathbb{C}[ [\hbar, g] ]
 $$
 
 which express the [[probability amplitudes]] that reflect the predictions of the [[perturbative QFT]], which may be compared to [[experiment]].
@@ -847,7 +847,7 @@ $$
     {\, \atop \,}
     LocObs(E_{\text{BV-BRST}})[ [\hbar, g, j] ]
     {\, \atop \,}
-  \right)^{\otimes^k_{\mathcal{C}[ [\hbar, g, j] ]}}
+  \right)^{\otimes^k_{\mathbb{C}[ [\hbar, g, j] ]}}
     \longrightarrow
   PolyObs(E_{\text{BV-BRST}})_{reg}((\hbar))[ [g , j] ]
 $$
@@ -1652,18 +1652,26 @@ $$
 Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}, and let $T = \{T_k\}_{k \in \mathbb{N}}$ be a sequence of [[time-ordered products]] (def. \ref{TimeOrderedProduct})
 
 $$
-  T_k
-    \;\colon\;
-  \left(
-    {\, \atop \,}
-    LocObs(E_{\text{BV-BRST}})[ [\hbar, g, j] ]
-    {\, \atop \,}
-  \right)^{\otimes^k_{\mathcal{C}[ [\hbar, g, j] ]}}
-    \longrightarrow
-  PolyObs(E_{\text{BV-BRST}})_{reg}((\hbar))[ [g , j] ]
+  \array{
+    \left(
+      {\, \atop \,}
+      LocObs(E_{\text{BV-BRST}})[ [\hbar, g, j] ]
+      {\, \atop \,}
+    \right)^{\otimes^k_{\mathbb{C}[ [\hbar, g, j] ]}}
+      & \longrightarrow &
+    PolyObs(E_{\text{BV-BRST}})_{reg}((\hbar))[ [g , j] ]
+    \\
+    \uparrow & \nearrow_{(-) \star_F \cdots \star_F (-)}
+    \\
+    \left(
+      {\, \atop \,}
+      LocObs(E_{\text{BV-BRST}})[ [\hbar, g, j] ]
+      {\, \atop \,}
+    \right)^{\otimes^k_{\mathbb{C}[ [\hbar, g, j] ]}}_{pds}
+  }
 $$
 
-Then their [[restriction]] to the subspace of [[tuples]] of [[local observables]] of pairwise disjoint spacetime support (def. \ref{TuplesOfCompactlySupportedPolynomialLocalFunctionalsWithPairwiseDisjointSupport}) is unique (independent of the [[renormalization|"re-"normalization]] freedom in choosing $T$) and is equal to the [[star product]] 
+Then their [[restriction]] to the subspace of [[tuples]] of [[local observables]] of pairwise disjoint spacetime support (def. \ref{TuplesOfCompactlySupportedPolynomialLocalFunctionalsWithPairwiseDisjointSupport}) is unique (independent of the [[renormalization|"re-"normalization]] freedom in choosing $T$) and is given by the [[star product]] 
 
 $$
   A_1 \star_{\star_F} A_2
@@ -1702,7 +1710,7 @@ $$
   \,.
 $$
 
-In particular this implies that the time-ordered product extends from the restricted domain of tensor products of local observables to a restricted domain of [[microcausal polynomial observables]], where it becomes an [[associativity|associative]] product:
+In particular the time-ordered product extends from the restricted domain of tensor products of local observables to a restricted domain of [[microcausal polynomial observables]], where it becomes an [[associativity|associative]] product:
 
 $$
   \label{RestrictedTimeOrderedProductAssociative}
@@ -1884,7 +1892,7 @@ A _[[Feynman diagram]]_ $\Gamma$ is
 For a given [[tuple]] $(V_j)$ of interaction vertices we write
 
 $$
-  FDiag_{(V_j)}
+  \mathcal{G}_{(V_j)}
 $$
 
 for set of Feynman diagrams with that tuple of vertices.
@@ -1894,6 +1902,8 @@ for set of Feynman diagrams with that tuple of vertices.
 +-- {: .num_prop #FeynmanPerturbationSeriesAwayFromCoincidingPoints}
 ###### Proposition
 **([[Feynman perturbation series]] away from coinciding vertices)
+
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}.
 
 For $v \in \mathbb{N}$ the $v$-fold [[time-ordered product]] away from coinciding interaction points,
 given by prop. \ref{TimeOrderedProductAwayFromDiagonal}
@@ -1905,7 +1915,7 @@ $$
     {\, \atop \,}
     LocObs(E_{\text{BV-BRST}})[ [\hbar, g, j] ]
     {\, \atop \,}
-  \right)^{\otimes^v_{\mathcal{C}[ [\hbar, g, j] ]}}
+  \right)^{\otimes^v_{\mathbb{C}[ [\hbar, g, j] ]}}_{pds}
     \longrightarrow
   PolyObs(E_{\text{BV-BRST}})_{reg}((\hbar))[ [g , j] ]
 $$
@@ -1917,14 +1927,18 @@ $$
     & T_v(V_1, \cdots ,V_v)
     \\
     & =
-    ((-)\cdot(-))
-    \circ
     \underset{\Gamma \in \mathcal{G}_{(V_j)_{j = 1}^{v}}}{\sum}
+     \Gamma(V_i)_{i = 1}^v
+    \\
+    & \coloneqq
+    \underset{\Gamma \in \mathcal{G}_{(V_i)_{i = 1}^{v}}}{\sum}
+    prod
+    \circ
     \underset{ r \lt s \in \{1, \cdots, v\} }{\prod}
     \frac{\hbar^{e_{r,s}}}{e_{r,s}!}
     \underset{\Sigma \times \Sigma}{\int}
     \left\langle
-      (\hbar \Delta_{F})^{e_{r,s}}
+      (\Delta_{F})^{e_{r,s}}
       ,
       \frac{\delta^{e_{r,s}}}{\delta \mathbf{\Phi}_r^{e_{r,s}}}
       \frac{\delta^{e_{r,s}}}{\delta \mathbf{\Phi}_s^{e_{r,s}}} 
@@ -1934,9 +1948,9 @@ $$
     \right)
     \\
     & \coloneqq
-    ((-)\cdot(-))
+    \underset{\Gamma \in \mathcal{G}_{(V_i)_{i = 1}^{v}}}{\sum}
+    ((-) \cdot \cdots \cdot (-))
     \circ
-    \underset{\Gamma \in \mathcal{G}_{(V_j)_{j = 1}^{v}}}{\sum}
     \underset{ r \lt s \in \{1, \cdots, v\} }{\prod}
     \frac{\hbar^{e_{r,s}}}{e_{r,s}!}
     \underset{\Sigma \times \Sigma}{\int}
@@ -1981,7 +1995,7 @@ $$
   \end{aligned}
 $$
 
-where the edge numbers $e_{r,s} = e_{r,s}(\Gamma)$ are those of the given [[Feynman diagram]] $\Gamma$, according to def. \ref{FeynmanDiagram}.
+where the [[edge]] numbers $e_{r,s} = e_{r,s}(\Gamma)$ are those of the given [[Feynman diagram]] $\Gamma$, according to def. \ref{FeynmanDiagram}.
 
 =--
 
@@ -2052,10 +2066,28 @@ $$
     \right\rangle
     \\
     & \phantom{=}
-    \underset{e_{1,{v+1}}, \cdots, e_{v,v+1}  }{\sum}
-      \tfrac{1}{(e_{1,v+1}+ \cdots + e_{v,v+1}) !}
+    \underset{  
+       { e_{v+1} =} 
+       \atop
+       { e_{1,{v+1}} + \cdots + e_{v,v+1} } 
+    }{\sum}
+      \underset{
+        = (e_{1,v+1}) \cdots (e_{v,v+1}))
+      }{
+      \underbrace{
+      \frac{ 
+        \left(
+          { e_{v+1} }
+          \atop
+          { (e_{1,v+1}), \cdots, (e_{v,v+1}) }
+        \right) 
+      }{
+        ( e_{v+1} ) !
+      }
+      }
+      }
     \left\langle
-      (\hbar \Delta_F)^{e_{1,v+1} + \cdots + e_{v,v+1}}
+      (\hbar \Delta_F)^{e_{v+1}}
     \left(
       \frac{\delta^{e_{1,v+1}} V_1 }{\delta \mathbf{\Phi}^{e_{1,v+1}}}
         \otimes
@@ -2068,7 +2100,7 @@ $$
       }
     \;\otimes\;
     \frac{
-      \delta^{e_{1,v+1} + \cdots + e_{v,v+1}} V_{v+1}
+      \delta^{ e_{v+1} } V_{v+1}
     }{
       \delta \mathbf{\Phi}^{e_{1,v+1} + \cdots + e_{v,v+1}}
     }
@@ -2091,6 +2123,8 @@ $$
   \end{aligned}
 $$
 
+The combinatorial factor over the brace is the [[multinomial coefficient]] expressing the number of ways of distributing $e_{v+1}$-many functional derivatives to $v$ factors, via the [[product rule]], and quotiented by the [[factorial]] that comes from the [[exponential]] in the definition of the [[star product]].
+
 Here in the first step we used the [[associativity]] (eq:RestrictedTimeOrderedProductAssociative) of the restricted time-ordered product, in the second step we used the induction assumption,
 in the third we passed the outer functional derivatives through the pointwise product using the [[product rule]], and in the fourth step we recognized that this amounts to summing
 in addition over all possible choices of sets of edges from the first $v$ vertices to the new $v+1$st vertex,
@@ -2098,7 +2132,10 @@ which yield in total the sum over all diagrams with $v+1$ vertices.
 
 =--
 
+
+
 [[!include Feynman diagrams in causal perturbation theory -- summary]]
+
 
 
 +-- {: .num_remark}
@@ -2403,12 +2440,12 @@ $$
     A^\ast_{out} \, \mathcal{S}(S_{int}) \, A_{in}
   \right\rangle
   \;\in\;
-  \mathcal{C}[ [ \hbar, g ] ]
+  \mathbb{C}[ [ \hbar, g ] ]
   \,.
 $$
 
 for the [[Wick algebra]]-product $A^\ast_{out} \, \mathcal{S}(S_{int})\, A_{in} \in PolyObs(E_{\text{BV-BRST}})[ [\hbar, g ] ]$
-in the given [[Hadamard vacuum state]] $\langle -\rangle \colon PolyObs(E_{\text{BV-BRST}})[ [\hbar, g] ] \to \mathcal{C}[ [\hbar,g] ]$.
+in the given [[Hadamard vacuum state]] $\langle -\rangle \colon PolyObs(E_{\text{BV-BRST}})[ [\hbar, g] ] \to \mathbb{C}[ [\hbar,g] ]$.
 
 If here $A_{in}$ and $A_{out}$ are monomials in [[Wick algebra]]-products of the [[field observables]] $\mathbf{\Phi}^a(x) \in Obs(E_{\text{BV-BRST}})[ [\hbar] ]$,
 then this [[scattering amplitude]] comes from the [[integral kernel]]
