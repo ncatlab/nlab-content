@@ -94,10 +94,19 @@ In the special case that $X$ is a [[surface]], Def. \ref{EulerCharOfCWComplex} r
 Let $X$ be a convex [[polyhedron]]. Then its Euler characteristic is
 
 $$
-  \chi(X) = \vert Vertices(X)\vert - \vert Edges(X)\vert + 
+  \chi(X)
+  \;\coloneqq\; 
+   \vert Vertices(X)\vert 
+   - 
+   \vert Edges(X)\vert
+    + 
    \vert Faces(X)\vert
-  \,.
+  \;\in\;
+  \mathbb{Z}
+  \,,
 $$
+
+hence the number of [[vertices]] minus the number of [[edges]] plus the number of [[faces]] in the polyhedron.
 
 =--
 
@@ -109,7 +118,7 @@ $$
   \,.
 $$
 
-By removing one point from the 2-sphere not contained in $X$, the result may be thought of as a [[planar graph]]. This has one face less than $X$ had (the one containing the point which was removed). Hence 
+By removing one point from the 2-sphere not contained in $X$, the result may be thought of as a [[planar graph]]. This has one [[face]] less than $X$ had (the one containing the point which was removed). Hence 
 
 +-- {: .num_cor #EulerFormulaForPlanarGraphs}
 ###### Corollary
