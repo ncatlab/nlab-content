@@ -616,7 +616,7 @@ This expression for the inverse of S-matrix may usefully be re-ordganized in ter
 Given a perturbative [[S-matrix]] scheme (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) it immediately
 induces a corresponding concept of [[observables]]:
 
-+-- {: .num_defn #SchemeGeneratingFunction}
++-- {: .num_defn s#SchemeGeneratingFunction}
 ###### Definition
 **([[generating function]] scheme for [[interacting field observables]])**
 
@@ -828,6 +828,7 @@ It follows in particular that the [[interacting field observables]] have a [[cla
 $\,$
 
 #### Time-ordered products
+ {#TimeOrderedProducts}
 
 Definition \ref{LagrangianFieldTheoryPerturbativeScattering} suggests to focus on the multilinear operations $T(...)$ which define the perturbative [[S-matrix]] order-by-order in $\hbar$. We impose [[axioms]] on these _[[time-ordered products]]_ directly (def. \ref{TimeOrderedProduct}) and then prove that these axioms imply the axioms for the corresponding [[S-matrix]] (prop. \ref{TimeOrderedProductInducesPerturbativeSMatrix} below).
 
@@ -1862,12 +1863,12 @@ Notice that theorem involves neither [[scaling transformations]] as in [[Gell-Ma
 $\,$
 
 #### Feynman diagrams
- {#FeynmanDiagram}
+ {#FeynmanDiagrams}
 
 
 By def \ref{ExtensionOfTimeOrderedProoductsRenormalization} and the [[main theorem of perturbative renormalization]] (theorem \ref{PerturbativeRenormalizationMainTheorem}) the consturction of perturbative [[S-matrix]] schemes/[[time-ordered products]] may be phrased as [[renormalization|("re-")normalization]] of the [[star product]] induced by the [[Feynman propagator]], namely as a choice of [[extension of distributions]] of the this star-product to the locus of coinciding interaction points. By the [[exponential]] nature of this star product, it is naturally expanded as a [[sum]] of [[products of distributions]] labeled by [[graphs]]. These graphs are called _[[Feynman diagrams]]_ (def. \ref{FeynmanDiagram}) below and the [[products of distributions]] which they label are called _[[Feynman amplitudes]]_. It is suggestive and often helpful to read these as [[probability amplitudes]] for [[interaction]] patterns of "[[virtual particles]]" (but this imagery has its limits).
 
-This makes the perturbative [[S-matrix]] equivalently a [[formal power series]] with [[coefficients]] given by [[Feynman amplitudes]] labeled by [[Feynman diagram]], and as such it is known as the _[[Feynman perturbation series]]_. The choice of [[renormalization|("re"-)normalization]] of the [[time-ordered products]]/[[S-matrix]] is thus equivalently the choice of [[renormalization|("re"-)nromalization]] of all possible [[Feynman amplitudes]].
+This makes the perturbative [[S-matrix]] equivalently a [[formal power series]] with [[coefficients]] given by [[Feynman amplitudes]] labeled by [[Feynman diagrams]], and as such it is known as the _[[Feynman perturbation series]]_. The choice of [[renormalization|("re"-)normalization]] of the [[time-ordered products]]/[[S-matrix]] is thus equivalently the choice of [[renormalization|("re"-)nromalization]] of all possible [[Feynman amplitudes]].
 
 +-- {: .num_defn #FeynmanDiagram}
 ###### Definition
@@ -1920,7 +1921,7 @@ $$
   PolyObs(E_{\text{BV-BRST}})_{reg}((\hbar))[ [g , j] ]
 $$
 
-is equal to
+is equal to the following sum labeled by [[Feynman diagrams]] $\Gamma \in \mathcal{G}_v$ (def. \ref{FeynmanDiagram}) with $v$ [[vertices]]:
 
 $$
   \begin{aligned}
@@ -1995,7 +1996,7 @@ $$
   \end{aligned}
 $$
 
-where the [[edge]] numbers $e_{r,s} = e_{r,s}(\Gamma)$ are those of the given [[Feynman diagram]] $\Gamma$, according to def. \ref{FeynmanDiagram}.
+Here the [[edge]] numbers $e_{r,s} \coloneqq e_{r,s}(\Gamma)$ are those of the given [[Feynman diagram]] $\Gamma$, according to def. \ref{FeynmanDiagram}.
 
 =--
 
@@ -2425,7 +2426,14 @@ $$
   A_{in}, A_{out} \in PolyObs(E_{\text{BV-BRST}})_{mc}[ [\hbar] ]
 $$
 
-two [[microcausal  polynomial observables]], the corresponding _[[scattering amplitude]]_ is the value (called "[[expectation value]]" when referring to $A^\ast_{out} \, \mathcal{S}(S_{int}) \, A_{in}$, or "matrix element" when freferring to $\mathcal{S}(S_{int})$, or "transition amplitude" when referring to $\left\langle A_{out} \right\vert$ and $\left\vert A_{in} \right\rangle$)
+two [[microcausal  polynomial observables]], with [[causal ordering]]
+
+$$
+  supp(A_{out}) {\vee\!\!\!\wedge} supp(A_{int})
+$$
+
+
+the corresponding _[[scattering amplitude]]_ is the value (called "[[expectation value]]" when referring to $A^\ast_{out} \, \mathcal{S}(S_{int}) \, A_{in}$, or "matrix element" when freferring to $\mathcal{S}(S_{int})$, or "transition amplitude" when referring to $\left\langle A_{out} \right\vert$ and $\left\vert A_{in} \right\rangle$)
 
 $$
   \left\langle
