@@ -57,8 +57,7 @@ The worldline formalism was first derived from the point-particle limit of [[str
 
 * {#BernKosower91} [[Zvi Bern]], D. Kosower, _Efficient calculation of one-loop QCD amplitudes_ Phys. Rev. D 66 (1991),([journal](http://prl.aps.org/abstract/PRL/v66/i13/p1669_1))
  
-
-* [[Zvi Bern]], D. Kosower, _The computation of loop amplitudes in gauge theories_, Nucl. Phys. B379 (1992)  ([journal](http://ccdb4fs.kek.jp/cgi-bin/img_index?9108076))
+* {#BernKosower92} [[Zvi Bern]], D. Kosower, _The computation of loop amplitudes in gauge theories_, Nucl. Phys. B379 (1992)  ([journal](http://ccdb4fs.kek.jp/cgi-bin/img_index?9108076))
 
 Then it was related to actual worldline quantum field theory in 
 
