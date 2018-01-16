@@ -103,7 +103,7 @@ The main success of this picture is describing near-beam scattering, or diffract
 
 This idea is spectacularly confirmed by mid 90's measurements of total p-p and p-pbar cross sections, and in a better political climate, this would have won some boostrap theorists a Nobel prize. Instead, it is never mentioned.
 
-The pomeron in string theory becomes the closed string, which includes the graviton, which couples universally to stress energy. The relation between the closed string and the QCD pomeron is the subject of active research, associated with the names of Lipatov, Polchinski, Tan, and collaborators.
+The pomeron in string theory becomes the closed string, which includes the graviton, which couples universally to stress energy. The relation between the closed string .d the QCD pomeron is the subject of active research, associated with the names of Lipatov, Polchinski, Tan, and collaborators.
 
 Regge scattering also predicts near beam scattering amplitudes from the sum of the appropriate trajectory function you can exchange. These predictions have been known to roughly work since the late 1960s.
 
@@ -386,7 +386,9 @@ $$
   \right)
 $$
 
-for the corresponding [[Wick algebra]]-[[structure]] on [[formal power series]] in $\hbar$ ([[Planck's constant]]) of [[microcausal polynomial observables]]. This is a [[star algebra]] with respect to ([[coefficient]]-wise) [[complex conjugation]]. Write
+for the corresponding [[Wick algebra]]-[[structure]] on [[formal power series]] in $\hbar$ ([[Planck's constant]]) of [[microcausal polynomial observables]]. This is a [[star algebra]] with respect to ([[coefficient]]-wise) [[complex conjugation]]. 
+
+Write
 
 $$
   \label{HadamardVacuumStateForFreeFieldTheory}
@@ -399,12 +401,23 @@ $$
   }
 $$
 
-for the induced [[Hadamard vacuum state]] ([this prop.](Wick+algebra#WickAlgebraCanonicalState)), hence the [[state on a star-algebra|state]] whose [[2-point function]] is the chosen [[Wightman propagator]]:
+for the induced [[Hadamard vacuum state]] ([this prop.](Wick+algebra#WickAlgebraCanonicalState)), hence the [[state on a star-algebra|state]] whose [[distribution|distributional]] [[2-point function]] is the chosen [[Wightman propagator]]:
 
 $$
   \left\langle \mathbf{\Phi}^a(x) \mathbf{\Phi}^b(y)\right\rangle
   \;=\;
   \hbar \, \Delta_H^{a b}(x,y)
+  \,.
+$$
+
+Given any [[microcausal polynomial observable]] $A \in PolyObs(E_{\text{BV-BRST}})_{mc}[ [ \hbar, g, j] ]$ then its value in this state is called its _free [[vacuum expectation value]]_
+
+$$
+  \left\langle 
+    A
+  \right\rangle
+  \;\in\;
+  \mathbb{C}[ [ \hbar, g, j] ]
   \,.
 $$
 
@@ -438,9 +451,24 @@ $$
   \,.
 $$
 
-For $A \in LocObs(E_{\text{BV-BRST}})$ we write $supp(A) \subset \Sigma$ for its spacetime support ([this def.](A+first+idea+of+quantum+field+theory#SpacetimeSupport)).
-For $S_1, S_2 \subset \Sigma$ two [[subsets]] of [[spacetime]] we write $S_1 {\vee\!\!\!\wedge} S_2$ for the  [[causal ordering]]-[[relation]]
-"$S_1$ does not intersect the [[past cone]] of $S_2$", equivalently "$S_2$ does not intersect the [[future cone]] of $S_1$".
+Finally for $A \in LocObs(E_{\text{BV-BRST}})$ we write $supp(A) \subset \Sigma$ for its spacetime support ([this def.](A+first+idea+of+quantum+field+theory#SpacetimeSupport)).
+For $S_1, S_2 \subset \Sigma$ two [[subsets]] of [[spacetime]] we write 
+
+$$
+  S_1 {\vee\!\!\!\wedge} S_2
+  \phantom{AAA}
+  \left\{
+    \array{
+      "S_1 \, \text{does not intersect the past of} \, S_2"
+      \\
+      \Leftrightarrow
+      \\
+      "S_2 \, \text{does not intersect the future of} \, S_1"
+    }
+  \right
+$$ 
+
+for the  [[causal ordering]]-[[relation]].
 
 
 =--
@@ -1902,12 +1930,11 @@ for set of Feynman diagrams with that tuple of vertices.
 
 +-- {: .num_prop #FeynmanPerturbationSeriesAwayFromCoincidingPoints}
 ###### Proposition
-**([[Feynman perturbation series]] away from coinciding vertices)
+**([[Feynman amplitudes]] away from coinciding vertices)
 
 Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}.
 
-For $v \in \mathbb{N}$ the $v$-fold [[time-ordered product]] away from coinciding interaction points,
-given by prop. \ref{TimeOrderedProductAwayFromDiagonal}
+For $v \in \mathbb{N}$ the $v$-fold [[time-ordered product]] away from coinciding interaction points, given by prop. \ref{TimeOrderedProductAwayFromDiagonal}
 
 $$
   T_v
@@ -1921,9 +1948,10 @@ $$
   PolyObs(E_{\text{BV-BRST}})_{reg}((\hbar))[ [g , j] ]
 $$
 
-is equal to the following sum labeled by [[Feynman diagrams]] $\Gamma \in \mathcal{G}_v$ (def. \ref{FeynmanDiagram}) with $v$ [[vertices]]:
+is equal to the following [[formal power series]] labeled by [[Feynman diagrams]] $\Gamma \in \mathcal{G}_v$ (def. \ref{FeynmanDiagram}) with $v$ [[vertices]]:
 
 $$
+  \label{FeynmanAmplitudeExpansionOfTimeOrderedProductAwayFromDiagonal}
   \begin{aligned}
     & T_v(V_1, \cdots ,V_v)
     \\
@@ -1996,7 +2024,44 @@ $$
   \end{aligned}
 $$
 
-Here the [[edge]] numbers $e_{r,s} \coloneqq e_{r,s}(\Gamma)$ are those of the given [[Feynman diagram]] $\Gamma$, according to def. \ref{FeynmanDiagram}.
+where $e_{r,s} \coloneqq e_{r,s}(\Gamma)$ is, for short, the number of [[edges]] between vertex $r$ and vertex $s$ in the [[Feynman diagram]] $\Gamma$ of the outer sum, according to def. \ref{FeynmanDiagram}.
+
+Here the summands of the expansion (eq:FeynmanAmplitudeExpansionOfTimeOrderedProductAwayFromDiagonal)
+
+$$
+  \label{FeynmanAmplitude}
+  \Gamma(V_i)_{i = 1}^v
+  \;\coloneqq\;
+    prod
+    \circ
+    \underset{ r \lt s \in \{1, \cdots, v\} }{\prod}
+    \frac{\hbar^{e_{r,s}}}{e_{r,s}!}
+    \underset{\Sigma \times \Sigma}{\int}
+    \left\langle
+      (\Delta_{F})^{e_{r,s}}
+      ,
+      \frac{\delta^{e_{r,s}}}{\delta \mathbf{\Phi}_r^{e_{r,s}}}
+      \frac{\delta^{e_{r,s}}}{\delta \mathbf{\Phi}_s^{e_{r,s}}} 
+    \right\rangle
+    \left(
+      V_1 \otimes \cdots \otimes V_{v}
+    \right)
+  \;\in\;
+  PolyObs(E_{\text{BV-BRT}})((\hbar))[ [g,j ] ]
+$$
+
+and/or their [[vacuum expectation values]] 
+
+$$
+  \left\langle
+    \Gamma(V_i)_{i = 1}^v
+  \right\rangle
+  \;\in\;
+  \mathbb{C}((\hbar))[ [ h, j] ]
+$$
+
+are called the _[[Feynman amplitudes]]_ of the [[Feynman diagrams]] $\Gamma$.
+Their expression as [[products of distributions]] via the right hand side of (eq:FeynmanAmplitude) is also called the _[[Feynman rules]]_.
 
 =--
 
