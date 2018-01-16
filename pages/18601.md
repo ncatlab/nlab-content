@@ -48,39 +48,64 @@ where
 
 1. $E(\Gamma) \in \mathbb{N}$ is the number of [[edges]] in the graph.
 
-This comes about (see at _[S-matrix -- Feynman diagrams and Renormalization](S-matrix#ExistenceAndRenormalization)_ for details) because 
+This comes about (see at _[S-matrix -- Feynman diagrams](S-matrix#FeynmanDiagrams)_ for details) because 
 
 1. the explicit $\hbar$-dependence of the [[S-matrix]] is 
 
    $$
-     S\left(\tfrac{g}{\hbar} L_{int} \right)
-     = 
-     \underset{k \in \mathbb{N}}{\sum} \frac{g^k}{\hbar^k k!} T( \underset{k \, \text{factors}}{\underbrace{L_{int} \cdots L_{int}}} )
+     \mathcal{S}
+     \left(
+       S_{int}
+     \right)
+     \;=\; 
+     \underset{k \in \mathbb{N}}{\sum} 
+       \frac{1}{k!}
+       \frac{1}{(i \hbar)^k}
+       T( \underset{k \, \text{factors}}{\underbrace{S_{int}, \cdots,  S_{int}}} )
    $$
 
 1. the further $\hbar$-dependence of the [[time-ordered product]] $T(\cdots)$ is
 
    $$
-     T(L_{int} L_{int}) = prod \circ \exp\left( \hbar \int \omega_{F}(x,y) \frac{\delta}{\delta \phi(x)} \otimes \frac{\delta}{\delta \phi(y)}  \right) ( L_{int} \otimes L_{int} )
+     T(S_{int}, S_{int}) 
+     \;=\; 
+     prod \circ 
+     \exp\left(
+       \hbar
+       \left\langle 
+         \Delta_F, 
+         \frac{\delta}{\delta \mathbf{\Phi}} 
+           \otimes
+         \frac{\delta}{\delta \mathbf{\Phi}}
+       \right\rangle
+     \right)
+    ( S_{int} \otimes S_{int} )
      \,,
    $$
 
-where $\omega_F$ denotes the [[Feynman propagator]] and $\phi(x)$ the field observable at point $x$ (where we are notationally suppressing the internal degrees of freedom of the fields for simplicity, writing them as [[scalar fields]], because this is all that affects the counting of the $\hbar$ powers). 
+where $\Delta_F$ denotes the [[Feynman propagator]] and $\mathbf{\Phi}^a(x)$ the [[field observable]] at point $x$.
 
 The resulting terms of the S-matrix series are thus labeled by 
 
-1. the number of factors of the [[interaction]] $L_{int}$, these are the [[vertices]] of the corresponding Feynman diagram and hence each contibute with $\hbar^{-1}$ 
+1. the number of factors of the [[interaction]] [[action functional]] $S_{int}$, these are the [[vertices]] of the corresponding Feynman diagram and hence each contribute with $\hbar^{-1}$;
 
-1. the number of integrals over the Feynman propagator $\omega_F$, which correspond to the edges of the Feynman diagram, and each contribute with $\hbar^1$.
+1. the number of integrals over the Feynman propagator $\Delta_F$, which correspond to the [[edges]] of the Feynman diagram, and each contribute with $\hbar^1$.
 
-Now the formula for the [[Euler characteristic of planar graphs]] says that the number of regions in a plane that are encircled by edges, the _faces_ here thought of as the number of "loops", is
+In summary this means that a Feynman diagram $\Gamma$ contributes at order
 
 $$
-  L(\Gamma) =  1 + E(\Gamma) - V(\Gamma)
+  \hbar^{E(\Gamma) - V(\Gamma)}
   \,.
 $$
 
-Hence a planar Feynman diagram $\Gamma$ contributes with
+Now if the Feynman diagram happens to be a [[planar graph]], then the formula for the [[Euler characteristic of planar graphs]] says that  the number of regions in the plane that are encircled by edges, the _[[faces]]_, here thought of as the number of "loops" and denoted $L(\Gamma)$, is
+
+$$
+  L(\Gamma) \;=\;  1 + E(\Gamma) - V(\Gamma)
+  \,.
+$$
+
+Hence a planar Feynman diagram $\Gamma$ contributes to the [[Feynman perturbation series]] at order
 
 $$
   \hbar^{L(\Gamma)-1}
@@ -90,32 +115,39 @@ $$
 So far this is the discussion for internal edges. An actual scattering matrix element is of the form
 
 $$
-  \langle \psi_{out} \vert S\left(\tfrac{g}{\hbar} L_{int} \right)
-  \vert \psi_{in} \rangle
+  \langle 
+    \mathbf{\Psi}_{out} 
+    \vert 
+    \mathcal{S}\left( S_{int}\right)
+  \vert \mathbf{\Psi}_{in} \rangle
   \,,
 $$
 
 where 
 
 $$
-  \vert \psi_{in}\rangle 
+  \vert \mathbf{\psi}_{in}\rangle 
     \propto
   \tfrac{1}{\sqrt{\hbar^{n_{in}}}} 
-  \phi^\dagger(k_1) \cdots \phi^\dagger(k_{n_{in}}) \vert vac \rangle
+  \mathbf{\Phi}^\dagger(k_1)   
+     \cdots 
+   \mathbf{\Phi}^\dagger(k_{n_{in}}) 
+  \vert vac \rangle
 $$
 
 is a state of $n_{in}$ free field quanta and similarly
 
 $$
-  \vert \psi_{out}\rangle 
+  \vert \mathbf{\Psi}_{out}\rangle 
     \propto
   \tfrac{1}{\sqrt{\hbar^{n_{out}}}} 
-  \phi^\dagger(k_1) \cdots \phi^\dagger(k_{n_{out}}) \vert vac \rangle
+  \mathbf{\Phi}^\dagger(k_1) \cdots \mathbf{\Phi}^\dagger(k_{n_{out}}) 
+  \vert vac \rangle
 $$
 
-is a state of $n_{out}$ field quanta. The normalization of these states, in view of the commutation relation $[\phi(k), \phi^\dagger(q)] \propto \hbar$, yields the given powers of $\hbar$.
+is a state of $n_{out}$ field quanta. The normalization of these states, in view of the [[Peierls-Poisson bracket]] [[commutator]] $[\mathbf{\Phi}(k), \mathbf{\Phi}(q)] \propto \hbar$, yields the given powers of $\hbar$.
 
-This means that an actual [[scattering amplitude]] given by a [[Feynman diagram]] $\Gamma$ with $E_{ext}(\Gamma)$ external vertices scales as
+This means that an actual [[scattering amplitude]] given by a [[Feynman diagram]] $\Gamma$ with $E_{ext}(\Gamma)$ external vertices contributes at order
 
 $$
   \hbar^{L(\Gamma) - 1 + E_{ext}(\Gamma)/2 }
