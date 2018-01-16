@@ -1921,7 +1921,24 @@ $$
     \circ
     \underset{\Gamma \in \mathcal{G}_{(V_j)_{j = 1}^{v}}}{\sum}
     \underset{ r \lt s \in \{1, \cdots, v\} }{\prod}
-    \tfrac{1}{e_{r,s}!}
+    \frac{\hbar^{e_{r,s}}}{e_{r,s}!}
+    \underset{\Sigma \times \Sigma}{\int}
+    \left\langle
+      (\hbar \Delta_{F})^{e_{r,s}}
+      ,
+      \frac{\delta^{e_{r,s}}}{\delta \mathbf{\Phi}_r^{e_{r,s}}}
+      \frac{\delta^{e_{r,s}}}{\delta \mathbf{\Phi}_s^{e_{r,s}}} 
+    \right\rangle
+    \left(
+      V_1 \otimes \cdots \otimes V_{v}
+    \right)
+    \\
+    & \coloneqq
+    ((-)\cdot(-))
+    \circ
+    \underset{\Gamma \in \mathcal{G}_{(V_j)_{j = 1}^{v}}}{\sum}
+    \underset{ r \lt s \in \{1, \cdots, v\} }{\prod}
+    \frac{\hbar^{e_{r,s}}}{e_{r,s}!}
     \underset{\Sigma \times \Sigma}{\int}
       \left(
         \underset{i = 1, \cdots e_{r,s}}{\prod}\Delta_F^{a_i b_i}(x,y)
@@ -1978,7 +1995,7 @@ hence omitting the indices on the [[field observables]] $\mathbf{\Phi}^a$.
 The generalization is immediate.
 
 We proceed by [[induction]] over the number $v$ of [[vertices]].
-The statement is atrivially true for a single vertex.
+The statement is trivially true for a single vertex.
 So assume that it is true for $v \geq 1$ vertices. It follows that
 
 $$
@@ -1989,11 +2006,11 @@ $$
     T( T(V_1, \cdots ,V_v),  V_{v+1} )
     \\
     &=
-    ((-)\cdot (-)) 
+    prod
       \circ
     \exp\left(
       \left\langle
-        \hbar \Delta_F^{e_{r,s}}, 
+        \hbar \Delta_F, 
         \frac{\delta}{\delta \mathbf{\Phi}} 
           \otimes 
         \frac{\delta}{\delta \mathbf{\Phi}}
@@ -2001,13 +2018,14 @@ $$
     \right)
     \left(
     \left(
-      ((-)\cdot(-))
+      prod
         \circ
-      \underset{\Gamma \in \mathcal{G}_{(V_j)}}{\sum}
-      \underset{ r \lt s  }{\prod}
+      \!\!\!\!
+      \underset{\Gamma \in \mathcal{G}_{(V_j)_{j = 1}^{v}}}{\sum}
+      \underset{ { r \lt s } \atop { \in \{1, \cdots, v\} }  }{\prod}
       \frac{1}{e_{r,s}!}
       \left\langle
-          \hbar \Delta_F
+          (\hbar \Delta_F)^{e_{r,s}}
           \,,\,
           \frac{\delta^{e_{r,s}}}{\delta \mathbf{\Phi}_r^{e_{r,s}}}
           \frac{\delta^{e_{r,s}}}{ \delta \mathbf{\Phi}_s^{e_{r,s}} }
@@ -2019,48 +2037,52 @@ $$
     \right)
     \\
     & =
-    ((-)\cdot(-))
+    prod
       \circ
-    \underset{\Gamma \in \mathcal{G}_{(V_j)}}{\sum}
-      \underset{ r \lt s  }{\prod}
-      \tfrac{1}{e_{r,s}!}
+    \underset{\Gamma \in \mathcal{G}_{(V_j)_{j = 1}^{v+1}}}{\sum}
+    \\
+    & \phantom{=}
+      \underset{ {  r \lt s } \atop {  \in \{1,\cdots, v\}}  }{\prod}
+      \frac{1}{e_{r,s}!}
     \left\langle
-        \hbar \Delta_F
+        (\hbar \Delta_F)^{e_{r,s}}
         \,,\,
         \frac{\delta^{e_{r,s}}}{\delta \mathbf{\Phi}_r^{e_{r,s}}}
         \frac{\delta^{e_{r,s}}}{ \delta \mathbf{\Phi}_s^{e_{r,s}} }
     \right\rangle
-    \left(
+    \\
+    & \phantom{=}
     \underset{e_{1,{v+1}}, \cdots, e_{v,v+1}  }{\sum}
-      \underset{t }{\prod}
-      \tfrac{1}{e_{t,v+1} !}
+      \tfrac{1}{(e_{1,v+1}+ \cdots + e_{v,v+1}) !}
+    \left\langle
+      (\hbar \Delta_F)^{e_{1,v+1} + \cdots + e_{v,v+1}}
     \left(
-      \frac{\delta^{e_{1,v+1}} V_1 }{\delta \mathbf{\Phi}_{1}^{e_{1,v+1}}}
+      \frac{\delta^{e_{1,v+1}} V_1 }{\delta \mathbf{\Phi}^{e_{1,v+1}}}
         \otimes
         \cdots
         \otimes
       \frac{ 
         \delta^{e_{v,v+1}} V_v
       }{ 
-        \delta \mathbf{\Phi}_{v}^{e_{v,v+1}} 
+        \delta \mathbf{\Phi}^{e_{v,v+1}} 
       }
-    \right)
     \;\otimes\;
     \frac{
       \delta^{e_{1,v+1} + \cdots + e_{v,v+1}} V_{v+1}
     }{
-      \delta \mathbf{\Phi}_{v-1}^{e_{1,v+1} + \cdots + e_{v,v+1}}
+      \delta \mathbf{\Phi}^{e_{1,v+1} + \cdots + e_{v,v+1}}
     }
+    \right\rangle
     \right)
     \\
     &=
-    ((-)\cdot(-)=
+    prod
       \circ
     \underset{\Gamma \in \mathcal{G}_{(V_j)_{j = 1}^{v+1}}}{\sum}
-    \underset{ r \lt s \in \{1, \cdots, v+1\} }{\prod}
+    \underset{ { r \lt s } \atop { \in \{1, \cdots, v+1\} } }{\prod}
     \tfrac{1}{e_{r,s}!}
     \left\langle
-        \hbar \Delta_F
+        (\hbar \Delta_F)^{e_{r,s}}
         \,,\,
         \frac{\delta^{e_{r,s}}}{\delta \mathbf{\Phi}_r^{e_{r,s}}}
         \frac{\delta^{e_{r,s}}}{\delta \mathbf{\Phi}_s^{e_{r,s}}}
