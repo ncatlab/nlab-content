@@ -91,7 +91,7 @@ A 2-limit is called **finite** if its diagram shape and its weight are both "fin
 ### $(2,1)$-limits
   {#(2,1)limit}
 
-If the ambient [[2-category]] is in fact a [[(2,1)-category]] in that all [[2-morphism]]s are invertible then there is a rich set of tools available for handling the 2-limits in this context. We may speak **$(2,1)$-limits** and **$(2,1)$-colimits** in this case.
+If the ambient [[2-category]] is in fact a [[(2,1)-category]] in that all [[2-morphism]]s are invertible then there is a rich set of tools available for handling the 2-limits in this context. We may say **$(2,1)$-limits** and **$(2,1)$-colimits** in this case.
 
 These are then a special case of the more general [[(∞,1)-limit]]s and [[(∞,1)-colimit]]s in a [[(∞,1)-category]]. A [[(2,1)-category]] is a special case of an [[(∞,1)-category]].
 
