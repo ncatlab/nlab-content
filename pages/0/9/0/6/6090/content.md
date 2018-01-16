@@ -1705,7 +1705,7 @@ $$
 In particular this implies that the time-ordered product extends from the restricted domain of tensor products of local observables to a restricted domain of [[microcausal polynomial observables]], where it becomes an [[associativity|associative]] product:
 
 $$
-  \label{RestritedTimeOrderedProductAssociative}
+  \label{RestrictedTimeOrderedProductAssociative}
   \begin{aligned}
     T(A_1, \cdots, A_{k_n})
     & =
@@ -1806,7 +1806,7 @@ $$
   \,.
 $$
 
-Via the [[associativity]] (eq:RestritedTimeOrderedProductAssociative) of the restricted [[time-ordered product]] thesese choices are naturally made by [[induction]] over $k$, choosing the $(k+1)$-ary [[time-ordered product]] $T_{k+1}$ as an [[extension of distributions]] of $T_k(\underset{k \, \text{args}}{\underbrace{-, \cdots, -}}) \star_F (-)$.
+Via the [[associativity]] (eq:RestrictedTimeOrderedProductAssociative) of the restricted [[time-ordered product]] thesese choices are naturally made by [[induction]] over $k$, choosing the $(k+1)$-ary [[time-ordered product]] $T_{k+1}$ as an [[extension of distributions]] of $T_k(\underset{k \, \text{args}}{\underbrace{-, \cdots, -}}) \star_F (-)$.
 
 This [[induction|inductive]] choice of [[extension of distributions]] of the [[time-ordered product]] to coinciding interaction points deserves to be called a choice of _normalization_ of the [[time-ordered product]] (e.g. [Scharf 94, section 4.3](#Scharf95)), but for historical reasons (see remark \ref{TheTraditionalErrorThatLeadsToTheNotoriouDivergencies} and remark \ref{CausalPerturbationTheoryAbsenceOfUVDivergences}) it is known as _[[renormalization|re-normalization]]_.
 
@@ -1851,13 +1851,15 @@ In summary this says that for each free field vacuum, the space of [[renormaliza
 
 Notice that theorem involves neither [[scaling transformations]] as in [[Gell-Mann-Low renormalization cocycles]], nor cutoffs as in Wilsonian [[effective field theory]]. But these perspective follow ([Brunetti-Dütsch-Fredenhagen 09](renormalization group#BrunettiDuetschFredenhagen09)).
 
+$\,$
+
 #### Feynman diagrams
  {#FeynmanDiagram}
 
 
-By def \ref{ExtensionOfTimeOrderedProoductsRenormalization} the consturction of perturbative [[S-matrix]] schemes/[[times-ordered products]] may be phrased as [[renormalization|("re-")normalization]] of the [[star product]] induced by the [[Feynman propagator]]. By the [[exponential]] nature of this star product, it is naturally expanded as a [[sum]] of [[products of distributions]] labeled by [[graphs]]. These graphs are called _[[Feynman diagrams]]_ (def. \ref{FeynmanDiagram}) below and the [[products of distributions]] which they label are called _[[Feynman amplitudes]]_. It is suggestive and often helpful to read these as [[probability amplitudes]] for [[interaction]] patterns of "[[virtual particles]]" (but this imagery has its limits).
+By def \ref{ExtensionOfTimeOrderedProoductsRenormalization} and the [[main theorem of perturbative renormalization]] (theorem \ref{PerturbativeRenormalizationMainTheorem}) the consturction of perturbative [[S-matrix]] schemes/[[time-ordered products]] may be phrased as [[renormalization|("re-")normalization]] of the [[star product]] induced by the [[Feynman propagator]], namely as a choice of [[extension of distributions]] of the this star-product to the locus of coinciding interaction points. By the [[exponential]] nature of this star product, it is naturally expanded as a [[sum]] of [[products of distributions]] labeled by [[graphs]]. These graphs are called _[[Feynman diagrams]]_ (def. \ref{FeynmanDiagram}) below and the [[products of distributions]] which they label are called _[[Feynman amplitudes]]_. It is suggestive and often helpful to read these as [[probability amplitudes]] for [[interaction]] patterns of "[[virtual particles]]" (but this imagery has its limits).
 
-This makes the perturbative [[S-matrix]] equivalently a [[formal power series]] with [[coefficients]] given by [[Feynman amplitudes]] labeled by [[Feynman diagram]], and as such it is known as the _[[Feynman perturbation series]]_. The choice of [[renormalization|("re"-)normalization]] of the [[times-ordered products]]/[[S-matrix]] is thus equivalently the choice of [[renormalization|("re"-)nromalization]] of all possible [[Feynman amplitudes]].
+This makes the perturbative [[S-matrix]] equivalently a [[formal power series]] with [[coefficients]] given by [[Feynman amplitudes]] labeled by [[Feynman diagram]], and as such it is known as the _[[Feynman perturbation series]]_. The choice of [[renormalization|("re"-)normalization]] of the [[time-ordered products]]/[[S-matrix]] is thus equivalently the choice of [[renormalization|("re"-)nromalization]] of all possible [[Feynman amplitudes]].
 
 +-- {: .num_defn #FeynmanDiagram}
 ###### Definition
@@ -1875,7 +1877,7 @@ A _[[Feynman diagram]]_ $\Gamma$ is
      (V_r \in LocObs(E_{\text{BV-BRST}}) \langle g,j\rangle)_{r \in \{1, \cdots, v\}}
    $$ 
 
-   (the [[interaction]] and external field vertices)
+   (called "[[interaction]] vertices" if proportional to $g$ and "external [[source field]] vertices" if proportional to $j$)
 
 1. for each $a \lt b \in \{1, \cdots, v\}$ a [[natural number]] $e_{a,b} \in \mathbb{N}$ ("of [[edges]] from the $a$th to the $b$th vertex").
 
@@ -1893,39 +1895,76 @@ for set of Feynman diagrams with that tuple of vertices.
 ###### Proposition
 **([[Feynman perturbation series]] away from coinciding vertices)
 
-For $v \in \mathbb{N}$ the $v$-fold
-[[time-ordered product]] away from the diagonal,
+For $v \in \mathbb{N}$ the $v$-fold [[time-ordered product]] away from coinciding interaction points,
 given by prop. \ref{TimeOrderedProductAwayFromDiagonal}
 
 $$
   T_v
     \;\colon\;
-  \left(\mathcal{F}_{loc}\langle g,j\rangle\right)_{pds}^{\otimes^{v}}
+  \left(
+    {\, \atop \,}
+    LocObs(E_{\text{BV-BRST}})[ [\hbar, g, j] ]
+    {\, \atop \,}
+  \right)^{\otimes^v_{\mathcal{C}[ [\hbar, g, j] ]}}
     \longrightarrow
-  \mathcal{W}[ [ g/\hbar, j/\hbar] ]
+  PolyObs(E_{\text{BV-BRST}})_{reg}((\hbar))[ [g , j] ]
 $$
 
 is equal to
 
 $$
-  T_k(V_1 \cdots V_v)
-    \;=\;
-  prod
+  \begin{aligned}
+    & T_v(V_1, \cdots ,V_v)
+    \\
+    & =
+    ((-)\cdot(-))
     \circ
-  \underset{\Gamma \in \mathcal{G}_{(V_j)_{j = 1}^{v}}}{\sum}
-  \underset{ r \lt s \in \{1, \cdots, v\} }{\prod}
-  \tfrac{1}{e_{r,s}!}
-  \left\langle
-      \hbar \omega_F
-      \,,\,
-      \frac{\delta^{e_{r,s}}}{\delta \phi_r^{e_{r,s}}}
-      \frac{\delta^{e_{r,s}}}{ \delta \phi_s^{e_{r,s}} }
-  \right\rangle
-  (V_1 \otimes \cdots \otimes V_v)
-  \,,
+    \underset{\Gamma \in \mathcal{G}_{(V_j)_{j = 1}^{v}}}{\sum}
+    \underset{ r \lt s \in \{1, \cdots, v\} }{\prod}
+    \tfrac{1}{e_{r,s}!}
+    \underset{\Sigma \times \Sigma}{\int}
+      \left(
+        \underset{i = 1, \cdots e_{r,s}}{\prod}\Delta_F^{a_i b_i}(x,y)
+      \right)
+    \\
+    & 
+    \phantom{=}\;
+    \left(
+      V_1 
+        \otimes 
+        \cdots
+        \otimes 
+      V_{r-1} 
+        \otimes
+       \frac{
+         \delta^{e_{r,s}} V_r 
+       }{
+         \delta \mathbf{\Phi}^{a_1}(x)
+         \cdots
+         \delta \mathbf{\Phi}^{a_{e_{r,s}}}(x)
+       }
+        \otimes
+      V_{r+1}
+        \otimes
+        \cdots
+        \otimes
+      V_{s-1}
+        \otimes
+      \frac{\delta^{e_{r,s}} V_s }{ \delta \left(\mathbf{\Phi}^b(y)\right)^{e_{r,s}} }    
+        \otimes
+      V_{s+1}
+        \otimes
+        \cdots
+        \otimes
+      V_v
+    \right)
+    \\
+    & \phantom{=} dvol_\Sigma(x)\, dvol_\Sigma(y)
+    \,,
+  \end{aligned}
 $$
 
-where the edge numbers $e_{r,s} = e_{r,s}(\Gamma)$ are those of the given Feynman diagram $\Gamma$.
+where the edge numbers $e_{r,s} = e_{r,s}(\Gamma)$ are those of the given [[Feynman diagram]] $\Gamma$, according to def. \ref{FeynmanDiagram}.
 
 =--
 
@@ -1934,87 +1973,104 @@ where the edge numbers $e_{r,s} = e_{r,s}(\Gamma)$ are those of the given Feynma
 +-- {: .proof}
 ###### Proof
 
-We proceed by [[induction]] over the number of [[vertices]].
-The statement is trivially true for a single vertex.
-Assume it is true for $v {\vee\!\!\!\wedge} 1$ vertices. It follows that
+For ease of notation we give the proof for a [[scalar field]],
+hence omitting the indices on the [[field observables]] $\mathbf{\Phi}^a$.
+The generalization is immediate.
+
+We proceed by [[induction]] over the number $v$ of [[vertices]].
+The statement is atrivially true for a single vertex.
+So assume that it is true for $v \geq 1$ vertices. It follows that
 
 $$
   \begin{aligned}
-    T(V_1 \cdots V_v V_{v+1})
+    & T(V_1, \cdots, V_v, V_{v+1})
+    \\
     & =
-    T( T(V_1 \cdots V_v) V_{v+1} )
+    T( T(V_1, \cdots ,V_v),  V_{v+1} )
     \\
     &=
-    prod \circ
+    ((-)\cdot (-)) 
+      \circ
     \exp\left(
       \left\langle
-         \hbar \omega_F, \frac{\delta}{\delta \phi} \otimes \frac{\delta}{\delta \phi}
+        \hbar \Delta_F^{e_{r,s}}, 
+        \frac{\delta}{\delta \mathbf{\Phi}} 
+          \otimes 
+        \frac{\delta}{\delta \mathbf{\Phi}}
       \right\rangle
     \right)
     \left(
-      prod
+    \left(
+      ((-)\cdot(-))
         \circ
-      \underset{\Gamma \in \mathcal{G}_{(V_j)_{j = 1}^{v}}}{\sum}
-      \underset{ r \gt s \in \{1, \cdots, v\} }{\prod}
+      \underset{\Gamma \in \mathcal{G}_{(V_j)}}{\sum}
+      \underset{ r \lt s  }{\prod}
       \frac{1}{e_{r,s}!}
       \left\langle
-          \hbar \omega_F
+          \hbar \Delta_F
           \,,\,
-          \frac{\delta^{e_{r,s}}}{\delta \phi_r^{e_{r,s}}}
-          \frac{\delta^{e_{r,s}}}{ \delta \phi_s^{e_{r,s}} }
+          \frac{\delta^{e_{r,s}}}{\delta \mathbf{\Phi}_r^{e_{r,s}}}
+          \frac{\delta^{e_{r,s}}}{ \delta \mathbf{\Phi}_s^{e_{r,s}} }
       \right\rangle
       (V_1 \otimes \cdots \otimes V_v)
     \right)
-    \;\otimes\;
+      \,\otimes\,
     V_{v+1}
+    \right)
     \\
     & =
-    prod
+    ((-)\cdot(-))
       \circ
-    \underset{\Gamma \in \mathcal{G}_{(V_j)_{j = 1}^{v}}}{\sum}
-      \underset{ r \gt s \in \{1, \cdots, v\} }{\prod}
+    \underset{\Gamma \in \mathcal{G}_{(V_j)}}{\sum}
+      \underset{ r \lt s  }{\prod}
       \tfrac{1}{e_{r,s}!}
     \left\langle
-        \hbar \omega_F
+        \hbar \Delta_F
         \,,\,
-        \frac{\delta^{e_{r,s}}}{\delta \phi_r^{e_{r,s}}}
-        \frac{\delta^{e_{r,s}}}{ \delta \phi_s^{e_{r,s}} }
+        \frac{\delta^{e_{r,s}}}{\delta \mathbf{\Phi}_r^{e_{r,s}}}
+        \frac{\delta^{e_{r,s}}}{ \delta \mathbf{\Phi}_s^{e_{r,s}} }
     \right\rangle
     \left(
-    \underset{e_{1,{v+1}}, \cdots e_{v,v+1} \in \mathbb{N}}{\sum}
-      \underset{t \in \{1, \cdots v\}}{\prod}
+    \underset{e_{1,{v+1}}, \cdots, e_{v,v+1}  }{\sum}
+      \underset{t }{\prod}
       \tfrac{1}{e_{t,v+1} !}
     \left(
-      \frac{\delta^{e_{1,v+1}} V_1 }{\delta \phi_{1}^{e_{1,v+1}}}
+      \frac{\delta^{e_{1,v+1}} V_1 }{\delta \mathbf{\Phi}_{1}^{e_{1,v+1}}}
         \otimes
         \cdots
         \otimes
-      \frac{ \delta^{e_{v,v+1}} V_v}{ \delta \phi_{v}^{e_{v,v+1}} }
+      \frac{ 
+        \delta^{e_{v,v+1}} V_v
+      }{ 
+        \delta \mathbf{\Phi}_{v}^{e_{v,v+1}} 
+      }
     \right)
     \;\otimes\;
-    \frac{\delta^{e_{1,v+1} + \cdots + e_{v,v+1}} V_{v+1}}{\delta \phi_{v-1}^{e_{1,v+1} + \cdots + e_{v,v+1}}}
+    \frac{
+      \delta^{e_{1,v+1} + \cdots + e_{v,v+1}} V_{v+1}
+    }{
+      \delta \mathbf{\Phi}_{v-1}^{e_{1,v+1} + \cdots + e_{v,v+1}}
+    }
     \right)
     \\
     &=
-    prod
+    ((-)\cdot(-)=
       \circ
     \underset{\Gamma \in \mathcal{G}_{(V_j)_{j = 1}^{v+1}}}{\sum}
     \underset{ r \lt s \in \{1, \cdots, v+1\} }{\prod}
     \tfrac{1}{e_{r,s}!}
     \left\langle
-        \hbar \omega_F
+        \hbar \Delta_F
         \,,\,
-        \frac{\delta^{e_{r,s}}}{\delta \phi_r^{e_{r,s}}}
-        \frac{\delta^{e_{r,s}}}{ \delta \phi_s^{e_{r,s}} }
+        \frac{\delta^{e_{r,s}}}{\delta \mathbf{\Phi}_r^{e_{r,s}}}
+        \frac{\delta^{e_{r,s}}}{\delta \mathbf{\Phi}_s^{e_{r,s}}}
     \right\rangle
     (V_1 \otimes \cdots \otimes V_{v+1})
   \end{aligned}
 $$
 
-Here in the first step we use the [[associativity]] of the time-ordered product
-(remark \ref{TimeOrderedProductAssociative}), in the second step we use the induction assumption,
-in the third we pass the outer functional derivatives through the pointwise product
-using the [[product rule]], and in the fourth step we recognize that this amounts to summing
+Here in the first step we used the [[associativity]] (eq:RestrictedTimeOrderedProductAssociative) of the restricted time-ordered product, in the second step we used the induction assumption,
+in the third we passed the outer functional derivatives through the pointwise product using the [[product rule]], and in the fourth step we recognized that this amounts to summing
 in addition over all possible choices of sets of edges from the first $v$ vertices to the new $v+1$st vertex,
 which yield in total the sum over all diagrams with $v+1$ vertices.
 
