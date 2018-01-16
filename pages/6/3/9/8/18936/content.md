@@ -28,7 +28,7 @@ $$
 
 ## Related concepts
 
-* [[binomial theorem]]
+* [[binomial coefficient]], [[multinomial coefficient]]
 
 * [[Gamma function]]
 
