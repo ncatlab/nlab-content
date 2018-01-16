@@ -1,0 +1,53 @@
+
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Arithmetic
++--{: .hide}
+[[!include arithmetic geometry - contents]]
+=--
+=--
+=--
+
+#Contents#
+* table of contents
+{:toc}
+
+
+## Idea
+
+For $n \in \mathbb{N}$ a [[natural number]] and $(k_i \in \mathbb{N})_{i = 1}^r$ with $\underset{i}{\sum} k_i = k$, the corresponding _multinomial  coefficient_ 
+
+$$
+  \left(
+     n
+     \atop
+     {
+       k_1, k_2, \cdots, k_r  
+     }
+  \right)
+  \;\coloneqq\;
+  \frac{
+     n!
+  }{
+    k_1 ! \, k_2 ! \, \cdots \, k_r
+  }
+  \;\in\;
+  \mathbb{N}
+$$
+
+is the quotient of the [[factorial]] of $n$ by the [[multiplication]] of the factorials of the $k_i$.
+
+This number is the number of ways of drawing $k_1$ elements and then $k_2$ elements and so forth from $n$ elements, all in an unordered way.
+
+For $r = 2$ this is the _[[binomial coefficient]]_.
+
+## References
+
+See also
+
+* Wikipedia, _[Multinomial theorem](https://en.wikipedia.org/wiki/Multinomial_theorem)_
+
+[[!redirects multinomial coefficients]]
