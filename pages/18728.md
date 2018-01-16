@@ -8,15 +8,31 @@
 In [[perturbative quantum field theory]], **[[Feynman diagrams]]** are labeled [[graphs]] that encode [[product of distributions|products of]] [[Feynman propagators]] as they arise in the expansion -- the _[[Feynman perturbation series]]_-- of the _[[S-matrix]]_ of a given [[interaction]] [[Lagrangian density]] $L_{int}$
 
 $$
-  S\left(\tfrac{g}{\hbar} L_{int} \right)
+  \mathcal{S}
+  \left(
+    S_{int}
+  \right)
   = 
-  \underset{k \in \mathbb{N}}{\sum} \frac{g^k}{\hbar^k k!} T( \underset{k \, \text{factors}}{\underbrace{L_{int} \cdots L_{int}}} )
+  \underset{k \in \mathbb{N}}{\sum} 
+  \frac{1}{k!}
+  \frac{1}{(i \hbar)^k}
+  T( \underset{k \, \text{factors}}{\underbrace{S_{int}, \cdots S_{int}}} )
 $$
 
-in terms of the _[[time-ordered products]]_ $T(\cdots)$ given by the [[star product]] with the [[Feynman propagator]] $\omega_F$:
+in terms of the _[[time-ordered products]]_ $T(\cdots)$ given by the [[star product]] with the [[Feynman propagator]] $\Delta_F$:
 
 $$
-  T(L_{int} L_{int}) = prod \circ \exp\left( \hbar \int \omega_{F}(x,y) \frac{\delta}{\delta \phi(x)} \otimes \frac{\delta}{\delta \phi(y)}  \right) ( L_{int} \otimes L_{int} )
+  T(S_{int}, \cdots, S_{int}) 
+  \;=\; 
+  prod \circ \exp
+  \left( 
+     \hbar 
+      \int \Delta_{F}^{a b}(x,y) 
+        \frac{\delta}{\delta \mathbf{\Phi}^a(x)} 
+          \otimes 
+        \frac{\delta}{\delta \mathbf{\Phi}(y)}  
+    \right) 
+    ( S_{int} \otimes \cdots \otimes S_{int} )
    \,.
 $$
 
@@ -40,6 +56,6 @@ This way each part of the [[Feynman diagram]] [[graph]] corresponds to a [[produ
 
 > graphics grabbed from  [Brouder 10](Feynman+diagram#Brouder10)
 
-A priori this [[product of distributions]] is defined away from coincident vertices: $x_i \neq x_j$. The definition at coincident vertices $x_i = x_j$ requires a choice of _[[extension of distributions]]_ to the [[diagonal]] locus. This choice is the "[[renormalization]]" of the Feynman diagram.
+A priori this [[product of distributions]] is defined away from coincident vertices: $x_i \neq x_j$. The definition at coincident vertices $x_i = x_j$ requires a choice of _[[extension of distributions]]_ to the [[diagonal]] locus. This choice is the [[renormalization|("re-")normalization]] of the Feynman diagram.
 
 =--
