@@ -287,7 +287,7 @@ $$
       \left(
         k_x = 0 
         \,\text{and}\,
-        (y,z,0,k_z) \in WF(K_2)
+        (y,z,0,-k_z) \in WF(K_2)
       \right)
       \\
       \text{or}
