@@ -1,3 +1,82 @@
+
++-- {: .num_defn #FeynmanAmplitudes}
+###### Definition
+**([[Feynman amplitude]])**
+
+Let 
+
+$$
+  \mathbf{L}_{int} ,
+  \;\in\;  
+  \in \Omega^{p+1,0}_\Sigma(E_{\text{BV-BRST}})[ [ \hbar ] ]
+$$
+
+be a [[local Lagrangian density]].
+
+For
+
+$$
+  g_{sw} \in C^\infty_{cp}(\Sigma)\langle g \rangle
+$$ 
+
+an [[adiabatic switching]], we write
+
+$$
+  \tau_\Sigma\left( g_{sw} \mathbf{L}_{int}\right)
+  \;\in\;
+  LocObs(E_{\text{BV-BRST}})[ [ \hbar, g ] ]
+$$
+
+for the corresponding [[local observable]], given by [[transgression of variational differential forms|transgression]].
+
+Then the [[vacuum expectation values]] of the summands $\Gamma$ in prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints} define [[distributions of several variables]]
+
+$$
+  \Gamma_{ \mathbf{L}_{int}, A_{in}, A_{out} }
+  \;\in\;
+  \mathcal{D}'\left(
+    \Sigma^{{\vert \Gamma_v \vert}}
+    \setminus
+    \left\{ (x_i)\,\vert\, x_i\neq x_j \, \text{for} \, j \neq j \right\}
+  \right)[ [ \hbar, g, j] ]
+$$
+
+on the [[complement]] of the locus of coinciding vertex points, given by
+
+$$  
+  \Gamma_{\mathbf{L}_{int}, A_{in}, A_{out} }
+  \;\colon\;
+  (g_{sw,1}, \cdots, g_{sw,v})
+  \;\mapsto\;
+  \left\langle
+    A_{out} \Gamma(\tau_\Sigma(\mathbf{L}_{int})) A_{int}
+  \right\rangle
+  \;\in\;
+  \mathbb{C}[ [ \hbar, g ] ]
+  \,
+$$
+
+where on the right $\langle -\rangle \;\colon\; PolyObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ] \to \mathbb{C}[ [ \hbar, g, j] ]$ is the given [[Hadamard vacuum state]] (def. \ref{VacuumFree}).
+
+These are called the _[[Feynman amplitudes]] away from coinciding interaction ponts_ for the given [[Feynman diagram]] with [[interaction]] $\mathbf{L}_{int}$ and with _external vertices_ $A_{in}, A_{out}$.
+
+An [[extension of distributions]] of this to the locus of coinciding points
+
+$$
+  \Gamma^{ren}_{\mathbf{L}_{int}, A_{in}, A_{out} }
+  \;\in\;
+  \mathcal{D}'\left(
+    \Sigma^{{\vert \Gamma_v \vert}}
+  \right)[ [ \hbar, g, j] ]
+$$
+
+is called a [[renormalization|("re"-)normalization]] of this [[Feynman amplitude]].
+
+Hence for fixed $g_{sw}$ with $S_{int} \coloneqq \tau_{\Sigma}(\mathbf{L}_{int})$ and given [[renormalization|("re"-)normalized]] [[Feynman amplitudes]] for all [[Feynman diagrams]] $\Gamma_{(S_{int})_{i = 1}^k}$
+
+=--
+
+
 $$
   \begin{aligned}
     & T(V_1, \cdots, V_v, V_{v+1})
