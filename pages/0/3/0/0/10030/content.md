@@ -207,6 +207,10 @@ recalled for instance in
 
 * {#HollandsWald14} [[Stefan Hollands]], [[Robert Wald]], section 4.1 of _Quantum fields in curved spacetime_, Physics Reports Volume 574, 16 April 2015, Pages 1-35 ([arXiv:1401.2026](https://arxiv.org/abs/1401.2026))
 
+In the example of [[phi^4 theory]] this non-convergence of the perturbation series is discussed in
+
+* {#Helling} Robert Helling, p. 4 of _Solving classical field equations_ ([pdf](http://homepages.physik.uni-muenchen.de/~helling/classical_fields.pdf))
+
 
 [[!redirects asymptotic expansions]]
 
