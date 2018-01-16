@@ -21,9 +21,14 @@
 
 ## Idea
 
-Considering the [[Lagrangian field theory]] of the [[free field theory]] [[electromagnetic field]], the corresponding [[Feynman propagator]] $\Delta_F(x,y)$ describes the [[time-ordered product]] of linear observables of the [[vector potential]] $A$ and may be thought of as the [[probability amplitude]] for a [[photon]] to travel from $x$ to $y$. Therefore this is called the _[[photon propagator]]_.
+Considering the [[Lagrangian field theory]] of the [[free field theory]] [[electromagnetic field]], the corresponding [[Feynman propagator]] $\Delta_F(x,y)$ describes the [[time-ordered product]] of linear observables of the [[vector potential]] $A$ and may be thought of as the [[probability amplitude]] for a [[photon]] to travel from $x$ to $y$. Therefore this is often called the _photon propagator_.
 
-In the [[perturbative quantum field theory]] of [[quantum electrodynamics]], the photon propagator lables the photon edges in the corresponding [[Feynman diagrams]].
+For details see at _[[A first idea of quantum field theory]]_ [this prop.](A+first+idea+of+quantum+field+theory#PhotonPropagatorInGaussianAveragedLorenzGauge).
+
+[[!include Feynman diagrams in causal perturbation theory -- summary]]
+
+
+
 
 ## References
 
