@@ -52,7 +52,7 @@ This is a sketchy summary, because each of these conditions is involved. The uni
 
 The "Bootstrap property" is then the following heuristic idea, which is included in the above formal relations:
 
-* The particles and interactions which emerge as the spectrum of the S-matrix from the scattering of states, including their binding together into bound states, should be the same spectrum of particles that come in as in-states.
+* The particles and interactions which emerge as the spectrum of the S-matrix from the scattering of states, including their binding together into bound states, should be the same spectrum of particles that come in ias in-states.
 
 This is a heuristic idea, because it is only saying that the S-matrix is consistent, and the formal consistency relations are those above. But the bootstrap was a slogan that implied that all the consistency conditions were not yet discovered, and there might be more.
 
@@ -2299,7 +2299,7 @@ $\,$
  {#RemarksOnCausalPerturbationTheoryAxioms}
 
 The simple axioms for [[S-matrices]] in [[causal perturbation theory]] (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) or equivalently (by prop. \ref{TimeOrderedProductInducesPerturbativeSMatrix}) for [[time-ordered products]] (def. \ref{TimeOrderedProduct}), hence for [[interacting field observables]] (def. \ref{InteractingFieldObservables}) have a wealth of
-implications and consequences. Before analyzing these formally, we make a few informal remarks meant to put these axioms into perspective:
+implications and consequences. We make a few informal remarks meant to put these axioms into perspective:
 
 +-- {: .num_remark #AsymptoticSeriesObservables}
 ###### Remark
@@ -2321,19 +2321,19 @@ value of $\hbar$ and/or $g$.
 In terms of [[synthetic differential geometry]] this means that in [[perturbative QFT]] the [[deformation]] of the [[classical field theory|classical]] [[free field theory]] by quantum effects (measured by $\hbar$) and [[interactions]] (meaured by $g$) is so very tiny as to actually be [[infinitesimal]]: formal power series may be read as functions on the [[infinitesimal neighbourhood]] in a space of [[Lagrangian field theories]] at the point $\hbar = 0$, $g = 0$.
 
 In fact, a simple argument (due to [Dyson 52](perturbative+quantum+field+theory#Dyson52))
-suggests that in realistic field theories these series _never_ converge for _any_ [[positive real number|positive]] value of $\hbar$ and/or $g$. Namely convergence for $g$ would imply a [[positive real number|positive]] _[[radius of convergence]]_ around $g = 0$, which would imply convergence also for $-g$ and even for [[imaginary number|imaginary]] values of $g$, which would however correspond to unstable [[interactions]] for which no converging field theory is to be expected.
+suggests that in realistic field theories these series _never_ converge for _any_ [[positive real number|positive]] value of $\hbar$ and/or $g$. Namely convergence for $g$ would imply a [[positive real number|positive]] _[[radius of convergence]]_ around $g = 0$, which would imply convergence also for $-g$ and even for [[imaginary number|imaginary]] values of $g$, which would however correspond to unstable [[interactions]] for which no converging field theory is to be expected. (See [Helling, p. 4](perturbative+quantum+field+theory#Helling) for the example of [[phi^4 theory]].)
 
-In physical practice one tries to interpret these [[formal power series]] as _[[asymptotic expansions]]_ of
+In physical practice one tries to interpret these non-converging [[formal power series]] as _[[asymptotic expansions]]_ of
 actual but hypothetical functions in $\hbar, g$, which reflect the actual but hypothetical _[[non-perturbative quantum field theory]]_
-that one imagines is being approximated by [[perturbative QFT]] methods.
+that one imagines is being approximated by [[perturbative QFT]] methods. An _[[asymptotic expansion]]_ of a function is a [[power series]] which may no converge, but which has for every $n \in \mathbb{N}$ an estimate for how far the [[sum]] of the first $n$ terms in the series may differ from the function being approximated.
 
-For examples such as [[quantum electrodynamics]] and [[quantum chromodynamics]] as in the [[standard model of particle physics]], the truncation of these [[formal power series]] [[scattering amplitudes]] to the first handful of [[loop orders]] in $\hbar$ happens to agree with [[experiment]] (such as at the [[LHC]] collider) to high precision (for [[QED]]) or at least decent precision (for [[QCD]]), at least away from infrared phenomena (see remark \ref{AdiabaticLimit}).
+For examples such as [[quantum electrodynamics]] and [[quantum chromodynamics]], as in the [[standard model of particle physics]], the truncation of these [[formal power series]] [[scattering amplitudes]] to the first handful of [[loop orders]] in $\hbar$ happens to agree with [[experiment]] (such as at the [[LHC]] collider) to high precision (for [[QED]]) or at least decent precision (for [[QCD]]), at least away from infrared phenomena (see remark \ref{AdiabaticLimit}). 
 
-In summary this says that [[perturbative QFT]] is an extremely _coarse_ approximation to what should be genuine [[non-perturbative quantum field theory]], while at the same time it happens to match certain experimental observations to remarkable degree, however only if some ad-hoc truncation of the resulting power series is considered.
+In summary this says that [[perturbative QFT]] is an extremely _coarse_ and restrictive approximation to what should be genuine [[non-perturbative quantum field theory]], while at the same time it happens to match certain experimental observations to remarkable degree, albeit only if some ad-hoc truncation of the resulting power series is considered.
 
-This is strong motivation for going beyond [[perturbative QFT]] to understand and construct [[non-perturbative quantum field theory]]. Unfortunately, this is a wide-open problem, away from toy examples. Not a single [[interacting field theory]] in [[spacetime]] [[dimension]] $\geq 4$ has been non-perturbatively quantized. A single aspect of the non-perturbative [[quantization of Yang-Mills theory]] has famously been advertized as one of the _[Millenium Problems](http://www.claymath.org/millennium-problems/yang%E2%80%93mills-and-mass-gap)_ of our age, and speculation about non-perturbative [[quantum gravity]] is the subject of much activity.
+This is strong motivation for going beyond [[perturbative QFT]] to understand and construct genuine [[non-perturbative quantum field theory]]. Unfortunately, this is a wide-open problem, away from toy examples. Not a single [[interacting field theory]] in [[spacetime]] [[dimension]] $\geq 4$ has been non-perturbatively quantized. Already a single aspect of the [[non-perturbative quantum field theory|non-perturbative]] [[quantization of Yang-Mills theory]] (as in [[QCD]]) has famously been advertized as one of the _[Millenium Problems](http://www.claymath.org/millennium-problems/yang%E2%80%93mills-and-mass-gap)_ of our age; and speculation about [[non-perturbative quantum field theory|non-perturbative]] [[quantum gravity]] is the subject of much activity.
 
-Now as the name indicates, the axioms of _[[causal perturbation theory]]_ (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) do
+Now, as the name indicates, the [[axioms]] of _[[causal perturbation theory]]_ (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) do
 _not_ address [[non-perturbative effect|non-perturbative aspects]] of [[non-perturbative field theory]]; the convergence or non-convergence of the [[formal power series]] that are axiomatized by [[Bogoliubov's formula]] (def. \ref{InteractingFieldObservables}) is _not_ addressed by the theory.
 The point of the axioms of [[causal perturbation theory]] is to give rigorous mathematical meaning to _everything else_ in [[perturbative QFT]].
 
