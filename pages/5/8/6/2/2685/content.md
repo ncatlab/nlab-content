@@ -14,6 +14,8 @@
 
 * [[Feynman perturbation series]]
 
+* [[Feynman diagrams in causal perturbation theory -- summary]]
+
 * [[Feynman slash notation]]
 
 category: people
