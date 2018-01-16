@@ -3009,6 +3009,14 @@ $$
 =--
 
 
+### In Feynman amplitudes
+
+
+[[!include Feynman diagrams in causal perturbation theory -- summary]]
+
+
+
+
 ### As a zeta function
 
 > needs harmonization
