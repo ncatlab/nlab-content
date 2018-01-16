@@ -1610,17 +1610,7 @@ Here the sub-sum in brackets vanishes by the inversion formula, prop. \ref{Inver
 #### ("Re"-)Normalization
  {#ExistenceAndRenormalization}
 
-So far we considered only the [[axioms]] on a consistent perturbative [[S-matrix]] scheme (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) or equivalently on [[time-ordered products]] (def. \ref{TimeOrderedProduct} prop. \ref{TimeOrderedProductInducesPerturbativeSMatrix}). 
-Now we discuss the process of the actual construction of [[time-ordered products]], hence of perturbative [[S-matrices]], by the process called _[[renormalization|("re"-)normalization]] 
-
-We first discuss how [[time-ordered product]], and hence the perturbative S-matrix [above](#PerturbativeSMatrixAndTimeOrderedProducts),
-is uniquely determined away from the locus where interaction points coincide (prop. \ref{TimeOrderedProductAwayFromDiagonal} below).
-Moreover, we discuss how on that locus the time-ordered product is naturally expressed as a sum
-of [[products of distributions]] of [[Feynman propagators]] that are labeled by [[Feynman diagrams]]: the _[[Feynman perturbation series]]_ (prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints} below).
-
-This means that the full  [[time-ordered product]] is an [[extension of distributions]] to the locus of coinciding vertices. The space of possible such extensions turns out to be finite-dimensional in each order of $g/\hbar, j/\hbar$, parameterizing the choice of
-[[point-supported distributions]] at the interaction points whose [[degree of a distribution|scaling degree]]
-is bounded by the given Feynman propagators.
+We discuss now that [[time-ordered products]] as in def. \ref{TimeOrderedProduct}, hence, by prop. \ref{TimeOrderedProductInducesPerturbativeSMatrix}, perturbatibe [[S-matrix]] schemes (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) exist in fact uniquely away from coinciding interaction points (prop. \ref{TimeOrderedProductAwayFromDiagonal} below). This means that the construction of full [[time-ordered products]]/[[S-matrix]] schemes may be phrased as an [[extension of distributions]] of unique time ordered products away from coinciding interaction points to these coinciding interaction points. This [[extension of distributions]] is called [[renormalization|("re"-)normalization]] (def. \ref{ExtensionOfTimeOrderedProoductsRenormalization} below).
 
 +-- {: .num_defn #TuplesOfCompactlySupportedPolynomialLocalFunctionalsWithPairwiseDisjointSupport}
 ###### Definition
@@ -1649,7 +1639,7 @@ for the linear subspace of the $k$-fold [[tensor product]] of [[local observable
 $$
   supp(A_j) \cap supp(A_k) = \emptyset
   \phantom{AAA}
-  \text{for} $i \neq j \in \{1, \cdots, k\}$
+  \text{for} \, i \neq j \in \{1, \cdots, k\}
   \,.
 $$
 
@@ -1700,20 +1690,42 @@ $$
   T
   \left(
     {\, \atop \,}
-    (g S_{int} + j A), \cdots, (g S_{int} + j A) 
+    A_1 , \cdots, A_k 
     {\, \atop \,}
   \right)
   \;=\;
-  (g S_{int} + j A) 
+  A_1
     \star_F 
     \cdots 
     \star_F 
-  (g S_{int} + j A)
+  A_k
   \,.
 $$
 
+In particular this implies that the time-ordered product extends from the restricted domain of tensor products of local observables to a restricted domain of [[microcausal polynomial observables]], where it becomes an [[associativity|associative]] product:
+
+$$
+  \begin{aligned}
+    T(A_1, \cdots, A_{k_n})
+    & =
+    T(A_1, \cdots, A_{k_1}) 
+      \star_F
+    T(A_{k_1 + 1}, \cdots, A_{k_2})
+      \star_F
+      \cdots
+      \star_F
+    T(A_{k_{n-1} + 1}, \cdots, A_{k_n})
+    \\
+    & =
+    A_1 \star_F \cdots \star_F A_{k_n}
+  \end{aligned}
+$$
+
+for all tuples of local observables $A_1, \cdots, A_{k_1}, A_{k_1+1}, \cdots, A_{k_2}, \cdots, \cdots A_{k_n}$ with pairwise disjoint spacetime support.
+
 =--
 
+The idea of this statement goes back at least to [Epstein-Glaser 73](#EpsteinGlaser73), as in remark \ref{TheTraditionalErrorThatLeadsToTheNotoriouDivergencies}. One formulation appears as ([Brunetti-Fredenhagen 00, theorem 4.3](perturbative+algebraic+quantum+field+theory#BrunettiFredenhagen00)). The above formulation in terms of the [[star product]] is stated without proof in ([Fredenhagen-Rejzner 12, p. 27](perturbative+algebraic+quantum+field+theory#FredenhagenRejzner12)).
 
 +-- {: .proof}
 ###### Proof
@@ -1722,30 +1734,38 @@ First we need to see that the star product $\star_F$ is well defined on the give
 
 We proceed by [[induction]] over the number $k$ of arguments.
 
-For $k = 1$ there is nothing to be shown. So assume that the $\Delta_F$-star product of $k$ local observables with pairwise disjoint spacetime support exists as a [[microcausal polynomial observable]] $A_{mc} = A_1 \star_F \cdots \star_F A_k$. We need to see that for $A_{k+1}$ any [[local observable]] whose spacetime support is disjoint from that of all of the $A_i$, hence disjoint from that of $A_{mc}$, the star product $A_{k+1} \star_F A_{mc}$ exists and is again microcausal.
+For $k = 1$ there is nothing to be shown. So assume by [[induction]] that the $\Delta_F$-star product of $k$ local observables with pairwise disjoint spacetime support exists as a [[microcausal polynomial observable]] $A_{mc} = A_1 \star_F \cdots \star_F A_k$. We need to see that for $A_{k+1}$ any [[local observable]] whose spacetime support is disjoint from that of all of the $A_i$, hence disjoint from that of $A_{mc}$, the star product $A_{k+1} \star_F A_{mc}$ exists and is again microcausal.
 
-Now since one of the two arguments of the [[star product]] is assumed to be a [[local observable]], the [[products of distributions]] that appear in the star product are of the form (written as [[generalized functions]])
+Now since one of the two arguments of the [[star product]] is assumed to be a [[local observable]], the [[products of distributions]] that appear in the star product are of the form (written in [[generalized function]]-notation)
 
 $$
+  \underset{ { (y_i) \in \Sigma^k } \atop { y_i \neq y_j \,\text{for}\, i \neq j } }{\int}
   \left(
-    \underset{i}{\prod} D^{n_i}_x\Delta_H(x,y_i)
+    \underset{i \in \{1, \cdots, k\}}{\prod} D^{n_i}_x\Delta_H(x,y_i)
   \right)
   \alpha^{(n)}( y_1, \cdots, y_k, z_1, \cdots, z_m)
+  \,
+  d y_1 \, \cdots \, d y_k
   \,,
 $$
 
-where $D^{n_1}$ denoted [[partial derivatives|partial]] [[derivatives of distributions]], and where $\alpha^{(n)}$ are the [[distribution|distributional]] [[coefficients]] of the [[polynomial observable]] $A_{mc}$, and where $x \neq y$, by assumption.
+where $D^{n_i}_x$ denotes [[partial derivatives|partial]] [[derivatives of distributions]] with respect to $x$, and where $\alpha^{(n)}$ are the [[distribution|distributional]] [[coefficients]] of the [[polynomial observable]] $A_{mc}$, and where $x \neq y$, by assumption.
 
-Since the [[derivative of distributions]] preserves or shrinks the [[wave front set]] (by [this prop.](derivative+of+a+distribution#DerivativeOfDistributionRetainsOrShrinksWaveFrontSet))it is sufficient to see that among these the expressions those of the simpler form
+Since the [[derivative of distributions]] preserves or shrinks the [[wave front set]] (by [this prop.](derivative+of+a+distribution#DerivativeOfDistributionRetainsOrShrinksWaveFrontSet)) it is sufficient to see that among these the expressions those of the simpler form
 
 $$
-  (\underset{i}{\prod}\Delta_H(x,y_i))
-  \alpha^{(n)}(y_1, \cdots, y_k, z_1, \cdots, z_m)
+  \label{ContractionsAppearingInStarProductOfLocalWithMicrocausalObservable}
+  \underset{ { (y_i) \in \Sigma^k } \atop { y_i \neq y_j \,\text{for}\, i \neq j } }{\int}
+   \left(
+     \underset{i \in \{1, \cdots, k\}}{\prod}\Delta_H(x,y_i)
+   \right)
+   \alpha^{(n)}(y_1, \cdots, y_k, z_1, \cdots, z_m)
+   \, d y_1 \, \cdots \, d y_k
 $$
 
 exist as partial [[products of distributions|products of]] [[distributions of several variables]]. 
 
-Now by [this prop.](Feynman+propagator#WaveFronSetsForKGPropagatorsOnMinkowski) the [[wave front set]] of the Feynman propagator $\Delta_H(x,y)$ with contains [[wave vectors]] along $x$ in the [[closed future cone]] of [[covectors]] based on the [[future]] [[light cone]] of $(x-y)$, as well as [[wave vectors]] in the [[closed past cone]] of [[covectors]] based on the [[past]] [[light cone]]:
+Now by [this prop.](Feynman+propagator#WaveFronSetsForKGPropagatorsOnMinkowski) the [[wave front set]] of the Feynman propagator $\Delta_H(x,y)$ contains [[wave vectors]] along $x$ in the [[closed future cone]] of [[covectors]] based on the [[future]] [[light cone]] of $(x-y)$, as well as [[wave vectors]] in the [[closed past cone]] of [[covectors]] based on the [[past]] [[light cone]]:
 
 <center>
 <img src="https://ncatlab.org/nlab/files/FeynmanPropagator.png" width="60">
@@ -1753,17 +1773,21 @@ Now by [this prop.](Feynman+propagator#WaveFronSetsForKGPropagatorsOnMinkowski) 
 
 and similary but with opposite sign for $y$.
 
-This implies first of all that [[Hörmander's criterion]] for the existence of the product $(\Delta_H(x,y))^k$ is satisfied (since the wave front wave vectors at $x$ and at $y$ are all in the [[closed future cone]] or all in the [[closed past cone]] at $x\neq y$, their sum never adds up to zero). Moreover, by [this prop.](product+of+distributions#WaveFrontSetOfProductOfDistributionsInsideFiberProductOfFactorWaveFrontSets) the resulting product has wave front set contained in the fiberwise sum of the wave front sets of the factors, hence is still of the same general form.
+This implies first of all that [[Hörmander's criterion]] for the existence of the product $\unerset{i}{\prod}\Delta_H(x,y_i)$ is satisfied (since the wave front wave vectors at $x$ and at $y$ are all in the [[closed future cone]] or all in the [[closed past cone]] for $x\neq y$, their sum never adds up to zero). Moreover, by [this prop.](product+of+distributions#WaveFrontSetOfProductOfDistributionsInsideFiberProductOfFactorWaveFrontSets) the resulting product has wave front set contained in the fiberwise sum of the wave front sets of the factors, hence is still of the same general form.
 
-With this, finally [this prop.](product+of+distributions#PartialProductOfDistributionsOfSeveralVariables) implies, with the microcausal assumption on $\alpha^{(k)}$, that also the product $ (\Delta_H(x,y))^{k} \alpha^{(n)}(\underset{k\, \text{args}}{\underbrace{y, y, \cdots, y}}, z_1, \cdots, z_m)$ is defined, and a careful look at [this equation](product+of+distributions#eq:CompositionOfIntegralKernelsWaveFronConstraint) shows that its wave front set again satisfies the microcausality condition.
+With this, finally [this prop.](product+of+distributions#PartialProductOfDistributionsOfSeveralVariables) implies, with the microcausal assumption on $\alpha^{(k)}$, that also the expression (eq:ContractionsAppearingInStarProductOfLocalWithMicrocausalObservable) is defined, and a careful look at [this equation](product+of+distributions#eq:CompositionOfIntegralKernelsWaveFronConstraint) shows that that if $\alpha^{(k)}(y_1, \cdots, y_k, z_1 \cdots, z_m)$ has a wave front wave vector future or past pointing at $y_i$ then the contraction (eq:ContractionsAppearingInStarProductOfLocalWithMicrocausalObservable) has the  wave front wave vector (if any) at the corresponding $x$ also pointing future or past, respectively. This shows that the distribution in (eq:ContractionsAppearingInStarProductOfLocalWithMicrocausalObservable) satisfies the microcausality condition if $\alpha^{(k)}$ does. 
 
-This proves that the star product exists as claimed.
+This proves that the star product exists as claimed.  
 
-Given that it exists, then by construction it is immediate that satisfies the axioms "perturbation" and "normalization" in def. \ref{TimeOrderedProduct}.
+Given that it exists, then by construction it is immediate that it satisfies the axioms "perturbation" and "normalization" in def. \ref{TimeOrderedProduct}.
 
 The only non-trivial point to check is that it indeed satisfies "[[causal factorization]]". In [this prop.](Wick+algebra#CausalOrderingTimeOrderedProductOnRegular) this is proven for $\star_F$ applied to [[regular polynomial observables]], but the proof manifestly applies whenever $\star_F$ is defined. The proof there also makes manifest that when defined, then $\star_F$ is in fact the _unique_ solution to causal factorization.
 
+Finally the [[associativity]]-statement follows as in [this prop.](star+product#AssociativeAndUnitalStarProduct).
+
+
 =--
+
 
 +-- {: .num_defn #ExtensionOfTimeOrderedProoductsRenormalization}
 ###### Definition
