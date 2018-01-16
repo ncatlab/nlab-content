@@ -1235,17 +1235,39 @@ $$
 has [[wave front set]] constrained by
 
 $$
+  \label{CompositionOfIntegralKernelsWaveFronConstraint}
   WF(K_1 \circ K_2)
   \;\subset\;
-  WF(K_1) \circ WF(K_2)
-  \;\cup\;
-  (X \times \{0\}) \times WF(K_2)
-  \;\cup\;
-  WF(K_1) \times (Z \times \{0\})
-  \,,
+  \left\{
+    (x,z, k_x, k_z)
+    \;\vert\;
+    \array{
+      \left(
+      (x,y,k_x,-k_y) \in WF(K_1)
+      \,\,
+      \text{and}
+      \,\,
+      (y,z,k_y, k_z) \in WF(K_2)
+      \right)
+      \\ 
+      \text{or}
+      \\
+      \left(
+        k_x = 0 
+        \,\text{and}\,
+        (y,z,0,-k_z) \in WF(K_2)
+      \right)
+      \\
+      \text{or}
+      \\
+      \left(
+        k_z = 0
+        \,\text{and}\,
+        (x,y,k_x,0) \in WF(K_1)
+      \right)
+    }
+  \right\}
 $$
-
-where on the left the composition symbol means composition of [[relations]] of [[wave vectors]] over points in $Y$.
 
 =--
 
