@@ -1,4 +1,42 @@
 
++-- {: .num_example #FeynmanPerturbationSeries}
+###### Example
+**([[Feynman perturbation series])**
+
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}, and let
+
+$$
+  g S_{int} + j A 
+  \;\in\;
+  LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, h ] ]
+$$
+
+be a [[local observable]].
+
+By prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints} every choice of perturbative [[S-matrix]] (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) 
+
+$$
+  \mathcal{S}(g S_{int} + j A)
+  \;\in\;
+  PolyObs(E_{\text{BV-BRST}})_{mc}((\hbar))[ [ g, j ] ] + 
+$$
+
+may be written as a [[Feynman perturbation series]]
+
+$$
+  \mathcal{S}(g S_{int} + j A)
+  \;=\;
+  \underset{\Gamma \in \mathcal{G}}{\sum}
+  \Gamma_{norm}(g S_{int} + j A)
+  \,,
+$$
+
+where the sum is over all [[Feynman diagrams]] $\Gamma$ all whose vertices are labeled by $g S_{int} + jA $ (def. \ref{FeynmanDiagram}), and the summands are the corresponding [[renormalization|("re"-)normalized]] (def. \ref{ExtensionOfTimeOrderedProoductsRenormalization}) [[Feynman amplitudes]] (prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints}).
+
+In this form the S-matrix is known as the _[[Feynman perturbation series]]_.
+
+=--
+
 +-- {: .num_prop #FeynmanDiagramLoopOrder}
 ###### Proposition
 **([[loop order]] of [[Feynman diagrams]])**
