@@ -1702,7 +1702,7 @@ $$
 Then their [[restriction]] to the subspace of [[tuples]] of [[local observables]] of pairwise disjoint spacetime support (def. \ref{TuplesOfCompactlySupportedPolynomialLocalFunctionalsWithPairwiseDisjointSupport}) is unique (independent of the [[renormalization|"re-"normalization]] freedom in choosing $T$) and is given by the [[star product]] 
 
 $$
-  A_1 \star_{\star_F} A_2
+  A_1 \star_{F} A_2
   \;\coloneqq\;
   ((-)\cdot (-)) \circ
   \exp\left(
