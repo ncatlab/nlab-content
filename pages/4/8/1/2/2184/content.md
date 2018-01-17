@@ -215,7 +215,7 @@ But I can't determine *exactly* what it is, because, if you read the first parts
 
 * [[omega-graph]]
 
-* [[planar graph]]
+* [[planar graph]], [[connected graph]]
 
 * [[ribbon graph]]
 
