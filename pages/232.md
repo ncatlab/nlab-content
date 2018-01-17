@@ -255,9 +255,9 @@ The page [here](http://ncatlab.org/nlab/show/generalized+algebraic+theory#Relati
 
 * [[2-categories with contravariance]] (and generalizations such as [[3-categories with contravariance]]) can also be described as enriched categories.
 
-* [[tangent bundle categories]] can be described as a certain kind of enriched category with certain [[powers]]; see [here](https://arxiv.org/abs/1704.08386).
+* [[tangent bundle categories]] can be described as a certain kind of enriched category with certain [[powers]]; see [Garner 2018](#Garner2018) for details.
 
-* [[Lawvere theories]] can be represented as enriched categories as well; see [Garner 2013](#Garner2013) and [Garner and Power 2017](#GarnerPower2017) for details. 
+* [[Lawvere theories]] can be represented as enriched categories as well; see [Garner 2013](#Garner2014) and [Garner and Power 2017](#GarnerPower2017) for details. 
 
 ## Related concepts
 
@@ -295,12 +295,13 @@ Change of base is discussed in
 
 * John Armstrong: [Enriched categories](http://unapologetic.wordpress.com/2007/08/13/enriched-categories/). 
 
-Lawvere theories, and finitary monads, are identified with certain [[enriched categories]] and the passage from one to the other with a [[cocompletion]], in
+Further examples are discussed in
 
-* {#Garner2013} [[Richard Garner]], *Lawvere theories, finitary monads and Cauchy-completion*, 2013, [arxiv](https://arxiv.org/abs/1307.2963)
+* {#Garner2013} [[Richard Garner]], *Lawvere theories, finitary monads and Cauchy-completion*, Journal of Pure and Applied Algebra, 2014, [arxiv](https://arxiv.org/abs/1307.2963)
 
 * {#GarnerPower2017} [[Richard Garner]] and [[John Power]], *An enriched view on the extended finitary monad--Lawvere theory correspondence*, 2017, [arxiv](https://arxiv.org/abs/1707.08694)
 
+* {#Garner2018} [[Richard Garner]], *An embedding theorem for tangent categories*, Advances in Mathematics, 2018, [doi](https://www.sciencedirect.com/science/article/pii/S0001870817303122), [arxiv](https://arxiv.org/abs/1704.08386)
 
 
 
