@@ -72,6 +72,8 @@ A survey of the various competing theories is
 
 * {#Lorscheid14} [[Oliver Lorscheid]], _Lectures on $\mathbb{F}_1$_, 2014 ([pdf](http://www.impa.br/~lorschei/Lectures_on_F1.pdf))
 
+* [[Oliver Lorscheid]], _$\mathbb{F}_1$ for everyone_, 2018 ([arXiv:1801.05337](https://arxiv.org/abs/1801.05337))
+
 ### Original articles ###
 
 * {#Tits57} [[Jacques Tits]], _Sur les analogues algebriques des groupes semi-simples complexes_. In Colloque d'algebre superieure, tenu a Bruxelles du 19 au 22 decembre 1956, Centre Belge de Recherches Mathematiques,
