@@ -105,7 +105,7 @@ The quantized [[electromagnetic field]] is discussed for instance in ([Dimock 92
 
 ## Related concepts
 
-* [[quantum mechanics]], [[quantum field theory]]
+* [[quantum mechanics]], [[quantum field theory]], [[perturbative quantum field theory]]
 
   * **AQFT**
 
@@ -115,9 +115,14 @@ The quantized [[electromagnetic field]] is discussed for instance in ([Dimock 92
 
     * [[quantum lattice systems]], [[string-localized quantum field]]
 
-    * [[locally covariant perturbative quantum field theory]]
+    * [[locally covariant AQFT]]
+
+    * [[perturbative AQFT]]
 
     * [[homotopical algebraic quantum field theory]]
+
+    * [[Haag-Ruelle scattering theory]]
+
 
   * [[FQFT]]
 
