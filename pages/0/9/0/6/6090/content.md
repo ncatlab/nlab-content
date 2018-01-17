@@ -815,9 +815,16 @@ $$
     i \hbar \frac{d}{d j} 
     \left(
       {\, \atop \,}
-      \mathcal{S}^{-1}(S_{int}) \, \mathcal{S}( S_{int} + j A )
+      \mathcal{S}(S_{int})^{-1} \, \mathcal{S}( S_{int} + j A )
       {\, \atop \,}
     \right)_{\vert_{j = 0}}
+    \\
+    & =
+    \mathcal{S}(S_{int})^{-1}
+    T\left(
+      \mathcal{S}(S_{int}), A
+    \right)
+    \,.
   \end{aligned}
 $$
 
@@ -1966,7 +1973,6 @@ $$
     \circ
     \underset{ r \lt s \in \{1, \cdots, v\} }{\prod}
     \frac{\hbar^{e_{r,s}}}{e_{r,s}!}
-    \underset{\Sigma \times \Sigma}{\int}
     \left\langle
       (\Delta_{F})^{e_{r,s}}
       ,
@@ -1983,13 +1989,17 @@ $$
     \circ
     \underset{ r \lt s \in \{1, \cdots, v\} }{\prod}
     \frac{\hbar^{e_{r,s}}}{e_{r,s}!}
-    \underset{\Sigma \times \Sigma}{\int}
-      \left(
-        \underset{i = 1, \cdots e_{r,s}}{\prod}\Delta_F^{a_i b_i}(x,y)
-      \right)
     \\
     & 
-    \phantom{=}\;
+    \phantom{AAA}
+      \underset{i = 1, \cdots e_{r,s}}{\prod}
+        \underset{\Sigma \times \Sigma}{\int}
+         dvol_\Sigma(x_i) 
+         dvol_\Sigma(y_i)
+         \,
+         \Delta_F^{a_i b_i}(x_i,y_i)
+     \\
+     & \phantom{AAAAAA}
     \left(
       V_1 
         \otimes 
@@ -2000,9 +2010,9 @@ $$
        \frac{
          \delta^{e_{r,s}} V_r 
        }{
-         \delta \mathbf{\Phi}^{a_1}(x)
+         \delta \mathbf{\Phi}^{a_1}(x_1)
          \cdots
-         \delta \mathbf{\Phi}^{a_{e_{r,s}}}(x)
+         \delta \mathbf{\Phi}^{a_{e_{r,s}}}(x_{e_{r,s}})
        }
         \otimes
       V_{r+1}
@@ -2011,16 +2021,20 @@ $$
         \otimes
       V_{s-1}
         \otimes
-      \frac{\delta^{e_{r,s}} V_s }{ \delta \left(\mathbf{\Phi}^b(y)\right)^{e_{r,s}} }    
+      \frac{
+          \delta^{e_{r,s}} V_s 
+       }{ 
+         \delta \mathbf{\Phi}^{b_1}(y_1)
+         \cdots
+         \delta \mathbf{\Phi}^{b_{e_{r,s}}}(y_{e_{r,s}}) 
+       }    
         \otimes
-      V_{s+1}
+       V_{s+1}
         \otimes
         \cdots
         \otimes
       V_v
     \right)
-    \\
-    & \phantom{=} dvol_\Sigma(x)\, dvol_\Sigma(y)
     \,,
   \end{aligned}
 $$
@@ -2037,7 +2051,6 @@ $$
     \circ
     \underset{ r \lt s \in \{1, \cdots, v\} }{\prod}
     \frac{\hbar^{e_{r,s}}}{e_{r,s}!}
-    \underset{\Sigma \times \Sigma}{\int}
     \left\langle
       (\Delta_{F})^{e_{r,s}}
       ,
@@ -2070,10 +2083,6 @@ Their expression as [[products of distributions]] via the right hand side of (eq
 
 +-- {: .proof}
 ###### Proof
-
-For ease of notation we give the proof for a [[scalar field]],
-hence omitting the indices on the [[field observables]] $\mathbf{\Phi}^a$.
-The generalization is immediate.
 
 We proceed by [[induction]] over the number $v$ of [[vertices]].
 The statement is trivially true for a single vertex.
@@ -2267,7 +2276,7 @@ We have seen that the [[Feynman perturbation series]] expresses the [[S-matrix]]
 
 +-- {: .num_defn #InPerturbationTheoryActionEffective}
 ###### Definition
-**([[effective action]])**
+**([[\leffective action]])**
 
 Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}, let $\mathcal{S}$ be an [[S-matrix]] scheme for [[perturbative QFT]] around this vacuum (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) and let
 
@@ -2356,11 +2365,24 @@ Moreover, this relation passes to the [[vacuum expectation values]]:
 
 $$
   \label{ExponentialSeffVEVOfSMatrix}
-  \left\langle 
-    \mathcal{S}(g S_{int} + j A)
-  \right\rangle
-  \;=\;
-  e^{\tfrac{1}{i \hbar} \langle S_{eff}\rangle}
+  \begin{aligned}
+    \left\langle 
+      {\, \atop \,}
+      \mathcal{S}(g S_{int} + j A)
+      {\, \atop \,}
+    \right\rangle
+    & =
+    \left\langle 
+      {\, \atop \,}
+      \exp\left( 
+        \tfrac{1}{i \hbar} S_{eff}
+      \right)
+      {\, \atop \,}
+    \right\rangle
+    \\
+    & =
+    e^{\tfrac{1}{i \hbar} \langle S_{eff}\rangle}
+  \end{aligned}
   \,.
 $$
 
@@ -3832,10 +3854,11 @@ From ([Weinberg 09, p. 11](#Weinberg09)):
 > There was an interesting irony in this. I had been at Berkeley from 1959 to 1966, when [[Geoffrey Chew]] and his collaborators were elaborating a program for calculating S-matrix elements for [[strong nuclear force|strong interaction]] processes by the use of unitarity, analyticity, and Lorentz invariance, without reference to [[quantum field theory]]. I found it an attractive philosophy, because it relied only on a minimum of principles, all well established. Unfortunately, the S-matrix theorists were never able to develop a reliable method of calculation, so I worked instead on other things, including [[current algebra]]. Now in 1979 I realized that the assumptions of S-matrix theory, supplemented by chiral invariance, were indeed all that are needed at low energy, but the most convenient way of implementing these assumptions in actual calculations was by good old quantum field theory, which the S-matrix theorists had hoped to supplant.
 
 
-
 ## Related entries
 
-See also at _[[sigma model]]_ the section _<a href="http://ncatlab.org/nlab/show/sigma-model#SecondQuantization">Exposition of second quantization of sigma-models</a>_
+* [[Haag-Ruelle scattering theory]]
+
+* [[LSZ reduction formula]]
 
 * [[Coleman theorem]], [[Haag–Łopuszański–Sohnius theorem]]
 
@@ -3844,6 +3867,10 @@ See also at _[[sigma model]]_ the section _<a href="http://ncatlab.org/nlab/show
 * [[AdS-CFT]]
 
 * [string theory FAQ -- What are the equations of string theory?](string%20theory%20FAQ#WhatAreTheEquations)
+
+
+See also at _[[sigma model]]_ the section _<a href="http://ncatlab.org/nlab/show/sigma-model#SecondQuantization">Exposition of second quantization of sigma-models</a>_
+
 
 [[!include products in pQFT -- table]]
 
