@@ -126,7 +126,7 @@ Hence a typical Feynman diagram in the [[QED]] [[Feynman perturbation series]] i
 </center>
 
 where on the bottom the corresponding [[product of distributions]] is shown.
-(Now the contraction of the internal indices is notationally left implicit.)
+(Now the contraction of the internal indices and all prefactors are notationally suppressed.)
 
 For instance the two solid [[edges]] between the [[vertices]] $x_2$ and $x_3$ corresponds to the two factors of $\Delta(x_2,x_2)$:
 
