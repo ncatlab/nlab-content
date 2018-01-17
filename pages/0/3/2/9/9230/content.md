@@ -305,7 +305,11 @@ $\,$
 
 ## References
 
-For general accounts see at 
+Traditional review includes
+
+* [[Radovan Dermisek]], _Path integral for interacting field_ ([pdf](http://www.physics.indiana.edu/~dermisek/QFT_09/qft-I-5-4p.pdf))
+
+See also
 
 * [[Alain Connes]], [[Matilde Marcolli]], section 3 of _[[Noncommutative Geometry, Quantum Fields and Motives]]_
 
