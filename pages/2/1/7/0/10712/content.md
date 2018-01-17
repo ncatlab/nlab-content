@@ -20,7 +20,7 @@ A fundamental statement in [[stable homotopy theory]]/[[higher algebra]]/[[chrom
 
 ## Statement
 
-For any [[ring spectrum]] $E$ the kernel of the canonical [[morphism]]
+For any [[ring spectrum]] $R$ the kernel of the canonical [[morphism]]
 
 $$
   \pi_\bullet R \longrightarrow MU_\bullet(R)
