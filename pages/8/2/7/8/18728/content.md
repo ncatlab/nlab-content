@@ -51,11 +51,27 @@ For example [[quantum electrodynamics]] in [[Lorenz gauge]] has
      g i 
      (\gamma^\mu)^\alpha{}_\beta
      \,
-     \underset{\text{electron}}{\underbrace{\overline{\psi_\alpha}}} 
+     \underset{
+       { \text{incoming} \atop \text{electron}  }
+       \atop
+       \text{field}
+     }{\underbrace{\overline{\psi_\alpha}}} 
      \;
-     \underset{\text{photon}}{\underbrace{a_\mu}} 
+     \underset{
+       { 
+         \, 
+         \atop
+         \text{photon}
+       }
+       \atop
+       \text{field}
+     }{\underbrace{a_\mu}} 
      \;
-     \underset{\text{electron}}{\underbrace{\psi^\beta}}
+     \underset{
+       {\text{outgoing} \atop \text{electron} }
+       \atop
+       \text{field}
+     }{\underbrace{\psi^\beta}}
    $$ 
 
 The [[Feynman diagram]] for the [[electron-photon interaction]] alone is
@@ -64,13 +80,43 @@ The [[Feynman diagram]] for the [[electron-photon interaction]] alone is
 <img src="https://ncatlab.org/nlab/files/InteractionVertexOfQED.jpg" width="150">
 </center>
 
-where the solid lines correspond to the [[electron]], and the wiggly line to the [[photon]]. Hence the corresponding [[product of distributions]] is (written in [[generalized function]]-notation)
+where the solid lines correspond to the [[electron]], and the wiggly line to the [[photon]]. The corresponding [[product of distributions]] is (written in [[generalized function]]-notation)
 
 $$
   i g (\gamma^\mu)^\alpha{}_\beta 
   \,.
   \,
-  \overline{\Delta(-,x)}_{-, \alpha} \Delta(x,-)^{\beta, -} G(x,-)_{\mu,-}
+  \underset{
+    {\text{incoming} \atop \text{electron}}
+    \atop
+    \text{propagator}  
+  }{
+  \underbrace{
+    \overline{\Delta(-,x)}_{-, \alpha} 
+  }
+  }
+  \underset{
+    {
+      \, 
+      \atop
+      \text{photon}
+    }
+    \atop
+    \text{propagator}
+  }{
+  \underbrace{
+     G(x,-)_{\mu,-}
+  }
+  }
+  \underset{
+    { \text{outgoing} \atop \text{electron} }
+    \atop
+    \text{propagator}
+  }{
+  \underbrace{
+    \Delta(x,-)^{\beta, -} 
+  }
+  }
 $$
 
 Hence a typical Feynman diagram in the [[QED]] [[Feynman perturbation series]] induced by this [[electron-photon interaction]] looks as follows:
