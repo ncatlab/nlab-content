@@ -1895,9 +1895,9 @@ $\,$
 
 By def \ref{ExtensionOfTimeOrderedProoductsRenormalization} and the [[main theorem of perturbative renormalization]] (theorem \ref{PerturbativeRenormalizationMainTheorem}), the construction of perturbative [[S-matrix]] schemes/[[time-ordered products]] may be phrased as [[renormalization|("re-")normalization]] of the [[star product]] induced by the [[Feynman propagator]], namely as a choice of [[extension of distributions]] of the this star-product to the locus of coinciding interaction points. Since the [[star product]] is the [[exponential]] of the binary contraction with the [[Feynman propagator]], it is naturally expanded as a [[sum]] of [[products of distributions]] labeled by [[graphs]], where each [[edge]] labels one of the contractions. These graphs are called _[[Feynman diagrams]]_ (def. \ref{FeynmanDiagram} below) and the [[products of distributions]] which they encode are called _[[Feynman amplitudes]]_ built by the _[[Feynman rules]]_ (prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints} below). 
 
-Thus expansion by [[Feynman diagrams]] makes the perturbative [[S-matrix]] equivalently a [[formal power series]] with [[coefficients]] given by [[Feynman amplitudes]], and as such it is known as the _[[Feynman perturbation series]]_. 
-
 The choice of [[renormalization|("re"-)normalization]] of the [[time-ordered products]]/[[S-matrix]] is thus equivalently the choice of [[renormalization|("re"-)normalization]] of all possible [[Feynman amplitudes]].
+
+The expansion by [[Feynman diagrams]] makes the perturbative [[S-matrix]] equivalently be a [[formal power series]] with [[coefficients]] given by [[Feynman amplitudes]], and as such it is known as the _[[Feynman perturbation series]]_ (example \ref{FeynmanPerturbationSeries} below). 
 
 +-- {: .num_defn #FeynmanDiagram}
 ###### Definition
@@ -2199,9 +2199,54 @@ which yield in total the sum over all diagrams with $v+1$ vertices.
 
 =--
 
-
++-- {: .num_example}
+###### Example
 
 [[!include Feynman diagrams in causal perturbation theory -- summary]]
+
+=--
+
++-- {: .num_example #FeynmanPerturbationSeries}
+###### Example
+**([[Feynman perturbation series]])**
+
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}, and let
+
+$$
+  g S_{int} + j A 
+  \;\in\;
+  LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, h ] ]
+$$
+
+be a [[local observable]].
+
+By prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints} every choice of perturbative [[S-matrix]] (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) 
+
+$$
+  \mathcal{S}(g S_{int} + j A)
+  \;\in\;
+  PolyObs(E_{\text{BV-BRST}})_{mc}((\hbar))[ [ g, j ] ] + 
+$$
+
+has an expansion as a [[formal power series]] of the form
+
+$$
+  \mathcal{S}(g S_{int} + j A)
+  \;=\;
+  \underset{\Gamma \in \mathcal{G}}{\sum}
+  \Gamma_{norm}(g S_{int} + j A)
+  \,,
+$$
+
+where the series is over all [[Feynman diagrams]] $\Gamma$ all whose vertices are labeled by $g S_{int} + jA $ (def. \ref{FeynmanDiagram}), and the summands are the corresponding [[renormalization|("re"-)normalized]] (def. \ref{ExtensionOfTimeOrderedProoductsRenormalization}) [[Feynman amplitudes]] (prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints}).
+
+Expressed in this form the S-matrix is known as the _[[Feynman perturbation series]]_.
+
+=--
+
+$\,$
+
+#### Effective action
 
 
 +-- {: .num_prop #FeynmanDiagramLoopOrder}
