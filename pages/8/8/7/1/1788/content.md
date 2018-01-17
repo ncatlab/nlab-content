@@ -1,7 +1,7 @@
 
 +-- {: .num_example #FeynmanPerturbationSeries}
 ###### Example
-**([[Feynman perturbation series])**
+**([[Feynman perturbation series]])**
 
 Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}, and let
 
@@ -21,7 +21,7 @@ $$
   PolyObs(E_{\text{BV-BRST}})_{mc}((\hbar))[ [ g, j ] ] + 
 $$
 
-may be written as a [[Feynman perturbation series]]
+has an expansion as a [[formal power series]] of the form
 
 $$
   \mathcal{S}(g S_{int} + j A)
@@ -31,11 +31,213 @@ $$
   \,,
 $$
 
-where the sum is over all [[Feynman diagrams]] $\Gamma$ all whose vertices are labeled by $g S_{int} + jA $ (def. \ref{FeynmanDiagram}), and the summands are the corresponding [[renormalization|("re"-)normalized]] (def. \ref{ExtensionOfTimeOrderedProoductsRenormalization}) [[Feynman amplitudes]] (prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints}).
+where the series is over all [[Feynman diagrams]] $\Gamma$ all whose vertices are labeled by $g S_{int} + jA $ (def. \ref{FeynmanDiagram}), and the summands are the corresponding [[renormalization|("re"-)normalized]] (def. \ref{ExtensionOfTimeOrderedProoductsRenormalization}) [[Feynman amplitudes]] (prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints}).
 
-In this form the S-matrix is known as the _[[Feynman perturbation series]]_.
+Expressed in this form the S-matrix is known as the _[[Feynman perturbation series]]_.
 
 =--
+
++-- {: .num_defn #InPerturbationTheoryActionEffective}
+###### Definition
+**([[effective action]])**
+
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}, let $\mathcal{S}$ be an [[S-matrix]] scheme for [[perturbative QFT]] around this vacuum (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) and let
+
+$$
+  g S_{int} + j A 
+  \;\in\;
+  LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, h ] ]
+$$
+
+be a [[local observable]]. 
+
+Recall that for each [[Feynman diagram]] $\Gamma$ with all vertices labeled by $g S_{int} + j A$ (def. \ref{FeynmanDiagram}) the [[Feynman perturbation series]] for $\mathcal{S}(g S_{int} + j A)$ (example \ref{FeynmanPerturbationSeries}) 
+
+$$
+  \mathcal{S}(g S_{int} + j A)
+  \;=\;
+  \underset{\Gamma \in \mathcal{G}}{\sum}
+    \Gamma(g S_{int} + j A)
+$$
+
+contributes with a [[renormalization|("re"-)nromalized]] [[Feynman amplitude]] $\Gamma(g S_{int} + j A) \in PolyObs(E_{\text{BV-BRST}})((\hbar))[ [ g, j ] ]$.
+
+We say that the corresponding _[[effective action]]_ is $i \hbar$ times the [[vacuum expectation value]] of the sub-series
+
+$$
+  S_{eff}
+  \;\coloneqq\;
+  i \hbar
+  \underset{\Gamma \in \mathcal{G}_{conn}}{\sum}
+  \Gamma(g S_{int} + j A)
+  \;\in\;
+  PolyObs(E_{\text{BV-BRST}})((\hbar))[ [ g, j ] ]
+$$
+
+of [[Feynman amplitudes]] that are labeled only by the _[[connected graph|connected]]_ [[Feynman diagrams]] $\Gamma \in \mathcal{G}_{conn} \subset \mathcal{G}$.
+
+=--
+
+The terminology "effective action" is due to the following fact:
+
++-- {: .num_prop}
+###### Proposition
+**([[effective action]] is [[logarithm]] of [[S-matrix]])**
+
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}, let $\mathcal{S}$ be an [[S-matrix]] scheme for [[perturbative QFT]] around this vacuum (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) and let
+
+$$
+  g S_{int} + j A 
+  \;\in\;
+  LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, h ] ]
+$$
+
+be a [[local observable]] and let
+
+$$
+  S_{eff} \;\in\; PolyObs(E_{\text{BV-BRST}})((\hbar))[ [ g, j] ]
+$$
+
+be the corresponding [[effective action]] (def. \ref{InPerturbationTheoryActionEffective}).
+
+Then then [[S-matrix]] for $g S_{int} + j A$ is the [[exponential]] of the [[effective action]] with respect to the pointwise product $(-)\cdot (-)$ of observables ([this def.](A+first+idea+of+quantum+field+theory#Observable)): 
+
+$$
+  \begin{aligned}
+    \mathcal{S}(g S_{int} + j A)
+    & =
+    \exp_\cdot\left( \tfrac{1}{i \hbar} S_{eff}  \right)
+    \\
+    & \coloneqq
+    1 
+      + 
+    \frac{1}{i \hbar} S_{eff} 
+      + 
+    \frac{1}{(i \hbar)^2} S_{eff} \cdot S_{eff}
+      +
+    \frac{1}{(i \hbar)^3} S_{eff} \cdot S_{eff} \cdot S_{eff}
+      +
+    \cdots
+  \end{aligned}
+$$
+
+Moreover, this relation passes to the [[vacuum expectation values]]:
+
+$$
+  \left\langle 
+    \mathcal{S}(g S_{int} + j A)
+  \right\rangle
+  \;=\;
+  e^{\tfrac{1}{i \hbar} \langle S_{eff}\rangle}
+  \,.
+$$
+
+Conversely the [[vacuum expectation value]] of the [[effective action]] is to the [[logarithm]] of that of the S-matrix:
+
+$$
+  \left\langle 
+    S_{eff}
+  \right\rangle
+  \;=\;
+  i \hbar 
+  \, 
+  \ln 
+  \left\langle  
+    \mathcal{S}(g S_{int} + j A) 
+  \right\rangle
+  \,.
+$$
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{TimeOrderedProductAwayFromDiagonal} the contributions to the S-matrix away from coinciding interaction points are given by the [[star product]] iinduced by the [[Feynman propagator]], and specifically, by prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints}, the [[Feynman amplitudes]] are given this way. Now by definition of the star product ([this def.](star+product#PropagatorStarProduct)) it is given by first contracting with powers of the [[Feynman propagator]] and then multiplying all resulting terms with the pointwise product of observables. From this and the nature of the combinatorial factor in the definition of the [[Feynman amplitudes]] (prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints}) it is clear that for 
+
+$$
+  \Gamma = \Gamma_1 \sqcup \Gamma_2 \sqcup \cdots \sqcup \Gamma_n
+  \;\in\; \mathcal{G}
+$$
+
+a [[disjoint union]] of Feynman diagrams, then then corresponding [[Feynman amplitudes]] multiply by the pointwise product
+
+$$
+  \Gamma(g S_{int} + j A)
+  \;=\;
+  \Gamma_1(g S_{int} + j A)
+   \cdot
+  \Gamma_2(g S_{int} + j A)
+    \cdot
+    \cdots
+    \cdot
+  \Gamma_n(g S_{int} + j A)
+  \,.
+$$
+
+This implies that the summands in the $n$th powers of $\frac{1}{i \hbar}$ times the effective action are precisely the Feynman amplitudes of Feynman diagrams with $n$ [[connected components]], where each such appears with multiplicity given by the [[factorial]] of $n$:
+
+$$
+  \frac{1}{n!}
+  \left(
+    \frac{1}{i \hbar}
+    S_{eff}
+  \right)^n
+  \;=\;
+  \Gamma(g S_{int} + j A)
+  \underset{
+     { \Gamma = \underoverset{j = 1}{n}{\sqcup} \Gamma_j }
+     \atop
+     { \Gamma_j \in \mathcal{G}_{conn} }
+  }{\sum}
+  \,.
+$$
+
+It follows that
+
+$$
+  \begin{aligned}
+    \exp_\cdot\left( 
+      \frac{1}{i \hbar} S_{int}
+    \right)
+    & =
+    \underset{n \in \mathbb{N}}{\sum}
+    \underset{
+       { \Gamma = \underoverset{j = 1}{n}{\sqcup} \Gamma_j }
+       \atop
+       { \Gamma_j \in \mathcal{G}_{conn} }
+    }{\sum}
+    \Gamma(g S_{int} + j A)
+    \\
+    & =
+    \underset{\Gamma \in \mathcal{G}}{\sum}
+    \Gamma(g S_{int} + j A)
+  \end{aligned}
+$$
+
+yields the [[Feynman perturbation series]] by expressing it as a series organized by number of [[connected components]].
+
+To conclude the proof it is now sufficient to observe that taking [[vacuum expectation values]] of [[polynomial observables]] respects the pointwise product of observables 
+
+$$
+  \left\langle A_1 \cdot _2\right\rangle
+  \;=\;
+  \left\langle 
+    A_1
+  \right\rangle
+  \,
+  \left\langle
+    A_2
+  \right\rangle
+$$
+
+(since the [[Hadamard vacuum state]] $\langle -\rangle \colon PolyObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]  \to \mathbb{C}[ [\hbar, g, j ] ]$ simply picks the zero-order monomial term, by [this prop.](Wick+algebra#WickAlgebraCanonicalState)).
+
+
+=--
+
+
 
 +-- {: .num_prop #FeynmanDiagramLoopOrder}
 ###### Proposition
