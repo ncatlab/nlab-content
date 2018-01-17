@@ -1,4 +1,126 @@
 
+$\Updownarrow$
+
+$$
+  supp(A_1) {\vee\!\!\!\wedge} supp(A_2)
+$$
+
+$$
+  \begin{aligned}
+    (A_1)_{int}
+    (A_2)_{int}
+    & =
+    \left(
+      \frac{d}{d j} \mathcal{Z}(j A_1 )
+    \right)_{\vert j = 0}
+    \left(
+      \frac{d}{d j} \mathcal{Z}( j A_2 )
+    \right)_{\vert j = 0}
+    \\
+    & =
+    \frac{\partial^2}{\partial j_1 \partial j_2}
+    \left(
+      {\, \atop \,}
+      \mathcal{Z}( j_1 A_1 )
+      \mathcal{Z}( j_2 A_2 )
+      {\, \atop \,}
+    \right)_{ 
+       \left\vert { {j_1 = 0}, \atop {j_2 = 0} } \right. 
+    }
+    \\
+    & =
+    \frac{\partial^2}{\partial j_1 \partial j_2}
+    \left(
+      {\, \atop \,}
+      \mathcal{Z}( j_1 A_1 + j_2 A_2 )
+      {\, \atop \,}
+    \right)_{ 
+       \left\vert { {j_1 = 0}, \atop {j_2 = 0} } \right. 
+    }
+  \end{aligned}
+$$
+
+
+$$
+  supp(A_{out})
+   {\vee\!\!\!\wedge}
+  supp(S_{int})
+   {\vee\!\!\!\wedge}
+  supp(A_{in})
+  \,.
+$$
+
+
+$$
+  \begin{aligned}
+    (A_{out})_{int} (A_{in})_{int}
+    & =
+    \frac{d^2 }{d j_{out} d j_{in}}
+    \left(
+       \mathcal{Z}( j_{out} A_{out} )
+       \mathcal{Z}( j_{in} A_{in} )
+    \right)_{\left\vert { { j_{out} = 0 } \atop { j_{in} = 0 } }  \right.}
+    \\
+    & =
+    \frac{d^2 }{d j_{out} d j_{in}}
+    \left(
+       \mathcal{S}(g S_{int})^{-1} 
+       \underset{
+         = 
+         \mathcal{S}(j_{out} A_{out})
+         \mathcal{S}(g S_{int})
+       }{
+       \underbrace{
+         \mathcal{S}(g S_{int} + j_{out} A_{out})
+       }
+       }
+       \mathcal{S}(g S_{int})^{-1} 
+       \underset{
+         = \mathcal{S}(g S_{int}) \mathcal{S}(j_{in} A_{in})
+       }{
+       \underbrace{
+         \mathcal{S}(g S_{int} + j_{in}A_{in})
+       }
+       }
+    \right)_{\left\vert { { j_{out} = 0 } \atop { j_{in} = 0 } }  \right.}    
+    \\
+    & =
+    \frac{d^2 }{d j_{out} d j_{in}}
+    \left(
+       \mathcal{S}(g S_{int})^{-1} 
+       \mathcal{S}(j_{out} A_{out}) 
+       \underset{
+         = \mathcal{S}(g S_{int})
+       }{
+       \underbrace{
+         \mathcal{S}(g S_{int})
+         \mathcal{S}(g S_{int})^{-1} 
+         \mathcal{S}(g S_{int})
+       }
+       }
+       \mathcal{S}(j_{in} A_{in})
+    \right)_{\left\vert { { j_{out} = 0 } \atop { j_{in} = 0 } }  \right.}    
+    \\
+    \\
+    & =
+    \mathcal{S}(g S_{int})^{-1} 
+    \left(
+      A_{out}
+      \mathcal{S}(g S_{int})
+      A_{in}
+    \right)
+    \\
+    & =
+    \mathcal{S}(g S_{int})^{-1}
+    T\left(
+      \mathcal{S}(g S_{int}),
+      A_{out}, A_{in}
+    \right)
+  \end{aligned}
+$$
+
+
+
 +-- {: .num_example #FeynmanPerturbationSeries}
 ###### Example
 **([[Feynman perturbation series]])**
