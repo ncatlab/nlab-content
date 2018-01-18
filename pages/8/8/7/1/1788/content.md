@@ -1,56 +1,13 @@
 
 
-Pointers to the literature are given in each chapter, alongside the text. The following are a few selections of references.
+| | [[free field theory|free field]] [[algebra of quantum observables]]  | [[physics]] terminology | [[mathematics|maths]] terminology |
+|-|-|----------------------|--------------------------------|
+| 1) | [[supercommutative algebra|supercommutative product]] |  $\phantom{AA} :A_1 A_2:$ <br/> [[normal ordered product]] | $\phantom{AA} A_1 \cdot A_2$ <br/> pointwise product of functionals |
+| 2) | [[non-commutative algebra|non-commutative product]] <br/> ([[deformation quantization|deformation]] induced by [[Poisson bracket]]) |  $\phantom{AA} A_1 A_2$ <br/> [[operator product]]  | $\phantom{AA} A_1 \star_H A_2$ <br/> [[star product]] for [[Wightman propagator]]  |
+| 3) |  | $\phantom{AA} T(A_1 A_2)$ <br/> [[time-ordered product]] | $\phantom{AA} A_1 \star_F A_2$ <br/> [[star product]] for [[Feynman propagator]] |
+| | [[perturbative quantum field theory|perturbative expansion]] <br/> of 2) via 1) | [[Wick's lemma]] <br/> <img src="https://ncatlab.org/nlab/files/WickTheorem.png" width="350"/> | [[Moyal star product|Moyal product]] for [[Wightman propagator]] $\Delta_H$<br/> $ \begin{aligned} & A_1 \star_H A_2 = \\ & ((-)\cdot (-)) \circ \exp \left( \hbar \int (\Delta_H)^{ab}(x,y) \frac{\delta}{\delta \mathbf{\Phi}^a(x)} \otimes \frac{\delta}{\delta \mathbf{\Phi}^b(y)} \right)(A_1 \otimes A_2) \end{aligned}$ |
+| | [[perturbative quantum field theory|perturbative expansion]] <br/> of 3) via 1) | [[Feynman diagrams]] <br/> <img src="https://ncatlab.org/nlab/files/FeynmanDiagramGlobal.jpg" width="350"> | [[Moyal star product|Moyal product]] for [[Feynman propagator]] $\Delta_F$ <br/> $ \begin{aligned} & A_1 \star_F A_2 = \\ & ((-)\cdot (-)) \circ \exp \left( \hbar \int (\Delta_F)^{ab}(x,y) \frac{\delta}{\delta \mathbf{\Phi}^a(x)} \otimes \frac{\delta}{\delta \mathbf{\Phi}^b(y)} \right)(A_1 \otimes A_2) \end{aligned}$ |
 
-The discussion of [[spinors]] in chapter _[2. Spacetime](#Spacetime)_ follows [Baez-Huerta 09](spin+representation#BaezHuerta09)
-
-The [[functorial geometry]] of [[supergeometry|supergeometric]] [[spaces of field histories]] in _[3. Fields](#Fields)_ follows [Schreiber 13](higher+prequantum+geometry#Schreiber13). 
-
-For the [[jet bundle]]-formulation of [[variational calculus]] of [[Lagrangian field theory]] in _[4. Field variations](#FieldVariations)_, and _[5. Lagrangians](#Lagrangians)_ we follow [Anderson 89](variational+bicomplex#Anderson89) and [Olver 86](#Olver86). For _[6. Symmetries](#Symmetries)_ augmented by [Fioreza-Rogers-Schreiber 13b](#higher+prequantum+geometry#FRS13b).
-
-The discussion of [[wave front sets]] of [[propagators]] in _[9. Propagators](#Propagators)_ takes clues from [Radzikowski 96](Hadamard+distribution#Radzikowski96) and uses results from [Gelfand-Shilov 66](Cauchy+principal+value#GelfandShilov66).
-
-The discussion of the [[Peierls-Poisson bracket]] in _[8. Phase space](#PhaseSpace)_ is based on [Khavkine 14](Peierls+bracket#Khavkine14).
-
-For the general idea of [[BV-BRST formalism]] a good review is [Henneaux 90](BV-BRST+formalism#Henneaux90).
-
-For the [[Lie algebroid]]-perspective on [[BRST complexes]] developed in chapter _[10. Gauge symmetries](#GaugeSymmetries)_, compare to [Barnich 10](BRST+complex#Barnich10).
-
-For the [[local BV-BRST complexes|local BV-BRST theory]] laid out in chapter _[11. Reduced phase space](#ReducedPhaseSpace)_ we are following [Barnich-Brandt-Henneaux 00](local+BRST+cohomology#BarnichBrandtHenneaux00).
-
-For the [[gauge fixing|BV-gauge fixing]] developed in _[12. Gauge fixing](#GaugeFixing)_ we take clues from [Fredenhagen-Rejzner 11a](BV-BRST formalism#FredenhagenRejzner11a).
-
-For the free quantum [[BV-operators]] in _[13. Free quantum fields](#FreeQuantumFields)_ and the interacting [[quantum master equation]] in [15. Interacting quantum fields](#QuantumObservables) we are following [Fredenhagen-Rejzner 11b](BV-BRST+formalism#FredenhagenRejzner11b), [Rejzner 11](BV-BRST+formalism#Rejzner11), which in turn is taking clues from [Hollands 07](BV-BRST+formalism#Hollands07).
-
-The discussion of [[quantization]] in _[13. Quantization](#Quantization)_ takes clues from [Hawkins 04](geometric+quantization+of+symplectic+groupoids#EH), [Collini 16](star+product#Collini16) and spells out the computation due to [Gracia-Bondia & Varilly 94](Moyal+deformation+quantization#GBV).
-
-The perspective on the [[Wick algebra]] in [14. Free quantum fields](#FreeQuantumFields) goes back to [Dito 90](Wick+algebra#Dito90) and was revived for [[pAQFT]] in [Dütsch-Fredenhagen 00](Wick+algebra#DuetschFredenhagen00). The proof of the folklore result that the perturbative [[Hadamard vacuum state|Hadamard vacuum state]] on the [[Wick algebra]] is indeed a [[state on a star-algebra|state]] is cited from  [Dütsch 18](Wick#algebra#Duetsch18)
-
-The discussion of [[causal perturbation theory]] in [15. Scattering](#Scattering) follows the original [Epstein-Glaser 73](causal+perturbation+theory#EpsteinGlaser73). The relevance of [[star products]] here is highlighted in ([Fredenhagen-Rejzner 12](perturbative+algebraic+quantum+field+theory#FredenhagenRejzner12), [Fredenhagen-Rejzner 15](perturbative+algebraic+quantum+field+theory#FredenhagenRejzner15)).
-
-
-**References**
- {#References}
-
-Pointers to the literature are given in each chapter, alongside the text. The following are a few selections of references.
-
-The discussion of [[spinors]] in the magic [[spacetime]] dimensions follows [Baez-Huerta 09](spin+representation#BaezHuerta09)
-
-For the [[jet bundle]]-formulation of [[variational calculus]] of [[Lagrangian field theory]] we follow [Anderson 89](variational+bicomplex#Anderson89) and [Olver 86](#Olver86).
-
-The [[functorial geometry]] of [[supergeometry|supergeometric]] [[spaces of field histories]] follows [Schreiber 13](higher+prequantum+geometry#Schreiber13)
-
-For the discussion of the [[Peierls-Poisson bracket]] we follow [Khavkine 14](Peierls+bracket#Khavkine14)
-
-For the general idea of [[BV-BRST formalism]] a good review is [Henneaux 90](BV-BRST+formalism#Henneaux90).
-
-For the [[Lie-algebroid]]-perspective on [[BRST-complexes]] developed in chapter _[10. Gauge symmetries](#GaugeSymmetries)_, compare to [Barnich 10](BRST+complex#Barnich10).
-
-For the [[local BV-BRST complexes|local BV-BRST theory]] laid out in chapter _[11. Reduced phase space](#ReducedPhaseSpace)_ we are following [Barnich-Brandt-Henneaux 00](local+BRST+cohomology#BarnichBrandtHenneaux00).
-
-For the [[gauge fixing|BV-gauge fixing]] developed in _[12. Gauge fixing](#GaugeFixing)_ we take clues from [Fredenhagen-Rejzner 11a](BV-BRST formalism#FredenhagenRejzner11a).
-
-For the free quantum [[BV operators]] in _[13. Free quantum fields](#FreeQuantumFields)_ and the interacting [[quantum master equation]] in [15. Interacting quantum fields](#QuantumObservables) we are following [Fredenhagen-Rejzner 11b](BV-BRST+formalism#FredenhagenRejzner11b), [Rejzner 11](BV-BRST+formalism#Rejzner11), which in turn is taking clues from [Hollands 07](BV-BRST+formalism#Hollands07).
 
 
 $$
