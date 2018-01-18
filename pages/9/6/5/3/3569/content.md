@@ -19,7 +19,7 @@
 
 ## Idea
 
-Just as an ordinary [[topos]] comes with its [[internal logic]] formalized by [[type theory]], an [[(∞,1)-topos]] should come with its _internal "$(\infty,1)$-logic"_ formalized by [[homotopy type theory]].
+Just as an ordinary [[elementary topos]] comes with its [[internal logic]] formalized by [[type theory]], an [[elementary (∞,1)-topos]] should come with its _internal "$(\infty,1)$-logic"_ formalized by [[homotopy type theory]].
 
 
 ## Type theory versus logic
@@ -122,4 +122,9 @@ Now...
 
 * **internal logic in an $(\infty,1)$-topos**, [[homotopy type theory]]
 
+## References
+
+* [[Chris Kapulkin]], _Internal Languages of Higher Categories_, [blog post](https://golem.ph.utexas.edu/category/2015/07/internal_languages_of_higher_c.html)
+
+* [[Chris Kapulkin]], _Internal Languages of Higher Categories II_, [blog post](https://golem.ph.utexas.edu/category/2017/11/internal_languages_of_higher_c_1.html)
 [[!redirects internal logic of an (∞,1)-topos]]
