@@ -385,7 +385,7 @@ $$
   \right)
 $$
 
-for the corresponding [[Wick algebra]]-[[structure]] on [[formal power series]] in $\hbar$ ([[Planck's constant]]) of [[microcausal polynomial observables]]. This is a [[star algebra]] with respect to ([[coefficient]]-wise) [[complex conjugation]]. 
+for the corresponding [[Wick algebra]]-[[structure]] on [[formal power series]] in $\hbar$ ([[Planck's constant]]) of [[microcausal polynomial observables]]. This is a [[star algebra]] with respect to ([[coefficient]]-wise) [[complex conjugation]].
 
 Write
 
@@ -412,7 +412,7 @@ $$
 Given any [[microcausal polynomial observable]] $A \in PolyObs(E_{\text{BV-BRST}})_{mc}[ [ \hbar, g, j] ]$ then its value in this state is called its _free [[vacuum expectation value]]_
 
 $$
-  \left\langle 
+  \left\langle
     A
   \right\rangle
   \;\in\;
@@ -451,7 +451,7 @@ $$
 $$
 
 Finally, for $A \in LocObs(E_{\text{BV-BRST}})$ we write $supp(A) \subset \Sigma$ for its spacetime support ([this def.](A+first+idea+of+quantum+field+theory#SpacetimeSupport)).
-For $S_1, S_2 \subset \Sigma$ two [[subsets]] of [[spacetime]] we write 
+For $S_1, S_2 \subset \Sigma$ two [[subsets]] of [[spacetime]] we write
 
 $$
   S_1 {\vee\!\!\!\wedge} S_2
@@ -465,7 +465,7 @@ $$
       "S_2 \, \text{does not intersect the future of} \, S_1"
     }
   \right.
-$$ 
+$$
 
 for the  [[causal ordering]]-[[relation]].
 
@@ -528,7 +528,7 @@ such that the following two conditions "perturbation" and "causal additivity (jo
         T_1(A) = :A:
       $$
 
-   1. The perturbative S-matrix is the [[exponential series]] of these maps in that for 
+   1. The perturbative S-matrix is the [[exponential series]] of these maps in that for
       all $S_{int}, A  \in LocObs(E_{\text{BV-BRST}})[ [\hbar] ] $
 
       $$
@@ -681,7 +681,7 @@ $$
 ###### Proposition
 **([[causal additivity]] in terms of [[generating functions]])**
 
-In terms of the [[generating functions]] $\mathcal{Z}$ (def. \ref{spring}) the axiom "causal additivity" 
+In terms of the [[generating functions]] $\mathcal{Z}$ (def. \ref{SchemeGeneratingFunction}) the axiom "causal additivity"
 on the [[S-matrix]] scheme $\mathcal{S}$ (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) is equivalent to
 
 * ([[causal additivity]] in terms of $\mathcal{Z}$)
@@ -733,7 +733,7 @@ $$
     \mathcal{Z}_{g S_{int}}(j A_1 + j A_2)
   }{
   \underbrace{
-    \mathcal{S}(g S_{int})^{-1} 
+    \mathcal{S}(g S_{int})^{-1}
     \mathcal{S}(g S_{int} + j A_1 + j A_2)
   }
   }
@@ -749,7 +749,7 @@ $$
     \mathcal{Z}_{g S_{int}}(j A_2)
   }{
   \underbrace{
-    \mathcal{S}(g S_{int})^{-1} \mathcal{S}(g S_{int} + j A_2) 
+    \mathcal{S}(g S_{int})^{-1} \mathcal{S}(g S_{int} + j A_2)
   }
   }
 $$
@@ -807,12 +807,12 @@ $$
     i \hbar \frac{d}{d j}
     \left(
       {\, \atop \,}
-      \mathcal{Z}_{S_{int}}( j A ) 
+      \mathcal{Z}_{S_{int}}( j A )
       {\, \atop \,}
     \right)_{\vert_{j = 0}}
     \\
     & \coloneqq
-    i \hbar \frac{d}{d j} 
+    i \hbar \frac{d}{d j}
     \left(
       {\, \atop \,}
       \mathcal{S}(S_{int})^{-1} \, \mathcal{S}( S_{int} + j A )
@@ -831,7 +831,7 @@ $$
 This expression is called _[[Bogoliubov's formula]]_, due to ([Bogoliubov-Shirkov 59](#BogoliubovShirkov59)).
 The assignment $A \mapsto A_{int}$ is also called the _[[quantum Møller operator]]_ ([Hawkins-Rejzner 16](perturbative+algebraic+quantum+field+theory#HawkinsRejzner16)).
 
-One thinks of $A_{int}$ as the [[deformation]] of the observable $A$ as the [[interaction]] $S_{int}$ is turned on; and speaks of an element of the _[[interacting field algebra of observables]]_. Their value ("[[expectation value]]") in the given free [[Hadamard vacuum state]] 
+One thinks of $A_{int}$ as the [[deformation]] of the observable $A$ as the [[interaction]] $S_{int}$ is turned on; and speaks of an element of the _[[interacting field algebra of observables]]_. Their value ("[[expectation value]]") in the given free [[Hadamard vacuum state]]
 $\langle  -\rangle$ (def. \ref{VacuumFree}) is a [[formal power series]] in [[Planck's constant]] $\hbar$ and in the [[coupling constant]] $g$, with [[coefficients]] in the [[complex numbers]]
 
 $$
@@ -852,7 +852,7 @@ which express the [[probability amplitudes]] that reflect the predictions of the
 ###### Remark
 **([[interacting field observables]] are [[formal deformation quantization]])**
 
-The [[interacting field observables]] in def. \ref{InteractingFieldObservables} are indeed [[formal power series]] in the formal parameter $\hbar$ ([[Planck's constant]]), as opposed to being more general [[Laurent series]], hence they involve no [[negative number|negative]] powers of $\hbar$ ([Dütsch-Fredenhagen 00, prop. 2 (ii)](interacting+field+observable#DuetschFredenhagen00), [Hawkins-Rejzner 16, cor. 5.2](interacting+field+observable#HawkinsRejzner16)).  This is not immediate, since by def. \ref{LagrangianFieldTheoryPerturbativeScattering} the [[S-matrix]] that they are defined from does involve negative powers of $\hbar$. 
+The [[interacting field observables]] in def. \ref{InteractingFieldObservables} are indeed [[formal power series]] in the formal parameter $\hbar$ ([[Planck's constant]]), as opposed to being more general [[Laurent series]], hence they involve no [[negative number|negative]] powers of $\hbar$ ([Dütsch-Fredenhagen 00, prop. 2 (ii)](interacting+field+observable#DuetschFredenhagen00), [Hawkins-Rejzner 16, cor. 5.2](interacting+field+observable#HawkinsRejzner16)).  This is not immediate, since by def. \ref{LagrangianFieldTheoryPerturbativeScattering} the [[S-matrix]] that they are defined from does involve negative powers of $\hbar$.
 
 It follows in particular that the [[interacting field observables]] have a [[classical limit]] $\hbar \to 0$. Indeed they constitute a [[formal deformation quantization]] of the interacting [[Peierls-Poisson bracket]] ([Collini 16](interacting+field+algebra+of+observables#Collini16), [Hawkins-Rejzner 16](interacting+field+algebra+of+observables#HawkinsRejzner16)).
 
@@ -894,7 +894,7 @@ In physical practice one tries to interpret these non-converging [[formal power 
 actual but hypothetical functions in $\hbar, g$, which reflect the actual but hypothetical _[[non-perturbative quantum field theory]]_
 that one imagines is being approximated by [[perturbative QFT]] methods. An _[[asymptotic expansion]]_ of a function is a [[power series]] which may no converge, but which has for every $n \in \mathbb{N}$ an estimate for how far the [[sum]] of the first $n$ terms in the series may differ from the function being approximated.
 
-For examples such as [[quantum electrodynamics]] and [[quantum chromodynamics]], as in the [[standard model of particle physics]], the truncation of these [[formal power series]] [[scattering amplitudes]] to the first handful of [[loop orders]] in $\hbar$ happens to agree with [[experiment]] (such as at the [[LHC]] collider) to high precision (for [[QED]]) or at least decent precision (for [[QCD]]), at least away from infrared phenomena (see remark \ref{AdiabaticLimit}). 
+For examples such as [[quantum electrodynamics]] and [[quantum chromodynamics]], as in the [[standard model of particle physics]], the truncation of these [[formal power series]] [[scattering amplitudes]] to the first handful of [[loop orders]] in $\hbar$ happens to agree with [[experiment]] (such as at the [[LHC]] collider) to high precision (for [[QED]]) or at least decent precision (for [[QCD]]), at least away from infrared phenomena (see remark \ref{AdiabaticLimit}).
 
 In summary this says that [[perturbative QFT]] is an extremely _coarse_ and restrictive approximation to what should be genuine [[non-perturbative quantum field theory]], while at the same time it happens to match certain experimental observations to remarkable degree, albeit only if some ad-hoc truncation of the resulting power series is considered.
 
@@ -1294,8 +1294,8 @@ are not _really_ supposed to vanish outside a compact region of spacetime. In or
 
   The strong and weak adiabatic limits have been shown to exist if all [[field (physics)|fields]] are [[mass|massive]] ([Epstein-Glaser 73](#EpsteinGlaser73)). The weak adiabatic limit has been shown to exists for [[quantum electrodynamics]] and for [[mass]]-less [[phi^4 theory]] ([Blanchard-Seneor 75](adiabatic+switching#BlanchardSeneor75)) and for larger classes of field theories in ([Duch 17, p. 113, 114](adiabatic+switching#Duch17)).
 
-  If these limits do not exist, one says that the [[perturbative QFT]] has an _[[infrared divergence]]_. 
-  
+  If these limits do not exist, one says that the [[perturbative QFT]] has an _[[infrared divergence]]_.
+
 * ([[algebraic adiabatic limit]]) On the other hand, it is equally unrealistic that an actual [[experiment]] _detects_ phenomena outside a given compact subset of spacetime. Realistic scattering [[experiments]] (such as the [[LHC]]) do not really prepare or measure [[plane waves]] filling all of [[spacetime]] as described by the [[scattering amplitudes]] (eq:ScatteringPlaneWaves). Any [[observable]] that is realistically measurable must have compact spacetime support. We see below in prop. \ref{WellDefinedInteractingFieldAlgebra} that such [[interacting field observables]] with compact spacetime support may be computed without taking the [[adiabatic limit]]: It is sufficient to use any [[adiabatic switching]] which is constant on the support of the observable.
 
   This way one obtains for each [[causally closed subset]] $\mathcal{O}$ of spacetime an  algebra of observables $\mathcal{A}_{int}(\mathcal{O})$ whose support is in $\mathcal{O}$, and for each inclusion of subsets a corresponding inclusion of algebras of observables (prop. \ref{PerturbativeQuantumObservablesIsLocalnet} below). Of this system of observables one may form the [[category theory|category-theoretic]] [[inductive limit]] to obtain a single global algebra of observables.
@@ -1326,7 +1326,7 @@ It is expected that this should be rectified by the proper [[interacting vacuum]
 
 =--
 
-In contrast to the above subtleties about the [[infrared divergences]], any would-be [[UV-divergences]] in [[perturbative QFT]] are 
+In contrast to the above subtleties about the [[infrared divergences]], any would-be [[UV-divergences]] in [[perturbative QFT]] are
 dealt with by [[causal perturbation theory]]:
 
 
@@ -1334,7 +1334,7 @@ dealt with by [[causal perturbation theory]]:
 ###### Remark
 **(the traditional error leading to [[UV-divergences]])**
 
-Naively it might seem that (say over [[Minkowski spacetime]], for simplicity) 
+Naively it might seem that (say over [[Minkowski spacetime]], for simplicity)
 examples of [[time-ordered products]] according to def. \ref{TimeOrderedProduct}
 might simply be obtained by multiplying [[Wick algebra]]-products with [[step functions]] $\Theta$ of the time coordinates, hence to write, in the notation as [[generalized functions]] (remark \ref{NotationForTimeOrderedProductsAsGeneralizedFunctions}):
 
@@ -1348,7 +1348,7 @@ $$
 
 and analogously for time-ordered products of more arguments (for instance [Weinberg 95, p. 143, between (3.5.9) and (3.5.10)](#Weinberg95)).
 
-This however is simply a mathematical error (as amplified in [Scharf 95, below (3.2.4), below (3.2.44) and in fig. 3](causal+perturbation+theory#Scharf95)): 
+This however is simply a mathematical error (as amplified in [Scharf 95, below (3.2.4), below (3.2.44) and in fig. 3](causal+perturbation+theory#Scharf95)):
 
 Both $T$ as well as $\Theta$ are [[distributions]] and their [[product of distributions]] is in general not defined ([[Hörmander's criterion]] may be violated). The notorious [[ultraviolet divergences]] which plagued ([Feynman 85](Schwinger-Tomonaga-Feynman-Dyson#Feynman85SuchABunchOfWords)) the original conception of [[perturbative QFT]] due to [[Schwinger-Tomonaga-Feynman-Dyson]] are the signature of this ill-defined product (see remark \ref{CausalPerturbationTheoryAbsenceOfUVDivergences}).
 
@@ -1802,7 +1802,7 @@ $$
     {\, \atop \,}
   \right)^{-1}
   \;=\;
-  \underset{k \in \mathbb{N}}{\sum} 
+  \underset{k \in \mathbb{N}}{\sum}
     \frac{1}{k!}
     \left(
       \frac{1}{i \hbar}
@@ -1816,10 +1816,10 @@ $$
 +-- {: .proof}
 ###### Proof
 
-For brevity we write just "$A$" for $\tfrac{1}{i \hbar}(g S_{int} + j A)$. 
+For brevity we write just "$A$" for $\tfrac{1}{i \hbar}(g S_{int} + j A)$.
 (Hence we assume without restriction that $A$ is not independent of
 powers of $g$ and $j$; this is just for making all sums in the following be order-wise finite sums.)
- 
+
 By definition we have
 
 $$
@@ -2085,8 +2085,8 @@ $$
   \begin{aligned}
     \mathcal{S}(-)
     & \coloneqq
-    T 
-    \left( 
+    T
+    \left(
       \exp_\otimes
       \left(
         \tfrac{1}{i \hbar}(-)
@@ -2094,8 +2094,8 @@ $$
     \right)
     \\
     &
-    \coloneqq 
-    \underset{k \in \mathbb{N}}{\sum} 
+    \coloneqq
+    \underset{k \in \mathbb{N}}{\sum}
     \tfrac{1}{k!}
     \tfrac{1}{(i \hbar)^k}  T( \underset{k \, \text{factors}}{\underbrace{-,  \cdots , -}} )
   \end{aligned}
@@ -2129,9 +2129,9 @@ $$
   \underoverset{n,m = 0}{\infty}{\sum}
    \frac{1}{n! m!}
    R\left(
-      {\, \atop \,}  
-      \underset{n\, \text{factors}}{\underbrace{g S_{int},  \cdots ,g S_{int}}},  
-      ( \underset{m \, \text{factors}}{ \underbrace{ j A ,  \cdots , j A } }  ) 
+      {\, \atop \,}
+      \underset{n\, \text{factors}}{\underbrace{g S_{int},  \cdots ,g S_{int}}},
+      ( \underset{m \, \text{factors}}{ \underbrace{ j A ,  \cdots , j A } }  )
       {\, \atop \,}
    \right)
 $$
@@ -2161,8 +2161,8 @@ $\mathbf{Y}$ is in the [[causal past]] of $\mathbf{X}$. This will imply the clai
 multi-linearity of $R(-,-)$ it then follows that
 
 $$
-  \left(supp(A_1) {\vee\!\!\!\wedge} supp(A_2)\right) 
-  \Rightarrow 
+  \left(supp(A_1) {\vee\!\!\!\wedge} supp(A_2)\right)
+  \Rightarrow
   \left( Z_{(g S_{int}  + j A_1)}(j A_2) = Z_{S_{int}}(A_2) \right)
 $$
 
@@ -2251,13 +2251,13 @@ For $k \in \mathbb{N}$, write
 $$
   \left(
     {\, \atop \,}
-    LocPoly(E_{\text{BV-BRST}})[ [ \hbar, g, j ] ] 
+    LocPoly(E_{\text{BV-BRST}})[ [ \hbar, g, j ] ]
     {\, \atop \,}
   \right)^{\otimes^k_{\mathbb{C}[ [\hbar, g, j ] ]}}_{pds}
   \hookrightarrow
   \left(
     {\, \atop \,}
-    LocPoly(E_{\text{BV-BRST}})[ [ \hbar, g, j ] ] 
+    LocPoly(E_{\text{BV-BRST}})[ [ \hbar, g, j ] ]
     {\, \atop \,}
   \right)^{\otimes^k_{\mathbb{C}[ [\hbar, g, j ] ]}}
 $$
@@ -2299,7 +2299,7 @@ $$
   }
 $$
 
-Then their [[restriction]] to the subspace of [[tuples]] of [[local observables]] of pairwise disjoint spacetime support (def. \ref{TuplesOfCompactlySupportedPolynomialLocalFunctionalsWithPairwiseDisjointSupport}) is unique (independent of the [[renormalization|"re-"normalization]] freedom in choosing $T$) and is given by the [[star product]] 
+Then their [[restriction]] to the subspace of [[tuples]] of [[local observables]] of pairwise disjoint spacetime support (def. \ref{TuplesOfCompactlySupportedPolynomialLocalFunctionalsWithPairwiseDisjointSupport}) is unique (independent of the [[renormalization|"re-"normalization]] freedom in choosing $T$) and is given by the [[star product]]
 
 $$
   A_1 \star_{F} A_2
@@ -2315,7 +2315,7 @@ $$
      \frac{\delta}{\delta \mathbf{\Phi}^b(y)}
      \,
      dvol_\Sigma(x)\, dvol_\Sigma(y)
-   \right)   
+   \right)
   \right)
   (A_1 \otimes A_2)
 $$
@@ -2326,14 +2326,14 @@ $$
   T
   \left(
     {\, \atop \,}
-    A_1 , \cdots, A_k 
+    A_1 , \cdots, A_k
     {\, \atop \,}
   \right)
   \;=\;
   A_1
-    \star_F 
-    \cdots 
-    \star_F 
+    \star_F
+    \cdots
+    \star_F
   A_k
   \,.
 $$
@@ -2345,7 +2345,7 @@ $$
   \begin{aligned}
     T(A_1, \cdots, A_{k_n})
     & =
-    T(A_1, \cdots, A_{k_1}) 
+    T(A_1, \cdots, A_{k_1})
       \star_F
     T(A_{k_1 + 1}, \cdots, A_{k_2})
       \star_F
@@ -2369,7 +2369,7 @@ The idea of this statement goes back at least to [Epstein-Glaser 73](#EpsteinGla
 
 By [[induction]] over the number of arguments, it is sufficient to see that, more generally, for $A_1, A_2 \in PolyObs(E_{\text{BV-BRST}})_{mc}[ [ \hbar, g, j] ]$ two [[microcausal polynomial observables]] with disjoint spacetime support the star product $A_1 \star_F A_2$ is well-defined and satisfies causal factorization.
 
-Consider two [[partitions of unity]] 
+Consider two [[partitions of unity]]
 
 $$
   (\chi_{1,i} \in C^\infty_{cp}(\Sigma))_{i}
@@ -2450,7 +2450,7 @@ Finally the [[associativity]]-statement follows as in [this prop.](star+product#
 
 Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}.
 
-Prop. \ref{TimeOrderedProductAwayFromDiagonal} implies that the 
+Prop. \ref{TimeOrderedProductAwayFromDiagonal} implies that the
 problem of constructing a sequence of [[time-ordered products]] (def. \ref{TimeOrderedProduct}), hence, by prop. \ref{TimeOrderedProductInducesPerturbativeSMatrix}, an [[S-matrix]] scheme (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) for [[perturbative quantum field theory]] around the given [[free field]] [[vacuum]], is equivalently a problem of a sequence of compatible _[[extensions of distributions]]_ of the [[star products]] $\underset{k \; \text{arguments}}{\underbrace{(-)\star_F \cdots \star_F (-)}}$ of the [[Feynman propagator]] on $k$ arguments from the [[complement]] of coinciding [[events]] inside the [[Cartesian products]] $\Sigma^k$ of [[spacetime]] $\Sigma$, along the canonical inclusion
 
 $$
@@ -2483,7 +2483,7 @@ Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field the
    $$
      Z
      \;\colon\;
-     LocObs(E_{\text{BV-BRST}})[ [ \hbar, g ] ] 
+     LocObs(E_{\text{BV-BRST}})[ [ \hbar, g ] ]
        \longrightarrow
      LocObs(E_{\text{BV-BRST}})[ [ \hbar, h ] ]
    $$
@@ -2495,7 +2495,7 @@ Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field the
      \,.
    $$
 
-1. The [[group]] of transformations $Z$ arising this is the _[[Stückelberg-Petermann renormalization group]]_. 
+1. The [[group]] of transformations $Z$ arising this is the _[[Stückelberg-Petermann renormalization group]]_.
 
 > add assumption on Poincare invariance needed
 
@@ -2511,39 +2511,52 @@ $\,$
  {#FeynmanDiagrams}
 
 
-By def \ref{ExtensionOfTimeOrderedProoductsRenormalization} and the [[main theorem of perturbative renormalization]] (theorem \ref{PerturbativeRenormalizationMainTheorem}), the construction of perturbative [[S-matrix]] schemes/[[time-ordered products]] may be phrased as [[renormalization|("re-")normalization]] of the [[star product]] induced by the [[Feynman propagator]], namely as a choice of [[extension of distributions]] of the this star-product to the locus of coinciding interaction points. Since the [[star product]] is the [[exponential]] of the binary contraction with the [[Feynman propagator]], it is naturally expanded as a [[sum]] of [[products of distributions]] labeled by [[graphs]], where each [[edge]] labels one of the contractions. These graphs are called _[[Feynman diagrams]]_ (def. \ref{FeynmanDiagram} below) and the [[products of distributions]] which they encode are called _[[Feynman amplitudes]]_ built by the _[[Feynman rules]]_ (prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints} below). 
+By def \ref{ExtensionOfTimeOrderedProoductsRenormalization} and the [[main theorem of perturbative renormalization]] (theorem \ref{PerturbativeRenormalizationMainTheorem}), the construction of perturbative [[S-matrix]] schemes/[[time-ordered products]] may be phrased as [[renormalization|("re-")normalization]] of the [[star product]] induced by the [[Feynman propagator]], namely as a choice of [[extension of distributions]] of the this star-product to the locus of coinciding interaction points. Since the [[star product]] is the [[exponential]] of the binary contraction with the [[Feynman propagator]], it is naturally expanded as a [[sum]] of [[products of distributions]] labeled by [[graphs]], where each [[edge]] labels one of the contractions. These graphs are called _[[Feynman diagrams]]_ (def. \ref{FeynmanDiagram} below) and the [[products of distributions]] which they encode are called _[[Feynman amplitudes]]_ built by the _[[Feynman rules]]_ (prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints} below).
 
 The choice of [[renormalization|("re"-)normalization]] of the [[time-ordered products]]/[[S-matrix]] is thus equivalently the choice of [[renormalization|("re"-)normalization]] of all possible [[Feynman amplitudes]].
 
-The expansion by [[Feynman diagrams]] makes the perturbative [[S-matrix]] equivalently be a [[formal power series]] with [[coefficients]] given by [[Feynman amplitudes]], and as such it is known as the _[[Feynman perturbation series]]_ (example \ref{FeynmanPerturbationSeries} below). 
+The expansion by [[Feynman diagrams]] makes the perturbative [[S-matrix]] equivalently be a [[formal power series]] with [[coefficients]] given by [[Feynman amplitudes]], and as such it is known as the _[[Feynman perturbation series]]_ (example \ref{FeynmanPerturbationSeries} below).
 
-+-- {: .num_defn #FeynmanDiagram}
++-- {: .num_defn #Graphs}
 ###### Definition
-**([[Feynman diagram]])**
+**([[finite graph|finite]] [[multigraphs]])**
 
-Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}.
+A _[[finite graph|finite]] [[multigraph]]_ is
 
-A _[[Feynman diagram]]_ $\Gamma$ is
+1. a [[finite set]] $V$ ("of [[vertices]]");
 
-1. a [[natural number]] $v \in \mathcal{N}$ (number of [[vertices]]);
+1. a [[finite set]] $E$ ("of [[edges]]");
 
-1. a $v$-[[tuple]] of [[local observables]]
+1. a [[function]] $E \overset{p}{\to} \left\{ {\,\atop \,} \{v_1, v_2\} = \{v_2, v_1\} \;\vert\; v_1, v_2 \in V \,,\; v_1 \neq v_2 {\, \atop \,} \right\}$
+
+   (sending any [[edge]] to the unordered pair of distinct [[vertices]] that it goes between).
+
+Hence the [[isomorphism class]] of a [[finite multigraph]] is specified by
+
+1. a [[natural number]] 
 
    $$
-     (V_r \in LocObs(E_{\text{BV-BRST}}) \langle g,j\rangle)_{r \in \{1, \cdots, v\}}
+     v \coloneqq {\vert V\vert} \in \mathbb{N}
    $$ 
+   
+   (the number of [[vertices]]);
 
-   (called "[[interaction]] vertices" if proportional to $g$ and "external [[source field]] vertices" if proportional to $j$)
+1. for each $i \lt j \in \{1, \cdots, v\}$ a natural number 
 
-1. for each $a \lt b \in \{1, \cdots, v\}$ a [[natural number]] $e_{a,b} \in \mathbb{N}$ ("of [[edges]] from the $a$th to the $b$th vertex").
+   $$
+     e_{i,j} \coloneqq {\vert p^{-1}(\{v_i,v_j\})\vert} \in \mathbb{N}
+   $$ 
+   
+   (the number of [[edges]] between the $i$th and the $j$th vertex).
 
-For a given [[tuple]] $(V_j)$ of interaction vertices we write
+We write $\mathcal{G}_v$ for the set of such [[isomorphism classes]] of finite multigraphs with ${\vert V \vert} = v$ vertices;
+and we write
 
 $$
-  \mathcal{G}_{(V_j)}
+  \mathcal{G} \;\coloneqq\; \underset{v \in \mathbb{N}}{\sqcup} \mathcal{G}_v
 $$
 
-for the set of Feynman diagrams with that tuple of vertices.
+for the set of [[isomorphism classes]] of finite multigraphs with any number of vertices.
 
 =--
 
@@ -2567,7 +2580,7 @@ $$
   PolyObs(E_{\text{BV-BRST}})_{reg}((\hbar))[ [g , j] ]
 $$
 
-is equal to the following [[formal power series]] labeled by [[Feynman diagrams]] $\Gamma \in \mathcal{G}_v$ (def. \ref{FeynmanDiagram}) with $v$ [[vertices]]:
+is equal to the following [[formal power series]] labeled by [[finite multigraphs]] $\Gamma \in \mathcal{G}_v$ (def. \ref{Graphs}) with $v$ [[vertices]]:
 
 $$
   \label{FeynmanAmplitudeExpansionOfTimeOrderedProductAwayFromDiagonal}
@@ -2575,11 +2588,11 @@ $$
     & T_v(V_1, \cdots ,V_v)
     \\
     & =
-    \underset{\Gamma \in \mathcal{G}_{(V_j)_{j = 1}^{v}}}{\sum}
-     \Gamma(V_i)_{i = 1}^v
+    \underset{\Gamma \in \mathcal{G}_v}{\sum}
+     \Gamma\left((V_i)_{i = 1}^v\right)
     \\
     & \coloneqq
-    \underset{\Gamma \in \mathcal{G}_{(V_i)_{i = 1}^{v}}}{\sum}
+    \underset{ \Gamma \in \mathcal{G}_v }{\sum}
     prod
     \circ
     \underset{ r \lt s \in \{1, \cdots, v\} }{\prod}
@@ -2588,38 +2601,38 @@ $$
       (\Delta_{F})^{e_{r,s}}
       ,
       \frac{\delta^{e_{r,s}}}{\delta \mathbf{\Phi}_r^{e_{r,s}}}
-      \frac{\delta^{e_{r,s}}}{\delta \mathbf{\Phi}_s^{e_{r,s}}} 
+      \frac{\delta^{e_{r,s}}}{\delta \mathbf{\Phi}_s^{e_{r,s}}}
     \right\rangle
     \left(
       V_1 \otimes \cdots \otimes V_{v}
     \right)
     \\
     & \coloneqq
-    \underset{\Gamma \in \mathcal{G}_{(V_i)_{i = 1}^{v}}}{\sum}
+    \underset{ \Gamma \in \mathcal{G}_v  }{\sum}
     ((-) \cdot \cdots \cdot (-))
     \circ
     \underset{ r \lt s \in \{1, \cdots, v\} }{\prod}
     \frac{\hbar^{e_{r,s}}}{e_{r,s}!}
     \\
-    & 
+    &
     \phantom{AAA}
       \underset{i = 1, \cdots e_{r,s}}{\prod}
         \underset{\Sigma \times \Sigma}{\int}
-         dvol_\Sigma(x_i) 
+         dvol_\Sigma(x_i)
          dvol_\Sigma(y_i)
          \,
          \Delta_F^{a_i b_i}(x_i,y_i)
      \\
      & \phantom{AAAAAA}
     \left(
-      V_1 
-        \otimes 
+      V_1
+        \otimes
         \cdots
-        \otimes 
-      V_{r-1} 
+        \otimes
+      V_{r-1}
         \otimes
        \frac{
-         \delta^{e_{r,s}} V_r 
+         \delta^{e_{r,s}} V_r
        }{
          \delta \mathbf{\Phi}^{a_1}(x_1)
          \cdots
@@ -2633,12 +2646,12 @@ $$
       V_{s-1}
         \otimes
       \frac{
-          \delta^{e_{r,s}} V_s 
-       }{ 
+          \delta^{e_{r,s}} V_s
+       }{
          \delta \mathbf{\Phi}^{b_1}(y_1)
          \cdots
-         \delta \mathbf{\Phi}^{b_{e_{r,s}}}(y_{e_{r,s}}) 
-       }    
+         \delta \mathbf{\Phi}^{b_{e_{r,s}}}(y_{e_{r,s}})
+       }
         \otimes
        V_{s+1}
         \otimes
@@ -2650,13 +2663,13 @@ $$
   \end{aligned}
 $$
 
-where $e_{r,s} \coloneqq e_{r,s}(\Gamma)$ is, for short, the number of [[edges]] between vertex $r$ and vertex $s$ in the [[Feynman diagram]] $\Gamma$ of the outer sum, according to def. \ref{FeynmanDiagram}.
+where $e_{r,s} \coloneqq e_{r,s}(\Gamma)$ is, for short, the number of [[edges]] between vertex $r$ and vertex $s$ in the [[finite multigraph]] $\Gamma$ of the outer sum, according to def. \ref{Graphs}.
 
 Here the summands of the expansion (eq:FeynmanAmplitudeExpansionOfTimeOrderedProductAwayFromDiagonal)
 
 $$
   \label{FeynmanAmplitude}
-  \Gamma(V_i)_{i = 1}^v
+  \Gamma\left( (V_i)_{i = 1}^v\right)
   \;\coloneqq\;
     prod
     \circ
@@ -2666,7 +2679,7 @@ $$
       (\Delta_{F})^{e_{r,s}}
       ,
       \frac{\delta^{e_{r,s}}}{\delta \mathbf{\Phi}_r^{e_{r,s}}}
-      \frac{\delta^{e_{r,s}}}{\delta \mathbf{\Phi}_s^{e_{r,s}}} 
+      \frac{\delta^{e_{r,s}}}{\delta \mathbf{\Phi}_s^{e_{r,s}}}
     \right\rangle
     \left(
       V_1 \otimes \cdots \otimes V_{v}
@@ -2675,18 +2688,18 @@ $$
   PolyObs(E_{\text{BV-BRT}})((\hbar))[ [g,j ] ]
 $$
 
-and/or their [[vacuum expectation values]] 
+and/or their [[vacuum expectation values]]
 
 $$
   \left\langle
-    \Gamma(V_i)_{i = 1}^v
+    \Gamma\left((V_i)_{i = 1}^v\right)
   \right\rangle
   \;\in\;
   \mathbb{C}((\hbar))[ [ h, j] ]
 $$
 
-are called the _[[Feynman amplitudes]]_ of the [[Feynman diagrams]] $\Gamma$.
-Their expression as [[products of distributions]] via the right hand side of (eq:FeynmanAmplitude) is also called the _[[Feynman rules]]_.
+are called the _[[Feynman amplitudes]]_ for scattering processes in the given [[free field]] [[vacuum]] of shape $\Gamma$  with [[interaction]] [[vertices]] $V_i$.
+Their expression as [[products of distributions]] via algebraic expression on the right hand side of (eq:FeynmanAmplitude) is also called the _[[Feynman rules]]_.
 
 =--
 
@@ -2711,9 +2724,9 @@ $$
       \circ
     \exp\left(
       \left\langle
-        \hbar \Delta_F, 
-        \frac{\delta}{\delta \mathbf{\Phi}} 
-          \otimes 
+        \hbar \Delta_F,
+        \frac{\delta}{\delta \mathbf{\Phi}}
+          \otimes
         \frac{\delta}{\delta \mathbf{\Phi}}
       \right\rangle
     \right)
@@ -2722,7 +2735,7 @@ $$
       prod
         \circ
       \!\!\!\!
-      \underset{\Gamma \in \mathcal{G}_{(V_j)_{j = 1}^{v}}}{\sum}
+      \underset{\Gamma \in \mathcal{G}_v }{\sum}
       \underset{ { r \lt s } \atop { \in \{1, \cdots, v\} }  }{\prod}
       \frac{1}{e_{r,s}!}
       \left\langle
@@ -2740,7 +2753,7 @@ $$
     & =
     prod
       \circ
-    \underset{\Gamma \in \mathcal{G}_{(V_j)_{j = 1}^{v+1}}}{\sum}
+    \underset{\Gamma \in \mathcal{G}_v }{\sum}
     \\
     & \phantom{=}
       \underset{ {  r \lt s } \atop {  \in \{1,\cdots, v\}}  }{\prod}
@@ -2753,21 +2766,21 @@ $$
     \right\rangle
     \\
     & \phantom{=}
-    \underset{  
-       { e_{v+1} =} 
+    \underset{
+       { e_{v+1} =}
        \atop
-       { e_{1,{v+1}} + \cdots + e_{v,v+1} } 
+       { e_{1,{v+1}} + \cdots + e_{v,v+1} }
     }{\sum}
       \underset{
         = (e_{1,v+1}) \cdots (e_{v,v+1}))
       }{
       \underbrace{
-      \frac{ 
+      \frac{
         \left(
           { e_{v+1} }
           \atop
           { (e_{1,v+1}), \cdots, (e_{v,v+1}) }
-        \right) 
+        \right)
       }{
         ( e_{v+1} ) !
       }
@@ -2780,10 +2793,10 @@ $$
         \otimes
         \cdots
         \otimes
-      \frac{ 
+      \frac{
         \delta^{e_{v,v+1}} V_v
-      }{ 
-        \delta \mathbf{\Phi}^{e_{v,v+1}} 
+      }{
+        \delta \mathbf{\Phi}^{e_{v,v+1}}
       }
     \;\otimes\;
     \frac{
@@ -2797,7 +2810,7 @@ $$
     &=
     prod
       \circ
-    \underset{\Gamma \in \mathcal{G}_{(V_j)_{j = 1}^{v+1}}}{\sum}
+    \underset{\Gamma \in \mathcal{G}_{v+1} }{\sum}
     \underset{ { r \lt s } \atop { \in \{1, \cdots, v+1\} } }{\prod}
     \tfrac{1}{e_{r,s}!}
     \left\langle
@@ -2819,18 +2832,22 @@ which yield in total the sum over all diagrams with $v+1$ vertices.
 
 =--
 
-+-- {: .num_remark }
++-- {: .num_remark #Tadpoles}
 ###### Remark
 **(no [[tadpole]] [[Feynman diagrams]])**
 
-In the definition of [[Feynman diagrams]] in def. \ref{FeynmanDiagram} there are _no_ edges considered that go from any [[vertex]] to _itself_
+In the definition of [[finite multigraphs]] in def. \ref{Graphs} there are _no_ edges considered that go from any [[vertex]] to _itself_
 
 <center>
   <img src="https://ncatlab.org/nlab/files/tadpole.png" width="70">
 </center>
 
-Via prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints} this is due to  to the nature of the [[star product]] ([this def.](star+product#PropagatorStarProduct)) which always contracts _different_ [[tensor product]] factors with the [[Feynman propagator]] before taking their pointwise product.
+In [[pQFT]] these are called _[[tadpoles]]_, and their non-appearance is considered part of the _[[Feynman rules]]_ (prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints}).
 
+Via prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints} this reflects the nature of the [[star product]] ([this def.](star+product#PropagatorStarProduct)) which always contracts _different_ [[tensor product]] factors with the [[Feynman propagator]] before taking their pointwise product.
+
+Beware that in [[graph theory]] these [[tadpoles]] are called "[[loops]]", while here in [[pQFT]] a "loop" in a [[planar graph]] refers instead to what 
+in [[graph theory]] is called a _[[face]]_ of the graph, see the discussion of _[[loop order]]_ in prop. \ref{FeynmanDiagramLoopOrder} below.
 
 =--
 
@@ -2847,19 +2864,19 @@ Via prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints} this is due to
 Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}, and let
 
 $$
-  g S_{int} + j A 
+  g S_{int} + j A
   \;\in\;
   LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, h ] ]
 $$
 
 be a [[local observable]].
 
-By prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints} every choice of perturbative [[S-matrix]] (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) 
+By prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints} every choice of perturbative [[S-matrix]] (def. \ref{LagrangianFieldTheoryPerturbativeScattering})
 
 $$
   \mathcal{S}(g S_{int} + j A)
   \;\in\;
-  PolyObs(E_{\text{BV-BRST}})_{mc}((\hbar))[ [ g, j ] ] + 
+  PolyObs(E_{\text{BV-BRST}})_{mc}((\hbar))[ [ g, j ] ] +
 $$
 
 has an expansion as a [[formal power series]] of the form
@@ -2868,11 +2885,11 @@ $$
   \mathcal{S}(g S_{int} + j A)
   \;=\;
   \underset{\Gamma \in \mathcal{G}}{\sum}
-  \Gamma_{norm}(g S_{int} + j A)
+  \Gamma_{norm}\left( (g S_{int} + j A)_{i = 1}^{v(\Gamma)}\right)
   \,,
 $$
 
-where the series is over all [[Feynman diagrams]] $\Gamma$ all whose vertices are labeled by $g S_{int} + jA $ (def. \ref{FeynmanDiagram}), and the summands are the corresponding [[renormalization|("re"-)normalized]] (def. \ref{ExtensionOfTimeOrderedProoductsRenormalization}) [[Feynman amplitudes]] (prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints}).
+where the series is over all [[finite multigraphs]] $\Gamma$ (def. \ref{Graphs}), and the summands are the corresponding [[renormalization|("re"-)normalized]] (def. \ref{ExtensionOfTimeOrderedProoductsRenormalization}) [[Feynman amplitudes]] (prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints}).
 
 Expressed in this form the S-matrix is known as the _[[Feynman perturbation series]]_.
 
@@ -2883,34 +2900,93 @@ $\,$
 #### Effective action
  {#EffectiveAction}
 
-We have seen that the [[Feynman perturbation series]] expresses the [[S-matrix]] as a [[formal power series]] of _[[Feynman amplitudes]]_ labeled by _[[Feynman diagrams]]_. Now the [[Feynman amplitude]] associated with a [[disjoint union]] of [[connected graph|connected]] [[Feynman diagrams]] is just the product of the amplitudes of the [[connected components]] (prop. \ref{LogarithmEffectiveAction} below). This allows to re-organize the [[Feynman perturbation series]] as the ordinary [[exponential]] of the Feynman perturbation series restricted to just [[connected graph|connected]] Feynman diagrams. The latter is called the _[[effective action]]_ (def. \ref{InPerturbationTheoryActionEffective} below) because it allows to express [[vacuum expectation values]] of the [[S-matrix]] as an ordinary exponential (equation (eq:ExponentialSeffVEVOfSMatrix) below).
+We have seen that the [[Feynman perturbation series]] expresses the [[S-matrix]] as a [[formal power series]] of _[[Feynman amplitudes]]_ labeled by _[[Feynman diagrams]]_. Now the [[Feynman amplitude]] associated with a [[disjoint union]] of [[connected graph|connected]] [[Feynman diagrams]] (def. \ref{ConnectedGraphs} below) is just the product of the amplitudes of the [[connected components]] (prop. \ref{LogarithmEffectiveAction} below). This allows to re-organize the [[Feynman perturbation series]] as the ordinary [[exponential]] of the Feynman perturbation series restricted to just [[connected graph|connected]] Feynman diagrams. The latter is called the _[[effective action]]_ (def. \ref{InPerturbationTheoryActionEffective} below) because it allows to express [[vacuum expectation values]] of the [[S-matrix]] as an ordinary exponential (equation (eq:ExponentialSeffVEVOfSMatrix) below).
+
++-- {: .num_defn #ConnectedGraphs}
+###### Definition
+**([[connected graphs]])**
+
+Given two [[finite multigraphs]] $\Gamma_1, \Gamma_2 \in \mathcal{G}$ (def. \ref{Graphs}), their [[disjoint union]] 
+
+$$
+  \Gamma_1 \sqcup \Gamma_2
+  \;\in\;
+  \mathcal{G}
+$$
+
+is the finite multigraph whose set of [[vertices]] and set of [[edges]] are the [[disjoint unions]] of the corresponding sets of $\Gamma_1$ and $\Gamma_2$
+
+$$
+  V_{\Gamma_1 \sqcup \Gamma_2} 
+    \;\coloneqq\; 
+  V_{\Gamma_1} \sqcup V_{\Gamma_2}
+$$
+
+$$
+  E_{\Gamma_1 \sqcup \Gamma_2} 
+    \;\coloneqq\; 
+  E_{\Gamma_1} \sqcup E_{\Gamma_2}
+$$
+
+and whose vertex-assigning function $p$ is the corresponding function on disjoint unions
+
+$$
+  p_{\Gamma_1 \sqcup \Gamma_2}
+  \;\coloneqq\;
+  p_{\Gamma_1} \sqcup p_{\Gamma_2}
+  \,.
+$$
+
+The operation induces a pairing on the set $\mathcal{G}$ of [[isomorphism classes]] of [[finite multigraphs]]
+
+$$
+  (-) \sqcup (-)
+  \;\colon\;
+  \mathcal{G} \times \mathcal{G}
+    \longrightarrow
+  \mathcal{G}
+  \,.
+$$
+
+A [[finite multigraph]] $\Gamma \in \mathcal{G}$ (def. \ref{Graphs}) is called _[[connected graph|connected]]_ if it is not the [[disjoint union]] of two [[inhabited|non-empty]] finite multigraphs.
+
+We write
+
+$$
+  \mathcal{G}_{conn}
+  \subset
+  \mathcal{G}
+$$
+
+for the subset of [[isomorphism classes]] of [[connected graph|connected]] [[finite multigraphs]].
+
+
+=--
 
 +-- {: .num_defn #InPerturbationTheoryActionEffective}
 ###### Definition
-**([[\leffective action]])**
+**([[effective action]])**
 
 Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}, let $\mathcal{S}$ be an [[S-matrix]] scheme for [[perturbative QFT]] around this vacuum (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) and let
 
 $$
-  g S_{int} + j A 
+  g S_{int} + j A
   \;\in\;
   LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, h ] ]
 $$
 
-be a [[local observable]]. 
+be a [[local observable]].
 
-Recall that for each [[Feynman diagram]] $\Gamma$ with all vertices labeled by $g S_{int} + j A$ (def. \ref{FeynmanDiagram}) the [[Feynman perturbation series]] for $\mathcal{S}(g S_{int} + j A)$ (example \ref{FeynmanPerturbationSeries}) 
+Recall that for each [[finite multigraph]] $\Gamma \in \mathcal{G}$ (def. \ref{Graphs}) the [[Feynman perturbation series]] for $\mathcal{S}(g S_{int} + j A)$ (example \ref{FeynmanPerturbationSeries})
 
 $$
   \mathcal{S}(g S_{int} + j A)
   \;=\;
   \underset{\Gamma \in \mathcal{G}}{\sum}
-    \Gamma(g S_{int} + j A)
+    \Gamma\left( (g S_{int} + j A)_{i = 1}^{v(\Gamma)} \right)
 $$
 
-
-
-contributes with a [[renormalization|("re"-)nromalized]] [[Feynman amplitude]] $\Gamma(g S_{int} + j A) \in PolyObs(E_{\text{BV-BRST}})((\hbar))[ [ g, j ] ]$.
+contributes with a [[renormalization|("re"-)nromalized]] [[Feynman amplitude]] $\Gamma\left( (g S_{int} + j A)_{i = 1}^v\right) \in PolyObs(E_{\text{BV-BRST}})((\hbar))[ [ g, j ] ]$.
 
 We say that the corresponding _[[effective action]]_ is $i \hbar$ times the sub-series
 
@@ -2920,12 +2996,12 @@ $$
   \;\coloneqq\;
   i \hbar
   \underset{\Gamma \in \mathcal{G}_{conn}}{\sum}
-  \Gamma(g S_{int} + j A)
+  \Gamma\left( (g S_{int} + j A)_{i = 1}^{v(\Gamma)} \right)
   \;\in\;
   PolyObs(E_{\text{BV-BRST}})((\hbar))[ [ g, j ] ]
 $$
 
-of [[Feynman amplitudes]] that are labeled only by the _[[connected graph|connected]]_ [[Feynman diagrams]] $\Gamma \in \mathcal{G}_{conn} \subset \mathcal{G}$.
+of [[Feynman amplitudes]] that are labeled only by the _[[connected graphs]]_  $\Gamma \in \mathcal{G}_{conn} \subset \mathcal{G}$ (def. \ref{ConnectedGraphs}).
 
 =--
 
@@ -2938,7 +3014,7 @@ The terminology "effective action" is due to the following fact:
 Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}, let $\mathcal{S}$ be an [[S-matrix]] scheme for [[perturbative QFT]] around this vacuum (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) and let
 
 $$
-  g S_{int} + j A 
+  g S_{int} + j A
   \;\in\;
   LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, h ] ]
 $$
@@ -2951,7 +3027,7 @@ $$
 
 be the corresponding [[effective action]] (def. \ref{InPerturbationTheoryActionEffective}).
 
-Then then [[S-matrix]] for $g S_{int} + j A$ is the [[exponential]] of the [[effective action]] with respect to the pointwise product $(-)\cdot (-)$ of observables ([this def.](A+first+idea+of+quantum+field+theory#Observable)): 
+Then then [[S-matrix]] for $g S_{int} + j A$ is the [[exponential]] of the [[effective action]] with respect to the pointwise product $(-)\cdot (-)$ of observables ([this def.](A+first+idea+of+quantum+field+theory#Observable)):
 
 $$
   \begin{aligned}
@@ -2960,10 +3036,10 @@ $$
     \exp_\cdot\left( \tfrac{1}{i \hbar} S_{eff}  \right)
     \\
     & \coloneqq
-    1 
-      + 
-    \frac{1}{i \hbar} S_{eff} 
-      + 
+    1
+      +
+    \frac{1}{i \hbar} S_{eff}
+      +
     \frac{1}{(i \hbar)^2} S_{eff} \cdot S_{eff}
       +
     \frac{1}{(i \hbar)^3} S_{eff} \cdot S_{eff} \cdot S_{eff}
@@ -2977,15 +3053,15 @@ Moreover, this relation passes to the [[vacuum expectation values]]:
 $$
   \label{ExponentialSeffVEVOfSMatrix}
   \begin{aligned}
-    \left\langle 
+    \left\langle
       {\, \atop \,}
       \mathcal{S}(g S_{int} + j A)
       {\, \atop \,}
     \right\rangle
     & =
-    \left\langle 
+    \left\langle
       {\, \atop \,}
-      \exp\left( 
+      \exp\left(
         \tfrac{1}{i \hbar} S_{eff}
       \right)
       {\, \atop \,}
@@ -3000,15 +3076,15 @@ $$
 Conversely the [[vacuum expectation value]] of the [[effective action]] is to the [[logarithm]] of that of the S-matrix:
 
 $$
-  \left\langle 
+  \left\langle
     S_{eff}
   \right\rangle
   \;=\;
-  i \hbar 
-  \, 
-  \ln 
-  \left\langle  
-    \mathcal{S}(g S_{int} + j A) 
+  i \hbar
+  \,
+  \ln
+  \left\langle
+    \mathcal{S}(g S_{int} + j A)
   \right\rangle
   \,.
 $$
@@ -3019,25 +3095,33 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By prop. \ref{TimeOrderedProductAwayFromDiagonal} the contributions to the S-matrix away from coinciding interaction points are given by the [[star product]] induced by the [[Feynman propagator]], and specifically, by prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints}, the [[Feynman amplitudes]] are given this way. Now by definition of the star product ([this def.](star+product#PropagatorStarProduct)) it is given by first contracting with powers of the [[Feynman propagator]] and then multiplying all resulting terms with the pointwise product of observables. From this and the nature of the combinatorial factor in the definition of the [[Feynman amplitudes]] (prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints}) it is clear that for 
+By prop. \ref{TimeOrderedProductAwayFromDiagonal} the contributions to the S-matrix away from coinciding interaction points are given by the [[star product]] induced by the [[Feynman propagator]], and specifically, by prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints}, the [[Feynman amplitudes]] are given this way. Now by definition of the star product ([this def.](star+product#PropagatorStarProduct)) it is given by first contracting with powers of the [[Feynman propagator]] and then multiplying all resulting terms with the pointwise product of observables. From this and the nature of the combinatorial factor in the definition of the [[Feynman amplitudes]] (prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints}) it is clear that for
 
 $$
-  \Gamma = \Gamma_1 \sqcup \Gamma_2 \sqcup \cdots \sqcup \Gamma_n
+  \Gamma 
+    \;=\; 
+  \Gamma_1 
+    \sqcup 
+  \Gamma_2 
+    \sqcup 
+    \cdots 
+    \sqcup 
+  \Gamma_n
   \;\in\; \mathcal{G}
 $$
 
-a [[disjoint union]] of Feynman diagrams, then then corresponding [[Feynman amplitudes]] multiply by the pointwise product
+a [[disjoint union]] of graphs (def. \ref{ConnectedGraphs}), then then corresponding [[Feynman amplitudes]] multiply by the pointwise product
 
 $$
   \Gamma(g S_{int} + j A)
   \;=\;
-  \Gamma_1(g S_{int} + j A)
+  \Gamma_1\left( (g S_{int} + j A)_{i = 1}^{v(\Gamma_1)}\right)
    \cdot
-  \Gamma_2(g S_{int} + j A)
+  \Gamma_2\left( (g S_{int} + j A)_{i = 1}^{v(\Gamma_2)} \right)
     \cdot
     \cdots
     \cdot
-  \Gamma_n(g S_{int} + j A)
+  \Gamma_n\left( (g S_{int} + j A)_{i = 1}^{v(\Gamma_n)} \right)
   \,.
 $$
 
@@ -3063,7 +3147,7 @@ It follows that
 
 $$
   \begin{aligned}
-    \exp_\cdot\left( 
+    \exp_\cdot\left(
       \frac{1}{i \hbar} S_{int}
     \right)
     & =
@@ -3073,22 +3157,22 @@ $$
        \atop
        { \Gamma_j \in \mathcal{G}_{conn} }
     }{\sum}
-    \Gamma(g S_{int} + j A)
+    \Gamma\left( (g S_{int} + j A)_{i = 1}^{v(\Gamma)} \right)
     \\
     & =
     \underset{\Gamma \in \mathcal{G}}{\sum}
-    \Gamma(g S_{int} + j A)
+    \Gamma\left( (g S_{int} + j A)_{i = 1}^{v(\Gamma)} \right)
   \end{aligned}
 $$
 
 yields the [[Feynman perturbation series]] by expressing it as a series (re-)organized by number of [[connected components]] of the [[Feynman diagrams]].
 
-To conclude the proof it is now sufficient to observe that taking [[vacuum expectation values]] of [[polynomial observables]] respects the pointwise product of observables 
+To conclude the proof it is now sufficient to observe that taking [[vacuum expectation values]] of [[polynomial observables]] respects the pointwise product of observables
 
 $$
   \left\langle A_1 \cdot A_2 \right\rangle
   \;=\;
-  \left\langle 
+  \left\langle
     A_1
   \right\rangle
   \,
@@ -3107,7 +3191,7 @@ because the [[Hadamard vacuum state]] $\langle -\rangle \colon PolyObs(E_{\text{
 ###### Proposition
 **([[loop order]] and [[tree level]] of [[Feynman diagrams]])**
 
-Let $\Gamma$ be a [[Feynman diagram]] (def. \ref{FeynmanDiagram}) whose underlying [[graph]] is [[planar graph|planar]] and [[connected graph|connected]]. Then the order of $\hbar$ at which its [[Feynman amplitude]] (def. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints}) contributes in the [[effective action]] (def. \ref{InPerturbationTheoryActionEffective}) is
+Let $\Gamma$ be a [[finite multigraph]] (def. \ref{Graphs}) which is [[planar graph|planar]] and [[connected graph|connected]] (def. \ref{ConnectedGraphs}). Then the order of $\hbar$ at which its [[Feynman amplitude]] (def. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints}) contributes in the [[effective action]] (def. \ref{InPerturbationTheoryActionEffective}) is
 
 $$
   \hbar^{L(\Gamma)}
@@ -3116,9 +3200,11 @@ $$
 
 where $L(\Gamma) \in \mathbb{N}$ is the number of _[[faces]]_ of the [[planar graph]] $\Gamma$, here called the _number of loops_ of the diagram.
 
-Accordingly, the order in $\hbar$ at which the [[Feynman amplitude]] of a [[planar graph|planar]] [[connected graph|connected]] [[Feynman diagram]] contributes is often referred to as the _loop order_.
+Accordingly, the order in $\hbar$ at which the [[Feynman amplitude]] of a [[planar graph|planar]] [[connected graph|connected]] [[Feynman diagram]] contributes is often referred to as the _loop order_. 
 
-Since a [[graph]] without loops is called a _[[tree]]_, contributions at loop order $L(\Gamma) = 0$, hence those that contribute in the _[[classical limit]]_ $\hbar \to 0$, are often called the _[[tree level]]_ contributions.
+(Beware the terminology clash with [[graph theory]], see the discussion of [[tadpoles]] in remark \ref{Tadpoles}.)
+
+Since a [[graph]] without loops, in this sense, is called a _[[tree]]_, contributions at loop order $L(\Gamma) = 0$, hence those that contribute in the _[[classical limit]]_ $\hbar \to 0$, are often called the _[[tree level]]_ contributions.
 
 =--
 
@@ -3133,8 +3219,8 @@ $$
   \left(
     S_{int}
   \right)
-  \;=\; 
-  \underset{k \in \mathbb{N}}{\sum} 
+  \;=\;
+  \underset{k \in \mathbb{N}}{\sum}
     \frac{1}{k!}
     \frac{1}{(i \hbar)^k}
     T( \underset{k \, \text{factors}}{\underbrace{S_{int}, \cdots,  S_{int}}} )
@@ -3143,14 +3229,14 @@ $$
 and by prop. \ref{TimeOrderedProductAwayFromDiagonal} the further $\hbar$-dependence of the [[time-ordered product]] $T(\cdots)$ is
 
 $$
-  T(S_{int}, S_{int}) 
-  \;=\; 
-  prod \circ 
+  T(S_{int}, S_{int})
+  \;=\;
+  prod \circ
   \exp\left(
     \hbar
-    \left\langle 
-      \Delta_F, 
-      \frac{\delta}{\delta \mathbf{\Phi}} 
+    \left\langle
+      \Delta_F,
+      \frac{\delta}{\delta \mathbf{\Phi}}
         \otimes
       \frac{\delta}{\delta \mathbf{\Phi}}
     \right\rangle
@@ -3159,7 +3245,7 @@ $$
   \,,
 $$
 
-By the [[Feynman rules]] (prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints}) this means that 
+By the [[Feynman rules]] (prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints}) this means that
 
 1. each [[vertex]] of the Feynman diagram contributes a power $\hbar^{-1}$;
 
@@ -3178,7 +3264,7 @@ $$
   \,.
 $$
 
-So far this holds for arbitrary $\Gamma$. Now using the assumption that $\Gamma$ is [[planar graph|planar]], then the formula for the _[[Euler characteristic of planar graphs]]_ says that 
+So far this holds for arbitrary $\Gamma$. Now using the assumption that $\Gamma$ is [[planar graph|planar]], then the formula for the _[[Euler characteristic of planar graphs]]_ says that
 
 $$
   E(\Gamma) - V(\Gamma)
