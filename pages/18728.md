@@ -83,6 +83,7 @@ The [[Feynman diagram]] for the [[electron-photon interaction]] alone is
 where the solid lines correspond to the [[electron]], and the wiggly line to the [[photon]]. The corresponding [[product of distributions]] is (written in [[generalized function]]-notation)
 
 $$
+  \hbar^{3/2-1}
   i g (\gamma^\mu)^\alpha{}_\beta 
   \,.
   \,
@@ -125,8 +126,8 @@ Hence a typical Feynman diagram in the [[QED]] [[Feynman perturbation series]] i
 <img src="https://ncatlab.org/nlab/files/FeynmanDiagramGlobal.jpg" width="560"/>
 </center>
 
-where on the bottom the corresponding [[product of distributions]] is shown.
-(Now the contraction of the internal indices and all prefactors are notationally suppressed.)
+where on the bottom the corresponding [[product of distributions]] is shown;
+now notationally suppressing the contraction of the internal indices and all prefactors.
 
 For instance the two solid [[edges]] between the [[vertices]] $x_2$ and $x_3$ corresponds to the two factors of $\Delta(x_2,x_2)$:
 
