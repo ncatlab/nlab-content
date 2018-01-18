@@ -1393,7 +1393,7 @@ See also remark \ref{AdiabaticLimit} on _[[infrared divergences]]_.
 ###### Remark
 **([[virtual particles]], [[worldline formalism]] and [[perturbative string theory]])**
 
-It is suggestive to think of the [[edges]] in the [[Feynman diagrams]] (def. \ref{FeynmanDiagram}) as [[worldlines]] of "[[virtual particles]]" and of the [[vertices]] as the points where they collide and transmute. (Care must be exercised not to confuse this with concepts of real [[particles]].) With this interpretation prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints} may be read as saying that the [[scattering amplitude]] for given external [[source fields]] (remark \ref{FromAxiomaticSMatrixScatteringAmplitudes}) is the [[superposition]] of the [[Feynman amplitudes]] of all possible ways that these may interact; which is closely related to the intuition for the [[path integral]] (remark \ref{InterpretationOfPerturbativeSMatrix}).
+It is suggestive to think of the [[edges]] in the [[Feynman diagrams]] (def. \ref{FeynmanDiagram}) as [[worldlines]] of "[[virtual particles]]" and of the [[vertices]] as the points where they collide and transmute. (Care must be exercised not to confuse this with concepts of real [[particles]].) With this interpretation prop. \ref{FeynmanDiagramAmplitude} may be read as saying that the [[scattering amplitude]] for given external [[source fields]] (remark \ref{FromAxiomaticSMatrixScatteringAmplitudes}) is the [[superposition]] of the [[Feynman amplitudes]] of all possible ways that these may interact; which is closely related to the intuition for the [[path integral]] (remark \ref{InterpretationOfPerturbativeSMatrix}).
 
 This intuition is made precise by the _[[worldline formalism]]_ of [[perturbative quantum field theory]] ([Strassler 92](worldline+formalism#Strassler92)). This is the perspective on [[perturbative QFT]] which directly relates [[perturbative QFT]] to [[perturbative string theory]] ([Schmidt-Schubert 94](worldline+formalism#SchmidtSchubert94)). In fact the [[worldline formalism]] for [[perturbative QFT]] was originally found by taking thre point-particle limit of [[string scattering amplitudes]] ([Bern-Kosower 91](worldline+formalism#BernKosower91), [Bern-Kosower 92](worldline+formalism#BernKosower92)).
 
@@ -2507,15 +2507,33 @@ Notice that theorem involves neither [[scaling transformations]] as in [[Gell-Ma
 
 $\,$
 
-#### Feynman diagrams
+#### Feynman perturbation series
  {#FeynmanDiagrams}
 
 
-By def \ref{ExtensionOfTimeOrderedProoductsRenormalization} and the [[main theorem of perturbative renormalization]] (theorem \ref{PerturbativeRenormalizationMainTheorem}), the construction of perturbative [[S-matrix]] schemes/[[time-ordered products]] may be phrased as [[renormalization|("re-")normalization]] of the [[star product]] induced by the [[Feynman propagator]], namely as a choice of [[extension of distributions]] of the this star-product to the locus of coinciding interaction points. Since the [[star product]] is the [[exponential]] of the binary contraction with the [[Feynman propagator]], it is naturally expanded as a [[sum]] of [[products of distributions]] labeled by [[graphs]], where each [[edge]] labels one of the contractions. These graphs are called _[[Feynman diagrams]]_ (def. \ref{FeynmanDiagram} below) and the [[products of distributions]] which they encode are called _[[Feynman amplitudes]]_ built by the _[[Feynman rules]]_ (prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints} below).
+By def \ref{ExtensionOfTimeOrderedProoductsRenormalization} and the [[main theorem of perturbative renormalization]] (theorem \ref{PerturbativeRenormalizationMainTheorem}), the construction of perturbative [[S-matrix]] schemes/[[time-ordered products]] may be phrased as [[renormalization|("re-")normalization]] of the [[star product]] induced by the [[Feynman propagator]], namely as a choice of [[extension of distributions]] of the this star-product to the locus of coinciding interaction points.
 
-The choice of [[renormalization|("re"-)normalization]] of the [[time-ordered products]]/[[S-matrix]] is thus equivalently the choice of [[renormalization|("re"-)normalization]] of all possible [[Feynman amplitudes]].
+Since the [[star product]] is the [[exponential]] of the binary contraction with the [[Feynman propagator]], it is naturally expanded as a [[sum]] of [[products of distributions]] labeled by [[finite multigraphs]] (def. \ref{Graphs} below),
+where each [[vertex]] corresponds to an [[interaction]] or [[source field]] insertion, and where each [[edge]]
+corresponds to one contractions of two of these with the [[Feynman propagator]]. The [[products of distributions]]
+arising this way are the _[[Feynman amplitudes]]_ (prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints} below).
 
-The expansion by [[Feynman diagrams]] makes the perturbative [[S-matrix]] equivalently be a [[formal power series]] with [[coefficients]] given by [[Feynman amplitudes]], and as such it is known as the _[[Feynman perturbation series]]_ (example \ref{FeynmanPerturbationSeries} below).
+If the [[free field]] [[vacuum]] is decomposed as a [[direct sum]] of distinct [[free field]] [[types]]/species, then
+in addition to the [[vertices]] also the edges in these [[graphs]] receive labels, now by the field species whose particular [[Feynman propagator]] is being used in the contraction at that edges.
+These labeled graphs are now called _[[Feynman diagrams]]_ (def. \ref{FeynmanDiagram} below) and the [[products of distributions]] which they encode are their _[[Feynman amplitudes]]_ built by the _[[Feynman rules]]_ (prop. \ref{FeynmanDiagramAmplitude} below).
+
+The choice of [[renormalization|("re"-)normalization]] of the [[time-ordered products]]/[[S-matrix]] is thus equivalently a choice of [[renormalization|("re"-)normalization]] of the [[Feynman amplitudes]] for all possible [[Feynman diagrams]].
+These are usefully organized in powers of $\hbar$ by their _[[loop order]]_ (prop. \ref{FeynmanDiagramLoopOrder} below).
+
+In conclusion, the [[Feynman rules]] make the perturbative [[S-matrix]] be equal to a [[formal power series]]
+of [[Feynman amplitudes]] labeled by [[Feynman graphs]]. As such it is known as the _[[Feynman perturbation series]]_ (example \ref{FeynmanPerturbationSeries} below).
+
+Notice how it is therefore the [[combinatorics]] of [[star products]] that governs both [[Wick's lemma]] in [[free field theory]] as well as [[Feynman diagram|Feynman diagrammatics]] in [[interacting field theory]]:
+
+[[!include Wick algebra -- table]]
+
+
+$\,$
 
 +-- {: .num_defn #Graphs}
 ###### Definition
@@ -2533,20 +2551,20 @@ A _[[finite graph|finite]] [[multigraph]]_ is
 
 Hence the [[isomorphism class]] of a [[finite multigraph]] is specified by
 
-1. a [[natural number]] 
+1. a [[natural number]]
 
    $$
      v \coloneqq {\vert V\vert} \in \mathbb{N}
-   $$ 
-   
+   $$
+
    (the number of [[vertices]]);
 
-1. for each $i \lt j \in \{1, \cdots, v\}$ a natural number 
+1. for each $i \lt j \in \{1, \cdots, v\}$ a natural number
 
    $$
      e_{i,j} \coloneqq {\vert p^{-1}(\{v_i,v_j\})\vert} \in \mathbb{N}
-   $$ 
-   
+   $$
+
    (the number of [[edges]] between the $i$th and the $j$th vertex).
 
 We write $\mathcal{G}_v$ for the set of such [[isomorphism classes]] of finite multigraphs with ${\vert V \vert} = v$ vertices;
@@ -2562,7 +2580,7 @@ for the set of [[isomorphism classes]] of finite multigraphs with any number of 
 
 +-- {: .num_prop #FeynmanPerturbationSeriesAwayFromCoincidingPoints}
 ###### Proposition
-**([[Feynman amplitudes]] away from coinciding vertices)
+**([[Feynman amplitudes]] of [[finite multigraphs]])**
 
 Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}.
 
@@ -2832,26 +2850,131 @@ which yield in total the sum over all diagrams with $v+1$ vertices.
 
 =--
 
-+-- {: .num_remark #Tadpoles}
-###### Remark
-**(no [[tadpole]] [[Feynman diagrams]])**
 
-In the definition of [[finite multigraphs]] in def. \ref{Graphs} there are _no_ edges considered that go from any [[vertex]] to _itself_
+If the [[free field theory]] decomposes as a [[direct sum]] of free field theories, we obtain a more
+fine-grained form of [[Feynman amplitudes]]:
 
-<center>
-  <img src="https://ncatlab.org/nlab/files/tadpole.png" width="70">
-</center>
++-- {: .num_defn #FeynmanDiagram}
+###### Definition
+**([[Feynman diagrams]])**
 
-In [[pQFT]] these are called _[[tadpoles]]_, and their non-appearance is considered part of the _[[Feynman rules]]_ (prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints}).
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}, such that the [[BV-BRST formalism|BV-BRST]] [[field bundle]] is exhibited as a [[fiber product]] of
+a [[finite set]] $Sp = \{sp_1, sp_2, \cdots, sp_n\}$ of ([[graded manifold|graded]] [[supermanifold|super-]]) [[field bundles]]
 
-Via prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints} this reflects the nature of the [[star product]] ([this def.](star+product#PropagatorStarProduct)) which always contracts _different_ [[tensor product]] factors with the [[Feynman propagator]] before taking their pointwise product.
+$$
+  E_{\text{BV-BRST}}
+  \;\coloneqq\;
+  E_{sp_1} \times_{\Sigma} \cdots \times_\Sigma E_{sp_n}
+$$
 
-Beware that in [[graph theory]] these [[tadpoles]] are called "[[loops]]", while here in [[pQFT]] a "loop" in a [[planar graph]] refers instead to what 
-in [[graph theory]] is called a _[[face]]_ of the graph, see the discussion of _[[loop order]]_ in prop. \ref{FeynmanDiagramLoopOrder} below.
+of $n$ different [[types]]/species of [[fields (physics)|fields]], such that the [[gauge fixing|gauge fixed]] [[free field|free]] [[Lagrangian density]] $\mathbf{L}'$ is the [[sum]]
+
+$$
+  \mathbf{L}' \;=\; \mathbf{L}'_{sp_1} + \cdots + \mathbf{L}'_{sp_n}
+$$
+
+of [[free field theory|free]] [[Lagrangian densities]] 
+
+$$
+  \mathbf{L}'_{sp_i} \in \Omega^{p+1,0}_\Sigma(E_i)
+$$
+
+on these separate field bundles.
+
+In this situation we say that a _[[Feynman diagram]]_ $(\Gamma,L)$ is an _$Sp$-labeled finite multigraph_, hence:
+
+1. a [[finite multigraph]] $\Gamma \in \mathcal{G}$ (def. \ref{Graphs});
+
+1. a [[function]] $L \;\colon\; E_{\Gamma} \to Sp$ from the [[edges]] of $\Gamma$ to the above set of field species.
+
+We write
+
+$$
+  \array{
+    \mathcal{G}^{Sp}
+      &\overset{\text{forget} \atop \text{edge labels}}{\longrightarrow}&
+    \mathcal{G}
+    \\
+    (\Gamma,L) &\mapsto& \Gamma
+  }
+$$
+
+for the set of [[isomorphism classes]] of Feynman diagrams with labels in $Sp$, refining the set of
+isomorphisms of plain [[finite multigraphs]] from def. \ref{Graphs}.
 
 =--
 
-([Keller 10, remark II.8 and proof of prop. II.7](#Keller10))
+
++-- {: .num_prop #FeynmanDiagramAmplitude}
+###### Proposition
+**([[Feynman amplitudes]] for [[Feynman diagrams]])**
+
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}, such that the [[BV-BRST formalism|BV-BRST]] [[field bundle]] is exhibited as a [[fiber product]] of
+a [[finite set]] $Sp = \{sp_1, sp_2, \cdots, sp_n\}$ of ([[graded manifold|graded]] [[supermanifold|super-]]) [[field bundles]]
+
+$$
+  E_{\text{BV-BRST}}
+  \;\coloneqq\;
+  E_{sp_1} \times_{\Sigma} \cdots \times_\Sigma E_{sp_n}
+$$
+
+of $n$ different [[types]]/species of [[fields (physics)|physics]], such that the conditions in def. \ref{FeynmanDiagram}
+are satisfied.
+
+It follows that the [[Feynman propagator]] of the gauge fixed free field theory
+
+$$
+  \Delta_F
+  \;\in\;
+  \Gamma'_{\Sigma \times \Sigma}( E_{\text{BV-BRST}} \boxtimes E_{\text{BV-BRST}} )
+$$
+
+decomposes as a [[direct sum]] of Feynman propagators for each of these field species:
+
+$$
+  \Delta_F
+  \;=\;
+  \Delta_{F,1} \oplus \cdots \Delta_{F,n}
+  \;\in\;
+  \underoverset{i = 1}{n}{\oplus}
+  \Gamma'_{\Sigma \times \Sigma}( E_{sp_i} \boxtimes E_{sp_i} )
+    \;\subset\;
+  \Gamma'_{\Sigma \times \Sigma}( E_{\text{BV-BRST}} \boxtimes E_{\text{BV-BRST}} )
+  \,.
+$$
+
+In this case also the [[Feynman amplitudes]] $\Gamma\left( (g S_{int,i} + j A_i))_{i \in V_{\Gamma}} \right)$ (def. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints})
+for [[finite multigraphs]] $\Gamma \in \mathcal{G}_v$ (def. \ref{Graphs})
+further decompose as sums
+
+$$
+  \Gamma\left(
+    (g S_{int, i} + j A_i)_{i = 1}^{v}
+  \right)
+  \;=\;
+  \underset{ E_\Gamma \overset{L}{\to}  Sp }{\sum}
+    \Gamma\left(
+      (L_e)_{e \in E_{\Gamma}}, (V_v)_{v \in V_\Gamma}
+    \right)
+$$
+
+over all ways of labeling the [[edges]] $e$ of $\Gamma$ by field species $L_e \in Sp$,
+where
+
+$$
+   \Gamma\left(
+     (L_e)_{e \in E_{\Gamma}}, (g S_{int, i} + j A_i)_{i \in V_\Gamma}
+   \right)
+   \;\in\;
+   PolyObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]
+$$
+
+is the contribution in the [[Feynman rules]]-formula (eq:FeynmanAmplitude) for the given interaction vertices $(g S_{int, i} + j A_i)$ whose factor in the [[product of distributions]] associated with the [[edge]] $e \in E_\Gamma$ is the [[Feynman propagator]] $\Delta_{F,L_e}$.
+
+This is the [[Feynman amplitude]] associated with the [[Feynman diagram]] $(\Gamma,L)$ (def. \ref{FeynmanDiagram})
+
+
+=--
 
 
 [[!include Feynman diagrams in causal perturbation theory -- summary]]
@@ -2891,9 +3014,55 @@ $$
 
 where the series is over all [[finite multigraphs]] $\Gamma$ (def. \ref{Graphs}), and the summands are the corresponding [[renormalization|("re"-)normalized]] (def. \ref{ExtensionOfTimeOrderedProoductsRenormalization}) [[Feynman amplitudes]] (prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints}).
 
+If moreover the [[BV-BRST formalism|BV-BRST]] [[field bundle]] $E_{\text{BV-BRST}}$ of the [[free field]] [[vacuum]] is exhibited as a [[fiber product]] of
+a [[finite set]] $Sp = \{sp_1, sp_2, \cdots, sp_n\}$ ([[graded manifold|graded]] [[supermanifold|super-]]) [[field bundles]]
+
+$$
+  E_{\text{BV-BRST}}
+  \;\coloneqq\;
+  E_{sp_1} \times_{Sigma} \cdots \times_\Sigma E_{sp_n}
+$$
+
+of $n$ different [[types]]/species of [[fields (physics)|physics]] such that the conditions in def. \ref{FeynmanDiagram}
+are satisfied, then this series refines to a sum over all [[Feynman diagrams]] $(\Gamma,L)$ (def. \ref{FeynmanDiagram})
+of [[Feynman amplitudes]] for [[Feynman diagrams]] (def. \ref{FeynmanDiagramAmplitude}):
+
+$$
+  \mathcal{S}(g S_{int} + j A)
+  \;=\;
+  \underset{(\Gamma,L) \in \mathcal{G}^{Sp}}{\sum}
+   \Gamma_{norm}\left( (L_e)_{e \in E_\Gamma}, (g S_{int,i} + j A_i )_{i \in V_\Gamma}\right)
+  \,,
+$$
+
+
 Expressed in this form the S-matrix is known as the _[[Feynman perturbation series]]_.
 
 =--
+
+
++-- {: .num_remark #Tadpoles}
+###### Remark
+**(no [[tadpole]] [[Feynman diagrams]])**
+
+In the definition of [[finite multigraphs]] in def. \ref{Graphs} there are _no_ edges considered that go from any [[vertex]] to _itself_. Accordingly, there are _no_ such labeled edges in [[Feynman diagrams]] (def. \ref{FeynmanDiagram}):
+
+<center>
+  <img src="https://ncatlab.org/nlab/files/tadpole.png" width="70">
+</center>
+
+In [[pQFT]] these diagrams are called _[[tadpoles]]_, and their non-appearance is considered part of the _[[Feynman rules]]_ (prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints}).
+Via prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints} this condition reflects the nature of the [[star product]] ([this def.](star+product#PropagatorStarProduct)) which always contracts _different_ [[tensor product]] factors with the [[Feynman propagator]] before taking their pointwise product.
+
+Beware that in [[graph theory]] these [[tadpoles]] are called "[[loops]]", while here in [[pQFT]] a "loop" in a [[planar graph]] refers instead to what in [[graph theory]] is called a _[[face]]_ of the graph, see the discussion of _[[loop order]]_ in prop. \ref{FeynmanDiagramLoopOrder} below.
+
+=--
+
+([Keller 10, remark II.8 and proof of prop. II.7](#Keller10))
+
+
+
+
 
 $\,$
 
@@ -2906,7 +3075,7 @@ We have seen that the [[Feynman perturbation series]] expresses the [[S-matrix]]
 ###### Definition
 **([[connected graphs]])**
 
-Given two [[finite multigraphs]] $\Gamma_1, \Gamma_2 \in \mathcal{G}$ (def. \ref{Graphs}), their [[disjoint union]] 
+Given two [[finite multigraphs]] $\Gamma_1, \Gamma_2 \in \mathcal{G}$ (def. \ref{Graphs}), their [[disjoint union]]
 
 $$
   \Gamma_1 \sqcup \Gamma_2
@@ -2917,14 +3086,14 @@ $$
 is the finite multigraph whose set of [[vertices]] and set of [[edges]] are the [[disjoint unions]] of the corresponding sets of $\Gamma_1$ and $\Gamma_2$
 
 $$
-  V_{\Gamma_1 \sqcup \Gamma_2} 
-    \;\coloneqq\; 
+  V_{\Gamma_1 \sqcup \Gamma_2}
+    \;\coloneqq\;
   V_{\Gamma_1} \sqcup V_{\Gamma_2}
 $$
 
 $$
-  E_{\Gamma_1 \sqcup \Gamma_2} 
-    \;\coloneqq\; 
+  E_{\Gamma_1 \sqcup \Gamma_2}
+    \;\coloneqq\;
   E_{\Gamma_1} \sqcup E_{\Gamma_2}
 $$
 
@@ -3098,14 +3267,14 @@ $$
 By prop. \ref{TimeOrderedProductAwayFromDiagonal} the contributions to the S-matrix away from coinciding interaction points are given by the [[star product]] induced by the [[Feynman propagator]], and specifically, by prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints}, the [[Feynman amplitudes]] are given this way. Now by definition of the star product ([this def.](star+product#PropagatorStarProduct)) it is given by first contracting with powers of the [[Feynman propagator]] and then multiplying all resulting terms with the pointwise product of observables. From this and the nature of the combinatorial factor in the definition of the [[Feynman amplitudes]] (prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints}) it is clear that for
 
 $$
-  \Gamma 
-    \;=\; 
-  \Gamma_1 
-    \sqcup 
-  \Gamma_2 
-    \sqcup 
-    \cdots 
-    \sqcup 
+  \Gamma
+    \;=\;
+  \Gamma_1
+    \sqcup
+  \Gamma_2
+    \sqcup
+    \cdots
+    \sqcup
   \Gamma_n
   \;\in\; \mathcal{G}
 $$
@@ -3200,7 +3369,7 @@ $$
 
 where $L(\Gamma) \in \mathbb{N}$ is the number of _[[faces]]_ of the [[planar graph]] $\Gamma$, here called the _number of loops_ of the diagram.
 
-Accordingly, the order in $\hbar$ at which the [[Feynman amplitude]] of a [[planar graph|planar]] [[connected graph|connected]] [[Feynman diagram]] contributes is often referred to as the _loop order_. 
+Accordingly, the order in $\hbar$ at which the [[Feynman amplitude]] of a [[planar graph|planar]] [[connected graph|connected]] [[Feynman diagram]] contributes is often referred to as the _loop order_.
 
 (Beware the terminology clash with [[graph theory]], see the discussion of [[tadpoles]] in remark \ref{Tadpoles}.)
 
