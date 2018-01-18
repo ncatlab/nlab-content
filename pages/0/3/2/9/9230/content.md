@@ -26,9 +26,9 @@ For $\mu_S$ a [[Gaussian probability measure]] and $\exp(-I)\mu_S$ a perturbatio
 
 These graphs are called _Feynman diagrams_.
 
-### In quantum field theory
+### In perturbative quantum field theory
 
-Feynman graphs play a central role in [[perturbation theory]] in [[quantum field theory]] where $\exp(I)\mu_S$ plays the role of an [[action functional]] on a space of [[field (physics)|fields]], $\mu_S$ is the exponentiazed [[kinetic action]] and hence the [[measure]] for [[free fields]], while $\exp(I)$ is the [[interaction]] part of the [[action functional]]: the order-$k$ monomials in $I$ encode an interaction of $k$ [[field (physics)|fields]]. In this context the corresponding Feynman diagrams are traditionally thought of as depicting interaction processes of quanta of these fields, with propagation along the edges and interaction at the vertices. But this interpretation has its limits, which is partly reflected in speaking of "[[virtual particles]]".
+Feynman graphs play a central role in [[perturbative quantum field theory]], where $\exp(I)\mu_S$ plays the role of an [[action functional]] on a space of [[field (physics)|fields]], $\mu_S$ is the exponentiated [[kinetic action]] and hence the [[measure]] for [[free fields]], while $\exp(I)$ is the [[interaction]] part of the [[action functional]]: the order-$k$ monomials in $I$ encode an interaction of $k$ [[field (physics)|fields]]. In this context the corresponding Feynman diagrams are traditionally thought of as depicting interaction processes of quanta of these fields, with propagation along the edges and interaction at the vertices. But this interpretation has its limits, which is partly reflected in speaking of "[[virtual particles]]". A precise interpretation is given by _[[worldline formalism]]_.
 
 ## Details
 
@@ -271,7 +271,14 @@ and the second summand corresponds to the "theta" Feynman diagram of the form
 
 
 
-### In quantum field theory
+### In perturbative quantum field theory
+ {#DetailsForPerturbativeQuantumFieldTheory}
+
+For details see at 
+
+* [[S-matrix]] the section _[Feynman perturbation series](S-matrix#FeynmanDiagrams)_
+
+$\,$
 
 [[!include Wick algebra -- table]]
 
