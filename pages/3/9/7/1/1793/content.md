@@ -122,7 +122,7 @@ called the **injective model structure**.
 
 =--
 
-This model structure on $Ch^{\bullet \geq 0}$ is originally due to
+The projective model structure on $Ch_{\bullet \geq 0}$ is originally due to
 ([Quillen II, section 4](#Quillen)).
 An account is given for instance in ([Dungan, 2.4.2, proof in section 2.5](#Dungan)).
 
