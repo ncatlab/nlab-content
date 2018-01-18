@@ -31,7 +31,7 @@ $$F\colon Quiv \to Cat $$
 
 sending each quiver to the [[free category]] on that quiver.
 
-A quiver is a kind of [[graph]] and is often called a [[directed graph]] (or [[digraph]]) by category theorists.  However, in the context of graph theory, the term "directed graph" is often taken to mean that there is at most one edge from one vertex to another. See [[directed graph]].
+A quiver is a kind of [[graph]] and is often called a [[directed graph]] (or [[digraph]]) by category theorists.  Beware that in [[graph theory]], the term "directed graph" is often taken to mean that there is at most one edge from one vertex to another, for emphasis that a quiver allows more edges between vertices one also speaks of _directed [[pseudographs]]_. See at _[[directed graph]]_ for more.
 
 
 ## Definitions
@@ -158,25 +158,25 @@ Some general-purpose references include
 
 Classification results for quivers appeared in 
 
-* [[Peter Gabriel]], _Unzerlegbare Darstellungen. I_, Manuscripta Mathematica 6: 71&#8211;103, (1972) [MR332887](http://www.ams.org/mathscinet-getitem?mr=332887) [doi](http://dx.doi.org/10.1007/BF01298413) 
- {#Gabriel72}
+* {#Gabriel72} [[Peter Gabriel]], _Unzerlegbare Darstellungen. I_, Manuscripta Mathematica 6: 71&#8211;103, (1972) [MR332887](http://www.ams.org/mathscinet-getitem?mr=332887) [doi](http://dx.doi.org/10.1007/BF01298413) 
+ 
 
 Quivers (referred to as _directed pseudographs_) were a tool in parts of the work of Ringel and Youngs in the second half the twentieth century to prove Heawood's formula for every finite genus, cf. e.g. Fig. 2.3 the monograph 
 
-* Gerhard Ringel: _Map Color Theorem_. Springer. Grundlehren Band 209. 1974
-{#Ringel1974}
+* {#Ringel1974} Gerhard Ringel: _Map Color Theorem_. Springer. Grundlehren Band 209. 1974
+
 
 Beware that, strictly speaking, for Ringel, "quiver" means "embedded quiver" (into a given surface);  in particular the author distinguishes between the two possible  orientations of an embedded loop.
 
 Quivers embedded in surfaces are studied in: 
 
-* Arthur T. White: _Graphs, Groups and Surfaces_. North Holland. Completely revised and enlarged edition (1985)
-{#White84}
+* {#White84} Arthur T. White: _Graphs, Groups and Surfaces_. North Holland. Completely revised and enlarged edition (1985)
+
 
 A special kind of quiver (finite, no loops, no parallel arcs) is treated in
 
-* [[Gregory Gutin]], [[Jørgen Bang-Jensen]]: _Digraphs: Theory, Algorithms and Applications_. Springer Monographs in Mathematics. Second Edition (2009)
-{#DG2nd}
+* {#DG2nd} [[Gregory Gutin]], [[Jørgen Bang-Jensen]]: _Digraphs: Theory, Algorithms and Applications_. Springer Monographs in Mathematics. Second Edition (2009)
+
 
 
 * [[William Lawvere]]: _Qualitative Distinctions Between Some Toposes of Generalized Graphs_, Contemporary Mathematics 92 (1989) 
