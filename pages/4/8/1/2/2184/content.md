@@ -40,11 +40,11 @@ We are now ready for the first batch of definitions.
 
 *  For a __simple graph__, a pair of vertices is a [[subset]] of $V$ of [[cardinality]] $2$, and we interpret edges as unordered pairs of vertices in a one-to-one way.  Thus a simple graph is given by $V$, $E$, and an [[injective function]] $d: E \hookrightarrow \left({V \atop 2}\right)$.  Among graph theorists, this is often the default meaning of 'graph' unless another is specified.
 
-*  For a __multigraph__, a pair of vertices is the same as above, but we interpret edges as pairs of vertices in a many-to-one way.  Thus a multigraph is given by $V$, $E$, and an arbitrary [[function]] $d: E \to \left({V \atop 2}\right)$.
+*  For a __[[multigraph]]__, a pair of vertices is the same as above, but we interpret edges as pairs of vertices in a many-to-one way.  Thus a multigraph is given by $V$, $E$, and an arbitrary [[function]] $d: E \to \left({V \atop 2}\right)$.
 
 *  For a __loop graph__, a pair of vertices is any subset of the form $\{x,y\}$, where $x = y$ is allowed, and we interpret edges as pairs of vertices in a one-to-one way again.  Thus a loop-graph is given by $V$, $E$, and an injective function $d: E \hookrightarrow \left\langle{V \atop 2}\right\rangle$.
 
-*  For a __pseudograph__, a pair of vertices is as in a loop graph, while edges are interpreted as pairs of vertices as in a multigraph.  Thus a pseudograph is given by $V$, $E$, and a function $d: E \to \left\langle{V \atop 2}\right\rangle$.
+*  For a __[[pseudograph]]__, a pair of vertices is as in a loop graph, while edges are interpreted as pairs of vertices as in a multigraph.  Thus a pseudograph is given by $V$, $E$, and a function $d: E \to \left\langle{V \atop 2}\right\rangle$.
 
 Note:  While 'simple graph' is unambiguous, the other terms above are not.  In particular, 'multigraph' sometimes means a pseudograph, 'pseudograph' sometimes means a loop graph, and 'loop graph' sometimes means a pseudograph.  These could be made unambiguous by saying 'simple multigraph', 'simple loop graph', and 'multipseudograph', respectively, but we will try to keep our terminology short. 
 An oldfashioned (e.g. [p. 142](#Harary1953)) term for 'simple graph' is 'linear graph', traces of which remain in the usual term 'linear hypergraph' in combinatorics (i.e. hypergraph any two edges of which intersect in at most one element of the ground set).
@@ -81,7 +81,7 @@ $$
 Of course, since the source $s : E \to V$ and target $t : E \to V$ functions determine each other in the presence of the involution $i : E \to E$, it is enough to give, say, $s$ and $i$ to define an undirected graph.
 In that case, one might alternatively view $E$ as a set of "half-edges" or "flags" (with $i$ the involution swapping the two halves of an edge), and even lift the condition that $i$ has no fixed points to allow for the possibility of undirected graphs with "dangling" or "open" edges (i.e., with only one side attached to a vertex).
 
-Although this definition of undirected graphs with open edges is standard (cf. [[ribbon graph]]), [Kock (2016b)](#Kock2016BM) remarks that "it does not naturally lead to good notions of morphisms, beyond isomorphisms". A slight variation of this definition with a more natural notion of morphism was introduced by [Joyal and Kock (2009)](#JoyalKockQPL): they define a "Feynman graph" as a triple of finite sets $V, E, H$ together with a triple of a function $t : H \to V$, an injection $s : H \to E$, and a fixed point free involution $i : E \to E$. (See also [Kock (2016a)](#Kock2016GHP) for further discussion.)
+Although this definition of undirected graphs with open edges is standard (cf. [[ribbon graph]]), [Kock (2016b)](#Kock2016BM) remarks that "it does not naturally lead to good notions of morphisms, beyond isomorphisms". A slight variation of this definition with a more natural notion of morphism was introduced by [Joyal and Kock (2009)](#JoyalKockQPL): they define a "Feynman graph" as a triple of [[finite sets]] $V, E, H$ together with a triple of a function $t : H \to V$, an injection $s : H \to E$, and a fixed point free involution $i : E \to E$. (See also [Kock (2016a)](#Kock2016GHP) for further discussion.)
 
 ### Orientations
 
@@ -98,12 +98,12 @@ The term __arc__ is often used for an *ordered* edge, while __line__ is sometime
 
 Given any sort of graph, we can define a [[binary relation]] on $V$; say that $x$ and $y$ are __adjacent__, written $x \sim y$, if there exists an edge $e$ such that $d(e) = (x,y)$ or $d(e) = \{x,y\}$.  A directed loop graph is determined entirely by this relation; we may say that it *is* $V$ equipped with a binary relation.  Then a simple directed graph is $V$ equipped with an [[irreflexive relation]] (or equivalently a [[reflexive relation]]), and an undirected loop graph is $V$ equipped with a [[symmetric relation]].
 
-A graph is __finite__ if $V$ and $E$ are both [[finite sets]].  Given a [[linear ordering]] of the vertices of a finite graph, its __adjacency matrix__ is a square [[matrix]] whose $(i,j)$th entry gives the number of edges $e$ between the $i$th and $j$th vertices or from the $i$th vertex to the $j$th vertex.  In the examples above where a graph is determined by a binary relation on $V$, then matrix multiplication gives composition of relations.
+A graph is __[[finite graph|finite]]__ if $V$ and $E$ are both [[finite sets]].  Given a [[linear ordering]] of the [[vertices]] of a [[finite graph]], its __adjacency matrix__ is a square [[matrix]] whose $(i,j)$th entry gives the number of edges $e$ between the $i$th and $j$th vertices or from the $i$th vertex to the $j$th vertex.  In the examples above where a graph is determined by a binary relation on $V$, then matrix multiplication gives composition of relations.
 
 
 ##  Morphisms of graphs
 
-An __[[isomorphism]]__ from $G = (V,E,d)$ to $G' = (V',E',d')$ consists of a bijection $f: V \to V'$, together with a bijection from $E$ to $E'$ (also denoted $f$) such that $f$ commutes with $d$; that is, $d(f(e)) = (f(x),f(y))$ or $d(f(e)) = \{f(x),f(y)\}$ whenever $d(e) = (x,y)$ or $d(e) = \{x,y\}$ (as appropriate).  Two graphs $G$ and $G'$ are __isomorphic__ if there exists such an isomorphism.  Then finite graphs $G$ and $G'$ are isomorphic if and only if they have the same number of vertices and, for some ordering of their vertices, they have the same adjacency matrix.
+An __[[isomorphism]]__ from $G = (V,E,d)$ to $G' = (V',E',d')$ consists of a bijection $f: V \to V'$, together with a bijection from $E$ to $E'$ (also denoted $f$) such that $f$ commutes with $d$; that is, $d(f(e)) = (f(x),f(y))$ or $d(f(e)) = \{f(x),f(y)\}$ whenever $d(e) = (x,y)$ or $d(e) = \{x,y\}$ (as appropriate).  Two graphs $G$ and $G'$ are __isomorphic__ if there exists such an isomorphism.  Then [[finite graphs]] $G$ and $G'$ are isomorphic if and only if they have the same number of vertices and, for some ordering of their vertices, they have the same adjacency matrix.
 
 A __[[morphism]]__ from $G$ to $G'$ should consist of functions $f: V \to V'$ and $f: E \to E'$ such that $f$ commutes with $d$.  However, some authors allow $f(e)$ to be undefined if $d(e) = (x,y)$ or $d(e) = \{x,y\}$ but $f(x) = f(y)$ when using a notion of graph where loops are forbidden.  The difference amounts to whether one interprets a simple graph as a special kind of loop graph in which no loops exist (the first kind of morphism) or in which each vertex has a unique loop (the second kind of morphism).  Either way, an isomorphism (as defined above) is precisely an invertible morphism.
 
@@ -285,3 +285,4 @@ Discussion of use of [[simplicial complexes]] in graph theory:
 [[!redirects simple directed graph]]
 [[!redirects simple directed graphs]]
 [[!redirects graph theory]]
+
