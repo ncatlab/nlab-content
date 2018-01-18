@@ -1,4 +1,4 @@
-## Quantum observables
+## Interacting quantum fields
  {#QuantumObservables}
 
 
