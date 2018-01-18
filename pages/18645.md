@@ -36,7 +36,7 @@ This comparatively simple setup already subsumes what is considered in tradition
 Further generalization, necessary for the discussion of global topological effects, such as [[instanton]] configurations
 of [[gauge fields]], will be discussed elsewhere (see at _[[homotopical algebraic quantum field theory]]_).
 
-Alongside the theory we develop the concrete examples of the [[real scalar field]], the [[electromagnetic field]] and the [[Dirac field]]:
+Alongside the theory we develop the concrete examples of the [[real scalar field]], the [[electromagnetic field]] and the [[Dirac field]]; eventually combining these to a disussion of [[quantum electrodynamics]].
 
 **running examples**
 {#RunningExamples}
@@ -74,6 +74,45 @@ $\,$
 |------------------------------|------------------------|---------------|
 | [[phi^n theory]] | exp. \ref{phintheoryLagrangian} | expl. \ref{InWickAlgebraphinInteraction} |
 | [[quantum electrodynamics]] | expl. \ref{LagrangianQED} | expl. \ref{InWickAlgebraElectronPhotonInteraction} | 
+$\,$
+
+**References**
+ {#References}
+
+Pointers to the literature are given in each chapter, alongside the text. The following are a few selections of references.
+
+The discussion of [[spinors]] in chapter _[2. Spacetime](#Spacetime)_ follows [Baez-Huerta 09](spin+representation#BaezHuerta09).
+
+The [[functorial geometry]] of [[supergeometry|supergeometric]] [[spaces of field histories]] in _[3. Fields](#Fields)_ follows [Schreiber 13](higher+prequantum+geometry#Schreiber13). 
+
+For the [[jet bundle]]-formulation of [[variational calculus]] of [[Lagrangian field theory]] in _[4. Field variations](#FieldVariations)_, and _[5. Lagrangians](#Lagrangians)_ we follow [Anderson 89](variational+bicomplex#Anderson89) and [Olver 86](#Olver86); for _[6. Symmetries](#Symmetries)_ augmented by [Fiorenza-Rogers-Schreiber 13b](#higher+prequantum+geometry#FRS13b).
+
+The identification of [[polynomial observables]] with [[distributions]] in _[7. Observables](#Observables)_ was observed by [Paugam 12](distributions+are+the+smooth+linear+functionals#Paugam12).
+
+The discussion of the [[Peierls-Poisson bracket]] in _[8. Phase space](#PhaseSpace)_ is based on [Khavkine 14](Peierls+bracket#Khavkine14).
+
+The derivation of [[wave front sets]] of [[propagators]] in _[9. Propagators](#Propagators)_ takes clues from [Radzikowski 96](Hadamard+distribution#Radzikowski96) and uses results from [Gelfand-Shilov 66](Cauchy+principal+value#GelfandShilov66).
+
+For the general idea of [[BV-BRST formalism]] a good review is [Henneaux 90](BV-BRST+formalism#Henneaux90).
+
+The [[Lie algebroid]]-perspective on [[BRST complexes]] developed in chapter _[10. Gauge symmetries](#GaugeSymmetries)_, may be compared to [Barnich 10](BRST+complex#Barnich10).
+
+For the [[local BV-BRST complexes|local BV-BRST theory]] laid out in chapter _[11. Reduced phase space](#ReducedPhaseSpace)_ we are following [Barnich-Brandt-Henneaux 00](local+BRST+cohomology#BarnichBrandtHenneaux00).
+
+For the [[gauge fixing|BV-gauge fixing]] developed in _[12. Gauge fixing](#GaugeFixing)_ we take clues from [Fredenhagen-Rejzner 11a](BV-BRST+formalism#FredenhagenRejzner11a).
+
+For the free quantum [[BV-operators]] in _[13. Free quantum fields](#FreeQuantumFields)_ and the interacting [[quantum master equation]] in _[15. Interacting quantum fields](#QuantumObservables)_ we are following [Fredenhagen-Rejzner 11b](BV-BRST+formalism#FredenhagenRejzner11b), [Rejzner 11](BV-BRST+formalism#Rejzner11), which in turn is taking clues from [Hollands 07](BV-BRST+formalism#Hollands07).
+
+The discussion of [[quantization]] in _[13. Quantization](#Quantization)_ takes clues from [Hawkins 04](geometric+quantization+of+symplectic+groupoids#EH), [Collini 16](star+product#Collini16) and spells out the derivation of the [[Moyal star product]] from [[geometric quantization of symplectic groupoids]] due to [Gracia-Bondia & Varilly 94](Moyal+deformation+quantization#GBV).
+
+The perspective on the [[Wick algebra]] in _[14. Free quantum fields](#FreeQuantumFields)_ goes back to [Dito 90](Wick+algebra#Dito90) and was revived for [[pAQFT]] in [Dütsch-Fredenhagen 00](Wick+algebra#DuetschFredenhagen00). The proof of the folklore result that the perturbative [[Hadamard vacuum state]] on the [[Wick algebra]] is indeed a [[state on a star-algebra|state]] is cited from  [Dütsch 18](Wick#algebra#Duetsch18).
+
+The discussion of [[causal perturbation theory]] in _[15. Scattering](#Scattering)_ follows the original [Epstein-Glaser 73](causal+perturbation+theory#EpsteinGlaser73). The relevance here of the [[star product]] induced by the [[Feynman propagator]] was highlighted in ([Fredenhagen-Rejzner 12](perturbative+algebraic+quantum+field+theory#FredenhagenRejzner12)). Our derivation of [[Feynman diagrams|Feynman diagrammatics]] is due to [Keller 10](Feynman+diagram#Keller10).
+
+(...)
+
+
+
 $\,$
 
 **Acknowledgement**
@@ -123,8 +162,6 @@ $\,$
 [[!include A first idea of quantum field theory -- Scattering]]
 
 [[!include A first idea of quantum field theory -- Quantum observables]]
-
-[[!include A first idea of quantum field theory -- Feynman diagrams]]
 
 [[!include A first idea of quantum field theory -- Renormalization]]
 
