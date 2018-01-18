@@ -681,8 +681,8 @@ $$
 ###### Proposition
 **([[causal additivity]] in terms of [[generating functions]])**
 
-In terms of the [[generating functions]] $\mathcal{Z}$ (def. \ref{SchemeGeneratingFunction}) the axiom "causal additivity"
-on the [[S-matrix]] scheme $\mathcal{S}$ (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) is equivalent to
+In terms of the [[generating functions]] $\mathcal{Z}$ (def. \ref{SchemeGeneratingFunction}) the axiom "[[causal additivity]]"
+on the [[S-matrix]] scheme $\mathcal{S}$ (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) is equivalent to:
 
 * ([[causal additivity]] in terms of $\mathcal{Z}$)
 
@@ -2873,7 +2873,7 @@ $$
   \mathbf{L}' \;=\; \mathbf{L}'_{sp_1} + \cdots + \mathbf{L}'_{sp_n}
 $$
 
-of [[free field theory|free]] [[Lagrangian densities]] 
+of [[free field theory|free]] [[Lagrangian densities]]
 
 $$
   \mathbf{L}'_{sp_i} \in \Omega^{p+1,0}_\Sigma(E_i)
@@ -3567,147 +3567,332 @@ see ([Collini 16, section 2.2](#Collini16)).
 
 $\,$
 
-It is useful now to reformulate the [[causal additivity]]-property of the perturbative S-matrix
-in terms of the generating functions / [[retarded products]]:
-
-+-- {: .num_lemma #CausalLocalityOfThePerturbativeSMatrix}
++-- {: .num_lemma}
 ###### Lemma
-**(causal locality of the perturbative S-matrix)**
+**(change of [[adiabatic switching]]] induces [[isomorphism]] on local [[interacting field algebras]])**
 
-Let $S$ be a perturbative S-matrix according to def. \ref{LagrangianFieldTheoryPerturbativeScattering}
-with $Z$ the generating functional (eq:GeneratingFunctionInducedFromSMatrix) it induces
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}, let $\mathcal{S}$ be a corresponding [[S-matrix]] scheme according to def. \ref{LagrangianFieldTheoryPerturbativeScattering}, and let
 
-1. The following conditions are equivalent for all $L, J_1, J_2 \in \mathcal{F}_{loc}$:
+$$
+  \mathbf{L}_{int}
+  \;\in\;
+  \Omega^{p+1,0}_\Sigma(E_{\text{BV-BRST}})[ [ \hbar , g ,j ] ]
+$$
 
-   1. $Z_L(J_1 + J_2) = Z_L(J_1) Z_L(J_2)$
+be a [[Lagrangian density]], to be thought of as an [[interaction]], so that for $g_{sw} \in C^\infty_{sp}(\Sigma)\langle g \rangle$
+an [[adiabatic switching]] the [[transgression of variational differential forms|transgression]]
 
-   1. $Z_{L + J_1}(J_2) = Z_L(J_2)$
+$$
+  S_{int,sw} \;\coloneqq\; g \tau_\Sigma(g_{sw} \mathbf{L}_{int})
+  \;\in\;
+  LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]
+$$
 
-   1. $S(L + J_1 + J_2) = S(L + J_1) \, S(L)^{-1} \, S(L + J_2)$
+is a [[local observable]], to be thought of as an [[adiabatic switching|adiabatically switched]] [[interaction]] [[action functional]].
 
-   Hence causal additivity in def. \ref{LagrangianFieldTheoryPerturbativeScattering}
-implies that all these conditions hold if $supp(J_1) {\vee\!\!\!\wedge} supp(J_2)$.
+If two such [[adiabatic switchings]] $g_{sw,1}, g_{sw,2} \in C^\infty_{cp}(\Sigma)$ agree on a
+[[causally closed subset]]
 
+$$
+  \mathcal{O} \;\subset\; \Sigma
+$$
 
-1. If $supp(J_1)$ is [[spacelike]] separted from $supp(J_1)$, hence if the [[causal ordering]] is
-   $supp(J_1) {\vee\!\!\!\wedge} supp(J_2)$ and $supp(J_2) {\vee\!\!\!\wedge} supp(J_1)$ then
+in that 
 
-   $$
-     Z_{L_{int}}(J_1) Z_{L_{int}}(J_2) = Z_{L_{int}}(J_2) J_{L_{int}}(J_1)
-     \,.
-   $$
+$$
+  g_{sw,1}\vert_{\mathcal{O}} = g_{sw,2}\vert_{\mathcal{O}}
+$$
 
+then there exists a [[microcausal polynomial observable]]
 
-   Similarly, if $supp(L_1) {\vee
-\!\!\!\wedge} supp(L_2)$ and $supp(L_2) {\vee\!\!\!\wedge} supp(L_1)$ then
+$$
+  K \;\in\; PolyObs(E_{\text{BV-BRST}})[ [ \hbar, g, j ] ]
+$$
 
-   $$
-     S(L_1) \, S(L_2) = S(L_2) \, S(L_1)
-     \,.
-   $$
+such that for every [[local observable]]
 
+$$
+  A \;\in\; LocObs(E_{\text{BV-BRST}})[ [ \hbar, g ] ] 
+$$
 
+with spacetime support in $\mathcal{O}$
 
-1. {#ChangeOfAdiabaticSwitchingAlgebraIso} If $L_1\vert_{O} = L_2\vert_{O}$ on a [[causally closed subset]] $O \subset \mathbb{R}^{d-1,1}$ then there exists an invertible $K \in \mathcal{W}[ [ g/\hbar] ]$ such that for all $J$ with $supp(J) \subset O$ it relates $Z_{L_1}(J)$ to $Z_{L_2}(J)$ by [[conjugation]]:
+$$
+  supp(A) \;\subset\; \mathcal{O}
+$$
 
-   $$
-     Z_{L_2}(J) = K^{-1} \, Z_{L_1}(J) \, K
-     \,.
-   $$
+the corresponding two [[generating functions]] (eq:GeneratingFunctionInducedFromSMatrix)
+are related via [[conjugation]] by $K$:
+
+$$
+  \mathcal{Z}_{S_{int,sw_2}}
+  \left(
+    {\, \atop \,}
+      j A
+    {\, \atop \,}
+  \right)
+  \;=\;
+  K^{-1}
+  \,
+  \mathcal{Z}_{S_{int,sw_1}}
+  \left(
+    {\, \atop \,}
+      j A
+    {\, \atop \,}
+  \right)
+  \,
+  K
+  \,.
+$$
+
 
 =--
+
 
 +-- {: .proof}
 ###### Proof
 
-The equivalence of the three conditions in the first statement is immediate from the definitions:
-
-Expanding out the definition of $V$, the first expression is equivalent to
+By causal closure of $\mathcal{O}$, [this lemma](A+first+idea+of+quantum+field+theory#CausalPartition)
+says that there are [[bump functions]]
 
 $$
-  S(L)^{-1} S(L + J_1 + J_2)
-    =
-  S(L)^{-1} S(L +  J_1 ) S(L)^{-1} S(L + J_2)
+  a, r \in C^\infty_{cp}(\Sigma)
+$$
+
+which decompose the difference of [[adiabatic switchings]]
+
+$$
+  g_{sw,2} - g_{sw,1} = a + r
+$$
+
+subject to the [[causal ordering]] 
+
+$$
+  supp(a) {\vee\!\!\!\wedge} \mathcal{O} {\vee\!\!\!\wedge} supp(r)
   \,.
 $$
 
-Multiplying both sides of this equation by $S(L)$, shows that it is equivalent to the third clause.
-
-Multiplying once more with $S(L + J_1)^{-1}$ this third equation is seen to be equivalent to
-
-$$
-  S(L + J_1)^{-1} S(L + J_1 + J_2) = S(L)^{-1} S(L + J_2)
-$$
-
-which is equivalently the second clause, by definition of $V$.
-
-Now the first clause of the first item immediately implies the first clause of the second item.
-
-Similarly, setting $L = 0$ and $J_1 = L_1$ and $J_2 = L_2$ in the third clause of the first item it
-reduces to
-
-$$
-  \left(
-    supp(L_1) {\vee\!\!\!\wedge} supp(L_2)
-  \right)
-   \;\Rightarrow\;
-  S(L_1 + L_2)
-  =
-  S(L_1)S(L_2)
-  \,.
-$$
-
-Hence if $supp(L_1) {\vee\!\!\!\wedge} supp(L_2)$ and $supp(L_2) {\vee\!\!\!\wedge} supp(L_1)$ then
-
-$$
-  S(L_1) S(L_2) = S(L_1 + L_2) = S(L_2 + L_1) = S(L_2) S(L_1)
-  \,,
-$$
-
-which is the second clause of the second statement to be shown.
-
-
-For the last statement, notice that by causal closure of
-$O$ the difference $L_2 - L_2$, which by assumption has
-$supp(L_2 - L_1) \in X \setminus O$,
-may, according to lemma \ref{CausalPartition}, be written as
-
-$$
-  L_2 - L_1 = a + r
-$$
-
-such that their [[causal order]] ([this def.](A+first+idea+of+quantum+field+theory#CausalOrdering)) is
-
-$$
-  supp(a) {\vee\!\!\!\wedge} supp(J) {\vee\!\!\!\wedge} supp(r)
-$$
-
-It follows with causal additivity and its equivalent formulations above that
+With this the result follows by from repeated use of [[causal additivity]] in its various equivalent
+incarnations from prop. \ref{ZCausalAdditivity}:
 
 $$
   \begin{aligned}
-    Z_{L_2}(J)
-      & =
-    Z_{L_1 + a + r}(J)
+    \mathcal{Z}_{S_{int,sw_2}}(j A)
+    & =
+    \mathcal{Z}_{
+      \left(
+        \tau_\Sigma
+        \left(
+          g_{sw,2}
+          \mathbf{L}_{int}
+        \right)
+      \right)
+    }
+    \left(
+      j A
+    \right)
     \\
-      & =
-    Z_{L_1 + r}(J)
+    & =
+    \mathcal{Z}_{
+      \left(
+        \tau_\Sigma
+        \left(
+          (g_{sw,1} + a + r)\mathbf{L}_{int}
+        \right)
+      \right)
+    }
+    \left(
+      j A
+    \right)
     \\
-      & =
-    S(L_1 + r)^{-1} \, S(L_1 + r + J)
+    & =
+    \mathcal{Z}_{
+      \left(
+        \tau_\Sigma
+        \left(
+          g_{sw,1} \mathbf{L}_{int}
+        \right)
+        +
+        \tau_\Sigma
+        \left(
+          r \mathbf{L}_{int}
+        \right)
+        +
+        \tau_\Sigma
+        \left(
+          a \mathbf{L}_{int}
+        \right)
+      \right)
+    }
+    \left(
+      j A
+    \right)
     \\
-      & =
-    S(L_1 + r)^{-1} \, S(J + L_1) \, S(L_1)^{-1} \, S(L_1 + r)
+    & =
+    \mathcal{Z}_{
+      \left(
+        \tau_\Sigma
+        \left(
+          g_{sw,1} \mathbf{L}_{int}
+        \right)
+        +
+        \tau_\Sigma
+        \left(
+          r \mathbf{L}_{int}
+        \right)
+      \right)
+    }
+    \left(
+      j A
+    \right)
     \\
-      & =
-    S(L_1 + r)^{-1} \underset{= id}{\underbrace{S(L_1) S(L_1)^{-1}}} S(L_1 + J) \, S(L_1)^{-1} \, S(L_1 + r)
+    & =
+    \mathcal{S}
+    \left(
+      S_{int,sw_1}
+      +
+      \tau_\Sigma
+      \left(
+        r \mathbf{L}_{int}
+      \right)
+    \right)^{-1}
+    \,
+    \mathcal{S}
+    \left(
+      S_{int,sw_1}
+      +
+      j A
+      +
+      \tau_\Sigma
+      \left(
+        r \mathbf{L}_{int}
+      \right)
+    \right)
     \\
-      & =
-    Z_{L_1}(r)^{-1} \, Z_{L_1}(J) \, Z_{L_1}(r)
+    & =
+    \mathcal{S}
+    \left(
+      S_{int,sw_1}
+      +
+      \tau_\Sigma
+      \left(
+        r \mathbf{L}_{int}
+      \right)
+    \right)^{-1}
+    \,
+    \mathcal{S}
+    \left(
+      S_{int,sw_1}
+      +
+      j A
+    \right)
+    \,
+    \mathcal{S}
+    \left(
+      S_{int,sw_1}
+    \right)^{-1}
+    \,
+    \mathcal{S}
+    \left(
+      j A
+      +
+      \tau_\Sigma
+      \left(
+        r \mathbf{L}_{int}
+      \right)
+    \right)
+    \\
+    & =
+    \mathcal{S}
+    \left(
+      S_{int,sw_1}
+      +
+      \tau_\Sigma
+      \left(
+        r\mathbf{L}_{int}
+      \right)
+    \right)^{-1}
+    \,
+    \underset{
+      = id
+    }{
+    \underbrace{
+    \mathcal{S}
+    \left(
+      S_{int,sw_1}
+    \right)
+    \,
+    \mathcal{S}
+    \left(
+      S_{int,sw_1}
+    \right)^{-1}
+    }
+    }
+    \,
+    \mathcal{S}
+    \left(
+      S_{int,sw_1}
+      +
+      j A
+    \right)
+    \,
+    \mathcal{S}
+    \left(
+      S_{int,sw_1}
+    \right)^{-1}
+    \,
+    \mathcal{S}
+    \left(
+      j A
+      +
+      \tau_\Sigma
+      \left(
+        r \mathbf{L}_{int}
+      \right)
+    \right)
+    \\
+    & =
+    \underset{
+      K^{-1}
+    }{
+      \underbrace{
+        \left(
+          \mathcal{Z}_{
+            S_{int,sw_1}
+          }
+          \left(
+            \tau_\Sigma
+            \left(
+              r \mathbf{L}_{int}
+            \right)
+          \right)
+        \right)^{-1}
+      }
+    }
+    \,
+    \mathcal{Z}_{
+      S_{int,sw_1}
+    }
+    \left(
+      j A
+    \right)
+    \,\,
+    \underset{
+      K
+    }{
+    \underbrace{
+    \mathcal{Z}_{
+      S_{int,sw_1}
+    }
+    \left(
+      \tau_\Sigma
+      \left(
+        r \mathbf{L}_{int}
+      \right)
+    \right)
+    }}
   \end{aligned}
 $$
-
-and hence the last statement holds for $K \coloneqq Z_{L_1}(r)$.
 
 =--
 
