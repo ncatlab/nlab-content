@@ -3031,7 +3031,7 @@ $$
   \mathcal{S}(g S_{int} + j A)
   \;=\;
   \underset{(\Gamma,L) \in \mathcal{G}^{Sp}}{\sum}
-   \Gamma_{norm}\left( (L_e)_{e \in E_\Gamma}, (g S_{int,i} + j A_i )_{i \in V_\Gamma}\right)
+   \Gamma_{norm}\left( (L_e)_{e \in E_\Gamma}, (g S_{int} + j A )_{i \in V_\Gamma}\right)
   \,,
 $$
 
@@ -3468,8 +3468,7 @@ $\,$
 
 > notation needs to be harmonized with the above...
 
-A genuine local [[observable]] should depend on the values of the [[fields]] on some [[compact subset]]
-of spacetime. Moreover, a perturbative [[quantum observable]] should be a [[power series]] in [[Planck's constant]] $\hbar$,
+A genuine local [[observable]] should depend on the values of the [[fields]] on some [[compact subset]] of spacetime. Moreover, a perturbative [[quantum observable]] should be a [[power series]] in [[Planck's constant]] $\hbar$,
 reducing to the corresponding classical observable at $\hbar = 0$. The perturbative S-matrix axiomatized [above](#PerturbativeSMatrixAndTimeOrderedProducts)
 is neither localized in spacetime this way, nor is it a power series in $\hbar$ (it is a [[Laurent series]] in $\hbar$).
 So it is not a local observable. But the actual [[quantum observables on interacting fields]] may be expressed in terms of the S-matrix
