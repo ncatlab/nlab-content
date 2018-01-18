@@ -52,7 +52,7 @@ $$
   \,.
 $$
 
-Properly interpreted (see at _[Yang-Mills instanton -- from the correct maths to the traditional physics story](Yang-Mills instanton#FromTheMathsToThePhysicsStory)_) this is the _local_ expression for the [[connection on a 3-bundle|3-connection]] on the [[Chern-Simons line 3-bundle]] associated with the gauge field. If the latter is globally nontrivial in that it is in an _[[instanton]]_-sector (has nontrivial [[second Chern class]]), then the [[integral]] of $\langle F\wedge F\rangle$ over closed manifolds is an integer -- the "[[instanton]] number" -- and in conclusion there is baryon generation proportional to this number (physics lingo also: _sphaleron transitions_).
+Properly interpreted (see at _[Yang-Mills instanton -- from the correct maths to the traditional physics story](Yang-Mills+instanton#FromTheMathsToThePhysicsStory)_) this is the _local_ expression for the [[connection on a 3-bundle|3-connection]] on the [[Chern-Simons line 3-bundle]] associated with the gauge field. If the latter is globally nontrivial in that it is in an _[[instanton]]_-sector (has nontrivial [[second Chern class]]), then the [[integral]] of $\langle F\wedge F\rangle$ over closed manifolds is an integer -- the "[[instanton]] number" -- and in conclusion there is baryon generation proportional to this number (physics lingo also: _sphaleron transitions_).
 
 Notice that this would mean that baryons "are" a kind of topological twist, different from, but not entirely unlike to the old idea of _[[On Vortex Atoms]]_. See there at _[Similarlity to concepts of modern particle physics](On+Vortex+Atoms#SimilarityToParticlePhysics)_
 
@@ -173,11 +173,11 @@ A good review of the axial anomaly is in
 
 and of the resulting [[phenomenology]] of baryon number non-conservation is in
 
-* {#Dine90} [[Michael Dine]], _Baryon number violation at high-energy in the standard model: Fact or fiction?_ Sep 1990 , Review includes ([spire](https://inspirehep.net/record/299206?ln=de), [pdf](http://www.slac.stanford.edu/cgi-wrap/getdoc/ssi90-020.pdf))
+* {#Dine90} [[Michael Dine]], _Baryon number violation at high-energy in the standard model: Fact or fiction?_ Sep 1990, ([spire](https://inspirehep.net/record/299206?ln=de), [pdf](http://www.slac.stanford.edu/cgi-wrap/getdoc/ssi90-020.pdf))
+
+Review includes 
 
 * Heidi Kuismanen, section 2 of _Leptogenesis as the origin of matter-antimatter asymmetry in extra dimensionaL and supersymmetric modeLs_ ([[KuismanenBaryogenesis.pdf:file]])
-
-Further review includes
 
 * V.A. Rubakov, [[Mikhail Shaposhnikov]], _Electroweak Baryon Number Non-Conservation in the Early Universe and in High Energy Collisions_, Usp.Fiz.Nauk 166:493-537,1996; Phys.Usp.39:461-502,1996 ([arXiv:hep-ph/9603208](https://arxiv.org/abs/hep-ph/9603208))
 
