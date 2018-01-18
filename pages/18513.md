@@ -548,6 +548,7 @@ Recall the following facts:
 Using this we compute as follows:
 
 $$
+  \label{CausallyOrderedWickProductViaFeynmanPropagator}
   \begin{aligned}
     A_1 \underset{\Delta_{F}}{\star} A_2
     \;
