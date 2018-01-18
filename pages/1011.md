@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
 # Finite categories
 * table of contents
 {: toc}
@@ -27,6 +38,8 @@ One is often interested in whether an arbitrary category $D$ has [[limit]]s and 
 ## Related concepts
 
 * [[finite set]]
+
+* [[finite graph]]
 
 * [[finite homotopy type]]
 
