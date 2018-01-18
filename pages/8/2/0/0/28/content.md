@@ -275,7 +275,7 @@ such that
 
 
 For $\mathcal{G}_1, \mathcal{G}_2$  two groupoids and $F, G, H \colon \mathcal{G}_1  \longrightarrow \mathcal{G}_2$
-three functors between them and $\eta_1 \;\colon\; F \Rihtarrow G$ and $\eta_2 \;\colon\; G \Rightarrow H$
+three functors between them and $\eta_1 \;\colon\; F \Rightarrow G$ and $\eta_2 \;\colon\; G \Rightarrow H$
 conjugation actions/natural isomorphisms between these, there is the composite
 
 $$
