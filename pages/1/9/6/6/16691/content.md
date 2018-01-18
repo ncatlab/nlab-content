@@ -51,4 +51,4 @@ Claims that proton decay may be entirely avoided in [[GUTs]] after all are discu
 
   (claims that many [[string theory]] and [[supergravity]] models have this property)
 
-* {#FornalGrinstein17} Bartosz Fornal, Benjamin Grinstein, _$SU(5)$ Unification without Proton Decay_, Physics Review Letters ([arXiv:1706.08535](https://arxiv.org/abs/1706.08535))
+* {#FornalGrinstein17} Bartosz Fornal, Benjamin Grinstein, _$SU(5)$ Unification without Proton Decay_, Phys. Rev. Lett. 119, 241801 (2017) ([arXiv:1706.08535](https://arxiv.org/abs/1706.08535))
