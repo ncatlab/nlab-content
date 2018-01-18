@@ -643,7 +643,7 @@ This expression for the inverse of S-matrix may usefully be re-ordganized in ter
 Given a perturbative [[S-matrix]] scheme (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) it immediately
 induces a corresponding concept of [[observables]]:
 
-+-- {: .num_defn s#SchemeGeneratingFunction}
++-- {: .num_defn #SchemeGeneratingFunction}
 ###### Definition
 **([[generating function]] scheme for [[interacting field observables]])**
 
@@ -681,7 +681,7 @@ $$
 ###### Proposition
 **([[causal additivity]] in terms of [[generating functions]])**
 
-In terms of the [[generating functions]] $\mathcal{Z}$ (def. \ref{SchemeGeneratingFunction}) the axiom "causal additivity" 
+In terms of the [[generating functions]] $\mathcal{Z}$ (def. \ref{spring}) the axiom "causal additivity" 
 on the [[S-matrix]] scheme $\mathcal{S}$ (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) is equivalent to
 
 * ([[causal additivity]] in terms of $\mathcal{Z}$)
@@ -2367,58 +2367,76 @@ The idea of this statement goes back at least to [Epstein-Glaser 73](#EpsteinGla
 +-- {: .proof}
 ###### Proof
 
-First we need to see that the star product $\star_F$ is well defined on the given domain, in that [[Hörmander's criterion]] is met to guarantee that all [[products of distributions]] involved in expanding out the [[exponential]] in the definition of the star-product are well defined:
+By [[induction]] over the number of arguments, it is sufficient to see that, more generally, for $A_1, A_2 \in PolyObs(E_{\text{BV-BRST}})_{mc}[ [ \hbar, g, j] ]$ two [[microcausal polynomial observables]] with disjoint spacetime support the star product $A_1 \star_F A_2$ is well-defined and satisfies causal factorization.
 
-We proceed by [[induction]] over the number $k$ of arguments.
-
-For $k = 1$ there is nothing to be shown. So assume by [[induction]] that the $\Delta_F$-star product of $k$ local observables with pairwise disjoint spacetime support exists as a [[microcausal polynomial observable]] $A_{mc} = A_1 \star_F \cdots \star_F A_k$. We need to see that for $A_{k+1}$ any [[local observable]] whose spacetime support is disjoint from that of all of the $A_i$, hence disjoint from that of $A_{mc}$, the star product $A_{k+1} \star_F A_{mc}$ exists and is again microcausal.
-
-Now since one of the two arguments of the [[star product]] is assumed to be a [[local observable]], the [[products of distributions]] that appear in the star product are of the form (written in [[generalized function]]-notation)
+Consider two [[partitions of unity]] 
 
 $$
-  \underset{ { (y_i) \in \Sigma^k } \atop { y_i \neq y_j \,\text{for}\, i \neq j } }{\int}
-  \left(
-    \underset{i \in \{1, \cdots, k\}}{\prod} D^{n_i}_x\Delta_H(x,y_i)
-  \right)
-  \alpha^{(n)}( y_1, \cdots, y_k, z_1, \cdots, z_m)
-  \,
-  d y_1 \, \cdots \, d y_k
-  \,,
+  (\chi_{1,i} \in C^\infty_{cp}(\Sigma))_{i}
+  \phantom{AAA}
+  (\chi_{1,j} \in C^\infty_{cp}(\Sigma))_{j}
 $$
 
-where $D^{n_i}_x$ denotes [[partial derivatives|partial]] [[derivatives of distributions]] with respect to $x$, and where $\alpha^{(n)}$ are the [[distribution|distributional]] [[coefficients]] of the [[polynomial observable]] $A_{mc}$, and where $x \neq y$, by assumption.
-
-Since the [[derivative of distributions]] preserves or shrinks the [[wave front set]] (by [this prop.](derivative+of+a+distribution#DerivativeOfDistributionRetainsOrShrinksWaveFrontSet)) it is sufficient to see that among these the expressions those of the simpler form
+and write $(A_{1,i})_i$ and $(A_{2,j})_{j}$ for the collection of [[microcausal polynomial observables]] obtained by multiplying all the [[distribution|distributional]] [[coefficients]] of $A_1$ and of $A_2$ with $\chi_{1,i}$ and with $\chi_{2,j}$, respectively, for all $i$ and $j$, hence such that
 
 $$
-  \label{ContractionsAppearingInStarProductOfLocalWithMicrocausalObservable}
-  \underset{ { (y_i) \in \Sigma^k } \atop { y_i \neq y_j \,\text{for}\, i \neq j } }{\int}
-   \left(
-     \underset{i \in \{1, \cdots, k\}}{\prod}\Delta_H(x,y_i)
-   \right)
-   \alpha^{(n)}(y_1, \cdots, y_k, z_1, \cdots, z_m)
-   \, d y_1 \, \cdots \, d y_k
+  A_1 \;=\; \underset{i}{\sum} A_{1,i}
+  \phantom{AAA}
+  A_2 \;=\; \underset{j}{\sum} A_{1,j}
+  \,.
 $$
 
-exist as partial [[products of distributions|products of]] [[distributions of several variables]]. 
+By linearity, it is sufficient to prove that $A_{1,i} \star_F A_{2,j}$ is well defined for all $i,j$ and satisfies causal factorization.
 
-Now by [this prop.](Feynman+propagator#WaveFronSetsForKGPropagatorsOnMinkowski) the [[wave front set]] of the Feynman propagator $\Delta_H(x,y)$ contains [[wave vectors]] along $x$ in the [[closed future cone]] of [[covectors]] based on the [[future]] [[light cone]] of $(x-y)$, as well as [[wave vectors]] in the [[closed past cone]] of [[covectors]] based on the [[past]] [[light cone]]:
+Since the spacetime supports of $A_1$ and $A_2$ are assumed to be disjoint
 
-<center>
-<img src="https://ncatlab.org/nlab/files/FeynmanPropagator.png" width="60">
-</center>
+$$
+  supp(A_1) \cap supp(A_2) \;=\; \emptyset
+$$
 
-and similary but with opposite sign for $y$.
+we may find partitions such that each resulting pair of smaller supports is in fact in [[causal order]]-relation:
 
-This implies first of all that [[Hörmander's criterion]] for the existence of the product $\unerset{i}{\prod}\Delta_H(x,y_i)$ is satisfied (since the wave front wave vectors at $x$ and at $y$ are all in the [[closed future cone]] or all in the [[closed past cone]] for $x\neq y$, their sum never adds up to zero). Moreover, by [this prop.](product+of+distributions#WaveFrontSetOfProductOfDistributionsInsideFiberProductOfFactorWaveFrontSets) the resulting product has wave front set contained in the fiberwise sum of the wave front sets of the factors, hence is still of the same general form.
+$$
+  \array{
+    \left(
+      supp(A_1) \cap supp(\chi_{1,i})
+    \right)
+       {\vee\!\!\!\wedge}
+    \left(
+      supp(A_2) \cap supp(\chi_{2,j})
+    \right)
+    \\
+    \text{or}
+    \\
+    \left(
+      supp(A_2) \cap supp(\chi_{2,j})
+    \right)
+       {\vee\!\!\!\wedge}
+    \left(
+      supp(A_1) \cap supp(\chi_{1,u})
+    \right)
+  }
+  \phantom{AAAAA}
+  \text{for all}\,\, i,j
+  \,.
+$$
 
-With this, finally [this prop.](product+of+distributions#PartialProductOfDistributionsOfSeveralVariables) implies, with the microcausal assumption on $\alpha^{(k)}$, that also the expression (eq:ContractionsAppearingInStarProductOfLocalWithMicrocausalObservable) is defined, and a careful look at [this equation](product+of+distributions#eq:CompositionOfIntegralKernelsWaveFronConstraint) shows that that if $\alpha^{(k)}(y_1, \cdots, y_k, z_1 \cdots, z_m)$ has a wave front wave vector future or past pointing at $y_i$ then the contraction (eq:ContractionsAppearingInStarProductOfLocalWithMicrocausalObservable) has the  wave front wave vector (if any) at the corresponding $x$ also pointing future or past, respectively. This shows that the distribution in (eq:ContractionsAppearingInStarProductOfLocalWithMicrocausalObservable) satisfies the microcausality condition if $\alpha^{(k)}$ does. 
+But now it follows as in the proof of [this prop.](Wick+algebra#CausalOrderingTimeOrderedProductOnRegular) (via [this equation](Wick+algebra#eq:CausallyOrderedWickProductViaFeynmanPropagator)) that
 
-This proves that the star product exists as claimed.  
+$$
+  A_{1,i}
+   \star_F
+  A_{2,j}
+  \;=\;
+  \left\{
+    \array{
+      A_{1,i} \star_H A_{2,j} &\vert& supp(A_{1,i}) {\vee\!\!\!\wedge} supp(A_{2,j})
+      \\
+      A_{2,j} \star_H A_{1,i} &\vert& supp(A_{2,j}) {\vee\!\!\!\wedge} supp(A_{1,i})
+  }
+  \right.
+$$
 
-Given that it exists, then by construction it is immediate that it satisfies the axioms "perturbation" and "normalization" in def. \ref{TimeOrderedProduct}.
-
-The only non-trivial point to check is that it indeed satisfies "[[causal factorization]]". In [this prop.](Wick+algebra#CausalOrderingTimeOrderedProductOnRegular) this is proven for $\star_F$ applied to [[regular polynomial observables]], but the proof manifestly applies whenever $\star_F$ is defined. The proof there also makes manifest that when defined, then $\star_F$ is in fact the _unique_ solution to causal factorization.
 
 Finally the [[associativity]]-statement follows as in [this prop.](star+product#AssociativeAndUnitalStarProduct).
 
@@ -3326,7 +3344,8 @@ implies that all these conditions hold if $supp(J_1) {\vee\!\!\!\wedge} supp(J_2
    $$
 
 
-   Similarly, if $supp(L_1) {\vee\!\!\!\wedge} supp(L_2)$ and $supp(L_2) {\vee\!\!\!\wedge} supp(L_1)$ then
+   Similarly, if $supp(L_1) {\vee
+\!\!\!\wedge} supp(L_2)$ and $supp(L_2) {\vee\!\!\!\wedge} supp(L_1)$ then
 
    $$
      S(L_1) \, S(L_2) = S(L_2) \, S(L_1)
