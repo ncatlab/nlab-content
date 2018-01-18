@@ -1,4 +1,54 @@
 
+$$
+  A_1 \star_F A_2
+  \;=\;
+  \left\{
+    \array{
+       A_1 \star_H A_2 
+    }
+  \right.
+$$
+
+$$
+  A_{1,i}
+   \star_F
+  A_{2,j}
+  \;=\;
+  \left\{
+    \array{
+      A_{1,i} \star_H A_{2,j} &\vert& supp(A_{1,i}) {\vee\!\!\!\wedge} supp(A_{2,j})
+      \\
+      A_{2,j} \star_H A_{1,i} &\vert& supp(A_{2,j}) {\vee\!\!\!\wedge} supp(A_{1,i})
+  }
+  \right.
+$$
+
+$$
+  \array{
+    \left(
+      supp(A_1) \cap supp(\chi_{1,i})
+    \right)
+       {\vee\!\!\!\wedge}
+    \left(
+      supp(A_2) \cap supp(\chi_{2,j})
+    \right)
+    \\
+    \text{or}
+    \\
+    \left(
+      supp(A_2) \cap supp(\chi_{2,j})
+    \right)
+       {\vee\!\!\!\wedge}
+    \left(
+      supp(A_1) \cap supp(\chi_{1,u})
+    \right)
+  }
+  \phantom{AAAAA}
+  \text{for all}\,\, i,j
+$$
+
+
+
 $\Updownarrow$
 
 $$
