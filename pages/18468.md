@@ -203,7 +203,7 @@ The observation that this construction produces [[formal deformation quantizatio
 
 which was amplified in 
 
-* {#DutschFredenhagen01} [[Michael Dütsch]], [[Klaus Fredenhagen]], _Perturbative algebraic field theory, and deformation quantization_, in [[Roberto Longo]] (ed.), _Mathematical Physics in Mathematics and Physics, Quantum and Operator Algebraic Aspects_, volume 30 of Fields Institute Communications, pages 151&#8211;160. American Mathematical Society, 2001
+* {#DuetschFredenhagen01} [[Michael Dütsch]], [[Klaus Fredenhagen]], _Perturbative algebraic field theory, and deformation quantization_, in [[Roberto Longo]] (ed.), _Mathematical Physics in Mathematics and Physics, Quantum and Operator Algebraic Aspects_, volume 30 of Fields Institute Communications, pages 151&#8211;160. American Mathematical Society, 2001
 ([arXiv:hep-th/0101079](https://arxiv.org/abs/hep-th/0101079))
 
 and generalized to [[quantum field theory on curved spacetimes]] in [Brunetti-Fredenhagen 00](#BrunettiFredenhagen00) and
