@@ -46,7 +46,7 @@ The original references are
 
 The most general treatment can be found in the [[The Stacks Project]]:
 
-* [[Aise Johan de Jong]] et. al., [[The Stacks Project]], chapter 38, _Chow Homology and Chern Classes_ ([URL](http://stacks.math.columbia.edu/chapter/38))
+* [[Aise Johan de Jong]] et. al., [[The Stacks Project]], chapter 38, _Chow Homology and Chern Classes_ ([URL](https://stacks.math.columbia.edu/tag/02P3))
 
 Informal lecture notes by [[Jacob Murre]]:
 
