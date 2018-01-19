@@ -76,6 +76,12 @@ For more on the history see
 
 and ([Scharf 95, section 0.0](#Scharf95)).
 
+Discussion of [[vacuum stability]] in [[QED]] includes
+
+* {#Scharf96} [[Günter Scharf]], _Vacuum stability in quantum field theory_, Nuovo Cim. A109 (1996) 1605-1607 ([spire:432208](http://inspirehep.net/record/432208/))
+
+* {#Nikolic01} [[Hrvoje Nikolić]], _Physical stability of the QED vacuum_, 2001 ([arXiv:hep-ph/0105176](https://arxiv.org/abs/hep-ph/0105176))
+
 
 The rigorous construction of [[perturbative QFT|perturbative]] QED in [[causal perturbation theory]] is worked out in 
 
