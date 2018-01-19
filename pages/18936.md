@@ -26,6 +26,8 @@ $$
   \,.
 $$
 
+In [[combinatorics]], the definition usually extends to $k = 0$ by setting $0! = 1$. 
+
 ## Related concepts
 
 * [[binomial coefficient]], [[multinomial coefficient]]
