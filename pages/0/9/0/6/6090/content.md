@@ -1019,17 +1019,76 @@ which express the [[probability amplitudes]] that reflect the predictions of the
 
 The [[interacting field observables]] in def. \ref{InteractingFieldObservables} are indeed [[formal power series]] in the formal parameter $\hbar$ ([[Planck's constant]]), as opposed to being more general [[Laurent series]], hence they involve no [[negative number|negative]] powers of $\hbar$ ([Dütsch-Fredenhagen 00, prop. 2 (ii)](interacting+field+observable#DuetschFredenhagen00), [Hawkins-Rejzner 16, cor. 5.2](interacting+field+observable#HawkinsRejzner16)).  This is not immediate, since by def. \ref{LagrangianFieldTheoryPerturbativeScattering} the [[S-matrix]] that they are defined from does involve negative powers of $\hbar$.
 
-It follows in particular that the [[interacting field observables]] have a [[classical limit]] $\hbar \to 0$. Indeed they constitute a [[formal deformation quantization]] of the interacting [[Peierls-Poisson bracket]] ([Collini 16](interacting+field+algebra+of+observables#Collini16), [Hawkins-Rejzner 16](interacting+field+algebra+of+observables#HawkinsRejzner16)), in that the algebra [[commutator]]
-to first order in $\hbar$ is given by the corresponding [[Peierls-Poisson bracket]].
+It follows in particular that the [[interacting field observables]] have a [[classical limit]] $\hbar \to 0$. Indeed they constitute a [[formal deformation quantization]] of the interacting [[Peierls-Poisson bracket]], see prop. \ref{InteractingFieldAlgebraOfObservablesIsFormalDeformationQuantization} below.
 
 =--
 
-([Hawkins-Rejzner 16](interacting+field+observable#HawkinsRejzner16))
 
-+-- {: .num_example}
+
++-- {: .num_defn #VacuumStability}
+###### Definition
+**([[vacuum stability]])**
+
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}, let $\mathcal{S}$ be a corresponding [[S-matrix]] scheme according to def. \ref{LagrangianFieldTheoryPerturbativeScattering}, and let $g S_{int} \in LocObs(E_{\text{BV-BRST}})[ [ \hbar, g] ]\langle g \rangle$ be a [[local observable]], regarded as an [[adiabatic switching|adiabatically switched]] [[interaction]] [[action functional]].
+
+We say that the given [[Hadamard vacuum state|Hadamard]] [[vacuum state]] ([this prop.](Wick+algebra#WickAlgebraCanonicalState))
+
+$$
+  \langle - \rangle
+  \;\colon\;
+  PolyObs(E_{\text{BV-BRST}})_{mc}[ [ \hbar , g, j ] ]
+  \longrightarrow
+  \mathbb{C}[ [ \hbar, g, j ] ]
+$$
+
+is _[[vacuum stability|stable]]_ with respect to the [[interaction]] $S_{int}$, if for all elements of the [[Wick algebra]]
+
+$$
+  A \in PolyObs(E_{\text{BV-BRST}})_{mc}[ [ \hbar, g] ]
+$$
+
+we have
+
+$$
+  \left\langle
+    A \mathcal{S}(g S_{int})
+  \right\rangle
+  \;=\;
+  \left\langle
+     \mathcal{S}(g S_{int})
+  \right\rangle
+  \,
+  \left\langle
+    A
+  \right\rangle
+  \phantom{AA}
+  \text{and}
+  \phantom{AA}
+  \left\langle
+    \mathcal{S}(g S_{int})^{-1}
+    A
+  \right\rangle
+  \;=\;
+  \frac{1}
+  {
+    \left\langle
+      \mathcal{S}(g S_{int})
+    \right\rangle
+   }
+   \left\langle
+     A
+   \right\rangle
+$$
+
+=--
+
+
++-- {: .num_example #ScatteringAmplitudeFromInteractingFieldObservables}
 ###### Example
+**([[scattering amplitudes]] as [[vacuum expectation values]] of [[interacting field observables]])**
 
-Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}, let $\mathcal{S}$ be a corresponding [[S-matrix]] scheme according to def. \ref{LagrangianFieldTheoryPerturbativeScattering}, and let $g S_{int} \in LocObs(E_{\text{BV-BRST}})[ [ \hbar, g ] ]\langle g \rangle$ be a [[local observable]] regarded as an [[adiabatic switching|adiabatically switched]] [[interaction]]-[[action functional|functional]].
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}, let $\mathcal{S}$ be a corresponding [[S-matrix]] scheme according to def. \ref{LagrangianFieldTheoryPerturbativeScattering}, and let $g S_{int} \in LocObs(E_{\text{BV-BRST}})[ [ \hbar, g ] ]\langle g \rangle$ be a [[local observable]] regarded as an [[adiabatic switching|adiabatically switched]] [[interaction]]-[[action functional|functional]],
+such that the [[vacuum state]] is [[vacuum stability|stable]] with respect to $g S_{int}$ (def. \ref{VacuumStability}).
 
 Consider [[local observables]]
 
@@ -1063,25 +1122,48 @@ $$
 
 for all $1 \leq i_{out} \lt j_{out} \leq n_{out}$ and $1 \leq  i_{in} \lt j_{in} \leq n_{in}$.
 
-Then the [[Wick algebra]]-product of the corresponding [[interacting field observables]] (def. \ref{InteractingFieldObservables})
+Then the [[vacuum expectation value]] of the [[Wick algebra]]-product of the corresponding [[interacting field observables]] (def. \ref{InteractingFieldObservables})
 is
+
+
 
 $$
   \begin{aligned}
    &
-   (A_{out, 1})_{int}
-   \cdots
-   (A_{out,n_{out}})_{int}
-   \,
-   (A_{in, 1})_{int}
-   \cdots
-   (A_{in,n_{in}})_{int}
+   \left\langle
+     {\, \atop \,}
+     (A_{out, 1})_{int}
+     \cdots
+     (A_{out,n_{out}})_{int}
+     \,
+     (A_{in, 1})_{int}
+     \cdots
+     (A_{in,n_{in}})_{int}
+     {\, \atop \,}
+   \right\rangle
    \\
    & =
-   \mathcal{S}(g S_{int})^{-1}
-   \;
-   \underbrace{
-   \left(
+   \left\langle
+     {\, \atop \,}
+       A_{out,1}
+       \cdots
+       A_{out,n_{out}}
+    \right|
+       \;
+       \mathcal{S}(g S_{int})
+       \;
+    \left|
+       A_{in,1}
+       \cdots
+       A_{in, n_{in}}
+     {\, \atop \,}
+   \right\rangle
+   \\
+   & \coloneqq
+   \frac{1}{
+     \left\langle \mathcal{S}(g S_{int}) \right\rangle
+   }
+   \left\langle
      {\, \atop \,}
        A_{out,1}
        \cdots
@@ -1093,14 +1175,12 @@ $$
        \cdots
        A_{in, n_{in}}
      {\, \atop \,}
-   \right)
-   }
+   \right\rangle
    \,.
   \end{aligned}
 $$
 
-The [[vacuum expectation values]] of the expressions appearing here over the brace are
-interpreted, in the [[adiabatic limit]] where $g_{sw} \to 1$ as _[[scattering amplitudes]]_ (remark \ref{FromAxiomaticSMatrixScatteringAmplitudes}).
+These [[vacuum expectation values]] are interpreted, in the [[adiabatic limit]] where $g_{sw} \to 1$, as _[[scattering amplitudes]]_ (remark \ref{FromAxiomaticSMatrixScatteringAmplitudes} below).
 
 =--
 
@@ -1176,10 +1256,6 @@ $$
     & =
     \mathcal{S}(g S_{int})^{-1}
     \,
-    \underset{
-      \text{"S-matrix element"}
-    }{
-    \underbrace{
     \left(
       {\, \atop \,}
       A_{out}
@@ -1188,11 +1264,11 @@ $$
       {\, \atop \,}
     \right)
     }
-    }
     \,.
   \end{aligned}
 $$
 
+With this the statement follows by the definition of [[vacuum stability]] (def. \ref{VacuumStability}).
 
 =--
 
@@ -1544,8 +1620,7 @@ $$
   supp(A_{out}) {\vee\!\!\!\wedge} supp(A_{int})
 $$
 
-
-the corresponding _[[scattering amplitude]]_ is the value (called "[[expectation value]]" when referring to $A^\ast_{out} \, \mathcal{S}(S_{int}) \, A_{in}$, or "matrix element" when freferring to $\mathcal{S}(S_{int})$, or "transition amplitude" when referring to $\left\langle A_{out} \right\vert$ and $\left\vert A_{in} \right\rangle$)
+the corresponding _[[scattering amplitude]]_ (as in example \ref{ScatteringAmplitudeFromInteractingFieldObservables}) is the value (called "[[expectation value]]" when referring to $A^\ast_{out} \, \mathcal{S}(S_{int}) \, A_{in}$, or "matrix element" when referring to $\mathcal{S}(S_{int})$, or "transition amplitude" when referring to $\left\langle A_{out} \right\vert$ and $\left\vert A_{in} \right\rangle$)
 
 $$
   \left\langle
@@ -4549,6 +4624,52 @@ for the subset of [[isomorphism classes]] of [[connected graph|connected]] [[fin
 
 =--
 
++-- {: .num_lemma #MultiplicativeFeynmanAmplitudes}
+###### Lemma
+**([[Feynman amplitudes]] multiply under [[disjoint union]] of [[graphs]])**
+
+Let
+
+$$
+  \Gamma
+    \;=\;
+  \Gamma_1
+    \sqcup
+  \Gamma_2
+    \sqcup
+    \cdots
+    \sqcup
+  \Gamma_n
+  \;\in\; \mathcal{G}
+$$
+
+be [[disjoint union]] of graphs (def. \ref{ConnectedGraphs}). then then corresponding [[Feynman amplitudes]] (prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints})
+multiply by the pointwise product ([this def.](A+first+idea+of+quantum+field+theory#Observable)):
+
+$$
+  \Gamma\left( g S_{int} + j A)_{i = 1}^{v(\Gamma)} \right)
+  \;=\;
+  \Gamma_1\left( (g S_{int} + j A)_{i = 1}^{v(\Gamma_1)}\right)
+   \cdot
+  \Gamma_2\left( (g S_{int} + j A)_{i = 1}^{v(\Gamma_2)} \right)
+    \cdot
+    \cdots
+    \cdot
+  \Gamma_n\left( (g S_{int} + j A)_{i = 1}^{v(\Gamma_n)} \right)
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{TimeOrderedProductAwayFromDiagonal} the contributions to the S-matrix away from coinciding interaction points are given by the [[star product]] induced by the [[Feynman propagator]], and specifically, by prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints}, the [[Feynman amplitudes]] are given this way.
+Moreover the [[star product]] ([this def.](star+product#PropagatorStarProduct)) is given by first contracting with powers of the [[Feynman propagator]] and then multiplying all resulting terms with the pointwise product of observables.
+This implies the claim by the nature of the combinatorial factor in the definition of the [[Feynman amplitudes]] (prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints}).
+
+=--
+
 +-- {: .num_defn #InPerturbationTheoryActionEffective}
 ###### Definition
 **([[effective action]])**
@@ -4681,37 +4802,7 @@ $$
 +-- {: .proof}
 ###### Proof
 
-By prop. \ref{TimeOrderedProductAwayFromDiagonal} the contributions to the S-matrix away from coinciding interaction points are given by the [[star product]] induced by the [[Feynman propagator]], and specifically, by prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints}, the [[Feynman amplitudes]] are given this way. Now by definition of the star product ([this def.](star+product#PropagatorStarProduct)) it is given by first contracting with powers of the [[Feynman propagator]] and then multiplying all resulting terms with the pointwise product of observables. From this and the nature of the combinatorial factor in the definition of the [[Feynman amplitudes]] (prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints}) it is clear that for
-
-$$
-  \Gamma
-    \;=\;
-  \Gamma_1
-    \sqcup
-  \Gamma_2
-    \sqcup
-    \cdots
-    \sqcup
-  \Gamma_n
-  \;\in\; \mathcal{G}
-$$
-
-a [[disjoint union]] of graphs (def. \ref{ConnectedGraphs}), then then corresponding [[Feynman amplitudes]] multiply by the pointwise product
-
-$$
-  \Gamma(g S_{int} + j A)
-  \;=\;
-  \Gamma_1\left( (g S_{int} + j A)_{i = 1}^{v(\Gamma_1)}\right)
-   \cdot
-  \Gamma_2\left( (g S_{int} + j A)_{i = 1}^{v(\Gamma_2)} \right)
-    \cdot
-    \cdots
-    \cdot
-  \Gamma_n\left( (g S_{int} + j A)_{i = 1}^{v(\Gamma_n)} \right)
-  \,.
-$$
-
-This implies that the summands in the $n$th powers of $\frac{1}{i \hbar}$ times the effective action are precisely the Feynman amplitudes of Feynman diagrams with $n$ [[connected components]], where each such appears with multiplicity given by the [[factorial]] of $n$:
+By lemma \ref{MultiplicativeFeynmanAmplitudes} the summands in the $n$th pointwise power of $\frac{1}{i \hbar}$ times the effective action are precisely the Feynman amplitudes of Feynman diagrams with $n$ [[connected components]], where each such appears with multiplicity given by the [[factorial]] of $n$:
 
 $$
   \frac{1}{n!}
