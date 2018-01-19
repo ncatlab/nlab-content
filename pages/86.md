@@ -656,7 +656,7 @@ The original articles are
 * {#BV83} [[Igor Batalin]], [[Grigori Vilkovisky]],  (1983). _Quantization of Gauge Theories with Linearly Dependent Generators_, Phys. Rev. D 28 (10): 2567&#8211;2582. doi:10.1103/PhysRevD.28.2567.  Erratum-ibid. 30 (1984) 508 doi:10.1103/PhysRevD.30.508
 
 
-* [[Igor Batalin]], [[Grigori Vilkovisky]], _Existence Theorem For Gauge Algebra_ , J. Math. Phys. 26 (1985) 172-184.
+* [[Igor Batalin]], [[Grigori Vilkovisky]], _Existence Theorem For Gauge Algebra_, J. Math. Phys. 26 (1985) 172-184.
 
 Reviews are in
 
