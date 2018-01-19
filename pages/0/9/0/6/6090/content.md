@@ -37,7 +37,7 @@ The perception of the nature of the S-matrix as a primary or derived concept in 
 
 ### The S-matrix bootstrap
 
-From [this Phyics.SE comment](https://physics.stackexchange.com/a/17973/5603) by [[Ron Maimon]]:
+From [this Physics.SE comment](https://physics.stackexchange.com/a/17973/5603) by [[Ron Maimon]]:
 
 The idea of the S-matrix "bootstrap" is that one may compute the S-matrix directly from suitable axioms without using a [[local field theory|local]] [[quantum field theory]] involving [[field (physics)|fields]] on [[spacetime]]. In order for the theory to be interesting, the S-matrix should obey certain properties abstracted away from field theory
 
@@ -60,7 +60,7 @@ This idea was very inspirational to many great people in the 1960s, because it w
 
 ### Regge theory
 
-Continuing with [this Phyics.SE comment](https://physics.stackexchange.com/a/17973/5603) by [[Ron Maimon]]:
+Continuing with [this Physics.SE comment](https://physics.stackexchange.com/a/17973/5603) by [[Ron Maimon]]:
 
 
 The theory above doesn't get you anywhere without the following additional stuff. If you don't do this, you end up starting with a finite number of particles and interactions, and then you end up in effective field theory land. The finite-number-of-particles version of S-matrix theory is a dead end, or at least, it is equivalent to effective field theory, and this was understood in the late 1960s by Weinberg, and others, and this led S-matrix theory to die. This was the road the Chew travelled on, and the end of this road must be very personally painful to him.
@@ -103,7 +103,7 @@ The main success of this picture is describing near-beam scattering, or diffract
 
 This idea is spectacularly confirmed by mid 90's measurements of total p-p and p-pbar cross sections, and in a better political climate, this would have won some boostrap theorists a Nobel prize. Instead, it is never mentioned.
 
-The pomeron in string theory becomes the closed string, which includes the graviton, which couples universally to stress energy. The relation between the closed string .d the QCD pomeron is the subject of active research, associated with the names of Lipatov, Polchinski, Tan, and collaborators.
+The pomeron in string theory becomes the closed string, which includes the graviton, which couples universally to stress energy. The relation between the closed string and the QCD pomeron is the subject of active research, associated with the names of Lipatov, Polchinski, Tan, and collaborators.
 
 Regge scattering also predicts near beam scattering amplitudes from the sum of the appropriate trajectory function you can exchange. These predictions have been known to roughly work since the late 1960s.
 
