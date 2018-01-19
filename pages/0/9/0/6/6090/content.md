@@ -503,6 +503,7 @@ such that the following two conditions "perturbation" and "causal additivity (jo
    There exist [[multilinear map|multi-]][[linear continuous functionals]] (over $\mathbb{C}[ [\hbar, g, j] ]$) of the form
 
    $$
+     \label{TimeOrderedProductsInSMatrix}
      T_k
        \;\colon\;
      \left(
@@ -595,8 +596,8 @@ That the [[domain]] of a S-matrix scheme is indeed the space of [[local observab
 ###### Remark
 **([[inverse|invertibility]] of the [[S-matrix]])**
 
-The mutliplicative inverse $S(-)^{-1}$ of the perturbative S-matrix in def. \ref{LagrangianFieldTheoryPerturbativeScattering}
-indeed exists, so that the list of axioms is indeed well defined: By the axiom "perturbation" this follows with the usual formula for the multiplicative inverse of [[formal power series]] that are non-vanishing in degree 0:
+The mutliplicative inverse $S(-)^{-1}$ of the perturbative [[S-matrix]] in def. \ref{LagrangianFieldTheoryPerturbativeScattering}
+with respect to the [[Wick algebra]]-product indeed exists, so that the list of axioms is indeed well defined: By the axiom "perturbation" this follows with the usual formula for the multiplicative inverse of [[formal power series]] that are non-vanishing in degree 0:
 
 If we write
 
@@ -636,7 +637,21 @@ the axiom "perturbation")
 $\mathcal{D}(g S_{int} + j A)$ has vanishing coefficient in zeroth order in the formal parameters $g$ and $j$, so that
 only a finite sub-sum of the formal infinite sum contributes in each order in $g$ and $j$.
 
-This expression for the inverse of S-matrix may usefully be re-ordganized in terms of "rever-time ordered products" (def. \ref{ReverseTimeOrderedProduct} below), see prop. \ref{ReverseTimOrderedProductsGiveReverseSMatrix} below.
+This expression for the inverse of S-matrix may usefully be re-organized in terms of "rever-time ordered products" (def. \ref{ReverseTimeOrderedProduct} below), see prop. \ref{ReverseTimOrderedProductsGiveReverseSMatrix} below.
+
+Notice that $\mathcal{S}(-g S_{int} - j A )$ is instead the inverse with respect to the [[time-ordered products]] (eq:TimeOrderedProductsInSMatrix)
+
+$$
+  T( \mathcal{S}(-g S_{int}) \,,\, \mathcal{S}(g S_{int} + j a)  )
+  \;=\;
+  1
+  \;=\;
+  T( \mathcal{S}(g S_{int} + j a)  \,,\,  \mathcal{S}(-g S_{int}) )
+  \,.
+$$
+
+(Since the time-ordered product is, by definition, symmetric in its arguments, the usual formula for the multiplicative inverse of
+an [[exponential series]] applies).
 
 =--
 
@@ -649,8 +664,8 @@ induces a corresponding concept of [[observables]]:
 
 Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}, let $\mathcal{S}$ be a corresponding [[S-matrix]] scheme according to def. \ref{LagrangianFieldTheoryPerturbativeScattering}.
 
-Then corresponding _[[generating function]] scheme_
-(for [[interacting field algebra|interacting field observables]], def. \ref{InteractingFieldObservables} below) is the functional
+The corresponding _[[generating function]] scheme_
+(for [[interacting field observables]], def. \ref{InteractingFieldObservables} below) is the functional
 
 $$
   \mathcal{Z}_{(-)}(-)
@@ -791,13 +806,14 @@ This is the second line of (eq:GeneratingFunctionCausalAdditivity).
 
 Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}, let $\mathcal{S}$ be a corresponding [[S-matrix]] scheme according to def. \ref{LagrangianFieldTheoryPerturbativeScattering}, and let $S_{int} \in LocObs(E_{\text{BV-BRST}})[ [ \hbar, g ] ]$ be a [[local observable]] regarded as an [[adiabatic switching|adiabatically switched]] [[interaction]]-[[action functional|functional]].
 
-Then for $A \in LocObs(E_{\text{BV-BRST}})[ [\hbar] ]$ a [[local observable]] of the [[free field theory]], write
+Then for $A \in LocObs(E_{\text{BV-BRST}})[ [\hbar] ]$ a [[local observable]] of the [[free field theory]],
+we say that the corresponding [[local interacting field observable]]
 
 $$
   A_{int} \in PolyObs(E_{\text{BV-BRST}})_{mc}[ [\hbar, g] ]
 $$
 
-for the [[coefficient]] of $j^1$ in the [[generating function]] (eq:GeneratingFunctionInducedFromSMatrix):
+is the [[coefficient]] of $j^1$ in the [[generating function]] (eq:GeneratingFunctionInducedFromSMatrix):
 
 $$
   \label{BogoliubovsFormula}
@@ -829,9 +845,8 @@ $$
 $$
 
 This expression is called _[[Bogoliubov's formula]]_, due to ([Bogoliubov-Shirkov 59](#BogoliubovShirkov59)).
-The assignment $A \mapsto A_{int}$ is also called the _[[quantum Møller operator]]_ ([Hawkins-Rejzner 16](perturbative+algebraic+quantum+field+theory#HawkinsRejzner16)).
 
-One thinks of $A_{int}$ as the [[deformation]] of the observable $A$ as the [[interaction]] $S_{int}$ is turned on; and speaks of an element of the _[[interacting field algebra of observables]]_. Their value ("[[expectation value]]") in the given free [[Hadamard vacuum state]]
+One thinks of $A_{int}$ as the [[deformation]] of the [[local observable]] $A$ as the [[interaction]] $S_{int}$ is turned on; and speaks of an element of the _[[interacting field algebra of observables]]_. Their value ("[[expectation value]]") in the given free [[Hadamard vacuum state]]
 $\langle  -\rangle$ (def. \ref{VacuumFree}) is a [[formal power series]] in [[Planck's constant]] $\hbar$ and in the [[coupling constant]] $g$, with [[coefficients]] in the [[complex numbers]]
 
 $$
@@ -847,6 +862,7 @@ which express the [[probability amplitudes]] that reflect the predictions of the
 =--
 
 ([Epstein-Glaser 73, around (74)](#EpsteinGlaser73); review includes ([D&#252;tsch-Fredenhagen 00, around (17)](#DuetschFredenhagen00), [Dütsch 18, around (3.212)](pAQFR#Duetsch18)).
+
 
 +-- {: .num_example #FormalPowerSeriesInteractingFieldObservables}
 ###### Remark
@@ -1447,6 +1463,980 @@ The extra condition that does ensure this is the _[[quantum master Ward identity
 This we discuss elsewhere.
 
 Apart from [[gauge symmetries]] one also wants to require that rigid symmetries  are preserved by the S-matrix, notably [[Poincare group]]-symmetry for scattering on [[Minkowski spacetime]]. This extra axiom is needed to imply the _[[main theorem of perturbative renormalization]]_ (theorem \ref{PerturbativeRenormalizationMainTheorem}).
+
+=--
+
+
+
+
+$\,$
+
+#### Interacting field observables
+ {#QuantumObservables}
+
+We have seen that via [[Bogoliubov's formula]] (def. \ref{InteractingFieldObservables}) every perturbative [[S-matrix]] scheme (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) induces for every choice of [[adiabatic switching|adiabatically switched]]
+[[interaction]] [[action functional]] $S_{int,sw} \coloneqq \tau_\Sigma( g_{sw} \mathbf{L}_{int} )$ a notion of [[perturbative QFT|perturbative]] [[interacting field observables]] (def. \ref{InteractingFieldObservables}). These generate an algebra (def. \ref{QuntumMollerOperator} below).
+By [[Bogoliubov's formula]], in general this algebra depends on the choice of [[adiabatic switching]];
+which however is not meant to be part of the [[physics]], but just a mathematical device for grasping global field structures locally.
+
+But this spurious dependence  goes away (prop. \ref{IsomorphismFromChangeOfAdiabaticSwitching} below) when restricting attention to 
+observables whose spacetime support is inside a compact [[causally closed subsets]] $\mathcal{O}$ of spacetime (def. \ref{PerturbativeGeneratingLocalNetOfObservables} below). This is a sensible condition for an [[obsrvable]] in [[physics]],
+where any realistic [[experiment]] nessecarily probes only a compact subset of spacetime, see also remark \ref{AdiabaticLimit}.
+
+The resulting system (a "[[co-presheaf]]") of well-defined perturbative [[interacting field algebras of observables]] (def. \ref{SystemOfAlgebrasOfQuantumObservables} below)
+
+$$
+  \mathcal{O} \mapsto IntObs(E_{\text{BV-BRST}}, \mathbf{L}_{int})(\mathcal{O})
+$$
+
+is in fact [[causal locality|causally local]] (prop. \ref{PerturbativeQuantumObservablesIsLocalnet} below).
+This fact was presupposed without proof already in [Il'in-Slavnov 78](perturbative+algebraic+quantum+field+theory#IlinSlavnov78);
+because this is one of two key properties that the [[Haag-Kastler axioms]] ([Haag-Kastler 64](Haag-Kastler+axioms#HaagKastler64)) demand of an intrinsically defined [[quantum field theory]]
+(i.e. defined without necessarily making recourse to the geometric backdrop of [[Lagrangian field theory]]). The only other key property demanded by the [[Haag-Kastler axioms]]
+is that the [[algebras of observables]] be [[C*-algebras]]; this however must be regarded as the axiom encoding
+[[non-perturbative quantum field theory]] and hence is necessarily violated in the present context of [[perturbative QFT]].
+
+Since quantum field theory following the full [[Haag-Kastler axioms]] is commonly known as _[[AQFT]]_, this perturbative version,
+with [[causally local nets of observables]] but without the [[C*-algebra]]-condition on them, has come to be called
+_[[perturbative AQFT]]_ ([Dütsch-Fredenhagen 01](perturbative+algebraic+quantum+field+theory#DuetschFredenhagen01),
+[Fredenhagen-Rejzner 12](perturbative+algebraic+quantum+field+theory#FredenhagenRejzner12)).
+
+In this terminology the content of prop. \ref{PerturbativeQuantumObservablesIsLocalnet} below is that
+_while the input of [[causal perturbation theory]] is a [[gauge fixing|gauge fixed]] [[Lagrangian field theory]],
+the output is a [[perturbative algebraic quantum field theory]]_:
+
+
+$$
+  \array{
+    \array{
+      \text{gauge-fixed}
+      \\
+      \text{Lagrangian}
+      \\
+      \text{field theory}
+    }
+    &
+    \overset{
+      \array{
+        \text{causal}
+        \\
+        \text{perturbation theory}
+        \\
+      }
+    }{\longrightarrow}&
+    \array{
+      \text{perturbative}
+      \\
+      \text{algebraic}
+      \\
+      \text{quantum}
+      \\
+      \text{field theory}
+    }
+    \\
+    \underset{
+      \array{
+        \text{(Becchi-Rouet-Stora 76,}
+        \\
+        \text{Batalin-Vilkovisky 80s)}
+      }
+    }{\,}
+    &
+    \underset{\text{(Epstein-Glaser 73)}}{\,}
+    &
+    \underset{
+    \array{
+      \text{ (Il'in-Slavnov 78,  }
+      \\
+      \text{Brunetti-Fredenhagen 99,}
+      \\
+      \text{Dütsch-Fredenhagen 01)}
+    }
+    }{\,}
+  }
+$$
+
+
+The independence of the [[causally local net]] of localized [[interacting field algebras of observables]]
+$Obs_{\mathbf{L}_{int}}(\mathcal{O})$ from the choice of [[adiabatic switching]]
+implies a well-defined spacetime-global [[algebra of observables]] by forming the [[inductive limit]]
+
+$$
+  IntObs(E_{\text{BV-BRST}}, \mathbf{L}_{int})
+    \;\coloneqq\;
+  \underset{\underset{\mathcal{O}}{\longrightarrow}}{\lim}
+  \left(
+    IntObs(E_{\text{BV-BRST}}, \mathbf{L}_{int})(\mathcal{O})
+  \right)
+  \,.
+$$
+
+This is also called the _[[algebraic adiabatic limit]]_, defining the [[algebras of observables]] of [[perturbative QFT]]
+"in the infrared". The only remaining step in the construction of a [[perturbative QFT]] that remains is then
+to find an [[interacting vacuum state]]
+
+$$
+  \left\langle
+    -
+  \right\rangle_{int}
+  \;\colon\;
+  IntObs(E_{\text{BV-BRST}}, \mathbf{L}_{int})
+   \longrightarrow
+  \mathbb{C}[ [ \hbar, g] ]
+$$
+
+on the global [[interacting field algebra]] $Obs_{\mathbf{L}_{int}}$.
+This is related to the actual _[[adiabatic limit]]_, and it is by and large an open problem, see remark \ref{AdiabaticLimit}.
+
+
+$\,$
+
+
++-- {: .num_defn #QuntumMollerOperator}
+###### Definition
+**([[interacting field algebra of observables]] -- [[quantum Møller operator]])**
+
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}, let $\mathcal{S}$ be a corresponding [[S-matrix]] scheme according to def. \ref{LagrangianFieldTheoryPerturbativeScattering}, and let $g S_{int} \in LocObs(E_{\text{BV-BRST}})[ [ \hbar, g ] ]$ be a [[local observable]] regarded as an [[adiabatic switching|adiabatically switched]] [[interaction]]-[[action functional|functional]].
+
+
+We write
+
+$$
+  LocIntObs_{\mathcal{S}}(E_{\text{BV-BRST}}, g S_{int})
+  \;\coloneqq\;
+  \left\{
+    A_{int} \;\vert\; A \in LocObs(E_{BV-BRST})[ [ \hbar, g ] ]
+  \right\}
+    \hookrightarrow
+  PolyObs(E_{\text{BV-BRST}})[ [ \habr, g] ]
+$$
+
+for subspace of [[interacting field observables]] $A_{int}$ (def. \ref{InteractingFieldObservables}) corresponding to [[local observables]] $A$,
+the _[[interacting local field observables]]_.
+
+Furthermore we write
+
+$$
+  \array{
+    LocObs(E_{\text{BV-BRST}})[ [ \hbar , g] ]
+    &
+    \underoverset
+    {\simeq}
+    {
+      \phantom{A}\mathcal{R}^{-1}\phantom{A}
+    }{\longrightarrow}
+    &
+    IntLocObs(E_{\text{BV-BRST}}, g S_{int})[ [ \hbar , g ] ]
+    \\
+    A
+      &\mapsto&
+    A_{int}
+      \coloneqq
+    \mathcal{S}(g S_{int})^{-1} T( \mathcal{S}(g S_{int}), A )
+  }
+$$
+
+for the factorization of the function $A \mapsto A_{int}$ through its image, which, by remark \ref{PerturbativeSMatrixInverse},
+is a [[linear isomorphism]] with [[inverse]]
+
+$$
+  \array{
+    IntLocObs(E_{\text{BV-BRST}}, g S_{int})[ [ \hbar , g ] ]
+    &
+    \underoverset
+    {\simeq}
+    {
+      \phantom{A}\mathcal{R}\phantom{A  }
+    }{\longrightarrow}
+    &
+    LocObs(E_{\text{BV-BRST}})[ [ \hbar , g] ]
+    \\
+    A_{int}
+      &\mapsto&
+    A
+      \coloneqq
+    T\left(
+      \mathcal{S}(-g S_{int})
+      ,
+      \left( \mathcal{S}(g S_{int}) A_{int} \right)
+    \right)
+  }
+$$
+
+This may be called the
+_[[quantum Møller operator]]_ ([Hawkins-Rejzner 16](perturbative+algebraic+quantum+field+theory#HawkinsRejzner16)).
+
+Finally we write
+
+$$
+  IntObs(E_{\text{BV-BRST}}, S_{int})
+  \;\coloneqq\;
+  \left\langle IntLocObs(E_{\text{BV-BRST}})[ [ \hbar, g] ]  \right\rangle
+    \hookrightarrow
+  PolyObs(E_{\text{BV-BRST}})[ [ \hbar, g ] ]
+$$
+
+for the smallest subalgebra of the [[Wick algebra]] containing the [[interacting local observables]].
+This is the _perturbative [[interacting field algebra of observables]]_.
+
+=--
+
+
+The following definition simply collects the system (a [[co-presheaf]]) of [[generating functions]] for [[interacting field observables]]
+which are localized in spacetime as the spacetime localization region varies:
+
++-- {: .num_defn #PerturbativeGeneratingLocalNetOfObservables}
+###### Definition
+**(system of spacetime-localized [[generating functions]] for [[interacting field observables]])**
+
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}, let $\mathcal{S}$ be a corresponding [[S-matrix]] scheme according to def. \ref{LagrangianFieldTheoryPerturbativeScattering}, and let
+
+$$
+  \mathbf{L}_{int}
+  \;\in\;
+  \Omega^{p+1,0}_\Sigma(E_{\text{BV-BRST}})[ [ \hbar , g  ] ]
+$$
+
+be a [[Lagrangian density]], to be thought of as an [[interaction]], so that for $g_{sw} \in C^\infty_{sp}(\Sigma)\langle g \rangle$
+an [[adiabatic switching]] the [[transgression of variational differential forms|transgression]]
+
+$$
+  S_{int,sw}
+    \;\coloneqq\;
+  \tau_\Sigma(g_{sw} \mathbf{L}_{int})
+  \;\in\;
+  LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]
+$$
+
+is a [[local observable]], to be thought of as an [[adiabatic switching|adiabatically switched]] [[interaction]] [[action functional]].
+
+For $\mathcal{O} \subset \Sigma$ a [[causally closed subset]] of [[spacetime]]
+([this def.](A+first+idea+of+quantum+field+theory#CausalComplementOfSubsetOfLorentzianManifold))
+and for $g_{sw} \in Cutoffs(\mathcal{O})$ an [[adiabatic switching]] function ([this def.](A+first+idea+of+quantum+field+theory#CutoffFunctions))
+which is constant on a [[neighbourhood]] of $\mathcal{O}$, write
+
+$$
+  Gen(E_{\text{BV-BRST}}, S_{int,sw} )(\mathcal{O})
+   \;\coloneqq\;
+  \left\langle
+    \mathcal{Z}_{S_{int,sw}}(j A)
+    \;\vert\;
+    A \in LocObs(E_{\text{BV-BRST}})[ [ \hbar, g] ]
+    \,\text{with}\,
+    supp(A) \subset \mathcal{O}
+  \right\rangle
+   \;\subset\;
+  PolyObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]
+$$
+
+for the smallest subalgebra of the [[Wick algebra]] which contains the
+[[generating functions]] (def. \ref{SchemeGeneratingFunction})
+with respect to $S_{int,sw}$ for all those [[local observables]] $A$ whose spacetime support is in $\mathcal{O}$.
+
+Moreover, write
+
+$$
+  Gen(E_{\text{BV-BRST}}, \mathbf{L}_{int})(\mathcal{O})
+    \;\subset\;
+  \underset{g_{sw} \in Cutoffs(\mathcal{O})}{\prod} Gen_{g_{sw}L_{int}}(\mathcal{O})
+$$
+
+be the subalgebra of the [[Cartesian product]] of all these algebras as $g_{sw}$ ranges over cutoffs, which is generated by the
+[[tuples]]
+
+$$
+  \mathcal{Z}_{\mathbf{L}_{int}}(A)
+    \;\coloneqq\;
+  \left(
+    \mathcal{Z}_{S_{int,sw}}(j A)
+  \right)_{g_{sw} \in Cutoffs(\mathcal{O})}
+$$
+
+for $A$ with $supp(A) \subset \mathcal{O}$.
+
+We call $Gen(E_{\text{BV-BRST}}, \mathbf{L}_{int} )(\mathcal{O})$ the _algebra of [[generating functions]] for [[interacting field observables]] localized in $\mathcal{O}$_.
+
+Finally, for $\mathcal{O}_1 \subset \mathcal{O}_2$ an inclusion of two [[causally closed subsets]], let
+
+$$
+  i_{\mathcal{O}_1, \mathcal{O}_2}
+  \;\colon\;
+  Gen(E_{\text{BV-BRST}}, \mathbf{L}_{int})(\mathcal{O}_1)
+    \longrightarrow
+  Gen(E_{\text{BV-BRST}}, \mathbf{L}_{int})(\mathcal{O}_2)
+$$
+
+be the algebra [[homomorphism]] which is given simply by restricting the index set of [[tuples]].
+
+This construction defines a [[functor]]
+
+$$
+  Gen(E_{\text{BV-BRST}}, \mathbf{L}_{int})
+    \;\colon\;
+  CausClsdSubsets(\Sigma)
+    \longrightarrow
+  Algebras
+$$
+
+from the [[poset]] of [[causally closed subsets]] of [[spacetime]] to the [[category]] of [[algebras]].
+
+> (extends to [[star algebras]] if scattering matrices are chosen unitary...)
+
+=--
+
+([Brunetti-Fredenhagen 99, (65)-(67)](#BrunettiFredenhagen99))
+
+The key technical fact is the following:
+
++-- {: .num_prop #IsomorphismFromChangeOfAdiabaticSwitching}
+###### Proposition
+**(localized [[interacting field observables]] independent of [[adiabatic switching]])**
+
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}, let $\mathcal{S}$ be a corresponding [[S-matrix]] scheme according to def. \ref{LagrangianFieldTheoryPerturbativeScattering}, and let
+
+$$
+  \mathbf{L}_{int}
+  \;\in\;
+  \Omega^{p+1,0}_\Sigma(E_{\text{BV-BRST}})[ [ \hbar , g  ] ]
+$$
+
+be a [[Lagrangian density]], to be thought of as an [[interaction]], so that for $g_{sw} \in C^\infty_{sp}(\Sigma)\langle g \rangle$
+an [[adiabatic switching]] the [[transgression of variational differential forms|transgression]]
+
+$$
+  S_{int,sw} \;\coloneqq\; g \tau_\Sigma(g_{sw} \mathbf{L}_{int})
+  \;\in\;
+  LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]
+$$
+
+is a [[local observable]], to be thought of as an [[adiabatic switching|adiabatically switched]] [[interaction]] [[action functional]].
+
+If two such [[adiabatic switchings]] $g_{sw,1}, g_{sw,2} \in C^\infty_{cp}(\Sigma)$ agree on a
+[[causally closed subset]]
+
+$$
+  \mathcal{O} \;\subset\; \Sigma
+$$
+
+in that
+
+$$
+  g_{sw,1}\vert_{\mathcal{O}} = g_{sw,2}\vert_{\mathcal{O}}
+$$
+
+then there exists a [[microcausal polynomial observable]]
+
+$$
+  K \;\in\; PolyObs(E_{\text{BV-BRST}})[ [ \hbar, g, j ] ]
+$$
+
+such that for every [[local observable]]
+
+$$
+  A \;\in\; LocObs(E_{\text{BV-BRST}})[ [ \hbar, g ] ]
+$$
+
+with spacetime support in $\mathcal{O}$
+
+$$
+  supp(A) \;\subset\; \mathcal{O}
+$$
+
+the corresponding two [[generating functions]] (eq:GeneratingFunctionInducedFromSMatrix)
+are related via [[conjugation]] by $K$:
+
+$$
+  \label{AdiabaticSwitchingRelationGeneratingFunctions}
+  \mathcal{Z}_{S_{int,sw_2}}
+  \left(
+    j A
+  \right)
+  \;=\;
+  K^{-1}
+  \,
+  \left(
+    \mathcal{Z}_{S_{int,sw_1}}
+    \left(
+      j A
+    \right)
+  \right)
+  \,
+  K
+  \,.
+$$
+
+In particular this means that for every choice of [[adiabatic switching]] $g_{sw} \in Cutoffs(\mathcal{O})$
+the algebra $Gen_{S_{int,sw}}(\mathcal{O})$ of [[generating functions]] for [[interacting field observables]]
+computed with $g_{sw}$ is canonically [[isomorphism|isomorphic]] to the
+abstract algebra $Gen_{\mathbf{L}_{int}}(\mathcal{O})$  (def. \ref{PerturbativeGeneratingLocalNetOfObservables}),
+by the evident map on generators:
+
+$$
+  \label{AbstractGeneratingFunctionAlgebraIsomorphicToAnyAdiabaticSwitching}
+  \array{
+    Gen_{\mathbf{L}_{int}}
+      &\overset{\simeq}{\longrightarrow}&
+    Gen_{S_{int,sw}}(\mathcal{O})
+    \\
+    \left(
+      \mathcal{Z}_{S_{int,sw'}}
+    \right)_{g_{sw'} \in Cutoffs(\mathcal{O})}
+    &\mapsto&
+    \mathcal{Z}_{S_{int,sw}}
+  }
+  \,.
+$$
+
+=--
+
+([Brunetti-Fredenhagen 99, prop. 8.1](#BrunettiFredenhagen99))
+
++-- {: .proof}
+###### Proof
+
+By causal closure of $\mathcal{O}$, [this lemma](A+first+idea+of+quantum+field+theory#CausalPartition)
+says that there are [[bump functions]]
+
+$$
+  a, r \in C^\infty_{cp}(\Sigma)
+$$
+
+which decompose the difference of [[adiabatic switchings]]
+
+$$
+  g_{sw,2} - g_{sw,1} = a + r
+$$
+
+subject to the [[causal ordering]]
+
+$$
+  supp(a) \,{\vee\!\!\!\wedge}\, \mathcal{O} \,{\vee\!\!\!\wedge}\, supp(r)
+  \,.
+$$
+
+With this the result follows from repeated use of [[causal additivity]] in its various equivalent
+incarnations from prop. \ref{ZCausalAdditivity}:
+
+$$
+  \begin{aligned}
+    & \mathcal{Z}_{S_{int,sw_2}}(j A)
+    \\
+    & =
+    \mathcal{Z}_{
+      \left(
+        \tau_\Sigma
+        \left(
+          g_{sw,2}
+          \mathbf{L}_{int}
+        \right)
+      \right)
+    }
+    \left(
+      j A
+    \right)
+    \\
+    & =
+    \mathcal{Z}_{
+      \left(
+        \tau_\Sigma
+        \left(
+          (g_{sw,1} + a + r)\mathbf{L}_{int}
+        \right)
+      \right)
+    }
+    \left(
+      j A
+    \right)
+    \\
+    & =
+    \mathcal{Z}_{
+      \left(
+        S_{int,sw_1}
+        +
+        \tau_\Sigma
+        \left(
+          r \mathbf{L}_{int}
+        \right)
+        +
+        \tau_\Sigma
+        \left(
+          a \mathbf{L}_{int}
+        \right)
+      \right)
+    }
+    \left(
+      j A
+    \right)
+    \\
+    & =
+    \mathcal{Z}_{
+      \left(
+        S_{int,sw_1}
+        +
+        \tau_\Sigma
+        \left(
+          r \mathbf{L}_{int}
+        \right)
+      \right)
+    }
+    \left(
+      j A
+    \right)
+    \\
+    & =
+    \mathcal{S}
+    \left(
+      S_{int,sw_1}
+      +
+      \tau_\Sigma
+      \left(
+        r \mathbf{L}_{int}
+      \right)
+    \right)^{-1}
+    \,
+    \mathcal{S}
+    \left(
+      S_{int,sw_1}
+      +
+      j A
+      +
+      \tau_\Sigma
+      \left(
+        r \mathbf{L}_{int}
+      \right)
+    \right)
+    \\
+    & =
+    \mathcal{S}
+    \left(
+      S_{int,sw_1}
+      +
+      \tau_\Sigma
+      \left(
+        r \mathbf{L}_{int}
+      \right)
+    \right)^{-1}
+    \,
+    \mathcal{S}
+    \left(
+      S_{int,sw_1}
+      +
+      j A
+    \right)
+    \,
+    \mathcal{S}
+    \left(
+      S_{int,sw_1}
+    \right)^{-1}
+    \,
+    \mathcal{S}
+    \left(
+      j A
+      +
+      \tau_\Sigma
+      \left(
+        r \mathbf{L}_{int}
+      \right)
+    \right)
+    \\
+    & =
+    \mathcal{S}
+    \left(
+      S_{int,sw_1}
+      +
+      \tau_\Sigma
+      \left(
+        r\mathbf{L}_{int}
+      \right)
+    \right)^{-1}
+    \,
+    \underset{
+      = id
+    }{
+    \underbrace{
+    \mathcal{S}
+    \left(
+      S_{int,sw_1}
+    \right)
+    \,
+    \mathcal{S}
+    \left(
+      S_{int,sw_1}
+    \right)^{-1}
+    }
+    }
+    \,
+    \mathcal{S}
+    \left(
+      S_{int,sw_1}
+      +
+      j A
+    \right)
+    \,
+    \mathcal{S}
+    \left(
+      S_{int,sw_1}
+    \right)^{-1}
+    \,
+    \mathcal{S}
+    \left(
+      j A
+      +
+      \tau_\Sigma
+      \left(
+        r \mathbf{L}_{int}
+      \right)
+    \right)
+    \\
+    & =
+    \underset{
+      K^{-1}
+    }{
+      \underbrace{
+        \left(
+          \mathcal{Z}_{
+            S_{int,sw_1}
+          }
+          \left(
+            \tau_\Sigma
+            \left(
+              r \mathbf{L}_{int}
+            \right)
+          \right)
+        \right)^{-1}
+      }
+    }
+    \,
+
+    \mathcal{Z}_{
+      S_{int,sw_1}
+    }
+    \left(
+      j A
+    \right)
+    \,\,
+    \underset{
+      K
+    }{
+    \underbrace{
+    \mathcal{Z}_{
+      S_{int,sw_1}
+    }
+    \left(
+      \tau_\Sigma
+      \left(
+        r \mathbf{L}_{int}
+      \right)
+    \right)
+    }}
+  \end{aligned}
+$$
+
+
+This proves the existence of elements $K$ as claimed.
+
+It is clear that conjugation implies an algebra homomorphism,
+and since the map is a linear isomorphism on the space of generators,
+it is an algebra isomorphism on the algebras being generated (eq:AbstractGeneratingFunctionAlgebraIsomorphicToAnyAdiabaticSwitching).
+
+(While the elements $K$ in (eq:AdiabaticSwitchingRelationGeneratingFunctions) are far from being unique themselves,
+equation (eq:AdiabaticSwitchingRelationGeneratingFunctions) says that the map on generators induced
+by conjugation with $K$ is independent of this choice.)
+
+
+=--
+
+
++-- {: .num_prop #GeneratingAlgebrasIsLocalNet}
+###### Proposition
+**(system of perturbative generating algebras is [[causally local net of observables]])**
+
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}, let $\mathcal{S}$ be a corresponding [[S-matrix]] scheme according to def. \ref{LagrangianFieldTheoryPerturbativeScattering}, and let
+
+$$
+  \mathbf{L}_{int}
+  \;\in\;
+  \Omega^{p+1,0}_\Sigma(E_{\text{BV-BRST}})[ [ \hbar , g  ] ]
+$$
+
+be a [[Lagrangian density]], to be thought of as an [[interaction]].
+
+Then the system
+
+$$
+  Gen(E_{\text{BV-BRST}}, \mathbf{L}_{int})
+  \;\colon\;
+  CausCldSubsets(\Sigma)
+    \longrightarrow
+  Algebra
+$$
+
+of localized [[generating functions]] for [[interacting field observables]] (def. \ref{PerturbativeGeneratingLocalNetOfObservables})
+is a _[[causally local net]]_ in that it satisfies the following conditions:
+
+1. (isotony) For every inclusion $\mathcal{O}_1 \subset \mathcal{O}_2$ of [[causally closed subsets]] of [[spacetime]]
+   the corresponding algebra homomorphism is a [[monomorphism]]
+
+   $$
+     i_{\mathcal{O}_1, \mathcal{O}_2}
+     \;\colon\;
+     Gen(E_{\text{BV-BRST}}, \mathbf{L}_{int})(\mathcal{O}_1) \hookrightarrow Gen(E_{\text{BV-BRST}},\mathbf{L}_{int})(\mathcal{O}_2)
+   $$
+
+1. ([[causal locality]]) For $\mathcal{O}_1, \mathcal{O}_2 \subset X$ two [[causally closed subsets]]
+   which are [[spacelike]] separated, in that their [[causal ordering]] ([this def.](A+first+idea+of+quantum+field+theory#CausalOrdering)) satisfies
+
+   $$
+     \mathcal{O}_1 {\vee\!\!\!\wedge} \mathcal{O}_2
+       \;\text{and}\;
+     \mathcal{O}_2 {\vee\!\!\!\wedge} \mathcal{O}_1
+   $$
+
+   and for $\mathcal{O} \subset \Sigma$ any further [[causally closed subset]] which contains both
+
+   $$
+     \mathcal{O}_1 , \mathcal{O}_2 \subset \mathcal{O}
+   $$
+
+   then the corresponding images of the generating function algebras of interacting field observables
+   localized in  $\mathcal{O}_1$ and in $\mathcal{O}_2$,
+   respectively, commute with each other as subalgebras of the generating function algebras of interacting
+   field observables localized in $\mathcal{O}$:
+
+   $$
+     \left[
+       i_{\mathcal{O}_1,\mathcal{O}}(Gen_{L_{int}}(\mathcal{O}_1))
+       \;,\;
+       i_{\mathcal{O}_2,\mathcal{O}}(Gen_{L_{int}}(\mathcal{O}_2))
+     \right]
+     \;=\;
+     0
+     \;\;\;
+     \in Gen(E_{\text{BV-BRST}}, \mathbf{L}_{int})(\mathcal{O})
+     \,.
+   $$
+
+
+=--
+
+([D&#252;tsch-Fredenhagen 00, section 3](#DuetschFredenhagen00), following [Brunetti-Fredenhagen 99, section 8](#BrunettiFredenhagen99),
+[Il'in-Slavnov 78](#IlinSlavnov78))
+
++-- {: .proof}
+###### Proof
+
+Isotony is immediate from the definition of the algebra homomorphisms in def. \ref{PerturbativeGeneratingLocalNetOfObservables}.
+
+By remark \ref{WellDefinedInteractingFieldAlgebra} we may check causal localizy with respect to any
+choice of [[adiabatic switching]] $g_{sw} \in Cautoff(\mathcal{O})$ constant over $\mathcal{O}$. For this
+the statement follows, with the assumption of spacelike separation, by [[causal additivity]] (prop. \ref{ZCausalAdditivity}):
+
+For $supp(A_1) \subset \mathcal{O}_1$ and $supp(A_2) \subset \mathcal{O}_2$ we have:
+
+$$
+  \begin{aligned}
+    \mathcal{Z}_{S_{int,sw}}( j A_1 )
+    \mathcal{Z}_{S_{int,sw}}( j A_2 )
+    & =
+    \mathcal{S}_{S_{int,sw}}( j A_1 + j A_2)
+    \\
+    & =
+    \mathcal{S}_{S_{int,sw}}( j A_2 + j A_1)
+    \\
+    & =
+    \mathcal{Z}_{S_{int,sw}}( j A_2 )
+    \mathcal{Z}_{S_{int,sw}}( j A_1 )
+  \end{aligned}
+$$
+
+=--
+
+With the [[causally local net]] of localized [[generating functions]] for
+[[interacting field observables]] in hand, it is now immediate to get the
+
++-- {: .num_defn #SystemOfAlgebrasOfQuantumObservables}
+###### Definition
+**(system of [[interacting field algebras of observables]])
+
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}, let $\mathcal{S}$ be a corresponding [[S-matrix]] scheme according to def. \ref{LagrangianFieldTheoryPerturbativeScattering}, and let
+
+$$
+  \mathbf{L}_{int}
+  \;\in\;
+  \Omega^{p+1,0}_\Sigma(E_{\text{BV-BRST}})[ [ \hbar , g  ] ]
+$$
+
+be a [[Lagrangian density]], to be thought of as an [[interaction]], so that for $g_{sw} \in C^\infty_{sp}(\Sigma)\langle g \rangle$
+an [[adiabatic switching]] the [[transgression of variational differential forms|transgression]]
+
+$$
+  S_{int,sw} \;\coloneqq\; g \tau_\Sigma(g_{sw} \mathbf{L}_{int})
+  \;\in\;
+  LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]
+$$
+
+is a [[local observable]], to be thought of as an [[adiabatic switching|adiabatically switched]] [[interaction]] [[action functional]].
+
+For $\mathcal{O} \subset \Sigma$ a [[causally closed subset]]
+of [[spacetime]] (def. \ref{CausalComplementOfSubsetOfLorentzianManifold})
+and for $g_{sw} \in Cutoffs(\mathcal{O})$ an compatible [[adiabatic switching]] function (def. \ref{CutoffFunctions}) write
+
+$$
+  IntObs(E_{\text{BV-BRST}}, S_{int,sw})(\mathcal{O})
+   \coloneqq
+  \left\langle
+     i \hbar \frac{d}{d j}
+     \mathcal{Z}_{S_{int}}(j A)\vert_{j = 0} \;\vert\; supp(A) \subset \mathcal{O}
+  \right\rangle
+   \;\subset\;
+  PolyObs((\hbar))[ [ g ] ]
+$$
+
+for the [[interacting field algebra of observables]] (def. \ref{QuntumMollerOperator}) with spacetime support in $\mathcal{O}$.
+
+Let then
+
+$$
+  IntObs(E_{\text{BV-BRST}}, \mathbf{L}_{int})(\mathcal{O})
+    \subset
+  \underset{g_{sw} \in Cutoffs(\mathcal{O})}{\prod} IntObs(E_{\text{BV-BRST}}, S_{int,sw})(\mathcal{O})
+$$
+
+be the subalgebra of the [[Cartesian product]] of all these algebras as $g_{sw}$ ranges, which is generated by the
+[[tuples]]
+
+$$
+   i \hbar
+   \frac{d}{d j } \mathcal{Z}_{\mathbf{L}_{int}}\vert_{j = 0}
+    \;\coloneqq\;
+  \left(
+      i \hbar
+      \frac{d}{d j } \mathcal{Z}_{S_{int,sw}} (j A)\vert_{j  = 0}
+  \right)_{g_{sw} \in Cutoffs(\mathcal{O})}
+$$
+
+for $supp(A) \subset \mathcal{O}$.
+
+Finally, for $\mathcal{O}_1 \subset \mathcal{O}_2$ an inclusion of two [[causally closed subsets]], let
+
+$$
+  i_{\mathcal{O}_1, \mathcal{O}_2}
+  \;\colon\;
+  IntObs(E_{\text{BV-BRST}}, \mathbf{L}_{int})(\mathcal{O}_1)
+    \longrightarrow
+  IntObs(E_{\text{BV-BRST}}, \mathbf{L}_{int})(\mathcal{O}_2)
+$$
+
+be the algebra [[homomorphism]] which is given simply by restricting the index set of [[tuples]].
+
+This construction defines a [[functor]]
+
+$$
+  IntObs(E_{\text{BV-BRST}}, \mathbf{L}_{int}) \;\colon\; CausClsdSubsets(\Sigma) \longrightarrow Algebras
+$$
+
+from the [[poset]] of [[causally closed subsets]] in the [[spacetime]] $\Sigma$ to the [[category]] of [[star algebras]].
+
+=--
+
+Finally, as a direct corollary of prop. \ref{GeneratingAlgebrasIsLocalNet}, we obtain the key result:
+
++-- {: .num_prop #PerturbativeQuantumObservablesIsLocalnet}
+###### Proposition
+**(system of [[interacting field algebras of observables]] is [[causally local net|causally local]])**
+
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}, let $\mathcal{S}$ be a corresponding [[S-matrix]] scheme according to def. \ref{LagrangianFieldTheoryPerturbativeScattering}, and let
+
+$$
+  \mathbf{L}_{int}
+  \;\in\;
+  \Omega^{p+1,0}_\Sigma(E_{\text{BV-BRST}})[ [ \hbar , g ] ]
+  \,.
+$$
+
+be a [[Lagrangian density]], to be thought of as an [[interaction]]
+then the system of [[algebras of observables]] $Obs_{L_{int}}$ (def. \ref{SystemOfAlgebrasOfQuantumObservables})
+is a [[local net of observables]] in that
+
+1. (isotony) For every inclusion $\mathcal{O}_1 \subset \mathcal{O}_2$ of [[causally closed subsets]]
+   the corresponding algebra homomorphism is a [[monomorphism]]
+
+   $$
+     i_{\mathcal{O}_1, \mathcal{O}_2}
+     \;\colon\;
+     IntObs(E_{\text{BV-BRST}}, \mathbf{L}_{int})(\mathcal{O}_1) \hookrightarrow IntObs(E_{\text{BV-BRST}}, \mathbf{L}_{int})(\mathcal{O}_2)
+   $$
+
+1. ([[causal locality]]) For $\mathcal{O}_1, \mathcal{O}_2 \subset X$ two [[causally closed subsets]]
+   which are [[spacelike]] separated, in that their [[causal ordering]] ([this def.](A+first+idea+of+quantum+field+theory#CausalOrdering)) satisfies
+
+   $$
+     \mathcal{O}_1 {\vee\!\!\!\wedge} \mathcal{O}_2
+       \;\text{and}\;
+     \mathcal{O}_2 {\vee\!\!\!\wedge} \mathcal{O}_1
+   $$
+
+   and for $\mathcal{O} \subset \Sigma$ any further causally closed subset which contains both
+
+   $$
+     \mathcal{O}_1 , \mathcal{O}_2 \subset \mathcal{O}
+   $$
+
+   then the corresponding images of the generating algebras of $\mathcal{O}_1$ and $\mathcal{O}_2$,
+   respectively, commute with each other as subalgebras of the generating algebra of $\mathcal{O}$:
+
+   $$
+     \left[
+       i_{\mathcal{O}_1,\mathcal{O}}(Obs_{\mathbf{L}_{int}}(\mathcal{O}_1))
+       \;,\;
+       i_{\mathcal{O}_2,\mathcal{O}}(Obs_{\mathbf{L}_{int}}(\mathcal{O}_2))
+     \right]
+     \;=\;
+     0
+     \;\;\;
+     \in IntObs(E_{\text{BV-BRST}}, \mathbf{L}_{int})(\mathcal{O})
+     \,.
+   $$
+
+=--
+
+([D&#252;tsch-Fredenhagen 00, below (17)](#DuetschFredenhagen00), following [Brunetti-Fredenhagen 99, section 8](#BrunettiFredenhagen99),
+[Il'in-Slavnov 78](#IlinSlavnov78))
+
++-- {: .proof}
+###### Proof
+
+The first point is again immediate from the definition (def. \ref{SystemOfAlgebrasOfQuantumObservables}).
+
+For the second point it is sufficient to check the commutativity relation on generators. For these
+the statement follows with prop. \ref{GeneratingAlgebrasIsLocalNet}:
+
+$$
+  \begin{aligned}
+    & \left[
+      i \hbar \frac{d}{d j} \mathcal{Z}_{S_{int,sw}}(j A_1)\vert_{j = 0}
+      \;,\;
+      i \hbar  \frac{d}{d j} \mathcal{Z}_{S_{int,sw}}(j J_2)\vert_{j = 0}
+    \right]
+    \\
+    & =
+     (i \hbar)^2
+     \frac{
+       \partial^2
+     }{
+       \partial j_1 \partial j_2
+     }
+     \underset{ = 0}{
+     \underbrace{
+    \left[
+       \mathcal{Z}_{S_{int,sw}}(j_1 A_1)
+      \;,\;
+       \mathcal{Z}_{S_{int,sw}}(j_1 A_2)
+    \right]}}_{ \left\vert  { {j_1 = 0} \atop {j_2 = 0} } \right. }
+    \\
+    & = 0
+  \end{aligned}
+$$
 
 =--
 
@@ -3460,883 +4450,6 @@ Finally, the [[effective action]], by definition (eq:ExpansionEffectiveAction), 
 $\,$
 
 
-
-$\,$
-
-#### Interacting field observables
- {#QuantumObservables}
-
-We have seen that via [[Bogoliubov's formula]] (def. \ref{InteractingFieldObservables}) every perturbative [[S-matrix]] scheme (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) induces for every choice of [[adiabatic switching|adiabatically switched]]
-[[interaction]] [[action functional]] $S_{int,sw} \coloneqq \tau_\Sigma( g_{sw} \mathbf{L}_{int} )$ a notion of [[perturbative QFT|perturbative]] [[interacting field algebra of observables]].
-However, in general the output of [[Bogoliubov's formula]] depends on that choice of [[adiabatic switching]];
-which however is not meant to be part of the [[physics]], but just a mathematical device for grasping global field structures locally.
-
-Here we discuss how the dependence of the [[interacting field algebras of observables]] on the [[adiabatic switching]]
-indeed goes away (prop. \ref{IsomorphismFromChangeOfAdiabaticSwitching} below) when restricting attention to [[local observables]] with spacetime support inside compact [[causally closed subsets]] $\mathcal{O}$ of spacetime (def. \ref{PerturbativeGeneratingLocalNetOfObservables} below).
-
-The resulting system ([[co-presheaf]]) of well-defined perturbative [[interacting field algebras of observables]] (def. \ref{SystemOfAlgebrasOfQuantumObservables} below)
-
-$$
-  \mathcal{O} \mapsto Obs_{\mathbf{L}_{int}}(\mathcal{O})
-$$
-
-is in fact [[causal locality|causally local]] (prop. \ref{PerturbativeQuantumObservablesIsLocalnet} below). 
-This fact was presupposed without proof already in [Il'in-Slavnov 78](perturbative+algebraic+quantum+field+theory#IlinSlavnov78);
-because this is one of two key properties that the [[Haag-Kastler axioms]] ([Haag-Kastler 64](Haag-Kastler+axioms#HaagKastler64)) demand of an intrinsically defined [[quantum field theory]]
-(i.e. defined without necessarily making recourse to the geometric backdrop of [[Lagrangian field theory]]). The only other key property demanded by the [[Haag-Kastler axioms]]
-is that the [[algebras of observables]] be [[C*-algebras]]; this however must be regarded as the axiom encoding
-[[non-perturbative quantum field theory]] and hence is necessarily violated in the present context of [[perturbative QFT]].
-
-Since quantum field theory following the full [[Haag-Kastler axioms]] is commonly known as _[[AQFT]]_, this perturbative version,
-with [[causally local nets of observables]] but without the [[C*-algebra]]-condition on them, has come to be called
-_[[perturbative AQFT]]_ ([Dütsch-Fredenhagen 01](perturbative+algebraic+quantum+field+theory#DuetschFredenhagen01),
-[Fredenhagen-Rejzner 12](perturbative+algebraic+quantum+field+theory#FredenhagenRejzner12)).
-
-In this terminology the content of prop. \ref{PerturbativeQuantumObservablesIsLocalnet} below is that 
-_while the input of [[causal perturbation theory]] is a [[gauge fixing|gauge fixed]] [[Lagrangian field theory]],
-the output is a [[perturbative algebraic quantum field theory]]_:
-
-
-$$
-  \array{
-    \array{
-      \text{gauge-fixed}
-      \\
-      \text{Lagrangian}
-      \\
-      \text{field theory}
-    }
-    &
-    \overset{
-      \array{
-        \text{causal}
-        \\
-        \text{perturbation theory}
-        \\
-      }
-    }{\longrightarrow}&
-    \array{
-      \text{perturbative} 
-      \\
-      \text{algebraic}
-      \\
-      \text{quantum}
-      \\
-      \text{field theory}    
-    }
-    \\
-    \underset{
-      \array{
-        \text{(Becchi-Rouet-Stora 76,}
-        \\
-        \text{Batalin-Vilkovisky 80s)}
-      }
-    }{\,}
-    &
-    \underset{\text{(Epstein-Glaser 73)}}{\,}
-    &
-    \underset{
-    \array{
-      \text{ (Il'in-Slavnov 78,  }
-      \\
-      \text{Brunetti-Fredenhagen 99,}
-      \\
-      \text{Dütsch-Fredenhagen 01)}
-    }
-    }{\,}
-  }
-$$
-
-
-The independence of the [[causally local net]] of localized [[interacting field algebras of observables]]
-$Obs_{\mathbf{L}_{int}}(\mathcal{O})$ from the choice of [[adiabatic switching]]
-implies a well-defined spacetime-global [[algebra of observables]] by forming the [[inductive limit]]
-
-$$
-  Obs_{\mathbf{L}_{int}} 
-    \;\coloneqq\;
-  \underset{\underset{\mathcal{O}}{\longrightarrow}}{\lim} 
-  \left(
-    Obs_{\mathbf{L}_{int}}(\mathcal{O})
-  \right)
-  \,.
-$$
-
-This is also called the _[[algebraic adiabatic limit]]_, defining the [[algebras of observables]] of [[perturbative QFT]]
-"in the infrared". The only remaining step in the construction of a [[perturbative QFT]] that remains is then 
-to find an [[interacting vacuum state]] 
-
-$$
-  \left\langle
-    -
-  \right\rangle_{int}
-  \;\colon\;
-  Obs_{\mathbf{L}_{int}}
-   \longrightarrow
-  \mathbb{C}[ [ \hbar, g] ] 
-$$
-
-on the global [[interacting field algebra]] $Obs_{\mathbf{L}_{int}}$.
-This is related to the actual _[[adiabatic limit]]_, and it is by and large an open problem, see remark \ref{AdiabaticLimit}.
-
-
-$\,$
-
-The following definition simply collects the system (a [[co-presheaf]]) of [[generating functions]] for [[interacting field observables]]
-which are localized in spacetime as the spacetime localization region varies:
-
-+-- {: .num_defn #PerturbativeGeneratingLocalNetOfObservables}
-###### Definition
-**(system of spacetime-localized [[generating functions]] for [[interacting field observables]])**
-
-Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}, let $\mathcal{S}$ be a corresponding [[S-matrix]] scheme according to def. \ref{LagrangianFieldTheoryPerturbativeScattering}, and let
-
-$$
-  \mathbf{L}_{int}
-  \;\in\;
-  \Omega^{p+1,0}_\Sigma(E_{\text{BV-BRST}})[ [ \hbar , g  ] ]
-$$
-
-be a [[Lagrangian density]], to be thought of as an [[interaction]], so that for $g_{sw} \in C^\infty_{sp}(\Sigma)\langle g \rangle$
-an [[adiabatic switching]] the [[transgression of variational differential forms|transgression]]
-
-$$
-  S_{int,sw} \;\coloneqq\; \tau_\Sigma(g_{sw} \mathbf{L}_{int})
-  \;\in\;
-  LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]
-$$
-
-is a [[local observable]], to be thought of as an [[adiabatic switching|adiabatically switched]] [[interaction]] [[action functional]].
-
-For $\mathcal{O} \subset \Sigma$ a [[causally closed subset]] of [[spacetime]]
-([this def.](A+first+idea+of+quantum+field+theory#CausalComplementOfSubsetOfLorentzianManifold))
-and for $g_{sw} \in Cutoffs(\mathcal{O})$ an [[adiabatic switching]] function ([this def.](A+first+idea+of+quantum+field+theory#CutoffFunctions))
-which is constant on a [[neighbourhood]] of $\mathcal{O}$, write
-
-$$
-  Gen_{S_{int,sw}}(\mathcal{O})
-   \;\coloneqq\;
-  \left\langle
-    \mathcal{Z}_{S_{int,sw}}(j A) 
-    \;\vert\;
-    A \in LocObs(E_{\text{BV-BRST}})[ [ \hbar, g] ] 
-    \,\text{with}\,
-    supp(A) \subset \mathcal{O}
-  \right\rangle
-   \;\subset\;
-  PolyObs(E_{\text{BV-BRST}})((\hbar))[ [ g, j] ]
-$$
-
-for the smallest subalgebra of the [[Wick algebra]] which contains the
-[[generating functions]] (def. \ref{SchemeGeneratingFunction})
-with respect to $S_{int,sw}$ for all those [[local observables]] $A$ whose spacetime support is in $\mathcal{O}$.
-
-Moreover, write
-
-$$
-  Gen_{\mathbf{L}_{int}}(\mathcal{O})
-    \;\subset\;
-  \underset{g_{sw} \in Cutoffs(\mathcal{O})}{\prod} Gen_{g_{sw}L_{int}}(\mathcal{O})
-$$
-
-be the subalgebra of the [[Cartesian product]] of all these algebras as $g_{sw}$ ranges over cutoffs, which is generated by the
-[[tuples]]
-
-$$
-  \mathcal{Z}_{\mathbf{L}_{int}}(A)
-    \;\coloneqq\;
-  \left(
-    \mathcal{Z}_{S_{int,sw}}(j A)
-  \right)_{g_{sw} \in Cutoffs(\mathcal{O})}
-$$
-
-for $A$ with $supp(A) \subset \mathcal{O}$.
-
-We call $Gen_{\mathbf{L}_{int}}(\mathcal{O})$ the _algebra of [[generating functions]] for [[interacting field observables]] localized in $\mathcal{O}$_.
-
-Finally, for $\mathcal{O}_1 \subset \mathcal{O}_2$ an inclusion of two [[causally closed subsets]], let
-
-$$
-  i_{\mathcal{O}_1, \mathcal{O}_2}
-  \;\colon\;
-  Gen_{\mathbf{L}_{int}}(\mathcal{O}_1)
-    \longrightarrow
-  Gen_{\mathbf{L}_{int}}(\mathcal{O}_2)
-$$
-
-be the algebra [[homomorphism]] which is given simply by restricting the index set of [[tuples]].
-
-This construction defines a [[functor]]
-
-$$
-  Gen_{\mathbf{L}_{int}} 
-    \;\colon\; 
-  CausClsdSubsets(\Sigma) 
-    \longrightarrow 
-  Algebras
-$$
-
-from the [[poset]] of [[causally closed subsets]] of [[spacetime]] to the [[category]] of [[algebras]].
-
-> (extends to [[star algebras]] if scattering matrices are chosen unitary...)
-
-=--
-
-([Brunetti-Fredenhagen 99, (65)-(67)](#BrunettiFredenhagen99))
-
-The key technical fact is the following:
-
-+-- {: .num_prop #IsomorphismFromChangeOfAdiabaticSwitching}
-###### Proposition
-**(localized [[interacting field observables]] independent of [[adiabatic switching]])**
-
-Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}, let $\mathcal{S}$ be a corresponding [[S-matrix]] scheme according to def. \ref{LagrangianFieldTheoryPerturbativeScattering}, and let
-
-$$
-  \mathbf{L}_{int}
-  \;\in\;
-  \Omega^{p+1,0}_\Sigma(E_{\text{BV-BRST}})[ [ \hbar , g  ] ]
-$$
-
-be a [[Lagrangian density]], to be thought of as an [[interaction]], so that for $g_{sw} \in C^\infty_{sp}(\Sigma)\langle g \rangle$
-an [[adiabatic switching]] the [[transgression of variational differential forms|transgression]]
-
-$$
-  S_{int,sw} \;\coloneqq\; g \tau_\Sigma(g_{sw} \mathbf{L}_{int})
-  \;\in\;
-  LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]
-$$
-
-is a [[local observable]], to be thought of as an [[adiabatic switching|adiabatically switched]] [[interaction]] [[action functional]].
-
-If two such [[adiabatic switchings]] $g_{sw,1}, g_{sw,2} \in C^\infty_{cp}(\Sigma)$ agree on a
-[[causally closed subset]]
-
-$$
-  \mathcal{O} \;\subset\; \Sigma
-$$
-
-in that
-
-$$
-  g_{sw,1}\vert_{\mathcal{O}} = g_{sw,2}\vert_{\mathcal{O}}
-$$
-
-then there exists a [[microcausal polynomial observable]]
-
-$$
-  K \;\in\; PolyObs(E_{\text{BV-BRST}})[ [ \hbar, g, j ] ]
-$$
-
-such that for every [[local observable]]
-
-$$
-  A \;\in\; LocObs(E_{\text{BV-BRST}})[ [ \hbar, g ] ]
-$$
-
-with spacetime support in $\mathcal{O}$
-
-$$
-  supp(A) \;\subset\; \mathcal{O}
-$$
-
-the corresponding two [[generating functions]] (eq:GeneratingFunctionInducedFromSMatrix)
-are related via [[conjugation]] by $K$:
-
-$$
-  \label{AdiabaticSwitchingRelationGeneratingFunctions}
-  \mathcal{Z}_{S_{int,sw_2}}
-  \left(
-    j A
-  \right)
-  \;=\;
-  K^{-1}
-  \,
-  \left(
-    \mathcal{Z}_{S_{int,sw_1}}
-    \left(
-      j A
-    \right)
-  \right)
-  \,
-  K
-  \,.
-$$
-
-In particular this means that for every choice of [[adiabatic switching]] $g_{sw} \in Cutoffs(\mathcal{O})$
-the algebra $Gen_{S_{int,sw}}(\mathcal{O})$ of [[generating functions]] for [[interacting field observables]]
-computed with $g_{sw}$ is canonically [[isomorphism|isomorphic]] to the 
-abstract algebra $Gen_{\mathbf{L}_{int}}(\mathcal{O})$  (def. \ref{PerturbativeGeneratingLocalNetOfObservables}),
-by the evident map on generators:
-
-$$
-  \label{AbstractGeneratingFunctionAlgebraIsomorphicToAnyAdiabaticSwitching}
-  \array{
-    Gen_{\mathbf{L}_{int}}
-      &\overset{\simeq}{\longrightarrow}&
-    Gen_{S_{int,sw}}(\mathcal{O})
-    \\
-    \left(
-      \mathcal{Z}_{S_{int,sw'}}
-    \right)_{g_{sw'} \in Cutoffs(\mathcal{O})}
-    &\mapsto&
-    \mathcal{Z}_{S_{int,sw}}
-  }
-  \,.
-$$
-
-=--
-
-([Brunetti-Fredenhagen 99, prop. 8.1](#BrunettiFredenhagen99))
-
-+-- {: .proof}
-###### Proof
-
-By causal closure of $\mathcal{O}$, [this lemma](A+first+idea+of+quantum+field+theory#CausalPartition)
-says that there are [[bump functions]]
-
-$$
-  a, r \in C^\infty_{cp}(\Sigma)
-$$
-
-which decompose the difference of [[adiabatic switchings]]
-
-$$
-  g_{sw,2} - g_{sw,1} = a + r
-$$
-
-subject to the [[causal ordering]]
-
-$$
-  supp(a) \,{\vee\!\!\!\wedge}\, \mathcal{O} \,{\vee\!\!\!\wedge}\, supp(r)
-  \,.
-$$
-
-With this the result follows from repeated use of [[causal additivity]] in its various equivalent
-incarnations from prop. \ref{ZCausalAdditivity}:
-
-$$
-  \begin{aligned}
-    & \mathcal{Z}_{S_{int,sw_2}}(j A)
-    \\
-    & =
-    \mathcal{Z}_{
-      \left(
-        \tau_\Sigma
-        \left(
-          g_{sw,2}
-          \mathbf{L}_{int}
-        \right)
-      \right)
-    }
-    \left(
-      j A
-    \right)
-    \\
-    & =
-    \mathcal{Z}_{
-      \left(
-        \tau_\Sigma
-        \left(
-          (g_{sw,1} + a + r)\mathbf{L}_{int}
-        \right)
-      \right)
-    }
-    \left(
-      j A
-    \right)
-    \\
-    & =
-    \mathcal{Z}_{
-      \left(
-        S_{int,sw_1}
-        +
-        \tau_\Sigma
-        \left(
-          r \mathbf{L}_{int}
-        \right)
-        +
-        \tau_\Sigma
-        \left(
-          a \mathbf{L}_{int}
-        \right)
-      \right)
-    }
-    \left(
-      j A
-    \right)
-    \\
-    & =
-    \mathcal{Z}_{
-      \left(
-        S_{int,sw_1}
-        +
-        \tau_\Sigma
-        \left(
-          r \mathbf{L}_{int}
-        \right)
-      \right)
-    }
-    \left(
-      j A
-    \right)
-    \\
-    & =
-    \mathcal{S}
-    \left(
-      S_{int,sw_1}
-      +
-      \tau_\Sigma
-      \left(
-        r \mathbf{L}_{int}
-      \right)
-    \right)^{-1}
-    \,
-    \mathcal{S}
-    \left(
-      S_{int,sw_1}
-      +
-      j A
-      +
-      \tau_\Sigma
-      \left(
-        r \mathbf{L}_{int}
-      \right)
-    \right)
-    \\
-    & =
-    \mathcal{S}
-    \left(
-      S_{int,sw_1}
-      +
-      \tau_\Sigma
-      \left(
-        r \mathbf{L}_{int}
-      \right)
-    \right)^{-1}
-    \,
-    \mathcal{S}
-    \left(
-      S_{int,sw_1}
-      +
-      j A
-    \right)
-    \,
-    \mathcal{S}
-    \left(
-      S_{int,sw_1}
-    \right)^{-1}
-    \,
-    \mathcal{S}
-    \left(
-      j A
-      +
-      \tau_\Sigma
-      \left(
-        r \mathbf{L}_{int}
-      \right)
-    \right)
-    \\
-    & =
-    \mathcal{S}
-    \left(
-      S_{int,sw_1}
-      +
-      \tau_\Sigma
-      \left(
-        r\mathbf{L}_{int}
-      \right)
-    \right)^{-1}
-    \,
-    \underset{
-      = id
-    }{
-    \underbrace{
-    \mathcal{S}
-    \left(
-      S_{int,sw_1}
-    \right)
-    \,
-    \mathcal{S}
-    \left(
-      S_{int,sw_1}
-    \right)^{-1}
-    }
-    }
-    \,
-    \mathcal{S}
-    \left(
-      S_{int,sw_1}
-      +
-      j A
-    \right)
-    \,
-    \mathcal{S}
-    \left(
-      S_{int,sw_1}
-    \right)^{-1}
-    \,
-    \mathcal{S}
-    \left(
-      j A
-      +
-      \tau_\Sigma
-      \left(
-        r \mathbf{L}_{int}
-      \right)
-    \right)
-    \\
-    & =
-    \underset{
-      K^{-1}
-    }{
-      \underbrace{
-        \left(
-          \mathcal{Z}_{
-            S_{int,sw_1}
-          }
-          \left(
-            \tau_\Sigma
-            \left(
-              r \mathbf{L}_{int}
-            \right)
-          \right)
-        \right)^{-1}
-      }
-    }
-    \,
-
-    \mathcal{Z}_{
-      S_{int,sw_1}
-    }
-    \left(
-      j A
-    \right)
-    \,\,
-    \underset{
-      K
-    }{
-    \underbrace{
-    \mathcal{Z}_{
-      S_{int,sw_1}
-    }
-    \left(
-      \tau_\Sigma
-      \left(
-        r \mathbf{L}_{int}
-      \right)
-    \right)
-    }}
-  \end{aligned}
-$$
-
-
-This proves the existence of elements $K$ as claimed.
-
-It is clear that conjugation implies an algebra homomorphism, hence here an isomorphims (eq:AbstractGeneratingFunctionAlgebraIsomorphicToAnyAdiabaticSwitching).
-
-(While the elements $K$ in (eq:AdiabaticSwitchingRelationGeneratingFunctions) are far from being unique themselves,
-equation (eq:AdiabaticSwitchingRelationGeneratingFunctions) says that the map on generators induced
-by conjugation with $K$ is independent of this choice.)
-
-
-=--
-
-
-+-- {: .num_prop #GeneratingAlgebrasIsLocalNet}
-###### Proposition
-**(system of perturbative generating algebras is [[causally local net of observables]])**
-
-Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}, let $\mathcal{S}$ be a corresponding [[S-matrix]] scheme according to def. \ref{LagrangianFieldTheoryPerturbativeScattering}, and let
-
-$$
-  \mathbf{L}_{int}
-  \;\in\;
-  \Omega^{p+1,0}_\Sigma(E_{\text{BV-BRST}})[ [ \hbar , g  ] ]
-$$
-
-be a [[Lagrangian density]], to be thought of as an [[interaction]].
-
-Then the system 
-
-$$
-  Gen_{\mathbf{L}_{int}}
-  \;\colon\;
-  CausCldSubsets(\Sigma)
-    \longrightarrow
-  Algebra  
-$$ 
-
-of localized [[generating functions]] for [[interacting field observables]] (def. \ref{PerturbativeGeneratingLocalNetOfObservables})
-is a _[[causally local net of observables|causally local net]]_ in that it satisfies the following conditions:
-
-1. (isotony) For every inclusion $\mathcal{O}_1 \subset \mathcal{O}_2$ of [[causally closed subsets]] of [[spacetime]]
-   the corresponding algebra homomorphism is a [[monomorphism]]
-
-   $$
-     i_{\mathcal{O}_1, \mathcal{O}_2}
-     \;\colon\;
-     Gen_{L_{int}}(\mathcal{O}_1) \hookrightarrow Gen_{L_{int}}(\mathcal{O}_2)
-   $$
-
-1. ([[causal locality]]) For $\mathcal{O}_1, \mathcal{O}_2 \subset X$ two [[causally closed subsets]]
-   which are [[spacelike]] separated, in that their [[causal ordering]] ([this def.](A+first+idea+of+quantum+field+theory#CausalOrdering)) satisfies
-
-   $$
-     \mathcal{O}_1 {\vee\!\!\!\wedge} \mathcal{O}_2
-       \;\text{and}\;
-     \mathcal{O}_2 {\vee\!\!\!\wedge} \mathcal{O}_1
-   $$
-
-   and for $\mathcal{O} \subset \Sigma$ any further [[causally closed subset]] which contains both
-
-   $$
-     \mathcal{O}_1 , \mathcal{O}_2 \subset \mathcal{O}
-   $$
-
-   then the corresponding images of the generating function algebras of interacting field observables 
-   localized in  $\mathcal{O}_1$ and in $\mathcal{O}_2$,
-   respectively, commute with each other as subalgebras of the generating function algebras of interacting 
-   field observables localized in $\mathcal{O}$:
-
-   $$
-     \left[
-       i_{\mathcal{O}_1,\mathcal{O}}(Gen_{L_{int}}(\mathcal{O}_1))
-       \;,\;
-       i_{\mathcal{O}_2,\mathcal{O}}(Gen_{L_{int}}(\mathcal{O}_2))
-     \right]
-     \;=\;
-     0
-     \;\;\;
-     \in Gen_{\mathbf{L}_{int}}(\mathcal{O})
-     \,.
-   $$
-
-
-=--
-
-([D&#252;tsch-Fredenhagen 00, section 3](#DuetschFredenhagen00), following [Brunetti-Fredenhagen 99, section 8](#BrunettiFredenhagen99),
-[Il'in-Slavnov 78](#IlinSlavnov78))
-
-+-- {: .proof}
-###### Proof
-
-Isotony is immediate from the definition of the algebra homomorphisms in def. \ref{PerturbativeGeneratingLocalNetOfObservables}.
-
-By remark \ref{WellDefinedInteractingFieldAlgebra} we may check causal localizy with respect to any
-choice of [[adiabatic switching]] $g_{sw} \in Cautoff(\mathcal{O})$ constant over $\mathcal{O}$. For this 
-the statement follows, with the assumption of spacelike separation, by [[causal additivity]] (prop. \ref{ZCausalAdditivity}):
-
-For $supp(A_1) \subset \mathcal{O}_1$ and $supp(A_2) \subset \mathcal{O}_2$ we have:
-
-$$
-  \begin{aligned}
-    \mathcal{Z}_{S_{int,sw}}( j A_1 )
-    \mathcal{Z}_{S_{int,sw}}( j A_2 )  
-    & =
-    \mathcal{S}_{S_{int,sw}}( j A_1 + j A_2)
-    \\
-    & =
-    \mathcal{S}_{S_{int,sw}}( j A_2 + j A_1)
-    \\
-    & =
-    \mathcal{Z}_{S_{int,sw}}( j A_2 )
-    \mathcal{Z}_{S_{int,sw}}( j A_1 )
-  \end{aligned}
-$$
-
-=--
-
-With the [[causally local net]] of localized [[generating functions]] for
-[[interacting field observables]] in hand, it is now immediate to get the 
-
-+-- {: .num_defn #SystemOfAlgebrasOfQuantumObservables}
-###### Definition
-**(system of [[interacting field algebras of observables]])
-
-Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}, let $\mathcal{S}$ be a corresponding [[S-matrix]] scheme according to def. \ref{LagrangianFieldTheoryPerturbativeScattering}, and let
-
-$$
-  \mathbf{L}_{int}
-  \;\in\;
-  \Omega^{p+1,0}_\Sigma(E_{\text{BV-BRST}})[ [ \hbar , g  ] ]
-$$
-
-be a [[Lagrangian density]], to be thought of as an [[interaction]], so that for $g_{sw} \in C^\infty_{sp}(\Sigma)\langle g \rangle$
-an [[adiabatic switching]] the [[transgression of variational differential forms|transgression]]
-
-$$
-  S_{int,sw} \;\coloneqq\; g \tau_\Sigma(g_{sw} \mathbf{L}_{int})
-  \;\in\;
-  LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]
-$$
-
-is a [[local observable]], to be thought of as an [[adiabatic switching|adiabatically switched]] [[interaction]] [[action functional]].
-
-For $\mathcal{O} \subset \Sigma$ a [[causally closed subset]]
-of [[spacetime]] (def. \ref{CausalComplementOfSubsetOfLorentzianManifold})
-and for $g_{sw} \in Cutoffs(\mathcal{O})$ an compatible [[adiabatic switching]] function (def. \ref{CutoffFunctions}) write
-
-$$
-  Obs_{S_{int,sw}}(\mathcal{O})
-   \coloneqq
-  \left\langle
-     i \hbar \frac{d}{d j} 
-     \mathcal{Z}_{S_{int}}(j A)\vert_{j = 0} \;\vert\; supp(A) \subset \mathcal{O}
-  \right\rangle
-   \;\subset\;
-  PolyObs((\hbar))[ [ g ] ]
-$$
-
-for the smallest subalgebra of the [[Wick algebra]] which contains the
-[[interacting field observables]]  (def. \ref{GeneratingFunctionsForCorrelationFunctions}) with spacetime support in $\mathcal{O}$.
-
-Moreover, let
-
-$$
-  Obs_{\mathbf{L}_{int}}(\mathcal{O})
-    \subset
-  \underset{g_{sw} \in Cutoffs(\mathcal{O})}{\prod} Obs_{S_{int}}(\mathcal{O})
-$$
-
-be the subalgebra of the [[Cartesian product]] of all these algebras as $g_{sw}$ ranges, which is generated by the
-[[tuples]]
-
-$$
-   i \hbar 
-   \frac{d}{d j } \mathcal{Z}_{\mathbf{L}_{int}}\vert_{j = 0}
-    \;\coloneqq\;
-  \left(
-      i \hbar
-      \frac{d}{d j } \mathcal{Z}_{S_{int,sw}} (j A)\vert_{j  = 0}
-  \right)_{g_{sw} \in Cutoffs(\mathcal{O})}
-$$
-
-for $supp(A) \subset \mathcal{O}$.
-
-Finally, for $\mathcal{O}_1 \subset \mathcal{O}_2$ an inclusion of two [[causally closed subsets]], let
-
-$$
-  i_{\mathcal{O}_1, \mathcal{O}_2}
-  \;\colon\;
-  Obs_{\mathbf{L}_{int}}(\mathcal{O}_1)
-    \longrightarrow
-  Obs_{\mathbf{L}_{int}}(\mathcal{O}_2)
-$$
-
-be the algebra [[homomorphism]] which is given simply by restricting the index set of [[tuples]].
-
-This construction defines a [[functor]]
-
-$$
-  Obs_{\mathbf{L}_{int}} \;\colon\; CausClsdSubsets(\Sigma) \longrightarrow Algebras
-$$
-
-from the [[poset]] of [[causally closed subsets]] in the [[spacetime]] $\Sigma$ to the [[category]] of [[star algebras]].
-
-=--
-
-Finally, as a direct corollary of prop. \ref{GeneratingAlgebrasIsLocalNet}, we obtain the key result:
-
-+-- {: .num_prop #PerturbativeQuantumObservablesIsLocalnet}
-###### Proposition
-**(system of [[interacting field algebras of observables]] is [[causally local net|causally local]])**
-
-Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}, let $\mathcal{S}$ be a corresponding [[S-matrix]] scheme according to def. \ref{LagrangianFieldTheoryPerturbativeScattering}, and let
-
-$$
-  \mathbf{L}_{int}
-  \;\in\;
-  \Omega^{p+1,0}_\Sigma(E_{\text{BV-BRST}})[ [ \hbar , g ] ]
-  \,.
-$$
-
-be a [[Lagrangian density]], to be thought of as an [[interaction]]
-then the system of [[algebras of observables]] $Obs_{L_{int}}$ (def. \ref{SystemOfAlgebrasOfQuantumObservables})
-is a [[local net of observables]] in that
-
-1. (isotony) For every inclusion $\mathcal{O}_1 \subset \mathcal{O}_2$ of [[causally closed subsets]]
-   the corresponding algebra homomorphism is a [[monomorphism]]
-
-   $$
-     i_{\mathcal{O}_1, \mathcal{O}_2}
-     \;\colon\;
-     Obs_{\mathbf{L}_{int}}(\mathcal{O}_1) \hookrightarrow Obs_{\mathbf{L}_{int}}(\mathcal{O}_2)
-   $$
-
-1. ([[causal locality]]) For $\mathcal{O}_1, \mathcal{O}_2 \subset X$ two [[causally closed subsets]]
-   which are [[spacelike]] separated, in that their [[causal ordering]] ([this def.](A+first+idea+of+quantum+field+theory#CausalOrdering)) satisfies
-
-   $$
-     \mathcal{O}_1 {\vee\!\!\!\wedge} \mathcal{O}_2
-       \;\text{and}\;
-     \mathcal{O}_2 {\vee\!\!\!\wedge} \mathcal{O}_1
-   $$
-
-   and for $\mathcal{O} \subset \Sigma$ any further causally closed subset which contains both
-
-   $$
-     \mathcal{O}_1 , \mathcal{O}_2 \subset \mathcal{O}
-   $$
-
-   then the corresponding images of the generating algebras of $\mathcal{O}_1$ and $\mathcal{O}_2$,
-   respectively, commute with each other as subalgebras of the generating algebra of $\mathcal{O}$:
-
-   $$
-     \left[
-       i_{\mathcal{O}_1,\mathcal{O}}(Obs_{\mathbf{L}_{int}}(\mathcal{O}_1))
-       \;,\;
-       i_{\mathcal{O}_2,\mathcal{O}}(Obs_{\mathbf{L}_{int}}(\mathcal{O}_2))
-     \right]
-     \;=\;
-     0
-     \;\;\;
-     \in Obs_{\mathbf{L}_{int}}(\mathcal{O})
-     \,.
-   $$
-
-=--
-
-([D&#252;tsch-Fredenhagen 00, below (17)](#DuetschFredenhagen00), following [Brunetti-Fredenhagen 99, section 8](#BrunettiFredenhagen99),
-[Il'in-Slavnov 78](#IlinSlavnov78))
-
-+-- {: .proof}
-###### Proof
-
-The first point is again immediate from the definition (def. \ref{SystemOfAlgebrasOfQuantumObservables}).
-
-For the second point it is sufficient to check the commutativity relation on generators. For these
-the statement follows with prop. \ref{GeneratingAlgebrasIsLocalNet}:
-
-$$
-  \begin{aligned}
-    & \left[
-      i \hbar \frac{d}{d j} \mathcal{Z}_{S_{int,sw}}(j A_1)\vert_{j = 0}
-      \;,\;
-      i \hbar  \frac{d}{d j} \mathcal{Z}_{S_{int,sw}}(j J_2)\vert_{j = 0}
-    \right]
-    \\
-    & =
-     (i \hbar)^2
-     \frac{
-       \partial^2
-     }{
-       \partial j_1 \partial j_2
-     }
-     \underset{ = 0}{
-     \underbrace{
-    \left[
-       \mathcal{Z}_{S_{int,sw}}(j_1 A_1)
-      \;,\;
-       \mathcal{Z}_{S_{int,sw}}(j_1 A_2)
-    \right]}}_{ \left\vert  { {j_1 = 0} \atop {j_2 = 0} } \right. }
-    \\
-    & = 0
-  \end{aligned}
-$$
-
-=--
-
 $\,$
 
 #### Retarded products
@@ -4352,8 +4465,8 @@ It follows from the perturbation axiom in def. \ref{LagrangianFieldTheoryPerturb
 $$
   R
     \;\colon\;
-  \left(  
-    LocObs(E_{\text{BV-BRST}})[ [ \hbar, g ] ]  
+  \left(
+    LocObs(E_{\text{BV-BRST}})[ [ \hbar, g ] ]
     \langle g\rangle\right)^{\otimes^k}
     \otimes
   (LocObs(E_{\text{BV-BRST}})[ [ \hbar,g, j] ] )^{\otimes^l}
