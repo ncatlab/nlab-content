@@ -1,9 +1,22 @@
 
+$$
+  S_1 {\gt\!\!\!\!\lt} S_2
+  \phantom{AAA}
+  \text{for}
+  \phantom{AAA}
+  \array{
+    S_1 {\vee\!\!\!\wedge} S_2
+    \\
+    \text{and}
+    \\
+    S_2 {\vee\!\!\!\wedge} A_1 
+  }
+$$
 
 Suppose that
 
 $$
-  supp(A_1) {\vee\!\!\!\wedge} supp(A_2)
+  supp(A_1) {\vee\!\!\!\!\wedge} supp(A_2)
 $$
 
 then (by [[causal additivity]]):
