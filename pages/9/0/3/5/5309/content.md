@@ -38,6 +38,11 @@ A [[Lie groupoid]] is called a _[[proper Lie groupoid]]_ if its underlying topol
 
 An [[orbifold]] is a [[proper Lie groupoid]] which is also an [[étale groupoid]].
 
+## Related concepts
+
+* [[locally compact groupoid]]
+
+
 [[!redirects proper groupoid]]
 
 [[!redirects proper groupoids]]
