@@ -106,3 +106,12 @@ The observation that these algebras are the [[formal deformation quantization]] 
 [[!redirects interacting observable algebra]]
 [[!redirects interacting observable algebras]]
 
+[[!redirects local interacting field observable]]
+[[!redirects local interacting field observables]]
+
+[[!redirects interacting local observable]]
+[[!redirects interacting local observables]]
+
+
+
+
