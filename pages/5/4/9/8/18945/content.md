@@ -38,7 +38,7 @@ More formally this means that a multigraph is
 
 1. a [[function]] $E \to \left\{ {\,\atop \,} \{v_1, v_2\} = \{v_2, v_1\} \;\vert\; v_1, v_2 \in V \,,\; v_1 \neq v_2 {\, \atop \,} \right\}$ (sending any [[edge]] to the unordered pair of distinct [[vertices]] that it goes between).
 
-Specifically a [[finite graph|finite]] multigraph is, up to [[isomorphism]] specified by
+Specifically a [[finite graph|finite]] multigraph is, after choosing a [[linear order]] on its set of vertices, the same as
 
 1. a [[natural number]] $v \in \mathbb{N}$ (the number of [[vertices]]);
 
