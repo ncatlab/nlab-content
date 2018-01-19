@@ -43,6 +43,9 @@ Let $f\colon X\to Y$ and $g\colon Y\to Z$ be locally proper. Then $g\circ f$ is 
 
 =--
 
+As a corollary, one has that for a locally compact space $X$, every locally closed
+subspace of $X$ is locally compact.
+
 +-- {: .num_prop }
 ###### Proposition
 
@@ -57,6 +60,9 @@ or
 then $f$ is locally proper. The converse implications also hold
 
 =--
+
+
+
 
 Recall that a continuous map $g\colon Y \to Z$ of topological spaces is called _separated_ if $Y\to Y\times_Z Y$ is a closed embedding.
 
@@ -96,3 +102,5 @@ The [[proper base change theorem]] also holds for locally proper maps if one use
 ## References
 
 * Olaf M. Schnürer and Wolfgang Soergel, _Proper base change for separated locally proper maps_,  Rend. Sem. Mat. Univ. Padova **135** (2016) pp 223-250. doi:[10.4171/RSMUP/135-13](https://doi.org/10.4171/RSMUP/135-13), arXiv:[1404.7630](https://arxiv.org/abs/1404.7630)
+
+[[!redirects locally proper]]
