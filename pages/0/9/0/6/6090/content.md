@@ -467,8 +467,24 @@ $$
   \right.
 $$
 
-for the  [[causal ordering]]-[[relation]].
+for the  [[causal ordering]]-[[relation]] and 
 
+
+$$
+  S_1 {\gt\!\!\!\!\lt} S_2
+  \phantom{AAA}
+  \text{for}
+  \phantom{AAA}
+  \array{
+    S_1 {\vee\!\!\!\wedge} S_2
+    \\
+    \text{and}
+    \\
+    S_2 {\vee\!\!\!\wedge} A_1
+  }
+$$
+
+for _[[spacelike]] separation_.
 
 =--
 
@@ -476,6 +492,123 @@ for the  [[causal ordering]]-[[relation]].
 ###### Remark
 
 For the purposes of constructing or defining the Wick algebra, the conditions on $\Delta_H$ or $H$ could be relaxed. Requiring $\Delta_H$ to be an honest [[Wightman propagator]] means that it is a distribution satisfying the [[Hadamard distribution|Hadamard wavefront condition]], as well as addition positivity and normalization requirements. Dropping the positivity and some of the normalization requirements, $\Delta_H$ is then only a _Hadamard parametrix_ for the Wightman propagator. The construction of the Wick algebra with respect to $\Delta_H$ still makes sense, but $:(-):$ can no longer be interpreted as normal ordering with respect to a fixed vacuum state. In fact, in [[locally covariant pAQFT]], the property for $\Delta_H$ to be the Wightman propagator for a state is in conflict with local covariance. On the other hand, there is no problem with selecting a locally covariant Hadamard parametrix $\Delta_H$, which allows the construction or definition of the Wick algebra to be locally covariant.
+
+=--
+
+Being concerned with [[perturbative QFT|perturbation theory]] means mathematically that we consider _[[formal power series]]_
+in deformation parameters $\hbar$ ("[[Planck's constant]]") and $g$ ("[[coupling constant]]"), also in $j$ ("[[source field]]"),
+see also remark \ref{AsymptoticSeriesObservables}:
+
++-- {: .num_defn #FormalParameters}
+###### Definition
+**([[formal power series]] of [[observables]] for [[perturbative QFT]])**
+
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}.
+
+Write
+
+$$
+  LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j ] ]
+  \;\;,
+  \phantom{AA}
+  PolyObs(E_{\text{BV-BRST}})[ [ \hbar, g, j ] ]
+$$
+
+for the [[complex vector space|complex]] [[topological vector spaces]] 
+of [[formal power series]] in three [[variables]] $\hbar$ ("[[Planck's constant]]"),
+$g$ ("[[coupling constant]]") and $j$ ("[[source field]]") with  [[coefficients]] in the [[topological vector spaces]] of, respectively, 
+the [[off-shell]] polynomial [[local observables]] or the [[off-shell]] [[microcausal polynomial observables]] of the [[free field]] theory.
+
+Similarly 
+
+$$
+  LocObs(E_{\text{BV-BRST}})[ [ \hbar, g  ] ]
+  \;\,\;
+  PolyObs(E_{\text{BV-BRST}})[ [ \hbar, g  ] ]
+$$
+
+denotes the subspace for which no powers of $j$ appear, etc.
+
+In contrast, 
+
+$$
+  C^\infty_{cp}(\Sigma) \langle g \rangle
+$$
+
+denotes the be vector space of [[bump functions]] tensored with the vector space spanned by a single copy of $g$.
+The elements
+
+$$
+  g_{sw} \in C^\infty_{cp}(\Sigma)\langle g \rangle
+$$
+
+may be regarded as [[spacetime]]-dependent "[[coupling constants]]" with compact support, 
+called _[[adiabatic switching|adiabatically switched]] couplings_.
+
+Similarly then
+
+$$
+  LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j ] ]\langle g , j \rangle
+$$
+
+is the subspace of those formal power series that are at least linear in $g$ or $j$ (hence those that vanish if one sets $g,j = 0$ ).
+Hence every element of this space may be written in the form
+
+$$
+  O
+    =
+  g S_{int} + j A
+  \;\in\;
+  LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j ] ]\langle g , j \rangle
+  \,,
+$$
+
+where the notation is to suggest that we will think of the coefficient of $g$ as an ([[adiabatic switching|adiabatically switched]])
+[[interaction]] [[action functional]].
+
+In particular for
+
+$$
+  \mathbf{L}_{int}
+  \;\in\;
+  \Omega^{p+1,0}_\Sigma(E_{\text{BV-BRST}})[ [ \hbar , g] ]
+$$
+
+a [[formal power series]] in $\hbar$ and $g$ of [[local Lagrangian densities]], thought of as a local [[interaction]] Lagrangian, and if 
+
+$$
+  g_{sw}
+  \;\in\;
+  C^\infty_{cp}(\Sigma) \langle g \rangle
+$$
+
+is an [[adiabatic switching|adiabatically switched]] coupling as before, then the [[transgression of variational differential forms|transgression]] of the product
+
+$$
+  g_{sw} \mathbf{L}_{int}
+  \;\in\;
+  \Omega^{p+1,0}_{\Sigma,cp}(E_{\text{BV-BRST}})[ [ \hbar ,g ] ]\langle g \rangle
+$$ 
+
+is such an [[adiabatic switching|adiabatically switched]] [[interaction]]
+
+$$
+  g S_{int}
+  \;=\;
+  \tau_\Sigma( g_{sw} \mathbf{L}_{int} )
+  \;\in\;
+  LocObs(E_{\text{BV-BRST}})[ [ \hbar, g] ]\langle g \rangle
+  \,.
+$$
+
+We also consider the space of [[off-shell]] [[microcausal polynomial observables]] of the [[free field theory]] with formal parameters adjoined
+
+$$
+  PolyObs(E_{\text{BV-BRST}})_{mc} ((\hbar)) [ [ g , j] ]
+  \,,
+$$
+
+which, in its $\hbar$-dependent, is the space of _[[Laurent series]]_ in $\hbar$, hence the space exhibiting also negative formal powers of $\hbar$.
 
 =--
 
@@ -489,13 +622,14 @@ Then a _perturbative [[S-matrix]] scheme_ for [[perturbative QFT]] around this [
 
 $$
   \mathcal{S}
-    \;\colon\;
-  LocObs(E_{\text{BV-BRST}})[ [\hbar , g, j] ]
-    \longrightarrow
-  PolyObs(E_{\text{BV-BRST}})_{mc}((\hbar))[ [ g,j ] ]
+    \;\;\colon\;\;
+  LocObs(E_{\text{BV-BRST}})[ [\hbar , g, j] ]\langle g, j \rangle
+    \overset{\phantom{AAA}}{\longrightarrow}
+  PolyObs(E_{\text{BV-BRST}})_{mc}((\hbar))[ [ g, j ] ]
 $$
 
-from [[local observables]] to [[microcausal polynomial observables]] of the free vacuum theory,  with formal parameters adjoined as indicated ([[Laurent series]] in [[Planck's constant]] $\hbar$ and [[formal power series]] in [[coupling constant]] $g$ and [[source field]] coupling $j$)
+from [[local observables]] to [[microcausal polynomial observables]] of the free vacuum theory, 
+with formal parameters adjoined as indicated (def. \ref{FormalParameters}),
 such that the following two conditions "perturbation" and "causal additivity (jointly: "[[causal perturbation theory]]") hold:
 
 1. ([[perturbative quantum field theory|perturbation]])
@@ -508,7 +642,7 @@ such that the following two conditions "perturbation" and "causal additivity (jo
        \;\colon\;
      \left(
        {\, \atop \,}
-       PolyLocObs(E_{\text{BV-BRST}})[ [\hbar, g, j] ]
+       LocObs(E_{\text{BV-BRST}})[ [\hbar, g, j] ]\langle g, j \rangle
        {\, \atop \,}
      \right)^{\otimes^k_{\mathbb{C}[ [\hbar, g, j] ]}}
        \longrightarrow
@@ -520,17 +654,17 @@ such that the following two conditions "perturbation" and "causal additivity (jo
    1. The nullary map is [[constant function|constant]] on the [[neutral element|unit]] of the [[Wick algebra]]
 
       $$
-        T_0(A) = 1
+        T_0( g S_{int} + j A) = 1
       $$
 
    1. The unary map is the inclusion of [[local observables]] as [[normal-ordered products]] (eq:NormalOrderingLocalObservables)
 
       $$
-        T_1(A) = :A:
+        T_1(g S_{int} + j A) = g :S_{int}: + j :A:
       $$
 
    1. The perturbative S-matrix is the [[exponential series]] of these maps in that for
-      all $S_{int}, A  \in LocObs(E_{\text{BV-BRST}})[ [\hbar] ] $
+      all $g S_{int} + j A  \in LocObs(E_{\text{BV-BRST}})[ [\hbar , g, j] ]\langle g,j\rangle $
 
       $$
         \label{ExponentialSeriesScatteringMatrix}
@@ -563,34 +697,38 @@ such that the following two conditions "perturbation" and "causal additivity (jo
 
 1. ([[causal additivity]])
 
-   For all [[local observables]] $S_{int}, A_1, A_2 \in LocObs(E_{\text{BV-BRST}})[ [\hbar, g, j] ]$ we have
+   For all perturbative [[local observables]] $ O_0, O_1, O_2 \in LocObs(E_{\text{BV-BRST}})[ [\hbar, g, j] ]$ we have
 
    $$
      \label{CausalAdditivity}
      \left(
         {\, \atop \,}
-        supp(A_1) {\vee\!\!\!\wedge} supp(A_2)
+        supp( O_1 ) {\vee\!\!\!\wedge} supp( O_2 )
         {\, \atop \,}
      \right)
      \;\; \Rightarrow \;\;
      \left(
        {\, \atop \,}
-       \mathcal{S}(g S_{int} + j A_1 + j A_2)
-       =
-       \mathcal{S}(g S_{int} + j A_1) \, \mathcal{S}(g S_{int})^{-1} \, \mathcal{S}(g S_{int} + j A_2)
+       \mathcal{S}( O_0 + O_1 + O_2 )
+       \;\,
+       \mathcal{S}( O_0 + O_1 ) 
+       \, 
+       \mathcal{S}( O_0 )^{-1} 
+       \, 
+       \mathcal{S}(O_0 + O_2)
        {\, \atop \,}
      \right)
      \,.
    $$
 
-(The [[inverse]] $\mathcal{S}(g S_{int})^{-1}$ of $\mathcal{S}(g S_{int})$ with respect to the [[Wick algebra]]-[[structure]]
+(The [[inverse]] $\mathcal{S}(O)^{-1}$ of $\mathcal{S}(O)$ with respect to the [[Wick algebra]]-[[structure]]
 is implied to exist by axiom "perturbation", see remark \ref{PerturbativeSMatrixInverse} below.)
 
 =--
 
 Def. \ref{LagrangianFieldTheoryPerturbativeScattering} is due to ([Epstein-Glaser 73 (1)](#EpsteinGlaser73)),
-in view of lemma \ref{CausalLocalityOfThePerturbativeSMatrix} below, following ([Stückelberg 49-53](causal+perturbation+theory#Stueckelberg49), [Bogoliubov-Shirkov 59](causal+perturbation+theory#BogoliubovShirkov59)).
-That the [[domain]] of a S-matrix scheme is indeed the space of [[local observables]] was made explicit (in terms of axioms for the [[time-ordered products]], see def. \ref{TimeOrderedProduct} below), in ([Brunetti-Fredenhagen 99, section 3](#BrunettiFredenhagen99), [D&#252;tsch-Fredenhagen 04, appendix E](#DuetschFredenhagen04), [Hollands-Wald 04,  around (20)](#HollandsWald04)). Review includes ([Rejzner 16, around def. 6.7](#Rejzner16), [Dütsch 18, section 3.3](#Duetsch18)).
+following ([Stückelberg 49-53](causal+perturbation+theory#Stueckelberg49), [Bogoliubov-Shirkov 59](causal+perturbation+theory#BogoliubovShirkov59)).
+That the [[domain]] of an S-matrix scheme is indeed the space of [[local observables]] was made explicit (in terms of axioms for the [[time-ordered products]], see def. \ref{TimeOrderedProduct} below), in ([Brunetti-Fredenhagen 99, section 3](#BrunettiFredenhagen99), [D&#252;tsch-Fredenhagen 04, appendix E](#DuetschFredenhagen04), [Hollands-Wald 04,  around (20)](#HollandsWald04)). Review includes ([Rejzner 16, around def. 6.7](#Rejzner16), [Dütsch 18, section 3.3](#Duetsch18)).
 
 +-- {: .num_remark #PerturbativeSMatrixInverse}
 ###### Remark
@@ -639,14 +777,14 @@ only a finite sub-sum of the formal infinite sum contributes in each order in $g
 
 This expression for the inverse of S-matrix may usefully be re-organized in terms of "rever-time ordered products" (def. \ref{ReverseTimeOrderedProduct} below), see prop. \ref{ReverseTimOrderedProductsGiveReverseSMatrix} below.
 
-Notice that $\mathcal{S}(-g S_{int} - j A )$ is instead the inverse with respect to the [[time-ordered products]] (eq:TimeOrderedProductsInSMatrix)
+Notice that $\mathcal{S}(-g S_{int} - j A )$ is instead the inverse with respect to the [[time-ordered products]] (eq:TimeOrderedProductsInSMatrix) in that 
 
 $$
-  T( \mathcal{S}(-g S_{int}) \,,\, \mathcal{S}(g S_{int} + j a)  )
+  T( \mathcal{S}(-g S_{int} -  j A ) \,,\, \mathcal{S}(g S_{int} + j A)  )
   \;=\;
   1
   \;=\;
-  T( \mathcal{S}(g S_{int} + j a)  \,,\,  \mathcal{S}(-g S_{int}) )
+  T( \mathcal{S}(g S_{int} + j A )  \,,\,  \mathcal{S}(-g S_{in} - j A ) )
   \,.
 $$
 
@@ -670,11 +808,9 @@ The corresponding _[[generating function]] scheme_
 $$
   \mathcal{Z}_{(-)}(-)
     \;\colon\;
-  \left(
-    {\, \atop \,}
-    LocObs(E_{\text{BV-BRST}})[ [\hbar, g, j] ]
-    {\, \atop \,}
-  \right)^2
+    LocObs(E_{\text{BV-BRST}})[ [\hbar, g] ]\langle g \rangle
+    \;\times\;
+    LocObs(E_{\text{BV-BRST}})[ [\hbar, j] ]\langle j \rangle
     \longrightarrow
   PolyObs(E_{\text{BV-BRST}})_{mc}((\hbar))[ [g , j] ]
 $$
@@ -683,9 +819,9 @@ given by
 
 $$
   \label{GeneratingFunctionInducedFromSMatrix}
-  \mathcal{Z}_{S_{int}}(A)
+  \mathcal{Z}_{g S_{int}}(j A)
     \;\coloneqq\;
-  \mathcal{S}(S_{int})^{-1} \mathcal{S}( S_{int} + A )
+  \mathcal{S}(g S_{int})^{-1} \mathcal{S}( g S_{int} + j A )
   \,.
 $$
 
@@ -701,31 +837,31 @@ on the [[S-matrix]] scheme $\mathcal{S}$ (def. \ref{LagrangianFieldTheoryPerturb
 
 * ([[causal additivity]] in terms of $\mathcal{Z}$)
 
-  For all [[local observables]] $S_{int}, A_1, A_2 \in LocObs(E_{\text{BV-BRST}})[ [\hbar, g, j] ]$ we have
+  For all [[local observables]] $O_0, O_1, O_2 \in LocObs(E_{\text{BV-BRST}})[ [\hbar, g, j] ]\otimes\mathbb{C}\langle g,j\rangle$ we have
 
   $$
     \label{GeneratingFunctionCausalAdditivity}
     \begin{aligned}
     \left(
        {\, \atop \,}
-       supp(A_1) {\vee\!\!\!\wedge} supp(A_2)
+       supp(O_1) {\vee\!\!\!\wedge} supp(O_2)
        {\, \atop \,}
     \right)
     & \;\; \Rightarrow \;\;
     \left(
       {\, \atop \,}
-      \mathcal{Z}_{S_{int}}(A_1) \, \mathcal{Z}_{S_{int}}(A_2)
+      \mathcal{Z}_{O_0}( O_1 ) \, \mathcal{Z}_{O_0}( O_2)
       =
-      \mathcal{Z}_{S_{int}}(A_1 + A_2)
+      \mathcal{Z}_{  O_0 }( O_1 + O_2 )
       {\, \atop \,}
     \right)
     \\
     & \;\; \Leftrightarrow \;\;
     \left(
       {\, \atop \,}
-      \mathcal{Z}_{S_{int} + A_1}(A_2)
+      \mathcal{Z}_{ O_0 + O_1 }( O_2 )
       =
-      \mathcal{Z}_{S_{int}}(A_2)
+      \mathcal{Z}_{ O_0 }( O_2 )
       {\, \atop \,}
     \right)
     \end{aligned}
@@ -741,54 +877,53 @@ on the [[S-matrix]] scheme $\mathcal{S}$ (def. \ref{LagrangianFieldTheoryPerturb
 
 This follows by elementary manipulations:
 
-Multiplying both sides of (eq:CausalAdditivity) by $\mathcal{S}(g S_{int})^{-1}$ yields
+Multiplying both sides of (eq:CausalAdditivity) by $\mathcal{S}(O_0)^{-1}$ yields
 
 $$
   \underset{
-    \mathcal{Z}_{g S_{int}}(j A_1 + j A_2)
+    \mathcal{Z}_{ O_0 }( O_1 + O_2 )
   }{
   \underbrace{
-    \mathcal{S}(g S_{int})^{-1}
-    \mathcal{S}(g S_{int} + j A_1 + j A_2)
+    \mathcal{S}( O_0 )^{-1}
+    \mathcal{S}( O_0 + O_1 + O_2 )
   }
   }
   \;=\;
   \underset{
-    \mathcal{Z}_{g S_{int}}( j A_1 )
+    \mathcal{Z}_{ O_0 }( O_1 )
   }{
   \underbrace{
-    \mathcal{S}(g S_{int})^{-1} \mathcal{S}(g S_{int} + j A_1)
+    \mathcal{S}( O_0 )^{-1} \mathcal{S}( O_0 + O_1 )
   }
   }
   \underset{
-    \mathcal{Z}_{g S_{int}}(j A_2)
+    \mathcal{Z}_{ O_0 }( O_2 )
   }{
   \underbrace{
-    \mathcal{S}(g S_{int})^{-1} \mathcal{S}(g S_{int} + j A_2)
+    \mathcal{S}( O_0 )^{-1} \mathcal{S}( O_0 + O_2 )
   }
   }
 $$
 
 This is the first line of (eq:GeneratingFunctionCausalAdditivity).
 
-
-Multiplying both sides of (eq:CausalAdditivity) by $\mathcal{S}(g S_{int} + j A_1)^{-1}$ yields
+Multiplying both sides of (eq:CausalAdditivity) by $\mathcal{S}( O_0 + O_1 )^{-1}$ yields
 
 $$
   \underset{
-    = \mathcal{Z}_{g S_{int} + j A_1}(j A_2)
+    = \mathcal{Z}_{ O_0 + O_1 }(  O_2 )
   }{
   \underbrace{
-    \mathcal{S}(g S_{int} + j A_1)^{-1}
-    \mathcal{S}(g S_{int} + j A_1 + j A_2)
+    \mathcal{S}( O_0 + O_1 )^{-1}
+    \mathcal{S}( O_0 + O_1 + O_2 )
   }
   }
   \;=\;
   \underset{
-    = \mathcal{Z}_{g S_{int}}(j A_2)
+    = \mathcal{Z}_{ O_0 }( O_2 )
   }{
   \underbrace{
-    \mathcal{S}(g S_{int})^{-1} \mathcal{S}(g S_{int} + j A_2)
+    \mathcal{S}( O_0 )^{-1} \mathcal{S}( O_0 + O_2 )
   }
   }
   \,.
@@ -806,7 +941,7 @@ This is the second line of (eq:GeneratingFunctionCausalAdditivity).
 
 Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}, let $\mathcal{S}$ be a corresponding [[S-matrix]] scheme according to def. \ref{LagrangianFieldTheoryPerturbativeScattering}, and let $S_{int} \in LocObs(E_{\text{BV-BRST}})[ [ \hbar, g ] ]$ be a [[local observable]] regarded as an [[adiabatic switching|adiabatically switched]] [[interaction]]-[[action functional|functional]].
 
-Then for $A \in LocObs(E_{\text{BV-BRST}})[ [\hbar] ]$ a [[local observable]] of the [[free field theory]],
+Then for $A \in LocObs(E_{\text{BV-BRST}})[ [\hbar , g] ]$ a [[local observable]] of the [[free field theory]],
 we say that the corresponding [[local interacting field observable]]
 
 $$
@@ -823,7 +958,7 @@ $$
     i \hbar \frac{d}{d j}
     \left(
       {\, \atop \,}
-      \mathcal{Z}_{S_{int}}( j A )
+      \mathcal{Z}_{ g S_{int} }( j A )
       {\, \atop \,}
     \right)_{\vert_{j = 0}}
     \\
@@ -831,14 +966,14 @@ $$
     i \hbar \frac{d}{d j}
     \left(
       {\, \atop \,}
-      \mathcal{S}(S_{int})^{-1} \, \mathcal{S}( S_{int} + j A )
+      \mathcal{S}(g S_{int})^{-1} \, \mathcal{S}( g S_{int} + j A )
       {\, \atop \,}
     \right)_{\vert_{j = 0}}
     \\
     & =
-    \mathcal{S}(S_{int})^{-1}
+    \mathcal{S}(g S_{int})^{-1}
     T\left(
-      \mathcal{S}(S_{int}), A
+      \mathcal{S}(g S_{int}), A
     \right)
     \,.
   \end{aligned}
@@ -932,28 +1067,27 @@ implies immediately this weaker condition:
 
 * ([[causal factorization]])
 
-  For all [[local observables]] $A_1, A_2 \in LocObs(E_{\text{BV-BRST}})[ [\hbar, h, j] ]$ we have
+  For all [[local observables]] $O_1, O_2 \in LocObs(E_{\text{BV-BRST}})[ [\hbar, h, j] ]\langle g , j\rangle $ we have
 
   $$
     \left(
        {\, \atop \,}
-       supp(A_1) {\vee\!\!\!\wedge} supp(A_2)
+       supp(O_1) {\vee\!\!\!\wedge} supp(O_2)
        {\, \atop \,}
     \right)
     \;\; \Rightarrow \;\;
     \left(
       {\, \atop \,}
-      \mathcal{S}(A_1 + A_2)
+      \mathcal{S}( O_1 + O_2 )
       =
-      \mathcal{S}(A_1) \, \mathcal{S}(A_2)
+      \mathcal{S}( O_1 ) \, \mathcal{S}( O_2 )
       {\, \atop \,}
    \right)
   $$
 
-(This is the special case of "causal additivity" for $S_{int} = 0$, using that  by the axiom "perturbation" (eq:ExponentialSeriesScatteringMatrix) we have $\mathcal{S}(0) = 1$.)
+(This is the special case of "causal additivity" for $O_0 = 0$, using that  by the axiom "perturbation" (eq:ExponentialSeriesScatteringMatrix) we have $\mathcal{S}(0) = 1$.)
 
-If we now think of $A_1$ and $A_2$ themselves as [[adiabatic switching|adiabatically switched]] [[interaction]] [[action functionals]],
-then this reads equivalently but more suggestively
+If we now think of $O_1 = g S_{1}$ and $O_2 = g S_2$ themselves as [[adiabatic switching|adiabatically switched]] [[interaction]] [[action functionals]], then this becomes
 
   $$
     \left(
@@ -964,9 +1098,9 @@ then this reads equivalently but more suggestively
     \;\; \Rightarrow \;\;
     \left(
       {\, \atop \,}
-      \mathcal{S}(S_1 + S_2)
+      \mathcal{S}( g S_1 + g S_2 )
       =
-      \mathcal{S}(S_1) \, \mathcal{S}(S_2)
+      \mathcal{S}( g S_1) \, \mathcal{S}( g sS_2)
       {\, \atop \,}
    \right)
   $$
@@ -1433,7 +1567,8 @@ for a fixed ([[adiabatic switching|adiabatically switched]] [[local observable|l
 $$
   \mathcal{S}
   \;\colon\;
-  LocObs(E_{\text{BV-BRST}})[ [\hbar, g,j] ]
+  LocObs(E_{\text{BV-BRST}})[ [\hbar, g,j] ]\langle g, j
+  \rangle
     \longrightarrow
   PolyObs(E_{\text{BV-BRST}})((\hbar))[ [g,j] ]
 $$
@@ -1480,7 +1615,7 @@ By [[Bogoliubov's formula]], in general this algebra depends on the choice of [[
 which however is not meant to be part of the [[physics]], but just a mathematical device for grasping global field structures locally.
 
 But this spurious dependence  goes away (prop. \ref{IsomorphismFromChangeOfAdiabaticSwitching} below) when restricting attention to 
-observables whose spacetime support is inside a compact [[causally closed subsets]] $\mathcal{O}$ of spacetime (def. \ref{PerturbativeGeneratingLocalNetOfObservables} below). This is a sensible condition for an [[obsrvable]] in [[physics]],
+observables whose spacetime support is inside a compact [[causally closed subsets]] $\mathcal{O}$ of spacetime (def. \ref{PerturbativeGeneratingLocalNetOfObservables} below). This is a sensible condition for an [[observable]] in [[physics]],
 where any realistic [[experiment]] nessecarily probes only a compact subset of spacetime, see also remark \ref{AdiabaticLimit}.
 
 The resulting system (a "[[co-presheaf]]") of well-defined perturbative [[interacting field algebras of observables]] (def. \ref{SystemOfAlgebrasOfQuantumObservables} below)
@@ -1558,7 +1693,7 @@ $$
 
 
 The independence of the [[causally local net]] of localized [[interacting field algebras of observables]]
-$Obs_{\mathbf{L}_{int}}(\mathcal{O})$ from the choice of [[adiabatic switching]]
+$IntObs(E_{\text{BV-BRST}}, \mathbf{L}_{int} )(\mathcal{O})$ from the choice of [[adiabatic switching]]
 implies a well-defined spacetime-global [[algebra of observables]] by forming the [[inductive limit]]
 
 $$
@@ -1566,7 +1701,9 @@ $$
     \;\coloneqq\;
   \underset{\underset{\mathcal{O}}{\longrightarrow}}{\lim}
   \left(
+    {\, \atop \,}
     IntObs(E_{\text{BV-BRST}}, \mathbf{L}_{int})(\mathcal{O})
+    {\, \atop \,}
   \right)
   \,.
 $$
@@ -1605,14 +1742,16 @@ $$
   LocIntObs_{\mathcal{S}}(E_{\text{BV-BRST}}, g S_{int})
   \;\coloneqq\;
   \left\{
+    {\, \atop \,}
     A_{int} \;\vert\; A \in LocObs(E_{BV-BRST})[ [ \hbar, g ] ]
+    {\, \atop \,}
   \right\}
     \hookrightarrow
-  PolyObs(E_{\text{BV-BRST}})[ [ \habr, g] ]
+  PolyObs(E_{\text{BV-BRST}})[ [ \hbar, g] ]
 $$
 
-for subspace of [[interacting field observables]] $A_{int}$ (def. \ref{InteractingFieldObservables}) corresponding to [[local observables]] $A$,
-the _[[interacting local field observables]]_.
+for the subspace of [[interacting field observables]] $A_{int}$ (def. \ref{InteractingFieldObservables}) corresponding to [[local observables]] $A$,
+the _[[local interacting field observables]]_.
 
 Furthermore we write
 
@@ -1669,11 +1808,20 @@ _[[quantum Møller operator]]_ ([Hawkins-Rejzner 16](perturbative+algebraic+quan
 Finally we write
 
 $$
-  IntObs(E_{\text{BV-BRST}}, S_{int})
-  \;\coloneqq\;
-  \left\langle IntLocObs(E_{\text{BV-BRST}})[ [ \hbar, g] ]  \right\rangle
-    \hookrightarrow
-  PolyObs(E_{\text{BV-BRST}})[ [ \hbar, g ] ]
+  \begin{aligned}
+    IntObs(E_{\text{BV-BRST}}, S_{int})
+    & \coloneqq
+    \left\langle 
+    {\, \atop \,}
+      IntLocObs(E_{\text{BV-BRST}})[ [ \hbar, g] ]  
+    {\, \atop \,}
+    \right\rangle
+    \\
+    & 
+     \phantom{\coloneqq} 
+     \hookrightarrow
+    PolyObs(E_{\text{BV-BRST}})[ [ \hbar, g ] ]
+  \end{aligned}
 $$
 
 for the smallest subalgebra of the [[Wick algebra]] containing the [[interacting local observables]].
@@ -1738,7 +1886,8 @@ Moreover, write
 $$
   Gen(E_{\text{BV-BRST}}, \mathbf{L}_{int})(\mathcal{O})
     \;\subset\;
-  \underset{g_{sw} \in Cutoffs(\mathcal{O})}{\prod} Gen_{g_{sw}L_{int}}(\mathcal{O})
+  \underset{g_{sw} \in Cutoffs(\mathcal{O})}{\prod} 
+  Gen(E_{\text{BV-BRST}}, S_{int,sw})(\mathcal{O})
 $$
 
 be the subalgebra of the [[Cartesian product]] of all these algebras as $g_{sw}$ ranges over cutoffs, which is generated by the
@@ -1804,7 +1953,7 @@ be a [[Lagrangian density]], to be thought of as an [[interaction]], so that for
 an [[adiabatic switching]] the [[transgression of variational differential forms|transgression]]
 
 $$
-  S_{int,sw} \;\coloneqq\; g \tau_\Sigma(g_{sw} \mathbf{L}_{int})
+  g S_{int,sw} \;\coloneqq\; \tau_\Sigma(g_{sw} \mathbf{L}_{int})
   \;\in\;
   LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]
 $$
@@ -1827,7 +1976,7 @@ $$
 then there exists a [[microcausal polynomial observable]]
 
 $$
-  K \;\in\; PolyObs(E_{\text{BV-BRST}})[ [ \hbar, g, j ] ]
+  K \;\in\; PolyObs(E_{\text{BV-BRST}})_{mc}[ [ \hbar, g, j ] ]
 $$
 
 such that for every [[local observable]]
@@ -1874,9 +2023,9 @@ by the evident map on generators:
 $$
   \label{AbstractGeneratingFunctionAlgebraIsomorphicToAnyAdiabaticSwitching}
   \array{
-    Gen_{\mathbf{L}_{int}}
+    Gen(E_{\text{BV-BRST}}, \mathbf{L}_{int})(\mathcal{o})
       &\overset{\simeq}{\longrightarrow}&
-    Gen_{S_{int,sw}}(\mathcal{O})
+    Gen(E_{\text{BV-BRST}}, S_{int,sw})(\mathcal{O})
     \\
     \left(
       \mathcal{Z}_{S_{int,sw'}}
@@ -1898,7 +2047,7 @@ By causal closure of $\mathcal{O}$, [this lemma](A+first+idea+of+quantum+field+t
 says that there are [[bump functions]]
 
 $$
-  a, r \in C^\infty_{cp}(\Sigma)
+  a, r \in C^\infty_{cp}(\Sigma)\langle g \rangle
 $$
 
 which decompose the difference of [[adiabatic switchings]]
@@ -1919,7 +2068,7 @@ incarnations from prop. \ref{ZCausalAdditivity}:
 
 $$
   \begin{aligned}
-    & \mathcal{Z}_{S_{int,sw_2}}(j A)
+    & \mathcal{Z}_{g S_{int,sw_2}}(j A)
     \\
     & =
     \mathcal{Z}_{
@@ -1951,7 +2100,7 @@ $$
     & =
     \mathcal{Z}_{
       \left(
-        S_{int,sw_1}
+        g S_{int,sw_1}
         +
         \tau_\Sigma
         \left(
@@ -1971,7 +2120,7 @@ $$
     & =
     \mathcal{Z}_{
       \left(
-        S_{int,sw_1}
+        g S_{int,sw_1}
         +
         \tau_\Sigma
         \left(
@@ -1986,7 +2135,7 @@ $$
     & =
     \mathcal{S}
     \left(
-      S_{int,sw_1}
+      g S_{int,sw_1}
       +
       \tau_\Sigma
       \left(
@@ -1996,7 +2145,7 @@ $$
     \,
     \mathcal{S}
     \left(
-      S_{int,sw_1}
+      g S_{int,sw_1}
       +
       j A
       +
@@ -2009,7 +2158,7 @@ $$
     & =
     \mathcal{S}
     \left(
-      S_{int,sw_1}
+      g S_{int,sw_1}
       +
       \tau_\Sigma
       \left(
@@ -2019,14 +2168,14 @@ $$
     \,
     \mathcal{S}
     \left(
-      S_{int,sw_1}
+      g S_{int,sw_1}
       +
       j A
     \right)
     \,
     \mathcal{S}
     \left(
-      S_{int,sw_1}
+      g S_{int,sw_1}
     \right)^{-1}
     \,
     \mathcal{S}
@@ -2042,7 +2191,7 @@ $$
     & =
     \mathcal{S}
     \left(
-      S_{int,sw_1}
+      g S_{int,sw_1}
       +
       \tau_\Sigma
       \left(
@@ -2056,26 +2205,26 @@ $$
     \underbrace{
     \mathcal{S}
     \left(
-      S_{int,sw_1}
+      g S_{int,sw_1}
     \right)
     \,
     \mathcal{S}
     \left(
-      S_{int,sw_1}
+      g S_{int,sw_1}
     \right)^{-1}
     }
     }
     \,
     \mathcal{S}
     \left(
-      S_{int,sw_1}
+      g S_{int,sw_1}
       +
       j A
     \right)
     \,
     \mathcal{S}
     \left(
-      S_{int,sw_1}
+      g S_{int , sw_1}
     \right)^{-1}
     \,
     \mathcal{S}
@@ -2095,7 +2244,7 @@ $$
       \underbrace{
         \left(
           \mathcal{Z}_{
-            S_{int,sw_1}
+            g S_{int,sw_1}
           }
           \left(
             \tau_\Sigma
@@ -2109,7 +2258,7 @@ $$
     \,
 
     \mathcal{Z}_{
-      S_{int,sw_1}
+      g S_{int,sw_1}
     }
     \left(
       j A
@@ -2120,7 +2269,7 @@ $$
     }{
     \underbrace{
     \mathcal{Z}_{
-      S_{int,sw_1}
+      g S_{int,sw_1}
     }
     \left(
       \tau_\Sigma
@@ -2135,7 +2284,7 @@ $$
 
 This proves the existence of elements $K$ as claimed.
 
-It is clear that conjugation implies an algebra homomorphism,
+It is clear that conjugation induces an algebra homomorphism,
 and since the map is a linear isomorphism on the space of generators,
 it is an algebra isomorphism on the algebras being generated (eq:AbstractGeneratingFunctionAlgebraIsomorphicToAnyAdiabaticSwitching).
 
@@ -2149,7 +2298,7 @@ by conjugation with $K$ is independent of this choice.)
 
 +-- {: .num_prop #GeneratingAlgebrasIsLocalNet}
 ###### Proposition
-**(system of perturbative generating algebras is [[causally local net of observables]])**
+**(system of generating algebras is [[causally local net]])**
 
 Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}, let $\mathcal{S}$ be a corresponding [[S-matrix]] scheme according to def. \ref{LagrangianFieldTheoryPerturbativeScattering}, and let
 
@@ -2227,7 +2376,7 @@ is a _[[causally local net]]_ in that it satisfies the following conditions:
 
 Isotony is immediate from the definition of the algebra homomorphisms in def. \ref{PerturbativeGeneratingLocalNetOfObservables}.
 
-By remark \ref{WellDefinedInteractingFieldAlgebra} we may check causal localizy with respect to any
+By the isomorphism (eq:AbstractGeneratingFunctionAlgebraIsomorphicToAnyAdiabaticSwitching) we may check causal localizy with respect to any
 choice of [[adiabatic switching]] $g_{sw} \in Cautoff(\mathcal{O})$ constant over $\mathcal{O}$. For this
 the statement follows, with the assumption of spacelike separation, by [[causal additivity]] (prop. \ref{ZCausalAdditivity}):
 
@@ -2235,17 +2384,17 @@ For $supp(A_1) \subset \mathcal{O}_1$ and $supp(A_2) \subset \mathcal{O}_2$ we h
 
 $$
   \begin{aligned}
-    \mathcal{Z}_{S_{int,sw}}( j A_1 )
-    \mathcal{Z}_{S_{int,sw}}( j A_2 )
+    \mathcal{Z}_{g S_{int,sw}}( j A_1 )
+    \mathcal{Z}_{g S_{int,sw}}( j A_2 )
     & =
-    \mathcal{S}_{S_{int,sw}}( j A_1 + j A_2)
+    \mathcal{S}_{g S_{int,sw}}( j A_1 + j A_2)
     \\
     & =
-    \mathcal{S}_{S_{int,sw}}( j A_2 + j A_1)
+    \mathcal{S}_{g S_{int,sw}}( j A_2 + j A_1)
     \\
     & =
-    \mathcal{Z}_{S_{int,sw}}( j A_2 )
-    \mathcal{Z}_{S_{int,sw}}( j A_1 )
+    \mathcal{Z}_{g S_{int,sw}}( j A_2 )
+    \mathcal{Z}_{g S_{int,sw}}( j A_1 )
   \end{aligned}
 $$
 
@@ -2270,15 +2419,15 @@ be a [[Lagrangian density]], to be thought of as an [[interaction]], so that for
 an [[adiabatic switching]] the [[transgression of variational differential forms|transgression]]
 
 $$
-  S_{int,sw} \;\coloneqq\; g \tau_\Sigma(g_{sw} \mathbf{L}_{int})
+  g S_{int,sw} \;\coloneqq\; g \tau_\Sigma(g_{sw} \mathbf{L}_{int})
   \;\in\;
-  LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]
+  LocObs(E_{\text{BV-BRST}})[ [ \hbar, g ] ]\langle g \rangle
 $$
 
 is a [[local observable]], to be thought of as an [[adiabatic switching|adiabatically switched]] [[interaction]] [[action functional]].
 
 For $\mathcal{O} \subset \Sigma$ a [[causally closed subset]]
-of [[spacetime]] (def. \ref{CausalComplementOfSubsetOfLorentzianManifold})
+of [[spacetime]] ([this def.](A+first+idea+of+quantum+field+theory#CausalComplementOfSubsetOfLorentzianManifold))
 and for $g_{sw} \in Cutoffs(\mathcal{O})$ an compatible [[adiabatic switching]] function (def. \ref{CutoffFunctions}) write
 
 $$
@@ -2354,7 +2503,7 @@ $$
   \,.
 $$
 
-be a [[Lagrangian density]], to be thought of as an [[interaction]]
+be a [[Lagrangian density]], to be thought of as an [[interaction]],
 then the system of [[algebras of observables]] $Obs_{L_{int}}$ (def. \ref{SystemOfAlgebrasOfQuantumObservables})
 is a [[local net of observables]] in that
 
@@ -2470,7 +2619,8 @@ $$
   PolyObs(E_{\text{BV-BRST}})_{reg}((\hbar))[ [g , j] ]
 $$
 
-(from [[tensor products]] of [[local observables]] to [[microcausal polynomial observables]], with formal parameters adjoined as shown)
+(from [[tensor products]] of [[local observables]] to [[microcausal polynomial observables]], with formal parameters adjoined 
+according to def. \ref{FormalParameters})
 such that the following conditions hold for all possible arguments:
 
 1. (normalization)
