@@ -23,6 +23,8 @@ Let $p:X\to {*}$ be the map into the one point space. Then for any $F\in Sh(X)$ 
 
 * [[Verdier duality]], [[six operations]]
 
+* [[locally proper map]]
+
 
 [[!redirects direct image with compact suppports]]
 [[!redirects direct images with compact support]]
