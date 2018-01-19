@@ -32,6 +32,8 @@ In particular the above holds for the [[vacuum]] state of any [[quantum system]]
 
   * [[vacuum energy]]
 
+  * [[vacuum stability]]
+
   * [[false vacuum]], [[tachyon]], [[Coleman-De Luccia instanton]]
 
   * [[theta vacuum]]
