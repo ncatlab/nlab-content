@@ -120,6 +120,7 @@ TODO Cui's 2-category
 
 ## References
 
+* Section 4.4 in _On braided fusion categories I_, Drinfeld, Gelaki, Nikshych, Ostrik. [ArXiv](http://arxiv.org/abs/0906.0620)
 * Turaev
 * M&#252;ger
 * Cui
