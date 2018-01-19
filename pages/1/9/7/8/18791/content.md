@@ -32,6 +32,8 @@ In [[quantum field theory]] the _vacuum expectation value_ (vev) of an [[observa
 
   * [[vacuum energy]]
 
+  * [[vacuum stability]]
+
   * [[false vacuum]], [[tachyon]], [[Coleman-De Luccia instanton]]
 
   * [[theta vacuum]]
