@@ -88,6 +88,8 @@ If $f$ is a proper map (def. \ref{ProperContinuous}), then it is a [[closed map]
 
 ## Related cncepts
 
+* [[locally proper map]]
+
 * [[proper morphism]]
 
 * [[open map]], [[closed map]]
