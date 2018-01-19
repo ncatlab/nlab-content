@@ -118,6 +118,10 @@ The observation that this in  fact makes causal perturbation theory a tool for c
 
 * {#BrunettiFredenhagen00} [[Romeo Brunetti]], [[Klaus Fredenhagen]], _Microlocal Analysis and Interacting Quantum Field Theories: Renormalization on Physical Backgrounds_, Commun. Math. Phys. 208 : 623-661,2000 ([math-ph/9903028](https://arxiv.org/abs/math-ph/9903028))
 
+The term "algebraic adiabatic limit" for the resulting [[local net of observables]] (or its [[inductive limit]]) appears in
+
+* {#FredenhagenLindner13} [[Klaus Fredenhagen]], [[Falk Lindner]], p. 7 of _Construction of KMS States in Perturbative QFT and Renormalized Hamiltonian Dynamics_, Communications in Mathematical Physics Volume 332, Issue 3, pp 895-932, 2014 ([arXiv:1306.6519](https://arxiv.org/abs/1306.6519))
+
 The weak adiabatic limit in [[causal perturbation theory]] for massive fields was shown to exists in 
 
 * [Epstein-Glaser 73](#EpsteinGlaser73)
