@@ -549,7 +549,7 @@ $$
   C^\infty_{cp}(\Sigma) \langle g \rangle
 $$
 
-denotes the be vector space of [[bump functions]] tensored with the vector space spanned by a single copy of $g$.
+denotes the vector space of [[bump functions]] on [[spacetime]] tensored with the vector space spanned by a single copy of $g$.
 The elements
 
 $$
