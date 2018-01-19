@@ -125,7 +125,7 @@ There is also a 2-nerve. ([LackPaoli](#LackPaoli))
 
 ### Model category structure {#ModelCategoryStructure}
 
-There is a [[model category]] structure on 2-catgories -- sometimes known as the [[folk model structure]] -- that models the [[(2,1)-category]] underlying [[2Cat]] ([Lack](#LackFolkModel)).
+There is a [[model category]] structure on 2-categories -- sometimes known as the [[folk model structure]] -- that models the [[(2,1)-category]] underlying [[2Cat]] ([Lack](#LackFolkModel)).
 
 For strict 2-categories this is the restriction of the corresponding [[folk model structure]] on [[strict omega-categories]]. 
 
