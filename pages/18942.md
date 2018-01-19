@@ -17,9 +17,15 @@
 
 ## Idea
 
-A _connected graph_ is a [[graph]] which is [[inhabited|non-empty]] and where each [[pair]] of [[vertices]] is connected by a sequence of [[edges]]. 
+An [[inhabited]] [[graph]] has two notions of being connected:
 
-For usual definitions of [[categories]] of graphs, this should be the [[connected objects]] in these categories.
+*  **weak connected** - it cannot be decomposed as the [[disjoint union]] of two inhabited graphs.
+
+* **strong or path connected** - each [[pair]] of [[vertices]] is connected by a sequence of [[edges]] or in other words every [[homset]] of its [[free category]] is inhabited.
+
+If a graph's edges are [[graph#undirected_graphs|undirected]] these two notions coincide while if [[graph#directed_graphs|directed]] the stronger condition implies the weaker.
+
+For the various categories of graphs, which of their objects are _weakly connected_ correspond to the general notion of [[connected objects]] in these categories.
 
 ## Examples
 
