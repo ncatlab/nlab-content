@@ -3166,6 +3166,8 @@ $$
 
   * [[vacuum energy]]
 
+  * [[vacuum stability]]
+
   * [[false vacuum]], [[tachyon]], [[Coleman-De Luccia instanton]]
 
   * [[theta vacuum]]
