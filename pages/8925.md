@@ -32,7 +32,7 @@ In general, for any [[2-category]] $K$ we write $K_g$ for its "homwise core:" th
 
 +--{: .num_defn}
 ###### Definition
-A **core** of an object $A$ in a [[regular 2-category]] is a [[morphism]] $J\to A$ which is eso, [[pseudomonic functor|pseudomonic]], and where $J$ is groupoidal.
+A **core** of an object $A$ in a [[regular 2-category]] is a [[morphism]] $J\to A$ which is [[eso morphism|eso]], [[pseudomonic functor|pseudomonic]], and where $J$ is groupoidal.
 
 =--
 
