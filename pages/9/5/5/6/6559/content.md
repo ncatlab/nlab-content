@@ -51,6 +51,8 @@ The [[moduli space]] of these vacua -- which is hardly understood -- has come to
 
 * [[interacting vacuum]]
 
+* [[vacuum stability]]
+
 * [[false vacuum]], [[tachyon]], [[Coleman-De Luccia instanton]]
 
 * [[theta vacuum]]
