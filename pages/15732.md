@@ -118,13 +118,15 @@ See at _[axion -- As a solution to the strong CP-problem](axion#AsASolutionToThe
 
 * **[[vacuum]]**
 
-  * [[vacuum state]], [[Hadamard state]]
+  * [[vacuum state]], [[Hadamard vacuum state]]
 
   * [[interacting vacuum]]
 
   * [[vacuum expectation value]], [[vacuum amplitude]], [[vacuum fluctuation]]
 
   * [[vacuum energy]]
+
+  * [[vacuum stability]]
 
   * [[false vacuum]], [[tachyon]], [[Coleman-De Luccia instanton]]
 
