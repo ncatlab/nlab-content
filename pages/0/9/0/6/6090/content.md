@@ -509,27 +509,41 @@ Write
 
 $$
   LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j ] ]
-  \;\;,
-  \phantom{AA}
-  PolyObs(E_{\text{BV-BRST}})[ [ \hbar, g, j ] ]
+  \;\coloneqq\;
+  \underset{ k_1, k_2, k_3 \in \mathbb{N}}{\prod}
+  LocObs(E_{\text{BV-BRST}})\langle \hbar^{k_1} g^{k_2} j^{k^3}\rangle 
 $$
 
-for the [[complex vector space|complex]] [[topological vector spaces]] 
-of [[formal power series]] in three [[variables]] $\hbar$ ("[[Planck's constant]]"),
-$g$ ("[[coupling constant]]") and $j$ ("[[source field]]") with  [[coefficients]] in the [[topological vector spaces]] of, respectively, 
-the [[off-shell]] polynomial [[local observables]] or the [[off-shell]] [[microcausal polynomial observables]] of the [[free field]] theory.
+for the space of [[formal power series]] in three formal [[variables]]
 
-Similarly 
+1. $\hbar$ ("[[Planck's constant]]"),
+
+1. $g$ ("[[coupling constant]]") 
+
+1. $j$ ("[[source field]]") 
+
+with  [[coefficients]] in the [[topological vector spaces]] of the [[off-shell]] polynomial [[local observables]] of the [[free field]] theory; similarly for the [[off-shell]] [[microcausal polynomial observables]]:
+
+$$
+  PolyObs(E_{\text{BV-BRST}})_{mc}[ [ \hbar, g, j ] ]
+  \;\coloneqq\;
+  \underset{ k_1, k_2, k_3 \in \mathbb{N}}{\prod}
+  PolyObs(E_{\text{BV-BRST}})_{mc}\langle \hbar^{k_1} g^{k_2} j^{k^3}\rangle 
+  \,.
+$$
+
+Similary
 
 $$
   LocObs(E_{\text{BV-BRST}})[ [ \hbar, g  ] ]
-  \;\,\;
+  \,,
+   \phantom{AAA}
   PolyObs(E_{\text{BV-BRST}})[ [ \hbar, g  ] ]
 $$
 
 denotes the subspace for which no powers of $j$ appear, etc.
 
-In contrast, 
+Accordingly
 
 $$
   C^\infty_{cp}(\Sigma) \langle g \rangle
