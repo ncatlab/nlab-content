@@ -104,6 +104,8 @@
 
 * [[causal perturbation theory]], [[perturbative AQFT]]
 
+* [[interaction]]
+
 * [[S-matrix]], [[scattering amplitude]]
 
   * [[causal additivity]]
@@ -111,6 +113,11 @@
   * [[time-ordered product]], [[Feynman propagator]]
 
   * [[Feynman diagram]], [[Feynman perturbation series]]
+
+  * [[effective action]]
+
+  * [[vacuum stability]]
+
 
 * [[renormalization]]
 
