@@ -52,6 +52,8 @@ In view of the [above](#OneLoopContributionAndZetaFunction) relation of 1-loop v
 
   * [[vacuum energy]]
 
+  * [[vacuum stability]]
+
   * [[false vacuum]], [[tachyon]], [[Coleman-De Luccia instanton]]
 
   * [[theta vacuum]]
