@@ -21,6 +21,8 @@ In [[Yang-Mills theory]] on 4d [[Minkowski spacetime]] the _theta vacuum_ is a [
 
   * [[vacuum energy]]
 
+  * [[vacuum stability]]
+
   * [[false vacuum]], [[tachyon]], [[Coleman-De Luccia instanton]]
 
   * [[theta vacuum]]
