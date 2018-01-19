@@ -17,7 +17,7 @@
 
 ## Definition
 
-For $k \in \mathbb{N}$ a [[natural number]], its _factorial_ $k! \in \mathbb{N}$ is the number obtained by [[multiplication|multiplying]] all natural numbers smaller or equal to $k$:
+For $k \in \mathbb{N}$ a [[natural number]], its _factorial_ $k! \in \mathbb{N}$ is the number obtained by [[multiplication|multiplying]] all positive natural numbers less than or equal to $k$:
 
 $$
   k!
@@ -26,7 +26,7 @@ $$
   \,.
 $$
 
-In [[combinatorics]], the definition usually extends to $k = 0$ by setting $0! = 1$. 
+In [[combinatorics]], the definition usually extends to $k = 0$ by setting $0! = 1$. This may be justified by defining $k!$ to be the number of [[permutations]] of a set with $k$ elements. 
 
 ## Related concepts
 
