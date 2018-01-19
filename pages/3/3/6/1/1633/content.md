@@ -271,6 +271,8 @@ Locally compact Hausdorff spaces are [[paracompact space|paracompact]] whenever 
 
 ## Related concepts
 
+* [[locally proper map]]
+
 * [[locally compact locale]]
 
 * [[compact topological space]], [[countably compact topological space]], [[paracompact topological space]], [[locally compact topological space]], [[strongly compact topological space]]
