@@ -46,6 +46,7 @@ Again taking locally compact groups $G$ to be Hausdorff, such are [[complete spa
 
 * [[maximal compact subgroup]]
 
+* [[locally compact groupoid]]
 
 ## References
 
