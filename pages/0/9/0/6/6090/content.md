@@ -2,7 +2,7 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Algebraic Qunantum Field Theory
+#### Algebraic Quantum Field Theory
 +--{: .hide}
 [[!include AQFT and operator algebra contents]]
 =--
@@ -1019,9 +1019,12 @@ which express the [[probability amplitudes]] that reflect the predictions of the
 
 The [[interacting field observables]] in def. \ref{InteractingFieldObservables} are indeed [[formal power series]] in the formal parameter $\hbar$ ([[Planck's constant]]), as opposed to being more general [[Laurent series]], hence they involve no [[negative number|negative]] powers of $\hbar$ ([Dütsch-Fredenhagen 00, prop. 2 (ii)](interacting+field+observable#DuetschFredenhagen00), [Hawkins-Rejzner 16, cor. 5.2](interacting+field+observable#HawkinsRejzner16)).  This is not immediate, since by def. \ref{LagrangianFieldTheoryPerturbativeScattering} the [[S-matrix]] that they are defined from does involve negative powers of $\hbar$.
 
-It follows in particular that the [[interacting field observables]] have a [[classical limit]] $\hbar \to 0$. Indeed they constitute a [[formal deformation quantization]] of the interacting [[Peierls-Poisson bracket]] ([Collini 16](interacting+field+algebra+of+observables#Collini16), [Hawkins-Rejzner 16](interacting+field+algebra+of+observables#HawkinsRejzner16)).
+It follows in particular that the [[interacting field observables]] have a [[classical limit]] $\hbar \to 0$. Indeed they constitute a [[formal deformation quantization]] of the interacting [[Peierls-Poisson bracket]] ([Collini 16](interacting+field+algebra+of+observables#Collini16), [Hawkins-Rejzner 16](interacting+field+algebra+of+observables#HawkinsRejzner16)), in that the algebra [[commutator]]
+to first order in $\hbar$ is given by the corresponding [[Peierls-Poisson bracket]].
 
 =--
+
+([Hawkins-Rejzner 16](interacting+field+observable#HawkinsRejzner16))
 
 +-- {: .num_example}
 ###### Example
@@ -1053,7 +1056,7 @@ $$
     {\vee\!\!\!\wedge}
   A_{in, i_{in}}
   \phantom{AAA}
-  A_{in, i_{in} } 
+  A_{in, i_{in} }
   {\gt\!\!\!\!\lt}
   A_{in, j_{in}}
 $$
@@ -1061,7 +1064,7 @@ $$
 for all $1 \leq i_{out} \lt j_{out} \leq n_{out}$ and $1 \leq  i_{in} \lt j_{in} \leq n_{in}$.
 
 Then the [[Wick algebra]]-product of the corresponding [[interacting field observables]] (def. \ref{InteractingFieldObservables})
-is 
+is
 
 $$
   \begin{aligned}
@@ -1202,7 +1205,7 @@ Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field the
 Consider two [[local observables]]
 
 $$
-  A_1, A_2 
+  A_1, A_2
   \;\in\;
   LocObs(E_{\text{BV-BRST}})[ [ \hbar , g] ]
 $$
@@ -1214,8 +1217,8 @@ $$
 $$
 
 Then [[causal additivity]] according to prop. \ref{ZCausalAdditivity} implies that the
-[[Wick algebra]]-product of the corresponding [[interacting field observables]] 
-$(A_1)_{int}, (A_2)_{int} \in PolyObs(E_{\text{BV-BRST}})[ [ \hbar, g ] ] $ (def. \ref{InteractingFieldObservables}) 
+[[Wick algebra]]-product of the corresponding [[interacting field observables]]
+$(A_1)_{int}, (A_2)_{int} \in PolyObs(E_{\text{BV-BRST}})[ [ \hbar, g ] ] $ (def. \ref{InteractingFieldObservables})
 is
 
 $$
@@ -1254,10 +1257,10 @@ $$
 $$
 
 Here the last line makes sense if one extends the axioms on the [[S-matrix]] in prop. \ref{LagrangianFieldTheoryPerturbativeScattering}
-from formal power series in $\hbar, g, j$ to formal power series in $\hbar, g, j_1, j_2, \cdots$. 
+from formal power series in $\hbar, g, j$ to formal power series in $\hbar, g, j_1, j_2, \cdots$.
 This is a straightforward generalization of the formalism which only takes extra notational effort.
 Hence in this generalization, the [[generating functions]] $\mathcal{Z}$ are not just generating functions
-for [[interacting field observables]] themselves, but in fact for _[[time-ordered products]]_ of interacting field observables. 
+for [[interacting field observables]] themselves, but in fact for _[[time-ordered products]]_ of interacting field observables.
 
 =--
 
@@ -1928,7 +1931,13 @@ $$
       }
     }{\,}
     &
-    \underset{\text{(Epstein-Glaser 73)}}{\,}
+    \underset{
+      \array{
+        \text{(Bogoliubov-Shirkov 59,}
+        \\
+        \text{Epstein-Glaser 73)}
+      }
+    }{\,}
     &
     \underset{
     \array{
@@ -2053,8 +2062,7 @@ $$
   }
 $$
 
-This may be called the
-_[[quantum Møller operator]]_ ([Hawkins-Rejzner 16](perturbative+algebraic+quantum+field+theory#HawkinsRejzner16)).
+This may be called the _[[quantum Møller operator]]_ ([Hawkins-Rejzner 16, (33)](perturbative+algebraic+quantum+field+theory#HawkinsRejzner16)).
 
 Finally we write
 
@@ -2080,8 +2088,26 @@ This is the _perturbative [[interacting field algebra of observables]]_.
 
 =--
 
+The definition of the [[interacting field algebra of observables]] from the data of a [[scattering matrix]] (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) via [[Bogoliubov's formula]] (def. \ref{InteractingFieldObservables}) is physically well-motivated, but is not immediately recognizable as the result of applying a systematic concept of [[quantization]] (such as [[formal deformation quantization]]) to the given [[Lagrangian field theory]]. The following
+proposition \ref{InteractingFieldAlgebraOfObservablesIsFormalDeformationQuantization} says that this is nevertheless the case.
+(The special case of this statement for [[free field theory]] is discussed at _[[Wick algebra]]_, see [this remark](Wick+algebra#WickAlgebraIsFormalDeformationQuantization)).
 
-The following definition simply collects the system (a [[co-presheaf]]) of [[generating functions]] for [[interacting field observables]]
++-- {: .num_prop #InteractingFieldAlgebraOfObservablesIsFormalDeformationQuantization}
+###### Proposition
+**([[interacting field algebra of observables]] is [[formal deformation quantization]] of [[interacting field theory|interacting]] [[Lagrangian field theory]])**
+
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}, and let $g_{sw} \mathbf{L}_{int} \in \Omega^{p+1,0}_{\Sigma,cp}(E_{\text{BV-BRST}})[ [\hbar, g ] ]\langle g\rangle$ be an [[adiabatic switching|adiabatically switched]] [[interaction]] [[Lagrangian density]] with corresponding
+[[action functional]] $g S_{int} \coloneqq \tau_\Sigma( g_{sw} \mathbf{L}_{int} )$.
+
+Then, at least on [[regular polynomial observables]], the construction of perturbative [[interacting field algebras of observables]] in def. \ref{QuntumMollerOperator} is a [[formal deformation quantization]] of the [[interacting field theory|interacting]] [[Lagrangian field theory]]
+$(E_{\text{BV-BRST}}, \mathbf{L}'  + g_{sw} \mathbf{L}_{int})$.
+
+=--
+
+([Hawkins-Rejzner 16, prop. 5.4](perturbative+algebraic+quantum+field+theory#HawkinsRejzner16))
+
+
+The following definition collects the system (a [[co-presheaf]]) of [[generating functions]] for [[interacting field observables]]
 which are localized in spacetime as the spacetime localization region varies:
 
 +-- {: .num_defn #PerturbativeGeneratingLocalNetOfObservables}
@@ -5163,7 +5189,7 @@ An entertaining account of some of the history and the sociology of S-matrix the
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Algebraic Qunantum Field Theory
+#### Algebraic Qunntum Field Theory
 +--{: .hide}
 [[!include AQFT and operator algebra contents]]
 =--
