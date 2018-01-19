@@ -1,4 +1,107 @@
 
+
+$$
+  \begin{aligned}
+   &
+   \left\langle
+     {\, \atop \,}
+     (A_{out, 1})_{int}
+     \cdots
+     (A_{out,n_{out}})_{int}
+     \,
+     (A_{in, 1})_{int}
+     \cdots
+     (A_{in,n_{in}})_{int}
+     {\, \atop \,}
+   \right\rangle
+   \\
+   & =
+   \left\langle 
+     {\, \atop \,}
+       A_{out,1}
+       \cdots
+       A_{out,n_{out}}
+    \right|
+       \;
+       \mathcal{S}(g S_{int})
+       \;
+    \left|
+       A_{in,1}
+       \cdots
+       A_{in, n_{in}}
+     {\, \atop \,}
+   \right\rangle
+   \\
+   & \coloneqq
+   \frac{1}{ 
+     \left\langle \mathcal{S}(g S_{int}) \right\rangle 
+   }   
+   \left\langle
+     {\, \atop \,}
+       A_{out,1}
+       \cdots
+       A_{out,n_{out}}
+       \;
+       \mathcal{S}(g S_{int})
+       \;
+       A_{in,1}
+       \cdots
+       A_{in, n_{in}}
+     {\, \atop \,}
+   \right\rangle
+   \,.
+  \end{aligned}
+$$
+
+
++-- {: .num_defn}
+###### Definition
+**([[vacuum stability]])**
+
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}, let $\mathcal{S}$ be a corresponding [[S-matrix]] scheme according to def. \ref{LagrangianFieldTheoryPerturbativeScattering}, and let $g S_{int} \in LocObs(E_{\text{BV-BRST}})[ [ \hbar, g] ]\langle g \rangle$ be a [[local observable]], regarded as an [[adiabatic switching|adiabatically switched]] [[interaction]] [[action functional]].
+
+We say that the given [[Hadamard vacuum state]] is _[[vacuum stability|stable]]_ with respect to the [[interaction]] $S_{int}$, if for all elements of the [[Wick algebra]]
+
+$$
+  A \in PolyObs(E_{\text{BV-BRST}})_{mc}[ [ \hbar, g] ] 
+$$
+
+we have
+
+$$
+  \left\langle
+    A \mathcal{S}(g S_{int})
+  \right\rangle
+  \;=\;
+  \left\langle
+     \mathcal{S}(g S_{int})
+  \right\rangle
+  \,
+  \left\langle
+    A
+  \right\rangle
+  \phantom{AA}
+  \text{and}
+  \phantom{AA}
+  \left\langle
+    \mathcal{S}(g S_{int})^{-1}
+    A
+  \right\rangle
+  \;=\;
+  \frac{1}
+  {
+    \left\langle
+      \mathcal{S}(g S_{int})
+    \right\rangle
+   }
+   \left\langle 
+     A  
+   \right\rangle
+$$
+
+=--
+
+
 $$
   S_1 {\gt\!\!\!\!\lt} S_2
   \phantom{AAA}
