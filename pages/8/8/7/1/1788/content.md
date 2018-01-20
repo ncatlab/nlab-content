@@ -1,4 +1,8 @@
 
+$$
+  \Bigtimes, \bigtimes,\big\times
+$$
+
 
 $$
   \begin{aligned}
