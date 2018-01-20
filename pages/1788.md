@@ -1,5 +1,55 @@
 
 $$
+  E_{\text{BV-BRST}}
+  \;\simeq\;
+   \underset{
+     {\text{electromagnetic}}
+     \atop
+     {\text{field}}
+    }{
+    \underbrace{
+    T^\ast\Sigma   
+    }}
+      \times_\Sigma
+    \underset{
+      \text{Dirac}
+      \atop
+      \text{field}
+    }{
+    \underbrace{
+    (S \times \Sigma)
+    }}
+      \times_\Sigma
+    \underset{
+      \text{ghost}
+      \atop
+      \text{field}
+    }{
+    \underbrace{
+    (\mathbb{R}[1] \times \Sigma)
+    }}
+      \times_\Sigma
+    \underset{
+      \text{NL auxiliary}
+      \atop
+      \text{field}
+    }{
+    \underbrace{
+    (\mathbb{R} \times \Sigma)
+    }}
+      \times_\Sigma
+    \underset{
+      \text{antighost}
+      \atop
+      \text{field}
+    }{
+    \underbrace{
+    (\mathbb{R}[-1] \times \Sigma)
+    }}
+$$
+
+
+$$
   \Bigtimes, \bigtimes,\big\times
 $$
 
