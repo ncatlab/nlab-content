@@ -53,6 +53,8 @@ Similarly in [[superstring theory]] [[open string]] states between [[brane]]/[[a
 
   * [[vacuum energy]]
 
+  * [[vacuum diagram]]
+
   * [[vacuum stability]]
 
   * [[false vacuum]], [[tachyon]], [[Coleman-De Luccia instanton]]
