@@ -41,6 +41,8 @@ There are arguments that the phenomenon of [[confinement]] in [[QCD]] will be ex
 
 * [[vacuum energy]]
 
+* [[vacuum diagram]]
+
 * [[vacuum stability]]
 
 * [[false vacuum]], [[tachyon]], [[Coleman-De Luccia instanton]]
