@@ -4037,10 +4037,10 @@ one thinks of the underlying [[free field]] [[vacuum]] as having a single "field
 and of the chosen [[interaction]] to be a single "interaction vertex".
 
 But often it is possible and useful to identify different field species and different interaction vertices.
-In fact in applications this choice is typically evident and not highlighted as a choice, we
+In fact in applications this choice is typically evident and not highlighted as a choice. We
 make it explicit below as def. \ref{VerticesAndFieldSpecies}.  Such a choice makes
-the interaction term as well as the [[Feynman propagator]] decompose as sums (remark \ref{FeynmanPropagatorFieldSpecies} below).
-Accoringly, after "multiplying out" the products of these sums that appear in the Feynman amplitudes, these, too, decompose
+both the [[interaction]] term as well as the [[Feynman propagator]] decompose as sums (remark \ref{FeynmanPropagatorFieldSpecies} below).
+Accordingly then, after "multiplying out" the products of these sums that appear in the Feynman amplitudes, these, too, decompose
 further as as sums indexed by multigraphs whose edges are labeled by field species, and whose vertices are labeled
 by interactions. These labeled multigraphs are the _[[Feynman diagrams]]_ (def. \ref{FeynmanDiagram} below) and the
 corresponding summands are the [[Feynman amplitudes]] proper (prop. \ref{FeynmanDiagramAmplitude} below).
