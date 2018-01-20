@@ -186,8 +186,11 @@ Namely define analogously
     & = \exp\left({\tfrac{- t}{i \hbar} H_{free}}\right)
         \exp\left({ \tfrac{+ t}{i \hbar} H} \right)\vert \psi \rangle
     \\
-    & = \exp\left({\tfrac{- t}{i \hbar} H_{free}}\right)
-        \exp\left({\tfrac{t}{i \hbar} H_{free} + \tfrac{t}{i \hbar} V} \right)\vert \psi \rangle   \end{aligned}
+    & = 
+        \exp\left({\tfrac{- t}{i \hbar} H_{free}}\right)
+        \exp\left({\tfrac{t}{i \hbar} H_{free} + \tfrac{t}{i \hbar} V} \right)
+        \vert \psi \rangle   
+    \end{aligned}
   \,.
 \]
 
@@ -198,18 +201,19 @@ Notice that if the operator $V$ were to commute with $H_{free}$ (which it does n
 But first notice that this will indeed be useful: If an explicit expression for the "state in the [[interaction picture]]" (eq:StateInTheInteractionPicture) is known, then the assumption that also the operator $\exp\left({\tfrac{t}{i \hbar} H_{free}}\right)$ is sufficiently well understood implies that the actual solution
 
 $$
-  \vert \psi(t) \rangle_S = \exp\left({\tfrac{t}{i \hbar} H_{free}}\right) \vert \psi(t) \rangle_I
+  \vert \psi(t) \rangle_S 
+  \;=\; 
+  \exp\left({\tfrac{t}{i \hbar} H_{free}}\right) \vert \psi(t) \rangle_I
 $$
 
 is under control. Hence the question now is how to find $\vert \psi(-)\rangle_I$ given its value at some time $t$. (It is conventional to consider this for $t \to \pm \infty$, see (eq:SMatrixInQuantumMechanics) below.)
 
-Now it is clear from the construction and using the [[product law]] for [[differentiation]], that $\vert \psi(-)\rangle_S$ satisfies the following [[differential equation]] ("[[Schrödinger equation]] in [[interaction picture]]"):
-<!-- How does the product rule for differentiation apply here? -->
+Now observe that $\vert \psi(-)\rangle_i$ satisfies the following [[differential equation]] ("[[Schrödinger equation]] in [[interaction picture]]"):
 
 \[
   \label{DifferentialEquationInInteractionPicture}
-  \frac{d}{d t} \vert \psi(t) \rangle
-  \;=\;
+  \frac{d}{d t} \vert \psi(t) \rangle_I
+  \;=\;  
   V_I(t) \vert \psi(t)\rangle_I
   \,,
 \]
@@ -224,7 +228,82 @@ $$
   \exp\left( +\tfrac{t}{i \hbar} H_{free} \right)
 $$
 
-is known as the [[interaction]] term $V$ "viewed in the [[interaction picture]]". But in fact this is just $V$ "viewed in the [[Heisenberg picture]]", but for the _free_ theory. By our running assumption that the free theory is well understood, also $V_I(t)$ is well understood, and hence all that remains now is to find a sufficiently concrete solution to equation (eq:DifferentialEquationInInteractionPicture). This is the heart of working in the interaction picture.
+is known as the [[interaction]] term $V$ "viewed in the [[interaction picture]]". 
+
+Here is the derivation of (eq:DifferentialEquationInInteractionPicture), where we use the [[product law]] for [[differentiation]]:
+
+$$
+  \begin{aligned}
+    \frac{d}{d t}
+    \vert \psi(r) \rangle_I
+    & =
+    \frac{d}{d t}
+    \left(
+      \exp\left( \tfrac{- t}{i \hbar} H_{free}\right)
+      \exp\left({\tfrac{t}{i \hbar} H_{free} + \tfrac{t}{i \hbar} V} \right)
+    \right)
+    \vert \psi \rangle   
+    \\
+    & =
+    \left(
+      \left(
+        \frac{d}{d t}
+        \exp\left( \tfrac{- t}{i \hbar} H_{free} \right)
+      \right)
+      \exp\left({\tfrac{t}{i \hbar} H_{free} + \tfrac{t}{i \hbar} V} \right)
+      +
+      \exp\left({\tfrac{- t}{i \hbar} H_{free}}\right)
+      \left(
+        \frac{d}{d t}
+        \exp\left({\tfrac{t}{i \hbar} H_{free} + \tfrac{t}{i \hbar} V} \right)
+      \right)
+    \right)
+    \vert \psi \rangle    
+    \\
+    & =
+    \left(
+      \exp\left( \tfrac{- t}{i \hbar} H_{free} \right)
+      \left( \tfrac{- 1}{i \hbar} H_{free} \right)
+      \exp\left( \tfrac{t}{i \hbar} H_{free} + \tfrac{t}{i \hbar} V  \right)
+      +
+      \exp\left({\tfrac{- t}{i \hbar} H_{free}}\right)
+      \left( \tfrac{1}{i \hbar} H_{free} + \tfrac{1}{i \hbar} V \right)
+      \exp\left( \tfrac{t}{i \hbar} H_{free} + \tfrac{t}{i \hbar} V \right)
+    \right)
+    \vert \psi \rangle    
+    \\
+    & =
+      \tfrac{1}{i \hbar}
+      \exp\left({\tfrac{- t}{i \hbar} H_{free}}\right)
+      V
+      \exp\left( \tfrac{t}{i \hbar} H_{free} + \tfrac{t}{i \hbar} V \right)
+    \vert \psi \rangle    
+    \\
+    & =
+      \tfrac{1}{i \hbar}
+      \exp\left({\tfrac{- t}{i \hbar} H_{free}}\right)
+      V
+      \exp\left({\tfrac{+ t}{i \hbar} H_{free}}\right)
+      \exp\left({\tfrac{- t}{i \hbar} H_{free}}\right)      
+      \exp\left( \tfrac{t}{i \hbar} H_{free} + \tfrac{t}{i \hbar} V \right)
+    \vert \psi \rangle    
+    \\
+    & =
+      \tfrac{1}{i \hbar}
+      \exp\left({\tfrac{- t}{i \hbar} H_{free}}\right)
+      V
+      \exp\left({\tfrac{+ t}{i \hbar} H_{free}}\right)
+      \vert \psi(t) \rangle_I    
+    \\
+    & =
+      \tfrac{1}{i \hbar}
+      V_I(t)
+      \vert \psi(t) \rangle_I    
+  \end{aligned}
+$$
+
+
+Now in fact $V_I$ is just $V$ "viewed in the [[Heisenberg picture]]", but for the _free_ theory. By our running assumption that the free theory is well understood, also $V_I(t)$ is well understood, and hence all that remains now is to find a sufficiently concrete solution to equation (eq:DifferentialEquationInInteractionPicture). This is the heart of working in the interaction picture.
 
 Solutions to equations of the "[[parallel transport]]"-type such as (eq:DifferentialEquationInInteractionPicture) are given by [[time-ordered product|time-ordering]] of Heisenberg picture operators, denoted $T$, applied to the naive exponential solution as above. This is known as the _[[Dyson formula]]_:
 
@@ -336,28 +415,20 @@ In [[perturbative algebraic quantum field theory]] the broad structure of the [[
 
 1. The sharp interaction cutoff in the [[Dyson formula]] that is hidden in the integration over $[t_0,t]$ has to be smoothed out by [[adiabatic switching]] of the interaction (making the whole S-matrix an [[operator-valued distribution]]).
 
-Together these three points are taken care of by the axiomatization of the "[[adiabatic switching|adiabatically switched]] [[S-matrix]]" according to **[[causal perturbation theory]]**.
+Together these three points are taken care of by the axiomatization of the "[[adiabatic switching|adiabatically switched]] [[S-matrix]]" according to **[[causal perturbation theory]]** (def. \ref{LagrangianFieldTheoryPerturbativeScattering} below)
 
 
-
-
-
-
-#### Perturbative S-Matrices
- {#PerturbativeSMatrixAndTimeOrderedProducts}
-
-We consider here the [[axioms]] for perturbative S-matrices relative to a fixed [[relativistic field theory|relativistic]] [[free field theory|free]] [[Lagrangian field theory|Lagrangian]] [[quantum field theory|quantum field]] [[vacuum]] (def. \ref{VacuumFree} below) according to _[[causal perturbation theory]]_ (def. \ref{LagrangianFieldTheoryPerturbativeScattering} below).
-Since the first of these axioms requires the S-matrix to be a formal sum of [[multilinear map|multi-]][[linear continuous functionals]], it is convenient to impose axioms on these directly: this is the axiomatics for _[[time-ordered products]]_
-in def. \ref{TimeOrderedProduct} below. That these latter axioms already imply the former
-is the statement of prop. \ref{TimeOrderedProductInducesPerturbativeSMatrix} below. Its proof
-requires a close look at the "[[reverse-time ordered products]]" for the inverse S-matrix (def. \ref{ReverseTimeOrderedProduct} below)
-and their induced reverse-causal factorization (prop. \ref{ReverseCausalFactorizationOfReverseTimeOrderedProducts} below).
 
 $\,$
 
-In considering [[perturbative QFT]], we are considering [[perturbation theory]] around a fixed [[free field theory|free]]
+#### Free field vacua
+ {#FreeFieldVacua}
+ 
+
+In considering [[perturbative QFT]], we are considering [[perturbation theory]] in formal [[deformation]] parameters around a fixed [[free field theory|free]]
 [[Lagrangian field theory|Lagrangian]] [[quantum field theory]] in a chosen [[Hadamard vacuum state]].
-For convenient referencing we collect all the structure and notation that goes into this in the following definition:
+
+For convenient referencing we collect all the structure and notation that goes into this in the following definitions:
 
 +-- {: .num_defn #VacuumFree}
 ###### Definition
@@ -497,8 +568,8 @@ For the purposes of constructing or defining the Wick algebra, the conditions on
 =--
 
 Being concerned with [[perturbative QFT|perturbation theory]] means mathematically that we consider _[[formal power series]]_
-in deformation parameters $\hbar$ ("[[Planck's constant]]") and $g$ ("[[coupling constant]]"), also in $j$ ("[[source field]]"),
-see also remark \ref{AsymptoticSeriesObservables}:
+in [[deformation]] parameters $\hbar$ ("[[Planck's constant]]") and $g$ ("[[coupling constant]]"), also in $j$ ("[[source field]]"),
+see also remark \ref{AsymptoticSeriesObservables}. The following collects our notational conventions for these matters:
 
 +-- {: .num_defn #FormalParameters}
 ###### Definition
@@ -626,6 +697,19 @@ $$
 which, in its $\hbar$-dependent, is the space of _[[Laurent series]]_ in $\hbar$, hence the space exhibiting also negative formal powers of $\hbar$.
 
 =--
+
+$\,$
+
+#### Perturbative S-Matrices
+ {#PerturbativeSMatrixAndTimeOrderedProducts}
+
+We introduce now the [[axioms]] for perturbative [[scattering matrices]] relative to a fixed [[relativistic field theory|relativistic]] [[free field theory|free]] [[Lagrangian field theory|Lagrangian]] [[quantum field theory|quantum field]] [[vacuum]] (def. \ref{VacuumFree} below) according to _[[causal perturbation theory]]_ (def. \ref{LagrangianFieldTheoryPerturbativeScattering} below).
+Since the first of these axioms requires the S-matrix to be a formal sum of [[multilinear map|multi-]][[linear continuous functionals]], it is convenient to impose axioms on these directly: this is the axiomatics for _[[time-ordered products]]_
+in def. \ref{TimeOrderedProduct} below. That these latter axioms already imply the former
+is the statement of prop. \ref{TimeOrderedProductInducesPerturbativeSMatrix} below. Its proof
+requires a close look at the "[[reverse-time ordered products]]" for the inverse S-matrix (def. \ref{ReverseTimeOrderedProduct} below)
+and their induced reverse-causal factorization (prop. \ref{ReverseCausalFactorizationOfReverseTimeOrderedProducts} below).
+
 
 +-- {: .num_defn #LagrangianFieldTheoryPerturbativeScattering}
 ###### Definition
