@@ -301,7 +301,7 @@ then the _interacting quantum BV-differential_ on the [[interacting field algebr
 on [[regular polynomial observables]] is the [[conjugation]] of the plain [[BV-differential]] $\{-S',-\}$ by the [[quantum Møller operator]] induced by $S_{int}$ (def. \ref{MollerOperatorOnRegularPolynomialObservables}):
 
 $$
-  \mathcal{R}_V \circ \{-S', (-)\} \circ \mathcal{R}^{-1}
+  \mathcal{R} \circ \{-S', (-)\} \circ \mathcal{R}^{-1}
   \;\colon\;
   PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
     \longrightarrow
