@@ -126,6 +126,10 @@ See at _[axion -- As a solution to the strong CP-problem](axion#AsASolutionToThe
 
   * [[vacuum energy]]
 
+  * [[vacuum diagram]]
+
+  * [[vacuum diagram]]
+
   * [[vacuum stability]]
 
   * [[false vacuum]], [[tachyon]], [[Coleman-De Luccia instanton]]
