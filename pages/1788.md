@@ -1,25 +1,36 @@
-
 $$
   E_{\text{BV-BRST}}
   \;\simeq\;
+   \underset{
+      \text{Dirac}
+      \atop
+      \text{field}
+    }{
+    \underbrace{
+    (S_{odd} \times \Sigma)
+    }}
+     \times_\Sigma
+   \underset{
+     \text{gauge fixed}
+     \atop
+     \text{electromagnetic field}
+   }{
+   \underbrace{
    \underset{
      {\text{electromagnetic}}
      \atop
      {\text{field}}
     }{
     \underbrace{
-    T^\ast\Sigma   
+    T^\ast\Sigma
     }}
       \times_\Sigma
     \underset{
-      \text{Dirac}
-      \atop
-      \text{field}
+      \text{auxiliary}  
+        \atop
+      \text{fields}
     }{
     \underbrace{
-    (S \times \Sigma)
-    }}
-      \times_\Sigma
     \underset{
       \text{ghost}
       \atop
@@ -46,6 +57,10 @@ $$
     \underbrace{
     (\mathbb{R}[-1] \times \Sigma)
     }}
+    }
+    }
+    }
+    }
 $$
 
 
