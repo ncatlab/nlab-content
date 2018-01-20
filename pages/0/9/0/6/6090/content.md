@@ -4010,7 +4010,7 @@ where each [[vertex]] corresponds to an [[interaction]] or [[source field]] inse
 corresponds to one contractions of two of these with the [[Feynman propagator]]. The [[products of distributions]]
 arising this way are the _[[Feynman amplitudes]]_ (prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints} below).
 
-If the [[free field]] [[vacuum]] is decomposed as a [[direct sum]] of distinct [[free field]] [[types]]/species, then
+If the [[free field]] [[vacuum]] is decomposed as a [[direct sum]] of distinct [[free field]] [[types]]/species (def. \ref{VerticesAndFieldSpecies} below), then
 in addition to the [[vertices]] also the edges in these [[graphs]] receive labels, now by the field species whose particular [[Feynman propagator]] is being used in the contraction at that edges.
 These labeled graphs are now called _[[Feynman diagrams]]_ (def. \ref{FeynmanDiagram} below) and the [[products of distributions]] which they encode are their _[[Feynman amplitudes]]_ built by the _[[Feynman rules]]_ (prop. \ref{FeynmanDiagramAmplitude} below).
 
@@ -4027,7 +4027,7 @@ Notice how it is therefore the [[combinatorics]] of [[star products]] that gover
 
 $\,$
 
-We now discuss [[Feynman diagrams]] and their [[Feynman amplitudes]] in two stages:
+{#FeynmanDiagramInTwoStages} We now discuss [[Feynman diagrams]] and their [[Feynman amplitudes]] in two stages:
 First we consider plain [[finite multigraphs]] with [[linear order|linearly ordered]] vertices
 but no other labels (def. \ref{Graphs} below) and discuss how these generally organize an expansion
 of the [[time-ordered products]] as a sum of [[products of distributions|distributional products]]
@@ -4372,7 +4372,7 @@ which yield in total the sum over all diagrams with $\nu+1$ vertices.
 If the [[free field theory]] is decomposed as a [[direct sum]] of free field theories, we obtain a more
 fine-grained concept of [[Feynman amplitudes]]:
 
-+-- {: .num_prop #VerticesAndFieldSpecies}
++-- {: .num_defn #VerticesAndFieldSpecies}
 ###### Definition
 **(field species and interaction vertices)**
 
@@ -4412,71 +4412,11 @@ as a [[fiber product]] over [[finite set]] $Spec = \{sp_1, sp_2, \cdots, sp_n\}$
      \;=\;
      \underset{i \in Ext}{\sum} g S_{int,i}
      +
-     \underset{j \in Int}{\Sum} j A_j
+     \underset{j \in Int}{\sum} j A_j
    $$
 
-   parameterized by [[finite sets]] $Int$, $Ext$, to be called the sets of _internal vertex labels_ and _external vertex labels_,
+   parameterized by [[finite sets]] $Int$ and $Ext$, to be called the sets of _internal vertex labels_ and _external vertex labels_,
 respectively.
-
-=--
-
-+-- {: .num_example}
-###### Example
-**(field species in [[quantum electrodynamics]])**
-
-The [[field bundle]] for [[Lorentz gauge|Lorenz]] [[gauge fixing|gauge fixed]] [[quantum electrodnamics]] 
-on [[Minkowski spacetime]] $\Sigma$ admits a decomposition into field species according to def. \ref{VerticesAndFieldSpecies} as
-
-$$
-  E_{\text{BV-BRST}}
-  \;\simeq\;
-   \underset{
-     {\text{electromagnetic}}
-     \atop
-     {\text{field}}
-    }{
-    \underbrace{
-    T^\ast\Sigma
-    }}
-      \times_\Sigma
-    \underset{
-      \text{Dirac}
-      \atop
-      \text{field}
-    }{
-    \underbrace{
-    (S \times \Sigma)
-    }}
-      \times_\Sigma
-    \underset{
-      \text{ghost}
-      \atop
-      \text{field}
-    }{
-    \underbrace{
-    (\mathbb{R}[1] \times \Sigma)
-    }}
-      \times_\Sigma
-    \underset{
-      \text{NL auxiliary}
-      \atop
-      \text{field}
-    }{
-    \underbrace{
-    (\mathbb{R} \times \Sigma)
-    }}
-      \times_\Sigma
-    \underset{
-      \text{antighost}
-      \atop
-      \text{field}
-    }{
-    \underbrace{
-    (\mathbb{R}[-1] \times \Sigma)
-    }}
-$$
-
-(by [this example](A+first+idea+of+quantum+field+theory#LagrangianQED) and [this example](A+first+idea+of+quantum+field+theory#NLGaugeFixingOfElectromagnetism)).
 
 =--
 
@@ -4530,6 +4470,127 @@ $$
 $$
 
 =--
+
+
++-- {: .num_example #FieldSpeciesQED}
+###### Example
+**(field species in [[quantum electrodynamics]])**
+
+The [[field bundle]] for [[Gaussian-averaged Lorenz gauge|Lorenz]] [[gauge fixing|gauge fixed]] [[quantum electrodynamics]] 
+on [[Minkowski spacetime]] $\Sigma$ admits a decomposition into field species, according to def. \ref{VerticesAndFieldSpecies}, as
+
+$$
+  E_{\text{BV-BRST}}
+  \;\simeq\;
+   \underset{
+      \text{Dirac}
+      \atop
+      \text{field}
+    }{
+    \underbrace{
+    (S_{odd} \times \Sigma)
+    }}
+     \times_\Sigma
+   \underset{
+     \text{gauge fixed}
+     \atop
+     \text{electromagnetic field}
+   }{
+   \underbrace{
+   \underset{
+     {\text{electromagnetic}}
+     \atop
+     {\text{field}}
+    }{
+    \underbrace{
+    T^\ast\Sigma
+    }}
+      \times_\Sigma
+    \underset{
+      \text{auxiliary}
+        \atop
+      \text{fields}
+    }{
+    \underbrace{
+    \underset{
+      \text{ghost}
+      \atop
+      \text{field}
+    }{
+    \underbrace{
+    (\mathbb{R}[1] \times \Sigma)
+    }}
+      \times_\Sigma
+    \underset{
+      \text{NL auxiliary}
+      \atop
+      \text{field}
+    }{
+    \underbrace{
+    (\mathbb{R} \times \Sigma)
+    }}
+      \times_\Sigma
+    \underset{
+      \text{antighost}
+      \atop
+      \text{field}
+    }{
+    \underbrace{
+    (\mathbb{R}[-1] \times \Sigma)
+    }}
+    }
+    }
+    }
+    }
+$$
+
+(by [this example](A+first+idea+of+quantum+field+theory#LagrangianQED) and [this example](A+first+idea+of+quantum+field+theory#NLGaugeFixingOfElectromagnetism)).
+
+The corresponding sum decomposition of the Feynman propagator, according to remark \ref{FeynmanPropagatorFieldSpecies},
+is
+
+$$
+  \Delta_F
+    \;=\;
+  \underset{
+    \text{Dirac}
+    \atop
+    \text{field}
+  }{  
+  \underbrace{
+    \Delta_F^{\text{electron}}
+  }
+  }
+  +
+  \underset{
+    \text{electromagnetic}
+    \atop
+    \text{field} 
+  }{
+  \underbrace{
+    \Delta_F^{photon}
+  }
+  }
+  +
+  \Delta_F^{ghost}
+  +
+  \Delta_F^{NL}
+  + 
+  \Delta_F^{\text{antighost}}
+  \,,
+$$ 
+
+where 
+
+1. $\Delta_F^{\text{electron}}$ is the [[electron propagator]] ([this def.](Feynman+propagator#FeynmanPropagatorForDiracOperatorOnMinkowskiSpacetime))
+
+1. $\Delta_F^{photon}$ is the [[photon propagator]] in [[Gaussian-averaged Lorenz gauge]] ([this prop.](A+first+idea+of+quantum+field+theory#PhotonPropagatorInGaussianAveragedLorenzGauge))
+
+1. the [[auxiliary field]] [[Feynman propagators]] $\Delta_F^{ghost}$, $\Delta_F^{NL}$ and $\Delta_F^{antighost}$ 
+   are each one copy of the [[Feynman propagator]] of the [[real scalar field]] ([this prop.](Feynman+propagator#FeynmanPropagatorAsACauchyPrincipalvalue)).
+
+=--
+
 
 +-- {: .num_defn #FeynmanDiagram}
 ###### Definition
@@ -4592,7 +4653,7 @@ $$
       &\overset{\text{forget} \atop \text{labels}}{\longrightarrow}&
     \mathcal{G}
     \\
-    (\Gamma,L) &\mapsto& \Gamma
+    (\Gamma,vertlab, edgelab) &\mapsto& \Gamma
   }
 $$
 
@@ -4676,13 +4737,13 @@ $$
    PolyObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]
 $$
 
-or rather its [[vacuum expectation value]]
+or rather their [[vacuum expectation value]]
 
 $$
   \left\langle
    \left(
      \Gamma,
-     (edgelab_e)_{e \in E_{\Gamma}}, (vertlab_v)_{v \in V_\Gamma}
+     edgelab, vertlab
    \right)
    (g S_{int} + j A)
   \right\rangle
@@ -4690,8 +4751,7 @@ $$
   \mathbb{C}[ [ \hbar, g, j ] ]
 $$
 
-is called the _[[Feynman amplitude]] associated with the [[Feynman diagram]] 
-$\left(\Gamma,(edgelab_e)_{e \in E_{\Gamma}}, (vertlab_v)_{v \in V_\Gamma}\right)$_ (def. \ref{FeynmanDiagram}).
+are called the _[[Feynman amplitude]] associated with these [[Feynman diagrams]].
 
 =--
 
