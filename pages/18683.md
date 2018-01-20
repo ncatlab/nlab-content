@@ -39,6 +39,8 @@ Notice that there are other [[spinor]] [[field (physics)|fields]] which would no
 
 * [[Dirac current]]
 
+* [[electron propagator]]
+
 ## Reference
 
 A concise collection of the details over [[Minkowski spacetime]] is in
