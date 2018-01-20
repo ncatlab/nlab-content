@@ -4027,6 +4027,24 @@ Notice how it is therefore the [[combinatorics]] of [[star products]] that gover
 
 $\,$
 
+We now discuss [[Feynman diagrams]] and their [[Feynman amplitudes]] in two stages:
+First we consider plain [[finite multigraphs]] with [[linear order|linearly ordered]] vertices
+but no other labels (def. \ref{Graphs} below) and discuss how these generally organize an expansion
+of the [[time-ordered products]] as a sum of [[products of distributions|distributional products]]
+of the given [[Feynman propagator]] (prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints} below).
+These summands (or their [[vacuum expectation values]]) are called the _[[Feynman amplitudes]]_ if 
+one thinks of the underlying [[free field]] [[vacuum]] as having a single "field species"
+and of the chosen [[interaction]] to be a single "interaction vertex".
+
+But often it is possible and useful to identify different field species and different interaction vertices.
+In fact in applications this choice is typically evident and not highlighted as a choice, we
+make it explicit below as def. \ref{VerticesAndFieldSpecies}.  Such a choice makes
+the interaction term as well as the [[Feynman propagator]] decompose as sums (remark \ref{FeynmanPropagatorFieldSpecies} below).
+Accoringly, after "multiplying out" the products of these sums that appear in the Feynman amplitudes, these, too, decompose
+further as as sums indexed by multigraphs whose edges are labeled by field species, and whose vertices are labeled
+by interactions. These labeled multigraphs are the _[[Feynman diagrams]]_ (def. \ref{FeynmanDiagram} below) and the
+corresponding summands are the [[Feynman amplitudes]] proper (prop. \ref{FeynmanDiagramAmplitude} below).
+
 +-- {: .num_defn #Graphs}
 ###### Definition
 **([[finite graph|finite]] [[multigraphs]])**
@@ -4044,7 +4062,7 @@ A _[[finite graph|finite]] [[multigraph]]_ is
 A choice of [[linear order]] on the set of vertices of a finite multigraph is a choice of [[bijection]] of the form
 
 $$
-  V \simeq \{1, 2, \cdots, v\}
+  V \simeq \{1, 2, \cdots, \nu\}
   \,.
 $$
 
@@ -4054,12 +4072,12 @@ Hence the [[isomorphism classes]] of a [[finite graph|finite]] [[multigraphs]] w
 1. a [[natural number]]
 
    $$
-     v \coloneqq {\vert V\vert} \in \mathbb{N}
+     \nu \coloneqq {\vert V\vert} \in \mathbb{N}
    $$
 
    (the number of [[vertices]]);
 
-1. for each $i \lt j \in \{1, \cdots, v\}$ a natural number
+1. for each $i \lt j \in \{1, \cdots, \nu\}$ a natural number
 
    $$
      e_{i,j} \coloneqq {\vert p^{-1}(\{v_i,v_j\})\vert} \in \mathbb{N}
@@ -4067,11 +4085,11 @@ Hence the [[isomorphism classes]] of a [[finite graph|finite]] [[multigraphs]] w
 
    (the number of [[edges]] between the $i$th and the $j$th vertex).
 
-We write $\mathcal{G}_v$ for the set of such [[isomorphism classes]] of finite multigraphs with linearly ordered vertices
-identified with $\{1, 2, \cdots, v\}$; and we write
+We write $\mathcal{G}_\nu$ for the set of such [[isomorphism classes]] of finite multigraphs with linearly ordered vertices
+identified with $\{1, 2, \cdots, \nu\}$; and we write
 
 $$
-  \mathcal{G} \;\coloneqq\; \underset{v \in \mathbb{N}}{\sqcup} \mathcal{G}_v
+  \mathcal{G} \;\coloneqq\; \underset{\nu \in \mathbb{N}}{\sqcup} \mathcal{G}_\nu
 $$
 
 for the set of [[isomorphism classes]] of finite multigraphs with linearly ordered vertices of any number.
@@ -4084,36 +4102,36 @@ for the set of [[isomorphism classes]] of finite multigraphs with linearly order
 
 Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}.
 
-For $v \in \mathbb{N}$ the $v$-fold [[time-ordered product]] away from coinciding interaction points, given by prop. \ref{TimeOrderedProductAwayFromDiagonal}
+For $\nu \in \mathbb{N}$, the $\nu$-fold [[time-ordered product]] away from coinciding interaction points, given by prop. \ref{TimeOrderedProductAwayFromDiagonal}
 
 $$
-  T_v
+  T_\nu
     \;\colon\;
   \left(
     {\, \atop \,}
     LocObs(E_{\text{BV-BRST}})[ [\hbar, g, j] ]
     {\, \atop \,}
-  \right)^{\otimes^v_{\mathbb{C}[ [\hbar, g, j] ]}}_{pds}
+  \right)^{\otimes^\nu_{\mathbb{C}[ [\hbar, g, j] ]}}_{pds}
     \longrightarrow
   PolyObs(E_{\text{BV-BRST}})_{reg}((\hbar))[ [g , j] ]
 $$
 
-is equal to the following [[formal power series]] labeled by [[isomorphism classes]] of [[finite multigraphs]] with $v$ [[linear order|linearly ordered]] [[vertices]], $\Gamma \in \mathcal{G}_v$ (def. \ref{Graphs}):
+is equal to the following [[formal power series]] labeled by [[isomorphism classes]] of [[finite multigraphs]] with $\nu$ [[linear order|linearly ordered]] [[vertices]], $\Gamma \in \mathcal{G}_\nu$ (def. \ref{Graphs}):
 
 $$
   \label{FeynmanAmplitudeExpansionOfTimeOrderedProductAwayFromDiagonal}
   \begin{aligned}
-    & T_v(V_1, \cdots ,V_v)
+    & T_\nu(O_1, \cdots , O_\nu)
     \\
     & =
-    \underset{\Gamma \in \mathcal{G}_v}{\sum}
-     \Gamma\left((V_i)_{i = 1}^v\right)
+    \underset{\Gamma \in \mathcal{G}_\nu}{\sum}
+     \Gamma\left(O_i)_{i = 1}^\nu\right)
     \\
     & \coloneqq
-    \underset{ \Gamma \in \mathcal{G}_v }{\sum}
+    \underset{ \Gamma \in \mathcal{G}_\nu }{\sum}
     prod
     \circ
-    \underset{ r \lt s \in \{1, \cdots, v\} }{\prod}
+    \underset{ r \lt s \in \{1, \cdots, \nu\} }{\prod}
     \frac{\hbar^{e_{r,s}}}{e_{r,s}!}
     \left\langle
       (\Delta_{F})^{e_{r,s}}
@@ -4122,14 +4140,14 @@ $$
       \frac{\delta^{e_{r,s}}}{\delta \mathbf{\Phi}_s^{e_{r,s}}}
     \right\rangle
     \left(
-      V_1 \otimes \cdots \otimes V_{v}
+      O_1 \otimes \cdots \otimes O_{\nu}
     \right)
     \\
     & \coloneqq
-    \underset{ \Gamma \in \mathcal{G}_v  }{\sum}
+    \underset{ \Gamma \in \mathcal{G}_\nu  }{\sum}
     ((-) \cdot \cdots \cdot (-))
     \circ
-    \underset{ r \lt s \in \{1, \cdots, v\} }{\prod}
+    \underset{ r \lt s \in \{1, \cdots,\nu\} }{\prod}
     \frac{\hbar^{e_{r,s}}}{e_{r,s}!}
     \\
     &
@@ -4143,56 +4161,56 @@ $$
      \\
      & \phantom{AAAAAA}
     \left(
-      V_1
+      O_1
         \otimes
         \cdots
         \otimes
-      V_{r-1}
+      O_{r-1}
         \otimes
        \frac{
-         \delta^{e_{r,s}} V_r
+         \delta^{e_{r,s}} O_r
        }{
          \delta \mathbf{\Phi}^{a_1}(x_1)
          \cdots
          \delta \mathbf{\Phi}^{a_{e_{r,s}}}(x_{e_{r,s}})
        }
         \otimes
-      V_{r+1}
+      O_{r+1}
         \otimes
         \cdots
         \otimes
-      V_{s-1}
+      O_{s-1}
         \otimes
       \frac{
-          \delta^{e_{r,s}} V_s
+          \delta^{e_{r,s}} O_s
        }{
          \delta \mathbf{\Phi}^{b_1}(y_1)
          \cdots
          \delta \mathbf{\Phi}^{b_{e_{r,s}}}(y_{e_{r,s}})
        }
         \otimes
-       V_{s+1}
+       O_{s+1}
         \otimes
         \cdots
         \otimes
-      V_v
+      O_\nu
     \right)
     \,,
   \end{aligned}
 $$
 
-where $e_{r,s} \coloneqq e_{r,s}(\Gamma)$ is, for short, the number of [[edges]] between vertex $r$ and vertex $s$ in the 
+where $e_{r,s} \coloneqq e_{r,s}(\Gamma)$ is, for short, the number of [[edges]] between vertex $r$ and vertex $s$ in the
 [[finite multigraph]] $\Gamma$ of the outer sum, according to def. \ref{Graphs}.
 
 Here the summands of the expansion (eq:FeynmanAmplitudeExpansionOfTimeOrderedProductAwayFromDiagonal)
 
 $$
   \label{FeynmanAmplitude}
-  \Gamma\left( (V_i)_{i = 1}^v\right)
+  \Gamma\left( (O_i)_{i = 1}^\nu\right)
   \;\coloneqq\;
     prod
     \circ
-    \underset{ r \lt s \in \{1, \cdots, v\} }{\prod}
+    \underset{ r \lt s \in \{1, \cdots,\nu\} }{\prod}
     \frac{\hbar^{e_{r,s}}}{e_{r,s}!}
     \left\langle
       (\Delta_{F})^{e_{r,s}}
@@ -4201,7 +4219,7 @@ $$
       \frac{\delta^{e_{r,s}}}{\delta \mathbf{\Phi}_s^{e_{r,s}}}
     \right\rangle
     \left(
-      V_1 \otimes \cdots \otimes V_{v}
+      O_1 \otimes \cdots \otimes O_{\nu}
     \right)
   \;\in\;
   PolyObs(E_{\text{BV-BRT}})((\hbar))[ [g,j ] ]
@@ -4217,8 +4235,7 @@ $$
   \mathbb{C}((\hbar))[ [ h, j] ]
 $$
 
-are called the _[[Feynman amplitudes]]_ for scattering processes in the given [[free field]] [[vacuum]] of shape $\Gamma$  with [[interaction]] [[vertices]] $V_i$.
-Their expression as [[products of distributions]] via algebraic expression on the right hand side of (eq:FeynmanAmplitude) is also called the _[[Feynman rules]]_.
+are called the _[[Feynman amplitudes]]_ for scattering processes in the given [[free field]] [[vacuum]] of shape $\Gamma$  with [[interaction]] [[vertices]] $O_i$. Their expression as [[products of distributions]] via algebraic expression on the right hand side of (eq:FeynmanAmplitude) is also called the _[[Feynman rules]]_.
 
 =--
 
@@ -4233,10 +4250,10 @@ So assume that it is true for $v \geq 1$ vertices. It follows that
 
 $$
   \begin{aligned}
-    & T(V_1, \cdots, V_v, V_{v+1})
+    & T(O_1, \cdots, O_\nu, O_{\nu+1})
     \\
     & =
-    T( T(V_1, \cdots ,V_v),  V_{v+1} )
+    T( T(O_1, \cdots ,O_\nu),  O_{\nu+1} )
     \\
     &=
     prod
@@ -4254,8 +4271,8 @@ $$
       prod
         \circ
       \!\!\!\!
-      \underset{\Gamma \in \mathcal{G}_v }{\sum}
-      \underset{ { r \lt s } \atop { \in \{1, \cdots, v\} }  }{\prod}
+      \underset{\Gamma \in \mathcal{G}_\nu }{\sum}
+      \underset{ { r \lt s } \atop { \in \{1, \cdots, \nu\} }  }{\prod}
       \frac{1}{e_{r,s}!}
       \left\langle
           (\hbar \Delta_F)^{e_{r,s}}
@@ -4263,19 +4280,19 @@ $$
           \frac{\delta^{e_{r,s}}}{\delta \mathbf{\Phi}_r^{e_{r,s}}}
           \frac{\delta^{e_{r,s}}}{ \delta \mathbf{\Phi}_s^{e_{r,s}} }
       \right\rangle
-      (V_1 \otimes \cdots \otimes V_v)
+      (O_1 \otimes \cdots \otimes O_\nu)
     \right)
       \,\otimes\,
-    V_{v+1}
+    O_{\nu+1}
     \right)
     \\
     & =
     prod
       \circ
-    \underset{\Gamma \in \mathcal{G}_v }{\sum}
+    \underset{\Gamma \in \mathcal{G}_\nu }{\sum}
     \\
     & \phantom{=}
-      \underset{ {  r \lt s } \atop {  \in \{1,\cdots, v\}}  }{\prod}
+      \underset{ {  r \lt s } \atop {  \in \{1,\cdots, \nu\}}  }{\prod}
       \frac{1}{e_{r,s}!}
     \left\langle
         (\hbar \Delta_F)^{e_{r,s}}
@@ -4286,42 +4303,42 @@ $$
     \\
     & \phantom{=}
     \underset{
-       { e_{v+1} =}
+       { e_{\nu+1} =}
        \atop
-       { e_{1,{v+1}} + \cdots + e_{v,v+1} }
+       { e_{1,{\nu+1}} + \cdots + e_{\nu,\nu + 1} }
     }{\sum}
       \underset{
-        = (e_{1,v+1}) \cdots (e_{v,v+1}))
+        = (e_{1,\nu + 1}) \cdots (e_{\nu,\nu+1}))
       }{
       \underbrace{
       \frac{
         \left(
-          { e_{v+1} }
+          { e_{\nu + 1} }
           \atop
-          { (e_{1,v+1}), \cdots, (e_{v,v+1}) }
+          { (e_{1, \nu + 1}), \cdots, (e_{\nu , \nu+1}) }
         \right)
       }{
-        ( e_{v+1} ) !
+        ( e_{\nu+1} ) !
       }
       }
       }
     \left\langle
-      (\hbar \Delta_F)^{e_{v+1}}
+      (\hbar \Delta_F)^{e_{\nu+1}}
     \left(
-      \frac{\delta^{e_{1,v+1}} V_1 }{\delta \mathbf{\Phi}^{e_{1,v+1}}}
+      \frac{\delta^{e_{1,\nu+1}} O_1 }{\delta \mathbf{\Phi}^{e_{1,\nu+1}}}
         \otimes
         \cdots
         \otimes
       \frac{
-        \delta^{e_{v,v+1}} V_v
+        \delta^{e_{\nu,\nu+1}} O_\nu
       }{
-        \delta \mathbf{\Phi}^{e_{v,v+1}}
+        \delta \mathbf{\Phi}^{e_{\nu,\nu+1}}
       }
     \;\otimes\;
     \frac{
-      \delta^{ e_{v+1} } V_{v+1}
+      \delta^{ e_{\nu + 1} } O_{\nu+1}
     }{
-      \delta \mathbf{\Phi}^{e_{1,v+1} + \cdots + e_{v,v+1}}
+      \delta \mathbf{\Phi}^{e_{1,\nu+1} + \cdots + e_{\nu,\nu+1}}
     }
     \right\rangle
     \right)
@@ -4329,8 +4346,8 @@ $$
     &=
     prod
       \circ
-    \underset{\Gamma \in \mathcal{G}_{v+1} }{\sum}
-    \underset{ { r \lt s } \atop { \in \{1, \cdots, v+1\} } }{\prod}
+    \underset{\Gamma \in \mathcal{G}_{\nu+1} }{\sum}
+    \underset{ { r \lt s } \atop { \in \{1, \cdots, \nu+1\} } }{\prod}
     \tfrac{1}{e_{r,s}!}
     \left\langle
         (\hbar \Delta_F)^{e_{r,s}}
@@ -4338,64 +4355,241 @@ $$
         \frac{\delta^{e_{r,s}}}{\delta \mathbf{\Phi}_r^{e_{r,s}}}
         \frac{\delta^{e_{r,s}}}{\delta \mathbf{\Phi}_s^{e_{r,s}}}
     \right\rangle
-    (V_1 \otimes \cdots \otimes V_{v+1})
+    (O_1 \otimes \cdots \otimes O_{\nu+1})
   \end{aligned}
 $$
 
-The combinatorial factor over the brace is the [[multinomial coefficient]] expressing the number of ways of distributing $e_{v+1}$-many functional derivatives to $v$ factors, via the [[product rule]], and quotiented by the [[factorial]] that comes from the [[exponential]] in the definition of the [[star product]].
+The combinatorial factor over the brace is the [[multinomial coefficient]] expressing the number of ways of distributing $e_{\nu+1}$-many functional derivatives to $v$ factors, via the [[product rule]], and quotiented by the [[factorial]] that comes from the [[exponential]] in the definition of the [[star product]].
 
 Here in the first step we used the [[associativity]] (eq:RestrictedTimeOrderedProductAssociative) of the restricted time-ordered product, in the second step we used the induction assumption,
 in the third we passed the outer functional derivatives through the pointwise product using the [[product rule]], and in the fourth step we recognized that this amounts to summing
-in addition over all possible choices of sets of edges from the first $v$ vertices to the new $v+1$st vertex,
-which yield in total the sum over all diagrams with $v+1$ vertices.
+in addition over all possible choices of sets of edges from the first $v$ vertices to the new $\nu+1$st vertex,
+which yield in total the sum over all diagrams with $\nu+1$ vertices.
 
 =--
 
 
-If the [[free field theory]] decomposes as a [[direct sum]] of free field theories, we obtain a more
-fine-grained form of [[Feynman amplitudes]]:
+If the [[free field theory]] is decomposed as a [[direct sum]] of free field theories, we obtain a more
+fine-grained concept of [[Feynman amplitudes]]:
+
++-- {: .num_prop #VerticesAndFieldSpecies}
+###### Definition
+**(field species and interaction vertices)**
+
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}, and let $g S_{int} + j A \;\in\; LocObs(E_{\text{BV-BRST}})[ [ \hbar , g , j] ]\langle g,j \rangle$
+be a [[local observable]] regarded as an [[adiabatic switching|adiabatically switched]] [[interaction]] [[action functional]].
+
+Then 
+
+1. a choice of _field species_ is a choice of decomposition of the  [[BV-BRST formalism|BV-BRST]] [[field bundle]] $E_{\text{BV-BRST}}$ 
+as a [[fiber product]] over [[finite set]] $Spec = \{sp_1, sp_2, \cdots, sp_n\}$ of ([[graded manifold|graded]] [[supermanifold|super-]]) [[field bundles]]
+
+   $$
+     E_{\text{BV-BRST}}
+     \;\simeq\;
+     E_{sp_1} \times_{\Sigma} \cdots \times_\Sigma E_{sp_n}
+     \,,
+   $$
+
+   such that the [[gauge fixing|gauge fixed]] [[free field|free]] [[Lagrangian density]] $\mathbf{L}'$ is the [[sum]]
+
+   $$
+     \mathbf{L}' \;=\; \mathbf{L}'_{sp_1} + \cdots + \mathbf{L}'_{sp_n}
+   $$
+
+   of [[free field theory|free]] [[Lagrangian densities]]
+
+   $$
+     \mathbf{L}'_{sp_i} \in \Omega^{p+1,0}_\Sigma(E_i)
+   $$
+
+  on these separate field bundles.
+
+1. a choice of _interaction vertices and external vertices_ is a choice of sum decomposition
+
+   $$
+     g S_{int} + j A
+     \;=\;
+     \underset{i \in Ext}{\sum} g S_{int,i}
+     +
+     \underset{j \in Int}{\Sum} j A_j
+   $$
+
+   parameterized by [[finite sets]] $Int$, $Ext$, to be called the sets of _internal vertex labels_ and _external vertex labels_,
+respectively.
+
+=--
+
++-- {: .num_example}
+###### Example
+**(field species in [[quantum electrodynamics]])**
+
+The [[field bundle]] for [[Lorentz gauge|Lorenz]] [[gauge fixing|gauge fixed]] [[quantum electrodnamics]] 
+on [[Minkowski spacetime]] $\Sigma$ admits a decomposition into field species according to def. \ref{VerticesAndFieldSpecies} as
+
+$$
+  E_{\text{BV-BRST}}
+  \;\simeq\;
+   \underset{
+     {\text{electromagnetic}}
+     \atop
+     {\text{field}}
+    }{
+    \underbrace{
+    T^\ast\Sigma
+    }}
+      \times_\Sigma
+    \underset{
+      \text{Dirac}
+      \atop
+      \text{field}
+    }{
+    \underbrace{
+    (S \times \Sigma)
+    }}
+      \times_\Sigma
+    \underset{
+      \text{ghost}
+      \atop
+      \text{field}
+    }{
+    \underbrace{
+    (\mathbb{R}[1] \times \Sigma)
+    }}
+      \times_\Sigma
+    \underset{
+      \text{NL auxiliary}
+      \atop
+      \text{field}
+    }{
+    \underbrace{
+    (\mathbb{R} \times \Sigma)
+    }}
+      \times_\Sigma
+    \underset{
+      \text{antighost}
+      \atop
+      \text{field}
+    }{
+    \underbrace{
+    (\mathbb{R}[-1] \times \Sigma)
+    }}
+$$
+
+(by [this example](A+first+idea+of+quantum+field+theory#LagrangianQED) and [this example](A+first+idea+of+quantum+field+theory#NLGaugeFixingOfElectromagnetism)).
+
+=--
+
++-- {: .num_remark #FeynmanPropagatorFieldSpecies}
+###### Remark
+**(Feynman propagator for separate field species)**
+
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}.
+
+Then a choice of field species as in def. \ref{VerticesAndFieldSpecies}
+induces a corresponding decomposition of the [[Feynman propagator]] of the gauge fixed free field theory
+
+$$
+  \Delta_F
+  \;\in\;
+  \Gamma'_{\Sigma \times \Sigma}( E_{\text{BV-BRST}} \boxtimes E_{\text{BV-BRST}} )
+$$
+
+as the sum of Feynman propagators for each of the chosen field species:
+
+$$
+  \Delta_F
+  \;=\;
+  \Delta_{F,1} + \cdots + \Delta_{F,n}
+  \;\in\;
+  \underoverset{i = 1}{n}{\oplus}
+  \Gamma'_{\Sigma \times \Sigma}( E_{sp_i} \boxtimes E_{sp_i} )
+    \;\subset\;
+  \Gamma'_{\Sigma \times \Sigma}( E_{\text{BV-BRST}} \boxtimes E_{\text{BV-BRST}} )
+$$
+
+hence in components, with $(\phi^A$ the collective field coordinates on $E_{\text{BV-BRST}}$,
+this decomposition is of the form
+
+$$
+  \left(
+    \Delta_F^{A, B}
+  \right)
+  \;=\;
+  \left(
+    \array{
+      (\Delta_{F,1}^{a b}) & 0 & 0 &  \cdots & 0
+      \\
+      0 & (\Delta_{F,2}^{\alpha \beta}) & 0 & \cdots & 0
+      \\
+      \vdots & & & & \vdots
+      \\
+      0 & \cdots & \cdots & 0 & (\Delta_{F,n}^{i j})
+    }
+  \right)
+$$
+
+=--
 
 +-- {: .num_defn #FeynmanDiagram}
 ###### Definition
 **([[Feynman diagrams]])**
 
-Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}, such that the [[BV-BRST formalism|BV-BRST]] [[field bundle]] is exhibited as a [[fiber product]] of
-a [[finite set]] $Sp = \{sp_1, sp_2, \cdots, sp_n\}$ of ([[graded manifold|graded]] [[supermanifold|super-]]) [[field bundles]]
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}, and let $g S_{int} + j A \;\in\; LocObs(E_{\text{BV-BRST}})[ [ \hbar , g , j] ]\langle g,j \rangle$
+be a [[local observable]] regarded as an [[adiabatic switching|adiabatically switched]] [[interaction]] [[action functional]].
+
+Let moreover
 
 $$
   E_{\text{BV-BRST}}
-  \;\coloneqq\;
-  E_{sp_1} \times_{\Sigma} \cdots \times_\Sigma E_{sp_n}
+  \;\simeq\;
+  \underset{sp \in Spec}{\times} E_{sp}
+  \,,
 $$
 
-of $n$ different [[types]]/species of [[fields (physics)|fields]], such that the [[gauge fixing|gauge fixed]] [[free field|free]] [[Lagrangian density]] $\mathbf{L}'$ is the [[sum]]
+be a choice of field species, according to def \ref{VerticesAndFieldSpecies},
 
 $$
-  \mathbf{L}' \;=\; \mathbf{L}'_{sp_1} + \cdots + \mathbf{L}'_{sp_n}
+  g S_{int} + j A
+  \;=\;
+  \underset{i \in Ext}{\sum} g S_{int,i}
+  +
+  \underset{j \in Int}{\Sum} j A_j
 $$
 
-of [[free field theory|free]] [[Lagrangian densities]]
+a choice of internal and external interaction vertices according to def. \ref{VerticesAndFieldSpecies}.
 
-$$
-  \mathbf{L}'_{sp_i} \in \Omega^{p+1,0}_\Sigma(E_i)
-$$
+With these choices, we say that a _[[Feynman diagram]]_ $(\Gamma, vertlab, edgelab)$ is
 
-on these separate field bundles.
+1. a [[finite multigraph]] with [[linear order|linearly ordered]] vertices (def. \ref{Graphs})
 
-In this situation we say that a _[[Feynman diagram]]_ $(\Gamma,L)$ is an _$Sp$-labeled finite multigraph with linearly ordered vertices_, hence:
+   $$
+     \Gamma \in \mathcal{G}
+     \,,
+   $$
 
-1. a [[finite multigraph]] $\Gamma \in \mathcal{G}$ (def. \ref{Graphs});
+1. a [[function]] from its [[vertices]]
 
-1. a function $V \to \{1, \cdots, v\}$ from the [[vertices]] to the vertex labels;
+   $$
+     vertlab \;\colon\; V_{\Gamma} \longrightarrow Int \sqcup Ext
+   $$
+   
+   to the [[disjoint union]] of the chosen sets of internal and external vertex labels;
 
-1. a [[function]] $L \;\colon\; E_{\Gamma} \to Sp$ from the [[edges]] of $\Gamma$ to the above set of field species.
+1. a [[function]] from its [[edges]]
+
+   $$
+     edgelab \;\colon\; E_{\Gamma} \to Spec
+   $$ 
+   
+   to the chosen set of field species.
 
 We write
 
 $$
   \array{
-    \mathcal{G}^{Sp}
-      &\overset{\text{forget} \atop \text{edge labels}}{\longrightarrow}&
+    \mathcal{G}^{Feyn}
+      &\overset{\text{forget} \atop \text{labels}}{\longrightarrow}&
     \mathcal{G}
     \\
     (\Gamma,L) &\mapsto& \Gamma
@@ -4412,95 +4606,92 @@ isomorphisms of plain [[finite multigraphs]] with [[linear order|linearly ordere
 ###### Proposition
 **([[Feynman amplitudes]] for [[Feynman diagrams]])**
 
-Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}, such that the [[BV-BRST formalism|BV-BRST]] [[field bundle]] is exhibited as a [[fiber product]] of
-a [[finite set]] $Sp = \{sp_1, sp_2, \cdots, sp_n\}$ of ([[graded manifold|graded]] [[supermanifold|super-]]) [[field bundles]]
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}, and let $g S_{int} + j A \;\in\; LocObs(E_{\text{BV-BRST}})[ [ \hbar , g , j] ]\langle g,j \rangle$
+be a [[local observable]] regarded as an [[adiabatic switching|adiabatically switched]] [[interaction]] [[action functional]].
+
+Let moreover
 
 $$
   E_{\text{BV-BRST}}
-  \;\coloneqq\;
-  E_{sp_1} \times_{\Sigma} \cdots \times_\Sigma E_{sp_n}
+  \;\simeq\;
+  \underset{sp \in Spec}{\times} E_{sp}
+  \,,
 $$
 
-of $n$ different [[types]]/species of [[fields (physics)|physics]], such that the conditions in def. \ref{FeynmanDiagram}
-are satisfied.
-
-It follows that the [[Feynman propagator]] of the gauge fixed free field theory
+be a choice of field species, according to def \ref{VerticesAndFieldSpecies}, hence inducing, by remark \ref{FeynmanPropagatorFieldSpecies},
+a sum decomposition of the [[Feynman propagator]]
 
 $$
-  \Delta_F
-  \;\in\;
-  \Gamma'_{\Sigma \times \Sigma}( E_{\text{BV-BRST}} \boxtimes E_{\text{BV-BRST}} )
-$$
-
-decomposes as a [[direct sum]] of Feynman propagators for each of these field species:
-
-$$
+  \label{FeynmanPropagatorSumOverFieldSpecies}
   \Delta_F
   \;=\;
-  \Delta_{F,1} \oplus \cdots \oplus \Delta_{F,n}
-  \;\in\;
-  \underoverset{i = 1}{n}{\oplus}
-  \Gamma'_{\Sigma \times \Sigma}( E_{sp_i} \boxtimes E_{sp_i} )
-    \;\subset\;
-  \Gamma'_{\Sigma \times \Sigma}( E_{\text{BV-BRST}} \boxtimes E_{\text{BV-BRST}} )
+  \underset{sp \in Spec}{\sum}\Delta_{F,sp} 
+  \,,
 $$
 
-hence in components, with $(\phi^A$ the collective field coordinates on $E_{\text{BV-BRST}}$, 
-this decomposition is of the form
+and let 
 
 $$
-  \left(
-    \Delta_F^{A, B}
-  \right)
+  \label{VertexDecompositionFeynmanAmplitude}
+  g S_{int} + j A
   \;=\;
-  \left(
-    \array{
-      (\Delta_{F,1}^{a b}) & 0 & 0 &  \cdots & 0 
-      \\
-      0 & (\Delta_{F,2}^{\alpha \beta}) & 0 & \cdots & 0
-      \\
-      \vdots & & & & \vdots
-      \\
-      0 & \cdots & \cdots & 0 & (\Delta_{F,n}^{i j})
-    }
-  \right)
+  \underset{i \in Ext}{\sum} g S_{int,i}
+  +
+  \underset{j \in Int}{\Sum} j A_j
 $$
 
-In this case also the [[Feynman amplitudes]] $\Gamma\left( (g S_{int,i} + j A_i))_{i \in V_{\Gamma}} \right)$ (def. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints})
-for [[finite multigraphs]] $\Gamma \in \mathcal{G}_v$ (def. \ref{Graphs})
-further decompose as sums
+be a choice of internal and external interaction vertices according to def. \ref{VerticesAndFieldSpecies}.
+
+Then by "multiplying out" the products of the sums (eq:FeynmanPropagatorSumOverFieldSpecies) and (eq:VertexDecompositionFeynmanAmplitude) in the 
+formula (eq:FeynmanAmplitude) for the [[Feynman amplitude]] $\Gamma\left( (g S_{int} + j A))_{i = 1}^\nu \right)$ (def. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints}) this decomposes as a sum of the form
 
 $$
   \Gamma\left(
-    (g S_{int, i} + j A_i)_{i = 1}^{v}
+    (g S_{int} + j A)_{i = 1}^\nu
   \right)
   \;=\;
-  \underset{ E_\Gamma \overset{L}{\to}  Sp }{\sum}
-    \Gamma\left(
-      (L_e)_{e \in E_{\Gamma}}, (V_v)_{v \in V_\Gamma}
+  \underset{ 
+    { V_\Gamma \overset{vertlab}{\longrightarrow} Int \sqcup Ext}
+    \atop
+    { E_\Gamma \overset{edgelab}{\longrightarrow}  Spec }
+  }{\sum}
+    \left(
+      \Gamma,
+      edgelab, vertlab
     \right)
+    (g S_{int} + j A)
 $$
 
-over all ways of labeling the [[edges]] $e$ of $\Gamma$ by field species $L_e \in Sp$,
-where
+over all ways of labeling the [[vertices]] $v$ of $\Gamma$ by the internal or external vertex labels,
+and  the [[edges]] $e$ of $\Gamma$ by field species. The corresponding summands
 
 $$
-   \Gamma\left(
-     (L_e)_{e \in E_{\Gamma}}, (g S_{int, i} + j A_i)_{i \in V_\Gamma}
+   \left(
+     \Gamma,
+     edgelab, 
+     vertlab
    \right)
+   (g S_{int} + j A)
    \;\in\;
    PolyObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]
 $$
 
-is the contribution in the [[Feynman rules]]-formula (eq:FeynmanAmplitude) for the given interaction vertices $(g S_{int, i} + j A_i)$ whose factor in the [[product of distributions]] associated with the [[edge]] $e \in E_\Gamma$ is the [[Feynman propagator]] $\Delta_{F,L_e}$.
+or rather its [[vacuum expectation value]]
 
-This is the _[[Feynman amplitude]] associated with the [[Feynman diagram]] $(\Gamma,L)$_ (def. \ref{FeynmanDiagram})
+$$
+  \left\langle
+   \left(
+     \Gamma,
+     (edgelab_e)_{e \in E_{\Gamma}}, (vertlab_v)_{v \in V_\Gamma}
+   \right)
+   (g S_{int} + j A)
+  \right\rangle
+  \;\in\;
+  \mathbb{C}[ [ \hbar, g, j ] ]
+$$
 
-If here the $i$th vertex is labeled just by
-
-* an [[interaction]], in that $A_i = 0$, then it is called an _internal vertex_;
-
-* a [[source field]], in that $S_{int,i} = 0$, then it is called an _external vertex_.
+is called the _[[Feynman amplitude]] associated with the [[Feynman diagram]] 
+$\left(\Gamma,(edgelab_e)_{e \in E_{\Gamma}}, (vertlab_v)_{v \in V_\Gamma}\right)$_ (def. \ref{FeynmanDiagram}).
 
 =--
 
@@ -4517,10 +4708,10 @@ Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field the
 $$
   g S_{int} + j A
   \;\in\;
-  LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, h ] ]
+  LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, h ] ]\langle g , j\rangle
 $$
 
-be a [[local observable]].
+be a [[local observable]], regarded as a [[adiabatic switching|adiabatically switched]] [[interaction]] [[action functional]].
 
 By prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints} every choice of perturbative [[S-matrix]] (def. \ref{LagrangianFieldTheoryPerturbativeScattering})
 
@@ -4536,30 +4727,21 @@ $$
   \mathcal{S}(g S_{int} + j A)
   \;=\;
   \underset{\Gamma \in \mathcal{G}}{\sum}
-  \Gamma_{norm}\left( (g S_{int} + j A)_{i = 1}^{v(\Gamma)}\right)
+  \Gamma\left( (g S_{int} + j A)_{i = 1}^{\nu(\Gamma)}\right)
   \,,
 $$
 
-where the series is over all [[finite multigraphs]] $\Gamma$ (def. \ref{Graphs}), and the summands are the corresponding [[renormalization|("re"-)normalized]] (def. \ref{ExtensionOfTimeOrderedProoductsRenormalization}) [[Feynman amplitudes]] (prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints}).
+where the series is over all [[finite multigraphs]] with [[linear order|linearly ordered]] [[vertices]] $\Gamma$ (def. \ref{Graphs}), and the summands are the corresponding [[renormalization|("re"-)normalized]] (def. \ref{ExtensionOfTimeOrderedProoductsRenormalization}) [[Feynman amplitudes]] (prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints}).
 
-If moreover the [[BV-BRST formalism|BV-BRST]] [[field bundle]] $E_{\text{BV-BRST}}$ of the [[free field]] [[vacuum]] is exhibited as a [[fiber product]] of
-a [[finite set]] $Sp = \{sp_1, sp_2, \cdots, sp_n\}$ ([[graded manifold|graded]] [[supermanifold|super-]]) [[field bundles]]
-
-$$
-  E_{\text{BV-BRST}}
-  \;\coloneqq\;
-  E_{sp_1} \times_{Sigma} \cdots \times_\Sigma E_{sp_n}
-$$
-
-of $n$ different [[types]]/species of [[fields (physics)|physics]] such that the conditions in def. \ref{FeynmanDiagram}
-are satisfied, then this series refines to a sum over all [[Feynman diagrams]] $(\Gamma,L)$ (def. \ref{FeynmanDiagram})
-of [[Feynman amplitudes]] for [[Feynman diagrams]] (def. \ref{FeynmanDiagramAmplitude}):
+If moreover a choice of field species and of internal and external interaction vertices is made, according to def. \ref{VerticesAndFieldSpecies},
+then this series expansion refines to an expansion over all [[Feynman diagrams]] $(\Gamma,edgelab, vertlab)$ (def. \ref{FeynmanDiagram})
+of [[Feynman amplitudes]] $(\Gamma, edgelab,vertlab)(g S_{int} + j A)$ (def. \ref{FeynmanDiagramAmplitude}):
 
 $$
   \mathcal{S}(g S_{int} + j A)
   \;=\;
-  \underset{(\Gamma,L) \in \mathcal{G}^{Sp}}{\sum}
-   \Gamma_{norm}\left( (L_e)_{e \in E_\Gamma}, (g S_{int} + j A )_{i \in V_\Gamma}\right)
+  \underset{(\Gamma,edgelab, vertlab) \in \mathcal{G}^{Feyn}}{\sum}
+    (\Gamma, edgelab,vertlab)(g S_{int} + j A)
   \,,
 $$
 
@@ -4683,15 +4865,15 @@ be [[disjoint union]] of graphs (def. \ref{ConnectedGraphs}). then then correspo
 multiply by the pointwise product ([this def.](A+first+idea+of+quantum+field+theory#Observable)):
 
 $$
-  \Gamma\left( g S_{int} + j A)_{i = 1}^{v(\Gamma)} \right)
+  \Gamma\left( g S_{int} + j A)_{i = 1}^{\nu(\Gamma)} \right)
   \;=\;
-  \Gamma_1\left( (g S_{int} + j A)_{i = 1}^{v(\Gamma_1)}\right)
+  \Gamma_1\left( (g S_{int} + j A)_{i = 1}^{\nu(\Gamma_1)}\right)
    \cdot
-  \Gamma_2\left( (g S_{int} + j A)_{i = 1}^{v(\Gamma_2)} \right)
+  \Gamma_2\left( (g S_{int} + j A)_{i = 1}^{\nu(\Gamma_2)} \right)
     \cdot
     \cdots
     \cdot
-  \Gamma_n\left( (g S_{int} + j A)_{i = 1}^{v(\Gamma_n)} \right)
+  \Gamma_n\left( (g S_{int} + j A)_{i = 1}^{\nu(\Gamma_n)} \right)
   \,.
 $$
 
@@ -4739,7 +4921,7 @@ $$
   \;\coloneqq\;
   i \hbar
   \underset{\Gamma \in \mathcal{G}_{conn}}{\sum}
-  \Gamma\left( (g S_{int} + j A)_{i = 1}^{v(\Gamma)} \right)
+  \Gamma\left( (g S_{int} + j A)_{i = 1}^{\nu(\Gamma)} \right)
   \;\in\;
   PolyObs(E_{\text{BV-BRST}})((\hbar))[ [ g, j ] ]
 $$
