@@ -56,7 +56,7 @@ The need for and proper nature of such an interpretation may be subtle and is th
 
 In ([Bohr 49](#Bohr49)) it is argued that
 
->  _however far the phenomena transcend the scope of classical physical explanation, the account of all evidence must be expressed in classical terms_ . The argument is simply that by the word 'experiment' we refer to a situation where we can tell others what we have done and what we have learned and that, therefore, the account of the experimental arrangement and the results of the observations must be expressed in unambiguous language with suitable application of the terminology of classical physics.
+> _however far the phenomena transcend the scope of classical physical explanation, the account of all evidence must be expressed in classical terms_ . The argument is simply that by the word 'experiment' we refer to a situation where we can tell others what we have done and what we have learned and that, therefore, the account of the experimental arrangement and the results of the observations must be expressed in unambiguous language with suitable application of the terminology of classical physics.
 
 A proposal for a formalization of this point of view is the concept of the _[[Bohr topos]]_ associated with the [[kinematics]] of a [[quantum mechanical system]]. For more arguments for this see also at _[[order-theoretic structure in quantum mechanics]]_.
 
@@ -92,6 +92,10 @@ and continues:
 
 * [[quantum logic]]
 
+* [[probability amplitude]]
+
+* [[quantum probability]]
+
 * [[philosophy of physics]]
 
 * [[quantum measurement]], [[decoherence]], [[consistent histories approach to quantum mechanics]] 
@@ -117,8 +121,8 @@ it is argued that quantum mechanics cannot be a complete description of fundamen
 
 the contrary is argued. In
 
-* [[Nils Bohr]]  _Discussion with Einstein on Epistemological Problems in Atomic Physics_ in P. A. Schilpp (ed.) _Albert Einstein, Philosopher-Scientist_ (Evanston: Library of Living Philosophers) pp. 201&#8211;241. (1949)
- {#Bohr49}
+* {#Bohr49} [[Nils Bohr]]  _Discussion with Einstein on Epistemological Problems in Atomic Physics_ in P. A. Schilpp (ed.) _Albert Einstein, Philosopher-Scientist_ (Evanston: Library of Living Philosophers) pp. 201&#8211;241. (1949)
+ 
 
 is the famous assertion by Bohr that all experiments in quantum mechanics must be possible to describe in "classical terms".
 
@@ -137,8 +141,8 @@ The book
 
 has a focus on the [[Bub-Clifton theorem]]. This book is reviewed in 
 
-* [[Asher Peres]], [arXiv:quant-ph/9711003](http://arxiv.org/abs/quant-ph/9711003)
- {#Peres97}
+* {#Peres97} [[Asher Peres]], [arXiv:quant-ph/9711003](http://arxiv.org/abs/quant-ph/9711003)
+ 
 
 See also
 
@@ -151,13 +155,13 @@ The approach to [[wave function collapse]] via macroscopic decoherence is review
 
 Discussion specifically with an eye towards the [[quantum measurement]] problem is also in 
 
-* [[David Wallace]], _The Quantum Measurement Problem: State of Play_ ([arXiv:0712.0149](http://arxiv.org/abs/0712.0149))
- {#Wallace07}
+* {#Wallace07} [[David Wallace]], _The Quantum Measurement Problem: State of Play_ ([arXiv:0712.0149](http://arxiv.org/abs/0712.0149))
+ 
 
 One quote above is taken from the first paragraphs of
  
-* Stanford Encyclopedia of Philosophy, _[Quantum mechanics](http://plato.stanford.edu/entries/qm/)_
- {#SEP}
+* {#SEP} Stanford Encyclopedia of Philosophy, _[Quantum mechanics](http://plato.stanford.edu/entries/qm/)_
+ 
 
 
 [[!redirects interpretation of quantum mechanics]]
