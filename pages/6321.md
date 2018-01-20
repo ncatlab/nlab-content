@@ -19,7 +19,7 @@
 
 ## Idea
 
-_Quantum electrodynamics_ ("QED") is the [[perturbative quantum field theory]] of [[electromagnetic field]] coupled to a [[Dirac field]] via the [[electron-photon interaction]]: it describes the [[quantum theory]] of [[photons]] and [[electrons]].
+_Quantum electrodynamics_ ("QED") is the [[perturbative quantum field theory]] of the [[electromagnetic field]] coupled to a [[Dirac field]] via the [[electron-photon interaction]]: it describes the [[quantum theory]] of [[photons]] and [[electrons]].
 
 ## Definition
 
@@ -33,7 +33,13 @@ The [[Lagrangian density]] defining QED is the [[sum]] of
 
 See at _[[A first idea of quantum field theory]]_ [this example](A+first+idea+of+quantum+field+theory#LagrangianQED).
 
-(...)
+The underlying [[free field theory]] admits a [[quantization]] via the corresponding [[Wick algebra]]. QED is, by definition, the [[perturbative quantum field theory]] obtained from this by finding a perturbative [[S-matrix]] for the [[electron-photon interaction]]. 
+
+As a result, [[scattering amplitudes]] for [[electron-photon interactions]] in QED are then expressed in terms of [[Feynman amplitudes]]:
+
+[[!include Feynman diagrams in causal perturbation theory -- summary]]
+
+
 
 ## Related concepts
 
