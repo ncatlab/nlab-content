@@ -86,6 +86,8 @@ A review of flux compactifications is for instance in ([Gra&#241;a 05](#Grana05)
 
   * [[vacuum energy]]
 
+  * [[vacuum diagram]]
+
   * [[vacuum stability]]
 
   * [[false vacuum]], [[tachyon]], [[Coleman-De Luccia instanton]]
