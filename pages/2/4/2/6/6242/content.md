@@ -118,6 +118,7 @@ See at _[[Bohr topos]]_ for more.
 
 ## Related concepts
 
+* [[quantum probability]]
 
 * [[interpretation of quantum mechanics]]
 
@@ -144,8 +145,6 @@ See at _[[Bohr topos]]_ for more.
 * [[collapse of the wave function]]
 
 * [[qbit]]
-
-* [[quantum probability]]
 
 * [[quantum circuit]]
 
