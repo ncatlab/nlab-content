@@ -34,6 +34,8 @@ The local decay process of a [[false vacuum]] in the presence of [[gravity]] ([[
 
   * [[vacuum energy]]
 
+  * [[vacuum diagram]]
+
   * [[vacuum stability]]
 
   * [[false vacuum]], [[tachyon]], [[Coleman-De Luccia instanton]]
