@@ -334,8 +334,16 @@ In the case when $A = C^\infty(M)$ this map is onto but typically not one-to-one
 $d e^t = e^t d t$ in the ordinary 1-forms $\Omega^1(A)$
 but not in the K&#228;hler differentials $\Omega^1_K(A)$.  However, one can show that when $M$ is a free $A$-module, any derivation $X: A \to M$ not only factors through $\Omega^1_K(A)$ (as guaranteed by the universal property of
 K&#228;hler differentials), but also $\Omega^1(A)$.
+More generally this is true for torsionless $M$, i.e. $A$-modules that inject into their double duals, since $\Omega^1(A)$ is torsionless. So $\Omega^1_K(A)$ is the universal differential module for all modules, while $\Omega^1(A)$ is the universal differential module for torsionless $A$-modules.
 
 +-- {: .query}
+[[Martin Gisser]] Couldn't resist the above uncredentialed drive-by edit...
+Is it torsionlessness
+that ultimately discerns differential geometry from algebraic geometry?
+(Need to fill in more dots between torsionless modules and "geometric modules"
+in the sense of Jet Nestruev.)
+
+------------------
 [[Eric]]: Does this universal property mean that there is some diagram in some category for which the K&#228;hler differentials can be thought of as a (co)limit?
 
 [[John Baez]]: Yeah, take the category all $A$ modules $M$ equipped with a derivation $X : A \to M$, and take the diagram which consists of every object in this category and every morphism, and take the colimit of that, and you'll get $\Omega^1_K(A)$.  
