@@ -2969,7 +2969,8 @@ Here we used the expression (eq:StandardHadamardDistributionOnMinkowskiSpacetime
 ###### Definition
 **([[Feynman propagator]] for [[Dirac operator]] on [[Minkowski spacetime]])**
 
-The _[[Feynman propagator]]_ for the [[Dirac operator]] on [[Minkowski spacetime]] is the linear combination
+The _[[Feynman propagator]]_ for the [[Dirac operator]] on [[Minkowski spacetime]] 
+(also called the _[[electron propagator]]_) is the linear combination
 
 $$
   \Delta_{D, F}
