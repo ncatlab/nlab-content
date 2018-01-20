@@ -24,7 +24,7 @@ In [[quantum electrodynamics]] the electron [[interaction|interacts]] with the [
 
 ## Related concepts
 
-* [[Dirac field]]
+* [[Dirac field]], [[electron propagator]]
 
 * [[hydrogen atom]]
 
