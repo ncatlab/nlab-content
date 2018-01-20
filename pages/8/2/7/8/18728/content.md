@@ -1,9 +1,11 @@
 
 +-- {: .num_example}
 ###### Example
-**([[Feynman diagrams]] in [[causal perturbation theory]])**
+**([[Feynman amplitudes]] in [[causal perturbation theory]] -- example of [[QED]])**
 
-In [[perturbative quantum field theory]], **[[Feynman diagrams]]** are labeled [[graphs]] that encode [[product of distributions|products of]] [[Feynman propagators]], called [[Feynman amplitudes]] ([this prop.](S-matrix#FeynmanPerturbationSeriesAwayFromCoincidingPoints)).  These are the summands in the _[[Feynman perturbation series]]_ expansion of the _[[scattering matrix]]_ 
+In [[perturbative quantum field theory]], **[[Feynman diagrams]]** are labeled [[multigraphs]] that encode [[product of distributions|products of]] [[Feynman propagators]], called _[[Feynman amplitudes]]_ ([this prop.](S-matrix#FeynmanPerturbationSeriesAwayFromCoincidingPoints)) which in turn contribute to [[probability amplitudes]] for physical scattering processes:  
+
+The [[Feynman amplitudes]] are the summands in the [[Feynman perturbation series]]-expansion of the _[[scattering matrix]]_ 
 
 $$
   \mathcal{S}
@@ -17,8 +19,9 @@ $$
   T( \underset{k \, \text{factors}}{\underbrace{S_{int}, \cdots , S_{int}}} )
 $$
 
-of a given [[interaction]] [[Lagrangian density]] $L_{int}$.
-They arise from expanding out the _[[time-ordered products]]_ $T(\cdots)$ of the [[interaction]] with itself, which, away from coincident vertices, is given by the [[star product]] of the [[Feynman propagator]] $\Delta_F$, via the [[exponential]] contraction
+of a given [[interaction]] [[Lagrangian density]] $L_{int}$. 
+
+The Feynman amplitudes are the summands in an expansion of the _[[time-ordered products]]_ $T(\cdots)$ of the [[interaction]] with itself, which, away from coincident vertices, is given by the [[star product]] of the [[Feynman propagator]] $\Delta_F$ ([this prop.](S-matrix#TimeOrderedProductAwayFromDiagonal)), via the [[exponential]] contraction
 
 $$
   T(S_{int}, S_{int}) 
@@ -35,21 +38,35 @@ $$
    \,.
 $$
 
-Each [[edge]] in the [[Feynman diagram]]/[[graph]] corresponds to a factor of a [[Feynman propagator]]  in $T( \underset{k \, \text{factors}}{\underbrace{S_{int} \cdots S_{int}}} )$, being a [[distribution of two variables]]; and each [[vertex]] corresponds to a factor of the [[interaction]] [[Lagrangian density]] at $x_i$. 
+Each [[edge]] in a [[Feynman diagram]] corresponds to a factor of a [[Feynman propagator]]  in $T( \underset{k \, \text{factors}}{\underbrace{S_{int} \cdots S_{int}}} )$, being a [[distribution of two variables]]; and each [[vertex]] corresponds to a factor of the [[interaction]] [[Lagrangian density]] at $x_i$. 
 
-For example [[quantum electrodynamics]] in [[Lorenz gauge]] has
+For example [[quantum electrodynamics]] in [[Gaussian-averaged Lorenz gauge]] involves (via [this example](S-matrix#FieldSpeciesQED)):
 
-1. the [[Dirac field]] modelling the [[electron]], with [[Feynman propagator]] here to be denoted $\Delta$ ([this def.](Feynman+propagator#FeynmanPropagatorForDiracOperatorOnMinkowskiSpacetime));
+1. the [[Dirac field]] modelling the [[electron]], with [[Feynman propagator]] called the _[[electron propagator]]_ ([this def.](Feynman+propagator#FeynmanPropagatorForDiracOperatorOnMinkowskiSpacetime)), here to be denoted
 
-1. the [[electromagnetic field]] modelling the [[photon]], with [[Feynman propagator]] called the _[[photon propagator]]_, here to be denoted $G$ ([this prop.](A+first+idea+of+quantum+field+theory#PhotonPropagatorInGaussianAveragedLorenzGauge));
+   $$
+     \Delta \phantom{AAAA} \text{electron propagator}
+   $$
+
+1. the [[electromagnetic field]] modelling the [[photon]], with [[Feynman propagator]] called the _[[photon propagator]]_ ([this prop.](A+first+idea+of+quantum+field+theory#PhotonPropagatorInGaussianAveragedLorenzGauge)), here to be denoted
+
+   $$
+     G \phantom{AAAA} \text{photon propagator}
+   $$
  
 1. the [[electron-photon interaction]]
 
    $$
      L_{int} 
-     \;=\; 
-     g i 
-     (\gamma^\mu)^\alpha{}_\beta
+     \;=\;
+     \underset{
+       \text{interaction}
+     }{
+     \underbrace{ 
+       i g
+       (\gamma^\mu)^\alpha{}_\beta
+     }
+     }
      \,
      \underset{
        { \text{incoming} \atop \text{electron}  }
@@ -83,8 +100,22 @@ The [[Feynman diagram]] for the [[electron-photon interaction]] alone is
 where the solid lines correspond to the [[electron]], and the wiggly line to the [[photon]]. The corresponding [[product of distributions]] is (written in [[generalized function]]-notation)
 
 $$
-  \hbar^{3/2-1}
-  i g (\gamma^\mu)^\alpha{}_\beta 
+  \underset{
+    \text{loop order}
+  }{
+  \underbrace{
+    \hbar^{3/2-1}
+  }
+  }
+  \underset{
+    \text{electron-photon}
+    \atop
+    \text{interaction}
+  }{
+  \underbrace{
+    i g (\gamma^\mu)^\alpha{}_\beta 
+  }
+  }
   \,.
   \,
   \underset{
@@ -126,10 +157,10 @@ Hence a typical Feynman diagram in the [[QED]] [[Feynman perturbation series]] i
 <img src="https://ncatlab.org/nlab/files/FeynmanDiagramGlobal.jpg" width="560"/>
 </center>
 
-where on the bottom the corresponding [[product of distributions]] is shown;
+where on the bottom the corresponding [[Feynman amplitude]] [[product of distributions]] is shown;
 now notationally suppressing the contraction of the internal indices and all prefactors.
 
-For instance the two solid [[edges]] between the [[vertices]] $x_2$ and $x_3$ corresponds to the two factors of $\Delta(x_2,x_2)$:
+For instance the two solid [[edges]] between the [[vertices]] $x_2$ and $x_3$ correspond to the two factors of $\Delta(x_2,x_2)$:
 
 <center>
 <img src="https://ncatlab.org/nlab/files/FeynmanDiagramComponent1.jpg" width="560"/>
