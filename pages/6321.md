@@ -40,14 +40,17 @@ As a result, [[scattering amplitudes]] for [[electron-photon interactions]] in Q
 [[!include Feynman diagrams in causal perturbation theory -- summary]]
 
 
+## Properties
+
+* [[Lamb shift]]
+
+* [[Casimir effect]]
 
 ## Related concepts
 
 * [[fine structure constant]]
 
 * [[photon propagator]]
-
-* [[Lamb shift]]
 
 * [[quantum field theory]]
 
