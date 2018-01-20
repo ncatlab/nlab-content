@@ -288,6 +288,8 @@ $\,$
 
 ## Related concepts
 
+* [[vacuum diagram]]
+
 * [[perturbative quantum field theory]]
 
 * [[S-matrix]], [[perturbation series]] 
