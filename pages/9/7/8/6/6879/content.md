@@ -32,6 +32,8 @@ In the corresponding [[quantum field theory]], however, a state that is initiall
 
   * [[vacuum energy]]
 
+  * [[vacuum diagram]]
+
   * [[vacuum stability]]
 
   * [[false vacuum]], [[tachyon]], [[Coleman-De Luccia instanton]]
