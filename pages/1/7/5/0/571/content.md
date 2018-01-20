@@ -87,7 +87,7 @@ We list the following properties without their (easy) proof. The proofs can be f
 +-- {: .num_prop}
 ###### Proposition
 
-If $f \colon x \to y$ and $g \colon y \to z$ are monomorphisms, so is their composite $g f$.  If $g f$ is an monomorphism, so is $g$.
+If $f \colon x \to y$ and $g \colon y \to z$ are monomorphisms, so is their composite $g f$.  If $g f$ is an monomorphism, so is $f$.
 
 =--
 
