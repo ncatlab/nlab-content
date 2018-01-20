@@ -27,7 +27,9 @@ For details see at _[[A first idea of quantum field theory]]_ [this prop.](A+fir
 
 [[!include Feynman diagrams in causal perturbation theory -- summary]]
 
+## Related concepts
 
+* [[electron propagator]]
 
 
 ## References
