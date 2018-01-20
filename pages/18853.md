@@ -41,6 +41,10 @@ The main contribution (often referred to as _the_ vertex correction) is due to t
 Historically, the observation of the Lamb shift in [[experiment]] catalyzed the theoretic development of [[quantum electrodynamics]] specifically and of [[perturbative quantum field theory]] generally.
 
 
+## Related concepts
+
+* [[Casimir effect]]
+
 
 ## References:
 
