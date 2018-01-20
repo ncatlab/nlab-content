@@ -204,6 +204,7 @@ $$
 is under control. Hence the question now is how to find $\vert \psi(-)\rangle_I$ given its value at some time $t$. (It is conventional to consider this for $t \to \pm \infty$, see (eq:SMatrixInQuantumMechanics) below.)
 
 Now it is clear from the construction and using the [[product law]] for [[differentiation]], that $\vert \psi(-)\rangle_S$ satisfies the following [[differential equation]] ("[[Schrödinger equation]] in [[interaction picture]]"):
+<!-- How does the product rule for differentiation apply here? -->
 
 \[
   \label{DifferentialEquationInInteractionPicture}
