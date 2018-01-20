@@ -290,7 +290,7 @@ $$
 on [[regular polynomial observables]] ([this def.](A+first+idea+of+quantum+field+theory#BVDifferentialGlobal)) is conjugated into the [[time-ordered product]] via the time ordering operator
 $\mathcal{T} \circ \{-S',-\} \circ \mathcal{T}^{-}$ ([this prop.](BV-operator#GaugeFixedActionFunctionalTimeOrderedAntibracket)).
 
-In the same way we may use the [[quantum Møller operators]] to conjugat the BV-differential into the regular part of the [[interacting field algebra of observables]]:
+In the same way we may use the [[quantum Møller operators]] to conjugate the BV-differential into the regular part of the [[interacting field algebra of observables]]:
 
 +-- {: .num_defn #BVDifferentialInteractingQuantum}
 ###### Definition
