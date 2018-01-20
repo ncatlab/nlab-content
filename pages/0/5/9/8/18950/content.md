@@ -201,6 +201,8 @@ For **proof** see at _[[S-matrix]]_, [this prop.](S-matrix#ScatteringAmplitudeFr
 
 * [[interacting vacuum]]
 
+* [[vacuum diagram]]
+
 * [[vacuum stability]]
 
 * [[false vacuum]], [[tachyon]], [[Coleman-De Luccia instanton]]
