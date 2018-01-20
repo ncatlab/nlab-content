@@ -45,6 +45,8 @@ In [[quantum physics]], $\mathcal{A}$ is an [[algebra of observables]] (or a [[l
 
 ## Related concepts
 
+* [[probability amplitude]]
+
 * [[quantum logic]]
 
 * [[interpretation of quantum mechanics]]
