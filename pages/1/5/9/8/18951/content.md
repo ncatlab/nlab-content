@@ -5,6 +5,8 @@
 
 * [[vacuum stability]]
 
+* [[Casimir effect]]
+
 category: people
 
 [[!redirects Hrvoje Nikolic]]
