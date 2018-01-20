@@ -49,6 +49,8 @@ The collection of all string vacua, possibly subject to some assumptions, has co
 
   * [[vacuum energy]]
 
+  * [[vacuum diagram]]
+
   * [[vacuum stability]]
 
   * [[false vacuum]], [[tachyon]], [[Coleman-De Luccia instanton]]
