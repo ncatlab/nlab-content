@@ -211,10 +211,11 @@ For the purposes of constructing or defining the Wick algebra, the conditions on
 
 #### Inductive construction
 
+> under construction
 
 +-- {: .num_prop #RenormalizationIsInductivelyExtensionToDiagonal}
 ###### Proposition
-**([[renormalization|("re"-)normalization]] is [[induction|inductive]] [[extension of distributions]] to the [[diagonal]])**
+**([[renormalization|("re"-)normalization]] is [[induction|inductive]] [[extension of distributions|extension]] of [[time-ordered products]] to [[diagonal]])**
 
 
 Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}.
@@ -239,7 +240,7 @@ of the [[image]] of the [[diagonal]] inclusion $\Sigma \overset{diag}{\longright
 
 =--
 
-This statement appears in ([Popineau-Stora 82](#PopineauStora82)), with (unpublished) details in ([Stora 93](#Stora93)), following personal communicatin by [[Henri Epstein]] (according to [Dütsch 18, footnote 57](#Duetsch18)). Following this, statement and detailed proof appeared in ([Brunetti-Fredenhagen 99](#BrunettiFredenhagen99)).
+This statement appears in ([Popineau-Stora 82](#PopineauStora82)), with (unpublished) details in ([Stora 93](#Stora93)), following personal communication by [[Henri Epstein]] (according to [Dütsch 18, footnote 57](#Duetsch18)). Following this, statement and detailed proof appeared in ([Brunetti-Fredenhagen 99](#BrunettiFredenhagen99)).
 
 
 +-- {: .proof}
@@ -403,8 +404,6 @@ $$
 $$
 
 is well defined and satisfies causal factorization.
-
-
 
 
 =--
