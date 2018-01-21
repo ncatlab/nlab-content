@@ -3844,7 +3844,19 @@ Here the sub-sum in brackets vanishes by the inversion formula, prop. \ref{Inver
 #### ("Re"-)Normalization
  {#ExistenceAndRenormalization}
 
-We discuss now that [[time-ordered products]] as in def. \ref{TimeOrderedProduct}, hence, by prop. \ref{TimeOrderedProductInducesPerturbativeSMatrix}, perturbatibe [[S-matrix]] schemes (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) exist in fact uniquely away from coinciding interaction points (prop. \ref{TimeOrderedProductAwayFromDiagonal} below). This means that the construction of full [[time-ordered products]]/[[S-matrix]] schemes may be phrased as an [[extension of distributions]] of unique time ordered products away from coinciding interaction points to these coinciding interaction points. This [[extension of distributions]] is called [[renormalization|("re"-)normalization]] (def. \ref{ExtensionOfTimeOrderedProoductsRenormalization} below).
+We discuss now that [[time-ordered products]] as in def. \ref{TimeOrderedProduct}, hence, by prop. \ref{TimeOrderedProductInducesPerturbativeSMatrix}, perturbatibe [[S-matrix]] schemes (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) exist in fact uniquely away from coinciding interaction points (prop. \ref{TimeOrderedProductAwayFromDiagonal} below). 
+
+This means that the construction of full [[time-ordered products]]/[[S-matrix]] schemes may be phrased as an [[extension of distributions]] of time-ordered products to the [[diagonal]] locus of coinciding spacetime arguments (prop. \ref{RenormalizationIsInductivelyExtensionToDiagonal} below).
+This choice in their definition is called the choice of _[[renormalization|("re"-)normalization]]_ of the [[time-ordered products]] (remark \ref{CausalPerturbationTheoryAbsenceOfUVDivergences}), and hence of the [[interacting field theory|interacting]] [[pQFT]] that these define (def. \ref{ExtensionOfTimeOrderedProoductsRenormalization} below).
+
+The space of these choices may be accurately characterized, it is a [[torsor]] over a [[group]] of re-definitions of the
+[[interaction]]-terms, called the "[[Stückelberg-Petermann renormalization group]]". This is called the 
+_[[main theorem of perturbative renormalization]]_, theorem \ref{PerturbativeRenormalizationMainTheorem} below.
+
+Here we discuss just enough of the ingredients needed to _state_ this theorem. For proof of theorem and 
+discussion of the various methods of picking [[renormalization|("re"-)normalizations]] see [[renormalization|there]].
+
+$\,$
 
 +-- {: .num_defn #TuplesOfCompactlySupportedPolynomialLocalFunctionalsWithPairwiseDisjointSupport}
 ###### Definition
@@ -3881,7 +3893,7 @@ $$
 
 +-- {: .num_prop #TimeOrderedProductAwayFromDiagonal}
 ###### Proposition
-**([[time-ordered product]] away from coinciding interaction points)**
+**([[time-ordered product]] unique away from coinciding spacetime arguments)**
 
 Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}, and let $T = \{T_k\}_{k \in \mathbb{N}}$ be a sequence of [[time-ordered products]] (def. \ref{TimeOrderedProduct})
 
@@ -4049,6 +4061,191 @@ Finally the [[associativity]]-statement follows as in [this prop.](star+product#
 
 =--
 
+Before using the unqueness of the [[time-ordered products]] away from coinciding spacetime arguments (prop. \ref{TimeOrderedProductAwayFromDiagonal}) to characterize the freedom in [[renormalization|("re"-)normalizing]] [[time-ordered products]], we pause to observe that in the same vein the [[time-ordered products]] have a unique extension of their domain also to [[regular polynomial observables]]. This is in itself a trivial statement (since all [[star products]] are defined on [[regular polynomial observables]], [this def.](star+product#PropagatorStarProduct)) but for understanding the behaviour under [[renormalization|("re"-)normalization]] of other structures, such as the interacting [[BV-differential]] (def. \ref{BVDifferentialInteractingQuantum} below) it is useful to understand renormalization as a process that starts extending awa from [[regular polynomial observables]].
+
+
+
+
+By prop. \ref{NotationForTimeOrderedProductsAsGeneralizedFunctions} on [[regular polynomial observables]] the
+[[S-matrix]] is given as follows:
+
++-- {: .num_defn #OnRegularObservablesPerturbativeSMatrix}
+###### Definition
+**([[perturbative S-matrix]] on [[regular polynomial observables]])**
+
+
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}.
+
+The _[[time-ordered product]] on [[regular polynomial observables]]_
+is the [[star product]] $\star_F$ induced by the [[Feynman propagator]] [this. def.](Wick algebra#OnRegularPolynomialObservablesTimeOrderedProduct))
+
+The _[[perturbative S-matrix]]_ on [[regular polynomial observables]]
+is the [[exponential]] with respect to $\star_F$:
+
+$$
+  \mathcal{S}
+  \;\colon\;
+  PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
+    \longrightarrow
+  PolyObs(E_{\text{BV-BRST}})_{reg}((\hbar))
+$$
+
+given by
+
+$$
+  \mathcal{S}(S_{int})
+  =
+  \exp_{\star_F}
+  \left(
+    \tfrac{1}{i \hbar} S_{int})
+  \right)
+  \coloneqq
+  1
+    +
+  \tfrac{1}{\i \hbar} S_{int}
+    +
+  \tfrac{1}{2}
+  \tfrac{1}{(i \hbar)^2}
+  S_{int} \star_F S_{int}
+  +
+  \cdots
+  \,.
+$$
+
+We think of $S_{int}$ here as an [[adiabatic switching|adiabatically switched]] non-point-[[interaction]] [[action functional]].
+
+We write $\mathcal{S}(S_{int})^{-1}$ for the [[inverse]] with respect to the [[Wick algebra|Wick product]] (which exists by [this remark](S-matrix#PerturbativeSMatrixInverse))
+
+$$
+  \mathcal{S}(S_{int})^{-1} \star_H \mathcal{S}(S_{int})
+  =
+  1
+  \,.
+$$
+
+Notice that this is in general different form the inverse with respect to the [[time-ordered product]] $\star_F$, which is $\mathcal{S}(-S_{int})$:
+
+$$
+  \mathcal{S}(-S_{int})
+    \star_F
+  \mathcal{S}(S_{int})
+  =
+  1
+  \,.
+$$
+
+=--
+
+Similarly, by def. \ref{QuntumMollerOperator}, on [[regular polynomial observables]] the [[quantum Møller operator]] is given as follows:
+
++-- {: .num_defn #MollerOperatorOnRegularPolynomialObservables}
+###### Definition
+**([[quantum Møller operator]] on [[regular polynomial observables]])**
+
+Given an [[adiabatic switching|adiabatically switched]] non-point-[[interaction]] [[action functional]] in the form of a [[regular polynomial observable]] of degree 0
+
+$$
+  S_{int}
+  \;\in\;
+  PolyObs(E_{\text{BV-BRST}})_{{reg} \atop {deg = 0}}[ [\hbar] ]
+$$
+
+then the corresponding _[[quantum Møller operator]]_ on [[regular polynomial observables]]
+
+$$
+  \mathcal{R}^{-1}
+  \;\colon\;
+  PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
+    \longrightarrow
+  PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
+$$
+
+is given by the [[derivative]] of [[Bogoliubov's formula]]
+
+$$
+  \mathcal{R}^{-1}
+    \;\coloneqq\;
+  \mathcal{S}(S_{int})^{-1}
+    \star_H
+  (\mathcal{S}(S_{int}) \star_F (-))
+  \,,
+$$
+
+where $\mathcal{S}(S_{int}) = \exp_{\mathcal{T}}\left( \tfrac{-1}{i \hbar} S_{int} \right)$ is the [[perturbative S-matrix]] from  def. \ref{OnRegularObservablesPerturbativeSMatrix}.
+
+This indeed lands in [[formal power series]] in [[Planck's constant]] $\hbar$ (by [this remark](Bogoliubov's+formula#PowersInPlancksConstant)),  instead of in more general [[Laurent series]] as the [[perturbative S-matrix]] does (def. \ref{OnRegularObservablesPerturbativeSMatrix}).
+
+Hence the inverse map is
+
+$$
+  \mathcal{R}
+   \;=\;
+  \mathcal{S}(-S_{int}) \star_F ( \mathcal{S}(S_{int}) \star(-) )
+  \,.
+$$
+
+=--
+
+([Bogoliubov-Shirkov 59](Bogoliubov's+formula#BogoliubovShirkov59); the above terminology follows [Hawkins-Rejzner 16, below def. 5.1](Møller+operator#HawkinsRejzner16))
+
+(Beware that compared to Fredenhagen, Rejzner et. al. we change notation conventions $\mathcal{R} \leftrightarrow \mathcal{R}^{-1}$ in order to bring out the analogy to (the conventions for the) [[time-ordered product]]  $A_1 \star_F A_2 = \mathcal{T}(\mathcal{T}^{-1}(A_1) \cdot \mathcal{T}^{-1}(A_2))$ on regular polynomial observables.)
+
+Still by def. \ref{QuntumMollerOperator}, on [[regular polynomial observables]] the [[interacting field algebra of observables]] is given as follows:
+
+
++-- {: .num_defn #FieldAlgebraObservablesInteracting}
+###### Definition
+**([[interacting field algebra]])**
+
+Given an [[adiabatic switching|adiabatically switched]] non-point-[[interaction]] [[action functional]] in the form of a [[regular polynomial observable]] in degree 0
+
+$$
+  S_{int}
+  \;\in\;
+  PolyObs(E_{\text{BV-BRST}})_{{reg} \atop {deg = 0}}[ [\hbar] ]
+  \,,
+$$
+
+then the _[[interacting field algebra]]_ [[structure]] on [[regular polynomial observables]]
+
+$$
+  PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
+    \otimes
+  PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
+    \overset{ \star_{int} }{\longrightarrow}
+  PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
+$$
+
+is the [[conjugation]] of the [[Wick algebra]]-[[structure]] by the [[quantum Møller operator]] (def. \ref{MollerOperatorOnRegularPolynomialObservables}):
+
+$$
+  A_1 \star_{int} A_2
+  \;\coloneqq\;
+  \mathcal{R}
+  \left(
+    \mathcal{R}^{-1}(A_1)
+     \star_H
+    \mathcal{R}^{-1}(A_2)
+  \right)
+$$
+
+=--
+
+(e.g. [Fredenhagen-Rejzner 11b, (19)](quantum+master+equation#FredenhagenRejzner11b))
+
+
+Notice the following dependencies of these defnitions, which we leave notationally implicit:
+
+| [[endomorphism]] of <br/> [[regular polynomial observables]] | meaning | depends on choice of |
+|--------|---------|----------------------|
+| $\phantom{AA}\mathcal{T}$ | [[time-ordered product|time-ordering]] | [[free field theory|free]] [[Lagrangian density]] and [[Wightman propagator]] |
+| $\phantom{AA}\mathcal{S}$ | [[S-matrix]] | [[free field theory|free]] [[Lagrangian density]] and [[Wightman propagator]] |
+| $\phantom{AA}\mathcal{R}$ | [[quantum Møller operator]] | [[free field theory|free]] [[Lagrangian density]] and [[Wightman propagator]] and [[interaction]] |
+
+
+$\,$
+
+After having discussed the uniqueness of the [[time-ordered products]] away from coinciding spacetime arguments (prop. \ref{TimeOrderedProductAwayFromDiagonal}) we now phrase and then discuss the freedom in defining thse products at coinciding arguments, that [[renormalization|("re"-)normalizing]] them.
 
 +-- {: .num_defn #ExtensionOfTimeOrderedProoductsRenormalization}
 ###### Definition
@@ -4074,6 +4271,205 @@ This [[induction|inductive]] choice of [[extension of distributions]] of the [[t
 
 In ([Epstein-Glaser 73](#EpsteinGlaser73)) this is phrased in terms of splitting of distributions. In ([Brunetti-Fredenhagen 00, sections 4 and 7](perturbative+algebraic+quantum+field+theory#BrunettiFredenhagen00)) the perspective via [[extension of distributions]] is introduced, following ([Stora 93](perturbative+algebraic+quantum+field+theory#Stora93)). Review is in ([Dütsch 18, section 3.3.2](perturbative+algebraic+quantum+field+theory#Duetsch18)).
 
+Proposition \ref{TimeOrderedProductAwayFromDiagonal} already shows that the freedom in choosing the [[renormalization|("re"-)normalization]] of [[time-ordered products]] is at most that of [[extensions of distributions|extending]] them to the "fat diagonal", where at least one pair of interaction points coincides. The following proposition \ref{RenormalizationIsInductivelyExtensionToDiagonal} says that when making these choices [[induction|inductively]] in the arity of the [[time-ordered products]] as in def. \ref{ExtensionOfTimeOrderedProoductsRenormalization} then the available choice of [[renormalization|("re"-normalization)]] at each stage is in fact only that of extension to the actual [[diagonal]], where _all_ interaction points coincide:
+
+
++-- {: .num_prop #RenormalizationIsInductivelyExtensionToDiagonal}
+###### Proposition
+**([[renormalization|("re"-)normalization]] is [[induction|inductive]] [[extension of distributions|extension]] of [[time-ordered products]] to [[diagonal]])**
+
+
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}.
+
+Assume that for $n \in \mathbb{N}$, [[time-ordered products]]
+$\{T_{k}\}_{k \leq n}$ of arity $k \leq n$ have been constructed
+in the sense of def. \ref{TimeOrderedProduct}.
+Then the time-ordered product $T_{n+1}$ of arity $n+1$ is uniquely fixed on the [[complement]]
+
+$$
+  \Sigma^{n+1} \setminus diag(n)
+  \;=\;
+  \left\{
+     (x_i \in \Sigma)_{i = 1}^n
+     \;\vert\;
+     \underset{i,j}{\exists} (x_i \neq x_j)
+  \right\}
+$$
+
+of the [[image]] of the [[diagonal]] inclusion $\Sigma \overset{diag}{\longrightarrow} \Sigma^{n}$
+(where we regarded $T_{n+1}$ as a [[generalized function]] on $\Sigma^{n+1}$ according to remark \ref{NotationForTimeOrderedProductsAsGeneralizedFunctions}).
+
+=--
+
+spring
+
+This statement appears in ([Popineau-Stora 82](renormalization#PopineauStora82)), with (unpublished) details in ([Stora 93](renormalization#Stora93)), following personal communication by [[Henri Epstein]] (according to [Dütsch 18, footnote 57](#Duetsch18)). Following this, statement and detailed proof appeared in ([Brunetti-Fredenhagen 99](#BrunettiFredenhagen99)).
+
+
++-- {: .proof}
+###### Proof
+
+We will construct an [[open cover]] of $\Sigma^{n+1} \setminus \Sigma$ by subsets $\mathcal{C}_I \subset \Sigma^{n+1}$ which are [[disjoint unions]]
+of [[inhabited set|non-empty]] sets that are in [[causal order]], so that by [[causal factorization]] the
+time-ordered products $T_{n+1}$ on these subsets are uniquely given by $T_{k}(-) \star_H T_{n-k}(-)$.
+Then we show that these unique products on these special subsets do coincide on [[intersections]].
+This yields the claim by a [[partition of unity]].
+
+We now say this in detail:
+
+For $I \subset \{1, \cdots, n+1\}$  write $\overline{I} \coloneqq \{1, \cdots, n+1\} \setminus I$.
+For $I, \overline{I} \neq \emptyset$, define the subset
+
+$$
+  \mathcal{C}_I
+  \;\coloneqq\;
+  \left\{
+    (x_i)_{i \in \{1, \cdots, n+1\}} \in \Sigma^{n+1}
+    \;\vert\;
+    \{x_i\}_{i \in I} {\vee\!\!\!\wedge} \{x_j\}_{j \in \{1, \cdots, n+1\} \setminus I}
+  \right\}
+  \;\subset\;
+  \Sigma^{n+1}
+  \,.
+$$
+
+Since the [[causal order]]-relation involves the [[closed future cones]]/[[closed past cones]], respectively, it is clear that these are [[open subsets]]. Moreover it is immediate that they form an [[open cover]] of the [[complement]] of the [[diagonal]]:
+
+$$
+  \underset{ { I \subset \{1, \cdots, n+1\} \atop { I, \overline{I} \neq \emptyset } }   }{\cup}
+  \mathcal{C}_I
+  \;=\;
+  \Sigma^{n+1} \setminus diag(\Sigma)
+  \,.
+$$
+
+(Because any two distinct points in the [[globally hyperbolic spacetime]] $\Sigma$ may be causally separated by a [[Cauchy surface]],
+and any such may be deformed a little such as not to intersect any of a given finite set of points. )
+
+Hence the condition of [[causal factorization]] on $T_{n+1}$ implies that
+[[restriction of distributions|restricted]] to any $\mathcal{C}_{I}$ these have to be given (in the condensed [[generalized function]]-notation from remark \ref{NotationForTimeOrderedProductsAsGeneralizedFunctions} on
+any unordered tuple $\mathbf{X} = \{x_1, \cdots, x_{n+1}\} \in \mathcal{C}_I$ with corresponding induced tuples
+$\mathbf{I} \coloneqq \{x_i\}_{i \in I}$ and $\overline{\mathbf{I}} \coloneqq \{x_i\}_{i \in \overline{I}}$ by
+
+$$
+  \label{InductiveIdentificationOfTimeOrderedProductAwayFromDiagonal}
+  T_{n+1}( \mathbf{X} )
+  \;=\;
+  T(\mathbf{I}) T(\overline{\mathbf{I}})
+  \phantom{AA}
+  \text{for}
+  \phantom{A}
+  \mathcal{X} \in \mathcal{C}_I
+  \,.
+$$
+
+This shows that $T_{n+1}$ is unique on $\Sigma^{n+1} \setminus diag(\Sigma)$ if it exists at all,
+hence if these local identifications glue to a global definition of $T_{n+1}$. To see that this is the case,
+we have to consider any two such subsets
+
+$$
+  I_1, I_2
+  \subset
+  \{1, \cdots, n+1\}
+  \,,
+  \phantom{AA}
+  I_1, I_2, \overline{I_1}, \overline{I_2} \neq \emptyset
+  \,.
+$$
+
+By definition this implies that for
+
+$$
+  \mathbf{X} \in \mathcal{C}_{I_1} \cap \mathcal{C}_{I_2}
+$$
+
+a tuple of spacetime points which decomposes into causal order with respect to both these subsets,
+the corresponding mixed intersections of tuples  are spacelike separated:
+
+$$
+  \mathbf{I}_1 \cap \overline{\mathbf{I}_2}
+    \;
+    {\gt\!\!\!\!\lt}
+    \;
+  \overline{\mathbf{I}_1} \cap \mathbf{I}_2
+  \,.
+$$
+
+By the assumption that the $\{T_k\}_{k \neq n}$ satisfy causal factorization, this implies that the corresponding
+time-ordered products commute:
+
+$$
+  \label{TimeOrderedProductsOfMixedIntersectionsCommute}
+  T(\mathbf{I}_1 \cap \overline{\mathbf{I}_2})
+  \,
+  T(\overline{\mathbf{I}_1} \cap \mathbf{I}_2)
+  \;=\;
+  T(\overline{\mathbf{I}_1} \cap \mathbf{I}_2)
+  \,
+  T(\mathbf{I}_1 \cap \overline{\mathbf{I}_2})
+  \,.
+$$
+
+Using this we find that the identifications of $T_{n+1}$
+on $\mathcal{C}_{I_1}$ and on $\mathcal{C}_{I_2}$, accrding to (eq:InductiveIdentificationOfTimeOrderedProductAwayFromDiagonal),
+agree on the intersection: in that for $  \mathbf{X}  \in \mathcal{C}_{I_1} \cap \mathcal{C}_{I_2}$ we have
+
+$$
+  \begin{aligned}
+    T( \mathbf{I}_1 ) T( \overline{\mathbf{I}_1} )
+    & =
+    T( \mathbf{I}_1 \cap \mathbf{I}_2 )
+    T( \mathbf{I}_1 \cap \overline{\mathbf{I}_2} )
+    \,
+    T( \overline{\mathbf{I}_1} \cap \mathbf{I}_2 )
+    T( \overline{\mathbf{I}_1} \cap \overline{\mathbf{I}_2} )
+    \\
+    & =
+    T( \mathbf{I}_1 \cap \mathbf{I}_2 )
+    \underbrace{
+    T( \overline{\mathbf{I}_1} \cap \mathbf{I}_2 )
+    T( \mathbf{I}_1 \cap \overline{\mathbf{I}_2} )
+    }
+    T( \overline{\mathbf{I}_1} \cap \overline{\mathbf{I}_2} )
+    \\
+    & =
+    T( \mathbf{I}_2 )
+    T( \overline{\mathbf{I}_2} )
+  \end{aligned}
+$$
+
+Here in the first step we expanded out the two factors using (eq:InductiveIdentificationOfTimeOrderedProductAwayFromDiagonal) for $I_2$,
+then under the brace we used (eq:TimeOrderedProductsOfMixedIntersectionsCommute) and in the last step we used again
+(eq:InductiveIdentificationOfTimeOrderedProductAwayFromDiagonal), but now for $I_1$.
+
+To conclude, let
+
+$$
+  \left(
+    \chi_I
+    \in
+    C^\infty_{cp}(\Sigma^{n+1})
+  \right)_{ { I \subset \{1, \cdots, n+1\} } \atop { I, \overline{I} \neq \emptyset } }
+$$
+
+be a [[partition of unity]] subordinate to the [[open cover]] formed by the $\mathcal{C}_I$. Then the above implies that
+setting for any $\mathbf{X} \in \Sigma^{n+1} \setminus diag(\Sigma)$
+
+$$
+  T_{n+1}(\mathbf{X})
+  \;\coloneqq\;
+  \underset{
+    { I \in \{1, \cdots, n+1\} }
+    \atop
+    { I, \overline{I} \neq \emptyset }
+  }{\sum}
+  \chi_i(\mathbf{X}) T( \mathbf{I} ) T( \overline{\mathbf{I}} )
+$$
+
+is well defined and satisfies causal factorization.
+
+
+=--
 
 
 +-- {: .num_theorem #PerturbativeRenormalizationMainTheorem}
@@ -4082,9 +4478,9 @@ In ([Epstein-Glaser 73](#EpsteinGlaser73)) this is phrased in terms of splitting
 
 Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}.
 
-1. An [[S-matrix]] [[renormalization scheme]] (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) around this free vacuum exists, and its construction by choices of [[renormalization|("re"-)normalization]] according to def. \ref{ExtensionOfTimeOrderedProoductsRenormalization} involves precisely a [[finite-dimensional vector space]] of choices ("renormalization constants") at each order.
+1. An [[S-matrix]] [[renormalization scheme]] (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) around this free vacuum exists, and its construction by choices of [[renormalization|("re"-)normalization]] of [[time-ordered products]] $\{T_k\}_{k \in \mathbb{N}}$ according to def. \ref{ExtensionOfTimeOrderedProoductsRenormalization} involves precisely a [[finite-dimensional vector space]] of choices ("renormalization constants") at each order $k \in \mathbb{N}$.
 
-1. Every [[pair]] of choices of perturbative [[S-matrix]] [[renormalization schemes]] $\mathcal{S}$, $\widetilde{\mathcal{S}}$ (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) are related by a unique transformation of the space of [[local observables]] ("adding counterterms to interactions")
+1. Every [[pair]] of such choices of perturbative [[S-matrix]] [[renormalization schemes]] $\mathcal{S}$, $\widetilde{\mathcal{S}}$ (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) are related by a unique transformation of the space of [[local observables]] ("adding counterterms to interactions")
 
    $$
      Z
@@ -4103,7 +4499,9 @@ Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field the
 
 1. The [[group]] of transformations $Z$ arising this is the _[[Stückelberg-Petermann renormalization group]]_.
 
-> add assumption on Poincare invariance needed
+
+> needs assumption of translation invariance and field independence ([Dütsch 18, remark 3.102](#Duetsch18))
+
 
 =--
 
@@ -5516,7 +5914,7 @@ This is the way in which the [[Feynman perturbation series]] is used in practice
 
 $\,$
 
-#### Ward identities
+#### BV-Differential and Ward identities
  {#QuantumAnomalies}
 
 So far we have discussed, starting with a [[BV-BRST formalism|BV-BRST]] [[gauge fixing|gauge fixed]] [[free field]] [[vacuum]],
@@ -5527,11 +5925,11 @@ But this [[interacting field algebra of observables]] still involves all the [[a
 actual physical [[gauge invariance|gauge invariant]] [[on-shell]] observables should be (just) the [[cochain cohomology]] of the
 [[BV-BRST differential]] on this enlarged space of observables. Hence for the construction of [[perturbative QFT]] to conclude,
 it remains to pass the [[BV-BRST differential]] of the [[free field]] [[Wick algebra]] of observables to
-a [[differential]] on the [[interacting field algebra]].
+a [[differential]] on the [[interacting field algebra]], such that its [[cochain cohomoloy]] is well de-fined.
 
-Since the [[time-ordered products]] away from coinciding interaction points are uniquely fixed
+Since the [[time-ordered products]] away from coinciding interaction points and as well as on [[regular polynomial observables]] are uniquely fixed
 (prop. \ref{TimeOrderedProductAwayFromDiagonal}), one finds that also this _interacting quantum BV-differential_
-is uniquely fixed away from coinciding interaction points, by [[conjugation]] with the [[quantum Møller operators]] (def. \ref{BVDifferentialInteractingQuantum} below).
+is uniquely fixed, on [[regular polynomial observables]], by [[conjugation]] with the [[quantum Møller operators]] (def. \ref{BVDifferentialInteractingQuantum}).
 The formula that characterizes it there is called the _[[quantum master equation]]_ or _[[master Ward identity]]_ (prop. \ref{QuantumMasterEquation} below).
 
 
@@ -5541,182 +5939,6 @@ construction of the [[perturbative QFT]] fails due to the [[gauge symmetries]] n
 and one speaks of a _[[gauge anomaly]]_.
 
 $\,$
-
-
-We consider everything in the following [[regular polynomial observables]]. The extension to [[local observables]]
-is the [[renormalization|("re"-)normalization]] step.
-
-
-By prop. \ref{NotationForTimeOrderedProductsAsGeneralizedFunctions} on [[regular polynomial observables]] the
-[[S-matrix]] is given as follows:
-
-+-- {: .num_defn #OnRegularObservablesPerturbativeSMatrix}
-###### Definition
-**([[perturbative S-matrix]] on [[regular polynomial observables]])**
-
-The _[[perturbative S-matrix]]_ on [[regular polynomial observables]]
-is the [[exponential]] with respect to the [[time-ordered product]]
-
-$$
-  \mathcal{S}
-  \;\colon\;
-  PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
-    \longrightarrow
-  PolyObs(E_{\text{BV-BRST}})_{reg}((\hbar))
-$$
-
-given by
-
-$$
-  \mathcal{S}(S_{int})
-  =
-  \exp_{\star_F}
-  \left(
-    \tfrac{1}{i \hbar} S_{int})
-  \right)
-  \coloneqq
-  1
-    +
-  \tfrac{1}{\i \hbar} S_{int}
-    +
-  \tfrac{1}{2}
-  \tfrac{1}{(i \hbar)^2}
-  S_{int} \star_F S_{int}
-  +
-  \cdots
-  \,.
-$$
-
-We think of $S_{int}$ here as an [[adiabatic switching|adiabatically switched]] non-point-[[interaction]] [[action functional]].
-
-We write $\mathcal{S}(S_{int})^{-1}$ for the [[inverse]] with respect to the [[Wick algebra|Wick product]] (which exists by [this remark](S-matrix#PerturbativeSMatrixInverse))
-
-$$
-  \mathcal{S}(S_{int})^{-1} \star_H \mathcal{S}(S_{int})
-  =
-  1
-  \,.
-$$
-
-Notice that this is in general different form the inverse with respect to the [[time-ordered product]] $\star_F$, which is $\mathcal{S}(-S_{int})$:
-
-$$
-  \mathcal{S}(-S_{int})
-    \star_F
-  \mathcal{S}(S_{int})
-  =
-  1
-  \,.
-$$
-
-=--
-
-By def. \ref{QuntumMollerOperator}, on [[regular polynomial observables]] the [[quantum Møller operator]] is given as follows:
-
-+-- {: .num_defn #MollerOperatorOnRegularPolynomialObservables}
-###### Definition
-**([[quantum Møller operator]] on [[regular polynomial observables]])**
-
-Given an [[adiabatic switching|adiabatically switched]] non-point-[[interaction]] [[action functional]] in the form of a [[regular polynomial observable]] of degree 0
-
-$$
-  S_{int}
-  \;\in\;
-  PolyObs(E_{\text{BV-BRST}})_{{reg} \atop {deg = 0}}[ [\hbar] ]
-$$
-
-then the corresponding _[[quantum Møller operator]]_ on [[regular polynomial observables]]
-
-$$
-  \mathcal{R}^{-1}
-  \;\colon\;
-  PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
-    \longrightarrow
-  PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
-$$
-
-is given by the [[derivative]] of [[Bogoliubov's formula]]
-
-$$
-  \mathcal{R}^{-1}
-    \;\coloneqq\;
-  \mathcal{S}(S_{int})^{-1}
-    \star_H
-  (\mathcal{S}(S_{int}) \star_F (-))
-  \,,
-$$
-
-where $\mathcal{S}(S_{int}) = \exp_{\mathcal{T}}\left( \tfrac{-1}{i \hbar} S_{int} \right)$ is the [[perturbative S-matrix]] from  def. \ref{OnRegularObservablesPerturbativeSMatrix}.
-
-This indeed lands in [[formal power series]] in [[Planck's constant]] $\hbar$ (by [this remark](Bogoliubov's+formula#PowersInPlancksConstant)),  instead of in more general [[Laurent series]] as the [[perturbative S-matrix]] does (def. \ref{OnRegularObservablesPerturbativeSMatrix}).
-
-Hence the inverse map is
-
-$$
-  \mathcal{R}
-   \;=\;
-  \mathcal{S}(-S_{int}) \star_F ( \mathcal{S}(S_{int}) \star(-) )
-  \,.
-$$
-
-=--
-
-([Bogoliubov-Shirkov 59](Bogoliubov's+formula#BogoliubovShirkov59); the above terminology follows [Hawkins-Rejzner 16, below def. 5.1](Møller+operator#HawkinsRejzner16))
-
-Notice that compared to Fredenhagen, Rejzner et. al. we change notation conventions $\mathcal{R} \leftrightarrow \mathcal{R}^{-1}$ in order to bring out the analogy to (the conventions for the) [[time-ordered product]]  $A_1 \star_F A_2 = \mathcal{T}(\mathcal{T}^{-1}(A_1) \cdot \mathcal{T}^{-1}(A_2))$ on regular polynomial observables.
-
-Still by def. \ref{QuntumMollerOperator}, on [[regular polynomial observables]] the [[interacting field algebra of observables]] is given as follows:
-
-
-+-- {: .num_defn #FieldAlgebraObservablesInteracting}
-###### Definition
-**([[interacting field algebra]])**
-
-Given an [[adiabatic switching|adiabatically switched]] non-point-[[interaction]] [[action functional]] in the form of a [[regular polynomial observable]] in degree 0
-
-$$
-  S_{int}
-  \;\in\;
-  PolyObs(E_{\text{BV-BRST}})_{{reg} \atop {deg = 0}}[ [\hbar] ]
-  \,,
-$$
-
-then the _[[interacting field algebra]]_ [[structure]] on [[regular polynomial observables]]
-
-$$
-  PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
-    \otimes
-  PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
-    \overset{ \star_{int} }{\longrightarrow}
-  PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
-$$
-
-is the [[conjugation]] of the [[Wick algebra]]-[[structure]] by the [[quantum Møller operator]] (def. \ref{MollerOperatorOnRegularPolynomialObservables}):
-
-$$
-  A_1 \star_{int} A_2
-  \;\coloneqq\;
-  \mathcal{R}
-  \left(
-    \mathcal{R}^{-1}(A_1)
-     \star_H
-    \mathcal{R}^{-1}(A_2)
-  \right)
-$$
-
-=--
-
-(e.g. [Fredenhagen-Rejzner 11b, (19)](quantum+master+equation#FredenhagenRejzner11b))
-
-
-notice the implicit dependencies
-
-| [[endomorphism]] of <br/> [[regular polynomial observables]] | meaning | depends on choice of |
-|--------|---------|----------------------|
-| $\phantom{AA}\mathcal{T}$ | [[time-ordered product|time-ordering]] | [[free field theory|free]] [[Lagrangian density]] and [[Wightman propagator]] |
-| $\phantom{AA}\mathcal{S}$ | [[S-matrix]] | [[free field theory|free]] [[Lagrangian density]] and [[Wightman propagator]] |
-| $\phantom{AA}\mathcal{R}$ | [[quantum Møller operator]] | [[free field theory|free]] [[Lagrangian density]] and [[Wightman propagator]] and [[interaction]] |
-
 
 
 Recall how the global BV-differential
@@ -6584,6 +6806,7 @@ based on ideas due to ([Stückelberg 49](causal+perturbation+theory#Stueckelberg
 
 * {#BogoliubovShirkov59} [[Nikolay Bogoliubov]], [[Dmitry Shirkov]], _Introduction to the Theory of Quantized Fields_, New York (1959)
 
+
 Comparative discussion of the two perspectives on the S-matrix includes:
 
 * {#Chew70} [[Geoffrey Chew]], _Quark or Bootstrap: Triumph or Frustration for Hadron Physics_, Physics Today, May 1970 ([web](https://pubarchive.lbl.gov/islandora/object/ir%3A144169/datastream/PDF/view))
@@ -6593,7 +6816,7 @@ Comparative discussion of the two perspectives on the S-matrix includes:
 
 Brief introduction to the S-matrix in quantum mechanics and its rigorous construction in field theory via [[causal perturbation theory]] is in
 
-* {#Scharf95} [[Günter Scharf]], sections 0.3 and 3.1 of _[[Finite Quantum Electrodynamics -- The Causal Approach]]_, Springer 1995
+* {#Scharf95} [[Günter Scharf]], sections 0.3 and 3.1 of _[[Finite Quantum Electrodynamics -- The Causal Approach]]_, awSpringer 1995
 
 * [[Günter Scharf]], section 2 of _[[Quantum Gauge Theories -- A True Ghost Story]]_, Wiley 2001
 
