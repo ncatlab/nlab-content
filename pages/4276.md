@@ -121,9 +121,13 @@
 
 * [[renormalization]]
 
+  * [[renormalization scheme]]
+
   * [[extension of distributions]]
 
-  * [[renormalization scheme]]
+  * [[renormalization condition]]
+
+    * [[gauge anomaly]], [[quantum anomaly]]
 
   * [[renormalization group]]
 
