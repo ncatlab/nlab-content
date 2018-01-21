@@ -249,11 +249,11 @@ $$
 then the _[[interacting field algebra]]_ [[structure]] on [[regular polynomial observables]]
 
 $$
-  PolyObs(E_{\text{BV-BRST}})[ [\hbar] ] 
+  PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ] 
     \otimes 
-  PolyObs(E_{\text{BV-BRST}})[ [\hbar] ] 
+  PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ] 
     \overset{ \star_{int} }{\longrightarrow}
-  PolyObs(E_{\text{BV-BRST}})[ [\hbar] ] 
+  PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ] 
 $$
 
 is the [[conjugation]] of the [[Wick algebra]]-[[structure]] by the [[quantum Møller operator]] (def. \ref{MollerOperatorOnRegularPolynomialObservables}):
