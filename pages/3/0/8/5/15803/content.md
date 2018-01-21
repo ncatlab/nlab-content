@@ -2,6 +2,10 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
+#### Algebraic Quantum Field Theory
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
 #### Physics
 +-- {: .hide}
 [[!include physicscontents]]
@@ -15,7 +19,7 @@
 
 ## Idea
 
-In [[quantum field theory]] with chiral [[fermions]] ([[spinor fields]]) $\psi$ with _chiral versioon of the [[Dirac current]]_ $j \coloneqq \bar \psi \Gamma \psi$, a _chiral anomaly_ is a non [[conserved current|conservation]] of this current
+In [[quantum field theory]] with chiral [[fermions]] ([[spinor fields]]) $\psi$ with _chiral version of the [[Dirac current]]_ $j \coloneqq \bar \psi \Gamma \psi$, a _chiral anomaly_ is a non [[conserved current|conservation]] of this current
 
 $$
   \mathbf{d} \star j = Anomaly
@@ -56,6 +60,20 @@ Review includes
 * {#Jackiw08} [[Roman Jackiw]], _Axial anomaly_, (2008), Scholarpedia, 3(10):7302. ([web](http://www.scholarpedia.org/article/Axial_anomaly))
 
 * Wikipedia, _[Chiral anomaly](http://en.wikipedia.org/wiki/Chiral_anomaly)_
+
+Discussion in the rigorous context of [[causal perturbation theory]]/[[perturbative AQFT]] is (for $m \gt 0$) in 
+
+* {#Scharf95} [[Günter Scharf]], section 5.3 of _[[Finite Quantum Electrodynamics -- The Causal Approach]]_, Berlin: Springer-Verlag, 1995, 2nd edition
+
+and (for $m = 0$) in
+
+* {#Duetsch92} [[Michael Dütsch]], F. Krahe, [[Günter Scharf]], _Axial Anomalies in Massless Finite QED_, N. Cimento A 105 (3) (1992), 399–422. 
+
+and reviewed in the context the [[master Ward identity]] in
+
+* [[Michael Dütsch]], around p. 331 in _[[From classical field theory
+to perturbative quantum field theory]]_, 2018
+
 
 Application to [[baryogenesis]] is due to
 
