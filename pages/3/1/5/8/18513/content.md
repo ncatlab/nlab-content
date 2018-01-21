@@ -439,6 +439,7 @@ The right hand side is the [[integral kernel]]-expression for the [[Poisson-Peie
 
 ### Abstract time-ordered product
  {#AbstractTimeOrderedProduct}
+
 +-- {: .num_defn #OnRegularPolynomialObservablesTimeOrderedProduct}
 ###### Definition
 **([[time-ordered product]] on [[regular polynomial observables]])**
