@@ -21,33 +21,38 @@
 A central result in the construction of [[perturbative quantum field theories]] via the method of [[causal perturbation theory]] is called the _main theorem of perturbative renormalization theory_. This says that given a suitable [[free field theory|free]] [[Lagrangian field theory]] $(E,\mathbf{L}_{kin})$, then any two _[[renormalization schemes]]_ for [[perturbative quantum field theory]] around this free field theory, hence any two solutions $S$, $S'$ to the [[induction|inductive]] construction of the [[perturbative S-matrix]] as a [[function]] 
 
 $$
-  S 
+  \mathcal{S}
    \;\colon\; 
-  LocObs(E)[ [\hbar] ] 
+  LocObs(E)[ [\hbar , g ] ] 
     \longrightarrow
-  PolyObs(E,\mathbf{L}_{kin})[ [\hbar] ]
+  PolyObs(E)_{mc}((\hbar))[ [ g, j] ]
 $$
 
 from [[local observables]] $\mathbf{L}_{int} \in LocObs(E)[ [\hbar] ]$, regarded as [[adiabatic switching|adiabatically switched]] [[interaction]] [[action functionals]]  $\tau_\Sigma \mathbf{L}_{int}$, to scattering [[Wick algebra]] elements $S(\mathbf{L}_{int})$, are related by a unique transformation 
 
 $$
-  Z 
+  \mathcal{Z}
     \;\colon\;
-  LocObs(E)[ [\hbar] ]
+  LocObs(E)[ [\hbar, g, j] ]
     \longrightarrow
-  LocObs(E)[ [\hbar] ]
+  LocObs(E)[ [\hbar, g, j] ]
 $$
 
 via [[precomposition]]
 
 $$
-  S' = S \circ Z
+  \mathcal{S}' 
+    \;=\; 
+  \mathcal{S} \circ \mathcal{Z}
   \,.
 $$
 
-The collection of these operations $Z$ forms a [[group]], called the _[[Stückelberg-Petermann renormalization group]]_. Hence the space of [[renormalization schemes]] is a [[torsor]] over this group.
+The collection of these operations $\mathcal{Z}$ forms a [[group]], called the _[[Stückelberg-Petermann renormalization group]]_. Hence the space of [[renormalization schemes]] is a [[torsor]] over this group.
+
+> Dependence of the statement on the choice of [[renormalization conditions]] is discussed in [Dütsch 18, remark 3.102](#Duetsch18).
 
 Via the perspective of the [[Gell-Mann-Low cocycles]] this theorem is a mathematical reflection of the idea that renormalization is about regarding a [[perturbative quantum field theory]] with [[interaction]] $V$ as a [[effective field theory]] at some energy scale and then discovering that at higher energy there is a more fundamental interaction $Z(V)$ which effectively looks like $V$ at lower energy.
+
 
 ## References
 
