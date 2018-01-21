@@ -324,6 +324,7 @@ The [[perturbative quantum field theory|perturbative quantization]] of [[gauge t
 
 * {#Rejzner13} [[Katarzyna Rejzner]], _Remarks on local symmetry invariance in perturbative algebraic quantum field theory_ ([arXiv:1301.7037](https://arxiv.org/abs/1301.7037))
 
+* Mojtaba Taslimi Tehrani, _Quantum BRST charge in gauge theories in curved space-time_ ([arXiv:1703.04148](https://arxiv.org/abs/1703.04148))
 
 and surveyed in
 
