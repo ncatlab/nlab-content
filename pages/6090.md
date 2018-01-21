@@ -2286,7 +2286,7 @@ $(E_{\text{BV-BRST}}, \mathbf{L}'  + g_{sw} \mathbf{L}_{int})$.
 
 =--
 
-([Hawkins-Rejzner 16, prop. 5.4](perturbative+algebraic+quantum+field+theory#HawkinsRejzner16))
+([Hawkins-Rejzner 16, prop. 5.4](perturbative+algebraic+quantum+field+theory#HawkinsRejzner16), [Collini 16](#Collini16))
 
 
 The following definition collects the system (a [[co-presheaf]]) of [[generating functions]] for [[interacting field observables]]
