@@ -3844,16 +3844,16 @@ Here the sub-sum in brackets vanishes by the inversion formula, prop. \ref{Inver
 #### ("Re"-)Normalization
  {#ExistenceAndRenormalization}
 
-We discuss now that [[time-ordered products]] as in def. \ref{TimeOrderedProduct}, hence, by prop. \ref{TimeOrderedProductInducesPerturbativeSMatrix}, perturbatibe [[S-matrix]] schemes (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) exist in fact uniquely away from coinciding interaction points (prop. \ref{TimeOrderedProductAwayFromDiagonal} below). 
+We discuss now that [[time-ordered products]] as in def. \ref{TimeOrderedProduct}, hence, by prop. \ref{TimeOrderedProductInducesPerturbativeSMatrix}, perturbatibe [[S-matrix]] schemes (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) exist in fact uniquely away from coinciding interaction points (prop. \ref{TimeOrderedProductAwayFromDiagonal} below).
 
 This means that the construction of full [[time-ordered products]]/[[S-matrix]] schemes may be phrased as an [[extension of distributions]] of time-ordered products to the [[diagonal]] locus of coinciding spacetime arguments (prop. \ref{RenormalizationIsInductivelyExtensionToDiagonal} below).
 This choice in their definition is called the choice of _[[renormalization|("re"-)normalization]]_ of the [[time-ordered products]] (remark \ref{CausalPerturbationTheoryAbsenceOfUVDivergences}), and hence of the [[interacting field theory|interacting]] [[pQFT]] that these define (def. \ref{ExtensionOfTimeOrderedProoductsRenormalization} below).
 
 The space of these choices may be accurately characterized, it is a [[torsor]] over a [[group]] of re-definitions of the
-[[interaction]]-terms, called the "[[Stückelberg-Petermann renormalization group]]". This is called the 
+[[interaction]]-terms, called the "[[Stückelberg-Petermann renormalization group]]". This is called the
 _[[main theorem of perturbative renormalization]]_, theorem \ref{PerturbativeRenormalizationMainTheorem} below.
 
-Here we discuss just enough of the ingredients needed to _state_ this theorem. For proof of theorem and 
+Here we discuss just enough of the ingredients needed to _state_ this theorem. For proof of theorem and
 discussion of the various methods of picking [[renormalization|("re"-)normalizations]] see [[renormalization|there]].
 
 $\,$
@@ -4066,7 +4066,7 @@ Before using the unqueness of the [[time-ordered products]] away from coinciding
 
 
 
-By prop. \ref{NotationForTimeOrderedProductsAsGeneralizedFunctions} on [[regular polynomial observables]] the
+By prop. \ref{NotationForTimeOrderedProductsAsGeneralizedFunctions}, on [[regular polynomial observables]] the
 [[S-matrix]] is given as follows:
 
 +-- {: .num_defn #OnRegularObservablesPerturbativeSMatrix}
@@ -4077,7 +4077,7 @@ By prop. \ref{NotationForTimeOrderedProductsAsGeneralizedFunctions} on [[regular
 Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}.
 
 The _[[time-ordered product]] on [[regular polynomial observables]]_
-is the [[star product]] $\star_F$ induced by the [[Feynman propagator]] [this. def.](Wick algebra#OnRegularPolynomialObservablesTimeOrderedProduct))
+is the [[star product]] $\star_F$ induced by the [[Feynman propagator]] [this. def.](Wick+algebra#OnRegularPolynomialObservablesTimeOrderedProduct))
 
 The _[[perturbative S-matrix]]_ on [[regular polynomial observables]]
 is the [[exponential]] with respect to $\star_F$:
@@ -4271,7 +4271,7 @@ This [[induction|inductive]] choice of [[extension of distributions]] of the [[t
 
 In ([Epstein-Glaser 73](#EpsteinGlaser73)) this is phrased in terms of splitting of distributions. In ([Brunetti-Fredenhagen 00, sections 4 and 7](perturbative+algebraic+quantum+field+theory#BrunettiFredenhagen00)) the perspective via [[extension of distributions]] is introduced, following ([Stora 93](perturbative+algebraic+quantum+field+theory#Stora93)). Review is in ([Dütsch 18, section 3.3.2](perturbative+algebraic+quantum+field+theory#Duetsch18)).
 
-Proposition \ref{TimeOrderedProductAwayFromDiagonal} already shows that the freedom in choosing the [[renormalization|("re"-)normalization]] of [[time-ordered products]] is at most that of [[extensions of distributions|extending]] them to the "fat diagonal", where at least one pair of interaction points coincides. The following proposition \ref{RenormalizationIsInductivelyExtensionToDiagonal} says that when making these choices [[induction|inductively]] in the arity of the [[time-ordered products]] as in def. \ref{ExtensionOfTimeOrderedProoductsRenormalization} then the available choice of [[renormalization|("re"-normalization)]] at each stage is in fact only that of extension to the actual [[diagonal]], where _all_ interaction points coincide:
+Proposition \ref{TimeOrderedProductAwayFromDiagonal} already shows that the freedom in choosing the [[renormalization|("re"-)normalization]] of [[time-ordered products]] is at most that of [[extensions of distributions|extending]] them to the "fat diagonal", where at least one pair of interaction points coincides. The following proposition \ref{RenormalizationIsInductivelyExtensionToDiagonal} says that when making these choices [[induction|inductively]] in the arity of the [[time-ordered products]] as in def. \ref{ExtensionOfTimeOrderedProoductsRenormalization} then the available choice of [[renormalization|("re"-)normalization)]] at each stage is in fact only that of extension to the actual [[diagonal]], where _all_ interaction points coincide:
 
 
 +-- {: .num_prop #RenormalizationIsInductivelyExtensionToDiagonal}
@@ -4300,8 +4300,6 @@ of the [[image]] of the [[diagonal]] inclusion $\Sigma \overset{diag}{\longright
 (where we regarded $T_{n+1}$ as a [[generalized function]] on $\Sigma^{n+1}$ according to remark \ref{NotationForTimeOrderedProductsAsGeneralizedFunctions}).
 
 =--
-
-spring
 
 This statement appears in ([Popineau-Stora 82](renormalization#PopineauStora82)), with (unpublished) details in ([Stora 93](renormalization#Stora93)), following personal communication by [[Henri Epstein]] (according to [Dütsch 18, footnote 57](#Duetsch18)). Following this, statement and detailed proof appeared in ([Brunetti-Fredenhagen 99](#BrunettiFredenhagen99)).
 
@@ -4468,9 +4466,62 @@ $$
 
 is well defined and satisfies causal factorization.
 
+=--
+
+Since [[renormalization|("re"-)normalization]] involves making choices, there is the freedom to impose
+further conditions that one may want to have satisfied. These are called _[[renormalization conditions]]_.
+
++-- {: .num_prop #ConditionsRenormalization}
+###### Proposition
+**([[renormalization conditions]])**
+
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}.
+
+Then the unique [[time-ordered product]] away from coinciding spacetime arguments (prop. \ref{TimeOrderedProductAwayFromDiagonal})
+satisfies the following conditions
+
+1. (field independence) The [[functional derivative]] of a [[polynomial observable]] arising as a [[time-ordered product]] takes contributions onyl from the arguments, not from the product operation itself: In [[generalized function]]-notation spring
+
+   $$
+     \frac{\delta}{\delta \mathbf{\Phi}^a(x)}
+     T(A_1, \cdots, A_n)
+     \;=\;
+     \underset{1 \leq k \leq n}{\sum}
+     T\left(
+       A_1, \cdots, A_{k-1}, \frac{\delta}{\delta \mathbf{\Phi}^a(x)}A_k, A_{k+1}, \cdots, A_n
+     \right)
+   $$
+
+1. ([[translation group|translation]] equivariance) If the underlying [[spacetime]] is [[Minkowski spacetime]], $\Sigma = \mathbb{R}^{p,1}$,
+   with the induced [[action]] of the [[translation group]] on [[polynomial observables]]
+
+   $$
+     \rho
+       \;\colon\;
+     \mathbb{R}^{p,1} \times PolyObs(E_{\text{BV-BRST}})[ [ \hbar, g, j ] ]
+       \longrightarrow
+     PolyObs(E_{\text{BV-BRST}})[ [ \hbar, g, j ] ]
+   $$
+
+   then
+
+   $$
+     \rho_v \left( {\, \atop \,} T(A_1, \cdots, A_n) {\, \atop \,}\right)
+     \;=\;
+     T(\rho_{v}(A_1), \cdots, \rho_v(A_n))
+   $$
+
+1. ([[quantum master equation]], [[master Ward identity]]) see prop. \ref{QuantumMasterEquation}
+
+Requiring any of these properties to still hold for [[renormalization|("re"-)normalized]] [[time-ordered products]]
+at coinciding spacetime arguments is called a _renormalization condition_.
+If there is _no_ renormalization choice satisfying a chosen subset of these conditions, one says that the
+[[interacting field theory|interacting]] [[perturbative QFT]] fails to exist due to a _[[quantum anomaly]]_,
+specifically a _[[gauge anomaly]]_ is the [[quantum master equation]]/[[master Ward identity]] may not be satisfied.
 
 =--
 
+([Duetsch 18, p. 150 and section 4.2](#Duetsch18))
 
 +-- {: .num_theorem #PerturbativeRenormalizationMainTheorem}
 ###### Theorem
@@ -4478,9 +4529,11 @@ is well defined and satisfies causal factorization.
 
 Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}.
 
-1. An [[S-matrix]] [[renormalization scheme]] (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) around this free vacuum exists, and its construction by choices of [[renormalization|("re"-)normalization]] of [[time-ordered products]] $\{T_k\}_{k \in \mathbb{N}}$ according to def. \ref{ExtensionOfTimeOrderedProoductsRenormalization} involves precisely a [[finite-dimensional vector space]] of choices ("renormalization constants") at each order $k \in \mathbb{N}$.
+1. An [[S-matrix]] [[renormalization scheme]] (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) around this free vacuum,
+   satisfying the [[renormalization conditions]] "field independence" and "translation inavriance" (prop. \ref{ConditionsRenormalization}),
+   exists, and its construction by choices of [[renormalization|("re"-)normalization]] of [[time-ordered products]] $\{T_k\}_{k \in \mathbb{N}}$ according to def. \ref{ExtensionOfTimeOrderedProoductsRenormalization} involves precisely a [[finite-dimensional vector space]] of choices ("renormalization constants") at each order $k \in \mathbb{N}$.
 
-1. Every [[pair]] of such choices of perturbative [[S-matrix]] [[renormalization schemes]] $\mathcal{S}$, $\widetilde{\mathcal{S}}$ (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) are related by a unique transformation of the space of [[local observables]] ("adding counterterms to interactions")
+1. Every [[pair]] $\mathcal{S}$, $\widetilde{\mathcal{S}}$ of such choices are related by a unique transformation of the space of [[local observables]] ("adding counterterms to interactions")
 
    $$
      Z
@@ -4497,11 +4550,7 @@ Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field the
      \,.
    $$
 
-1. The [[group]] of transformations $Z$ arising this is the _[[Stückelberg-Petermann renormalization group]]_.
-
-
-> needs assumption of translation invariance and field independence ([Dütsch 18, remark 3.102](#Duetsch18))
-
+1. The [[group]] of transformations $Z$ arising this way is the _[[Stückelberg-Petermann renormalization group]]_.
 
 =--
 
@@ -5925,7 +5974,7 @@ But this [[interacting field algebra of observables]] still involves all the [[a
 actual physical [[gauge invariance|gauge invariant]] [[on-shell]] observables should be (just) the [[cochain cohomology]] of the
 [[BV-BRST differential]] on this enlarged space of observables. Hence for the construction of [[perturbative QFT]] to conclude,
 it remains to pass the [[BV-BRST differential]] of the [[free field]] [[Wick algebra]] of observables to
-a [[differential]] on the [[interacting field algebra]], such that its [[cochain cohomoloy]] is well de-fined.
+a [[differential]] on the [[interacting field algebra]], such that its [[cochain cohomology]] is well defined.
 
 Since the [[time-ordered products]] away from coinciding interaction points and as well as on [[regular polynomial observables]] are uniquely fixed
 (prop. \ref{TimeOrderedProductAwayFromDiagonal}), one finds that also this _interacting quantum BV-differential_
@@ -5934,8 +5983,8 @@ The formula that characterizes it there is called the _[[quantum master equation
 
 
 As one [[extension of distributions|extends]] the [[time-ordered products]] to coinciding interaction points in [[renormalization|("re"-)normalization]]
-of the [[perturbative QFT]] (def. \ref{ExtensionOfTimeOrderedProoductsRenormalization}), the [[quantum master equation]]/[[master Ward identity]] thus becomes a consistency condition on the choice of [[renormalization|("re"-)normalization]] constants. If this condition cannot be solved the
-construction of the [[perturbative QFT]] fails due to the [[gauge symmetries]] not having a consistent [[quantization]],
+of the [[perturbative QFT]] (def. \ref{ExtensionOfTimeOrderedProoductsRenormalization}), the [[quantum master equation]]/[[master Ward identity]] thus becomes a _[[renormalization condition]]_ (prop. \ref{ConditionsRenormalization}). If this condition cannot be solved, then the
+full construction of the [[perturbative QFT]] fails due to the [[gauge symmetries]] not having a consistent [[quantization]],
 and one speaks of a _[[gauge anomaly]]_.
 
 $\,$
