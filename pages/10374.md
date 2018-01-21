@@ -20,7 +20,7 @@
 
 In [[perturbative quantum field theory]] a _Ward identity_ expresses the invariance or equivariance of [[correlation functions]] under some given [[symmetry]].
 
-For a [[Lagrangian field theory]], the _classical Ward identity_ is an [[on-shell]] [[equation]] satisfied by classical [[observables]] due to [[symmetries]] of the [[action functional]]. For quantum observables it is not automatic, but one may consider imposing it as a constraint on the choice of [[renormalization]]. As such it is called the _quantum master Ward identity_ (really a condition). It is a generalization of the [[Schwinger-Dyson equation]] to non-[[free field theory|free]] field theory: It may be understood as expressing the [[renormalization]] of the [[BV-differential]] with quantum correction by the [[BV-operator]], in fact it is equivalent to the _[[quantum master equation]]_ in [[BV-BRST formalism]] ([this prop.](quantum+master+equation#QuantumMasterEquation)).
+For a [[Lagrangian field theory]], the _classical Ward identity_ is an [[on-shell]] [[equation]] satisfied by classical [[observables]] due to [[symmetries]] of the [[action functional]]. For quantum observables it is not automatic, but one may consider imposing it as a constraint on the choice of [[renormalization]]. As such it is called the _quantum master Ward identity_ (really a [[renormalization condition]]). It is a generalization of the [[Schwinger-Dyson equation]] to non-[[free field theory|free]] field theory: It may be understood as expressing the [[renormalization]] of the [[BV-differential]] with quantum correction by the [[BV-operator]], in fact it is equivalent to the _[[quantum master equation]]_ in [[BV-BRST formalism]] ([this prop.](quantum+master+equation#QuantumMasterEquation)).
 
 ## Details
 
