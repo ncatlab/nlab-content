@@ -892,6 +892,14 @@ an [[exponential series]] applies).
 
 =--
 
++-- {: .num_remark #MoreDeformationParameters}
+###### Remark
+**(adjoining further [[deformation]] parameters)
+
+The definition of [[S-matrix]] schemes in def. \ref{LagrangianFieldTheoryPerturbativeScattering} has immediate variants where arbitrary countable sets $\{g_n\}$ and $\{j_m\}$ of formal [[deformation]] parameters are considered, instead of just a single [[coupling constant]] $g$ and a single [[source field]] $j$. The more such constants are considered, the "more perturbative" the theory becomes and the stronger the implications.
+
+=--
+
 Given a perturbative [[S-matrix]] scheme (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) it immediately
 induces a corresponding concept of [[observables]]:
 
@@ -1104,17 +1112,17 @@ which express the [[probability amplitudes]] that reflect the predictions of the
 
 The [[interacting field observables]] in def. \ref{InteractingFieldObservables} are indeed [[formal power series]] in the formal parameter $\hbar$ ([[Planck's constant]]), as opposed to being more general [[Laurent series]], hence they involve no [[negative number|negative]] powers of $\hbar$ ([Dütsch-Fredenhagen 00, prop. 2 (ii)](interacting+field+observable#DuetschFredenhagen00), [Hawkins-Rejzner 16, cor. 5.2](interacting+field+observable#HawkinsRejzner16)).  This is not immediate, since by def. \ref{LagrangianFieldTheoryPerturbativeScattering} the [[S-matrix]] that they are defined from does involve negative powers of $\hbar$.
 
-It follows in particular that the [[interacting field observables]] have a [[classical limit]] $\hbar \to 0$, which 
-is not the case for the [[S-matrix]] itself (due to it involving negative powers of $\hbar$). 
+It follows in particular that the [[interacting field observables]] have a [[classical limit]] $\hbar \to 0$, which
+is not the case for the [[S-matrix]] itself (due to it involving negative powers of $\hbar$).
 Indeed the [[interacting field observables]] constitute a _[[formal deformation quantization]]_ of the [[covariant phase space]]
 of the [[interacting field theory]] (prop. \ref{InteractingFieldAlgebraOfObservablesIsFormalDeformationQuantization} below)
 and are thus the more fundamental concept.
 
 =--
 
-As the name suggests, the [[S-matrices]] in def. \ref{LagrangianFieldTheoryPerturbativeScattering} serve to express [[scattering amplitudes]] (example \ref{ScatteringAmplitudeFromInteractingFieldObservables} below). But by remark \ref{FormalPowerSeriesInteractingFieldObservables} 
-the more fundamental concept is that of the [[interacting field observables]]. Their perspective reveals that 
-consistent interpretation of [[scattering amplitudes]] requires the following condition on the relation between the 
+As the name suggests, the [[S-matrices]] in def. \ref{LagrangianFieldTheoryPerturbativeScattering} serve to express [[scattering amplitudes]] (example \ref{ScatteringAmplitudeFromInteractingFieldObservables} below). But by remark \ref{FormalPowerSeriesInteractingFieldObservables}
+the more fundamental concept is that of the [[interacting field observables]]. Their perspective reveals that
+consistent interpretation of [[scattering amplitudes]] requires the following condition on the relation between the
 [[vacuum state]] and the [[interaction]] term:
 
 +-- {: .num_defn #VacuumStability}
@@ -1236,8 +1244,7 @@ $$
 $$
 
 Here the last line makes sense if one extends the axioms on the [[S-matrix]] in prop. \ref{LagrangianFieldTheoryPerturbativeScattering}
-from formal power series in $\hbar, g, j$ to formal power series in $\hbar, g, j_1, j_2, \cdots$.
-This is a straightforward generalization of the formalism which only takes extra notational effort.
+from formal power series in $\hbar, g, j$ to formal power series in $\hbar, g, j_1, j_2, \cdots$ (remark \ref{MoreDeformationParameters}).
 Hence in this generalization, the [[generating functions]] $\mathcal{Z}$ are not just generating functions
 for [[interacting field observables]] themselves, but in fact for _[[time-ordered products]]_ of interacting field observables.
 
@@ -1438,7 +1445,7 @@ With this the statement follows by the definition of [[vacuum stability]] (def. 
 **(computing [[S-matrices]] via [[Feynman perturbation series]])**
 
 For practical computation of [[vacuum expectation values]] of [[interacting field observables]] (example \ref{InteractinFieldTimeOrderedProduct})
-and hence in particular, via example \ref{ScatteringAmplitudeFromInteractingFieldObservables}, of [[scattering amplitudes]], 
+and hence in particular, via example \ref{ScatteringAmplitudeFromInteractingFieldObservables}, of [[scattering amplitudes]],
 one needs some method for collecting all the contributions to the [[formal power series]] in increasing order in $\hbar$ and $g$.
 
 Such a method is provided by the [[Feynman perturbation series]] (example \ref{FeynmanPerturbationSeries} below)
@@ -5250,7 +5257,7 @@ and under multiplication of polynomials the zero-order terms are multiplied.
 
 =--
 
-The perspective of the [[effective action]] gives a transparent picture of the order of quantum effects involved in the 
+The perspective of the [[effective action]] gives a transparent picture of the order of quantum effects involved in the
 [[S-matrix]]:
 
 +-- {: .num_prop #FeynmanDiagramLoopOrder}
@@ -5358,7 +5365,7 @@ $\,$
  {#VacuumDiagrams}
 
 With the [[Feynman perturbation series]] and the [[effective action]] in hand, it is now immediate to see that there
-is a general contribution by [[vacuum diagrams]] (def. \ref{VacuumDiagram} below) in the [[scattering matrix]] which, 
+is a general contribution by [[vacuum diagrams]] (def. \ref{VacuumDiagram} below) in the [[scattering matrix]] which,
 in a [[vacuum stability|stable vacuum state]],
 cancels out against the prefactor $\mathcal{S}(g S_{int})$ in [[Bogoliubov's formula]] for [[interacting field observables]].
 
@@ -5404,7 +5411,7 @@ $$
   \underset{ { (\Gamma,vertlab,edgelab) } \atop { \in \mathcal{G}_{conn,vac} } }{\sum}
   (\Gamma,vertlab, edgelab)(g S_{int})
   \;\in\;
-  PolyObs(E_{\text{BV-BRST}})_{mc}[ [ \hbar , g ] ] 
+  PolyObs(E_{\text{BV-BRST}})_{mc}[ [ \hbar , g ] ]
 $$
 
 for the sub-series of that for the [[effective action]] (def. \ref{InPerturbationTheoryActionEffective}) given
@@ -5437,7 +5444,7 @@ $$
   \,.
 $$
 
-More generally, the S-matrix with [[source field]]-contribution $j A$ included always splits as a 
+More generally, the S-matrix with [[source field]]-contribution $j A$ included always splits as a
 _pointwise_ product of the vacuum S_matrix with the [[Feynman perturbation series]] over all [[Feynman graphs]] with at least
 one external vertex:
 
@@ -5464,7 +5471,7 @@ $$
 $$
 
 Hence if the [[free field]] [[vacuum state]] is stable with respect to the interaction $g S_{int}$, according to def. \ref{VacuumStability}, then the [[vacuum expectation value]] of a [[time-ordered product]] of [[interacting field observables]] $j (A_i)_{int}$ (example \ref{InteractinFieldTimeOrderedProduct}) and hence in particular of [[scattering amplitudes]] (example \ref{ScatteringAmplitudeFromInteractingFieldObservables}) is
-given by the [[Feynman perturbation series]] (example \ref{FeynmanPerturbationSeries}) over 
+given by the [[Feynman perturbation series]] (example \ref{FeynmanPerturbationSeries}) over
 just the non-vacuum [[Feynman diagrams]], hence over all those diagram that have at least one one external vertex
 
 $$
@@ -5472,17 +5479,17 @@ $$
   &
   \left(
     {\, \atop \,}
-    supp(A_1) 
+    supp(A_1)
       {\vee\!\!\!\wedge}
     supp(A_2)
       {\vee\!\!\!\wedge}
-      \cdots      
+      \cdots
       {\vee\!\!\!\wedge}
     supp(A_n)
     {\, \atop \,}
   \right)
   \\
-  & \Rightarrow 
+  & \Rightarrow
   \left\langle
     {\, \atop \,}
     (A_1)_int
@@ -5512,25 +5519,25 @@ $\,$
 #### Ward identities
  {#QuantumAnomalies}
 
-So far we have discussed, starting with a [[BV-BRST formalism|BV-BRST]] [[gauge fixing|gauge fixed]] [[free field]] [[vacuum]], 
+So far we have discussed, starting with a [[BV-BRST formalism|BV-BRST]] [[gauge fixing|gauge fixed]] [[free field]] [[vacuum]],
 the perturbative construction of [[interacting field algebras of observables]] (def. \ref{QuntumMollerOperator}) and their organization
 in increasing powers of $\hbar$ and $g$ ([[loop order]], prop. \ref{FeynmanDiagramLoopOrder}) via the [[Feynman perturbation series]] (example \ref{FeynmanPerturbationSeries}, example \ref{SMatrixVacuumContribution}).
 
 But this [[interacting field algebra of observables]] still involves all the [[auxiliary fields]] of the [[BV-BRST formalism|BV-BRST]] [[gauge fixing|gauge fixed]] [[free field]] [[vacuum]] (as in example \ref{FieldSpeciesQED} for QED), while the
 actual physical [[gauge invariance|gauge invariant]] [[on-shell]] observables should be (just) the [[cochain cohomology]] of the
-[[BV-BRST differential]] on this enlarged space of observables. Hence for the construction of [[perturbative QFT]] to conclude, 
-it remains to pass the [[BV-BRST differential]] of the [[free field]] [[Wick algebra]] of observables to 
+[[BV-BRST differential]] on this enlarged space of observables. Hence for the construction of [[perturbative QFT]] to conclude,
+it remains to pass the [[BV-BRST differential]] of the [[free field]] [[Wick algebra]] of observables to
 a [[differential]] on the [[interacting field algebra]].
 
 Since the [[time-ordered products]] away from coinciding interaction points are uniquely fixed
 (prop. \ref{TimeOrderedProductAwayFromDiagonal}), one finds that also this _interacting quantum BV-differential_
 is uniquely fixed away from coinciding interaction points, by [[conjugation]] with the [[quantum Møller operators]] (def. \ref{BVDifferentialInteractingQuantum} below).
-The formula that characterizes it there is called the _[[quantum master equation]]_ or _[[master Ward identity]]_ (prop. \ref{QuantumMasterEquation} below). 
+The formula that characterizes it there is called the _[[quantum master equation]]_ or _[[master Ward identity]]_ (prop. \ref{QuantumMasterEquation} below).
 
 
 As one [[extension of distributions|extends]] the [[time-ordered products]] to coinciding interaction points in [[renormalization|("re"-)normalization]]
-of the [[perturbative QFT]] (def. \ref{ExtensionOfTimeOrderedProoductsRenormalization}), the [[quantum master equation]]/[[master Ward identity]] thus becomes a consistency condition on the choice of [[renormalization|("re"-)normalization]] constants. If this condition cannot be solved the 
-construction of the [[perturbative QFT]] fails due to the [[gauge symmetries]] not having a consistent [[quantization]], 
+of the [[perturbative QFT]] (def. \ref{ExtensionOfTimeOrderedProoductsRenormalization}), the [[quantum master equation]]/[[master Ward identity]] thus becomes a consistency condition on the choice of [[renormalization|("re"-)normalization]] constants. If this condition cannot be solved the
+construction of the [[perturbative QFT]] fails due to the [[gauge symmetries]] not having a consistent [[quantization]],
 and one speaks of a _[[gauge anomaly]]_.
 
 $\,$
