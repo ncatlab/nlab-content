@@ -46,6 +46,8 @@ As a result, [[scattering amplitudes]] for [[electron-photon interactions]] in Q
 
 * [[Casimir effect]]
 
+* [[axial anomaly]]
+
 ## Related concepts
 
 * [[fine structure constant]]
