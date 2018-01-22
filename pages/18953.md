@@ -19,6 +19,13 @@
 
 A [[Feynman diagram]] without external edges is called a _vacuum diagram_. 
 
+
+For example the simplest vacuum diagram obtained from the [[electron-photon interaction]] in [[quantum electrodynamics]] is
+
+<center>
+<img src="https://ncatlab.org/nlab/files/QEDVacuumDiagram.png" width="200">
+</center>
+
 In the computation of [[scattering amplitudes]] in a [[vacuum stability|stable vacuum]] the contribution of the vacuum diagrams to the [[Feynman perturbation series]] cancels out.
 
 For details see at _[[S-matrix]]_ [this section](S-matrix#VacuumDiagrams)
