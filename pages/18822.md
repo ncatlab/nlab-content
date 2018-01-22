@@ -621,6 +621,8 @@ $$
 is an [[infinitesimal symmetry of the Lagrangian]] (def. \ref{SymmetriesAndConservedCurrents}). The [[conserved current]] that corresponds to this under [[Noether's theorem|Noether's theorem I]] (prop. \ref{NoethersFirstTheorem}) is
 
 $$
+  -
+  i
   \overline{\psi} \gamma^\mu \psi \, \iota_{\partial_\mu} dvol_\Sigma
   \;\in\;
   \Omega^{p,0}_{\Sigma}(E)
@@ -650,7 +652,7 @@ $$
   \,.
 $$
 
-Therefore
+Therefore the [[Lagrangian density]] is strictly invariant under the [[Lie derivative]] along $\hat v$
 
 $$
   \begin{aligned}
@@ -678,8 +680,37 @@ $$
     dvol_\Sigma
     \\ & =
     0
+    \,.
   \end{aligned}
 $$
+
+and so the formula for the corresponding conserved current (eq:NoetherCurrent) is
+
+$$
+  \begin{aligned}
+    J_v
+    & =
+    - \iota_{\hat v} 
+    \left(
+    \underset{
+      \overline{\psi} 
+      \gamma^\mu 
+      \delta \psi 
+      \,
+      \iota_{\partial_\mu} dvol_\Sigma    }{
+    \underbrace{
+      \Theta_{BFV}
+    }
+    }
+    \right)
+    \\
+    & 
+    = - i \overline{\psi}\gamma^\mu \psi \, \iota_{\partial_\mu} dvol_\Sigma
+  \end{aligned}   
+  \,,
+$$
+
+where under the brace we used example \ref{PresymplecticCurrentDiracField} to identify the [[presymplectic potential]] for the [[free field theory|free]] [[Dirac field]].
 
 =--
 
