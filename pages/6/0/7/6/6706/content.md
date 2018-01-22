@@ -355,11 +355,9 @@ Then the following are equivalent:
      \label{OnRegularObservablesQuantumMasterWardIdentity}
      \mathcal{R} \circ \{-S',(-)\} \circ \mathcal{R}^{-1}   
      \;=\;
-     -
-     \left(
-       \left\{ S' + S_{int} \,,\, (-) \right\}_{\mathcal{T}} 
-       + i \hbar   \Delta_{BV}
-     \right)
+     \left\{ -(S' + S_{int}) \,,\, (-) \right\}_{\mathcal{T}} 
+     - 
+     i \hbar   \Delta_{BV}
    $$
 
    ([Dütsch 18, (4.2)](Ward+identity#Duetsch18))
