@@ -4480,7 +4480,7 @@ Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field the
 Then the unique [[time-ordered product]] away from coinciding spacetime arguments (prop. \ref{TimeOrderedProductAwayFromDiagonal})
 satisfies the following conditions
 
-1. (field independence) The [[functional derivative]] of a [[polynomial observable]] arising as a [[time-ordered product]] takes contributions onyl from the arguments, not from the product operation itself: In [[generalized function]]-notation spring
+1. (field independence) The [[functional derivative]] of a [[polynomial observable]] arising as a [[time-ordered product]] takes contributions only from the arguments, not from the product operation itself: In [[generalized function]]-notation:
 
    $$
      \frac{\delta}{\delta \mathbf{\Phi}^a(x)}
@@ -5863,6 +5863,18 @@ $$
 
 for the sub-series of that for the [[effective action]] (def. \ref{InPerturbationTheoryActionEffective}) given
 only by those connected diagrams which are also vacuum diagrams.
+
+=--
+
++-- {: .num_example}
+###### Example
+**(2-vertex [[vacuum diagram]] in [[QED]])**
+
+The [[vacuum diagram]] (def. \ref{VacuumDiagram}) with two [[electron-photon interaction]]-vertices in [[quantum electrodynamics]] ([this example.](A+first+idea+of+quantum+field+theory#LagrangianQED)) is:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/QEDVacuumDiagram.png" width="200">
+</center>
 
 =--
 
