@@ -18,7 +18,7 @@
 
 ## Idea
 
-In [[perturbative quantum field theory]] the _quantum master Ward identity_ (def. \ref{OnRegularPolynomialObservablesMasterWardIdentity} below) expresses the relation between the [[quantum field theory|quantum]] (measured by [[Planck's constant]] $\hbar$) [[interacting field theory|interacting]] (measured by the [[coupling constant]] $g$) [[equations of motion]] to the [[classical field theory|classical]] [[free field]] [[equations of motion]] at $\hbar, g\to 0$ (remark \ref{QuantumMasterEuqationRelatesQuantumInteractingELEquationsToClassicalFreeELEquations} below). As such it generalizes the [[Schwinger-Dyson equation]], to which it reduces for $g = 0$ (example \ref{QuantumMasterEuqationRelatesQuantumInteractingELEquationsToClassicalFreeELEquations} below) as well as the _classical master Ward equation_, which is the case for $\hbar = 0$.
+In [[perturbative quantum field theory]] the _quantum master Ward identity_ (def. \ref{OnRegularPolynomialObservablesMasterWardIdentity} below) expresses the relation between the [[quantum field theory|quantum]] (measured by [[Planck's constant]] $\hbar$) [[interacting field theory|interacting]] (measured by the [[coupling constant]] $g$) [[equations of motion]] to the [[classical field theory|classical]] [[free field]] [[equations of motion]] at $\hbar, g\to 0$ (remark \ref{QuantumMasterEuqationRelatesQuantumInteractingELEquationsToClassicalFreeELEquations} below). As such it generalizes the [[Schwinger-Dyson equation]], to which it reduces for $g = 0$ (example \ref{QuantumMasterEuqationRelatesQuantumInteractingELEquationsToClassicalFreeELEquations} below) as well as the _classical master Ward equation_, which is the case for $\hbar = 0$ (example \ref{MasterWardIdentityClassical} below).
 
 Applied to products of the [[equations of motion]] with any given [[observable]], the master Ward identity becomes a particular _Ward identity_.
 
@@ -177,7 +177,7 @@ Hence the [[quantum master Ward identity]] expresses a relation between the idea
 ###### Example
 **([[free field]]-limit of [[master Ward identity]] is [[Schwinger-Dyson equation]])**
 
-In the [[free field]]-limit $g \to 0$ the [[quantum master Ward identity]] (eq:OnRegularObservablesQuantumMasterWardIdentityViaTimeOrdered) reduces to
+In the [[free field]]-limit $g \to 0$ (noticing that in this limit $\mathcal{R}^{-1} = id$) the [[quantum master Ward identity]] (eq:OnRegularObservablesQuantumMasterWardIdentityViaTimeOrdered) reduces to
 
 $$
   \left\{ -S'  \,,\, A \right\}_{\mathcal{T}} 
@@ -191,7 +191,7 @@ which is the defining equation for the [[BV-operator]] ([this equation](BV-opera
 
 =--
 
-+-- {: .num_example}
++-- {: .num_example #MasterWardIdentityClassical}
 ###### Example
 **([[classical limit]] of [[quantum master Ward identity]])**
 
@@ -301,7 +301,7 @@ $$
       \,
       dvol_\Sigma(x)
     \\ 
-    & =
+    & \coloneqq
     \tau_\Sigma( a_{sw}  v^a \phi^{\ddagger}_a \, dvol_\Sigma)
   \end{aligned}
 $$
@@ -367,11 +367,14 @@ $$
   \text{on-shell}
 $$
 
-Hence the [[interacting field observable]]-version of $div \mathbf{J}$ need not vanish itself on-shell, only its modification by the "quantum correction" over the brace does.
+Hence the [[interacting field observable]]-version $\mathcal{R}^{-1}(div\mathbf{J})$ of $div \mathbf{J}$ need not vanish itself on-shell, only its modification by the "quantum correction" over the brace does, in general.
 
 =--
 
+
 ## Examples
+
+* [[chiral anomaly]]
 
 * [[conformal blocks]]
 
@@ -414,4 +417,6 @@ See also
 [[!redirects master Ward identity]]
 [[!redirects master Ward identities]]
 
+[[!redirects quantum Ward identity]]
+[[!redirects quantum Ward identities]]
 
