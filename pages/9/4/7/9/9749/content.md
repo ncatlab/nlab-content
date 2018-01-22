@@ -62,7 +62,7 @@ The other example he gives has $X$ a bounded, closed and convex subset of $\math
 
 Doberkat has a longer article on [[Eilenberg-Moore algebra]]s of the Giry monad as item 5 [here](http://ls10-www.cs.uni-dortmund.de/index.php?id=18). (Unfortunately, the monograph 'Stochastic Relations: Foundations for Markov Transition Systems' doesn't appear to be available.) There are two monads being treated here, one which sends a Polish space to the space of all probability measures, the other to the space of all subprobability measures. The extra structure relating to these monads, is that of a (positive) convex structure. In the case of a convex structure, this intuitively captures the idea that a weighted sum of points in the space has barycentre within the space. 
 
-[Sturtz] exploits the close relationship between the tensor product structure of the two categories, measurable spaces and convex spaces, to generalize the fundamental results of Doberkat, to arbitrary measurable spaces, not just Polish spaces.  With this generalization, the Giry-algebras are (characterized as) convex spaces.  
+([Sturtz17](#Sturtz)) exploits the close relationship between the tensor product structure of the two categories, measurable spaces and convex spaces, to generalize the fundamental results of Doberkat, to arbitrary measurable spaces, not just Polish spaces.  With this generalization, the Giry-algebras are (characterized as) convex spaces.  
 
 ## Related constructions
 
@@ -72,7 +72,7 @@ Doberkat has a longer article on [[Eilenberg-Moore algebra]]s of the Giry monad 
 
 See [Miami Talk abstract](http://www.math.miami.edu/anno/voevodsky.htm)
 
->...a categorical study of probability theory where "categorical" is understood in the sense of category theory. Originally, I developed this approach to probability to get a better understanding of the constructions which I had to deal with in population genetics. Later it evolved into something which seems to be also interesting from a purely mathematical point of view. On the elementary level it gives a category which is useful for the work with probabilistic constructions involving complicated combinations of stochastic processes of different types. On a more advanced level, applying in this context the old idea of a functor as a generalized object one gets a better view of the relationship between probability and the theory of (pre-)ordered topological vector spaces. 
+> ...a categorical study of probability theory where "categorical" is understood in the sense of category theory. Originally, I developed this approach to probability to get a better understanding of the constructions which I had to deal with in population genetics. Later it evolved into something which seems to be also interesting from a purely mathematical point of view. On the elementary level it gives a category which is useful for the work with probabilistic constructions involving complicated combinations of stochastic processes of different types. On a more advanced level, applying in this context the old idea of a functor as a generalized object one gets a better view of the relationship between probability and the theory of (pre-)ordered topological vector spaces. 
 
 A talk in Moscow (20 Niv 2008, in Russian) can be viewed [here](http://www.mi.ras.ru/index.php?c=obs_sem/&l=1), [wmv 223.6 Mb](http://www.mi.ras.ru/media/335_full.wmv). Abstract:
 
@@ -116,9 +116,9 @@ According to [E. Burroni (2009)](#Burroni09) the 'Giry' monad appears also in
 
 * O. de la Tullaye, _L'int&#233;gration consid&#233;r&#233;e comme l'alg&#232;bre d'un triple_. Rapport de Stage de D.E.A. manuscrit 1971.
 
-K.Sturtz discusses the Giry monad as a codensity monad:
+K. Sturtz discusses the Giry monad as a codensity monad:
 
-* Sturtz, _Categorical Probability Theory_, [arXiv:1406.6030](http://arxiv.org/abs/1406.6030)
+* K. Sturtz, _Categorical Probability Theory_, [arXiv:1406.6030](http://arxiv.org/abs/1406.6030)
 
 This includes some corrections from an earlier version of the article, _The Giry monad as a codensity monad_, pointed out in
 
@@ -153,7 +153,7 @@ J. Culbertson and K. Sturtz use the Giry monad in their categorical approach to 
 
 * Jared Culbertson and Kirk Sturtz, _Bayesian machine learning via category theory_, 2013 ([arxiv:1312.1445](http://arxiv.org/abs/1312.1445)) 
 
-* {#Sturtz} [[Kirk Sturtz]], _The Factorization of the Giry monad and convex spaces as an extension of the Kleisi category_, [ arXiv:1601.02593](https://arxiv.org/abs/1707.00488)
+* {#Sturtz17} [[Kirk Sturtz]], _The Factorization of the Giry monad and convex spaces as an extension of the Kleisi category_, [1707.00488](https://arxiv.org/abs/1707.00488)
 
 
 E. Burroni discusses the Giry monad in:
