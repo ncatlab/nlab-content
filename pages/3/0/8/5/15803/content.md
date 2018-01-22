@@ -19,12 +19,14 @@
 
 ## Idea
 
-In [[quantum field theory]] with chiral [[fermions]] ([[spinor fields]]) $\psi$ with _chiral version of the [[Dirac current]]_ $j \coloneqq \bar \psi \Gamma \psi$, a _chiral anomaly_ is a non [[conserved current|conservation]] of this current
+In [[quantum field theory]] with chiral [[fermions]] ([[spinor fields]]) $\psi$ with _chiral version of the [[Dirac current]]_ $J = i \bar \Psi \Gamma \spi$, a _chiral anomaly_ is a non-[[conserved current|conservation]] of this current
 
 $$
-  \mathbf{d} \star j = Anomaly
+  div J = Anomaly
   \,.
 $$
+
+(See at _[[Ward identity]]_.)
 
 In the [[standard model of particle physics]] this happens and plays a role for [[pion decay]] and for [[baryogenesis]]. Here the anomaly term is the Pontryagin 4-form $Anomaly = \langle F_\nabla \wedge F_\nabla\rangle$ of the [[gauge field]] $\nabla$, hence the [[curvature]] 4-form of the corresponding [[Chern-Simons line 3-bundle]].
 
