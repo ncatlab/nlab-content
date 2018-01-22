@@ -307,7 +307,7 @@ theorem \ref{NoetherTheoremViaVariationalBicomplex}, the second constrains $v$ t
 
 ### In traditional symplectic geometry
 
-In [[symplectic geometry]] the analog of Noether's theorem is the statement that the [[moment map]] of a [[Hamiltonian action]] which preserbes a given time evolution is itself conserved by this time evolution.
+In [[symplectic geometry]] the analog of Noether's theorem is the statement that the [[moment map]] of a [[Hamiltonian action]] which preserves a given time evolution is itself conserved by this time evolution.
 
 Souriau called this _the symplectic Noether theorem_, sometimes it is called the _Hamiltonian Noether theorem_. A review is for instance in ([Butterfield 06](#Butterfield06)).
 
