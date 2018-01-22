@@ -60,7 +60,7 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-This definition makes makes no statement about the behaviour as $n \to \infty$. In particular an asymptotic series may have vanishing [[radius of convergence]] (and nevertheless provide useful approximate information).
+This definition makes no statement about the behaviour as $n \to \infty$. In particular an asymptotic expansion may have vanishing [[radius of convergence]] (and nevertheless provide useful approximate information).
 
 =--
 
