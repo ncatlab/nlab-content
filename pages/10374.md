@@ -71,8 +71,22 @@ $$
 
 This is the _quantum master Ward identity_ on [[regular polynomial observables]] (i.e. before [[renormalization]]) according to [Rejzner 13, (37)](#Rejzner13).
 
-In the [[classical limit]] $\hbar \to 0$ this becomes
+Hence for $A \in PolyObs(E_{\text{BV-BRST}})_{reg}[ [ \hbar, g] ] $ this reads
 
+$$
+  \{-S', \mathcal{R}^{-1}(A) \} 
+  \;=\;
+  -
+  \mathcal{R}^{-1}
+  \left(
+    \left\{ S' + S_{int} \,,\, A \right\}_{\mathcal{T}} 
+      + 
+    i \hbar \Delta_{BV}(A)
+  \right)
+$$
+
+
+In the [[classical limit]] $\hbar \to 0$ this becomes
 
 $$
   \{-S',(-)\} \circ \mathcal{R}^{-1}   
