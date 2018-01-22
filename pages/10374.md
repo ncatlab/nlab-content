@@ -42,17 +42,19 @@ $$
 Let moreover
 
 $$
-  S_1 \;\in\; PolyObs(E_{\text{BV-BRST}})_{{reg}\atop {deg = 0}}[ [ \hbar ] ]
+  g S_{int} 
+   \;\in\; 
+  PolyObs(E_{\text{BV-BRST}})_{{reg}\atop {deg = 0}}[ [ \hbar , g  ] ]
 $$
 
-be a [[regular polynomial observable]] in degree 0 (regarded as an [[adiabatic switching|adiabatically switched]] non-point-[[interaction]] [[action functional]]) such that the total action $S' + S_{int}$ satisfies the [[quantum master equation]] ([this prop.](quantum+master+equation#QuantumMasterEquation)); and write
+be a [[regular polynomial observable]] in degree 0 (regarded as an [[adiabatic switching|adiabatically switched]] non-point-[[interaction]] [[action functional]]) such that the total action $S' + g S_{int}$ satisfies the [[quantum master equation]] ([this prop.](quantum+master+equation#QuantumMasterEquation)); and write
 
 $$
   \mathcal{R}^{-1}(-)
   \;\coloneqq\;
-  \mathcal{S}(S_{int})^{-1} 
+  \mathcal{S}(g S_{int})^{-1} 
     \star_H 
-  (\mathcal{S}(S_{int}) \star_F (-))
+  (\mathcal{S}(g S_{int}) \star_F (-))
 $$
 
 for the corresponding [[quantum Møller operator]] ([this def.](quantum+master+equation#MollerOperatorOnRegularPolynomialObservables)).
@@ -60,45 +62,112 @@ for the corresponding [[quantum Møller operator]] ([this def.](quantum+master+e
 Then by [this prop.](quantum+master+equation#QuantumMasterEquation) we have
 
 $$
+  \label{OnRegularObservablesQuantumMasterWardIdentityViaTimeOrdered}
   \{-S',(-)\} \circ \mathcal{R}^{-1}   
   \;=\;
-  -
-  \mathcal{R}^{-1}
+  \mathcal{R}^{1}
   \left(
-    \left\{ S' + S_{int} \,,\, (-) \right\}_{\mathcal{T}} + i \hbar \Delta_{BV}
+    \left\{ -(S' + g S_{int}) \,,\, (-) \right\}_{\mathcal{T}} 
+    - 
+    i \hbar   \Delta_{BV}
   \right)
 $$
 
 This is the _quantum master Ward identity_ on [[regular polynomial observables]] (i.e. before [[renormalization]]) according to [Rejzner 13, (37)](#Rejzner13).
 
-Hence for $A \in PolyObs(E_{\text{BV-BRST}})_{reg}[ [ \hbar, g] ] $ this reads
++-- {: .num_remark }
+###### Remark
+**([[quantum master Ward identity]] relates [[quantum field theory|quantum]] [[interacting field theory|interacting field]] [[equation of motion|EOMs]] to [[classical field theory|classical]] [[free field]] [[equation of motion|EOMs]])**
+
+For $A \in PolyObs(E_{\text{BV-BRST}})_{reg}[ [ \hbar, g] ] $ the [[quantum master Ward identity]] on [[regular polynomial observables]] (eq:OnRegularObservablesQuantumMasterWardIdentityViaTimeOrdered) reads
 
 $$
+  \mathcal{R}^{-1}
+  \left(
+    \left\{ -(S' + g S_{int}) \,,\, A \right\}_{\mathcal{T}} 
+    - 
+    i \hbar   \Delta_{BV}(A)
+  \right)
+  \;=\;
   \{-S', \mathcal{R}^{-1}(A) \} 
-  \;=\;
-  -
-  \mathcal{R}^{-1}
+$$
+
+The term on the right is manifestly in the [[image]] of the global [[BV-differential]] $\{-S',-\}$ of the [[free field theory]] ([this def.](A+first+idea+of+quantum+field+theory#ComplexBVBRSTGlobal)) and hence vanishes when passing to [[on-shell]] observables along the [[isomorphism]] ([this equation](A+first+idea+of+quantum+field+theory#eq:OnShellPolynomialObservablesAsBVCohomology))
+
+$$
+  \underset{
+    \text{on-shell}
+  }{
+  \underbrace{
+    PolyObs(E_{\text{BV-BRST}}, \mathbf{L}')
+  }}
+  \;\simeq\;
+  \underset{
+    \text{off-shell}
+  }{
+  \underbrace{
+    PolyObs(E_{\text{BV-BRST}})_{def(af = 0)}
+  }}/im(\{-S',-\})
+$$
+
+(by [this example](A+first+idea+of+quantum+field+theory#BVDifferentialGlobal)).
+
+Hence
+
+$$
+  \mathcal{R}^{1}
   \left(
-    \left\{ S' + S_{int} \,,\, A \right\}_{\mathcal{T}} 
-      + 
-    i \hbar \Delta_{BV}(A)
+    \left\{ -(S' + g S_{int}) \,,\, A \right\}_{\mathcal{T}} 
+    - 
+    i \hbar   \Delta_{BV}(A)
   \right)
-$$
-
-
-In the [[classical limit]] $\hbar \to 0$ this becomes
-
-$$
-  \{-S',(-)\} \circ \mathcal{R}^{-1}   
   \;=\;
-  -
-  \mathcal{R}^{-1}
-  \left(
-    \left\{ S' + S_{int} \,,\, (-) \right\}
-  \right)
+  0
+  \phantom{AAA}
+  \text{on-shell}
 $$
 
-Applied to an observable which is linear in the [[antifields]]
+In contrast, the left hand side is the [[interacting field observable]] (via [this def.](S-matrix#MollerOperatorOnRegularPolynomialObservables)) of the [[antibracket]] with the [[action functional]] of the [[interacting field theory]] plus a quantum correction given by the [[BV-operator]].
+
+Hence the [[quantum master Ward identity]] expresses a relation between the ideal spanned by the [[classical field theory|classical]] [[free field theory|free field]] [[equations of motion]] and the [[quantum field theory|quantum]] [[interacting field theory|interacting field]] equations of motion.  
+
+=--
+
++-- {: .num_example}
+###### Example
+**([[free field]]-limit of [[master Ward identity]] is [[Schwinger-Dyson equation]])**
+
+In the [[free field]]-limit $g \to 0$ the [[quantum master Ward identity]] (eq:OnRegularObservablesQuantumMasterWardIdentityViaTimeOrdered) reduces to
+
+$$
+  \left\{ -S'  \,,\, A \right\}_{\mathcal{T}} 
+  - 
+  i \hbar   \Delta_{BV}(A)
+  \;=\;
+  \{-S', A  \} 
+$$
+
+which is the defining equation for the [[BV-operator]] ([this equation](BV-operator#eq:BVOperatorDefiningRelation)), hence is isomorphic (under $\mathcal{T}$) to the [[Schwinger-Dyson equation]] ([this prop.](BV-operator#DysonSchwinger))
+
+=--
+
++-- {: .num_example}
+###### Example
+
+In the [[classical limit]] $\hbar \to 0$ (noticing that the classical limit of $\{-,-\}_{\mathcal{T}}$ is $\{-,-\}$) the [[quantum master Ward identity]] (eq:OnRegularObservablesQuantumMasterWardIdentityViaTimeOrdered) reduces to
+
+$$
+  \mathcal{R}^{1}
+  \left(
+    \left\{ -(S' + g S_{int}) \,,\, A \right\} 
+  \right)
+  \;=\;
+  \{-S', \mathcal{R}^{-1}(A) \} 
+$$
+
+This says that the [[interacting field observable]] corresponding to the global [[antibracket]] with the action functional of the [[interacting field theory]] vanishes on-shell, classically.
+
+Applied to an observable which is [[linear map|linear]] in the [[antifields]]
 
 $$
   A 
@@ -139,6 +208,7 @@ $$
 
 This is the _classical Master Ward identity_ according to ([Dütsch-Fredenhagen 02](#DuetschFredenhagen02), [Brennecke-Dütsch 07, (5.5)](#BrennecketDuetsch07)), following ([Dütsch-Boas 02](#DuetschBoas02)).
 
+=--
 
 
 ## Examples
