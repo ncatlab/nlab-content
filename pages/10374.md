@@ -18,7 +18,7 @@
 
 ## Idea
 
-In [[perturbative quantum field theory]] the _quantum master Ward identity_ expresses the relation between the [[quantum field theory|quantum]] (measured by [[Planck's constant]] $\hbar$) [[interacting field theory|interacting]] (measured by the [[coupling constant]] $g$) [[equations of motion]] to the [[classical field theory|classical]] [[free field]] [[equations of motion]] at $\hbar, g\to 0$ (remark \ref{QuantumMasterEuqationRelatesQuantumInteractingELEquationsToClassicalFreeELEquations} below). As such it generalizes the [[Schwinger-Dyson equation]], to which it reduces for $g = 0$ (example \ref{QuantumMasterEuqationRelatesQuantumInteractingELEquationsToClassicalFreeELEquations} below) as well as the _classical master Ward equation_, which is the case for $\hbar = 0$.
+In [[perturbative quantum field theory]] the _quantum master Ward identity_ (def. \ref{OnRegularPolynomialObservablesMasterWardIdentity} below) expresses the relation between the [[quantum field theory|quantum]] (measured by [[Planck's constant]] $\hbar$) [[interacting field theory|interacting]] (measured by the [[coupling constant]] $g$) [[equations of motion]] to the [[classical field theory|classical]] [[free field]] [[equations of motion]] at $\hbar, g\to 0$ (remark \ref{QuantumMasterEuqationRelatesQuantumInteractingELEquationsToClassicalFreeELEquations} below). As such it generalizes the [[Schwinger-Dyson equation]], to which it reduces for $g = 0$ (example \ref{QuantumMasterEuqationRelatesQuantumInteractingELEquationsToClassicalFreeELEquations} below) as well as the _classical master Ward equation_, which is the case for $\hbar = 0$.
 
 Applied to products of the [[equations of motion]] with any given [[observable]], the master Ward identity becomes a particular _Ward identity_.
 
@@ -41,6 +41,9 @@ Neither of these equations is guaranteed to hold for any choice of [[renormaliza
 ### Before renormalization
  {#BeforeRenormalization}
 
++-- {: .num_defn #OnRegularPolynomialObservablesMasterWardIdentity}
+###### Definition
+
 Consider a [[free field theory|free]] [[gauge fixing|gauge fixed]] [[Lagrangian field theory]] $(E_{\text{BV-BRST}}, \mathbf{L}')$ ([this def.](A+first+idea+of+quantum+field+theory#GaugeFixingLagrangianDensity)) with global [[BV-differential]] on [[regular polynomial observables]] 
 
 $$
@@ -58,10 +61,10 @@ Let moreover
 $$
   g S_{int} 
    \;\in\; 
-  PolyObs(E_{\text{BV-BRST}})_{{reg}\atop {deg = 0}}[ [ \hbar , g  ] ]
+  PolyObs(E_{\text{BV-BRST}})_{reg}[ [ \hbar , g  ] ]
 $$
 
-be a [[regular polynomial observable]] in degree 0 (regarded as an [[adiabatic switching|adiabatically switched]] non-point-[[interaction]] [[action functional]]) such that the total action $S' + g S_{int}$ satisfies the [[quantum master equation]] ([this prop.](quantum+master+equation#QuantumMasterEquation)); and write
+be a [[regular polynomial observable]] (regarded as an [[adiabatic switching|adiabatically switched]] non-point-[[interaction]] [[action functional]]) such that the total action $S' + g S_{int}$ satisfies the [[quantum master equation]] ([this prop.](quantum+master+equation#QuantumMasterEquation)); and write
 
 $$
   \mathcal{R}^{-1}(-)
@@ -87,7 +90,11 @@ $$
   \right)
 $$
 
-This is the _quantum master Ward identity_ on [[regular polynomial observables]], i.e. before [[renormalization]] ([Rejzner 13, (37)](#Rejzner13)).
+This is the _quantum master Ward identity_ on [[regular polynomial observables]], i.e. before [[renormalization]].
+
+=--
+
+([Rejzner 13, (37)](#Rejzner13))
 
 +-- {: .num_remark #QuantumMasterEuqationRelatesQuantumInteractingELEquationsToClassicalFreeELEquations}
 ###### Remark
@@ -129,7 +136,7 @@ $$
 Hence
 
 $$
-  \mathcal{R}^{1}
+  \mathcal{R}^{-1}
   \left(
     \left\{ -(S' + g S_{int}) \,,\, A \right\}_{\mathcal{T}} 
     - 
