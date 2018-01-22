@@ -30,9 +30,17 @@ A [[monadic functor]] creates all limits that exist in its codomain, and all col
 
 ## Terminological remarks
 
-* The condition that $F$ preserves limits of $J$ is often left out of the definition, instead strengthening the first condition to say that for any limiting cone $L$ of $F\circ J$ there is a limiting cone $L'$ of $J$ satisfying the additional condition that $F L' \cong L$ in the appropriate sense.  The latter is certainly implied by preservation of limits, since limits are unique up to canonical isomorphism.  But conversely, for the same reason, if $F$ preserves one limit of $J$ then it must preserve all such limits.  Thus the two definitions are equivalent *if* all limits of the relevant sort exist in $D$.
+MacLane uses a different definition of creation of limits in [[Categories Work]], which reads  
 
-* The above modification is used in [[Categories Work]], together with a more restrictive notion of "creation" that requires $F L' = L$ on the nose, rather than merely up to isomorphism.  (Of course, this violates the [[principle of equivalence]].)  This corresponds to a version of the [[monadicity theorem]] which asserts an isomorphism of categories, rather than merely an equivalence.
+* $F : C \to D$ creates limits for $J : I \to C$, if to every limiting cone $L$ over $F J$ in $D$ there exists a unique cone $L'$ over $J$ which is mapped to $L$, and this $L'$ is a limit of $J$.
+
+ This definition is **non-equivalent** to the one given here in two ways:
+
+1. MacLane's definition imposes strict equality conditions on objects, which violates the [[principle of equivalence]].
+
+2. MacLane's definition implies the preservation of limits only if a limiting cone exists in $D$. For example, $1\to 2$ creates limits for $1\to 1$ in MacLane's sense, but not in the sense of the definition given here.
+
+The additional strictness in MacLane's definition is useful to give a version of the [[monadicity theorem]] up to isomorphism - rather than equivalence - of categories.
 
 * [Kissinger](http://permalink.gmane.org/gmane.science.mathematics.categories/6644) suggested a concise way to state creation/preservation/etc. of limits.  However, there is [some dispute](https://nforum.ncatlab.org/discussion/7024/lifted-limit/?Focus=56765#Comment_56765) about its correctness.
 
