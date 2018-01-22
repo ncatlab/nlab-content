@@ -623,7 +623,7 @@ is an [[infinitesimal symmetry of the Lagrangian]] (def. \ref{SymmetriesAndConse
 $$
   \overline{\psi} \gamma^\mu \psi \, \iota_{\partial_\mu} dvol_\Sigma
   \;\in\;
-  \Omega^{p,0}_{\Sigma(E)}
+  \Omega^{p,0}_{\Sigma}(E)
   \,.
 $$
 
