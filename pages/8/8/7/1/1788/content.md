@@ -1,5 +1,9 @@
 
 
+[[QEDVacuumDiagram.png:file]]
+
+<img src="https://ncatlab.org/nlab/files/QEDVacuumDiagram.png" width="200">
+
 $$
   E_{\text{BV-BRST}}
   \;\simeq\;
