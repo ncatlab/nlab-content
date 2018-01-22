@@ -500,7 +500,10 @@ $$
 which is equivalent to
 
 $$
-  d(\underset{= J_{\hat v}}{\underbrace{\tilde J_{\hat v} - \iota_{\hat v} \Theta_{BFV}}}) = \iota_{\hat v} \delta_{EL}\mathbf{L}
+  \label{CurrentNoetherConservation}
+  d(\underset{= J_{\hat v}}{\underbrace{\tilde J_{\hat v} - \iota_{\hat v} \Theta_{BFV}}}) 
+   \;=\; 
+  \iota_{\hat v} \delta_{EL}\mathbf{L}
 $$
 
 Since, by definition of the [[shell]] $\mathcal{E}$, the differential form on the right
