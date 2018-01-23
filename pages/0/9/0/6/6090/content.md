@@ -5109,9 +5109,10 @@ $$
 The [[field bundle]] for [[Gaussian-averaged Lorenz gauge|Lorenz]] [[gauge fixing|gauge fixed]] [[quantum electrodynamics]]
 on [[Minkowski spacetime]] $\Sigma$ admits a decomposition into field species, according to def. \ref{VerticesAndFieldSpecies}, as
 
+
 $$
   E_{\text{BV-BRST}}
-  \;\simeq\;
+  \;=\;
    \underset{
       \text{Dirac}
       \atop
@@ -5120,58 +5121,33 @@ $$
     \underbrace{
     (S_{odd} \times \Sigma)
     }}
-     \times_\Sigma
+    \times_\Sigma
    \underset{
-     \text{gauge fixed}
+     {\text{electromagnetic field &amp;}}
      \atop
-     \text{electromagnetic field}
+     {\text{Nakanishi-Lautrup field}}
+    }{
+    \underbrace{
+      T^\ast\Sigma
+       \times_\Sigma
+      (\mathbb{R} \times \Sigma)
+    }}
+   \times_\Sigma
+   \underset{
+     \text{ghost field}
    }{
    \underbrace{
+     (\mathbb{R}[1] \times \Sigma)
+   }
+   }
+   \times_\Sigma
    \underset{
-     {\text{electromagnetic}}
-     \atop
-     {\text{field}}
-    }{
-    \underbrace{
-    T^\ast\Sigma
-    }}
-      \times_\Sigma
-    \underset{
-      \text{auxiliary}
-        \atop
-      \text{fields}
-    }{
-    \underbrace{
-    \underset{
-      \text{ghost}
-      \atop
-      \text{field}
-    }{
-    \underbrace{
-    (\mathbb{R}[1] \times \Sigma)
-    }}
-      \times_\Sigma
-    \underset{
-      \text{NL auxiliary}
-      \atop
-      \text{field}
-    }{
-    \underbrace{
-    (\mathbb{R} \times \Sigma)
-    }}
-      \times_\Sigma
-    \underset{
-      \text{antighost}
-      \atop
-      \text{field}
-    }{
-    \underbrace{
-    (\mathbb{R}[-1] \times \Sigma)
-    }}
-    }
-    }
-    }
-    }
+     \text{antighost field}
+   }{
+   \underbrace{
+     (\mathbb{R}[-1] \times \Sigma)
+   }
+   }
 $$
 
 (by [this example](A+first+idea+of+quantum+field+theory#LagrangianQED) and [this example](A+first+idea+of+quantum+field+theory#NLGaugeFixingOfElectromagnetism)).
@@ -5193,18 +5169,22 @@ $$
   }
   +
   \underset{
-    \text{electromagnetic}
+    \text{electromagnetic field &amp;}
     \atop
-    \text{field}
+    \text{Nakanishi-Lautrup field}
   }{
   \underbrace{
-    \Delta_F^{photon}
+    \left(
+      \array{
+        \Delta_F^{photon} & *
+        \\
+        * & *
+      }
+    \right)
   }
   }
   +
   \Delta_F^{ghost}
-  +
-  \Delta_F^{NL}
   +
   \Delta_F^{\text{antighost}}
   \,,
