@@ -58,7 +58,7 @@ See also [[Lambda-ring]], [[blue scheme]] and [[tropical geometry]].
 
 ### Expositions 
 
-* [[Lieven Le Bruyn]], _Looking for $F_{un}$_, [blog](http://www.neverendingbooks.org/index.php/looking-for-f_un.html)
+* [[Lieven Le Bruyn]], _Looking for $F_{un}$_, [blog](http://www.neverendingbooks.org/looking-for-f_un)
 
 A survey of the various competing theories is
 
