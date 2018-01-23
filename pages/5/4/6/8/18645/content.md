@@ -159,9 +159,7 @@ $\,$
 
 [[!include A first idea of quantum field theory -- Free quantum fields]]
 
-[[!include A first idea of quantum field theory -- Scattering]]
-
-[[!include A first idea of quantum field theory -- Quantum observables]]
+[[!include A first idea of quantum field theory -- Interacting quantum fields]]
 
 [[!include A first idea of quantum field theory -- Renormalization]]
 
