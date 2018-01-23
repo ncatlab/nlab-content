@@ -39,7 +39,7 @@ Such induction-induction occurs for instance when formalising [[dependent type t
 
 ## Results ##
 
-Inductive-inductive types are related to [[inductive-recursive types]]. Importantly, inductive-inductive types have an initial algebra semantics with respect to [[dialgebras]]. In [Forsberg's thesis](#ForsbergThesis) inductive-inductive types (with simple elimination rules) are reduced to [[indexed inductive types]]. These in turn can be reduced to [[W-types]] in an extensional type theory. See [[inductive families]].
+Inductive-inductive types are related to [[inductive-recursive types]]. Importantly, inductive-inductive types have an initial algebra semantics with respect to [[dialgebras]]. In [Forsberg's thesis](#ForsbergThesis) inductive-inductive types are reduced to [[indexed inductive types]] in the setting of extensional type theory. This reduction however only provides non-dependent elimination rules. Indexed inductive types in turn can be reduced to [[W-types]] in extensional type theory. See [[inductive families]].
 
 The consistency of the framework used for the elimination (e.g. in the [[theorem prover]] [[Agda]]) is not so clear, as it allows the definition of a universe containing a code for itself. There is an axiomatisation of the new principle in such a way that the resulting type theory is consistent, as proved by constructing a set-theoretic model; see [Forsberg-Setzer 10](#ForsbergSetzer10).
 
@@ -63,9 +63,6 @@ Swansea University, 2013.  [PDF](http://cs.swan.ac.uk/~csfnf/thesis/thesis.pdf)
 * {#cat} Thorsten Altenkirch, Peter Morris, [[Fredrik Nordvall Forsberg]], [[Anton Setzer]],  _A Categorical Semantics for Inductive-Inductive Definitions_, CALCO, 2011 [link](https://link.springer.com/chapter/10.1007%2F978-3-642-22944-2_6)
 
 * {#QIIT}  Thorsten Altenkirch, Paolo Capriotti, Gabe Dijkstra, Fredrik Nordvall Forsberg, _Quotient inductive-inductive types_, [arXiv](https://arxiv.org/abs/1612.02346), 2016
-
-* Ambrus Kaposi, Andr&#225;s Kov&#225;cs, _[Codes for quotient inductive inductive types](https://akaposi.github.io/qiit.pdf)_
-
 
 Parts of the above text are taken from 
 
