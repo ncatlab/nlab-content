@@ -1103,7 +1103,7 @@ which express the [[probability amplitudes]] that reflect the predictions of the
 
 =--
 
-([Epstein-Glaser 73, around (74)](#EpsteinGlaser73); review includes ([D&#252;tsch-Fredenhagen 00, around (17)](#DuetschFredenhagen00), [Dütsch 18, around (3.212)](pAQFR#Duetsch18)).
+([Epstein-Glaser 73, around (74)](#EpsteinGlaser73); review includes ([D&#252;tsch-Fredenhagen 00, around (17)](#DuetschFredenhagen00), [Dütsch 18, around (3.212)](pAQFT#Duetsch18)).
 
 
 +-- {: .num_example #FormalPowerSeriesInteractingFieldObservables}
@@ -3844,7 +3844,7 @@ Here the sub-sum in brackets vanishes by the inversion formula, prop. \ref{Inver
 #### ("Re"-)Normalization
  {#ExistenceAndRenormalization}
 
-We discuss now that [[time-ordered products]] as in def. \ref{TimeOrderedProduct}, hence, by prop. \ref{TimeOrderedProductInducesPerturbativeSMatrix}, perturbatibe [[S-matrix]] schemes (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) exist in fact uniquely away from coinciding interaction points (prop. \ref{TimeOrderedProductAwayFromDiagonal} below).
+We discuss now that [[time-ordered products]] as in def. \ref{TimeOrderedProduct}, hence, by prop. \ref{TimeOrderedProductInducesPerturbativeSMatrix}, perturbative [[S-matrix]] schemes (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) exist in fact uniquely away from coinciding interaction points (prop. \ref{TimeOrderedProductAwayFromDiagonal} below).
 
 This means that the construction of full [[time-ordered products]]/[[S-matrix]] schemes may be phrased as an [[extension of distributions]] of time-ordered products to the [[diagonal]] locus of coinciding spacetime arguments (prop. \ref{RenormalizationIsInductivelyExtensionToDiagonal} below).
 This choice in their definition is called the choice of _[[renormalization|("re"-)normalization]]_ of the [[time-ordered products]] (remark \ref{CausalPerturbationTheoryAbsenceOfUVDivergences}), and hence of the [[interacting field theory|interacting]] [[pQFT]] that these define (def. \ref{ExtensionOfTimeOrderedProoductsRenormalization} below).
