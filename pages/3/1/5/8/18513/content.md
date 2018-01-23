@@ -615,6 +615,7 @@ $$
 given by
 
 $$
+  \label{OnRegularPolynomialObservablesPointwiseTimeOrderedIsomorphism}
   \mathcal{T}A
   \;\coloneqq\;
   \exp\left(
