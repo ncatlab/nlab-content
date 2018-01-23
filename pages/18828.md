@@ -1307,10 +1307,24 @@ From this we immediately obtain the [[propagators]] for the gauge-fixed [[electr
 ###### Proposition
 **([[photon propagator]] in [[Gaussian-averaged Lorenz gauge]])**
 
-After [[gauge fixing|fixing]] [[Gaussian-averaged Lorenz gauge]] (example \ref{NLGaugeFixingOfElectromagnetism}) of the [[electromagnetic field]] on [[Minkowski spacetime]] the [[causal propagator]] (prop. \ref{GreenFunctionsAreContinuous}) of the [[electromagnetic field]] is
+After [[gauge fixing|fixing]] [[Gaussian-averaged Lorenz gauge]] (example \ref{NLGaugeFixingOfElectromagnetism}) of the [[electromagnetic field]] on [[Minkowski spacetime]], the [[causal propagator]] (prop. \ref{GreenFunctionsAreContinuous}) of the combined [[electromagnetic field]] and [[Nakanishi-Lautrup field]] is of the form
 
 $$
-  \Delta_{\mu \nu}(x,y)
+  \Delta^{EM, EL}
+  \;=\;
+  \left(
+    \array{
+      \Delta^{photon} & \ast
+      \\
+      \ast & \ast
+    }
+  \right)
+$$
+
+with
+
+$$
+  \Delta^{photon}_{\mu \nu}(x,y)
   \;=\;
   \eta_{\mu \nu} \Delta(x,y)
   \,,
@@ -1325,7 +1339,7 @@ where
 Accordingly the [[Feynman propagator]] of the [[electromagnetic field]] in [[Gaussian-averaged Lorenz gauge]] is
 
 $$
-  (\Delta_F)_{\mu \nu}(x,y)
+  (\Delta^{photon}_F)_{\mu \nu}(x,y)
   \;=\;
   \eta_{\mu \nu} \Delta_F(x,y)
   \,,
@@ -1338,7 +1352,7 @@ This is also called the _[[photon propagator]]_.
 Hence by prop. \ref{FeynmanPropagatorAsACauchyPrincipalvalue} the [[Fourier transform of distributions|distributional Fourier transform]] of the photon propagator is
 
 $$
-  \widehat{\Delta_F}_{\mu \nu}(k)
+  \widehat{\Delta^{photon}_F}_{\mu \nu}(k)
   \;=\;
   \frac{1}{- k^\mu k_\mu + i 0^+}
   \,.
@@ -1346,7 +1360,7 @@ $$
 
 =--
 
-(this is a special case of [Khavkine 14 (99)](gauge+fixing#Khavkine14))
+(this is a special case of [Khavkine 14 (99)](gauge+fixing#Khavkine14), see also [Rejzner 16, (7.20)](perturbative+algebraic+quantum+field+theory#Rejzner16))
 
 +-- {: .proof}
 ###### Proof
