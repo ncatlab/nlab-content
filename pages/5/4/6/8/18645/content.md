@@ -107,7 +107,7 @@ The discussion of [[quantization]] in _[13. Quantization](#Quantization)_ takes 
 
 The perspective on the [[Wick algebra]] in _[14. Free quantum fields](#FreeQuantumFields)_ goes back to [Dito 90](Wick+algebra#Dito90) and was revived for [[pAQFT]] in [Dütsch-Fredenhagen 00](Wick+algebra#DuetschFredenhagen00). The proof of the folklore result that the perturbative [[Hadamard vacuum state]] on the [[Wick algebra]] is indeed a [[state on a star-algebra|state]] is cited from  [Dütsch 18](Wick#algebra#Duetsch18).
 
-The discussion of [[causal perturbation theory]] in _[15. Scattering](#Scattering)_ follows the original [Epstein-Glaser 73](causal+perturbation+theory#EpsteinGlaser73). The relevance here of the [[star product]] induced by the [[Feynman propagator]] was highlighted in ([Fredenhagen-Rejzner 12](perturbative+algebraic+quantum+field+theory#FredenhagenRejzner12)). Our derivation of [[Feynman diagrams|Feynman diagrammatics]] is due to [Keller 10](Feynman+diagram#Keller10).
+The discussion of [[causal perturbation theory]] in _[15. Interacting quantum fields](#QuantumObservables)_ follows the original [Epstein-Glaser 73](causal+perturbation+theory#EpsteinGlaser73). The relevance here of the [[star product]] induced by the [[Feynman propagator]] was highlighted in ([Fredenhagen-Rejzner 12](perturbative+algebraic+quantum+field+theory#FredenhagenRejzner12)). Our derivation of [[Feynman diagrams|Feynman diagrammatics]] follows [Keller 10](Feynman+diagram#Keller10).
 
 (...)
 
@@ -119,7 +119,7 @@ $\,$
 
 These notes profited greatly from discussions with [[Igor Khavkine]].
 
-Thanks also to [[Marco Benini]], [[Klaus Fredenhagen]], [[Arnold Neumaier]], [[Kasia Rejzner]] for helpful discussion.
+Thanks also to [[Marco Benini]], [[Michael Dütsch]], [[Klaus Fredenhagen]], [[Arnold Neumaier]], [[Kasia Rejzner]] for helpful discussion.
 
 
 $\,$
