@@ -5,7 +5,7 @@
 
 ## Statement
 
-For a [[planar graph]] $\Gamma$ the numbers of [[edges]], [[vertices]] and number of regions enclosed by edges ("[[faces]]") always satisfies the relation
+For a [[connected graph|connected]] [[finite graph|finite]] [[planar graph]] $\Gamma$ the numbers of [[edges]], [[vertices]] and number of regions enclosed by edges ("[[faces]]") always satisfies the relation
 
 $$
   1 = \vert Vertices(\Gamma)\vert - \vert Edges(\Gamma)\vert + 
