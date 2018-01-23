@@ -4076,18 +4076,29 @@ By prop. \ref{NotationForTimeOrderedProductsAsGeneralizedFunctions}, on [[regula
 
 Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}.
 
-The _[[time-ordered product]] on [[regular polynomial observables]]_
-is the [[star product]] $\star_F$ induced by the [[Feynman propagator]] [this. def.](Wick+algebra#OnRegularPolynomialObservablesTimeOrderedProduct))
+Recall that the _[[time-ordered product]] on [[regular polynomial observables]]_
+is the [[star product]] $\star_F$ induced by the [[Feynman propagator]] ([this. def.](Wick+algebra#OnRegularPolynomialObservablesTimeOrderedProduct)) and that, due to the [[non-singular distribution|non-singular]]
+nature of [[regular polynomial observables]], this is given by [[conjugation]] of the pointwise product ([this equation](A+first+idea+of+quantum+field+theory#eq:ObservablesPointwiseProduct)) with $\mathcal{T}$ ([this equation](Wick+algebra#eq:OnRegularPolynomialObservablesPointwiseTimeOrderedIsomorphism)) as
 
-The _[[perturbative S-matrix]]_ on [[regular polynomial observables]]
+$$
+  T(A_1, A_2)
+  \;=\;
+  A_1 \star_F A_2
+  \;=\;
+  \mathcal{T}( \mathcal{T}^{-1}(A_1) \cdot \mathcal{T}^{-1}(A_2))
+$$
+
+([this prop.](Wick+algebra#IsomorphismOnRegularPolynomialObservablesTimeOrderedandPointwise)).
+
+We say that the _[[perturbative S-matrix]] scheme_ on [[regular polynomial observables]]
 is the [[exponential]] with respect to $\star_F$:
 
 $$
   \mathcal{S}
   \;\colon\;
-  PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
+  PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar, g , j] ]
     \longrightarrow
-  PolyObs(E_{\text{BV-BRST}})_{reg}((\hbar))
+  PolyObs(E_{\text{BV-BRST}})_{reg}((\hbar))[ [ g, j] ]
 $$
 
 given by
@@ -4142,12 +4153,13 @@ Similarly, by def. \ref{QuntumMollerOperator}, on [[regular polynomial observabl
 ###### Definition
 **([[quantum Møller operator]] on [[regular polynomial observables]])**
 
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}.
 Given an [[adiabatic switching|adiabatically switched]] non-point-[[interaction]] [[action functional]] in the form of a [[regular polynomial observable]] of degree 0
 
 $$
   S_{int}
   \;\in\;
-  PolyObs(E_{\text{BV-BRST}})_{{reg} \atop {deg = 0}}[ [\hbar] ]
+  PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar , g, j] ]
 $$
 
 then the corresponding _[[quantum Møller operator]]_ on [[regular polynomial observables]]
@@ -4155,9 +4167,9 @@ then the corresponding _[[quantum Møller operator]]_ on [[regular polynomial ob
 $$
   \mathcal{R}^{-1}
   \;\colon\;
-  PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
+  PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar , g, j] ]
     \longrightarrow
-  PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
+  PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar, g, j] ]
 $$
 
 is given by the [[derivative]] of [[Bogoliubov's formula]]
@@ -4195,25 +4207,25 @@ Still by def. \ref{QuntumMollerOperator}, on [[regular polynomial observables]] 
 
 +-- {: .num_defn #FieldAlgebraObservablesInteracting}
 ###### Definition
-**([[interacting field algebra]])**
+**([[interacting field algebra]] [[structure]] on [[regular polynomial observables]])**
 
-Given an [[adiabatic switching|adiabatically switched]] non-point-[[interaction]] [[action functional]] in the form of a [[regular polynomial observable]] in degree 0
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}. Given an [[adiabatic switching|adiabatically switched]] non-point-[[interaction]] [[action functional]] in the form of a [[regular polynomial observable]] in degree 0
 
 $$
   S_{int}
   \;\in\;
-  PolyObs(E_{\text{BV-BRST}})_{{reg} \atop {deg = 0}}[ [\hbar] ]
+  PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar, g, j] ]
   \,,
 $$
 
 then the _[[interacting field algebra]]_ [[structure]] on [[regular polynomial observables]]
 
 $$
-  PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
+  PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar, g, j] ]
     \otimes
-  PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
+  PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar, g, h] ]
     \overset{ \star_{int} }{\longrightarrow}
-  PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
+  PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar, g, j] ]
 $$
 
 is the [[conjugation]] of the [[Wick algebra]]-[[structure]] by the [[quantum Møller operator]] (def. \ref{MollerOperatorOnRegularPolynomialObservables}):
@@ -4245,7 +4257,7 @@ Notice the following dependencies of these defnitions, which we leave notational
 
 $\,$
 
-After having discussed the uniqueness of the [[time-ordered products]] away from coinciding spacetime arguments (prop. \ref{TimeOrderedProductAwayFromDiagonal}) we now phrase and then discuss the freedom in defining thse products at coinciding arguments, that [[renormalization|("re"-)normalizing]] them.
+After having discussed the uniqueness of the [[time-ordered products]] away from coinciding spacetime arguments (prop. \ref{TimeOrderedProductAwayFromDiagonal}) we now phrase and then discuss the freedom in defining these products at coinciding arguments, thus [[renormalization|("re"-)normalizing]] them.
 
 +-- {: .num_defn #ExtensionOfTimeOrderedProoductsRenormalization}
 ###### Definition
@@ -4471,14 +4483,60 @@ is well defined and satisfies causal factorization.
 Since [[renormalization|("re"-)normalization]] involves making choices, there is the freedom to impose
 further conditions that one may want to have satisfied. These are called _[[renormalization conditions]]_.
 
-+-- {: .num_prop #ConditionsRenormalization}
-###### Proposition
-**([[renormalization conditions]])**
++-- {: .num_defn #RenormalizationConditions}
+###### Definition
+**([[renormalization conditions]] and [[quantum anomalies]])**
 
 Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}.
 
-Then the unique [[time-ordered product]] away from coinciding spacetime arguments (prop. \ref{TimeOrderedProductAwayFromDiagonal})
-satisfies the following conditions
+Then a condition $P$ on $k$-ary functions of the form
+
+$$
+  T_k
+    \;\colon\;
+  \left(
+    {\, \atop \,}
+    LocObs(E_{\text{BV-BRST}})[ [\hbar, g, j] ]
+    {\, \atop \,}
+  \right)^{\otimes^k_{\mathbb{C}[ [\hbar, g, j] ]}}
+    \longrightarrow
+  PolyObs(E_{\text{BV-BRST}})_{reg}((\hbar))[ [g , j] ]
+$$
+
+is called a _renormalization condition_ if 
+
+1. it holds for the unique [[time-ordered products]] away from coinciding spacetime arguments (according to prop. \ref{TimeOrderedProductAwayFromDiagonal});
+
+1. whenever it holds for all unrestricted $T_{k \leq n}$ for some $n \in \mathbb{N}$, then it also holds 
+   for $T_{n+1}$ restricted away from the diagonal:
+
+   $$
+     P(T_k)_{k \leq n}
+     \;\Rightarrow\;
+     P\left(
+       T_{n+1}\vert_{\Sigma^{n+1} \setminus diag(\Sigma)}
+     \right)
+     \,.
+   $$
+
+This means that a renormalization condition is a condition that may consistently be imposed degreewise
+in an [[induction|inductive]] construction of [[time-ordered products]] by degreewise [[extension of distributions|extension]]
+to the [[diagonal]], according to prop. \ref{RenormalizationIsInductivelyExtensionToDiagonal}.
+
+If for specified renormalization conditions $\{P_i\}$ there is _no_ choice of [[time-ordered products]] $\{T_k\}_{k \in \mathbb{N}}$
+(def. \ref{TimeOrderedProduct}) that satisfies all these conditions, then one says that an
+[[interacting field theory|interacting]] [[perturbative QFT]] satisfying $\{P_i\}$ fails to exist due to a _[[quantum anomaly]]_.
+
+=--
+
+
++-- {: .num_prop #BasicConditionsRenormalization}
+###### Proposition
+**(basic [[renormalization conditions]])**
+
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}.
+
+Then the following conditions are [[renormalization conditions]] (def. \ref{RenormalizationConditions}):
 
 1. (field independence) The [[functional derivative]] of a [[polynomial observable]] arising as a [[time-ordered product]] takes contributions only from the arguments, not from the product operation itself: In [[generalized function]]-notation:
 
@@ -4513,15 +4571,27 @@ satisfies the following conditions
 
 1. ([[quantum master equation]], [[master Ward identity]]) see prop. \ref{QuantumMasterEquation}
 
-Requiring any of these properties to still hold for [[renormalization|("re"-)normalized]] [[time-ordered products]]
-at coinciding spacetime arguments is called a _renormalization condition_.
-If there is _no_ renormalization choice satisfying a chosen subset of these conditions, one says that the
-[[interacting field theory|interacting]] [[perturbative QFT]] fails to exist due to a _[[quantum anomaly]]_,
-specifically a _[[gauge anomaly]]_ is the [[quantum master equation]]/[[master Ward identity]] may not be satisfied.
+   (if this condition fails, the corresponding [[quantum anomaly]] (def. \ref{RenormalizationConditions}) is called a _[[gauge anomaly]]_)
+
 
 =--
 
 ([Duetsch 18, p. 150 and section 4.2](#Duetsch18))
+
++-- {: .proof}
+###### Proof
+
+For the first two statements this is obvious from prop. \ref{RenormalizationIsInductivelyExtensionToDiagonal} and prop. \ref{TimeOrderedProductAwayFromDiagonal}, which imply that $T_{n+1}\vert_{\Sigma^{n+1} \setminus diag(\Sigma)}$ is 
+uniquely specified from $\{T_k\}_{k \leq n}$ via the [[star product]] induced by the [[Feynman propagator]],
+and the fact that, on [[Minkowski  spacetime]], this is manifestly translation invariant and independent of the fields
+(e.q. [this prop.](Feynman+propagator#FeynmanPropagatorAsACauchyPrincipalvalue)).
+
+The third statement requires work. That the [[quantum master equation]]/([[master Ward identity]] 
+always holds on [[regular polynomial observables]] is prop. \ref{QuantumMasterEquation} below.
+That it holds for $T_{n+1}\vert_{\Sigma^{n+1} \setminus diag(\Sigma)}$ if it holds for $\{T_k\}_{k \leq n}$
+is shown in ([Duetsch 18, section 4.2.2](#Duetsch18)).
+
+=--
 
 +-- {: .num_theorem #PerturbativeRenormalizationMainTheorem}
 ###### Theorem
@@ -4530,7 +4600,7 @@ specifically a _[[gauge anomaly]]_ is the [[quantum master equation]]/[[master W
 Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}.
 
 1. An [[S-matrix]] [[renormalization scheme]] (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) around this free vacuum,
-   satisfying the [[renormalization conditions]] "field independence" and "translation inavriance" (prop. \ref{ConditionsRenormalization}),
+   satisfying the [[renormalization conditions]] (def. \ref{RenormalizationConditions}) "field independence" and "translation inavriance" (prop. \ref{BasicConditionsRenormalization}),
    exists, and its construction by choices of [[renormalization|("re"-)normalization]] of [[time-ordered products]] $\{T_k\}_{k \in \mathbb{N}}$ according to def. \ref{ExtensionOfTimeOrderedProoductsRenormalization} involves precisely a [[finite-dimensional vector space]] of choices ("renormalization constants") at each order $k \in \mathbb{N}$.
 
 1. Every [[pair]] $\mathcal{S}$, $\widetilde{\mathcal{S}}$ of such choices are related by a unique transformation of the space of [[local observables]] ("adding counterterms to interactions")
@@ -4556,7 +4626,7 @@ Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field the
 
 In summary this says that for each free field vacuum, the space of [[renormalization schemes]] for [[perturbative QFT]] around this vacuum is non-empty and is canonically a [[torsor]] over the [[Stückelberg-Petermann renormalization group]].
 
-Notice that the [[Stückelberg-Petermann renormalization group]] involves neither [[scaling transformations]] as in [[Gell-Mann-Low renormalization cocycles]], nor cutoffs as in Wilsonian [[effective field theory]]. But these perspective follow ([Brunetti-Dütsch-Fredenhagen 09](renormalization+group#BrunettiDuetschFredenhagen09)).
+Notice that the [[Stückelberg-Petermann renormalization group]] involves neither [[scaling transformations]] as in [[Gell-Mann-Low renormalization cocycles]], nor cutoffs as in Wilsonian [[effective field theory]]. But these alternative perspectives may be extracted as specia cases ([Brunetti-Dütsch-Fredenhagen 09](renormalization+group#BrunettiDuetschFredenhagen09)).
 
 $\,$
 
