@@ -23,6 +23,15 @@ The [[main theorem of perturbative renormalization]] holds true if at least the 
 
 Besides "field indepence" and "translation invariance" a key renormalization condition for [[gauge theories]] is the _[[quantum master equation]]_ or quivalently _[[master Ward identity]]_. If this renormalization condition cannot be satisfied, one says that the corresponding [[perturbative QFT]] does not exist due to a "[[gauge anomaly]]". ([Dütsch 18, section 4.2](#Duetsch18))
 
+## Definition
+
+
+For the moment see at _[[S-matrix]]_ [this definition](S-matrix#RenormalizationConditions).
+
+## Examples
+
+For the moment see at _[[S-matrix]]_ [this prop.](S-matrix#BasicConditionsRenormalization)
+
 
 ## References
 
