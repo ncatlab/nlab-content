@@ -4503,11 +4503,11 @@ $$
   PolyObs(E_{\text{BV-BRST}})_{reg}((\hbar))[ [g , j] ]
 $$
 
-is called a _renormalization condition_ if 
+is called a _renormalization condition_ if
 
 1. it holds for the unique [[time-ordered products]] away from coinciding spacetime arguments (according to prop. \ref{TimeOrderedProductAwayFromDiagonal});
 
-1. whenever it holds for all unrestricted $T_{k \leq n}$ for some $n \in \mathbb{N}$, then it also holds 
+1. whenever it holds for all unrestricted $T_{k \leq n}$ for some $n \in \mathbb{N}$, then it also holds
    for $T_{n+1}$ restricted away from the diagonal:
 
    $$
@@ -4581,12 +4581,12 @@ Then the following conditions are [[renormalization conditions]] (def. \ref{Reno
 +-- {: .proof}
 ###### Proof
 
-For the first two statements this is obvious from prop. \ref{RenormalizationIsInductivelyExtensionToDiagonal} and prop. \ref{TimeOrderedProductAwayFromDiagonal}, which imply that $T_{n+1}\vert_{\Sigma^{n+1} \setminus diag(\Sigma)}$ is 
+For the first two statements this is obvious from prop. \ref{RenormalizationIsInductivelyExtensionToDiagonal} and prop. \ref{TimeOrderedProductAwayFromDiagonal}, which imply that $T_{n+1}\vert_{\Sigma^{n+1} \setminus diag(\Sigma)}$ is
 uniquely specified from $\{T_k\}_{k \leq n}$ via the [[star product]] induced by the [[Feynman propagator]],
 and the fact that, on [[Minkowski  spacetime]], this is manifestly translation invariant and independent of the fields
 (e.q. [this prop.](Feynman+propagator#FeynmanPropagatorAsACauchyPrincipalvalue)).
 
-The third statement requires work. That the [[quantum master equation]]/([[master Ward identity]] 
+The third statement requires work. That the [[quantum master equation]]/([[master Ward identity]]
 always holds on [[regular polynomial observables]] is prop. \ref{QuantumMasterEquation} below.
 That it holds for $T_{n+1}\vert_{\Sigma^{n+1} \setminus diag(\Sigma)}$ if it holds for $\{T_k\}_{k \leq n}$
 is shown in ([Duetsch 18, section 4.2.2](#Duetsch18)).
@@ -4998,7 +4998,6 @@ in addition over all possible choices of sets of edges from the first $v$ vertic
 which yield in total the sum over all diagrams with $\nu+1$ vertices.
 
 =--
-
 
 If the [[free field theory]] is decomposed as a [[direct sum]] of free field theories, we obtain a more
 fine-grained concept of [[Feynman amplitudes]]:
@@ -5614,10 +5613,12 @@ $$
   \underset{\Gamma \in \mathcal{G}_{conn}}{\sum}
   \Gamma\left( (g S_{int} + j A)_{i = 1}^{\nu(\Gamma)} \right)
   \;\in\;
-  PolyObs(E_{\text{BV-BRST}})((\hbar))[ [ g, j ] ]
+  PolyObs(E_{\text{BV-BRST}})[ [\hbar,  g, j ] ]
 $$
 
 of [[Feynman amplitudes]] that are labeled only by the _[[connected graphs]]_  $\Gamma \in \mathcal{G}_{conn} \subset \mathcal{G}$ (def. \ref{ConnectedGraphs}).
+
+(A priori $S_{eff}(g,j)$ could contain negative powers of $\hbar$, but it turns out that it does not; this is prop. \ref{FeynmanDiagramLoopOrder} below.)
 
 =--
 
@@ -5775,26 +5776,80 @@ and under multiplication of polynomials the zero-order terms are multiplied.
 =--
 
 The perspective of the [[effective action]] gives a transparent picture of the order of quantum effects involved in the
-[[S-matrix]]:
+[[S-matrix]], this is prop. \ref{FeynmanDiagramLoopOrder} below. In order to state this conveniently, we invoke
+two basic concepts from [[graph theory]]:
+
++-- {: .num_defn #GraphPlanar}
+###### Definition
+**([[planar graphs]] and [[trees]])**
+
+A [[finite multigraph]] (def. \ref{Graphs}) is called a _[[planar graph]]_ if it
+admits an [[embedding]] into the [[plane]], hence if it may be "drawn into the plane" without intersections, in the evident way.
+
+A [[finite multigraph]] is called a _[[tree]]_ if for any two of its [[vertices]]
+there is at most one [[path]] of [[edges]] connecting them, these are examples of planar graphs. We write
+
+$$
+  \mathcal{G}_{tree}
+    \subset
+  \mathcal{G}
+$$
+
+for the [[subset]] of [[isomorphism classes]] of [[finite multigraphs]] with [[linear order|linearly orrdered]] [[vertices]] (def. \ref{Graphs})
+on those which are [[trees]].
+
+=--
+
 
 +-- {: .num_prop #FeynmanDiagramLoopOrder}
 ###### Proposition
-**([[loop order]] and [[tree level]] of [[Feynman diagrams]])**
+**([[loop order]] and [[tree level]] of [[Feynman perturbation series]])**
 
-Let $\Gamma$ be a [[finite multigraph]] (def. \ref{Graphs}) which is [[planar graph|planar]] and [[connected graph|connected]] (def. \ref{ConnectedGraphs}). Then the order of $\hbar$ at which its [[Feynman amplitude]] (def. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints}) contributes in the [[effective action]] (def. \ref{InPerturbationTheoryActionEffective}) is
+The [[effective action]] (def. \ref{InPerturbationTheoryActionEffective}) contains no negative powers of $\hbar$, hence is indeed
+a [[formal power series]] also in $\hbar$:
+
+$$
+  S_{eff}(g,j)
+  \;\in\;
+  PolyObs(E_{\text{BV-BRST}})[ [ \hbar, g, j ] ]
+  \,.
+$$
+
+and in particular
+
+$$
+  \left\langle
+    S_{eff}(g,j)
+  \right\rangle
+  \;\in\;
+  \mathbb{C}[ [ \hbar, g, j] ]
+  \,.
+$$
+
+Moreover, the contribution to the effective action in the [[classical limit]] $\hbar \to 0$
+is precisely that of [[Feynman amplitudes]] of those [[finite multigraphs]] (prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints}) which are [[trees]] (def. \ref{GraphPlanar}); thus called the _[[tree level]]_-contribution:
+
+$$
+  S_{eff}(g,j)\vert_{\hbar = 0}
+  \;=\;
+  i \hbar
+  \underset{\Gamma \in \mathcal{G}_{conn} \cap \mathcal{G}_{tree}}{\sum}
+  \Gamma\left( (g S_{int} + j A)_{i = 1}^{\nu(\Gamma)} \right)
+  \,.
+$$
+
+Finally, a [[finite multigraph]] $\Gamma$ (def. \ref{Graphs}) which is [[planar graph|planar]] (def. \ref{GraphPlanar}) and [[connected graph|connected]] (def. \ref{ConnectedGraphs}) contributes to the effective action
+precisely at order 
 
 $$
   \hbar^{L(\Gamma)}
   \,,
 $$
 
-where $L(\Gamma) \in \mathbb{N}$ is the number of _[[faces]]_ of the [[planar graph]] $\Gamma$, here called the _number of loops_ of the diagram.
-
-Accordingly, the order in $\hbar$ at which the [[Feynman amplitude]] of a [[planar graph|planar]] [[connected graph|connected]] [[Feynman diagram]] contributes is often referred to as the _loop order_.
-
+where $L(\Gamma) \in \mathbb{N}$ is the number of _[[faces]]_ of $\Gamma$, here called the _number of loops_ of the diagram;
+here usually called the _[[loop order]]_ of $\Gamma$.
+ 
 (Beware the terminology clash with [[graph theory]], see the discussion of [[tadpoles]] in remark \ref{Tadpoles}.)
-
-Since a [[graph]] without loops, in this sense, is called a _[[tree]]_, contributions at loop order $L(\Gamma) = 0$, hence those that contribute in the _[[classical limit]]_ $\hbar \to 0$, are often called the _[[tree level]]_ contributions.
 
 =--
 
@@ -5837,9 +5892,9 @@ $$
 
 By the [[Feynman rules]] (prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints}) this means that
 
-1. each [[vertex]] of the Feynman diagram contributes a power $\hbar^{-1}$;
+1. each [[vertex]] of a Feynman diagram contributes a power $\hbar^{-1}$ to its Feynman amplitude;
 
-1. each [[edge]] of the Feynman diagram contributes a power $\hbar^1$.
+1. each [[edge]] of a Feynman diagram contributes a power $\hbar^{+1}$ to its Feynman amplitude.
 
 If we write
 
@@ -5847,16 +5902,19 @@ $$
   E(\Gamma), V(\Gamma) \;\in\; \mathbb{N}
 $$
 
-for the total number of [[vertices]] and [[edges]], respectively, in $\Gamma$, this means that $\Gamma$ contributes at the power
+for the total number of [[vertices]] and [[edges]], respectively, in $\Gamma$, this means that a Feynman amplitude
+corresponding to some $\Gamma \in \mathcal{G}$ contributes precisely at order
 
 $$
+  \label{GeneralFeynmanDiagramhbarContribution}
   \hbar^{E(\Gamma) - V(\Gamma)}
   \,.
 $$
 
-So far this holds for arbitrary $\Gamma$. Now using the assumption that $\Gamma$ is [[planar graph|planar]], then the formula for the _[[Euler characteristic of planar graphs]]_ says that
+So far this holds for arbitrary $\Gamma$. If however $\Gamma$ is [[connected graph|connected]] (def. \ref{ConnectedGraphs}) and [[planar graph|planar]] (def. \ref{GraphPlanar}), then _[[Euler's formula]]_ asserts that
 
 $$
+  \label{ConnectedPlanarGraphEulerCharacteristic}
   E(\Gamma) - V(\Gamma)
   \;=\;
   L(\Gamma) - 1
@@ -5865,13 +5923,33 @@ $$
 
 Hence $\hbar^{L(\Gamma)- 1}$ is the order of $\hbar$ at which $\Gamma$ contributes to the [[scattering matrix]] expressed as the [[Feynman perturbation series]].
 
-Finally, the [[effective action]], by definition (eq:ExpansionEffectiveAction), has the same contributions (for connected Feynman diagrams) but multiplied by another power of $\hbar^1$:
+But the [[effective action]], by definition (eq:ExpansionEffectiveAction), has the same contributions 
+of Feynman amplitudes, but multiplied by another power of $\hbar^1$, hence it contributes at order
 
 $$
-  E(\Gamma) - V(\Gamma) + 1 = L(\Gamma)
+  \hbar^{E(\Gamma) - V(\Gamma) + 1} = \hbar^{L(\Gamma)}
   \,.
 $$
 
+This proves the second claim on [[loop order]].
+
+The first claim, due to the extra factor of $\hbar$ in the definition of the effective action, is equivalent to saying
+that the Feynman amplitude of every [[connected graph|connected]] [[finite multigraph]]
+contributes powers in $\hbar$ of order $\geq -1$ and contributes at order $\hbar^{-1}$ precisely if the graph is a tree.
+
+Observe that a [[connected graph|connected]] [[finite multigraph]] $\Gamma$ with $\nu \in \mathbb{N}$ vertices (necessarily $\nu \geq 1$) has at least $\nu-1$ edges and precisely $\nu - 1$ edges if it is a tree.
+
+To see this, consecutively remove edges from $\Gamma$ as long as possible while retaining connectivity. When this process stops, the result must be a connected tree $\Gamma'$, hence a [[connected graph|connected]] [[planar graph]] with $L(\Gamma') = 0$. Therefore [[Euler's formula]] (eq:ConnectedPlanarGraphEulerCharacteristic) implies that that $E(\Gamma') = V(\Gamma') -1$.
+
+This means that the connected multigraph $\Gamma$ in general has a Feynman amplitude of order
+
+$$
+  \hbar^{E(\Gamma) - V(\Gamma)}
+  =
+  \hbar^{ \overset{\geq 0}{\overbrace{E(\Gamma) - E(\Gamma')}} + \overset{= -1}{\overbrace{E(\Gamma') - V(\Gamma)}}  }
+$$
+
+and precisely if it is a tree its Feynman amplitude is of order $\hbar^{-1}$.
 
 =--
 
