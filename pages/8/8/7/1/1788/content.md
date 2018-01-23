@@ -1,4 +1,102 @@
 
+$$
+  E_{\text{BV-BRST}}
+  \;=\;
+   \underset{
+      \text{Dirac}
+      \atop
+      \text{field}
+    }{
+    \underbrace{
+    (S_{odd} \times \Sigma)
+    }}  
+    \times_\Sigma
+   \underset{
+     {\text{electromagnetic field &amp;}}
+     \atop
+     {\text{Nakanishi-Lautrup field}}
+    }{
+    \underbrace{
+      T^\ast\Sigma
+       \times_\Sigma
+      (\mathbb{R} \times \Sigma)
+    }}
+   \times_\Sigma
+   \underset{
+     \text{ghost field}
+   }{
+   \underbrace{
+     (\mathbb{R}[1] \times \Sigma) 
+   }
+   }
+   \times_\Sigma
+   \underset{
+     \text{antighost field}
+   }{
+   \underbrace{
+     (\mathbb{R}[-1] \times \Sigma) 
+   }
+   }
+$$
+
+$$
+  E_{\text{BV-BRST}}
+  \;\simeq\;
+   \underset{
+      \text{Dirac}
+      \atop
+      \text{field}
+    }{
+    \underbrace{
+    (S_{odd} \times \Sigma)
+    }}
+     \times_\Sigma
+   \underset{
+     \text{gauge fixed}
+     \atop
+     \text{electromagnetic field}
+   }{
+   \underbrace{
+   \underset{
+     {\text{electromagnetic}}
+     \atop
+     {\text{field}}
+    }{
+    \underbrace{
+    T^\ast\Sigma
+    }}
+      \times_\Sigma
+    \underset{
+      \text{ghost}
+      \atop
+      \text{field}
+    }{
+    \underbrace{
+    (\mathbb{R}[1] \times \Sigma)
+    }}
+      \times_\Sigma
+    \underset{
+      \text{NL auxiliary}
+      \atop
+      \text{field}
+    }{
+    \underbrace{
+    (\mathbb{R} \times \Sigma)
+    }}
+      \times_\Sigma
+    \underset{
+      \text{antighost}
+      \atop
+      \text{field}
+    }{
+    \underbrace{
+    (\mathbb{R}[-1] \times \Sigma)
+    }}
+    }
+    }
+    }
+$$
+
 
 [[QEDVacuumDiagram.png:file]]
 
@@ -32,12 +130,6 @@ $$
     }}
       \times_\Sigma
     \underset{
-      \text{auxiliary}  
-        \atop
-      \text{fields}
-    }{
-    \underbrace{
-    \underset{
       \text{ghost}
       \atop
       \text{field}
@@ -63,8 +155,6 @@ $$
     \underbrace{
     (\mathbb{R}[-1] \times \Sigma)
     }}
-    }
-    }
     }
     }
 $$
