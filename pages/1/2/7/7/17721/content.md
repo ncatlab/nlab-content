@@ -66,7 +66,7 @@ Swansea University, 2013.  [PDF](http://cs.swan.ac.uk/~csfnf/thesis/thesis.pdf)
 
 Parts of the above text are taken from 
 
-* [[homotopytypetheory:HomePage|Homtopy Type Theory Wiki]], _[[homotopytypetheory:inductive-inductive type]]_
+* [[homotopytypetheory:HomePage|Homotopy Type Theory Wiki]], _[[homotopytypetheory:inductive-inductive type]]_
 
 [[!redirects Inductive Inductive Type]]
 [[!redirects induction-induction]]
