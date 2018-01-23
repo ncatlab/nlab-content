@@ -38,7 +38,7 @@ MacLane uses a different definition of creation of limits in [[Categories Work]]
 
 1. MacLane's definition imposes strict equality conditions on objects, which violates the [[principle of equivalence]].
 
-2. MacLane's definition implies the preservation of limits only if a limiting cone exists in $D$. For example, $1\to 2$ creates limits for $1\to 1$ in MacLane's sense, but not in the sense of the definition given here.
+2. MacLane's definition implies the preservation of limits only if a limiting cone exists in $D$. For example, $1\to 2$ creates limits for $0\to 1$ in MacLane's sense, but not in the sense of the definition given here ($0$, $1$, and $2$ are understood as discrete categories). 
 
 The additional strictness in MacLane's definition is useful to give a version of the [[monadicity theorem]] up to isomorphism - rather than equivalence - of categories.
 
