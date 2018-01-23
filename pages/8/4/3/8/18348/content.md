@@ -19,7 +19,7 @@
 
 ### Planar graphs
 
-A **planar graph** is a [[graph]] which can be embedded into a [[surface]] of [[genus]] 0 (such as a [[sphere]] or the [[Euclidean plane]]) without crossing edges. 
+A **planar graph** is a [[graph]] which may be [[embedding|embedded]] into a [[surface]] of [[genus]] 0 (such as a [[sphere]] or the [[Euclidean plane]]) without crossing edges. 
 
 ### Plane graphs/planar maps
 
