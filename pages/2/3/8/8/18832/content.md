@@ -4,40 +4,164 @@
  {#QuantumObservables}
 
 
-In the [previous chapter](#FreeQuantumFields) we have found the [[quantization]] of _[[free field theories|free]]_ [[Lagrangian field theories]] by first choosing a [[gauge fixing|gage fixed]] [[BV-BRST complex|BV-BRST]]-[[homological resolution|resolution]] of the [[algebra of observables|algebra of]] [[gauge invariance|gauge invariant]] [[on-shell]] observabes, then applying [[algebraic deformation quantization]] induced by the resulting [[Peierls-Poisson bracket]] on the graded [[covariant phase space]] to pass to a [[non-commutative algebra]] of quantum observables, such that the [[BV-BRST differential]] is respected.
+In the [previous chapter](#FreeQuantumFields) we have found the [[quantization]] of _[[free field theories|free]]_ [[Lagrangian field theories]] by first choosing a [[gauge fixing|gauge fixed]] [[BV-BRST complex|BV-BRST]]-[[homological resolution|resolution]] of the [[algebra of observables|algebra of]] [[gauge invariance|gauge invariant]] [[on-shell]] observabes, then applying [[algebraic deformation quantization]] induced by the resulting [[Peierls-Poisson bracket]] on the graded [[covariant phase space]] to pass to a [[non-commutative algebra]] of quantum observables, such that the [[BV-BRST differential]] is respected.
 
 Of course most [[quantum field theories]] of interest are non-[[free field theories|free]]; they are _[[interacting field theories]]_ whose [[equations of motion]] is a _non-linear_ differential equation. The archetypical example is the coupling of the [[Dirac field]] to the [[electromagnetic field]] via the [[electron-photon interaction]], to the [[interacting field theory]] called _[[quantum electrodynamics]]_ (discussed [below](#QuantumElectrodynamics)).
 
 In principle the [[perturbative quantum field theory|perturbative]] [[quantization]] of such non-[[free field theory]] [[interacting field theories]] proceeds the same way: One picks a [[BV-BRST complex|BV-BRST]]-[[gauge fixing]], computes the [[Peierls-Poisson bracket]] on the resulting [[covariant phase space]] ([Khavkine 14](Peierls+bracket#Khavkine14)) and then finds a [[formal deformation quantization]] of this [[Poisson structure]] to obtain the quantized [[non-commutative algebra]] of [[quantum observables]], as [[formal power series]] in [[Planck's constant]] $\hbar$.
 
-It turns out ([Collini 16](perturbative+algebraic+quantum+field+theory#Collini16), [Hawkins-Rejzner 16](perturbative+algebraic+quantum+field+theory#HawkinsRejzner16)) that the resulting [[interacting field theory|interacting]] [[formal deformation quantization]] may equivalently be expressed in terms of _[[scattering amplitudes]]_: These are the [[probability amplitudes]] for [[plane waves]] of [[free fields]] to in from the far [[past]], then [[interaction|interact]] in a compact region of [[spacetime]] via the given [[interaction]] ([[adiabatic switching|adiabatically switched-off]] outside that region) and emerge again as [[free fields]] into the far [[future]].
+It turns out ([Collini 16](perturbative+algebraic+quantum+field+theory#Collini16), [Hawkins-Rejzner 16](perturbative+algebraic+quantum+field+theory#HawkinsRejzner16), prop. \ref{InteractingFieldAlgebraOfObservablesIsFormalDeformationQuantization} below)
+that the resulting [[interacting field theory|interacting]] [[formal deformation quantization]] may equivalently be expressed in terms of _[[scattering amplitudes]]_ (example \ref{ScatteringAmplitudeFromInteractingFieldObservables} below): These are the [[probability amplitudes]] for [[plane waves]] of [[free fields]] to come in from the far [[past]], then [[interaction|interact]] in a compact region of [[spacetime]] via the given [[interaction]] ([[adiabatic switching|adiabatically switched-off]] outside that region) and emerge again as [[free fields]] into the far [[future]].
 
-The collection of all these [[scattering amplitudes]], as the [[types]] and  [[wave vectors]] of the incoming and outgoing [[free fields]] varies, is called the _[[perturbative S-matrix|perturbative scattering matrix]]_ of the [[interacting field theory]], or just _[[S-matrix]]_ for short. It may equivalently be expressed as the [[exponential]] of [[time-ordered products]] of the [[adiabatic switching|adiabatically switched]] [[interaction]] [[action functional]] with itself. The [[combinatorics]] of the terms in this exponential is captured by _[[Feynman diagrams]]_, which with some care, may be thought of as [[graphs]] whose [[edges]] are [[worldlines]] of [[virtual particles]] and whose [[vertices]] are the [[interactions]] that these particles undergo. This we discuss below in the chapter _[Feynman diagram](#FeynmanDiagram)_.
+The collection of all these [[scattering amplitudes]], as the [[types]] and  [[wave vectors]] of the incoming and outgoing [[free fields]] varies, is called the _[[perturbative S-matrix|perturbative scattering matrix]]_ of the [[interacting field theory]], or just _[[S-matrix]]_ for short. It may equivalently be expressed as the [[exponential]] of [[time-ordered products]] of the [[adiabatic switching|adiabatically switched]] [[interaction]] [[action functional]] with itself (def. \ref{LagrangianFieldTheoryPerturbativeScattering} below). The [[combinatorics]] of the terms in this exponential is captured by _[[Feynman diagrams]]_ (prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints} below), which, with some care (remark \ref{WorldlineFormalism} below), may be thought of as [[finite multigraphs]] (def. \ref{Graphs} below) whose [[edges]] are [[worldlines]] of [[virtual particles]] and whose [[vertices]] are the [[interactions]] that these particles undergo (def. \ref{FeynmanDiagram} below).
 
-The [[axiom|axiomatic]] definition of [[S-matrices]] for [[relativistic field theory|relativistic]] [[Lagrangian field theories]] and their rigorous construction via [[renormalization]] of [[time-ordered products]] is called _[[causal perturbation theory]]_, due to ([Epstein-Glaser 73](causal+perturbation+theory#EpsteinGlaser73)). This makes precise and well-defined the would-be [[path integral quantization]] of [[interacting field theories]] and removes the puzzlements (expressed in [Feynman 85](Schwinger-Tomonaga-Feynman-Dyson#Feynman85SuchABunchOfWords)) that plagued the original informal conception of [[perturbative quantum field theory]] due to [[Schwinger-Tomonaga-Feynman-Dyson]].
+The [[axiom|axiomatic]] definition of [[S-matrices]] for [[relativistic field theory|relativistic]] [[Lagrangian field theories]] and their rigorous construction via [[renormalization|("re"-)normalization]] of [[time-ordered products]] (def. \ref{ExtensionOfTimeOrderedProoductsRenormalization} below) is called _[[causal perturbation theory]]_, due to ([Epstein-Glaser 73](causal+perturbation+theory#EpsteinGlaser73)). This makes precise and well-defined the would-be [[path integral quantization]] of [[interacting field theories]] (remark \ref{InterpretationOfPerturbativeSMatrix} below) and removes the errors (remark \ref{TheTraditionalErrorThatLeadsToTheNotoriouDivergencies} below) and ensuing puzzlements (expressed in [Feynman 85](Schwinger-Tomonaga-Feynman-Dyson#Feynman85SuchABunchOfWords)) that plagued the original informal conception of [[perturbative quantum field theory]] due to [[Schwinger-Tomonaga-Feynman-Dyson]] (remark \ref{CausalPerturbationTheoryAbsenceOfUVDivergences} below).
 
-The equivalent re-formulation of the [[formal deformation quantization]] of [[interacting field theories]] in terms of [[scattering amplitudes]] of [[free fields]] scattering according to an [[adiabatic switching|adiabatically switched]] [[interaction]] ([Collini 16](perturbative+algebraic+quantum+field+theory#Collini16), [Hawkins-Rejzner 16](perturbative+algebraic+quantum+field+theory#HawkinsRejzner16)) has the advantage that it gives a direct handle on those [[observables]] that are measured in [[scattering]] [[experiments]], such as the [[LHC]]-experiment. The bulk of mankinds knowledge about realistic [[perturbative quantum field theory]] -- such as notably the [[standard model of particle physics]] -- is reflected in sch [[scattering amplitudes]] given via their [[Feynman perturbation series]] in [[formal power series|formal powers]] of [[Planck's constant]] and the [[coupling constant]].
+The equivalent re-formulation of the [[formal deformation quantization]] of [[interacting field theories]] in terms of [[scattering amplitudes]] (prop. \ref{InteractingFieldAlgebraOfObservablesIsFormalDeformationQuantization} below) has the advantage that it gives a direct handle on those [[observables]] that are measured in [[scattering]] [[experiments]], such as the [[LHC]]-experiment. The bulk of mankind's knowledge about realistic [[perturbative quantum field theory]] -- such as notably the [[standard model of particle physics]] -- is reflected in such [[scattering amplitudes]] given via their [[Feynman perturbation series]] in [[formal power series|formal powers]] of [[Planck's constant]] and the [[coupling constant]].
 
-Moreover, the mathematical passage from [[scattering amplitudes]] to the actual [[interacting field algebra]] [[algebra of quantum observables|of quantum observables]] corresponding to the [[formal deformation quantization]] is well understood, given via "[[Bogoliubov's formula]]" by the _[[quantum Møller operators]]_. This we discuss in the [next chapter](#QuantumObservables). Here we focus on the [[scattering theory]] itself.
+Moreover, the mathematical passage from [[scattering amplitudes]] to the actual [[interacting field algebra]] [[algebra of quantum observables|of quantum observables]] (def. \ref{QuntumMollerOperator} below) corresponding to the [[formal deformation quantization]] is well understood, given via "[[Bogoliubov's formula]]" by the _[[quantum Møller operators]]_ (def. \ref{InteractingFieldObservables} below).
+
+Via [[Bogoliubov's formula]] every perturbative [[S-matrix]] scheme (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) induces for every choice of [[adiabatic switching|adiabatically switched]]
+[[interaction]] [[action functional]] a notion of [[perturbative QFT|perturbative]] [[interacting field observables]] (def. \ref{InteractingFieldObservables}). These generate an algebra (def. \ref{QuntumMollerOperator} below).
+By [[Bogoliubov's formula]], in general this algebra depends on the choice of [[adiabatic switching]];
+which however is not meant to be part of the [[physics]], but just a mathematical device for grasping global field structures locally.
+
+But this spurious dependence  goes away (prop. \ref{IsomorphismFromChangeOfAdiabaticSwitching} below) when restricting attention to
+observables whose spacetime support is inside a compact [[causally closed subsets]] $\mathcal{O}$ of spacetime (def. \ref{PerturbativeGeneratingLocalNetOfObservables} below). This is a sensible condition for an [[observable]] in [[physics]],
+where any realistic [[experiment]] nessecarily probes only a compact subset of spacetime, see also remark \ref{AdiabaticLimit}.
+
+The resulting system (a "[[co-presheaf]]") of well-defined perturbative [[interacting field algebras of observables]] (def. \ref{SystemOfAlgebrasOfQuantumObservables} below)
+
+$$
+  \mathcal{O} \mapsto IntObs(E_{\text{BV-BRST}}, \mathbf{L}_{int})(\mathcal{O})
+$$
+
+is in fact [[causal locality|causally local]] (prop. \ref{PerturbativeQuantumObservablesIsLocalnet} below).
+This fact was presupposed without proof already in [Il'in-Slavnov 78](perturbative+algebraic+quantum+field+theory#IlinSlavnov78);
+because this is one of two key properties that the [[Haag-Kastler axioms]] ([Haag-Kastler 64](Haag-Kastler+axioms#HaagKastler64)) demand of an intrinsically defined [[quantum field theory]]
+(i.e. defined without necessarily making recourse to the geometric backdrop of [[Lagrangian field theory]]). The only other key property demanded by the [[Haag-Kastler axioms]]
+is that the [[algebras of observables]] be [[C*-algebras]]; this however must be regarded as the axiom encoding
+[[non-perturbative quantum field theory]] and hence is necessarily violated in the present context of [[perturbative QFT]].
+
+Since quantum field theory following the full [[Haag-Kastler axioms]] is commonly known as _[[AQFT]]_, this perturbative version,
+with [[causally local nets of observables]] but without the [[C*-algebra]]-condition on them, has come to be called
+_[[perturbative AQFT]]_ ([Dütsch-Fredenhagen 01](perturbative+algebraic+quantum+field+theory#DuetschFredenhagen01),
+[Fredenhagen-Rejzner 12](perturbative+algebraic+quantum+field+theory#FredenhagenRejzner12)).
+
+In this terminology the content of prop. \ref{PerturbativeQuantumObservablesIsLocalnet} below is that
+_while the input of [[causal perturbation theory]] is a [[gauge fixing|gauge fixed]] [[Lagrangian field theory]],
+the output is a [[perturbative algebraic quantum field theory]]_:
 
 
+$$
+  \array{
+    \array{
+      \text{gauge-fixed}
+      \\
+      \text{Lagrangian}
+      \\
+      \text{field theory}
+    }
+    &
+    \overset{
+      \array{
+        \text{causal}
+        \\
+        \text{perturbation theory}
+        \\
+      }
+    }{\longrightarrow}&
+    \array{
+      \text{perturbative}
+      \\
+      \text{algebraic}
+      \\
+      \text{quantum}
+      \\
+      \text{field theory}
+    }
+    \\
+    \underset{
+      \array{
+        \text{(Becchi-Rouet-Stora 76,}
+        \\
+        \text{Batalin-Vilkovisky 80s)}
+      }
+    }{\,}
+    &
+    \underset{
+      \array{
+        \text{(Bogoliubov-Shirkov 59,}
+        \\
+        \text{Epstein-Glaser 73)}
+      }
+    }{\,}
+    &
+    \underset{
+    \array{
+      \text{ (Il'in-Slavnov 78,  }
+      \\
+      \text{Brunetti-Fredenhagen 99,}
+      \\
+      \text{Dütsch-Fredenhagen 01)}
+    }
+    }{\,}
+  }
+$$
 
-We consider now the [[axioms]] for a perturbative S-matrix of a [[Lagrangian field theory]]
-as used in  [[causal perturbation theory]] (def. \ref{PerturbativeSMatrixOnMinkowskiSpacetime} below).
-Since, by definition, the S-matrix is a formal sum of multi-[[linear continuous functionals]],
-it is convenient to impose axioms on these directly: this is the axiomatics for _[[time-ordered products]]_
-in def. \ref{TimeOrderedProduct} below. That these latter axioms already imply the former
-is the statement of prop. \ref{TimeOrderedProductInducesPerturbativeSMatrix} below. Its proof
-requires a close look at the "reverse-time ordered products" for the inverse S-matrix (def. \ref{ReverseTimeOrderedProduct} below)
-and their induced reverse-causal factorization (prop. \ref{ReverseCausalFactorizationOfReverseTimeOrderedProducts} below).
 
-The axioms we consider here are just the bare minimum of [[causal perturbation theory]], sufficient to
-imply that the induced perturbative [[quantum observables]]
-organize into a [[causally local net of quantum observables]] (discussed [below](#QuantumObservables)).
+The independence of the [[causally local net]] of localized [[interacting field algebras of observables]]
+$IntObs(E_{\text{BV-BRST}}, \mathbf{L}_{int} )(\mathcal{O})$ from the choice of [[adiabatic switching]]
+implies a well-defined spacetime-global [[algebra of observables]] by forming the [[inductive limit]]
 
-In applications one considers further axioms, in particular compatibility of the S-matrix with
-[[spacetime]] [[symmetry]]. This is needed for the proof of the [[main theorem of perturbative renormalization]]
-(see [below](#Renormalization)).
+$$
+  IntObs(E_{\text{BV-BRST}}, \mathbf{L}_{int})
+    \;\coloneqq\;
+  \underset{\underset{\mathcal{O}}{\longrightarrow}}{\lim}
+  \left(
+    {\, \atop \,}
+    IntObs(E_{\text{BV-BRST}}, \mathbf{L}_{int})(\mathcal{O})
+    {\, \atop \,}
+  \right)
+  \,.
+$$
+
+This is also called the _[[algebraic adiabatic limit]]_, defining the [[algebras of observables]] of [[perturbative QFT]]
+"in the infrared". The only remaining step in the construction of a [[perturbative QFT]] that remains is then
+to find an [[interacting vacuum state]]
+
+$$
+  \left\langle
+    -
+  \right\rangle_{int}
+  \;\colon\;
+  IntObs(E_{\text{BV-BRST}}, \mathbf{L}_{int})
+   \longrightarrow
+  \mathbb{C}[ [ \hbar, g] ]
+$$
+
+on the global [[interacting field algebra]] $Obs_{\mathbf{L}_{int}}$.
+This is related to the actual _[[adiabatic limit]]_, and it is by and large an open problem, see remark \ref{AdiabaticLimit} below.
+
+In conclusion so far, the [[algebraic adiabatic limit]] yields, starting with a [[BV-BRST formalism|BV-BRST]] [[gauge fixing|gauge fixed]] [[free field]] [[vacuum]],
+the perturbative construction of [[interacting field algebras of observables]] (def. \ref{QuntumMollerOperator}) and their organization
+in increasing powers of $\hbar$ and $g$ ([[loop order]], prop. \ref{FeynmanDiagramLoopOrder}) via the [[Feynman perturbation series]] (example \ref{FeynmanPerturbationSeries}, example \ref{SMatrixVacuumContribution}).
+
+But this [[interacting field algebra of observables]] still involves all the [[auxiliary fields]] of the [[BV-BRST formalism|BV-BRST]] [[gauge fixing|gauge fixed]] [[free field]] [[vacuum]] (as in example \ref{FieldSpeciesQED} for QED), while the
+actual physical [[gauge invariance|gauge invariant]] [[on-shell]] observables should be (just) the [[cochain cohomology]] of the
+[[BV-BRST differential]] on this enlarged space of observables. Hence for the construction of [[perturbative QFT]] to conclude,
+it remains to pass the [[BV-BRST differential]] of the [[free field]] [[Wick algebra]] of observables to
+a [[differential]] on the [[interacting field algebra]], such that its [[cochain cohomology]] is well defined.
+
+Since the [[time-ordered products]] away from coinciding interaction points and as well as on [[regular polynomial observables]] are uniquely fixed (prop. \ref{TimeOrderedProductAwayFromDiagonal} below), one finds that also this _interacting quantum BV-differential_
+is uniquely fixed, on [[regular polynomial observables]], by [[conjugation]] with the [[quantum Møller operators]] (def. \ref{BVDifferentialInteractingQuantum}).
+The formula that characterizes it there is called the _[[quantum master equation]]_ or _[[master Ward identity]]_ (prop. \ref{QuantumMasterEquation} below).
+
+
+As one [[extension of distributions|extends]] the [[time-ordered products]] to coinciding interaction points in [[renormalization|("re"-)normalization]]
+of the [[perturbative QFT]] (def. \ref{ExtensionOfTimeOrderedProoductsRenormalization}), the [[quantum master equation]]/[[master Ward identity]] thus becomes a _[[renormalization condition]]_ (prop. \ref{BasicConditionsRenormalization} below). If this condition cannot be solved, then the
+full construction of the [[perturbative QFT]] fails due to the [[gauge symmetries]] not having a consistent [[quantization]],
+and one speaks of a _[[gauge anomaly]]_. These issues of [[renormalization|"(re)-"normalization]] we discuss in detail in the [next chapter](#Renormalization).
 
 
 $\,$
@@ -84,11 +208,11 @@ Let
 
 1. $\Sigma$ be a [[spacetime]] (e.g. [[Minkowski spacetime]]);
 
-1. $(E,\mathbf{L})$ a [[free field theory|free]] [[Lagrangian field theory]] ([this def.](A+first+idea+of+quantum+field+theory#FreeFieldTheory)), with [[field bundle]] $E \overset{fb}{\to} \Sigma$;
+1. $(E,\mathbf{L})$ a [[free field theory|free]] [[Lagrangian field theory]] (def. \ref{FreeFieldTheory}), with [[field bundle]] $E \overset{fb}{\to} \Sigma$;
 
-1. $\mathcal{G} \overset{fb}{\to} \Sigma$ a [[gauge parameter bundle]] for $(E,\mathbf{L})$ ([this def.](A+first+idea+of+quantum+field+theory#GaugeParameters)), with induced [[BRST-complex|BRST]]-[[reduced phase space|reduced]] [[Lagrangian field theory]] $\left( E \times_\Sigma \mathcal{G}[1], \mathbf{L} - \mathbf{L}_{BRST}\right)$ ([this example](A+first+idea+of+quantum+field+theory#LocalOffShellBRSTComplex));
+1. $\mathcal{G} \overset{fb}{\to} \Sigma$ a [[gauge parameter bundle]] for $(E,\mathbf{L})$ (def. \ref{GaugeParameters}), with induced [[BRST-complex|BRST]]-[[reduced phase space|reduced]] [[Lagrangian field theory]] $\left( E \times_\Sigma \mathcal{G}[1], \mathbf{L} - \mathbf{L}_{BRST}\right)$ (example \ref{LocalOffShellBRSTComplex});
 
-1. $(E_{\text{BV-BRST}}, \mathbf{L}' - \mathbf{L}'_{BRST})$ a [[gauge fixing]] ([this def.](A+first+idea+of+quantum+field+theory#GaugeFixingLagrangianDensity)) with [[graded manifold|graded]] [[BV-BRST formalism|BV-BRST]] [[field bundle]] $E_{\text{BV-BRST}} = T^\ast_{\Sigma}[-1]\left( E\times_\Sigma \mathcal{G}[1] \times_\Sigma A \times_\Sigma A[-1]\right)$ ([this remark](A+first+idea+of+quantum+field+theory#FieldBundleBVBRST));
+1. $(E_{\text{BV-BRST}}, \mathbf{L}' - \mathbf{L}'_{BRST})$ a [[gauge fixing]] (def. \ref{GaugeFixingLagrangianDensity}) with [[graded manifold|graded]] [[BV-BRST formalism|BV-BRST]] [[field bundle]] $E_{\text{BV-BRST}} = T^\ast_{\Sigma}[-1]\left( E\times_\Sigma \mathcal{G}[1] \times_\Sigma A \times_\Sigma A[-1]\right)$ (remark \ref{FieldBundleBVBRST});
 
 1. $\Delta_H \in \Gamma'( E_{\text{BV-BRST}} \boxtimes E_{\text{BV-BRST}} )$ a [[Wightman propagator]] $\Delta_H = \tfrac{i}{2} \Delta + H$ compatible with the [[causal propagator]] $\Delta$ which corresponds to the [[Green hyperbolic partial differential equation|Green hyperbolic]] [[Euler-Lagrange equation|Euler-Lagrange]] [[equations of motion]] induced by the [[gauge fixing|gauge-fixed]] [[Lagrangian density]] $\mathbf{L}'$.
 
@@ -118,7 +242,7 @@ $$
   }
 $$
 
-for the induced [[Hadamard vacuum state]] ([this prop.](Wick+algebra#WickAlgebraCanonicalState)), hence the [[state on a star-algebra|state]] whose [[distribution|distributional]] [[2-point function]] is the chosen [[Wightman propagator]]:
+for the induced [[Hadamard vacuum state]] (prop. \ref{WickAlgebraCanonicalState}), hence the [[state on a star-algebra|state]] whose [[distribution|distributional]] [[2-point function]] is the chosen [[Wightman propagator]]:
 
 $$
   \left\langle \mathbf{\Phi}^a(x) \mathbf{\Phi}^b(y)\right\rangle
@@ -151,9 +275,9 @@ $$
   }
 $$
 
-for the inclusion of [[local observables]] into [[microcausal polynomial observables]] ([this example](A+first+idea+of+quantum+field+theory#PointwiseProductsOfFieldObservablesAdiabaticallySwitchedIsMicrocausal)), thought of as forming [[normal-ordered products]] in the [[Wick algebra]] (by [this def.](A+first+idea+of+quantum+field+theory#NormalOrderedProductNotation)).
+for the inclusion of [[local observables]] into [[microcausal polynomial observables]] (example \ref{PointwiseProductsOfFieldObservablesAdiabaticallySwitchedIsMicrocausal}), thought of as forming [[normal-ordered products]] in the [[Wick algebra]] (by def. \ref{NormalOrderedProductNotation}).
 
-We denote the [[Wick algebra]]-product (the [[star product]] $\star_H$ induced by the [[Wightman propagator]] $\Delta_H$) by juxtaposition ([this def.](A+first+idea+of+quantum+field+theory#NormalOrderedProductNotation))
+We denote the [[Wick algebra]]-product (the [[star product]] $\star_H$ induced by the [[Wightman propagator]] $\Delta_H$) by juxtaposition (def. \ref{NormalOrderedProductNotation})
 
 $$
   A_1 A_2 \;\coloneqq\; A_1 \star_H A_2
@@ -168,7 +292,7 @@ $$
   \,.
 $$
 
-Finally, for $A \in LocObs(E_{\text{BV-BRST}})$ we write $supp(A) \subset \Sigma$ for its spacetime support ([this def.](A+first+idea+of+quantum+field+theory#SpacetimeSupport)).
+Finally, for $A \in LocObs(E_{\text{BV-BRST}})$ we write $supp(A) \subset \Sigma$ for its spacetime support (def. \ref{SpacetimeSupport}).
 For $S_1, S_2 \subset \Sigma$ two [[subsets]] of [[spacetime]] we write
 
 $$
@@ -471,9 +595,9 @@ is implied to exist by axiom "perturbation", see remark \ref{PerturbativeSMatrix
 
 =--
 
-Def. \ref{LagrangianFieldTheoryPerturbativeScattering} is due to ([Epstein-Glaser 73 (1)](#EpsteinGlaser73)),
+Def. \ref{LagrangianFieldTheoryPerturbativeScattering} is due to ([Epstein-Glaser 73 (1)](causal+perturbation+theory#EpsteinGlaser73)),
 following ([Stückelberg 49-53](causal+perturbation+theory#Stueckelberg49), [Bogoliubov-Shirkov 59](causal+perturbation+theory#BogoliubovShirkov59)).
-That the [[domain]] of an S-matrix scheme is indeed the space of [[local observables]] was made explicit (in terms of axioms for the [[time-ordered products]], see def. \ref{TimeOrderedProduct} below), in ([Brunetti-Fredenhagen 99, section 3](#BrunettiFredenhagen99), [D&#252;tsch-Fredenhagen 04, appendix E](#DuetschFredenhagen04), [Hollands-Wald 04,  around (20)](#HollandsWald04)). Review includes ([Rejzner 16, around def. 6.7](#Rejzner16), [Dütsch 18, section 3.3](#Duetsch18)).
+That the [[domain]] of an S-matrix scheme is indeed the space of [[local observables]] was made explicit (in terms of axioms for the [[time-ordered products]], see def. \ref{TimeOrderedProduct} below), in ([Brunetti-Fredenhagen 99, section 3](S-matrix#BrunettiFredenhagen99), [D&#252;tsch-Fredenhagen 04, appendix E](S-matrix#DuetschFredenhagen04), [Hollands-Wald 04,around (20)](S-matrix#HollandsWald04)). Review includes ([Rejzner 16, around def. 6.7](S-matrix#Rejzner16), [Dütsch 18, section 3.3](S-matrix#Duetsch18)).
 
 +-- {: .num_remark #PerturbativeSMatrixInverse}
 ###### Remark
@@ -732,7 +856,7 @@ $$
   \end{aligned}
 $$
 
-This expression is called _[[Bogoliubov's formula]]_, due to ([Bogoliubov-Shirkov 59](#BogoliubovShirkov59)).
+This expression is called _[[Bogoliubov's formula]]_, due to ([Bogoliubov-Shirkov 59](S-matrix#BogoliubovShirkov59)).
 
 One thinks of $A_{int}$ as the [[deformation]] of the [[local observable]] $A$ as the [[interaction]] $S_{int}$ is turned on; and speaks of an element of the _[[interacting field algebra of observables]]_. Their value ("[[expectation value]]") in the given free [[Hadamard vacuum state]]
 $\langle  -\rangle$ (def. \ref{VacuumFree}) is a [[formal power series]] in [[Planck's constant]] $\hbar$ and in the [[coupling constant]] $g$, with [[coefficients]] in the [[complex numbers]]
@@ -749,7 +873,7 @@ which express the [[probability amplitudes]] that reflect the predictions of the
 
 =--
 
-([Epstein-Glaser 73, around (74)](#EpsteinGlaser73); review includes ([D&#252;tsch-Fredenhagen 00, around (17)](#DuetschFredenhagen00), [Dütsch 18, around (3.212)](pAQFR#Duetsch18)).
+([Epstein-Glaser 73, around (74)](S-matrix#EpsteinGlaser73); review includes ([D&#252;tsch-Fredenhagen 00, around (17)](S-matrix#DuetschFredenhagen00), [Dütsch 18, around (3.212)](pAQFT#Duetsch18)).
 
 
 +-- {: .num_example #FormalPowerSeriesInteractingFieldObservables}
@@ -777,7 +901,7 @@ consistent interpretation of [[scattering amplitudes]] requires the following co
 
 Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}, let $\mathcal{S}$ be a corresponding [[S-matrix]] scheme according to def. \ref{LagrangianFieldTheoryPerturbativeScattering}, and let $g S_{int} \in LocObs(E_{\text{BV-BRST}})[ [ \hbar, g] ]\langle g \rangle$ be a [[local observable]], regarded as an [[adiabatic switching|adiabatically switched]] [[interaction]] [[action functional]].
 
-We say that the given [[Hadamard vacuum state|Hadamard]] [[vacuum state]] ([this prop.](Wick+algebra#WickAlgebraCanonicalState))
+We say that the given [[Hadamard vacuum state|Hadamard]] [[vacuum state]] (prop. \ref{WickAlgebraCanonicalState})
 
 $$
   \langle - \rangle
@@ -1197,7 +1321,7 @@ If we now think of $O_1 = g S_{1}$ and $O_2 = g S_2$ themselves as [[adiabatic s
 
 This exhibits the [[S-matrix]]-scheme as a "[[causal ordering|causally ordered]] [[exponential]]"
 or "[[Dyson series]]" of the [[interaction]], hence as a refinement to [[relativistic field theory]] of what in
-[[quantum mechanics]] is the "integral version of the [[Schrödinger equation]] in the [[interaction picture]]" (eq:IntegralVersionSchroedingerEquationInInteractionPicture). (See also [Scharf 95, second half of 0.3](#Scharf95)).
+[[quantum mechanics]] is the "integral version of the [[Schrödinger equation]] in the [[interaction picture]]" (eq:IntegralVersionSchroedingerEquationInInteractionPicture). (See also [Scharf 95, second half of 0.3](S-matrix#Scharf95)).
 
 While [[causal additivity]] is in fact stronger than [[causal factorization]], we find below that the
 evident analogue of [[causal factorization]] imposed directly on the [[time-ordered products]] (def. \ref{TimeOrderedProduct} below)
@@ -1237,7 +1361,7 @@ $$
   \,.
 $$
 
-Here the would-be [[integration]] is thought to be over the [[space of field histories]] $\Gamma_\Sigma(E_{\text{BV-BRST}})_{asm}$ (the [[space of sections]] of the given [[field bundle]]) for [[field histories]] which satisfy given asymptotic conditions at $x^0 \to \pm \infty$; and as these boundary conditions vary the above is regarded as a would-be [[integral kernel]] that defines the required operator in the [[Wick algebra]] (e.g. [Weinberg 95, around (9.3.10) and (9.4.1)](#Weinberg95)). This is related to the intuitive picture of the [[Feynman perturbation series]] expressing a sum over all possible interactions of [[virtual particles]] (remark \ref{WorldlineFormalism}).
+Here the would-be [[integration]] is thought to be over the [[space of field histories]] $\Gamma_\Sigma(E_{\text{BV-BRST}})_{asm}$ (the [[space of sections]] of the given [[field bundle]]) for [[field histories]] which satisfy given asymptotic conditions at $x^0 \to \pm \infty$; and as these boundary conditions vary the above is regarded as a would-be [[integral kernel]] that defines the required operator in the [[Wick algebra]] (e.g. [Weinberg 95, around (9.3.10) and (9.4.1)](S-matrix#Weinberg95)). This is related to the intuitive picture of the [[Feynman perturbation series]] expressing a sum over all possible interactions of [[virtual particles]] (remark \ref{WorldlineFormalism}).
 
 Beyond toy examples, it is not known how to define the would-be [[measure]] $D[\Phi]$ and it is not known how to make sense of this expression as an actual [[integral]].
 
@@ -1531,7 +1655,7 @@ are not _really_ supposed to vanish outside a compact region of spacetime. In or
 
   Beware that the left hand sides here are symbolic: Even if the limit exists in [[expectation values]], in general there is no actual observable whose expectation value is that limit.
 
-  The strong and weak adiabatic limits have been shown to exist if all [[field (physics)|fields]] are [[mass|massive]] ([Epstein-Glaser 73](#EpsteinGlaser73)). The weak adiabatic limit has been shown to exists for [[quantum electrodynamics]] and for [[mass]]-less [[phi^4 theory]] ([Blanchard-Seneor 75](adiabatic+switching#BlanchardSeneor75)) and for larger classes of field theories in ([Duch 17, p. 113, 114](adiabatic+switching#Duch17)).
+  The strong and weak adiabatic limits have been shown to exist if all [[field (physics)|fields]] are [[mass|massive]] ([Epstein-Glaser 73](S-matrix#EpsteinGlaser73)). The weak adiabatic limit has been shown to exists for [[quantum electrodynamics]] and for [[mass]]-less [[phi^4 theory]] ([Blanchard-Seneor 75](adiabatic+switching#BlanchardSeneor75)) and for larger classes of field theories in ([Duch 17, p. 113, 114](adiabatic+switching#Duch17)).
 
   If these limits do not exist, one says that the [[perturbative QFT]] has an _[[infrared divergence]]_.
 
@@ -1585,7 +1709,7 @@ $$
   \Theta(x_2^0 - x_1^0) \, T(x_2) \, T(x_1)
 $$
 
-and analogously for time-ordered products of more arguments (for instance [Weinberg 95, p. 143, between (3.5.9) and (3.5.10)](#Weinberg95)).
+and analogously for time-ordered products of more arguments (for instance [Weinberg 95, p. 143, between (3.5.9) and (3.5.10)](S-matrix#Weinberg95)).
 
 This however is simply a mathematical error (as amplified in [Scharf 95, below (3.2.4), below (3.2.44) and in fig. 3](causal+perturbation+theory#Scharf95)):
 
@@ -1698,128 +1822,8 @@ $\,$
 **Interacting field observables**
  {#QuantumObservables}
 
-We have seen that via [[Bogoliubov's formula]] (def. \ref{InteractingFieldObservables}) every perturbative [[S-matrix]] scheme (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) induces for every choice of [[adiabatic switching|adiabatically switched]]
-[[interaction]] [[action functional]] $S_{int,sw} \coloneqq \tau_\Sigma( g_{sw} \mathbf{L}_{int} )$ a notion of [[perturbative QFT|perturbative]] [[interacting field observables]] (def. \ref{InteractingFieldObservables}). These generate an algebra (def. \ref{QuntumMollerOperator} below).
-By [[Bogoliubov's formula]], in general this algebra depends on the choice of [[adiabatic switching]];
-which however is not meant to be part of the [[physics]], but just a mathematical device for grasping global field structures locally.
-
-But this spurious dependence  goes away (prop. \ref{IsomorphismFromChangeOfAdiabaticSwitching} below) when restricting attention to
-observables whose spacetime support is inside a compact [[causally closed subsets]] $\mathcal{O}$ of spacetime (def. \ref{PerturbativeGeneratingLocalNetOfObservables} below). This is a sensible condition for an [[observable]] in [[physics]],
-where any realistic [[experiment]] nessecarily probes only a compact subset of spacetime, see also remark \ref{AdiabaticLimit}.
-
-The resulting system (a "[[co-presheaf]]") of well-defined perturbative [[interacting field algebras of observables]] (def. \ref{SystemOfAlgebrasOfQuantumObservables} below)
-
-$$
-  \mathcal{O} \mapsto IntObs(E_{\text{BV-BRST}}, \mathbf{L}_{int})(\mathcal{O})
-$$
-
-is in fact [[causal locality|causally local]] (prop. \ref{PerturbativeQuantumObservablesIsLocalnet} below).
-This fact was presupposed without proof already in [Il'in-Slavnov 78](perturbative+algebraic+quantum+field+theory#IlinSlavnov78);
-because this is one of two key properties that the [[Haag-Kastler axioms]] ([Haag-Kastler 64](Haag-Kastler+axioms#HaagKastler64)) demand of an intrinsically defined [[quantum field theory]]
-(i.e. defined without necessarily making recourse to the geometric backdrop of [[Lagrangian field theory]]). The only other key property demanded by the [[Haag-Kastler axioms]]
-is that the [[algebras of observables]] be [[C*-algebras]]; this however must be regarded as the axiom encoding
-[[non-perturbative quantum field theory]] and hence is necessarily violated in the present context of [[perturbative QFT]].
-
-Since quantum field theory following the full [[Haag-Kastler axioms]] is commonly known as _[[AQFT]]_, this perturbative version,
-with [[causally local nets of observables]] but without the [[C*-algebra]]-condition on them, has come to be called
-_[[perturbative AQFT]]_ ([Dütsch-Fredenhagen 01](perturbative+algebraic+quantum+field+theory#DuetschFredenhagen01),
-[Fredenhagen-Rejzner 12](perturbative+algebraic+quantum+field+theory#FredenhagenRejzner12)).
-
-In this terminology the content of prop. \ref{PerturbativeQuantumObservablesIsLocalnet} below is that
-_while the input of [[causal perturbation theory]] is a [[gauge fixing|gauge fixed]] [[Lagrangian field theory]],
-the output is a [[perturbative algebraic quantum field theory]]_:
-
-
-$$
-  \array{
-    \array{
-      \text{gauge-fixed}
-      \\
-      \text{Lagrangian}
-      \\
-      \text{field theory}
-    }
-    &
-    \overset{
-      \array{
-        \text{causal}
-        \\
-        \text{perturbation theory}
-        \\
-      }
-    }{\longrightarrow}&
-    \array{
-      \text{perturbative}
-      \\
-      \text{algebraic}
-      \\
-      \text{quantum}
-      \\
-      \text{field theory}
-    }
-    \\
-    \underset{
-      \array{
-        \text{(Becchi-Rouet-Stora 76,}
-        \\
-        \text{Batalin-Vilkovisky 80s)}
-      }
-    }{\,}
-    &
-    \underset{
-      \array{
-        \text{(Bogoliubov-Shirkov 59,}
-        \\
-        \text{Epstein-Glaser 73)}
-      }
-    }{\,}
-    &
-    \underset{
-    \array{
-      \text{ (Il'in-Slavnov 78,  }
-      \\
-      \text{Brunetti-Fredenhagen 99,}
-      \\
-      \text{Dütsch-Fredenhagen 01)}
-    }
-    }{\,}
-  }
-$$
-
-
-The independence of the [[causally local net]] of localized [[interacting field algebras of observables]]
-$IntObs(E_{\text{BV-BRST}}, \mathbf{L}_{int} )(\mathcal{O})$ from the choice of [[adiabatic switching]]
-implies a well-defined spacetime-global [[algebra of observables]] by forming the [[inductive limit]]
-
-$$
-  IntObs(E_{\text{BV-BRST}}, \mathbf{L}_{int})
-    \;\coloneqq\;
-  \underset{\underset{\mathcal{O}}{\longrightarrow}}{\lim}
-  \left(
-    {\, \atop \,}
-    IntObs(E_{\text{BV-BRST}}, \mathbf{L}_{int})(\mathcal{O})
-    {\, \atop \,}
-  \right)
-  \,.
-$$
-
-This is also called the _[[algebraic adiabatic limit]]_, defining the [[algebras of observables]] of [[perturbative QFT]]
-"in the infrared". The only remaining step in the construction of a [[perturbative QFT]] that remains is then
-to find an [[interacting vacuum state]]
-
-$$
-  \left\langle
-    -
-  \right\rangle_{int}
-  \;\colon\;
-  IntObs(E_{\text{BV-BRST}}, \mathbf{L}_{int})
-   \longrightarrow
-  \mathbb{C}[ [ \hbar, g] ]
-$$
-
-on the global [[interacting field algebra]] $Obs_{\mathbf{L}_{int}}$.
-This is related to the actual _[[adiabatic limit]]_, and it is by and large an open problem, see remark \ref{AdiabaticLimit}.
-
+We now discuss how the perturbative [[interacting field observables]] which are induced from an [[S-matrix]]
+enjoy good properties expected of any abstractly defined [[perturbative algebraic quantum field theory]].
 
 $\,$
 
@@ -1925,7 +1929,7 @@ This is the _perturbative [[interacting field algebra of observables]]_.
 
 The definition of the [[interacting field algebra of observables]] from the data of a [[scattering matrix]] (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) via [[Bogoliubov's formula]] (def. \ref{InteractingFieldObservables}) is physically well-motivated, but is not immediately recognizable as the result of applying a systematic concept of [[quantization]] (such as [[formal deformation quantization]]) to the given [[Lagrangian field theory]]. The following
 proposition \ref{InteractingFieldAlgebraOfObservablesIsFormalDeformationQuantization} says that this is nevertheless the case.
-(The special case of this statement for [[free field theory]] is discussed at _[[Wick algebra]]_, see [this remark](Wick+algebra#WickAlgebraIsFormalDeformationQuantization)).
+(The special case of this statement for [[free field theory]] is discussed at _[[Wick algebra]]_, see remark \ref{WickAlgebraIsFormalDeformationQuantization}).
 
 +-- {: .num_prop #InteractingFieldAlgebraOfObservablesIsFormalDeformationQuantization}
 ###### Proposition
@@ -1939,7 +1943,7 @@ $(E_{\text{BV-BRST}}, \mathbf{L}'  + g_{sw} \mathbf{L}_{int})$.
 
 =--
 
-([Hawkins-Rejzner 16, prop. 5.4](perturbative+algebraic+quantum+field+theory#HawkinsRejzner16), [Collini 16](#Collini16))
+([Hawkins-Rejzner 16, prop. 5.4](perturbative+algebraic+quantum+field+theory#HawkinsRejzner16), [Collini 16](pAQFT#Collini16))
 
 
 The following definition collects the system (a [[co-presheaf]]) of [[generating functions]] for [[interacting field observables]]
@@ -1971,8 +1975,8 @@ $$
 is a [[local observable]], to be thought of as an [[adiabatic switching|adiabatically switched]] [[interaction]] [[action functional]].
 
 For $\mathcal{O} \subset \Sigma$ a [[causally closed subset]] of [[spacetime]]
-([this def.](A+first+idea+of+quantum+field+theory#CausalComplementOfSubsetOfLorentzianManifold))
-and for $g_{sw} \in Cutoffs(\mathcal{O})$ an [[adiabatic switching]] function ([this def.](A+first+idea+of+quantum+field+theory#CutoffFunctions))
+(def. \ref{CausalComplementOfSubsetOfLorentzianManifold})
+and for $g_{sw} \in Cutoffs(\mathcal{O})$ an [[adiabatic switching]] function (def. \ref{CutoffFunctions})
 which is constant on a [[neighbourhood]] of $\mathcal{O}$, write
 
 $$
@@ -2045,7 +2049,7 @@ from the [[poset]] of [[causally closed subsets]] of [[spacetime]] to the [[cate
 
 =--
 
-([Brunetti-Fredenhagen 99, (65)-(67)](#BrunettiFredenhagen99))
+([Brunetti-Fredenhagen 99, (65)-(67)](S-matrix#BrunettiFredenhagen99))
 
 The key technical fact is the following:
 
@@ -2150,12 +2154,12 @@ $$
 
 =--
 
-([Brunetti-Fredenhagen 99, prop. 8.1](#BrunettiFredenhagen99))
+([Brunetti-Fredenhagen 99, prop. 8.1](S-matrix#BrunettiFredenhagen99))
 
 +-- {: .proof}
 ###### Proof
 
-By causal closure of $\mathcal{O}$, [this lemma](A+first+idea+of+quantum+field+theory#CausalPartition)
+By causal closure of $\mathcal{O}$, lemma \ref{CausalPartition}
 says that there are [[bump functions]]
 
 $$
@@ -2445,7 +2449,7 @@ is a _[[causally local net]]_ in that it satisfies the following conditions:
    $$
 
 1. ([[causal locality]]) For $\mathcal{O}_1, \mathcal{O}_2 \subset X$ two [[causally closed subsets]]
-   which are [[spacelike]] separated, in that their [[causal ordering]] ([this def.](A+first+idea+of+quantum+field+theory#CausalOrdering)) satisfies
+   which are [[spacelike]] separated, in that their [[causal ordering]] (def. \ref{CausalOrdering}) satisfies
 
    $$
      \mathcal{O}_1 {\vee\!\!\!\wedge} \mathcal{O}_2
@@ -2480,8 +2484,8 @@ is a _[[causally local net]]_ in that it satisfies the following conditions:
 
 =--
 
-([D&#252;tsch-Fredenhagen 00, section 3](#DuetschFredenhagen00), following [Brunetti-Fredenhagen 99, section 8](#BrunettiFredenhagen99),
-[Il'in-Slavnov 78](#IlinSlavnov78))
+([D&#252;tsch-Fredenhagen 00, section 3](S-matrix#DuetschFredenhagen00), following [Brunetti-Fredenhagen 99, section 8](S-matrix#BrunettiFredenhagen99),
+[Il'in-Slavnov 78](S-matrix#IlinSlavnov78))
 
 +-- {: .proof}
 ###### Proof
@@ -2539,7 +2543,7 @@ $$
 is a [[local observable]], to be thought of as an [[adiabatic switching|adiabatically switched]] [[interaction]] [[action functional]].
 
 For $\mathcal{O} \subset \Sigma$ a [[causally closed subset]]
-of [[spacetime]] ([this def.](A+first+idea+of+quantum+field+theory#CausalComplementOfSubsetOfLorentzianManifold))
+of [[spacetime]] (def. \ref{CausalComplementOfSubsetOfLorentzianManifold})
 and for $g_{sw} \in Cutoffs(\mathcal{O})$ an compatible [[adiabatic switching]] function (def. \ref{CutoffFunctions}) write
 
 $$
@@ -2629,7 +2633,7 @@ is a [[local net of observables]] in that
    $$
 
 1. ([[causal locality]]) For $\mathcal{O}_1, \mathcal{O}_2 \subset X$ two [[causally closed subsets]]
-   which are [[spacelike]] separated, in that their [[causal ordering]] ([this def.](A+first+idea+of+quantum+field+theory#CausalOrdering)) satisfies
+   which are [[spacelike]] separated, in that their [[causal ordering]] (def. \ref{CausalOrdering}) satisfies
 
    $$
      \mathcal{O}_1 {\vee\!\!\!\wedge} \mathcal{O}_2
@@ -2661,8 +2665,8 @@ is a [[local net of observables]] in that
 
 =--
 
-([D&#252;tsch-Fredenhagen 00, below (17)](#DuetschFredenhagen00), following [Brunetti-Fredenhagen 99, section 8](#BrunettiFredenhagen99),
-[Il'in-Slavnov 78](#IlinSlavnov78))
+([D&#252;tsch-Fredenhagen 00, below (17)](S-matrix#DuetschFredenhagen00), following [Brunetti-Fredenhagen 99, section 8](S-matrix#BrunettiFredenhagen99),
+[Il'in-Slavnov 78](S-matrix#IlinSlavnov78))
 
 +-- {: .proof}
 ###### Proof
@@ -2808,7 +2812,7 @@ such that the following conditions hold for all possible arguments:
 ###### Remark
 **([[time-ordered products]] as [[generalized functions]])**
 
-It is convenient (as in [Epstein-Glaser 73](#EpsteinGlaser73)) to think of [[time-ordered products]] (def. \ref{TimeOrderedProduct}), being
+It is convenient (as in [Epstein-Glaser 73](S-matrix#EpsteinGlaser73)) to think of [[time-ordered products]] (def. \ref{TimeOrderedProduct}), being
 [[Wick algebra]]-valued [[distributions]] (hence [[operator-valued distributions]] if we were to choose a [[representation]] of the
 [[Wick algebra]] by [[linear operators]] on a [[Hilbert space]]), as [[generalized functions]] depending on spacetime points:
 
@@ -2952,7 +2956,7 @@ $$
 
 =--
 
-([Epstein-Glaser 73 (5)](#EpsteinGlaser73))
+([Epstein-Glaser 73 (5)](S-matrix#EpsteinGlaser73))
 
 +-- {: .proof}
 ###### Proof
@@ -3036,7 +3040,7 @@ $$
 
 =--
 
-([Epstein-Glaser 73, (11)](#EpsteinGlaser73))
+([Epstein-Glaser 73, (11)](S-matrix#EpsteinGlaser73))
 
 +-- {: .num_prop #ReverseTimOrderedProductsGiveReverseSMatrix}
 ###### Proposition
@@ -3207,7 +3211,7 @@ reverse-[[causal factorization]].
 
 =--
 
-([Epstein-Glaser 73, around (15)](#EpsteinGlaser73))
+([Epstein-Glaser 73, around (15)](S-matrix#EpsteinGlaser73))
 
 +-- {: .proof}
 ###### Proof
@@ -3369,7 +3373,7 @@ Notice that also the weaker [[causal factorization]] property of the S-matrix (r
 is immediate from the causal factorization condition on the time-ordered products.
 
 But [[causal additivity]] is stronger. It is remarkable that this, too,
-follows from just the time-ordering ([Epstein-Glaser 73, around (73)](#EpsteinGlaser73)):
+follows from just the time-ordering ([Epstein-Glaser 73, around (73)](S-matrix#EpsteinGlaser73)):
 
 To see this, first expand the
 generating function $\mathcal{Z}$ (eq:GeneratingFunctionInducedFromSMatrix)  into
@@ -3491,7 +3495,7 @@ $\,$
 **("Re"-)Normalization**
  {#ExistenceAndRenormalization}
 
-We discuss now that [[time-ordered products]] as in def. \ref{TimeOrderedProduct}, hence, by prop. \ref{TimeOrderedProductInducesPerturbativeSMatrix}, perturbatibe [[S-matrix]] schemes (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) exist in fact uniquely away from coinciding interaction points (prop. \ref{TimeOrderedProductAwayFromDiagonal} below).
+We discuss now that [[time-ordered products]] as in def. \ref{TimeOrderedProduct}, hence, by prop. \ref{TimeOrderedProductInducesPerturbativeSMatrix}, perturbative [[S-matrix]] schemes (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) exist in fact uniquely away from coinciding interaction points (prop. \ref{TimeOrderedProductAwayFromDiagonal} below).
 
 This means that the construction of full [[time-ordered products]]/[[S-matrix]] schemes may be phrased as an [[extension of distributions]] of time-ordered products to the [[diagonal]] locus of coinciding spacetime arguments (prop. \ref{RenormalizationIsInductivelyExtensionToDiagonal} below).
 This choice in their definition is called the choice of _[[renormalization|("re"-)normalization]]_ of the [[time-ordered products]] (remark \ref{CausalPerturbationTheoryAbsenceOfUVDivergences}), and hence of the [[interacting field theory|interacting]] [[pQFT]] that these define (def. \ref{ExtensionOfTimeOrderedProoductsRenormalization} below).
@@ -3585,7 +3589,7 @@ $$
   (A_1 \otimes A_2)
 $$
 
-that is induced ([this def.](star+product#PropagatorStarProduct)) by the [[Feynman propagator]] $\Delta_F \coloneqq \tfrac{i}{2}(\Delta_+ + \Delta_- + H)$ (corresponding to the [[Wightman propagator]] $\Delta_H = \tfrac{i}{2}(\Delta_+ - \Delta_-) + H$ which is given by the choice of [[free field|free]] [[vacuum]]), in that
+that is induced (def. \ref{PropagatorStarProduct}) by the [[Feynman propagator]] $\Delta_F \coloneqq \tfrac{i}{2}(\Delta_+ + \Delta_- + H)$ (corresponding to the [[Wightman propagator]] $\Delta_H = \tfrac{i}{2}(\Delta_+ - \Delta_-) + H$ which is given by the choice of [[free field|free]] [[vacuum]]), in that
 
 $$
   T
@@ -3627,7 +3631,7 @@ for all tuples of local observables $A_1, \cdots, A_{k_1}, A_{k_1+1}, \cdots, A_
 
 =--
 
-The idea of this statement goes back at least to [Epstein-Glaser 73](#EpsteinGlaser73), as in remark \ref{TheTraditionalErrorThatLeadsToTheNotoriouDivergencies}. One formulation appears as ([Brunetti-Fredenhagen 00, theorem 4.3](perturbative+algebraic+quantum+field+theory#BrunettiFredenhagen00)). The above formulation in terms of the [[star product]] is stated in ([Fredenhagen-Rejzner 12, p. 27](perturbative+algebraic+quantum+field+theory#FredenhagenRejzner12), [Dütsch 18, lemma 3.63 (b)](perturbative+algebraic+quantum+field+theory#Duetsch18)).
+The idea of this statement goes back at least to [Epstein-Glaser 73](S-matrix#EpsteinGlaser73), as in remark \ref{TheTraditionalErrorThatLeadsToTheNotoriouDivergencies}. One formulation appears as ([Brunetti-Fredenhagen 00, theorem 4.3](perturbative+algebraic+quantum+field+theory#BrunettiFredenhagen00)). The above formulation in terms of the [[star product]] is stated in ([Fredenhagen-Rejzner 12, p. 27](perturbative+algebraic+quantum+field+theory#FredenhagenRejzner12), [Dütsch 18, lemma 3.63 (b)](perturbative+algebraic+quantum+field+theory#Duetsch18)).
 
 +-- {: .proof}
 ###### Proof
@@ -3686,7 +3690,7 @@ $$
   \,.
 $$
 
-But now it follows as in the proof of [this prop.](Wick+algebra#CausalOrderingTimeOrderedProductOnRegular) (via [this equation](Wick+algebra#eq:CausallyOrderedWickProductViaFeynmanPropagator)) that
+But now it follows as in the proof of prop. \ref{CausalOrderingTimeOrderedProductOnRegular}) via (eq:CausallyOrderedWickProductViaFeynmanPropagator) that
 
 $$
   A_{1,i}
@@ -3703,12 +3707,12 @@ $$
 $$
 
 
-Finally the [[associativity]]-statement follows as in [this prop.](star+product#AssociativeAndUnitalStarProduct).
+Finally the [[associativity]]-statement follows as in prop. \ref{AssociativeAndUnitalStarProduct}.
 
 
 =--
 
-Before using the unqueness of the [[time-ordered products]] away from coinciding spacetime arguments (prop. \ref{TimeOrderedProductAwayFromDiagonal}) to characterize the freedom in [[renormalization|("re"-)normalizing]] [[time-ordered products]], we pause to observe that in the same vein the [[time-ordered products]] have a unique extension of their domain also to [[regular polynomial observables]]. This is in itself a trivial statement (since all [[star products]] are defined on [[regular polynomial observables]], [this def.](star+product#PropagatorStarProduct)) but for understanding the behaviour under [[renormalization|("re"-)normalization]] of other structures, such as the interacting [[BV-differential]] (def. \ref{BVDifferentialInteractingQuantum} below) it is useful to understand renormalization as a process that starts extending awa from [[regular polynomial observables]].
+Before using the unqueness of the [[time-ordered products]] away from coinciding spacetime arguments (prop. \ref{TimeOrderedProductAwayFromDiagonal}) to characterize the freedom in [[renormalization|("re"-)normalizing]] [[time-ordered products]], we pause to observe that in the same vein the [[time-ordered products]] have a unique extension of their domain also to [[regular polynomial observables]]. This is in itself a trivial statement (since all [[star products]] are defined on [[regular polynomial observables]], def. \ref{PropagatorStarProduct}) but for understanding the behaviour under [[renormalization|("re"-)normalization]] of other structures, such as the interacting [[BV-differential]] (def. \ref{BVDifferentialInteractingQuantum} below) it is useful to understand renormalization as a process that starts extending awa from [[regular polynomial observables]].
 
 
 
@@ -3724,8 +3728,8 @@ By prop. \ref{NotationForTimeOrderedProductsAsGeneralizedFunctions}, on [[regula
 Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}.
 
 Recall that the _[[time-ordered product]] on [[regular polynomial observables]]_
-is the [[star product]] $\star_F$ induced by the [[Feynman propagator]] ([this. def.](Wick+algebra#OnRegularPolynomialObservablesTimeOrderedProduct)) and that, due to the [[non-singular distribution|non-singular]]
-nature of [[regular polynomial observables]], this is given by [[conjugation]] of the pointwise product ([this equation](A+first+idea+of+quantum+field+theory#eq:ObservablesPointwiseProduct)) with $\mathcal{T}$ ([this equation](Wick+algebra#eq:OnRegularPolynomialObservablesPointwiseTimeOrderedIsomorphism)) as
+is the [[star product]] $\star_F$ induced by the [[Feynman propagator]] (def. \ref{OnRegularPolynomialObservablesTimeOrderedProduct}) and that, due to the [[non-singular distribution|non-singular]]
+nature of [[regular polynomial observables]], this is given by [[conjugation]] of the pointwise product (eq:ObservablesPointwiseProduct) with $\mathcal{T}$ (eq:OnRegularPolynomialObservablesPointwiseTimeOrderedIsomorphism) as
 
 $$
   T(A_1, A_2)
@@ -3735,7 +3739,7 @@ $$
   \mathcal{T}( \mathcal{T}^{-1}(A_1) \cdot \mathcal{T}^{-1}(A_2))
 $$
 
-([this prop.](Wick+algebra#IsomorphismOnRegularPolynomialObservablesTimeOrderedandPointwise)).
+(prop. \ref{IsomorphismOnRegularPolynomialObservablesTimeOrderedandPointwise}).
 
 We say that the _[[perturbative S-matrix]] scheme_ on [[regular polynomial observables]]
 is the [[exponential]] with respect to $\star_F$:
@@ -3772,7 +3776,7 @@ $$
 
 We think of $S_{int}$ here as an [[adiabatic switching|adiabatically switched]] non-point-[[interaction]] [[action functional]].
 
-We write $\mathcal{S}(S_{int})^{-1}$ for the [[inverse]] with respect to the [[Wick algebra|Wick product]] (which exists by [this remark](S-matrix#PerturbativeSMatrixInverse))
+We write $\mathcal{S}(S_{int})^{-1}$ for the [[inverse]] with respect to the [[Wick algebra|Wick product]] (which exists by remark \ref{PerturbativeSMatrixInverse})
 
 $$
   \mathcal{S}(S_{int})^{-1} \star_H \mathcal{S}(S_{int})
@@ -3832,7 +3836,7 @@ $$
 
 where $\mathcal{S}(S_{int}) = \exp_{\mathcal{T}}\left( \tfrac{-1}{i \hbar} S_{int} \right)$ is the [[perturbative S-matrix]] from  def. \ref{OnRegularObservablesPerturbativeSMatrix}.
 
-This indeed lands in [[formal power series]] in [[Planck's constant]] $\hbar$ (by [this remark](Bogoliubov's+formula#PowersInPlancksConstant)),  instead of in more general [[Laurent series]] as the [[perturbative S-matrix]] does (def. \ref{OnRegularObservablesPerturbativeSMatrix}).
+This indeed lands in [[formal power series]] in [[Planck's constant]] $\hbar$ (by remark \ref{PowersInPlancksConstant}),  instead of in more general [[Laurent series]] as the [[perturbative S-matrix]] does (def. \ref{OnRegularObservablesPerturbativeSMatrix}).
 
 Hence the inverse map is
 
@@ -3924,11 +3928,11 @@ $$
 
 Via the [[associativity]] (eq:RestrictedTimeOrderedProductAssociative) of the restricted [[time-ordered product]] thesese choices are naturally made by [[induction]] over $k$, choosing the $(k+1)$-ary [[time-ordered product]] $T_{k+1}$ as an [[extension of distributions]] of $T_k(\underset{k \, \text{args}}{\underbrace{-, \cdots, -}}) \star_F (-)$.
 
-This [[induction|inductive]] choice of [[extension of distributions]] of the [[time-ordered product]] to coinciding interaction points deserves to be called a choice of _normalization_ of the [[time-ordered product]] (e.g. [Scharf 94, section 4.3](#Scharf95)), but for historical reasons (see remark \ref{TheTraditionalErrorThatLeadsToTheNotoriouDivergencies} and remark \ref{CausalPerturbationTheoryAbsenceOfUVDivergences}) it is known as _[[renormalization|re-normalization]]_.
+This [[induction|inductive]] choice of [[extension of distributions]] of the [[time-ordered product]] to coinciding interaction points deserves to be called a choice of _normalization_ of the [[time-ordered product]] (e.g. [Scharf 94, section 4.3](S-matrix#Scharf95)), but for historical reasons (see remark \ref{TheTraditionalErrorThatLeadsToTheNotoriouDivergencies} and remark \ref{CausalPerturbationTheoryAbsenceOfUVDivergences}) it is known as _[[renormalization|re-normalization]]_.
 
 =--
 
-In ([Epstein-Glaser 73](#EpsteinGlaser73)) this is phrased in terms of splitting of distributions. In ([Brunetti-Fredenhagen 00, sections 4 and 7](perturbative+algebraic+quantum+field+theory#BrunettiFredenhagen00)) the perspective via [[extension of distributions]] is introduced, following ([Stora 93](perturbative+algebraic+quantum+field+theory#Stora93)). Review is in ([Dütsch 18, section 3.3.2](perturbative+algebraic+quantum+field+theory#Duetsch18)).
+In ([Epstein-Glaser 73](S-matrix#EpsteinGlaser73)) this is phrased in terms of splitting of distributions. In ([Brunetti-Fredenhagen 00, sections 4 and 7](perturbative+algebraic+quantum+field+theory#BrunettiFredenhagen00)) the perspective via [[extension of distributions]] is introduced, following ([Stora 93](perturbative+algebraic+quantum+field+theory#Stora93)). Review is in ([Dütsch 18, section 3.3.2](perturbative+algebraic+quantum+field+theory#Duetsch18)).
 
 Proposition \ref{TimeOrderedProductAwayFromDiagonal} already shows that the freedom in choosing the [[renormalization|("re"-)normalization]] of [[time-ordered products]] is at most that of [[extensions of distributions|extending]] them to the "fat diagonal", where at least one pair of interaction points coincides. The following proposition \ref{RenormalizationIsInductivelyExtensionToDiagonal} says that when making these choices [[induction|inductively]] in the arity of the [[time-ordered products]] as in def. \ref{ExtensionOfTimeOrderedProoductsRenormalization} then the available choice of [[renormalization|("re"-)normalization)]] at each stage is in fact only that of extension to the actual [[diagonal]], where _all_ interaction points coincide:
 
@@ -3960,7 +3964,7 @@ of the [[image]] of the [[diagonal]] inclusion $\Sigma \overset{diag}{\longright
 
 =--
 
-This statement appears in ([Popineau-Stora 82](renormalization#PopineauStora82)), with (unpublished) details in ([Stora 93](renormalization#Stora93)), following personal communication by [[Henri Epstein]] (according to [Dütsch 18, footnote 57](#Duetsch18)). Following this, statement and detailed proof appeared in ([Brunetti-Fredenhagen 99](#BrunettiFredenhagen99)).
+This statement appears in ([Popineau-Stora 82](renormalization#PopineauStora82)), with (unpublished) details in ([Stora 93](renormalization#Stora93)), following personal communication by [[Henri Epstein]] (according to [Dütsch 18, footnote 57](S-matrix#Duetsch18)). Following this, statement and detailed proof appeared in ([Brunetti-Fredenhagen 99](S-matrix#BrunettiFredenhagen99)).
 
 
 +-- {: .proof}
@@ -4223,7 +4227,7 @@ Then the following conditions are [[renormalization conditions]] (def. \ref{Reno
 
 =--
 
-([Duetsch 18, p. 150 and section 4.2](#Duetsch18))
+([Duetsch 18, p. 150 and section 4.2](S-matrix#Duetsch18))
 
 +-- {: .proof}
 ###### Proof
@@ -4231,12 +4235,12 @@ Then the following conditions are [[renormalization conditions]] (def. \ref{Reno
 For the first two statements this is obvious from prop. \ref{RenormalizationIsInductivelyExtensionToDiagonal} and prop. \ref{TimeOrderedProductAwayFromDiagonal}, which imply that $T_{n+1}\vert_{\Sigma^{n+1} \setminus diag(\Sigma)}$ is
 uniquely specified from $\{T_k\}_{k \leq n}$ via the [[star product]] induced by the [[Feynman propagator]],
 and the fact that, on [[Minkowski  spacetime]], this is manifestly translation invariant and independent of the fields
-(e.q. [this prop.](Feynman+propagator#FeynmanPropagatorAsACauchyPrincipalvalue)).
+(e.q. prop. \ref{FeynmanPropagatorAsACauchyPrincipalvalue}).
 
 The third statement requires work. That the [[quantum master equation]]/([[master Ward identity]]
 always holds on [[regular polynomial observables]] is prop. \ref{QuantumMasterEquation} below.
 That it holds for $T_{n+1}\vert_{\Sigma^{n+1} \setminus diag(\Sigma)}$ if it holds for $\{T_k\}_{k \leq n}$
-is shown in ([Duetsch 18, section 4.2.2](#Duetsch18)).
+is shown in ([Duetsch 18, section 4.2.2](S-matrix#Duetsch18)).
 
 =--
 
@@ -4517,7 +4521,7 @@ are called the _[[Feynman amplitudes]]_ for scattering processes in the given [[
 
 =--
 
-([Keller 10, IV.1](#Keller10))
+([Keller 10, IV.1](S-matrix#Keller10))
 
 +-- {: .proof}
 ###### Proof
@@ -4747,19 +4751,17 @@ $$
   \right)
 $$
 
-=--
-
-
-+-- {: .num_example #FieldSpeciesQED}
+=--+-- {: .num_example #FieldSpeciesQED}
 ###### Example
 **(field species in [[quantum electrodynamics]])**
 
 The [[field bundle]] for [[Gaussian-averaged Lorenz gauge|Lorenz]] [[gauge fixing|gauge fixed]] [[quantum electrodynamics]]
 on [[Minkowski spacetime]] $\Sigma$ admits a decomposition into field species, according to def. \ref{VerticesAndFieldSpecies}, as
 
+
 $$
   E_{\text{BV-BRST}}
-  \;\simeq\;
+  \;=\;
    \underset{
       \text{Dirac}
       \atop
@@ -4768,61 +4770,36 @@ $$
     \underbrace{
     (S_{odd} \times \Sigma)
     }}
-     \times_\Sigma
+    \times_\Sigma
    \underset{
-     \text{gauge fixed}
+     {\text{electromagnetic field &amp;}}
      \atop
-     \text{electromagnetic field}
+     {\text{Nakanishi-Lautrup field}}
+    }{
+    \underbrace{
+      T^\ast\Sigma
+       \times_\Sigma
+      (\mathbb{R} \times \Sigma)
+    }}
+   \times_\Sigma
+   \underset{
+     \text{ghost field}
    }{
    \underbrace{
+     (\mathbb{R}[1] \times \Sigma)
+   }
+   }
+   \times_\Sigma
    \underset{
-     {\text{electromagnetic}}
-     \atop
-     {\text{field}}
-    }{
-    \underbrace{
-    T^\ast\Sigma
-    }}
-      \times_\Sigma
-    \underset{
-      \text{auxiliary}
-        \atop
-      \text{fields}
-    }{
-    \underbrace{
-    \underset{
-      \text{ghost}
-      \atop
-      \text{field}
-    }{
-    \underbrace{
-    (\mathbb{R}[1] \times \Sigma)
-    }}
-      \times_\Sigma
-    \underset{
-      \text{NL auxiliary}
-      \atop
-      \text{field}
-    }{
-    \underbrace{
-    (\mathbb{R} \times \Sigma)
-    }}
-      \times_\Sigma
-    \underset{
-      \text{antighost}
-      \atop
-      \text{field}
-    }{
-    \underbrace{
-    (\mathbb{R}[-1] \times \Sigma)
-    }}
-    }
-    }
-    }
-    }
+     \text{antighost field}
+   }{
+   \underbrace{
+     (\mathbb{R}[-1] \times \Sigma)
+   }
+   }
 $$
 
-(by [this example](A+first+idea+of+quantum+field+theory#LagrangianQED) and [this example](A+first+idea+of+quantum+field+theory#NLGaugeFixingOfElectromagnetism)).
+(by example \ref{LagrangianQED}) and example \ref{NLGaugeFixingOfElectromagnetism})).
 
 The corresponding sum decomposition of the Feynman propagator, according to remark \ref{FeynmanPropagatorFieldSpecies},
 is
@@ -4841,18 +4818,22 @@ $$
   }
   +
   \underset{
-    \text{electromagnetic}
+    \text{electromagnetic field &amp;}
     \atop
-    \text{field}
+    \text{Nakanishi-Lautrup field}
   }{
   \underbrace{
-    \Delta_F^{photon}
+    \left(
+      \array{
+        \Delta_F^{photon} & *
+        \\
+        * & *
+      }
+    \right)
   }
   }
   +
   \Delta_F^{ghost}
-  +
-  \Delta_F^{NL}
   +
   \Delta_F^{\text{antighost}}
   \,,
@@ -4860,12 +4841,12 @@ $$
 
 where
 
-1. $\Delta_F^{\text{electron}}$ is the [[electron propagator]] ([this def.](Feynman+propagator#FeynmanPropagatorForDiracOperatorOnMinkowskiSpacetime))
+1. $\Delta_F^{\text{electron}}$ is the [[electron propagator]] (def. \ref{FeynmanPropagatorForDiracOperatorOnMinkowskiSpacetim}))
 
-1. $\Delta_F^{photon}$ is the [[photon propagator]] in [[Gaussian-averaged Lorenz gauge]] ([this prop.](A+first+idea+of+quantum+field+theory#PhotonPropagatorInGaussianAveragedLorenzGauge))
+1. $\Delta_F^{photon}$ is the [[photon propagator]] in [[Gaussian-averaged Lorenz gauge]] (prop. \ref{PhotonPropagatorInGaussianAveragedLorenzGauge})
 
 1. the [[auxiliary field]] [[Feynman propagators]] $\Delta_F^{ghost}$, $\Delta_F^{NL}$ and $\Delta_F^{antighost}$
-   are each one copy of the [[Feynman propagator]] of the [[real scalar field]] ([this prop.](Feynman+propagator#FeynmanPropagatorAsACauchyPrincipalvalue)).
+   are each one copy of the [[Feynman propagator]] of the [[real scalar field]] (prop. \ref{FeynmanPropagatorAsACauchyPrincipalvalue}).
 
 =--
 
@@ -5100,13 +5081,13 @@ In the definition of [[finite multigraphs]] in def. \ref{Graphs} there are _no_ 
 </center>
 
 In [[pQFT]] these diagrams are called _[[tadpoles]]_, and their non-appearance is considered part of the _[[Feynman rules]]_ (prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints}).
-Via prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints} this condition reflects the nature of the [[star product]] ([this def.](star+product#PropagatorStarProduct)) which always contracts _different_ [[tensor product]] factors with the [[Feynman propagator]] before taking their pointwise product.
+Via prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints} this condition reflects the nature of the [[star product]] (def. \ref{PropagatorStarProduct}) which always contracts _different_ [[tensor product]] factors with the [[Feynman propagator]] before taking their pointwise product.
 
 Beware that in [[graph theory]] these [[tadpoles]] are called "[[loops]]", while here in [[pQFT]] a "loop" in a [[planar graph]] refers instead to what in [[graph theory]] is called a _[[face]]_ of the graph, see the discussion of _[[loop order]]_ in prop. \ref{FeynmanDiagramLoopOrder} below.
 
 =--
 
-([Keller 10, remark II.8 and proof of prop. II.7](#Keller10))
+([Keller 10, remark II.8 and proof of prop. II.7](S-matrix#Keller10))
 
 
 
@@ -5200,7 +5181,7 @@ $$
 $$
 
 be [[disjoint union]] of graphs (def. \ref{ConnectedGraphs}). then then corresponding [[Feynman amplitudes]] (prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints})
-multiply by the pointwise product ([this def.](A+first+idea+of+quantum+field+theory#Observable)):
+multiply by the pointwise product (def. \ref{Observable}):
 
 $$
   \Gamma\left( g S_{int} + j A)_{i = 1}^{\nu(\Gamma)} \right)
@@ -5221,7 +5202,7 @@ $$
 ###### Proof
 
 By prop. \ref{TimeOrderedProductAwayFromDiagonal} the contributions to the S-matrix away from coinciding interaction points are given by the [[star product]] induced by the [[Feynman propagator]], and specifically, by prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints}, the [[Feynman amplitudes]] are given this way.
-Moreover the [[star product]] ([this def.](star+product#PropagatorStarProduct)) is given by first contracting with powers of the [[Feynman propagator]] and then multiplying all resulting terms with the pointwise product of observables.
+Moreover the [[star product]] (def. \ref{PropagatorStarProduct}) is given by first contracting with powers of the [[Feynman propagator]] and then multiplying all resulting terms with the pointwise product of observables.
 This implies the claim by the nature of the combinatorial factor in the definition of the [[Feynman amplitudes]] (prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints}).
 
 =--
@@ -5290,7 +5271,7 @@ $$
 
 be the corresponding [[effective action]] (def. \ref{InPerturbationTheoryActionEffective}).
 
-Then then [[S-matrix]] for $g S_{int} + j A$ is the [[exponential]] of the [[effective action]] with respect to the pointwise product $(-)\cdot (-)$ of observables ([this def.](A+first+idea+of+quantum+field+theory#Observable)):
+Then then [[S-matrix]] for $g S_{int} + j A$ is the [[exponential]] of the [[effective action]] with respect to the pointwise product $(-)\cdot (-)$ of observables (def. \ref{Observable}):
 
 $$
   \begin{aligned}
@@ -5415,7 +5396,7 @@ $$
   \,.
 $$
 
-This is because the [[Hadamard vacuum state]] $\langle -\rangle \colon PolyObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]  \to \mathbb{C}[ [\hbar, g, j ] ]$ simply picks the zero-order monomial term, by [this prop.](Wick+algebra#WickAlgebraCanonicalState),
+This is because the [[Hadamard vacuum state]] $\langle -\rangle \colon PolyObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]  \to \mathbb{C}[ [\hbar, g, j ] ]$ simply picks the zero-order monomial term, by prop. \ref{WickAlgebraCanonicalState}),
 and under multiplication of polynomials the zero-order terms are multiplied.
 
 
@@ -5484,7 +5465,7 @@ $$
 $$
 
 Finally, a [[finite multigraph]] $\Gamma$ (def. \ref{Graphs}) which is [[planar graph|planar]] (def. \ref{GraphPlanar}) and [[connected graph|connected]] (def. \ref{ConnectedGraphs}) contributes to the effective action
-precisely at order 
+precisely at order
 
 $$
   \hbar^{L(\Gamma)}
@@ -5493,7 +5474,7 @@ $$
 
 where $L(\Gamma) \in \mathbb{N}$ is the number of _[[faces]]_ of $\Gamma$, here called the _number of loops_ of the diagram;
 here usually called the _[[loop order]]_ of $\Gamma$.
- 
+
 (Beware the terminology clash with [[graph theory]], see the discussion of [[tadpoles]] in remark \ref{Tadpoles}.)
 
 =--
@@ -5568,7 +5549,7 @@ $$
 
 Hence $\hbar^{L(\Gamma)- 1}$ is the order of $\hbar$ at which $\Gamma$ contributes to the [[scattering matrix]] expressed as the [[Feynman perturbation series]].
 
-But the [[effective action]], by definition (eq:ExpansionEffectiveAction), has the same contributions 
+But the [[effective action]], by definition (eq:ExpansionEffectiveAction), has the same contributions
 of Feynman amplitudes, but multiplied by another power of $\hbar^1$, hence it contributes at order
 
 $$
@@ -5663,7 +5644,7 @@ only by those connected diagrams which are also vacuum diagrams.
 ###### Example
 **(2-vertex [[vacuum diagram]] in [[QED]])**
 
-The [[vacuum diagram]] (def. \ref{VacuumDiagram}) with two [[electron-photon interaction]]-vertices in [[quantum electrodynamics]] ([this example.](A+first+idea+of+quantum+field+theory#LagrangianQED)) is:
+The [[vacuum diagram]] (def. \ref{VacuumDiagram}) with two [[electron-photon interaction]]-vertices in [[quantum electrodynamics]] (example \ref{LagrangianQED}) is:
 
 <center>
 <img src="https://ncatlab.org/nlab/files/QEDVacuumDiagram.png" width="200">
@@ -5771,26 +5752,8 @@ $\,$
 **BV-Differential and Ward identities**
  {#QuantumAnomalies}
 
-So far we have discussed, starting with a [[BV-BRST formalism|BV-BRST]] [[gauge fixing|gauge fixed]] [[free field]] [[vacuum]],
-the perturbative construction of [[interacting field algebras of observables]] (def. \ref{QuntumMollerOperator}) and their organization
-in increasing powers of $\hbar$ and $g$ ([[loop order]], prop. \ref{FeynmanDiagramLoopOrder}) via the [[Feynman perturbation series]] (example \ref{FeynmanPerturbationSeries}, example \ref{SMatrixVacuumContribution}).
-
-But this [[interacting field algebra of observables]] still involves all the [[auxiliary fields]] of the [[BV-BRST formalism|BV-BRST]] [[gauge fixing|gauge fixed]] [[free field]] [[vacuum]] (as in example \ref{FieldSpeciesQED} for QED), while the
-actual physical [[gauge invariance|gauge invariant]] [[on-shell]] observables should be (just) the [[cochain cohomology]] of the
-[[BV-BRST differential]] on this enlarged space of observables. Hence for the construction of [[perturbative QFT]] to conclude,
-it remains to pass the [[BV-BRST differential]] of the [[free field]] [[Wick algebra]] of observables to
-a [[differential]] on the [[interacting field algebra]], such that its [[cochain cohomology]] is well defined.
-
-Since the [[time-ordered products]] away from coinciding interaction points and as well as on [[regular polynomial observables]] are uniquely fixed
-(prop. \ref{TimeOrderedProductAwayFromDiagonal}), one finds that also this _interacting quantum BV-differential_
-is uniquely fixed, on [[regular polynomial observables]], by [[conjugation]] with the [[quantum Møller operators]] (def. \ref{BVDifferentialInteractingQuantum}).
-The formula that characterizes it there is called the _[[quantum master equation]]_ or _[[master Ward identity]]_ (prop. \ref{QuantumMasterEquation} below).
-
-
-As one [[extension of distributions|extends]] the [[time-ordered products]] to coinciding interaction points in [[renormalization|("re"-)normalization]]
-of the [[perturbative QFT]] (def. \ref{ExtensionOfTimeOrderedProoductsRenormalization}), the [[quantum master equation]]/[[master Ward identity]] thus becomes a _[[renormalization condition]]_ (prop. \ref{ConditionsRenormalization}). If this condition cannot be solved, then the
-full construction of the [[perturbative QFT]] fails due to the [[gauge symmetries]] not having a consistent [[quantization]],
-and one speaks of a _[[gauge anomaly]]_.
+Finally we discuss how the [[BV-differential]] passes from the [[Wick algebra]] of observables of the [[free field theory]]
+to the [[interacting field algebra of observables]] of the [[interacting field theory|interacting]] [[perturbative QFT]].
 
 $\,$
 
@@ -5805,8 +5768,8 @@ $$
   PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
 $$
 
-on [[regular polynomial observables]] ([this def.](A+first+idea+of+quantum+field+theory#BVDifferentialGlobal)) is conjugated into the [[time-ordered product]] via the time ordering operator
-$\mathcal{T} \circ \{-S',-\} \circ \mathcal{T}^{-}$ ([this prop.](BV-operator#GaugeFixedActionFunctionalTimeOrderedAntibracket)).
+on [[regular polynomial observables]] (def. \ref{BVDifferentialGlobal}) is conjugated into the [[time-ordered product]] via the time ordering operator
+$\mathcal{T} \circ \{-S',-\} \circ \mathcal{T}^{-}$ (prop. \ref{GaugeFixedActionFunctionalTimeOrderedAntibracket}).
 
 In the same way we may use the [[quantum Møller operators]] to conjugate the BV-differential into the regular part of the [[interacting field algebra of observables]]:
 
@@ -5882,7 +5845,7 @@ Then the following are equivalent:
 
    ([Dütsch 18, (4.2)](Ward+identity#Duetsch18))
 
-   expressing the interacting quantum [[BV-differential]] (def. \ref{BVDifferentialInteractingQuantum}) as the sum of the [[time-ordered product|time-ordered]] [[antibracket]] ([this def.](BV-operator#AntibracketTimeOrdered)) with the _total_ [[action functional]] $S' + S_{int}$ and $i \hbar$ times the [[BV-operator]] ([BV-operator](BV-operator#ForGaugeFixedFreeLagrangianFieldTheoryBVOperator)).
+   expressing the interacting quantum [[BV-differential]] (def. \ref{BVDifferentialInteractingQuantum}) as the sum of the [[time-ordered product|time-ordered]] [[antibracket]] (def. \ref{AntibracketTimeOrdered}) with the _total_ [[action functional]] $S' + S_{int}$ and $i \hbar$ times the [[BV-operator]] ([BV-operator](BV-operator#ForGaugeFixedFreeLagrangianFieldTheoryBVOperator)).
 
 1. The quantum _[[master Ward identity]]_ (MWI) on [[regular polynomial observables]] _in terms of [[time-ordered products]]_:
 
@@ -6009,7 +5972,7 @@ $$
   \end{aligned}
 $$
 
-Here in the first step we used the definition of the [[BV-operator]] ([this def.](ForGaugeFixedFreeLagrangianFieldTheoryBVOperator)) to rewrite the plain antibracket in terms of the time-ordered antibracket ([this def.](BV-operator#AntibracketTimeOrdered)), then under the second brace we used that the time-ordered antibracket is the failure of the BV-operator to be a derivation ([this prop](BV-operator#AntibracketBVOperatorRelation)) and under the first brace the consequence of this statement for application to exponentials ([this example](BV-operator#TimeOrderedExponentialBVOperator)). Finally we collected terms, and to "complete the square" we added the terms on the left of
+Here in the first step we used the definition of the [[BV-operator]] (def. \ref{ForGaugeFixedFreeLagrangianFieldTheoryBVOperator}) to rewrite the plain antibracket in terms of the time-ordered antibracket (def. \ref{AntibracketTimeOrdered}), then under the second brace we used that the time-ordered antibracket is the failure of the BV-operator to be a derivation (prop. \ref{AntibracketBVOperatorRelation}) and under the first brace the consequence of this statement for application to exponentials (example \ref{TimeOrderedExponentialBVOperator}). Finally we collected terms, and to "complete the square" we added the terms on the left of
 
 $$
   \frac{1}{2} \underset{= 0}{\underbrace{\{S', S'\}_{\mathcal{T}}}}
@@ -6017,7 +5980,7 @@ $$
   i \hbar \underset{ = 0}{\underbrace{ \Delta_{BV}(S')}} = 0
 $$
 
-which vanish because, by definition of [[gauge fixing]] ([this def.](A+first+idea+of+quantum+field+theory#GaugeFixingLagrangianDensity)), the free gauge-fixed action functional $S'$ is independent of [[antifields]].
+which vanish because, by definition of [[gauge fixing]] (def. \ref{GaugeFixingLagrangianDensity}), the free gauge-fixed action functional $S'$ is independent of [[antifields]].
 
 But since the operation $(-) \star_F \exp_{\mathcal{T}}\left( \tfrac{1}{i \hbar} S_{int} \right)$ has the [[inverse]] $(-) \star_F \exp_{\mathcal{T}}\left( \tfrac{-1}{i \hbar}  S_{int} \right)$, this implies the claim.
 
@@ -6139,7 +6102,7 @@ $$
 
 hence that if either version (eq:OnRegularObservablesQuantumMasterWardIdentity) or (eq:OnRegularObservablesQuantumMasterWardIdentityViaTimeOrdered)  of the [[master Ward identity]] holds, it implies the other.
 
-Now expanding out the definition of $\mathcal{S}$ (def. \ref{OnRegularObservablesPerturbativeSMatrix}) and expressing $\{-S',-\}$ via the [[time-ordered product|time-ordered]] [[antibracket]] ([this def.](BV-operator#AntibracketTimeOrdered)) and the [[BV-operator]] $\Delta_{BV}$ ([this prop.](BV-operator#ForGaugeFixedFreeLagrangianFieldTheoryBVOperator)) as
+Now expanding out the definition of $\mathcal{S}$ (def. \ref{OnRegularObservablesPerturbativeSMatrix}) and expressing $\{-S',-\}$ via the [[time-ordered product|time-ordered]] [[antibracket]] (def. \ref{AntibracketTimeOrdered}) and the [[BV-operator]] $\Delta_{BV}$ (prop. \ref{ForGaugeFixedFreeLagrangianFieldTheoryBVOperator}) as
 
 $$
   \{-S',-\}
@@ -6301,7 +6264,7 @@ $$
   \end{aligned}
 $$
 
-Here in the line with the braces we used that the [[BV-operator]] is a [[derivation]] of the [[time-ordered product]] up to correction by the time-ordered [[antibracket]] ([this prop.](BV-operator#AntibracketBVOperatorRelation)), and under the first brace we used the effect of that property on time-ordered exponentials ([this example](BV-operator#TimeOrderedExponentialBVOperator)), while under the second brace we used that $\{(-),A\}_{\mathcal{T}}$ is a derivation of the time-ordered product. Finally we have collected terms, added $0 = \{S',S'\} + i \hbar \Delta_{BV}(S')$ as before, and then used the QME.
+Here in the line with the braces we used that the [[BV-operator]] is a [[derivation]] of the [[time-ordered product]] up to correction by the time-ordered [[antibracket]] (prop. \ref{AntibracketBVOperatorRelation}), and under the first brace we used the effect of that property on time-ordered exponentials (example \ref{TimeOrderedExponentialBVOperator}), while under the second brace we used that $\{(-),A\}_{\mathcal{T}}$ is a derivation of the time-ordered product. Finally we have collected terms, added $0 = \{S',S'\} + i \hbar \Delta_{BV}(S')$ as before, and then used the QME.
 
 This shows that the quantum [[master Ward identities]] follow from the [[quantum master equation]]. To conclude, it is now sufficient to show that, conversely, the MWI in terms of, say, retarded products implies the QME.
 
