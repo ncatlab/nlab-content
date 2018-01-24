@@ -5196,8 +5196,7 @@ where
 
 1. $\Delta_F^{photon}$ is the [[photon propagator]] in [[Gaussian-averaged Lorenz gauge]] ([this prop.](A+first+idea+of+quantum+field+theory#PhotonPropagatorInGaussianAveragedLorenzGauge))
 
-1. the [[auxiliary field]] [[Feynman propagators]] $\Delta_F^{ghost}$, $\Delta_F^{NL}$ and $\Delta_F^{antighost}$
-   are each one copy of the [[Feynman propagator]] of the [[real scalar field]] ([this prop.](Feynman+propagator#FeynmanPropagatorAsACauchyPrincipalvalue)).
+1. the [[ghost field]] and [[antighost field]] [[Feynman propagators]] $\Delta_F^{ghost}$, and $\Delta_F^{antighost}$ are each one copy of the [[Feynman propagator]] of the [[real scalar field]] ([this prop.](Feynman+propagator#FeynmanPropagatorAsACauchyPrincipalvalue)), while the [[Nakanishi-Lautrup field]] contributes a mixing with the [[photon propagator]], notationally suppressed behind the star-symbols above.
 
 =--
 
