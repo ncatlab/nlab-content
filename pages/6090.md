@@ -6118,7 +6118,11 @@ a [[differential]] on the [[interacting field algebra]], such that its [[cochain
 Since the [[time-ordered products]] away from coinciding interaction points and as well as on [[regular polynomial observables]] are uniquely fixed
 (prop. \ref{TimeOrderedProductAwayFromDiagonal}), one finds that also this _interacting quantum BV-differential_
 is uniquely fixed, on [[regular polynomial observables]], by [[conjugation]] with the [[quantum Møller operators]] (def. \ref{BVDifferentialInteractingQuantum}).
-The formula that characterizes it there is called the _[[quantum master equation]]_ or equivalently the _[[quantum master Ward identity]]_ (prop. \ref{QuantumMasterEquation} below). The latter serves to express corrections to [[Noether's theorem|Noether current]] [[conserved current|conservation laws]]; this be discuss [below](#WardIdentities).
+The formula that characterizes it there is called the _[[quantum master equation]]_ or equivalently the _[[quantum master Ward identity]]_ (prop. \ref{QuantumMasterEquation} below).
+
+When [[extension of distributions|extending]] to coinciding interaction points via [[renormalization|("re"-)normalization]] (def. \ref{ExtensionOfTimeOrderedProoductsRenormalization}) these identities are not guaranteed to hold anymore, but may
+be imposed as [[renormalization conditions]] (def. \ref{RenormalizationConditions}, prop. \ref{BasicConditionsRenormalization}).
+Quantum correction to the [[master Ward identity]] then imply corrections to [[Noether's theorem|Noether current]] [[conserved current|conservation laws]]; this we discuss [below](#WardIdentities).
 
 
 
