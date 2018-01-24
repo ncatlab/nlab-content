@@ -33,7 +33,7 @@ such that
 
 * the two triangles commute, $x_0\circ x_1=\partial_X$, $y_0\circ y_1=\partial_Y$, 
 
-* the diagonals compose to identites
+* the diagonals compose to identities
   $y_0\circ x_1 = 1$, $x_0\circ y_1 = 1$, 
  
 * and
@@ -50,7 +50,7 @@ The complex $Y_1\to P\to X_0$ is called the NE-SW complex, and $X_1\to P\to Y_0$
 
 ## Related concepts
 
-If to the above definition added the property that the SE-NW sequence $Y_1\to P\to X_0$ is _exact_ in that it is a (nonabelian in general) [[group extension]], this is called a [[butterfly]]. See there for more details.
+If to the above definition was added the property that the SE-NW sequence $Y_1\to P\to X_0$ is _exact_ in that it is a (nonabelian in general) [[group extension]], this is called a [[butterfly]]. See there for more details.
 
 +-- {: .query}
 Alex asks: Is there any relation between a [[profunctor]] and a Crossed Profunctor? Just as one could look at a [[crossed module]] as a [[module]] with "twisted multiplication" (according to the crossed module page), is there some analogous "twisting" of a profunctor to obtain a crossed profunctor?
