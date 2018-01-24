@@ -5819,7 +5819,7 @@ $$
 $$
 
 Finally, a [[finite multigraph]] $\Gamma$ (def. \ref{Graphs}) which is [[planar graph|planar]] (def. \ref{GraphPlanar}) and [[connected graph|connected]] (def. \ref{ConnectedGraphs}) contributes to the effective action
-precisely at order 
+precisely at order
 
 $$
   \hbar^{L(\Gamma)}
@@ -5828,7 +5828,7 @@ $$
 
 where $L(\Gamma) \in \mathbb{N}$ is the number of _[[faces]]_ of $\Gamma$, here called the _number of loops_ of the diagram;
 here usually called the _[[loop order]]_ of $\Gamma$.
- 
+
 (Beware the terminology clash with [[graph theory]], see the discussion of [[tadpoles]] in remark \ref{Tadpoles}.)
 
 =--
@@ -5903,7 +5903,7 @@ $$
 
 Hence $\hbar^{L(\Gamma)- 1}$ is the order of $\hbar$ at which $\Gamma$ contributes to the [[scattering matrix]] expressed as the [[Feynman perturbation series]].
 
-But the [[effective action]], by definition (eq:ExpansionEffectiveAction), has the same contributions 
+But the [[effective action]], by definition (eq:ExpansionEffectiveAction), has the same contributions
 of Feynman amplitudes, but multiplied by another power of $\hbar^1$, hence it contributes at order
 
 $$
@@ -6103,8 +6103,8 @@ This is the way in which the [[Feynman perturbation series]] is used in practice
 
 $\,$
 
-#### BV-Differential and Ward identities
- {#QuantumAnomalies}
+#### Interacting quantum BV-Differential
+ {#InteractingQantumBVDifferential}
 
 So far we have discussed, starting with a [[BV-BRST formalism|BV-BRST]] [[gauge fixing|gauge fixed]] [[free field]] [[vacuum]],
 the perturbative construction of [[interacting field algebras of observables]] (def. \ref{QuntumMollerOperator}) and their organization
@@ -6119,13 +6119,9 @@ a [[differential]] on the [[interacting field algebra]], such that its [[cochain
 Since the [[time-ordered products]] away from coinciding interaction points and as well as on [[regular polynomial observables]] are uniquely fixed
 (prop. \ref{TimeOrderedProductAwayFromDiagonal}), one finds that also this _interacting quantum BV-differential_
 is uniquely fixed, on [[regular polynomial observables]], by [[conjugation]] with the [[quantum Møller operators]] (def. \ref{BVDifferentialInteractingQuantum}).
-The formula that characterizes it there is called the _[[quantum master equation]]_ or _[[master Ward identity]]_ (prop. \ref{QuantumMasterEquation} below).
+The formula that characterizes it there is called the _[[quantum master equation]]_ or equivalently the _[[quantum master Ward identity]]_ (prop. \ref{QuantumMasterEquation} below). The latter serves to express corrections to [[Noether's theorem|Noether current]] [[conserved current|conservation laws]]; this be discuss [below](#WardIdentities).
 
 
-As one [[extension of distributions|extends]] the [[time-ordered products]] to coinciding interaction points in [[renormalization|("re"-)normalization]]
-of the [[perturbative QFT]] (def. \ref{ExtensionOfTimeOrderedProoductsRenormalization}), the [[quantum master equation]]/[[master Ward identity]] thus becomes a _[[renormalization condition]]_ (prop. \ref{ConditionsRenormalization}). If this condition cannot be solved, then the
-full construction of the [[perturbative QFT]] fails due to the [[gauge symmetries]] not having a consistent [[quantization]],
-and one speaks of a _[[gauge anomaly]]_.
 
 $\,$
 
@@ -6344,7 +6340,7 @@ $$
   \end{aligned}
 $$
 
-Here in the first step we used the definition of the [[BV-operator]] ([this def.](ForGaugeFixedFreeLagrangianFieldTheoryBVOperator)) to rewrite the plain antibracket in terms of the time-ordered antibracket ([this def.](BV-operator#AntibracketTimeOrdered)), then under the second brace we used that the time-ordered antibracket is the failure of the BV-operator to be a derivation ([this prop](BV-operator#AntibracketBVOperatorRelation)) and under the first brace the consequence of this statement for application to exponentials ([this example](BV-operator#TimeOrderedExponentialBVOperator)). Finally we collected terms, and to "complete the square" we added the terms on the left of
+Here in the first step we used the definition of the [[BV-operator]] ([this def.](A+first+idea+of+quantum+field+theory#ForGaugeFixedFreeLagrangianFieldTheoryBVOperator)) to rewrite the plain antibracket in terms of the time-ordered antibracket ([this def.](BV-operator#AntibracketTimeOrdered)), then under the second brace we used that the time-ordered antibracket is the failure of the BV-operator to be a derivation ([this prop](BV-operator#AntibracketBVOperatorRelation)) and under the first brace the consequence of this statement for application to exponentials ([this example](BV-operator#TimeOrderedExponentialBVOperator)). Finally we collected terms, and to "complete the square" we added the terms on the left of
 
 $$
   \frac{1}{2} \underset{= 0}{\underbrace{\{S', S'\}_{\mathcal{T}}}}
@@ -6722,24 +6718,198 @@ where, in turn, the term under the first brace follows by the graded [[Jacobi id
 
 =--
 
-+-- {: .num_example #MasterWardIdentityClassical}
-###### Example
-**([[classical master Ward identity]])**
+$\,$
 
-The [[classical limit]] $\hbar \to 0$ of the [[quantum master Ward identity]] (eq:OnRegularObservablesQuantumMasterWardIdentity) is
+#### Ward identities
+  {#WardIdentities}
+
+The _[[quantum master Ward identity]]_ (prop. \ref{QuantumMasterEquation}) expresses the relation between the [[quantum field theory|quantum]] (measured by [[Planck's constant]] $\hbar$) [[interacting field theory|interacting]] (measured by the [[coupling constant]] $g$) [[equations of motion]] to the [[classical field theory|classical]] [[free field]] [[equations of motion]] at $\hbar, g\to 0$ (remark \ref{QuantumMasterEuqationRelatesQuantumInteractingELEquationsToClassicalFreeELEquations} below). As such it generalizes the [[Schwinger-Dyson equation]] ([this prop.](A+first+idea+of+quantum+field+theory#DysonSchwinger)), to which it reduces for $g = 0$ (example \ref{QuantumMasterEuqationRelatesQuantumInteractingELEquationsToClassicalFreeELEquations} below) as well as the _classical master Ward identity_, which is the case for $\hbar = 0$ (example \ref{MasterWardIdentityClassical} below).
+
+Applied to products of the [[equations of motion]] with any given [[observable]], the master Ward identity becomes a particular _Ward identity_.
+
+This is of interest notably in view of [[Noether's theorem]] ([this prop.](A+first+idea+of+quantum+field+theory#NoethersFirstTheorem)), which says that every [[infinitesimal symmetry of the Lagrangian]] of, in particular, the given [[free field theory]], corresponds to a [[conserved current]] ([this def.](A+first+idea+of+quantum+field+theory#SymmetriesAndConservedCurrents)), hence a [[horizontal differential form]] whose [[total spacetime derivative]] vanishes up to a term proportional to the [[equations of motion]]. Under [[transgression of variational differential forms|transgression]] to [[local observables]] this is a relation of the form
 
 $$
+  div \mathbf{J} = 0 \phantom{AAA} \text{on-shell}
+  \,,
+$$
+
+where "on shell" means up to the ideal generated by the [[classical field theory|classical]] [[free field theory|free]] [[equations of motion]]. Hence for the case of [[local observables]] of the form $div \mathbf{J}$, the quantum Ward identity expresses the possible failure of the original [[conserved current]] to actually be conserved, due to both quantum effects ($\hbar$) and interactions ($g$). This is the form in which Ward identities are usually understood (example \ref{NoetherCurrentConservationQuantumCorrection} below).
+
+As one [[extension of distributions|extends]] the [[time-ordered products]] to coinciding interaction points in [[renormalization|("re"-)normalization]]
+of the [[perturbative QFT]] (def. \ref{ExtensionOfTimeOrderedProoductsRenormalization}), the [[quantum master equation]]/[[master Ward identity]] becomes a _[[renormalization condition]]_ (def. \ref{RenormalizationConditions}, prop. \ref{BasicConditionsRenormalization}). If this condition fails, one speaks of a _[[quantum anomaly]]_. Specifically if the Ward identity for an [[infinitesimal gauge symmetry]] is violated, one speaks of a _[[gauge anomaly]]_.
+
+$\,$
+
+
++-- {: .num_defn #OnRegularPolynomialObservablesMasterWardIdentity}
+###### Definition
+
+Consider a [[free field theory|free]] [[gauge fixing|gauge fixed]] [[Lagrangian field theory]] $(E_{\text{BV-BRST}}, \mathbf{L}')$ ([this def.](A+first+idea+of+quantum+field+theory#GaugeFixingLagrangianDensity)) with global [[BV-differential]] on [[regular polynomial observables]]
+
+$$
+  \{-S',(-)\}
+  \;\colon\;
+  PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
+    \longrightarrow
+  PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
+$$
+
+([this def.](A+first+idea+of+quantum+field+theory#ComplexBVBRSTGlobal)).
+
+Let moreover
+
+$$
+  g S_{int}
+   \;\in\;
+  PolyObs(E_{\text{BV-BRST}})_{reg}[ [ \hbar , g  ] ]
+$$
+
+be a [[regular polynomial observable]] (regarded as an [[adiabatic switching|adiabatically switched]] non-point-[[interaction]] [[action functional]]) such that the total action $S' + g S_{int}$ satisfies the [[quantum master equation]] ([this prop.](quantum+master+equation#QuantumMasterEquation)); and write
+
+$$
+  \mathcal{R}^{-1}(-)
+  \;\coloneqq\;
+  \mathcal{S}(g S_{int})^{-1}
+    \star_H
+  (\mathcal{S}(g S_{int}) \star_F (-))
+$$
+
+for the corresponding [[quantum Møller operator]] ([this def.](quantum+master+equation#MollerOperatorOnRegularPolynomialObservables)).
+
+Then by [this prop.](quantum+master+equation#QuantumMasterEquation) we have
+
+$$
+  \label{OnRegularObservablesQuantumMasterWardIdentityViaTimeOrdered}
   \{-S',(-)\} \circ \mathcal{R}^{-1}
   \;=\;
-  -
   \mathcal{R}^{-1}
   \left(
-    \left\{ S' + S_{int} \,,\, (-) \right\}
+    \left\{ -(S' + g S_{int}) \,,\, (-) \right\}_{\mathcal{T}}
+    -
+    i \hbar   \Delta_{BV}
   \right)
-  \,.
 $$
 
-Applied to an observable which is linear in the [[antifields]]
+This is the _quantum master Ward identity_ on [[regular polynomial observables]], i.e. before [[renormalization]].
+
+=--
+
+([Rejzner 13, (37)](Ward+identity#Rejzner13))
+
++-- {: .num_remark #QuantumMasterEuqationRelatesQuantumInteractingELEquationsToClassicalFreeELEquations}
+###### Remark
+**([[quantum master Ward identity]] relates [[quantum field theory|quantum]] [[interacting field theory|interacting field]] [[equation of motion|EOMs]] to [[classical field theory|classical]] [[free field]] [[equation of motion|EOMs]])**
+
+For $A \in PolyObs(E_{\text{BV-BRST}})_{reg}[ [ \hbar, g] ] $ the [[quantum master Ward identity]] on [[regular polynomial observables]] (eq:OnRegularObservablesQuantumMasterWardIdentityViaTimeOrdered) reads
+
+$$
+  \label{RearrangedMasterQuantumWard}
+  \mathcal{R}^{-1}
+  \left(
+    \left\{ -(S' + g S_{int}) \,,\, A \right\}_{\mathcal{T}}
+    -
+    i \hbar   \Delta_{BV}(A)
+  \right)
+  \;=\;
+  \{-S', \mathcal{R}^{-1}(A) \}
+$$
+
+The term on the right is manifestly in the [[image]] of the global [[BV-differential]] $\{-S',-\}$ of the [[free field theory]] ([this def.](A+first+idea+of+quantum+field+theory#ComplexBVBRSTGlobal)) and hence vanishes when passing to [[on-shell]] observables along the [[isomorphism]] ([this equation](A+first+idea+of+quantum+field+theory#eq:OnShellPolynomialObservablesAsBVCohomology))
+
+$$
+  \underset{
+    \text{on-shell}
+  }{
+  \underbrace{
+    PolyObs(E_{\text{BV-BRST}}, \mathbf{L}')
+  }}
+  \;\simeq\;
+  \underset{
+    \text{off-shell}
+  }{
+  \underbrace{
+    PolyObs(E_{\text{BV-BRST}})_{def(af = 0)}
+  }}/im(\{-S',-\})
+$$
+
+(by [this example](A+first+idea+of+quantum+field+theory#BVDifferentialGlobal)).
+
+Hence
+
+$$
+  \mathcal{R}^{-1}
+  \left(
+    \left\{ -(S' + g S_{int}) \,,\, A \right\}_{\mathcal{T}}
+    -
+    i \hbar   \Delta_{BV}(A)
+  \right)
+  \;=\;
+  0
+  \phantom{AAA}
+  \text{on-shell}
+$$
+
+In contrast, the left hand side is the [[interacting field observable]] (via [this def.](S-matrix#MollerOperatorOnRegularPolynomialObservables)) of the sum of the [[time-ordered product|time-ordered]] [[antibracket]] with the [[action functional]] of the [[interacting field theory]] and a quantum correction given by the [[BV-operator]]. If we use the definition of the [[BV-operator]] $\Delta_{BV}$ ([this def.](BV-operator#RearrangedMasterWardWithOnShell)) we may equivalently re-write this as
+
+
+$$
+  \label{RearrangedMasterWardWithOnShell}
+  \mathcal{R}^{-1}
+  \left(
+    \left\{ -S'  \,,\, A \right\}
+    +
+    \left\{ -g S_{int} \,,\, A  \right\}_{\mathcal{T}}
+  \right)
+  \;=\;
+  0
+  \phantom{AAA}
+  \text{on-shell}
+$$
+
+
+Hence the [[quantum master Ward identity]] expresses a relation between the ideal spanned by the [[classical field theory|classical]] [[free field theory|free field]] [[equations of motion]] and the [[quantum field theory|quantum]] [[interacting field theory|interacting field]] equations of motion.
+
+
+
+=--
+
++-- {: .num_example #SchwingerDysonReductionOfQuantumMasterWardIdentity}
+###### Example
+**([[free field]]-limit of [[master Ward identity]] is [[Schwinger-Dyson equation]])**
+
+In the [[free field]]-limit $g \to 0$ (noticing that in this limit $\mathcal{R}^{-1} = id$) the [[quantum master Ward identity]] (eq:OnRegularObservablesQuantumMasterWardIdentityViaTimeOrdered) reduces to
+
+$$
+  \left\{ -S'  \,,\, A \right\}_{\mathcal{T}}
+  -
+  i \hbar   \Delta_{BV}(A)
+  \;=\;
+  \{-S', A  \}
+$$
+
+which is the defining equation for the [[BV-operator]] ([this equation](BV-operator#eq:BVOperatorDefiningRelation)), hence is isomorphic (under $\mathcal{T}$) to the [[Schwinger-Dyson equation]] ([this prop.](BV-operator#DysonSchwinger))
+
+=--
+
++-- {: .num_example #MasterWardIdentityClassical}
+###### Example
+**([[classical limit]] of [[quantum master Ward identity]])**
+
+In the [[classical limit]] $\hbar \to 0$ (noticing that the classical limit of $\{-,-\}_{\mathcal{T}}$ is $\{-,-\}$) the [[quantum master Ward identity]] (eq:OnRegularObservablesQuantumMasterWardIdentityViaTimeOrdered) reduces to
+
+$$
+  \mathcal{R}^{1}
+  \left(
+    \left\{ -(S' + g S_{int}) \,,\, A \right\}
+  \right)
+  \;=\;
+  \{-S', \mathcal{R}^{-1}(A) \}
+$$
+
+This says that the [[interacting field observable]] corresponding to the global [[antibracket]] with the action functional of the [[interacting field theory]] vanishes on-shell, classically.
+
+Applied to an observable which is [[linear map|linear]] in the [[antifields]]
 
 $$
   A
@@ -6751,7 +6921,7 @@ $$
   dvol_\Sigma(x)
 $$
 
-this becomes
+this yields
 
 $$
   \begin{aligned}
@@ -6761,7 +6931,7 @@ $$
     +
     \mathcal{R}^{-1}
     \left(
-      \left\{ S' + S_{int} \,,\, A \right\}_{\mathcal{T}}
+      \left\{ -(S' + S_{int}) \,,\, A \right\}_{\mathcal{T}}
     \right)
     \\
     & =
@@ -6778,13 +6948,129 @@ $$
   \end{aligned}
 $$
 
-In this form the _classical Master Ward identity_ was originally identified in ([Dütsch-Fredenhagen 02, (90)](master+Ward+identity#DuetschFredenhagen02), [Brennecke-Dütsch 07, (5.5)](master+Ward+identity#BrennecketDuetsch07), following [Dütsch-Boas 02](master+Ward+identity#DuetschBoas02)).
-
+This is the _classical master Ward identity_ according to ([Dütsch-Fredenhagen 02](Ward+identity#DuetschFredenhagen02), [Brennecke-Dütsch 07, (5.5)](Ward+identity#BrennecketDuetsch07)), following ([Dütsch-Boas 02](Ward+identity#DuetschBoas02)).
 
 =--
 
++-- {: .num_example #NoetherCurrentConservationQuantumCorrection}
+###### Example
+**(quantum correction to [[Noether's theorem|Noether current]] [[conserved current|conservation]])**
+
+Let $v \in \Gamma^{ev}_\Sigma(T_\Sigma(E_{\text{BRST}}))$ be an [[evolutionary vector field]], which is an [[infinitesimal symmetry of the Lagrangian]] $\mathbf{L}'$, and let $J_{\hat v} \in \Omega^{p,0}_\Sigma(E_{\text{BV-BRST}})$ the corresponding [[conserved current]], by [[Noether's theorem|Noether's theorem I]] ([this prop.](A+first+idea+of+quantum+field+theory#NoethersFirstTheorem)), so that
+
+$$
+  \begin{aligned}
+    d J_{\hat v}
+    & =
+    \iota_{\hat v}  \delta \mathbf{L}'
+    \\
+    & =
+    (v^a dvol_\Sigma) \frac{\delta_{EL} L'}{\delta \phi^a}
+    \phantom{AAA}
+    \in
+    \Omega^{p+1,0}_\Sigma(E_{\text{BV-BRST}})
+  \end{aligned}
+$$
+
+(by [this equation](A+first+idea+of+quantum+field+theory#eq:CurrentNoetherConservation)), where in the second line we just rewrote the expression in components (using [this equation](A+first+idea+of+quantum+field+theory#eq:EulerLagrangeEquationGeneral))
+
+$$
+  v^a
+  \,,
+  \frac{\delta_{EL} L'}{\delta \phi^a}
+  \;\in \Omega^{0,0}_\Sigma(E_{\text{BV-BRST}})
+$$
+
+and re-arranged suggestively.
+
+Then for $a_{sw} \in C^\infty_{cp}(\Sigma)$ any choice of [[bump function]], we obtain the [[local observables]]
+
+$$
+  \begin{aligned}
+    A_{sw}
+    & \coloneqq
+    \underset{\Sigma}{\int}
+      \underset{
+        A^a(x)
+      }{
+      \underbrace{
+        a_{sw}(x)
+        v^a( \mathbf{\Phi}(x), D\mathbf{\Phi}(x), \cdots )
+      }
+      }
+      \mathbf{\Phi}^\ddagger_a(x)
+      \,
+      dvol_\Sigma(x)
+    \\
+    & \coloneqq
+    \tau_\Sigma( a_{sw}  v^a \phi^{\ddagger}_a \, dvol_\Sigma)
+  \end{aligned}
+$$
+
+and
 
 
+$$
+  \begin{aligned}
+    (div \mathbf{J})_{sw}
+    & \coloneqq
+    \underset{\Sigma}{\int}
+      \underset{
+        A^a(x)
+      }{
+      \underbrace{
+        a_{sw}(x)
+        v^a( \mathbf{\Phi}(x), D\mathbf{\Phi}(x), \cdots )
+      }
+      }
+      \frac{\delta S'}{\delta \mathbf{\Phi}^a(x)}
+      \,
+      dvol_\Sigma(x)
+    \\
+    & \coloneqq
+    \tau_\Sigma
+    \left(
+      a_{sw}  v^a \frac{\delta_{EL} \mathbf{L}'}{\delta \phi^a}
+      \, dvol_\Sigma
+    \right)
+  \end{aligned}
+$$
+
+by [[transgression of variational differential forms]].
+
+This is such that
+
+$$
+  \left\{
+    -S' , A_{sw}
+  \right\}
+  =
+  (div \mathbf{J})_{sw}
+  \,.
+$$
+
+Hence applied to this choice of local observable $A$, the quantum master Ward identity (eq:RearrangedMasterWardWithOnShell) now says that
+
+$$
+  \mathcal{R}^{-1}
+  \left(
+    {\, \atop \,}
+    (div \mathbf{J})_{sw}
+  \right)
+  \;=\;
+  \mathcal{R}^{-1}
+  \left(
+      \{g S_{int}, A_{sw} \}_{\mathcal{T}}
+
+    {\, \atop \,}
+  \right)
+    \phantom{AAA}
+  \text{on-shell}
+$$
+
+Hence the [[interacting field observable]]-version $\mathcal{R}^{-1}(div\mathbf{J})$ of $div \mathbf{J}$ need not vanish itself on-shell, instead there may be a correction as shown on the right.
+
+=--
 
 
 $\,$
@@ -6794,7 +7080,11 @@ $\,$
 
 #### Retarded products
 
-> under construction...
+We have seen that the [[exponential series]]-expansion of the [[perturbative S-matrix]] $\mathcal{S}(g S_{int})$ is given by "[[time-ordered products]]". Similarly there is an [[exponential series]]-expansion of the [[quantum Møller operator]] $\mathcal{S}(g S_{int})^{-1} T(\mathcal{S}(g S_{int}), (-))$ (def. \ref{QuntumMollerOperator}); its coefficients are called the _[[retarded products]]_ (def. \ref{RetardedProductFromPerturbativeSMatrix}) below.
+
+Hence where the [[time-ordered products]] directly relate to [[scattering amplitudes]] (example \ref{ScatteringAmplitudeFromInteractingFieldObservables}) the [[retarded products]] directly relate to more general [[interacting field observables]] (def. \ref{InteractingFieldObservables}).
+
+The formulation of [[interacting field theory]] via [[time-ordered products]] or [[retarded products]] is essentially equivalent; in any given situation either one may be more conenient than the other.
 
 +-- {: .num_defn #RetardedProductFromPerturbativeSMatrix}
 ###### Definition
