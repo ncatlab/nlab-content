@@ -140,7 +140,7 @@ Now the claim follows with the fact that the perturbative S-matrix $S_{L_{int}(m
 
 The original article on the Stückelberg-Petermann renormalization group is
 
-* {#StueckelbergPetermann53} [[Ernst Stückelberg]] and A. Petermann, _La normalisation des constantes dans la theorie des quanta_, Helv. Phys. Acta 26 (1953), 499–520
+* {#StueckelbergPetermann53} [[Ernst Stückelberg]], [[André Petermann]], _La normalisation des constantes dans la theorie des quanta_, Helv. Phys. Acta 26 (1953), 499–520
 
 The relation of the Stückelberg-Petermann renormalization group to [[scale transformations]] and the [[Gell-Mann-Low renormalization cocycle]] is due to
 
