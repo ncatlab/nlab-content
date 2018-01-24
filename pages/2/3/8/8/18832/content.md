@@ -5778,14 +5778,17 @@ a [[differential]] on the [[interacting field algebra]], such that its [[cochain
 Since the [[time-ordered products]] away from coinciding interaction points and as well as on [[regular polynomial observables]] are uniquely fixed
 (prop. \ref{TimeOrderedProductAwayFromDiagonal}), one finds that also this _interacting quantum BV-differential_
 is uniquely fixed, on [[regular polynomial observables]], by [[conjugation]] with the [[quantum Møller operators]] (def. \ref{BVDifferentialInteractingQuantum}).
-The formula that characterizes it there is called the _[[quantum master equation]]_ or equivalently the _[[quantum master Ward identity]]_ (prop. \ref{QuantumMasterEquation} below). The latter serves to express corrections to [[Noether's theorem|Noether current]] [[conserved current|conservation laws]]; this be discuss further [below](#WardIdentities)
+The formula that characterizes it there is called the _[[quantum master equation]]_ or equivalently the _[[quantum master Ward identity]]_ (prop. \ref{QuantumMasterEquation} below).
 
+When [[extension of distributions|extending]] to coinciding interaction points via [[renormalization|("re"-)normalization]] (def. \ref{ExtensionOfTimeOrderedProoductsRenormalization}) these identities are not guaranteed to hold anymore, but may
+be imposed as [[renormalization conditions]] (def. \ref{RenormalizationConditions}, prop. \ref{BasicConditionsRenormalization}).
+Quantum correction to the [[master Ward identity]] then imply corrections to [[Noether's theorem|Noether current]] [[conserved current|conservation laws]]; this we discuss [below](#WardIdentities).
 
 
 $\,$
 
 
-Recall how the global BV-differential
+For the following discussion, recall from the [previous chapter](#FreeQuantumFields) how the global BV-differential
 
 $$
   \{S',-\}
@@ -5795,8 +5798,7 @@ $$
   PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
 $$
 
-on [[regular polynomial observables]] (def. \ref{BVDifferentialGlobal}) is conjugated into the [[time-ordered product]] via the time ordering operator
-$\mathcal{T} \circ \{-S',-\} \circ \mathcal{T}^{-}$ (prop. \ref{GaugeFixedActionFunctionalTimeOrderedAntibracket}).
+on [[regular polynomial observables]] (def. \ref{BVDifferentialGlobal}) as well as the global [[antibracket]] $\{-,-\}$ (def. \ref{ComplexBVBRSTGlobal}) are [[conjugation|conjugated]] into the [[time-ordered product]] via the time ordering operator $\mathcal{T} \circ \{-S',-\} \circ \mathcal{T}^{-}$ (def. \ref{AntibracketTimeOrdered}, prop. \ref{GaugeFixedActionFunctionalTimeOrderedAntibracket}), which makes 
 
 In the same way we may use the [[quantum Møller operators]] to conjugate the BV-differential into the regular part of the [[interacting field algebra of observables]]:
 
@@ -5804,9 +5806,18 @@ In the same way we may use the [[quantum Møller operators]] to conjugate the BV
 ###### Definition
 **(interacting quantum [[BV-differential]])**
 
-Given an [[adiabatic switching|adiabatically switched]] non-point-[[interaction]] [[action functional]] in the form of a [[regular polynomial observable]] $S_{int}$,
-then the _interacting quantum BV-differential_ on the [[interacting field algebra]] (def. \ref{FieldAlgebraObservablesInteracting})
-on [[regular polynomial observables]] is the [[conjugation]] of the plain [[BV-differential]] $\{-S',-\}$ by the [[quantum Møller operator]] induced by $S_{int}$ (def. \ref{MollerOperatorOnRegularPolynomialObservables}):
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree} and let
+
+$$
+  S_{int}
+  \;\in\;
+  PolyObs(E_{\text{BV-BRST}})_{reg}[ [ \hbar, g, j] ]
+$$
+
+be a [[regular polynomial observables]], regarded as an [[adiabatic switching|adiabatically switched]] non-point-[[interaction]] [[action functional]].
+
+Then the _interacting quantum [[BV-differential]]_ on the [[interacting field algebra]] on [[regular polynomial observables]] 
+(def. \ref{FieldAlgebraObservablesInteracting}) is the [[conjugation]] of the plain global [[BV-differential]] $\{-S',-\}$ (def. \ref{ComplexBVBRSTGlobal}) by the [[quantum Møller operator]] induced by $S_{int}$ (def. \ref{MollerOperatorOnRegularPolynomialObservables}):
 
 $$
   \mathcal{R} \circ \{-S', (-)\} \circ \mathcal{R}^{-1}
