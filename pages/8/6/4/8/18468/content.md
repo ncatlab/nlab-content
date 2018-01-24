@@ -182,7 +182,7 @@ Extension of [[causal perturbation theory]] to [[AQFT on curved spacetimes|curve
 
   following
 
-  * {#Stora93} [[Raymond Stora]], -Differential algebras in Lagrangean field theory_, ETH Lectures, January-February 1993. Manuscript
+  * {#Stora93} [[Raymond Stora]], _Differential algebras in Lagrangean field theory_, ETH Lectures, January-February 1993. Manuscript
 
 
 * {#DuetschFredenhagen00} [[Michael Dütsch]], [[Klaus Fredenhagen]], _Algebraic Quantum Field Theory, Perturbation Theory, and the Loop Expansion_, Commun.Math.Phys. 219 (2001) 5-30 ([arXiv:hep-th/0001129](https://arxiv.org/abs/hep-th/0001129))
