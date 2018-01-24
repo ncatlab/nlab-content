@@ -18,7 +18,7 @@
 
 ## Idea
 
-In [[perturbative quantum field theory]] the _quantum master Ward identity_ (def. \ref{OnRegularPolynomialObservablesMasterWardIdentity} below) expresses the relation between the [[quantum field theory|quantum]] (measured by [[Planck's constant]] $\hbar$) [[interacting field theory|interacting]] (measured by the [[coupling constant]] $g$) [[equations of motion]] to the [[classical field theory|classical]] [[free field]] [[equations of motion]] at $\hbar, g\to 0$ (remark \ref{QuantumMasterEuqationRelatesQuantumInteractingELEquationsToClassicalFreeELEquations} below). As such it generalizes the [[Schwinger-Dyson equation]], to which it reduces for $g = 0$ (example \ref{QuantumMasterEuqationRelatesQuantumInteractingELEquationsToClassicalFreeELEquations} below) as well as the _classical master Ward equation_, which is the case for $\hbar = 0$ (example \ref{MasterWardIdentityClassical} below).
+In [[perturbative quantum field theory]] the _quantum master Ward identity_ (def. \ref{OnRegularPolynomialObservablesMasterWardIdentity} below) expresses the relation between the [[quantum field theory|quantum]] (measured by [[Planck's constant]] $\hbar$) [[interacting field theory|interacting]] (measured by the [[coupling constant]] $g$) [[equations of motion]] to the [[classical field theory|classical]] [[free field]] [[equations of motion]] at $\hbar, g\to 0$ (remark \ref{QuantumMasterEuqationRelatesQuantumInteractingELEquationsToClassicalFreeELEquations} below). As such it generalizes the [[Schwinger-Dyson equation]], to which it reduces for $g = 0$ (example \ref{QuantumMasterEuqationRelatesQuantumInteractingELEquationsToClassicalFreeELEquations} below) as well as the _classical master Ward identity_, which is the case for $\hbar = 0$ (example \ref{MasterWardIdentityClassical} below).
 
 Applied to products of the [[equations of motion]] with any given [[observable]], the master Ward identity becomes a particular _Ward identity_.
 
@@ -355,19 +355,19 @@ $$
   \left(
     {\, \atop \,}
     (div \mathbf{J})_{sw}
-    + 
-    \underbrace{
-      \{ -g S_{int}, A_{sw} \}_{\mathcal{T}}
-    }
-    {\, \atop \,}
   \right)
   \;=\;
-  0
-  \phantom{AAA}
+  \mathcal{R}^{-1}
+  \left(
+      \{g S_{int}, A_{sw} \}_{\mathcal{T}}
+
+    {\, \atop \,}
+  \right)
+    \phantom{AAA}
   \text{on-shell}
 $$
 
-Hence the [[interacting field observable]]-version $\mathcal{R}^{-1}(div\mathbf{J})$ of $div \mathbf{J}$ need not vanish itself on-shell, only its modification by the "quantum correction" over the brace does, in general.
+Hence the [[interacting field observable]]-version $\mathcal{R}^{-1}(div\mathbf{J})$ of $div \mathbf{J}$ need not vanish itself on-shell, instead there may be a correction as shown on the right.
 
 =--
 
