@@ -159,13 +159,13 @@ The formula that characterizes it there is called the _[[quantum master equation
 
 In its incarnation as the [[master Ward identity]], this expresses the difference between the [[shell]] of the free classical field theory
 and that of the interacting quantum field theory, thus generalizing the [[Schwinger-Dyson equation]] to [[interacting field theory]] (example \ref{SchwingerDysonReductionOfQuantumMasterWardIdentity} below). Applied to [[Noether's theorem]] it expresses the possible
-failure of [[conserved currents]] associated with [[infinitesimal symmetries of the Lagrangian]] to still be conserved 
+failure of [[conserved currents]] associated with [[infinitesimal symmetries of the Lagrangian]] to still be conserved
 in the [[interacting field theory|interacting]] [[perturbative QFT]] (example \ref{NoetherCurrentConservationQuantumCorrection} below).
 
 As one [[extension of distributions|extends]] the [[time-ordered products]] to coinciding interaction points in [[renormalization|("re"-)normalization]]
 of the [[perturbative QFT]] (def. \ref{ExtensionOfTimeOrderedProoductsRenormalization} below), the [[quantum master equation]]/[[master Ward identity]] becomes a _[[renormalization condition]]_ (prop. \ref{BasicConditionsRenormalization} below). If this condition fails
 one says that the [[interacting field theory|interacting]] [[perturbative QFT]] has a _[[quantum anomaly]]_, specifically a _[[gauge anomaly]]_
-if the [[Ward identity]] of an [[infinitesimal gauge symmetry]] is violated. 
+if the [[Ward identity]] of an [[infinitesimal gauge symmetry]] is violated.
 
 These issues of [[renormalization|"(re)-"normalization]] we discuss in detail in the [next chapter](#Renormalization).
 
@@ -4659,8 +4659,8 @@ which yield in total the sum over all diagrams with $\nu+1$ vertices.
 =--
 
 
-If the [[free field theory]] is decomposed as a [[direct sum]] of free field theories, we obtain a more
-fine-grained concept of [[Feynman amplitudes]]:
+If the [[free field theory]] is decomposed as a [[direct sum]] of free field theories (def. \ref{VerticesAndFieldSpecies} below), we obtain a more fine-grained concept of [[Feynman amplitudes]], associated not just with a [[finite multigraph]], but also with a
+labelling of this graph by field species and interaction types. These labeled multigraphs are the genuine _[[Feynman diagrams]]_ (def. \ref{FeynmanDiagram} below):
 
 +-- {: .num_defn #VerticesAndFieldSpecies}
 ###### Definition
@@ -4759,7 +4759,9 @@ $$
   \right)
 $$
 
-=--+-- {: .num_example #FieldSpeciesQED}
+=--
+
++-- {: .num_example #FieldSpeciesQED}
 ###### Example
 **(field species in [[quantum electrodynamics]])**
 
@@ -4849,14 +4851,16 @@ $$
 
 where
 
-1. $\Delta_F^{\text{electron}}$ is the [[electron propagator]] (def. \ref{FeynmanPropagatorForDiracOperatorOnMinkowskiSpacetim}))
+1. $\Delta_F^{\text{electron}}$ is the [[electron propagator]] (def. \ref{FeynmanPropagatorForDiracOperatorOnMinkowskiSpacetim}));
 
-1. $\Delta_F^{photon}$ is the [[photon propagator]] in [[Gaussian-averaged Lorenz gauge]] (prop. \ref{PhotonPropagatorInGaussianAveragedLorenzGauge})
+1. $\Delta_F^{photon}$ is the [[photon propagator]] in [[Gaussian-averaged Lorenz gauge]] (prop. \ref{PhotonPropagatorInGaussianAveragedLorenzGauge});
 
-1. the [[auxiliary field]] [[Feynman propagators]] $\Delta_F^{ghost}$, $\Delta_F^{NL}$ and $\Delta_F^{antighost}$
-   are each one copy of the [[Feynman propagator]] of the [[real scalar field]] (prop. \ref{FeynmanPropagatorAsACauchyPrincipalvalue}).
+1. the [[ghost field]] and [[antighost field]] [[Feynman propagators]] $\Delta_F^{ghost}$, and $\Delta_F^{antighost}$ are each one copy of the [[Feynman propagator]] of the [[real scalar field]] (prop. \ref{FeynmanPropagatorAsACauchyPrincipalvalue}), while the [[Nakanishi-Lautrup field]] contributes a mixing with the [[photon propagator]], notationally suppressed behind the star-symbols above.
+
 
 =--
+
+
 
 
 +-- {: .num_defn #FeynmanDiagram}
@@ -5765,7 +5769,7 @@ So far we have discussed, starting with a [[BV-BRST formalism|BV-BRST]] [[gauge 
 the perturbative construction of [[interacting field algebras of observables]] (def. \ref{QuntumMollerOperator}) and their organization
 in increasing powers of $\hbar$ and $g$ ([[loop order]], prop. \ref{FeynmanDiagramLoopOrder}) via the [[Feynman perturbation series]] (example \ref{FeynmanPerturbationSeries}, example \ref{SMatrixVacuumContribution}).
 
-But this [[interacting field algebra of observables]] still involves all the [[auxiliary fields]] of the [[BV-BRST formalism|BV-BRST]] [[gauge fixing|gauge fixed]] [[free field]] [[vacuum]] (as in example \ref{FieldSpeciesQED} for QED), while the
+But this [[interacting field algebra of observables]] still involves all the [[auxiliary fields]] of the [[BV-BRST formalism|BV-BRST]] [[gauge fixing|gauge fixed]] [[free field]] [[vacuum]] (example \ref{FieldSpeciesQED}), while the
 actual physical [[gauge invariance|gauge invariant]] [[on-shell]] observables should be (just) the [[cochain cohomology]] of the
 [[BV-BRST differential]] on this enlarged space of observables. Hence for the construction of [[perturbative QFT]] to conclude,
 it remains to pass the [[BV-BRST differential]] of the [[free field]] [[Wick algebra]] of observables to
