@@ -29,6 +29,10 @@ In [[perturbative quantum field theory]] a _radiative correction_ is a contribut
 
 <img src="https://ncatlab.org/nlab/files/LambShiftMainVertexCorrection.png" width="100">
 
+## Related concepts
+
+* [[radiation]]
+
 ## References
 
 * C. Was, _Radiative corrections_, 1994 ([pdf](https://cds.cern.ch/record/258038/files/P00020602.pdf))
