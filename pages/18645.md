@@ -79,7 +79,7 @@ $\,$
 **References**
  {#References}
 
-Pointers to the literature are given in each chapter, alongside the text. The following are a few selections of references.
+Pointers to the literature are given in each chapter, alongside the text. The following is a selection of these references.
 
 The discussion of [[spinors]] in chapter _[2. Spacetime](#Spacetime)_ follows [Baez-Huerta 09](spin+representation#BaezHuerta09).
 
@@ -107,7 +107,9 @@ The discussion of [[quantization]] in _[13. Quantization](#Quantization)_ takes 
 
 The perspective on the [[Wick algebra]] in _[14. Free quantum fields](#FreeQuantumFields)_ goes back to [Dito 90](Wick+algebra#Dito90) and was revived for [[pAQFT]] in [Dütsch-Fredenhagen 00](Wick+algebra#DuetschFredenhagen00). The proof of the folklore result that the perturbative [[Hadamard vacuum state]] on the [[Wick algebra]] is indeed a [[state on a star-algebra|state]] is cited from  [Dütsch 18](Wick#algebra#Duetsch18).
 
-The discussion of [[causal perturbation theory]] in _[15. Interacting quantum fields](#QuantumObservables)_ follows the original [Epstein-Glaser 73](causal+perturbation+theory#EpsteinGlaser73). The relevance here of the [[star product]] induced by the [[Feynman propagator]] was highlighted in ([Fredenhagen-Rejzner 12](perturbative+algebraic+quantum+field+theory#FredenhagenRejzner12)). Our derivation of [[Feynman diagrams|Feynman diagrammatics]] follows [Keller 10](Feynman+diagram#Keller10).
+The discussion of [[causal perturbation theory]] in _[15. Interacting quantum fields](#QuantumObservables)_ follows the original [Epstein-Glaser 73](causal+perturbation+theory#EpsteinGlaser73). The relevance here of the [[star product]] induced by the [[Feynman propagator]] was highlighted in [Fredenhagen-Rejzner 12](perturbative+algebraic+quantum+field+theory#FredenhagenRejzner12). The proof that the [[interacting field algebra of observables]] defined by [[Bogoliubov's formula]] is a [[causally local net]] in the sense of the [[Haag-Kastler axioms]] is that of [Brunetti-Fredenhagen 00](pAQFT#perturbative+algebraic+quantum+field+theory#BrunettiFredenhagen00).  
+
+Our derivation of [[Feynman diagrams|Feynman diagrammatics]] follows [Keller 10, chapter IV](Feynman+diagram#Keller10), our derivation of the [[quantum master equation]] follows [Rejzner 11, section 5.1.3](BV-BRST+formalism#Rejzner11), and our discussion of [[Ward identities]] is informed by [Dütsch 18, chapter 4](Ward+identity#Duetsch18).
 
 (...)
 
