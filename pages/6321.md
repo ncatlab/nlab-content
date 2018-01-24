@@ -42,6 +42,8 @@ As a result, [[scattering amplitudes]] for [[electron-photon interactions]] in Q
 
 ## Properties
 
+* [[anomalous magnetic moment of the electron]]
+
 * [[Lamb shift]]
 
 * [[Casimir effect]]
