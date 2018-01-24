@@ -1033,7 +1033,7 @@ The concept of renormalization in [[causal perturbation theory]] via [[splittig 
 
 following precursors in
 
-* {#StueckelbergPetermann53} [[Ernst Stückelberg]], A. Peterman, , _La normalisation des constants dans la theorie des quanta_ Helv. Phys. Acta 26, 499 (1953); and earlier references therein
+* {#StueckelbergPetermann53} [[Ernst Stückelberg]], [[André Petermann]], , _La normalisation des constants dans la theorie des quanta_, Helv. Phys. Acta 26, 499 (1953); and earlier references therein
 
   (see also _[[Stückelberg-Petermann renormalization group]]_)
 
