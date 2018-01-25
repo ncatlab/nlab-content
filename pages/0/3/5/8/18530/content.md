@@ -375,22 +375,23 @@ $$
 
 ## Properties
 
-+-- {: .num_prop}
++-- {: .num_prop #ScalingDegreeOfDistributionsBasicProperties}
 ###### Proposition
+**(basic properties of [[scaling degree of distributions]])**
 
 Let $X \subset \mathbb{R}^n$ and $u \in \mathcal{D}'(X)$ be a [[distribution]] as in def. \ref{RescaledDistribution}, such that its [[scaling degree of a distribution|scaling degree]] is finite: $sd(u) \lt \infty$ (def. \ref{ScalingDegree}). Then
 
-1. For $\alpha \in \mathbb{N}^n$, the [[partial derivative|partial]] [[derivative of distributions]] $\partial_\alpha$ increases scaling degree by at most ${\vert \alpha\vert }$:   
+1. For $\alpha \in \mathbb{N}^n$, the [[partial derivative|partial]] [[derivative of distributions]] $\partial_\alpha$ increases scaling degree by ${\vert \alpha\vert }$:   
 
    $$
-     deg(\partial_\alpha u) \leq deg(u) + {\vert \alpha\vert}
+     deg(\partial_\alpha u) \;=\; deg(u) + {\vert \alpha\vert}
    $$
 
-1. For $\alpha \in \mathbb{N}^n$, the [[product of distributions]] with the smooth coordinate functions $x^\alpha$ decreases scaling degree by at most ${\vert \alpha\vert }$:   
+1. For $\alpha \in \mathbb{N}^n$, the [[product of distributions]] with the smooth coordinate functions $x^\alpha$ decreases scaling degree by ${\vert \alpha\vert }$:   
 
 
    $$
-     deg(x^\alpha u) \leq deg(u) - {\vert \alpha\vert}
+     deg(x^\alpha u) \;=\; deg(u) - {\vert \alpha\vert}
    $$
 
 1. Under [[tensor product of distributions]] their scaling degrees add: 
