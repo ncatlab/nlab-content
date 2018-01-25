@@ -2,6 +2,15 @@
 ## Symmetries
  {#Symmetries}
 
+
+In this chapter we discuss these topics:
+
+* _[Infinitesimal symmetries of the Lagrangian density](#InfinitesimalSymmetriesOfTheLagrangianDensity)_
+
+* _[Infinitesimal symmetries of the presymplectic potential current](#InfinitesimalSymmetriesOfThePresymplecticPotentialCurrent)_
+
+$\,$
+
 We have introduced the concept of _[[Lagrangian field theories]]_ $(E,\mathbf{L})$ in terms of a [[field bundle]] $E$ equipped with a
 [[Lagrangian density]] $\mathbf{L}$ on its [[jet bundle]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}).
 Generally, given any [[object]] equipped with some [[structure]], it is of paramount interest to determine
@@ -43,15 +52,6 @@ of [[infinitesimal symmetries]] of the [[presymplectic potential current]] to th
 However, it will turn out that there may be an [[obstruction]] to this construction, namely the existence of
 special infinitesimal symmetries of the Lagrangian densities, called _implicit [[gauge symmetries]]_ (discussed [further below](#GaugeSymmetries)).
 
-$\,$
-
-We now discuss these topics:
-
-$\,$
-
-* _[Infinitesimal symmetries of the Lagrangian density](#InfinitesimalSymmetriesOfTheLagrangianDensity)_
-
-* _[Infinitesimal symmetries of the presymplectic potential current](#InfinitesimalSymmetriesOfThePresymplecticPotentialCurrent)_
 
 $\,$
 
@@ -624,7 +624,6 @@ $$
 is an [[infinitesimal symmetry of the Lagrangian]] (def. \ref{SymmetriesAndConservedCurrents}). The [[conserved current]] that corresponds to this under [[Noether's theorem|Noether's theorem I]] (prop. \ref{NoethersFirstTheorem}) is
 
 $$
-  -
   i
   \overline{\psi} \gamma^\mu \psi \, \iota_{\partial_\mu} dvol_\Sigma
   \;\in\;
@@ -633,8 +632,6 @@ $$
 $$
 
 This is called the _[[Dirac current]]_.
-
-In fact, due to the [[supergeometry|supergeometric]] nature of the [[Dirac field]], the [[Dirac current]] is conserved even [[off-shell]], as discussed in remark \ref{LagrangianDensityOfDiracFieldSupergeometricNature}.
 
 =--
 
@@ -696,6 +693,7 @@ $$
     - \iota_{\hat v} 
     \left(
     \underset{
+      -
       \overline{\psi} 
       \gamma^\mu 
       \delta \psi 
@@ -708,7 +706,7 @@ $$
     \right)
     \\
     & 
-    = - i \overline{\psi}\gamma^\mu \psi \, \iota_{\partial_\mu} dvol_\Sigma
+    = + i \overline{\psi}\gamma^\mu \psi \, \iota_{\partial_\mu} dvol_\Sigma
   \end{aligned}   
   \,,
 $$
