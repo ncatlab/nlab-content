@@ -3,6 +3,31 @@
 ## Interacting quantum fields
  {#QuantumObservables}
 
+In this chapter we discuss these topics:
+
+* _[Free field vacua](#FreeFieldVacua)_
+
+* _[Perturbative S-matrices](#PerturbativeSMatrixAndTimeOrderedProducts)_
+
+* _[Conceptual remarks](#RemarksOnCausalPerturbationTheoryAxioms)_
+
+* _[Interacting field observables](#QuantumObservables)_
+
+* _[Time-ordered products](#TimeOrderedProducts)_
+
+* _[("Re"-)Normalization](#ExistenceAndRenormalization)
+
+* _[Feynman perturbation series](#FeynmanDiagrams)_
+
+* _[Effective action](#EffectiveAction)_
+
+* _[Vacuum diagrams](#VacuumDiagrams)_
+
+* _[Interacting quantum BV-differential](#InteractingQantumBVDifferential)_
+
+* _[Ward identities](#WardIdentities)_
+
+$\,$
 
 In the [previous chapter](#FreeQuantumFields) we have found the [[quantization]] of _[[free field theories|free]]_ [[Lagrangian field theories]] by first choosing a [[gauge fixing|gauge fixed]] [[BV-BRST complex|BV-BRST]]-[[homological resolution|resolution]] of the [[algebra of observables|algebra of]] [[gauge invariance|gauge invariant]] [[on-shell]] observabes, then applying [[algebraic deformation quantization]] induced by the resulting [[Peierls-Poisson bracket]] on the graded [[covariant phase space]] to pass to a [[non-commutative algebra]] of quantum observables, such that the [[BV-BRST differential]] is respected.
 
@@ -170,32 +195,8 @@ if the [[Ward identity]] of an [[infinitesimal gauge symmetry]] is violated.
 These issues of [[renormalization|"(re)-"normalization]] we discuss in detail in the [next chapter](#Renormalization).
 
 
-$\,$
 
 
-We now discuss these topics:
-
-* _[Free field vacua](#FreeFieldVacua)_
-
-* _[Perturbative S-matrices](#PerturbativeSMatrixAndTimeOrderedProducts)_
-
-* _[Conceptual remarks](#RemarksOnCausalPerturbationTheoryAxioms)_
-
-* _[Interacting field observables](#QuantumObservables)_
-
-* _[Time-ordered products](#TimeOrderedProducts)_
-
-* _[("Re"-)Normalization](#ExistenceAndRenormalization)
-
-* _[Feynman perturbation series](#FeynmanDiagrams)_
-
-* _[Effective action](#EffectiveAction)_
-
-* _[Vacuum diagrams](#VacuumDiagrams)_
-
-* _[Interacting quantum BV-differential](#InteractingQantumBVDifferential)_
-
-* _[Ward identities](#WardIdentities)_
 
 $\,$
 
