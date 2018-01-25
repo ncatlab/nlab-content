@@ -89,6 +89,28 @@ In the construction of [[perturbative quantum field theories]] via [[causal pert
 We discuss specifically the space of solutions of extending a distribution on the [[complement]] $\mathbb{R}^n \setminus \{0\}$ of the origin inside a [[Cartesian space]] to the full space $\mathbb{R}^n$.
 
 
++-- {: .num_lemma #ExtensionUniqueNonPositiveDegreeOfDivergence}
+###### Lemma
+**(unique [[extension of distributions]] with non-positive [[degree of divergence of a distribution|degree of divergence]])**
+
+For $n \in \mathbb{N}$, let $u \in \mathcal{D}'(\mathbb{R}^n \setminus \{0\})$ be a [[distribution]] on the [[complement]] of the origin, with non-[[positive number|positive]] [[degree of divergence of a distribution|degree of divergence]] at the origin
+
+$$
+  deg(u) \leq 0
+  \,.
+$$
+
+Then $u$ has a _unique_ [[extension of distributions]] $\hat u \in \mathcal{D}'(\mathbb{R}^n)$ to the origin with the same degree of divergence
+
+$$
+  deg(\hat u) = deg(u)
+  \,.
+$$
+
+
+=--
+
+
 +-- {: .num_prop #SpaceOfPointExtensions}
 ###### Proposition
 **(space of [[point-extensions of distributions]])
@@ -121,6 +143,23 @@ $$
   \,.
 $$
 
+By [[Hadamard's lemma]], such a function may be written in the form
+
+$$
+  \label{ForVanishingOrderRhoHadamardExpansion}
+  f(x)
+  \;=\;
+  \underset{
+    {\alpha \in \mathbb{N}^n}
+    \atop
+    { {\vert \alpha \vert} = \rho + 1 }
+  }{\sum}
+  x^\alpha
+  r_\alpha(x)
+$$
+
+for [[smooth functions]] $r_\alpha \in C^\infty_{cp}(\mathbb{R}^n)$.
+
 Write
 
 $$
@@ -133,7 +172,7 @@ $$
 
 for the subspace of that of all [[bump functions]] on those that vanish to order $\rho$ at the origin.
 
-By definition this is equivalently the joint [[kernel]] of the [[partial derivative]] [[derivatives of distributions]] of order ${\vert \alpha\vert}$ of the [[delta distribution]] $\delta_0$ [[support of a distribution|supported]] at the origin:
+By definition this is equivalently the joint [[kernel]] of the [[partial derivative|partial]] [[derivatives of distributions]] of order ${\vert \alpha\vert}$ of the [[delta distribution]] $\delta_0$ [[support of a distribution|supported]] at the origin:
 
 $$
   b \in \mathcal{D}_\rho(\mathbb{R}^n)
@@ -161,7 +200,7 @@ $$
   \mathcal{D}_\rho(\mathbb{R}^n)
 $$
 
-may be obtained from a choice of _dual basis_ to the $\{\partial_\alpha \delta_0\}$, hence smooth functions
+may be obtained from a choice of _dual basis_ to the $\{\partial_\alpha \delta_0\}$, hence a choice of smooth functions
 
 $$
   \left\{
@@ -205,6 +244,7 @@ $$
   }{\sum}
   w^\alpha \partial_\alpha
   \,,\,
+  (-)
   \right\rangle
   \,,
 $$
@@ -223,8 +263,180 @@ $$
     \atop
     { {\vert \alpha\vert} \leq \rho }
   }{\sum}
+  (-1)^{{\vert \alpha\vert}} w^\alpha \partial_\alpha b(0)
   \,.
 $$
+
+Together with [[Hadamard's lemma]] in the form (eq:ForVanishingOrderRhoHadamardExpansion) this means that every $b \in \mathcal{D}(\mathbb{R}^n)$ is decomposed as
+
+$$
+  \label{ForExtensionOfDistributionsTestFunctionDecomposition}
+  \begin{aligned}
+  b(x)
+  & =
+  p_\rho(b)(x)
+  \;+\;
+  (id - p_\rho)(b)(x)
+  \\
+  & =
+  \underset{
+    { \alpha \in \mathbb{N}^n }
+    \atop
+    { {\vert \alpha \vert}  \rho + 1 }
+  }{\sum}
+  x^\alpha r_\alpha(x)
+  \;+\;
+  \underset{
+    { \alpha \in \mathbb{N}^n }
+    \atop
+    { {\vert \alpha \vert} \leq \rho }
+  }{\sum}
+  (-1)^{{\vert \alpha \vert}}
+  w^\alpha \partial_\alpha b(0)
+  \end{aligned}
+$$
+
+Observe that (by [this prop.](scaling+degree+of+a+distribution#ScalingDegreeOfDistributionsBasicProperties)) the [[degree of divergence of a distribution|degree of divergence]] of the [[product of distributions]] $x^\alpha u$ with ${\vert \alpha\vert} = \rho + 1$ is
+
+
+$$
+  \begin{aligned}
+    deg\left(
+      x^\alpha u
+    \right)
+    & =
+    \rho - {\vert \alpha \vert}
+    =
+    -1
+ \end{aligned}
+$$
+
+Therefore lemma \ref{ExtensionUniqueNonPositiveDegreeOfDivergence} says that each $x^\alpha u$ for ${\vert \alpha\vert} = \rho + 1$ has a unique extension $\widehat{ x^\alpha u}$ to the origin. Accordingly the composition $u \circ p_\rho$ has a unique extension, since by (eq:ForExtensionOfDistributionsTestFunctionDecomposition) this is a linear combination of the $x^\alpha u$ applied to the $r_\alpha$. This means that every extension $\hat u$ of $u$ acts as
+
+$$
+  \begin{aligned}
+  \left\langle
+    \hat u
+    \,,\,
+    b
+  \right\rangle
+  & =
+  \left\langle
+    \hat u
+    ,
+    p_\rho(b)
+  \right\rangle
+  + 
+  \left\langle
+    \hat u
+    ,
+    (id - p_\rho)(b)
+  \right\rangle
+  \\
+  & =
+  \underset{
+    { \alpha \in \mathbb{N}^n }
+    \atop
+    { {\vert \alpha \vert} = \rho + 1 }
+  }{\sum}
+  \underset{
+    \text{unique}
+  }{
+  \underbrace{
+    \left\langle
+     \widehat{x^\alpha u}  
+      \,,\,
+      r_\alpha
+    \right\rangle
+  }
+  }
+  \;+\;
+  \underset{
+    { \alpha \in \mathbb{N}^n }
+    \atop
+    { {\vert \alpha\vert} \leq \rho }
+  }{\sum}
+  \underset{
+    \text{choice}
+  }{
+  \underbrace{
+  \langle
+    \hat u
+    \,,\,
+    w^\alpha
+  \rangle
+  }
+  }
+  \left\langle
+    \partial_\alpha \delta_0
+    \,,\,
+    b
+  \right\rangle
+  \end{aligned}
+$$
+
+and hence that $\hat u$ is of the form
+
+$$
+  \hat u
+  \;=\;
+  \underset{
+    \text{unique}
+  }{
+  \underbrace{
+    \widehat{
+      u \circ p_\rho
+    }
+  }
+  }
+  + 
+  \underset{
+    { \alpha \in \mathbb{N}^n  }
+    \atop
+    { {\vert \alpha\vert} \leq \rho }
+  }{\sum}
+  c^\alpha
+  \,
+  \partial_\alpha \delta_0
+$$
+
+for a finite number of constants $c^\alpha \in \mathbb{C}$.
+
+Notice that for any extension $\hat u$ the exact value of the $c^\alpha$ here depends on the arbitrary choice of dual basis $\{w^\alpha\}$ used for this construction. But the uniqueness of the first summand means that for any two choices of extensions $\hat u$ and ${\hat u}'$, their difference is of the form
+
+$$
+  {\hat u}' - \hat u
+  \;=\;
+  \underset{
+    { \alpha \in \mathbb{N}^n  }
+    \atop
+    { {\vert \alpha\vert} \leq \rho }
+  }{\sum}
+  ( (c')^\alpha - c^\alpha )
+  \,
+  \partial_\alpha \delta_0  
+  \,,
+$$
+
+where the constants $( (c')^\alpha - c^\alpha ) \in \mathbb{C}$ are independent of any choices.
+
+
+It remains to see that all these $\hat u$ in fact have the same degree of divergence as $u$.
+
+By [this example](scaling+degree+of+a+distribution#DerivativesOfDeltaDistributionScalingDegree) the degree of divergence of the point-supported distributions on the right is $deg(\partial_\alpha \delta_0) = {\vert \alpha\vert}$. Therefore we need to show that
+
+$$
+  deg\left(
+    \widehat{
+      u \circ p_\rho
+    }
+  \right)
+  \;=\;
+  \rho
+  \,.
+$$
+
+(...)
 
 =--
 
