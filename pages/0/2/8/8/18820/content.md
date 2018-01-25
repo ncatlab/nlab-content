@@ -1,6 +1,16 @@
 ## Field variations
  {#FieldVariations}
 
+In this chapter we discuss these topics:
+
+* _[Jet bundles](##JetBundles)_
+
+* _[Differential operators](#DifferentialOperators)_
+
+* _[Variational calculus and the Variational bicomplex](#VariationaCalculusAndVariationalBicomplex)_
+
+$\,$
+
 Given a [[field bundle]] as in def. \ref{FieldsAndFieldBundles} above, then we know what [[type]] of quantities the corresponding
 [[field histories]] assign to a given spacetime point (a given [[event]]). Among all consistent such field histories, some are to qualify as those that "may occur in reality" if we think of the field theory as a means to describe parts of the [[observable universe]]. Moreover, if the reality to be described does not exhibit "action at a distance" then admissibility of its field histories should be determined over arbitrary small spacetime regions, in fact over the [[infinitesimal neighbourhood]] of any spacetime point (remark \ref{JetBundleInTermsOfSyntheticDifferentialGeometry} below). This means equivalently that the realized field histories should be those that satisfy a given _[[differential equation]]_, namely an [[equation]] between the [[partial derivatives]] of the field history at any spacetime point. This is called the _[[equation of motion]]_ of the field theory (def. \ref{EulerLagrangeEquationsOnTrivialVectorFieldBundleOverMinkowskiSpacetime} below).
 
@@ -10,6 +20,8 @@ Moving around in this space means to change the possible value of fields and the
 
 $\,$
 
+**[[jet bundles]]**
+ {#JetBundles}
 
 +-- {: .num_defn #JetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}
 ###### Definition
@@ -480,6 +492,11 @@ on which it is given by a function on a smooth function on $J^k_\Sigma(E)$ for s
 (see [Khavkine-Schreiber 17, section 2.2 and 3.3](locally+pro-manifold#KhavkineSchreiber17))
 
 
+$\,$
+
+**[[differential operators]]**
+ {#DifferentialOperators}
+
 Example \ref{JetFaraday} shows that the [[de Rham differential]] (def. \ref{deRhamDifferential}) may be encoded in terms of
 composing [[jet prolongation]] with a suitable function on the [[jet bundle]].
 More generally, jet prolongation neatly encodes (possibly non-linear) [[differential operators]]:
@@ -623,8 +640,10 @@ under an [[integral]] $P$ and $P^\ast$ are related via [[integration by parts]].
 
 ([Khavkine 14, def. 2.4](Green+hyperbolic+partial+differential+equation#Khavkine14))
 
-
 $\,$
+
+**[[variational calculus]] and the [[variational bicomplex]]**
+ {#VariationaCalculusAndVariationalBicomplex}
 
 +-- {: .num_remark #ReplacingBundleMorphismsByDifferentialOperators}
 ###### Remark
