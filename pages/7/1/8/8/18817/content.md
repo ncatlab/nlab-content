@@ -129,7 +129,7 @@ of [[natural numbers]] $\alpha \in \mathbb{N}^n$ and denoted
 
 $$
   \label{PartialDerivativeWithManyIndices}
-  \partial^\alpha
+  \partial_\alpha
     \;\coloneqq\;
   \frac{
     \partial^{\vert \alpha \vert} f
