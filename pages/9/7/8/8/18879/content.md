@@ -3,6 +3,8 @@
 
 * [[conformal transformation]]
 
+* [[scaling degree of a distribution]]
+
 * [[renormalization]]
 
 ## References
@@ -13,12 +15,15 @@ to perturbative quantum field theory]]_, 2018
 
 See also 
 
-* Wikipedia, _[Scaling (geometry)](https://en.wikipedia.org/wiki/Scaling_(geometry))_
+* Wikipedia, _<a href="https://en.wikipedia.org/wiki/Scaling_(geometry)">Scaling (geometry)</a>_
 
 [[!redirects scale transformations]]
 
 [[!redirects scaling transformation]]
 [[!redirects scaling transformations]]
+
+[[!redirects rescaling]]
+[[!redirects rescalings]]
 
 [[!redirects scale]]
 [[!redirects scales]]
