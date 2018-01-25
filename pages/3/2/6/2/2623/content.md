@@ -2,17 +2,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Effective field theory and renormalization
+#### Algebraic Quantum Field Theory
 +--{: .hide}
-[[!include renormalization - contents]]
-=--
-#### Quantum field theory
-+--{: .hide}
-[[!include functorial quantum field theory - contents]]
-=--
-#### Physics
-+--{: .hide}
-[[!include physicscontents]]
+[[!include AQFT and operator algebra contents]]
 =--
 =--
 =--
@@ -44,13 +36,13 @@ In particular the [[phenomenology|phenomenologically]] interesting case of a com
 
 There are different procedures of renormalization
 
-1. [In causal perturbation theory (SBEG-renormalization)](#SBEG Renormalization)
+1. [In causal perturbation theory (Epstein-Glaser-renormalization)](#SBEG Renormalization)
 
 1. [BPHZ and Hopf-Algebraic renormalization](#BPHZRenormalization)
 
 1. [Of theories in BV-CS form](#OfTheoriesInBVForm)
 
-### In causal perturbation theory (SBEG-renormalization)
+### In causal perturbation theory (Epstein-Glaser-renormalization)
  {#SBEG Renormalization}
 
 > under construction
@@ -409,6 +401,22 @@ is well defined and satisfies causal factorization.
 =--
 
 
++-- {: .num_remark}
+###### Remark
+**(renormalization choices)**
+
+By prop. \ref{RenormalizationIsInductivelyExtensionToDiagonal}  the "re-"normalization of [[time-ordered products]] is [[induction|inductively]] in $k \in \mathbb{N}$ a choice of [[extension of distributions]] from $\Sigma^k \setminus diag(\Sigma)$ to all of $\Sigma^k$.
+
+If $\Sigma = \mathbb{R}^{p,1}$ is [[Minkowski spacetime]] so that the [[free field]] [[vacuum]] (def. \ref{VacuumFree}) is translation invariant, then translation invariance reduces this to an [[extension of distributions]] of $T_{k}$ from the [[complement]] $\mathbb{R}^{k(p+1)}$ of a single point to that point.
+
+If $T_{k}$ has finite [[degree of divergence of a distribution|degree of divergence]] at the origin, then by [this prop.](extension+of+distributions#SpaceOfPointExtensions) there is a [[finite dimensional vector space|finite dimensional]] [[affine space]] of choices of such extensions, which each themselves have finite degree of divergence.
+
+These are the ("re"-)normalization choices at order $k$.
+
+By prop. \ref{RenormalizationIsInductivelyExtensionToDiagonal} and [this prop.](scaling+degree+of+a+distribution#ScalingDegreeOfProductDistribution) it follows that with these choices made then $T_{k+1}$ on $\Sigma^{k+1}\setminus diag(\Delta)$ has finite degree of divergence, and hence the induction does continue.
+
+
+=--
 
 #### Main theorem of perturbative renormalization
 
@@ -1025,7 +1033,7 @@ Informal introductions include
 * [[Arnold Neumaier]], _Renormalizatin without infinities -- an elementary tutorial_ ([pdf](http://www.mat.univie.ac.at/~neum/ms/ren.pdf))
 
 
-### In causal perturbation theory -- SBEG-Renormalization
+### In causal perturbation theory -- Epstein-Glaser-Renormalization
 
 The concept of renormalization in [[causal perturbation theory]] via [[splittig of distributions]] was establied in
 
