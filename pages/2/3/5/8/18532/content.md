@@ -117,14 +117,31 @@ $$
 
 For $n \in \mathbb{N}$, let $u \in \mathcal{D}'(\mathbb{R}^n \setminus \{0\})$ be a [[distribution]] of [[scaling degree of a distribution|degree of divergence]] $deg(u) \lt \infty$. 
 
-Then $u$ does admit an [[extension of distributions|extension]] (def. \ref{ExtensionOfDistributions}) to a distribution $\hat u \in \mathcal{D}'(\mathbb{R}^n)$ with the same [[degree of divergence of a distribution|degree of divergence]] 
+Then $u$ does admit at least one [[extension of distributions|extension]] (def. \ref{ExtensionOfDistributions}) to a distribution $\hat u \in \mathcal{D}'(\mathbb{R}^n)$, and every choice of extension has the same [[degree of divergence of a distribution|degree of divergence]] as $u$
 
 $$
   deg(\hat u) = deg(u)
   \,.
 $$
 
-Moreover, any two such extensions differ by a [[point-supported distribution]] at the origin of [[order of a distribution|order]] $\leq deg(u)$.
+Moreover, any two such extensions $\hat u$ and ${\hat u}^\prime$ differ by a linear combination of [[partial derivatives|partial]] [[derivatives of distributions]] of order $\leq deg(u)$ of the [[delta distribution]] $\delta_0$ [[support of a distribution|supported]] at the origin:
+
+$$
+  {\hat u}^\prime
+  -
+  \hat u
+  \;=\;
+  \underset{
+    { \alpha \in \mathbb{N}^n }
+    \atop
+    { {\vert \alpha\vert} \leq deg(u) }
+  }{\sum}
+  q^\alpha
+  \partial_\alpha \delta_0
+  \,,
+$$
+
+for a finite number of constants $q^\alpha \in \mathbb{C}$.
 
 =--
 
@@ -133,6 +150,7 @@ Moreover, any two such extensions differ by a [[point-supported distribution]] a
 
 +-- {: .proof}
 ###### Proof
+
 
 For $f \in C^\infty(\mathbb{R}^n)$ a [[smooth function]], and $\rho \in \mathbb{N}$, we say that _$f$ vanishes to order $\rho$_ at the origin if all [[partial derivatives]] with multi-index $\alpha \in \mathbb{N}^n$ of total order ${\vert \alpha\vert} \leq \rho$ vanish at the origin:
 
@@ -296,6 +314,15 @@ $$
   \end{aligned}
 $$
 
+Now let
+
+$$
+  \rho
+  \;\coloneqq\;
+  deg(u)
+  \,.
+$$
+
 Observe that (by [this prop.](scaling+degree+of+a+distribution#ScalingDegreeOfDistributionsBasicProperties)) the [[degree of divergence of a distribution|degree of divergence]] of the [[product of distributions]] $x^\alpha u$ with ${\vert \alpha\vert} = \rho + 1$ is
 
 
@@ -311,7 +338,7 @@ $$
  \end{aligned}
 $$
 
-Therefore lemma \ref{ExtensionUniqueNonPositiveDegreeOfDivergence} says that each $x^\alpha u$ for ${\vert \alpha\vert} = \rho + 1$ has a unique extension $\widehat{ x^\alpha u}$ to the origin. Accordingly the composition $u \circ p_\rho$ has a unique extension, since by (eq:ForExtensionOfDistributionsTestFunctionDecomposition) this is a linear combination of the $x^\alpha u$ applied to the $r_\alpha$. This means that every extension $\hat u$ of $u$ acts as
+Therefore lemma \ref{ExtensionUniqueNonPositiveDegreeOfDivergence} says that each $x^\alpha u$ for ${\vert \alpha\vert} = \rho + 1$ has a unique extension $\widehat{ x^\alpha u}$ to the origin. Accordingly the composition $u \circ p_\rho$ has a unique extension, by (eq:ForExtensionOfDistributionsTestFunctionDecomposition):
 
 $$
   \begin{aligned}
@@ -375,7 +402,7 @@ $$
   \end{aligned}
 $$
 
-and hence that $\hat u$ is of the form
+That says that $\hat u$ is of the form
 
 $$
   \hat u
@@ -402,10 +429,10 @@ $$
 
 for a finite number of constants $c^\alpha \in \mathbb{C}$.
 
-Notice that for any extension $\hat u$ the exact value of the $c^\alpha$ here depends on the arbitrary choice of dual basis $\{w^\alpha\}$ used for this construction. But the uniqueness of the first summand means that for any two choices of extensions $\hat u$ and ${\hat u}'$, their difference is of the form
+Notice that for any extension $\hat u$ the exact value of the $c^\alpha$ here depends on the arbitrary choice of dual basis $\{w^\alpha\}$ used for this construction. But the uniqueness of the first summand means that for any two choices of extensions $\hat u$ and ${\hat u}^\prime$, their difference is of the form
 
 $$
-  {\hat u}' - \hat u
+  {\hat u}^\prime - \hat u
   \;=\;
   \underset{
     { \alpha \in \mathbb{N}^n  }
@@ -418,12 +445,14 @@ $$
   \,,
 $$
 
-where the constants $( (c')^\alpha - c^\alpha ) \in \mathbb{C}$ are independent of any choices.
+where the constants $q^\alpha \coloneqq ( (c')^\alpha - c^\alpha ) \in \mathbb{C}$ are independent of any choices.
 
 
 It remains to see that all these $\hat u$ in fact have the same degree of divergence as $u$.
 
-By [this example](scaling+degree+of+a+distribution#DerivativesOfDeltaDistributionScalingDegree) the degree of divergence of the point-supported distributions on the right is $deg(\partial_\alpha \delta_0) = {\vert \alpha\vert}$. Therefore we need to show that
+By [this example](scaling+degree+of+a+distribution#DerivativesOfDeltaDistributionScalingDegree) the degree of divergence of the point-supported distributions on the right is $deg(\partial_\alpha \delta_0) = {\vert \alpha\vert} \leq \rho$. 
+
+Therefore to conclude it is now sufficient to show that
 
 $$
   deg\left(
