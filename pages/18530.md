@@ -404,7 +404,6 @@ Let $X \subset \mathbb{R}^n$ and $u \in \mathcal{D}'(X)$ be a [[distribution]] a
 
 1. $deg(f u) \leq deg(u) - k$ for $f \in C^\infty(X)$ and $f^{(\alpha)}(0) = 0$ for ${\vert \alpha\vert} \leq k-1$;
 
-
 =--
 
 ([Brunetti-Fredenhagen 00, lemma 5.1](#BrunettiFredenhagen00), [Dütsch 18, exercise 3.34](#Duetsch18))
@@ -414,9 +413,47 @@ Let $X \subset \mathbb{R}^n$ and $u \in \mathcal{D}'(X)$ be a [[distribution]] a
 +-- {: .proof}
 ###### Proof
 
-The first three statements follow with manipulations as in example \ref{NonSingularDistributionsScalingDegree} and example \ref{DerivativesOfDeltaDistributionScalingDegree}. For the last one...
+The first three statements follow with manipulations as in example \ref{NonSingularDistributionsScalingDegree} and example \ref{DerivativesOfDeltaDistributionScalingDegree}.
+
+For the fourth...
 
 =--
+
+
+
+
++-- {: .num_prop #ScalingDegreeOfProductDistribution}
+###### Proposition
+**([[scaling degree of distributions|scaling degree]] of [[product of distributions|product distribution]])**
+
+Let $u,v \in \mathcal{D}'(\mathbb{R}^n)$ be two [[distributions]] such that
+
+1. both have finite [[degree of divergence of a distribution|degree of divergence]] (def. \ref{ScalingDegree}) 
+
+   $$
+     deg(u), deg(v) \lt \infty
+   $$
+
+1. their [[product of distributions]] is well-defined 
+
+   $$
+     u v \in \mathcal{D}'(\mathbb{R}^n)
+   $$
+  
+   (in that their [[wave front sets]] satisfy [[Hörmander's criterion]])
+
+then the product distribution has [[degree of divergence of a distribution|degree of divergence]] bounded by the sum of the separate degrees:
+
+$$
+  deg(u v)
+  \;\leq\;
+  deg(u) + deg(v)
+  \,.
+$$
+
+=--
+
+([Brunetti-Fredenhagen 00, special case of lemma 6.6](#BrunettiFredenhagen00))
 
 ## Related concepts
 
@@ -434,7 +471,7 @@ and the more general concept of _degree_ due to
 
 * {#Weinstein78} [[Alan Weinstein]], _The order and symbol of a distribution_, Trans. Amer. Math. Soc. 241, 1&#8211;54 (1978).
 
-Review and further developments in the context of [[renormalizaton|("re"-)normalization]] in [[causal perturbation theory]]/[[pAQFT]] is in
+Review and further developments in the context of [[renormalization|("re"-)normalization]] in [[causal perturbation theory]]/[[pAQFT]] is in
 
 * {#BrunettiFredenhagen00} [[Romeo Brunetti]], [[Klaus Fredenhagen]], section 5.1 of _Microlocal Analysis and Interacting Quantum Field Theories: Renormalization on Physical Backgrounds_, Commun. Math. Phys. 208 : 623-661, 2000 ([math-ph/9903028](https://arxiv.org/abs/math-ph/9903028))
 
