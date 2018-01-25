@@ -1,5 +1,13 @@
 
 
+$$
+  {\hat u}^\prime
+  \,\,\,\,\,
+  \hat{u'}
+  \,\,\,\,\,
+  {\hat u}'
+$$
+
 
 +-- {: .num_example #FieldSpeciesQED}
 ###### Example
