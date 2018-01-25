@@ -1,6 +1,18 @@
 ## Phase space
   {#PhaseSpace}
 
+In this chapter we discuss these topics:
+
+* _[Covariant phase space](#PreymplecticPhaseSpace)_
+
+* _[BV-Resolution of the covariant phase space](#BVResolutionOfTheCovariantPhaseSpace)_
+
+* _[Hamiltonian local observables](#HamiltonianLocalObservablesOnACauchySurface)_
+
+
+
+$\,$
+
 It might seem that with the construction of the [[local observables]] (def. \ref{LocalObservables})
 on the [[on-shell]] [[space of field histories]] (prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime})
 the [[field theory]] defined by a [[Lagrangian density]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) has been completely analyzed:
@@ -121,17 +133,6 @@ $$
    }
 $$
 
-$\,$
-
-We now discuss these topics:
-
-$\,$
-
-* _[Covariant phase space](#PreymplecticPhaseSpace)_
-
-* _[BV-Resolution of the covariant phase space](#BVResolutionOfTheCovariantPhaseSpace)_
-
-* _[Hamiltonian local observables](#HamiltonianLocalObservablesOnACauchySurface)_
 
 $\,$
 
