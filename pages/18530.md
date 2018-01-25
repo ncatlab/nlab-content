@@ -381,17 +381,17 @@ $$
 
 Let $X \subset \mathbb{R}^n$ and $u \in \mathcal{D}'(X)$ be a [[distribution]] as in def. \ref{RescaledDistribution}, such that its [[scaling degree of a distribution|scaling degree]] is finite: $sd(u) \lt \infty$ (def. \ref{ScalingDegree}). Then
 
-1. For $\alpha \in \mathbb{N}^n$, the [[partial derivative|partial]] [[derivative of distributions]] $\partial_\alpha$ increases scaling degree by ${\vert \alpha\vert }$:   
+1. For $\alpha \in \mathbb{N}^n$, the [[partial derivative|partial]] [[derivative of distributions]] $\partial_\alpha$ increases scaling degree at most by ${\vert \alpha\vert }$:   
 
    $$
-     deg(\partial_\alpha u) \;=\; deg(u) + {\vert \alpha\vert}
+     deg(\partial_\alpha u) \;\leq\; deg(u) + {\vert \alpha\vert}
    $$
 
-1. For $\alpha \in \mathbb{N}^n$, the [[product of distributions]] with the smooth coordinate functions $x^\alpha$ decreases scaling degree by ${\vert \alpha\vert }$:   
+1. For $\alpha \in \mathbb{N}^n$, the [[product of distributions]] with the smooth coordinate functions $x^\alpha$ decreases scaling degree at least by ${\vert \alpha\vert }$:   
 
 
    $$
-     deg(x^\alpha u) \;=\; deg(u) - {\vert \alpha\vert}
+     deg(x^\alpha u) \;\leq\; deg(u) - {\vert \alpha\vert}
    $$
 
 1. Under [[tensor product of distributions]] their scaling degrees add: 
@@ -407,7 +407,7 @@ Let $X \subset \mathbb{R}^n$ and $u \in \mathcal{D}'(X)$ be a [[distribution]] a
 
 =--
 
-([Brunetti-Fredenhagen 00, lemma 5.1](#BrunettiFredenhagen00))
+([Brunetti-Fredenhagen 00, lemma 5.1](#BrunettiFredenhagen00), [Dütsch 18, exercise 3.34](#Duetsch18))
 
 
 
@@ -434,12 +434,13 @@ and the more general concept of _degree_ due to
 
 * {#Weinstein78} [[Alan Weinstein]], _The order and symbol of a distribution_, Trans. Amer. Math. Soc. 241, 1&#8211;54 (1978).
 
-Review and further developments includes
+Review and further developments in the context of [[renormalizaton|("re"-)normalization]] in [[causal perturbation theory]]/[[pAQFT]] is in
 
 * {#BrunettiFredenhagen00} [[Romeo Brunetti]], [[Klaus Fredenhagen]], section 5.1 of _Microlocal Analysis and Interacting Quantum Field Theories: Renormalization on Physical Backgrounds_, Commun. Math. Phys. 208 : 623-661, 2000 ([math-ph/9903028](https://arxiv.org/abs/math-ph/9903028))
 
-
 * Dorothea Bahns, Micha&#322; Wrochna, _On-shell extension of distributions_ ([arXiv:1210.5448](https://arxiv.org/abs/1210.5448))
+
+* {#Duetsch18} [[Michael Dütsch]], def. 3.32 of _[[From classical field theory to perturbative quantum field theory]]_, 2018
 
 
 
