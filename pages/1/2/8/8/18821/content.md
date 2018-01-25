@@ -1,6 +1,16 @@
 ## Lagrangians
   {#Lagrangians}
 
+In this chapter we discuss these topics:
+
+* _[Lagrangian densities](#LagrangianDensities)_
+
+* _[Euler-Lagrange forms and Presymplectic currents](#ELFormsAndPresymplecticCurrents)_
+
+* _[Euler-Lagrange equations of motion](#ELEquationsOfMotion)_
+
+
+$\,$
 
 Given any [[type]] of [[field (physics)|fields]] (def. \ref{FieldsAndFieldBundles}), those [[field histories]] that
 are to be regarded as "physically realizable" (if we think of the field theory as a description of the [[observable universe]])
@@ -91,6 +101,10 @@ $$
 
 
 $\,$
+
+**[[Lagrangian densities]]**
+ {#LagrangianDensities}
+
 
 +-- {: .num_defn #LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}
 ###### Definition
@@ -243,7 +257,7 @@ $$
 **([[phi^n theory]])**
 
 Consider the [[field bundle]] for the [[real scalar field]] from example \ref{RealScalarFieldBundle},
-i.e. the [[trivial line bundle]] over [[Minkowski spacetime]]. More generally we may 
+i.e. the [[trivial line bundle]] over [[Minkowski spacetime]]. More generally we may
 consider adding to the [[free field]] [[Lagrangian density]] from example \ref{LagrangianForFreeScalarFieldOnMinkowskiSpacetime}
 some power of the field coordinate
 
@@ -596,10 +610,10 @@ Consider the [[fiber product]] of the [[field bundles]] for the [[electromagneti
 and the [[Dirac field]] (example \ref{DiracFieldBundle}) over 4-dimensional [[Minkowski spacetime]] $\Sigma \coloneqq  \mathbb{R}^{3,1}$ (def. \ref{MinkowskiSpacetime}):
 
 $$
-  E 
-    \;\coloneqq\; 
-  \underset{ \array{ \text{electromagnetic} \\ \text{field} }  }{\underbrace{T^\ast \Sigma}} 
-    \times  
+  E
+    \;\coloneqq\;
+  \underset{ \array{ \text{electromagnetic} \\ \text{field} }  }{\underbrace{T^\ast \Sigma}}
+    \times
   \underset{
     \array{
       \text{Dirac} \\ \text{field}
@@ -637,8 +651,8 @@ $$
   \mathbf{L}_{EM} + \mathbf{L}_{Dir} + \mathbf{L}_{int}
   \;=\;
   \left(
-    \tfrac{1}{2} f_{\mu \nu} f^{\mu \nu} 
-    \;+\;  
+    \tfrac{1}{2} f_{\mu \nu} f^{\mu \nu}
+    \;+\;
     i \, \overline{\psi} \, \gamma^\mu \, \psi_{,\mu} +  m \overline{\psi} \psi
     \;+\;
     i g \, \overline{\psi} \gamma^\mu \psi a_\mu
@@ -659,7 +673,13 @@ is called the _[[fine structure constant]]_.
 =--
 
 
+
 $\,$
+
+**[[Euler-Lagrange forms]] and [[presymplectic currents]]**
+ {#ELFormsAndPresymplecticCurrents}
+
+
 
 The beauty of [[Lagrangian field theory]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}) is that a choice of [[Lagrangian density]] determines
 both the [[equations of motion]] of the fields as well as a [[presymplectic manifold|presymplectic structure]]
@@ -1043,7 +1063,6 @@ $$
 
 
 =--
-
 
 The following fact is immediate from prop. \ref{EulerLagrangeOperatorForTivialVectorBundleOverMinkowskiSpacetime},
 but of central importance, we futher amplify this in remark \ref{PresymplecticCurrentInterpretation} below:
@@ -2010,6 +2029,9 @@ for its intended [[equation of motion]], the _[[Dirac equation]]_ (example \ref{
 
 $\,$
 
+**[[Euler-Lagrange equation|Euler-Lagrange]] [[equations of motion]]**
+ {#ELEquationsOfMotion}
+
 The key implication of the [[Euler-Lagrange form]] on the [[jet bundle]] is that it induces
 the _[[equation of motion]]_ on the [[space of field histories]]:
 
@@ -2493,4 +2515,5 @@ $$
 $\,$
 
 This concludes our discussion of [[Lagrangian densities]] and their [[variational calculus]].
-In the [next chapter](#Symmetries) we consider the [[infinitesimal symmetries of Lagrangians]].
+In the [next chapter](#Symmetries) we consider the [[infinitesimal symmetries of Lagrangians]]
+and the [[conserved currents]] that these induce via [[Noether's theorem]].
