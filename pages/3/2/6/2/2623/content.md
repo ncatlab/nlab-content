@@ -1025,7 +1025,7 @@ Informal introductions include
 * [[Arnold Neumaier]], _Renormalizatin without infinities -- an elementary tutorial_ ([pdf](http://www.mat.univie.ac.at/~neum/ms/ren.pdf))
 
 
-### In causal perturbation theory
+### In causal perturbation theory -- SBEG-Renormalization
 
 The concept of renormalization in [[causal perturbation theory]] via [[splittig of distributions]] was establied in
 
@@ -1037,7 +1037,7 @@ following precursors in
 
   (see also _[[Stückelberg-Petermann renormalization group]]_)
 
-* {#BogoliubovShirkov76} Bogoliubov, N. N., and Shirkov, D. V., _Introduction to the Theory of Quantized Fiels_, New York: John Wiley and Sons, 1976, 3rd edition
+* {#BogoliubovShirkov76} [[Nikolay Bogoliubov]], [[Dmitry Shirkov]],, _Introduction to the Theory of Quantized Fiels_, New York: John Wiley and Sons, 1976, 3rd edition
 
 Further observations made in
 
@@ -1047,7 +1047,7 @@ Further observations made in
 
 led to the equivalent formulation in [[pAQFT]] in terms of [[extension of distributions]] due to
 
-* {#BrunettiFredenhagen99} [[Romeo Brunetti]], [[Klaus Fredenhagen]], _Microlocal Analysis and Interacting Quantum Field Theories: Renormalization on Physical Backgrounds_  Commun.Math.Phys.208:623-661 (2000) ([arXiv](http://arxiv.org/abs/math-ph/9903028))
+* {#BrunettiFredenhagen99} [[Romeo Brunetti]], [[Klaus Fredenhagen]], _Microlocal Analysis and Interacting Quantum Field Theories: Renormalization on Physical Backgrounds_, Commun. Math. Phys. 208:623-661 (2000) ([arXiv:math-ph/9903028](http://arxiv.org/abs/math-ph/9903028))
 
 * [[Romeo Brunetti]], [[Michael Dütsch]], [[Klaus Fredenhagen]], _Perturbative Algebraic Quantum Field Theory and the Renormalization Groups_ Adv. Theor. Math. Physics 13 (2009), 1541-1599 ([arXiv:0901.2038](http://arxiv.org/abs/0901.2038))
 
