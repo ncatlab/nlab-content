@@ -1,6 +1,34 @@
 ## Propagators
  {#Propagators}
 
+In this chapter we discuss these topics:
+
+* _Background_
+
+  * _[Fourier analysis and Plane wave modes](#FourierAnalysis)_
+
+  * _[Microlocal analysis and UV-Divergences](#MicrolocalAnalysisAndUltravioletDivergence)_
+
+  * _[Cauchy principal values](#CauchyPrincipalValues)_
+
+
+* _Propagators for the free scalar field on Minkowski spacetime_
+
+  * _[advanced and regarded propagators](#AdvancedAndRetardedPropagatorsForKleinGordonEquationOnMinkowskiSpacetime)_
+
+  * _[causal propagator](#CausalPropagatorForKleinGordonEquationOnMinkowskiSpacetime)_
+
+  * _[Wightman propagator](#HadamardPropagatorForKleinGordonOnMinkowskiSpacetime)_
+
+  * _[Feynman propagator](#FeynmanPropagator)_
+
+  * _[singular support and wave front sets](#WaveFrontSetsOfPropagatorsForKleinGordonOperatorOnMinkowskiSpacetime)_
+
+* _[Propagators for the Dirac field on Minkowski spacetime](#DiracEquationOnMinkowskiSpacetimePropagators)_
+
+
+$\,$
+
 In the [previous chapter](#PhaseSpace) we have seen the [[covariant phase space]] (prop. \ref{CovariantPhaseSpace}) of sufficiently nice [[Lagrangian field theories]], which is the [[on-shell]] [[space of field histories]] equipped with the [[presymplectic form]] [[transgression of variational differential forms|transgressed]] from the [[presymplectic current]]
 of the theory; and we have seen that in good cases this induces a bilinear pairing on sufficiently well-behaved [[observables]],
 called the _[[Poisson bracket]]_ (def. \ref{PoissonBracketOnHamiltonianLocalObservables}), which reflects the [[infinitesimal symmetries]] of the [[presymplectic current]]. This [[Poisson bracket]] is of central importance for passing to actual [[quantum field theory]],
@@ -65,31 +93,6 @@ $\,$
 
 
 
-
-We now discuss these topics:
-
-* _Background_
-
-  * _[Fourier analysis and Plane wave modes](#FourierAnalysis)_
-
-  * _[Microlocal analysis and UV-Divergences](#MicrolocalAnalysisAndUltravioletDivergence)_
-
-  * _[Cauchy principal values](#CauchyPrincipalValues)_
-
-
-* _Propagators for the free scalar field on Minkowski spacetime_
-
-  * _[advanced and regarded propagators](#AdvancedAndRetardedPropagatorsForKleinGordonEquationOnMinkowskiSpacetime)_
-
-  * _[causal propagator](#CausalPropagatorForKleinGordonEquationOnMinkowskiSpacetime)_
-
-  * _[Wightman propagator](#HadamardPropagatorForKleinGordonOnMinkowskiSpacetime)_
-
-  * _[Feynman propagator](#FeynmanPropagator)_
-
-  * _[singular support and wave front sets](#WaveFrontSetsOfPropagatorsForKleinGordonOperatorOnMinkowskiSpacetime)_
-
-* _[Propagators for the Dirac field on Minkowski spacetime](#DiracEquationOnMinkowskiSpacetimePropagators)_
 
 $\,$
 
