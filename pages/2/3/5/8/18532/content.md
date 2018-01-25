@@ -44,30 +44,69 @@ $$
 
 ([this example](pullback+of+a+distribution#RestrictionOfDistributions)).
 
-
 Now the diagram in the idea section makes sense in the following way:
 for an open embedding $X\hookrightarrow\hat{X}$, $\hat{u}\in\mathcal{D}'(\hat{X})$ __extends__ $u\in \mathcal{D}'(X)$ if $\rho_{X\hat{X}}(\hat{u}) = u$.  
 
-## Point-extensions
++-- {: .num_defn #ExtensionOfDistributions}
+###### Definition
+**([[extension of distributions]])**
+
+Let $X \overset{\iota}{\subset} \hat X$ be an inclusion of [[open subsets]] of some [[Cartesian space]]. This induces the operation of [[restriction of distributions]]
+
+$$
+  \mathcal{D}'(\hat X) 
+    \overset{\iota^\ast}{\longrightarrow}
+  \mathcal{D}'(X)
+  \,.
+$$
+
+Given a [[distribution]] $u \in \mathcal{D}'(X)$, then an _[[extension]]_ of $u$ to $\hat X$ is a distribution $\hat u \in \mathcal{D}'(\hat X)$ such that 
+
+$$
+  \iota^\ast \hat u 
+  \;=\;
+  u
+  \,.
+$$
+
+=--
+
+
+
+## Properties
+
+### Point-extensions
  {#SolutionSpaceOfPointExtensions}
 
-Of particular interest is the special case of extension of distributions to a single point $p \in \hat X$, hence where $X = \hat X \setminus \{p\}$. Contrary to ordinary functions, distributions in general have more than one extension to a point, where the freedom is in choosing a [[distribution with point support]] at that point, hence some [[derivative of a distribution|derivative]] of the [[delta distribution]] at that point. However, if one requires that the [[scaling degree of a distribution|scaling degree]] of the extended distribution at the given point is compatible with that of the original distribution, then there is only a [[finite set]] of possible extensions, parameterized by the [[coefficients]] of a finite number of derivatives of the delta-distribution (prop. \ref{SpaceOfPointExtensions} below).
+Of particular interest is the special case of [[extension of distributions]] to a single point $p \in \hat X$, hence where $X = \hat X \setminus \{p\}$ is the [[complement]] of that point. 
 
-In the construction of [[perturbative quantum field theories]] via [[causal perturbation theory]], where the ("[[operator-valued distributions|operator-valued]]") distributions in questions are coefficients in the [[scattering matrix]] and where the point being extended to corresponds to the point where an [[interaction]] happens, this finite set of choices is identified with the [[renormalization]] freedom at each loop order (i.e. the choice of counter-terms).
+Contrary to ordinary [[smooth functions]], distributions ([[generalized functions]]) in general have more than one extension to a point, where the freedom is in choosing a [[distribution with point support]] at that point, hence some [[derivative of a distribution|derivative]] of the [[delta distribution]] [[support of a distribution|supported]] at that point. 
+
+However, if one requires that the [[scaling degree of a distribution|scaling degree]] of the extended distribution at the given point is compatible with that of the original distribution, then there is only a [[finite set]] of possible extensions, parameterized by the [[coefficients]] of a finite number of derivatives of the delta-distribution (prop. \ref{SpaceOfPointExtensions} below).
+
+In the construction of [[perturbative quantum field theories]] via [[causal perturbation theory]], where the ("[[operator-valued distributions|operator-valued]]") distributions in questions are [[time-ordered product]] coefficients in the [[scattering matrix]] and where the point being extended to corresponds to the point where an [[interaction]] happens, this finite set of choices is identified with the [[renormalization|("re"-)normalization]] freedom.
 
 We discuss specifically the space of solutions of extending a distribution on the [[complement]] $\mathbb{R}^n \setminus \{0\}$ of the origin inside a [[Cartesian space]] to the full space $\mathbb{R}^n$.
 
 
 +-- {: .num_prop #SpaceOfPointExtensions}
 ###### Proposition
-**(space of point-extensions)
+**(space of [[point-extensions of distributions]])
 
-For $n \in \mathbb{N}$, let $u \in \mathcal{D}'(\mathbb{R}^n \setminus \{0\})$ be a [[distribution]] of [[scaling degree of a distribution|degree of divergence]] $deg(u) \lt \infty$. Then it does admit an extension to a distribution $\hat u \in \mathcal{D}'(\mathbb{R}^n)$ with $deg(\hat u) = deg(u)$. Moreover, any two such extensions differ by a [[point-supported distribution]] at the origin of [[order of a distribution|order]] $\leq deg(u)$.
+For $n \in \mathbb{N}$, let $u \in \mathcal{D}'(\mathbb{R}^n \setminus \{0\})$ be a [[distribution]] of [[scaling degree of a distribution|degree of divergence]] $deg(u) \lt \infty$. 
+
+Then $u$ does admit an [[extension of distributions|extension]] (def. \ref{ExtensionOfDistributions}) to a distribution $\hat u \in \mathcal{D}'(\mathbb{R}^n)$ with the same [[degree of divergence of a distribution|degree of divergence]] 
+
+$$
+  deg(\hat u) = deg(u)
+  \,.
+$$
+
+Moreover, any two such extensions differ by a [[point-supported distribution]] at the origin of [[order of a distribution|order]] $\leq deg(u)$.
 
 =--
 
-
-([H&#246;rmander 90, thm. 3.2.4](#Hoermander90), [BrunettiFredenhagen 00, theorem 5.2, 5.3](#BrunettiFredenhagen00), following [Epstein-Glaser 73, section 5](#EpsteinGlaser73))
+([Hörmander 90, thm. 3.2.4](#Hoermander90), [BrunettiFredenhagen 00, theorem 5.2, 5.3](#BrunettiFredenhagen00), following [Epstein-Glaser 73, section 5](#EpsteinGlaser73))
 
 We unwind this statement a little:
 
