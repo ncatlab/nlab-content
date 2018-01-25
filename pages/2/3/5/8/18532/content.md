@@ -108,10 +108,134 @@ Moreover, any two such extensions differ by a [[point-supported distribution]] a
 
 ([Hörmander 90, thm. 3.2.4](#Hoermander90), [BrunettiFredenhagen 00, theorem 5.2, 5.3](#BrunettiFredenhagen00), following [Epstein-Glaser 73, section 5](#EpsteinGlaser73))
 
-We unwind this statement a little:
+
++-- {: .proof}
+###### Proof
+
+For $f \in C^\infty(\mathbb{R}^n)$ a [[smooth function]], and $\rho \in \mathbb{N}$, we say that _$f$ vanishes to order $\rho$_ at the origin if all [[partial derivatives]] with multi-index $\alpha \in \mathbb{N}^n$ of total order ${\vert \alpha\vert} \leq \rho$ vanish at the origin:
+
+$$
+  \partial_\alpha f (0) = 0
+  \phantom{AAA}
+  {\vert \alpha\vert} \leq \rho
+  \,.
+$$
+
+Write
+
+$$
+  \mathcal{D}_\rho(\mathbb{R}^n)
+    \hookrightarrow
+  \mathcal{D}(\mathbb{R}^n)
+    \coloneqq
+  C^\infty_{cp}(\mathbb{R}^n)
+$$
+
+for the subspace of that of all [[bump functions]] on those that vanish to order $\rho$ at the origin.
+
+By definition this is equivalently the joint [[kernel]] of the [[partial derivative]] [[derivatives of distributions]] of order ${\vert \alpha\vert}$ of the [[delta distribution]] $\delta_0$ [[support of a distribution|supported]] at the origin:
+
+$$
+  b \in \mathcal{D}_\rho(\mathbb{R}^n)
+  \phantom{AA}
+  \Leftrightarrow
+  \phantom{AA}
+  \underset{ 
+    {\alpha \in \mathbb{N}^n} 
+      \atop 
+    { {\vert \alpha\vert} \leq \rho }  
+  }
+  {\forall}  
+    \left\langle \partial_\alpha \delta_0, b \right\rangle 
+  = 0
+  \,.
+$$
+
+Therefore every [[continuous linear map|continuous linear]] [[projection]]
+
+$$
+  p_\rho
+   \;\colon\;
+  \mathcal{D}(\mathbb{R}^n)
+    \longrightarrow
+  \mathcal{D}_\rho(\mathbb{R}^n)
+$$
+
+may be obtained from a choice of _dual basis_ to the $\{\partial_\alpha \delta_0\}$, hence smooth functions
+
+$$
+  \left\{
+    w^\beta \in C^\infty_{cp}(\mathbb{R}^n)
+  \right\}_{ { \beta \in \mathbb{N}^n } \atop { {\vert \beta\vert} \leq \rho } }
+$$
+
+such that
+
+$$
+  \left\langle
+    \partial_\alpha \delta_0
+    \,,\,
+    w^\beta
+  \right\rangle
+  \;=\;
+  \delta_\alpha^\beta
+  \phantom{AAA}
+  \Leftrightarrow
+  \phantom{AAA}
+  \partial_\alpha w^\beta(0)
+    \;=\;
+  \delta_\alpha^\beta
+  \phantom{AAAA}
+  \text{for}\, {\vert \alpha\vert} \leq \rho
+  \,,
+$$
+
+by setting
+
+$$
+  p_\rho
+  \;\coloneqq\;
+  id
+  \;-\;
+  \left\langle
+  \underset{
+    {\alpha \in \mathbb{N}^n}
+    \atop
+    { {\vert \alpha\vert} \leq \rho }
+  }{\sum}
+  w^\alpha \partial_\alpha
+  \,,\,
+  \right\rangle
+  \,,
+$$
+
+hence
+
+$$
+  p_\rho
+  \;\colon\;
+  b
+    \mapsto
+  b 
+    - 
+  \underset{
+    {\alpha \in \mathbb{N}^n}
+    \atop
+    { {\vert \alpha\vert} \leq \rho }
+  }{\sum}
+  \,.
+$$
+
+=--
+
+
+We unwind the statement of prop. \ref{SpaceOfPointExtensions} a little:
+
+
 
 +-- {: .num_remark }
 ###### Remark
+**(space of choices of point-extensions of distributions)**
 
 Given $u \in \mathcal{D}'(\mathbb{R} \setminus \{0\})$ with $deg(u) \lt \infty$, write 
 
