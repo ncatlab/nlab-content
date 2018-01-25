@@ -1,6 +1,22 @@
 ## Free quantum fields
  {#FreeQuantumFields}
 
+In this chapter we discuss these topics:
+
+* _[Wick algebra](#WickAlgebraAbstract)_
+
+* _[Time-ordered product](#AbstractTimeOrderedProduct)_
+
+* _[Operator product notation](#OperatorProductAndNormalOrderedProduct)_
+
+* _[Hadamard vacuum state](#HadamardVacuumStatesOnWickAlgebras)_
+
+* _[Free quantum BV-differential](#FreeQuantumBVDifferential)_
+
+* _[Schwinger-Dyson equation](#SchwingerDysonEquation)_
+
+$\,$
+
 In the [previous chapter](#Quantization) we discussed _[[quantization]]_ of linear [[phase spaces]], which turns the [[algebra of observables]] into a [[noncommutative algebra]] of [[quantum observables]]. Here we apply this to the [[covariant phase spaces]] of [[gauge fixing|gauge fixed]] [[free field theory|free]] [[Lagrangian field theories]] (as discussed in the chapter _[Gauge fixing](#GaugeFixing)_), obtaining genuine [[quantum field theory]] for [[free fields]].
 
 For this purpose we first need to find a sub-algebra of all observables which is large enough to contain all [[local observables]] (such as the [[phi^n interaction]], example \ref{InWickAlgebraphinInteraction} below, and the [[electron-photon interaction]], example \ref{InWickAlgebraElectronPhotonInteraction} below) but small enough for the [[star product]] [[deformation quantization]] to meet [[Hörmander's criterion]] for absence of [[UV-divergences]] (remark \ref{UltravioletDivergencesFromPaleyWiener}). This does exist (example \ref{PointwiseProductsOfFieldObservablesAdiabaticallySwitchedIsMicrocausal} below): It is called the algebra of _[[microcausal polynomial observables]]_ (def. \ref{MicrocausalObservable} below).
@@ -13,8 +29,7 @@ This way the [[deformation quantization]] of the [[Peierls-Poisson bracket]] exi
 Its algebra structure may be expressed in terms of a commutative "[[normal-ordered product]]" (def. \ref{NormalOrderedProductNotation} below) and 
 the [[vacuum expectation values]] of [[field observables]] in a canonically induced [[vacuum state]] (prop. \ref{WickAlgebraCanonicalState} below).
 
-The analogous [[star product]] induced by the [[Feynman propagator]] (def. \ref{OnRegularPolynomialObservablesTimeOrderedProduct} below) acts by first [[causal ordering]] its arguments and then multiplying them with the [[Wick algebra|Wick algebra product]] (prop. \ref{CausalOrderingTimeOrderedProductOnRegular} below) and hence is called the _[[time-ordered product]]_ (def. \ref{OnRegularPolynomialObservablesTimeOrderedProduct} below). This is the key structure in the discussion of [[interactions]]
-of [[field (physics)|fields]] via [[scattering]]-processes, discussed in the next chapter _[Scattering](#Scattering)_.
+The analogous [[star product]] induced by the [[Feynman propagator]] (def. \ref{OnRegularPolynomialObservablesTimeOrderedProduct} below) acts by first [[causal ordering]] its arguments and then multiplying them with the [[Wick algebra|Wick algebra product]] (prop. \ref{CausalOrderingTimeOrderedProductOnRegular} below) and hence is called the _[[time-ordered product]]_ (def. \ref{OnRegularPolynomialObservablesTimeOrderedProduct} below). This is the key structure in the discussion of [[interacting field theory]] discussed in the next chapter _[Interacting quantum fields](#QuantumObservables)_.
 Here we consider this on [[regular polynomial observables]] only, hence for averages of [[field observables]] that evaluate
 at distinct [[spacetime]] points. The [[extension]] of the [[time-ordered product]] to
 [[local observables]] is possible, but requires making choices: This is called _[[renormalization]]_, which we turn to in 
@@ -37,7 +52,7 @@ One finds that this is equal to its [[time-ordered product|time-ordered]] versio
 Applied to [[observables]] this relation is the _[[Schwinger-Dyson equation]]_ (prop. \ref{DysonSchwinger} below), which expresses 
 the [[quantum physics|quantum]]-correction to the [[equations of motion]] of the [[free field theory|free]] [[gauge fixing|gauge field]] [[Lagrangian field theory]] as seen by [[time-ordered products]] of [[observables]] (example \ref{SchwingerDysonDistributional} below.)
 
-After introducing [[field (physics)|field]]-[[interactions]] via [[scattering theory]] in the [next chapter](#Scattering)
+After introducing [[field (physics)|field]]-[[interactions]] via [[scattering theory]] in the [next chapter](#QuantumObservables)
 the quantum correction to the [[BV-differential]] by the [[BV-operator]] becomes the "[[quantum master equation]]"
 and the [[Schwinger-Dyson equation]] becomes the "[[master Ward identity]]". When choosing [[renormalization]] these
 identities become _conditions_ to be satisfied by [[renormalization]] choices in order for the 
@@ -47,22 +62,6 @@ interacting quantum BV-BRST differential, and hence for [[gauge invariance|gauge
 
 
 
-$\,$
-
-
-We now discuss these topics:
-
-* _[Wick algebra](#WickAlgebraAbstract)_
-
-* _[Time-ordered product](#AbstractTimeOrderedProduct)_
-
-* _[Operator product notation](#OperatorProductAndNormalOrderedProduct)_
-
-* _[Hadamard vacuum state](#HadamardVacuumStatesOnWickAlgebras)_
-
-* _[Free quantum BV-differential](#FreeQuantumBVDifferential)_
-
-* _[Schwinger-Dyson equation](#SchwingerDysonEquation)_
 
 $\,$
 
@@ -731,7 +730,7 @@ $$
 
 This extension is not unique. A choice of such an extension, satisfying some evident compatibility conditions, is a choice of _[[renormalization scheme]]_ for the given [[perturbative quantum field theory]]. Every such choice corresponds to a choice of [[perturbative S-matrix]] for the theory, namely an extension of the time-ordered exponential $\exp_{\mathcal{T}}$ (example \ref{RegularObservablesExponentialTimeOrdered}) from regular to local observables.
 
-This construction of [[perturbative quantum field theory]] is called _[[causal perturbation theory]]_.  We discuss this belo in chapter _[Scattering](#Scattering)_ and in chapter _[Renormalization](#Renormalization)_.
+This construction of [[perturbative quantum field theory]] is called _[[causal perturbation theory]]_.  We discuss this below in the chapters _[Interacting quantum fields](#QuantumObservables)_ and _[Renormalization](#Renormalization)_.
 
 =--
 
@@ -2128,5 +2127,4 @@ is  the [[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]] (for t
 
 $\,$
 
-This concludes our discussion of the [[algebra of quantum observables]] for [[free field theories]]. In the [next chapter](#Scattering) we introduce the [[perturbative quantum field theory|perturbative]] [[interaction]] in terms of the [[scattering matrix]]. This leads over to the discussion of the genuine perturbative [[algebra of quantum observables]] in the chapter _[Quantum observables](#QuantumObservables)_.
-
+This concludes our discussion of the [[algebra of quantum observables]] for [[free field theories]]. In the [next chapter](#QuantumObservables) we discuss the [[perturbative QFT]] of [[interacting field theories]] as [[deformations]] of such free quantum field theories.
