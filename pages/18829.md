@@ -1,6 +1,27 @@
 ## Quantization
  {#Quantization}
 
+
+In this chapter we discuss these topics:
+
+* _[Motivation from Lie theory](#MotivationFromLieTheory)_
+
+* _[Geometric quantization](#GeometricQuantization)_
+
+* _[Moyal star products](#StarProducts)_
+
+* _[Moyal star product as deformation quantization](#MoyalStarProductAsDeformationQuantization)_
+
+* _[Moyal star product via geometric quantization](#MoyalStarProductViaGeometricQuantization)_
+
+* _[Example: Wick algebra of normal ordered product on Kähler vector space](#WickAlgebraOfNormalOrderedProductsOnKählerVectorspace)_
+
+* _[Star-product on regular polynomial observables in field theory](#RegularPolynomialFieldTheoryStarProduct)_
+
+
+
+$\,$
+
 In the previous chapters we had found the [[Peierls-Poisson bracket]] (theorem \ref{PPeierlsBracket}) on the [[covariant phase space]] (prop. \ref{CovariantPhaseSpace}) of a [[gauge fixing|gauge fixed]] (def. \ref{GaugeFixingLagrangianDensity}) [[free field theory|free]] [[Lagrangian field theory]] (def. \ref{FreeFieldTheory}). 
 
 This [[Poisson bracket]] (def. \ref{SuperPoissonAlgebra} below) is a  [[Lie bracket]] and hence reflects [[infinitesimal symmetries]] acting on the [[covariant phase space]]. Just as with the [[infinitesimal symmetries of the Lagrangian]] and the [[BRST-complex|BRST]]-[[reduced phase space|reduced]] [[field bundle]] (example \ref{LocalOffShellBRSTComplex}), we may hard-wire these [[Hamiltonian]] symmetries into the very geometry of the phase space by forming their [[homotopy quotient]] given by the corresponding [[Lie algebroid]] (def. \ref{LInfinityAlgebroid}): here this is called the _[[Poisson Lie algebroid]]_. Its [[Lie integration]] to a  finite (instead of infinitesimal) structure is called the _[[symplectic groupoid]]_. This is the original [[covariant phase space]], but with its [[Hamiltonian flows]] hard-wired into its [[higher differential geometry]] ([[schreiber:master thesis Bongers|Bongers 14, section 4]]).
@@ -21,23 +42,6 @@ This criterion is always met on the subspace of _[[regular polynomial observable
 
 In conclusion, for [[free field theory|free]] [[gauge fixing|gauge fixed]] [[Lagrangian field theory]] the product in the [[algebra of quantum observables]] is given by [[exponential|exponentiating]] [[propagators]]. It is the [[combinatorics]] of these exponentiated propagator expressions that yields the hallmark structures of [[perturbative quantum field theory]], namely the combinatorics of [[Wick's lemma]] for the [[Wick algebra]] of free fields, and the combinatorics of [[Feynman diagrams]] for the [[time-ordered products]]. This is the topic of the following chapters _[Free quantum fields](#FreeQuantumFields)_ and _[Scattering](#Scattering)_.  Here we conclude just with discussing the finite-dimensional toy version of the [[normal-ordered product]] in the [[Wick algebra]] (example \ref{WickAlgebraOfASingleMode} below).
 
-$\,$
-
-We now discuss these topics:
-
-* _[Motivation from Lie theory](#MotivationFromLieTheory)_
-
-* _[Geometric quantization](#GeometricQuantization)_
-
-* _[Moyal star products](#StarProducts)_
-
-* _[Moyal star product as deformation quantization](#MoyalStarProductAsDeformationQuantization)_
-
-* _[Moyal star product via geometric quantization](#MoyalStarProductViaGeometricQuantization)_
-
-* _[Example: Wick algebra of normal ordered product on Kähler vector space](#WickAlgebraOfNormalOrderedProductsOnKählerVectorspace)_
-
-* _[Star-product on regular polynomial observables in field theory](#RegularPolynomialFieldTheoryStarProduct)_
 
 
 $\,$
