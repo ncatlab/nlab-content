@@ -1,6 +1,19 @@
 ## Fields
  {#Fields}
 
+
+In this chapter we discuss these topics:
+
+* _[Field bundles](#FieldBundles)_
+
+* _[Spaces of field histories](#NonFiniteDimensionalGeometry)_
+
+* _[Infinitesimal geometry](#InfinitesimalGeometry)_
+
+* _[Fermion fields and Supergeometry](#Supergeometry)_
+
+$\,$
+
 A [[field history]] on a given [[spacetime]] $\Sigma$ (a history of spatial [[field configurations]], see remark \ref{FieldHistoriesAsHistoriesOfFieldConfigurations} below) is a [[quantity]] assigned to each point of spacetime (each [[event]]), such that this assignment varies smoothly with spacetime points. For instance an _[[electromagnetic field]] [[field history|history]]_ (example \ref{Electromagnetism} below) is at each point of spacetime a collection of [[vectors]] that encode the direction in which a [[charged particle]] passing through that point would feel a [[force]] (the "[[Lorentz force]]", see example \ref{Electromagnetism} below).
 
 This is readily formalized (def. \ref{FieldsAndFieldBundles} below): If $F$ denotes the [[smooth manifold]] of "values" that the given kind of field may take at any spacetime point, then a field history $\Phi$ is modeled as a [[smooth function]] from spacetime to this space of values:
@@ -71,19 +84,6 @@ $\,$
 
 
 
-$\,$
-
-We now discuss these topics:
-
-$\,$
-
-* _[Field bundle](#FieldBundles)_
-
-* _[Space of field histories](#NonFiniteDimensionalGeometry)_
-
-* _[Infinitesimal geometry](#InfinitesimalGeometry)_
-
-* _[Fermion fields and Supergeometry](#Supergeometry)_
 
 
 $\,$
