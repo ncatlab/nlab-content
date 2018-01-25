@@ -4,6 +4,23 @@
  {#Observables}
 
 
+In this chapter we discuss these topics:
+
+* _[General observables](#GeneralObservables)_
+
+* _[Polynomial off-shell observables and Distributions](#LinearOffShellObservablesAreDistributions)_
+
+* _[Polynomial on-shell observables and Distributional solutions to PDEs](#PolynomialOnShellObservablesAreDistributionalSolutionsToTheEquationsOfMotion)_
+
+* _[Local observables and Transgression](#LocalObservablesByTransgression)_
+
+* _[Infinitesimal observables](#InfinitesimalObservables)_
+
+* _[States](#StatesArePositiveLinearFunctionals)_
+
+
+$\,$
+
 Given a [[Lagrangian field theory]] (def. \ref{LagrangianForFreeScalarFieldOnMinkowskiSpacetime}), then a general _[[observable]] quantity_ or just _[[observable]]_ for short (def. \ref{Observable} below),  is a [[smooth function]]
 
 $$
@@ -214,23 +231,7 @@ This finally leads to the definition of _[[states]]_ in def. \ref{StateOnAStarAl
 
 
 
-$\,$
 
-We now discuss these topics:
-
-$\,$
-
-* _[General observables](#GeneralObservables)_
-
-* _[Polynomial off-shell observables and Distributions](#LinearOffShellObservablesAreDistributions)_
-
-* _[Polynomial on-shell observables and Distributional solutions to PDEs](#PolynomialOnShellObservablesAreDistributionalSolutionsToTheEquationsOfMotion)_
-
-* _[Local observables and Transgression](#LocalObservablesByTransgression)_
-
-* _[Infinitesimal observables](#InfinitesimalObservables)_
-
-* _[States](#StatesArePositiveLinearFunctionals)_
 
 $\,$
 
@@ -2838,6 +2839,7 @@ $\,$
 **States**
  {#StatesArePositiveLinearFunctionals}
 
+We introduce the basics of _[[quantum probability]]_ in terms of [[state on a star-algebra|states]] defined as positive linear maps on [[star-algebras]] of observables.
 
 +-- {: .num_defn #StarAlgebra}
 ###### Definition
@@ -2888,7 +2890,7 @@ is a star-homomorphism.
 
 =--
 
-+-- {: .num_examples #StarAlgebraOfObservables}
++-- {: .num_example #StarAlgebraOfObservables}
 ###### Examples
 **([[complex number]]-valued [[observables]] are [[star-algebra]] under pointwise product and pointwise [[complex conjugation]])**
 
