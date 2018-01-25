@@ -89,14 +89,14 @@ In the construction of [[perturbative quantum field theories]] via [[causal pert
 We discuss specifically the space of solutions of extending a distribution on the [[complement]] $\mathbb{R}^n \setminus \{0\}$ of the origin inside a [[Cartesian space]] to the full space $\mathbb{R}^n$.
 
 
-+-- {: .num_lemma #ExtensionUniqueNonPositiveDegreeOfDivergence}
-###### Lemma
-**(unique [[extension of distributions]] with non-positive [[degree of divergence of a distribution|degree of divergence]])**
++-- {: .num_prop #ExtensionUniqueNonPositiveDegreeOfDivergence}
+###### Proposition
+**(unique [[extension of distributions]] with negative [[degree of divergence of a distribution|degree of divergence]])**
 
-For $n \in \mathbb{N}$, let $u \in \mathcal{D}'(\mathbb{R}^n \setminus \{0\})$ be a [[distribution]] on the [[complement]] of the origin, with non-[[positive number|positive]] [[degree of divergence of a distribution|degree of divergence]] at the origin
+For $n \in \mathbb{N}$, let $u \in \mathcal{D}'(\mathbb{R}^n \setminus \{0\})$ be a [[distribution]] on the [[complement]] of the origin, with [[negative number|negative]] [[degree of divergence of a distribution|degree of divergence]] at the origin
 
 $$
-  deg(u) \leq 0
+  deg(u) \lt 0
   \,.
 $$
 
@@ -107,6 +107,100 @@ $$
   \,.
 $$
 
+=--
+
+([Brunetti-Fredenhagen 00, theorem 5.2](#BrunettiFredenhagen00), [Dütsch  18, theorem 3.35 a)](#Duetsch18))
+
++-- {: .proof}
+###### Proof
+
+Regarding uniqueness:
+
+Suppose $\hat u$ and ${\hat u}^\prime$ are two extensions of $u$ with $deg(\hat u) = deg({\hat u}^\prime)$. Both being extensions of a distribution defined on $\mathbb{R}^n \setminus \{0\}$, this difference has [[support of a distribution|support]] at the origin $\{0\} \subset \mathbb{R}^n$. By [this prop.](point-supported+distribution#PointSupportedDistributionsAreSumsOfDerivativesOfDeltaDistibutions) this implies that it is a linear combination of [[derivative of a distribution|derivatives]] of the [[delta distribution]] [[support of a distribution|supported]] at the origin:
+
+$$
+  {\hat u}^\prime - \hat u
+  \;=\;
+  \underset{
+    {\alpha \in \mathbb{N}^n}
+  }{\sum}
+  c^\alpha \partial_\alpha \delta_0
+$$
+
+for constants $c^\alpha \in \mathbb{C}$. But by [this example](scaling+degree+of+a+distribution#DerivativesOfDeltaDistributionScalingDegree) the [[degree of divergence of a distribution|degree of divergence]] of these [[point-supported distributions]] is non-negative
+
+$$
+  deg( \partial_\alpha \delta_0)
+  =
+  {\vert \alpha\vert} \geq 0  
+  \,.
+$$
+
+This implies that $c^\alpha = 0$ for all $\alpha$, hence that the two extensions coincide.
+
+
+Regarding existence: 
+
+
+Let
+
+$$
+  b \in C^\infty_{cp}(\mathbb{R}^n)
+$$
+
+be a [[bump function]] which is [[constant function|constant]] on 1 on a [[neighbourhood]] of the origin. Write
+
+$$
+  \chi \coloneqq 1 - b \;\in\; C^\infty(\mathbb{R}^n)
+$$
+
+<center>
+<img src="https://ncatlab.org/nlab/files/PointExtensionOfDistributions.png" > 
+</center>
+
+> graphics grabbed from [Dütsch 18, p. 108](#Duetsch18)
+
+and for $\lambda \in (0,\infty)$ a [[positive real number]], write
+
+$$
+  \chi_\lambda(x)
+  \coloneqq
+  \chi(\lambda x)
+  \,.
+$$
+
+Since the [[product of distributions|product]] $\chi_\lambda u$ has [[support of a distribution]] on a [[complement]] of  a [[neighbourhood]] of the origin, we may extend it by zero to a distribution on all of $\mathbb{R}^n$ to get
+
+$$
+  \chi_\lambda u \in \mathcal{D}'(\mathbb{R}^n)
+  \,.
+$$
+
+By construction this coincides with $u$ away from a neighbourhood of the origin, which becomes arbitrarily small as $\lambda$ increases. 
+This means that if the following [[limit of a sequence|limit]] exists
+
+$$
+  \hat u
+  \;\coloneqq\;
+  \underset{\lambda \to \infty}{\lim}
+   \chi_\lambda u
+$$
+
+then it is an extension of $u$.
+
+To see that the limit exists, it is sufficient to observe that we have a [[Cauchy sequence]], hence that for all $b\in C^\infty_{cp}(\mathbb{R}^n)$ the difference
+
+$$
+  (\chi_{n+1} u - \chi_n u)(b)
+  \;=\;
+  u(b)( \chi_{n+1} + \chi_n )
+$$
+
+becomes arbitrarily small.
+
+Finally to see that the unique extension $\hat u$ thus established has the same scaling degree as $u$:
+
+(...)
 
 =--
 
@@ -145,7 +239,7 @@ for a finite number of constants $q^\alpha \in \mathbb{C}$.
 
 =--
 
-([Hörmander 90, thm. 3.2.4](#Hoermander90), [BrunettiFredenhagen 00, theorem 5.2, 5.3](#BrunettiFredenhagen00), following [Epstein-Glaser 73, section 5](#EpsteinGlaser73))
+([Hörmander 90, thm. 3.2.4](#Hoermander90), [Brunetti-Fredenhagen 00, theorem 5.3](#BrunettiFredenhagen00), [Dütsch 18, theorem 3.35 (b)](#Duetsch18), following [Epstein-Glaser 73, section 5](#EpsteinGlaser73))
 
 
 +-- {: .proof}
@@ -250,6 +344,7 @@ $$
 by setting
 
 $$
+  \left{SpaceOfSmoothFunctionsOfGivenVaishingOrderProjector}
   p_\rho
   \;\coloneqq\;
   id
@@ -338,7 +433,7 @@ $$
  \end{aligned}
 $$
 
-Therefore lemma \ref{ExtensionUniqueNonPositiveDegreeOfDivergence} says that each $x^\alpha u$ for ${\vert \alpha\vert} = \rho + 1$ has a unique extension $\widehat{ x^\alpha u}$ to the origin. Accordingly the composition $u \circ p_\rho$ has a unique extension, by (eq:ForExtensionOfDistributionsTestFunctionDecomposition):
+Therefore prop. \ref{ExtensionUniqueNonPositiveDegreeOfDivergence} says that each $x^\alpha u$ for ${\vert \alpha\vert} = \rho + 1$ has a unique extension $\widehat{ x^\alpha u}$ to the origin. Accordingly the composition $u \circ p_\rho$ has a unique extension, by (eq:ForExtensionOfDistributionsTestFunctionDecomposition):
 
 $$
   \begin{aligned}
@@ -470,69 +565,14 @@ $$
 =--
 
 
-We unwind the statement of prop. \ref{SpaceOfPointExtensions} a little:
-
-
-
-+-- {: .num_remark }
++-- {: .num_remark}
 ###### Remark
-**(space of choices of point-extensions of distributions)**
+**("W-extensions")**
 
-Given $u \in \mathcal{D}'(\mathbb{R} \setminus \{0\})$ with $deg(u) \lt \infty$, write 
-
-$$
-  PointExt(u)
-  \;\coloneqq\;
-  \left\{
-    \hat u \in \mathcal{D}'(\mathbb{R}^n)
-    \;\vert\;
-    \hat u\vert_{\mathbb{R}^n \setminus \{0\}} = u
-    \,\,,
-    deg(\hat u) = deg(u)
-  \right\}
-$$
-
-for the space of point extensions, and write
-
-$$
-  \mathcal{D}'(\mathbb{R}^n)^{ord \leq k}_{supp = \{0\}}
-$$ 
-
-for the vector space of [[point-supported distributions]] at the origin of [[order of a distribution|order]] $\leq k \in \mathbb{Z}$. 
-
-Prop. \ref{SpaceOfPointExtensions} says that the set $PointExt(u)$ is a [[torsor]] over the additive [[abelian group]] underlying $\mathcal{D}'(\mathbb{R}^n)^{ord \leq k}_{supp = \{0\}}$, hence that there is a (non-canonical) [[bijection]] of sets
-
-$$
-  PointExt(u)
-   \;\simeq\;
-  \mathcal{D}'(\mathbb{R}^n)^{ord \leq deg(u)}_{supp = \{0\}}
-$$
-
-
-Now by [this prop.](supported+distribution#PointSupportedDistributionsAreSumsOfDerivativesOfDeltaDistibutions) the point-supported distributions are precisely the sums of multiples [[derivative of a distribution|derivatives]] of the [[delta distribution]] at the given point:
-
-$$
-  \mathcal{D}'(\mathbb{R}^n)^{ord \leq k}_{supp = \{0\}}
-  \;\simeq\;
-  \left\{
-     \underset{ {\alpha \in \mathbb{N}^n} \atop { {\vert \alpha\vert \leq k  } } }{\sum} c^\alpha (\partial_\alpha \delta)(0)
-    \;\vert\;
-    c^\alpha \in \mathbb{R}
-  \right\}
-  \,.
-$$
-
-In particular for $k \lt 0$ this is a [[singleton]]:
-
-$$
-  \mathcal{D}'(\mathbb{R}^n)^{ord \lt 0}_{supp = \{0\}} = \{0\}
-  \,.
-$$
-
-Hence prop. \ref{SpaceOfPointExtensions} says in particular that a distribution with _[[negative number|negative]]_ [[scaling degree of a distribution|degree of divergence]] has a _unique_ point extension with the same degree of divergence. 
-
+Since in [Brunetti-Fredenhagen 00, (38)](#BrunettiFredenhagen00) the projectors (eq:SpaceOfSmoothFunctionsOfGivenVaishingOrderProjector) are denoted "$W$", the construction of [[extensions of distributions]] via the proof of prop. \ref{SpaceOfPointExtensions} has come to be called "W-extensions" (e.g [Dütsch 18](#Duetsch18)).
 
 =--
+
 
 ## Examples
 
@@ -551,11 +591,14 @@ thereby laying the foundation for [[causal perturbation theory]]. A textbook acc
 * {#Hoermander14} [[Lars Hörmander]], theorem 3.2.4 of _The Analysis of Linear Partial Differential Operators I_ (Springer, 1990, 2nd ed.)
 
 
-
-
 A more concise formulation and proof is due to
 
 * {#BrunettiFredenhagen00} [[Romeo Brunetti]], [[Klaus Fredenhagen]], section 5.2 of _Microlocal analysis and interacting quantum field theories: Renormalization on Physical Backgrounds_, Commun. Math. Phys. 208 : 623-661, 2000 ([math-ph/9903028](https://arxiv.org/abs/math-ph/9903028))
+
+reviewed in
+
+* {#Duetsch18} [[Michael Dütsch]], theorem 3.35 of _[[From classical field theory to perturbative quantum field theory]]_, 2018
+
 
 Exposition of the application to [[renormalization]] of [[Feynman diagrams]] is in
 
