@@ -43,6 +43,9 @@ This kind of model was brought up independently by several groups of authors (se
 
 and more.
 
+The suggestion that fuzzy dark matter induces the observed almost-flat galactic rotation curves ("[[MOND]]") seems to go back to ([Sin 92](#Sin92)). Further pointers are in ([Lee 17, p. 3](#Lee17)): 
+
+> There are many works explaining the rotation curves of dwarf [17, 23, 69], and large galaxies [29, 43, 70–78] in this model.
 
 ## References
  {#References}
