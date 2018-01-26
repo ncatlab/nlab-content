@@ -1,4 +1,51 @@
 
+$$
+  \begin{aligned}
+    \mathcal{S}'(O)
+    -
+    \mathcal{S}(\mathcal{Z}(O))
+    & =
+    \underset{k}{\sum}
+    \left(
+      \frac{1}{k!}
+      \frac{1}{(i \hbar)^k}
+      T'_k( O^{\otimes_k} )
+      -
+      \underset{
+        1 \lt n \leq k
+      }{\sum}
+      \underset{
+        { \{1, \cdots, k\} = I_1 \sqcup \cdots \sqcup I_n }
+        \atop
+        { I_1, \cdots, I_n \neq \emptyset }
+      }{\sum}
+      \frac{1}{n!} \tfrac{1}{{\vert I_1\vert}! \cdots {\vert I_n\vert}!}
+      \frac{1}{(i \hbar)^n}
+      T_n\left(
+        Z_{{\vert I_1\vert}}(O^{\otimes_{\vert I_1\vert}}),
+        \cdots,
+        Z_{{\vert I_n\vert}}(O^{\otimes_{\vert I_n\vert}}),  
+      \right)
+    \right)
+    \\
+    &
+    \phantom{=} 
+    +
+    \frac{1}{i \hbar} 
+    Z_k( O^{\otimes_k} )
+  \end{aligned}
+$$
+
+([Dütsch 18, (3.333)](#Duetsch18))
+
+$$
+  \mathcal{Z}(O)
+  \;=\;
+  \underset{k \in \mathbb{N}}{\sum}
+  \frac{1}{k!}
+  Z_k( \underset{k \, \text{args}}{\underbrace{ O, \cdots, O }} )
+$$
+
 
 $$
   {\hat u}^\prime
