@@ -394,7 +394,7 @@ $$
   \underset{
     { \alpha \in \mathbb{N}^n }
     \atop
-    { {\vert \alpha \vert}  \rho + 1 }
+    { {\vert \alpha \vert} = \rho + 1 }
   }{\sum}
   x^\alpha r_\alpha(x)
   \;+\;
