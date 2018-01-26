@@ -41,15 +41,15 @@ and all the reasonable variations you might consider.
 ### Colimits
 
 Given a set $\{ X_i \}$ of metric spaces, their disjoint union can be given a metric in which separate summands are all distance $1$ from eachother.  This metric has 
-$ Reg(\coprod X_i) = colim Reg(X_i) $ and therefore also 
-\[ H_p(\coprod X_i) \simeq \bigoplus H_p( X_i ) \]
+$ Reg( * \sqcup \coprod X_i) = colim Reg(* \sqcup X_i) $ and therefore also 
+\[ H_p(* \sqcup \coprod X_i) \simeq \bigoplus H_p( * \sqcup X_i ) \]
 
 While $limsup d(\partial_0 x,\partial_1 x) = 0$ is a *topological* condition on *compact* metric spaces, it definitely is not so on noncompact spaces.  For this reason, one frequently considers the compactly-supported (compactly-generated?) homology as well,
 \[ {}_c H_p(X) = \colim_{A \ll X } H_p(A) . \]
 
 ### Limits
 
-Let $\dots \to X_{i+1} \to X_i \to \dots $ be a tower of *compact* metric spaces; in generous versions of Set-Theory, its limit again a compact metric space.  In contrast to $colim$, one can reasonably say $Reg(lim_i X_i) = lim_i Reg(X_i)$; and moreover, since the morphisms of $Reg(X_i)$ are *inclusions of subcomplexes*, it follows that
+Let $\dots \to X_{i+1} \to X_i \to \dots $ be a tower of *compact* metric spaces; in generous versions of Set-Theory, its limit is again a *compact* metric space.  In contrast to $colim$, one can reasonably say $Reg(lim_i X_i) = lim_i Reg(X_i)$; and moreover, since the morphisms of $Reg(X_i)$ are *inclusions of subcomplexes*, it follows that
 \[ \colim_{Reg(lim X)} C_* \simeq lim_i \colim_{Reg(X_i)} C_* \]
 the usual Abstract Nonsense then gives short exact sequences
 \[ 0 \to lim_i^1 H_{p+1}(X_i) \to H_p (lim X) \to lim_i H_p( X_i ) \to 0 \]
