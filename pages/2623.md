@@ -401,7 +401,7 @@ is well defined and satisfies causal factorization.
 =--
 
 
-+-- {: .num_remark}
++-- {: .num_remark #RenormalizationChoices}
 ###### Remark
 **(renormalization choices)**
 
