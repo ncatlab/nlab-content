@@ -1,4 +1,3 @@
-[[!redirects main theorem of perturbative renormalization theory]]
 
 
 +-- {: .rightHandSide}
@@ -18,27 +17,27 @@
 
 ## Idea
 
-A central result in the construction of [[perturbative quantum field theories]] via the method of [[causal perturbation theory]] is called the _main theorem of perturbative renormalization theory_. This says that given a suitable [[free field theory|free]] [[Lagrangian field theory]] $(E,\mathbf{L}_{kin})$, then any two _[[renormalization schemes]]_ for [[perturbative quantum field theory]] around this free field theory, hence any two solutions $S$, $S'$ to the [[induction|inductive]] construction of the [[perturbative S-matrix]] as a [[function]] 
+A central result in the construction of [[perturbative quantum field theories]] via the method of [[causal perturbation theory]] is called the _main theorem of perturbative renormalization theory_. This says that given a suitable [[free field theory|free field]] [[vacuum]] to be [[perturbation theory|perturbed]] ([this def.](S-matrix#VacuumFree)), then any two _[[renormalization schemes]]_ for [[perturbative quantum field theory]] around this free field theory, hence any two solutions $\mathcal{S}$, $\mathcal{S}'$ to the [[induction|inductive]] construction of the [[perturbative S-matrix]] scheme as a [[function]] 
 
 $$
   \mathcal{S}
    \;\colon\; 
-  LocObs(E)[ [\hbar , g ] ] 
+  LocObs(E)[ [\hbar , g ] ]\langle g , j\rangle
     \longrightarrow
   PolyObs(E)_{mc}((\hbar))[ [ g, j] ]
 $$
 
-from [[local observables]] $\mathbf{L}_{int} \in LocObs(E)[ [\hbar] ]$, regarded as [[adiabatic switching|adiabatically switched]] [[interaction]] [[action functionals]]  $\tau_\Sigma \mathbf{L}_{int}$, to scattering [[Wick algebra]] elements $S(\mathbf{L}_{int})$, are related by a unique transformation 
+from [[local observables]] $g S_{int} + j A$, regarded as [[adiabatic switching|adiabatically switched]] [[interaction]] [[action functionals]], to [[scattering amplitude]] [[Wick algebra]] elements $S\mathcal{S}(\mathbf{L}_{int})$, are related by a unique _perturbative_ transformation 
 
 $$
   \mathcal{Z}
     \;\colon\;
-  LocObs(E)[ [\hbar, g, j] ]
+  LocObs(E)[ [\hbar, g, j] ]\langle g, j\rangle
     \longrightarrow
-  LocObs(E)[ [\hbar, g, j] ]
+  LocObs(E)[ [\hbar, g, j] ]\langle g, j\rangle
 $$
 
-via [[precomposition]]
+of the space of [[local observable|local]] [[interaction]] [[action functionals]] via [[precomposition]]
 
 $$
   \mathcal{S}' 
@@ -47,18 +46,21 @@ $$
   \,.
 $$
 
+
 The collection of these operations $\mathcal{Z}$ forms a [[group]], called the _[[Stückelberg-Petermann renormalization group]]_. Hence the space of [[renormalization schemes]] is a [[torsor]] over this group.
 
-> Dependence of the statement on the choice of [[renormalization conditions]] is discussed in [Dütsch 18, remark 3.102](#Duetsch18).
+The precise nature of this group depends on which set of _[[renormalization conditions]]_ one imposes. The larger this set, the smaller the corresponding [[renormalization group]] ([Dütsch 18, remark 3.102](#Duetsch18)).
 
-Via the perspective of the [[Gell-Mann-Low cocycles]] this theorem is a mathematical reflection of the idea that renormalization is about regarding a [[perturbative quantum field theory]] with [[interaction]] $V$ as a [[effective field theory]] at some energy scale and then discovering that at higher energy there is a more fundamental interaction $Z(V)$ which effectively looks like $V$ at lower energy.
+Beware the terminology: Contrary to common practice, the construction of a single $\mathcal{S}$ is more properly called a choice of _normalization_ rather a "re"-normalization (e. g. [Scharf 95, section 4.3](causal+perturbation+theoryscatt#Scharf95)), but the "main theorem" above says that the elements in the [[Stückelberg-Petermann renormalization group]] are precisely that: _re_-normalizations, passing from one choice of normalization to another.
+
+
 
 
 ## References
 
 The theorem is originally due to 
 
-* G. Popineau and [[Raymond Stora]], _A Pedagogical Remark on the Main Theorem of Perturbative Renormalization Theory, Nucl. Phys. B 912 (2016), 70–78, preprint:
+* G. Popineau, [[Raymond Stora]], _A Pedagogical Remark on the Main Theorem of Perturbative Renormalization Theory, Nucl. Phys. B 912 (2016), 70–78, preprint:
 LAPP–TH, Lyon (1982)
 
 In various variants it has been (re-)proved in the following articles:
@@ -79,3 +81,4 @@ Review is in
 to perturbative quantum field theory]]_, 2018
 
 
+[[!redirects main theorem of perturbative renormalization theory]]
