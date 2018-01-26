@@ -37,6 +37,8 @@ The _[[interaction picture]]_ of [[quantum physics]] serves to decompose the [[q
 
 ## Related concepts
 
+* [[renormalizable interaction]]
+
 * [[interacting field theory]]
 
 * [[interacting field algebra]]
