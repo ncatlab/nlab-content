@@ -148,7 +148,7 @@ $$
   b \in C^\infty_{cp}(\mathbb{R}^n)
 $$
 
-be a [[bump function]] which is [[constant function|constant]] on 1 on a [[neighbourhood]] of the origin. Write
+be a [[bump function]] which is $\leq 1$ and [[constant function|constant]] on 1 over a [[neighbourhood]] of the origin. Write
 
 $$
   \chi \coloneqq 1 - b \;\in\; C^\infty(\mathbb{R}^n)
@@ -169,15 +169,14 @@ $$
   \,.
 $$
 
-Since the [[product of distributions|product]] $\chi_\lambda u$ has [[support of a distribution]] on a [[complement]] of  a [[neighbourhood]] of the origin, we may extend it by zero to a distribution on all of $\mathbb{R}^n$ to get
+Since the [[product of distributions|product]] $\chi_\lambda u$ has [[support of a distribution]] on a [[complement]] of  a [[neighbourhood]] of the origin, we may extend it by zero to a distribution on all of $\mathbb{R}^n$, which we will denote by the same symbols:
 
 $$
   \chi_\lambda u \in \mathcal{D}'(\mathbb{R}^n)
   \,.
 $$
 
-By construction this coincides with $u$ away from a neighbourhood of the origin, which becomes arbitrarily small as $\lambda$ increases. 
-This means that if the following [[limit of a sequence|limit]] exists
+By construction $\xhi_\lambda u$ coincides with $u$ away from a neighbourhood of the origin, which moreover becomes arbitrarily small as $\lambda$ increases.  This means that if the following [[limit of a sequence|limit]] exists
 
 $$
   \hat u
@@ -239,7 +238,7 @@ for a finite number of constants $q^\alpha \in \mathbb{C}$.
 
 =--
 
-([Hörmander 90, thm. 3.2.4](#Hoermander90), [Brunetti-Fredenhagen 00, theorem 5.3](#BrunettiFredenhagen00), [Dütsch 18, theorem 3.35 (b)](#Duetsch18), following [Epstein-Glaser 73, section 5](#EpsteinGlaser73))
+This is essentially ([Hörmander 90, thm. 3.2.4](#Hoermander90)). We follow ([Brunetti-Fredenhagen 00, theorem 5.3](#BrunettiFredenhagen00)), which was inspired by ([Epstein-Glaser 73, section 5](#EpsteinGlaser73)). Review of this approach is in ([Dütsch 18, theorem 3.35 (b)](#Duetsch18)), see also remark \ref{WExtensions} below.
 
 
 +-- {: .proof}
@@ -344,7 +343,7 @@ $$
 by setting
 
 $$
-  \left{SpaceOfSmoothFunctionsOfGivenVaishingOrderProjector}
+  \label{SpaceOfSmoothFunctionsOfGivenVaishingOrderProjector}
   p_\rho
   \;\coloneqq\;
   id
@@ -355,7 +354,7 @@ $$
     \atop
     { {\vert \alpha\vert} \leq \rho }
   }{\sum}
-  w^\alpha \partial_\alpha
+  w^\alpha \partial_\alpha \delta_0
   \,,\,
   (-)
   \right\rangle
@@ -418,7 +417,7 @@ $$
   \,.
 $$
 
-Observe that (by [this prop.](scaling+degree+of+a+distribution#ScalingDegreeOfDistributionsBasicProperties)) the [[degree of divergence of a distribution|degree of divergence]] of the [[product of distributions]] $x^\alpha u$ with ${\vert \alpha\vert} = \rho + 1$ is
+Observe that (by [this prop.](scaling+degree+of+a+distribution#ScalingDegreeOfDistributionsBasicProperties)) the [[degree of divergence of a distribution|degree of divergence]] of the [[product of distributions]] $x^\alpha u$ with ${\vert \alpha\vert} = \rho + 1$ is [[negative number|negative]]
 
 
 $$
@@ -428,7 +427,7 @@ $$
     \right)
     & =
     \rho - {\vert \alpha \vert}
-    =
+    \leq
     -1
  \end{aligned}
 $$
@@ -565,7 +564,7 @@ $$
 =--
 
 
-+-- {: .num_remark}
++-- {: .num_remark #WExtensions}
 ###### Remark
 **("W-extensions")**
 
