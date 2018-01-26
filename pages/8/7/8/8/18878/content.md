@@ -39,7 +39,7 @@ $$
   LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]\langle g, j\rangle  
 $$
 
-on [[local observables]] with formal parameters adjoined ([this def.](S-matrix#FormalParameters)) such that there exists a sequence $\{Z_k\}_{k \in \mathbb{N}}$ of [[continuous linear functional]], symmetric in their arguments, of the form
+on [[local observables]] with formal parameters adjoined ([this def.](S-matrix#FormalParameters)) such that there exists a sequence $\{Z_k\}_{k \in \mathbb{N}}$ of [[continuous linear functionals]], symmetric in their arguments, of the form
 
 $$
   \left(
@@ -65,7 +65,7 @@ such that for all $g S_{int} + j A \in LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j
        & =
        Z \exp_\otimes( g S_{int} + j A )
        \\
-       & =
+       &
        \coloneqq
        \underset{k \in \mathbb{N}}{\sum}
        \frac{1}{k!} 
@@ -95,6 +95,7 @@ Then for all $O_0, O_1, O_2 \in LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j ] ]\la
 
 $$
   \begin{aligned}
+    & 
     \left(
       supp(O_1)
       \cap 
@@ -209,8 +210,9 @@ This directly implies the claim.
 
 =--
 
-+-- {: .num_cor}
++-- {: .num_cor #CausalFactorizationSatisfiedByCompositionOfSMatrixWithVertexRedefinition}
 ###### Corollary
+**([[composition]] of [[S-matrix]] scheme with [[vertex redefinition]] satisfies [[causal factorization]])**
 
 Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H)$ be a [[gauge fixing|gauge fixed]] [[free field theory|free field]] [[vacuum]] ([this def.](S-matrix#VacuumFree)) and let $\mathcal{Z}$ be a [[vertex redefinition]] (def. \ref{InteractionVertexRedefinition}).
 
@@ -224,7 +226,8 @@ $$
   PolyObs(E_{\text{BV-BRST}})_{mc}((\hbar))[ [ g,j ] ]
 $$
 
-and [[S-matrix]] scheme ([this def.](S-matrix#LagrangianFieldTheoryPerturbativeScattering)), also the [[composition|composite]]
+and [[S-matrix]] scheme ([this def.](S-matrix#LagrangianFieldTheoryPerturbativeScattering)), the [[composition|composite]]
+
 $$
   \mathcal{S} \circ \mathcal{Z}
   \;\colon\;
@@ -235,16 +238,79 @@ $$
   PolyObs(E_{\text{BV-BRST}})_{mc}((\hbar))[ [ g,j ] ]
 $$
 
-is an S-matrix scheme.
+satisfies [[causal factorization]] ([this remark](S-matrix#DysonCausalFactorization)) in that for $O_1, O_2 \in LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, h ] ]\langle \hbar, g, j\rangle\langle g, j\rangle $ two [[local observables]] whose spacetime support ([this def. ](A+first+idea+of+quantum+field+theory+--+Observables#SpacetimeSupport)) is in [[causal order]] 
+
+$$
+  supp(O_1) {\vee\!\!\!\wedge} supp(O_2)
+$$
+
+then
+
+$$
+  \mathcal{S}\circ \mathcal{Z}(O_1 + O_2)
+  \;=\;
+  \mathcal{S}\circ \mathcal{Z}(O_1)
+  \,
+  \mathcal{S}\circ \mathcal{Z}(O_2)
+  \,.
+$$
 
 =--
+
+(e.g [Dütsch 18, theorem 3.99 (b)](#Duetsch18))
 
 +-- {: .proof}
 ###### Proof
 
-The condition "perturbation" is immediate from the definitions and the usual combinatorics of [[exponential series]].
 
-The condition "[[causal additivity]]" for $\mathcal{S} \circ \mathcal{Z}$ follows directly from the causal additivity of $\mathcal{S}$ and the local additivity of $\mathcal{Z}$ (prop. \ref{InteractionVertexRedefinitionAdditivity}).
+It is clear that [[causal order]] of the spacetime supports implies that they are in particular [[disjoint subset|disjoint]]
+
+$$
+  {\, \atop \,}
+  supp(O_1) 
+    \cap
+  supp(O_)
+  \;=\;
+  \emptyst
+$$
+
+Therefore the claim is implied via the local additivity of $\mathcal{Z}$ (prop. \ref{InteractionVertexRedefinitionAdditivity}) by the [[causal additivity]] of the [[S-matrix]]:
+
+$$
+  \begin{aligned}
+    \mathcal{S}
+    \left(
+      {\, \atop \,}
+      \mathcal{Z}(O_1 + O_2)
+      {\, \atop \,}
+    \right)
+    & =
+    \mathcal{S}
+    \left(
+      {\, \atop \,}
+      \mathcal{Z}(O_1) 
+      + 
+      \mathcal{Z}(O_2)  
+      {\, \atop \,}
+    \right)
+    \\
+    & = 
+    \mathcal{S}
+    \left(
+      {\, \atop \,}
+      \mathcal{Z}(O_1)
+      {\, \atop \,}
+    \right)
+    \,
+    \mathcal{S}
+    \left(
+      {\, \atop \,}
+      \mathcal{Z}(O_2)
+      {\, \atop \,}
+    \right)
+    \,.
+  \end{aligned}
+$$
 
 =--
 
