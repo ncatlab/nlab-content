@@ -108,7 +108,7 @@ This makes $\mathcal{C}_G$ into a $G$-crossed braided fusion category, but most 
 The idea is then to generalise the full inclusion $\operatorname{Rep}_G \hookrightarrow \mathcal{C}' \hookrightarrow \mathcal{C}$ to a full inclusion $\operatorname{Rep}_G \hookrightarrow \mathcal{C}$ that need not factor over $\mathcal{C}'$.
 One can still deequivariantise the underlying fusion category of $\mathcal{C}$ with respect to the $\operatorname{Rep}_G$-action, but the procedure will not respect the braiding. Naturally, the result is not a braided fusion category, but a $G$-crossed braided fusion category.
 
-Vice versa, given a $G$-crossed braided fusion category $\mathcal{C}$, one can equivariantise it to a braided fusion category with a full inclusion of $\operatorname{Rep}_G$. When $c$ is the crossed braiding of $\mathcal{C}$, the braiding of two equivariant objects $(X, u_h\colon \rho(h)(X) \to X)$ and $(Y \in \operatorname{ob} \mathcal{C}_g, v_h\colon \rho(h)(Y) \to Y)$ is given by $X \otimes Y \xrightarrow{c_{X,Y}} \rho(g)Y \otimes X \xrightarrow{v_g \otimes 1_X} Y \otimes X$.
+Vice versa, given a $G$-crossed braided fusion category $\mathcal{C}$, one can equivariantise it to a braided fusion category with a full inclusion of $\operatorname{Rep}_G$. When $c$ is the crossed braiding of $\mathcal{C}$, the braiding of two equivariant objects $(X \in \operatorname{ob} \mathcal{C}, u_g\colon \rho(g)(X) \to X)$ and $(Y \in \operatorname{ob} \mathcal{C}, v_g\colon \rho(g)(Y) \to Y)$ is given by $X \otimes Y \xrightarrow{c_{X,Y}} \rho(g)Y \otimes X \xrightarrow{v_g \otimes 1_X} Y \otimes X$.
 
 ## 4d extended TQFTs
 
