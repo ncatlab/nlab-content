@@ -361,6 +361,9 @@ has all directional derivatives at $(0,0)$ equaling $0$, so that in particular t
 
 +--{: .query}
 [[Mike Shulman]]: Is there a function that is continuous in a neighborhood of $(0,0)$ *and* has all directional derivatives there equaling $0$, but is not differentiable?
+
+Chris Brown: If $f:\mathbb{R} \to \mathbb{R}$ is continuous everywhere and differentiable nowhere, then $\hat{f}:\mathbb{R}^{2} \to \mathbb{R}$ that sends $(r, \theta)$ to 
+$r^{2} f(\theta)$ is continuous everywhere, has all directional derivatives at $(0,0)$ equaling $0$, but is differentiable on no open set, and so is not differentiable at $(0,0)$.
 =--
 
 
