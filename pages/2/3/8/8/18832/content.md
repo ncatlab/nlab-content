@@ -1330,7 +1330,7 @@ If we now think of $O_1 = g S_{1}$ and $O_2 = g S_2$ themselves as [[adiabatic s
 
 This exhibits the [[S-matrix]]-scheme as a "[[causal ordering|causally ordered]] [[exponential]]"
 or "[[Dyson series]]" of the [[interaction]], hence as a refinement to [[relativistic field theory]] of what in
-[[quantum mechanics]] is the "integral version of the [[Schrödinger equation]] in the [[interaction picture]]" (eq:IntegralVersionSchroedingerEquationInInteractionPicture). (See also [Scharf 95, second half of 0.3](S-matrix#Scharf95)).
+[[quantum mechanics]] is the "integral version of the [[Schrödinger equation]] in the [[interaction picture]]" (see [this equation](S-matrix#IntegralVersionSchroedingerEquationInInteractionPicture) at _[[S-matrix]]_; see also [Scharf 95, second half of 0.3](S-matrix#Scharf95)).
 
 While [[causal additivity]] is in fact stronger than [[causal factorization]], we find below that the
 evident analogue of [[causal factorization]] imposed directly on the [[time-ordered products]] (def. \ref{TimeOrderedProduct} below)
