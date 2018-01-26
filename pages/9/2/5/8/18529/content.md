@@ -53,6 +53,143 @@ The precise nature of this group depends on which set of _[[renormalization cond
 
 Beware the terminology: Contrary to common practice, the construction of a single $\mathcal{S}$ is more properly called a choice of _normalization_ rather a "re"-normalization (e. g. [Scharf 95, section 4.3](causal+perturbation+theoryscatt#Scharf95)), but the "main theorem" above says that the elements in the [[Stückelberg-Petermann renormalization group]] are precisely that: _re_-normalizations, passing from one choice of normalization to another.
 
+## Details
+
+> under construction
+
+say that a _perturbative transformation of local interactions_ is a map
+
+$$
+  \mathcal{Z}
+  \;\colon\;
+  LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]\langle g,j \rangle
+   \longrightarrow
+  LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]\langle g,j \rangle
+$$
+
+such that there exists a sequence of symmetric [[continuous linear maps]]
+
+$$
+  \left(
+    {\, \atop \,}
+    LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j ] ]\langleg,j  \rangle
+    {\, \atop \,}
+  \right)
+    \overset{Z_k}{\longrightarrow}
+   LocObs(E_{\text{BV-BRST}})[ [ \habr, g, j] ]\langle g, j\rangle 
+$$
+
+with
+
+$$
+  \mathcal{Z}(O)
+  =
+  Z\left( \exp_\otimes( O )  \right)
+  =
+  \underset{k \in mathbb{N}}{\sum}
+  \tfrac{1}{k!} Z( \underset{k \ \text{args}}{\underbrace{ O, \cdots, O }} )
+$$
+
+Let $\mathcal{S}$, $\mathcal{S}'$ two S-matrix schemes and consider the condition
+
+$$
+  \mathcal{S}' = \mathcal{S} \circ \mathcal{Z}
+  \,.
+$$
+
+First to see that such $\mathcal{Z}$ exists: By expanding out the defining equation we get
+
+$$
+  \begin{aligned}
+    \mathcal{S}'(O)
+    -
+    \mathcal{S}(\mathcal{Z}(O))
+    & =
+    \underset{k}{\sum}
+    \left(
+      \frac{1}{k!}
+      \frac{1}{(i \hbar)^k}
+      T'_k( O^{\otimes_k} )
+      -
+      \underset{
+        1 \lt n \leq k
+      }{\sum}
+      \underset{
+        { \{1, \cdots, k\} = I_1 \sqcup \cdots \sqcup I_n }
+        \atop
+        { I_1, \cdots, I_n \neq \emptyset }
+      }{\sum}
+      \frac{1}{n!} \tfrac{1}{{\vert I_1\vert}! \cdots {\vert I_n\vert}!}
+      \frac{1}{(i \hbar)^n}
+      T_n\left(
+        Z_{{\vert I_1\vert}}(O^{\otimes_{\vert I_1\vert}}),
+        \cdots,
+        Z_{{\vert I_n\vert}}(O^{\otimes_{\vert I_n\vert}}),  
+      \right)
+    \right)
+    \\
+    &
+    \phantom{=} 
+    +
+    \underset{k}{\sum} 
+    \frac{1}{i \hbar} 
+     \frac{1}{k!}
+    Z_k( O^{\otimes_k} )
+  \end{aligned}
+$$
+
+([Dütsch 18, (3.333)](#Duetsch18))
+
+
+We may even require degreewise that
+
+$$
+    \frac{1}{i \hbar} 
+     \frac{1}{k!}
+    Z_k( O_1,\cdots, O_k )
+    =
+    -
+    \left(
+      \frac{1}{k!}
+      \frac{1}{(i \hbar)^k}
+      T'_k( O_1, \cdots, O_k )
+      -
+      \underset{
+        1 \lt n \leq k
+      }{\sum}
+      \underset{
+        { \{1, \cdots, k\} = I_1 \sqcup \cdots \sqcup I_n }
+        \atop
+        { I_1, \cdots, I_n \neq \emptyset }
+      }{\sum}
+      \frac{1}{n!} \tfrac{1}{{\vert I_1\vert}! \cdots {\vert I_n\vert}!}
+      \frac{1}{(i \hbar)^n}
+      T_n\left(
+        Z_{{\vert I_1\vert}}( (O_{i_1})_{i_1 \in I_1} ),
+        \cdots,
+        Z_{{\vert I_n\vert}}( (O_{i_n})_{i_n \in I_n} ),  
+      \right)
+    \right)
+$$
+
+This manifestly has a unique [[induction|inductive]] solution for the $Z_{n+1}$ in terms of the $\{T_k\}_{k \neq n}$ $\{T_k\}_{k \neq n}$ and $\{Z_k\}_{k \leq n}$.
+
+A priori this solution takes values in $PolyObs(E_{\text{BV-BRST}})_{mc}[ [ \hbar, g, j] ]$.
+
+So see that this is in fact a [[local observable]] it is sufficient to see that
+
+$$
+  (x \neq y)
+  \phantom{AAA}
+    \Rightarrow\;
+  \phantom{AAA}
+  \frac{\delta}{\delta \mathbf{\Phi}^a(x)}
+  \frac{\delta}{\delta \mathbf{\Phi}^b(y)}
+  Z_{n+1}(O_1, \cdots O_n)
+  = 0
+$$
+
+But this follows since by induction assumption $T'_n$ and $(T \circ Z)_$ are both time-ordered products up to this order, and hence agree off the diagonal, by [this prop.](S-matrix#RenormalizationIsInductivelyExtensionToDiagonal) 
 
 
 
