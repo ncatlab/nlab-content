@@ -315,7 +315,6 @@ $$
 =--
 
 
-
 ## Properties
 
 ### Relation to scaling transformations
