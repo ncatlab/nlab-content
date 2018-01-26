@@ -1163,8 +1163,21 @@ A vaguely related approach earlier appeared in
 [[!redirects renormalizable]]
 [[!redirects renormalizable theory]]
 
+[[!redirects Epstein-Glaser renormalization]]
+[[!redirects Epstein-Glaser renormalizations]]
+
+[[!redirects EG renormalization]]
+[[!redirects EG renormalizations]]
+
+[[!redirects EG-renormalization]]
+[[!redirects EG-renormalizations]]
+
+
 [[!redirects BPHZ renormalization]]
 
 [[!redirects Hopf-algebraic renormalization]]
 
 [[!redirects Hopf algebra renormalization]] 
+
+
+
