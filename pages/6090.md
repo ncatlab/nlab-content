@@ -3200,6 +3200,7 @@ $\mathcal{S}$ by [[differentiation]] with respect to the parameters $\kappa_j$ a
 $$
   T_k(O_1, \cdots, O_k)
   \;=\;
+  (i \hbar)^k
   \frac{\partial^k}{
     \partial \kappa_1
     \cdots
@@ -3217,6 +3218,7 @@ $$
   \begin{aligned}
     T_k(O_1, \cdots, O_k)
     & =
+    (i \hbar)^k
     \frac{\partial^k}{
       \partial \kappa_1
       \cdots
@@ -3225,6 +3227,7 @@ $$
     \mathcal{S}\left( \kappa_1 O_1 + \cdots + \kappa_k O_k \right)\vert_{\kappa_1, \cdots, \kappa_k = 0}
     \\
     & =
+    (i \hbar)^k
     \frac{\partial^k}{
       \partial \kappa_1
       \cdots
@@ -3240,6 +3243,7 @@ $$
     \vert_{\kappa_1, \cdots, \kappa_k = 0}
     \\
     & = 
+    (i \hbar)^r
     \frac{\partial^r}{
       \partial \kappa_1
       \cdots
@@ -3248,6 +3252,7 @@ $$
     \mathcal{S}(\kappa_1 O_1 + \cdots + \kappa_r O_r)
     \vert_{\kappa_1, \cdots, \kappa_r = 0}
     \;
+    (i \hbar)^{k-r}
     \frac{\partial^{k-r}}{
       \partial \kappa_{r+1}
       \cdots
