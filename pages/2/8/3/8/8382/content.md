@@ -58,6 +58,8 @@ Seen from the point of view of category theory, this would seem rather like: com
 
 * {#Harvard} [[Charles Peirce]], 1992, _Reasoning and the logic of things_, Harvard University Press (lectures from 1898, [book](http://www.hup.harvard.edu/catalog.php?isbn=9780674749672))
 
+* Peter Krause, _Presupposition and abduction in type theory_, In Working Notes of. CLNLP-95: Computational Logic and Natural Language Processing. 
+
 [[!redirects abduction]]
 [[!redirects abductive reasoning]]
 [[!redirects abductive inference]]
