@@ -16,6 +16,6 @@ Several authors extended this to compact Hausdorff spaces and then Lisica and  [
 
 ##References
 
-* Ju. T. Lisica and S. Marde&#353;i&#263, Steenrod--Sitnikov homology for arbitrary spaces, Bull. Amer. Math. Soc. 9 (1983), 207--210.
+* Ju. T. Lisica and S. Marde&#353;i&#263;, Steenrod--Sitnikov homology for arbitrary spaces, Bull. Amer. Math. Soc. 9 (1983), 207--210.
 
 * S. Marde&#353;i&#263;, Strong shape and homology, Springer monographs in mathematics, 2000. xii+489 pp.
