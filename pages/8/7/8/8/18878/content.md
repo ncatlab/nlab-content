@@ -17,7 +17,18 @@
 
 ## Idea
 
-In [[perturbative quantum field theory]] the _Stückelberg-Petermann renormalization group_ ([Stückelberg-Petermann 53](#StiecelbergPetermann53)) is the (original) incarnation of the [[renormalization group]] in the perspective of [[causal perturbation theory]]: It is a group of formal deformations of [[interaction]] [[Lagrangian densities]] which is such that any two choices of [[renormalization|renormalized]] perturbative [[S-matrices]] differ by precomposition with a unique group element. This is the statement of the [[main theorem of perturbative renormalization]].
+In [[perturbative quantum field theory]] the _Stückelberg-Petermann renormalization group_ ([Stückelberg-Petermann 53](#StiecelbergPetermann53)) is the (original) incarnation of the [[renormalization group]] in the perspective of [[causal perturbation theory]]: It is the group (def. \ref{StueckelbergPetermannRenormalizationGroup} below) of perturbative [[interaction vertex redefinitions]] (def. \ref{InteractionVertexRedefinition}) which is such that any two choices of [[S-matrix]] [[renormalization schemes]] $\mathcal{S}, \mathcal{S}'$ are related by a unique [[vertex redefinition]] $\mathcal{Z}$ via [[precomposition]]
+
+$$
+  \mathcal{S}'
+  \;=\;
+  \mathcal{S} \circ \mathcal{Z}
+  \,.
+$$
+
+This statement (prop. \ref{AnyTwoSMatrixRenormalizationSchemesDifferByAUniqueVertexRedefinition} below) is also called the _[[main theorem of perturbative renormalization]]_.
+
+If [[scaling transformations]] on [[spacetime]] happen to transform [[renormalization schemes]] into each other, then this [[main theorem of perturbative renormalization]] (prop. \ref{AnyTwoSMatrixRenormalizationSchemesDifferByAUniqueVertexRedefinition}) directly implies that every [[scaling transformation]] uniquely corresponds to a [[interaction vertex redefinition]], or conversely that the [[vertex redefinitions]] are given as funcitons of scale. As such they are also referred to as _[[running coupling constants]]_ (def. \ref{GellMannLowTransformations} below). Beware that these do not in general form a [[group]] but a [[group cocycle]], the _[[Gell-Mann-Low renormalization cocycle]]_ (prop. \ref{CocyclePropertyOfRunningCouplingConstants} below.
 
 
 ## Definition
@@ -29,7 +40,7 @@ In [[perturbative quantum field theory]] the _Stückelberg-Petermann renormaliza
 
 Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H)$ be a [[gauge fixing|gauge fixed]] [[free field theory|free field]] [[vacuum]] ([this def.](S-matrix#VacuumFree)).
 
-A _[[perturbative interaction vertex redefinition]]_ or just _[[vertex redefinition]]_, for short is and [[endofunction]]
+A _[[perturbative interaction vertex redefinition]]_ (or just _[[vertex redefinition]]_, for short) is an [[endofunction]]
 
 $$
   \mathcal{Z}
@@ -83,7 +94,7 @@ such that for all $g S_{int} + j A \in LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j
 
 =--
 
-The following proposition should be compared to the axiom of _[[causal additivity]]_ of the [[S-matrix]] scheme ([this equation](S-matrix#eq:CausalAdditivity)).
+The following proposition should be compared to the axiom of _[[causal additivity]]_ of the [[S-matrix]] scheme ([this equation](S-matrix#eq:CausalAdditivity)):
 
 +-- {: .num_prop #InteractionVertexRedefinitionAdditivity}
 ###### Proposition
@@ -249,7 +260,6 @@ is again an [[S-matrix]] scheme.
 +-- {: .proof}
 ###### Proof
 
-
 It is clear that [[causal order]] of the spacetime supports implies that they are in particular [[disjoint subset|disjoint]]
 
 $$
@@ -319,8 +329,9 @@ and hence that $\mathcal{S} \circ \mathcal{Z}$ is itself an S-matrix scheme.
 
 =--
 
-+-- {: .num_prop}
++-- {: .num_prop #AnyTwoSMatrixRenormalizationSchemesDifferByAUniqueVertexRedefinition}
 ###### Proposition
+**(any two [[S-matrix]] [[renormalization schemes]] differ by a unique [[vertex redefinition]])**
 
 Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H)$ be a [[gauge fixing|gauge fixed]] [[free field theory|free field]] [[vacuum]] ([this def.](S-matrix#VacuumFree)).
 
@@ -334,6 +345,8 @@ $$
 $$
 
 =--
+
+(See any of the reference at _[[main theorem of perturbative renormalization]]_.)
 
 +-- {: .proof}
 ###### Proof
@@ -394,7 +407,7 @@ $$
 
 where $\{T'_k\}_{k \in \mathbb{N}}$ are the [[time-ordered product]] corresponding to $\mathcal{S}'$ (by [this example](S-matrix#TimeOrderedProductsFromSMatrixScheme)) and $\{T_k\}_{k \in \mathcal{N}}$ those correspondong to $\mathcal{S}$.
 
-This shows that if $\mathcal{Z}$ exists, then it is unique, because its's coefficients $Z_k$ are [[induction|inductively]] in $k$
+This shows that if $\mathcal{Z}$ exists, then it is unique, because its coefficients $Z_k$ are [[induction|inductively]] in $k$
 given by the expressions
 
 $$
@@ -404,6 +417,9 @@ $$
     & =
     T'_k( O_1, \cdots, O_k )
     \;-\;
+    \underset{
+      (T \circ \mathcal{Z}_{\lt k})_k
+    }{
     \underbrace{
     \underset{
       2 \leq n \leq k
@@ -425,22 +441,66 @@ $$
         Z_{{\vert I_n\vert}}( (O_{i_n})_{i_n \in I_n} ),
       \right)
     }
+    }
   \end{aligned}
 $$
 
-Now for any vertex redefinition $\mathcal{S} \circ \mathcal{Z}$ is itself an S-matrix scheme, by
-prop. \ref{CausalFactorizationSatisfiedByCompositionOfSMatrixWithVertexRedefinition}.
+Since the [[time-ordered products]] a priori take values in [[microcausal polynomial observables]],
+it only remains to see that $Z_k$ this defined indeed happens to be a [[local observables]], hence that its spacetime support is on the [[diagonal]].
 
-(...)
+But observe that, as indicated, the term over the brace may be understood as the coefficient at order $k$
+of the [[exponential series]] expansion of the [[composition|composite]] $\mathcal{S} \circ \mathcal{Z}_{\lt k}$, where
+
+$$
+  \mathcal{Z}_{\lt k}
+  \;\coloneqq\;
+  \underset{
+    n \in \{1, \cdots, k-1\}
+  }{\sum}
+  \frac{1}{n!} Z_n
+$$
+
+is the truncation of the [[vertex redefinition]] to degree $\lt k$. This truncation is clearly itself still
+a vertex redefinition (according to def. \ref{InteractionVertexRedefinition}) so that the composite $\mathcal{S} \circ \mathcal{Z}_{\lt k}$
+is still an [[S-matrix]] scheme (by prop. \ref{CausalFactorizationSatisfiedByCompositionOfSMatrixWithVertexRedefinition})
+so that the $(T \circ \mathcal{Z}_{\lt k})_k$ are [[time-ordered products]] (by [this example](S-matrix#TimeOrderedProductsFromSMatrixScheme)).
+
+This means that as we solve $\mathcal{S}' = \mathcal{S} \circ \mathcal{Z}$ inductively in degree $k$, then for the
+induction step in degree $k$ the time-ordered products $T'_{\lt k}$ and $(T \circ \mathcal{Z})_{\lt k}$ agree
+which implies by by [this prop.](S-matrix#RenormalizationIsInductivelyExtensionToDiagonal) that
+$T'_{k}$ and $(T \circ \mathcal{Z}_{\lt k})_{k}$ agree away from the diagonal. Hence their difference $Z_k$
+is supported on the diagonal, and hence is indeed local.
+
+=--
+
++-- {: .num_defn #StueckelbergPetermannRenormalizationGroup}
+###### Definition
+**([[Stückelberg-Petermann renormalization group]] of [[vertex redefinitions]])**
+
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H)$ be a [[gauge fixing|gauge fixed]] [[free field theory|free field]] [[vacuum]] ([this def.](S-matrix#VacuumFree)).
+
+Then prop. \ref{CausalFactorizationSatisfiedByCompositionOfSMatrixWithVertexRedefinition} and prop \ref{AnyTwoSMatrixRenormalizationSchemesDifferByAUniqueVertexRedefinition} together says that ("[[main theorem of perturbative renormalization]]"):
+
+1. the [[vertex redefinitions]] $\mathcal{Z}$ (def. \ref{InteractionVertexRedefinition}) form a [[group]] under [[composition]];
+
+1. the set of [[S-matrix]] [[renormalization schemes]] ([this def.](S-matrix#LagrangianFieldTheoryPerturbativeScattering), [this remark](S-matrix#calSFunctionIsRenormalizationScheme)) is a [[torsor]] over this group, in that any two are related by a unique vertex redefinition.
+
+This group is called the (large) _[[Stückelberg-Petermann renormalization group]]_.
+
+Typically one imposes a set of [[renormalization conditions]] ([this def.](S-matrix#RenormalizationConditions))
+and then the corresponding [[subgroup]] of [[vertex redefinitions]] preserving these.
 
 =--
 
 ## Properties
 
-### Relation to scaling transformations
+### Scaling transformations and "running coupling constants"
 
 A priori the Stückelberg-Petermann renormalization group is not about [[scaling transformations]]. But if [[scaling transformations]] happen to produce new S-matrices/renormalization schemes from given ones, then the [[main theorem of perturbative renormalization]] induces for each such scaling transformation a re-definition of interaction Lagrangian densities, this is the [[Gell-Mann-Low renormalization cocycle]] ([Gell-Mann & Low 54](#GellMannLow54), [Brunetti-Dütsch-Fredenhagen 09](#BrunettiDuetschFredenhagen09)) for review see ([Dütsch 18, section 3.5.3](#Duetsch18)).
-In more detail:
+
++-- {: .num_defn #GellMannLowTransformations}
+###### Definition
+**([[running coupling constants]] under [[scale transformations]])**
 
 Let
 
@@ -452,48 +512,7 @@ $$
 
 be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] (according to [this def.](S-matrix#VacuumFree)) around which we consider [[interacting field theory|interacting]] [[perturbative QFT]].
 
-Then a [[perturbative S-matrix]] scheme/[[renormalization scheme|("re"-)normalization scheme]] around this vacuum ([this def.](S-matrix#LagrangianFieldTheoryPerturbativeScattering)) is a function
-
-$$
-  \array{
-    LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j ] ]\langle g, j \rangle
-      & \overset{\mathcal{S}_{vac}}{\longrightarrow} &
-    PolyObs(E_{\text{BV-BRST}})_{mc}( ( \hbar ) )[ [ g, j ] ]
-    \\
-    g S_{int} + j A
-     &\mapsto&
-    \mathcal{S}_{vac}(g S_{int} + j A)
-  }
-$$
-
-from [[local observables]], regared as [[adiabatic switching|adiatically switched]] [[interaction]] [[action functionals]]  to [[Wick algebra]]-elements $\mathcal{S}( g S_{int} + j A)$, encoding [[scattering amplitudes]] in the given vacuum $\mathbf{L}'$ for the given interaction $g S_{int} + j A$, with formal parameters adjoined as indicated.
-
-The _[[Stückelberg-Petermann renormalization group]]_ is a group of transformations
-
-$$
-  \array{
-    LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]\langle g, j \rangle
-      &\overset{Z}{\longrightarrow}&
-    LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j ] ]\langle g, j \rangle
-    \\
-    g S_{int} + J A
-      &\mapsto&
-    \mathcal{Z}(g S_{int} + j A)
-  }
-$$
-
-such that for $\mathcal{S}$ and $\mathcal{S}'$ two [[renormalization schemes|normalization schemes]]/[[S-matrix]] schemes, there is a unique $\mathcal{Z}$ relating them by [[precomposition]], in that
-
-$$
-  \label{SMatricesRelatedBySPRenormalizationGroupElement}
-  \mathcal{S}(g S_{int} + j A)
-    \;=\;
-  \mathcal{S}'\left( \mathcal{Z}(g S_{int} + j A) \right)
-$$
-
-for all $g S_{int} + j A$. This is the _[[main theorem of perturbative renormalization]]_. Hence this says that any two ways of choosing [[interactions]] at coincident interaction points are related by a re-definition of the original [[interaction]] $g S_{int} + j A$.
-
-Now it may happen that
+Assume that in fact
 
 1. the [[free field]] [[vacuum]] $vac = vac(m)$ depends on a [[mass]] parameter, and with it the choice $\mathcal{S}_{vac(m)}$ of [[renormalization scheme|normalization scheme]],
 
@@ -505,7 +524,8 @@ Now it may happen that
 
    is a perturbative S-matrix around $L_{kin}(m)$.
 
-In this case the above statement of the [[main theorem of perturbative renormalization]] implies with (eq:SMatricesRelatedBySPRenormalizationGroupElement) that there exists a unique transformation $\mathcal{Z}^m_\rho$ of the space of [[local observable|local]] [[interaction]] [[action functionals]] such that
+In this case the [[main theorem of perturbative renormalization]] (prop. \ref{AnyTwoSMatrixRenormalizationSchemesDifferByAUniqueVertexRedefinition}) says that there exists for each scale $\rho$ a unique 
+[[interaction vertex redefinition]] $\mathcal{Z}^m_\rho$ (def. \ref{InteractionVertexRedefinition}) such that
 
 $$
   \begin{aligned}
@@ -521,9 +541,21 @@ $$
   \end{aligned}
 $$
 
-for all $g S_{int} + j A$.
+for all [[interaction]] [[action functionals]] $g S_{int} + j A$.
 
-These $\mathcal{Z}^m_\rho$ are the _[[Gell-Mann-Low cocycle]]_ elements. They do not actually form a [[group]], unless $m = 0$, but satisfy the relation
+These $\mathcal{Z}^m_\rho$ are the _[[Gell-Mann-Low renormalization cocycle]]_ elements. 
+
+The [[interaction vertex redefinitions]] $\mathcal{Z}^m_\rho$ as a function of the [[rescaling]] 
+is known as the _[[running coupling constants]]_.
+
+=--
+
++-- {: .num_prop #CocyclePropertyOfRunningCouplingConstants}
+###### Proposition
+**(cocycle property of [[running coupling constants]])**
+
+In the situation of def. \ref{GellMannLowTransformations}, the [[Gell-Mann-Low renormalization cocycles]] ([[running coupling constants]])
+$\mathcal{Z}^m_\rho$ satisfy the relation
 
 $$
   \mathcal{Z}^m_{\rho_1 \rho_2}
@@ -538,6 +570,10 @@ $$
     \sigma_{\rho_2}
   \right)
 $$
+
+Hence only for vaishing [[mass]] do these "renormalization cocycles" themselves form an actual [[renormalization group]].
+
+=--
 
 ([Brunetti-Dütsch-Fredenhagen 09 (69)](#BrunettiDuetschFredenhagen09), [Dütsch 18 (3.325)](#Duetsch18))
 
@@ -614,11 +650,9 @@ To conclude, it is now sufficient to see that the perturbative S-matrix $S_{vac(
 =--
 
 
-## Related cocepts
-
-* [[main theorem of perturbative renormalization]]
-
 ## References
+
+(See also the references at _[[main theorem of perturbative renormalization]]_.)
 
 The original article on the Stückelberg-Petermann renormalization group is
 
@@ -633,6 +667,7 @@ The relation of the Stückelberg-Petermann renormalization group to [[scale tran
 Review includes
 
 * {#Duetsch18} [[Michael Dütsch]], section 3.5.1 of _[[From classical field theory to perturbative quantum field theory]]_, 2018
+
 
 
 See also
