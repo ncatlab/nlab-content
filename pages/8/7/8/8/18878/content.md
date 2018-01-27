@@ -33,6 +33,9 @@ If [[scaling transformations]] on [[spacetime]] happen to transform [[renormaliz
 
 ## Definition
 
+The elements of the Stückelberg-Petermann renormalization group are _perturbative [[interaction vertex redefinitions]]_ (def. \ref{InteractionVertexRedefinition} below). These [[action|act]] on [[S-matrix]] [[renormalization schemes|("re"-)normalization schemes]] by [[precomposition]] (def. \ref{CausalFactorizationSatisfiedByCompositionOfSMatrixWithVertexRedefinition}) and this action is [[free action|free]] and [[transitive action|transitive]] (prop. \ref{AnyTwoSMatrixRenormalizationSchemesDifferByAUniqueVertexRedefinition} below). In this way these [[vertex redefinitions]] translate between different choices of [[renormalization|("re"-)normalization]], and as such they form the _Stückelerg-Petermann renormalization group_ (def. \ref{StueckelbergPetermannRenormalizationGroup}) below.
+
+$\,$
 
 +-- {: .num_defn #InteractionVertexRedefinition}
 ###### Definition
@@ -102,32 +105,60 @@ The following proposition should be compared to the axiom of _[[causal additivit
 
 Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H)$ be a [[gauge fixing|gauge fixed]] [[free field theory|free field]] [[vacuum]] ([this def.](S-matrix#VacuumFree)) and let $\mathcal{Z}$ be a [[vertex redefinition]] (def. \ref{InteractionVertexRedefinition}).
 
-Then for all $O_0, O_1, O_2 \in LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j ] ]\langle g, j\rangle$ we have
+Then for all [[local observables]] $O_0, O_1, O_2 \in LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j ] ]\langle g, j\rangle$ with spacetime support denoted $supp(O_i) \subset \Sigma$ ([this def.](A+first+idea+of+quantum+field+theory#SpacetimeSupport)) we have
 
-$$
-  \begin{aligned}
-    &
-    \left(
-      supp(O_1)
-      \cap
-      supp(O_2)
-      =
-      \emptyset
-    \right)
-    \\
-    &
-      \Rightarrow
-    \phantom{AA}
-    \mathcal{Z}( O_0 + O_1 + O_2)
-    =
-    \mathcal{Z}( O_0 + O_1 ) - \mathcal{Z}(O_0) + \mathcal{Z}(O_0 + O_2)
-  \end{aligned}
-  \,.
-$$
+1. (local additivity)
+
+   $$
+     \begin{aligned}
+       &
+       \left(
+         supp(O_1)
+         \cap
+         supp(O_2)
+         = 
+         \emptyset
+       \right)
+       \\
+       &
+         \Rightarrow
+       \phantom{AA}
+       \mathcal{Z}( O_0 + O_1 + O_2)
+       =
+       \mathcal{Z}( O_0 + O_1 ) - \mathcal{Z}(O_0) + \mathcal{Z}(O_0 + O_2)
+     \end{aligned}
+     \,.
+   $$
+
+1. (preservation of spacetime support)
+
+   $$
+     supp
+     \left(
+       {\, \atop \,}
+         \mathcal{Z}(O_0 + O_1)
+         -
+         \mathcal{Z}(O_0)
+       {\, \atop \,}
+     \right)
+     \;\subset\;
+     supp(O_1)
+   $$
+
+   hence in particular
+
+   $$
+     supp
+     \left(
+       {\, \atop \,}
+       \mathcal{Z}(O_1)
+       {\, \atop \,}
+     \right) = supp(O_1)
+   $$
 
 =--
 
-([Dütsch 18, exercise 3.98 (a)](#Duetsch18))
+([Dütsch 18, exercise 3.98](#Duetsch18))
 
 +-- {: .proof}
 ###### Proof
@@ -465,11 +496,8 @@ a vertex redefinition (according to def. \ref{InteractionVertexRedefinition}) so
 is still an [[S-matrix]] scheme (by prop. \ref{CausalFactorizationSatisfiedByCompositionOfSMatrixWithVertexRedefinition})
 so that the $(T \circ \mathcal{Z}_{\lt k})_k$ are [[time-ordered products]] (by [this example](S-matrix#TimeOrderedProductsFromSMatrixScheme)).
 
-This means that as we solve $\mathcal{S}' = \mathcal{S} \circ \mathcal{Z}$ inductively in degree $k$, then for the
-induction step in degree $k$ the time-ordered products $T'_{\lt k}$ and $(T \circ \mathcal{Z})_{\lt k}$ agree
-which implies by by [this prop.](S-matrix#RenormalizationIsInductivelyExtensionToDiagonal) that
-$T'_{k}$ and $(T \circ \mathcal{Z}_{\lt k})_{k}$ agree away from the diagonal. Hence their difference $Z_k$
-is supported on the diagonal, and hence is indeed local.
+So as we solve $\mathcal{S}' = \mathcal{S} \circ \mathcal{Z}$ inductively in degree $k$, then for the induction step in degree $k$ the expressions $T'_{\lt k}$ and $(T \circ \mathcal{Z})_{\lt k}$ agree and are both time-ordered products.
+By [this prop.](S-matrix#RenormalizationIsInductivelyExtensionToDiagonal) this implies that  $T'_{k}$ and $(T \circ \mathcal{Z}_{\lt k})_{k}$ agree away from the diagonal. This means that their difference $Z_k$ is supported on the diagonal, and hence is indeed local.
 
 =--
 
