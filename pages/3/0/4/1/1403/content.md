@@ -85,10 +85,10 @@ Discussion is in
 
 Other formalizations can be found in
 
-* [[Michael Batanin]], _The Eckman-Hilton argument and higher operads_, [arxiv](https://arxiv.org/abs/math/0207281)
+* [[Michael Batanin]], _The Eckman-Hilton argument and higher operads_, [arxiv:0207281](https://arxiv.org/abs/math/0207281)
  {#Batanin}
 
-* Ichiro Hasuo, Bart Jacobs, and Ana Sokolova.  _The Microcosm Principle and Concurrency in Coalgebra_. [paper](http://cs.uni-salzburg.at/~anas/papers/HasuoJS.pdf), [slides](http://cs.uni-salzburg.at/~anas/papers/MicrocosmPresentation.pdf), [more slides](http://cs.uni-salzburg.at/~anas/papers/Ohrid2008ana.pdf)
+* Ichiro Hasuo, [[Bart Jacobs]], and Ana Sokolova. (2008)  _The Microcosm Principle and Concurrency in Coalgebra_.  In: Amadio R. (eds) _Foundations of Software Science and Computational Structures_. FoSSaCS 2008. Lecture Notes in Computer Science, vol 4962. Springer, Berlin, Heidelberg. [doi:10.1007/978-3-540-78499-9_18](https://doi.org/10.1007/978-3-540-78499-9_18), [paper](http://cs.uni-salzburg.at/~anas/papers/HasuoJS.pdf), [slides](http://cs.uni-salzburg.at/~anas/papers/MicrocosmPresentation.pdf), [more slides](http://cs.uni-salzburg.at/~anas/papers/Ohrid2008ana.pdf)
  {#HJS}
 
 * [[Jacob Lurie]], _[[Higher Algebra]]_
