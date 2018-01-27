@@ -167,7 +167,33 @@ See [[pullback]] for more details.
 
 ## Properties
 
-### General
+### In any category
+
++-- {: .num_prop #PushoutsAsCoequalizers}
+###### Proposition
+**(pushouts as coequalizers)
+
+If [[coproduct]]s exist in some category, then the pushout
+
+$$
+  \array{
+     a &\stackrel{f}{\to} & b
+     \\
+     ^{\mathrlap{g}}\downarrow && \downarrow
+     \\
+     c & {\to}& b +_a c
+  }
+$$
+
+is equivalently the [[coequalizer]]
+
+$$
+  a \stackrel{\overset{i_1 f}{\longrightarrow}}{\underset{i_2 g}{\longrightarrow}} b + c \to b +_a c
+$$
+
+of the two morphisms induced by $f$ and $g$ into the [[coproduct]] of $b$ with $c$.
+
+=--
 
 +-- {: .num_prop #PushoutPreservesEpimorphisms}
 ###### Proposition
@@ -193,13 +219,12 @@ is a pushout square in some category then:
 
 1. if $g$ is an [[isomorphism]] then $f_\ast g$ is an isomorphism.
 
-On the other hand that $f_\ast g$ is an epimorphism does not imply that $g$ is an epimorphism.
-
 =--
 
 
 +-- {: .num_prop}
 ###### Proposition
+**([[pasting law for pushouts]])**
 
 Consider a [[commuting diagram]] of the following shape in any category:
 
@@ -217,6 +242,26 @@ $$
 If the left square is a [[pushout]], then the total rectangle is a pushout if and only if the right square is a pushout.
 
 =--
+
++-- {: .proof}
+###### Proof
+See the proof of the dual property for [[pullbacks]].
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+The converse implication does not hold: it may happen that the outer and the right square are pushouts, but not the left square. 
+
+=--
+
++-- {: .proof}
+###### Proof
+
+See the proof of the dual proposition for [[pullbacks]].
+
+=--
+
 
 ### In a quasitopos
 
