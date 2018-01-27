@@ -279,7 +279,7 @@ A gentle introduction with examples is the booklet
 
 * K. Yosida, _Operational calculus. A theory of hyperfunctions_, Applied Mathematical Sciences, 55. Springer-Verlag, New York, 1984. x+170 pp.
 
-* [[Mikio Sato]], _Theory of hyperfunctions I_, [pdf scan](http://repository.dl.itc.u-tokyo.ac.jp/dspace/bitstream/2261/6027/1/jfs080104.pdf)
+* [[Mikio Sato]], _Theory of hyperfunctions I_, [pdf scan](https://repository.dl.itc.u-tokyo.ac.jp/?action=repository_uri&item_id=39927&file_id=19&file_no=1)
 
 * M. [[Kashiwara]],   T. Kawai,   T. Kimura,  _Foundation of algebraic analysis_, Princeton Univ. Press  (1986)  ((translated from the Japanese))
 
