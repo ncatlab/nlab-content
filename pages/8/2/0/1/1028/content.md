@@ -127,7 +127,7 @@ One checks that the vertical morphism $eq(f,g) \to S$ equalizes $f$ and $g$ and 
 
 +-- {: .num_prop}
 ###### Proposition
-If a category has products and equalizers, then it has [[limits]]; see there.
+If a category has products and equalizers, then it has [[limits]].
 =--
 
 
