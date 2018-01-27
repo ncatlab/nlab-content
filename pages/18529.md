@@ -57,38 +57,6 @@ Beware the terminology: Contrary to common practice, the construction of a singl
 
 > under construction
 
-say that a _perturbative transformation of local interactions_ is a map
-
-$$
-  \mathcal{Z}
-  \;\colon\;
-  LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]\langle g,j \rangle
-   \longrightarrow
-  LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]\langle g,j \rangle
-$$
-
-such that there exists a sequence of symmetric [[continuous linear maps]]
-
-$$
-  \left(
-    {\, \atop \,}
-    LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j ] ]\langleg,j  \rangle
-    {\, \atop \,}
-  \right)
-    \overset{Z_k}{\longrightarrow}
-   LocObs(E_{\text{BV-BRST}})[ [ \habr, g, j] ]\langle g, j\rangle 
-$$
-
-with
-
-$$
-  \mathcal{Z}(O)
-  =
-  Z\left( \exp_\otimes( O )  \right)
-  =
-  \underset{k \in mathbb{N}}{\sum}
-  \tfrac{1}{k!} Z( \underset{k \ \text{args}}{\underbrace{ O, \cdots, O }} )
-$$
 
 Let $\mathcal{S}$, $\mathcal{S}'$ two S-matrix schemes and consider the condition
 
@@ -144,18 +112,18 @@ $$
 We may even require degreewise that
 
 $$
-    \frac{1}{i \hbar} 
-     \frac{1}{k!}
-    Z_k( O_1,\cdots, O_k )
-    =
+  \frac{1}{i \hbar} 
+  \frac{1}{k!}
+  Z_k( O_1,\cdots, O_k )
+  =
+  -
+  \left(
+    \frac{1}{k!}
+    \frac{1}{(i \hbar)^k}
+    T'_k( O_1, \cdots, O_k )
     -
-    \left(
-      \frac{1}{k!}
-      \frac{1}{(i \hbar)^k}
-      T'_k( O_1, \cdots, O_k )
-      -
-      \underset{
-        1 \lt n \leq k
+    \underset{
+      1 \lt n \leq k
       }{\sum}
       \underset{
         { \{1, \cdots, k\} = I_1 \sqcup \cdots \sqcup I_n }
@@ -168,29 +136,15 @@ $$
         Z_{{\vert I_1\vert}}( (O_{i_1})_{i_1 \in I_1} ),
         \cdots,
         Z_{{\vert I_n\vert}}( (O_{i_n})_{i_n \in I_n} ),  
-      \right)
     \right)
+  \right)
 $$
 
 This manifestly has a unique [[induction|inductive]] solution for the $Z_{n+1}$ in terms of the $\{T_k\}_{k \neq n}$ $\{T_k\}_{k \neq n}$ and $\{Z_k\}_{k \leq n}$.
 
 A priori this solution takes values in $PolyObs(E_{\text{BV-BRST}})_{mc}[ [ \hbar, g, j] ]$.
 
-So see that this is in fact a [[local observable]] it is sufficient to see that
-
-$$
-  (x \neq y)
-  \phantom{AAA}
-    \Rightarrow\;
-  \phantom{AAA}
-  \frac{\delta}{\delta \mathbf{\Phi}^a(x)}
-  \frac{\delta}{\delta \mathbf{\Phi}^b(y)}
-  Z_{n+1}(O_1, \cdots O_n)
-  = 0
-$$
-
-But this follows since by induction assumption $T'_n$ and $(T \circ Z)_$ are both time-ordered products up to this order, and hence agree off the diagonal, by [this prop.](S-matrix#RenormalizationIsInductivelyExtensionToDiagonal) 
-
+But as in [this prop.](Stückelberg-Petermann+renormalization+group#CausalFactorizationSatisfiedByCompositionOfSMatrixWithVertexRedefinition) the term $(T \circ \mathcal{Z})_k$ satisfies itsel the axioms of a [[time-ordered product]], and by [this prop.](S-matrix#RenormalizationIsInductivelyExtensionToDiagonal) any two time-ordered products agree away from the diagonal, so that the spacetime support of the difference $Z_k \propto T'_k - (T \circ \mathcal{Z})_k$ is on the diagonal. This means that $Z_k$ is local.
 
 
 ## References
