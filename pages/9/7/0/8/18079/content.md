@@ -43,7 +43,7 @@ Finally, since $0$ is a strict initial object, $0\to S$ is monic.  And of course
 
 ### Via logical functors
 
-Finally, we give a proof that applies constructively to arbitrary coproducts.  This proof is due to Moens and/or Jibladze or both (I'm not quite sure) and can be found (in fibered-topos language) in [Streicher, Appendix A](#Streicher).
+Finally, we give a proof that applies constructively to arbitrary coproducts.  This proof is due to Jibladze and can be found (in fibered-topos language) in [Streicher, Appendix A](#Streicher). (Moens himself always just assumed that internal sums are stable and disjoint whereas Jibladze proved that for every fibered topos with internal sums these are actually stable and disjoint.)
 
 Suppose $\mathcal{E}$ a topos with $J$-indexed coproducts for all $J$ belonging to some [[arity class]] $\kappa$.  Then $\Delta : \mathcal{E} \to \mathcal{E}^J$ is a [[logical functor]] with a left adjoint $\coprod_J$, so (by A2.3.8 of [Johnstone](#Johnstone), see also [[logical functor]]) to show that $\coprod_J$ induces equivalences $\mathcal{E}^J/\{A_j\} \to \mathcal{E}/\coprod_j A_j$ (which is one characterization of $\kappa$-extensivity) it suffices for $\coprod_J$ to be faithful.  As with any adjunction, to show the left adjoint to be faithful it suffices to show that the unit $\eta : Id \to \Delta \coprod_J$ is monic, which means in this case that the injections $A_j \to \coprod_j A_j$ are all monic.
 
