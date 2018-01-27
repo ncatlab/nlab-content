@@ -3974,7 +3974,7 @@ on $\mathcal{S}$ are equivalent
 
 1. [[causal factorization]] (remark \ref{DysonCausalFactorization})
 
-and hence either of them is necessary and sufficient for $\mathcal{S}$ to be a perturbative [[S-matrix scheme]]
+and hence either of them is necessary and sufficient for $\mathcal{S}$ to be a perturbative [[S-matrix]] scheme
 according to def. \ref{LagrangianFieldTheoryPerturbativeScattering}.
 
 =--
@@ -3986,7 +3986,7 @@ according to def. \ref{LagrangianFieldTheoryPerturbativeScattering}.
 That causal factorization follows from causal additivity is immediate (remark \ref{DysonCausalFactorization}).
 
 Conversely, causal factorization of $\mathcal{S}$ implies that its expansion coefficients $\{T_k\}_{k \in \mathbb{N}}$
-are [[time-ordered products]] (def. \ref{TimeOrderedProduct}), as in the proof of example \ref{TimeOrderedProductsFromSMatrixScheme},
+are [[time-ordered products]] (def. \ref{TimeOrderedProduct}), via the proof of example \ref{TimeOrderedProductsFromSMatrixScheme},
 and this implies causal additivity by prop. \ref{TimeOrderedProductInducesPerturbativeSMatrix}.
 
 =--
