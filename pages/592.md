@@ -169,7 +169,54 @@ See [[pullback]] for more details.
 
 ### General
 
-* [[pasting law]]
++-- {: .num_prop #PushoutPreservesEpimorphisms}
+###### Proposition
+**(pushouts preserves epimorphisms and isomorphisms)
+
+Pushouts preserve [[epimorphisms]] and [[isomorphisms]]:
+
+If 
+
+$$
+  \array{
+    a &\overset{f}{\longrightarrow}& b
+    \\
+    {}^{\mathllap{g}}\downarrow & & \downarrow^{f_\ast g}
+    \\
+    c &\underset{}{\longrightarrow}& d
+  }
+$$
+
+is a pushout square in some category then:
+
+1. if $g$ is a [[epimorphism]] then $f_\ast g$ is an epimorphism;
+
+1. if $g$ is an [[isomorphism]] then $f_\ast g$ is an isomorphism.
+
+On the other hand that $f_\ast g$ is an epimorphism does not imply that $g$ is an epimorphism.
+
+=--
+
+
++-- {: .num_prop}
+###### Proposition
+
+Consider a [[commuting diagram]] of the following shape in any category:
+
+
+$$
+  \array{
+    x & \longrightarrow & y & \longrightarrow & z
+    \\
+    \downarrow && \downarrow && \downarrow
+    \\
+    u & \longrightarrow & v & \longrightarrow & w
+  }
+$$
+
+If the left square is a [[pushout]], then the total rectangle is a pushout if and only if the right square is a pushout.
+
+=--
 
 ### In a quasitopos
 
