@@ -13,7 +13,7 @@ Most of Sibe Marde&#353;i&#263;'s important works are related to [[shape theory]
 
 * Ju. T. Lisica and S. Mardesic, Steenrod--Sitnikov homology for arbitrary spaces, Bull. Amer. Math. Soc. 9 (1983), 207--210;
 
-* S. Marde&#353;i&#263; nd L. R. Rubin, Cell-like mappings and and non-metrizable compacta of finite cohomological dimension, Trans. Amer. Math. Soc. 311 (1989), 53--79;
+* S. Marde&#353;i&#263; and L. R. Rubin, Cell-like mappings and and non-metrizable compacta of finite cohomological dimension, Trans. Amer. Math. Soc. 311 (1989), 53--79;
 
 * S. Marde&#353;i&#263;, Nonvanishing derived limits in shape theory, Topology 35(1996), 521--532.
 
@@ -58,3 +58,5 @@ category: people
 [[!redirects Sibe Mardešić]]
 [[!redirects Сибе Мардешић]]
 [[!redirects S. Mardešić]]
+[[!redirects Mardešić]]
+[[!redirects Mardesic]]
