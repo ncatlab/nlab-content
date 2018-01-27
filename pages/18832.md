@@ -5,7 +5,7 @@
 
 In this chapter we discuss these topics:
 
-* _[Free field vacua](#FreeFieldVacua)_ 
+* _[Free field vacua](#FreeFieldVacua)_
 
 * _[Perturbative S-matrices](#PerturbativeSMatrixAndTimeOrderedProducts)_
 
@@ -2762,7 +2762,7 @@ such that the following conditions hold for all possible arguments:
 
 1. (symmetry) each $T_k$ is symmetric in its arguments, in that for every [[permutation]]
    $\sigma \in \Sigma(k)$ of $k$ elements
-   
+
    $$
      T_k(O_{\sigma(1)}, O_{\sigma(2)}, \cdots, O_{\sigma(k)})
      \;=\;
@@ -2793,7 +2793,7 @@ such that the following conditions hold for all possible arguments:
      \right)
    $$
 
-   then the time-ordered product of these $k$ arguments factors as 
+   then the time-ordered product of these $k$ arguments factors as
    the [[Wick algebra]]-product of the time-ordered product of the first $r$ and that of the second $k-r$ arguments:
 
    $$
@@ -2811,7 +2811,7 @@ such that the following conditions hold for all possible arguments:
 ###### Example
 **([[S-matrix]] scheme implies [[time-ordered products]])**
 
-Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree} and let 
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree} and let
 
 $$
   \mathcal{S}
@@ -2819,7 +2819,7 @@ $$
   \underset{k \in \mathbb{N}}{\sum}
   \frac{1}{k!}\frac{1}{(i \hbar)^k}
   T_k
-$$ 
+$$
 
 be a corresponding [[S-matrix]] scheme according to def. \ref{LagrangianFieldTheoryPerturbativeScattering}.
 
@@ -2830,9 +2830,9 @@ Then the $\{T_k\}_{k \in \mathbb{N}}$ are [[time-ordered products]] in the sense
 +-- {: .proof}
 ###### Proof
 
-We need to show that the $\{T_k\}_{k \in \mathbb{N}}$ satisfy [[causal factorization]]. 
+We need to show that the $\{T_k\}_{k \in \mathbb{N}}$ satisfy [[causal factorization]].
 
-For 
+For
 
 $$
   O_j\;\in\; LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]\langle g,j\rangle
@@ -2875,6 +2875,7 @@ $$
   \begin{aligned}
     T_k(O_1, \cdots, O_k)
     & =
+    (i \hbar)^k
     \frac{\partial^k}{
       \partial \kappa_1
       \cdots
@@ -2883,6 +2884,7 @@ $$
     \mathcal{S}\left( \kappa_1 O_1 + \cdots + \kappa_k O_k \right)\vert_{\kappa_1, \cdots, \kappa_k = 0}
     \\
     & =
+    (i \hbar)^k
     \frac{\partial^k}{
       \partial \kappa_1
       \cdots
@@ -2897,7 +2899,8 @@ $$
     \right)
     \vert_{\kappa_1, \cdots, \kappa_k = 0}
     \\
-    & = 
+    & =
+    (i \hbar)^r
     \frac{\partial^r}{
       \partial \kappa_1
       \cdots
@@ -2906,6 +2909,7 @@ $$
     \mathcal{S}(\kappa_1 O_1 + \cdots + \kappa_r O_r)
     \vert_{\kappa_1, \cdots, \kappa_r = 0}
     \;
+    (i \hbar)^{k-r}
     \frac{\partial^{k-r}}{
       \partial \kappa_{r+1}
       \cdots
@@ -3619,7 +3623,7 @@ In conclusion:
 Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree} and consider a function
 
 $$
-  \mathcal{S} 
+  \mathcal{S}
   \;\colon\;
   LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]\langle g,j \rangle
     \longrightarrow
@@ -5953,7 +5957,7 @@ $$
   PolyObs(E_{\text{BV-BRST}})_{reg}[ [\hbar] ]
 $$
 
-on [[regular polynomial observables]] (def. \ref{BVDifferentialGlobal}) as well as the global [[antibracket]] $\{-,-\}$ (def. \ref{ComplexBVBRSTGlobal}) are [[conjugation|conjugated]] into the [[time-ordered product]] via the time ordering operator $\mathcal{T} \circ \{-S',-\} \circ \mathcal{T}^{-}$ (def. \ref{AntibracketTimeOrdered}, prop. \ref{GaugeFixedActionFunctionalTimeOrderedAntibracket}), which makes 
+on [[regular polynomial observables]] (def. \ref{BVDifferentialGlobal}) as well as the global [[antibracket]] $\{-,-\}$ (def. \ref{ComplexBVBRSTGlobal}) are [[conjugation|conjugated]] into the [[time-ordered product]] via the time ordering operator $\mathcal{T} \circ \{-S',-\} \circ \mathcal{T}^{-}$ (def. \ref{AntibracketTimeOrdered}, prop. \ref{GaugeFixedActionFunctionalTimeOrderedAntibracket}), which makes
 
 In the same way we may use the [[quantum Møller operators]] to conjugate the BV-differential into the regular part of the [[interacting field algebra of observables]]:
 
@@ -5971,7 +5975,7 @@ $$
 
 be a [[regular polynomial observables]], regarded as an [[adiabatic switching|adiabatically switched]] non-point-[[interaction]] [[action functional]].
 
-Then the _interacting quantum [[BV-differential]]_ on the [[interacting field algebra]] on [[regular polynomial observables]] 
+Then the _interacting quantum [[BV-differential]]_ on the [[interacting field algebra]] on [[regular polynomial observables]]
 (def. \ref{FieldAlgebraObservablesInteracting}) is the [[conjugation]] of the plain global [[BV-differential]] $\{-S',-\}$ (def. \ref{ComplexBVBRSTGlobal}) by the [[quantum Møller operator]] induced by $S_{int}$ (def. \ref{MollerOperatorOnRegularPolynomialObservables}):
 
 $$
