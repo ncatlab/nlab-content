@@ -33,11 +33,11 @@ Note also that there is a growing literature now on the concept of 'explanatory 
 
 For some, abduction also signifies the creative process of coming up with a good explanation. Otherwise, if it is merely a case of assessing a range of existing rival hypotheses as explanations, it may be possible to employ [[Bayesian reasoning]], generally taken to be a form of [[inductive reasoning]].
 
->If you really can find an explanation having sufficient probability to be worth consideration, you escape in great measure from reposing upon retroduction [abduction] and make your inference inductive. (Peirce, [Harvard Lectures, p. 193](#Harvard))
+> If you really can find an explanation having sufficient probability to be worth consideration, you escape in great measure from reposing upon retroduction [abduction] and make your inference inductive. (Peirce, [Harvard Lectures, p. 193](#Harvard))
 
 ## Abduction as lifting
 
-In Peirce's [Harvard lectures, p. 315](#Harvard), he describes the triad deduction, induction, abduction in terms of the logical relations between 3 concepts, $M$, $P$ and $S$.
+In Peirce's [Harvard lectures, p. 315](#Harvard), he describes the triad -- _deduction_, _induction_, _abduction_ -- in terms of the logical relations between three concepts, $M$, $P$ and $S$.
 
 * Deduction strings together, say, $M$ is $P$ and $P$ is $S$ to give $M$ is $S$.
 
@@ -45,7 +45,7 @@ In Peirce's [Harvard lectures, p. 315](#Harvard), he describes the triad deducti
 
 * Abduction looks to explain why $M$ is $S$, having noted that $P$ is $S$, by hypothesising that $M$ is $P$.
 
-Seen from the point of view of category theory, this would seem rather like: composition, [[extension]], [[lifting]]. Induction as a kind of extension seems quite reasonable. Abduction may account for an instance of some concept, $E$, by lifting to a concept, $C$, through a law connecting cause, $C$, to effect, $E$.
+Seen from the point of view of category theory, this would seem rather like: composition, [[extension]], and [[lifting]]. Induction as a kind of extension seems quite reasonable. Abduction may account for an instance of some concept, $E$, by lifting to a concept, $C$, through a law connecting cause, $C$, to effect, $E$.
 
 
 ## References
