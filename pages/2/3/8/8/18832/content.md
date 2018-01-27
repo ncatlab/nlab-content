@@ -5,13 +5,13 @@
 
 In this chapter we discuss these topics:
 
-* _[Free field vacua](#FreeFieldVacua)_
+* _[Free field vacua](#FreeFieldVacua)_ 
 
 * _[Perturbative S-matrices](#PerturbativeSMatrixAndTimeOrderedProducts)_
 
 * _[Conceptual remarks](#RemarksOnCausalPerturbationTheoryAxioms)_
 
-* _[Interacting field observables](#QuantumObservables)_
+* _[Interacting field observables](#LocalNetsOfInteractingFieldObservables)_
 
 * _[Time-ordered products](#TimeOrderedProducts)_
 
@@ -1286,7 +1286,7 @@ The point of the axioms of [[causal perturbation theory]] is to give rigorous ma
 **([[Dyson series]] and [[Schrödinger equation]] in [[interaction picture]])**
 
 The axiom "[[causal additivity]]" (eq:CausalAdditivity) on an [[S-matrix]] scheme (def. \ref{LagrangianFieldTheoryPerturbativeScattering})
-implies immediately this weaker condition:
+implies immediately this seemingly weaker condition (which turns out to be equivalent, this is prop. \ref{CausalFactorizationAlreadyImpliesSMatrix} below):
 
 * ([[causal factorization]])
 
@@ -1829,7 +1829,7 @@ Apart from [[gauge symmetries]] one also wants to require that rigid symmetries 
 $\,$
 
 **Interacting field observables**
- {#QuantumObservables}
+ {#LocalNetsOfInteractingFieldObservables}
 
 We now discuss how the perturbative [[interacting field observables]] which are induced from an [[S-matrix]]
 enjoy good properties expected of any abstractly defined [[perturbative algebraic quantum field theory]].
@@ -3609,6 +3609,49 @@ $$
 Here the sub-sum in brackets vanishes by the inversion formula, prop. \ref{InversionFormulaForTimeOrderedProducts}.
 
 =--
+
+In conclusion:
+
++-- {: .num_prop #CausalFactorizationAlreadyImpliesSMatrix}
+###### Proposition
+**([[S-matrix]] scheme via [[causal factorization]])**
+
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree} and consider a function
+
+$$
+  \mathcal{S} 
+  \;\colon\;
+  LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]\langle g,j \rangle
+    \longrightarrow
+  PolyObs(E_{\text{BV-BRST}})_{mc}((\hbar))[ [ g, j] ]
+$$
+
+from [[local observables]] to [[microcausal polynomial observables]] which satisfies the condition "perturbation"
+from def. \ref{LagrangianFieldTheoryPerturbativeScattering}. Then the following two conditions
+on $\mathcal{S}$ are equivalent
+
+1. [[causal additivity]] (def. \ref{LagrangianFieldTheoryPerturbativeScattering})
+
+1. [[causal factorization]] (remark \ref{DysonCausalFactorization})
+
+and hence either of them is necessary and sufficient for $\mathcal{S}$ to be a perturbative [[S-matrix]] scheme
+according to def. \ref{LagrangianFieldTheoryPerturbativeScattering}.
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+That causal factorization follows from causal additivity is immediate (remark \ref{DysonCausalFactorization}).
+
+Conversely, causal factorization of $\mathcal{S}$ implies that its expansion coefficients $\{T_k\}_{k \in \mathbb{N}}$
+are [[time-ordered products]] (def. \ref{TimeOrderedProduct}), via the proof of example \ref{TimeOrderedProductsFromSMatrixScheme},
+and this implies causal additivity by prop. \ref{TimeOrderedProductInducesPerturbativeSMatrix}.
+
+=--
+
+
 
 $\,$
 
