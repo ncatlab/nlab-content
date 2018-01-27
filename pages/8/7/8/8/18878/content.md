@@ -36,7 +36,7 @@ $$
   \;\colon\;
   LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]\langle g, j\rangle
     \longrightarrow
-  LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]\langle g, j\rangle  
+  LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]\langle g, j\rangle
 $$
 
 on [[local observables]] with formal parameters adjoined ([this def.](S-matrix#FormalParameters)) such that there exists a sequence $\{Z_k\}_{k \in \mathbb{N}}$ of [[continuous linear functionals]], symmetric in their arguments, of the form
@@ -68,13 +68,13 @@ such that for all $g S_{int} + j A \in LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j
        &
        \coloneqq
        \underset{k \in \mathbb{N}}{\sum}
-       \frac{1}{k!} 
+       \frac{1}{k!}
        Z_k(
          \underset{
            k \, \text{args}
-         }{ 
+         }{
            \underbrace{
-             g S_{int} + j A , \cdots, g S_{int} + j A  
+             g S_{int} + j A , \cdots, g S_{int} + j A
            }
          }
        )
@@ -95,21 +95,21 @@ Then for all $O_0, O_1, O_2 \in LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j ] ]\la
 
 $$
   \begin{aligned}
-    & 
+    &
     \left(
       supp(O_1)
-      \cap 
+      \cap
       supp(O_2)
-      = 
-      \emptyset 
+      =
+      \emptyset
     \right)
     \\
-    & 
+    &
       \Rightarrow
     \phantom{AA}
     \mathcal{Z}( O_0 + O_1 + O_2)
     =
-    \mathcal{Z}( O_0 + O_1 ) - \mathcal{Z}(O_0) + \mathcal{Z}(O_0 + O_2) 
+    \mathcal{Z}( O_0 + O_1 ) - \mathcal{Z}(O_0) + \mathcal{Z}(O_0 + O_2)
   \end{aligned}
   \,.
 $$
@@ -129,9 +129,9 @@ $$
   PolyObs(E_{\text{BV-BRST}})
 $$
 
-of [[local observables]] into [[polynomial observables]] we may think of each $Z_k$ as a [[generalized functions]], just as for [[time-ordered products]] in [this remark](S-matrix#NotationForTimeOrderedProductsAsGeneralizedFunctions). 
+of [[local observables]] into [[polynomial observables]] we may think of each $Z_k$ as a [[generalized functions]], just as for [[time-ordered products]] in [this remark](S-matrix#NotationForTimeOrderedProductsAsGeneralizedFunctions).
 
-Hence if 
+Hence if
 
 $$
   O_j = \underset{\Sigma}{\int} j^\infty_\Sigma( \mathbf{L}_j )
@@ -142,7 +142,7 @@ is the [[transgression of variational differential forms|transgression]] of a [[
 $$
   Z_k(
     (O_1 + O_2 + O_3)
-    , 
+    ,
     \cdots
     ,
     (O_1 + O_2 + O_3)
@@ -166,7 +166,7 @@ $$
     & Z_k\left(
       {\, \atop \,}
       (O_1 + O_2 + O_3)
-      , 
+      ,
       \cdots
       ,
       (O_1 + O_2 + O_3)
@@ -210,9 +210,11 @@ This directly implies the claim.
 
 =--
 
-+-- {: .num_cor #CausalFactorizationSatisfiedByCompositionOfSMatrixWithVertexRedefinition}
-###### Corollary
-**([[composition]] of [[S-matrix]] scheme with [[vertex redefinition]] satisfies [[causal factorization]])**
+As a corollary we obtain:
+
++-- {: .num_prop #CausalFactorizationSatisfiedByCompositionOfSMatrixWithVertexRedefinition}
+###### Proposition
+**([[composition]] of [[S-matrix]] scheme with [[vertex redefinition]] is again [[S-matrix]] scheme)**
 
 Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H)$ be a [[gauge fixing|gauge fixed]] [[free field theory|free field]] [[vacuum]] ([this def.](S-matrix#VacuumFree)) and let $\mathcal{Z}$ be a [[vertex redefinition]] (def. \ref{InteractionVertexRedefinition}).
 
@@ -238,22 +240,7 @@ $$
   PolyObs(E_{\text{BV-BRST}})_{mc}((\hbar))[ [ g,j ] ]
 $$
 
-satisfies [[causal factorization]] ([this remark](S-matrix#DysonCausalFactorization)) in that for $O_1, O_2 \in LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, h ] ]\langle \hbar, g, j\rangle\langle g, j\rangle $ two [[local observables]] whose spacetime support ([this def. ](A+first+idea+of+quantum+field+theory+--+Observables#SpacetimeSupport)) is in [[causal order]] 
-
-$$
-  supp(O_1) {\vee\!\!\!\wedge} supp(O_2)
-$$
-
-then
-
-$$
-  \mathcal{S}\circ \mathcal{Z}(O_1 + O_2)
-  \;=\;
-  \mathcal{S}\circ \mathcal{Z}(O_1)
-  \,
-  \mathcal{S}\circ \mathcal{Z}(O_2)
-  \,.
-$$
+is again an [[S-matrix]] scheme.
 
 =--
 
@@ -266,15 +253,30 @@ $$
 It is clear that [[causal order]] of the spacetime supports implies that they are in particular [[disjoint subset|disjoint]]
 
 $$
-  {\, \atop \,}
-  supp(O_1) 
-    \cap
-  supp(O_)
-  \;=\;
-  \emptyst
+  \left(
+    {\, \atop \,}
+    supp(O_1)
+    {\vee\!\!\!\wedge}
+    supp(O_2)
+    {\, \atop \,}
+  \right)
+  \phantom{AA}
+  \Rightarrow
+  \phantom{AA}
+  \left(
+    {\, \atop \,}
+    supp(O_1)
+      \cap
+    supp(O_)
+    \;=\;
+    \emptyset
+    {\, \atop \,}
+  \right)
 $$
 
-Therefore the claim is implied via the local additivity of $\mathcal{Z}$ (prop. \ref{InteractionVertexRedefinitionAdditivity}) by the [[causal additivity]] of the [[S-matrix]]:
+Therefore the local additivity of $\mathcal{Z}$ (prop. \ref{InteractionVertexRedefinitionAdditivity})
+and the [[causal factorization]] of the [[S-matrix]] ([this remark](S-matrix#DysonCausalFactorization))
+imply the causal factorization of the composite:
 
 $$
   \begin{aligned}
@@ -288,13 +290,13 @@ $$
     \mathcal{S}
     \left(
       {\, \atop \,}
-      \mathcal{Z}(O_1) 
-      + 
-      \mathcal{Z}(O_2)  
+      \mathcal{Z}(O_1)
+      +
+      \mathcal{Z}(O_2)
       {\, \atop \,}
     \right)
     \\
-    & = 
+    & =
     \mathcal{S}
     \left(
       {\, \atop \,}
@@ -312,8 +314,126 @@ $$
   \end{aligned}
 $$
 
+But by [this prop.](S-matrix#CausalFactorizationAlreadyImpliesSMatrix) this implies in turn [[causal additivity]]
+and hence that $\mathcal{S} \circ \mathcal{Z}$ is itself an S-matrix scheme.
+
 =--
 
++-- {: .num_prop}
+###### Proposition
+
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H)$ be a [[gauge fixing|gauge fixed]] [[free field theory|free field]] [[vacuum]] ([this def.](S-matrix#VacuumFree)).
+
+Then for $\mathcal{S}, \mathcal{S}'$ any two [[S-matrix]] schemes ([this def.](S-matrix#LagrangianFieldTheoryPerturbativeScattering)) there exists a unique [[vertex redefinition]] $\mathcal{Z}$ (def. \ref{InteractionVertexRedefinition}) relating them by [[composition]], i. e. such  that
+
+$$
+  \mathcal{S}'
+  \;=\;
+  \mathcal{S} \circ \mathcal{Z}
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By applying both sides of the equation to linear combinations of local observables of the form $\kappa_1 O_1 + \cdots + \kappa_k O_k$ and then taking [[derivatives]] with respect to $\kappa$ at $\kappa_j = 0$ (as in [this example](S-matrix#TimeOrderedProductsFromSMatrixScheme)) we get that the equation in question implies
+
+$$
+  (i \hbar)^k
+  \frac{
+    \partial^k
+  }{
+    \partial \kappa_1 \cdots \partial \kappa_k
+  }
+  \mathcal{S}'( \kappa_1 O_1 + \cdots + \kappa_k O_k )
+  \vert_{\kappa_1, \cdots, \kappa_k = 0}
+  \;=\;
+  (i \hbar)^k
+  \frac{
+    \partial^k
+  }{
+    \partial \kappa_1 \cdots \partial \kappa_k
+  }
+  \mathcal{S} \circ \mathcal{Z}( \kappa_1 O_1 + \cdots + \kappa_k O_k )
+  \vert_{\kappa_1, \cdots, \kappa_k = 0}
+$$
+
+which in components means that
+
+$$
+  \begin{aligned}
+    T'_k( O_1, \cdots, O_k )
+    & =
+    \underset{
+      2 \leq n \leq k
+    }{\sum}
+      \frac{1}{n!}
+      (i \hbar)^{k-n}
+      \underset{
+        { { I_1 \sqcup \cdots \sqcup I_n } \atop { =  \{1, \cdots, k\}, } }
+        \atop
+        { I_1, \cdots, I_n \neq \emptyset }
+      }{\sum}
+      \left(
+        k \atop { {\vert I_1 \vert}, \cdots , {\vert I_1 \vert} }
+      \right)
+      T_n
+      \left(
+        Z_{{\vert I_1\vert}}( (O_{i_1})_{i_1 \in I_1} ),
+        \cdots,
+        Z_{{\vert I_n\vert}}( (O_{i_n})_{i_n \in I_n} ),
+      \right)
+  \\
+  & \phantom{=}
+    +
+    Z_k( O_1,\cdots, O_k )
+  \end{aligned}
+$$
+
+where $\{T'_k\}_{k \in \mathbb{N}}$ are the [[time-ordered product]] corresponding to $\mathcal{S}'$ (by [this example](S-matrix#TimeOrderedProductsFromSMatrixScheme)) and $\{T_k\}_{k \in \mathcal{N}}$ those correspondong to $\mathcal{S}$.
+
+This shows that if $\mathcal{Z}$ exists, then it is unique, because its's coefficients $Z_k$ are [[induction|inductively]] in $k$
+given by the expressions
+
+$$
+  \begin{aligned}
+    & Z_k( O_1,\cdots, O_k )
+    \\
+    & =
+    T'_k( O_1, \cdots, O_k )
+    \;-\;
+    \underbrace{
+    \underset{
+      2 \leq n \leq k
+    }{\sum}
+      \frac{1}{n!}
+      (i \hbar)^{k-n}
+      \underset{
+        { { I_1 \sqcup \cdots \sqcup I_n } \atop { =  \{1, \cdots, k\}, } }
+        \atop
+        { I_1, \cdots, I_n \neq \emptyset }
+      }{\sum}
+      \left(
+        k \atop { {\vert I_1 \vert}, \cdots , {\vert I_1 \vert} }
+      \right)
+      T_n
+      \left(
+        Z_{{\vert I_1\vert}}( (O_{i_1})_{i_1 \in I_1} ),
+        \cdots,
+        Z_{{\vert I_n\vert}}( (O_{i_n})_{i_n \in I_n} ),
+      \right)
+    }
+  \end{aligned}
+$$
+
+Now for any vertex redefinition $\mathcal{S} \circ \mathcal{Z}$ is itself an S-matrix scheme, by
+prop. \ref{CausalFactorizationSatisfiedByCompositionOfSMatrixWithVertexRedefinition}.
+
+(...)
+
+=--
 
 ## Properties
 
@@ -322,13 +442,13 @@ $$
 A priori the Stückelberg-Petermann renormalization group is not about [[scaling transformations]]. But if [[scaling transformations]] happen to produce new S-matrices/renormalization schemes from given ones, then the [[main theorem of perturbative renormalization]] induces for each such scaling transformation a re-definition of interaction Lagrangian densities, this is the [[Gell-Mann-Low renormalization cocycle]] ([Gell-Mann & Low 54](#GellMannLow54), [Brunetti-Dütsch-Fredenhagen 09](#BrunettiDuetschFredenhagen09)) for review see ([Dütsch 18, section 3.5.3](#Duetsch18)).
 In more detail:
 
-Let 
+Let
 
 $$
-  vac 
+  vac
     \;\coloneqq\;
   (E_{\text{BV-BRST}}, \mathbf{L}_{kin}, \Delta_H )
-$$ 
+$$
 
 be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] (according to [this def.](S-matrix#VacuumFree)) around which we consider [[interacting field theory|interacting]] [[perturbative QFT]].
 
@@ -353,11 +473,11 @@ The _[[Stückelberg-Petermann renormalization group]]_ is a group of transformat
 $$
   \array{
     LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]\langle g, j \rangle
-      &\overset{Z}{\longrightarrow}& 
+      &\overset{Z}{\longrightarrow}&
     LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j ] ]\langle g, j \rangle
     \\
     g S_{int} + J A
-      &\mapsto& 
+      &\mapsto&
     \mathcal{Z}(g S_{int} + j A)
   }
 $$
@@ -367,15 +487,15 @@ such that for $\mathcal{S}$ and $\mathcal{S}'$ two [[renormalization schemes|nor
 $$
   \label{SMatricesRelatedBySPRenormalizationGroupElement}
   \mathcal{S}(g S_{int} + j A)
-    \;=\; 
+    \;=\;
   \mathcal{S}'\left( \mathcal{Z}(g S_{int} + j A) \right)
 $$
 
 for all $g S_{int} + j A$. This is the _[[main theorem of perturbative renormalization]]_. Hence this says that any two ways of choosing [[interactions]] at coincident interaction points are related by a re-definition of the original [[interaction]] $g S_{int} + j A$.
 
-Now it may happen that 
+Now it may happen that
 
-1. the [[free field]] [[vacuum]] $vac = vac(m)$ depends on a [[mass]] parameter, and with it the choice $\mathcal{S}_{vac(m)}$ of [[renormalization scheme|normalization scheme]], 
+1. the [[free field]] [[vacuum]] $vac = vac(m)$ depends on a [[mass]] parameter, and with it the choice $\mathcal{S}_{vac(m)}$ of [[renormalization scheme|normalization scheme]],
 
 1. under [[scaling transformations]] on [[local observables]] $\sigma_\rho$ ([Dütsch 18, def. 3.19](#Duetsch18))  we have that with $\mathcal{S}_{vac(m)}$ a [[perturbative S-matrix]] scheme perturbing around $vac(m)$ also
 
@@ -383,17 +503,17 @@ Now it may happen that
      \sigma_\rho \circ \left(\mathcal{S}_{vac(m/\rho)}\right) \circ \sigma_\rho^{-1}
    $$
 
-   is a perturbative S-matrix around $L_{kin}(m)$. 
+   is a perturbative S-matrix around $L_{kin}(m)$.
 
 In this case the above statement of the [[main theorem of perturbative renormalization]] implies with (eq:SMatricesRelatedBySPRenormalizationGroupElement) that there exists a unique transformation $\mathcal{Z}^m_\rho$ of the space of [[local observable|local]] [[interaction]] [[action functionals]] such that
 
 $$
   \begin{aligned}
-    & 
-    \sigma_\rho 
-      \circ 
-    \mathcal{S}_{vac(m/\rho)} 
-      \circ 
+    &
+    \sigma_\rho
+      \circ
+    \mathcal{S}_{vac(m/\rho)}
+      \circ
     \sigma_\rho^{-1}( g S_{int} + j A )
     \\
     & =
@@ -401,7 +521,7 @@ $$
   \end{aligned}
 $$
 
-for all $g S_{int} + j A$. 
+for all $g S_{int} + j A$.
 
 These $\mathcal{Z}^m_\rho$ are the _[[Gell-Mann-Low cocycle]]_ elements. They do not actually form a [[group]], unless $m = 0$, but satisfy the relation
 
@@ -411,10 +531,10 @@ $$
   \mathcal{Z}^m_{\rho_1}
     \circ
   \left(
-    \sigma_{\rho_1} 
-      \circ 
-    \mathcal{Z}^{m/\rho_1}_{\rho_2} 
-      \circ 
+    \sigma_{\rho_1}
+      \circ
+    \mathcal{Z}^{m/\rho_1}_{\rho_2}
+      \circ
     \sigma_{\rho_2}
   \right)
 $$
@@ -428,63 +548,63 @@ From the definition we have
 
 $$
   \begin{aligned}
-    \mathcal{S}_{vac(m)} 
-      \circ 
+    \mathcal{S}_{vac(m)}
+      \circ
     \mathcal{Z}^m_{\rho_1 \rho_2}
     & =
-    \sigma_{\rho_1} 
-      \circ 
+    \sigma_{\rho_1}
+      \circ
     \underset{
-      \mathcal{S}_{vac(m/\rho_1)} 
-        \circ 
+      \mathcal{S}_{vac(m/\rho_1)}
+        \circ
       \mathcal{Z}^{m/\rho_1}_{\rho_2}
     }{
     \underbrace{
       \sigma_{\rho_2}
-        \circ 
+        \circ
       \mathcal{S}_{vac(m/\rho_1\rho_2)}
-        \circ 
+        \circ
       \sigma_{\rho_2}^{-1}
     }}
       \circ
     \sigma_{\rho_1}^{-1}
     \\
-    & = 
+    & =
     \underset{
-      = 
-      \mathcal{S}_{vac(m)} 
-        \circ 
-      \mathcal{Z}^m_{\rho_1} 
-        \circ 
+      =
+      \mathcal{S}_{vac(m)}
+        \circ
+      \mathcal{Z}^m_{\rho_1}
+        \circ
       \sigma_{\rho_1}
     }{
     \underbrace{
-      \sigma_{\rho_1} 
-        \circ 
+      \sigma_{\rho_1}
+        \circ
       \mathcal{S}_{vac(m/\rho_1)}
         \circ
       \overset{ = id }{
         \overbrace{
-          \sigma_{\rho_1}^{-1} 
-            \circ 
+          \sigma_{\rho_1}^{-1}
+            \circ
           \sigma_{\rho_1}
         }
     }
     }}
-      \circ 
+      \circ
     \mathcal{Z}^{m/\rho_1}_{\rho_2}
-      \circ 
+      \circ
     \sigma_{\rho_1}^{-1}
     \\
-    & = 
-    \mathcal{S}_{vac(m)} 
-      \circ 
+    & =
+    \mathcal{S}_{vac(m)}
+      \circ
     \mathcal{Z}^m_{\rho_1}
       \circ
-    \sigma_{\rho_1} 
-      \circ 
-    \mathcal{Z}^{m/\rho_1}_{\rho_2} 
-      \circ 
+    \sigma_{\rho_1}
+      \circ
+    \mathcal{Z}^{m/\rho_1}_{\rho_2}
+      \circ
     \sigma_{\rho_1}^{-1}
   \end{aligned}
 $$
@@ -532,5 +652,6 @@ See also
 
 [[!redirects vertex redefinition]]
 [[!redirects vertex redefinitions]]
+
 
 
