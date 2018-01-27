@@ -6,3 +6,5 @@
 * [[Steenrod squares]]
 
 category: people
+
+[[!redirects Steenrod]]
