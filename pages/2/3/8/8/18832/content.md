@@ -2718,7 +2718,7 @@ $$
 $\,$
 
 
-**Time-ordered products**
+**[[time-ordered products]]**
  {#TimeOrderedProducts}
 
 Definition \ref{LagrangianFieldTheoryPerturbativeScattering} suggests to focus on the multilinear operations $T(...)$ which define the perturbative [[S-matrix]] order-by-order in $\hbar$. We impose [[axioms]] on these _[[time-ordered products]]_ directly (def. \ref{TimeOrderedProduct}) and then prove that these axioms imply the axioms for the corresponding [[S-matrix]] (prop. \ref{TimeOrderedProductInducesPerturbativeSMatrix} below).
@@ -2726,7 +2726,7 @@ Definition \ref{LagrangianFieldTheoryPerturbativeScattering} suggests to focus o
 
 +-- {: .num_defn #TimeOrderedProduct}
 ###### Definition
-**([[time-ordered product]])**
+**([[time-ordered products]])**
 
 Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}.
 
@@ -2737,7 +2737,7 @@ $$
     \;\colon\;
   \left(
     {\, \atop \,}
-    LocObs(E_{\text{BV-BRST}})[ [\hbar, g, j] ]
+    LocObs(E_{\text{BV-BRST}})[ [\hbar, g, j] ]\langle g,j \rangle
     {\, \atop \,}
   \right)^{\otimes^k_{\mathbb{C}[ [\hbar, g, j] ]}}
     \longrightarrow
@@ -2751,71 +2751,182 @@ such that the following conditions hold for all possible arguments:
 1. (normalization)
 
    $$
-     T_0(A) = 1
+     T_0(O) = 1
    $$
 
 1. (perturbation)
 
    $$
-     T_1(A) =  :A:
+     T_1(O) =  :O:
    $$
 
-1. (symmetry) each $T_k$ is graded-symmetric in its arguments, in that
-
+1. (symmetry) each $T_k$ is symmetric in its arguments, in that for every [[permutation]]
+   $\sigma \in \Sigma(k)$ of $k$ elements
+   
    $$
-     \left(
-       {\, \atop \,}
-       A_{\sigma(1)} \cdot A_{\sigma(2)} \cdots A_{\sigma(k-1)} \cdot  A_{\sigma(k)}
-       = (-)^\epsilon A_1 \cdot A_2 \cdots A_{k-1} \cdot A_k
-       {\, \atop \,}
-     \right)
-     \;\;\Rightarrow\;\;
-     \left(
-       {\, \atop \,}
-       T_k(A_{\sigma(1)}, \ldots, A_{\sigma(k)})
-       = (-)^\epsilon T_k(A_1, \ldots, A_k)
-       {\, \atop \,}
-     \right)
+     T_k(O_{\sigma(1)}, O_{\sigma(2)}, \cdots, O_{\sigma(k)})
+     \;=\;
+     T_k(O_1, O_2, \cdots, O_k)
    $$
 
-   for all [[tuples]] of [[local observables]] $A_1, \ldots, A_k \in LocObs(E_{\text{BV-BRST}})[ [\hbar, g, j] ]$ and any [[permutation]] $\sigma\in \Sigma(k)$
-
-1. ([[causal factorization]]) If
+1. ([[causal factorization]]) If the spacetime support (def. \ref{SpacetimeSupport}) of [[local observables]] satisfies the [[causal ordering]] (def. \ref{CausalOrdering})
 
    $$
      \left(
        {\, \atop \,}
-       supp(A_1)
+       supp(O_1)
          \cup
          \cdots
          \cup
-       supp(A_r)
+       supp(O_r)
        {\, \atop \,}
      \right)
        \;{\vee\!\!\!\wedge}\;
      \left(
        {\, \atop \,}
-       supp(A_{r+1})
+       supp(O_{r+1})
          \cup
          \cdots
          \cup
-       supp(A_k)
+       supp(O_k)
        {\, \atop \,}
      \right)
    $$
 
-   then
+   then the time-ordered product of these $k$ arguments factors as 
+   the [[Wick algebra]]-product of the time-ordered product of the first $r$ and that of the second $k-r$ arguments:
 
    $$
-     T(A_1, \cdots, A_k)
+     T(O_1, \cdots, O_k)
      \; = \;
-     T( A_1,   \cdots , A_r )
+     T( O_1,   \cdots , O_r )
      \,
-     T( A_{r+1},   \cdots , A_k )
+     T( O_{r+1},   \cdots , O_k )
      \,.
    $$
 
 =--
+
++-- {: .num_example #TimeOrderedProductsFromSMatrixScheme}
+###### Example
+**([[S-matrix]] scheme implies [[time-ordered products]])**
+
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree} and let 
+
+$$
+  \mathcal{S}
+  \;=\;
+  \underset{k \in \mathbb{N}}{\sum}
+  \frac{1}{k!}\frac{1}{(i \hbar)^k}
+  T_k
+$$ 
+
+be a corresponding [[S-matrix]] scheme according to def. \ref{LagrangianFieldTheoryPerturbativeScattering}.
+
+Then the $\{T_k\}_{k \in \mathbb{N}}$ are [[time-ordered products]] in the sense of def. \ref{TimeOrderedProduct}.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We need to show that the $\{T_k\}_{k \in \mathbb{N}}$ satisfy [[causal factorization]]. 
+
+For 
+
+$$
+  O_j\;\in\; LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]\langle g,j\rangle
+$$
+
+a local observable, consider the continuous linear function that muliplies this by any [[real number]]
+
+$$
+  \array{
+    \mathbb{R}
+      &\longrightarrow&
+    LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]\langle g,j\rangle
+    \\
+    \kappa_j &\mapsto& \kappa_j O_j
+  }
+  \,.
+$$
+
+Since the $T_k$ by definition are [[continuous linear functionals]], they are in particular
+[[differentiable maps]], and hence so is the S-matrix $\mathcal{S}$. We may extract $T_k$ from
+$\mathcal{S}$ by [[differentiation]] with respect to the parameters $\kappa_j$ at $\kappa_j = 0$:
+
+$$
+  T_k(O_1, \cdots, O_k)
+  \;=\;
+  \frac{\partial^k}{
+    \partial \kappa_1
+    \cdots
+    \partial \kappa_k
+  }
+  \mathcal{S}\left( \kappa_1 O_1 + \cdots + \kappa_k O_k \right)\vert_{\kappa_1, \cdots, \kappa_k = 0}
+$$
+
+for all $k \in \mathbb{N}$.
+
+Now the [[causal additivity]] of the S-matrix $\mathcal{S}$ implies its [[causal factorization]] (remark \ref{DysonCausalFactorization})
+and this implies the causal factorization of the $\{T_k\}$ by the [[product law]] of [[differentiation]]:
+
+$$
+  \begin{aligned}
+    T_k(O_1, \cdots, O_k)
+    & =
+    \frac{\partial^k}{
+      \partial \kappa_1
+      \cdots
+      \partial \kappa_k
+    }
+    \mathcal{S}\left( \kappa_1 O_1 + \cdots + \kappa_k O_k \right)\vert_{\kappa_1, \cdots, \kappa_k = 0}
+    \\
+    & =
+    \frac{\partial^k}{
+      \partial \kappa_1
+      \cdots
+      \partial \kappa_k
+    }
+    \left(
+      {\, \atop \,}
+      \mathcal{S}(\kappa_1 O_1 + \cdots + \kappa_r O_r)
+      \,
+      \mathcal{S}(\kappa_{r+1} O_{r+1} + \cdots + \kappa_k O_k)
+      {\, \atop \,}
+    \right)
+    \vert_{\kappa_1, \cdots, \kappa_k = 0}
+    \\
+    & = 
+    \frac{\partial^r}{
+      \partial \kappa_1
+      \cdots
+      \partial \kappa_r
+    }
+    \mathcal{S}(\kappa_1 O_1 + \cdots + \kappa_r O_r)
+    \vert_{\kappa_1, \cdots, \kappa_r = 0}
+    \;
+    \frac{\partial^{k-r}}{
+      \partial \kappa_{r+1}
+      \cdots
+      \partial \kappa_k
+    }
+    \mathcal{S}(\kappa_{r+1} O_{r+1} + \cdots + \kappa_k O_k)
+    \vert_{\kappa_{r+1}, \cdots, \kappa_k = 0}
+    \\
+    & =
+    T_{r}( O_1, \cdots, O_{r} )
+    \,
+    T_{k-r}( O_{r+1}, \cdots, O_{k} )
+  \end{aligned}
+  \,.
+$$
+
+=--
+
+The converse implication, that [[time-ordered products]] induce an [[S-matrix]] scheme involves
+more work (prop. \ref{TimeOrderedProductInducesPerturbativeSMatrix} below).
+
 
 +-- {: .num_remark #NotationForTimeOrderedProductsAsGeneralizedFunctions}
 ###### Remark
