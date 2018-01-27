@@ -29,7 +29,7 @@ In [[perturbative quantum field theory]] the coupling constant (as well as [[Pla
 
 * [[adiabatic switching]]
 
-* [[renormalization]]
+* [[renormalization]], [[running coupling constants]]
 
 * [[complexified coupling constant]]
 
