@@ -187,7 +187,9 @@ $$
 
 ## Properties
 
-### As an equalizer
++-- {: .num_prop #PullbacksAsEqualizers}
+###### Proposition
+**(pullbacks as equalizers)
 
 If [[product]]s exist in $C$, then the pullback
 
@@ -210,14 +212,42 @@ $$
 
 of the two morphisms induced by $f$ and $g$ out of the [[product]] of $a$ with $b$.
 
-### Pasting of pullbacks {#Pasting}
+=--
+
++-- {: .num_prop #PullbackPreservesMonomorphisms}
+###### Proposition
+**(pullbacks preserve monomorphisms and isomorphisms)
+
+Pullbacks preserve [[monomorphisms]] and [[isomorphisms]]:
+
+If 
+
+$$
+  \array{
+    a &\overset{}{\longrightarrow}& b
+    \\
+    {}^{\mathllap{f^\ast g}}\downarrow & & \downarrow^{g}
+    \\
+    c &\underset{f}{\longrightarrow}& d
+  }
+$$
+
+is a pullback square in some category then:
+
+1. if $g$ is a [[monomorphism]] then $f^\ast g$ is a monomorphism;
+
+1. if $g$ is an [[isomorphism]] then $f^\ast g$ is an isomorphism.
+
+On the other hand that $f^\ast g$ is a monomorphism does not imply that $g$ is a monomorphism.
+
+=--
 
 
 +-- {: .num_prop}
 ###### Proposition
-**([[pasting law]])**
+**([[pasting law for pullbacks]])**
 
-Consider a [[pasting diagram]] of the form
+In any category consider a diagram of the form
 
 $$
   \array{
@@ -227,7 +257,6 @@ $$
      \\
      d &\to& e &\to& f
   }
-  \,.
 $$
 
 There are three commuting squares: the two inner ones and the outer one.
@@ -277,38 +306,6 @@ Then the left square and  the outer rectangle are pullbacks but the right square
 On the other hand, in the [[(∞,1)-category]] of [[∞-groupoids]], there is a sort of "partial converse"; see [[homotopy pullback#HomotopyFiberCharacterization]].
 
 =--
-
-### Monomorphisms and isomorphisms
-
-+-- {: .num_prop #PullbackPreservesMonomorphisms}
-###### Proposition
-**(pullback preserves monomorphisms and isomorphisms)
-
-Pullback preserves [[monomorphisms]] and [[isomorphisms]]:
-
-If 
-
-$$
-  \array{
-    a &\overset{}{\longrightarrow}& b
-    \\
-    {}^{\mathllap{f^\ast g}}\downarrow &(pb)& \downarrow^{g}
-    \\
-    c &\underset{f}{\longrightarrow}& d
-  }
-$$
-
-is a pullback square in some category then:
-
-1. if $g$ is a [[monomorphism]] then $f^\ast g$ is a monomorphism;
-
-1. if $g$ is an [[isomorphism]] then $f^\ast g$ is an isomorphism.
-
-On the other hand that $f^\ast g$ is a monomorphism does not imply that $g$ is a monomorphism.
-
-=--
-
-
 
 ### Saturation
 
