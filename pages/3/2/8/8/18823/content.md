@@ -1189,7 +1189,7 @@ $$
 
 Moreover, by prop. \ref{DiracSpaceOfFieldHistories} we have that the coordinate functions
 on the space of field histories of the Dirac bundle are given by the field observables $\mathbf{\Psi}^\alpha(x)$
-regarded in odd degree. Now a homomorphism as above has to pull back the even coordinate function $x$
+regarded in odd degree. Now a homomorphism as above has to pull back the even coordinate function
 on $\mathbb{C}$ to even coordinate functions on this Cartesian product, hence to joint even powers of 
 $\theta$ and $\mathbf{\Psi}^\alpha(x)$.
 
