@@ -1,6 +1,6 @@
 ### Idea
 
-**Logical schemes** are geometric entities which relate to [[first-order logical theories]] in much the same way that algebraic [[schemes]] relate to [[commutative rings]]. 
+**Logical schemes** are geometric entities which relate to [[first-order logical theories]] in much the same way that algebraic [[schemes]] relate to [[commutative rings]]. In this framework [[conceptual completeness]] can be established. 
 
 ### References
 
