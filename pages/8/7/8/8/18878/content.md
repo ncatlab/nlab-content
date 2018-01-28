@@ -65,34 +65,49 @@ $$
   LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]\langle g, j\rangle
 $$
 
-such that for all $g S_{int} + j A \in LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]\langle g, j\rangle$ we have
+such that for all $g S_{int} + j A \in LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]\langle g, j\rangle$ the following conditions hold:
 
-1. $Z_0(g S_{int + j A}) = 0$
+1. (perturbation) 
 
-1. $Z_1(g S_{int} + j A) = g S_{int} + j A$
+   1. $Z_0(g S_{int + j A}) = 0$
 
-1. and
+   1. $Z_1(g S_{int} + j A) = g S_{int} + j A$
+
+   1. and
+
+      $$
+        \begin{aligned}
+          \mathcal{Z}(g S_{int} + j A)
+          & =
+          Z \exp_\otimes( g S_{int} + j A )
+          \\
+          &
+          \coloneqq
+          \underset{k \in \mathbb{N}}{\sum}
+          \frac{1}{k!}
+          Z_k(
+            \underset{
+              k \, \text{args}
+            }{
+              \underbrace{
+                g S_{int} + j A , \cdots, g S_{int} + j A
+              }
+            }
+          )
+        \end{aligned}
+      $$
+
+1. (field independence) The [[local observable]] $\mathcal{Z}(g S_{int} + j A)$ depends on the [[field histories]] only through its argument $g S_{int} + j A $, hence by the [[chain rule]]:
 
    $$
-     \begin{aligned}
-       \mathcal{Z}(g S_{int} + j A)
-       & =
-       Z \exp_\otimes( g S_{int} + j A )
-       \\
-       &
-       \coloneqq
-       \underset{k \in \mathbb{N}}{\sum}
-       \frac{1}{k!}
-       Z_k(
-         \underset{
-           k \, \text{args}
-         }{
-           \underbrace{
-             g S_{int} + j A , \cdots, g S_{int} + j A
-           }
-         }
-       )
-     \end{aligned}
+     \label{FieldIndependenceVertexRedefinition}
+     \frac{\delta}{\delta \mathbf{\Phi}^a(x)}
+     \mathcal{Z}(g S_{int} + j A)
+     \;=\;
+     \mathcal{Z}'_{g S_{int} + j A}
+     \left(
+         \frac{\delta}{\delta \mathbf{\Phi}^a(x)} (g S_{int} + j A) 
+     \right)
    $$
 
 =--
@@ -101,7 +116,7 @@ The following proposition should be compared to the axiom of _[[causal additivit
 
 +-- {: .num_prop #InteractionVertexRedefinitionAdditivity}
 ###### Proposition
-**(local additvity of [[vertex redefinitions]])**
+**(local additivity of [[vertex redefinitions]])**
 
 Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H)$ be a [[gauge fixing|gauge fixed]] [[free field theory|free field]] [[vacuum]] ([this def.](S-matrix#VacuumFree)) and let $\mathcal{Z}$ be a [[vertex redefinition]] (def. \ref{InteractionVertexRedefinition}).
 
@@ -171,7 +186,7 @@ $$
   PolyObs(E_{\text{BV-BRST}})
 $$
 
-of [[local observables]] into [[polynomial observables]] we may think of each $Z_k$ as a [[generalized functions]], just as for [[time-ordered products]] in [this remark](S-matrix#NotationForTimeOrderedProductsAsGeneralizedFunctions).
+of [[local observables]] into [[polynomial observables]] we may think of each $Z_k$ as a [[generalized function]], as for [[time-ordered products]] in [this remark](S-matrix#NotationForTimeOrderedProductsAsGeneralizedFunctions).
 
 Hence if
 
@@ -198,7 +213,21 @@ $$
   \,.
 $$
 
-But now since $Z_k$ in fact takes values just in the subspace of local observables, the support of these generalized functions in the [[integrand]] here must be on the [[diagonal]], where $x_1 = \cdots = x_k$.
+Now by definition $Z_k(\cdots)$ is in the subspace of [[local observables]], i.e. those [[polynomial observables]] whose [[coefficient]] [[distributions]] are [[support of a distribution|supported]] on the [[diagonal]], which means that 
+
+$$
+  \frac{\delta}{\delta \mathbf{\Phi}^a(x)}
+  \frac{\delta}{\delta \mathbf{\Phi}^b(y)}
+  Z_{k}(\cdots) 
+  = 
+  0
+  \phantom{AA}
+  \text{for}
+  \phantom{AA}
+  x \neq y
+$$
+
+Together with the axiom "field independence" (eq:FieldIndependenceVertexRedefinition) this means that the support of these generalized functions in the [[integrand]] here must be on the [[diagonal]], where $x_1 = \cdots = x_k$.
 
 By the assumption that the spacetime supports of $O_1$ and $O_2$ are disjoint, this means that only the summands with $j_1, \cdots, j_k \in \{0,1\}$ and those with $j_1, \cdots, j_k \in \{0,2\}$ contribute to the above sum. Removing the overcounting of those summands where all $j_1, \cdots, j_k \in \{0\}$ we get
 
@@ -284,6 +313,8 @@ $$
 
 is again an [[S-matrix]] scheme.
 
+Moreover, if $\mathcal{S}$ satisfies the [[renormalization condition]] "field independence" ([this prop.](S-matrix#BasicConditionsRenormalization)), then so does $\mathcal{S} \circ \mathcal{Z}$.
+
 =--
 
 (e.g [Dütsch 18, theorem 3.99 (b)](#Duetsch18))
@@ -358,6 +389,8 @@ $$
 But by [this prop.](S-matrix#CausalFactorizationAlreadyImpliesSMatrix) this implies in turn [[causal additivity]]
 and hence that $\mathcal{S} \circ \mathcal{Z}$ is itself an S-matrix scheme.
 
+Finally that $\mathcal{S} \circ \mathcal{Z}$ satisfies "field indepndence" if $\mathcal{S}$ does is immediate by the [[chain rule]], given that $\mathcal{Z}$ satisfies this condition by definition.
+
 =--
 
 +-- {: .num_prop #AnyTwoSMatrixRenormalizationSchemesDifferByAUniqueVertexRedefinition}
@@ -366,7 +399,7 @@ and hence that $\mathcal{S} \circ \mathcal{Z}$ is itself an S-matrix scheme.
 
 Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H)$ be a [[gauge fixing|gauge fixed]] [[free field theory|free field]] [[vacuum]] ([this def.](S-matrix#VacuumFree)).
 
-Then for $\mathcal{S}, \mathcal{S}'$ any two [[S-matrix]] schemes ([this def.](S-matrix#LagrangianFieldTheoryPerturbativeScattering)) there exists a unique [[vertex redefinition]] $\mathcal{Z}$ (def. \ref{InteractionVertexRedefinition}) relating them by [[composition]], i. e. such  that
+Then for $\mathcal{S}, \mathcal{S}'$ any two [[S-matrix]] schemes ([this def.](S-matrix#LagrangianFieldTheoryPerturbativeScattering)) which both satisfy the [[renormalization condition]] "field independence", the  there exists a unique [[vertex redefinition]] $\mathcal{Z}$ (def. \ref{InteractionVertexRedefinition}) relating them by [[composition]], i. e. such  that
 
 $$
   \mathcal{S}'
@@ -476,11 +509,15 @@ $$
   \end{aligned}
 $$
 
-Since the [[time-ordered products]] a priori take values in [[microcausal polynomial observables]],
-it only remains to see that $Z_k$ this defined indeed happens to be a [[local observables]], hence that its spacetime support is on the [[diagonal]].
+Hence it remains to see that the $Z_k$ defined this way satisfy the conditions in def. \ref{InteractionVertexRedefinition}.
 
-But observe that, as indicated, the term over the brace may be understood as the coefficient at order $k$
-of the [[exponential series]] expansion of the [[composition|composite]] $\mathcal{S} \circ \mathcal{Z}_{\lt k}$, where
+The condition "perturbation" is immediate from the corresponding condition on $\mathcal{S}$ and $\mathcal{S}'$.
+
+Similarly the condition "field independence" follows immediately from the assumoption that $\mathcal{S}$ and $\mathcal{S}'$ satisfy this condition.
+
+It only remains to see that $Z_k$ indeed takes values in [[local observables]]. Give that the [[time-ordered products]] a priori take values in the larrger space of [[microcausal polynomial observables]] this means to show that the spacetime support of $Z_k$ is on the [[diagonal]].
+
+But observe that, as indicated in the above formula, the term over the brace may be understood as the coefficient at order $k$ of the [[exponential series]]-expansion of the [[composition|composite]] $\mathcal{S} \circ \mathcal{Z}_{\lt k}$, where
 
 $$
   \mathcal{Z}_{\lt k}
@@ -511,7 +548,7 @@ Then prop. \ref{CausalFactorizationSatisfiedByCompositionOfSMatrixWithVertexRede
 
 1. the [[vertex redefinitions]] $\mathcal{Z}$ (def. \ref{InteractionVertexRedefinition}) form a [[group]] under [[composition]];
 
-1. the set of [[S-matrix]] [[renormalization schemes]] ([this def.](S-matrix#LagrangianFieldTheoryPerturbativeScattering), [this remark](S-matrix#calSFunctionIsRenormalizationScheme)) is a [[torsor]] over this group, in that any two are related by a unique vertex redefinition.
+1. the set of [[S-matrix]] [[renormalization schemes|("re"-)normalization schemes]] ([this def.](S-matrix#LagrangianFieldTheoryPerturbativeScattering), [this remark](S-matrix#calSFunctionIsRenormalizationScheme)) satisfying at least the [[renormalization condition]] "field indepencen" is a [[torsor]] over this group, in that any two are related by a unique vertex redefinition.
 
 This group is called the (large) _[[Stückelberg-Petermann renormalization group]]_.
 
@@ -676,6 +713,7 @@ $$
 To conclude, it is now sufficient to see that the perturbative S-matrix $S_{vac(m)}$, as a function form [[interaction]] [[Lagrangian densities]] to [[Wick algebra]]-elements, is an [[injective function]]. (...)
 
 =--
+
 
 
 ## References
