@@ -1972,7 +1972,7 @@ and well-defined [[perturbative QFT|perturbative]] [[probability amplitudes]] of
 This is in contrast to the original informal conception of [[perturbative QFT]] due to [[Schwinger-Tomonaga-Feynman-Dyson]],
 which in a first stage produced ill-defined [[divergence|diverging]] expressions for the [[coefficients]] (due to the mathematical error discussed in remark \ref{TheTraditionalErrorThatLeadsToTheNotoriouDivergencies} below), which were then "[[renormalization|re-normalized]]" to finite values, by further informal arguments.
 
-Here in [[causal perturbation theory]] no [[divergences]] in the [[coefficients]] of the [[formal power series]] are considered in the first place, all coefficients are well-defined, hence "finite". In this sense [[causal perturbation theory]] is about "finite" perturbative QFT, where instead of "re-normalization" of ill-defined expressions one just encounters "normalization" (prominently highlighted in [Scharf 95, see title, introduction, and section 4.3](causal+perturbation+theoryscatt#Scharf95)), namely compatible choices of these finite values, parameterized by the [[Stückelberg-Petermann renormalization group]].
+Here in [[causal perturbation theory]] no [[divergences]] in the [[coefficients]] of the [[formal power series]] are considered in the first place, all coefficients are well-defined, hence "finite". In this sense [[causal perturbation theory]] is about "finite" perturbative QFT, where instead of "re-normalization" of ill-defined expressions one just encounters "normalization" (prominently highlighted in [Scharf 95, see title, introduction, and section 4.3](causal+perturbation+theoryscatt#Scharf95)), namely compatible choices of these finite values. The actual "re-normalization" in the sense of "change of normalization" is expressed by the [[Stückelberg-Petermann renormalization group]].
 
 This refers to those [[divergences]] that are known as _[[UV-divergences]]_, namely short-distance effects,
 which are mathematically reflected in the fact that the perturbative [[S-matrix]] scheme (def. \ref{LagrangianFieldTheoryPerturbativeScattering})
@@ -3103,7 +3103,7 @@ such that the following conditions hold for all possible arguments:
 
 1. (symmetry) each $T_k$ is symmetric in its arguments, in that for every [[permutation]]
    $\sigma \in \Sigma(k)$ of $k$ elements
-   
+
    $$
      T_k(O_{\sigma(1)}, O_{\sigma(2)}, \cdots, O_{\sigma(k)})
      \;=\;
@@ -3135,7 +3135,7 @@ such that the following conditions hold for all possible arguments:
      \right)
    $$
 
-   then the time-ordered product of these $k$ arguments factors as 
+   then the time-ordered product of these $k$ arguments factors as
    the [[Wick algebra]]-product of the time-ordered product of the first $r$ and that of the second $k-r$ arguments:
 
    $$
@@ -3153,7 +3153,7 @@ such that the following conditions hold for all possible arguments:
 ###### Example
 **([[S-matrix]] scheme implies [[time-ordered products]])**
 
-Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree} and let 
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree} and let
 
 $$
   \mathcal{S}
@@ -3161,7 +3161,7 @@ $$
   \underset{k \in \mathbb{N}}{\sum}
   \frac{1}{k!}\frac{1}{(i \hbar)^k}
   T_k
-$$ 
+$$
 
 be a corresponding [[S-matrix]] scheme according to def. \ref{LagrangianFieldTheoryPerturbativeScattering}.
 
@@ -3172,9 +3172,9 @@ Then the $\{T_k\}_{k \in \mathbb{N}}$ are [[time-ordered products]] in the sense
 +-- {: .proof}
 ###### Proof
 
-We need to show that the $\{T_k\}_{k \in \mathbb{N}}$ satisfy [[causal factorization]]. 
+We need to show that the $\{T_k\}_{k \in \mathbb{N}}$ satisfy [[causal factorization]].
 
-For 
+For
 
 $$
   O_j\;\in\; LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]\langle g,j\rangle
@@ -3242,7 +3242,7 @@ $$
     \right)
     \vert_{\kappa_1, \cdots, \kappa_k = 0}
     \\
-    & = 
+    & =
     (i \hbar)^r
     \frac{\partial^r}{
       \partial \kappa_1
@@ -3964,7 +3964,7 @@ In conclusion:
 Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree} and consider a function
 
 $$
-  \mathcal{S} 
+  \mathcal{S}
   \;\colon\;
   LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]\langle g,j \rangle
     \longrightarrow
@@ -4694,9 +4694,10 @@ Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field the
 
 Then the following conditions are [[renormalization conditions]] (def. \ref{RenormalizationConditions}):
 
-1. (field independence) The [[functional derivative]] of a [[polynomial observable]] arising as a [[time-ordered product]] takes contributions only from the arguments, not from the product operation itself: In [[generalized function]]-notation:
+1. (field independence) The [[functional derivative]] of a [[polynomial observable]] arising as a [[time-ordered product]] takes contributions only from the arguments, not from the product operation itself; in [[generalized function]]-notation:
 
    $$
+     \label{FieldIndependenceRenormalizationCondition}
      \frac{\delta}{\delta \mathbf{\Phi}^a(x)}
      T(A_1, \cdots, A_n)
      \;=\;
