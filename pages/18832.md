@@ -1751,7 +1751,8 @@ and well-defined [[perturbative QFT|perturbative]] [[probability amplitudes]] of
 This is in contrast to the original informal conception of [[perturbative QFT]] due to [[Schwinger-Tomonaga-Feynman-Dyson]],
 which in a first stage produced ill-defined [[divergence|diverging]] expressions for the [[coefficients]] (due to the mathematical error discussed in remark \ref{TheTraditionalErrorThatLeadsToTheNotoriouDivergencies} below), which were then "[[renormalization|re-normalized]]" to finite values, by further informal arguments.
 
-Here in [[causal perturbation theory]] no [[divergences]] in the [[coefficients]] of the [[formal power series]] are considered in the first place, all coefficients are well-defined, hence "finite". In this sense [[causal perturbation theory]] is about "finite" perturbative QFT, where instead of "re-normalization" of ill-defined expressions one just encounters "normalization" (prominently highlighted in [Scharf 95, see title, introduction, and section 4.3](causal+perturbation+theoryscatt#Scharf95)), namely compatible choices of these finite values, parameterized by the [[Stückelberg-Petermann renormalization group]].
+Here in [[causal perturbation theory]] no [[divergences]] in the [[coefficients]] of the [[formal power series]] are considered in the first place, all coefficients are well-defined, hence "finite". In this sense [[causal perturbation theory]] is about "finite" perturbative QFT, where instead of "re-normalization" of ill-defined expressions one just encounters "normalization" (prominently highlighted in [Scharf 95, see title, introduction, and section 4.3](causal+perturbation+theoryscatt#Scharf95)), namely compatible choices of these finite values. The actual "re-normalization" in the sense of "change of normalization" is expressed by the [[Stückelberg-Petermann renormalization group]].
+
 
 This refers to those [[divergences]] that are known as _[[UV-divergences]]_, namely short-distance effects,
 which are mathematically reflected in the fact that the perturbative [[S-matrix]] scheme (def. \ref{LagrangianFieldTheoryPerturbativeScattering})
@@ -4356,9 +4357,10 @@ Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field the
 
 Then the following conditions are [[renormalization conditions]] (def. \ref{RenormalizationConditions}):
 
-1. (field independence) The [[functional derivative]] of a [[polynomial observable]] arising as a [[time-ordered product]] takes contributions only from the arguments, not from the product operation itself: In [[generalized function]]-notation:
+1. (field independence) The [[functional derivative]] of a [[polynomial observable]] arising as a [[time-ordered product]] takes contributions only from the arguments, not from the product operation itself; in [[generalized function]]-notation:
 
    $$
+     \label{FieldIndependenceRenormalizationCondition}
      \frac{\delta}{\delta \mathbf{\Phi}^a(x)}
      T(A_1, \cdots, A_n)
      \;=\;
