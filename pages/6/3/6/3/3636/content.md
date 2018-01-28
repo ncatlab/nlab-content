@@ -314,6 +314,9 @@ There are variants 'at infinity' of both the Waldhausen boundary and these group
 (Once over lightly here, more details at [[Brown-Grossman homotopy group]].)
 In fact there is another different way of looking at these groups, which has a more geometric feel to it. Historically these groups were not the first successful attempt.  This was due to Ed Brown and uses strings of spheres.  These are examples of [[spherical objects]] and the resulting 'groups' (better thought of as '$\Pi_\mathcal{A}$-[[spherical object and Pi(A)-algebra|algebras]]') have a rich structure.  They are discussed at [[Brown-Grossman homotopy group]]s.  They do link with the above homotopy groups of the Waldhausen boundary, which are called the [[Steenrod homotopy group]]s, (for reasons that will be explained there). 
 
+## To do!
+
+* Add stuff on Steenrod homotopy groups both for here and for strong shape theory entries.
 
 ## References
 
