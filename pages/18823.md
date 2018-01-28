@@ -369,19 +369,19 @@ $$
 **Observables on fermionic fields**
 
 In the case that $E$ has purely [[fermionic]] [[fibers]] (def. \ref{FermionicBosonicFields}), such as for the [[Dirac field]] (example \ref{DiracFieldBundle})
-with
-$E = \Sigma\times S_{odd}$  then the only point in $Obs_{E,\mathbf{L}}$ is the zero-observable,
-instead an observable is now a morphism
+with $E = \Sigma\times S_{odd}$  then the only [[global element|points]] in $Obs_{E}$, namely 
+morphisms $\mathbb{R}^0 \to Obs_E$ are observables depending on an even power of [[field histories]];
+while general observables appear as possibly odd-parameterized families
 
 $$
-  (\theta \mapsto \theta A)
+  (\theta \mapsto \theta \Psi)
     \;\colon\;
   \mathbb{R}^{0\vert 1}
     \longrightarrow
   Obs_{E,\mathbf{L}}
 $$
 
-and its component $A$ is a bosonic observable as above.
+and its component $\Pi$ is a bosonic observable as above. See example \ref{DiracFieldPolynomialObservables} below.
 
 =--
 
@@ -996,8 +996,8 @@ $\beta_{a_1 a_2} \in \mathcal{E}'(\Sigma \times \Sigma, E \boxtimes E)$ as
 $$
   A(\Phi)
     \;=\;
-  \int_{\Sigma \times \Sigma} 
-   \beta_{a_1 a_2}(x_1,x_2) 
+  \int_{\Sigma \times \Sigma}
+   \beta_{a_1 a_2}(x_1,x_2)
    \Phi^{a_1}(x_1) \cdot \Phi^{a_2}(x_2)\, dvol_\Sigma(x_1) dvol_\Sigma(x_2)
   \,.
 $$
@@ -1039,16 +1039,16 @@ $$
     &
     \phantom{=}
      +
-    \int_{\Sigma^2} 
-      \Phi^{a_1}(x_1) \cdot \Phi^{a_2}(x_2) 
+    \int_{\Sigma^2}
+      \Phi^{a_1}(x_1) \cdot \Phi^{a_2}(x_2)
       \alpha^{(2)}_{a_1 a_2}(x_1, x_2) \, dvol_\Sigma(x_1) dvol_\Sigma(x_2)
     \\
     &
     \phantom{=}
      +
-    \int_{\Sigma^3} 
+    \int_{\Sigma^3}
       \Phi^{a_1}(x_1) \cdot \Phi^{a_2}(x_2) \cdot \Phi^{a_3}(x_3)
-      \alpha^{(3)}_{a_1 a_2 a_3}(x_1,x_2,x_3) 
+      \alpha^{(3)}_{a_1 a_2 a_3}(x_1,x_2,x_3)
       \, dvol_\Sigma(x_1) dvol_\Sigma(x_2) dvol_\Sigma(x^3)
     \\
     &
@@ -1072,6 +1072,131 @@ for the subspace of (regular) polynomial off-shell observables.
 
 
 =--
+
++-- {: .num_example #DiracFieldPolynomialObservables}
+###### Example
+**([[polynomial observables]] of the [[Dirac field]])**
+
+Let $E = \Sigma \times S_{odd}$ be the [[field bundle]] of the [[Dirac field]] (example \ref{DiracFieldBundle}).
+
+Then, by prop. \ref{DiracSpaceOfFieldHistories}, 
+an $\mathbb{R}^{0\vert 1}$-parameterized plot of the space of [[off-shell]] [[polynomial observables]] (def. \ref{PolynomialObservables})
+
+$$
+  A_{(-)}
+  \;\colon\;
+  \mathbb{R}^{0 \vert 1}
+  \longrightarrow 
+  PolyObs(\Sigma \times S_{odd})
+$$
+
+is of the form
+
+$$
+  \begin{aligned}
+    A_{(-)}
+    & =
+    a^{(0)}
+    \\
+    & \phantom{=}
+    + 
+    \theta
+    \underset{\Sigma}{\int}
+      a^{(1)}_{\alpha}(x)  
+      \mathbf{\Psi}^\alpha(x)
+    dvol_\Sigma(x)
+    \\
+    &
+    \phantom{=}
+    +
+    \underset{\Sigma^2}{\int}
+      a^{(2)}_{\alpha_1 \alpha_2}(x,y) 
+      \mathbf{\Psi}^{\alpha_1}(x_1) 
+        \cdot
+      \mathbf{\Psi}^{\alpha_2}(x_2)
+    \,
+    dvol_\Sigma(x_1) \, dvol_\Sigma(x_2)
+    \\
+    & \phantom{=}
+    +
+    \theta
+    \underset{\Sigma}{\int}
+      a^{(3)}_{\alpha_1 \alpha_2 \alpha_3}(x_1, x_2, x_3) 
+      \mathbf{\Psi}^{\alpha_1}(x_1)
+       \cdot
+      \mathbf{\Psi}^{\alpha_2}(x_2)
+        \cdot
+      \mathbf{\Psi}^{\alpha_3}(x_3)
+    \, dvol_\Sigma(x_1) \, dvol_\Sigma(x_2) \, dvol_\Sigma(x_3)
+    \\
+    & \phantom{=}
+    + \cdots
+  \end{aligned}
+$$
+
+for any [[distributions of several variables]] $a^{(k)}_{\alpha_1, \cdots , \alpha_k}$. Here
+
+$$
+  \mathbf{\Psi}^\alpha(x)
+  \;\colon\;
+  \Gamma_\Sigma(\Sigma \times S_{even})
+    \longrightarrow
+  \mathbb{C}
+$$
+
+are the point-evaluation [[field observables]] (example \ref{PointEvaluationObservables}) on the [[spinor bundle]],
+and 
+
+$$
+  \theta \in C^\infty(\mathbb{R}^{0\vert 1})_{odd}
+$$ 
+
+is the canonical odd-graded coordinate function
+on the [[superpoint]] $\mathbb{R}^{0 \vert 1}$ (def. \ref{SuperCartesianSpace}). 
+
+Hence all the _odd_ powers of the [[Dirac field|Dirac]]-[[field observables]] are proportional to $\theta$.
+In particular if one considers just a point in the space of polynomial observables
+
+$$
+  A \;\colon\; \mathbb{R}^{0} \longrightarrow PolyObs(E \times S_{odd})
+$$
+
+then all the odd monomials in the [[field observables]] of the [[Dirac field]] disappear.
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+By definition of supergeometric [[mapping spaces]] (def. \ref{MappingSpaceOutOfASuperCartesianSpace}),
+there is a [[natural bijection]] between $\mathbb{R}^{0 \vert 1}$-plots $A_{(-)}$ of the space of observables
+and smooth functionss out of the [[Cartesian product]] of $\mathbb{R}^{0 \vert 1}$ with the [[space of field histories]]
+to the [[complex numbers]]:
+
+$$
+  \frac{
+    \mathbb{R}^{0\vert 1}
+      \overset{ A_{(-)} }{\longrightarrow}
+    [ \Gamma_\Sigma(\Sigma \times S_{odd}), \mathbb{C} ]
+  }
+  {
+    \mathbb{R}^{0 \vert 1} \times \Gamma_\Sigma(\Sigma \times S_{odd}) 
+    \longrightarrow
+    \mathbb{C}
+  }
+$$
+
+Moreover, by prop. \ref{DiracSpaceOfFieldHistories} we have that the coordinate functions
+on the space of field histories of the Dirac bundle are given by the field observables $\mathbf{\Psi}^\alpha(x)$
+regarded in odd degree. Now a homomorphism as above has to pull back the even coordinate function $x$
+on $\mathbb{C}$ to even coordinate functions on this Cartesian product, hence to joint even powers of 
+$\theta$ and $\mathbf{\Psi}^\alpha(x)$.
+
+=--
+
+
+
 
 $\,$
 
@@ -2393,8 +2518,8 @@ Given a [[Lagrangian field theory]] $(E,\mathbf{L})$ (def. \ref{LocalLagrangianD
 
 
 $$
-  LocObs(E) 
-    \;\coloneqq\; 
+  LocObs(E)
+    \;\coloneqq\;
   \left(\Omega^{p+1,0}_{\Sigma,cp}(E)/(im(d))\right)\vert_{\mathcal{E}^\infty}
 $$
 
@@ -2428,8 +2553,8 @@ The [[intersection]] of the (multi-)[[local observables]] with the [[off-shell]]
 
 $$
   \label{InclusionOfPolynomialLocalObservablesIntoPolynomialObservables}
-  PolyLocObs(E) 
-   \hookrightarrow 
+  PolyLocObs(E)
+   \hookrightarrow
   PolyMultiLocObs(E)
    \overset{\text{dense}}{\hookrightarrow}
   PolyObs(E)
