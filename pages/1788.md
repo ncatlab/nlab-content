@@ -1,4 +1,121 @@
 
+
++-- {: .num_example #DiracFieldPolynomialObservables}
+###### Example
+**([[polynomial observables]] of the [[Dirac field]])**
+
+Let $E = \Sigma \times S_{odd}$ be the [[field bundle]] of the [[Dirac field]] (example \ref{DiracFieldBundle}).
+
+Then, by prop. \ref{DiracSpaceOfFieldHistories}, 
+an $\mathbb{R}^{0\vert 1}$-parameterized plot of the space of [[off-shell]] [[polynomial observables]] (def. \ref{PolynomialObservables})
+
+$$
+  A_{(-)}
+  \;\colon\;
+  \mathbb{R}^{0 \vert 1}
+  \longrightarrow 
+  PolyObs(\Sigma \times S_{odd})
+$$
+
+is of the form
+
+$$
+  \begin{aligned}
+    A_{(-)}
+    & =
+    a^{(0)}
+    \\
+    & \phantom{=}
+    + 
+    \theta
+    \underset{\Sigma}{\int}
+      a^{(1)}_{\alpha}(x)  
+      \mathbf{\Psi}^\alpha(x)
+    dvol_\Sigma(x)
+    \\
+    & = 
+    \phantom{=}
+    +
+    \underset{\Sigma^2}{\int}
+      a^{(2)}_{\alpha_1 \alpha_2}(x,y) 
+      \mathbf{\Psi}^{\alpha_1}(x_1) 
+        \cdot
+      \mathbf{\Psi}^{\alpha_2}(x_2)
+    \,
+    dvol_\Sigma(x_1) \, dvol_\Sigma(x_2)
+    \\
+    & \phantom{=}
+    +
+    \theta
+    \underset{\Sigma}{\int}
+      a^{(3)}_{\alpha_1 \alpha_2 \alpha_3}(x_1, x_2, x_3) 
+      \mathbf{\Psi}^{\alpha_1}(x_1)
+       \cdot
+      \mathbf{\Psi}^{\alpha_2}(x_2)
+        \cdot
+      \mathbf{\Psi}^{\alpha_3}(x_3)
+    \, dvol_\Sigma(x_1) \, dvol_\Sigma(x_2) \, dvol_\Sigma(x_3)
+    \\
+    & \phantom{=}
+    + \cdots
+  \end{aligned}
+$$
+
+for any [[distributions of several variables]] $a^{(k)}_{\alpha_1, \cdots , \alpha_k}$. Here
+
+$$
+  \mathbf{\Psi}^\alpha(x)
+  \;\colon\;
+  \Gamma_\Sigma(\Sigma \times S_{even})
+    \longrightarrow
+  \mathbb{C}
+$$
+
+are the point-evaluation [[field observables]] (example \ref{PointEvaluationObservables}) on the [[spinor bundle]].
+and 
+
+$$
+  \theta \in C^\infty(\mathbb{R}^{0\vert 1})_{odd}
+$$ 
+
+is the canonical odd-graded coordinate function
+on the [[superpoint]] $\mathbb{R}^{0 \vert 1}$ (def. \ref{SuperCartesianSpace}). 
+
+Hence all the _odd_ powers of the [[Dirac field|Dirac]]-[[field observables]] are proportional to $\theta$.
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+By definition of supergeometric [[mapping spaces]] (def. \ref{MappingSpaceOutOfASuperCartesianSpace}),
+there is a [[natural bijection]] between $\mathbb{R}^{0 \vert 1}$-plots $A_{(-)}$ of the space of observables
+and smooth functionss out of the [[Cartesian product]] of $\mathbb{R}^{0 \vert 1}$ with the [[space of field histories]]
+to the [[complex numbers]]:
+
+$$
+  \frac{
+    \mathbb{R}^{0\vert 1}
+      \overset{ A_{(-)} }{\longrightarrow}
+    [ \Gamma_\Sigma(\Sigma \times S_{odd}), \mathbb{C} ]
+  }
+  {
+    \mathbb{R}^{0 \vert 1} \times \Gamma_\Sigma(\Sigma \times S_{odd}) 
+    \longrightarrow
+    \mathbb{C}
+  }
+$$
+
+Moreover, by prop. \ref{DiracSpaceOfFieldHistories} we have that the coordinate functions
+on the space of field histories of the Dirac bundle are given by the field observables $\mathbf{\Psi}^\alpha(x)$
+regarded in odd degree. Now a homomorphism as above has to pull back the even coordinate function $x$
+on $\mathbb{C}$ to even coordinate functions on this Cartesian product, hence to joint even powers of 
+$\theta$ and $\mathbf{\Psi}^\alpha(x)$.
+
+=--
+
+
 $$
   \begin{aligned}
     \mathcal{S}'(O)
