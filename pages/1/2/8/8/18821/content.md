@@ -277,7 +277,7 @@ $$
   \mathbf{L}
   +
   \mathbf{L}_{int}
-  \;0\;
+  \;=\;
   \tfrac{1}{2}
   \left(
     \eta^{\mu \nu} \phi_{,\mu} \phi_{,\nu}
