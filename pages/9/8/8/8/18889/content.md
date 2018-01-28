@@ -1,4 +1,5 @@
 
+> under construction
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -29,7 +30,13 @@ A priori the [[Stückelberg-Petermann renormalization group]] is not about [[sca
 ###### Example
 **([[scaling transformations]] on [[observables]])**
 
-Let $E \overset{fb}{\to} \Sigma$ be a [[field bundle]] which is a [[trivial vector bundle]] over [[Minkowski spacetime]] $\Sigma = \mathbb{R}^{p,1}$.
+Let 
+
+$$
+  E \overset{fb}{\longrightarrow} \Sigma
+$$
+
+be a [[field bundle]] which is a [[trivial vector bundle]] over [[Minkowski spacetime]].
 
 For $\rho \in (0,\infty) \subset \mathbb{R}$ a [[positive real number]], 
 write
@@ -44,7 +51,7 @@ $$
   }
 $$
 
-be the operation of multiplication by $\rho$ using the [[real vector space]]-[[structure]] of the [[Cartesian space]] $\mathbb{R}^{p+1}$.
+for the operation of multiplication by $\rho$ using the [[real vector space]]-[[structure]] of the [[Cartesian space]] $\mathbb{R}^{p+1}$.
 
 By [[pullback of differential forms|pullback]] this acts on [[field histories]] by
 
@@ -59,31 +66,50 @@ $$
   \,.
 $$
 
+
+Let then
+
+$$
+  \rho \mapsto (E_{\text{BV-BRST}}, \mathbf{L}'_{\rho}, \Delta_{H,\rho} )
+$$ 
+
+be a 1-parameter collection of [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacua]] on that field bundle, according to def. \ref{VacuumFree}, and consider a decomposition into a set $Spec$ of field species ([this def.](S-matrix#VerticesAndFieldSpecies)) such that for each $sp \in Spec$ the collection of [[Feynman propagators]] $\Delta_{F,\rho,sp}$ for that species satisfies
+
+$$
+  \rho^{ mdim_{sp} }  \Delta_{F, 1/\rho, sp}( \rho x )
+  \;=\;
+  \Delta_{F,1,sp}(x)
+$$
+
+for some $mdim \in \mathbb{R}$, called the _mass dimension_ of the field species $sp$.
+
+
 Let accordingly
 
 $$
   \array{
-    Obs(E)
+    PolyObs(E)
     &
       \overset{
-        \sigma_\rho \coloneqq (\rho^{-1})^\ast
+        \sigma_\rho 
       }{\longrightarrow}
     &
-    Obs(E)
+    PolyObs(E)
+    \\
+    \mathbf{\Phi}_{sp}^a(x)
+      &\mapsto&
+    \rho^{-mdim_{sp}} \mathbf{\Phi}^a( \rho^{-1} x )
   }
 $$
 
-be the [[function]] on [[off-shell]] [[observables]] given by [[pullback of differential forms|pullback]] along $(\rho^{-1})^\ast$, so that $\sigma_\rho A$ is the observable which sends a [[field history]] $\Phi$ to
-
-$$
- \sigma_\rho A
-  \;\colon\;
-  \Phi \mapsto A( \Phi(\rho^{-1}(-) ))
-$$
+be the [[function]] on [[off-shell]] [[polynomial observables]] given on [[field observables]] as shown.
 
 =--
 
 ([Dütsch 18, def. 3.19](#Duetsch18))
+
+
+
 
 +-- {: .num_defn #GellMannLowTransformations}
 ###### Definition
