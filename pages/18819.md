@@ -3144,24 +3144,20 @@ from example \ref{SupergeometricSpaceOfFieldHistories} has the following propert
      \,.
    $$
 
-1. For $U = \mathbb{R}^{n \vert 1}$ a [[super Cartesian space]] (\ref{SuperCartesianSpace}) with a single super-odd
-   dimension, then $U$-parameterized collections of field histories
+1. {#OddParameterizedFieldHistories} For $U = \mathbb{R}^{n \vert 1}$ a [[super Cartesian space]] (\ref{SuperCartesianSpace}) with a single super-odd dimension, then $U$-parameterized collections of field histories
 
    $$
-     \Psi_{(-)} \;\colon\; \mathbb{R}^{n\vert 1} \longrightarrow \Gamma_\Sigma(\Sigma \times S_{odd})
+     \Phi_{(-)} \;\colon\; \mathbb{R}^{n\vert 1} \longrightarrow \Gamma_\Sigma(\Sigma \times S_{odd})
    $$
 
-   are in [[natural bijection]] with plots of sections of the [[bosonic field|bosonic]]-field bundle
-   with field fiber $S_{even} = S$ the [[spin representation]] regarded as an ordinary vector space:
+   are in [[natural bijection]] with plots of sections of the [[bosonic field|bosonic]]-field bundle with field fiber $S_{even} = S$ the [[spin representation]] regarded as an ordinary vector space:
 
    $$
-     \theta \Psi_{(-)} \;\colon\; \mathbb{R}^n \longrightarrow \Gamma_\Sigma(\Sigma \times S_{even})
-     \,,
+     \Psi_{(-)} \;\colon\; \mathbb{R}^n \longrightarrow \Gamma_\Sigma(\Sigma \times S_{even})
+     \,.
    $$
 
-Moreover, these two kinds of plots determine the fermionic field space completely: It is
-in fact [[isomorphism|isomorphic]], as a [[super vector space]], to the bosonic field space
-shifted to odd degree (as in example \ref{SuperpointInducedByFiniteDimensionalVectorSpace}):
+Moreover, these two kinds of plots determine the fermionic field space completely: It is in fact [[isomorphism|isomorphic]], as a [[super vector space]], to the bosonic field space shifted to odd degree (as in example \ref{SuperpointInducedByFiniteDimensionalVectorSpace}):
 
 $$
   \Gamma_\Sigma(\Sigma \times S_{odd})
@@ -3188,11 +3184,12 @@ $$
 By definitions this is [[formal duality|dually]] homomorphism of real [[supercommutative superalgebras]]
 
 $$
-  C^\infty(\mathbb{R}^n \times \mathbb{R}^{p,1}) \longleftarrow \wedge^\bullet S^\ast
+  C^\infty(\mathbb{R}^n \times \mathbb{R}^{p,1}) 
+    \longleftarrow 
+  \wedge^\bullet S^\ast
 $$
 
-from the [[Grassmann algebra]] on the [[dual vector space]] of the [[spin representation]] $S$
-to the ordinary algebras of [[smooth functions]] on $\mathbb{R}^n \times \mathbb{R}^{p,1}$.
+from the [[Grassmann algebra]] on the [[dual vector space]] of the [[spin representation]] $S$ to the ordinary algebras of [[smooth functions]] on $\mathbb{R}^n \times \mathbb{R}^{p,1}$.
 But the latter has no elements in odd degree, and hence all the Grassmann generators need to be
 send to zero.
 
@@ -3200,14 +3197,18 @@ For the second case, notice that a morphism of the form
 
 $$
   \mathbb{R}^{n\vert 1}
-    \overset{\Psi_{(-)}}{\longrightarrow}
+    \overset{\Phi_{(-)}}{\longrightarrow}
   S_{odd}
 $$
 
 is by def. \ref{TangentBundleOdd} [[natural bijection|naturally identified]] with a morphism of the form
 
 $$
-  \mathbb{R}^n \overset{}{\longrightarrow} [\mathbb{R}^{0 \vert 1}, S_{odd}] \simeq S_{odd} \times S_{even}
+  \mathbb{R}^n 
+    \overset{\Psi_{(-)}}{\longrightarrow} 
+  [\mathbb{R}^{0 \vert 1}, S_{odd}] 
+    \simeq 
+  S_{odd} \times S_{even}
   \,,
 $$
 
@@ -3250,8 +3251,7 @@ which may superficially seem to be in tension with each other, are properly unif
 1. On the other hand a [[field history]] of the [[Dirac field]] is supposed to be a [[spinor]], hence
    a [[section]] of a [[spinor bundle]], which is an ordinary [[vector bundle]].
 
-Therefore prop. \ref{DiracSpaceOfFieldHistories} serves to shows how, even though a Dirac field is not defined to be
-an ordinary section of an ordinary vector bundle, it is nevertheless encoded by such an ordinary section:
+Therefore prop. \ref{DiracSpaceOfFieldHistories} serves to shows how, even though a Dirac field is not defined to be an ordinary section of an ordinary vector bundle, it is nevertheless encoded by such an ordinary section:
 One says that this ordinary section is a "[[superfield]]-component" of the Dirac field,
 the one linear in a Grassmann variable $\theta$.
 
