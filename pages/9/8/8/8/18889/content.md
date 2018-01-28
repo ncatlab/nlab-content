@@ -24,6 +24,67 @@ In [[perturbative quantum field theory]] the _Gell-Mann-Low renormalization cocy
 
 A priori the [[Stückelberg-Petermann renormalization group]] is not about [[scaling transformations]]. But if [[scaling transformations]] happen to produce new S-matrices/renormalization schemes from given ones, then the [[main theorem of perturbative renormalization]] induces for each such scaling transformation a re-definition of interaction Lagrangian densities, this is the [[Gell-Mann-Low renormalization cocycle]] ([Gell-Mann & Low 54](#GellMannLow54), [Brunetti-Dütsch-Fredenhagen 09](#BrunettiDuetschFredenhagen09)) for review see ([Dütsch 18, section 3.5.3](#Duetsch18)).
 
+
++-- {: .num_example #ScalingTransformations}
+###### Example
+**([[scaling transformations]] on [[observables]])**
+
+Let $E \overset{fb}{\to} \Sigma$ be a [[field bundle]] which is a [[trivial vector bundle]] over [[Minkowski spacetime]] $\Sigma = \mathbb{R}^{p,1}$.
+
+For $\rho \in (0,\infty) \subset \mathbb{R}$ a [[positive real number]], 
+write
+
+$$
+  \array{
+    \Sigma
+      &\overset{\rho}{\longrightarrow}&
+    \Sigma
+    \\
+    x &\mapsto& \rho x
+  }
+$$
+
+be the operation of multiplication by $\rho$ using the [[real vector space]]-[[structure]] of the [[Cartesian space]] $\mathbb{R}^{p+1}$.
+
+By [[pullback of differential forms|pullback]] this acts on [[field histories]] by
+
+$$
+  \array{
+    \Gamma_\Sigma(E)
+      &\overset{\rho^\ast}{\longrightarrow}&
+    \Gamma_\Sigma(E)
+    \\
+    \Phi &\mapsto& \Phi(\rho(-))
+  }
+  \,.
+$$
+
+Let accordingly
+
+$$
+  \array{
+    Obs(E)
+    &
+      \overset{
+        \sigma_\rho \coloneqq (\rho^{-1})^\ast
+      }{\longrightarrow}
+    &
+    Obs(E)
+  }
+$$
+
+be the [[function]] on [[off-shell]] [[observables]] given by [[pullback of differential forms|pullback]] along $(\rho^{-1})^\ast$, so that $\sigma_\rho A$ is the observable which sends a [[field history]] $\Phi$ to
+
+$$
+ \sigma_\rho A
+  \;\colon\;
+  \Phi \mapsto A( \Phi(\rho^{-1}(-) ))
+$$
+
+=--
+
+([Dütsch 18, def. 3.19](#Duetsch18))
+
 +-- {: .num_defn #GellMannLowTransformations}
 ###### Definition
 **([[running coupling constants]] under [[scale transformations]])**
@@ -42,7 +103,7 @@ Assume that in fact
 
 1. the [[free field]] [[vacuum]] $vac = vac(m)$ depends on a [[mass]] parameter, and with it the choice $\mathcal{S}_{vac(m)}$ of [[renormalization scheme|normalization scheme]],
 
-1. under [[scaling transformations]] on [[local observables]] $\sigma_\rho$ ([Dütsch 18, def. 3.19](#Duetsch18))  we have that with $\mathcal{S}_{vac(m)}$ a [[perturbative S-matrix]] scheme perturbing around $vac(m)$ also
+1. under [[scaling transformations]] on [[local observables]] $\sigma_\rho$ (def. \ref{ScalingTransformations}) we have that with $\mathcal{S}_{vac(m)}$ a [[perturbative S-matrix]] scheme perturbing around $vac(m)$ also
 
    $$
      \sigma_\rho \circ \left(\mathcal{S}_{vac(m/\rho)}\right) \circ \sigma_\rho^{-1}
@@ -50,7 +111,7 @@ Assume that in fact
 
    is a perturbative S-matrix around $L_{kin}(m)$.
 
-In this case the [[main theorem of perturbative renormalization]] (prop. \ref{AnyTwoSMatrixRenormalizationSchemesDifferByAUniqueVertexRedefinition}) says that there exists for each scale $\rho$ a unique 
+In this case the [[main theorem of perturbative renormalization]] ([this prop.](Stückelberg-Petermann+renormalization+group#AnyTwoSMatrixRenormalizationSchemesDifferByAUniqueVertexRedefinition)) says that there exists for each scale $\rho$ a unique 
 [[interaction vertex redefinition]] $\mathcal{Z}^m_\rho$ (def. \ref{InteractionVertexRedefinition}) such that
 
 $$
