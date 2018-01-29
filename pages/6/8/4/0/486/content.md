@@ -17,7 +17,7 @@
 =--
 =--
 
-# Pretoposes
+# Pretopos
 * table of contents
 {: toc}
 
