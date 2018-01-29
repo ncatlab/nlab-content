@@ -37,7 +37,7 @@ $$
   E \overset{fb}{\longrightarrow} \Sigma
 $$
 
-be a [[field bundle]] which is a [[trivial vector bundle]] over [[Minkowski spacetime]].
+be a [[field bundle]] which is a [[trivial vector bundle]] over [[Minkowski spacetime]] $\Sigma = \mathbb{R}^{p,1} \simeq_{\mathbb{R}} \mathbb{R}^{p+1}$.
 
 For $\rho \in (0,\infty) \subset \mathbb{R}$ a [[positive real number]],
 write
@@ -52,9 +52,9 @@ $$
   }
 $$
 
-for the operation of multiplication by $\rho$ using the [[real vector space]]-[[structure]] of the [[Cartesian space]] $\mathbb{R}^{p+1}$.
+for the operation of multiplication by $\rho$ using the [[real vector space]]-[[structure]] of the [[Cartesian space]] $\mathbb{R}^{p+1}$ underlying [[Minkowski spacetime]]. 
 
-By [[pullback of differential forms|pullback]] this acts on [[field histories]] by
+By [[pullback of differential forms|pullback]] this acts on [[field histories]] ([[sections]] of the [[field bundle]]) via
 
 $$
   \array{
@@ -72,7 +72,7 @@ Let then
 $$
   \rho
     \mapsto
-  vac(\rho)
+  vac_\rho
     \;\coloneqq\;
   (E_{\text{BV-BRST}}, \mathbf{L}'_{\rho}, \Delta_{H,\rho} )
 $$
@@ -83,7 +83,7 @@ $$
   dim(sp) \in \mathbb{R}
 $$
 
-such that for all $\rho$ we have
+such that for all $\rho$ we have (using [[generalized functions]]-notation)
 
 $$
   \rho^{ 2 dim(sp) }  \Delta_{F, 1/\rho, sp}( \rho x )
@@ -92,7 +92,7 @@ $$
   \,.
 $$
 
-Typically $\rho$ rescales the [[mass]] parameter and then $dim(sp)$ is called the _[[mass dimension]]_ of the field species $sp$.
+Typically $\rho$ rescales a [[mass]] parameter, in which case $dim(sp)$ is also called the _[[mass dimension]]_ of the field species $sp$.
 
 Let finally
 
@@ -112,7 +112,19 @@ $$
   }
 $$
 
-be the [[function]] on [[off-shell]] [[polynomial observables]] given on [[field observables]] as shown.
+be the [[function]] on [[off-shell]] [[polynomial observables]] given on [[field observables]] $\mathbf{Phi}^a(x)$ by [[pullback of differential forms|pullback]] along $\rho^{-1}$ followed by multiplication by $\rho$ taken to the negative power of the [[mass dimension]], and extended from there to all [[polynomial observables]] as an [[associative algebra|algebra]] [[homomorphism]]. 
+
+This constitutes an [[action]] of the [[group]]
+
+$$
+  RG
+    \coloneqq
+  \left(
+    \mathbb{R}_+, \cdot
+  \right)
+$$
+
+of [[positive real numbers]] under [[multiplication]] on [[polynomial observables]], called the group of _[[scaling transformations]]_ for the given choice of field species and [[mass]] parameters.
 
 =--
 
@@ -122,11 +134,43 @@ be the [[function]] on [[off-shell]] [[polynomial observables]] given on [[field
 ###### Example
 **([[mass dimension]] of [[scalar field]])**
 
-The [[Feynman propagator]] of the [[real scalar field]] on [[Minkowski spacetime]] is ([this prop.](Feynman+propagator#FeynmanPropagatorAsACauchyPrincipalvalue))
+Consider the [[Feynman propagator]] $\Delta_{F,m}$ of the [[free field theory|free]] [[real scalar field]] on [[Minkowski spacetime]] $\Sigma = \mathbb{R}^{p,1}$  for [[mass]] parameter $m \in (0,\infty)$ is  and [[scaling transformations]] $\rho \in \mathbb{R}_+$ on [[Minkowski spacetime]] (def. \ref{ScalingTransformations}) act on the mass parameter by inverse multiplication
+
+$$
+  \rho 
+    \mapsto 
+  \Delta_{F,\rho^{-1}m}(\rho (-))
+  \,.
+$$
+
+We have 
+
+$$
+  \Delta_{F,\rho^{-1}m}(\rho (-))
+  \;=\;
+  \rho^{-(p+1) + 2}
+  \Delta_{F,1}(x)
+$$
+
+and hence the corresponding [[mass dimension]] of the [[real scalar field]] is
+
+$$
+  dim(\text{scalar field})
+  =
+  (p+1)/2 - 1
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By  ([this prop.](Feynman+propagator#FeynmanPropagatorAsACauchyPrincipalvalue)) the [[Feynman propagator]] in question is given by the [[Cauchy principal value]]-formula (in [[generalized function]]-notation)
 
 $$
   \begin{aligned}
-  \Delta_{F,\rho}(x)
+  \Delta_{F,m}(x)
   & =
   \underset{ {\epsilon \in (0,\infty)} \atop {\epsilon \to 0} }{\lim}
   \frac{+i}{(2\pi)^{p+1}}
@@ -135,17 +179,18 @@ $$
   \frac{
      e^{i k_\mu x^\mu}
   }{
-    - k_\mu k^\mu - \left( \rho \tfrac{m c}{\hbar} \right)^2 \pm i \epsilon
+    - k_\mu k^\mu - \left( \tfrac{m c}{\hbar} \right)^2 \pm i \epsilon
   }
   \, d k_0 \, d^p \vec k
+  \,.
   \end{aligned}
 $$
 
-hence
+By applying [[change of integration variables]] $k \mapsto \rho^{-1} k$ in the [[Fourier transform of distributions|Fourier transform]] this becomes
 
 $$
   \begin{aligned}
-  \Delta_{F,\rho^{-1}}(\rho x)
+  \Delta_{F,\rho^{-1}m}(\rho x)
   & =
   \underset{ {\epsilon \in (0,\infty)} \atop {\epsilon \to 0} }{\lim}
   \frac{+i}{(2\pi)^{p+1}}
@@ -186,17 +231,8 @@ $$
   \\
   & =
   \rho^{-(p+1) + 2}
-  \Delta_{F,1}(x)
+  \Delta_{F,m}(x)
   \end{aligned}
-$$
-
-Hence the mass dimension of the real scalar field on $p+1$-dimensional [[Minkowski spacetime]] is
-
-$$
-  dim(\text{scalar field})
-  \;=\;
-  (p+1)/2 - 1
-  \,.
 $$
 
 =--
@@ -204,7 +240,7 @@ $$
 +-- {: .num_prop}
 ###### Proposition
 
-Let $\rho \mapsto vac(\rho)$ be a 1-paramter collection of [[gauge fixing|gauge fixed]] [[free field theory|free field]] [[vacua]] according to def. \ref{ScalingTransformations}.
+Let $\rho \mapsto vac(\rho)$ be a 1-parameter collection of [[gauge fixing|gauge fixed]] [[free field theory|free field]] [[vacua]] according to def. \ref{ScalingTransformations}.
 
 Then for each pair
 
@@ -218,18 +254,18 @@ $$
   \sigma_\rho
   \left(
     A_1
-     \star_{F,1/\rho}
+     \star_{F, \rho^{-1} \rho_{vac} m}
      \cdots
-     \star_{F, 1/\rho}
+     \star_{F, \rho^{-1} \rho_{vac} m}
      A_n
   \right)
   \;=\;
   \left(
     \sigma_\rho A_1
   \right)
-    \star_{F,1}
+    \star_{F, \rho_{vac} m }
     \cdots
-    \star_{F,1}
+    \star_{F, \rho_{vac} m}
   \left(
     \sigma_\rho A_n
   \right)
@@ -265,22 +301,32 @@ It is sufficient to check this on the contraction of a pair of [[field observabl
 $$
   \begin{aligned}
     \sigma_\rho (\mathbf{\Phi}(x))
-     \star_{F,1}
+     \star_{F, \rho_{vac} m}
     \sigma_\rho (\mathbf{\Phi}(y)
     & =
     \rho^{-2 dim }
     \mathbf{\Phi}(\rho^{-1} x)
-      \star_{F,1}
+      \star_{F, \rho_{vac} m}
     \mathbf{\Phi}(\rho^{-1} y)
     \\
     & =
     \rho^{-2 dim }
-    \Delta_{F,1}(\rho^{-1}(x-y))
+    \Delta_{F, \rho_{vac} m}(\rho^{-1}(x-y))
     \\
     & =
-    \sigma_\rho
+    \Delta_{F, \rho^{-1}\rho_{vac}m }(x,y) \mathbf{1}
+    \\
+    & = 
+    rg_{\rho}\left(
+     \Delta_{F, \rho^{-1}\rho_{vac}m }(x,y) \mathbf{1}
+    \right)
+    \\
+    & = 
+    rg_{\rho}
     \left(
-      \Delta_{F, \rho}(x,y)
+      \mathbf{\Phi}(x) 
+        \star_{F, \rho^{-1} \rho_{vac} m} 
+      \mathbf{\Phi}(y)
     \right)
   \end{aligned}
 $$
