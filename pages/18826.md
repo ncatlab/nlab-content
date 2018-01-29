@@ -703,7 +703,7 @@ $$
   \end{aligned}
 $$
 
-where in the last step we used jet-level [[integration by parts]] to move the [[total spacetime derivatives]] off of $c^\alpha$, thereby picking up some horizontally exact correction term, as shown.
+where in the last step we used jet-level [[integration by parts]] (example \ref{IntegrationByPartsOnJetBundle}) to move the [[total spacetime derivatives]] off of $c^\alpha$, thereby picking up some horizontally exact correction term, as shown.
 
 This means that the term $A$ over the brace is horizontally exact:
 
