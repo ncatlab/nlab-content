@@ -12,21 +12,29 @@
 
   * [[field history]]
 
+  * [[space of field histories]]
+
 * [[Lagrangian density]]
 
-* [[Euler-Lagrange form]], [[presymplectic current]]
+  * [[Euler-Lagrange form]], [[presymplectic current]]
+
+  * [[Euler-Lagrange equations|Euler-Lagrange]] [[equations of motion]]
 
 * [[locally variational field theory]]
 
 * [[covariant phase space]]
   
-* [[Peierls-Poisson bracket]], [[causal propagator]]
+  * [[Peierls-Poisson bracket]] 
+
+    * [[advanced and retarded propagator]], 
+
+    * [[causal propagator]]
 
 **[[quantization]]**
 
-* [[geometric quantization]]
+* [[geometric quantization]] [[geometric quantization of symplectic groupoids|of symplectic groupoids]]
 
-* [[algebraic deformation quantization]]
+* [[algebraic deformation quantization]], [[star algebra]]
 
 **[[quantum mechanical system]]** 
 
@@ -34,7 +42,7 @@
 
 * [[observables]]
 
-  * [[field observable]]
+  * [[field observables]]
 
   * [[local observables]]
 
@@ -68,6 +76,8 @@
 
     * [[Hadamard state]]
 
+    * [[Wightman propagator]]
+
 
 * [[picture of quantum mechanics]]
 
@@ -98,7 +108,7 @@
 
 * [[master Ward identity]]
 
-* [[quantum anomaly]]
+* [[gauge anomaly]]
 
 **[[interacting field theory|interacting field]] [[quantization]]**
 
@@ -118,32 +128,37 @@
 
   * [[vacuum stability]]
 
-
-* [[renormalization]]
-
-  * [[renormalization scheme]]
-
-  * [[extension of distributions]]
-
-  * [[renormalization condition]]
-
-    * [[gauge anomaly]], [[quantum anomaly]]
-
-  * [[renormalization group]]
-
-    * [[Stückelberg-Petermann renormalization group]]
-
-    * [[Gell-Mann-Low renormalization cocycle]]
-
 * [[interacting field algebra]]
 
   * [[Bogoliubov's formula]]
+
+  * [[quantum Møller operator]]
 
 * [[adiabatic limit]]
 
   * [[infrared divergence]]
 
   * [[interacting vacuum]]
+
+
+**[[renormalization]]**
+
+* [[renormalization scheme|("re-")normalization scheme]]
+
+  * [[extension of distributions]]
+
+  * [[renormalization condition|("re"-)normalization condition]]
+
+  * [[quantum anomaly]]
+
+* [[renormalization group]]
+
+  * [[interaction vertex redefinition]]
+
+  * [[Stückelberg-Petermann renormalization group]]
+
+  * [[renormalization group flow]]/[[running coupling constants]]
+
 
 ## Theorems
 
