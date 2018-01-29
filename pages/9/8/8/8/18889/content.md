@@ -42,7 +42,7 @@ $$
 
 be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] (according to [this def.](S-matrix#VacuumFree)) around which we consider [[interacting field theory|interacting]] [[perturbative QFT]].
 
-Consider a [[group]] $RG$ equipped with an [[action]] on the [[Wick algebra]] of [[off-shell]] [[microcausal polynomial observables]]
+Consider a [[group]] $RG$ equipped with an [[action]] on the [[Wick algebra]] of [[off-shell]] [[microcausal polynomial observables]] with formal parameters adjoined (as in [this def.](S-matrix#FormalParameters))
 
 $$
   rg_{(-)}
@@ -53,7 +53,7 @@ $$
   \,,
 $$
 
-hence for each $\rho \in RG$ a [[continuous linear map]] $rg_\rho$ which is an [[automorphism]] of the [[Wick algebra]]-product
+hence for each $\rho \in RG$ a [[continuous linear map]] $rg_\rho$ which has an [[inverse]] $rg_\rho^{-1} \in RG$ and is a [[homomorphism]] of the [[Wick algebra]]-product (the [[star product]] $\star_H$ induced by the [[Wightman propagator]] of the given vauum $vac$)
 
 $$
   rg_\rho( A_1 \star_H A_2 )
@@ -61,9 +61,9 @@ $$
   rg_\rho(A_1) \star_H rg_\rho(A_2)
 $$
 
-such that moreover
+such that the following conditions hold:
 
-1. the action preserves the subspace of [[off-shell]] polynomial [[local observables]]
+1. the action preserves the subspace of [[off-shell]] polynomial [[local observables]], hence it [[restriction|restricts]] as
 
    $$
      rg_{(-)}
@@ -73,8 +73,7 @@ such that moreover
      LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j ] ]\langle g,j\rangle
    $$
 
-1. the action respects the [[causal order]] of the spacetime support of
-   local observables, in that for $O_1, O_2 \in LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]$
+1. the action respects the [[causal order]] of the spacetime support ([this def.](A+first+idea+of+quantum+field+theory#SpacetimeSupport)) of local observables, in that for $O_1, O_2 \in LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]$ we have
 
    $$
      \left(
@@ -94,7 +93,9 @@ such that moreover
 
    for all $\rho \in RG$.
 
-Then [[conjugation]] by this action induces an [[action]] on the [[set]] of [[S-matrix]] [[renormalization schemes]],
+Then: 
+
+The operation of [[conjugation]] by this action on [[observables]] induces an [[action]] on the [[set]] of [[S-matrix]] [[renormalization schemes]] ([this def.](S-matrix#LagrangianFieldTheoryPerturbativeScattering), [this remark](S-matrix#calSFunctionIsRenormalizationScheme)),
 in that for
 
 $$
@@ -105,7 +106,7 @@ $$
   PolyObs(E_{\text{BV-BRST}})( (\hbar) )[ [ g, j] ]
 $$
 
-a perturbative [[S-matrix scheme]] around the given [[free field theory|free field]] [[vacuum]], also the [[composition|composite]]
+a perturbative [[S-matrix scheme]] around the given [[free field theory|free field]] [[vacuum]] $vac$, also the [[composition|composite]]
 
 $$
   \mathcal{S}^\rho
@@ -127,8 +128,7 @@ $$
   (E_{\text{BV-BRST}}, \mathbf{L}'_\rho, \Delta_{H,\rho} )
 $$
 
-be a collection of [[gauge fixing|gauge fixed]] [[free field theory|free field]] [[vacua]]
-parameterized by elements $\rho \in RG$,
+be a collection of [[gauge fixing|gauge fixed]] [[free field theory|free field]] [[vacua]] parameterized by elements $\rho \in RG$,
 all with the same underlying [[field bundle]]; and
 consider $rg_\rho$ as above, except that it is not an [[automorphism]] of any [[Wick algebra]],
 but an [[isomorphism]] between the [[Wick algebra]]-structures on various vacua, in that
@@ -159,6 +159,8 @@ $$
 is an S-matrix scheme around the vacuum $vac_e$ (labeled by the [[neutral element]] of $RG$).
 
 =--
+
+([Brunetti-Dütsch-Fredenhagen 09, sections 4.2, 5.1](#BrunettiDuetschFredenhagen09), [Dütsch 18, section 3.5.3](#Duetsch18))
 
 +-- {: .proof}
 ###### Proof
@@ -285,6 +287,9 @@ $$
 
 =--
 
+([Brunetti-Dütsch-Fredenhagen 09, sections 4.2, 5.1](#BrunettiDuetschFredenhagen09), [Dütsch 18, section 3.5.3](#Duetsch18))
+
+
 ### Scaling transformations
 
 > under construction
@@ -380,7 +385,7 @@ be the [[function]] on [[off-shell]] [[polynomial observables]] given on [[field
 
 ([Dütsch 18, def. 3.19](#Duetsch18))
 
-+-- {: .num_example}
++-- {: .num_example #ScalarFieldMassDimensionOnMinkowskiSpacetime}
 ###### Example
 **([[mass dimension]] of [[scalar field]])**
 
@@ -737,8 +742,11 @@ To conclude, it is now sufficient to see that the perturbative S-matrix $S_{vac(
 
 ## References
 
+The original discussion is due to
 
 * {#GellMannLow54} [[Murray Gell-Mann]] and F. E. Low, _Quantum Electrodynamics at Small Distances_, Phys. Rev. 95 (5) (1954), 1300–1312 ([pdf](http://www.fafnir.phyast.pitt.edu/py3765/GellManLow.pdf))
+
+Formulation in the rigorous context of [[causal perturbation theory]]/[[pAQFT]], via the [[main theorem of perturbative renormalization]], is due to
 
 * {#BrunettiDuetschFredenhagen09} [[Romeo Brunetti]], [[Michael Dütsch]], [[Klaus Fredenhagen]], _Perturbative Algebraic Quantum Field Theory and the Renormalization Groups_, Adv. Theor. Math. Physics 13 (2009), 1541-1599 ([arXiv:0901.2038](https://arxiv.org/abs/0901.2038))
 
