@@ -1,7 +1,7 @@
 ## Free quantum fields
  {#FreeQuantumFields}
 
-In this chapter we discuss these topics:
+In this chapter we discuss the following topics:
 
 * _[Wick algebra](#WickAlgebraAbstract)_
 
@@ -2127,4 +2127,4 @@ is  the [[Euler-Lagrange equation|Euler-Lagrange]] [[equation of motion]] (for t
 
 $\,$
 
-This concludes our discussion of the [[algebra of quantum observables]] for [[free field theories]]. In the [next chapter](#QuantumObservables) we discuss the [[perturbative QFT]] of [[interacting field theories]] as [[deformations]] of such free quantum field theories.
+This concludes our discussion of the [[algebra of quantum observables]] for [[free field theories]]. In the [next chapter](#InteractingQuantumFields) we discuss the [[perturbative QFT]] of [[interacting field theories]] as [[deformations]] of such free quantum field theories.
