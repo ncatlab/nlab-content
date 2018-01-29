@@ -163,12 +163,12 @@ consider $rg_\rho$ as above, except that it is not an [[automorphism]] of any [[
 but an [[isomorphism]] between the [[Wick algebra]]-structures on various vacua, in that
 
 $$
-  rg_{\rho_1}( A_1 \star_{H, \rho_2} A_2 )
+  rg_{\rho}( A_1 \star_{H, \rho^{-1} \rho_{vac}} A_2 )
   \;=\;
-  rg_{\rho_1}(A_1) \star_{H, \rho_1 \rho_2} rg_{\rho_2}(A_2)
+  rg_{\rho}(A_1) \star_{H, \rho_{vac}} rg_{\rho}(A_2)
 $$
 
-for all $\rho_1, \rho_2 \in RG$
+for all $\rho, \rho_{vac} \in RG$
 
 Then if
 
