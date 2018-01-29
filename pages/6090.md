@@ -7545,6 +7545,9 @@ An entertaining account of some of the history and the sociology of S-matrix the
 [[!redirects S-matrix theory]]
 [[!redirects S-matrix theories]]
 
+[[!redirects S-matrix scheme]]
+[[!redirects S-matrix schemes]]
+
 [[!redirects perturbative S-matrix]]
 [[!redirects perturbative S-matrices]]
 
