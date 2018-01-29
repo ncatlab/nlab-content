@@ -208,6 +208,8 @@ To conclude, it is now sufficient to see that the perturbative S-matrix $S_{vac(
 
 * [[renormalization]]
 
+* [[renormalization group flow]]
+
 * [[asymptotic safety]]
 
 * [[cosmic Galois group]]
@@ -248,5 +250,3 @@ See also
 
 [[!redirects renormalization groups]]
 
-[[!redirects renormalization group flow]]
-[[!redirects renormalization group flows]]
