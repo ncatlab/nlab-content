@@ -31,7 +31,7 @@ $\,$
 
 In the [previous chapter](#FreeQuantumFields) we have found the [[quantization]] of _[[free field theories|free]]_ [[Lagrangian field theories]] by first choosing a [[gauge fixing|gauge fixed]] [[BV-BRST complex|BV-BRST]]-[[homological resolution|resolution]] of the [[algebra of observables|algebra of]] [[gauge invariance|gauge invariant]] [[on-shell]] observabes, then applying [[algebraic deformation quantization]] induced by the resulting [[Peierls-Poisson bracket]] on the graded [[covariant phase space]] to pass to a [[non-commutative algebra]] of quantum observables, such that the [[BV-BRST differential]] is respected.
 
-Of course most [[quantum field theories]] of interest are non-[[free field theories|free]]; they are _[[interacting field theories]]_ whose [[equations of motion]] is a _non-linear_ differential equation. The archetypical example is the coupling of the [[Dirac field]] to the [[electromagnetic field]] via the [[electron-photon interaction]], to the [[interacting field theory]] called _[[quantum electrodynamics]]_ (discussed [below](#QuantumElectrodynamics)).
+Of course most [[quantum field theories]] of interest are non-[[free field theories|free]]; they are _[[interacting field theories]]_ whose [[equations of motion]] is a _non-linear_ differential equation. The archetypical example is the coupling of the [[Dirac field]] to the [[electromagnetic field]] via the [[electron-photon interaction]], corresponding to the [[interacting field theory]] called _[[quantum electrodynamics]]_ (discussed [below](#QuantumElectrodynamics)).
 
 In principle the [[perturbative quantum field theory|perturbative]] [[quantization]] of such non-[[free field theory]] [[interacting field theories]] proceeds the same way: One picks a [[BV-BRST complex|BV-BRST]]-[[gauge fixing]], computes the [[Peierls-Poisson bracket]] on the resulting [[covariant phase space]] ([Khavkine 14](Peierls+bracket#Khavkine14)) and then finds a [[formal deformation quantization]] of this [[Poisson structure]] to obtain the quantized [[non-commutative algebra]] of [[quantum observables]], as [[formal power series]] in [[Planck's constant]] $\hbar$.
 
@@ -1868,11 +1868,7 @@ $$
   \array{
     LocObs(E_{\text{BV-BRST}})[ [ \hbar , g] ]
     &
-    \underoverset
-    {\simeq}
-    {
-      \phantom{A}\mathcal{R}^{-1}\phantom{A}
-    }{\longrightarrow}
+    \underoverset{\simeq}{\phantom{A}\mathcal{R}^{-1}\phantom{A}}{\longrightarrow}
     &
     IntLocObs(E_{\text{BV-BRST}}, g S_{int})[ [ \hbar , g ] ]
     \\
@@ -1891,11 +1887,7 @@ $$
   \array{
     IntLocObs(E_{\text{BV-BRST}}, g S_{int})[ [ \hbar , g ] ]
     &
-    \underoverset
-    {\simeq}
-    {
-      \phantom{A}\mathcal{R}\phantom{A  }
-    }{\longrightarrow}
+    \underoverset{\simeq}{\phantom{A}\mathcal{R}\phantom{A}}{\longrightarrow}
     &
     LocObs(E_{\text{BV-BRST}})[ [ \hbar , g] ]
     \\
@@ -2382,7 +2374,6 @@ $$
       }
     }
     \,
-
     \mathcal{Z}_{
       g S_{int,sw_1}
     }
@@ -6614,11 +6605,7 @@ $$
   \{-S',(-)\} \circ \mathcal{R}^{-1}
   \;=\;
   \mathcal{R}^{-1}
-  \left(
-    \left\{ -(S' + g S_{int}) \,,\, (-) \right\}_{\mathcal{T}}
-    -
-    i \hbar   \Delta_{BV}
-  \right)
+  \left(\left\{ -(S' + g S_{int}) \,,\, (-) \right\}_{\mathcal{T}} -i \hbar   \Delta_{BV}\right)
 $$
 
 This is the _quantum master Ward identity_ on [[regular polynomial observables]], i.e. before [[renormalization]].
