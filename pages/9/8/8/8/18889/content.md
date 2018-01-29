@@ -80,15 +80,22 @@ $$
   (E_{\text{BV-BRST}}, \mathbf{L}'_{\rho}, \Delta_{H,\rho} )
 $$ 
 
-be a 1-parameter collection of [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacua]] on that field bundle, according to [this def.](S-matrix#VacuumFree), and consider a decomposition into a set $Spec$ of field species ([this def.](S-matrix#VerticesAndFieldSpecies)) such that for each $sp \in Spec$ the collection of [[Feynman propagators]] $\Delta_{F,\rho,sp}$ for that species satisfies
+be a 1-parameter collection of [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacua]] on that field bundle, according to [this def.](S-matrix#VacuumFree), and consider a decomposition into a set $Spec$ of field species ([this def.](S-matrix#VerticesAndFieldSpecies)) such that for each $sp \in Spec$ the collection of [[Feynman propagators]] $\Delta_{F,\rho,sp}$ for that species _scales homogeneously_ in that there exists
+
+$$
+  dim(sp) \in \mathbb{R}
+$$
+
+such that for all $\rho$ we have
 
 $$
   \rho^{ 2 dim(sp) }  \Delta_{F, 1/\rho, sp}( \rho x )
   \;=\;
   \Delta_{F,sp, \rho = 1}(x)
+  \,.
 $$
 
-for some $dim(sp) \in \mathbb{R}$, called the _[[mass dimension]]_ of the field species $sp$.
+Typically $\rho$ rescales the [[mass]] parameter and then $dim(sp)$ is called the _[[mass dimension]]_ of the field species $sp$.
 
 Let finally
 
@@ -235,9 +242,18 @@ $$
 In particular the unique [[S-matrix]] [[renormalization scheme|("re"-)normalization scheme]] away from coinciding interaction points ([this prop.](S-matrix#TimeOrderedProductAwayFromDiagonal)) satisfies
 
 $$
+  \sigma_\rho \circ T_{k, 1/\rho} \circ \sigma_\rho^{-1}
+  \;=\;
+  T_{k, \rho = 1}
+  \phantom{AAA}
+  \text{away from fat diagonal}
+$$
+
+
+$$
   \sigma_\rho \circ \mathcal{S}_{1/\rho} \circ \sigma_\rho^{-1}
   \;=\;
-  \mathcal{S}_{1}
+  \mathcal{S}_{\rho = 1}
   \phantom{AAA}
   \text{away from fat diagonal}
 $$
@@ -273,6 +289,38 @@ $$
 $$
 
 =--
+
+consider the massless case:
+
+$$
+  supp(O_1) {\vee\!\!\!\wedge} supp(O_2)
+$$
+
+then
+
+$$
+  \begin{aligned}
+    \sigma_\rho \circ \mathcal{S} \circ \sigma_\rho^{-1}( O_1 + O_2 )
+    & =
+    \sigma_\rho \mathcal{S}(\sigma_\rho^{-1}(O_1) + \sigma_\rho^{-1}(O_2))
+    \\
+    & =
+    \sigma_\rho \left(
+      \mathcal{S}(\sigma_\rho^{-1} O_1) 
+      \star_{H}
+      \mathcal{S}(\sigma_\rho^{-1} O_2)
+    \right)
+    \\
+    & =
+    \sigma_\rho \left(
+      \mathcal{S}(\sigma_\rho^{-1} O_1) 
+    \right)
+      \star_{H}
+    \sigma_\rho\left(
+      \mathcal{S}(\sigma_\rho^{-1} O_2)
+    \right)
+  \end{aligned}
+$$
 
 ### Running couplings
 
@@ -437,7 +485,7 @@ To conclude, it is now sufficient to see that the perturbative S-matrix $S_{vac(
 
 reviewed in
 
-* {#Duetsch18} [[Michael Dütsch]], section 3.5.1 of _[[From classical field theory
+* {#Duetsch18} [[Michael Dütsch]], section 3.5.3 of _[[From classical field theory
 to perturbative quantum field theory]]_, 2018
 
 [[!redirects Gell-Mann-Low renormalization cocycles]]
