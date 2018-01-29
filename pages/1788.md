@@ -1,5 +1,51 @@
 
 
+$$
+  \begin{aligned}
+    \mathcal{S}_{vac_e}^\rho(O_1 + O_2)
+    & =
+    rg_\rho \circ \mathcal{S}_{vac_{\rho^{-1}}} \circ rg_\rho^{-1}( O_1 + O_2 )
+    \\
+    & =
+    rg_\rho
+    \left(
+      {\, \atop \,}
+      \mathcal{S}_{vac_{\rho^{-1}}}(rg_\rho^{-1}(O_1)) + rg_\rho^{-1}(O_2)
+      {\, \atop \,}
+    \right)
+    \\
+    & =
+    rg_\rho
+    \left(
+      {\, \atop \,}
+      \mathcal{S}_{\rho^{-1}}(rg_\rho^{-1}(O_1)) 
+        \star_{H,\rho^{-1}} 
+      \mathcal{S}_{vac_{\rho^{-1}}}(rg_\rho^{-1}(O_2))
+      {\, \atop \,}
+    \right)
+    \\
+    & =
+    rg_\rho
+    \left(
+      {\, \atop \,}
+      \mathcal{S}_{vac_{\rho^{-1}}}(rg_{\rho^{-1}}(O_1)
+      {\, \atop \,}
+    \right)
+    \star_{H,e}
+    rg_\rho
+    \left(
+      {\, \atop \,}
+      \mathcal{S}_{vac_{\rho^{-1}}}(rg_\rho^{-1}(O_2))
+      {\, \atop \,}
+    \right)
+    \\
+    & =
+    \mathcal{S}^\rho_{vac_e}( O_1 )\, \mathcal{S}^\rho_{vac_e}(O_2)
+    \,.
+  \end{aligned}
+$$
+
+
 +-- {: .num_example #DiracFieldPolynomialObservables}
 ###### Example
 **([[polynomial observables]] of the [[Dirac field]])**
