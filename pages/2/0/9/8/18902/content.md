@@ -7,4 +7,6 @@
 
 * [[instanton in QCD]]
 
+* [[renormalization group flow]], [[beta function]]
+
 category: people
