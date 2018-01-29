@@ -1,4 +1,16 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Arithmetic
++--{: .hide}
+[[!include arithmetic geometry - contents]]
+=--
+=--
+=--
+
+
 # The $\Gamma$ function
 * table of contents
 {: toc}
@@ -52,6 +64,10 @@ where $\gamma$ is [[Euler's constant]].
 $$\Gamma(x) = \int_{0}^{\infty} t^x e^{-t} \frac{d t}{t}.$$ 
 
 ## Related concepts
+
+* [[factorial]]
+
+* [[Euler beta function]]
 
 * [[completed Riemann zeta function]]
 
