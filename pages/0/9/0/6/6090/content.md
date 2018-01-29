@@ -4757,13 +4757,13 @@ is shown in ([Duetsch 18, section 4.2.2](#Duetsch18)).
 Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}.
 
 1. An [[S-matrix]] [[renormalization scheme]] (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) around this free vacuum,
-   satisfying the [[renormalization conditions]] (def. \ref{RenormalizationConditions}) "field independence" and "translation inavriance" (prop. \ref{BasicConditionsRenormalization}),
+   satisfying the [[renormalization conditions]] (def. \ref{RenormalizationConditions}) "field independence" (prop. \ref{BasicConditionsRenormalization}),
    exists, and its construction by choices of [[renormalization|("re"-)normalization]] of [[time-ordered products]] $\{T_k\}_{k \in \mathbb{N}}$ according to def. \ref{ExtensionOfTimeOrderedProoductsRenormalization} involves precisely a [[finite-dimensional vector space]] of choices ("renormalization constants") at each order $k \in \mathbb{N}$.
 
-1. Every [[pair]] $\mathcal{S}$, $\widetilde{\mathcal{S}}$ of such choices are related by a unique transformation of the space of [[local observables]] ("adding counterterms to interactions")
+1. Every [[pair]] $\mathcal{S}$, $\widetilde{\mathcal{S}}$ of such choices is related by a unique _[[interaction vertex redefinition]]_
 
    $$
-     Z
+     \mathcal{Z}
      \;\colon\;
      LocObs(E_{\text{BV-BRST}})[ [ \hbar, g ] ]
        \longrightarrow
@@ -4777,7 +4777,7 @@ Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field the
      \,.
    $$
 
-1. The [[group]] of transformations $Z$ arising this way is the _[[Stückelberg-Petermann renormalization group]]_.
+1. The [[group]] of transformations $\mathcal{Z}$ arising this way is the _[[Stückelberg-Petermann renormalization group]]_.
 
 =--
 
