@@ -25,7 +25,7 @@ The concept of _$(\infty,1)$-pretopos_ ([Lurie, appendix A](#Lurie)) is a versio
 ###### Definition
 
 
-Let $\mathcal{C}$ be an [[(∞,1)-category]]. This is called an _$(\infty,1)$-pretopos_ is
+Let $\mathcal{C}$ be an [[(∞,1)-category]]. This is called an _$(\infty,1)$-pretopos_ if
 
 1. $\mathcal{C}$ has a [[terminal object in an (∞,1)-category|terminal object]] and [[homotopy fiber products]];
 
