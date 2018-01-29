@@ -6891,8 +6891,8 @@ $$
   \;=\;
   \mathcal{R}^{-1}
   \left(
+    {\, \atop \,}
       \{g S_{int}, A_{sw} \}_{\mathcal{T}}
-
     {\, \atop \,}
   \right)
     \phantom{AAA}
