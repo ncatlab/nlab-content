@@ -29,7 +29,7 @@ This way the [[deformation quantization]] of the [[Peierls-Poisson bracket]] exi
 Its algebra structure may be expressed in terms of a commutative "[[normal-ordered product]]" (def. \ref{NormalOrderedProductNotation} below) and 
 the [[vacuum expectation values]] of [[field observables]] in a canonically induced [[vacuum state]] (prop. \ref{WickAlgebraCanonicalState} below).
 
-The analogous [[star product]] induced by the [[Feynman propagator]] (def. \ref{OnRegularPolynomialObservablesTimeOrderedProduct} below) acts by first [[causal ordering]] its arguments and then multiplying them with the [[Wick algebra|Wick algebra product]] (prop. \ref{CausalOrderingTimeOrderedProductOnRegular} below) and hence is called the _[[time-ordered product]]_ (def. \ref{OnRegularPolynomialObservablesTimeOrderedProduct} below). This is the key structure in the discussion of [[interacting field theory]] discussed in the next chapter _[Interacting quantum fields](#QuantumObservables)_.
+The analogous [[star product]] induced by the [[Feynman propagator]] (def. \ref{OnRegularPolynomialObservablesTimeOrderedProduct} below) acts by first [[causal ordering]] its arguments and then multiplying them with the [[Wick algebra|Wick algebra product]] (prop. \ref{CausalOrderingTimeOrderedProductOnRegular} below) and hence is called the _[[time-ordered product]]_ (def. \ref{OnRegularPolynomialObservablesTimeOrderedProduct} below). This is the key structure in the discussion of [[interacting field theory]] discussed in the next chapter _[Interacting quantum fields](#InteractingQuantumFields)_.
 Here we consider this on [[regular polynomial observables]] only, hence for averages of [[field observables]] that evaluate
 at distinct [[spacetime]] points. The [[extension]] of the [[time-ordered product]] to
 [[local observables]] is possible, but requires making choices: This is called _[[renormalization]]_, which we turn to in 
@@ -52,7 +52,7 @@ One finds that this is equal to its [[time-ordered product|time-ordered]] versio
 Applied to [[observables]] this relation is the _[[Schwinger-Dyson equation]]_ (prop. \ref{DysonSchwinger} below), which expresses 
 the [[quantum physics|quantum]]-correction to the [[equations of motion]] of the [[free field theory|free]] [[gauge fixing|gauge field]] [[Lagrangian field theory]] as seen by [[time-ordered products]] of [[observables]] (example \ref{SchwingerDysonDistributional} below.)
 
-After introducing [[field (physics)|field]]-[[interactions]] via [[scattering theory]] in the [next chapter](#QuantumObservables)
+After introducing [[field (physics)|field]]-[[interactions]] via [[scattering theory]] in the [next chapter](#InteractingQuantumFields)
 the quantum correction to the [[BV-differential]] by the [[BV-operator]] becomes the "[[quantum master equation]]"
 and the [[Schwinger-Dyson equation]] becomes the "[[master Ward identity]]". When choosing [[renormalization]] these
 identities become _conditions_ to be satisfied by [[renormalization]] choices in order for the 
@@ -730,7 +730,7 @@ $$
 
 This extension is not unique. A choice of such an extension, satisfying some evident compatibility conditions, is a choice of _[[renormalization scheme]]_ for the given [[perturbative quantum field theory]]. Every such choice corresponds to a choice of [[perturbative S-matrix]] for the theory, namely an extension of the time-ordered exponential $\exp_{\mathcal{T}}$ (example \ref{RegularObservablesExponentialTimeOrdered}) from regular to local observables.
 
-This construction of [[perturbative quantum field theory]] is called _[[causal perturbation theory]]_.  We discuss this below in the chapters _[Interacting quantum fields](#QuantumObservables)_ and _[Renormalization](#Renormalization)_.
+This construction of [[perturbative quantum field theory]] is called _[[causal perturbation theory]]_.  We discuss this below in the chapters _[Interacting quantum fields](#InteractingQuantumFields)_ and _[Renormalization](#Renormalization)_.
 
 =--
 
@@ -1423,7 +1423,7 @@ and similarly for the other order of the tensor products. Here term over the bra
 
 =--
 
-To analyze the behaviour of the free quantum BV-differential in general and specifically after passing to [[interacting field theory]] (below in chapter _[Quatum observables](#QuantumObservables)_) it is useful to re-express is in terms of the incarnation of the global [[antibracket]] with respect not to the pointwise product of observables, but the [[time-ordered product]]:
+To analyze the behaviour of the free quantum BV-differential in general and specifically after passing to [[interacting field theory]] (below in chapter _[Interacting quantum fields](#InteractingQuantumFields)_) it is useful to re-express is in terms of the incarnation of the global [[antibracket]] with respect not to the pointwise product of observables, but the [[time-ordered product]]:
 
 +-- {: .num_defn #AntibracketTimeOrdered}
 ###### Definition
