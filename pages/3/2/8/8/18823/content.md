@@ -381,7 +381,7 @@ $$
   Obs_{E,\mathbf{L}}
 $$
 
-and its component $\Pi$ is a bosonic observable as above. See example \ref{DiracFieldPolynomialObservables} below.
+whose component $\mathbf{\Psi}$ is a section of the even-graded field bundle, regarded in odd degree, via prop. \ref{DiracSpaceOfFieldHistories}. See example \ref{DiracFieldPolynomialObservables} below.
 
 =--
 
