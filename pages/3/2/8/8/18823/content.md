@@ -1,5 +1,9 @@
 
 
+
+
+
+
 ## Observables
  {#Observables}
 
@@ -369,7 +373,7 @@ $$
 **Observables on fermionic fields**
 
 In the case that $E$ has purely [[fermionic]] [[fibers]] (def. \ref{FermionicBosonicFields}), such as for the [[Dirac field]] (example \ref{DiracFieldBundle})
-with $E = \Sigma\times S_{odd}$  then the only [[global element|points]] in $Obs_{E}$, namely 
+with $E = \Sigma\times S_{odd}$  then the only [[global element|points]] in $Obs_{E}$, namely
 morphisms $\mathbb{R}^0 \to Obs_E$ are observables depending on an even power of [[field histories]];
 while general observables appear as possibly odd-parameterized families
 
@@ -1079,14 +1083,14 @@ for the subspace of (regular) polynomial off-shell observables.
 
 Let $E = \Sigma \times S_{odd}$ be the [[field bundle]] of the [[Dirac field]] (example \ref{DiracFieldBundle}).
 
-Then, by prop. \ref{DiracSpaceOfFieldHistories}, 
+Then, by prop. \ref{DiracSpaceOfFieldHistories},
 an $\mathbb{R}^{0\vert 1}$-parameterized plot of the space of [[off-shell]] [[polynomial observables]] (def. \ref{PolynomialObservables})
 
 $$
   A_{(-)}
   \;\colon\;
   \mathbb{R}^{0 \vert 1}
-  \longrightarrow 
+  \longrightarrow
   PolyObs(\Sigma \times S_{odd})
 $$
 
@@ -1099,10 +1103,10 @@ $$
     a^{(0)}
     \\
     & \phantom{=}
-    + 
+    +
     \theta
     \underset{\Sigma}{\int}
-      a^{(1)}_{\alpha}(x)  
+      a^{(1)}_{\alpha}(x)
       \mathbf{\Psi}^\alpha(x)
     dvol_\Sigma(x)
     \\
@@ -1110,8 +1114,8 @@ $$
     \phantom{=}
     +
     \underset{\Sigma^2}{\int}
-      a^{(2)}_{\alpha_1 \alpha_2}(x,y) 
-      \mathbf{\Psi}^{\alpha_1}(x_1) 
+      a^{(2)}_{\alpha_1 \alpha_2}(x,y)
+      \mathbf{\Psi}^{\alpha_1}(x_1)
         \cdot
       \mathbf{\Psi}^{\alpha_2}(x_2)
     \,
@@ -1121,7 +1125,7 @@ $$
     +
     \theta
     \underset{\Sigma}{\int}
-      a^{(3)}_{\alpha_1 \alpha_2 \alpha_3}(x_1, x_2, x_3) 
+      a^{(3)}_{\alpha_1 \alpha_2 \alpha_3}(x_1, x_2, x_3)
       \mathbf{\Psi}^{\alpha_1}(x_1)
        \cdot
       \mathbf{\Psi}^{\alpha_2}(x_2)
@@ -1145,14 +1149,14 @@ $$
 $$
 
 are the point-evaluation [[field observables]] (example \ref{PointEvaluationObservables}) on the [[spinor bundle]],
-and 
+and
 
 $$
   \theta \in C^\infty(\mathbb{R}^{0\vert 1})_{odd}
-$$ 
+$$
 
 is the canonical odd-graded coordinate function
-on the [[superpoint]] $\mathbb{R}^{0 \vert 1}$ (def. \ref{SuperCartesianSpace}). 
+on the [[superpoint]] $\mathbb{R}^{0 \vert 1}$ (def. \ref{SuperCartesianSpace}).
 
 Hence all the _odd_ powers of the [[Dirac field|Dirac]]-[[field observables]] are proportional to $\theta$.
 In particular if one considers just a point in the space of polynomial observables
@@ -1181,7 +1185,7 @@ $$
     [ \Gamma_\Sigma(\Sigma \times S_{odd}), \mathbb{C} ]
   }
   {
-    \mathbb{R}^{0 \vert 1} \times \Gamma_\Sigma(\Sigma \times S_{odd}) 
+    \mathbb{R}^{0 \vert 1} \times \Gamma_\Sigma(\Sigma \times S_{odd})
     \longrightarrow
     \mathbb{C}
   }
@@ -1190,7 +1194,7 @@ $$
 Moreover, by prop. \ref{DiracSpaceOfFieldHistories} we have that the coordinate functions
 on the space of field histories of the Dirac bundle are given by the field observables $\mathbf{\Psi}^\alpha(x)$
 regarded in odd degree. Now a homomorphism as above has to pull back the even coordinate function
-on $\mathbb{C}$ to even coordinate functions on this Cartesian product, hence to joint even powers of 
+on $\mathbb{C}$ to even coordinate functions on this Cartesian product, hence to joint even powers of
 $\theta$ and $\mathbf{\Psi}^\alpha(x)$.
 
 =--
@@ -2380,6 +2384,67 @@ and since this holds covariantly for all smooth families $\Phi_{(-)}$, this impl
 
 =--
 
+
++-- {: .num_example #IntegrationByPartsOnJetBundle}
+###### Example
+**([[cochain cohomology|cohomological]] [[integration by parts]] on the [[jet bundle]])**
+
+Let  $E \overset{fb}{\to} \Sigma$ be a [[field bundle]] (def. \ref{FieldsAndFieldBundles}).
+
+Prop. \ref{TransgressionOfVariationaldifferentialFormsCompatibleWithVariationalDerivative} says in particular that 
+the operation of _[[integration by parts]]_ in an [[integral]] is "localized" to a cohomological statement on [[horizontal differential forms]]: Let
+
+$$
+  \alpha_1, \alpha_2 \;\in\; \Omega^{\bullet,\bullet}_\Sigma(E)
+$$
+
+be two [[variational differential forms]] (def. \ref{VariationalBicomplexOnSecondOrderJetBundleOverTrivialVectorBundleOverMinkowskiSpacetime}), of total horizontal degree $p$ (hence one less than the [[dimension]] of [[spacetime]] $\Sigma$).
+
+Then the [[derivation]]-property of the [[total spacetime derivative]] says that
+
+$$
+  \label{IntegrationByPartsCohomologicallyOnJetBundle}
+  (d \alpha_1) \wedge \alpha_2
+  \;=\;
+  - (-1)^{deg(\alpha_1)} \alpha_1 \wedge ( d \alpha_2 )
+  \;\;
+  d( \alpha_1 \wedge \alpha_2 )
+  \;\in\;
+  \Omega^{p+1,\bullet}_\Sigma(E)
+  \,,
+$$
+
+hence that we may "throw over" the spacetime derivative from the factor $\alpha_1$ to the factor $\alpha_2$, up to a sign,
+and up to a total spacetime derivative $d (\alpha_1 \wedge \alpha_2)$. By prop. \ref{TransgressionOfVariationaldifferentialFormsCompatibleWithVariationalDerivative} this last term vanishes
+under [[transgression of variational differential forms|transgression]] $\tau_\sigma$ to a [[spacetime]] without [[manifold with boundary]],
+so that the above equation becomes
+
+$$
+  \tau_\Sigma( d \alpha_1) \wedge \alpha_2 )
+  \;=\;
+  - (-1)^{deg(\alpha_1)}
+  \tau_\Sigma( \alpha_1 \wedge d \alpha_2 )
+  \,,
+$$
+
+hence
+
+$$
+  \underset{\Sigma}{\int}
+     (d j^\infty_\sigma(\alpha_1)) \wedge j^\infty_\Sigma(\alpha_2)
+  \;=\;
+  - (-1)^{deg(\alpha_1)}
+  \underset{\Sigma}{\int} 
+    j^\infty_\Sigma(\alpha_1) \wedge d j^\infty_\Sigma(\alpha_2)
+  \,.
+$$
+
+This last statement is the statement of _[[integration by parts]]_ under an integral.
+
+Notice that these [[integrals]] (and hence the actual [[integration by parts]]-rule) only exist 
+if $\alpha_1 \wedge \alpha_2$ has compact spacetime support, while the "cohomological" avatar (eq:IntegrationByPartsCohomologicallyOnJetBundle) of this relation on the jet bundle holds without such a restriction.
+
+=--
 
 
 +-- {: .num_example #VariationOfTheActionFunctional}
