@@ -5,6 +5,20 @@
 ## Gauge symmetries
  {#GaugeSymmetries}
 
+In this chapter we discuss these topics:
+
+* [compactly supported infinitesimal symmetries obstruct covariant phase space](#CompactlySupportedInfinitesimalSymmetriesObstructTheCovariantPhaseSpace)
+
+* [Infinitesimal gauge symmetries](#InfinitesimalGauge)
+
+* [Lie algebra action and Lie algebroids](#LieAlgebraActionAndLieAlgebroids)
+
+* [BRST complex](#BRSTComplex)
+
+* [Examples of local BRST complexes](#ExamplesForLocalBRSTComplexes)
+
+$\,$
+
 An [[infinitesimal gauge symmetry]] of a [[Lagrangian field theory]] (def. \ref{GaugeParameters} below) is a [[infinitesimal symmetry of the Lagrangian]] which may be freely parameterized, hence "gauged", by a _[[gauge parameter]]_. A [[Lagrangian field theory]]
 exhibiting these is also called a _[[gauge theory]]_.
 
@@ -69,19 +83,7 @@ The mathematical theory capturing these phenomena is the [[higher Lie theory]] o
 
 
 
-$\,$
 
-We now discuss these topics:
-
-* [compactly supported infinitesimal symmetries obstruct covariant phase space](#CompactlySupportedInfinitesimalSymmetriesObstructTheCovariantPhaseSpace)
-
-* [Infinitesimal gauge symmetries](#InfinitesimalGauge)
-
-* [Lie algebra action and Lie algebroids](#LieAlgebraActionAndLieAlgebroids)
-
-* [BRST complex](#BRSTComplex)
-
-* [Examples of local BRST complexes](#ExamplesForLocalBRSTComplexes)
 
 
 
@@ -633,9 +635,16 @@ $$
   \left(
     R^{a}_\alpha \frac{\delta_{EL}\mathbf{L}}{\delta \phi^a}
     -
-    R^{a \mu}_\alpha \frac{d}{d x^\mu} \frac{\delta_{EL}\mathbf{L}}{\delta \phi^a}
+    \frac{d}{d x^\mu} 
+    \left(
+      R^{a \mu}_\alpha  \frac{\delta_{EL}\mathbf{L}}{\delta \phi^a}
+    \right)
     +
-    R^{a \mu_1 \mu_2}_\alpha \frac{d^2}{d x^{\mu_1} d x^{\mu_2}} \frac{\delta_{EL}\mathbf{L}}{\delta \phi^a}
+    \frac{d^2}{d x^{\mu_1} d x^{\mu_2}} 
+    \left( 
+       R^{a \mu_1 \mu_2}_\alpha
+       \frac{\delta_{EL}\mathbf{L}}{\delta \phi^a}
+    \right)
     -
     \cdots
   \right)
@@ -680,9 +689,12 @@ $$
     \underbrace{
     c^\alpha
     \underset{k \in \mathbb{N}}{\sum}
-      (-1)^k  R^{a \mu_1 \cdots \mu_k}_\alpha
+      (-1)^k  
       \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}}
-      \frac{\delta_{EL} \mathbf{L}}{\delta \phi^a}
+      \left(
+        R^{a \mu_1 \cdots \mu_k}_\alpha
+        \frac{\delta_{EL} \mathbf{L}}{\delta \phi^a}
+      \right)
     }
     }
     +
@@ -691,7 +703,7 @@ $$
   \end{aligned}
 $$
 
-where in the last step we used jet-level [[integration by parts]] to move the [[total spacetime derivatives]] off of $c^\alpha$, thereby picking up some horizontally exact correction term, as show.
+where in the last step we used jet-level [[integration by parts]] to move the [[total spacetime derivatives]] off of $c^\alpha$, thereby picking up some horizontally exact correction term, as shown.
 
 This means that the term $A$ over the brace is horizontally exact:
 
@@ -699,9 +711,12 @@ $$
   \label{NoetherIdentityTermIsHorizontallyExact}
   c^\alpha
    \underset{k \in \mathbb{N}}{\sum}
-     (-1)^k  R^{a \mu_1 \cdots \mu_k}_\alpha
+     (-1)^k  
       \frac{d^k}{d x^{\mu_1} \cdots d x^{\mu_k}}
-      \frac{\delta_{EL} \mathbf{L}}{\delta \phi^a}
+      \left(
+        R^{a \mu_1 \cdots \mu_k}_\alpha
+        \frac{\delta_{EL} \mathbf{L}}{\delta \phi^a}
+      \right)
    \;=\;
    d(...)
 $$
