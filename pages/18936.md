@@ -34,6 +34,8 @@ In [[combinatorics]], the definition usually extends to $k = 0$ by setting $0! =
 
 * [[Gamma function]]
 
+* [[Euler beta function]]
+
 * [[exponential series]]
 
 ## References
