@@ -1,3 +1,24 @@
+
+> This entry is about the concept in [[arithmetic]]. For the [[beta function]] related to [[renormalization group flow]] see there.
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Arithmetic
++--{: .hide}
+[[!include arithmetic geometry - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
+## Idea
+
 The Euler beta function has been defined by [[Euler]] around 1730 by the so called Euler beta integral
 
 $$
@@ -7,6 +28,14 @@ $$
 which can be expressed in terms of the gamma function as stated. 
 
 A multidimensional generalization is the [[Selberg integral]]. 
+
+## Related concepts
+
+* [[Gamma function]]
+
+* [[factorial]]
+
+## References
 
 * G. E. Andrews, R. Askey, R. Roy, _Special functions_, Enc. of Math. and its Appl. __71__, Cambridge Univ. Press 1999
 [[!redirects Euler's beta function]]
