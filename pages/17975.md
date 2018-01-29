@@ -80,6 +80,8 @@ Discussion of how [[superfluid]] aspects of [[axion|axionic]] fuzzy dark matter 
 
 * {#Khoury16} [[Justin Khoury]], _Another Path for the Emergence of Modified Galactic Dynamics from Dark Matter Superfluidity_, Phys. Rev. D 93, 103533 (2016) ([arXiv:1602.05961](https://arxiv.org/abs/1602.05961))
 
+* JiJi Fan, _Ultralight Repulsive Dark Matter and BEC_ ([arXiv:1603.06580](https://arxiv.org/abs/1603.06580))
+
 * Andrea Addazi, Antonino Marciano, _UV completion of a theory of Superfluid Dark Matter_ ([arXiv:1801.04083](https://arxiv.org/abs/1801.04083))
 
 ### Review
