@@ -1,6 +1,24 @@
 ## Reduced phase space
  {#ReducedPhaseSpace}
 
+
+In this chapter we discuss these topics:
+
+* Global gauge reduction for strictly [[invariant]] functions ([[action functionals]]):
+
+  * _[Derived critical loci inside Lie algebroids](#DerivedCriticalLocusInsideLieAlgebroids)_
+
+  * _[Schouten bracket on Lie algebroids](#SchoutenBracketAntibracket)_
+
+* Local gauge reduction for weakly invariant local functions ([[Lagrangian densities]]):
+
+  * _[Local antibracket](#LocalJetBundleAntibracket)_
+
+  * _[Local BV-BRST complex](#DerivedCriticalLocusOnJetBundle)_
+  
+  * _[Global BV-BRST complex](#BVBRSTComplexGlobal)_
+
+
 For a [[Lagrangian field theory]] with [[infinitesimal gauge symmetries]], the _[[reduced phase space]]_ is the [[quotient]] of the [[shell]] (the [[solution]]-locus of the [[equations of motion]]) by the [[action]] of the [[gauge symmetries]]; or rather it is the combined _[[homotopy quotient]]_ by the [[gauge symmetries]] and its _[[homotopy intersection]]_ with the [[shell]]. Passing to the [[reduced phase space]] may lift the [[obstruction]] for a [[gauge theory]] to have a [[covariant phase space]] and hence a [[quantization]].
 
 The [[higher differential geometry]] of [[homotopy quotients]] and [[homotopy intersections]] is usefully modeled by tools from [[homological algebra]], here known as the _[[BV-BRST complex]]_.
@@ -13,24 +31,6 @@ The genuine _[[local field theory|local]]_ construction of the derived [[shell]]
 only up to horizontally exact terms. This _local_ incarnation of the redcuced phase space is modeled by the genuine _[[local BV-BRST complex]]_, example \ref{LocalBVBRSTComplexIsDerivedCriticalLocusOfEulerLagrangeForm} below.
 
 Finally, under [[transgression of variational differential forms]] this yields a [[differential]] on the graded [[local observables]] of the field theory. This is the _global [[BV-BRST complex]]_ of the [[Lagrangian field theory]] (def. \ref{ComplexBVBRSTGlobal} below).
-
-$\,$
-
-We now discuss these topics:
-
-* for strictly [[invariant]] functions ([[action functionals]])
-
-  * _[Derived critical loci inside Lie algebroids](#DerivedCriticalLocusInsideLieAlgebroids)_
-
-  * _[Schouten bracket on Lie algebroids](#SchoutenBracketAntibracket)_
-
-* for weakly invariant local functions ([[Lagrangian densities]])
-
-  * _[Local antibracket](#LocalJetBundleAntibracket)_
-
-  * _[Local BV-BRST complex](#DerivedCriticalLocusOnJetBundle)_
-  
-  * _[Global BV-BRST complex](#BVBRSTComplexGlobal)_
 
 $\,$
 
