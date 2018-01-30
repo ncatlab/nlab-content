@@ -922,9 +922,14 @@ $$
 
 * [[conditional convergence]] (of [[spectral sequences]])
 
+
+
+
 ## References
 
 * {#Milnor62} [[John Milnor]], _On axiomatic homology theory_, Pacific J. Math. Volume 12, Number 1 (1962), 337-341 ([Euclid](http://projecteuclid.org/euclid.pjm/1103036730))
+
+* Z. Z. Yeh, _Higher Inverse Limits and Homology Theories_, Thesis, Princeton, 1959.
 
 * {#BousfieldKan72} [[Aldridge Bousfield]], [[Daniel Kan]], section IX.2 of _Homotopy limits, completions and localization_, Springer 1972
 
