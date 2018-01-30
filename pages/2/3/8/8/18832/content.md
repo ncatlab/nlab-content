@@ -29,7 +29,7 @@ In this chapter we discuss the following topics:
 
 $\,$
 
-In the [previous chapter](#FreeQuantumFields) we have found the [[quantization]] of _[[free field theories|free]]_ [[Lagrangian field theories]] by first choosing a [[gauge fixing|gauge fixed]] [[BV-BRST complex|BV-BRST]]-[[homological resolution|resolution]] of the [[algebra of observables|algebra of]] [[gauge invariance|gauge invariant]] [[on-shell]] observabes, then applying [[algebraic deformation quantization]] induced by the resulting [[Peierls-Poisson bracket]] on the graded [[covariant phase space]] to pass to a [[non-commutative algebra]] of quantum observables, such that the [[BV-BRST differential]] is respected.
+In the [previous chapter](#FreeQuantumFields) we have found the [[quantization]] of _[[free field theories|free]]_ [[Lagrangian field theories]] by first choosing a [[gauge fixing|gauge fixed]] [[BV-BRST complex|BV-BRST]]-[[homological resolution|resolution]] of the [[algebra of observables|algebra of]] [[gauge invariance|gauge invariant]] [[on-shell]] observabes, then applying [[algebraic deformation quantization]] induced by the resulting [[Peierls-Poisson bracket]] on the graded [[covariant phase space]] to pass to a [[non-commutative algebra]] of quantum observables, such that, finally, the [[BV-BRST differential]] is respected.
 
 Of course most [[quantum field theories]] of interest are non-[[free field theories|free]]; they are _[[interacting field theories]]_ whose [[equations of motion]] is a _non-linear_ differential equation. The archetypical example is the coupling of the [[Dirac field]] to the [[electromagnetic field]] via the [[electron-photon interaction]], corresponding to the [[interacting field theory]] called _[[quantum electrodynamics]]_ (discussed [below](#QuantumElectrodynamics)).
 
@@ -178,7 +178,7 @@ actual physical [[gauge invariance|gauge invariant]] [[on-shell]] observables sh
 it remains to pass the [[BV-BRST differential]] of the [[free field]] [[Wick algebra]] of observables to
 a [[differential]] on the [[interacting field algebra]], such that its [[cochain cohomology]] is well defined.
 
-Since the [[time-ordered products]] away from coinciding interaction points and as well as on [[regular polynomial observables]] are uniquely fixed (prop. \ref{TimeOrderedProductAwayFromDiagonal} below), one finds that also this _interacting quantum BV-differential_
+Since the [[time-ordered products]] away from coinciding interaction points are uniquely fixed (prop. \ref{TimeOrderedProductAwayFromDiagonal} below), one finds that also this _interacting quantum BV-differential_
 is uniquely fixed, on [[regular polynomial observables]], by [[conjugation]] with the [[quantum Møller operators]] (def. \ref{BVDifferentialInteractingQuantum}).
 The formula that characterizes it there is called the _[[quantum master equation]]_ or equivalently the _[[quantum master Ward identity]]_ (prop. \ref{QuantumMasterEquation} below).
 
@@ -236,7 +236,7 @@ $$
   \right)
 $$
 
-for the corresponding [[Wick algebra]]-[[structure]] on [[formal power series]] in $\hbar$ ([[Planck's constant]]) of [[microcausal polynomial observables]]. This is a [[star algebra]] with respect to ([[coefficient]]-wise) [[complex conjugation]].
+for the corresponding [[Wick algebra]]-[[structure]] on [[formal power series]] in $\hbar$ ([[Planck's constant]]) of [[microcausal polynomial observables]] (def. \ref{MicrocausalObservable}). This is a [[star algebra]] with respect to ([[coefficient]]-wise) [[complex conjugation]] (prop. \ref{MoyalStarProductOnMicrocausal}).
 
 Write
 
@@ -284,9 +284,9 @@ $$
   }
 $$
 
-for the inclusion of [[local observables]] into [[microcausal polynomial observables]] (example \ref{PointwiseProductsOfFieldObservablesAdiabaticallySwitchedIsMicrocausal}), thought of as forming [[normal-ordered products]] in the [[Wick algebra]] (by def. \ref{NormalOrderedProductNotation}).
+for the inclusion of [[local observables]] (def. \ref{LocalObservables}) into [[microcausal polynomial observables]] (example \ref{PointwiseProductsOfFieldObservablesAdiabaticallySwitchedIsMicrocausal}), thought of as forming [[normal-ordered products]] in the [[Wick algebra]] (by def. \ref{NormalOrderedProductNotation}).
 
-We denote the [[Wick algebra]]-product (the [[star product]] $\star_H$ induced by the [[Wightman propagator]] $\Delta_H$) by juxtaposition (def. \ref{NormalOrderedProductNotation})
+We denote the [[Wick algebra]]-product (the [[star product]] $\star_H$ induced by the [[Wightman propagator]] $\Delta_H$ according to prop. \ref{PropagatorStarProduct}) by juxtaposition (def. \ref{NormalOrderedProductNotation})
 
 $$
   A_1 A_2 \;\coloneqq\; A_1 \star_H A_2
@@ -318,7 +318,7 @@ $$
   \right.
 $$
 
-for the  [[causal ordering]]-[[relation]] and
+for the  [[causal order]]-[[relation]] (def. \ref{CausalOrdering}) and
 
 
 $$
@@ -339,12 +339,6 @@ for _[[spacelike]] separation_.
 
 =--
 
-+-- {: .num_remark}
-###### Remark
-
-For the purposes of constructing or defining the Wick algebra, the conditions on $\Delta_H$ or $H$ could be relaxed. Requiring $\Delta_H$ to be an honest [[Wightman propagator]] means that it is a distribution satisfying the [[Hadamard distribution|Hadamard wavefront condition]], as well as addition positivity and normalization requirements. Dropping the positivity and some of the normalization requirements, $\Delta_H$ is then only a _Hadamard parametrix_ for the Wightman propagator. The construction of the Wick algebra with respect to $\Delta_H$ still makes sense, but $:(-):$ can no longer be interpreted as normal ordering with respect to a fixed vacuum state. In fact, in [[locally covariant pAQFT]], the property for $\Delta_H$ to be the Wightman propagator for a state is in conflict with local covariance. On the other hand, there is no problem with selecting a locally covariant Hadamard parametrix $\Delta_H$, which allows the construction or definition of the Wick algebra to be locally covariant.
-
-=--
 
 Being concerned with [[perturbative QFT|perturbation theory]] means mathematically that we consider _[[formal power series]]_
 in [[deformation]] parameters $\hbar$ ("[[Planck's constant]]") and $g$ ("[[coupling constant]]"), also in $j$ ("[[source field]]"),
@@ -373,7 +367,7 @@ for the space of [[formal power series]] in three formal [[variables]]
 
 1. $j$ ("[[source field]]")
 
-with  [[coefficients]] in the [[topological vector spaces]] of the [[off-shell]] polynomial [[local observables]] of the [[free field]] theory; similarly for the [[off-shell]] [[microcausal polynomial observables]]:
+with  [[coefficients]] in the [[topological vector spaces]] of the [[off-shell]] polynomial [[local observables]] of the [[free field]] theory (def. \ref{LocalObservables}); similarly for the [[off-shell]] [[microcausal polynomial observables]] (def. \ref{MicrocausalObservable}):
 
 $$
   PolyObs(E_{\text{BV-BRST}})_{mc}[ [ \hbar, g, j ] ]
@@ -429,7 +423,8 @@ $$
 $$
 
 where the notation is to suggest that we will think of the coefficient of $g$ as an ([[adiabatic switching|adiabatically switched]])
-[[interaction]] [[action functional]].
+[[interaction]] [[action functional]] and of the coefficient of $j$ as an external [[source field]] (reflected by internal and external
+vertices, respectively, in [[Feynman diagrams]], see def. \ref{VerticesAndFieldSpecies} below).
 
 In particular for
 
@@ -439,7 +434,7 @@ $$
   \Omega^{p+1,0}_\Sigma(E_{\text{BV-BRST}})[ [ \hbar , g] ]
 $$
 
-a [[formal power series]] in $\hbar$ and $g$ of [[local Lagrangian densities]], thought of as a local [[interaction]] Lagrangian, and if
+a [[formal power series]] in $\hbar$ and $g$ of [[local Lagrangian densities]] (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}), thought of as a local [[interaction]] Lagrangians, and if
 
 $$
   g_{sw}
@@ -447,7 +442,7 @@ $$
   C^\infty_{cp}(\Sigma) \langle g \rangle
 $$
 
-is an [[adiabatic switching|adiabatically switched]] coupling as before, then the [[transgression of variational differential forms|transgression]] of the product
+is an [[adiabatic switching|adiabatically switched]] coupling as before, then the [[transgression of variational differential forms|transgression]] (def. \ref{TransgressionOfVariationalDifferentialFormsToConfigrationSpaces}) of the product
 
 $$
   g_{sw} \mathbf{L}_{int}
@@ -473,7 +468,7 @@ $$
   \,,
 $$
 
-which, in its $\hbar$-dependent, is the space of _[[Laurent series]]_ in $\hbar$, hence the space exhibiting also negative formal powers of $\hbar$.
+which, in its $\hbar$-dependent, is the space of _[[Laurent series]]_ in $\hbar$, hence the space exhibiting also [[negative number|negative]] formal powers of $\hbar$.
 
 =--
 
@@ -485,8 +480,7 @@ $\,$
 We introduce now the [[axioms]] for perturbative [[scattering matrices]] relative to a fixed [[relativistic field theory|relativistic]] [[free field theory|free]] [[Lagrangian field theory|Lagrangian]] [[quantum field theory|quantum field]] [[vacuum]] (def. \ref{VacuumFree} below) according to _[[causal perturbation theory]]_ (def. \ref{LagrangianFieldTheoryPerturbativeScattering} below).
 Since the first of these axioms requires the S-matrix to be a formal sum of [[multilinear map|multi-]][[linear continuous functionals]], it is convenient to impose axioms on these directly: this is the axiomatics for _[[time-ordered products]]_
 in def. \ref{TimeOrderedProduct} below. That these latter axioms already imply the former
-is the statement of prop. \ref{TimeOrderedProductInducesPerturbativeSMatrix} below. Its proof
-requires a close look at the "[[reverse-time ordered products]]" for the inverse S-matrix (def. \ref{ReverseTimeOrderedProduct} below)
+is the statement of prop. \ref{TimeOrderedProductInducesPerturbativeSMatrix}, prop. \ref{CausalFactorizationAlreadyImpliesSMatrix} below . Its proof requires a close look at the "[[reverse-time ordered products]]" for the inverse S-matrix (def. \ref{ReverseTimeOrderedProduct} below)
 and their induced reverse-causal factorization (prop. \ref{ReverseCausalFactorizationOfReverseTimeOrderedProducts} below).
 
 
@@ -496,7 +490,7 @@ and their induced reverse-causal factorization (prop. \ref{ReverseCausalFactoriz
 
 Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}.
 
-Then a _perturbative [[S-matrix]] scheme_ for [[perturbative QFT]] around this [[free field|free]] [[vacuum]] is a [[function]]
+Then a _perturbative [[S-matrix]] [[renormalization scheme|scheme]]_ for [[perturbative QFT]] around this [[free field|free]] [[vacuum]] is a [[function]]
 
 $$
   \mathcal{S}
@@ -600,7 +594,7 @@ such that the following two conditions "perturbation" and "causal additivity (jo
    $$
 
 (The [[inverse]] $\mathcal{S}(O)^{-1}$ of $\mathcal{S}(O)$ with respect to the [[Wick algebra]]-[[structure]]
-is implied to exist by axiom "perturbation", see remark \ref{PerturbativeSMatrixInverse} below.)
+is implied to exist by the axiom "perturbation", see remark \ref{PerturbativeSMatrixInverse} below.)
 
 =--
 
@@ -688,7 +682,7 @@ induces a corresponding concept of [[observables]]:
 
 Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}, let $\mathcal{S}$ be a corresponding [[S-matrix]] scheme according to def. \ref{LagrangianFieldTheoryPerturbativeScattering}.
 
-The corresponding _[[generating function]] scheme_
+The corresponding _[[generating function]] [[renormalization scheme|scheme]]_
 (for [[interacting field observables]], def. \ref{InteractingFieldObservables} below) is the functional
 
 $$
@@ -719,7 +713,7 @@ $$
 **([[causal additivity]] in terms of [[generating functions]])**
 
 In terms of the [[generating functions]] $\mathcal{Z}$ (def. \ref{SchemeGeneratingFunction}) the axiom "[[causal additivity]]"
-on the [[S-matrix]] scheme $\mathcal{S}$ (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) is equivalent to:
+on the [[S-matrix]] [[renormalization scheme|scheme]] $\mathcal{S}$ (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) is equivalent to:
 
 * ([[causal additivity]] in terms of $\mathcal{Z}$)
 
@@ -882,7 +876,7 @@ which express the [[probability amplitudes]] that reflect the predictions of the
 
 =--
 
-([Epstein-Glaser 73, around (74)](S-matrix#EpsteinGlaser73); review includes ([D&#252;tsch-Fredenhagen 00, around (17)](S-matrix#DuetschFredenhagen00), [Dütsch 18, around (3.212)](pAQFT#Duetsch18)).
+([Epstein-Glaser 73, around (74)](S-matrix#EpsteinGlaser73)); review includes ([D&#252;tsch-Fredenhagen 00, around (17)](S-matrix#DuetschFredenhagen00), [Dütsch 18, around (3.212)](pAQFT#Duetsch18)).
 
 
 +-- {: .num_example #FormalPowerSeriesInteractingFieldObservables}
@@ -1137,7 +1131,7 @@ These [[vacuum expectation values]] are interpreted, in the [[adiabatic limit]] 
 For notational convenience, we spell out the argument for $n_{in} =  1 = n_{out}$. The general case
 is directly analogous.
 
-So assuming the [[causal order]]
+So assuming the [[causal order]] (def. \ref{CausalOrdering})
 
 $$
   supp(A_{out})
@@ -1227,8 +1221,8 @@ For practical computation of [[vacuum expectation values]] of [[interacting fiel
 and hence in particular, via example \ref{ScatteringAmplitudeFromInteractingFieldObservables}, of [[scattering amplitudes]],
 one needs some method for collecting all the contributions to the [[formal power series]] in increasing order in $\hbar$ and $g$.
 
-Such a method is provided by the [[Feynman perturbation series]] (example \ref{FeynmanPerturbationSeries} below)
-and the [[effective action]] (def. \ref{InPerturbationTheoryActionEffective}), see example \ref{SMatrixVacuumContribution} below.
+Such a method is provided by the _[[Feynman perturbation series]]_ (example \ref{FeynmanPerturbationSeries} below)
+and the _[[effective action]]_ (def. \ref{InPerturbationTheoryActionEffective}), see example \ref{SMatrixVacuumContribution} below.
 
 =--
 
@@ -1239,14 +1233,13 @@ $\,$
 **Conceptual remarks**
  {#RemarksOnCausalPerturbationTheoryAxioms}
 
-The simple axioms for [[S-matrices]] in [[causal perturbation theory]] (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) and hence for [[interacting field observables]] (def. \ref{InteractingFieldObservables}) have a wealth of
-implications and consequences. Before discussing these formally below, we here make a few informal remarks meant to put various relevant concepts into perspective:
+The simple axioms for [[S-matrix]] [[renormalization scheme|schemes]] in [[causal perturbation theory]] (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) and hence for [[interacting field observables]] (def. \ref{InteractingFieldObservables}) have a wealth of implications and consequences. Before discussing these formally below, we here make a few informal remarks meant to put various relevant concepts into perspective:
 
 +-- {: .num_remark #AsymptoticSeriesObservables}
 ###### Remark
 **([[perturbative quantum field theory|perturbative QFT]] and [[asymptotic expansion]] of [[probability amplitudes]])**
 
-Given a perturbative [[S-matrix]] scheme (def. \ref{LagrangianFieldTheoryPerturbativeScattering}), then by remark \ref{FormalPowerSeriesInteractingFieldObservables} the
+Given a [[perturbative quantum field theory|perturbative]] [[S-matrix]] [[renormalization scheme|scheme]] (def. \ref{LagrangianFieldTheoryPerturbativeScattering}), then by remark \ref{FormalPowerSeriesInteractingFieldObservables} the
 [[expectation values]] of [[interacting field observables]] (def. \ref{InteractingFieldObservables}) are [[formal power series]]
 in the formal parameters $\hbar$ and $g$ (which are interpreted as [[Planck's constant]], and as the [[coupling constant]], respectively):
 
@@ -1266,7 +1259,7 @@ suggests that in realistic field theories these series _never_ converge for _any
 
 In physical practice one tries to interpret these non-converging [[formal power series]] as _[[asymptotic expansions]]_ of
 actual but hypothetical functions in $\hbar, g$, which reflect the actual but hypothetical _[[non-perturbative quantum field theory]]_
-that one imagines is being approximated by [[perturbative QFT]] methods. An _[[asymptotic expansion]]_ of a function is a [[power series]] which may no converge, but which has for every $n \in \mathbb{N}$ an estimate for how far the [[sum]] of the first $n$ terms in the series may differ from the function being approximated.
+that one imagines is being approximated by [[perturbative QFT]] methods. An _[[asymptotic expansion]]_ of a function is a [[power series]] which may not converge, but which has for every $n \in \mathbb{N}$ an estimate for how far the [[sum]] of the first $n$ terms in the series may differ from the function being approximated.
 
 For examples such as [[quantum electrodynamics]] and [[quantum chromodynamics]], as in the [[standard model of particle physics]], the truncation of these [[formal power series]] [[scattering amplitudes]] to the first handful of [[loop orders]] in $\hbar$ happens to agree with [[experiment]] (such as at the [[LHC]] collider) to high precision (for [[QED]]) or at least decent precision (for [[QCD]]), at least away from infrared phenomena (see remark \ref{AdiabaticLimit}).
 
@@ -1332,11 +1325,7 @@ This exhibits the [[S-matrix]]-scheme as a "[[causal ordering|causally ordered]]
 or "[[Dyson series]]" of the [[interaction]], hence as a refinement to [[relativistic field theory]] of what in
 [[quantum mechanics]] is the "integral version of the [[Schrödinger equation]] in the [[interaction picture]]" (see [this equation](S-matrix#IntegralVersionSchroedingerEquationInInteractionPicture) at _[[S-matrix]]_; see also [Scharf 95, second half of 0.3](S-matrix#Scharf95)).
 
-While [[causal additivity]] is in fact stronger than [[causal factorization]], we find below that the
-evident analogue of [[causal factorization]] imposed directly on the [[time-ordered products]] (def. \ref{TimeOrderedProduct} below)
-does _imply_ [[causal additivity]] of the [[S-matrix]] (prop. \ref{TimeOrderedProductInducesPerturbativeSMatrix} below).
-
-The relevance of [[causal additivity]] of the [[S-matrix]], over just [[causal factorization]], is that it implies that
+The relevance of manifest [[causal additivity]] of the [[S-matrix]], over just [[causal factorization]] (even though both conditions happen to be equivalent, see prop. \ref{CausalFactorizationAlreadyImpliesSMatrix} below), is that it directly implies that
 the induced [[interacting field algebra of observables]] (def. \ref{InteractingFieldObservables}) forms a [[causally local net]] (prop. \ref{PerturbativeQuantumObservablesIsLocalnet} below).
 
 =--
@@ -1722,7 +1711,7 @@ and analogously for time-ordered products of more arguments (for instance [Weinb
 
 This however is simply a mathematical error (as amplified in [Scharf 95, below (3.2.4), below (3.2.44) and in fig. 3](causal+perturbation+theory#Scharf95)):
 
-Both $T$ as well as $\Theta$ are [[distributions]] and their [[product of distributions]] is in general not defined ([[Hörmander's criterion]] may be violated). The notorious [[ultraviolet divergences]] which plagued ([Feynman 85](Schwinger-Tomonaga-Feynman-Dyson#Feynman85SuchABunchOfWords)) the original conception of [[perturbative QFT]] due to [[Schwinger-Tomonaga-Feynman-Dyson]] are the signature of this ill-defined product (see remark \ref{CausalPerturbationTheoryAbsenceOfUVDivergences}).
+Both $T$ as well as $\Theta$ are [[distributions]] and their [[product of distributions]] is in general not defined, as [[Hörmander's criterion]] (prop. \ref{HoermanderCriterionForProductOfDistributions}), which is exactly what guarantees absence of [[UV-divergences]] (remark \ref{UltravioletDivergencesFromPaleyWiener}), may be violated. The notorious [[ultraviolet divergences]] which plagued ([Feynman 85](Schwinger-Tomonaga-Feynman-Dyson#Feynman85SuchABunchOfWords)) the original conception of [[perturbative QFT]] due to [[Schwinger-Tomonaga-Feynman-Dyson]] are the signature of this ill-defined product (see remark \ref{CausalPerturbationTheoryAbsenceOfUVDivergences}).
 
 On the other hand, when both distributions are [[restriction of distributions|restricted]] to the [[complement]] of the [[diagonal]]
 (i.e. restricted away from coinciding points $x_1 = x_2$), then the [[step function]] becomes a [[non-singular distribution]]
@@ -4386,7 +4375,7 @@ Then the following conditions are [[renormalization conditions]] (def. \ref{Reno
 
 =--
 
-([Duetsch 18, p. 150 and section 4.2](S-matrix#Duetsch18))
+([Dütsch 18, p. 150 and section 4.2](S-matrix#Duetsch18))
 
 +-- {: .proof}
 ###### Proof
@@ -5037,7 +5026,7 @@ $$
   \;=\;
   \underset{i \in Ext}{\sum} g S_{int,i}
   +
-  \underset{j \in Int}{\Sum} j A_j
+  \underset{j \in Int}{\sum} j A_j
 $$
 
 a choice of internal and external interaction vertices according to def. \ref{VerticesAndFieldSpecies}.
