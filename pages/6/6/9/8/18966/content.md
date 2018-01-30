@@ -51,10 +51,15 @@ While $limsup d(\partial_0 x,\partial_1 x) = 0$ is a *topological* condition on 
 
 Let $\dots \to X_{i+1} \to X_i \to \dots $ be a tower of *compact* metric spaces; in generous versions of Set-Theory, its limit is again a *compact* metric space.  In contrast to $colim$, one can reasonably say $Reg(lim_i X_i) = lim_i Reg(X_i)$; and moreover, since the morphisms of $Reg(X_i)$ are *inclusions of subcomplexes*, it follows that
 \[ \colim_{Reg(lim X)} C_* \simeq lim_i \colim_{Reg(X_i)} C_* \]
-the usual Abstract Nonsense then gives short exact sequences
+the usual Abstract Nonsense relating to the [[Milnor sequence]], then gives short exact sequences
 \[ 0 \to lim_i^1 H_{p+1}(X_i) \to H_p (lim X) \to lim_i H_p( X_i ) \to 0 \]
+
+## Related entries
+
+* [[Steenrod-Sitnikov homology]]
 
 ## References
 
-N. E. Steenrod, Regular Cycles of Compact Metric Spaces,  Annals of Mathematics
-Second Series, Vol. 41, No. 4 (Oct., 1940), pp. 833-851 [JSTOR](https://www.jstor.org/stable/1968863)
+* N. E. [[Steenrod]], Regular Cycles of Compact Metric Spaces,  Annals of Mathematics, Second Series, Vol. 41, No. 4 (Oct., 1940), pp. 833-851 [JSTOR](https://www.jstor.org/stable/1968863)
+
+*  [[John Milnor]], _On axiomatic homology theory_, Pacific J. Math. Volume 12, Number 1 (1962), 337-341 ([Euclid](http://projecteuclid.org/euclid.pjm/1103036730))
