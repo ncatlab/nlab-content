@@ -1487,7 +1487,7 @@ suggests that in realistic field theories these series _never_ converge for _any
 
 In physical practice one tries to interpret these non-converging [[formal power series]] as _[[asymptotic expansions]]_ of
 actual but hypothetical functions in $\hbar, g$, which reflect the actual but hypothetical _[[non-perturbative quantum field theory]]_
-that one imagines is being approximated by [[perturbative QFT]] methods. An _[[asymptotic expansion]]_ of a function is a [[power series]] which may no converge, but which has for every $n \in \mathbb{N}$ an estimate for how far the [[sum]] of the first $n$ terms in the series may differ from the function being approximated.
+that one imagines is being approximated by [[perturbative QFT]] methods. An _[[asymptotic expansion]]_ of a function is a [[power series]] which may not converge, but which has for every $n \in \mathbb{N}$ an estimate for how far the [[sum]] of the first $n$ terms in the series may differ from the function being approximated.
 
 For examples such as [[quantum electrodynamics]] and [[quantum chromodynamics]], as in the [[standard model of particle physics]], the truncation of these [[formal power series]] [[scattering amplitudes]] to the first handful of [[loop orders]] in $\hbar$ happens to agree with [[experiment]] (such as at the [[LHC]] collider) to high precision (for [[QED]]) or at least decent precision (for [[QCD]]), at least away from infrared phenomena (see remark \ref{AdiabaticLimit}).
 
@@ -1553,11 +1553,7 @@ This exhibits the [[S-matrix]]-scheme as a "[[causal ordering|causally ordered]]
 or "[[Dyson series]]" of the [[interaction]], hence as a refinement to [[relativistic field theory]] of what in
 [[quantum mechanics]] is the "integral version of the [[Schrödinger equation]] in the [[interaction picture]]" (eq:IntegralVersionSchroedingerEquationInInteractionPicture). (See also [Scharf 95, second half of 0.3](#Scharf95)).
 
-While [[causal additivity]] is in fact stronger than [[causal factorization]], we find below that the
-evident analogue of [[causal factorization]] imposed directly on the [[time-ordered products]] (def. \ref{TimeOrderedProduct} below)
-does _imply_ [[causal additivity]] of the [[S-matrix]] (prop. \ref{TimeOrderedProductInducesPerturbativeSMatrix} below).
-
-The relevance of [[causal additivity]] of the [[S-matrix]], over just [[causal factorization]], is that it implies that
+The relevance of manifest [[causal additivity]] of the [[S-matrix]], over just [[causal factorization]] (even though both conditions happen to be equivalent, see prop. \ref{CausalFactorizationAlreadyImpliesSMatrix} below), is that it directly implies that
 the induced [[interacting field algebra of observables]] (def. \ref{InteractingFieldObservables}) forms a [[causally local net]] (prop. \ref{PerturbativeQuantumObservablesIsLocalnet} below).
 
 =--
