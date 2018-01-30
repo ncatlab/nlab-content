@@ -37,7 +37,21 @@ In any star-polycategory there is an isomorphism $A^{**}\cong A$ for all $A$. We
 * For each object $\Gamma$, an identity morphism $Hom(A;A)$.
 * For lists $\Gamma,\Delta,\Pi,\Sigma$ and objects $A$, a composition function
 $$Hom(\Gamma;A,\Delta)\times Hom(\Pi,A;\Sigma)\to Hom(\Gamma,\Pi;\Delta,\Sigma)$$
-respecting the exchange and negation structure, and satisfying identity and associativity laws.
+respecting the exchange and negation structure, and satisfying the same identity and associativity laws as for an ordinary polycategory.
+
+In the last axiom, "respecting the exchange and negation structure" has two pieces.  The first, more obvious, one is that the composition functions are natural with respect to object-preserving bijections $\Gamma_1^*,\Delta_1 \to \Gamma_2^*,\Delta_2$ and $\Pi_1^*,\Sigma_1 \to \Pi_2^*,\Sigma_2$ which leave the $A$'s untouched.  The second, perhaps less obvious, one is that composing along $A$ is the same as composing along $A^*$, in that the following diagram commutes:
+
+$$
+\array{
+Hom(\Gamma;A,\Delta) \times Hom(\Pi,A;\Sigma) &\xrightarrow{\circ_A} & Hom(\Gamma,\Pi;\Delta,\Sigma) \\
+\downarrow && \downarrow \\
+Hom(\Gamma,A^*;\Delta) \times Hom(\Pi;A^*,\Sigma) && \downarrow \\
+\downarrow && \downarrow \\
+Hom(\Pi;A^*,\Sigma) \times Hom(\Gamma,A^*;\Delta) & \xrightarrow{\circ_{A^*}} & Hom(\Pi,\Gamma;\Sigma,\Delta)
+}
+$$
+
+Note that because of symmetry, we can get away with requiring composition only when $A$ is the first object in $A,\Delta$ and the last object in $\Pi,A$.  If we included composition operations along an object $A$ with arbitrary placement in these lists, then there would be an axiom asserting that these compositions are invariant with respect to permutations that rearrange the location of $A$, hence essentially reducing them to the special case of a fixed placement (such as "first in $A,\Delta$ and last in $\Pi,A$").
 
 ### Entries only 
 
