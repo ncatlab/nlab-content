@@ -299,6 +299,8 @@ Introductions to [[topos theory]] include
 
 * [[André Joyal]], _[[A crash course in topos theory -- The big picture]]_, lecture series at [Topos &#224; l'IHES](https://indico.math.cnrs.fr/event/747/), November 2015, Paris 
 
+* MathProofsable, Category Theory - Toposes [video playlist] (https://www.youtube.com/watch?v=gKYpvyQPhZo&list=PL4FD0wu2mjWM3ZSxXBj4LRNsNKWZYaT7k) 
+
 
 An introduction amplifying the simple but important case of [[presheaf toposes]] is
 
