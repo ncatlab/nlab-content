@@ -222,6 +222,7 @@ The [[Stückelberg-Petermann renormalization group]] is due to
 * {#StueckelbergPetermann53} [[Ernst Stückelberg]], [[André Petermann]], _La normalisation des constantes dans la theorie des quanta_, Helv. Phys. Acta 26 (1953), 499–520
 
 The relation of the [[Stückelberg-Petermann renormalization group]] to [[scale transformations]] and the [[Gell-Mann-Low renormalization cocycle]] 
+
 * {#GellMannLow54} [[Murray Gell-Mann]] and F. E. Low, _Quantum Electrodynamics at Small Distances_, Phys. Rev. 95 (5) (1954), 1300–1312 ([pdf](http://www.fafnir.phyast.pitt.edu/py3765/GellManLow.pdf))
 
 is due to
