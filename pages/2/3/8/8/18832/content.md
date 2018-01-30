@@ -6591,8 +6591,7 @@ Then by prop. \ref{QuantumMasterEquation} we have
 
 $$
   \label{OnRegularObservablesQuantumMasterWardIdentityViaTimeOrdered}
-  \{-S',(-)\} \circ \mathcal{R}^{-1}
-  \;=\;
+  \{-S',(-)\} \circ \mathcal{R}^{-1} \;=\;
   \mathcal{R}^{-1}
   \left(\left\{ -(S' + g S_{int}) \,,\, (-) \right\}_{\mathcal{T}} -i \hbar   \Delta_{BV}\right)
 $$
