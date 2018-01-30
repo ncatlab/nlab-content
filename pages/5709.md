@@ -169,10 +169,20 @@ Introductory lecture notes are for instance in
 
 * {#Pich} A. Pich, _Effective Field Theory_ ([arXiv:hep-ph/9806303](http://arxiv.org/abs/hep-ph/9806303))
  
+### In causal perturbation theory
 
-Discussion of the relation to the perspective of [[causal perturbation theory]] the [[Stückelberg-Petermann renormalization group]] is in 
+Discussion of [[perturbative QFT|perturbative]] effective QFT in the rigorous context of [[causal perturbation theory]]/[[perturbative AQFT]] and its relation to the [[Stückelberg-Petermann renormalization group]] is due to 
 
 * {#BrunettiDuetschFredenhagen09} [[Romeo Brunetti]], [[Michael Dütsch]], [[Klaus Fredenhagen]], section 5.2 of _Perturbative Algebraic Quantum Field Theory and the Renormalization Groups_, Adv. Theor. Math. Physics 13 (2009), 1541-1599 ([arXiv:0901.2038](https://arxiv.org/abs/0901.2038))
+
+* [[Michael Dütsch]], _Connection between the renormalization groups of Stückelberg-Petermann and Wilson_, Confluentes Mathematici, Vol. 4, No. 1 (2012) 12400014 ([arXiv:1012.5604](https://arxiv.org/abs/1012.5604))
+
+* {#DuetschFredenhagenKellerRejzner14} [[Michael Dütsch]], [[Klaus Fredenhagen]], [[Kai Keller]], [[Katarzyna Rejzner]], appendix A of _Dimensional Regularization in Position Space, and a Forest Formula for Epstein-Glaser Renormalization_, J. Math. Phy. 55(12), 122303 (2014) ([arXiv:1311.5424](https://arxiv.org/abs/1311.5424))
+
+
+reviewed in
+
+* {#Duetsch18} [[Michael Dütsch]], section 3.8 of _[[From classical field theory to perturbative quantum field theory]]_, 2018
 
 
 The point that perturbatively [[renormalization|non-renormalizable]] theories may be regarded as effective field theories at each energy scale was highligted in
