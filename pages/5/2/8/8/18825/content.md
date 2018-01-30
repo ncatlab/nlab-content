@@ -1,7 +1,7 @@
 ## Propagators
  {#Propagators}
 
-In this chapter we discuss these topics:
+In this chapter we discuss the following topics:
 
 * _Background_
 
@@ -813,7 +813,7 @@ $$
 
 which would complete the generalization of of property (eq:FourierTransformInterchangesPointwiseProductWithConvolution) from prop. \ref{BasicPropertiesOfFourierTransformOverCartesianSpaces}.
 
-For this to make sense, the [[convolution product]] of the [[smooth functions]] on the right needs to exist, which is not guaranteed (prop. \ref{ConvolutionProductOnSchwartzSpace} does not apply here!). The condition that this exists is the [[Hörmander criterion]] on the _[[wave front set]]_ (def. \ref{WaveFrontSet}) of $u_1$ and $u_2$. This we further discuss in _[Microlocal analysis and UV-Divergences](#MicrolocalAnalysisAndUltravioletDivergence)_ below.
+For this to make sense, the [[convolution product]] of the [[smooth functions]] on the right needs to exist, which is not guaranteed (prop. \ref{ConvolutionProductOnSchwartzSpace} does not apply here!). The condition that this exists is the [[Hörmander criterion]] on the _[[wave front set]]_ (def. \ref{WaveFrontSet}) of $u_1$ and $u_2$ (prop. \ref{HoermanderCriterionForProductOfDistributions} belwo). This we further discuss in _[Microlocal analysis and UV-Divergences](#MicrolocalAnalysisAndUltravioletDivergence)_ below.
 
 
 =--
@@ -949,9 +949,9 @@ But apart from the [[wavelength]], the [[wave vector]] that the [[Fourier transf
 
 It therefore makes sense to record this extra directional information in the singularity structure of a distribution. This is called the [[wave front set]] (def. \ref{WaveFrontSet}) below. The refined study of singularities taking this directional information into account is what is called _[[microlocal analysis]]_.
 
-Moreover, the [[Paley-Wiener-Schwartz theorem]] I (prop. \ref{PaleyWienerSchwartzTheorem}) says that if the ultraviolet contributions diverge more than polynomially with high [[frequency]], then the corresponding would-be [[compactly supported distribution]] is not only singular, but is actually ill defined. 
+Moreover, the [[Paley-Wiener-Schwartz theorem]] I (prop. \ref{PaleyWienerSchwartzTheorem}) says that if the ultraviolet contributions diverge more than polynomially with high [[frequency]], then the corresponding would-be [[compactly supported distribution]] is not only singular, but is actually ill defined.
 
-Such _[[ultraviolet divergences]]_ appear notably when forming a would-be [[product of distributions]] whose two factors have [[wave front sets]] whose UV-contributions "add up". This condition for the appearance/avoidance of [[UV-divergences]] is called _[[Hörmander's criterion]]_ (prop. \ref{HoermanderCriterionForProductOfDistributions} below). 
+Such _[[ultraviolet divergences]]_ appear notably when forming a would-be [[product of distributions]] whose two factors have [[wave front sets]] whose UV-contributions "add up". This condition for the appearance/avoidance of [[UV-divergences]] is called _[[Hörmander's criterion]]_ (prop. \ref{HoermanderCriterionForProductOfDistributions} below).
 
 
 =--
@@ -1166,7 +1166,7 @@ $$
   }
 $$
 
-then the [[product of distributions]] $u \cdot v$ exists, given, locally, by the [[Fourier inversion theorem|Fourier inversion]] of the [[convolution product]] of their [[Fourier transform of distributions]].
+then the [[product of distributions]] $u \cdot v$ exists, given, locally, by the [[Fourier inversion theorem|Fourier inversion]] of the [[convolution product]] of their [[Fourier transform of distributions]] (remark \ref{ProductOfDistributionsViaFourierTransformOfConvolution}).
 
 
 =--
@@ -1196,8 +1196,8 @@ Let $u,v \in \mathcal{D}'(X)$ be a [[pair]] of [[distributions]] satisfying [[H�
 $$
   WF(u \cdot v)
   \;\subset\;
-  (WF(u) \cup (X \times \{0\})) 
-    + 
+  (WF(u) \cup (X \times \{0\}))
+    +
   (WF(v) \cup (X \times \{0\}))
   \,.
 $$
@@ -1213,7 +1213,7 @@ More generally:
 ###### Proposition
 **(partial [[product of distributions|product of]] [[distributions of several variables]])**
 
-Let 
+Let
 
 $$
   K_1 \in \mathcal{D}'(X \times Y)
@@ -1252,11 +1252,11 @@ $$
       \,\,
       (y,z,k_y, k_z) \in WF(K_2)
       \right)
-      \\ 
+      \\
       \text{or}
       \\
       \left(
-        k_x = 0 
+        k_x = 0
         \,\text{and}\,
         (y,z,0,-k_z) \in WF(K_2)
       \right)
@@ -2925,7 +2925,7 @@ Here in the first line we have in the [[integrand]] the [[delta distribution]] o
 ###### Proposition
 **([[Wightman propagator]] on [[Minkowski spacetime]] is [[distributional solution to a PDE|distributional solution]] to [[Klein-Gordon equation]])**
 
-The [[Wightman propagator]] $\Delta_H$ (def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime}) is a [[distributional solution to a PDE|distributional solution]] (def. \ref{DistributionalDerivatives}) to the [[Klein-Gordon equation]] 
+The [[Wightman propagator]] $\Delta_H$ (def. \ref{StandardHadamardDistributionOnMinkowskiSpacetime}) is a [[distributional solution to a PDE|distributional solution]] (def. \ref{DistributionalDerivatives}) to the [[Klein-Gordon equation]]
 
 $$
   (\Box_x - m^2)\Delta_H(x,y) = 0
@@ -3234,7 +3234,7 @@ $$
 ###### Proof
 
 By equation (eq:AdvancedAndRetardedPropagatorTurnIntoEachOtherUnderSwitchingArguments) in cor. \ref{CausalPropagatorIsSkewSymmetric} we have that $\Delta_+ + \Delta_-$
-is symmetric, and equation (eq:RealAndSymmetricH) in prop. \ref{SkewSymmetricPartOfHadmrdPropagatorIsCausalPropagatorForKleinGordonEquationOnMinkowskiSpacetime} says that $H$ is symmetric. 
+is symmetric, and equation (eq:RealAndSymmetricH) in prop. \ref{SkewSymmetricPartOfHadmrdPropagatorIsCausalPropagatorForKleinGordonEquationOnMinkowskiSpacetime} says that $H$ is symmetric.
 
 =--
 
@@ -3686,7 +3686,7 @@ $$
   (+i)
   \underset{ {\epsilon \in (0,\infty)} \atop {\epsilon \to 0} }{\lim}
   \frac{
-    1   
+    1
   }{
     - k_\mu k^\mu - \left( \tfrac{m c}{\hbar} \right)^2 \pm i \epsilon
   }
