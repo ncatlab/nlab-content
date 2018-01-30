@@ -2,13 +2,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Variational calculus
+#### Algebraic Quantum Field Theory
 +--{: .hide}
-[[!include variational calculus - contents]]
-=--
-#### Physics
-+--{: .hide}
-[[!include physicscontents]]
+[[!include AQFT and operator algebra contents]]
 =--
 =--
 =--
@@ -20,21 +16,13 @@
 
 ## Idea 
 
-In the context of [[quantum field theory]] an *effective action* is an object obtained from a more fundamental [[action functional]] by "averaging out" the dependency on certain variables.
+In the context of ([[perturbative QFT|perturbative]]) [[quantum field theory]] an _effective action_ is an object obtained from a more fundamental ([[interaction]]) [[action functional]] by "averaging out" certain dependencies.
 
-There are two different notions of effective action
+## Details
 
-1. The _one-particle irreducible action_ ("1PI action");
+* For the plain effective action see at _[[S-matrix]]_ the section _[Effective action](S-matrix#EffectiveAction)_.
 
-1. The _Wilsonian effective action_ of [[effective quantum field theory]].
-
-### 1PI action
-
-(...)
-
-### Wilsonian effective action
-
-(...)
+* More generally, for the _[[relative effective action]]_ see at _[[effective field theory]]_ the section _[Relative effective actions](effective+quantum+field+theory#RelativeEffectiveAction)_.
 
 ## References
 
@@ -54,3 +42,6 @@ http://repository.uwa.edu.au:80/R/-∞func=dbin-jump-full&object_id=9240&current
 
 [[!redirects 1PI action]]
 [[!redirects effective action]]
+
+[[!redirects relative effective action]]
+[[!redirects relative effective actions]]
