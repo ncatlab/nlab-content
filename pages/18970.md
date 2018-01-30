@@ -385,7 +385,7 @@ $$
       \circ
     \mathcal{Z}_{\rho^{-1} \rho_{vac}}^{\rho_2}
       \circ
-    \sigma_{\rho_2}^{-1}
+    \sigma_{\rho_1}^{-1}
   \right)
   \,.
 $$
@@ -470,8 +470,7 @@ $$
   \end{aligned}
 $$
 
-To conclude, it is now sufficient to see that the perturbative S-matrix 
-$\mathcal{S}_{\rho_{vac}} \colon LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]\langle g,j\rangle \longrightarrow PolyObs(E_{\text{BV-BRST}})_{mc}((\hbar))[ [ g, j] ]$ is an [[injective function]]. (...)
+This demonstrates the equation between vertex redefinitions to be shown after [[composition]] with an S-matrix scheme. But by the uniqueness-clause in the [[main theorem of perturbative renormalization]] the composition operation $\mathcal{S}_{\rho_{vac}} \circ (-)$ as a function from [[vertex redefinitions]] to S-matrix schemes is [[injective function|injective]]. This implies the equation itself.
 
 =--
 
