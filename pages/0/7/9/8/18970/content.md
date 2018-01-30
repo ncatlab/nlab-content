@@ -165,6 +165,7 @@ consider $rg_\rho$ as above, except that it is not an [[automorphism]] of any [[
 but an [[isomorphism]] between the [[Wick algebra]]-structures on various vacua, in that
 
 $$
+  \label{IntertwiningWickProductsActionRG}
   rg_{\rho}( A_1 \star_{H, \rho^{-1} \rho_{vac}} A_2 )
   \;=\;
   rg_{\rho}(A_1) \star_{H, \rho_{vac}} rg_{\rho}(A_2)
@@ -182,6 +183,7 @@ is a collection of [[S-matrix schemes]], one around each of the [[gauge fixing|g
 $vac_\rho$, it follows that for all pairs of group elements $\rho_{vac}, \rho \in RG$ the [[composition|composite]]
 
 $$
+  \label{RGConjugateSmatrix}
   \mathcal{S}_{\rho_{vac}}^\rho
   \;\coloneqq\;
   \rg_\rho \circ \mathcal{S}_{\rho^{-1}\rho_{vac}} \circ rg_\rho^{-1}
