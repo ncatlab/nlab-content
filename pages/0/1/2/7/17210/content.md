@@ -376,7 +376,7 @@ $$
   \cdots \to A_3 \to A_2 \to A_1 \to A_0
 $$
 
-is said to satify the **[[Mittag-Leffler condition]]** if for all $k$ there exists $i \geq k$ such that for all $j \geq i \geq k$ the [[image]] of the [[homomorphism]] $A_i \to A_k$ equals that of $A_j \to A_k$
+is said to satisfy the **[[Mittag-Leffler condition]]** if for all $k$ there exists $i \geq k$ such that for all $j \geq i \geq k$ the [[image]] of the [[homomorphism]] $A_i \to A_k$ equals that of $A_j \to A_k$
  
 $$
   im(A_i \to A_k) \simeq im(A_j \to A_k)
