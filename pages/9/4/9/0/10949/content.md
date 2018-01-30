@@ -7,9 +7,13 @@
 
 ## Some writings
 
-* Gabriel Catren, _Towards a Group-Theoretical Interpretation of Mechanics_  ([PhilSci Archive](http://philsci-archive.pitt.edu/10116/))
+
+* {#Catren13} _Towards a Group-Theoretical Interpretation of Mechanics_, 2013  ([PhilSci Archive](http://philsci-archive.pitt.edu/10116/))
 
 ## Further links
+
+* _[[New Spaces for Mathematics and Physics]]_
+
 
 * Gabriel Catren, _[Nature Absolue -- Speculative Philosophy of the Physico-Mathematical](http://sppm.hypotheses.org)_ 
  
