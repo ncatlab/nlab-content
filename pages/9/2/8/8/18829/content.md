@@ -2,7 +2,7 @@
  {#Quantization}
 
 
-In this chapter we discuss these topics:
+In this chapter we discuss the following topics:
 
 * _[Motivation from Lie theory](#MotivationFromLieTheory)_
 
