@@ -44,23 +44,23 @@ We discuss the rigorous formulation of effective [[perturbative QFT]] in terms o
 
 +-- {: .num_defn #CutoffsUVForPerturbativeQFT}
 ###### Definition
-**([[UV cutoffs]] and [[effective S-matrices]])**
+**([[UV cutoffs]])**
 
 Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$
-be a [[gauge fixing|gauge fixed]] [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] over [[Minkowski spacetime]] $\Sigma$ (according to [this def.](S-matrix#VacuumFree)) with corresponding [[Feynman propagator]]
+be a [[gauge fixing|gauge fixed]] [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] over [[Minkowski spacetime]] $\Sigma$ (according to [this def.](S-matrix#VacuumFree)), where $\Delta_H = \tfrac{i}{2}(\Delta_+ - \Delta_-) + H$ is the corresponding [[Wightman propagator]] inducing the [[Feynman propagator]]
 
 $$
   \Delta_F \in \Gamma'_{\Sigma \times \Sigma}(E_{\text{BV-BRST}} \boxtimes E_{\text{BV-BRST}})
-  \,.
 $$
 
+by $\Delta_F = \tfrac{i}{2}(\Delta_+ + \Delta_-) + H$.
 
 Then a choice of _[[UV cutoffs]] for [[perturbative QFT]]_ around this vacuum is a
-$[0,\infty)$-parameterized collection of [[non-singular distributions]]
+collection of [[non-singular distributions]] $\Delta_{F,\Lambda}$ parameterized by [[positive real numbers]]
 
 $$
   \array{
-    [0, \infty)
+    (0, \infty)
       &\overset{}{\longrightarrow}&
     \Gamma_{\Sigma \times \Sigma,cp}(E_{\text{BV-BRST}} \boxtimes E_{\text{BV-BRST}})
     \\
@@ -106,7 +106,7 @@ such that:
 1. the [[limit of a sequence|limit]] of the $\Delta_{F,\Lambda}$ as $\Lambda \to 0$ exists and is zero
 
    $$
-     \underset{\Lambda \to 0}{\lim} \Delta_{F,\Lambda}
+     \underset{\Lambda \to \infty}{\lim} \Delta_{F,\Lambda}
      \;=\;
      0
      \,.
@@ -122,7 +122,21 @@ such that:
      \,.
    $$
 
-Given such a choice of UV-cutoffs, we say that the _[[effective S-matrix scheme]]_ $\mathcal{S}_\Lambda$ at scale $\Lambda \in [0,\infty)$
+=--
+
+([Dütsch 10, section 4](#Duetsch10))
+
+example:  relativistic momentum cutoff with $\epsilon$-regularization ([Keller-Kopper-Schophaus 97, section 6.1](#KellerKopperSchophaus97), [Dütsch 18, example 3.126](#Duetsch18))
+
+
++-- {: .num_defn #SMatrixEffective}
+###### Definition
+**([[effective S-matrix scheme]])**
+
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$
+be a [[gauge fixing|gauge fixed]] [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] (according to [this def.](S-matrix#VacuumFree)) and let $\left\{ \Delta_{F,\Lambda}\right\}_{\Lambda \in [0,\infty)}$ be a choice of [[UV cutoffs]] for [[perturbative QFT]] around this vacuum (def. \ref{CutoffsUVForPerturbativeQFT}).
+
+We say that the _[[effective S-matrix scheme]]_ $\mathcal{S}_\Lambda$ at cutoff scale $\Lambda \in [0,\infty)$
 
 $$
   \array{
@@ -141,7 +155,7 @@ $$
   \begin{aligned}
     \mathcal{S}_\Lambda(O)
     & \coloneqq
-    \exp_{F,\Lambda}\left( \frac{1}{i \hbar} \right)
+    \exp_{F,\Lambda}\left( \frac{1}{i \hbar} O \right)
     \\
     & =
     1
@@ -159,13 +173,123 @@ $$
 
 with respect to the [[star product]] $\star_{F,\Lambda}$ induced by the $\Delta_{F,\Lambda}$ ([this def.](star+product#PropagatorStarProduct)).
 
+This is evidently defined on all [[polynomial observables]] as shown, and restricts to an endomorphism on
+[[microcausal polynomial observables]], since the contraction coefficients $\Delta_{F,\Lambda}$ are [[non-singular distributions]],
+by definition of [[UV cutoff]].
+
 =--
 
-([Dütsch 10, section 4](#Duetsch10))
+([Dütsch 10, (4.2)](#Duetsch10))
+
++-- {: .num_prop #EffectiveSmatrixSchemeInvertible}
+###### Proposition
+**([[effective S-matrix schemes]] are [[invertible functions]])**
+
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$
+be a [[gauge fixing|gauge fixed]] [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] (according to [this def.](S-matrix#VacuumFree)) and let $\left\{ \Delta_{F,\Lambda}\right\}_{\Lambda \in [0,\infty)}$ be a choice of [[UV cutoffs]] for [[perturbative QFT]] around this vacuum (def. \ref{CutoffsUVForPerturbativeQFT}).
+
+Write 
+
+$$
+  PolyObs(E_{\text{BV-BRST}})[ [ \hbar, h, j] ]\langle g,j\rangle
+    \hookrightarrow
+  PolyObs(E_{\text{BV-BRST}})[ [ \hbar, h, j] ]
+$$ 
+
+for  the subspace of the space of [[formal power series]] in $\hbar, g, j$ with [[coefficients]] [[polynomial observables]]
+on those which are at least of first order in $g,j$, i.e. those that vanish for $g, j = 0$ (as in [this def.](S-matrix#FormalParameters)).
+
+Write moreover
+
+$$
+  1 + PolyObs(E_{\text{BV-BRST}})[ [ \hbar, h, j] ]\langle g,j\rangle
+    \hookrightarrow
+  PolyObs(E_{\text{BV-BRST}})[ [ \hbar, h, j] ]
+$$
+
+for the subspace of polynomial observables which are the sum of 1 (the multiplicative unit) with an
+observable at least linear n $g,j$.
+
+Then the [[effective S-matrix schemes]] $\mathcal{S}_\Lambda$ (def. \ref{SMatrixEffective}) [[restriction|restrict]] to 
+[[linear isomorphisms]] of the form
+
+$$
+  PolyObs(E_{\text{BV-BRST}})[ [ \hbar, h, j] ]\langle g,j\rangle
+   \underoverset{\simeq}{\mathcal{S}_\Lambda}{\longrightarrow}
+  1 
+    + 
+  PolyObs(E_{\text{BV-BRST}})[ [ \hbar, h, j] ]\langle g,j\rangle
+  \,.
+$$
+
+=--
+
+[Dütsch 10, (4.7)](#Duetsch10)
+
++-- {: .proof}
+###### Proof
+
+Since each $\Delta_{F,\Lambda}$ is symmetric (def. \ref{CutoffsUVForPerturbativeQFT})
+if follows by general properties of [[star products]] ([this prop.](star+product#SymmetricContribution))
+just as for the genuine [[time-ordered product]] on [[regular polynomial observables]] ([this prop.](Wick+algebra#IsomorphismOnRegularPolynomialObservablesTimeOrderedandPointwise)) that 
+eeach the "effective time-ordered product" $\star_{F,\Lambda}$ is [[isomorphism|isomorphic]]
+to the pointwise product $(-)\cdot (-)$ ([this def.](A+first+idea+of+quantum+field+theory#Observable))
+
+$$
+  A_1 \star_{F,\Lambda} A_2
+  \;=\;
+  \mathcal{T}_\Lambda
+  \left(
+    \mathcal{T}_\Lambda^{-1}(A_1)
+    \cdot
+    \mathcal{T}_\Lambda^{-1}(A_2)
+  \right)
+$$
+
+for
+
+$$
+  \mathcal{T}_\Lambda
+  \;\coloneqq\;
+  \exp
+  \left(
+    \tfrac{1}{2}\hbar
+    \underset{\Sigma}{\int}
+    \Delta_{F,\Lambda}^{a b}(x,y)
+    \frac{\delta^2}{\delta \mathbf{\Phi}^a(x) \delta \mathbf{\Phi}^b(y)}
+  \right)
+$$
+
+(as in [this equation](Wick+algebra#eq:OnRegularPolynomialObservablesPointwiseTimeOrderedIsomorphism)).
+
+In particular this means that the [[effective S-matrix]] $\mathcal{S}_\Lambda$ arises from the 
+[[exponential series]] for the pointwise product by [[conjugation]] with $\mathcal{T}_\Lambda$:
+
+$$
+  \mathca{S}_\Lambda
+  \;=\;
+  \mathcal{T}_\Lambda \circ \exp_\cdot \circ \mathcal{T}_\Lambda^{-1}
+$$
+
+(just as for the genuine S-matrix on [[regular polynomial observables]] in [this def.](S-matrix#OnRegularObservablesPerturbativeSMatrix)).
+
+Now the exponential of the pointwise product on 
+$1 + PolyObs(E_{\text{BV-BRST}})[ [ \hbar, h, j] ]\langle g,j\rangle$
+has as [[inverse function]] the [[natural logarithm]] [[power series]], and
+since $\mathcal{T}$ evidently preserves powers of $g,j$ this [[conjugation|conjugates]]
+to an inverse at each UV cutoff scale $\Lambda$:
+
+$$
+  \mathcal{S}_\Lambda^{-1}
+  \;=\;
+  \mathcal{T}_\Lambda \circ \ln \circ \mathcal{T}_\Lambda^{-1}
+  \,.
+$$
+
+=--
 
 $\,$
 
-example:  relativistic momentum cutoff with $\epsilon$-regularization ([Keller-Kopper-Schophaus 97, section 6.1](#KellerKopperSchophaus97), [Dütsch 18, example 3.126](#Duetsch18))
 
 $\,$
 
@@ -180,7 +304,7 @@ be a [[gauge fixing|gauge fixed]] [[relativistic field theory|relativistic]] [[f
 Then
 
 1. there exists a $[0,\infty)$-parameterized [[interaction vertex redefinition]] $\{\mathcal{Z}_\Lambda\}_{\Lambda \in \mathbb{R}_{\geq 0}}$ ([this def.](Stückelberg-Petermann+renormalization+group#InteractionVertexRedefinition))
-such that the [[limit of a sequence|limit]] of [[effective S-matrix schemes]]  $\mathcal{S}_{\Lambda}$ (eq:EffectiveSMatrixScheme) applied to the $\mathcal{Z}_\Lambda$-[[vertex redefinition|redefined interactions]] exists
+such that the [[limit of a sequence|limit]] of [[effective S-matrix schemes]]  $\mathcal{S}_{\Lambda}$ (eq:EffectiveSMatrixScheme) applied to the $\mathcal{Z}_\Lambda$-[[vertex redefinition|redefined interactions]]
 
    $$
      \mathcal{S}_\infty
@@ -191,13 +315,13 @@ such that the [[limit of a sequence|limit]] of [[effective S-matrix schemes]]  $
      \right)
    $$
 
-   and is a genuine [[S-matrix scheme]] around the given vacuum ([this def.](S-matrix#LagrangianFieldTheoryPerturbativeScattering));
+   exists and is a genuine [[S-matrix scheme]] around the given vacuum ([this def.](S-matrix#LagrangianFieldTheoryPerturbativeScattering));
 
 1. every [[S-matrix scheme]] around the given vacuum arises this way.
 
 =--
 
-This was claimed in ([Brunetti-Dütsch-Fredenhagen 09, (75)](#BrunettiDuetschFredenhagen09)), a proof appears as ([Dütsch-Fredenhagen-Keller-Rejzner 14, theorem A.1](#DuetschFredenhagenKellerRejzner14)).
+This was claimed in ([Brunetti-Dütsch-Fredenhagen 09, (75)](#BrunettiDuetschFredenhagen09)) and proven in ([Dütsch-Fredenhagen-Keller-Rejzner 14, theorem A.1](#DuetschFredenhagenKellerRejzner14)).
 
 
 +-- {: .num_remark #TermCounter}
@@ -217,7 +341,7 @@ $$
 
 a [[local observable]], regarded as an [[adiabatic switching|adiabatically switched]] [[interaction]] [[action functional]].
 
-Then prop. \ref{UVRegularization} says that there exists [[vertex redefinitions]] of this [[interaction]]
+Then prop. \ref{UVRegularization} says that there exist [[vertex redefinitions]] of this [[interaction]]
 
 $$
   \mathcal{Z}_\Lambda(g S_{int} + j A)
@@ -253,7 +377,7 @@ $$
 $$
 
 (which by the axiom "perturbation" in [this def.](Stückelberg-Petermann+renormalization+group#InteractionVertexRedefinition) is at least of second order in the [[coupling constant]]/[[source field]], as shown)
-is called a choice of _[[counterterms]]_ at cutoff scale $\Lambda$. These are new interactions which are added to the given interaction at cutoff scale $\Lambda$:
+is called a choice of _[[counterterms]]_ at cutoff scale $\Lambda$. These are new interactions which are added to the given interaction at cutoff scale $\Lambda$
 
 $$
   \mathcal{Z}_{\Lambda}(g S_{int} + j A)
@@ -263,6 +387,7 @@ $$
   S_{counter,\Lambda}
   \,.
 $$
+
 
 In this language prop. \ref{UVRegularization} says that for every free field vacuum and every choice of local interaction, there is a choice of counterterms to the interaction that defines a corresponding [[renormalization|("re"-)normalized]] [[perturbative QFT]], and every [[renormalization|(re"-)normalized]] [[perturbative QFT]] arises from some choice of counterterms.
 
@@ -308,6 +433,7 @@ $$
   \Lambda, \Lambda_0 \in [0,\infty)
 $$
 
+
 For chosen  [[counterterms]] (remark \ref{TermCounter}) hence for chose [[UV regularization]] $\mathcal{S}_\infty$ (prop. \ref{UVRegularization}) this makes sense also for $\Lamba_0 = \infty$ and we write:
 
 $$
@@ -342,8 +468,8 @@ $$
 
 regarded as an [[adiabatic switching|adiabatically switched]] [[interaction]] [[action functional]].
 
-Then def. \ref{CutoffsUVForPerturbativeQFT} and def. \ref{EffectiveActionRelative} say that 
-for any $\Lambda \in (0,\infty)$ the [[effective S-matrix]] (eq:EffectiveSMatrixScheme) of the 
+Then def. \ref{CutoffsUVForPerturbativeQFT} and def. \ref{EffectiveActionRelative} say that
+for any $\Lambda \in (0,\infty)$ the [[effective S-matrix]] (eq:EffectiveSMatrixScheme) of the
 [[relative effective action]] (eq:RelativeEffectiveActionComposite) equals the genuine [[S-matrix]] $\mathcal{S}_\infty$
 of the genuine [[interaction]] $g S_{int} + j A$:
 
@@ -354,7 +480,7 @@ $$
   \,.
 $$
 
-In other wirds the [[relative effective action]] $S_{eff,\Lambda}$  
+In other wirds the [[relative effective action]] $S_{eff,\Lambda}$
 encodes what the actual [[perturbative QFT]] defined by $\mathcal{S}_\infty\left( g S_{int} + j A  \right)$
 _effectively_ looks like at [[UV cutoff]] $\Lambda$.
 
@@ -423,7 +549,7 @@ That this is the case is the statement of [this prop.](S-matrix#LogarithmEffecti
 Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$
 be a [[gauge fixing|gauge fixed]] [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] (according to [this def.](S-matrix#VacuumFree)), let $\left\{ \Delta_{F,\Lambda}\right\}_{\Lambda \in [0,\infty)}$ be a choice of [[UV cutoffs]] for [[perturbative QFT]] around this vacuum  (def. \ref{CutoffsUVForPerturbativeQFT}), such that $\Lambda \mapsto \Lambda_{F,\Lambda}$ is [[differentiable function|differentiable]].
 
-Then for _every_ choice of [[UV regularization]] $\mathcal{S}_\infty$ (prop. \ref{UVRegularization}) the 
+Then for _every_ choice of [[UV regularization]] $\mathcal{S}_\infty$ (prop. \ref{UVRegularization}) the
 corresponding [[relative effective actions]] $S_{eff,\Lambda}$ (def. \ref{EffectiveActionRelative}) satisfy the following [[differential equation]]:
 
 $$
@@ -455,10 +581,10 @@ a priori involves a choice of [[UV regularization]] $\mathcal{S}_\infty$ (prop. 
 While (by that proposition and the [[main theorem of perturbative renormalization]] this is guaranteed to exist)
 in practice one is after methods for constructing this _without_ specifying it a priori.
 
-Hence the point of [[Polchinski's flow equation]] (prop. \ref{FlowEquationPolchinski}) is that, 
+Hence the point of [[Polchinski's flow equation]] (prop. \ref{FlowEquationPolchinski}) is that,
 as a [[differential equation]], it is _independent_ of the choice of $\mathcal{S}_{\infty}$,
 and yet solutions yields [[relative effective actions]] parameterized by [[UV cutoff]] scales $\Lambda$.
-The freedom in choosing the initial values of this differential equation then corresponds to 
+The freedom in choosing the initial values of this differential equation then corresponds to
 the [[renormalization|("re"-)normalization freedom]] in choosing the [[UV regularization]] $\mathcal{S}_\infty$.
 
 
