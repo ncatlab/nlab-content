@@ -27,7 +27,7 @@ The poset of facts is [[star-autonomous category|star-autonomous]].
 =--
 +-- {: .proof}
 ###### Proof
-It is closed under $\multimap$, since $(X\multimap (Y\multimap\bot)) = (X\otimes Y\multimap \bot)$.  And it is reflective, with reflector $(-\multimap\bot)\multimap\bot$.  Thus, it is closed symmetric monoidal with tensor product $((X\otimes Y)\multimap\bot)\multimap\bot$.  By construction, it is therefore star-autonomous.
+It is closed under $\multimap$, since $(X\multimap (Y\multimap\bot)) = (X\otimes Y\multimap \bot)$.  And it is reflective, with reflector $(-\multimap\bot)\multimap\bot$.  Thus, it is closed symmetric monoidal with tensor product $((X\otimes Y)\multimap\bot)\multimap\bot$.  Since it also contains $\bot$, as $\bot = (I\multimap \bot)$, it is therefore star-autonomous by construction.
 =--
 
 The poset of facts is also, of course, a [[complete lattice]], since it a reflective sub-poset of the complete lattice $P M$.  In addition, it admits [[exponential modalities]] $!$ and $?$.  There are different ways to obtain these, but perhaps the simplest (see [here](#GirardSS)) is to take
