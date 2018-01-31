@@ -47,11 +47,10 @@ There are different formulations of renormalization:
 
 > under construction
 
-We discuss (re-)normalization in [[perturbative QFT]] of [[time-ordered products]]/[[Feynman amplitudes]]
-in [[causal perturbation theory]]/[[perturbative AQFT]].
+We discuss (re-)normalization of [[relativistic field theory|relativistic]] [[perturbative QFT]] in the rigorous formulation of  [[causal perturbation theory]]/[[perturbative AQFT]].
 
 In this rigorous discussion no "infinite divergent quantities" (as in the original informal discussion due to [[Schwinger-Tomonaga-Feynman-Dyson]]) that need to be "re-normalized" to finite well-defined quantities are ever considered,
-instead finite well-defined quantities are considered right away, and the available space of choices is considered.
+instead finite well-defined quantities are considered right away, and the available space of choices is determined.
 Therefore making such choices is really a _normalization_ of the [[time-ordered products]]/[[Feynman amplitudes]]
 (as prominently highlighted in [Scharf 95, see title, introduction, and section 4.3](causal+perturbation+theoryscatt#Scharf95)).
 This we discuss first in
@@ -65,10 +64,46 @@ The relation between different choices of such normalizations is _re_-normalizat
 #### Normalization
  {#CausalPerturbationTheoryNormalization}
 
+The construction of [[perturbative QFTs]] may be explicitly described by an [[induction|inductve]] [[extension of distributions]]
+of [[time-ordered products]]/[[Feynman amplitudes]] to coinciding interaction points. This type of construction is called
+
+* _[Epstein-Glaser renormalization](#EpsteinGlaserRenormalization)_.
+
+This inductive construction has the advantage that it gives accurate control over the space
+of available choices of renormalizations (theorem \ref{ExistenceRenormalization} below) but it 
+leaves the nature of the "new interactions" that are to be chosen at coinciding interaction points somwewhat implicit.
+
+Alternatively, one may [[vertex redefinition|re-define the interactions]] explicitly (by adding "[[counterterms]]"), 
+depending on a chosen [[UV cutoff]]-scale, and construct the [[limit of a sequence|limit]] as the "cutoff is removed".
+This is called ("re"-)normalization by
+
+* _[UV-Regularization via Counterterms](#UVRegularization)_.
+
+This still leaves open the question how to choose the [[counterterms]]. For this it serves to understand 
+the [[relative effective action]] induced by the choice of [[UV cutoff]] at any given cutoff scale. 
+The [[infinitesimal]] change of these [[relative effective actions]] follows a universal [[differential equation]],
+[[Polchinski's flow equation]] (prop. \ref{FlowEquationPolchinski} below). This makes the problem of ("re"-)normalization
+be that of solving this [[differential equation]] subject to chosen initial data. This is the perspective on
+("re"-)normalization called 
+
+* _[Wilsonian effective QFT flow](#EffectiveQFTFlowWislonian)_.
 
 ##### Epstein-Glaser normalization
  {#EpsteinGlaserRenormalization}
 
+By [this prop.](S-matrix#InteractingFieldAlgebraOfObservablesIsFormalDeformationQuantization) the 
+construction of [[perturbative quantum field theories]] around a given [[gauge fixing|gauge fixed]] [[relativistic field theory|relativistic]] [[free field theory|free field]] [[vacuum]]
+is equivalently the construction of [[S-matrices]] $\mathcal{S}(g S_{int} + j A)$ in the sense of [[causal perturbation theory]] ([this def.](S-matrix#LagrangianFieldTheoryPerturbativeScattering)) for the given [[local observable|local]] [[interaction]]
+$g S_{int} + j A$. By prop. \ref{RenormalizationIsInductivelyExtensionToDiagonal} the construction of these 
+[[S-matrices]] is [[induction|inductively]] in $k \in \mathbb{N}$ a choice of [[extension of distributions]] (remark \ref{TimeOrderedProductOfFixedInteraction} and def. \ref{ExtensionOfDistributions} below) of the corresponding $k$-ary [[time-ordered products]] of the [[interaction]] to the locus of coinciding interaction points. An inductive construction of the 
+[[S-matrix]] this way is called _[[Epstein-Glaser renormalization|Epstein-Glaser-("re"-)normalization]]_ ([this def.](S-matrix#ExtensionOfTimeOrderedProoductsRenormalization)).
+
+By paying attention to the [[scaling degree of distributions|scaling degree]] (def. \ref{ScalingDegree} below)
+one may precisely characterize the space of choices in the [[extension of distributions]] (prop. \ref{SpaceOfPointExtensions} below):
+For a given [[local observable|local]] [[interaction]] $g S_{int} + j A$ it is inductively in $k \in \mathbb{N}$ a 
+[[finite dimensional vector space|finite-dimensional]] [[affine space]]. This conclusion is theorem \ref{ExistenceRenormalization} below.
+
+$\,$
 
 +-- {: .num_prop #RenormalizationIsInductivelyExtensionToDiagonal}
 ###### Proposition
@@ -264,7 +299,7 @@ is well defined and satisfies causal factorization.
 
 =--
 
-+-- {: .num_remark}
++-- {: .num_remark #TimeOrderedProductOfFixedInteraction}
 ###### Remark
 **([[time-ordered products]] of fixed [[interaction]] as [[distributions]])**
 
@@ -331,7 +366,435 @@ If $\Sigma = \mathbb{R}^{p,1}$ is [[Minkowski spacetime]] and we impose the [[re
 
 =--
 
-Therefore we now discuss [[extension of distributions]] on [[Cartesian spaces]] from the complement of the origin to the origin.
+Therefore we now discuss [[extension of distributions]] (def. \ref{ExtensionOfDistributions} below) on [[Cartesian spaces]] from the complement of the origin to the origin. Since the space of choices of such extensions turns out to depend on the _[[scaling degree of distributions]]_,
+we first discuss that (def. \ref{ScalingDegree} below).
+
++-- {: .num_defn #RescaledDistribution}
+###### Definition
+**([[scaling degree of distributions|rescaled distribution]])**
+
+Let $n \in \mathbb{N}$. For $\lambda \in (0,\infty) \subset \mathbb{R}$ a [[positive number|positive]] [[real number]] write
+
+$$
+  \array{
+    \mathbb{R}^n
+      &\overset{s_\lambda}{\longrightarrow}&
+    \mathbb{R}^n
+    \\
+    x &\mapsto& \lambda x
+  }
+$$
+
+for the [[diffeomorphism]] given by multiplication with $\lambda$, using the canonical [[real vector space]]-structure of $\mathbb{R}^n$.
+
+Then for $u \in \mathcal{D}'(\mathbb{R}^n)$ a [[distribution]] on the [[Cartesian space]] $\mathbb{R}^n$ the _rescaled distribution_ is the [[pullback of a distribution|pullback]] of $u$ along $m_\lambda$
+
+$$
+  u_\lambda
+  \coloneqq
+   s_\lambda^\ast u
+  \;\in\;
+  \mathcal{D}'(\mathbb{R}^n)
+  \,.
+$$
+
+Explicitly, this is given by
+
+$$
+  \array{
+     \mathcal{D}(\mathbb{R}^n)
+       &\overset{ \langle  u_\lambda, - \rangle}{\longrightarrow}&
+     \mathbb{R}
+     \\
+     b &\mapsto& \lambda^{-n} \langle u , b(\lambda^{-1}\cdot (-))\rangle
+  }
+  \,.
+$$
+
+Similarly for $X \subset \mathbb{R}^n$ an [[open subset]] which is invariant under $s_\lambda$, the rescaling of a distribution $u \in \mathcal{D}'(X)$ is is $u_\lambda \coloneqq s_\lambda^\ast u$.
+
+=--
+
++-- {: .num_defn #ScalingDegree}
+###### Definition
+**([[scaling degree of a distribution]])**
+
+Let $n \in \mathbb{N}$ and let $X \subset \mathbb{R}^n$ be an [[open subset]] of [[Cartesian space]] which is invariant under [[rescaling]] $s_\lambda$ (def. \ref{RescaledDistribution}) for all $\lambda \in (0,\infty)$, and let $u \in \mathcal{D}'(X)$ be a [[distribution]] on this subset. Then
+
+1. The _[[scaling degree of a distribution|scaling degree]]_ of $u$ is the [[infimum]]
+
+   $$
+     sd(u)
+     \;\coloneqq\;
+     inf
+     \left\{
+       \omega \in \mathbb{R}
+        \;\vert\;
+       \underset{\lambda \to 0}{\lim}
+        \lambda^\omega u_\lambda
+        = 0
+     \right\}
+   $$
+
+   of the set of [[real numbers]] $\omega$ such that the [[limit of a sequence|limit]] of the rescaled distribution $\lambda^\omega u_\lambda$ (def. \ref{RescaledDistribution}) vanishes. If there is no such $\omega$ one sets $sd(u) \coloneqq \infty$.
+
+1. The _[[degree of divergence of a distribution|degree of divergence]]_ of $u$ is the difference of the scaling degree by the [[dimension]] of the underlying space:
+
+  $$
+    deg(u) \coloneqq sd(u) - n
+     \,.
+  $$
+
+=--
+
++-- {: .num_example #NonSingularDistributionsScalingDegree}
+###### Example
+**([[scaling degree of distributions|scaling degree]] of [[non-singular distributions]])**
+
+If $u = u_f$ is a [[non-singular distribution]] given by [[bump function]] $f \in C^\infty(X) \subset \mathcal{D}'(X)$, then its [[scaling degree of a distribution|scaling degree]] (def. \ref{ScalingDegree}) is non-[[positive number|positive]]
+
+$$
+  sd(u_f) \leq 0
+  \,.
+$$
+
+Specifically if the first non-vanishing [[partial derivative]] $\partial_\alpha f(0)$ of $f$ at 0 occurs at order ${\vert \alpha\vert} \in \mathbb{N}$, then the scaling degree of $u_f$ is $-{\vert \alpha\vert}$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By definition we have for $b \in C^\infty_{cp}(\mathbb{R}^n)$ any [[bump function]] that
+
+$$
+  \begin{aligned}
+    \left\langle
+      \lambda^{\omega}
+      (u_f)_\lambda,
+      n
+    \right\rangle
+    & =
+    \lambda^{\omega-n}
+    \underset{\mathbb{R}^n}{\int}
+       f(x) g(\lambda^{-1} x)
+    d^n x
+    \\
+    & =
+    \lambda^{\omega}
+    \underset{\mathbb{R}^n}{\int}
+       f(\lambda x) g(x)
+    d^n x
+  \end{aligned}
+  \,,
+$$
+
+where in last line we applied [[change of integration variables]].
+
+The limit of this expression is clearly zero for all  $\omega \gt 0$, which shows the first claim.
+
+If moreover the first non-vanishing [[partial derivative]] of $f$ occurs at order ${\vert \alpha \vert} = k$, then [[Hadamard's lemma]] says that $f$ is of the form
+
+$$
+  f(x)
+    \;=\;
+  \left( \underset{i}{\prod} \alpha_i ! \right)^{-1}
+  (\partial_\alpha f(0))
+  \underset{i}{\prod} (x^i)^{\alpha_i}
+  +
+  \underset{ {\beta \in \mathbb{N}^n} \atop { {\vert \beta\vert} = {\vert \alpha \vert} + 1 }  }{\sum}
+  \underset{i}{\prod} (x^i)^{\beta_i}
+  h_{\beta}(x)
+$$
+
+where the $h_{\beta}$ are [[smooth functions]]. Hence in this case
+
+$$
+  \begin{aligned}
+    \left\langle
+      \lambda^{\omega}
+      (u_f)_\lambda,
+      n
+    \right\rangle
+    & =
+    \lambda^{\omega + {\vert \alpha\vert }}
+    \underset{\mathbb{R}^n}{\int}
+      \left( \underset{i}{\prod} \alpha_i ! \right)^{-1}
+     (\partial_\alpha f(0))
+     \underset{i}{\prod} (x^i)^{\alpha_i}
+     b(x)
+    d^n x
+    \\
+    & \phantom{=}
+    +
+    \lambda^{\omega + {\vert \alpha\vert} + 1}
+    \underset{\mathbb{R}^n}{\int}
+      \underset{i}{\prod} (x^i)^{\beta_i}
+      h_{\beta}(x)
+      b(x)
+    d^n x
+  \end{aligned}
+  \,.
+$$
+
+This makes manifest that the expression goes to zero with $\lambda \to 0$ precisely for $\omega \gt - {\vert \alpha \vert}$, which means that
+
+$$
+  sd(u_f) = -{\vert \alpha \vert}
+$$
+
+in this case.
+
+
+
+
+
+
+=--
+
++-- {: .num_example #DerivativesOfDeltaDistributionScalingDegree}
+###### Example
+**([[scaling degree of a distribution|scaling degree]] of [[derivative of a distribution|derivatives]] of [[delta-distributions]])**
+
+Let $\alpha \in \mathbb{N}^n$ be a multi-index and $\partial_\alpha \delta \in \mathcal{D}'(X)$ the corresponding [[partial derivative|partial]] [[derivative of distributions|derivatives]] of the [[delta distribution]] $\delta_0 \in \mathcal{D}'(\mathbb{R}^n)$ [[support of a distribution|supported]] at $0$. Then the [[degree of divergence of a distribution|degree of divergence]] (def. \ref{ScalingDegree}) of $\partial_\alpha \delta_0$ is the total order the derivatives
+
+$$
+  deg\left(
+    {\, \atop \,} \partial_\alpha\delta_0{\, \atop \,}
+  \right)
+  \;=\;
+  {\vert \alpha \vert}
+$$
+
+where ${\vert \alpha\vert} \coloneqq \underset{i}{\sum} \alpha_i$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By definition we have for $b \in C^\infty_{cp}(\mathbb{R}^n)$ any [[bump function]] that
+
+$$
+  \begin{aligned}
+    \left\langle
+      \lambda^\omega (\partial_\alpha \delta_0)_\lambda,
+      b
+    \right\rangle
+    & =
+    (-1)^{{\vert \alpha \vert}}
+    \lambda^{\omega-n}
+    \left(
+      \frac{
+        \partial^{{\vert \alpha \vert}}
+      }{
+       \partial^{\alpha_1} x^1  \cdots \partial^{\alpha_n}x^n
+      }
+      b(\lambda^{-1}x)
+    \right)_{\vert x = 0}
+    \\
+    & =
+    (-1)^{{\vert \alpha \vert}}
+    \lambda^{\omega - n - {\vert \alpha\vert}}
+    \frac{
+      \partial^{{\vert \alpha \vert}}
+    }{
+     \partial^{\alpha_1} x^1  \cdots \partial^{\alpha_n}x^n
+    }
+    b(0)
+  \end{aligned}
+  \,,
+$$
+
+where in the last step we used the [[chain rule]] of [[differentiation]]. It is clear that this goes to zero with $\lambda$ as long as $\omega \gt n + {\vert \alpha\vert}$. Hence $sd(\partial_{\alpha} \delta_0) = n + {\vert \alpha \vert}$.
+
+=--
+
++-- {: .num_example #FeynmanPropagatorOnMinkowskiScalingDegree}
+###### Example
+**([[scaling degree of a distribution|scaling degree]] of [[Feynman propagator]] on [[Minkowski spacetime]])**
+
+Let
+
+$$
+  \Delta_F(x)
+  \;=\;
+  \underset{ {\epsilon \in (0,\infty)} \atop {\epsilon \to 0} }{\lim}
+  \frac{+i}{(2\pi)^{p+1}}
+  \int
+  \int_{-\infty}^\infty
+  \frac{
+     e^{i k_\mu x^\mu}
+  }{
+    - k_\mu k^\mu - \left( \tfrac{m c}{\hbar} \right)^2 + i \epsilon
+  }
+  \, d k_0 \, d^p \vec k
+$$
+
+be the [[Feynman propagator]] for the massive [[free field|free]] [[real scalar field]] on $n = p+1$-dimensional [[Minkowski spacetime]] ([this prop.](Feynman+propagator#FeynmanPropagatorAsACauchyPrincipalvalue)). Its [[scaling degree of a distribution|scaling degree]] is
+
+$$
+  \begin{aligned}
+    sd(\Delta_{F})
+    & = n - 2
+    \\
+    & = p -1
+  \end{aligned}
+  \,.
+$$
+
+=--
+
+([Brunetti-Fredenhagen 00, example 3 on p. 22](#BrunettiFredenhagen00))
+
++-- {: .proof}
+###### Proof
+
+Regarding $\Delta_F$ as a [[generalized function]] via the given [[Fourier transform of distributions|Fourier-transform]] expression, we find by [[change of integration variables]] in the Fourier integral that in the scaling limit the Feynman propagator becomes that for vannishing [[mass]], which scales homogeneously:
+
+$$
+  \begin{aligned}
+    \underset{\lambda \to 0}{\lim}
+    \left(
+    \lambda^\omega
+    \;
+    \Delta_F(\lambda x)
+    \right)
+    & =
+    \underset{\lambda \to 0}{\lim}
+    \left(
+    \lamba^{\omega}
+    \underset{ {\epsilon \in (0,\infty)} \atop {\epsilon \to 0} }{\lim}
+    \frac{+i}{(2\pi)^{p+1}}
+    \int
+    \int_{-\infty}^\infty
+    \frac{
+       e^{i k_\mu \lambda x^\mu}
+    }{
+      - k_\mu k^\mu - \left( \tfrac{m c}{\hbar} \right)^2 + i \epsilon
+    }
+    \, d k_0 \, d^p \vec k
+    \right)
+    \\
+    & =
+    \underset{\lambda \to 0}{\lim}
+    \left(
+    \lambda^{\omega-n}
+    \;
+    \underset{ {\epsilon \in (0,\infty)} \atop {\epsilon \to 0} }{\lim}
+    \frac{+i}{(2\pi)^{p+1}}
+    \int
+    \int_{-\infty}^\infty
+    \frac{
+       e^{i k_\mu \lambda x^\mu}
+    }{
+      - (\lambda^{-2}) k_\mu k^\mu - \left( \tfrac{m c}{\hbar} \right)^2 + i \epsilon
+    }
+    \, d k_0 \, d^p \vec k
+    \right)
+    \\
+    & =
+    \underset{\lambda \to 0}{\lim}
+    \left(
+    \lambda^{\omega-n + 2 }
+    \;
+    \underset{ {\epsilon \in (0,\infty)} \atop {\epsilon \to 0} }{\lim}
+    \frac{+i}{(2\pi)^{p+1}}
+    \int
+    \int_{-\infty}^\infty
+    \frac{
+       e^{i k_\mu \lambda x^\mu}
+    }{
+      - k_\mu k^\mu + i \epsilon
+    }
+    \, d k_0 \, d^p \vec k
+    \right)
+    \,.
+  \end{aligned}
+$$
+
+=--
+
++-- {: .num_prop #ScalingDegreeOfDistributionsBasicProperties}
+###### Proposition
+**(basic properties of [[scaling degree of distributions]])**
+
+Let $X \subset \mathbb{R}^n$ and $u \in \mathcal{D}'(X)$ be a [[distribution]] as in def. \ref{RescaledDistribution}, such that its [[scaling degree of a distribution|scaling degree]] is finite: $sd(u) \lt \infty$ (def. \ref{ScalingDegree}). Then
+
+1. For $\alpha \in \mathbb{N}^n$, the [[partial derivative|partial]] [[derivative of distributions]] $\partial_\alpha$ increases scaling degree at most by ${\vert \alpha\vert }$:
+
+   $$
+     deg(\partial_\alpha u) \;\leq\; deg(u) + {\vert \alpha\vert}
+   $$
+
+1. For $\alpha \in \mathbb{N}^n$, the [[product of distributions]] with the smooth coordinate functions $x^\alpha$ decreases scaling degree at least by ${\vert \alpha\vert }$:
+
+
+   $$
+     deg(x^\alpha u) \;\leq\; deg(u) - {\vert \alpha\vert}
+   $$
+
+1. Under [[tensor product of distributions]] their scaling degrees add:
+
+   $$
+     sd(u \otimes v) \leq sd(u) + sd(v)
+   $$
+
+   for $v \in \mathcal{D}'(Y)$ another distribution on $Y \subset \mathbb{R}^{n'}$;
+
+1. $deg(f u) \leq deg(u) - k$ for $f \in C^\infty(X)$ and $f^{(\alpha)}(0) = 0$ for ${\vert \alpha\vert} \leq k-1$;
+
+=--
+
+([Brunetti-Fredenhagen 00, lemma 5.1](#BrunettiFredenhagen00), [Dütsch 18, exercise 3.34](#Duetsch18))
+
+
+
++-- {: .proof}
+###### Proof
+
+The first three statements follow with manipulations as in example \ref{NonSingularDistributionsScalingDegree} and example \ref{DerivativesOfDeltaDistributionScalingDegree}.
+
+For the fourth...
+
+=--
+
+
+
+
++-- {: .num_prop #ScalingDegreeOfProductDistribution}
+###### Proposition
+**([[scaling degree of distributions|scaling degree]] of [[product of distributions|product distribution]])**
+
+Let $u,v \in \mathcal{D}'(\mathbb{R}^n)$ be two [[distributions]] such that
+
+1. both have finite [[degree of divergence of a distribution|degree of divergence]] (def. \ref{ScalingDegree})
+
+   $$
+     deg(u), deg(v) \lt \infty
+   $$
+
+1. their [[product of distributions]] is well-defined
+
+   $$
+     u v \in \mathcal{D}'(\mathbb{R}^n)
+   $$
+
+   (in that their [[wave front sets]] satisfy [[Hörmander's criterion]])
+
+then the product distribution has [[degree of divergence of a distribution|degree of divergence]] bounded by the sum of the separate degrees:
+
+$$
+  deg(u v)
+  \;\leq\;
+  deg(u) + deg(v)
+  \,.
+$$
+
+=--
+
+
+With the concept of [[scaling degree of distributions]] in hand, we may now discuss [[extension of distributions]]:
 
 +-- {: .num_defn #ExtensionOfDistributions}
 ###### Definition
@@ -841,6 +1304,58 @@ Since in [Brunetti-Fredenhagen 00, (38)](#BrunettiFredenhagen00) the projectors 
 
 =--
 
+In conclusion we obtain the central theorem of [[causal perturbation theory]]:
+
++-- {: .num_theorem #ExistenceRenormalization}
+###### Theorem
+**(existence and choices of [[renormalization|("re"-)normalization]] of [[S-matrices]]/[[perturbative QFTs]])**
+
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[gauge fixing|gauge-fixed]] [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]], according to [this def.](S-matrix#VacuumFree), such that the underlying [[spacetime]] is
+[[Minkowski spacetime]] and the [[Wightman propagator]] $\Delta_H$ is translation-invariant.
+
+Then:
+
+1. an [[S-matrix scheme]] $\mathcal{S}$ ([this def.](S-matrix#LagrangianFieldTheoryPerturbativeScattering)) around this vacuum exists;
+
+1. for $g S_{int} + j A \in LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]\langle g,j\rangle$ a [[local observable]], regarded
+   as an [[adiabatic switching|adiabatically switched]] [[interaction]] [[action functional]], the space of possible choices 
+   of [[S-matrices]] 
+   
+   $$
+     \mathcal{S}(g S_{int} + j A)
+     \;\in\;
+     PolyObs(E_{\text{BV-BRST}})_{mc}[ [ \hbar, g, j] ]
+   $$
+  
+   hence of the corresponding [[perturbative QFTs]], by prop. \ref{S-matrix#InteractingFieldAlgebraOfObservablesIsFormalDeformationQuantization},   is, [[induction|inductively]] in $k \in \mathbb{N}$, a [[finite dimensional vector space|finite dimensional]] [[affine space]],
+   parameterizing the [[extension of distributions|extension]] of the [[time-ordered product]] $T_k$ to the locus of 
+   coinciding interaction points. 
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+By prop. \ref{FeynmanPropagatorOnMinkowskiScalingDegree} the [[Feynman propagator]] is finite [[scaling degree of a distribution]],
+so that by prop. \ref{ScalingDegreeOfProductDistribution} the binary [[time-ordered product]] away from the diagonal
+$T_2(-,-)\vert_{\Sigma^2 \setminus diag(\Sigma)} = (-) \star_{F} (-)$ has finite scaling degree.
+
+By prop. \ref{ScalingDegreeOfProductDistribution} this implies  that in the inductive 
+description of the time-ordered products by prop. \ref{RenormalizationIsInductivelyExtensionToDiagonal}, 
+each induction step is the [[extension of distributions]] of finite [[scaling degree of a distribution]] to the point.
+By prop. \ref{SpaceOfPointExtensions} this always exists.
+
+This proves the first statement. 
+
+Now if a polynomial local interaction is fixed, then via remark \ref{TimeOrderedProductOfFixedInteraction}
+each induction step involved extending a finite number of distributions, each of finite scaling degree.
+By prop. \ref{SpaceOfPointExtensions} the corresponding space of choices is in each step
+a finite-dimensional affine space.
+
+
+=--
+
 
 
 ##### UV-Regularization via Conterterms
@@ -1090,6 +1605,7 @@ In this language prop. \ref{UVRegularization} says that for every free field vac
 
 
 ##### Wilsonian effective QFT flow
+ {#EffectiveQFTFlowWislonian}
 
 
 +-- {: .num_prop #EffectiveSmatrixSchemeInvertible}
