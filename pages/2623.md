@@ -42,13 +42,13 @@ There are different formulations of renormalization:
 
 1. _[Of theories in BV-CS form](#OfTheoriesInBVForm)_
 
-### In causal perturbation theory 
+### In causal perturbation theory
  {#InCausalPerturbationTheory}
 
 > under construction
 
 We discuss (re-)normalization in [[perturbative QFT]] of [[time-ordered products]]/[[Feynman amplitudes]]
-in [[causal perturbation theory]]/[[perturbative AQFT]]. 
+in [[causal perturbation theory]]/[[perturbative AQFT]].
 
 In this rigorous discussion no "infinite divergent quantities" (as in the original informal discussion due to [[Schwinger-Tomonaga-Feynman-Dyson]]) that need to be "re-normalized" to finite well-defined quantities are ever considered,
 instead finite well-defined quantities are considered right away, and the available space of choices is considered.
@@ -69,14 +69,13 @@ The relation between different choices of such normalizations is _re_-normalizat
 ##### Epstein-Glaser normalization
  {#EpsteinGlaserRenormalization}
 
-(...)
 
 +-- {: .num_prop #RenormalizationIsInductivelyExtensionToDiagonal}
 ###### Proposition
 **([[renormalization|("re"-)normalization]] is [[induction|inductive]] [[extension of distributions|extension]] of [[time-ordered products]] to [[diagonal]])**
 
 
-Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to [this def.](S-matrix#VacuumFree).
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[gauge fixing|gauge-fixed]] [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to [this def.](S-matrix#VacuumFree).
 
 Assume that for $n \in \mathbb{N}$, [[time-ordered products]]
 $\{T_{k}\}_{k \leq n}$ of arity $k \leq n$ have been constructed
@@ -263,26 +262,586 @@ $$
 
 is well defined and satisfies causal factorization.
 
-
 =--
 
-
-+-- {: .num_remark #RenormalizationChoices}
++-- {: .num_remark}
 ###### Remark
-**(renormalization choices)**
+**([[time-ordered products]] of fixed [[interaction]] as [[distributions]])**
 
-By prop. \ref{RenormalizationIsInductivelyExtensionToDiagonal}  the "re-"normalization of [[time-ordered products]] is [[induction|inductively]] in $k \in \mathbb{N}$ a choice of [[extension of distributions]] from $\Sigma^k \setminus diag(\Sigma)$ to all of $\Sigma^k$.
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[gauge fixing|gauge-fixed]] [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to [this def.](S-matrix#VacuumFree), and assume that the [[field bundle]] is a
+[[trivial vector bundle]] ([this example](A+first+idea+of+quantum+field+theory#TrivialVectorBundleAsAFieldBundle))
 
-If $\Sigma = \mathbb{R}^{p,1}$ is [[Minkowski spacetime]] so that the [[free field]] [[vacuum]] ([this def.](S-matrix#VacuumFree)) is translation invariant, then translation invariance reduces this to an [[extension of distributions]] of $T_{k}$ from the [[complement]] $\mathbb{R}^{k(p+1)}$ of a single point to that point.
+and let
 
-If $T_{k}$ has finite [[degree of divergence of a distribution|degree of divergence]] at the origin, then by [this prop.](extension+of+distributions#SpaceOfPointExtensions) there is a [[finite dimensional vector space|finite dimensional]] [[affine space]] of choices of such extensions, which each themselves have finite degree of divergence.
+$$
+  g S_{int} + j A
+  \;\in\;
+  LoObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]\langle g,j\rangle
+$$
 
-These are the ("re"-)normalization choices at order $k$.
+be a polynomial [[local observable]], to be regarded as a [[adiabatic switching|adiabatically switched]]
+[[interaction]] [[action functional]]. This means that there is a [[finite set]]
 
-By prop. \ref{RenormalizationIsInductivelyExtensionToDiagonal} and [this prop.](scaling+degree+of+a+distribution#ScalingDegreeOfProductDistribution) it follows that with these choices made then $T_{k+1}$ on $\Sigma^{k+1}\setminus diag(\Delta)$ has finite degree of divergence, and hence the induction does continue.
+$$
+  \left\{
+    \mathbf{L}_{int,i}, \mathbf{\alpha}_{i'} \in \Omega^{p+1,0}_\Sigma(E_{\text{BV-BRST}})
+  \right\}_{i,i'}
+$$
 
+of [[Lagrangian densities]] which are monomials in the field and jet coordinates,
+and a corresponding finite set
+
+$$
+  \left\{
+    g_{sw,i} \in C^\infty_{cp}(\Sigma)\langle g \rangle
+    \,,\,
+    j_{sw,i'} \in C^\infty_{cp}(\Sigma)\langle j \rangle
+  \right\}
+$$
+
+of [[adiabatic switchings]], such that
+
+$$
+  g S_{int} + j A
+  \;=\;
+  \tau_{\Sigma}
+  \left(
+    \underset{i}{\sum}
+    g_{sw,i} \mathbf{L}_{int,i}
+    \;+\;
+    \underset{i'}{\sum}
+    j_{sw,i'} \mathbf{\alpha}_{i'}
+  \right)
+$$
+
+is the [[transgression of variational differential forms]] ([this def.](A+first+idea+of+quantum+field+theory#TransgressionOfVariationalDifferentialFormsToConfigrationSpaces))
+of the sum of the products of these [[adiabatic switching]] with these [[Lagrangian densities]].
+
+In order to discuss the [[S-matrix]] $\mathcal{S}(g S_{int} + j A)$ and hence the
+[[time-ordered products]] of the special form $T_k\left(  \underset{k \, \text{factors}}{\underbrace{g S_{int} + j A, \cdots, g S_{int} + j A }} \right)$ it is sufficient to restrict attention to the [[restriction]] of each $T_k$ to the subspace of
+[[local observables]] induced by the finite set of [[Lagrangian densities]] $\{\mathbf{L}_{int,i}, \mathbf{\alpha}_{i'}\}_{i,i'}$.
+
+This restriction is a [[continuous linear functional]] on the corresponding space of [[bump functions]] $\{g_{sw,i}, j_{sw,i'}\}$,
+hence a [[distribution|dstributional]] [[section]] of a corresponding [[trivial vector bundle]].
+
+In terms of this, prop. \ref{RenormalizationIsInductivelyExtensionToDiagonal} says that the
+choice of [[time-ordered products]] $T_k$ is [[induction|inductively]] in $k$ a choice of [[extension of distributions]] to the [[diagonal]].
+
+If $\Sigma = \mathbb{R}^{p,1}$ is [[Minkowski spacetime]] and we impose the [[renormalization condition]] "translation invariance" ([this def.](S-matrix#RenormalizationConditions)) then each $T_k$ is a distribution on $\Sigma^{k-1} = \mathbb{R}^{(p+1)(k-1)}$ and the [[extension of distributions]] is from the complement of the origina $0 \in \mathbb{R}^{(p+1)(k-1)}$.
 
 =--
+
+Therefore we now discuss [[extension of distributions]] on [[Cartesian spaces]] from the complement of the origin to the origin.
+
++-- {: .num_defn #ExtensionOfDistributions}
+###### Definition
+**([[extension of distributions]])**
+
+Let $X \overset{\iota}{\subset} \hat X$ be an inclusion of [[open subsets]] of some [[Cartesian space]]. This induces the operation of [[restriction of distributions]]
+
+$$
+  \mathcal{D}'(\hat X)
+    \overset{\iota^\ast}{\longrightarrow}
+  \mathcal{D}'(X)
+  \,.
+$$
+
+Given a [[distribution]] $u \in \mathcal{D}'(X)$, then an _[[extension]]_ of $u$ to $\hat X$ is a distribution $\hat u \in \mathcal{D}'(\hat X)$ such that
+
+$$
+  \iota^\ast \hat u
+  \;=\;
+  u
+  \,.
+$$
+
+=--
+
+
++-- {: .num_prop #ExtensionUniqueNonPositiveDegreeOfDivergence}
+###### Proposition
+**(unique [[extension of distributions]] with negative [[degree of divergence of a distribution|degree of divergence]])**
+
+For $n \in \mathbb{N}$, let $u \in \mathcal{D}'(\mathbb{R}^n \setminus \{0\})$ be a [[distribution]] on the [[complement]] of the origin, with [[negative number|negative]] [[degree of divergence of a distribution|degree of divergence]] at the origin
+
+$$
+  deg(u) \lt 0
+  \,.
+$$
+
+Then $u$ has a _unique_ [[extension of distributions]] $\hat u \in \mathcal{D}'(\mathbb{R}^n)$ to the origin with the same degree of divergence
+
+$$
+  deg(\hat u) = deg(u)
+  \,.
+$$
+
+=--
+
+([Brunetti-Fredenhagen 00, theorem 5.2](#BrunettiFredenhagen00), [Dütsch  18, theorem 3.35 a)](#Duetsch18))
+
++-- {: .proof}
+###### Proof
+
+Regarding uniqueness:
+
+Suppose $\hat u$ and ${\hat u}^\prime$ are two extensions of $u$ with $deg(\hat u) = deg({\hat u}^\prime)$. Both being extensions of a distribution defined on $\mathbb{R}^n \setminus \{0\}$, this difference has [[support of a distribution|support]] at the origin $\{0\} \subset \mathbb{R}^n$. By [this prop.](point-supported+distribution#PointSupportedDistributionsAreSumsOfDerivativesOfDeltaDistibutions) this implies that it is a linear combination of [[derivative of a distribution|derivatives]] of the [[delta distribution]] [[support of a distribution|supported]] at the origin:
+
+$$
+  {\hat u}^\prime - \hat u
+  \;=\;
+  \underset{
+    {\alpha \in \mathbb{N}^n}
+  }{\sum}
+  c^\alpha \partial_\alpha \delta_0
+$$
+
+for constants $c^\alpha \in \mathbb{C}$. But by [this example](scaling+degree+of+a+distribution#DerivativesOfDeltaDistributionScalingDegree) the [[degree of divergence of a distribution|degree of divergence]] of these [[point-supported distributions]] is non-negative
+
+$$
+  deg( \partial_\alpha \delta_0)
+  =
+  {\vert \alpha\vert} \geq 0
+  \,.
+$$
+
+This implies that $c^\alpha = 0$ for all $\alpha$, hence that the two extensions coincide.
+
+
+Regarding existence:
+
+
+Let
+
+$$
+  b \in C^\infty_{cp}(\mathbb{R}^n)
+$$
+
+be a [[bump function]] which is $\leq 1$ and [[constant function|constant]] on 1 over a [[neighbourhood]] of the origin. Write
+
+$$
+  \chi \coloneqq 1 - b \;\in\; C^\infty(\mathbb{R}^n)
+$$
+
+<center>
+<img src="https://ncatlab.org/nlab/files/PointExtensionOfDistributions.png" >
+</center>
+
+> graphics grabbed from [Dütsch 18, p. 108](#Duetsch18)
+
+and for $\lambda \in (0,\infty)$ a [[positive real number]], write
+
+$$
+  \chi_\lambda(x)
+  \coloneqq
+  \chi(\lambda x)
+  \,.
+$$
+
+Since the [[product of distributions|product]] $\chi_\lambda u$ has [[support of a distribution]] on a [[complement]] of  a [[neighbourhood]] of the origin, we may extend it by zero to a distribution on all of $\mathbb{R}^n$, which we will denote by the same symbols:
+
+$$
+  \chi_\lambda u \in \mathcal{D}'(\mathbb{R}^n)
+  \,.
+$$
+
+By construction $\xhi_\lambda u$ coincides with $u$ away from a neighbourhood of the origin, which moreover becomes arbitrarily small as $\lambda$ increases.  This means that if the following [[limit of a sequence|limit]] exists
+
+$$
+  \hat u
+  \;\coloneqq\;
+  \underset{\lambda \to \infty}{\lim}
+   \chi_\lambda u
+$$
+
+then it is an extension of $u$.
+
+To see that the limit exists, it is sufficient to observe that we have a [[Cauchy sequence]], hence that for all $b\in C^\infty_{cp}(\mathbb{R}^n)$ the difference
+
+$$
+  (\chi_{n+1} u - \chi_n u)(b)
+  \;=\;
+  u(b)( \chi_{n+1} + \chi_n )
+$$
+
+becomes arbitrarily small.
+
+Finally to see that the unique extension $\hat u$ thus established has the same scaling degree as $u$:
+
+(...)
+
+=--
+
+
++-- {: .num_prop #SpaceOfPointExtensions}
+###### Proposition
+**(space of [[point-extensions of distributions]])
+
+For $n \in \mathbb{N}$, let $u \in \mathcal{D}'(\mathbb{R}^n \setminus \{0\})$ be a [[distribution]] of [[scaling degree of a distribution|degree of divergence]] $deg(u) \lt \infty$.
+
+Then $u$ does admit at least one [[extension of distributions|extension]] (def. \ref{ExtensionOfDistributions}) to a distribution $\hat u \in \mathcal{D}'(\mathbb{R}^n)$, and every choice of extension has the same [[degree of divergence of a distribution|degree of divergence]] as $u$
+
+$$
+  deg(\hat u) = deg(u)
+  \,.
+$$
+
+Moreover, any two such extensions $\hat u$ and ${\hat u}^\prime$ differ by a linear combination of [[partial derivatives|partial]] [[derivatives of distributions]] of order $\leq deg(u)$ of the [[delta distribution]] $\delta_0$ [[support of a distribution|supported]] at the origin:
+
+$$
+  {\hat u}^\prime
+  -
+  \hat u
+  \;=\;
+  \underset{
+    { \alpha \in \mathbb{N}^n }
+    \atop
+    { {\vert \alpha\vert} \leq deg(u) }
+  }{\sum}
+  q^\alpha
+  \partial_\alpha \delta_0
+  \,,
+$$
+
+for a finite number of constants $q^\alpha \in \mathbb{C}$.
+
+=--
+
+This is essentially ([Hörmander 90, thm. 3.2.4](#Hoermander90)). We follow ([Brunetti-Fredenhagen 00, theorem 5.3](#BrunettiFredenhagen00)), which was inspired by ([Epstein-Glaser 73, section 5](#EpsteinGlaser73)). Review of this approach is in ([Dütsch 18, theorem 3.35 (b)](#Duetsch18)), see also remark \ref{WExtensions} below.
+
+
++-- {: .proof}
+###### Proof
+
+
+For $f \in C^\infty(\mathbb{R}^n)$ a [[smooth function]], and $\rho \in \mathbb{N}$, we say that _$f$ vanishes to order $\rho$_ at the origin if all [[partial derivatives]] with multi-index $\alpha \in \mathbb{N}^n$ of total order ${\vert \alpha\vert} \leq \rho$ vanish at the origin:
+
+$$
+  \partial_\alpha f (0) = 0
+  \phantom{AAA}
+  {\vert \alpha\vert} \leq \rho
+  \,.
+$$
+
+By [[Hadamard's lemma]], such a function may be written in the form
+
+$$
+  \label{ForVanishingOrderRhoHadamardExpansion}
+  f(x)
+  \;=\;
+  \underset{
+    {\alpha \in \mathbb{N}^n}
+    \atop
+    { {\vert \alpha \vert} = \rho + 1 }
+  }{\sum}
+  x^\alpha
+  r_\alpha(x)
+$$
+
+for [[smooth functions]] $r_\alpha \in C^\infty_{cp}(\mathbb{R}^n)$.
+
+Write
+
+$$
+  \mathcal{D}_\rho(\mathbb{R}^n)
+    \hookrightarrow
+  \mathcal{D}(\mathbb{R}^n)
+    \coloneqq
+  C^\infty_{cp}(\mathbb{R}^n)
+$$
+
+for the subspace of that of all [[bump functions]] on those that vanish to order $\rho$ at the origin.
+
+By definition this is equivalently the joint [[kernel]] of the [[partial derivative|partial]] [[derivatives of distributions]] of order ${\vert \alpha\vert}$ of the [[delta distribution]] $\delta_0$ [[support of a distribution|supported]] at the origin:
+
+$$
+  b \in \mathcal{D}_\rho(\mathbb{R}^n)
+  \phantom{AA}
+  \Leftrightarrow
+  \phantom{AA}
+  \underset{
+    {\alpha \in \mathbb{N}^n}
+      \atop
+    { {\vert \alpha\vert} \leq \rho }
+  }
+  {\forall}
+    \left\langle \partial_\alpha \delta_0, b \right\rangle
+  = 0
+  \,.
+$$
+
+Therefore every [[continuous linear map|continuous linear]] [[projection]]
+
+$$
+  p_\rho
+   \;\colon\;
+  \mathcal{D}(\mathbb{R}^n)
+    \longrightarrow
+  \mathcal{D}_\rho(\mathbb{R}^n)
+$$
+
+may be obtained from a choice of _dual basis_ to the $\{\partial_\alpha \delta_0\}$, hence a choice of smooth functions
+
+$$
+  \left\{
+    w^\beta \in C^\infty_{cp}(\mathbb{R}^n)
+  \right\}_{ { \beta \in \mathbb{N}^n } \atop { {\vert \beta\vert} \leq \rho } }
+$$
+
+such that
+
+$$
+  \left\langle
+    \partial_\alpha \delta_0
+    \,,\,
+    w^\beta
+  \right\rangle
+  \;=\;
+  \delta_\alpha^\beta
+  \phantom{AAA}
+  \Leftrightarrow
+  \phantom{AAA}
+  \partial_\alpha w^\beta(0)
+    \;=\;
+  \delta_\alpha^\beta
+  \phantom{AAAA}
+  \text{for}\, {\vert \alpha\vert} \leq \rho
+  \,,
+$$
+
+by setting
+
+$$
+  \label{SpaceOfSmoothFunctionsOfGivenVaishingOrderProjector}
+  p_\rho
+  \;\coloneqq\;
+  id
+  \;-\;
+  \left\langle
+  \underset{
+    {\alpha \in \mathbb{N}^n}
+    \atop
+    { {\vert \alpha\vert} \leq \rho }
+  }{\sum}
+  w^\alpha \partial_\alpha \delta_0
+  \,,\,
+  (-)
+  \right\rangle
+  \,,
+$$
+
+hence
+
+$$
+  p_\rho
+  \;\colon\;
+  b
+    \mapsto
+  b
+    -
+  \underset{
+    {\alpha \in \mathbb{N}^n}
+    \atop
+    { {\vert \alpha\vert} \leq \rho }
+  }{\sum}
+  (-1)^{{\vert \alpha\vert}} w^\alpha \partial_\alpha b(0)
+  \,.
+$$
+
+Together with [[Hadamard's lemma]] in the form (eq:ForVanishingOrderRhoHadamardExpansion) this means that every $b \in \mathcal{D}(\mathbb{R}^n)$ is decomposed as
+
+$$
+  \label{ForExtensionOfDistributionsTestFunctionDecomposition}
+  \begin{aligned}
+  b(x)
+  & =
+  p_\rho(b)(x)
+  \;+\;
+  (id - p_\rho)(b)(x)
+  \\
+  & =
+  \underset{
+    { \alpha \in \mathbb{N}^n }
+    \atop
+    { {\vert \alpha \vert} = \rho + 1 }
+  }{\sum}
+  x^\alpha r_\alpha(x)
+  \;+\;
+  \underset{
+    { \alpha \in \mathbb{N}^n }
+    \atop
+    { {\vert \alpha \vert} \leq \rho }
+  }{\sum}
+  (-1)^{{\vert \alpha \vert}}
+  w^\alpha \partial_\alpha b(0)
+  \end{aligned}
+$$
+
+Now let
+
+$$
+  \rho
+  \;\coloneqq\;
+  deg(u)
+  \,.
+$$
+
+Observe that (by [this prop.](scaling+degree+of+a+distribution#ScalingDegreeOfDistributionsBasicProperties)) the [[degree of divergence of a distribution|degree of divergence]] of the [[product of distributions]] $x^\alpha u$ with ${\vert \alpha\vert} = \rho + 1$ is [[negative number|negative]]
+
+
+$$
+  \begin{aligned}
+    deg\left(
+      x^\alpha u
+    \right)
+    & =
+    \rho - {\vert \alpha \vert}
+    \leq
+    -1
+ \end{aligned}
+$$
+
+Therefore prop. \ref{ExtensionUniqueNonPositiveDegreeOfDivergence} says that each $x^\alpha u$ for ${\vert \alpha\vert} = \rho + 1$ has a unique extension $\widehat{ x^\alpha u}$ to the origin. Accordingly the composition $u \circ p_\rho$ has a unique extension, by (eq:ForExtensionOfDistributionsTestFunctionDecomposition):
+
+$$
+  \begin{aligned}
+  \left\langle
+    \hat u
+    \,,\,
+    b
+  \right\rangle
+  & =
+  \left\langle
+    \hat u
+    ,
+    p_\rho(b)
+  \right\rangle
+  +
+  \left\langle
+    \hat u
+    ,
+    (id - p_\rho)(b)
+  \right\rangle
+  \\
+  & =
+  \underset{
+    { \alpha \in \mathbb{N}^n }
+    \atop
+    { {\vert \alpha \vert} = \rho + 1 }
+  }{\sum}
+  \underset{
+    \text{unique}
+  }{
+  \underbrace{
+    \left\langle
+     \widehat{x^\alpha u}
+      \,,\,
+      r_\alpha
+    \right\rangle
+  }
+  }
+  \;+\;
+  \underset{
+    { \alpha \in \mathbb{N}^n }
+    \atop
+    { {\vert \alpha\vert} \leq \rho }
+  }{\sum}
+  \underset{
+    \text{choice}
+  }{
+  \underbrace{
+  \langle
+    \hat u
+    \,,\,
+    w^\alpha
+  \rangle
+  }
+  }
+  \left\langle
+    \partial_\alpha \delta_0
+    \,,\,
+    b
+  \right\rangle
+  \end{aligned}
+$$
+
+That says that $\hat u$ is of the form
+
+$$
+  \hat u
+  \;=\;
+  \underset{
+    \text{unique}
+  }{
+  \underbrace{
+    \widehat{
+      u \circ p_\rho
+    }
+  }
+  }
+  +
+  \underset{
+    { \alpha \in \mathbb{N}^n  }
+    \atop
+    { {\vert \alpha\vert} \leq \rho }
+  }{\sum}
+  c^\alpha
+  \,
+  \partial_\alpha \delta_0
+$$
+
+for a finite number of constants $c^\alpha \in \mathbb{C}$.
+
+Notice that for any extension $\hat u$ the exact value of the $c^\alpha$ here depends on the arbitrary choice of dual basis $\{w^\alpha\}$ used for this construction. But the uniqueness of the first summand means that for any two choices of extensions $\hat u$ and ${\hat u}^\prime$, their difference is of the form
+
+$$
+  {\hat u}^\prime - \hat u
+  \;=\;
+  \underset{
+    { \alpha \in \mathbb{N}^n  }
+    \atop
+    { {\vert \alpha\vert} \leq \rho }
+  }{\sum}
+  ( (c')^\alpha - c^\alpha )
+  \,
+  \partial_\alpha \delta_0
+  \,,
+$$
+
+where the constants $q^\alpha \coloneqq ( (c')^\alpha - c^\alpha ) \in \mathbb{C}$ are independent of any choices.
+
+
+It remains to see that all these $\hat u$ in fact have the same degree of divergence as $u$.
+
+By [this example](scaling+degree+of+a+distribution#DerivativesOfDeltaDistributionScalingDegree) the degree of divergence of the point-supported distributions on the right is $deg(\partial_\alpha \delta_0) = {\vert \alpha\vert} \leq \rho$.
+
+Therefore to conclude it is now sufficient to show that
+
+$$
+  deg\left(
+    \widehat{
+      u \circ p_\rho
+    }
+  \right)
+  \;=\;
+  \rho
+  \,.
+$$
+
+(...)
+
+=--
+
+
++-- {: .num_remark #WExtensions}
+###### Remark
+**("W-extensions")**
+
+Since in [Brunetti-Fredenhagen 00, (38)](#BrunettiFredenhagen00) the projectors (eq:SpaceOfSmoothFunctionsOfGivenVaishingOrderProjector) are denoted "$W$", the construction of [[extensions of distributions]] via the proof of prop. \ref{SpaceOfPointExtensions} has come to be called "W-extensions" (e.g [Dütsch 18](#Duetsch18)).
+
+=--
+
+
 
 ##### UV-Regularization via Conterterms
  {#UVRegularization}
@@ -1609,7 +2168,7 @@ a _[[renormalization group flow|re-normalization group flow]]_.
 It is clear from the definition that each $\mathcal{S}^{\rho}_{\rho_{vac}}$ satisfies the axiom "perturbation" (in [this def.](S-matrix#LagrangianFieldTheoryPerturbativeScattering)).
 
 In order to verify the axiom "[[causal additivity]]",
-observe, for convenience, that by [this example](S-matrix#TimeOrderedProductsFromSMatrixScheme) it is sufficient to check [[causal factorization]].
+observe, for convenience, that by [this prop.](S-matrix#CausalFactorizationAlreadyImpliesSMatrix) it is sufficient to check [[causal factorization]].
 
 So consider $O_1, O_2 \in LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]\langle g,j\rangle$
 two local observables whose spacetime support is in [[causal order]].
@@ -2791,9 +3350,9 @@ Informal introductions include
 * [[Arnold Neumaier]], _Renormalizatin without infinities -- an elementary tutorial_ ([pdf](http://www.mat.univie.ac.at/~neum/ms/ren.pdf))
 
 
-### In causal perturbation theory -- Epstein-Glaser-Renormalization
+### In causal perturbation theory
 
-The concept of renormalization in [[causal perturbation theory]] via [[splittig of distributions]] was establied in
+The idea of Epstein-Glaser renormalization is due to
 
 * {#EpsteinGlaser73} [[Henri Epstein]], [[Vladimir Glaser]], _[[The Role of locality in perturbation theory]]_, Annales Poincar&#233; Phys. Theor. A 19 (1973) 211.
 
@@ -2805,28 +3364,52 @@ following precursors in
 
 * {#BogoliubovShirkov76} [[Nikolay Bogoliubov]], [[Dmitry Shirkov]],, _Introduction to the Theory of Quantized Fiels_, New York: John Wiley and Sons, 1976, 3rd edition
 
-Further observations made in
+This was formulated in terms of splittings of distributions. The equivalent formulation in terms of [[extensions of distributions]] is due to
 
 * {#PopineauStora82} G. Popineau and [[Raymond Stora]], _A pedagogical remark on the main theorem of perturbative renormalization theory_, Nucl. Phys. B 912 (2016), 70–78, preprint: LAPP–TH, Lyon (1982).
 
 * {#Stora93} [[Raymond Stora]], _Differential algebras in Lagrangean field theory_, Lectures at ETH, Zürich, 1993, unpublished
 
-led to the equivalent formulation in [[pAQFT]] in terms of [[extension of distributions]] due to
-
 * {#BrunettiFredenhagen99} [[Romeo Brunetti]], [[Klaus Fredenhagen]], _Microlocal Analysis and Interacting Quantum Field Theories: Renormalization on Physical Backgrounds_, Commun. Math. Phys. 208:623-661 (2000) ([arXiv:math-ph/9903028](http://arxiv.org/abs/math-ph/9903028))
-
-* [[Romeo Brunetti]], [[Michael Dütsch]], [[Klaus Fredenhagen]], _Perturbative Algebraic Quantum Field Theory and the Renormalization Groups_ Adv. Theor. Math. Physics 13 (2009), 1541-1599 ([arXiv:0901.2038](http://arxiv.org/abs/0901.2038))
 
 Exposition includes
 
-* [[Arnold Neumaier]], _Renormalization without infinities -- a tutorial_ ([pdf](http://www.mat.univie.ac.at/~neum/ms/ren.pdf))
-
 * {#Brouder10} [[Christian Brouder]], _Multiplication of distributions_, 2010 ([[BrouderProductOfDistributions.pdf:file]])
+
+The resulting [[Stückelberg-Petermann renormalization group]] is due to
+
+* {#StueckelbergPetermann53} [[Ernst Stückelberg]], [[André Petermann]], _La normalisation des constantes dans la theorie des quanta_, Helv. Phys. Acta 26 (1953), 499–520
+
+The relation of Epstein-Glaser/Stückelberg-Petermann to the [[renormalization group flow]] of
+
+* {#GellMannLow54} [[Murray Gell-Mann]] and F. E. Low, _Quantum Electrodynamics at Small Distances_, Phys. Rev. 95 (5) (1954), 1300–1312 ([pdf](http://www.fafnir.phyast.pitt.edu/py3765/GellManLow.pdf))
+
+and the [[effective quantum field theory]] of 
+
+* {#Wilson71} [[Kenneth Wilson]], _Renormalization group and critical phenomena_ , I., Physical review B 4(9) (1971).
+
+* {#Polchinski84} [[Joseph Polchinski]], _Renormalization and effective Lagrangians_ , Nuclear Phys. B B231, 1984 ([pdf](http://max2.physics.sunysb.edu/~rastelli/2016/Polchinski.pdf))
+
+is due to
+
+* {#BrunettiDuetschFredenhagen09} [[Romeo Brunetti]], [[Michael Dütsch]], [[Klaus Fredenhagen]], section 5.2 of _Perturbative Algebraic Quantum Field Theory and the Renormalization Groups_, Adv. Theor. Math. Physics 13 (2009), 1541-1599 ([arXiv:0901.2038](https://arxiv.org/abs/0901.2038))
+
+* {#Duetsch10} [[Michael Dütsch]], _Connection between the renormalization groups of Stückelberg-Petermann and Wilson_, Confluentes Mathematici, Vol. 4, No. 1 (2012) 12400014 ([arXiv:1012.5604](https://arxiv.org/abs/1012.5604))
+
+* {#DuetschFredenhagenKellerRejzner14} [[Michael Dütsch]], [[Klaus Fredenhagen]], [[Kai Keller]], [[Katarzyna Rejzner]], appendix A of _Dimensional Regularization in Position Space, and a Forest Formula for Epstein-Glaser Renormalization_, J. Math. Phy. 55(12), 122303 (2014) ([arXiv:1311.5424](https://arxiv.org/abs/1311.5424))
+
+Review is in 
+
+* {#Duetsch18} [[Michael Dütsch]], section 3.8 of _[[From classical field theory to perturbative quantum field theory]]_, 2018
+
+
+
+
 
 For more see at _[perturbation theory -- In AQFT](perturbation+theory#ReferencesInAQFT)_.
 
 
-Applications to the renoamrliaztion of [[Yang-Mills theory]] on curved [[background field|background]] [[spacetimes]] is accomplished in
+Applications to the renormalization of [[Yang-Mills theory]] on curved [[background field|background]] [[spacetimes]] is accomplished in
 
 * {#Hollands07} [[Stefan Hollands]], _Renormalized Quantum Yang-Mills Fields in Curved Spacetime_, Rev.Math.Phys.20:1033-1172,2008 ([arXiv:0705.3340](https://arxiv.org/abs/0705.3340))
 
