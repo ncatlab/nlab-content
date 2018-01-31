@@ -126,7 +126,7 @@ A system $\mathbf{S}=(S,\omega,\mu)\in \mathcal{K}$ satisfies MCC iff the group 
 
 In fact, the fullsubcategory $\mathcal{M}\subset \mathcal{K}$ of kinships systems satisfying MCC is equivalent to the topos of $\mathbb{Z}\times\mathbb{Z}$-actions, where $\mathbb{Z}\times\mathbb{Z}$ is the free [[Abelian group]] on two generators because actions of $F_2$ such that $G$ is commutative correspond precisely to actions of $\mathbb{Z}\times\mathbb{Z}$.
 
-A more general way to view this, is to consider the surjective homomorphism $\alpha:F_2\to \mathbb{Z}\times\mathbb{Z}$ viewed as a functor that sends the generators $1,2$ to the generators $(1,0),(0,1)$, respectively. By general results (cf. [MM94, p.359](#MM94); [RRZ04, p.226](#RRZ04)), this induces an [[essential geometric morphism]]
+A more general way to view this, is to consider the homomorphism $\alpha:F_2\to \mathbb{Z}\times\mathbb{Z}$ viewed as a functor that sends the generators $1,2$ to the generators $(1,0),(0,1)$, respectively. By general results (cf. [MM94, p.359](#MM94); [RRZ04, p.226](#RRZ04)), this induces an [[essential geometric morphism]]
 
 $$
 
