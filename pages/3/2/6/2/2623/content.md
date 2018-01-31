@@ -32,185 +32,51 @@ This also suggest that the construction of the full [[non-perturbative quantum f
 In particular the [[phenomenology|phenomenologically]] interesting case of a complete construction of interacting field theories on 4-dimensional spacetimes is presently unknown. For the case of [[Yang-Mills theory]] this open problem is one of the "Millenium Problems" (see at _[[quantization of Yang-Mills theory]]_).
 
 
-## Definitions
+## Details
 
-There are different procedures of renormalization
+There are different formulations of renormalization:
 
-1. [In causal perturbation theory (Epstein-Glaser-renormalization)](#SBEG Renormalization)
+1. _[In causal perturbation theory](#InCausalPerturbationTheory)_
 
-1. [BPHZ and Hopf-Algebraic renormalization](#BPHZRenormalization)
+1. _[BPHZ and Hopf-Algebraic renormalization](#BPHZRenormalization)_
 
-1. [Of theories in BV-CS form](#OfTheoriesInBVForm)
+1. _[Of theories in BV-CS form](#OfTheoriesInBVForm)_
 
-### In causal perturbation theory (Epstein-Glaser-renormalization)
- {#SBEG Renormalization}
-
-> under construction
-
-Based on [St&#252;ckelberg-Peterman-53](#StueckelbergPetermann53), [Bogoliubov-Shirkov 76](#BogoliubovShirkov76), developed by [Epstein-Glaser 73](#EpsteinGlaser73). Generalized to [[quantum field theory on curved spacetimes]] in [Brunetti-Fredenhagen 99](#BrunettiFredenhagen99).
-
-See at _[[causal perturbation theory]]_
-and _[[locally covariant perturbative quantum field theory]]_.
-
-[[!include Feynman diagrams in causal perturbation theory -- summary]]
-
-#### Free field vacua
- {#FreeFieldVacua}
-
-
-In considering [[perturbative QFT]], we are considering [[perturbation theory]] in formal [[deformation]] parameters around a fixed [[free field theory|free]]
-[[Lagrangian field theory|Lagrangian]] [[quantum field theory]] in a chosen [[Hadamard vacuum state]].
-
-For convenient referencing we collect all the structure and notation that goes into this in the following definitions:
-
-+-- {: .num_defn #VacuumFree}
-###### Definition
-**([[free field theory|free]] [[relativistic field theory|relativistic]] [[Lagrangian field theory|Lagrangian]] [[quantum field theory|quantum field]] [[vacuum]])**
-
-Let
-
-1. $\Sigma$ be a [[spacetime]] (e.g. [[Minkowski spacetime]]);
-
-1. $(E,\mathbf{L})$ a [[free field theory|free]] [[Lagrangian field theory]] ([this def.](A+first+idea+of+quantum+field+theory#FreeFieldTheory)), with [[field bundle]] $E \overset{fb}{\to} \Sigma$;
-
-1. $\mathcal{G} \overset{fb}{\to} \Sigma$ a [[gauge parameter bundle]] for $(E,\mathbf{L})$ ([this def.](A+first+idea+of+quantum+field+theory#GaugeParameters)), with induced [[BRST-complex|BRST]]-[[reduced phase space|reduced]] [[Lagrangian field theory]] $\left( E \times_\Sigma \mathcal{G}[1], \mathbf{L} - \mathbf{L}_{BRST}\right)$ ([this example](A+first+idea+of+quantum+field+theory#LocalOffShellBRSTComplex));
-
-1. $(E_{\text{BV-BRST}}, \mathbf{L}' - \mathbf{L}'_{BRST})$ a [[gauge fixing]] ([this def.](A+first+idea+of+quantum+field+theory#GaugeFixingLagrangianDensity)) with [[graded manifold|graded]] [[BV-BRST formalism|BV-BRST]] [[field bundle]] $E_{\text{BV-BRST}} = T^\ast_{\Sigma}[-1]\left( E\times_\Sigma \mathcal{G}[1] \times_\Sigma A \times_\Sigma A[-1]\right)$ ([this remark](A+first+idea+of+quantum+field+theory#FieldBundleBVBRST));
-
-1. $\Delta_H \in \Gamma'( E_{\text{BV-BRST}} \boxtimes E_{\text{BV-BRST}} )$ a [[Wightman propagator]] $\Delta_H = \tfrac{i}{2} \Delta + H$ compatible with the [[causal propagator]] $\Delta$ which corresponds to the [[Green hyperbolic partial differential equation|Green hyperbolic]] [[Euler-Lagrange equation|Euler-Lagrange]] [[equations of motion]] induced by the [[gauge fixing|gauge-fixed]] [[Lagrangian density]] $\mathbf{L}'$.
-
-Given this, we write
-
-$$
-  \left(
-    {\, \atop \,}
-    PolyObs(E_{\text{BV-BRST}})_{mc}[ [\hbar] ] \;,\;
-   \star_H
-   {\, \atop \,}
-  \right)
-$$
-
-for the corresponding [[Wick algebra]]-[[structure]] on [[formal power series]] in $\hbar$ ([[Planck's constant]]) of [[microcausal polynomial observables]]. This is a [[star algebra]] with respect to ([[coefficient]]-wise) [[complex conjugation]].
-
-Write
-
-$$
-  \label{HadamardVacuumStateForFreeFieldTheory}
-  \array{
-    PolyObs(E_{\text{BV-BRST}})_{mc}[ [\hbar] ]
-     &\overset{\langle - \rangle}{\longrightarrow}&
-    \mathbb{C}[ [\hbar] ]
-    \\
-    A &\mapsto& A(\Phi = 0)
-  }
-$$
-
-for the induced [[Hadamard vacuum state]] ([this prop.](Wick+algebra#WickAlgebraCanonicalState)), hence the [[state on a star-algebra|state]] whose [[distribution|distributional]] [[2-point function]] is the chosen [[Wightman propagator]]:
-
-$$
-  \left\langle \mathbf{\Phi}^a(x) \mathbf{\Phi}^b(y)\right\rangle
-  \;=\;
-  \hbar \, \Delta_H^{a b}(x,y)
-  \,.
-$$
-
-Given any [[microcausal polynomial observable]] $A \in PolyObs(E_{\text{BV-BRST}})_{mc}[ [ \hbar, g, j] ]$ then its value in this state is called its _free [[vacuum expectation value]]_
-
-$$
-  \left\langle
-    A
-  \right\rangle
-  \;\in\;
-  \mathbb{C}[ [ \hbar, g, j] ]
-  \,.
-$$
-
-Write
-
-$$
-  \label{NormalOrderingLocalObservables}
-  \array{
-    LocObs(E_{\text{BV-BRST}})
-      &\overset{\phantom{A}:(-):\phantom{A}}{\hookrightarrow}&
-    PolyObs(E_{\text{BV-BRST}})_{mc}
-    \\
-    A &\mapsto& :A:
-  }
-$$
-
-for the inclusion of [[local observables]] into [[microcausal polynomial observables]] ([this example](A+first+idea+of+quantum+field+theory#PointwiseProductsOfFieldObservablesAdiabaticallySwitchedIsMicrocausal)), thought of as forming [[normal-ordered products]] in the [[Wick algebra]] (by [this def.](A+first+idea+of+quantum+field+theory#NormalOrderedProductNotation)).
-
-We denote the [[Wick algebra]]-product (the [[star product]] $\star_H$ induced by the [[Wightman propagator]] $\Delta_H$) by juxtaposition ([this def.](A+first+idea+of+quantum+field+theory#NormalOrderedProductNotation))
-
-$$
-  A_1 A_2 \;\coloneqq\; A_1 \star_H A_2
-  \,.
-$$
-
-If an element $A \in PolyObs(E_{\text{BV-BRST}})$ has an [[inverse]] with respect to this product, we denote that by
-$A^{-1}$:
-
-$$
-  A^{-1} A = 1
-  \,.
-$$
-
-Finally, for $A \in LocObs(E_{\text{BV-BRST}})$ we write $supp(A) \subset \Sigma$ for its spacetime support ([this def.](A+first+idea+of+quantum+field+theory#SpacetimeSupport)).
-For $S_1, S_2 \subset \Sigma$ two [[subsets]] of [[spacetime]] we write
-
-$$
-  S_1 {\vee\!\!\!\wedge} S_2
-  \phantom{AAA}
-  \left\{
-    \array{
-      "S_1 \, \text{does not intersect the past of} \, S_2"
-      \\
-      \Updownarrow
-      \\
-      "S_2 \, \text{does not intersect the future of} \, S_1"
-    }
-  \right.
-$$
-
-for the  [[causal ordering]]-[[relation]] and
-
-
-$$
-  S_1 {\gt\!\!\!\!\lt} S_2
-  \phantom{AAA}
-  \text{for}
-  \phantom{AAA}
-  \array{
-    S_1 {\vee\!\!\!\wedge} S_2
-    \\
-    \text{and}
-    \\
-    S_2 {\vee\!\!\!\wedge} A_1
-  }
-$$
-
-for _[[spacelike]] separation_.
-
-=--
-
-+-- {: .num_remark}
-###### Remark
-
-For the purposes of constructing or defining the Wick algebra, the conditions on $\Delta_H$ or $H$ could be relaxed. Requiring $\Delta_H$ to be an honest [[Wightman propagator]] means that it is a distribution satisfying the [[Hadamard distribution|Hadamard wavefront condition]], as well as addition positivity and normalization requirements. Dropping the positivity and some of the normalization requirements, $\Delta_H$ is then only a _Hadamard parametrix_ for the Wightman propagator. The construction of the Wick algebra with respect to $\Delta_H$ still makes sense, but $:(-):$ can no longer be interpreted as normal ordering with respect to a fixed vacuum state. In fact, in [[locally covariant pAQFT]], the property for $\Delta_H$ to be the Wightman propagator for a state is in conflict with local covariance. On the other hand, there is no problem with selecting a locally covariant Hadamard parametrix $\Delta_H$, which allows the construction or definition of the Wick algebra to be locally covariant.
-
-=--
-
-
-#### Inductive construction
+### In causal perturbation theory 
+ {#InCausalPerturbationTheory}
 
 > under construction
+
+We discuss (re-)normalization in [[perturbative QFT]] of [[time-ordered products]]/[[Feynman amplitudes]]
+in [[causal perturbation theory]]/[[perturbative AQFT]]. 
+
+In this rigorous discussion no "infinite divergent quantities" (as in the original informal discussion due to [[Schwinger-Tomonaga-Feynman-Dyson]]) that need to be "re-normalized" to finite well-defined quantities are ever considered,
+instead finite well-defined quantities are considered right away, and the available space of choices is considered.
+Therefore making such choices is really a _normalization_ of the [[time-ordered products]]/[[Feynman amplitudes]]
+(as prominently highlighted in [Scharf 95, see title, introduction, and section 4.3](causal+perturbation+theoryscatt#Scharf95)).
+This we discuss first in
+
+* _[Normalization](#CausalPerturbationTheoryNormalization)_.
+
+The relation between different choices of such normalizations is _re_-normalization proper. This we discuss in
+
+* _[Re-Normalization](#RenormalizationCausalPerturbationTheory)_
+
+#### Normalization
+ {#CausalPerturbationTheoryNormalization}
+
+
+##### Epstein-Glaser normalization
+ {#EpsteinGlaserRenormalization}
+
+(...)
 
 +-- {: .num_prop #RenormalizationIsInductivelyExtensionToDiagonal}
 ###### Proposition
 **([[renormalization|("re"-)normalization]] is [[induction|inductive]] [[extension of distributions|extension]] of [[time-ordered products]] to [[diagonal]])**
 
 
-Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}.
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to [this def.](S-matrix#VacuumFree).
 
 Assume that for $n \in \mathbb{N}$, [[time-ordered products]]
 $\{T_{k}\}_{k \leq n}$ of arity $k \leq n$ have been constructed
@@ -239,7 +105,7 @@ This statement appears in ([Popineau-Stora 82](#PopineauStora82)), with (unpubli
 ###### Proof
 
 We will construct an [[open cover]] of $\Sigma^{n+1} \setminus \Sigma$ by subsets $\mathcal{C}_I \subset \Sigma^{n+1}$ which are [[disjoint unions]]
-of [[inhabited set|non-empty]] sets that are in [[causal order]], so that by [[causal factorization]] the 
+of [[inhabited set|non-empty]] sets that are in [[causal order]], so that by [[causal factorization]] the
 time-ordered products $T_{n+1}$ on these subsets are uniquely given by $T_{k}(-) \star_H T_{n-k}(-)$.
 Then we show that these unique products on these special subsets do coincide on [[intersections]].
 This yields the claim by a [[partition of unity]].
@@ -275,8 +141,8 @@ $$
 (Because any two distinct points in the [[globally hyperbolic spacetime]] $\Sigma$ may be causally separated by a [[Cauchy surface]],
 and any such may be deformed a little such as not to intersect any of a given finite set of points. )
 
-Hence the condition of [[causal factorization]] on $T_{n+1}$ implies that 
-[[restriction of distributions|restricted]] to any $\mathcal{C}_{I}$ these have to be given (in the condensed [[generalized function]]-notation from [this remark](S-matrix#NotationForTimeOrderedProductsAsGeneralizedFunctions)) on 
+Hence the condition of [[causal factorization]] on $T_{n+1}$ implies that
+[[restriction of distributions|restricted]] to any $\mathcal{C}_{I}$ these have to be given (in the condensed [[generalized function]]-notation from [this remark](S-matrix#NotationForTimeOrderedProductsAsGeneralizedFunctions)) on
 any unordered tuple $\mathbf{X} = \{x_1, \cdots, x_{n+1}\} \in \mathcal{C}_I$ with corresponding induced tuples
 $\mathbf{I} \coloneqq \{x_i\}_{i \in I}$ and $\overline{\mathbf{I}} \coloneqq \{x_i\}_{i \in \overline{I}}$ by
 
@@ -293,11 +159,11 @@ $$
 $$
 
 This shows that $T_{n+1}$ is unique on $\Sigma^{n+1} \setminus diag(\Sigma)$ if it exists at all,
-hence if these local identifications glue to a global definition of $T_{n+1}$. To see that this is the case, 
+hence if these local identifications glue to a global definition of $T_{n+1}$. To see that this is the case,
 we have to consider any two such subsets
 
 $$
-  I_1, I_2 
+  I_1, I_2
   \subset
   \{1, \cdots, n+1\}
   \,,
@@ -353,7 +219,7 @@ $$
     T( \overline{\mathbf{I}_1} \cap \mathbf{I}_2 )
     T( \overline{\mathbf{I}_1} \cap \overline{\mathbf{I}_2} )
     \\
-    & = 
+    & =
     T( \mathbf{I}_1 \cap \mathbf{I}_2 )
     \underbrace{
     T( \overline{\mathbf{I}_1} \cap \mathbf{I}_2 )
@@ -361,10 +227,10 @@ $$
     }
     T( \overline{\mathbf{I}_1} \cap \overline{\mathbf{I}_2} )
     \\
-    & = 
+    & =
     T( \mathbf{I}_2 )
     T( \overline{\mathbf{I}_2} )
-  \end{aligned} 
+  \end{aligned}
 $$
 
 Here in the first step we expanded out the two factors using (eq:InductiveIdentificationOfTimeOrderedProductAwayFromDiagonal) for $I_2$,
@@ -376,8 +242,8 @@ To conclude, let
 $$
   \left(
     \chi_I
-    \in  
-    C^\infty_{cp}(\Sigma^{n+1})    
+    \in
+    C^\infty_{cp}(\Sigma^{n+1})
   \right)_{ { I \subset \{1, \cdots, n+1\} } \atop { I, \overline{I} \neq \emptyset } }
 $$
 
@@ -407,7 +273,7 @@ is well defined and satisfies causal factorization.
 
 By prop. \ref{RenormalizationIsInductivelyExtensionToDiagonal}  the "re-"normalization of [[time-ordered products]] is [[induction|inductively]] in $k \in \mathbb{N}$ a choice of [[extension of distributions]] from $\Sigma^k \setminus diag(\Sigma)$ to all of $\Sigma^k$.
 
-If $\Sigma = \mathbb{R}^{p,1}$ is [[Minkowski spacetime]] so that the [[free field]] [[vacuum]] (def. \ref{VacuumFree}) is translation invariant, then translation invariance reduces this to an [[extension of distributions]] of $T_{k}$ from the [[complement]] $\mathbb{R}^{k(p+1)}$ of a single point to that point.
+If $\Sigma = \mathbb{R}^{p,1}$ is [[Minkowski spacetime]] so that the [[free field]] [[vacuum]] ([this def.](S-matrix#VacuumFree)) is translation invariant, then translation invariance reduces this to an [[extension of distributions]] of $T_{k}$ from the [[complement]] $\mathbb{R}^{k(p+1)}$ of a single point to that point.
 
 If $T_{k}$ has finite [[degree of divergence of a distribution|degree of divergence]] at the origin, then by [this prop.](extension+of+distributions#SpaceOfPointExtensions) there is a [[finite dimensional vector space|finite dimensional]] [[affine space]] of choices of such extensions, which each themselves have finite degree of divergence.
 
@@ -418,9 +284,1911 @@ By prop. \ref{RenormalizationIsInductivelyExtensionToDiagonal} and [this prop.](
 
 =--
 
-#### Main theorem of perturbative renormalization
+##### UV-Regularization via Conterterms
+ {#UVRegularization}
 
-* [[main theorem of perturbative renormalization theory]]
++-- {: .num_defn #CutoffsUVForPerturbativeQFT}
+###### Definition
+**([[UV cutoffs]])**
+
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$
+be a [[gauge fixing|gauge fixed]] [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] over [[Minkowski spacetime]] $\Sigma$ (according to [this def.](S-matrix#VacuumFree)), where $\Delta_H = \tfrac{i}{2}(\Delta_+ - \Delta_-) + H$ is the corresponding [[Wightman propagator]] inducing the [[Feynman propagator]]
+
+$$
+  \Delta_F \in \Gamma'_{\Sigma \times \Sigma}(E_{\text{BV-BRST}} \boxtimes E_{\text{BV-BRST}})
+$$
+
+by $\Delta_F = \tfrac{i}{2}(\Delta_+ + \Delta_-) + H$.
+
+Then a choice of _[[UV cutoffs]] for [[perturbative QFT]]_ around this vacuum is a
+collection of [[non-singular distributions]] $\Delta_{F,\Lambda}$ parameterized by [[positive real numbers]]
+
+$$
+  \array{
+    (0, \infty)
+      &\overset{}{\longrightarrow}&
+    \Gamma_{\Sigma \times \Sigma,cp}(E_{\text{BV-BRST}} \boxtimes E_{\text{BV-BRST}})
+    \\
+    \Lambda &\mapsto& \Delta_{F,\Lambda}
+  }
+$$
+
+such that:
+
+1. each $\Delta_{F,\Lambda}$ satisfies the following basic properties
+
+   1. (translation invariance)
+
+      $$
+        \Delta_{F,\Lambda}(x,y) = \Delta_{F,\Lambda}(x-y)
+      $$
+
+
+   1. (symmetry)
+
+      $$
+        \Delta^{b a}_{F,\Lambda}(y, x)
+        \;=\;
+        \Delta^{a b}_{F,\Lambda}(x, y)
+      $$
+
+      i.e.
+
+      $$
+        \Delta_{F,\Lambda}^{b a}(-x)
+        \;=\;
+        \Delta_{F,\Lambda}^{a b}(x)
+      $$
+
+   1. (bounded [[degree of divergence of a distribution|degree of divergence]])
+
+      $$
+        deg(\Delta_{F,\Lambda})
+        \;\leq\;
+        deg(\Delta_{F})
+      $$
+
+1. the [[limit of a sequence|limit]] of the $\Delta_{F,\Lambda}$ as $\Lambda \to 0$ exists and is zero
+
+   $$
+     \underset{\Lambda \to \infty}{\lim} \Delta_{F,\Lambda}
+     \;=\;
+     0
+     \,.
+   $$
+
+
+1. the [[limit of a sequence|limit]] of the $\Delta_{F,\Lambda}$ as $\Lambda \to \infty$ exists and is the [[Feynman propagator]]:
+
+   $$
+     \underset{\Lambda \to \infty}{\lim} \Delta_{F,\Lambda}
+     \;=\;
+     \Delta_F
+     \,.
+   $$
+
+=--
+
+([Dütsch 10, section 4](#Duetsch10))
+
+example:  relativistic momentum cutoff with $\epsilon$-regularization ([Keller-Kopper-Schophaus 97, section 6.1](#KellerKopperSchophaus97), [Dütsch 18, example 3.126](#Duetsch18))
+
+
++-- {: .num_defn #SMatrixEffective}
+###### Definition
+**([[effective S-matrix scheme]])**
+
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$
+be a [[gauge fixing|gauge fixed]] [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] (according to [this def.](S-matrix#VacuumFree)) and let $\left\{ \Delta_{F,\Lambda}\right\}_{\Lambda \in [0,\infty)}$ be a choice of [[UV cutoffs]] for [[perturbative QFT]] around this vacuum (def. \ref{CutoffsUVForPerturbativeQFT}).
+
+We say that the _[[effective S-matrix scheme]]_ $\mathcal{S}_\Lambda$ at cutoff scale $\Lambda \in [0,\infty)$
+
+$$
+  \array{
+    PolyObs(E_{\text{BV-BRST}})_{mc}[ [ \hbar, g, j] ]
+     &\overset{\mathcal{S}_{\Lambda}}{\longrightarrow}&
+    PolyObs(E_{\text{BV-BRST}})_{mc}[ [ \hbar, g, j] ]
+    \\
+    O &\mapsto& \mathcal{S}_\Lambda(O)
+  }
+$$
+
+is the [[exponential series]]
+
+$$
+  \label{EffectiveSMatrixScheme}
+  \begin{aligned}
+    \mathcal{S}_\Lambda(O)
+    & \coloneqq
+    \exp_{F,\Lambda}\left( \frac{1}{i \hbar} O \right)
+    \\
+    & =
+    1
+      +
+    \frac{1}{i \hbar} O
+      +
+    \frac{1}{2} \frac{1}{(i \hbar)^2} O \star_{F,\Lambda} O
+      +
+    \frac{1}{3!} \frac{1}{(i \hbar)^3} O \star_{F,\Lambda} O \star_{F,\Lambda} 0
+      +
+    \cdots
+  \end{aligned}
+  \,.
+$$
+
+with respect to the [[star product]] $\star_{F,\Lambda}$ induced by the $\Delta_{F,\Lambda}$ ([this def.](star+product#PropagatorStarProduct)).
+
+This is evidently defined on all [[polynomial observables]] as shown, and restricts to an endomorphism on
+[[microcausal polynomial observables]] as shown, since the contraction coefficients $\Delta_{F,\Lambda}$ are [[non-singular distributions]],
+by definition of [[UV cutoff]].
+
+=--
+
+([Dütsch 10, (4.2)](#Duetsch10))
+
+
++-- {: .num_prop #UVRegularization}
+###### Proposition
+**([[renormalization|("re"-)normalization]] via [[UV regularization]])**
+
+
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$
+be a [[gauge fixing|gauge fixed]] [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] (according to [this def.](S-matrix#VacuumFree)) and let $\left\{ \Delta_{F,\Lambda}\right\}_{\Lambda \in [0,\infty)}$ be a choice of [[UV cutoffs]] for [[perturbative QFT]] around this vacuum (def. \ref{CutoffsUVForPerturbativeQFT}).
+
+Then
+
+1. there exists a $[0,\infty)$-parameterized [[interaction vertex redefinition]] $\{\mathcal{Z}_\Lambda\}_{\Lambda \in \mathbb{R}_{\geq 0}}$ ([this def.](Stückelberg-Petermann+renormalization+group#InteractionVertexRedefinition))
+such that the [[limit of a sequence|limit]] of [[effective S-matrix schemes]]  $\mathcal{S}_{\Lambda}$ (eq:EffectiveSMatrixScheme) applied to the $\mathcal{Z}_\Lambda$-[[vertex redefinition|redefined interactions]]
+
+   $$
+     \mathcal{S}_\infty
+     \;\coloneqq\;
+     \underset{\Lambda \to \infty}{\lim}
+     \left(
+       \mathcal{S}_\Lambda \circ \mathcal{Z}_\Lambda
+     \right)
+   $$
+
+   exists and is a genuine [[S-matrix scheme]] around the given vacuum ([this def.](S-matrix#LagrangianFieldTheoryPerturbativeScattering));
+
+1. every [[S-matrix scheme]] around the given vacuum arises this way.
+
+Hence UV-regularization via [[counterterms]] is a method of [[renormalization|("re"-)normalization]] of [[perturbative QFT]] ([this def.](S-matrix#ExtensionOfTimeOrderedProoductsRenormalization)).
+
+=--
+
+This was claimed in ([Brunetti-Dütsch-Fredenhagen 09, (75)](#BrunettiDuetschFredenhagen09)) and proven in ([Dütsch-Fredenhagen-Keller-Rejzner 14, theorem A.1](#DuetschFredenhagenKellerRejzner14)).
+
+
++-- {: .num_remark #TermCounter}
+###### Remark
+**([[counterterms]])**
+
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$
+be a [[gauge fixing|gauge fixed]] [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] (according to [this def.](S-matrix#VacuumFree)) and let $\left\{ \Delta_{F,\Lambda}\right\}_{\Lambda \in [0,\infty)}$ be a choice of [[UV cutoffs]] for [[perturbative QFT]] around this vacuum (def. \ref{CutoffsUVForPerturbativeQFT}).
+
+Consider
+
+$$
+  g S_{int} + j A
+  \;\in\;
+  LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]\langle g,j\rangle
+$$
+
+a [[local observable]], regarded as an [[adiabatic switching|adiabatically switched]] [[interaction]] [[action functional]].
+
+Then prop. \ref{UVRegularization} says that there exist [[vertex redefinitions]] of this [[interaction]]
+
+$$
+  \mathcal{Z}_\Lambda(g S_{int} + j A)
+  \;\in\;
+  LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]\langle g,j\rangle
+$$
+
+parameterized by $\Lambda \in [0,\infty)$, such that the [[limit of a sequence|limit]]
+
+$$
+  \mathcal{S}_\infty(g S_{int} + j A)
+  \;\coloneqq\;
+  \underset{\Lambda \to \infty}{\lim}
+  \mathcal{S}_\Lambda\left( \mathcal{Z}_\Lambda( g S_{int} + j A )\right)
+$$
+
+exists and is an [[S-matrix]] for [[perturbative QFT]] with the given [[interaction]] $g S_{int} + j A$.
+
+In this case the difference
+
+$$
+  \begin{aligned}
+    S_{counter, \Lambda}
+    & \coloneqq
+    \left(
+      g S_{int} + j A
+    \right)
+    \;-\;
+    \mathcal{Z}_{\Lambda}(g S_{int} + j A)
+    \;\;\;\;\;\in\;
+    Loc(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]\langle g^2, j^2, g j\rangle
+  \end{aligned}
+$$
+
+(which by the axiom "perturbation" in [this def.](Stückelberg-Petermann+renormalization+group#InteractionVertexRedefinition) is at least of second order in the [[coupling constant]]/[[source field]], as shown)
+is called a choice of _[[counterterms]]_ at cutoff scale $\Lambda$. These are new interactions which are added to the given interaction at cutoff scale $\Lambda$
+
+$$
+  \mathcal{Z}_{\Lambda}(g S_{int} + j A)
+  \;=\;
+  g S_{int} + j A
+  \;+\;
+  S_{counter,\Lambda}
+  \,.
+$$
+
+
+In this language prop. \ref{UVRegularization} says that for every free field vacuum and every choice of local interaction, there is a choice of counterterms to the interaction that defines a corresponding [[renormalization|("re"-)normalized]] [[perturbative QFT]], and every [[renormalization|(re"-)normalized]] [[perturbative QFT]] arises from some choice of counterterms.
+
+=--
+
+
+##### Wilsonian effective QFT flow
+
+
++-- {: .num_prop #EffectiveSmatrixSchemeInvertible}
+###### Proposition
+**([[effective S-matrix schemes]] are [[inverse|invertible functions]])**
+
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$
+be a [[gauge fixing|gauge fixed]] [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] (according to [this def.](S-matrix#VacuumFree)) and let $\left\{ \Delta_{F,\Lambda}\right\}_{\Lambda \in [0,\infty)}$ be a choice of [[UV cutoffs]] for [[perturbative QFT]] around this vacuum (def. \ref{CutoffsUVForPerturbativeQFT}).
+
+Write
+
+$$
+  PolyObs(E_{\text{BV-BRST}})_{mc}[ [ \hbar, g, j] ]\langle g,j\rangle
+    \hookrightarrow
+  PolyObs(E_{\text{BV-BRST}})_{mc}[ [ \hbar, g, j] ]
+$$
+
+for  the subspace of the space of [[formal power series]] in $\hbar, g, j$ with [[coefficients]] [[polynomial observables]]
+on those which are at least of first order in $g,j$, i.e. those that vanish for $g, j = 0$ (as in [this def.](S-matrix#FormalParameters)).
+
+Write moreover
+
+$$
+  1 + PolyObs(E_{\text{BV-BRST}})_{mc}[ [ \hbar, g, j] ]\langle g,j\rangle
+    \hookrightarrow
+  PolyObs(E_{\text{BV-BRST}})_{mc}[ [ \hbar, g, j] ]
+$$
+
+for the subspace of polynomial observables which are the sum of 1 (the multiplicative unit) with an
+observable at least linear n $g,j$.
+
+Then the [[effective S-matrix schemes]] $\mathcal{S}_\Lambda$ (def. \ref{SMatrixEffective}) [[restriction|restrict]] to
+[[linear isomorphisms]] of the form
+
+$$
+  PolyObs(E_{\text{BV-BRST}})_{mc}[ [ \hbar, g, j] ]\langle g,j\rangle
+   \underoverset{\simeq}{\mathcal{S}_\Lambda}{\longrightarrow}
+  1
+    +
+  PolyObs(E_{\text{BV-BRST}})_{mc}[ [ \hbar, g, j] ]\langle g,j\rangle
+  \,.
+$$
+
+=--
+
+([Dütsch 10, (4.7)](#Duetsch10))
+
++-- {: .proof}
+###### Proof
+
+Since each $\Delta_{F,\Lambda}$ is symmetric (def. \ref{CutoffsUVForPerturbativeQFT})
+if follows by general properties of [[star products]] ([this prop.](star+product#SymmetricContribution))
+just as for the genuine [[time-ordered product]] on [[regular polynomial observables]] ([this prop.](Wick+algebra#IsomorphismOnRegularPolynomialObservablesTimeOrderedandPointwise)) that
+eeach the "effective time-ordered product" $\star_{F,\Lambda}$ is [[isomorphism|isomorphic]]
+to the pointwise product $(-)\cdot (-)$ ([this def.](A+first+idea+of+quantum+field+theory#Observable))
+
+$$
+  A_1 \star_{F,\Lambda} A_2
+  \;=\;
+  \mathcal{T}_\Lambda
+  \left(
+    \mathcal{T}_\Lambda^{-1}(A_1)
+    \cdot
+    \mathcal{T}_\Lambda^{-1}(A_2)
+  \right)
+$$
+
+for
+
+$$
+  \mathcal{T}_\Lambda
+  \;\coloneqq\;
+  \exp
+  \left(
+    \tfrac{1}{2}\hbar
+    \underset{\Sigma}{\int}
+    \Delta_{F,\Lambda}^{a b}(x,y)
+    \frac{\delta^2}{\delta \mathbf{\Phi}^a(x) \delta \mathbf{\Phi}^b(y)}
+  \right)
+$$
+
+(as in [this equation](Wick+algebra#eq:OnRegularPolynomialObservablesPointwiseTimeOrderedIsomorphism)).
+
+In particular this means that the [[effective S-matrix]] $\mathcal{S}_\Lambda$ arises from the
+[[exponential series]] for the pointwise product by [[conjugation]] with $\mathcal{T}_\Lambda$:
+
+$$
+  \mathcal{S}_\Lambda
+  \;=\;
+  \mathcal{T}_\Lambda \circ \exp_\cdot \circ \mathcal{T}_\Lambda^{-1}
+$$
+
+(just as for the genuine S-matrix on [[regular polynomial observables]] in [this def.](S-matrix#OnRegularObservablesPerturbativeSMatrix)).
+
+Now the exponential of the pointwise product on
+$1 + PolyObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]\langle g,j\rangle$
+has as [[inverse function]] the [[natural logarithm]] [[power series]], and
+since $\mathcal{T}$ evidently preserves powers of $g,j$ this [[conjugation|conjugates]]
+to an inverse at each UV cutoff scale $\Lambda$:
+
+$$
+  \mathcal{S}_\Lambda^{-1}
+  \;=\;
+  \mathcal{T}_\Lambda \circ \ln \circ \mathcal{T}_\Lambda^{-1}
+  \,.
+$$
+
+=--
+
+
++-- {: .num_defn #EffectiveActionRelative}
+###### Definition
+**([[relative effective action]])**
+
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$
+be a [[gauge fixing|gauge fixed]] [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] (according to [this def.](S-matrix#VacuumFree)) and let $\left\{ \Delta_{F,\Lambda}\right\}_{\Lambda \in [0,\infty)}$ be a choice of [[UV cutoffs]] for [[perturbative QFT]] around this vacuum (def. \ref{CutoffsUVForPerturbativeQFT}).
+
+Consider
+
+$$
+  g S_{int} + j A
+  \;\in\;
+  LocObs(E_{\text{BV-BrST}})[ [ \hbar, g, j] ]\langle g, j\rangle
+$$
+
+a [[local observable]] regarded as an [[adiabatic switching|adiabatically switched]] [[interaction]] [[action functional]].
+
+Then for
+
+$$
+  \Lambda,\, \Lambda_{vac} \;\in\; (0, \infty)
+$$
+
+two [[UV cutoff]]-scale parameters, we say the _[[relative effective action]]_ $S_{eff, \Lambda, \Lambda_0}$ is the image of this interaction under the [[composition|composite]]
+of the [[effective S-matrix scheme]] $\mathcal{S}_{\Lambda_0}$ at scale $\Lambda_0$ (eq:EffectiveSMatrixScheme) and the [[inverse function]] $\mathcal{S}_\Lambda^{-1}$ of the [[effective S-matrix scheme]] at scale $\Lambda$ (via prop. \ref{EffectiveSmatrixSchemeInvertible}):
+
+$$
+  \label{RelativeEffectiveActionComposite}
+  S_{eff,\Lambda, \Lambda_0}
+  \;\coloneqq\;
+  i \hbar
+  \mathcal{S}_{\Lambda}^{-1} \circ \mathcal{S}_{\Lambda_0}(g S_{int} + j A)
+  \phantom{AAA}
+  \Lambda, \Lambda_0 \in [0,\infty)
+  \,.
+$$
+
+For chosen  [[counterterms]] (remark \ref{TermCounter}) hence for chosen [[UV regularization]] $\mathcal{S}_\infty$ (prop. \ref{UVRegularization}) this makes sense also for $\Lamba_0 = \infty$ and we write:
+
+$$
+  S_{eff,\Lambda}
+  \;\coloneqq\;
+  S_{eff,\Lambda, \infty}
+  \;\coloneqq\;
+  i \hbar
+  \mathcal{S}_{\Lambda}^{-1} \circ \mathcal{S}_{\infty}(g S_{int} + j A)
+  \phantom{AAA}
+  \Lambda  \in [0,\infty)
+$$
+
+=--
+
+([Dütsch 10, (5.4)](#Duetsch10))
+
++-- {: .num_remark #pQFTEffective}
+###### Remark
+**([[effective quantum field theory]])**
+
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$
+be a [[gauge fixing|gauge fixed]] [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] (according to [this def.](S-matrix#VacuumFree)), let $\left\{ \Delta_{F,\Lambda}\right\}_{\Lambda \in [0,\infty)}$ be a choice of [[UV cutoffs]] for [[perturbative QFT]] around this vacuum  (def. \ref{CutoffsUVForPerturbativeQFT}), and let $\mathcal{S}_\infty = \underset{\Lambda \to \infty}{\lim} \mathcal{S}_\Lambda \circ \mathcal{Z}_\Lambda$ be a corresponding [[UV regularization]] (prop. \ref{UVRegularization}).
+
+Consider a [[local observable]]
+
+$$
+  g S_{int} + j A
+  \;\in\;
+  LocObs(E_{\text{BV-BrST}})[ [ \hbar, g, j] ]\langle g, j\rangle
+$$
+
+regarded as an [[adiabatic switching|adiabatically switched]] [[interaction]] [[action functional]].
+
+Then def. \ref{CutoffsUVForPerturbativeQFT} and def. \ref{EffectiveActionRelative} say that
+for any $\Lambda \in (0,\infty)$ the [[effective S-matrix]] (eq:EffectiveSMatrixScheme) of the
+[[relative effective action]] (eq:RelativeEffectiveActionComposite) equals the genuine [[S-matrix]] $\mathcal{S}_\infty$
+of the genuine [[interaction]] $g S_{int} + j A$:
+
+$$
+  \mathcal{S}_\Lambda( S_{eff,\Lambda} )
+  \;=\;
+  \mathcal{S}_\infty\left( g S_{int} + j A  \right)
+  \,.
+$$
+
+In other words the [[relative effective action]] $S_{eff,\Lambda}$
+encodes what the actual [[perturbative QFT]] defined by $\mathcal{S}_\infty\left( g S_{int} + j A  \right)$
+_effectively_ looks like at [[UV cutoff]] $\Lambda$.
+
+Therefore one says that $S_{eff,\Lambda}$ defines _[[effective quantum field theory]]_ at [[UV cutoff]] $\Lambda$.
+
+Notice that in general $S_{eff,\Lambda}$ is _not a [[local observable|local]] [[interaction]]_ anymore:
+By prop. \ref{EffectiveSmatrixSchemeInvertible} the [[image]] of the [[inverse]] $\mathcal{S}^{-1}_\Lambda$ of the [[effective S-matrix]]
+is [[microcausal polynomial observables]] in $1 + PolyObs(E_{\text{BV-BRST}})_{mc}[ [ \hbar, g, j] ]\langle g,j\rangle$
+and there is no guarantee that this lands in the subspace of [[local observables]].
+
+Therefore [[effective quantum field theories]] at finite [[UV cutoff]]-scale $\Lambda \in [0,\infty)$ are in general
+_not_ [[local field theories]], even if their [[limit of a sequence|limit]] as $\Lambda \to \infty$ is, via prop. \ref{UVRegularization}.
+
+
+=--
+
+
+
++-- {: .num_prop #EffectiveActionAsRelativeEffectiveAction}
+###### Proposition
+**([[effective action]] is [[relative effective action]] at $\Lambda = 0$)**
+
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$
+be a [[gauge fixing|gauge fixed]] [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] (according to [this def.](S-matrix#VacuumFree)) and let $\left\{ \Delta_{F,\Lambda}\right\}_{\Lambda \in [0,\infty)}$ be a choice of [[UV cutoffs]] for [[perturbative QFT]] around this vacuum (def. \ref{CutoffsUVForPerturbativeQFT}).
+
+
+Then the [[relative effective action]] (def. \ref{EffectiveActionRelative}) at $\Lambda = 0$ is the actual [[effective action]] ([this def.](S-matrix#InPerturbationTheoryActionEffective)) being $i \hbar$ times the [[Feynman perturbation series]] of
+[[Feynman amplitudes]] $\Gamma(g S_{int} + j A)$ for [[connected graph|connected]] [[Feynman diagrams]] $\Gamma$:
+
+$$
+  \begin{aligned}
+    S_{eff,0}
+    & \coloneqq\;
+    S_{eff,0,\infty}
+    \\
+    & = S_{eff} \;\coloneqq\;
+    \underset{\Gamma \in \Gamma_{conn}}{\sum}
+    \Gamma(g S_{int} + j A)
+  \end{aligned}
+  \,.
+$$
+
+=--
+
+([Dütsch 18, (3.473)](#Duetsch18))
+
++-- {: .proof}
+###### Proof
+
+Observe that the [[effective S-matrix scheme]] at scale $\Lambda = 0$ (eq:EffectiveSMatrixScheme)
+is the [[exponential series]] with respect to the pointwise product ([this def.](A+first+idea+of+quantum+field+theory#Observable))
+
+$$
+  \mathcal{S}_0(O) = \exp_\cdot( O )
+  \,.
+$$
+
+Therefore the statement to be proven says equivalently that the [[exponential series]]
+of the [[effective action]] with respect to the pointwise product is the [[S-matrix]]:
+
+$$
+  \exp_\cdot\left( \frac{1}{i \hbar} S_{eff} \right)
+  \;=\;
+  \mathcal{S}_\infty\left( g S_{int} + j A \right)
+  \,.
+$$
+
+That this is the case is the statement of [this prop.](S-matrix#LogarithmEffectiveAction).
+
+=--
+
+
+
+The definition of the [[relative effective action]] $\mathcal{S}_{eff,\Lambda} \coloneqq \mathcal{S}_{eff,\Lambda, \infty}$ in def. \ref{EffectiveActionRelative}
+invokes a choice of [[UV regularization]] $\mathcal{S}_\infty$ (prop. \ref{UVRegularization}).
+While (by that proposition and the [[main theorem of perturbative renormalization]] this is guaranteed to exist,
+in practice one is after methods for constructing this without specifying it a priori.
+
+But the collection [[relative effective actions]] $\mathcal{S}_{eff,\Lambda, \Lambda_0}$ for $\Lambda_0 \lt \infty$
+"flows" with the cutoff-parameters $\Lambda$ and in particular also with $\Lambda_0$ (remark \ref{GroupoidOfEFTs} below)
+which suggests that examination of this flow yields information about full theory at $\mathcal{S}_\infty$.
+
+This is made precise by _[[Polchinski's flow equation]]_ (prop. \ref{FlowEquationPolchinski} below),
+which is [[infinitesimal]] version of the "Wilsonian RG flow".
+As a [[differential equation]] is _independent_ of the choice of $\mathcal{S}_{\infty}$ and hence may
+be used to solve for the Wilsonian RG flow without knowing $\mathcal{S}_\infty$ in advance.
+The freedom in choosing the initial values of this differential equation corresponds to
+the [[renormalization|("re"-)normalization freedom]] in choosing the [[UV regularization]] $\mathcal{S}_\infty$.
+In this sense "Wilsonian RG flow" is a method of [[renormalization|("re"-)normalization]] of [[perturbative QFT]]
+([this def.](S-matrix#ExtensionOfTimeOrderedProoductsRenormalization)).
+
+
++-- {: .num_remark #GroupoidOfEFTs}
+###### Remark
+**(Wilsonian [[groupoid]] of [[effective quantum field theories]])**
+
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$
+be a [[gauge fixing|gauge fixed]] [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] (according to [this def.](S-matrix#VacuumFree)) and let $\left\{ \Delta_{F,\Lambda}\right\}_{\Lambda \in [0,\infty)}$ be a choice of [[UV cutoffs]] for [[perturbative QFT]] around this vacuum (def. \ref{CutoffsUVForPerturbativeQFT}).
+
+Then the [[relative effective actions]] $\mathcal{S}_{eff,\Lambda, \Lambda_0}$ (def. \ref{EffectiveActionRelative})
+satisfy
+
+$$
+  \mathcal{S}_{eff,\Lambda, \Lambda'}
+  \circ
+  \mathcal{S}_{eff,\Lambda', \Lambda_0}
+  \;=\;
+  \mathcal{S}_{eff, \Lambda, \Lambda_0}
+  \phantom{AAA}
+  \text{for}\,\, \Lambda, \Lambda' \in [0,\infty) \,\text{and}\, \Lambda_0 \in [0,\infty) \sqcup \{\infty\}
+$$
+
+and
+
+$$
+  \mathcal{S}_{eff, \Lambda_0 , \Lambda}
+  \;=\;
+  \left(\mathcal{S}_{eff, \Lambda, \Lambda_0}\right)^{-1}
+  \phantom{AAAA}
+  \text{for}\,\, \Lambda,\Lambda_0 \in [0,\infty)
+  \.
+$$
+
+This is similar to a [[group]] of UV-cutoff scale-transformations. But since the [[composition]]
+operations are only sensible when the UV-cutoff labels match, as shown, this is
+
+1. a _[[groupoid]]_ with [[objects]] the $\Lambda \in 0,\infty)$ and unique [[morphism]]
+between $\Lambda$ and $\Lambda'$ the [[relative effective action]] $\mathcal{S}_{eff,\Lambda, \Lambda'}$;
+
+1. a _[[groupoid action]]_ of this groupoid on the [[relative effective actions]]
+   $\mathcal{S}_{eff, \Lambda} \coloneqq \mathcal{S}_{eff,\Lambda, \infty}$.
+
+This is often called the _Wilsonian RG_.
+
+=--
+
+We now consider the [[infinitesimal]] version of this "flow":
+
++-- {: .num_prop #FlowEquationPolchinski}
+###### Proposition
+**([[Polchinski's flow equation]])**
+
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$
+be a [[gauge fixing|gauge fixed]] [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] (according to [this def.](S-matrix#VacuumFree)), let $\left\{ \Delta_{F,\Lambda}\right\}_{\Lambda \in [0,\infty)}$ be a choice of [[UV cutoffs]] for [[perturbative QFT]] around this vacuum  (def. \ref{CutoffsUVForPerturbativeQFT}), such that $\Lambda \mapsto \Lambda_{F,\Lambda}$ is [[differentiable function|differentiable]].
+
+Then for _every_ choice of [[UV regularization]] $\mathcal{S}_\infty$ (prop. \ref{UVRegularization}) the
+corresponding [[relative effective actions]] $S_{eff,\Lambda}$ (def. \ref{EffectiveActionRelative}) satisfy the following [[differential equation]]:
+
+$$
+  \frac{d}{d \Lambda}
+  S_{eff,\Lambda}
+  \;=\;
+  -
+  \frac{1}{2}
+  \frac{d}{d \Lambda'}
+  \left(
+    S_{eff,\Lambda}
+      \star_{F,\Lambda'}
+    S_{eff,\Lambda}
+  \right)\vert_{\Lambda' = \Lambda}
+  \,,
+$$
+
+where on the right we have the [[star product]] induced by $\Delta_{F,\Lambda'}$ ([this def.](star+product#PropagatorStarProduct)).
+
+=--
+
+This goes back to ([Polchinski 84, (27)](#Polchinski84)). The rigorous formulation and proof is due to ([Brunetti-Dütsch-Fredenhagen 09, prop. 5.2](#BrunettiDuetschFredenhagen09), [Dütsch 10, theorem 2](#Duetsch10)).
+
+
+
+#### Re-Normalization
+ {#RenormalizationCausalPerturbationTheory}
+
+##### Stückelberg-Petermann renormalization group
+
+The elements of the Stückelberg-Petermann renormalization group are _perturbative [[interaction vertex redefinitions]]_ (def. \ref{InteractionVertexRedefinition} below). These [[action|act]] on [[S-matrix]] [[renormalization schemes|("re"-)normalization schemes]] by [[precomposition]] (def. \ref{CausalFactorizationSatisfiedByCompositionOfSMatrixWithVertexRedefinition}) and this action is [[free action|free]] and [[transitive action|transitive]] (prop. \ref{AnyTwoSMatrixRenormalizationSchemesDifferByAUniqueVertexRedefinition} below). In this way these [[vertex redefinitions]] translate between different choices of [[renormalization|("re"-)normalization]], and as such they form the _Stückelerg-Petermann renormalization group_ (def. \ref{StueckelbergPetermannRenormalizationGroup}) below.
+
+$\,$
+
++-- {: .num_defn #InteractionVertexRedefinition}
+###### Definition
+**([[perturbative interaction vertex redefinition]])**
+
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H)$ be a [[gauge fixing|gauge fixed]] [[free field theory|free field]] [[vacuum]] ([this def.](S-matrix#VacuumFree)).
+
+A _[[perturbative interaction vertex redefinition]]_ (or just _[[vertex redefinition]]_, for short) is an [[endofunction]]
+
+$$
+  \mathcal{Z}
+  \;\colon\;
+  LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]\langle g, j\rangle
+    \longrightarrow
+  LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]\langle g, j\rangle
+$$
+
+on [[local observables]] with formal parameters adjoined ([this def.](S-matrix#FormalParameters)) such that there exists a sequence $\{Z_k\}_{k \in \mathbb{N}}$ of [[continuous linear functionals]], symmetric in their arguments, of the form
+
+$$
+  \left(
+    {\, \atop \,}
+    LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]\langle g, j\rangle
+    {\, \atop \,}
+  \right)^{\otimes^k_{\mathbb{C}[ [ \hbar, g, j] ]}}
+  \longrightarrow
+  LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]\langle g, j\rangle
+$$
+
+such that for all $g S_{int} + j A \in LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]\langle g, j\rangle$ the following conditions hold:
+
+1. (perturbation)
+
+   1. $Z_0(g S_{int + j A}) = 0$
+
+   1. $Z_1(g S_{int} + j A) = g S_{int} + j A$
+
+   1. and
+
+      $$
+        \begin{aligned}
+          \mathcal{Z}(g S_{int} + j A)
+          & =
+          Z \exp_\otimes( g S_{int} + j A )
+          \\
+          &
+          \coloneqq
+          \underset{k \in \mathbb{N}}{\sum}
+          \frac{1}{k!}
+          Z_k(
+            \underset{
+              k \, \text{args}
+            }{
+              \underbrace{
+                g S_{int} + j A , \cdots, g S_{int} + j A
+              }
+            }
+          )
+        \end{aligned}
+      $$
+
+1. (field independence) The [[local observable]] $\mathcal{Z}(g S_{int} + j A)$ depends on the [[field histories]] only through its argument $g S_{int} + j A $, hence by the [[chain rule]]:
+
+   $$
+     \label{FieldIndependenceVertexRedefinition}
+     \frac{\delta}{\delta \mathbf{\Phi}^a(x)}
+     \mathcal{Z}(g S_{int} + j A)
+     \;=\;
+     \mathcal{Z}'_{g S_{int} + j A}
+     \left(
+         \frac{\delta}{\delta \mathbf{\Phi}^a(x)} (g S_{int} + j A)
+     \right)
+   $$
+
+=--
+
+The following proposition should be compared to the axiom of _[[causal additivity]]_ of the [[S-matrix]] scheme ([this equation](S-matrix#eq:CausalAdditivity)):
+
++-- {: .num_prop #InteractionVertexRedefinitionAdditivity}
+###### Proposition
+**(local additivity of [[vertex redefinitions]])**
+
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H)$ be a [[gauge fixing|gauge fixed]] [[free field theory|free field]] [[vacuum]] ([this def.](S-matrix#VacuumFree)) and let $\mathcal{Z}$ be a [[vertex redefinition]] (def. \ref{InteractionVertexRedefinition}).
+
+Then for all [[local observables]] $O_0, O_1, O_2 \in LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j ] ]\langle g, j\rangle$ with spacetime support denoted $supp(O_i) \subset \Sigma$ ([this def.](A+first+idea+of+quantum+field+theory#SpacetimeSupport)) we have
+
+1. (local additivity)
+
+   $$
+     \begin{aligned}
+       &
+       \left(
+         supp(O_1)
+         \cap
+         supp(O_2)
+         =
+         \emptyset
+       \right)
+       \\
+       &
+         \Rightarrow
+       \phantom{AA}
+       \mathcal{Z}( O_0 + O_1 + O_2)
+       =
+       \mathcal{Z}( O_0 + O_1 ) - \mathcal{Z}(O_0) + \mathcal{Z}(O_0 + O_2)
+     \end{aligned}
+     \,.
+   $$
+
+1. (preservation of spacetime support)
+
+   $$
+     supp
+     \left(
+       {\, \atop \,}
+         \mathcal{Z}(O_0 + O_1)
+         -
+         \mathcal{Z}(O_0)
+       {\, \atop \,}
+     \right)
+     \;\subset\;
+     supp(O_1)
+   $$
+
+   hence in particular
+
+   $$
+     supp
+     \left(
+       {\, \atop \,}
+       \mathcal{Z}(O_1)
+       {\, \atop \,}
+     \right) = supp(O_1)
+   $$
+
+=--
+
+([Dütsch 18, exercise 3.98](#Duetsch18))
+
++-- {: .proof}
+###### Proof
+
+Under the inclusion
+
+$$
+  LocObs(E_{\text{BV-BRST}})
+    \hookrightarrow
+  PolyObs(E_{\text{BV-BRST}})
+$$
+
+of [[local observables]] into [[polynomial observables]] we may think of each $Z_k$ as a [[generalized function]], as for [[time-ordered products]] in [this remark](S-matrix#NotationForTimeOrderedProductsAsGeneralizedFunctions).
+
+Hence if
+
+$$
+  O_j = \underset{\Sigma}{\int} j^\infty_\Sigma( \mathbf{L}_j )
+$$
+
+is the [[transgression of variational differential forms|transgression]] of a [[Lagrangian density]] $\mathbf{L}$ we get
+
+$$
+  Z_k(
+    (O_1 + O_2 + O_3)
+    ,
+    \cdots
+    ,
+    (O_1 + O_2 + O_3)
+  )
+  =
+  \underset{
+    j_1, \cdots, j_k \in \{0,1,2\}
+  }{\sum}
+  \underset{\Sigma^{k}}{\int}
+    Z( \mathbf{L}_{j_1}(x_1) , \cdots , \mathbf{L}_{j_k}(x_k) )
+  \,.
+$$
+
+Now by definition $Z_k(\cdots)$ is in the subspace of [[local observables]], i.e. those [[polynomial observables]] whose [[coefficient]] [[distributions]] are [[support of a distribution|supported]] on the [[diagonal]], which means that
+
+$$
+  \frac{\delta}{\delta \mathbf{\Phi}^a(x)}
+  \frac{\delta}{\delta \mathbf{\Phi}^b(y)}
+  Z_{k}(\cdots)
+  =
+  0
+  \phantom{AA}
+  \text{for}
+  \phantom{AA}
+  x \neq y
+$$
+
+Together with the axiom "field independence" (eq:FieldIndependenceVertexRedefinition) this means that the support of these generalized functions in the [[integrand]] here must be on the [[diagonal]], where $x_1 = \cdots = x_k$.
+
+By the assumption that the spacetime supports of $O_1$ and $O_2$ are disjoint, this means that only the summands with $j_1, \cdots, j_k \in \{0,1\}$ and those with $j_1, \cdots, j_k \in \{0,2\}$ contribute to the above sum. Removing the overcounting of those summands where all $j_1, \cdots, j_k \in \{0\}$ we get
+
+
+$$
+  \begin{aligned}
+    & Z_k\left(
+      {\, \atop \,}
+      (O_1 + O_2 + O_3)
+      ,
+      \cdots
+      ,
+      (O_1 + O_2 + O_3)
+      {\, \atop \,}
+    \right)
+    \\
+    & =
+    \underset{
+      j_1, \cdots, j_k \in \{0,1\}
+    }{\sum}
+    \underset{\Sigma^{k}}{\int}
+      Z( \mathbf{L}_{j_1}(x_1) , \cdots , \mathbf{L}_{j_k}(x_k) )
+    \\
+    & \phantom{=}
+    -
+    \underset{
+      j_1, \cdots, j_k \in \{0\}
+    }{\sum}
+    \underset{\Sigma^{k}}{\int}
+      Z( \mathbf{L}_{j_1}(x_1) , \cdots , \mathbf{L}_{j_k}(x_k) )
+    \\
+    & \phantom{=}
+    -
+    \underset{
+      j_1, \cdots, j_k \in \{0,2\}
+    }{\sum}
+    \underset{\Sigma^{k}}{\int}
+      Z( \mathbf{L}_{j_1}(x_1) , \cdots , \mathbf{L}_{j_k}(x_k) )
+    \\
+    & =
+    Z_k\left( {\, \atop \,} (O_0 + O_1), \cdots, (O_0 + O_1) {\, \atop \,}\right)
+    -
+    Z_k\left( {\, \atop \,} O_0, \cdots,  O_0 {\, \atop \,} \right)
+    +
+    Z_k\left( {\, \atop \,} (O_0 + O_2), \cdots, (O_0 + O_2) {\, \atop \,} \right)
+  \end{aligned}
+  \,.
+$$
+
+This directly implies the claim.
+
+=--
+
+As a corollary we obtain:
+
++-- {: .num_prop #CausalFactorizationSatisfiedByCompositionOfSMatrixWithVertexRedefinition}
+###### Proposition
+**([[composition]] of [[S-matrix]] scheme with [[vertex redefinition]] is again [[S-matrix]] scheme)**
+
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H)$ be a [[gauge fixing|gauge fixed]] [[free field theory|free field]] [[vacuum]] ([this def.](S-matrix#VacuumFree)) and let $\mathcal{Z}$ be a [[vertex redefinition]] (def. \ref{InteractionVertexRedefinition}).
+
+Then for
+
+$$
+  \mathcal{S}
+  \;\colon\;
+  LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]\langle g, j\rangle
+    \longrightarrow
+  PolyObs(E_{\text{BV-BRST}})_{mc}((\hbar))[ [ g,j ] ]
+$$
+
+and [[S-matrix]] scheme ([this def.](S-matrix#LagrangianFieldTheoryPerturbativeScattering)), the [[composition|composite]]
+
+$$
+  \mathcal{S} \circ \mathcal{Z}
+  \;\colon\;
+  LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]\langle g, j\rangle
+    \overset{\mathcal{Z}}{\longrightarrow}
+  LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]\langle g, j\rangle
+    \overset{\mathcal{S}}{\longrightarrow}
+  PolyObs(E_{\text{BV-BRST}})_{mc}((\hbar))[ [ g,j ] ]
+$$
+
+is again an [[S-matrix]] scheme.
+
+Moreover, if $\mathcal{S}$ satisfies the [[renormalization condition]] "field independence" ([this prop.](S-matrix#BasicConditionsRenormalization)), then so does $\mathcal{S} \circ \mathcal{Z}$.
+
+=--
+
+(e.g [Dütsch 18, theorem 3.99 (b)](#Duetsch18))
+
++-- {: .proof}
+###### Proof
+
+It is clear that [[causal order]] of the spacetime supports implies that they are in particular [[disjoint subset|disjoint]]
+
+$$
+  \left(
+    {\, \atop \,}
+    supp(O_1)
+    {\vee\!\!\!\wedge}
+    supp(O_2)
+    {\, \atop \,}
+  \right)
+  \phantom{AA}
+  \Rightarrow
+  \phantom{AA}
+  \left(
+    {\, \atop \,}
+    supp(O_1)
+      \cap
+    supp(O_)
+    \;=\;
+    \emptyset
+    {\, \atop \,}
+  \right)
+$$
+
+Therefore the local additivity of $\mathcal{Z}$ (prop. \ref{InteractionVertexRedefinitionAdditivity})
+and the [[causal factorization]] of the [[S-matrix]] ([this remark](S-matrix#DysonCausalFactorization))
+imply the causal factorization of the composite:
+
+$$
+  \begin{aligned}
+    \mathcal{S}
+    \left(
+      {\, \atop \,}
+      \mathcal{Z}(O_1 + O_2)
+      {\, \atop \,}
+    \right)
+    & =
+    \mathcal{S}
+    \left(
+      {\, \atop \,}
+      \mathcal{Z}(O_1)
+      +
+      \mathcal{Z}(O_2)
+      {\, \atop \,}
+    \right)
+    \\
+    & =
+    \mathcal{S}
+    \left(
+      {\, \atop \,}
+      \mathcal{Z}(O_1)
+      {\, \atop \,}
+    \right)
+    \,
+    \mathcal{S}
+    \left(
+      {\, \atop \,}
+      \mathcal{Z}(O_2)
+      {\, \atop \,}
+    \right)
+    \,.
+  \end{aligned}
+$$
+
+But by [this prop.](S-matrix#CausalFactorizationAlreadyImpliesSMatrix) this implies in turn [[causal additivity]]
+and hence that $\mathcal{S} \circ \mathcal{Z}$ is itself an S-matrix scheme.
+
+Finally that $\mathcal{S} \circ \mathcal{Z}$ satisfies "field indepndence" if $\mathcal{S}$ does is immediate by the [[chain rule]], given that $\mathcal{Z}$ satisfies this condition by definition.
+
+=--
+
++-- {: .num_prop #AnyTwoSMatrixRenormalizationSchemesDifferByAUniqueVertexRedefinition}
+###### Proposition
+**(any two [[S-matrix]] [[renormalization schemes]] differ by a unique [[vertex redefinition]])**
+
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H)$ be a [[gauge fixing|gauge fixed]] [[free field theory|free field]] [[vacuum]] ([this def.](S-matrix#VacuumFree)).
+
+Then for $\mathcal{S}, \mathcal{S}'$ any two [[S-matrix]] schemes ([this def.](S-matrix#LagrangianFieldTheoryPerturbativeScattering)) which both satisfy the [[renormalization condition]] "field independence", the  there exists a unique [[vertex redefinition]] $\mathcal{Z}$ (def. \ref{InteractionVertexRedefinition}) relating them by [[composition]], i. e. such  that
+
+$$
+  \mathcal{S}'
+  \;=\;
+  \mathcal{S} \circ \mathcal{Z}
+  \,.
+$$
+
+=--
+
+(See any of the reference at _[[main theorem of perturbative renormalization]]_.)
+
++-- {: .proof}
+###### Proof
+
+By applying both sides of the equation to linear combinations of local observables of the form $\kappa_1 O_1 + \cdots + \kappa_k O_k$ and then taking [[derivatives]] with respect to $\kappa$ at $\kappa_j = 0$ (as in [this example](S-matrix#TimeOrderedProductsFromSMatrixScheme)) we get that the equation in question implies
+
+$$
+  (i \hbar)^k
+  \frac{
+    \partial^k
+  }{
+    \partial \kappa_1 \cdots \partial \kappa_k
+  }
+  \mathcal{S}'( \kappa_1 O_1 + \cdots + \kappa_k O_k )
+  \vert_{\kappa_1, \cdots, \kappa_k = 0}
+  \;=\;
+  (i \hbar)^k
+  \frac{
+    \partial^k
+  }{
+    \partial \kappa_1 \cdots \partial \kappa_k
+  }
+  \mathcal{S} \circ \mathcal{Z}( \kappa_1 O_1 + \cdots + \kappa_k O_k )
+  \vert_{\kappa_1, \cdots, \kappa_k = 0}
+$$
+
+which in components means that
+
+$$
+  \begin{aligned}
+    T'_k( O_1, \cdots, O_k )
+    & =
+    \underset{
+      2 \leq n \leq k
+    }{\sum}
+      \frac{1}{n!}
+      (i \hbar)^{k-n}
+      \underset{
+        { { I_1 \sqcup \cdots \sqcup I_n } \atop { =  \{1, \cdots, k\}, } }
+        \atop
+        { I_1, \cdots, I_n \neq \emptyset }
+      }{\sum}
+      \left(
+        k \atop { {\vert I_1 \vert}, \cdots , {\vert I_1 \vert} }
+      \right)
+      T_n
+      \left(
+        Z_{{\vert I_1\vert}}( (O_{i_1})_{i_1 \in I_1} ),
+        \cdots,
+        Z_{{\vert I_n\vert}}( (O_{i_n})_{i_n \in I_n} ),
+      \right)
+  \\
+  & \phantom{=}
+    +
+    Z_k( O_1,\cdots, O_k )
+  \end{aligned}
+$$
+
+where $\{T'_k\}_{k \in \mathbb{N}}$ are the [[time-ordered product]] corresponding to $\mathcal{S}'$ (by [this example](S-matrix#TimeOrderedProductsFromSMatrixScheme)) and $\{T_k\}_{k \in \mathcal{N}}$ those correspondong to $\mathcal{S}$.
+
+This shows that if $\mathcal{Z}$ exists, then it is unique, because its coefficients $Z_k$ are [[induction|inductively]] in $k$
+given by the expressions
+
+$$
+  \begin{aligned}
+    & Z_k( O_1,\cdots, O_k )
+    \\
+    & =
+    T'_k( O_1, \cdots, O_k )
+    \;-\;
+    \underset{
+      (T \circ \mathcal{Z}_{\lt k})_k
+    }{
+    \underbrace{
+    \underset{
+      2 \leq n \leq k
+    }{\sum}
+      \frac{1}{n!}
+      (i \hbar)^{k-n}
+      \underset{
+        { { I_1 \sqcup \cdots \sqcup I_n } \atop { =  \{1, \cdots, k\}, } }
+        \atop
+        { I_1, \cdots, I_n \neq \emptyset }
+      }{\sum}
+      \left(
+        k \atop { {\vert I_1 \vert}, \cdots , {\vert I_1 \vert} }
+      \right)
+      T_n
+      \left(
+        Z_{{\vert I_1\vert}}( (O_{i_1})_{i_1 \in I_1} ),
+        \cdots,
+        Z_{{\vert I_n\vert}}( (O_{i_n})_{i_n \in I_n} ),
+      \right)
+    }
+    }
+  \end{aligned}
+$$
+
+Hence it remains to see that the $Z_k$ defined this way satisfy the conditions in def. \ref{InteractionVertexRedefinition}.
+
+The condition "perturbation" is immediate from the corresponding condition on $\mathcal{S}$ and $\mathcal{S}'$.
+
+Similarly the condition "field independence" follows immediately from the assumoption that $\mathcal{S}$ and $\mathcal{S}'$ satisfy this condition.
+
+It only remains to see that $Z_k$ indeed takes values in [[local observables]]. Give that the [[time-ordered products]] a priori take values in the larrger space of [[microcausal polynomial observables]] this means to show that the spacetime support of $Z_k$ is on the [[diagonal]].
+
+But observe that, as indicated in the above formula, the term over the brace may be understood as the coefficient at order $k$ of the [[exponential series]]-expansion of the [[composition|composite]] $\mathcal{S} \circ \mathcal{Z}_{\lt k}$, where
+
+$$
+  \mathcal{Z}_{\lt k}
+  \;\coloneqq\;
+  \underset{
+    n \in \{1, \cdots, k-1\}
+  }{\sum}
+  \frac{1}{n!} Z_n
+$$
+
+is the truncation of the [[vertex redefinition]] to degree $\lt k$. This truncation is clearly itself still
+a vertex redefinition (according to def. \ref{InteractionVertexRedefinition}) so that the composite $\mathcal{S} \circ \mathcal{Z}_{\lt k}$
+is still an [[S-matrix]] scheme (by prop. \ref{CausalFactorizationSatisfiedByCompositionOfSMatrixWithVertexRedefinition})
+so that the $(T \circ \mathcal{Z}_{\lt k})_k$ are [[time-ordered products]] (by [this example](S-matrix#TimeOrderedProductsFromSMatrixScheme)).
+
+So as we solve $\mathcal{S}' = \mathcal{S} \circ \mathcal{Z}$ inductively in degree $k$, then for the induction step in degree $k$ the expressions $T'_{\lt k}$ and $(T \circ \mathcal{Z})_{\lt k}$ agree and are both time-ordered products.
+By [this prop.](S-matrix#RenormalizationIsInductivelyExtensionToDiagonal) this implies that  $T'_{k}$ and $(T \circ \mathcal{Z}_{\lt k})_{k}$ agree away from the diagonal. This means that their difference $Z_k$ is supported on the diagonal, and hence is indeed local.
+
+=--
+
++-- {: .num_defn #StueckelbergPetermannRenormalizationGroup}
+###### Definition
+**([[Stückelberg-Petermann renormalization group]] of [[vertex redefinitions]])**
+
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H)$ be a [[gauge fixing|gauge fixed]] [[free field theory|free field]] [[vacuum]] ([this def.](S-matrix#VacuumFree)).
+
+Then prop. \ref{CausalFactorizationSatisfiedByCompositionOfSMatrixWithVertexRedefinition} and prop \ref{AnyTwoSMatrixRenormalizationSchemesDifferByAUniqueVertexRedefinition} together says that ("[[main theorem of perturbative renormalization]]"):
+
+1. the [[vertex redefinitions]] $\mathcal{Z}$ (def. \ref{InteractionVertexRedefinition}) form a [[group]] under [[composition]];
+
+1. the set of [[S-matrix]] [[renormalization schemes|("re"-)normalization schemes]] ([this def.](S-matrix#LagrangianFieldTheoryPerturbativeScattering), [this remark](S-matrix#calSFunctionIsRenormalizationScheme)) satisfying at least the [[renormalization condition]] "field indepencen" is a [[torsor]] over this group, in that any two are related by a unique vertex redefinition.
+
+This group is called the (large) _[[Stückelberg-Petermann renormalization group]]_.
+
+Typically one imposes a set of [[renormalization conditions]] ([this def.](S-matrix#RenormalizationConditions))
+and then the corresponding [[subgroup]] of [[vertex redefinitions]] preserving these.
+
+=--
+
+
+##### Gell-Mann & Low Renormalization group flow
+
+
+In [[perturbative quantum field theory]] the construction of the [[scattering matrix]] $\mathcal{S}$, hence of the [[interacting field algebra of observables]] for a given [[interaction]] $g S_{int}$ [[perturbation theory|perturbing]] around a given [[free field theory|free field]] [[vacuum]], involves choices of _normalization_ of [[time-ordered products]]/[[Feynman diagrams]] (traditionally called _[[renormalization|"re"-normalizations]]_) encoding new [[interactions]] that appear where several of the original interaction vertices defined by $g S_{int}$ coincide.
+
+Whenever a [[group]] $RG$ [[action|acts]] on the space of [[observables]] of the theory such that [[conjugation]] by this action takes [[renormalization scheme|("re"-)normalization schemes]] into each other, then these  choices of [[renormalization|("re"-)normalization]]  are parameterized by -- or "flow with" -- the elements of $RG$.  This is called _renormalization group flow_  (prop.
+\ref{FlowRenormalizationGroup} below); often called _RG flow_, for short.
+
+The archetypical example here is the [[group]] $RG$ of [[scaling transformations]] on [[Minkowski spacetime]] (def. \ref{ScalingTransformations} below), which induces a [[renormalization group flow]] (prop. \ref{RGFlowScalingTransformations} below) due to the particular nature of the [[Wightman propagator]] resp. [[Feynman propagator]] on [[Minkowski spacetime]] (example \ref{ScalarFieldMassDimensionOnMinkowskiSpacetime} below). In this case the choice of [[renormalization|("re"-)normalization]] hence "flows with scale".
+
+Now the _[[main theorem of perturbative renormalization]] states that (if only the basic [[renormalization condition]] called "field independence" is satisfied) any two choices of [[renormalization scheme|("re"-)normalization schemes]] $\mathcal{S}$ and $\mathcal{S}'$ are related by a unique [[interaction vertex redefinition]] $\mathcal{Z}$, as
+
+$$
+  \mathcal{S}' = \mathcal{S} \circ \mathcal{Z}
+  \,.
+$$
+
+Applied to a parameterization/flow of renormalization choices by a group $RG$ this hence induces an [[interaction vertex redefinition]] as a function of $RG$. One may think of the shape of the interaction vertices as fixed and only their ([[adiabatic switching|adiabatically switched]]) [[coupling constants]] as changing under such an [[interaction vertex redefinition]], and hence then one has [[coupling constants]] $g_j$ that are parameterized by elements $\rho$ of $RG$:
+
+$$
+  \mathcal{Z}_{\rho_{vac}}^\rho
+  \;\colon\;
+  \{g_j\}
+    \mapsto
+  \{g_j(\rho)\}
+$$
+
+This dependendence is called _running of the coupling constants_ under the renormalization group flow (def. \ref{CouplingRunning} below).
+
+One example of [[renormalization group flow]] is that induced by [[scaling transformations]] (prop. \ref{RGFlowScalingTransformations} below). This is the original and main example of the concept ([Gell-Mann & Low 54](#GellMannLow54))
+
+In this case the [[running of the coupling constants]] may be understood as expressing how "more" [[interactions]] (at higher energy/shorter [[wavelength]]) become visible (say to [[experiment]]) as the scale resolution is increased. In this case the dependence of the coupling $g_j(\rho)$ on the parameter $\rho$ happens to be [[differentiable function|differentiable]]; its [[logarithm|logarithmic]] [[derivative]] (denoted "$\psi$" in [Gell-Mann & Low 54](#GellMannLow54)) is known as the _[[beta function]]_ ([Callan 70](#Callan70), [Symanzik 70](#Symanzik70)):
+
+$$
+  \beta(g) \coloneqq \rho \frac{\partial g_j}{\partial \rho}
+  \,.
+$$
+
+The [[running of the coupling constants]] is not quite a [[representation]] of the [[renormalization group flow]],
+but it is a "twisted" representation, namely a [[group cocycle|group 1-cocycle]] (prop. \ref{CocycleRunningCoupling} below). For the case of [[scaling transformations]] this may be called the _[[Gell-Mann-Low renormalization cocycle]]_ ([Brunetti-Dütsch-Fredenhagen 09](#BrunettiDuetschFredenhagen09)).
+
+$\,$
+
+
++-- {: .num_prop #FlowRenormalizationGroup}
+###### Proposition
+**([[renormalization group flow]])**
+
+Let
+
+$$
+  vac
+    \;\coloneqq\;
+  (E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )
+$$
+
+be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] (according to [this def.](S-matrix#VacuumFree)) around which we consider [[interacting field theory|interacting]] [[perturbative QFT]].
+
+Consider a [[group]] $RG$ equipped with an [[action]] on the [[Wick algebra]] of [[off-shell]] [[microcausal polynomial observables]] with formal parameters adjoined (as in [this def.](S-matrix#FormalParameters))
+
+$$
+  rg_{(-)}
+  \;\colon\;
+  RG \times PolyObs(E_{\text{BV-BRST}})_{mc}((\hbar))[ [ g, j ] ]
+  \longrightarrow
+  PolyObs(E_{\text{BV-BRST}})_{mc}((\hbar))[ [ \hbar, g, j ] ]
+  \,,
+$$
+
+hence for each $\rho \in RG$ a [[continuous linear map]] $rg_\rho$ which has an [[inverse]] $rg_\rho^{-1} \in RG$ and is a [[homomorphism]] of the [[Wick algebra]]-product (the [[star product]] $\star_H$ induced by the [[Wightman propagator]] of the given vauum $vac$)
+
+$$
+  rg_\rho( A_1 \star_H A_2 )
+  \;=\;
+  rg_\rho(A_1) \star_H rg_\rho(A_2)
+$$
+
+such that the following conditions hold:
+
+1. the action preserves the subspace of [[off-shell]] polynomial [[local observables]], hence it [[restriction|restricts]] as
+
+   $$
+     rg_{(-)}
+     \;\colon\;
+     RG \times LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j ] ]\langle g,j\rangle
+     \longrightarrow
+     LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j ] ]\langle g,j\rangle
+   $$
+
+1. the action respects the [[causal order]] of the spacetime support ([this def.](A+first+idea+of+quantum+field+theory#SpacetimeSupport)) of local observables, in that for $O_1, O_2 \in LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]$ we have
+
+   $$
+     \left(
+       supp(O_1)
+       \,{\vee\!\!\!\wedge}\,
+       supp(O_2)
+     \right)
+     \phantom{A}
+       \Rightarrow
+     \phantom{A}
+     \left(
+       supp(rg_\rho(O_1))
+       \,{\vee\!\!\!\wedge}\,
+       supp(rg_\rho(O_2))
+     \right)
+   $$
+
+   for all $\rho \in RG$.
+
+Then:
+
+The operation of [[conjugation]] by this action on [[observables]] induces an [[action]] on the [[set]] of [[S-matrix]] [[renormalization schemes]] ([this def.](S-matrix#LagrangianFieldTheoryPerturbativeScattering), [this remark](S-matrix#calSFunctionIsRenormalizationScheme)),
+in that for
+
+$$
+  \mathcal{S}
+  \;\colon\;
+  LocObs(E_{\text{BV-BRST}})[ [ \hbar , g, j] ]
+    \longrightarrow
+  PolyObs(E_{\text{BV-BRST}})( (\hbar) )[ [ g, j] ]
+$$
+
+a perturbative [[S-matrix scheme]] around the given [[free field theory|free field]] [[vacuum]] $vac$, also the [[composition|composite]]
+
+$$
+  \mathcal{S}^\rho
+  \;\coloneqq\;
+  rg_\rho \circ \mathcal{S} \circ rg_{\rho}^{-1}
+  \;\colon\;
+  LocObs(E_{\text{BV-BRST}})[ [ \hbar , g, j] ]
+    \longrightarrow
+  PolyObs(E_{\text{BV-BRST}})( (\hbar) )[ [ g, j] ]
+$$
+
+is an [[S-matrix]] scheme, for all $\rho \in RG$.
+
+More generally, let
+
+$$
+  vac_\rho
+    \;\coloneqq\;
+  (E_{\text{BV-BRST}}, \mathbf{L}'_\rho, \Delta_{H,\rho} )
+$$
+
+be a collection of [[gauge fixing|gauge fixed]] [[free field theory|free field]] [[vacua]] parameterized by elements $\rho \in RG$,
+all with the same underlying [[field bundle]]; and
+consider $rg_\rho$ as above, except that it is not an [[automorphism]] of any [[Wick algebra]],
+but an [[isomorphism]] between the [[Wick algebra]]-structures on various vacua, in that
+
+$$
+  \label{IntertwiningWickProductsActionRG}
+  rg_{\rho}( A_1 \star_{H, \rho^{-1} \rho_{vac}} A_2 )
+  \;=\;
+  rg_{\rho}(A_1) \star_{H, \rho_{vac}} rg_{\rho}(A_2)
+$$
+
+for all $\rho, \rho_{vac} \in RG$
+
+Then if
+
+$$
+  \{ \mathcal{S}_{\rho} \}_{\rho \in RG}
+$$
+
+is a collection of [[S-matrix schemes]], one around each of the [[gauge fixing|gauge fixed]] [[free field theory|free field]] [[vacua]]
+$vac_\rho$, it follows that for all pairs of group elements $\rho_{vac}, \rho \in RG$ the [[composition|composite]]
+
+$$
+  \label{RGConjugateSmatrix}
+  \mathcal{S}_{\rho_{vac}}^\rho
+  \;\coloneqq\;
+  \rg_\rho \circ \mathcal{S}_{\rho^{-1}\rho_{vac}} \circ rg_\rho^{-1}
+$$
+
+is an [[S-matrix scheme]] around the vacuum labled by $\rho_{vac}$.
+
+
+Since therefore each element $\rho \in RG$ in the [[group]] $RG$ picks a different choice of [[renormalization|normalization]]
+of the [[S-matrix]] scheme around a given vacuum at $\rho_{vac}$, we call the assignment $\rho \mapsto \mathcal{S}_{\rho_{vac}}^{\rho}$
+a _[[renormalization group flow|re-normalization group flow]]_.
+
+
+
+=--
+
+([Brunetti-Dütsch-Fredenhagen 09, sections 4.2, 5.1](#BrunettiDuetschFredenhagen09), [Dütsch 18, section 3.5.3](#Duetsch18))
+
++-- {: .proof}
+###### Proof
+
+It is clear from the definition that each $\mathcal{S}^{\rho}_{\rho_{vac}}$ satisfies the axiom "perturbation" (in [this def.](S-matrix#LagrangianFieldTheoryPerturbativeScattering)).
+
+In order to verify the axiom "[[causal additivity]]",
+observe, for convenience, that by [this example](S-matrix#TimeOrderedProductsFromSMatrixScheme) it is sufficient to check [[causal factorization]].
+
+So consider $O_1, O_2 \in LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]\langle g,j\rangle$
+two local observables whose spacetime support is in [[causal order]].
+
+$$
+  supp(O_1)
+  \;{\vee\!\!\!\wedge}\;
+  supp(O_2)
+  \,.
+$$
+
+We need to show that the
+
+$$
+  \mathcal{S}_{\rho_{vac}}^{\rho}(O_1 + O_2)
+  =
+  \mathcal{S}_{\rho_{vac}}^\rho(O_1)
+    \star_{H,\rho_{vac}}
+  \mathcal{S}_{vac_e}^\rho(O_2)
+$$
+
+for all $\rho, \rho_{vac} \in RG$.
+
+Using the defining properties of $rg_{(-)}$ and the [[causal factorization]] of $\mathcal{S}_{\rho^{-1}\rho_{vac}}$ we directly compute as follows:
+
+
+$$
+  \begin{aligned}
+    \mathcal{S}_{\rho_{vac}}^\rho(O_1 + O_2)
+    & =
+    rg_\rho
+      \circ
+    \mathcal{S}_{\rho^{-1} \rho_{vac}}
+      \circ
+    rg_\rho^{-1}( O_1 + O_2 )
+    \\
+    & =
+    rg_\rho
+    \left(
+      {\, \atop \,}
+      \mathcal{S}_{\rho^{-1}\rho_{vac}}
+      \left(
+        rg_\rho^{-1}(O_1) + rg_\rho^{-1}(O_2)
+      \right)
+      {\, \atop \,}
+    \right)
+    \\
+    & =
+    rg_\rho
+    \left(
+      {\, \atop \,}
+      \left(
+        \mathcal{S}_{\rho^{-1}\rho_{vac}}\left(rg_\rho^{-1}(O_1)\right)
+      \right)
+        \star_{H, \rho^{-1} \rho_{vac}}
+      \left(
+        \mathcal{S}_{ \rho^{-1} \rho_{vac} }\left(rg_\rho^{-1}(O_2)\right)
+      \right)
+      {\, \atop \,}
+    \right)
+    \\
+    & =
+    rg_\rho
+    \left(
+      {\, \atop \,}
+      \mathcal{S}_{\rho^{-1} \rho_{vac}}\left(rg_{\rho^{-1}}(O_1)\right)
+      {\, \atop \,}
+    \right)
+    \star_{H, \rho_{vac}}
+    rg_\rho
+    \left(
+      {\, \atop \,}
+      \mathcal{S}_{\rho^{-1} \rho_{vac}}\left( rg_\rho^{-1}(O_2)\right)
+      {\, \atop \,}
+    \right)
+    \\
+    & =
+    \mathcal{S}^\rho_{\rho_{vac}}( O_1 )
+      \,
+      \star_{H, \rho_{vac}}
+      \,
+     \mathcal{S}_{\rho_{vac}}^\rho(O_2)
+    \,.
+  \end{aligned}
+$$
+
+=--
+
++-- {: .num_defn #CouplingRunning}
+###### Definition
+**([[running coupling constants]])**
+
+Let
+
+$$
+  vac
+  \coloneqq
+  vac_e
+    \;\coloneqq\;
+  (E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )
+$$
+
+be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] (according to [this def.](S-matrix#VacuumFree)) around which we consider [[interacting field theory|interacting]] [[perturbative QFT]], let $\mathcal{S}$ be an [[S-matrix]] scheme
+around this vacuum and let $rg_{(-)}$ be a [[renormalization group flow]] according to prop. \ref{FlowRenormalizationGroup}, such that each re-normalized [[S-matrix scheme]] $\mathcal{S}_{vac}^\rho$ satisfies the [[renormalization condition]] "field independence".
+
+Then by the [[main theorem of perturbative renormalization]] ([this prop.](Stückelberg-Petermann+renormalization+group#AnyTwoSMatrixRenormalizationSchemesDifferByAUniqueVertexRedefinition)) there is for every [[pair]] $\rho_1, \rho_2 \in RG$ a unique [[interaction vertex redefinition]]
+
+$$
+  \mathcal{Z}_{\rho_{vac}}^{\rho}
+  \;\colon\;
+  LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]
+    \longrightarrow
+  LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]
+$$
+
+which relates the corresponding two [[S-matrix]] schemes via
+
+$$
+  \label{SMatrixScemesRelatedByRunningFunction}
+  \mathcal{S}_{\rho_{vac}}^{\rho}
+  \;=\;
+  \mathcal{S}_{\rho_{vac}}
+    \circ
+  \mathcal{Z}_{\rho_{vac}}^\rho
+  \,.
+$$
+
+If one thinks of an [[interaction]] vertex, hence a [[local observable]] $g S_{int}+ j A$, as specified by the ([[adiabatic switching|adiabatically switched]]) [[coupling constants]] $g_j \in C^\infty_{cp}(\Sigma)\langle g \rangle$ multiplying the corresponding [[interaction]] [[Lagrangian densities]] $\mathbf{L}_{int,j} \in \Omega^{p+1,0}_\Sigma(E_{\text{BV-BRST}})$ as
+
+$$
+  g S_{int}
+  \;=\;
+  \underset{j}{\sum} \tau_\Sigma \left( g_j \mathbf{L}_{int,j} \right)
+$$
+
+(where $\tau_\Sigma$ denotes [[transgression of variational differential forms]]) then $\mathcal{Z}_{\rho_1}^{\rho_2}$ exhibits a dependency of the ([[adiabatic switching|adiabatically switched]]) [[coupling constants]] $g_j$ of the [[renormalization group flow]] parameterized by $\rho$. The corresponding functions
+
+$$
+  \mathcal{Z}_{\rho_{vac}}^{\rho}(g S_{int})
+    \;\colon\;
+   (g_j)
+     \mapsto
+   (g_j(\rho))
+$$
+
+are then called _[[running coupling constants]]_.
+
+=--
+
+([Brunetti-Dütsch-Fredenhagen 09, sections 4.2, 5.1](#BrunettiDuetschFredenhagen09), [Dütsch 18, section 3.5.3](#Duetsch18))
+
+
++-- {: .num_prop #CocycleRunningCoupling}
+###### Proposition
+**([[running coupling constants]] are  [[group cocycle]] over [[renormalization group flow]])**
+
+Consider [[running coupling constants]]
+
+$$
+   \mathcal{Z}_{\rho_{vac}}^{\rho}
+   \;\colon\;
+   (g_j)
+     \mapsto
+   (g_j(\rho))
+$$
+
+as in def. \ref{CouplingRunning}. Then for all $\rho_{vac}, \rho_1, \rho_2 \in RG$ the following equality is satisfied
+by the "running functions" (eq:SMatrixScemesRelatedByRunningFunction):
+
+$$
+  \mathcal{Z}_{\rho_{vac}}^{\rho_1 \rho_2}
+  \;=\;
+  \mathcal{Z}_{\rho_{vac}}^{\rho_1}
+    \circ
+  \left(
+    \sigma_{\rho_1}
+      \circ
+    \mathcal{Z}_{\rho^{-1} \rho_{vac}}^{\rho_2}
+      \circ
+    \sigma_{\rho_1}^{-1}
+  \right)
+  \,.
+$$
+
+=--
+
+([Brunetti-Dütsch-Fredenhagen 09 (69)](#BrunettiDuetschFredenhagen09), [Dütsch 18, (3.325)](#Duetsch18))
+
++-- {: .proof}
+###### Proof
+
+Directly using the definitions, we compute as follows:
+
+$$
+  \begin{aligned}
+    \mathcal{S}_{\rho_{vac}}
+      \circ
+    \mathcal{Z}_{\rho_{vac}}^{\rho_1 \rho_2}
+    & =
+    \mathcal{S}_{\rho_{vac}}^{\rho_1 \rho_2 }
+    \\
+    & =
+    \sigma_{\rho_1}
+      \circ
+    \underset{
+      =
+      \mathcal{S}_{\rho_1^{-1} \rho_{vac}}^{\rho_2}
+        =
+      \mathcal{S}_{\rho_1^{-1} \rho_{vac}}
+        \circ
+      \mathcal{Z}_{\rho_1^{-1} \rho_vac}^{\rho_2}
+    }{
+    \underbrace{
+      \sigma_{\rho_2}
+        \circ
+      \mathcal{S}_{\rho_2^{-1}\rho_1^{-1}\rho_{vac}}
+        \circ
+      \sigma_{\rho_2}^{-1}
+    }}
+      \circ
+    \sigma_{\rho_1}^{-1}
+    \\
+    & =
+    \underset{
+      =
+      \mathcal{S}_{\rho_{vac}}
+        \circ
+      \mathcal{Z}_{\rho_{vac}}^{\rho_1}
+        \circ
+      \sigma_{\rho_1}
+    }{
+    \underbrace{
+      \sigma_{\rho_1}
+        \circ
+      \mathcal{S}_{\rho_1^{-1} \rho_{vac}}
+        \circ
+      \overset{ = id }{
+        \overbrace{
+          \sigma_{\rho_1}^{-1}
+            \circ
+          \sigma_{\rho_1}
+        }
+    }
+    }}
+      \circ
+      \mathcal{Z}_{\rho_1^{-1} \rho_{vac}}^{\rho_2}
+      \circ
+      \sigma_{\rho_1}^{-1}
+    \\
+    & =
+    \mathcal{S}_{\rho_{vac}}
+      \circ
+    \mathcal{Z}_{\rho_{vac}}^{\rho_1}
+      \circ
+    \underbrace{
+      \sigma_{\rho_1}
+        \circ
+      \mathcal{Z}_{\rho_1^{-1} \rho_{vac}}^{\rho_2}
+        \circ
+      \sigma_{\rho_1}^{-1}
+    }
+  \end{aligned}
+$$
+
+This demonstrates the equation between vertex redefinitions to be shown after [[composition]] with an S-matrix scheme. But by the uniqueness-clause in the [[main theorem of perturbative renormalization]] the composition operation $\mathcal{S}_{\rho_{vac}} \circ (-)$ as a function from [[vertex redefinitions]] to S-matrix schemes is [[injective function|injective]]. This implies the equation itself.
+
+=--
+
+
+##### RG Flow under Scaling transformations
+
+
+We discuss (prop. \ref{RGFlowScalingTransformations} below) that, if the field species involved have well-defined [[mass dimension]] (example \ref{ScalarFieldMassDimensionOnMinkowskiSpacetime} below) then [[scaling transformations]] on [[Minkowski spacetime]] (example \ref{ScalingTransformations} below) induce a [[renormalization group flow]] (def. \ref{FlowRenormalizationGroup}). This is the original and main example of [[renormalization group flows]] ([Gell-Mann& Low 54](#GellMannLow54)).
+
+
+
++-- {: .num_example #ScalingTransformations}
+###### Example
+**([[scaling transformations]] and [[mass dimension]])**
+
+Let
+
+$$
+  E \overset{fb}{\longrightarrow} \Sigma
+$$
+
+be a [[field bundle]] which is a [[trivial vector bundle]] over [[Minkowski spacetime]] $\Sigma = \mathbb{R}^{p,1} \simeq_{\mathbb{R}} \mathbb{R}^{p+1}$.
+
+For $\rho \in (0,\infty) \subset \mathbb{R}$ a [[positive real number]],
+write
+
+$$
+  \array{
+    \Sigma
+      &\overset{\rho}{\longrightarrow}&
+    \Sigma
+    \\
+    x &\mapsto& \rho x
+  }
+$$
+
+for the operation of multiplication by $\rho$ using the [[real vector space]]-[[structure]] of the [[Cartesian space]] $\mathbb{R}^{p+1}$ underlying [[Minkowski spacetime]].
+
+By [[pullback of differential forms|pullback]] this acts on [[field histories]] ([[sections]] of the [[field bundle]]) via
+
+$$
+  \array{
+    \Gamma_\Sigma(E)
+      &\overset{\rho^\ast}{\longrightarrow}&
+    \Gamma_\Sigma(E)
+    \\
+    \Phi &\mapsto& \Phi(\rho(-))
+  }
+  \,.
+$$
+
+Let then
+
+$$
+  \rho
+    \mapsto
+  vac_\rho
+    \;\coloneqq\;
+  (E_{\text{BV-BRST}}, \mathbf{L}'_{\rho}, \Delta_{H,\rho} )
+$$
+
+be a 1-parameter collection of [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacua]] on that field bundle, according to [this def.](S-matrix#VacuumFree), and consider a decomposition into a set $Spec$ of field species ([this def.](S-matrix#VerticesAndFieldSpecies)) such that for each $sp \in Spec$ the collection of [[Feynman propagators]] $\Delta_{F,\rho,sp}$ for that species _scales homogeneously_ in that there exists
+
+$$
+  dim(sp) \in \mathbb{R}
+$$
+
+such that for all $\rho$ we have (using [[generalized functions]]-notation)
+
+$$
+  \label{FeynmanPropagatorScalingBehaviour}
+  \rho^{ 2 dim(sp) }  \Delta_{F, 1/\rho, sp}( \rho x )
+  \;=\;
+  \Delta_{F,sp, \rho = 1}(x)
+  \,.
+$$
+
+Typically $\rho$ rescales a [[mass]] parameter, in which case $dim(sp)$ is also called the _[[mass dimension]]_ of the field species $sp$.
+
+Let finally
+
+$$
+  \array{
+    PolyObs(E)
+    &
+      \overset{
+        \sigma_\rho
+      }{\longrightarrow}
+    &
+    PolyObs(E)
+    \\
+    \mathbf{\Phi}_{sp}^a(x)
+      &\mapsto&
+    \rho^{- dim(sp)} \mathbf{\Phi}^a( \rho^{-1} x )
+  }
+$$
+
+be the [[function]] on [[off-shell]] [[polynomial observables]] given on [[field observables]] $\mathbf{Phi}^a(x)$ by [[pullback of differential forms|pullback]] along $\rho^{-1}$ followed by multiplication by $\rho$ taken to the negative power of the [[mass dimension]], and extended from there to all [[polynomial observables]] as an [[associative algebra|algebra]] [[homomorphism]].
+
+This constitutes an [[action]] of the [[group]]
+
+$$
+  RG
+    \coloneqq
+  \left(
+    \mathbb{R}_+, \cdot
+  \right)
+$$
+
+of [[positive real numbers]] (under [[multiplication]]) on [[polynomial observables]], called the group of _[[scaling transformations]]_ for the given choice of field species and [[mass]] parameters.
+
+=--
+
+([Dütsch 18, def. 3.19](#Duetsch18))
+
+
++-- {: .num_example #ScalarFieldMassDimensionOnMinkowskiSpacetime}
+###### Example
+**([[mass dimension]] of [[scalar field]])**
+
+Consider the [[Feynman propagator]] $\Delta_{F,m}$ of the [[free field theory|free]] [[real scalar field]] on [[Minkowski spacetime]] $\Sigma = \mathbb{R}^{p,1}$  for [[mass]] parameter $m \in (0,\infty)$; a [[Green function]] for the [[Klein-Gordon equation]].
+
+Let the group $RG \coloneqq (\mathbb{R}_+, \cdots)$ of [[scaling transformations]] $\rho \in \mathbb{R}_+$ on [[Minkowski spacetime]] (def. \ref{ScalingTransformations}) act on the mass parameter by inverse multiplication
+
+$$
+  (\rho , \Delta_{F,m})
+    \mapsto
+  \Delta_{F,\rho^{-1}m}(\rho (-))
+  \,.
+$$
+
+Then we have
+
+$$
+  \Delta_{F,\rho^{-1}m}(\rho (-))
+  \;=\;
+  \rho^{-(p+1) + 2}
+  \Delta_{F,1}(x)
+$$
+
+and hence the corresponding [[mass dimension]] (def. \ref{ScalingTransformations}) of the [[real scalar field]] on $\mathbb{R}^{p,1}$ is
+
+$$
+  dim(\text{scalar field})
+  =
+  (p+1)/2 - 1
+  \,.
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By  ([this prop.](Feynman+propagator#FeynmanPropagatorAsACauchyPrincipalvalue)) the [[Feynman propagator]] in question is given by the [[Cauchy principal value]]-formula (in [[generalized function]]-notation)
+
+$$
+  \begin{aligned}
+  \Delta_{F,m}(x)
+  & =
+  \underset{ {\epsilon \in (0,\infty)} \atop {\epsilon \to 0} }{\lim}
+  \frac{+i}{(2\pi)^{p+1}}
+  \int
+  \int_{-\infty}^\infty
+  \frac{
+     e^{i k_\mu x^\mu}
+  }{
+    - k_\mu k^\mu - \left( \tfrac{m c}{\hbar} \right)^2 \pm i \epsilon
+  }
+  \, d k_0 \, d^p \vec k
+  \,.
+  \end{aligned}
+$$
+
+By applying [[change of integration variables]] $k \mapsto \rho^{-1} k$ in the [[Fourier transform of distributions|Fourier transform]] this becomes
+
+$$
+  \begin{aligned}
+  \Delta_{F,\rho^{-1}m}(\rho x)
+  & =
+  \underset{ {\epsilon \in (0,\infty)} \atop {\epsilon \to 0} }{\lim}
+  \frac{+i}{(2\pi)^{p+1}}
+  \int
+  \int_{-\infty}^\infty
+  \frac{
+     e^{i k_\mu \rho x^\mu}
+  }{
+    - k_\mu k^\mu - \left( \rho^{-1} \tfrac{m c}{\hbar} \right)^2 \pm i \epsilon
+  }
+  \, d k_0 \, d^p \vec k
+  \\
+  & =
+  \rho^{-(p+1)}
+  \underset{ {\epsilon \in (0,\infty)} \atop {\epsilon \to 0} }{\lim}
+  \frac{+i}{(2\pi)^{p+1}}
+  \int
+  \int_{-\infty}^\infty
+  \frac{
+     e^{i k_\mu x^\mu}
+  }{
+    - \rho^{-2} k_\mu k^\mu - \rho^{-2} \left( \tfrac{m c}{\hbar} \right)^2 \pm i \epsilon
+  }
+  \, d k_0 \, d^p \vec k
+  \\
+  & =
+  \rho^{-(p+1)+2}
+  \underset{ {\epsilon \in (0,\infty)} \atop {\epsilon \to 0} }{\lim}
+  \frac{+i}{(2\pi)^{p+1}}
+  \int
+  \int_{-\infty}^\infty
+  \frac{
+     e^{i k_\mu x^\mu}
+  }{
+    - k_\mu k^\mu -  \left( \tfrac{m c}{\hbar} \right)^2 \pm i \epsilon
+  }
+  \, d k_0 \, d^p \vec k
+  \\
+  & =
+  \rho^{-(p+1) + 2}
+  \Delta_{F,m}(x)
+  \end{aligned}
+$$
+
+=--
+
++-- {: .num_prop #RGFlowScalingTransformations}
+###### Proposition
+**([[scaling transformations]] are [[renormalization group flow]])**
+
+Let
+
+$$
+  vac \coloneqq vac_m
+  \coloneqq (E_{\text{BV-BRST}}, \mathbf{L}', \Delta_{H,m})
+$$
+
+be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacua]] on that field bundle, according to [this def.](S-matrix#VacuumFree) equipped with a decomposition into a set $Spec$ of field species ([this def.](S-matrix#VerticesAndFieldSpecies)) such that for each $sp \in Spec$ the collection of [[Feynman propagators]] the corresponding field species has a well-defined [[mass dimension]] $dim(sp)$ (def. \ref{ScalingTransformations})
+
+Then the [[action]] of the [[group]] $RG \coloneqq (\mathbb{R}_+, \cdot)$ of [[scaling transformations]] (def. \ref{ScalingTransformations}) is a [[renormalization group flow]] in the sense of [this prop.](renormalization+group+flow#FlowRenormalizationGroup).
+
+=--
+
+([Dütsch 18, exercise 3.20](#Duetsch18))
+
+
++-- {: .proof}
+###### Proof
+
+It is clear that rescaling preserves [[causal order]] and the [[renormalization condition]] of "field indepencen".
+
+The condition we need to check is that for $A_1, A_2 \in PolyObs(E_{\text{BV-BRST}})_{mc}[ [ \hbar, g, j] ]$ two [[microcausal polynomial observables]]  we have for any $\rho, \rho_{vac} \in \mathbb{R}_+$ that
+
+$$
+  \sigma_\rho
+  \left(
+    A_1 \star_{H, \rho^{-1} \rho_{vac} c} A_2
+  \right)
+  \;=\;
+  \sigma_\rho(A_1)
+    \star_{H,\rho_{vac}}
+  \sigma_\rho(A_2)
+  \,.
+$$
+
+By the assumption of decomposition into free field species $sp \in Spec$, it is sufficient to check this for each species $\Delta_{H,sp}$.
+Moreover, by the nature of the [[star product]] on [[polynomial observables]], which is given by iterated contractions with the [[Wightman propagator]], it is sufficient to check this for one such contraction.
+
+Observe that the scaling behaviour of the [[Wightman propagator]] $\Delta_{H,m}$ is the same as the behaviour (eq:FeynmanPropagatorScalingBehaviour) of the correspponding [[Feynman propagator]]. With this we directly compute as follows:
+
+$$
+  \begin{aligned}
+    \sigma_\rho (\mathbf{\Phi}(x))
+     \star_{F, \rho_{vac} m}
+    \sigma_\rho (\mathbf{\Phi}(y)
+    & =
+    \rho^{-2 dim }
+    \mathbf{\Phi}(\rho^{-1} x)
+      \star_{F, \rho_{vac} m}
+    \mathbf{\Phi}(\rho^{-1} y)
+    \\
+    & =
+    \rho^{-2 dim }
+    \Delta_{F, \rho_{vac} m}(\rho^{-1}(x-y))
+    \\
+    & =
+    \Delta_{F, \rho^{-1}\rho_{vac}m }(x,y) \mathbf{1}
+    \\
+    & =
+    rg_{\rho}\left(
+     \Delta_{F, \rho^{-1}\rho_{vac}m }(x,y) \mathbf{1}
+    \right)
+    \\
+    & =
+    rg_{\rho}
+    \left(
+      \mathbf{\Phi}(x)
+        \star_{F, \rho^{-1} \rho_{vac} m}
+      \mathbf{\Phi}(y)
+    \right)
+  \end{aligned}
+  \,.
+$$
+
+=--
 
 
 ### BPHZ and Hopf-algebraic renormalization
@@ -562,7 +2330,7 @@ In the context of [[BV theory|BRST-BV quantization]] these statements are subsum
 ### Of theories in BV-CS form
  {#OfTheoriesInBVForm}
 
-In ([Costello 07](#Costello)) a comparatively simple renormalization procedure is given that applies to [[theory (physics)|theories]] that are given by [[action functionals]] which can be given in the form
+In ([Costello 07](#Costello)) a renormalization procedure is discussed that applies to [[theory (physics)|theories]] that are given by [[action functionals]] which can be given in the form
 
 $$
   S(\phi)
@@ -1177,7 +2945,7 @@ A vaguely related approach earlier appeared in
 
 [[!redirects Hopf-algebraic renormalization]]
 
-[[!redirects Hopf algebra renormalization]] 
+[[!redirects Hopf algebra renormalization]]
 
 
 
