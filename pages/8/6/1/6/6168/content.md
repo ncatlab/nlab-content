@@ -22,7 +22,7 @@ $$
   \pi \;\colon \; T^* X \to T X
 $$
 
-to the [[conormal bundle]] $N^* S \hookrightarrow T^* S$ factors through the [[tangent bundle]] $T S$
+to the [[conormal bundle]] $N^* S \hookrightarrow T^* X|_S$ factors through the [[tangent bundle]] $T S$
 
 $$
   \pi|_{N^* S} \;\colon\; {N^* S} \to T S \hookrightarrow T X
