@@ -159,6 +159,16 @@
 
   * [[renormalization group flow]]/[[running coupling constants]]
 
+* [[effective quantum field theory]]
+
+  * [[UV cutoff]]
+
+  * [[counterterms]]
+
+  * [[relative effective action]]
+
+  * [[Wilsonian RG]], [[Polchinski flow equation]]
+
 
 ## Theorems
 
