@@ -671,21 +671,19 @@ $$
   \label{RelativeEffectiveActionComposite}
   S_{eff,\Lambda, \Lambda_0}
   \;\coloneqq\;
-  i \hbar
   \mathcal{S}_{\Lambda}^{-1} \circ \mathcal{S}_{\Lambda_0}(g S_{int} + j A)
   \phantom{AAA}
   \Lambda, \Lambda_0 \in [0,\infty)
   \,.
 $$
 
-For chosen  [[counterterms]] (remark \ref{TermCounter}) hence for chosen [[UV regularization]] $\mathcal{S}_\infty$ (prop. \ref{UVRegularization}) this makes sense also for $\Lamba_0 = \infty$ and we write:
+For chosen  [[counterterms]] (remark \ref{TermCounter}) hence for chosen [[UV regularization]] $\mathcal{S}_\infty$ (prop. \ref{UVRegularization}) this makes sense also for $\Lambda_0 = \infty$ and we write:
 
 $$
   S_{eff,\Lambda}
   \;\coloneqq\;
   S_{eff,\Lambda, \infty}
   \;\coloneqq\;
-  i \hbar
   \mathcal{S}_{\Lambda}^{-1} \circ \mathcal{S}_{\infty}(g S_{int} + j A)
   \phantom{AAA}
   \Lambda  \in [0,\infty)
@@ -824,38 +822,30 @@ In this sense "Wilsonian RG flow" is a method of [[renormalization|("re"-)normal
 Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$
 be a [[gauge fixing|gauge fixed]] [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] (according to [this def.](S-matrix#VacuumFree)) and let $\left\{ \Delta_{F,\Lambda}\right\}_{\Lambda \in [0,\infty)}$ be a choice of [[UV cutoffs]] for [[perturbative QFT]] around this vacuum (def. \ref{CutoffsUVForPerturbativeQFT}).
 
-Then the [[relative effective actions]] $\mathcal{S}_{eff,\Lambda, \Lambda_0}$ (def. \ref{EffectiveActionRelative})
-satisfy
+Then the [[relative effective actions]] $\mathcal{S}_{eff,\Lambda, \Lambda_0}$ (def. \ref{EffectiveActionRelative}) satisfy
 
 $$
-  \mathcal{S}_{eff,\Lambda, \Lambda'}
-  \circ
-  \mathcal{S}_{eff,\Lambda', \Lambda_0}
+  S_{eff, \Lambda', \Lambda_0}
   \;=\;
-  \mathcal{S}_{eff, \Lambda, \Lambda_0}
+  \left(
+    \mathcal{S}_{\Lambda'}^{-1}
+    \circ
+    \mathcal{S}_\Lambda
+  \right)
+  \left(
+    S_{eff, \Lambda, \Lambda_0}
+  \right)
   \phantom{AAA}
-  \text{for}\,\, \Lambda, \Lambda' \in [0,\infty) \,\text{and}\, \Lambda_0 \in [0,\infty) \sqcup \{\infty\}
+  \text{for}
+  \,
+  \Lambda,\Lambda' \in [0,\infty)
+  \,,\,
+  \Lambda_0 \in [0,\infty) \sqcup \{\infty\}
+  \,.
 $$
 
-and
 
-$$
-  \mathcal{S}_{eff, \Lambda_0 , \Lambda}
-  \;=\;
-  \left(\mathcal{S}_{eff, \Lambda, \Lambda_0}\right)^{-1}
-  \phantom{AAAA}
-  \text{for}\,\, \Lambda,\Lambda_0 \in [0,\infty)
-  \.
-$$
-
-This is similar to a [[group]] of UV-cutoff scale-transformations. But since the [[composition]]
-operations are only sensible when the UV-cutoff labels match, as shown, this is
-
-1. a _[[groupoid]]_ with [[objects]] the $\Lambda \in 0,\infty)$ and unique [[morphism]]
-between $\Lambda$ and $\Lambda'$ the [[relative effective action]] $\mathcal{S}_{eff,\Lambda, \Lambda'}$;
-
-1. a _[[groupoid action]]_ of this groupoid on the [[relative effective actions]]
-   $\mathcal{S}_{eff, \Lambda} \coloneqq \mathcal{S}_{eff,\Lambda, \infty}$.
+This is similar to a [[group]] of UV-cutoff scale-transformations. But since the [[composition]] operations are only sensible when the UV-cutoff labels match, as shown, it is really a [[groupoid]] [[groupoid action|groupoid]]
 
 This is often called the _Wilsonian RG_.
 
@@ -878,7 +868,7 @@ $$
   S_{eff,\Lambda}
   \;=\;
   -
-  \frac{1}{2}
+  \frac{1}{2} \frac{1}{i \hbar}
   \frac{d}{d \Lambda'}
   \left(
     S_{eff,\Lambda}
