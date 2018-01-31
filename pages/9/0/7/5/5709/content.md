@@ -609,7 +609,7 @@ $$
 
 This is similar to a [[group]] of UV-cutoff scale-transformations. But since the [[composition]] operations are only sensible when the UV-cutoff labels match, as shown, it is really a [[groupoid]] [[groupoid action|groupoid]]
 
-This is often called the _Wilsonian RG_.
+This is often called the _Wilsonian RG_, following ([Wilson 71](#Wilson71)).
 
 =--
 
@@ -745,7 +745,7 @@ The modern picture of effective low-energy QFT goes back to
 
 * L. P. Kadanoff, _Scaling laws for Ising models near $T_c$_ , Physica 2 (1966);
 
-* [[Kenneth Wilson]], _Renormalization group and critical phenomena_ , I., Physical review B 4(9) (1971).
+* {#Wilson71} [[Kenneth Wilson]], _Renormalization group and critical phenomena_ , I., Physical review B 4(9) (1971).
 
 * {#Polchinski84} [[Joseph Polchinski]], _Renormalization and effective Lagrangians_ , Nuclear Phys. B B231, 1984 ([pdf](http://max2.physics.sunysb.edu/~rastelli/2016/Polchinski.pdf))
 
