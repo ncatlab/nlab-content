@@ -208,7 +208,7 @@ a _[[renormalization group flow|re-normalization group flow]]_.
 It is clear from the definition that each $\mathcal{S}^{\rho}_{\rho_{vac}}$ satisfies the axiom "perturbation" (in [this def.](S-matrix#LagrangianFieldTheoryPerturbativeScattering)).
 
 In order to verify the axiom "[[causal additivity]]",
-observe, for convenience, that by [this example](S-matrix#TimeOrderedProductsFromSMatrixScheme) it is sufficient to check [[causal factorization]].
+observe, for convenience, that by [this prop.](S-matrix#CausalFactorizationAlreadyImpliesSMatrix) it is sufficient to check [[causal factorization]].
 
 So consider $O_1, O_2 \in LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]\langle g,j\rangle$
 two local observables whose spacetime support is in [[causal order]].
