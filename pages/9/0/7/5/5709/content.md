@@ -445,7 +445,7 @@ where on the right we have the [[star product]] induced by $\Delta_{F,\Lambda'}$
 
 =--
 
-This goes back to ([Polchinski 84](#Polchinski84)). The rigorous formulation and proof is due to ([Brunetti-Dütsch-Fredenhagen 09, prop. 5.2](#BrunettiDuetschFredenhagen09), [Dütsch 10, theorem 2](#Duetsch10)).
+This goes back to ([Polchinski 84, (27)](#Polchinski84)). The rigorous formulation and proof is due to ([Brunetti-Dütsch-Fredenhagen 09, prop. 5.2](#BrunettiDuetschFredenhagen09), [Dütsch 10, theorem 2](#Duetsch10)).
 
 +-- {: .num_remark}
 ###### Remark
