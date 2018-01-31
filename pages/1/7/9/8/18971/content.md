@@ -293,7 +293,7 @@ $$
     -
     Z_k\left( {\, \atop \,} O_0, \cdots,  O_0 {\, \atop \,} \right)
     +
-    Z_k\left( {\, \atop \,} (O_0 + O_1), \cdots, (O_0 + O_1) {\, \atop \,} \right)
+    Z_k\left( {\, \atop \,} (O_0 + O_2), \cdots, (O_0 + O_2) {\, \atop \,} \right)
   \end{aligned}
   \,.
 $$
