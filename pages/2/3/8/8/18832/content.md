@@ -4059,7 +4059,7 @@ After having discussed the uniqueness of the [[time-ordered products]] away from
 
 +-- {: .num_defn #ExtensionOfTimeOrderedProoductsRenormalization}
 ###### Definition
-**([[renormalization|("re"-)normalization]] of [[perturbative QFT]])**
+**([[Epstein-Glaser renormalization|Epstein-Glaser ("re"-)normalization]] of [[perturbative QFT]])**
 
 Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}.
 
@@ -4075,7 +4075,7 @@ $$
 
 Via the [[associativity]] (eq:RestrictedTimeOrderedProductAssociative) of the restricted [[time-ordered product]] thesese choices are naturally made by [[induction]] over $k$, choosing the $(k+1)$-ary [[time-ordered product]] $T_{k+1}$ as an [[extension of distributions]] of $T_k(\underset{k \, \text{args}}{\underbrace{-, \cdots, -}}) \star_F (-)$.
 
-This [[induction|inductive]] choice of [[extension of distributions]] of the [[time-ordered product]] to coinciding interaction points deserves to be called a choice of _normalization_ of the [[time-ordered product]] (e.g. [Scharf 94, section 4.3](S-matrix#Scharf95)), but for historical reasons (see remark \ref{TheTraditionalErrorThatLeadsToTheNotoriouDivergencies} and remark \ref{CausalPerturbationTheoryAbsenceOfUVDivergences}) it is known as _[[renormalization|re-normalization]]_.
+This [[induction|inductive]] choice of [[extension of distributions]] of the [[time-ordered product]] to coinciding interaction points deserves to be called a choice of _normalization_ of the [[time-ordered product]] (e.g. [Scharf 94, section 4.3](#Scharf95)), but for historical reasons (see remark \ref{TheTraditionalErrorThatLeadsToTheNotoriouDivergencies} and remark \ref{CausalPerturbationTheoryAbsenceOfUVDivergences}) it is known as _[[renormalization|re-normalization]]_. Specifically the inductive construction by extension to coinciding interaction points is known as _[[Epstein-Glaser renormalization]]_.
 
 =--
 
