@@ -320,7 +320,7 @@ $$
   Str n Cat_{gaunt} \hookrightarrow Str n Cat
 $$
 
-for the inclusion of the [gaunt](http://ncatlab.org/nlab/show/%28infinity%2Cn%29-category#GauntStrictNCategories) strict $n$-categoeries into all [[strict n-categories]].
+for the inclusion of the [gaunt](http://ncatlab.org/nlab/show/%28infinity%2Cn%29-category#GauntStrictNCategories) strict $n$-categories into all [[strict n-categories]].
 
 +-- {: .num_prop}
 ###### Proposition
