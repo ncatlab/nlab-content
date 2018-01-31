@@ -745,14 +745,9 @@ See also
 [[!redirects Stueckelberg-Petermann renormalization group]]
 [[!redirects Stueckelberg-Petermann renormalization groups]]
 
-[[!redirects perturbative interaction vertex redefinition]]
-[[!redirects perturbative interaction vertex redefinitions]]
 
-[[!redirects interaction vertex redefinition]]
-[[!redirects interaction vertex redefinitions]]
 
-[[!redirects vertex redefinition]]
-[[!redirects vertex redefinitions]]
+
 
 
 
