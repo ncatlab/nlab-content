@@ -86,7 +86,7 @@ where the first arrow is the coproduct coprojection.
 If $T$ is a monad on a complete and cocomplete category $C$ that preserves reflexive coequalizers, then $C^T$ is complete and cocomplete. 
 =-- 
 
-The hypotheses of the preceding corollary hold when $C$ is a complete, cocomplete, cartesian closed category and $T$ is the monad corresponding to a [[finitary algebraic theory]]. (The key observation being that the finitary power functors $x \mapsto x^n$ preserve reflexive coequalizers if $C$ is cartesian closed.) 
+The hypotheses of the preceding corollary hold when $C$ is a complete, cocomplete, cartesian closed category and $T$ is the monad corresponding to a [[Lawvere theory|finitary algebraic theory]]. (The key observation being that the finitary power functors $x \mapsto x^n$ preserve reflexive coequalizers if $C$ is cartesian closed.) 
 
 
 +-- {: .num_cor}
