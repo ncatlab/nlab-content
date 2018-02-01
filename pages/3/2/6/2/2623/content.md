@@ -1758,6 +1758,7 @@ $$
 For chosen  [[counterterms]] (remark \ref{TermCounter}) hence for chosen [[UV regularization]] $\mathcal{S}_\infty$ (prop. \ref{UVRegularization}) this makes sense also for $\Lambda_0 = \infty$ and we write:
 
 $$
+  \label{RelativeEffectiveActionRelativeToInfinity}
   S_{eff,\Lambda}
   \;\coloneqq\;
   S_{eff,\Lambda, \infty}
@@ -1883,10 +1884,12 @@ But the collection [[relative effective actions]] $\mathcal{S}_{eff,\Lambda, \La
 "flows" with the cutoff-parameters $\Lambda$ and in particular also with $\Lambda_0$ (remark \ref{GroupoidOfEFTs} below)
 which suggests that examination of this flow yields information about full theory at $\mathcal{S}_\infty$.
 
+
 This is made precise by _[[Polchinski's flow equation]]_ (prop. \ref{FlowEquationPolchinski} below),
-which is [[infinitesimal]] version of the "Wilsonian RG flow".
-As a [[differential equation]] is _independent_ of the choice of $\mathcal{S}_{\infty}$ and hence may
+which is the [[infinitesimal]] version of the "Wilsonian RG flow" (remark \ref{GroupoidOfEFTs}).
+As a [[differential equation]] it is _independent_ of the choice of $\mathcal{S}_{\infty}$ and hence may
 be used to solve for the Wilsonian RG flow without knowing $\mathcal{S}_\infty$ in advance.
+
 The freedom in choosing the initial values of this differential equation corresponds to
 the [[renormalization|("re"-)normalization freedom]] in choosing the [[UV regularization]] $\mathcal{S}_\infty$.
 In this sense "Wilsonian RG flow" is a method of [[renormalization|("re"-)normalization]] of [[perturbative QFT]]
@@ -1962,6 +1965,144 @@ where on the right we have the [[star product]] induced by $\Delta_{F,\Lambda'}$
 
 This goes back to ([Polchinski 84, (27)](#Polchinski84)). The rigorous formulation and proof is due to ([Brunetti-Dütsch-Fredenhagen 09, prop. 5.2](#BrunettiDuetschFredenhagen09), [Dütsch 10, theorem 2](#Duetsch10)).
 
++-- {: .proof}
+###### Proof
+
+First observe that for any [[polynomial observable]] $O \in PolyObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]$ we have
+
+$$
+  \begin{aligned}
+  &
+  \frac{1}{(k+2)!}
+  \frac{d}{d \Lambda}
+  (
+    \underset{
+      k+2 \, \text{factors}
+    }{
+    \underbrace{
+      O
+        \star_{F,\Lambda}
+        \cdots
+        \star_{F,\Lambda}
+      O
+    }
+    }
+  )
+  \\
+  & =
+  \frac{d}{d \Lambda}
+  \left(
+    prod
+    \circ
+    \exp\left(
+      \hbar
+      \underset{1 \leq i \lt j \leq k}{\sum}
+      \left\langle
+         \Delta_{F,\Lambda}
+         ,
+         \frac{\delta}{\delta \mathbf{\Phi}_i}
+         \frac{\delta}{\delta \mathbf{\Phi}_j}
+      \right\rangle
+    \right)
+    (
+      \underset{
+        k + 2 \, \text{factors}
+      }{
+      \underbrace{
+        O \otimes \cdots \otimes O
+      }
+      }
+    )
+  \right)
+  \\
+  & =
+  \underset{
+    = \frac{1}{2} \frac{1}{k!}
+  }{
+  \underbrace{
+    \frac{1}{(k+2)!}
+    \left(
+      k + 2
+      \atop
+      2
+    \right)
+  }}
+  \left(
+    \frac{d}{d \Lambda}
+    O
+     \star_{F,\Lambda}
+    O
+  \right)
+    \star_{F,\Lambda}
+  \underset{
+    k \, \text{factors}
+  }{
+  \underbrace{
+  O
+    \star_{F,\Lambda}
+    \cdots
+    \star_{F,\Lambda}
+  O
+  }
+  }
+  \end{aligned}
+$$
+
+Here $\frac{\delta}{\delta \mathbf{\Phi}_i}$ denotes the functional derivative of the $i$th tensor factor of $O$, and the binomial coefficient counts the number of ways that an unordered pair of distinct labels of tensor factors may be chosen from a total of $k+2$ tensor factors, where we use that the [[star product]] $\star_{F,\Lambda}$ is commutative (by symmetry of $\Delta_{F,\Lambda}$) and associative (by [this prop.](star+product#AssociativeAndUnitalStarProduct)).
+
+With this and the defining equality $\mathcal{S}_\Lambda(S_{eff,\Lambda}) =  \mathcal{S}(g S_{int} + j A)$ (eq:RelativeEffectiveActionRelativeToInfinity) we compute as follows:
+
+$$
+  \begin{aligned}
+    0
+    & =
+    \frac{d}{d \Lambda} \mathcal{S}(g S_{int} + j A)
+    \\
+    & =
+    \frac{d}{d \Lambda}
+    \mathcal{S}_\Lambda(S_{eff,\Lambda})
+    \\
+    & =
+    \left(
+      \frac{1}{i \hbar}
+      \frac{d}{d \Lambda} S_{eff,\Lambda}
+    \right)
+      \star_{F,\Lambda}
+    \mathcal{S}_\Lambda(S_{eff,\Lambda})
+    +
+    \left(
+      \frac{d}{d \Lambda}
+      \mathcal{S}_{\Lambda}
+   \right)
+   \left( S_{eff, \Lambda} \right)
+    \\
+    & =
+    \left(
+      \frac{1}{i \hbar}
+      \frac{d}{d \Lambda} S_{eff,\Lambda}
+    \right)
+      \star_{F,\Lambda}
+    \mathcal{S}_\Lambda(S_{eff,\Lambda})
+    \;+\;
+    \frac{1}{2}
+    \frac{d}{d \Lambda'}
+    \left(
+      \frac{1}{i \hbar} S_{eff,\Lambda}
+        \star_{F,\Lambda'}
+      \frac{1}{i \hbar} S_{eff, \Lambda}
+    \right)
+    \vert_{\Lambda' = \Lambda}
+      \star_{F,\Lambda}
+    \mathcal{S}_\Lambda
+    \left(
+      S_{eff, \Lambda}
+    \right)
+  \end{aligned}
+$$
+
+Acting on this equation with the multiplicative inverse $(-) \star_{F,\Lambda} \mathcal{S}_\Lambda( - S_{eff,\Lambda} )$ (using that $\star_{F,\Lambda}$ is a commutative product, so that exponentials behave as usual) this yields the claimed equation.
+
+=--
 
 
 #### Re-Normalization
