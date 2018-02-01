@@ -1,222 +1,137 @@
 
+First observe that for any $O \in PolyObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]$ we have
 
 $$
   \begin{aligned}
-    \mathcal{S}_{vac_e}^\rho(O_1 + O_2)
-    & =
-    rg_\rho \circ \mathcal{S}_{vac_{\rho^{-1}}} \circ rg_\rho^{-1}( O_1 + O_2 )
-    \\
-    & =
-    rg_\rho
-    \left(
-      {\, \atop \,}
-      \mathcal{S}_{vac_{\rho^{-1}}}(rg_\rho^{-1}(O_1)) + rg_\rho^{-1}(O_2)
-      {\, \atop \,}
+  & 
+  \frac{1}{(k+2)!}
+  \frac{d}{d \Lambda} 
+  (
+    \underset{
+      k+2 \, \text{factors}
+    }{
+    \underbrace{
+      O 
+        \star_{F,\Lambda} 
+        \cdots 
+        \star_{F,\Lambda}
+      O
+    }
+    }
+  )
+  \\
+  & =
+  \frac{d}{d \Lambda}
+  \left(
+    prod
+    \circ
+    \exp\left(
+      \hbar
+      \underset{1 \leq i \lt j \leq k}{\sum}
+      \left\langle
+         \Delta_{F,\Lambda}
+         ,
+         \frac{\delta}{\delta \mathbf{\Phi}_i}
+         \frac{\delta}{\delta \mathbf{\Phi}_j}
+      \right\rangle
     \right)
-    \\
-    & =
-    rg_\rho
+    (
+      \underset{
+        k + 2 \, \text{factors}
+      }{
+      \underbrace{
+        O \otimes \cdots \otimes O
+      }
+      }
+    )
+  \right)
+  \\
+  & =
+  \underset{
+    = \frac{1}{2} \frac{1}{k!}
+  }{
+  \underbrace{
+    \frac{1}{(k+2)!}
     \left(
-      {\, \atop \,}
-      \mathcal{S}_{\rho^{-1}}(rg_\rho^{-1}(O_1)) 
-        \star_{H,\rho^{-1}} 
-      \mathcal{S}_{vac_{\rho^{-1}}}(rg_\rho^{-1}(O_2))
-      {\, \atop \,}
+      k + 2
+      \atop
+      2
     \right)
-    \\
-    & =
-    rg_\rho
-    \left(
-      {\, \atop \,}
-      \mathcal{S}_{vac_{\rho^{-1}}}(rg_{\rho^{-1}}(O_1)
-      {\, \atop \,}
-    \right)
-    \star_{H,e}
-    rg_\rho
-    \left(
-      {\, \atop \,}
-      \mathcal{S}_{vac_{\rho^{-1}}}(rg_\rho^{-1}(O_2))
-      {\, \atop \,}
-    \right)
-    \\
-    & =
-    \mathcal{S}^\rho_{vac_e}( O_1 )\, \mathcal{S}^\rho_{vac_e}(O_2)
-    \,.
+  }}
+  \left(
+    \frac{d}{d \Lambda}
+    O
+     \star_{F,\Lambda}
+    O
+  \right)
+    \star_{F,\Lambda}
+  \underset{
+    k \, \text{factors}
+  }{
+  \underbrace{
+  O
+    \star_{F,\Lambda}
+    \cdots
+    \star_{F,\Lambda}
+  O
+  }
+  }
   \end{aligned}
 $$
 
+Here $\frac{\delta}{\delta \mathbf{\Phi}_i}$ denotes the functional derivative of the $i$th tensor factor of $O$, and the binomial coefficient counts the number of ways that an unordered pair of distinct labels of tensor factors may be chosen from a total of $k+2$ tensor factors, where we use that the [[star product]] $\star_{F,\Lambda}$ is commutative (by symmetry of $\Delta_{F,\Lambda}$) and associative (by [this prop.](star+product#AssociativeAndUnitalStarProduct)).
 
-+-- {: .num_example #DiracFieldPolynomialObservables}
-###### Example
-**([[polynomial observables]] of the [[Dirac field]])**
-
-Let $E = \Sigma \times S_{odd}$ be the [[field bundle]] of the [[Dirac field]] (example \ref{DiracFieldBundle}).
-
-Then, by prop. \ref{DiracSpaceOfFieldHistories}, 
-an $\mathbb{R}^{0\vert 1}$-parameterized plot of the space of [[off-shell]] [[polynomial observables]] (def. \ref{PolynomialObservables})
-
-$$
-  A_{(-)}
-  \;\colon\;
-  \mathbb{R}^{0 \vert 1}
-  \longrightarrow 
-  PolyObs(\Sigma \times S_{odd})
-$$
-
-is of the form
+With this we compute as follows:
 
 $$
   \begin{aligned}
-    A_{(-)}
-    & =
-    a^{(0)}
+    0
+    & = 
+    \frac{d}{d \Lambda} \mathcal{S}(g S_{int} + j A)
     \\
-    & \phantom{=}
-    + 
-    \theta
-    \underset{\Sigma}{\int}
-      a^{(1)}_{\alpha}(x)  
-      \mathbf{\Psi}^\alpha(x)
-    dvol_\Sigma(x)
+    & =
+    \frac{d}{d \Lambda}
+    \mathcal{S}_\Lambda(S_{eff,\Lambda})
     \\
     & = 
-    \phantom{=}
-    +
-    \underset{\Sigma^2}{\int}
-      a^{(2)}_{\alpha_1 \alpha_2}(x,y) 
-      \mathbf{\Psi}^{\alpha_1}(x_1) 
-        \cdot
-      \mathbf{\Psi}^{\alpha_2}(x_2)
-    \,
-    dvol_\Sigma(x_1) \, dvol_\Sigma(x_2)
-    \\
-    & \phantom{=}
-    +
-    \theta
-    \underset{\Sigma}{\int}
-      a^{(3)}_{\alpha_1 \alpha_2 \alpha_3}(x_1, x_2, x_3) 
-      \mathbf{\Psi}^{\alpha_1}(x_1)
-       \cdot
-      \mathbf{\Psi}^{\alpha_2}(x_2)
-        \cdot
-      \mathbf{\Psi}^{\alpha_3}(x_3)
-    \, dvol_\Sigma(x_1) \, dvol_\Sigma(x_2) \, dvol_\Sigma(x_3)
-    \\
-    & \phantom{=}
-    + \cdots
-  \end{aligned}
-$$
-
-for any [[distributions of several variables]] $a^{(k)}_{\alpha_1, \cdots , \alpha_k}$. Here
-
-$$
-  \mathbf{\Psi}^\alpha(x)
-  \;\colon\;
-  \Gamma_\Sigma(\Sigma \times S_{even})
-    \longrightarrow
-  \mathbb{C}
-$$
-
-are the point-evaluation [[field observables]] (example \ref{PointEvaluationObservables}) on the [[spinor bundle]].
-and 
-
-$$
-  \theta \in C^\infty(\mathbb{R}^{0\vert 1})_{odd}
-$$ 
-
-is the canonical odd-graded coordinate function
-on the [[superpoint]] $\mathbb{R}^{0 \vert 1}$ (def. \ref{SuperCartesianSpace}). 
-
-Hence all the _odd_ powers of the [[Dirac field|Dirac]]-[[field observables]] are proportional to $\theta$.
-
-=--
-
-
-+-- {: .proof}
-###### Proof
-
-By definition of supergeometric [[mapping spaces]] (def. \ref{MappingSpaceOutOfASuperCartesianSpace}),
-there is a [[natural bijection]] between $\mathbb{R}^{0 \vert 1}$-plots $A_{(-)}$ of the space of observables
-and smooth functionss out of the [[Cartesian product]] of $\mathbb{R}^{0 \vert 1}$ with the [[space of field histories]]
-to the [[complex numbers]]:
-
-$$
-  \frac{
-    \mathbb{R}^{0\vert 1}
-      \overset{ A_{(-)} }{\longrightarrow}
-    [ \Gamma_\Sigma(\Sigma \times S_{odd}), \mathbb{C} ]
-  }
-  {
-    \mathbb{R}^{0 \vert 1} \times \Gamma_\Sigma(\Sigma \times S_{odd}) 
-    \longrightarrow
-    \mathbb{C}
-  }
-$$
-
-Moreover, by prop. \ref{DiracSpaceOfFieldHistories} we have that the coordinate functions
-on the space of field histories of the Dirac bundle are given by the field observables $\mathbf{\Psi}^\alpha(x)$
-regarded in odd degree. Now a homomorphism as above has to pull back the even coordinate function $x$
-on $\mathbb{C}$ to even coordinate functions on this Cartesian product, hence to joint even powers of 
-$\theta$ and $\mathbf{\Psi}^\alpha(x)$.
-
-=--
-
-
-$$
-  \begin{aligned}
-    \mathcal{S}'(O)
-    -
-    \mathcal{S}(\mathcal{Z}(O))
-    & =
-    \underset{k}{\sum}
     \left(
-      \frac{1}{k!}
-      \frac{1}{(i \hbar)^k}
-      T'_k( O^{\otimes_k} )
-      -
-      \underset{
-        1 \lt n \leq k
-      }{\sum}
-      \underset{
-        { \{1, \cdots, k\} = I_1 \sqcup \cdots \sqcup I_n }
-        \atop
-        { I_1, \cdots, I_n \neq \emptyset }
-      }{\sum}
-      \frac{1}{n!} \tfrac{1}{{\vert I_1\vert}! \cdots {\vert I_n\vert}!}
-      \frac{1}{(i \hbar)^n}
-      T_n\left(
-        Z_{{\vert I_1\vert}}(O^{\otimes_{\vert I_1\vert}}),
-        \cdots,
-        Z_{{\vert I_n\vert}}(O^{\otimes_{\vert I_n\vert}}),  
-      \right)
+      \frac{1}{i \hbar} 
+      \frac{d}{d \Lambda} S_{eff,\Lambda}
     \right)
-    \\
-    &
-    \phantom{=} 
+      \star_{F,\Lambda}
+    \mathcal{S}_\Lambda(S_{eff,\Lambda})
     +
-    \frac{1}{i \hbar} 
-    Z_k( O^{\otimes_k} )
-  \end{aligned}
+    \left(
+      \frac{d}{d \Lambda} 
+      \mathcal{S}_{\Lambda}
+   \right)
+   \left( S_{eff, \Lambda} \right)
+    \\
+    & =
+    \left(
+      \frac{1}{i \hbar} 
+      \frac{d}{d \Lambda} S_{eff,\Lambda}
+    \right)
+      \star_{F,\Lambda}
+    \mathcal{S}_\Lambda(S_{eff,\Lambda})
+    \;+\;
+    \frac{1}{2}
+    \frac{d}{d \Lambda'} 
+    \left(
+      \frac{1}{i \hbar} S_{eff,\Lambda}
+        \star_{F,\Lambda'}
+      \frac{1}{i \hbar} S_{eff, \Lambda}
+    \right)
+    \vert_{\Lambda' = \Lambda}
+      \star_{F,\Lambda}
+    \mathcal{S}_\Lambda
+    \left( 
+      S_{eff, \Lambda} 
+    \right)
+  \end{aligned} 
 $$
 
-([Dütsch 18, (3.333)](#Duetsch18))
-
-$$
-  \mathcal{Z}(O)
-  \;=\;
-  \underset{k \in \mathbb{N}}{\sum}
-  \frac{1}{k!}
-  Z_k( \underset{k \, \text{args}}{\underbrace{ O, \cdots, O }} )
-$$
-
-
-$$
-  {\hat u}^\prime
-  \,\,\,\,\,
-  \hat{u'}
-  \,\,\,\,\,
-  {\hat u}'
-$$
+Acting on this equation with the multiplicative inverse $(-) \star_{F,\Lambda} \mathcal{S}_\Lambda( - S_{eff,\Lambda} )$ (using that $\star_{F,\Lambda}$ is a commutative product, so that exponentials behave as usual) this yields the claimed equation.
 
 
 +-- {: .num_example #FieldSpeciesQED}
