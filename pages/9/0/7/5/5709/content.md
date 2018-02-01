@@ -896,13 +896,13 @@ The modern picture of effective low-energy QFT goes back to
 
 * {#Leutwyler94} H. Leutwyler, Ann. Phys., NY 235 (1994) 165.
 
+Review includes
 
-A review is in
+* {#Weinberg09} [[Steven Weinberg]], _Effective Field Theory, Past and Future_ ([arXiv:0908.1964](http://arxiv.org/abs/0908.1964))
 
-* [[Steven Weinberg]], _Effective Field Theory, Past and Future_ ([arXiv:0908.1964](http://arxiv.org/abs/0908.1964))
- {#Weinberg09}
-
-A brief introduction aimed at mathematicians is in
+* {#Pich} A. Pich, _Effective Field Theory_ ([arXiv:hep-ph/9806303](http://arxiv.org/abs/hep-ph/9806303))
+ 
+* {#Abdesselam13} [[Abdelmalek Abdesselam]], _QFT, RG, and all that, for mathematicians, in eleven pages_ ([arXiv:1311.4897](https://arxiv.org/abs/1311.4897))
 
 * [[Daniel Freed]], _Lecture 5 of [[Five lectures on supersymmetry]]_
 
@@ -918,11 +918,6 @@ whose author describes his goal as:
 Another book which takes the effective-field-theory approach to QFT is
 
 * Anthony Zee, _Quantum Field Theory in a Nutshell_ (Princeton University Press, second edition, 2010).
-
-
-Introductory lecture notes are for instance in
-
-* {#Pich} A. Pich, _Effective Field Theory_ ([arXiv:hep-ph/9806303](http://arxiv.org/abs/hep-ph/9806303))
 
 See also
 
