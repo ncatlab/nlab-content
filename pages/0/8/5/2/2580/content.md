@@ -148,7 +148,7 @@ Notice that other natural topologies exist, such as [[uniform convergence]] on c
 ###### Remark
 **(notation)**
 
-On general grounds the symbols $D(X)$ or $\mathcal{D}(X)$ or similar would seem evident notation for the space of distributions on a smooth manifold $X$. However, [[Laurent Schwartz]] in his seminal work ([Schwartz 50](#Schwartz50)) used $\mathcal{D}(X)$ to denote the space $C^\infty_c(X)$ of compactly supported continuous functions, and then $\mathcal{D}'(X)$ for its linear continuous dual, hence for the space of distributions (see also [H&#246;rmander 90, below def. 2.1.1](#Hoermander90)). 
+On general grounds the symbols $D(X)$ or $\mathcal{D}(X)$ or similar would seem evident notation for the space of distributions on a smooth manifold $X$. However, [[Laurent Schwartz]] in his seminal work ([Schwartz 50](#Schwartz50)) used $\mathcal{D}(X)$ to denote the space $C^\infty_c(X)$ of compactly supported continuous functions, and then $\mathcal{D}'(X)$ for its linear continuous dual, hence for the space of distributions (see also [H&#246;r#mander 90, below def. 2.1.1](#Hoermander90)). 
 
 =--
 
@@ -411,6 +411,8 @@ Distributions can be alternatively described using [[nonstandard analysis]], see
 * [[product of distributions]]
 
 * [[convolution product of distributions]]
+
+* [[Hörmander topology]]
 
 * [[Fourier transform of distributions]]
 
