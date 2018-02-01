@@ -25,9 +25,9 @@ There are at least three different concepts referred to as "the renormalization 
 
    this is literally the [[group]] of _re-normalizations_, whose elements relate any two given [[renormalization scheme|normalization schemes]] $\mathcal{S}$ and $\mathcal{S}'$ by [[precomposition]] with a transformation $\mathcal{Z}$ of the space of [[local observable|local]] [[interaction]] [[action functionals]];
 
-1. the [[Gell-Mann-Low renormalization cocycle]]
+1. [[renormalization group flow]], say along [[scaling transformations]] yielding the [[Gell-Mann-Low renormalization cocycle]]
 
-1. the group of Wilsonian [[effective field theory]]
+1. the [[Wilsonian RG]] of [[effective quantum field theories]] defined with a [[UV cutoff]].
 
 (e.g. [Brunetti-Dütsch-Fredenhagen 09, p. 10](#BrunettiDuetschFredenhagen09))
 
@@ -221,21 +221,21 @@ The [[Stückelberg-Petermann renormalization group]] is due to
 
 * {#StueckelbergPetermann53} [[Ernst Stückelberg]], [[André Petermann]], _La normalisation des constantes dans la theorie des quanta_, Helv. Phys. Acta 26 (1953), 499–520
 
-The relation of the [[Stückelberg-Petermann renormalization group]] to [[scale transformations]] and the [[Gell-Mann-Low renormalization cocycle]] 
+The relation of the [[Stückelberg-Petermann renormalization group]] to [[renormalization group flow]] ([[Gell-Mann-Low renormalization cocycles]]) 
 
 * {#GellMannLow54} [[Murray Gell-Mann]] and F. E. Low, _Quantum Electrodynamics at Small Distances_, Phys. Rev. 95 (5) (1954), 1300–1312 ([pdf](http://www.fafnir.phyast.pitt.edu/py3765/GellManLow.pdf))
 
-is due to
+as well as to [[Wilsonian RG]] of [[effective quantum field theories]] is due to
 
 * {#BrunettiDuetschFredenhagen09} [[Romeo Brunetti]], [[Michael Dütsch]], [[Klaus Fredenhagen]], _Perturbative Algebraic Quantum Field Theory and the Renormalization Groups_, Adv. Theor. Math. Physics 13 (2009), 1541-1599 ([arXiv:0901.2038](https://arxiv.org/abs/0901.2038))
+
+* {#DuetschFredenhagenKellerRejzner14} [[Michael Dütsch]], [[Klaus Fredenhagen]], [[Kai Keller]], [[Katarzyna Rejzner]], _Dimensional Regularization in Position Space, and a Forest Formula for Epstein-Glaser Renormalization_, J. Math. Phy.
+55(12), 122303 (2014) ([arXiv:1311.5424](https://arxiv.org/abs/1311.5424))
 
 reviewed in
 
 * {#Duetsch18} [[Michael Dütsch]], section 3.5.1 of _[[From classical field theory to perturbative quantum field theory]]_, 2018
 
-Review of the Wilsonian picture of RG-flow includes
-
-* {#Abdesselam13} [[Abdelmalek Abdesselam]], _QFT, RG, and all that, for mathematicians, in eleven pages_ ([arXiv:1311.4897](https://arxiv.org/abs/1311.4897))
 
 See also
 
