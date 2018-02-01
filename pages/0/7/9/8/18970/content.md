@@ -52,6 +52,9 @@ $$
   \,.
 $$
 
+Notice that this is related to, but conceptually different from, _[[Polchinski's flow equation]]_ in the context of [[Wilsonian RG]].
+
+
 The [[running of the coupling constants]] is not quite a [[representation]] of the [[renormalization group flow]],
 but it is a "twisted" representation, namely a [[group cocycle|group 1-cocycle]] (prop. \ref{CocycleRunningCoupling} below). For the case of [[scaling transformations]] this may be called the _[[Gell-Mann-Low renormalization cocycle]]_ ([Brunetti-Dütsch-Fredenhagen 09](#BrunettiDuetschFredenhagen09)).
 
@@ -781,6 +784,9 @@ $$
 
 =--
 
+## Related concepts
+
+* [[Wilsonian RG]]
 
 
 ## References
