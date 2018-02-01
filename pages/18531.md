@@ -113,6 +113,9 @@ such that
 
 ([Hörmander 90, theorem 8.2.4](#Hoermander90))
 
+## Properties
+
+* for continuity see at _[[Hörmander topology]]_
 
 
 ## Examples
