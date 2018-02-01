@@ -86,7 +86,7 @@ One can also impose the weaker condition that the pullbacks of covering families
 
 Likewise, when $C$ has pullbacks (of covering families), the condition for a presheaf $X$ to be a sheaf for a covering family $\{f_i:U_i\to U\}_{i\in I}$ can be stated more simply (and probably more familiarly, to some readers), as the assertion that the following diagram is an [[equalizer]]:
 \[
-X(U) \to \prod_{i\in I} X(U_i) \rightrightarrows \prod_{i,j\in I} X(U_i\times_U U_j).
+X(U) \to \prod_{i\in I} X(U_i) \rightrightarrows \prod_{j,k\in I} X(U_j\times_U U_k).
 \]
 The generalization to [[stack|stacks]] using [[cosimplicial object|cosimplicial objects]] is then straightforward.
 
