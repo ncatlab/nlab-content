@@ -11,6 +11,8 @@
 
 ## related entries
 
+* [[Polchinski's flow equation]]
+
 * [[string theory]]
 
 * [[D-brane]]
