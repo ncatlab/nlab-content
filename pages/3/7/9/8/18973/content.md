@@ -16,7 +16,7 @@
 
 ## Idea
 
-In [[perturbative quantum field theory]] via the method of [[effective quantum field theories]] what is called _Wilsonian RG flow_ (remark \ref{GroupoidOfEFTs} below) and specifically _Polchinski's flow equation_ (prop. \ref{FlowEquationPolchinski} below) is a characterization of the ([[infinitesimal]]) dependence of [[relative effective actions]] $S_{eff,\Lambda}$ ("effective potentials") on the choice of [[UV cutoff]]-scale $\Lambda$. 
+In [[perturbative quantum field theory]] via the method of [[effective quantum field theories]] what is called _Wilsonian RG_ (remark \ref{GroupoidOfEFTs} below) and specifically _Polchinski's flow equation_ (prop. \ref{FlowEquationPolchinski} below) is a characterization of the ([[infinitesimal]]) dependence of [[relative effective actions]] $S_{eff,\Lambda}$ ("effective potentials") on the choice of [[UV cutoff]]-scale $\Lambda$. 
 
 Solving Polchinki's flow equation with a choice of initial conditions may be used to choose a [[renormalization|("re"-)normalization]] of an [[interacting field theory|interacting]] [[perturbative QFT]].
 
@@ -237,6 +237,10 @@ Acting on this equation with the multiplicative inverse $(-) \star_{F,\Lambda} \
 * [[renormalization group flow]]
 
 ## References
+
+The idea of [[effective quantum field theory]] was promoted in
+
+* {#Wilson71} [[Kenneth Wilson]], _Renormalization group and critical phenomena_ , I., Physical review B 4(9) (1971).
 
 The flow equation in its original form is due to
 
