@@ -375,13 +375,12 @@ $$
 
 (as in [this equation](Wick+algebra#eq:OnRegularPolynomialObservablesPointwiseTimeOrderedIsomorphism)).
 
-In particular this means that the [[effective S-matrix]] $\mathcal{S}_\Lambda$ arises from the
-[[exponential series]] for the pointwise product by [[conjugation]] with $\mathcal{T}_\Lambda$:
+In particular this means that the [[effective S-matrix]] $\mathcal{S}_\Lambda$ arises from the [[exponential series]] for the pointwise product by [[conjugation]] with $\mathcal{T}_\Lambda$:
 
 $$
   \mathcal{S}_\Lambda
   \;=\;
-  \mathcal{T}_\Lambda \circ \exp_\cdot \circ \mathcal{T}_\Lambda^{-1}
+  \mathcal{T}_\Lambda \circ \exp_\cdot\left( \frac{1}{i \hbar}(-) \right) \circ \mathcal{T}_\Lambda^{-1}
 $$
 
 (just as for the genuine S-matrix on [[regular polynomial observables]] in [this def.](S-matrix#OnRegularObservablesPerturbativeSMatrix)).
@@ -393,9 +392,14 @@ since $\mathcal{T}$ evidently preserves powers of $g,j$ this [[conjugation|conju
 to an inverse at each UV cutoff scale $\Lambda$:
 
 $$
+  \label{InverseOfEffectiveSMatrixByLogarithm}
   \mathcal{S}_\Lambda^{-1}
   \;=\;
-  \mathcal{T}_\Lambda \circ \ln \circ \mathcal{T}_\Lambda^{-1}
+  \mathcal{T}_\Lambda 
+    \circ 
+  \ln\left( i \hbar (-) \right)
+    \circ 
+  \mathcal{T}_\Lambda^{-1}
   \,.
 $$
 
