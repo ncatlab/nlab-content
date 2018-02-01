@@ -908,10 +908,14 @@ A brief introduction aimed at mathematicians is in
 
 A standard textbook adopting this perspective is
 
-* [[Steven Weinberg]] _The Quantum Theory of Fields_ (Cambridge University
+* [[Steven Weinberg]], _The Quantum Theory of Fields_ (Cambridge University
 Press,Cambridge,1995).
 
-whose author describes his goal as: "This is intended to be a book on quantum field theory for the era of effective field theory."  Another book which takes the effective-field-theory approach to QFT is
+whose author describes his goal as:
+
+> This is intended to be a book on quantum field theory for the era of effective field theory.  
+
+Another book which takes the effective-field-theory approach to QFT is
 
 * Anthony Zee, _Quantum Field Theory in a Nutshell_ (Princeton University Press, second edition, 2010).
 
