@@ -47,7 +47,7 @@ A [[presheaf]] $A \in PSh(C)$ is a **sheaf** with respect to $J$ if
 
 * for every [[covering]] family $\{p_i : U_i \to U\}_{i \in I}$ in $J$
 
-* and for every _[[matching family|compatible family]] of elements_ given by tuples $(s_i \in A(U_i))_{i \in I}$ such that for all [[morphisms]] $U_i \stackrel{f}{\leftarrow} K \stackrel{g}{\to} U_j$ in $C$ we have $A(f)(s_i) = A(g)(s_j)$ for all $i,j \in I$
+* and for every _[[matching family|compatible family]] of elements_ given by tuples $(s_i \in A(U_i))_{i \in I}$ such that for all [[morphisms]] $U_j \stackrel{f}{\leftarrow} K \stackrel{g}{\to} U_k$ in $C$ we have $A(f)(s_j) = A(g)(s_k)$ for all $j,k \in I$
 
 then
 
@@ -85,7 +85,7 @@ for the [[Yoneda embedding]].
 Given a [[covering]] family $\{f_i : U_i \to U\}$ in $J$, its **[[sieve]]** is the presheaf $S(\{U_i\})$ defined as the [[coequalizer]]
 
 $$
-   \coprod_{i,j} j(U_i) \times_{j(U)} j(U_j) 
+   \coprod_{j,k} j(U_j) \times_{j(U)} j(U_k) 
      \stackrel{\overset{}{\to}}{\to}
    \coprod_i j(U_i) \to S(\{U_i\}) 
 $$
@@ -98,15 +98,15 @@ Here the [[coproduct]] on the left is over the [[pullbacks]]
 
 $$
   \array{
-    j(U_i) \times_{j(U)} j(U_j) &\stackrel{p_i}{\to}& j(U_i)
+    j(U_j) \times_{j(U)} j(U_k) &\stackrel{p_j}{\to}& j(U_j)
     \\
-    {}^{\mathllap{p_j}}\downarrow && \downarrow^{\mathrlap{j(f_i)}}
+    {}^{\mathllap{p_k}}\downarrow && \downarrow^{\mathrlap{j(f_j)}}
     \\
-    j(U_j) &\stackrel{j(f_j)}{\to}& j(U)
+    j(U_k) &\stackrel{j(f_k)}{\to}& j(U)
   }
 $$
 
-in $PSh(C)$, and the two morphisms between the coproducts are those induced componentwise by the two projections $p_i, p_j$ in this pullback diagram.
+in $PSh(C)$, and the two morphisms between the coproducts are those induced componentwise by the two projections $p_j, p_k$ in this pullback diagram.
 
 +-- {: .num_remark}
 ###### Remark
@@ -124,7 +124,7 @@ $$
   i_{\{U_i\}} :  S(\{U_i\}) \to j(U)
 $$
 
-that is induced by the [[universal property]] of the [[coequalizer]] from the morphisms $j(f_i) : j(U_i) \to j(U)$ and $j(U_i) \times_{j(U)} j(U_j) \to J(U)$.
+that is induced by the [[universal property]] of the [[coequalizer]] from the morphisms $j(f_i) : j(U_i) \to j(U)$ and $j(U_j) \times_{j(U)} j(U_k) \to J(U)$.
 
 =--
 
@@ -148,7 +148,7 @@ $$
    \to 
   \prod_i A(U_i)
    \stackrel{\to}{\to}
-  \prod_{i,j} PSh_C(j(U_i) \times_{j(U)} j(U_j), A)
+  \prod_{j,k} PSh_C(j(U_j) \times_{j(U)} j(U_k), A)
 $$
 
 is an [[equalizer]] diagram for each covering family.
@@ -158,14 +158,14 @@ This is also called the **[[descent]] condition** for descent along the covering
 +-- {: .num_remark}
 ###### Remark
 
-For many examples of sites that appear in practice -- but by far not for all -- it happens that the pullback presheaves $j(U_i) \times_{j(U)} \times j(U_j)$ are themselves again representable, hence that the [[pullback]] $U_i \times_U U_j$ exists already in $C$, even before passing to the [[Yoneda embedding]]. 
+For many examples of sites that appear in practice -- but by far not for all -- it happens that the pullback presheaves $j(U_j) \times_{j(U)} \times j(U_k)$ are themselves again representable, hence that the [[pullback]] $U_j \times_U U_k$ exists already in $C$, even before passing to the [[Yoneda embedding]]. 
 
 In this special case we may apply the [[Yoneda lemma]] once more to deduce
 
 $$
-  PSh_C(j(U_i) \times_{j(U)} j(U_j), A)
+  PSh_C(j(U_j) \times_{j(U)} j(U_k), A)
   \simeq
-  A(U_i \times_U U_j)
+  A(U_j \times_U U_k)
   \,.
 $$
 
@@ -176,7 +176,7 @@ $$
    \to 
   \prod_i A(U_i)
    \stackrel{\to}{\to}
-  \prod_{i,j} A(U_i \times_U U_j)
+  \prod_{j,k} A(U_j \times_U U_k)
 $$
 
 are [[equalizer]] [[diagram]]s.
@@ -193,13 +193,13 @@ The condition that $PSh_C(S(\{U_i\}), A)$ is an [[isomorphism]] is equivalent to
 +-- {: .proof}
 ###### Proof
 
-We may express the set of [[natural transformation]]s $PSh_C(j(U_i) \times_{j(U)} j(U_j), A)$ (as described there) by the [[end]]
+We may express the set of [[natural transformation]]s $PSh_C(j(U_j) \times_{j(U)} j(U_k), A)$ (as described there) by the [[end]]
 
 $$
-  PSh_C(j(U_i) \times_{j(U)} j(U_j), A)
+  PSh_C(j(U_j) \times_{j(U)} j(U_k), A)
   \simeq
   \int_{K \in C}
-   Set( C(K,U_i) \times_{C(K,U)} C(K,U_j) , A(K))
+   Set( C(K,U_j) \times_{C(K,U)} C(K,U_k) , A(K))
   \,.
 $$
 
@@ -212,9 +212,9 @@ $$
   \int_{K \in C}
    Set( C(K,U_i), A(K))
   \stackrel{\to}{\to}
-   \prod_{i,j}
+   \prod_{j,k}
   \int_{K \in C}
-   Set( C(K,U_i) \times_{C(K,U)} C(K,U_j) , A(K))
+   Set( C(K,U_j) \times_{C(K,U)} C(K,U_k) , A(K))
 $$
 
 as a [[subset]] of the product set on the left manifestly yields the componenwise definition above.
