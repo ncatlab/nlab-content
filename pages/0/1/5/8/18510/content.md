@@ -306,6 +306,11 @@ $$
 
 ([Hörmander 90, theorem 8.2.14](#Hoermander90))
 
+$\,$
+
+* for **continuity** see at _[[Hörmander topology]]_
+
+
 ### Non-existence of a global product
  {#NonExistenceOfAGlobalProduct}
 
@@ -352,6 +357,8 @@ $$
 * [[convolution product of distributions]]
 
 * [[Hadamard distribution]]
+
+* [[Hörmander topology]]
 
 * [[microcausal functional]], [[Wick algebra]]
 
