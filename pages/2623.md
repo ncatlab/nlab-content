@@ -2635,7 +2635,7 @@ and then the corresponding [[subgroup]] of [[vertex redefinitions]] preserving t
 =--
 
 
-##### Gell-Mann & Low Renormalization group flow
+##### Gell-Mann & Low renormalization group flow
 
 
 In [[perturbative quantum field theory]] the construction of the [[scattering matrix]] $\mathcal{S}$, hence of the [[interacting field algebra of observables]] for a given [[interaction]] $g S_{int}$ [[perturbation theory|perturbing]] around a given [[free field theory|free field]] [[vacuum]], involves choices of _normalization_ of [[time-ordered products]]/[[Feynman diagrams]] (traditionally called _[[renormalization|"re"-normalizations]]_) encoding new [[interactions]] that appear where several of the original interaction vertices defined by $g S_{int}$ coincide.
