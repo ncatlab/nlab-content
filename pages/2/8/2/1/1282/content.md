@@ -146,7 +146,12 @@ The colimit over a [[nLab:Set|Set]]-valued functor $F : D \to Set$ is a quotient
     ((x \in F(d)) \sim (x' \in F(d')))\quad if \quad (\exists (f : d \to d') with F(f)(x) = x')
   \,.
   $$
-  If $D$ is a [[filtered category]] then the relation $\sim$ already is an [[equivalence relation]].
+  If $D$ is a [[filtered category]] then the resulting equivalence relation can be described as follows:
+  $$
+    ((x \in F(d)) \sim (x' \in F(d')))\quad iff \quad (\exists d'', (f : d \to d''), (g: d' \to d'') with F(f)(x) = F(g)(x'))
+  \,.
+  $$
+  (If $D$ is not filtered, then this description doesn't yield an equivalence relation.)
 
 
 ## Limits and colimits of topological spaces
@@ -671,42 +676,4 @@ The material below "explanation for programmers" goes more in that pedagogical d
 
 _Toby_:  I would agree that the material on how to write the program would work well in a separate entry, say [[programming coproducts]].  On the other hand, you definitely want to keep the first two lines here; they do just what you want and could be expanded on here.
 
-=--
-
-+--{.query}
-_Mark C._:  
-
-In the section on general colimits, under colimits, it stated that
-
-The equivalence relation $\sim$ is that which is _generated_ by 
-  $$
-    ((x \in F(d)) \sim (x' \in F(d')))\quad if \quad (\exists (f : d \to d') with F(f)(x) = x')
-  \,.
-  $$
-
-  If $D$ is a [[filtered category]] then the relation $\sim$ already is an equivalence relation.
-
-Is this true? Consider a category with two objects
-$d, d'$ and a single non-identity morphism $f: d \rightarrow d'$. 
-Then this is a directed category.
-
-Consider the
-functor $F: D \rightarrow Set$ taking both $d$ and $d'$ to singletons. 
-
-Then, it seems to me the unique $x \in F(d)$ would be related to the unique
-$x' \in F(d')$, but the opposite relation would not hold, since there is no
-morphism $d' \rightarrow d$ in $D$. Hence symmetry fails and this is not
-an equivalence relation.  
-
-Am I missing something?
-
-EDIT: I think the definition should say:
-
-The equivalence relation $\sim$ is that which is _generated_ by 
-  $$
-    ((x \in F(d)) \sim (x' \in F(d')))\quad if \quad (\exists d'', (f : d \to d''), (g: d' \to d'') with F(f)(x) = F(g)(x'))
-  \,.
-  $$
-
-This matches the definition of a direct limit on Wikipedia.
 =--
