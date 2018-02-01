@@ -18,7 +18,7 @@
 
 ## Idea
 
-In [[perturbative quantum field theory]] one way to construct an [[S-matrix]] $\mathcal{S}$ via [[renormalization|("re"-)normalization]] of [[time-ordered products]]/[[Feynman amplitudes]] is to consider a sequence of [[UV cutoffs]] $Lambda$ with corresponding [[effective S-matrices]] $\mathcal{S}_\Lambda$ and then form the [[limit of a sequence|limit]] as $\Lambda \to \infty$, which exists if in the course one applies suitable [[interaction vertex redefinitions]] $\mathcal{Z}_\Lambda$
+In [[perturbative quantum field theory]] one way to construct an [[S-matrix]] $\mathcal{S}$ via [[renormalization|("re"-)normalization]] of [[time-ordered products]]/[[Feynman amplitudes]] is to consider a sequence of [[UV cutoffs]] $\Lambda$ with corresponding [[effective S-matrices]] $\mathcal{S}_\Lambda$ and then form the [[limit of a sequence|limit]] as $\Lambda \to \infty$, which exists if in the course one applies suitable [[interaction vertex redefinitions]] $\mathcal{Z}_\Lambda$
 
 $$
   \mathcal{S}(g S_{int} + j A) = \underset{\Lambda \to \infty}{\lim} (\mathcal{S}_\Lambda \circ \mathcal{Z}_\Lambda)(g S_{int} + j A)
