@@ -613,7 +613,7 @@ $$
 $$
 
 
-This is similar to a [[group]] of UV-cutoff scale-transformations. But since the [[composition]] operations are only sensible when the UV-cutoff labels match, as shown, it is really a [[groupoid]] [[groupoid action|groupoid]]
+This is similar to a [[group]] of UV-cutoff scale-transformations. But since the [[composition]] operations are only sensible when the UV-cutoff labels match, as shown, it is really a [[groupoid]] [[groupoid action|action]].
 
 This is often called the _Wilsonian RG_, following ([Wilson 71](#Wilson71)).
 
