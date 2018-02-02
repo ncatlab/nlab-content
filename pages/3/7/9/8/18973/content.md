@@ -118,6 +118,7 @@ $$
   )
   \\
   & =
+  \frac{1}{(k+2)!}
   \frac{d}{d \Lambda}
   \left(
     prod
