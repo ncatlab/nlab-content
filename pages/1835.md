@@ -1,4 +1,3 @@
-F
 #Contents#
 * table of contents
 {: toc}
