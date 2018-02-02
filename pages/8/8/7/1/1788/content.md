@@ -1,5 +1,13 @@
 
-First observe that for any $O \in PolyObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]$ we have
+
+$$
+  S_{eff,0,\Lambda}(O)
+  -
+  S_{eff}(O)
+  =
+  (O - Z_\Lambda(O))
+$$
+
 
 $$
   \begin{aligned}
