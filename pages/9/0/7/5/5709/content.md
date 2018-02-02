@@ -226,7 +226,7 @@ This was claimed in ([Brunetti-Dütsch-Fredenhagen 09, (75)](#BrunettiDuetschFre
 +-- {: .proof}
 ###### Proof
 
-Let $\{p_{\rho_k}\}_{k \in \mathbb{N}}$ be a sequence of projection maps as in [this equation](renormalization#) defining an [[Epstein-Glaser renormalization|Epstein-Glaser ("re"-)normalization]] ([this prop.](renormalization#RenormalizationIsInductivelyExtensionToDiagonal)) of [[time-ordered products]] $\{T_k\}_{k \in \mathbb{N}}$ as [[extensions of distributions]] of the $T_k$, regarded as distribution via [this remark](renormalization#TimeOrderedProductOfFixedInteraction), by the choice $q_k^\alpha = 0$ in [this equation](renormalization#eq:ExtensionOfDitstributionsPointFixedAndChoice).
+Let $\{p_{\rho_k}\}_{k \in \mathbb{N}}$ be a sequence of projection maps as in [this equation](renormalization#eq:ForExtensionOfDistributionsProjectionMaps) defining an [[Epstein-Glaser renormalization|Epstein-Glaser ("re"-)normalization]] ([this prop.](renormalization#RenormalizationIsInductivelyExtensionToDiagonal)) of [[time-ordered products]] $\{T_k\}_{k \in \mathbb{N}}$ as [[extensions of distributions]] of the $T_k$, regarded as distribution via [this remark](renormalization#TimeOrderedProductOfFixedInteraction), by the choice $q_k^\alpha = 0$ in [this equation](renormalization#eq:ExtensionOfDitstributionsPointFixedAndChoice).
 
 By the proof of [that prop.](renormalization#SpaceOfPointExtensions) the extension of the time ordered products after the $p_\rho$-projections is unique, so that the actual S-matrix may be written as
 
