@@ -127,7 +127,7 @@ However, this is less of an issue now that we have [[redirects]].
 
 ## Signing 
 
-When you edit a page, you can (and should) put your name (with normal capitalisation and spacing) in the box after 'Submit as'. If you don\'t, then your contribution will be credited to the [[AnonymousCoward]].
+When you edit a page, you can (and should) put your name (with normal capitalisation and spacing) in the box after 'Submit as'. If you don\'t, then your contribution will be credited to 'Anonymous' (formerly the [[AnonymousCoward]]).
 
 Once you edit a page for the first time, your name will appear at the bottom, grayed out with a question mark since there is no page with your name yet.  You may take this as an invitation to create a user page and tell us about yourself.  But if you don't want to or don't have the time right now, you can forget about this. If you just want to show up on [category: people](http://www.ncatlab.org/nlab/list/people), then you make a page containing only 'category: people' (or someone else may do this for you).
 
