@@ -677,6 +677,7 @@ $$
   )
   \\
   & =
+  \frac{1}{(k+2)!}
   \frac{d}{d \Lambda}
   \left(
     prod
@@ -804,7 +805,7 @@ general [[Lagrangian]] containing all terms allowed by the assumed symmetries
 will yield the most general [[S-matrix]] elements consistent with
 analyticity, [[perturbative unitarity]], [[cluster decomposition]] and the assumed symmetries._
 
-This is due to ([Weinberg 1979](#Weinberg79)) and ([Leutwyler94](#Leutwyler94)).
+This is due to ([Weinberg 1979](#Weinberg79)) and ([Leutwyler94](#Leutwyler94)); reviewed in [Pich, p. 6](#Pich).
 
 Based on this, one argues to obtains an effective approximation to a given more fundamental theory (which may or may not be actually known) by
 
