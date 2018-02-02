@@ -18,7 +18,7 @@
 * table of contents
 {:toc}
 
-A [[morphisms]] of [[spaces]] $X \overset{p}{\longrightarrow} Y$ is called _formally &#233;tale_ if it has a [[lifting property]] as [[étale spaces]] do locally, but for _[[infinitesimal space|infinitesmal]]_ extensions: If for $Z \overset{f}{\to} Y$ any morphism and $\Re(Z) \to X$ a lift of its restriction along its [[reduction]] $\Re(Z) \to Z$, there is a unique extension to a complete lift.
+A [[morphisms]] of [[spaces]] $X \overset{p}{\longrightarrow} Y$ is called _formally &#233;tale_ if it has a [[lifting property]] as [[étalé spaces]] do locally, but for _[[infinitesimal space|infinitesmal]]_ extensions: If for $Z \overset{f}{\to} Y$ any morphism and $\Re(Z) \to X$ a lift of its restriction along its [[reduction]] $\Re(Z) \to Z$, there is a unique extension to a complete lift.
 
 (If there exists at least one such infinitesimal extension, it is called a [[formally smooth morphism]]. If there exists at most one such extension, it is called a [[formally unramified morphism]]. The formally &#233;tale morphisms are precisely those that are both formally smooth and formally unramified.)
 
