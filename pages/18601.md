@@ -6,10 +6,6 @@
 +--{: .hide}
 [[!include AQFT and operator algebra contents]]
 =--
-#### Measure and probability theory
-+-- {: .hide}
-[[!include measure theory - contents]]
-=--
 =--
 =--
 
@@ -27,7 +23,7 @@ Therefore contributions of graphs at zero without loops (these are [[trees]], an
 Most predictions of the [[standard model of particle physics]] have very good agreement with [[experiment]] already to very low loop order, first or second; inclusion of third loop order is used (at least in [[QCD]]) to constrain theoretical uncertainties of the result (see [Cacciari 05, slide 5](#Cacciari05), e.g. in [[Higgs field]] computation, see [ADDHM 15](#ADDHM15)). 
 In rare cases higher loop orders are used (for instance in the computation of the [[anomalous magnetic moments]] [AHKN 12](#AHKN12), but this is not a scattering experiment).
 
-This usefulness of low loop order is forturnate because
+This usefulness of low loop order is fortunate because
 
 1. the [[S-matrix]] [[formal power series]] for all [[theory (physics)|theories]] of interest has _vanishing_ [[radius of convergence]] ([Dyson 52](perturbation+theory#Dyson52)), hence is at best an [[asymptotic series]] for which the [[sum]] of more than some low order terms is meaningless;
 
@@ -36,125 +32,158 @@ This usefulness of low loop order is forturnate because
 ## Relation to powers in Planck's constant
  {#RelationToPowersInPlancksConstant}
 
-In the computation of [[scattering amplitudes]] for [[field (physics)|fields]]/[[particles]] via [[perturbative quantum field theory]] the [[scattering matrix]] ([[Feynman perturbation series]]) is a [[formal power series]] in (the [[coupling constant]] and) [[Planck's constant]] $\hbar$ whose contributions may be labeled by [[Feynman diagrams]]. Each Feynman diagram $\Gamma$ is a finite labeled [[graph]], and the order in $\hbar$ to which this graph contributes is
+
+
++-- {: .num_prop #FeynmanDiagramLoopOrder}
+###### Proposition
+**([[loop order]] and [[tree level]] of [[Feynman perturbation series]])**
+
+The [[effective action]] ([this def.](A+first+idea+of+quantum+field+theory#InPerturbationTheoryActionEffective)) contains no negative powers of [[Planck's constant]] $\hbar$, hence is indeed
+a [[formal power series]] also in $\hbar$:
 
 $$
-  \hbar^{ E(\Gamma) - V(\Gamma) }
+  S_{eff}(g,j)
+  \;\in\;
+  PolyObs(E_{\text{BV-BRST}})[ [ \hbar, g, j ] ]
+  \,.
 $$
 
-where 
-
-1. $V(\Gamma) \in \mathbb{N}$ is the number of [[vertices]] of the graph 
-
-1. $E(\Gamma) \in \mathbb{N}$ is the number of [[edges]] in the graph.
-
-This comes about (see at _[S-matrix -- Feynman diagrams](S-matrix#FeynmanDiagrams)_ for details) because 
-
-1. the explicit $\hbar$-dependence of the [[S-matrix]] is 
-
-   $$
-     \mathcal{S}
-     \left(
-       S_{int}
-     \right)
-     \;=\; 
-     \underset{k \in \mathbb{N}}{\sum} 
-       \frac{1}{k!}
-       \frac{1}{(i \hbar)^k}
-       T( \underset{k \, \text{factors}}{\underbrace{S_{int}, \cdots,  S_{int}}} )
-   $$
-
-1. the further $\hbar$-dependence of the [[time-ordered product]] $T(\cdots)$ is
-
-   $$
-     T(S_{int}, S_{int}) 
-     \;=\; 
-     prod \circ 
-     \exp\left(
-       \hbar
-       \left\langle 
-         \Delta_F, 
-         \frac{\delta}{\delta \mathbf{\Phi}} 
-           \otimes
-         \frac{\delta}{\delta \mathbf{\Phi}}
-       \right\rangle
-     \right)
-    ( S_{int} \otimes S_{int} )
-     \,,
-   $$
-
-where $\Delta_F$ denotes the [[Feynman propagator]] and $\mathbf{\Phi}^a(x)$ the [[field observable]] at point $x$.
-
-The resulting terms of the S-matrix series are thus labeled by 
-
-1. the number of factors of the [[interaction]] [[action functional]] $S_{int}$, these are the [[vertices]] of the corresponding Feynman diagram and hence each contribute with $\hbar^{-1}$;
-
-1. the number of integrals over the Feynman propagator $\Delta_F$, which correspond to the [[edges]] of the Feynman diagram, and each contribute with $\hbar^1$.
-
-In summary this means that a Feynman diagram $\Gamma$ contributes at order
+and in particular
 
 $$
+  \left\langle
+    S_{eff}(g,j)
+  \right\rangle
+  \;\in\;
+  \mathbb{C}[ [ \hbar, g, j] ]
+  \,.
+$$
+
+Moreover, the contribution to the effective action in the [[classical limit]] $\hbar \to 0$
+is precisely that of [[Feynman amplitudes]] of those [[finite multigraphs]] ([this prop.](A+first+idea+of+quantum+field+theory#FeynmanPerturbationSeriesAwayFromCoincidingPoints)) which are [[trees]] ([this def.](A+first+idea+of+quantum+field+theory#GraphPlanar)); thus called the _[[tree level]]_-contribution:
+
+$$
+  S_{eff}(g,j)\vert_{\hbar = 0}
+  \;=\;
+  i \hbar
+  \underset{\Gamma \in \mathcal{G}_{conn} \cap \mathcal{G}_{tree}}{\sum}
+  \Gamma\left( (g S_{int} + j A)_{i = 1}^{\nu(\Gamma)} \right)
+  \,.
+$$
+
+Finally, a [[finite multigraph]] $\Gamma$ ([this def.](A+first+idea+of+quantum+field+theory#Graphs)) which is [[planar graph|planar]] and [[connected graph|connected]] contributes to the effective action precisely at order
+
+$$
+  \hbar^{L(\Gamma)}
+  \,,
+$$
+
+where $L(\Gamma) \in \mathbb{N}$ is the number of _[[faces]]_ of $\Gamma$, here called the _number of loops_ of the diagram;
+here usually called the _[[loop order]]_ of $\Gamma$.
+
+(Beware the terminology clash with [[graph theory]], see the discussion of [[tadpoles]] [here](A+first+idea+of+quantum+field+theory#Tadpoles))
+
+=--
+
++-- {: .proof}
+###### Proof
+
+
+By [this def.](A+first+idea+of+quantum+field+theory#LagrangianFieldTheoryPerturbativeScattering) the explicit $\hbar$-dependence of the [[S-matrix]] is
+
+$$
+  \mathcal{S}
+  \left(
+    S_{int}
+  \right)
+  \;=\;
+  \underset{k \in \mathbb{N}}{\sum}
+    \frac{1}{k!}
+    \frac{1}{(i \hbar)^k}
+    T( \underset{k \, \text{factors}}{\underbrace{S_{int}, \cdots,  S_{int}}} )
+$$
+
+and by [this prop.](A+first+idea+of+quantum+field+theory#TimeOrderedProductAwayFromDiagonal) the further $\hbar$-dependence of the [[time-ordered product]] $T(\cdots)$ is
+
+$$
+  T(S_{int}, S_{int})
+  \;=\;
+  prod \circ
+  \exp\left(
+    \hbar
+    \left\langle
+      \Delta_F,
+      \frac{\delta}{\delta \mathbf{\Phi}}
+        \otimes
+      \frac{\delta}{\delta \mathbf{\Phi}}
+    \right\rangle
+  \right)
+ ( S_{int} \otimes S_{int} )
+  \,,
+$$
+
+By the [[Feynman rules]] ([this prop.](A+first+idea+of+quantum+field+theory#FeynmanPerturbationSeriesAwayFromCoincidingPoints)) this means that
+
+1. each [[vertex]] of a Feynman diagram contributes a power $\hbar^{-1}$ to its Feynman amplitude;
+
+1. each [[edge]] of a Feynman diagram contributes a power $\hbar^{+1}$ to its Feynman amplitude.
+
+If we write
+
+$$
+  E(\Gamma), V(\Gamma) \;\in\; \mathbb{N}
+$$
+
+for the total number of [[vertices]] and [[edges]], respectively, in $\Gamma$, this means that a Feynman amplitude
+corresponding to some $\Gamma \in \mathcal{G}$ contributes precisely at order
+
+$$
+  \label{GeneralFeynmanDiagramhbarContribution}
   \hbar^{E(\Gamma) - V(\Gamma)}
   \,.
 $$
 
-Now if the Feynman diagram happens to be a [[planar graph]], then the formula for the [[Euler characteristic of planar graphs]] says that  the number of regions in the plane that are encircled by edges, the _[[faces]]_, here thought of as the number of "loops" and denoted $L(\Gamma)$, is
+So far this holds for arbitrary $\Gamma$. If however $\Gamma$ is [[connected graph|connected]] and [[planar graph|planar]], then _[[Euler's formula]]_ asserts that
 
 $$
-  L(\Gamma) \;=\;  1 + E(\Gamma) - V(\Gamma)
+  \label{ConnectedPlanarGraphEulerCharacteristic}
+  E(\Gamma) - V(\Gamma)
+  \;=\;
+  L(\Gamma) - 1
   \,.
 $$
 
-Hence a planar Feynman diagram $\Gamma$ contributes to the [[Feynman perturbation series]] at order
+Hence $\hbar^{L(\Gamma)- 1}$ is the order of $\hbar$ at which $\Gamma$ contributes to the [[scattering matrix]] expressed as the [[Feynman perturbation series]].
+
+But the [[effective action]], by definition ([this equation](A+first+idea+of+quantum+field+theory#eq:ExpansionEffectiveAction)), has the same contributions
+of Feynman amplitudes, but multiplied by another power of $\hbar^1$, hence it contributes at order
 
 $$
-  \hbar^{L(\Gamma)-1}
+  \hbar^{E(\Gamma) - V(\Gamma) + 1} = \hbar^{L(\Gamma)}
   \,.
 $$
 
-So far this is the discussion for internal edges. An actual scattering matrix element is of the form
+This proves the second claim on [[loop order]].
+
+The first claim, due to the extra factor of $\hbar$ in the definition of the effective action, is equivalent to saying
+that the Feynman amplitude of every [[connected graph|connected]] [[finite multigraph]]
+contributes powers in $\hbar$ of order $\geq -1$ and contributes at order $\hbar^{-1}$ precisely if the graph is a tree.
+
+Observe that a [[connected graph|connected]] [[finite multigraph]] $\Gamma$ with $\nu \in \mathbb{N}$ vertices (necessarily $\nu \geq 1$) has at least $\nu-1$ edges and precisely $\nu - 1$ edges if it is a tree.
+
+To see this, consecutively remove edges from $\Gamma$ as long as possible while retaining connectivity. When this process stops, the result must be a connected tree $\Gamma'$, hence a [[connected graph|connected]] [[planar graph]] with $L(\Gamma') = 0$. Therefore [[Euler's formula]] (eq:ConnectedPlanarGraphEulerCharacteristic) implies that that $E(\Gamma') = V(\Gamma') -1$.
+
+This means that the connected multigraph $\Gamma$ in general has a Feynman amplitude of order
 
 $$
-  \langle 
-    \mathbf{\Psi}_{out} 
-    \vert 
-    \mathcal{S}\left( S_{int}\right)
-  \vert \mathbf{\Psi}_{in} \rangle
-  \,,
+  \hbar^{E(\Gamma) - V(\Gamma)}
+  =
+  \hbar^{ \overset{\geq 0}{\overbrace{E(\Gamma) - E(\Gamma')}} + \overset{= -1}{\overbrace{E(\Gamma') - V(\Gamma)}}  }
 $$
 
-where 
+and precisely if it is a tree its Feynman amplitude is of order $\hbar^{-1}$.
 
-$$
-  \vert \mathbf{\psi}_{in}\rangle 
-    \propto
-  \tfrac{1}{\sqrt{\hbar^{n_{in}}}} 
-  \mathbf{\Phi}^\dagger(k_1)   
-     \cdots 
-   \mathbf{\Phi}^\dagger(k_{n_{in}}) 
-  \vert vac \rangle
-$$
-
-is a state of $n_{in}$ free field quanta and similarly
-
-$$
-  \vert \mathbf{\Psi}_{out}\rangle 
-    \propto
-  \tfrac{1}{\sqrt{\hbar^{n_{out}}}} 
-  \mathbf{\Phi}^\dagger(k_1) \cdots \mathbf{\Phi}^\dagger(k_{n_{out}}) 
-  \vert vac \rangle
-$$
-
-is a state of $n_{out}$ field quanta. The normalization of these states, in view of the [[Peierls-Poisson bracket]] [[commutator]] $[\mathbf{\Phi}(k), \mathbf{\Phi}(q)] \propto \hbar$, yields the given powers of $\hbar$.
-
-This means that an actual [[scattering amplitude]] given by a [[Feynman diagram]] $\Gamma$ with $E_{ext}(\Gamma)$ external vertices contributes at order
-
-$$
-  \hbar^{L(\Gamma) - 1 + E_{ext}(\Gamma)/2 }
-  \,.
-$$
-
-(For the analogous discussion of the dependence on the actual [[quantum observables]] on $\hbar$ given by [[Bogoliubov's formula]], see [there](Bogoliubov's+formula#PowersInPlancksConstant).)
+=--
 
 
 ## Related concepts
