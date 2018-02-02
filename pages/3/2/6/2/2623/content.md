@@ -2470,9 +2470,10 @@ Finally that $\mathcal{S} \circ \mathcal{Z}$ satisfies "field indepndence" if $\
 
 =--
 
+
 +-- {: .num_prop #AnyTwoSMatrixRenormalizationSchemesDifferByAUniqueVertexRedefinition}
 ###### Proposition
-**(any two [[S-matrix]] [[renormalization schemes]] differ by a unique [[vertex redefinition]])**
+**(any two [[S-matrix]] [[renormalization schemes]] differ by unique [[vertex redefinition]])**
 
 Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H)$ be a [[gauge fixing|gauge fixed]] [[free field theory|free field]] [[vacuum]] ([this def.](S-matrix#VacuumFree)).
 
@@ -2487,7 +2488,7 @@ $$
 
 =--
 
-(See any of the reference at _[[main theorem of perturbative renormalization]]_.)
+This statement is also known as the _[[main theorem of perturbative renormalization]]_.
 
 +-- {: .proof}
 ###### Proof
@@ -2546,7 +2547,7 @@ $$
   \end{aligned}
 $$
 
-where $\{T'_k\}_{k \in \mathbb{N}}$ are the [[time-ordered product]] corresponding to $\mathcal{S}'$ (by [this example](S-matrix#TimeOrderedProductsFromSMatrixScheme)) and $\{T_k\}_{k \in \mathcal{N}}$ those correspondong to $\mathcal{S}$.
+where $\{T'_k\}_{k \in \mathbb{N}}$ are the [[time-ordered products]] corresponding to $\mathcal{S}'$ (by [this example](S-matrix#TimeOrderedProductsFromSMatrixScheme)) and $\{T_k\}_{k \in \mathcal{N}}$ those correspondong to $\mathcal{S}$.
 
 This shows that if $\mathcal{Z}$ exists, then it is unique, because its coefficients $Z_k$ are [[induction|inductively]] in $k$
 given by the expressions
