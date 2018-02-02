@@ -1,6 +1,6 @@
 
 
-* [webpage](https://wiki.math.ntnu.no/users/alexasc/start)
+* [webpage](https://aschmeding.wordpress.com)
 
 ## related $n$Lab entries
 
