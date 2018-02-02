@@ -1036,6 +1036,7 @@ $$
 Therefore every [[continuous linear map|continuous linear]] [[projection]]
 
 $$
+  \label{ForExtensionOfDistributionsProjectionMaps}
   p_\rho
    \;\colon\;
   \mathcal{D}(\mathbb{R}^n)
@@ -1167,6 +1168,7 @@ $$
 Therefore prop. \ref{ExtensionUniqueNonPositiveDegreeOfDivergence} says that each $x^\alpha u$ for ${\vert \alpha\vert} = \rho + 1$ has a unique extension $\widehat{ x^\alpha u}$ to the origin. Accordingly the composition $u \circ p_\rho$ has a unique extension, by (eq:ForExtensionOfDistributionsTestFunctionDecomposition):
 
 $$
+  \label{ExtensionOfDitstributionsPointFixedAndChoice}
   \begin{aligned}
   \left\langle
     \hat u
@@ -1210,7 +1212,9 @@ $$
     { {\vert \alpha\vert} \leq \rho }
   }{\sum}
   \underset{
-    \text{choice}
+    {  q^\alpha }
+    \atop
+    { \text{choice} }
   }{
   \underbrace{
   \langle
