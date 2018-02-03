@@ -64,4 +64,8 @@ The relation of the techniques of the pioneers of infinitesimal calculus and the
 
 * Piotr Blaszczyk, Vladimir Kanovei, Karin U. Katz, Mikhail G. Katz, Semen S. Kutateladze, David Sherry, _Toward a history of mathematics focused on procedures_, [arxiv/1609.04531](http://arxiv.org/abs/1609.04531)
 
+A collection of articles on XX-century mathematics is in
+
+* Michele Audin (editor), _[[Matériaux pour l’histoire des mathématiques au XXe siècle]]_ - Actes du colloque à la mémoire de Jean Dieudonné (Nice 1996) Séminaires & Congrès. Numèro 3. Paris (Socièté Mathématique de France). 1998. 283 pp.
+
 [[!redirects history]]
