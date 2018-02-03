@@ -180,7 +180,7 @@ The result still contains the topos of $M_2$-actions as a quotient topos because
 
 ### Some further remarks
 
-* The topos $Set^{M_2^{op}}$ lacks non-trivial [[level|essential subtoposes]] since by an result of Kelly-Lawvere ([1989](#KL89)) they corresponds to two-sided (=left+right) ideals $I$ of $M_2$ that are _idempotent_ i.e. $I=I\cdot I=\{xy|x,y\in I\}$. But a non-empty ideal $I$ has a minimal length $#I$ such that there is a word $w\in I$ of length $#I$ but no word $v\in I$ of strictly smaller length. Since concatenation with non-empty words strictly increases the length of a word, one has $#(I\cdot I)=2\cdot #I$ hence $#I\neq #(I\cdot I)$ iff $\epsilon\notin I$ and, accordingly, $I\neq I\cdot I$ iff $\epsilon\notin I$.
+* The topos $Set^{M_2^{op}}$ lacks non-trivial [[level|essential subtoposes]] since by an result of Kelly-Lawvere ([1989](#KL89)) they correspond to two-sided (=left+right) ideals $I$ of $M_2$ that are _idempotent_ i.e. $I=I\cdot I=\{xy|x,y\in I\}$. But a non-empty ideal $I$ has a minimal length $#I$ such that there is a word $w\in I$ of length $#I$ but no word $v\in I$ of strictly smaller length. Since concatenation with non-empty words strictly increases the length of a word, one has $#(I\cdot I)=2\cdot #I$ hence $#I\neq #(I\cdot I)$ iff $\epsilon\notin I$ and, accordingly, $I\neq I\cdot I$ iff $\epsilon\notin I$.
 
 * The [[Jónsson-Tarski topos]] $\mathcal{J}_T$ is a (non-essential) [[subtopos]] of $Set^{M_2^{op}}$.
 
