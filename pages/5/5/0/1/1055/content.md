@@ -1,3 +1,4 @@
+[[!redirects etale space]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
@@ -27,7 +28,7 @@ An __&#233;tal&#233; space__ (or _[[étale map]]_) over $B$ is an object $p:E\to
 
 The set $E_x = p^{-1}(x)$ where $x\in B$ is called the __[[stalk]]__ of $p$ over $x$.  
 
-The underlying set of the _total space_ $E$ (from 'espace') is the union of its stalks (notice that we do not say fiber!).  $p$ is sometimes refered to as the _projection_.
+The underlying set of the _total space_ $E$ is the union of its stalks (notice that we do not say fiber!).  $p$ is sometimes refered to as the _projection_.
 
 ## Properties
 
