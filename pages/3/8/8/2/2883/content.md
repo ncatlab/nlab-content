@@ -1,3 +1,4 @@
+[[!redirects etale cohomology]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
