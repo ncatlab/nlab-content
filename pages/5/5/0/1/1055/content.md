@@ -58,8 +58,9 @@ Every [[covering space]] (even in the more general sense not requiring any conne
 In French, the verb '&#233;taler' means, roughly, to spread out; '-er' becomes '-&#233;' to make a past participle.  So an 'espace &#233;tal&#233;' is a space that has been spread out over $B$.  On the other hand, '&#233;tale' is a (relatively obscure, distantly related) nautical adjective that can be translated as 'calm' or 'slack'.  
 
 
-To quote from the [Wiktionnaire fran&#231;aise](http://fr.wiktionary.org/wiki/%C3%A9tale):
->'&#233;tale' _qualifie la mer qui ne monte ni ne descend &#224; la fin du flot ou du jusant_ 
+To quote from the [Wiktionnaire française](http://fr.wiktionary.org/wiki/%C3%A9tale):
+
+> '&#233;tale' _qualifie la mer qui ne monte ni ne descend &#224; la fin du flot ou du jusant_ 
 ('flot' = 'flow' and 'jusant' = 'ebb').
 
 
@@ -88,7 +89,7 @@ He also mentions geometry and 'th&#233;or&#232;me' elsewhere in the song.
 
 ## References
 
-* {#MacLaneMoerdijk} [[Saunders MacLane]], [[Ieke Moerdijk]], sections II.5 and II.6 of _[[Sheaves in Geometry and Logic]]_
+* {#MacLaneMoerdijk} [[Saunders Mac Lane]], [[Ieke Moerdijk]], sections II.5 and II.6 of _[[Sheaves in Geometry and Logic]]_
 
 
 [[!redirects etale space]]
