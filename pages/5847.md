@@ -1,3 +1,4 @@
+[[!redirects formally etale morphism]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
