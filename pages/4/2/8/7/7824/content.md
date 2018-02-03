@@ -88,7 +88,7 @@ There is an inclusion of the absolute Galois group of the rational numbers into 
 
 Discussion of the [[p-adic numbers|p-adic]] absolute Galois group as the [[etale fundamental group]] of a [[quotient]] of some [[perfectoid space]] is in 
 
-* {#Weinstein04} [[Jared Weinstein]], _$Gal(\overline{\mathbb{Q}}_p/\mathbb{Q}_p)$ as a geometric fundamental group_ ([arXiv:1404.7192](http://xxx.tau.ac.il/abs/1404.7192), [workshop](https://www.mathi.uni-heidelberg.de/~G.QpAsPi1geom/))
+* {#Weinstein04} [[Jared Weinstein]], _$Gal(\overline{\mathbb{Q}}_p/\mathbb{Q}_p)$ as a geometric fundamental group_ ([arXiv:1404.7192](https://arxiv.org/abs/1404.7192), [workshop](https://www.mathi.uni-heidelberg.de/~G.QpAsPi1geom/))
 
 category: Galois theory
 
