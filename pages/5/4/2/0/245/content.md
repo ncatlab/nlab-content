@@ -145,6 +145,14 @@ There is a [[strict 2-category]] BrMonCat with:
 * [[braided monoidal functor|braided monoidal functors]] as morphisms, 
 * [[braided monoidal natural transformation|braided monoidal natural transformations]] as 2-morphisms.
 
+## Examples
+
+* Any [[symmetric monoidal category]] is a braided monoidal category.
+
+* The monoidal category of graded modules over a commutative ring (with the usual tensor product of graded modules) can be made into a braided monoidal category with the braiding $V \otimes W \to W \otimes V,\ x \otimes y \mapsto y \otimes x$. The braiding $x \otimes y \mapsto (-1)^{|x| |y|} y \otimes x$ (where $|x|$ and $|y|$ denote the degrees) is also commonly used. More generally, for any invertible element $u$ of the base ring, there is the braiding $x \otimes y \mapsto u^{|x| |y|} y \otimes x$. The resulting braided monoidal category is symmetric if and only if $u^2 = 1$.
+
+  The maps $x \otimes y \mapsto u y \otimes x$ define a braiding on the monoidal category of (ungraded) modules only if $u = 1$.
+
 ## Properties
 
 ### Tannaka duality
