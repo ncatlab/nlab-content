@@ -1,3 +1,4 @@
+[[!redirects etale topos]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
