@@ -1,3 +1,4 @@
+[[!redirects etale map]]
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
