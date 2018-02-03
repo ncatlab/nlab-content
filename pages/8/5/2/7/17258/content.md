@@ -1,5 +1,7 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
+
 ### Context
 #### Philosophy
 +-- {: .hide}
@@ -126,7 +128,7 @@ A system $\mathbf{S}=(S,\omega,\mu)\in \mathcal{K}$ satisfies MCC iff the group 
 
 In fact, the fullsubcategory $\mathcal{M}\subset \mathcal{K}$ of kinships systems satisfying MCC is equivalent to the topos of $\mathbb{Z}\times\mathbb{Z}$-actions, where $\mathbb{Z}\times\mathbb{Z}$ is the free [[Abelian group]] on two generators because actions of $F_2$ such that $G$ is commutative correspond precisely to actions of $\mathbb{Z}\times\mathbb{Z}$.
 
-A more general way to view this, is to consider the homomorphism $\alpha:F_2\to \mathbb{Z}\times\mathbb{Z}$ viewed as a functor that sends the generators $1,2$ to the generators $(1,0),(0,1)$, respectively. By general results (cf. [MM94, p.359](#MM94); [RRZ04, p.226](#RRZ04)), this induces an [[essential geometric morphism]]
+A more general way to view this, is to consider the surjective homomorphism $\alpha:F_2\to \mathbb{Z}\times\mathbb{Z}$ viewed as a functor that sends the generators $1,2$ to the generators $(1,0),(0,1)$, respectively. By general results (cf. [MM94, p.359](#MM94); [RRZ04, p.226](#RRZ04)), this induces an [[essential geometric morphism]]
 
 $$
 
@@ -177,6 +179,10 @@ $$
 The result still contains the topos of $M_2$-actions as a quotient topos because inverting one of the arrows turns the resulting diagram up to equivalence into the diagram of one point with two endomaps. Hence the objects in topos $Set^{\mathcal{C}^{op}}$ permit a more finely grained analysis than the objects in the topos of $M_2$-actions.
 
 ### Some further remarks
+
+* The topos $Set^{M_2^{op}}$ lacks non-trivial [[level|essential subtoposes]] since by an result of Kelly-Lawvere ([1989](#KL89)) they corresponds to two-sided (=left+right) ideals $I$ of $M_2$ that are _idempotent_ i.e. $I=I\cdot I=\{xy|x,y\in I\}$. But a non-empty ideal $I$ has a minimal length $#I$ such that there is a word $w\in I$ of length $#I$ but no word $v\in I$ of strictly smaller length. Since concatenation with non-empty words strictly increases the length of a word, one has $#(I\cdot I)=2\cdot #I$ hence $#I\neq #(I\cdot I)$ iff $\epsilon\notin I$ and, accordingly, $I\neq I\cdot I$ iff $\epsilon\notin I$.
+
+* The [[Jónsson-Tarski topos]] $\mathcal{J}_T$ is a (non-essential) [[subtopos]] of $Set^{M_2^{op}}$.
 
 * The construction $X\mathsf{mod}A$ that [Lawvere (1999)](#Law99) discusses p.417, is defined as the [[pushout]] of the inclusion $A\hookrightarrow X$ along the map $A\to\Pi_0(A)$ that maps $a\in A$ to its [[connected component]] $[a]\in\Pi_0(A)$ (where the set $\Pi_0(A)$ of connected components of $A$ is equipped with the trivial functions $\omega=id$ and $\mu=id$):
 $$
@@ -316,7 +322,6 @@ Kinship systems are studied from a mathematical perspective in
 
 * Gis&#232;le De Meur (ed.), _New Trends in Mathematical Anthropology_ , Routledge London 1986.
 
-
 * Gis&#232;le De Meur, Alain Gottcheiner, _Prescriptive Kinship Systems, Permutations, Groups, and Graphs_ , MACT **1** no. 1 (2000). ([pdf](http://mathematicalanthropology.org/Pdf/MACTdeMEUR1100.pdf))
 
 * Harrison C. White, _An Anatomy of Kinship_ , Prentice-Hall Englewood Cliffs 1963.
@@ -343,6 +348,9 @@ to the standard textbook
 
 * {#MM94} [[Saunders Mac Lane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_ , Springer Heidelberg 1994.
 
+The result concerning essential localizations is in
+
+* {#KL89}[[G. M. Kelly]], [[F. W. Lawvere]], *On the Complete Lattice of Essential Localizations*, Bull. Soc. Math. de Belgique **XLI** (1989) pp.289-319.
 
 [[!redirects kinship system]]
 [[!redirects mathematical anthropology]]
