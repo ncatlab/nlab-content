@@ -1,0 +1,1 @@
+I'm a PhD student at Oxford, studying under Samson Abramsky and Bob Coecke. My [website](www.joshuatan.com/research).
