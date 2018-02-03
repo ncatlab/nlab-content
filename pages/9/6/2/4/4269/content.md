@@ -1,3 +1,4 @@
+[[!redirects etale geometric morphism]]
 
 
 +-- {: .rightHandSide}
