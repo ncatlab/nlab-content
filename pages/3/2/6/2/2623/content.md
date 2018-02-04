@@ -101,12 +101,12 @@ are precisely related by [[vertex redefinitions]]. This yields the
 * _[Stückelberg-Petermann renormalization group](#SPRenormalizationGroup)_.
 
 If a sub-collection of [[renormalization schemes]] is parameterized by some [[group]] $RG$,
-then the [[main theorem or perturbative renormalization|main theorem]] implies [[vertex redefinitions]]
+then the [[main theorem of perturbative renormalization|main theorem]] implies [[vertex redefinitions]]
 depending on pairs of elements of $RG$ this is known as
 
 * _[Renormalization group flow](#RGFlowGeneral)_
 
-Specifically [[sclaling transformations]] on [[Minkowski spacetime]] yields such a collection of [[renormalization schemes]];
+Specifically [[scaling transformations]] on [[Minkowski spacetime]] yields such a collection of [[renormalization schemes]];
 the corresponding [[renormalization group flow]] is known as
 
 * _[Gell-Mann & Low RG flow](#ScalingTransformatinRGFlow)_.
@@ -118,9 +118,8 @@ $\,$
 #### Epstein-Glaser normalization
  {#EpsteinGlaserRenormalization}
 
-By [this prop.](S-matrix#InteractingFieldAlgebraOfObservablesIsFormalDeformationQuantization) the
-construction of [[perturbative quantum field theories]] around a given [[gauge fixing|gauge fixed]] [[relativistic field theory|relativistic]] [[free field theory|free field]] [[vacuum]]
-is equivalently the construction of [[S-matrices]] $\mathcal{S}(g S_{int} + j A)$ in the sense of [[causal perturbation theory]] ([this def.](S-matrix#LagrangianFieldTheoryPerturbativeScattering)) for the given [[local observable|local]] [[interaction]]
+The construction of [[perturbative quantum field theories]] around a given [[gauge fixing|gauge fixed]] [[relativistic field theory|relativistic]] [[free field theory|free field]] [[vacuum]]
+is equivalently, by [this prop.](S-matrix#InteractingFieldAlgebraOfObservablesIsFormalDeformationQuantization), the construction of [[S-matrices]] $\mathcal{S}(g S_{int} + j A)$ in the sense of [[causal perturbation theory]] ([this def.](S-matrix#LagrangianFieldTheoryPerturbativeScattering)) for the given [[local observable|local]] [[interaction]]
 $g S_{int} + j A$. By prop. \ref{RenormalizationIsInductivelyExtensionToDiagonal} the construction of these
 [[S-matrices]] is [[induction|inductively]] in $k \in \mathbb{N}$ a choice of [[extension of distributions]] (remark \ref{TimeOrderedProductOfFixedInteraction} and def. \ref{ExtensionOfDistributions} below) of the corresponding $k$-ary [[time-ordered products]] of the [[interaction]] to the locus of coinciding interaction points. An inductive construction of the
 [[S-matrix]] this way is called _[[Epstein-Glaser renormalization|Epstein-Glaser-("re"-)normalization]]_ ([this def.](S-matrix#ExtensionOfTimeOrderedProoductsRenormalization)).
@@ -135,7 +134,6 @@ $\,$
 +-- {: .num_prop #RenormalizationIsInductivelyExtensionToDiagonal}
 ###### Proposition
 **([[renormalization|("re"-)normalization]] is [[induction|inductive]] [[extension of distributions|extension]] of [[time-ordered products]] to [[diagonal]])**
-
 
 Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[gauge fixing|gauge-fixed]] [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to [this def.](S-matrix#VacuumFree).
 
@@ -1394,8 +1392,54 @@ $\,$
 #### Stückelberg-Petermann renormalization group
  {#SPRenormalizationGroup}
 
-The elements of the Stückelberg-Petermann renormalization group are _perturbative [[interaction vertex redefinitions]]_ (def. \ref{InteractionVertexRedefinition} below). These [[action|act]] on [[S-matrix]] [[renormalization schemes|("re"-)normalization schemes]] by [[precomposition]] (def. \ref{CausalFactorizationSatisfiedByCompositionOfSMatrixWithVertexRedefinition}) and this action is [[free action|free]] and [[transitive action|transitive]] (prop. \ref{AnyTwoSMatrixRenormalizationSchemesDifferByAUniqueVertexRedefinition} below). In this way these [[vertex redefinitions]] translate between different choices of [[renormalization|("re"-)normalization]], and as such they form the _Stückelerg-Petermann renormalization group_ (def. \ref{StueckelbergPetermannRenormalizationGroup}) below.
+A genuine re-normalization is the passage from one [[S-matrix]] [[renormalization scheme|("re"-)normalization scheme]]
+$\mathcal{S}$ to another such scheme $\mathcal{S}'$. The [[induction|inductive]] [[Epstein-Glaser renormalization|Epstein-Glaser ("re"-normalization)]] construction (prop. \ref{RenormalizationIsInductivelyExtensionToDiagonal}) shows that the difference between
+any $\mathcal{S}$ and $\mathcal{S}'$ is inductively in $k \in \mathbb{N}$ a choice of extra term in the 
+[[time-ordered product]] of $k$ factors, equivalently in the [[Feynman amplitudes]] for [[Feynman diagrams]] with 
+$k$ [[vertices]], that contributes when all $k$ of these vertices coincide in [[spacetime]] (prop. \ref{SpaceOfPointExtensions}).
 
+A natural question is whether these additional interactions that appear when several interaction vertices coincide
+may be absorbed into a re-definition of the original interaction $g S_{int} + j A$. Such an
+_[[interaction vertex redefinition]]_ (def. \ref{InteractionVertexRedefinition} below)
+
+$$
+  \mathcal{Z}
+  \;\colon\;
+  g S_{int} + j A
+  \;\mapsto\;
+  g S_{int} + j A 
+  \;+\;
+  \text{higher order corrections}
+$$
+
+should perturbatively send [[local observables|local]] interactions to local interactions with higher order corrections.
+
+The _[[main theorem of perturbative renormalization]]_ (prop. \ref{AnyTwoSMatrixRenormalizationSchemesDifferByAUniqueVertexRedefinition} below)
+says that indeed under mild conditions every re-normalization $\mathcal{S} \mapsto \mathcal{S}'$ is induced by such an [[interaction vertex redefinition]] in that
+there exists a _unique_ such redefinition $\mathcal{Z}$ so that for every local interaction $g S_{int} +  j A$ we have
+that [[scattering amplitudes]] for the interaction $g S_{int} + j A$ computed with the [[renormalization scheme|("re"-)normalization scheme]]
+$\mathcal{S}'$ equal those computed with $\mathcal{S}$ but applied
+to the [[interaction vertex redefinition|re-defined interaction]] $\mathcal{Z}(g S_{int} + j A)$:
+
+$$
+  \mathcal{S}'
+  \left(
+    {\, \atop \,}
+    g S_{int} +  j A
+    {\, \atop \,}
+  \right)
+  \;=\;
+  \mathcal{S}\left( {\, \atop \,} \mathcal{Z}(g S_{int} + j A) {\, \atop \,} \right)
+  \,.
+$$
+
+This means that the [[interaction vertex redefinitions]] $\mathcal{Z}$ form a [[group]] under [[composition]]
+which [[action|acts]] [[transitive action|transitively]] and [[free action|freely]], hence [[regular action|regularly]], on the 
+set of [[S-matrix]] [[renormalization schemes|("re"-)normalization schemes]];
+this is called the _[[Stückelberg-Petermann renormalization group]]_ (def. \ref{StueckelbergPetermannRenormalizationGroup} below).
+
+
+ 
 $\,$
 
 +-- {: .num_defn #InteractionVertexRedefinition}
@@ -1774,6 +1818,7 @@ $$
 
 This statement is also known as the _[[main theorem of perturbative renormalization]]_.
 
+
 +-- {: .proof}
 ###### Proof
 
@@ -1815,14 +1860,13 @@ $$
         \atop
         { I_1, \cdots, I_n \neq \emptyset }
       }{\sum}
-      \left(
-        k \atop { {\vert I_1 \vert}, \cdots , {\vert I_1 \vert} }
-      \right)
       T_n
       \left(
-        Z_{{\vert I_1\vert}}( (O_{i_1})_{i_1 \in I_1} ),
+        {\, \atop \,}
+        Z_{{\vert I_1\vert}}\left( (O_{i_1})_{i_1 \in I_1} \right),
         \cdots,
-        Z_{{\vert I_n\vert}}( (O_{i_n})_{i_n \in I_n} ),
+        Z_{{\vert I_n\vert}}\left( (O_{i_n})_{i_n \in I_n} \right),
+        {\, \atop \,}
       \right)
   \\
   & \phantom{=}
@@ -1833,10 +1877,13 @@ $$
 
 where $\{T'_k\}_{k \in \mathbb{N}}$ are the [[time-ordered products]] corresponding to $\mathcal{S}'$ (by [this example](S-matrix#TimeOrderedProductsFromSMatrixScheme)) and $\{T_k\}_{k \in \mathcal{N}}$ those correspondong to $\mathcal{S}$.
 
+Here the sum on the right runs over all ways that in the composite $\mathcal{S} \circ \mathcal{Z}$ a $k$-ary operation arises as the composite of an $n$-ary time-ordered product applied to the ${\vert I_i\vert}$-ary components of $\mathcal{Z}$, for $i$ running from 1 to $n$; except for the case $k = n$, which is displayed separately in the second line
+
 This shows that if $\mathcal{Z}$ exists, then it is unique, because its coefficients $Z_k$ are [[induction|inductively]] in $k$
 given by the expressions
 
 $$
+  \label{MainTheoremPerturbativeRenormalizationInductionStep}
   \begin{aligned}
     & Z_k( O_1,\cdots, O_k )
     \\
@@ -1857,9 +1904,6 @@ $$
         \atop
         { I_1, \cdots, I_n \neq \emptyset }
       }{\sum}
-      \left(
-        k \atop { {\vert I_1 \vert}, \cdots , {\vert I_1 \vert} }
-      \right)
       T_n
       \left(
         Z_{{\vert I_1\vert}}( (O_{i_1})_{i_1 \in I_1} ),
@@ -1870,6 +1914,8 @@ $$
     }
   \end{aligned}
 $$
+
+(The symbol under the brace is introduced as a convenient shorthand for the term above the brace.)
 
 Hence it remains to see that the $Z_k$ defined this way satisfy the conditions in def. \ref{InteractionVertexRedefinition}.
 
@@ -1910,7 +1956,14 @@ Then prop. \ref{CausalFactorizationSatisfiedByCompositionOfSMatrixWithVertexRede
 
 1. the [[vertex redefinitions]] $\mathcal{Z}$ (def. \ref{InteractionVertexRedefinition}) form a [[group]] under [[composition]];
 
-1. the set of [[S-matrix]] [[renormalization schemes|("re"-)normalization schemes]] ([this def.](S-matrix#LagrangianFieldTheoryPerturbativeScattering), [this remark](S-matrix#calSFunctionIsRenormalizationScheme)) satisfying at least the [[renormalization condition]] "field indepencen" is a [[torsor]] over this group, in that any two are related by a unique vertex redefinition.
+1. the set of [[S-matrix]] [[renormalization schemes|("re"-)normalization schemes]] ([this def.](S-matrix#LagrangianFieldTheoryPerturbativeScattering), [this remark](S-matrix#calSFunctionIsRenormalizationScheme)) satisfying the [[renormalization condition]] "field independence" ([this prop.](S-matrix#BasicConditionsRenormalization) is a [[torsor]] over this group, 
+hence on this set the action is a [[regular action]] in that any two [[S-matrix]] [[renormalization scheme|("re"-)normalization schemes]] 
+   $\mathcal{S}$, $\mathcal{S}'$  are related by a _unique_ vertex redefinition $\mathcal{Z}$ via
+   
+   $$
+     \mathcal{S}' \;=\; \mathcal{S} \circ \mathcal{Z}
+     \,.
+   $$
 
 This group is called the (large) _[[Stückelberg-Petermann renormalization group]]_.
 
@@ -1925,6 +1978,35 @@ $\,$
 
 #### UV-Regularization via Conterterms
  {#UVRegularizationViaZ}
+
+While [[Epstein-Glaser renormalization]] (prop. \ref{RenormalizationIsInductivelyExtensionToDiagonal}) 
+gives a transparent picture on the space of choices in [[renormalization|("re"-)normalization]]
+(theorem \ref{ExistenceRenormalization}) the physical nature of the higher interactions that it introduces at
+coincident interaction points (via the [[extensions of distributions]] in prop. \ref{SpaceOfPointExtensions}) remains more implicit. But the 
+[[main theorem of perturbative renormalization]] (prop. \ref{AnyTwoSMatrixRenormalizationSchemesDifferByAUniqueVertexRedefinition}),
+which re-expresses the _difference_ between any two such choices as an [[interaction vertex redefinition]],
+suggests that already the choice of [[renormalization|("re"-)normalization]] itself should have an incarnation in terms
+of [[interaction vertex redefinitions]].
+
+This may be realized via a construction of [[renormalization|("re"-)normalization]] in terms 
+of _[[UV-regularization]]_ (prop. \ref{UVRegularization} below): For any choice of "[[UV-cutoff]]", given by an
+approximation of the [[Feynman propagator]] $\Delta_F$ by [[non-singular distributions]] $\Delta_{F,\Lambda}$
+(def. \ref{CutoffsUVForPerturbativeQFT} below) there is a unique "[[effective S-matrix]]" $\mathcal{S}_\Lambda$
+induced at each cutoff scale (def. \ref{SMatrixEffective} below). While 
+the "UV-limit" $\underset{\Lambda \to \infty}{\lim} \mathcal{S}_\Lambda$ does not in general exist,
+it may be "regularized" by applying suitable [[interaction vertex redefinitions]] $\mathcal{Z}_\Lambda$;
+if the higher-order corrections that these introduce serve to "[[counterterms|counter]]" 
+(remark \ref{TermCounter} below) the coresponding UV-divergences.
+
+This perspective of [[renormalization|("re"-)normalization via]] via _[[counterterms]]_ is often regarded as 
+the primary one.
+Its elegant proof in prop. \ref{UVRegularization} below, however relies on the [[Epstein-Glaser renormalization]]
+via inductive [[extensions of distributions]] and uses the same kind of argument as in the 
+proof of the [[main theorem of perturbative renormalization]] (prop. \ref{AnyTwoSMatrixRenormalizationSchemesDifferByAUniqueVertexRedefinition}) that establishes the [[Stückelberg-Petermann renormalization group]].
+ 
+
+$\,$
+
 
 +-- {: .num_defn #CutoffsUVForPerturbativeQFT}
 ###### Definition
@@ -2118,30 +2200,16 @@ $$
   \right\rangle
 $$
 
-where
-
-$$
-  \left\langle
-    T_{k,\Lambda}
-    \,,\,
-    O_1 \otimes \cdots \otimes O_k
-  \right\rangle
-  \;=\;
-  O_1
-    \star_{F,\Lambda}
-    \cdots
-    \star_{F,\Lambda}
-  O_k
-$$
-
-is the effective time-ordered product at cutoff scale $\Lambda$ as in def. \ref{SMatrixEffective},
+where $\left\langle T_{k,\Lambda} \,,\, \right\rangle$ denotes the effective time-ordered product at cutoff scale $\Lambda$ as in def. \ref{SMatrixEffective},
 written as an evaluation of distributions on test functions according to remark \ref{TimeOrderedProductOfFixedInteraction}.
 
-With this it is now sufficient to find $\mathcal{Z}_\Lambda$ such that
+With this it is now sufficient to find $\mathcal{Z}_\Lambda$ and $K_{n+1,\Lambda}$ such that
 
 $$
   \left\langle
-    T_{k+1,\lambda} \circ \mathcal{Z}_{\leq k+1, \Lambda}
+    \left(
+      T_{\Lambda} \circ \mathcal{Z}_{\leq k+1, \Lambda}
+    \right)_{k+1}
     \,,\,
     (-)
   \right\rangle
@@ -2151,12 +2219,34 @@ $$
     \,,\,
     p\left( - \right)
   \right\rangle
+  \;+\;
   \,,
+  K_{n+1,\Lambda}(-, \cdots, -)
 $$
 
-where on the left we mean the $(k+1)$-ary coefficient of $\mathcal{S}_\Lambda \circ \mathcal{Z}_\Lambda$ as in the proof of the [[main theorem of perturbative renormalization]] (prop. \ref{AnyTwoSMatrixRenormalizationSchemesDifferByAUniqueVertexRedefinition}).
+such that
 
-Further proceeding as in that proof, by [[induction]] over the arity of the time-ordered products, this implies that $Z_{n+1,\Lambda}$ is fixed to be
+1. $\mathcal{Z}_\Lambda$ is [[local observable|local]];
+
+1. $\underset{\Lambda \to \infty}{\lim} K_\Lambda = 0$,
+
+Here $\left(T_{\Lambda} \circ \mathcal{Z}_{\Lambda}\right)_{k+1}$  denotes 
+the $(k+1)$-ary coefficient of $\mathcal{S}_\Lambda \circ \mathcal{Z}_\Lambda$ as in 
+equation (eq:MainTheoremPerturbativeRenormalizationInductionStep) in the proof of the [[main theorem of perturbative renormalization]] (prop. \ref{AnyTwoSMatrixRenormalizationSchemesDifferByAUniqueVertexRedefinition}).
+
+Further proceeding as in [that proof](#AnyTwoSMatrixRenormalizationSchemesDifferByAUniqueVertexRedefinition), by [[induction]] over the arity of the time-ordered products, this implies that if $\{Z_{k}\}_{k \leq n}$ has
+been found such that
+
+$$
+  \underset{\Lambda \to \infty}{\lim}
+  \left(  
+    T_\Lambda \circ \mathcal{Z}_{\leq n, \Lambda}
+  \right)_n
+  \;=\;
+  T_n
+$$
+
+then $Z_{n+1,\Lambda}$ is fixed to be
 
 $$
   Z_{n+1,\Lambda}
@@ -2168,29 +2258,27 @@ $$
   \right\rangle
   -
   \left\langle
-    T_{n+1,\Lambda} \circ \mathcal{Z}_{\leq n,\Lambda}
+    \left(
+      T_{\Lambda} \circ \mathcal{Z}_{\leq n,\Lambda}
+    \right)_{n+1}
     \,,\,
     (-, \cdots, -)
   \right\rangle
   +
-  K_\Lambda
-  \,,
+  K_{n+1, \Lambda}
+  \,.
 $$
 
-where we have the freedom to choose $K_\Lambda$ such that
-
-1. $\underset{\Lambda \to \infty}{\lim} K_\Lambda = 0$;
-
-1. $Z_{n+1,\Lambda}$ is local.
-
-Consider
-
+Consider the choice
+ 
 $$
   \label{LocalityCorrection}
-  K_\Lambda
+  K_{n+1, \Lambda}(-, \cdots, -)
   \;\coloneqq\;
   \left\langle
-    T_{n+1,\Lambda} \circ \mathcal{Z}_{\leq n}
+    \left(
+      T_{\Lambda} \circ \mathcal{Z}_{\leq n, \Lambda}
+    \right)_{n+1}
     \,,\,
     p(-, \cdots, -)
   \right\rangle
@@ -2211,7 +2299,9 @@ $$
     Z_{n+1,\Lambda}
     & =
     \left\langle
-      T_{n+1,\Lambda} \circ \mathcal{Z}_{\leq n}
+      \left(
+        T_{\Lambda} \circ \mathcal{Z}_{\leq n}
+      \right)_{n+1}
       \,,\,
       p(-, \cdots, -)
     \right\rangle
@@ -2224,7 +2314,9 @@ $$
     \\
     & =
     \left\langle
-      T_{n+1,\Lambda} \circ \mathcal{Z}_{\leq n}
+      \left(
+        T_{\Lambda} \circ \mathcal{Z}_{\leq n}
+      \right)_{n+1}
       \,,\,
       ( p - id)(-, \cdots, -)
     \right\rangle
@@ -2535,8 +2627,8 @@ Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$
 be a [[gauge fixing|gauge fixed]] [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] (according to [this def.](S-matrix#VacuumFree)) and let $\left\{ \Delta_{F,\Lambda}\right\}_{\Lambda \in [0,\infty)}$ be a choice of [[UV cutoffs]] for [[perturbative QFT]] around this vacuum (def. \ref{CutoffsUVForPerturbativeQFT}).
 
 
-Then the [[relative effective action]] (def. \ref{EffectiveActionRelative}) at $\Lambda = 0$ is the actual [[effective action]] ([this def.](S-matrix#InPerturbationTheoryActionEffective)) being $i \hbar$ times the [[Feynman perturbation series]] of
-[[Feynman amplitudes]] $\Gamma(g S_{int} + j A)$ for [[connected graph|connected]] [[Feynman diagrams]] $\Gamma$:
+Then the [[relative effective action]] (def. \ref{EffectiveActionRelative}) at $\Lambda = 0$ is the actual [[effective action]] ([this def.](S-matrix#InPerturbationTheoryActionEffective)) in the sense of the the [[Feynman perturbation series]] of
+[[Feynman amplitudes]] $\Gamma(g S_{int} + j A)$ ([this def.](S-matrix#FeynmanPerturbationSeriesAwayFromCoincidingPoints)) for [[connected graph|connected]] [[Feynman diagrams]] $\Gamma$:
 
 $$
   \begin{aligned}
@@ -2547,9 +2639,24 @@ $$
     & = S_{eff} \;\coloneqq\;
     \underset{\Gamma \in \Gamma_{conn}}{\sum}
     \Gamma(g S_{int} + j A)
+    \,.
   \end{aligned}
-  \,.
 $$
+
+More generally this holds true for any $\Lambda \in [0, \infty) \sqcup \{\infty\}$
+
+$$
+  \begin{aligned}
+    S_{eff,0,\Lambda}
+    & = 
+    \underset{\Gamma \in \Gamma_{conn}}{\sum}
+    \Gamma_\Lambda(g S_{int} + j A)
+    \,,
+  \end{aligned}
+$$
+
+where $\Gamma_\Lambda( g S_{int} + j A)$ denotes the evident version of the [[Feynman amplitude]] ([this def.](S-matrix#FeynmanPerturbationSeriesAwayFromCoincidingPoints)) with [[time-ordered products]] replaced by
+effective time ordered product at scale $\Lambda$ as in (def. \ref{SMatrixEffective}).
 
 =--
 
@@ -4369,6 +4476,7 @@ A vaguely related approach earlier appeared in
 
 [[!redirects EG-renormalization]]
 [[!redirects EG-renormalizations]]
+
 
 
 [[!redirects BPHZ renormalization]]
