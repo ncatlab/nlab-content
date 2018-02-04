@@ -1,3 +1,16 @@
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Group Theory
++-- {: .hide}
+[[!include group theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -7,10 +20,11 @@
 An [[action]]
 
 $$
-  * : G \times X \to X
+  * \;\colon\; G \times X \to X
 $$
 
-of a group $G$ on a set $X$ is **free** if for every $x \in X$ and every $g\in G$,  the equation $g x = x$ implies $g=1_G$.
+of a [[group]] $G$ on a [[set]] $X$ is called _free_ if for every $x \in X$ and every $g\in G$,  the [[equation]] $g x = x$ [[implication|implies]] $g=1_G$.
+
 Equivalently, an action is free when for any pair of elements $x,y \in X$, there is _at most one_ group element $g \in G$ such that $g * x = y$.
 
 A free action that is also [[transitive action|transitive]] is called _[[regular action|regular]]_.
