@@ -410,7 +410,7 @@ $$
 
 =--
 
-(See any of the reference at _[[main theorem of perturbative renormalization]]_.)
+(See any of the references at _[[main theorem of perturbative renormalization]]_.)
 
 +-- {: .proof}
 ###### Proof
@@ -453,14 +453,13 @@ $$
         \atop
         { I_1, \cdots, I_n \neq \emptyset }
       }{\sum}
-      \left(
-        k \atop { {\vert I_1 \vert}, \cdots , {\vert I_1 \vert} }
-      \right)
       T_n
       \left(
-        Z_{{\vert I_1\vert}}( (O_{i_1})_{i_1 \in I_1} ),
+        {\, \atop \,}
+        Z_{{\vert I_1\vert}}\left( (O_{i_1})_{i_1 \in I_1} \right),
         \cdots,
-        Z_{{\vert I_n\vert}}( (O_{i_n})_{i_n \in I_n} ),
+        Z_{{\vert I_n\vert}}\left( (O_{i_n})_{i_n \in I_n} \right),
+        {\, \atop \,}
       \right)
   \\
   & \phantom{=}
@@ -469,7 +468,9 @@ $$
   \end{aligned}
 $$
 
-where $\{T'_k\}_{k \in \mathbb{N}}$ are the [[time-ordered products]] corresponding to $\mathcal{S}'$ (by [this example](S-matrix#TimeOrderedProductsFromSMatrixScheme)) and $\{T_k\}_{k \in \mathcal{N}}$ those correspondong to $\mathcal{S}$.
+where $\{T'_k\}_{k \in \mathbb{N}}$ are the [[time-ordered products]] corresponding to $\mathcal{S}'$ (by [this example](S-matrix#TimeOrderedProductsFromSMatrixScheme)) and $\{T_k\}_{k \in \mathcal{N}}$ those correspondong to $\mathcal{S}$. 
+
+Here the sum on the right runs over all ways that in the composite $\mathcal{S} \circ \mathcal{Z}$ a $k$-ary operation arises as the composite of an $n$-ary time-ordered product applied to the ${\vert I_i\vert}$-ary components of $\mathcal{Z}$, for $i$ running from 1 to $n$; except for the case $k = n$, which is displayed separately in the second line.
 
 This shows that if $\mathcal{Z}$ exists, then it is unique, because its coefficients $Z_k$ are [[induction|inductively]] in $k$
 given by the expressions
@@ -495,9 +496,6 @@ $$
         \atop
         { I_1, \cdots, I_n \neq \emptyset }
       }{\sum}
-      \left(
-        k \atop { {\vert I_1 \vert}, \cdots , {\vert I_1 \vert} }
-      \right)
       T_n
       \left(
         Z_{{\vert I_1\vert}}( (O_{i_1})_{i_1 \in I_1} ),
@@ -508,6 +506,8 @@ $$
     }
   \end{aligned}
 $$
+
+(The symbol under the brace is introduced as a convenient shorthand for the term above the brace.)
 
 Hence it remains to see that the $Z_k$ defined this way satisfy the conditions in def. \ref{InteractionVertexRedefinition}.
 
@@ -548,7 +548,7 @@ Then prop. \ref{CausalFactorizationSatisfiedByCompositionOfSMatrixWithVertexRede
 
 1. the [[vertex redefinitions]] $\mathcal{Z}$ (def. \ref{InteractionVertexRedefinition}) form a [[group]] under [[composition]];
 
-1. the set of [[S-matrix]] [[renormalization schemes|("re"-)normalization schemes]] ([this def.](S-matrix#LagrangianFieldTheoryPerturbativeScattering), [this remark](S-matrix#calSFunctionIsRenormalizationScheme)) satisfying at least the [[renormalization condition]] "field indepencen" is a [[torsor]] over this group, in that any two are related by a unique vertex redefinition.
+1. the set of [[S-matrix]] [[renormalization schemes|("re"-)normalization schemes]] ([this def.](S-matrix#LagrangianFieldTheoryPerturbativeScattering), [this remark](S-matrix#calSFunctionIsRenormalizationScheme)) satisfying the [[renormalization condition]] "field independence" ([this prop.](S-matrix#BasicConditionsRenormalization)) is a [[torsor]] over this group, meaning that the action is [[regular action|regular]] on this set, in that any two are S-matrix ("re"-)normalization schemes are related by a unique vertex redefinition.
 
 This group is called the (large) _[[Stückelberg-Petermann renormalization group]]_.
 
