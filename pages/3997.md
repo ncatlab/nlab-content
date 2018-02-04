@@ -18,7 +18,7 @@
 
 ## Definition
 
-Let $F\colon C\to D$ be a [[functor]] and $J\colon I\to C$ a [[diagram]].  We say that $F$ **creates** limits for $J$ if $J$ has a limit whenever the composite $F\circ J$ has a limit, and $F$ both [[preserved limit|preserves]] and [[reflected limit|reflects]] limits of $J$.  This means that, in addition to $J$ having a limit whenever $F \circ J$ does, a [[cone]] over $J$ in $C$ is a limiting cone if and only if its image in $D$ is a limiting cone over $F\circ J$.
+Let $F\colon C\to D$ be a [[functor]] and $J\colon I\to C$ a [[diagram]], and suppose that the composite $F \circ J$ has a [[limit]].  We say that $F$ **creates** this limit if $J$ has a limit, and $F$ both [[preserved limit|preserves]] and [[reflected limit|reflects]] limits of $J$.  The latter two conditions together mean that a [[cone]] over $J$ in $C$ is a limiting cone if and only if its image in $D$ is a limiting cone over $F\circ J$.
 
 Of course, a functor $F$ creates a [[colimit]] if $F^{op}$ creates the corresponding limit.
 
@@ -30,19 +30,23 @@ A [[monadic functor]] creates all limits that exist in its codomain, and all col
 
 ## Terminological remarks
 
-MacLane uses a different definition of creation of limits in [[Categories Work]], which reads  
+### Creation of non-existing limits
 
-* $F : C \to D$ creates limits for $J : I \to C$, if to every limiting cone $L$ over $F J$ in $D$ there exists a unique cone $L'$ over $J$ which is mapped to $L$, and this $L'$ is a limit of $J$.
+It seems that the notion of "creating a limit" is used most frequently when the limits exist in the codomain.  One may want to extend the terminology to cases when such limits don't exist, which would require making a choice about whether a non-existing limit should be regarded as "created".
 
- This definition is **non-equivalent** to the one given here in two ways:
+In [[Categories Work]] the convention is that a functor creates *all* limits that do not exist in its codomain.  In this case, the more generally applicable definition could be stated as "$F$ creates limits for $J$ if $J$ has a limit whenever $F\circ J$ has a limit, and *in that case* limits of $J$ are preserved and reflected by $F$."  (But see below for an additional difference with [[Categories Work]].)
 
-1. MacLane's definition imposes strict equality conditions on objects, which violates the [[principle of equivalence]].
+On the other hand, one might argue that it doesn't make sense to regard a limit that exists in the domain as being "created by the functor" if the limit in the codomain doesn't even exist.  In this case the more generally applicable definition could be stated as "$F$ creates limits for $J$ if $J$ has a limit whenever $F\circ J$ has a limit, and *furthermore in all cases* limits of $J$ are preserved and reflected by $F$."
 
-2. MacLane's definition implies the preservation of limits only if a limiting cone exists in $D$. For example, $1\to 2$ creates limits for $0\to 1$ in MacLane's sense, but not in the sense of the definition given here ($0$, $1$, and $2$ are understood as discrete categories). 
+Finally, one might even argue that based on the meaning of the English word "created", only something that exists can be created at all.  In this case the more generally applicable definition could be stated as "$F$ creates limits for $J$ if $J$ and $F\circ J$ both have limits, and furthermore limits of $J$ are preserved and reflected by $F$."
 
-The additional strictness in MacLane's definition is useful to give a version of the [[monadicity theorem]] up to isomorphism - rather than equivalence - of categories.
+### Strictness
 
-* [Kissinger](http://permalink.gmane.org/gmane.science.mathematics.categories/6644) suggested a concise way to state creation/preservation/etc. of limits.  However, there is [some dispute](https://nforum.ncatlab.org/discussion/7024/lifted-limit/?Focus=56765#Comment_56765) about its correctness.
+The definitions given above are all "up to isomorphism", i.e. they satisfy the [[principle of equivalence]].  The definition in [[Categories Work]] is additionally *strict*: it requires that for every limiting cone $L$ over $F J$ in $D$ there exists a *unique* cone $L'$ over $J$ which is mapped *exactly* to $L$, and this $L'$ is a limit of $J$.  This is used in stating the version of the [[monadicity theorem]] that characterizes the [[category of algebras for a monad]] up to [[isomorphism]] rather than [[equivalence of categories]].
+
+## Remarks
+
+[Kissinger](http://permalink.gmane.org/gmane.science.mathematics.categories/6644) suggested a concise way to state creation/preservation/etc. of limits.  However, there is [some dispute](https://nforum.ncatlab.org/discussion/7024/lifted-limit/?Focus=56765#Comment_56765) about its correctness.
 
 ## Related pages
 
