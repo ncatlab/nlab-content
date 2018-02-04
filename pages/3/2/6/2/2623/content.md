@@ -2301,8 +2301,8 @@ $$
 We need to see that 1) $K_{\Lambda}$ goes to zero with $\Lambda \to \infty$ and 2) the resulting $Z$ is local.
 
 1) Due to the presence of the projector, the time ordered product $T_{n+1}$ is evaluated only
-away from the diagonal. There it is fixed by the $\{T_k\}_{k \leq n}$. By induction assumption, the
-$\{(T_\Lambda \circ Z_{\leq k})_k\}_{k \leq n}$. 
+away from the diagonal. By prop. \ref{RenormalizationIsInductivelyExtensionToDiagonal} there it is fixed by the $\{T_k\}_{k \leq n}$. By induction assumption, this is the corresponding limit of the $\{(T_\Lambda \circ Z_{\leq k})_k\}_{k \leq n}$. 
+
 
 2) We get
 
