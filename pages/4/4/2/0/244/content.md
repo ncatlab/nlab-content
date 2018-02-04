@@ -187,7 +187,11 @@ The [[internal logic]] of ([[closed monoidal category|closed]]) symmetric monoid
 
 * For $k$ some [[field]], the category [[Vect]] of $k$-vector spaces carries the standard structure of a [[monoidal category]] coming from the [[tensor product]], over $k$, of vector spaces. The standard braiding that identifies $V \otimes W$ with $W \otimes V$ by mapping homogeneous elements $v \otimes w$ to $w \otimes v$ obviously makes [[Vect]] into a symmetric monoidal category.
 
-* The category of $\mathbb{Z}_2$-[[graded vector space]]s, on the other hand, has two different symmetric monoidal extensions of the standard [[tensor product]] monoidal structure. One is the trivial one from above, the other is the one that induces a a sign when two odd-graded vectors $v$ and $w$ are passed past each other : $v \otimes w \mapsto - w \otimes v$. This non-trivial symmetric monoidal structure on $Vect[\mathbb{Z}_2]$ defines the symmetric monoidal category of [[super vector space]]s.
+* The category of $\mathbb{Z}_2$-[[graded vector space]]s, on the other hand, has two different symmetric monoidal extensions of the standard [[tensor product]] monoidal structure. One is the trivial one from above, the other is the one that induces a a sign when two odd-graded vectors $v$ and $w$ are passed past each other : $v \otimes w \mapsto - w \otimes v$. This non-trivial symmetric monoidal structure on $Vect[\mathbb{Z}_2]$ defines the symmetric monoidal category of [[super vector spaces]].
+
+* The monoidal category of [[graded modules]] over a [[commutative ring]] (with the usual [[tensor product of modules|tensor product of graded modules]]) can be made into a braided monoidal category with the braiding $V \otimes W \to W \otimes V,\ x \otimes y \mapsto y \otimes x$. The braiding $x \otimes y \mapsto (-1)^{|x| |y|} y \otimes x$ (where $|x|$ and $|y|$ denote the degrees) is also commonly used.
+
+  More generally, for any invertible element $u$ of the base ring, there is the [[braided monoidal category|braiding]] $x \otimes y \mapsto u^{|x| |y|} y \otimes x$, and these braidings are the only possible. The resulting [[braided monoidal category]] is symmetric if and only if $u^2 = 1$.
 
 
 
