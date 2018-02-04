@@ -27,7 +27,7 @@
 ## Idea
  {#Idea}
 
-An _idempotent monad_ is a [[monad]] that "squares to the identity" in the evident [[category theory|category-theoretic]] sense. Idempotent monads hence serve as [[categorification|categorified]] [[projection]] operators, in that they encode [[reflective subcategories]] and the reflection/[[localization]] onto these. 
+An _idempotent monad_ is a [[monad]] that "squares to itself" in the evident [[category theory|category-theoretic]] sense. Idempotent monads hence serve as [[categorification|categorified]] [[projection]] operators, in that they encode [[reflective subcategories]] and the reflection/[[localization]] onto these. 
 
 In terms of [[type theory]] idempotent monads interpret (co-)[[modal operators]]; see [[modal type theory]].
 
