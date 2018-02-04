@@ -270,3 +270,5 @@ Discussion for [[(infinity,1)-monads]] realized in the context of [[quasi-catego
 [[!redirects Beck equaliser]]
 [[!redirects Beck equalisers]]
 
+[[!redirects category of algebras over a monad]]
+[[!redirects category of algebras for a monad]]
