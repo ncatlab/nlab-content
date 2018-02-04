@@ -2203,32 +2203,32 @@ $$
 where $\left\langle T_{k,\Lambda} \,,\, \right\rangle$ denotes the effective time-ordered product at cutoff scale $\Lambda$ as in def. \ref{SMatrixEffective},
 written as an evaluation of distributions on test functions according to remark \ref{TimeOrderedProductOfFixedInteraction}.
 
-With this it is now sufficient to find $\mathcal{Z}_\Lambda$ and $K_{n+1,\Lambda}$ such that
+Hence we need to find $\mathcal{Z}_\Lambda$ and $K_{n+1,\Lambda}$ such that for all $k \in \mathbb{k}$ we have
 
 $$
   \left\langle
     \left(
-      T_{\Lambda} \circ \mathcal{Z}_{\leq k+1, \Lambda}
-    \right)_{k+1}
+      T_{\Lambda} \circ \mathcal{Z}_{\Lambda}
+    \right)_{k}
     \,,\,
     (-)
   \right\rangle
   \;=\;
   \left\langle
-    T_{k+1, \Lambda}
+    T_{k, \Lambda}
     \,,\,
     p\left( - \right)
   \right\rangle
   \;+\;
   \,,
-  K_{n+1,\Lambda}(-, \cdots, -)
+  K_{k,\Lambda}(-, \cdots, -)
 $$
 
 such that
 
 1. $\mathcal{Z}_\Lambda$ is [[local observable|local]];
 
-1. $\underset{\Lambda \to \infty}{\lim} K_\Lambda = 0$,
+1. $\underset{\Lambda \to \infty}{\lim} K_{\Lambda,k} = 0$,
 
 Here $\left(T_{\Lambda} \circ \mathcal{Z}_{\Lambda}\right)_{k+1}$  denotes 
 the $(k+1)$-ary coefficient of $\mathcal{S}_\Lambda \circ \mathcal{Z}_\Lambda$ as in 
@@ -2249,7 +2249,11 @@ $$
 then $Z_{n+1,\Lambda}$ is fixed to be
 
 $$
-  Z_{n+1,\Lambda}
+  \left\langle
+    Z_{n+1,\Lambda}
+    ,
+    (-)
+  \right\rangle
   \;=\;
   \left\langle
     T_{n+1,\Lambda}
@@ -2265,7 +2269,10 @@ $$
     (-, \cdots, -)
   \right\rangle
   +
-  K_{n+1, \Lambda}
+  \left\langle
+    K_{n+1, \Lambda},
+    (-)
+  \right\rangle
   \,.
 $$
 
@@ -2288,11 +2295,16 @@ $$
     \,,\,
     p(-, \cdots, -)
   \right\rangle
+  \,.
 $$
 
-(...)
+We need to see that 1) $K_{\Lambda}$ goes to zero with $\Lambda \to \infty$ and 2) the resulting $Z$ is local.
 
-This way we get
+1) Due to the presence of the projector, the time ordered product $T_{n+1}$ is evaluated only
+away from the diagonal. There it is fixed by the $\{T_k\}_{k \leq n}$. By induction assumption, the
+$\{(T_\Lambda \circ Z_{\leq k})_k\}_{k \leq n}$. 
+
+2) We get
 
 $$
   \begin{aligned}
