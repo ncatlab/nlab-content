@@ -2194,7 +2194,7 @@ This was claimed in ([Brunetti-Dütsch-Fredenhagen 09, (75)](#BrunettiDuetschFre
 
 Let $\{p_{\rho_k}\}_{k \in \mathbb{N}}$ be a sequence of projection maps as in (eq:ForExtensionOfDistributionsProjectionMaps) defining an [[Epstein-Glaser renormalization|Epstein-Glaser ("re"-)normalization]] (prop. \ref{RenormalizationIsInductivelyExtensionToDiagonal}) of [[time-ordered products]] $\{T_k\}_{k \in \mathbb{N}}$ as [[extensions of distributions]] of the $T_k$, regarded as distributions via remark \ref{TimeOrderedProductOfFixedInteraction}, by the choice $q_k^\alpha = 0$ in (eq:ExtensionOfDitstributionsPointFixedAndChoice).
 
-By the proof of prop. \ref{SpaceOfPointExtensions}, the extension of the time-ordered products after the $p_\rho$-projections is unique, so that we may write the actual S-matric as a limit as follows:
+By the proof of prop. \ref{SpaceOfPointExtensions}, the extension of the time-ordered products after the $p_\rho$-projections is unique, so that we may write the actual S-matrix as a limit as follows:
 
 $$
   \label{RenormalizedSMatrixAsLimitOfEffectiveSMatricesEvaluatedOnProjection}
@@ -2206,6 +2206,7 @@ $$
   \left\langle
     T_{k,\Lambda} \,,\, p_{\rho_k} ( \underset{k \, \text{factors}}{\underbrace{O \otimes \cdots \otimes O} })
   \right\rangle
+  \,,
 $$
 
 where $\left\langle T_{k,\Lambda} \,,\, (-)\right\rangle$ denotes the effective time-ordered product at cutoff scale $\Lambda$ as in def. \ref{SMatrixEffective},
