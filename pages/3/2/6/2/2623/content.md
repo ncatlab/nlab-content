@@ -2371,7 +2371,7 @@ Finally we need to show that $\underset{\Lambda \to \infty}{\lim} K_{n+1,\Lambda
 Since both terms in $K_{n+1,\lambda}$ are evaluations against the image of $p_{\rho_{n+1}}$, which vanishes on the diagonal,
 we may consider the distributions $(T_\Lambda \circ \mathcal{Z}_{\leq n, \Lambda})_{n+1}$ and $T_{n+1,\Lambda}$
 [[restriction of distributions|restricted]] away from the digonal. As in the proof of prop. \ref{RenormalizationIsInductivelyExtensionToDiagonal}
-this allows to choose a [[partition of unity]] $(\chi_I)$ of the complement of the diagonal, in the form (eq:PartitionCausalOfUnityForComplementOfDiagonal). By means of this, these expressions may be decomposed,
+this allows to choose a [[partition of unity]] $(\chi_I)$ of the complement of the diagonal, in the form (eq:PartitionCausalOfUnityForComplementOfDiagonal), such that these expressions may be decomposed,
 in analogy with the genuine time-ordered products in (eq:TimeOrderedProductsAwayFromDiagonalByInduction), as
 
 $$
@@ -2597,6 +2597,17 @@ $\,$
 #### Wilson-Polchinski effective QFT flow
  {#EffectiveQFTFlowWislonian}
 
+We have seen [above](#UVRegularizationViaZ) that a choice of [[UV cutoff]] induces [[effective S-matrix schemes]] $\mathcal{S}_\Lambda$
+at cutoff scale $\Lambda$ (def. \ref{SMatrixEffective}). To these one may associated non-local [[relative effective actions]]
+$S_{eff,\Lambda}$ (def. \ref{EffectiveActionRelative} below) which are such that their effective [[scattering amplitudes]]
+at scale $\Lambda$ coincide with the true scattering amplitudes of a genuine [[local observable|local]] interaction 
+as the cutoff is removed. This is the Wilsonian picture of _[[effective quantum field theory]]_ at a given cutoff scale (remark \ref{pQFTEffective} below). Crucially the "flow" of the [[relative effective actions]] with the cutoff scale satisfies
+a [[differential equation]] that in itself is independent of the full UV-theory; this is 
+_[[Polchinski's flow equation]]_ (prop. \ref{FlowEquationPolchinski} below). Solving this equation for given choice
+of initial value data is hence another way of choosing [[renormalization|("re"-)normalization]] constants.
+
+$\,$
+ 
 
 +-- {: .num_prop #EffectiveSmatrixSchemeInvertible}
 ###### Proposition
@@ -2632,7 +2643,7 @@ Then the [[effective S-matrix schemes]] $\mathcal{S}_\Lambda$ (def. \ref{SMatrix
 
 $$
   PolyObs(E_{\text{BV-BRST}})_{mc}[ [ \hbar, g, j] ]\langle g,j\rangle
-   \underoverset{\simeq}{\mathcal{S}_\Lambda}{\longrightarrow}
+   \underoverset{\simeq}{\phantom{AA}\mathcal{S}_\Lambda \phantom{AA} }{\longrightarrow}
   1
     +
   PolyObs(E_{\text{BV-BRST}})_{mc}[ [ \hbar, g, j] ]\langle g,j\rangle
@@ -2642,6 +2653,7 @@ $$
 =--
 
 ([Dütsch 10, (4.7)](#Duetsch10))
+
 +-- {: .proof}
 ###### Proof
 
