@@ -602,7 +602,7 @@ $$
 ###### Proposition
 **([[time-ordered product]] on [[regular polynomial observables]] [[isomorphism|isomorphic]] to pointwise product)
 
-The [[time-ordered product]] on [[regular polynomial observables]] (def. \ref{CausalOrderingTimeOrderedProductOnRegular}) is [[isomorphism|isomorphism]] to the pointwise product of [[observables]] ([this def.](A+first+idea+of+quantum+field+theory#Observable)) via the [[linear isomorphism]]
+The [[time-ordered product]] on [[regular polynomial observables]] (def. \ref{OnRegularPolynomialObservablesTimeOrderedProduct}) is [[isomorphism|isomorphic]] to the pointwise product of [[observables]] ([this def.](A+first+idea+of+quantum+field+theory#Observable)) via the [[linear isomorphism]]
 
 $$
   \mathcal{T}
