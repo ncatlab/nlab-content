@@ -4463,7 +4463,7 @@ holds.
 
 * [[cosmic Galois group]]
 
-
+* [[differential renormalization]]
 
 ## References
  {#References}
