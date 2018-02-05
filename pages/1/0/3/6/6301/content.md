@@ -74,7 +74,7 @@ $$
 
 =--
 
-Under [[Wick rotation]], this causal locality becomes "statistical locality""  (see at _[[Osterwalder-Schrader theorem]]_).
+Under [[Wick rotation]], this causal locality becomes "statistical locality"  (see at _[[Osterwalder-Schrader theorem]]_).
 
 In [[perturbative algebraic quantum field theory]] this condition follows from the [[causal additivity]] of the [[S-matrix]] (see there the section _[Causal locality and Quantum obsrvables](S-matrix#CausalLocality)_).
 
