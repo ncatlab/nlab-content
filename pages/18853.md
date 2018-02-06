@@ -29,7 +29,7 @@ This is a "fine structure" effect not seen by the [[quantum mechanics]] of the [
 
 The Lamb shift may be attributed to [[loop order|1-loop]] [[Feynman diagram]]-contributions giving "[[radiative corrections]]" to the basic [[tree level]] [[electron-photon vertex]] that describes the basic [[interaction]] of the [[electron]] with the [[background field|background]] [[electromagnetic field]], via the [[electron-photon vertex]], hence called _vertex corrections_ and governed by the [[coupling constant]] of [[quantum electrodynamics]], the _[[fine structure constant]]_.
 
-<img src="https://ncatlab.org/nlab/files/LambShiftVertexCorrections.png" width="500">
+{#VertexCorrectionDiagrams} <img src="https://ncatlab.org/nlab/files/LambShiftVertexCorrections.png" width="500">
 
 (Here the dot on the right is the external vertex for the [[background field|background]] [[electromagnetic field]].)
 
