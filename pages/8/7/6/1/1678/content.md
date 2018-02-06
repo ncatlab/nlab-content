@@ -137,12 +137,12 @@ _Todd_: I think you've certainly made a good start. Thanks for writing this up.
 
 ## The Yoneda Lemma ##
 
-Given a bicategory $C$, a lax functor $F:C\to Cat$ and a $0$-cell $A\in C$, there
+Given a bicategory $C$, a lax functor $F:C^{op}\to Cat$ and a $0$-cell $A\in C$, there
 are [[adjoint functor]]s
 
 $$ I : Lax(y A,F) \stackrel{\to}{\leftarrow} F(A) : J $$
 
-such that $J \dashv I$.  Here $y A:C \to Cat$ is the image of $A$ under the
+such that $J \dashv I$.  Here $y A:C \to Cat^{C^{op}}$ is the image of $A$ under the
 bicategorical [[Yoneda embedding]].
 
 +-- {: .proof}
