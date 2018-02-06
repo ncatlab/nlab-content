@@ -2076,24 +2076,26 @@ such that:
         deg(\Delta_{F})
       $$
 
-1. the [[limit of a sequence|limit]] of the $\Delta_{F,\Lambda}$ as $\Lambda \to 0$ in the [[Hörmander topology]] exists and is zero
+1. the $\Delta_{F,\Lambda}$ interpolate between zero and the Feynman propagator, in that, in the [[Hörmander topology]]:
 
-   $$
-     \underset{\Lambda \to \infty}{\lim} \Delta_{F,\Lambda}
-     \;=\;
-     0
-     \,.
-   $$
+   1. the [[limit of a sequence|limit]] as $\Lambda \to 0$ exists and is zero
+
+      $$
+        \underset{\Lambda \to \infty}{\lim} \Delta_{F,\Lambda}
+        \;=\;
+        0
+        \,.
+      $$
 
 
-1. the [[limit of a sequence|limit]] of the $\Delta_{F,\Lambda}$ as $\Lambda \to \infty$ in the [[Hörmander topology]] exists and is the [[Feynman propagator]]:
+   1. the [[limit of a sequence|limit]] as $\Lambda \to \infty$ exists and is the [[Feynman propagator]]:
 
-   $$
-     \underset{\Lambda \to \infty}{\lim} \Delta_{F,\Lambda}
-     \;=\;
-     \Delta_F
-     \,.
-   $$
+      $$
+        \underset{\Lambda \to \infty}{\lim} \Delta_{F,\Lambda}
+        \;=\;
+        \Delta_F
+        \,.
+      $$
 
 =--
 
@@ -2194,7 +2196,9 @@ This was claimed in ([Brunetti-Dütsch-Fredenhagen 09, (75)](#BrunettiDuetschFre
 
 Let $\{p_{\rho_k}\}_{k \in \mathbb{N}}$ be a sequence of projection maps as in (eq:ForExtensionOfDistributionsProjectionMaps) defining an [[Epstein-Glaser renormalization|Epstein-Glaser ("re"-)normalization]] (prop. \ref{RenormalizationIsInductivelyExtensionToDiagonal}) of [[time-ordered products]] $\{T_k\}_{k \in \mathbb{N}}$ as [[extensions of distributions]] of the $T_k$, regarded as distributions via remark \ref{TimeOrderedProductOfFixedInteraction}, by the choice $q_k^\alpha = 0$ in (eq:ExtensionOfDitstributionsPointFixedAndChoice).
 
-By the proof of prop. \ref{SpaceOfPointExtensions}, the extension of the time-ordered products after the $p_\rho$-projections is unique, so that we may write the actual S-matrix as a limit as follows:
+By the proof of prop. \ref{SpaceOfPointExtensions} and the 
+assumption that [[degree of divergence of a distribution|degree of divergence]] of the regularized 
+Feynman propagator $\Delta_{F,\Lambda}$ is bounded by that of $\Delta_F$ (def. \ref{CutoffsUVForPerturbativeQFT}), the extension of the effective time-ordered products after the $p_\rho$-projections is unique, so that we may write the actual S-matrix as a limit as follows:
 
 $$
   \label{RenormalizedSMatrixAsLimitOfEffectiveSMatricesEvaluatedOnProjection}
@@ -2206,13 +2210,13 @@ $$
   \left\langle
     T_{k,\Lambda} \,,\, p_{\rho_k} ( \underset{k \, \text{factors}}{\underbrace{O \otimes \cdots \otimes O} })
   \right\rangle
-  \,,
+  \,.
 $$
 
-where $\left\langle T_{k,\Lambda} \,,\, (-)\right\rangle$ denotes the effective time-ordered product at cutoff scale $\Lambda$ as in def. \ref{SMatrixEffective},
+Here $\left\langle T_{k,\Lambda} \,,\, (-)\right\rangle$ denotes the effective time-ordered product at cutoff scale $\Lambda$ as in def. \ref{SMatrixEffective},
 written as an evaluation of distributions (in this case [[non-singular distributions]]) on test functions, according to remark \ref{TimeOrderedProductOfFixedInteraction}.
 
-Hence it is sufficient to find $\mathcal{Z}_\Lambda$ and $K_{n+1,\Lambda}$ such that for all $k \in \mathbb{N}$ we have
+Hence it is sufficient to find $\mathcal{Z}_\Lambda$ and $K_{k,\Lambda}$ such that for all $k \in \mathbb{N}$ we have
 
 $$
   \label{CountertermsAndCorrectionTerm}
@@ -2239,8 +2243,8 @@ subject to these two conditions:
 
 1. $\underset{\Lambda \to \infty}{\lim} K_{\Lambda,k} = 0$.
 
-Here $\left(T_{\Lambda} \circ \mathcal{Z}_{\Lambda}\right)_{k+1}$  denotes
-the $(k+1)$-ary coefficient of the [[composition]] $\mathcal{S}_\Lambda \circ \mathcal{Z}_\Lambda$, as in
+Here $\left(T_{\Lambda} \circ \mathcal{Z}_{\Lambda}\right)_{k}$  denotes
+the $k$-ary coefficient of the [[composition]] $\mathcal{S}_\Lambda \circ \mathcal{Z}_\Lambda$, as in
 equation (eq:MainTheoremPerturbativeRenormalizationInductionStep) in the proof of the [[main theorem of perturbative renormalization]] (prop. \ref{AnyTwoSMatrixRenormalizationSchemesDifferByAUniqueVertexRedefinition}).
 
 Further proceeding as in [that proof](#AnyTwoSMatrixRenormalizationSchemesDifferByAUniqueVertexRedefinition), by [[induction]] over the arity of the time-ordered products, assume for $n \in \mathbb{N}$ that $\{Z_{k}\}_{k \leq n}$ has
@@ -2257,7 +2261,7 @@ $$
   \,.
 $$
 
-By expanding out the left hand side of (eq:CountertermsAndCorrectionTerm) as
+Now by expanding out the left hand side of (eq:CountertermsAndCorrectionTerm) as
 
 $$
   (T_\Lambda \circ \mathcal{Z}_\Lambda)_{n+1}
@@ -2367,7 +2371,7 @@ $$
 
 By definition $p_{\rho_{n+1}} - id$ is the identity on test functions (adiabatic switchings) that vanish at the diagonal. This means that $Z_{n+1,\Lambda}$ is [[support of a distribution|supported]] on the diagonal, and is hence local.
 
-Finally we need to show that $\underset{\Lambda \to \infty}{\lim} K_{n+1,\Lambda} = 0$:
+Second we need to show that $\underset{\Lambda \to \infty}{\lim} K_{n+1,\Lambda} = 0$:
 
 Since both terms in $K_{n+1,\lambda}$ are evaluations against the image of $p_{\rho_{n+1}}$, which vanishes on the diagonal,
 we may consider the distributions $(T_\Lambda \circ \mathcal{Z}_{\leq n, \Lambda})_{n+1}$ and $T_{n+1,\Lambda}$
@@ -2378,7 +2382,7 @@ in analogy with the genuine time-ordered products in (eq:TimeOrderedProductsAway
 $$
   \label{InductionStepForCounterterms}
   \begin{aligned}
-  & 
+  &
   \left\langle
     (T_\Lambda \circ \mathcal{Z}_{\leq n, \Lambda})_{n+1}
     \,,\,
@@ -2601,14 +2605,14 @@ $\,$
 We have seen [above](#UVRegularizationViaZ) that a choice of [[UV cutoff]] induces [[effective S-matrix schemes]] $\mathcal{S}_\Lambda$
 at cutoff scale $\Lambda$ (def. \ref{SMatrixEffective}). To these one may associated non-local [[relative effective actions]]
 $S_{eff,\Lambda}$ (def. \ref{EffectiveActionRelative} below) which are such that their effective [[scattering amplitudes]]
-at scale $\Lambda$ coincide with the true scattering amplitudes of a genuine [[local observable|local]] interaction 
+at scale $\Lambda$ coincide with the true scattering amplitudes of a genuine [[local observable|local]] interaction
 as the cutoff is removed. This is the Wilsonian picture of _[[effective quantum field theory]]_ at a given cutoff scale (remark \ref{pQFTEffective} below). Crucially the "flow" of the [[relative effective actions]] with the cutoff scale satisfies
-a [[differential equation]] that in itself is independent of the full UV-theory; this is 
+a [[differential equation]] that in itself is independent of the full UV-theory; this is
 _[[Polchinski's flow equation]]_ (prop. \ref{FlowEquationPolchinski} below). Solving this equation for given choice
 of initial value data is hence another way of choosing [[renormalization|("re"-)normalization]] constants.
 
 $\,$
- 
+
 
 +-- {: .num_prop #EffectiveSmatrixSchemeInvertible}
 ###### Proposition
