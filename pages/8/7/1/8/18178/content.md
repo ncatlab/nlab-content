@@ -22,7 +22,7 @@ In the context of [[quantum mechanics]], the **collapse of the wave function**, 
 ## Relation to conditional expectation values
  {#RelationToConditionalExpectationValues}
 
-There is a close relation between wave function collapse and [[conditional expectation values]] in [[quantum probability]] ([Yuan 12](#Yuan12)):
+There is a close relation between wave function collapse and [[conditional expectation values]] in [[quantum probability]] (e.g. [Kuperberg 05, section 1.2](#Kuperberg05), [Yuan 12](#Yuan12)):
 
 Let $(\mathcal{A},\langle -\rangle)$ be a [[quantum probability space]], hence a [[complex numbers|complex]] [[star algebra]] $\mathcal{A}$ of [[quantum observables]], and a [[state on a star-algebra]] $\langle -\rangle \;\colon\; \mathcal{A} \to \mathbb{C}$.
 
@@ -119,9 +119,14 @@ This is the statement of "wave function collapse". The original [[wave function]
 
 ## References
 
-* {#Yuan12} [[Qiaochu Yuan]], _[Finite noncommutative probability, the Born rule, and wave function collapse](https://qchu.wordpress.com/2012/09/09/finite-noncommutative-probability-the-born-rule-and-wave-function-collapse/)_, 2012
+Discussion from the point of view of [[quantum probability]] includes
+
+* {#Kuperberg05} [[Greg Kuperberg]], _A concise introduction to quantum probability, quantum mechanics, and quantum computation_, 2005 ([pdf](http://www.math.ucdavis.edu/~greg/intro-2005.pdf))
 
 * {#RedeiSummers06} Miklos Redei, Stephen J. Summers, _Quantum Probability Theory_ ([arXiv:quant-ph/0601158](https://arxiv.org/abs/quant-ph/0601158))
+
+* {#Yuan12} [[Qiaochu Yuan]], _[Finite noncommutative probability, the Born rule, and wave function collapse](https://qchu.wordpress.com/2012/09/09/finite-noncommutative-probability-the-born-rule-and-wave-function-collapse/)_, 2012
+
 
 See also 
 
