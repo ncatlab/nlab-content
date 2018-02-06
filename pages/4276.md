@@ -36,7 +36,7 @@
 
 * [[algebraic deformation quantization]], [[star algebra]]
 
-**[[quantum mechanical system]]** 
+**[[quantum mechanical system]]**, **[[quantum probability]]**
 
 * [[subsystem]]
 
@@ -64,9 +64,15 @@
 
   * [[conformal net]]
 
-* [[state on a star-algebra]], [[quantum probability]]
+* [[state on a star-algebra]], [[expectation value]]
 
-  * [[pure state]], [[mixed state]], [[density matrix]]
+  * [[pure state]]
+
+    [[wave function]]
+
+    [[collapse of the wave function]]/[[conditional expectation value]]
+
+  * [[mixed state]], [[density matrix]]
 
   * [[space of quantum states]]
 
