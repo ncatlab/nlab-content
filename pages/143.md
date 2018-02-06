@@ -47,7 +47,7 @@ A [[presheaf]] $A \in PSh(C)$ is a **sheaf** with respect to $J$ if
 
 * for every [[covering]] family $\{p_i : U_i \to U\}_{i \in I}$ in $J$
 
-* and for every _[[matching family|compatible family]] of elements_ given by tuples $(s_i \in A(U_i))_{i \in I}$ such that for all [[morphisms]] $U_j \stackrel{f}{\leftarrow} K \stackrel{g}{\to} U_k$ in $C$ we have $A(f)(s_j) = A(g)(s_k)$ for all $j,k \in I$
+* and for every _[[matching family|compatible family]] of elements_, given by tuples $(s_i \in A(U_i))_{i \in I}$ such that for all $j,k \in I$ and all [[morphisms]] $U_j \stackrel{f}{\leftarrow} K \stackrel{g}{\to} U_k$ in $C$ with $p_j \circ f = p_k \circ g$ we have $A(f)(s_j) = A(g)(s_k) \in A(K)$
 
 then
 
