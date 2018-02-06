@@ -35,6 +35,11 @@ For more see
 
 * {#Steinmann02} [[Othmar Steinmann]], _What is the Magnetic Moment of the Electron?_, Commun.Math.Phys. 237 (2003) 181-201 ([arXiv:hep-ph/0211187](https://arxiv.org/abs/hep-ph/0211187))
 
+Discussion in [[supergravity]]:
+
+* F. del Aguila, A. Culatti, R. Munoz-Tapia, M. Perez-Victoria, _Supergravity corrections to $(g-2)_l$ in differential renormalization_, Nuclear Physics  B  504  (1997)  532-550 ([arXiv:hep-ph/9702342](https://arxiv.org/abs/hep-ph/9702342))
+
+
 See also
 
 * Wikipedia, _[Anomalous magnetic dipole moment](https://en.wikipedia.org/wiki/Anomalous_magnetic_dipole_moment)_
