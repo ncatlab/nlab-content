@@ -3,7 +3,7 @@
 ###### Example
 **([[Feynman amplitudes]] in [[causal perturbation theory]] -- example of [[QED]])**
 
-In [[perturbative quantum field theory]], **[[Feynman diagrams]]** are labeled [[multigraphs]] that encode [[product of distributions|products of]] [[Feynman propagators]], called _[[Feynman amplitudes]]_ ([this prop.](S-matrix#FeynmanPerturbationSeriesAwayFromCoincidingPoints)) which in turn contribute to [[probability amplitudes]] for physical scattering processes:  
+In [[perturbative quantum field theory]], **[[Feynman diagrams]]** are labeled [[multigraphs]] that encode [[product of distributions|products of]] [[Feynman propagators]], called _[[Feynman amplitudes]]_ ([this prop.](S-matrix#FeynmanPerturbationSeriesAwayFromCoincidingPoints)) which in turn contribute to [[probability amplitudes]] for physical [[scattering]] processes -- [[scattering amplitudes]]:  
 
 The [[Feynman amplitudes]] are the summands in the [[Feynman perturbation series]]-expansion of the _[[scattering matrix]]_ 
 
