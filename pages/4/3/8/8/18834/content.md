@@ -1379,7 +1379,7 @@ $$
 
 should perturbatively send [[local observables|local]] interactions to local interactions with higher order corrections.
 
-The _[[main theorem of perturbative renormalization]]_ (prop. \ref{AnyTwoSMatrixRenormalizationSchemesDifferByAUniqueVertexRedefinition} below)
+The _[[main theorem of perturbative renormalization]]_ (theorem \ref{PerturbativeRenormalizationMainTheorem} below)
 says that indeed under mild conditions every re-normalization $\mathcal{S} \mapsto \mathcal{S}'$ is induced by such an [[interaction vertex redefinition]] in that
 there exists a _unique_ such redefinition $\mathcal{Z}$ so that for every local interaction $g S_{int} +  j A$ we have
 that [[scattering amplitudes]] for the interaction $g S_{int} + j A$ computed with the [[renormalization scheme|("re"-)normalization scheme]]
@@ -1401,7 +1401,7 @@ $$
 This means that the [[interaction vertex redefinitions]] $\mathcal{Z}$ form a [[group]] under [[composition]]
 which [[action|acts]] [[transitive action|transitively]] and [[free action|freely]], hence [[regular action|regularly]], on the
 set of [[S-matrix]] [[renormalization schemes|("re"-)normalization schemes]];
-this is called the _[[Stückelberg-Petermann renormalization group]]_ (def. \ref{StueckelbergPetermannRenormalizationGroup} below).
+this is called the _[[Stückelberg-Petermann renormalization group]]_ (theorem \ref{PerturbativeRenormalizationMainTheorem} below).
 
 
 
@@ -1781,8 +1781,6 @@ $$
 
 =--
 
-This statement is also known as the _[[main theorem of perturbative renormalization]]_.
-
 
 +-- {: .proof}
 ###### Proof
@@ -1911,37 +1909,49 @@ By prop. \ref{RenormalizationIsInductivelyExtensionToDiagonal} this implies that
 
 =--
 
-+-- {: .num_defn #StueckelbergPetermannRenormalizationGroup}
-###### Definition
-**([[Stückelberg-Petermann renormalization group]] of [[vertex redefinitions]])**
+In conclusion this establishes the following pivotal statement of [[perturbative quantum field theory]]:
+
++-- {: .num_theorem #PerturbativeRenormalizationMainTheorem}
+###### Theorem
+**([[main theorem of perturbative renormalization]] -- [[Stückelberg-Petermann renormalization group]] of [[vertex redefinitions]])**
 
 Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H)$ be a [[gauge fixing|gauge fixed]] [[free field theory|free field]] [[vacuum]] (def. \ref{VacuumFree}).
-
-Then prop. \ref{CausalFactorizationSatisfiedByCompositionOfSMatrixWithVertexRedefinition} and prop \ref{AnyTwoSMatrixRenormalizationSchemesDifferByAUniqueVertexRedefinition} together says that ("[[main theorem of perturbative renormalization]]"):
 
 1. the [[vertex redefinitions]] $\mathcal{Z}$ (def. \ref{InteractionVertexRedefinition}) form a [[group]] under [[composition]];
 
 1. the set of [[S-matrix]] [[renormalization schemes|("re"-)normalization schemes]] (def. \ref{LagrangianFieldTheoryPerturbativeScattering}), remark \ref{calSFunctionIsRenormalizationScheme}) satisfying the [[renormalization condition]] "field independence" (prop. \ref{BasicConditionsRenormalization}) is a [[torsor]] over this group,
-hence on this set the action is a [[regular action]] in that any two [[S-matrix]] [[renormalization scheme|("re"-)normalization schemes]]
-   $\mathcal{S}$, $\mathcal{S}'$  are related by a _unique_ vertex redefinition $\mathcal{Z}$ via
+hence equipped with a [[regular action]] in that
 
-   $$
-     \mathcal{S}' \;=\; \mathcal{S} \circ \mathcal{Z}
-     \,.
-   $$
+   1. the set of [[S-matrix schemes]] is [[inhabited set|non-empty]];
 
-This group is called the (large) _[[Stückelberg-Petermann renormalization group]]_.
+   1. any two [[S-matrix]] [[renormalization scheme|("re"-)normalization schemes]] $\mathcal{S}$, $\mathcal{S}'$  are related by a _unique_
+      [[vertex redefinition]] $\mathcal{Z}$ via [[composition]]:
+
+      $$
+        \mathcal{S}' \;=\; \mathcal{S} \circ \mathcal{Z}
+        \,.
+      $$
+
+This group is called the _[[Stückelberg-Petermann renormalization group]]_.
 
 Typically one imposes a set of [[renormalization conditions]] (def. \ref{RenormalizationConditions})
-and then the corresponding [[subgroup]] of [[vertex redefinitions]] preserving these.
+and considers the corresponding [[subgroup]] of [[vertex redefinitions]] preserving these conditions.
 
 =--
 
++-- {: .proof}
+###### Proof
+
+The [[group]]-[[structure]] and [[regular action]] is given by  prop. \ref{CausalFactorizationSatisfiedByCompositionOfSMatrixWithVertexRedefinition} and prop. \ref{AnyTwoSMatrixRenormalizationSchemesDifferByAUniqueVertexRedefinition}.
+The existence of S-matrices follows is the statement of [[Epstein-Glaser renormalization|Epstein-Glaser ("re"-)normalization]]
+in theorem \ref{ExistenceRenormalization}.
+
+=--
 
 $\,$
 
 
-**[[UV-Regularization via Conterterms]]**
+**[[UV-regularization|UV-Regularization]] via [[counterterms]]**
  {#UVRegularizationViaZ}
 
 While [[Epstein-Glaser renormalization]] (prop. \ref{RenormalizationIsInductivelyExtensionToDiagonal})
