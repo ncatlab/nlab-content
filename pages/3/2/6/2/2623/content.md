@@ -2164,7 +2164,7 @@ by definition of [[UV cutoff]].
 Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$
 be a [[gauge fixing|gauge fixed]] [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] (according to [this def.](S-matrix#VacuumFree)) and let $g S_{int} + j A \in LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]\langle g,j\rangle$ a polynomial [[local observable]], regarded as an [[adiabatic switching|adiabatically switched]] [[interaction]] [[action functional]].
 
-Let moreover $\{\Delta_{F,\Lambda}\}_{\Lambda \in [0,\infty)}$ be a [[UV cutoff]]; with $\mathcal{S}_\Lambda$ the induced [[effective S-matrix schemes]] ([this def.](effective+quantum+field+theory#EffectiveSMatrixScheme)).
+Let moreover $\{\Delta_{F,\Lambda}\}_{\Lambda \in [0,\infty)}$ be a [[UV cutoff]] (def. \ref{CutoffsUVForPerturbativeQFT}); with $\mathcal{S}_\Lambda$ the induced [[effective S-matrix schemes]] (eq:EffectiveSMatrixScheme).
 
 
 Then
@@ -2194,9 +2194,9 @@ This was claimed in ([Brunetti-Dütsch-Fredenhagen 09, (75)](#BrunettiDuetschFre
 +-- {: .proof}
 ###### Proof
 
-Let $\{p_{\rho_{n+1}}\}_{k \in \mathbb{N}}$ be a sequence of projection maps as in (eq:ForExtensionOfDistributionsProjectionMaps) defining an [[Epstein-Glaser renormalization|Epstein-Glaser ("re"-)normalization]] (prop. \ref{RenormalizationIsInductivelyExtensionToDiagonal}) of [[time-ordered products]] $\{T_k\}_{k \in \mathbb{N}}$ as [[extensions of distributions]] of the $T_k$, regarded as distributions via remark \ref{TimeOrderedProductOfFixedInteraction}, by the choice $q_k^\alpha = 0$ in (eq:ExtensionOfDitstributionsPointFixedAndChoice).
+Let $\{p_{\rho_{k}}\}_{k \in \mathbb{N}}$ be a sequence of projection maps as in (eq:ForExtensionOfDistributionsProjectionMaps) defining an [[Epstein-Glaser renormalization|Epstein-Glaser ("re"-)normalization]] (prop. \ref{RenormalizationIsInductivelyExtensionToDiagonal}) of [[time-ordered products]] $\{T_k\}_{k \in \mathbb{N}}$ as [[extensions of distributions]] of the $T_k$, regarded as distributions via remark \ref{TimeOrderedProductOfFixedInteraction}, by the choice $q_k^\alpha = 0$ in (eq:ExtensionOfDitstributionsPointFixedAndChoice).
 
-We will construct that $\mathcal{Z}_\Lambda$ in terms of these projections $p_\rho$.
+We will construct $\mathcal{Z}_\Lambda$ in terms of these projections $p_\rho$.
 
 First consider some convenient shorthand:
 
