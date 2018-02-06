@@ -1,7 +1,7 @@
 ## Lagrangians
   {#Lagrangians}
 
-In this chapter we discuss these topics:
+In this chapter we discuss the following topics:
 
 * _[Lagrangian densities](#LagrangianDensities)_
 
@@ -632,8 +632,9 @@ and $\Psi$ a field history of the [[Dirac field]].
 On the resulting [[jet bundle]] consider the [[Lagrangian density]]
 
 $$
+  \label{ElectronPhotonInteractionLocalLagrangian}
   L_{int}
-    \;\colon\;
+    \;\coloneqq\;
   i g \, \overline{\psi} \gamma^\mu \psi a_\mu
 $$
 
