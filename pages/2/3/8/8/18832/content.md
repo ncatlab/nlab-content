@@ -1,4 +1,3 @@
-[[!redirects A first idea of quantum field theory -- Quantum observables]]
 
 ## Interacting quantum fields
  {#QuantumObservables}
@@ -1720,9 +1719,8 @@ so that the above expression happens to be well defined and does solve the axiom
 Hence what needs to be done to properly define the [[time-ordered product]] is to choose an [[extension of distributions]] of the above product expression back from the complement of the diagonal to the whole space of [[tuples]] of points. Any such extension will produce time-ordered products.
 
 There are in general several different such [[extension of distributions|extensions]]. This freedom of choice is the freedom
-of _[[renormalization|"re-"normalization]]_; or equivalently, by the [[main theorem of perturbative renormalization theory]] (theorem \ref{PerturbativeRenormalizationMainTheorem}),
-this is the freedom of choosing "counter terms" for the [[local observable|local]] [[interactions]]. This we discuss below in
-_[Feynman diagrams and (re-)normalization](#ExistenceAndRenormalization)_.
+of _[[renormalization|"re-"normalization]]_; or equivalently, by the [[main theorem of perturbative renormalization theory]] (theorem \ref{PerturbativeRenormalizationMainTheorem} below),
+this is the freedom of choosing "[[counterterms]]" (remark \ref{TermCounter} below) for the [[local observable|local]] [[interactions]]. This we discuss [below](#ExistenceAndRenormalization) and in more detail in the [next chapter](#Renormalization).
 
 
 =--
@@ -1809,7 +1807,7 @@ are respected by the [[quantization]] process (there may be "[[quantum anomalies
 The extra condition that does ensure this is the _[[quantum master Ward identity]]_ or _[[quantum master equation]]_.
 This we discuss elsewhere.
 
-Apart from [[gauge symmetries]] one also wants to require that rigid symmetries  are preserved by the S-matrix, notably [[Poincare group]]-symmetry for scattering on [[Minkowski spacetime]]. This extra axiom is needed to imply the _[[main theorem of perturbative renormalization]]_ (theorem \ref{PerturbativeRenormalizationMainTheorem}).
+Apart from [[gauge symmetries]] one also wants to require that rigid symmetries  are preserved by the S-matrix, notably [[Poincare group]]-symmetry for scattering on [[Minkowski spacetime]]. 
 
 =--
 
@@ -4392,40 +4390,11 @@ is shown in ([Duetsch 18, section 4.2.2](S-matrix#Duetsch18)).
 
 =--
 
-+-- {: .num_theorem #PerturbativeRenormalizationMainTheorem}
-###### Theorem
-**([[main theorem of perturbative renormalization]])**
+$\,$
 
-Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}.
+We discuss methods for [[renormalization|normalization]] (prop. \ref{RenormalizationIsInductivelyExtensionToDiagonal})
+and [[renormalization|re-normalization]] in detail in the [next chapter](#Renormalization).
 
-1. An [[S-matrix]] [[renormalization scheme]] (def. \ref{LagrangianFieldTheoryPerturbativeScattering}) around this free vacuum,
-   satisfying the [[renormalization conditions]] (def. \ref{RenormalizationConditions}) "field independence" (prop. \ref{BasicConditionsRenormalization}),
-   exists, and its construction by choices of [[renormalization|("re"-)normalization]] of [[time-ordered products]] $\{T_k\}_{k \in \mathbb{N}}$ according to def. \ref{ExtensionOfTimeOrderedProoductsRenormalization} involves precisely a [[finite-dimensional vector space]] of choices ("renormalization constants") at each order $k \in \mathbb{N}$.
-
-1. Every [[pair]] $\mathcal{S}$, $\widetilde{\mathcal{S}}$ of such choices is related by a unique _[[interaction vertex redefinition]]_
-
-   $$
-     \mathcal{Z}
-     \;\colon\;
-     LocObs(E_{\text{BV-BRST}})[ [ \hbar, g ] ]
-       \longrightarrow
-     LocObs(E_{\text{BV-BRST}})[ [ \hbar, h ] ]
-   $$
-
-   via [[precomposition]]
-
-   $$
-     \widetilde{\mathcal{S}} \;=\; \mathcal{S} \circ Z
-     \,.
-   $$
-
-1. The [[group]] of transformations $\mathcal{Z}$ arising this way is the _[[Stückelberg-Petermann renormalization group]]_.
-
-=--
-
-In summary this says that for each free field vacuum, the space of [[renormalization schemes]] for [[perturbative QFT]] around this vacuum is non-empty and is canonically a [[torsor]] over the [[Stückelberg-Petermann renormalization group]].
-
-Notice that the [[Stückelberg-Petermann renormalization group]] involves neither [[scaling transformations]] as in [[Gell-Mann-Low renormalization cocycles]], nor cutoffs as in Wilsonian [[effective field theory]]. But these alternative perspectives may be extracted as specia cases ([Brunetti-Dütsch-Fredenhagen 09](renormalization+group#BrunettiDuetschFredenhagen09)).
 
 $\,$
 
@@ -5166,8 +5135,190 @@ are called the _[[Feynman amplitude]] associated with these [[Feynman diagrams]]
 
 =--
 
++-- {: .num_example #FeynmanAmplitudesInCausalPerturbationTheoryExampleOfQED}
+###### Example
+**([[Feynman amplitudes]] in [[causal perturbation theory]] -- example of [[QED]])**
 
-[[!include Feynman diagrams in causal perturbation theory -- summary]]
+To recall, in [[perturbative quantum field theory]], [[Feynman diagrams]] (def. \ref{FeynmanDiagram}) are labeled [[finite multigraphs]] (def. \ref{Graphs}) that encode [[product of distributions|products of]] [[Feynman propagators]], called _[[Feynman amplitudes]]_ (prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints}) which in turn contribute to [[probability amplitudes]] for physical [[scattering]] processes -- _[[scattering amplitudes]]_ (example \ref{ScatteringAmplitudeFromInteractingFieldObservables}):
+
+The [[Feynman amplitudes]] are the summands in the [[Feynman perturbation series]]-expansion (example \ref{FeynmanPerturbationSeries}) of the _[[scattering matrix]]_ (def. \ref{LagrangianFieldTheoryPerturbativeScattering})
+
+$$
+  \mathcal{S}
+  \left(
+    S_{int}
+  \right)
+  =
+  \underset{k \in \mathbb{N}}{\sum}
+  \frac{1}{k!}
+  \frac{1}{(i \hbar)^k}
+  T( \underset{k \, \text{factors}}{\underbrace{S_{int}, \cdots , S_{int}}} )
+$$
+
+of a given [[interaction]] [[Lagrangian density]] $L_{int}$ (def. \ref{LocalLagrangianDensityOnSecondOrderJetBundleOfTrivialVectorBundleOverMinkowskiSpacetime}).
+
+The [[Feynman amplitudes]] are the summands in an expansion of the _[[time-ordered products]]_ $T(\cdots)$ (def. \ref{TimeOrderedProduct}) of the [[interaction]] with itself, which, away from coincident vertices, is given by the [[star product]] of the [[Feynman propagator]] $\Delta_F$ (prop. \ref{TimeOrderedProductAwayFromDiagonal}), via the [[exponential]] contraction
+
+$$
+  T(S_{int}, S_{int})
+  \;=\;
+  prod \circ \exp
+  \left(
+     \hbar
+      \int \Delta_{F}^{a b}(x,y)
+        \frac{\delta}{\delta \mathbf{\Phi}^a(x)}
+          \otimes
+        \frac{\delta}{\delta \mathbf{\Phi}(y)}
+    \right)
+    ( S_{int} \otimes S_{int} )
+   \,.
+$$
+
+Each [[edge]] in a [[Feynman diagram]] corresponds to a factor of a [[Feynman propagator]]  in $T( \underset{k \, \text{factors}}{\underbrace{S_{int} \cdots S_{int}}} )$, being a [[distribution of two variables]]; and each [[vertex]] corresponds to a factor of the [[interaction]] [[Lagrangian density]] at $x_i$.
+
+For example [[quantum electrodynamics]] (example \ref{LagrangianQED}) in [[Gaussian-averaged Lorenz gauge]] (example \ref{NLGaugeFixingOfElectromagnetism}) involves (via example \ref{FieldSpeciesQED}):
+
+1. the [[Dirac field]] modelling the [[electron]], with [[Feynman propagator]] called the _[[electron propagator]]_ (def. \ref{FeynmanPropagatorForDiracOperatorOnMinkowskiSpacetime}), here to be denoted
+
+   $$
+     \Delta \phantom{AAAA} \text{electron propagator}
+   $$
+
+1. the [[electromagnetic field]] modelling the [[photon]], with [[Feynman propagator]] called the _[[photon propagator]]_ (prop. \ref{PhotonPropagatorInGaussianAveragedLorenzGauge}), here to be denoted
+
+   $$
+     G \phantom{AAAA} \text{photon propagator}
+   $$
+
+1. the [[electron-photon interaction]] (eq:ElectronPhotonInteractionLocalLagrangian)
+
+   $$
+     L_{int}
+     \;=\;
+     \underset{
+       \text{interaction}
+     }{
+     \underbrace{
+       i g
+       (\gamma^\mu)^\alpha{}_\beta
+     }
+     }
+     \,
+     \underset{
+       { \text{incoming} \atop \text{electron}  }
+       \atop
+       \text{field}
+     }{\underbrace{\overline{\psi_\alpha}}}
+     \;
+     \underset{
+       {
+         \,
+         \atop
+         \text{photon}
+       }
+       \atop
+       \text{field}
+     }{\underbrace{a_\mu}}
+     \;
+     \underset{
+       {\text{outgoing} \atop \text{electron} }
+       \atop
+       \text{field}
+     }{\underbrace{\psi^\beta}}
+   $$
+
+The [[Feynman diagram]] for the [[electron-photon interaction]] alone is
+
+<center>
+<img src="https://ncatlab.org/nlab/files/InteractionVertexOfQED.jpg" width="150">
+</center>
+
+where the solid lines correspond to the [[electron]], and the wiggly line to the [[photon]]. The corresponding [[product of distributions]] (prop. \ref{HoermanderCriterionForProductOfDistributions}) is (written in [[generalized function]]-notation, example \ref{SomeNonSingularTemperedDistributions})
+
+$$
+  \underset{
+    \text{loop order}
+  }{
+  \underbrace{
+    \hbar^{3/2-1}
+  }
+  }
+  \underset{
+    \text{electron-photon}
+    \atop
+    \text{interaction}
+  }{
+  \underbrace{
+    i g (\gamma^\mu)^\alpha{}_\beta
+  }
+  }
+  \,.
+  \,
+  \underset{
+    {\text{incoming} \atop \text{electron}}
+    \atop
+    \text{propagator}
+  }{
+  \underbrace{
+    \overline{\Delta(-,x)}_{-, \alpha}
+  }
+  }
+  \underset{
+    {
+      \,
+      \atop
+      \text{photon}
+    }
+    \atop
+    \text{propagator}
+  }{
+  \underbrace{
+     G(x,-)_{\mu,-}
+  }
+  }
+  \underset{
+    { \text{outgoing} \atop \text{electron} }
+    \atop
+    \text{propagator}
+  }{
+  \underbrace{
+    \Delta(x,-)^{\beta, -}
+  }
+  }
+$$
+
+Hence a typical [[Feynman diagram]] in the [[QED]] [[Feynman perturbation series]] induced by this [[electron-photon interaction]] looks as follows:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/FeynmanDiagramGlobal.jpg" width="560"/>
+</center>
+
+where on the bottom the corresponding [[Feynman amplitude]] [[product of distributions]] is shown;
+now notationally suppressing the contraction of the internal indices and all prefactors.
+
+For instance the two solid [[edges]] between the [[vertices]] $x_2$ and $x_3$ correspond to the two factors of $\Delta(x_2,x_2)$:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/FeynmanDiagramComponent1.jpg" width="560"/>
+</center>
+
+This way each sub-graph encodes its corresponding subset of factors in the [[Feynman amplitude]]:
+
+<center>
+<img src="https://ncatlab.org/nlab/files/FeynmanDiagramComponentTwo.jpg" width="560"/>
+</center>
+
+<center>
+<img src="https://ncatlab.org/nlab/files/FeynmanDiagramComponentThree.jpg" width="560"/>
+</center>
+
+> graphics grabbed from  [Brouder 10](Feynman+diagram#Brouder10)
+
+A priori this [[product of distributions]] is defined away from coincident vertices: $x_i \neq x_j$ (prop. \ref{TimeOrderedProductAwayFromDiagonal} below). The definition at coincident vertices $x_i = x_j$ requires a choice of _[[extension of distributions]]_ (def. \ref{ExtensionOfDistributions} below) to the [[diagonal]] locus of coincident interaction points. This choice is the _[[renormalization|("re-")normalization]]_ (def. \ref{ExtensionOfTimeOrderedProoductsRenormalization} below) of the [[Feynman amplitude]].
+
+=--
+
+
 
 
 +-- {: .num_example #FeynmanPerturbationSeries}
@@ -5216,8 +5367,7 @@ $$
   \,,
 $$
 
-
-Expressed in this form the S-matrix is known as the _[[Feynman perturbation series]]_.
+Expressed in this form the [[S-matrix]] is known as the _[[Feynman perturbation series]]_.
 
 =--
 
@@ -5553,6 +5703,7 @@ and under multiplication of polynomials the zero-order terms are multiplied.
 
 
 =--
+
 The perspective of the [[effective action]] gives a transparent picture of the order of quantum effects involved in the
 [[S-matrix]], this is prop. \ref{FeynmanDiagramLoopOrder} below. In order to state this conveniently, we invoke
 two basic concepts from [[graph theory]]:
