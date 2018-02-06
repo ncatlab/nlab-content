@@ -15,6 +15,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -159,7 +160,7 @@ The axiomatization of [[probability theory]] in terms of the concept of [[expect
 
 A good exposition of quantum physics from this perspective is in
 
-* {#Gleason09} Jonathan Gleason, _The $C^*$-algebraic formalism of quantum mechanics_, 2009 ([pdf](https://ncatlab.org/davidcorfield/files/Gleason09.pdf))
+* {#Gleason09} Jonathan Gleason, _The $C^*$-algebraic formalism of quantum mechanics_, 2009 ([[Gleason09.pdf:file]])
 
 Further introduction to quantum probability theory includes
 
