@@ -805,9 +805,9 @@ KK-theory is naturally understood in terms of [[universal properties]] in [[cate
 
 That $KK(A,B)$ is naturally thought of as a collection of "generalized [[homomorphisms]]" of $C^\ast$-algebras was amplified in 
 
-* [[Joachim Cuntz]], _Generalized Homomorphisms Between $C^\ast$-algebras and KK-theory_, Springer Lecture Notes in Mathematics, 1031 (1983), 31-45.
+* [[Joachim Cuntz]], _Generalized Homomorphisms Between $C^\ast$-algebras and KK-theory,_ Springer Lecture Notes in Mathematics, 1031 (1983), 31-45. doi:[10.1007/BFb0072109](https://doi.org/10.1007/BFb0072109)
 
-* [[Joachim Cuntz]], _K-theory and C*-algebras_, Springer Lecture Notes in Mathematics, 1046 (1984), 55-79.
+* [[Joachim Cuntz]], _K-theory and C*-algebras,_ Springer Lecture Notes in Mathematics, 1046 (1984), 55-79.
 
 That under the Kasparov product these are indeed the [[hom-objects]] in a [[category]] was first observed in 
 
