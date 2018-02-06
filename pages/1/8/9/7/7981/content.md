@@ -58,6 +58,9 @@ On the other hand, if $A$ is the algebra of all [[bounded operators]] on some [[
 
 In any case, a pure state is a state of maximal information, while a mixed state is a state with less than maximal information.  In the classical case, we may say that a pure state is a state of *complete* information, but this does not work in the quantum case; from the perspective of the information-theoretic or Bayesian interpretation of quantum physics, this inability to have complete information, even when having maximal information, is the key feature of [[quantum physics]] that distinguishes it from [[classical physics]].
 
+## Related concepts
+
+* [[wave function]], [[collapse of the wave function]]
 
 ## References
 
