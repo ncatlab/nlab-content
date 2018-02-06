@@ -24,7 +24,7 @@
 In [[probability theory]],
 the concept of _noncommutative probability space_ or _quantum probability space_ is the generalization of that of _[[probability space]]_ as the concept of "space" is generalized to [[non-commutative geometry]].
 
-The basic idea is to encode a would-be [[probability space]] dually in its [[algebra of functions]] $\mathcal{A}$, typically regarded as a [[star algebra]], and encode the [[probability measure]] as a [[state on a star-algebra|state on this star algebra]] 
+The basic idea is to encode a would-be [[probability space]] [[Isbell duality|dually]] in its [[algebra of functions]] $\mathcal{A}$, typically regarded as a [[star algebra]], and encode the [[probability measure]] as a [[state on a star-algebra|state on this star algebra]] 
 
 $$
   \langle
@@ -43,6 +43,11 @@ Often $\mathcal{A}$ is assumed/required to be a [[von Neumann algebra]] (e.g. [K
 
 In [[quantum physics]], $\mathcal{A}$ is an [[algebra of observables]] (or a [[local net of observables|local net]] thereof) and $\langle (-)\rangle$ is a particular [[quantum state]], for instance a [[vacuum state]].
 
+The formulation of [[non-perturbative quantum field theory]] from the algebraic perspective of quantum probability is known as _[[algebraic quantum field theory]]_ ([[AQFT]]).
+
+The formulation of [[perturbative quantum field theory]] from the algebraic perspective of quantum probability is known as _[[perturbative algebraic quantum field theory]]_ ([[pAQFT]]).
+
+
 ## Related concepts
 
 * [[probability amplitude]]
@@ -59,10 +64,11 @@ The axiomatization of [[probability theory]] in terms of the concept of [[expect
 
 * {#Whittle92} [[Peter Whittle]], _Probability via expectation_, Springer 1992
 
+A good exposition of quantum physics from this perspective is in
+
 * {#Gleason09} Jonathan Gleason, _The $C^*$-algebraic formalism of quantum mechanics_, 2009 ([pdf](http://www.math.uchicago.edu/~may/VIGRE/VIGRE2009/REUPapers/Gleason.pdf))
 
-
-Introduction to quantum probability theory includes
+Further introduction to quantum probability theory includes
 
 * {#Kuperberg05} [[Greg Kuperberg]], _A concise introduction to quantum probability, quantum mechanics, and quantum computation_, 2005 ([pdf](http://www.math.ucdavis.edu/~greg/intro-2005.pdf))
 
@@ -70,8 +76,11 @@ Introduction to quantum probability theory includes
 
 * {#Attal} S. Attal, _Quantum probability_ ([pdf](http://math.univ-lyon1.fr/~attal/Quantum_Probability.pdf))
 
-
 * {#Yuan12} [[Qiaochu Yuan]], _[Noncommutative probability](https://qchu.wordpress.com/2012/08/18/noncommutative-probability/)_, 2012
+
+A textbook account is 
+
+* {#Landsman17} [[Klaas Landsman]], _Foundations of quantum theory -- From classical concepts to Operator algebras_, Springer Open 2017 ([pdf](https://link.springer.com/content/pdf/10.1007%2F978-3-319-51777-3.pdf))
 
 [[!redirects quantum probability theory]]
 
