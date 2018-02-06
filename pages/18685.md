@@ -11,8 +11,17 @@
 =--
 
 
-The _muon_ is one of the fundamental [[particles]]/[[matter]] [[field (physics)|fields]] in the [[standard model of particle physics]].
+#Contents#
+* table of contents
+{:toc}
 
+## Idea
+
+The _muon_ is one of the fundamental [[particles]]/[[matter]] [[field (physics)|fields]] in the [[standard model of particle physics]], one of the [[leptons]].
+
+## Properties
+
+* [[anomalous magnetic moment]]
 
 
 ## References
