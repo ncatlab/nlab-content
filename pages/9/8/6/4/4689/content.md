@@ -81,13 +81,26 @@ The problem with discriminating between all these proposals is the combination o
 
 As a result, the field of fundamental physics today finds itself in a somewhat awkward position where the need for theoretical progress concerning quantum gravity for conceptual reasons is widely appreciated, but where disagreements about the viability of various proposals finds no conclusive resolution and divides the community. 
  
-## Examples
+## Effects
+
+### Correction to anomalous magnetic moment of the leptons
+ {#CorrectionToAnomalousMagneticMomentOfTheLeptons}
+
+The corrections of [[loop order|1-loop]] [[perturbative QFT|perturbative]] quantum gravity to the [[anomalous magnetic moment]] of the [[electron]] and the [[muon]] have been computed in ([Berends-Gastman 75](#BerendsGastman75)) and found to be finite, without need for [[renormalization]]. These [[Feynman diagrams]] contribute:
+
+<img src="https://www.physicsforums.com/attachments/gravityvertexcorrectionsforqed-png.219804/">
+
+
+## Special cases
 
 * [[2d quantum gravity]]
 
 * [[3d quantum gravity]]
 
+
 ## Related concepts
+
+
 
 * [[asymptotic safety]]
 
@@ -146,7 +159,15 @@ and with applications to [[cosmology]] in
 
 * {#BFHPR16} [[Romeo Brunetti]], [[Klaus Fredenhagen]], Thomas-Paul Hack, Nicola Pinamonti, [[Katarzyna Rejzner]], _Cosmological perturbation theory and quantum gravity_, Journal of High Energy Physics August 2016:32 ([arXiv:1605.02573](https://arxiv.org/abs/1605.02573))
 
-For of perturbative [[supergravity]] see at 
+Corrections at [[loop order|1-loop]] from [[quantum gravity]] to the [[anomalous magnetic moment]] of the [[leptons]] are discussed in
+
+* {#BerendsGastman75} F. A. Berends, R. Gastmans, _Quantum gravity and the electron and muon anomalous magnetic moment_, Phys. Lett. B55 Issue 3 Feb 1975 311-312 ([doi:10.1016/0370-2693(75)90608-5](https://doi.org/10.1016/0370-2693(75)90608-5))
+
+and adapted to [[supergravity]] in
+
+* F. del Aguila, A. Culatti, R. Munoz-Tapia, M. Perez-Victoria, _Supergravity corrections to $(g-2)_l$ in differential renormalization_, Nuclear Physics  B  504  (1997)  532-550 ([arXiv:hep-ph/9702342](https://arxiv.org/abs/hep-ph/9702342))
+
+For more discussion of perturbative [[supergravity]] see at 
 
 * _[N=8 perturbative quantum gravity](4-dimensional+supergravity#PerturbativeQuantumSupergravityN8)_
 
