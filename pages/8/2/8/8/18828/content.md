@@ -3,6 +3,19 @@
 ## Gauge fixing
  {#GaugeFixing}
 
+In this chapter we discuss the following topics:
+
+1. _[Quasi-isomorphisms between local BV-BRST complexes](#QuasiIsomorphismsBetweenBVBRSTComplexes)_
+
+   1. [gauge fixing chain maps](#GaugeFixingChainMaps);
+
+   1. [adjoining contractible complexes of auxiliary fields](#AdjoiningAuiliaryFields)
+
+1. _[Example: gauge fixed electromagnetic field](#GaugeFixingExamples)_
+
+$\,$
+
+
 While in the [previous chapter](#ReducedPhaseSpace) we had constructed the [[reduced phase space]] of a [[Lagrangian field theory]], embodied by the [[local BV-BRST complex]] (example \ref{LocalBVBRSTComplexIsDerivedCriticalLocusOfEulerLagrangeForm}), as the [[homotopy quotient]] by the [[infinitesimal gauge symmetries]] of the [[homotopy intersection]] with the [[shell]], this in general still does not yield a [[covariant phase space]] of [[on-shell]] [[field histories]] (prop. \ref{CovariantPhaseSpace}), since [[Cauchy surfaces]] for the [[equations of motion]] may still not exist (def. \ref{CauchySurface}).
 
 However, with the [[homological resolution]] constituted by the [[BV-BRST complex]] in hand, we now have the freedom to adjust the [[field (physics)|field]]-content of the theory without changing its would-be [[reduced phase space]], namely without changing its [[BV-BRST cohomology]]. In particular we may adjoin further "[[auxiliary fields]]" in various degrees, as long as they contribute only a [[contractible chain complex|contractible cochain complex]] to the [[BV-BRST complex]]. If such a _[[quasi-isomorphism]]_ of [[BV-BRST complexes]] brings the [[Lagrangian field theory]] into a form such that the [[equations of motion]] of the combined [[field (physics)|fields]], [[ghost fields]] and potential further [[auxiliary fields]] are [[Green hyperbolic differential equations]] after all, and thus admit a [[covariant phase space]], then this is called a _[[gauge fixing]]_ (def. \ref{GaugeFixingLagrangianDensity} below), since it is the [[infinitesimal gauge symmetries]] which [[obstruction|obstruct]] the existence of [[Cauchy surfaces]] (by prop. \ref{NonTrivialImplicitInfinitesimalGaugeSymmetriesPbstructExistenceOfCauchySurfaces} and remark \ref{GaugeParametrizedInfinitesimalGaugeTransformation}).
@@ -106,17 +119,7 @@ Here:
 | "reduced" | [[gauge transformations]] have been [[homotopy quotient|homotopy-quotiented]] out |
 | "covariant" | [[Cauchy surfaces]] exist degreewise |
 
-$\,$
 
-We now discuss these topics:
-
-1. _[Quasi-isomorphisms between local BV-BRST complexes](#QuasiIsomorphismsBetweenBVBRSTComplexes)_
-
-   1. [gauge fixing chain maps](#GaugeFixingChainMaps);
-
-   1. [adjoining contractible complexes of auxiliary fields](#AdjoiningAuiliaryFields)
-
-1. _[Example: gauge fixed electromagnetic field](#GaugeFixingExamples)_
 
 
 $\,$
