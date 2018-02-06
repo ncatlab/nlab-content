@@ -70,7 +70,7 @@ Discussion in [[causal perturbation theory]]/relation to [[Epstein-Glaser renorm
 
 * [[José Gracia-Bondía]], Heidy Gutiérrez, Joseph C. Várilly, _Improved Epstein-Glaser renormalization in $x$-space versus differential renormalization_, Nuclear Physics B 886 (2014), 824-869 ([arXiv:1403.1785](https://arxiv.org/abs/1403.1785))
 
-Discussion of application to [[supergravity]]:
+Discussion of application to [[anomalous magnetic moment]] and [[supergravity]]:
 
-* F. del Aguila, A. Culatti, R. Munoz-Tapia, M. Perez-Victoria, _Supergravity corrections to $(g-2)_l$ in differential renormalization, Nuclear Physics  B  504  (1997)  532-550 ([arXiv:hep-ph/9702342](https://arxiv.org/abs/hep-ph/9702342))
+* F. del Aguila, A. Culatti, R. Munoz-Tapia, M. Perez-Victoria, _Supergravity corrections to $(g-2)_l$ in differential renormalization_, Nuclear Physics  B  504  (1997)  532-550 ([arXiv:hep-ph/9702342](https://arxiv.org/abs/hep-ph/9702342))
 
