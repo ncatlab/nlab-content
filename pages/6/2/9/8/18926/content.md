@@ -39,3 +39,6 @@ Yang-Mills theory with [[abelian group|abelian]] [[gauge group]] the [[circle gr
 * [[interaction picture]]
 
 [[!redirects interacting field theories]]
+
+[[!redirects interacting quantum field theory]]
+[[!redirects interacting quantum field theories]]
