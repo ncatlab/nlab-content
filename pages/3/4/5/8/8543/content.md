@@ -295,3 +295,7 @@ $$\overline P_t: P_s(\omega,-)\mapsto (A\mapsto\int_\Omega P_t (y,A) P_s(\omega,
 
 [[!redirects conditional probability]]
 [[!redirects conditional probabilities]]
+
+[[!redirects conditional expectation value]]
+[[!redirects conditional expectation values]]
+
