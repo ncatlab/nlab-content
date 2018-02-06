@@ -51,7 +51,7 @@ The formulation of [[perturbative quantum field theory]] from the algebraic pers
 
 ### Conditional expectation and Wave function collapse
 
-There is a close relation between [[wave function collapse]] and [[conditional expectation values]] in [[quantum probability]] ([Yuan 12](#Yuan12)):
+There is a close relation between [[wave function collapse]] and [[conditional expectation values]] in [[quantum probability]] (e.g. [Kuperberg 05, section 1.2](#Kuperberg 05), [Yuan 12](#Yuan12)):
 
 Let $(\mathcal{A},\langle -\rangle)$ be a [[quantum probability space]], hence a [[complex numbers|complex]] [[star algebra]] $\mathcal{A}$ of [[quantum observables]], and a [[state on a star-algebra]] $\langle -\rangle \;\colon\; \mathcal{A} \to \mathbb{C}$.
 
