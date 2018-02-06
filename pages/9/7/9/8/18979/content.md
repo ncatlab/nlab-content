@@ -52,7 +52,7 @@ Differential renormalization focuses on manipulating theses expressions $T_{k,R}
 
 ## References
 
-Due to
+The concept is due to
 
 * {#FreedmanJohnsonLatorre92} D. Z. Freedman, K. Johnson, J. I. Latorre, _Differential regularization and renormalization: a new method of calculation in quantum field theory_, Nucl. Phys. B 371 (1992) 353-414
 
