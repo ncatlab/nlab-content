@@ -1,3 +1,43 @@
+In conclusion this shows that a consistent choice of [[counterterms]] $\mathcal{Z}_\Lambda$ exists to produce
+_some_ S-matrix $\mathcal{S} = \underset{\Lambda \to \infty }{\lim} (\mathcal{S}_\Lambda \circ \mathcal{Z}_\Lambda)$.
+It just remains to see that for _every_ other S-matrix $\widetilde{\mathcal{S}}$ there exist counterterms
+$\widetilde{\mathcal{Z}}_\lambda$ such 
+that $\widetilde{\mathcal{S}} = \underset{\Lambda \to \infty }{\lim} (\mathcal{S}_\Lambda \circ \widetilde{\mathcal{Z}}_\Lambda)$.
 
-[[OneOfTheFew.png:file]]
+But by the [[main theorem of perturbative renormalization]] (theorem \ref{PerturbativeRenormalizationMainTheorem}) 
+we know that there exists a [[vertex redefinition]] $\mathcal{Z}$ such that 
 
+$$
+  \begin{aligned}
+    \widetilde{\mathcal{S}} 
+    & = \mathcal{S} \circ \mathcal{Z}
+    \\
+    & =
+    \underset{\Lambda \to \infty}{\lim} 
+    \left(
+      \mathcal{S}_\Lambda \circ \mathcal{Z}_\Lambda
+    \right)
+    \circ
+    \mathcal{Z}
+    \\
+    & = 
+    \underset{\Lambda \to \infty}{\lim}
+    (
+      \mathcal{S}_\Lambda 
+        \circ 
+      (
+        \underset{
+          \widetilde{\mathcal{Z}}_\Lambda
+        }{
+        \underbrace{
+        \mathcal{Z}_\Lambda
+          \circ
+        \mathcal{Z}
+        }
+        }
+      )
+    )
+  \end{aligned}  
+$$
+
+and hence counterterms for any $\widetilde{\mathcal{S}}$ are given by the composite $\widetilde{\mathcal{Z}}_\Lambda \coloneqq \mathcal{Z}_\Lambda \circ \mathcal{Z}$.
