@@ -20,7 +20,7 @@ The construction of a [[perturbative quantum field theory]] from a given [[local
 
 In [[causal perturbation theory]] the renormalization ambiguities are understood as the freedom of extending the [[time-ordered product]] of [[operator-valued distributions]] to the interaction points, in the sense of [[extension of distributions]]. The notorious "infinities that plague quantum field theory" arise only if this extension is not handled correctly and has to be fixed. Hence what historically is called "renormalization" could from a mathematical point of view just be called "normalization" (a point made vividly for instance in [[Finite Quantum Electrodynamics -- The Causal Approach|Scharf 95]], [[Quantum Gauge Theories -- A True Ghost Story|Scharf 01]]).
 
-The _[[main theorem of perturbative renormalization theory]]_ states that any two choices of such (re-)normalizations are uniquely related by a re-definition of the [[interaction]] [[Lagrangian density]] which introduces further point interactions of higher order ("counter terms"),
+The _[[main theorem of perturbative renormalization theory]]_ (theorem \ref{PerturbativeRenormalizationMainTheorem} below) states that any two choices of such (re-)normalizations are uniquely related by a re-definition of the [[interaction]] [[Lagrangian density]] which introduces further point interactions of higher order ("counter terms"),
 
 The [[extension of distributions]] of the [[time-ordered product]] may naturally be organized via [[graphs]], the _[[Feynman graphs]]_ ([Garcia-Bondia & Lazzarini 00](#GarciaBondiaLazzarini00), [Keller 10, chapter IV](#Keller10)), and hence the renormalized perturbative [[S-matrix]] defining the [[perturbative quantum field theory]] is expressed as a [[formal power series]] in renormalized [[Feynman graphs]], the _[[Feynman perturbation series]]_ ([Keller 10 (IV.12)](#Keller10)).
 
@@ -1421,7 +1421,7 @@ $$
 
 should perturbatively send [[local observables|local]] interactions to local interactions with higher order corrections.
 
-The _[[main theorem of perturbative renormalization]]_ (prop. \ref{AnyTwoSMatrixRenormalizationSchemesDifferByAUniqueVertexRedefinition} below)
+The _[[main theorem of perturbative renormalization]]_ (theorem \ref{PerturbativeRenormalizationMainTheorem} below)
 says that indeed under mild conditions every re-normalization $\mathcal{S} \mapsto \mathcal{S}'$ is induced by such an [[interaction vertex redefinition]] in that
 there exists a _unique_ such redefinition $\mathcal{Z}$ so that for every local interaction $g S_{int} +  j A$ we have
 that [[scattering amplitudes]] for the interaction $g S_{int} + j A$ computed with the [[renormalization scheme|("re"-)normalization scheme]]
@@ -2002,7 +2002,7 @@ While [[Epstein-Glaser renormalization]] (prop. \ref{RenormalizationIsInductivel
 gives a transparent picture on the space of choices in [[renormalization|("re"-)normalization]]
 (theorem \ref{ExistenceRenormalization}) the physical nature of the higher interactions that it introduces at
 coincident interaction points (via the [[extensions of distributions]] in prop. \ref{SpaceOfPointExtensions}) remains more implicit. But the
-[[main theorem of perturbative renormalization]] (prop. \ref{AnyTwoSMatrixRenormalizationSchemesDifferByAUniqueVertexRedefinition}),
+[[main theorem of perturbative renormalization]] (theorem \ref{PerturbativeRenormalizationMainTheorem}),
 which re-expresses the _difference_ between any two such choices as an [[interaction vertex redefinition]],
 suggests that already the choice of [[renormalization|("re"-)normalization]] itself should have an incarnation in terms
 of [[interaction vertex redefinitions]].
@@ -2021,7 +2021,7 @@ This perspective of [[renormalization|("re"-)normalization via]] via _[[countert
 the primary one.
 Its elegant proof in prop. \ref{UVRegularization} below, however relies on the [[Epstein-Glaser renormalization]]
 via inductive [[extensions of distributions]] and uses the same kind of argument as in the
-proof of the [[main theorem of perturbative renormalization]] (prop. \ref{AnyTwoSMatrixRenormalizationSchemesDifferByAUniqueVertexRedefinition}) that establishes the [[Stückelberg-Petermann renormalization group]].
+proof of the [[main theorem of perturbative renormalization]] (theorem \ref{PerturbativeRenormalizationMainTheorem}) that establishes the [[Stückelberg-Petermann renormalization group]].
 
 
 $\,$
@@ -2210,7 +2210,7 @@ First consider some convenient shorthand:
 For $n \in \mathbb{N}$, write $\mathcal{Z}_{\leq n} \coloneqq \underset{1 \in \{1, \cdots, n\}}{\sum} \frac{1}{n!} Z_n$.
 Moreover, for $k \in \mathbb{N}$ write $(T_\Lambda \circ \mathcal{Z}_{\leq n})_k$ for the $k$-ary coefficient in the
 expansion of the composite $\mathcal{S}_\Lambda \circ \mathcal{Z}_{\leq n}$,
-as in equation (eq:MainTheoremPerturbativeRenormalizationInductionStep) in the proof of the [[main theorem of perturbative renormalization]] (prop. \ref{AnyTwoSMatrixRenormalizationSchemesDifferByAUniqueVertexRedefinition}).
+as in equation (eq:MainTheoremPerturbativeRenormalizationInductionStep) in the proof of the [[main theorem of perturbative renormalization]] (theorem \ref{PerturbativeRenormalizationMainTheorem}).
 
 In this notation we need to find $\mathcal{Z}_\Lambda$ such that for each $n \in \mathbb{N}$ we have
 
@@ -2595,7 +2595,8 @@ Inserting this for the first summand in (eq:LocalityCorrection) shows that $\und
 
 In conclusion this shows that a consistent choice of [[counterterms]] $\mathcal{Z}_\Lambda$ exists to produce
 _some_ S-matrix $\mathcal{S} = \underset{\Lambda \to \infty }{\lim} (\mathcal{S}_\Lambda \circ \mathcal{Z}_\Lambda)$.
-It just remains to see that for _every_ other S-matrix $\widetilde{\mathcal{S}}$ there exist counterterms
+
+{#CountertermsForArbitrarySMatrixFromAnyGivenOnes} It just remains to see that for _every_ other S-matrix $\widetilde{\mathcal{S}}$ there exist counterterms
 $\widetilde{\mathcal{Z}}_\lambda$ such
 that $\widetilde{\mathcal{S}} = \underset{\Lambda \to \infty }{\lim} (\mathcal{S}_\Lambda \circ \widetilde{\mathcal{Z}}_\Lambda)$.
 
@@ -3013,7 +3014,7 @@ That this is the case is the statement of [this prop.](S-matrix#LogarithmEffecti
 
 The definition of the [[relative effective action]] $\mathcal{S}_{eff,\Lambda} \coloneqq \mathcal{S}_{eff,\Lambda, \infty}$ in def. \ref{EffectiveActionRelative}
 invokes a choice of [[UV regularization]] $\mathcal{S}_\infty$ (prop. \ref{UVRegularization}).
-While (by that proposition and the [[main theorem of perturbative renormalization]] this is guaranteed to exist,
+While (by that proposition and the [[main theorem of perturbative renormalization]] (theorem \ref{PerturbativeRenormalizationMainTheorem}) this is guaranteed to exist,
 in practice one is after methods for constructing this without specifying it a priori.
 
 But the collection [[relative effective actions]] $\mathcal{S}_{eff,\Lambda, \Lambda_0}$ for $\Lambda_0 \lt \infty$
@@ -3703,7 +3704,7 @@ $$
   \end{aligned}
 $$
 
-This demonstrates the equation between vertex redefinitions to be shown after [[composition]] with an S-matrix scheme. But by the uniqueness-clause in the [[main theorem of perturbative renormalization]] the composition operation $\mathcal{S}_{\rho_{vac}} \circ (-)$ as a function from [[vertex redefinitions]] to S-matrix schemes is [[injective function|injective]]. This implies the equation itself.
+This demonstrates the equation between vertex redefinitions to be shown after [[composition]] with an S-matrix scheme. But by the uniqueness-clause in the [[main theorem of perturbative renormalization]] (theorem \ref{PerturbativeRenormalizationMainTheorem}) the composition operation $\mathcal{S}_{\rho_{vac}} \circ (-)$ as a function from [[vertex redefinitions]] to S-matrix schemes is [[injective function|injective]]. This implies the equation itself.
 
 =--
 
