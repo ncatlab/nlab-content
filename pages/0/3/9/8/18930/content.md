@@ -46,7 +46,7 @@ Then given a right functor presentation $(R, F_0, \iota, \epsilon)$, we can defi
 
 ## In Type Theory
 
-A right functor presentation consists of exactly the data that define a [[negative type]] in type theory. The introduction rule corresponds to the introduction rule of course. The universal morphism corresponds to the (0 or more) elimination rules that are collected into $R(c,F_0 c)$. The isomorphism property corresponds to the $\beta$ and $\eta$ equalities.
+A right functor presentation consists of exactly the data that define a [[negative type]] in type theory. The introduction rule of the presentation, unsurprisingly corresponds to the introduction rule in the type theory. The universal morphism corresponds to the (0 or more) elimination rules that are collected into $R(c,F_0 c)$. Left-naturality corresponds to the definition of [[substitution]] for the introduction rule. The isomorphism property corresponds to the $\beta$ and $\eta$ equalities.
 
 This lemma is usually not explicitly invoked in initiality theorems for type theories, but gives an explanation for why the "dogma" of introduction and elimination rules is so effective in practice.
 
