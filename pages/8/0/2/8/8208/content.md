@@ -33,6 +33,12 @@ These relations are manifest in [[string theory]]-[[UV-completions]] of gravity+
 
 ## References
 
+The original article is
+
+* H. Kawai, D.C. Lewellen, S.H.H. Tye, _A Relation Between Tree Amplitudes of Closed and Open Strings_, Nucl.Phys. B269 (1986) 1-23 ([doi:10.1016/0550-3213(86)90362-7](https://doi.org/10.1016/0550-3213(86)90362-7))
+
+See also
+
 * [[Zvi Bern]], _[The KLT relations in field theory](http://relativity.livingreviews.org/open?pubNo=lrr-2002-5&page=articlesu5.html)_, Living Reviews in Relativity
 
 * [[Zvi Bern]], _Perturbative Quantum Gravity and its Relation to Gauge Theory_, LivingRev.Rel.5:5,2002 ([arXiv:gr-qc/0206071](http://arxiv.org/abs/gr-qc/0206071))
