@@ -101,14 +101,6 @@ such that:
         \Delta_{F,\Lambda}^{a b}(x)
       $$
 
-   1. (bounded [[degree of divergence of a distribution|degree of divergence]])
-
-      $$
-        deg(\Delta_{F,\Lambda})
-        \;\leq\;
-        deg(\Delta_{F})
-      $$
-
 1. the [[limit of a sequence|limit]] of the $\Delta_{F,\Lambda}$ as $\Lambda \to 0$ exists and is zero
 
    $$
@@ -196,7 +188,7 @@ by definition of [[UV cutoff]].
 Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$
 be a [[gauge fixing|gauge fixed]] [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] (according to [this def.](S-matrix#VacuumFree)) and let $g S_{int} + j A \in LocObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]\langle g,j\rangle$ a polynomial [[local observable]], regarded as an [[adiabatic switching|adiabatically switched]] [[interaction]] [[action functional]].
 
-Let moreover $\{\Delta_{F,\Lambda}\}_{\Lambda \in [0,\infty)}$ be a [[UV cutoff]]; with $\mathcal{S}_\Lambda$ the induced [[effective S-matrix schemes]] ([this def.](effective+quantum+field+theory#EffectiveSMatrixScheme)).
+Let moreover $\{\Delta_{F,\Lambda}\}_{\Lambda \in [0,\infty)}$ be a [[UV cutoff]] (def. \ref{CutoffsUVForPerturbativeQFT}); with $\mathcal{S}_\Lambda$ the induced [[effective S-matrix schemes]] (eq:EffectiveSMatrixScheme).
 
 
 Then
@@ -217,7 +209,10 @@ such that the [[limit of a sequence|limit]] of [[effective S-matrix schemes]]  $
 
 1. every [[S-matrix scheme]] around the given vacuum arises this way.
 
-Hence UV-regularization via [[counterterms]] is a method of [[renormalization|("re"-)normalization]] of [[perturbative QFT]] ([this def.](S-matrix#ExtensionOfTimeOrderedProoductsRenormalization)).
+These $\mathcal{Z}_\Lambda$ are called _[[counterterms]]_ (remark \ref{TermCounter} below) and the composite
+$\mathcal{S}_\Lambda \circ \mathcal{Z}_\Lambda$ is called a _[[UV regularization]]_ of the [[effective S-matrices]] $\mathcal{S}_\Lambda$.
+
+Hence [[UV-regularization]] via [[counterterms]] is a method of [[renormalization|("re"-)normalization]] of [[perturbative QFT]] ([this def.](S-matrix#ExtensionOfTimeOrderedProoductsRenormalization)).
 
 =--
 
@@ -226,93 +221,442 @@ This was claimed in ([Brunetti-Dütsch-Fredenhagen 09, (75)](#BrunettiDuetschFre
 +-- {: .proof}
 ###### Proof
 
-Let $\{p_{\rho_k}\}_{k \in \mathbb{N}}$ be a sequence of projection maps as in [this equation](renormalization#eq:ForExtensionOfDistributionsProjectionMaps) defining an [[Epstein-Glaser renormalization|Epstein-Glaser ("re"-)normalization]] ([this prop.](renormalization#RenormalizationIsInductivelyExtensionToDiagonal)) of [[time-ordered products]] $\{T_k\}_{k \in \mathbb{N}}$ as [[extensions of distributions]] of the $T_k$, regarded as distribution via [this remark](renormalization#TimeOrderedProductOfFixedInteraction), by the choice $q_k^\alpha = 0$ in [this equation](renormalization#eq:ExtensionOfDitstributionsPointFixedAndChoice).
+Let $\{p_{\rho_{k}}\}_{k \in \mathbb{N}}$ be a sequence of projection maps as in (eq:ForExtensionOfDistributionsProjectionMaps) defining an [[Epstein-Glaser renormalization|Epstein-Glaser ("re"-)normalization]] (prop. \ref{RenormalizationIsInductivelyExtensionToDiagonal}) of [[time-ordered products]] $\{T_k\}_{k \in \mathbb{N}}$ as [[extensions of distributions]] of the $T_k$, regarded as distributions via remark \ref{TimeOrderedProductOfFixedInteraction}, by the choice $q_k^\alpha = 0$ in (eq:ExtensionOfDitstributionsPointFixedAndChoice).
 
-By the proof of [that prop.](renormalization#SpaceOfPointExtensions) the extension of the time ordered products after the $p_\rho$-projections is unique, so that the actual S-matrix may be written as
+We will construct that $\mathcal{Z}_\Lambda$ in terms of these projections $p_\rho$.
+
+First consider some convenient shorthand:
+
+For $n \in \mathbb{N}$, write $\mathcal{Z}_{\leq n} \coloneqq \underset{1 \in \{1, \cdots, n\}}{\sum} \frac{1}{n!} Z_n$.
+Moreover, for $k \in \mathbb{N}$ write $(T_\Lambda \circ \mathcal{Z}_{\leq n})_k$ for the $k$-ary coefficient in the
+expansion of the composite $\mathcal{S}_\Lambda \circ \mathcal{Z}_{\leq n}$,
+as in equation (eq:MainTheoremPerturbativeRenormalizationInductionStep) in the proof of the [[main theorem of perturbative renormalization]] (theorem \ref{PerturbativeRenormalizationMainTheorem}).
+
+In this notation we need to find $\mathcal{Z}_\Lambda$ such that for each $n \in \mathbb{N}$ we have
 
 $$
-  \mathcal{S}(O)
-  \;=\;
+  \label{CountertermsInductionAssumption}
   \underset{\Lambda \to \infty}{\lim}
-  \underset{k}{\sum}
-  \frac{1}{k!} \frac{1}{(i \hbar)!}
-  {T_{k,\Lambda}} \circ p_{\rho_k} ( \underset{k \, \text{factors}}{\underbrace{O \otimes \cdots \otimes O} })
-$$
-
-where 
-
-$$
-  T_{k,\Lambda}(O_1, \cdots, O_k)
+  \left(
+    T_\Lambda \circ \mathcal{Z}_{\leq n, \Lambda}
+  \right)_n
   \;=\;
-  O_1 
-    \star_{F,\Lambda}
-    \cdots
-    \star_{F,\Lambda}
-  O_k
+  T_n
+  \,.
 $$
 
-is the effective time-ordered product at cutoff scale $\Lambda$ as in [this def.](renormalization#SMatrixEffective).
+We proceed by [[induction]] over $n \in \mathbb{N}$.
 
-With this it is now sufficient to find $\mathcal{Z}_\Lambda$ such that
+Since by definition $T_0 = const_1$, $T_1 = id$ and  $Z_0 = const_0$, $Z_1 = id$ the statement is trivially true for
+$n = 0$ and $n = 1$.
 
-$$
-  T_{k+1,\Lambda} \circ \mathcal{Z}_{\leq k+1, \Lambda}
-  \;=\;
-  T_{k+1, \Lambda} \circ p
-  \,,
-$$
+So assume now $n \in \mathbb{N}$ and $\{Z_{k}\}_{k \leq n}$ has
+been found such that (eq:CountertermsInductionAssumption) holds.
 
-where on the left we mean the $(k+1)$-ary coefficient of $\mathcal{S}_\Lambda \circ \mathcal{Z}_\Lambda$, in the same way as in the proof of the [[main theorem of perturbative renormalization]] ([this prop.](Stückelberg-Petermann+renormalization+group#AnyTwoSMatrixRenormalizationSchemesDifferByAUniqueVertexRedefinition)).
-
-Further proceeding as in that proof, by [[induction]] over the arity of the time-ordered products, this implies that $Z_{n+1,\Lambda}$ is fixed to be
+Observe that with the chosen renormalizing projection $p_{\rho_{n+1}}$ the time-ordered product $T_{n+1}$ may be expressed as follows:
 
 $$
-  Z_{n+1,\Lambda}
-  \;=\;
-  T_{n+1,\Lambda} \circ p 
-  -
-  T_{n+1, \Lambda} \circ \mathcal{Z}_{\leq n}
-  +
-  K_\Lambda
-$$
-
-where we need to choose $K_\Lambda$ such that
-
-1. $\underset{\Lambda \to \infty}{\lim} K_\Lambda = 0$;
-
-1. $Z_{n+1,\Lambda}$ is local.
-
-Consider
-
-$$
-  K_\Lambda
-  \;\coloneqq\;
-  T_{n+1,\Lambda} \circ \mathcal{Z}_{\leq n} \circ p
-  -
-  T_{n+1,\Lambda} \circ p
-$$
-
-In fact $K_\Lambda = 0$ independent of $\Lambda$, since $p$ projects away from the diagonal, but a vertex redefinition $\mathcal{Z}_{\leq n}$ only acts non-trivially on the diagonal, by definition.
-
-Hence we may take
-
-$$
+  \label{RenormalizedSMatrixAsLimitOfEffectiveSMatricesEvaluatedOnProjection}
   \begin{aligned}
-    Z_{n+1,\Lambda}
-    & =
-    T_{n+1,\Lambda} \circ \mathcal{Z}_{\leq n} \circ p 
-    -
-    T_{n+1, \Lambda} \circ \mathcal{Z}_{\leq n}
-    \\
-    & =
-    T_{n+1,\Lambda} \circ \mathcal{Z}_{\leq n} \circ ( p - id)
+  T_{n+1}(O, \cdots, O)
+  & =
+  \left\langle
+    \underset{  {\mathbf{I} \in \{1, \cdots, n+1\} } \atop { \mathbf{I}, \overline{\mathbf{I}} \neq \emptyset }  }{\sum}
+    \!\!\chi_i(\mathbf{X})\,
+    \left(
+      {\, \atop \,}
+      T_{{\vert \mathbf{I}\vert}} (\mathbf{I})
+      {\, \atop \,}
+    \right)
+      \star_{F}
+    \left(
+      {\, \atop \,}
+      T_{ {\vert \overline{\mathbf{I}} \vert} } ( \overline{\mathbf{I}} )
+      {\, \atop \,}
+    \right)
+    \,,\,
+    p_{\rho_k}(O \otimes \cdots \otimes O)
+  \right\rangle
+  \\
+  & =
+  \left\langle
+  \underset{\Lambda \to \infty}{\lim}
+    \underset{  {\mathbf{I} \in \{1, \cdots, n+1\} } \atop { \mathbf{I}, \overline{\mathbf{I}} \neq \emptyset }  }{\sum}
+    \!\!\chi_i(\mathbf{X})\,
+    \left(
+      {\, \atop \,}
+      T_{{\vert \mathbf{I}\vert}} (\mathbf{I})
+      {\, \atop \,}
+    \right)
+      \star_{F,\Lambda}
+    \left(
+      {\, \atop \,}
+      T_{ {\vert \overline{\mathbf{I}} \vert} } ( \overline{\mathbf{I}} )
+      {\, \atop \,}
+    \right)
+    \,,\,
+    p_{\rho_k}(O \otimes \cdots \otimes O)
+  \right\rangle
+  \end{aligned}
+  \,.
+$$
+
+Here in the first step we inserted the causal decomposition (eq:TimeOrderedProductsAwayFromDiagonalByInduction)
+of $T_{n+1}$ in terms of the $\{T_k\}_{k \leq n}$
+away from the diagonal, as in the proof of prop. \ref{RenormalizationIsInductivelyExtensionToDiagonal},
+which is admissible because the image of $p_{\rho_{n+1}}$ vanishes on the diagonal. In the second step
+we replaced the star-product of the Feynman propagator $\Delta_F$ with the limit over the star-products
+of the regularized propagators $\Delta_{F,\Lambda}$, which converges by the nature of the [[Hörmander topology]]
+(which is assumed by def. \ref{CutoffsUVForPerturbativeQFT}).
+
+Hence it is sufficient to find $Z_{n+1,\Lambda}$ and $K_{n+1,\Lambda}$ such that
+
+$$
+  \label{CountertermsAndCorrectionTerm}
+  \begin{aligned}
+  \left\langle
+    \left(
+      T_{\Lambda} \circ \mathcal{Z}_{\Lambda}
+    \right)_{n+1}
+    \,,\,
+    (-, \cdots, -)
+  \right\rangle
+  & =
+  \left\langle
+    \underset{  {\mathbf{I} \in \{1, \cdots, n+1\} } \atop { \mathbf{I}, \overline{\mathbf{I}} \neq \emptyset }  }{\sum}
+    \!\!\chi_i(\mathbf{X})\,
+    \left(
+      {\, \atop \,}
+      T_{{\vert \mathbf{I}\vert}} (\mathbf{I})
+      {\, \atop \,}
+    \right)
+      \star_{F,\Lambda}
+    \left(
+      {\, \atop \,}
+      T_{ {\vert \overline{\mathbf{I}} \vert} } ( \overline{\mathbf{I}} )
+      {\, \atop \,}
+    \right)
+    \,,\,
+    p_{\rho_{k}}\left( -, \cdots, - \right)
+  \right\rangle
+  \\
+  & \phantom{=}
+  +
+  K_{n+1,\Lambda}(-, \cdots, -)
   \end{aligned}
 $$
 
-By by definition $p - id$ is the identity on test functions (adiabatic switchings) that vanish at the diagonal. This means that $Z_{n+1,\Lambda}$ is indeed local.
+subject to these two conditions:
+
+1. $\mathcal{Z}_{n+1,\Lambda}$ is local;
+
+1. $\underset{\Lambda \to \infty}{\lim} K_{n+1,\Lambda} = 0$.
 
 
-This shows that a consistent choice of $\mathcal{S}_\Lambda$ exists. To see that every [[S-matrix scheme]] arises this way from choice of $\mathcal{Z}_\Lambda$ it is now sufficient, by the above proof, to see that every S-matrix scheme  comes from vanishing renormalization constants $q^\alpha_k$ in [this equation](renormalization#eq:ExtensionOfDitstributionsPointFixedAndChoice) for _some_ sequence of projections $\{p_{\rho_k}\}_{k \in \mathbb{N}}$ (in the notation of the proof of [that prop.](renormalization#SpaceOfPointExtensions)). This is pretty clear...
+Now by expanding out the left hand side of (eq:CountertermsAndCorrectionTerm) as
+
+$$
+  (T_\Lambda \circ \mathcal{Z}_\Lambda)_{n+1}
+  \;=\;
+  Z_{n+1,\Lambda}
+    \;+\;
+  (T_\Lambda \circ Z_{\leq n, \Lambda})_{n+1}
+$$
+
+(which uses the condition $T_1 = id$) we find the unique solution of (eq:CountertermsAndCorrectionTerm) for $Z_{n+1,\Lambda}$, in terms of the $\{Z_{\leq n,\Lambda}\}$
+and $K_{n+1,\Lambda}$ (the latter still to be chosen) to be:
+
+$$
+  \label{CountertermOrderByOrderInTermsOfCorrectionTerm}
+  \begin{aligned}
+  \left\langle
+    Z_{n+1,\Lambda}
+    ,
+    (-,\cdots, -)
+  \right\rangle
+  & =
+  \left\langle
+    \underset{  {\mathbf{I} \in \{1, \cdots, n+1\} } \atop { \mathbf{I}, \overline{\mathbf{I}} \neq \emptyset }  }{\sum}
+    \!\!\chi_i(\mathbf{X})\,
+    \left(
+      {\, \atop \,}
+      T_{{\vert \mathbf{I}\vert}} (\mathbf{I})
+      {\, \atop \,}
+    \right)
+      \star_{F,\Lambda}
+    \left(
+      {\, \atop \,}
+      T_{ {\vert \overline{\mathbf{I}} \vert} } ( \overline{\mathbf{I}} )
+      {\, \atop \,}
+    \right)
+    \,,\,
+    p_{\rho_{n+1}}(-, \cdots, -)
+  \right\rangle
+  \\
+  & \phantom{=}
+  -
+  \left\langle
+    \left(
+      T_{\Lambda} \circ \mathcal{Z}_{\leq n,\Lambda}
+    \right)_{n+1}
+    \,,\,
+    (-, \cdots, -)
+  \right\rangle
+  \\
+  & \phantom{=}
+  +
+  \left\langle
+    K_{n+1, \Lambda},
+    (-, \cdots, -)
+  \right\rangle
+  \end{aligned}
+  \,.
+$$
+
+We claim that the following choice works:
+
+$$
+  \label{LocalityCorrection}
+  \begin{aligned}
+  K_{n+1, \Lambda}(-, \cdots, -)
+  & \coloneqq
+  \left\langle
+    \left(
+      T_{\Lambda} \circ \mathcal{Z}_{\leq n, \Lambda}
+    \right)_{n+1}
+    \,,\,
+    p_{\rho_{n+1}}(-, \cdots, -)
+  \right\rangle
+  \\
+  & \phantom{=}
+  -
+  \left\langle
+    \underset{  {\mathbf{I} \in \{1, \cdots, n+1\} } \atop { \mathbf{I}, \overline{\mathbf{I}} \neq \emptyset }  }{\sum}
+    \!\!\chi_i(\mathbf{X})\,
+    \left(
+      {\, \atop \,}
+      T_{{\vert \mathbf{I}\vert}} (\mathbf{I})
+      {\, \atop \,}
+    \right)
+      \star_{F,\Lambda}
+    \left(
+      {\, \atop \,}
+      T_{ {\vert \overline{\mathbf{I}} \vert} } ( \overline{\mathbf{I}} )
+      {\, \atop \,}
+    \right)
+    \,,\,
+    p_{\rho_{n+1}}(-, \cdots, -)
+  \right\rangle
+  \end{aligned}
+  \,.
+$$
+
+To prove this, we need to show that 1) the resulting $Z_{n+1,\Lambda}$ is local and 2) the limit of $K_{n+1,\Lambda}$ vanishes as $\Lambda \to \infty$.
+
+First regarding the locality of $Z_{n+1,\Lambda}$: By inserting (eq:LocalityCorrection) into (eq:CountertermOrderByOrderInTermsOfCorrectionTerm)
+we obtain
+
+$$
+  \begin{aligned}
+    \left\langle
+      Z_{n+1,\Lambda}
+      \,,\,
+      (-,\cdots,-)
+    \right\rangle
+    & =
+    \left\langle
+      \left(
+        T_{\Lambda} \circ \mathcal{Z}_{\leq n}
+      \right)_{n+1}
+      \,,\,
+      p(-, \cdots, -)
+    \right\rangle
+    -
+    \left\langle
+      \left(
+        T_{\Lambda} \circ \mathcal{Z}_{\leq n}
+      \right)_{n+1}
+      \,,\,
+      (-, \cdots, -)
+    \right\rangle
+    \\
+    & =
+    \left\langle
+      \left(
+        T_{\Lambda} \circ \mathcal{Z}_{\leq n}
+      \right)_{n+1}
+      \,,\,
+      ( p_{\rho_{n+1}} - id)(-, \cdots, -)
+    \right\rangle
+  \end{aligned}
+$$
+
+By definition $p_{\rho_{n+1}} - id$ is the identity on test functions (adiabatic switchings) that vanish at the diagonal. This means that $Z_{n+1,\Lambda}$ is [[support of a distribution|supported]] on the diagonal, and is hence local.
+
+Second we need to show that $\underset{\Lambda \to \infty}{\lim} K_{n+1,\Lambda} = 0$:
+
+By applying the analogous causal decomposition (eq:TimeOrderedProductsAwayFromDiagonalByInduction)
+to the regularized products, we find
+
+$$
+  \label{InductionStepForCounterterms}
+  \begin{aligned}
+  &
+  \left\langle
+    (T_\Lambda \circ \mathcal{Z}_{\leq n, \Lambda})_{n+1}
+    \,,\,
+    p_{\rho_{n+1}}(-,\cdots,-)
+  \right\rangle
+  \\
+  & =
+  \left\langle
+    \underset{  {\mathbf{I} \in \{1, \cdots, n+1\} } \atop { \mathbf{I}, \overline{\mathbf{I}} \neq \emptyset }  }{\sum}
+    \!\!\chi_i(\mathbf{X})\,
+    \left(
+      {\, \atop \,}
+      (T_{\Lambda} \circ \mathcal{Z}_{\leq n, \Lambda})_{{\vert \mathbf{I}\vert}} (\mathbf{I})
+      {\, \atop \,}
+    \right)
+      \star_{F,\Lambda}
+    \left(
+      {\, \atop \,}
+      (T_{\Lambda} \circ \mathcal{Z}_{\leq n, \Lambda})_{ {\vert \overline{\mathbf{I}} \vert} } ( \overline{\mathbf{I}} )
+      {\, \atop \,}
+    \right)
+    \,,\,
+    p_{\rho_{n+1}}(-,\cdots,-)
+  \right\rangle
+  \,.
+  \end{aligned}
+$$
+
+Using this we compute as follows:
+
+$$
+  \label{CorrectionTermForCountertermsVanishesAsCutoffIsRemoved}
+  \begin{aligned}
+  &
+  \left\langle
+    \underset{\Lambda \to \infty}{\lim}
+    (T_\Lambda \circ \mathcal{Z}_{\leq n, \Lambda})_{n+1}
+    \,,\,
+    p_{\rho_{n+1}}(-,\cdots,-)
+  \right\rangle
+  \\
+  & =
+  \left\langle
+    \underset{\Lambda \to \infty}{\lim}
+    \underset{  {\mathbf{I} \in \{1, \cdots, n+1\} } \atop { \mathbf{I}, \overline{\mathbf{I}} \neq \emptyset }  }{\sum}
+    \!\!\chi_i(\mathbf{X})\,
+    \left(
+      {\, \atop \,}
+      (T_{\Lambda} \circ \mathcal{Z}_{\leq n, \Lambda})_{{\vert \mathbf{I}\vert}} (\mathbf{I})
+      {\, \atop \,}
+    \right)
+      \star_{F,\Lambda}
+    \left(
+      {\, \atop \,}
+      (T_{\Lambda} \circ \mathcal{Z}_{\leq n, \Lambda})_{ {\vert \overline{\mathbf{I}} \vert} } ( \overline{\mathbf{I}} )
+      {\, \atop \,}
+    \right)
+    \,,\,
+    p_{\rho_{n+1}}(-,\cdots,-)
+  \right\rangle
+  \\
+  & =
+  \left\langle
+    \underset{  {\mathbf{I} \in \{1, \cdots, n+1\} } \atop { I, \overline{\mathbf{I}} \neq \emptyset }  }{\sum}
+    \chi_i(\mathbf{X})\,
+    \underset{
+      T_{{\vert \mathbf{I}\vert}}(\mathbf{I})
+    }{
+    \underbrace{
+    \left(
+      \underset{\Lambda \to \infty}{\lim}
+      (T_{\Lambda} \circ \mathcal{Z}_{\leq n, \Lambda})_{{\vert \mathbf{I}\vert}} (\mathbf{I})
+    \right)
+    }}
+    \left(
+      \underset{\Lambda \to \infty}{\lim}
+      \star_{F,\Lambda}
+    \right)
+    \underset{
+      T_{{\vert \overline{\mathbf{I}}\vert}}(\overline{\mathbf{I}})
+    }{
+    \underbrace{
+    \left(
+      \underset{\Lambda \to \infty}{\lim}
+      (T_{\Lambda} \circ \mathcal{Z}_{\leq n, \Lambda})_{ {\vert \overline{\mathbf{I}} \vert} } ( \overline{\mathbf{I}} )
+    \right)
+    }}
+    \,,\,
+    p_{\rho_{n+1}}(-,\cdots,-)
+  \right\rangle
+  \\
+  & =
+  \left\langle
+    \underset{\Lambda \to \infty}{\lim}
+    \underset{  {\mathbf{I} \in \{1, \cdots, n+1\} } \atop { I, \overline{\mathbf{I}} \neq \emptyset }  }{\sum}
+    \chi_i(\mathbf{X})\,
+    T_{ { \vert \mathbf{I} \vert } }( \mathbf{I} )
+      \star_{F,\Lambda}
+    T_{ {\vert  \overline{\mathbf{I}} \vert} }( \overline{\mathbf{I}} )
+    \,,\,
+    p_{\rho_{n+1}}(-,\cdots,-)
+  \right\rangle
+  \end{aligned}
+  \,.
+$$
+
+Here in the first step we inserted (eq:InductionStepForCounterterms); in the second step we used that in the [[Hörmander topology]] the [[product of distributions]] preserves limits in each variable and in the third step we used the induction assumption (eq:CountertermsInductionAssumption)
+and the definition of [[UV cutoff]] (def. \ref{CutoffsUVForPerturbativeQFT}).
+
+Inserting this for the first summand in (eq:LocalityCorrection) shows that $\underset{\Lambda \to \infty}{\lim} K_{n+1, \Lambda} = 0$.
+
+In conclusion this shows that a consistent choice of [[counterterms]] $\mathcal{Z}_\Lambda$ exists to produce
+_some_ S-matrix $\mathcal{S} = \underset{\Lambda \to \infty }{\lim} (\mathcal{S}_\Lambda \circ \mathcal{Z}_\Lambda)$.
+
+{#CountertermsForArbitrarySMatrixFromAnyGivenOnes} It just remains to see that for _every_ other S-matrix $\widetilde{\mathcal{S}}$ there exist counterterms
+$\widetilde{\mathcal{Z}}_\lambda$ such
+that $\widetilde{\mathcal{S}} = \underset{\Lambda \to \infty }{\lim} (\mathcal{S}_\Lambda \circ \widetilde{\mathcal{Z}}_\Lambda)$.
+
+But by the [[main theorem of perturbative renormalization]] (theorem \ref{PerturbativeRenormalizationMainTheorem})
+we know that there exists a [[vertex redefinition]] $\mathcal{Z}$ such that
+
+$$
+  \begin{aligned}
+    \widetilde{\mathcal{S}}
+    & = \mathcal{S} \circ \mathcal{Z}
+    \\
+    & =
+    \underset{\Lambda \to \infty}{\lim}
+    \left(
+      \mathcal{S}_\Lambda \circ \mathcal{Z}_\Lambda
+    \right)
+    \circ
+    \mathcal{Z}
+    \\
+    & =
+    \underset{\Lambda \to \infty}{\lim}
+    (
+      \mathcal{S}_\Lambda
+        \circ
+      (
+        \underset{
+          \widetilde{\mathcal{Z}}_\Lambda
+        }{
+        \underbrace{
+        \mathcal{Z}_\Lambda
+          \circ
+        \mathcal{Z}
+        }
+        }
+      )
+    )
+  \end{aligned}
+$$
+
+and hence with counterterms $\mathcal{Z}_\Lambda$ for $\mathcal{S}$ given, then counterterms for any $\widetilde{\mathcal{S}}$ are given by the composite $\widetilde{\mathcal{Z}}_\Lambda \coloneqq \mathcal{Z}_\Lambda \circ \mathcal{Z}$.
 
 =--
 
