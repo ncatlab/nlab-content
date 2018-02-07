@@ -53,7 +53,7 @@ be that of solving this [[differential equation]] subject to chosen initial data
 
 * _[Wilson-Polchinski effective QFT flow](#EffectiveQFTFlowWislonian)_.
 
-The [[main theorem of perturbative renormalization]] states that different [[S-matrix schemes]]
+The [[main theorem of perturbative renormalization]] (theorem \ref{PerturbativeRenormalizationMainTheorem} below) states that different [[S-matrix schemes]]
 are precisely related by [[vertex redefinitions]]. This yields the
 
 * _[Stückelberg-Petermann renormalization group](#SPRenormalizationGroup)_.
@@ -1959,7 +1959,7 @@ While [[Epstein-Glaser renormalization]] (prop. \ref{RenormalizationIsInductivel
 gives a transparent picture on the space of choices in [[renormalization|("re"-)normalization]]
 (theorem \ref{ExistenceRenormalization}) the physical nature of the higher interactions that it introduces at
 coincident interaction points (via the [[extensions of distributions]] in prop. \ref{SpaceOfPointExtensions}) remains more implicit. But the
-[[main theorem of perturbative renormalization]] (prop. \ref{AnyTwoSMatrixRenormalizationSchemesDifferByAUniqueVertexRedefinition}),
+[[main theorem of perturbative renormalization]] (theorem \ref{PerturbativeRenormalizationMainTheorem}),
 which re-expresses the _difference_ between any two such choices as an [[interaction vertex redefinition]],
 suggests that already the choice of [[renormalization|("re"-)normalization]] itself should have an incarnation in terms
 of [[interaction vertex redefinitions]].
@@ -1978,7 +1978,7 @@ This perspective of [[renormalization|("re"-)normalization via]] via _[[countert
 the primary one.
 Its elegant proof in prop. \ref{UVRegularization} below, however relies on the [[Epstein-Glaser renormalization]]
 via inductive [[extensions of distributions]] and uses the same kind of argument as in the
-proof of the [[main theorem of perturbative renormalization]] (prop. \ref{AnyTwoSMatrixRenormalizationSchemesDifferByAUniqueVertexRedefinition}) that establishes the [[Stückelberg-Petermann renormalization group]].
+proof of the [[main theorem of perturbative renormalization]] (theorem \ref{PerturbativeRenormalizationMainTheorem} via prop. \ref{AnyTwoSMatrixRenormalizationSchemesDifferByAUniqueVertexRedefinition}) that establishes the [[Stückelberg-Petermann renormalization group]].
 
 
 $\,$
@@ -2167,7 +2167,7 @@ First consider some convenient shorthand:
 For $n \in \mathbb{N}$, write $\mathcal{Z}_{\leq n} \coloneqq \underset{1 \in \{1, \cdots, n\}}{\sum} \frac{1}{n!} Z_n$.
 Moreover, for $k \in \mathbb{N}$ write $(T_\Lambda \circ \mathcal{Z}_{\leq n})_k$ for the $k$-ary coefficient in the
 expansion of the composite $\mathcal{S}_\Lambda \circ \mathcal{Z}_{\leq n}$,
-as in equation (eq:MainTheoremPerturbativeRenormalizationInductionStep) in the proof of the [[main theorem of perturbative renormalization]] (prop. \ref{AnyTwoSMatrixRenormalizationSchemesDifferByAUniqueVertexRedefinition}).
+as in equation (eq:MainTheoremPerturbativeRenormalizationInductionStep) in the proof of the [[main theorem of perturbative renormalization]] (theorem \ref{PerturbativeRenormalizationMainTheorem}, via prop. \ref{AnyTwoSMatrixRenormalizationSchemesDifferByAUniqueVertexRedefinition}).
 
 In this notation we need to find $\mathcal{Z}_\Lambda$ such that for each $n \in \mathbb{N}$ we have
 
@@ -2971,7 +2971,7 @@ That this is the case is the statement of prop. \ref{LogarithmEffectiveAction}.
 
 The definition of the [[relative effective action]] $\mathcal{S}_{eff,\Lambda} \coloneqq \mathcal{S}_{eff,\Lambda, \infty}$ in def. \ref{EffectiveActionRelative}
 invokes a choice of [[UV regularization]] $\mathcal{S}_\infty$ (prop. \ref{UVRegularization}).
-While (by that proposition and the [[main theorem of perturbative renormalization]] this is guaranteed to exist,
+While (by that proposition and the [[main theorem of perturbative renormalization]], theorem \ref{PerturbativeRenormalizationMainTheorem} )this is guaranteed to exist,
 in practice one is after methods for constructing this without specifying it a priori.
 
 But the collection [[relative effective actions]] $\mathcal{S}_{eff,\Lambda, \Lambda_0}$ for $\Lambda_0 \lt \infty$
@@ -3213,7 +3213,7 @@ Whenever a [[group]] $RG$ [[action|acts]] on the space of [[observables]] of the
 
 The archetypical example here is the [[group]] $RG$ of [[scaling transformations]] on [[Minkowski spacetime]] (def. \ref{ScalingTransformations} below), which induces a [[renormalization group flow]] (prop. \ref{RGFlowScalingTransformations} below) due to the particular nature of the [[Wightman propagator]] resp. [[Feynman propagator]] on [[Minkowski spacetime]] (example \ref{ScalarFieldMassDimensionOnMinkowskiSpacetime} below). In this case the choice of [[renormalization|("re"-)normalization]] hence "flows with scale".
 
-Now the _[[main theorem of perturbative renormalization]] states that (if only the basic [[renormalization condition]] called "field independence" is satisfied) any two choices of [[renormalization scheme|("re"-)normalization schemes]] $\mathcal{S}$ and $\mathcal{S}'$ are related by a unique [[interaction vertex redefinition]] $\mathcal{Z}$, as
+Now the _[[main theorem of perturbative renormalization]] (theorem \ref{PerturbativeRenormalizationMainTheorem}) states that (if only the basic [[renormalization condition]] called "field independence" is satisfied) any two choices of [[renormalization scheme|("re"-)normalization schemes]] $\mathcal{S}$ and $\mathcal{S}'$ are related by a unique [[interaction vertex redefinition]] $\mathcal{Z}$, as
 
 $$
   \mathcal{S}' = \mathcal{S} \circ \mathcal{Z}
@@ -3502,7 +3502,7 @@ $$
 be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] (according to def. \ref{VacuumFree}) around which we consider [[interacting field theory|interacting]] [[perturbative QFT]], let $\mathcal{S}$ be an [[S-matrix]] scheme
 around this vacuum and let $rg_{(-)}$ be a [[renormalization group flow]] according to prop. \ref{FlowRenormalizationGroup}, such that each re-normalized [[S-matrix scheme]] $\mathcal{S}_{vac}^\rho$ satisfies the [[renormalization condition]] "field independence".
 
-Then by the [[main theorem of perturbative renormalization]] (prop. \ref{AnyTwoSMatrixRenormalizationSchemesDifferByAUniqueVertexRedefinition}) there is for every [[pair]] $\rho_1, \rho_2 \in RG$ a unique [[interaction vertex redefinition]]
+Then by the [[main theorem of perturbative renormalization]] (theorem \ref{PerturbativeRenormalizationMainTheorem}, via prop. \ref{AnyTwoSMatrixRenormalizationSchemesDifferByAUniqueVertexRedefinition}) there is for every [[pair]] $\rho_1, \rho_2 \in RG$ a unique [[interaction vertex redefinition]]
 
 $$
   \mathcal{Z}_{\rho_{vac}}^{\rho}
@@ -3661,7 +3661,7 @@ $$
   \end{aligned}
 $$
 
-This demonstrates the equation between vertex redefinitions to be shown after [[composition]] with an S-matrix scheme. But by the uniqueness-clause in the [[main theorem of perturbative renormalization]] the composition operation $\mathcal{S}_{\rho_{vac}} \circ (-)$ as a function from [[vertex redefinitions]] to S-matrix schemes is [[injective function|injective]]. This implies the equation itself.
+This demonstrates the equation between vertex redefinitions to be shown after [[composition]] with an S-matrix scheme. But by the uniqueness-clause in the [[main theorem of perturbative renormalization]] (theorem \ref{PerturbativeRenormalizationMainTheorem}) the composition operation $\mathcal{S}_{\rho_{vac}} \circ (-)$ as a function from [[vertex redefinitions]] to S-matrix schemes is [[injective function|injective]]. This implies the equation itself.
 
 =--
 
