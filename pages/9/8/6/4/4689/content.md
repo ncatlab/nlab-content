@@ -19,7 +19,6 @@
 * table of contents
 {:toc}
 
-
 ## Idea
 
 A theory of _quantum gravity_ (QG) is supposed to be a [[quantum field theory]] (QFT) -- or something similar -- that corresponds to the [[classical field theory]] of [[gravity]], possibly by [[quantization]].
@@ -127,10 +126,12 @@ Exposition from the point of view of [[worldline formalism]] is in
 * {#Witten11} [[Edward Witten]], _Quantum Gravity_, Solomon Lefschetz Memorial Lecture Series, November 2011 ([video](https://www.youtube.com/watch?v=uRdCJMYc2Ds#t=15))
 
 
-### As an effective perturbative field theory
+### As a perturbative quantum field theory
  {#ReferencesAsAnEffectiveFieldTheory}
 
-One may regard [[gravity]] as an [[effective field theory]] and just quantize in [[perturbation theory]]. An introduction to this perspective is in
+As a [[perturbative quantum field theory]], quantum gravity exists (usually thought of as an [[effective quantum field theory]]):
+
+* [[Martinus Veltman]], _Quantum theory of Gravitation_, In Les Houches 1975, Proceedings, Methods In Field Theory, (Amsterdam 1976) 265-327 ([[VeltmanQuantumnGravity76.pdf:file]], [spire](http://inspirehep.net/record/105735?ln=en))
 
 * {#DonoghueIntroduction} John F. Donoghue, _Introduction to the Effective Field Theory Description of Gravity_ ([arXiv:gr-qc/9512024](http://arxiv.org/abs/gr-qc/9512024))
 
