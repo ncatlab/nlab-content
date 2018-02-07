@@ -75,11 +75,9 @@ Discussion of the experimentally observed tiny cosmological constant and the iss
 
 ### In string theory
 
-Discussion from the point of view of [[string theory]] includes
+Discussion from the point of view of [[perturbative string theory]], where the cosmological constant is fixed by the choice of [[perturbative string theory vacuum]] includes
 
 * {#Witten00} [[Edward Witten]], _The Cosmological Constant From The Viewpoint Of String Theory_ ([arXiv:hep-ph/0002297](https://arxiv.org/abs/hep-ph/0002297))
-
-Shortly afterwards it became popular to invoke the [[landscape of string theory vacua]] in order to "solve" this state of affairs.
 
 See also
 
@@ -90,6 +88,18 @@ for discussion in terms of the [[M-theory]]/[[type IIA string theory|type IIA]] 
 This discussion was later supplemented by 
 
 * [[Edward Witten]], section 3 of _Some Comments On String Dynamics_ ([arXiv:hep-th/9507121](http://arxiv.org/abs/hep-th/9507121))
+
+
+But a) there might be a large space of [[perturbative string theory vacua]]  and b) the [[de Sitter spacetime|de Sitter vacua]] that seem to correspond to observation tend to exist (only) as metastable vacua:
+
+* {#KachruKalloshLindeTrivedi03} [[Shamit Kachru]], [[Renata Kallosh]], [[Andrei Linde]], [[Sandip Trivedi]], _de Sitter Vacua in String Theory_, Phys.Rev.D68:046005, 2003 ([arXiv:hep-th/0301240](https://arxiv.org/abs/hep-th/0301240))
+
+This observation led to the discussion of the "[[landscape of string theory vacua]]".
+
+For review see
+
+* {#Kallosh05} [[Renata Kallosh]], section 3 of _de Sitter vacua and the landscape of string theory_, J. Phys. Conf. Ser. 24 (2005) 87-110 ([spire](http://inspirehep.net/record/701033/))
+
 
 [[!redirects dark energy]]
 
