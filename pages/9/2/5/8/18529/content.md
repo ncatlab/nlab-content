@@ -56,7 +56,7 @@ Beware the terminology: Contrary to common practice, the construction of a singl
 ## Details
 
 
-See at _[[Stückelberg-Petermann renormalization group]]_ [this prop.](Stückelberg-Petermann+renormalization+group#AnyTwoSMatrixRenormalizationSchemesDifferByAUniqueVertexRedefinition)
+See at _[[renormalization]]_ _[this theorem](renormalization#PerturbativeRenormalizationMainTheorem)_.
 
 
 ## References
