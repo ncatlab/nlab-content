@@ -126,13 +126,6 @@ Exposition from the point of view of [[worldline formalism]] is in
 
 * {#Witten11} [[Edward Witten]], _Quantum Gravity_, Solomon Lefschetz Memorial Lecture Series, November 2011 ([video](https://www.youtube.com/watch?v=uRdCJMYc2Ds#t=15))
 
-### Non-renormalizablity
-
-That [[Einstein gravity]] is not perturbatively [[renormalizable interaction|renormalizable]] was shown in 
-
-* {#GoroffSagnotti85} M. H. Goroff, A. Sagnotti, _Quantum Gravity At Two Loops_, Phys. Lett. B 160 (1985) 81.
-
-* {#vandeVen92} A. E. M. van de Ven, _Two loop quantum gravity_, Nucl. Phys. B 378 (1992) 309.
 
 ### As an effective perturbative field theory
  {#ReferencesAsAnEffectiveFieldTheory}
@@ -174,6 +167,41 @@ For more discussion of perturbative [[supergravity]] see at
 * _[[KLT relations]]_
 
 * _[[string theory results applied elsewhere]]_.
+
+### Non-renormalizablity
+ {#ReferencesNonRenormalizability}
+
+That pure [[Einstein gravity]] is not perturbatively [[renormalizable interaction|renormalizable]] at [[loop order|2-loops]] was shown in 
+
+* {#GoroffSagnotti85} M. H. Goroff, A. Sagnotti, _Quantum Gravity At Two Loops_, Phys. Lett. B 160 (1985) 81.
+
+* {#vandeVen92} A. E. M. van de Ven, _Two loop quantum gravity_, Nucl. Phys. B 378 (1992) 309.
+
+For generic matter couplings this applies already at [[loop order|1-loop]]:
+
+* [[Gerard 't Hooft]], [[Martinus Veltman]], Annales Poincare Phys. Theor. A 20 , 69 (1974)
+
+* [[Gerard 't Hooft]], Nucl. Phys. B 62, 444 (1973);
+
+* [[Stanley Deser]], [[Peter van Nieuwenhuizen]], Phys. Rev. D 10, 401 (1974);
+
+* [[Stanley Deser]], H. S. Tsao and [[Peter van Nieuwenhuizen]], Phys. Rev. D 10 , 3337 (1974)
+
+If the matter coupling is such as to make the theory [[supersymmetry|supersymmetric]] ([[supergravity]]), the divergence appears only in higher [[loop order]].
+
+That it appears earliest at 3-loops was established in
+
+*  M. T. Grisaru, Phys. Lett. B 66, 75 (1977);
+
+* E. T. Tomboulis, Phys. Lett. B67, 417 (1977);
+
+* [[Stanley Deser]], J. H. Kay and [[Kellogg Stelle]], Phys. Rev. Lett. 38, 527 (1977);
+
+* [[Renata Kallosh]], Phys. Lett. B99, 122 (1981);
+
+* [[Paul Howe]], [[Kellogg Stelle]] and [[Paul Townsend]], Nucl. Phys. B 236, 125 (1984).
+
+Specifically for [[N=8 d=4 supergravity]] there is evidence that it might be finite at all loops. See the references [there](4-dimensional+supergravity#PerturbativeQuantumSupergravityN8).
 
 [[!redirects perturbative quantum gravity]]
 
