@@ -119,11 +119,15 @@ and further gaugings by non-compact gauge groups in
 #### $N = 8$ Perturbative quantum supergravity
  {#PerturbativeQuantumSupergravityN8}
 
-Evidence for high [[loop order]] finiteness of of $N=8$ 4d supergravity as as [[perturbative quantum field theory]] ([[perturbative quantum gravity]]) is discussed in
+For early results on [[loop order|2-loop]] finiteness of [[perturbative quantum supergravity]] see [there](quantum+gravity#ReferencesNonRenormalizability).
+
+Evidence for high [[loop order]] finiteness of $N=8$ 4d supergravity as as [[perturbative quantum field theory]] ([[perturbative quantum gravity]]) is discussed in
 
 * [[Zvi Bern]], [[Lance Dixon]], [[Radu Roiban]], _Is $N = 8$ Supergravity Ultraviolet Finite?_, Phys.Lett.B644:265-271,2007 ([arXiv:hep-th/0611086](http://arxiv.org/abs/hep-th/0611086))
 
 * [[Zvi Bern]], J. J. Carrasco, [[Lance Dixon]], H. Johansson, [[David Kosower]], [[Radu Roiban]], _Three-Loop Superfiniteness of N=8 Supergravity_, Phys.Rev.Lett.98:161303,2007 ([arXiv:hep-th/0702112](http://arxiv.org/abs/hep-th/0702112))
+
+* [[Zvi Bern]], J. J. Carrasco, [[Lance Dixon]], H. Johansson, R. Roiban, _The Ultraviolet Behavior of $N=8$ Supergravity at Four Loops_, Phys. Rev. Lett.103:081301, 2009 ([arXiv:0905.2326](https://arxiv.org/abs/0905.2326))
 
 and via [[KLT relations]]in 
 
