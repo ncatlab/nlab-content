@@ -278,6 +278,14 @@ Discussion of [[black hole]] horizons includes
 
 * [[Jan Gutowski]], [[George Papadopoulos]], _Static M-horizons_ ([arXiv:1106.3085](http://arxiv.org/abs/1106.3085))
 
+### Feynman amplitudes
+
+Computation of [[Feynman amplitudes]]/[[scattering amplitudes]] in 11d supergravity:
+
+* L. Anguelova, P. A. Grassi, P. Vanhove, _Covariant One-Loop Amplitudes in $D=11$_, Nucl. Phys. B702 (2004) 269-306 ([arXiv:hep-th/0408171](https://arxiv.org/abs/hep-th/0408171))
+
+* [[Kasper Peeters]], [[Jan Plefka]], Steffen Stern, _Higher-derivative gauge field terms in the M-theory action_, JHEP 0508 (2005) 095 ([arXiv:hep-th/0507178](https://arxiv.org/abs/hep-th/0507178))
+
 ### Truncations and compactifications
 
 * [[Hermann Nicolai]], Krzysztof Pilch, _Consistent truncation of $d = 11$ supergravity on $AdS_4 \times S^7$_ ([arXiv:1112.6131](http://arxiv.org/abs/1112.6131))
