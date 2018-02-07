@@ -1,3 +1,4 @@
+
 ## Renormalization
  {#Renormalization}
 
@@ -2036,14 +2037,6 @@ such that:
         \Delta_{F,\Lambda}^{a b}(x)
       $$
 
-   1. (bounded [[degree of divergence of a distribution|degree of divergence]])
-
-      $$
-        deg(\Delta_{F,\Lambda})
-        \;\leq\;
-        deg(\Delta_{F})
-      $$
-
 1. the $\Delta_{F,\Lambda}$ interpolate between zero and the Feynman propagator, in that, in the [[Hörmander topology]]:
 
    1. the [[limit of a sequence|limit]] as $\Lambda \to 0$ exists and is zero
@@ -2153,7 +2146,10 @@ such that the [[limit of a sequence|limit]] of [[effective S-matrix schemes]]  $
 
 1. every [[S-matrix scheme]] around the given vacuum arises this way.
 
-Hence UV-regularization via [[counterterms]] is a method of [[renormalization|("re"-)normalization]] of [[perturbative QFT]] (def. \ref{ExtensionOfTimeOrderedProoductsRenormalization}).
+These $\mathcal{Z}_\Lambda$ are called _[[counterterms]]_ (remark \ref{TermCounter} below) and the composite
+$\mathcal{S}_\Lambda \circ \mathcal{Z}_\Lambda$ is called a _[[UV regularization]]_ of the [[effective S-matrices]] $\mathcal{S}_\Lambda$.
+
+Hence [[UV-regularization]] via [[counterterms]] is a method of [[renormalization|("re"-)normalization]] of [[perturbative QFT]] (def. \ref{ExtensionOfTimeOrderedProoductsRenormalization}).
 
 =--
 
@@ -2554,7 +2550,50 @@ and the definition of [[UV cutoff]] (def. \ref{CutoffsUVForPerturbativeQFT}).
 
 Inserting this for the first summand in (eq:LocalityCorrection) shows that $\underset{\Lambda \to \infty}{\lim} K_{n+1, \Lambda} = 0$.
 
-In conclusion this shows that a consistent choice of [[counterterms]] $\mathcal{Z}_\Lambda$ exists. To see that every [[S-matrix scheme]] arises this way from a choice of $\mathcal{Z}_\Lambda$ it is now sufficient, by the above proof, to see that every S-matrix scheme  comes from vanishing renormalization constants $q^\alpha_k$ in (eq:ExtensionOfDitstributionsPointFixedAndChoice) for _some_ sequence of projections $\{p_{\rho_k}\}_{k \in \mathbb{N}}$ (in the notation of the proof of prop. \ref{SpaceOfPointExtensions}). This is pretty clear...
+In conclusion this shows that a consistent choice of [[counterterms]] $\mathcal{Z}_\Lambda$ exists to produce
+_some_ S-matrix $\mathcal{S} = \underset{\Lambda \to \infty }{\lim} (\mathcal{S}_\Lambda \circ \mathcal{Z}_\Lambda)$.
+It just remains to see that for _every_ other S-matrix $\widetilde{\mathcal{S}}$ there exist counterterms
+$\widetilde{\mathcal{Z}}_\lambda$ such
+that $\widetilde{\mathcal{S}} = \underset{\Lambda \to \infty }{\lim} (\mathcal{S}_\Lambda \circ \widetilde{\mathcal{Z}}_\Lambda)$.
+
+But by the [[main theorem of perturbative renormalization]] (theorem \ref{PerturbativeRenormalizationMainTheorem})
+we know that there exists a [[vertex redefinition]] $\mathcal{Z}$ such that
+
+$$
+  \begin{aligned}
+    \widetilde{\mathcal{S}}
+    & = \mathcal{S} \circ \mathcal{Z}
+    \\
+    & =
+    \underset{\Lambda \to \infty}{\lim}
+    \left(
+      \mathcal{S}_\Lambda \circ \mathcal{Z}_\Lambda
+    \right)
+    \circ
+    \mathcal{Z}
+    \\
+    & =
+    \underset{\Lambda \to \infty}{\lim}
+    (
+      \mathcal{S}_\Lambda
+        \circ
+      (
+        \underset{
+          \widetilde{\mathcal{Z}}_\Lambda
+        }{
+        \underbrace{
+        \mathcal{Z}_\Lambda
+          \circ
+        \mathcal{Z}
+        }
+        }
+      )
+    )
+  \end{aligned}
+$$
+
+and hence with counterterms $\mathcal{Z}_\Lambda$ for $\mathcal{S}$ given, then counterterms for any $\widetilde{\mathcal{S}}$ are given by the composite $\widetilde{\mathcal{Z}}_\Lambda \coloneqq \mathcal{Z}_\Lambda \circ \mathcal{Z}$.
+
 
 =--
 
