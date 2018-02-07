@@ -2,9 +2,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
-#### Physics
+#### Algebraic Quantum Field Theory
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
+#### String theory
 +-- {: .hide}
-[[!include physicscontents]]
+[[!include string theory - contents]]
 =--
 #### Duality
 +-- {: .hide}
@@ -19,9 +23,11 @@
 
 ## Idea
 
-The _KLT relations_ express certain [[scattering amplitudes]] in [[gravity]] equivalently in terms of scattering amplitudes in [[Yang-Mills theory]].
+In [[perturbative quantum field theory]] the _KLT relations_ ([Kawai-Lewellen-Tye 86](#KawaiLewellenTye86)) express [[tree level]] [[scattering amplitudes]] in ([[supergravity|super]]-)[[gravity]] equivalently as squares of scattering amplitudes in ([[super Yang-Mills theory|super]]-)[[Yang-Mills theory]].
 
-These relations are manifest in [[string theory]]-[[UV-completions]] of gravity+Yang-Mills theory, where they were originally found and from which the QFT relations have been deduced: in string theory the [[graviton]] is an excitation of the [[closed string]] and the [[gluon]] of the [[open string]]. But disk-shaped string diagram can be read in two-ways: either as a closed-string vacuum diagram or as an open-string tree-level scattering diagram. This [[open/closed string duality]] of [[string scattering amplitudes]] yields the KLT relations. 
+These relations are manifest in [[perturbative string theory]]-[[UV-completions]] of gravity+Yang-Mills theory, where they were originally found and from which the QFT relations have been deduced: in string theory the [[graviton]] is an excitation of the [[closed string]] and the [[gluon]] of the [[open string]]. But [[cylinder]]-shaped [[worldvolume]] may be read in two different ways: either as a [[closed string]] [[propagator]] or as an [[open string]] [[vacuum diagram]]. This [[open/closed string duality]] of [[string scattering amplitudes]] yields the KLT relations. 
+
+Moreover, a color-kinematics duality suggest that these relations extend from [[tree level]] to all [[loop order]] spring
 
 ## Related entries
 
@@ -35,11 +41,9 @@ These relations are manifest in [[string theory]]-[[UV-completions]] of gravity+
 
 The original article is
 
-* H. Kawai, D.C. Lewellen, S.H.H. Tye, _A Relation Between Tree Amplitudes of Closed and Open Strings_, Nucl.Phys. B269 (1986) 1-23 ([doi:10.1016/0550-3213(86)90362-7](https://doi.org/10.1016/0550-3213(86)90362-7))
+* {#KawaiLewellenTye86} H. Kawai, D.C. Lewellen, S.H.H. Tye, _A Relation Between Tree Amplitudes of Closed and Open Strings_, Nucl.Phys. B269 (1986) 1-23 ([doi:10.1016/0550-3213(86)90362-7](https://doi.org/10.1016/0550-3213(86)90362-7))
 
 See also
-
-* [[Zvi Bern]], _[The KLT relations in field theory](http://relativity.livingreviews.org/open?pubNo=lrr-2002-5&page=articlesu5.html)_, Living Reviews in Relativity
 
 * [[Zvi Bern]], _Perturbative Quantum Gravity and its Relation to Gauge Theory_, LivingRev.Rel.5:5,2002 ([arXiv:gr-qc/0206071](http://arxiv.org/abs/gr-qc/0206071))
 
@@ -51,9 +55,20 @@ See also
 
 * Bo Feng, Song He, Rijun Huang, Yin Jia, _Note on New KLT relations_ ([arXiv:1008.1626](http://arxiv.org/abs/1008.1626))
 
-
 * [[Zvi Bern]], John Joseph M. Carrasco, Henrik Johansson, _Perturbative Quantum Gravity as a Double Copy of Gauge Theory_, Phys. Rev. Lett. 105, 061602 &#8211; Published 3 August 2010 ([arXiv:1004.0476](http://arxiv.org/abs/1004.0476))
 
 * Dhritiman Nandan, [[Jan Plefka]], Oliver Schlotterer, Congkao Wen, _Einstein-Yang-Mills from pure Yang-Mills amplitudes_ ([arXiv:1607.05701](http://arxiv.org/abs/1607.05701))
 
- 
+The extension to "quantum gravity is Yang-Mills squared" originates with
+
+* [[Zvi Bern]], John Joseph M. Carrasco, Henrik Johansson, _Perturbative Quantum Gravity as a Double Copy of Gauge Theory_, Phys.Rev.Lett.105:061602,2010 ([arXiv:1004.0476](https://arxiv.org/abs/1004.0476))
+
+and is further discussed in
+
+* A. Anastasiou, L. Borsten, [[Mike Duff]], A. Marrani, S. Nagy, M. Zoccali, _Are all supergravity theories Yang-Mills squared?_ ([arXiv:1707.03234](https://arxiv.org/abs/1707.03234))
+
+* A. Anastasiou, L. Borsten, M. J. Duff, M. J. Hughes, A. Marrani, S. Nagy, M. Zoccali, _Twin Supergravities from Yang-Mills Squared_, Phys. Rev. D 96, 026013 (2017) ([arXiv:1610.07192](https://arxiv.org/abs/1610.07192))
+
+[[!redirects KLT relation]]
+
+[[!redirects Yang-Mills squared]]
