@@ -39,6 +39,8 @@ Moreover, a color-kinematics duality suggest that these relations extend from [[
 
 ## References
 
+### KLT Relations
+
 The original article is
 
 * {#KawaiLewellenTye86} H. Kawai, D.C. Lewellen, S.H.H. Tye, _A Relation Between Tree Amplitudes of Closed and Open Strings_, Nucl.Phys. B269 (1986) 1-23 ([doi:10.1016/0550-3213(86)90362-7](https://doi.org/10.1016/0550-3213(86)90362-7))
@@ -55,15 +57,20 @@ See also
 
 * Bo Feng, Song He, Rijun Huang, Yin Jia, _Note on New KLT relations_ ([arXiv:1008.1626](http://arxiv.org/abs/1008.1626))
 
-* [[Zvi Bern]], John Joseph M. Carrasco, Henrik Johansson, _Perturbative Quantum Gravity as a Double Copy of Gauge Theory_, Phys. Rev. Lett. 105, 061602 &#8211; Published 3 August 2010 ([arXiv:1004.0476](http://arxiv.org/abs/1004.0476))
-
 * Dhritiman Nandan, [[Jan Plefka]], Oliver Schlotterer, Congkao Wen, _Einstein-Yang-Mills from pure Yang-Mills amplitudes_ ([arXiv:1607.05701](http://arxiv.org/abs/1607.05701))
 
-The extension to "quantum gravity is Yang-Mills squared" originates with
 
-* [[Zvi Bern]], John Joseph M. Carrasco, Henrik Johansson, _Perturbative Quantum Gravity as a Double Copy of Gauge Theory_, Phys.Rev.Lett.105:061602,2010 ([arXiv:1004.0476](https://arxiv.org/abs/1004.0476))
+### Gravity amplitudes as Yang-Mills amplitudes "squared"
+
+The extension of the KLT relation beyond [[tree level]] to "quantum gravity is Yang-Mills squared" originates with
+
+* [[Zvi Bern]], John Joseph M. Carrasco, Henrik Johansson, _Perturbative Quantum Gravity as a Double Copy of Gauge Theory_, Phys. Rev .Lett. 105:061602,2010 ([arXiv:1004.0476](https://arxiv.org/abs/1004.0476))
 
 and is further discussed in
+
+* David C. Dunbar, Paul S. Norridge, _Calculation of Graviton Scattering Amplitudes using String-Based Methods_, Nucl.Phys. B433 (1995) 181-208 ([arXiv:hep-th/9408014](https://arxiv.org/abs/hep-th/9408014))
+
+* [[Zvi Bern]], D.C. Dunbar, T. Shimada, _String-Based Methods in Perturbative Gravity_, Phys.Lett.B312:277-284,1993
 
 * A. Anastasiou, L. Borsten, [[Mike Duff]], A. Marrani, S. Nagy, M. Zoccali, _Are all supergravity theories Yang-Mills squared?_ ([arXiv:1707.03234](https://arxiv.org/abs/1707.03234))
 
