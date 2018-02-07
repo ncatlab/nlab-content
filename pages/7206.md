@@ -119,7 +119,7 @@ and further gaugings by non-compact gauge groups in
 #### $N = 8$ Perturbative quantum supergravity
  {#PerturbativeQuantumSupergravityN8}
 
-For early results on [[loop order|2-loop]] finiteness of [[perturbative quantum supergravity]] see [there](quantum+gravity#ReferencesNonRenormalizability).
+For early results on [[loop order|2-loop]] finiteness of [[perturbative quantum gravity|perturbative quantum supergravity]] see [there](quantum+gravity#ReferencesNonRenormalizability).
 
 Evidence for high [[loop order]] finiteness of $N=8$ 4d supergravity as as [[perturbative quantum field theory]] ([[perturbative quantum gravity]]) is discussed in
 
