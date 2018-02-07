@@ -1443,7 +1443,7 @@ $$
 This means that the [[interaction vertex redefinitions]] $\mathcal{Z}$ form a [[group]] under [[composition]]
 which [[action|acts]] [[transitive action|transitively]] and [[free action|freely]], hence [[regular action|regularly]], on the
 set of [[S-matrix]] [[renormalization schemes|("re"-)normalization schemes]];
-this is called the _[[Stückelberg-Petermann renormalization group]]_ (def. \ref{StueckelbergPetermannRenormalizationGroup} below).
+this is called the _[[Stückelberg-Petermann renormalization group]]_ (theorem \ref{PerturbativeRenormalizationMainTheorem} below).
 
 
 
@@ -1823,8 +1823,6 @@ $$
 
 =--
 
-This statement is also known as the _[[main theorem of perturbative renormalization]]_.
-
 
 +-- {: .proof}
 ###### Proof
@@ -1953,29 +1951,43 @@ By [this prop.](S-matrix#RenormalizationIsInductivelyExtensionToDiagonal) this i
 
 =--
 
-+-- {: .num_defn #StueckelbergPetermannRenormalizationGroup}
-###### Definition
-**([[Stückelberg-Petermann renormalization group]] of [[vertex redefinitions]])**
+
+In conclusion this establishes the following pivotal statement of [[perturbative quantum field theory]]:
+
++-- {: .num_theorem #PerturbativeRenormalizationMainTheorem}
+###### Theorem
+**([[main theorem of perturbative renormalization]] -- [[Stückelberg-Petermann renormalization group]] of [[vertex redefinitions]])**
 
 Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H)$ be a [[gauge fixing|gauge fixed]] [[free field theory|free field]] [[vacuum]] ([this def.](S-matrix#VacuumFree)).
 
-Then prop. \ref{CausalFactorizationSatisfiedByCompositionOfSMatrixWithVertexRedefinition} and prop \ref{AnyTwoSMatrixRenormalizationSchemesDifferByAUniqueVertexRedefinition} together says that ("[[main theorem of perturbative renormalization]]"):
-
 1. the [[vertex redefinitions]] $\mathcal{Z}$ (def. \ref{InteractionVertexRedefinition}) form a [[group]] under [[composition]];
 
-1. the set of [[S-matrix]] [[renormalization schemes|("re"-)normalization schemes]] ([this def.](S-matrix#LagrangianFieldTheoryPerturbativeScattering), [this remark](S-matrix#calSFunctionIsRenormalizationScheme)) satisfying the [[renormalization condition]] "field independence" ([this prop.](S-matrix#BasicConditionsRenormalization) is a [[torsor]] over this group,
-hence on this set the action is a [[regular action]] in that any two [[S-matrix]] [[renormalization scheme|("re"-)normalization schemes]]
-   $\mathcal{S}$, $\mathcal{S}'$  are related by a _unique_ vertex redefinition $\mathcal{Z}$ via
+1. the set of [[S-matrix]] [[renormalization schemes|("re"-)normalization schemes]] ([this def.](S-matrix#LagrangianFieldTheoryPerturbativeScattering), [this remark](S-matrix#calSFunctionIsRenormalizationScheme)) satisfying the [[renormalization condition]] "field independence" ([this prop.](S-matrix#BasicConditionsRenormalization)) is a [[torsor]] over this group,
+hence equipped with a [[regular action]] in that
 
-   $$
-     \mathcal{S}' \;=\; \mathcal{S} \circ \mathcal{Z}
-     \,.
-   $$
+   1. the set of [[S-matrix schemes]] is [[inhabited set|non-empty]];
 
-This group is called the (large) _[[Stückelberg-Petermann renormalization group]]_.
+   1. any two [[S-matrix]] [[renormalization scheme|("re"-)normalization schemes]] $\mathcal{S}$, $\mathcal{S}'$  are related by a _unique_
+      [[vertex redefinition]] $\mathcal{Z}$ via [[composition]]:
+
+      $$
+        \mathcal{S}' \;=\; \mathcal{S} \circ \mathcal{Z}
+        \,.
+      $$
+
+This group is called the _[[Stückelberg-Petermann renormalization group]]_.
 
 Typically one imposes a set of [[renormalization conditions]] ([this def.](S-matrix#RenormalizationConditions))
-and then the corresponding [[subgroup]] of [[vertex redefinitions]] preserving these.
+and considers the corresponding [[subgroup]] of [[vertex redefinitions]] preserving these conditions.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+The [[group]]-[[structure]] and [[regular action]] is given by  prop. \ref{CausalFactorizationSatisfiedByCompositionOfSMatrixWithVertexRedefinition} and prop. \ref{AnyTwoSMatrixRenormalizationSchemesDifferByAUniqueVertexRedefinition}.
+The existence of S-matrices follows is the statement of [[Epstein-Glaser renormalization|Epstein-Glaser ("re"-)normalization]]
+in theorem \ref{ExistenceRenormalization}.
 
 =--
 
@@ -2066,14 +2078,6 @@ such that:
         \Delta_{F,\Lambda}^{b a}(-x)
         \;=\;
         \Delta_{F,\Lambda}^{a b}(x)
-      $$
-
-   1. (bounded [[degree of divergence of a distribution|degree of divergence]])
-
-      $$
-        deg(\Delta_{F,\Lambda})
-        \;\leq\;
-        deg(\Delta_{F})
       $$
 
 1. the $\Delta_{F,\Lambda}$ interpolate between zero and the Feynman propagator, in that, in the [[Hörmander topology]]:
@@ -2185,7 +2189,10 @@ such that the [[limit of a sequence|limit]] of [[effective S-matrix schemes]]  $
 
 1. every [[S-matrix scheme]] around the given vacuum arises this way.
 
-Hence UV-regularization via [[counterterms]] is a method of [[renormalization|("re"-)normalization]] of [[perturbative QFT]] ([this def.](S-matrix#ExtensionOfTimeOrderedProoductsRenormalization)).
+These $\mathcal{Z}_\Lambda$ are called _[[counterterms]]_ (remark \ref{TermCounter} below) and the composite
+$\mathcal{S}_\Lambda \circ \mathcal{Z}_\Lambda$ is called a _[[UV regularization]]_ of the [[effective S-matrices]] $\mathcal{S}_\Lambda$.
+
+Hence [[UV-regularization]] via [[counterterms]] is a method of [[renormalization|("re"-)normalization]] of [[perturbative QFT]] ([this def.](S-matrix#ExtensionOfTimeOrderedProoductsRenormalization)).
 
 =--
 
@@ -2196,7 +2203,7 @@ This was claimed in ([Brunetti-Dütsch-Fredenhagen 09, (75)](#BrunettiDuetschFre
 
 Let $\{p_{\rho_{k}}\}_{k \in \mathbb{N}}$ be a sequence of projection maps as in (eq:ForExtensionOfDistributionsProjectionMaps) defining an [[Epstein-Glaser renormalization|Epstein-Glaser ("re"-)normalization]] (prop. \ref{RenormalizationIsInductivelyExtensionToDiagonal}) of [[time-ordered products]] $\{T_k\}_{k \in \mathbb{N}}$ as [[extensions of distributions]] of the $T_k$, regarded as distributions via remark \ref{TimeOrderedProductOfFixedInteraction}, by the choice $q_k^\alpha = 0$ in (eq:ExtensionOfDitstributionsPointFixedAndChoice).
 
-We will construct $\mathcal{Z}_\Lambda$ in terms of these projections $p_\rho$.
+We will construct that $\mathcal{Z}_\Lambda$ in terms of these projections $p_\rho$.
 
 First consider some convenient shorthand:
 
@@ -2220,7 +2227,7 @@ $$
 
 We proceed by [[induction]] over $n \in \mathbb{N}$.
 
-Since by definition $T_0 = const_1$, $T_1 = id$ and  $Z_0 = const_0$, $Z_1 = id$ the statement is trivially true for 
+Since by definition $T_0 = const_1$, $T_1 = id$ and  $Z_0 = const_0$, $Z_1 = id$ the statement is trivially true for
 $n = 0$ and $n = 1$.
 
 So assume now $n \in \mathbb{N}$ and $\{Z_{k}\}_{k \leq n}$ has
@@ -2251,7 +2258,7 @@ $$
     p_{\rho_k}(O \otimes \cdots \otimes O)
   \right\rangle
   \\
-  & = 
+  & =
   \left\langle
   \underset{\Lambda \to \infty}{\lim}
     \underset{  {\mathbf{I} \in \{1, \cdots, n+1\} } \atop { \mathbf{I}, \overline{\mathbf{I}} \neq \emptyset }  }{\sum}
@@ -2274,7 +2281,7 @@ $$
   \,.
 $$
 
-Here in the first step we inserted the causal decomposition (eq:TimeOrderedProductsAwayFromDiagonalByInduction) 
+Here in the first step we inserted the causal decomposition (eq:TimeOrderedProductsAwayFromDiagonalByInduction)
 of $T_{n+1}$ in terms of the $\{T_k\}_{k \leq n}$
 away from the diagonal, as in the proof of prop. \ref{RenormalizationIsInductivelyExtensionToDiagonal},
 which is admissible because the image of $p_{\rho_{n+1}}$ vanishes on the diagonal. In the second step
@@ -2586,7 +2593,49 @@ and the definition of [[UV cutoff]] (def. \ref{CutoffsUVForPerturbativeQFT}).
 
 Inserting this for the first summand in (eq:LocalityCorrection) shows that $\underset{\Lambda \to \infty}{\lim} K_{n+1, \Lambda} = 0$.
 
-In conclusion this shows that a consistent choice of [[counterterms]] $\mathcal{Z}_\Lambda$ exists. To see that every [[S-matrix scheme]] arises this way from a choice of $\mathcal{Z}_\Lambda$ it is now sufficient, by the above proof, to see that every S-matrix scheme  comes from vanishing renormalization constants $q^\alpha_k$ in (eq:ExtensionOfDitstributionsPointFixedAndChoice) for _some_ sequence of projections $\{p_{\rho_k}\}_{k \in \mathbb{N}}$ (in the notation of the proof of prop. \ref{SpaceOfPointExtensions}). This is pretty clear...
+In conclusion this shows that a consistent choice of [[counterterms]] $\mathcal{Z}_\Lambda$ exists to produce
+_some_ S-matrix $\mathcal{S} = \underset{\Lambda \to \infty }{\lim} (\mathcal{S}_\Lambda \circ \mathcal{Z}_\Lambda)$.
+It just remains to see that for _every_ other S-matrix $\widetilde{\mathcal{S}}$ there exist counterterms
+$\widetilde{\mathcal{Z}}_\lambda$ such
+that $\widetilde{\mathcal{S}} = \underset{\Lambda \to \infty }{\lim} (\mathcal{S}_\Lambda \circ \widetilde{\mathcal{Z}}_\Lambda)$.
+
+But by the [[main theorem of perturbative renormalization]] (theorem \ref{PerturbativeRenormalizationMainTheorem})
+we know that there exists a [[vertex redefinition]] $\mathcal{Z}$ such that
+
+$$
+  \begin{aligned}
+    \widetilde{\mathcal{S}}
+    & = \mathcal{S} \circ \mathcal{Z}
+    \\
+    & =
+    \underset{\Lambda \to \infty}{\lim}
+    \left(
+      \mathcal{S}_\Lambda \circ \mathcal{Z}_\Lambda
+    \right)
+    \circ
+    \mathcal{Z}
+    \\
+    & =
+    \underset{\Lambda \to \infty}{\lim}
+    (
+      \mathcal{S}_\Lambda
+        \circ
+      (
+        \underset{
+          \widetilde{\mathcal{Z}}_\Lambda
+        }{
+        \underbrace{
+        \mathcal{Z}_\Lambda
+          \circ
+        \mathcal{Z}
+        }
+        }
+      )
+    )
+  \end{aligned}
+$$
+
+and hence with counterterms $\mathcal{Z}_\Lambda$ for $\mathcal{S}$ given, then counterterms for any $\widetilde{\mathcal{S}}$ are given by the composite $\widetilde{\mathcal{Z}}_\Lambda \coloneqq \mathcal{Z}_\Lambda \circ \mathcal{Z}$.
 
 =--
 
@@ -4749,6 +4798,7 @@ A vaguely related approach earlier appeared in
 
 [[!redirects EG-renormalization]]
 [[!redirects EG-renormalizations]]
+
 
 
 
