@@ -10,6 +10,8 @@
 
 ## related $n$Lab entries
 
+* [[4d supergravity]]
+
 * [[KLT relations]]
 
 * [[string theory results applied elsewhere]]
