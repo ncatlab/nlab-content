@@ -64,6 +64,8 @@ A review of flux compactifications is for instance in ([Gra&#241;a 05](#Grana05)
 
 > at least one thing missing in the discussion here is the subtlety explained out by [[Jacques Distler]] in blog dicussion [here](http://golem.ph.utexas.edu/category/2009/10/structural_foundations_of_quan.html#c028474)
 
+* [[cosmological constant]]
+
 * [[axionic landscape]]
 
 * [[string theory]]
@@ -134,7 +136,7 @@ Some general thoughts on what a [[moduli space]] of 2d CFTs should be are in
 
 The compactness results mentioned there are discussed in 
 
-* [[Yan Soibelman]], _Collapsing CFTs, spaces with non-negative Ricci curvature and nc geometry_ in [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ Proceedings of Symposia in Pure Mathematics, AMS (2011)
+* {#Soibelman11} [[Yan Soibelman]], _Collapsing CFTs, spaces with non-negative Ricci curvature and nc geometry_ in [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ Proceedings of Symposia in Pure Mathematics, AMS (2011)
 
 based on conjectures in 
 
@@ -182,7 +184,7 @@ That there are $10^{hundreds}$ different flux compactifications was maybe first 
 
 * [[Raphael Bousso]], [[Joseph Polchinski]], _Quantization of Four-form Fluxes and Dynamical Neutralization of the Cosmological Constant_ ([arXiv:hep-th/0004134](http://arxiv.org/abs/hep-th/0004134))
 
-The idea became popular with the articles
+The idea became popular in discussion of the [[cosmological constant]] with the articles
 
 * [[Leonard Susskind]], _The Anthropic Landscape of String Theory_ ([arXiv:hep-th/0302219](http://arxiv.org/abs/hep-th/0302219))
 
