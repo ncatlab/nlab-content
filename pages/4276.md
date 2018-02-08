@@ -1,5 +1,7 @@
 **[[algebraic quantum field theory]]** ([[perturbative AQFT|perturbative]], [[AQFT on curved spacetime|on curved spacetimes]], [[homotopical algebraic quantum field theory|homotopical]])
 
+[[A first idea of quantum field theory|Introduction]]
+
 ## Concepts
 
 **[[field theory]]**: [[classical field theory|classical]], [[prequantum field theory|pre-quantum]], [[quantum field theory|quantum]], [[perturbative quantum field theory|perturbative quantum]]
