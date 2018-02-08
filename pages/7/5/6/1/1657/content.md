@@ -19,7 +19,7 @@
 
 ## Idea
 
-Measure spaces are used in the general theory of measure and [[integration]], somewhat analogous to the role played by [[topological spaces]] in the study of continuity.
+In [[measure theory]], measure spaces are used in the general theory of measure and [[integration]], somewhat analogous to the role played by [[topological spaces]] in the study of continuity.
 
 For the general theory of measure spaces, we first need a _[[measurable space]]_ $(X, \Sigma)$, that is a [[set]] equipped with a collection $\Sigma$ of __measurable sets__ complete under certain operations.  Then this becomes a measure space $(X, \Sigma, \mu)$ by throwing in a [[function]] $\mu$ from $\Sigma$ to a space of values (such as the [[real line]]) that gets along with the set-theoretic operations that $\Sigma$ has.  If $E$ is a measurable set, then $\mu(E)$ is called the __measure__ of $E$ with respect to $\mu$.
 
