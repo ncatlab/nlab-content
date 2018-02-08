@@ -176,7 +176,7 @@ $$
   \,.
 $$
 
-By construction $\xhi_\lambda u$ coincides with $u$ away from a neighbourhood of the origin, which moreover becomes arbitrarily small as $\lambda$ increases.  This means that if the following [[limit of a sequence|limit]] exists
+By construction $\chi_\lambda u$ coincides with $u$ away from a neighbourhood of the origin, which moreover becomes arbitrarily small as $\lambda$ increases.  This means that if the following [[limit of a sequence|limit]] exists
 
 $$
   \hat u
