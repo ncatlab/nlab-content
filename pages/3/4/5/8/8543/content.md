@@ -1,4 +1,7 @@
 
+> This article is under construction.
+
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -13,11 +16,13 @@
 * table of contents
 {: toc}
 
-> This article is under construction.
 
 ## Idea
 
-If $(\Omega,\mathfrak{A},P)$ is a [[probability space]], the *conditional expectation* $E[X|\Sigma]$ of a (measurable) random variable $X$ with respect to some sub-$\sigma$-algebra $\Sigma\subseteq \mathfrak{A}$ is some measurable random variable which is a ''coarsened'' version of $X$. We can think of $E[X|\Sigma]$ as a random variable with the same [[domain]] but which is measured with a sigma algebra containing only restricted information on the original event since to some events in $\mathfrak{A}$ has been assigned probability $1$ or $0$ in a consistent way.
+In [[probability theory]] a _conditional expectation value_ or _conditional expectation_, for short, is like an _[[expectation value]]_ of some [[random variable]]/[[observable]], but _conditioned_ on the assumption that a certain event is assumed to have occured. 
+
+
+More technically: If $(\Omega,\mathfrak{A},P)$ is a [[probability space]], the *conditional expectation* $E[X|\Sigma]$ of a (measurable) random variable $X$ with respect to some sub-$\sigma$-algebra $\Sigma\subseteq \mathfrak{A}$ is some measurable random variable which is a ''coarsened'' version of $X$. We can think of $E[X|\Sigma]$ as a random variable with the same [[domain]] but which is measured with a sigma algebra containing only restricted information on the original event since to some events in $\mathfrak{A}$ has been assigned probability $1$ or $0$ in a consistent way.
 
 ## Conditional expectation relative to a random variable
 
@@ -292,6 +297,65 @@ $$\overline P_t (P_s(\omega,A))=P_{s+t} (\omega, A)$$
 where
 
 $$\overline P_t: P_s(\omega,-)\mapsto (A\mapsto\int_\Omega P_t (y,A) P_s(\omega,-)(d_y))$$
+
+
+## In quantum probability theory
+ {#InQuantumProbability}
+
+In the dual algebraic formulation of [[probability theory]] known as _[[noncommutative probability theory]]_ or _[[quantum probability theory]]_, where the concept of _[[expectation value]]_ is primitive (while that of the corresponding [[probability space]] (if it exists) is a derived concept), the concept of conditional expection appears as follows (e.g. [Redei-Summers 06, section 7.3](#RedeiSummers06)):
+
+
+Let $(\mathcal{A},\langle -\rangle)$ be a [[quantum probability space]], hence a [[complex numbers|complex]] [[star algebra]] $\mathcal{A}$ of [[quantum observables]], and a [[state on a star-algebra]] $\langle -\rangle \;\colon\; \mathcal{A} \to \mathbb{C}$.
+
+This means that for $A \in \mathcal{A}$ any [[observable]], its _[[expectation value]]_ in the given [[state on a star-algebra|state]] is 
+
+$$
+  \mathbb{E}(A) \;\coloneqq\;  \langle A \rangle \in \mathbb{C}
+  \,.
+$$
+
+More generally, if $P \in \mathcal{A}$ is a [[real part|real]] [[idempotent]]/[[projector]]
+
+$$
+  \label{RealIdempotent}
+  P^\ast = P
+  \,,
+  \phantom{AAA}
+  P P = P
+$$
+
+thought of as an event, then for any observable $A \in \mathcal{A}$ the [[conditional expectation value]] of $A$, conditioned on the observation of $P$, is 
+
+$$
+  \label{ConditionalExpectation}
+  \mathbb{E}(A \vert P)
+  \;\coloneqq\;
+  \frac{
+    \left \langle P A P \right\rangle
+  }{
+    \left\langle P \right\rangle
+  }
+  \,.
+$$
+
+
+## Related concepts
+
+* [[Bayesian reasoning]]
+
+* [[wavefunction collapse]]
+
+## References
+
+See also
+
+* Wikipedia, _[Conditional expectation](https://en.wikipedia.org
+/wiki/Conditional_expectation)_
+
+Discussion for [[quantum probability]] is in
+
+* {#RedeiSummers06} Miklos Redei, Stephen J. Summers, section 7.3 of _Quantum Probability Theory_ ([arXiv:quant-ph/0601158](https://arxiv.org/abs/quant-ph/0601158))
+
 
 [[!redirects conditional probability]]
 [[!redirects conditional probabilities]]
