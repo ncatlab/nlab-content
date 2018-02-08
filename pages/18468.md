@@ -38,7 +38,7 @@ What connects this to the traditional discussion of QFT is the observation (in e
 
 To put this into perspective, notice that formulation of [[quantum field theory]] has many aspects and perspectives. Two almost complementary threads are the following:
 
-**1) [[perturbation theory]] by means of [[formal geometry|formal]] [[Feynman diagram]] expansions of ([[Wick rotation|Wick rotated]]) [[path integrals]]**
+**1) [[perturbative QFT|perturbation theory]] by means of [[formal geometry|formal]] [[Feynman diagram]] expansions of ([[Wick rotation|Wick rotated]]) [[path integrals]]**
 
    This is the approach predominant in [[phenomenology]]. 
 
