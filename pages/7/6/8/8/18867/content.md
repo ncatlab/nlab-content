@@ -53,7 +53,7 @@ such that
 
    a non-degenerate positive-definite [[bilinear form]] on $V$ 
 
-   (necessarily symmetric, due to the other properties: $g(w,v) = \omega(w,J(v)) = -\omega(J(v),w) = + \omega(J(J(v)), J(w)) = \omega(w,J(w)) = g(v,w)$).
+   (necessarily symmetric, due to the other properties: $g(w,v) = \omega(w,J(v)) = -\omega(J(v),w) = - \omega(J(J(v)), J(w)) = \omega(w,J(w)) = g(v,w)$).
 
 =--
 
