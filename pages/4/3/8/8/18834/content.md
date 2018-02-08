@@ -2,17 +2,16 @@
 ## Renormalization
  {#Renormalization}
 
-> under construction
 
 In this chapter we discuss the following topics:
 
-* _[Epstein-Glaser renormalization](#EpsteinGlaserRenormalization)_.
+* _[Epstein-Glaser renormalization](#EpsteinGlaserRenormalization)_
 
 * _[Stückelberg-Petermann re-normalization](#SPRenormalizationGroup)_
 
-* _[UV-Regularization via Counterterms](#UVRegularizationViaZ)_.
+* _[UV-Regularization via Counterterms](#UVRegularizationViaZ)_
 
-* _[Wilson-Polchinski effective QFT flow](#EffectiveQFTFlowWislonian)_.
+* _[Wilson-Polchinski effective QFT flow](#EffectiveQFTFlowWislonian)_
 
 * _[Renormalization group flow](#RGFlowGeneral)_
 
@@ -919,9 +918,7 @@ $$
 
 becomes arbitrarily small.
 
-Finally to see that the unique extension $\hat u$ thus established has the same scaling degree as $u$:
-
-(...)
+It remains to see that the unique extension $\hat u$ thus established has the same scaling degree as $u$. This is shown in ([Brunetti-Fredenhagen 00, p. 24](extension+of+distributions#BrunettiFredenhagen00)).
 
 =--
 
@@ -1285,7 +1282,7 @@ $$
   \,.
 $$
 
-(...)
+This is shown in ([Brunetti-Fredenhagen 00, p. 25](extension+of+distributions#BrunettiFredenhagen00)).
 
 =--
 
@@ -2062,7 +2059,35 @@ such that:
 
 ([Dütsch 10, section 4](renormalization#Duetsch10))
 
-example:  relativistic momentum cutoff with $\epsilon$-regularization ([Keller-Kopper-Schophaus 97, section 6.1](#KellerKopperSchophaus97), [Dütsch 18, example 3.126](renormalization#Duetsch18))
+
++-- {: .num_example}
+###### Example
+**(relativistic momentum cutoff)**
+
+Recall from [this prop.](Feynman+propagator#FeynmanPropagatorAsACauchyPrincipalvalue)
+that the [[Fourier transform of distributions]] of the [[Feynman propagator]] for the [[real scalar field]] on [[Minkowski spacetime]] $\mathbb{R}^{p,1}$ is, 
+
+
+$$
+  \begin{aligned}
+  \widehat{\Delta}_F(k)
+  & =  
+  \frac{+i}{(2\pi)^{p+1}}
+  \frac{
+     1
+  }{
+    - \eta(k,k) - \left( \tfrac{m c}{\hbar} \right)^2 + i 0
+  }
+  \end{aligned}
+$$
+
+To produce a [[UV cutoff]]  in the sense of def. \ref{CutoffsUVForPerturbativeQFT} we would like to set this function to zero for [[wave numbers]] $\vert \vec k\vert$ (hence [[momenta]] $\hbar\vert \vec k\vert$) larger than a given $\Lambda$.
+
+This needs to be done with due care: First, the [[Paley-Wiener-Schwartz theorem]] (prop. \ref{PaleyWienerSchwartzTheorem}) says that  $\Delta_{F,\Lambda}$ to be a test function and hence compactly supported, its [[Fourier transform of distributions|Fourier transform]] $\widehat{\Delta}_{F,\Lambda}$ needs to be smooth and of bounded growth. So instead of multiplying $\widehat{\Delta}_F$ by a [[step function]] in $k$, we may multiply it with an exponential damping.
+
+=--
+
+([Keller-Kopper-Schophaus 97, section 6.1](UV+regularization#KellerKopperSchophaus97), [Dütsch 18, example 3.126](renormalization#Duetsch18))
 
 
 +-- {: .num_defn #SMatrixEffective}
