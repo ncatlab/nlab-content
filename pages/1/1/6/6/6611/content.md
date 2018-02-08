@@ -54,7 +54,7 @@ One can add additional terms arriving at what is called _massive 3d gravity mode
 
 A classical article on 3d [[gravity]] is 
 
-* S. Deser, R. Jackiw, [[Gerard 't Hooft]], _Three-dimensional Einstein gravity: Dynamics of flat space_, Ann. Phys. 152 (1984) 220.
+* [[Stanley Deser]], [[Roman Jackiw]], [[Gerard 't Hooft]], _Three-dimensional Einstein gravity: Dynamics of flat space_, Ann. Phys. 152 (1984) 220.
 
 The first correct (complete, i.e. non-[[perturbation theory|perturbative]]) quantization of 3-dimensional gravity, on manifolds of the product form $\Sigma \times \mathbb{R}$ appears in 
 
