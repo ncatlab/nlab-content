@@ -1,14 +1,10 @@
 **Categorial grammar** is a tradition in formal [[linguistics]] which draws inspiration from [[category theory]]. 
 
-Syntactic "calculus" for categorial grammars was introduced by Lambek formalizing the function [[type theory|type]] constructors.
-
-* [[Joachim Lambek]], _The mathematics of sentence structure_, Amer. Math. Monthly __65__, 154&#8211;170 (1958) [MR0106170](http://www.ams.org/mathscinet-getitem?mr=106170) [doi](http://dx.doi.org/10.2307/2310058) [jstor](http://www.jstor.org/stable/2310058)
-
-Derivation trees are encoded by [[string diagrams]].
+Syntactic "calculus" for categorial grammars was introduced by Lambek formalizing the function [[type theory|type]] constructors.  Derivation trees are encoded by [[string diagrams]].
 
 A seminal article, inspired by the structure of a (non-symmetric) [[biclosed monoidal category]] is:
 
-* [[Lambek]], J. (1958). The mathematics of sentence structure. American mathematical monthly, 154-170. [link](http://www.jstor.org/stable/2310058)
+* [[Joachim Lambek]], _The mathematics of sentence structure_, Amer. Math. Monthly __65__, 154&#8211;170 (1958) [MR0106170](http://www.ams.org/mathscinet-getitem?mr=106170) [doi](http://dx.doi.org/10.2307/2310058) [jstor](http://www.jstor.org/stable/2310058)
 
 The connection to biclosed monoidal categories is made explicit in:
 
