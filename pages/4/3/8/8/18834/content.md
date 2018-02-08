@@ -19,7 +19,7 @@ In this chapter we discuss the following topics:
 
 $\,$
 
-In the [previous chapter](#InteractingQuantumFields) we have seen that the construction of [[interacting quantum field theory|interacting]] [[perturbative quantum field theories]] is given by perturbative [[S-matrix schemes]] (def. \ref{LagrangianFieldTheoryPerturbativeScattering}), equivalently by [[time-ordered products]] (def. \ref{TimeOrderedProduct}) or equivalently by  [[Feynman amplitudes]] (prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints}), which are uniquely fixed away from coinciding interaction points by the given [[local observable|local]] [[interaction]] (prop. \ref{TimeOrderedProductAwayFromDiagonal}), but which involve further choices of interactions whenever interaction vertices coincide. This choice is called the choice of [[renormalization|("re"-)normalization]] (def. \ref{ExtensionOfTimeOrderedProoductsRenormalization}) in [[perturbative QFT]].
+In the [previous chapter](#InteractingQuantumFields) we have seen that the construction of [[interacting quantum field theory|interacting]] [[perturbative quantum field theories]] is given by perturbative [[S-matrix schemes]] (def. \ref{LagrangianFieldTheoryPerturbativeScattering}), equivalently by [[time-ordered products]] (def. \ref{TimeOrderedProduct}) or equivalently by  [[Feynman amplitudes]] (prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints}). These are uniquely fixed away from coinciding interaction points (prop. \ref{TimeOrderedProductAwayFromDiagonal}) by the given [[local observable|local]] [[interaction]] (prop. \ref{TimeOrderedProductAwayFromDiagonal}), but involve further choices of interactions whenever interaction vertices coincide (prop. \ref{RenormalizationIsInductivelyExtensionToDiagonal}). This choice is called the choice of [[renormalization|("re"-)normalization]] (def. \ref{ExtensionOfTimeOrderedProoductsRenormalization}) in [[perturbative QFT]].
 
 In this rigorous discussion no "infinite divergent quantities" (as in the original informal discussion due to [[Schwinger-Tomonaga-Feynman-Dyson]]) that need to be "re-normalized" to finite well-defined quantities are ever considered,
 instead finite well-defined quantities are considered right away, and the available space of choices is determined.
@@ -29,7 +29,7 @@ Actual re-normalization is the the change of such normalizations.
 
 
 The construction of [[perturbative QFTs]] may be explicitly described by an [[induction|inductive]] [[extension of distributions]]
-of [[time-ordered products]]/[[Feynman amplitudes]] to coinciding interaction points. This type of construction is called
+of [[time-ordered products]]/[[Feynman amplitudes]] to coinciding interaction points. This is called
 
 * _[Epstein-Glaser renormalization](#EpsteinGlaserRenormalization)_.
 
@@ -37,37 +37,37 @@ This inductive construction has the advantage that it gives accurate control ove
 of available choices of ("re"-)normalizations (theorem \ref{ExistenceRenormalization} below) but it
 leaves the nature of the "new interactions" that are to be chosen at coinciding interaction points somwewhat implicit.
 
-Alternatively, one may [[vertex redefinition|re-define the interactions]] explicitly (by adding "[[counterterms]]"),
-depending on a chosen [[UV cutoff]]-scale, and construct the [[limit of a sequence|limit]] as the "cutoff is removed".
-This is called ("re"-)normalization by
+Alternatively, one may [[vertex redefinition|re-define the interactions]] explicitly (by adding "[[counterterms]]", remark \ref{TermCounter} below),
+depending on a chosen [[UV cutoff]]-scale (def. \ref{CutoffsUVForPerturbativeQFT} below), and construct the [[limit of a sequence|limit]] as the "cutoff is removed" (prop. \ref{UVRegularization} below). This is called ("re"-)normalization by
 
 * _[UV-Regularization via Counterterms](#UVRegularizationViaZ)_.
 
-This still leaves open the question how to choose the [[counterterms]]. For this it serves to understand
-the [[relative effective action]] induced by the choice of [[UV cutoff]] at any given cutoff scale.
-The [[infinitesimal]] change of these [[relative effective actions]] follows a universal [[differential equation]],
-[[Polchinski's flow equation]] (prop. \ref{FlowEquationPolchinski} below). This makes the problem of ("re"-)normalization
+This still leaves open the question how to choose the [[counterterms]]. For that it serves to understand
+the _[[relative effective action]]_ induced by the choice of [[UV cutoff]] at any given cutoff scale (def. \ref{EffectiveActionRelative} below). This is the perspective of _[[effective quantum field theory]]_ (remark \ref{pQFTEffective} below).
+
+The [[infinitesimal]] change of these [[relative effective actions]] follows a universal [[differential equation]], known as 
+_[[Polchinski's flow equation]]_ (prop. \ref{FlowEquationPolchinski} below). This makes the problem of ("re"-)normalization
 be that of solving this [[differential equation]] subject to chosen initial data. This is the perspective on
 ("re"-)normalization called
 
 * _[Wilson-Polchinski effective QFT flow](#EffectiveQFTFlowWislonian)_.
 
-The [[main theorem of perturbative renormalization]] (theorem \ref{PerturbativeRenormalizationMainTheorem} below) states that different [[S-matrix schemes]]
-are precisely related by [[vertex redefinitions]]. This yields the
+The [[main theorem of perturbative renormalization]] (theorem \ref{PerturbativeRenormalizationMainTheorem} below) states that different [[S-matrix schemes]] are precisely related by [[vertex redefinitions]]. This yields the
 
 * _[Stückelberg-Petermann renormalization group](#SPRenormalizationGroup)_.
 
 If a sub-collection of [[renormalization schemes]] is parameterized by some [[group]] $RG$,
 then the [[main theorem of perturbative renormalization|main theorem]] implies [[vertex redefinitions]]
-depending on pairs of elements of $RG$ this is known as
+depending on pairs of elements of $RG$ (prop. \ref{FlowRenormalizationGroup} below). This is known as
 
 * _[Renormalization group flow](#RGFlowGeneral)_
 
-Specifically [[scaling transformations]] on [[Minkowski spacetime]] yields such a collection of [[renormalization schemes]];
+Specifically [[scaling transformations]] on [[Minkowski spacetime]] yield such a collection of [[renormalization schemes]] (prop. \ref{RGFlowScalingTransformations} below);
 the corresponding [[renormalization group flow]] is known as
 
 * _[Gell-Mann & Low RG flow](#ScalingTransformatinRGFlow)_.
 
+The [[infinitesimal]] behaviour of this flow is known as the _[[beta function]]_, describing the _[[running of the coupling constants]]_ with scale (def. \ref{CouplingRunning} below).
 
 $\,$
 
@@ -897,7 +897,7 @@ $$
   \,.
 $$
 
-By construction $\xhi_\lambda u$ coincides with $u$ away from a neighbourhood of the origin, which moreover becomes arbitrarily small as $\lambda$ increases.  This means that if the following [[limit of a sequence|limit]] exists
+By construction $\chi_\lambda u$ coincides with $u$ away from a neighbourhood of the origin, which moreover becomes arbitrarily small as $\lambda$ increases.  This means that if the following [[limit of a sequence|limit]] exists
 
 $$
   \hat u
@@ -1884,7 +1884,7 @@ The condition "perturbation" is immediate from the corresponding condition on $\
 
 Similarly the condition "field independence" follows immediately from the assumoption that $\mathcal{S}$ and $\mathcal{S}'$ satisfy this condition.
 
-It only remains to see that $Z_k$ indeed takes values in [[local observables]]. Give that the [[time-ordered products]] a priori take values in the larrger space of [[microcausal polynomial observables]] this means to show that the spacetime support of $Z_k$ is on the [[diagonal]].
+It only remains to see that $Z_k$ indeed takes values in [[local observables]]. Given that the [[time-ordered products]] a priori take values in the larrger space of [[microcausal polynomial observables]] this means to show that the spacetime support of $Z_k$ is on the [[diagonal]].
 
 But observe that, as indicated in the above formula, the term over the brace may be understood as the coefficient at order $k$ of the [[exponential series]]-expansion of the [[composition|composite]] $\mathcal{S} \circ \mathcal{Z}_{\lt k}$, where
 
