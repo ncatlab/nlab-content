@@ -251,7 +251,7 @@ $$
   \,.
 $$
 
-By prop. \ref{UnitaryGroupIsCompact} and by [this corolarry](QuotientProjectionForCompactLieSubgroupIsPrincipal) the projection $U(k)\to U(k)/U(k-n)$ is a [[Serre fibration]]. Therefore there is induced the [[long exact sequence of homotopy groups]] of this [[fiber sequence]], and by prop. \ref{InclusionOfUnitaryGroupnIntoUnitaryGroupnPlusIneIsnMinus1Equivalence} it has the following form in degrees bounded by $n$:
+By prop. \ref{UnitaryGroupIsCompact} and by [this corollary](QuotientProjectionForCompactLieSubgroupIsPrincipal) the projection $U(k)\to U(k)/U(k-n)$ is a [[Serre fibration]]. Therefore there is induced the [[long exact sequence of homotopy groups]] of this [[fiber sequence]], and by prop. \ref{InclusionOfUnitaryGroupnIntoUnitaryGroupnPlusIneIsnMinus1Equivalence} it has the following form in degrees bounded by $n$:
 
 $$
   \cdots
