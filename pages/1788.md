@@ -1,5 +1,19 @@
 
 
+$$
+  \frac{\delta}{\delta \phi}
+  \Gamma(\phi)
+  _{\vert \phi = \langle \mathbf{\Phi}_{int}\rangle}
+  = 
+  0
+$$
+
+$$
+  \langle \mathbf{\Phi}_{int}\rangle
+  =
+  \frac{\delta}{\delta J} W(J)
+$$
+
 [[GravityVertexCorrectionsForQED.png:file]]
 
 In conclusion this shows that a consistent choice of [[counterterms]] $\mathcal{Z}_\Lambda$ exists to produce
