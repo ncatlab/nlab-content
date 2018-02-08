@@ -278,13 +278,19 @@ Discussion of [[black hole]] horizons includes
 
 * [[Jan Gutowski]], [[George Papadopoulos]], _Static M-horizons_ ([arXiv:1106.3085](http://arxiv.org/abs/1106.3085))
 
-### Feynman amplitudes
+### Scattering amplitudes and Effective action
 
-Computation of [[Feynman amplitudes]]/[[scattering amplitudes]] in 11d supergravity:
+Computation of [[Feynman amplitudes]]/[[scattering amplitudes]] and [[effective action]] in 11d supergravity:
+
+* [[Stanley Deser]], [[Domenico Seminara]], _Counterterms/M-theory Corrections to D=11 Supergravity_, Phys.Rev.Lett.82:2435-2438, 1999 ([arXiv:hep-th/9812136](https://arxiv.org/abs/hep-th/9812136))
+
+* [[Stanley Deser]], [[Domenico Seminara]], _Tree Amplitudes and Two-loop Counterterms in D=11 Supergravity_, Phys.Rev.D62:084010, 2000 ([arXiv:hep-th/0002241](https://arxiv.org/abs/hep-th/0002241))
 
 * L. Anguelova, P. A. Grassi, P. Vanhove, _Covariant One-Loop Amplitudes in $D=11$_, Nucl. Phys. B702 (2004) 269-306 ([arXiv:hep-th/0408171](https://arxiv.org/abs/hep-th/0408171))
 
 * [[Kasper Peeters]], [[Jan Plefka]], Steffen Stern, _Higher-derivative gauge field terms in the M-theory action_, JHEP 0508 (2005) 095 ([arXiv:hep-th/0507178](https://arxiv.org/abs/hep-th/0507178))
+
+* Hamid R. Bakhtiarizadeh, _Gauge field corrections to eleven dimensional supergravity via dimensional reduction_ ([arXiv:1711.11313](https://arxiv.org/abs/1711.11313))
 
 ### Truncations and compactifications
 
