@@ -1,3 +1,7 @@
+
+
+[[GravityVertexCorrectionsForQED.png:file]]
+
 In conclusion this shows that a consistent choice of [[counterterms]] $\mathcal{Z}_\Lambda$ exists to produce
 _some_ S-matrix $\mathcal{S} = \underset{\Lambda \to \infty }{\lim} (\mathcal{S}_\Lambda \circ \mathcal{Z}_\Lambda)$.
 It just remains to see that for _every_ other S-matrix $\widetilde{\mathcal{S}}$ there exist counterterms
