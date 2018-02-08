@@ -120,9 +120,9 @@ $\,$
 
 **Acknowledgement**
 
-These notes profited greatly from discussions with [[Igor Khavkine]].
+These notes profited greatly from discussions with [[Igor Khavkine]] and [[Michael Dütsch]].
 
-Thanks also to [[Marco Benini]], [[Michael Dütsch]], [[Klaus Fredenhagen]], [[Arnold Neumaier]], [[Kasia Rejzner]] for helpful discussion.
+Thanks also to [[Marco Benini]], [[Klaus Fredenhagen]], [[Arnold Neumaier]] and [[Kasia Rejzner]] for helpful discussion.
 
 
 $\,$
@@ -165,8 +165,6 @@ $\,$
 [[!include A first idea of quantum field theory -- Interacting quantum fields]]
 
 [[!include A first idea of quantum field theory -- Renormalization]]
-
-[[!include A first idea of quantum field theory -- Quantum electrodynamics]]
 
 
 [[!redirects A first idea of quantum field theory]]
