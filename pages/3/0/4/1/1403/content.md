@@ -50,7 +50,7 @@ The microcosm principle is a general heuristic, but in some contexts, general ve
 
 ### For $n$-categorical operad algebras
 
-[Baez and Dolan](#BaezDolan) gave the following precise definition: for any [[operad]] $\mathcal{O}$, an $n$-categorical $\mathcal{O}$-algebra internal to an $(n+1))$-categorical $\mathcal{O}$-algebra $A$ is a [[lax morphism]] from the [[terminal object|terminal]] $(n+1))$-categorical $\mathcal{O}$-algebra to $A$.
+[Baez and Dolan](#BaezDolan) gave the following precise definition: for any [[operad]] $\mathcal{O}$, an $n$-categorical $\mathcal{O}$-algebra internal to an $(n+1)$-categorical $\mathcal{O}$-algebra $A$ is a [[lax morphism]] from the [[terminal object|terminal]] $(n+1)$-categorical $\mathcal{O}$-algebra to $A.$
 
 ### For categorical algebras over cartesian monads
 
