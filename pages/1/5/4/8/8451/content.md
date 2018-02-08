@@ -84,7 +84,11 @@ Of course, exchangeability may not represent the strength of one's prior beliefs
 
 ## Related entries
 
+* [[conditional expectation]]
+
 * [[Bayesian interpretation of quantum mechanics]]
+
+
 
 ## References
 
