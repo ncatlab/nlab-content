@@ -157,7 +157,7 @@ of the [[image]] of the [[diagonal]] inclusion $\Sigma \overset{diag}{\longright
 
 =--
 
-This statement appears in ([Popineau-Stora 82](#PopineauStora82)), with (unpublished) details in ([Stora 93](#Stora93)), following personal communication by [[Henri Epstein]] (according to [Dütsch 18, footnote 57](#Duetsch18)). Following this, statement and detailed proof appeared in ([Brunetti-Fredenhagen 99](#BrunettiFredenhagen99)).
+This statement appears in ([Popineau-Stora 82](#PopineauStora82)), with (unpublished) details in ([Stora 93](#Stora93)), following personal communication by [[Henri Epstein]] (according to [Dütsch 18, footnote 57](#Duetsch18)). Following this, statement and detailed proof appeared in ([Brunetti-Fredenhagen 00](#BrunettiFredenhagen00)).
 
 
 +-- {: .proof}
@@ -3415,10 +3415,10 @@ $$
   \label{RGConjugateSmatrix}
   \mathcal{S}_{\rho_{vac}}^\rho
   \;\coloneqq\;
-  \rg_\rho \circ \mathcal{S}_{\rho^{-1}\rho_{vac}} \circ rg_\rho^{-1}
+  rg_\rho \circ \mathcal{S}_{\rho^{-1}\rho_{vac}} \circ rg_\rho^{-1}
 $$
 
-is an [[S-matrix scheme]] around the vacuum labled by $\rho_{vac}$.
+is an [[S-matrix scheme]] around the vacuum labeled by $\rho_{vac}$.
 
 
 Since therefore each element $\rho \in RG$ in the [[group]] $RG$ picks a different choice of [[renormalization|normalization]]
@@ -4655,7 +4655,7 @@ This was formulated in terms of splittings of distributions. The equivalent form
 
 * {#Stora93} [[Raymond Stora]], _Differential algebras in Lagrangean field theory_, Lectures at ETH, Zürich, 1993, unpublished
 
-* {#BrunettiFredenhagen99} [[Romeo Brunetti]], [[Klaus Fredenhagen]], _Microlocal Analysis and Interacting Quantum Field Theories: Renormalization on Physical Backgrounds_, Commun. Math. Phys. 208:623-661 (2000) ([arXiv:math-ph/9903028](http://arxiv.org/abs/math-ph/9903028))
+* {#BrunettiFredenhagen00} [[Romeo Brunetti]], [[Klaus Fredenhagen]], _Microlocal Analysis and Interacting Quantum Field Theories: Renormalization on Physical Backgrounds_, Commun. Math. Phys. 208:623-661 (2000) ([arXiv:math-ph/9903028](http://arxiv.org/abs/math-ph/9903028))
 
 Exposition includes
 
