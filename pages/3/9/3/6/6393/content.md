@@ -67,7 +67,7 @@ The original articles that formulated the NSR model are
 
 Original articles that realize the local [[worldsheet]] [[supersymmetry]] of the spinning string include
 
-* S. Deser,; B. Zumino, . _A complete action for the spinning string_ Physics Letters B 65 (4): 369-373 (1976) ([pdf](http://cdsweb.cern.ch/record/201648/files/CM-P00061857.pdf?version=1)) 
+* [[Stanley Deser]], [[Bruno Zumino]], _A complete action for the spinning string_ Physics Letters B 65 (4): 369-373 (1976) ([pdf](http://cdsweb.cern.ch/record/201648/files/CM-P00061857.pdf?version=1)) 
 
 * L. Brink, P. Di Vecchia and [[Paul Howe]], _A locally supersymmetric and reparametrization invariant action for the spinning string_ , Physics Letters B Volume 65, Issue 5, 20 (1976) Pages 471-474 
 
