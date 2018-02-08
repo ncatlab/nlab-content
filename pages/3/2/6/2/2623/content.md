@@ -961,9 +961,7 @@ $$
 
 becomes arbitrarily small.
 
-Finally to see that the unique extension $\hat u$ thus established has the same scaling degree as $u$:
-
-(...)
+It remains to see that the unique extension $\hat u$ thus established has the same scaling degree as $u$. This is shown in ([Brunetti-Fredenhagen 00, p. 24](#BrunettiFredenhagen00)).
 
 =--
 
@@ -1327,7 +1325,7 @@ $$
   \,.
 $$
 
-(...)
+This is shown in ([Brunetti-Fredenhagen 00, p. 25](#BrunettiFredenhagen00)).
 
 =--
 
