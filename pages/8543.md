@@ -352,9 +352,9 @@ See also
 * Wikipedia, _[Conditional expectation](https://en.wikipedia.org
 /wiki/Conditional_expectation)_
 
-Discussion for [[quantum probability]] is in
+Discussion form the point of view of [[quantum probability]] is in
 
-* {#RedeiSummers06} Miklos Redei, Stephen J. Summers, section 7.3 of _Quantum Probability Theory_ ([arXiv:quant-ph/0601158](https://arxiv.org/abs/quant-ph/0601158))
+* {#RedeiSummers06} [[Miklos Redei]], [[Stephen Summers]], section 7.3 of _Quantum Probability Theory_ ([arXiv:quant-ph/0601158](https://arxiv.org/abs/quant-ph/0601158))
 
 
 [[!redirects conditional probability]]
