@@ -20,7 +20,7 @@
 
 ## Idea
 
-In [[physics]] one speakes of a _parent action functional_ ([Deser-Jackiw 84](#DeserJackiw84)) when referring to an [[action functional]] $S_{par}$ which, by solving the [[equations of motion]] of two different sets of its "auxiliary" [[field (physics)|fields]], is classically equivalent to two different-looking action functionals $S_A$ and $S_B$, thereby exhibiting $S_A$ and $S_B$ as classically equivalent to each other. Hence a parent action functional constitutes a [[correspondence]] between two action functionals 
+In [[physics]] one speakes of a _parent action functional_ ([Deser-Jackiw 84](#DeserJackiw84)) when referring to an [[action functional]] $S_{par}$ which, by solving the [[equations of motion]] of two different sets of its "[[auxiliary fields|auxiliary]]" [[field (physics)|fields]], is classically equivalent to two different-looking action functionals $S_A$ and $S_B$, thereby exhibiting $S_A$ and $S_B$ as classically equivalent to each other. Hence a parent action functional constitutes a [[correspondence]] between two action functionals 
 
 $$
   \array{
