@@ -5,7 +5,7 @@
 
 In this chapter we discuss the following topics:
 
-* _[Epstein-Glaser renormalization](#EpsteinGlaserRenormalization)_
+* _[Epstein-Glaser normalization](#EpsteinGlaserRenormalization)_
 
 * _[Stückelberg-Petermann re-normalization](#SPRenormalizationGroup)_
 
@@ -19,7 +19,7 @@ In this chapter we discuss the following topics:
 
 $\,$
 
-In the [previous chapter](#InteractingQuantumFields) we have seen that the construction of [[interacting quantum field theory|interacting]] [[perturbative quantum field theories]] is given by perturbative [[S-matrix schemes]] (def. \ref{LagrangianFieldTheoryPerturbativeScattering}), equivalently by [[time-ordered products]] (def. \ref{TimeOrderedProduct})  [[Feynman amplitudes]] (prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints}) , which are uniquely fixed away from coinciding interaction points by the given [[local observable|local]] [[interaction]] (prop. \ref{TimeOrderedProductAwayFromDiagonal}), but which involve further choices of interactions whenever interaction vertices coincide. This choice is called the choice of [[renormalization|("re"-)normalization]] (def. \ref{ExtensionOfTimeOrderedProoductsRenormalization}) in [[perturbative QFT]].
+In the [previous chapter](#InteractingQuantumFields) we have seen that the construction of [[interacting quantum field theory|interacting]] [[perturbative quantum field theories]] is given by perturbative [[S-matrix schemes]] (def. \ref{LagrangianFieldTheoryPerturbativeScattering}), equivalently by [[time-ordered products]] (def. \ref{TimeOrderedProduct}) or equivalently by  [[Feynman amplitudes]] (prop. \ref{FeynmanPerturbationSeriesAwayFromCoincidingPoints}), which are uniquely fixed away from coinciding interaction points by the given [[local observable|local]] [[interaction]] (prop. \ref{TimeOrderedProductAwayFromDiagonal}), but which involve further choices of interactions whenever interaction vertices coincide. This choice is called the choice of [[renormalization|("re"-)normalization]] (def. \ref{ExtensionOfTimeOrderedProoductsRenormalization}) in [[perturbative QFT]].
 
 In this rigorous discussion no "infinite divergent quantities" (as in the original informal discussion due to [[Schwinger-Tomonaga-Feynman-Dyson]]) that need to be "re-normalized" to finite well-defined quantities are ever considered,
 instead finite well-defined quantities are considered right away, and the available space of choices is determined.
@@ -34,7 +34,7 @@ of [[time-ordered products]]/[[Feynman amplitudes]] to coinciding interaction po
 * _[Epstein-Glaser renormalization](#EpsteinGlaserRenormalization)_.
 
 This inductive construction has the advantage that it gives accurate control over the space
-of available choices of renormalizations (theorem \ref{ExistenceRenormalization} below) but it
+of available choices of ("re"-)normalizations (theorem \ref{ExistenceRenormalization} below) but it
 leaves the nature of the "new interactions" that are to be chosen at coinciding interaction points somwewhat implicit.
 
 Alternatively, one may [[vertex redefinition|re-define the interactions]] explicitly (by adding "[[counterterms]]"),
@@ -3399,10 +3399,10 @@ $$
   \label{RGConjugateSmatrix}
   \mathcal{S}_{\rho_{vac}}^\rho
   \;\coloneqq\;
-  \rg_\rho \circ \mathcal{S}_{\rho^{-1}\rho_{vac}} \circ rg_\rho^{-1}
+  rg_\rho \circ \mathcal{S}_{\rho^{-1}\rho_{vac}} \circ rg_\rho^{-1}
 $$
 
-is an [[S-matrix scheme]] around the vacuum labled by $\rho_{vac}$.
+is an [[S-matrix scheme]] around the vacuum labeled by $\rho_{vac}$.
 
 
 Since therefore each element $\rho \in RG$ in the [[group]] $RG$ picks a different choice of [[renormalization|normalization]]
