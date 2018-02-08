@@ -27,10 +27,9 @@ The best way to contact me is to send an email to <schreiber@math.cas.cz> or to 
 </a>
 </div>
 
-I am researcher in the department _[Algebra, Geometry and Mathematical Physics](http://www.math.cas.cz/recherche/equipe.php?id_equipe=18&lang=0)_
+I am permanent researcher in the department _[Algebra, Geometry and Mathematical Physics](http://www.math.cas.cz/recherche/equipe.php?id_equipe=18&lang=0)_
 of the [Institute of Mathematics](http://www.math.cas.cz/recherche/equipe.php?id_equipe=18&lang=0) at the [Czech Academy of the Sciences](http://www.cas.cz/index.html) (CAS) in [Prague](https://en.wikipedia.org/wiki/Prague).
 
-Presently I am on leave at the [Max Planck Institute for Mathematics in Bonn](https://www.mpim-bonn.mpg.de).
 
 
 ## my research {#myresearch}
