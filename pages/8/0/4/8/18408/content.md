@@ -53,3 +53,7 @@ The statement is due to
 with reference to arguments in
 
 * {#Susskind96} [[Leonard Susskind]], _Trouble For Remnants_ ([arXiv:hep-th/9501106](https://arxiv.org/abs/hep-th/9501106))
+
+Further discussion includes
+
+* Clifford Cheung, Junyu Liu, Grant N. Remmen, _Proof of the Weak Gravity Conjecture from Black Hole Entropy_ ([arXiv:1801.08546](https://arxiv.org/abs/1801.08546))
