@@ -5,6 +5,12 @@
 
 * [[Schrödinger representation]]
 
+* [[quantum probability]]
+
+* [[conditional expectation]]
+
+* [[wavefunction collapse]]
+
 category: people
 
 [[!redirects Miklos Redei]]
