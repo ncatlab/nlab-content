@@ -29,7 +29,7 @@ The basic idea is to encode a would-be [[probability space]] [[Isbell duality|du
 
 $$
   \langle
-    (-) 
+    -
   \rangle
   \;\colon\;
   \mathcal{A}
@@ -52,7 +52,7 @@ The formulation of [[perturbative quantum field theory]] from the algebraic pers
 
 ### Conditional expectation and Wave function collapse
 
-There is a close relation between [[wave function collapse]] and [[conditional expectation values]] in [[quantum probability]] (e.g. [Kuperberg 05, section 1.2](#Kuperberg 05), [Yuan 12](#Yuan12)):
+There is a close relation between [[wave function collapse]] and [[conditional expectation values]] in [[quantum probability]] (e.g. [Kuperberg 05, section 1.2](#Kuperberg05), [Yuan 12](#Yuan12)):
 
 Let $(\mathcal{A},\langle -\rangle)$ be a [[quantum probability space]], hence a [[complex numbers|complex]] [[star algebra]] $\mathcal{A}$ of [[quantum observables]], and a [[state on a star-algebra]] $\langle -\rangle \;\colon\; \mathcal{A} \to \mathbb{C}$.
 
@@ -178,7 +178,10 @@ A textbook account is
 
 * {#Landsman17} [[Klaas Landsman]], _Foundations of quantum theory -- From classical concepts to Operator algebras_, Springer Open 2017 ([pdf](https://link.springer.com/content/pdf/10.1007%2F978-3-319-51777-3.pdf))
 
+[[!redirects quantum probabilities]]
+
 [[!redirects quantum probability theory]]
+[[!redirects quantum probability theories]]
 
 [[!redirects quantum probability space]]
 [[!redirects quantum probability spaces]]
@@ -188,4 +191,10 @@ A textbook account is
 
 [[!redirects non-commutative probability space]]
 [[!redirects non-commutative probability spaces]]
+
+[[!redirects noncommutative probability theory]]
+[[!redirects noncommutative probability theories]]
+
+[[!redirects non-commutative probability theory]]
+[[!redirects non-commutative probability theories]]
 
