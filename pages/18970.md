@@ -189,10 +189,10 @@ $$
   \label{RGConjugateSmatrix}
   \mathcal{S}_{\rho_{vac}}^\rho
   \;\coloneqq\;
-  \rg_\rho \circ \mathcal{S}_{\rho^{-1}\rho_{vac}} \circ rg_\rho^{-1}
+  rg_\rho \circ \mathcal{S}_{\rho^{-1}\rho_{vac}} \circ rg_\rho^{-1}
 $$
 
-is an [[S-matrix scheme]] around the vacuum labled by $\rho_{vac}$.
+is an [[S-matrix scheme]] around the vacuum labeled by $\rho_{vac}$.
 
 
 Since therefore each element $\rho \in RG$ in the [[group]] $RG$ picks a different choice of [[renormalization|normalization]]
