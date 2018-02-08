@@ -2103,7 +2103,7 @@ such that:
 
 ([Dütsch 10, section 4](#Duetsch10))
 
-example:  relativistic momentum cutoff with $\epsilon$-regularization ([Keller-Kopper-Schophaus 97, section 6.1](#KellerKopperSchophaus97), [Dütsch 18, example 3.126](#Duetsch18))
+example:  relativistic momentum cutoff with $\epsilon$-regularization ([Keller-Kopper-Schophaus 97, section 6.1](UV+regularization#KellerKopperSchophaus97), [Dütsch 18, example 3.126](#Duetsch18))
 
 
 +-- {: .num_defn #SMatrixEffective}
