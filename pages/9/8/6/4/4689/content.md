@@ -87,7 +87,7 @@ As a result, the field of fundamental physics today finds itself in a somewhat a
 
 The corrections of [[loop order|1-loop]] [[perturbative QFT|perturbative]] quantum gravity to the [[anomalous magnetic moment]] of the [[electron]] and the [[muon]] have been computed in ([Berends-Gastman 75](#BerendsGastman75)) and found to be finite, without need for [[renormalization]]. These [[Feynman diagrams]] contribute:
 
-<img src="https://www.physicsforums.com/attachments/gravityvertexcorrectionsforqed-png.219804/">
+<img src="https://ncatlab.org/nlab/files/GravityVertexCorrectionsForQED.png" width="750">
 
 
 ## Special cases
