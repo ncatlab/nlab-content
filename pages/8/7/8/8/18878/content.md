@@ -515,7 +515,7 @@ The condition "perturbation" is immediate from the corresponding condition on $\
 
 Similarly the condition "field independence" follows immediately from the assumoption that $\mathcal{S}$ and $\mathcal{S}'$ satisfy this condition.
 
-It only remains to see that $Z_k$ indeed takes values in [[local observables]]. Give that the [[time-ordered products]] a priori take values in the larrger space of [[microcausal polynomial observables]] this means to show that the spacetime support of $Z_k$ is on the [[diagonal]].
+It only remains to see that $Z_k$ indeed takes values in [[local observables]]. Given that the [[time-ordered products]] a priori take values in the larrger space of [[microcausal polynomial observables]] this means to show that the spacetime support of $Z_k$ is on the [[diagonal]].
 
 But observe that, as indicated in the above formula, the term over the brace may be understood as the coefficient at order $k$ of the [[exponential series]]-expansion of the [[composition|composite]] $\mathcal{S} \circ \mathcal{Z}_{\lt k}$, where
 
@@ -636,7 +636,7 @@ $$
   \right)
 $$
 
-Hence only for vaishing [[mass]] do these "renormalization cocycles" themselves form an actual [[renormalization group]].
+Hence only for vanishing [[mass]] do these "renormalization cocycles" themselves form an actual [[renormalization group]].
 
 =--
 
@@ -710,7 +710,7 @@ $$
   \end{aligned}
 $$
 
-To conclude, it is now sufficient to see that the perturbative S-matrix $S_{vac(m)}$, as a function form [[interaction]] [[Lagrangian densities]] to [[Wick algebra]]-elements, is an [[injective function]]. (...)
+This demonstrates the equation between vertex redefinitions to be shown after [[composition]] with an S-matrix scheme. But by the uniqueness-clause in the [[main theorem of perturbative renormalization]] the composition operation $\mathcal{S}_{\rho_{vac}} \circ (-)$ as a function from [[vertex redefinitions]] to S-matrix schemes is [[injective function|injective]]. This implies the equation itself.
 
 =--
 
