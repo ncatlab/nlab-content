@@ -601,6 +601,19 @@ with further developments in
 
 * [[Ashoke Sen]], _Reality of Superstring Field Theory Action_ ([arXiv:1606.03455](http://arxiv.org/abs/1606.03455))
 
+### Effective field theory
+
+Discussion of Wilsonian [[effective field theory]] of string field theory includes
+
+* R. Brustein, S.P.De Alwis, _Renormalization group equation and non-perturbative effects in string-field theory_, Nuclear Physics B
+Volume 352, Issue 2, 25 March 1991, Pages 451-468 (<a href="https://doi.org/10.1016/0550-3213(91)90451-3">doi:10.1016/0550-3213(91)90451-3</a>)
+
+* Brustein and K. Roland, ?Space-time versus world sheet renormalization group equation in string theory,? Nucl. Phys. B372, 201 (1992) (<a href="https://doi.org/10.1016/0550-3213(92)90317-5">doi:10.1016/0550-3213(92)90317-5</a>)
+
+* {#Sen16} [[Ashoke Sen]], _Wilsonian Effective Action of Superstring Theory_, J. High Energ. Phys. (2017) 2017: 108 ([arXiv:1609.00459](https://arxiv.org/abs/1609.00459))
+
+
+
 ### Relation to $A_\infty$- and $L_\infty$-algebras
  {#ReferencesHomotopyAlgebra}
 
