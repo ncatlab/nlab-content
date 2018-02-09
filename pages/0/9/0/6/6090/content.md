@@ -5754,7 +5754,34 @@ of [[Feynman amplitudes]] that are labeled only by the _[[connected graphs]]_  $
 
 =--
 
-The terminology "effective action" is due to the following fact:
++-- {: .num_remark #TerminologyForEffectiveAction}
+###### Remark
+**(terminology for "effective action")**
+
+Beware differing conventions of terminology:
+
+1. In [[effective quantum field theory]], the [[effective action]] in def. \ref{InPerturbationTheoryActionEffective} is sometimes called the _effective potential_ at scale $\Lambda = 0$ (see [this prop.](InPerturbationTheoryActionEffective)). 
+
+   This terminology originates in restriction to the special example of the [[scalar field]], where the typical non-derivative [[Phi^n interactions]] $g S_{int} = \underset{n}{\sum} \underset{\Sigma}{\int} g_{sw}^{(n)}(x) (\mathbf{\Phi}(x))^n \, dvol_\Sigma(x)$ are naturally thought of as [[potential energy]]-terms.
+
+   From this perspective the [[effective action]] in def. \ref{InPerturbationTheoryActionEffective} is a special case of _[[relative effective actions]]_ $S_{eff,\Lambda}$ ("relative effective potentials", in the case of [[Phi^n interactions]]) relative to an arbitrary [[UV cutoff]]-scales $\Lambda$ ([this def.](effective+quantum+field+theory#EffectiveActionRelative)).
+
+1. For the special case that 
+
+   $$
+     j A 
+       \coloneqq 
+     \underset{\Sigma}{\int} j_{sw,a}(x) \mathbf{\Phi}^a(x)\, dvol_{\Sigma}(x)
+   $$
+  
+   is a [[regular polynomial observable|regular]] [[linear observable]] ([this def.](A+first+idea+of+quantum+field+theory#RegularLinearFieldObservables)) the [[effective action]] according to def. \ref{InPerturbationTheoryActionEffective} is often denoted $W(j)$ or $E(j)$, and then its _functional [[Legendre transform]]_ (if that makes sense) is instead called the effective action, instead.
+
+   This is because the latter encodes the [[equations of motion]] for the [[vacuum expectation values]] $\langle \mathbf{\Phi}(x)_int\rangle$ of the [[interacting field observables|interacting]] [[field observables]]; we discuss this as example \ref{EquationsOfMotionForVacuumExpectationValues} below.
+
+Notice the different meaning of "effective" in both cases: In the first case it refers to what is effectively seen of the full [[pQFT]] _at some [[UV-cutoff scale]]_, while in the second case it refers to what is effectively seen when restricting attention only to the [[vacuum expectation values]] of [[regular polynomial observable|regular]] [[linear observables]].
+
+=--
+
 
 +-- {: .num_prop #LogarithmEffectiveAction}
 ###### Proposition
@@ -5999,7 +6026,7 @@ $$
   \end{aligned}
 $$ 
 
-is the smearing of a [[field observable]] ([this def.](A+first+idea+of+quantum+field+theory#PointEvaluationObservables)) by an [[adiabatic switching]] of the [[source field]]
+is a [[regular polynomial observable|regular]] [[linear observable]] ([this def.](A+first+idea+of+quantum+field+theory#RegularLinearFieldObservables)), hence the smearing of a [[field observable]] ([this def.](A+first+idea+of+quantum+field+theory#PointEvaluationObservables)) by an [[adiabatic switching]] of the [[source field]]
 
 $$
   j_{sw} \;\in\; C^\infty_{cp}(\Sigma) \langle j\rangle
@@ -6057,7 +6084,7 @@ $$
 This may be read as a quantum version of the [[principle of extremal action]] ([this prop.](A+first+idea+of+quantum+field+theory#PrincipleOfExtremalAction))
 formulated now not for the [[field histories]] $\Phi(x)$, but for the [[vacuum expectation values]] $\langle \mathbf{\Phi}(x)_{int}\rangle$ of their corresponding [[interacting quantum field observables]].
 
-Beware that many texts refer to $\Gamma(\Phi)$ as the _effective action_, a [[Legendre transform]] of a special case of what is called the effective action in def. \ref{InPerturbationTheoryActionEffective}. Referring to the latter as the efective action matches well with the perspective of [[effective quantum field theory]], see [this prop.](effective+quantum+field+theory#EffectiveActionAsRelativeEffectiveAction).
+Beware, (as in remark \ref{TerminologyForEffectiveAction}) that many texts refer to $\Gamma(\Phi)$ as the _effective action_, instead of its [[Legendre transform]], the generating functional $W(j_{sw})$. 
 
 =--
 
