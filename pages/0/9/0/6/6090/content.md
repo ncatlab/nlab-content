@@ -7574,6 +7574,8 @@ From ([Weinberg 09, p. 11](#Weinberg09)):
 
 * [[scattering amplitude]], [[Feynman diagram]], [[string scattering amplitude]],
 
+* [[crossing symmetry]]
+
 * [[AdS-CFT]]
 
 * [string theory FAQ -- What are the equations of string theory?](string%20theory%20FAQ#WhatAreTheEquations)
@@ -7715,7 +7717,7 @@ An entertaining account of some of the history and the sociology of S-matrix the
 
 
 [[!redirects S-matrices]]
-
+\
 
 [[!redirects scattering matrix]]
 [[!redirects scattering matrices]]
