@@ -26,6 +26,16 @@ $$
   \,.
 $$
 
+## Properties
+
+### Renormalization and Vacuum energy
+
+
+The [[renormalization]] freedom in [[perturbative QFT|perturbative]] [[quantization]] of [[gravity]] ([[perturbative quantum gravity]]) induces freedom in the choice of [[vacuum expectation value]] of the stress-energy tensor and hence in the [[cosmological constant]]. 
+
+For details see [there](cosmological+constant#InPerturbativeQuantumGravity).
+
+
 ## Details
 
 * For the [[scalar field]]: see at _[[geometry of physics -- A first idea of quantum field theory]]_ [this example](geometry+of+physics+--+A+first+idea+of+quantum+field+theory#ScalarFieldEnergyMomentum)
