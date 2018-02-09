@@ -3,12 +3,18 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Physics
+#### Gravity
 +--{: .hide}
-[[!include physicscontents]]
+[[!include gravity contents]]
+=--
+#### Algebraic Quantum Field Theory
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
 =--
 =--
 =--
+
+
 
 #Contents#
 * table of contents
@@ -16,19 +22,21 @@
 
 ## Definition
 
-In an [[action functional]] on a space of [[pseudo-Riemannian manifolds]] -- such as the [[Einstein-Hilbert action]] functional for [[gravity]] -- a **cosmological constant** is a term proportional to the [[volume]]
+### In classical gravity
+
+In an [[action functional]] on a space of [[pseudo-Riemannian manifolds]] -- such as the [[Einstein-Hilbert action]] functional for [[gravity]] -- a **cosmological constant** is a term proportional to the [[volume]] 
 
 $$
-  S_{cos} :  (X,g) \mapsto \lambda \int_X dvol_g
+  S_{cc} :  (X,g) \mapsto \lambda \int_X dvol_g
   \,,
 $$
 
 where $\lambda \in \mathbb{R}$ is the _cosmological constant_ .
 
-For instance pure Einstein-Hilbert gravity with cosmological constant (and not other fields) is given by the functional
+For instance pure Einstein-Hilbert gravity with cosmological constant (and no other fields) is given by the functional
 
 $$
-  S_{EH} + S_{cos} :  (X,g) \mapsto \int_X R dvol + \lambda \int_X d vol_g
+  S_{EH} + S_{cos} :  (X,g) \mapsto \int_X R\, dvol + \lambda \int_X d vol_g
   \,,
 $$
 
@@ -41,11 +49,24 @@ $$
 
 In this context those solutions to the [[Euler-Lagrange equation]]s are of interest in which $\lambda(\phi)$ happens to be exactly or approximately constant. Many such models of not-really-constant-but-effectively-constant terms proportional to the volume are being proposed and considered in attempts to explain observed or speculated dynamics of the cosmos.
 
-See in particular at [[FRW model]] for the role of the cosmological constant in homogeneous and isotropic models as in the [[standard model of cosmology]]. In that context the cosmological constant is also called the _dark energy_ (density), which makes up about 70% of the energy density of the [[observable universe]] (the rest being [[dark matter]]) and a comparatively little bit of [[baryon|baryonic]] [[matter]].
+See in particular at _[[FRW model]]_ for the role of the cosmological constant in homogeneous and isotropic models as in the [[standard model of cosmology]]. In that context the cosmological constant is also called the _dark energy_ (density), which makes up about 70% of the energy density of the [[observable universe]] (the rest being [[dark matter]]) and a comparatively little bit of [[baryon|baryonic]] [[matter]].
+
+
+### In perturbative quantum gravity
+ {#InPerturbativeQuantumGravity}
+
+In [[perturbative quantum field theory]] [[QFT on curved spacetime]] the cosmological constant receives contributions from the [[vacuum expectation value]] of the [[stress-energy tensor]] of the any [[matter]] [[field (physics)|fields]]. There is [[renormalization]]-freedom in this contribution  ([Wald 78](#Wald78), [Dappiaggi-Fredenhagen-Pinamonti 08](#DappiaggiFredenhagenPinamonti08), [Dappiagi-Hack-Moeller-Pinamonti 10](#DappiagiHackMollerPinamonti10)). 
+
+This means that apart from the freedom of choosing a classical comsological constant in the [[Einstein-Hilbert action]] as above, its [perturbative quantization](A+first+idea+of+quantum+field+theory#InteractingQuantumFields) ([[perturbative quantum gravity]]) introduces [[renormalization]] freedom to the value of the cosmological constant.
+
+The folklore discussion of the "cosmological constant problem" (see the references [below](#CCProblemReferences)) tends not to take this freedom in the theory into account.
+
+### Observation
 
 <img src="http://ncatlab.org/nlab/files/DarkEnergyConcordance.gif" width="500">
 
 (e.g. [Einasto 09, fig 17](#Einasto09))
+
 
 ## Related concepts
 
@@ -59,10 +80,33 @@ See in particular at [[FRW model]] for the role of the cosmological constant in 
 
 ## References
 
-### On the Cosmological constant problem
+
+### In pAQFT
+ {#ReferencedInpAQFT}
+
+Discussion of the cosmological constant in the rigorous formulation of [[perturbative AQFT]] [[AQFT on curved spacetimes|on curved spacetimes]] includes the following.
+
+The freedom of [[renormalization]] of the [[vacuum expectation value]] of any [[stress-energy tensor]], hence of the cosmological constant, was discussed in
+
+* {#Wald78} [[Robert Wald]], _Trace anomaly of a conformally invariant quantum field in curved spacetime_, Phys. Rev. D 17, 1477 1978 ([doi:10.1103/PhysRevD.17.1477](https://doi.org/10.1103/PhysRevD.17.1477))
+
+Notice that ([Wald 78](#Wald78)) is based on 
+
+* {#Wald77} [[Robert Wald]], _The back reaction effect in particle creation in curved spacetime_, Commun. Math. Phys. (1977) 54: 1. ([doi:10.1007/BF01609833](https://doi.org/10.1007/BF01609833))
+
+which claimed _no_ freedom of renormalization, but [Wald 78](#Wald78) explains that this was due to a mistake inherited from a citation.
+
+Realization of renormalization of stress-energy/cosmological constant in concrete [[FRW models]] is discussed in
+
+* {#DappiaggiFredenhagenPinamonti08} [[Claudio Dappiaggi]], [[Klaus Fredenhagen]], [[Nicola Pinamonti]], _Stable cosmological models driven by a free quantum scalar field_, Phys. Rev. D77:104015, 2008 ([arXiv:0801.2850](https://arxiv.org/abs/0801.2850))
+
+* {#DappiagiHackMollerPinamonti10} [[Claudio Dappiaggi]], Thomas-Paul Hack, Jan Möller, [[Nicola Pinamonti]], _Dark Energy from Quantum Matter_ ([arXiv:1007.5009](https://arxiv.org/abs/1007.5009))
+
+
+### The "cosmological constant problem"
  {#CCProblemReferences}
 
-Discussion of the experimentally observed tiny cosmological constant and the issue with its theoretical explanation includes
+Discussion of the experimentally observed tiny cosmological constant and the folklore theoretical problem with that includes the following
 
 * Subir Sarkar, _New results in cosmology_ ([arXiv:hep-ph/0201140](https://arxiv.org/abs/hep-ph/0201140))
 
