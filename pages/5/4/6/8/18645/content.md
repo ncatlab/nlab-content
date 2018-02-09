@@ -4,9 +4,17 @@
 
 These notes mean to give an expository but rigorous introduction to the basic concepts
 of [[relativistic quantum field theory|relativistic]] [[perturbative quantum field theories]], specifically those
-that arise as the [[perturbative quantum field theory|perturbative]] [[quantization]] of a _[[Lagrangian field theory]]_
+that arise as the [[perturbative quantum field theory|perturbative]] [[quantization]] of _[[Lagrangian field theories]]_
 -- such as [[quantum electrodynamics]], [[quantum chromodynamics]], and [[perturbative quantum gravity]]
 appearing in the [[standard model of particle physics]].
+
+$\,$
+
+#Contents#
+* table of contents
+{:toc}
+
+$\,$
 
 For broad introduction of the idea of the topic of _[[perturbative quantum field theory]]_ see [[perturbative quantum field theory|there]] and see
 
@@ -126,11 +134,7 @@ Thanks also to [[Marco Benini]], [[Klaus Fredenhagen]], [[Arnold Neumaier]] and 
 
 
 $\,$
-$\,$
 
-#A first idea of quantum field theory#
-* table of contents
-{:toc}
 
 $\,$
 
