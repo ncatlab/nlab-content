@@ -80,18 +80,70 @@ This follows easily from the observation that we can invert $1 + x b$ for any po
 
 +-- {: .num_prop} 
 ###### Proposition 
-$R[ [x_1, \ldots, x_n] ]$ equipped with the ideal $(x_1, \ldots, x_n)$ is the free [[formal group law|adic]] $R$-algebra on $n$ generators, in the sense that it is the value of the left adjoint to the forgetful functor 
+$R[ [x_1, \ldots, x_n] ]$ equipped with the ideal $(x_1, \ldots, x_n)$ is the free [[formal group law|adic]] $R$-algebra on $n$ generators, in the sense that it is the value of the left adjoint $Pow$ to the forgetful functor 
 
-$$AdicRAlg \to Set: (A, I) \mapsto I$$ 
+$$Ideal: AdicRAlg \to Set: (A, I) \mapsto I$$ 
 
-at the set $\{x_1, \ldots, x_n\}$. 
+as applied to the set $\{x_1, \ldots, x_n\}$. 
 =-- 
 
++-- {: .proof} 
+###### Proof 
 The idea is that for each adic $R$-algebra $(S, I)$ and element $(s_1, \ldots s_n) \in I^n$, there is a unique adic algebra map $R[ [x_1, \ldots, x_n] ] \to S$ that sends $x_i$ to $s_i$; this adic algebra map sends a power series $\sum a_{k_1, \ldots, k_n} x_1^{k_1} x_n^{k_n}$ to the sequence of truncations 
 
 $$\left(\sum_{k_1 + \ldots + k_n \lt k} a_{k_1, \ldots, k_n} s_1^{k_1} \ldots s_n^{k_n} \mod I^k\right)_k$$ 
 
 belonging to $\underset{\longleftarrow}{\lim}_k S/I^k \cong S$. 
+=-- 
+
+It follows that we may define a clone or cartesian operad as follows: the $n^{th}$ component is the set $I_n = (x_1, \ldots, x_n) \subset R[ [x_1, \ldots, x_n] ]$ which is the monad value $Ideal Pow(\{x_1, \ldots, x_n\})$. Letting $M$ denote the monad $Ideal \circ Pow$, with monad multiplication $\mu$, and $[n]$ the set $\{x_1, \ldots, x_n\}$, the clone multiplication 
+
+$$I_n \times I_k^n \to I_k$$ 
+
+is the composition of the maps 
+
+$$M(n) \times M(k)^n \cong M(n) \times \hom([n], M(k)) \stackrel{1 \times func}{\to} M(n) \times \hom(M(n), M M(k)) \stackrel{eval}{\to} M M(k) \stackrel{\mu(k)}{\to} M(k)$$ 
+
+The clone multiplication thus defined is called *substitution of power series*; it takes a tuple consisting of $p(x_1, \ldots, x_n) \in I_n, q_1(x_1, \ldots x_k) \in I_k, \ldots q_n(x_1, \ldots, x_k) \in I_k)$ to a power series denoted as 
+
+$$p(q_1(x_1, \ldots, x_k), \ldots q_n(x_1, \ldots, x_k)).$$ 
+
+The resulting clone or operad yields, in the particular case $k = n = 1$, an associative substitution operation 
+
+$$x R[ [x] ] \times x R[ [x] ] \stackrel{sub}{\to} x R[ [x] ]$$ 
+
+with $sub(p, q) = p \circ q$ the power series $p(q(x))$. 
+
++-- {: .num_prop} 
+###### Proposition 
+The group of invertible elements in the substitution monoid $x R[ [x] ]$ consists of power series of the form $a_1 x + a_2 x^2 + \ldots$ where $a_1$ is multiplicatively invertible in the ring $R$. 
+=-- 
+
+In other words, we can functionally invert a power series provided that the linear coefficient $a_1$ is invertible in $R$. 
+
++-- {: .proof} 
+###### Proof 
+Given power series $a = a_1 x + a_2 x^2 + \ldots$ and $b = b_1 x + b_2 x^2 + \ldots$, we may read off coefficients of the composite $a \circ b$ as 
+
+$$(a \circ b)_k = \sum_{n \geq 1} a_n \sum_{k = k_1 + \ldots + k_n} b_{k_1} b_{k_2} \ldots b_{k_n}$$ 
+
+where in particular $(a \circ b)_1 = a_1 b_1$. Now $a$ is the left functional inverse of $b$, or $b$ is the right inverse of $a$, if $(a \circ b)(x) = x$, i.e., if $(a \circ b)_k = 1$ if $k = 1$ and $0$ otherwise. The first equation says simply $(a \circ b)_1 = a_1 b_1 = 1$ which implies $a_1$ is invertible. Conversely, if $a_1$ is multiplicatively invertible and $b_1 = a_1^{-1}$, then the equations 
+
+$$\array{
+\sum_{n \geq 1} a_n \sum_{k = k_1 + \ldots + k_n} b_{k_1} b_{k_2} \ldots b_{k_n} & = 1\; if\; k = 1 \\ 
+ & = 0\; if\; k \neq 1
+}$$ 
+
+may be uniquely solved for the remaining $a_i$\'s given the $b_j$\'s, and uniquely solved for the remaining $b_j$\'s given the $a_i$\'s, by an inductive procedure: for $k \neq 1$ we have 
+
+$$a_1 b_k + a_k b_1^k + \; terms\; a_n b_{k_1} \ldots b_{k_n} = 0$$ 
+
+and this allows us to solve for $b_k$, 
+
+$$b_k = -a_1^{-1}(a_k b_1^k + \; terms\; a_n b_{k_1} \ldots b_{k_n})$$ 
+
+given the values $a_1, \ldots, a_k$ and earlier $b$-values $b_{k_j}$ for $k_j \lt k$ given by inductive hypothesis. Similarly we can solve for $a_k$ in terms of given coefficients $b_1, \ldots, b_k$ and earlier $a$-values $a_n$, $n \lt k$. Thus every power series $a$ has a right inverse if $a_1^{-1}$ exists, and $b$ has a left inverse if $b_1^{-1}$ exists, and this completes the proof. 
+=-- 
 
 
 ## Related concepts
