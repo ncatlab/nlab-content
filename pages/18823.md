@@ -1953,11 +1953,11 @@ We will be interested in those [[linear observables]] which under the identifica
 
 +-- {: .num_defn #RegularLinearFieldObservables}
 ###### Definition
-**(linear [[regular observables]] and [[operator-valued distribution|observable-valued distributions]])**
+**([[regular observables|regular]] [[linear observables]] and [[operator-valued distribution|observable-valued distributions]])**
 
 Let $(E,\mathbf{L})$ be a [[free field theory|free]] [[Lagrangian field theory]] (def. \ref{FreeFieldTheory}) whose [[Euler-Lagrange equation|Euler-Lagrange]] [[equations of motion]] (prop. \ref{EulerLagrangeFormIsSectionOfLocalCotangentBundleOfJetBundleGaugeActionLieAlgebroid}) is [[Green hyperbolic differential equation|Green hyperbolic]] (def. \ref{GreenHyperbolicDifferentialOperator}).
 
-Define the _[[regular linear observable|regular]]_ [[linear observables]] among the linear on-shell observables (def. \ref{LinearObservables}) to be the [[non-singular distributions]] on the [[on-shell]] [[space of field histories]], hence the [[image]]
+According to def. \ref{PolynomialObservables} the _[[regular linear observable|regular]]_ [[linear observables]] among the linear on-shell observables (def. \ref{LinearObservables}) are the [[non-singular distributions]] on the [[on-shell]] [[space of field histories]], hence the [[image]]
 
 $$
   LinObs(E_{scp},\mathbf{L})_{reg}
