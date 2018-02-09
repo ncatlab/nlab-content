@@ -94,7 +94,7 @@ A formalization in [[homotopy type theory]] and there in [[Coq]] is discussed in
 
 The discussion of the differentiation of a converging power series term by term is at
 
-* Tom Gower's blog: [differentiating-power-series](https://gowers.wordpress.com/2014/02/22/differentiating-power-series)
+* Tim Gowers's blog: [differentiating-power-series](https://gowers.wordpress.com/2014/02/22/differentiating-power-series)
 
 
 category: analysis, algebra
