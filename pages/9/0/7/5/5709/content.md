@@ -1437,6 +1437,15 @@ For more see at _[[landscape of string theory vacua]]_.
 [[!redirects UV-cutoff]]
 [[!redirects UV-cutoffs]]
 
+[[!redirects UV cutoff scale]]
+[[!redirects UV cutoff scales]]
+
+[[!redirects UV cut-off scale]]
+[[!redirects UV cut-off scales]]
+
+[[!redirects UV-cutoff scale]]
+[[!redirects UV-cutoff scales]]
+
 [[!redirects UV regularization]]
 [[!redirects UV regularizations]]
 
