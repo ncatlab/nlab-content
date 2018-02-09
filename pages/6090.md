@@ -5904,10 +5904,85 @@ $$
 This is because the [[Hadamard vacuum state]] $\langle -\rangle \colon PolyObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]  \to \mathbb{C}[ [\hbar, g, j ] ]$ simply picks the zero-order monomial term, by [this prop.](Wick+algebra#WickAlgebraCanonicalState),
 and under multiplication of polynomials the zero-order terms are multiplied.
 
+=--
+
+This immediately implies the following important fact:
+
++-- {: .num_prop #EffectiveActionIsGeneratingFunction}
+###### Proposition
+**(in [[vacuum stability|stable vacuum]] the [[effective action]] is [[generating function]] for [[vacuum expectation values]] of [[interacting field observables]])**
+
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}, and let $g S_{int} + j A \;\in\; LocObs(E_{\text{BV-BRST}})[ [ \hbar , g , j] ]\langle g,j \rangle$
+be a [[local observable]] regarded as an [[adiabatic switching|adiabatically switched]] [[interaction]] [[action functional]].
+
+If the given [[vacuum state]] is [[vacuum stability|stable]] (def. \ref{VacuumStability}) then the [[vacuum expectation value]] $\langle S_{eff}(g,j)\rangle$ of the [[effective action]] (def. \ref{InPerturbationTheoryActionEffective}) is the generating function for the [[vacuum expectation value]] of the [[interacting field observable]] $A_{int}$ (def. \ref{InteractingFieldObservables}) in that 
+
+$$
+  \left\langle
+    A_{int}
+  \right\rangle
+  \;=\;
+  \frac{d}{d j}
+  S_{eff}(g,j)\vert_{j = 0}
+  \,.
+$$
 
 =--
 
-The perspective of the [[effective action]] gives a transparent picture of the order of quantum effects involved in the
++-- {: .proof}
+###### Proof
+
+We compute as follows:
+
+$$
+  \begin{aligned}
+    \frac{d}{d j}
+    S_{eff}(g,j)
+    & =
+    i \hbar
+    \frac{d}{d j}
+    \ln
+    \left\langle
+      \mathcal{S}(g S_{int} + j A)
+    \right\rangle
+    \vert_{j = 0}
+    \\
+    & =
+    i \hbar    
+    \left\langle
+      \mathcal{S}(g S_{int})
+    \right\rangle^{-1}
+    \frac{d}{d j}
+    \left\langle
+      \mathcal{S}(g S_{int} + j A)
+    \right\rangle
+    \vert_{j = 0}
+    \\
+    & =
+    \left\langle
+      \frac{d}{d j}
+      \underset{ \mathcal{Z}(j A) }{
+      \underbrace{\mathcal{S}(g S_{int})^{-1}
+      \mathcal{S}(g S_{int} + j A)
+      }}
+      \vert_{j = 0}
+    \right\rangle
+    \\
+    & =
+    \left\langle 
+      A_{int}
+    \right\rangle
+    \,.
+  \end{aligned}
+$$
+
+Here in the first step we used prop\ref{LogarithmEffectiveAction}, in the second step we applied the [[chain rule]] of [[differentiation]], in the third step we used the definition of [[vacuum stability]] (\def. \ref{VacuumStability}) and in the fourth step we recognized the definition of the [[interacting field observables]] (def. \ref{InteractingFieldObservables}).
+
+
+=--
+
+
+The perspective of the [[effective action]] also gives a transparent picture of the order of quantum effects involved in the
 [[S-matrix]], this is prop. \ref{FeynmanDiagramLoopOrder} below. In order to state this conveniently, we invoke
 two basic concepts from [[graph theory]]:
 
