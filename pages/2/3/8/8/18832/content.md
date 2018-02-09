@@ -5549,9 +5549,39 @@ $$
 
 of [[Feynman amplitudes]] that are labeled only by the _[[connected graphs]]_  $\Gamma \in \mathcal{G}_{conn} \subset \mathcal{G}$ (def. \ref{ConnectedGraphs}).
 
+(A priori $S_{eff}(g,j)$ could contain negative powers of $\hbar$, but it turns out that it does not; this is prop. \ref{FeynmanDiagramLoopOrder} below.)
+
 =--
 
-The terminology "effective action" is due to the following fact:
++-- {: .num_remark #TerminologyForEffectiveAction}
+###### Remark
+**(terminology for "effective action")**
+
+Beware differing conventions of terminology:
+
+1. In the perspective of [[effective quantum field theory]] (remark \ref{pQFTEffective} below), the [[effective action]] in def. \ref{InPerturbationTheoryActionEffective} is sometimes called the _effective potential_ at scale $\Lambda = 0$ (see prop. \ref{InPerturbationTheoryActionEffective} below). 
+
+   This terminology originates in restriction to the special example of the [[scalar field]] (example \ref{RealScalarFieldBundle}), where the non-derivative [[Phi^n interactions]] $g S_{int} = \underset{n}{\sum} \underset{\Sigma}{\int} g_{sw}^{(n)}(x) (\mathbf{\Phi}(x))^n \, dvol_\Sigma(x)$ (example \ref{phintheoryLagrangian}) are naturally thought of as [[potential energy]]-terms.
+
+   From this perspective the [[effective action]] in def. \ref{InPerturbationTheoryActionEffective} is a special case of _[[relative effective actions]]_ $S_{eff,\Lambda}$ ("relative effective potentials", in the case of [[Phi^n interactions]]) relative to an arbitrary [[UV cutoff]]-scales $\Lambda$ (def. \ref{EffectiveActionRelative} below).
+
+1. For the special case that 
+
+   $$
+     j A 
+       \coloneqq 
+     \underset{\Sigma}{\int} j_{sw,a}(x) \mathbf{\Phi}^a(x)\, dvol_{\Sigma}(x)
+   $$
+  
+   is a [[regular polynomial observable|regular]] [[linear observable]] (def. \ref{RegularLinearFieldObservables}) the [[effective action]] according to def. \ref{InPerturbationTheoryActionEffective} is often denoted $W(j)$ or $E(j)$, and then its _functional [[Legendre transform]]_ (if that makes sense) is instead called the effective action, instead.
+
+   This is because the latter encodes the [[equations of motion]] for the [[vacuum expectation values]] $\langle \mathbf{\Phi}(x)_int\rangle$ of the [[interacting field observables|interacting]] [[field observables]]; see example \ref{EquationsOfMotionForVacuumExpectationValues} below.
+
+Notice the different meaning of "effective" in both cases: In the first case it refers to what is effectively seen of the full [[pQFT]] _at some [[UV-cutoff scale]]_, while in the second case it refers to what is effectively seen when restricting attention only to the [[vacuum expectation values]] of [[regular polynomial observable|regular]] [[linear observables]].
+
+=--
+
+
 
 +-- {: .num_prop #LogarithmEffectiveAction}
 ###### Proposition
@@ -5701,8 +5731,163 @@ $$
 This is because the [[Hadamard vacuum state]] $\langle -\rangle \colon PolyObs(E_{\text{BV-BRST}})[ [ \hbar, g, j] ]  \to \mathbb{C}[ [\hbar, g, j ] ]$ simply picks the zero-order monomial term, by prop. \ref{WickAlgebraCanonicalState}),
 and under multiplication of polynomials the zero-order terms are multiplied.
 
+=--
+
+This immediately implies the following important fact:
+
++-- {: .num_prop #EffectiveActionIsGeneratingFunction}
+###### Proposition
+**(in [[vacuum stability|stable vacuum]] the [[effective action]] is [[generating function]] for [[vacuum expectation values]] of [[interacting field observables]])**
+
+Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}, and let $g S_{int} + j A \;\in\; LocObs(E_{\text{BV-BRST}})[ [ \hbar , g , j] ]\langle g,j \rangle$
+be a [[local observable]] regarded as an [[adiabatic switching|adiabatically switched]] [[interaction]] [[action functional]].
+
+If the given [[vacuum state]] is [[vacuum stability|stable]] (def. \ref{VacuumStability}) then the [[vacuum expectation value]] $\langle S_{eff}(g,j)\rangle$ of the [[effective action]] (def. \ref{InPerturbationTheoryActionEffective}) is the generating function for the [[vacuum expectation value]] of the [[interacting field observable]] $A_{int}$ (def. \ref{InteractingFieldObservables}) in that 
+
+$$
+  \left\langle
+    A_{int}
+  \right\rangle
+  \;=\;
+  \frac{d}{d j}
+  S_{eff}(g,j)\vert_{j = 0}
+  \,.
+$$
 
 =--
+
++-- {: .proof}
+###### Proof
+
+We compute as follows:
+
+$$
+  \begin{aligned}
+    \frac{d}{d j}
+    S_{eff}(g,j)
+    & =
+    i \hbar
+    \frac{d}{d j}
+    \ln
+    \left\langle
+      \mathcal{S}(g S_{int} + j A)
+    \right\rangle
+    \vert_{j = 0}
+    \\
+    & =
+    i \hbar    
+    \left\langle
+      \mathcal{S}(g S_{int})
+    \right\rangle^{-1}
+    \frac{d}{d j}
+    \left\langle
+      \mathcal{S}(g S_{int} + j A)
+    \right\rangle
+    \vert_{j = 0}
+    \\
+    & =
+    \left\langle
+      \frac{d}{d j}
+      \underset{ \mathcal{Z}(j A) }{
+      \underbrace{\mathcal{S}(g S_{int})^{-1}
+      \mathcal{S}(g S_{int} + j A)
+      }}
+      \vert_{j = 0}
+    \right\rangle
+    \\
+    & =
+    \left\langle 
+      A_{int}
+    \right\rangle
+    \,.
+  \end{aligned}
+$$
+
+Here in the first step we used prop \ref{LogarithmEffectiveAction}, in the second step we applied the [[chain rule]] of [[differentiation]], in the third step we used the definition of [[vacuum stability]] (def. \ref{VacuumStability}) and in the fourth step we recognized the definition of the [[interacting field observables]] (def. \ref{InteractingFieldObservables}).
+
+=--
+
++-- {: .num_example #EquationsOfMotionForVacuumExpectationValues}
+###### Example
+**([[equations of motion]] for [[vacuum expectation values]] of [[interacting field observables]])**
+
+Consider the [[effective action]] (def. \ref{InPerturbationTheoryActionEffective}) for the case that 
+
+$$
+  \begin{aligned}
+    j A 
+    & = 
+    \tau{\Sigma}( j_{sw} \phi)
+    \\
+    & =
+    \underset{\Sigma}{\int}  
+      j_{sw}(x) \mathbf{\Phi}(x) 
+    \, dvol_\Sigma(x)
+  \end{aligned}
+$$ 
+
+is a [[regular polynomial observable|regular]] [[linear observable]] ([this def.](A+first+idea+of+quantum+field+theory#RegularLinearFieldObservables)), hence the smearing of a [[field observable]] ([this def.](A+first+idea+of+quantum+field+theory#PointEvaluationObservables)) by an [[adiabatic switching]] of the [[source field]]
+
+$$
+  j_{sw} \;\in\; C^\infty_{cp}(\Sigma) \langle j\rangle
+  \,.
+$$
+
+(Here we are notationally suppressing internal field indices, for convenience.)
+
+In this case the [[vacuum expectation value]] of the corresponding [[effective action]] is often denoted 
+
+$$
+  W(j_{sw})
+$$ 
+
+and regarded as a functional of the [[adiabatic switching]] $j_{sw}$ of the [[source field]].
+
+In this case prop. \ref{EffectiveActionIsGeneratingFunction} says that if the [[vacuum state]] is [[vacuum stability|stable]], then  $W$ is the [[generating functional]] for [[interacting field observables|interacting]] (def. \ref{InteractingFieldObservables}) [[field observables]] (def. \ref{PointEvaluationObservables}) in that
+
+$$
+  \label{WFunctionalDerivative}
+  \left\langle 
+    \mathbf{\Phi}(x)_{int} 
+  \right\rangle
+  \;=\;
+  \frac{\delta}{\delta j_{sw}(x)}
+  W(j_{sw} = 0)
+  \,.
+$$
+
+Assume then that there exists a corresponding functional  $\Gamma(\Phi)$ of the [[field histories]] $\Phi \in \Gamma_{\Sigma}(E_{\text{BV-BRST}})$ (def. \ref{FieldsAndFieldBundles}), which behaves like a functional [[Legendre transform]] of $W$ in that it satisfies the functional version of the defining equation of Legendre transforms (first derivatives are [[inverse functions]] of each other, see [this equation](Legendre+transformation#eq:DerivativesOfLegendreTransformsAreInverseFunctions)):
+
+$$
+ \frac{\delta }{\delta \Phi(x)}
+ \Gamma
+  \left(
+      \frac{\delta}{\delta j_{sw}(y)} W
+  \right)
+  \;=\;
+  \delta(x,y) j_{sw}(x)
+  \,.
+$$
+
+By (eq:WFunctionalDerivative) this implies that
+
+$$
+ \frac{\delta }{\delta \Phi(x)}
+ \Gamma
+  \left(
+    \left\langle \mathbf{\Phi}(x)_{int} \right\rangle  \right)
+  \;=\;
+  0
+  \,.
+$$  
+
+This may be read as a quantum version of the [[principle of extremal action]] (prop. \ref{PrincipleOfExtremalAction})
+formulated now not for the [[field histories]] $\Phi(x)$, but for the [[vacuum expectation values]] $\langle \mathbf{\Phi}(x)_{int}\rangle$ of their corresponding [[interacting quantum field observables]].
+
+Beware, (as in remark \ref{TerminologyForEffectiveAction}) that many texts refer to $\Gamma(\Phi)$ as the _effective action_, instead of its [[Legendre transform]], the generating functional $W(j_{sw})$. 
+
+=--
+
 
 The perspective of the [[effective action]] gives a transparent picture of the order of quantum effects involved in the
 [[S-matrix]], this is prop. \ref{FeynmanDiagramLoopOrder} below. In order to state this conveniently, we invoke
