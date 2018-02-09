@@ -20,14 +20,44 @@
 * table of contents
 {:toc}
 
-## Definition
+## Idea
+
+In theories pf [[gravity]] and [[cosmology]] a _cosmological constant_ refers to an [[energy]] contribution associated with the [[vacuum]] itself.
+
+This is called a _cosmological constant_ because the simplest way to see this effect in [[theory (physics)|theory]] is by a summand to the [[Einstein-Hilbert action]] which is proportional to the [[volume]] of [[spacetime]], with proportionality factor some "constant" $\lambda$, as in  (eq:EinsteinHilbertWithCosmologicalConstant) below.
+
+See below 
+
+* _[In classical gravity](#InClassicalGravity)_
+
+More generally almost-constant contributions to matter fields may effectively have the same kind of effect.
+
+Specifically in [[perturbative quantum field theory]] [[AQFT on curved spacetimes#on curved spacetimes]] the [[vacuum expectation value]] of the [[stress-energy tensor]] of the various [[matter]]-fields receives constant or essentially constant contributions, notably from [[renormalization]] freedom (e.g. [Hack 15, section 3.2.1](#Hack15)). 
+
+See below
+
+* _[In perturbative quantrum gravity](#InPerturbativeQuantumGravity)_
+
+In [[perturbative string theory]] the [[string perturbation series]] associated with a [[2d SCFT]] is (supposedly) UV-finite and hence has "chosen its own [[renormalization]]" already, hence here there cosmological constant may in principle be read-off from a choice pf [[perturbative string theory vacuum]]. See below 
+
+* _[In string theory](#ReferencesInStringTheory)_
+
+
+Observation shows that the effective cosmological constant of the [[observable universe]] is comparatively small put [[positive real number|positive]], see 
+
+* _[Observation](#Observation)_.
+
+
+ 
+## Details
 
 ### In classical gravity
+ {#InClassicalGravity}
 
 In an [[action functional]] on a space of [[pseudo-Riemannian manifolds]] -- such as the [[Einstein-Hilbert action]] functional for [[gravity]] -- a **cosmological constant** is a term proportional to the [[volume]] 
 
 $$
-  S_{cc} :  (X,g) \mapsto \lambda \int_X dvol_g
+  S_{cc} \;\colon\;  (X,g) \mapsto \lambda \int_X dvol_g
   \,,
 $$
 
@@ -36,6 +66,7 @@ where $\lambda \in \mathbb{R}$ is the _cosmological constant_ .
 For instance pure Einstein-Hilbert gravity with cosmological constant (and no other fields) is given by the functional
 
 $$
+  \label{EinsteinHilbertWithCosmologicalConstant}
   S_{EH} + S_{cos} :  (X,g) \mapsto \int_X R\, dvol + \lambda \int_X d vol_g
   \,,
 $$
@@ -43,7 +74,7 @@ $$
 Generically it happens that one considers action functionals where $\lambda$ is in fact not a constant, but a function of other fields $\phi$ on $X$. 
 
 $$
-  S : (X,g,\phi) \mapsto \int_X \lambda(\phi) dvol_g
+  S \;\colon\; (X,g,\phi) \mapsto \int_X \lambda(\phi) dvol_g
   \,.
 $$
 
@@ -55,13 +86,19 @@ See in particular at _[[FRW model]]_ for the role of the cosmological constant i
 ### In perturbative quantum gravity
  {#InPerturbativeQuantumGravity}
 
-In [[perturbative quantum field theory]] [[QFT on curved spacetime]] the cosmological constant receives contributions from the [[vacuum expectation value]] of the [[stress-energy tensor]] of the any [[matter]] [[field (physics)|fields]]. There is [[renormalization]]-freedom in this contribution  ([Wald 78](#Wald78), [Dappiaggi-Fredenhagen-Pinamonti 08](#DappiaggiFredenhagenPinamonti08), [Dappiagi-Hack-Moeller-Pinamonti 10](#DappiagiHackMollerPinamonti10)). 
+In [[perturbative quantum field theory]] [[QFT on curved spacetime]] the cosmological constant receives contributions from the [[vacuum expectation value]] of the [[stress-energy tensor]] of the any [[matter]] [[field (physics)|fields]]. There is [[renormalization]]-freedom in this contribution  ([Wald 78](#Wald78), [Tichy-Flanagan 98](#TichyFlanagan98) [Moretti 01](#Moretti01)). 
+
+Explicitly for [[FRW models]] this is discussed in ([Dappiaggi-Fredenhagen-Pinamonti 08](#DappiaggiFredenhagenPinamonti08), [Dappiagi-Hack-Moeller-Pinamonti 10](#DappiagiHackMollerPinamonti10)).
+Specifically for the [[standard model of cosmology]] see ([Hack 13, around (4)](#Hack13)).
+
+A useful review is in ([Hack 15, section 3.2.1](#Hack15)).
 
 This means that apart from the freedom of choosing a classical comsological constant in the [[Einstein-Hilbert action]] as above, its [perturbative quantization](A+first+idea+of+quantum+field+theory#InteractingQuantumFields) ([[perturbative quantum gravity]]) introduces [[renormalization]] freedom to the value of the cosmological constant.
 
 The folklore discussion of the "cosmological constant problem" (see the references [below](#CCProblemReferences)) tends not to take this freedom in the theory into account.
 
 ### Observation
+ {#Observation}
 
 <img src="http://ncatlab.org/nlab/files/DarkEnergyConcordance.gif" width="500">
 
@@ -96,11 +133,26 @@ Notice that ([Wald 78](#Wald78)) is based on
 
 which claimed _no_ freedom of renormalization, but [Wald 78](#Wald78) explains that this was due to a mistake inherited from a citation.
 
+Further development of this includes
+
+* {#TichyFlanagan98} Wolfgang Tichy, Eanna E. Flanagan, _How unique is the expected stress-energy tensor of a massive scalar field?_, Phys.Rev. D58 (1998) 124007 ([arXiv:gr-qc/9807015](https://arxiv.org/abs/gr-qc/9807015))
+
+* {#Moretti01} [[Valter Moretti]], _Comments on the Stress-Energy Tensor Operator in Curved Spacetime_, Commun. Math. Phys. 232 (2003) 189-221 ([arXiv:gr-qc/0109048](https://arxiv.org/abs/gr-qc/0109048))
+
+
+A useful review is in 
+
+* {#Hack15} [[Thomas-Paul Hack]], section 3.2.1, _Cosmological Applications of Algebraic Quantum Field Theory in Curved Spacetimes_, Springer 2016 ([arXiv:1506.01869](https://arxiv.org/abs/1506.01869), [doi:10.1007/978-3-319-21894-6](https://doi.org/10.1007/978-3-319-21894-6))
+
 Realization of renormalization of stress-energy/cosmological constant in concrete [[FRW models]] is discussed in
 
 * {#DappiaggiFredenhagenPinamonti08} [[Claudio Dappiaggi]], [[Klaus Fredenhagen]], [[Nicola Pinamonti]], _Stable cosmological models driven by a free quantum scalar field_, Phys. Rev. D77:104015, 2008 ([arXiv:0801.2850](https://arxiv.org/abs/0801.2850))
 
-* {#DappiagiHackMollerPinamonti10} [[Claudio Dappiaggi]], Thomas-Paul Hack, Jan Möller, [[Nicola Pinamonti]], _Dark Energy from Quantum Matter_ ([arXiv:1007.5009](https://arxiv.org/abs/1007.5009))
+* {#DappiagiHackMollerPinamonti10} [[Claudio Dappiaggi]], [[Thomas-Paul Hack]], Jan Möller, [[Nicola Pinamonti]], _Dark Energy from Quantum Matter_ ([arXiv:1007.5009](https://arxiv.org/abs/1007.5009))
+
+Discussion specifically for the [[standard model of cosmology]] is in
+
+* {#Hack13} [[Thomas-Paul Hack]], _The Lambda CDM-model in quantum field theory on curved spacetime and Dark Radiation_ ([arXiv:1306.3074](https://arxiv.org/abs/1306.3074))
 
 
 ### The "cosmological constant problem"
@@ -118,6 +170,7 @@ Discussion of the experimentally observed tiny cosmological constant and the fol
 
 
 ### In string theory
+  {#ReferencesInStringTheory}
 
 Discussion from the point of view of [[perturbative string theory]], where the cosmological constant is fixed by the choice of [[perturbative string theory vacuum]] includes
 
