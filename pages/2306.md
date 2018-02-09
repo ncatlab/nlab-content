@@ -28,15 +28,14 @@ and relations as follows
 
 1. $a_{10} = a_{01} = 1$; $\forall i \neq 1: a_{i 0} = 0$
 
-1. the obvious associativity relation
+1. the obvious associativity relations imposed by $\ell(x, \ell(y, z)) = \ell(\ell(x, y), z)$ 
 
-the universal 1-dimensional [[formal group law]] is the formal power series
-
+where we write 
 $$
-  \ell(x,y) = \sum_{i,j} a_{i j} x^i y^j \in L[[x,y]]
+  \ell(x,y) = \sum_{i,j} a_{i j} x^i y^j \in L[[x,y]].
 $$
 
-in two variables with coefficients in the Lazard ring.
+In other words, $\ell(x, y)$ becomes the universal 1-dimensional [[formal group law]] as a formal power series in two variables with coefficients in the Lazard ring.
 
 
 ## Properties
