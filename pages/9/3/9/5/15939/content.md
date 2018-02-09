@@ -44,7 +44,7 @@ There is not yet a precise notion of generalized Lambda-structure, but one may e
 
 1. The classical notion of ($\mathbb{Z}/2$-graded) Lambda-ring may be seen as a $\Lambda(\mathbb{Z},|\cdot|_0)=\mathbb{Z}$-$\{0\}$-structure. The (geometric/Weil) cohomology theories of arithmetic geometry (i.e. for schemes over $\mathbb{Z}$) are often equipped with an $\mathbb{N}$-grading, that one may interpret as a classical Lambda-ring structure.
 
-1. The [[absolute cohomology]] theories in arithmetic geometry such as Beilinson-[[Deligne cohomology]] or [[motivic cohomology]] are equipped with a natural bi-graduation, related to the fact that they are defined by the (homotopical: think of a Leray spectral sequence) combination of geometric methods (Lambda-structures/Frobenii) and of differential methods (Hodge filtration of de Rham cohomology or $\mathbb{G}_m$-stabilization in motivic homotopy theory, that corresponds to the "Tate twist" grading).
+1. The [[absolute cohomology]] theories in arithmetic geometry such as Beilinson-[[Deligne cohomology]] or [[motivic cohomology]] are equipped with a natural bi-graduation, related to the fact that they are defined by the (homotopical: think of a Leray spectral sequence) combination of geometric methods (Lambda-structures/Frobenii) and of differential methods (Hodge filtration of de Rham cohomology or $\mathbb{G}_m$-stabilization in motivic homotopy theory, that corresponds to the "[[Tate twist]]" grading).
 The corresponding Banach ring may be simply given by the Banach ring
 $$(R,|\cdot|):=(\mathbb{Z}[T],|\cdot|_0)$$
 of polynomials equipped with their trivial norm (analytic functions on the non-archimedean global analytic unit disc). The bigrading is given by the action of the monoid
@@ -52,7 +52,7 @@ $$
 \Lambda(R,|\cdot|):=
 \mathbb{Q}(T)^\times\cap \mathbb{Z}[T]=\mathbb{Z}[T]-\{0\}.
 $$
-The (Tate-twist) motivic and cohomological gradings are given respectively by the actions of the monoid $\mathbb{Z}-\{0\}$ and the monoid of powers of $T$.
+The ([[Tate twist]]) motivic and cohomological gradings are given respectively by the actions of the monoid $\mathbb{Z}-\{0\}$ and the monoid of powers of $T$.
 
 1. The (yet to be properly defined) cohomology theories in [[global analytic geometry]] have a different type of bigrading (that is related to the idea of the algebra of polynomials over the [[field with one element]], formulated precisely, e.g., in Durov's setting of [[generalized rings]], i.e., commutative algebraic monads).
 We will now extend the above definition of the monoid $\Lambda$ to the setting of ind-Banach ring, since this operation seems necessary to understand absolute cohomologies.
