@@ -5976,8 +5976,88 @@ $$
   \end{aligned}
 $$
 
-Here in the first step we used prop\ref{LogarithmEffectiveAction}, in the second step we applied the [[chain rule]] of [[differentiation]], in the third step we used the definition of [[vacuum stability]] (\def. \ref{VacuumStability}) and in the fourth step we recognized the definition of the [[interacting field observables]] (def. \ref{InteractingFieldObservables}).
+Here in the first step we used prop \ref{LogarithmEffectiveAction}, in the second step we applied the [[chain rule]] of [[differentiation]], in the third step we used the definition of [[vacuum stability]] (def. \ref{VacuumStability}) and in the fourth step we recognized the definition of the [[interacting field observables]] (def. \ref{InteractingFieldObservables}).
 
+=--
+
++-- {: .num_example #EquationsOfMotionForVacuumExpectationValues}
+###### Example
+**([[equations of motion]] for [[vacuum expectation values]] of [[interacting field observables]])**
+
+Consider the [[effective action]] (def. \ref{InPerturbationTheoryActionEffective}) for the case that 
+
+$$
+  \begin{aligned}
+    j A 
+    & = 
+    \tau{\Sigma}( j_{sw} \phi)
+    \\
+    & =
+    \underset{\Sigma}{\int}  
+      j_{sw}(x) \mathbf{\Phi}(x) 
+    \, dvol_\Sigma(x)
+  \end{aligned}
+$$ 
+
+is the smearing of a [[field observable]] ([this def.](A+first+idea+of+quantum+field+theory#PointEvaluationObservables)) by an [[adiabatic switching]] of the [[source field]]
+
+$$
+  j_{sw} \;\in\; C^\infty_{cp}(\Sigma) \langle j\rangle
+  \,.
+$$
+
+(Here we are notationally suppressing internal field indices, for convenience.)
+
+In this case the [[vacuum expectation value]] of the corresponding [[effective action]] is often denoted 
+
+$$
+  W(j_{sw})
+$$ 
+
+and regarded as a functional of the [[adiabatic switching]] $j_{sw}$ of the [[source field]].
+
+In this case prop. \ref{EffectiveActionIsGeneratingFunction} says that if the [[vacuum state]] is [[vacuum stability|stable]], then  $W$ is the [[generating functional]] for [[interacting field observables|interacting]] (def. \ref{InteractingFieldObservables}) [[field observables]] ([this def.](A+first+idea+of+quantum+field+theory#PointEvaluationObservables)) in that
+
+$$
+  \label{WFunctionalDerivative}
+  \left\langle 
+    \mathbf{\Phi}(x)_{int} 
+  \right\rangle
+  \;=\;
+  \frac{\delta}{\delta j_{sw}(x)}
+  W(j_{sw} = 0)
+  \,.
+$$
+
+Assume then that there exists a corresponding functional of the [[field histories]] $\Gamma(\Phi)$, which behaves like a functional [[Legendre transform]] of $W$ in that it satisfies the functional version of the defining equation of Legendre transforms (first derivatives are [[inverse functions]] of each other, see [this equation](Legendre+transformation#eq:DerivativesOfLegendreTransformsAreInverseFunctions)), in that
+
+$$
+ \frac{\delta }{\delta \Phi(x)}
+ \Gamma
+  \left(
+      \frac{\delta}{\delta j_{sw}(y)} W
+  \right)
+  \;=\;
+  \delta(x,y) j_{sw}(x)
+  \,.
+$$
+
+By (eq:WFunctionalDerivative) this implies that
+
+$$
+ \frac{\delta }{\delta \Phi(x)}
+ \Gamma
+  \left(
+    \left\langle \mathbf{\Phi}(x)_{int} \right\rangle  \right)
+  \;=\;
+  0
+  \,.
+$$  
+
+This may be read as a quantum version of the [[principle of extremal action]] ([this prop.](A+first+idea+of+quantum+field+theory#PrincipleOfExtremalAction))
+formulated now not for the [[field histories]] $\Phi(x)$, but for the [[vacuum expectation values]] $\langle \mathbf{\Phi}(x)_{int}\rangle$ of their corresponding [[interacting quantum field observables]].
+
+Beware that many texts refer to $\Gamma(\Phi)$ as the _effective action_, a [[Legendre transform]] of a special case of what is called the effective action in def. \ref{InPerturbationTheoryActionEffective}. Referring to the latter as the efective action matches well with the perspective of [[effective quantum field theory]], see [this prop.](effective+quantum+field+theory#EffectiveActionAsRelativeEffectiveAction).
 
 =--
 
