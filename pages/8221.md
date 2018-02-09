@@ -38,6 +38,17 @@ The current model assumes that the energy density of the [[observable universe]]
 
 (e.g. [Einasto 09, fig 17](#Einasto09), [here](https://ned.ipac.caltech.edu/level5/Sept09/Einasto/Einasto6.html))
 
+## Properties
+
+### Vacuum energy and Cosmological constant
+
+
+The [[renormalization]] freedom in [[perturbative QFT|perturbative]] [[quantization]] of [[gravity]] ([[perturbative quantum gravity]]) induces freedom in the choice of [[vacuum expectation value]] of the [[stress-energy tensor]] and hence in the [[cosmological constant]]. 
+
+For review see [Hack 15, section 3.2.1](#Hack15)
+
+For more see at [[cosmological constant]] [here](cosmological+constant#InPerturbativeQuantumGravity).
+
 
 ## Related concepts
 
@@ -56,6 +67,8 @@ The current model assumes that the energy density of the [[observable universe]]
 
 ## References
 
+### General
+
 Lecture notes include
 
 * [[Matthias Blau]], chapter 37 of _Lecture notes on general relativity_ ([web](http://www.blau.itp.unibe.ch/GRLecturenotes.html))
@@ -68,13 +81,22 @@ A discussion of open problems is in
 
 * Benoit Famaey, Stacy McGaugh, _Challenges for Lambda-CDM and MOND_ ([arXiv:1301.0623](http://arxiv.org/abs/1301.0623))
 
-A mathematically precise account of the model in terms of [[AQFT on curved spacetimes]] is in 
-
-* [[Klaus Fredenhagen]], Thomas-Paul Hack, _Quantum field theory on curved spacetime and the standard cosmological model_ ([arXiv:1308.6773](http://arxiv.org/abs/1308.6773))
-
 See also
 
 * Wikipedia, _[Lambda-CDM model](http://en.wikipedia.org/wiki/Lambda-CDM_model)_
 
 
 * {#Einasto09} Jaan Einasto, _Dark matter_ ([arXiv:0901.0632](https://arxiv.org/abs/0901.0632)) 2009
+
+### In AQFT on Curved spacetimes
+
+Discussion in the rigorous context of[[AQFT on curved spacetimes]] includes
+
+* [[Klaus Fredenhagen]], [[Thomas-Paul Hack]], _Quantum field theory on curved spacetime and the standard cosmological model_ ([arXiv:1308.6773](http://arxiv.org/abs/1308.6773))
+
+* {#Hack13} [[Thomas-Paul Hack]], _The Lambda CDM-model in quantum field theory on curved spacetime and Dark Radiation_ ([arXiv:1306.3074](https://arxiv.org/abs/1306.3074))
+
+For review see
+
+* {#Hack15} [[Thomas-Paul Hack]], section 3.2.1 _Cosmological Applications of Algebraic Quantum Field Theory in Curved Spacetimes_, Springer 2016 ([arXiv:1506.01869](https://arxiv.org/abs/1506.01869), [doi:10.1007/978-3-319-21894-6](https://doi.org/10.1007/978-3-319-21894-6))
+
