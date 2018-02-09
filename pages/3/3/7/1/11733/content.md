@@ -1,12 +1,33 @@
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Cohomology
++--{: .hide}
+[[!include cohomology - contents]]
+=--
+#### Arithmetic geometry
++--{: .hide}
+[[!include arithmetic geometry - contents]]
+=--
+=--
+=--
+
+
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
-[[cohomology|Cohomology theories]] often have two aspects, which one might refer to as _geometric_ and _arithmetic_. A prototypical example is the [[l-adic cohomology]] $H^{i}(X, \mathbb{Z}_{l})$ of a (sufficiently nice) [[scheme]] $X$ over a field $k$ of characteristic $p$, with $l$ coprime to $p$. This is not only an abelian group (the geometric aspect), but a representation of the [[absolute Galois group]] of $k$ (the arithmetic aspect). 
+[[cohomology|Cohomology theories]] often have two aspects, which one might refer to as _geometric_ and _arithmetic_. A prototypical example is the [[l-adic cohomology]] $H^{i}(X, \mathbb{Z}_{l})$ of a (sufficiently nice) [[scheme]] $X$ over a field $k$ of [[positive characteristic|characteristic]] $p$, with $l$ coprime to $p$. This is not only an abelian group (the geometric aspect), but a representation of the [[absolute Galois group]] of $k$ (the arithmetic aspect). 
 
-In the case of the [[singular cohomology]] of a complex manifold, the 'arithmetic' aspect arises as the [[Hodge structure]] on the cohomology groups. It has been speculated (for example by Manin?) that there should be some kind of 'Galois group' whose representations are Hodge structures, (and similarly for mixed Hodge modules vs [[perverse sheaves]], and so on) but this remains mysterious; it may be that a good theory of algebraic geometry over $\mathbb{F}_{1}$ would provide an explanation. 
+In the case of the [[singular cohomology]] of a complex manifold, the 'arithmetic' aspect arises as the [[Hodge structure]] on the cohomology groups. It has been speculated (for example by Manin?) that there should be some kind of '[[Galois group]]' whose representations are Hodge structures, (and similarly for mixed Hodge modules vs [[perverse sheaves]], and so on) but this remains mysterious; it may be that a good theory of algebraic geometry over $\mathbb{F}_{1}$ (the would-be "[[field with one element]]") would provide an explanation. 
 
 Tate twists play an important role in cohomology theories with this dual geometric and arithmetic aspect, allowing one to express [[Poincaré duality]] canonically, that is, without choosing an orientation of one's geometric object (scheme, complex manifold, ...). 
 
-In [[étale cohomology]] in characteristic $p$, the Tate twist of a $\mathbb{Z} / p\mathbb{Z}$-module, or sheaf of such modules, $A$ is, concretely, $A \otimes_{\mathbb{Z} / p\mathbb{Z}} \mathbb{Z}(1)$, where $\mathbb{Z}(1)$ is the abelian group $\mu_{n}$ of $n^{th}$ roots of unity with respect to the algebraic closure of $\mathbb{Z} / p\mathbb{Z}$. For $n \geq 0$, the $n^{th}$ Tate twist of $A$, often denoted $A(n)$, is defined to be the result of carrying out the above construction $n$ times. One defines $\mathbb{Z}(-n)$ to be the dual of $\mathbb{Z}(n)$, that is to say $\mathsf{Hom}_{\mathbb{Z} / p\mathbb{Z} -\mathsf{mod}}(\mathbb{Z}(n), \mathbb{Z} / p\mathbb{Z})$, and defines $A(-n)$ to be $A \otimes_{\mathbb{Z} / p\mathbb{Z}} \mathbb{Z}(-n)$. 
+In [[étale cohomology]] in [[positive characteristic|characteristic]] $p$, the Tate twist of a $\mathbb{Z} / p\mathbb{Z}$-[[module]], or [[sheaf of modules|sheaf of such modules]], $A$ is, concretely, $A \otimes_{\mathbb{Z} / p\mathbb{Z}} \mathbb{Z}(1)$, where $\mathbb{Z}(1)$ is the abelian group $\mu_{n}$ of $n^{th}$ roots of unity with respect to the algebraic closure of $\mathbb{Z} / p\mathbb{Z}$. For $n \geq 0$, the $n^{th}$ Tate twist of $A$, often denoted $A(n)$, is defined to be the result of carrying out the above construction $n$ times. One defines $\mathbb{Z}(-n)$ to be the dual of $\mathbb{Z}(n)$, that is to say $\mathsf{Hom}_{\mathbb{Z} / p\mathbb{Z} -\mathsf{mod}}(\mathbb{Z}(n), \mathbb{Z} / p\mathbb{Z})$, and defines $A(-n)$ to be $A \otimes_{\mathbb{Z} / p\mathbb{Z}} \mathbb{Z}(-n)$. 
 
 The $l$-adic Tate twist $\mathbb{Z}_{l}(1)$ is defined by means of the inverse system consisting of the groups $\mu_{l^{i}}$ along with the morphisms $\mu_{l^{i+1}} \rightarrow \mu_{l^{i}}$ given by $a \mapsto a^{l}$, for $i \geq 1$, and one can then define $\mathbb{Z}_{l}(n)$ for any integer $n$.
 
