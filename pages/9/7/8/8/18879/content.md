@@ -1,6 +1,8 @@
 
 ## Related concepts
 
+* [[length scale]]
+
 * [[conformal transformation]]
 
 * [[scaling degree of a distribution]]
