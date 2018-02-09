@@ -8,6 +8,10 @@
 +--{: .hide}
 [[!include AQFT and operator algebra contents]]
 =--
+#### Gravity
++--{: .hide}
+[[!include gravity contents]]
+=--
 =--
 =--
 
@@ -27,6 +31,17 @@ The first point deserves some elaboration: The curved manifolds under considerat
 
 Example: If you let an electron drop from your hand to the ground, that would be a situation that the theory is supposed to describe.
 While a full theory of quantum gravity still eludes us, a theory of quantum fields on curved spacetimes could be useful as a kind of interpolation. In a certain sense this is already the case, since the [laws of black hole thermodynamics] (http://en.wikipedia.org/wiki/Black_hole_thermodynamics) were first discovered with the help of this setting.
+
+## Applications
+
+### Vacuum energy and Cosmological constant
+
+The [[renormalization]] freedom in [[perturbative QFT|perturbative]] [[quantization]] of [[gravity]] ([[perturbative quantum gravity]]) induces freedom in the choice of [[vacuum expectation value]] of the [[stress-energy tensor]] and hence in the [[cosmological constant]]. 
+
+Review includes ([Hack 15, section 3.2.1](#Hack15)).
+
+For more see at _[[cosmological constant]]_ [here](cosmological+constant#InPerturbativeQuantumGravity).
+
 
 ## Related concepts
 
@@ -83,9 +98,12 @@ Discussion of [[renormalization]] in AQFT on curved spacetimes includes
 
 
 
-Discussion of the [[standard model of cosmology]] in the context of AQFT on curved spacetimes is in 
+Discussion of the [[cosmology]] in the context of AQFT on curved spacetimes includes 
 
 * [[Klaus Fredenhagen]], Thomas-Paul Hack, _Quantum field theory on curved spacetime and the standard cosmological model_ ([arXiv:1308.6773](http://arxiv.org/abs/1308.6773))
+
+
+* {#Hack15} [[Thomas-Paul Hack]], _Cosmological Applications of Algebraic Quantum Field Theory in Curved Spacetimes_, Springer 2016 ([arXiv:1506.01869](https://arxiv.org/abs/1506.01869), [doi:10.1007/978-3-319-21894-6](https://doi.org/10.1007/978-3-319-21894-6))
 
 
 [[!redirects AQFT on curved spacetime]]
