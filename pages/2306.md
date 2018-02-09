@@ -35,14 +35,14 @@ $$
   \ell(x,y) = \sum_{i,j} a_{i j} x^i y^j \in L[[x,y]].
 $$
 
-In other words, $\ell(x, y)$ becomes the universal 1-dimensional [[formal group law]] as a formal power series in two variables with coefficients in the Lazard ring.
+In other words, $\ell(x, y)$ becomes the universal 1-dimensional [[formal group law]] as a formal power series in two variables with coefficients in the Lazard ring, Theorem \ref{walking} below.
 
 
 ## Properties
 
 ### As classifying ring for formal group laws
 
-+-- {: .num_theorem}
++-- {: .num_theorem #walking}
 ###### Theorem
 
 For any [[ring]] $S$ with [[formal group law]] $g(x,y) \in S[ [x,y] ]$ there is a unique ring [[homomorphism]] $L \to S$ that sends $\ell$ to $g$.
