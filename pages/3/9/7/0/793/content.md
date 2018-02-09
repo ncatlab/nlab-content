@@ -23,6 +23,7 @@
 
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -264,9 +265,11 @@ The geometry of the fiber product of two torus fiber bundles with a [[circle 2-b
 
 ## References
 
-Textbook accounts include
+* E. Alvarez, [[Luis Alvarez-Gaume]], Y. Lozano, _An Introduction to T-Duality in String Theory_, Nucl.Phys.Proc.Suppl.41:1-20,1995 ([arXiv:hep-th/9410237](https://arxiv.org/abs/hep-th/9410237))
 
 * {#West12} [[Peter West]], section 17.1 of _[[Introduction to Strings and Branes]]_, Cambridge University Press 2012
+
+* [[Mathai Varghese]], _T-duality: A basic introduction_, 10th Geometry and Physics Conference _Quantum Geometry_, Anogia 2012 ([[Mathai12.pdf:file]])
 
 
 ### Worldsheet
