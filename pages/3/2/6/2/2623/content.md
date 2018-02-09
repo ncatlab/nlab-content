@@ -4559,6 +4559,13 @@ holds.
 
 ([Costello 07, lemma 9.0.6](#Costellon)).
 
+## Examples
+
+### Vacuum energy and Cosmological constant
+
+The renormalization freedom in [[perturbative QFT|perturbative]] [[quantization]] of [[gravity]] ([[perturbative quantum gravity]]) induces freedom in the choice of [[vacuum expectation value]] of the [[stress-energy tensor]] and hence in the [[cosmological constant]]. 
+
+For details see [there](cosmological+constant#InPerturbativeQuantumGravity).
 
 
 
