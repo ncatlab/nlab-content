@@ -151,7 +151,7 @@ The generalization of this to perturbation about [[AQFT on curved spacetimes|cur
 
 and with applications to [[cosmology]] in
 
-* {#BFHPR16} [[Romeo Brunetti]], [[Klaus Fredenhagen]], Thomas-Paul Hack, Nicola Pinamonti, [[Katarzyna Rejzner]], _Cosmological perturbation theory and quantum gravity_, Journal of High Energy Physics August 2016:32 ([arXiv:1605.02573](https://arxiv.org/abs/1605.02573))
+* {#BFHPR16} [[Romeo Brunetti]], [[Klaus Fredenhagen]], Thomas-Paul Hack, [[Nicola Pinamonti]], [[Katarzyna Rejzner]], _Cosmological perturbation theory and quantum gravity_, Journal of High Energy Physics August 2016:32 ([arXiv:1605.02573](https://arxiv.org/abs/1605.02573))
 
 Corrections at [[loop order|1-loop]] from [[quantum gravity]] to the [[anomalous magnetic moment]] of the [[leptons]] are discussed in
 
