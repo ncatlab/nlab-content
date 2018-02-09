@@ -70,7 +70,29 @@ If this power series [[convergence|converges]] to $f$, then we say that $f$ is _
 
 ## Properties
 
-* If $R$ is a [[local ring]], then the power series ring $R[ [X] ]$ is also a local ring.
+* An element $a = a_0 + a_1 x + a_2 x^2 + \ldots$ in $R[ [x] ]$ is (multiplicatively) invertible iff $a_0$ is invertible. 
+
+This follows easily from the observation that we can invert $1 + x b$ for any power series $b$ by forming $1 - x b + x^2 b^2 - \ldots$ and collecting only finitely many terms in each degree. As a simple corollary, 
+
+* If $R$ is a [[local ring]], then the power series ring $R[ [X] ]$ is also a local ring. 
+
+### Functional substitution and inversion 
+
++-- {: .num_prop} 
+###### Proposition 
+$R[ [x_1, \ldots, x_n] ]$ equipped with the ideal $(x_1, \ldots, x_n)$ is the free [[formal group law|adic]] $R$-algebra on $n$ generators, in the sense that it is the value of the left adjoint to the forgetful functor 
+
+$$AdicRAlg \to Set: (A, I) \mapsto I$$ 
+
+at the set $\{x_1, \ldots, x_n\}$. 
+=-- 
+
+The idea is that for each adic $R$-algebra $(S, I)$ and element $(s_1, \ldots s_n) \in I^n$, there is a unique adic algebra map $R[ [x_1, \ldots, x_n] ] \to S$ that sends $x_i$ to $s_i$; this adic algebra map sends a power series $\sum a_{k_1, \ldots, k_n} x_1^{k_1} x_n^{k_n}$ to the sequence of truncations 
+
+$$\left(\sum_{k_1 + \ldots + k_n \lt k} a_{k_1, \ldots, k_n} s_1^{k_1} \ldots s_n^{k_n} \mod I^k\right)_k$$ 
+
+belonging to $\underset{\longleftarrow}{\lim}_k S/I^k \cong S$. 
+
 
 ## Related concepts
 
