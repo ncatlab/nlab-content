@@ -82,7 +82,13 @@ As a result, the field of fundamental physics today finds itself in a somewhat a
  
 ## Effects
 
-### Correction to anomalous magnetic moment of the leptons
+### Vacuum energy and Cosmological constant
+
+The [[renormalization]] freedom in [[perturbative QFT|perturbative]] [[quantization]] of gravity induces freedom in the choice of [[vacuum expectation value]] of the [[stress-energy tensor]] and hence in the [[cosmological constant]]. 
+
+For details see [there](cosmological+constant#InPerturbativeQuantumGravity).
+
+### Anomalous magnetic moment of the leptons
  {#CorrectionToAnomalousMagneticMomentOfTheLeptons}
 
 The corrections of [[loop order|1-loop]] [[perturbative QFT|perturbative]] quantum gravity to the [[anomalous magnetic moment]] of the [[electron]] and the [[muon]] have been computed in ([Berends-Gastman 75](#BerendsGastman75)) and found to be finite, without need for [[renormalization]]. These [[Feynman diagrams]] contribute:
