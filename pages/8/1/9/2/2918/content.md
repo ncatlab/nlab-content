@@ -22,6 +22,18 @@
 The _Legendre transformation_ is an operation on [[convex function]]s from a real [[normed vector space]] to the [[real line]]; it is one of the cornerstones of [[convex analysis]]. The space of arguments changes accordingly.
 
 
+## Definition
+ {#Definition}
+
+Two [[differentiable functions]] $f, \tilde f \;\colon\; \mathbb{R} \to \mathbb{R}$ on the [[real line]] are said to be _Legendre transforms_ of each other, if their [[derivatives]] $D f, D\tilde f \;\colon\; \mathbb{R} \to \mathbb{R}$ are [[inverse functions]] of each other:
+
+$$
+  \label{DerivativesOfLegendreTransformsAreInverseFunctions}
+  D f \circ D \tilde f = id 
+  \phantom{AAA}
+  D \tilde f \circ D f = id 
+$$
+
 ## In classical mechanics -- Hamiltonians and Lagrangians
 
 The main application of and the historical root of the notion of Legendre transform (in [[differential geometry]]) is in [[classical physics]] and its formalization by [[symplectic geometry]]. In [[classical mechanics]], the [[Hamiltonian]] function $H$ is a Legendre transform of the [[Lagrangean]] $L$ and vice versa. 
@@ -57,6 +69,10 @@ The concept is named after [[Adrien-Marie Legendre]].
 Reviews include
 
 * Torontowiki: [Legendre Transformation](http://wiki.math.toronto.edu/TorontoMathWiki/index.php/Legendre_Transformation)
+
+See also
+
+* Wikipedia, _[Legendre transformation](https://en.wikipedia.org/wiki/Legendre_transformation)_
 
 Discussion of Legendre transformation in the context of [[Lie algebroids]] is in:
 
