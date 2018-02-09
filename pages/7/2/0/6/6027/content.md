@@ -5,6 +5,12 @@ Length is the [[volume]] of 1-[[dimension]]al spaces.
 
 ## Related concept
 
+* [[length scale]]
+
+* [[wave length]]
+
 * [[Planck length]]
+
+* [[Compton wavelength]]
 
 [[!redirects lengths]]
