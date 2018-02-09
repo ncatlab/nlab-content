@@ -26,7 +26,7 @@ The low energy expansion of any unitary, relativistic, [[crossing symmetry|cross
 
 In the perspective of effective field theory notably  [[renormalizable interaction|non-renormalizable]] [[interaction]]  Lagrangians can still make perfect sense as effective theories and give rise to well defined predictions: they can be effective approximations to [[renormalizable interaction|renormalizable]] more fundamental theories. This is sometimes called a [[UV completion]] of the given effective theory.
 
-For instance [[quantum gravity]] -- which is notoriously [[non-renormalizable interacton|non-renormalizable]] -- makes perfect sense as an effective field theory (see for instance the introduction in ([Donoghue](#DonoghueIntroduction)). It is in principle possible that there is some more fundamental theory with plenty of excitations at high energies that is however degreewise finite in [[perturbation theory]], whose _effective_ description at low energy is given by the [[renormalizable interaction|non-renormalizable]] [[Einstein-Hilbert action]]. (For instance, [[string theory]] is meant to be such a theory.)
+For instance [[quantum gravity]] -- which is notoriously [[non-renormalizable interaction|non-renormalizable]] -- makes perfect sense as an effective field theory (see for instance the introduction in ([Donoghue](#DonoghueIntroduction)). It is in principle possible that there is some more fundamental theory with plenty of excitations at high energies that is however degreewise finite in [[perturbation theory]], whose _effective_ description at low energy is given by the [[renormalizable interaction|non-renormalizable]] [[Einstein-Hilbert action]]. (For instance, [[string theory]] is meant to be such a theory.)
 
 
 
@@ -1330,7 +1330,9 @@ The modern picture of effective low-energy QFT goes back to
 
 * L. P. Kadanoff, _Scaling laws for Ising models near $T_c$_ , Physica 2 (1966);
 
-* {#Wilson71} [[Kenneth Wilson]], _Renormalization group and critical phenomena_ , I., Physical review B 4(9) (1971).
+* {#Wilson71} [[Kenneth Wilson]], _Renormalization group and critical phenomena 1. Renormalization  group  and  the  Kadanoff  scaling  picture_ , , Physical review B 4(9) (1971) ([doi:10.1103/PhysRevB.4.3174](https://doi.org/10.1103/PhysRevB.4.3174))
+
+* {#Wilson71b} [[Kenneth Wilson]], _Renormalization group and critical phenomena. 2. Phase space cell analysis of critical behavior_, Phys. Rev. B4 , 3184 (1971). [doi:10.1103/PhysRevB.4.3184](https://doi.org/10.1103/PhysRevB.4.3184)
 
 * {#Polchinski84} [[Joseph Polchinski]], _Renormalization and effective Lagrangians_ , Nuclear Phys. B B231, 1984 ([pdf](http://max2.physics.sunysb.edu/~rastelli/2016/Polchinski.pdf))
 
@@ -1417,11 +1419,21 @@ See also
 
 ### For string theory
 
-Discussion of the effective field theories induced by [[string theory]] includes
+Discussion of the effective field theories induced by [[string theory]] includes the following:
 
-* [[Ralph Blumenhagen]], [[Dieter Lüst]], [[Stefan Theisen]], _String Scattering Amplitudes and Low Energy Effective Field Theory_, chapter 16 in _Basic Concepts of String Theory_ Part of the series Theoretical and Mathematical Physics pp 585-639 Springer 2013
+Via [[string scattering amplitudes]]:
 
-For more see at _[[landscape of string theory vacua]]_.
+* [[Ralph Blumenhagen]], [[Dieter Lüst]], [[Stefan Theisen]], _String Scattering Amplitudes and Low Energy Effective Field Theory_, chapter 16 in _Basic Concepts of String Theory_ Part of the series Theoretical and Mathematical Physics pp 585-639 Springer 2013 ([TOC pdf](https://link.springer.com/content/pdf/bfm%3A978-3-642-29497-6%2F1.pdf), [publisher page](http://www.springer.com/gp/book/9783642294969))
+
+Via [[string field theory]]:
+
+* R. Brustein, S.P.De Alwis, _Renormalization group equation and non-perturbative effects in string-field theory_, Nuclear Physics B
+Volume 352, Issue 2, 25 March 1991, Pages 451-468 (<a href="https://doi.org/10.1016/0550-3213(91)90451-3">doi:10.1016/0550-3213(91)90451-3</a>)
+
+* Brustein and K. Roland, “Space-time versus world sheet renormalization group equation in string theory,” Nucl. Phys. B372, 201 (1992) (<a href="https://doi.org/10.1016/0550-3213(92)90317-5">doi:10.1016/0550-3213(92)90317-5</a>)
+
+* {#Sen16} [[Ashoke Sen]], _Wilsonian Effective Action of Superstring Theory_, J. High Energ. Phys. (2017) 2017: 108 ([arXiv:1609.00459](https://arxiv.org/abs/1609.00459))
+
 
 [[!redirects effective quantum field theories]]
 
