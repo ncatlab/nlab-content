@@ -95,7 +95,7 @@ The [[Veneziano amplitude]] (open bosonic string tree-level scattering) has an e
 
 Survey of the tree level string scattering amplitudes includes
 
-* [[Ralph Blumenhagen]], [[Dieter Lüst]], [[Stefan Theisen]], _String Scattering Amplitudes and Low Energy Effective Field Theory_, chapter 16 in _Basic Concepts of String Theory_ Part of the series Theoretical and Mathematical Physics pp 585-639 Springer 2013
+* [[Ralph Blumenhagen]], [[Dieter Lüst]], [[Stefan Theisen]], _String Scattering Amplitudes and Low Energy Effective Field Theory_, chapter 16 in _Basic Concepts of String Theory_ Part of the series Theoretical and Mathematical Physics pp 585-639 Springer 2013 ([TOC pdf](https://link.springer.com/content/pdf/bfm%3A978-3-642-29497-6%2F1.pdf), [publisher page](http://www.springer.com/gp/book/9783642294969))
 
 * [[Katrin Becker]], [[Melanie Becker]], Ilarion V. Melnikov, Daniel Robbins, Andrew B. Royston, _Some tree-level string amplitudes in the NSR formalism_, JHEP 12 (2015) 010 ([arXiv:1507.02172](http://arxiv.org/abs/1507.02172))
 
