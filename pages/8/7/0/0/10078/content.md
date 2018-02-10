@@ -1,13 +1,11 @@
+
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Quantum field theory
+#### Algebraic Quantum Field Theory
 +--{: .hide}
-[[!include functorial quantum field theory - contents]]
-=--
-#### Physics
-+--{: .hide}
-[[!include physicscontents]]
+[[!include AQFT and operator algebra contents]]
 =--
 =--
 =--
@@ -19,9 +17,11 @@
 
 ## Idea
 
-Traditionally the [[Feynman perturbation series]]/[[scattering amplitudes]] in [[perturbative quantum field theory]] are defined, given an [[action functional]]/[[local Lagrangian]], by applying the _[[Feynman rules]]_ to the monomial terms in the [[Lagrangian density]] and deriving from that a rule for how to weight each [[Feynman diagram]] by a [[probability amplitude]].
+Traditionally the [[Feynman perturbation series]]/[[scattering amplitudes]] in [[perturbative quantum field theory]] are defined, given a [[free field theory|free field]] [[vacuum]] and an [[local observable|local]] [[interaction]] [[action functional]], by applying the _[[Feynman rules]]_ ([this prop.](A+first+idea+of+quantum+field+theory#FeynmanPerturbationSeriesAwayFromCoincidingPoints)) to the monomial terms in the [[interaction]] [[Lagrangian density]] and deriving from that a rule for how to weight each [[Feynman diagram]] by a [[probability amplitude]], its _[[Feynman amplitude]]_, subject to [[renormalization]] choices.
 
-In what is called the _worldline formalism_ of [[quantum field theory]] this assignment is obtained instead more conceptually as the [[correlators]]/[[n-point functions]] of a 1-dimensional QFT that lives _on_ the Feynman graphs, namely the [[worldline]] theory (usually a [[sigma-model]] in the given [[target|target]] [[spacetime]]) of the [[particles]] that are the quanta of the [[field (physics)|fields]] in the field theory.
+In contrast, in what is called the _worldline formalism_ of [[perturbative quantum field theory]] this assignment is obtained instead more conceptually as the [[correlators]]/[[n-point functions]] of a 1-dimensional QFT that lives _on_ the Feynman graphs, namely the [[worldline]] theory (usually a [[sigma-model]] in the given [[target|target]] [[spacetime]]) of the [[particles]] that are the quanta of the [[field (physics)|fields]] in the field theory.
+
+One may think of this as making explicit the [[edges]] in a [[Feynman diagram] as corresponding to [[virtual particles]]].
 
 Mathematically the key step here is a [[Mellin transform]] -- introducing a "[[Schwinger parameter]]" -- which realizes the [[Feynman propagator]] $\Delta_F(x,y)$ as a [[path integral]] for a [[relativistic particle]] travelling from $y$ to $x$.
 
@@ -32,7 +32,6 @@ The worldline formulation of QFT has an evident generalization to higher dimensi
 [[!include second quantization -- table]]
 
 
-
 Indeed, after decades of [[Feynman rules]], the worldline formalism for QFT was found only _via_ [[string theory]] in ([Bern-Kosower 91](#BernKosower91)), by looking at the point particle limit of [[string scattering amplitudes]]. 
 
 
@@ -40,20 +39,35 @@ Indeed, after decades of [[Feynman rules]], the worldline formalism for QFT was 
 
 > graphics grabbed from [Jurke 10](https://benjaminjurke.com/content/articles/2010/string-theory/)
 
+<img src="https://ncatlab.org/nlab/files/PointParticleLimitOfStringDiagram.png" width="300">
+
+> graphics grabbed from [Schubert 96(#Schubert96)
+
 
 Then ([Strassler 92](#Strassler92), [Strassler 93](#Strassler93)) observed that generally the worldline formlism is obtained from the correlators of the 1d QFT of [[relativistic particles]] on their [[worldline]]. 
 
 <img src="http://ncatlab.org/nlab/files/worldlineformalismoverview.jpg">
 
-(from ([Schmidt-Schubert 94](#SchmidtSchubert94)))
+> graphics grabbed from ([Schmidt-Schubert 94](#SchmidtSchubert94))
+
+The first calculuation along these lines was actually done earlier in ([Metsaev-Tseytlin 88](#MetsaevTseytlin88)) where the [[1-loop]] [[beta function]] for pure [[Yang-Mills theory]] was obtained as the point-particle limit of the [[partition function]] of a [[bosonic string|bosonic]] [[open string]] in a Yang-Mills [[background field]]. This provided a theoretical explanation for the observation, made earlier in ([Nepomechie 83](#Nepomechie83)) that when computed via [[dimensional regularization]] then this [[beta function]] coefficient of [[Yang-Mills theory]] vanishes in [[spacetime]] [[dimension]] 26. This of course is the critical dimension of the [[bosonic string]].
+
 
 ## Related entries
+
+* [[virtual particle]]
 
 * [string theory FAQ -- What is the relationship between quantum field theory and string theory?](string+theory+FAQ#RelationshipBetweenQuantumFieldTheoryAndStringTheory)
 
 ## References
 
-The worldline formalism was first derived from the point-particle limit of [[string scattering amplitudes]] in 
+Precursor observations include
+
+* {#Nepomechie83} R.I. Nepomechie, _Remarks on quantized Yang-Mills theory in 26 dimensions_, Physics Letters B Volume 128, Issues 3–4, 25 August 1983, Pages 177-178 Phys. Lett. B128 (1983) 177 (<a href="https://doi.org/10.1016/0370-2693(83)90385-4">doi:10.1016/0370-2693(83)90385-4</a>)
+
+* {#MetsaevTseytlin88} [[Ruslan Metsaev]], [[Arkady Tseytlin]], _On loop corrections to string theory effective actions_, Nuclear Physics B Volume 298, Issue 1, 29 February 1988, Pages 109-132 (<a href="https://doi.org/10.1016/0550-3213(88)90306-9">doi:10.1016/0550-3213(88)90306-9</a>)
+
+The worldline formalism as such was first derived from the point-particle limit of [[string scattering amplitudes]] in 
 
 * {#BernKosower91} [[Zvi Bern]], D. Kosower, _Efficient calculation of one-loop QCD amplitudes_ Phys. Rev. D 66 (1991),([journal](http://prl.aps.org/abstract/PRL/v66/i13/p1669_1))
  
@@ -67,26 +81,37 @@ Then it was related to actual worldline quantum field theory in
 
 * {#Strassler93} [[Matthew Strassler]], _The Bern-Kosower Rules and Their Relation to Quantum Field Theory_, PhD thesis, Stanford 1993 ([spires](http://inspirehep.net/record/364079?ln=de))
  
-
-
-
-Reviewes include
+Reviews include
 
 * {#SchmidtSchubert94} M. G. Schmidt, C. Schubert, _The Worldline Path Integral Approach to Feynman Graphs_ ([arXiv:hep-ph/9412358](http://arxiv.org/abs/hep-ph/9412358))
 
-and a list of more literature is at
+* {#Schubert96} Christian Schubert, _An Introduction to the Worldline Technique for Quantum Field Theory Calculations_, Acta Phys. Polon.B27:3965-4001, 1996 ([arXiv:hep-th/9610108](https://arxiv.org/abs/hep-th/9610108))
 
-* The Tangent Bundle, _[QFT Worldline formalism](http://www.physics.thetangentbundle.net/wiki/Quantum_field_theory/worldline_formalism)_
-
-Exposition with an eye towards [[quantum gravity]] is
+Exposition with an eye towards [[quantum gravity]] is in
 
 * {#Witten11} [[Edward Witten]], from 30:40 on in _Quantum Gravity_, Solomon Lefschetz Memorial Lecture Series, November 2011 ([video](https://www.youtube.com/watch?v=uRdCJMYc2Ds#t=15))
 
 * {#Witten15} [[Edward Witten]], _What every physicist should know about string theory_, talk at [Strings2015](https://strings2015.icts.res.in)  ([pdf](https://strings2015.icts.res.in/talkDocuments/26-06-2015-Edward-Witten.pdf), [video recording](https://www.youtube.com/watch?v=H0jLD0PphTY))
 
-Discussion specifically for [[fermions]] is in 
+
+Further development includes
+
+* M. G. Schmidt, C. Schubert, _Worldline Green Functions for Multiloop Diagrams_, Phys.Lett. B331 (1994) 69-76 ([arXiv:hep-th/9403158](https://arxiv.org/abs/hep-th/9403158))
+
+* [[Eric D'Hoker]], Darius G. Gagne, _Worldline Path Integrals for Fermions with General Couplings_, Nucl.Phys. B467 (1996) 297-312 ([arXiv:hep-th/9512080](https://arxiv.org/abs/hep-th/9512080))
+
 
 * C. Alexandrou, R. Rosenfelder, A. W. Schreiber, _Worldline path integral for the massive Dirac propagator: A four-dimensional approach_, Phys. Rev. A59 (1999) 1762-1776 ([arXiv:hep-th/9809101](http://arxiv.org/abs/hep-th/9809101))
+
+
+* Fiorenzo Bastianelli, Olindo Corradini, Andrea Zirotti, _BRST treatment of zero modes for the worldline formalism in curved space_, JHEP 0401 (2004) 023 ([arXiv:hep-th/0312064](https://arxiv.org/abs/hep-th/0312064))
+
+* Peng Dai, [[Warren Siegel]], _Worldline Green Functions for Arbitrary Feynman Diagrams_, Nucl.Phys.B770:107-122,2007 ([arXiv:hep-th/0608062](https://arxiv.org/abs/hep-th/0608062))
+
+A list of more literature is at
+
+* The Tangent Bundle, _[QFT Worldline formalism](http://www.physics.thetangentbundle.net/wiki/Quantum_field_theory/worldline_formalism)_
+
 
 [[!redirects worldline formalisms]]
 
