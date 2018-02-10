@@ -380,7 +380,9 @@ $$
   \mathbf{L}
     \;\coloneqq\;
   \tfrac{1}{2}
-  k_{\alpha \beta} f^\alpha_{\mu \nu} f^{\beta \mu \nu} dvol_\Sigma
+  k_{\alpha \beta} f^\alpha_{\mu \nu} f^{\beta \mu \nu} 
+  \,
+  dvol_\Sigma
   \;\in\;
   \Omega^{p+1,0}_\Sigma(T^\ast \Sigma)
   \,,
@@ -390,7 +392,7 @@ where
 
 $$
   f^\alpha_{\mu \nu}
-  \;=\;
+  \;\coloneqq\;
   \tfrac{1}{2}
   \left(
     a^\alpha_{\nu,\mu}
@@ -405,6 +407,148 @@ $$
 $$
 
 is the universal [[Yang-Mills theory|Yang-Mills]] [[field strength]] (eq:YangMillsJetFieldStrengthMinkowski).
+
+For the purposes of [[perturbative quantum field theory]] (to be discussed below in chapter _[15. Interacting quantum fields](#InteractingQuantumFields)_) we may allow for a rescaling of the structure constants by (at this point) a [[real number]] $g$, to be called the _[[coupling constant]]_, and decompose the Lagrangian into a sum of a [[free field theory|free field theory Lagrangian]] (def. \ref{FreeFieldTheory}) and an [[interaction]] term:
+
+$$
+  \begin{aligned}
+  \mathbf{L}
+    & =
+    \tfrac{1}{2}
+    k_{\alpha \beta} 
+    \tfrac{1}{2}
+    \left(
+      a^\alpha_{\nu,\mu}
+      -
+      a^\alpha_{\mu,\nu}
+      +
+      g \gamma^{\alpha}{}_{\beta' \gamma'}
+      a^{\beta'}_{\mu} a^{\gamma'}_{\nu}
+    \right)
+    \tfrac{1}{2}
+    \left(
+      a^{\beta\nu,\mu}
+      -
+      a^{\beta \mu,\nu}
+      +
+      g \gamma^{\beta}{}_{\beta'' \gamma''}
+      a^{\beta''}_{\mu} a^{\gamma''}_{\nu}
+    \right)
+    \,dvol_\Sigma
+    \\
+    & =
+    \underset{
+      \mathbf{L}_{\mathrm{free}}
+    }{
+    \underbrace{
+    \tfrac{1}{2}
+    k_{\alpha \beta} 
+    \tfrac{1}{2}
+    \left(
+      a^\alpha_{\nu,\mu}
+      -
+      a^\alpha_{\mu,\nu}
+    \right)
+    \tfrac{1}{2}
+    \left(
+      a^{\beta\nu,\mu}
+      -
+      a^{\beta \mu,\nu}
+    \right)
+    \,dvol_\Sigma
+    }
+    }
+    \\
+    & \phantom{=}
+    +
+    \underset{
+      \mathbf{L}_{int}
+    }{
+    \underbrace{
+    g 
+    \, 
+    k_{\alpha \beta} 
+    \tfrac{1}{2}
+    \left(
+      a^\alpha_{\nu,\mu}
+      -
+      a^\alpha_{\mu,\nu}
+    \right)
+    \tfrac{1}{2}
+    \left(
+      \gamma^{\beta}{}_{\beta'' \gamma''}
+      a^{\beta''}_{\mu} a^{\gamma''}_{\nu}
+    \right)
+    \,dvol_\Sigma
+    \;
+    +
+    \;
+    g^2
+    \,
+    \tfrac{1}{2}
+    k_{\alpha \beta} 
+    \tfrac{1}{2}
+    \left(
+      \gamma^{\alpha}{}_{\beta' \gamma'}
+      a^{\beta'}_{\mu} a^{\gamma'}_{\nu}
+    \right)
+    \tfrac{1}{2}
+    \left(
+      \gamma^{\beta}{}_{\beta'' \gamma''}
+      a^{\beta''}_{\mu} a^{\gamma''}_{\nu}
+    \right)
+    \,dvol_\Sigma
+    }
+    }
+    \\
+  \end{aligned}
+  \,,
+$$
+
+Notice that $\mathbf{L}_{free}$ is equivalently a sum of $dim(\mathfrak{g})$-copies of the Lagrangian for the [[electromagnetic field]] (example \ref{ElectromagnetismLagrangianDensity}).
+
+On the other hand, for the purpose of exhibiting "[[non-perturbative effects]] due to [[instantons]]" in [[Yang-Mills theory]], one consider the rescaled Yang-Mills field coordinate
+
+$$
+  \tilde a^\alpha_\mu
+  \;\coloneqq\;
+  \frac{1}{g} a^\alpha_\mu
+$$
+
+with corresponding [[field strength]]
+
+$$
+  \tilde f^\alpha_{\mu \nu}
+  \;\coloneqq\;
+  \tfrac{1}{2}
+  \left(
+    \tilde a^\alpha_{\nu,\mu}
+    -
+    \tilde a^\alpha_{\mu,\nu}
+    +
+    \gamma^{\alpha}{}_{\beta \gamma}
+    \tilde a^\beta_{\mu} \tilde a^\gamma_{\nu}
+ \right)
+  \;\in\;
+  \Omega^{0,0}_\Sigma(E)
+  \,.
+$$
+
+In terms of this the expression for the Lagrangian is brought back to the abstract form it had before rescaling the structure constants by the [[coupling constant]], up to a _global_ rescaling of all terms by the _inverse square_ of the coupling constant:
+
+
+$$
+  \label{MinkowskiYangMillsLagrangianWithCouplingConstantPulledOut}
+  \mathbf{L}
+    \;=\;
+  \frac{1}{g^2}
+  \tfrac{1}{2}
+  k_{\alpha \beta} \tilde f^\alpha_{\mu \nu} \tilde f^{\beta \mu \nu} 
+  \,
+  dvol_\Sigma
+  \,.
+$$
+
 
 =--
 
