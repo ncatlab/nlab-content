@@ -10,6 +10,8 @@
 
 ## related $n$Lab entries
 
+* [[worldline formalism]]
+
 * [[4d supergravity]]
 
 * [[KLT relations]]
