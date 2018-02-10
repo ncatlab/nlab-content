@@ -231,7 +231,10 @@ Hence 1-dimensional formal group laws over $R$ are equivalently [[monoids]] in $
 
 =--
 
-
++-- {: .num_example} 
+###### Example 
+Any [[power series]] of the form $f(x) = x + a_2 x^2 + a_3 x^3 + \ldots$ in $R[ [x] ]$ has a functional or compositional inverse $f^{-1}(x)$ in the monoid $x R[ [x] ]$ under composition. Thus we may define a 1-dimensional formal group law by the formula $\mu(x, y) = f^{-1}(f(x) + f(y))$. That this is in some sense the typical way that 1-dimensional formal group laws arise is the content of [[Lazard ring|Lazard's theorem]]. 
+=-- 
 
 
 
