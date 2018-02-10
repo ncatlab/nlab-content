@@ -4013,6 +4013,10 @@ $$
 
 $\,$
 
+#### Dimensional regularization
+
+Discussion of renormalization via [[dimensional regularization]] in the rigorous context of [[causal perturbation theory]] is due to [Dütsch-Fredenhagen-Keller-Rejzner 14, section 4](#DuetschFredenhagenKellerRejzner14).
+
 
 #### Connes-Kreimer renormalization
 
