@@ -36,6 +36,7 @@ In the [[field theory]]-picture the crucial condition on the S-matrix is its [[c
 The perception of the nature of the S-matrix as a primary or derived concept in the foundations of quantum field theory has a convoluted (and ongoing) history, see [below](#History).
 
 ### The S-matrix bootstrap
+  {#IdeaSMatrixBootstrap}
 
 From [this Physics.SE comment](https://physics.stackexchange.com/a/17973/5603) by [[Ron Maimon]]:
 
@@ -111,6 +112,17 @@ Regge scattering also predicts near beam scattering amplitudes from the sum of t
 ## Details
  {#Formalization}
 
+We first discuss the simple situation of S-matrices in [[quantum mechanics]]:
+
+* _[In Quantum Mechanics](#InQuantumMechanics)_
+
+Then we give a detailed account of S-matrix theory for [[perturbative quantum field theory]] induced from [[interaction]] [[action functionals]] on [[spacetime]]: 
+
+* _[In perturbative relativistic Lagrangian QFT – Causal perturbation theory](#InCausalPerturbationTheory)_.
+
+This is essentially chapter 15. in _[[A first idea of quantum field theory]]_.
+
+(We should eventually also discuss the abstract S-matrix bootstrap here in detail.)
 
 ### In quantum mechanics
  {#InQuantumMechanics}
@@ -7628,7 +7640,7 @@ based on ideas due to ([Stückelberg 49](causal+perturbation+theory#Stueckelberg
 
 Comparative discussion of the two perspectives on the S-matrix includes:
 
-* {#Chew70} [[Geoffrey Chew]], _Quark or Bootstrap: Triumph or Frustration for Hadron Physics_, Physics Today, May 1970 ([web](https://pubarchive.lbl.gov/islandora/object/ir%3A144169/datastream/PDF/view))
+* {#Chew70} [[Geoffrey Chew]], _Quark or Bootstrap: Triumph or Frustration for Hadron Physics_, Physics Today, May 1970 ([web](https://pubarchive.lbl.gov/islandora/object/ir%3A144169/datastream/PDF/view), [[Chew70.pdf:file]])
 
 * {#Schroer11} [[Bert Schroer]], _Causality and dispersion relations and the role of the S-matrix in the ongoing research_ ([arXiv:1102.0168](https://arxiv.org/abs/1102.0168))
 
@@ -7717,7 +7729,7 @@ An entertaining account of some of the history and the sociology of S-matrix the
 
 
 [[!redirects S-matrices]]
-\
+
 
 [[!redirects scattering matrix]]
 [[!redirects scattering matrices]]
