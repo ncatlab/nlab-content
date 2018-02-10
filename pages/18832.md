@@ -1358,7 +1358,7 @@ $$
   \,.
 $$
 
-Here the would-be [[integration]] is thought to be over the [[space of field histories]] $\Gamma_\Sigma(E_{\text{BV-BRST}})_{asm}$ (the [[space of sections]] of the given [[field bundle]]) for [[field histories]] which satisfy given asymptotic conditions at $x^0 \to \pm \infty$; and as these boundary conditions vary the above is regarded as a would-be [[integral kernel]] that defines the required operator in the [[Wick algebra]] (e.g. [Weinberg 95, around (9.3.10) and (9.4.1)](S-matrix#Weinberg95)). This is related to the intuitive picture of the [[Feynman perturbation series]] expressing a sum over all possible interactions of [[virtual particles]] (remark \ref{WorldlineFormalism}).
+Here the would-be [[integration]] is thought to be over the [[space of field histories]] $\Gamma_\Sigma(E_{\text{BV-BRST}})_{asm}$ (the [[space of sections]] of the given [[field bundle]], remark \ref{PossibleFieldHistories}) for [[field histories]] which satisfy given asymptotic conditions at $x^0 \to \pm \infty$; and as these boundary conditions vary the above is regarded as a would-be [[integral kernel]] that defines the required operator in the [[Wick algebra]] (e.g. [Weinberg 95, around (9.3.10) and (9.4.1)](S-matrix#Weinberg95)). This is related to the intuitive picture of the [[Feynman perturbation series]] (example \ref{FeynmanPerturbationSeries} below) expressing a sum over all possible interactions of [[virtual particles]] (remark \ref{WorldlineFormalism}).
 
 Beyond toy examples, it is not known how to define the would-be [[measure]] $D[\Phi]$ and it is not known how to make sense of this expression as an actual [[integral]].
 
