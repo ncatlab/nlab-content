@@ -2,13 +2,9 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Physics
+#### Algebraic Quantum Field Theory
 +--{: .hide}
-[[!include physicscontents]]
-=--
-#### Quantum field theory
-+--{: .hide}
-[[!include functorial quantum field theory - contents]]
+[[!include AQFT and operator algebra contents]]
 =--
 #### Differential cohomology
 +--{: .hide}
