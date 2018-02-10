@@ -21,7 +21,7 @@ After the initial model for the axion was quickly ruled out by [[experiment]] (s
 
 The "invisible axion" turns out to also be a natural candidate for [[dark matter]] [Preskill-Wise-Wilcek 83](#PreskillWiseWilcek83), hence potentially also solves one of the problems with the [[standard model of cosmology]]. More recently it is argued in [Hui-Ostriker-Tremaine-Witten 16](#HOTW16) that indeed axionic dark matter ([[fuzzy dark matter]]) potentially solves the remaining problems of standard WIMP dark matter models: WIMP dark matter models work exceedingly well on [[cosmology|cosmological]] scales but has serious experimental problems on the scale of [[galaxies]]. Due to the extreme lightness of axion particles, their [[de Broglie wavelength]] may be of the scale of galaxies and hence their quantum properties may become relevant at this scale to deviate in the right way from the WIMP models.
 
-The Pecchei-Quinn shift symmetry of the axion and the peculiar nature of the axion [[interaction term]] which are needed to make the axion model work this way have been argued to naturally arise in [[string theory]], if the axion is identified with the [[KK-reduction]] of the [[higher gauge fields]] in [[string theory]].
+The Pecchei-Quinn shift symmetry of the axion and the peculiar nature of the axion [[interaction term]] which are needed to make the axion model work this way have been argued to naturally arise in [[string theory]], if the axion is identified with the [[KK-reduction]] of the [[higher gauge fields]] in [[string theory]]. This we discuss [below](#AsArisingFromStringTheory).
 
 
 
@@ -65,7 +65,7 @@ $$
 the theta angle vanishes.
 
 
-## The Vafa-Witten mechanism
+### The Vafa-Witten mechanism
  {#VafaWittenMechanism}
 
 That this is indeed the case is due to [Vafa-Witten 84, around (2)](#VafaWitten84). These authors argue via the [[Wick rotation|Wick rotated]] [[path integral]] as follows:
@@ -100,16 +100,88 @@ Now due to the factor of $i$ in front of $\theta$ in this expression, the real p
  
 
 
-## In string theory -- Axions as KK-reduction of higher gauge fields
+## In string theory 
  {#AsArisingFromStringTheory}
 
-In [[string theory]] axion fields naturally arise, as amplified in particular in [Svrcek-Witten 06](#SvrcekWitten06):
+In [[string theory]] axion fields 
+
+1. are naturally present as the [[KK-reduction]] of the [[higher gauge fields]] (e.g. [Svrcek-Witten 06](#SvrcekWitten06));
+
+   reviewed below in:
+
+   _[As KK-Reduction of higher gauge fields](#AxionsAsKKReductionOfHigherGaugeFields)_
+
+1. are generically of positive but tiny mass ([ADDKM 09](#ADDKM09), [Acharya-Bobkov-Kumar 10](#AcharyaBobkovKumar10)) as they need to be to be a solution to the [[strong CP problem]] and be candidates for [[fuzzy dark matter|BEC/superfluid/fuzzy dark matter]];
+
+   reviewed below in:
+
+   _[Stringy axion phenomenology](#StringyAxionPhenomenology)_
+
+This makes axion fields in string theory form a curious confluence point relating  
+
+* abstract concepts related to [[higher gauge theory]] 
+
+with
+
+* fundamental question in [[standard model of particle physics|particle physics]]/[[standard model of cosmology|cosmology]] [[phenomenology]]:
+
+$$
+  \array{
+    \mathbf{\text{higher gauge theory}}
+    &&
+    &&
+    \mathbf{\text{particle physics/cosmology phenomenology}}
+    \\
+    \\
+    \left.
+      \array{
+        \text{higher gauge fields}
+        \\
+        \text{higher characteristic classes} 
+        \\
+        \updownarrow
+        \\
+        \text{non-perturbative QFT/string effects}
+        \\
+        \text{in HET: Green-Schwarz anomaly cancellation}
+        \\
+        \text{in IIA/B: higher WZW term for Green-Scharz D-branes}
+      }
+    \right\}
+    &\longrightarrow&
+    \array{
+      \text{axion fields}
+      \\
+      \text{in the string spectrum}
+    }
+    &\longrightarrow&
+    \left\{
+      \array{
+        \text{solve strong CP-problem as with P-Q robustly}
+        \\
+        \text{<a href="https://ncatlab.org/nlab/show/fuzzy%20dark%20matter">solve dark matter problem by FDM</a>}
+      }
+    \right.
+  }
+$$
+
+
+
+### Axions as KK-reduction of higher gauge fields
+ {#AxionsAsKKReductionOfHigherGaugeFields}
+
+In [[string theory]] axion fields _naturally_ arise as the [[KK compactification]] of the [[higher gauge fields]] ([[B-field]], [[C-field]], [[RR-fields]]). Here we review how this comes about.
+
+Notice that this means that axions in string theory are as in the output of the original Peccei–Quinn proposal, but do not actually make use of the Peccei–Quinn mechanism. 
+
+As amplified in particular in [Svrcek-Witten 06](#SvrcekWitten06):
 
 > An obvious question about the axion hypothesis is how natural it really is. Why introduce a global PQ "symmetry" if it is not actually a symmetry? What is the sense in constraining a theory so that the classical Lagrangian possesses a certain symmetry if the symmetry is actually anomalous? It could be argued that the best evidence that PQ "symmetries" are natural comes from string theory, which produces them without any contrivance. ... the string compactifications always generate PQ symmetries, often spontaneously broken at the string scale and producing axions, but sometimes unbroken. ([Svrcek-Witten 06, pages 3-4](#SvrcekWitten06))
 
 Similarly from [ADDKM 09](#ADDKM09):
 
 > However, at the [[effective field theory]] level  it  is  hard  to  judge  how natural it is to have such a "fake" global PQ symmetry which is explicitly broken exclusively by QCD. Note, that in order not to spoil the solution to the strong CP problem all other sources of explicit PQ symmetry breaking should be at least 10 orders of magnitude down with respect to the potential  generated  by the QCD anomaly, and one may be especially cautious about the viability of such a proposal, given the common lore that global symmetries always get broken by quantum gravitational effects [12, 13, 14]. This makes it natural to inquire whether axions arise naturally in the most developed quantum theory of gravity—string theory. ([ADDKM 09, p. 3](#ADDKM09))
+
 
 The mechanism discussed in [Svrcek-Witten 06](#SvrcekWitten06), in all its incarnations in the various perspectives on string theory ([[heterotic string theory|heterotic strings]], [[type II string theory|type II strings]], [[11-dimensional supergravity]] with [[M-theory]] effects included, etc.) share the following properties:
 
@@ -125,12 +197,14 @@ The mechanism discussed in [Svrcek-Witten 06](#SvrcekWitten06), in all its incar
 
    * for heterotic string theory it arises from integrating out the [[Lagrange multiplier]] that enforces the [[Green-Schwarz anomaly cancellation]] in 4d.
 
-below we describe these various perspecrtives on the string theoretic axions in more detail.
+We now discuss this in more detail:
 
+* _[In type IIA string theory](#IntypeIIA)_
 
+* _[In heterotic string theory](#InHeteroticStringTheory)_
 
-
-### In type IIA string theory
+#### In type IIA string theory
+  {#IntypeIIA}
 
 Consider [[string phenomenology]] in [[type IIA string theory]] in the guise of [[intersecting D-brane models]] with the [[standard model of particle physics]] supported in intersecting [[D6-branes]] whose [[worldvolume]] fills all of 4d [[spacetime]].
 
@@ -165,7 +239,8 @@ $$
 ([Svrcek-Witten 06, around (6.9)](#SvrcekWitten06))
 
 
-### In heterotic string theory
+#### In heterotic string theory
+  {#InHeteroticStringTheory}
 
 In [[heterotic string theory]] [[KK-compactification|KK-compactified]] to 4d, the 4d [[B-field]], dualized, serves as the axion field, called the "model independent axion" ([Svrcek-Witten 06, starting p. 15](#SvrcekWitten06)).
 
@@ -228,14 +303,32 @@ $$
 This now is an action functional for an axion field $a$ of just the form required [above](#AsASolutionToTheStrongCPProblem) for the solution of the [[strong CP-problem]].
 
 
+### Stringy axion phenomenology
+ {#StringyAxionPhenomenology}
+
+From [Acharya-Kane-Kumar 12, p. 3](#AcharyaKaneKumar12):
+
+> Now consider the axions.  Due to the shift symmetries mentioned above, there are no [[perturbative QFT|perturbative]] contributions to their potential.  [[non-perturbative effect|Non-perturbative effects]] though, such as strong gauge dynamics, gauge [[instantons]], gaugino condensation and stringy instantons will generate a potential for the axions. Because any such contribution is exponentially suppressed by couplings and/or extra-dimensional volumes, in our world with perturbative gauge couplings (at high scales), the axion masses will be exponentially small.  
+
+> Furthermore, since there are large numbers of axions in general, their masses will essentially be uniformly distributed on a logarithmic scale ([5](#ADDKM09)).  See ([6](#AcharyaBobkovKumar10)) for a detailed calculation of axion masses in string/M effective theories. 
+
+> Like the moduli, the axions are also very weakly coupled to matter and therefore do not thermalize in general.  Moreover, since their masses are tiny - ranging from $m_{3/2}$ to  even  below  the  Hubble  scale  today  -  many  of them,  including  the  QCD  axion,  start  coherent  oscillations  during  the  time  that  the  moduli  are  dominating the energy density, but before BBN. 
+
+Observe that ultralight axion fields is precisely what is required in HEP [[phenomenology]] for
+
+1. the solution to the [[strong CP-problem]];
+
+1. the solution of the [[dark matter]] problem via [[fuzzy dark matter|BEC/superfluid/wave/fuzzy dark matter]] (e.g. [Hui-Ostriker-Tremaine-Witten 16](#HOTW16)).
+
 
 
 ## Related concepts
 
 * [[axion inflation]]
 
-[[!include fields and quanta - table]]
+* [[fuzzy dark matter]]
 
+* [[strong CP problem]]
 
 ## References
 
@@ -304,13 +397,6 @@ Discussion of stringy axion [[cosmology]] (such as [[fuzzy dark matter]]) is in
 
 * {#AcharyaKaneKumar12} [[Bobby Acharya]], [[Gordon Kane]], [[Piyush Kumar]], _Compactified String Theories -- Generic Predictions for Particle Physics_, Int. J. Mod. Phys. A, Volume 27 (2012) 1230012 ([arXiv:1204.2795](https://arxiv.org/abs/1204.2795))
 
-From [Acharya-Kane-Kumar 12, p. 3](#AcharyaKaneKumar12):
-
-> Now consider the axions.  Due to the shift symmetries mentioned above, there are no [[perturbative QFT|perturbative]] contributions to their potential.  [[non-perturbative effect|Non-perturbative effects]] though, such as strong gauge dynamics, gauge [[instantons]], gaugino condensation and stringy instantons will generate a potential for the axions. Because any such contribution is exponentially suppressed by couplings and/or extra-dimensional volumes, in our world with perturbative gauge couplings (at high scales), the axion masses will be exponentially small.  
-
-> Furthermore, since there are large numbers of axions in general, their masses will essentially be uniformly distributed on a logarithmic scale ([5](#ADDKM09)).  See ([6](#AcharyaBobkovKumar10)) for a detailed calculation of axion masses in string/M effective theories. 
-
-> Like the moduli, the axions are also very weakly coupled to matter and therefore do not thermalize in general.  Moreover, since their masses are tiny - ranging from $m_{3/2}$ to  even  below  the  Hubble  scale  today  -  many  of them,  including  the  QCD  axion,  start  coherent  oscillations  during  the  time  that  the  moduli  are  dominating the energy density, but before BBN. 
 
 ### Experimental signature
 
@@ -320,7 +406,7 @@ From [Acharya-Kane-Kumar 12, p. 3](#AcharyaKaneKumar12):
   > Primordial decays of [[string theory]] [[moduli stabilization|moduli]] at $z \sim 10^{12}$ naturally generate a [[dark radiation]] Cosmic Axion Background (CAB) with $0.1 - 1 keV$ energies. This CAB can be detected through axion-[[photon]] conversion in astrophysical [[magnetic fields]] to give quasi-thermal excesses in the extreme ultraviolet and soft X-ray bands. Substantial and observable luminosities may be generated even for axion-photon couplings $\ll 10^{-11} GeV^{-1}$. We propose that axion-photon conversion may explain the observed excess emission of soft X-rays from galaxy clusters, and may also contribute to the diffuse unresolved cosmic X-ray background. We list a number of correlated predictions of the scenario. 
 
 
-Discussion of the axion as a candidate for [[dark matter]] ([[fuzzy dark matter]]) is
+Discussion of the axion as a candidate for [[dark matter]] ([[fuzzy dark matter]]) is in
 
 * {#HOTW16} [[Lam Hui]], [[Jeremiah Ostriker]], [[Scott Tremaine]], [[Edward Witten]], _On the hypothesis that cosmological dark matter is composed of ultra-light bosons_, Phys. Rev. D 95, 043541 (2017) ([arXiv:1610.08297](https://arxiv.org/abs/1610.08297))
 
