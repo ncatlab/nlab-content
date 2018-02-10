@@ -40,6 +40,8 @@ for
 
 * $\frac{1}{g^2}$ the _Yang-Mills [[coupling constant]]_ and $\theta$ the _[[theta angle]]_, some [[real numbers]] (see at _[[S-duality]]_).
 
+(See [this example](A+first+idea+of+quantum+field+theory#YangMillsLagrangian) at _[[A first idea of quantum field theory]]_.) 
+
 ## Properties
 
 ### Classification of solutions
