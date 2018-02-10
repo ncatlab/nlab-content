@@ -226,11 +226,17 @@ Principles singling out heterotic models with three generations of fundamental p
 #### Type II / F-theory models
  {#ReferencesTypeIIModels}
 
+The canonical textbook for [[type II superstring]] phenomenology is 
+
+* [Ibanez-Uranga 12](#IbanezUranga12)
+
+See also
+
 * {#Denef08} [[Frederik Denef]], _Les Houches Lectures on Constructing String Vacua_, in _[[String theory and the real world]]_ ([arXiv:0803.1194](http://arxiv.org/abs/0803.1194))
 
 Reviews of intersecting [[D-brane]] models in [[type II string theory]] (in [[orientifold]] [[flux compactifications]]) include
 
-* {#Lust04} [[Dieter Lüst]], _Intersecting Brane Worlds -- A Path to the Standard Model ?_, Class.Quant.Grav.21:S1399-1424,2004 ([arXiv:hep-th/0401156](http://arxiv.org/abs/hep-th/0401156))
+* {#Lust04} [[Dieter Lüst]], _Intersecting Brane Worlds -- A Path to the Standard Model ?_, Class. Quant. Grav.21 : S1399-1424, 2004 ([arXiv:hep-th/0401156](http://arxiv.org/abs/hep-th/0401156))
 
 * [[Ralph Blumenhagen]], [[Volker Braun]], Boris Kors, [[Dieter Lüst]], _The Standard Model on the Quintic_, Summary of Talks at SUSY02, 1st Intl. Conference on String Phenomenology in Oxford, Strings 2002 and 35th Ahrenshoop Symposium. ([arXiv:hep-th/0210083](http://arxiv.org/abs/hep-th/0210083))
 
