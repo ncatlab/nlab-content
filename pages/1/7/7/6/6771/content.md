@@ -20,6 +20,15 @@
 
 In statistical field theory and in [[perturbative quantum field theory]], what is called the _beta function_ is the [[logarithm|logarithmic]] [[derivative]] of the [[running of the coupling constants]] under [[renormalization group flow]]. See there for more.
 
+## Examples
+
+### For Yang-Mills theory
+
+In ([Metsaev-Tseytlin 88](#MetsaevTseytlin88)) the [[1-loop]] [[beta function]] for pure [[Yang-Mills theory]] was obtained as the point-particle limit of the [[partition function]] of a [[bosonic string|bosonic]] [[open string]] in a Yang-Mills [[background field]]. This provided a theoretical explanation for the observation, made earlier in ([Nepomechie 83](#Nepomechie83)) that when computed via [[dimensional regularization]] then this [[beta function]] coefficient of [[Yang-Mills theory]] vanishes in [[spacetime]] [[dimension]] 26. This of course is the critical dimension of the [[bosonic string]]. 
+
+For more on this see at _[[worldline formalism]]_
+
+
 
 ## References
 
@@ -39,8 +48,13 @@ Formulation in the rigorous context of [[causal perturbation theory]]/[[pAQFT]],
 
 reviewed in
 
-* {#Duetsch18} [[Michael Dütsch]], section 3.5.3 of _[[From classical field theory
-to perturbative quantum field theory]]_, 2018
+* {#Duetsch18} [[Michael Dütsch]], section 3.5.3 of _[[From classical field theory to perturbative quantum field theory]]_, 2018
+
+Discussion for [[Yang-Mills theory]] includes
+
+* {#Nepomechie83} R.I. Nepomechie, _Remarks on quantized Yang-Mills theory in 26 dimensions_, Physics Letters B Volume 128, Issues 3–4, 25 August 1983, Pages 177-178 Phys. Lett. B128 (1983) 177 (<a href="https://doi.org/10.1016/0370-2693(83)90385-4">doi:10.1016/0370-2693(83)90385-4</a>)
+
+* {#MetsaevTseytlin88} [[Ruslan Metsaev]], [[Arkady Tseytlin]], _On loop corrections to string theory effective actions_, Nuclear Physics B Volume 298, Issue 1, 29 February 1988, Pages 109-132 (<a href="https://doi.org/10.1016/0550-3213(88)90306-9">doi:10.1016/0550-3213(88)90306-9</a>)
 
 
 
