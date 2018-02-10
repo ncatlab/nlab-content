@@ -48,6 +48,23 @@ Many of the insights are based on the gauge/gravity duality in string theory:
 
 1. [General relation between Yang-Mills theory and gravity]()
 
+
+
+
+### Worldline formalism
+
+The [[worldline formalism]] for expressing QFT [[scattering amplitudes]] in an effective [[gauge invariance|gauge invariant]] way (different from but equivalent to the [[Feynman rules]]) was originally found by taking the point-particle limit of the expressions for [[string scattering amplitudes]]. See at _[[worldline formalism]]_ for more.
+
+Example:
+
+The first calculuation along these lines was actually done earlier in ([Metsaev-Tseytlin 88](#MetsaevTseytlin88)), where the [[1-loop]] [[beta function]] for pure [[Yang-Mills theory]] was obtained as the point-particle limit of the [[partition function]] of a [[bosonic string|bosonic]] [[open string]] in a Yang-Mills [[background field]]. This provided a theoretical explanation for the observation, made earlier in ([Nepomechie 83](#Nepomechie83)) that when computed via [[dimensional regularization]] then this [[beta function]] coefficient of [[Yang-Mills theory]] vanishes in [[spacetime]] [[dimension]] 26. This of course is the critical dimension of the [[bosonic string]].
+
+* {#Nepomechie83} R.I. Nepomechie, _Remarks on quantized Yang-Mills theory in 26 dimensions_, Physics Letters B Volume 128, Issues 3–4, 25 August 1983, Pages 177-178 Phys. Lett. B128 (1983) 177 (<a href="https://doi.org/10.1016/0370-2693(83)90385-4">doi:10.1016/0370-2693(83)90385-4</a>)
+
+* {#MetsaevTseytlin88} [[Ruslan Metsaev]], [[Arkady Tseytlin]], _On loop corrections to string theory effective actions_, Nuclear Physics B Volume 298, Issue 1, 29 February 1988, Pages 109-132 (<a href="https://doi.org/10.1016/0550-3213(88)90306-9">doi:10.1016/0550-3213(88)90306-9</a>)
+
+
+
 ### General relation between Yang-Mills theory and gravity
 
 [[AdS/CFT correspondence]] [[open/closed string duality]]
@@ -64,6 +81,16 @@ talks at
 #### Worldline formalism
 
 The [[worldline formalism]] for expressing QFT [[scattering amplitudes]] in an effective [[gauge invariance|gauge invariant]] way (different from but equivalent to the [[Feynman rules]]) was originally found by taking the point-particle limit of the expressions for [[string scattering amplitudes]]. See at _[[worldline formalism]]_ for more.
+
+Example:
+
+The first calculuation along these lines was actually done earlier in ([Metsaev-Tseytlin 88](#MetsaevTseytlin88)), where the [[1-loop]] [[beta function]] for pure [[Yang-Mills theory]] from the [[partition function]] of a [[bosonic string|bosonic]] [[open string]] in a Yang-Mills [[background field]]. This provided a theoretical explanation for the observation, made earlier in ([Nepomechie 83](#Nepomechie83)) that when computed in via [[dimensional regularization]] then this [[beta function]] coefficient of [[Yang-Mills theory]] vanishes in [[spacetime]] [[dimension]] 26. This of course is the critical dimension of the [[bosonic string]].
+
+* {#Nepomechie83} R.I. Nepomechie, Phys. Lett. B128 (1983) 177
+
+* {MetsaevTseytlin88} [[Ruslan Metsaev]], [[Arkady Tseytlin]], _On loop corrections to string theory effective actions_, Nuclear Physics B Volume 298, Issue 1, 29 February 1988, Pages 109-132 ([doi:10.1016/0550-3213(88)90306-9](https://doi.org/10.1016/0550-3213(88)90306-9))
+
+
 
 #### QFT Duality and specifically Montonen-Olive electric/magnetic duality
 
