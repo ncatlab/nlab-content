@@ -213,15 +213,15 @@ Discussion of loop orders of relevance in comparison to [[experiment]] cited abo
 
 [[!redirects loop orders]]
 
-[[!redirects 1-loop]]
-[[!redirects 2-loop]]
-[[!redirects 3-loop]]
-
 [[!redirects tree level]]
 [[!redirects tree levels]]
 
 [[!redirects tree-level]]
 [[!redirects tree-levels]]
 
+[[!redirects 1-loop]]
+[[!redirects 2-loop]]
+[[!redirects 3-loop]]
+[[!redirects 4-loop]]
 
 
