@@ -1,4 +1,136 @@
 
+$$
+  \begin{aligned}
+  \mathbf{L}
+    & =
+    \tfrac{1}{2}
+    k_{\alpha \beta} 
+    f^\alpha_{\mu \nu} 
+    \tfrac{1}{2}
+    \left(
+      a^\alpha_{\nu,\mu}
+      -
+      a^\alpha_{\mu,\nu}
+      +
+      g \gamma^{\alpha}{}_{\beta' \gamma'}
+      a^{\beta'}_{\mu} a^{\gamma'}_{\nu}
+    \right)
+    \tfrac{1}{2}
+    \left(
+      a^{\beta\nu,\mu}
+      -
+      a^{\beta \mu,\nu}
+      +
+      g \gamma^{\beta}{}_{\beta'' \gamma''}
+      a^{\beta''}_{\mu} a^{\gamma''}_{\nu}
+    \right)
+    \,dvol_\Sigma
+    \\
+    & =
+    \underset{
+      \mathbf{L}_{\mathrm{free}}
+    }{
+    \underbrace{
+    \tfrac{1}{2}
+    k_{\alpha \beta} 
+    f^\alpha_{\mu \nu} 
+    \tfrac{1}{2}
+    \left(
+      a^\alpha_{\nu,\mu}
+      -
+      a^\alpha_{\mu,\nu}
+    \right)
+    \tfrac{1}{2}
+    \left(
+      a^{\beta\nu,\mu}
+      -
+      a^{\beta \mu,\nu}
+    \right)
+    \,dvol_\Sigma
+    }
+    }
+    \\
+    & \phantom{=}
+    +
+    \underset{
+      \mathbf{L}_{int}
+    }{
+    \underbrace{
+    g 
+    \, 
+    k_{\alpha \beta} 
+    f^\alpha_{\mu \nu} 
+    \tfrac{1}{2}
+    \left(
+      a^\alpha_{\nu,\mu}
+      -
+      a^\alpha_{\mu,\nu}
+    \right)
+    \tfrac{1}{2}
+    \left(
+      \gamma^{\beta}{}_{\beta'' \gamma''}
+      a^{\beta''}_{\mu} a^{\gamma''}_{\nu}
+    \right)
+    \,dvol_\Sigma
+    \;
+    +
+    \;
+    g^2
+    \,
+    \tfrac{1}{2}
+    k_{\alpha \beta} 
+    f^\alpha_{\mu \nu} 
+    \tfrac{1}{2}
+    \left(
+      \gamma^{\alpha}{}_{\beta' \gamma'}
+      a^{\beta'}_{\mu} a^{\gamma'}_{\nu}
+    \right)
+    \tfrac{1}{2}
+    \left(
+      \gamma^{\beta}{}_{\beta'' \gamma''}
+      a^{\beta''}_{\mu} a^{\gamma''}_{\nu}
+    \right)
+    \,dvol_\Sigma
+    }
+    }
+    \\
+  \end{aligned}
+  \,,
+$$
+
+
+
+$$
+  \begin{aligned}
+  \mathbf{L}
+    & =
+    \tfrac{1}{2 g^2}
+    k_{\alpha \beta} 
+    f^\alpha_{\mu \nu} 
+    \tfrac{1}{2}
+    \left(
+      \tilde a^\alpha_{\nu,\mu}
+      -
+      \tilde a^\alpha_{\mu,\nu}
+      +
+      \gamma^{\alpha}{}_{\beta' \gamma'}
+      \tilde a^{\beta'}_{\mu} \tilde a^{\gamma'}_{\nu}
+    \right)
+    \tfrac{1}{2}
+    \left(
+      \tilde a^{\beta\nu,\mu}
+      -
+      \tilde a^{\beta \mu,\nu}
+      +
+      \gamma^{\beta}{}_{\beta'' \gamma''}
+      \tilde a^{\beta''}_{\mu} \tilde a^{\gamma''}_{\nu}
+    \right)
+    \,dvol_\Sigma
+  \end{aligned}
+  \,,
+$$
+
+
 
 $$
   \frac{\delta}{\delta \phi}
