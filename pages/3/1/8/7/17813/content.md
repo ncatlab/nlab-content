@@ -3361,7 +3361,7 @@ Here for instance the symbol $X^{(\mathbf{65})}_{\array{a_1 \\ a_2}}$ denotes th
   X^{(\mathbf{4290})}_{\array{a_1 & \cdots & a_5 \\ a_6}}
   +
   \frac{15}{7}
-  \delta_{a_6 [ a_1} X^{(\mathbf{330})}_{\array{a_2 & \cdots & a_5}}
+  \delta_{a_6 [ a_1} X^{(\mathbf{330})}_{\array{a_2 & \cdots & a_5 ] }}
 \]
 
 and some more.
@@ -3375,7 +3375,7 @@ As a corollary:
 +-- {: .num_example #TheM2andM5CocyclesAsFierzIdentities}
 ###### Example
 
-For $d = 11$ then
+For $d = 11$ we have that
 
 1. the following Fierz identity holds:
 
