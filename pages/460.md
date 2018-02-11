@@ -254,7 +254,7 @@ by def. \ref{HomomorphismOfFramesOfOpens}.
 But in $\tau_\ast = \{\emptyset, \{1\}\}$ the intersection of two open subsets is empty precisely if at least one of them is empty,
 hence $\phi(U_1) = \emptyset$ or $\phi(U_2) = \emptyset$. But this means that $U_1 \subset U_{\emptyset}(\phi)$ or $U_2 \subset U_{\emptyset}(\phi)$, as claimed.
 
-Now according to prop. \ref{OpenSubsetVersionOfClosedIrreducible}
+Now according to [this prop.](irreducible+closed+subspace#OpenSubsetVersionOfClosedIrreducible),
 the condition $(\ast)$ identifies the [[complement]]
 $X \backslash U_{\emptyset}(\phi)$ as an [[irreducible closed subspace]] of $(X,\tau)$.
 
