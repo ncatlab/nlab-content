@@ -159,7 +159,7 @@ $$
       \array{
         \text{solve strong CP-problem as with P-Q robustly}
         \\
-        \text{<a href="https://ncatlab.org/nlab/show/fuzzy%20dark%20matter">solve dark matter problem by FDM</a>}
+        \text{solve dark matter problem by FDM}
       }
     \right.
   }
