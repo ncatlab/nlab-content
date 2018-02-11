@@ -21,13 +21,16 @@
 
 ## References
 
+* [[Roberto Peccei]], _The Strong CP Problem and Axions_, Lect. Notes Phys.741:3-17,2008 ([arXiv:hep-ph/0607268](http://arxiv.org/abs/hep-ph/0607268))
+
+* _Strong CP problem and axion Phenomenology_, Proceedings of the DAE Symp. on Nucl. Phys. 58 (2013) ([pdf](http://sympnp.org/proceedings/58/F14.pdf))
+
+See also
+
 * Wikipedia, _[Strong CP problem](http://en.wikipedia.org/wiki/Strong_CP_problem)_
 
 * Wikipedia, _[CP violation](http://en.wikipedia.org/wiki/CP_violation)_
 
-* [[Roberto Peccei]], _The Strong CP Problem and Axions_, Lect.Notes Phys.741:3-17,2008 ([arXiv:hep-ph/0607268](http://arxiv.org/abs/hep-ph/0607268))
-
-* _Strong CP problem and axion Phenomenology_, Proceedings of the DAE Symp. on Nucl. Phys. 58 (2013) ([pdf](http://sympnp.org/proceedings/58/F14.pdf))
 
 Discussion in the context of [[string theory]] is in
 
