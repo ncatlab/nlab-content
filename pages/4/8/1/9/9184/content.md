@@ -214,7 +214,7 @@ $$
   \propto \int_{X_7} A^RR \wedge \langle \exp(F_\nabla) \rangle
 $$
 
-where $A^RR$ denotes the collective inhomogenous [[background field|backgound]] [[RR-field]] and $F_\nabla$ is the [[curvature]] 2-form of the [[Chan-Paton gauge field]] on the D-brane. The $\langle -\rangle$ denotes the [[Killing form]] [[invariant polynomial]], hence the [[trace]] for the [[special unitary Lie algebra]] regarded as a [[matrix Lie algebra]]. $X_7$ denotes the [[worldvolume]] of the [[D6-brane]]
+where $A^RR$ denotes the collective inhomogenous [[background field|background]] [[RR-field]] and $F_\nabla$ is the [[curvature]] 2-form of the [[Chan-Paton gauge field]] on the D-brane. The $\langle -\rangle$ denotes the [[Killing form]] [[invariant polynomial]], hence the [[trace]] for the [[special unitary Lie algebra]] regarded as a [[matrix Lie algebra]]. $X_7$ denotes the [[worldvolume]] of the [[D6-brane]]
 
 Hence one of the three non-vanishing summands in this expression is
 
@@ -278,7 +278,7 @@ $$
   \,.
 $$
 
-Now by the usual argument, one says that instead of varying by $a$ and thus implementing the [[Green-Schwarz anomaly cancellation]] constraint, it is equivalent to fist vary with respect to the other fields, and then insert the resulting equations in terms of $a$ into the action functional.
+Now by the usual argument, one says that instead of varying by $a$ and thus implementing the [[Green-Schwarz anomaly cancellation]] constraint, it is equivalent to first vary with respect to the other fields, and then insert the resulting equations in terms of $a$ into the action functional.
 
 Now since we are dealing with a twisted [[B-field]], with free 3-form component $C$, we actually vary with respect to $C$. This yields the [[Euler-Lagrange equation]] [[equation of motion|of motion]]
 
@@ -421,6 +421,10 @@ and as a candidate for [[dark energy]]:
 See also
 
 * [[Frank Wilczek]], _New Ideas in Axion Searches_, talk 2017 ([pdf](http://frankwilczek.com/2017/axion_searches_01.pdf))
+
+For the [ABRACADABRA](http://abracadabra.mit.edu/) (A Broadband/Resonant Approach to Cosmic Axion Detection with an Amplifying B-field Ring Apparatus) approach to axion detection, see
+
+* Jonathan Ouellet, _ABRACADABRA: A Broadband Search for           Axion Dark Matter_, talk 2017 ([pdf](https://indico.fnal.gov/event/13702/session/3/contribution/45/material/slides/0.pdf))
 
 [[!redirects axions]]
 
