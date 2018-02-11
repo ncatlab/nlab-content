@@ -77,7 +77,7 @@ of a certain prescribed [[integral transform]]-form ([Bunke-Rumpf-Schick 08, p. 
 
 The concept was introduced on the level of differential form data in
 
-* {#BouwknegtEvslinMathai04} [[Peter Bouwknegt]], [[Jarah Evslin]], [[Varghese Mathai]], _T-Duality: Topology Change from H-flux_, Commun.Math.Phys.249:383-415,2004 ([hep-th/0306062](http://arxiv.org/abs/hep-th/0306062)) 
+* {#BouwknegtEvslinMathai04} [[Peter Bouwknegt]], [[Jarah Evslin]], [[Varghese Mathai]], _T-Duality: Topology Change from H-flux_, Commun. Math. Phys. 249:383-415, 2004 ([hep-th/0306062](http://arxiv.org/abs/hep-th/0306062)) 
 
 * {#BouwknegtHannabusMathai04} [[Peter Bouwknegt]], [[Keith Hannabus]] [[Varghese Mathai]], _T-duality for principal torus bundles_, JHEP 0403 (2004) 018 ([hep-th/0312284](http://arxiv.org/abs/hep-th/0312284)) 
 
@@ -97,7 +97,7 @@ A refined version of this using [[smooth stacks]] is due to
 
 There is also [[C*-algebra|C*-algebraic]] version of toplogical T-duality, .e. in [[noncommutative topology]], which sees also topological T-duals in [[non-commutative geometry]]:
 
-* [[Varghese Mathai]], [[Jonathan Rosenberg]], _T-Duality for Torus Bundles with H-Fluxes via Noncommutative Topology_ ([arXiv](http://arxiv.org/abs/hep-th/0401168))
+* [[Varghese Mathai]], [[Jonathan Rosenberg]], _T-Duality for Torus Bundles with H-Fluxes via Noncommutative Topology_ ([arXiv:hep-th/0401168](http://arxiv.org/abs/hep-th/0401168))
 
 The equivalence of the [[C*-algebra|C*-algebraic]] to the Bunke-Schick version, when the latter exists, is discussed in
 
