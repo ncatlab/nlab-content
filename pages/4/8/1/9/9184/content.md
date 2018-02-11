@@ -100,6 +100,7 @@ Now due to the factor of $i$ in front of $\theta$ in this expression, the real p
  
 
 
+
 ## In string theory 
  {#AsArisingFromStringTheory}
 
@@ -366,6 +367,9 @@ A reformulation of this effect in terms of [[Chern-Simons forms]] is discussed i
 
 Review includes:
 
+* {#KusterRaffeltBeltran08} Markus Kuster, Georg Raffelt, Berta Beltrán (eds.), _Axions: Theory, cosmology, and Experimental Searches_, Lect.
+Notes Phys. 741 (Springer, Berlin Heidelberg 2008) (<a href="https://doi.org/10.1007/978-3-540-73518-2_2">doi:10.1007/978-3-540-73518-2_2</a>)
+
 * Jihn E. Kim, Gianpaolo Carosi, _Axions and the Strong CP Problem_, Rev.Mod.Phys.82:557-602,2010 ([arXiv:0807.3125](https://arxiv.org/abs/0807.3125))
 
 * Masahiro Kawasaki, Kazunori Nakayama, _Axions : Theory and Cosmological Role_, Annual Review of Nuclear and Particle Science Vol.63:1-552   ([arXiv:1301.1123](https://arxiv.org/abs/1301.1123))
@@ -400,6 +404,32 @@ Discussion of stringy axion [[cosmology]] (such as [[fuzzy dark matter]]) is in
 
 ### Experimental signature
 
+Discussion of [[experiment|experimental]] signatures of and constraints on axion physics:
+
+#### In particle physics
+ {#ReferencesExperimentalSignatureInParticlePhysics}
+
+Discussion of [[experiment|experimental]] signatures of and constraints on axion physics from [[particle physics]]:
+
+Specifically contribution of axions to the [[anomalous magnetic moment]] of the [[electron]] and [[muon]] in [[QED]]:
+
+* Yannis Semertzidis, _Magnetic and Electric Dipole Moments in Storage Rings_, chapter 6 of Markus Kuster, Georg Raffelt, Berta Beltrán (eds.), _Axions: Theory, cosmology, and Experimental Searches_, Lect.
+Notes Phys. 741 (Springer, Berlin Heidelberg 2008) ([Kuster-Raffelt-Beltran 08](#KusterRaffeltBeltran08), <a href="https://doi.org/10.1007/978-3-540-73518-2_2">doi:10.1007/978-3-540-73518-2_2</a>) 
+
+* Roberta Armillis, Claudio Coriano', Marco Guzzi, Simone Morelli, _Axions and Anomaly-Mediated Interactions: The Green-Schwarz and Wess-Zumino Vertices at Higher Orders and g-2 of the muon_, JHEP 0810:034,2008 ([arXiv:0808.1882](https://arxiv.org/abs/0808.1882))
+
+* W.J. Marciano, A. Masiero, P. Paradisi, M. Passera, _Contributions of axion-like particles to lepton dipole moments_, Phys. Rev. D 94, 115033 (2016) ([arXiv:1607.01022](https://arxiv.org/abs/1607.01022))
+
+* Martin Bauer, Matthias Neubert, Andrea Thamm, _Collider Probes of Axion-Like Particles_, J. High Energ. Phys. (2017) 2017: 44. ([arXiv:1708.00443](https://arxiv.org/abs/1708.00443), <a href="https://doi.org/10.1007/JHEP12(2017)044">doi:10.1007/JHEP12(2017)044</a>)
+
+The basic relevant [[Feynman diagrams]] are worked out here:
+
+* [pdf](http://www-personal.umich.edu/~jbourj/peskin/6-3.pdf)
+
+
+#### In cosmology
+
+Discussion of [[experiment|experimental]] signatures of and constraints on axion physics in [[cosmology]], where the axion is a ([[fuzzy dark matter|fuzzy]]) [[dark matter]]-candidate:
 
 * Joseph P. Conlon, M.C. David Marsh, _Searching for a 0.1-1 keV Cosmic Axion Background_ ([arXiv:1305.3603](http://arxiv.org/abs/1305.3603))
 
@@ -424,7 +454,7 @@ See also
 
 For the [ABRACADABRA](http://abracadabra.mit.edu/) (A Broadband/Resonant Approach to Cosmic Axion Detection with an Amplifying B-field Ring Apparatus) approach to axion detection, see
 
-* Jonathan Ouellet, _ABRACADABRA: A Broadband Search for           Axion Dark Matter_, talk 2017 ([pdf](https://indico.fnal.gov/event/13702/session/3/contribution/45/material/slides/0.pdf))
+* Jonathan Ouellet, _ABRACADABRA: A Broadband Search for Axion Dark Matter_, talk 2017 ([pdf](https://indico.fnal.gov/event/13702/session/3/contribution/45/material/slides/0.pdf))
 
 [[!redirects axions]]
 
