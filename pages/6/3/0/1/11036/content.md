@@ -256,6 +256,8 @@ Proofnets originated with Girard's seminal paper introducing linear logic:
 
 * {#Metayer94} [[François Métayer]], _Homology of proofnets_ ,Arch. Math. Logic **33** (1994) pp.169-188. ([draft](http://www.pps.univ-paris-diderot.fr/~metayer/PDF/hpn.pdf))
 
+* Dominic J. D. Hughes, *Unification nets: canonical proof net quantifiers* [arxiv](https://arxiv.org/abs/1802.03224)
+
 Relation to [[Feynman diagrams]] is discussed in
 
 * {#BlutePanangaden} [[Richard Blute]], [[Prakash Panangaden]], _Proof nets as formal Feynman diagrams_ ([pdf](http://www.indiana.edu/~iulg/qliqc/phi.pdf))
