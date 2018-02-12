@@ -33,7 +33,7 @@ $$
   dvol_\Sigma
 $$
 
-(with notation as as used at _[[A first idea of quantum field theory]]_).
+(with notation as as used at _[[A first idea of quantum field theory]]_, see [this example](A+first+idea+of+quantum+field+theory#LagrangianQED)).
 
 
 For $g_{sw} \in C^\infty_{cp}(\Sigma)$ a [[bump function]] on [[spacetime]] thought of as an [[adiabatic switching|adiabatically switched]] [[coupling constant]], the corresponding [[interaction]] [[action functional]] is the [[local observable]]
