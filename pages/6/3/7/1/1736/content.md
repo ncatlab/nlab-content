@@ -71,7 +71,7 @@ Here are further characterizations:
 +-- {: .num_prop #InCaseTheRightAdjointCreatesWeakEquivalences}
 ###### Proposition
 
-If in a [[Quillen adjunction]]  $ \array{\mathcal{C} &\underoverset{\underset{R}{\to}}{\overset{L}{\leftarrow}}{\bot}& \mathcal{D}}$ the [[right adjoint]] $R$ "creates weak equivalences" (in that a morphism $f$ in $\mathcal{C}$ is a weak equivalence precisly if $U(f)$ is) then $(L \dashv R)$ is a Quillen equivalence precisely already if for all cofibrant objects $d \in \mathcal{D}$ the plain [[adjunction unit]]
+If in a [[Quillen adjunction]]  $ \array{\mathcal{C} &\underoverset{\underset{R}{\to}}{\overset{L}{\leftarrow}}{\bot}& \mathcal{D}}$ the [[right adjoint]] $R$ "creates weak equivalences" (in that a morphism $f$ in $\mathcal{C}$ is a weak equivalence precisly if $R(f)$ is) then $(L \dashv R)$ is a Quillen equivalence precisely already if for all cofibrant objects $d \in \mathcal{D}$ the plain [[adjunction unit]]
 
 $$
   d \overset{\eta}{\longrightarrow} R (L (d))
