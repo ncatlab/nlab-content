@@ -5,9 +5,23 @@
 
 ## Idea
 
-Let $P$ be a [[poset]] and $F:Rel\to Rel$ an endofunctor of [[Rel]].  A **$P_F$-valued set** is a set $A$ equipped with a function $F A\to P$.  The [[morphisms]] of $P_F$-valued sets are certain relations.
+Let $P$ be a [[poset]] and $F:Rel\to Rel$ an endofunctor of [[Rel]].  A **$P_F$-valued set** is a set $A$ equipped with a function $F A\to P$.
 
 The category of $P_F$-valued sets inherits a lot of structure from $P$: if $P$ is [[closed monoidal category|closed]] [[symmetric monoidal category|symmetric monoidal]], [[star-autonomous]], etc., and $F$ is well-behaved, then so is the category of $P_F$-valued sets.  This provides a general method for constructing models of variants of [[linear logic]].
+
+## Category of Poset-Valued Sets
+
+A $P_F$-valued set $A$ consists of
+
+1. An underlying set $A_0$.
+2. A valuation $\alpha_A : F A_0 \to P$
+
+A morphism $f : A -> B$ of $P_F$-valued sets consists of
+
+1. An underlying *relation* $f_0 : A_0 &#8696; B_0)$
+2. Such that if $x F(f_0) y$ then $\alpha_A(x) \leq_{P} \alpha_B(y)$
+
+This gives a category of poset-valued sets using relational composition.
 
 ## Examples
 
