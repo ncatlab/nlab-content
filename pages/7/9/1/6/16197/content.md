@@ -63,7 +63,7 @@ Being concerned with pure [[gravity]] (the [[inflaton]] not being an extra [[mat
 
 The model is due to
 
-* [[Aleksei Starobinsky]], Phys. Lett. B 91, 99 (1980); 
+* {#Starobisnky80} [[Aleksei Starobinsky]], _A new type of isotropic cosmological models without singularity_, Phys. Lett. B 91, 99 (1980); (<a href="https://doi.org/10.1016/0370-2693(80)90670-X">doi:10.1016/0370-2693(80)90670-X</a>)
 
 and the analysis of its predictions is due to
 
