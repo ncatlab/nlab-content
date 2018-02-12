@@ -52,7 +52,7 @@ The Moore complex of a simplicial group $G$ has the structure of a 2-crossed com
 ##Crossed complexes and 2-crossed complexes.
 Any [[crossed complex]] can be given the structure of a 2-crossed complex simply by defining a trivial Peiffer lifting, $\{-,-\}$. As the Peiffer lifting covers the Peiffer commutators in $C_1$, and these are trivial (since the bottom of the crossed complex is a crossed module), this trivial Peiffer lifting works and gives a 2-crossed complex structure.  This defines a functor from the category of crossed complexes to that of 2-crossed complexes.
 
-Any 2-crossed complex which has a Peiffer lifting that is trivial $\{x,y\} = 1$, for al $x,y \in C_1$) is isomorphic to a crossed complex in this sense.
+Any 2-crossed complex which has a Peiffer lifting that is trivial $\{x,y\} = 1$, for all $x,y \in C_1$) is isomorphic to a crossed complex in this sense.
 
 This functor, from $Crs$ to $2-Crs$, has a left adjoint which is the identity on the subcategory of $2-Crs$ with trivial Peiffer liftings, so $Crs$ is equivalent to a reflective subcategory of $2-Crs$
 
@@ -61,7 +61,7 @@ This functor, from $Crs$ to $2-Crs$, has a left adjoint which is the identity on
 
 ##References##
 
-* See the [[Crossed Menagerie]], chapter 4.
+* See the [[Crossed Menagerie]], chapter 5.
 
 * [[H.-J. Baues]], Combinatorial Homotopy and 4-Dimensional Complexes , de Gruyter Expositions in Mathematics 2, Walter de Gruyter, (1991).
 
