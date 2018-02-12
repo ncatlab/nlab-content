@@ -73,7 +73,7 @@ Suppose that $C$ and $D$ are [[closed monoidal categories]].  Then any [[lax mon
   $$ F(X) \to F([Y,X\otimes Y]) \to [F(Y), F(X\otimes Y)]$$
   where the map $X\to [Y,X\otimes Y]$ is adjunct to the identity of $X\otimes Y$.  In this way, lax monoidal and lax closed functors between closed monoidal categories are in [[bijective]] correspondence.
 
-  Note, however, that for such a functor to be *[[strong monoidal functor|strong monoidal]]* or *strong closed* are generally independent conditions.  Since any lax (or strong) monoidal functor is automatically a lax closed functor, the term **closed monoidal functor** is usually used to mean one which is *strong* closed.
+  Note, however, that for such a functor to be *[[strong monoidal functor|strong monoidal]]* or *strong closed* are generally independent conditions.  Since any lax (or strong) monoidal functor is automatically a lax closed functor, the term **closed monoidal functor** is usually used to mean one which is *strong* closed (or at least for which $\hat{F}$ is an isomorphism).
 
 =--
 
@@ -112,7 +112,12 @@ An [[adjoint triple]] of functors between [[symmetric monoidal category|symmetri
 
 =--
 
++-- {: .num_example}
+###### Example
+A class of examples of strong closed functors that are not strong monoidal comes from the inclusions of [[reflective subcategory|reflective]] [[exponential ideals]].  [[Day's reflection theorem]] implies that if $C$ is a closed monoidal category and $E\subseteq C$ is a reflective subcategory that is an exponential ideal in the monoidal sense (i.e. $x\in C$ and $y\in E$ imply $[x,y]\in E$), then $E$ is a closed monoidal category with the induced internal-hom and a *reflected* tensor product $x\otimes_E y = R(x\otimes_C y)$ where $R$ is the reflector.  Then the inclusion functor $E\hookrightarrow C$ preserves internal-homs but is only lax monoidal (in contrast to its left adjoint, the reflection, which is strong monoidal).  It doesn't in general preserve the unit strongly, but there are cases when it does.
 
+For instance, let $C = P A$ be a [[presheaf category]] with a [[Day convolution]] monoidal structure induced by a monoidal structure on a small category $A$, and let $E$ be the subcategory of $\Phi$-[[continuous functor|continuous]] presheaves for some set $\Phi$ of colimits in $A$ that are preserved on both sides by the tensor product (e.g. if $A$ is itself closed).  Then $E$ is a reflective exponential ideal, and contains the unit object since the latter is a [[representable presheaf]] (at the [[unit object]] of $A$) hence preserves all colimits.
+=--
 
 ## Related concepts
 
