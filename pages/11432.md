@@ -7,4 +7,9 @@
 
 * [[Planck's constant]]
 
+* [[Planck length]]
+
+* [[Planck mass]]
+
+
 category: people
