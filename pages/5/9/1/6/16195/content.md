@@ -82,6 +82,10 @@ $$
 
 ## References
 
+* {#Planck99} [[Max Planck]], _Über irreversible Strahlungsvorgänge_, Sitzungsberichte der Königlich Preußischen Akademie der Wissenschaften zu Berlin. 5: 440–480. pp. 478–80, 1899, ([10.1002/andp.19003060105](http://onlinelibrary.wiley.com/doi/10.1002/andp.19003060105/abstract))
+
+See also
+
 * Wikipedia, _[Planck length](http://en.wikipedia.org/wiki/Planck_length)_
 
 [[!redirects Planck lengths]]
