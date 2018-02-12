@@ -151,6 +151,7 @@ In particular, every [[dg-module]] has a minimal KS-model (def. \ref{KSFactoriza
 
 
 ## References
+ {#References}
 
 * {#Roig92} [[Agustí Roig]], _Alguns punts d'&#224;lgebra homot&#242;pica_, Barcelona (1992)
 
