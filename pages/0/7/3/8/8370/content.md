@@ -61,7 +61,7 @@ This is referred to as "computational trinitarianism" in ([Harper](#Harper)), wh
 
 In the introduction of 
 
-* [[Paul-André Melliès]], _Functorial boxes in string diagrams_, Procceding of _Computer Science Logic 2006_ in Szeged, Hungary. 2006 ([pdf](http://www.pps.univ-paris-diderot.fr/~mellies/papers/functorial-boxes.pdf))
+* [[Paul-André Melliès]], _Functorial boxes in string diagrams_, Procceding of _Computer Science Logic 2006_ in Szeged, Hungary. 2006 ([article](https://dumas.ccsd.cnrs.fr/PPS/hal-00154243))
  {#Mellies06}
 
 the insight is recalled to have surfaced in the 1970s, with an early appearance in print being the monograph
