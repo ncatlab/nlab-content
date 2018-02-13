@@ -796,8 +796,9 @@ The standard textbook monograph on [[supergravity]] in general and this formalis
 
 * [[Pietro Fré]], _Gravity, a Geometrical Course: Volume 2: Black Holes, Cosmology and Introduction to Supergravity_, Springer 2012
 
+Review includes
 
-At the time of this writing the book is out of print and unavailable from bookshops. But your local physics department library may have a copy.
+* [[Leonardo Castellani]], _Supergravity in the group-geometric framework: a primer_ ([arXiv:1802.03407](https://arxiv.org/abs/1802.03407))
 
 Discussion of [[gauged supergravity]] in this way is in 
 
