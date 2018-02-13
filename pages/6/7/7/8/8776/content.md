@@ -54,10 +54,12 @@ with $F_3 \coloneqq \star F_2$ the [[Hodge dual]] of $F_2$ ([GGHPR 02 (2.2)](#GG
 This is a lower dimensional analogue to the situation for the [[C-field]] $G_4$ (locally $G_4 = d C$) in [[11-dimensional supergravity]], which has a Chern-Simons term locally of the form $\propto \int G_4 \wedge G_4 \wedge C$ and hence the equation of motion
 
 $$
-  d G_7 = G_4 \wedge G_4
+  d G_7 
+  \;=\; 
+  -\tfrac{1}{2}G_4 \wedge G_4
 $$
 
-(up to prefactors) with $G_7 = \star G_4$.
+with $G_7 = \star G_4$.
 
 ### Black holes and black rings
 
@@ -65,11 +67,13 @@ The first [[black ring]] solution in 5d sugra was found in ([Elvang-Emparan-Mate
 
 Supersymmetric black holes exist precisely only in dimensions 4 and 5 ([Gauntlett-Myers-Townsend 98](#GauntlettMyersTownsend98)). These play a key role in the discussion of [[black holes in string theory]].
 
-(There are supersymmetric particle like solutions of $d \gt 5$ supergravity theories that are sometimes called black holes, but these are always singular. There are also supersymmetric black holes in $d = 3$, but
+(There are supersymmetric particle-like solutions of $d \gt 5$ supergravity theories that are sometimes called black holes, but these are always singular. There are also supersymmetric black holes in $d = 3$, but
 the spacetime in that case is asymptotically [[anti-de Sitter spacetime]] rather than asymptotically flat. Of course, there are non-singular supersymmetric [[black brane]] solutions in various $d \geq 4$ supergravity theories but these are neither 'particle-like' nor, strictly speaking,
 asymptotically flat.)
 
 ### Via Calabi-Yau compactification of M-theory
+
+[[KK-compactification]] on the spatial part of the [[KK-monopole]] in [[11-dimensional supergravity]], taken to be a [[Calabi-Yau manifold]]
 
 ([Hull-Townsend 95, p.30-31](#HullTownsend95), [Ferrara-Khuria-Minasian 96](#FerraraKhuriaMinasian96))
 
