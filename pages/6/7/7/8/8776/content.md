@@ -46,7 +46,7 @@ $$
 This theory has a 2-form field strength $F_2$, locally $F_2 = d A$, with a [[5d Chern-Simons theory]] [[action functional]] locally of the form $\propto \int_X F_2 \wedge F_2 \wedge A$ (e.g. [Castellani-D'Auria-Fre (III.5.70)](#CastellaniDAuriaFre), [Gauntlet-Myers-Townsend  98, p. 3](#GauntlettMyersTownsend98), [GGHPR 02 (2.1)](#GGHPR02), [Bonetti-Grimm-Hohenegger 13](#BonettiGrimmHohenegger13)). Hence its [[equation of motion]] is of the non-linear form
 
 $$
-  d F_3 = F_2 \wedge F_2
+  d F_3 = - F_2 \wedge F_2
 $$
 
 with $F_3 \coloneqq \star F_2$ the [[Hodge dual]] of $F_2$ ([GGHPR 02 (2.2)](#GGHPR02)).
@@ -60,6 +60,54 @@ $$
 $$
 
 with $G_7 = \star G_4$.
+
+The corresponding super-cocyles are the [[double dimensional reduction]] of the string-cocycle in 6d (from the old [[brane scan]]):
+
+$$
+  \mu_{string,6d}
+  \;=\;
+  \underoverset{a= 0}{5}{\sum} \overline{\psi} \Gamma_a \psi \wedge e^a
+  \,.
+$$
+
+Using $d(\overline{\psi}) \Gamma^a psi = d d e^a = 0$, this yields 
+
+$$
+  \begin{aligned}
+    d \mu_{string, 6d}
+    & =
+    d \underoverset{a= 0}{5}{\sum} \overline{\psi} \Gamma_a \psi \wedge e^a
+    \\
+    & 
+    =
+    d
+    \underset{
+      \mu_{string,5d}
+    }{ 
+    \underbrace{
+      \underoverset{a= 0}{4}{\sum} \overline{\psi} \Gamma_a \psi
+      \wedge 
+      \wedge e^a
+    }}
+    +
+    \overline \psi \Gamma_5 \psi   
+    \wedge
+   \underset{  
+      \overline{\psi} \Gamma_5 \psi
+    }{
+    \underbrace{
+      (d e^5)
+    } }
+  \end{aligned}
+$$
+
+and hence
+
+$$
+  d \mu_{string,5d} = - \mu_{D0, 5d} \wedge \mu_{D0,5d}
+  \,.
+$$
+
 
 ### Black holes and black rings
 
