@@ -21,7 +21,7 @@
 
 In [[higher algebra]]/[[higher category theory]] one can define (generalized) [[algebra|algebraic structures]] [[internalization|internal]] to [[categories]] which themselves are equipped with certain algebraic structure, in fact with the _same kind_ of algebraic structure. In ([Baez-Dolan 97](#BaezDolan)) this has been called the _microcosm principle_.
 
->**Microcosm principle**: _Certain [[algebra|algebraic structures]] can be defined [[internalization|in]] any category equipped with a [[categorification|categorified version]] of the same structure._ 
+> **Microcosm principle**: _Certain [[algebra|algebraic structures]] can be defined [[internalization|in]] any category equipped with a [[categorification|categorified version]] of the same structure._ 
 
 A standard example is the notion of _[[monoid object]]_ which make sense in a _[[monoidal category]]_, and the notion of _[[commutative monoid object]]_ which makes sense in a _[[symmetric monoidal category]]_.
 
@@ -90,6 +90,8 @@ Other formalizations can be found in
 
 * Ichiro Hasuo, [[Bart Jacobs]], and Ana Sokolova. (2008)  _The Microcosm Principle and Concurrency in Coalgebra_.  In: Amadio R. (eds) _Foundations of Software Science and Computational Structures_. FoSSaCS 2008. Lecture Notes in Computer Science, vol 4962. Springer, Berlin, Heidelberg. [doi:10.1007/978-3-540-78499-9_18](https://doi.org/10.1007/978-3-540-78499-9_18), [paper](http://cs.uni-salzburg.at/~anas/papers/HasuoJS.pdf), [slides](http://cs.uni-salzburg.at/~anas/papers/MicrocosmPresentation.pdf), [more slides](http://cs.uni-salzburg.at/~anas/papers/Ohrid2008ana.pdf)
  {#HJS}
+
+* Ichiro Hasuo, Chris Heunen, Bart Jacobs, Ana Sokolova, _Coalgebraic Components in a Many-Sorted Microcosm_,  International Conference on Algebra and Coalgebra in Computer Science CALCO 2009: Algebra and Coalgebra in Computer Science pp 64-80, ([pdf](http://homepages.inf.ed.ac.uk/cheunen/publications/2009/component/component.pdf))
 
 * [[Jacob Lurie]], _[[Higher Algebra]]_
  {#Lurie}
