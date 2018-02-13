@@ -83,6 +83,8 @@ They find, see also ([Bandos-Azcarraga-Izquierdo-PiconVarela 04](#BandosAzcarrag
 
 ## References
 
+### From the M2-Cocyle
+
 The Polyvector extensions of $\mathfrak{Iso}(\mathbb{R}^{10,1|32})$ were first considered in 
 
 * {#DAuriaFre82}  [[Riccardo D'Auria]], [[Pietro Fré]], last pages of _[[GeometricSupergravity.pdf:file]]_, Nuclear Physics B201 (1982) 101-140 
@@ -92,6 +94,7 @@ with more comprehensive analysis in
 * {#BandosAzcarragaIzquierdoPiconVarela04} [[Igor Bandos]], [[José de Azcárraga]], J.M. Izquierdo, M. Picon, O. Varela, _On the underlying gauge group structure of D=11 supergravity_, Phys.Lett.B596:145-155,2004 ([arXiv:hep-th/0406020](http://arxiv.org/abs/hep-th/0406020))
 
 where (a further fermionic extension of it) is derived as a [[super Lie algebra]] [[Lie algebra extension|extension]] of 11d [[super Minkowski spacetime]] on which the [[M2-brane]] [[Lie algebra cohomology|4-cocycle]] trivializes.
+
 
 See also 
 
@@ -105,6 +108,12 @@ That a limiting case of this is given by the [[orthosymplectic super Lie algebra
 That the underlying bosonic [[body]] of this super Lie algebra happens to be the [[typical fiber]] of what would be the 11-d [[exceptional generalized tangent bundle]], namely the [level-2 truncation of the l1-representation](E11#FundamentalRepresentationAndBraneCharges) of [[E11]] according to ([West 04](E11#West04)) was highlighted in the review 
 
 * [[Silvia Vaula]], _On the underlying $E_{11}$ symmetry of the $D= 11$ Free Differential Algebra_, JHEP 0703:010,2007 ([arXiv:hep-th/0612130](http://arxiv.org/abs/hep-th/0612130))
+
+This is reviewed in 
+
+* {#Azcarraga05} [[José de Azcárraga]], section 5 of _Superbranes, D=11 CJS supergravity and enlarged superspace coordinates/fields correspondence_, AIP Conf.Proc.767:243-267,2005 ([arXiv:hep-th/0501198](https://arxiv.org/abs/hep-th/0501198))
+
+### Alternative
 
 From a different perspective the M-theory algebra extensions were (apparently independently) introduced in
 
