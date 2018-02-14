@@ -705,6 +705,17 @@ where we used that $X^{(\mathbf{330})}_{a_1 \cdots a_4}$ is already skew-symmetr
 
 =--
 
++-- {: .num_example #QuadraticFierzIdentitiesIn5d}
+###### Example
+
+Of 5d N=2 [[super Minkowski spacetime]] ([[5d supergravity]]) there are quadrilinear Fierz identities of this form:
+
+<img src="https://ncatlab.org/nlab/files/FierzIdentitiesForBraneCocyclesIn5d.png" width="600">
+
+([Castellani-D'Auria-Fré 91 (III.5.50)](#CDF)).
+
+=--
+
 ## Related concepts
 
 * [[Clebsch-Gordan coefficient]]
