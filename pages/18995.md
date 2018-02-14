@@ -8,4 +8,4 @@
 
 * [[Green-Schwarz mechanism]]
 
-category: peopl
+category: people
