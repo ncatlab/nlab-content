@@ -184,6 +184,8 @@ For more on this see _[[geometric surjection/embedding factorization]]_  . Also 
 
 ## Examples
 
+Trivially, any [[connected geometric morphism]] is surjective.
+
 +-- {: .num_prop}
 ###### Proposition
 
@@ -198,6 +200,8 @@ For $f : X \to Y$ a [[continuous function]] between [[topological space]]s and $
   * **geometric surjection**
 
   * [[geometric embedding]]
+
+  * [[connected geometric morphism]]
 
 * [[monadic descent]]
 
