@@ -72,7 +72,7 @@
 * [[Shiraz Minwalla]], _Restrictions imposed by superconformal invariance on quantum field theories_ Adv. Theor. Math. Phys. 2, 781 (1998)
 ([arXiv:hep-th/9712074](http://arxiv.org/abs/hep-th/9712074)).
 
-* Clay Cordova, Thomas T. Dumitrescu, Kenneth Intriligator, _Deformations of Superconformal Theories_, ([arXiv:1602.01217](https://arxiv.org/abs/1602.01217))
+* [[Clay Cordova]], [[Thomas Dumitrescu]], [[Kenneth Intriligator]], _Deformations of Superconformal Theories_, ([arXiv:1602.01217](https://arxiv.org/abs/1602.01217))
 
 [[!redirects supersymmetric conformal field theory]]
 [[!redirects superconformal field theory]]
