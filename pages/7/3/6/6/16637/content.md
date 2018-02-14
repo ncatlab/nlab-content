@@ -125,7 +125,7 @@ Volume 59 (1975), 59-64. ([Euclid](http://projecteuclid.org/euclid.nmj/111879555
 
 Relation to the [[Milnor fibration]]:
 
-* [[Kenneth Intriligator]], Hans Jockers, [[Peter Mayr]], [[David Morrison]], M. Ronen Plesser, _Conifold Transitions in M-theory on Calabi-Yau Fourfolds with Background Fluxes_, Adv.Theor.Math.Phys. 17 (2013) 601-699 ([arXiv:1203.6662](http://arxiv.org/abs/1203.6662))
+* [[Kenneth Intriligator]], [[Hans Jockers]], [[Peter Mayr]], [[David Morrison]], M. Ronen Plesser, _Conifold Transitions in M-theory on Calabi-Yau Fourfolds with Background Fluxes_, Adv.Theor.Math.Phys. 17 (2013) 601-699 ([arXiv:1203.6662](http://arxiv.org/abs/1203.6662))
 
 An [[ADE classification]] of finite subgroups of groups $SO(8)$ [[free action|acting freely]] on $S^7$ such that the quotient is spin and has at least four [[Killing spinors]] (see also at [[ABJM model]]) is in
 
