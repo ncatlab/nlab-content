@@ -34,6 +34,7 @@ A [[Grothendieck topos]] $E$ is **connected** if the unique geometric morphism $
 
 Equivalently, a topos is connected if its [[global section]] geometric morphism exhibits [[discrete objects]].
 
+Connected geometric morphisms are in particular [[surjective geometric morphism|surjective]].
 
 ### Connected locally connected morphisms
 
