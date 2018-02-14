@@ -85,7 +85,7 @@ Often it is assumed that the 3-form $H$ in def. \ref{HCohomology} is [[closed di
 +-- {: .num_prop #TwistedDeRhamCohomologyCoincidesWithHCohomologyOnInfinitesimllayThickenedPoint}
 ###### Proposition
 
-If $X$ is a [[formal manifold]] whose underlying manifold is a point, hence if $X$ is an [[infinitesimally thickened point]], then for $H \in \Omega_{cl}^3(X)$ a [[closed differential form|closed]] [[differential 3-form]], the H-cohomology of $X$ (def. \ref{HCohomology}) coincides with its $H$-[[twisted de Rham cohomology]]:
+If the [[de Rham complex]] $(\Omega^\bullet(X),d_{dr})$ is [[formal dg-algebra|formal]], then for $H \in \Omega_{cl}^3(X)$ a [[closed differential form|closed]] [[differential 3-form]], the H-cohomology of $X$ (def. \ref{HCohomology}) coincides with its $H$-[[twisted de Rham cohomology]]:
 
 $$
   H^\bullet_{H \wedge (-)}(X)
@@ -102,7 +102,7 @@ $$
 
 ## References
 
-* {#Cavalcanti03} [[Gil Cavalcanti]], _New aspects of the ddc-lemma_ ([arXiv:math/0501406](https://arxiv.org/abs/math/0501406))
+* {#Cavalcanti03} [[Gil Cavalcanti]], _New aspects of the $d d^c$-lemma_ ([arXiv:math/0501406](https://arxiv.org/abs/math/0501406))
 
 
 [[!redirects H-cohomology group]]
