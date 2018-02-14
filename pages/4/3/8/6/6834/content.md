@@ -134,6 +134,13 @@ For technical introduction to the [[RR-field]] as a higher gauge field see
 
 * {#DistlerFreedMoore09} [[Jacques Distler]], [[Dan Freed]], [[Greg Moore]], _Orientifold Pr&#233;cis_ in: [[Hisham Sati]], [[Urs Schreiber]] (eds.) _[[schreiber:Mathematical Foundations of Quantum Field and Perturbative String Theory]]_ Proceedings of Symposia in Pure Mathematics, AMS (2011) ([arXiv:0906.0795](http://arxiv.org/abs/0906.0795), [slides](http://www.ma.utexas.edu/users/dafr/bilbao.pdf))
 
+Discussion of higher gauge theory for [[Green-Schwarz mechanisms]]:
+
+* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _Twisted differential String and Fivebrane structures_, Commun. Math. Phys. 315 (2012), 169-213 ([arXiv:0910.4001](https://arxiv.org/abs/0910.4001))
+
+* [[Clay Cordova]], [[Thomas Dumitrescu]], [[Kenneth Intriligator]], _Exploring 2-Group Global Symmetries_ ([arXiv:1802.04790](https://arxiv.org/abs/1802.04790))
+
+
 
 For foundations of higher [[prequantum field theory]] see 
 
@@ -142,6 +149,7 @@ For foundations of higher [[prequantum field theory]] see
 For foundations of higher gauge theory formalized in [[homotopy type theory]] see
 
 * [[Urs Schreiber]], [[Mike Shulman]], _[[schreiber:Quantum gauge field theory in Cohesive homotopy type theory]]
+
 
 [[!redirects higher gauge theory]]
 
