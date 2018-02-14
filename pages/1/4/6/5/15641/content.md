@@ -18,11 +18,16 @@ $$\int_B f(b)\; d\mu_B(b) = \int_C \int_A f(a + c)\; d\mu_A(a) d\mu_C(c)$$
 for all [[continuous functions]] $f: B \to \mathbb{C}$ with [[compact support]]. 
 (The inner integral on the right is a shorthand for $\int_A f(a + b)\; d\mu_A(a)$ for any $b$ that maps to $c \in C$; note that this quantity is invariant under changes $b \mapsto b + a'$ within the same coset $c$.) We remark that given Haar measures $d\mu_A, d\mu_B$, there exists a Haar measure $d\mu_C$ making this Fubini-type equation true. 
 
-In that case, for a suitable class of functions $f$ on $B$, "Poisson summation" is the equation 
+In this notation, the "Poisson summation formula" is the equation asserted by the following result. 
+
++-- {: .num_theorem} 
+###### Theorem 
+Let $\widehat{C}$ denote the [[Pontryagin duality|Pontryagin dual]] of $C$, and $d\mu_{\widehat{C}}$ the dual Haar measure. For any [[Schwartz-Bruhat function]] $f: B \to \mathbb{C}$, we have 
 
 $$\int_A f(a)\; d\mu_A = \int_{\widehat{C}} \widehat{f}(\widehat{c})\; d\mu_{\widehat{C}}$$ 
 
-where $d\mu_{\widehat{C}}$ is the dual Haar measure. Here $\widehat{f}$ is the Fourier dual of $f$, living on the [[Pontryagin duality|Pontryagin dual]] of $B$. 
+where $\widehat{f}$ is the Fourier dual of $f$, as a function on $\widehat{B}$.
+=--  
 
 In the special case of a [[lattice (discrete subgroup)|lattice]] $L$ inside $B$, the dual space $\widehat{B/L}$ is a lattice inside $\widehat{B}$, and the integrals are over discrete spaces, i.e. integration is just summation. Especially when $B$ is a [[Euclidean space]] $\mathbb{R}^n$, this gives the classical form of the Poisson summation formula. But this situation also obtains in the context of [Tate's thesis](#Tate1950), where a [[global field]] is viewed as a lattice inside its [[ring of adeles]]. 
 
