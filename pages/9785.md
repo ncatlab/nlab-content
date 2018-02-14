@@ -111,7 +111,7 @@ That the underlying bosonic [[body]] of this super Lie algebra happens to be the
 
 This is reviewed in 
 
-* {#Azcarraga05} [[José de Azcárraga]], section 5 of _Superbranes, D=11 CJS supergravity and enlarged superspace coordinates/fields correspondence_, AIP Conf.Proc.767:243-267,2005 ([arXiv:hep-th/0501198](https://arxiv.org/abs/hep-th/0501198))
+* {#Azcarraga05} [[José de Azcárraga]], section 5 of _Superbranes, D=11 CJS supergravity and enlarged superspace coordinates/fields correspondence_, AIP Conf. Proc. 767:243-267, 2005 ([arXiv:hep-th/0501198](https://arxiv.org/abs/hep-th/0501198))
 
 ### Alternative
 
