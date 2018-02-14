@@ -519,6 +519,11 @@ Review, broader context and further discussion is given in
 
 * [[Dan Freed]], _[[Dirac charge quantization and generalized differential cohomology]]_ ([arXiv:hep-th/0011220](http://arxiv.org/abs/hep-th/0011220))
 
+Discussion [[higher gauge theory]]:
+
+* [[Hisham Sati]], [[Urs Schreiber]], [[Jim Stasheff]], _Twisted differential String and Fivebrane structures_, Commun. Math. Phys. 315 (2012), 169-213 ([arXiv:0910.4001](https://arxiv.org/abs/0910.4001))
+
+* [[Clay Cordova]], [[Thomas Dumitrescu]], [[Kenneth Intriligator]], _Exploring 2-Group Global Symmetries_ ([arXiv:1802.04790](https://arxiv.org/abs/1802.04790))
 
 
 ### For $10 D$ supergravity
@@ -541,10 +546,12 @@ Discussion relating to [[axions]] is in
 * {#SvrcekWitten06} Peter Svrcek, [[Edward Witten]], _Axions In String Theory_, JHEP 0606:051,2006 ([arXiv:hep-th/0605206](http://arxiv.org/abs/hep-th/0605206))
 
 
+[[!redirects Green-Schwarz mechanisms]]
 
 [[!redirects Green Schwarz mechanism]]
 [[!redirects Green-Schwarz mechanism]]
 [[!redirects Green?Schwarz mechanism]]
+
 [[!redirects Green--Schwarz mechanism]]
 [[!redirects Green Schwartz mechanism]]
 [[!redirects Green-Schwartz mechanism]]
