@@ -54,6 +54,10 @@ Examples are
 
   whose Sullivan minimal model is the dg-algebra on a single degree-2 generator with trivial differential.
 
+## Related concepts
+
+* [[H-cohomology]]
+
 
 ## References
 
@@ -68,6 +72,10 @@ For an early discussion of formal dg-algebras in the context of [[rational homot
 A survey is around definition 2.1 of
 
 * [[Kathryn Hess]], _Rational homotopy theory: a brief introduction_ ([arXiv](http://arxiv.org/abs/math.AT/0604626))
+
+Review with an eye towards the [[dd^c-lemma]] and [[H-cohomology]] is in
+
+* {#Cavalcanti03} [[Gil Cavalcanti]], p. 12 of _New aspects of the $d d^c$-lemma_ ([arXiv:math/0501406](https://arxiv.org/abs/math/0501406))
 
 
 [[!redirects formal dg-algebra]]
