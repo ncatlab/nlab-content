@@ -717,6 +717,8 @@ Section 1.3.3 of
 
 discusses simplicial groups in the context of [[nonabelian algebraic topology]].
 
+Additional useful references include
+
 * [[Rick Jardine]], Luo, _Higher order principal bundles_ ([web](http://www.math.uiuc.edu/K-theory/0681/))
  {#JardineLuo}
 
