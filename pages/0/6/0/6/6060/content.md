@@ -46,7 +46,7 @@ This is also called _[[H-cohomology]]_ ([Cavalcanti 03, p. 19](#Cavalcanti03)).
 +-- {: .num_prop #TwistedDeRhamCohomologyCoincidesWithHCohomologyOnInfinitesimllayThickenedPoint}
 ###### Proposition
 
-On a [[formal manifold]] extension of a point, hence on an [[infinitesimally thickened point]], $H$-twisted de Rham cohomology for any closed 3-form $H$ coincides with [[H-cohomology]]. 
+If the [[de Rham complex]] $(\Omega^\bullet(X),d_{dr})$ is [[formal dg-algebra|formal]], then for $H \in \Omega_{cl}^3(X)$ a [[closed differential form|closed]] [[differential 3-form]], the $H$-[[twisted de Rham cohomology]] of $X$ coincides with its [[H-cohomology]], for any closed 3-form $H$. 
 
 =--
 
@@ -54,6 +54,6 @@ On a [[formal manifold]] extension of a point, hence on an [[infinitesimally thi
 
 ## References
 
-* {#Cavalcanti03} [[Gil Cavalcanti]], _New aspects of the ddc-lemma_ ([arXiv:math/0501406](https://arxiv.org/abs/math/0501406))
+* {#Cavalcanti03} [[Gil Cavalcanti]], _New aspects of the $d d^c$-lemma_ ([arXiv:math/0501406](https://arxiv.org/abs/math/0501406))
 
 [[!redirects twisted de Rham complex]]
