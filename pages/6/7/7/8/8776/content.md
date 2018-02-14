@@ -42,14 +42,36 @@ $$
 ## Properties
 
 ### 5d Chern-Simons term
+ {#5dChernSimonsTerm}
 
 This theory has a 2-form field strength $F_2$, locally $F_2 = d A$, with a [[5d Chern-Simons theory]] [[action functional]] locally of the form $\propto \int_X F_2 \wedge F_2 \wedge A$ (e.g. [Castellani-D'Auria-Fre (III.5.70)](#CastellaniDAuriaFre), [Gauntlet-Myers-Townsend  98, p. 3](#GauntlettMyersTownsend98), [GGHPR 02 (2.1)](#GGHPR02), [Bonetti-Grimm-Hohenegger 13](#BonettiGrimmHohenegger13)). Hence its [[equation of motion]] is of the non-linear form
 
 $$
-  d F_3 = - F_2 \wedge F_2
+  d F_3 = F_2 \wedge F_2
 $$
 
 with $F_3 \coloneqq \star F_2$ the [[Hodge dual]] of $F_2$ ([GGHPR 02 (2.2)](#GGHPR02)).
+
+This is reflected in the corresponding cochains on [[super Minkowski spacetime]]
+
+$$
+  \mu_{D0,5d} = \overline{\psi}_A \psi_A
+  \phantom{AAA} 
+  \mu_{string,5d} = \overline{\psi}_A\Gamma_a \psi_A  \wedge e^a
+$$
+
+satisfying
+
+$$
+  d \mu_{string,5d} = \mu_{D0,5d} \wedge \mu_{D0,5d}
+  \,.
+$$
+
+due to the [[Fierz identity]] in [Castellani-D'Auria-Fré 91 (III.5.50a)](#CastellaniDAuriaFre), [this example](Fierz+identity#QuadraticFierzIdentitiesIn5d):
+
+<img src="https://ncatlab.org/nlab/files/FierzIdentitiesForBraneCocyclesIn5d.png" width="600">
+
+(the other Fierz identity (III.5.50a) gives the [[membrane]] cocycle $\mu_{membrane,5d} \coloneqq \frac{i}{2}\overline{\psi}_A \Gamma_{a b}  \psi \wedge e^a \wedge e^b$, $d \mu_{membrane,5d} = 0$, that appears already in the old [[brane scan]]. )
 
 This is a lower dimensional analogue to the situation for the [[C-field]] $G_4$ (locally $G_4 = d C$) in [[11-dimensional supergravity]], which has a Chern-Simons term locally of the form $\propto \int G_4 \wedge G_4 \wedge C$ and hence the equation of motion
 
@@ -61,52 +83,7 @@ $$
 
 with $G_7 = \star G_4$.
 
-The corresponding super-cocyles are the [[double dimensional reduction]] of the string-cocycle in 6d (from the old [[brane scan]]):
 
-$$
-  \mu_{string,6d}
-  \;=\;
-  \underoverset{a= 0}{5}{\sum} \overline{\psi} \Gamma_a \psi \wedge e^a
-  \,.
-$$
-
-Using $d(\overline{\psi}) \Gamma^a psi = d d e^a = 0$, this yields 
-
-$$
-  \begin{aligned}
-    d \mu_{string, 6d}
-    & =
-    d \underoverset{a= 0}{5}{\sum} \overline{\psi} \Gamma_a \psi \wedge e^a
-    \\
-    & 
-    =
-    d
-    \underset{
-      \mu_{string,5d}
-    }{ 
-    \underbrace{
-      \underoverset{a= 0}{4}{\sum} \overline{\psi} \Gamma_a \psi
-      \wedge 
-      \wedge e^a
-    }}
-    +
-    \overline \psi \Gamma_5 \psi   
-    \wedge
-   \underset{  
-      \overline{\psi} \Gamma_5 \psi
-    }{
-    \underbrace{
-      (d e^5)
-    } }
-  \end{aligned}
-$$
-
-and hence
-
-$$
-  d \mu_{string,5d} = - \mu_{D0, 5d} \wedge \mu_{D0,5d}
-  \,.
-$$
 
 
 ### Black holes and black rings
