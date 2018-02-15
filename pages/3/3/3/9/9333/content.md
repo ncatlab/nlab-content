@@ -75,7 +75,7 @@ At the roots of differential geometry, prominent in the original work of [[Eli C
 
 A subtopic of this is [[Poisson geometry]], where the foliation is by [[symplectic leaves]]. A fundamental problem in Poisson geometry was the [[deformation quantization]] of [[Poisson manifolds]]. 
 
-   The [[formal deformation quantization]] problem was solved by [[Kontsevich]], which earned in a Fields medal. [[Cattaneo]] and [[Felder]] then showed that his formula for the [[star product]] is naturally understood as an [[3-point function]] of the [[Poisson sigma model]], a [[sigma-model]] [[QFT]] whose [[target space]] is the [[Poisson Lie algebroid]] of the given Poisson manifod. 
+   The [[formal deformation quantization]] problem was solved by [[Kontsevich]], which earned him a Fields medal. [[Cattaneo]] and [[Felder]] then showed that his formula for the [[star product]] is naturally understood as an [[3-point function]] of the [[Poisson sigma model]], a [[sigma-model]] [[QFT]] whose [[target space]] is the [[Poisson Lie algebroid]] of the given Poisson manifod. 
 
    The strengthening of this to the [[strict deformation quantization]] problem for a large class of cases was then established by forming the [[convolution algebra]] of sections of the [[prequantum bundle|prequantization]] of the [[symplectic groupoid]] with [[Lie integration|Lie integrates]] the [[Poisson Lie algebroid]].
 
@@ -88,7 +88,7 @@ For any [[symplectic groupoid]] $\Sigma$ with base a [[Poisson manifold]] $P$ th
 ### Deformation theory
  {#DeformationTheory}
 
-Apart from these Poisson structures and [[symplectic structures]], differential geoemtry studies many other kinds of smooth structures on [[smooth manifolds]], such as [[complex structures]] in [[complex geometry]]. The classification of these structures in each case is [[infinitesimal space|infinitesimally]] given by [[deformation theory]]. Since seminal work referenced at _[[model structure for L-∞ algebras]]_ it is known that deformation theory is essentially equivalently the study of [[L-∞ algebra]] in [[∞-Lie theory]]. Classical theorems in complex differential geometry such as the discussion of [[period maps]] find their natural formulation in this context. This is amplified in  ([Fiorenza-Martinengo2012](#FiorenzaMartinengo)).
+Apart from these Poisson structures and [[symplectic structures]], differential geometry studies many other kinds of smooth structures on [[smooth manifolds]], such as [[complex structures]] in [[complex geometry]]. The classification of these structures in each case is [[infinitesimal space|infinitesimally]] given by [[deformation theory]]. Since seminal work referenced at _[[model structure for L-∞ algebras]]_ it is known that deformation theory is essentially equivalently the study of [[L-∞ algebra]] in [[∞-Lie theory]]. Classical theorems in complex differential geometry such as the discussion of [[period maps]] find their natural formulation in this context. This is amplified in  ([Fiorenza-Martinengo2012](#FiorenzaMartinengo)).
 
 ### Orbifolds
  {#Orbifolds}
