@@ -16,7 +16,7 @@ where $A, B, C$ are equipped with Haar measures $d\mu_A, d\mu_B, d\mu_C$ that ma
 $$\int_B f(b)\; d\mu_B(b) = \int_C \int_A f(a + c)\; d\mu_A(a) d\mu_C(c)$$ 
 
 for all [[continuous functions]] $f: B \to \mathbb{C}$ with [[compact support]]. 
-(The inner integral on the right is a shorthand for $\int_A f(a + b)\; d\mu_A(a)$ for any $b$ that maps to $c \in C$; note that this quantity is invariant under changes $b \mapsto b + a'$ within the same coset $c$.) We remark that given Haar measures $d\mu_A, d\mu_B$, there exists a Haar measure $d\mu_C$ making this Fubini-type equation true. 
+(The inner integral on the right is a shorthand for $\int_A f(a + b)\; d\mu_A(a)$ for any $b \in B$ that maps to $c \in C$; this is well-defined since the integral is invariant under changes $b \mapsto b + a'$ within the same coset $c$.) We remark that given Haar measures $d\mu_A, d\mu_B$, there exists a Haar measure $d\mu_C$ making this Fubini-type equation true. Then, since Haar measures form a torsor over the group of positive reals with multiplication, it follows that any two of $d\mu_A, d\mu_B, d\mu_C$ determine the third. 
 
 In this notation, the "Poisson summation formula" is the equation asserted by the following result. 
 
@@ -33,9 +33,9 @@ In the special case of a [[lattice (discrete subgroup)|lattice]] $L$ inside $B$,
 
 $$\sum_{x \in L} f(x) = \frac1{\mu(B/L)} \sum_{y \in L^\perp} \widehat{f}(y)$$
 
-where $\mu$ is the Haar measure on $B/L$ (as above). 
+where $\mu$ is the Haar measure on $B/L$ (as above). Often the measure on $B$ is chosen so that $\mu(B/L) = 1$.
 
-Especially when $B$ is a [[Euclidean space]] $\mathbb{R}^n$, this gives the classical form of the Poisson summation formula. But this situation also obtains in the context of [Tate's thesis](#Tate1950), where a [[global field]] is viewed as a lattice inside its [[ring of adeles]]. 
+The classical case is when $B$ is a [[Euclidean space]] $\mathbb{R}^n$. But another case of a lattice inside locally compact abelian groups occurs in the context of [Tate's thesis](#Tate1950), where a [[global field]] is viewed as a lattice inside its [[ring of adeles]]. 
 
 ## Examples
 
