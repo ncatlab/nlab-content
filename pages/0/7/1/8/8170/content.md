@@ -19,6 +19,10 @@ See also
 
 * [[Gordon Kane]], _From Planck-scale M-theory to predictions for superpartners at LHC, soon_, June 2015 ([web](http://agenda.albanova.se/getFile.py/access?contribId=278&resId=250&materialId=slides&confId=4682))
 
+* {#Kane18} [[Gordon Kane]], _Exciting Implications of LHC Higgs Boson Data_ ([arXiv:1802.05199](https://arxiv.org/abs/1802.05199))
+
+## Related $n$Lab entries
+
 * [[string phenomenology]]
 
 * [[G2-MSSM]]
