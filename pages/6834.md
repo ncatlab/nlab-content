@@ -114,6 +114,8 @@ The canonical example of this phenomenon is the [[RR-field]] in [[string theory]
 
 * [[local prequantum field theory]]
 
+* [[higher category theory and physics]]
+
 ## References
 
 Introduction and exposition includes
