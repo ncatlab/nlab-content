@@ -61,6 +61,8 @@ So for the Higgs particle prediction and experimental detection lie apart by abo
  {#References}
 
 
+### General
+
 The original articles explaining what is now called the Higgs mechanism by [[spontaneous symmetry breaking]] were
 
 * P. Anderson, _Plasmons, gauge invariance and mass_, Physical Review 130: 439. (1963)
@@ -83,9 +85,25 @@ The [[phenomenology]] of Higgs [[model (in particle physics)|models]] is discuss
 
 * Marcela Carena, Howard E. Haber, _Higgs Boson Theory and Phenomenology_, Prog.Part.Nucl.Phys.50:63-152,2003 ([arXiv:hep-ph/0208209](http://arxiv.org/abs/hep-ph/0208209))
 
-Discussion of the apparent metastability implied by the observed Higss mass includes
+### Vacuum (in-)stability
+ {#ReferencesVacuumInstability}
+
+Discussion of the apparent lack of [[vacuum stability]] for the observed Higgs potential includes the following:
+
+
+* J.R. Espinosa, G. Giudice, A. Riotto, _Cosmological implications of the Higgs mass measurement_, JCAP 0805:002, 2008 ([arXiv:0710.2484](https://arxiv.org/abs/0710.2484))
+
+* [[John Ellis]], J.R. Espinosa, G.F. Giudice, A. Hoecker, A. Riotto, _The Probable Fate of the Standard Model_, Phys. Lett. B679:369-375, 2009 ([arXiv:0906.0954](https://arxiv.org/abs/0906.0954))
 
 * Dario Buttazzo, Giuseppe Degrassi, Pier Paolo Giardino, [[Gian Giudice]], Filippo Sala, Alberto Salvio, Alessandro Strumia, _Investigating the near-criticality of the Higgs boson_ ([arXiv:1307.3536](https://arxiv.org/abs/1307.3536))
+
+* Anson Hook, John Kearney, Bibhushan Shakya, Kathryn M. Zurek, _Probable or Improbable Universe? Correlating Electroweak Vacuum Instability with the Scale of Inflation_, J. High Energ. Phys. (2015) 2015: 61 ([arXiv:1404.5953](https://arxiv.org/abs/1404.5953))
+
+* Jose R. Espinosa, Gian F. Giudice, Enrico Morgante, Antonio Riotto, Leonardo Senatore, Alessandro Strumia, Nikolaos Tetradis, _The cosmological Higgstory of the vacuum instability_ ([arXiv:1505.04825](https://arxiv.org/abs/1505.04825))
+
+* William E. East, John Kearney, Bibhushan Shakya, Hojin Yoo, Kathryn M. Zurek, _Spacetime Dynamics of a Higgs Vacuum Instability During Inflation_, Phys. Rev. D 95, 023526 (2017) ([arXiv:1607.00381](https://arxiv.org/abs/1607.00381))
+
+### In G2-MSSM
 
 Discussion of the Higgs mechanism in the [[G2-MSSM]] and related models is due to
 
@@ -93,7 +111,11 @@ Discussion of the Higgs mechanism in the [[G2-MSSM]] and related models is due t
 
 * [[Gordon Kane]], Piyush Kumar, Ran Lu, Bob Zheng, _Higgs Mass Prediction for Realistic String/M Theory Vacua_, Phys. Rev. D 85, 075026 ([arXiv:1112.1059](http://arxiv.org/abs/1112.1059))
 
-(a useful informed comment is [here](http://www.math.columbia.edu/~woit/wordpress/?p=4262&cpage=1#comment-101525))
+  (a useful informed comment is [here](http://www.math.columbia.edu/~woit/wordpress/?p=4262&cpage=1#comment-101525))
+
+and related to the issue of the [[vacuum stability]] in
+
+* {#Kane18} [[Gordon Kane]], _Exciting Implications of LHC Higgs Boson Data_ ([arXiv:1802.05199](https://arxiv.org/abs/1802.05199))
 
 
 [[!redirects Higgs fields]]
