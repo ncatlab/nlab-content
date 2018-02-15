@@ -147,6 +147,10 @@ Discussion of aspects of [[effective field theories]] which might rule them out 
 
 * {#Vafa05} [[Cumrun Vafa]], _The String Landscape and the Swampland_ ([arXiv:hepth/0509212](http://arxiv.org/abs/hepth/0509212))
 
+See also
+
+* T. Daniel Brennan, Federico Carta, [[Cumrun Vafa]], _The String Landscape, the Swampland, and the Missing Corner_ ([arXiv:1711.00864](https://arxiv.org/abs/1711.00864))
+
 ### Phenomenological speculation
  {#ReferencesPhenomenologicalSpeculation}
 
