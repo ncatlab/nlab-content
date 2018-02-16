@@ -5,7 +5,9 @@
 
 * Nature article, _[Particle physics is at a turning point](http://www.nature.com/news/particle-physics-is-at-a-turning-point-1.9675)_, Dec. 2011
 
-Kane has been arguing that [[string phenomenology]] models of the kind of [[M-theory on G2-manifolds]], notably the [[G2-MSSM]], "generically" predict [[Higgs particle]] [[masses]] around 120-130 GeV. He stated this in 
+* [Sakurai prize 2017](https://www.aps.org/programs/honors/prizes/prizerecipient.cfm?last_nm=Kane&first_nm=Gordon&year=2017) "For instrumental contributions to the theory of the properties, reactions, and signatures of the Higgs boson."
+
+Kane has been arguing that [[string phenomenology]]-[[model (physics)|models]] of the kind of [[M-theory on G2-manifolds]], notably the [[G2-MSSM]], "generically" predict [[Higgs particle]] [[masses]] around 120-130 GeV. He stated this in 
 
 * {#Kane11} [[Gordon Kane]], _String theory and generic predictions for our world &#8211; superpartner masses, LHC signatures, dark matter, EWSB, cosmological history of universe, etc_, talk at String phenomenology 2011, August 2011 ([pdf](http://conferencing.uwex.edu/conferences/stringpheno2011/documents/kane.pdf))
 
@@ -26,5 +28,7 @@ See also
 * [[string phenomenology]]
 
 * [[G2-MSSM]]
+
+* [[Higgs field]], [[vacuum stability]]
 
 category: people
