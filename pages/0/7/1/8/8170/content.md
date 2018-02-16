@@ -23,7 +23,7 @@ See also
 
 * [[Gordon Kane]], _String/M-theories About Our World Are Testable in the traditional Physics Way_, talk at _[Why Trust a Theory? Reconsidering Scientific Methodology in Light of Modern Physics](http://www.whytrustatheory2015.philosophie.uni-muenchen.de/index.html)_, Munich 2015  ([arXiv:1601.07511](https://arxiv.org/abs/1601.07511), [video](https://videoonline.edu.lmu.de/en/node/7485))
 
-* [[Gordon Kane]], _String theory and the real world_, Morgan & Claypool, 2017 (<a href="http://iopscience.iop.org/book/978-1-6817-4489-6">doi:0.1088/978-1-6817-4489-6</a>)
+* {#Kane17} [[Gordon Kane]], _String theory and the real world_, Morgan & Claypool, 2017 (<a href="http://iopscience.iop.org/book/978-1-6817-4489-6">doi:0.1088/978-1-6817-4489-6</a>)
 
 * {#Kane18} [[Gordon Kane]], _Exciting Implications of LHC Higgs Boson Data_ ([arXiv:1802.05199](https://arxiv.org/abs/1802.05199))
 
@@ -35,5 +35,7 @@ See also
 * [[G2-MSSM]]
 
 * [[Higgs field]], [[vacuum stability]]
+
+* [[naturalness]]
 
 category: people
