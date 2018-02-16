@@ -38,10 +38,11 @@ For $n \in \mathbb{N}$, a [[smooth function]] $f \colon \mathbb{R}^n \to \mathbb
 $$
   \underset{\alpha, \beta \in \mathbb{N}^n}{\forall}
   \left(
-  \underset{x \in \mathbb{R}^n}{sup} {\Vert x^\alpha \partial_{\beta} f(x)  \Vert} \lt 0
+  \underset{x \in \mathbb{R}^n}{sup} {\Vert x^\alpha \partial_{\beta} f(x)  \Vert} \lt K_{\alpha, \beta}
   \right)
 $$
 
+for some choices of positive constants $K_{\alpha, \beta}$. 
 =--
 
 (e.g. [H&#246;rmander 90, def. 7.1.2](#Hoermander90))
@@ -103,6 +104,10 @@ $$
 =--
 
 (e.g. [H&#246;rmander 90, lemma 7.1.3](#Hoermander90), [Melrose 03, theorem 1.3](#Melrose03))
+
+## Related entries 
+
+* [[Schwartz-Bruhat function]] 
 
 ## References
 
