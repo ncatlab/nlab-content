@@ -1,6 +1,10 @@
 
 
 $$
+  \exp( \underset{j'}{\sum} b^A_{(j')} b^B_{(j')} )  \exp( \underset{j}{\sum} b_{(j)}^B ) \omega
+$$
+
+$$
   \begin{aligned}
   \mathbf{L}
     & =
