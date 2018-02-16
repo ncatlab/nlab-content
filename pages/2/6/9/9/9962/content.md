@@ -33,6 +33,10 @@ A key problem is arguably that the principle has been used in a very vague and v
 
 > ([Wilson 04, p. 10](#Wilson04))
 
+From [Kane 17, p. 56 (6-10)](#Kane17):
+
+> The alternative to naturalness, often neglected as an alternative, is having a theory.
+
 ## References
 
 Survey and discussion includes
@@ -54,6 +58,9 @@ Critical comments are in
 * {#Wilson04} [[Kenneth Wilson]], _The Origins of Lattice Gauge Theory_, ([arXiv:hep-lat/0412043](http://arxiv.org/abs/hep-lat/0412043))
 
 * [[Petr Horava]], _Surprises with Nonrelativistic Naturalness_, Int. J. Mod. Phys. D25 (2016) 1645007 ([arXiv:1608.06287](http://arxiv.org/abs/1608.06287))
+
+* {#Kane17} [[Gordon Kane]], _String theory and the real world_, Morgan & Claypool, 2017 (<a href="http://iopscience.iop.org/book/978-1-6817-4489-6">doi:0.1088/978-1-6817-4489-6</a>)
+
 
 See also
 
