@@ -182,7 +182,7 @@ This means that this correct hom-space $C/X(a,b) \simeq (C/X)^\circ(a,b) \in sSe
 Given an adjunction $L\dashv R$ with $L\colon A\to B$ and $R\colon B\to A$,
 the following compositions define two Quillen ajdunctions between associated slice categories.
 If $X\in A$, then
-$$L:A/X\leftrightarrows B/L:RX$$
+$$L:A/X\leftrightarrows B/LX:R$$
 is an adjunction,
 where is the composition $R\colon B/LX\to A/RLX\to A/X$, the second arrow is the base change functor along the unit $X\to RLX$.
 If $Y\in B$, then
