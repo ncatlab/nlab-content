@@ -120,8 +120,6 @@ The refinement of topological T-duality to [[differential cohomology]], hence to
 * {#KahleValentino} [[Alexander Kahle]], [[Alessandro Valentino]], _[[T-Duality and Differential K-Theory]]_, Communications in Contemporary Mathematics, Volume 16, Issue 02, April 2014 ([arXiv:0912.2516](http://arxiv.org/abs/0912.2516))
  
 
-## Blog resources
-
 A transcript a a talk by Varghese Mathai on topological T-duality is here:
 
 * _Mathai on T-duality_:
