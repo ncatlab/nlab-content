@@ -63,7 +63,7 @@ For more along these lines see the references at _[[exceptional generalized geom
 
 Discusssion of [[M-brane]] [[sigma-models]] on exceptional geometry [[target spaces]] is in
 
-* Yuho Sakatani, Shozo Uehara, _Branes in Extended Spacetime: Brane Worldvolume Theory Based on Duality Symmetry_, Phys. Rev. Lett. 117, 191601 (2016) ([arXiv:1607.04265](https://arxiv.org/abs/1607.04265))
+* Yuho Sakatani, Shozo Uehara, _Branes in Extended Spacetime: Brane Worldvolume Theory Based on Duality Symmetry_, Phys. Rev. Lett. 117, 191601 (2016) ([arXiv:1607.04265](https://arxiv.org/abs/1607.04265), [talk slides](http://www2.yukawa.kyoto-u.ac.jp/~qft.web/2016/slides/sakatani.pdf))
 
 * Yuho Sakatani, Shozo Uehara, _Exceptional M-brane sigma models and $\eta$-symbols_ ([arXiv:1712.10316](https://arxiv.org/abs/1712.10316))
 
