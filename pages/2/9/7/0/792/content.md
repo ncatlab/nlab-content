@@ -113,17 +113,19 @@ Another discussion that instead of [[noncommutative geometry]] uses [[topologica
 
 The [[bi-brane]] perspective on T-duality is amplified in
 
-* {#SarkissianSchweigert08} Gor Sarkissian, [[Christoph Schweigert]], _Some remarks on defects and duality_ ([arXiv:0810.3159](http://arxiv.org/abs/0810.3159))
+* {#SarkissianSchweigert08} Gor Sarkissian, [[Christoph Schweigert]], _Some remarks on defects and duality_ ([arXiv:0810.3159](http://arxiv.org
+/abs/0810.3159))
+
+Discussion in [[rational homotopy theory]]/[[dg-geometry]] is in
+
+* [[Ernesto Lupercio]], Camilo Rengifo, [[Bernardo Uribe]], _T-duality and exceptional generalized geometry through symmetries of dg-manifolds_ ([arXiv:1208.6048](https://arxiv.org/abs/1208.6048))
+
+* [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:T-Duality from super Lie n-algebra cocycles for super p-branes]]_ ([arXiv:1611.06536](https://arxiv.org/abs/1611.06536))
 
 The refinement of topological T-duality to [[differential cohomology]], hence to an operation on the [[differential K-theory]] classes that model the [[RR-field]] is in
 
 * {#KahleValentino} [[Alexander Kahle]], [[Alessandro Valentino]], _[[T-Duality and Differential K-Theory]]_, Communications in Contemporary Mathematics, Volume 16, Issue 02, April 2014 ([arXiv:0912.2516](http://arxiv.org/abs/0912.2516))
  
 
-A transcript a a talk by Varghese Mathai on topological T-duality is here:
 
-* _Mathai on T-duality_:
 
-  * I: [Overview](http://golem.ph.utexas.edu/string/archives/000827.html)
-
-  * II: [T-dual K-classes by Fourier-Mukai](http://golem.ph.utexas.edu/string/archives/000828.html).
