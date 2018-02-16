@@ -202,7 +202,7 @@ About the Mahlo level: this also corresponds to inductive-recursive definitions 
 * MLS is type theory without W-types with a superuniverse.
 * ML$_1$V is type theory with one universe and Aczel's type of iterative sets.
 * ML$_1$W is type theory with W-types and one universe.
-* ML$_{\lt\omega}$ is type theory with W-types and an infinite hierarchy of universes (this corresponds to the type theory in Lean's HoTT mode).
+* ML$_{\lt\omega}$W is type theory with W-types and an infinite hierarchy of universes (this corresponds to the type theory in Lean's HoTT mode).
 * MLM is Martin-L&#246;f type theory with a Mahlo universe.
 
 ### Constructive Set theories
