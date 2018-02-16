@@ -384,9 +384,15 @@ Discussion of the various ways that axions naturally appear in [[string theory]]
 
 * {#SvrcekWitten06} Peter Svrcek, [[Edward Witten]], _Axions In String Theory_, JHEP 0606:051,2006 ([arXiv:hep-th/0605206](http://arxiv.org/abs/hep-th/0605206))
 
-and discussion specifically for the [[F-theory]] sector of string theory is in
+
+Specifically for the [[F-theory]] sector of string theory:
 
 * {#Grimm14} Thomas Grimm, _Axion Inflation in F-theory_ ([arXiv:1404.4268](http://arxiv.org/abs/1404.4268))
+
+Specifically open string axions
+
+* [[Gabriele Honecker]], section 4 of _From Type II string theory towards BSM/dark sector physics_, International Journal of Modern Physics A Vol. 31 (2016) 1630050 ([arXiv:1610.00007](https://arxiv.org/abs/1610.00007))
+
 
 A textbook account of axion [[string phenomenology]] is in
 
