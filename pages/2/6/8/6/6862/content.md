@@ -49,7 +49,7 @@ $$
   \,.
 $$
 
-When expressing $\mathbf{L}$ as a [[modulating morphism]] $\mathbf{L} \colon X \ongrightarrow \mathbf{B}^d U(1)_{conn}$ into the [[smooth infinity-stack|smooth]] [[moduli infinity-stack]] of [[circle n-bundle with connection|circle d-bundles with connection]] then this is an equivalence in the [[slice (infinity,1)-topos]] over $\mathbf{B}^d U(1)_{conn}$:
+When expressing $\mathbf{L}$ as a [[modulating morphism]] $\mathbf{L} \colon X \longrightarrow \mathbf{B}^d U(1)_{conn}$ into the [[smooth infinity-stack|smooth]] [[moduli infinity-stack]] of [[circle n-bundle with connection|circle d-bundles with connection]] then this is an equivalence in the [[slice (infinity,1)-topos]] over $\mathbf{B}^d U(1)_{conn}$:
 
 $$
   \mathbf{QuantMorph}(\mathbf{L})
