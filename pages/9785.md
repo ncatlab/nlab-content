@@ -35,7 +35,7 @@ In ([AGIT 89](#AGIT89)) it is shows that the M-algebra-like polyvector extension
 
 By the discussion at [conserved current -- In higher prequantum geometry](conserved+current#InHigherPrequantumGeometry) this means that this is the degree-0 piece in the [[Heisenberg Lie n-algebra]] which is induced by regarding the WZW-curvature terms as super [[n-plectic forms]] on $\mathbb{R}^{10,1|32}$.
 
-### As the Lie algebra of derivation of the SuGra Lie 3-algebra
+### As the Lie algebra of derivations of the SuGra Lie 3-algebra
 
 In ([Castellani 05](#Castellani05)) it is 
 implicitly shown, ([FSS 13](#FSS13)), that the M-extension arises  as the [[derivations]]/automorphisms of the [[supergravity Lie 3-algebra]]/[[supergravity Lie 6-algebra]] (see there for the details).
