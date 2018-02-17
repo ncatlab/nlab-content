@@ -315,7 +315,7 @@ By prop. \ref{KernelsInsideAlmostCycles}.
 ### Via exact couples
  {#ViaExactCouples}
 
-The whole of the spectral sequence can be defined as the [[spectral sequence]] of the [exact couple](spectral+sequence#exact_couples)
+The spectral sequence may alternatively be obtained as the [spectral sequence of an exact coupl](exact+couple#SpectralSequencesFromExactCouples)
 
 $$ D\overset{\varphi}{\to} D \to E \to D $$
 
@@ -333,7 +333,7 @@ At every stage we have a new family of long exact sequences.
 
 ## Properties
 
-### In low-degree pages
+### Low-degree pages
  {#InLowDegreePages}
 
 We characterize the value of the spectral sequence $E^r_{p,q}$, def. \ref{ExplicitForm} for low values of $r$ and, below in prop. \ref{AbuttingFiltrationConvergesToHomology}, for $r \to \infty$.
@@ -377,7 +377,7 @@ $$
 +-- {: .num_remark}
 ###### Remark
 
-There is, in general, a decisive difference between the homology of the associated graded complex $H_{p+q}(G_p C_\bullet)$ and the associated graded piece of the genuine homology $G_p H_{p+q}(C_\bullet)$: in the former the differentials of cycles are required to vanish only up to terms in lower degree, but in the latter they are required to vanish genuinely. The latter expression is instead the value of the spectral sequence for $r \to \infty$, see prop. \ref{ConvergingToGenuineHomology} below.
+There is, in general, a decisive difference between the homology of the associated graded complex $H_{p+q}(G_p C_\bullet)$ and the associated graded piece of the genuine homology $G_p H_{p+q}(C_\bullet)$: in the former the differentials of cycles are required to vanish only up to terms in lower degree, but in the latter they are required to vanish genuinely. The latter expression is instead the value of the spectral sequence for $r \to \infty$.
 
 =--
 
