@@ -65,13 +65,13 @@ The generalization from [[coset spaces]] to [[parabolic geometry|parabolic]] [[C
 
 * {#Baston90} R. J. Baston, _Verma modules and differential conformal invariants_, J. Diff. Geom. 32 (1990) 851&#8211;898.
 
-* [[Andreas ?ap]], [[Jan Slovák]], [[Vladimír Sou?ek]], _Bernstein-Gelfand-Gelfand sequences_, ESI preprint 722 (1999).
+* [[Andreas Čap]], [[Jan Slovák]], [[Vladimír Souček]], _Bernstein-Gelfand-Gelfand sequences_, ESI preprint 722 (1999).
 
-* [[Andreas ?ap]], [[Jan Slovák]], [[Vladimír Sou?ek]], _Bernstein-Gelfand-Gelfand sequences_, Ann. Math. (II) __154__:1 (2001) pp. 97-113 ([jstor](http://www.jstor.org/stable/3062111))
+* [[Andreas Čap]], [[Jan Slovák]], [[Vladimír Souček]], _Bernstein-Gelfand-Gelfand sequences_, Ann. Math. (II) __154__:1 (2001) pp. 97-113 ([jstor](http://www.jstor.org/stable/3062111))
 
 * {#CalderbankDiemer00} [[David Calderbank]], Tammo Diemer, _Differential invariants and curved Bernstein-Gelfand-Gelfand sequences_, J.Reine Angew.Math. 537 (2001) 67-103 ([arXiv:math/0001158](http://arxiv.org/abs/math/0001158))
  
-* {#CapSoucek07} [[Andreas ?ap]], [[Vladimír Sou?ek]], _Curved Casimir operators and the BGG machinery_, SIGMA __3__, 2007, 111 ([arxiv:0708.3180](http://arxiv.org/abs/0708.3180) [doi](http://dx.doi.org/10.3842/SIGMA.2007.111))
+* {#CapSoucek07} [[Andreas Čap]], [[Vladimír Souček]], _Curved Casimir operators and the BGG machinery_, SIGMA __3__, 2007, 111 ([arxiv:0708.3180](http://arxiv.org/abs/0708.3180) [doi](http://dx.doi.org/10.3842/SIGMA.2007.111))
 
 
 
