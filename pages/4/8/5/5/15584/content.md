@@ -20,7 +20,7 @@
 
 ##Idea
 
-A simple class of (finite) [[monoids]] and [[categories]] that permit an effective graphic display via their [[presheaf]] categories.
+A simple class of [[monoids]] and [[categories]] that permit an effective graphic display via their [[presheaf]] categories.
 
 Graphic monoids arise in the study of [[arrangement of hyperplanes|hyperplane arrangements]] and are often called **left regular band monoids** in this context.
 
@@ -38,7 +38,7 @@ In particular, the graphic monoid $\Delta_1$ in the [example](#ex) and the eight
 
 [^hegel]: For more on Lawvere's approach to Hegelian dialectics see [[Aufhebung]], [[adjoint cylinder]], or [[Science of Logic]].
 
-This bears some ressemblance to the other context, namely hyperplane arrangements, in which such monoids mainly arise.
+This bears some resemblance to the other context, namely hyperplane arrangements, in which such monoids mainly arise.
 
 In the literature that approaches graphic monoids as special class of semigroups, they are called **unital left regular bands** or _left regular band monoids_ (cf. Brown ([2000](#brown00)), Aguiar-Mahajan ([2006](#AgMah06)), Margolis-Saliola-Steinberg ([2015](#MSS15))).
 
@@ -71,9 +71,9 @@ The more familiar two-sorted 'signature' for reflexive graphs can be obtained fr
 
 * It follows that a commutative graphic monoid is the same as a [[semilattice]], or equivalently, a commutative monoid where every element is idempotent.
 
-* More generally, one can define a partial order on $M$ by $x\leq y$ iff $xy=y$ ('$x$ is a face of $y$'). In fact, the graphic identity is precisely the condition needed for the anti-symmetry of this relation on monoids whose elements are all idempotent - the reflexivity being a direct consequence of the idempotency.[^semigroups]
+* More generally, one can define a partial order on $M$ by $x\leq y$ iff $x y=y$ ('$x$ is a face of $y$'). In fact, the graphic identity is precisely the condition needed for the anti-symmetry of this relation on monoids whose elements are all idempotent - the reflexivity being a direct consequence of the idempotency.[^semigroups]
 
-[^semigroups]: Semigroup theorists typically order a graphic monoid by $x\leq y$ if $yx=x$ because this is equivalent to $xM\subseteq yM$.
+[^semigroups]: Semigroup theorists typically order a graphic monoid by $x\leq y$ if $y x=x$ because this is equivalent to $x M\subseteq y M$.
 
 * The _free graphic monoid_ on a set $X$ is the set of totally ordered finite subsets of $X$, where the product of finite subsets $S$ and $T$ is the union $S \cup T$ ordered in such a way that the inclusion $S \hookrightarrow S\cup T$ is order-preserving, the inclusion $T \hookrightarrow S\cup T$ is order-preserving for all elements of $T$ not in $S$, and all the elements of $T$ not in $S$ are greater than all elements of $S$.  This is easy to understand from an example.  Consider the free graphic monoid on $X = \{a,b\}$.  This contains:
 
