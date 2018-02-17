@@ -133,7 +133,7 @@ $$
   \,.
 $$
 
-This case is what is traditionally is often meant by default by the "splitting principe".
+This case is what is traditionally is often meant by default by the "splitting principle".
 
 For the [[special unitary group]] the situation is the same, only that here the splitting is into a sum of line bundles used [[tensor product]] is constrained to be trivializable.
 
