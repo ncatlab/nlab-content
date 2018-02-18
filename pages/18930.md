@@ -35,11 +35,11 @@ A *right functor presentation* from $C$ to $D$ consists of
 1. A profunctor $R : C $&#8696;$ D$.
 2. An object function $F_0 : C_0 \to D_0$.
 3. An "introduction rule" $\iota_{c,d} : R(d,c) \to D(d,F_0c)$.
-4. A "universal morphism" $\epsilon_c : R(c,F_0c)$.
+4. A "universal morphism" $\epsilon_c : R(F_0c,c)$.
 
 satisfying
 
-1. *left-naturality of $\iota$* $\iota \circ R(f,id)) = D(f,id) \circ \iota$
+1. *left-naturality of $\iota$*, meaning $\iota \circ R(f,id) = D(f,id) \circ \iota$
 2. *isomorphism*, $R(-,id)(\epsilon)$ is an inverse to $\iota$.
 
 Then given a right functor presentation $(R, F_0, \iota, \epsilon)$, we can define a functor that represents $R$ by extending $F$ to act on morphisms by $F_1(f) = \iota(R(id, f)(c))$. Then the functoriality of $F$ and naturality of $\alpha$ and $\alpha^{-1}$ follow from the above equalities.
