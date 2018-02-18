@@ -22,7 +22,7 @@ $$
 +-- {: .query}
 Yaron:  The above definition of a quotient category appears to be different from that of CWM (p. 51 of the second edition), where a quotient category is obtained by identifying arrows.  Perhaps there is a need for disambiguation?
 
-_Toby_:  See [discussion on the Forum](http://www.math.ntnu.no/~stacey/Mathforge/nForum/comments.php?DiscussionID=2728).
+_Toby_:  See [discussion on the Forum](https://nforum.ncatlab.org/discussion/2728/torsion-theory-quotient-category/?Focus=24216#Comment_24216).
 =--
 
 
