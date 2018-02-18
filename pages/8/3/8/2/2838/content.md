@@ -47,8 +47,8 @@ An __ionad__ is a set $X$ together with a [[left exact functor|finite limit-pres
 Although Garner does not require an ionad to be bounded, the nicest results hold for them, and all of his applications involve only bounded ionads.  In fact, Garner writes, 'Indeed, the existence of unbounded ionads is a problem that seems to be independent of the axioms of [[Zermelo-Fraenkel set theory]].' (Section 3.8).
 
 +-- {: .un_defn}
-###### Remark (c.f. Garner Remark 3.9)
-Bounded ionads are interchangeable with Grothendieck toposes with [[point of a topos|enough points]].
+###### Remark (Garner Remark 3.9)
+Bounded ionads give rise to exactly the Grothendieck toposes with [[point of a topos|enough points]] as their topos of coalgebras. (See below)
 =--
 
 ### Sets, groupoids, or categories?
