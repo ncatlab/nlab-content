@@ -182,7 +182,7 @@ for all $n,k \in \mathbb{N}$ satisfying the following conditions:
 
 1. for $n = 0$ it is the [[identity]];
 
-1. if $X$ is a [[manifold]] of [[dimension]] $dim X \lt n$ then $Sq^n(X) = 0$;
+1. if $n \gt deg(x)$ then $Sq^n(X) = 0$;
 
 1. for $k = n$ the morphism $Sq^n : B^n \mathbb{Z}_2 \to B^{2n} \mathbb{Z}_2$ is the [[cup product]] $x \mapsto x \cup x$;
 
@@ -220,18 +220,60 @@ Therefore the Steenrod squares are often also referred to as the _[[stabilizatio
 $$
   Sq^i \circ Sq^j 
    = 
-  \sum_{k = 0}^{[i/2]}
+  \sum_{0 \leq k \leq i/2}
   \left(
-    \array{
-      j - k - 1
-      \\
-      i - 2k 
+    {
+      { j - k - 1 }
+      \atop 
+      { i - 2k }
     }
   \right)_{mod 2}
   Sq^{i + j -k} \circ Sq^k
 $$
 
 for all $0 \lt i \lt 2 j$.
+
+Here $\left( a \atop b \right) \coloneqq 0$ if $a \lt b$.
+
+For example, for $j \geq 2$ we have
+
+$$
+  \begin{aligned}
+    Sq^1 \circ Sq^j 
+    & = 
+    \underset{
+      (j-1)_{mod 2}
+    }{
+    \underbrace{
+    \left(
+      {
+        {j - 1 }
+        \atop
+        1
+      }     
+    \right)_{mod 2}
+    }}
+    Sq^{j + 1} 
+    \\   
+    & =
+    \left\{
+      \array{
+        Sq^{j+1} &\vert& j \, \text{even}
+        \\
+        0 &\vert& j \, \text{odd}
+      }
+    \right.
+  \end{aligned}
+$$
+
+also
+
+$$
+  Sq^2 \circ Sq^2 
+  =
+  Sq^3 \circ Sq^1
+$$
+
 
 (...)
 
