@@ -48,7 +48,7 @@ $$
   0\to A/A_{m-tors} \stackrel{m\cdot}{\to} A \to A/m A\to 0,
 $$
 
-where $A_{m-tors}$ is the subgroup of $m$-torsion elements of $A$,
+where $A_{m-tors}$ is the subgroup of $m$-[[torsion subgroup|torsion elements]] of $A$,
 and so a long [[fiber sequence]]
 
 $$
@@ -93,7 +93,7 @@ $H^n(X;\mathbb{Z}_m)\to H^{n}(X;U(1))$.
 
 Original references include
 
-* M. Bockstein,  
+* [[Meyer Bockstein]],  
 
   _Universal systems of $\nabla$-homology rings_, C. R. (Doklady) Acad. Sci. URSS (N.S.) 37 (1942), ": 243&#8211;245, MR0008701
 
