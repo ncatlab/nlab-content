@@ -1,19 +1,20 @@
 ## Idea 
 
-A Schwartz-Bruhat function is a certain type of complex-valued function on a general [[locally compact space|locally compact]] [[Hausdorff space|Hausdorff]] [[topological abelian group|abelian group]], generalizing the familiar notion of [[Schwartz space|Schwartz function]] on a space given as a finite product of copies of the real line, the circle, and finitely generated abelian groups. 
+A Schwartz-Bruhat function is a certain type of complex-valued function on a general [[locally compact space|locally compact]] [[Hausdorff space|Hausdorff]] [[topological abelian group|abelian group]], generalizing the familiar notion of [[Schwartz space|Schwartz function]] on a space given as a finite product of copies of the real line, of the circle, and a finitely generated abelian group. 
 
 ## Definitions 
 
-The notion of Schwartz-Bruhat function is constructed in stages that parallel developments in the general structure theory for locally compact (Hausdorff) abelian groups. 
+The notion of Schwartz-Bruhat function is constructed in stages that parallel developments in the general structure theory of locally compact (Hausdorff) abelian groups. 
 
-Recall the notion of *compactly generated topological group* $G$: it means there is a compact neighborhood of the identity which generates $G$ as a group. The structure of a compactly generated abelian Lie group is well-known: it is a product of type $K \times \mathbb{R}^m \times \mathbb{Z}^n$ where $K$ is a compact abelian Lie group (thus of the form $T^p \times F$ where $F$ is a finite abelian group and $T = \mathbb{R}/\mathbb{Z}$ is a circle group). These are often called *elementary Lie groups*. 
+Recall the notion of *compactly generated topological group* $G$: it means there is a compact neighborhood of the identity which generates $G$ as a group. The structure of a compactly generated abelian Lie group is well-known: it is a product of type $K \times \mathbb{R}^m \times \mathbb{Z}^n$ where $K$ is a [[compactum|compact]] [[abelian group|abelian]] [[Lie group]] (thus of the form $T^p \times F$ where $F$ is a finite abelian group and $T = \mathbb{R}/\mathbb{Z}$ is a circle group). These are often called *elementary Lie groups*. 
 
 +-- {: .num_defn #def1} 
 ###### Definition 
-Let $G$ be an elementary Lie group of type $K \times \mathbb{R}^m \times \mathbb{Z}^n$ where $K$ is a compact abelian Lie group. A *Schwartz-Bruhat function* on $G$ is an infinitely differentiable function $f: G \to \mathbb{C}$ that is *rapidly decreasing*: applications of any polynomial differential operator to $f$ is uniformly bounded in the $\mathbb{R}$- and $\mathbb{Z}$-variables, in the sense that 
+Let $G$ be an elementary Lie group of type $K \times \mathbb{R}^m \times \mathbb{Z}^n$ where $K$ is a compact abelian Lie group. A *Schwartz-Bruhat function* on $G$ is an [[smooth function|infinitely differentiable function]] $f: G \to \mathbb{C}$ that is *rapidly decreasing*: applications of any polynomial differential operator to $f$ is uniformly bounded in the $\mathbb{R}$- and $\mathbb{Z}$-variables, in the sense that 
 
 $$
-  \underset{\alpha, \beta, \gamma \in \mathbb{N}^k}{\forall}\;\; \underset{K_{\alpha, \beta, \gamma} \gt 0}{\exists}\;
+  \underset{\alpha \in \mathbb{N}^n}{\forall}\;\;
+  \underset{\beta, \gamma \in \mathbb{N}^m}{\forall}\;\; \underset{K_{\alpha, \beta, \gamma} \gt 0}{\exists}\;
   \left(
   \underset{(j, x) \in \mathbb{Z}^n \times \mathbb{R}^m}{sup} {\Vert j^\alpha x^\beta \partial_{\gamma} f(x, j)  \Vert} \lt K_{\alpha, \beta, \gamma}
   \right)
@@ -22,7 +23,7 @@ $$
 using the usual notations for multi-indices $\alpha, \beta, \gamma$. 
 =-- 
 
-Next, any locally compact abelian group is canonically a filtered colimit of the system of its open compactly generated subgroups and open inclusions between them. In particular, any abelian Lie group is canonically a filtered colimit of its open elementary Lie subgroups. In fact, an abelian Lie group is of the form $A \times \mathbb{R}^m \times T^p$, where $A$ is a discrete abelian group. We may reckon $A$ as a filtered colimit of its finitely generated subgroups $A_\alpha$; taking the product with the locally compact group $\mathbb{R}^m \times T^p$, any abelian Lie group is a filtered colimit of elementary Lie subgroups $A_\alpha \times \mathbb{R}^m \times T^p$. 
+Next, any locally compact abelian group is canonically a [[filtered colimit]] of the system of its open compactly generated subgroups and open inclusions between them. In particular, any abelian Lie group is canonically a filtered colimit of its open elementary Lie subgroups. In fact, an abelian Lie group is of the form $A \times \mathbb{R}^m \times T^p$, where $A$ is a discrete abelian group. We may reckon $A$ as a filtered colimit of its finitely generated subgroups $A_\alpha$; taking the product with the locally compact group $\mathbb{R}^m \times T^p$, any abelian Lie group is a filtered colimit of elementary Lie subgroups $A_\alpha \times \mathbb{R}^m \times T^p$. 
 
 +-- {: .num_defn #def2} 
 ###### Definition 
@@ -42,7 +43,7 @@ We may apply the contravariant functor $\mathcal{S}(-)$ to this cofiltered diagr
 For a locally compact abelian group $G$, the Schwartz-Bruhat space $\mathcal{S}(G)$ is the colimit of the filtered diagram of spaces $\mathcal{S}(G_\alpha)$ defined according to Definition \ref{def2}. 
 =-- 
 
-In other words, a Schwartz-Bruhat function on $G$ is one that factors through a Lie quotient 
+In other words, a Schwartz-Bruhat function on $G$ is one that factors through one of its Lie quotients as 
 
 $$G \twoheadrightarrow G_\alpha \stackrel{g}{\to} \mathbb{C}$$ 
 
@@ -53,7 +54,7 @@ where $g: G_\alpha \to \mathbb{C}$ is Schwartz-Bruhat in the sense given for Lie
 The extension of Schwartz functions and [[tempered distributions]] on Euclidean spaces $\mathbb{R}^n$ to more general locally compact abelian groups was given by Bruhat: 
 
 * F. Bruhat, *Distributions sur un groupe localement compact et applications 
-&agrave; l’etude des repr&eacute;sentations des groupes p-adiques*, Bull. Soc. Math. France 89 (1961), 43-75. 
+&agrave; l’&eacute;tude des repr&eacute;sentations des groupes p-adiques*, Bull. Soc. Math. France 89 (1961), 43-75. ([pdf](http://www.numdam.org/article/BSMF_1961__89__43_0.pdf))
 
 References to the fact that Schwartz-Bruhat spaces can be presented as direct limits of [[topological vector spaces]] frequently appear in the literature, e.g., 
 
