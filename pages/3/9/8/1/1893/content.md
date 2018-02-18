@@ -149,7 +149,7 @@ An instructive introduction to the "orthodox"- and preparation for the "heterodo
 There is a second, "heterodox" way to approach $\lambda$-rings with a strong connection to [[arithmetic]] discussed in detail in ([Borger 08, section 1](#Borger08)). An survey is in ([Borger 09](#Borger09)) where it says in the abstract:
 
 
->The theory of $\Lambda$-rings, in the sense of Grothendieck's Riemann--Roch theory, is an enrichment of the theory of commutative rings. In the same way, we can enrich usual [[algebraic geometry]] over the ring $\mathbf{Z}$ of integers to produce $\Lambda$-algebraic geometry. We show that $\Lambda$-algebraic geometry is in a precise sense an algebraic geometry over a deeper base than $\mathbf{Z}$ and that it has many properties predicted for algebraic geometry over the mythical [[field with one element]]. Moreover, it does this in a way that is both formally robust and closely related to active areas in arithmetic algebraic geometry.
+> The theory of $\Lambda$-rings, in the sense of Grothendieck's Riemann--Roch theory, is an enrichment of the theory of commutative rings. In the same way, we can enrich usual [[algebraic geometry]] over the ring $\mathbf{Z}$ of integers to produce $\Lambda$-algebraic geometry. We show that $\Lambda$-algebraic geometry is in a precise sense an algebraic geometry over a deeper base than $\mathbf{Z}$ and that it has many properties predicted for algebraic geometry over the mythical [[field with one element]]. Moreover, it does this in a way that is both formally robust and closely related to active areas in arithmetic algebraic geometry.
 
 
 
