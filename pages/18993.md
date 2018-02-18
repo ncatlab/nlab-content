@@ -21,7 +21,7 @@ Applying [[Pontryagin duality]], the dual of the quotient map $q: A \to A/L$ is 
 
 ## Examples
 
-Notable examples of classical lattices (in $\mathbb{R}^n$ include 
+Notable examples of classical lattices (in $\mathbb{R}^n$) include 
 
 * [[Leech lattice]], [[E8 lattice]] 
 
