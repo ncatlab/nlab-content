@@ -66,7 +66,7 @@ Then for any $X$, the morphism $s_X:X\to S$ is the initial object of the hom-cat
 We will use the characterization of initial objects via [cones over the identity](/nlab/show/initial+object#ConesOverTheIdentity).  Thus, we must construct a natural transformation from the constant functor $\Delta_{s_X} : K(X,S) \to K(X,S)$ to the identity, which is the identity at $s_X$.  However, given any $f:X\to S$, we have the 2-cell $s_X \xrightarrow{\sigma_f} s_S f \cong f$, and the assumption $\sigma_g . s_Y\alpha = \sigma_f$ makes this a natural transformation; and the final assumption says exactly that this is the identity at $s_X$.
 =--
 
-To see how this theorem implies that the initial X is the underlying X of the walking X, consider again the case of pointed monoids.  Let $K$ be the 2-category of monoidal categories and lax monoidal functors, let $S=Set$, and let $s_C : C \to Set$ be $C(I,_)$.  The hypotheses are easy to verify; thus the theorem tells us that $C(I,-)$ is the initial functor $C\to Set$ for any $C$.
+To see how this theorem implies that the initial X is the underlying X of the walking X, consider again the case of pointed monoids.  Let $K$ be the 2-category of monoidal categories and lax monoidal functors, let $S=Set$, and let $s_C : C \to Set$ be $C(I,-)$.  The hypotheses are easy to verify; thus the theorem tells us that $C(I,-)$ is the initial functor $C\to Set$ for any $C$.
 
 Now take $C$ to be the walking pointed monoid $C_M$ above.  Then its universal property tells us that functors $F:C_M\to Set$ are equivalent to pointed monoids $F(M)$ in $Set$; so we see that $C(I,M)$ is the initial pointed monoid in $Set$, i.e. $\mathbb{N}$.
 
