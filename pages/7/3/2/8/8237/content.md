@@ -6,7 +6,7 @@
 
 ## Idea
 
-A _[[lattice in a vector space]]_ is called _integral_ if the canonical [[inner product]] of all pairs of lattice vectors is is [[integer]] number.
+A _[[lattice in a vector space]]_ is called _integral_ if the canonical [[inner product]] of all pairs of lattice vectors is an [[integer]] number.
 
 ## Related concepts
 
