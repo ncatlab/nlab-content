@@ -76,12 +76,113 @@ $$
 
 ## Examples
 
-* When $A=\mathbb{Z}$, the equivalence $\vert \mathbf{B}^{n+1}\mathbb{Z} \vert \cong \vert \mathbf{B}^n U(1)\vert$ (which holds in ambient contexts such as $\mathbf{H} = $ [[ETop∞Grpd]] or [[Smooth∞Grpd]] under [[geometric realization]] $\vert - \vert : ETop \infty Grpd \stackrel{\Pi}{\to} \infty Grpd \stackrel{\simeq}{\to} Top$) identifies the morphisms $\mathbf{B}^n(\mathbb{Z}_m)\to \mathbf{B}^{n+1}\mathbb{Z}$ with the morphisms $\mathbf{B}^n(\mathbb{Z}_m)\to \mathbf{B}^{n} U(1)$ induced by the inclusion of the subgroup of $m$-th roots of unity into $U(1)$. This identifies the Bockstein homomorphism $\beta_m: H^n(X;\mathbb{Z}_m)\to H^{n+1}(X;\mathbb{Z})$ with the natural homomorphism 
-$H^n(X;\mathbb{Z}_m)\to H^{n}(X;U(1))$.
 
 * The Bockstein homomorphism $\beta$ for the sequence $\mathbb{Z} \stackrel{\cdot 2}{\to} \mathbb{Z} \stackrel{}{\to} \mathbb{Z}_2$ serves to defined [[integral Stiefel-Whitney class]]es $W_{n+1} := \beta w_n$ in degree $n+1$ from $\mathbb{Z}_2$-valued [[Stiefel-Whitney class]]es in degree $n$.
 
 * For $p$ any [[prime number]] the multiplication by $p$ on $\mathbb{Z}_{p^2}$ induces the short exact sequence $\mathbb{Z}_p \to \mathbb{Z}_{p^2} \to \mathbb{Z}_p$. The corresponding Bockstein homomorphism $\beta_p$ appears as one of the generators of the [[Steenrod algebra]].
+
+
+
+
+When $A=\mathbb{Z}$, the equivalence $\vert \mathbf{B}^{n+1}\mathbb{Z} \vert \cong \vert \mathbf{B}^n U(1)\vert$ (which holds in ambient contexts such as $\mathbf{H} = $ [[ETop∞Grpd]] or [[Smooth∞Grpd]] under [[geometric realization]] $\vert - \vert : ETop \infty Grpd \stackrel{\Pi}{\to} \infty Grpd \stackrel{\simeq}{\to} Top$) identifies the morphisms $\mathbf{B}^n(\mathbb{Z}_m)\to \mathbf{B}^{n+1}\mathbb{Z}$ with the morphisms $\mathbf{B}^n(\mathbb{Z}_m)\to \mathbf{B}^{n} U(1)$ induced by the inclusion of the subgroup of $m$-th roots of unity into $U(1)$. This identifies the Bockstein homomorphism $\beta_m: H^n(X;\mathbb{Z}_m)\to H^{n+1}(X;\mathbb{Z})$ with the natural homomorphism  $H^n(X;\mathbb{Z}_m)\to H^{n}(X;U(1))$.
+
+More in detail:
+
++-- {: .num_example #Mod2BocksteinAndFlatCircleBundles}
+###### Example
+**(mod 2 Bockstein and flat circle bundle)**
+
+Let 
+
+1. $\beta \;\colon\; \mathbb{Z}/2\mathbb{Z} \longrightarrow B \mathbb{Z}$ be the ordinare Bockstein homomorphism
+
+1. $\iota\coloneqq (\cdot \pi) \;\colon\; \mathbb{Z}/2\mathbb{Z} \hookrightarrow U(1)$ the canonical inclusion;
+
+1. $\delta \;\colon\; U(1) \longrightarrow B\mathbb{Z}$ the classifying map.
+
+Then 
+
+$$
+  \beta
+  \;=\;
+  \delta \circ \iota
+  \,.
+$$ 
+
+Because
+
+$$
+  \array{
+    \mathbb{Z}
+      &\overset{\cdot 2}{\longrightarrow}&
+    \mathbb{Z}
+      &\overset{mod\, 2}{\longrightarrow}&
+    \mathbb{Z}/2
+      &\simeq&
+    \mathbb{Z}/2\mathbb{Z}
+      &\overset{\beta}{\longrightarrow}&
+    B \mathbb{Z}
+    \\
+    \downarrow^{\mathrlap{id}}
+      &&
+    \downarrow^{\mathrlap{\cdot \pi}}
+      &&
+    \downarrow^{\mathrlap{\cdot \pi}}
+      &&
+    \downarrow^{\iota \coloneqq \mathrlap{\cdot \pi}}
+      &&
+    \downarrow^{\mathrlap{id}}
+    \\
+    \mathbb{Z}
+      &\underset{\cdot 2 \pi}{\longrightarrow}&
+    \mathbb{R}
+      &\underset{mod\, 2\pi}{\longrightarrow}&
+     U(1)
+      &\simeq&
+     \mathbb{R}/2\pi\mathbb{Z}
+       &\underset{\delta}{\longrightarrow}&
+     B \mathbb{Z}
+  }
+$$
+
+Now let 
+
+$$
+  \hat H
+  \;\colon\;
+  X \longrightarrow \mathbf{B}^{n} U(1)_{conn})
+$$ 
+
+be a class in [[ordinary differential cohomology]] of odd dgree with underlying class 
+
+$$
+  [H]
+  \;\colon\;
+  X 
+    \overset{\hat H}{\longrightarrow}
+  \mathbf{B}^{n} U(1)_{conn})
+    \overset{\chi}{\longrightarrow} 
+  B^{n+1} \mathbb{Z}
+$$ 
+
+This implies that its [[Beilinson-Deligne cup product]] with itself satisfies
+
+$$
+  \hat H \hat \cup \hat H = - \hat H \hat \cup \hat H
+$$
+
+hence
+
+$$
+  2 \hat H \hat \cup \hat H \;=\; 0
+  \,.
+$$
+
+  
+
+=--
+
+
 
 ## Related concepts
 
