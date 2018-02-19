@@ -94,7 +94,13 @@ $$
   \mathbb{Z}/2\mathbb{Z}
 $$ 
 
-erves to define [[integral Stiefel-Whitney class]]es $W_{n+1} := \beta w_n$ in degree $n+1$ from $\mathbb{Z}_2$-valued [[Stiefel-Whitney classes]] in degree $n$.
+serves to define [[integral Stiefel-Whitney classes]] 
+
+$$
+  W_{n+1} \coloneqq \beta w_n
+$$ 
+
+in degree $n+1$ from $\mathbb{Z}/2\mathbb{Z}$-valued [[Stiefel-Whitney classes]] in degree $n$.
 
 =--
 
@@ -117,6 +123,7 @@ is also called the _first [[Steenrod square]]_, denoted $Sq^1$.
 This is often equivalently denoted $\beta$, as in example \ref{Mod2BocksteinIntoIntegralCohomology}. The difference between the two is just the mod-2 reduction in their codomain:
 
 $$
+  \label{Mod2BocksteinSequences}
   \array{
     \mathbb{Z}
       &\overset{\cdot 2}{\longrightarrow}&
@@ -154,6 +161,60 @@ $$
 More generally, for $p$ any [[prime number]] the multiplication by $p$ on $\mathbb{Z}_{p^2}$ induces the short exact sequence $\mathbb{Z}/p\mathbb{Z} \to \mathbb{Z}/{p^2}\mathbb{Z} \to \mathbb{Z}/p\mathbb{Z}$. The corresponding Bockstein homomorphism $\beta_p$ appears as one of the generators of the mod $p$ [[Steenrod algebra]].
 
 =--
+
++-- {: .num_example #IntegralSteenrodSquares}
+###### Example
+**([[integral Steenrod squares]])**
+
+For [[odd natural numbers|odd]] $2n + 1 \in \mathbb{N}$ defines the [[integral Steenrod squares]] to be
+
+$$
+  Sq^{2n + 1}_{\mathbb{Z}}
+  \;\coloneqq\;
+  \beta \circ Sq^{2n}
+  \,.
+$$
+
+By example \ref{Mod2BocksteinIntoMod2Cohomology} and by the first [[Adem relation]] $Sq^1 \circ Sq^{2n} = Sq^{2n+1}$ ([this example](Steenrod+square#CompositionWithSq1)) these indeed are lifts of the odd [[Steenrod squares]]:
+
+$$
+  (mod\, 2) \circ Sq^{2n + 1}_{\mathbb{Z}}
+  \;=\;
+  Sq^{2n+1}
+  \,,
+$$
+
+because, by (eq:Mod2BocksteinSequences) we have
+
+$$
+  \array{
+    Sq^{2n+1}_{\mathbb{Z}}
+    &\colon&
+    B^{\bullet + 2n} (\mathbb{Z}/2\mathbb{Z})
+      &\overset{Sk^{2n}}{\longrightarrow}&      
+    B^{\bullet + 2n} (\mathbb{Z}/2\mathbb{Z})
+      &\overset{ \beta }{\longrightarrow}&
+    B^{\bullet + 2n + 1} \mathbb{Z}
+    \\
+    &&
+    \downarrow^{ id }  
+    &&
+    \downarrow^{ id }
+      &&
+    \downarrow^{\mathrlap{B^{k + 2 n + 1}(mod\, 2)}}
+    \\
+    Sq^{2n+1}
+    &\colon&
+    B^{\bullet + 2n} (\mathbb{Z}/2\mathbb{Z})
+      &\underset{Sk^{2n}}{\longrightarrow}&   
+    B^{\bullet + 2n} (\mathbb{Z}/2\mathbb{Z})
+       &\underset{  Sq^1 }{\longrightarrow}&
+    B^{\bullet + 2n + 1} (\mathbb{Z}/2\mathbb{Z})
+  }
+$$
+
+=--
+
 
 When $A=\mathbb{Z}$, the equivalence $\vert \mathbf{B}^{n+1}\mathbb{Z} \vert \cong \vert \mathbf{B}^n U(1)\vert$ (which holds in ambient contexts such as $\mathbf{H} = $ [[ETop∞Grpd]] or [[Smooth∞Grpd]] under [[geometric realization]] $\vert - \vert : ETop \infty Grpd \stackrel{\Pi}{\to} \infty Grpd \stackrel{\simeq}{\to} Top$) identifies the morphisms $\mathbf{B}^n(\mathbb{Z}_m)\to \mathbf{B}^{n+1}\mathbb{Z}$ with the morphisms $\mathbf{B}^n(\mathbb{Z}_m)\to \mathbf{B}^{n} U(1)$ induced by the inclusion of the subgroup of $m$-th roots of unity into $U(1)$. This identifies the Bockstein homomorphism $\beta_m: H^n(X;\mathbb{Z}_m)\to H^{n+1}(X;\mathbb{Z})$ with the natural homomorphism  $H^n(X;\mathbb{Z}_m)\to H^{n}(X;U(1))$.
 
@@ -328,7 +389,7 @@ Original references include
 
 * [[Meyer Bockstein]],  
 
-  _Universal systems of $\nabla$-homology rings_, C. R. (Doklady) Acad. Sci. URSS (N.S.) 37 (1942), ": 243&#8211;245, MR0008701
+  _Universal systems of $\nabla$-homology rings_, C. R. (Doklady) Acad. Sci. URSS (N.S.) 37 (1942), 243&#8211;245, MR0008701
 
   _A complete system of fields of coefficients for the $\nabla$-homological dimension_ ,  C. R. (Doklady) Acad. Sci. URSS (N.S.) (1943),  38: 187&#8211;189, MR0009115
 
