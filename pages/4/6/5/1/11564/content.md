@@ -919,6 +919,7 @@ $$
 It is common (e.g. [Simons-Sullivan 07](#SimonsSullivan07)) to display this after quotienting out the [[kernel]] of $a$ (which is the group $\Omega^n(X)_{\mathbb{Z}}$ of [[closed differential forms]] with [[integer|integral]] [[periods]]), which is such as to make the top-left to bottom-right diagonal sequence be not just [[exact sequence|exact]] at the middle term, but be a [[short exact sequence]]:
 
 $$
+  \label{OrdinarCohomologyHexagon}
   \array{
     0 & && && && & 0
     \\
@@ -936,7 +937,7 @@ $$
     \\
     & \searrow && \nearrow && \searrow && \nearrow
     \\
-    && H^{n}(X,U(1)) && \underset{}{\longrightarrow} && H^{n+1}(X,\mathbb{Z})
+    && H^{n}(X,U(1)) && \underset{\beta}{\longrightarrow} && H^{n+1}(X,\mathbb{Z})
     \\
     & \nearrow && && &&  \searrow 
     \\
@@ -945,8 +946,9 @@ $$
   \,.
 $$
 
-Here the diagonals are now the "curvature exact sequence" and the "characteristic class exact sequence" as discuss at _[ordinary differential cohomology -- Properties -- curvature and characteristic class](ordinary+differential+cohomology#CurvatureAndCharClass)_.
+Here the diagonals are now the "curvature exact sequence" and the "characteristic class exact sequence" as discussed at _[ordinary differential cohomology -- Properties -- curvature and characteristic class](ordinary+differential+cohomology#CurvatureAndCharClass)_.
 
+The bottom horizontal map is the [[Bockstein homomorphism]] of the [[exponential sequence]] ([this example](Bockstein+homomorphism#Mod2BocksteinAndExponentialExactSequence)).
 
 =--
 
