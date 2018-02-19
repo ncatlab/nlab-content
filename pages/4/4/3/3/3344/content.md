@@ -28,7 +28,7 @@ $$ i_{\mathcal{C}}^*(D)(c):= Hom_{Cat}(\mathcal{C}/c,D).$$
 
 Denote the counit of the adjunction $\epsilon : i_{\mathcal{C}}i_{\mathcal{C}}^*\to Id_{Cat}$. 
 
-Two $\mathcal{C}$-sets $X$ and $Y$ are **weakly equivalent** if there is a map $f:X\to Y$ inducing an equivalence $f_* : i_{\mathcal{C}} X\to i_{\mathcal{C}} Y$ of their cell categories, i.e., the induced map of [[nerve]]s ("[[classifying spaces]]") $B(i_{\mathcal{C}} X)\to B(i_{\mathcal{C}} Y)$ is a weak equivalence of simplicial sets. Functor $i_{\mathcal{C}}:\mathcal{C}Set\to Cat$ induces a functor $i_{\mathcal{C}*}:Ho(\mathcal{C}Set)\to Ho(Cat)$ of the homotopy categories.  
+Two $\mathcal{C}$-sets $X$ and $Y$ are **weakly equivalent** if there is a map $f:X\to Y$ inducing an equivalence $f_* : i_{\mathcal{C}} X\to i_{\mathcal{C}} Y$ of their cell categories, i.e., the induced map of [[nerve]]s ("[[classifying spaces]]") $B(i_{\mathcal{C}} X)\to B(i_{\mathcal{C}} Y)$ is a weak equivalence of simplicial sets. The functor $i_{\mathcal{C}}:\mathcal{C}Set\to Cat$ induces a functor $i_{\mathcal{C}*}:Ho(\mathcal{C}Set)\to Ho(Cat)$ of the homotopy categories.  
 
 A **weak test category** is a small category $\mathcal{C}$ such that, 
 for any category $D$ in $Cat$, the component of the counit $\epsilon_D : i_{\mathcal{C}}i_{\mathcal{C}}^* D \to D$ is an equivalence of categories. 
