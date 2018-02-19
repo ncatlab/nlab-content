@@ -1,5 +1,47 @@
 
 $$
+  0
+  =
+  \beta Sq^2([G_4])
+$$
+
+and
+
+$$
+  [G_4] \cup [G_4] 
+  =
+  0
+$$
+
+in particular
+
+$$
+  0
+  =
+  Sq^1 Sq^3([G_4])
+$$
+
+
+this gives a map
+
+$$
+  CFields
+  \coloneqq
+  \left\{
+    \hat G_5
+    \;\vert\;
+    \beta Sq^3([G_4])
+  \right\}
+$$
+
+$$
+  CFields
+  \overset{}{\longrightarrow}
+  H^7_{dR}
+$$
+
+
+$$
   \array{
     \mathbb{Z}
       &\overset{\cdot 2}{\longrightarrow}&
