@@ -74,13 +74,15 @@ $$
   \,.
 $$
 
+
+
+
 ## Examples
-
-
+  {#Examples}
 
 +-- {: .num_example #Mod2BocksteinIntoIntegralCohomology} 
 ###### Example
-**(mod 2 Bockstein homomorphism into integral cohomology)**
+**(mod 2 Bockstein homomorphism into [[integral cohomology]])**
 
 The Bockstein homomorphism $\beta$ for the sequence 
 
@@ -216,8 +218,9 @@ $$
 
 =--
 
-+-- {: .num_prop }
++-- {: .num_prop #SteenrodSquaresAndDBCupProductOnOddClasses}
 ###### Proposition
+**([[Deligne-Beilinson cup product]] on odd-degree [[ordinary differential cohomology]])**
 
 Let
 
@@ -282,7 +285,7 @@ $$
   \,.
 $$
 
-This is a [[differential cohomology]]-refinement of the first [[Adem relation]] ([this example](Steenrod+square#CompositionWithSq1)) in that by example \ref{Mod2BocksteinAndExponentialExactSequence} its image in ordinary cohomology with coefficients in $\mathbb{Z}/2\mathbb{Z}$ is
+This is a [[differential cohomology]]-refinement of the first [[Adem relation]] $Sq^1 \circ Sq^{2n} = Sq^{2n+1}$ on the [[Steenrod squares]] ([this example](Steenrod+square#CompositionWithSq1)) in that, by example \ref{Mod2BocksteinAndExponentialExactSequence}, its image in ordinary cohomology with coefficients in $\mathbb{Z}/2\mathbb{Z}$ is
 
 $$
   \array{
@@ -309,7 +312,7 @@ $$
 
 =--
 
-This was first observed in ([Gomi 08](#Gomi08)). Streamlined proofs are given in ([Bunke 12, propblem 3.106](#Bunke12)) and
+This was first observed in ([Gomi 08](#Gomi08)). Streamlined proofs are given in ([Bunke 12, propblem 3.106](#Bunke12), [Grady-Sati 16, prop. 22](#GradySati16)).
 
 
 
@@ -336,6 +339,8 @@ The relation to the [[Beilinson-Deligne cup product]] is discussed in
 * {#Gomi08} [[Kiyonori Gomi]], _Differential  characters  and  the  Steenrod  squares_, In Groups of diffeomorphisms, volume 52 of Adv. Stud. Pure Math., pages 297?308. Math. Soc. Japan, Tokyo, 2008
 
 * {#Bunke12} [[Ulrich Bunke]], problem 3.106 in _Differential cohomology_ ([arXiv:1208.3961](https://arxiv.org/abs/1208.3961))
+
+* {#GradySati16} Daniel Grady, [[Hisham Sati]], prop. 22 in _Primary operations in differential cohomology_ ([arXiv:1604.05988](https://arxiv.org/abs/1604.05988))
 
 [[!redirects Bockstein homomorphisms]]
 [[!redirects Bockstein morphism]]
