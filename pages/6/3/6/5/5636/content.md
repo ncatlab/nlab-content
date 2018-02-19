@@ -55,7 +55,7 @@ Reviews include
 * piljin yi, _Seiberg-Witten theory -- with a view toward MQCD_ ([pdf](http://newton.kias.re.kr/~piljin/public_html/thesis/SW-MQCD.pdf&#8206;))
 
 
-* Wikipedia, _[Seiberg-Witten invariants](https://en.wikipedia.org/wiki/Seiberg&#8211;Witten_invariant)_
+* Wikipedia, _[Seiberg-Witten invariants](https://en.wikipedia.org/wiki/Seiberg-Witten_invariant)_
 
 
 A useful discussion of the physical origins of the Seiberg-Witten equations for mathematicians is in 
