@@ -79,6 +79,7 @@ In [[algebraic geometry]] there is no exponential sequence, the closest analogs 
 
 * [[Kummer-Artin-Schreier-Witt exact sequence]]
 
+* [[Bockstein homomorphism]]
  
 ## References
 
