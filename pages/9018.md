@@ -253,6 +253,10 @@ The [[moduli space]] is discussed in
 ### Phenomenology
  {#ReferencesPhenomenology}
 
+Popular exposition of the [[G2-MSSM]] [[phenomenology]] is in
+
+* {#Kane17} [[Gordon Kane]], _String theory and the real world_, Morgan & Claypool, 2017 (<a href="http://iopscience.iop.org/book/978-1-6817-4489-6">doi:0.1088/978-1-6817-4489-6</a>)
+
 Further discussion of [[string phenomenology]] in terms of $M$-theory on $G_2$-manifolds, beyond the original ([Acharya 98](#Acharya98), [Atiyah-Witten 01](#AtiyahWitten01), [Acharya-Witten 01](#AcharyaWitten01)), includes
 
 * {#AcharyaKaneKumar12} [[Bobby Acharya]], [[Gordon Kane]], [[Piyush Kumar]], _Compactified String Theories -- Generic Predictions for Particle Physics_, Int. J. Mod. Phys. A, Volume 27 (2012) 1230012 ([arXiv:1204.2795](http://arxiv.org/abs/1204.2795))
