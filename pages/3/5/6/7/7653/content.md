@@ -2936,11 +2936,11 @@ Then the corresponding twisted cohomology $\mathbf{H}_{/\mathbf{B}^2 \pi}(-, \ma
      \theta \colon \mathbf{c}(f) \stackrel{\simeq}{\to} \phi_\Sigma
    $$
 
-   between the principal 2-bundle/bundle gerbe $\mathbf{c}(f)$ induced by the $\overline{G}$-principal bundl modulated by $f$, and the one modulated by $\phi_\Sigma$.
+   between the principal 2-bundle/bundle gerbe $\mathbf{c}(f)$ induced by the $\overline{G}$-principal bundle modulated by $f$, and the one modulated by $\phi_\Sigma$.
 
 Alternatively one can use here the differential refinement of $\mathbf{B}\overline{G}$ to the [[moduli stack]] $\mathbf{B}\overline{G}_{conn}$ of $\overline{G}$-[[principal connections]].
 
-Examples and further details are discussed in [Schreiber, section 4](#Schreiber).  In ([Freed-Teleman](#FreedTeleman)) this example appears as def. 4.6.
+Examples and further details are discussed in [Schreiber, section 7.1](#Schreiber).  In ([Freed-Teleman](#FreedTeleman)) this example appears as def. 4.6.
 
 
 
