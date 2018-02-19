@@ -33,9 +33,19 @@ A key problem is arguably that the principle has been used in a very vague and v
 
 > ([Wilson 04, p. 10](#Wilson04))
 
-From [Kane 17, p. 56 (6-10)](#Kane17):
+{#Kane17} From [Kane 17](#Kane17), in a discussion of [[G2-MSSM]] model building:
 
-> The alternative to naturalness, often neglected as an alternative, is having a theory.
+> Until recently there were no theories predicting the values of superpartner masses. The arguments based on ‘naturalness’ are basically like saying the weather tomorrow should be the same as today. The opposite of naturalness is having a theory. $[$...$]$ Claims $[$superpartners$]$ should have been seen would be valid given so called naturalness arguments, but are wrong in actual theories. Many of us think that is a misuse of the idea of naturalness, but it is the fashionable use.  
+
+(p. 33 (3-2))
+
+> Some arguments (‘naturalness’) can be used to estimate what values $[$MSSM parameters$]$ might have. If those arguments were correct some superpartners would already have been discovered at the CERN LHC. It would have been nice if the naturalness arguments had worked, but they did not. Since they were not predictions from a theory it is not clear how to interpret that. 
+
+(p. 39 (4-3))
+
+> The failure of naïve naturalness to describe the world tells us we should look harder for a theory that does, an ‘ultraviolet completion’. Compactified string/ M-theories appear to be strong candidates for such a theory. The alternative to naturalness, often neglected as an alternative, is having a theory. 
+
+(p. 57 (6-1))
 
 ## References
 
