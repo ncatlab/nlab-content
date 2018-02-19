@@ -252,3 +252,15 @@ In particular, an **elementary particle** in quantum physics is sometimes define
 [[!redirects Poincare group]]
 [[!redirects Poincaré group]]
 
+[[!redirects Poincaré symmetry]]
+[[!redirects Poincare symmetry]]
+
+[[!redirects Poincaré symmetries]]
+[[!redirects Poincare symmetries]]
+
+[[!redirects Poincaré symmetry transformation]]
+[[!redirects Poincare symmetry transformation]]
+
+[[!redirects Poincaré symmetry transformations]]
+[[!redirects Poincare symmetry transformations]]
+
