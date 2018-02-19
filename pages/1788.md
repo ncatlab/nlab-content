@@ -5,6 +5,41 @@ $$
       &\overset{\cdot 2}{\longrightarrow}&
     \mathbb{Z}
       &\overset{mod\, 2}{\longrightarrow}&
+    \mathbb{Z}/2\mathbb{Z}
+      &\simeq&
+    \mathbb{Z}/2\mathbb{Z}
+      &\overset{\beta}{\longrightarrow}&
+    B \mathbb{Z}
+    \\
+    \downarrow^{\mathrlap{id}}
+      &&
+    \downarrow^{\mathrlap{mod\, 4}}
+      &&
+    \downarrow^{\mathrlap{id}}
+      &&
+    \downarrow^{ id }
+      &&
+    \downarrow^{\mathrlap{B(mod\, 2)}}
+    \\
+    \mathbb{Z}/2\mathbb{Z}
+      &\underset{\cdot 2 }{\longrightarrow}&
+    \mathbb{Z}/4\mathbb{Z}
+      &\underset{mod\, 2}{\longrightarrow}&
+     \mathbb{Z}/2\mathbb{Z}
+      &\simeq&
+     (\mathbb{Z}/4\mathbb{Z})/(\mathbb{Z}/2\mathbb{Z})
+       &\underset{Sq^1}{\longrightarrow}&
+     B (\mathbb{Z}/2\mathbb{Z})
+  }
+$$
+
+
+$$
+  \array{
+    \mathbb{Z}
+      &\overset{\cdot 2}{\longrightarrow}&
+    \mathbb{Z}
+      &\overset{mod\, 2}{\longrightarrow}&
     \mathbb{Z}/2
       &\simeq&
     \mathbb{Z}/2\mathbb{Z}
