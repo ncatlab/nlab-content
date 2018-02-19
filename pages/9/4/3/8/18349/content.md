@@ -1,1 +1,0 @@
-Poincare group symmetry transformations
