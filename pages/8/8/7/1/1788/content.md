@@ -1,4 +1,50 @@
 
+$$
+  \array{
+    \mathbb{Z}
+      &\overset{\cdot 2}{\longrightarrow}&
+    \mathbb{Z}
+      &\overset{mod\, 2}{\longrightarrow}&
+    \mathbb{Z}/2
+      &\simeq&
+    \mathbb{Z}/2\mathbb{Z}
+      &\overset{\beta}{\longrightarrow}&
+    B \mathbb{Z}
+    \\
+    \downarrow^{\mathrlap{id}}
+      &&
+    \downarrow^{\mathrlap{\cdot \pi}}
+      &&
+    \downarrow^{\mathrlap{\cdot \pi}}
+      &&
+    \downarrow^{\mathrlap{\cdot \pi}}
+      &&
+    \downarrow^{\mathrlap{id}}
+    \\
+    \mathbb{Z}
+      &\underset{\cdot 2 \pi}{\longrightarrow}&
+    \mathbb{R}
+      &\underset{mod\, 2\pi}{\longrightarrow}&
+     U(1)
+      &\simeq&
+     \mathbb{R}/2\pi\mathbb{Z}
+       &\underset{\delta}{\longrightarrow}&
+     B \mathbb{Z}
+  }
+$$
+
+
+$$
+  \array{
+    \mathbb{Z}/2
+    &\hookrightarrow&
+    U(1)
+    \simeq
+    \mathbb{R}/\mathbb{Z}
+    &\longrightarrow&
+    B \mathbb{Z}
+  }
+$$
 
 $$
   \exp( \underset{j'}{\sum} b^A_{(j')} b^B_{(j')} )  \exp( \underset{j}{\sum} b_{(j)}^B ) \omega
@@ -12,6 +58,7 @@ $$
     k_{\alpha \beta} 
     f^\alpha_{\mu \nu} 
     \tfrac{1}{2}
+ 
     \left(
       \tilde a^\alpha_{\nu,\mu}
       -
