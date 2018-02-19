@@ -39,6 +39,8 @@ For mathematical discussion see
 
 * [[Constantin Teleman]], _The role of Coulomb branches in 2D gauge theory_, ([arXiv:1801.10124](https://arxiv.org/abs/1801.10124))
 
+* [[Ben Webster]], _Koszul duality between Higgs and Coulomb categories $\mathcal{O}$_, ([ arXiv:1611.06541](https://arxiv.org/abs/1611.06541))
+
 
 [[!redirects Coulomb branches]]
 
