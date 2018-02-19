@@ -215,7 +215,6 @@ Therefore the Steenrod squares are often also referred to as the _[[stabilizatio
 
 ### Adem relations
 
-(...)
 
 +-- {: .num_prop #AdemRelations}
 ###### Proposition
@@ -281,16 +280,61 @@ $$
 
 =--
 
-also
+This gives rise to:
+
++-- {: .num_example #IntegralSteenrodSquares}
+###### Example
+**([[integral Steenrod squares]])**
+
+For [[odd natural numbers|odd]] $2n + 1 \in \mathbb{N}$ defines the [[integral Steenrod squares]] to be
 
 $$
-  Sq^2 \circ Sq^2 
-  =
-  Sq^3 \circ Sq^1
+  Sq^{2n + 1}_{\mathbb{Z}}
+  \;\coloneqq\;
+  \beta \circ Sq^{2n}
+  \,.
 $$
 
+By example \ref{CompositionWithSq1} and by [this example](Bockstein+homomorphism#Mod2BocksteinIntoMod2Cohomology) these indeed are lifts of the odd [[Steenrod squares]]:
 
-(...)
+$$
+  (mod\, 2) \circ Sq^{2n + 1}_{\mathbb{Z}}
+  \;=\;
+  Sq^{2n+1}
+  \,,
+$$
+
+in that we have
+
+$$
+  \array{
+    Sq^{2n+1}_{\mathbb{Z}}
+    &\colon&
+    B^{\bullet + 2n} (\mathbb{Z}/2\mathbb{Z})
+      &\overset{Sk^{2n}}{\longrightarrow}&      
+    B^{\bullet + 2n} (\mathbb{Z}/2\mathbb{Z})
+      &\overset{ \beta }{\longrightarrow}&
+    B^{\bullet + 2n + 1} \mathbb{Z}
+    \\
+    &&
+    \downarrow^{ id }  
+    &&
+    \downarrow^{ id }
+      &&
+    \downarrow^{\mathrlap{B^{k + 2 n + 1}(mod\, 2)}}
+    \\
+    Sq^{2n+1}
+    &\colon&
+    B^{\bullet + 2n} (\mathbb{Z}/2\mathbb{Z})
+      &\underset{Sk^{2n}}{\longrightarrow}&   
+    B^{\bullet + 2n} (\mathbb{Z}/2\mathbb{Z})
+       &\underset{  Sq^1 }{\longrightarrow}&
+    B^{\bullet + 2n + 1} (\mathbb{Z}/2\mathbb{Z})
+  }
+$$
+
+=--
+
 
 ## Examples
 
