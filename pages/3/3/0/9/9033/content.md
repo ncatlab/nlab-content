@@ -30,6 +30,8 @@ where
 
 This are the structure constants of the unit [[octonions]].
 
+The Hodge dual of the associative 3-form is sometimes called the _co-associative 4-form_.
+
 ## Properties
 
 ### Relation to $G_2$
@@ -51,5 +53,15 @@ The [[group]] of [[linear map|linear]] [[diffeomorphisms]] of $\mathbb{R}^7$ whi
 (...)
 
 [[!redirects associative 3-forms]]
+
 [[!redirects coassociative 3-form]]
 [[!redirects coassociative 3-forms]]
+
+[[!redirects co-associative 3-form]]
+[[!redirects co-associative 3-forms]]
+
+[[!redirects coassociative 4-form]]
+[[!redirects coassociative 4-forms]]
+
+[[!redirects co-associative 4-form]]
+[[!redirects co-associative 4-forms]]
