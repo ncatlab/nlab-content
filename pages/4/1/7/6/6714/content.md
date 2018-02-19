@@ -67,6 +67,10 @@ In the context of [[string theory]] this is also known as the [[Diaconescu-Moore
 
 ## Related concepts
 
+* [[integral Steenrod square]]
+
+* [[integral Wu structure]]
+
 [[!include orientations in higher quantization - table]]
 
 [[!redirects integral Stiefel-Whitney classes]]
