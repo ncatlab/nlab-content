@@ -19,7 +19,7 @@
 
 ## Idea
 
-For [[N=2 D=4 super Yang-Mills theory]] the [[moduli space]] of [[vacuum expectation values]] (VEVs) of the theory is locally a direct product between the moduli of the vector multiplet and those of the hypermultiplet. The former is called the [[Coulomb branch]], and the latter the **Higgs branch**.
+For [[N=2 D=4 super Yang-Mills theory]] the [[moduli space]] of [[vacuum expectation values]] (VEVs) of the theory is locally a [[Cartesian product]] between the space of [[moduli]] of the [[vector multiplet]] and those of the [[hypermultiplet]]. The former is called the [[Coulomb branch]], and the latter the **Higgs branch**.
 
 ## References
 
