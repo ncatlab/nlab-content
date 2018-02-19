@@ -331,6 +331,8 @@ Observe that ultralight axion fields is precisely what is required in HEP [[phen
 
 * [[strong CP problem]]
 
+* [[G2-MSSM]]
+
 ## References
 
 ### General
