@@ -217,6 +217,12 @@ Therefore the Steenrod squares are often also referred to as the _[[stabilizatio
 
 (...)
 
++-- {: .num_prop #AdemRelations}
+###### Proposition
+**([[Adem relations]])**
+
+The [[composition]] of Steenrod square operations satisfies the following relations
+
 $$
   Sq^i \circ Sq^j 
    = 
@@ -235,7 +241,14 @@ for all $0 \lt i \lt 2 j$.
 
 Here $\left( a \atop b \right) \coloneqq 0$ if $a \lt b$.
 
-For example, for $j \geq 2$ we have
+=--
+
+
++-- {: .num_example #CompositionWithSq1}
+###### Example
+**([[Adem relation]] for [[postcomposition]] with the [[Bockstein homomorphism]] $Sq^1 = \beta$)**
+
+For $j \geq 2$ and $i =1$, the [[Adem relations]] (prop. \ref{AdemRelations}) say that:
 
 $$
   \begin{aligned}
@@ -265,6 +278,8 @@ $$
     \right.
   \end{aligned}
 $$
+
+=--
 
 also
 
