@@ -33,6 +33,10 @@ These are the [[characteristic element of a bilinear form|characteristic element
 
 * [[Spin Chern-Simons theory]]
 
+* [[integral Steenrod square]]
+
+* [[integral Stiefel-Whitney class]]
+
 [[!include quadratic invariants - table]]
 
 [[!include square roots of line bundles - table]]
