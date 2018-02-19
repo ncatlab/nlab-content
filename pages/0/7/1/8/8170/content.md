@@ -32,7 +32,7 @@ See also
 
 * [[string phenomenology]]
 
-* [[G2-MSSM]]
+* [[M-theory on G2-manifolds]], [[G2-MSSM]]
 
 * [[Higgs field]], [[vacuum stability]]
 
