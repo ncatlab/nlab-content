@@ -28,7 +28,7 @@ The $N = 4$, $D = 3$ SYM theory can be obtained by [[Kaluza-Klein mechanism|dime
 
 ### Mirror symmetry
 
-A version of [[mirror symmetry]] acts on the $N = 4$, $D = 3$ SYM [[moduli space]] of vacua and exchanges the [[Coulomb branch]] with the [[Higgs branch]]. ([Intriligator-Seiberg](#IntriligatorSeiberg))
+A version of [[mirror symmetry]] acts on the $N = 4$, $D = 3$ SYM [[moduli space]] of vacua and exchanges the [[Coulomb branch]] with the [[Higgs branch]]. ([Intriligator-Seiberg 96](#IntriligatorSeiberg96))
 
 See also the discussion at _[[symplectic duality]]_.
 
@@ -48,7 +48,7 @@ The [[Kaluza-Klein mechanism|dimensional reduction]] from [[N=2 D=4 super Yang-M
 
 The mirror symmetry operation was discussed in 
 
-* {#IntriligatorSeiberg} [[Ken Intriligator]], [[Nathan Seiberg]], _Mirror Symmetry in Three Dimensional Gauge Theories_, Phys.Lett.B387:513-519,1996 ([arXiv:hep-th/9607207](http://arxiv.org/abs/hep-th/9607207))
+* {#IntriligatorSeiberg96} [[Ken Intriligator]], [[Nathan Seiberg]], _Mirror Symmetry in Three Dimensional Gauge Theories_, Phys. Lett.B 387 : 513-519,1996 ([arXiv:hep-th/9607207](http://arxiv.org/abs/hep-th/9607207))
  
 
 
