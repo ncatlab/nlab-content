@@ -25,13 +25,15 @@ Besides "field indepence" and "translation invariance" a key renormalization con
 
 ## Definition
 
-
 For the moment see at _[[S-matrix]]_ [this definition](S-matrix#RenormalizationConditions).
 
 ## Examples
 
 For the moment see at _[[S-matrix]]_ [this prop.](S-matrix#BasicConditionsRenormalization)
 
+## Related concepts
+
+* [[protection from quantum corrections]]
 
 ## References
 
