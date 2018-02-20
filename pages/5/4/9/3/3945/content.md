@@ -112,6 +112,8 @@ See [[derivator]] for general references about derivators, and also [[pointed de
 
 * [[Moritz Groth]], _Derivators, pointed derivators, and stable derivators_ ([pdf](http://www.math.uni-bonn.de/~mgroth/groth_derivators.pdf))
 
+* [[Ian Coley]], _Stabilization of derivators revisited_, 2018, [arxiv](https://arxiv.org/abs/1802.04343)
+
 [[!redirects stable derivators]]
 [[!redirects triangulated derivator]]
 [[!redirects triangulated derivators]]
