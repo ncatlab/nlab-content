@@ -180,9 +180,8 @@ denotes the pairing of that class of the [[tangent bundle]] with the [[fundament
 
 ## References
 
-A good general account is in 
 
-* {#May} [[Peter May]], _A note on the splitting principle_ ([pdf](http://www.math.uchicago.edu/~may/PAPERS/Split.pdf))
+* {#May} [[Peter May]], _A note on the splitting principle_, Topology and its Applications Volume 153, Issue 4, 1 November 2005, Pages 605-609 ([pdf](http://www.math.uchicago.edu/~may/PAPERS/Split.pdf), [doi:10.1016/j.topol.2005.02.007](https://doi.org/10.1016/j.topol.2005.02.007))
 
 * Marcelo Aguilar, [[Samuel Gitler]], Carlos Prieto, section 10.2 of _Algebraic topology from a homotopical viewpoint_, Springer (2002) ([toc pdf](http://tocs.ulb.tu-darmstadt.de/106999419.pdf))
 
