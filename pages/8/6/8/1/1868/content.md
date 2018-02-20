@@ -396,13 +396,18 @@ $$
 
 The notion and term _twisted bundle_ (with finite rank) apparently first appears in 
 
-* [[Marco Mackaay]], _A note on the holonomy of connections in twisted bundles_ ([arXiv](http://arxiv.org/abs/math/0106019)) .
+* [[Marco Mackaay]], _A note on the holonomy of connections in twisted bundles_ ([arXiv:math/0106019](http://arxiv.org/abs/math/0106019)) .
 
 The equivalent notion of [[gerbe module]] apparently appears first in
 
-* [[Ernesto Lupercio]], [[Bernardo Uribe]], _Gerbes over Orbifolds and Twisted K-theory_ ([arXiv](http://arxiv.org/abs/math/0105039)) ,
+* [[Ernesto Lupercio]], [[Bernardo Uribe]], _Gerbes over Orbifolds and Twisted K-theory_ ([arXiv:math/0105039](http://arxiv.org/abs/math/0105039)) ,
 
 there explicitly in terms of [[Cech cohomology|Cech cocycles]] relative to an [[open cover]]. The generalization to infinite rank and arbitrary covering morphisms was amplified in ([CBMMS](#CBMMS)) below.
+
+Discussion of a [[splitting principle]] for twisted vector bundles (phrased in terms of [[gerbe modules]]) is in
+
+* {#Tomoda07} [[Atsushi Tomoda]], _On the splitting principle of bundle gerbe modules_, Osaka J. Math. Volume 44, Number 1 (2007), 231-246. ([Euclid](https://projecteuclid.org/euclid.ojm/1174324334), talk slides [pdf](http://ton.prosou.nu/official/ryousi2005.pdf))
+
 
 ### In twisted K-theory 
 
