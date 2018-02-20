@@ -54,9 +54,28 @@ Here are some representations of well-known real numbers is well-known radixes:
 <tr><td markdown="1">$2$</td><td markdown="1">$2$ (or $1.\overline{9}$)</td><td markdown="1">$10$ (or $1.\overline{1}$)</td><td markdown="1">$2$ (as a finite list, or $1.\overline{1}$, or $0.\overline{2}$ with padding $0$)</td><td markdown="1">$2$ (or $1.2121111212001\ldots$, etc)</td><td markdown="1">$2$ (or $1.\overline{2}$)</td><td markdown="1">$2$</td><td markdown="1">$11$</td></tr>
 <tr><td markdown="1">$\mathrm{e}$</td><td markdown="1">$2.7182818284590\ldots$</td><td markdown="1">$10.10110111111\ldots$</td><td markdown="1">$1.21221222222\ldots$</td><td markdown="1">$10$ (or $2.121111212001\ldots$, etc)</td><td markdown="1">$2.2011011212211\ldots$</td><td markdown="1">$10.{-}0111{-}{-}0{-}0{-}\ldots$</td><td>(not possible)</td></tr>
 <tr><td markdown="1">$3$</td><td markdown="1">$3$ (or $2.\overline{9}$)</td><td markdown="1">$11$ (or $10.\overline{1}$)</td><td markdown="1">$11$ (as a finite list, or $2.\overline{1}$, or $1.\overline{2}$)</td><td markdown="1">$10.020011200001\ldots$ (etc)</td><td markdown="1">$10$ (or $2.\overline{2}$)</td><td markdown="1">$10$</td><td markdown="1">$111$</td></tr>
+<tr><td markdown="1">$\pi$</td><td markdown="1">$3.14159265358979\ldots$</td><td markdown="1">$11.001001000011\ldots$</td><td markdown="1">$2.112112111122\ldots$</td><td markdown="1">$10.101002020002$ (etc)</td><td markdown="1">$10.010211012222\ldots$</td><td markdown="1">$10.011{-}111{-}000{-}\ldots$</td><td>(not possible)</td></tr>
 <tr><td markdown="1">$1/2$</td><td markdown="1">$0.5$ (or $0.4\overline{9}$)</td><td markdown="1">$0.1$ (or $0.0\overline{1}$)</td><td markdown="1">$0.1$ (as a finite list with padding $0$, or $0.0\overline{1}$ with padding $0$, or $0.00\overline{2}$)</td><td markdown="1">$0.1021200201202\ldots$ (etc)</td><td markdown="1">$0.\overline{1}$</td><td markdown="1">$0.\overline{1}$ (or $1.\overline{-}$)</td><td>(not possible)</td></tr>
 <tr><td markdown="1">$1/3$</td><td markdown="1">$0.\overline{3}$</td><td markdown="1">$0.0\overline{10}$</td><td markdown="1">$0.00\overline{21}$ (with padding $0$)</td><td markdown="1">$0.021012102010201\ldots$ (etc)</td><td markdown="1">$0.1$ (or $0.0\overline{2}$)</td><td markdown="1">$0.1$</td><td>(not possible)</td></tr>
 <tr><td markdown="1">$-1$</td><td markdown="1">$-1$ (or $-0.\overline{9}$)</td><td markdown="1">$-1$ (or $-0.\overline{1}$)</td><td markdown="1">$-1$ (as a finite list, or $-0.\overline{1}$ with padding $0$, or $-0.0\overline{2}$)</td><td markdown="1">$-1$ (or $-0.2121111212001\ldots$, etc)</td><td markdown="1">$-1$ (or $-0.\overline{2}$)</td><td markdown="1">$-1$</td><td markdown="1">$-1$</td></tr></table>
+
+
+## Foundational issues
+
+In [[constructive mathematics]], the existence of a radix expansion for every real number is equivalent to the (analytic) [[lesser limited principle of omniscience]].
+
+[[Fred Richman]] considered a number system (a noncancellable [[rig]]) of nonnegative decimal sequences in which $0.\overline{9} \lt 1$; the usual rig of nonnegative real numbers is a subrig; see [Richman 1999](#Richman1999).  Although Richman is a prominent constructivist, the development was not (and probably cannot be made) constructive.
+
+Usenet legend [[Alexander Abian]], before branching into speculative physics, advocated polemically that the real numbers should be defined as finite or infinite sequences of decimal digits; see [Abian 1981](#Abian1981).  While not favoured by most mathematicians due to the inelegance of the definitions and proofs, this is the form in which the real numbers are often presented to elementary students.
+
+
+## References
+
+* [[Alexander Abian]]. 1981. Calculus must consist of the study of real numbers in their decimal representation and not of the study of an abstract complete ordered field or nonstandard real numbers. International Journal of Mathematical Education in Science and Technology 12(4). [Doi:10.1080/0020739810120417](https://doi.org/10.1080/0020739810120417).
+  {#Abian1981}
+
+* [[Fred Richman]]. 1999. Is 0.999... = 1?. [Web](http://math.fau.edu/Richman/html/999.htm).
+  {#Richman1999}
 
 
 [[!redirects radix notation]]
@@ -66,3 +85,6 @@ Here are some representations of well-known real numbers is well-known radixes:
 
 [[!redirects radix expansion]]
 [[!redirects expansion in base]]
+
+[[!redirects decimal notation]]
+[[!redirects decimal expansion]]
