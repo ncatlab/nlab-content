@@ -204,6 +204,13 @@ Discussion in the context of [[complex oriented cohomology theory]] and their [[
 
 * [[Jacob Lurie]], lecture 4 of _[[Chromatic Homotopy Theory]]_, 2010 ([pdf](http://www.math.harvard.edu/~lurie/252xnotes/Lecture4.pdf)) 
 
+More expository discussion in the context of [[characteristic classes]] with applications in [[mathematical physics]] is in
 
+* {#Zhang11} [[Yang Zhang]], _A brief introduction to characteristic classes
+from the differentiable viewpoint_, 2011 ([pdf](http://www.nbi.dk/~zhang/notes/A brief introduction to characteristic classes from the differentiable viewpoint.pdf))
+
+The generalization to a splitting principle for [[twisted vector bundles]] ([[twisted cohomology]]) is discussed (in terms of [[bundle gerbe modules]]) in 
+
+* {#Tomoda07} [[Atsushi Tomoda]], _On the splitting principle of bundle gerbe modules_, Osaka J. Math. Volume 44, Number 1 (2007), 231-246. ([Euclid](https://projecteuclid.org/euclid.ojm/1174324334), talk slides [pdf](http://ton.prosou.nu/official/ryousi2005.pdf))
 
 [[!redirects Chern root]]
