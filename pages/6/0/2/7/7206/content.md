@@ -75,6 +75,8 @@ Discussion in the [[D'Auria-Fré formulation of supergravity]] includes
 
 The role of 2-form fields (tensor multiplets, via the [[4d supergravity Lie 2-algebra]] incarnated via its dual [[Chevalley-Eilenberg algebras]], "FDA"s) is discussed in
 
+* [[José de Azcárraga]], J. M. Izquierdo, _Minimal $D=4$ supergravity from the superMaxwell algebra_, Nucl. Phys. B 885, 34-45 (2014) ([arXiv:1403.4128](https://arxiv.org/abs/1403.4128))
+
 * {#AndrianopoliDAuriaSommovigo07} [[Laura Andrianopoli]], [[Riccardo D'Auria]], Luca Sommovigo, _$D=4$, $N=2$ Supergravity in the Presence of Vector-Tensor Multiplets and the Role of higher p-forms in the Framework of Free Differential Algebras_ ([arXiv:0710.3107](http://arxiv.org/abs/0710.3107))
 
 * {#AAST11} [[Laura Andrianopoli]], [[Riccardo D'Auria]], Luca Sommovigo, Mario Trigiante, _$D=4$, $N=2$ Gauged Supergravity coupled to Vector-Tensor Multiplets_, Nucl.Phys.B851:1-29,2011 ([arXiv:1103.4813](http://arxiv.org/abs/1103.4813))
