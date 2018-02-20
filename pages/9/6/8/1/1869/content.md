@@ -64,12 +64,18 @@ When $Y = \coprod_i U_i$ comes form an an open [[cover]] $\{U_i \to X\}$ the abo
 
 ## References 
 
-Bundle gerbe modules were apparently introduced in 
+The concept of bundle gerbe modules was introduced in 
 
-* [[Alan Carey]], [[Peter Bouwknegt]], [[Varghese Mathai]], [[Michael Murray]] and [[Danny Stevenson]], _K-theory of bundle gerbes and twisted K-theory_ ,  Commun Math Phys, 228 (2002) 17-49 ([arXiv](http://arxiv.org/abs/hep-th/0106194))
-  {#CBMMS} 
+* {#CBMMS}  [[Alan Carey]], [[Peter Bouwknegt]], [[Varghese Mathai]], [[Michael Murray]] and [[Danny Stevenson]], _K-theory of bundle gerbes and twisted K-theory_ ,  Commun Math Phys, 228 (2002) 17-49 ([arXiv](http://arxiv.org/abs/hep-th/0106194))
+  
 
 for modelling [[twisted K-theory]] by [[twisted bundle]]s.
+
+A [[splitting principle]] for bundle gerbe modules is discussed in
+
+* {#Tomoda07} [[Atsushi Tomoda]], _On the splitting principle of bundle gerbe modules_, Osaka J. Math. Volume 44, Number 1 (2007), 231-246. ([Euclid](https://projecteuclid.org/euclid.ojm/1174324334), talk slides [pdf](http://ton.prosou.nu/official/ryousi2005.pdf))
+
+For more see at _[[twisted vector bundle]]_.
 
 [[!redirects bundle gerbe modules]]
 [[!redirects gerbe module]]
