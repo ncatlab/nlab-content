@@ -19,7 +19,9 @@
 
 ## Idea
 
-A certain [[moduli space]] that appears in [[super Yang-Mills theory]]. The topic of [[Seiberg-Witten theory]]. [[duality in physics|Dual]] to it under a version of [[mirror symmetry]] is the [[Higgs branch]]. Depending on whether the scalars of the "[[vector multiplets]]" (the gauge field sector) or of the "[[hypermultiplet]]" (the matter field sector) vanish.
+For [[N=2 D=4 super Yang-Mills theory]] the [[moduli space]] of [[vacuum expectation values]] (VEVs) of the theory is locally a [[Cartesian product]] between the space of [[moduli]] of the [[vector multiplet]] (the [[gauge field]] sector) and those of the [[hypermultiplet]] (the matter field sector). The former is called the _Coulomb branch_, and the latter the [[Higgs branch]]. These are [[duality in physics|dual]] to each other to it under a version of [[mirror symmetry]] . 
+
+This is the topic of [[Seiberg-Witten theory]].
 
 ## References
 
