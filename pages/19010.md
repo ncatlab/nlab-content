@@ -6,5 +6,6 @@
 
 * [[M-theory super Lie algebra]]
 
+* [[7d supergravity]]
 
 category: people
