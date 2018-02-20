@@ -75,14 +75,19 @@ Discussion in the [[D'Auria-Fré formulation of supergravity]] includes
 
 The role of 2-form fields (tensor multiplets, via the [[4d supergravity Lie 2-algebra]] incarnated via its dual [[Chevalley-Eilenberg algebras]], "FDA"s) is discussed in
 
-* {#AndrianopoliDAuriaSommovigo07} Laura Andrianopoli, [[Riccardo D'Auria]], Luca Sommovigo, _$D=4$, $N=2$ Supergravity in the Presence of Vector-Tensor Multiplets and the Role of higher p-forms in the Framework of Free Differential Algebras_ ([arXiv:0710.3107](http://arxiv.org/abs/0710.3107))
+* {#AndrianopoliDAuriaSommovigo07} [[Laura Andrianopoli]], [[Riccardo D'Auria]], Luca Sommovigo, _$D=4$, $N=2$ Supergravity in the Presence of Vector-Tensor Multiplets and the Role of higher p-forms in the Framework of Free Differential Algebras_ ([arXiv:0710.3107](http://arxiv.org/abs/0710.3107))
 
-* {#AAST11} Laura Andrianopoli, [[Riccardo D'Auria]], Luca Sommovigo, Mario Trigiante, _$D=4$, $N=2$ Gauged Supergravity coupled to Vector-Tensor Multiplets_, Nucl.Phys.B851:1-29,2011 ([arXiv:1103.4813](http://arxiv.org/abs/1103.4813))
+* {#AAST11} [[Laura Andrianopoli]], [[Riccardo D'Auria]], Luca Sommovigo, Mario Trigiante, _$D=4$, $N=2$ Gauged Supergravity coupled to Vector-Tensor Multiplets_, Nucl.Phys.B851:1-29,2011 ([arXiv:1103.4813](http://arxiv.org/abs/1103.4813))
 
 based on 
 
 * [[Murat Gunaydin]], S. McReynolds, M. Zagermann, _Unified $N=2$ Maxwell-Einstein and Yang-Mills-Einstein Supergravity Theories in Four Dimensions_, JHEP 0509:026,2005 ([arXiv:hep-th/0507227](https://arxiv.org/abs/hep-th/0507227))
 
+Discussion of the splitting-decomposition analogous to that for the [[M-theory super Lie algebra]]
+
+* D. M. Peñafiel, [[Lucrezia Ravera]], _On the Hidden Maxwell Superalgebra underlying D=4 Supergravity_, Fortschr. Phys. 65 (2017) no. 9, 1700005 ([arXiv:1701.04234](https://arxiv.org/abs/1701.04234))
+
+* [[Lucrezia Ravera]], _Hidden Role of Maxwell Superalgebras in the Free Differential Algebras of D=4 and D=11 Supergravity_ ([arXiv:1801.08860](https://arxiv.org/abs/1801.08860))
 
 ### On $N=8$ $d=4$ supergravity
 
