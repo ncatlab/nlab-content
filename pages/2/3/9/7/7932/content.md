@@ -1469,6 +1469,10 @@ Aspects of actions of [[∞-groups]] in an [[∞-topos]] in the contect of [[ass
 
 * {#NSS} [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], _[[schreiber:Principal ∞-bundles -- theory, presentations and applications]]_, Journal of Homotopy and Related Structures, June 2014 ([arXiv:1207.0248](http://arxiv.org/abs/1207.0248))
  
+Discussion in [[homotopy type theory]] is in
+
+* {#BuchholtzDoornRijke18} [[Ulrik Buchholtz]], [[Floris van Doorn]], [[Egbert Rijke]], _Higher Groups in Homotopy Type Theory_ ([arXiv:1802.04315](https://arxiv.org/abs/1802.04315))
+
 
 ### For discrete geometry
  {#ReferencesForDiscreteGeometry}
