@@ -237,6 +237,11 @@ A discussion of symplectic Lie n-algebroids from an [[infinity-Lie theory]] pers
 
 * [[Domenico Fiorenza]], [[Chris Rogers]], [[Urs Schreiber]], _[[schreiber:AKSZ Sigma-Models in Higher Chern-Weil Theory]]_, Int. J. Geom. Methods Mod. Phys. 10 (2013) 1250078 ([arXiv:1108.4378](http://arxiv.org/abs/1108.4378))
 
+The [[H-cohomology]] of graded symplectic forms is considered in
+
+* {#Severa05} [[Pavol ?evera]], p. 1 of _On the origin of the BV operator on odd symplectic supermanifolds_, Lett Math Phys (2006) 78: 55. ([arXiv:0506331](https://arxiv.org/abs/math/0506331))
+
+
 [[!redirects symplectic Lie n-algebroids]]
 
 [[!redirects n-symplectic manifold]]
