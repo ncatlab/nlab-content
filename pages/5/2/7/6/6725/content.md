@@ -25,6 +25,8 @@
 
 There is an observation by [Ho&#345;ava--Witten 95](#HoravaWitten95), [Ho&#345;ava--Witten 96](#HoravaWitten96) which suggests that quantum [[11-dimensional supergravity]] on an  $\mathbb{Z}_2$-[[orbifold]] (actually a [[higher orientifold]]) of the form $X_{10} \times /(S^1//\mathbb{Z}_2))$ induces on its [[boundary]] "[[M9-brane]]" (the $\mathbb{Z}_2$-fixed point manifold) [[heterotic string theory]]. Therefore one also speaks of "heterotic [[M-theory]]" ([Ovrut 02](#Ovrut02)).
 
+Here each of the two copies of the heterotic gauge theory is a "[[hidden sector]]" with respect to the other.
+
 The orbifold equivariance condition of the [[supergravity C-field]] is that discussed at _[[orientifold]]_ (there for the [[B-field]]). Therefore it has to vanish at the two fixed fixed points of the $\mathbb{Z}_2$-action. Thereby the quantization condition
 
 $$
