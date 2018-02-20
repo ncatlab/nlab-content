@@ -24,6 +24,12 @@ For [[N=2 D=4 super Yang-Mills theory]] the [[moduli space]] of [[vacuum expecta
 
 This is the topic of [[Seiberg-Witten theory]].
 
+Definitions of the Coulomb and Higgs branches have been extended to [[N=4 D=3 super Yang-Mills theory]].
+
+## Related concepts
+
+* [[symplectic duality]]
+
 ## References
 
 The terminology "Coulomb branch" and "Higgs branch" first appears in 
