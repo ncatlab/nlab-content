@@ -101,10 +101,11 @@ That a limiting case of this is given by the [[orthosymplectic super Lie algebra
 
 Further discussion is in
 
-* L. Andrianopoli, [[Riccardo D'Auria]], [[Lucrezi Ravera]], _Hidden Gauge Structure of Supersymmetric Free Differential Algebras_, JHEP 1608 (2016) 095 ([arXiv:1606.07328](https://arxiv.org/abs/1606.07328))
+* [[Laura Andrianopoli]], [[Riccardo D'Auria]], [[Lucrezi Ravera]], _Hidden Gauge Structure of Supersymmetric Free Differential Algebras_, JHEP 1608 (2016) 095 ([arXiv:1606.07328](https://arxiv.org/abs/1606.07328))
 
-* Laura Andrianopoli, [[Riccardo D'Auria]], [[Lucrezia Ravera]], _More on the Hidden Symmetries of 11D Supergravity_ ([arXiv:1705.06251](https://arxiv.org/abs/1705.06251))
+* [[Laura Andrianopoli]], [[Riccardo D'Auria]], [[Lucrezia Ravera]], _More on the Hidden Symmetries of 11D Supergravity_ ([arXiv:1705.06251](https://arxiv.org/abs/1705.06251))
 
+where the algebra is referred to as the _DF-algebra_, in honor of [D'Auria-Fré 82](#DAuriaFre82)
 
 All this is reviewed in 
 
@@ -115,6 +116,8 @@ All this is reviewed in
 That the underlying bosonic [[body]] of this super Lie algebra happens to be the [[typical fiber]] of what would be the 11-d [[exceptional generalized tangent bundle]], namely the [level-2 truncation of the l1-representation](E11#FundamentalRepresentationAndBraneCharges) of [[E11]] according to ([West 04](E11#West04)) was highlighted in the review 
 
 * [[Silvia Vaula]], _On the underlying $E_{11}$ symmetry of the $D= 11$ Free Differential Algebra_, JHEP 0703:010,2007 ([arXiv:hep-th/0612130](http://arxiv.org/abs/hep-th/0612130))
+
+For analogous discussion in [[7d supergravity]] and [[4d supergravity]], see the references there.
 
 
 ### Alternative
