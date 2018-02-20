@@ -43,6 +43,8 @@ Conversely, this means that supersymmetry, as opposed to ([[gauge symmetry|gauge
 
 ## Related concepts
 
+* [[hidden sector]]
+
 * [[Starobinsky model of cosmic inflation]]
 
 ## References
@@ -72,3 +74,6 @@ Discussion of supersymmetry breaking unified with [[cosmic inflation]] via [[hig
 * {#FerrarKehagias14} Sergio Ferrara, Alex Kehagias, _Higher Curvature Supergravity, Supersymmetry Breaking and Inflation_ ([arXiv:1407.5187](http://arxiv.org/abs/1407.5187))
 
 * {#DFKRU14} I. Dalianis, F. Farakos, A. Kehagias, A. Riotto, R. von Unge, _Supersymmetry Breaking and Inflation from Higher Curvature Supergravity_ ([arXiv:1409.8299](http://arxiv.org/abs/1409.8299))
+
+
+[[!redirects gravity-mediated supersymmetry breaking]]
