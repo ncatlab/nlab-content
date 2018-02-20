@@ -12,7 +12,7 @@ The [[Green-Schwarz action functional|Green-Schwarz type]] super $p$-[[brane]] [
 | 7 | |   | [[topological M2-brane|M2]]${}_{top}$  |  |   |  |   |   |   |   |    
 | 6 | |  [[little string|F1]]${}_{little}$, [[self-dual string|S1]]${}_{sd}$  |  | [[3-brane in 6d|S3]] |   |  |   |   |   |   | 
 | 5 | |  | $\ast$   | |   |  |   |   |   |   | 
-| 4 | | $\ast$  | [[super 2-brane in 4d|*]]   | |   |  |   |   |   |   |   
+| 4 | | [[super 1-brane in 4d|*]]  | [[super 2-brane in 4d|*]]   | |   |  |   |   |   |   |   
 | 3 | | [[super 1-brane in 3d|*]]  |  | |   |  |   |   |   |   |
 
 (The first colums follow the [[exceptional spinors table]].)
