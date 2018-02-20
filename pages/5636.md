@@ -2,13 +2,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Physics
-+--{: .hide}
-[[!include physicscontents]]
-=--
 #### Quantum field theory
 +--{: .hide}
 [[!include functorial quantum field theory - contents]]
+=--
+#### Super-Geometry
++--{: .hide}
+[[!include supergeometry - contents]]
 =--
 =--
 =--
@@ -26,7 +26,7 @@ _Seiberg-Witten theory_ studies the [[moduli space]] of [[vacua]] in [[N=2 D=4 s
 
 * [[N=2 D=4 super Yang-Mills theory]]
 
-* [[Coulomb branch]]
+* [[Coulomb branch]], [[Higgs branch]]
 
 * [[Donaldson theory]]
 
