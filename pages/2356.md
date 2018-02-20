@@ -29,8 +29,6 @@ $$
 
 is an [[(∞,1)-topos]] equipped with a $\mathcal{G}$-valued **structure sheaf** presented by the finite-limits-preserving and cover-preserving [[(∞,1)-functor]] $\mathcal{O}$.
 
-In particular for $\mathbf{H}_{th}$ an 
-
 ## Related concepts
 
 * [[sheaf of meromorphic functions]]
