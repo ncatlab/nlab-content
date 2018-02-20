@@ -121,7 +121,7 @@ where $(\partial I) \otimes X := X \coprod X$, such that the composite is the fu
 +-- {: .num_defn #ElementaryJHomotopy}
 ###### Definition
 
-For $f,g : X \to Y$ two morphisms in $PSh(A)$, we say an **elementary $J$-homotopy** $f \Rightarrow g$ from $f$ to $g$ is [[left homotopy]] from $f$ to $g$ with respect to the chosen cylinder object $J$, hence a morphism $\eta : I \otimes X \to Y$ fitting into a diagram
+For $f,g : X \to Y$ two morphisms in $PSh(A)$, we say an **elementary $J$-homotopy** $f \Rightarrow g$ from $f$ to $g$ is a [[left homotopy]] from $f$ to $g$ with respect to the chosen cylinder object $J$, hence a morphism $\eta : I \otimes X \to Y$ fitting into a diagram
 
 $$
   \array{
@@ -540,7 +540,7 @@ is a pullback, is the defining property of the [[subobject classifier]].
 
 For $J$ an elementary homotopical datum on $PSh(A)$, a **[[class]] of [[anodyne extensions]]** is a class $AnExt \subset Mor(PSh(A))$ such that
 
-1. there exists a [[small set]] $S$ with 
+1. there exists a [[small set]] of monomorphisms $S$ with 
 
    $$
      AnExt = LLP(RLP(S))
