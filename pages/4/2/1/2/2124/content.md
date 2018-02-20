@@ -148,6 +148,8 @@ In [[11-dimensional supergravity]] ([[M-theory]]) there are four kinds of 1/2 BP
 
 * [[wall crossing]]
 
+* [[protection from quantum corrections]]
+
 * [[positive energy theorem]]
 
 * [[enhanced gauge symmetry]]
