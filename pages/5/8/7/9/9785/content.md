@@ -111,7 +111,15 @@ All this is reviewed in
 
 * {#Azcarraga05} [[José de Azcárraga]], section 5 of _Superbranes, D=11 CJS supergravity and enlarged superspace coordinates/fields correspondence_, AIP Conf. Proc. 767:243-267, 2005 ([arXiv:hep-th/0501198](https://arxiv.org/abs/hep-th/0501198))
 
-* [[Lucrezia Ravera]], _Group Theoretical Hidden Structure of Supergravity Theories in Higher Dimensions_ ([arXiv:1802.06602](https://arxiv.org/abs/1802.06602))
+Another, alternative "splitting" of the M2-brane [[extended super-Minkowski spacetime]] was found in 
+
+* {#Ravera18a} [[Lucrezia Ravera]], section 3 of _Hidden Role of Maxwell Superalgebras in the Free Differential Algebras of D=4 and D=11 Supergravity_ ([arXiv:1801.08860](https://arxiv.org/abs/1801.08860))
+
+with the interesting difference that for this splitting [[super Lie algebra]]  is non-abelian, in fact an extension of the Lie algebra of the [[Spin group]] $Spin(10,1)$ ([Ravera 18, (3.5)-(3-6)](#Ravera18)). 
+
+See also
+ 
+* {#Ravera18b} [[Lucrezia Ravera]], _Group Theoretical Hidden Structure of Supergravity Theories in Higher Dimensions_ ([arXiv:1802.06602](https://arxiv.org/abs/1802.06602))
 
 That the underlying bosonic [[body]] of this super Lie algebra happens to be the [[typical fiber]] of what would be the 11-d [[exceptional generalized tangent bundle]], namely the [level-2 truncation of the l1-representation](E11#FundamentalRepresentationAndBraneCharges) of [[E11]] according to ([West 04](E11#West04)) was highlighted in the review 
 
