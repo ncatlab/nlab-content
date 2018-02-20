@@ -75,12 +75,15 @@ sigma models in supergravity_ Class. Quantum Grav. 23 (2006) 2803&#8211;2831 ([p
 
 * Der-Chyn Jong, _Aspects of 7D and 6D gauged supergravities_ PhD thesis (2007) ([web](http://repository.tamu.edu/handle/1969.1/85874))
 
+Discussion of [[quantum anomaly]] cancellation is in
+
+* Tony Gherghetta, Alex Kehagias, _Anomaly Cancellation in Seven-Dimensional Supergravity with a Boundary_, Phys.Rev. **D68** (2003), 065019, ([arXiv:hep-th/0212060](http://arxiv.org/abs/hep-th/0212060))
+
 
 ### By reduction from 10d/11d supergravity
 
-The following references discuss construction of full 7d sugra theories or of their solutions by [[Kaluza-Klein mechanism|KK-reduction]] from [[11-dimensional supergravity]] or 10d [[type II supergravity]].
+The following references discuss construction of full 7d sugra theories or of their solutions by [[Kaluza-Klein mechanism|KK-reduction]] from [[11-dimensional supergravity]] or from 10d [[type II supergravity]].
 
-#### Theories
 
 The construction of 7d supergravity by reduction from [[11-dimensional supergravity]] was first indicated in 
 
@@ -101,19 +104,20 @@ The $SL(5,\mathbb{Z})$-[[U-duality]] in 7d is discussed in
 * {#Rozali97} [[Moshe Rozali]], _Matrix Theory and U-Duality in Seven Dimensions_, Phys.Lett. B400 (1997) 260-264 ([arXiv:hep-th/9702136](http://arxiv.org/abs/hep-th/9702136))
 
 
-#### Solutions
+Explicit compactifications are discussed in
 
-* P. van Nieuwenhuizen, N. P. Warner, _New Compactificafions of Ten and Eleven Dimensional Supergravity on Manifolds Which Are Not Direct Products_ Commun. Math. Phys. 99, 141-151 (1985)
+* [[Peter van Nieuwenhuizen]], N. P. Warner, _New Compactificafions of Ten and Eleven Dimensional Supergravity on Manifolds Which Are Not Direct Products_ Commun. Math. Phys. 99, 141-151 (1985)
 
 
-* Jerome P. Gauntlett, Nakwoo Kim, Stathis Pakis, Daniel Waldram, _M-Theory solutions with AdS factors_ ([arXiv:hep-th/0202184](http://arxiv.org/abs/hep-th/0202184))
+* [[Jerome Gauntlett]], Nakwoo Kim, Stathis Pakis, [[Daniel Waldram]], _M-Theory solutions with AdS factors_ ([arXiv:hep-th/0202184](http://arxiv.org/abs/hep-th/0202184))
 
-### Anomaly cancellation
+### D'Auria-Fré formulation of supergravity
 
-Discussion of [[quantum anomaly]] cancellation is in
+Discussion in the [[D'Auria-Fré formulation of supergravity]] and in particular the 7d analog of the [[DF-algebra]]/[[M-theory super Lie algebra]] is due to
 
-* Tony Gherghetta, Alex Kehagias, _Anomaly Cancellation in Seven-Dimensional Supergravity with a Boundary_, Phys.Rev. **D68** (2003), 065019, ([arXiv:hep-th/0212060](http://arxiv.org/abs/hep-th/0212060))
+* [[Laura Andrianopoli]], [[Riccardo D'Auria]], [[Lucrezia Ravera]], _Hidden Gauge Structure of Supersymmetric Free Differential Algebras_, JHEP 1608 (2016) 095 ([arXiv:1606.07328](https://arxiv.org/abs/1606.07328))
 
+* [[Lucrezia Ravera]], _Group Theoretical Hidden Structure of Supergravity Theories in Higher Dimensions_ ([arXiv:1802.06602](https://arxiv.org/abs/1802.06602))
 
 
 [[!redirects 7d supergravity]]
