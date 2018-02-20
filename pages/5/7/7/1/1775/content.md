@@ -556,6 +556,8 @@ This appears as ([GoerssJardine, ch. V prop. 6.3](#GoerssJardine)).
 
 ## Related concepts
 
+* [[∞-group]]
+
 * [[monoid]]. [[monoid object]], [[monoid object in an (∞,1)-category]]
 
 * [[group]], [[group object]]
@@ -564,12 +566,13 @@ This appears as ([GoerssJardine, ch. V prop. 6.3](#GoerssJardine)).
 
 * [[looping and delooping]]
 
+
 ## References
 
 Groupoid objects in $(\infty,1)$-categories are the topic of section 6.1.2 in
 
-* [[Jacob Lurie]], _[[Higher Topos Theory]]_ 
-{#Lurie}
+* {#Lurie} [[Jacob Lurie]], _[[Higher Topos Theory]]_ 
+
 
 Model category presentations of groupoid objects in $\infty Grpd$ by groupoidal [[complete Segal spaces]] are discussed in 
 
@@ -579,15 +582,15 @@ Model category presentations of groupoid objects in $\infty Grpd$ by groupoidal 
 
   _Adding inverses to diagrams II: Invertible homotopy theories are spaces_, Homology, Homotopy and Applications, Vol. 10 (2008), No. 2, pp.175-193. ([web](http://www.intlpress.com/hha/v10/n2/a9/), [arXiv:0710.2254](http://arxiv.org/abs/0710.2254))
 
-A standard textbook reference on the model categories presentation of $\infty$-groups in $sSet$ is chapter V of
+A standard textbook reference on $\infty$-groups in the [[classical model structure on simplicial sets]] is 
 
-* [[Paul Goerss]], [[Rick Jardine]], _Simplicial homotopy theory_ [chapter V](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-5.dvi). 
-{#GoerssJardine}
+* {#GoerssJardine} [[Paul Goerss]], [[Rick Jardine]], chapter V of _[[Simplicial homotopy theory]]_ [chapter V](http://www.maths.abdn.ac.uk/~bensondj/papers/g/goerss-jardine/ch-5.dvi). 
+
 
 Discussion from the point of view of [[category objects in an (∞,1)-category]] is in 
 
-* [[Jacob Lurie]], _[[(∞,2)-Categories and the Goodwillie Calculus]]_ ([arXiv:0905.0462](http://arxiv.org/abs/0905.0462))
- {#Lurie2}
+* {#Lurie2} [[Jacob Lurie]], _[[(∞,2)-Categories and the Goodwillie Calculus]]_ ([arXiv:0905.0462](http://arxiv.org/abs/0905.0462))
+ 
 
 
 
