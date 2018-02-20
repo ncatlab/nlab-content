@@ -23,6 +23,12 @@ For [[N=2 D=4 super Yang-Mills theory]] the [[moduli space]] of [[vacuum expecta
 
 This is the topic of [[Seiberg-Witten theory]].
 
+Definitions of the Coulomb and Higgs branches have been extended to [[N=4 D=3 super Yang-Mills theory]].
+
+## Related concepts
+
+* [[symplectic duality]]
+
 ## References
 
 The terminology "Coulomb branch" and "Higgs branch" first appears in 
@@ -34,6 +40,8 @@ Review includes
 * {#Albertsson03} Cecilia Albertsson, _Superconformal D-branes and moduli spaces_ ([arXiv:hep-th/0305188](http://arxiv.org/abs/hep-th/0305188))
 
 For mathematical discussion see
+
+* Hiraku Nakajima, _Introduction to a provisional mathematical definition of Coulomb branches of 3-dimensional $\mathcal{N} = 4$ gauge theories_ ([arXiv:1706.05154](http://arxiv.org/abs/1706.05154))
 
 * Hiraku Nakajima, _Towards a mathematical definition of Coulomb branches of 3-dimensional $\mathcal{N} = 4$ gauge theories, I_ ([arXiv:1503.03676](http://arxiv.org/abs/1503.03676))
 
