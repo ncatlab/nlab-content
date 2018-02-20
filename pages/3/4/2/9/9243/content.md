@@ -47,6 +47,8 @@ The _[[interaction picture]]_ of [[quantum physics]] serves to decompose the [[q
 
 * [[scattering]], [[scattering matrix]]
 
+* [[hidden sector]]
+
 [[!include action (physics) - table]]
 
 [[!redirects interactions]]
