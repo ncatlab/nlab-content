@@ -31,7 +31,7 @@ Another crucial feature that distinguishes the G2-MSSM from other known scenario
 
 Another distinctive feature of the G2-MSSM is a slightly split spectrum of superpartners. The [[gaugino]] masses are suppressed relative to the [[gravitino]] mass by a factor of $\mathcal{O}(60)$ due to the dynamics of the [[moduli stabilization]]. On the other hand, the scalar masses and the trilinear couplings are as heavy as the [[gravitino]] mass. The [[higgsinos]] may or may not be suppressed relative to the gravitino mass depending on the details of the solution to the [[doublet-triplet splitting problem]]. 
 
-Apart from the very specific form of the soft terms, the difference between the G2-MSSM and a generic bottom-up Split Supersymmetry scenario is that in Split SUSY both gaugino masses and trilinear couplings are protected by an [[R-symmetry]] and therefore remain light, while the scalar masses can be as heavy as the [[GUT]] scale. 
+Apart from the very specific form of the soft terms, the difference between the G2-MSSM and a generic bottom-up Split Supersymmetry scenario is that in Split SUSY both gaugino masses and trilinear couplings are [[protection from quantum correction|protected]] by an [[R-symmetry]] and therefore remain light, while the scalar masses can be as heavy as the [[GUT]] scale. 
 
 The slightly split G2-MSSM spectrum naturally accommodates the [[Higgs particle]] at the observed [[energy]] of around 125 GeV together with reasonable [[dark matter]] candidates in the form of [[axions]] and/or W-ino [[WIMPs]], which are generated non-thermally via late-time moduli decays.
 
