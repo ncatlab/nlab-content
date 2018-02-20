@@ -4649,7 +4649,7 @@ further conditions that one may want to have satisfied. These are called _[[reno
 
 +-- {: .num_defn #RenormalizationConditions}
 ###### Definition
-**([[renormalization conditions]] and [[quantum anomalies]])**
+**([[renormalization conditions]], [[protection from quantum corrections]] and [[quantum anomalies]])**
 
 Let $(E_{\text{BV-BRST}}, \mathbf{L}', \Delta_H )$ be a [[relativistic field theory|relativistic]] [[free field theory|free]] [[vacuum]] according to def. \ref{VacuumFree}.
 
@@ -4686,6 +4686,8 @@ is called a _renormalization condition_ if
 This means that a renormalization condition is a condition that may consistently be imposed degreewise
 in an [[induction|inductive]] construction of [[time-ordered products]] by degreewise [[extension of distributions|extension]]
 to the [[diagonal]], according to prop. \ref{RenormalizationIsInductivelyExtensionToDiagonal}.
+
+If specified renormalization conditions $\{P_i\}$ completely remove any freedom in the choice of time-ordered products for a given [[quantum observable]], one says that the renormalization conditions _[[protection from quantum corrections|protects the observable against quantum corrections]]_. 
 
 If for specified renormalization conditions $\{P_i\}$ there is _no_ choice of [[time-ordered products]] $\{T_k\}_{k \in \mathbb{N}}$
 (def. \ref{TimeOrderedProduct}) that satisfies all these conditions, then one says that an
