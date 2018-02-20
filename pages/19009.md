@@ -8,6 +8,8 @@
 
 * [[M-theory super Lie algebra]]
 
-* [[4-dimensional supergravity]]
+* [[7d supergravity]]
+
+* [[4d supergravity]]
 
 category: people
