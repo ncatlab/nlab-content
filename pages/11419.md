@@ -17,9 +17,28 @@
 #Contents#
 * table of contents
 {:toc}
-## Idea
 
-The _splitting principle_ in [[Chern-Weil theory]]/[[nonabelian cohomology]] is a method of turning a $G$-[[principal bundle]] for $G$ a [[compact Lie group]] into a [[torus]] bundle (hence _splitting_ it into [[complex line bundles]]) such that the [[universal characteristic classes]] of the original $G$-bundle may be computed in terms of the (generally simpler) classes of this torus bundle.
+## Idea
+ {#SplittingPrinciple}
+
+In [[algebraic topology]], a _splitting principle_ for a [[classifying space]] $B G$ for some [[topological group]] $G$ ([[delooping]] of some [[∞-group]] $G$) is a map from a [[torus]]-classifying space 
+
+
+$$
+  B (T^n) \overset{f}{\longrightarrow} B G
+$$ 
+
+such that  the induced pullback of [[cohomology rings]] is an [[injective function]]
+
+   $$
+     f^\ast \;\colon\; H^\bullet(B G) \hookrightarrow H^\bullet(B T^n)
+     \,,
+   $$
+
+   hence allowing to view the cohomology of $G$-[[principal ∞-bundles]] in terms of that of plain [[torus]]-[[principal bundles]].
+
+
+In particular for $G$ a classical [[compact Lie group]] such as the [[unitary group]], the splitting principle holds and allows to express [[Chern classes]] of [[complex vector bundles]] as algebraic expressions in just [[first Chern classes]] of [[complex line bundles]].
 
 ## Statement
 
