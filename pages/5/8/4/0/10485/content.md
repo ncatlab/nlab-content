@@ -38,7 +38,11 @@ So the group (super-)cohomology theory may allow us to classify all SPT orders e
 
 Free fermion system can also have non-trivial SPT phases, such as [[topological insulator]]s and topological superconductors. Those free fermion SPT phases are classified by K-theory.
 
-## Literature
+## Related concepts
+
+* [[protection from quantum corrections]]
+
+## References
 
 Related entries: [[TQFT]], [[topological order]], [[group cohomology]], [[entanglement]]
 
