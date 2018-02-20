@@ -188,10 +188,13 @@ Textbook accounts include
 * [[Dale Husemoeller]], [[Michael Joachim]], [[Branislav Jur?o]], [[Martin Schottenloher]], _[[Basic Bundle Theory and K-Cohomology Invariants]]_, 
 Lecture Notes in Physics, Springer 2008 ([pdf](http://www.mathematik.uni-muenchen.de/~schotten/Texte/978-3-540-74955-4_Book_LNP726corr1.pdf))
 
+* [[Peter May]], chapter 23 of _A concise course in algebraic topology_ ([pdf](http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf))
 
-A concise introduction is in chapter 23
+Exposition with motivation from [[mathematical physics]] includes
 
-* [[Peter May]], _A concise course in algebraic topology_ ([pdf](http://www.math.uchicago.edu/~may/CONCISE/ConciseRevised.pdf))
+* {#Zhang11} [[Yang Zhang]], _A brief introduction to characteristic classes
+from the differentiable viewpoint_, 2011 ([pdf](http://www.nbi.dk/~zhang/notes/A brief introduction to characteristic classes from the differentiable viewpoint.pdf))
+
 
 Further texts include
 
