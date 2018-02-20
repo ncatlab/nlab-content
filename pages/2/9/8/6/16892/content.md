@@ -17,6 +17,8 @@ A number of researchers are using [[dependent type theory]] as a formal tool to 
 
 ###Papers using dependent type theory
 
+* René Ahn, _Agents, Objects and Events: A computational approach to knowledge, observation and communication_, Ph.D. dissertation, Eindhoven University, 2001.
+
 * Asher, N.: Lexical Meaning in Context: A Web of Words. Cambridge University Press (2011)
 * Asher, N., Luo, Z.: Formalisation of coercions in lexical semantics. In: Sinn und Bedeutung. vol. 17, pp. 63&#8211;80 (2012)
 * [[Daisuke Bekki]]: Representing anaphora with dependent types. In: Asher, N., Soloviev, S. (eds.) Logical Aspects of Computational Linguistics, Lecture Notes in Computer Science, vol.8535, pp. 14&#8211;29 (2014), [Springer](http://link.springer.com/chapter/10.1007%2F978-3-662-43742-1_2).
@@ -31,6 +33,7 @@ Springer, Heidelberg (2011)
 * [[Zhaohui Luo]]: Event Semantics with Dependent Types, [pdf](http://www.cs.rhul.ac.uk/home/zhaohui/Evt15.pdf)
 * [[Zhaohui Luo]], Formal Semantics in Modern Type Theories: Is It Model-theoretic, Proof-theoretic, or Both?, [pdf](http://www.cs.rhul.ac.uk/home/zhaohui/LACL14FINAL.pdf).
 * Koji Mineshima, A Presuppositional Analysis of Definite Descriptions in Proof Theory, New Frontiers in Artificial Intelligence Lecture Notes in Computer Science Volume 4914, 2008, pp 214-227 [Springer](http://link.springer.com/chapter/10.1007%2F978-3-540-78197-4_20)
+* P.  Piwek  and  E.  Krahmer,  ‘Presuppositions  in  Context:  Constructing Bridges’, in Formal Aspects of Context, eds., P. Bonzon, M. Cavalcanti,and R. Nossum, volume 20 of Applied Logic Series, 85–106, Kluwer Academic Publishers, Dordrecht, (2000).
 * [[Aarne Ranta]], Type-theoretical grammar. Oxford University Press (1994)
 * Sundholm, G.: Proof theory and meaning. In: Gabbay, D., Guenthner, F. (eds.) Handbook of Philosophical Logic, vol. 3, pp. 471&#8211;506. Springer (1986)
 * Tanaka, R., Mineshima, K., Bekki, D.: Resolving modal anaphora in Dependent Type Semantics. In: Proceedings of LENLS11. pp. 43&#8211;56 (2014), [Springer](http://link.springer.com/chapter/10.1007%2F978-3-662-48119-6_7).
