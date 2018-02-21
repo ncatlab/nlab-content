@@ -107,8 +107,11 @@ Let
 
 $$
   \label{DFAlgberaAtsIsMinus6}
+  \begin{aligned}
+  &
   CE(T_{exc,-6}\mathbb{R}^{10,1\vert\mathbf{32}})
-  \;\coloneqq\;
+  \\
+  & \coloneqq\;
   Sym\left(
      (
       \underset{
@@ -148,6 +151,7 @@ $$
       }}
      )_{\alpha \in \{1,\cdots, 32\}}
   \right)
+  \end{aligned}
 $$
 
 be the $\mathbb{Z} \times (\mathbb{Z}/2)$-bi-[[graded-commutative algebra]] which is freely [[generators and relations|generated]] over the [[field]] of [[real numbers]] as shown.
@@ -235,6 +239,14 @@ We want to compute the H-cohomology of this element.
 
 #### The first summand
 
+We discuss the H-cohomology of the first summand in (eq:CFieldAtSMinusSix)
+
+$$
+  H_{(1)}
+  \;\coloneqq\;
+  B_{a b} \wedge e^a \wedge e^b  
+$$
+
 Write 
 
 $$
@@ -246,8 +258,14 @@ $$
 
 for the [[linear maps]] which on [[monomials]] are given by multiplication with the number of generators $e^a$ or the number of generators $B^{a b}$, respectively.
 
+It is clear that $H_{(1)}$ has non-trivial H-cohomology 
 
-Consider the graded [[derivation]] on the [[DF-algebra]] $CE(T_{exc,-6}\mathbb{R}^{10,1\vert\mathbf{32}})$ (eq:DFAlgberaAtsIsMinus6) given by
+* at $n_e = 10, 11, b_B = 0$;
+
+* $n_B = 55, n_1 = 0, 1$.
+
+In order to see if we can trivialize the $H_{(1)}$-cohomology away from these values we consider as candidate [[homotopy operator]]
+the graded [[derivation]] on the [[DF-algebra]] $CE(T_{exc,-6}\mathbb{R}^{10,1\vert\mathbf{32}})$ (eq:DFAlgberaAtsIsMinus6) given by
 
 $$
   L_{(1)}
@@ -255,8 +273,7 @@ $$
   \partial_{B_{ab}}\partial_{e^a}\partial_{e^b}
 $$
 
-We compute its graded commutator with $H_{(1)}$ (eq:CFieldAtSMinusSix):
-
+Its graded commutator with $H_{(1)}$ (eq:CFieldAtSMinusSix) is the following:
 
 $$
   \begin{aligned}
@@ -316,18 +333,23 @@ $$
     \\   
     & =
     -
-    110 \cdot
+    220 \cdot
     (-)
     +
+    2 B_{a b} \wedge \partial_{B_{a b}} (-)
+    +
     40
-    e^a \partial_{e^a}(-)
+    e^a \wedge \partial_{e^a}(-)
     +
     4 B_{a b} \wedge e^a \partial_{B_{a' b}} \partial_{e^{a'}}(-)
     +
     e^a \wedge e^b\wedge \partial_{e^a}\partial_{e^b} (-)
     \\
     & =
-    ( - 110 + 40 n_e - 4 n_e n_B - n_e(n_e - 1)) \cdot (-)
+    ( - 220 + 4 n_B + 40 n_e - 4 n_e n_B - n_e(n_e - 1)) \cdot (-)
+    \\
+    & =
+    ( - 220 + 4 n_B + 41 n_e - 4 n_e n_B - n_e^2) \cdot (-)
   \end{aligned}
 $$
 
