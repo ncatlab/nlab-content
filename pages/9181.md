@@ -44,17 +44,19 @@
 
 **[[MSSM|minimally extended supersymmetric standard model]]**
 
-**[[superpartner]] [[gauge field]] [[fermions]]**
+**[[superpartners]]**
 
-[[fermions]]:
+bosinos:
 
 * [[gravitino]] - [[field (physics)|field]] of [[supergravity]] ([[Rarita-Schwinger field]])
 
 * [[gaugino]] - [[super Yang-Mills theory|super Yang-Mills field]]
 
-[[bosons]]:
-
 * [[gluino]]
+
+[[sfermions]]:
+
+* [[squark]]
 
 **Exotica**
 
