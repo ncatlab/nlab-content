@@ -1,4 +1,234 @@
 
+$$
+  L_{(2)}
+  \;\coloneqq\;
+  \partial_{B^{a}{}_b}
+  \partial_{B^{b}{}_c}
+  \partial_{B^{c}{}_a}
+$$
+
+$$
+  \begin{aligned}
+    & 
+    L_{(2)} H_{(2)} \wedge (-)
+    +
+    H_{(2)} \wedge L_{(2)} (-)
+    \\ 
+    & =    
+    \partial_{B^{a'}{}_{b'}}
+    \partial_{B^{b'}{}_{c'}}
+    \partial_{B^{c'}{}_{a'}}
+    B^a{}_{b}
+    \wedge
+    B^b{}_{c}
+    \wedge
+    B^c{}_{a}
+    \wedge(-)
+    +
+    B^a{}_{b}
+    \wedge
+    B^b{}_{c}
+    \wedge
+    B^c{}_{a}
+    \wedge
+    \partial_{B^{a'}{}_{b'}}
+    \partial_{B^{b'}{}_{c'}}
+    \partial_{B^{c'}{}_{a'}}
+    (-)
+    \\
+    & =
+    2
+    \partial_{B^{a}{}_{b'}}
+    \partial_{B^{b'}{}_{c}}
+    B^a{}_{b}
+    \wedge
+    B^b{}_{c}
+    \wedge
+    (-)
+    \\
+    & \phantom{=}
+    -
+    \partial_{B^{a'}{}_{b'}}
+    \partial_{B^{b'}{}_{c'}}
+    B^a{}_{b}
+    \wedge
+    B^b{}_{c}
+    \wedge
+    B^c{}_{a}
+    \wedge
+    \partial_{B^{c'}{}_{a'}}
+    (-)
+    \\
+    & \phantom{=}
+    +
+    B^a{}_{b}
+    \wedge
+    B^b{}_{c}
+    \wedge
+    B^c{}_{a}
+    \wedge
+    \partial_{B^{a'}{}_{b'}}
+    \partial_{B^{b'}{}_{c'}}
+    \partial_{B^{c'}{}_{a'}}
+    (-)
+    \\
+    & =
+    20
+    \partial_{B^{a}{}_{b}}
+    B^a{}_{b}
+    \wedge
+    (-)
+    +
+    2
+    \partial_{B^{a}{}_{b'}}
+    B^a{}_{b}
+    \wedge
+    B^b{}_{c}
+    \wedge
+    \partial_{B^{b'}{}_{c}}
+    (-)
+    \\
+    & \phantom{=}
+    +
+    2
+    \partial_{B^{a'}{}_{b}}
+    B^a{}_{b}
+    \wedge
+    B^c{}_{a}
+    \wedge
+    \partial_{B^{c}{}_{a'}}
+    (-)
+    +
+    \partial_{B^{a'}{}_{b'}}
+    B^a{}_{b}
+    \wedge
+    B^b{}_{c}
+    \wedge
+    B^c{}_{a}
+    \wedge
+    \partial_{B^{b'}{}_{c'}}
+    \partial_{B^{c'}{}_{a'}}
+    (-)
+    \\
+    & \phantom{=}
+    +
+    B^a{}_{b}
+    \wedge
+    B^b{}_{c}
+    \wedge
+    B^c{}_{a}
+    \wedge
+    \partial_{B^{a'}{}_{b'}}
+    \partial_{B^{b'}{}_{c'}}
+    \partial_{B^{c'}{}_{a'}}
+    (-)
+    \\
+    & =
+    20 \cdot 110
+    \cdot
+    (-)
+    -
+    20
+    B^a{}_{b}
+    \partial_{B^{a}{}_{b}}
+    \wedge
+    (-)
+    +
+    20
+    B^b{}_{c}
+    \wedge
+    \partial_{B^{b}{}_{c}}
+    (-)
+    +
+    2
+    B^a{}_{b}
+    \wedge
+    B^b{}_{c}
+    \wedge
+    \partial_{B^{a}{}_{b'}}
+    \partial_{B^{b'}{}_{c}}
+    (-)
+    \\
+    & \phantom{=} 
+    +
+    20
+    B^c{}_{a}
+    \wedge
+    \partial_{B^{c}{}_{a}}
+    (-)
+    +
+    2
+    B^a{}_{b}
+    \wedge
+    B^c{}_{a}
+    \wedge
+    \partial_{B^{a'}{}_{b}}
+    \partial_{B^{c}{}_{a'}}
+    (-)
+    +
+    2
+    B^b{}_{c}
+    \wedge
+    B^c{}_{a}
+    \wedge
+    \partial_{B^{b}{}_{c'}}
+    \partial_{B^{c'}{}_{a}}
+    (-)
+    -
+    B^a{}_{b}
+    \wedge
+    B^b{}_{c}
+    \wedge
+    B^c{}_{a}
+    \wedge
+    \partial_{B^{a'}{}_{b'}}
+    \partial_{B^{b'}{}_{c'}}
+    \partial_{B^{c'}{}_{a'}}
+    (-)
+    \\
+    & \phantom{=}
+    +
+    B^a{}_{b}
+    \wedge
+    B^b{}_{c}
+    \wedge
+    B^c{}_{a}
+    \wedge
+    \partial_{B^{a'}{}_{b'}}
+    \partial_{B^{b'}{}_{c'}}
+    \partial_{B^{c'}{}_{a'}}
+    (-)
+    \\
+    & =
+    \left(
+      20 \cdot 110
+      +
+      40
+      n_B
+      -
+      6
+      n_{B,B}
+    \right)
+    \cdot
+    (-)
+  \end{aligned}
+$$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+$\,$
+
+
 
 $$
   H 
