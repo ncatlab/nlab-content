@@ -263,11 +263,14 @@ One of the earliest reference seems to be
 
 * [[Ted Courant]], _Tangent Lie algebroid_ ([pdf](http://www.iop.org/EJ/article/0305-4470/27/13/026/ja941326.pdf))
 
-A review is for instance in appendix A of
+A review is for instance in
 
-* [[Dmitry Roytenberg]], _Courant algebroids, derived brackets and
-  even symplectic supermanifolds_
-  ([arXiv](http://arxiv.org/abs/math/9910078))
+* [[Dmitry Roytenberg]], appendix A _Courant algebroids, derived brackets and even symplectic supermanifolds_ ([arXiv:math/9910078](http://arxiv.org/abs/math/9910078))
+
+The [[H-cohomology]] of the graded symplectic form of a Poisson Lie algebroid, regarded a a [[symplectic Lie n-algebroid]], is considered in
+
+* {#Severa05} [[Pavol ?evera]], p. 1 of _On the origin of the BV operator on odd symplectic supermanifolds_, Lett Math Phys (2006) 78: 55. ([arXiv:0506331](https://arxiv.org/abs/math/0506331))
+
 
 [[!redirects Poisson-Lie algebroid]]
 
