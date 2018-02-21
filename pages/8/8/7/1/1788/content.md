@@ -1,26 +1,93 @@
 
-$$
-  0
-  =
-  \beta Sq^2([G_4])
-$$
-
-and
 
 $$
-  [G_4] \cup [G_4] 
-  =
-  0
+  H 
+    \coloneqq
+  B_{a b} \wedge e^a \wedge e^b
 $$
 
-in particular
-
 $$
-  0
-  =
-  Sq^1 Sq^3([G_4])
+  \partial_{B_{ab}}\partial_{e^a}\partial_{e^b}
 $$
 
+$$
+  \begin{aligned}
+    & 
+    \partial_{B_{a' b'}}\partial_{e^{a'}}\partial_{e^{b'}}
+    B_{a b} \wedge e^a \wedge e^b\wedge (-)
+    +
+    B_{a b} \wedge e^a \wedge e^b\wedge 
+    \partial_{B_{a' b' }}\partial_{e^{a'}}\partial_{e^{b'}}
+    (-)
+    \\
+    & 
+    =
+    2
+    \partial_{B_{a' b}}\partial_{e^{a'}}
+    B_{a b} \wedge e^a \wedge (-)
+    -
+    \partial_{B_{a' b'}}\partial_{e^{a'}}
+    B_{a b} \wedge e^a \wedge e^b\wedge \partial_{e^{b'}} (-)
+    +
+    B_{a b} \wedge e^a \wedge e^b\wedge 
+    \partial_{B_{a' b'}}\partial_{e^{a'}}\partial_{e^{b'}}(-)
+    \\
+    & =
+    -
+    2
+    \partial_{B_{a b}}
+    B_{a b} \wedge  (-)
+    +
+    \underset{
+      = 
+      4
+      \partial_{B_{a' b}}
+      B_{a b} \wedge e^a\wedge \partial_{e^{a'}} (-)
+    }{
+    \underbrace{
+    2
+    \partial_{B_{a' b}}
+    B_{a b} \wedge e^a\wedge \partial_{e^{a'}} (-)
+    +
+    2
+    \partial_{B_{a b'}}
+    B_{a b} \wedge e^b\wedge \partial_{e^{b'}} (-)
+    }}
+    +
+    \partial_{B_{a' b'}}
+    B_{a b} \wedge e^a \wedge e^b\wedge \partial_{e^{a'}}\partial_{e^{b'}} (-)
+    +
+    B_{a b} \wedge e^a \wedge e^b\wedge 
+    \partial_{B_{a' b'}}\partial_{e^{a'}}\partial_{e^{b'}}
+    (-)
+    \\   
+    & =
+    -
+    110 \cdot
+    (-)
+    +
+    40
+    e^a \partial_{e^a}(-)
+    +
+    4 B_{a b} \wedge e^a \partial_{B_{a' b}} \partial_{e^{a'}}(-)
+    +
+    e^a \wedge e^b\wedge \partial_{e^a}\partial_{e^b} (-)
+    \\
+    & =
+    ( - 110 + 40 n_e - n_e(n_e - 1) - 4 n_e n_B) \cdot (-)
+    \\   
+    & =
+    ( - 110 + 40 n_e - n_e(n_e - 1) - 2 n_e (n_e - n_tot)) \cdot (-)
+  \end{aligned}
+$$
+
+$$
+  n_{tot} \coloneqq n_e - 2 n_B
+$$
+
+$$
+  b_B = \tfrac{1}{2}\left( n_e - n_tot \right)
+$$
 
 this gives a map
 
