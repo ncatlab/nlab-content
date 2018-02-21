@@ -128,6 +128,33 @@ This generalization is not vacuous either.  For instance, it is shown in [Pitts 
 
 In fact, it also seems unnecessary for the hyperdoctrine $T$ to have equality, since in constructing a topos we equip every object with a *new* partial equivalence relation to become its "equality".  However, the above construction that goes through a bicategory of relations does rely on the existence of equality, as does the statement of the universal property of this construction (since equality in $T$ gives an embedding of $C_T$ as "constant objects" in its associated topos, which is the [[unit of an adjunction]]).
 
+### A "Synthetic" View of Triposes
+
+Every tripos $P$ over a topos $S$ gives rise to a so-called "constant objects" functor $\Delta_P : S \to E = S[P]$ sending $I$ to $(I,\mathrm{eq}_I)$ where
+$\mathrm{eq}_I$ is the equality predicate on $I$ in the sense of $P$. For the 
+constant objects functor $F = \Delta_P : S \to E$ we know that
+
+(1) $F$ preserves finite limits
+
+(2) every $A$ in $E$ appears as subquotient of some $FI$
+
+(3) there is a subobject $t : T \rightarrowtail F\Sigma$ 
+    such that every mono $m : X \rightarrowtail FI$ appears 
+    as pullback of $t$ along $Ff$ for some
+    (typically not unique) map $f : I \to \Sigma$ in $S$
+
+and $P$ is obtained from the subobject fibration of $E$ along $\Delta_P$. It follows from observations in Pitts's Thesis that this way triposes over $S$
+correspond up to equivalence to functors $F$ from $S$ to toposes $E$ such that
+$F$ validates the above conditions (1)-(3). The weak triposes over $S$ correspond to $F$ which validate only conditions (1) and (2). Moreover, such
+$F$ are inverse image parts of localic geometric morphisms iff $F$ has a right adjoint.
+
+Somewhat surprisingly the "chaotic" functor $\nabla$ from $\mathbf{Set}$ to
+the topos of reflexive graphs is a weak tripos in the above sense. For
+every non-empty set $I$ the functor $(-)^I : \mathbf{Set} \to \mathbf{Set}$
+is a weak tripos. For non-isomorphic finite non-empty sets $I$ and $J$
+the functors $(-)^I$ and $(-)^J$ are not equivalent. Thus, nonequivalent weak triposes over $\mathbf{Set}$ can give rise to equivalent toposes. It is an open question whether this is also possible for genuine non-weak triposes over $\mathbf{Set}$.
+
+
 
 ## Relation to $H$-valued sets
 
