@@ -32,7 +32,7 @@ A [[topological space]] $X$ is **sober** if its [[points]] are exactly determine
 
 * The [[function]] from points of $X$ to the _[[completely prime filter|completely prime filters]]_ of its open-set lattice is a [[bijection]].
 
-* (Assuming classical logic) every [[irreducible closed set]] (non-empty closed set that is not the [[union]] of any two proper closed subsets) is the [[topological closure|closure]] of a point.
+* (Assuming classical logic) every [[irreducible closed set]] (non-empty closed set that is not the [[union]] of any two proper closed subsets) is the [[topological closure|closure]] of a unique point.
 
 In each case, half of the definition is that $X$ is [[T0]], the other half states that $X$ has __enough points__:
 
