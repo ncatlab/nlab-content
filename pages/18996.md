@@ -101,7 +101,8 @@ $$
 
 ## Examples
 
-### The supergravity C-field after splitting
+### The decomposed supergravity C-field 
+ {#SupergravityCFieldAfterSplitting}
 
 Let 
 
@@ -156,7 +157,7 @@ $$
 
 be the $\mathbb{Z} \times (\mathbb{Z}/2)$-bi-[[graded-commutative algebra]] which is freely [[generators and relations|generated]] over the [[field]] of [[real numbers]] as shown.
 
-Here for $\alpha_1$, $\alpha_2 \in CE(T_{exc,-6}\mathbb{R}^{10,1\vert\mathbf{32}})$ two elements of homogeneous bi-degree $(n_1, \sigma_1)$ and $(n_2, \sigma_2)$, respectively, the sign rule is
+Here for $\alpha_1$, $\alpha_2 \in CE(T_{exc,-6}\mathbb{R}^{10,1\vert\mathbf{32}})$ two elements of homogeneous bi-degree $(n_1, \sigma_1), (n_2, \sigma_2) \in \mathbb{Z} \times (\mathbb{Z}/2)$, respectively, the sign rule is
 
 $$
   \alpha_1 \wedge \alpha_2
@@ -250,7 +251,8 @@ $$
 Write 
 
 $$
-  n_e, b_B \;\colon\;
+  n_e, n_b 
+   \;\colon\;
   CE(T_{exc,-6}\mathbb{R}^{10,1\vert\mathbf{32}})
   \longrightarrow
   CE(T_{exc,-6}\mathbb{R}^{10,1\vert\mathbf{32}})
@@ -260,11 +262,15 @@ for the [[linear maps]] which on [[monomials]] are given by multiplication with 
 
 It is clear that $H_{(1)}$ has non-trivial H-cohomology 
 
-* at $n_e = 10, 11, b_B = 0$;
+* at $n_e = 10, 11, b_B = 0$
 
-* $n_B = 55, n_1 = 0, 1$.
+  given by elements that are proportional to the wedge product of all 11 or least least 10 factors of the generators $e^a$ (this makes these monomials be in the kernel of $H_{(1)}\wedge (-)$), and contain no factor of $B^{a b}$ (this makes them be not in the image of $H_{(1)}\wedge(-)$);
 
-In order to see if we can trivialize the $H_{(1)}$-cohomology away from these values we consider as candidate [[homotopy operator]]
+* $n_B = 55, n_1 = 0, 1$
+
+  given by elements proportional to the product of all 55 factors of the generators $B^{a b}$ (this makes these elements be in the kernel of $H_{(1)} \wedge (-)$) and containing at most one factor of $e^a$ (this makes them be not in the image of $H_{(1)} \wedge (-)$).
+
+In order to see if we can trivialize the $H_{(1)}$-cohomology away from these values, we consider as candidate [[homotopy operator]]
 the graded [[derivation]] on the [[DF-algebra]] $CE(T_{exc,-6}\mathbb{R}^{10,1\vert\mathbf{32}})$ (eq:DFAlgberaAtsIsMinus6) given by
 
 $$
@@ -359,16 +365,26 @@ $$
   ( - 220 + 4 n_B + 41 n_e - 4 n_{e,B} - 2 n_e^2)
 $$
 
-is non-zero on this subspace. As special cases we recover the two situations already seen above:
+is invertible on this subspace. 
 
-* $n_B = 0$ and $-2 n_e^2 + 42 n_e - 220 = 0$
+As special cases we recover the cohomology classes already observed above:
+
+* $n_B = 0$ and 
+  
+  $\underset{-2(n_e - 10)(n_e - 11)}{\underbrace{- 220 + 42 n_e -2 n_e} }= 0$
 
   which is equivalent to 
 
-  $n_B = 0$ and $ n_e = 10, 11$
+  $n_B = 0$ and $ n_e = 10, \, 11$
 
-* $n_e = =$ and $n_B =55$
+* $n_e = 0$ and $- 220 + 4 n_B = 0$ 
 
+  which is equivalent to 
+
+  $n_e = 0$ and $n_B = 55$
+
+
+(...)
 
 
 ## References
