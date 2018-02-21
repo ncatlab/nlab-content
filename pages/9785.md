@@ -84,6 +84,7 @@ They find, see also ([Bandos-Azcarraga-Izquierdo-PiconVarela 04](#BandosAzcarrag
 ## References
 
 ### From the M2-Cocyle
+ {#ReferencesFromTheM2Cocycle}
 
 Two versions of a fermionic extension of the Polyvector extensions of $\mathfrak{Iso}(\mathbb{R}^{10,1|32})$ on which the [[M2-brane]] [[Lie algebra cohomology|4-cocycle]] trivializes were first found in
 
