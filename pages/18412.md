@@ -6,6 +6,8 @@
 
 * [[naturalness]]
 
+* [[split supersymmetry]]
+
 * [[Higgs field]]
 
 category: people
