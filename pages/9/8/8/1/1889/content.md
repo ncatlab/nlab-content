@@ -69,6 +69,10 @@ Isn't it odd not to require any extra condition at all on the coherence morphism
 [[Mike Shulman]]: One could certainly add that as a condition, but I don't think I've ever heard of anyone having a use for it, or giving it a name.  The interesting examples listed above (and others) don't use any such condition.
 =--
 
+## Literature
+
+* R. Street, _Two constructions on lax functors_, Cahiers de Topologie et Géométrie Différentielle Catégoriques, Volume 13 (1972) no. 3 , p. 217-264 [numdam](http://www.numdam.org/item?id=CTGDC_1972__13_3_217_0 )
+
 [[!redirects lax functors]]
 [[!redirects oplax functor]]
 [[!redirects oplax functors]]
