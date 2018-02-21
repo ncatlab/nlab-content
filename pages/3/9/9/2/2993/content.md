@@ -172,6 +172,8 @@ This observation may be exploited in various neat ways. One is that if $p(x)$ is
 
 ## Related concepts
 
+* [[monomial]]
+
 * [[power series]], [[formal power series]]
 
 * [[monic polynomial]]
