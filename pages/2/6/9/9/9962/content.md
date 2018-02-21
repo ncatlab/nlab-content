@@ -47,6 +47,10 @@ A key problem is arguably that the principle has been used in a very vague and v
 
 (p. 57 (6-1))
 
+## Related concepts
+
+* [[split supersymmetry]]
+
 ## References
 
 Survey and discussion includes
