@@ -1,14 +1,13 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
-###Context###
-#### Physics
-+--{: .hide}
-[[!include physicscontents]]
-=--
+### Context
 #### Fields and quanta
 +--{: .hide}
 [[!include fields and quanta - table]]
+=--
+#### Super-Geometry
++--{: .hide}
+[[!include supergeometry - contents]]
 =--
 =--
 =--
@@ -32,11 +31,18 @@ In terms of [[Chern-Weil theory]]/[[differential cohomology]] we have that
 
 ## Related concepts
 
-[[!include fields and quanta - table]]
+* [[sfermions]]
 
+  * [[squarks]]
+
+* [[split supersymmetry]]
+
+* [[gaugino condensation]]
 
 ## References
 
 For instance around page 48 of 
 
 * F. Gieres, _Geometry of Supersymmetric Gauge Theories: Including an Introduction to BRS Differential Algebras and Anomalies_  Springer Lecture Notes in Physics 302 (1998)
+
+[[!redirects gauginos]]
