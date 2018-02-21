@@ -22,6 +22,8 @@
 
 The fundamental [[physical unit]] of [[mass]].
 
+About $10^{19}$ [[GeV]].
+
 ## Definition
 
 Two important [[physical units]] of [[length]] induced by a [[mass]] $m$ are
