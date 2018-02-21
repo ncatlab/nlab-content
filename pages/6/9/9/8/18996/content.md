@@ -106,7 +106,7 @@ The terminology "$H$-cohomology" is used in
 
 * {#Cavalcanti03} [[Gil Cavalcanti]], _New aspects of the $d d^c$-lemma_ ([arXiv:math/0501406](https://arxiv.org/abs/math/0501406))
 
-The case of H-cohomology for $H = \omega$ a graded symplectic form (as on a [[symplectic Lie n-algebroid]]) is considered in
+The case of H-cohomology for $H = \omega$ a graded symplectic form (as on a [[Poisson Lie algebroid]] regarded as a  [[symplectic Lie n-algebroid]]) is considered in
 
 * {#Severa05} [[Pavol Ševera]], p. 1 of _On the origin of the BV operator on odd symplectic supermanifolds_, Lett Math Phys (2006) 78: 55. ([arXiv:0506331](https://arxiv.org/abs/math/0506331))
 
