@@ -104,6 +104,8 @@ The set of basic triples, def. \ref{BasicTriple}, forms a [[torsor]] over the [[
 
 * [[octonionic Hopf fibration]]
 
+* [[split octonion]]
+
 [[!include exceptional spinors and division algebras -- table]]
 
 
