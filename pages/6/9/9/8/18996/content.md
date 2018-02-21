@@ -99,6 +99,242 @@ $$
 ([Cavalcanti 03, theorem 1.6](#Cavalcanti03)).
 
 
+## Examples
+
+### The supergravity C-field after splitting
+
+Let 
+
+$$
+  \label{DFAlgberaAtsIsMinus6}
+  CE(T_{exc,-6}\mathbb{R}^{10,1\vert\mathbf{32}})
+  \;\coloneqq\;
+  Sym\left(
+     (
+      \underset{
+        deg = (1,even)
+      }{
+      \underbrace{
+       e^{a}
+      }}
+     )_{a \in \{0,1,\cdots, 10\}}
+     \,,
+     (
+      \underset{
+        deg = (1,even)
+      }{
+      \underbrace{
+       B^{a b}
+       =
+       - B^{b a}
+      }}
+     )_{a,b \in \{0,1,\cdots, 10\}}
+     \,,
+     (
+      \underset{
+        deg = (1,odd)
+      }{
+      \underbrace{
+       \psi^\alpha
+      }}
+     )_{\alpha \in \{1,\cdots, 32\}}
+     \,,
+     (
+      \underset{
+        deg = (1,odd)
+      }{
+      \underbrace{
+       \eta^\alpha
+      }}
+     )_{\alpha \in \{1,\cdots, 32\}}
+  \right)
+$$
+
+be the $\mathbb{Z} \times (\mathbb{Z}/2)$-bi-[[graded-commutative algebra]] which is freely [[generators and relations|generated]] over the [[field]] of [[real numbers]] as shown.
+
+Here for $\alpha_1$, $\alpha_2 \in CE(T_{exc,-6}\mathbb{R}^{10,1\vert\mathbf{32}})$ two elements of homogeneous bi-degree $(n_1, \sigma_1)$ and $(n_2, \sigma_2)$, respectively, the sign rule is
+
+$$
+  \alpha_1 \wedge \alpha_2
+  \;=\;
+  (-1)^{n_1 n_2 + \sigma_1 \sigma_2}
+  \,
+  \alpha_2
+  \wedge
+  \alpha_1
+  \,.
+$$
+
+(See at _[[signs in supergeometry]]_ the section _[the sign rule from internalization](signs+in+supergeometry#TheSignRuleFromInternalization)_.)
+
+This is the graded-commutative algebra that underlies the _[[DF-algebra]]_ at parameter $s = -6$, which in turn is the [[Chevalley-Eilenberg algebra]] of a [[super Lie algebra]] that is a fermionic extension of the "[[M-theory super Lie algebra]]" ([Bandos-Azcarraga-Izquierdo-Picon-Varela 04, section 3](M-theory+supersymmetry+algebra#BandosAzcarragaIzquierdoPiconVarela04), based on [D'Auria-Fré 82, section 6](M-theory+supersymmetry+algebra#DAuriaFre82)).
+
+The [[differential]] on this CE-algebra, while of crucial for the role of the [[DF-algebra]] as such, is of no concern for the following discussion of H-chomology in this algebra.
+
+In the following we use the [[Einstein summation convention]] with respect to the [[Minkowski metric]] on $\mathbb{R}^{10,1}$. For example
+
+$$
+  e^a \wedge B_a{}^b
+  \;\coloneqq\;
+  - e^0 B^{0 b} 
+  +
+  \underset{a \in \{1, \cdots, 10\}}{\sum}
+  e^a \wedge B^{a b}
+  \,.
+$$
+
+In the [[DF-algebra]] (eq:DFAlgberaAtsIsMinus6), consider the following element of bi-degree $(3,even)$
+
+$$
+  \label{CFieldAtSMinusSix}
+  \begin{aligned}
+    H
+    & \coloneqq\;
+    \underset{
+      H_{(1)}
+    }{
+    \underbrace{
+     \tfrac{1}{4!}
+     B_{a b} \wedge e^a \wedge e^b  
+    }}
+    \\
+    & \phantom{\coloneqq}
+    \underset{
+      H_{(2)}
+    }{
+    \underbrace{
+     - \tfrac{1}{3 \cdot 5!}
+     B^a{}_b \wedge B^c{}_c \wedge B^c{}_a
+    }}
+    \\
+    & \phantom{\coloneqq}
+    +
+    \underset{
+      H_{(ferm)}
+    }{
+    \underbrace{
+    \tfrac{i}{4 \cdot 5!}
+    \overline{\eta}
+    \left(
+      10 \Gamma_a e^a
+      +
+      i \Gamma{a b} B^{a b}
+    \right)
+    \psi
+    }}
+  \end{aligned}
+  \,.
+$$
+
+([Bandos-Azcarraga-Izquierdo-Picon-Varela 04, (37)](M-theory+supersymmetry+algebra#BandosAzcarragaIzquierdoPiconVarela04))
+
+We want to compute the H-cohomology of this element.
+
+**Strategy:** Compute the H-cohomology of each summand in (eq:CFieldAtSMinusSix) separately with the technique from ([Ševera 05, p. 1](#Severa05)), then use the [[spectral sequence of a double complex]], twice, to put the results together.
+
+
+#### The first summand
+
+Write 
+
+$$
+  n_e, b_B \;\colon\;
+  CE(T_{exc,-6}\mathbb{R}^{10,1\vert\mathbf{32}})
+  \longrightarrow
+  CE(T_{exc,-6}\mathbb{R}^{10,1\vert\mathbf{32}})
+$$
+
+for the [[linear maps]] which on [[monomials]] are given by multiplication with the number of generators $e^a$ or the number of generators $B^{a b}$, respectively.
+
+
+Consider the graded [[derivation]] on the [[DF-algebra]] $CE(T_{exc,-6}\mathbb{R}^{10,1\vert\mathbf{32}})$ (eq:DFAlgberaAtsIsMinus6) given by
+
+$$
+  L_{(1)}
+  \coloneqq
+  \partial_{B_{ab}}\partial_{e^a}\partial_{e^b}
+$$
+
+We compute its graded commutator with $H_{(1)}$ (eq:CFieldAtSMinusSix):
+
+
+$$
+  \begin{aligned}
+    & 
+    L_{(1)} H_{(1)}\wedge(-)
+    +
+    H_{(1)}\wedge L_{(1)} (-)
+    \\
+    & = 
+    \partial_{B_{a' b'}}\partial_{e^{a'}}\partial_{e^{b'}}
+    B_{a b} \wedge e^a \wedge e^b\wedge (-)
+    +
+    B_{a b} \wedge e^a \wedge e^b\wedge 
+    \partial_{B_{a' b' }}\partial_{e^{a'}}\partial_{e^{b'}}
+    (-)
+    \\
+    & 
+    =
+    2
+    \partial_{B_{a' b}}\partial_{e^{a'}}
+    B_{a b} \wedge e^a \wedge (-)
+    -
+    \partial_{B_{a' b'}}\partial_{e^{a'}}
+    B_{a b} \wedge e^a \wedge e^b\wedge \partial_{e^{b'}} (-)
+    +
+    B_{a b} \wedge e^a \wedge e^b\wedge 
+    \partial_{B_{a' b'}}\partial_{e^{a'}}\partial_{e^{b'}}(-)
+    \\
+    & =
+    -
+    2
+    \partial_{B_{a b}}
+    B_{a b} \wedge  (-)
+    +
+    \underset{
+      = 
+      4
+      \partial_{B_{a' b}}
+      B_{a b} \wedge e^a\wedge \partial_{e^{a'}} (-)
+    }{
+    \underbrace{
+    2
+    \partial_{B_{a' b}}
+    B_{a b} \wedge e^a\wedge \partial_{e^{a'}} (-)
+    +
+    2
+    \partial_{B_{a b'}}
+    B_{a b} \wedge e^b\wedge \partial_{e^{b'}} (-)
+    }}
+    +
+    \partial_{B_{a' b'}}
+    B_{a b} \wedge e^a \wedge e^b\wedge \partial_{e^{a'}}\partial_{e^{b'}} (-)
+    +
+    B_{a b} \wedge e^a \wedge e^b\wedge 
+    \partial_{B_{a' b'}}\partial_{e^{a'}}\partial_{e^{b'}}
+    (-)
+    \\   
+    & =
+    -
+    110 \cdot
+    (-)
+    +
+    40
+    e^a \partial_{e^a}(-)
+    +
+    4 B_{a b} \wedge e^a \partial_{B_{a' b}} \partial_{e^{a'}}(-)
+    +
+    e^a \wedge e^b\wedge \partial_{e^a}\partial_{e^b} (-)
+    \\
+    & =
+    ( - 110 + 40 n_e - 4 n_e n_B - n_e(n_e - 1)) \cdot (-)
+  \end{aligned}
+$$
+
+
+
+
+
 
 ## References
 
