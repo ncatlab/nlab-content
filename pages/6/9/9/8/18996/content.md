@@ -222,7 +222,7 @@ $$
     \left(
       10 \Gamma_a e^a
       +
-      i \Gamma{a b} B^{a b}
+      i \Gamma_{a b} B^{a b}
     \right)
     \psi
     }}
@@ -343,18 +343,31 @@ $$
     +
     4 B_{a b} \wedge e^a \partial_{B_{a' b}} \partial_{e^{a'}}(-)
     +
-    e^a \wedge e^b\wedge \partial_{e^a}\partial_{e^b} (-)
+    2 e^a \wedge e^b\wedge \partial_{e^a}\partial_{e^b} (-)
     \\
     & =
-    ( - 220 + 4 n_B + 40 n_e - 4 n_e n_B - n_e(n_e - 1)) \cdot (-)
+    ( - 220 + 4 n_B + 40 n_e - 4 n_{e,B} - 2 n_e(n_e - 1)) \cdot (-)
     \\
     & =
-    ( - 220 + 4 n_B + 41 n_e - 4 n_e n_B - n_e^2) \cdot (-)
+    ( - 220 + 4 n_B + 42 n_e - 4 n_{e,B} - 2 n_e^2) \cdot (-)
   \end{aligned}
 $$
 
+If follows that a sufficient condition for $H_{(1)}$-cohomology to vanish on a subspace of forms is that 
 
+$$
+  ( - 220 + 4 n_B + 41 n_e - 4 n_{e,B} - 2 n_e^2)
+$$
 
+is non-zero on this subspace. As special cases we recover the two situations already seen above:
+
+* $n_B = 0$ and $-2 n_e^2 + 42 n_e - 220 = 0$
+
+  which is equivalent to 
+
+  $n_B = 0$ and $ n_e = 10, 11$
+
+* $n_e = =$ and $n_B =55$
 
 
 
