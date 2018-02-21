@@ -28,6 +28,17 @@ In the [[standard model of particle physics]] the proton is stable, and [[experi
 
 ## Properties
 
+### Mass
+
+
+A [[proton]] has [[rest mass]] about a [[GeV]]:
+
+$$
+  m_{proton} \simeq 0.938 GeV
+  \,.
+$$
+
+
 ### Spin
 
 The contribution of the constituents ([[quarks]], [[gluons]]) to the total [[spin]] of the proton turns out to be subtle ("proton spin crisis") [Thomas 08](#Thomas08).
