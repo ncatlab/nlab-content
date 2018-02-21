@@ -324,6 +324,9 @@ Some variant of KK is discussed in
 [[!redirects KK-compactification]]
 [[!redirects KK-compactifications]]
 
+[[!redirects KK-compactification]]
+[[!redirects KK-compactifications]]
+
 [[!redirects KK compactification]]
 [[!redirects KK compactifications]]
 
@@ -333,3 +336,4 @@ Some variant of KK is discussed in
 
 [[!redirects KK mechanism]]
 [[!redirects KK mechanisms]]
+
