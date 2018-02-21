@@ -88,7 +88,7 @@ Let $\{E^r_{p,q}\}_{r,p,q}$ be the spectral sequence of a [[double complex]] $C_
 
 * $E^2_{p,q} \simeq H_p(H^{vert}_q(C))$.
 
-Moreover, if $C_{\bullet, \bullet}$ is concentrated in the first quadrant ($0 \leq p,q$), then the spectral sequence converges to the chain homology of the total complex:
+Moreover, if $C_{\bullet, \bullet}$ is concentrated in the first quadrant ($0 \leq p,q$), then the spectral sequence [converges](spectral+sequence#ConvergenceOfSpectralSequences) to the chain homology of the total complex:
 
 $$
   E^\infty_{p,q} \simeq G_p H_{p+q}(Tot(C)_\bullet)
