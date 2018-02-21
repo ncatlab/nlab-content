@@ -241,15 +241,18 @@ One central application of balls is as building blocks for [[covering]]s. See [[
 
 ### Geometric
 
-* V. Ozols, _Largest normal neighbourhoods_ ,
+* {#Ozols}  V. Ozols, _Largest normal neighbourhoods_ ,
 Proceedings of the American Mathematical Society
 Vol. 61, No. 1 (Nov., 1976), pp. 99-101  ([jstor](http://www.jstor.org/stable/2041672))
-{#Ozols} 
+
 
 That an open subset $U \subseteq \mathbb{R}^4$ homeomorphic to $\mathbb{R}^4$ equipped with the smooth structure inherited as an open submanifold of $\mathbb{R}^4$ might nevertheless be non-diffeomorphic to $\mathbb{R}^4$, see 
 
 * De Michelis, Stefano; Freedman, Michael H. (1992) "Uncountably many exotic $\mathbb{R}^4$'s in standard 4-space", J. Diff. Geom. 35, pp. 219-254.
 {#DeMFreed} 
+
+### Star-shaped regions diffeomorphic to open ball
+ {#ReferencesStarShapedReasonDiffeomorphicToOpenBall}
 
 The proof that open star-shaped regions are diffeomorphic to a ball appears as [theorem 237](http://www.math.tu-berlin.de/~ferus/ANA/Ana3.pdf#page=154) in
 
@@ -278,7 +281,6 @@ And in
 
 * {#Lee}  Jeffrey Lee, _Manifolds and differential geometry_  (2009)
  
-
 one finds the statement:
 
 > Actually, the assertion that an open geodesically convex set in a Riemannian manifold is diffeomorphic to $\mathbb{R}^n$ is common in literature, but it is a more subtle issue than it may seem, and references to a complete proof are hard to find (but see [Grom]).
