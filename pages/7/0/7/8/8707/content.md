@@ -180,7 +180,7 @@ Monadic modal type theory with [[idempotent monads]]/monadic reflection is discu
 
 * [[Andrzej Filinski]], _Monads in Action_, POPL 2010. ([pdf](http://camlunity.ru/swap/Library/Computer%20Science/Category%20Theory/Monads%20in%20Action.pdf))
 
-* Oleg Kiselyov and Chung-chieh Shan, _Embedded Probabilistic Programming. Working conference on domain-specific languages_, (2009) ([pdf](http://www.cs.rutgers.edu/~ccshan/rational/dsl-paper.pdf))
+* Oleg Kiselyov and Chung-chieh Shan, _Embedded Probabilistic Programming. Working conference on domain-specific languages_, (2009) ([pdf](https://link.springer.com/content/pdf/10.1007/978-3-642-03034-5_17.pdf))
 
 
 See also
