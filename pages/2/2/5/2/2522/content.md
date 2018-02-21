@@ -944,6 +944,8 @@ In special dimensions supersymmetry super Lie algebras have [polyvector extensio
 
 * [[naturalness]]
 
+* [[split supersymmetry]]
+
 * [[supergeometry]], [[superalgebra]]
   
   * [[supermanifold]]
