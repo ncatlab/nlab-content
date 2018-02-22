@@ -1,4 +1,19 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Algebraic Quantum Field Theory
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
+#### Super-Geometry
++--{: .hide}
+[[!include supergeometry - contents]]
+=--
+=--
+=--
+
 #Contents#
 * table of contents
 {:toc}
@@ -6,6 +21,10 @@
 ## Idea
 
 [[gravitino]] [[condensation]], leading to [[supersymmetry breaking]] in [[supergravity]] theories.
+
+## Related concepts
+
+* [[gaugino condensation]]
 
 ## References
 
