@@ -22,6 +22,8 @@
 
 * [[gravitino condensation]]
 
+* [[gaugino condensation]]
+
 ## References
 
 * Wikipedia, _[Vacuum expectation value](http://en.wikipedia.org/wiki/Vacuum_expectation_value)_
