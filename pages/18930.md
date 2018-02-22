@@ -58,7 +58,7 @@ Consider the [[cartesian product]] functor, which can be defined by saying that 
 whose action is defined as $R(f,(g,h))(k,l) = (g \circ k \circ f, h \circ l \circ f)$.
 Then the universal property of the product functor $\times : C^2 \to C$ is encapsulated in the natural isomorphism $\alpha_{A,B,C} : R_{\times}(A,(B,C)) \Rightarrow C(A,B\times C)$.
 The forward direction of $\alpha$ is the "pairing" operation of the product, so we write it as $(-,=)$.
-By the [[Yoneda lemma]], the inverse of $\alpha$ can be reconstructed from it's action on the identity, which in this case gives us the two projections: $(\pi_{A,B},\pi'_{A,B}) = \alpha^{-1}_{A\times B, A,B}$.
+By the [[Yoneda lemma]], the inverse of $\alpha$ can be reconstructed from its action on the identity, which in this case gives us the two projections: $(\pi_{A,B},\pi'_{A,B}) = \alpha^{-1}_{A\times B, A,B}$.
 
 Then, by the above lemma, the action of $\times$ on functions is equal to:
 
