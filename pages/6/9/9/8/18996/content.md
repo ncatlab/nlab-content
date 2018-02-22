@@ -1,15 +1,21 @@
 
+> under construction
+
 
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Differential cohomology
-+--{: .hide}
-[[!include differential cohomology - contents]]
-=--
 #### Cohomology
 +--{: .hide}
 [[!include cohomology - contents]]
+=--
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+#### Differential geometry
++--{: .hide}
+[[!include synthetic differential geometry - contents]]
 =--
 =--
 =--
@@ -148,12 +154,44 @@ $$
 ([Cavalcanti 03, theorem 1.6](#Cavalcanti03)).
 
 
++-- {: .num_prop #HCohomologyNeverVanishes}
+###### Proposition
+**(H-cohomology never vanishes)**
+
+The H-cohomology of a [[finite number|finite]] [[dimension|dimensional]] [[smooth manifold]] (def. \ref{HCohomology}) and more generally of a finitely-generated [[graded-commutative algebra]] (def. \ref{HCohomologyInGradedCommutativeAlgebra}) never vanishes, independent of the choice of $H$.
+
+=--
+
+([Sackel 18](#Sackel18))
+
+
 ## Examples
+
+### Odd symplectic forms
+
++-- {: .num_example #HCohomoloyOfOddSymplecticForm}
+###### Example
+**(H-cohomology of odd symplectic form)**
+
+Let $X$ be a [[finite number|finite]] [[dimension|dimensional]] [[graded manifold]] in degrees 0 and 1 and equipped with a [[symplectic form]] $\omega$ of odd coordinate degree (e.g. the symplectic form on a [[Poisson Lie algebroid]] when regarded as a [[symplectic Lie n-algebroid]]). 
+
+Then every H-cohomology-class (def. \ref{HCohomologyInGradedCommutativeAlgebra}) for $H = \omega$ has a unique representative which on any [[local coordinate chart]] of [[Darboux coordinates]] $(x^i, p_i)_{i \in \{1, \cdots, n\}}$ is of the form
+
+$$
+  f(x,p) d x^1 \wedge \cdots \wedge d x^n
+  \,.
+$$
+
+=--
+
+([Ševera 05, p. 1](#Severa05))
 
 ### The decomposed supergravity C-field 
  {#SupergravityCFieldAfterSplitting}
 
-We discuss the H-cohomology (def. \ref{HCohomologyInGradedCommutativeAlgebra}) of the canonical degree-3 element in the _[[DF-algebra]]_, which serves as a [[supergeometry|super]]-[[exceptional geometry]]-[[tangent space]]-wise model of the [[supergravity C-field]]
+> under construction
+
+We try to discuss the H-cohomology (def. \ref{HCohomologyInGradedCommutativeAlgebra}) of the canonical degree-3 element (eq:CFieldAtSMinusSix) in the _[[DF-algebra]]_ (eq:DFAlgberaAtsIsMinus6), which serves as a [[supergeometry|super]]-[[exceptional geometry]]-[[tangent space]]-wise model of the [[supergravity C-field]].
 
 #### The DF-Algebra
 
@@ -349,7 +387,7 @@ We want to compute the H-cohomology (def. \ref{HCohomologyInGradedCommutativeAlg
 
 #### Number operators
 
-For an analyzing the $H$-cohomology of (eq:CFieldAtSMinusSix) it will be useful to consider various countings of numbers of generators.
+For analyzing the $H$-cohomology of (eq:CFieldAtSMinusSix) it will be useful to consider various countings of numbers of generators.
 
 First of all there is the plain number of generators:
 
@@ -820,13 +858,13 @@ $$
 
 But this is an [[isomorphism]] (since $n_B$ is an integer on any [[monomial]], so that the action on any monomial is by multiplication with a non-vanishing number). Hence the $H_{(2)}$-cohomology vanishes on $CE\left( T_{exc,-6}\mathbb{R}^{10,1\vert\mathbf{32}} \right)^{Spin(10,1)}_{B simp}$ (eq:BSimplePartOfDFAlgebra).
 
-But this implies that the full $(H = H_{(1)} + H_{(2)} + H_{(3)})$-cohomology vanishes on this subalgebra:
+But this should imply that the full $(H = H_{(1)} + H_{(2)} + H_{(3)})$-cohomology vanishes on this subalgebra:
 
 because if we decompose the underlying $H$-chain complex as the [[double complex]] with $d_1 \coloneqq H_{(2)}$ and $d_2 \coloneqq H_{(1)} + H_{(3)}$, then the corresponding [[spectral sequence of a double complex]] has vanishing second page when restricted to $CE\left( T_{exc,-6}\mathbb{R}^{10,1\vert\mathbf{32}} \right)^{Spin(10,1)}_{B simp}$ (eq:BSimplePartOfDFAlgebra).
 
 (?)
 
-
+(...)
 
 
 ## References
@@ -835,9 +873,13 @@ The terminology "$H$-cohomology" is used in
 
 * {#Cavalcanti03} [[Gil Cavalcanti]], _New aspects of the $d d^c$-lemma_ ([arXiv:math/0501406](https://arxiv.org/abs/math/0501406))
 
-The case of H-cohomology for $H = \omega$ a graded symplectic form (as on a [[Poisson Lie algebroid]] regarded as a  [[symplectic Lie n-algebroid]]) is considered in
+The case of H-cohomology for $H = \omega$ an odd symplectic form (as on a [[Poisson Lie algebroid]] regarded as a  [[symplectic Lie n-algebroid]]) is considered in
 
 * {#Severa05} [[Pavol Ševera]], p. 1 of _On the origin of the BV operator on odd symplectic supermanifolds_, Lett Math Phys (2006) 78: 55. ([arXiv:0506331](https://arxiv.org/abs/math/0506331))
+
+The general non-vanishing of H-cohomology is pointed out in
+
+* {#Sackel18} [[Kevin Sackel]], [MO reply Feb 22 2018](https://mathoverflow.net/a/293565/381)
 
 [[!redirects H-cohomology group]]
 [[!redirects H-cohomology groups]]
