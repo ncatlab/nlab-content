@@ -20,7 +20,7 @@
 
 ## Idea
 
-The [[spontaneously broken symmetry|spontaneous breaking]] of [[supersymmetry]]. Key to all [[phenomenology]] with global low energy supersymmetry. In [[supergravity]] for instance due to _[[gravitino condensation]]_.
+The [[spontaneously broken symmetry|spontaneous breaking]] of [[supersymmetry]]. Key to all [[phenomenology]] with global low energy supersymmetry. In [[supergravity]] for instance due to _[[gravitino condensation]]_ or _[[gaugino condensation]]_.
 
 In a supersymmetric [[Lagrangian field theory]], the [[stress-energy tensor]] $T_{\mu \nu}$ is the image of the supersymmetry [[Noether's theorem|Noether's]] [[conserved current]] $(S_{\nu \beta})$ under the [[super Lie algebra|super Lie bracket]] with the [[supercharge]] $(Q_\alpha)$
 
