@@ -156,9 +156,20 @@ $$
 
 +-- {: .num_prop #HCohomologyNeverVanishes}
 ###### Proposition
-**(H-cohomology never vanishes)**
+**(H-cohomology of sum of [[decomposable forms]] is non-vanishing)**
 
-The H-cohomology of a [[finite number|finite]] [[dimension|dimensional]] [[smooth manifold]] (def. \ref{HCohomology}) and more generally of a finitely-generated [[graded-commutative algebra]] (def. \ref{HCohomologyInGradedCommutativeAlgebra}) never vanishes, independent of the choice of $H$.
+If $H$ is a [[finite number|finite]] [[sum]] of [[decomposable differential form|decomposables]]
+
+$$
+  H 
+    \;=\; 
+  \underoverset{k = 1}{n}{\sum} 
+  \underset{deg = 1}{\underbrace{\alpha_k}} 
+    \wedge 
+  \underset{deg = 2}{\underbrace{\beta_k}}
+$$
+
+then its H-cohomology (def. \ref{HCohomologyInGradedCommutativeAlgebra}) does not vanish.
 
 =--
 
@@ -191,7 +202,7 @@ $$
 
 > under construction
 
-We try to discuss the H-cohomology (def. \ref{HCohomologyInGradedCommutativeAlgebra}) of the canonical degree-3 element (eq:CFieldAtSMinusSix) in the _[[DF-algebra]]_ (eq:DFAlgberaAtsIsMinus6), which serves as a [[supergeometry|super]]-[[exceptional geometry]]-[[tangent space]]-wise model of the [[supergravity C-field]].
+We try to discuss the H-cohomology (def. \ref{HCohomologyInGradedCommutativeAlgebra}) of the canonical degree-3 element (defined in (eq:CFieldAtSMinusSix) below) in the _[[DF-algebra]]_ (recalled in (eq:DFAlgberaAtsIsMinus6) below), which serves as a [[supergeometry|super]]-[[exceptional geometry]]-[[tangent space]]-wise model of the [[supergravity C-field]].
 
 #### The DF-Algebra
 
@@ -201,7 +212,7 @@ $$
   \label{DFAlgberaAtsIsMinus6}
   \begin{aligned}
   &
-  CE(T_{exc,-6}\mathbb{R}^{10,1\vert\mathbf{32}})
+  CE\left( T_{exc,-6}\mathbb{R}^{10,1\vert\mathbf{32}} \right)
   \\
   & \coloneqq\;
   Sym\left(
@@ -248,7 +259,7 @@ $$
 
 be the $\mathbb{Z} \times (\mathbb{Z}/2)$-bi-[[graded-commutative algebra]] which is freely [[generators and relations|generated]] over the [[field]] of [[real numbers]] as shown.
 
-Here for $\alpha_1$, $\alpha_2 \in CE(T_{exc,-6}\mathbb{R}^{10,1\vert\mathbf{32}})$ two elements of homogeneous bi-degree $(n_1, \sigma_1), (n_2, \sigma_2) \in \mathbb{Z} \times (\mathbb{Z}/2)$, respectively, the sign rule is
+Here for $\alpha_1$, $\alpha_2 \in CE\left(T_{exc,-6}\mathbb{R}^{10,1\vert\mathbf{32}}\right)$ two elements of homogeneous bi-degree $(n_1, \sigma_1), (n_2, \sigma_2) \in \mathbb{Z} \times (\mathbb{Z}/2)$, respectively, the sign rule is
 
 $$
   \alpha_1 \wedge \alpha_2
@@ -266,7 +277,7 @@ $$
 This is the graded-commutative algebra that underlies the _[[DF-algebra]]_ at parameter $s = -6$, which in turn is the [[Chevalley-Eilenberg algebra]] of a [[super Lie algebra]] that is a fermionic extension of the "[[M-theory super Lie algebra]]" ([Bandos-Azcarraga-Izquierdo-Picon-Varela 04, section 3](M-theory+supersymmetry+algebra#BandosAzcarragaIzquierdoPiconVarela04), based on [D'Auria-Fré 82, section 6](M-theory+supersymmetry+algebra#DAuriaFre82)).
 
 
-There is an [[action]] of the [[Spin group]] $Spin(10,1)$ on the algebra $CE(T_{exc,-6}\mathbb{R}^{10,1\vert\mathbf{32}})$ (eq:DFAlgberaAtsIsMinus6) which 
+There is an [[action]] of the [[Spin group]] $Spin(10,1)$ on the algebra $CE\left( T_{exc,-6}\mathbb{R}^{10,1\vert\mathbf{32}} \right)$ (eq:DFAlgberaAtsIsMinus6) which 
 
 1. on the [[linear span]] of the $(e^a)$ is the defining [[representation]] of the [[proper orthochronous Lorentz group]] (i.e. the _[[vector representation]]_), 
 
@@ -323,7 +334,7 @@ $$
   \wedge
   B^{a b}
   \;\in\;
-  CE(T_{exc,-6}\mathbb{R}^{10,1\vert\mathbf{32}})^{Spin(10,1)}
+  CE\left( T_{exc,-6}\mathbb{R}^{10,1\vert\mathbf{32}}\right)^{Spin(10,1)}
   \,.
 $$
 
@@ -343,26 +354,24 @@ $$
     H
     & \coloneqq\;
     \underset{
-      H_{(1)}
-    }{
-    \underbrace{
-     \tfrac{1}{4!}
-     B_{a b} \wedge e^a \wedge e^b  
-    }}
-    \\
-    & \phantom{\coloneqq}
-    \underset{
-      H_{(2)}
+      H_{fib}
     }{
     \underbrace{
      - \tfrac{1}{3 \cdot 5!}
      B^a{}_b \wedge B^c{}_c \wedge B^c{}_a
     }}
     \\
-    & \phantom{\coloneqq}
+    & \phantom{=} +
+    \underset{
+      H_{base,bos}
+    }{
+    \underbrace{
+     \tfrac{1}{4!}
+     B_{a b} \wedge e^a \wedge e^b  
+    }}
     +
     \underset{
-      H_{(ferm)}
+      H_{base,ferm}
     }{
     \underbrace{
     \tfrac{i}{4 \cdot 5!}
@@ -380,7 +389,7 @@ $$
 
 ([Bandos-Azcarraga-Izquierdo-Picon-Varela 04, (37)](M-theory+supersymmetry+algebra#BandosAzcarragaIzquierdoPiconVarela04))
 
-We want to compute the H-cohomology (def. \ref{HCohomologyInGradedCommutativeAlgebra})of this element.
+We want to compute the H-cohomology (def. \ref{HCohomologyInGradedCommutativeAlgebra}) of this element.
 
 **Strategy:** Compute the H-cohomology of each summand in (eq:CFieldAtSMinusSix) separately with the technique from ([Ševera 05, p. 1](#Severa05)), then use the [[spectral sequence of a double complex]], twice, to put the results together.
 
@@ -396,9 +405,9 @@ Write
 $$
   n_e, n_b 
    \;\colon\;
-  CE(T_{exc,-6}\mathbb{R}^{10,1\vert\mathbf{32}})
+  CE\left( T_{exc,-6}\mathbb{R}^{10,1\vert\mathbf{32}} \right)
   \longrightarrow
-  CE(T_{exc,-6}\mathbb{R}^{10,1\vert\mathbf{32}})
+  CE\left( T_{exc,-6}\mathbb{R}^{10,1\vert\mathbf{32}} \right)
 $$
 
 for the [[linear maps]] which on [[monomials]] are given by multiplication with the number of generators $e^a$ or the number of generators $B^{a b}$, respectively.
@@ -455,148 +464,13 @@ Proof: Observe that $n_{B,B}$ commutes with the $Spin(10,1)$-action (since its a
 
 
 
-#### The first summand
-
-We discuss the H-cohomology (def. \ref{HCohomologyInGradedCommutativeAlgebra}) of the first summand in (eq:CFieldAtSMinusSix)
-
-$$
-  H_{(1)}
-  \;\coloneqq\;
-  B_{a b} \wedge e^a \wedge e^b  
-$$
-
-
-It is clear that $H_{(1)}$ has non-trivial H-cohomology 
-
-* at $n_e = 10, 11, b_B = 0$
-
-  given by elements that are proportional to the wedge product of all 11 or least least 10 factors of the generators $e^a$ (this makes these monomials be in the kernel of $H_{(1)}\wedge (-)$), and contain no factor of $B^{a b}$ (this makes them be not in the image of $H_{(1)}\wedge(-)$);
-
-* $n_B = 55, n_1 = 0, 1$
-
-  given by elements proportional to the product of all 55 factors of the generators $B^{a b}$ (this makes these elements be in the kernel of $H_{(1)} \wedge (-)$) and containing at most one factor of $e^a$ (this makes them be not in the image of $H_{(1)} \wedge (-)$).
-
-In order to see if we can trivialize the $H_{(1)}$-cohomology away from these values, we consider as candidate [[homotopy operator]]
-the graded [[derivation]] on the [[DF-algebra]] $CE(T_{exc,-6}\mathbb{R}^{10,1\vert\mathbf{32}})$ (eq:DFAlgberaAtsIsMinus6) given by
-
-$$
-  L_{(1)}
-  \coloneqq
-  \partial_{B_{ab}}\partial_{e^a}\partial_{e^b}
-$$
-
-Its graded commutator with $H_{(1)}$ (eq:CFieldAtSMinusSix) is the following:
-
-$$
-  \begin{aligned}
-    & 
-    L_{(1)} H_{(1)}\wedge(-)
-    +
-    H_{(1)}\wedge L_{(1)} (-)
-    \\
-    & = 
-    \partial_{B_{a' b'}}\partial_{e^{a'}}\partial_{e^{b'}}
-    B_{a b} \wedge e^a \wedge e^b\wedge (-)
-    +
-    B_{a b} \wedge e^a \wedge e^b\wedge 
-    \partial_{B_{a' b' }}\partial_{e^{a'}}\partial_{e^{b'}}
-    (-)
-    \\
-    & 
-    =
-    2
-    \partial_{B_{a' b}}\partial_{e^{a'}}
-    B_{a b} \wedge e^a \wedge (-)
-    -
-    \partial_{B_{a' b'}}\partial_{e^{a'}}
-    B_{a b} \wedge e^a \wedge e^b\wedge \partial_{e^{b'}} (-)
-    +
-    B_{a b} \wedge e^a \wedge e^b\wedge 
-    \partial_{B_{a' b'}}\partial_{e^{a'}}\partial_{e^{b'}}(-)
-    \\
-    & =
-    -
-    2
-    \partial_{B_{a b}}
-    B_{a b} \wedge  (-)
-    +
-    \underset{
-      = 
-      4
-      \partial_{B_{a' b}}
-      B_{a b} \wedge e^a\wedge \partial_{e^{a'}} (-)
-    }{
-    \underbrace{
-    2
-    \partial_{B_{a' b}}
-    B_{a b} \wedge e^a\wedge \partial_{e^{a'}} (-)
-    +
-    2
-    \partial_{B_{a b'}}
-    B_{a b} \wedge e^b\wedge \partial_{e^{b'}} (-)
-    }}
-    +
-    \partial_{B_{a' b'}}
-    B_{a b} \wedge e^a \wedge e^b\wedge \partial_{e^{a'}}\partial_{e^{b'}} (-)
-    +
-    B_{a b} \wedge e^a \wedge e^b\wedge 
-    \partial_{B_{a' b'}}\partial_{e^{a'}}\partial_{e^{b'}}
-    (-)
-    \\   
-    & =
-    -
-    220 \cdot
-    (-)
-    +
-    2 B_{a b} \wedge \partial_{B_{a b}} (-)
-    +
-    40
-    e^a \wedge \partial_{e^a}(-)
-    +
-    4 B_{a b} \wedge e^a \partial_{B_{a' b}} \partial_{e^{a'}}(-)
-    +
-    2 e^a \wedge e^b\wedge \partial_{e^a}\partial_{e^b} (-)
-    \\
-    & =
-    ( - 220 + 4 n_B + 40 n_e - 4 n_{e,B} - 2 n_e(n_e - 1)) \cdot (-)
-    \\
-    & =
-    ( - 220 + 4 n_B + 42 n_e - 4 n_{e,B} - 2 n_e^2) \cdot (-)
-  \end{aligned}
-$$
-
-If follows that a sufficient condition for $H_{(1)}$-cohomology to vanish on a subspace of forms is that 
-
-$$
-  ( - 220 + 4 n_B + 41 n_e - 4 n_{e,B} - 2 n_e^2)
-$$
-
-is invertible on this subspace. 
-
-As special cases we recover the cohomology classes already observed above:
-
-* $n_B = 0$ and 
-  
-  $\underset{-2(n_e - 10)(n_e - 11)}{\underbrace{- 220 + 42 n_e -2 n_e} }= 0$
-
-  which is equivalent to 
-
-  $n_B = 0$ and $ n_e = 10, \, 11$
-
-* $n_e = 0$ and $- 220 + 4 n_B = 0$ 
-
-  which is equivalent to 
-
-  $n_e = 0$ and $n_B = 55$
-
-
-#### The second summand
+#### The fiber term
   {#TheSecondSummand}
 
-We discuss the H-cohomology (def. \ref{HCohomologyInGradedCommutativeAlgebra}) of the second summand in (eq:CFieldAtSMinusSix)
+We discuss the H-cohomology (def. \ref{HCohomologyInGradedCommutativeAlgebra}) of the fiber summand in (eq:CFieldAtSMinusSix)
 
 $$
-  H_{(2)}
+  H_{fib}
   \;\coloneqq\;
   B^a{}_b \wedge B^b{}_c \wedge B^c{}_a
   \,.
@@ -605,21 +479,21 @@ $$
 As a candidate [[homotopy operator]], consider
 
 $$
-  L_{(2)}
+  L_{fib}
   \;\coloneqq\;
   \partial_{B^{a}{}_b}
   \partial_{B^{b}{}_c}
   \partial_{B^{c}{}_a}
 $$
 
-We compute the anticommutator of this with $H_{(2)}$:
+We compute the anticommutator of this with $H_{(fib)}$:
 
 $$
   \begin{aligned}
     & 
-    L_{(2)} H_{(2)} \wedge (-)
+    L_{fib} H_{fib} \wedge (-)
     +
-    H_{(2)} \wedge L_{(2)} (-)
+    H_{fib} \wedge L_{fib} (-)
     \\ 
     & =    
     \partial_{B^{a'}{}_{b'}}
@@ -856,15 +730,156 @@ $$
     (-)
 $$
 
-But this is an [[isomorphism]] (since $n_B$ is an integer on any [[monomial]], so that the action on any monomial is by multiplication with a non-vanishing number). Hence the $H_{(2)}$-cohomology vanishes on $CE\left( T_{exc,-6}\mathbb{R}^{10,1\vert\mathbf{32}} \right)^{Spin(10,1)}_{B simp}$ (eq:BSimplePartOfDFAlgebra).
+But this is an [[isomorphism]] (since $n_B$ is an integer on any [[monomial]], so that the action on any monomial is by multiplication with a non-vanishing number). Hence the $H_{fib}$-cohomology vanishes on $CE\left( T_{exc,-6}\mathbb{R}^{10,1\vert\mathbf{32}} \right)^{Spin(10,1)}_{B simp}$ (eq:BSimplePartOfDFAlgebra).
 
-But this should imply that the full $(H = H_{(1)} + H_{(2)} + H_{(3)})$-cohomology vanishes on this subalgebra:
+But this should imply that the full $(H = H_{fib} + H_{base,bos} +  + H_{base,ferm})$-cohomology vanishes on this subalgebra:
 
-because if we decompose the underlying $H$-chain complex as the [[double complex]] with $d_1 \coloneqq H_{(2)}$ and $d_2 \coloneqq H_{(1)} + H_{(3)}$, then the corresponding [[spectral sequence of a double complex]] has vanishing second page when restricted to $CE\left( T_{exc,-6}\mathbb{R}^{10,1\vert\mathbf{32}} \right)^{Spin(10,1)}_{B simp}$ (eq:BSimplePartOfDFAlgebra).
+because if we decompose the underlying $H$-chain complex as the [[double complex]] with $d_1 \coloneqq H_{fib}$ and $d_2 \coloneqq H_{base,bos} + H_{base,ferm}$, then the corresponding [[spectral sequence of a double complex]] has vanishing second page when restricted to $CE\left( T_{exc,-6}\mathbb{R}^{10,1\vert\mathbf{32}} \right)^{Spin(10,1)}_{B simp}$ (eq:BSimplePartOfDFAlgebra).
 
 (?)
 
 (...)
+
+
+
+#### The base term
+
+We discuss the H-cohomology (def. \ref{HCohomologyInGradedCommutativeAlgebra}) of the bosonic base summand in (eq:CFieldAtSMinusSix)
+
+$$
+  H_{base,bos}
+  \;\coloneqq\;
+  B_{a b} \wedge e^a \wedge e^b  
+$$
+
+
+It is clear that $H_{base,bos}$ has non-trivial H-cohomology 
+
+* at $n_e = 10, 11, b_B = 0$
+
+  given by elements that are proportional to the wedge product of all 11 or least least 10 factors of the generators $e^a$ (this makes these monomials be in the kernel of $H_{base,bos}\wedge (-)$), and contain no factor of $B^{a b}$ (this makes them be not in the image of $H_{base,bos}\wedge(-)$);
+
+* $n_B = 55, n_1 = 0, 1$
+
+  given by elements proportional to the product of all 55 factors of the generators $B^{a b}$ (this makes these elements be in the kernel of $H_{base,bos} \wedge (-)$) and containing at most one factor of $e^a$ (this makes them be not in the image of $H_{base,bos} \wedge (-)$).
+
+In order to see if we can trivialize the $H_{base,bos}$-cohomology away from these values, we consider as candidate [[homotopy operator]]
+the graded [[derivation]] on the [[DF-algebra]] $CE(T_{exc,-6}\mathbb{R}^{10,1\vert\mathbf{32}})$ (eq:DFAlgberaAtsIsMinus6) given by
+
+$$
+  L_{base,bos}
+  \coloneqq
+  \partial_{B_{ab}}\partial_{e^a}\partial_{e^b}
+$$
+
+Its graded commutator with $H_{base,bos}$ (eq:CFieldAtSMinusSix) is the following:
+
+$$
+  \begin{aligned}
+    & 
+    L_{base,bos} H_{base,bos}\wedge(-)
+    +
+    H_{base,bos}\wedge L_{base,bos} (-)
+    \\
+    & = 
+    \partial_{B_{a' b'}}\partial_{e^{a'}}\partial_{e^{b'}}
+    B_{a b} \wedge e^a \wedge e^b\wedge (-)
+    +
+    B_{a b} \wedge e^a \wedge e^b\wedge 
+    \partial_{B_{a' b' }}\partial_{e^{a'}}\partial_{e^{b'}}
+    (-)
+    \\
+    & 
+    =
+    2
+    \partial_{B_{a' b}}\partial_{e^{a'}}
+    B_{a b} \wedge e^a \wedge (-)
+    -
+    \partial_{B_{a' b'}}\partial_{e^{a'}}
+    B_{a b} \wedge e^a \wedge e^b\wedge \partial_{e^{b'}} (-)
+    +
+    B_{a b} \wedge e^a \wedge e^b\wedge 
+    \partial_{B_{a' b'}}\partial_{e^{a'}}\partial_{e^{b'}}(-)
+    \\
+    & =
+    -
+    2
+    \partial_{B_{a b}}
+    B_{a b} \wedge  (-)
+    +
+    \underset{
+      = 
+      4
+      \partial_{B_{a' b}}
+      B_{a b} \wedge e^a\wedge \partial_{e^{a'}} (-)
+    }{
+    \underbrace{
+    2
+    \partial_{B_{a' b}}
+    B_{a b} \wedge e^a\wedge \partial_{e^{a'}} (-)
+    +
+    2
+    \partial_{B_{a b'}}
+    B_{a b} \wedge e^b\wedge \partial_{e^{b'}} (-)
+    }}
+    +
+    \partial_{B_{a' b'}}
+    B_{a b} \wedge e^a \wedge e^b\wedge \partial_{e^{a'}}\partial_{e^{b'}} (-)
+    +
+    B_{a b} \wedge e^a \wedge e^b\wedge 
+    \partial_{B_{a' b'}}\partial_{e^{a'}}\partial_{e^{b'}}
+    (-)
+    \\   
+    & =
+    -
+    220 \cdot
+    (-)
+    +
+    2 B_{a b} \wedge \partial_{B_{a b}} (-)
+    +
+    40
+    e^a \wedge \partial_{e^a}(-)
+    +
+    4 B_{a b} \wedge e^a \partial_{B_{a' b}} \partial_{e^{a'}}(-)
+    +
+    2 e^a \wedge e^b\wedge \partial_{e^a}\partial_{e^b} (-)
+    \\
+    & =
+    ( - 220 + 4 n_B + 40 n_e - 4 n_{e,B} - 2 n_e(n_e - 1)) \cdot (-)
+    \\
+    & =
+    ( - 220 + 4 n_B + 42 n_e - 4 n_{e,B} - 2 n_e^2) \cdot (-)
+  \end{aligned}
+$$
+
+If follows that a sufficient condition for $H_{base,bos}$-cohomology to vanish on a subspace of forms is that 
+
+$$
+  ( - 220 + 4 n_B + 41 n_e - 4 n_{e,B} - 2 n_e^2)
+$$
+
+is invertible on this subspace. 
+
+Hence in particular $L_{fib}$ does _not_ trivalize the $H_{fib}$-cohomology for
+
+* $n_B = 0$ and 
+  
+  $\underset{-2(n_e - 10)(n_e - 11)}{\underbrace{- 220 + 42 n_e -2 n_e} }= 0$
+
+  which is equivalent to 
+
+  $n_B = 0$ and $ n_e = 10, \, 11$
+
+* $n_e = 0$ and $- 220 + 4 n_B = 0$ 
+
+  which is equivalent to 
+
+  $n_e = 0$ and $n_B = 55$
+
+These are just the values for which we indeed observed non-trivial $H_{fib}$-cohomology classes above.
+
+(...)
+
 
 
 ## References
