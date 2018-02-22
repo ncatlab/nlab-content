@@ -130,23 +130,18 @@ In fact, it also seems unnecessary for the hyperdoctrine $T$ to have equality, s
 
 ### A "Synthetic" View of Triposes
 
-Every tripos $P$ over a topos $S$ gives rise to a so-called "constant objects" functor $\Delta_P : S \to E = S[P]$ sending $I$ to $(I,\mathrm{eq}_I)$ where
-$\mathrm{eq}_I$ is the equality predicate on $I$ in the sense of $P$. For the 
-constant objects functor $F = \Delta_P : S \to E$ we know that
+Every tripos $P$ over a topos $S$ gives rise to a so-called "constant objects" functor $\Delta_P : S \to E$ where $E$ is the topos $S[P]$ induced by $P$. It sends $I$ to $(I,\mathrm{eq}_I)$ where $\mathrm{eq}_I$ is the equality predicate on $I$ in the sense of $P$. For the constant objects functor $F = \Delta_P : S \to E$ we know that
 
-(1) $F$ preserves finite limits
+1. $F$ preserves finite limits
 
-(2) every $A$ in $E$ appears as subquotient of some $FI$
+2. every $A$ in $E$ appears as subquotient of $F I$ for some $I$ in $S$
 
-(3) there is a subobject $t : T \rightarrowtail F\Sigma$ 
-    such that every mono $m : X \rightarrowtail FI$ appears 
-    as pullback of $t$ along $Ff$ for some
-    (typically not unique) map $f : I \to \Sigma$ in $S$
+3. there is a subobject $t : T \rightarrowtail F\Sigma$ 
+   such that every mono $m : X \rightarrowtail F I$ appears 
+   as pullback of $t$ along $Ff$ for some (typically not unique) map 
+   $f : I \to \Sigma$ in $S$
 
-and $P$ is obtained from the subobject fibration of $E$ along $\Delta_P$. It follows from observations in Pitts's Thesis that this way triposes over $S$
-correspond up to equivalence to functors $F$ from $S$ to toposes $E$ such that
-$F$ validates the above conditions (1)-(3). The weak triposes over $S$ correspond to $F$ which validate only conditions (1) and (2). Moreover, such
-$F$ are inverse image parts of localic geometric morphisms iff $F$ has a right adjoint.
+and that $P$ is obtained from the subobject fibration of $E$ by change of base along along $\Delta_P$. It follows from observations in Pitts's Thesis that this way triposes over $S$ correspond up to equivalence to functors $F$ from $S$ to toposes $E$ such that $F$ validates the above conditions (1)-(3). Moreover, weak triposes over $S$ correspond to $F$ which validate only conditions (1) and (2). Such $F$ are inverse image parts of localic geometric morphisms iff $F$ has a right adjoint.
 
 Somewhat surprisingly the "chaotic" functor $\nabla$ from $\mathbf{Set}$ to
 the topos of reflexive graphs is a weak tripos in the above sense. For
