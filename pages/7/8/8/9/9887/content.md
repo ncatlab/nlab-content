@@ -554,7 +554,7 @@ using results from
 
 Another proof due to [[Mike Hopkins]] is in
 
-* {#HopkinsMathew} [[Akhil Mathew]] (following [[Mike Hopkins]]), _Snaith's construction of complex K-theory_ ([pdf](http://people.fas.harvard.edu/~amathew/snaith.pdf))
+* {#HopkinsMathew} [[Akhil Mathew]] (following [[Mike Hopkins]]), _Snaith's construction of complex K-theory_ ([pdf](http://math.uchicago.edu/~amathew/snaith.pdf))
 
 Refinement to [[smooth spectra]] and [[differential K-theory]] is in
 
