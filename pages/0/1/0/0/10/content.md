@@ -428,7 +428,7 @@ $$
   }
 $$
 
-in that for $X \to \mathbf{B}G$ a morphism, the corresponding $G$-[[principal ∞-bundle]] in [[? Grpd]] is the [[homotopy pullback]]
+in that for $X \to \mathbf{B}G$ a morphism, the corresponding $G$-[[principal ∞-bundle]] in [[∞Grpd]] is the [[homotopy pullback]]
 
 $$
   \array{
