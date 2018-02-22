@@ -1,12 +1,10 @@
 <div style="float:right;margin:0 20px 10px 20px;"><img  border="1" height="225" width="225" src="https://ncatlab.org/nlab/files/DavidRoberts2014.jpg" alt="David Roberts speaking at Herriot-Watt, June 2014" title="Speaking at Herriot-Watt, June 2014"/></div>
 
-I am currently a visiting research fellow at the [Institute for Geometry and its Applications](http://www.iga.adelaide.edu.au/) in the [School of Mathematical Sciences](http://maths.adelaide.edu.au/) at the University of Adelaide.
-
-For the period July-2017-February 2018 I will be a Lecturer at the University of Adelaide. After that I will take up a position as a Senior Research Associate for 2.5 years.
+I am currently a Research Associate (that is, a postdoc) at the [Institute for Geometry and its Applications](http://www.iga.adelaide.edu.au/) in the [School of Mathematical Sciences](http://maths.adelaide.edu.au/) at the University of Adelaide.
 
 I work on [[bundle gerbes]], [[principal 2-bundles|2-bundles]], [[geometric stacks]] and [[internal category|internal groupoids and categories]], and [[category theory]] more generally with a side interest in [[foundations]]. I have a particular interest in constructing examples in (low-dimensional) [[higher geometry]].
 
-I was a Research Associate (i.e. a postdoc) at the University of Adelaide from October 2013 to April 2015.
+I was a Research Associate (i.e. a postdoc) at the University of Adelaide from October 2013 to April 2015. For the period July-2017 to February 2018 I was a Lecturer in the School of Mathematical Sciences.
 
 You may also find me on: [MathSciNet](https://www.ams.org/mathscinet/search/author.html?mrauthid=788905)|[MathOverflow](https://mathoverflow.net/users/4177/david-roberts)|[Google+](https://plus.google.com/+DavidRoberts/)|[arXiv](https://arxiv.org/a/roberts_d_1.html)|[ORCiD](http://orcid.org/0000-0002-3478-0522)|[Publons](publons.com/a/430214/)
 
@@ -22,7 +20,7 @@ If you need it, here is my email:  droberts.[fifth and largest-known [[Fermat pr
 ### Papers
 
 
-* _Smooth loop stacks of differentiable stacks and gerbes_, [arXiv:1602.07973](https://arxiv.org/abs/1602.07973). Accepted 15 January 2018 to appear, [[Cahiers de Topologie et Géométrie Différentielle Catégoriques]]. Joint with [[nLab:Raymond Vozzo|Raymond Vozzo]].
+* _Smooth loop stacks of differentiable stacks and gerbes_, [arXiv:1602.07973](https://arxiv.org/abs/1602.07973). Accepted 15 January 2018 to appear, [[Cahiers de Topologie et Géométrie Différentielle Catégoriques]], Vol LIX (2018). Joint with [[nLab:Raymond Vozzo|Raymond Vozzo]].
 
 * _The smooth Hom-stack of an orbifold_, [arXiv:1610.05904](https://arxiv.org/abs/1610.05904). To appear in the [2016 MATRIX Annals](https://www.matrix-inst.org.au/2016-matrix-annals/). (Accepted 13 December 2016) ([SpringerLink](https://www.springer.com/gp/book/9783319722986) - to be published March 2018). Joint with [[nLab:Raymond Vozzo|Raymond Vozzo]]
 
