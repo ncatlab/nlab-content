@@ -4,4 +4,8 @@
 
 * [Wikipedia entry](https://en.wikipedia.org/wiki/Charles_Thorn)
 
+## Related $n$Lab entries
+
+* [[string bit model]]
+
 category: people
