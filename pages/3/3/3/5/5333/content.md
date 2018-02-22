@@ -135,7 +135,7 @@ Textbook accounts include
 
 ### Superspace formulation of Heterotic supergravity 
 
-Discussion of heterotic suprgravity in terms of [[superspace]] includes the following.
+Discussion of heterotic supergravity in terms of [[superspace]] includes the following.
 
 One solution of the heterotic superspace [[Bianchi identities]] is due to
 
