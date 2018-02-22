@@ -138,7 +138,7 @@ Every tripos $P$ over a topos $S$ gives rise to a so-called "constant objects" f
 
 3. there is a subobject $t : T \rightarrowtail F\Sigma$ 
    such that every mono $m : X \rightarrowtail F I$ appears 
-   as pullback of $t$ along $Ff$ for some (typically not unique) map 
+   as pullback of $t$ along $F f$ for some (typically not unique) map 
    $f : I \to \Sigma$ in $S$
 
 and that $P$ is obtained from the subobject fibration of $E$ by change of base along along $\Delta_P$. It follows from observations in Pitts's Thesis that this way triposes over $S$ correspond up to equivalence to functors $F$ from $S$ to toposes $E$ such that $F$ validates the above conditions (1)-(3). Moreover, weak triposes over $S$ correspond to $F$ which validate only conditions (1) and (2). Such $F$ are inverse image parts of localic geometric morphisms iff $F$ has a right adjoint.
