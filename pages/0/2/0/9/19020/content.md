@@ -27,7 +27,7 @@ As a result, in such [[model (physics)|models]] there is a "split" of the [[mass
 
 1. the [[scalar field|scalar]] [[superpartners]] (the [[sfermions]], hence the [[squarks]] and [[sleptons]]) have high [[rest masses]], from tens of [[TeV]] (mass scale of the [[gravitino]]) up to the [[supersymmetry breaking]]-scale many order of magnitudes higher;
 
-1. the fermionic [[superpartners]] ([[gauginos]] and [[higgsino]]) have masses much closer to the [[electroweak symmetry breaking]] scale, at about one [[TeV]].
+1. the fermionic [[superpartners]] ([[gauginos]] and [[higgsino]]) have masses much closer to the [[electroweak symmetry breaking]] scale, at about a few [[TeV]].
 
 (see [Arkani-Hamed, Dimopoulos, Giudice, Romanino 05, p 2.](#ArkaniHamedDimopoulosGiudiceRomanino05))
 
