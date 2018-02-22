@@ -79,7 +79,7 @@ The concept was introduced on the level of differential form data in
 
 * {#BouwknegtEvslinMathai04} [[Peter Bouwknegt]], [[Jarah Evslin]], [[Varghese Mathai]], _T-Duality: Topology Change from H-flux_, Commun. Math. Phys. 249:383-415, 2004 ([hep-th/0306062](http://arxiv.org/abs/hep-th/0306062)) 
 
-* {#BouwknegtHannabusMathai04} [[Peter Bouwknegt]], [[Keith Hannabus]] [[Varghese Mathai]], _T-duality for principal torus bundles_, JHEP 0403 (2004) 018 ([hep-th/0312284](http://arxiv.org/abs/hep-th/0312284)) 
+* {#BouwknegtHannabusMathai04} [[Peter Bouwknegt]], [[Keith Hannabus]], [[Varghese Mathai]], _T-duality for principal torus bundles_, JHEP 0403 (2004) 018 ([hep-th/0312284](http://arxiv.org/abs/hep-th/0312284)) 
 
 In these papers the $U(1)$-[[gerbe]] ([[circle 2-bundle with connection]]) does not appear, but an integral [[differential 3-form]], representing its [[Dixmier-Douady class]] does. Note that if the [[Eilenberg-MacLane spectrum|integral]] [[cohomology group]] $H^3(X,\mathbb{Z})$ of $X$ has [[torsion]] in dimension three, not all gerbes will arise in this way.  The formalization with the above data originates in 
 
