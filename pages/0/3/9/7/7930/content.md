@@ -8,7 +8,7 @@
 [[!include representation theory - contents]]
 =--
 =--
-#### Higher spin geometry
+#### Spin geometry
 +-- {: .hide}
 [[!include higher spin geometry - contents]]
 =--
@@ -1794,6 +1794,8 @@ $$
 
 
 ## Related entries
+
+* [[vector representation]]
 
 * [[angular momentum]]
 
