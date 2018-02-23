@@ -5,7 +5,7 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Cohomology
+#### Cohomologynow 
 +--{: .hide}
 [[!include cohomology - contents]]
 =--
@@ -137,22 +137,7 @@ is the _H-cohomology_ of $\mathcal{A}$.
 
 ## Properties
 
-+-- {: .num_prop #TwistedDeRhamCohomologyCoincidesWithHCohomologyOnInfinitesimllayThickenedPoint}
-###### Proposition
-
-If the [[de Rham complex]] $(\Omega^\bullet(X),d_{dr})$ is [[formal dg-algebra|formal]], then for $H \in \Omega_{cl}^3(X)$ a [[closed differential form|closed]] [[differential 3-form]], the H-cohomology of $X$ (def. \ref{HCohomology}) coincides with its $H$-[[twisted de Rham cohomology]]:
-
-$$
-  H^\bullet_{H \wedge (-)}(X)
-  \simeq
-  H^\bullet_{d + H \wedge (-)}(X)
-  \,.
-$$ 
-
-=--
-
-([Cavalcanti 03, theorem 1.6](#Cavalcanti03)).
-
+### Detection of decomposability
 
 +-- {: .num_prop #HCohomologyNeverVanishes}
 ###### Proposition
@@ -163,18 +148,88 @@ If $H$ is a [[finite number|finite]] [[sum]] of [[decomposable differential form
 $$
   H 
     \;=\; 
-  \underoverset{k = 1}{n}{\sum} 
-  \underset{deg = 1}{\underbrace{\alpha_k}} 
+  \underoverset{i = 1}{k}{\sum} 
+  \underset{deg = 1}{\underbrace{\alpha_i}} 
     \wedge 
-  \underset{deg = 2}{\underbrace{\beta_k}}
+  \underset{deg = 2}{\underbrace{\beta_i}}
 $$
 
 then its H-cohomology (def. \ref{HCohomologyInGradedCommutativeAlgebra}) does not vanish.
 
 =--
 
-([Sackel 18](#Sackel18))
+This statement and the following proof are due to [Sackel 18](#Sackel18).
 
++-- {: .proof}
+###### Proof
+
+
+We proceed by contradiction, supposing that the $H$-cohomology does vanish on $M$. Our key claim is the following:
+
+**Claim:** For any sequece $1 \leq i_1 < \ldots < i_{\ell} \leq k$, there exist differential forms $\gamma_{i_1\cdots i_{\ell}} \in \Omega^{k-3-\ell}(M)$ (in particular they are zero if $\ell > k-3$) such that the differential forms 
+
+$$
+  \alpha_{\widehat{i_1\cdots i_{\ell}}} 
+  \;\coloneqq\; 
+  \alpha_1 \wedge \cdots \wedge \widehat{\alpha_{i_1}} \wedge \cdots \wedge \widehat{\alpha_{i_{\ell}}} \wedge \cdots \wedge \alpha_k
+$$ 
+
+satisfy 
+
+$$
+  \alpha_{\widehat{i_1\cdots i_{\ell}}} \
+  \;=\; 
+   (-1)^{i_1+\cdots+i_{\ell}+\ell} 
+   \left(
+      H 
+        \wedge 
+     \gamma_{i_1\cdots i_{\ell}} 
+        + 
+     \sum_{j=1}^{\ell}(-1)^{j+1}
+       \beta_{i_j}
+       \wedge 
+      \gamma_{i_1\cdots\widehat{i_j}\cdots i_{\ell}}
+   \right)
+   \,.
+$$
+
+**Remark on Notation:** If $\ell = 0$, then we just take $\alpha_{\widehat{\emptyset}} = \alpha_1 \wedge \cdots \wedge \alpha_k$. Similarly, we take $1 = \alpha_{\widehat{1,2,\ldots,k}}$.
+
+**Claim implies result:** For the case of $1 = \alpha_{\widehat{1,2,\ldots,k}}$, we see that the right-hand side of the equation is just $0$ since the the corresponding $\gamma$ terms are in negative degree. This yields a contradiction. (One could also have taken $\ell = k-1$ instead of $k$ and assumed that the decomposition of $H$ had minimal $k$.)
+
+**Proof of claim:** We proceed by induction on $\ell$, beginning with the case of $\ell = 0$. We see that 
+
+$$
+  H 
+    \wedge 
+  (\alpha_1 \wedge \cdots \wedge \alpha_k) = 0
+  \,,
+$$ 
+
+and so by the assumption of vanishing of $H$-cohomology, indeed we find $\alpha_{\widehat{\emptyset}} = H \wedge \gamma_{\emptyset}$.
+
+Now suppose that we have that the formula holds for all $\ell < \ell_0$. Then
+
+$$
+  \begin{aligned}
+   H 
+   \wedge 
+  \alpha_{\widehat{i_1\cdots i_{\ell_0}}} 
+   &=  \sum_{i=1}^{k} \beta_i \wedge \alpha_i \wedge \alpha_{\widehat{i_1\cdots i_{\ell_0}}} 
+   \\
+   &= \sum_{j=1}^{\ell_0} (-1)^{i_j+j}\beta_{i_j} \wedge \alpha_{\widehat{i_1\cdots \widehat{i_j}\cdots i_{\ell_0}}} 
+   \\
+   &= \sum_{j=1}^{\ell_0} (-1)^{i_1 + \cdots + i_{\ell_0}+\ell_0+j+1}\beta_{i_j} \wedge 
+   \left(H \wedge \gamma_{i_1\cdots \widehat{i_j}\cdots i_{\ell_0}}+\sum_{k=1}^{j-1}(-1)^{k+1}\beta_{i_k}\wedge \gamma_{i_1\cdots \widehat{i_k} \cdots \widehat{i_j} \cdots i_{\ell_0}} + \sum_{k=j+1}^{\ell_0}(-1)^k\beta_{i_k}\wedge \gamma_{i_1\cdots \widehat{i_j} \cdots \widehat{i_k} \cdots i_{\ell_0}}\right) 
+  \\
+  &=
+  (-1)^{i_1 + \cdots + i_{\ell_0}+\ell_0}\sum_{j=1}^{\ell_0} H \wedge (-1)^{j+1}\beta_{i_j} \wedge \gamma_{i_1\cdots \widehat{i_j}\cdots i_{\ell_0}}
+  \end{aligned}
+$$
+
+By vanishing of $H$-cohomology, the inductive step now follows.
+
+=--
 
 ## Examples
 
