@@ -127,7 +127,7 @@ However:
 ###### Proposition
 **image factorization**
 
-In a regular category, every morphism $f : x\to Y$ can be factored -- uniquely up to [[isomorphism]] -- through its [[image]] $im(f)$ as
+In a regular category, every morphism $f : x\to y$ can be factored -- uniquely up to [[isomorphism]] -- through its [[image]] $im(f)$ as
 
 $$
   f : x \stackrel{e}{\to} im(f) \stackrel{i}{\to} y
