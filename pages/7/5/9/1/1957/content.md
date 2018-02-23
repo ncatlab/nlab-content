@@ -137,6 +137,8 @@ This is really a special case of the previous class of examples, as $\Omega^\bul
 
 ## Related concepts
 
+* [[decomposable differential forms]]
+
 * [[body]]/[[soul]]
 
 * [[Fock space]], [[!-modality]]
