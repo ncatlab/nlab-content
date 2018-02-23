@@ -54,16 +54,21 @@ Construction and axiomatization of gauge field AQFT via [[homotopy theory]] and 
 
 * {#BeniniSchenkel16} [[Marco Benini]], [[Alexander Schenkel]], _Quantum field theories on categories fibered in groupoids_, Communications in Mathematical Physics November 2017, Volume 356, Issue 1, pp 19&#8211;64 ([arXiv:1610.06071](https://arxiv.org/abs/1610.06071))
 
-* {#BeniniSchenkelWoike17} [[Marco Benini]], [[Alexander Schenkel]], [[Lukas Woike]], _Operads for algebraic quantum field theory_ ([arXiv:1709.08657](https://arxiv.org/abs/1709.08657))
-
 The [[stack]] of [[Yang-Mills theory|Yang-Mills]] [[gauge fields]] is discussed in
 
 * {#BeniniSchenkelSchreiber17} [[Marco Benini]], [[Alexander Schenkel]], [[Urs Schreiber]], _The stack of Yang-Mills fields on Lorentzian manifolds_ ([arXiv:1704.01378](https://arxiv.org/abs/1704.01378))
 
-See also
+An [[operad]] for [[local nets of observables]] in [[AQFT]] is considered in
+
+* {#BeniniSchenkelWoike17} [[Marco Benini]], [[Alexander Schenkel]], [[Lukas Woike]], _Operads for algebraic quantum field theory_ ([arXiv:1709.08657](https://arxiv.org/abs/1709.08657))
+
+The [[Boardman-Vogt resolution]] of the [[operad]] for [[local nets of observables]] ([Benini-Schenkel-Woike 17](#BeniniSchenkelWoike17)), lifting it to homotopy AQFT, is considered in
 
 * {#Yau18} [[Donald Yau]], _Homotopical Quantum Field Theory_ ([arXiv:1802.08101](https://arxiv.org/abs/1802.08101))
 
 [[!redirects homotopical algebraic quantum field theories]]
 
 [[!redirects homotopical AQFT]]
+
+[[!redirects homotopy AQFT]]
+[[!redirects homotopy algebraic quantum field theory]]
