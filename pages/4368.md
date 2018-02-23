@@ -75,7 +75,7 @@ For a connection to [[Tannaka duality]] theory see
 
 * [[Brian Day]], _Enriched Tannaka duality_, JPAA __108__ (1996) pp.17-22, [MR97d:18008](http://www.ams.org/mathscinet-getitem?mr=1382240) <a href="http://dx.doi.org/10.1016/0022-4049(95)00039-9">doi</a>
 
-For a discussion of an $\infty$-version of Gabriel-Ulmer duality see this [MO discussion](https://mathoverflow.net/q/293031/447).
+For a discussion of an $\infty$-version of Gabriel-Ulmer duality between finitely complete and idempotent complete $(\infty, 1)$-categories and locally finitely presentable $(\infty, 1)$-categories see this [MO discussion](https://mathoverflow.net/q/293031/447).
 
 [[!redirects Gabriel-Ulmer duality]]
 [[!redirects Gabriel–Ulmer duality]]
