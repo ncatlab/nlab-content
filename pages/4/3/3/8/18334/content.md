@@ -60,6 +60,9 @@ The [[stack]] of [[Yang-Mills theory|Yang-Mills]] [[gauge fields]] is discussed 
 
 * {#BeniniSchenkelSchreiber17} [[Marco Benini]], [[Alexander Schenkel]], [[Urs Schreiber]], _The stack of Yang-Mills fields on Lorentzian manifolds_ ([arXiv:1704.01378](https://arxiv.org/abs/1704.01378))
 
+See also
+
+* {#Yau18} [[Donald Yau]], _Homotopical Quantum Field Theory_ ([arXiv:1802.08101](https://arxiv.org/abs/1802.08101))
 
 [[!redirects homotopical algebraic quantum field theories]]
 
