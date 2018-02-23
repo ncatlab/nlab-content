@@ -106,7 +106,7 @@ Conversely, if we have a totally contravariant '$n$-pseudofunctor' from $B$ to $
 
 * and so on...
 
-One expects that in this way, the $(n+1)$-category of fibered $n$-categories over $B$ is equivalent to the $(n+1)$-category of functors $B\to n Cat$.  These constructions are known precisely only for $n=2$.
+One expects that in this way, the $(n+1)$-category of fibered $n$-categories over $B$ is equivalent to the $(n+1)$-category of totally contravariant functors $B\to n Cat$.  These constructions are known precisely only for $n=2$.
 
 ## Examples
 
