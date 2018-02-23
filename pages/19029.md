@@ -27,9 +27,11 @@ $$
   \omega = \alpha_1 \wedge \alpha_2 \wedge \cdots \wedge \alpha_n
 $$
 
-More generally in a $\mathbb{Z}$-[[graded-commutative algebra]] an element of homogeneous degree may be called _decomposable_ if it may be written as the product of elements of degree 1.
+More generally in an $\mathbb{N}$-[[graded-commutative algebra]] an element of homogeneous degree may be called _decomposable_ if it may be written as the product of elements of degree 1.
 
 ## Related concepts
+
+* [[decomposable tensor]]
 
 * [[H-cohomology]]
 
