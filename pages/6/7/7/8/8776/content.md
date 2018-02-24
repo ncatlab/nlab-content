@@ -205,7 +205,14 @@ Discussion via [[KK-compactification]] as [[M-theory on Calabi-Yau manifolds]] i
 
 * {#HullTownsend95} [[Chris Hull]], [[Paul Townsend]], pages 30 and 31 od _Unity of Superstring Dualities_, Nucl.Phys.B438:109-137,1995 ([arXiv:hep-th/9410167](https://arxiv.org/abs/hep-th/9410167))
 
+* A.C. Cadavid, A. Ceresole, [[Riccardo D'Auria]], [[Sergio Ferrara]], _11-Dimensional Supergravity Compactified on Calabi-Yau Threefolds_ ([arXiv:hep-th/9506144](https://arxiv.org/abs/hep-th/9506144))
+
 * {#FerraraKhuriaMinasian96} [[Sergio Ferrara]], Ramzi R. Khuria,  [[Ruben Minasian]], _M-theory on a Calabi-Yau manifold_, Phys.Lett.B375:81-88,1996 ([arXiv:hep-th/9602102](https://arxiv.org/abs/hep-th/9602102))
+
+* [[Sergio Ferrara]], [[Ruben Minasian]], [[Augusto Sagnotti]], _Low-Energy Analysis of M and F Theories on Calabi-Yau Threefolds_, Nucl.Phys. B474 (1996) 323-342 ([arXiv:hep-th/9604097](https://arxiv.org/abs/hep-th/9604097))
+
+* S. Mizoguchi, N. Ohta, _More on the Similarity between $D=5$ Simple Supergravity and M Theory_, Phys.Lett. B441 (1998) 123-132 ([arXiv:hep-th/9807111](https://arxiv.org/abs/hep-th/9807111))
+
 
 Further discussion of the [[5d Chern-Simons theory|5d Chern-Simons term]] includes
 
