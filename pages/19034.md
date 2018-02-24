@@ -30,7 +30,7 @@ In [[particle physics]] [[phenomenology]] one distinguishes two strategies for c
 This distinction was highlighted, and the terminology established, in ([Aldazabal-Ibáñez-Quevedo-Uranga 00](#AldazabalIbanezQuevedoUranga00)); there in the context of discussion of [[string phenomenology]] and specifically of [[intersecting D-brane models]] in [[type II string theory]]. In fact the article proposes and advertizes the bottom-up-strategy, felt to be in contrast with the, at that time, dominant top-down-strategy going back to ([Candelas-Horowitz-Witten 85](#CandelasHorowitzWitten85)).
 
 
-<img src="https://ncatlab.org/nlab/files/BottomUpAndTopDownIntersDBraneModelBuilding.png" width="800"/>
+<img src="https://ncatlab.org/nlab/files/BottomUpAndTopDownIntersDBraneModelBuilding.png" width="700"/>
 
 >  snippet grabbed from [Aldazabal-Ibáñez-Quevedo-Uranga 00](#AldazabalIbanezQuevedoUranga00)
 
