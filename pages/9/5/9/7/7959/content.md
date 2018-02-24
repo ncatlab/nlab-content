@@ -42,9 +42,9 @@ Since a realistic string theoretic model is, by design, a unification of the [[s
 
 Accordingly one strategy to build models is to first aim for the correct fundamental particle content, and then incrementally adjust to account for the global gravitational constraints. For instance in [type II intersecting brane models](#ModelsInTypeIIWithIntersectingBranes) people often consider just an [[open neighbourhood]] of a singular point in a [[Kaluza-Klein mechanism|KK-compactification space]], adjust the model there, and then later ask about embedding this local construction into an actually globally defined compactification space (typically a [[Calabi-Yau manifold]] for compactifications aiming for $N=1$ low energy supersymmetry in the effective 4d model).
 
-This approach is known as the **bottom-up approach** to string model building ([AIQU 00](#AIQU00)).
+This approach is known as the **[[bottom-up model building|bottom-up approach]]** to string model building ([AIQU 00](#AIQU00)).
 
-Contrary to this is the historically older **top-down approach** (usually attributed to ([Candelas-Horowitz-Strominger-Witten 85](#CHSW85))) in the [[heterotic string theory]] compactification models (see [below](#HeteroticStandardModels)).
+Contrary to this is the historically older **[[top-down model building|top-down approach]]** (usually attributed to ([Candelas-Horowitz-Strominger-Witten 85](#CHSW85))) in the [[heterotic string theory]] compactification models (see [below](#HeteroticStandardModels)).
 
 ## Semi-realistic models in string theory
  {#SemiRealisticModels}
@@ -145,13 +145,13 @@ Technical surveys on particle physics string phenomenology include
  
 * {#Wijnholt14} [[Martin Wijnholt]], _String compactification_, [PITP 2014](https://pitp2014.ias.edu) lecture notes ([[WijnholtCompactification14.pdf:file]], [slides for lecture 1](https://pitp2014.ias.edu/sites/pitp2014.ias.edu/files/PITP2014_P1_wijnholt.pdf), [slides for lecture 2](https://pitp2014.ias.edu/sites/pitp2014.ias.edu/files/PITP2014_P2_wijnholt.pdf), [slides for lecture 3](https://pitp2014.ias.edu/sites/pitp2014.ias.edu/files/PITP2014_P3_wijnholt.pdf))
 
-* E. Palti _Review of Model Building in String Theory_, talk at [String Phenomenology 2014](http://stringpheno2014.ictp.it/program.html) ([pdf](http://stringpheno2014.ictp.it/lecturenotes/Palti.pdf))
+* [[Eran Palti]], _Review of Model Building in String Theory_, talk at [String Phenomenology 2014](http://stringpheno2014.ictp.it/program.html) ([pdf](http://stringpheno2014.ictp.it/lecturenotes/Palti.pdf))
 
 Technical surveys on cosmological string phenomenology include
 
 * S. F. King, J. P. Roberts, _Natural Dark Matter from Type I String Theory_ ([arXiv:hep-ph/0608135](http://arxiv.org/abs/hep-ph/0608135))
 
-The "bottom-up approach" to string model building is attributed to
+The "[[bottom-up model building|bottom-up approach]]" to string model building is attributed to
 
 * {#AIQU00} G. Aldazabal, [[Luis Ibáñez]], F. Quevedo, [[Angel Uranga]], _D-Branes at Singularities : A Bottom-Up Approach to the String Embedding of the Standard Model_, JHEP 0008:002 2000 ([arXiv:hep-th/0005067](http://xxx.lanl.gov/abs/hep-th/0005067))
  
@@ -161,8 +161,8 @@ See also
 
 ### Original articles
 
-* {#CHSW85} [[Philip Candelas]], [[Gary Horowitz]], [[Andrew Strominger]], [[Edward Witten]], Nucl. Phys. B 258, 46 (1985)
- 
+* {#CHSW85} [[Philip Candelas]], [[Gary Horowitz]], [[Andrew Strominger]], [[Edward Witten]], _Vacuum configurations for superstrings_, Nuclear Physics B Volume 258, 1985, Pages 46-74 Nucl. Phys. B 258, 46 (1985) (<a href="https://doi.org/10.1016/0550-3213(85)90602-9">doi:10.1016/0550-3213(85)90602-9</a>)
+
  
 * {#AW01} [[Bobby Acharya]], [[Edward Witten]], _Chiral Fermions from Manifolds of $G_2$ Holonomy_ ([arXiv:hep-th/0109152](http://arxiv.org/abs/hep-th/0109152))
  
@@ -203,11 +203,11 @@ A survey is here:
 Original articles in this program include
 
 
-* [[Lara Anderson]], James Gray, Andre Lukas, Eran Palti, _Two Hundred Heterotic Standard Models on Smooth Calabi-Yau Threefolds_ ([arXiv:1106.4804](http://arxiv.org/abs/1106.4804))
+* [[Lara Anderson]], James Gray, Andre Lukas, [[Eran Palti]], _Two Hundred Heterotic Standard Models on Smooth Calabi-Yau Threefolds_ ([arXiv:1106.4804](http://arxiv.org/abs/1106.4804))
 
-* [[Lara Anderson]], James Gray, Andre Lukas, Eran Palti, _Heterotic Line Bundle Standard Models_ ([arXiv:1202.1757](http://arxiv.org/abs/1202.1757))
+* [[Lara Anderson]], James Gray, Andre Lukas, [[Eran Palti]], _Heterotic Line Bundle Standard Models_ ([arXiv:1202.1757](http://arxiv.org/abs/1202.1757))
 
-* [[Lara Anderson]], James Gray, Andre Lukas, Eran Palti, _Heterotic standard model database_ ([web](http://www-thphys.physics.ox.ac.uk/projects/CalabiYau/linebundlemodels/index.html.))
+* [[Lara Anderson]], James Gray, Andre Lukas, [[Eran Palti]], _Heterotic standard model database_ ([web](http://www-thphys.physics.ox.ac.uk/projects/CalabiYau/linebundlemodels/index.html.))
 
 The issue of [[moduli stabilization]] in these kinds of models is discussed in 
 
@@ -230,11 +230,15 @@ The canonical textbook for [[type II superstring]] phenomenology is
 
 * [Ibanez-Uranga 12](#IbanezUranga12)
 
+The [[bottom-up model building|bottom-up]] [[intersecting D-brane model building]] originates with
+
+* [Aldazabal-Ibáñez-Quevedo-Uranga 00](#AIQU00)
+
 See also
 
 * {#Denef08} [[Frederik Denef]], _Les Houches Lectures on Constructing String Vacua_, in _[[String theory and the real world]]_ ([arXiv:0803.1194](http://arxiv.org/abs/0803.1194))
 
-Reviews of intersecting [[D-brane]] models in [[type II string theory]] (in [[orientifold]] [[flux compactifications]]) include
+Reviews of [[intersecting D-brane model]] in [[type II string theory]] (in [[orientifold]] [[flux compactifications]]) include
 
 * {#Lust04} [[Dieter Lüst]], _Intersecting Brane Worlds -- A Path to the Standard Model ?_, Class. Quant. Grav.21 : S1399-1424, 2004 ([arXiv:hep-th/0401156](http://arxiv.org/abs/hep-th/0401156))
 
@@ -244,16 +248,18 @@ Reviews of intersecting [[D-brane]] models in [[type II string theory]] (in [[or
 
 * Ching-Ming Chen, Tianjun Li, Dimitri V. Nanopoulos, _Standard-Like Model Building on Type II Orientifolds_, Nucl.Phys.B732:224-242,2006 ([arXiv:hep-th/0509059](http://arxiv.org/abs/hep-th/0509059))
 
+* Ching-Ming Chen, Tianjun Li, V. E. Mayes, Dimitri V. Nanopoulos, _A Realistic World from Intersecting D6-Branes_, Phys.Lett.B665:267-270, 2008 ([arXiv:hep-th/0703280](https://arxiv.org/abs/hep-th/0703280))
+
 * [[Angel Uranga]], _The standard model from D-branes in string theory_, talk at Padova, January 2008 ([pdf](http://active.pd.infn.it/g4/seminars/2008/files/uranga.pdf))
 
 * {#DolanKrippendorfQuevedo11} Matthew J. Dolan, Sven Krippendorf, Fernando Quevedo, _Towards a Systematic Construction of Realistic D-brane Models on a del Pezzo Singularity_, JHEP 1110 (2011) 024 ([arXiv:1106.6039](http://arxiv.org/abs/1106.6039))
  
 
-* Anshuman Maharana, Eran Palti, _Models of Particle Physics from Type IIB String Theory and F-theory: A Review_ ([arXiv:1212.0555](http://arxiv.org/abs/1212.0555))
+* Anshuman Maharana, [[Eran Palti]], _Models of Particle Physics from Type IIB String Theory and F-theory: A Review_ ([arXiv:1212.0555](http://arxiv.org/abs/1212.0555))
 
-Discussion of [[GUT]] models via [[F-theory]] is in 
+Discussion of [[GUT]] [[model (physics)|models]] via [[F-theory]] is in 
 
-* [[Chris Beasley]], Jonathan J. Heckman, [[Cumrun Vafa]], _GUTs and Exceptional Branes in F-theory - I_ ([arxiv:0802.3391](http://arxiv.org/abs/0802.3391)), _II: Experimental Predictions_ ([arxiv:0806.0102](http://arxiv.org/abs/0806.0102))
+* [[Chris Beasley]], [[Jonathan Heckman]], [[Cumrun Vafa]], _GUTs and Exceptional Branes in F-theory - I_ ([arxiv:0802.3391](http://arxiv.org/abs/0802.3391)), _II: Experimental Predictions_ ([arxiv:0806.0102](http://arxiv.org/abs/0806.0102))
 
 
 #### M-theory models
