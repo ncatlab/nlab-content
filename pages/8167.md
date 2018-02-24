@@ -23,12 +23,16 @@ In [[particle physics]] the letters _MSSM_ are an abbreviation for "minimally su
 
 ## Examples
 
-* [[gauge coupling unification]]
-
 * [[G2-MSSM]]
 
+## Related concepts
+
+* [[intersecting D-brane model ]]  
+
+* [[gauge coupling unification]]
+
 * [[supersymmetry and Calabi-Yau manifolds]]
-  
+
 
 ## References
 
