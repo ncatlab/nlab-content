@@ -43,6 +43,8 @@ Other references
 
 * {#MellZeil} [[Paul-André Melliès]] and [[Noam Zeilberger]] (2016) _A bifibrational reconstruction of Lawvere's presheaf hyperdoctrine_, ([	arXiv:1601.06098, cs.LO](http://arxiv.org/abs/1601.06098))
 
+* Fernando Zalamea, Peirce's logic of continuity, a conceptual and mathematical approach, [link](https://www.academia.edu/31948393/ZalameaPeirceCont.pdf)
+
 [[!redirects C.S. Peirce]]
 [[!redirects Charles Peirce]]
 [[!redirects Charles S. Peirce]]
