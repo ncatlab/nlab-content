@@ -29,7 +29,7 @@ This situation is of particular interest in the reduction of [[11-dimensional su
 
 The _Kaluza-Klein monopole_ ([Han-Koh 85](#HanKoh85)) is one type of solution of the [[equations of motion]] of [[11-dimensional supergravity]]. It is given by the [[product]] $N_4\times \mathbb{R}^{11-5,1}$ of Euclidean [[Taub-NUT spacetime]] with [[Minkowski spacetime]]. Upon [[Kaluza-Klein compactification]] this looks like a [[monopole]], whence the name.
 
-Upon [[KK-compactification]] on a 6-dimensional [[fiber]], with the 11d KK-monopole / [[D6-brane]] completely [[wrapped brane|wrapping]] the fiber, the KK-monopole in [[11d supergravity]] becomes the KK-monopole in [[5d supergravity]]. Further compactifying on a circle leads a [[black hole]] in 4d, incarnated as a D0/D6 bound state (e.g. [Nelson 93](#Nelson93)).
+Upon [[KK-compactification]] on a 6-dimensional [[fiber]], with the 11d KK-monopole / [[D6-brane]] completely [[wrapped brane|wrapping]] the fiber, the KK-monopole in [[11d supergravity]] becomes the KK-monopole in [[5d supergravity]]. Further compactifying on a circle leads to a [[black hole]] in 4d, incarnated as a D0/D6 bound state (e.g. [Nelson 93](#Nelson93)).
 
 ## Relation to the D6-brane in type IIA string theory 
  {#RelationToTheD6Brane}
@@ -120,6 +120,10 @@ Review includes
 
 * Emre Sakarya, _Kaluza-Klein monopole_, 2007 ([pdf](https://inspirehep.net/record/875942/files/875942.pdf))
 
+Discussion of [[topological T-duality]] for KK-monopoles is in
+
+* {#Pande06} Ashwin S. Pande, _Topological T-duality and Kaluza-Klein Monopoles_, Adv. Theor. Math. Phys., 12, (2007), pp 185-215 ([arXiv:math-ph/0612034](https://arxiv.org/abs/math-ph/0612034))
+
 
 ### In 11d supergravity
 
@@ -148,6 +152,9 @@ Review includes
 
 * {#GaillardSchmude09} Jerome Gaillard, [[Johannes Schmude]], _The lift of type IIA supergravity with D6 sources: M-theory with torsion_, JHEP 1002:032,2010 ([arXiv:0908.0305](http://arxiv.org/abs/0908.0305))
 
+Discussion in terms of [[G-structures]]:
+
+* Ulf Danielsson, Giuseppe Dibitetto, Adolfo Guarino, _KK-monopoles and G-structures in M-theory/type IIA reductions_, JHEP 1502 (2015) 096 ([arXiv:1411.0575](https://arxiv.org/abs/1411.0575))
 
 #### Review
 
