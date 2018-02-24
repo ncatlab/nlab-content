@@ -32,9 +32,11 @@ For CY fibers of complex dimension 6, this yields the strong coupling version of
 
 Leads to [[5d supergravity]] [[effective field theory]].
 
+See at _[[5d supergravity]]_ the section _[Via KK-Compactification of 11d Supergravity](5-dimensional+supergravity#ViaCYCompactificationOf11dSupergravity)_
+
 See also at _[[F/M-theory on elliptically fibered Calabi-Yau 3-folds]]_.
 
-### On $CY_3$
+### On $CY_4$
 
 * [[F/M-theory on elliptically fibered Calabi-Yau 4-folds]]
 
