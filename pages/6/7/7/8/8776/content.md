@@ -96,11 +96,12 @@ Supersymmetric black holes exist precisely only in dimensions 4 and 5 ([Gauntlet
 the spacetime in that case is asymptotically [[anti-de Sitter spacetime]] rather than asymptotically flat. Of course, there are non-singular supersymmetric [[black brane]] solutions in various $d \geq 4$ supergravity theories but these are neither 'particle-like' nor, strictly speaking,
 asymptotically flat.)
 
-### Via Calabi-Yau compactification of M-theory
+### Via Calabi-Yau compactification of 11d supergravity
+ {#ViaCYCompactificationOf11dSupergravity}
 
-[[KK-compactification]] on the spatial part of the [[KK-monopole]] in [[11-dimensional supergravity]], taken to be a [[Calabi-Yau manifold]]
+Discussion of 5d supegravity as a [[KK-compactification]] of [[11-dimensional supergravity]] on a [[Calabi-Yau manifold]] of complex dimension 3 ([[M-theory on Calabi-Yau manifolds]]) is discussed in
 
-([Hull-Townsend 95, p.30-31](#HullTownsend95), [Ferrara-Khuria-Minasian 96](#FerraraKhuriaMinasian96))
+([Hull-Townsend 95, p.30-31](#HullTownsend95), [Cadavid-Ceresole-D'Auria-Ferrara 95](#CadavidCeresoleDAuriaFerrara95) [Ferrara-Khuria-Minasian 96](#FerraraKhuriaMinasian96), [Ferrara-Minasian-Sagnotti 96](#FerraraMinasianSagnotti96)). See also ([Mizoguchi-Ohta 98](#MizoguchiOhta98)).
 
 
 ### U-duality
@@ -203,15 +204,15 @@ Basic discussion includes
 
 Discussion via [[KK-compactification]] as [[M-theory on Calabi-Yau manifolds]] includes
 
-* {#HullTownsend95} [[Chris Hull]], [[Paul Townsend]], pages 30 and 31 od _Unity of Superstring Dualities_, Nucl.Phys.B438:109-137,1995 ([arXiv:hep-th/9410167](https://arxiv.org/abs/hep-th/9410167))
+* {#HullTownsend95} [[Chris Hull]], [[Paul Townsend]], pages 30 and 31 of _Unity of Superstring Dualities_, Nucl.Phys.B438:109-137,1995 ([arXiv:hep-th/9410167](https://arxiv.org/abs/hep-th/9410167))
 
-* A.C. Cadavid, A. Ceresole, [[Riccardo D'Auria]], [[Sergio Ferrara]], _11-Dimensional Supergravity Compactified on Calabi-Yau Threefolds_ ([arXiv:hep-th/9506144](https://arxiv.org/abs/hep-th/9506144))
+* {CadavidCeresoleDAuriaFerrara95} A.C. Cadavid, A. Ceresole, [[Riccardo D'Auria]], [[Sergio Ferrara]], _11-Dimensional Supergravity Compactified on Calabi-Yau Threefolds_ ([arXiv:hep-th/9506144](https://arxiv.org/abs/hep-th/9506144))
 
 * {#FerraraKhuriaMinasian96} [[Sergio Ferrara]], Ramzi R. Khuria,  [[Ruben Minasian]], _M-theory on a Calabi-Yau manifold_, Phys.Lett.B375:81-88,1996 ([arXiv:hep-th/9602102](https://arxiv.org/abs/hep-th/9602102))
 
-* [[Sergio Ferrara]], [[Ruben Minasian]], [[Augusto Sagnotti]], _Low-Energy Analysis of M and F Theories on Calabi-Yau Threefolds_, Nucl.Phys. B474 (1996) 323-342 ([arXiv:hep-th/9604097](https://arxiv.org/abs/hep-th/9604097))
+* {#FerraraMinasianSagnotti96} [[Sergio Ferrara]], [[Ruben Minasian]], [[Augusto Sagnotti]], _Low-Energy Analysis of M and F Theories on Calabi-Yau Threefolds_, Nucl.Phys. B474 (1996) 323-342 ([arXiv:hep-th/9604097](https://arxiv.org/abs/hep-th/9604097))
 
-* S. Mizoguchi, N. Ohta, _More on the Similarity between $D=5$ Simple Supergravity and M Theory_, Phys.Lett. B441 (1998) 123-132 ([arXiv:hep-th/9807111](https://arxiv.org/abs/hep-th/9807111))
+* {#MizoguchiOhta98} S. Mizoguchi, N. Ohta, _More on the Similarity between $D=5$ Simple Supergravity and M Theory_, Phys.Lett. B441 (1998) 123-132 ([arXiv:hep-th/9807111](https://arxiv.org/abs/hep-th/9807111))
 
 
 Further discussion of the [[5d Chern-Simons theory|5d Chern-Simons term]] includes
