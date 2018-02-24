@@ -32,7 +32,7 @@ This distinction was highlighted, and the terminology established, in ([Aldazaba
 
 <img src="https://ncatlab.org/nlab/files/BottomUpAndTopDownIntersDBraneModelBuilding.png" width="800"/>
 
->  snipped grabbed from [Aldazabal-Ibáñez-Quevedo-Uranga 00](#AldazabalIbanezQuevedoUranga00)
+>  snippet grabbed from [Aldazabal-Ibáñez-Quevedo-Uranga 00](#AldazabalIbanezQuevedoUranga00)
 
 For more on this see at [[string phenomenology]] the section _[Top-down models and Bottom-up models](string+phenomenology#TopDownAndBottomUpModels)_.
 
