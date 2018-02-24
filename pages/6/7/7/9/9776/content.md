@@ -57,4 +57,10 @@ Further discussion and derivation of the [[Chan-Paton gauge field]] content on t
 
 * [[Juan José Manjarín]], _Topics on D-brane charges with B-fields_, Int.J.Geom.Meth.Mod.Phys. 1 (2004) ([arXiv:hep-th/0405074](http://arxiv.org/abs/hep-th/0405074))
 
+Discussion of D6 [[intersecting branes]] for [[intersecting D-brane models]]:
+
+* [[Angel Uranga]], _Model building in IIA: Intersecting
+brane worlds_, 2012 ([pdf](http://scgp.stonybrook.edu/wp-content/uploads/2012/05/Uranga-Lecture-Notes-1.pdf))
+
+
 [[!redirects D6-branes]]
