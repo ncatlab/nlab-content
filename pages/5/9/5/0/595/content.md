@@ -45,6 +45,8 @@ The __nullary intersection__ of the subsets of $X$ is $X$ itself.  A __binary in
 
 * [[intersection product]], [[intersection theory]]
 
+* [[brane intersection]]
+
 [[!redirects intersection]]
 [[!redirects intersections]]
 
