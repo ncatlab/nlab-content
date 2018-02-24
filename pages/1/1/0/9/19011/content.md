@@ -34,6 +34,12 @@ $$
 
 [[!include brane scan]]
 
+## Related concepts
+
+* [[super 2-brane in 4d]]
+
+* [[super 1-brane in 3d]]
+
 ## References
 
 Discussion relating to the analog of the [[DF-algebra]]/[[M-theory super Lie algebra]] in [[4d supergravity]] is in
