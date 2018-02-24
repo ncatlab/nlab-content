@@ -116,6 +116,10 @@ The [[bi-brane]] perspective on T-duality is amplified in
 * {#SarkissianSchweigert08} Gor Sarkissian, [[Christoph Schweigert]], _Some remarks on defects and duality_ ([arXiv:0810.3159](http://arxiv.org
 /abs/0810.3159))
 
+Discussion for non-free torus actions (physically: [[KK-monopoles]]) is in
+
+* {#Pande06} Ashwin S. Pande, _Topological T-duality and Kaluza-Klein Monopoles_, Adv. Theor. Math. Phys., 12, (2007), pp 185-215 ([arXiv:math-ph/0612034](https://arxiv.org/abs/math-ph/0612034))
+
 Discussion in [[rational homotopy theory]]/[[dg-geometry]] is in
 
 * [[Ernesto Lupercio]], Camilo Rengifo, [[Bernardo Uribe]], _T-duality and exceptional generalized geometry through symmetries of dg-manifolds_ ([arXiv:1208.6048](https://arxiv.org/abs/1208.6048))
