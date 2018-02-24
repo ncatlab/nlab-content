@@ -116,7 +116,7 @@ For more references on this see at _[[N=2 D=4 super Yang-Mills theory]]_ the sec
 
 Relation to [[BFSS matrix model]] on tori:
 
-* Micha Berkooz, Moshe Rozali, Nathan Seiberg, _Matrix Description of M-theory on $T^3$ and $T^5$_ ([arXiv:hep-th/9704089](http://arxiv.org/abs/hep-th/9704089))
+* [[Micha Berkooz]], [[Moshe Rozali]], [[Nathan Seiberg]], _Matrix Description of M-theory on $T^3$ and $T^5$_ ([arXiv:hep-th/9704089](http://arxiv.org/abs/hep-th/9704089))
 
 ### ADE classification
 
@@ -184,7 +184,7 @@ Local Solutions_ ([arXiv:0806.0605](http://arxiv.org/abs/0806.0605))
 * {#GGT} [[Jerome Gauntlett]], [[Joaquim Gomis]], [[Paul Townsend]], _BPS Bounds for Worldvolume Branes_ ([arXiv:hep-th/9711205](http://arxiv.org/abs/hep-th/9711205))
  
 
-* P.S. Howe, [[Neil Lambert]], [[Peter West]], _The Threebrane Soliton of the M-Fivebrane_ ([arXiv:hep-th/9710033](http://arxiv.org/abs/hep-th/9710033))
+* [[Paul Howe]], [[Neil Lambert]], [[Peter West]], _The Threebrane Soliton of the M-Fivebrane_ ([arXiv:hep-th/9710033](http://arxiv.org/abs/hep-th/9710033))
 
 ### Relation to extended TQFT
 
