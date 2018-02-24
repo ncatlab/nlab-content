@@ -41,6 +41,11 @@ The [[T-duality|T-dual]] of the D6 branes is the [[D7-brane]] in [[type IIB stri
 D6-branes are the main ingredient in type IIA [[string phenomenology]] in the guise of [[intersecting D-brane models]], see also at [[string phenomenology]] the section _[Models in type II with intersecting branes](string+phenomenology#ModelsInTypeIIWithIntersectingBranes)_.
 
 
+<img src="https://ncatlab.org/nlab/files/D6BranesIntersectingAtAnAngle.png" width="650"/>
+
+> graphics grabbed from [Ibáñez-Uranga 12](#IbanezUranga12)
+
+
 ## Related concept
 
 [[!include table of branes]]
@@ -58,6 +63,8 @@ Further discussion and derivation of the [[Chan-Paton gauge field]] content on t
 * [[Juan José Manjarín]], _Topics on D-brane charges with B-fields_, Int.J.Geom.Meth.Mod.Phys. 1 (2004) ([arXiv:hep-th/0405074](http://arxiv.org/abs/hep-th/0405074))
 
 Discussion of D6 [[intersecting branes]] for [[intersecting D-brane models]]:
+
+* {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], _String Theory and Particle Physics: An Introduction to String Phenomenology_, Cambridge 2012
 
 * [[Angel Uranga]], _Model building in IIA: Intersecting
 brane worlds_, 2012 ([pdf](http://scgp.stonybrook.edu/wp-content/uploads/2012/05/Uranga-Lecture-Notes-1.pdf))
