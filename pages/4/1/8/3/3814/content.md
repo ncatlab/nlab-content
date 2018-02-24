@@ -90,11 +90,13 @@ There are various other variations, too.
 
 * [[LHC]]
 
+* [[phenomenology]], [[hierarchy problem]]
+
 * [[MSSM]]
 
   * [[G2-MSSM]]
 
-* [[phenomenology]], [[hierarchy problem]]
+* [[intersecting D-brane model]]
 
 * [[standard model of cosmology]]
 
