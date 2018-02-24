@@ -236,7 +236,6 @@ Discussion of D-brane charge this way is in ([Maldacena-Moore-Seiberg 01](#Malda
 
 ## Related concepts
 
-
 * [[Chan-Paton bundle]], [[twisted bundle]], [[twisted K-theory]], [[Chan-Paton gauge field]]
 
 * [[Freed-Witten anomaly cancellation]]
@@ -244,6 +243,8 @@ Discussion of D-brane charge this way is in ([Maldacena-Moore-Seiberg 01](#Malda
 * [[Dirac-Born-Infeld action]]
 
 * [[black brane]], [[black hole in string theory]]
+
+* [[intersecting D-brane model]]
 
 * [[K-homology]], [[KK-theory]]
 
