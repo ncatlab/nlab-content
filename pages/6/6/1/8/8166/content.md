@@ -56,6 +56,10 @@ It is generally understood that models are approximations to reality. The prover
 
 * [[theory (physics)]], [[experiment]], [[coordination]]
 
+* [[bottom-up and top-down model building]]
+
+* [[intersecting D-brane model]]
+
 * [[computable physics]]
 
 * [[mathematical physics]]
