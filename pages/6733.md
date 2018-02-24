@@ -401,6 +401,9 @@ The relation of the M5-brane to the [[D4-brane]] and the [[D=5 super Yang-Mills 
 
 * Chong-Sun Chu, Sheng-Lan Ko, _Non-abelian Action for Multiple Five-Branes with Self-Dual Tensors_, ([arXiv:1203.4224](http://arxiv.org/abs/1203.4224)) JHEP05(2012)028
 
+* [[Neil Lambert]], Miles Owen, _Charged Chiral Fermions from M5-Branes_ ([arXiv:1802.07766](https://arxiv.org/abs/1802.07766))
+
+
 See also ([Witten 11](#Witten11)).
 
 ### Open M5-branes
