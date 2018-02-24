@@ -27,6 +27,9 @@ Its [[double dimensional reduction]] is the [[super 1-brane in 3d]] (see there) 
 
 * [[super 1-brane in 3d]]
 
+* [[super 1-brane in 4d]]
+
+
 [[!include brane scan]]
 
 ## References
