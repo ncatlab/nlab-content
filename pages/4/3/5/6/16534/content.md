@@ -16,7 +16,7 @@
 
 ## Idea
 
-Intersection of [[branes]].
+[[intersection]] of [[branes]] in [[string theory]]
 
 ## Examples
 
@@ -38,6 +38,8 @@ $$
 
 ## Related concepts
 
+* [[intersecting D-brane model]]
+
 * [[D1-D5 brane bound state]]
 
 ## References
@@ -52,6 +54,6 @@ For [[M-branes]]:
 
 
 
-
-
 [[!redirects brane intersections]]
+
+[[!redirects intersecting branes]]
