@@ -70,6 +70,6 @@ A review of further developments is in
 
 Relation to the [[6d (2,0)-supersymmetric QFT]]:
 
-* Micha Berkooz, Moshe Rozali, Nathan Seiberg, _Matrix Description of M-theory on $T^3$ and $T^5$_ ([arXiv:hep-th/9704089](http://arxiv.org/abs/hep-th/9704089))
+* [[Micha Berkooz]], [[Moshe Rozali]], [[Nathan Seiberg]], _Matrix Description of M-theory on $T^3$ and $T^5$_ ([arXiv:hep-th/9704089](http://arxiv.org/abs/hep-th/9704089))
 
 [[!redirects BFSS model]]
