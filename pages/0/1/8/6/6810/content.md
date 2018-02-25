@@ -115,7 +115,11 @@ Explicit compactifications are discussed in
 
 ### D'Auria-Fré formulation of supergravity
 
-Discussion in the [[D'Auria-Fré formulation of supergravity]] and in particular the 7d analog of the [[DF-algebra]]/[[M-theory super Lie algebra]] is due to
+Discussion in the [[D'Auria-Fré formulation of supergravity]] is in
+
+* [[Pietro Fré]], P.A. Grassi, [[Lucrezia Ravera]], M. Trigiante, _Minimal $D=7$ Supergravity and the supersymmetry of Arnold-Beltrami Flux branes_, JHEP 1606 (2016) 018 ([arXiv:1511.06245](https://arxiv.org/abs/1511.06245))
+
+and the 7d analog of the [[DF-algebra]] (the [[Chevalley-Eilenberg algebra]]  of a spinorial extension of the [[M-theory super Lie algebra]]) is due to
 
 * [[Laura Andrianopoli]], [[Riccardo D'Auria]], [[Lucrezia Ravera]], _Hidden Gauge Structure of Supersymmetric Free Differential Algebras_, JHEP 1608 (2016) 095 ([arXiv:1606.07328](https://arxiv.org/abs/1606.07328))
 
