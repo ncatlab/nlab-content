@@ -8,4 +8,6 @@
 
 * [[p-adic string theory]]
 
+* [[7d supergravity]]
+
 category: people
