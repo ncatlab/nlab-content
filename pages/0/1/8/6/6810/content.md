@@ -87,7 +87,9 @@ The following references discuss construction of full 7d sugra theories or of th
 
 The construction of 7d supergravity by reduction from [[11-dimensional supergravity]] was first indicated in 
 
-* P. G. O. Freund and M. A. Rubin, _Dynamics of dimensional reduction_  Phys. Lett. 97B (1980) 233.
+* [[Peter Freund]], M. A. Rubin, _Dynamics of dimensional reduction_  Phys. Lett. 97B (1980) 233.
+
+via what is now called _[[Freund-Rubin compactification]]_.
 
 That their Ansatz is indeed consistent has been shown in 
 
