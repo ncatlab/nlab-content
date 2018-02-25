@@ -9,6 +9,9 @@
 
 * [[M2-brane]], [[AdS-CFT]]
 
+* [[7d supergravity]]
+
+* [[M-theory super Lie algebra]]
 
 category: people
 
