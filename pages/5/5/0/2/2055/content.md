@@ -164,6 +164,8 @@ Martin Davis, Andreas Blass, William Tait, John Baldwin and Alasdair Urquhart.
 
 * [Hydrobates](http://alanrendall.wordpress.com) (dynamical systems, differential equations, biomedical modelling)
 
+* [IMU - Journals](https://blog.wias-berlin.de/imu-journals) blog on mathematical journals
+
 * [Joel David Hamkins](http://jdh.hamkins.org) "mathematics and philosophy of the infinite", foundations
 
 * [Le Petit Chercheur Illustr&#233;](http://yetaspblog.wordpress.com) (Signal processing and applied math, compressed sensing and inverse problems, random embeddings)
