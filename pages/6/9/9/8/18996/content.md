@@ -877,27 +877,6 @@ $$
 
 Where in the last line we identified the number operators $n_B$ (eq:BNumber) and $n_{B,B}$ (eq:BBNumber).
 
-It follows by [this claim](#nBBVanishesOnBSimpleSubalgebra) that restricted to the subalgebra  $CE\left( T_{exc,-6}\mathbb{R}^{10,1\vert\mathbf{32}} \right)^{Spin(10,1)}_{B simp}$ (eq:BSimplePartOfDFAlgebra) the anticommutator is
-
-$$
-    \left(
-      - 54 \cdot 110
-      +
-      54 \cdot 6 \cdot n_B
-    \right)
-    \cdot
-    (-)
-$$
-
-But this is an [[isomorphism]] (since $n_B$ is an integer on any [[monomial]], so that the action on any monomial is by multiplication with a non-vanishing number). Hence the $H_{fib}$-cohomology vanishes on $CE\left( T_{exc,-6}\mathbb{R}^{10,1\vert\mathbf{32}} \right)^{Spin(10,1)}_{B simp}$ (eq:BSimplePartOfDFAlgebra).
-
-But this should imply that the full $(H = H_{fib} + H_{base,bos} + H_{base,ferm})$-cohomology vanishes on this subalgebra:
-
-because if we decompose the underlying $H$-chain complex as the [[double complex]] with $d_1 \coloneqq H_{fib}$ and $d_2 \coloneqq H_{base,bos} + H_{base,ferm}$, then the corresponding [[spectral sequence of a double complex]] has vanishing second page when restricted to $CE\left( T_{exc,-6}\mathbb{R}^{10,1\vert\mathbf{32}} \right)^{Spin(10,1)}_{B simp}$ (eq:BSimplePartOfDFAlgebra).
-
-(?)
-
-(...)
 
 The general solution to 
 
@@ -932,7 +911,33 @@ $$
   n_B = 45; n_{BB} = 24
 $$
 
+By [this claim](#nBBVanishesOnBSimpleSubalgebra) $n_{BB}$ is a natural number on the subalgebra of $Spin(10,1)$-invariant elements.
 
+In particular, restricted to the subalgebra  $CE\left( T_{exc,-6}\mathbb{R}^{10,1\vert\mathbf{32}} \right)^{Spin(10,1)}_{B simp}$ (eq:BSimplePartOfDFAlgebra) the anticommutator is hence
+
+$$
+    \left(
+      - 54 \cdot 110
+      +
+      54 \cdot 6 \cdot n_B
+    \right)
+    \cdot
+    (-)
+$$
+
+But this is an [[isomorphism]] (since $n_B$ is an integer on any [[monomial]], so that the action on any monomial is by multiplication with a non-vanishing number). Hence the $H_{fib}$-cohomology vanishes on $CE\left( T_{exc,-6}\mathbb{R}^{10,1\vert\mathbf{32}} \right)^{Spin(10,1)}_{B simp}$ (eq:BSimplePartOfDFAlgebra).
+
+But this should imply that the full $(H = H_{fib} + H_{base,bos} + H_{base,ferm})$-cohomology vanishes on this subalgebra:
+
+because if we decompose the underlying $H$-chain complex as the [[double complex]] with $d_1 \coloneqq H_{fib}$ and $d_2 \coloneqq H_{base,bos} + H_{base,ferm}$, then the corresponding [[spectral sequence of a double complex]] has vanishing second page when restricted to $CE\left( T_{exc,-6}\mathbb{R}^{10,1\vert\mathbf{32}} \right)^{Spin(10,1)}_{B simp}$ (eq:BSimplePartOfDFAlgebra).
+
+The same constructions apply verbatim to [[7d supergravity]] ([Andrianopoli-D'Auria-Ravera 16](M-theory+supersymmetry+algebra#AndrianopoliDAuriaRavera16)). The only difference there is that we have only 
+
+$$
+  7 \cdot 6 /2 = 21 \lt 25
+$$
+
+generators $B^{a b}$. This means that the first non-vanishing $c_{fib}$-cohomology above does not appear, so that the $c_{fib}$ cohomology of the entire $Spin(6,1)$-invariant subalgebra vanishes.
 
 #### The base term
 
