@@ -604,6 +604,8 @@ $$
     \wedge
     B^c{}_{a}
     \wedge(-)
+    \\
+    & \phantom{=}
     +
     B^a{}_{b}
     \wedge
@@ -625,8 +627,6 @@ $$
     B^b{}_{c}
     \wedge
     (-)
-    \\
-    & \phantom{=}
     -
     \partial_{B^{a'}{}_{b'}}
     \partial_{B^{b'}{}_{c'}}
@@ -664,7 +664,7 @@ $$
     -6
     \partial_{B^{a}{}_{b}}
     B^b{}_{a}
-    \wedge
+    \wedge (-)
     -
     60
     \partial_{B^{a}{}_{b}}
@@ -767,6 +767,8 @@ $$
     \partial_{B^{a'}{}_{b}}
     \partial_{B^{c}{}_{a'}}
     (-)
+    \\
+    & \phantom{=}
     +
     6
     B^b{}_{c}
@@ -805,7 +807,7 @@ $$
     \left(
       - 54 \cdot 110
       +
-      54 \cdot \tfrac{3}{2} \cdot n_B
+      54 \cdot 6 \cdot n_B
       -
       6 \cdot 3 \cdot 4
       n_{B,B}
@@ -823,7 +825,7 @@ $$
     \left(
       - 54 \cdot 110
       +
-      54 \cdot \tfrac{3}{2} \cdot n_B
+      54 \cdot 6 \cdot n_B
     \right)
     \cdot
     (-)
