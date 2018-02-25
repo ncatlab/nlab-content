@@ -536,13 +536,71 @@ $$
   \;\coloneqq\;
   -
   \frac{1}{20}
-  B^{a}{}_b \wedge B^b{}_a
+  B^{a}{}_b \wedge B^b{}_c
   \wedge
-  \partial_{B^a{}_b} \partial_{B^b{}_a}
+  \partial_{B^a{}_{b'}} \partial_{B^{b'}{}_c}
   \,.
 $$
 
-In order to understand these, consider the further subalgebra
+This normalization factor comes from
+
+
+$$
+  \begin{aligned}
+    & 
+    B^{a}{}_b \wedge B^b{}_c 
+    \partial_{B^a{}_{b'}} \partial_{B^{b'}{}_c}
+    (
+      B^{d}{}_e \wedge B^{e}{}_f
+    )
+    \\
+    & =
+    B^{a}{}_b \wedge B^b{}_e 
+    \partial_{B^a{}_{d}} 
+    B^{e}{}_f
+    -     
+    B^{a}{}_b \wedge B^{b d} 
+    \partial_{B^{a e}} 
+    B^{e}{}_f
+    \\
+    & \phantom{=}
+    -
+    B^{a}{}_b \wedge B^b{}_f 
+    \partial_{B^a{}_{b'}}
+    B^{d}{}_{b'} 
+    +
+    B^{a}{}_b \wedge B^b{}_c 
+    \partial_{B^{a f}} 
+    B^{d c} 
+    \\   
+    & =
+    B^{a}{}_b \wedge B^b{}_e 
+    -     
+    B^{a}{}_b \wedge B^{b d} 
+    \partial_{B^{a e}} 
+    B^{e}{}_f
+    \\
+    & \phantom{=}
+    -
+    B^{a}{}_b \wedge B^b{}_f 
+    \partial_{B^a{}_{b'}}
+    B^{d}{}_{b'} 
+    +
+    B^{a}{}_b \wedge B^b{}_c 
+    \partial_{B^{a f}} 
+    B^{d c} 
+    \\
+    & =
+    10 B_{f b} \wedge B^{b d}
+    -
+    10 B^d{}_b \wedge B^b{}_f
+    \\   
+    & = 
+    - 20 \cdot B^{d}{}_e \wedge B^{e}{}_f
+  \end{aligned}
+$$
+
+In order to understand these number operators, consider the further subalgebra
 
 $$
   \label{BSimplePartOfDFAlgebra}
@@ -833,7 +891,7 @@ $$
 
 But this is an [[isomorphism]] (since $n_B$ is an integer on any [[monomial]], so that the action on any monomial is by multiplication with a non-vanishing number). Hence the $H_{fib}$-cohomology vanishes on $CE\left( T_{exc,-6}\mathbb{R}^{10,1\vert\mathbf{32}} \right)^{Spin(10,1)}_{B simp}$ (eq:BSimplePartOfDFAlgebra).
 
-But this should imply that the full $(H = H_{fib} + H_{base,bos} +  + H_{base,ferm})$-cohomology vanishes on this subalgebra:
+But this should imply that the full $(H = H_{fib} + H_{base,bos} + H_{base,ferm})$-cohomology vanishes on this subalgebra:
 
 because if we decompose the underlying $H$-chain complex as the [[double complex]] with $d_1 \coloneqq H_{fib}$ and $d_2 \coloneqq H_{base,bos} + H_{base,ferm}$, then the corresponding [[spectral sequence of a double complex]] has vanishing second page when restricted to $CE\left( T_{exc,-6}\mathbb{R}^{10,1\vert\mathbf{32}} \right)^{Spin(10,1)}_{B simp}$ (eq:BSimplePartOfDFAlgebra).
 
@@ -857,30 +915,22 @@ $$
 is 
 
 $$
-  n_B = \frac{10(n_{BB} + 15)}{9}
+  n_B = \frac{5}{9}( 2 n_{B,B} + 33 )
 $$
 
-This is in $\mathbb{N}$ for 
+This equation has precisely three solutions with $n_B, n_{B,B} \in \mathbb{N}$ and $n_B \leq 55$:
 
 $$
-  n_B = 20; n_{BB} = 3
-$$
-
-$$
-  n_B = 30; n_{BB} = 12
+  n_B = 25; n_{BB} = 6
 $$
 
 $$
-  n_B = 40; n_{BB} = 21
+  n_B = 35; n_{BB} = 15
 $$
 
 $$
-  n_B = 50; n_{BB} = 30
+  n_B = 45; n_{BB} = 24
 $$
-
-and so forth.
-
-The following ones cannot occur, since there are only 55 B-generators, and they are nilpotent. 
 
 
 
