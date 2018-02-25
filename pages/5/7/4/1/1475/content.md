@@ -40,7 +40,7 @@ In as far as it holds or is assumed to hold, Zorn's lemma is a standard method f
 +-- {: .num_defn #statement}
 ###### Definition
 
-The [[proposition]] __Zorn\'s Lemma__ states that each preordered set $S$ has a maximal element if every chain in $S$ has an upper bound.
+The [[proposition]] __Zorn\'s Lemma__ states that a preordered set $S$ has a maximal element if every chain in $S$ has an upper bound.
 =--
 
 +-- {: .num_theorem #TheLemma}
