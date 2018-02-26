@@ -28,24 +28,36 @@ Explicitly, it is constructed as follows. Let $C, D, E$ be virtual double catego
 2. A horizontal arrow $R$ from $A$ to $B$ consists of horizontal arrows $R_C : A_C \to B_C$ and $R_D : A_D \to B_D$ and a 2-cell in $E$ from $F R_C$ to $G R_D$ along $A,B$.
 3. A 2-cell $\alpha$ from $R_1,\ldots,R_n$ to $S$ consists of a pair of 2-cells $\alpha_C : (R_{1C},\ldots,R_{nC}) \to S_C$ and $\alpha_D : (R_{1D},\ldots,R_{nD}) \to S_D$ such that $G(\alpha_D) \circ (R_1,\ldots,R_n) = S \circ F(\alpha_C)$.
 
-## Representability ##
+## Structures on the Comma Double Category ##
 
 Next, we consider what properties are required of the input data to determine that a comma virtual double category has units and composites. An analogy with the double category case gives some guidance. Since functors of virtual double categories correspond to *lax* functors of double categories, we don't have any requirements for the functor $G$ on top of $D$ having composites or units. On the other hand, for $F$ to be "oplax", we require that it be normal for units or furthermore strong for composites.
 
-The following are not yet verified
-
 +-- {: .un_prop} 
-###### Conjecture
+###### Proposition
 
-If $C$ and $D$ have units and $F$ is a normal functor, then $F / G$ has units.
+If $C$, $D$ and $E$ have units and $F$ is a normal functor, then $F / G$ has units.
 =--
 
 +-- {: .un_prop} 
-###### Conjecture
+###### Proposition
 
-If $C$ and $D$ have composites and $F$ is a strong functor, then $F / G$ has composites.
+If $C$, $D$ and $E$ have composites and $F$ is a strong functor, then $F / G$ has composites.
 =--
 
+Next, the comma has restrictions whenever the constituent categories do and the functors preserve them.
+
++-- {: .un_prop} 
+###### Proposition
+
+If $C$, $D$ and $E$ have restrictions and $F,G$ preserve them, then $F / G$ has restrictions.
+=--
+
+In practice this proof burden can be reduced if we are interested in virtual equipments (i.e. having units and restrictions) because in that case restrictions are automatically preserved. We summarize this as follows:
+
++-- {: .un_prop} 
+###### Corollary
+If $C$ and $D$ are [[virtual equipments]] and $F$ is a normal functor, then $F/G$ is a virtual equipment.
+=--
 
 ## Examples ##
 
