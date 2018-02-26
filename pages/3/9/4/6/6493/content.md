@@ -16,8 +16,7 @@
 
 ## Idea
 
-Another name for the [[free loop space object]] of an [[orbifold]] $X$ (or plain [[groupoid]] or [[smooth groupoid]]/[[stack]] etc.)  is _inertia orbifold_: the [[smooth groupoid]] whose [[objects]] are [[automorphisms]] in $X$ and whose [[morphisms]] are [[conjugation]] of automorphisms by morphisms in $X$.
-
+_Inertia orbifold_ is a particular model for the [[free loop space object]] of an [[orbifold]] $X$ (or plain [[groupoid]] or [[smooth groupoid]]/[[stack]] etc.): the [[smooth groupoid]] whose [[objects]] are [[automorphisms]] in $X$ and whose [[morphisms]] are [[conjugation]] of automorphisms by morphisms in $X$. In fact for each fibered category one can construct another fibered category, its inertia and the inertia stacks are a special case of this construction.
 
 ## Definition
 
@@ -44,6 +43,7 @@ At least for a [[finite group]] $G$, the [[groupoid convolution algebra]] of the
 
 ## References
 
+* Stacks Project: [Inertia](https://stacks.math.columbia.edu/tag/036X), [more](https://stacks.math.columbia.edu/tag/034H), [more](https://stacks.math.columbia.edu/tag/034I), [The inertia stack](https://stacks.math.columbia.edu/tag/036X)
 * [[Ernesto Lupercio]], [[Bernardo Uribe]], _Inertia orbifolds, configuration spaces and the ghost loop space_, Quarterly Journal of Mathematics __55__, Issue 2, pp. 185-201, [arxiv/math.AT/0210222](http://arxiv.org/abs/math/0210222); _Loop groupoids, gerbes, and twisted sectors on orbifolds_, in: Orbifolds in Mathematics and
 Physics, Madison, WI, 2001, in: Contemp. Math. __310__, Amer. Math. Soc., Providence, RI, 2002, pp. 163&#8211;184, [MR2004c:58043](http://www.ams.org/mathscinet-getitem?mr=1950946), [math.AT/0110207](http://arxiv.org/abs/math/0110207)
 * T. Kawasaki, _The signature theorem for V-manifolds_, Topology __17__ (1978), no. 1, 75&#8211;83.
