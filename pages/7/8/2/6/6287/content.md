@@ -21,6 +21,25 @@ A [[Lie algebra]] $\mathfrak{g}$ is called _reductive_ if the following equivale
 
 1. its [[adjoint representation]] is completely [[reducible representation|reducible]]: every invariant subspace has an invariant complement.
 
+More generally:
+
++-- {: .num_defn #LieAlgebraReductiveInAmbientLieAlgebra}
+###### Definition
+**([[reductive Lie algebra|Lie algebra reductive]] in ambient Lie algebra)**
+
+A sub-[[Lie algebra]] 
+
+$$
+  \mathfrak{h} \hookrightarrow \mathfrak{g}
+$$
+
+is called _reductive_ if the [[adjoint representation|adjoint]] [[Lie algebra representation]] of $\mathfrak{h}$ on $\mathfrak{g}$ is [[reducible representation|reducible]].
+
+=--
+
+([Koszul 50](#Koszul50), recalled in e.g. [Solleveld 02, def. 2.27](#Solleveld02))
+
+
 ## Properties
 
 * The [[Lie algebra]] of a [[compact space|compact]] and [[connected]] [[Lie group]] is reductive. ([GHV, vol III, section 4.4.](#GHV)).
@@ -30,8 +49,11 @@ A [[Lie algebra]] $\mathfrak{g}$ is called _reductive_ if the following equivale
 [[!redirects reductive Lie algebras]]
 
 ## References
+ 
+* {#Koszul50} [[Jean-Louis Koszul]], _Homologie et cohomologie des alg&egrave;bres de Lie_, Bull. Soc. Math. France 78 (1950), 65-127
 
-For instance volume III of 
+* {#GHV} [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]], volume III _[[Connections, Curvature, and Cohomology]]_ Academic Press (1973)
+ 
 
-* [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]], _[[Connections, Curvature, and Cohomology]]_ Academic Press (1973)
- {#GHV}
+* {#Solleveld02} [[Maarten Solleveld]], _Lie algebra cohomology and
+Macdonald’s conjectures_, 2002 ([pdf](https://www.math.ru.nl/~solleveld/scrip.pdf))
