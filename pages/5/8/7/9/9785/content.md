@@ -102,7 +102,7 @@ That a limiting case of this is given by the [[orthosymplectic super Lie algebra
 
 Further discussion is in
 
-* {#AndrianopoliDAuriaRavera16} [[Laura Andrianopoli]], [[Riccardo D'Auria]], [[Lucrezi Ravera]], _Hidden Gauge Structure of Supersymmetric Free Differential Algebras_, JHEP 1608 (2016) 095 ([arXiv:1606.07328](https://arxiv.org/abs/1606.07328))
+* {#AndrianopoliDAuriaRavera16} [[Laura Andrianopoli]], [[Riccardo D'Auria]], [[Lucrezia Ravera]], _Hidden Gauge Structure of Supersymmetric Free Differential Algebras_, JHEP 1608 (2016) 095 ([arXiv:1606.07328](https://arxiv.org/abs/1606.07328))
 
 * [[Laura Andrianopoli]], [[Riccardo D'Auria]], [[Lucrezia Ravera]], _More on the Hidden Symmetries of 11D Supergravity_ ([arXiv:1705.06251](https://arxiv.org/abs/1705.06251))
 
