@@ -127,6 +127,11 @@ Relation to [[Borcherds superalgebras]] is surveyed and discussed in
 
 * Jakob Palmkvist, _Exceptional geometry and Borcherds superalgebras_ ([arXiv:1507.08828](http://arxiv.org/abs/1507.08828))
 
+[[black branes]] in the exotic spacetime are discussed in
+
+* Ilya Bakhmatov, [[David Berman]], [[Axel Kleinschmidt]], Edvard Musaev, Ray Otsuki, _[arXiv:1710.09740](https://arxiv.org/abs/1710.09740)_
+
+
 [[!redirects exceptional generalized geometry]]
 
 [[!redirects exceptional generalized geometries]]
