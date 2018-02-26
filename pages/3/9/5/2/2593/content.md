@@ -2,20 +2,20 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### Lie theory
++--{: .hide}
+[[!include infinity-Lie theory - contents]]
+=--
 #### Cohomology
 +--{: .hide}
 [[!include cohomology - contents]]
-=--
-#### $(\infty,1)$-Lie theory
-+--{: .hide}
-[[!include infinity-Lie theory - contents]]
 =--
 =--
 =--
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -156,6 +156,8 @@ obtained by gluing on a rational $n$-sphere. By this kind of translation between
 
 ## Related concepts
 
+* [[Hochschild-Serre spectral sequence]]
+
 * [[signs in supergeometry]]
 
 * [[infinity-Lie algebra cohomology]]
@@ -166,18 +168,17 @@ obtained by gluing on a rational $n$-sphere. By this kind of translation between
 
 Accounts of the standard theory of Lie algebra cohomology include
  
+* [[Gerhard Hochschild]], [[Jean-Pierre Serre]], _Cohomology of Lie algebras_, Annals of Mathematics, Second Series, Vol. 57, No. 3 (May, 1953), pp. 591-603 ([JSTOR](http://www.jstor.org/stable/1969740))
 
 * [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]], in chapter V in vol III of _[[Connections, Curvature, and Cohomology]]_ Academic Press (1973)
 
-* [[José de Azcárraga]], Jos&#233; M. Izquierdo, section 6 of _[[Lie Groups, Lie Algebras, Cohomology and Some Applications in Physics]]_, Cambridge monographs of mathematical physics, (1995)
-
-with a brief summary in
-
-* [[José de Azcárraga]], Jos&#233;  M. Izquierdo, J. C. Perez Bueno, _An introduction to some novel applications of Lie algebra cohomology and physics_ ([arXiv](http://arxiv.org/abs/physics/9803046))
-
 * [[Charles Weibel]], chapter 7 of _An introduction to homological algebra_, Cambridge Studies in Adv. Math. __38__, CUP 1994
 
-* Maarten Solleveld, _Lie algebra cohomology and
+* [[José de Azcárraga]], Jos&#233; M. Izquierdo, section 6 of _[[Lie Groups, Lie Algebras, Cohomology and Some Applications in Physics]]_, Cambridge monographs of mathematical physics, (1995)
+
+* [[José de Azcárraga]], Jos&#233;  M. Izquierdo, J. C. Perez Bueno, _An introduction to some novel applications of Lie algebra cohomology and physics_ ([arXiv:physics/9803046](http://arxiv.org/abs/physics/9803046))
+
+* [[Maarten Solleveld]], _Lie algebra cohomology and
 Macdonald’s conjectures_, 2002 ([pdf](https://www.math.ru.nl/~solleveld/scrip.pdf))
 
 See also
