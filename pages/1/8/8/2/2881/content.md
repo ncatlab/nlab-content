@@ -34,7 +34,7 @@ A remarkable fact about localic groups is the following (which also proves that 
 
 +-- {: .un_theorem}
 ###### Theorem
-Any subgroup of a localic group is [[closed sublocale|closed]].
+Any localic subgroup of a localic group is weakly [[closed sublocale|closed]]. If the ambient localic group is in a [[Boolean topos]] then any localic subgroup is closed.
 =--
 +-- {: .proof}
 ###### Sketch of Proof
