@@ -1,3 +1,4 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -19,7 +20,7 @@
 
 ## Definition
 
-Let $C$ be a category with [[pullbacks]] and [[colimits]] of some [[small category|shape]] $D$.  We say that colimits of shape $D$ are __stable by [[base change]]__, or __stable under pullback__ or that these colimits are __universal__ if for every functor $F : D \to C$ and for all [[pullback]] diagrams of the form
+Let $C$ be a category with [[pullbacks]] and [[colimits]] of some [[small category|shape]] $D$.  We say that colimits of shape $D$ are __stable by [[base change]]__, or __stable under pullback__, or that these colimits are __universal__ if for every functor $F : D \to C$ and for all [[pullback]] diagrams of the form
 
 $$
   \array{
@@ -73,6 +74,7 @@ It *is* generally true that (eq:IsoForPullbackStabilityOfColimis) is an example 
 ## Related concepts
 
 * [[van Kampen colimit]]
+* [[pullback-stability]]
 
 ## References 
 
