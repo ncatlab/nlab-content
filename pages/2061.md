@@ -42,5 +42,9 @@ Geometers prefer to say "stable under [[base change]]".
 
 *  Similarly, the property of being right [[orthogonality|orthogonal]] to a class of morphisms is stable under pullback.  Thus, the right class in any [[orthogonal factorization system]] is stable under pullback.  If the left class is also pullback-stable, the OFS is called [[stable factorization system|stable]].
 
+## Related concepts
+
+* [[pullback-stable colimit]]
+* [[stable factorization system]]
 
 [[!redirects pullback-stability]]
