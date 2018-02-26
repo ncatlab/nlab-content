@@ -106,6 +106,134 @@ $$
 
 The content of a [[van Est isomorphism]] is that the canonical comparison map from [[Lie group cohomology]] to Lie algebra cohomology (by [[differentiation]]) is an [[isomorphism]] whenever the Lie group is sufficiently connected.
 
+### Hochschild-Serre spectral sequence
+  {#HochschildSerreSpectralSequence}
+
++-- {: .num_defn #RelativeLieAlgebraCohomologyWithCoefficients}
+###### Definition
+**(relative Lie algebra cohomology with coefficents)**
+
+Let 
+
+1. $(\mathfrak{g}, [-,-])$ be a [[Lie algebra]] of [[finite number|finite]] [[dimension]];
+
+1. $(V, \rho)$ a $\mathfrak{g}$-[[Lie algebra module]] of [[finite number|finite]] [[dimension]];
+
+1. $\mathfrak{h} \hookrightarrow \mathfrak{g}$ a sub-Lie algebra.
+
+Consider the $\mathbb{N}$-[[graded vector space]]
+
+$$
+  C^\bullet(\mathfrak{g}, \mathfrak{h}, V)
+  \;\coloneqq\;
+    \left(
+      (
+        \wedge^\bullet
+        (\mathfrak{g}/\mathfrak{h})^\ast
+      )
+      \otimes V
+    \right)^{\mathfrak{h}}
+$$
+
+consisting of the $\mathfrak{h}$-[[invariant|invariant elements]] in the [[tensor product]] of $V$ with the [[exterior algebra]] of the [[coset]] $\mathfrak{g}/\mathfrak{h}$.
+
+On this graded vector space, the [[dual linear maps]] of the [[Lie bracket]] $[-,-]$, extended as a graded [[derivation]] to the exterior algebra, and the [[Lie algebra action]] $\rho$ define a [[differential]]
+
+$$
+  d_{CE} \coloneqq \rho^\ast  + [-,-]^\ast
+  \,.
+$$
+
+The resulting [[cochain complex]] is the  _[[Chevalley-Eilenberg complex]] of $\mathfrak{g}$ relative $\mathfrak{h}$ with [[coefficients]] in $V$_.
+
+
+Its [[cochain cohomology]]
+
+$$
+  H^\bullet(\mathfrak{g}, \mathfrak{h}; V)
+  \;\coloneqq\;
+  \left(
+    \left(
+      (
+        \wedge^\bullet
+        (\mathfrak{g}/\mathfrak{h})^\ast
+      )
+      \otimes V
+    \right)^{\mathfrak{h}}
+    ,
+    d_{CE}
+  \right)
+$$
+
+is the _Lie algebra cohomology of $\mathfrak{g}$ relative $\mathfrak{h}$ with [[coefficients]] in $V$_.
+
+=--
+
+(e.g. [Solleveld 02, def. 2.13 and def. 2.17](#Solleveld02))
+
+
+If in def. \ref{RelativeLieAlgebraCohomologyWithCoefficients} $\mathfrak{h} = 0$ then the definition reduces to that of ordinary Lie algebra cohomology with coefficients:
+
+$$
+  H^\bullet(\mathfrak{g}, 0; V)
+  =
+  H^\bullet(\mathfrak{g}; V)
+  \,.
+$$
+
+
++-- {: .num_defn #LieAlgebraReductiveInAmbientLieAlgebra}
+###### Definition
+**([[reductive Lie algebra|Lie algebra reductive]] in ambient Lie algebra)**
+
+A sub-[[Lie algebra]] 
+
+$$
+  \mathfrak{h} \hookrightarrow \mathfrak{g}
+$$
+
+is called _reductive_ if the [[adjoint representation|adjoint]] [[Lie algebra representation]] of $\mathfrak{h}$ on $\mathfrak{g}$ is [[reducible representation|reducible]].
+
+=--
+
+([Koszul 50](#Koszul50), recalled in e.g. [Solleveld 02, def. 2.27](#Solleveld02))
+
++-- {: .num_prop #InvariantsInLieAlgebraCohomologyComputedByRelativeLieAlgebraCohomology}
+###### Proposition
+**(invariants in Lie algebra cohomology computed by relative Lie algebra cohomology)**
+
+Let 
+
+1. $(\mathfrak{g}, [-,-])$ be a [[Lie algebra]] of [[finite number|finite]] [[dimension]];
+
+1. $(V, \rho)$ a $\mathfrak{g}$-[[Lie algebra module]] of [[finite number|finite]] [[dimension]], which is [[reducible representation|reducible]];
+
+1. $\mathfrak{h} \hookrightarrow \mathfrak{g}$ a sub-Lie algebra which is [[reductive Lie algebra|reductive]] in $\mathfrak{g}$ (Def. \ref{LieAlgebraReductiveInAmbientLieAlgebra}) in that its [[adjoint representation]] on $\mathfrak{g}$ is [[reducible representation|reducible]].
+
+1. such that 
+
+   $$
+     \mathfrak{g} = \mathfrak{h} \ltimes \mathfrak{a}
+   $$
+
+   is a [[semidirect product Lie algebra]] (hence $\mathfrak{a}$ a [[Lie ideal]]).
+
+Then the [[invariants]] in the Lie algebra cohomology of $\mathfrak{a}$ (either with respect to $\mathfrak{h}$ or all of $\mathfrak{g}$) coincide with the relative Lie algebra cohomology (Def. \ref{RelativeLieAlgebraCohomologyWithCoefficients}, using the invariant subcomplex!):
+
+$$
+   H^\bullet(\mathfrak{a}; V)^{\mathfrak{h}}
+   \;\simeq\;
+   H^\bullet(\mathfrak{g}, \mathfrak{h}; V)
+   \,.   
+$$
+
+
+=--
+
+([Solleveld 02, theorem 2.28](#Solleveld02))
+
+Proof via the [[Hochschild-Serre spectral sequence]].
+
 ## Examples
 
 Every [[invariant polynomial]] $\langle - \rangle \in W(\mathfrak{g})$ on a Lie algebra has a _transgression_ to a cocycle on $\mathfrak{g}$. See [[∞-Lie algebra cohomology]] for more.
@@ -168,6 +296,8 @@ obtained by gluing on a rational $n$-sphere. By this kind of translation between
 
 Accounts of the standard theory of Lie algebra cohomology include
  
+* {#Koszul50} [[Jean-Louis Koszul]], _Homologie et cohomologie des alg&egrave;bres de Lie_, Bull. Soc. Math. France 78 (1950), 65-127
+
 * [[Gerhard Hochschild]], [[Jean-Pierre Serre]], _Cohomology of Lie algebras_, Annals of Mathematics, Second Series, Vol. 57, No. 3 (May, 1953), pp. 591-603 ([JSTOR](http://www.jstor.org/stable/1969740))
 
 * [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]], in chapter V in vol III of _[[Connections, Curvature, and Cohomology]]_ Academic Press (1973)
@@ -178,7 +308,7 @@ Accounts of the standard theory of Lie algebra cohomology include
 
 * [[José de Azcárraga]], Jos&#233;  M. Izquierdo, J. C. Perez Bueno, _An introduction to some novel applications of Lie algebra cohomology and physics_ ([arXiv:physics/9803046](http://arxiv.org/abs/physics/9803046))
 
-* [[Maarten Solleveld]], _Lie algebra cohomology and
+* {#Solleveld02} [[Maarten Solleveld]], _Lie algebra cohomology and
 Macdonald’s conjectures_, 2002 ([pdf](https://www.math.ru.nl/~solleveld/scrip.pdf))
 
 See also
@@ -204,7 +334,7 @@ See also [[division algebra and supersymmetry]].
 
 This subsumes some of the results in
 
-* J. A. de Azc&#225;rraga and P. K. Townsend, _Superspace geometry and classification of supersymmetric extended objects_, Phys. Rev. Lett. 62, 2579--2582 (1989)
+* [[José de Azcárraga]], [[Paul Townsend]], _Superspace geometry and classification of supersymmetric extended objects_, Phys. Rev. Lett. 62, 2579--2582 (1989)
 
 The cohomology of the [[super Poincare Lie algebra]] in low dimensions $\leq 5$ is analyzed in
 
@@ -225,10 +355,10 @@ and in higher dimensions more generally in
 ### Extensions
 
 
-The [[∞-Lie algebra]] [[∞-Lie algebra cohomology|extensions]] $b^{n-2} \to \mathfrak{g}_\mu \to \mathfrak{g}$ induced by a degree $n$-cocycle are considered around theorem 55 in
+The [[∞-Lie algebra]] [[∞-Lie algebra cohomology|extensions]] $b^{n-2} \to \mathfrak{g}_\mu \to \mathfrak{g}$ induced by a degree $n$-cocycle are considered 
 
-* [[John Baez]] and [[Alissa Crans]], Higher-Dimensional Algebra VI: Lie 2-Algebras, Theory and Applications of Categories 12 (2004), 492-528.  [arXiv](http://arxiv.org/abs/math.QA/0307263)
-{#BaezCrans}
+* {#BaezCrans} [[John Baez]], [[Alissa Crans]], around theorem 55 in _Higher-Dimensional Algebra VI: Lie 2-Algebras_, Theory and Applications of Categories 12 (2004), 492-528.  [arXiv](http://arxiv.org/abs/math.QA/0307263)
+
 
 
 [[!redirects Lie algebra cocycle]]
