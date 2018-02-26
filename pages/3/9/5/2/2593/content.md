@@ -164,14 +164,10 @@ obtained by gluing on a rational $n$-sphere. By this kind of translation between
 
 ### Ordinary Lie algebras
 
-An account of the standard theory of Lie algebra cohomology is for instance
+Accounts of the standard theory of Lie algebra cohomology include
+ 
 
-in chapter V in vol III of 
-
-* [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]], _[[Connections, Curvature, and Cohomology]]_ Academic Press (1973)
-
-
-in 
+* [[Werner Greub]], [[Stephen Halperin]], [[Ray Vanstone]], in chapter V in vol III of _[[Connections, Curvature, and Cohomology]]_ Academic Press (1973)
 
 * [[José de Azcárraga]], Jos&#233; M. Izquierdo, section 6 of _[[Lie Groups, Lie Algebras, Cohomology and Some Applications in Physics]]_, Cambridge monographs of mathematical physics, (1995)
 
@@ -179,10 +175,10 @@ with a brief summary in
 
 * [[José de Azcárraga]], Jos&#233;  M. Izquierdo, J. C. Perez Bueno, _An introduction to some novel applications of Lie algebra cohomology and physics_ ([arXiv](http://arxiv.org/abs/physics/9803046))
 
+* [[Charles Weibel]], chapter 7 of _An introduction to homological algebra_, Cambridge Studies in Adv. Math. __38__, CUP 1994
 
-chapter 7 of
-
-* [[Charles Weibel]], _An introduction to homological algebra_, Cambridge Studies in Adv. Math. __38__, CUP 1994
+* Maarten Solleveld, _Lie algebra cohomology and
+Macdonald’s conjectures_, 2002 ([pdf](https://www.math.ru.nl/~solleveld/scrip.pdf))
 
 See also
 
