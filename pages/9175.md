@@ -23,7 +23,8 @@ $$
 
 into the [[(2,1)-topos]] over the given [[site]] of definition: it is the quotient after regarding the action as an [[infinity-action]] in $\mathbf{H}$.
 
-This is the geometric version of the notion of _[[action groupoid]]_ .
+This is the geometric version of the notion of _[[action groupoid]]_. A wider notion of the quotient stack may be defined using more general internal groupoids. Indeed,
+the [[small fibration]] obtained by the [[externalization]] of an internal groupoid in a site with pullbacks will be a [[fibered category]] which is a candidate for a quotient stack in this context. For many interesting sites, sometimes under additional conditions on the internal groupoid, the resulting small fibration is indeed a stack.
 
 If the [[stabilizer subgroups]] of the [[action]] are [[finite groups]], then the quotient stack is an [[orbifold]]/[[Deligne-Mumford stack]] --the "quotient orbifold".
 
