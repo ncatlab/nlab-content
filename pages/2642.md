@@ -32,6 +32,8 @@ A representation that has proper nontrivial subrepresentations but can not be de
 
 ## Related concepts
 
+* [[reducible representation]]
+
 * [[simple object]]
 
 * [[fundamental representation]]
