@@ -32,6 +32,8 @@ A Lie algebra [[homomorphism]] $\mathfrak{g} \to end(V)$ to the [[endomorphism L
 
 ## Related concepts
 
+* [[Lie algebra cohomology]]
+
 * [[group action]]
 
 * [[Lie infinity-algebroid representation]]
@@ -41,3 +43,10 @@ A Lie algebra [[homomorphism]] $\mathfrak{g} \to end(V)$ to the [[endomorphism L
 
 [[!redirects Lie algebra action]]
 [[!redirects Lie algebra actions]]
+
+[[!redirects Lie module]]
+[[!redirects Lie modules]]
+
+[[!redirects Lie algebra module]]
+[[!redirects Lie algebra modules]]
+
