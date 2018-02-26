@@ -49,7 +49,14 @@ and it is converging to the [[group cohomology]] $E^n_\infty = H^n(G,A)$.
 
 There is a similar spectral sequence for [[group homology]] obtained as a Grothendieck spectral sequence for the two-stage computation of [[coinvariants]].  
 
+## Related concepts
+
+* [[Lie algebra cohomology]]
+
 ## References
+
+* {#HochschildSerre53} [[Gerhard Hochschild]], [[Jean-Pierre Serre]], _Cohomology of Lie algebras_, Annals of Mathematics, Second Series, Vol. 57, No. 3 (May, 1953), pp. 591-603 ([JSTOR](http://www.jstor.org/stable/1969740))
+
 
 * [[James Milne]], section 14 of _[[Lectures on Étale Cohomology]]_
 
