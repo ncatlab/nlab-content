@@ -73,7 +73,7 @@ A double category is an important special case of an [[n-fold category]], namely
 
 * Any topological space has a "homotopy double groupoid" whose objects are points, whose morphisms of both types are paths (so it is edge-symmetric), and whose 2-cells are homotopies.
 
-* There is a double category $MonCat$ whose objects are [[monoidal categories]], whose horizontal arrows are [[lax monoidal functor]]s, whose vertical arrows are [[colax monoidal functor]]s, and whose 2-cells are generalized [[monoidal natural transformation]]s.  An analogous double category can be constructed involving the algebras for any [[2-monad]].
+* There is a double category $MonCat$ whose objects are [[monoidal categories]], whose horizontal arrows are [[lax monoidal functor]]s, whose vertical arrows are [[colax monoidal functor]]s, and whose 2-cells are generalized [[monoidal natural transformation]]s.  An analogous double category can be constructed involving the algebras for any [[2-monad]]; see [[double category of algebras]].
 
 * There is a double category $Model$ whose objects are [[model categories]], whose horizontal arrows are right [[Quillen functor]]s, whose vertical arrows are left Quillen functors, and whose 2-cells are arbitrary natural transformations.  Passage to [[derived functors]] is a functor on this double category.  More generally, we can define a double category of [[homotopical categories]] and "left derivable" and "right derivable" functors.
 
@@ -164,7 +164,7 @@ There are notions of [[double functor|functor]] and of [[vertical transformation
 
 Probably the most useful such 2-categories are where we choose one direction to be the "arrow" direction and the other the "proarrow" direction, we take functors which are lax, colax, or pseudo in the proarrow direction and strict in the arrow direction, and transformations that go in the arrow direction.  This is natural when considering double categories such as [[proarrow equipments]].  If we allow the functors and transformations to be only pseudo in the arrow direction as well, and add in [[modifications]] in the arrow direction, we obtain a [[3-category]] instead.  In some situations, such as the study of [[generalized multicategories]], this 3-category is a natural place in which to work (or an enlargement of it to include [[virtual equipments]] as well).
 
-We can also combine the horizontally lax and colax functors, together with a general notion of vertical transformation, into a large double category of double categories.  This is a special case of the double category of $T$-algebras for a particular 2-monad $T$, mentioned above.
+We can also combine the horizontally lax and colax functors, together with a general notion of vertical transformation, into a large double category of double categories.  This is a special case of the double category of $T$-algebras for a particular 2-monad $T$ mentioned above; see [[double category of algebras]].
 
 In some contexts, a natural observation is that the 1-category $DblCat$ is [[cartesian closed category|cartesian closed]], and thus enriched over itself--thus it forms a "locally-double" category, i.e. a category enriched over double categories.  This can be regaded as a structure like a [[3-category]], except that it has two different kinds of 2-cells (in this case, the vertical and horizontal transformations).
 
