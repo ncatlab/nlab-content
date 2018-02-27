@@ -101,6 +101,25 @@ $$
 from $G$-principal $\infty$-bundles with bundle equivalences between them, to $G$-principal $\infty$-bundles with concordances between them.
 
 
+### In global equivariant homotopy theory
+  {#InGlobalEquivariantHomotopyTheory}
+
+In [[global equivariant homotopy theory]]  an incarnation of the points to pieces transform is the comparison map from [[homotopy quotients]] to ordinary [[quotients]]
+
+$$
+  X//G \longrightarrow X/G
+$$
+
+which in terms of the [[Borel construction]] is induced by the map $E G \to \ast$
+
+$$
+  E G \times_G X \longrightarrow \ast \times_G X = X/G
+  \,.
+$$
+
+(see at [[global equivariant homotopy theory]] [this prop.](global+equivariant+homotopy+theory#OrdinaryQuotientAndHomotopyQuotientViaCohesion))
+
+
 ### In tangent cohesion: the differential cohomology diagram
 
 In a [[tangent cohesive (∞,1)-topos]] on [[stable homotopy types]] the points-to-pieces transform is one stage in a natural hexagonal [[long exact sequence]], the _[[differential cohomology diagram]]_. See there for more.
