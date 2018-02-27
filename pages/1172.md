@@ -40,10 +40,10 @@ The [[morphisms]] of Cauchy spaces are the Cauchy-continuous functions; a [[func
 Any [[metric space]] is a Cauchy space: $F$ is a Cauchy filter iff it has elements of arbitrarily small diameter.  This reconstructs the usual definitions of Cauchy sequence and Cauchy-continuous map for metric spaces.  (In particular, a map between metric spaces is Cauchy-continuous iff it maps every Cauchy sequence to a Cauchy sequence; the result for general nets follows since a metric space is [[sequential space|sequential]].)  The [[forgetful functor]] from $Met$ (metric spaces and [[short maps]]) to $Cau$ is [[faithful functor|faithful]] but not [[full functor|full]].
 
 
-More generally, any [[uniform space]] is a Cauchy space: $F$ is a Cauchy filter if, given any [[entourage]] $U$, $A \times A \subseteq U$ for some $A \in F$.  This reconstructs the usual definitions of Cauchy net and Cauchy-continuous map for uniform spaces.  (In general, we need nets rather than just sequences here.)  The [[forgetful functor]] from $Unif$ (uniform spaces and [[uniformly continuous maps]]) to $Cau$ is [[faithful functor|faithful]] but still not [[full functor|full]].
+More generally, any [[uniform space]] is a Cauchy space: $F$ is a Cauchy filter if, given any [[entourage]] $U$, $A \times A \subseteq U$ for some $A \in F$.  This reconstructs the usual definitions of Cauchy net and Cauchy-continuous map for uniform spaces.  (In general, we need nets rather than just sequences here.)  A map between uniform spaces is Cauchy continuous iff its [[restrictions]] to [[precompact space|precompact subspaces]] are always uniformly continuous.  The [[forgetful functor]] from $Unif$ (uniform spaces and [[uniformly continuous maps]]) to $Cau$ is [[faithful functor|faithful]] but still not [[full functor|full]].
 
 
-Assuming the [[ultrafilter principle]] (and [[excluded middle]], which might follow from the ultrafilter principle for all that I know), we may take any collection $U$ of [[free ultrafilters]] and define a proper filter $F$ to be Cauchy if (hence iff) every free ultrafilter that refines $F$ belongs to $U$.
+Assuming the [[ultrafilter principle]] and [[excluded middle]], we may take any collection $U$ of [[free ultrafilters]] and define a proper filter $F$ to be Cauchy if (hence iff) every free ultrafilter that refines $F$ belongs to $U$.
 
 
 ## Properties
