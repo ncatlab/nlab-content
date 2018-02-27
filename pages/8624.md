@@ -33,12 +33,12 @@ Where the [[categorical semantics]] of an [[inductive type]] is an [[initial alg
 
 ### Coinductive type formation in homotopy type theory
 
-There is an obstacle to dualizing from inductive types
+There is an obstacle to the complete [[dualization]] of the usual rules for [[inductive types]] in [[homotopy type theory]], including dualizing the [[induction principle]] to a “coinduction principle”. For this some form of “codependent types” would be needed.
 
 > The universal property defining (internal) coinductive types in HoTT is dual to the one defining (internal) inductive types.  One might hence assume that their existence is equivalent to a set of type-theoretic rules dual (in a suitable sense) to those given for external W-types...  However, the rules for external W-types cannot be dualized in a naïve way, due to some asymmetry of HoTT related to dependent types as maps into a “type of types” (a universe) ([ACS15](#ACS15))
 
-However, it is possible to proceed by constructing coinductive types from indexed inductive types ([ACS15](#ACS15)).
-
+However, it is possible instead to dualize the alternative characterization of inductive types as [[initial algebra for an endofunctor|initial algebras]] for a notion of coinductive types as [[terminal coalgebra of an endofunctor|terminal coalgebras]], and that can be formulated (and often constructed) in ordinary HoTT. In ([ACS15](#ACS15)) the authors proceed to construct coinductive types from indexed inductive types.
+ 
 ## Related concepts
 
 * [[coinduction]], [[corecursion]]
