@@ -44,11 +44,11 @@ The constructor is then determined as usual for a negative type: to construct a 
 
 $$\frac{x\colon A\vdash b\colon B(x)}{\lambda x.b\colon \prod_{x\colon A} B(x)}$$
 
-The [[∞-reduction]] rule is the obvious one, saying that when we evaluate a $\lambda$-abstraction, we do it by substituting for the bound variable.
+The [[beta-reduction]] rule is the obvious one, saying that when we evaluate a $\lambda$-abstraction, we do it by substituting for the bound variable.
 
 $$(\lambda x.b)(a) \;\to_\beta\; b[a/x]$$
 
-If we want an [[∞-conversion]] rule, the natural one says that every dependently typed function is a $\lambda$-abstraction:
+If we want an [[eta-conversion]] rule, the natural one says that every dependently typed function is a $\lambda$-abstraction:
 
 $$ \lambda x.f(x) \;\to_\eta\; f$$
 
