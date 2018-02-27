@@ -542,7 +542,7 @@ $$
   \,.
 $$
 
-This normalization factor comes from
+The normalization factor $-\frac{1}{20}$ arises as follows:
 
 
 $$
