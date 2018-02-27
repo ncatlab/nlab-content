@@ -40,3 +40,9 @@ Where the [[categorical semantics]] of an [[inductive type]] is an [[initial alg
 * [[inductive type]]
 
 [[!redirects coinductive types]]
+
+## References
+
+* Benedikt Ahrens, Paolo Capriotti, Régis Spadotti, _Non-wellfounded trees in Homotopy Type Theory_, ([arXiv:1504.02949](https://arxiv.org/abs/1504.02949))
+
+* _coinductives_, [discussion](https://groups.google.com/forum/#!msg/homotopytypetheory/tYRTcI2Opyo/PIrI6t5me-oJ) on Homotopy type theory mailing list
