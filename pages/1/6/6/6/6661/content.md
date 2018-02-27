@@ -74,6 +74,10 @@ The following limits are $l$-rigged.
 
 Each has a fairly obvious dual version which is $c$-rigged.  There are $p$-rigged versions as well, but $p$-rigged weights are almost equivalent to [[PIE-limits]]; see ([LS](#LS)) for details.
 
+## Related concepts
+
+* Some limits of diagrams involving both lax and colax morphisms can also be given a $T$-algebra structure; see for instance [[colax/lax comma object]].
+
 ## References
 
 * [[Stephen Lack]], "Limits for lax morphisms". *Appl. Categ. Structures*,
