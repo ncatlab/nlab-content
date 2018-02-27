@@ -29,7 +29,7 @@ Given such a conjunction, we say that $f$ and $g$ are **conjoints** of each othe
 
 ## Examples
 
-* In the double category $\mathbf{Sq}(K)$ of squares ("quintets") in any 2-category $K$, a conjunction is simply an internal [[adjunction]] in $K$.
+* In the double category $\mathbf{Sq}(K)$ of squares ([[quintets]]) in any 2-category $K$, a conjunction is simply an internal [[adjunction]] in $K$.
 
 * In the double category $T$-**Alg** of algebras, lax morphisms, and colax morphisms for a [[2-monad]], an conjunction is precisely a [[doctrinal adjunction]] between a colax morphism an a lax morphism.
 
@@ -54,8 +54,11 @@ Given such a conjunction, we say that $f$ and $g$ are **conjoints** of each othe
 [[!redirects conjunctions]]
 [[!redirects conjunctionss]]
 [[!redirects conjoint]]
+[[!redirects conjoint pair]]
 [[!redirects conjoints]]
+[[!redirects conjoint pairs]]
 [[!redirects conjunction in a double category]]
+[[!redirects conjunctions in a double category]]
 [[!redirects left conjoint]]
 [[!redirects right conjoint]]
 [[!redirects left conjoints]]
