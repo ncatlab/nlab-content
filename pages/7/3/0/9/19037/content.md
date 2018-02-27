@@ -28,7 +28,7 @@ Explicitly, it is constructed as follows. Let $C, D, E$ be virtual double catego
 2. A horizontal arrow $R$ from $A$ to $B$ consists of horizontal arrows $R_C : A_C \to B_C$ and $R_D : A_D \to B_D$ and a 2-cell in $E$ from $F R_C$ to $G R_D$ along $A,B$.
 3. A 2-cell $\alpha$ from $R_1,\ldots,R_n$ to $S$ consists of a pair of 2-cells $\alpha_C : (R_{1C},\ldots,R_{nC}) \to S_C$ and $\alpha_D : (R_{1D},\ldots,R_{nD}) \to S_D$ such that $G(\alpha_D) \circ (R_1,\ldots,R_n) = S \circ F(\alpha_C)$.
 
-## Structures on the Comma Double Category ##
+## Structures on a Comma Double Category ##
 
 Next, we consider what properties are required of the input data to determine that a comma virtual double category has units and composites. An analogy with the double category case gives some guidance. Since functors of virtual double categories correspond to *lax* functors of double categories, we don't have any requirements for the functor $G$ on top of $D$ having composites or units. On the other hand, for $F$ to be "oplax", we require that it be normal for units or furthermore strong for composites.
 
@@ -56,7 +56,7 @@ In practice this proof burden can be reduced if we are interested in virtual equ
 
 +-- {: .un_prop} 
 ###### Corollary
-If $C$ and $D$ are [[virtual equipments]] and $F$ is a normal functor, then $F/G$ is a virtual equipment.
+If $C, D$ and $E$ are [[virtual equipments]] and $F$ is a normal functor, then $F/G$ is a virtual equipment.
 =--
 
 ## Examples ##
