@@ -33,7 +33,11 @@ If the ambient category is instead an [[(∞,1)-category]] such as [[∞Grpd]], 
 
 A **$0$-fold category** is a [[set]].  A (strict) **$n$-fold category** for $n \gt 0$ is an [[internal category]] in the category of $(n-1)$-fold categories.  An $n$-fold category is also known as an **$n$-tuple category**.
 
-In particular, a $1$-fold category is precisely a [[category]], and a $2$-fold category is precisely a [[double category]] (introduced by [[Charles Ehresmann]] in 1963).
+In particular:
+
+* A $1$-fold category is precisely a [[category]].
+* A $2$-fold category is precisely a [[double category]] (introduced by [[Charles Ehresmann]] in 1963).
+* A $3$-fold category is precisely a [[triple category]].
 
 ## Advantages
 
