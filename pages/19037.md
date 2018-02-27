@@ -72,3 +72,7 @@ An explicit description of the comma double category from an oplax to a lax func
 
 * [[Kenny Courser]], _A bicategory of decorated cospans_ ([arxiv](https://arxiv.org/abs/1605.08100))
 
+
+[[!redirects comma double categories]]
+[[!redirects comma virtual double category]]
+[[!redirects comma virtual double categories]]
