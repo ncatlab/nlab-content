@@ -216,10 +216,11 @@ $$
 
 ([Rezk 14, 3.2](#Rezk14))
 
-+-- {: .num_prop }
++-- {: .num_prop #OrdinaryQuotientAndHomotopyQuotientViaCohesion}
 ###### Proposition
+**(ordinary [[quotient]] and [[homotopy quotient]] via equivariant cohesion)**
 
-On a $G$-space $X \in G Top$ included via def. \ref{InclusionOfGSpacesInTheGlobalTheory} into to the global equivariant homotopy theory, 
+On a $G$-space $X \in G Top$ included via def. \ref{InclusionOfGSpacesInTheGlobalTheory} into the global equivariant homotopy theory, 
 
 * the [[shape modality]] of def. \ref{CohesionOfGlobalEquivariantHomotopyTheory} produces the [[homotopy type]] of the ordinary [[quotient]] of the $G$-[[action]]
 
@@ -234,6 +235,15 @@ On a $G$-space $X \in G Top$ included via def. \ref{InclusionOfGSpacesInTheGloba
     \Gamma(\delta_G(X)) \simeq \vert X//G \vert
     \,,
   $$
+
+In particular then the [[points-to-pieces transform]] of general [[cohesion]] yields the comparison map
+
+$$
+  \vert X//G \vert
+  \longrightarrow
+  \vert X/G \vert
+   \,.
+$$
 
 =--
 
