@@ -31,6 +31,14 @@ The notion of _coinductive types_ is [[duality|dual]] to that of _[[inductive ty
 
 Where the [[categorical semantics]] of an [[inductive type]] is an [[initial algebra for an endofunctor]], the semantics of a coinductive type is a [[terminal coalgebra of an endofunctor]].
 
+### Coinductive type formation in homotopy type theory
+
+There is an obstacle to dualizing from inductive types
+
+> The universal property defining (internal) coinductive types in HoTT is dual to the one defining (internal) inductive types.  One might hence assume that their existence is equivalent to a set of type-theoretic rules dual (in a suitable sense) to those given for external W-types...  However, the rules for external W-types cannot be dualized in a naïve way, due to some asymmetry of HoTT related to dependent types as maps into a “type of types” (a universe) ([ACS15](#ACS15))
+
+However, it is possible to proceed by constructing coinductive types from indexed inductive types ([ACS15](#ACS15)).
+
 ## Related concepts
 
 * [[coinduction]], [[corecursion]]
@@ -43,6 +51,6 @@ Where the [[categorical semantics]] of an [[inductive type]] is an [[initial alg
 
 ## References
 
-* Benedikt Ahrens, Paolo Capriotti, Régis Spadotti, _Non-wellfounded trees in Homotopy Type Theory_, ([arXiv:1504.02949](https://arxiv.org/abs/1504.02949))
+* {#ACS15} Benedikt Ahrens, Paolo Capriotti, Régis Spadotti, _Non-wellfounded trees in Homotopy Type Theory_, ([arXiv:1504.02949](https://arxiv.org/abs/1504.02949))
 
-* _coinductives_, [discussion](https://groups.google.com/forum/#!msg/homotopytypetheory/tYRTcI2Opyo/PIrI6t5me-oJ) on Homotopy type theory mailing list
+* _coinductives_, [discussion](https://groups.google.com/forum/#!msg/homotopytypetheory/tYRTcI2Opyo/PIrI6t5me-oJ) on Homotopy Type Theory group.
