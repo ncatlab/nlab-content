@@ -88,7 +88,7 @@ $$
   \;\;
   \Leftrightarrow
   \;\;
-  L(F) \pitchfork g
+  L(f) \pitchfork g
 $$
 
 =--
@@ -196,7 +196,7 @@ Let now $\mathcal{E}_3$ have [[finite limits|finite]] [[colimits]] and let $\oti
 for $f : A \to B$ in $\mathcal{E}_1$ and $g : X \to Y$ in $\mathcal{E}_2$, write
 
 $$
-  A \otimes Y \coprod_{A \otimes X} B \otimes Y
+  A \otimes Y \coprod_{A \otimes X} B \otimes X
   \to
   B \otimes Y
 $$
@@ -209,7 +209,7 @@ $$
     \\
     \downarrow && \downarrow
     \\
-    B \otimes X &\to& B \otimes Y
+    A \otimes Y &\to& B \otimes Y
   }
   \,.
 $$
@@ -301,7 +301,7 @@ $$
 Write
 
 $$
-  \otimes [\Delta, Set] \times [\Delta^{op}, \mathcal{E}] \to\mathcal{E} 
+  \otimes : [\Delta, Set] \times [\Delta^{op}, \mathcal{E}] \to\mathcal{E} 
 $$
 
 for the functor given by the [[coend]]
