@@ -72,7 +72,7 @@ The original paper in which a special case of Hensel's lemma appeared, for monic
 
 * Kurt Hensel, _Neue Grundlagen der Arithmetik._ Journal f&#252;r die reine und angewandte Mathematik 127 (1904) 51-84 ([EuDML](https://eudml.org/doc/149178))
 
-and updated to remove the monic condition in
+and updated to remove monicity in
 
 * Kurt Hensel, _Theorie der algebraischen Zahlen_, 1908. ([Internet Archive](https://archive.org/details/theoriederalgeb01hensgoog))
 
@@ -80,7 +80,7 @@ A proof for more general topological rings is in
 
 * {#Bourbaki_CA} [[Bourbaki]], _Commutative Algebra_, III.4.3
 
-See also for simple examples in p-adics:
+See also for simple examples over the $p$-adic numbers:
 
 * Wikipedia, [Hensel's lemma](https://en.wikipedia.org/wiki/Hensel%27s_lemma)
 
