@@ -201,7 +201,7 @@ exhibits $A(a,G(-))  \in [C',sSet]$ as a homotopy right Kan extension of $A(a,F(
 
 This appears as [[Higher Topos Theory|HTT, prop. A.3.3.12]].
 
-First notice that a  replacement $F \stackrel{\simeq}{\to} \hat F$ in [C,A]_{inj} by a fibrant $\hat F$ induces a weak equivalence $A(a,F(-)) \to A(a,\hat F(-))$ for all cofibrant $a \in A$, since $F$ is assumed projectively fibrant and using the properties of [[derived hom-space]]s in an [[enriched model category]].
+First notice that a  replacement $F \stackrel{\simeq}{\to} \hat F$ in $[C,A]_{inj}$ by a fibrant $\hat F$ induces a weak equivalence $A(a,F(-)) \to A(a,\hat F(-))$ for all cofibrant $a \in A$, since $F$ is assumed projectively fibrant and using the properties of [[derived hom-space]]s in an [[enriched model category]].
 
 Therefore we may assume without loss of generality that $F$ is already injectively fibrant. Then it also follows that for all cofibrant $a \in A $ we have that $A(a,F(-)) \in [C,sSet]_{inj}$ is fibrant: because $A(a,(-))$ having [[right lifting property]] against all acyclic cofibrations $H \to H'$ in $[C,sSet]_{inj}$ 
 
