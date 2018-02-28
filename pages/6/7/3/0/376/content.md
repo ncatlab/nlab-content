@@ -376,6 +376,8 @@ With the [[adjoint functor theorem]] this implies that for every morphism $f : X
  
 =--
 
+More generally, every [[quasitopos]] is locally cartesian closed.
+
 ## Related concepts
 
 * [[cartesian closed category]], **locally cartesian closed category**
