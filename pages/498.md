@@ -149,6 +149,8 @@ Possible to-dos: say something about $m$-adic topology, completion, Zariski topo
 
 * [[Zariski topos]] 
 
+* [[Henselian ring]]
+
 
 ## References
 
