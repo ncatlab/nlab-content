@@ -94,6 +94,11 @@ Let $R$ be a [[valuation ring|discrete valuation ring]], with $K$ its field of f
 
 A rule of thumb, as suggested by this example, is that the Henselization is the algebraic part of a local ring completion. 
 
+## Related concepts
+
+* [[restricted formal power series]]
+* [[Henselian pair]]
+
 ## References
 
 An original reference is
