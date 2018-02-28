@@ -65,6 +65,7 @@ The original example is of $A$ being the [[p-adic integers]] $\mathbb{Z}_p$, wit
 ## Related concepts
 
 * [[Henselian ring]]
+* [[Henselian pair]]
 
 ## References
 
