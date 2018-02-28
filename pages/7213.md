@@ -76,7 +76,7 @@ Reviewes include
 
 Original articles include
 
-* K. Koepsell, [[Hermann Nicolai]], [[Henning Samtleben]], _An exceptional geometry for d=11 supergravity?_, Class.Quant.Grav.17:3689-3702,2000 ([arXiv:hep-th/0006034](http://arxiv.org/abs/hep-th/0006034))
+* K. Koepsell, [[Hermann Nicolai]], [[Henning Samtleben]], _An exceptional geometry for d=11 supergravity?_, Class. Quant. Grav.17:3689-3702, 2000 ([arXiv:hep-th/0006034](http://arxiv.org/abs/hep-th/0006034))
 
 * {#Hull07} [[Chris Hull]], _Generalised Geometry for M-Theory_, JHEP 0707:079 (2007) ([arXiv:hep-th/0701203](http://arxiv.org/abs/hep-th/0701203))
  
