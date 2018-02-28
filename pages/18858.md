@@ -18,7 +18,7 @@ A $P_F$-valued set $A$ consists of
 
 A morphism $f : A \to B$ of $P_F$-valued sets consists of
 
-1. An underlying *relation* $f_0 : A_0 &#8696; B_0)$
+1. An underlying *relation* $f_0 : A_0 &#8696; B_0$
 2. Such that if $x F(f_0) y$ then $\alpha_A(x) \leq_{P} \alpha_B(y)$
 
 This gives a category of $P_F$-valued sets using relational composition.
