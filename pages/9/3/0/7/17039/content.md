@@ -120,7 +120,7 @@ on current developments regarding foundations of [[geometry]] in [[mathematics]]
 
 ### Derived stacks in symplectic geometry (Damien Calaque)
 
-[[Damien Calaque]] on [[derived geometry|derived]] [[symplectic geometry]].
+[[Damien Calaque]] on [[derived geometry|derived]] [[symplectic geometry]] ([ arXiv:1802.09643](https://arxiv.org/abs/1802.09643))
 
 
 ### Higher pre-quantized geometry (Urs Schreiber)
