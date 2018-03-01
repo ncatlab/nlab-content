@@ -15,7 +15,7 @@
 
 ## Idea
 
-The notion of _continuous category_ is a [[categorification]] of the notion of _[[continuous poset]]_.
+The notion of _continuous category_ is a [[categorification]] of the notion of _[[continuous poset]]_.  It can be further categorified to a notion of continuous [[(∞,1)-category]].
 
 
 ## Definition
@@ -27,7 +27,7 @@ Let $C$ be a [[category]] and $Ind(C)$ its category of [[ind-objects]].  We assu
 A category $C$ with filtered colimits is a **continuous category** if $\colim: Ind(C) \to C$ has a left adjoint.
 =--
 
-If $C$ is a [[poset]], then $Ind(C) = Idl(C)$ is its category of [[ideals]].  Thus, a poset is a continuous category exactly when it is a [[continuous poset]].
+If $C$ is a [[poset]], then $Ind(C) = Idl(C)$ is its category of [[ideals]].  Thus, a poset is a continuous category exactly when it is a [[continuous poset]].  This definition can be extended to $(\infty,1)$-categories essentially verbatim.
 
 
 ## Examples
@@ -38,6 +38,7 @@ If $C$ is a [[poset]], then $Ind(C) = Idl(C)$ is its category of [[ideals]].  Th
 
   * If $X$ is a [[stably locally compact locale]] (or more generally a [[metastably locally compact locale]]), then $Sh(X)$ is continuous and hence exponentiable.  It does *not* suffice for $X$ to be locally compact (i.e. for its [[frame of opens]] to be a continuous poset).
 
+  * Similarly, a [[Grothendieck (∞,1)-topos]] is a continuous $(\infty,1)$-category if and only if it is an exponentiable object, in the appropriate sense, in the $(\infty,1)$-category of $(\infty,1)$-toposes and geometric morphisms.
 
 ## Wavy arrows
 
