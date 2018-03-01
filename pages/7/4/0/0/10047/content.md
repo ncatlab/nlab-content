@@ -34,7 +34,7 @@ If $C$ is a [[poset]], then $Ind(C) = Idl(C)$ is its category of [[ideals]].  Th
 
 * Any [[locally finitely presentable category]] is a continuous category.
 
-* A [[Grothendieck topos]] is a continuous category if and only if it is an [[exponentiable object]] in the 2-category of Grothendieck toposes and [[geometric morphisms]].
+* A [[Grothendieck topos]] is a continuous category if and only if it is an [[exponentiable object]] in the 2-category of Grothendieck toposes and [[geometric morphisms]], i.e. an [[exponentiable topos]].
 
   * If $X$ is a [[stably locally compact locale]] (or more generally a [[metastably locally compact locale]]), then $Sh(X)$ is continuous and hence exponentiable.  It does *not* suffice for $X$ to be locally compact (i.e. for its [[frame of opens]] to be a continuous poset).
 
