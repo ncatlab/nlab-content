@@ -59,6 +59,7 @@ However, if $\tilde{C}(x,y)$ denotes the set of wavy arrows, then the compositio
 
 * [[Peter Johnstone]] and [[Andre Joyal]], *Continuous categories and exponentiable toposes*, JPAA 25 (1982), [doi (free PDF)](http://dx.doi.org/10.1016/0022-4049%2882%2990083-4)
 
+* [[Mathieu Anel]], Damien Lejay, _Exponentiable Higher Toposes_ , arXiv:1802.10425 (2018). ([abstract](https://arxiv.org/abs/1802.10425))
 
 [[!redirects continuous category]]
 [[!redirects continuous categories]]
