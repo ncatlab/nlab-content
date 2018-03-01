@@ -56,10 +56,11 @@ Equivalently, in addition to finite limits and colimits and local cartesian clos
 +-- {: .un_prop}
 ###### Definition/Proposition
 
-
-The [[full subcategory]] $SepPSh(C) \hookrightarrow PSh(C)$ of a [[category of presheaves]] over a [[site]] $C$, consisting of the [[separated presheaves]] on $C$, is a quasi#topos.  A category equivalent to such a separated presheaf category is called a **Grothendieck quasitopos**, by analogy with the notion of [[Grothendieck topos]].  
+Let $C$ be a category with two [[Grothendieck topologies]] $J$ and $K$ such that $J\subseteq K$.  The [[full subcategory]] $BiSep(C,J,K) \hookrightarrow PSh(C)$ of the [[category of presheaves]] over $C$ consisting of the [[sheaves]] for $J$ that are also [[separated presheaves|separated]] for $K$ is a quasitopos.  A category equivalent to such a category is called a **Grothendieck quasitopos**, by analogy with the notion of [[Grothendieck topos]].
 
 =--
+
+In particular, this includes the category of separated presheaves on a given site (if we take $J$ to be the trivial topology), and also includes all Grothendieck toposes (if we take $K=J$).
 
 ## Properties
 
