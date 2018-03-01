@@ -10,7 +10,7 @@
 
 The defining property of a cogroup object is that morphisms *out* of it form a [[group]].  Specifically, if $C$ is a category, then $G$ is a cogroup object in $C$ if $\operatorname{Hom}(G,X)$ is a group for any object $X$ in $C$ (and the group structure must be natural in $X$).
 
-There are many examples of cogroup objects.  Perhaps the most well-known are the [[n-sphere]] in the [[homotopy category]] of [[pointed topological spaces]], $\operatorname{hTop}_*$.  Then the fact that $S^n$ is a cogroup object in $\operatorname{hTop}$ is precisely the statement that the [[homotopy group]] $\pi_n(X)$ for $n \geq 1$ is indeed a [[group9], naturally in $X$, for all topological spaces $X$.
+There are many examples of cogroup objects.  Perhaps the most well-known are the [[n-sphere]] in the [[homotopy category]] of [[pointed topological spaces]], $\operatorname{hTop}_*$.  Then the fact that $S^n$ is a cogroup object in $\operatorname{hTop}$ is precisely the statement that the [[homotopy group]] $\pi_n(X)$ for $n \geq 1$ is indeed a [[group]], naturally in $X$, for all topological spaces $X$.
 
 
 ## Definition ##
