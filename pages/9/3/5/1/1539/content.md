@@ -60,7 +60,9 @@ Let $C$ be a category with two [[Grothendieck topologies]] $J$ and $K$ such that
 
 =--
 
-In particular, this includes the category of separated presheaves on a given site (if we take $J$ to be the trivial topology), and also includes all Grothendieck toposes (if we take $K=J$).
+In particular, this includes the category of separated presheaves on a given site (if we take $J$ to be the trivial topology), and also includes all Grothendieck toposes (if we take $K=J$). 
+
+Equivalently, a Grothendieck quasitopos is a category of the form $Sep_k(\mathbf{E})$, the category of $k$-separated objects for a [[Lawvere-Tierney topology]] $k$ on a Grothendieck topos $\mathbf{E}$. 
 
 ## Properties
 
