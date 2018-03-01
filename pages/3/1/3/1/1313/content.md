@@ -138,6 +138,9 @@ Note that any cartesian closed category with finite coproducts must be distribut
 
 * [[exponential ideal]]
 
+* [[exponentiable topos]]
+
+* [[reflexive object]]
 
 [[!redirects exponential object]]
 [[!redirects exponential objects]]
