@@ -120,6 +120,8 @@ this is an oversimplification.  Upon choosing an independent variable, it is pos
 
 ## Related concepts
 
+* [[natural bundle]]
+
 * [[total derivative]]
 
 ## References
