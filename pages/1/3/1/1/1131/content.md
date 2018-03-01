@@ -332,7 +332,7 @@ For more see at
 
 * _[[model structure on dg-Lie algebras]]_ the section _[Relation to L-infinity algebras](model+structure+on+dg-Lie+algebras#RectificationResolution)_.
 
-* [[mode structure for L-infinity algebras]], the section _[on dg-Lie algebras](model+structure+for+L-infinity+algebras#OndgLieAlgebras)_.
+* [[model structure for L-infinity algebras]], the section _[on dg-Lie algebras](model+structure+for+L-infinity+algebras#OndgLieAlgebras)_.
 
 ### Relation to dg-coAlgebras
 
