@@ -33,7 +33,7 @@ The concept generalizes to [[higher topos theory]].
 
 ## Properties
 
-The following theorem generalizes a result of [[Martin Hyland]] on expenentiable locales to Grothendieck toposes.
+The following theorem generalizes a result of [[Martin Hyland]] ([1981](#Hyland81)) on exponentiable locales to Grothendieck toposes.
 
 +-- {: .num_prop}
 ###### Theorem
@@ -69,6 +69,8 @@ This result is due to Johnstone-Joyal ([1982](#JJ82)) and occurs as theorem 4.4.
 * [[Mathieu Anel]], Damien Lejay, _Exponentiable Higher Toposes_ , arXiv:1802.10425 (2018). ([abstract](https://arxiv.org/abs/1802.10425))
 
 * [[Andreas Blass]], _The interaction of category theory and set theory_ , Cont. Math. **30** (1984) pp.5-29. ([draft](http://www.math.lsa.umich.edu/~ablass/interact.pdf))
+
+* {#Hyland81}[[Martin Hyland]], _Function spaces in the category of locales_ , Springer LNM **871** (1981) pp.264-281.
 
 * {#JJ82}[[Peter Johnstone]], [[André Joyal]], _Continuous categories and exponentiable toposes_ ,  JPAA **25** (1982) pp.255-296.
 
