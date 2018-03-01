@@ -18,39 +18,48 @@
 {:toc}
 
 ## Idea
+_$n$-fold complete Segal spaces_ are a model for [[(∞,n)-category|(∞,n)-categories]], i.e. the [[homotopy theory|homotopical]] version of [[n-category|n-categories]].
 
-An _$n$-fold complete Segal space_ is a [[homotopy theory]]-version of an [[n-fold category]]: an $n$-fold [[category object in an (infinity,1)-category|category object internal to]] [[∞Grpd]] hence an [[n-category object in an (∞,1)-category]], hence an object in  $Cat(Cat(\cdots Cat(\infty Grpd)))$. This is a model for an _[[(∞,n)-category]]_.
+We can view [[strict n-category|strict n-categories]] as [[n-fold category|n-fold categories]] where part of the structure is trivial; for example, strict 2-categories can be described as double categories where the only vertical morphisms are identities. 
+$n$-fold Segal spaces similarly result from viewing $(\infty,n)$-categories as a special class of $n$-fold internal $\infty$-categories in [[∞Grpd|$\infty$-groupoids]].
+
+If $\mathcal{C}$ is an $\infty$-category, then $\infty$-categories [[category object in an (infinity,1)-category|internal]] to $\mathcal{C}$ can be defined as certain simplicial objects in $\mathcal{C}$ (namely those satisfying the "Segal condition"). Thus $n$-fold internal $\infty$-categories in $\infty$-groupoids correspond to a class of $n$-simplicial $\infty$-groupoids, and  $n$-fold Segal spaces are defined by additionally specifying certain constancy conditions.
+
+To describe the correct homotopy theory of $(\infty,n)$-categories we also want to regard the fully faithful and essentially surjective morphisms between $n$-fold Segal spaces as equivalences. It turns out that, just as in the case of [[Segal spaces]], the localization at these maps can be accomplished by restricting to a full subcategory of _complete_ objects.
 
 
-A [[complete Segal space]] is to be thought of as the [[nerve]] of a category which is _[[homotopy coherent category theory|homotopically]]_ [[enriched category|enriched]] over [[Top]]: it is a simplicial object in [[Top]], $X^\bullet : \Delta^{op} \to Top$ satisfying some conditions and thought of as a model for an $(\infty,1)$-[[(infinity,1)-category|category]]. 
+## Definition
 
-An $(\infty,n)$-category is in its essence the $(n-1)$-fold iteration of this process: recursively, it is a category which is _[[homotopy coherent category theory|homotopically]]_ [[enriched category|enriched]] over $(\infty,n-1)$-categories.
-
-This implies then in particular that an $(\infty,n)$-category in this sense is an $n$-fold simplicial topological space
-$$
-  X_\bullet : \Delta^{op} \times 
-     \Delta^{op} \times \cdots \times \Delta^{op}
-     \to Top
-$$
-
-which satisfies the condition of [[complete Segal space|Segal spaces]] -- the [[Segal condition]] (characterizing also [[nerves]] of [[categories]]) in each variable, in that all the squares
-
+### $n$-fold Segal objects
+If $\mathcal{C}$ is an $\infty$-category with pullbacks, we say that a simplicial object $X_\bullet : \Delta^{op} \to \mathcal{C}$ satisfies the [[Segal condition]] if 
+the squares
 $$
   \array{
-     X_{m+n,\bullet} &\to& X_{n,\bullet}
+     X_{m+n} &\to& X_{n}
      \\
      \downarrow && \downarrow
      \\
-     X_{m,\bullet} &\to& X_{0,\bullet}
+     X_{m} &\to& X_{0}
   }
 $$
+are all pullbacks. Such _Segal objects_ give the $\infty$-categorical version of [[internal category|internal categories]] as _algebraic_ structures. (I.e. we have not inverted a class of fully faithful and essentially surjective morphisms.)
 
-are [[homotopy coherent category theory|homotopy pullbacks]] of $(n-1)$-fold Segal spaces.
+If $Seg(\mathcal{C})$ denotes the full subcategory of $Fun(\Delta^{op}, \mathcal{C})$ spanned by the Segal objects, then this is again an $\infty$-category with pullbacks, so we can iterated the definition to obtain a full subcategory $Seg^{n}(\mathcal{C})$ of $Fun(\Delta^{n,op}, \mathcal{C})$ of _Segal $\Delta^{n}$-objects_ in $\mathcal{C}$.
 
-In analogy of how it works for [[complete Segal spaces]], the completness condition on an $n$-fold complete Segal space demands that the $(n-1)$-fold complete Segal space in degree zero is (under suitable identifications) the 
-[[infinity-groupoid]] which is the [[core]] of the [[(infinity,n)-category]] which is being presented. Since the embedding of $\infty$-groupoids into ($n-1$)-fold complete Segal spaces is by adding lots of degeneracies, this means that the completeness condition on an $n$-fold complete Segal space involves lots of degeneracy conditions in degree 0.
+We can now inductively define $n$-fold Segal objects by imposing constancy conditions:
+An _$n$-fold Segal object_ in $\mathcal{C}$ is a Segal $\Delta^{n}$-object $X$ such that
 
-## Definition
+1. The $(n-1)$-simplicial object $X_0 : \Delta^{n-1,op} \to \mathcal{C}$ is constant
+1. The $(n-1)$-simplicial objects $X_i$ are $(n-1)$-fold Segal objects for all $i$.
+
+When $\mathcal{C}$ is the $\infty$-category of spaces (or $\infty$-groupoids) we refer to $n$-fold Segal objects as _$n$-fold Segal spaces_.
+
+
+### Complete $n$-fold Segal objects
+
+(...)
+
+### Definition via the model category of simplicial sets
 
 (...)
 
