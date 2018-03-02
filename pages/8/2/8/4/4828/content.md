@@ -66,7 +66,9 @@ Similarly, a **symmetric premonoidal category** is a premonoidal category equipp
 
 As a [[strict monoidal category]] is a [[monoid]] in the [[cartesian monoidal category]] [[Cat]], so a strict premonoidal category is a monoid in the [[symmetric monoidal category]] $(Cat,\Box)$, where $\Box$ is the [[funny tensor product]].
 
-It may be possible to make $(Cat,\otimes)$ a [[symmetric monoidal 2-category]], in which a [[pseudomonoid]] object is precisely a non-strict premonoidal category, but if so, nobody seems to have written this up yet.  It is possible, however, to describe part of the structure of a non-strict premonoidal category in terms of $(Cat,\otimes)$.  For instance, a binoidal structure on $C$ is precisely a functor $C\otimes C \to C$, and the naturality of the associator $\alpha$ can be expressed by saying that it is a natural transformation (with central components) between functors $C\otimes C\otimes C \to C$.
+From this point of view, a binoidal category is just a category $C$ with a functor $C \Box C \to C$
+
+It may be possible to make $(Cat,\Box)$ a [[symmetric monoidal 2-category]], in which a [[pseudomonoid]] object is precisely a non-strict premonoidal category, but if so, nobody seems to have written this up yet.  It is possible, however, to describe part of the structure of a non-strict premonoidal category in terms of $(Cat,\Box)$.  For instance, a binoidal structure on $C$ is precisely a functor $C\Box C \to C$, and the naturality of the associator $\alpha$ can be expressed by saying that it is a natural transformation (with central components) between functors $C\Box C\Box C \to C$.
 
 
 ## Examples
