@@ -21,7 +21,7 @@
 _$n$-fold complete Segal spaces_ are a model for [[(∞,n)-category|(∞,n)-categories]], i.e. the [[homotopy theory|homotopical]] version of [[n-category|n-categories]].
 
 We can view [[strict n-category|strict n-categories]] as [[n-fold category|n-fold categories]] where part of the structure is trivial; for example, strict 2-categories can be described as double categories where the only vertical morphisms are identities. 
-$n$-fold Segal spaces similarly result from viewing $(\infty,n)$-categories as a special class of $n$-fold internal $\infty$-categories in [[∞Grpd|$\infty$-groupoids]].
+$n$-fold Segal spaces similarly result from viewing $(\infty,n)$-categories as a special class of $n$-fold internal $\infty$-categories in [[∞Grpd|∞-groupoids]].
 
 If $\mathcal{C}$ is an $\infty$-category, then $\infty$-categories [[category object in an (infinity,1)-category|internal]] to $\mathcal{C}$ can be defined as certain simplicial objects in $\mathcal{C}$ (namely those satisfying the "Segal condition"). Thus $n$-fold internal $\infty$-categories in $\infty$-groupoids correspond to a class of $n$-simplicial $\infty$-groupoids, and  $n$-fold Segal spaces are defined by additionally specifying certain constancy conditions.
 
@@ -55,9 +55,54 @@ An _$n$-fold Segal object_ in $\mathcal{C}$ is a Segal $\Delta^{n}$-object $X$ s
 When $\mathcal{C}$ is the $\infty$-category of spaces (or $\infty$-groupoids) we refer to $n$-fold Segal objects as _$n$-fold Segal spaces_.
 
 
-### Complete $n$-fold Segal objects
+### Complete $n$-fold Segal spaces
 
-(...)
+We now define fully faithful and essentially surjective morphisms between $n$-fold Segal inductively in terms of the corresponding notions for [[Segal spaces]]:
+
+
++-- {: .num_defn}
+###### Definition
+
+A morphism $X \to Y$ between $n$-fold Segal spaces is _fully faithful and essentially surjective_ if:
+
+1. $X_{\bullet,0,\ldots,0} \to Y_{\bullet,0,\ldots,0}$ is a fully faithful and essentially surjective morphism of Segal spaces
+1. $X_{1,\bullet,\ldots,\bullet} \to Y_{1,\bullet,\ldots,\bullet}$ is a fully faithful and essentially surjective morphism of $(n-1)$-fold Segal spaces
+
+=--
+
++-- {: .num_defn}
+###### Definition
+
+An $n$-fold Segal space $X$ is _complete_ if:
+
+1. The Segal space $X_{\bullet,0,\ldots,0}$ is complete.
+1. The $(n-1)$-fold Segal space $X_{1,\bullet,\ldots,\bullet}$ is complete.
+
+=--
+
+
++-- {: .num_remark}
+###### Remark
+
+There are several equivalent ways to reformulate these inductive definitions. For example, a morphism $f : X \to Y$ is fully faithful and essentially surjective if and only if: 
+
+1. $X_{\bullet,0,\ldots,0} \to Y_{\bullet,0,\ldots,0}$ is essentially surjective.
+1. For all objects $x,x' \in X_{0,\ldots,0}$ the induced map on $(n-1)$-fold Segal spaces of morphisms $X(x,x') \to Y(fx,fx')$ is fully faithful and essentially surjective.
+
+
+=--
+
++-- {: .num_theorem}
+###### Theorem
+
+The complete $n$-fold Segal spaces are precisely the $n$-fold Segal spaces that are local with respect to the fully faithful and essentially surjective morphisms. Thus the localization of the $\infty$-category of $n$-fold Segal spaces at this class of morphisms is equivalent to the full subcategory of complete $n$-fold Segal spaces.
+
+=--
+
+
+This was first proved in Barwick's [thesis](#BarwickThesis), generalizing Rezk's proof in the case $n=1$. Later, [Lurie](#Lurie09) extended the notion of complete Segal objects to more general contexts than spaces, which allows an inductive definition of complete $n$-fold Segal spaces as complete Segal objects in complete $(n-1)$-fold Segal spaces. 
+The theorem for $n$-fold Segal spaces then follows by inductively applying the generalization of Rezk's theorem (for the case $n=1$) to this setting.
+
 
 ### Definition via the model category of simplicial sets
 
@@ -75,7 +120,7 @@ When $\mathcal{C}$ is the $\infty$-category of spaces (or $\infty$-groupoids) we
 
 The definition originates in the thesis
 
-* [[Clark Barwick]], _$(\infty,n)$-$Cat$ as a closed model category_ PhD (2005)
+* {#BarwickThesis} [[Clark Barwick]], _$(\infty,n)$-$Cat$ as a closed model category_ PhD (2005)
 
 which however remains unpublished. It appears in print in section 12 of 
 
