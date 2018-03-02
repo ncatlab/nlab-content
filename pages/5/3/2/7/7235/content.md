@@ -94,7 +94,7 @@ $$
 
 where $\wedge^2 (\mathbb{R}^7) \subset \wedge^2 (\mathbb{R}^8)^\ast$ is regarded as the subspace of 2-forms with vanishing 8-components, and where  $\wedge^6 \mathbb{R}^7$ is the [[Poincaré duality|Poincaré dual]] to the complementary subspace of $\wedge^2 (\mathbb{R}^8^\ast)$ of 2-forms with non-trivial 8-component.
 
-This is due to [Cartan](#Cartan), for review see [Cremmer-Julia 79, appendix B](#CremmerJulia79) [Pacheco-Waldram 08, B.1](#PachecoWaldram08).
+This is due to [Cartan](#Cartan), for review see [Cremmer-Julia 79, appendix B](#CremmerJulia79), [Pacheco-Waldram 08, B.1](#PachecoWaldram08).
 
 
 #### $\mathbf{133}$ -- The adjoint representation
