@@ -36,11 +36,11 @@ Some of the abstract properties of such functors are used in noncommutative loca
 
 Notions of radical involve [[additive functor|additive]] [[subfunctors]] $i: \sigma \hookrightarrow 1_{ _R Mod}$ of the identity on ${ }_R Mod$, the additive category of left $R$-modules. [[natural transformation|Naturality]] of $i$ implies the equation $i \circ \sigma i = i \circ i\sigma$, whence $\sigma i = i\sigma$ by [[monomorphism|monicity]] of $i$. 
 
-Such a functor $\sigma: {}_R Mod\to {}_R Mod$ is __idempotent__ if $\sigma i = i\sigma: \sigma \to \sigma\sigma$ is an isomorphism, and is called a _(pre)radical functor_ if $\sigma(M/\sigma(M))=0$ for all $M$ in ${}_R Mod$
-(preradical versus radical depends on an author, whether the left exactness is included or not in the definition of a radical functor). According to Goldman 1969, a left exact preradical is called an __idempotent kernel functor__. It is idempotent by the calculation
+Such a functor $\sigma: {}_R Mod\to {}_R Mod$ is __idempotent__ if $\sigma i = i\sigma: \sigma \to \sigma\sigma$ is an isomorphism, and is called a _radical functor_ if $\sigma(M/\sigma(M))=0$ for all $M$ in ${}_R Mod$
+(some authors, when defining the notion of radical functor, include the condition of left exactness, referring to a *preradical functor* if this condition is omitted). According to Goldman 1969, a left exact additive subfunctor of the identity is called an __idempotent kernel functor__. It is idempotent by the calculation
 
 $$
-\sigma \sigma M = \sigma Ker(M\to M/\sigma M) = Ker (\sigma M\to \sigma(M/\sigma M)) = Ker(\sigma M\to M\to M/\sigma M) = \sigma M
+\sigma \sigma M = \sigma Ker(M\to M/\sigma M) = Ker (\sigma M\to \sigma(M/\sigma M)) = Ker(\sigma M\to M\to M/\sigma M) = \sigma M.
 $$
 
 In the last step, we used that $\sigma$ is a subfunctor of the identity, hence the compositions $\sigma M\hookrightarrow M\to M/\sigma M$ and $\sigma M\to \sigma(M/\sigma M)\to M/\sigma M$ coincide. 
