@@ -116,7 +116,7 @@ A brief review in section 1 of
 
 A notion of universal enveloping algebra of a Lie--Rinehart algebra is discussed in
 
-* [[Ieke Moerdijk]], [[Janez Mr?un]], _On the universal enveloping algebra of a Lie--Rinehart algebra_, Proc. Amer. Math. Soc. in press, ([pdf](http://www.ams.org/proc/0000-000-00/S0002-9939-10-10347-5/S0002-9939-10-10347-5.pdf), [arXiv/0801.3929](http://arxiv.org/abs/0801.3929))
+* [[Ieke Moerdijk]], [[Janez Mrčun]], _On the universal enveloping algebra of a Lie--Rinehart algebra_, Proc. Amer. Math. Soc. in press, ([pdf](http://www.ams.org/proc/0000-000-00/S0002-9939-10-10347-5/S0002-9939-10-10347-5.pdf), [arXiv/0801.3929](http://arxiv.org/abs/0801.3929))
 
 A connection with [[BV-theory]] and [[L-infinity algebra]] is made in
 
