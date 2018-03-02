@@ -42,8 +42,11 @@ Given any ring $R$, the [[quotient object|quotient]] $R/J(R)$ is semiprimitive.
 
 The Jacobson radical of a [[formal power series algebra]] consists of those formal power series whose constant term vanishes.
 
-
 =--
+
+## Related concepts
+
+* [[radical]]
 
 ## References
 
