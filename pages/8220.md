@@ -55,6 +55,8 @@ _Cosmology_ is the study of the [[observable universe]] on its largest [[length 
 
 * Jorge L. Cervantes-Cota, George Smoot, _Cosmology today -- A brief review_ (2011) ([arXiv:1107.1789](http://arxiv.org/abs/1107.1789))
 
+* Oliver F. Piattella, _Lecture Notes in Cosmology_ ([arXiv:1803.00070](https://arxiv.org/abs/1803.00070))
+
 * Ned Wright, _[Cosmology tutorial](http://www.astro.ucla.edu/~wright/cosmolog.htm)_
 
 ### In terms of AQFT on curved spacetimes
