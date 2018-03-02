@@ -1,5 +1,16 @@
 
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
 
 #Contents#
 * table of contents
@@ -17,7 +28,7 @@ An ideal is called a _radical ideal_ if it is equal to its own radical.
  
 The [[nilradical|Nilradical]] of a commutative ring is the radical of the $0$ ideal.
 
-For a [[noncommutative ring]] or an [[associative algebra]] there are many competing notions of a radical of a ring such as Jacobson radical, Levitzky radical, and sometimes of radicals of ideals or, more often, arbitrary modules of a ring. 
+For a [[noncommutative ring]] or an [[associative algebra]] there are many competing notions of a radical of a ring such as [[Jacobson radical]], Levitzky radical, and sometimes of radicals of ideals or, more often, arbitrary modules of a ring. 
 
 ## Properties
 
@@ -51,6 +62,9 @@ Nonexample: the subfunctor of identity which to any module $M$ assigns its [[soc
 
 * {#BuesoJaraVerschoren95} J. L. Bueso, P. Jara, A. Verschoren, _Compatibility, stability, and sheaves_, Monographs and Textbooks in Pure and Applied Mathematics, 185. Marcel Dekker, Inc., New York, 1995. xiv+265 pp. 
 
+See also
+
+* Wikipedia, _[Radical of a ring](https://en.wikipedia.org/wiki/Radical_of_a_ring)_
 
 [[!redirects radicals]]
 [[!redirects radical functor]]
