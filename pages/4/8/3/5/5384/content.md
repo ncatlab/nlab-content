@@ -44,3 +44,7 @@ This convention is used for example by [[Jacob Lurie]] and often on [[nLab]] ent
 [[!redirects implicit ∞-category theory convention]]
 [[!redirects implicit (infinity,1)-category theory convention]]
 [[!redirects implicit (∞,1)-category theory convention]]
+[[!redirects implicit infinity-category convention]]
+[[!redirects implicit ∞-category convention]]
+[[!redirects implicit (infinity,1)-category convention]]
+[[!redirects implicit (∞,1)-category convention]]
