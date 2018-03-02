@@ -28,7 +28,7 @@ Depending on the author, the *axiom of multiple choice* is one of the following 
 
 1. for every set $X$, there exists a collection family $\{D_c\}_{c\in C}$ such that $X\cong D_c$ for some $c$ ([[Michael Rathjen]]'s formulation, attributed to [[Peter Aczel]] and [[Alex Simpson]]), or
 
-1. for every set $X$, there exists a collection family $\{D_c\}_{c\in C}$ and a family of surjections $\{D_c \to X\}_{c\in C}$ (the formulation originally given by [[Ieke Moerdijk]] and [[Erik Palmgren]]), or 
+1. for every set $X$, there exists a collection family $\{D_c\}_{c\in C}$, with $C$ inhabited, and a family of surjections $\{D_c \to X\}_{c\in C}$ (the formulation originally given by [[Ieke Moerdijk]] and [[Erik Palmgren]]), or 
 
 1. for every set $X$, the full subcategory $(Set/X)_{surj}$ of the slice category $Set/X$ consisting of the surjections has a weakly initial set (in [[Benno van den Berg]]'s formulation; this is also called [[WISC]]).
 
@@ -36,6 +36,8 @@ The nLab uses the initialization AMC to cover either the first two formulations.
 
 +--{: .query}
 [[Mike Shulman]]: Are the first two the same?  If not, why are they given the same name?
+
+[[Peter LeFanu Lumsdaine]]: Yes, they are equivalent.  For any $X$, given a collection family $\{D_c\}_{c \in C}$ including $X$, then the family $\{D_c\}_{(c \in C, f : D_c \twoheadrightarrow X)}$” is an inhabited collection family equipped with surjections to $X$.  Conversely, given an inhabited collection family equipped with surjections to $X$, throwing $X$ into the family gives a collection family including $X$. 
 =--
 
 The third is a weaker condition, and while some may refer to as a "weak axiom of multiple choice", van den Berg obviously does not; he calls his the AMC and the Moerdijk-Palmgren formulation rather the "strong axiom of multiple choice". 
