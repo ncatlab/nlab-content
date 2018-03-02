@@ -71,7 +71,7 @@ for $p,q \geq 1$ (the case where they are equal to 1 needs special mention, see 
      
    * '[[composition operation]]s', $-\cdot \alpha : A_p\to A_r$ for $\alpha \in \pi_r(S^p)$, $1\lt p\lt r$,
 
-which satisfy the identities that hold for the Whitehead products and composition operations on the higher homotopy groups os a pointed space, and
+which satisfy the identities that hold for the Whitehead products and composition operations on the higher homotopy groups of a pointed space, and
 
    * a left action of $A_1$ on the $A_n$, $n\gt 1$, which commutes with these operations.
 
@@ -94,7 +94,7 @@ Suppose $A: \Pi \to sets_*$ is an abstract $\Pi$-algebra, the **realisability pr
 
 Things can be complicated!
 
-1.  The homotopy type of $X$ is not be determined by $A$ (hence 'a' rather than 'the" realisation) , so that raises the additional problem of classifying the realisations.
+1.  The homotopy type of $X$ is not always determined by $A$ (hence 'a' rather than 'the" realisation) , so that raises the additional problem of classifying the realisations.
 
 1. Not all $\Pi$-algebras can be realised, in fact
 
