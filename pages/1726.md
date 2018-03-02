@@ -21,9 +21,9 @@
 _$n$-fold complete Segal spaces_ are a model for [[(∞,n)-category|(∞,n)-categories]], i.e. the [[homotopy theory|homotopical]] version of [[n-category|n-categories]].
 
 We can view [[strict n-category|strict n-categories]] as [[n-fold category|n-fold categories]] where part of the structure is trivial; for example, strict 2-categories can be described as double categories where the only vertical morphisms are identities. 
-$n$-fold Segal spaces similarly result from viewing $(\infty,n)$-categories as a special class of $n$-fold internal $\infty$-categories in [[∞Grpd|∞-groupoids]].
+$n$-fold Segal spaces similarly result from viewing $(\infty,n)$-categories as a special class of $n$-fold internal $(\infty,1)$-categories in [[∞Grpd|∞-groupoids]].
 
-If $\mathcal{C}$ is an $\infty$-category, then $\infty$-categories [[category object in an (infinity,1)-category|internal]] to $\mathcal{C}$ can be defined as certain simplicial objects in $\mathcal{C}$ (namely those satisfying the "Segal condition"). Thus $n$-fold internal $\infty$-categories in $\infty$-groupoids correspond to a class of $n$-simplicial $\infty$-groupoids, and  $n$-fold Segal spaces are defined by additionally specifying certain constancy conditions.
+If $\mathcal{C}$ is an $(\infty,1)$-category, then $(\infty,1)$-categories [[category object in an (infinity,1)-category|internal]] to $\mathcal{C}$ can be defined as certain simplicial objects in $\mathcal{C}$ (namely those satisfying the "Segal condition"). Thus $n$-fold internal $(\infty,1)$-categories in $\infty$-groupoids correspond to a class of $n$-simplicial $\infty$-groupoids, and  $n$-fold Segal spaces are defined by additionally specifying certain constancy conditions.
 
 To describe the correct homotopy theory of $(\infty,n)$-categories we also want to regard the fully faithful and essentially surjective morphisms between $n$-fold Segal spaces as equivalences. It turns out that, just as in the case of [[Segal spaces]], the localization at these maps can be accomplished by restricting to a full subcategory of _complete_ objects.
 
@@ -31,7 +31,7 @@ To describe the correct homotopy theory of $(\infty,n)$-categories we also want 
 ## Definition
 
 ### $n$-fold Segal objects
-If $\mathcal{C}$ is an $\infty$-category with pullbacks, we say that a simplicial object $X_\bullet : \Delta^{op} \to \mathcal{C}$ satisfies the [[Segal condition]] if 
+If $\mathcal{C}$ is an $(\infty,1)$-category with pullbacks, we say that a simplicial object $X_\bullet : \Delta^{op} \to \mathcal{C}$ satisfies the [[Segal condition]] if 
 the squares
 $$
   \array{
@@ -42,9 +42,9 @@ $$
      X_{m} &\to& X_{0}
   }
 $$
-are all pullbacks. Such _Segal objects_ give the $\infty$-categorical version of [[internal category|internal categories]] as _algebraic_ structures. (I.e. we have not inverted a class of fully faithful and essentially surjective morphisms.)
+are all pullbacks. Such _Segal objects_ give the $(\infty,1)$-categorical version of [[internal category|internal categories]] as _algebraic_ structures. (I.e. we have not inverted a class of fully faithful and essentially surjective morphisms.)
 
-If $Seg(\mathcal{C})$ denotes the full subcategory of $Fun(\Delta^{op}, \mathcal{C})$ spanned by the Segal objects, then this is again an $\infty$-category with pullbacks, so we can iterated the definition to obtain a full subcategory $Seg^{n}(\mathcal{C})$ of $Fun(\Delta^{n,op}, \mathcal{C})$ of _Segal $\Delta^{n}$-objects_ in $\mathcal{C}$.
+If $Seg(\mathcal{C})$ denotes the full subcategory of $Fun(\Delta^{op}, \mathcal{C})$ spanned by the Segal objects, then this is again an $(\infty,1)$-category with pullbacks, so we can iterated the definition to obtain a full subcategory $Seg^{n}(\mathcal{C})$ of $Fun(\Delta^{n,op}, \mathcal{C})$ of _Segal $\Delta^{n}$-objects_ in $\mathcal{C}$.
 
 We can now inductively define $n$-fold Segal objects by imposing constancy conditions:
 An _$n$-fold Segal object_ in $\mathcal{C}$ is a Segal $\Delta^{n}$-object $X$ such that
@@ -52,7 +52,7 @@ An _$n$-fold Segal object_ in $\mathcal{C}$ is a Segal $\Delta^{n}$-object $X$ s
 1. The $(n-1)$-simplicial object $X_0 : \Delta^{n-1,op} \to \mathcal{C}$ is constant
 1. The $(n-1)$-simplicial objects $X_i$ are $(n-1)$-fold Segal objects for all $i$.
 
-When $\mathcal{C}$ is the $\infty$-category of spaces (or $\infty$-groupoids) we refer to $n$-fold Segal objects as _$n$-fold Segal spaces_.
+When $\mathcal{C}$ is the $(\infty,1)$-category of spaces (or $\infty$-groupoids) we refer to $n$-fold Segal objects as _$n$-fold Segal spaces_.
 
 
 ### Complete $n$-fold Segal spaces
@@ -95,7 +95,7 @@ There are several equivalent ways to reformulate these inductive definitions. Fo
 +-- {: .num_theorem}
 ###### Theorem
 
-The complete $n$-fold Segal spaces are precisely the $n$-fold Segal spaces that are local with respect to the fully faithful and essentially surjective morphisms. Thus the localization of the $\infty$-category of $n$-fold Segal spaces at this class of morphisms is equivalent to the full subcategory of complete $n$-fold Segal spaces.
+The complete $n$-fold Segal spaces are precisely the $n$-fold Segal spaces that are local with respect to the fully faithful and essentially surjective morphisms. Thus the localization of the $(\infty,1)$-category of $n$-fold Segal spaces at this class of morphisms is equivalent to the full subcategory of complete $n$-fold Segal spaces.
 
 =--
 
