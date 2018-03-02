@@ -125,7 +125,7 @@ The beginnings of a classification theory for $n$-truncated $\Pi$-algebras can b
 
 * C.R. Stover, _A Van Kampen spectral sequence for higher homotopy groups_, Topology 29 (1990) 9 - 26.
 
-[[David Blanc]] has written a lot on these objects. An example is
+[[David Blanc]] has written a lot on the theory of these objects. An example is
 
 * [[David Blanc]], _Loop spaces and homotopy operations_, Fund. Math. 154 (1997) 75 - 95.
 
