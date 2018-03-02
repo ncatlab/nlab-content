@@ -17,7 +17,7 @@
 {:toc}
 
 
-## Defintion
+## Definition
 
 For a _[[commutative ring]]_ one defines a __radical $\sqrt{I}$ of an ideal__ $I\subset R$ as an ideal 
 $$
@@ -32,19 +32,23 @@ For a [[noncommutative ring]] or an [[associative algebra]] there are many compe
 
 ## Properties
 
-Some of the abstract properties of such functors are used in noncommutative localization theory, when defining so called __radical functors__. The latter are generalized for arbitrary [[Grothendieck categories]]. Finally there are some notions of radicals in nonadditive categories.  See [Shulgeifer 60](#Shulgeifer60) 
+Each of the notions of radical mentioned above are functorial, and some of the abstract properties of such functors are used in noncommutative localization theory, when defining so called *radical functors*. Classically these were considered for module categories ${ }_R Mod$ (left modules over a ring $R$, but there are generalizations for arbitrary [[Grothendieck categories]], and there are also some notions of radical for nonadditive categories.  See [Shulgeifer 60](#Shulgeifer60). 
 
-Notions of radical involve [[additive functor|additive]] [[subfunctors]] $i: \sigma \hookrightarrow 1_{ _R Mod}$ of the identity on ${ }_R Mod$, the additive category of left $R$-modules. [[natural transformation|Naturality]] of $i$ implies the equation $i \circ \sigma i = i \circ i\sigma$, whence $\sigma i = i\sigma$ by [[monomorphism|monicity]] of $i$. 
+We define here radical functors on ${ }_R Mod$, but warn that there are some terminological discrepancies across the literature. 
 
-Such a functor $\sigma: {}_R Mod\to {}_R Mod$ is __idempotent__ if $\sigma i = i\sigma: \sigma \to \sigma\sigma$ is an isomorphism, and is called a _radical functor_ if $\sigma(M/\sigma(M))=0$ for all $M$ in ${}_R Mod$
-(some authors, when defining the notion of radical functor, include the condition of left exactness, referring to a *preradical functor* if this condition is omitted). According to Goldman 1969, a left exact additive subfunctor of the identity is called an __idempotent kernel functor__. It is idempotent by the calculation
+However they are defined, all notions of radical involve [[additive functor|additive]] [[subfunctors]] $i: \sigma \hookrightarrow 1_{ _R Mod}$ of the identity on ${ }_R Mod$, the additive category of left $R$-modules. [[natural transformation|Naturality]] of $i$ implies the equation $i \circ \sigma i = i \circ i\sigma$, whence $\sigma i = i\sigma$ by [[monomorphism|monicity]] of $i$. Some authors refer to these as *preradical functors* (e.g., [Mirhosseinkhani 2010](#Mirhosseinkhani2010)). 
+
+Such a functor $\sigma: {}_R Mod\to {}_R Mod$ is __idempotent__ if $\sigma i = i\sigma: \sigma \to \sigma\sigma$ is an isomorphism, and is called a _radical functor_ if in addition $\sigma(M/\sigma(M))=0$ for all $M$ in ${}_R Mod$. Note however that some authors call *this* a *preradical functor*, and define a radical functor to be such a preradical functor that is left exact. 
+
+Following [Goldman 1969](#Goldman1969), a left exact additive subfunctor of the identity is called an __idempotent kernel functor__. Observe that such is idempotent by the calculation
 
 $$
-\sigma \sigma M = \sigma Ker(M\to M/\sigma M) = Ker (\sigma M\to \sigma(M/\sigma M)) = Ker(\sigma M\to M\to M/\sigma M) = \sigma M.
+\sigma \sigma M = \sigma Ker(M\to M/\sigma M) = Ker (\sigma M\to \sigma(M/\sigma M)) = Ker(\sigma M\to M\to M/\sigma M) = \sigma M
 $$
 
-In the last step, we used that $\sigma$ is a subfunctor of the identity, hence the compositions $\sigma M\hookrightarrow M\to M/\sigma M$ and $\sigma M\to \sigma(M/\sigma M)\to M/\sigma M$ coincide. 
-In an alternative terminology, an idempotent kernel functor is any [[kernel functor]] (= left exact additive subfunctor of the identity functor) $\sigma: {}_R Mod\to {}_R Mod$ such that $\sigma(M/\sigma(M))=0$ for all $M$ in ${}_R Mod$. 
+where in the last step, we used that $\sigma$ is a subfunctor of the identity, hence the compositions $\sigma M\hookrightarrow M\to M/\sigma M$ and $\sigma M\to \sigma(M/\sigma M)\to M/\sigma M$ coincide. 
+
+However, beware that other authors call a left exact additive subfunctor $\sigma: {}_R Mod\to {}_R Mod$ of the identity functor a [[kernel functor]], and then call a kernel functor $\sigma$ an *idempotent kernel functor* if $\sigma(M/\sigma(M))=0$ for all $M$ in ${}_R Mod$. In other words, their idempotent kernel functors coincide with what other authors call radical functors in the strong (left exact) sense above. 
 
 See [Bueso-Jara-Verschoren 95](#BuesoJaraVerschoren95)
 
