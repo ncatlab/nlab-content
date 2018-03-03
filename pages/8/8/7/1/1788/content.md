@@ -1,5 +1,9 @@
 
 $$
+  
+$$
+
+$$
   \begin{aligned}
     & 
     B^{a}{}_b \wedge B^b{}_c 
