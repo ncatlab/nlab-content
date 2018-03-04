@@ -50,7 +50,7 @@ The following remarks are incomplete.
 
 One can additionally generalize to allow $\eta$ and $\epsilon$ to be [[lax natural transformations]].  [Gray's](#Gray) original notion of "transcendental quasi-adjunction" did this, with the 2-categories and 2-functors being strict.  Lax transformations do not live in any 3-category as usually understood, but Gray's particular case can be done in the "lax Gray-category" $Gray_\ell$.
 
-Note also that there is no Yoneda lemma for lax transformations (though there is for pseudo ones).  So in order for $\hat\phi$ to be determined by $\eta$, $\hat\phi$ must be pseudo natural in $B$, and likewise for $\check\phi$ to be determined by $\epsilon$, it must be pseudo natural in $A$.  My guess is that laxity in the remaining variable will correspond to laxity of $\eta$ and $\epsilon$, and $s,t$ will come from the adjunction $\check\phi\dashv\hat\phi$.
+Note also that there is no Yoneda lemma for lax transformations (though there is for pseudo ones).  So in order for $\hat\phi$ to be determined by $\eta$, $\hat\phi$ must be pseudo natural in $B$, and likewise for $\check\phi$ to be determined by $\epsilon$, it must be pseudo natural in $A$.  My guess is that laxity in the remaining variable will correspond to laxity of $\eta$ and $\epsilon$, and $s,t$ will come from the adjunction $\check\phi\dashv\hat\phi$.  Another option is to require $\eta$ and $\epsilon$ to be pseudo natural on [[wide subcategories]] that include their components; see [[lax F-adjunction]] for an abstract context for such a definition.
 
 One might additionally consider allowing the functors to be lax, as in [(Betti-Power)](#BP) [(Seely)](#Seely).  But lax functors are even harder to incorporate in a 3-category-like structure than lax transformations, since one can't even whisker any sort of transformation by a lax functor.  Seely also seems to say that $\hat\phi$ and $\check\phi$ are both strict in their _first_ coordinate, rather than one in the first and one in the second as seems (to me) to be necessary for a Yoneda restatement.
 
@@ -58,6 +58,7 @@ One might additionally consider allowing the functors to be lax, as in [(Betti-P
 ## Related concepts
 
 * [[lax-idempotent 2-adjunction]]
+* [[lax F-adjunction]]
 
 ## References ##
 
