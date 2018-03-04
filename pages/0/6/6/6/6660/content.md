@@ -68,6 +68,12 @@ In general, a weighted limit of such a diagram in a (strict) $\mathcal{F}$-categ
 
 One of the most important things about $\mathcal{F}$-categories is that they allow us to define the classes of [[rigged limits]], which are the $\mathcal{F}$-weighted limits that are [[created limit|created]] by the forgetful functors from the various $\mathcal{F}$-categories of algebras and strict/pseudo/lax/colax morphisms over a 2-monad (or an $\mathcal{F}$-monad).
 
+## Related pages
+
+* [[rigged limit]]
+* [[lax F-natural transformation]]
+* [[lax F-adjunction]]
+
 ## References
 
 * [[Stephen Lack]] and [[Mike Shulman]], "Enhanced 2-categories and limits for lax morphisms", [arXiv](http://arxiv.org/abs/1104.2111).
