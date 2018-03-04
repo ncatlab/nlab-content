@@ -121,7 +121,7 @@ _proof_: V.S.Vladimirov, "theory of functions of several complex variables" ([ZM
 
 * [[several complex variables]], 
 
-* [[rigid analytic geometry]], [[analytic spectrum]], [[analytic space]], [[Stein space]], [[Berkovich space]]
+* [[rigid analytic geometry]], [[analytic spectrum]], [[analytic space]], [[Stein space]], [[Berkovich space]], [[additive analytic geometry]]
 
 * [[G-topology]]
 
