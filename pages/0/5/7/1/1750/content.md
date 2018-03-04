@@ -47,6 +47,8 @@ is a [[morphism of fibrations]].
 
 * $p \colon E \to B$ is an algebra for the [[2-monad]] $L$ on $K/B$ given by $L p = B/p$.
 
+* The induced [[F-functor]] $\Sigma_p : K\swarrow E \to K\swarrow B$ between the [[lax slice 2-category|oplax slice]] [[F-categories]] has a [[lax F-adjunction|right semi-lax F-adjoint]].  (See [Johnstone](#JohnstonePP).)
+
 If $K$ is a [[strict 2-category]] with finite strict 2-limits, then we say that $p \colon E \to B$ is a **strict fibration** when the corresponding conditions hold where "Street fibration" is replaced by "Grothendieck fibration", slice 2-categories are replaced by strict-slice 2-categories, comma objects are replaced by strict comma objects, and 2-pullbacks are replaced by strict 2-pullbacks.  In this case the 2-monad $L$ is in fact a strict 2-monad, but we do *not* require $p$ to be a *strict* algebra, only a [[pseudoalgebra]]; strict algebras for $L$ would instead be [[split fibrations]].
 
 Note also that the *first* definition makes perfect sense regardless of whether $K$ has any limits, although this is not true of the others.
@@ -133,6 +135,8 @@ Therefore, for any fibration $A\to X$ in $K$ we have $Fib_K(A) \simeq Fib_{Fib_K
 * [[Ross Street]], Fibrations in bicategories. _Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques_, 21 no. 2 (1980), p. 111--160 ([numdam](http://www.numdam.org/numdam-bin/fitem?id=CTGDC_1980__21_2_111_0)).
 
 *  Mark Weber, Yoneda structure from 2-toposes.  _Applied Categorical Structures_ 15:259--323 (2007).
+
+* {#JohnstonePP} [[Peter Johnstone]], *Fibrations and partial products in a 2-category*
 
 [[!redirects fibrations in a 2-category]]
 [[!redirects fibrations in 2-categories]]
