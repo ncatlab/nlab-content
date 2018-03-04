@@ -70,7 +70,8 @@ A $Gray$-category that is a [[3-groupoid]] is a [[Gray-groupoid]].
 * [[Tom Leinster]], _Higher operads, higher categories_
 
 * [[Steve Lack]], _A Quillen model structure for Gray-categories_ ([arxiv:1001.2366](http://arxiv.org/abs/1001.2366))
- {#LAck}
+ {#Lack}
+
 
 
 [[!redirects Gray category]]
