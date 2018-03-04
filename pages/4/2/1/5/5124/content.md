@@ -29,7 +29,7 @@ Let $C$ be a (non-strict) [[2-category]], and $X\in C$ an [[object]].  Then the 
 
 If $C$ is a [[strict 2-category]], then so is $C/X$.  Moreover, in this case, we can also define the **strict-slice 2-category** to be the subcategory $C/_s X$ of $C/X$ containing all the objects, only those morphisms $(f,\phi)$ such that $\phi$ is an identity, and all 2-morphisms between these.
 
-If, on the other hand, we do not require $\phi$ to be invertible, then we obtain the **lax-slice 2-category** $C\sslash X$ (with evident dual the **colax-slice 2-category**).
+If, on the other hand, we do not require $\phi$ to be invertible, then we obtain the **lax-slice 2-category** $C\sslash X$ (with evident dual the **colax-slice 2-category**).  This can be regarded as an [[F-category]] whose tight morphisms are those where $\phi$ *is* invertible (or an identity).
 
 Finally, the subcategory of $C/X$ whose objects are the [[fibration in a 2-category|fibrations]] and whose morphisms are the maps of fibrations is denoted $Fib(X) = Fib_C(X)  = Fib_C/X$, and may be called the **fibrational-slice 2-category**.  Similarly we have the **opfibrational-slice** $Opf(X)$.
 
@@ -55,6 +55,10 @@ When $C$ is a 1-category, the slice, strict-slice, lax- and colax-slice, and fib
 [[!redirects strict over 2-categories]]
 [[!redirects lax slice 2-category]]
 [[!redirects lax slice 2-categories]]
+[[!redirects colax slice 2-category]]
+[[!redirects colax slice 2-categories]]
+[[!redirects oplax slice 2-category]]
+[[!redirects oplax slice 2-categories]]
 [[!redirects lax over 2-category]]
 [[!redirects lax over 2-categories]]
 [[!redirects colax slice 2-category]]
