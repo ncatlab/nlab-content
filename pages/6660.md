@@ -58,6 +58,8 @@ One could consider semi-strict versions as well, in which (for example) the tigh
   * In a **chordate** $\mathcal{F}$-category, all morphisms are tight.
   * In an **inchordate** $\mathcal{F}$-category, only identities are tight.
 
+* The [[lax slice 2-category]] is an $\mathcal{F}$-category whose tight 2-category is the (pseudo) slice 2-category.  This $\mathcal{F}$-category allows a definition of [[fibration in a 2-category|fibrations]] using [[lax F-adjunctions]].
+
 * $\mathcal{F}$ itself becomes an $\mathcal{F}$-category in the usual way.  Its tight morphisms are just the morphisms in the underlying ordinary category $\mathcal{F}$, while its loose morphisms are simply functors between the loose parts (the codomains of the full embeddings).
 
 ## $\mathcal{F}$-weighted limits
@@ -71,6 +73,7 @@ One of the most important things about $\mathcal{F}$-categories is that they all
 ## Related pages
 
 * [[rigged limit]]
+* [[F-functor]]
 * [[lax F-natural transformation]]
 * [[lax F-adjunction]]
 
