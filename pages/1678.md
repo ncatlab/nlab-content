@@ -191,6 +191,8 @@ Also, if you reverse the definitions of lax and oplax transformations, then you 
 
   * [[2-dinatural transformation]]
 
+  * [[lax F-natural transformation]]
+
 
 
 ## References ##
