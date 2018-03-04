@@ -106,6 +106,8 @@ Note that $n=2$ is the greatest value of $n$ for which every weak $n$-category i
 
 The proof of the coherence theorem is basically the same as the proof of the [[coherence theorem for monoidal categories]].  An abstract approach can be found in [[John Power|Power]]'s paper "A general coherence result."
 
+The strictification [[adjunction]] between bicategories and strict 2-categories can be expressed in terms of [[3-categories]]; see [Campbell](#Campbell18).
+
 
 ## Terminology
 
@@ -143,8 +145,11 @@ Discussion about the use of the term "weak enrichment" above is at _[[weak enric
 
 See also the references at [[2-category]].
 
-Power, A. J. _A general coherence result._
+* Power, A. J. _A general coherence result._
 J. Pure Appl. Algebra 57 (1989), no. 2, 165&#8211;173. [doi:10.1016/0022-4049(89)90113-8](http://dx.doi.org/10.1016/0022-4049%2889%2990113-8) [MR0985657](http://www.ams.org/mathscinet-getitem?mr=985657)
+
+* Alexander Campbell, _How strict is strictification?_, [arxiv](https://arxiv.org/abs/1802.07538)
+ {#Campbell18}
 
 [[!redirects bicategory]]
 [[!redirects bicategories]]
