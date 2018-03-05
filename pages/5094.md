@@ -4,3 +4,4 @@
 category: people
 
 [[!redirects W. Tholen]]
+[[!redirects Tholen]]
