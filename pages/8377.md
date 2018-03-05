@@ -24,6 +24,8 @@ An [[extensional type theory]] [[proof management system]].
 
 The dialect of [[intuitionistic type theory]] used is also referred to as _[[computational type theory]]_.
 
+The PRL part of the name evidently stands for Proof Refinement Logic.
+
 ## References
 
 * _[PRL Project](http://www.nuprl.org/)_ .
