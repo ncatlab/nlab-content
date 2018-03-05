@@ -1060,7 +1060,7 @@ Formulation in [[(infinity,1)-category theory]] is in
 
 More references relating to the [[nPOV]] on cohomology include:
 
-* [[Mike Hopkins]], _[[Complex oriented cohomology theories and the language of stacks]]_ course notes ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/coctalos.pdf))
+* [[Mike Hopkins]], _[[Complex oriented cohomology theories and the language of stacks]]_ course notes ([pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/coctalos.pdf))
 
 * [[Jacob Lurie]],  _[[A Survey of Elliptic Cohomology - cohomology theories]]_
 
