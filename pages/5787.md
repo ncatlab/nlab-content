@@ -69,7 +69,7 @@ Grothendieck has proved that faithfully flat morphisms of commutative schemes ar
 
 ## References
 
-* The stacks project, 34.4. Descent for universally injective morphisms, [tag/08WE](https://stacks.math.columbia.edu/tag/08WE)
+* The [Stacks Project](https://stacks.math.columbia.edu), 34.4. Descent for universally injective morphisms, [tag/08WE](https://stacks.math.columbia.edu/tag/08WE), 28.10. Radicial and universally injective morphisms (of schemes) [tag/01S2](https://stacks.math.columbia.edu/tag/01S2)
 
 * Bachuki Mesablishvili, _Pure morphisms of commutative rings are effective descent morphisms for modules -- a new proof_, Theory and Appl. of Categories __7__, 2000, No. 3, 38-42, [tac](http://www.tac.mta.ca/tac/volumes/7/n3/7-03abs.html)
 
