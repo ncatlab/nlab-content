@@ -12,4 +12,5 @@ His research includes nonabelian homological algebra, the discovery of categoric
 * [Mathematics genealogy project entry](http://www.genealogy.math.ndsu.nodak.edu/id.php?id=80837)
 category: people
 [[!redirects G. Janelidze]]
+[[!redirects Janelidze]]
 [[!redirects G. Z. Dzhanelidze]]
