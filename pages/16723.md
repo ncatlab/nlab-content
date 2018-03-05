@@ -33,7 +33,7 @@ A [[subtopos]] $\mathcal{E}_j\hookrightarrow\mathcal{E}$ is called _locally clos
 
 ## Examples
 
-* One way to realize a topos $\mathcal{E}_j$ as a locally closed subtoposes is by repeated [[Artin gluing]] to appropriate left exact functors $f_1:\mathcal{E}_j\to \mathcal {F}_1$ and $f_2:\mathcal{F}_2\to Gl(f_1)$. Then $\mathcal{E}$ is open in $Gl(f_1)$ which itself is closed in $Gl(f_2)$ whence by the above remark on factorisations $\mathcal{E}_j\hookrightarrow Gl(f_2)$ is locally closed.
+* A way to realize a topos $\mathcal{E}_j$ as a locally closed subtoposes is by repeated [[Artin gluing]] to appropriate left exact functors $f_1:\mathcal{E}_j\to \mathcal {F}_1$ and $f_2:\mathcal{F}_2\to Gl(f_1)$. Then $\mathcal{E}_j$ is open in $Gl(f_1)$ which itself is closed in $Gl(f_2)$ whence by the above remark on factorisations $\mathcal{E}_j\hookrightarrow Gl(f_2)$ is locally closed.
 
 * Locally closed subspaces $Y$ of topological spaces $X$ yield locally closed subtoposes of the corresponding sheaf topos $Sh(Y)\hookrightarrow Sh(X)$ e.g. let $X$ be the space on $\{a,b,c\}$ with non-trivial open subsets $\{a\}$, $\{a,b\}$. Then $\{b\}$ as the intersection of $\{a,b\}$ with the closed subset $\{b,c\}$ is a locally closed subset to which a neither closed nor open but locally closed copy of $Set$ corresponds in the lattice of subtoposes of $Sh(X)$.
 
