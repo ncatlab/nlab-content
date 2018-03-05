@@ -34,6 +34,20 @@ generating the unit ideal in $R/I[T]$, there
 exists a factorization $f = gh$ in $R[T]$ with $g, h$ monic
 and $g_0 = \overline{g}$ and $h_0 = \overline{h}$.
 
+There are several equivalent characterizations, see 
+[the Stacks Project](#Stacks-henselian-pair). Another characterization is the following (see [Gabber](#Gabber)):
+
++-- {: .num_prop}
+###### Proposition 
+
+A pair $(R,I)$ is a henselian pair if and only if
+
+1. $I$ is contained in the [[Jacobson radical]] of $R$, and
+1. Let $f(t) = (t-1)t^N + g(t)$ where $g(t) \in IR[t]$ has degree $\leq N-1$, with $N \geq 1$. Then $f(t)$ has a (necessarily unique) root in $I+1$.
+=--
+
+This characterization shows that the property of $(R,I)$ being a henselian pair essentially depends only on the ideal $I$, regarded as a non-unital ring, and not on $R$. Thus the property of $I$ being henselian may be axiomatized in terms of an additional set of algbraic operations on $I$, sending $(g_0,\dots, g_{N-1})$ to the root of $(t-1)t^N + g_{N-1}t^{N-1} + \dots + g_0$, and the resulting algebraic category is equivalent to a full subcategory of the category of nonunital rings.
+
 =--
 
 ## Properties
@@ -52,7 +66,9 @@ For a proof, see ([Tag 0A02](https://stacks.math.columbia.edu/tag/0A02)) in the 
 
 ## References
 
-* Stacks Project [Tag 09XD](https://stacks.math.columbia.edu/tag/09XD)
+* {Stacks-henselian-pair} Stacks Project [Tag 09XD](https://stacks.math.columbia.edu/tag/09XD)
 * Eberhard Scherzler, _On henselian pairs_,  Communications in Algebra
 Volume 3 (1975) pp 391-404,  doi:[10.1080/00927877508822052](https://doi.org/10.1080/00927877508822052)
 * Michel Raynaud, _Anneaux locaux hens&#233;liens_, Lecture Notes in Mathematics Volume **169** 1970 doi:[10.1007/BFb0069571](https://dx.doi.org/10.1007/BFb0069571)
+* {Gabber} Gabber, Ofer, _$K$-Theory of Henselian Local Rings and Henselian Pairs_, Algebraic $K$-Theory, Commutative Algebra, and Algebraic Geometry (Santa Margherita Ligure, 1989), 126:59–70. Contemp. Math. Amer. Math. Soc., Providence, RI, 1992. [mathscinet](https://mathscinet.ams.org/mathscinet-getitem?mr=1156502)
+
