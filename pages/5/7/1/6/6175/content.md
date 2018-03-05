@@ -16,7 +16,6 @@
 * table of contents
 {:toc}
 
-
 ## Definition
 
 For a _[[commutative ring]]_ one defines a __radical $\sqrt{I}$ of an ideal__ $I\subset R$ as an ideal 
@@ -28,9 +27,9 @@ An ideal is called a _radical ideal_ if it is equal to its own radical.
  
 The [[nilradical|Nilradical]] of a commutative ring is the radical of the $0$ ideal.
 
-For a [[noncommutative ring]] or an [[associative algebra]] there are many competing notions of a radical of a ring such as [[Jacobson radical]], Levitzky radical, and sometimes of radicals of ideals or, more often, arbitrary modules of a ring. 
+For a [[noncommutative ring]] or an [[associative algebra]] there are many competing notions of a radical of a ring such as [[Jacobson radical]], Levitzky radical, and sometimes of radicals of ideals or, more often, of radicals of arbitrary modules of a ring. 
 
-## Properties
+## Radical functors
 
 Each of the notions of radical mentioned above are functorial, and some of the abstract properties of such functors are used in noncommutative localization theory, when defining so called *radical functors*. Classically these were considered for module categories ${ }_R Mod$ (left modules over a ring $R$, but there are generalizations for arbitrary [[Grothendieck categories]], and there are also some notions of radical for nonadditive categories.  See [Shulgeifer 60](#Shulgeifer60). 
 
@@ -38,7 +37,7 @@ We define here radical functors on ${ }_R Mod$, but warn that there are some ter
 
 However they are defined, all notions of radical involve [[additive functor|additive]] [[subfunctors]] $i: \sigma \hookrightarrow 1_{ _R Mod}$ of the identity on ${ }_R Mod$, the additive category of left $R$-modules. [[natural transformation|Naturality]] of $i$ implies the equation $i \circ \sigma i = i \circ i\sigma$, whence $\sigma i = i\sigma$ by [[monomorphism|monicity]] of $i$. Some authors refer to these as *preradical functors* (e.g., [Mirhosseinkhani 2010](#Mirhosseinkhani2010)). 
 
-Such a functor $\sigma: {}_R Mod\to {}_R Mod$ is __idempotent__ if $\sigma i = i\sigma: \sigma \to \sigma\sigma$ is an isomorphism, and is called a _radical functor_ if in addition $\sigma(M/\sigma(M))=0$ for all $M$ in ${}_R Mod$. Note however that some authors call *this* a *preradical functor*, and define a radical functor to be such a preradical functor that is left exact. 
+Such a functor $\sigma: {}_R Mod\to {}_R Mod$ is __idempotent__ if $\sigma i = i\sigma: \sigma \to \sigma\sigma$ is an isomorphism, and is called a __radical functor__ if in addition $\sigma(M/\sigma(M))=0$ for all $M$ in ${}_R Mod$. Note however that some authors call *this* a *preradical functor*, and define a radical functor to be such a preradical functor that is left exact. 
 
 Following [Goldman 1969](#Goldman1969), a left exact additive subfunctor of the identity is called an __idempotent kernel functor__. Observe that such is idempotent by the calculation
 
@@ -65,6 +64,8 @@ Nonexample: the subfunctor of identity which to any module $M$ assigns its [[soc
 * {#Shulgeifer60} E. G. Shul&#697;ge&#301;fer (&#1045;. &#1043;. &#1064;&#1091;&#1083;&#1100;&#1075;&#1077;&#1081;&#1092;&#1077;&#1088;), _&#1050; &#1086;&#1073;&#1097;&#1077;&#1081; &#1090;&#1077;&#1086;&#1088;&#1080;&#1080; &#1088;&#1072;&#1076;&#1080;&#1082;&#1072;&#1083;&#1086;&#1074; &#1074; &#1082;&#1072;&#1090;&#1077;&#1075;&#1086;&#1088;&#1080;&#1103;&#1093;_, &#1052;&#1072;&#1090;&#1077;&#1084;. &#1089;&#1073;., 51(93):4 (1960), 487&#8211;500 [pdf](http://www.mathnet.ru/php/getFT.phtml?jrnid=sm&paperid=4826&what=fullt&option_lang=rus) 
 
 * {#BuesoJaraVerschoren95} J. L. Bueso, P. Jara, A. Verschoren, _Compatibility, stability, and sheaves_, Monographs and Textbooks in Pure and Applied Mathematics, 185. Marcel Dekker, Inc., New York, 1995. xiv+265 pp. 
+
+* {#Goldman1969} O. Goldman, _Rings and modules of quotients_, J. Algebra 13 (1969), 10-47.
 
 See also
 
