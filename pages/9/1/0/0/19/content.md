@@ -138,7 +138,7 @@ But abstract nonsense still tends to meet with some resistance. In the preface o
 =--
 
 +-- {: .un_remark}
-###### The $n$POV ####
+###### The nPOV ####
 
 The vast applicability and expressiveness of category theory leads to the observation that most structures in mathematics are best understood from a category theoretic or higher category theoretic viewpoint. This is the [[nPOV]].
 
