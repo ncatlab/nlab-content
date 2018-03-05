@@ -271,8 +271,6 @@ $$ Sh_{\infty}((Sm/k)_{Nis})\to Sh_{\infty}((Sm/k)_{et}) \stackrel{\Pi}{\to} Pro
 
 $$ \mathrm{H}(k) \to Pro(\infty Grpd)^\wedge_{l}. $$
 
-For a non-separably closed field $k$, there is a $Gal(k^{sep}/k)$-equivariant realization analogous to the Real realization.
-
 
 ### The slice filtration {#SliceFiltration}
 
