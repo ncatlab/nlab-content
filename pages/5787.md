@@ -46,7 +46,7 @@ In a $\kappa$-[[accessible category]] $C$ every $\kappa$-pure morphism is [[moni
 
 =--
 
-(Ad&#225;mek, Hub, Tholen).  
+([Adámek-Hub-Tholen 1996](#AHT96)).  
 
 
 ## In ring theory and for schemes
@@ -60,7 +60,7 @@ $$
 
 with any right $R$-module $N$ (from the left) yields an exact sequence of abelian groups. 
 
-Grothendieck has proved that faithfully flat morphisms of commutative schemes are of effective descent for the categories of quasicoherent $\mathcal{O}$-modules. But this was not entirely optimal, as there is in fact a more general class than faithfully flat morphisms which satisfy the effective descent. For a local case of commutative rings, [[Joyal]] and Tierney have then proved (unpublished) that the [[effective descent morphisms]] for modules are precisely the pure morphisms of rings (or dually of affine schemes). The result can be extracted also from their Memoirs volume on Galois theory. Janelidze and Tholen have reproved the theorem as a corollary of a result for noncommutative rings obtained using the Beck's [[comonadicity theorem]].
+Grothendieck has proved that faithfully flat morphisms of commutative schemes are of effective descent for the categories of quasicoherent $\mathcal{O}$-modules. But this was not entirely optimal, as there is in fact a more general class than faithfully flat morphisms which satisfy the effective descent. For a local case of commutative rings, [[Joyal]] and [[Tierney]] have then proved (unpublished) that the [[effective descent morphisms]] for modules are precisely the pure morphisms of rings (or dually of affine schemes). The result can be extracted also from their Memoirs volume on Galois theory. [[Janelidze]] and [[Tholen]] have reproved the theorem as a corollary of a result for noncommutative rings obtained using the Beck's [[comonadicity theorem]].
 
 ## Related concepts
 
@@ -77,7 +77,7 @@ Grothendieck has proved that faithfully flat morphisms of commutative schemes ar
 
 * [[George Janelidze]], [[Walter Tholen]], _Facets of descent III: monadic descent for rings and algebras_,  Appl. Categ. Structures __12__ (2004), no. 5-6, 461&#8211;477, [MR2005i:13019](http://www.ams.org/mathscinet-getitem?mr=2107397), [doi](http://dx.doi.org/10.1023/B:APCS.0000049312.36783.0a)
 
-* [[Jiří Adámek]], H. Hub, [[Walter Tholen]], _On pure morphisms in accessible categories_,  J. Pure Appl. Alg. __107__, 1 (1996), pp 1-8, <a href="http://dx.doi.org/10.1016/0022-4049(95)00037-2">doi</a>
+* {#AHT96} [[Jiří Adámek]], H. Hub, [[Walter Tholen]], _On pure morphisms in accessible categories_,  J. Pure Appl. Alg. __107__, 1 (1996), pp 1-8, <a href="http://dx.doi.org/10.1016/0022-4049(95)00037-2">doi</a>
  {#Adamek}
 
 * Michel H&#233;bert, _Purity and injectivity in accessible categories_, <a href="http://dx.doi.org/10.1016/S0022-4049(97)00073-X">doi</a> 
@@ -90,7 +90,7 @@ Grothendieck has proved that faithfully flat morphisms of commutative schemes ar
 
 * Ivo Herzog, _Pure-injective envelopes_, Journal of Algebra and Its Applications 2(4) (2003), 397-402 [pdf](http://lima.osu.edu/people/iherzog/env.pdf)
 
-* André Joyal, Myles Tierney, _An extension of the Galois theory of Grothendieck_, 	Mem. Amer. Math. Soc. __309__ (1984) volume 51, pages	vii+71
+* [[André Joyal]], [[Myles Tierney]], _An extension of the Galois theory of Grothendieck_, 	Mem. Amer. Math. Soc. __309__ (1984) volume 51, pages	vii+71
 
 The following paper was the first with the result on that pure morhisms are of the effective descent but the proof has been omitted:
 
