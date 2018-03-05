@@ -33,4 +33,5 @@ category: people
 
 [[!redirects Miles Tierney]]
 [[!redirects M. Tierney]]
+[[!redirects Tierney]]
 [[!redirects Miles Teirney]]
