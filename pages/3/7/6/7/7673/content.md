@@ -213,7 +213,9 @@ Categories with attributes, def. \ref{CategoryWithAttributes} are equivalent to 
 =--
 +-- {: .proof}
 ###### Proof
-If we forget the terms in a category with families and let $E\to C$ be the [[Grothendieck construction]] of the functor $Ty:C^{op}\to Set$, it is easy to show that we obtain a category with attributes.  Conversely, given a category with attributes, let $Ty:C^{op}\to Set$ be the functor corresponding to the discrete fibration $E\to C$, and for $A\in Ty(\Gamma)$ let $Tm(A)$ be the set of [[sections]] of the morphism in $C$ that is the image of $A$ in $C^I$.  These constructions are inverses up to isomorphism.
+Given a category with families, let $E\to C$ be the [[Grothendieck construction]] of the functor $Ty:C^{op}\to Set$, and let $E\to C^I$ take each $A\in Ty(\Gamma)$ to the above representing object.  This is a category with attributes.
+
+Conversely, given a category with attributes, let $Ty:C^{op}\to Set$ be the functor corresponding to the discrete fibration $E\to C$, and for $A\in Ty(\Gamma)$ let $Tm(A)$ be the set of [[sections]] of the morphism in $C$ that is the image of $A$ in $C^I$.  These constructions are inverses up to isomorphism.
 =--
 
 The following alternative characterization was observed by [[Steve Awodey]].
