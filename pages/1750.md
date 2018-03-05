@@ -114,13 +114,7 @@ It is easy to show that a composite of fibrations is a fibration.  Moreover, if 
 A morphism in $Fib(X)$ is a fibration in the 2-category $Fib(X)$ iff its underlying morphism in $K$ is a fibration.
 =--
 
-This is a standard result, at least in the case $K=Cat$, and is apparently due to Benabou.  References include:
-
-* J. Benabou, "Fibered categories and the foundations of naive category theory"
-* B. Jacobs, _Categorical Logic and Type Theory_, Chapter 9
-* C. Hermida, "Some properties of Fib as a fibred 2-category"
-
-Therefore, for any fibration $A\to X$ in $K$ we have $Fib_K(A) \simeq Fib_{Fib_K(X)}(A\to X)$, and similarly for opfibrations.  This is a fibrational 2-categorical analogue of the standard equivalence $K/A \simeq (K/X)/(A\to X)$ for ordinary [[slice categories]].
+This is a standard result, at least in the case $K=Cat$, and is apparently due to Benabou.  References include ([Bénabou 1985](#Benabou85)), ([Hermida 1999](#Hermida99)) and ([Jacobs 1999, Chapter 9](#Jacobs)). Therefore, for any fibration $A\to X$ in $K$ we have $Fib_K(A) \simeq Fib_{Fib_K(X)}(A\to X)$, and similarly for opfibrations.  This is a fibrational 2-categorical analogue of the standard equivalence $K/A \simeq (K/X)/(A\to X)$ for ordinary [[slice categories]].
 
 
 ## Related concepts
@@ -132,11 +126,20 @@ Therefore, for any fibration $A\to X$ in $K$ we have $Fib_K(A) \simeq Fib_{Fib_K
 
 ## References
 
-* [[Ross Street]], Fibrations in bicategories. _Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle Cat&#233;goriques_, 21 no. 2 (1980), p. 111--160 ([numdam](http://www.numdam.org/numdam-bin/fitem?id=CTGDC_1980__21_2_111_0)).
+* [[Ross Street]] _Fibrations in bicategories_, [[Cahiers de Topologie et Géométrie Différentielle Catégoriques]], 21 no. 2 (1980), p. 111--160 ([numdam](http://www.numdam.org/numdam-bin/fitem?id=CTGDC_1980__21_2_111_0)).
 
-*  Mark Weber, Yoneda structure from 2-toposes.  _Applied Categorical Structures_ 15:259--323 (2007).
+*  [[Mark Weber]] _Yoneda structure from 2-toposes_,  Applied Categorical Structures **15** (2007) pp259-323. doi:[10.1007/s10485-007-9079-2](https://doi.org/10.1007/s10485-007-9079-2) ([author's page](https://sites.google.com/site/markwebersmaths/home/yoneda-structures-from-2-toposes))
 
-* {#JohnstonePP} [[Peter Johnstone]], *Fibrations and partial products in a 2-category*
+* {#JohnstonePP} [[Peter Johnstone]], _Fibrations and partial products in a 2-category_, Applied Categorical Structures **1** (1993) pp141-179 doi:[10.1007/BF00880041](https://doi.org/10.1007/BF00880041)
+
+* {#Benabou85} [[Jean Bénabou]] _Fibered categories and the foundations of naive category theory_, Journal of Symbolic Logic, **50**(1) (1985) pp10-37. doi:[10.2307/2273784](https://doi.org/10.2307/2273784), ([JSTOR](http://www.jstor.org/stable/2273784))
+
+* {#Jacobs} [[Bart Jacobs]], _Categorical Logic and Type Theory_, Studies in Logic and the Foundations of Mathematics, 141. North-Holland Publishing Co., Amsterdam, 1999. xviii+760 pp. ISBN: 0-444-50170-3 ([pdf](https://people.mpi-sws.org/~dreyer/courses/catlogic/jacobs.pdf)) ([contents](http://www.cs.ru.nl/B.Jacobs/CLT/bookinfo.html))
+
+* {#Hermida99} [[Claudio Hermida]], _Some properties of Fib as a fibred 2-category_, Journal of Pure and Applied Algebra **134** Issue 1 (1999) pp83-109 doi:[10.1016/S0022-4049(97)00129-1](https://doi.org/10.1016/S0022-4049%2897%2900129-1), ([Core](https://core.ac.uk/display/82656524))
+
+
+
 
 [[!redirects fibrations in a 2-category]]
 [[!redirects fibrations in 2-categories]]
