@@ -47,6 +47,8 @@ It would be nice if these had different icons.  To use one or more of these, dro
 
 Alternatively, you can try the [add to search bar](https://addons.mozilla.org/en-US/firefox/addon/add-to-search-bar/) add-on for Firefox.  This will let you right-click in the search box on any page and add it to your search bar.  (You can't duplicate the "goto" and "edit" plugins this way, though.)
 
+If DuckDuckGo is your search engine, you can type "!nl" to search nLab, e.g. "!nl morphism".
+
 ## How to edit nLab pages in your favorite text editor ##
 
 (Firefox - and clones - specific)
