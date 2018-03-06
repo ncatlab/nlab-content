@@ -27,4 +27,14 @@ The text explicitly discusses formalization in [[categorical logic]] of Hegelian
 
 Various related suggestions are implicit in other texts by Lawvere, see at _[William Lawvere -- Mathematics related to philosophy](William+Lawvere#RelationToPhilosophy)_
 
+### Contents
+
+#### 1. Categorical Refinement of a Hegelian Principle
+
+#### 2. Deepening, Metrics, Unity and Identity of Adjoint Opposites
+
+#### 3. Realization of Plans
+
+#### 4. Detailed Models of Becoming
+
 category: reference
