@@ -40,6 +40,8 @@ Experimental exclusion bounds of gluino [[rest masses]] due to the [[LHC]] [[exp
 
 ## Related concepts
 
+* in [[10d super Yang-Mills theory]]: see [there](D%3D10+super+Yang-Mills+theory#EquationsOfMotionFromTheBianchiIdentity)
+
 * [[sfermions]]
 
   * [[squarks]]
