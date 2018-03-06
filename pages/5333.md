@@ -145,19 +145,19 @@ One solution of the heterotic superspace [[Bianchi identities]] is due to
 
 A second solution is due to [[Bengt Nilsson]], [[Renata Kallosh]] and others 
 
-* [[Bengt Nilsson]], Nucl. Phys. B188 (1981) 176
+* [[Bengt Nilsson]], _Simple 10-dimensional supergravity in superspace_, Nucl. Phys. B188 (1981) 176 (<a href="https://doi.org/10.1016/0550-3213(81)90111-5">doi:10.1016/0550-3213(81)90111-5</a>)
 
 
-These two solutions are supposed to be equivalent under field redifinition.
+These two solutions are supposed to be equivalent under field redefinition.
 
 See also at _[[torsion constraints in supergravity]]_.
 
 Further references include these:
 
-* {#BonoraPastiTonin87} [[Loriano Bonora]], [[Paolo Pasti]], [[Mario Tonin]] , _Superspace formulation of 10D SUGRA+SYM theory a la Green-Schwarz_, Physics Letters B Volume 188, Issue 3, 16 April 1987, Pages 335&#8211;339 ([doi:10.1016/0370-2693(87)91392-X](http://dx.doi.org/10.1016/0370-2693(87)91392-X))
+* {#BonoraPastiTonin87} [[Loriano Bonora]], [[Paolo Pasti]], [[Mario Tonin]], _Superspace formulation of 10D SUGRA+SYM theory a la Green-Schwarz_, Physics Letters B Volume 188, Issue 3, 16 April 1987, Pages 335&#8211;339 (<a href="http://dx.doi.org/10.1016/0370-2693(87)91392-X">doi:10.1016/0370-2693(87)91392-X</a>)
 
 * {#BonoraBregolaLechnerPastiTonin87} [[Loriano Bonora]], M. Bregola, [[Kurt Lechner]], [[Paolo Pasti]], [[Mario Tonin]], _Anomaly-free supergravity and super-Yang-Mills theories in ten dimensions_, Nuclear Physics B
-Volume 296, Issue 4, 25 January 1988 ([10.1016/0550-3213(88)90402-6](http://dx.doi.org/10.1016/0550-3213(88)90402-6))
+Volume 296, Issue 4, 25 January 1988 (<a href="http://dx.doi.org/10.1016/0550-3213(88)90402-6">doi:10.1016/0550-3213(88)90402-6</a>)
 
 
 
