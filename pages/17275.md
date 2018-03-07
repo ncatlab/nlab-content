@@ -19,29 +19,29 @@
 
 ## Idea
 
-[[suspension objects|Suspension objects]] are canonically [[cogroup objects]] up to [[homotopy]], via their [[fold map]] (pinch map). In particular this is the case for positive dimensional [[n-spheres]]. 
+[[suspension objects|Suspension objects]] are canonically [[cogroup objects]] up to [[homotopy]], via their "pinch map". In particular this is the case for positive dimensional [[n-spheres]]. 
 
 ## Statement
 
 Let $\mathcal{C}$ be an [[(∞,1)-category]] with [[finite (∞,1)-colimits]] and with a [[zero object]]. Write $\Sigma \colon X \mapsto 0 \underset{X}{\coprod} 0$ for the [[reduced suspension]] functor.
 
-Then the [[fold map]]
+Then the pinch map
 
 $$
-  \Sigma X \coprod \Sigma X
-    \simeq
-  0 \underset{X}{\sqcup} 0 \underset{X}{\sqcup} 0
-    \longrightarrow
-  0 \underset{X}{\sqcup} X \underset{X}{\sqcup} 0
+  \Sigma X
   \simeq
   0 \underset{X}{\sqcup} 0
   \simeq
-  \Sigma X
+  0 \underset{X}{\sqcup} X \underset{X}{\sqcup} 0
+    \longrightarrow
+  0 \underset{X}{\sqcup} 0 \underset{X}{\sqcup} 0
+    \simeq
+  \Sigma X \coprod \Sigma X
 $$
 
-exhibits [[cogroup]] structure on the image of $\Sigma X$ in the [[homotopy category of an (∞,1)-category|homotopy category]] $Ho(\mathcal{C})$.
+exhibits a [[cogroup]] structure on the image of $\Sigma X$ in the [[homotopy category of an (∞,1)-category|homotopy category]] $Ho(\mathcal{C})$.
 
-This is equivalently the [[group]]-structure of the first ([[fundamental group|fundamental]]) [[homotopy group]] of the values of [[representable functor|functor co-represented]] by $\Sigma X$:
+This is equivalently the [[group]]-structure of the first ([[fundamental group|fundamental]]) [[homotopy group]] of the values of the [[representable functor|functor co-represented]] by $\Sigma X$:
 
 $$
   Ho(\mathcal{C})(\Sigma X, -)
