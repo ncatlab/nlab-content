@@ -31,8 +31,8 @@ The main interest of this new geometry is that it has a built in flow (action of
 One needs to use [[Dirac distribution|Dirac measures/distributions]] to relate directly the above two types of analytic geometries, by the relation on coordinates given by $z=e^s$ in an [[archimedean]] context, and $z=p^{-s}$ in a [[non-archimedean]] context.
 
 Higher dimensional spaces may also be considered, but the lack of a unit element in $L^1$ makes the extension of the semi and sub-analytic topologies to this geometry a bit tricky.
-She forces whatever may be created
-in classical (multiplicative geometry) using the unit to be introduced by replacing it by an arbitrary $L^1$ function $H$. If one respects this inherent constraint of the situation, things go well with rational domains, that may be defined using convolution ideals using ``generalized projections'' associated to such arbitrary $L^1$ functions, for example $\pi_H:D^2_a\to D^1_a$ given by sending $f$ to $f\otimes H$ (here, the arbitrary variable $H$ replaces the unit $1$ of classical geometry, but one may of course give a link between the two approaches using distributions).
+It forces whatever may be done
+in classical (multiplicative geometry) using the unit to be introduced by replacing it by an arbitrary $L^1$ function $h$. If one respects this inherent constraint of the situation, things go well with rational domains, that may be defined using convolution ideals using ``generalized projections'' associated to such arbitrary $L^1$ functions, for example $\pi_h:D^2_a\to D^1_a$ given by sending $f$ to $f\otimes h$ (here, the arbitrary variable $h$ replaces the unit $1$ of classical geometry, but one may of course give a link between the two approaches using distributions).
  
 A full complex geometry with various topologies seems to emerge from these simple considerations.
 
