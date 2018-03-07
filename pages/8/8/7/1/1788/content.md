@@ -57,6 +57,11 @@ $$
     - 20 \cdot B^{d}{}_e \wedge B^{e}{}_f
   \end{aligned}
 $$
+
+$$
+  \eta^\alpha_\mu = \phi \psi^\alpha_\mu +  \Gamma^{\mu}{\alpha \beta} \partial_\mu \phi
+$$
+
 Nice latex
 
 ## classic ##
