@@ -215,7 +215,7 @@ For [[heterotic supergravity]] in 10d the [[equations of motion]] are equivalent
      \mathcal{D}e^a - \overline{\psi} \Gamma^a \psi = T^a{}_{b c} e^b \wedge e^c
    $$
 
-1. the super-torsin of the odd part $\psi^\alpha$ of the [[super vielbein]] is of the form
+1. the super-torsion of the odd part $\psi^\alpha$ of the [[super vielbein]] is of the form
 
    $$
     \mathcal{D} \psi^\alpha = T^\alpha{}_{b c} e^b \wedge e^c  + \overline{\psi}^\beta \Gamma_a{}_{\beta \gamma} \phi^{\alpha \gamma}
@@ -340,12 +340,12 @@ Discussion of torsion constraints for [[heterotic supergravity]] goes back to ([
 
 * [[Paul Howe]], A. Umerski, _On superspace supergravity in ten dimensions_, Phys. Lett. B 177 (1986) 163.
 
-* {#AtickDharRatra86} Joseph J. Atick, Avinash Dhar, and Bharat Ratra, _Superspace formulation of ten-dimensional N=1 supergravity coupled to N=1 super Yang-Mills theory_, Phys. Rev. D 33, 2824, 1986 ([doi.org/10.1103/PhysRevD.33.2824](https://doi.org/10.1103/PhysRevD.33.2824))
+* {#AtickDharRatra86} [[Joseph Atick]], Avinash Dhar, and Bharat Ratra, _Superspace formulation of ten-dimensional N=1 supergravity coupled to N=1 super Yang-Mills theory_, Phys. Rev. D 33, 2824, 1986 ([doi.org/10.1103/PhysRevD.33.2824](https://doi.org/10.1103/PhysRevD.33.2824))
 
 * {#Witten86} [[Edward Witten]], _Twistor-like transform in ten dimensions_, Nuclear Physics B Volume 266, Issue 2, 17 March 1986
 
 * {#BonoraBregolaLechnerPastiTonin87} [[Loriano Bonora]], M. Bregola; [[Kurt Lechner]], [[Paolo Pasti]], [[Mario Tonin]], _Anomaly-free supergravity and super-Yang-Mills theories in ten dimensions_, Nuclear Physics B
-Volume 296, Issue 4, 25 January 1988 ([10.1016/0550-3213(88)90402-6](http://dx.doi.org/10.1016/0550-3213(88)90402-6))
+Volume 296, Issue 4, 25 January 1988 (<a href="http://dx.doi.org/10.1016/0550-3213(88)90402-6">doi:10.1016/0550-3213(88)90402-6</a>)
 
 * [[Paul Howe]], _Heterotic supergeometry revisited_ ([arXiv:0805.2893](http://arxiv.org/abs/0805.2893))
 
