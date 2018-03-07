@@ -1107,7 +1107,7 @@ The consistency of the Green-Schwarz action functional for the superstring in a 
 
 and for the supermembrane due to
 
-* {#BergshoeffSezginTownsend87}  [[Eric Bergshoeff]], [[Ergin Sezgin]], [[Paul Townsend]], _Supermembranes and eleven dimensional supergravity_, Phys.Lett. B189 (1987) 75-78, In [[Mike Duff]],  (ed.), _[[The World in Eleven Dimensions]]_ 69-72 ([pdf](http://streaming.ictp.trieste.it/preprints/P/87/010.pdf), [spire](http://inspirehep.net/record/248230?ln=en))
+* {#BergshoeffSezginTownsend87}  [[Eric Bergshoeff]], [[Ergin Sezgin]], [[Paul Townsend]], _Supermembranes and eleven dimensional supergravity_, Phys.Lett. B189 (1987) 75-78, In [[Mike Duff]],  (ed.), _[[The World in Eleven Dimensions]]_ 69-72 ([spire](http://inspirehep.net/record/248230?ln=en))
 
 with a quick re-derivation using that the [[torsion constraints in supergravity|torsion constraint in 11d supergravity]] already imples the sugra equations of motion is in
 
