@@ -352,4 +352,4 @@ A relative version of Freyd's classical results is in
 
 * [[Brian Day]], *An adjoint-functor theorem over topoi*, Bull. Austral. Math. Soc. **15** (1976), pp. 381-394.
 
-[[!redirects adjoint functor theorem]]
+[[!redirects adjoint functor theorems]]
