@@ -46,7 +46,7 @@ A pair $(R,I)$ is a henselian pair if and only if
 1. Let $f(t) = (t-1)t^N + g(t)$ where $g(t) \in IR[t]$ has degree $\leq N$. Then $f(t)$ has a (necessarily unique) root in $I+1$.
 =--
 
-This characterization shows that the property of $(R,I)$ being a henselian pair essentially depends only on the ideal $I$, regarded as a non-unital ring, and not on $R$. Thus the property of $I$ being henselian may be axiomatized in terms of an additional set of algbraic operations on $I$, sending $(g_0,\dots, g_{N})$ to the root of $(t-1)t^N + g_{N}t^{N} + \dots + g_0$, and the resulting algebraic category is equivalent to a full subcategory of the category of nonunital rings.
+This characterization shows that the property of $(R,I)$ being a henselian pair essentially depends only on the ideal $I$, regarded as a non-unital ring, and not on $R$. Thus the property of $I$ being henselian may be axiomatized in terms of an additional set of algbraic operations on $I$, sending $(g_0,\dots, g_{N})$ to $i$ where $1+i$ is the root of $(t-1)t^N + g_{N}t^{N} + \dots + g_0$, and the resulting algebraic category is equivalent to a full subcategory of the category of nonunital rings.
 
 =--
 
