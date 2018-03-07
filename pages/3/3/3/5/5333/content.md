@@ -67,6 +67,31 @@ Moreover, where the traditional construction only produces level-1 [[current alg
 
 However, presently questions remain concerning formulating a [[sigma-model]] for strings propagating on the total space of the bundle, as it is only the chiral part of the geometric WZW model that appears in the heterotic string. (...)
 
+### Superspace formulation
+
+The [[gauge field]] [[field strength|strength]]:
+
+$F_{\alpha \beta} = 0$ ([Witten 86](#Witten86), [Bonora-Bregola-Lechner-Pasti-Tonin 87, above (2.7)](#BonoraBregolaLechnerPastiTonin87), [Bonora-Bregola-Lechner-Pasti-Tonin 87, (2.13)](#BonoraBregolaLechnerPastiTonin87)).
+
+$F_{a \alpha} = \Gamma_{a \alpha \beta} \chi^\beta$ ([Witten 86 (8)](#Witten86), [Atick-Dhar-Ratra 86, (4.14)](#AtickDharRatra86), [Bonora-Pasti-Tonin 87, below (11)](#BonoraPastiTonin87), [Bonora-Bregola-Lechner-Pasti-Tonin 87, (2.27)](#BonoraBregolaLechnerPastiTonin87)).
+
+Here $\chi^\alpha$ is the [[gaugino]].
+
+$F_{a b} = \tfrac{1}{4} (\Gamma_{a b})_\alpha{}^\beta D_\beta \chi^\alpha$ ([Bonora-Pasti-Tonin 87, below (11)](#BonoraPastiTonin87), [Bonora-Bregola-Lechner-Pasti-Tonin 87, (2.28)](#BonoraBregolaLechnerPastiTonin87))
+
+$\,$
+
+The [[B-field]] [[field strength|strength]]:
+
+$H_{\alpha \beta \gamma} = 0$ ([Atick-Dhar-Ratra 86, (4.2)](#AtickDharRatra86), [Bonora-Pasti-Tonin 87, (15)](#BonoraPastiTonin87), [Bonora-Bregola-Lechner-Pasti-Tonin 87, (2.14)](#BonoraBregolaLechnerPastiTonin87))
+
+$H_{a \alpha \beta} = \phi \Gamma_{a \alpha \beta}$ ([Atick-Dhar-Ratra 86, (4.19)](#AtickDharRatra86), [Bonora-Pasti-Tonin 87, (15)](#BonoraPastiTonin87), [Bonora-Bregola-Lechner-Pasti-Tonin 87, (2.15)](#BonoraBregolaLechnerPastiTonin87))
+
+$\rho \coloneqq D_\alpha \phi$ ([Atick-Dhar-Ratra 86, (4.20)](#AtickDharRatra86))
+
+$H_{a b \alpha} = -\tfrac{1}{2} \Gamma_{a b }_\alpha{}^\beta \rho_\beta$ ([Atick-Dhar-Ratra 86, (4.21)](#AtickDharRatra86))
+
+$H_{a b c} = - \tfrac{3}{2} \phi T_{a b c} + \tfrac{c_1}{4} (\Gamma_{a b c})_{\alpha \beta} tr(\chi^\alpha \chi^\beta)$ ([Atick-Dhar-Ratra 86, (4.22)](#AtickDharRatra86))
 
 ## Related concepts
 
@@ -139,7 +164,7 @@ Discussion of heterotic supergravity in terms of [[superspace]] includes the fol
 
 One solution of the heterotic superspace [[Bianchi identities]] is due to
 
-* {#AtickDharRatra86} Joseph J. Atick, Avinash Dhar, and Bharat Ratra, _Superspace formulation of ten-dimensional N=1 supergravity coupled to N=1 super Yang-Mills theory_, Phys. Rev. D 33, 2824, 1986 ([doi.org/10.1103/PhysRevD.33.2824](https://doi.org/10.1103/PhysRevD.33.2824))
+* {#AtickDharRatra86} [[Joseph Atick]], Avinash Dhar, and Bharat Ratra, _Superspace formulation of ten-dimensional N=1 supergravity coupled to N=1 super Yang-Mills theory_, Phys. Rev. D 33, 2824, 1986 ([doi.org/10.1103/PhysRevD.33.2824](https://doi.org/10.1103/PhysRevD.33.2824))
 
 * {#Witten86} [[Edward Witten]], _Twistor-like transform in ten dimensions_, Nuclear Physics B Volume 266, Issue 2, 17 March 1986
 
