@@ -178,7 +178,7 @@ A right adjoint to any cocontinuous functor $F \colon C \to D$ between locally p
 The following is a counter-example, showing that the
 necessity of the accessibility clause in theorem \ref{AdjFuncTheoremForLocallyPresentableCats}.
 
-+-- {: .num_examle}
++-- {: .num_example}
 ###### Example
 
 For every infinite [[cardinal number]] $\kappa$, let 
@@ -342,10 +342,10 @@ The adjoint functor theorem in context with [[Yoneda embedding]] is discussed in
 
 The case for [[locally presentable categories]] is discussed in
 
-* [[Ji?í Adámek]], [[Jiri Rosicky]], *[[Locally presentable and accessible categories]]*, Cambridge UP, 1994.
+* [[Jirí Adámek]], [[Jiri Rosicky]], *[[Locally presentable and accessible categories]]*, Cambridge UP, 1994.
   {#AdamekRosicky}
 
-* [[Ji?í Adámek]], V. Koubek and V. Trnkov&#225;, *How large are left exact functors?*, Theory and Applications of Categories **8** (2001), pp. 377-390. ([abstract](http://www.emis.de/journals/TAC/volumes/8/n13/8-13abs.html))
+* [[Jirí Adámek]], V. Koubek and V. Trnkov&#225;, *How large are left exact functors?*, Theory and Applications of Categories **8** (2001), pp. 377-390. ([abstract](http://www.emis.de/journals/TAC/volumes/8/n13/8-13abs.html))
  {#AdamekKoubekTrnkova}
 
 A relative version of Freyd's classical results is in
