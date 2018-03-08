@@ -104,7 +104,7 @@ A categorical approach to probability was developed by  [[Bill Lawvere]] in an u
 
 ' The key idea ... is that
 random maps between spaces are just maps in a category of convex spaces
-between "simplices" ' (W.Lawvere, catlist [remark 25 oct 1998](http://www.mta.ca/~cat-dist/catlist/1999/cat-probability)).
+between "simplices" ' (W. Lawvere, catlist [remark 25 oct 1998](http://www.mta.ca/~cat-dist/catlist/1999/cat-probability)).
 
 The monad made its way into print then with
 
@@ -122,7 +122,7 @@ K. Sturtz discusses the Giry monad as a codensity monad:
 
 This includes some corrections from an earlier version of the article, _The Giry monad as a codensity monad_, pointed out in
 
-* T. Avery, _Codensity and the Giry monad_ , arXiv:1410.4432 (2014). ([pdf](http://arxiv.org/pdf/1410.4432.pdf))
+* T. Avery, _Codensity and the Giry monad_, arXiv:1410.4432 (2014). ([pdf](http://arxiv.org/pdf/1410.4432.pdf))
 
 Apart from these papers, there are similar developments in
 
@@ -144,7 +144,7 @@ There is also relation with work of Jacobs et al.
 
 * Robert Furber, [[Bart Jacobs]], _Towards a categorical account of conditional probability_, [arxiv/1306.0831](http://arxiv.org/abs/1306.0831)
 
-* B. Jacobs, _Probabilities, distribution monads and convex categories_ , Theoretical
+* B. Jacobs, _Probabilities, distribution monads and convex categories_, Theoretical
 Computer Science 412(28) (2011) pp.3323&#8211;3336. ([preprint](http://www.cs.ru.nl/B.Jacobs/PAPERS/triangle.pdf))
 
 J. Culbertson and K. Sturtz use the Giry monad in their categorical approach to [[Bayesian reasoning]] and inference (both articles contain further references to the categorical approach to probability theory):
