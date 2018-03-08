@@ -81,7 +81,7 @@ This corollary is actually a key of entry into the [[adjoint functor theorem|gen
 
 * [[bottom type]]
 
-* [[initial object in an (∞,1)-category]]
+* [[initial object in an (∞,1)-category]], [[h-initial object]]
 
 * [[adjoint functor theorem]] 
 
