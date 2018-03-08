@@ -37,6 +37,12 @@ $$
   \,.
 $$
 
+## Related concepts
+
+* [[initial object]], [[terminal object]]
+
+* [[h-initial object]]
+
 
 ##References#
 
