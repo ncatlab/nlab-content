@@ -78,6 +78,8 @@ This result is due to Johnstone-Joyal ([1982](#JJ82)) and occurs as theorem 4.4.
 
 * {#J02}[[Peter Johnstone]], _Sketches of Elephant vol.2_ , CUP 2002. (section C4.4 pp.745-754)
 
+* {#Lurie18}[[Jacob Lurie]], _Spectral Algebraic Geometry_ , ms. Harvard University 2018. (section 21.1.6)
+
 * [[Susan Niefield]], _Exponentiable Morphisms: posets, spaces, locales and Grothendieck toposes_ , TAC **8** (2001) pp.16-32. ([abstract](http://www.tac.mta.ca/tac/volumes/8/n2/8-02abs.html))
 
 [[!redirects Exponentiable topos]]
