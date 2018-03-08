@@ -1,5 +1,5 @@
 
-This page is about a property of [[?ech nerves]] in [[homotopy theory]]. For the "nerve theorem" in [[category theory]] see at _[[Segal conditions]]_.
+This page is about a property of [[Cech nerves]] in [[homotopy theory]]. For the "nerve theorem" in [[category theory]] see at _[[Segal conditions]]_.
 
 ***
 
@@ -101,3 +101,8 @@ Some slightly stronger statements are discussed in
 * Anders Bj&#246;rner, _Nerves, fibers and homotopy groups_ , Journal of combinatorial theory, series A, 102 (2003), 88-93
 
 * Andrzej Nag&#243;rko, _Carrier and nerve theorems in the extension theory_ Proc. Amer. Math. Soc.  135  (2007), 551-558.  ([web](http://www.ams.org/journals/proc/2007-135-02/S0002-9939-06-08477-2/home.html))
+
+A nerve theorem for categories has been proved in
+
+
+* Kohei Tanaka, _Cech complexes for covers of small categories_, Homology, Homotopy and Applications 19(1), (2017), pp. 281-291. [ArXiv Abstract 1508.03688](https://arxiv.org/abs/1508.03688)
