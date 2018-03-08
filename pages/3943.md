@@ -22,7 +22,7 @@ The analogs in [[(∞,1)-category]] theory of the [[adjoint functor theorems]] i
 ###### Definition 
 * Let $G:\mathcal{D} \to \mathcal{C}$ be a functor between $(\infty, 1)$-categories. We say that $G$ satisfies the **solution set condition** if the $(\infty, 1)$-category $c/G$ admits a small weakly initial set for any $c$ in $\mathcal{C}$.
  
-* $G$ satisfies the **$h$-initial object condition** if $c/G$ admits an $h$-initial object for any $c$ in $\mathcal{C}$.
+* $G$ satisfies the **$h$-initial object condition** if $c/G$ admits an [[h-initial object]] for any $c$ in $\mathcal{C}$.
 
 * $\mathcal{C}$ is said to be **2-locally small** if for every pair of objects, $x$,$y$, of $\mathcal{C}$, the mapping space $map_{\mathcal{C}}(x,y)$ is [[locally small]].
 =--
