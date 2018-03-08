@@ -46,7 +46,7 @@ $$
 to indicate that for the morphism $f : X \to Y$ the induced [[hom set]] morphism
 
 $$
-  \mathcal{E}(f, S) : \mathcal{E}(S,Y) \to \mathcal{E}(S,X)
+  \mathcal{E}(f, S) : \mathcal{E}(Y,S) \to \mathcal{E}(X,S)
 $$
 
 is surjective, dually for
