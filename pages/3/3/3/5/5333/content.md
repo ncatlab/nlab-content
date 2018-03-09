@@ -93,6 +93,11 @@ $H_{a b \alpha} = -\tfrac{1}{2} \Gamma_{a b }_\alpha{}^\beta \rho_\beta$ ([Atick
 
 $H_{a b c} = - \tfrac{3}{2} \phi T_{a b c} + \tfrac{c_1}{4} (\Gamma_{a b c})_{\alpha \beta} tr(\chi^\alpha \chi^\beta)$ ([Atick-Dhar-Ratra 86, (4.22)](#AtickDharRatra86))
 
+According to ([Bonora-Bregola-Lechner-Pasti-Tonin 90](#BonoraBregolaLechnerPastiTonin90)) in fact all these constraints follow from just $T^a_{\alpha \beta}  \propto \Gamma^a_{\alpha \beta}$, up to field redefinition.
+
+See also at _[[torsion constraints in supergravity]]_.
+
+
 ## Related concepts
 
 * [[string theory]]
@@ -184,11 +189,14 @@ Further references include these:
 * {#BonoraBregolaLechnerPastiTonin87} [[Loriano Bonora]], M. Bregola, [[Kurt Lechner]], [[Paolo Pasti]], [[Mario Tonin]], _Anomaly-free supergravity and super-Yang-Mills theories in ten dimensions_, Nuclear Physics B
 Volume 296, Issue 4, 25 January 1988 (<a href="http://dx.doi.org/10.1016/0550-3213(88)90402-6">doi:10.1016/0550-3213(88)90402-6</a>)
 
+* {#BonoraBregolaLechnerPastiTonin90} [[Loriano Bonora]], M. Bregola; [[Kurt Lechner]], [[Paolo Pasti]], [[Mario Tonin]], _A discussion of the constraints in $N=1$ SUGRA-SYM in 10-D_,  International Journal of Modern Physics A, February 1990, Vol. 05, No. 03 : pp. 461-477 (<a href="https://doi.org/10.1142/S0217751X90000222">doi:10.1142/S0217751X90000222</a>)
 
 
 * [Castellani-D'Auria-Fre 91, vol 3, part 6](#CastellaniDAuriaFre91)
 
 * {#BBDFLPPRRTZ} L. Bonora, M. Bregola, R. D'Auria, P. Fr&#233; K. Lechner, P. Pasti, I. Pesando, M. Raciti, F. Riva, M. Tonin and D. Zanon, _Some remarks on the supersymmetrization of the Lorentz Chern-Simons form in $D = 10$ $N= 1$ supergravity theories_, Physics Letters B 277 (1992) ([[BonoraSuperGS.pdf:file]])
+
+
 
 * {#LechnerTonin08} [[Kurt Lechner]], Mario Tonin, _Superspace formulations of ten-dimensional supergravity_, JHEP 0806:021,2008 ([arXiv:0802.3869](https://arxiv.org/abs/0802.3869))
 
