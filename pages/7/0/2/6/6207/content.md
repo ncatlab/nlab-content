@@ -9,6 +9,7 @@
 =--
 =--
 
+#Contents#
 * table of contents
 {: toc}
 
@@ -89,6 +90,8 @@ This can be used to give a proof of the reduction of [[end|ends]] to [[conical l
 * [[category of factorizations]]
 
 ## References
+
+* {#BN00}[[Marta Bunge|M. Bunge]], [[Susan Niefield|S. Niefield]], _Exponentiability and single universes_ , JPAA **148** (2000) pp.217-250.
 
 * L. Errington, _Twisted Systems_ , PhD thesis Imperial College London 1999.  ([doi](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.34.6369))
 
