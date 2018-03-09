@@ -186,7 +186,13 @@ See also at _[[flux compactification]]_ and _[[landscape of string theory vacua]
 
 ### General
 
-The original article is 
+Discussion of [[T-duality]] in the strong coupling limit is due to
+
+* {#Schwarz96} [[John Schwarz]], _M Theory Extensions of T Duality_ ([arXiv:hep-th/9601077](https://arxiv.org/abs/hep-th/9601077))
+
+* {#Russo97} [[Jorge Russo]], _T-duality in M-theory and supermembranes_, Phys.Lett. B400 (1997) 37-42 ([arXiv:hep-th/9701188](https://arxiv.org/abs/hep-th/9701188))
+
+The original article on F-theory as such is
 
 * [[Cumrun Vafa]], _Evidence for F-theory_, Nucl.Phys.B469:403-418,1996, ([arXiv:hep-th/9602022](http://arxiv.org/abs/hep-th/9602022))
 
