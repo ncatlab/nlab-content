@@ -121,7 +121,7 @@ as explained in ([Henneaux-Julia-Levie 10](#HenneauxJuliaLevie10)).
 
 The derivation of the [[equations of motion]] of [[11-dimensional supergravity]] and maximally supersymmetric [[5d supergravity]] from a [[vielbein]] with values in the [[semidirect product]] $E_{11}$ with its [[fundamental representation]] is due to
 
-* {#West11} [[Peter West]], _Generalised geometry, eleven dimensions and $E_{11}$_ ([arXiv:1111.1642](http://arxiv.org/abs/1111.1642))
+* {#West11} [[Peter West]], _Generalised geometry, eleven dimensions and $E_{11}$_, J. High Energ. Phys. (2012) 2012: 18 ([arXiv:1111.1642](http://arxiv.org/abs/1111.1642))
 
 * Alexander G. Tumanov, [[Peter West]], _$E_{11}$ must be a symmetry of strings and branes_, Physics Letters B Volume 759, 10 August 2016, Pages 663&#8211;671 ([arXiv:1512.01644](https://arxiv.org/abs/1512.01644))
 
