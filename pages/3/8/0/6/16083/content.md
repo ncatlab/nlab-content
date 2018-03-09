@@ -278,6 +278,8 @@ $$
 where we used the relation ([Witten 86 (8)](#Witten86)) (recalled for instance in [Bonora-Bregola-Lechner-Pasti-Tonin 87 (2.28)](#BonoraBregolaLechnerPastiTonin87), [Lechner-Tonin 08 (2.13)](#LechnerTonin08)).
 
 
+According to ([Bonora-Bregola-Lechner-Pasti-Tonin 90](#BonoraBregolaLechnerPastiTonin90)) in fact all these constraints follow from just $T^a_{\alpha \beta}  \propto \Gamma^a_{\alpha \beta}$.
+
 
 ## Related concepts
 
@@ -346,6 +348,9 @@ Discussion of torsion constraints for [[heterotic supergravity]] goes back to ([
 
 * {#BonoraBregolaLechnerPastiTonin87} [[Loriano Bonora]], M. Bregola; [[Kurt Lechner]], [[Paolo Pasti]], [[Mario Tonin]], _Anomaly-free supergravity and super-Yang-Mills theories in ten dimensions_, Nuclear Physics B
 Volume 296, Issue 4, 25 January 1988 (<a href="http://dx.doi.org/10.1016/0550-3213(88)90402-6">doi:10.1016/0550-3213(88)90402-6</a>)
+
+* {#BonoraBregolaLechnerPastiTonin90} [[Loriano Bonora]], M. Bregola; [[Kurt Lechner]], [[Paolo Pasti]], [[Mario Tonin]], _A discussion of the constraints in $N=1$ SUGRA-SYM in 10-D_,  International Journal of Modern Physics A, February 1990, Vol. 05, No. 03 : pp. 461-477 (<a href="https://doi.org/10.1142/S0217751X90000222">doi:10.1142/S0217751X90000222</a>)
+
 
 * [[Paul Howe]], _Heterotic supergeometry revisited_ ([arXiv:0805.2893](http://arxiv.org/abs/0805.2893))
 
