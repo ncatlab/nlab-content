@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ### Context
@@ -24,7 +23,7 @@ Let $\mathcal{C}$ be an [[abelian category]].
 +-- {: .num_defn #FiniteLength}
 ###### Definition
 
-Given an [[object]] $X \in \mathcal{C}$, then a _Jordan-H&#246;lder sequence_ or _[[composition series]]_ for $X$ is a finite [[filtration]], i.e. a finite sequence of [[subobject]] unclusions into $X$, starting with the [[zero objects]]
+Given an [[object]] $X \in \mathcal{C}$, then a _Jordan-H&#246;lder sequence_ or _[[composition series]]_ for $X$ is a finite [[filtration]], i.e. a finite sequence of [[subobject]] inclusions into $X$, starting with the [[zero objects]]
 
 $$
   0 = X_0 \hookrightarrow X_1 \hookrightarrow \cdots \hookrightarrow X_{n-1} \hookrightarrow X_n = X
