@@ -265,22 +265,30 @@ The geometry of the fiber product of two torus fiber bundles with a [[circle 2-b
 
 ## References
 
+Precursors include (according to [Schwarz 96, first paragraph](#Schwarz96)):
+
+* Keiji Kikkawa, Masami Yamasaki, _Casimir effects in superstring theories_, Physics Letters B Volume 149, Issues 4–5, 20 December 1984, Pages 357-360 (<a href="https://doi.org/10.1016/0370-2693(84)90423-4">doi:10.1016/0370-2693(84)90423-4</a>)
+
+Review includes
+
+* Amit Giveona, Massimo Porrati, Eliezer Rabinovicia, _Target space duality in string theory_, Physics Reports Volume 244, Issues 2–3, August 1994, Pages 77-202 (<a href="https://doi.org/10.1016/0370-1573(94)90070-1">doi:10.1016/0370-1573(94)90070-1</a>)
+
 * E. Alvarez, [[Luis Alvarez-Gaume]], Y. Lozano, _An Introduction to T-Duality in String Theory_, Nucl.Phys.Proc.Suppl.41:1-20,1995 ([arXiv:hep-th/9410237](https://arxiv.org/abs/hep-th/9410237))
 
 * {#West12} [[Peter West]], section 17.1 of _[[Introduction to Strings and Branes]]_, Cambridge University Press 2012
 
 * [[Mathai Varghese]], _T-duality: A basic introduction_, 10th Geometry and Physics Conference _Quantum Geometry_, Anogia 2012 ([[Mathai12.pdf:file]])
 
-
-### Worldsheet
-
-A review of T-duality from the [[worldsheet]] perspective is in 
-
 * Jnanadeva Maharana, _The Worldsheet Perspective of T-duality Symmetry in String Theory_ ([arXiv:1302.1719](http://arxiv.org/abs/1302.1719))
 
-### Target space
 
-#### Without supergeometry
+Discussion at strong coupling ("[[F-theory]]") includes
+
+* {#Schwarz96} [[John Schwarz]], _M Theory Extensions of T Duality_ ([arXiv:hep-th/9601077](https://arxiv.org/abs/hep-th/9601077))
+
+* {#Russo97} [[Jorge Russo]], _T-duality in M-theory and supermembranes_, Phys.Lett. B400 (1997) 37-42 ([arXiv:hep-th/9701188](https://arxiv.org/abs/hep-th/9701188))
+
+
 
 Geometric T-duality in terms of [[differential cohomology]] as an operation on [[twisted K-theory|twisted]] [[differential K-theory]] is discussed in
 
@@ -321,7 +329,6 @@ For [[RR-fields]]:
 
 * {#Hori99} [[Kentaro Hori]], _D-branes, T-duality and Index theory_, Adv. Theor. Math. Phys. 3 (1999) 281 ([arXiv:hep-th/9902102](https://arxiv.org/abs/hep-th/9902102))
 
-#### With supergeometry
 
 Discussion of T-duality that takes into account the [[super p-brane]] charges (i.e. the fermionic components of the [[RR-fields]]) on [[super spacetime]], hence also of [[Green-Schwarz action functionals]], includes the following:
 
