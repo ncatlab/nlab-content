@@ -37,7 +37,7 @@ A [[continuous function]] $i \colon A \longrightarrow X$ is a **Hurewicz cofibra
 
 * for any [[topological space]] $Y$, 
 
-* all continuous functions $ f \colon A\to Y$, $\tilde{f}:X\to Y$ such that $\tilde{f}\circ i=f$ 
+* all continuous functions $ f \colon A\to Y$, there exists $\tilde{f}:X\to Y$ such that $\tilde{f}\circ i=f$ 
    
   $$
     \array{
