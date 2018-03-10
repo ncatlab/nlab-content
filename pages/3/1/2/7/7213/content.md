@@ -81,7 +81,7 @@ Original articles include
 * {#Hull07} [[Chris Hull]], _Generalised Geometry for M-Theory_, JHEP 0707:079 (2007) ([arXiv:hep-th/0701203](http://arxiv.org/abs/hep-th/0701203))
  
 
-* {#PachecoWaldram08} Paulo Pires Pacheco, [[Daniel Waldram]], _M-theory, exceptional generalised geometry and superpotentials_, JHEP 0809:123,2008 ([arXiv:0804.1362](http://arxiv.org/abs/0804.1362))
+* {#PachecoWaldram08} Paulo Pires Pacheco, [[Daniel Waldram]], _M-theory, exceptional generalised geometry and superpotentials_, JHEP 0809:123, 2008 ([arXiv:0804.1362](http://arxiv.org/abs/0804.1362))
   
 
 * {#GLSW} [[Mariana Graña]], [[Jan Louis]], Aaron Sim, [[Daniel Waldram]], _$E_{7(7)}$ formulation of $N=2$ backgrounds_ ([arXiv:0904.2333](http://arxiv.org/abs/0904.2333))
