@@ -1,5 +1,8 @@
-* [My website](http://www.math.ucla.edu/~iacoley)
+[My website](iancoley.org)
 
-Interests
-: * [Derivators](https://ncatlab.org/nlab/show/derivator)
-: * [K-theory](https://ncatlab.org/nlab/show/K-theory)
+####Interests####
+* [Derivators](https://ncatlab.org/nlab/show/derivator)
+* [K-theory](https://ncatlab.org/nlab/show/K-theory)
+
+####Papers####
+* [Stabilization of derivators revisited](arxiv.org/abs/1802.04343)
