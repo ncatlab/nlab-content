@@ -79,6 +79,12 @@ Here $\chi^\alpha$ is the [[gaugino]].
 
 $F_{a b} = \tfrac{1}{4} (\Gamma_{a b})_\alpha{}^\beta D_\beta \chi^\alpha$ ([Bonora-Pasti-Tonin 87, below (11)](#BonoraPastiTonin87), [Bonora-Bregola-Lechner-Pasti-Tonin 87, (2.28)](#BonoraBregolaLechnerPastiTonin87))
 
+[[equations of motion]]:
+
+$ (D^a \Gamma_a)_{\alpha\beta} \chi^\beta =0 $ ([Bonora-Bregola-Lechner-Pasti-Tonin 87, (2.30)](#BonoraBregolaLechnerPastiTonin87))
+
+$D^b F_{b a} + T_a{}^{b c} F_{b c} = - (\Gamma_a)_{\alpha \beta} \chi^\alpha \chi^\beta - \chi^\alpha L_{\alpha a}$ ([Bonora-Bregola-Lechner-Pasti-Tonin 87, (2.31)](#BonoraBregolaLechnerPastiTonin87)) (where $L_{\alpha a}$ is defined by (2.20) there...)
+
 $\,$
 
 The [[B-field]] [[field strength|strength]]:
