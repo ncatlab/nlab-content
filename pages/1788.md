@@ -1,6 +1,39 @@
 
 $$
-  
+  H_3 \coloneqq A \wedge d A
+$$
+
+$$
+  \begin{aligned}
+  \delta
+  \left(
+     \int_{X_{10}}
+     H_3 \wedge 
+     \star H_3
+  \right)
+  & =
+  2 \int_{X_{10}} \delta A  \wedge F_2 \wedge \star H_3
+  +
+  \int_{X_{10}}
+  A \wedge d \delta A
+  \wedge \star H_3
+  +
+  \int_{X_{10}}
+  H_3
+  \wedge \star ( A \wedge d \delta A)
+  \\
+  & =
+  2 \int_{X_{10}} \delta A  \wedge F_2 \wedge \star H_3
+  +
+  \int_{X_{10}}
+  A \wedge d \delta A
+  \wedge \star H_3
+  +
+  \int_{X_{10}}
+  ( A \wedge d \delta A)
+  \wedge \star 
+  H_3
+  \end{aligned}
 $$
 
 $$
