@@ -59,6 +59,10 @@ One axiomatization is [[cohesion]] and [[differential cohesion]].
 ## References
  {#References}
 
+Exposition is in 
+
+* [[Urs Schreiber]], _[[schreiber:Higher Structures|Higher Structures in Mathematics and Physics]]_, talk at [Oberwolfach Workshop 1651a](https://www.mfo.de/occasion/1651a/www_view), 2016 Dec. 18-23
+
 The most classical aspect of higher differential geometry is the theory of [[orbifolds]], [[Lie groupoids]] and [[Lie algebroids]] and their application in [[foliation theory]]. Original reference here include
 
 * [[Charles Ehresmann]], _Cat&#233;gories topologiques et cat&#233;gories diff&#233;rentiables_ Colloque de G&#233;ometrie Differentielle Globale (Bruxelles, 1958), 137--150, Centre Belge Rech. Math., Louvain, 1959; 
@@ -67,7 +71,7 @@ The most classical aspect of higher differential geometry is the theory of [[orb
 
 and standard textbook accounts include
 
-* [[Ieke Moerdijk]], [[Janez Mr?un]] _Introduction to Foliations and Lie Groupoids_, Cambridge Studies in Advanced Mathematics 91, Cambridge University Press, Cambridge, (2003)
+* [[Ieke Moerdijk]], [[Janez Mrcun]] _Introduction to Foliations and Lie Groupoids_, Cambridge Studies in Advanced Mathematics 91, Cambridge University Press, Cambridge, (2003)
 
 * [[Kirill Mackenzie]], _General Theory of Lie Groupoids and Lie Algebroids,_ Cambridge University Press, 2005, xxxviii + 501 pages 
 ([website](http://kchmackenzie.staff.shef.ac.uk/gt.html))
