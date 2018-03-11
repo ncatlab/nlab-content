@@ -30,7 +30,7 @@ For $\mathbf{H}$ an [[(∞,1)-topos]] and $n \in \mathbb{N}$ , an [[object]] $X 
 
 
 $$
-  H^k(X, A) := \pi_0 \mathbf{H}(X,\mathbf{B}^ A) \simeq *
+  H^k(X, A) := \pi_0 \mathbf{H}(X,\mathbf{B}^k A) \simeq *
   \,.
 $$ 
 
