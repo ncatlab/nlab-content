@@ -32,7 +32,7 @@ The metric $g$ naturally induces a nondegenerate symmetric [[bilinear form]]
 
 $$
   (-\mid-) 
-   : 
+   \;\colon\;
   \Omega^k(X) \otimes \Omega^k(X)
     \to 
   \Omega^0(X)
@@ -42,7 +42,8 @@ $$
 If $X$ is [[compact space|compact]] then the [[integral]] of this against the [[volume form]] $vol_g$ exists. This is the _Hodge inner product_ 
 
 $$
-  \langle - , - \rangle : 
+  \langle - , - \rangle 
+  \;\colon\;
   \Omega^k(X)\otimes \Omega^k(X)
   \to 
   \mathbb{R}
