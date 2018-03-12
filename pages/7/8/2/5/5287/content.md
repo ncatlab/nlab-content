@@ -72,6 +72,8 @@ For more on this perspective see at _[[BV-BRST formalism]]_ the section _[Quantu
 ### In causal perturbation theory
   {#InCausalPerturbationTheory}
 
+For more context for the following see at _[[A first idea of quantum field theory]]_ the chapter _[Free quantum fields](A+first+idea+of+quantum+field+theory#FreeQuantumFields)_.
+
 #### Background
 
 Recall the following context
