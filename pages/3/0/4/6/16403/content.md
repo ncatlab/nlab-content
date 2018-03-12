@@ -5079,7 +5079,7 @@ There is a host of classical diagram-chasing lemmas that relate far-away entries
 #### Kan complexes -- General homotopy types
  {#KanComplexes}
 
-With [[groupoids]] and [[chain complexes]] we have seen two kinds of objects which support concepts of [[homotopy theory]], such as a concept of [[homotopy equivalence]] between them ([[equivalence of groupoids]] on the one hand, and [[quasi-isomorphism]]) on the other. In some sense these two cases are opposite extremes in the more general context of [[homotopy theory]]:
+With [[groupoids]] and [[chain complexes]] we have seen two kinds of objects which support concepts of [[homotopy theory]], such as a concept of [[homotopy equivalence]] between them ([[equivalence of groupoids]] on the one hand, and [[quasi-isomorphism]] on the other). In some sense these two cases are opposite extremes in the more general context of [[homotopy theory]]:
 
 * [[chain complexes]] have homotopical structure (e.g. [[chain homology]]) in arbitrary high degree, i.e. they may be [[homotopy n-types]] for arbitrary $n$, but they are fully _abelian_ in that there is never any [[nonabelian group]] structure in a chain complex, not is there any non-trivial [[action]] of the homology groups of a chain complex on each other;
 
@@ -5108,7 +5108,7 @@ $$
   }
 $$
 
-Kan complexes serve as a standard powerful model on wich the complete formulation of [[homotopy theory]] (without geometry) may be formulated.
+Kan complexes serve as a standard powerful model on which the complete formulation of [[homotopy theory]] (without geometry) may be formulated.
 
 ##### Intuitive idea -- Composition of higher order (gauge-)symmetries
 
@@ -6167,7 +6167,7 @@ It follows that with the inverse structure maps, we also have an [[adjunction]] 
 
 =--
 
-Hence in concclusion the [[Dold-Kan correspondence]] allows us to regard [[chain complexes]] (in non-negative degree) as, in particular, special [[simplicial sets]]. In fact as simplicial sets they are [[Kan complexes]] and hence [[infinity-groupoids]]:
+Hence in conclusion the [[Dold-Kan correspondence]] allows us to regard [[chain complexes]] (in non-negative degree) as, in particular, special [[simplicial sets]]. In fact as simplicial sets they are [[Kan complexes]] and hence [[infinity-groupoids]]:
 
 
 +-- {: .num_theorem #MooreTheorem}
