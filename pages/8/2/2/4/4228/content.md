@@ -215,7 +215,7 @@ $$
   Sh(CartSp_{synthdiff})
 $$
 
-where $i^\ast$ is given by precomposing a [[presheaf]] on $CartSp_{synthdiff}$ with $i$. The [[left adjoint]] $i_\ast$ has the interpretation of the inclusion of [[smooth spaces]] as [[reduced objects]] in the Cahiers topos.
+where $i^\ast$ is given by precomposing a [[presheaf]] on $CartSp_{synthdiff}$ with $i$. The [[right adjoint]] $i_\ast$ has the interpretation of the inclusion of [[smooth spaces]] as [[reduced objects]] in the Cahiers topos.
 
 =--
 
