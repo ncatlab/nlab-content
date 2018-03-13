@@ -137,7 +137,7 @@ $$
 and we claim that this is already isomorphic to the one stated in the lemma. This is manifestly true for the two terms on the right. For the term on the left observe that $g$ induces a morphism $g' : A_2 / im(f) \to A_3 / im(g \circ f)$. By the existence of the retract $s$ this has itself a retract. Moreover it factors as
 
 $$
-  g' : A_1/im(f) \to im(g)/im(g \circ f) \hookrightarrow A_3/ im(g \circ f)
+  g' : A_2/im(f) \to im(g)/im(g \circ f) \hookrightarrow A_3/ im(g \circ f)
   \,.
 $$
 
