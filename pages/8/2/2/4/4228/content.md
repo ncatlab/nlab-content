@@ -211,11 +211,11 @@ The canonical inclusion functor $i \colon CartSp \to CartSp_{synthdiff}$ induces
 
 $$
   Sh(CartSp)
-   \stackrel{\overset{i_\ast}{\to}}{\underset{i^\ast}{\leftarrow}}
+   \stackrel{\overset{i_!}{\to}}{\underset{i^\ast}{\leftarrow}}
   Sh(CartSp_{synthdiff})
 $$
 
-where $i^\ast$ is given by precomposing a [[presheaf]] on $CartSp_{synthdiff}$ with $i$. The [[right adjoint]] $i_\ast$ has the interpretation of the inclusion of [[smooth spaces]] as [[reduced objects]] in the Cahiers topos.
+where $i^\ast$ is given by precomposing a [[presheaf]] on $CartSp_{synthdiff}$ with $i$. The [[left adjoint]] $i_!$ has the interpretation of the inclusion of [[smooth spaces]] as [[reduced objects]] in the Cahiers topos.
 
 =--
 
@@ -227,7 +227,7 @@ This is discussed in more detail at _[[synthetic differential infinity-groupoid]
 For $X \in Sh(CartSp)$ a [[smooth space]], and for $\ell(W) \in InfThPoint$ an infinitesimally thickened point, the morphisms
 
 $$
-  \ell(W) \to i_\ast X
+  \ell(W) \to i_! X
 $$
 
 in $Sh(CartSp_{synthdiff})$ are in natural [[bijection]] to [[equivalence classes]] of pairs of morphisms
@@ -259,10 +259,10 @@ the left triangle commutes in $CartSp_{synthdiff}$ and the right one in $Sh(Cart
 +-- {: .proof}
 ###### Proof
 
-By general properties of [[left adjoints]] of functors of [[presheaves]], $i_\ast X$ is the [[left Kan extension]] of the presheaf $X$ along $i$. By the [[Yoneda lemma]] and the [[coend]] formula for these (as discussed there), we have that the set of maps $\ell(W) \to i_\ast X$ is naturally identified with
+By general properties of [[left adjoints]] of functors of [[presheaves]], $i_! X$ is the [[left Kan extension]] of the presheaf $X$ along $i$. By the [[Yoneda lemma]] and the [[coend]] formula for these (as discussed there), we have that the set of maps $\ell(W) \to i_! X$ is naturally identified with
 
 $$
-  (i_\ast X)(\ell(W))
+  (i_! X)(\ell(W))
   =
   (Lan_i X)(\ell(W))
   =
