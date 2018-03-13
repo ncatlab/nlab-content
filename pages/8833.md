@@ -52,6 +52,10 @@ For $n = 3$ this is due to ([Stasheff](#Stasheff)). For general $n$  this appear
 
 * {#Kochmann96} [[Stanley Kochmann]], section 5.4 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
+See also 
+
+* Wikipedia, _[Massey product](https://en.wikipedia.org/wiki/Massey_product)_
+
 ### Relation to $A_\infty$-algebra
  {#ReferencesRelationToAInfinity}
 
