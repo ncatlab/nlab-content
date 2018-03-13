@@ -28,13 +28,35 @@ Roughly, Massey Products are to [[cohomology]] as [[Toda Brackets]] are to [[hom
 Somewhat more fully, while Toda brackets are relations between mapping space groups $Map_* (\Sigma^n A_0, A_{n+2}) $ and chains of maps $ A_0 \to \cdots \to A_{n+2} $, and generalizing nullhomotopy of composition, Massey products are a relation between cohomology groups
 $ H^{p_0 + \cdots + p_k - k + 1}(X) $ and $ H^{p_0} (X) \otimes \cdots \otimes H^{p_k}(X) $, generalizing the vanishing of pairwise [[cup product]]s.
 
-The case $k=2$ is straight-forward enough: given three homogeneous classes $ [u],[v],[w] $ such that $ [u]\smile[v] = [v]\smile[w] = 0$, there are (various) choices of cochains $ s , t $ with $ d s = u \cdot v $ and $ d t = v \cdot w $.  The Massey triple product is the set of sums $ [ u \cdot t \pm s \cdot w ] $, where the sign is chosen for cocyclicity.
+The case $k=2$ is straight-forward enough: given three homogeneous classes $ [u],[v],[w] $ such that $ [u]\smile[v] = [v]\smile[w] = 0$, there are (various) choices of cochains $ s , t $ with $ d s = u \cdot v $ and $ d t = v \cdot w $.  The Massey triple product is the set of sums $ [ u \cdot t \pm s \cdot w ] $, 
+where the sign is chosen for cocyclicity.
+
+## Properties
+
+### Relation to Steenrod squares
+ {#RelationToSteenrodSquares}
+
+Let $\omega, \omega_1, \omega_2 \in H^\bullet(X,\mathbb{Z}/2)$ such that their triple Massey product exists. 
+Then the cup product of $\omega$ with the triple Massey product equals the cup product of $\omega_1$ with $\omega_2$ and with the [[Steenrod square]] of $\omega$ of degree $deg(\omega)-1$:
+
+$$
+  \omega \cup
+  \left\langle
+    \omega_1, \omega, \omega_2
+  \right\rangle
+  \;=\;
+  \omega_1 \cup \omega_2 \cup Sq^{ deg(\omega) -1 }( \omega )
+  \,.
+$$
+
+([Taylor 11, slide 10](#Taylor11), following [Milgram 68](#Milgram68))
 
 ### Relation to $A_\infty$-algebra
 
 For $A$ a [[dg-algebra]], its [[chain homology]] $H_\bullet(A)$ inherits an [[A-infinity algebra]] structure by [[Kadeishvili's theorem]]. Then for every $n \in \mathbb{N}$ the $n$-ary $A_\infty$-product on elements $ (a_1, \cdots, a_n) \in H_\bullet(A)^n$ is given, up to a sign, by the Massey product $\langle a_1, \cdots, a_n\rangle$. 
 
 For $n = 3$ this is due to ([Stasheff](#Stasheff)). For general $n$  this appears as ([LPWZ, theorem 3.1](#LPWZ)). 
+
 
 ## Related concepts
 
@@ -54,7 +76,7 @@ For $n = 3$ this is due to ([Stasheff](#Stasheff)). For general $n$  this appear
 
 * {#Milgram68} [[R. James Milgram]], _Steenrod squares and higher Massey products_, Bol. Soc. Mat. Mexicana (2) 13 (1968), 32–57.MR0263074 ([web](https://www.researchgate.net/publication/268753745_Steenrod_squares_and_higher_Massey_products))
 
-* {#Taulor11} Laurence Taylor, _Massey Triple Products_, Princeton 2011 ([pdf](https://www3.nd.edu/~taylor/talks/2011-03-22-Princeton.pdf))
+* {#Taylor11} Laurence Taylor, _Massey Triple Products_, Princeton 2011 ([pdf](https://www3.nd.edu/~taylor/talks/2011-03-22-Princeton.pdf))
 
 
 
