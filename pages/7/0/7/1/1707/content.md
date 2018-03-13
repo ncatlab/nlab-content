@@ -876,7 +876,7 @@ and specifically with an eye towards cohomology of [[finite groups]]
 
 * [[Michael Atiyah]], _Characters and cohomology of finite groups_, Publications Math&#233;matiques de l'IH&#201;S, 9 (1961), p. 23-64  ([Numdam](http://www.numdam.org/item?id=PMIHES_1961__9__23_0))
 
-*  Alejandro Adem, R.James Milgram, _Cohomology of Finite Groups_, Springer 2004
+*  Alejandro Adem, [[R. James Milgram]], _Cohomology of Finite Groups_, Springer 2004
 
 Exposition includes
 
