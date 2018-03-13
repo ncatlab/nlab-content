@@ -37,7 +37,7 @@ where the sign is chosen for cocyclicity.
  {#RelationToSteenrodSquares}
 
 Let $\omega, \omega_1, \omega_2 \in H^\bullet(X,\mathbb{Z}/2)$ such that their triple Massey product exists. 
-Then the cup product of $\omega$ with the triple Massey product equals the cup product of $\omega_1$ with $\omega_2$ and with the [[Steenrod square]] of $\omega$ of degree $deg(\omega)-1$:
+Then the cup product of $\omega$ with the triple Massey product is independent of the ambiguity in the Massey products and equals the cup product of $\omega_1$ with $\omega_2$ and with the [[Steenrod square]] of $\omega$ of degree $deg(\omega)-1$:
 
 $$
   \omega \cup
