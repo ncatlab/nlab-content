@@ -23,7 +23,7 @@ and feed them into your [[Coq]]. See the README file there for further hints.
 
 A rephrasing of the Coq-proofs given there in terms of ordinary language is given in
 
-* Carlo Angiuli, _Univalence implies function extensionality_ ([blog](http://homotopytypetheory.org/2011/12/05/hott-in-prose/), [pdf](http://hottheory.files.wordpress.com/2011/12/hott1.pdf))
+* Carlo Angiuli, _Univalence implies function extensionality_ ([blog](http://homotopytypetheory.org/2011/12/05/hott-in-prose/), [pdf](http://hottheory.files.wordpress.com/2011/12/hott2.pdf))
 
 
 category: reference
