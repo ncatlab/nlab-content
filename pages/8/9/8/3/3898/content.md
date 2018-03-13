@@ -26,13 +26,17 @@ This in fact ensures that, in general, the [[continuous functions]] between preo
 
 In the category of $T_0$ [[topological spaces]] (see at _[[separation axiom]]_), the [[injective objects]] are precisely those given by Scott topologies on [[continuous lattices]]; as [[locales]] these are [[local compactum|locally compact]] and [[spatial locale|spatial]]. 
 
-## Related concepts
+## Related entries
 
 * [[domain theory]]
 
 * [[specialization topology]]
 
 * [[order topology]]
+
+* [[Scott topos]]
+
+* [[Dana Scott]]
 
 [[!redirects Scott topology]]
 [[!redirects Scott topologies]]
