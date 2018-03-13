@@ -249,6 +249,8 @@ In some cases the passage to the [[Langlands dual group]] in the [[geometric Lan
 
     * [[spherical T-duality]]
 
+  * [[Poisson-Lie T-duality]]
+
   * [[differential T-duality]]
 
   * [[T-duality 2-group]]
@@ -265,9 +267,18 @@ The geometry of the fiber product of two torus fiber bundles with a [[circle 2-b
 
 ## References
 
+The observation of T-duality is attributed to 
+
+* [[Thomas Buscher]], _A symmetry of the string background field equations,
+Phys. Lett. B 194 (1987) 59 (<a href="https://doi.org/10.1016/0370-2693(87)90769-6">doi:10.1016/0370-2693(87)90769-6</a>)
+
+* [[Thomas Buscher]], _Path integral derivation of quantum duality in nonlinear sigma models_, Phys. Lett. B 201 (1988) 466 (<a href="https://doi.org/10.1016/0370-2693(88)90602-8">doi:10.1016/0370-2693(88)90602-8</a>)
+
 Precursors include (according to [Schwarz 96, first paragraph](#Schwarz96)):
 
 * Keiji Kikkawa, Masami Yamasaki, _Casimir effects in superstring theories_, Physics Letters B Volume 149, Issues 4–5, 20 December 1984, Pages 357-360 (<a href="https://doi.org/10.1016/0370-2693(84)90423-4">doi:10.1016/0370-2693(84)90423-4</a>)
+
+
 
 Review includes
 
