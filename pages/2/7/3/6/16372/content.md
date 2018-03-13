@@ -6,7 +6,7 @@
 
 * [[sigma model]], [[supersymmetry]]
 
-* [[T-duality]]
+* [[Poisson-Lie T-duality]], [[T-duality]]
 
 * [[supergravity]]
 
