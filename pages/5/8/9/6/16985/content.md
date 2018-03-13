@@ -27,13 +27,17 @@ While [[topological T-duality]] is meant to be a formalization of the [[T-dualit
 
 On the other hand, a special role is played in the theory by those $SU(2)$-principal bundles which arise as pullbacks of the [[quaternionic Hopf fibration]] along a map from base space to the [[4-sphere]], and this is, at least [[rational homotopy theory|rationally]], just the structure of the [[M2-brane|M2]]/[[M5-brane]] charges ([[schreiber:The WZW term of the M5-brane|Fiorenza-Sati-Schreiber 15]], [[schreiber:Generalized cohomology of M2/M5-branes|Schreiber 15]]). So maybe there is a relation...
 
+## Related concepts
+
+* [[Poisson-Lie T-duality]]
+
 ## References
 
 The idea is due to 
 
 * {#LindSatiWesterland16} [[John Lind]], [[Hisham Sati]], [[Craig Westerland]], _A higher categorical analogue of topological T-duality for sphere bundles_ ([arXiv:1601.06285](http://arxiv.org/abs/1601.06285))
 
-which in the course of considers higher [[Snaith theorem|Snaith spectra]] and higher order [[algebraic K-theory]].
+which in the course considers higher [[Snaith theorem|Snaith spectra]] and higher order [[algebraic K-theory]].
 
 A special case of this general story is discussed in some detail in
 
