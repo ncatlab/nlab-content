@@ -19,6 +19,8 @@ Pavol &#352;evera is a mathematical physicist originally from Bratislava.
 
 [[!include infinity-CS theory for binary non-degenerate invariant polynomial - table]]
 
+* [[Poisson-Lie T-duality]]
+
 
 category: people
 
