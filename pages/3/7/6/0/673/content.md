@@ -47,7 +47,7 @@ Joint with [[nLab:Michael Murray|Michael Murray]], [[nLab:Danny Stevenson|Danny 
 
 * _On the existence of bibundles_, [Proc. London Math. Soc.](https://www.lms.ac.uk/publication/plms) (2012) 105 (6): 1290-1314, doi:[10.1112/plms/pds028](https://doi.org/10.1112/plms/pds028), [arXiv:1102.4388](https://arxiv.org/abs/1102.4388). Joint with [[nLab:Michael Murray|Michael Murray]] and [[nLab:Danny Stevenson|Danny Stevenson]]
 
-* _Internal categories, anafunctors and localisations_, [[Theory and Applications of Categories]], Vol. 26, 2012, No. 29, pp 788-829, [journal version](https://www.tac.mta.ca/tac/volumes/26/29/26-29abs.html), [arXiv:1101.2363](https://arxiv.org/abs/1101.2363)
+* _Internal categories, anafunctors and localisations_, [[Theory and Applications of Categories]], Vol. 26, 2012, No. 29, pp 788-829, [journal version](http://www.tac.mta.ca/tac/volumes/26/29/26-29abs.html), [arXiv:1101.2363](https://arxiv.org/abs/1101.2363)
 
 *  _Fundamental bigroupoids and 2-covering spaces_, PhD thesis, University of Adelaide (2010). [DSpace@Adelaide](https://digital.library.adelaide.edu.au/dspace/handle/2440/62680)
 
