@@ -257,7 +257,7 @@ Further developments are in
 * M. Spera, _On a generalized uncertainty principle, [[coherent state]]s and the moment map_, J. of Geometry and Physics __12__ (1993) 165-182, [MR94m:58097](http://www.ams.org/mathscinet-getitem?mr=1237511), <a href="http://dx.doi.org/10.1016/0393-0440(93)90032-A">doi</a>
 
 
-* Ctirad Klim&#269;&#237;k, [[Pavol ?evera]], _[[T-duality]] and the moment map_, IHES/P/96/70, [hep-th/9610198](http://arxiv.org/abs/hep-th/9610198); _Poisson-Lie T-duality: open strings and D-branes_, CERN-TH/95-339. Phys.Lett. B376 (1996) 82-89, [hep-th/9512124](http://arxiv.org/abs/hep-th/9512124)
+* [[Ctirad Klimcik]], [[Pavol Severa]], _[[T-duality]] and the moment map_, IHES/P/96/70, [hep-th/9610198](http://arxiv.org/abs/hep-th/9610198); _Poisson-Lie T-duality: open strings and D-branes_, CERN-TH/95-339. Phys.Lett. B376 (1996) 82-89, [hep-th/9512124](http://arxiv.org/abs/hep-th/9512124)
 
 * A. Cannas da Silva, [[Alan Weinstein]], _Geometric models for noncommutative algebras_, Berkeley Math. Lec. Notes Series, AMS 1999, ([pdf](http://math.berkeley.edu/%7Ealanw/Models.pdf))
 
