@@ -52,6 +52,12 @@ For $n = 3$ this is due to ([Stasheff](#Stasheff)). For general $n$  this appear
 
 * {#Kochmann96} [[Stanley Kochmann]], section 5.4 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
+* {#Milgram68} [[R. James Milgram]], _Steenrod squares and higher Massey products_, Bol. Soc. Mat. Mexicana (2) 13 (1968), 32–57.MR0263074 ([web](https://www.researchgate.net/publication/268753745_Steenrod_squares_and_higher_Massey_products))
+
+* {#Taulor11} Laurence Taylor, _Massey Triple Products_, Princeton 2011 ([pdf](https://www3.nd.edu/~taylor/talks/2011-03-22-Princeton.pdf))
+
+
+
 See also 
 
 * Wikipedia, _[Massey product](https://en.wikipedia.org/wiki/Massey_product)_
