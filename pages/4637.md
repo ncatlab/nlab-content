@@ -590,7 +590,7 @@ Isbell conjugacy for [[(∞,1)-presheaves]] over the [[(∞,1)-category]] of dua
 
 in 
 
-* [[nLab:Bertrand Toën]], _Champs affine_ ([arXiv:math/0012219](http://arxiv.org/abs/math/0012219))
+* [[nLab:Bertrand Toën]], _Champs affines_ ([arXiv:math/0012219](http://arxiv.org/abs/math/0012219))
 {#Toen}
 
 Isbell self-dual [[∞-stack]]s over duals of commutative [[associative algebra]]s are called _affine stacks_ . They are characterized as those objects that are _small_ in a sense and local with respect to the [[cohomology]] with coefficients in the canonical [[line object]].
