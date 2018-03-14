@@ -45,7 +45,7 @@ for the [[free construction|free]] graded-commutative algebra on the graded vect
 
 Here the elements in the $n$th term in parenthesis are in degree $n$.
 
-A plain vector space, such as the dual $\mathfrak{g}^*$ of the vector space underlying a Lie algebra, we regard here as a $\mathbb{N}$-graded vector space in degree 0. For such, $\wedge^\bullet \mathfrak{g}^*$ is the ordinary [[Grassmann algebra]] over $\mathfrak{g}^*$, where elements of $\mathfrak{g}^*$ are generators of degree 1.
+A plain vector space, such as the dual $\mathfrak{g}^*$ of the vector space underlying a Lie algebra, we regard her as a $\mathbb{N}$-graded vector space in degree 0. For such, $\wedge^\bullet \mathfrak{g}^*$ is the ordinary [[Grassmann algebra]] over $\mathfrak{g}^*$, where elements of $\mathfrak{g}^*$ are generators of degree 1.
 
 
 
