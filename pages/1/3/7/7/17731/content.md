@@ -1351,7 +1351,7 @@ $$
   \mathfrak{Iso}(\mathbb{R}^{d-1,1|N})
 $$
 
-equivalently in terms of its [[Chevalley-Eilenberg algebra]]: $CE(\mathfrak{Iso}(\mathbb{R}^{d-1,1|N}))$ (a $\mathbb{N} \times \mathbb{Z/2}$-bigraded [[dg-algebra]], see at _[[signs in supergeometry]]_). 
+equivalently in terms of its [[Chevalley-Eilenberg algebra]]: $CE(\mathfrak{Iso}(\mathbb{R}^{d-1,1|N}))$ (a $\mathbb{N} \times \mathbb{Z}/2$-bigraded [[dg-algebra]], see at _[[signs in supergeometry]]_). 
 
 This is generated on 
 
