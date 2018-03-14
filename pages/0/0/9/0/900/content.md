@@ -55,6 +55,18 @@ This definition is perhaps more intuitive in the dual case of [[ind-object|ind-o
 Another, equivalent, definition is to let $pro$-$C$ be the [[full subcategory]] of the [[opposite category|opposite]] [[functor category]]/[[category of presheaves|presheaf category]] $[C,Set]^{op}$ determined by those functors which are cofiltered limits of [[representable functor|representables]]. This is reasonable since the [[presheaf category|copresheaf category]] $[C,Set]^{op}$ is the [[free completion]] of $C$, so $pro$-$C$ is the "free completion of $C$ under cofiltered limits." See also at
 [[pro-representable functor]].
 
+The equivalence with the previous definition is seen as follows. To a functor $F: I \to C$, compose with the [[co-Yoneda embedding|Yoneda lemma]] $C \to [C,Set]^{op}$ to obtain a functor $\tilde F: I \to [C, Set]^{op}$, and then take $|F| = lim \tilde F \in [C,Set]^\mathrm{op}$. Explicitly, $|F|(c) = colim \tilde F^{op}$. This yields a functor $Pro(C) \to [C,Set]^{op}$, and its essential image manifestly consists of the functors which are cofiltered limits of the duals of representables. To see that this functor is fully faithful, we compute, for $F: I \to C$ and $G: J \to C$:
+
+$ Hom(|F|,|G|) = Nat(colim \tilde G^\mathrm{op}, colim \tilde F^\mathrm{op})$
+
+$= lim_{J^{op}} Nat(\tilde G^\mathrm{op}, colim \tilde F^\mathrm{op})$
+
+$= lim_{J^{op}} colim_{I^\mathrm{op}} Nat(\tilde G^\mathrm{op}, \tilde F^\mathrm{op})$
+
+$= lim_{J^{op}}colim_{I^\mathrm{op}} Hom_\mathcal{C}(F,G)$
+
+as in $Pro(C)$. Here we have used the definition of a colimit, the fact that representables are [[compact objects]] (this follows from the fact that colimits are computed "levelwise" in a functor category), and the Yoneda lemma.
+
 ### As formal duals of ind-objects
 
 +-- {: .num_remarl #ProObjectAsFormalDualOfIndObject}
