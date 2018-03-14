@@ -113,7 +113,7 @@ A [[Grothendieck topos]] $\mathcal{E}$ is [[exponentiable topos|exponentiable]] 
 
 =--
 
-This result is due to Johnstone-Joyal ([1982](#JJ82), p.257) and occurs as theorem 4.3.1 of Johnstone ([2002, vol.1 p.433](#J02)).
+This result is due to Johnstone-Joyal ([1982, p.257](#JJ82)) and occurs as theorem 4.3.1 of Johnstone ([2002, vol.1 p.433](#J02)).
 
 
 ## The pointed object classifier
