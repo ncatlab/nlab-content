@@ -100,7 +100,15 @@ $$
 The resulting [[short exact sequence]] is the real [[exponential exact sequence]]
 
 $$
-  0 \to \mathbb{Z} \longrightarrow \mathbb{R} \stackrel{\exp(\tfrac{i}{\hbar}(-))}{\longrightarrow} U(1) \to 0
+  0 
+   \to 
+  \mathbb{Z} 
+    \longrightarrow 
+  \mathbb{R} 
+    \stackrel{\exp\left(\tfrac{i}{\hbar}(-)\right)}{\longrightarrow} 
+  U(1) 
+    \to 
+  0
   \,.
 $$
 
