@@ -17,7 +17,7 @@ Let $X$ be a [[measurable space]] (so $X$ consists of a [[set]] ${|X|}$ and a $\
 +-- {: .un_defn}
 ###### Definition
 The function $f$ is a __Radon--Nikodym derivative__ of $\mu$ with respect to $\nu$ if, given any [[measurable subset]] $A$ of $X$, the $\mu$-measure of $A$ equals the integral of $f$ on $A$ with respect to $\nu$:
-$$ \mu(A) = \int_A f \nu = \int_{x \in A} f(x) \nu(\mathrm{d}x) .$$
+$$ \mu(A) = \int_A f \nu = \int_{x \in A} f(x) \mathrm{d}\nu(x) .$$
 (The latter two expressions in this equation are different notations for the same thing.)
 =--
 
