@@ -29,16 +29,30 @@ An **exponentiable topos** is a generalization of the notion of an exponentiable
 
 +-- {: .num_defn}
 ###### Definition
-A [[Grothendieck topos]] $\mathcal{E}$ is called _exponentiable_ (in the [[2-category]] of Grothendieck toposes) if the 2-functor ${}_{-}\times\mathcal{E}$ has a right 2-adjoint $(_{-})^\mathcal{E}$.
+A [[Grothendieck topos]] $\mathcal{E}$ is called _exponentiable_ (in the [[2-category]] of Grothendieck toposes $GrTop$) if the 2-functor ${}_{-}\times\mathcal{E}$ has a right 2-adjoint $(_{-})^\mathcal{E}$.
 =--
 
-### Remark
+## Remarks
 
-The concept generalizes to [[higher topos theory]] (cf. [Anel-Lejay 2018](#AJ18), [Lurie 2018](#Lurie18)).
+* More concretely, $\mathcal{E}$ is exponentiable if there exists a functor $(_{-})^\mathcal{E}$ such that for all toposes $\mathcal{F},\mathcal{G}$ $Hom(\mathcal{F}\times\mathcal{E},\mathcal{G})$ is (naturally) equivalent as a category to $Hom(\mathcal{F},\mathcal{G}^\mathcal{E})$.
+
+* The concept generalizes to [[higher topos theory]] (cf. [Anel-Lejay 2018](#AJ18), [Lurie 2018](#Lurie18)).
 
 ## Properties
 
-The following theorem generalizes a result of [[Martin Hyland]] ([1981](#Hyland81)) on exponentiable locales to Grothendieck toposes.
+Interestingly, in the category of locales exponentiability of a locale $X$ hinges on the existence of the single exponential $S^X$ where $S$ is the [[Sierpinski space]]: $Y^X$ exists for all $Y$ iff $S^X$ exists.
+
+In $GrTop$ the object classifier $\mathcal{S}[\mathbb{O}]$ takes over the role of the Sierpinski space and we have the following
+
++-- {: .num_prop}
+###### Proposition
+A [[Grothendieck topos]] $\mathcal{E}$ is exponentiable iff the exponential $\mathcal{S}[\mathbb{O}]^\mathcal{E}$ exists.
+
+=--
+
+This result is due to Johnstone-Joyal ([1982](#JJ82), p.257) and occurs as theorem 4.3.1 of Johnstone ([2002, vol.1 p.433](#J02)).
+
+The following theorem pursues this analogy and generalizes a result of [[Martin Hyland]] on locales ([1981](#Hyland81)).
 
 +-- {: .num_prop}
 ###### Theorem
@@ -54,6 +68,16 @@ This result is due to Johnstone-Joyal ([1982](#JJ82)) and occurs as theorem 4.4.
 * Since [[locally finitely presentable categories]] are [[continuous category|continuous]] and [[coherent topos|coherent toposes]] are locally finitely presentable (cf. Johnstone ([2002, p.915](#J02))) it follows that _coherent toposes are exponentiable_. This can be viewed as an avatar of the fact that (locally) compact topological spaces behave well with respect to mapping spaces.
 
 * By the same reasoning all functor categories $Set^{\mathcal{C}}$ for  $\mathcal{C}$ a [[small category]] are exponentiable since they are [[locally finitely presentable category|locally finitely presentable]]. This includes in particular all [[presheaf toposes]] on small categories.
+
+## Ramifications
+
+The notion of a [[tiny object]] in a cartesian closed category suggests the following
+
++-- {: .num_defn}
+###### Definition
+An exponentiable Grothendieck topos $\mathcal{E}$ is called _tiny_ (or _infinitesimal_) if the 2-functor $(_{-})^\mathcal{E}$ has a right 2-adjoint $(_{-})_\mathcal{E}$.
+=--
+
 
 ## Related entries
 
