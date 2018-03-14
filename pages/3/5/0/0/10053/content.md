@@ -50,6 +50,9 @@ World Scientific, Singapore, 2009.
 
 * Magnen, Rivasseau, Seneor, _Construction of YM4 with an infrared cutoff_ ([CMP] (https://projecteuclid.org/euclid.cmp/1104253284)) 
 
+Discussion of the problem of [[quantization of Yang-Mills theory]] from the point of view of constructive field theory is in 
+
+* Sourav Chatterjee, _Yang-Mills for probabilists_ ([arXiv:1803.01950](https://arxiv.org/abs/1803.01950))
 
 [[!redirects constructive QFT]]
 [[!redirects constructive field theory]]
