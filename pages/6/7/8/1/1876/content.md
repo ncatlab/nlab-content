@@ -45,6 +45,8 @@ Any comonad on $A$ induces an augmented [[simplicial object|simplicial]] [[endof
 
 * [[writer comonad]]
 
+* [[store comonad]]
+
 * [[flat modality]], [[infinitesimal flat modality]], [[reduction modality]], [[bosonic modality]]
 
 * [[jet comonad]]
