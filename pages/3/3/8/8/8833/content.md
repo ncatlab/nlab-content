@@ -51,6 +51,8 @@ $$
 
 ([Taylor 11, slide 10](#Taylor11), following [Milgram 68](#Milgram68))
 
+
+
 ### Relation to $A_\infty$-algebra
 
 For $A$ a [[dg-algebra]], its [[chain homology]] $H_\bullet(A)$ inherits an [[A-infinity algebra]] structure by [[Kadeishvili's theorem]]. Then for every $n \in \mathbb{N}$ the $n$-ary $A_\infty$-product on elements $ (a_1, \cdots, a_n) \in H_\bullet(A)^n$ is given, up to a sign, by the Massey product $\langle a_1, \cdots, a_n\rangle$. 
@@ -70,13 +72,15 @@ For $n = 3$ this is due to ([Stasheff](#Stasheff)). For general $n$  this appear
 
 ### General
 
+* {#Kraines66} [[David Kraines]], _Massey higher products_,  Transactions of the American Mathematical Society Vol. 124, No. 3 (Sep., 1966), pp. 431-449 ([jstor](http://www.jstor.org/stable/1994385 ))
+
 * Edward J. O'Neill, _On Massey products_,  Pacific J. Math. Volume 76, Number 1 (1978), 123-127. ([EUCLID](http://projecteuclid.org/euclid.pjm/1102807031))
 
 * {#Kochmann96} [[Stanley Kochmann]], section 5.4 of _[[Bordism, Stable Homotopy and Adams Spectral Sequences]]_, AMS 1996
 
 * {#Milgram68} [[R. James Milgram]], _Steenrod squares and higher Massey products_, Bol. Soc. Mat. Mexicana (2) 13 (1968), 32–57.MR0263074 ([web](https://www.researchgate.net/publication/268753745_Steenrod_squares_and_higher_Massey_products))
 
-* {#Taylor11} Laurence Taylor, _Massey Triple Products_, Princeton 2011 ([pdf](https://www3.nd.edu/~taylor/talks/2011-03-22-Princeton.pdf))
+* {#Taylor11} [[Laurence Taylor]], _Massey Triple Products_, Princeton 2011 ([pdf](https://www3.nd.edu/~taylor/talks/2011-03-22-Princeton.pdf))
 
 
 
@@ -89,13 +93,13 @@ See also
 
 The relation of Massey products to [[A-infinity algebra]] structures is in Chapter 12 of
 
-* [[Jim Stasheff]], _H-spaces from a homotopy point of view_
- {#Stasheff}
+* {#Stasheff} [[Jim Stasheff]], _H-spaces from a homotopy point of view_
+ 
 
 for $n = 3$, and for general $n$ in Theorem 3.1 and Corollary A.5 of 
 
-* D.-M. Lu, J. H. Palmieri, Q.-S. Wu, J. J. Zhang, _$A_\infty$-structures in Ext algebras_, J. Pure Appl. Alg. 213 (2009), 2017--2037 (Theorem 3.1 and Corollary A.5) ([arXiv:math/0606144](http://arxiv.org/abs/math/0606144))
- {#LPWZ}
+* {#LPWZ} D.-M. Lu, J. H. Palmieri, Q.-S. Wu, J. J. Zhang, _$A_\infty$-structures in Ext algebras_, J. Pure Appl. Alg. 213 (2009), 2017--2037 (Theorem 3.1 and Corollary A.5) ([arXiv:math/0606144](http://arxiv.org/abs/math/0606144))
+ 
 
 as well as from item 1.4 on in 
 
@@ -103,8 +107,8 @@ as well as from item 1.4 on in
 
 and sections 9.4.10 to 9.4.12 of 
 
-* [[Bruno Valette]], [[Jean-Louis Loday]], _Algebraic Operads_ ([pdf](http://math.unice.fr/~brunov/Operads.pdf))
- {#ValetteLoday}
+* {#ValetteLoday} [[Bruno Valette]], [[Jean-Louis Loday]], _Algebraic Operads_ ([pdf](http://math.unice.fr/~brunov/Operads.pdf))
+ 
 
 Notice that the definition of Massey product on top of p.282 of [Valette-Loday](#ValetteLoday), $\langle x,y,z\rangle$ depends on choices of $a,b$ which don't appear in the notation. Then lemma 9.4.11 talks about a particular choice of $a,b$ which is made in the body of the proof. The actual statement of the lemma only can be deduced after reading the proof. It then says that for these particular choices of a,b the said equality holds. (See [this MO discussion](http://mathoverflow.net/questions/92315/massey-products-vs-a-infty-structures)).
 
