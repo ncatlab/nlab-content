@@ -4,10 +4,10 @@
 | reduction from 11d | [[electric charge|electric]] [[∞-model]] | weak/strong coupling duality   |  [[magnetic charge|magnetic]] [[∞-model]]  |
 |--|-----|------|-----|
 | | [[M2-brane]]  in [[11-dimensional supergravity|11d sugra]] [[effective field theory|EFT]]    |  $\leftarrow$[[electric-magnetic duality]]$\rightarrow$   | [[M5-brane]] in  [[11-dimensional supergravity|11d sugra]]  [[effective field theory|EFT]]  |
-| [[Ho?ava-Witten theory|HW reduction]]  |  | | |
+| [[Horava-Witten theory|HW reduction]]  |  | | |
 | | $\downarrow$ on [[orientifold]] [[K3]]$\times S^1//\mathbb{Z}_2$ |  | $\downarrow$ on [[orientifold]] [[K3]]$\times S^1//\mathbb{Z}_2$ |
 |  | [[F1-brane]] in [[heterotic supergravity]] | $\leftarrow$[[S-duality]]$\rightarrow$ | [[black string]] in [[heterotic supergravity|heterotic sugra]] |
-| [[Ho?ava-Witten theory|HW reduction]]  |  | | |
+| [[Horava-Witten theory|HW reduction]]  |  | | |
 | | $\downarrow$ on [[orientifold]] [[torus|T4]]$ \times S^1//\mathbb{Z}_2$ | | $\downarrow$ on [[orientifold]] [[torus|T4]]$ \times S^1//\mathbb{Z}_2$ |
 | | [[F1-brane]] in [[heterotic supergravity]] | $\leftarrow$[[S-duality]]$\rightarrow$ | [[black string]] in [[type IIA supergravity|type IIA sugra]] |
 | [[Kaluza-Klein mechanism|KK reduction]]  |  | | |
