@@ -47,9 +47,13 @@ It depends on the choices made only up to sign. In particular it has a well-defi
 $$
   [h(\phi)] \cdot (-)
     \;\colon\; 
+  \mathbb{F}_2
+    \simeq
   H^n(cofib(\phi), \mathbb{F}_2) 
    \stackrel{Sq^n}{\longrightarrow}
   H^{2n}(cofib(\phi), \mathbb{F}_2) 
+   \simeq
+  \mathbb{F}_2
   \,.
 $$
 
