@@ -144,7 +144,7 @@ The form of [[shape theory]] developed by  Marde&#353;i&#263; and Segal, at abou
 * {#Isaksen02} [[Dan Isaksen]], _Calculating limits and colimits in pro-categories_, Fund. Math. 175 (2002),
 
 
-* [[S. Marde?i?]], J. Segal, _Shape theory_, North Holland 1982
+* [[Sibe Mardesic|S. Marde&#353;i&#263;]], J. Segal, _Shape theory_, North Holland 1982
 
 * [[Jean-Louis Verdier]], _Equivalence essentielle des syst&#232;mes projectifs_, C. R.A.S. Paris261 (1965), 4950 - 4953.
 
