@@ -132,7 +132,7 @@ And it seems that this is the same term later also redicovered around equation (
 
 ### BPS states
 
-The basic [[BPS spates]] of 11d SuGra are
+The basic [[BPS states]] of 11d SuGra are
 
 * the [[M2-brane]]
 
