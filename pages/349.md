@@ -32,7 +32,7 @@ A **Grothendieck topology** $J$ on a [[category]] $C$ is an assignment to each o
 
 1. If $F$ is a [[sieve]] that covers $c$ and $g: d \to c$ is any morphism, then the pullback sieve $g^* F$ covers $d$. 
 
-1. The maximal [[sieve]] $id: \hom(-, c) \hookrightarrow \hom(-, c)$ is always a covering sieve; 
+1. The [[maximal sieve]] $id: \hom(-, c) \hookrightarrow \hom(-, c)$ is always a covering sieve; 
 
 1. Two [[sieve|sieves]] $F, G$ of $c$ cover $c$ if and only if their intersection $F \cap G$ covers $c$. (Here the saturation condition is important.) 
 
