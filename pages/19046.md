@@ -105,7 +105,7 @@ An exponentiable Grothendieck topos $\mathcal{E}$ is called _tiny_ (or _infinite
 
 * {#JJ82}[[Peter Johnstone]], [[André Joyal]], _Continuous categories and exponentiable toposes_ ,  JPAA **25** (1982) pp.255-296.
 
-* {#J02}[[Peter Johnstone]], _Sketches of Elephant vols. 1&2_ , CUP 2002. (sections B4.3 pp.432-438, C4.4 pp.745-754)
+* {#J02}[[Peter Johnstone]], _Sketches of an Elephant vols. 1&2_ , CUP 2002. (sections B4.3 pp.432-438, C4.4 pp.745-754)
 
 * {#Lurie18}[[Jacob Lurie]], _Spectral Algebraic Geometry_ , ms. Harvard University 2018. (section 21.1.6)
 
