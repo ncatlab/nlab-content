@@ -29,7 +29,7 @@ An **injective topos** is a topos-theoretic generalization of the notion of an [
 
 +-- {: .num_defn}
 ###### Definition
-A [[Grothendieck topos]] $\mathcal{E}$ is called _injective_ (with respect to subtopos incusions in the [[2-category]] of Grothendieck toposes $GrTop$) if for every inlusion $i:\mathcal{F}\hookrightarrow\mathcal{G} and 1-cell $f:\mathcal{F}\to\mathcal{E}$ there exists a 1-cell $g:\mathcal{E}\to\mathcal{G}$ and a 2-isomorphism $gm\cong f$ .
+A [[Grothendieck topos]] $\mathcal{E}$ is called _injective_ (with respect to subtopos inclusions) in the [[2-category]] of Grothendieck toposes $GrTop$ if for every inclusion $i:\mathcal{F}\hookrightarrow\mathcal{G}$ and 1-cell $f:\mathcal{F}\to\mathcal{E}$ there exists a 1-cell $g:\mathcal{E}\to\mathcal{G}$ and a 2-isomorphism $g\circ i\cong f$ .
 =--
 
 ## Properties
