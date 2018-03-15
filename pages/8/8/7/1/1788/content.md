@@ -1,5 +1,28 @@
 
 $$
+  \array{
+    S^7 &\longrightarrow& \ast
+    \\
+    \downarrow &\swArrow& \downarrow
+    \\
+    S^4 &\longrightarrow& hocofib( \phi )
+    \\
+    \downarrow &\swArrow& \downarrow
+    \\
+    \ast &\longrightarrow& B^8 \mathbb{Z} 
+  }
+$$
+
+$\,$
+
+
+$\,$
+
+
+$\,$
+
+
+$$
   0
     \to
   \mathbb{Z}
