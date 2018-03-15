@@ -40,7 +40,7 @@ $$
   \,.
 $$
 
-This is the same mechanism by which the [[String Lie 2-algebra]] is a shifted central extensiono of $\mathfrak{so}(n)$.
+This is the same mechanism by which the [[String Lie 2-algebra]] is a shifted central extension of $\mathfrak{so}(n)$.
 
 ## Properties
 
@@ -108,7 +108,7 @@ $$
   \,.
 $$
 
-Compare this to the characterization of $\mathfrak{sugra}(10,1)$ as the as the [[homotopy fiber]] of $\mu_4$, hence as the _universal_ solution to this situation
+Compare this to the characterization of $\mathfrak{sugra}(10,1)$ as the [[homotopy fiber]] of $\mu_4$, hence as the _universal_ solution to this situation
 
 $$
   \array{
