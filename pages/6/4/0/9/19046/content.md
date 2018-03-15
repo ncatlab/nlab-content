@@ -50,7 +50,7 @@ A [[Grothendieck topos]] $\mathcal{E}$ is exponentiable iff the exponential $\ma
 
 =--
 
-This result is due to Johnstone-Joyal ([1982](#JJ82), p.257) and occurs as theorem 4.3.1 of Johnstone ([2002, vol.1 p.433](#J02)).
+This result is due to Johnstone-Joyal ([1982](#JJ82), p.282) and occurs as theorem 4.3.1 of Johnstone ([2002, vol.1 p.433](#J02)).
 
 The following theorem pursues this analogy and generalizes a result of [[Martin Hyland]] on locales ([1981](#Hyland81)).
 
