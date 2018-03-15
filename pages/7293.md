@@ -316,7 +316,7 @@ $$
     Sq^{2n+1}_{\mathbb{Z}}
     &\colon&
     B^{\bullet + 2n} (\mathbb{Z}/2\mathbb{Z})
-      &\overset{Sk^{2n}}{\longrightarrow}&      
+      &\overset{Sq^{2n}}{\longrightarrow}&      
     B^{\bullet + 2n} (\mathbb{Z}/2\mathbb{Z})
       &\overset{ \beta }{\longrightarrow}&
     B^{\bullet + 2n + 1} \mathbb{Z}
@@ -331,7 +331,7 @@ $$
     Sq^{2n+1}
     &\colon&
     B^{\bullet + 2n} (\mathbb{Z}/2\mathbb{Z})
-      &\underset{Sk^{2n}}{\longrightarrow}&   
+      &\underset{Sq^{2n}}{\longrightarrow}&   
     B^{\bullet + 2n} (\mathbb{Z}/2\mathbb{Z})
        &\underset{  Sq^1 }{\longrightarrow}&
     B^{\bullet + 2n + 1} (\mathbb{Z}/2\mathbb{Z})
