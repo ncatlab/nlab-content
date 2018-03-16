@@ -17,6 +17,7 @@
 =--
 =--
 
+
 This page collects links related to 
 
 * {#Moore14} [[Gregory Moore]]
@@ -25,7 +26,7 @@ This page collects links related to
 
   talk at [Strings 2014](http://physics.princeton.edu/strings2014/)
 
-  ([talk slides](http://physics.princeton.edu/strings2014/slides/Moore.pdf), [companion text pdf](http://www.physics.rutgers.edu/~gmoore/PhysicalMathematicsAndFuture.pdf))
+  ([talk slides](http://physics.princeton.edu/strings2014/slides/Moore.pdf), [companion text pdf](http://www.physics.rutgers.edu/~gmoore/PhysicalMathematicsAndFuture.pdf), [[MooreVisionTalk2014.pdf:file]])
 
 on the [[mathematical physics]] of [[string theory]].
 
