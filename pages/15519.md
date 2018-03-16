@@ -38,7 +38,7 @@ A [[Grothendieck topos]] $\mathcal{E}$ is called _injective_ (with respect to su
 
 ## Example
 
-...
+ * $Set$ is the only injective [[Boolean topos]] (cf [Johnstone 2002](#JT02), p.740).
 
 ## Related entries
 
@@ -54,6 +54,6 @@ A [[Grothendieck topos]] $\mathcal{E}$ is called _injective_ (with respect to su
 
 * [[Peter Johnstone]], _Injective Toposes_ , pp.284-297 in LNM **871** Springer Heidelberg 1981.
 
-* [[Peter Johnstone]], _Sketches of an Elephant vol. 2_ , Cambridge UP 2002. (section C4.3, pp.738-745)
+* {#JT02}[[Peter Johnstone]], _Sketches of an Elephant vol. 2_ , Cambridge UP 2002. (section C4.3, pp.738-745)
 
 * {#JJ82}[[Peter Johnstone]], [[André Joyal]], _Continuous categories and exponentiable toposes_ ,  JPAA **25** (1982) pp.255-296.
