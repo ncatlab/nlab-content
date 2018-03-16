@@ -76,7 +76,7 @@ Now
 
 * $h^0$, $h^1$, $h^4$ are [[isomorphisms]]
 
-* $h^3$ is an isomorphism is $X$ is "odd" in that it contains at least one closed oriented [[surface]] of odd self-intersection, otherwise $h^3$ becomes an isomorphism on a $\mathbb{Z}/2$-[[quotient group]] of $\pi^3(X)$ (which is a group via the [[cogroup]]-[[structure]] of the [[3-sphere]])
+* $h^3$ is an isomorphism is $X$ is "odd" in that it contains at least one closed oriented [[surface]] of odd self-intersection, otherwise $h^3$ becomes an isomorphism on a $\mathbb{Z}/2$-[[quotient group]] of $\pi^3(X)$ (which is a group via the [[group]]-[[structure]] of the [[3-sphere]] ([[special unitary group|SU(2)]]))
 
 ([Kirby-Melvin-Teichner 12](#KirbyMelvinTeichner12))
 
