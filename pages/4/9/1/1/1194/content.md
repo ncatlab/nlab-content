@@ -638,6 +638,8 @@ Computational Reality_ ([[ConstableTriumphOfTypes.pdf:file]])
 
   _Categorical Type Theory_ PhD. Thesis, University of Nijmegen (1991) ([ps](http://www.cs.ru.nl/B.Jacobs/PAPERS/PhD.ps) [[JacobsCategoricalTypeTheory.pdf:file]])
 
+* {#Bauer17} [[Andrej Bauer]], _Spartan Type Theory_, UniMath School, 2017 ([pdf](http://math.andrej.com/wp-content/uploads/2017/12/Spartan-Type-Theory.pdf))
+
 * wikipedia: _[type theory](http://en.wikipedia.org/wiki/Type_theory)_, _[intuitionistic type theory](http://en.wikipedia.org/wiki/Intuitionistic_type_theory)_, [typed lambda calculus](http://en.wikipedia.org/wiki/Typed_lambda_calculus), [Curry-Howard correspondence](http://en.wikipedia.org/wiki/Curry%E2%80%93Howard_correspondence), [Per Martin-L&#246;f](http://en.wikipedia.org/wiki/Per_Martin-L&#246;f)
 
 Textbook accounts in from the point of view of [[programming languages]] include
