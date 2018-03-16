@@ -29,13 +29,15 @@ A topos $\mathcal{E}$ is called _scattered_ if every [[closed subtopos]] of $\ma
 
 Every [[Boolean topos]] $\mathcal{E}$ is $\bot$-scattered since it obviously coincides with $Sh_{\neg\neg}(\mathcal{E})$ and is [[open subtopos|open]] in itself (and [[closed subtopos|closed]] as well). Accordingly, $\mathcal{E}$ is scattered since subtoposes of Boolean toposes are Boolean.
 
-A simple example of a non-Boolean scattered topos is the [[Sierpinski topos]] $Set^\rightarrow$ that consists of two copies of $Set$ [[Artin gluing|glued]] together such that one copy corresponding to $Sh_{\neg\neg}(Set^\rightarrow)$ is open and the other one is closed. Since $Set^\rightarrow$ and the closed copy of $Set$ are both $\bot$-scattered the claim follows.
+A simple example of a non-Boolean scattered topos is the [[Sierpinski topos]] $Set^\rightarrow$ that consists of two copies of $Set$ [[Artin gluing|glued]] together such that one copy corresponding to $Sh_{\neg\neg}(Set^\rightarrow)$ is open and the other one is closed. Since $Set^\rightarrow$ and the closed copy of $Set$ are both $\bot$-scattered the claim follows. (For another simple example see at [[hypergraph]].)
 
 ##Properties
 
-* That the Sierpinski-topos is $\bot$-scattered is an instance of the more general fact that _the topos $Sh(X)$ of sheaves on a $T_0$-space $X$ is $\bot$-scattered_ iff _open points are dense in $X$_ .[^ref] 
+* That the Sierpinski-topos is $\bot$-scattered is an instance of the more general fact that _the topos $Sh(X)$ of sheaves on a $T_0$-space $X$ is $\bot$-scattered_ iff _open points are dense in $X$_ (cf. [Esakia-Jibladze-Pataraia 2000](#EJP00), p.101).
 
-[^ref]: cf. Esakia-Jibladze-Pataraia ([2000](#EJP00), p.101).
+* A topos is scattered iff the (internal) Heyting algebra of [[Lawvere-Tierney topologies]] is Boolean (cf. [Esakia-Jibladze-Pataraia 2000](#EJP00), p.103). Since Boolean algebras are precisely the Heyting algebras where every element is complemented this says that a topos where all subtoposes are complemented is scattered.
+
+* A spatial topos $Sh(X)$ is scattered iff every non degenerate subtopos has a [[point of a topos|point]] (cf. [Esakia-Jibladze-Pataraia 2000](#EJP00), p.103). 
 
 ##Related entries
 
