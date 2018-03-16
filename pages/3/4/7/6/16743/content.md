@@ -36,7 +36,7 @@ A topos $\mathcal{E}$ is called a __De Morgan topos__ if its [[subobject classif
 
 * A simple example of a topos that is De Morgan but not Boolean is the [[Sierpinski topos]] $Set^{\to}$ the [[arrow category]] of $Set$: the diagram category $\to$ is easily seen to satify the [[Ore condition]] (cf. [below](#presheaf-deMorgan)).
 
-* The topos $Sh(X)$ of sheaves on a topological space $X$ is De Morgan precisely iff $X$ is extremally disconnected, i.e. the closure of every open subset is open. (Since $Set^{\to}$ is equivalently the topos of sheaves on [[Sierpinski space]] it instantiates this case as well.)
+* The topos $Sh(X)$ of sheaves on a topological space $X$ is De Morgan precisely iff $X$ is [[extremally disconnected topological space|extremally disconnected]], i.e. the closure of every open subset is open. (Since $Set^{\to}$ is equivalently the topos of sheaves on [[Sierpinski space]] it instantiates this case as well.)
 
 * [[injective topos|Injective Grothendieck toposes]] are De Morgan (cf. [Johnstone 2002, p.739](#Johnstone)).
 
