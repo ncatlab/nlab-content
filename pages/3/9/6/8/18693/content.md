@@ -75,7 +75,7 @@ For $X \in \mathbf{H}$ any object, we write $[X,\mathbb{R}]$ for the [[mapping s
 $$
   [X,\mathbb{R}]_{\mathbb{R}}
   \hookrightarrow
-  [[X,\mathbb{R}], \mathbb{R}]
+  [X,\mathbb{R}]
 $$
 
 for the [[subobject]] of $\mathbb{R}$-linear maps. 
