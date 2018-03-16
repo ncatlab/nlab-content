@@ -352,4 +352,8 @@ A relative version of Freyd's classical results is in
 
 * [[Brian Day]], *An adjoint-functor theorem over topoi*, Bull. Austral. Math. Soc. **15** (1976), pp. 381-394.
 
+Adjoint functor theorems for [[indexed categories]] are discussed in
+
+* [[Robert Paré]], Dietmar Schumacher, _Abstract Families and the Adjoint Functor Theorems_ , pp.1-125 in LNM **661** Springer Heidelberg 1978.
+
 [[!redirects adjoint functor theorems]]
