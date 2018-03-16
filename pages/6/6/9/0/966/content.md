@@ -310,7 +310,7 @@ $$
 
 * [[adjoint (∞,1)-functor theorem]]
 
-
+* [[adjoint triangle theorem]]
 
 ## References
 
@@ -342,17 +342,17 @@ The adjoint functor theorem in context with [[Yoneda embedding]] is discussed in
 
 The case for [[locally presentable categories]] is discussed in
 
-* [[Jirí Adámek]], [[Jiri Rosicky]], *[[Locally presentable and accessible categories]]*, Cambridge UP, 1994.
+* [[Jiří Adámek]], [[Jiri Rosicky]], *[[Locally presentable and accessible categories]]*, Cambridge UP, 1994.
   {#AdamekRosicky}
 
-* [[Jirí Adámek]], V. Koubek and V. Trnkov&#225;, *How large are left exact functors?*, Theory and Applications of Categories **8** (2001), pp. 377-390. ([abstract](http://www.emis.de/journals/TAC/volumes/8/n13/8-13abs.html))
+* [[Jiří Adámek]], V. Koubek and V. Trnkov&#225;, *How large are left exact functors?*, Theory and Applications of Categories **8** (2001), pp. 377-390. ([abstract](http://www.emis.de/journals/TAC/volumes/8/n13/8-13abs.html))
  {#AdamekKoubekTrnkova}
 
 A relative version of Freyd's classical results is in
 
 * [[Brian Day]], *An adjoint-functor theorem over topoi*, Bull. Austral. Math. Soc. **15** (1976), pp. 381-394.
 
-Adjoint functor theorems for [[indexed categories]] are discussed in
+[[indexed adjoint functor theorem|Adjoint functor theorems for indexed categories]] are discussed in
 
 * [[Robert Paré]], Dietmar Schumacher, _Abstract Families and the Adjoint Functor Theorems_ , pp.1-125 in LNM **661** Springer Heidelberg 1978.
 
