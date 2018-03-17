@@ -13,7 +13,7 @@
 
 
 #Contents#
-* automatic table of contents
+* table of contents
 {:toc}
 
 ## Idea
@@ -990,6 +990,7 @@ for the moment see
 
 * [[operadic (∞,1)-Grothendieck construction]]
 
+* [[Grothendieck construction for model categories]]
 
 ## References
 
