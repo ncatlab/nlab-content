@@ -138,21 +138,21 @@ $$
   Sym^\bullet \langle h_3\rangle 
   \otimes
   \langle 
-     f_{2p}, \omega_{2(p+1)} \,\vert\, p \in \mathbb{N} 
+     \omega_{2p}, f_{2(p+1)} \,\vert\, p \in \mathbb{N} 
   \rangle
   \,,
   d \colon
   \left\{
     \begin{aligned}
-      f_0 & \mapsto 0 
+      \omega_0 & \mapsto 0
       \\
-      f_2 & \mapsto h_3 \wedge f_0
+      \omega_{2p+2} &\mapsto h_3 \wedge \omega_{2p}
       \\
-      f_{2p+4} & \mapsto h_3 \wedge f_{2p+2}
+      f_2 & \mapsto 0
       \\
-      \omega_{4} & \mapsto 0
+      f_4 & \mapsto 0
       \\
-      \omega_{2p+6} & \mapsto h_3 \wedge \omega_{2p+4}
+      f_{2p+6} & \mapsto h_3 \wedge f_{2p + 4}
     \end{aligned}
     \right.
 $$
@@ -164,21 +164,19 @@ $$
   Sym^\bullet  \langle h_3 , \omega_2 \rangle 
    \otimes
   \langle 
-     f_{2p}, \omega_{2(p+1)} \,\vert\, p \in \mathbb{N}
+     \omega_{2p}, f_{2p + 4} \,\vert\, p \in \mathbb{N}
   \rangle
   \,,
   d \colon
   \left\{
     \begin{aligned}
-      f_0 & \mapsto 0
+      \omega_0 & \mapsto 0
       \\
-      f_2 & \mapsto h_3
+      \omega_{2p+2} &\mapsto h_3 \wedge \omega_{2p}
       \\
-      f_{2p+4} &\mapsto h_3 \wedge f_{2p+2}
+      f_2 & \mapsto 0
       \\
-      \omega_2 & \mapsto 0
-      \\
-      \omega_{2p+2} & \mapsto h_3 \wedge \omega_{2p}
+      f_{2p+4} & \mapsto h_3 \wedge f_{2p + 2}
     \end{aligned}
   \right.
 $$
@@ -186,13 +184,13 @@ $$
 
 Notice how we changed the notation of the generators compared to [Roig & Saralegi-Aranguren 00, second page](#RoigSaralegiAranguren00), to bring out the pattern:
 
-|    Roig    |       here      |
+|  $\phantom{A}$Roig$\phantom{A}$  |  $\phantom{A}$here$\phantom{A}$    |
 |------------|-----------------|
-|     $a$    |        $h_3$    |
-|     $1$    |       $f_0$     |
-|  $c_{2n}$  |    $f_{2n+2}$   |
-| $c_{2n+1}$ | $\omega_{2n+4}$ |
-|    $e$     |    $\omega_2$   |
+|   $\phantom{A}a\phantom{A}$    |        $\phantom{A}h_3\phantom{A}$    |
+|  $\phantom{A}1\phantom{A}$    |  $\phantom{A}\omega_0\phantom{A}$     |
+|  $\phantom{A}c_{2n}\phantom{A}$  | $\phantom{A}\omega_{2n+2}\phantom{A}$   |
+| $\phantom{A}c_{2n+1}\phantom{A}$ | $f_{2n+4}$ |
+|    $\phantom{A}e\phantom{A}$     |    $\phantom{A}f_2\phantom{A}$   |
 
 
 #### M5-brane orbifolds
