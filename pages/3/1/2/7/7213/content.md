@@ -58,15 +58,12 @@ This is reviewed in ([GLSW, section 2](#GLSW)).
 
 ## References
 
-### General
 
-* David Baraglia, _Leibniz algebroids, twistings and exceptional generalized geometry_ ([arXiv:1101.0856](http://arxiv.org/abs/1101.0856))
-
-### In supergravity
+* {#Baraglia11} [[David Baraglia]], _Leibniz algebroids, twistings and exceptional generalized geometry_, Journal of Geometry and Physics 62 (2012), pp. 903-934 ([arXiv:1101.0856](http://arxiv.org/abs/1101.0856))
 
 Survey slides include
 
-* David Baraglia, _Exceptional generalized geometry and $N = 2$ backgrounds_ ([pdf](http://mitchell.physics.tamu.edu/Conference/GeneralizedGeometries/Mon-1-Grana.pdf))
+* [[David Baraglia]], _Exceptional generalized geometry and $N = 2$ backgrounds_ ([pdf](http://mitchell.physics.tamu.edu/Conference/GeneralizedGeometries/Mon-1-Grana.pdf))
 
 Reviewes include
 
