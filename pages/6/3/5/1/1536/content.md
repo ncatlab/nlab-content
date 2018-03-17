@@ -349,15 +349,14 @@ The statement itself is theorem 1.3.6 there, all definitions and lemmas are on t
 
 #### Model category version
 
-For the case of pseudofunctors with values in groupoids, there is a [[model category]] version of the Grothendieck construction discussed in
+There is refinement of the Grothendieck construction to [[model categories]]. S
 
-* [[Sharon Hollander]], _A homotopy theory for stacks_ ([arXiv:math.AT/0110247](http://arxiv.org/abs/math.AT/0110247)).
-
-There the statement of the above equivalence is the statement that the Grothendieck equivalence exhibits a [[Quillen equivalence]] between suitable [[model category]] structures on functors from and to $C$.
+See at _[[Grothendieck construction for model categories]]_.
 
 This model category incarnation of the Grothendieck construction 
 generalizes to a model category presentation of the 
 [[(∞,1)-Grothendieck construction]].
+
 
 
 ### Adjoints to the Grothendieck construction {#adjunction}
@@ -656,11 +655,7 @@ See also
 * [Inference System Integration via Logic Morphisms](http://www.kestrel.edu/home/projects/logicware/slides-9806/sld001.htm)
 * [Category Theory for Computing Science](http://www.math.mcgill.ca/triples/Barr-Wells-ctcs.pdf)
 
-A [[model category]] presentation of the Grothendieck construction is given in 
-
-* [[Sharon Hollander]], _A homotopy theory for stacks_ ([arXiv:math.AT/0110247](http://arxiv.org/abs/math.AT/0110247))
-
-* [[Yonatan Harpaz]], [[Matan Prasma]], _The Grothendieck construction for model categories_, [arXiv](http://arxiv.org/abs/1404.1852).
+A [[model category]] presentation of the Grothendieck construction see at _[[Grothendieck construction for model categories]]_.
 
 Discussion of the Grothendieck construction as a lax colimit includes (see also at [[(infinity,1)-Grothendieck construction]])
 
