@@ -79,6 +79,8 @@
 
   * [[model structure on algebraic fibrant objects]]
 
+* [[Grothendieck construction for model categories]]
+
 ## Presentation of $(\infty,1)$-categories ##
 
 * [[(∞,1)-category]]
