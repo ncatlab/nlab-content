@@ -100,8 +100,10 @@ The [[moduli space]] of Higgs bundles over an [[algebraic curve]] is one of the 
 * [[Ludmil Katzarkov]], [[Dmitri Orlov]], [[Tony Pantev]], _Notes on Higgs bundles and D-branes_, (delivered as a lecture by Tony Pantev at winter school at Guanajuato 2013 [link](http://www.cimat.mx/Eventos/moduli_spaces2013)) draft [pdf](http://www.cimat.mx/Eventos/moduli_spaces2013/img/tony_pantev.pdf)
 
 * S. B. Bradlow, O. Garc&#237;a-Prada, P. B. Gothen, _WHAT IS...a Higgs Bundle?_, Notices AMS, [pdf](http://www.ams.org/notices/200708/tx070800980p.pdf)
+
 * [[Michael Murray]], [[Danny Stevenson]], _Higgs fields, bundle gerbes and string structures_, [arxiv/math.DG/0106179](http://arxiv.org/abs/math.DG/0106179)
-* David Baraglia, _Cyclic Higgs bundles and the affine Toda equations_, [arxiv/1011.6421](http://arxiv.org/abs/1011.6421)
+
+* [[David Baraglia]], _Cyclic Higgs bundles and the affine Toda equations_, [arxiv/1011.6421](http://arxiv.org/abs/1011.6421)
 
 Around lemma 6.4.1 in 
 
