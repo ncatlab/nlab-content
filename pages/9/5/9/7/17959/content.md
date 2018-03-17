@@ -4,11 +4,14 @@
 
 ## related $n$Lab entries
 
+* [[Grothendieck construction for model categories]]
+
 * [[minimal fibration]]
 
 * [[KS-model]]
 
 * [[circle action]]
 
+* [[4-sphere]]
 
 category: people
