@@ -45,14 +45,7 @@ If $E$ is [[cartesian closed category|cartesian closed]] and the
 +-- {: .num_remark}
 ###### Remark
 
-The [[right adjoint]] in def. \ref{Atomic} is sometimes called an "[[amazing right adjoint]]", particularly in the context of [[synthetic differential geometry]]. 
-
-=--
-
-+-- {: .num_remark}
-###### Remark
-
-If $E$ is a [[sheaf topos]], then tiny objects and atomic objects coincide, by the [[adjoint functor theorem]].
+The [[right adjoint]] in def. \ref{Atomic} is sometimes called an "[[amazing right adjoint]]", particularly in the context of [[synthetic differential geometry]].
 
 =--
 
