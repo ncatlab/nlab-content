@@ -72,18 +72,17 @@ Here $\tau$ is the morphism that modulates the circle 2-bundle on the fiber prod
 
 The term $B_n$-geometry was introduced in
 
-* David Baraglia, _Leibniz algebroids, twistings and exceptional generalized geometry_ ([arXiv:1101.0856](http://arxiv.org/abs/1101.0856))
- {#Baraglia}
+* {#Baraglia} [[David Baraglia]], _Leibniz algebroids, twistings and exceptional generalized geometry_ ([arXiv:1101.0856](http://arxiv.org/abs/1101.0856))
 
 A review is in
 
-* [[Nigel Hitchin]], talks at StringMath2012,  ([pdf](http://www.hcm.uni-bonn.de/fileadmin/stringmath2012/plenary_talks/03-Hitchin.pdf))
- {#Hitchin}
+* {#Hitchin} [[Nigel Hitchin]], talks at StringMath2012,  ([pdf](http://www.hcm.uni-bonn.de/fileadmin/stringmath2012/plenary_talks/03-Hitchin.pdf))
+ 
 
 The relation to T-duality is made clear around slide 80 of
 
-* [[Peter Bouwknegt]], _Courant Algebroids and Generalizations of Geometry_, talk at StringMath2011 ([pdf](http://www.math.upenn.edu/StringMath2011/notes/Bouwknegt_StringMath2011_talk.pdf))
- {#Bouwknegt}
+* {#Bouwknegt} [[Peter Bouwknegt]], _Courant Algebroids and Generalizations of Geometry_, talk at StringMath2011 ([pdf](http://www.math.upenn.edu/StringMath2011/notes/Bouwknegt_StringMath2011_talk.pdf))
+ 
 
 A discussion of the [[infinity-Lie theory|higher Lie theoretic]] aspects is in 
 
