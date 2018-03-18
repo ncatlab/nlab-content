@@ -45,4 +45,8 @@ but beware that [Scull 01](#Scull01) claims that the statement about minimal mod
 
 * {#Scull01} Laura Scull, _Rational $S^1$-equivariant homotopy theory_, Transactions of the AMS, Volume 354, Number 1, Pages 1-45 2001 ([pdf](http://www.ams.org/journals/tran/2002-354-01/S0002-9947-01-02790-8/S0002-9947-01-02790-8.pdf))
 
+See also 
+
+* C. Allday, V. Puppe, sections 3.3 and 3.4 of _Cohomological methods in transformation groups_, Cambridge 1993 (<a href=" https://doi.org/10.1017/CBO9780511526275">doi:10.1017/CBO9780511526275</a>)
+
 [[!redirects rational equivariant homotopy theory]]
