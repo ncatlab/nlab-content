@@ -40,7 +40,7 @@ _is an isomorphism_.
 
 =--
 
-([Blakers-Massey 51](#BlakersMassey51), [tomDiek 08, theorem 6.4.1](#tomDiek08)).
+([Blakers-Massey 51](#BlakersMassey51), [tomDieck 08, theorem 6.4.1](#tomDieck08)).
 
 +-- {: .num_remark #InTermsOfPushouts}
 ###### Remark
@@ -71,7 +71,7 @@ For the special case that $Y_1 \simeq Y_2 \simeq \ast$ are point contractible, t
 +-- {: .num_remark}
 ###### Remark
 
-Since the tensor product is zero if one of its factors is zero, this result also gives criteria for the excision morphism $\epsilon$ to be an isomorphism in a certain range of dimensions. For this reason the excision consequences of that sequence are  also  called the _excision theorem of Blakers and Massey_ and have been given quite separate proofs for example in ([Hatcher](#Hatcher)), and in ([tom Dieck](#tomDiek08)). The  first non zero triad homotopy group is also called the _critical group_. Note that in _algebraic topology_ one wants _algebraic_ results, not just connectivity results. 
+Since the tensor product is zero if one of its factors is zero, this result also gives criteria for the excision morphism $\epsilon$ to be an isomorphism in a certain range of dimensions. For this reason the excision consequences of that sequence are  also  called the _excision theorem of Blakers and Massey_ and have been given quite separate proofs for example in ([Hatcher](#Hatcher)), and in ([tom Dieck](#tomDieck08)). The  first non zero triad homotopy group is also called the _critical group_. Note that in _algebraic topology_ one wants _algebraic_ results, not just connectivity results. 
 
 =--
 
@@ -125,7 +125,7 @@ Review includes
 
 * {#Hatcher} [[Alan Hatcher]], theorem 4.23 _[Algebraic Topology](http://www.math.cornell.edu/~hatcher/AT/ATpage.html)_
 
-* {#tomDiek08} [[Tammo tom Dieck]],  theorem 6.4.1 _Algebraic Topology_, EMS Textbooks in Mathematics, (2008) ([pdf](http://www.maths.ed.ac.uk/~aar/papers/diecktop.pdf))
+* {#tomDieck08} [[Tammo tom Dieck]],  theorem 6.4.1 _Algebraic Topology_, EMS Textbooks in Mathematics, (2008) ([pdf](http://www.maths.ed.ac.uk/~aar/papers/diecktop.pdf))
 
 
 The algebraic statement and proof is in 
