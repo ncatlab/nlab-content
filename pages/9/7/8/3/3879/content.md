@@ -29,7 +29,7 @@ Historically, there has been some variance as to what exactly is comprised by "m
 
 In the beginning of the 20th century the term was understood very broadly:
 
-> Not only [[Henri Poincaré ]], bu also [[Albert Einstein]], were called mathematical physicists. Newly established theoretical chairs were called chairs of mathematical physics. It follows from the documents in the archives of the Nobel Committee that MP had a right to appear both in the nominations and discussion of the candidates for the Nobel Prize in physics. Roughly speaking, the concept of Mathematical Physics covered theoretical papers where mathematical formulae were used. ([Fadeev 00, p. 1](#Fadeev00))
+> Not only [[Henri Poincaré ]], but also [[Albert Einstein]], were called mathematical physicists. Newly established theoretical chairs were called chairs of mathematical physics. It follows from the documents in the archives of the Nobel Committee that MP had a right to appear both in the nominations and discussion of the candidates for the Nobel Prize in physics. Roughly speaking, the concept of Mathematical Physics covered theoretical papers where mathematical formulae were used. ([Fadeev 00, p. 1](#Fadeev00))
 
 Also, in the list of [[Hilbert's problems]] of mathematics, the [[Hilbert's sixth problem|sixth problem]] regards the mathematical formulation of physics as one of the core problems in mathematics:
 
