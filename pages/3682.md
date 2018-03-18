@@ -63,7 +63,7 @@ The following definition is the straightforward evident generalization of this f
 ### Definition
 
 Let $A$ be a [[combinatorial simplicial model category]]. 
-Let $C, C'$ be [[small category|small]] [[sSet]]-[[enriched model categories]]. Write $[C,A]$ and $[C',A]$ for the corresponding [[enriched functor categories]]. Notice that these carry the injective and the projective [[model structure on functors]] $[C,A]_{inj}$ and $[C,A]_{proj}$, which themselves are combinatorial simplicial model categories.
+Let $C, C'$ be [[small category|small]] [[simplicially enriched categories]]. Write $[C,A]$ and $[C',A]$ for the corresponding [[enriched functor categories]]. Notice that these carry the injective and the projective [[model structure on functors]] $[C,A]_{inj}$ and $[C,A]_{proj}$, which themselves are combinatorial simplicial model categories.
 
 Let 
 
