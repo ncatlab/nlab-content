@@ -56,6 +56,7 @@ which commutes up to specified isomorphism, where $e\in E$ and $m\in M$, has a d
 
   * $E=$ [[hyperconnected geometric morphisms]], $M=$ [[localic geometric morphisms]].
 
+* The [[monadic decomposition]] is a factorization system on a suitable 2-category.
 
 ## Cat-enriched factorization systems
 
