@@ -199,7 +199,14 @@ $$
     S^3
   }
   &
-  Sym^\bullet \langle h_3\rangle 
+  Sym^\bullet \langle 
+    \underset{
+      deg = 3
+    }{
+    \underbrace{
+      h_3
+    }}
+  \rangle 
   \otimes
   \left\langle 
      \underset{deg = 2p}{
@@ -233,7 +240,14 @@ $$
     S^3
   }
   &
-  Sym^\bullet \langle h_3\rangle 
+  Sym^\bullet \langle 
+    \underset{
+      deg = 3
+    }{
+    \underbrace{
+      h_3
+    }}
+  \rangle 
   \otimes
   \left\langle 
      \underset{deg = 2p}{
@@ -269,7 +283,21 @@ $$
     S^3
   }
   &
-  Sym^\bullet  \langle h_3 , f_2 \rangle 
+  Sym^\bullet  \langle 
+    \underset{
+      deg = 3
+    }{
+    \underbrace{
+      h_3 
+     }}
+    ,
+    \underset{
+      deg = 2
+    }{
+    \underbrace{   
+      f_2  
+    }}
+  \rangle 
    \otimes
   \left\langle 
     \underset{deg = 2p}{
@@ -301,7 +329,7 @@ $$
 
 =--
 
-Beware that in the model for $S^4/S^2$ the element $f_2$ induces its entire polynomial algebra as generator of the dg-module.
+Beware that in the model for $S^4//S^2$ the element $f_2$ induces its entire polynomial algebra as generator of the dg-module.
 
 Notice that we changed the notation of the generators compared to [Roig & Saralegi-Aranguren 00, second page](#RoigSaralegiAranguren00), to bring out the pattern:
 
