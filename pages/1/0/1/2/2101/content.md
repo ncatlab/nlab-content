@@ -51,12 +51,6 @@ The typical categories studied in [[algebra]], such as [[Grp]], [[Ring]], etc, a
 Abstractly, one may *define* an [[algebraic category]] to be a category equipped with a monadic adjunction from $Set$.  However, there are now more examples than the ones from algebra; the best known of these is the category of [[compact Hausdorff spaces]], which corresponds to the [[ultrafilter]] monad.  (This result relies on the [[ultrafilter principle]], regardless of whether one interprets 'space' here as referring to [[topological spaces]] or [[locales]].)
 
 
-## References
-
-*  [[Michael Barr]] and [[Charles Wells]], _Toposes, Triples and Theories_ ([online](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html))
-
-*  [[Emily Riehl]] and [[Dominic Verity]], Homotopy coherent adjunctions and the formal theory of monads ( [arxiv'd](http://arxiv.org/abs/1310.8279) )
-
 ## Discussion
 
 [[John Baez]]:  We read above: "One can turn [[monads]] into [[adjunctions]] and adjunctions into monads, but one doesn\'t always return where one started."  This suggests that there is something like an _adjunction_ between monads and adjunctions!  What's the precise story?  
@@ -85,9 +79,14 @@ I didn't check all the details but it does seem to be the case that "structure" 
 
 [[Mike Shulman]]: In case anyone is following this, Daniel has come up with what seems to be the right answer to this question; I'm hoping that eventually he will write about it here.
 
+## Related pages
 
+* [[monadic functor]]
+* [[monadic decomposition]]
 
 ## References
+
+*  [[Michael Barr]] and [[Charles Wells]], _Toposes, Triples and Theories_ ([online](http://www.tac.mta.ca/tac/reprints/articles/12/tr12abs.html))
 
 Discussion for [[quasi-categories]] is around definition 6.1.15 and definition 7.1.6 in
 
