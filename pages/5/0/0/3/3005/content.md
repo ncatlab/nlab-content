@@ -143,6 +143,7 @@ There is also a 2-categorical approach using quasicategories in
 
 * [[monadic functor]], [[comonadic functor]]
 * [[functor of descent type]]
+* [[monadic decomposition]]
 
 ## References
 
