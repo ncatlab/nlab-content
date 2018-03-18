@@ -58,7 +58,6 @@ Of particular interest are [[vacuum amplitudes]] which are scattering amplitudes
 
 ### General
 
-A good text is 
 
 * Henriette Elvang, Yu-tin Huang, _Scattering Amplitudes_ ([arXiv:1308.1697](http://arxiv.org/abs/1308.1697))
 
@@ -66,12 +65,12 @@ intended to
 
 > bridge the gap between a standard course in quantum field theory and recent fascinating developments in the studies of on-shell scattering amplitudes.
 
-Similarly
 
 * Tomasz R. Taylor, _A Course in Amplitudes_ ([arXiv:1703.05670](https://arxiv.org/abs/1703.05670))
 
 * {#SummersBuchholz} Stephen J. Summers, [[Detlev Buchholz]], _Scattering in Relativistic Quantum Field Theory: Fundamental Concepts and Tools_ ([arXiv:math-ph/0509047] (https://arxiv.org/abs/math-ph/0509047))
 
+* Clifford Cheung, _TASI Lectures on Scattering Amplitudes_ ([arXiv:1708.03872](https://arxiv.org/abs/1708.03872))
 
 A historical overview of the development of on-shell methods/analytic methods is in 
 
