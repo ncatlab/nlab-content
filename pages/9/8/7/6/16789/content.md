@@ -110,7 +110,7 @@ $$
   S^4 \simeq S(\mathbb{R} \oplus \mathbb{H})
 $$
 
-as the [[unit sphere]] inside the [[direct sum]] (as [[real vector spaces]]) of the [[real numbers]] with the [[quaternions]], and regard the [[special unitary group]] $SU(2)$ as the group of unit-norma quaternions
+as the [[unit sphere]] inside the [[direct sum]] (as [[real vector spaces]]) of the [[real numbers]] with the [[quaternions]], and regard the [[special unitary group]] $SU(2)$ as the group of unit-norm quaternions
 
 $$
   SU(2) \simeq S(\mathbb{H},\cdot)
@@ -142,7 +142,7 @@ $$
   \,.
 $$ 
 
-Hence both $S^4$ and $S^4 // S^1$ are canonically [[homotopy types]] over $S^3 
+Hence both $S^4$ and $S^4 // S^1$ are canonically [[homotopy types]] over $S^3$. 
 
 A [[minimal dg-module]] presentation in [[rational homotopy theory]] for these projections is given in [Roig & Saralegi-Aranguren 00, second page](#RoigSaralegiAranguren00):
 
