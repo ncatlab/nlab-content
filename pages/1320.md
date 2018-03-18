@@ -54,6 +54,8 @@ Beware that monadic functors are not closed under composition. For a specific ex
 
 * If the comparison functor is only [[fully faithful]], a functor is sometimes said to be of [[descent type]].
 
+* [[monadic decomposition]]
+
 [[!redirects monadic]]
 [[!redirects monadic category]]
 [[!redirects monadic functors]]
