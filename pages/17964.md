@@ -162,8 +162,7 @@ In particular, every [[dg-module]] has a minimal KS-model (def. \ref{KSFactoriza
 
 * {#Roig94} [[Agustí Roig]], _Formalizability of dg modules and morphisms of cdg algebras_, Volume 38, Issue 3 (1994), 434-451 ([euclid](http://projecteuclid.org/euclid.ijm/1255986724))
 
-* [[Igor Kriz]], [[Peter May]], section IV.3 of _Operads, Algebras, Modules and Motives_, 1994 ([pdf](http://www.math.uchicago.edu/~may/PAPERS
-/kmbooklatex.pdf))
+* [[Igor Kriz]], [[Peter May]], section IV.3 of _Operads, Algebras, Modules and Motives_, 1994 ([pdf](http://www.math.uchicago.edu/~may/PAPERS/kmbooklatex.pdf))
 
 * {#RoigSaralegiAranguren00} [[Agustí Roig]], [[Martintxo Saralegi-Aranguren]], _Minimal Models for Non-Free Circle Actions_, Illinois Journal of Mathematics, volume 44, number 4 (2000) ([arXiv:math/0004141](https://arxiv.org/abs/math/0004141))
 
