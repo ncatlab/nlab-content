@@ -170,7 +170,7 @@ From here on the argument for the [[cohesion]] of $\mathbb{C}Analytic \infty Grp
 +-- {: .num_cor #ShapeOfComplexManifold} 
 ###### Corollary
 
-For $X\in \mathbb{CMfd} \hookrightarrow \mathbb{C}Analytic\infty Grpd$ a [[complex manifold]], then the [[shape modality|shape]] $\Pi(X)$ is the [[homotopy type]] of its underlying [[topological space]].
+For $X\in CplxMfd \hookrightarrow \mathbb{C}Analytic\infty Grpd$ a [[complex manifold]], then the [[shape modality|shape]] $\Pi(X)$ is the [[homotopy type]] of its underlying [[topological space]].
 
 =--
 
