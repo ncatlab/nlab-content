@@ -42,11 +42,11 @@ A [[Grothendieck topos]] $\mathcal{E}$ is called _exponentiable_ (in the [[2-cat
 
 Interestingly, in the category of locales exponentiability of a locale $X$ hinges on the existence of the single exponential $S^X$ where $S$ is the [[Sierpinski space]]: $Y^X$ exists for all $Y$ iff $S^X$ exists.
 
-In $GrTop$ the object classifier $\mathcal{S}[\mathbb{O}]$ takes over the role of the Sierpinski space and we have the following
+In $GrTop$ the [[classifying topos for the theory of objects|object classifier]] $\mathcal{S}[\mathbb{O}]$ takes over the role of the Sierpinski space and we have the following
 
 +-- {: .num_prop}
 ###### Proposition
-A [[Grothendieck topos]] $\mathcal{E}$ is exponentiable iff the exponential $\mathcal{S}[\mathbb{O}]^\mathcal{E}$ exists.
+A [[Grothendieck topos]] $\mathcal{E}$ is exponentiable iff the [[exponential object|exponential]] $\mathcal{S}[\mathbb{O}]^\mathcal{E}$ exists.
 
 =--
 
