@@ -49,15 +49,17 @@ where $Ps(C,D)$ is the 2-category of 2-functors, pseudonatural transformations, 
 
 ## References 
 
-* John W. Gray, _Formal category theory: adjointness for 2-categories_
+* John W. Gray, _Formal category theory: adjointness for 2-categories_, Lecture Notes in Mathematics, Vol. 391. Springer-Verlag, Berlin-New York, 1974. xii+282 pp doi:[10.1007/BFb0061280](https://doi.org/10.1007/BFb0061280) (see also [[Adjointness for 2-Categories]])
 
-* Gordon, Power, Street.  _Coherence for tricategories_, Mem. Amer. Math. Soc. 117 (1995), no. 558, vi+81 pp.
+* Robert Gordon, [[John Power]], [[Ross Street]].  _Coherence for tricategories_, Mem. Amer. Math. Soc. 117 (1995), no. 558, vi+81 pp. doi:[10.1090/memo/0558](http://dx.doi.org/10.1090/memo/0558) ([AMS bookstore](https://bookstore.ams.org/memo-117-558/) incl. free sample chapter)
 
-* Stephen Lack, _A Quillen model structure for 2-categories_ and _A Quillen model structure for bicategories_.
+* [[Stephen Lack]], _A Quillen model structure for 2-categories_, K-Theory, 26(2) (2002) pp171-205, ([gzipped .ps](http://maths.mq.edu.au/~slack/papers/qmc2cat.ps.gz)) (doi:[10.1023/A:1020305604826](https://doi.org/10.1023/A:1020305604826) - requires Portico subscription)
 
-* R. Brown and P.J. Higgins, Tensor products and homotopies for $\omega$-groupoids and crossed complexes,  J. Pure Appl. Alg. 47 (1987) 1-33.
+* [[Stephen Lack]], _A Quillen model structure for bicategories_, K-theory, 33(3) (2004) pp185-197, ([gzipped .ps](http://maths.mq.edu.au/~slack/papers/qmcbicat.ps.gz)) (doi:[10.1007/s10977-004-6757-9](https://doi.org/10.1007/s10977-004-6757-9) - requires Portico subscription)
 
-* F.A. Al-Agl, R. Brown and   R. Steiner, Multiple categories: the equivalence between a globular and cubical approach, Advances in Mathematics, 170 (2002) 71-118.
+* [[Ronnie Brown]] and P.J. Higgins, Tensor products and homotopies for $\omega$-groupoids and crossed complexes,  J. Pure Appl. Alg. 47 (1987) 1-33. doi:[10.1016/0022-4049(87)90099-5](https://doi.org/10.1016/0022-4049(87%2990099-5), ([pdf](https://pdfs.semanticscholar.org/3323/d82ed1effb1953a6af573aab2e3fb0b02394.pdf))
+
+* F.A. Al-Agl, R. Brown and   R. Steiner, _Multiple categories: the equivalence between a globular and cubical approach_, Advances in Mathematics, 170 (2002) 71-118. doi:[10.1006/aima.2001.2069](https://doi.org/10.1006/aima.2001.2069), arXiv:[math/0007009](https://arxiv.org/abs/math/0007009)
 
 The Gray tensor product as the left Kan extension of a tensor product on the full subcategory $Cu$ of $2Cat$ is on page 16 of
 
@@ -69,6 +71,6 @@ A general theory of lax tensor products, unifying Gray tensor products with the 
 
 A proof that the Gray tensor product does form a monoidal structure, based only on its universal property, is in
 
-* [[John Bourke]], [[Nick Gurski]], _The Gray tensor product via factorisation_, [arXiv](http://arxiv.org/abs/1508.07789)
+* [[John Bourke]], [[Nick Gurski]], _The Gray tensor product via factorisation_, Appl Categor Struct **25** (2017) p603-624, doi:[10.1007/s10485-016-9467-6](https://doi.org/10.1007/s10485-016-9467-6), arXiv:[1508.07789](http://arxiv.org/abs/1508.07789)
 
 [[!redirects Gray]]
