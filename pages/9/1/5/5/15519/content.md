@@ -34,7 +34,7 @@ A [[Grothendieck topos]] $\mathcal{E}$ is called _injective_ (with respect to su
 
 ## Properties
 
-The main characterization of injective toposes is achieved by the folowing result due to Johnstone-Joyal ([1982](#JJ82)).
+The main characterization of injective toposes is achieved by the following result due to Johnstone-Joyal ([1982](#JJ82)).
 
 +-- {: .num_prop}
 ###### Theorem
