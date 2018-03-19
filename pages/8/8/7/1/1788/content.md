@@ -1,117 +1,14 @@
 
 $$
-  \array{
-  \text{fibration} & \array{\text{vector space underlying} \\ \text{minimal dg-model}} & \array{ \text{differential on} \\ \text{minimal dg-model} }
-   \\
-  \array{
-    S^4
-    \\
-    \downarrow
-    \\
-    S^3
-  }
-  &
-  Sym^\bullet \langle h_3\rangle 
+  Sym(\omega_2)  
+  \oplus
+  (h_3)
   \otimes
-  \left\langle 
-     \underset{deg = 2p}{
-     \underbrace{
-       \omega_{2p}
-     }},
-     \underset{deg = 2p + 4}{ 
-     \underbrace{
-       f_{2p + 4}
-     }} \,\vert\, p \in \mathbb{N} 
-  \right\rangle
-  &
-  d \colon
-  \left\{
-    \begin{aligned}
-      \omega_0 & \mapsto 0
-      \\
-      \omega_{2p+2} &\mapsto h_3 \wedge \omega_{2p}
-      \\
-      f_4 & \mapsto 0
-      \\
-      f_{2p+6} & \mapsto h_3 \wedge f_{2p + 4}
-    \end{aligned}
-    \right.
-  \\
-  \array{
-    S^0
-    \\
-    \downarrow
-    \\
-    S^3
-  }
-  &
-  Sym^\bullet \langle h_3\rangle 
+  Sym(\omega_2, \omega_6)
   \otimes
-  \left\langle 
-     \underset{deg = 2p}{
-     \underbrace{
-       \omega_{2p}
-     }},
-     \underset{
-       deg = 2p
-     }{ 
-     \underbrace{
-       f_{2p}
-     }} \,\vert\, p \in \mathbb{N} 
-  \right\rangle
-  &
-  d \colon
-  \left\{
-    \begin{aligned}
-      \omega_0 & \mapsto 0
-      \\
-      \omega_{2p+2} &\mapsto h_3 \wedge \omega_{2p}
-      \\   
-      f_0 & \mapsto 0
-      \\
-      f_{2p+2} &\mapsto h_3 \wedge f_{2p}
-    \end{aligned}
-    \right.
-  \\
-  \array{
-    S^4//S^1
-    \\
-    \downarrow
-    \\
-    S^3
-  }
-  &
-  Sym^\bullet  \langle h_3 , f_2 \rangle 
-   \otimes
-  \left\langle 
-    \underset{deg = 2p}{
-    \underbrace{
-      \omega_{2p}
-    }},
-    \underset{
-      deg =2p + 4
-    }{ 
-    \underbrace{
-      f_{2p + 4}
-    }} \,\vert\, p \in \mathbb{N}
-  \right\rangle
-  &
-  d \colon
-  \left\{
-    \begin{aligned}
-      \omega_0 & \mapsto 0
-      \\
-      \omega_{2p+2} &\mapsto h_3 \wedge \omega_{2p}
-      \\
-      f_2 & \mapsto 0
-      \\
-      f_{2p+4} & \mapsto h_3 \wedge f_{2p + 2}
-    \end{aligned}
-  \right.
-  }
+  (1 + \omega_4)
 $$
 
-$\,$
 
 
 $\,$
