@@ -181,7 +181,9 @@ where $\sigma: V \otimes W \to W \otimes V$ is the symmetry. The unit is the ten
 
 * Hyland and Ong have given a completeness theorem for multiplicative linear logic in terms of a $*$-autonomous category of _fair games_, part of a series of work on game semantics for closed category theory (compare Joyal's interpretation of Conway games as forming a compact closed category). 
 
-* The [[Chu construction]] can be used to form many more examples of $*$-autonomous categories. 
+* The [[Chu construction]] can be used to form many more examples of $*$-autonomous categories.
+
+* Various [[subcategories]] of Chu constructions are also $*$-autonomous.  For instance, if [[Vect]] is the category of [[vector spaces]] over a [[field]] $k$, then $Chu(Vect,k)$ is the category of vector spaces equipped with a specified "dual" having no further structure than an evaluation map $V\otimes W\to k$.  One often wants to impose nondegeneracy conditions on this "dual", which in turn can be reflected as [[topological vector space|topological]] properties of the original space $V$.
 
 * A [[quantale]] (see there) is a $\ast$-autonomous category if it has a [[dualizing object]].
 
