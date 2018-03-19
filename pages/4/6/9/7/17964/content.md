@@ -153,19 +153,29 @@ In particular, every [[dg-module]] has a minimal KS-model (def. \ref{KSFactoriza
 ## References
  {#References}
 
+
+
+
 * {#Roig92} [[Agustí Roig]], _Alguns punts d'&#224;lgebra homot&#242;pica_, Barcelona (1992)
 
 * {#Roig93} [[Agustí Roig]], _Minimal resolutions and other minimal models_, Publicacions Matem&#224;tiques (1993) Volume: 37, Issue: 2, page 285-303 ([web](https://eudml.org/doc/41535))
 
 * {#Roig94} [[Agustí Roig]], _Formalizability of dg modules and morphisms of cdg algebras_, Volume 38, Issue 3 (1994), 434-451 ([euclid](http://projecteuclid.org/euclid.ijm/1255986724))
 
+* [[Igor Kriz]], [[Peter May]], section IV.3 of _Operads, Algebras, Modules and Motives_, 1994 ([pdf](http://www.math.uchicago.edu/~may/PAPERS
+/kmbooklatex.pdf))
 
 * {#RoigSaralegiAranguren00} [[Agustí Roig]], [[Martintxo Saralegi-Aranguren]], _Minimal Models for Non-Free Circle Actions_, Illinois Journal of Mathematics, volume 44, number 4 (2000) ([arXiv:math/0004141](https://arxiv.org/abs/math/0004141))
 
+See also
 
 * {#Halperin83} [[Steve Halperin]], _Lectures on minimal models_, Mem. Soc. Math. Franc. no 9/10 (1983) ([web](https://eudml.org/doc/94833))
 
 * {#Silveira84} [[Flavio da Silveira]], _Rational homotopy theory of fibrations_, Pacific Journal of Mathematics, Vol. 113, No. 1 (1984) ([pdf](http://msp.org/pjm/1984/113-1/pjm-v113-n1-p01-s.pdf))
+
+
+
+
 
 [[!redirects minimal dg-modules]]
 
