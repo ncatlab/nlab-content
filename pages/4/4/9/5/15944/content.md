@@ -50,9 +50,13 @@ The aim of arithmetic cryptography is to define a good [[geometric cohomology]] 
 
 The constraints on such a theory would be the following:
 
-1. find back the discrete logarithm elliptic public key cryptography when one starts from an elliptic curve over a finite field (or maybe a corresponding weak formal scheme over the ring of p-typical Witt vectors).
+1. get back the classical discrete logarithm elliptic public key cryptography method when one starts from an elliptic curve over a finite field (or maybe a corresponding weak formal scheme over the ring of p-typical Witt vectors).
 
-1. find back the original prime factorization public key cryptography when one starts from $\mathbb{Z}$. It must be clearly stressed here that the proper theoretical setting for such a general theory may be very hard to develop, since it should involve the definition of a proper cohomology for the Riemann zeta function, that would allow a spectral proof of its functional equation (as in Tate's thesis) `and` of the [[Riemann hypothesis]]. The full project thus looks like a very far reaching one, since there is, up to now, no precise idea of a way of constructing such a [[geometric cohomology]] theory (even if ideas on the constraints that it should fulfill are widespread in the mathematical litterature, e.g., in Deninger's work, in the [[field with one element]] litterature, in [[Langlands program]] and in the study of [[Weil-étale cohomology]]). However, one may use the classical conjectures (without proving them) to get the needed estimates.
+2. get back the original prime factorization public key cryptography method when one starts from $\mathbb{Z}$.
+
+3. It must be clearly stressed here that the proper theoretical setting for such a general theory may be very hard to develop, since it should involve the definition of a proper cohomology for the Riemann zeta function, that would allow a spectral proof of its functional equation (as in Tate's thesis) `and` of the [[Riemann hypothesis]]. The full project thus looks like a very far reaching one, since there is, up to now, no precise idea of a way of constructing such a [[geometric cohomology]] theory (even if ideas on the constraints that it should fulfill are widespread in the mathematical litterature, e.g., in Deninger's work, in the [[field with one element]] litterature, in [[Langlands program]] and in the study of [[Weil-étale cohomology]]). Moreover, the use of adelic coefficients instead of complex ones seems necessary to treat the $p$-adic and archimedean cohomologies on equal footing.
+
+4. One may use the classical GRH conjectures (without proving them) to get the estimates analogous to the classical estimate of the number of primes smaller than a given prime. From this point of view, it seems that representation theoretic approaches may be more interesting.
 
 ## Possible methods
 
