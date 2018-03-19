@@ -33,7 +33,7 @@ $$
   \,.
 $$
 
-Hence for $\alpha, \beta$ generators of the cohomoloy groups in degree $n$ and $2n$ (unique up to choice of sign), respectively, there exists an [[integer]] $h(\phi)$ which expresses the [[cup product]] square of $\alpha$ as a multiple of $\beta$:
+Hence for $\alpha, \beta$ generators of the cohomology groups in degree $n$ and $2n$ (unique up to choice of sign), respectively, there exists an [[integer]] $h(\phi)$ which expresses the [[cup product]] square of $\alpha$ as a multiple of $\beta$:
 
 $$
   \alpha \cup \alpha = h(\phi) \cdot \beta 
