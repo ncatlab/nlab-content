@@ -41,14 +41,14 @@ the full [[sub-(∞,1)-category]] of the [[(∞,1)-category of (∞,1)-functors]
 
 ### For large (∞,1)-categories
 
-Generalizing this definition, if $C$ is a non-small $(\infty,1)$-category with finite limits, we write
+Generalizing this definition, if $C$ is a non-small but [[accessible (∞,1)-category|accessible]] $(\infty,1)$-category with finite limits, we write
 
 $$
   Pro(C) := AccLex(C,\infty Grpd)^{op}
   \,.
 $$
 
-for the category of left exact functors $C\to \infty Gprd$ which are moreover [[accessible (∞,1)-functor|accessible]].  In other words, when $C$ is large, $Pro(C)$ consists only of those left-exact functors which are "*small* cofiltered limits of representables".
+for the category of left exact functors $C\to \infty Gprd$ which are moreover [[accessible (∞,1)-functor|accessible]].  More generally, if $C$ is just [[locally small]], then one can take $Pro(C)$ to be the infinity-category of [[small functors]] whose [[Grothendieck construction]] is [[cofiltered]].  Equivalently, $Pro(C)$ consists of the functors which are "*small* cofiltered limits of representables".
 
 
 ## Related concepts
@@ -62,6 +62,8 @@ for the category of left exact functors $C\to \infty Gprd$ which are moreover [[
 The large version is mentioned around def. 7.1.6.1 of
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_
+
+* [[Ilan Barnea]], [[Yonatan Harpaz]], [[Geoffroy Horel]], _Pro-categories in homotopy theory_, [arXiv:1507.01564](https://arxiv.org/abs/1507.01564).
 
 [[!redirects pro-object in an (∞,1)-category]]
 
