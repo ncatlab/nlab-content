@@ -1,14 +1,92 @@
 
+
 $$
-  Sym(\omega_2)  
-  \oplus
-  (h_3)
-  \otimes
-  Sym(\omega_2, \omega_6)
-  \otimes
-  (1 + \omega_4)
+  d \exp(\omega_2 + \omega_4 + \omega_6 )
+  =
+  h_3 \wedge (\omega_2 + \omega_4) \wedge \exp(\omega_2 + \omega_4 + \omega_6 )
 $$
 
+$$
+  d
+  \left(
+    \omega_2
+  \right)
+  = 
+  0
+$$
+
+$$
+  d 
+  \left(
+    \tfrac{1}{2} \omega_2 \wedge \omega_2
+    +
+    \omega_4
+  \right)
+  =
+  h_3 \wedge 
+  \left(
+    \omega_2
+  \right)
+$$
+
+$$
+  d 
+  \left(
+    \tfrac{1}{6} \omega_2 \wedge \omega_2 \wedge \omega_2
+    +
+    \omega_2 \wedge \omega_4
+    +
+    \omega_6
+  \right)
+  =
+  h_3 \wedge \left(
+    \omega_2 \wedge \omega_2
+    +
+    \omega_4
+  \right)
+$$
+
+$$
+  d
+  \left(
+    \tfrac{1}{4!} \omega_2^4 
+    +
+    \tfrac{1}{2} \omega_4 \wedge \omega_4
+    +
+    \omega_2 \wedge \omega_6
+  \right)
+  =
+  h_3 \wedge 
+  (
+    \tfrac{1}{2} \omega_2^3
+    +
+    2 \omega_2 \wedge \omega_4
+  )
+$$
+
+$$
+  d 
+  \left(
+    \tfrac{1}{5!} \omega_2^5
+    +
+    \tfrac{1}{3!} \omega_2^3 \wedge \omega_4
+    +
+    \tfrac{1}{2}\omega_2 \wedge \omega_4 \wedge \omega_4
+    +
+    \omega_4 \wedge \omega_6
+  \right)
+  =
+  h_3 \wedge
+  \left(
+    \tfrac{1}{4!} \omega_2^4
+    +  
+    (1 + \tfrac{1}{2}) \omega_2 \wedge \omega_2 \wedge \omega_4
+    +
+    \omega_2 \wedge \omega_6
+    +
+    \omega_4 \wedge \omega_4
+  \right)
+$$
 
 
 $\,$
