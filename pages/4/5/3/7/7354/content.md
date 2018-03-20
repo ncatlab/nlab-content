@@ -52,6 +52,8 @@ There is also
 
 * [[duality in physics]]
 
+* [[Gopakumar-Vafa duality]]
+
 ## References
 
 ### Original articles
