@@ -1,10 +1,27 @@
 
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
+=--
+=--
+
+
+
 ## Related entries
 
 * [[topological string]]
 
 * [[black holes in string theory]]
+
+## Related concepts
+
+* [[Gopakumar-Vafa duality]]
 
 ## References
 
