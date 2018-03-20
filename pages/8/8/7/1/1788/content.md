@@ -1,259 +1,164 @@
 
+**Claim**
 
-$$
-  d \exp(\omega_2 + \omega_4 + \omega_6 )
-  =
-  h_3 \wedge (\omega_2 + \omega_4) \wedge \exp(\omega_2 + \omega_4 + \omega_6 )
-$$
-
-$$
-  d
-  \left(
-    \omega_2
-  \right)
-  = 
-  0
-$$
-
-$$
-  d 
-  \left(
-    \tfrac{1}{2} \omega_2 \wedge \omega_2
-    +
-    \omega_4
-  \right)
-  =
-  h_3 \wedge 
-  \left(
-    \omega_2
-  \right)
-$$
-
-$$
-  d 
-  \left(
-    \tfrac{1}{6} \omega_2 \wedge \omega_2 \wedge \omega_2
-    +
-    \omega_2 \wedge \omega_4
-    +
-    \omega_6
-  \right)
-  =
-  h_3 \wedge \left(
-    \omega_2 \wedge \omega_2
-    +
-    \omega_4
-  \right)
-$$
-
-$$
-  d
-  \left(
-    \tfrac{1}{4!} \omega_2^4 
-    +
-    \tfrac{1}{2} \omega_4 \wedge \omega_4
-    +
-    \omega_2 \wedge \omega_6
-  \right)
-  =
-  h_3 \wedge 
-  (
-    \tfrac{1}{2} \omega_2^3
-    +
-    2 \omega_2 \wedge \omega_4
-  )
-$$
-
-$$
-  d 
-  \left(
-    \tfrac{1}{5!} \omega_2^5
-    +
-    \tfrac{1}{3!} \omega_2^3 \wedge \omega_4
-    +
-    \tfrac{1}{2}\omega_2 \wedge \omega_4 \wedge \omega_4
-    +
-    \omega_4 \wedge \omega_6
-  \right)
-  =
-  h_3 \wedge
-  \left(
-    \tfrac{1}{4!} \omega_2^4
-    +  
-    (1 + \tfrac{1}{2}) \omega_2 \wedge \omega_2 \wedge \omega_4
-    +
-    \omega_2 \wedge \omega_6
-    +
-    \omega_4 \wedge \omega_4
-  \right)
-$$
-
-
-$\,$
-
-
-$\,$
-
-
-$$
-  0
-    \to
-  \mathbb{Z}
-    \overset{\phantom{AA} \iota \phantom{AA}}{\hookrightarrow}
-  \mathbb{R}
-    \overset{
-      \exp\left(  \tfrac{1}{2\pi i}(-) \right) 
-    }{ \longrightarrow }
-   U(1)
-     \to
-   0 
-$$
+The map
 
 $$
   \array{
-    && \mathbf{B}^n \mathbb{Z}
-    \\
-    & 
-      {}^{\mathllap{mod\, 2}}\swarrow 
-    && 
-    \searrow^{\mathrlap{(-)/2}}
-    \\
-    \mathbf{B}^n \mathbb{Z}/2\mathbb{Z}
-    && &&
-    \mathbf{B}^n \flat \mathbb{R}
-    \\
-    & 
-    {}_{\mathllap{
-      \exp\left(
-        \tfrac{1}{2 \cdot 2\pi i}(-)
-      \right)
-    }}\searrow 
-    && \swarrow_{\mathrlap{ \exp\left( \tfrac{1}{2 \pi i}(-) \right) }}
-    \\
-    && \mathbf{B}^{n} \flat U(1)
-    \\
-    && 
-    \downarrow^{ \mathrlap{ \cdot 2 } }
-    \\
-    && \mathbf{B}^{n} \flat U(1)
-    
+    \Sigma^\infty_{S^3}( S^4/\!/S^1 )
+    &
+      \overset{
+         \Sigma^\infty_{S^3}(\eta)
+      }{\longrightarrow}&
+    \Sigma^\infty_{S^3}( Cyc(S^4) )  
   }
 $$
 
-$\,$
-
-
-$\,$
-
-
-$\,$
-
-$\,$
-
-
-$\,$
-
-$\,$
+pulls back the generators $\omega_2, \omega_4, \omega_6$ of the Vigu&eacute; model to the generators of the same name in the Roig model:
 
 $$
-  H_3 \coloneqq A \wedge d A
+  \left\{
+    \omega_2, \omega_4, \omega_6
+  \right\}
+   \overset{\Sigma^\infty_{S^3}(\eta)^\ast}{\longleftarrow}
+  \left\{
+    \omega_2, \omega_4, \omega_6
+  \right\}
 $$
 
-$$
-  \begin{aligned}
-  \delta
-  \left(
-     \int_{X_{10}}
-     H_3 \wedge 
-     \star H_3
-  \right)
-  & =
-  2 \int_{X_{10}} \delta A  \wedge F_2 \wedge \star H_3
-  +
-  \int_{X_{10}}
-  A \wedge d \delta A
-  \wedge \star H_3
-  +
-  \int_{X_{10}}
-  H_3
-  \wedge \star ( A \wedge d \delta A)
-  \\
-  & =
-  2 \int_{X_{10}} \delta A  \wedge F_2 \wedge \star H_3
-  +
-  \int_{X_{10}}
-  A \wedge d \delta A
-  \wedge \star H_3
-  +
-  \int_{X_{10}}
-  ( A \wedge d \delta A)
-  \wedge \star 
-  H_3
-  \end{aligned}
-$$
+**Sketch of proof**.
+
+Recall the right base change adjunction (details are [here](https://ncatlab.org/schreiber/show/Super+Lie+n-algebra+of+Super+p-branes#GeneralReduction))
 
 $$
-  \begin{aligned}
-    & 
-    B^{a}{}_b \wedge B^b{}_c 
-    \partial_{B^a{}_{b'}} \partial_{B^{b'}{}_c}
-    (
-      B^{d}{}_e \wedge B^{e}{}_f
-    )
+  \mathbf{H}
+  \underoverset
+    {\underset{Cyc(-) = \mathcal{L}(-)/\!/ S^1}{\longrightarrow}}
+    {\overset{Ext(-) = hofib}{\longleftarrow}}
+    {\bot}
+  \mathbf{H}_{/B S^1}
+$$
+
+The unit
+
+$$
+  X \overset{\eta}{\longrightarrow} Cyc(Ext(X))
+$$
+
+sends a point in $X$ to the loop which winds at constant speed around the fiber over this point.
+
+What is the counit? To see this, observe that
+
+$$
+  Ext(Cyc(X)) = \mathcal{L}(X)
+$$
+
+is the free loop space.
+
+Hence the counit ought to be the base point evaluation
+
+$$
+  Ext(Cyc(X)) = \mathcal{L}(X) \overset{ev_{pt}}{\longrightarrow} X
+$$
+
+This implies with the zig-zag-identity that $Ext(\eta)$ is the identity on basepoints:
+
+$$
+  \array{
+    Ext(X) &\overset{Ext(\eta)}{\longrightarrow}& \mathcal{L}(Ext(X))
     \\
-    & =
-    B^{a}{}_b \wedge B^b{}_e 
-    \partial_{B^a{}_{d}} 
-    B^{e}{}_f
-    -     
-    B^{a}{}_b \wedge B^{b d} 
-    \partial_{B^{a e}} 
-    B^{e}{}_f
+    & {}_{\mathllap{id}}\searrow & \downarrow^{\mathrlap{ ev_{pt} }}
     \\
-    & \phantom{=}
-    -
-    B^{a}{}_b \wedge B^b{}_f 
-    \partial_{B^a{}_{b'}}
-    B^{d}{}_{b'} 
-    +
-    B^{a}{}_b \wedge B^b{}_c 
-    \partial_{B^{a f}} 
-    B^{d c} 
-    \\   
-    & =
-    B^{a}{}_b \wedge B^b{}_e 
-    -     
-    B^{a}{}_b \wedge B^{b d} 
-    \partial_{B^{a e}} 
-    B^{e}{}_f
-    \\
-    & \phantom{=}
-    -
-    B^{a}{}_b \wedge B^b{}_f 
-    \partial_{B^a{}_{b'}}
-    B^{d}{}_{b'} 
-    +
-    B^{a}{}_b \wedge B^b{}_c 
-    \partial_{B^{a f}} 
-    B^{d c} 
-    \\
-    & =
-    10 B_{f b} \wedge B^{b d}
-    -
-    10 B^d{}_b \wedge B^b{}_f
-    \\   
-    & = 
-    - 20 \cdot B^{d}{}_e \wedge B^{e}{}_f
-  \end{aligned}
+    && Ext(X)
+  }
 $$
 
+applied to the case that $X = S^4$ with
+
 $$
-  \eta^\alpha_\mu = \phi \psi^\alpha_\mu +  \Gamma^{\mu}{\alpha \beta} \partial_\mu \phi
+  Ext(\eta)
+  \;\colon\;
+  S^4 \longrightarrow \mathcal{L}(S^4)
 $$
 
-Nice latex
+this should say that 
 
-## classic ##
-`fixed width`
-### `oh! sweet nuthin'` 
-#### _she ain't got nuthin' at all_ ####
+$$
+  \Sigma^\infty_{S^3}(\eta)^\ast
+$$
+
+is the identity on the generator $\omega_4$ of $H^4(S^4)$:
+
+$$
+  \{\omega_4\}
+  \overset{
+    \Sigma^\infty_{S^3}(\eta)^\ast
+  }{\leftarrow}
+  \{\omega_4\}
+$$
+
+But then the respect for the differential
+
+$$
+  \array{
+    \{h_3 \wedge \omega_2\}
+    &&
+    \{h_3 \wedge \omega_2\}    
+    \\
+    {}^{\mathllap{d}}\uparrow && \uparrow^{\mathrlap{d}}
+    \\
+    \{\omega_4\}
+    &
+      \overset{ \Sigma^\infty_{S^3}(\eta)^\ast }{\leftarrow}&
+    \{\omega_4\}
+  }
+$$
+
+together with the $Sym(h_3)$-dg-module property
+implies that 
+
+$$
+  \{\omega_2\}
+  \overset{
+     \Sigma^\infty_{S^3}(\eta)^\ast
+  }{\leftarrow}
+  \{\omega_2\}
+$$
+
+Similarly the respect for the differential
+
+
+$$
+  \array{
+    \{h_4 \wedge \omega_2\}
+    &
+      \overset{
+        \Sigma^\infty_{S^3}(\eta)^\ast
+      }{
+        \leftarrow
+      }
+    &
+    \{h_4 \wedge \omega_2\}    
+    \\
+    {}^{\mathllap{d}}\uparrow && \uparrow^{\mathrlap{d}}
+    \\
+    \{\omega_6\}
+    &&
+    \{\omega_6\}
+  }
+$$
+
+implies that 
+
+
+$$
+  \{\omega_6\}
+    \overset{
+      \Sigma^\infty_{S^3}(\eta)^\ast
+    }{\leftarrow}
+  \{\omega_6\}
+$$
+
+
+**end of sketchy sketch**
+
