@@ -132,6 +132,7 @@ Since $\beta = \delta \circ \iota$, by [this example](Bockstein+homomorphism#Mod
 
 
 ## Examples
+ {#Examples}
 
 +-- {: .num_example #IntegralSteenrodSquareRefinedToOrdinaryDifferentialCohomology}
 ###### Example
