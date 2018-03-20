@@ -136,7 +136,7 @@ $$
 
 In [[Set]], filtered colimits commute with [[finite limits]].
 
-In fact, [[filtered categories]] $C$ are precisely those shapes of [[diagram]] categories such that colimits over them commute with all finite limits.
+In fact, [[filtered categories]] $C$ are precisely those shapes of [[diagram]] categories such that colimits over them commute with all finite limits in Sets.
 
 More generally, for $\kappa$ a [[regular cardinal]], then $\kappa$-filtered colimits commute with $\kappa$-small limits.
 
