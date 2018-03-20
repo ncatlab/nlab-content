@@ -31,7 +31,7 @@ at [[n-symplectic manifold]].
 
 ## Definition ##
 
-Let $\pi \in \Gamma(T X) \wedge \Gamma(T X)$ be a [[Poisson manifold]] structure, incarnated as a [[Poisson tensor]].
+Let $\pi \in \Gamma(\Wedge^2 TX)$ be a [[Poisson manifold]] structure, incarnated as a [[Poisson tensor]].
 
 ### As vector-bundle with anchor
 
