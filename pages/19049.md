@@ -27,22 +27,22 @@ As a comonadic triple $(D,\varepsilon,\delta)$ it is given by an [[endofunctor]]
 $$
 DX : X \rightarrow W \times [W,X],
 $$
-with [[natural transformations]],
+with [[natural transformations]] the counit,
 $$
 \varepsilon : DX \rightarrow Id_X 
 $$
 $$
-\varepsilon(v,f) \mapsto f(v)
+\varepsilon(v,f) \mapsto f(v),
 $$
-usually called _extraction_ and,
+usually called **extract** and comultiplication,
 $$
 \delta: DX \rightarrow DDX
 $$
 $$
-\delta (s, v) \mapsto (s, \lambda  s' . (s', v))
+\delta (s, v) \mapsto (s, \lambda  s' . (s', v)),
 $$ 
 
-simply called _duplication_.
+simply called **duplicate**.
 ## Properties
 
 ### Realization in dependent type theory
@@ -69,7 +69,7 @@ Here $\prod_W W^\ast = [W,-]$ is called the _[[function monad]]_ or _[[reader mo
 ## Reference
 * [[Bartosz Milewski]] [Lenses, Stores, and Yoneda](https://bartoszmilewski.com/2013/10/08/lenses-stores-and-yoneda/)
 
-*[Lenses are the coalgebras for the costate comonad](https://patternsinfp.wordpress.com/2011/01/31/lenses-are-the-coalgebras-for-the-costate-comonad/)
+* [Lenses are the coalgebras for the costate comonad](https://patternsinfp.wordpress.com/2011/01/31/lenses-are-the-coalgebras-for-the-costate-comonad/)
 
 ## Related concepts
 
