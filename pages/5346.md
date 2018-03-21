@@ -26,8 +26,11 @@ The _model structure on simplicial groups_ is a presentation of the [[∞-group]
 
 There is a [[model category]] structure on the [[category]] $sGrp$ of [[simplicial group]]s where a morphism is
 
-* is a weak equivalence if the underlying morphism is a weak equivalence in the standard [[model structure on simplicial sets]].
+* is a weak equivalence if the underlying morphism is a weak equivalence in the standard [[model structure on simplicial sets]];
 
+* is a fibration if the underlying morphism is a [[Kan fibration]] of simplicial sets;
+
+* is a cofibration if it has the [[left lifting property]] with respect to all trivial fibrations.
 
 ## Properties
 
