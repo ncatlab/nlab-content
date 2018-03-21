@@ -43,7 +43,6 @@ Also, all [[D-branes]] of [[type II string theory]] can be understood as arising
 
 ## References
 
-### General
 
 Discussion of a possible [[black brane|black]] 9-brane in 11d is in 
 
@@ -55,7 +54,7 @@ The term "M9-brane" maybe originates in
 
 A proposal for a description of the M9 as an [[schreiber:infinity-Wess-Zumino-Witten theory|higher WZW theory]] is in
 
-* Takeshi Sato, _A 10-form Gauge Potential and an M-9-brane Wess-Zumino Action in Massive 11D Theory_ ([arXiv:hep-th/9912030](http://arxiv.org/abs/hep-th/9912030))
+* Takeshi Sato, _A 10-form Gauge Potential and an M-9-brane Wess-Zumino Action in Massive 11D Theory_, Phys. Lett. B477 (2000) 457-468 ([arXiv:hep-th/9912030](http://arxiv.org/abs/hep-th/9912030))
 
 Discussion of how the [[M2-brane]] and the [[M5-brane]] may arise from this by [[tachyon condensation]] is in
 
@@ -71,13 +70,12 @@ See also
 
 * {#MoorePeradzeSaulina04} [[Gregory Moore]], Grigor Peradze, [[Natalia Saulina]], _Instabilities in heterotic M-theory induced by open membrane instantons_, Nucl.Phys. B607 (2001) 117-154 ([arXiv:hep-th/0012104](http://arxiv.org/abs/hep-th/0012104))
 
-* Takeshi Sato, _On M-9-branes and their dimensional reductions_ ([arXiv:hep-th/0102084](http://arxiv.org/abs/hep-th/0102084))
+* Takeshi Sato, _On M-9-branes and their dimensional reductions_, Nucl. Phys. Proc. Suppl. 102 (2001) 107-112 ([arXiv:hep-th/0102084](http://arxiv.org/abs/hep-th/0102084))
 
-### M5-branes ending on M9-branes
 
 Discussion of open [[M5-branes]] ending on the M9 is in
 
-* [[Eric Bergshoeff]], [[Gary Gibbons]], [[Paul Townsend]], _Open M5-branes_, Phys.Rev.Lett.97:231601 2006 ([arXiv:hep-th/0607193](http://arxiv.org/abs/hep-th/0607193))
+* [[Eric Bergshoeff]], [[Gary Gibbons]], [[Paul Townsend]], _Open M5-branes_, Phys. Rev. Lett. 97:231601 2006 ([arXiv:hep-th/0607193](http://arxiv.org/abs/hep-th/0607193))
 
 
 
