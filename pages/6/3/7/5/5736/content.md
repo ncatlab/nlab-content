@@ -14,5 +14,5 @@ category: people
 [[!redirects J. F. Jardine]]
 [[!redirects Jardine]]
 [[!redirects Rick Jardine]]
-
+[[!redirects Frederick Jardine]]
 [[!redirects John F. Jardine]]
