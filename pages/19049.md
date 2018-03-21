@@ -23,8 +23,26 @@
 
 The _store comonad_ (also _costate comonad_) is a co[[monad (in computer science)]] used to implement computational storage and retreaval of data in [[functional programming]].
 
-...
+As a comonadic triple $(D,\varepsilon,\delta)$ it is given by an [[endofunctor]],
+$$
+DX : X \rightarrow W \times [W,X],
+$$
+with [[natural transformations]],
+$$
+\varepsilon : DX \rightarrow Id_X 
+$$
+$$
+\varepsilon(v,f) \mapsto f(v)
+$$
+usually called _extraction_ and,
+$$
+\delta: DX \rightarrow DDX
+$$
+$$
+\delta (s, v) \mapsto (s, \lambda  s' . (s', v))
+$$ 
 
+simply called _duplication_.
 ## Properties
 
 ### Realization in dependent type theory
@@ -49,7 +67,9 @@ of [[context extension]], followed by [[dependent product]] , followed by [[cont
 Here $\prod_W W^\ast = [W,-]$ is called the _[[function monad]]_ or _[[reader monad]]_ and $\sum_W W^\ast = W \times (-)$ is the _[[writer comonad]]_.
 
 ## Reference
-[[Bartosz Milewski]] [Lenses, Stores, and Yoneda](https://bartoszmilewski.com/2013/10/08/lenses-stores-and-yoneda/)
+* [[Bartosz Milewski]] [Lenses, Stores, and Yoneda](https://bartoszmilewski.com/2013/10/08/lenses-stores-and-yoneda/)
+
+*[Lenses are the coalgebras for the costate comonad](https://patternsinfp.wordpress.com/2011/01/31/lenses-are-the-coalgebras-for-the-costate-comonad/)
 
 ## Related concepts
 
