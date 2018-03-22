@@ -38,16 +38,16 @@ The proofs most commonly seen in the literature are elementary but nonconstructi
 ###### Proof 
 Let $i: H \to G$ be monic, and let $\pi: G \to G/H$ be the canonical [[surjective function]] $g \mapsto g H$. Let $A$ be the [[free object|free]] [[abelian group]] on $G/H$ with $j: G/H \to A$ the canonical injection, and let $A^G$ denote the set of functions $f: G \to A$, with the pointwise abelian group structure inherited from $A$. This carries a $G$-[[module]] structure defined by 
 
-$$(g \cdot f)(g') = f(g' g^{-1}).$$ 
+$$(g \cdot f)(g') = f(g' g).$$ 
 
 For any $f \in A^G$, the function $d_f: G \to A^G$ defined by $d_f(g) = g f - f$ defines a [[derivation]], i.e., a map satisfying the equation $d_f(g g') = g d_f(g') + d_f(g)$. Consider now the wreath product, i.e., the [[semidirect product]] $A^G \rtimes G$, where the multiplication is defined by $(f, g) \cdot (f', g') = (f + g f', g g')$. By the derivation equation, we have a homomorphism $\phi: G \to A^G \rtimes G$ defined by $\phi(g) \coloneqq (d_{j \pi}(g), g)$, and there is a second homomorphism $\psi: G \to A^G \rtimes G$ defined by $\psi(g) \coloneqq (0, g)$. We claim that $i: H \to G$ is the equalizer of the pair $\phi, \psi$. For, 
 
 $$\array{ 
 d_{j\pi}(g) = 0 & \text{iff} & (\forall_{g': G})\; g\cdot j\pi(g') = j\pi(g') \\ 
- & \text{iff} & (\forall_{g': G})\; j\pi(g' g^{-1}) = j\pi(g') \\ 
- & \text{iff} & (\forall_{g': G})\; j(g' g^{-1}H) = j(g' H) \\ 
- & \text{iff} & (\forall_{g': G})\; g' g^{-1} H = g' H \\ 
- & \text{iff} & g^{-1} H = H \\ 
+ & \text{iff} & (\forall_{g': G})\; j\pi(g' g) = j\pi(g') \\ 
+ & \text{iff} & (\forall_{g': G})\; j(g' g H) = j(g' H) \\ 
+ & \text{iff} & (\forall_{g': G})\; g' g H = g' H \\ 
+ & \text{iff} & g H = H \\ 
  & \text{iff} & g \in H. 
 }$$ 
 
