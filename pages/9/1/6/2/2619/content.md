@@ -45,7 +45,14 @@ If $E$ is [[cartesian closed category|cartesian closed]] and the
 +-- {: .num_remark}
 ###### Remark
 
-The [[right adjoint]] in def. \ref{Atomic} is sometimes called an "[[amazing right adjoint]]", particularly in the context of [[synthetic differential geometry]].
+The [[right adjoint]] in def. \ref{Atomic} is sometimes called an "[[amazing right adjoint]]", particularly in the context of [[synthetic differential geometry]]. 
+
+=--
+
++-- {: .num_remark}
+###### Remark
+
+If $E$ is a [[sheaf topos]], then tiny objects and atomic objects coincide, by the [[adjoint functor theorem]]. **Proof:** Clearly any atomic object is tiny. For the converse, use a dual form of the special adjoint functor theorem (SAFT): $E$ is [[locally small category|locally small]], [[cocomplete category|cocomplete]], and [[well-powered category|co-well-powered]] (because for any object $X$, equivalence classes of [[epimorphisms]] with domain $X$ are in natural bijection with [[internal equivalence relations]] on $X$, and there is a small set of these because they are contained in a set isomorphic to $\hom(X \times X, \Omega)$), and finally $E$ has a [[generating set]] (namely, the set of associated [[sheaves]] of [[representables]] coming from a small [[site]] presentation for $E$). Under these conditions, the SAFT guarantees that any [[cocontinuous functor]] $E \to C$ has a right adjoint, provided that $C$ is locally small; then apply this to the case $C = Set$. 
 
 =--
 
