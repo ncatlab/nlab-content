@@ -37,3 +37,5 @@ There are interesting conditions and applications of the preorder on the sets of
 * Every [[Grothendieck topos]] is well-powered (by the existence of a [[subobject classifier]] and the smallness of [[hom sets]]).
 
 [[!redirects well powered category]]
+[[!redirects well-copowered category]]
+[[!redirects co-well-powered category]]
