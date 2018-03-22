@@ -102,7 +102,7 @@ This is closely related to the statement that the [[positive dimension spheres a
 +-- {: .num_defn}
 ###### Definition
 
-This may seem like quite a complicated kind of structure, but it is actually quite simple up to homotopy.  First of all, all $n$ concatenations of given maps $f$ and $g$ are homotopic, so we speak of simply a single __concatenation__ for $n \geq 1$ (and none for $n = 0$).  By the [[Eckmann?Hilton argument]], this concatenation will be commutative up to homotopy for $n \geq 2$.  In any case, it is [[associativity|associative]] and [[inverse|invertible]] up to homotopy, and the null element is an identity up to homotopy.
+This may seem like quite a complicated kind of structure, but it is actually quite simple up to homotopy.  First of all, all $n$ concatenations of given maps $f$ and $g$ are homotopic, so we speak of simply a single __concatenation__ for $n \geq 1$ (and none for $n = 0$).  By the [[Eckmann-Hilton argument]], this concatenation will be commutative up to homotopy for $n \geq 2$.  In any case, it is [[associativity|associative]] and [[inverse|invertible]] up to homotopy, and the null element is an identity up to homotopy.
 
 =--
 
@@ -214,7 +214,7 @@ See also the _[[Freudenthal suspension theorem]]_.
 
 ## Some general nonsense 
 
-Using the [[Eckmann?Hilton duality]] between
+Using the [[Eckmann-Hilton duality]] between
 [[cohomology]] and [[homotopy (as an operation)]] one may discuss homotopy groups along the same lines as the discussion of [[cohomology groups]]  (see there).
 
 From that perspective we might say that:
