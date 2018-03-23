@@ -73,6 +73,9 @@ and in ([[super Yang-Mills theory|super]]-)[[Yang-Mills theory]] and [[string th
 
 * [[Marcos Mariño]], _Lectures on non-perturbative effects in large N gauge theories, matrix models and strings_ ([arXiv:1206.6272](http://arxiv.org/abs/1206.6272))
 
+* {#Marino15} [[Marcos Mariño]], _Non-perturbative effects in string theory and AdS/CFT_, [Spring School on Superstring Theory and Related Topics 2015](http://indico.ictp.it/event/a14251/)  ([[MarinoNonPerturbative.pdf:file]], [pdf](http://indico.ictp.it/event/a14251/session/89/contribution/401/material/0/0.pdf))
+
+
 ### In string theory
 
 Identification of non-perturbative effects in string theory originates in
@@ -84,11 +87,18 @@ Identification of non-perturbative effects in string theory originates in
 
 The identification of non-perturbative contributions in [[string theory]] with brane contributions is due to
 
-* [[Katrin Becker]], [[Melanie Becker]], [[Andrew Strominger]], _Five-branes, membranes and nonperturbative string theory_, Nucl. Phys. B 456, 130 (1995) ([hep-th/9507158](http://arxiv.org/abs/hep-th/9507158))
+* {#BeckerBeckerStrominger95} [[Katrin Becker]], [[Melanie Becker]], [[Andrew Strominger]], _Five-branes, membranes and nonperturbative string theory_, Nucl. Phys. B 456, 130 (1995) ([hep-th/9507158](http://arxiv.org/abs/hep-th/9507158))
 
-A review specifically in [[type II string theory]] is in 
+Reviews specifically in [[type II string theory]] include
 
 * Hugo Looyestijn, _Non-perturbative effects in type IIA string theory_, Master Thesis 2006 ([pdf](http://testweb.science.uu.nl/ITF/teaching/2006/Looyestijn.pdf))
+
+* [[Angel Uranga]], _Non-perturbative effects and D-brane instanton resummation
+in string theory_ ([[UrangaNonPerturbativeBrane.pdf:file]], [pdf](https://indico.cern.ch/event/75810/contributions/1250733/attachments/1050849/1498253/uranga.pdf))
+
+### In M-Theory
+
+In [Becker-Becker-Strominger 95](#BeckerBeckerStrominger95) it was realized that the [[worldsheet instantons]] and [[D-brane instantons]] of string theory unify to [[membrane instantons]] (see [Marino 15, section 1.3](#Marino15))
 
 
 [[!redirects non-perturbative effects]]
