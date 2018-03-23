@@ -680,10 +680,15 @@ This was refined from integration to bare $\infty$-groupoids to an integration t
 
 (whose origin possibly preceeds that of Getzler's article).
 
-For general [[∞-Lie algebroid]]s the general idea of the integration process by "$d$-paths" had been indicated in 
+For general [[∞-Lie algebroids]] the general idea of the integration process by "$d$-paths" had been indicated in 
 
-* {#Severa01} [[Pavol ?evera]], _Some title containing the words "homotopy" and "symplectic", e.g. this one_ ([arXiv:math.SG/0105080](http://arxiv.org/abs/math.SG/0105080)).
+* {#Severa01} [[Pavol Severa]], _Some title containing the words "homotopy" and "symplectic", e.g. this one_ ([arXiv:math.SG/0105080](http://arxiv.org/abs/math.SG/0105080)).
+
 * Pavol &#352;evera, Michal &#352;ira&#328;, _Integration of differential graded manifolds_, [arxiv/1506.04898](http://arxiv.org/abs/1506.04898)
+
+Lie integration of [[dg-modules]] to [[smooth spectrum|smooth]] [[parameterized spectra]] ([[twisted cohomology|twisted]] [[differential cohomology theories]]);
+
+* [[Vincent Braunack-Mayer]], _[[schreiber:thesis Braunack-Mayer|Rational parameterized stable homotopy theory]]_, Zurich 2018 ([pdf](https://ncatlab.org/schreiber/show/thesis+Braunack-Mayer#pdf))
 
 Discussion of Lie integration of [[Lie algebroids]] by the path method is due to 
 
