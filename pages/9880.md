@@ -65,7 +65,7 @@ A central example of a non-perturbative effect is [[confinement]] (hence the "ma
 
 ### In field theory
 
-Discussion of non-perturbative effects in [[QCD]] are in
+The non-perturbative effects in [[QCD]] are in
 
 * [[Marcos Mariño]], _Instantons and Large $N$ -- An introduction to non-perturbative methods in QFT_ ([pdf](http://laces.web.cern.ch/laces/LACES10/notes/instlargen.pdf))
 
@@ -78,11 +78,13 @@ and in ([[super Yang-Mills theory|super]]-)[[Yang-Mills theory]] and [[string th
 
 ### In string theory
 
-Identification of non-perturbative effects in string theory originates in
+The form of the contribution of non-perturbative effects in string theory was originally observed in 
 
 * [[Stephen Shenker]], _The Strength of nonperturbative effects in string theory_, presented at the Cargese Workshop on Random Surfaces, Quantum Gravity and Strings, Cargese, France, May 1990 ([spire](http://inspirehep.net/record/298523?ln=en))
 
-* {#Witten95} [[Edward Witten]], section 2.2 of _[[String Theory Dynamics In Various Dimensions]]_, Nucl.Phys.B443:85-126,1995 ([arXiv:hep-th/9503124](http://arxiv.org/abs/hep-th/9503124))
+The interpretation via [[D-branes]] of non-perturbative effects in the string [[coupling constant]] is due to
+
+* [[Joseph Polchinski]], _Combinatorics of boundaries in string theory_, Phys. Rev. D 50, 6041 (1994) ([arXiv:hep-th/9407031](https://arxiv.org/abs/hep-th/9407031))
 
 
 The identification of non-perturbative contributions in [[string theory]] with brane contributions is due to
@@ -97,6 +99,10 @@ Reviews specifically in [[type II string theory]] include
 in string theory_ ([[UrangaNonPerturbativeBrane.pdf:file]], [pdf](https://indico.cern.ch/event/75810/contributions/1250733/attachments/1050849/1498253/uranga.pdf))
 
 ### In M-Theory
+
+The relation of non-pertrubative effects in string theory to [[M-theory]] goes back to
+
+* {#Witten95} [[Edward Witten]], section 2.2 of _[[String Theory Dynamics In Various Dimensions]]_, Nucl.Phys.B443:85-126,1995 ([arXiv:hep-th/9503124](http://arxiv.org/abs/hep-th/9503124))
 
 In [Becker-Becker-Strominger 95](#BeckerBeckerStrominger95) it was realized that the [[worldsheet instantons]] and [[D-brane instantons]] of string theory unify to [[membrane instantons]] (see [Marino 15, section 1.3](#Marino15))
 
