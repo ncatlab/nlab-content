@@ -2326,7 +2326,7 @@ This means that for applications to [[supergravity]] the inclusion of [[supergro
 
 ## References
 
-Traditional literature that involves super-Cartan geometry more or less explicitly and in the context of [[supergravity]] includes
+Traditional literature that involves super-Cartan geometry more or less explicitly and in the context of [[supergravity]] and its [[supergravity torsion constraints]] includes
 
 * {#Baaklini77a} N. S. Baaklini, _Spin 3/2 Field and Cartan's Geometry_, Letters in Mathematical Physics August 1977, Volume 2, Issue 1, pp 43-47
 
