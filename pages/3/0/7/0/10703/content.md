@@ -28,7 +28,7 @@ A statement in [[chromatic homotopy theory]] about periodicity of [[p-local spec
 
 ## Statement
 
-A *$v_n$-self map* on  a [[p-local spectrum|p-local]] [[finite spectrum]] $X$, for $n \geq 1$ is a map
+A *$v_n$-self-map* on  a [[p-local spectrum|p-local]] [[finite spectrum]] $X$, for $n \geq 1$ is a map
 
 $$
   f \;\colon\; \Sigma^k X \longrightarrow X
@@ -42,7 +42,9 @@ such that
 
 The periodicity theorem says: 
 
-Any [[p-local spectrum|p-local]] [[finite spectrum]] $X$ admits a $v_n$ periodicity map. ([Lurie 10, theorem 4](#Lurie10))
+Any [[p-local spectrum|p-local]] [[finite spectrum]] $X$ admits a $v_n$-self-map. ([Lurie 10, theorem 4](#Lurie10))
+
+It is a corollary of the theorem, that for any such space, there is a $v_n$-self-map, such that for $n \neq l$ the induced map $K(l)_\ast X \longrightarrow K(l)_\ast X$ is $0$, and not just nilpotent. ([Hopkins, Smith, Corollary 3.3](#HS))
 
 ## Related concepts
 
@@ -52,7 +54,8 @@ Any [[p-local spectrum|p-local]] [[finite spectrum]] $X$ admits a $v_n$ periodic
 
 The periodicity theorem is due to 
 
-* [[Ethan Devinatz]], [[Michael Hopkins]], [[Jeff Smith]], 1980s
+* [[Ethan Devinatz]], [[Michael Hopkins]], [[Jeff Smith]], 1980s, and appears in _Nilpotence and Stable Homotopy Theory II_
+ {#HS}
 
 A quick review is in
 
