@@ -30,12 +30,33 @@ which may be written $End(x)$ if the category $C$ is understood.  Up to equivale
 
 An endomorphism monoid is a special case of a monoid structure on an [[end]] construction. Let $d:D\to C$ be a diagram in $C$, where $C$ is a [[monoidal category]] (in the case above the monoidal structure is the [[cartesian product]] and $d$ is a constant diagram from the initial category). One defines $End(d)$ as an object in $C$, equipped with a natural transformation $a: End(d) \otimes d \to d$ which is universal in the sense that for all objects $Z \in C$, and any natural transformation $f: Z \otimes d \to d$ there exists a unique morphism $g: Z \to End(d)$ such $a \circ (g \otimes d) = f: Z \otimes d \to d$.
 
-+-- {: .un_prop}
++-- {: .num_prop}
 ###### Proposition
 
-If the universal object $(End(d),a)$ exists then there is a unique structure of a monoid $\mu: End(d) \otimes End(d) \to End(d)$, such that the map $a: End(d) \otimes d \to d$ is an [[action]].
+If the universal object $(End(d),a)$ exists then there is a unique structure of an [[internal structure|internal]] monoid $\mu: End(d) \otimes End(d) \to End(d)$, such that the map $a: End(d) \otimes d \to d$ is an [[action]]. 
 =--
 
++-- {: .num_prop} 
+###### Proposition 
+In a [[cartesian monoidal category]] $C$, if an endomorphism monoid $End(c)$ for an object $c: 1 \to C$ exists and is [[commutative monoid|commutative]], then $c$ is a [[subterminal object]]. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Let $k: c \to End(c)$ correspond to first projection $\pi_1: c \times c \to c$. Then the composition 
+
+$$c \times c \stackrel{k \times k}{\to} End(c) \times End(c) \stackrel{comp}{\to} End(c)$$ 
+
+(where $comp$ denotes internal composition) may be computed to be $k \pi_1$, corresponding to first projection $\pi_1: c \times c \times c \to c$. Thus, assuming commutativity of $End(c)$ and letting $\sigma$ generally denote a symmetry map, consideration of the diagram 
+
+$$\array{
+c \times c & \stackrel{k \times k}{\to} & End(c) \times End(c) & \stackrel{comp}{\to} & End(c) \\ 
+\mathllap{\sigma} \downarrow & & \mathllap{\sigma} \downarrow & & \downarrow \mathrlap{id} \\ 
+c \times c & \stackrel{k \times k}{\to} & End(c) \times End(c) & \stackrel{comp}{\to} & End(c)
+}$$ 
+
+leads to the conclusion that $k \pi_1 = k \pi_1 \sigma$, or $\pi_1 = \pi_2: c \times c \times c \to c$. We easily conclude $\pi_1 = \pi_2: c \times c \to c$, which forces equality $f = g$ for any two maps $f, g: d \to c$, so that the unique map $!: c \to 1$ is a [[monomorphism]]. 
+=-- 
 
 ## Related entries
 
