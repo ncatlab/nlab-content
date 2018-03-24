@@ -84,7 +84,7 @@ The form of the contribution of non-perturbative effects in string theory was or
 
 The interpretation via [[D-branes]] of non-perturbative effects in the string [[coupling constant]] is due to
 
-* [[Joseph Polchinski]], _Combinatorics of boundaries in string theory_, Phys. Rev. D 50, 6041 (1994) ([arXiv:hep-th/9407031](https://arxiv.org/abs/hep-th/9407031))
+* {#Polchinski94} [[Joseph Polchinski]], _Combinatorics of boundaries in string theory_, Phys. Rev. D 50, 6041 (1994) ([arXiv:hep-th/9407031](https://arxiv.org/abs/hep-th/9407031))
 
 
 The identification of non-perturbative contributions in [[string theory]] with brane contributions is due to
