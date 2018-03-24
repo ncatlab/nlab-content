@@ -4911,16 +4911,16 @@ no longer have
 [[coefficients]] in the simple [[line Lie-n algebras]] $b^{p+1}\mathbb{R}$ as in proposition \ref{HomotopyFibersOfLInfinityCocycles}.
 
 Instead they have coefficients in richer and in general non-abelian [[L-∞ algebras]].
-One says they ar [[cocycles]] in [[non-abelian cohomology]] theory.
+One says they are [[cocycles]] in [[non-abelian cohomology]] theory.
 By a phenomenon that has been called the [[Whitehead principle of non-abelian cohomology]],
 this means more concretely that these unified cocycles are in a
 _[[twisted cohomology|twisted]] [[generalized (Eilenberg-Steenrod) cohomology]] theory_.
 Command of the general concept of this name is not strictly necessary for the
 analysis of the brane cocycles below, but a rough idea of its basic ingredients
 will make the meaning of the constructions and results very transparent. Therefore we
-start below with a lighning overview of the idea
+start below with a lightning overview of the idea
 
-* _[Twisted generalizzed cohomology](#TwistedGeneralizedCohomology)_
+* _[Twisted generalized cohomology](#TwistedGeneralizedCohomology)_
 
 Since [[generalized (Eilenberg-Steenrod) cohomology|generalized cohomology]] is generally exhibited
 by classifying [[spaces]], specifically [[topological spaces]], to make use of these
