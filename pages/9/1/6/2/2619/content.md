@@ -147,7 +147,7 @@ In particular, if $F$ is externally tiny, hence a representable $C(-, c')$, we h
 
 $$G^F(c) = E(C(-, c) \times C(-, c'), G) \cong E(C(-, c \times c'), G) \cong G(c \times c')$$ 
 
-where the last isomorphism is by the [[Yoneda lemma]]. Since colimits in $PSh(C)$ are computed pointwise, whereby evaluation functors $ev_c: PSh(C) \to Set$ preserve colimits, this shows that $(-)^{C(-, c')}$ preserves colimits, so that $F = C(-, c')$ is internally tiny. 
+where the last isomorphism is by the [[Yoneda lemma]]. Since colimits in $PSh(C)$ are computed pointwise, whereby evaluation functors $ev_c: PSh(C) \to Set$ preserve colimits, we see that $(-)^{C(-, c')}: G \mapsto G(- \times c')$ preserves colimits, so that $F = C(-, c')$ is internally tiny. The amazing right adjoint $R$ in this case takes a presheaf $H$ to the presheaf $R H$ that takes an object $d$ to the set $(R H)(d) = E(C(- \times c', d), H)$. 
 =-- 
 
 (Compare the result [here](https://ncatlab.org/nlab/show/internally+projective+object#enough).) 
