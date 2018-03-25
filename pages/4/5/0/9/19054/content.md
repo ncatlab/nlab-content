@@ -21,36 +21,43 @@
 
 ## Idea
 
-Additive analytic geometry over the [[complex number]] is an analog of classical (multiplicative) [[complex analytic geometry]] obtained by replacing the convolution algebra $\ell^1(\N,\C)$ of converging power series of radius $1$ (discrete [[Mellin transforms]]) by the algebra $L^1(\R_+,\C)$ of integrable functions (continuous Mellin transforms).
+Additive analytic geometry over the [[complex number]] is an analog of classical (called here multiplicative) [[complex analytic geometry]] obtained by replacing the convolution algebra $\ell^1(\N,\C)$ of converging power series of radius $1$ (discrete [[Mellin transforms]]) by the algebra $L^1(\R_+,\C)$ of integrable functions (continuous Mellin transforms).
 The analog of the complex unit disc $D_m(0,1)=D(0,1)$ is the hyperbolic/additive unit disc
 $$D_a(-\infty,0)=\{s,Re(s)\leq 0\}\cup \{-\infty\},$$
 and the analog of the affine line $A^1_m=\C$ is the additive affine line
 $$A^1_a=\{-\infty\}\cup \C.$$
-The main interest of this new geometry is that it has a built in flow (action of $\R_+$ on itself) and its functions are locally given by continuous Mellin transforms.
+The main interest of this new geometry is that it has a built in flow (action of the additive monoid $\R_+$ on itself) and its functions are locally given by continuous Mellin transforms.
 
-One needs to use [[Dirac distribution|Dirac measures/distributions]] to relate directly the above two types of analytic geometries, by the relation on coordinates given by $z=e^s$ in an [[archimedean]] context, and $z=p^{-s}$ in a [[non-archimedean]] context.
+One may work, if needed with other kinds of functions/distributions on $\R_+$, for example if one wants to study distributional trace formulas.
+In any case, one needs to use [[Dirac distribution|Dirac measures/distributions]] to relate directly the above two types of analytic geometries, by the relation on coordinates given by $z=e^s$ in an [[archimedean]] context, and $z=p^{-s}$ in a [[non-archimedean]] context.
 
 Higher dimensional spaces may also be considered, but the lack of a unit element in $L^1$ makes the extension of the semi and sub-analytic topologies to this geometry a bit tricky.
-It forces whatever may be done
-in classical (multiplicative geometry) using the unit to be introduced by replacing it by an arbitrary $L^1$ function $h$. If one respects this inherent constraint of the situation, things go well with rational domains, that may be defined using convolution ideals using ``generalized projections'' associated to such arbitrary $L^1$ functions, for example $\pi_h:D^2_a\to D^1_a$ given by sending $f$ to $f\otimes h$ (here, the arbitrary variable $h$ replaces the unit $1$ of classical geometry, but one may of course give a link between the two approaches using distributions).
+It forces the user of this formalism to do whatever may be done in classical (multiplicative geometry) using the unit to be introduced by replacing it by an arbitrary $L^1$ function $h$. If one respects this inherent constraint of the situation, things work well with rational domains, that may be defined using convolution ideals using ``generalized projections'' associated to such arbitrary $L^1$ functions, for example $\pi_h:D^2_a\to D^1_a$ given on functions by sending $f$ to $f\otimes h$ (here, the arbitrary variable $h$ replaces the unit $1$ of classical geometry, but one may of course give a link between the two approaches using distributions, or using approximate convolution units).
  
 A full complex geometry with various topologies seems to emerge from these simple considerations.
 
 Additive analytic geometry also has a non-commutative and automorphic extension
-(formulated in spectral terms), that may be useful to study and formulate some problems of automorphic representation theory in a geometric context. For example, the results of Godement and Jacquet looks like a kind of pasting of two ``Mellin automorphic spectra'' along the usual automorphic spectrum, in this context.
+(formulated in spectral terms), that may be useful to study and formulate some problems of automorphic representation theory in a geometric context. For example, the results of Godement and Jacquet looks like a kind of pasting of two "Mellin automorphic spectra" along the usual automorphic spectrum, in this context.
 
 ## A simple example
 
-It is easy to paste two additive unit discs along their boundary $\R$,
-that is the spectrum of $L^1(\R)$, to get the additive version of
-the projective space $P^1_a(\C)=\{-\infty\}\cup \C\cup \{+\infty\}$ and
+One may paste two additive unit discs along their boundary $\R$,
+that is the spectrum of $L^1(\R)$ by $s\mapsto -s$ on $\C$,
+to get the additive version of the projective space
+$P^1_a(\C)=\{-\infty\}\cup \C\cup \{+\infty\}$ and
 the exponential map sends $P^1_a(\C)$ to the usual (multiplicative) projective space $P^1(\C)$. One may also paste two different discs along an annulus.
+Remark that there is also a way to use other pastings, such as
+$s\mapsto 1-s$. In any case, there is an analog of the homogeneous
+coordinate ring in this context, given by the quotient of
+$$(\A^1_a\times \A^1_a)-\{(-\infty,+\infty)\}$$
+by $(s_1,s_2)\mapsto (1-s_2,1-s_1)$, for example ($1$ may be replaced by $n$
+in higher dimensional situations).
 
-More generally, if $f$ is an additive analytic function defined of an additive disc, and if it may be extended to $P^1_a(\C)$ using a functional equation, then the complement of its set $S$ of zeroes gives an open subspace $U$ of the additive projective space. In good situations, this gives an additive subspace that is equipped with the given flow, and its embedding into projective space induces an identification between the associated additive de Rham cohomology spaces in degree $0$ and $2$. The Poincaré group of this space is generated by looping around each of the given points in the set $S$, that may be infinite.
+More generally, if $f$ is an additive analytic function defined of an additive disc, and if it may be extended to a projective space using a functional equation, then the complement of its set $S$ of zeroes gives an open subspace $U$ of an additive projective space. In good situations, this gives an additive subspace that is equipped with the given flow, and its embedding into projective space induces an identification between the associated additive de Rham cohomology spaces in degree $0$ and $2$. The Poincaré group of this space is generated by looping around each of the given points in the set $S$, that may be infinite.
 
 ## Additive Hodge theory
 
-One may develop an analog of [[Hodge theory]] in this context (working with real analytic additive functions in the $s$ and $\bar{s}$ coordinates, and the corresponding analog of the Laplacian; the formal theory with [[Sobolev spaces]] seems to carry through to this context). This will not give finite dimensionality of [[de Rham cohomology]], because of the above remark on the Poincaré group. However, such a Hodge theory may still have interesting applications related to its interaction with additive Poincaré duality, since, in good cases, all the given construction are compatible with the given flow.
+One may develop an analog of [[Hodge theory]] in this context (working with real analytic additive functions in the $s$ and $\bar{s}$ coordinates, and the corresponding analog of the Laplacian; the formal theory with [[Sobolev spaces]] seems to carry through to this context as one may see on wikipedia). This will not give finite dimensionality of [[de Rham cohomology]], because of the above remark on the Poincaré group. However, such a Hodge theory may still have interesting applications related to its interaction with Poincaré duality in additive de Rham cohomology, since, in good cases, all the given construction are compatible with the given flow.
 
 
 
