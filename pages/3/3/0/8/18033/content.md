@@ -5,7 +5,7 @@
 
 ## Idea
 
-The _conformal bootstrap program_ ([Belavin-Polyakov-Zamolofchikov 84](#BelavinPolyakovZamolofchikov84)) is an attempt to define an classify [[conformal field theories]] [[non-perturbative field theory|non-perturbatively]] by [[axiom|axiomatizing]] the properties of their [[operator product expansion]]/[[correlation functions]].
+The _conformal bootstrap program_ ([Belavin-Polyakov-Zamolofchikov 84](#BelavinPolyakovZamolofchikov84)) is an attempt to construct and classify [[conformal field theories]] [[non-perturbative field theory|non-perturbatively]] by [[axiom|axiomatizing]] the properties of their [[operator product expansion]]/[[correlation functions]].
 
 
 The conformal bootstrap was proposed in the 1970s as a strategy for calculating the properties of second-order phase transitions. After spectacular success elucidating two-dimensional systems, little progress was made on systems in higher dimensions until a recent renaissance beginning in 2008 ([Poland-Simmons-Duffin 16](#PolandSimmonsDuffin16)). 
