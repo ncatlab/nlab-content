@@ -1,4 +1,5 @@
 
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -80,17 +81,28 @@ For example
 
 * any category admitting a [[topological functor]] to [[Set]]
 
-* The category [[Grp]] of groups is total but not cototal (cf. [Wood 1982](#Wood82)).
+* The category [[Grp]] of groups as a category monadic over $Set$ is total, but it is not cototal; see below.
 
-* The category of topological groups is total as well since it is topological over the total category [[Grp]].
+* The category of [[topological groups]] is total as well since it is topological over the total category [[Grp]].
 
 * If $C$ is total and $J$ is small, then $C^J$ is total, morally because it is a reflective subcategory of $Set^{C^{op} \times J}$; see section 6 of [Kelly](#Kelly). 
 
-Thus, "most naturally-occurring" cocomplete categories are in fact total.  However, cototality is more rare.  But cototal categories do occur:
+Thus, "most naturally-occurring" cocomplete categories are in fact total. 
+
+In practice, i.e., in naturally occurring concrete cases, cototality is more rare. For example, it is frequently *not* the case that categories that are monadic over $Set$ are cototal. This is well-illustrated by the following two examples: 
+
+* The category of groups [[Grp]] is not cototal; if it were, then any continuous functor $Grp \to Set$ would be representable. To see this is not the case, it suffices to produce a class of [[simple groups]] $G_\alpha$ of unbounded [[cardinality]] (for example, for any [[infinite set]] $X$, the [[symmetric group]] $Aut(X)$ has a [[normal subgroup]] $Aut(X)_{fin}$ consisting of permutations of finite support, and then $Aut(X)/Aut(X)_{fin}$ is simple and of cardinality greater than $X$). For any group $G$, the hom-set $\hom(G_\alpha, G)$ consists of a single element (the trivial homomorphism) as soon as the cardinality of $G_\alpha$ exceeds that of $G$. Thus the class-indexed product $\prod_\alpha \hom(G_\alpha, G)$ is bounded in size, and defines a continuous functor $F = \prod_\alpha \hom(G_\alpha, -): Grp \to Set$. But it is clear this functor is not representable; e.g., for any group $G$, one can find $G_\alpha$ such that $F(G_\alpha)$ is much larger in size than $\hom(G, G_\alpha)$. This example is given in [Wood 1982](#Wood82). 
+
+* By a similar construction, the category of commutative rings is not cototal. For each infinite cardinal $\alpha$, choose a field $F_\alpha$ of size $\alpha$, e.g., an algebraically closed field over $\mathbb{Q}$ of transcendence degree $\alpha$. Put $A_\alpha = \mathbb{Z} \times F_\alpha$. Then, for any commutative ring $R$, there is exactly one homomorphism $A_\alpha \to R$ as soon as $\alpha$ exceeds the cardinality of $R$. Then one argues that $\prod_\alpha \hom(A_\alpha, -): CRing \to Set$ is continuous but not representable. 
+
+
+But cototal categories do occur:
 
 * [[Set]] is cototal (as well as total). 
 
 * [[Ab]] is cototal (as well as total), because it is complete, well-powered, and has a cogenerator (e.g., $\mathbb{Q}/\mathbb{Z}$). Similarly, the category of [[modules]] $R Mod$ is cototal (and total) for any [[ring]] $R$. For that matter, any [[well-powered category|well-powered]] [[Grothendieck category]], such as the category of [[abelian sheaves]] on a small [[site]], is cototal. 
+
+* The category $CH$ of [[compact Hausdorff spaces]] is cototal (as well as total, being monadic over $Set$), because like $Ab$ it is complete, well-powered, and has a cogenerator $I = [0, 1]$ (cf. [[Urysohn's lemma]]). 
 
 * If $C$ is cototal and $J$ is small, then $C^J$ is cototal. 
 
@@ -125,7 +137,7 @@ Thus, "most naturally-occurring" cocomplete categories are in fact total.  Howev
 
 * [[Ross Street]], _The family approach to total cocompleteness and toposes_ , Trans. A. M. S. **284** (1978) pp.355-369.
 
-* {#Wood82}R.J Wood, _Some remarks on total categories_, J. Algebra __75_:2, 1982, 538&#8211;545 <a href="http://dx.doi.org/10.1016/0021-8693(82)90055-2">doi</a>
+* {#Wood82} [[Richard J. Wood]], _Some remarks on total categories_, J. Algebra __75_:2, 1982, 538&#8211;545 <a href="http://dx.doi.org/10.1016/0021-8693(82)90055-2">doi</a>
 
 [[!redirects total categories]]
 [[!redirects cototal category]]
