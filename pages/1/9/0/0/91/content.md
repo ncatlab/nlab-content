@@ -235,7 +235,7 @@ The definition is reviewed around def. 1.4.5, p. 49 of
 
 See also
 
-* [[Sjoerd Crans]], _On combinatorial models for higher dimensional homotopies_ ([web](http://home.tiscali.nl/secrans/papers/comb.html))
+* [[Sjoerd Crans]], _On combinatorial models for higher dimensional homotopies_ ([web](https://web.archive.org/web/20130514164856/http://home.tiscali.nl/secrans/papers/comb.html))
 
 * [[R. Street]], _The petit topos of globular sets_ , JPAA **154** (2000) pp.299-315.
 
