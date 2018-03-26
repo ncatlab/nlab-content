@@ -25,7 +25,7 @@
 
 ## Idea
 
-The _Loday-Quillen-Tsygan theorem_ ([Loday-Quillen 84](#LodayQuillen84), [Tsygan 83](#Tsygan83)) states that for any [[associative algebra]], $A$ in [[characteristic zero]], the [[Lie algebra homology]] $H_\bullet(\mathfrak{gl}(A))$  of the infinite [[general linear Lie algebra]] $\mathfrak{gl}(A)$ with [[coefficients]] in $A$ is, up to a degree shift, the [[exterior algebra]] $\wedge(HC_{\bullet - 1}(A))$ on the [[cyclic homology]] $HC_{\bullet - 1}(A)$ of $A:
+The _Loday-Quillen-Tsygan theorem_ ([Loday-Quillen 84](#LodayQuillen84), [Tsygan 83](#Tsygan83)) states that for any [[associative algebra]], $A$ in [[characteristic zero]], the [[Lie algebra homology]] $H_\bullet(\mathfrak{gl}(A))$  of the infinite [[general linear Lie algebra]] $\mathfrak{gl}(A)$ with [[coefficients]] in $A$ is, up to a degree shift, the [[exterior algebra]] $\wedge(HC_{\bullet - 1}(A))$ on the [[cyclic homology]] $HC_{\bullet - 1}(A)$ of $A$:
 
 $$
   H_\bullet(\mathfrak{gl}(A))
