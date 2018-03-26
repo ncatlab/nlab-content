@@ -19,7 +19,7 @@ The [[forgetful functor]]/[[full and faithful functor|full and faithful]] [[subc
 into all [[topological spaces]] 
 
 $$
-  U \;\colon\; Top_{CHau} \hookrightarrow Top
+  U \;\colon\; Top_{CHaus} \hookrightarrow Top
 $$ 
 
 has a [[left adjoint]]
