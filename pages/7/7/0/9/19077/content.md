@@ -1,0 +1,30 @@
+Any triple of distinct points in a projective line over a field $K$ can be transformed by a [[projective transformation]] (an element of $PGL(2,K)$, in the case of $K = \mathbf{C}$ known as a  Möbius transformation) to another given triple of distinct points
+(the group $PGL(2,K)$ is 3-transitive on the projective line). Therefore no projective invariant can be attached to a triple of points and if three points are the starting parameters for some problem in projective geometry we may and typically do give them fixed values of $0,1,\infty$. 
+
+The simplest projective invariant can be attached to a quadruple of points and it is the cross ratio.
+
+$$
+(A,B,C,D) := \frac{A - C}{A - D}\frac{B - D}{B - C}
+$$
+
+If the cross ratio for $(A,B,C,D)$ is $\lambda$ and the order of the four points is changed than the cross ratio takes one of the following values, depending on the permutation:
+
+$$
+\lambda, \frac{1}\lambda, 1-\lambda, \frac{1}{1-\lambda}, \frac{\lambda - 1}\lambda, \frac\lambda{\lambda-1}
+$$ 
+
+An elementary introduction can be found in
+
+* Lucienne Félix, The modern aspect of mathematics, (Rus. transl.: Элементарная математика в современном изложении, 1967)
+
+and a quick overviews in
+
+* F. Labourie, What is a Cross Ratio, Notices of the AMS, 55 (2008), no. 10, pp.1234–1235 [pdf](https://www.math.u-psud.fr/~labourie/preprints/pdf/whatis.pdf)
+* wikipedia [cross-ratio](https://en.wikipedia.org/wiki/Cross-ratio), [Möbius transformation](https://en.wikipedia.org/wiki/M%C3%B6bius_transformation)
+
+There is a noncommutative version
+
+* Vladimir Retakh, _Noncommutative cross-ratios_, Journal of Geometry and Physics __82__ (2014) 13-17 [arxiv/1401.5770](https://arxiv.org/abs/1401.5770) [doi](https://doi.org/10.1016/j.geomphys.2014.04.001)
+
+
+category: geometry
