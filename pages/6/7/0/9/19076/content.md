@@ -45,6 +45,10 @@ and
 
 * {#Tsygan83} [[Boris Tsygan]], _Homology of matrix algebras over rings and the Hochschild homology_, Uspeki Math. Nauk., 38:217–218, 1983.
 
+See also [[additive K-theory]] and
+
+* [[Boris Tsygan]], [[Boris Feigin]],  _Additive K-theory_, in K-theory, arithmetic and geometry, LNM 1289 (1987), edited by Yu. I. Manin, pp. 67--209, seminar 1984-1986 in Moscow), [MR89a:18017](http://www.ams.org/mathscinet-getitem?mr=923136)
+
 Lecture notes include
 
 * {#Loday07} [[Jean-Louis Loday]], _Cyclic Homology Theory, Part II_, notes taken by Pawel Witkowsk (2007) ([pdf](https://www.impan.pl/swiat-matematyki/notatki-z-wyklado~/loday_cht_2.pdf))
