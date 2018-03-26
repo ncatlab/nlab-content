@@ -36,6 +36,7 @@ The [[equivariance|equivariant]] version of [[rational homotopy theory]].
 * [[rational parameterized stable homotopy theory]]
 
 ## References
+  {#References}
 
 The original reference for [[finite groups]] is
 
