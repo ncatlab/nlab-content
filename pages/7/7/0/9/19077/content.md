@@ -1,11 +1,14 @@
-Any triple of distinct points in a projective line over a field $K$ can be transformed by a [[projective transformation]] (an element of $PGL(2,K)$, in the case of $K = \mathbf{C}$ known as a  Möbius transformation) to another given triple of distinct points
-(the group $PGL(2,K)$ is 3-transitive on the projective line). Therefore no projective invariant can be attached to a triple of points and if three points are the starting parameters for some problem in projective geometry we may and typically do give them fixed values of $0,1,\infty$. 
+Any triple of distinct points in a projective line over a field $K$ can be transformed by a [[projective transformation]] (an element of $PGL(2,K)$, in the case of $K = \mathbf{C}$ known as a [[Möbius transformation]]) to another given triple of distinct points (i.e., the group $PGL(2,K)$ is 3-transitive on the projective line). Therefore no projective invariant can be attached to a triple of points and if three points are the starting parameters for some problem in projective geometry we may and typically do give them fixed values of $0,1,\infty$. The unique element in $PGL_2(K)$ that takes $(A, B, C)$ to $(\infty, 0, 1)$ may be described as the [[fractional linear transformation]] 
 
-The simplest projective invariant can be attached to a quadruple of points and it is the cross ratio.
+$$p_{A, B, C}: z \mapsto \frac{z - B}{z - A} \cdot \frac{C - A}{C - B}$$  
+
+The simplest projective invariant can be attached to a quadruple of points and it is the cross ratio. It can be expressed in various ways, e.g., 
 
 $$
-(A,B,C,D) := \frac{A - C}{A - D}\frac{B - D}{B - C}
+(A,B,C,D) \coloneqq \frac{A - C}{A - D}\frac{B - D}{B - C}
 $$
+
+but it is the value $p_{A, B, C}(D)$ using the fractional linear transformation above. 
 
 If the cross ratio for $(A,B,C,D)$ is $\lambda$ and the order of the four points is changed than the cross ratio takes one of the following values, depending on the permutation:
 
