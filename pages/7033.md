@@ -1,6 +1,10 @@
 
 > under construction. For the moment see _[[sigma-model]]_.
 
+## Related concepts
+
+* [[gauged WZW model]]
+
 ## References
 
 * _Quasi-Topological Gauged Sigma Models, The Geometric Langlands Program, And Knots_ ([arXiv:1111.0691](http://arxiv.org/abs/1111.0691))
