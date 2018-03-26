@@ -367,7 +367,7 @@ This is easy to see in low dimensions:
     \,.
   $$
 
-* a 2-cell $\phi \in C_2$ in the [[simplicial set]] $C$ has two incoming 1-cells $d_2 \phi, d_0 \phi \in C_1$ and one outgoing 1-cell $d_1 \phi \in C_1$, and if we think of the two incoming 1-cells as representing the composite of the corresponding 1-morphisms, we may picture te 2-cell $\phi$ here as a globular 2-morphism
+* a 2-cell $\phi \in C_2$ in the [[simplicial set]] $C$ has two incoming 1-cells $d_2 \phi, d_0 \phi \in C_1$ and one outgoing 1-cell $d_1 \phi \in C_1$, and if we think of the two incoming 1-cells as representing the composite of the corresponding 1-morphisms, we may picture the 2-cell $\phi$ here as a globular 2-morphism
 
   $$
     \array{
