@@ -110,6 +110,7 @@ Observe that in the special case that $X = G$ equipped with its canonical right 
 * [[action Lie algebroid]], [[BRST complex]]
 
 ## References
+  {#References}
 
 The Weil model is discussed for instance in 
 
