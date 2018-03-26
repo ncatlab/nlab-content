@@ -286,13 +286,13 @@ By general nonsense, every $\beta S$, regarded as a free $\beta$-algebra, is a c
 
 $$\beta: Set \to Comp$$ 
 
-is [[left adjoint]] to the [[forgetful functor]] $Comp \to Set$.  Assuming the ultrafilter principle, this functor extends to a functor $\beta: Top \to Comp$ (identifying a set with its [[discrete space]]) that is left adjoint to the forgetful functor $Comp \to Top$.  This is the __[[Stone–?ech compactification]]__ functor (N.B.: for many authors, Stone--&#268;ech compactification refers to the restriction of this functor to [[Tychonoff spaces]] $X$, which are precisely those spaces where the unit $X \to \beta X$ is an [[embedding]] so that we have a [[compactification]] in the technical sense).
+is [[left adjoint]] to the [[forgetful functor]] $Comp \to Set$.  Assuming the ultrafilter principle, this functor extends to a functor $\beta: Top \to Comp$ (identifying a set with its [[discrete space]]) that is left adjoint to the forgetful functor $Comp \to Top$.  This is the __[[Stone–Čech compactification]]__ functor (N.B.: for many authors, Stone--&#268;ech compactification refers to the restriction of this functor to [[Tychonoff spaces]] $X$, which are precisely those spaces where the unit $X \to \beta X$ is an [[embedding]] so that we have a [[compactification]] in the technical sense).
 
 A classical construction of the Stone--&#268;ech compactification starts with the unit [[interval]] $I =[0, 1]$ and proceeds to the [[codensity monad]] induced from the functor 
 
 $$\hom(-, I) \colon Top^{op} \to Set.$$ 
 
-The monad is given on objects by $X \mapsto I^{\hom(X, I)}$; this lands in compact Hausdorff spaces. Let $\bar{X}$ be the closure of the [[image]] of the unit $u_X: X \to I^{\hom(X, I)}$; under the ultrafilter principle, $\bar{X}$ is compact Hausdorff. 
+The monad is given on objects by $X \mapsto I^{\hom(X, I)}$; this lands in compact Hausdorff spaces under the ultrafilter principle. Let $\bar{X}$ be the closure of the [[image]] of the unit $u_X: X \to I^{\hom(X, I)}$; this $\bar{X}$ is compact Hausdorff. 
 
 +-- {: .num_prop} 
 ###### Proposition 
@@ -340,7 +340,7 @@ The category $Comp$ of compact Hausdorff spaces and continuous maps is
 
 * a [[total category]] (by monadicity over $Set$), and 
 
-* a cototal category (because it is complete, well-powered, and has a [[cogenerator]] given by the unit interval $I = [0, 1]$). 
+* a [[total category|cototal category]] (because it is [[complete category|complete]], [[well-powered category|well-powered]], and has a [[cogenerator]] given by the unit interval $I = [0, 1]$). 
 
 From the first two properties, it follows that $Comp$ is a [[pretopos]], meaning that $Comp$ enjoys the same finitary exactness properties that hold in a [[topos]]; in particular, first-order intuitionistic logic may be enacted within $Comp$. 
 
