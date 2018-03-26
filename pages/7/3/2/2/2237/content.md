@@ -13,6 +13,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -323,6 +324,8 @@ More details are in
 
 
 * Matvei Libine, _Lecture Notes on Equivariant Cohomology_ ([arXiv](http://arxiv.org/abs/0709.3615))
+
+* Sébastien Racanière, _Lecture on Equivariant Cohomology_, 2004 ([[RacaniereEquivariant04.pdf:file]])
 
 For a brief modern surves see also the first three sections of
 
