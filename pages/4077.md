@@ -42,9 +42,23 @@ where each inclusion $G_i \subseteq G_{i+1}$ is a [[normal subgroup]] and the qu
 Thus finite simple groups are in some sense the primitive building blocks of finite groups generally. The massive program of classifying all finite simple groups was announced as completed by Daniel Gorenstein in 1983, although some doubts remained because there were some gaps in proofs. Most if not all the gaps are considered by experts in the area to have been filled, but there remain some notable skeptics, including for example [[Jean-Pierre Serre]] and [[John H. Conway]] (verification needed here). See [[classification of finite simple groups]]. 
 
 
+### Directed colimits 
+
++-- {: .num_prop #directed} 
+###### Proposition 
+Let $S_\alpha$ be a directed system of simple groups and monomorphisms between them. Then $colim_\alpha S_\alpha$ is also simple. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+Suppose $N$ is a normal subgroup of $colim_\alpha S_\alpha$ with a non-identity element. Then $N_\alpha = N \cap S_\alpha$ is normal in $S_\alpha$ (if $x \in S_\alpha$ and $y \in N \cap S_\alpha$, then clearly $x y x^{-1}$ belongs to both $N$ and $S_\alpha$). As soon as $\alpha$ is large enough that $S_\alpha$ contains a non-identity element of $N$, it follows from simplicity of $S_\alpha$ that $N_\alpha = S_\alpha$. By directedness, this shows $N_\alpha = S_\alpha$ for all $\alpha$, and since for any $s \in S$ there is $\alpha$ such that $s \in S_\alpha$, we conclude $s \in S_\alpha = N_\alpha \subseteq N$, i.e., $N$ contains any $s \in S$. 
+=-- 
+
 ### Infinite simple groups
 
-There are simple groups of any [[cardinality]] $\kappa$; take for example the smallest normal subgroup of the [[automorphism group]] $Aut(\kappa)$ containing all 3-cycles (this is the infinite version of the [[alternating group]]).
+There are simple groups of any infinite [[cardinality]] $\kappa$; take for example the smallest normal subgroup of the [[automorphism group]] $Aut(\kappa)$ containing all 3-cycles (this is the infinite version of the [[alternating group]]).
+
+To see this is simple, it is enough to observe that $Alt(\kappa)$ is a directed colimit of $Alt(X)$ where $X$ ranges over finite subsets of $\kappa$ of cardinality at least $5$; then simplicity of $A_n$ for integers $n \geq 0$, coupled with Proposition \ref{directed}, yields the desired result. 
 
 
 [[!redirects simple group]]
