@@ -8,6 +8,7 @@
 * [[synthetic projective geometry]]
 
 * [[conic section]]
+* [[cross ratio]]
 
 
 ## References
