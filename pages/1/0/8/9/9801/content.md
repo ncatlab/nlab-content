@@ -128,12 +128,12 @@ The original articles are
 
 * [[Edward Witten]], Commun. Math. Phys. 92 (1984) 455.
 
-* [[Krzysztof Gaw?dzki]], A. Kupiainen, _G/H conformal field theory from gauged WZW model_ Phys. Lett. 215B, 119 (1988); 
+* [[Krzysztof Gawedzki]], A. Kupiainen, _G/H conformal field theory from gauged WZW model_ Phys. Lett. 215B, 119 (1988); 
 
 
-* [[Krzysztof Gaw?dzki]], A. Kupiainen, _Coset construction from functional integrals_, Nucl. Phys. B 320 (FS), 649 (1989)
+* [[Krzysztof Gawedzki]], A. Kupiainen, _Coset construction from functional integrals_, Nucl. Phys. B 320 (FS), 649 (1989)
 
-* [[Krzysztof Gaw?dzki]], in _From Functional Integration, Geometry and Strings_, ed. by Z. Haba and J. Sobczyk (Birkhaeuser, 1989).
+* [[Krzysztof Gawedzki]], in _From Functional Integration, Geometry and Strings_, ed. by Z. Haba and J. Sobczyk (Birkhaeuser, 1989).
 
 The (curvature of the)gauged WZW term was recognized/described as a  [[cocycle]] in [[equivariant de Rham cohomology]] is in the appendix of 
 
