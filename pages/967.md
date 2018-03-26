@@ -67,7 +67,12 @@ $(\mathcal{O} \dashv Spec)$-[[adjunction]] discussed at _[[Isbell duality]]_ and
 
 ## Examples
 
-Any [[cocomplete category|cocomplete]] and [[epi-cocomplete category|epi-cocomplete]] category with a [[generator]] is total.  (And more generally, any cocomplete and $E$-complete category with an $E$-generator is total, for a suitable class $E$.)  See ([Day](#Day)), theorem 1, for a proof.  This includes:
++-- {: .num_prop #Day} 
+###### Proposition 
+Any [[cocomplete category|cocomplete]] and [[epi-cocomplete category|epi-cocomplete]] category with a [[generator]] is total. More generally, any cocomplete and $E$-complete category with an $E$-generator is total, for a suitable class $E$.  
+=-- 
+
+See ([Day](#Day)), theorem 1, for a proof.  This includes:
 
 * [[locally presentable category|locally presentable categories]], hence in particular [[Grothendieck toposes]], or the category of [[abelian sheaves]] on a small [[site]].
 
@@ -100,9 +105,9 @@ But cototal categories do occur:
 
 * [[Set]] is cototal (as well as total). 
 
-* [[Ab]] is cototal (as well as total), because it is complete, well-powered, and has a cogenerator (e.g., $\mathbb{Q}/\mathbb{Z}$). Similarly, the category of [[modules]] $R Mod$ is cototal (and total) for any [[ring]] $R$. For that matter, any [[well-powered category|well-powered]] [[Grothendieck category]], such as the category of [[abelian sheaves]] on a small [[site]], is cototal. 
+* By dualizing Proposition \ref{Day}, [[Ab]] is cototal (as well as total), because it is complete, well-powered, and has a cogenerator (e.g., $\mathbb{Q}/\mathbb{Z}$). Similarly, the category of [[modules]] $R Mod$ is cototal (and total) for any [[ring]] $R$. For that matter, any [[well-powered category|well-powered]] [[Grothendieck category]], such as the category of [[abelian sheaves]] on a small [[site]], is cototal. 
 
-* The category $CH$ of [[compact Hausdorff spaces]] is cototal (as well as total, being monadic over $Set$), because like $Ab$ it is complete, well-powered, and has a cogenerator $I = [0, 1]$ (cf. [[Urysohn's lemma]]). 
+* Similarly, the category $CH$ of [[compact Hausdorff spaces]] is cototal (as well as total, being monadic over $Set$), because like $Ab$ it is complete, well-powered, and has a cogenerator $I = [0, 1]$ (cf. [[Urysohn's lemma]]). 
 
 * If $C$ is cototal and $J$ is small, then $C^J$ is cototal. 
 
