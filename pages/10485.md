@@ -76,6 +76,7 @@ Discussion via [[higher dimensional WZW models]] is in
 
 * Michael Levin, Zheng-Cheng Gu, Braiding statistics approach to symmetry-protected topological phases, Phys. Rev. B 86, 115109 (2012), arXiv:1202.3120.
 * Yuan-Ming Lu, Ashvin Vishwanath, Theory and classification of interacting 'integer' topological phases in two dimensions: A Chern-Simons approach, Phys. Rev. B 86, 125119 (2012), arXiv:1205.3156.
+* Davide Gaiotto, Theo Johnson-Freyd, _Symmetry protected topological phases and generalized cohomology_, [arxiv/1712.07950](https://arxiv.org/abs/1712.07950)
 
 #### Conference and seminar cycles
 
