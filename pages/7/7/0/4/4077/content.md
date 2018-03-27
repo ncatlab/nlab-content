@@ -39,7 +39,19 @@ $$1 = G_0 \subseteq G_1 \subseteq \ldots \subseteq G_n = G$$
 
 where each inclusion $G_i \subseteq G_{i+1}$ is a [[normal subgroup]] and the quotient $G_{i+1}/G_i$ (called a **composition factor**) is simple. The condition of simplicity means that that the filtration cannot be further refined by addition of strict inclusions of normal subgroups. Furthermore, the [[Jordan-Hölder theorem]] ensures that any two composition series have the same length and the same composition factors (up to permutation). 
 
-Thus finite simple groups are in some sense the primitive building blocks of finite groups generally. The massive program of classifying all finite simple groups was announced as completed by Daniel Gorenstein in 1983, although some doubts remained because there were some gaps in proofs. Most if not all the gaps are considered by experts in the area to have been filled, but there remain some notable skeptics, including for example [[Jean-Pierre Serre]] and [[John H. Conway]] (verification needed here). See [[classification of finite simple groups]]. 
+Thus finite simple groups are in some sense the primitive building blocks of finite groups generally. The massive program of classifying all finite simple groups was announced as completed by Daniel Gorenstein in 1983, although some doubts remained because there were some gaps in proofs. Most if not all the gaps are considered by experts in the area to have been filled, but there remain some notable skeptics, including for example [[Jean-Pierre Serre]], who said in an interview 
+
+> Whenever I asked the specialists, they replied something like: "Oh no, 
+  it is not a gap; it is just something which has not been written, but 
+  there is an incomplete unpublished 800-page manuscript on it."  For me, 
+  it was just the same as a "gap," and I could not understand why it was 
+  not acknowledged as such. ([Source](https://cs.nyu.edu/pipermail/fom/2008-November/013181.html))
+
+and possibly also [[John H. Conway]], although according to [Joe Shipman](https://cs.nyu.edu/pipermail/fom/2008-November/013178.html), 
+
+> A few months ago I was discussing the COFSG with John Conway and he was still pessimistic. (Meaning of course that he was confident the classification was correct, "optimistic" in his case means there are previously undiscovered finite simple groups, because they're beautiful and interesting objects and it would be disappointing to have no more.)
+
+See [[classification of finite simple groups]]. 
 
 
 ### Directed colimits 
@@ -82,7 +94,7 @@ An infinite group $G$ embeds in $Q_G$ via the Cayley embedding
 
 $$G \hookrightarrow Sym(G) \to Sym(G)/N_G = Q_G$$ 
 
-noting that for any $g \in G$, the permutation $Cayley(g) = (h \mapsto g h)$ has no fixed points, hence does not belong to $N_G$, so that $G \to Q_G$ is indeed monic. 
+noting that for any non-identity $g \in G$, the permutation $Cayley(g) = (h \mapsto g h)$ has no fixed points, hence does not belong to $N_G$, so that $G \to Q_G$ is indeed monic. 
 =-- 
 
 
