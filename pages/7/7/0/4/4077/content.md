@@ -64,7 +64,7 @@ A rather deeper set of examples is afforded by the following result, which follo
 
 +-- {: .num_theorem} 
 ###### Theorem 
-For an infinite set $X$, every proper normal subgroup of the permutation group $Sym(X)$ is contained in a maximal such normal subgroup $N_X$ consisting of all permutations that fix all but $\kappa$ many elements of $X$, for some cardinal $\kappa \lt {|X|}$. 
+For an infinite set $X$, every proper normal subgroup of the permutation group $Sym(X)$ is contained in a maximal such normal subgroup $N_X$, consisting of all permutations that move fewer than ${|X|}$ many elements of $X$, where ${|X|}$ is the cardinality of $X$. 
 =-- 
 
 It follows that the quotient group $Q_X = Sym(X)/N_X$ is simple, and we have the following corollary. 
@@ -76,7 +76,7 @@ Every group embeds into a simple group.
 
 +-- {: .proof} 
 ###### Proof 
-For finite groups $G$ (WLOG, of cardinality at least $3$), we have the Cayley embedding $G \hookrightarrow Sym(G)$ into the permutation group of the underlying set, and there is an embedding $Sym(G) \hookrightarrow Alt(G + 2)$ which carries an even permutation on $G$ to the obvious even permutation on $G + 2$ that fixes the elements $a, b$ of $2$, and an odd permutation $\pi$ on $G$ to the even permutation $\pi (a\; b)$. 
+For finite groups $G$ (WLOG, of cardinality at least $3$), we have the Cayley embedding $G \hookrightarrow Sym(G)$ into the permutation group of the underlying set, and there is an embedding $Sym(G) \hookrightarrow Alt(G + 2)$ which carries an even permutation on $G$ to the obvious even permutation on $G + 2$ that fixes the elements $a, b$ of $2$, and an odd permutation $\pi$ on $G$ to the even permutation $\pi (a\; b)$. Hence $G$ embeds in a simple group $Alt(G + 2)$. 
 
 An infinite group $G$ embeds in $Q_G$ via the Cayley embedding 
 
