@@ -8,7 +8,7 @@ $$
 (A,B,C,D) \coloneqq \frac{A - C}{A - D}\frac{B - D}{B - C}
 $$
 
-but it is the value $p_{A, B, C}(D)$ using the fractional linear transformation above. 
+which is the value $p_{A, B, C}(D)$ using the fractional linear transformation above. 
 
 If the cross ratio for $(A,B,C,D)$ is $\lambda$ and the order of the four points is changed than the cross ratio takes one of the following values, depending on the permutation:
 
