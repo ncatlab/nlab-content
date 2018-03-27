@@ -64,7 +64,7 @@ is defined by the the pair $(E\otimes_{\psi}F,\varphi\otimes \psi)$, where
 $$
 \begin{array}{lccc}
 \varphi\otimes\psi \colon & A & \to & \mathcal{L}_C(E\otimes_{\psi}F) \\
-& a & \mapsto & \varphi(a)(\cdot)\otimes_{\psi}\psi(a)(\cdot)
+& a & \mapsto & \varphi(a)(\cdot)\otimes_{\psi}(\cdot)
 \end{array}
 $$
 =--
