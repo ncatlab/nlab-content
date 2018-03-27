@@ -236,6 +236,7 @@ There seems to be a close relation between the description of [[quantum field th
 The relation of locally constant factorization algebras to higher order [[Hochschild homology]] is in 
 
 * [[Gregory Ginot]], Thomas Tradler, Mahmoud Zeinalian, _Derived higher Hochschild homology, topological chiral homology and factorization algebras_, [arxiv/1011.6483](http://arxiv.org/abs/1011.6483)
+* [[Gregory Ginot]], _Notes on factorization algebras, factorization homology and applications_, [arxiv/1307.5213](https://arxiv.org/abs/1307.5213)
 
 A comparison with FQFT for TFTs is presented in
 
@@ -249,6 +250,12 @@ An [[(infinity,1)-category theory|(infinity,1)-category theoretic ]] treatment o
 A construction of [[chiral differential operator]]s via quantization of $\beta\gamma$ system in [[BV formalism]] with an intermediate step using factorization algebras:
 
 * Vassily Gorbounov, Owen Gwilliami, Brian Williams, _Chiral differential operators via Batalin-Vilkovisky quantization_, [pdf](http://people.mpim-bonn.mpg.de/gwilliam/cdo.pdf)
+* Brian Williams, _The Virasoro vertex algebra and factorization algebras on Riemann surfaces_, Lett. Math. Phys. __107__:12, 2189–2237 (2017) [doi](https://dx.doi.org/10.1007/s11005-017-0982-7)
+
+A version of bosonic string theory related to factorization algebras is presented in
+
+* Owen Gwilliam, Brian Williams, _The holomorphic bosonic string?, [arxiv/1711.05823](https://arxiv.org/abs/1711.05823)
+
 
 A higher-dimensional generalization of vertex algebras is suggested in the framework of factorization algebras in
  
