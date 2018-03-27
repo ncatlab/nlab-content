@@ -28,11 +28,7 @@ An **elegant Reedy category** is a [[Reedy category]] $R$ such that the followin
 
 * Every [[span]] of codegeneracy maps in $R_-$ has an [[absolute colimit|absolute]] [[pushout]] in $R_-$.
 
-* Both the following conditions hold:
-
-  1. For every monomorphism $A\hookrightarrow B$ of presheaves on $R$, every nondegenerate element of $A$ remains nondegenerate in $B$.
-
-  1. Every element of a presheaf $R$ is a degeneracy of some nondegenerate element in a unique way.
+* Every element of a presheaf $R$ is a degeneracy of some nondegenerate element in a unique way.
 
 =--
 
@@ -49,6 +45,15 @@ If $R$ is elegant, then every codegeneracy map (i.e. morphism in $R_-$) is a [[s
 +-- {: .proof}
 ###### Proof
 Let $f:x\to y$ be a codegeneracy map; then the span $y \xleftarrow{f} x \xrightarrow{f} y$ has an absolute pushout, consisting of say $g:y\to z$ and $h:y\to z$ with $g f = h f$.  This absolute pushout is preserved by $R(z,-)$, so $1_z\in R(z,z)$ must be the image under $g$ or $h$ of some map $s:z\to y$; WLOG say it is $g$, so we hav $1_z = g s$.  Now we have $s h:y\to y$ and $1_y$ such that $g s h = h = h 1_y$, and our absolute pushout is preserved by $R(y,-)$, so there must be a zigzag of elements in $R(y,z)$ relating $s h$ to $1_y$.  At one end of that zigzag, there must be a $t:y\to x$ such that $f t = 1_y$; hence $f$ is split epi.
+=--
+
++-- {: .num_lemma #MonoPreservesDeg}
+###### Corollary
+For every monomorphism $A\hookrightarrow B$ of presheaves on $R$, every nondegenerate element of $A$ remains nondegenerate in $B$.
+=--
++-- {: .proof}
+###### Proof
+Let $a$ be a nondegenerate element of $A_x$, for some $x\in R$, $f : x \to y$ a codegeneracy map, and $b\in B_y$ such that $B_f b = a$. We have to show that $f = \id$. By Lemma \ref{DegSplit}, $f$ has a section $s: y \to x$, hence $B_s a = B_s B_f b = b$, which implies that $b \in A_y$. Since $a$ is nondegenerate, it follows that $f = \id$.
 =--
 
 ### Degeneracies in subobjects
