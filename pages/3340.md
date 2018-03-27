@@ -141,6 +141,8 @@ $$
 
 ## Related entries 
 
+* [[additive K-theory]]
+
 * [[cycle category]], [[cyclic object]], [[Hochschild homology]]
 
 * [[Sullivan model of free loop space]]
