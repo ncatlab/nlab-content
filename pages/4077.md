@@ -58,7 +58,32 @@ Suppose $N$ is a normal subgroup of $colim_\alpha S_\alpha$ with a non-identity 
 
 There are simple groups of any infinite [[cardinality]] $\kappa$; take for example the smallest normal subgroup of the [[automorphism group]] $Aut(\kappa)$ containing all 3-cycles (this is the infinite version of the [[alternating group]]).
 
-To see this is simple, it is enough to observe that $Alt(\kappa)$ is a directed colimit of $Alt(X)$ where $X$ ranges over finite subsets of $\kappa$ of cardinality at least $5$; then simplicity of $A_n$ for integers $n \geq 0$, coupled with Proposition \ref{directed}, yields the desired result. 
+To see that $Alt(\kappa)$ is simple, it is enough to observe that it is a directed colimit of $Alt(X)$ where $X$ ranges over finite subsets of $\kappa$ of cardinality at least $5$; then simplicity of $A_n$ for integers $n \geq 0$, coupled with Proposition \ref{directed}, yields the desired result. 
+
+A rather deeper set of examples is afforded by the following result, which follows from a theorem named after [Baer, Ulam, and Schreier](https://groupprops.subwiki.org/wiki/Baer-Schreier-Ulam_theorem). 
+
++-- {: .num_theorem} 
+###### Theorem 
+For an infinite set $X$, every proper normal subgroup of the permutation group $Sym(X)$ is contained in a maximal such normal subgroup $N_X$ consisting of all permutations that fix all but $\kappa$ many elements of $X$, for some cardinal $\kappa \lt {|X|}$. 
+=-- 
+
+It follows that the quotient group $Q_X = Sym(X)/N_X$ is simple, and we have the following corollary. 
+
++-- {: .num_cor} 
+###### Corollary 
+Every group embeds into a simple group. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+For finite groups $G$ (WLOG, of cardinality at least $3$), we have the Cayley embedding $G \hookrightarrow Sym(G)$ into the permutation group of the underlying set, and there is an embedding $Sym(G) \hookrightarrow Alt(G + 2)$ which carries an even permutation on $G$ to the obvious even permutation on $G + 2$ that fixes the elements $a, b$ of $2$, and an odd permutation $\pi$ on $G$ to the even permutation $\pi (a\; b)$. 
+
+An infinite group $G$ embeds in $Q_G$ via the Cayley embedding 
+
+$$G \hookrightarrow Sym(G) \to Sym(G)/N_G = Q_G$$ 
+
+noting that for any $g \in G$, the permutation $Cayley(g) = (h \mapsto g h)$ has no fixed points, hence does not belong to $N_G$, so that $G \to Q_G$ is indeed monic. 
+=-- 
 
 
 [[!redirects simple group]]
