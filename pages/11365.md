@@ -39,7 +39,13 @@ The _projective general linear group_ $PGL(n)$ (in some [[dimension]] $n$ and ov
 
 * [[projective representation]]
 
+* [[cross ratio]]
+
 ## References
 
 * Wikipedia, _[Projective linear group](https://en.wikipedia.org/wiki/Projective_linear_group)_
 
+[[!redirects projective general linear groups]]
+
+[[!redirects projective transformation]]
+[[!redirects projective transformations]]
