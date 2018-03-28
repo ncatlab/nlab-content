@@ -35,7 +35,7 @@ See also
 * table of contents
 {:toc}
 
-## **1.** Sheaves of spectra
+## Sheaves of spectra
 
 * [[sheaf of spectra]]
 
@@ -43,11 +43,11 @@ See also
 
 * [inclusion of sheaves of connective spectra](connective+spectrum#InclusionIntoAllSpectra)
 
-## **2.** Spectral schemes
+## Spectral schemes
 
 * [[E-infinity scheme]]
 
-## **3.** Coherent $\infty$-Topoi
+## Coherent $\infty$-Topoi
 
 * [[coherent (∞,1)-topos]]
 
@@ -55,22 +55,22 @@ See also
 
 * [[n-coherent object]]
 
-## **4.** Deligne's completeness theorem
+## Deligne's completeness theorem
 
 * [[Deligne-Lurie completeness theorem]]
 
 * [[Deligne completeness theorem]]
 
-## **5.** Flat descent
+##  Flat descent
 
-## **6.** Flat descent for modules
+## Flat descent for modules
 
-## **7.** Digression: Henselian rings
+## Digression: Henselian rings
 
-## **8.** Spectral Deligne-Mumford stacks
+## Spectral Deligne-Mumford stacks
 
 * [[spectral Deligne-Mumford stack]]
 
-## **9.** Comparison results
+## Comparison results
 
 category: reference
