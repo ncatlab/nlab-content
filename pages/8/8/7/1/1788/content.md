@@ -305,3 +305,6 @@ The only closed element of degree 6 in the model for $S^4/\!/S^1$ is $\omega_2 \
 
 **end of sketchy sketch**
 
+#<span style="display: block; text-align: center;">Title</span>#
+
+
