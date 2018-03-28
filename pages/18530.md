@@ -320,7 +320,7 @@ $$
     & =
     \underset{\lambda \to 0}{\lim}
     \left( 
-    \lamba^{\omega} 
+    \lambda^{\omega} 
     \underset{ {\epsilon \in (0,\infty)} \atop {\epsilon \to 0} }{\lim}
     \frac{+i}{(2\pi)^{p+1}}
     \int
