@@ -101,7 +101,7 @@ While the definition of a pullback is symmetric in $f$ and $g$, it is usually co
 
 If $g: B \to C$ is the inclusion of a subset (ie. is a [[monomorphism]]), then the pullback of $f$ along $g$ is given by
 $$
-  \{a \in A: g(a) \in B\}.
+  \{a \in A: f(a) \in B\}.
 $$
 So this is given by restricting $f$ to the elements that are mapped into $B$.
 
