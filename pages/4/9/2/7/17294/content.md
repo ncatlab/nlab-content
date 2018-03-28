@@ -67,16 +67,16 @@ which is a [[section]] of the [[composition]] functor $d_1 \;\colon\; \mathcal{C
 +-- {: .num_remark}
 ###### Remark
 
-In def. \ref{FunctorialFactorization} we are using the following standard notation, see at _[[simplex category]]_ and at _[[nerve of a category]]_:
+In def. \ref{FunctorialFactorization} we are using the following notation, see at _[[simplex category]]_ and at _[[nerve of a category]]_:
 
-Write $[1] = \{0 \to 1\}$ and $[2] = \{0 \to 1 \to 2\}$ for the [[ordinal numbers]], regarded as [[posets]] and hence as [[categories]]. The [[arrow category]] $Arr(\mathcal{C})$ is equivalently the [[functor category]] $\mathcal{C}^{\Delta[1]} \coloneqq Funct(\Delta[1], \mathcal{C})$, while $\mathcal{C}^{\Delta[2]}\coloneqq Funct(\Delta[2], \mathcal{C})$ has as objects pairs of composable morphisms in $\mathcal{C}$. There are three injective functors $\delta_i \colon [1] \rightarrow [2]$, where $\delta_i$ omits the index $i$ in its image. 
+Write $\Delta[1] = \{0 \to 1\}$ and $\Delta[2] = \{0 \to 1 \to 2\}$ for the [[ordinal numbers]], regarded as [[posets]] and hence as [[categories]]. The [[arrow category]] $Arr(\mathcal{C})$ is equivalently the [[functor category]] $\mathcal{C}^{\Delta[1]} \coloneqq Funct(\Delta[1], \mathcal{C})$, while $\mathcal{C}^{\Delta[2]}\coloneqq Funct(\Delta[2], \mathcal{C})$ has as objects pairs of composable morphisms in $\mathcal{C}$. There are three injective functors $\delta_i \colon [1] \rightarrow [2]$, where $\delta_i$ omits the index $i$ in its image. 
 By precomposition, this induces [[functors]] $d_i  \colon \mathcal{C}^{\Delta[2]} \longrightarrow \mathcal{C}^{\Delta[1]}$. Here 
 
 * $d_1$ sends a pair of composable morphisms to their [[composition]];
 
-* $d_2$ sends a pair of composable morphisms to the first morphisms;
+* $d_2$ sends a pair of composable morphisms to the first morphism;
 
-* $d_0$ sends a pair of composable morphisms to the second morphisms.
+* $d_0$ sends a pair of composable morphisms to the second morphism.
 
 
 =--
