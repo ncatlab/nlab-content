@@ -53,8 +53,8 @@ of
 * String structure exists iff $\frac{1}{2}p_1(P) = 0 \in H^4(X,\mathbb{Z})$ (essentially by definition through homotopy fiber)
 
 * let $i^*_P$ the pullback to the fiber of $P$, then we have
-  $$\{String structures\}/_{homotopy} 
-     \simeq_{canonical} \{String classes\} 
+  $$\{ String structures \}/_{homotopy} 
+     \simeq_{canonical} \{ String classes \} 
     := 
     \{\rho \in H^3(P,\mathbb{Z}) 
      s. t. i_P^* \rho = 1 
