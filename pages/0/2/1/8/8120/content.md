@@ -26,15 +26,15 @@ $$ \sum_i {\|w_i\|} i $$
 $$ {\|w\|} \coloneqq {\Big\| \sum_i {\|w_i\|} i \Big\|} .$$
 
 We may succinctly write the $V$-direct sum as follows:
-$$ \oplus^V_i W_i \coloneqq \Big\{ (w_i)_i \;\Big|\; {\Big\| \sum_i {\|w_i\|} i \Big\|} \lt \infty \Big\} .$$
+$$ \bigoplus^V_i W_i \coloneqq \Big\{ (w_i)_i \;\Big|\; {\Big\| \sum_i {\|w_i\|} i \Big\|} \lt \infty \Big\} .$$
 Strictly speaking, the only condition on the right-hand side is that the sum exists in $V$; then of course its norm will be finite.  However, often some sense can be established for the sum outside of $V$ but then it will have no (finite) norm.
 
 In particular, if $V = l^p$ (or a finitary or uncountablary version of such) for $1 \leq p \lt \infty$, then
-$$ \oplus^p_i W_i \coloneqq \Big\{ (w_i)_i \;\Big|\; \sqrt[p] {\sum_i {\|w_i\|^p}} \lt \infty \Big\} ;$$
+$$ \bigoplus^p_i W_i \coloneqq \Big\{ (w_i)_i \;\Big|\; \sqrt[p] {\sum_i {\|w_i\|^p}} \lt \infty \Big\} ;$$
 and if $V = l^\infty$, then
-$$ \oplus^\infty_i W_i \coloneqq \Big\{ (w_i)_i \;\Big|\; \sup_i {\|w_i\|} \lt \infty \Big\} .$$
+$$ \bigoplus^\infty_i W_i \coloneqq \Big\{ (w_i)_i \;\Big|\; \sup_i {\|w_i\|} \lt \infty \Big\} .$$
 These are the __$l^p$-direct sum__ and __$l^\infty$-direct sum__ (which is really a special case).  In particular, we have the __$l^1$-direct sum__:
-$$ \oplus^1_i W_i \coloneqq \Big\{ (w_i)_i \;\Big|\; \sum_i {\|w_i\|} \lt \infty \Big\} .$$
+$$ \bigoplus^1_i W_i \coloneqq \Big\{ (w_i)_i \;\Big|\; \sum_i {\|w_i\|} \lt \infty \Big\} .$$
 
 
 ## Properties
