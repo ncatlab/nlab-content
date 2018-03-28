@@ -15,7 +15,7 @@
 
 ## Definition
 
-An [[(∞,1)-category]] $C$ has [[finite limit|finite]] [[(∞,1)-limits]] if it has a [[terminal object in a quasi-category|terminal object]] and for every [[object]] $x \in X$, the [[over-(∞,1)-category]] $C_{/x}$ has finite [[products]]. 
+An [[(∞,1)-category]] $C$ has [[finite limit|finite]] [[(∞,1)-limits]] if it has a [[terminal object in a quasi-category|terminal object]] and for every [[object]] $x \in C$, the [[over-(∞,1)-category]] $C_{/x}$ has finite [[products]]. 
 
 We say that such a $C$ is **locally cartesian closed** if moreover $C_{/x}$ is a [[cartesian closed (∞,1)-category]] for every object $x$.  This is equivalent to asking that the pullback functor $f^*\colon C_{\y} \to C_{\x}$, for any $f\colon x\to y$ in $C$, has a right adjoint $\Pi_f$.
 
