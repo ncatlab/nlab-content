@@ -39,10 +39,10 @@ The unitary group $U(n)$ is [[compact topological space]], hence in particular a
 +-- {: .num_prop #InclusionOfUnitaryGroupnIntoUnitaryGroupnPlusIneIsnMinus1Equivalence}
 ###### Proposition
 
-For $n,k \in \mathbb{N}$, $n \leq k$, then the canonical inclusion of unitary groups
+For $n,N \in \mathbb{N}$, $n \leq N$, then the canonical inclusion of unitary groups
 
 $$
-  U(n) \hookrightarrow U(k)
+  U(n) \hookrightarrow U(N)
 $$
 
 is a [[n-equivalence|2n-equivalence]], hence induces an [[isomorphism]] on [[homotopy groups]] in degrees $\lt 2n$ and a [[surjection]] in degree $2n$.
@@ -98,14 +98,39 @@ is an isomorphism and that
 
 $$
   \pi_{2n}(U(n))
-    \overset{\simeq}{\longrightarrow}
+    \longrightarrow
   \pi_{2n}(U(n+1))
 $$
 
-is surjective. Hence now the statement follows by induction over $k-n$.
+is surjective. Hence now the statement follows by induction over $N-n$.
+
 
 =--
 
+It follows that the [[homotopy groups]] $\pi_k(U(n))$ are independent of $n$ for $n \gt \frac{k}{2}$ (the "stable range"). So if $U = \underset{\longrightarrow}{\lim}_n U(n)$, then $\pi_k(U(n)) = \pi_k(U)$. By [[Bott periodicity]] we have
+
+$$
+\array{
+\pi_{2k+0}(U) & = 0
+\\
+\pi_{2k+1}(U) & = \mathbb{Z}.
+}
+$$
+
+In the unstable range for low $n$ they instead start out as follows 
+
+| $G$ | $\pi_1$ | $\pi_2$ | $\pi_3$ | $\pi_4$ | $\pi_5$ | $\pi_6$ | $\pi_7$ | $\pi_8$ | $\pi_9$ | $\pi_10$ | $\pi_11$ | $\pi_12$ | $\pi_13$ | $\pi_14$ | $\pi_15$ |
+|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|--|
+| $U(1)$ | $\mathbb{Z}$ | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 |
+| $U(2)$ | " | 0 | $\mathbb{Z}$ |  |  | $\mathbb{Z}_{12}$ | $\mathbb{Z}_2$ | $\mathbb{Z}_2$ | $\mathbb{Z}_3$ | $\mathbb{Z}_{15}$ | $\mathbb{Z}_2$ | $\mathbb{Z}_2^{\oplus 2}$ | $\mathbb{Z}_3\oplus\mathbb{Z}_{12}$ | $\mathbb{Z}_2^{\oplus 2}\oplus\mathbb{Z}_{84}$ | $\mathbb{Z}_2\oplus\mathbb{Z}_2$ |
+| $U(3)$ | " | " | " |  |  | $\mathbb{Z}_6$ | 0 | $\mathbb{Z}_{12}$ | $\mathbb{Z}_3$ | $\mathbb{Z}_{30}$ | $\mathbb{Z}_4$ | $\mathbb{Z}_{60}$ | $\mathbb{Z}_6$ | $\mathbb{Z}_2\oplus\mathbb{Z}_{84}$ | $\mathbb{Z}_{36}$ |
+| $U(4)$ | " | " | " | " | " | 0 | $\mathbb{Z}$ | $\mathbb{Z}_{24}$ | $\mathbb{Z}_2$ | $\mathbb{Z}_2\oplus\mathbb{Z}_{120}$ | $\mathbb{Z}_4$ | $\mathbb{Z}_{60}$ | $\mathbb{Z}_4$ | $\mathbb{Z}_2\oplus\mathbb{Z}_{1680}$ | $\mathbb{Z}_2\oplus\mathbb{Z}_{72}$ |
+| $U(5)$ | " | " | " | " | " | " | " | 0 | $\mathbb{Z}$ | $\mathbb{Z}_{120}$ | 0 | $\mathbb{Z}_{360}$ | $\mathbb{Z}_4$ | $\mathbb{Z}_{1680}$ | $\mathbb{Z}_6$ |
+| $U(6)$ | " | " | " | " | " | " | " | " | " | 0 | $\mathbb{Z}$ | $\mathbb{Z}_{720}$ | $\mathbb{Z}_2$ | $\mathbb{Z}_2\oplus\mathbb{Z}_{5040}$ | $\mathbb{Z}_6$ |
+| $U(7)$ | " | " | " | " | " | " | " | " | " | " | " | 0 | $\mathbb{Z}$ | $\mathbb{Z}_{5040}$ | 0 |
+| $U(8)$ | " | " | " | " | " | " | " | " | " | " | " | " | " | 0 | $\mathbb{Z}$ |
+
+Due to the [[unitary group#SUn | relation to the special unitary group]], the higher homotopy groups of $U(n)$ and $SU(n)$ agree. The $U(2)$ row can be found using the fact that $SU(2)$ is diffeomorphic to $S^3$. The $U(3)$ row can be found using [Mimura-Toda 63](#MimuraToda63). Otherwise the table is given in columns $\pi_k$, $k= 6,\ldots, 15$, and in rows $U(n)$, $n=4,\ldots,8$, by the [[Encyclopedic Dictionary of Mathematics]], Table 6.VII in Appendix A.
 
 ### In infinite dimension
 
@@ -161,7 +186,7 @@ $$
 
 or sometimes $B U(\infty)$. Notice that this is very different from $B U(\mathcal{H})$ for $\mathcal{H}$ an infinite-dimensional Hilbert space. See [[topological K-theory]] for more on this.
 
-### Relation to special unitary group
+### Relation to special unitary group {#SUn}
 
 +-- {: .num_prop}
 ###### Proposition
@@ -216,7 +241,7 @@ $$
 +-- {: .num_example #ComplexStiefelManifold}
 ###### Example
 
-For $n \leq n$, the [[coset]]
+For $n \leq k$, the [[coset]]
 
 $$
    V_n(\mathbb{C}^k) \coloneqq U(k)/U(k-n)
@@ -295,6 +320,9 @@ This implies the claim.
 
 
 ## References
+
+
+* {#MimuraToda63} M. Mimura and H. Toda, _Homotopy Groups of $SU(3)$, $SU(4)$ and $Sp(2)$_, J. Math. Kyoto Univ. Volume 3, Number 2 (1963), 217-250. ([Euclid](http://projecteuclid.org/euclid.kjm/1250524818))
 
 * {#EspinozaUribe} Jesus Espinoza, Bernardo Uribe, _Topological properties of the unitary group_, JP Journal of Geometry and Topology
 **16** (2014) Issue 1, pp 45-55. [journal](http://www.pphmj.com/abstract/8730.htm), arXiv:[1407.1869](https://arxiv.org/abs/1407.1869v1)
