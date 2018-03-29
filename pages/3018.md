@@ -191,6 +191,8 @@ More should go here, but for now see [[compact closed double category]].
 
   * [[pseudonatural transformation]]
 
+    * [[pseudo-extranatural transformation]]
+
   * [[lax natural transformation]]
 
 * [[end]]
