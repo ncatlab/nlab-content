@@ -24,7 +24,7 @@ of
   
 ### Outline ###
 
-* I $\{String Structures\}/_{homotopy}$
+* I $\{String\ Structures\}/_{homotopy}$
 
 * II harmonic 4-forms on $P$
 
@@ -53,15 +53,12 @@ of
 * String structure exists iff $\frac{1}{2}p_1(P) = 0 \in H^4(X,\mathbb{Z})$ (essentially by definition through homotopy fiber)
 
 * let $i^*_P$ the pullback to the fiber of $P$, then we have
-  $$\{ String structures \}/_{homotopy} 
-     \simeq_{canonical} \{ String classes \} 
-    := 
-    \{\rho \in H^3(P,\mathbb{Z}) 
-     s. t. i_P^* \rho = 1 
-     \in H^3(Spin, \mathbb{Z})\}
-  $$
+
+$$
+\{ String\ structures \}/_{homotopy} \simeq_{canonical} \{ String\ classes \} := \{\rho \in H^3(P,\mathbb{Z})\ s.t.\ i_P^* \rho = 1 \in H^3(Spin, \mathbb{Z})\}
+$$
   
-* $\{string class\}$ is a torsor for $H^3(M, \mathbb{Z})$ under $\rho \mapsto \rho + \pi^ H^3(M)$
+* $\{string\ classes\}$ is a torsor for $H^3(M, \mathbb{Z})$ under $\rho \mapsto \rho + \pi^ H^3(M)$
 
 Proof. universal example
 
@@ -133,10 +130,10 @@ $$
 
 (on the right: $S^1$-bundles)
 
-** String orientation ** of tmf = topological modular forms
+**String orientation** of tmf = topological modular forms
 
 $$
-  M O\langle 8\rangle^{-n} = M String &\stackrel{\sigma}{\to}& tmf^{-n}(pt)
+M O\langle 8\rangle^{-n} = M String \stackrel{\sigma}{\to} tmf^{-n}(pt)
 $$
 
 so give a String manifold with a String class on $Spin(T M)$
@@ -151,12 +148,12 @@ $$
     \\
     & {}^{\sigma}\nearrow & \downarrow
     \\
-    M String &\stackrel{Witten genus}{\to}& Mod Forms
+    M String &\stackrel{Witten\ genus}{\to}& Mod Forms
   }
 $$
 
 
-  $Witten genus(M) =$  "$index^{S^1} D_{L M}$"
+$Witten\ genus(M) =$ "$index^{S^1} D_{L M}$"
 
 
 (by the way, $\sigma$ is surjective on homotopy classes)
@@ -247,7 +244,7 @@ in genral
 
 $$
   [\rho]_{g_\delta} = 
-  CS_3(A) - \pi^* H + O(\delta) \not\in \pi^* \Omega^3(M)
+  CS_3(A) - \pi^* H + O(\delta) \notin \pi^* \Omega^3(M)
 $$
 
 if we have a product of two groups we accordingly would get
@@ -259,7 +256,7 @@ CS of one connection minus CS of the other.
 
 **theorem** (Chern-Simons,...)
 
-given $(P \to M , A)  \mapsto \hat {frac{1}{2} p_1}(A) \hat H^4(M)$ 
+given $(P \to M , A)  \mapsto \widehat{\frac{1}{2}p_1}(A) \hat H^4(M)$ 
 
 
 $$
@@ -306,7 +303,7 @@ over all what this says is that if we go from
 
 $$
  \array{
-    Metr(M)\times A(P) \times \{String Class\} & (g,A,S)
+    Metr(M)\times A(P) \times \{String\ Classes\} & (g,A,S)
     \\
     \downarrow & \downarrow
     \\
@@ -354,7 +351,7 @@ $$
 $$
 
 $$
-  H^3(S^3, \mathbb{Z}) = \mathbb{Z} = number of string classes
+  H^3(S^3, \mathbb{Z}) = \mathbb{Z} = number\ of\ string\ classes
 $$
 
 $$
@@ -363,7 +360,7 @@ $$
 
 $$
   \array{
-    String Classes
+    String\ Classes
     \\
     \downarrow
     \\
