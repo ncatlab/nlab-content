@@ -47,10 +47,10 @@ The orthogonal group $O(n)$ is [[compact topological space]], hence in particula
 +-- {: .num_prop #InclusionOfOnIntoOkIsnMinus1Equivalence}
 ###### Proposition
 
-For $n,k \in \mathbb{N}$, $n \leq k$, then the canonical inclusion of orthogonal groups
+For $n, N \in \mathbb{N}$, $n \leq N$, then the canonical inclusion of orthogonal groups
 
 $$
-  O(n) \hookrightarrow O(k)
+  O(n) \hookrightarrow O(N)
 $$
 
 is an [[n-equivalence|(n-1)-equivalence]], hence induces an [[isomorphism]] on [[homotopy groups]] in degrees $\lt n-1$ and a [[surjection]] in degree $n-1$.
@@ -106,11 +106,11 @@ is an isomorphism and that
 
 $$
   \pi_{n-1}(O(n))
-    \overset{\simeq}{\longrightarrow}
+    \longrightarrow
   \pi_{n-1}(O(n+1))
 $$
 
-is surjective. Hence now the statement follows by induction over $k-n$.
+is surjective. Hence now the statement follows by induction over $N-n$.
 
 =--
 
@@ -157,7 +157,7 @@ In the unstable range for low $n$ they instead start out as follows
 |$SO(16)$| " | " | " | " | " | " | " | " | " | " | " | " | " | 0 | $\mathbb{Z}^{\oplus 2}$ |
 |$SO(17)$| " | " | " | " | " | " | " | " | " | " | " | " | " | " | $\mathbb{Z}$ |
 
-The $SO(6)$ row can be found using [Mimura-Toda 63](#MimuraToda63), using $Spin(6) = SU(4)$, and that $Spin(6)$ is a $\mathbb{Z}_2$-[[covering space]] of $SO(6)$. The $SO(7)$ row can be derived from the homotopy groups of $Spin(7)$ as found in [Mimura 67](#Mimura67). Otherwise the table is given in columns $\pi_i$, $i=10,\ldots, 15$, and in rows $SO(n)$, $n=8,\ldots,17$, by the [[Encyclopedic Dictionary of Mathematics]], Table 6.VII in Appendix A.
+The $SO(6)$ row can be found using [Mimura-Toda 63](#MimuraToda63), using $Spin(6) = SU(4)$, and that $Spin(6)$ is a $\mathbb{Z}_2$-[[covering space]] of $SO(6)$. The $SO(7)$ row can be derived from the homotopy groups of $Spin(7)$ as found in [Mimura 67](#Mimura67). Otherwise the table is given in columns $\pi_k$, $k=10,\ldots, 15$, and in rows $SO(n)$, $n=8,\ldots,17$, by the [[Encyclopedic Dictionary of Mathematics]], Table 6.VII in Appendix A.
 
 Note that the maps
 $$
