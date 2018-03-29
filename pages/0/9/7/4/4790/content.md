@@ -43,7 +43,7 @@ The [[maximal compact subgroup]] of the symplectic group $Sp(2n, \mathbb{R})$ is
 
 By the [above](#MaximalCompactSubgroup) the [[homotopy groups]] of the symplectic group are those of the corresponding [[unitary group]].
 
-In particular rhe first [[homotopy group]] of the symplectic group is the [[integers]]
+In particular the first [[homotopy group]] of the symplectic group is the [[integers]]
 
 $$
   \pi_1(Sp(2n,\mathbb{R})) \simeq \mathbb{Z}
