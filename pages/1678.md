@@ -187,6 +187,8 @@ Also, if you reverse the definitions of lax and oplax transformations, then you 
 
   * [[pseudonatural transformation]]
 
+    * [[pseudo-extranatural transformation]]
+
   * **lax natural transformation**
 
   * [[2-dinatural transformation]]
@@ -204,6 +206,7 @@ See the references at [[2-category]]. For instance (note slightly outdated termi
 
 * [[Tom Leinster]], _Basic bicategories_,
 [arXiv:math/9810017](http://arxiv.org/abs/math/9810017).
+
 * [[Ross Street]], _Two constructions on lax functors_, Cahiers de Topologie et Géométrie Différentielle Catégoriques, Volume 13 (1972) no. 3 , p. 217-264 [numdam](http://www.numdam.org/item?id=CTGDC_1972__13_3_217_0 )
 
 [[!redirects lax natural transformations]]
