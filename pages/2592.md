@@ -114,29 +114,26 @@ is surjective. Hence now the statement follows by induction over $k-n$.
 
 =--
 
-
-
-The [[homotopy groups]] of $O = O(n)$ are for $k \in \mathbb{N}$ and for $n\gt k+1$ (the "stable range") are
+It follows that the [[homotopy groups]] $\pi_k(O(n))$ are independent of $n$ for $n \gt k + 1$ (the "stable range"). So if $O = \underset{\longrightarrow}{\lim}_n O(n)$, then $\pi_k(O(n)) = \pi_k(O)$. By [[Bott periodicity]] we have
 
 $$
-  \array{
-     \pi_{8k+0}(O) & = \mathbb{Z}_2
-     \\
-     \pi_{8k+1}(O) & = \mathbb{Z}_2
-     \\
-     \pi_{8k+2}(O) & = 0
-     \\
-     \pi_{8k+3}(O) & = \mathbb{Z}
-     \\
-     \pi_{8k+4}(O) & = 0
-     \\
-     \pi_{8k+5}(O) & = 0
-     \\
-     \pi_{8k+6}(O) & = 0
-     \\
-     \pi_{8k+7}(O) & = \mathbb{Z}
-  }
-  \,.
+\array{
+\pi_{8k+0}(O) & = \mathbb{Z}_2
+\\
+\pi_{8k+1}(O) & = \mathbb{Z}_2
+\\
+\pi_{8k+2}(O) & = 0
+\\
+\pi_{8k+3}(O) & = \mathbb{Z}
+\\
+\pi_{8k+4}(O) & = 0
+\\
+\pi_{8k+5}(O) & = 0
+\\
+\pi_{8k+6}(O) & = 0
+\\
+\pi_{8k+7}(O) & = \mathbb{Z}.
+}
 $$
 
 In the unstable range for low $n$ they instead start out as follows 
@@ -311,6 +308,6 @@ The [[ordinary cohomology]] and [[ordinary homology]] of the manifolds $SO(n)$ i
 
 See also
 
-* {#Tamura57} Itiro Tamura, _On Pontrjagon classes of homotopy types of manifolds_, Journal of the mathematical society of Japan, Vol. 9 No. 2 , 1957 [pdf](http://www.maths.ed.ac.uk/~aar/papers/tamura3.pdf)
+* {#Tamura57} Itiro Tamura, _On Pontrjagin classes of homotopy types of manifolds_, Journal of the mathematical society of Japan, Vol. 9 No. 2 , 1957 [pdf](http://www.maths.ed.ac.uk/~aar/papers/tamura3.pdf)
 
 [[!redirects orthogonal groups]]
