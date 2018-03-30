@@ -24,6 +24,8 @@
 
 * [[Tietze extension theorem]]
 
+* [[Lefschetz fixed point theorem]]
+
 ## References
 
 * Wikipedia, _[Brouwer fixed-point theorem](https://en.wikipedia.org/wiki/Brouwer_fixed-point_theorem)_
