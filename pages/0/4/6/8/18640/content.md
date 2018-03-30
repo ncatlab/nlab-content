@@ -45,6 +45,8 @@ such that
 * $\epsilon\theta = \id$
 * $(L\epsilon)(\theta L) = \id$
 
+The definition can be extended to monoidal closed thunk-force category to model a context and strong monad [F&#252;hrmann 99](#F99).
+
 ## Thunkable Morphisms
 
 A morphism $f : A \to B$ represents an effectful program. The presence of the thunk $\theta$ allows us to make the distinction between the "pure"/"trivially effectful" programs and those that have non-trivial effects.
