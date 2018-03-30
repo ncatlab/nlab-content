@@ -14,7 +14,7 @@ Fix a ground [[field]] $k$.
 Given a [[continuous map]] $f \colon X\to X$ of [[topological space]], its **Lefschetz number** $\Lambda(X,f)$ is the alternating [[sum]] of the [[traces]] 
 
 $$
-  \sum_i (-1)^i Tr (H^i(f) \colon H^i(X,k)\to H^i(X,k)
+  \sum_i (-1)^i Tr (H^i(f) \colon H^i(X,k)\to H^i(X,k))
   \,,
 $$
 
