@@ -102,6 +102,10 @@ See also
 
 * {#BarthelMayRiehl14} [[Tobias Barthel]], [[Peter May]], [[Emily Riehl]], _Six model structures for DG-modules over DGAs: model category theory in homological action_, New York J. Math. 20 (2014) 1077&#8211;1159 ([pdf](http://www.math.harvard.edu/~eriehl/six.pdf))
 
+Discussion as a model for [[rational parameterized stable homotopy theory]] is due to
+
+* [[Vincent Braunack-Mayer]], _[[schreiber:thesis Braunack-Mayer|Rational parameterized stable homotopy theory]]_, Zurich 2018
+
 [[!redirects model structures on dg-modules]]
 
 [[!redirects dg-model structure on dg-modules]]
