@@ -2,7 +2,11 @@
 
 ## Idea 
 
-What is known as the _prime number theorem_ is a description of the [[asymptotic]] distribution of [[prime numbers]].
+What is known as the _prime number theorem_ is a description of the [[asymptotic]] distribution of [[prime numbers]]. It says that the number of primes less than a positive real number $x$ is asymptotic to $x/\log(x)$, where $\log x$ is the natural [[logarithm]].  
+
+## Proof 
+
+See [[proof of the prime number theorem]], which is based on a well-known account by Don Zagier (who in turn was explicating a short proof due to Donald J. Newman) -- see the references there. 
 
 ## Related concepts
 
