@@ -32,6 +32,8 @@ Any further details about the nature of this hypothetical dark matter remain elu
 
 ## Related concepts
 
+* [[bullet cluster]]
+
 * [[fuzzy dark matter]]
 
 * [[dark energy]], [[dark radiation]]
@@ -58,6 +60,16 @@ Review includes
 * {#Resonaances} Resonaances, _[How many neutrinos in the sky](http://resonaances.blogspot.de/2013/01/how-many-neutrinos-in-sky.html)_
 
 * [[Ethan Siegel]], _[Seven independent pieces of evidence for dark matter](https://medium.com/starts-with-a-bang/7-independent-pieces-of-evidence-for-dark-matter-3692126a2283)_, _[Ten things everyone should know about dark matter](https://medium.com/starts-with-a-bang/10-facts-everyone-should-know-about-dark-matter-1ce2b222cf08)_ 2015
+
+
+### Evidence
+ {#Evidence}
+
+* Pieter van Dokkum et.al. _A galaxy lacking dark matter_, Nature volume 555, 2018 pages 629–632 ([arXiv:1803.10237](https://arxiv.org/abs/1803.10237), [doi:10.1038/nature25767](https://www.nature.com/articles/nature25767))
+
+> Regardless of the formation history of NGC1052–DF2, its existence has implications for the dark matter paradigm. Our results demonstrate that dark matter is separable from galaxies, which is (under certain circumstances) expected if it is bound to baryons through nothing but gravity. The "[[bullet cluster]]" demonstrates that dark matter does not always trace the bulk of the baryonic mass, which in clusters is in the form of gas.  NGC1052–DF2 enables us to make the complementary point that dark matter does not always coincide with galaxies either:  it is a distinct "substance" that may or may not be present in a galaxy.   Furthermore,  and paradoxically, the existence of NGC1052–DF2 may falsify
+alternatives to dark matter. In theories such as [[MOND]] and the recently proposed emergent gravity paradigm a "dark matter" signature should always be detected, as it is an unavoidable consequence of the presence of ordinary matter. In fact, it had been argued previously that the apparent absence of galaxies such as NGC1052–DF2 constituted a falsification of the standard cosmological model, and evidence for modified gravity.
+
 
 ### Axions
 
