@@ -159,7 +159,7 @@ as asserted.
 
 ## The zeta function has no zeroes on the line $Re(s) = 1$ 
 
-Now we relate $\theta(x)$ to $\zeta(s)$ by introducing an auxiliary function $\Phi$ that is connected to the logarithmic derivative of $\zeta(s)$. For $Re(s) \gt 1$ put 
+Now we relate $\theta(x)$ to $\zeta(s)$ by introducing an auxiliary function $\Phi$ that is connected with the logarithmic derivative of $\zeta(s)$. For $Re(s) \gt 1$ put 
 
 $$\Phi(s) = \sum_p \frac{\log(p)}{p^s}.$$ 
 
@@ -282,11 +282,11 @@ Here is the statement of the particular Tauberian theorem used (recalling that "
 
 +-- {: .num_theorem #taub} 
 ###### Theorem 
-Let $f(t)$ be a function that is bounded and locally integrable over the domain $t \geq 0$, and suppose that its Laplace transform $g$, defined for $Re(s) \gt 0$ by the equation 
+Let $f(t)$ be a function that is bounded and locally integrable over the domain $t \geq 0$, and suppose that its Laplace transform, defined for $Re(s) \gt 0$ by the equation 
 
 $$g(s) = \int_0^\infty \; e^{-s t} f(t)\; d t,$$ 
 
-extends to a function that is holomorphic over the region $Re(s) \geq 0$. Then the integral $\int_0^\infty\; f(t)\; d t$ converges and equals $g(0)$. 
+extends to a function $g$ that is holomorphic over the region $Re(s) \geq 0$. Then the integral $\int_0^\infty\; f(t)\; d t$ converges and equals $g(0)$. 
 =-- 
 
 The proof below involves some fairly refined complex analysis. It may be well to recall that we say a function $g$ is *holomorphic* at a point $z_0$ if $g$ is defined over a small neighborhood $\{z: {|z-z_0|} \lt \delta\}$ of the point and in that neighborhood is expressible as a convergent Taylor series 
