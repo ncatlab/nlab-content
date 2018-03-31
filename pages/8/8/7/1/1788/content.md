@@ -1,5 +1,3 @@
-Testing
-
 Consider the map
 
 $$
