@@ -136,7 +136,7 @@ $$
 
 whenever $n$ is an [[integer]] and $k$ and $l$ are nonzero [[integers]] not divisible by $p$ (and ${\vert 0 \vert_{p,\epsilon}} = 0$).
 
-These are called the **$p$-adic absolute values**.  Given $p$, they are all equivalent (the open unit ball consists of all rational numbers whose denominator in lowest terms is not divisible by $p$), so there is a unique **$p$-adic [[place]]**.  For most purposes, only the place matters, and one may write simply $|q|_p$; however, if one wants a specific absolute value, then the usual choice is to use $\epsilon = 1/p$ (so that ${|p^n|_p} = p^{1/n}$ whenever $n$ is an integer).
+These are called the **$p$-adic absolute values**.  Given $p$, they are all equivalent (the open unit ball consists of all rational numbers whose denominator in lowest terms is not divisible by $p$), so there is a unique **$p$-adic [[place]]**.  For most purposes, only the place matters, and one may write simply $|q|_p$; however, if one wants a specific absolute value, then the usual choice is to use $\epsilon = 1/p$ (so that ${|p^n|_p} = p^{-n}$ whenever $n$ is an integer).
 
 The $p$-adic absolute value is non-archimedean. The [[complete field|completion]] $\mathbb{Q}_p$ of $\mathbb{Q}$ under this absolute value is called the field of [[p-adic numbers]], which is therefore a [[non-archimedean field]].
 
