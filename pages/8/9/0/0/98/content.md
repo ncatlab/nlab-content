@@ -227,7 +227,7 @@ $$
   CE(\mathfrak{string}) = (\wedge^\bullet( \mathfrak{g}^+ \oplus \mathbb{R}^*[1]), d_{string})
 $$
 
-where the differential restricted to $\mathfrak{g}^*$ is $[-,-]^*$ while on the new generator $b$ spanning $\mathbb{R}^*[1]$ is it
+where the differential restricted to $\mathfrak{g}^*$ is $[-,-]^*$ while on the new generator $b$ spanning $\mathbb{R}^*[1]$ it is
 
 $$
   d b = \langle -, [-,-]\rangle \in \wedge^3 \mathfrak{g}^*
