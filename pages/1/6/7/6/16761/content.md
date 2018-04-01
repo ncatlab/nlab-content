@@ -5,9 +5,16 @@
 
 category: people
 
+## Writings
+
+* {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge University Press 2012
+
+
+
 ## Related $n$Lab entries
 
 * [[string phenomenology]]
 
+* [[intersecting D-brane model]]
 
 [[!redirects Luis Ibanez]]
