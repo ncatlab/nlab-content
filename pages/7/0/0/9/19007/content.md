@@ -65,7 +65,9 @@ In [[string theory]] hidden sectors appear naturally in various ways.
 In [[model (physics)|models]] of [[M-theory on G2-manifolds]] such as the [[G2-MSSM]], the 4d gauge-field content arises under [[KK-compactification]] from 3-cycles in the [[G2-manifold]] [[fiber bundle|fiber]], and if two such do not intersect, they give rise to hidden sectors in the 4d physics. (e.g. [Kane 17, section 4.4](#Kane17))
 
 
+## Related concepts
 
+* [[soft supersymmetry breaking term]]
 
 
 ## References
@@ -73,6 +75,9 @@ In [[model (physics)|models]] of [[M-theory on G2-manifolds]] such as the [[G2-M
 Discussion in the context of [[supersymmetry breaking]] is in
 
 * {#Nilles01} [[Hans-Peter Nilles]], _Hidden Sector Supergravity Breakdown_, Nucl. Phys. Proc. Suppl. 101 (2001) 237-250 ([arXiv:hep-ph/0106063](https://arxiv.org/abs/hep-ph/0106063))
+
+* {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 2.6.5 of _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge University Press 2012
+
 
 Discussion specifically in the context of the [[G2-MSSM]] is in
 
