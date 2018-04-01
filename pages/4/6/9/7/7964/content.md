@@ -29,23 +29,28 @@ This is determined by a [[local minimum]] of the Higgs [[potential energy|potent
 
 <img src="https://ncatlab.org/nlab/files/HiggsPotentials.png" width="500">
 
-Curiously, the Higgs [[potential energy|potential]] is such that the Higgs field at this mass is at least close to being in a [[false vacuum]] ([DVEEGI 12](#DVEEGI12)):
+
+Curiously, the Higgs [[potential energy|potential]] is such that the Higgs field at this mass is at least close to being at the border between [[vacuum stability]] and [[false vacuum]]. This was highlighted before the actual measurement ([EEGHR 09](#EEGHR09), [Gibbs 11](#Gibbs11)):
+
+<img src="https://ncatlab.org/nlab/files/HiggsVacuumStabilityIII.png" width="700">
+
+Then it was amplified again after the detection of the Higgs particle at the [[LHC]] ([DVEEGI 12](#DVEEGI12)):
 
 [[HiggsVacuumStability.png:file]]
 
 <img src="https://ncatlab.org/nlab/files/HiggsVacuumStability.png" width="700">
 
-More detailed computation confirms this result, showing that the observed Higgs vacuum is indeed very close to the boundary between the [[vacuum stability|stable]] and the meta-stable region ([BKPV 15](#BKPV15)):
+More detailed computation confirmed this result, showing that the observed Higgs vacuum is indeed very close to the boundary between the [[vacuum stability|stable]] and the meta-stable region ([BKPV 15](#BKPV15)):
 
 [[HiggsVacuumStabilityII.png:file]]
 
 <img src="https://ncatlab.org/nlab/files/HiggsVacuumStabilityII.png" width="400">
 
-From [Kusenko 15](#Kusenko15):
+In summary ([Kusenko 15](#Kusenko15)):
 
 > $[$The$]$ conclusion is that the best theoretical fit to measured parameters, including the Higgs and top-quark masses, points to a metastable Universe. However, their analysis also concludes that values of parameters are closer to a region of absolute stability than suggested by previous studies: it is possible for the Universe to be fully stable (and for the standard model to work all the way up to the Planck scale), if the true values of measured parameters are only 1.3 standard deviations away from the current best estimates.
 
-However, it has been argued that an actual [[false vacuum]] of the Higgs is incompatible with [[cosmology]], as due to [[vacuum fluctuations]] during [[inflation]] the [[vacuum decay]] would not have been avoided ([EGR 07](#EGR07), [EEGHR 09](#EEGHR09), [HKSZ 14](#HKSZ14), [EGMRSST 15](#EGMRSST15), [EKSYZ 16](#EKSYZ16)). In ([BDGGSSS 13, section 7](#BDGGSSS13), [Kane 18 , "Clue 4"](#Kane18)) it was argued that this suggests a further principle which prevents the vacuum instability and that a natural such principle is [[supersymmetry]].
+However, it has been argued that an actual [[false vacuum]] of the Higgs is incompatible with [[cosmology]], as due to [[vacuum fluctuations]] during [[inflation]] the [[vacuum decay]] would not have been avoided ([EGR 07](#EGR07), [HKSZ 14](#HKSZ14), [EGMRSST 15](#EGMRSST15), [EKSYZ 16](#EKSYZ16)). In ([BDGGSSS 13, section 7](#BDGGSSS13), [Kane 18 , "Clue 4"](#Kane18)) it was argued that this suggests a further principle which prevents the vacuum instability and that a natural such principle is [[supersymmetry]].
 
 ## Models
 
@@ -113,6 +118,12 @@ The [[phenomenology]] of Higgs [[model (in particle physics)|models]] is discuss
 ### Vacuum (in-)stability
  {#ReferencesVacuumInstability}
 
+Before experimental observation of the Higgs mass at the [[LHC]], the three possible outcomes for [[vacuum stability]] were analyzed in 
+
+* {#EEGHR09} [[John Ellis]], J.R. Espinosa, [[Gian Giudice]], A. Hoecker, A. Riotto, _The Probable Fate of the Standard Model_, Phys.Lett.B679:369-375,2009 ([arXiv:0906.0954](https://arxiv.org/abs/0906.0954))
+
+* {#Gibbs11} [[Philip Gibbs]], _[What would a Higgs at 125 GeV tell us?](https://vixra.wordpress.com/2011/12/04/what-would-a-higgs-at-125-gev-tell-us/)_, December 2011
+
 Discussion of the apparent lack of [[vacuum stability]] for the observed Higgs potential seems to originate with
 
 * {#DVEEGI12} Giuseppe Degrassi, Stefano Di Vita, Joan Elias-Miró, José R. Espinosa, [[Gian Giudice]], Gino Isidori, _Higgs mass and vacuum stability in the Standard Model at NNLO_, J. High Energ. Phys. (2012) 2012: 98 ([arrXiv:1205.6497](https://arxiv.org/abs/1205.6497), <a href="https://doi.org/10.1007/JHEP08(2012)098">doi:10.1007/JHEP08(2012)098</a>)
@@ -135,8 +146,6 @@ Arguments that a false Higgs vacuum is incompatible with [[cosmology|cosmologica
 
 
 * {#EGR07} J.R. Espinosa, [[Gian Giudice]], A. Riotto, _Cosmological implications of the Higgs mass measurement_, JCAP 0805:002, 2008 ([arXiv:0710.2484](https://arxiv.org/abs/0710.2484))
-
-* {#EEGHR09} [[John Ellis]], J.R. Espinosa, [[Gian Giudice]], A. Hoecker, A. Riotto, _The Probable Fate of the Standard Model_, Phys. Lett. B679:369-375, 2009 ([arXiv:0906.0954](https://arxiv.org/abs/0906.0954))
 
 
 * {#HKSZ14} Anson Hook, John Kearney, Bibhushan Shakya, Kathryn M. Zurek, _Probable or Improbable Universe? Correlating Electroweak Vacuum Instability with the Scale of Inflation_, J. High Energ. Phys. (2015) 2015: 61 ([arXiv:1404.5953](https://arxiv.org/abs/1404.5953))
