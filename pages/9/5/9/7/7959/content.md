@@ -81,7 +81,7 @@ In contrast to the construction of "heterotic standard models" [above](#Heteroti
 
 Therefore in what are called "[[intersecting D-brane models]]" one considers [[Kaluza-Klein compactifications]] of [[type II string theory]] with [[D-branes]] that [[brane intersection|intersect]] in an intricate pattern in the compactification space. By choosing this [[brane intersection|intersection]] geometry suitably, one obtains various different realizations of [[gauge theory]] in the [[effective field theory|effective]] 4-dimensional physics. 
 
-The [[intersecting branes]] of main relevance in [[type IIA string theory]] are [[D6-branes]] (e.g. [L&#252;st 04](#Lust04), [Ibanez-Uranga 12, section 10](#IbanezUranga12)), which, under [[T-duality]], correspond in [[type IIB string theory|type IIB\\ to [[D7-branes]]. These are precisely the ones whose lift to [[M-theory]] correspond to [[conifold]]/[[ADE orbifold]] [[singularities]] of [[KK-monopoles]], see also at _[[F-branes -- table]]_.
+The [[intersecting branes]] of main relevance in [[type IIA string theory]] are [[D6-branes]] (e.g. [L&#252;st 04](#Lust04), [Ibanez-Uranga 12, section 10](#IbanezUranga12)), which, under [[T-duality]], correspond in [[type IIB string theory|type IIB]] to [[D7-branes]]. These are precisely the ones whose lift to [[M-theory]] correspond to [[conifold]]/[[ADE orbifold]] [[singularities]] of [[KK-monopoles]], see also at _[[F-branes -- table]]_.
 
 One way to neatly reorganize the required data for such type II compactifications is to formulate them in terms of "[[F-theory]]", which is why some of this type II model building now goes by names like "F-theory phenomenology" or similar.
 
@@ -140,7 +140,7 @@ Technical surveys on particle physics string phenomenology include
 
 * {#AKK12} [[Bobby Acharya]], [[Gordon Kane]], [[Piyush Kumar]], _Compactified String Theories -- Generic Predictions for Particle Physics_ ([arXiv:1204.2795](http://arxiv.org/abs/1204.2795))
 
-* {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], _String Theory and Particle Physics: An Introduction to String Phenomenology_, Cambridge University Press 2012
+* {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge University Press 2012
 
  
 * {#Wijnholt14} [[Martin Wijnholt]], _String compactification_, [PITP 2014](https://pitp2014.ias.edu) lecture notes ([[WijnholtCompactification14.pdf:file]], [slides for lecture 1](https://pitp2014.ias.edu/sites/pitp2014.ias.edu/files/PITP2014_P1_wijnholt.pdf), [slides for lecture 2](https://pitp2014.ias.edu/sites/pitp2014.ias.edu/files/PITP2014_P2_wijnholt.pdf), [slides for lecture 3](https://pitp2014.ias.edu/sites/pitp2014.ias.edu/files/PITP2014_P3_wijnholt.pdf))
@@ -356,3 +356,5 @@ On stringy [[axion]] [[phenomenology]]:
 [[!redirects string phenomenology]]
 [[!redirects intersecting D-brane standard models]]
 [[!redirects heterotic standard models]]
+
+[[!redirects string theory phenomenology]]
