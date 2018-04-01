@@ -88,7 +88,19 @@ The [[phenomenology]] of Higgs [[model (in particle physics)|models]] is discuss
 ### Vacuum (in-)stability
  {#ReferencesVacuumInstability}
 
-Discussion of the apparent lack of [[vacuum stability]] for the observed Higgs potential includes the following:
+Discussion of the apparent lack of [[vacuum stability]] for the observed Higgs potential seems to originate with
+
+* Giuseppe Degrassi, Stefano Di Vita, Joan Elias-Miró, José R. Espinosa, [[Gian Giudice]], Gino Isidori, _Higgs mass and vacuum stability in the Standard Model at NNLO_, J. High Energ. Phys. (2012) 2012: 98 ([arrXiv:1205.6497](https://arxiv.org/abs/1205.6497), <a href="https://doi.org/10.1007/JHEP08(2012)098">doi:10.1007/JHEP08(2012)098</a>)
+
+with a more precise analysis due to
+
+* {#BKPV15} A. V. Bednyakov, B. A. Kniehl, A. F. Pikelner, and O. L. Veretin, _Stability of the Electroweak Vacuum: Gauge Independence and Advanced Precision_, Phys. Rev. Lett. 115, 201802 ([arXiv:1507.08833](https://arxiv.org/abs/1507.08833), [doi:10.1103/PhysRevLett.115.201802](https://doi.org/10.1103/PhysRevLett.115.201802))
+
+  exposition in
+
+  Alexander Kusenko, _[Are We on the Brink of the Higgs Abyss?](https://physics.aps.org/articles/v8/108)_, Physics 8, 108 (2018)
+
+Related discussion includes the following:
 
 
 * J.R. Espinosa, G. Giudice, A. Riotto, _Cosmological implications of the Higgs mass measurement_, JCAP 0805:002, 2008 ([arXiv:0710.2484](https://arxiv.org/abs/0710.2484))
