@@ -58,6 +58,8 @@ Conversely, this means that supersymmetry, as opposed to ([[gauge symmetry|gauge
 
 ## Related concepts
 
+* [[soft supersymmetry breaking term]]
+
 * [[hidden sector]]
 
 * [[Starobinsky model of cosmic inflation]]
