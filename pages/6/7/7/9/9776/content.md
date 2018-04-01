@@ -64,7 +64,7 @@ Further discussion and derivation of the [[Chan-Paton gauge field]] content on t
 
 Discussion of D6 [[intersecting branes]] for [[intersecting D-brane models]]:
 
-* {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], _String Theory and Particle Physics: An Introduction to String Phenomenology_, Cambridge 2012
+* {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge 2012
 
 * [[Angel Uranga]], _Model building in IIA: Intersecting
 brane worlds_, 2012 ([pdf](http://scgp.stonybrook.edu/wp-content/uploads/2012/05/Uranga-Lecture-Notes-1.pdf))
