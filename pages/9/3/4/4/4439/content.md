@@ -86,6 +86,8 @@ There is to date no textbook on string theory genuinely digestible by the standa
 
 * &#1050;&#1077;&#1090;&#1086;&#1074; &#1057;.&#1042;. "&#1042;&#1074;&#1077;&#1076;&#1077;&#1085;&#1080;&#1077; &#1074; &#1082;&#1074;&#1072;&#1085;&#1090;&#1086;&#1074;&#1091;&#1102; &#1090;&#1077;&#1086;&#1088;&#1080;&#1102; &#1089;&#1090;&#1088;&#1091;&#1085; &#1080; &#1089;&#1091;&#1087;&#1077;&#1088;&#1089;&#1090;&#1088;&#1091;&#1085;" [djvu](http://www.stringworld.ru/files/Ketov_S.V._Vvedenie_v_kvantovuju_teoriju_strun_i_superstrun.djvu)
 
+* {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge University Press 2012
+
 
 
 ## Physics lecture notes
