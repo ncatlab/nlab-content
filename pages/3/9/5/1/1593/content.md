@@ -54,6 +54,9 @@ Lifts to [[ADE singularities|D-type ADE singularities]] in [[M-theory]] goes bac
 ## References
  {#References}
 
+* {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], sections 5.3.4 and 10.1.3 of _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge University Press 2012
+
+
 The original observation that [[D-brane charge]] for orientifolds should be in [[KR-theory]] is due to
 
 * {#Witten98} [[Edward Witten]], section 5 of _D-branes and K-theory_, J. High Energy Phys., 1998(12):019, 1998 ([arXiv:hep-th/9810188](http://arxiv.org/abs/hep-th/9810188)) 
