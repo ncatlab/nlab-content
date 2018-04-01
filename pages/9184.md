@@ -398,7 +398,7 @@ Specifically open string axions
 
 A textbook account of axion [[string phenomenology]] is in
 
-* {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 16.2 of _String Theory and Particle Physics: An Introduction to String Phenomenology_, Cambridge University Press 2012
+* {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 16.2 of _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge University Press 2012
 
 
 Discussion of stringy axion [[cosmology]] (such as [[fuzzy dark matter]]) is in 
