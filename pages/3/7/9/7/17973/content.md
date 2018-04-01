@@ -64,7 +64,7 @@ The observation that [[Weyl spinor|chiral fermions]] appear when [[D6-branes]]  
 
 A textbook account is
 
-* {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], _String Theory and Particle Physics: An Introduction to String Phenomenology_, Cambridge 2012
+* {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge 2012
 
 Some chapters of which appear separately:
 
