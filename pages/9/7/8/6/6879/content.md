@@ -57,3 +57,7 @@ The classical articles are
 [[!redirects false vacuum]]
 [[!redirects false vacua]]
 [[!redirects false vacuums]]
+
+
+[[!redirects vacuum decay]]
+[[!redirects vacuum decays]]
