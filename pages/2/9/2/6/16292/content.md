@@ -63,7 +63,7 @@ $$
 
 * Wikipedia, _[Gravitational instanton](http://en.wikipedia.org/wiki/Gravitational_instanton)_
 
-* {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 6.3.3 of _String Theory and Particle Physics: An Introduction to String Phenomenology_, Cambridge University Press 2012
+* {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 6.3.3 of _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge University Press 2012
 
 Discussion in the context of [[M-theory on G2-manifolds]] and [[gauge enhancement]]
 
