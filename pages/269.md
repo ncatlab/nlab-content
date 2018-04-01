@@ -114,7 +114,7 @@ It can be checked that this notation is consistent with Notation \ref{NotationOn
 
 =--
 
-### Boundary of the free standing $n$-cube, and of an $n$-cube of a cubical set.
+### Boundary of the free standing $n$-cube, and of an $n$-cube of a cubical set
 
 +-- {: .num_defn}
 ###### Notation
@@ -245,7 +245,7 @@ We refer to $\sqcap^{n, i, \epsilon}$ together with the morphism $i_{i,\epsilon}
 +-- {: .num_defn}
 ###### Notation
 
-We denote by $p : \square^{n} \rightarrow \square^{0}$ the arrow $y(\underbrace{p \otimes p \otimes \cdots p}_{n})$ of $\mathsf{Set}^{\square^{op}}$, making use of the fact that $\underbrace{\square^{0} \otimes \square^{0} \otimes \cdots \square^{0}}_{n}$ is $\square^{0}$, since $\square^{0}$ is the unit of the monoidal structure on $\mathsf{Set}^{\square^{op}}$.
+We denote by $p : \square^{n} \rightarrow \square^{0}$ the arrow $y(\underbrace{p \otimes p \otimes \cdots p}_{n})$ of $\mathsf{Set}^{\square^{op}}$, making use of the fact that $\underbrace{\square^{0} \otimes \square^{0} \otimes \cdots \square^{0}}_{n}$ is $\square^{0}$, since $\square^{0}$ is the unit of the monoidal structure of $\mathsf{Set}^{\square^{op}}$.
 
 =--
 
