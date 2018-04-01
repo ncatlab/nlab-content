@@ -59,6 +59,11 @@ An original article with an eye towards [[supergravity]] unification is
 
 * [[Murray Gell-Mann]], [[Pierre Ramond]], Richard Slansky, _Complex Spinors and Unified Theories_, Supergravity, [[Peter van Nieuwenhuizen]] and D.Z. Freedman, eds, North Holland Publishing Co, 1979, reprinted as [arXiv:1306.4669](http://arxiv.org/abs/1306.4669)
 
+A textbook account is in
+
+* {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 1.2 of _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge University Press 2012
+
+
 Survey of arguments for the hypothesis of grand unification includes
 
 * [[Michael Peskin]], _Beyond the Standard Model_ ([arXiv:hep-ph/9705479](http://arxiv.org/abs/hep-ph/9705479))
