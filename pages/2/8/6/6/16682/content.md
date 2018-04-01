@@ -1,5 +1,16 @@
 
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+
 ## Idea
 
 One of the technical issues in the [[phenomenology|phenomenological]] viability of [[grand unified theories]].
@@ -9,6 +20,9 @@ One of the technical issues in the [[phenomenology|phenomenological]] viability 
 * [[proton decay]]
 
 ## References
+
+* {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 2.6. (p. 48 (62)) of _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge University Press 2012
+
 
 * Wikipedia, _[Doublet&#8211;triplet splitting problem](https://en.wikipedia.org/wiki/Doublet&#8211;triplet_splitting_problem)_
 
