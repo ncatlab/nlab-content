@@ -2,7 +2,12 @@
 
 * [webpage](http://members.ift.uam-csic.es/auranga/intro.html)
 
-## related pages
+## Writings
+
+* {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge University Press 2012
+
+
+## related $n$Lab entries
 
 * [[string phenomenology]]
 
