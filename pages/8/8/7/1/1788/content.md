@@ -1,4 +1,12 @@
-Test
+
+[[HiggsVacuumStability.png:file]]
+
+<img src="https://ncatlab.org/nlab/files/HiggsVacuumStability.png" width="400">
+
+[[HiggsVacuumStabilityII.png:file]]
+
+<img src="https://ncatlab.org/nlab/files/HiggsVacuumStabilityII.png" width="400">
+
 
 Consider the map
 
