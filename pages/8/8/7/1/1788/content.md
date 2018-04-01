@@ -1,3 +1,10 @@
+
+[[HiggsVacuumStabilityIII.png:file]]
+
+<img src="https://ncatlab.org/nlab/files/HiggsVacuumStabilityIII.png" width="700">
+
+
+
 [[HiggsPotentials.png:file]]
 
 <img src="https://ncatlab.org/nlab/files/HiggsPotentials.png" width="600">
