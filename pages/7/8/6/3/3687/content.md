@@ -90,6 +90,8 @@ Review contains
 
 * A. Port, _An Introduction to Homological Mirror Symmetry and the Case of Elliptic Curves_ ([arXiv:1501.00730](http://arxiv.org/abs/1501.00730))
 
+* {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 10.1.2 of _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge University Press 2012
+
 
 Other reviews include
 
