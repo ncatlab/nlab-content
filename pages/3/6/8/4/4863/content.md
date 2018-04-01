@@ -253,6 +253,9 @@ Theories_, Addison-Wesley Publ. Comp., (1987)
 
 * [[Matthias Blau]], chapter 43 of _Lecture notes on general relativity_ ([web](http://www.blau.itp.unibe.ch/GRLecturenotes.html))
 
+* {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 1.4 of _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge University Press 2012
+
+
 A survey of the history of the role of the KK-mechanism in theoretical physics is
 
 * [[Michael Duff]], _Kaluza-Klein Theory in Perspective_ ([arXiv](http://arxiv.org/abs/hep-th/9410046))
