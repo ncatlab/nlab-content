@@ -100,6 +100,8 @@ with a more precise analysis due to
 
   Alexander Kusenko, _[Are We on the Brink of the Higgs Abyss?](https://physics.aps.org/articles/v8/108)_, Physics 8, 108 (2018)
 
+> Their conclusion is that the best theoretical fit to measured parameters, including the Higgs and top-quark masses, points to a metastable Universe. However, their analysis also concludes that values of parameters are closer to a region of absolute stability than suggested by previous studies: it is possible for the Universe to be fully stable (and for the standard model to work all the way up to the Planck scale), if the true values of measured parameters are only 1.3 standard deviations away from the current best estimates.
+
 Related discussion includes the following:
 
 
