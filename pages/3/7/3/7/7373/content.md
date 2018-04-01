@@ -7,7 +7,7 @@ Applied Categorical Structures, 2017 [->arXiv](https://arxiv.org/abs/1610.02180)
 * with A. Chirvasitu, [Tensor functors between categories of quasi-coherent sheaves](http://www.sciencedirect.com/science/article/pii/S0021869313006030), Journal of Algebra 399 (2014), 675-692 [->arXiv](https://arxiv.org/abs/1202.5147)
 * Rosenberg's reconstruction theorem (after Gabber), to appear in Expositiones Mathematicae, 2013 [->arXiv](http://arxiv.org/abs/1310.5978)
 
-**Book**
+**Books**
 
 * [Einf&#252;hrung in die Kategorientheorie: Mit ausf&#252;hrlichen Erkl&#228;rungen und zahlreichen Beispielen](http://www.springer.com/de/book/9783662535202), Second edition, Springer, 2016.
  
