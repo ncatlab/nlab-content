@@ -4,7 +4,7 @@
 
 ## Definition
 
-We shall make use of the notation established at [[cubical set]], and the notation which that page makes use of.
+We shall make use of notions introduced at [[cubical set]], and of the notation of this page.
 
 +-- {: .num_defn}
 ###### Definition
