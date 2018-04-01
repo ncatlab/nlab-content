@@ -1,4 +1,3 @@
-
 [[HiggsPotentials.png:file]]
 
 <img src="https://ncatlab.org/nlab/files/HiggsPotentials.png" width="600">
