@@ -11,4 +11,8 @@
 
 * [[string phenomenology]]
 
+* [[intersecting D-brane models]]
+
+* [[Higgs mechanism]]
+
 category: people
