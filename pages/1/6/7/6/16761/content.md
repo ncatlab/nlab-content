@@ -17,4 +17,7 @@ category: people
 
 * [[intersecting D-brane model]]
 
+* [[Higgs mechanism]]
+
+
 [[!redirects Luis Ibanez]]
