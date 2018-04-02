@@ -58,9 +58,12 @@ There is no lack of proposals for realizing the Higgs field in various big schem
 
 For instance
 
-* in the [[technicolor]] model the Higgs field is not a fundamental particle but a compound of fermions. This realizes the Higgs effect entirely in ordinary [[gauge theory]]; 
+* in [[string theory]] (see _[[string phenomenology]]_) a Higgs mechanism can arise in a variety of ways. Notably in [[intersecting D-brane models]] it arises naturally from brane recombination at intersections: ([Cremades-Ibanez-Marchesano 02, section 7](#CremadesIbanezMarchesano02)):
 
-* in [[string theory]] (see _[[string phenomenology]]_) a Higgs can arise in all sorts of ways. Notably in "intersecting brane models" it arises from strings localized at intersecting points (for a typical kind of survey see for instance [around slide 33 here](http://www-tap.scphys.kyoto-u.ac.jp/sc2/Kobayashi.pdf#page=33)) 
+<img src="https://ncatlab.org/nlab/files/BraneRecombination.png" width="600"/>
+
+
+* in the [[technicolor]] model the Higgs field is not a fundamental particle but a compound of [[fermions]]. This realizes the Higgs effect entirely in ordinary [[gauge theory]]; 
 
 * in [[noncommutative geometry]] it has been [shown](http://ncatlab.org/nlab/show/standard+model+of+particle+physics#NCGeometry) that the Higgs may be modeled as a component of the gauge bosons assuming that the [[Kaluza-Klein mechanism|KK-reduction]] is over a certain non-commutative space of classical dimension 0.
 
@@ -166,7 +169,12 @@ Arguments that a false Higgs vacuum is incompatible with [[cosmology|cosmologica
 
 * {#EKSYZ16} William E. East, John Kearney, Bibhushan Shakya, Hojin Yoo, Kathryn M. Zurek, _Spacetime Dynamics of a Higgs Vacuum Instability During Inflation_, Phys. Rev. D 95, 023526 (2017) ([arXiv:1607.00381](https://arxiv.org/abs/1607.00381))
 
-### In G2-MSSM
+### In string theory
+
+Discussion of the Higgs field from [[intersecting D-brane models]] is due to
+
+* {#CremadesIbanezMarchesano02} D. Cremades, [[Luis Ibáñez]], F. Marchesano, _Intersecting brane models of particle physics and the Higgs mechanism_, JHEP, 0207, 022 2002 ([arXiv:hep-th/0203160](https://arxiv.org/abs/hep-th/0203160))
+
 
 Discussion of the Higgs mechanism in the [[G2-MSSM]] and related models is due to
 
