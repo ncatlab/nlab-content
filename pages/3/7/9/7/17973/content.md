@@ -47,8 +47,13 @@ Vague review is in ([Ibáñez-Uranga 12, section 10.2.1](#IbanezUranga12), [Uran
 
 [Aldazabal-Ibanez-Quevedo-Uranga 00, p. 307](#AldazabalIbanezQuevedoUranga00)
 
-
 [Uranga 12a, p. 12](#Uranga12a)
+
+### Higgs mechanism
+
+[[Higgs mechanism]] from brane recombination ([Cremades-Ibanez-Marchesano 02, section 7](#CremadesIbanezMarchesano02)):
+
+<img src="https://ncatlab.org/nlab/files/BraneRecombination.png" width="600"/>
 
 
 ## References
@@ -80,6 +85,11 @@ for [[D7-branes]]:
 * {#Uranga12b} [[Angel Uranga]], _Model building in type IIB string theory_, 2012 ([pdf](http://scgp.stonybrook.edu/wp-content/uploads/2012/05/Uranga-Lecture-Notes-2.pdf))
 
 * Anshuman Maharana, [[Eran Palti]], _Models of Particle Physics from Type IIB String Theory and F-theory: A Review_ ([arXiv:1212.0555](http://arxiv.org/abs/1212.0555))
+
+Discussion of the [[Higgs mechanism]]:
+
+* {#CremadesIbanezMarchesano02} D. Cremades, [[Luis Ibáñez]], F. Marchesano, _Intersecting brane models of particle physics and the Higgs mechanism_, JHEP, 0207, 022 2002 ([arXiv:hep-th/0203160](https://arxiv.org/abs/hep-th/0203160))
+
 
 See also
 
