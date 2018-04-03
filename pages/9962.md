@@ -33,7 +33,7 @@ A key problem is arguably that the principle has been used in a very vague and v
 
 > ([Wilson 04, p. 10](#Wilson04))
 
-{#Kane17} From [Kane 17](#Kane17), in a discussion of [[G2-MSSM]] model building:
+{#FromKane17} From [Kane 17](#Kane17), in a discussion of [[G2-MSSM]] model building:
 
 > Until recently there were no theories predicting the values of superpartner masses. The arguments based on ‘naturalness’ are basically like saying the weather tomorrow should be the same as today. The opposite of naturalness is having a theory. $[$...$]$ Claims $[$superpartners$]$ should have been seen would be valid given so called naturalness arguments, but are wrong in actual theories. Many of us think that is a misuse of the idea of naturalness, but it is the fashionable use.  
 
