@@ -111,10 +111,11 @@ For Grothendieck fibrations in [[Cat]], this means the following.
 +-- {: .un_defn}
 ###### Definition
 
-A **two-sided discrete fibration** is a [[span]] $q \colon E \to A$, $p \colon E \to B$ of [[categories]] and [[functors]] such that 
-1. each $b \to p e$ in $B$ has a unique lift in $E$ that has codomain $e$ and is in the fiber over $q e$
-1. each $q e \to a$ in $A$ has a unique lift in $E$ that has domain $e$ and is in the fiber over $p e$
-1. for each $f\colon e \to e'$ in $E$, the codomain of the lift of $q f$ equals the domain of the lift of $p f$ and their composite is $f$.
+A **two-sided discrete fibration** is a [[span]] $q \colon E \to A$, $p \colon E \to B$ of [[categories]] and [[functors]] such that
+ 
+1. each $b \to p(e)$ in $B$ has a unique lift in $E$ that has codomain $e$ and is in the fiber over $q(e)$
+1. each $q(e) \to a$ in $A$ has a unique lift in $E$ that has domain $e$ and is in the fiber over $p(e)$
+1. for each $f\colon e \to e'$ in $E$, the codomain of the lift of $q(f)$ equals the domain of the lift of $p(f)$ and their composite is $f$.
 
 =--
 
