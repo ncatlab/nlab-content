@@ -32,7 +32,7 @@ This usefulness of low loop order is fortunate because
 ## Relation to powers in Planck's constant
  {#RelationToPowersInPlancksConstant}
 
-
+The following is taken from _[[geometry of physics -- A first idea of quantum field theory]]_. See there for more background.
 
 +-- {: .num_prop #FeynmanDiagramLoopOrder}
 ###### Proposition
