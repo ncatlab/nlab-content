@@ -36,6 +36,19 @@ Issues that the program of asymptotic safety of gravity is facing include the fo
 
    Similarly, if one trusts the [[AdS/CFT correspondence]] then gravity is fundamentally not a local field theory, only its boundary [[CFT]] is, in contradiction with asymptotic safety of gravity ([Shomer 07, section IV](#Shomer07)).
 
+## Properties
+
+### Higgs particle self-coupling
+ {#HiggsParticle}
+
+The observed [[Higgs particle]] [[rest mass]] of about 125 [[GeV]] implies that with $\lambda$ itself also the [[beta function]] $\beta_\lambda$ for the [[coefficient]] $\lambda$ of the quartic part of the Higgs self-coupling is at least close to zero at high energy. It has been suggested that this is a reflection of the principle of asymptotic safety ([Shaposhnikov-Wetterich 09](#ShaposhnikovWetterich09)). But the refined analysis of  [BDGGSSS 13](#BDGGSSS13) does not seem to support this picture (see p. 17):
+
+>  As shown in fig. 2 (upper right), the corresponding Higgs quartic [[beta-function]] vanishes at a [[scale]] of about $10^{17}$-$10^{18}$ [[GeV]]. In order to quantify the degree of cancellation in the β-function, we plot in fig. 2 (lower right) $\beta_\lambda$ in units of its pure [[top quark]] contribution.  The vanishing of $\beta_\lambda$ looks  more  like  an  accidental  cancellation  between  various  large  contributions, rather than an asymptotic approach to zero.
+
+<img src="https://ncatlab.org/nlab/files/HiggsQuarticBetaFunction.png" width="800"/>
+
+See also at _[Higgs field -- asymptotic safety?](Higgs+field#AsymtoticSafetyOrNot)_
+
 ## References
 
 The idea of asymptotic safety as such and as a cure for [[quantum gravity]] is due to
@@ -65,5 +78,13 @@ See also
 * Roberto Percacci, _Asymptotic Safety FAQs_ ([web](http://www.percacci.it/roberto/physics/as/faq.html))
 
 * {#BiemansPlataniaSaueressig17} Jorn Biemans, Alessia Platania, Frank Saueressig, _Renormalization group fixed points of foliated gravity-matter systems_ ([arXiv:1702.06539](https://arxiv.org/abs/1702.06539))
+
+The suggestion that asymptotic safety explains the observed [[mass]] of the [[Higgs particle]] is attributed to
+
+* {#ShaposhnikovWetterich09} M. Shaposhnikov and C. Wetterich, _Asymptotic safety of gravity and the Higgs boson mass_, Phys. Lett. B 683 (2010) 196 ([arXiv:0912.0208](https://arxiv.org/abs/0912.0208))
+
+but see p. 17 of
+
+* {#BDGGSSS13} Dario Buttazzo, Giuseppe Degrassi, Pier Paolo Giardino, [[Gian Giudice]], Filippo Sala, Alberto Salvio, Alessandro Strumia, section 7 of _Investigating the near-criticality of the Higgs boson_ ([arXiv:1307.3536](https://arxiv.org/abs/1307.3536))
 
 
