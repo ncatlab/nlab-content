@@ -41,13 +41,24 @@ Issues that the program of asymptotic safety of gravity is facing include the fo
 ### Higgs particle self-coupling
  {#HiggsParticle}
 
-The observed [[Higgs particle]] [[rest mass]] of about 125 [[GeV]] implies that with $\lambda$ itself also the [[beta function]] $\beta_\lambda$ for the [[coefficient]] $\lambda$ of the quartic part of the Higgs self-coupling is at least close to zero at high energy. It has been suggested that this is a reflection of the principle of asymptotic safety ([Shaposhnikov-Wetterich 09](#ShaposhnikovWetterich09)). But the refined analysis of  [BDGGSSS 13](#BDGGSSS13) does not seem to support this picture (see p. 17):
+The near criticality of the [[Higgs field]] [[vacuum]] (see there at _[Higgs mass and vacuum (in-)stability](Higgs+field#MassAndVacuumInstability)_) implies that the [[coefficient]] $\lambda$ of the quartic part of the Higgs potential is close to zero after [[renormalization group flow]] ("RGE") to around the [[Planck scale]] of about $10^{19}$ [[GeV]] (e.g. [BDGGSSS 13, p. 17-18](#BDGGSSS13)):
+
+<img src="https://ncatlab.org/nlab/files/HiggsQuarticCoupling.png" width="400"/>
+
+In fact also the [[beta function]] $\beta_\lambda$ of the quartic coupling $\lambda$ (i.e. its logarithmic [[derivative]] with respect to [[scale]]) is close to zero around the [[Planck scale]] of about $10^{19}$ [[GeV]] ([BDGGSSS 13, p. 18](#BDGGSSS13)):
+
+<img src="https://ncatlab.org/nlab/files/HiggsQuarticBetaFunctionRelative.png" width="400"/>
+
+
+Earlier it has been suggested that this reflects the principle of asymptotic safety ([Shaposhnikov-Wetterich 09](#ShaposhnikovWetterich09)). But this would mean that not only $\lambda$ and its [[beta-function|RGE-derivative]] $\beta_\lambda$ vanish around the [[Planck scale]], but that in fact all higher derivatives do, too (see e.g [Niedermaier 06, equation (1.5)](#Niedermaier06)) hence that $\beta_\lambda$ asymptotes to zero. But this does not seem to be the case; in ([BDGGSSS 13, p. 17-18](#BDGGSSS13)) it says:
 
 >  As shown in fig. 2 (upper right), the corresponding Higgs quartic [[beta-function]] vanishes at a [[scale]] of about $10^{17}$-$10^{18}$ [[GeV]]. In order to quantify the degree of cancellation in the β-function, we plot in fig. 2 (lower right) $\beta_\lambda$ in units of its pure [[top quark]] contribution.  The vanishing of $\beta_\lambda$ looks  more  like  an  accidental  cancellation  between  various  large  contributions, rather than an asymptotic approach to zero.
 
+
 <img src="https://ncatlab.org/nlab/files/HiggsQuarticBetaFunction.png" width="800"/>
 
-See also at _[Higgs field -- asymptotic safety?](Higgs+field#AsymtoticSafetyOrNot)_
+
+
 
 ## References
 
