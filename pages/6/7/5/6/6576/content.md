@@ -40,6 +40,7 @@ and the two requirements are equivalent.
 * page 89 (20 of 49) at MIT course on Lie groups ([pdf 2](http://ocw.mit.edu/courses/mathematics/18-755-introduction-to-lie-groups-fall-2004/lecture-notes/chap2_topic8to14.pdf))
 * [[Sigurdur Helgason]], _Differential geometry, Lie groups and symmetric spaces_
 * F. Bruhat, _Lectures on Lie groups and representations of locally compact groups_, notes by S. Ramanan, TATA Bombay 1958, 1968, [pdf](http://www.math.tifr.res.in/~publ/ln/tifr14.pdf)
+* MathOverflow: [Construction of the Lie functor: left vs. right invariant vector fields on Lie groups and Lie groupoids](https://mathoverflow.net/questions/178528/construction-of-the-lie-functor-left-vs-right-invariant-vector-fields-on-lie-g)
 
 [[!redirects invariant differential forms]]
 
@@ -47,6 +48,8 @@ and the two requirements are equivalent.
 [[!redirects right invariant form]]
 [[!redirects invariant vector field]]
 [[!redirects invariant vector fields]]
+[[!redirects left invariant vector field]]
+[[!redirects right invariant vector field]]
 
 [[!redirects left invariant differential form]]
 [[!redirects left invariant differential forms]]
