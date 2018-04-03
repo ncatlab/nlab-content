@@ -327,6 +327,10 @@ An introduction for philosophers is
 
 * {#Shulman16} [[Michael Shulman]], _Homotopy Type Theory: A synthetic approach to higher equalities_ ([arXiv:1601.05035](http://arxiv.org/abs/1601.05035))
 
+and one with an emphasis on [[synthetic geometry]] is 
+
+* {#Shulman17} [[Michael Shulman]], _Homotopy type theory: the logic of space_, in [[Gabriel Catren]], [[Mathieu Anel]] (eds.) _[[New Spaces for Mathematics and Physics]]_ ([arXiv:1703.03007](https://arxiv.org/abs/1703.03007))
+
 Early sketches and introductions to the idea of homotopy type theory include
 
 * {#Awodey} [[Steve Awodey]], _Type theory and homotopy_, Epistemology versus Ontology. Springer Netherlands, 2012. 183-201. (2010) [arXiv:1010.1810](http://arxiv.org/abs/1010.1810)
