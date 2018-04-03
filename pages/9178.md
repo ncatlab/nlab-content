@@ -16,7 +16,8 @@
 
 ## Idea
 
-The _quark_ is one of the fundamental [[particles]]/[[matter]] [[field (physics)|fields]] in the [[standard model of particle physics]]. Quarks couple to the [[Yang-Mills theory]] given by [[QCD]].
+The _quarks_ is one of the fundamental [[particles]]/[[matter]] [[field (physics)|fields]] in the [[standard model of particle physics]]. Quarks couple to the [[Yang-Mills theory]] given by [[QCD]].
+
 
 ## Related concepts
 
