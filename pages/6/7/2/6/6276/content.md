@@ -81,6 +81,8 @@ invariant hyperfunctions_, Inventiones math. __47__, 249--272 (1978)  [pdf](http
 * V. Kurlin, _Exponential Baker-Campbell-Hausdorff formula_, [http://arxiv.org/abs/math/0606330](http://arxiv.org/abs/math/0606330)
 * Terry Tao's blog: [the-c11-baker-campbell-hausdorff-formula](https://terrytao.wordpress.com/2011/06/21/the-c11-baker-campbell-hausdorff-formula)
 * [wikipedia](https://en.wikipedia.org/wiki/Baker%E2%80%93Campbell%E2%80%93Hausdorff_formula)
+* Kuo-Tsai Chen, _Integration of paths, geometric invariants and a generalized Baker-Hausdorff formula_, Annals of Mathematics __65__:1 (1957) 163--178 [doi](https://doi.org/10.2307/1969671) [jstor](http://www.jstor.org/stable/1969671) 
+* [[Wilhelm Magnus]], _A connection between the Baker-Hausdorff formula and a problem of Burnside_, Ann. of Math. __52__ (1950) 111-126
 
 category: algebra
 [[!redirects Baker-Campbell-Hausdorff series]]
