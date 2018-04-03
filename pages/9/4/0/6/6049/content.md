@@ -29,7 +29,7 @@ by the general logic of [[Kalb-Ramond field|higher electromagnetism]] the (1+1)-
 
 One can understand the NS5-"black brane" solution to [[type II supergravity]] as being the solitonic incarnation of the fundamental 5-brane in much the same way as an ordinary [[black hole]] in ordinary [[gravity]] is a solitonic incarnation of the [[fundamental particle]]: as the particle, the black hole it is characterized just by [[mass]], [[charge]] and [[angular momentum]]. 
 
-Similarly, the "black" NS5-brane is characterizes by mass, [[B-field]] charge and angular momentum. 
+Similarly, the "black" NS5-brane is characterizes by [[mass]], [[B-field]] charge and [[angular momentum]]. 
 
 
 ## Properties
@@ -45,7 +45,41 @@ By the [[brane scan]], on the [[worldvolume]] of an NS5-brane propagates a [[sup
 
 ### Relation to D-branes
 
-There are various intersection laws for [[black brane|black]] NS5-branes with [[black brane|black]] [[D-branes]] ([Callan-Harvey-Strominger 91, sections IV.C and V.B](#CallanHarveyStrominger91), [Brodie-Hanany 97](#BrodieHanany97), [EGKRS 00](#EGKRS00), ...)
+There are various intersection laws for [[black brane|black]] NS5-branes with [[black brane|black]] [[D-branes]] ([Callan-Harvey-Strominger 91, sections IV.C and V.B](#CallanHarveyStrominger91), [Brodie-Hanany 97](#BrodieHanany97), [EGKRS 00](#EGKRS00)). 
+
+
+Consider a [[black brane|black]] NS5-brane with [[near horizon geometry]] $  \underset{\sim AdS_7}{\underbrace{ \mathbb{R}^{5,1} \times \mathbb{R}_{\phi} }} \times S^3$ ([EGKRS 00, p. 8](#EGKRS00)):
+
+<img src="https://ncatlab.org/nlab/files/BlackNS5BraneII.png"/>
+
+The [[3-sphere]] factor $S^3$ is the [[unit sphere]] around the black NS5-brane [[worldvolume]] $\mathbb{R}^{5,1}$, and $\mathbb{R}_{\phi}$ parameterizes the radial distance from it.
+
+Placing a [[D6-brane]] at one point of the $S^3$-factor ([EGKRS 00, p. 20](#EGKRS00))
+
+<img src="https://ncatlab.org/nlab/files/NS5InD6a.png"/>
+
+means to take its [[worldvolume]] to be the factor $\mathbb{R}^{5,1} \times \mathbb{R}_\phi$, hence extending to one side of the NS5-brane ([EGKRS 00, p. 7](#EGKRS00)):
+
+<img src="https://ncatlab.org/nlab/files/NS5BoundingD6.png"/>
+
+Placing another [[D6-brane]] at the corresponding antipodal point means to have it extend also to the other side ([EGKRS 00, p. 5](#EGKRS00)):
+
+<img src="https://ncatlab.org/nlab/files/NS5InD6.png"/>
+
+or else to have embedded the black NS5-brane into a single [[D6-brane]].
+
+Special properties [[D6-branes]] ending on NS5-branes were highlighted in ([Brodie-Hanany 97, section 2.4](#BrodieHanany97)).
+
+The [[M-theory]]-lift of this situation should be the [[4-sphere|4-spherical]] [[orbifold]] [[near horizon geometry]] of an [[M5-brane]] ([MFF 12, section 8.3](#MFF12))
+
+$$
+  \underset{\sim AdS_7}{\underbrace{\mathbb{R}^{5,1} \times \mathbb{R}_\phi}} \times S^4/G_{ADE}
+$$
+
+where $G_{ADE} \subset SU(2)$ is a [[finite group|finite]] [[subgroup]] of [[special unitary group|SU(2)]] (hence in the [[ADE classification]]), [[action|acting]] via the identification $S^4 \simeq S(\mathbb{H} \oplus \mathbb{R})$ (see at _[[4-sphere]]_ the section [SU(2)-action](4-sphere#QuaternionAction)).
+
+For non-trivial $G_{ADE}$, this [[action]] has precisely two [[fixed points]] $S^0 \hookrightarrow S^4 \to S^3$. Hence $\mathbb{R}^{5,1} \tmes \mathbb{R}_\phi \times S^0$ must be the [[worldvolume]] of two [[KK-monopoles]] of [[11d supergravity]], which is the M-theory lift of the two [[D6-branes]]. While the M-theory lift of the NS5-brane is the [[M5-brane]] with [[worldvolume]] $\mathbb{R}^{5,1}$.
+
 
 ### Relation to Khovanov homology
 
@@ -101,6 +135,11 @@ Relation to [[black brane|black]] [[D-branes]] is discussed in
 * {#BrodieHanany97} [[John Brodie]], [[Amihay Hanany]], _Type IIA Superstrings, Chiral Symmetry, and N=1 4D Gauge Theory Dualities_, Nucl.Phys. B506 (1997) 157-182 ([arXiv:hep-th/9704043](https://arxiv.org/abs/hep-th/9704043))
 
 * {#EGKRS00} Shmuel Elitzur, Amit Giveon, [[David Kutasov]], Eliezer Rabinovici, Gor Sarkissian, _D-Branes in the Background of NS Fivebranes_, JHEP 0008 (2000) 046 ([arXiv:hep-th/0005052](https://arxiv.org/abs/hep-th/0005052))
+
+The [[M-theory]]-lift of the black NS5-brane embedded into a [[D6-brane]] should be the configuration from section 8.3 of 
+
+* {#MFF12} Paul de Medeiros, [[José Figueroa-O'Farrill]], _Half-BPS M2-brane orbifolds_, Adv. Theor. Math. Phys. Volume 16, Number 5 (2012), 1349-1408. ([arXiv:1007.4761](http://arxiv.org/abs/1007.4761), [Euclid](https://projecteuclid.org/euclid.atmp/1408561553))
+
 
 ### As a Green-Schwarz sigma-model
 
