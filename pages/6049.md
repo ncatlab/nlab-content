@@ -81,7 +81,7 @@ $$
 
 where $G_{ADE} \subset SU(2)$ is a [[finite group|finite]] [[subgroup]] of [[special unitary group|SU(2)]] (hence in the [[ADE classification]]), [[action|acting]] via the identification $S^4 \simeq S(\mathbb{H} \oplus \mathbb{R})$ (see at _[[4-sphere]]_ the section [SU(2)-action](4-sphere#QuaternionAction)).
 
-For non-trivial $G_{ADE}$, this [[action]] has precisely two [[fixed points]] $S^0 \hookrightarrow S^4 \to S^3$. Hence $\mathbb{R}^{5,1} \tmes \mathbb{R}_\phi \times S^0$ must be the [[worldvolume]] of two [[KK-monopoles]] of [[11d supergravity]], which is the M-theory lift of the two [[D6-branes]]. While the M-theory lift of the NS5-brane is the [[M5-brane]] with [[worldvolume]] $\mathbb{R}^{5,1}$.
+For non-trivial $G_{ADE}$, this [[action]] has precisely two [[fixed points]] $S^0 \hookrightarrow S^4 \to S^3$. Hence $\mathbb{R}^{5,1} \times \mathbb{R}_\phi \times S^0$ must be the [[worldvolume]] of two [[KK-monopoles]] of [[11d supergravity]], which is the M-theory lift of the two [[D6-branes]]. While the M-theory lift of the NS5-brane is the [[M5-brane]] with [[worldvolume]] $\mathbb{R}^{5,1}$.
 
 
 ### Relation to Khovanov homology
