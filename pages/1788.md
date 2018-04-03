@@ -1,4 +1,6 @@
 
+[[VBM_RPSHT18b.pdf:file]]
+
 * D. Cremades, [[Luis Ibáñez]], F. Marchesano, _Intersecting brane models of particle physics and the Higgs mechanism_, JHEP, 0207, 022 2002 ([arXiv:hep-th/0203160](https://arxiv.org/abs/hep-th/0203160))
  
 [[HiggsVacuumStabilityIII.png:file]]
