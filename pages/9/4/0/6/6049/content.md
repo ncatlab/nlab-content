@@ -43,10 +43,13 @@ Similarly, the "black" NS5-brane is characterizes by [[mass]], [[B-field]] charg
 
 By the [[brane scan]], on the [[worldvolume]] of an NS5-brane propagates a [[superstring]]. This is called the _[[little string]]_, see there for more.
 
-### Relation to D-branes
+### D-branes ending on NS5-branes
+ {#DBranesEndingOnNS5Branes}
 
-There are various intersection laws for [[black brane|black]] NS5-branes with [[black brane|black]] [[D-branes]] ([Callan-Harvey-Strominger 91, sections IV.C and V.B](#CallanHarveyStrominger91), [Brodie-Hanany 97](#BrodieHanany97), [EGKRS 00](#EGKRS00)). 
+The [[black brane|black]] [[D-branes]] may end on [[black brane|black]] NS5-branes ([Callan-Harvey-Strominger 91, sections IV.C and V.B](#CallanHarveyStrominger91), [Tseytlin 96](#Tseytlin96), [Argurio-Englert-Houart 97](#ArgurioEnglertHouart97), [Brodie-Hanany 97](#BrodieHanany97), [EGKRS 00](#EGKRS00)). 
 
+#### D6-branes ending on NS5-branes
+  {#D6BranesEndingOnNS5Branes}
 
 Consider a [[black brane|black]] NS5-brane with [[near horizon geometry]] $  \underset{\sim AdS_7}{\underbrace{ \mathbb{R}^{5,1} \times \mathbb{R}_{\phi} }} \times S^3$ ([EGKRS 00, p. 8](#EGKRS00)):
 
@@ -130,7 +133,11 @@ The 5-brane in [[heterotic string theory]] was found as a [[black brane]] in
 
 * Marco Cariglia, [[Kurt Lechner]], _NS5-branes in IIA supergravity and gravitational anomalies_ ([arXiv:hep-th/0203238](http://arxiv.org/abs/hep-th/0203238))
 
-Relation to [[black brane|black]] [[D-branes]] is discussed in
+The intersection laws with [[black brane|black]] [[D-branes]] are  discussed in
+
+* {#Tseytlin96} [[Arkady Tseytlin]], _No-force condition and BPS combinations of p-branes in 11 and 10 dimensions_, Nucl.Phys.B487:141-154,1997 ([arXiv:hep-th/9609212](https://arxiv.org/abs/hep-th/9609212))
+
+* {#ArgurioEnglertHouart97} R. Argurio, [[François Englert]], L. Houart, _Intersection Rules for $p$-Branes_, Phys. Lett. B398:61-68, 1997 ([arXiv:hep-th/9701042](https://arxiv.org/abs/hep-th/9701042))
 
 * {#BrodieHanany97} [[John Brodie]], [[Amihay Hanany]], _Type IIA Superstrings, Chiral Symmetry, and N=1 4D Gauge Theory Dualities_, Nucl.Phys. B506 (1997) 157-182 ([arXiv:hep-th/9704043](https://arxiv.org/abs/hep-th/9704043))
 
