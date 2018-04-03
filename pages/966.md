@@ -157,13 +157,13 @@ version of an adjoint functor theorem.
 
 Let $F : C \to D$ be a functor between [[locally presentable categories]]. Then
 
-* $F$ has a [[right adjoint]] precisely if it preserves all small [[colimits]].
+* $F$ has a [[right adjoint]] if and only if it preserves all small [[colimits]].
 
-* $F$ has a [[left adjoint]] precisely if it is an [[accessible functor]] and preserves all small [[limits]].
+* $F$ has a [[left adjoint]] if and only if it is an [[accessible functor]] and preserves all small [[limits]].
 
 =--
 
-The second statement, characterizing when $F$ has a left adjoint, is  ([AdamekRosicky, theorem 1.66](#AdamekRosicky)). This is an application of the general adjoint functor theorem: any accessible functor satisfies the solution set condition. The accessibility condition is indeed necessary, as is discussed below in the section [In locally presentable categories](#InLocallyPresentableCategories).
+The second statement, characterizing when $F$ has a left adjoint, is  ([AdamekRosicky, theorem 1.66](#AdamekRosicky)). In the "if" direction, this is an application of the general adjoint functor theorem: any accessible functor satisfies the solution set condition. The "only if", particularly that having a left adjoint forces accessibility, takes a little work. But in any case there are easy examples that show that continuity alone is insufficient, i.e., examples of continuous functors between locally presentable categories that do not have left adjoints. See below in the section [In locally presentable categories](#InLocallyPresentableCategories). 
 
 The first statement, characterizing when $F$ has a right adjoint, can be proven using the special adjoint functor theorem: by a non-trivial theorem ([AdamekRosicky, theorem 1.58](#AdamekRosicky)), any locally presentable category is co-wellpowered. 
 
@@ -175,8 +175,7 @@ A right adjoint to any cocontinuous functor $F \colon C \to D$ between locally p
 ### In locally presentable categories
  {#InLocallyPresentableCategories}
 
-The following is a counter-example, showing that the
-necessity of the accessibility clause in theorem \ref{AdjFuncTheoremForLocallyPresentableCats}.
+The following is a counter-example, indicating the need for something more than just continuity to force a functor between locally presentable categories to be a right adjoint; as stated in theorem \ref{AdjFuncTheoremForLocallyPresentableCats}, the missing extra condition is precisely accessibility.
 
 +-- {: .num_example}
 ###### Example
