@@ -52,6 +52,18 @@ In summary ([Kusenko 15](#Kusenko15)):
 
 However, it has been argued that an actual [[false vacuum]] of the Higgs is incompatible with [[cosmology]], as due to [[vacuum fluctuations]] during [[inflation]] the [[vacuum decay]] would not have been avoided ([EGR 07](#EGR07), [HKSZ 14](#HKSZ14), [EGMRSST 15](#EGMRSST15), [EKSYZ 16](#EKSYZ16)). In ([BDGGSSS 13, section 7](#BDGGSSS13), [Kane 18 , "Clue 4"](#Kane18)) it was argued that this suggests a further principle which prevents the vacuum instability and that a natural such principle is [[supersymmetry]]. (This argument has a long history, see [Gibbs 11b](#Gibbs11b)).
 
+
+### Asymptotic safety?
+ {#AsymtoticSafetyOrNot}
+
+It so happens that the Higgs mass of 125 [[GeV]] also implies that with $\lambda$ itself also the [[beta function]] $\beta_\lambda$ for the [[coefficient]] $\lambda$ of the quartic part of the Higgs self-coupling is at least close to zero at high energy. It has been suggested that this is a reflection of the principle of [[asymptotic safety]] ([Shaposhnikov-Wetterich 09](#ShaposhnikovWetterich09)). But the refined analysis of  [BDGGSSS 13](#BDGGSSS13) does not seem to support this picture (see p. 17):
+
+>  As shown in fig. 2 (upper right), the corresponding Higgs quartic [[beta-function]] vanishes at a [[scale]] of about $10^{17}$-$10^{18}$ [[GeV]]. In order to quantify the degree of cancellation in the β-function, we plot in fig. 2 (lower right) $\beta_\lambda$ in units of its pure [[top quark]] contribution.  The vanishing of $\beta_\lambda$ looks  more  like  an  accidental  cancellation  between  various  large  contributions, rather than an asymptotic approach to zero.
+
+[[HiggsQuarticBetaFunction.png:file]]
+
+<img src="https://ncatlab.org/nlab/files/HiggsQuarticBetaFunction.png" width="800"/>
+
 ## Models
 
 There is no lack of proposals for realizing the Higgs field in various big schemes of mathematical structures modelling physics. 
@@ -168,6 +180,10 @@ Arguments that a false Higgs vacuum is incompatible with [[cosmology|cosmologica
 * {#EGMRSST15} Jose R. Espinosa, [[Gian Giudice]], Enrico Morgante, Antonio Riotto, Leonardo Senatore, Alessandro Strumia, Nikolaos Tetradis, _The cosmological Higgstory of the vacuum instability_ ([arXiv:1505.04825](https://arxiv.org/abs/1505.04825))
 
 * {#EKSYZ16} William E. East, John Kearney, Bibhushan Shakya, Hojin Yoo, Kathryn M. Zurek, _Spacetime Dynamics of a Higgs Vacuum Instability During Inflation_, Phys. Rev. D 95, 023526 (2017) ([arXiv:1607.00381](https://arxiv.org/abs/1607.00381))
+
+The interpretation in terms of [[asymptotic safety]] is discussed in
+
+* {#ShaposhnikovWetterich09} M. Shaposhnikov and C. Wetterich, _Asymptotic safety of gravity and the Higgs boson mass_, Phys. Lett. B 683 (2010) 196 ([arXiv:0912.0208](https://arxiv.org/abs/0912.0208))
 
 ### In string theory
 
