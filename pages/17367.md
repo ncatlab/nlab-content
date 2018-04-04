@@ -2,7 +2,7 @@
 * table of contents
 {: toc}
 
-## A relation on the $n$-cubes with trivial boundary of a cubical set
+## A relation on the $n$-cubes of a cubical set with trivial boundary
 
 We make use of the notation established at [[cubical set]] and [[category of cubes]].
 
