@@ -31,6 +31,7 @@ But while [[path integral quantization]] for [[perturbative quantum field theory
 This also suggest that the construction of the full [[non-perturbative quantum field theory]] ought to be given by a [[strict deformation quantization]] of the [[covariant phase space]]. But presently no example of such for non-trivial interaction in [[spacetime]] [[dimension]] $\geq 4$ is known.
 In particular the [[phenomenology|phenomenologically]] interesting case of a complete construction of interacting field theories on 4-dimensional spacetimes is presently unknown. For the case of [[Yang-Mills theory]] this open problem is one of the "Millenium Problems" (see at _[[quantization of Yang-Mills theory]]_).
 
+The following is taken from _[[geometry of physics -- A first idea of quantum field theory]]_. See there for more backround.
 
 ## Details
 
