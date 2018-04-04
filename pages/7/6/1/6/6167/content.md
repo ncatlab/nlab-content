@@ -1,6 +1,6 @@
 [[!redirects Sander Kupers]]
 
-* [website](http://math.stanford.edu/~kupers/)
+* [website](http://math.harvard.edu/~kupers/)
 
 ## Related pages
 
