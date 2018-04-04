@@ -19,30 +19,30 @@ Let $U\colon C\to D$ be a [[functor]].
 
 +-- {: .un_defn}
 ###### Definition
-A **$U$-structured sink** is a [[sink]] of the form $\{f_i \colon U(X_i) \to Y\}$ in $D$.
+A **$U$-structured sink** is a [[sink]] of the form $\{f_i \colon U(A_i) \to Y\}$ in $D$.
 =--
 
 Note that like all sinks, a $U$-structured sink is not necessarily assumed to be [[small category|small]].
 
-Given such a structured sink, let $\{f_i\}/D$ denote the category whose objects are objects $Z\in C$ equipped with a morphism $h\colon Y\to U(Z)$ in $D$ and a sink $\{g_i\colon X_i \to Z\}$ in $C$, such that $U(g_i) = h \circ f_i$ for all $i$.  (Its morphisms are, of course, morphisms in $C$ commuting with the structure.)
+A **lift of $Y$ along a $U$-structured sink $\{f_i\colon U(A_i)\to Y\}$** is an object $B$ of $C$, equipped with a sink $\{\phi_i\colon A_i \to B\}$ in $C$ and a morphism $h\colon Y\to U(B)$ in $D$, such that $U(\phi_i) = h \circ f_i$ for each $i$. A **morphism to another lift of $Y$ along $\{f_i\colon U(A_i)\to Y\}$** is, of course, a morphism $\eta\colon B\to B'$ of $C$ such that the sink $\{\phi'_i\colon A_i\to B'\}$ factors as $\phi_i'=\eta\circ\phi_i$, and the morphism $h'\colon Y\to U(B')$ factors as $h'=p(\eta)\circ h$.
 
-Note that if $U$ is faithful, then it suffices to demand merely that the $g_i$ exist, rather than giving them as part of the structure.
+Note that if $U$ is faithful, then it suffices to demand merely that the sink $\{\phi_i\colon A_i \to B\}$ exists, rather than giving it as part of the structure.
 
 +-- {: .un_defn}
 ###### Definition
-A **semi-final lift** of $\{f_i \colon U(X_i) \to Y\}$ is an initial object of $\{f_i\}/D$.  If $h$ is an isomorphism, then it is called a **final lift**.  If $h$ is an identity, we call it a **strictly final lift**.
+A **semi-final lift** of $\{f_i \colon U(X_i) \to Y\}$ is a lift $B$ of $Y$ with a unique morphism of lifts to any other lift of $Y$.  If the morphism $h\colon Y\to U(B)$ is an isomorphism, then the semi-final lift is called a **final lift**.  If $h$ is an identity, we call $B$ a **strictly final lift**.
 =--
 
-If objects of $C$ are regarded as objects of $D$ equipped with [[stuff, structure, property|structure]], in a (strictly) final lift we say that $Z$ is the **final structure** or **strong structure** on $Y$ induced by the sink.  Note that if $U$ is an [[isofibration]], then any final lift may be made into a strictly final one.
+If objects of $C$ are regarded as objects of $D$ equipped with [[stuff, structure, property|structure]], for a (strictly) final lift we say that $B$ is the **final structure** or **strong structure** on $Y$ induced by the sink.  Note that if $U$ is an [[isofibration]], then any final lift may be made into a strictly final one.
 
 The dual concept, which applies to cosinks ("sources"), is called a (perhaps semi- or strictly) **initial lift**, an **initial structure** or a **weak structure**.
 
 
 ## Examples
 
-* If $D$ is the [[terminal category]], then final (or semi-final) lifts reduce to simply [[colimits]] in $C$.
+* If $D$ is the [[terminal category]], then a $U$-structured sink is simply a family of objects $A_i$ of $C$, a lift is just a cocone $A_i\to B$, a morphism of lifts is a morphism of cocones, hence a semi-final lift is simply a [[colimits]] in $C$.
 
-* An empty $U$-structured sink is just an object of $D$, and a semi-final lift of such a sink is a [[free object]] on $D$.  Thus $U$ admits semi-final lifts of empty sinks precisely when it has a [[left adjoint]].  Similarly, it admits final lifts of empty sinks precisely when it has a [[fully faithful functor|fully faithful]] left adjoint (i.e. it admits [[discrete objects]]).
+* An empty $U$-structured sink is just an object $Y$ of $D$, a lift of it is a morphism $Y\to U(B)$, and a morphism of lits is a morphism $B\to B'$ so that $Y\to U(B')$ factors as $Y\to U(B)\to U(B')$. Hence, a semi-final lift of such a sink is a [[free object]] with unit morphism $\eta\colon Y\to U(B)$ of $D$.  Thus $U$ admits semi-final lifts of empty sinks precisely when it has a [[left adjoint]].  Similarly, it admits final lifts of empty sinks precisely when it has a [[fully faithful functor|fully faithful]] left adjoint (i.e. if it admits [[discrete objects]]).
 
 * A singleton $U$-structured sink is just a morphism of the form $f\colon U(X) \to Y$.  A strictly final lift of such a sink is precisely an [[opcartesian arrow]] lying over $f$.  Thus $U$ admits strictly final lifts of singleton structured sinks precisely when it is a [[Grothendieck opfibration]] (and final lifts of such sinks precisely when it is a [[Street opfibration]]).
 
