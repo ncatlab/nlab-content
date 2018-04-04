@@ -1,4 +1,5 @@
 
+
 +-- {: .num_prop #dgModelForRationalParameterizedSpectra}
 ###### Proposition
 **(dg-model for rational parameterized spectra)**
