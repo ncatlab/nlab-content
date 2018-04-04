@@ -73,7 +73,7 @@ First, Minkowski's inequality can be restated as asserting the convexity of the 
 
 Thus the idea is clear, and it's just a matter of technique from here. We let the relation ${|\langle f, g \rangle|} \leq 1$ on $L^p \times L^q$ set up a [[Galois connection]] between subsets of $L^p$ and subsets of $L^q$. The connection takes the unit ball $B'$ in $L^q$ to 
 
-$$(B')^\perp \coloneqq \{f \in L^p: (\forall_{g \in B'}) {|\langle f, g \rangle|} \leq 1\}$$ 
+$$(B')^\perp \coloneqq \{f \in L^p: (\forall_{g \in B'})\; {|\langle f, g \rangle|} \leq 1\}$$ 
 
 which is clearly convex, being an intersection of convex sets $\{f: {|\langle f, g \rangle|} \leq 1\}$, one for each $g \in B'$. H&#246;lder's inequality itself just asserts the containment $B \subseteq (B')^\perp$. If we show the other inclusion $(B')^\perp \subseteq B$, then $B = (B')^\perp$ is convex. So we want to show that if ${|\langle f, g \rangle|} \leq 1$ whenever ${\|g\|_q} \leq 1$, then ${\|f\|_p} \leq 1$. But we already did that calculation when we proved $L^p \hookrightarrow (L^q)^\ast$ is an isometry. Explicitly: take $h = {|f|^p}/f$ (with $h = 0$ where $f = 0$). Then ${|h|} = {|f|^{p-1}} = {|f|^{p/q}}$, so ${|h|^q} = {|f|^p}$ whence ${\|h\|_q^q} = {\|f\|_p^p}$. Put $g = \frac{h}{{\|h\|_q}}$; since ${\|g\|_q} \leq 1$, it follows by the hypothesis on $f$ that $1 \geq {|\langle f, g \rangle|}$. But this gives 
 
@@ -82,6 +82,52 @@ $$1 \geq \frac1{{\|h\|_q}} \int_X f h = \frac1{{\|f\|_p^{p/q}}} \int_X {|f|^p} =
 as was to be shown. 
 
 The standard derivation of Minkowski's inequality from H&#246;lder's inequality is nothing more than a very tidied-up rendering of this argument, but without the additional conceptual explanation given here. 
+
+## Log-convex functions
+
+Let $D$ be a convex (e.g., affine) space. We say a function $f: D \to (0, \infty)$ is *log-convex* if $\log(f)$ is a convex function. 
+
+H&ouml;lder's inequality is closely related to the notion of log-convexity. On the one hand, we saw that the inequality follows from the convexity of the exponential function, which is the most basic log-convex function of all. On another hand, we have the following result which uses Hölder's inequality. 
+
++-- {: .num_theorem} 
+###### Theorem 
+The collection of log-convex functions on a convex domain $D$ is closed under pointwise multiplication, pointwise addition, and pointwise max. 
+=-- 
+
++-- {: .proof} 
+###### Proof 
+The statement for multiplication is clear since $\log(f \cdot g) = \log(f) + \log(g)$ and any sum of convex functions is convex. 
+
+Similarly, $\log: (0,\infty) \to \mathbb{R}$ is an isomorphism of [[partially ordered sets]] and so $\log \max\{f, g\} = \max\{\log(f), \log(g)\}$. It thus suffices to show that if $f, g$ are convex on $D$, then so is $\max\{f, g\}$. For $x, y \in D$ and $a, b \geq 0$ such that $a + b = 1$, we must show 
+
+$$\max\{f, g\}(a x + b y) \leq a \max\{f, g\}(x) + b\max\{f, g\}(y);$$ 
+ 
+letting $c$ denote the right side, this holds iff $f(a x + b y) \leq c$ and $g(a x + b y) \leq c$ (by definition of $\max$). But 
+
+$$\array{
+f(a x + b y) & \leq & a f(x) + b f(y) & since\; f\; is\; convex \\
+ & \leq & a\max\{f, g\}(x) + b\max\{f, g\}(y) & 
+}$$ 
+
+and similarly $g(a x + b y) \leq a \max\{f, g\}(x) + b\max\{f, g\}(y)$. 
+
+Finally, for the sum $f + g$, in order to show $\log(f + g)$ is convex, it suffices to show that 
+
+$$\label{sum} (f + g)(\frac1{p}x + \frac1{q}y) \leq (f+g)(x)^{\frac1{p}} (f+g)(y)^{\frac1{q}}$$ 
+
+for $p, q \gt 1$ such that $\frac1{p} + \frac1{q} = 1$. But setting 
+
+$$s = f(x)^{\frac1{p}}, \qquad t = g(x)^{\frac1{p}}, \qquad u = f(y)^{\frac1{q}}, \qquad v = g(y)^{\frac1{q}},$$ 
+
+the right side of (eq:sum) is $(s^p + t^p)^{\frac1{p}} \cdot (u^q + v^q)^{\frac1{q}}$. By H&ouml;lder's inequality, this is greater than or equal to 
+
+$$\array{
+s u + t v & = & f(x)^{\frac1{p}} f(y)^{\frac1{q}} + g(x)^{\frac1{p}} g(y)^{\frac1{q}} \\ 
+ & \geq & f(\frac1{p} x + \frac1{q} y) + g(\frac1{p} x + \frac1{q} y)
+}$$ 
+
+where the last inequality is by log-convexity of $f$ and $g$. 
+=-- 
 
 [[!redirects Holder's inequality]] 
 [[!redirects Holder inequality]] 
