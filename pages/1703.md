@@ -42,7 +42,7 @@ $$
   \,.
 $$
 
-By the general rules of [[homotopy pullback]]s, this may be modeled by an ordinary pullback of topological or [[Lie 2-groupoid]]s of the form
+By the general rules of [[homotopy pullbacks]], this may be modeled by an ordinary pullback of topological or [[Lie 2-groupoid]]s of the form
 
 $$
   \array{
@@ -101,7 +101,7 @@ induced by the natural [[forgetful functor]] [[SmoothMfd]] $\to$ [[Top]].
 
 =--
 
-This appears as ([NikolausWaldorf, prop. 4.1](#NikolausWaldorf)).
+This appears as ([Nikolaus-Waldorf 11, prop. 4.1](#NikolausWaldorf11)).
 
 
 +-- {: .num_cor}
@@ -128,6 +128,12 @@ $$
 where $P_1(X)$ is the [[path groupoid]] of $X$.
 
 Similarly, 2-bundles may be equipped with connections by refining their cocycles $X \to \mathbf{B}H$ to cocycles out of a higher path groupoid. Details on this are at [[schreiber:differential cohomology in a cohesive topos]]. 
+
+## Examples
+
+### T-Folds
+
+Principal 2-bundles for the [[T-duality 2-group]] serve to model [[T-folds]] in [[string theory]] ([Nikolaus-Waldorf 18](#NikolausWaldorf18))
 
 ## Related concepts
 
@@ -234,15 +240,18 @@ Abel Symposia, 2009, Volume 4, 1-31 ([arXiv:0801.3843](http://arxiv.org/abs/0801
 
 An extensive discussion of various models of principal 2-bundles is in
 
-* [[Thomas Nikolaus]], [[Konrad Waldorf]], _Four Equivalent Versions of Non-Abelian Gerbes_ ([arXiv:1103.4815](http://arxiv.org/abs/1103.4815))
- {#NikolausWaldorf}
+* {#NikolausWaldorf11} [[Thomas Nikolaus]], [[Konrad Waldorf]], _Four Equivalent Versions of Non-Abelian Gerbes_ ([arXiv:1103.4815](http://arxiv.org/abs/1103.4815))
+ 
 
 For a comprehensive account in the general context of [[principal infinity-bundles]] see
 
 * [[Thomas Nikolaus]], [[Urs Schreiber]], [[Danny Stevenson]], _[[schreiber:Principal ∞-bundles -- theory, presentations and applications]]_ ([arXiv:1207.0248](http://arxiv.org/abs/1207.0248), [arXiv:1207.0249](http://arxiv.org/abs/1207.0249))
 
-
 For more references see at _[[principal 2-connection]]_.
+
+The example for structure group the [[T-duality 2-group]] is discussed, as a formalization of [[T-folds]], in 
+
+* {#NikolausWaldorf18} [[Thomas Nikolaus]], [[Konrad Waldorf]], _Higher geometry for non-geometric T-duals_ ([arXiv:1804.00677](https://arxiv.org/abs/1804.00677))
 
 
 
