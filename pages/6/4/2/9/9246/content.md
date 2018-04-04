@@ -45,6 +45,7 @@ Such a choice hence amounts to a _renormalization scheme_.
 
 The [[main theorem of perturbative renormalization]] states that any two choices of renormalization schemes differ by a unique re-definition of the [[interaction]] [[Lagrangian density]] by an element in the [[Stückelberg-Petermann renormalization group]].
 
+For more see at _[[geometry of physics -- A first idea of quantum field theory]]_.
 
 ## References
 
