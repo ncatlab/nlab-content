@@ -42,6 +42,7 @@ The slightly split G2-MSSM spectrum naturally accommodates the [[Higgs particle]
 ## Properties
 
 ### Hierarchy (non-)problem
+ {#HierarchyProblem}
 
 It has been argued that ([Acharya-Kane-Kumar 12, section  V.A.2 (p. 10-11)](#AcharyaKaneKumar12)) [[model (physics)|models]] in [[M-theory on G2-manifolds]] provide a generic solution to the [[hierarchy problem]] due to control over [[non-perturbative effects]] from [[membrane instantons]], which due to their exponential nature, provide the required exponential hierarchy. See also [above](#GaugeHierarchy).
 
