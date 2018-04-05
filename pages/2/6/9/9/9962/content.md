@@ -23,7 +23,7 @@
 
 In ([[particle physics|particle]]-)[[physics]] the term "naturalness" refers to the vague idea that a [[model (physics)|model]] of physics is expected to work without requiring unlikely-looking ad-hoc coincidences of its parameters, and that instead all such "conspiracies" among parameter values are to have some systematic cause, such as some [[symmetry]] of the model.
 
-An archetypical example, which at times has been referred to as _the_ naturalness probem of the [[standard model of particle physics]], is that the [[mass]] of the [[Higgs boson]] is first of all many orders of magnitude below the [[Planck scale]], while at the same time potentially receiving very large potential quantum corrections from the presence of (potentially undetected) heavy particles, which therefore must coincidentally cancel out.
+An archetypical example, which at times has been referred to as _the_ naturalness probem of the [[standard model of particle physics]], is that the [[mass]] of the [[Higgs boson]] is first of all many orders of magnitude below the [[Planck scale]], while at the same time potentially receiving very large potential quantum corrections from the presence of (potentially undetected) heavy particles, which therefore must coincidentally cancel out. This is also called the _[[hierarchy problem]]_.
 
 Accordingly, a popular suggestion has been that there should be a symmetry which is to naturally explain this otherwise coincidental cancellation, namely low-energy [[supersymmetry]]. The failure of such a symmetry to be observed at the [[LHC]] experiment is leading to a re-examination of the naturalness paradigm.
 
@@ -48,6 +48,8 @@ A key problem is arguably that the principle has been used in a very vague and v
 (p. 57 (6-1))
 
 ## Related concepts
+
+* [[hierarchy problem]]
 
 * [[split supersymmetry]]
 
