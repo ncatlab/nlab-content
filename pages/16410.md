@@ -41,9 +41,22 @@ $$
 
 * {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], volume 1, chapter I.3.8 of _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
 
-* [[Arvind Rajaraman]], _de Sitter Space is Unstable in Quantum Gravity_ ([arXiv:1608.07237](http://arxiv.org/abs/1608.07237))
+
+See also
 
 * Wikipedia, _[de Sitter space](http://en.wikipedia.org/wiki/De_Sitter_space)_
+
+Discussion in [[quantum gravity]] includes
+
+* [[Arvind Rajaraman]], _de Sitter Space is Unstable in Quantum Gravity_ ([arXiv:1608.07237](http://arxiv.org/abs/1608.07237))
+
+
+Discussion of de Sitter [[perturbative string theory vacua]] and their role (or not) in the [[landscape of string theory vacua]] is in
+
+* {#DanielssonVanRiet18} [[Ulf Danielsson]], Thomas Van Riet,  _What if string theory has no de Sitter vacua?_ ([arXiv:1804.01120](https://arxiv.org/abs/1804.01120))
+
+
+
 
 
 [[!redirects de Sitter spacetimes]]
