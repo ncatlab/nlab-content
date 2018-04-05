@@ -210,7 +210,7 @@ The relation between [[quasi-category|quasi-categories]] and [[simplicially enri
 
 Survey includes
 
-* [[Emily Riehl]], _Categorical homotopy theory_, Lecture notes ([pdf](http://www.math.harvard.edu/~eriehl/266x/lectures.pdf))
+* [[Emily Riehl]], _Categorical homotopy theory_, Lecture notes ([pdf](http://www.math.jhu.edu/~eriehl/cathtpy.pdf))
 
 * {#Rezk16} [[Charles Rezk]], _Stuff about quasicategories_, Lecture Notes for course at University of Illinois at Urbana-Champaign, 2016, version May 2017,([pdf](http://math.uiuc.edu/~rezk/595-fal16/quasicats.pdf))
 
