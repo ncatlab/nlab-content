@@ -196,9 +196,14 @@ The idea became popular in discussion of the [[cosmological constant]] with the 
 
 * [[Shamit Kachru]], [[Renata Kallosh]], [[Andrei Linde]], [[Sandip  Trivedi]], _de Sitter Vacua in String Theory_, Phys. Rev. D68:046005, 2003 ([arXiv:hep-th/0301240](http://arxiv.org/abs/hep-th/0301240))
 
-  ("KKLT", a good quick review is in [Danielsson-VanRiet 18 section 2.5.1](#DanielssonVanRiet18))
+  ("KKLT", a good quick review is in [Danielsson-VanRiet 18 section 2.5.1](#DanielssonVanRiet18), also [Ibanez-Uranga 12, section 15.3.1](#IbanezUranga12))
 
 * [[Joseph Polchinski]], _The Cosmological Constant and the String Landscape_ ([arXiv:hep-th/0603249](http://arxiv.org/abs/hep-th/0603249))
+
+Review includes
+
+* {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 15.3 of _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge University Press 2012
+
 
 The specific (but arbitrary) value  "$10^{500}$" for the typical number of flux compactification, which became iconic in public discussion of the issue, originates in 
 
