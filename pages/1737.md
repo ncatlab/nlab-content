@@ -19,7 +19,7 @@
 
 ## Idea
 
-Computer science studies [[programs]] and languages to express them, as well as the operation, application and design of computers. This includes aspects relating to [[models for concurrency|concurrency]], [[semantics]] of [[programming languages]], and aspects of [[mathematical logic]]. 
+Computer science studies [[programs]] and languages to express them, as well as the operation, application and design of computers and computer networks. This includes aspects relating to [[models for concurrency|concurrency]], [[semantics]] of [[programming languages]], and aspects of [[mathematical logic]]. 
 
 
 From the [[nPOV]], computer science is part of the [[computational trinity]], together with [[type theory]] and [[category theory]].  Maybe _programming theory_ would have been a good term for computer science (to match with its siblings). But it's not used this way, more's the pity.
@@ -111,6 +111,7 @@ http://www.cs.unibo.it/~asperti/PAPERS/book.pdf).)
 
 
 category: computer science
+category: software
 
 [[!redirects computer science]]
 [[!redirects programming theory]]
