@@ -133,7 +133,7 @@ $$ \left( \array
 -1 & 1 & 0 & 0 & 0 \\
 0 & -1 & 1 & 0 & 0 \\
 1 & -1 & -1 & 1 & 0 \\
-2 & -1 & -2 & 0 & 1 }
+-1 & 2 & 1 & -3 & 1 }
 \right)$$ 
 
 and from the rows we read off the irreducible representations as "virtual" (i.e., $\mathbb{Z}$-linear) combinations of the parabolically induced representations $V_i$: 
@@ -146,7 +146,7 @@ $$U_3 \cong -V_2 + V_3$$
 
 $$U_4 \cong V_1 - V_2 - V_3 + V_4$$ 
 
-$$U_5 \cong 2 V_1 - V_2 - 2 V_3 + V_5$$ 
+$$U_5 \cong -V_1 + 2V_2 + V_3 - 3 V_4 + V_5$$ 
 
 which can be considered the result of the categorified Gram--Schmidt process. 
 
