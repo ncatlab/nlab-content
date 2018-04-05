@@ -14,6 +14,7 @@
 =--
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -22,7 +23,11 @@
 
 In ([[perturbative string theory|perturbative]]) [[string theory]] the [[Bekenstein-Hawking entropy]] associated to a macroscopic [[black hole]]  finds an explanation as follows:
 
-the [[black hole]] [[spacetime]] is regarded as a [[non-perturbative QFT|strongly coupled]] [[condensate]] of string states ([[closed strings]], carrying [[gravity]]). One looks for a corresponding weakly-coupled background for closed strings in flat [[Minkowski space]] that is known to turn into the black hole spacetime as the string coupling is turned on. Such turn out to be certain [[D-brane]] configurations in Minkowski space: at weak coupling the D-brane does not back-react on the spacetime (since that back-reaction is mediated by closed string quanta) and so it just sits there, whereas at strong coupling it curves spacetime and may collapse to a configuration that looks like the prescribed black hole spacetime.
+The [[black hole]] [[spacetime]] is regarded as a [[non-perturbative QFT|strongly coupled]] [[condensate]] of string states ([[closed strings]], carrying [[gravity]]). One looks for a corresponding weakly-coupled background for closed strings in flat [[Minkowski space]] that is known to turn into the black hole spacetime as the string coupling is turned on. Such turn out to be certain [[D-brane]] configurations in Minkowski space: at weak coupling the D-brane does not back-react on the spacetime (since that back-reaction is mediated by closed string quanta) and so it just sits there, whereas at strong coupling it curves spacetime and may collapse to a configuration that looks like the prescribed black hole spacetime.
+
+<img src="https://ncatlab.org/nlab/files/BlackBrane.png" />
+
+> graphics grabbed from [Ibanez-Uranga 12](#IbanezUranga12)
 
 Now, if the configuration has a sufficient amount of [[supersymmetry]] preserved ([[BPS state]]), then one argues ([Witten 95, section 2.3](#Witten95)) that certain observables are actually independent of the coupling constant ("[[protection from quantum corrections]]"), and accordingly these observables are the same for black holes as for the corresponding D-brane configurations in flat space, where they may be computed in string perturbation theory.
 
@@ -99,9 +104,13 @@ Strings_, 2006 ([pdf](http://www.people.fas.harvard.edu/~xiyin/Site/Research_fil
 
 * Joao Gomes, _Quantum entropy of supersymmetric black holes_ ([arXiv:1111.2025](http://arxiv.org/abs/1111.2025))
 
+* {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 6.2 of _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge University Press 2012
+
+
 See also 
 
 * [String Theory Wiki](http://www.stringwiki.org), _[Black hole entropy](http://www.stringwiki.org/w/index.php?title=Black_Hole_Entropy)_
+
 
 
 ### Original articles
