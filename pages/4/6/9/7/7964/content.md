@@ -43,6 +43,11 @@ More detailed computation at [[2-loop]] confirmed this result, showing that the 
 
 <img src="https://ncatlab.org/nlab/files/HiggsVacuumStabilityII.png" width="400">
 
+{#SeeAlsoAFS18} See also [AFS 18](#AFS18):
+
+<img src="https://ncatlab.org/nlab/files/HiggsVacuumStability4.png" width="800">
+
+
 In summary ([Kusenko 15](#Kusenko15)):
 
 > $[$The$]$ conclusion is that the best theoretical fit to measured parameters, including the Higgs and top-quark masses, points to a metastable Universe. However, their analysis also concludes that values of parameters are closer to a region of absolute stability than suggested by previous studies: it is possible for the Universe to be fully stable (and for the standard model to work all the way up to the Planck scale), if the true values of measured parameters are only 1.3 standard deviations away from the current best estimates.
@@ -170,6 +175,12 @@ with a more precise analysis due to
 with exposition in
 
 * {#Kusenko15} Alexander Kusenko, _[Are We on the Brink of the Higgs Abyss?](https://physics.aps.org/articles/v8/108)_, Physics 8, 108 (2015)
+
+as well as
+
+* {#AFS18} Anders Andreassen, William Frost, Matthew D. Schwartz, _Scale Invariant Instantons and the Complete Lifetime of the Standard Model_, Phys. Rev. D 97, 056006 (2018) ([arXiv:1707.08124](https://arxiv.org/abs/1707.08124))
+
+
 
 Speculation about what this near-criticality of the Higgs vacuum could be pointing to is in
 
