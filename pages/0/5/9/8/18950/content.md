@@ -188,6 +188,9 @@ These [[vacuum expectation values]] are interpreted, in the [[adiabatic limit]] 
 
 For **proof** see at _[[S-matrix]]_, [this prop.](S-matrix#ScatteringAmplitudeFromInteractingFieldObservables).
 
+## Examples
+
+* _[Higgs field -- Mass and Vacuum (in-)stability](Higgs+field#MassAndVacuumInstability)_
 
 
 
