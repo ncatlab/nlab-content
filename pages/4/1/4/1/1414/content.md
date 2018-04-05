@@ -1,4 +1,3 @@
-
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
@@ -86,7 +85,7 @@ $$
   \,.
 $$ 
 
-Under this isomorphism for instance the vertex $(0,0,1,0,1) \in (\Delta[1])^{\times (j-i-1)}$ corresponds to the subset $\{i+3,i+5\} \subset [i,j]$ and to the path $i \to i+3 \to i+5 \to j=i+6$. 
+Under this isomorphism for instance the vertex $(0,0,1,0,1) \in (\Delta[1])^{\times (j-i-1)}$ corresponds to the subset $\{i,i+3,i+5,j\} \subset [i,j]$ and to the path $i \to i+3 \to i+5 \to j=i+6$. 
 
 (We will look at an example after this definition.)
 
