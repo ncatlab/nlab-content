@@ -21,6 +21,7 @@
 ***
 
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -38,6 +39,8 @@ Generally, there are two different incarnations of branes
 1. **[[black branes|black p-branes]]** (as in "[[black hole]]"): these are [[soliton|solitonic]] solutions to [[field theories]], typically [[supergravity]] theories, with [[singularities]] of [[dimension]] $(p+1)$. In analogy to how a [[charged black hole]] ($p = 0$) [[source|sources]] an [[electromagnetic field]] with [[field strength]] 2-form, so black $p$-branes source $(p+2)$-form [[higher gauge fields]] and hence appear in those [[supergravity]] theories where such exists.
 
 The idea is that these two concepts match, where a [[condensate]] of fundamental $p$-branes turns into a black $p$-branes.
+
+
  
 Indeed, the classical [[no-hair theorem]] matches [[fundamental particles]] (i.e. 0-branes) characterized (via the [[Wigner classification]]) by just their [[mass]], electromagnetic [[charge]] and [[angular momentum]]  to [[black hole]] solutions of pure vacuum gravity. Accordingly, it is an old suggestion ([Einstein-Infeld-Hoffmann 39](#EinsteinInfeldHoffmann39)) that fundamental particles could be identified with singular solutions of vacuum gravity.
 
@@ -211,6 +214,8 @@ See also
 * [[Greg Moore]], _What is... a brane?_, Notices of the AMS vol 52, no. 2 ([pdf](http://www.ams.org/notices/200502/what-is.pdf))
 
 * Joan Simon, _Brane Effective Actions, Kappa-Symmetry and Applications_ ([arXiv:1110.2422](http://arxiv.org/abs/1110.2422))
+
+* {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 6.2 of _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge University Press 2012
 
 
 ### Boundary conditions / D-branes
