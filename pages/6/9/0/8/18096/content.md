@@ -8,7 +8,7 @@ H&#246;lder's inequality is a basic inequality in analysis, used to prove that i
 
 ## Statements 
 
-Let $(X, \mu)$ be a [[measure space]], and for $p \gt 0$ let $L^p$ denote $L^p(X, \mu)$, the Banach space of complex-valued functions on $X$ with finite [[p-norm]]  considered modulo almost everywhere equality. Suppose $p, q$ are positive real numbers such that $\frac1{p} + \frac1{q} = 1$. Then **H&#246;lder's inequality** states that for any $f \in L^p, g \in L^q$ we have 
+Let $(X, \mu)$ be a [[measure space]], and for $p \gt 0$ let $L^p$ denote $L^p(X, \mu)$, the Banach space of complex-valued functions on $X$ with finite [[p-norm]]  considered modulo almost everywhere equality. Suppose $p, q$ are positive real numbers such that $\frac1{p} + \frac1{q} = 1$ (that is, $q+p=q p$). Then **H&#246;lder's inequality** states that for any $f \in L^p, g \in L^q$ we have 
 
 $$\int_X \left| f g \right| \leq {\|f\|_p} {\|g\|_q}$$ 
 
