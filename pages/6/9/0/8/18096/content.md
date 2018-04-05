@@ -98,7 +98,7 @@ The collection of log-convex functions on a convex domain $D$ is closed under po
 ###### Proof 
 The statement for multiplication is clear since $\log(f \cdot g) = \log(f) + \log(g)$ and any sum of convex functions is convex. 
 
-Similarly, $\log: (0,\infty) \to \mathbb{R}$ is an isomorphism of [[partially ordered sets]] and so $\log \max\{f, g\} = \max\{\log(f), \log(g)\}$. It thus suffices to show that if $f, g$ are convex on $D$, then so is $\max\{f, g\}$. For $x, y \in D$ and $a, b \geq 0$ such that $a + b = 1$, we must show 
+Similarly, $\log: (0,\infty) \to \mathbb{R}$ is an isomorphism of [[partially ordered sets]] and so $\log (\max\{f, g\}) = \max\{\log(f), \log(g)\}$. It thus suffices to show that if $f, g$ are convex on $D$, then so is $\max\{f, g\}$. For $x, y \in D$ and $a, b \geq 0$ such that $a + b = 1$, we must show 
 
 $$\max\{f, g\}(a x + b y) \leq a \max\{f, g\}(x) + b\max\{f, g\}(y);$$ 
  
