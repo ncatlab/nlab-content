@@ -422,15 +422,14 @@ for details.
 
 ## History
 
-The original motivation for the introduction of the homotopy coherent nerve is that it provides a neat simplicial formulation of idea of [[homotopy coherent diagram|homotopy coherent diagrams]]. These were studied in the 1970s, by [[Michael Boardman|Boardman]] and [[Rainer Vogt|Vogt]] in joint work,  and Vogt individually,  and [[Jean-Marc Cordier|Cordier]] (reference below). 
-
-[[Jean-Marc Cordier|Cordier]] realised that, with a slight modification in the definition, Vogt's definition of homotopy coherent diagram, indexed by a small category $A$, say, corresponded exactly to a simplicially enriched functor from the $SSet$-category $S[A]$ to the $SSet$-category $Top$. They thus also corresponded to simplicial maps from the [[nerve]] of $A$ to $N(Top)$, (although that latter object was 'too large' to be a simplicial 'set'). This allowed a good definition of homotopy coherent diagrams in arbitrary simplicially enriched categories to be given. 
+The original motivation for the introduction of the homotopy coherent nerve is that it provides a neat simplicial formulation of idea of [[homotopy coherent diagram|homotopy coherent diagrams]]. Hmotopy coherent algebraic structures were studied in the 1970s by [[Michael Boardman|Boardman]] and [[Rainer Vogt|Vogt]] in joint work,  and then Vogt individually looked at homotopy coherenc diagrams.  The  homotopy coherent nerve was initially defined by [[Jean-Marc Cordier|Cordier]] (reference below). 
+He  realised that, with a slight modification in the definition, Vogt's definition of homotopy coherent diagram, indexed by a small category $A$, say, corresponded exactly to a simplicially enriched functor from the $SSet$-category $S[A]$ to the $SSet$-category $Top$. They thus also corresponded to simplicial maps from the [[nerve]] of $A$ to $N(Top)$, (although that latter object was 'too large' to be a simplicial 'set'). This allowed a good definition of homotopy coherent diagrams in arbitrary simplicially enriched categories to be given. 
 
 This definition works best when the simplicially enriched category is 'locally Kan', in other words it is enriched in the category of [[Kan complex|Kan complexes]]. These locally Kan $SSet$-categories are the fibrant ones in the [[model structure on sSet-categories]]. 
 
-Cordier and [[Tim Porter|Porter]] (1986) proved that if $C$ is a locally Kan simplicially enriched category then $N(C)$ is a '[[weak Kan complex]]', in other words, a [[quasi-category]].  Many of the ideas behind this result can be traced to [[Rainer Vogt|Vogt]]'s paper of 1973. 
+Cordier and [[Tim Porter|Porter]] (1986) proved that if $C$ is a locally Kan simplicially enriched category then $N(C)$ is a '[[weak Kan complex]]', in other words, a [[quasi-category]].  Some of the main ideas behind this result can be traced to [[Rainer Vogt|Vogt]]'s paper of 1973. 
 
-In more modern terminology as [[Kan complex]]es can be considered as [[∞-groupoid]]s, these locally Kan simplicially enriched categories are one particularly nice model for a [[(infinity,1)-category]], and so this result is one of the earliest giving the transition from one model for [[(infinity,1)-categories]] to another, the 'weak Kan complexes' or [[quasi-categories]].
+In more modern terminology as [[Kan complex]]es can be considered as [[∞-groupoid]]s, these locally Kan simplicially enriched categories are one particularly nice model for an [[(infinity,1)-category]], and so this result is one of the earliest giving the transition from one model for [[(infinity,1)-categories]] to another, the 'weak Kan complexes' or [[quasi-categories]].
 
 
 
