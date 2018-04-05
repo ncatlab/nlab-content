@@ -42,6 +42,8 @@ $$
 
 ## References
 
+Discussion in [[Coq]] is in
+
 * Pierre Corbineau, _The K axiom  in Coq (almost) for free_ ([pdf](http://coq.inria.fr/files/adt-2fev10-corbineau.pdf)) 
 
 
