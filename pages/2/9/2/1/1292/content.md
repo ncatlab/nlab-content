@@ -36,13 +36,13 @@ Moreover $\bar{T}$ is always thick in the stronger sense.
 
 ## Serre quotient category
 
-Following the extensions of an early work of Serre by Grothendieck and Gabriel, for a thick subcategory $T$ in an abelian category $A$, one defines the (Serre) quotient category $A/T$ as the one having the same objects as $T$ and 
+Following the extensions of an early work of Serre by Grothendieck and Gabriel, for a thick subcategory $T$ in an abelian category $A$, one defines the (Serre) quotient category $A/T$ as the one having the same objects as $A$ and 
 
 $$
 (A/T)(X,Y) := colim A(X',Y/Y')
 $$
 
-where the colimit runs through all subobjects $X'\subset X$, $Y'\subset Y$ such that $X/X' \in Ob T$, $Y'\in Ob T$. The quotient functor $Q: A\to A/T$ is obvious. 
+where the colimit runs through all subobjects $X'\subset X$, $Y'\subset Y$ such that $X/X' \in Ob A$, $Y'\in Ob A$. The quotient functor $Q: A\to A/T$ is obvious. 
 
 Notice that the set of morphisms is small, so that the
 Serre quotient category exists. On the other hand, one can
