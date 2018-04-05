@@ -41,6 +41,11 @@ Perturbative string theory is _defined_ as the [[string perturbation series]] of
 
 The [[moduli space]] of these vacua -- which is hardly understood -- has come to be called the _[[landscape of string theory vacua]]_ .
 
+## Examples
+
+* _[Higgs field -- Mass and Vacuum (in-)stability](Higgs+field#MassAndVacuumInstability)_
+
+
 ## Related concepts
 
 * [[vacuum state]], [[Hadamard state]]
