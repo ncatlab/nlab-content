@@ -94,6 +94,16 @@ Starting with Kontsevich's [[homological algebra]] reformulation of [[homologica
 ... lots of further things to say ...
 
 ### As black branes
+ {#AsBlackBranes}
+
+In [[perturbative string theory]], hence for small string [[coupling constant]] the D-branes are incarnated as boundary conditions for the string's [[worldsheet]] [[2d CFT]], exhibiting submanifolds in [[spacetime]]. As the string [[coupling constant]] increases and becomes non-perturbative, this picture of [[perturbative string theory]] breaks down, but at low energy (large scales) now [[supergravity]] becomes a good description, and now the D-branes are incarnated as [[black branes]].
+
+<img src="https://ncatlab.org/nlab/files/BlackBrane.png" />
+
+> graphics grabbed from [Ibanez-Uranga 12](#IbanezUranga12)
+
+This transition is also the key to understanding [[black holes in string theory]].
+
 
 [[!include black branes in supergravity -- table]]
 
@@ -269,13 +279,18 @@ A classical text describing how the physics way to think of D-branes leads to se
 
 * [[Paul Aspinwall]], _D-Branes on Calabi-Yau Manifolds_ ([arXiv:hep-th/0403166](http://arxiv.org/abs/hep-th/0403166)) 
 
+Discussion with an eye towards [[string phenomenology]] is in
+
+* {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge University Press 2012
+
+
 This can to a large extent be read as a dictionary from [[homological algebra]] terminology to that of D-brane physics.
 
 More recent similar material with the emphasis on the [[K-theory]] aspects is
 
 * [[Richard Szabo]], _[[Szabo09.pdf:file]]_
 
-Perspecive on the role of D-branes in [[mathematical physics]] and [[mathematics]] is in 
+Comments on the role of D-branes in [[mathematical physics]] and [[mathematics]] is in 
 
 
 * [[Gregory Moore]], _[[The Impact of D-Branes on Mathematics]]_ (2014)
