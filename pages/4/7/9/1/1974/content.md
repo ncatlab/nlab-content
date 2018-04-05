@@ -41,7 +41,7 @@ We now first state the definition of "Grothendieck group completion" -- which is
 ## Of commutative monoids
  {#OfCommutativeMonoids}
 
-Every [[abelian  group]] is in particular a [[commutative monoid]]. The [[forgetful functor]] $U \colon Ab \to CMon$ from the [[category]] [[Ab]] ot the category [[CMon]] has a [[left adjoint]] $F$ (the corresponding [[free functor]]), the _[[group completion]]_ functor
+Every [[abelian  group]] is in particular a [[commutative monoid]]. The [[forgetful functor]] $U \colon Ab \to CMon$ from the [[category]] [[Ab]] to the category [[CMon]] has a [[left adjoint]] $F$ (the corresponding [[free functor]]), the _[[group completion]]_ functor
 
 $$
   Ab
