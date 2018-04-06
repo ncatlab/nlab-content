@@ -51,3 +51,8 @@ $$
 I(K) = \frac{Z(K)}{Z(H)^{c/2}}
 $$
 where $c$ is the number of critical points of $K$.  To distinguish this from the Kontsevich integral, it is sometimes called the **final** Kontsevich integral (and the other the **preliminary** one).
+
+## References
+
+* S. Chmutov, S. Duzhin and J. Mostovoy, _Introduction to Vassiliev Knot Invariants_, 
+ Cambridge University Press  (2012)
