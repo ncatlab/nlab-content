@@ -13,7 +13,7 @@ $$f(t x + (1-t) y) \leq t f(x) + (1-t) f(y)$$
 
 whenever $0 \leq t \leq 1$. 
 
-This definition obviously extends to functions $f: D \to \mathbb{I}$ where $I$ is a [[subinterval]] of $\mathbb{R}$ (whether open or closed or half-open, it doesn't matter). 
+This definition obviously extends to functions $f: D \to I$ where $I$ is an [[interval]] of $\mathbb{R}$ (whether open or closed or half-open, it doesn't matter). 
 
 ## Examples 
 
@@ -33,7 +33,7 @@ This definition obviously extends to functions $f: D \to \mathbb{I}$ where $I$ i
 
 * If $g: V \to W$ is a homomorphism or convex-linear map between [[convex spaces]], and if $f: W \to \mathbb{R}$ is convex, then $f \circ g: V \to \mathbb{R}$ is convex. 
 
-In the next two examples, $I \subseteq \mathbb{R}$ is a [[subinterval]]. 
+In the next two examples, $I \subseteq \mathbb{R}$ is an [[interval]]. 
 
 * It is not generally true that a composition $D \stackrel{g}{\to} I \stackrel{f}{\to} \mathbb{R}$ of convex functions is convex. For example, this fails for the case $D = \mathbb{R}$ and $g(x) = x^2 + 1$ and $f: [1, \infty) \to \mathbb{R}$ given by $f(x) = x^{-1}$. 
 
