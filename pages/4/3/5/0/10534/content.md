@@ -1,29 +1,46 @@
 
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Analysis
++-- {: .hide}
+[[!include analysis - contents]]
+=--
+=--
+=--
+
+
+#Contents#
+* table of contents
+{:toc}
+
 ## Idea
 
-A convex function is a real-valued function defined on a [[convex set]] whose [[graph]] is the boundary of a [[convex set]].
+A _convex function_ is a [[real numbers|real]]-valued [[function]] defined on a [[convex set]] whose [[graph]] is the boundary of a [[convex set]].
 
 There is another context where people say a function is convex if it is a [[Lipschitz function]] between [[metric spaces]] with Lipschitz constant (or Lipschitz modulus) 1. These are different concepts of convexity, although there are relations between convexity and Lipschitz continuity, as we shall see below. 
 
 ## Definition 
 
-Let $D$ be a [[convex space]]. A function $f: D \to \mathbb{R}$ is *convex* if the set $\{(x, y) \in D \times \mathbb{R}: y \geq f(x)\}$ is a convex subspace of $D \times \mathbb{R}$. Equivalently, $f$ is convex if for all $x, y \in D$, 
+Let $D$ be a [[convex space]]. A [[function]] $f \colon D \to \mathbb{R}$ is *convex* if the [[set]] $\{(x, y) \in D \times \mathbb{R}: y \geq f(x)\}$ is a convex subspace of $D \times \mathbb{R}$. Equivalently, $f$ is convex if for all $x, y \in D$, 
 
 $$f(t x + (1-t) y) \leq t f(x) + (1-t) f(y)$$ 
 
 whenever $0 \leq t \leq 1$. 
 
-This definition obviously extends to functions $f: D \to I$ where $I$ is an [[interval]] of $\mathbb{R}$ (whether open or closed or half-open, it doesn't matter). 
+This definition obviously extends to functions $f \colon D \to I$ where $I$ is an [[interval]] of $\mathbb{R}$ (whether open or closed or half-open, it doesn't matter). 
 
 ## Examples 
 
-* A homomorphism or convex-linear map $D \to \mathbb{R}$ is of course convex. 
+* A [[homomorphism]] of [[convex sets]], i.e. a  convex-linear map, $D \to \mathbb{R}$, is of course convex. 
 
 * The [[norm]] function $\mathbb{C} \to \mathbb{R}$ is convex. This follows readily from multiplicativity ${|x y|} = {|x|} \cdot {|y|}$ and the [[triangle inequality]] ${|x + y|} \leq {|x|} + {|y|}$. 
 
 * More generally, for a [[normed vector space]] $V$, the norm function ${\|(-)\|}$ is convex, again by the triangle inequality and the scaling axiom ${\|\alpha v\|} = {|\alpha|} \cdot {\|v\|}$ for [[scalars]] $\alpha$. 
 
-* Any twice-differentiable function $f: (a, b) \to \mathbb{R}$ with nonnegative second derivative $f''$ is convex; this may be proven using the [[mean value theorem]]. Examples include the [[exponential function]] $\exp: (-\infty, \infty) \to \mathbb{R}$ and the $p$-power function $[0, \infty) \to \mathbb{R}: t \mapsto t^p$ if $p \geq 1$. 
+* Any twice-[[differentiable function]] $f \colon (a, b) \to \mathbb{R}$ with nonnegative second derivative $f''$ is convex; this may be proven using the [[mean value theorem]]. Examples include the [[exponential function]] $\exp: (-\infty, \infty) \to \mathbb{R}$ and the $p$-power function $[0, \infty) \to \mathbb{R}: t \mapsto t^p$ if $p \geq 1$. 
 
 * More generally, for an open convex region $D \subseteq \mathbb{R}^n$ in a [[Euclidean space]], a twice-differentiable function $f: D \to \mathbb{R}$ is convex if its [[Hessian]] is a [[semidefinite element|positive definite]] [[bilinear form]]. 
 
@@ -116,6 +133,8 @@ It further follows from Lemma \ref{squeeze} that if $f$ is convex and we define 
 * [[Lipschitz function]]
 
 ## References
+
+See also
 
 * Wikipedia, _[Convex function](http://en.wikipedia.org/wiki/Convex_function)_
 
