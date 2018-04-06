@@ -1,5 +1,5 @@
 
-* [website](http://www.calumet.purdue.edu/mcss/faculty.html)
+* [website](https://academics.pnw.edu/engineering-sciences/member/anthony-elmendorf/)
 
 ## related entries
 
