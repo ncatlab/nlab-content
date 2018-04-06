@@ -40,9 +40,9 @@ This definition obviously extends to functions $f \colon D \to I$ where $I$ is a
 
 * More generally, for a [[normed vector space]] $V$, the norm function ${\|(-)\|}$ is convex, again by the triangle inequality and the scaling axiom ${\|\alpha v\|} = {|\alpha|} \cdot {\|v\|}$ for [[scalars]] $\alpha$. 
 
-* Any twice-[[differentiable function]] $f \colon (a, b) \to \mathbb{R}$ with nonnegative second derivative $f''$ is convex; this may be proven using the [[mean value theorem]]. Examples include the [[exponential function]] $\exp: (-\infty, \infty) \to \mathbb{R}$ and the $p$-power function $[0, \infty) \to \mathbb{R}: t \mapsto t^p$ if $p \geq 1$. 
+* For any twice-[[differentiable function]] $f \colon (a, b) \to \mathbb{R}$, the second derivative $f''$ is nonnegative iff $f$ is convex; this may be proven using the [[mean value theorem]]. Examples include the [[exponential function]] $\exp: (-\infty, \infty) \to \mathbb{R}$ and the $p$-power function $[0, \infty) \to \mathbb{R}: t \mapsto t^p$ if $p \geq 1$. 
 
-* More generally, for an open convex region $D \subseteq \mathbb{R}^n$ in a [[Euclidean space]], a twice-differentiable function $f: D \to \mathbb{R}$ is convex if its [[Hessian]] is a [[semidefinite element|positive definite]] [[bilinear form]]. 
+* More generally, for an open convex region $D \subseteq \mathbb{R}^n$ in a [[Euclidean space]], a twice-differentiable function $f: D \to \mathbb{R}$ is convex iff its [[Hessian]] is a [[semidefinite element|positive semidefinite]] [[bilinear form]]. 
 
 * Any positive $\mathbb{R}$-[[linear combination]] of convex functions on $D$ is again convex. 
 
