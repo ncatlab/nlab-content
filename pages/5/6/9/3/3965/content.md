@@ -593,7 +593,7 @@ Useful literature on this topic is:
 
 * H. Blaine Lawson Jr. , Marie-Louise Michelson, _Spin geometry_, Princeton Univ. Press, 1989.
 
-* G. L. Naber, _Topology, Geometry and Gauge Dields_, Springer, 1999.
+* G. L. Naber, _Topology, Geometry and Gauge Fields_, Springer, 1999.
 
 
 
