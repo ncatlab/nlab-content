@@ -4,7 +4,7 @@ Physicist, co-founder of [[perturbative quantum field theory]] (see [[Schwinger-
 
 ## Writings
 
-* {#MissedOpportunities} _Missed opportunities_, Bulletin of the AMS, Volume 78, Number 5, September 1972 ([pdf](https://www.math.uh.edu/~tomforde/Articles/Missed-Opportunities-Dyson.pdf))
+* {#MissedOpportunities} Freeman Dyson, _Missed opportunities_, Bulletin of the AMS, Volume 78, Number 5, September 1972 ([pdf](https://www.math.uh.edu/~tomforde/Articles/Missed-Opportunities-Dyson.pdf))
 
   containing the now famous quote:
 
@@ -14,6 +14,7 @@ Physicist, co-founder of [[perturbative quantum field theory]] (see [[Schwinger-
 
   > The first clear sign of a breakdown in communication between physics and mathematics was the extraordinary lack of interest among mathematicians in [[James Clerk Maxwell]]'s discovery  of the laws of [[electromagnetism]]
 
+  For more quotes from this text see also at _[Ausdehnungslehre](Ausdehnungslehre#Dyson72)_ and at _[AQFT on curved spacetime](AQFT+on+curved+spacetimes#Dyson72)_.
 
 ## related $n$Lab entries
 
