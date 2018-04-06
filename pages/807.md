@@ -62,7 +62,7 @@ Definition \ref{EulerCharOfChainComplex} shows that the Euler characteristic of 
 For $X$ a [[topological space]] and $R$ some [[ring]], its Euler characteristic over $R$ is the Euler characteristic, according to Def. \ref{EulerCharOfChainComplex}, of its [[homology]] [[chain complex]] (for instance [[singular homology]]), if this is finite: the alternating sum of its [[Betti number]]s
 
 $$
-  \chi(X) = \sum_{n \in \mathbb{N}} rk_{\mathbb{Z}} H_n(X, R)
+  \chi(X) = \sum_{n \in \mathbb{N}} (-1)^n rk_{\mathbb{Z}} H_n(X, R)
   \,.
 $$
 
