@@ -5,7 +5,9 @@
 
 ## Idea
 
-[[Alain Connes]]\'s __cycle category__ $\Lambda$ (sometimes denoted $\mathcal{C}$), often called his __cyclic category__ or __category of cycles__, is a small category whose [[presheaves]] are somewhere intermediate between [[simplicial sets]] and [[symmetric sets]]. It strictly contains the [[simplex category]], and has [[cyclic groups]] for automorphism groups. Among its virtues, it is a self-dual category. 
+[[Alain Connes]]\'s __cycle category__ $\Lambda$ (sometimes denoted $\mathcal{C}$), often called his __cyclic category__ or __category of cycles__, is a small category whose [[presheaves]] -- called _[[cyclic sets]]_ or more generally _[[cyclic objects]]_  -- are somewhere intermediate between [[simplicial sets]] and [[symmetric sets]]. It strictly contains the [[simplex category]], and has [[cyclic groups]] for automorphism groups. Among its virtues, it is a self-dual category. 
+
+The cycle category is used for the description of the cyclic structure on [[Hochschild homology]]/[[Hochschild cohomology]] and accordingly for the description of [[cyclic homology]]/[[cyclic cohomology]].
 
 
 ## Definitions 
@@ -26,7 +28,7 @@ is again faithful, so that the simplex category sits inside $\Lambda$.
 Of course the successor function $\tau: \mathbb{Z} \to \mathbb{Z}$ gives a function $\tau_n \in L(n, n)$ defined by $\tau_n(i) = i+1$, which in turn induces a function $q(\tau) \in \Lambda(n, n)$ such that $q(\tau)^{n+1} = 1_n$. In this way, we have inclusions $\mathbb{Z}/(n+1) \hookrightarrow \Lambda(n, n)$ of cyclic groups inside $\Lambda$. 
 =-- 
 
-__[[cyclic object|Cyclic objects]]__ in a category $C$ are the contravariant functors $\Lambda^{\mathrm{op}}\to C$, [[cocyclic object]]s are the covariant functors $\Lambda\to C$.  Note that $\Lambda$ itself is, via its inclusion into $Cat$, an example of a cocyclic object in $Cat$.  (Thus, the common term "the cyclic category" to refer to $\Lambda$ is misleading, just like using "the [[simplicial category]]" to refer to the [[simplex category]] $\Delta$.)
+__[[cyclic object|Cyclic objects]]__ in a category $C$ are the contravariant functors $\Lambda^{\mathrm{op}}\to C$, [[cocyclic objects]] are the covariant functors $\Lambda\to C$.  Note that $\Lambda$ itself is, via its inclusion into $Cat$, an example of a cocyclic object in $Cat$.  (Thus, the common term "the cyclic category" to refer to $\Lambda$ is misleading, just like using "the [[simplicial category]]" to refer to the [[simplex category]] $\Delta$.)
 
 If $A$ is an [[abelian category]] then the category of $A$-presheaves on $\Lambda$ is usually called (Connes\'s) category of __cyclic modules__ in $A$.
 
@@ -199,18 +201,21 @@ Literature:
 
 * R. Krasauskas, _Skew-simplicial groups_, (Russian)  Litovsk. Mat. Sb.  __27__ (1987),  no. 1, 89--99, [MR88m:18022](http://www.ams.org/mathscinet-getitem?mr=88m:18022) (English transl. [[krasauskas.pdf:file]])
 
-* W. G. Dwyer, D. M. Kan, 
+* [[William Dwyer]], [[Daniel Kan]], 
 _Normalizing the cyclic modules of Connes_,
 Comment. Math. Helv. 60 (1985), no. 4, 582--600. 
 
-* W. G. Dwyer, M. J. Hopkins, D. M. Kan, 
+* [[William Dwyer]], [[Mike Hopkins]], [[Daniel Kan]], 
 _The homotopy theory of cyclic sets_,
 Trans. Amer. Math. Soc. 291 (1985), no. 1, 281--289. 
 
-* Z. Fiedorowicz, Jean-Louis Loday, _Crossed simplicial groups and their associated homology_,  Trans. Amer. Math. Soc. __326__ (1991),  no. 1, 57--87, [MR91j:18018](http://www.ams.org/mathscinet-getitem?mr=91j:18018), [doi](http://dx.doi.org/10.2307/2001855) 
+* Z. Fiedorowicz, [[Jean-Louis Loday]], _Crossed simplicial groups and their associated homology_,  Trans. Amer. Math. Soc. __326__ (1991),  no. 1, 57--87, [MR91j:18018](http://www.ams.org/mathscinet-getitem?mr=91j:18018), [doi](http://dx.doi.org/10.2307/2001855) 
 
-* {#Elm} [[Anthony Elmendorf]], *A simple formula for cyclic duality*, Proc. Amer. 
-Math. Soc. Volume 118, Number 3 (July 1993), 709-711. ([pdf](http://www.ams.org/journals/proc/1993-118-03/S0002-9939-1993-1143017-0/S0002-9939-1993-1143017-0.pdf))
+* {#Elm} [[Anthony Elmendorf]], *A simple formula for cyclic duality*, Proc. Amer. Math. Soc. Volume 118, Number 3 (July 1993), 709-711. ([pdf](http://www.ams.org/journals/proc/1993-118-03/S0002-9939-1993-1143017-0/S0002-9939-1993-1143017-0.pdf))
+
+See also 
+
+* Wikipedia, _[Cyclic category](https://en.wikipedia.org/wiki/Cyclic_category)_
 
 
 [[!redirects cyclic category]]
