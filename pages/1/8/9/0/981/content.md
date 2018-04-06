@@ -33,7 +33,7 @@ If $A$ is an [[abelian category]] then the category of $A$-presheaves on $\Lambd
 
 ## Structure of the cycle category {#structure}
 
-To analyze the structure of $\Lambda$ further, we make a series of easy observations. 
+To analyze the structure of $\Lambda$ further, we make a series of easy observations. These are largely based on [Elmendorf 93](#Elm). 
 
 +-- {: .num_prop} 
 ###### Proposition 
@@ -207,7 +207,10 @@ Comment. Math. Helv. 60 (1985), no. 4, 582--600.
 _The homotopy theory of cyclic sets_,
 Trans. Amer. Math. Soc. 291 (1985), no. 1, 281--289. 
 
-* Z. Fiedorowicz, Jean-Louis Loday, _Crossed simplicial groups and their associated homology_,  Trans. Amer. Math. Soc. __326__ (1991),  no. 1, 57--87, [MR91j:18018](http://www.ams.org/mathscinet-getitem?mr=91j:18018), [doi](http://dx.doi.org/10.2307/2001855)
+* Z. Fiedorowicz, Jean-Louis Loday, _Crossed simplicial groups and their associated homology_,  Trans. Amer. Math. Soc. __326__ (1991),  no. 1, 57--87, [MR91j:18018](http://www.ams.org/mathscinet-getitem?mr=91j:18018), [doi](http://dx.doi.org/10.2307/2001855) 
+
+* {#Elm} [[Anthony Elmendorf]], *A simple formula for cyclic duality*, Proc. Amer. 
+Math. Soc. Volume 118, Number 3 (July 1993), 709-711. ([pdf](http://www.ams.org/journals/proc/1993-118-03/S0002-9939-1993-1143017-0/S0002-9939-1993-1143017-0.pdf))
 
 
 [[!redirects cyclic category]]
