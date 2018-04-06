@@ -175,6 +175,8 @@ The [[tensor unit]] in the [[symmetric monoidal (infinity,1)-category]] of cyclo
 
 * [[cyclotomic space]]
 
+* [[cycle category]], [[cyclic set]], [[cyclic object]]
+
 * [[Frobenius homomorphisms]]
 
 * [[Tate spectrum]]
