@@ -73,7 +73,7 @@ If $C, D$ and $E$ are [[virtual equipments]] and $F$ is a normal functor, then $
 
 2. [[generalized multicategories]] can be constructed using a slice category when the monad $T$ is a [[polynomial monad]].  Specifically, let $C$ be the double category of [[polynomial functors]] in some locally cartesian closed category $E$; then a polynomial monad $T$ on $E$ can be identified with a horizontal monad in $C$ on the [[terminal object]] $1$.  The slice $Id_C/T$ is then equivalent to the "horizontal Kleisli category" presented in Cruttwell-Shulman; $T$-multicategories are then monads in that comma double category.
 
-3. The double category of [[decorated cospans]] is naturally constructed as a comma double category.
+3. The double category of [[decorated cospans]] is naturally constructed as a comma double category. Given a symmetric lax monoidal functor $F : (C,+) \to (D,\otimes)$, there is an associated lax double functor from $F' : Cospan(C) \to BD$ where $BD$ is the [[delooping]] of $D$ into a double category whose horizontal category is $D$ and vertical category is the terminal category. Then there is a colax (pseudo even) double functor $* : 1 \to BD$ that picks out the unique object of $BD$. Then the double category of decorated cospans is $*/F'$.
 
 4. [[poset-valued sets]] given by an endofunctor $F$ on $Rel$ and a poset $P$ can be viewed as the comma double category from $F$ to $P$, since a poset is a monad in $Rel$, and $F$ is a colax endofunctor of $Rel$.  The "morphisms" of poset-valued sets are the *horizontal* morphisms in the resulting comma double category.
 
