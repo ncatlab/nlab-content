@@ -116,6 +116,8 @@ One way to understand why it is not the full space of smooth functions on phase 
 
 At the moment, however, non-perturbative quantization of field theories remains completely non-understood (apart from toy cases such as [[2d conformal field theories]] and certain [[topological field theories]]). For the class of [[Yang-Mills theories]] it is one of in the list of open "Millenium Problems" of the Clay Mathematics Institute ([Jaffe-Witten](quantization+of+Yang-Mills+theory#JaffeWitten), [Douglas 04](quantization+of+Yang-Mills+theory#Douglas04)).
 
+For more detailed discussion of all of this see at _[[geometry of physics -- A first idea of quantum field theory]]_.
+
 Besides lcpQFT being just perturbative (in [[Planck's constant]]), there remains just one problem: 
 
 When applied to [[gauge theory]] on [[quantum field theory on curved spacetime|on curved spacetime]] the usual axioms on a [[local net]] break: either they enforce all [[characteristic classes]] of the [[gauge field]] ("[[instanton sectors]]") to be trivial, or else the axioms encoding locality are broken (see [Schenkel 14](#Schenkel14), [Schreiber 14](https://ncatlab.org/schreiber/show/Higher+field+bundles+for+gauge+fields)).
