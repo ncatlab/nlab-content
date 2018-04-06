@@ -5,4 +5,6 @@
 
 * [[Elmendorf's theorem]]
 
+* [[cycle category]]
+
 category: people
