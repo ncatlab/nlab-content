@@ -56,4 +56,8 @@ Curiously, while Grassmann complains (on p. xv) about the "unclarity and arbitra
 
 * Wikipedia, _[Grassmann -- Mathematician](http://en.wikipedia.org/wiki/Hermann_Grassmann#Mathematician)_
 
+* {#Dyson72} [[Freeman Dyson]], _Missed opportunities_, Bulletin of the AMS, Volume 78, Number 5, September 1972 ([pdf](https://www.math.uh.edu/~tomforde/Articles/Missed-Opportunities-Dyson.pdf))
+
+  > In  the  year  1844  two  remarkable  events  occurred,  the  publication  by   Hamilton of  his  discovery  of  [[quaternions]],  and  the  publication  by Grassmann of  his  "Ausdehnungslehre."  With  the  advantage  of  hindsight  we  can  see  that  Grassmann's  was  the  greater  contribution  to   mathematics,  containing  the  germ  of  many  of  the  concepts  of  modern algebra,  and  including  vector  analysis  as a  special  case. However, Grassmann  was an  obscure  high-school  teacher  in Stettin, while Hamilton  was the  world-famous  mathematician  whose  official  titles  occupy  six  lines  of  print  after  his name at the beginning  of his 1844 paper.  So it  is regrettable,  but  not surprising,  that  quaternions  were  hailed  as  a  great  discovery, while Grassmann  had  to  wait  23  years  before  his  work  received  any recognition  at  all  from  professional  mathematicians.  When  Grassmann's  work  finally became  known,  mathematicians  were  divided  into  quaternionists and antiquaternionists, and  were spending more energy in polemical arguments  for  and  against  quaternions  than  in  trying  to  understand how  Grassmann  and  Hamilton  might  be  fitted  together  into  a  larger scheme  of  things.
+
 category: reference
