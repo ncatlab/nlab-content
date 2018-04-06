@@ -1,14 +1,29 @@
+
+
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Analysis
++-- {: .hide}
+[[!include analysis - contents]]
+=--
+=--
+=--
+
 # Contents
-* automatic table of contents goes here
+* table of contents
 {: toc}
 
 ## Idea
 
-A **convex space** (also called **barycentric algebra** and other terms, invented independently many times) is a set equipped with a notion of taking weighted averages, or convex-[[linear combinations]], of its elements.  Do not confuse this with an (abstract) _[[convex set]]_ , which a special kind of convex space, also defined below.
+A **convex space** (also called **barycentric algebra** and other terms, invented independently many times) is a [[set]] [[extra structure|equipped]] with a notion of taking weighted averages, or convex-[[linear combinations]], of its elements.  Do not confuse this with an (abstract) _[[convex set]]_ , which a special kind of convex space, also defined below.
 
 The [[category]] of convex spaces is an algebraic theory, being the affine part of the theory of $K$-(semi)modules with only the idempotent operations.  This definition is used by [Meng (1989)](#Meng), and many basic properties of the category are detailed therein.  The category is complete, cocomplete, symmetric monoidal closed under the (usual) tensor product construction, and has a cogenerator [Borger and Kemper (1994)](#Borger).   The subcategory consisting of the single object, the unit interval, is dense and codense (adequate and coadequat) in the category, and consequently every convex space is a canonical colimit.  Equivalently, the restricted Yoneda embedding is still full and faithful. This follows from Isbell's theorem on left adequate subcategories for algebraic theories.  A more detailed description is given by [Sturtz (2017)](#Sturtz), where the existence of the codense subcategory is exploited to relate the category of convex spaces to the Giry algebras.
 
-Axiomatically, a convex space can be characterized as a [[set]] $X$ equipped with a family of maps $c_p : X \times X \to X$ satisfying some natural axioms (described below). All commutative nonunital rings are convex spaces, with the map $c_p(x,y) = x + p(y-x)$. 
+Axiomatically, a convex space can be characterized as a [[set]] $X$ equipped with a family of [[functions]] $c_p : X \times X \to X$ satisfying some natural [[axioms]] (described below). 
+
+For examples All [[nonunital ring|nonunital]] [[commutative rings]] are convex spaces, with the map $c_p(x,y) = x + p(y-x)$. 
 
 
 The [[monad]] assigning to any set the free convex space on that set is a [[finitary monad|finitary]] [[commutative monad]].  We can thus follow Durov in thinking of it as a [[generalized ring]].  This allows us to think of convex spaces as 'modules' of a generalized ring, very much as [[vector spaces]] are modules of a field.  This is also true of the relatives of convex spaces: [[affine space|affine spaces]] and [[conical space|conical spaces]].  For example, all **affine spaces** are convex spaces as defined below.
@@ -19,7 +34,7 @@ Of particular importance are convex spaces parametrized by the interval $P = [0,
 
 A __convex space__ is a [[set]] $X$ equipped with:
 
-* a multiplicatively closed subset $Q$ of a [[semiring|(semi)]][[ring]] $P$, so that for each element $p\in Q$ there exists an element $q\in Q$ such that $p+q=1$, and
+* a multiplicatively closed [[subset]] $Q$ of a [[semiring|(semi)]][[ring]] $P$, so that for each element $p\in Q$ there exists an element $q\in Q$ such that $p+q=1$, and
 
 * an operation $c_p: X \times X \to X$ defined for all $p\in Q$,
 
@@ -66,6 +81,9 @@ Compare this with the theorem that a [[monoid]] is [[cancellative monoid|cancell
 
 Of course, most of the examples given above are cancellative, being manifestly given as convex subsets of real affine space.  However, the last example --- a semilattice with $c_p(x,y) = x \vee y$ whenever $0 \lt p \lt 1$ --- is non-cancellative.
 
+## Related concepts
+
+* [[convex function]]
 
 ## References
 
@@ -81,12 +99,12 @@ Convex spaces have been rediscovered many times under many different names.  Ref
 
 * Marshall Harvey Stone, _Postulates for the barycentric calculus_, Ann. Mat. Pura. Appl. (4), 29:25&#8211;30, 1949.
 
-* Tobias Fritz, Convex spaces I: definition and examples. 
+* [[Tobias Fritz]], Convex spaces I: definition and examples. 
 [arXiv/0903.5522](http://arxiv.org/abs/0903.5522)
 
-* John Baez, Tobias Fritz, Tom Leinster, [[johnbaez:Convex spaces and an operadic approach to entropy]], $n$Lab draft
+* [[John Baez]], [[Tobias Fritz]], [[Tom Leinster]], [[johnbaez:Convex spaces and an operadic approach to entropy]], $n$Lab draft
 
-* {#Jacobs} Bart Jacobs, _Duality for convexity_ [arXiv/0911.3834](http://arxiv.org/abs/0911.3834)
+* {#Jacobs} [[Bart Jacobs]], _Duality for convexity_ [arXiv/0911.3834](http://arxiv.org/abs/0911.3834)
 
 * {#Sturtz} Kirk Sturtz, _The factorization of the Giry monad and Convex Spaces_ [arXiv/1707.00488] (https://arxiv.org/abs/1707.00488)
 
@@ -98,7 +116,7 @@ Convex spaces have been rediscovered many times under many different names.  Ref
 
 * Stanley P. Gudder, _Convexity and mixtures_, SIAM Review **19** (1977), 221--240; _A general theory of convexity_, Milan Journal of Mathematics, **49** (1979), 89--96.
 
-* {#Meng} [[Xiao-qing Meng]], _Categories of convex sets and of metric spaces with applications to stochastic programming and related areas_, PhD thesis ([[Meng.djvu|djvu:file]]) 
+* {#Meng} Xiao-qing Meng, _Categories of convex sets and of metric spaces with applications to stochastic programming and related areas_, PhD thesis ([[Meng.djvu|djvu:file]]) 
 
 Many other references, and a discussion of how convex spaces have been repeatedly rediscovered, can be found at the $n$-Category Caf&#233; post [Convex Spaces](http://golem.ph.utexas.edu/category/2009/04/convex_spaces.html).
 
