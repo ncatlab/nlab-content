@@ -55,7 +55,7 @@ There are however variants:
 
 * In [[perturbative AQFT]] one drops the requirement of [[C*-algebras]] and instead considers just [[formal power series algebras]] (in [[Planck's constant]] $\hbar$) in order to describe [[perturbative quantum field theory]] and connect to the traditional construction of pQFTs via the [[Feynman perturbation series]].
 
-  The observation that [[causal perturbation theory]] yields [[quantum observables]] that satisfy the Haag-Kastler axioms, except that [[C*-algebras]] are replaced by [[formal power series algebras]], is due to ([Il'in-Slavnov 78](#IlinSlavnov78), [Brunetti-Fredenhagen 00](#BrunettiFredenhagen00), [Brunetti-D&#252;tsch-Fredenhagen 09](#BrunettiDuetschFredenhagen09)). See at _[S-Matrix -- Causal Locality and Quantum Observables](S-matrix#CausalLocality)_.
+The observation that [[causal perturbation theory]] yields [[quantum observables]] that satisfy the Haag-Kastler axioms, except that [[C*-algebras]] are replaced by [[formal power series algebras]], is due to ([Il'in-Slavnov 78](#IlinSlavnov78), [Brunetti-Fredenhagen 00](#BrunettiFredenhagen00), [Brunetti-D&#252;tsch-Fredenhagen 09](#BrunettiDuetschFredenhagen09)). See at _[S-Matrix -- Causal Locality and Quantum Observables](S-matrix#CausalLocality)_.
 
 * In [[locally covariant perturbative AQFT]] one generalizes from [[Minkowski spacetime]] to more general [[globally hyperbolic spacetimes]] in order to describe [[QFT on curved spacetimes]].
 
@@ -183,6 +183,14 @@ An online reference page is here:
 * Stephen J. Summers: [AQFT online] (http://www.math.ufl.edu/~sjs/aqft.html)
 
 See also the references at _[[AQFT]]_ and at _[[perturbative AQFT]]_. 
+
+One of the founding fathers of [[perturbative quantum field theory]] wrote:
+
+* {#Dyson72} [[Freeman Dyson]] _Missed opportunities_, Bulletin of the AMS, Volume 78, Number 5, September 1972 ([pdf](https://www.math.uh.edu/~tomforde/Articles/Missed-Opportunities-Dyson.pdf))
+
+  > These  axioms,  taken  together  with  the  axioms  defining  a  C*-algebra  are  a  distillation  into  abstract  mathematical  language  of  all  the   general  truths  that  we  have  learned  about  the  physics  of  microscopic   systems  during  the  last  50 years. They  describe a  mathematical  structure of  great  elegance  whose  properties  correspond  in  many  respects  to  the facts  of  experimental  physics.  In  some  sense,  the  axioms  represent  the most  serious  attempt  that  has  yet  been  made  to  define  precisely  what physicists mean by the words "observability, causality, locality, relativisti invariance," which  they are constantly  using  or  abusing  in their  everyday speech. $[$...$]$ I  therefore  propose  as  an  outstanding  opportunity  still  open  to  the  pure mathematicians, to  create a mathematical structure preserving the  main   features  of  the  Haag-Kastler axioms but possessing E-invariance instead of P-invariance. 
+
+  (on the latter see _[[AQFT on curved spacetimes]]_)
 
 The observation that [[causal perturbation theory]] yields [[quantum observables]] that satisfy the Haag-Kastler axioms, except that [[C*-algebras]] are replaced by [[formal power series algebras]] is due to
 
