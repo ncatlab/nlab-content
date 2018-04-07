@@ -32,7 +32,7 @@ See below
 
 More generally almost-constant contributions to matter fields may effectively have the same kind of effect.
 
-Specifically in [[perturbative quantum field theory]] [[AQFT on curved spacetimes#on curved spacetimes]] the [[vacuum expectation value]] of the [[stress-energy tensor]] of the various [[matter]]-fields receives constant or essentially constant contributions, notably from [[renormalization]] freedom (e.g. [Hack 15, section 3.2.1](#Hack15)). 
+Specifically in [[perturbative quantum field theory]] [[AQFT on curved spacetimes|on curved spacetimes]] the [[vacuum expectation value]] of the [[stress-energy tensor]] of the various [[matter]]-fields receives constant or essentially constant contributions, notably from [[renormalization]] freedom (e.g. [Hack 15, section 3.2.1](#Hack15)). 
 
 See below
 
@@ -86,7 +86,7 @@ See in particular at _[[FRW model]]_ for the role of the cosmological constant i
 ### In perturbative quantum gravity
  {#InPerturbativeQuantumGravity}
 
-In [[perturbative quantum field theory]] [[QFT on curved spacetime]] the cosmological constant receives contributions from the [[vacuum expectation value]] of the [[stress-energy tensor]] of the any [[matter]] [[field (physics)|fields]]. There is [[renormalization]]-freedom in this contribution  ([Wald 78](#Wald78), [Tichy-Flanagan 98](#TichyFlanagan98) [Moretti 01](#Moretti01)). 
+In [[perturbative quantum field theory]] [[QFT on curved spacetime|on curved spacetimes]] the cosmological constant receives contributions from the [[vacuum expectation value]] of the [[stress-energy tensor]] of the any [[matter]] [[field (physics)|fields]]. There is [[renormalization]]-freedom in this contribution  ([Wald 78](#Wald78), [Tichy-Flanagan 98](#TichyFlanagan98) [Moretti 01](#Moretti01)). 
 
 Explicitly for [[FRW models]] this is discussed in ([Dappiaggi-Fredenhagen-Pinamonti 08](#DappiaggiFredenhagenPinamonti08), [Dappiagi-Hack-Moeller-Pinamonti 10](#DappiagiHackMollerPinamonti10)).
 Specifically for the [[standard model of cosmology]] see ([Hack 13, around (4)](#Hack13)).
