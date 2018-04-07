@@ -207,7 +207,10 @@ In
 
 * {#NikolausSachseWockel} [[Thomas Nikolaus]], [[Christoph Sachse]], [[Christoph Wockel]], _A Smooth Model for the String Group_, Int. Math. Res. Not. IMRN 16 (2013) 3678-3721, doi:[10.1093/imrn/rns154](https://dx.doi.org/10.1093/imrn/rns154), ([arXiv:1104.4288](http://arxiv.org/abs/1104.4288))
 
-is is shown that the topological string group does admit a [[Frechet manifold]] [[Lie group]] structure. 
+it is shown that the topological string group does admit a [[Frechet manifold]] [[Lie group]] structure. 
 
+For relation to [[conformal nets]] see
+
+* Bas Janssens, _Notes on Defects & String Group_ ([pdf](http://www.bjadres.nl/WorkInProgress/Defect&String.pdf))
 
 [[!redirects String group]]
