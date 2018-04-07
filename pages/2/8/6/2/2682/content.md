@@ -194,7 +194,7 @@ The idea became popular in discussion of the [[cosmological constant]] with the 
 
 * [[Leonard Susskind]], _The Anthropic Landscape of String Theory_ ([arXiv:hep-th/0302219](http://arxiv.org/abs/hep-th/0302219))
 
-* [[Shamit Kachru]], [[Renata Kallosh]], [[Andrei Linde]], [[Sandip  Trivedi]], _de Sitter Vacua in String Theory_, Phys. Rev. D68:046005, 2003 ([arXiv:hep-th/0301240](http://arxiv.org/abs/hep-th/0301240))
+* {#KKLT03} [[Shamit Kachru]], [[Renata Kallosh]], [[Andrei Linde]], [[Sandip  Trivedi]], _de Sitter Vacua in String Theory_, Phys. Rev. D68:046005, 2003 ([arXiv:hep-th/0301240](http://arxiv.org/abs/hep-th/0301240))
 
   ("KKLT", a good quick review is in [Danielsson-VanRiet 18 section 2.5.1](#DanielssonVanRiet18), also [Ibanez-Uranga 12, section 15.3.1](#IbanezUranga12))
 
