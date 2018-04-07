@@ -33,7 +33,7 @@ If all three exist, then, in a precise sense, the Reedy model structure sits _in
 If $R$ is a [[Reedy category]] and $C$ is a [[model category]], then there is a canonical induced [[model category|model structure]] on the [[functor category]] $C^R$ in which the weak equivalences are the objectwise weak equivalences in $C$.
 =--
 
-The basic idea is as follows.  Given a diagram $X:R\to M$ and an object $r\in R$, define its **latching object** to be
+The basic idea is as follows.  Given a diagram $X:R\to C$ and an object $r\in R$, define its **latching object** to be
 
 $$ 
   L_r X = \colim_{s \overset{+}{\to} r} X_s
