@@ -19,8 +19,7 @@ If you need it, here is my email:  droberts.[fifth and largest-known [[Fermat pr
 
 ### Papers
 
-
-* _Smooth loop stacks of differentiable stacks and gerbes_, [arXiv:1602.07973](https://arxiv.org/abs/1602.07973). Accepted 15 January 2018 to appear, [[Cahiers de Topologie et Géométrie Différentielle Catégoriques]], Vol LIX (2018). Joint with [[nLab:Raymond Vozzo|Raymond Vozzo]].
+* _Smooth loop stacks of differentiable stacks and gerbes_, [[Cahiers de Topologie et Géométrie Différentielle Catégoriques]], Vol LIX no 2 (2018) pp 95-141 [journal version](http://cahierstgdc.com/index.php/volume-lix-2018/), [arXiv:1602.07973](https://arxiv.org/abs/1602.07973). Joint with [[nLab:Raymond Vozzo|Raymond Vozzo]].
 
 * _The smooth Hom-stack of an orbifold_, [arXiv:1610.05904](https://arxiv.org/abs/1610.05904). To appear in the [2016 MATRIX Annals](https://www.matrix-inst.org.au/2016-matrix-annals/). (Accepted 13 December 2016) ([SpringerLink](https://www.springer.com/gp/book/9783319722986) - to be published March 2018). Joint with [[nLab:Raymond Vozzo|Raymond Vozzo]]
 
