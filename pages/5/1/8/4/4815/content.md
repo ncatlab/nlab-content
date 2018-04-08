@@ -22,7 +22,7 @@
 
 ## Idea
 
-In theories pf [[gravity]] and [[cosmology]] a _cosmological constant_ refers to an [[energy]] contribution associated with the [[vacuum]] itself.
+In theories of [[gravity]] and [[cosmology]] a _cosmological constant_ refers to an [[energy]] contribution associated with the [[vacuum]] itself.
 
 This is called a _cosmological constant_ because the simplest way to see this effect in [[theory (physics)|theory]] is by a summand to the [[Einstein-Hilbert action]] which is proportional to the [[volume]] of [[spacetime]], with proportionality factor some "constant" $\lambda$, as in  (eq:EinsteinHilbertWithCosmologicalConstant) below.
 
@@ -30,20 +30,20 @@ See below
 
 * _[In classical gravity](#InClassicalGravity)_
 
-More generally almost-constant contributions to matter fields may effectively have the same kind of effect.
+More generally, almost-constant contributions to matter fields may effectively have the same kind of effect.
 
 Specifically in [[perturbative quantum field theory]] [[AQFT on curved spacetimes|on curved spacetimes]] the [[vacuum expectation value]] of the [[stress-energy tensor]] of the various [[matter]]-fields receives constant or essentially constant contributions, notably from [[renormalization]] freedom (e.g. [Hack 15, section 3.2.1](#Hack15)). 
 
 See below
 
-* _[In perturbative quantrum gravity](#InPerturbativeQuantumGravity)_
+* _[In perturbative quantum gravity](#InPerturbativeQuantumGravity)_
 
-In [[perturbative string theory]] the [[string perturbation series]] associated with a [[2d SCFT]] is (supposedly) UV-finite and hence has "chosen its own [[renormalization]]" already, hence here there cosmological constant may in principle be read-off from a choice pf [[perturbative string theory vacuum]]. See below 
+In [[perturbative string theory]] the [[string perturbation series]] associated with a [[2d SCFT]] is (supposedly) UV-finite and hence has "chosen its own [[renormalization]]" already, hence here the cosmological constant may in principle be read off from a choice of [[perturbative string theory vacuum]]. See below 
 
 * _[In string theory](#ReferencesInStringTheory)_
 
 
-Observation shows that the effective cosmological constant of the [[observable universe]] is comparatively small put [[positive real number|positive]], see 
+Observation shows that the effective cosmological constant of the [[observable universe]] is comparatively small but [[positive real number|positive]], see 
 
 * _[Observation](#Observation)_.
 
@@ -63,7 +63,7 @@ $$
 
 where $\lambda \in \mathbb{R}$ is the _cosmological constant_ .
 
-For instance pure Einstein-Hilbert gravity with cosmological constant (and no other fields) is given by the functional
+For instance, pure Einstein-Hilbert gravity with cosmological constant (and no other fields) is given by the functional
 
 $$
   \label{EinsteinHilbertWithCosmologicalConstant}
@@ -86,7 +86,7 @@ See in particular at _[[FRW model]]_ for the role of the cosmological constant i
 ### In perturbative quantum gravity
  {#InPerturbativeQuantumGravity}
 
-In [[perturbative quantum field theory]] [[QFT on curved spacetime|on curved spacetimes]] the cosmological constant receives contributions from the [[vacuum expectation value]] of the [[stress-energy tensor]] of the any [[matter]] [[field (physics)|fields]]. There is [[renormalization]]-freedom in this contribution  ([Wald 78](#Wald78), [Tichy-Flanagan 98](#TichyFlanagan98) [Moretti 01](#Moretti01)). 
+In [[perturbative quantum field theory]] [[QFT on curved spacetime|on curved spacetimes]] the cosmological constant receives contributions from the [[vacuum expectation value]] of the [[stress-energy tensor]] of the [[matter]] [[field (physics)|fields]]. There is [[renormalization]]-freedom in this contribution  ([Wald 78](#Wald78), [Tichy-Flanagan 98](#TichyFlanagan98) [Moretti 01](#Moretti01)). 
 
 Explicitly for [[FRW models]] this is discussed in ([Dappiaggi-Fredenhagen-Pinamonti 08](#DappiaggiFredenhagenPinamonti08), [Dappiagi-Hack-Moeller-Pinamonti 10](#DappiagiHackMollerPinamonti10)).
 Specifically for the [[standard model of cosmology]] see ([Hack 13, around (4)](#Hack13)).
@@ -180,7 +180,7 @@ See also
 
 * [[Edward Witten]], _Strong coupling and the cosmological constant_, Mod.Phys.Lett.A10:2153-2156,1995 ([arXiv:hep-th/9506101](https://arxiv.org/abs/hep-th/9506101))
 
-for discussion in terms of the [[M-theory]]/[[type IIA string theory|type IIA]] relation [[KK-compactification|KK-compactified]] to a 4d/3d scenrio, where the 3d physics is weakly coupled and the 4d physics strongly coupled. (Recall the [[super 2-brane in 4d]].)  
+for discussion in terms of the [[M-theory]]/[[type IIA string theory|type IIA]] relation [[KK-compactification|KK-compactified]] to a 4d/3d scenario, where the 3d physics is weakly coupled and the 4d physics strongly coupled. (Recall the [[super 2-brane in 4d]].)  
 
 This discussion was later supplemented by 
 
