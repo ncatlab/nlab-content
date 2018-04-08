@@ -118,7 +118,7 @@ The mulitplicative cohomology theory is called **commutative** (often considered
     \array{
       E^{n_1}(X,A) \otimes E^{n_2}(Y,B)
       &\overset{(u \otimes v) \mapsto (-1)^{n_1 n_2} (v \otimes u) }{\longrightarrow}& 
-      E^{n_2}(Y,B) \otimes E^{n_1}_{X,A}
+      E^{n_2}(Y,B) \otimes E^{n_1}(X,A)
       \\
       {}^{\mathllap{\mu_{n_1,n_2}}}\downarrow && \downarrow^{\mathrlap{\mu_{n_1,n_2}}}
       \\
