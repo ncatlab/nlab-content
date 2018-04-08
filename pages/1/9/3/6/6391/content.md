@@ -65,7 +65,7 @@ The eponymous ($p$-divisible groups are sometimes called Barsotti-Tate groups) e
 
 A theorem of [Serre and Tate](#Tate) says that there is an [[equivalence of categories]] between divisible, commutative, formal [[Lie group]]s over $R$ and the category of connected $p$-divisible groups over $R$ given by $\Gamma \mapsto \Gamma (p)$, where $\Gamma(p)=\lim_{\to} \mathrm{ker}(p^n)$. In particular, every connected $p$-divisible group is smooth {#Tate}
 
-=---
+=--
 
 ## The Cartier dual
 
@@ -99,7 +99,7 @@ References: [Weinstein](#Weinstein)
 
 ## In derived algebraic geometry
 
-See [Lurie](#pLurie).
+See [Lurie](#pLurie). An important notion: [[nonstationary p-divisible group]]
 
 
 ## Related concepts
