@@ -41,7 +41,7 @@ Observe that
 
    So [[E-∞ geometry]] in itself is already a [[categorification|categorified]]/homotopified version of [[supergeometry]], but of $\mathbb{Z}$-graded supergeometry, not of the proper $\mathbb{Z}/2$-graded supergeometry.
 
-   (That grading over the [[sphere spectrum]] is closely related to [[superalgebra]] had been highlighted in [Kapranov 13](#Kapranov13), but the issue of the difference between homotopified $\mathbb{Z}$-grading compared to homotopified $\mathbb{Y}/2$-grading had been left open.)
+   (That grading over the [[sphere spectrum]] is closely related to [[superalgebra]] had been highlighted in [Kapranov 13](#Kapranov13), but the issue of the difference between homotopified $\mathbb{Z}$-grading compared to homotopified $\mathbb{Z}/2$-grading had been left open.)
 
 1. But ordinary $\mathbb{Z}/2$-graded [[supercommutative superalgebra]] is equivalently $\mathbb{Z}$-graded [[supercommutative superalgebra]] over the free even periodic $\mathbb{Z}$-graded supercommutative superalgebra ([this prop.](geometry+of+physics+--+superalgebra#ModulesOverRbeta)).
 
