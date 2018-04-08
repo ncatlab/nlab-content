@@ -96,7 +96,7 @@ where the right and bottom morphisms are fixed, and where $\phi_U$ (and  the [[2
 
 ## Properties
 
-### Tological vector space structure
+### Topological vector space structure
 
 
 +-- {: .num_defn #TVSStructureOnSpacesOfSmoothSections}
