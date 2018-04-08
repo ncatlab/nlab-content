@@ -1,6 +1,6 @@
 <div style="float:right;margin:0 20px 10px 20px;"><img height = "200" src="http://rin.io/wp-content/uploads/2014/06/Screenshot-from-2014-11-21-171822.png" alt="Catherine Ray"/></div>
 
-Catherine Ray is a researcher studying [[elliptic cohomology]] and multiscale modeling.
+Catherine Ray is a graduate student at Northwestern University studying the interplay between number theory and homotopy theory.
 
 * [blog](http://rin.io)
 
