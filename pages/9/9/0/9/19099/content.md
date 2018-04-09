@@ -6,7 +6,7 @@
  
 We wish to more generally discuss the criterion in the [[Landweber exact functor theorem]]. Rather than looking at formal groups classified by maps from $Spec(R) \to M_{fg}$ that are **etale**, we look at p-divisible groups classified by maps from $Spec(R) \to M_{p-div}$ which are **unramified**. 
 
-Lurie defines the condition for a p-divisible group $G$ over $R$ to be nonstationary. Heuristically, we think of $G$ as a family of p-divisible groups parameterized by $Spec(R)$. The concept of $G$ being nonstationary is that this family is _nonconstant along every tangent vector_ in $Spec(R)$. 
+Lurie defines the condition for a [[p-divisible group]] $G$ over $R$ to be nonstationary. Heuristically, we think of $G$ as a family of p-divisible groups parameterized by $Spec(R)$. The concept of $G$ being nonstationary is that this family is _nonconstant along every tangent vector_ in $Spec(R)$. 
 This is equivalent to the map classifying $G$ from $Spec(R) \to M_{p-div}$ being unramified.
 
 
