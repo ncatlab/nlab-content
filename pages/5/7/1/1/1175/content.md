@@ -290,6 +290,8 @@ To be done...
  {#References}
 
 * [[Jacob Lurie]], _von Neumann algebras_, lecture series (2011) ([web](http://www.math.harvard.edu/~lurie/261y.html))
+* Abraham Westerbaan, _The Category of von Neumann Algebras_, [1804.02203](https://arxiv.org/abs/1804.02203) 2018
+
 
 
 [[!redirects W*-algebra]]
