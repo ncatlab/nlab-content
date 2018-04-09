@@ -68,7 +68,7 @@ All of this could be made more precise by assembling the structures considered b
 
 A **comprehension category** consists of a strictly [[commuting diagram|commutative triangle]] of [[functors]]
 $$ \array{ E && \to && C^I\\ & \searrow && \swarrow {\scriptsize cod} \\ && C } $$
-where $C^I$ is the [[arrow category]] of $C$ and $cod \colon C^I \to C$ denotes the [[codomain fibration]], and such that
+where $C^I$ is the [[arrow category]] of $C$ and $cod \colon C^I \to C$ denotes the codomain projection (which is a [[codomain fibration|fibration]] if $C$ has pullbacks), and such that
 
 1. $E\to C$ is a [[Grothendieck fibration]], 
 
