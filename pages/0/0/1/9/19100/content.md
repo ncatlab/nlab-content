@@ -1,0 +1,1 @@
+[[Michael Makkai]] and [[Gonzalo Reyes]], *First Order Categorical Logic:  Model-theoretical methods in the theory of topoi and related categories*, Lecture Notes in Math. __611__,  Springer-Verlag, 1977. [post with PDF](https://reyes-reyes.com/2018/04/02/first-order-categorical-logic-2/)
