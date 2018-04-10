@@ -20,6 +20,6 @@ Let $G_d$ denote the p-divisible group over $\kappa(x)[\epsilon]/(\epsilon^2)$ o
 
 We say $G$ is **nonstationary** if: 
 
-* For every point $x \in |Spec(R)|$ and every nonzero derivation $d: R \to \kappa(x)$. the p-divisible group $G_d$ is a nontrivial first order derivation $G_{\kappa(x)}$. 
+* For every point $x \in |Spec(R)|$ and every nonzero derivation $d: R \to \kappa(x)$. the p-divisible group $G_d$ is a nontrivial first order deformation $G_{\kappa(x)}$. 
 
 (If the map $d = 0$, then $G_d$ is a trivial first order deformation of $G_{\kappa(x)}$). 
