@@ -223,5 +223,11 @@ $$
   \underset{\langle \omega_2 \cup \omega_2\rangle}{\underbrace{\mathbb{Q}}} \oplus \mathbb{Q}
 $$
 
-Hm, the second summand does not seem to be in the Roig-Saralegi-model ??!
+This implies with the 5th row that also
 
+
+$$
+  H^{6}( S^4//S^1, \mathbb{Q} )
+  \simeq
+  \underset{\langle \omega_2 \cup \omega_2 \cup \omega_2\rangle}{\underbrace{\mathbb{Q}}} \oplus \mathbb{Q}
+$$
