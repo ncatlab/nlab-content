@@ -36,6 +36,8 @@ Thus it seems seems possible (and sometimes is claimed) that the perturbative se
 
 * {#Dorigoni14} Daniele Dorigoni, _An Introduction to Resurgence, Trans-Series_ ([arXiv:1411.3585](https://arxiv.org/abs/1411.3585))
 
+* {#Costin17} Ovidiu Costin, _The Mathematical Theory of Resurgence and Resummation, and Their Applications in Mathematics and Physics_, 2017 ([web](http://online.kitp.ucsb.edu/online/resurgent_c17/costin/))
+
 Part of the above text is taken from
 
 * {#Neumaier16} [[Arnold Neumaier]], [PO comment](https://physicsoverflow.org/36857/what-are-resurgent-transseries?show=36859#a36859), 2016
