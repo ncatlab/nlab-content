@@ -211,24 +211,24 @@ $$
   \left\langle 
      \underset{deg = 2p}{
      \underbrace{
-       \omega_{2p}
+       \tilde\omega_{2p}
      }},
      \underset{deg = 2p + 4}{ 
      \underbrace{
-       f_{2p + 4}
+       \omega_{2p + 4}
      }} \,\vert\, p \in \mathbb{N} 
   \right\rangle
   &
   d \colon
   \left\{
     \begin{aligned}
-      \omega_0 & \mapsto 0
+      \tilde\omega_0 & \mapsto 0
       \\
-      \omega_{2p+2} &\mapsto h_3 \wedge \omega_{2p}
+      \tilde\omega_{2p+2} &\mapsto h_3 \wedge \tilde \omega_{2p}
       \\
-      f_4 & \mapsto 0
+      \omega_4 & \mapsto 0
       \\
-      f_{2p+6} & \mapsto h_3 \wedge f_{2p + 4}
+      \omega_{2p+6} & \mapsto h_3 \wedge \omega_{2p + 4}
     \end{aligned}
     \right.
   \\
@@ -252,26 +252,26 @@ $$
   \left\langle 
      \underset{deg = 2p}{
      \underbrace{
-       \omega_{2p}
+       \tilde \omega_{2p}
      }},
      \underset{
        deg = 2p
      }{ 
      \underbrace{
-       f_{2p}
+       \omega_{2p}
      }} \,\vert\, p \in \mathbb{N} 
   \right\rangle
   &
   d \colon
   \left\{
     \begin{aligned}
+      \tilde \omega_0 & \mapsto 0
+      \\
+      \tilde \omega_{2p+2} &\mapsto h_3 \wedge \tilde \omega_{2p}
+      \\   
       \omega_0 & \mapsto 0
       \\
       \omega_{2p+2} &\mapsto h_3 \wedge \omega_{2p}
-      \\   
-      f_0 & \mapsto 0
-      \\
-      f_{2p+2} &\mapsto h_3 \wedge f_{2p}
     \end{aligned}
     \right.
   \\
@@ -295,33 +295,33 @@ $$
       deg = 2
     }{
     \underbrace{   
-      f_2  
+      \omega_2  
     }}
   \rangle 
    \otimes
   \left\langle 
     \underset{deg = 2p}{
     \underbrace{
-      \omega_{2p}
+      \tilde \omega_{2p}
     }},
     \underset{
       deg =2p + 4
     }{ 
     \underbrace{
-      f_{2p + 4}
+      \omega_{2p + 4}
     }} \,\vert\, p \in \mathbb{N}
   \right\rangle
   &
   d \colon
   \left\{
     \begin{aligned}
-      \omega_0 & \mapsto 0
+      \tilde \omega_0 & \mapsto 0
       \\
-      \omega_{2p+2} &\mapsto h_3 \wedge \omega_{2p}
+      \tilde \omega_{2p+2} &\mapsto h_3 \wedge \tilde \omega_{2p}
       \\
-      f_2 & \mapsto 0
+      \omega_2 & \mapsto 0
       \\
-      f_{2p+4} & \mapsto h_3 \wedge f_{2p + 2}
+      \omega_{2p+4} & \mapsto h_3 \wedge \omega_{2p + 2}
     \end{aligned}
   \right.
   }
@@ -329,19 +329,19 @@ $$
 
 =--
 
-Beware that in the model for $S^4//S^2$ the element $f_2$ induces its entire polynomial algebra as generator of the dg-module.
+Beware that in the model for $S^4//S^2$ the element $\omega_2$ induces its entire polynomial algebra as generator of the dg-module.
 
 Notice that we changed the notation of the generators compared to [Roig & Saralegi-Aranguren 00, second page](#RoigSaralegiAranguren00), to bring out the pattern:
 
 |  $\phantom{A}$Roig$\phantom{A}$  |  $\phantom{A}$here$\phantom{A}$    |
 |------------|-----------------|
 |   $\phantom{A}a\phantom{A}$    |        $\phantom{A}h_3\phantom{A}$    |
-|  $\phantom{A}1\phantom{A}$    |  $\phantom{A}\omega_0\phantom{A}$     |
-|  $\phantom{A}c_{2n}\phantom{A}$  | $\phantom{A}\omega_{2n+2}\phantom{A}$   |
-| $\phantom{A}c_{2n+1}\phantom{A}$ | $f_{2n+4}$ |
-|    $\phantom{A}e\phantom{A}$     |    $\phantom{A}f_2\phantom{A}$   |
-| $\phantom{A}\gamma_{2n}\phantom{A}$ | $\phantom{A}\omega_{2n}\phantom{A}$ |
-| $\phantom{A}\gamma_{2n+1}\phantom{A}$ | $\phantom{A}f_{2n}\phantom{A}$ |
+|  $\phantom{A}1\phantom{A}$    |  $\phantom{A}\tilde\omega_0\phantom{A}$     |
+|  $\phantom{A}c_{2n}\phantom{A}$  | $\phantom{A}\tilde\omega_{2n+2}\phantom{A}$   |
+| $\phantom{A}c_{2n+1}\phantom{A}$ | $\phantom{A}\omega_{2n+4}\phantom{A}$ |
+|    $\phantom{A}e\phantom{A}$     |    $\phantom{A}\omega_2\phantom{A}$   |
+| $\phantom{A}\gamma_{2n}\phantom{A}$ | $\phantom{A}\tilde\omega_{2n}\phantom{A}$ |
+| $\phantom{A}\gamma_{2n+1}\phantom{A}$ | $\phantom{A}\omega_{2n}\phantom{A}$ |
 
 
 #### M5-brane orbifolds
