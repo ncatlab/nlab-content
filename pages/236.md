@@ -214,7 +214,7 @@ to [[(∞,1)Cat]]. This takes the single object of $\mathbf{B}G$ to some $(\inft
 Again we want to **define** the _action groupoid_ $V//G$ as the [[limit in a quasi-category|(∞,1)-categorical colimit]] over the action:
 
 $$
-  C//G := \lim_\to \rho
+  V//G := \lim_\to \rho
   \,.
 $$
 
@@ -243,7 +243,7 @@ $$
   \,.
 $$
 
-The resulting total $(\infty,1)$-pullback rectangle is the fiber of $Z \to (\infty,1)Cat$ over the $(\infty,1)$-category $C$, which is $V$ itself, as indicated.
+The resulting total $(\infty,1)$-pullback rectangle is the fiber of $Z \to (\infty,1)Cat$ over the $(\infty,1)$-category $V$, which is $V$ itself, as indicated.
 
 ## Related concepts
 
