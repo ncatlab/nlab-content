@@ -77,7 +77,7 @@ given by
 
 $$ p_A = \frac{1}{n!} \sum_{\sigma \in S_n} sgn(\sigma) \, \sigma $$
 
-This is an [[idempotent]], so if idempotents split in $C$ we can form its [[cokernel]], called the $n$th **antisymmetric tensor power** or **alternating power** $\Lambda^n V$.  The coproduct
+The [[cokernel]] of $1 - p_A$ is called the $n$th **antisymmetric tensor power** or **alternating power** $\Lambda^n V$.  The coproduct
 
 $$  \Lambda V = \bigoplus_{n \ge 0} \Lambda^n V $$
 
