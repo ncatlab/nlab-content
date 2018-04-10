@@ -199,6 +199,9 @@ Modern textbooks on mathematical logic include
 
 * [[Jean-Pierre Marquis]], [[Gonzalo Reyes]], (2009) _The History of Categorical Logic 1963-1977 ([pdf](https://www.webdepot.umontreal.ca/Usagers/marquisj/MonDepotPublic/HistofCatLog.pdf))
 
+[[!include REF MakkaiReyes77]]
+
+
 ### Logic in natural languages
 
 * Pieter A. M. Seuren, _The logic of language_, vol. II of Language from within; (vol. I: _Language in cognition_) Oxford University Press 2010
