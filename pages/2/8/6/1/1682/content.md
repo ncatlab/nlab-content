@@ -390,7 +390,7 @@ The original Witten genus is the value of the composite of this with the [map to
 
 ### Anderson self-duality
 
-The [[spectrum]] $tmf$ is self-dual under [[Anderson duality]], more precisley $tmf[1/2]$ is Anderson-dual to $\Sigma^{21} tmf[1/2]$ ([Stojanoska 11, theorem 13.1](#Stojanoska11))
+The [[spectrum]] $Tmf$ is self-dual under [[Anderson duality]], more precisley $Tmf[1/2]$ is Anderson-dual to $\Sigma^{21} Tmf[1/2]$ ([Stojanoska 11, theorem 13.1](#Stojanoska11))
 
 
 ### Modular equivariant versions
