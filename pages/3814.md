@@ -78,6 +78,8 @@ There are various other variations, too.
 
 ## Related concepts
 
+* [[generation of fundamental particles]]
+
 * [[Yang-Mills theory]]
 
   * [[QCD]], [[electroweak field]], [[electromagnetism]]
