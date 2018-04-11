@@ -95,7 +95,7 @@ Review contains
 
 Other reviews include
 
-* [[Paul Aspinwall]], [[Tom Bridgeland]], [[Alastair Craw]], [[Michael Douglas]], Mark Gross, [[Anton Kapustin]], [[Gregory Moore]], [[Graeme Segal]], [[Balázs Szendr?i]], P. Wilson,
+* [[Paul Aspinwall]], [[Tom Bridgeland]], [[Alastair Craw]], [[Michael Douglas]], Mark Gross, [[Anton Kapustin]], [[Gregory Moore]], [[Graeme Segal]], [[Balázs Szendrői]], P. Wilson,
 
   _Dirichlet branes and mirror symmetry_, 
 
