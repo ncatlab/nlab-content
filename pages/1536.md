@@ -339,11 +339,11 @@ $$
 +-- {: .proof}
 ###### Proof
 
-This can be verified by straightforward albeit somewhat tedious checking. Details are spelled out in section 1.2 of
+This can be verified by straightforward albeit somewhat tedious checking. Details are spelled out in section B1.3 of
 
 * [[Peter Johnstone]], _Sketches of an Elephant_ 
 
-The statement itself is theorem 1.3.6 there, all definitions and lemmas are on the pages before that.
+The statement itself is theorem B1.3.6 there, all definitions and lemmas are on the pages before that.
 
 =--
 
