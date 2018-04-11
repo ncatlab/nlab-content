@@ -17,7 +17,7 @@
 
 ## Idea 
 
-An **ind-object** of a [[category]] $\mathcal{C}$ is a **formal [[filtered colimit]]** of objects of $C$.  Here "formal" means that the colimit is taken in the [[category of presheaves]] of $C$ (the [[free cocompletion]] of $X$). The category of ind-objects of $\mathcal{C}$ is written $ind$-$\mathcal{C}$ or $Ind(\mathcal{C})$.
+An **ind-object** of a [[category]] $\mathcal{C}$ is a **formal [[filtered colimit]]** of objects of $C$.  Here "formal" means that the colimit is taken in the [[category of presheaves]] of $C$ (the [[free cocompletion]] of $\mathcal{C}$). The category of ind-objects of $\mathcal{C}$ is written $ind$-$\mathcal{C}$ or $Ind(\mathcal{C})$.
 
 Here, "ind" is short for "[[inductive system]]", as in the inductive systems used to define [[directed colimits]], and as contrasted with "pro" in the dual notion of [[pro-object]] corresponding to "projective system".
 
