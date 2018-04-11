@@ -6,6 +6,14 @@
 +-- {: .hide}
 [[!include string theory - contents]]
 =--
+#### Fields and quanta
++--{: .hide}
+[[!include fields and quanta - table]]
+=--
+#### Quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
+=--
 =--
 =--
 
@@ -16,9 +24,16 @@
 
 ## Idea
 
-In [[string phenomenology]] for [[type IIA string theory]], quasi-realistic [[model (physics)|models]] (i.e. close to the [[standard model of particle physics]], or an [[MSSM]]) may be obtained by [[KK-compactifications]] from 10d down to 4d. with configurations of [[D6-branes]] which fill all of 4d spacetime and [[brane intersection|intersect]] in a certain way in the 6-dimensional [[fiber]] space. The [[Chan-Paton gauge field]] on the [[D6-branes]] yields the [[gauge fields]] in 4d, and the precise intersection pattern determines the effective [[fundamental particle]] content in 4d. 
+In [[string phenomenology]] for [[type IIA string theory]], quasi-realistic [[model (physics)|models]] (i.e. close to the [[standard model of particle physics]], or an [[MSSM]]) may be obtained by [[KK-compactifications]] from 10d down to 4d. with configurations of [[D6-branes]] which fill all of 4d spacetime and [[brane intersection|intersect]] in a certain way in the 6-dimensional [[fiber]] space. 
+
+<img src="https://ncatlab.org/nlab/files/Intersecting6branes.png" width="650"/>
+
+> graphics grabbed from [Uranga 12a, p. 12](#Uranga12a)
+
+The [[Chan-Paton gauge field]] on the [[D6-branes]] yields the [[gauge fields]] in 4d, and the precise intersection pattern determines the effective [[fundamental particle]] content in 4d. 
 
 See also at [[string phenomenology]] the section _[Models in type II with intersecting branes](string+phenomenology#ModelsInTypeIIWithIntersectingBranes)_.
+
 
 ## Bottom-up and Top-down approaches
 
@@ -44,16 +59,27 @@ The observation that [[Weyl spinor|chiral fermions]] appear when [[D6-branes]]  
 Vague review is in ([Ibáñez-Uranga 12, section 10.2.1](#IbanezUranga12), [Uranga 12a, section 2.3](#Uranga12a)).
 
 ### Generations of fermions
+ {#GenerationsOfFermions}
 
-[Aldazabal-Ibanez-Quevedo-Uranga 00, p. 307](#AldazabalIbanezQuevedoUranga00)
+While (presently) intersecting D-brane models don't explain why there are _precisely_ 3 [[generations of fundamental particles]] in the [[standard model of particle physics]], they do have the property that generically any such model does feature several [[generations of fundamental particles]].
 
-[Uranga 12a, p. 12](#Uranga12a)
+The reason is that in these models there is one copy of a set of fundamental particles at each intersection point of two 3-manifolds (the internal part of the D6-branes) in a compact 6-dimensional space, and generically these intersection numbers are greated than one ([Ibanez-Uranga 12, p. 307](#IbanezUranga12), [Uranga 12a, p. 12](#Uranga12a)):
+
+
+<img src="https://ncatlab.org/nlab/files/Intersecting3CyclesInT6.png" width="500">
+
+> graphics grabbed from [Uranga 12a, p. 13](#Uranga12a)
 
 ### Higgs mechanism
 
-[[Higgs mechanism]] from brane recombination ([Cremades-Ibanez-Marchesano 02, section 7](#CremadesIbanezMarchesano02)):
+The [[Higgs mechanism]] naturally arises in intersecting D-brane models: The [[Higgs field]] appears as the scalar field that witnesses in [[perturbative quantum field theory|perturbation theory]] the process of _brane recombination_ at the intersecting points of the D-branes ([Cremades-Ibanez-Marchesano 02, section 7](#CremadesIbanezMarchesano02)):
 
 <img src="https://ncatlab.org/nlab/files/BraneRecombination.png" width="600"/>
+
+
+See also [Ibanez-Uranga 12, fig 10.2](#IbanezUranga12):
+
+<img src="https://ncatlab.org/nlab/files/BraneRecombinationII.jpg" width="600"/>
 
 
 ## References
@@ -78,7 +104,8 @@ for [[D6-branes]]:
 * [Aldazabal-Ibanez-Quevedo-Uranga 00, section 10.2](#AldazabalIbanezQuevedoUranga00)
 
 * {#Uranga12a} [[Angel Uranga]], _Model building in IIA: Intersecting
-brane worlds_, 2012 ([pdf](http://scgp.stonybrook.edu/wp-content/uploads/2012/05/Uranga-Lecture-Notes-1.pdf))
+brane worlds_, 2012 ([pdf](http://scgp.stonybrook.edu/wp-content/uploads/2012/05/Uranga-Lecture-Notes-1.pdf), [[Uranga12.pdf:file]])
+
 
 for [[D7-branes]]:
 
