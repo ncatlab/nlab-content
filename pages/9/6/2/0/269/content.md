@@ -1,3 +1,4 @@
+[[!redirects Cubical set]]
 [[!redirects Cubical Set]]
 [[!redirects Cubical set]]
 [[!redirects cubical set]]
@@ -254,7 +255,7 @@ We denote by $p : \square^{n} \rightarrow \square^{0}$ the arrow $y(\underbrace{
 
 ## Expository material
 
-For expository and other material, see [[cubical set - exposition]]. 
+For Expository and other material, see [[cubical set - exposition]]. 
 
 ## Related entries
 
