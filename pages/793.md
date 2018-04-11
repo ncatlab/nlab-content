@@ -185,7 +185,7 @@ in terms of the field $X$.  This is the $\sigma$-model for string propagation on
 
 ## Topological T-duality 
 
-It turns out to be possible and useful to discuss just the _topological_ aspects of T-duality, meaning all the aspects that depend on the $X$ as a [[topological space]], on the topological class of the [[gerbe]] and of its 3-form curvature, but not on the [[Riemannian metric]] and not on the precise connection on the gerbe (there may be several inequivalent one for a given curvature)!
+It turns out to be possible and useful to discuss just the _topological_ aspects of T-duality, meaning all the aspects that depend on the $X$ as a [[topological space]], on the topological class of the [[gerbe]] and of its 3-form curvature, but not on the [[Riemannian metric]] and not on the precise connection on the gerbe (there may be several inequivalent ones for a given curvature)!
 
 This sub-phenomenon is discussed in more detail at [[topological T-duality]].
 
@@ -222,7 +222,7 @@ See ([KahleValentino](#KahleValentino)).
 
 ### In generalized complex geometry {#TdualityIngcg}
 
-Another approach to the study of T-duality takes a somewhat complementary point of view and ignores the  [[Eilenberg-MacLane spectrum|integral cohomology]] class in $H^3(X,\mathbb{Z})$ of the [[gerbe]] but does consider the [[Riemannian metric]].
+Another approach to the study of T-duality takes a somewhat complementary point of view and ignores the [[Eilenberg-MacLane spectrum|integral cohomology]] class in $H^3(X,\mathbb{Z})$ of the [[gerbe]] but does consider the [[Riemannian metric]].
 
 In this context T-duality is described as an isomorphism of [[standard Courant algebroid]]s. This picture emerged in the study of [[generalized complex geometry]].
 
@@ -230,9 +230,9 @@ In this context T-duality is described as an isomorphism of [[standard Courant a
 
 ### In Mirror symmetry
 
-One special cases of T-duality is [[mirror symmetry]].
+One special case of T-duality is [[mirror symmetry]].
 
-* [[Andrew Strominger]], [[Shing-Tung Yau], [[Eric Zaslow]], _Mirror Symmetry is T-Duality_, Nucl. Phys. B 479:243-259,1996 (DOI 10.1016/0550-3213(96)00434-8) [hep-th/9606040](http://arxiv.org/abs/hep-th/9606040)
+* [[Andrew Strominger]], [[Shing-Tung Yau]], [[Eric Zaslow]], _Mirror Symmetry is T-Duality_, Nucl. Phys. B 479:243-259,1996 (DOI 10.1016/0550-3213(96)00434-8) [hep-th/9606040](http://arxiv.org/abs/hep-th/9606040)
 
 ### In Langlands duality
 
