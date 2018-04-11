@@ -1,3 +1,6 @@
+[[!redirects Cubical Set]]
+[[!redirects Cubical set]]
+[[!redirects cubical set]]
 #Contents#
 * table of contents
 {:toc}
