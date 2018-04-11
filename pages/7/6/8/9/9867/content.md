@@ -169,6 +169,10 @@ A similar construction for PL manifolds is in
 
 * S. Buoncristiano, C. P. Rourke and B. J. Sanderson, _A geometric approach to homology theory_, Cambridge Univ. Press, Cambridge, Mass. (1976)
 
+A study of bivariant theories in the context of motivic stable homotopy theory, and more generally in the broader framework of Grothendieck six functors formalism is in
+
+* F. Déglise, _Bivariant theories in motivic stable homotopy_, ([arXiv:1705.01528] (https://arxiv.org/abs/1705.01528))
+
 References related to the discussion in _[Axiomatization in homotopy theory](#AxiomatizazionInHomotopyTheory)_ above include the following
 
 * {#ABG} [[Matthew Ando]], [[Andrew Blumberg]], [[David Gepner]], _Twists of K-theory and TMF_, in Robert S. Doran, Greg Friedman, [[Jonathan Rosenberg]], _Superstrings, Geometry, Topology, and $C^*$-algebras_, Proceedings of Symposia in Pure Mathematics [vol 81](http://www.ams.org/bookstore-getitem/item=PSPUM-81), American Mathematical Society ([arXiv:1002.3004](http://arxiv.org/abs/1002.3004))
