@@ -15,6 +15,7 @@
 {:toc}
 
 
+
 ## Idea
 
 In the [[standard model of particle physics]] the _top quark_ is the up-type [[quark]] in the third [[generation of fermions]]. 
