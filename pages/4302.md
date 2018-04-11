@@ -52,6 +52,8 @@ The formalization of fermions is in [[supergeometry]]: fermion fields are [[sect
 
 * [[spinors in Yang-Mills theory]]
 
+* [[generation of fermions]]
+
 * [[fermionic path integral]], [[Pfaffian line bundle]]
 
 * [[quantum anomaly|fermion anomaly]]
