@@ -97,6 +97,6 @@ Let $X$ be equipped with the structure of a cubical Kan complex. Let $\sigma_{0}
 +-- {: .num_defn}
 ###### Notation
 
-We denote the set $Z_{n}(X,x) / \sim$ by $\pi_{n}(X,x)$.
+We denote by $\pi_{n}(X,x)$ the set $Z_{n}(X,x) / \sim$.
 
 =--
