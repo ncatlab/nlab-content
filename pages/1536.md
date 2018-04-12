@@ -662,5 +662,11 @@ Discussion of the Grothendieck construction as a lax colimit includes (see also 
 
 * {#GepnerHaugsengNikolaus15} [[David Gepner]], [[Rune Haugseng]], [[Thomas Nikolaus]], _Lax colimits and free fibrations in $\infty$-categories_ ([arXiv:1501.02161](http://arxiv.org/abs/1501.02161))
 
+An enriched version is discussed in
+
+* Jonathan Beardsley, Liang Ze Wong, *The Enriched Grothendieck Construction*, [arxiv](https://arxiv.org/abs/1804.03829) 2018
+
 
 [[!redirects Grothendieck constructions]]
+[[!redirects enriched Grothendieck construction]]
+[[!redirects enriched Grothendieck constructions]]
