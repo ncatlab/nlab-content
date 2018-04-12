@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Physics
++-- {: .hide}
+[[!include physicscontents]]
+=--
+=--
+=--
+
+
 An [[experiment]] designed for detection and analysis of [[neutrinos]], also [[proton decay]].
 
 * [webpage](http://www-sk.icrr.u-tokyo.ac.jp/sk/index-e.html)
@@ -7,4 +18,4 @@ An [[experiment]] designed for detection and analysis of [[neutrinos]], also [[p
 
 ## Related entries
 
-* [[LHC]], [[LIGO]]
+* [[LHC]], [[LIGO]], [[EDGES]]
