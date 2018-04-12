@@ -98,7 +98,7 @@ Consider the following three [[homotopical category|homotopical categories]] tha
      G Top_{loc}
    $$
 
-   for all of $G Top$ equipped with weak equivalences given by those morphisms $(f : X \to Y) \in G Top$ that induce on for all [[subgroups]] $H \subset G$ [[weak homotopy equivalences]] $f^H : X^H \to Y^H$ on the $H$-[[fixed point]] spaces, in the standard [[Quillen model structure on topological spaces]] (i.e. inducing [[isomorphism]] on [[homotopy groups]]).
+   for all of $G Top$ equipped with weak equivalences given by those morphisms $(f : X \to Y) \in G Top$ that induce for all [[subgroups]] $H \subset G$ [[weak homotopy equivalences]] $f^H : X^H \to Y^H$ on the $H$-[[fixed point]] spaces, in the standard [[Quillen model structure on topological spaces]] (i.e. inducing [[isomorphism]] on [[homotopy groups]]).
 
 1. Write
 
@@ -331,7 +331,7 @@ Equivariant homotopy theory is to [[equivariant stable homotopy theory]] as [[ho
 
 A standard text is
 
-* {#May96} [[Peter May]], _Equivariant homotopy and cohomology theory_ CBMS Regional Conference Series in Mathematics, vol. 91, Published for the Conference Board of the Mathematical Sciences, Washington, DC, 1996. With contributions by M. Cole, G. Comezana, S. Costenoble, A. D. Elmenddorf, J. P. C. Greenlees, L. G. Lewis, Jr., R. J. Piacenza, G. Triantafillou, and S. Waner. ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/alaska1.pdf))
+* {#May96} [[Peter May]], _Equivariant homotopy and cohomology theory_, CBMS Regional Conference Series in Mathematics, vol. 91, Published for the Conference Board of the Mathematical Sciences, Washington, DC, 1996. With contributions by M. Cole, G. Comezana, S. Costenoble, A. D. Elmenddorf, J. P. C. Greenlees, L. G. Lewis, Jr., R. J. Piacenza, G. Triantafillou, and S. Waner. ([pdf](http://www.math.rochester.edu/u/faculty/doug/otherpapers/alaska1.pdf))
 
 Other survey includes
 
