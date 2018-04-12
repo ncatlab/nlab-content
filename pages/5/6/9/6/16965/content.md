@@ -122,6 +122,13 @@ $$
 
 (e.g. [Schwede 15, p. 64](#Schwede15))
 
+
+## Related concepts
+
+* [[equivariant Whitehead theorem]]
+
+* [[Elmendorf's theorem]]
+
 ## References
 
 * {#Greenlees} [[John Greenlees]], _Triangulated categories of rational equivariant cohomology theories_ ([pdf](http://www.greenlees.staff.shef.ac.uk/preprints/thicksurvey.pdf))
