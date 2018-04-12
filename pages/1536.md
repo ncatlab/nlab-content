@@ -657,14 +657,14 @@ See also
 
 A [[model category]] presentation of the Grothendieck construction see at _[[Grothendieck construction for model categories]]_.
 
-Discussion of the Grothendieck construction as a lax colimit includes (see also at [[(infinity,1)-Grothendieck construction]])
+Discussion of the Grothendieck construction as a [[lax colimit]] includes (see also at [[(infinity,1)-Grothendieck construction]])
 
 
 * {#GepnerHaugsengNikolaus15} [[David Gepner]], [[Rune Haugseng]], [[Thomas Nikolaus]], _Lax colimits and free fibrations in $\infty$-categories_ ([arXiv:1501.02161](http://arxiv.org/abs/1501.02161))
 
-An enriched version is discussed in
+An [[enriched category|enriched]] version is discussed in
 
-* Jonathan Beardsley, Liang Ze Wong, *The Enriched Grothendieck Construction*, [arxiv](https://arxiv.org/abs/1804.03829) 2018
+* {#BeardsleyWong18} [[Jonathan Beardsley]], Liang Ze Wong, *The Enriched Grothendieck Construction*, [arxiv](https://arxiv.org/abs/1804.03829) 2018
 
 
 [[!redirects Grothendieck constructions]]
