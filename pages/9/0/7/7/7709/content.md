@@ -28,7 +28,7 @@ One can generalize to constructible elements in more general [[Boolean lattices]
 
 ## References
 
-* Wikipedia, _[Constructible set](http://en.wikipedia.org/wiki/Constructible_set_(topology)_
+* Wikipedia, _[Constructible set](http://en.wikipedia.org/wiki/Constructible_set_%28topology%29)
 
 [[!redirects constructible sets]]
 
