@@ -382,7 +382,8 @@ and further discussed in
 
 See also
 
-* {#MorelVoevodsky03} [[F. Morel]], [[V. Voevodsky]], _$A^1$-homotopy theory of schemes_, 2003 ([pdf](http://www.math.uiuc.edu/K-theory/0305/nowmovo.pdf))
+* {#Waner80} [[Stefan Waner]], _Equivariant Homotopy Theory and Milnor's Theorem_, Transactions of the American Mathematical Society Vol. 258, No. 2 (Apr., 1980), pp. 351-368 ([JSTOR](http://www.jstor.org/stable/1998061))
+
 
 Discussion in the context of [[global equivariant homotopy theory]] is in 
 
