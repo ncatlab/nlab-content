@@ -156,6 +156,10 @@ $$
 
 ## Related concepts
 
+* [[equivariant Whitehead theorem]]
+
+* [[tom Dieck splitting]]
+
 * [[global equivariant homotopy theory]]
 
 * [[Bredon cohomology]]
