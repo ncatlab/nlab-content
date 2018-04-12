@@ -62,7 +62,7 @@ Then
        \underset{\longrightarrow}{\lim}_i \left(X_i\right)
      \right)
      \;\simeq\;
-     \underset{\longrightarrow}{\lim}_i \left( R(X_i) \right)
+     \underset{\longrightarrow}{\lim}_i \left( L(X_i) \right)
      \,,
    $$
 
