@@ -12,5 +12,8 @@ Ji&#345;&#237; Ad&#225;mek is a pure [[category theory|category theorist]]. One 
 
 category: people
 
+[[!redirects Jiří Adámek]]
 [[!redirects Jiri Adamek]]
-[[!redirects Adamek]] 
+[[!redirects Adamek]]
+[[!redirects Adámek]]
+ 
