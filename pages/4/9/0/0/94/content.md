@@ -75,7 +75,7 @@ case, which excludes the ordinary [[Lie algebras]] from the picture. But the Qui
 receive more attention when the [[Sullivan construction]] in [[rational homotopy theory]] was
 concretely identified as higher [[Lie integration]] in [Henriques 08](#Lie+integration#Henriques).
 A modern review that makes this [[L-∞ algebra]]-theoretic nature of [[rational homotopy theory]] manifest is in 
-[Buijs-F&#233;lix-Murillo 12, section 2](rational+homotopy+theory#BuijsFelixMurillo12).
+[Buijs-F&#233;lix-Murillo 12, section 2](BuijsFelixMurillo12).
 
 =--
 
@@ -694,6 +694,17 @@ See also
 A detailed reference for Lie 2-algebras is:
 
 * [[John Baez]] and Alissa Crans, _Higher-dimensional algebra VI: Lie 2-algebras_, [TAC](http://www.tac.mta.ca/tac/volumes/12/14/12-14abs.html) 12, (2004), 492--528. ([arXiv](http://arxiv.org/abs/math/0307263))
+
+### As models for rational homotopy types
+
+That $L_\infty$-algebras are models for [[rational homotopy theory]] is implicit in [Quillen 69](rational+homotopy+theory#Quillen69) (via their [equivalence with dg-Lie algebras](model+structure+on+dg-Lie+algebras#RectificationResolution)) and was made explicit in [Hinich 98](#Hinich98). Exposition is in 
+
+* {#BuijsFelixMurillo12} [[Urtzi Buijs]], [[Yves Félix]], [[Aniceto Murillo]], section 2 of _$L_\infty$-rational homotopy of mapping spaces_ ([arXiv:1209.4756](https://arxiv.org/abs/1209.4756)),  published as _$L_\infty$-models of based mapping spaces_,  J. Math. Soc. Japan Volume 63, Number 2 (2011), 503-524.
+
+and genralization to non-[[connected topological space|connected]] rational spaces is discussed in
+
+* {#BuijsMurillo12} [[Urtzi Buijs]], [[Aniceto Murillo]], _Algebraic models of non-connected spaces and homotopy theory of $L_\infty$-algebras_, Advances in Mathematics 236 (2013): 60-91. ([arXiv:1204.4999](https://arxiv.org/abs/1204.4999))
+
  
  
 ### $L_\infty$-algebras in physics
