@@ -541,7 +541,7 @@ See also
 
 They are discussed in relation to generalisations in
 
-* [[Jiří Adamek]], [[Francis Borceux]], [[Stephen Lack]], [[Jiri Rosicky|Ji&#345;&#237; Rosický]], _A classification of accessible categories,_ Journal of Pure and Applied Algebra 175:7-30, 2002. [abstract](http://maths.mq.edu.au/~slack/papers/acc.html)
+* [[Jiří Adámek]], [[Francis Borceux]], [[Stephen Lack]], [[Jiri Rosicky|Ji&#345;&#237; Rosický]], _A classification of accessible categories,_ Journal of Pure and Applied Algebra 175:7-30, 2002. [abstract](http://maths.mq.edu.au/~slack/papers/acc.html)
 
 See also the remarks at the beginning of section 5.3 of
 
