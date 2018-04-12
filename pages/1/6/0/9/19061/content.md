@@ -25,7 +25,7 @@ What has come to be called _nonabelian T-duality_ ([Ossa-Quevedo 92](#OssaQueved
 
 * [[spherical T-duality]]
 
-## Refernces
+## References
 
 The original articles are
 
