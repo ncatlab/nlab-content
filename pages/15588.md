@@ -65,5 +65,3 @@ See also
 For more references see at _[[moduli stack of bundles]]_.
 
 [[!redirects Weil uniformization]]
-
-category: people
