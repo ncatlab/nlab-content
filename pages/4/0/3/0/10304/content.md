@@ -19,6 +19,8 @@
 
 * [[Super-Kamiokande]]
 
+* [[EDGES]]
+
 ## Related entries
 
 * [[measurement]], [[quantum measurement]]
