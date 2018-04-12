@@ -34,7 +34,7 @@ $$
 
 for the corresponding [[simplicial localization]].
 
-Next, write $Orb_G$ for the [[full subcategory]] of $Top^G$ on the $G$-[[homogeneous spaces]] of the form $G/H$, but regarded as an [[(∞,1)-category]] by regarding each hom-topological space as its [[homotopy type]]. Write moreover $Top^{Orb_G}$ for the category of [[continuous function|continuous]] functors $Orb_G^{op} \longrightarrow Top$. Write finally
+Next, write $Orb_G$ for the [[full subcategory]] of $Top^G$ on the $G$-[[homogeneous spaces]] of the form $G/H$, but regarded as an [[(∞,1)-category]] by regarding each [[compact-open topology|hom-space]] as its [[homotopy type]]. Write moreover $Top^{Orb_G}$ for the category of [[continuous function|continuous]] functors $Orb_G^{op} \longrightarrow Top$. Write finally
 
 $$
   PSh_\infty(Orb_G)
