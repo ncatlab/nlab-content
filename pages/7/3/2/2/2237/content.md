@@ -92,7 +92,7 @@ $$
   \,.
 $$
 
-(This formally recovers the above special case of Borel-equivariant cohomology by the dual incarnation of the [[projection formula]] (theone denoted $\overline{\gamma}$ at _[Wirthm&#252;ller context -- The comparison maps](Wirthm&#252;ller+context#TheComparisonMaps)_), according to which $\prod_{\mathbf{B}G}[\rho_X,A]\simeq [\sum_{\mathbf{B}G} \rho_X,A] \simeq [X//G,A]$.)
+(This formally recovers the above special case of Borel-equivariant cohomology by the dual incarnation of the [[projection formula]] (the one denoted $\overline{\gamma}$ at _[Wirthm&#252;ller context -- The comparison maps](Wirthm&#252;ller+context#TheComparisonMaps)_), according to which $\prod_{\mathbf{B}G}[\rho_X,A]\simeq [\sum_{\mathbf{B}G} \rho_X,A] \simeq [X//G,A]$.)
 
 Hence equivariant cohomology is a natural generalization of [[group cohomology]], to which it reduces when the base space is a point.
 
@@ -349,7 +349,7 @@ Specifically equivariant [[complex cobordism cohomology]] is discussed in
 
 * {#tomDiek70} [[Tammo tom Dieck]], _Bordism of $G$-manifolds and integrability theorems, Topology 9 (1970) 345-358
 
-* {#Abrams13a} [[William Abram]], _Equivarisnt complex cobordism_, 2013 ([web](http://deepblue.lib.umich.edu/handle/2027.42/99796), [pdf](http://deepblue.lib.umich.edu/bitstream/handle/2027.42/99796/abramwc_1.pdf?sequence=1))
+* {#Abrams13a} [[William Abram]], _Equivariant complex cobordism_, 2013 ([web](http://deepblue.lib.umich.edu/handle/2027.42/99796), [pdf](http://deepblue.lib.umich.edu/bitstream/handle/2027.42/99796/abramwc_1.pdf?sequence=1))
 
 * [[William Abram]], [[Igor Kriz]], _The equivariant complex cobordism ring of a finite abelian group_ ([pdf](http://www.math.lsa.umich.edu/~ikriz/cobordism13022-1.pdf))
 
