@@ -26,6 +26,8 @@ In [[physics]], the [[atom (physics)|atom]] whose [[nucleus (physics)|nucleus]] 
 
 * [[Lamb shift]]
 
+* [[hydrogen line]]
+
 * [[harmonic oscillator]]
 
 * [[quantum lattice system]]
@@ -39,3 +41,5 @@ See also
 * Wikipedia, _[Hydrogen atom](https://en.wikipedia.org/wiki/Hydrogen_atom)_
 
 [[!redirects hydrogen atoms]]
+
+[[!redirects hydrogen]]
