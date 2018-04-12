@@ -164,7 +164,7 @@ $$
 
 The "fine" homotopical structure on [[G-spaces]] (with fixed-point-wise weak equivalences) is originally due to
 
-* {#Bredon67} [[Glen Bredon]], _Equivariant cohomology theories_, Springer Lecture Notes in Mathematics Vol. 34. 1967.
+* {#Bredon67} [[Glen Bredon]], _[[Equivariant cohomology theories]]_, Springer Lecture Notes in Mathematics Vol. 34. 1967.
 
 The equivalence of the homotopy theory ([[homotopy category]]) of that to presheaves over the orbit category is then due to
 
