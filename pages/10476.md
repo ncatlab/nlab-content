@@ -178,7 +178,7 @@ which considered all closed subgroups of $G$.  Also
 
 * {#Piacenza91} [[Robert Piacenza]], section 6 of _Homotopy theory of diagrams and CW-complexes over a category_, Can. J. Math. Vol 43 (4), 1991 ([[Piazenza91.pdf:file]])
 
-  also chapter VI of [[Peter May]] et a,, _Equivariant homotopy and cohomology theory_, 1996 ([pdf](http://www.math.uchicago.edu/~may/BOOKS/alaska.pdf))
+  also chapter VI of [[Peter May]] et al, _Equivariant homotopy and cohomology theory_, 1996 ([pdf](http://www.math.uchicago.edu/~may/BOOKS/alaska.pdf))
 
 
 The generalization of the proof to other choices of families of subgroups is due to
