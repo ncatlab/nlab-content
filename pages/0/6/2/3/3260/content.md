@@ -137,7 +137,6 @@ The first of these equivalences is the _[[equivariant Whitehead theorem]]_, the 
 
 This is stated as ([May 96, theorem VI.6.3 ](#May96)).
 
-Under the [[forgetful functor]] from [[topological G-spaces]] the first equivalence becomes [[Whitehead's theorem]]:
 
 $$
   \array{
@@ -145,13 +144,21 @@ $$
       &\underset{}{\longrightarrow}&
     Ho(Top_{cof}) 
     \\
-    {}^{\mathllap{\text{Bredon}}}\downarrow^{\mathrlap{\simeq}}
+    {\mathllap{\text{equivariant} \atop \text{Whitehead}}}\big\downarrow{\mathrlap{\simeq}}
     &&
-    {}^{\mathllap{\simeq}}\downarrow^{\mathrlap{\text{Witehead}}}
+    {\mathllap{\simeq}}\big\downarrow{\mathrlap{\text{Whitehead}}}
     \\
     Ho(G Top_{loc})
     &\overset{}{\longrightarrow}&
     Ho(Top_{loc})
+    \\
+    {\mathllap{Elmendorf}}\big\downarrow{\mathrlap{\simeq}}
+    &&
+    \downarrow^{\mathrlap{=}}
+    \\
+    Ho( PSh( Orb_G, Top_{loc} ) )_{proj}
+    &\longrightarrow&
+    Ho( \ast, Top_{loc} )_{proj}
   }
 $$
 
