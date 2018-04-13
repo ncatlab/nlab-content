@@ -143,7 +143,7 @@ Technical surveys on particle physics string phenomenology include
 * {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge University Press 2012
 
  
-* {#Wijnholt14} [[Martin Wijnholt]], _String compactification_, [PITP 2014](https://pitp2014.ias.edu) lecture notes ([[WijnholtCompactification14.pdf:file]], [slides for lecture 1](https://pitp2014.ias.edu/sites/pitp2014.ias.edu/files/PITP2014_P1_wijnholt.pdf), [slides for lecture 2](https://pitp2014.ias.edu/sites/pitp2014.ias.edu/files/PITP2014_P2_wijnholt.pdf), [slides for lecture 3](https://pitp2014.ias.edu/sites/pitp2014.ias.edu/files/PITP2014_P3_wijnholt.pdf))
+* {#Wijnholt14} [[Martin Wijnholt]], _String compactification_, [PITP 2014](https://pitp2014.ias.edu) lecture notes ([[WijnholtCompactification14.pdf:file]], [slides for lecture 1](https://static.ias.edu/pitp/2014/sites/pitp2014.ias.edu/files/PITP2014_P3_wijnholt.pdf), [slides for lecture 2](https://static.ias.edu/pitp/2014/sites/pitp2014.ias.edu/files/PITP2014_P2_wijnholt.pdf), [slides for lecture 3](https://static.ias.edu/pitp/2014/sites/pitp2014.ias.edu/files/PITP2014_P3_wijnholt.pdf))
 
 * [[Eran Palti]], _Review of Model Building in String Theory_, talk at [String Phenomenology 2014](http://stringpheno2014.ictp.it/program.html) ([pdf](http://stringpheno2014.ictp.it/lecturenotes/Palti.pdf))
 
