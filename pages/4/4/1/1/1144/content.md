@@ -1217,7 +1217,7 @@ An extension of rational homotopy theory to describe (some) non-[[simply connect
 
 * [[B. Toën]], _Champs affines_, Selecta Math. (N.S.) 12 (2006), no. 1, 39-135.
 
-  See in particular Cor. 2.4.11, Cor. 2.5.3 and Cor. 2.5.4, and the MathOverflow answer [MO/79309/2503](http://mathoverflow.net/a/79309/2503) by [[Denis-Charles Cisinski]].
+  See in particular Cor. 2.4.11, Cor. 2.5.3 and Cor. 2.5.4, and the MathOverflow answer [MO/79309](http://mathoverflow.net/a/79309) by [[Denis-Charles Cisinski]].
 
 Generalization to non-[[connected spaces]] is discussed in
 
