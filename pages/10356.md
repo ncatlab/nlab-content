@@ -78,6 +78,9 @@ as a quantum [[boundary field theory|boundary condition]], hence as a "quantum" 
 In particular, in the simple case that $X = \mathbb{C}^n/\Gamma$ is the global [[orbifold]] of a [[finite group]] acting on a [[Cartesian space]], the [[complex K-theory]] corresponds to the [[representation ring]] of $\Gamma$. In this case the fractional branes correspond simply to the [[irreducible representations]] of $\Gamma$.
 
 
+## Related concepts
+
+* [NS5 half-brane](NS5-brane#NSHalfBranes)
 
 
 ## References
@@ -96,4 +99,9 @@ The mathematical meaning is stated relatively clearly for instance on the bottom
 [[!redirects fractional brane]]
 [[!redirects fractional branes]]
 
+[[!redirects half-brane]]
+[[!redirects half-branes]]
+
+[[!redirects half brane]]
+[[!redirects half branes]]
 
