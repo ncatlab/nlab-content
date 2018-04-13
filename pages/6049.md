@@ -135,7 +135,7 @@ By the discussion [above](NS5-brane#D6BranesEndingOnNS5Branes)_, a [[black brane
 
 > from [GKSTY 02](#GKSTY02)
 
-If in addition the [[black brane|black]] [[NS5-brane]] sits at an [[O8-plane]], hence at the [[orientifold]] [[fixed point]]-locus, then in the ordinary $\mathbb{Z}/2$-[[quotient]] it appears as a "half-brane" with only one copy of [[D6-branes]] ending on it:
+If in addition the [[black brane|black]] [[NS5-brane]] sits at an [[O8-plane]], hence at the [[orientifold]] [[fixed point]]-locus, then in the ordinary $\mathbb{Z}/2$-[[quotient]] it appears as a "[[half-brane]]" with only one copy of [[D6-branes]] ending on it:
 
 
 <img src="https://ncatlab.org/nlab/files/HalfNS5II.jpg" width="400"/>
