@@ -126,6 +126,10 @@ for $\phi = e_7^\ast \phi_3$ the pullback of the [[associative 3-form]] ([BSS 02
 
 For realistic [[field (physics)|field]] content after [[Kaluza-Klein compactification]] one needs to consider not smooth (weak) [[G2-manifolds]] but [[conical singularities]] and [[orbifolds]] of these. see the first page of ([Acharya-Denef-Hofman-Lambert](#AcharyaDenefHofmanLambert)) for discussion of [[phenomenology]] for such orbifold $G_2$ models and further pointers and see ([Acharya 98](#Acharya98)) for general discussion of orbifolds with $G_2$-structure.
 
+### Relation to intersecting D-brane models
+
+relation to [[intersecting D-brane models]]: e.g. [BLCS 05, section 2.9](intersecting+D-brane+model#BCLS05)
+
 ## Related concepts
 
 * [[G2]]
