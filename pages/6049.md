@@ -24,6 +24,7 @@ For instance the [[effective QFT|effective background QFT]] of the [[type II str
 This is to distinguish it from the [[D-brane|D5-brane]] which is instead charged under the [[RR-field]] whose quanta come from the [[Ramond-Ramond sector]] of the [[superstring]].
 
 
+
 There are other incarnations of the NS 5-brane:
 
 by the general logic of [[Kalb-Ramond field|higher electromagnetism]] the (1+1)-dimensional string has under [[electric-magnetic duality]] a _magnetic dual_ . By dimension counting this is a 5-brane. If we think of the string this way as the structure that supports the [[sigma-model]] that defines perturbative [[string theory]],  we also call it the _F1-brane_ (the _fundamental_ 1-brane). In this sense the the corresponding magnetic dual is the _F5-brane_ -- the _fundamental_ fivebrane.
@@ -123,6 +124,48 @@ See also [Fazzi 17, p. 38](#Fazzi17):
 Next, this construction may be repeated, having the [[D6-branes]] end on different NS5-branes, hence "suspended between NS5-branes" (graphics from [Fazzi 17, p. 33](#Fazzi17)): 
 
 <img src="https://ncatlab.org/nlab/files/D6SuspendedNS5.png"/>
+
+
+#### NS5 half-branes
+ {#NSHalfBranes}
+
+By the discussion [above](NS5-brane#D6BranesEndingOnNS5Branes)_, a [[black brane|black]] [[D6-brane]] may end on a [[black brane|black]] [[NS5-brane]], and in fact a priori each [[black brane|brane]] [[NS5-brane]] has to be the junction of two [[black brane|black]] [[D6-branes]]. 
+
+<img src="https://ncatlab.org/nlab/files/HalfNS5.jpg" width="650"/>
+
+> from [GKSTY 02](#GKSTY02)
+
+If in addition the [[black brane|black]] [[NS5-brane]] sits at an [[O8-plane]], hence at the [[orientifold]] [[fixed point]]-locus, then in the ordinary $\mathbb{Z}/2$-[[quotient]] it appears as a "half-brane" with only one copy of [[D6-branes]] ending on it:
+
+
+<img src="https://ncatlab.org/nlab/files/HalfNS5II.jpg" width="400"/>
+
+> from [GKSTY 02](#GKSTY02)
+
+(In [Hanany-Zaffaroni 99](#HananyZaffaroni99) this is interpreted in terms of the [['t Hooft-Polyakov monopole]].)
+
+The lift to [[M-theory]] of this situation is an [[M5-brane]] intersecting an [[M9-brane]]:
+
+<img src="https://ncatlab.org/nlab/files/M9KK6Intersection.jpg" width="650"/>
+
+> from [GKSTY 02](#GKSTY02)
+
+Alternatively the [[O9-plane]] may intersect the [[black brane|black]] [[D6-branes]] away from the [[black brane|black]] [[NS5-brane]]:
+
+<img src="https://ncatlab.org/nlab/files/D6D8Intersection.jpg" width="650"/>
+
+> from [HKLY 15](#HKLY15)
+
+In general, some of the NS5 sit away from the [[O8-plane]], while some sit on top of it:
+
+
+<img src="https://ncatlab.org/nlab/files/NS5D6O8.jpg" width="500"/>
+
+> from [Hanany-Zaffaroni 98](#HananyZaffaroni98)
+
+
+See also at _[[intersecting D-brane models]]_ the section _[Intersection of D6s with O8s](intersecting+D-brane+model#IntersectionOfD6WithO8)_.
+
 
 ### Relation to Khovanov homology
 
@@ -250,6 +293,21 @@ Physical Mathematics_ , talk at _Strings2011_ ([pdf slides](http://www-conferenc
 The above discussion makes use of some blog comments (notably by [[Jacques Distler]]) appearing at
 
 * [[Urs Schreiber]], _4d QFT for Khovanov Homology_ ([web](http://golem.ph.utexas.edu/category/2011/02/4d_qft_for_khovanov_homology.html))
+
+### Intersection with O8 planes
+
+Intersection of [[black brane|black]] NS5-branes with [[O8-planes]]/[[black brane|black]] [[D8-branes]] is discussed in
+
+* {#HananyZaffaroni98} [[Amihay Hanany]], Alberto Zaffaroni, _Branes and Six Dimensional Supersymmetric Theories_, Nucl.Phys. B529 (1998) 180-206 ([arXiv:hep-th/9712145](https://arxiv.org/abs/hep-th/9712145))
+
+* {#HananyZaffaroni99} [[Amihay Hanany]], Alberto Zaffaroni, _Monopoles in String Theory_, JHEP 9912 (1999) 014 ([arXiv:hep-th/9911113](https://arxiv.org/abs/hep-th/9911113))
+
+* {#GKSTY02} E. Gorbatov, V.S. Kaplunovsky, J. Sonnenschein, [[Stefan Theisen]], S. Yankielowicz, _On Heterotic Orbifolds, M Theory and Type I' Brane Engineering_, JHEP 0205:015, 2002 ([arXiv:hep-th/0108135](https://arxiv.org/abs/hep-th/0108135))
+
+* {#HKLY15} Hirotaka Hayashi, Sung-Soo Kim, Kimyeong Lee, Futoshi Yagi, _6d SCFTs, 5d Dualities and Tao Web Diagrams_ ([arXiv:1509.03300](https://arxiv.org/abs/1509.03300))
+
+
+
 
 [[!redirects NS-5-brane]]
 [[!redirects F5-brane]]
