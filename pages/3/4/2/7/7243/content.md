@@ -40,7 +40,7 @@ This is also a limit in the category of [[topological rings]], taking the rings 
 
 3. Alternatively, it is the [[metric completion]] of the ring of [[integers]] $\mathbb{Z}$ with respect to the $p$-adic [[absolute value]]. Since addition and multiplication of integers are [[uniform space|uniformly continuous]] with respect to the $p$-adic [[absolute value]], they extend uniquely to a uniformly continuous addition and multiplication on $\mathbb{Z}_p$. Thus $\mathbb{Z}_p$ is a [[topological ring]]. 
 
-4. Also $\mathbb{Z}[ [ x ] ]/(x-q)\mathbb{Z}[ [ x ] ]$, see at _[[analytic completion]]_. 
+4. Also $\mathbb{Z}[ [ x ] ]/(x-p)\mathbb{Z}[ [ x ] ]$, see at _[[analytic completion]]_. 
 
 Hence one also speaks of the _$p$-[[adic completion]]_ of the integers.  See [[completion of a ring]] (which generalizes 2&3).
 
