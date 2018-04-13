@@ -68,11 +68,14 @@ For more on this see
 
 ### String theory
 
-A more drastic theoretical modifications to the standard model is proposed in the context of [[string theory]], where the entire concept of [[quantum field theory]] is proposed to be refined by something else. As opposed to GUTs, this approach at least suggests a way in which also the fourth remaining force field of [[gravity]] could be incorporated into the picture.
+A more drastic theoretical modifications to the standard model is proposed in the context of [[string theory]], where the entire concept of [[quantum field theory]] is proposed to be refined by something else. As opposed to [[GUTs]], this approach at least suggests a way in which also the fourth remaining force field of [[gravity]] could be incorporated into the picture.
 
+See
 
+* [[intersecting D-brane models]]
 
-There are various other variations, too.
+* [[G2-MSSM]]
+
 
 
 
