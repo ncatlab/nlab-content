@@ -45,6 +45,6 @@ Interpretation in [[string theory]] in terms of "half" [[NS5-branes]] at [[O8-pl
 
 See also 
 
-* Wikipedia _['t hOoft-Polyakov monopole](https://en.wikipedia.org/wiki/'t_Hooft–Polyakov_monopole)_
+* Wikipedia _['t Hooft-Polyakov monopole](https://en.wikipedia.org/wiki/'t_Hooft–Polyakov_monopole)_
 
 [[!redirects 't Hooft-Polyakov monopoles]]
