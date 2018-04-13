@@ -56,7 +56,6 @@ Families of examples of [[G2 manifolds|G2 orbifolds]] with ADE singularities are
 
 * {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 6.3.3 of _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge University Press 2012
 
-* [[Martin Wijnholt]], slides 6-10 of  _String compactification_, PITP 2014 ([pdf](https://ncatlab.org/nlab/files/WijnholtCompactification14.pdf))
 
 See also at _[[F-branes -- table]]_
 
