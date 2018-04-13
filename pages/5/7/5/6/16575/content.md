@@ -57,6 +57,25 @@ Examples include [[KK-compactification]] of [[M-theory]] on [[K3]] fibers and on
 
 * _[[duality between F-theory and heterotic string theory]]_.
 
+### On M9-Branes
+
+In [[Horava-Witten theory]] there is supposed to be gauge enhancement over the [[M9-branes]] such as to identify their [[worldvolume]] theory with [[E8]]-[[heterotic string theory]]. 
+
+
+Under the [[duality in string theory|duality]] between [[M-theory]] and [[type IIA string theory]] the M9-brane may be identified with the [[O8-plane]]:
+
+<img src="https://ncatlab.org/nlab/files/O8DualToM9.jpg" width="600"/>
+
+> from [GKSTY 02, section 3](#GKSTY02)
+
+This may be used to understand the [[gauge enhancement]] to [[E8]]-[[gauge groups]] at the [[heterotic string theory|heterotic]] boundary of [[Horava-Witten theory]]:
+
+
+<img src="https://ncatlab.org/nlab/files/ViaO8GaugeEnhancementOnM9.jpg" width="600"/>
+
+> from [GKSTY 02, section 3](#GKSTY02)
+
+
 ## Related concepts
 
 * [[spontaneously broken symmetry]]
@@ -73,12 +92,11 @@ reviewed in
 * {#Szabo08} [[Richard Szabo]], _D-branes and bivariant K-theory_, Noncommutative Geometry and Physics 3 1 (2013): 131. ([arXiv:0809.3029](http://arxiv.org/abs/0809.3029))
 
 
-
 Review of the standard lore of gauge enhancement in M-theory includes
 
 * {#Barrett06} Adam B. Barrett, section 2.3 (following [Acharya-Gukov 04](#AcharyaGukov04)) of _M-Theory on Manifolds with $G_2$ Holonomy_, 2006 ([arXiv:hep-th/0612096](http://arxiv.org/abs/hep-th/0612096))
 
-Original articles includ
+Original articles include
 
 * [[Edward Witten]], section 4.6 of _[[String Theory Dynamics In Various Dimensions]]_, Nucl.Phys.B443:85-126,1995 ([arXiv:hep-th/9503124](http://arxiv.org/abs/hep-th/9503124))
 
@@ -101,6 +119,11 @@ Original articles includ
 * {#HalvorsonMorrison15} [[James Halverson]], [[David Morrison]], _On Gauge Enhancement and Singular Limits in $G_2$ Compactifications of M-theory_ ([arXiv:1507.05965](http://arxiv.org/abs/1507.05965))
 
 * [[Neil Lambert]], Miles Owen, _Charged Chiral Fermions from M5-Branes_ ([arXiv:1802.07766](https://arxiv.org/abs/1802.07766))
+
+Discussion via duality of [[M9-branes]] to [[O-planes]] is in
+
+* {#GKSTY02} E. Gorbatov, V.S. Kaplunovsky, J. Sonnenschein, [[Stefan Theisen]], S. Yankielowicz, section 3 of _On Heterotic Orbifolds, M Theory and Type I' Brane Engineering_, JHEP 0205:015, 2002 ([arXiv:hep-th/0108135](https://arxiv.org/abs/hep-th/0108135))
+
 
 [[!redirects enhanced gauge symmetries]]
 
