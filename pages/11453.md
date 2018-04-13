@@ -17,9 +17,18 @@
 
 ## Idea
 
-In [[string theory]] on [[orientifolds]], one says _O-plane_ for the [[fixed point]] locus of the $\mathbb{Z}_2$-[[involution]] (see at _[[real space]]_).
+In [[type II string theory]] on [[orientifolds]], one says _O-plane_ for the [[fixed point]] locus of the $\mathbb{Z}_2$-[[involution]] (see at _[[real space]]_).
 
 O-planes carry [[D-brane charges]] in [[KR-theory]] ([Witten 98](#Witten98)), see ([DMR 13](#DMR13)) for a mathematical account.
+
+## Properties
+
+### T-Duality with type I string theory
+ {#TDualityWithTypeIStringTheory}
+
+Under [[T-duality]] [[type I string theory]] is dual to [[type II string theory]] with orientifold planes (reviewed e.g. in [Ibanez-Uranga 12, section 5.3.2](#IbanezUranga12)):
+
+<img src="https://ncatlab.org/nlab/files/TDualityOrientifold.jpg" width="500">
 
 ## Related concepts
 
@@ -30,6 +39,10 @@ O-planes carry [[D-brane charges]] in [[KR-theory]] ([Witten 98](#Witten98)), se
 * [NS5 half-branes](NS5-brane#NSHalfBranes)
 
 ## References
+
+
+* {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 5.3.2 of _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge 2012
+
 
 * {#Witten98} [[Edward Witten]], section 5 of _D-branes and K-theory_, J. High Energy Phys., 1998(12):019, 1998 ([arXiv:hep-th/9810188](http://arxiv.org/abs/hep-th/9810188)) 
 
