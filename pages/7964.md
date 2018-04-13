@@ -102,6 +102,8 @@ So for the Higgs particle prediction and experimental detection lie apart by abo
 
 ## Related concepts
 
+* [['t Hooft-Polyakov monopole]]
+
 * [[phi^n interaction]]
 
 * [[electroweak field]]
