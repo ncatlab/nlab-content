@@ -50,7 +50,7 @@ One distinguishes [[bottom-up and top-down model building]]] strategies:
 ### Chiral fermions
   {#ChiralFermions}
 
-The observation that [[Weyl spinor|chiral fermions]] appear when [[D6-branes]]  [[brane intersection|intersect]] at an angle on an $\mathbb{R}^{3,1}$ is due to ([Berkooz-Douglas-Leigh 96](#BerkoozDouglasLeigh96)), see also ([AFIRU 00, section 4](#AFIRU00)).
+The observation that [[Weyl spinor|chiral fermions]] appear when [[D6-branes]]  [[brane intersection|intersect]] at an angle on an $\mathbb{R}^{3,1}$ is due to ([Berkooz-Douglas-Leigh 96](#BerkoozDouglasLeigh96)), see also ([AFIRU 00, section 4](#AFIRU00), [BCLS 05, section 2.3](#BCLS05)).
 
 <img src="https://ncatlab.org/nlab/files/D6BranesIntersectingAtAnAngle.png" width="650"/>
 
@@ -63,8 +63,7 @@ Vague review is in ([Ibáñez-Uranga 12, section 10.2.1](#IbanezUranga12), [Uran
 
 While (presently) intersecting D-brane models don't explain why there are _precisely_ 3 [[generations of fundamental particles]] in the [[standard model of particle physics]], they do have the property that generically any such model does feature several [[generations of fundamental particles]].
 
-The reason is that in these models there is one copy of a set of fundamental particles at each intersection point of two 3-manifolds (the internal part of the D6-branes) in a compact 6-dimensional space, and generically these intersection numbers are greated than one ([Ibanez-Uranga 12, p. 307](#IbanezUranga12), [Uranga 12a, p. 12](#Uranga12a)):
-
+The reason is that in these models there is one copy of a set of fundamental particles at each intersection point of two 3-manifolds (the internal part of the D6-branes) in a compact 6-dimensional space, and generically these intersection numbers are greated than one and hence induce a finite number of [[generations of fundamental particles]] ([BCLS 05, section 2.3](#BCLS05), [Ibanez-Uranga 12, p. 307](#IbanezUranga12), [Uranga 12a, p. 12](#Uranga12a)):
 
 <img src="https://ncatlab.org/nlab/files/Intersecting3CyclesInT6.png" width="500">
 
@@ -81,6 +80,13 @@ See also [Ibanez-Uranga 12, fig 10.2](#IbanezUranga12):
 
 <img src="https://ncatlab.org/nlab/files/BraneRecombinationII.jpg" width="600"/>
 
+### RR-Tadpole cancellation and Orientifolding
+ {#Orientifolding}
+
+Consistent intersecting D-brane models have to be in [[type I string theory]], or generaly in [[type II string theory]] with [[orientifold]] backgrounds, to achieve [[RR-field tadpole cancellation]].
+
+This is a key consistency condition in intersecting D-brane model building (e.g. [BCLS 05, section 2.4](#BCLS05), [Ibanez-Uranga 12, section 4.4](#IbanezUranga12))
+
 
 ### Intersections of D6s with D8/O8s
  {#IntersectionOfD6WithO8}
@@ -92,7 +98,7 @@ A [[black brane|black]] [[D6-brane]] may end on a [[black brane|black]] [[NS5-br
 
 > from [GKSTY 02](#GKSTY02)
 
-If in addition the [[black brane|black]] [[NS5-brane]] sits at an [[O8-plane]], hence at the [[orientifold]] [[fixed point]]-locus, then in the ordinary $\mathbb{Z}/2$-[[quotient]] it appears as a "half-brane" with only one copy of [[D6-branes]] ending on it:
+If in addition the [[black brane|black]] [[NS5-brane]] sits at an [[O8-plane]], hence at the [[orientifold]] [[fixed point]]-locus (see [above](#Orientifolding)), then in the ordinary $\mathbb{Z}/2$-[[quotient]] it appears as a "[[half-brane]]" with only one copy of [[D6-branes]] ending on it:
 
 
 <img src="https://ncatlab.org/nlab/files/HalfNS5II.jpg" width="400"/>
@@ -120,6 +126,10 @@ In general, some of the NS5 sit away from the [[O8-plane]], while some sit on to
 
 > from [Hanany-Zaffaroni 98](#HananyZaffaroni98)
 
+### Relation to M-theory on $G_2$-manifolds
+
+For lift to [[M-theory on G2-manifolds]] (e.g. [[G2-MSSM]]): e.g. [BCLS 05, section 2.9](#BCLS05)
+
 
 ## References
 
@@ -131,6 +141,13 @@ The [[bottom-up model building|bottom-up approach]] to intersecting D-brane mode
 The observation that [[Weyl spinor|chiral fermions]] appear when [[D6-branes]]  intersect at an angle is due to 
 
 * {#BerkoozDouglasLeigh96} [[Micha Berkooz]], [[Michael Douglas]], [[Robert Leigh]], _Branes Intersecting at Angles_, Nucl.Phys.B480:265-278, 1996 ([arXiv:hep-th/9606139](https://arxiv.org/abs/hep-th/9606139))
+
+
+Review includes
+
+* G. Aldazabal, [[Luis Ibáñez]], F. Quevedo, _On Realistic Brane Worlds from Type I Strings_ ([arXiv:hep-ph/0005033](https://arxiv.org/abs/hep-ph/0005033))
+
+* {#BCLS05} [[Ralph Blumenhagen]], [[Mirjam Cvetic]], Paul Langacker, Gary Shiu, _Towards Realistic Intersecting D-Brane Models_, Ann. Rev. Nucl. Part. Sci. 55:71-139, 2005 ([arXiv:hep-th/0502005](http://arxiv.org/abs/hep-th/0502005))
 
 A textbook account is
 
@@ -164,9 +181,6 @@ See also
 * [[Ralph Blumenhagen]], [[Volker Braun]], Boris Kors, [[Dieter Lüst]], _The Standard Model on the Quintic_, Summary of Talks at SUSY02, 1st Intl. Conference on String Phenomenology in Oxford, Strings 2002 and 35th Ahrenshoop Symposium. ([arXiv:hep-th/0210083](http://arxiv.org/abs/hep-th/0210083))
 
 * {#Lust04} [[Dieter Lüst]], _Intersecting Brane Worlds -- A Path to the Standard Model?_, Class. Quant. Grav.21 : S1399-1424, 2004 ([arXiv:hep-th/0401156](http://arxiv.org/abs/hep-th/0401156))
-
-* [[Ralph Blumenhagen]], [[Mirjam Cvetic]], Paul Langacker, Gary Shiu, _Towards Realistic Intersecting D-Brane Models_, Ann.Rev.Nucl.Part.Sci.55:71-139, 2005 ([arXiv:hep-th/0502005](http://arxiv.org/abs/hep-th/0502005))
-
 
 * Ching-Ming Chen, Tianjun Li, Dimitri V. Nanopoulos, _Standard-Like Model Building on Type II Orientifolds_, Nucl.Phys.B732:224-242,2006 ([arXiv:hep-th/0509059](http://arxiv.org/abs/hep-th/0509059))
 
