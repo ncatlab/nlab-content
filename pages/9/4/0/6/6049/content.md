@@ -144,7 +144,7 @@ If in addition the [[black brane|black]] [[NS5-brane]] sits at an [[O8-plane]], 
 
 (In [Hanany-Zaffaroni 99](#HananyZaffaroni99) this is interpreted in terms of the [['t Hooft-Polyakov monopole]].)
 
-The lift to [[M-theory]] of this situation is an [[M5-brane]] intersecting an [[M9-brane]]:
+{#LiftToMTheortyOfNS5Halfbrane} The lift to [[M-theory]] of this situation is an [[M5-brane]] intersecting an [[M9-brane]]:
 
 <img src="https://ncatlab.org/nlab/files/M9KK6Intersection.jpg" width="650"/>
 
