@@ -23,6 +23,10 @@ In _[[perturbative quantum field theory]]_ a _tadpole_ is a contribution to the 
 
 Typically tadpoles are required to be absent. For instance the construction of [[time-ordered products]] in [[causal perturbation theory]] via the "star product" induced by the [[Feynman propagator]] (see [there](S-matrix#ExistenceAndRenormalization)) implies that tadpoles are absent.
 
+## Examples
+
+* [[RR-field tadpole]]
+
 ## References
 
 Discussion in context of [[causal perturbation theory]]/[[perturbative AQFT]] is in 
