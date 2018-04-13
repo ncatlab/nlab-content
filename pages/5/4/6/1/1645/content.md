@@ -160,7 +160,12 @@ see at _[[Diaconescu-Moore-Witten anomaly]]_
 
 For the moment see [[Liouville cocycle]].
 
+### Other
+
+* [[RR-field tadpole]]
+
 ## Related concepts
+
 
 * [[classical anomaly]]
 
