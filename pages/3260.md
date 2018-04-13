@@ -360,9 +360,15 @@ Equivariant homotopy theory is to [[equivariant stable homotopy theory]] as [[ho
 
 ## References
 
+
+Detailed lecture notes include
+
+* {#Blumberg17} [[Andrew Blumberg]], _Equivariant homotopy theory_, 2017 ([pdf](https://www.ma.utexas.edu/users/a.debray/lecture_notes/m392c_EHT_notes.pdf), [GitHub](https://github.com/adebray/equivariant_homotopy_theory))
+
 A standard text is
 
 * {#May96} [[Peter May]], _Equivariant homotopy and cohomology theory_, CBMS Regional Conference Series in Mathematics, vol. 91, Published for the Conference Board of the Mathematical Sciences, Washington, DC, 1996. With contributions by M. Cole, G. Comezana, S. Costenoble, A. D. Elmenddorf, J. P. C. Greenlees, L. G. Lewis, Jr., R. J. Piacenza, G. Triantafillou, and S. Waner. ([pdf](https://web.math.rochester.edu/people/faculty/doug/otherpapers/alaska1.pdf), [[MayEtAlEquivariant96.pdf:file]])
+
 
 Other survey includes
 
@@ -378,7 +384,7 @@ The generalization of the homotopy theory of $G$-spaces and of Elmendorf's theor
 
 and further discussed in
 
-* Marc Stephan, _Elmendorf's theorem for cofibrantly generated model categories_, [arXiv:1308.0856](http://arxiv.org/abs/1308.0856), also Masters Thesis E.T.H., 2010.
+* {#Stephan13} [[Marc Stephan]], _On equivariant homotopy theory for model categories_, Homology Homotopy Appl. 18(2) (2016) 183-208 ([arXiv:1308.0856](http://arxiv.org/abs/1308.0856))
 
 See also
 
