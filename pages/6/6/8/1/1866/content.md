@@ -49,6 +49,10 @@ The RR field derives its name from the way it shows up when the [[supergravity]]
 
 ## Related concepts
 
+* [[RR-field tadpole]]
+
+* [[D-brane charge]]
+
 * [[differential K-theory]]
 
 * [[KK-theory]]
