@@ -24,7 +24,7 @@
 
 ## Idea
 
-In [[string phenomenology]] for [[type IIA string theory]], quasi-realistic [[model (physics)|models]] (i.e. close to the [[standard model of particle physics]], or an [[MSSM]]) may be obtained by [[KK-compactifications]] from 10d down to 4d. with configurations of [[D6-branes]] which fill all of 4d spacetime and [[brane intersection|intersect]] in a certain way in the 6-dimensional [[fiber]] space. 
+In [[string phenomenology]] for [[type IIA string theory]], quasi-realistic [[model (physics)|models]] (i.e. close to the [[standard model of particle physics]], or an [[MSSM]]) may be obtained by [[KK-compactifications]] from the 10-[[dimension|dimensios]]  down to 4d with configurations of [[D6-branes]] which fill all of 4d spacetime and [[brane intersection|intersect]] in a certain way in the 6-dimensional [[fiber]] space. 
 
 <img src="https://ncatlab.org/nlab/files/Intersecting6branes.png" width="650"/>
 
@@ -38,7 +38,6 @@ See also at [[string phenomenology]] the section _[Models in type II with inters
 ## Bottom-up and Top-down approaches
 
 
-
 One distinguishes [[bottom-up and top-down model building]]] strategies:
 
 <img src="https://ncatlab.org/nlab/files/BottomUpAndTopDownIntersDBraneModelBuilding.png" width="700"/>
@@ -50,7 +49,9 @@ One distinguishes [[bottom-up and top-down model building]]] strategies:
 ### Chiral fermions
   {#ChiralFermions}
 
-The observation that [[Weyl spinor|chiral fermions]] appear when [[D6-branes]]  [[brane intersection|intersect]] at an angle on an $\mathbb{R}^{3,1}$ is due to ([Berkooz-Douglas-Leigh 96](#BerkoozDouglasLeigh96)), see also ([AFIRU 00, section 4](#AFIRU00), [BCLS 05, section 2.3](#BCLS05)).
+One of the most striking special properties of the [[standard model of particle physics]] is that its content of [[fermionic]] [[fundamental particles]] is "chiral", in that the the left and right [[Weyl spinor]]-somponents of the would-be [[Dirac spinor]]-representation of the [[quarks]], [[electrons]] and [[neutrinos]] couple _differently_ to the [[gauge fields]] (for review see e.g. [Ibanez-Uranga 12, section 1.1](#IbanezUranga12)).
+
+The observation that such [[Weyl spinor|chiral fermions]] do indeed appear when [[D6-branes]]  [[brane intersection|intersect]] at an angle on an $\mathbb{R}^{3,1}$ is due to ([Berkooz-Douglas-Leigh 96](#BerkoozDouglasLeigh96)), see also ([AFIRU 00, section 4](#AFIRU00), [BCLS 05, section 2.3](#BCLS05)).
 
 <img src="https://ncatlab.org/nlab/files/D6BranesIntersectingAtAnAngle.png" width="650"/>
 
