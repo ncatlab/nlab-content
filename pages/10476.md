@@ -166,6 +166,11 @@ $$
 
 ## References
 
+Lecture notes include
+
+* {#Blumberg17} [[Andrew Blumberg]], _Equivariant homotopy theory_, 2017 ([pdf](https://www.ma.utexas.edu/users/a.debray/lecture_notes/m392c_EHT_notes.pdf), [GitHub](https://github.com/adebray/equivariant_homotopy_theory))
+
+
 The "fine" homotopical structure on [[G-spaces]] (with fixed-point-wise weak equivalences) is originally due to
 
 * {#Bredon67} [[Glen Bredon]], _[[Equivariant cohomology theories]]_, Springer Lecture Notes in Mathematics Vol. 34. 1967.
@@ -192,7 +197,7 @@ The general discussion (for discrete groups) in terms of [[Quillen equivalence]]
 
 which is discussed further in
 
-* {#Stephan13} Marc Stephan, _Elmendorf's theorem for cofibrantly generated model categories_, ([arXiv:1308.0856](http://arxiv.org/abs/1308.0856))
+* {#Stephan13} [[Marc Stephan]], _On equivariant homotopy theory for model categories_, Homology Homotopy Appl. 18(2) (2016) 183-208 ([arXiv:1308.0856](http://arxiv.org/abs/1308.0856))
 
 
 A generalization to [[orbispaces]] is discussed in 
