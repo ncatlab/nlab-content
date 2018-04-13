@@ -50,11 +50,13 @@ of [[Minkowski spacetime]] with the [[worldline]] of a point removes, this means
 
 #### Kaluza-Klein monopole
 
-The gravitational incarnation of the Dirac monopole under [[Kaluza-Klein compactification]] is the _[[Kaluza-Klein monopole]]_. See there for more.
+The gravitational incarnation of the [[Dirac monopole]] under [[Kaluza-Klein compactification]] is the _[[Kaluza-Klein monopole]]_. See there for more.
 
-#### Yang monopole
+#### Yang monopole and 't Hooft monopole
 
 The generalization of the [[Dirac monopole]] from $U(1)$-[[Yang-Mills theory]] in 3+1 dimensional [[spacetime]] to $SU(2)$-[[Yang-Mills theory]] in 5+1 dimensional spacetime is the _[[Yang monopole]]_.
+
+With the [[Higgs field]] included, there is the _[['t Hooft-Polyakov monopole]]_.
 
 
 ### Electroweak monopoles
