@@ -49,6 +49,11 @@ the 2d cobordisms with boundary on which the theory defined by $A \in \mathcal{C
 
 So in this abstract algebraic formulation of QFT on the worldvolume, a brane is just the datum assigned by the QFT to the boundary of a cobordism. But abstractly defined QFTs may arise from [[quantization]] of [[sigma model]]s. This gives these boundary data a geometric interpretation in some space. This we discuss in the next section.
 
+<img src="https://ncatlab.org/nlab/files/BraneAndOpenString.jpg" width="700">
+
+> graphics grabbed from [Ibanez-Uranga 12](#IbanezUranga12)
+
+
 ### In $2d$ TFT
 
 Another case where the branes of a QFT are under good mathematical control is [[TCFT]]: the [[(infinity,1)-category]]-version of a 2d [[TQFT]].
