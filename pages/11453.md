@@ -27,6 +27,8 @@ O-planes carry [[D-brane charges]] in [[KR-theory]] ([Witten 98](#Witten98)), se
 
 * [[M-theory lift of gauge enhancement on D6-branes]]
 
+* [NS5 half-branes](NS5-brane#NSHalfBranes)
+
 ## References
 
 * {#Witten98} [[Edward Witten]], section 5 of _D-branes and K-theory_, J. High Energy Phys., 1998(12):019, 1998 ([arXiv:hep-th/9810188](http://arxiv.org/abs/hep-th/9810188)) 
@@ -43,7 +45,7 @@ See also
 
 * Wikipedia, _[Orientifold](https://en.wikipedia.org/wiki/Orientifold)_
 
-[[orientifold planes]]
+[[!redirects orientifold planes]]
 
 [[!redirects O-plane]]
 [[!redirects O-planes]]
