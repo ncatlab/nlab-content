@@ -115,6 +115,8 @@ This is the problem of [[non-perturbative quantum field theory|non-perturbative]
 
 * [[self-dual Yang-Mills theory]]
 
+* [[Yang monopole]], [['t Hooft-Polyakov monopole]]
+
 * [[super Yang-Mills theory]]
 
 * [[S-duality]], [[Montonen-Olive duality]]
