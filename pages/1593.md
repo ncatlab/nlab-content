@@ -54,6 +54,8 @@ Lifts to [[ADE singularities|D-type ADE singularities]] in [[M-theory]] goes bac
 ## References
  {#References}
 
+Textbook discussion in the context of [[intersecting D-brane models]] with an eye towards [[string phenomenology]] is in
+
 * {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], sections 5.3.4 and 10.1.3 of _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge University Press 2012
 
 
