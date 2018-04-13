@@ -4,6 +4,8 @@
 
 ## Related $n$Lab entries
 
+* [[RR-field tadpole cancellation]]
+
 * [[5d supergravity]]
 
 category: people
