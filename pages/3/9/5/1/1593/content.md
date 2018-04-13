@@ -2,13 +2,13 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
+=--
 #### Differential cohomology
 +--{: .hide}
 [[!include differential cohomology - contents]]
-=--
-#### Physics
-+--{: .hide}
-[[!include physicscontents]]
 =--
 =--
 =--
@@ -22,6 +22,8 @@
 ## Idea
 
 An _orientifold_ is a [[target space|target]] [[spacetime]] for [[string theory|string]] [[sigma-models]] that combines aspects of $\mathbb{Z}_2$-[[orbifold]]s with _[[orientation]] reversal_ on the worldsheet, whence the name.
+
+In [[type II string theory]] orientifold backgrounds (inducing [[type I string theory]]) are required for [[RR-field tadpole cancellation]]. This is a key consistency condition in particular for [[intersecting D-brane models]] used in [[string phenomenology]].
 
 Where generally ([[higher gauge field|higher gauge]]) [[field (physics)|fields]] in [[physics]]/[[string theory]] are [[cocycles]] in ([[differential cohomology theory|differential]]) [[cohomology theory]] and typically in [[complex oriented cohomology theory]], fields on orientifolds are cocycles in genuinely $\mathbb{Z}_2$-[[equivariant cohomology]] and typically in [[real-oriented cohomology theory]]. For instance the [[B-field]] which otherwise is a (twisted) coycles in ([[ordinary differential cohomology|ordinary]]) [[ordinary cohomology]] over an orientifold is a cocycle in (twisted) [[HZR-theory]], and the [[RR-fields]] which usually are cocycles in ([[twisted cohomology|twisted]] [[differential K-theory|differential]]) [[K-theory]] over an orientifold are cocycles in [[KR-theory]] ([Witten 98](#Witten98)).
 
