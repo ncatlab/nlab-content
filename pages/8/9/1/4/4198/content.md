@@ -11,7 +11,7 @@
 
 * [[twisted cohomology]]
 
-* [[equivariant homotopy theory]]
+* [[equivariant homotopy theory]], [[Bredon cohomology]]
 
 category: people
 
