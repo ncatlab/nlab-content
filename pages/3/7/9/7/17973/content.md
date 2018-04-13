@@ -82,6 +82,45 @@ See also [Ibanez-Uranga 12, fig 10.2](#IbanezUranga12):
 <img src="https://ncatlab.org/nlab/files/BraneRecombinationII.jpg" width="600"/>
 
 
+### Intersections of D6s with D8/O8s
+ {#IntersectionOfD6WithO8}
+
+
+A [[black brane|black]] [[D6-brane]] may end on a [[black brane|black]] [[NS5-brane]], and in fact each [[black brane|brane]] [[NS5-brane]] at a non-trivial [[ADE singularity]] has to be the junction of two [[black brane|black]] [[D6-branes]]. For details see at _[D6-branes ending on NS5-branes](NS5-brane#D6BranesEndingOnNS5Branes)_.
+
+<img src="https://ncatlab.org/nlab/files/HalfNS5.jpg" width="650"/>
+
+> from [GKSTY 02](#GKSTY02)
+
+If in addition the [[black brane|black]] [[NS5-brane]] sits at an [[O8-plane]], hence at the [[orientifold]] [[fixed point]]-locus, then in the ordinary $\mathbb{Z}/2$-[[quotient]] it appears as a "half-brane" with only one copy of [[D6-branes]] ending on it:
+
+
+<img src="https://ncatlab.org/nlab/files/HalfNS5II.jpg" width="400"/>
+
+> from [GKSTY 02](#GKSTY02)
+
+(In [Hanany-Zaffaroni 99](#HananyZaffaroni99) this is interpreted in terms of the [['t Hooft-Polyakov monopole]].)
+
+The lift to [[M-theory]] of this situation is an [[M5-brane]] intersecting an [[M9-brane]]:
+
+<img src="https://ncatlab.org/nlab/files/M9KK6Intersection.jpg" width="650"/>
+
+> from [GKSTY 02](#GKSTY02)
+
+Alternatively the [[O9-plane]] may intersect the [[black brane|black]] [[D6-branes]] away from the [[black brane|black]] [[NS5-brane]]:
+
+<img src="https://ncatlab.org/nlab/files/D6D8Intersection.jpg" width="650"/>
+
+> from [HKLY 15](#HKLY15)
+
+In general, some of the NS5 sit away from the [[O8-plane]], while some sit on top of it:
+
+
+<img src="https://ncatlab.org/nlab/files/NS5D6O8.jpg" width="500"/>
+
+> from [Hanany-Zaffaroni 98](#HananyZaffaroni98)
+
+
 ## References
 
 
@@ -141,6 +180,18 @@ See also
 Volume 897, August 2015, Pages 563-582 ([arXiv:1409.2740](https://arxiv.org/abs/1409.2740))
 
 * Jill Ecker, [[Gabriele Honecker]], Wieland Staessens, _D6-Brane Model Building on $\mathbb{Z}_2 \times \mathbb{Z}_6$: MSSM-like and Left-Right Symmetric Models_, Nuclear Physics B Volume 901, December 2015, Pages 139-215,  ([arXiv:1509.00048](https://arxiv.org/abs/1509.00048))
+
+Intersection with [[O8-planes]]/[[D8-branes]] is discussed in
+
+* {#HananyZaffaroni98} [[Amihay Hanany]], Alberto Zaffaroni, _Branes and Six Dimensional Supersymmetric Theories_, Nucl.Phys. B529 (1998) 180-206 ([arXiv:hep-th/9712145](https://arxiv.org/abs/hep-th/9712145))
+
+* {#HananyZaffaroni99} [[Amihay Hanany]], Alberto Zaffaroni, _Monopoles in String Theory_, JHEP 9912 (1999) 014 ([arXiv:hep-th/9911113](https://arxiv.org/abs/hep-th/9911113))
+
+* {#GKSTY02} E. Gorbatov, V.S. Kaplunovsky, J. Sonnenschein, [[Stefan Theisen]], S. Yankielowicz, _On Heterotic Orbifolds, M Theory and Type I' Brane Engineering_, JHEP 0205:015, 2002 ([arXiv:hep-th/0108135](https://arxiv.org/abs/hep-th/0108135))
+
+* {#HKLY15} Hirotaka Hayashi, Sung-Soo Kim, Kimyeong Lee, Futoshi Yagi, _6d SCFTs, 5d Dualities and Tao Web Diagrams_ ([arXiv:1509.03300](https://arxiv.org/abs/1509.03300))
+
+
 
 [[!redirects intersecting D-brane models]]
 
