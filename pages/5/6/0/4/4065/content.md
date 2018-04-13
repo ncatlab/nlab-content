@@ -6,7 +6,7 @@
 ## Idea
 
 
-Moonshine usually refers to the mysterious connections between the [[Monster simple group]] and the modular function $j$, the [[j-invariant]]. There were a bunch of [[conjectures]] about this connection that were proved by [[Richard Borcherds]], en passant mentioning the existence of the [[Moonshine vertex algebra]] (constructed then later by FLM). Nowadays there is also Moonshine for other simple groups, by the work of J. Duncan. Everntually there shoould be an entry for the general moonshine phenomenon.
+Moonshine usually refers to the mysterious connections between the [[Monster simple group]] and the modular function $j$, the [[j-invariant]]. There were a bunch of [[conjectures]] about this connection that were proved by [[Richard Borcherds]], en passant mentioning the existence of the [[Moonshine vertex algebra]] (constructed then later by FLM). Nowadays there is also Moonshine for other simple groups, by the work of J. Duncan. Eventually there should be an entry for the general moonshine phenomenon.
 
 The whole idea of moonshine began with [[John McKay]]'s observation that the [[Monster group]]'s first nontrivial [[irreducible representation]] has [[dimension]] 196883, and the [[j-invariant]] $j(\tau)$ has the [[Fourier series]] expansion
 $$
@@ -67,6 +67,8 @@ EMS Series of Lectures in Mathematics. European Mathematical Society (EMS), Z&#2
 * Miranda C. N. Cheng, John F. R. Duncan, Jeffrey A. Harvey, _Umbral Moonshine_ ([arXiv:1204.2779](http://arxiv.org/abs/1204.2779))
 
 * John F. R. Duncan, Michael J. Griffin and Ken Ono, _Proof of the Umbral Moonshine Conjecture_ ([arXiv:1503.01472](http://arxiv.org/abs/1503.01472))
+
+* [[Scott Carnahan]], _Monstrous Moonshine over Z?_ ([arXiv:1804.04161](https://arxiv.org/abs/1804.04161))
 
 
 ### Realization in superstring theory
