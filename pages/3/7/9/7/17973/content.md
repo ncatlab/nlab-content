@@ -114,7 +114,7 @@ The lift to [[M-theory]] of this situation is an [[M5-brane]] intersecting an [[
 
 > from [GKSTY 02](#GKSTY02)
 
-Alternatively the [[O9-plane]] may intersect the [[black brane|black]] [[D6-branes]] away from the [[black brane|black]] [[NS5-brane]]:
+Alternatively, the [[O8-plane]] may intersect the [[black brane|black]] [[D6-branes]] away from the [[black brane|black]] [[NS5-brane]]:
 
 <img src="https://ncatlab.org/nlab/files/D6D8Intersection.jpg" width="650"/>
 
