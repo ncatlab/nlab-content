@@ -18,7 +18,7 @@
 
 A [[3-manifold|3-dimensional]] [[submanifold]] $\Sigma_3 \hookrightarrow X_7$ of a [[G2-manifold]] $X_7$ is called _associative_ if it is a [[calibrated submanifold]], hence if the canonical 3-form $\phi$ of the $G_2$-manifold (tangent space-wise the [[associative 3-form]]) restricts to the [[volume form]] on $\Sigma_3$.
 
-Accordingly a [[4-manifold|4-dimensional]] [[submanifold]] $\Sigma_4 \hookrightarrow X_7$ is called _coassociative_ if it is a [[calibrated submanifold]] with respect to the coassicative 4-form $\star_X \phi$.
+Accordingly a [[4-manifold|4-dimensional]] [[submanifold]] $\Sigma_4 \hookrightarrow X_7$ is called _coassociative_ if it is a [[calibrated submanifold]] with respect to the coassociative 4-form $\star_X \phi$.
 
 
 ## Application in string theory
