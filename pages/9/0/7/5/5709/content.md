@@ -1369,7 +1369,7 @@ Discussion with an eye towards [[condensed matter physics]] is in
 
 The point that perturbatively [[renormalization|non-renormalizable]] theories may be regarded as effective field theories at each energy scale was highligted in
 
-* J. Gomis and [[Steven Weinberg]], _Are nonrenormalizable gauge theories renormalizable?_, Nucl. Phys. B 469 (1996) 473.
+* {#GomisWeinberg95} J. Gomis and [[Steven Weinberg]], _Are nonrenormalizable gauge theories renormalizable?_, Nucl. Phys. B 469 (1996) 473 ([arXiv:hep-th/9510087](https://arxiv.org/abs/hep-th/9510087))
 
 
 Notably the theory of [[gravity]] based on the standard [[Einstein-Hilbert action]] may be regarded as just an effective QFT, which makes some of its notorious problems be non-problems:
