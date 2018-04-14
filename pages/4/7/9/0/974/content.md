@@ -394,14 +394,13 @@ The definition is due to
 
 The standard textbook is
 
-* [[Ji?í Adámek]], [[Ji?í Rosický]], _[[Locally presentable and accessible categories]]_, Cambridge University Press, (1994)
+* [[Jiří Adámek]], [[Jiří Rosický]], _[[Locally presentable and accessible categories]]_, Cambridge University Press, (1994)
  {#AdamekRosicky}
-
 
 
 More details are in 
 
-* C. Centazzo, [[Ji?í Rosický]], [[Enrico Vitale]], _A characterization of locally $\mathbb{D}$-presentable categories_ ([pdf](http://perso.uclouvain.be/enrico.vitale/ClaudiaJiri.pdf))
+* C. Centazzo, [[Jiří Rosický]], [[Enrico Vitale]], _A characterization of locally $\mathbb{D}$-presentable categories_ ([pdf](http://perso.uclouvain.be/enrico.vitale/ClaudiaJiri.pdf))
  {#CentazzoRosickyVitale}
 
 Some further discussion is in 
@@ -420,5 +419,4 @@ where locally presentable categories are called just [[presentable category|pres
 [[!redirects locally presentable categories]]
 [[!redirects presentable category]]
 [[!redirects presentable categories]]
-
 [[!redirects locally representable category]]
