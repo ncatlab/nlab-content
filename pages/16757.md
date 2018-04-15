@@ -5,13 +5,15 @@
 
 ## Idea
 
-An _ADE singularity_ is a [[orbifold]] fixed point locally of the form $\mathbb{C}^2/\Gamma$ with $\Gamma \hookrightarrow SU(2)$ a [[finite group|finite]] [[subgroup]] of the [[special unitary group]] given by the [[ADE classification]] (and $SU(2)$ is understood with its defining linear [[action]] on the [[complex numbers|complex]] [[vector space]] $\mathbb{C}^2$).
+An _ADE singularity_ is a [[orbifold]] [[fixed point]] locally of the form $\mathbb{C}^2\sslash\Gamma$ with $\Gamma \hookrightarrow SU(2)$ a [[finite group|finite]] [[subgroup]] of the [[special unitary group]] given by the [[ADE classification]] (and $SU(2)$ is understood with its defining linear [[action]] on the [[complex numbers|complex]] [[vector space]] $\mathbb{C}^2$).
 
 <div style="float:left;margin:0 10px 10px 0;"><img src="http://ncatlab.org/nlab/files/ADE2Cycle.jpeg" width="200" alt="ADE 2Cycle" /></div> 
  
 These singularities have [[crepant resolutions]], obtained by repeatedly [[blow-up|blowing up]] at singular points. The resulting exceptional fiber (the blow-up of the singular point, an [[ALE space]]) is a [[union]] of [[Riemann spheres]] that touch each other such as to form the shape of the corresponding [[Dynkin diagram]].
 
 > (graphics grabbed from [Wijnholt 14, part III](string+phenomenology#Wijnholt14))
+
+[[!include ADE -- table]]
 
 ## Related concepts
 
