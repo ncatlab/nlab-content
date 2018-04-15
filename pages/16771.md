@@ -1,10 +1,10 @@
 
 **[[ADE classification]]**
 
-| [[Dynkin diagram]]  | [[Platonic solid]] | [[finite group|finite]] [[subgroup]] of $SO(3)$ | [[finite group|finite]] [[subgroup]] of $SU(2)$ | [[simple Lie group]] |
+| [[Dynkin diagram]]  | [[Platonic solid]] | [[classification of finite rotation groups|finite subgroups of SO(3)]] | [[classification of finite rotation groups|finite subgroups of SU(2)]] | [[simple Lie group]] |
 |---------------------|---|-----|---------------|----------------------|
-|  $A_l$  |                   | [[cyclic group]] | [[cyclic group]] | [[special unitary group]] |
-|  $D_l$  | [[dihedron]]/[[hosohedron]] | [[dihedral group]] | [[binary dihedral group]] | [[special orthogonal group]] |
-|  $E_6$  | [[tetrahedron]] | [[tetrahedral group]] | [[binary tetrahedral group]] | [[E6]] |
-|  $E_7$  | [[cube]]/[[octahedron]] | [[octahedral group]] | [[binary octahedral group]] | [[E7]] |
-|  $E_8$  | [[dodecahedron]]/[[icosahedron]] | [[icosahedral group]] | [[binary icosahedral group]] | [[E8]] |
+|  $A_n$  |                   | [[cyclic group]] $\mathbb{Z}_{n+1}$ | [[cyclic group]] $\mathbb{Z}_{n+1}$ | [[special unitary group]] |
+|  $D_{n+2}$  | [[dihedron]]/[[hosohedron]] | [[dihedral group]] $D_{4n}$ | [[binary dihedral group]] $2\mathbb{Z}_{n+1}$ | [[special orthogonal group]] |
+|  $E_6$  | [[tetrahedron]] | [[tetrahedral group]] $T$ | [[binary tetrahedral group]] $2T$ | [[E6]] |
+|  $E_7$  | [[cube]]/[[octahedron]] | [[octahedral group]] $O$ | [[binary octahedral group]] $2O$ | [[E7]] |
+|  $E_8$  | [[dodecahedron]]/[[icosahedron]] | [[icosahedral group]] $I$ | [[binary icosahedral group]] $2I$ | [[E8]] |
