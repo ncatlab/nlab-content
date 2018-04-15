@@ -1,11 +1,22 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Geometry
++--{: .hide}
+[[!include higher geometry - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
 
 ## Idea
 
-An _ADE singularity_ is a [[orbifold]] [[fixed point]] locally of the form $\mathbb{C}^2\sslash\Gamma$ with $\Gamma \hookrightarrow SU(2)$ a [[finite group|finite]] [[subgroup]] of the [[special unitary group]] given by the [[ADE classification]] (and $SU(2)$ is understood with its defining linear [[action]] on the [[complex numbers|complex]] [[vector space]] $\mathbb{C}^2$).
+An _ADE singularity_ is an [[orbifold]] [[fixed point]] locally of the form $\mathbb{C}^2\sslash\Gamma$ with $\Gamma \hookrightarrow SU(2)$ a [[finite group|finite]] [[subgroup]] of the [[special unitary group]] given by the [[ADE classification]] (and $SU(2)$ is understood with its defining linear [[action]] on the [[complex numbers|complex]] [[vector space]] $\mathbb{C}^2$).
 
 <div style="float:left;margin:0 10px 10px 0;"><img src="http://ncatlab.org/nlab/files/ADE2Cycle.jpeg" width="200" alt="ADE 2Cycle" /></div> 
  
@@ -29,9 +40,24 @@ These singularities have [[crepant resolutions]], obtained by repeatedly [[blow-
 
 ### General
 
-A textbook account is in
+Original articles include
+
+* [[Patrick du Val]],  (1934a), "On isolated singularities of surfaces which do not affect the conditions of adjunction. I", Proceedings of the Cambridge Philosophical Society, 30 (4): 453–459, [doi:10.1017/S030500410001269X](https://doi.org/10.1017/S030500410001269X) 
+
+* [[Patrick du Val]],  (1934b), "On isolated singularities of surfaces which do not affect the conditions of adjunction. II", Proceedings of the Cambridge Philosophical Society, 30 (4): 460–465, [doi:10.1017/S0305004100012706](https://doi.org/10.1017/S0305004100012706)
+
+* [[Patrick du Val]],  (1934c), "On isolated singularities of surfaces which do not affect the conditions of adjunction. III", Proceedings of the Cambridge Philosophical Society, 30 (4): 483–491, [doi:10.1017/S030500410001272X](https://doi.org/10.1017/S030500410001272X)
+
+Textbook accounts include
+
+* Alan H. Durfee, _Fifteen characterizations of rational double points and simple critical points_, L'Enseignement Mathématique Volume: 25 (1979) ([doi:10.5169/seals-50375](http://dx.doi.org/10.5169/seals-50375), [pdf](http://www.maths.ed.ac.uk/~v1ranick/papers/durfee15.pdf))
 
 * {#Slodowy80} [[Peter Slodowy]], _Simple singularities and simple algebraic groups_, in Lecture Notes in Mathematics 815, Springer, Berlin, 1980.
+
+* {#Reid87} [[Miles Reid]], _Young persons guide to canonical singularities, in [[Spencer Bloch]] (ed.), _[Algebraic geometry -- Bowdoin 1985, Part 1](https://www.ams.org/books/pspum/046.1/)_, Proc. Sympos. Pure Math. 46 Part 1, Amer. Math. Soc., Providence, RI, 1987, pp. 345-414 ([pdf](http://www.maths.ed.ac.uk/cheltsov/quotient/pdf/reid3.pdf))
+
+  (The last formula on page 409 has a typo: there should be no $r$ in the [[denominator]].)
+
 
 Reviews and lecture notes include
 
@@ -51,13 +77,20 @@ Families of examples of [[G2 manifolds|G2 orbifolds]] with ADE singularities are
 
 * {#Reidegeld15} [[Frank Reidegeld]], _$G_2$-orbifolds from K3 surfaces with ADE-singularities_ ([arXiv:1512.05114](http://arxiv.org/abs/1512.05114))
 
+See also 
+
+* Wikipedia, _[du Val singularity](https://en.wikipedia.org/wiki/Du_Val_singularity)_
+
 
 ### In the context of string compactifications
+
+Discussion in [[string theory]]:
 
 * {#Sen97} [[Ashoke Sen]], _A Note on Enhanced Gauge Symmetries in M- and String Theory_, JHEP 9709:001,1997 ([arXiv:hep-th/9707123](http://arxiv.org/abs/hep-th/9707123))
 
 * {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 6.3.3 of _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge University Press 2012
 
+For more seet at _[[M-theory on G2-manifolds]]_ the section [Orbifold singularities](M-theory+on%20G2-manifolds#EnhancedGaugeGroups)
 
 See also at _[[F-branes -- table]]_
 
@@ -72,4 +105,7 @@ See also at _[[F-branes -- table]]_
 
 [[!redirects ADE-orbifold]]
 [[!redirects ADE-orbifolds]]
+
+[[!redirects du Val singularity]]
+[[!redirects du Val singularities]]
 
