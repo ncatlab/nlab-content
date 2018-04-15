@@ -19,7 +19,7 @@ A **protocategory** consists of:
 
 satisfying the axioms
 
-* If $f:A\to B$ and $g:B\to C$, there is exactly one $h$ satisfying $h:A\to C$ and $g = g\circ f$.
+* If $f:A\to B$ and $g:B\to C$, there is exactly one $h$ satisfying $h:A\to C$ and $h = g\circ f$.
 * If we define the set of morphisms $\hom(A,B)$ to be the set of protomorphisms $f$ satisfying $f:A\to B$, then the composition operation given by the previous axiom results in a [[category]] (i.e. it is associative and has identities).
 
 ## Examples
