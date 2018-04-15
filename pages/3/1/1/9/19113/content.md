@@ -18,7 +18,7 @@
 
 ## Statement
 
-+-- {: .num_theorem}
++-- {: .num_theorem #ClassificationOfFiniteSubgroupsOfSO3}
 ###### Theorem
 **([[ADE classification]] of [[finite group|finite]] [[subgroups]] of [[special orthogonal group|SO(3)]] and [[spin group|Spin(3)]]$\simeq$[[special unitary group|SU(2)]])**
 
@@ -36,6 +36,7 @@ the finite subgroups of $SU(2)$ are the [[preimages]] of the corresponding finit
 
 =--
 
+This goes back to ([Klein 1884](#Klein1884)). 
 Full proof for $SO(3)$ is spelled out for instance in ([Rees 05, theorem 11](#Rees05), [De Visscher 11](#DeVisscher11)). Based on this result, the full proof for $SU(2)$ is spelled out in [Keenan 03, theorem 4](#Keenan03).
 
 ## Related concepts
@@ -45,9 +46,16 @@ Full proof for $SO(3)$ is spelled out for instance in ([Rees 05, theorem 11](#Re
 ## References
   {#References}
 
-A good textbook account is in 
+The classification in Theorem \ref{ClassificationOfFiniteSubgroupsOfSO3} goes back to
+
+* {#Klein1884} [[Felix Klein]], _Lectures on the Icosahedron and the Resolution of Equations of Degree Five_, 1884
+
+Textbook accounts include
+
+* {#Lamotke86} [[Klaus Lamotke]], _Regular Solids and Isolated Singularities_, Vieweg 1986
 
 * {#Rees05} [[Elmer Rees]], _Notes on Geometry_, Springer 2005
+
 
 Lecture notes include the following:
 
