@@ -48,7 +48,7 @@ Full proof for $SO(3)$ is spelled out for instance in ([Rees 05, theorem 11](#Re
 
 The classification in Theorem \ref{ClassificationOfFiniteSubgroupsOfSO3} goes back to
 
-* {#Klein1884} [[Felix Klein]], _Lectures on the Icosahedron and the Resolution of Equations of Degree Five_, 1884
+* {#Klein1884} [[Felix Klein]], _Vorlesungen über das Ikosaeder und die Auflösung der Gleichungen vom fünften Grade_, 1884, translated as _Lectures on the Icosahedron and the Resolution of Equations of Degree Five_ by George Morrice 1888, [online version](https://archive.org/details/cu31924059413439)
 
 Textbook accounts include
 
