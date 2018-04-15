@@ -104,3 +104,5 @@ He also mentions geometry and 'th&#233;or&#232;me' elsewhere in the song.
 [[!redirects sheaf spaces]]
 [[!redirects display space]]
 [[!redirects display spaces]]
+
+[[!redirects espaces etales]]
