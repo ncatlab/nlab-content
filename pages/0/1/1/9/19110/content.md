@@ -32,9 +32,12 @@ The argument is recalled in
 
 * {#SimonPolchinski96} Eric G. Gimon, [[Joseph Polchinski]], section 3 of _Consistency Conditions for Orientifolds and D-Manifolds_, Phys.Rev.D54:1667-1676, 1996 ([arXiv:hep-th/9601038](https://arxiv.org/abs/hep-th/9601038))
 
-A textbook account is in
+Textbook accounts include
 
 * {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 4.4 of _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge 2012
+
+* [[Ralph Blumenhagen]], [[Dieter Lüst]], [[Stefan Theisen]], section 9.4 of _Basic Concepts of String Theory_ Part of the series Theoretical and Mathematical Physics pp 585-639 Springer 2013
+
 
 Quick illustrations include:
 
