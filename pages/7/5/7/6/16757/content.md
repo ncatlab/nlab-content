@@ -63,6 +63,8 @@ Reviews and lecture notes include
 
 * _[Classification of singularities](http://www.mathematik.uni-kl.de/~zca/Reports_on_ca/29/paper_html/node10.html)_
 
+* {#Burban} Igor Burban, _Du Val Singularities_ ([pdf](http://www.mi.uni-koeln.de/~burban/singul.pdf))
+
 * [[Miles Reid]], _The Du Val Singularities $A_n$, $D_n$, $E_6$, $E_7$, $E_8$_ ([pdf](http://homepages.warwick.ac.uk/~masda/surf/more/DuVal.pdf))
 
 * Anda Degeratu, _Crepant Resolutions of Calabi-Yau Orbifolds_, 2004 ([pdf](https://home.mathematik.uni-freiburg.de/degeratu/crepant.pdf))
