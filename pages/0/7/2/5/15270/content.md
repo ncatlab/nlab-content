@@ -21,7 +21,7 @@ A long list of mathematical structures happens to have a classification that is 
 
 * [[Platonic solids]]
 
-* [[finite group|finite]] [[subgroups]] of the [[special orthogonal group]] $SO(3)$ ([Milnor 57](#Milnor57), see e.g. [Keenan 03, theorem 4](#Keenan03))
+* [[finite group|finite]] [[subgroups]] of the [[special orthogonal group]] $SO(3)$ and of the [[special unitary group]] $SU(2)$ (see at [[classification of finite rotation groups]]) ([Milnor 57](#Milnor57), see e.g. [Keenan 03, theorem 4](#Keenan03))
 
 * [[quiver representations]]
 
