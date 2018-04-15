@@ -91,6 +91,21 @@ and then acting by left multipication.
 #### Circle action
   {#CircleAction}
 
+
++-- {: .num_prop}
+###### Proposition
+
+Given an continuous [[action]] of the [[circle group]] on the four sphere, its [[fixed point]] space is of one of two types:
+
+1. either it is the [[0-sphere]] $S^0 \hookrightarrow S^4$
+
+1. or it has the [[rational homotopy theory|rational homotopy type]] of an even-dimensional sphere.
+
+=--
+
+([Félix-Oprea-Tanré 08, Example 7.39](#FelixOpreaTanre08))
+
+
 As a special case of the $SU(2)$-action from [above](#QuaternionAction), we discuss the induced circle action via the embedding
 
 $$
@@ -637,6 +652,7 @@ from the [[homotopy quotient]] by the [[circle action]] (def. \ref{CircleActionO
 
 * {#MF12} Paul de Medeiros, [[José Figueroa-O'Farrill]], _Half-BPS M2-brane orbifolds_, Adv. Theor. Math. Phys. Volume 16, Number 5 (2012), 1349-1408. ([arXiv:1007.4761](http://arxiv.org/abs/1007.4761), [Euclid](https://projecteuclid.org/euclid.atmp/1408561553))
 
+* {FelixOpreaTanre08} [[Yves Félix]], John Oprea, Daniel Tanré, _Algebraic Models in Geometry_, Oxford University Press 2008
 
 
 [[!redirects 4-spheres]]
