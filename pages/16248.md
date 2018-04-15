@@ -30,9 +30,13 @@ The Platonic solids are named after their discussion in
 
 * [[Plato]], _[[Timaeus dialogue]]_
 
-Their construction and the proof that there is exactly five of them appears in 
+Their construction and the [[proof]] that there is exactly five of them appears in 
 
-* [[Euclid]], [Book XIII](http://aleph0.clarku.edu/~djoyce/elements/bookXIII/bookXIII.html) of the _[[Elements]]_
+* [[Euclid]], [Book XIII](http://aleph0.clarku.edu/~djoyce/elements/bookXIII/bookXIII.html) of the _[[Elements]]_, $\sim$300 BC
+
+Modern textbook accounts include
+
+* {#Rees05} [[Elmer Rees]], from p. 23 (32 of 124) on in _Notes on Geometry_, Springer 2005
 
 
 See also
