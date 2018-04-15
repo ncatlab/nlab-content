@@ -36,6 +36,8 @@ Their construction and the [[proof]] that there is exactly five of them appears 
 
 Modern textbook accounts include
 
+* {#Lamotke86} [[Klaus Lamotke]], section 1 of _Regular Solids and Isolated Singularities_, Vieweg 1986
+
 * {#Rees05} [[Elmer Rees]], from p. 23 (32 of 124) on in _Notes on Geometry_, Springer 2005
 
 
