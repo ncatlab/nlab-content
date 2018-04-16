@@ -1,9 +1,13 @@
 
+
+
 * [webpage](http://www.rssd.esa.int/index.php?project=planck)
 
   [publications](http://www.cosmos.esa.int/web/planck/publications)
 
 ## related $n$Lab entries
+
+* [[cosmic structure formation]]
 
 * [[cosmic inflation]]
 
@@ -11,7 +15,7 @@
 
   * [[chaotic inflation]]
 
-* [[BICEP2]]
+* [[experiment]]
 
 
 ## members 
