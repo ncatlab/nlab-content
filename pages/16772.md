@@ -57,3 +57,4 @@ See also
 [[!redirects dihedral groups]]
 
 [[!redirects binary dihedral group]]
+[[!redirects binary dihedral groups]]
