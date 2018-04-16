@@ -43,6 +43,8 @@ Full proof for $SO(3)$ is spelled out for instance in ([Rees 05, theorem 11](#Re
 
 * [[ADE singularity]]
 
+* [[McKay correspondence]]
+
 ## References
   {#References}
 
