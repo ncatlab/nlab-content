@@ -100,6 +100,8 @@ See at _[[finite abelian group]]_ for details.
 
 * [[group of order 2]]
 
+* [[binary cyclic group]]
+
 * [[cyclic ring]]
 
 * [[p-localization]]
