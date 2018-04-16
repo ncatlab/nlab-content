@@ -32,7 +32,7 @@ $$
   SU(2) \overset{\pi}{\longrightarrow} SO(3)
 $$
 
-the finite subgroups of $SU(2)$ are the [[preimages]] of the corresponding finite subgroups of $SO(3)$.
+the non-[[cyclic group|cyclic]] finite subgroups of $SU(2)$ are the [[preimages]] of the corresponding finite subgroups of $SO(3)$.
 
 =--
 
