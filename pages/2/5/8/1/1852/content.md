@@ -79,8 +79,7 @@ via its [[metric topology]]. Then this is a normal Hausdorff space.
 +-- {: .proof}
 ###### Proof
 
-We need to show that given two [[disjoint subsets|disjoint]] [[closed subsets]] $C_1, C_2 \subset X$
-there exist [[disjoint subset|disjoint]] [[open neighbourhoods]] $U_{C_1} \supset C_1$
+We need to show that given two [[disjoint subsets|disjoint]] [[closed subsets]] $C_1, C_2 \subset X$, there exist [[disjoint subset|disjoint]] [[open neighbourhoods]] $U_{C_1} \supset C_1$
 and $U_{C_2} \supset C_2$.
 
 Consider the function
@@ -103,7 +102,7 @@ If $S$ is closed and $x \notin S$, then $d(S, x) \gt 0$. Then the
 $$
   U_{C_1}
     \coloneqq
-  \underset{x_1 \in C_1}{\cup} B^\circ_{x_1}( \frac1{2}d(C_2,x_1) )
+  \underset{x_1 \in C_1}{\bigcup} B^\circ_{x_1}( \frac1{2}d(C_2,x_1) )
 $$
 
 and
@@ -111,7 +110,7 @@ and
 $$
   U_{C_2}
     \coloneqq
-  \underset{x_2 \in C_2}{\cup} B^\circ_{x_2}( \frac1{2}d(C_1,x_2) )
+  \underset{x_2 \in C_2}{\bigcup} B^\circ_{x_2}( \frac1{2}d(C_1,x_2) )
   \,.
 $$
 
@@ -119,7 +118,7 @@ have the required properties. For if there exist $x_1 \in C_1, x_2 \in C_2$ and 
 
 $$d(x_1, x_2) \leq d(x_1, y) + d(y, x_2) \lt \frac1{2} (d(C_2, x_1) + d(C_1, x_2)) \leq \max\{d(C_2, x_1), d(C_1, x_2)\}$$ 
 
-and if $d(C_2, x_1) \leq d(C_1, x_2)$ say, then $d(x_1, x_2) \lt d(C_1, x_2)$, contradicting the definition of $d(C_1, x_2)$. 
+and if $d(C_1, x_2) \leq d(C_2, x_1)$ say, then $d(x_2, x_1) = d(x_1, x_2) \lt d(C_2, x_1)$, contradicting the definition of $d(C_2, x_1)$. 
 
 =--
 
