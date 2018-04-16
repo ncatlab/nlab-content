@@ -88,15 +88,23 @@ The [[group cohomology]] of the tetrahedral group is discussed in [Groupprops](#
 
 ## References
 
-* Wikipedia, _[Tetrahedral symmetry](https://en.wikipedia.org/wiki/Tetrahedral_symmetry)_
+Discussion in the context of [[classification of finite rotation groups]] goes back to:
 
-* {#Groupprops} Groupprops, _[Group cohomology of symmetric group:S4](http://groupprops.subwiki.org/wiki/Group_cohomology_of_symmetric_group:S4)_
+* {#Klein1884} [[Felix Klein]], chapter I.4 of _Vorlesungen über das Ikosaeder und die Auflösung der Gleichungen vom fünften Grade_, 1884, translated as _Lectures on the Icosahedron and the Resolution of Equations of Degree Five_ by George Morrice 1888, [online version](https://archive.org/details/cu31924059413439)
+
 
 * {#Kirdar13} Mehmet Kirdar, _On The K-Ring of the Classifying Space of the Symmetric Group on Four Letters_ ([arXiv:1309.4238](http://arxiv.org/abs/1309.4238))
 
 * {#Epa10} [[Narthana Epa]], _Platonic 2-groups_, 2010 ([pdf](http://www.ms.unimelb.edu.au/documents/thesis/Epa-Platonic2-Groups.pdf))
 
 * {#EpaGanter16} [[Narthana Epa]], [[Nora Ganter]], _Platonic and alternating 2-groups_, ([arXiv:1605.09192](http://arxiv.org/abs/1605.09192))
+
+See also
+
+* Wikipedia, _[Tetrahedral symmetry](https://en.wikipedia.org/wiki/Tetrahedral_symmetry)_
+
+* {#Groupprops} Groupprops, _[Group cohomology of symmetric group:S4](http://groupprops.subwiki.org/wiki/Group_cohomology_of_symmetric_group:S4)_
+
 
 [[!redirects tetrahedral groups]]
 
