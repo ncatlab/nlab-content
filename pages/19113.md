@@ -37,7 +37,7 @@ the finite subgroups of $SU(2)$ are the [[preimages]] of the corresponding finit
 =--
 
 This goes back to ([Klein 1884, chapter I](#Klein1884)). 
-Full proof for $SO(3)$ is spelled out for instance in ([Rees 05, theorem 11](#Rees05), [De Visscher 11](#DeVisscher11)). Based on this result, the full proof for $SU(2)$ is spelled out in [Keenan 03, theorem 4](#Keenan03).
+Full proof for $SO(3)$ is spelled out for instance in ([Rees 05, theorem 11](#Rees05), [De Visscher 11](#DeVisscher11)). The proof for the case of $SL(2,\mathbb{C})$ is spelled out in ([Miller-Blichfeldt-Dickson 16](#MillerBlichfeldtDickson16)) reviewed in ([Serrano 14, section 2](#Serrano14)). The proof of the case for $SU(2)$ given the result for $SO(3)$ is spelled out in [Keenan 03, theorem 4](#Keenan03).
 
 ## Related concepts
 
@@ -52,10 +52,15 @@ The classification in Theorem \ref{ClassificationOfFiniteSubgroupsOfSO3} goes ba
 
 Textbook accounts include
 
+* {#MillerBlichfeldtDickson16} G. A. Miller, H. F. Blichfeldt, L. E. Dickson, _Theory and applications of finite groups_, Dover, New York, 1916
+
 * {#Lamotke86} [[Klaus Lamotke]], _Regular Solids and Isolated Singularities_, Vieweg 1986
 
 * {#Rees05} [[Elmer Rees]], _Notes on Geometry_, Springer 2005
 
+see also 
+
+* {#Serrano14} Javier Carrasco Serrano, _Finite subgroups of $SL(2,\mathbb{C})$ and $SL(3,\mathbb{C})$_, Warwick 2014 ([pdf](https://homepages.warwick.ac.uk/~masda/McKay/Carrasco_Project.pdf))
 
 Lecture notes include the following:
 
@@ -72,5 +77,11 @@ See also
 
 * GroupProps _<a href="https://groupprops.subwiki.org/wiki/Classification_of_finite_subgroups_of_SO(3,R)">Classification of finite subgroups of SO(3,R)</a>
 
+[[!redirects classification of the finite rotation groups]]
+
 [[!redirects finite subgroups of SO(3)]]
 [[!redirects finite subgroups of SU(2)]]
+
+
+
+
