@@ -26,6 +26,8 @@ _Cosmology_ is the study of the [[observable universe]] on its largest [[length 
 
 * [[FRW model]], [[standard model of cosmology]]
 
+* [[structure formation]]
+
 * [[cosmological constant]]
 
 * [[big bang]], [[steady state model of cosmology]]
