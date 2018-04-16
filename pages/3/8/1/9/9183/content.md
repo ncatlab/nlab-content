@@ -21,11 +21,13 @@
 
 The [[observable universe]] at large scales seems to behave as if it contains large amount of [[matter]] which does have a [[gravity|gravitational effect]] but does not emit [[electromagnetic radiation]] and hence remains "dark" to telescopes. This hypothetical matter is therefore called _dark matter_.
 
-There are mainly two astronomical observations that suggest the existence of dark matter
+There are various astronomical observations that suggest the existence of dark matter
 
 1. galaxy rotation curves -- the speed of rotation of [[galaxies]] as a function of the distance from their center cannot be explained by the observed visible matter, but an explanation of this dependence by gravitating matter requires the presence of plenty of dark matter;
 
 1. cosmic microwave background fluctuations -- the measured fluctuations in the [[cosmic microwave background]] are very well fitted by the [[standard model of cosmology]] with cold dark matter (CDM) included. (see also [Resonaances, 18 Jan 2013](#Resonaances)).
+
+1. Simulations of [[structure formation]] in the universe seem to require existence of dark matter in order to reproduce results compatible with observation.
 
 Any further details about the nature of this hypothetical dark matter remain elusive to date. Possible classes of candidates go by various names. For instance "weakly interacting massive particles" ("WIMP"s), hence massive particles that interact via [[gravity]] and the [[weak nuclear force]], but not via [[electromagnetism]]. In [[supersymmetry|supersymmetric]] [[theory (physics)|theories]], the _lightest supersmmetric particle_ (LSP, such as the [[gravitino]] or the [[neutralino]]) is a natural candidate for dark matter ([EHNOS 84](#EHNOS84), reviewed in [Ellis-Olive 10](#EllisOlive10))
 
