@@ -44,6 +44,10 @@ Introductions and surveys include
 
 * Drew Armstrong, _Lectures on the McKay correspondence_, 2015 ([pdf scan of notes](http://www.math.miami.edu/~armstrong/Talks/McKay_Talca.pdf))
 
+Literature collection
+
+* [[Miles Reid]], _[Links to papers on McKay correspondence](homepages.warwick.ac.uk/staff/Miles.Reid/McKay/)_
+
 For the 2001 publication on the derived McKay correspondence, see:
 
 * _The McKay correspondence as an equivalence of derived categories_ ([pdf](http://www.ams.org/journals/jams/2001-14-03/S0894-0347-01-00368-X/S0894-0347-01-00368-X.pdf))
