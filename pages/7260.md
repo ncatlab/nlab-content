@@ -60,6 +60,8 @@ In any case, as far as the _observable_ universe is concerned, two facts are wor
 
     * [[dark matter]]
 
+  * [[structure formation]]
+
 * [[quantum cosmology]]
 
 * [[particle physics]], [[standard model of particle physics]]
@@ -81,7 +83,7 @@ A visualization of the big observable structures in the universe, drawn to scale
 
 * {#VisObservableUniverse} American Museum of Natural History, _The known universe_ ([video](https://www.youtube.com/watch?v=17jymDn0W6U#t=374))
 
-A simulation of these is at
+A simulation of the [[structure formation]] (see there for more) of these is at
 
 * _[The Millennium Simulation Project](http://www.mpa-garching.mpg.de/galform/virgo/millennium/)_
 
