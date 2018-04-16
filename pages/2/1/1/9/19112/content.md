@@ -9,6 +9,8 @@ A *protocategory* is a way to present a [[category]] that makes formal the idea 
 
 As compared to the definition of category with one set of objects and one set of morphisms, a protocategory removes the requirement that each morphism have a unique source and target.  As compared to the definition of category with separate hom-sets $\hom(A,B)$ for each pair of objects, a protocategory requires all these homsets to be (not necessarily disjoint) subsets of one set of all "protomorphisms".
 
+It is important to recognize, however, that unlike those two definitions of category, a protocategory is *not* a definition of a category.  It retains information about "which morphisms in distinct hom-sets are 'equal'", which is not relevant category-theoretic information: in a true category it is never 'meaningful' to compare two morphisms for equality unless one already knows for other reasons that their domains and codomains coincide.  A protocategory is rather a way of *presenting* a category, analogous to a [[group presentation]], formalizing the fact that in some cases morphisms in different hom-sets can be "equal" until we "forget about that fact" in a structured way.
+
 ## Definition
 
 A **protocategory** consists of:
@@ -31,6 +33,17 @@ satisfying the axioms
 * Let the objects be [[groups]], let the protomorphisms be [[functions]], and say that $f:G\to H$ when $f$ is a function between the underlying sets of $G$ and $H$ that is a group homomorphism.  This protocategory generates the category [[Grp]].
 
 * Any category can be presented by a protocategory in a trivial way, by taking the protomorphisms to be the [[disjoint union]] of all the sets of morphisms (i.e. the set $C_1$ in the one-set-of-morphisms definition of category), with the source-target relation being simply a function from protomorphisms to pairs of objects.
+
++--{: .un_remark}
+###### Remark
+It may seem that, at least in a [[material set theory]], we should be able to modify the previous example by taking a *non-disjoint* union of the sets of morphisms (assuming given a category in the many-sets-of-morphisms definition).  However, this is not true, because the composition predicate in a protocategory makes no reference to objects.  For example, consider the following category:
+
+* objects $0,1,2,0',1',2'$
+* $\hom(0,1) = \hom(0',1') = \{f\}$, $\hom(1,2)=\hom(1',2')=\{g\}$, $\hom(0,2)=\hom(0',2')=\{h,h'\}$, no other nonidentity morphisms, all identity morphisms distinct
+* $g\circ_{0,1,2} f = h$ and $g\circ_{0',1',2'} f = h'$.
+
+Then if we take unions of homsets we have $g\circ f = h$ and also $g\circ f = h'$, but then the protocategory composition axiom fails: we have $f:0\to 1$ and $g:1\to 2$, but there does not exist a *unique* $k$ such that $k:0\to 2$ and $g \circ f = k$.
+=--
 
 ## References
 
