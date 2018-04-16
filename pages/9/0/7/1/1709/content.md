@@ -427,7 +427,7 @@ See also at _[∞-group of units -- augmented definition](infinity-group+of+unit
 
 ### twisted K-theory 
 
-In the context of [[generalized (Eilenberg?Steenrod) cohomology]] a coefficient object for [[cohomology]] is a [[spectrum]] $A$: the $A$-cohomology of a [[topological space]] $X$ with coefficients in $A$ is the set of homotopy classes of maps $X \to A$. For instance, as a model of the degree-$0$ space in the [[K-theory spectrum]] one can take $A = Fred(H)$, the space of Fredholm operators on a separable Hilbert space $H$. There is a canonical action on this space of the projective unitary group $G = P U(H)$ of $H$. Since $P U(H)$ has the homotopy type of an [[Eilenberg?Mac Lane space]] $K(\mathbb{Z},2)$, a $P U(H)$-[[principal bundle]] $P \to X$ defines a class $c \in H^3(X,\mathbb{Z})$ in [[Eilenberg-MacLane spectrum|ordinary integral cohomology]] (this may also be thought of as the class of a twisting [[bundle gerbe]]). The twisted K-theory (in degree $0$) of $X$ with that class as its twist is the set of homotopy classes of sections $X \to P \times_{P U(H)} Fred(H)$ of the associated bundle. 
+In the context of [[generalized (Eilenberg-Steenrod) cohomology]] a coefficient object for [[cohomology]] is a [[spectrum]] $A$: the $A$-cohomology of a [[topological space]] $X$ with coefficients in $A$ is the set of homotopy classes of maps $X \to A$. For instance, as a model of the degree-$0$ space in the [[K-theory spectrum]] one can take $A = Fred(H)$, the space of Fredholm operators on a separable Hilbert space $H$. There is a canonical action on this space of the projective unitary group $G = P U(H)$ of $H$. Since $P U(H)$ has the homotopy type of an [[Eilenberg-Mac Lane space]] $K(\mathbb{Z},2)$, a $P U(H)$-[[principal bundle]] $P \to X$ defines a class $c \in H^3(X,\mathbb{Z})$ in [[Eilenberg-MacLane spectrum|ordinary integral cohomology]] (this may also be thought of as the class of a twisting [[bundle gerbe]]). The twisted K-theory (in degree $0$) of $X$ with that class as its twist is the set of homotopy classes of sections $X \to P \times_{P U(H)} Fred(H)$ of the associated bundle. 
 
 
 ### $G$-Actions on spectra  
@@ -440,7 +440,7 @@ The above example generalizes straightforwardly to the case that
 
 * a $G$-[[principal bundle]] $P \to X.$ 
 
-In this case there is an established definition of [[generalized (Eilenberg?Steenrod) cohomology]] with coefficients $A$ _twisted_ by a $G$-[[principal bundle]] as follows.
+In this case there is an established definition of [[generalized (Eilenberg-Steenrod) cohomology]] with coefficients $A$ _twisted_ by a $G$-[[principal bundle]] as follows.
 
 From the $G$-[[principal bundle]] $P \to X$ we obtain the associated $A$-bundle $P \times_G A \to X$. Then a twisted $A$-cocycle on $X$ is defined to be a [[section]] $X \to P \times_G A$ of this associated bundle. The collection of homotopy classes of these sections is the _twisted $A$-cohomology of $X$_ with the twist specified by the class of $P$.
 
@@ -484,7 +484,7 @@ Read the other way round it says:
 +-- {: .num_remark}
 ###### Remark
 
-Since the associated bundle $P \times_G A$ is in general no longer itself a spectrum, twisted cohomology is not an example of [[generalized (Eilenberg-Steenrod) cohomology|generalized Eilenberg?Steenrod cohomology]]. 
+Since the associated bundle $P \times_G A$ is in general no longer itself a spectrum, twisted cohomology is not an example of [[generalized (Eilenberg-Steenrod) cohomology|generalized Eilenberg-Steenrod cohomology]]. 
 
 To stay within the spectrum point of view, May&#8211;Sigurdsson suggested that twisted cohomology should instead be formalized in terms of _[[parameterized homotopy theory]]_, where one thinks of $P \times_G A$ as a [[parameterized spectrum|parameterized family of spectra]]. 
 
