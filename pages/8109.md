@@ -188,6 +188,10 @@ February 1999, Volume 135, Issue 3, pp 743-788 ([pdf](http://hopf.math.purdue.ed
 
 * [[Nicholas Kuhn]], _Goodwillie towers and chromatic homotopy: an overview_, Geom. Topol. Monogr. 10 (2007) 245-279 ([arXiv:math/0410342](http://arxiv.org/abs/math/0410342))
 
+Categorical [[ultraproducts]] are used to provide asymptotic approximations in
+
+* Tobias Barthel, Tomer Schlank, Nathaniel Stapleton, _Chromatic homotopy theory is asymptotically algebraic_, ([arXiv:1711.00844](https://arxiv.org/abs/1711.00844))
+
 [[!redirects chromatic level]]
 [[!redirects chromatic filtration]]
 [[!redirects chromatic levels]]
