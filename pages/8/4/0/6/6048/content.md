@@ -169,6 +169,12 @@ Its regularity throught the [[event horizon]] is due to
 
 * {#DuffGibbonsTownsend94} [[Mike Duff]], [[Gary Gibbons]], [[Paul Townsend]], _Macroscopic superstrings as interpolating solitons_, Phys.Lett.B332:321-328,1994 ([arXiv:hep-th/9405124](https://arxiv.org/abs/hep-th/9405124))
 
+The [[Horava-Witten theory|Horava-Witten]]-[[orientifold]] of the black M2, supposedly yielding the [[black brane|black]] [[heterotic string]] is discussed in
+
+* {#LalakLukasOvrut97} Zygmunt Lalak, Andr&eacute; Lukas, [[Burt Ovrut]], _Soliton Solutions of M-theory on an Orbifold_, Phys. Lett. B425 (1998) 59-70 ([arXiv:hep-th/9709214](https://arxiv.org/abs/hep-th/9709214))
+
+* {#Kashima00} Ken Kashima, _The M2-brane Solution of Heterotic M-theory with the Gauss-Bonnet $R^2$ terms_, Prog.Theor.Phys. 105 (2001) 301-321 ([arXiv:hep-th/0010286](https://arxiv.org/abs/hep-th/0010286))
+
 
 Meanwhile [[AdS-CFT duality]] was recognized in 
 
