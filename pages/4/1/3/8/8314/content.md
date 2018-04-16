@@ -118,6 +118,11 @@ See at _[[finite abelian group]]_ for details.
 
 *  {#Gallian10} Joseph A. Gallian, _Fundamental Theorem of Cyclic Groups_, Contemporary Abstract Algebra, p. 77, (2010)
 
+Discussion of the cyclic group in the context of the [[classification of finite rotation groups]]:
+
+* {#Klein1884} [[Felix Klein]], chapter I.3 of _Vorlesungen über das Ikosaeder und die Auflösung der Gleichungen vom fünften Grade_, 1884, translated as _Lectures on the Icosahedron and the Resolution of Equations of Degree Five_ by George Morrice 1888, [online version](https://archive.org/details/cu31924059413439)
+
+
 [[!redirects cyclic group]]
 [[!redirects cyclic groups]]
 
