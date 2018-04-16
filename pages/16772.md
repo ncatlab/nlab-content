@@ -39,11 +39,19 @@ The [[group cohomology]] of the dihedral group is discussed for instance at [Gro
 
 ## References
 
+Discussion in the context of the [[classification of finite rotation groups]] goes back to 
+
+* {#Klein1884} [[Felix Klein]], chapter I.4 of _Vorlesungen über das Ikosaeder und die Auflösung der Gleichungen vom fünften Grade_, 1884, translated as _Lectures on the Icosahedron and the Resolution of Equations of Degree Five_ by George Morrice 1888, [online version](https://archive.org/details/cu31924059413439)
+
+Discussion in the context of [[equivariant cohomology theory]]: 
+
+* {#Greenless01} [[John Greenlees]], _Rational SO(3)-Equivariant Cohomology Theories_, in _Homotopy methods in algebraic topology_ (Boulder, CO, 1999), Contemp. Math. 271, Amer. Math. Soc. (2001) 99 ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.36.5444))
+
+See also
+
 * Wikipedia, _[Dihedral group](https://en.wikipedia.org/wiki/Dihedral_group)_
 
 * {#Groupprops} Groupprops, _[Group cohomology of dihedral group:D8](http://groupprops.subwiki.org/wiki/Group_cohomology_of_dihedral_group:D8)_
-
-* {#Greenless01} [[John Greenlees]], _Rational SO(3)-Equivariant Cohomology Theories_, in _Homotopy methods in algebraic topology_ (Boulder, CO, 1999), Contemp. Math. 271, Amer. Math. Soc. (2001) 99 ([web](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.36.5444))
 
 
 [[!redirects dihedral groups]]
