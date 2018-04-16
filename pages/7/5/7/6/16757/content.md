@@ -50,7 +50,7 @@ Original articles include
 
 Textbook accounts include
 
-* Alan H. Durfee, _Fifteen characterizations of rational double points and simple critical points_, L'Enseignement Mathématique Volume: 25 (1979) ([doi:10.5169/seals-50375](http://dx.doi.org/10.5169/seals-50375), [pdf](http://www.maths.ed.ac.uk/~v1ranick/papers/durfee15.pdf))
+* {#Durfee79} Alan H. Durfee, _Fifteen characterizations of rational double points and simple critical points_, L'Enseignement Mathématique Volume: 25 (1979) ([doi:10.5169/seals-50375](http://dx.doi.org/10.5169/seals-50375), [pdf](http://www.maths.ed.ac.uk/~v1ranick/papers/durfee15.pdf))
 
 * {#Slodowy80} [[Peter Slodowy]], _Simple singularities and simple algebraic groups_, in Lecture Notes in Mathematics 815, Springer, Berlin, 1980.
 
