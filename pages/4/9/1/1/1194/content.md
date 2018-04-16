@@ -553,6 +553,8 @@ The following particular type theories are important enough to (potentially) hav
 
   * [[linear type theory]]
 
+  * [[two-level type theory]]
+
   * [[canonical form]], [[normal form]], [[beta-reduction]]
 
   * [[Bishop set]], [[predicative topos]]
