@@ -92,6 +92,9 @@ For a little bit about the [[group cohomology]] (or at least the homology) of th
 
 ## References
 
+* {#Klein1884} [[Felix Klein]], chapter I.8 of _Vorlesungen über das Ikosaeder und die Auflösung der Gleichungen vom fünften Grade_, 1884, translated as _Lectures on the Icosahedron and the Resolution of Equations of Degree Five_ by George Morrice 1888, [online version](https://archive.org/details/cu31924059413439)
+
+
 * Wikipedia, _[Icosahedral symmetry](https://en.wikipedia.org/wiki/Icosahedral_symmetry)_
 
 * {#Groupprops} Groupprops, _[Alternating group:A5](http://groupprops.subwiki.org/wiki/Alternating_group:A5)_ _[Group cohomology of algebrating group:A5](http://groupprops.subwiki.org/wiki/Group_cohomology_of_alternating_group:A5)_
