@@ -30,6 +30,8 @@
 
 **Two-level type theory** is a version of [[Martin-Lof type theory]] which is able to combine two type theories. Currently, existing two-level theories take one level as [[homotopy type theory]], which may include univalent universes and higher inductive types, and the second level as a traditional form of type theory validating [[uniqueness of identity proofs]]. The second layer may be understood as the internalised meta-theory of the first. 
 
+Much of the work here is influenced by Voevodsky's [[Homotopy Type System]].
+
 ##References
 
 * Thorsten Altenkirch, Paolo Capriotti, Nicolai Kraus, _Extending Homotopy Type Theory with Strict Equality_, ([ arXiv:1604.03799](https://arxiv.org/abs/1604.03799))
