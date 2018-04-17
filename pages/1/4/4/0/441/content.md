@@ -30,7 +30,7 @@ be the standard simplicial $n$-[[simplex]] in [[SimpSet]].
 +-- {: .num_defn #Horn}
 ###### Definition
 
-For each $i$, $0 \leq i \leq n$, the **$(n,i)$-horn** or **$(n,i)$-box** 
+For all $n,i$ with $n\geq 1$ and $0\leq i \leq n$, the **$(n,i)$-horn** or **$(n,i)$-box** 
 is the subsimplicial set 
 
 $$
