@@ -79,6 +79,8 @@ I didn't check all the details but it does seem to be the case that "structure" 
 
 [[Mike Shulman]]: In case anyone is following this, Daniel has come up with what seems to be the right answer to this question; I'm hoping that eventually he will write about it here.
 
+[[Aron Fischer]]: I'm interested in this too. Who is Daniel? or rather: Hi Daniel! can you write up your answer please? ;)
+
 ## Related pages
 
 * [[monadic functor]]
