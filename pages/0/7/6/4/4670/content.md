@@ -1,4 +1,16 @@
 
+
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+=--
+=--
+
+
 # Trivial algebras
 * table of contents
 {: toc}
@@ -17,3 +29,5 @@ Every [[algebraic category]] (in just about any sense of the term) has a [[termi
 *  The $0$-dimensional vector space is the trivial [[vector space]].
 *  The [[trivial Lie algebra]] is the trivial [[Lie algebra]].
 *  The [[trivial category]] is the trivial [[strict category]].
+
+[[!redirects trivial algebras]]
