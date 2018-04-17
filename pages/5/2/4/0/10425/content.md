@@ -24,9 +24,9 @@
 
 ## Idea
 
-_Geometric type theory_ refers to the [[extensional type theory|extensional]] [[dependent type theory|dependent]] [[type theory]] refinement of [[geometric logic]], hence to the type theory given under the [[relation between category theory and type theory]] by [[sheaf toposes]], at least in far as it is preserved by [[geometric morphisms]].
+_Geometric type theory_ is a conjectural extension of [[geometric logic]] to  an [[extensional type theory|extensional]] [[dependent type theory|dependent]] [[type theory]].  That is, it is supposed to be a dependent type theory which under the [[relation between category theory and type theory]] corresponds to [[sheaf toposes]], and is preserved by [[geometric morphisms]].
 
-The [[types]] in geometric type theory are hence _geometric types_, with [[semantics]] given by [[sheaves]]. This is pretty close to common language usage once one generalizes to _[[geometric homotopy types]]_. 
+At present it is not clear exactly how such a type theory should be defined.
 
 ## Related concepts
 
