@@ -106,6 +106,11 @@ The semantics of ! as a comonad is discussed in:
  
 
 * {#Mellies09} [[Paul-André Melliès]], *Categorical semantics of linear logic*, 2009. [pdf](https://www.irif.fr/~mellies/papers/panorama.pdf)
+
+
+
+* [[Martin Hyland]] and [[Andreas Schalk]], _Glueing and orthogonality for models of linear logic_, [pdf](http://www.cs.man.ac.uk/~schalk/publ/gomll.pdf)
+ {#HylandSchalk01}
  
 
 The relation to Fock space is discussed in:
