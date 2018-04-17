@@ -12,6 +12,6 @@ The [[action]] of a [[special orthogonal group]] $SO(d)$.
 
 * [[rigid body dynamics]]
 
-* [[translation]], [[boost]]
+* [[translation]], [[reflection]], [[boost]]
 
 [[!redirects rotations]]
