@@ -72,7 +72,7 @@ The following is a slightly generalized version of Corollary 3.4 from [CHK](#CHK
 
 +-- {: .num_theorem}
 ###### Theorem
-Suppose that $C$ is finitely complete and $M$-complete for some factorization system $(E,M)$, where $M$ consists of [[monomorphisms]] and contains the [[split monomorphism|split monics]].  Then any reflective prefactorization system on $C$ is a factorization system.
+Suppose that $C$ is finitely complete and [[M-complete category|M-complete]] for some factorization system $(E,M)$, where $M$ consists of [[monomorphisms]] and contains the [[split monomorphism|split monics]].  Then any reflective prefactorization system on $C$ is a factorization system.
 =--
 +-- {: .proof}
 ###### Proof
