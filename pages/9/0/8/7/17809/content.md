@@ -4526,11 +4526,11 @@ The statement is Prop. \ref{PinGroupRepresentationOnMajoranaSpinors} below. We n
   \Gamma_a^T C = - C \Gamma_a
 \]
 
-**Majorana condition.** From [Prop. 2.29](#TheMajoranaConditionInComponents) we have that the Majroana condition on $\psi$ is equivalent to
+**Majorana condition.** From [Prop. 2.29](#TheMajoranaConditionInComponents) we have that the Majorana condition on $\psi$ is equivalent to
 
 \[
   \label{MajoranaCondition}
-  C \Gamma_a = - \Gamma_a^T C
+  \psi^\dagger \Gamma_0 = \psi^t C
 \]
 
 +-- {: .num_prop #PinGroupRepresentationOnMajoranaSpinors}
