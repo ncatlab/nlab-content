@@ -27,6 +27,8 @@ For $G$ a [[group]] and $H \hookrightarrow G$ a [[normal subgroup]], the [[quoti
 
 * For $A \hookrightarrow B$ a morphism between [[abelian groups]] the quotient $B/A$ is equivalently the [[cokernel]] of the inclusion.
 
+* The quotient groups of any group by itself is the [[trivial group]]: $G/G = 1$.
+
 ## Related concepts
 
 * [[quotient module]]
