@@ -58,7 +58,7 @@ See the [latest changes](http://www.math.ntnu.no/~stacey/Mathforge/nForum/?Categ
 
 ## Forwarding your blog comment to the $n$Lab
 
-Chances are that you are already familiar with discussions and with posting comments at the [n-Cafe](http://golem.ph.utexas.edu/category/). This section describes how you forward material from a blog comment to the $n$Lab. 
+You might already be familiar with discussions and with posting comments at the [n-Cafe](http://golem.ph.utexas.edu/category/). This section describes how you forward material from a blog comment to the $n$Lab. 
 
 
 After you typed your blog comment into the [n-Cafe](http://golem.ph.utexas.edu/category/) comment edit box and **before** you hit submit copy the **source code** of the comment: the text that you just typed.
