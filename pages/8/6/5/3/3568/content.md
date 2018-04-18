@@ -9,6 +9,8 @@ I've got tenured at [G&#246;ttingen](http://www.uni-math.gwdg.de/zhu) (since 201
 ***
 **Courses/Seminars** (upper levels):
 
+[[Summer 2018 math problem solving]]
+
 [[Winter 2017-2018 seminar on higher structures (Higher Lie Groupoids)]]
 
 [[Winter 2016-2017 seminar on higher structures]]
