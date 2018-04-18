@@ -5676,7 +5676,7 @@ Discussion specifically of (real, [[Majorana representation|Majorana]]) [[spin r
 
 * {#CastellaniDAuriaFre} [[Leonardo Castellani]], [[Riccardo D'Auria]], [[Pietro Fré]], section II.7.3 of _[[Supergravity and Superstrings - A Geometric Perspective]]_, World Scientific (1991)
 
-* {#FigueroaOFarrill} [[José Figueroa-O?Farrill]], _Majorana spinors_ ([pdf](http://www.maths.ed.ac.uk/~jmf/Teaching/Lectures/Majorana.pdf))
+* {#FigueroaOFarrill} [[José Figueroa-O'Farrill]], _Majorana spinors_ ([pdf](http://www.maths.ed.ac.uk/~jmf/Teaching/Lectures/Majorana.pdf))
 
 
 The relation between [[supersymmetry and division algebras]] was gradually established by a variety of authors, including
