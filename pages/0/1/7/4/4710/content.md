@@ -1,5 +1,5 @@
 
-> For special kinds of units see also _[[unit of an adjunction]]_ and _[[unit of a monad]]_. Different (but related) is _[[physical unit]]_.
+> Not to be confused with [[neutral element]]. For special kinds of units see also _[[unit of an adjunction]]_ and _[[unit of a monad]]_. Different (but related) is _[[physical unit]]_. 
 
 ****
 
