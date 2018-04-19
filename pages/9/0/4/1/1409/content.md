@@ -29,6 +29,8 @@ More generally, in any [[concrete category]], the identity morphism of each obje
 
 ## Related concepts
 
+* [[neutral element]]
+
 * [[identity type]]
 
 * [[identity functor]]
