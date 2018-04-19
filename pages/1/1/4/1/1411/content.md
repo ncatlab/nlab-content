@@ -21,6 +21,8 @@ If $*\colon Y \times X \to Y$, then there is a similar concept of __right identi
 
 If $*\colon X \times X \to X$, then $e$ is a __two-sided identity__, or simply __identity__, if it is both a left and right identity.
 
+Identity elements are sometimes also called __neutral elements__.
+
 
 ## Related notions
 
@@ -46,6 +48,9 @@ Similarly, a __unit law__ is the statement that a given operation has an identit
 
 [[!redirects identity element]]
 [[!redirects identity elements]]
+
+[[!redirects neutral element]]
+[[!redirects neutral elements]]
 
 [[!redirects unital operation]]
 [[!redirects unital operations]]
