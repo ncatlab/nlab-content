@@ -27,6 +27,11 @@ The fact that associated graded algebra is isomorphic to the symmetric algebra i
 
 The notions of Lie algebra, symmetric algebra, enveloping algebra, etc. can also be formulated in the context of a $k$-linear [[tensor category]] (with finite direct sums and split idempotents, and also with countable coproducts over which the tensor product distributes in case one wants to work with ungraded objects), and the PBW theorem remains valid in that context. In particular, the PBW theorem may be formulated and proven for [[superalgebra|super Lie algebras]]. Details may be found in [Deligne-Morgan](#DM).  
 
+## Abstract framework
+
+An abstract framework for the Poincar\'e-Birkhoff-Witt theorem in the setting of [[natural transformations]] of [[monads]]
+was developed by Dotsenko and Tamaroff.
+
 ## Related concepts
 
 * [[Lie-Poisson structure]]
@@ -42,6 +47,11 @@ The notions of Lie algebra, symmetric algebra, enveloping algebra, etc. can also
 {#DM}
 
 * Pierre-Paul Grivel, _Une histoire du th&#233;or&#232;me de Poincar&#233;-Birkhoff-Witt_, Expo. Math. __22__ (2004), no. 2, 145&#8211;184 [MR2005b:17024](http://www.ams.org/mathscinet-getitem?mr=2056653) <a href="http://dx.doi.org/10.1016/S0723-0869(04)80010-0">doi</a>
+
+* Vladimir Dotsenko, Pedro Tamaroff,
+_Endofunctors and Poincaré-Birkhoff-Witt theorems_,
+[arXiv:1804.06485](https://arxiv.org/abs/1804.06485).
+
 
 [[!redirects Poincaré–Birkhoff–Witt theorem]]
 [[!redirects Poincare-Birkhoff-Witt theorem]] 
