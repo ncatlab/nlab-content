@@ -204,6 +204,7 @@ The logic described above is full classical linear logic.  There are many import
 
 One can also consider adding additional rules to linear logic.  For instance, by adding the [[weakening rule]] (but not the [[contraction rule]]) one obtains [[affine logic]], whereas by adding contraction but not weakening one obtains [[relevance logic]].  Another rule that is sometimes considered is the [[mix rule]].
 
+[[linear-non-linear logic |Linear-non-linear logic]] is an equivalent presentation of intuitionistic linear logic that decomposes the $!$ modality into an adjunction between a cartesian logic and a linear one in which cartesian variables can also appear.
 
 ## Categorial semantics
 
