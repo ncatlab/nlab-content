@@ -418,7 +418,7 @@ An application in computer science:
 
 Formalization in [[homotopy type theory]]:
 
-* [[Brent Yorgey]], _Combinatorial Species and labelled structures._ ([pdf](http://www.cis.upenn.edu/~byorgey/hosted/thesis.pdf))
+* [[Brent Yorgey]], _Combinatorial Species and labelled structures._ ([pdf](http://ozark.hendrix.edu/~yorgey/pub/thesis.pdf))
 
 * {#Dougherty15} [[John Dougherty]], _Species in HoTT_ ([pdf](https://github.com/jdoughertyii/hott-species/blob/master/species.pdf?raw=true)) ([formalization in Coq](https://github.com/jdoughertyii/hott-species))
 
