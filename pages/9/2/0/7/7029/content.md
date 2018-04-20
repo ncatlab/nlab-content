@@ -37,6 +37,7 @@ A free action that is also [[transitive action|transitive]] is called _[[regular
 
 * For any set $X$ equipped with a [[transitive action]] $* : G \times X \to X$, the group $Aut_G(X)$ of $G$-equivariant automorphisms of $X$ (i.e., [[bijections]] $\phi : X \to X$ commuting with the action of $G$) acts freely on $X$.  In particular, suppose $\phi \in Aut_G(X)$ is such that $\phi(x) = x$ for some $x\in X$, and let $y\in X$ be arbitrary.  By the assumption that $G$ acts transitively, there is a $g \in G$ such that $y = g*x$. But then $G$-equivariance implies that $\phi(y) = \phi(g*x) = g*\phi(x) = g*x = y$. Since this holds for all $y\in Y$, $\phi$ must be equal to the identity $\phi = id_X$, and therefore $Aut_G(X)$ acts freely on $X$.
 
+* A [[combinatorial species]] $F : \mathbb{P} \to Set$ is said to be _flat_ if all of the actions $S_n \times F(n) \to F(n)$ are free (see [[Combinatorial species and tree-like structures]]). For example, the species of [[linear orders]] is flat.
 
 ## Related concepts
 
