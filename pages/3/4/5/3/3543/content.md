@@ -256,3 +256,6 @@ Around definition 1.4 in
 * {#Bauer11} [[Tilman Bauer]], _Bousfield localization and the Hasse square_ (2011) ([pdf](http://math.mit.edu/conferences/talbot/2007/tmfproc/Chapter09/bauer.pdf))
 
 [[!redirects rationalizations]]
+
+[[!redirects rationalisation]]
+[[!redirects rationalisations]]
