@@ -155,6 +155,8 @@ There is a [[strict 2-category]] BrMonCat with:
 
   The maps $x \otimes y \mapsto u y \otimes x$ define a braiding on the monoidal category of (ungraded) modules only if $u = 1$.
 
+* The category of [[crossed G-set|crossed G-sets]].
+
 ## Properties
 
 ### Tannaka duality
