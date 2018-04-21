@@ -23,7 +23,7 @@
 
 ## Idea
 
-For $p$ a [[prime number]], givem $n \in \mathbb{N}$ write $K(n)$ for the coresponding [[Morava K-theory]] [[spectrum]] and write $L_{K(n)}(-)$ for [[K(n)-local spectrum|K(n)-localization]] of spectra.
+For $p$ a [[prime number]], given $n \in \mathbb{N}$ write $K(n)$ for the coresponding [[Morava K-theory]] [[spectrum]] and write $L_{K(n)}(-)$ for [[K(n)-local spectrum|K(n)-localization]] of spectra.
 
 The _Bousfield-Kuhn functor_ $\Phi$ is a [[functor]] from [[pointed object|pointed]] [[homotopy types]] to [[spectra]]
 
