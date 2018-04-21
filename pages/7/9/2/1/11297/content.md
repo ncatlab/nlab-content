@@ -27,7 +27,7 @@
 
 ## Idea
 
-The _Stolz conjecture_ (also: Stolz-[[Gerald Höhn|Höhn]] conjecture) due to ([Stolz 96](#Stolz96)) asserts that if $X$ is a [[closed manifold]] with [[String structure]] which furthermore admits a [[Riemannian metric]] with [[positive number|positive]] [[Ricci curvature]], then its Witten genus 
+The _Stolz conjecture_ (also: Stolz-[[Gerald Höhn|Höhn]] conjecture) due to ([Stolz 96](#Stolz96)) asserts that if $X$ is a [[closed manifold]] with [[String structure]] which furthermore admits a [[Riemannian metric]] with [[positive number|positive]] [[Ricci curvature]], then its [[Witten genus]]
 vanishes.
 
 See ([Dessai](#Dessai)) for a review.
