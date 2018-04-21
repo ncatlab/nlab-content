@@ -49,4 +49,6 @@ The braiding of crossed $G$-sets gives rise, together with the monoidal structur
 
 ##References
 
+* [[Peter Freyd]] and [[David Yetter]], _Braided compact closed categories with applications to low dimensional topology_, Adv. Math. **77** (1989), 156--182. (Section 4.2)
+
 * [[André Joyal]] and [[Ross Street]], _Braided tensor categories_ , Adv. Math. **102** (1993), 20--78.  (Example 5.1)
