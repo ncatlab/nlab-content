@@ -240,7 +240,7 @@ This is a contradiction, because convergence of $\int_1^\infty \; \frac{\theta(t
 
 Similarly, if we suppose that for some $\lambda \lt 1$ there exist arbitrarily large $x$ such that $\theta(x) \leq \lambda x$, then 
 
-$$\int_{\lambda x}^x \; \frac{\theta(t) - t}{t}\; \frac{d t}{t} \leq \int_x^{\lambda x} \; \frac{\lambda x - t}{t}\; \frac{d t}{t} = \int_\lambda^1 \; \frac{\lambda x - t x}{t x} \; \frac{d t}{t} = \int_\lambda^1 \; \frac{\lambda - t}{t^2}\; d t \lt 0$$ 
+$$\int_{\lambda x}^x \; \frac{\theta(t) - t}{t}\; \frac{d t}{t} \leq \int_{\lambda x}^x \; \frac{\lambda x - t}{t}\; \frac{d t}{t} = \int_\lambda^1 \; \frac{\lambda x - t x}{t x} \; \frac{d t}{t} = \int_\lambda^1 \; \frac{\lambda - t}{t^2}\; d t \lt 0$$ 
 
 which again leads to a contradiction. 
 =--  
