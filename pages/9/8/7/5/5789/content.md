@@ -85,6 +85,7 @@ One way to make this rigorously precise would be to realize the [[Dirac-Ramond o
  {#References}
 
 ### General
+  {#ReferencesGeneral}
 
 A fairly comprehensive survey and discussion of supersymmetric quantum mechanics as such, with emphasis on its relation to [[spectral geometry]] ("[[noncommutative geometry]]") is in
 
