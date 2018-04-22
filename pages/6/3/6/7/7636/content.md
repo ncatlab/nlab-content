@@ -84,7 +84,7 @@ $$
 
 We discuss here how [[dependent type theory]] is the syntax of which [[locally cartesian closed categories]] provide the [[semantics]]. For a dedicated discussion of this (and the subtle [[coherence]] issues involved) see also at _[[categorical model of dependent types]]_.
 
-+-- {: .num_theorem}
++-- {: .num_theorem #SeelyEquivalence}
 ###### Theorem
 
 There are [[2-functors]] 
