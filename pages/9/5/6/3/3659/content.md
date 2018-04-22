@@ -72,6 +72,12 @@ $$
 $\phi_E$ is a Schwinger function, $\phi_M$ is a Wightman field and $\Omega$ is the vacuum vector of the Wightman fields.
 See theorem 6.15 in the book by Glimm and Jaffe (see references).
 
+## Related theorems
+
+* [[Reeh-Schlieder theorem]]
+
+* [[spin-statistics theorem]]
+
 ## references
 The main reference is the classic textbook about [[constructive quantum field theory]]:
 
