@@ -25,8 +25,9 @@
 
 There is an observation by [Ho&#345;ava--Witten 95](#HoravaWitten95), [Ho&#345;ava--Witten 96](#HoravaWitten96) which suggests that [[M-theory]] on an  [[cyclic group of order 2|Z/2]]-[[orbifold]] (actually a [[higher orientifold]]) of the form $X_{10} \times (S^1 \slash \mathbb{Z}_2))$ in "[[duality in string theory|dual]]" to [[heterotic string theory]] on its [[boundary]] ([[fixed point]]) "[[M9-brane]]". Therefore one also speaks of "heterotic [[M-theory]]" ([Ovrut 02](#Ovrut02)). 
 
-<img src="https://ncatlab.org/nlab/files/M2BraneEndingOnM9.jpg">
-
+<center>
+<img src="https://ncatlab.org/nlab/files/M2BraneEndingOnM9.jpg" width="500">
+</center>
 
 > from [Kashima 00](#Kashima00)
 
@@ -34,7 +35,28 @@ In the above the circle factor is taken to be the [[circle]] [[fiber]] over the 
 
 More in detail:
 
-One considers the [[KK-compactification]] of [[M-theory]] on a [[cyclic group of order 2|Z/2]]-[[orbifold]] of a [[torus]], hence of the [[Cartesian product]] of two [[circles]] $S^1_A \times S^1_B$, such that the reduction on the first factor $S^1_A$ corresponds to the [[duality between M-theory and type IIA string theory]], hence so that subsequent [[T-duality]] along the second factor yields [[type IIA string theory]] (in its [[F-theory]]-incarnation).
+One considers the [[KK-compactification]] of [[M-theory]] on a [[cyclic group of order 2|Z/2]]-[[orbifold]] of a [[torus]], hence of the [[Cartesian product]] of two [[circles]] 
+
+$$  
+  \array{
+    & S^1_A &\times& S^1_B
+    \\
+    \text{radius}: &  R_{11} && R_{10}
+  }
+$$
+
+such that the reduction on the first factor $S^1_A$ corresponds to the [[duality between M-theory and type IIA string theory]], hence so that subsequent [[T-duality]] along the second factor yields [[type IIA string theory]] (in its [[F-theory]]-incarnation). Now the diffeomorphism which exchanges the two circle factors and hence should be a symmetry of M-theory is interpreted as [[S-duality]] in [[type II string theory]]:
+
+$$
+  IIB \overset{S}{\leftrightarrow} IIB
+$$
+
+<center>
+<img src="https://ncatlab.org/nlab/files/HoaravaWittenCompactifications.jpg" width="500">  
+</center>
+
+
+> graphics taken from [Horava-Witten 95, p. 15](#HoravaWitten95) 
 
 If one considers this situation additionally with a $\mathbb{Z}/2\mathbb{Z}$-[[orbifold]] quotient of the first circle factor, one obtains the [[duality between M-theory and heterotic string theory]] ([[Horava-Witten theory]]). If instead one performs it on the second circle factor, one obtains [[type I string theory]].
 
@@ -49,6 +71,8 @@ M-theory on
 * $S^1_A \times \left( S^1_B \sslash \mathbb{Z}_2 \right)$ yields [[type I string theory]]
 
 Hence the [[S-duality]] that swaps the two circle factors corresponds to _[[duality between type I and heterotic string theory]]_. 
+
+
 
 $$
   \array{
@@ -67,6 +91,13 @@ $$
      I
   }
 $$
+
+<center>
+<img src="https://ncatlab.org/nlab/files/HoravaWittenCompactificationsII.jpg" width="500">  
+</center>
+
+> graphics taken from [Horava-Witten 95, p. 16](#HoravaWitten95) 
+
 
 ### Duality between M-theory and heterotic string theory
 
