@@ -81,6 +81,7 @@ So far the following volumes have been retyped:
 [Part 1](http://www.math.polytechnique.fr/~laszlo/sga4/SGA4-1/sga41.pdf),
 [Part 2](http://www.math.polytechnique.fr/~laszlo/sga4/SGA4-2/sga42.pdf),
 [Part 3](http://www.math.polytechnique.fr/~laszlo/sga4/SGA4-3/sga43.pdf).
+- [SGA $4{1\over2}$](https://github.com/dkmiller/sga4.5) - Edited by Daniel Miller.
 
 ##References
 
