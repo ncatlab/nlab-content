@@ -106,6 +106,8 @@ See also at _[[torsion constraints in supergravity]]_.
 
 ## Related concepts
 
+* [[E-string]]
+
 * [[string theory]]
 
   * **heterotic string theory**
