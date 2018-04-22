@@ -144,13 +144,13 @@ If in addition the [[black brane|black]] [[NS5-brane]] sits at an [[O8-plane]], 
 
 (In [Hanany-Zaffaroni 99](#HananyZaffaroni99) this is interpreted in terms of the [['t Hooft-Polyakov monopole]].)
 
-{#LiftToMTheortyOfNS5Halfbrane} The lift to [[M-theory]] of this situation is an [[M5-brane]] intersecting an [[M9-brane]]:
+{#LiftToMTheortyOfNS5Halfbrane} The lift to [[M-theory]] of this situation is an [[M5-brane]] [[brane intersection|intersecting]] an [[M9-brane]]:
 
 <img src="https://ncatlab.org/nlab/files/M9KK6Intersection.jpg" width="650"/>
 
 > from [GKSTY 02](#GKSTY02)
 
-Alternatively the [[O8-plane]] may intersect the [[black brane|black]] [[D6-branes]] away from the [[black brane|black]] [[NS5-brane]]:
+Alternatively the [[O8-plane]] may [[brane intersection|intersect]] the [[black brane|black]] [[D6-branes]] away from the [[black brane|black]] [[NS5-brane]]:
 
 <img src="https://ncatlab.org/nlab/files/D6D8Intersection.jpg" width="650"/>
 
@@ -216,7 +216,7 @@ The 5-brane in [[heterotic string theory]] was found as a [[black brane]] in
 
 * Marco Cariglia, [[Kurt Lechner]], _NS5-branes in IIA supergravity and gravitational anomalies_ ([arXiv:hep-th/0203238](http://arxiv.org/abs/hep-th/0203238))
 
-The intersection laws with [[black brane|black]] [[D-branes]] are  discussed in
+The [[brane intersection|intersection]] laws with [[black brane|black]] [[D-branes]] are  discussed in
 
 * {#Tseytlin96} [[Arkady Tseytlin]], _No-force condition and BPS combinations of p-branes in 11 and 10 dimensions_, Nucl.Phys.B487:141-154,1997 ([arXiv:hep-th/9609212](https://arxiv.org/abs/hep-th/9609212))
 
