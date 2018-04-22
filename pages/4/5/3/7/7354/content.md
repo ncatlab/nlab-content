@@ -23,9 +23,11 @@ Whatever it is otherwise, [[string theory]] turns out to be an organizational pr
 
 * **[[U-duality]]** .
 
-Then there are the "string-string dualities", notably the 
+Then there are the "string-string dualities":
 
 * [[duality between F-theory and heterotic string theory]]
+
+* [[duality between type I and heterotic string theory]]
 
 Then there are the 
 
