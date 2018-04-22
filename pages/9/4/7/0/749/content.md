@@ -25,7 +25,7 @@ The [[Andre Joyal|Joyal]]- _[[model category|model structure]] on [[simplicial o
 
 It is [[Quillen equivalence|Quillen equivalent]] to the Jardine-local [[model structure on simplicial presheaves]].
 
-There is also a _[[?ech model structure on simplicial sheaves]]_ (see there) modelling not the hypercompletion but just the [[topological localization]] of the [[(∞,1)-category of (∞,1)-presheaves]].
+There is also a _[[Čech model structure on simplicial sheaves]]_ (see there) modelling not the hypercompletion but just the [[topological localization]] of the [[(∞,1)-category of (∞,1)-presheaves]].
 
 
 ## Definition
@@ -125,7 +125,7 @@ This implies the claim with the [above proposition](#PresentationOfhypercomplete
 
 ## Related concepts
 
-* [[?ech model structure on simplicial sheaves]]
+* [[Čech model structure on simplicial sheaves]]
 
 * [[model structure on cubical presheaves]]
 
