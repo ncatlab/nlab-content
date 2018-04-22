@@ -1,5 +1,5 @@
 
-Hisham Sati ([website](http://www.mathematics.pitt.edu/person/hisham-sati)) is working on [[non-perturbative effects|non-perturbative]] phenomena  in [[string theory]]/[[M-theory]] using tools of [[cohomology]], [[homotopy theory]], [[algebraic topology]] and [[higher category theory]]. His thesis advisor was [[Michael Duff]].
+Hisham Sati ([website](https://nyuad.nyu.edu/en/academics/divisions/science/faculty/hisham-ahmad-sati.html)) is working on [[non-perturbative effects|non-perturbative]] phenomena  in [[string theory]]/[[M-theory]] using tools of [[cohomology]], [[homotopy theory]], [[algebraic topology]] and [[higher category theory]]. His thesis advisor was [[Michael Duff]].
 
 Hisham Sati is assistant professor in the Mathematics Department at Pittsburgh University.
 
