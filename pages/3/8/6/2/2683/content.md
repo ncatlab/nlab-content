@@ -49,6 +49,8 @@ This is due to ([ChristodoulouKlainerman 1993](#ChristodoulouKlainerman)).
 
 ## Related entries
 
+* [[Minkowski metric]]
+
 * [[spacetime]]
 
   * [[super Minkowski space]]
@@ -61,12 +63,16 @@ This is due to ([ChristodoulouKlainerman 1993](#ChristodoulouKlainerman)).
 
 ## References
 
-Named after [[Herrmann Minkowski]].
+Named after [[Hermann Minkowski]]. 
+
+See also 
+
+* Wikipedia, _[Minkowski space](https://en.wikipedia.org/wiki/Minkowski_space)_
 
 Gravitational stability of Minkowski space is proven in
 
-* Demetrios Christodoulou, Sergiu Klainerman, _The global nonlinear stability of the Minkowski space_ Princeton University Press (1993)
-  {#ChristodoulouKlainerman}
+* {#ChristodoulouKlainerman} Demetrios Christodoulou, [[Sergiu Klainerman]], _The global nonlinear stability of the Minkowski space_ Princeton University Press (1993)
+  
 
 
 [[!redirects Minkowski space]]
