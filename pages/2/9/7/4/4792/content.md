@@ -26,7 +26,7 @@ The __octonions__, usually denoted $\mathbb{O}$, form the largest of the four [[
 
 ## Definition
 
-+-- {: .num_defn}
++-- {: .num_defn #ComponentDefinition}
 ###### Definition
 
 The _octonions_ $\mathbb{O}$ is the [[nonassociative algebra]] over the [[real numbers]] which is [[generators and relations|generated]] from seven generators $\{e_1, \cdots, e_7\}$ subject to the [[generators and relations|relations]]
@@ -47,15 +47,53 @@ The _octonions_ $\mathbb{O}$ is the [[nonassociative algebra]] over the [[real n
 
 =--
 
+
++-- {: .num_example #ProductOfImaginaryOctonions}
+###### Example
+
+The product of all the imaginary quaternions with each other, bracketed to the left, is
+
+$$
+  e_1 e_2 e_3 e_4 e_5 e_6 e_7
+  \;=\;
+  -1
+$$
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By iteratively using the multiplication table in def. \ref{ComponentDefinition} we obtain:
+
+$$
+  \begin{aligned}
+    & \underset{e_4}{\underbrace{e_1 e_2}} e_3 e_4 e_5 e_6 e_7
+    \\
+    & = \underset{- e_6}{\underbrace{e_4 e_3}} e_4 e_5 e_6 e_7
+    \\
+    & = - \underset{-e_3}{\underbrace{ e_6 e_4 }} e_5 e_6 e_7
+    \\
+    & = + \underset{e_2}{\underbrace{ e_3 e_5 }} e_6 e_7
+    \\
+    & = + \underset{ e_7 }{\underbrace{ e_2 e_6 }} e_7
+    \\
+    & = e_7 e_7 
+    \\
+    & = - 1
+  \end{aligned}
+$$
+
+=--
+
+
 ## Properties
 
-### Non-associativity
+### General
 
-The octonions are _not_ an [[associative algebra]]. The _non-zero_ octonions and the _unit_ octonions form [[Moufang loops]].
+* The octonions are _not_ an [[associative algebra]]. The _non-zero_ octonions and the _unit_ octonions form [[Moufang loops]].
 
-### Automorphisms
-
-The [[automorphism group]] of the octonions is [[G2]].
+* The [[automorphism group]] of the octonions is [[G2]].
 
 ### Basic triples
  {#ElementaryTriples}
