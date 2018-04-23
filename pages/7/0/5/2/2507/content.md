@@ -30,7 +30,7 @@ Super-Minkowski spacetime is a [[super spacetime]] which is an analog in [[super
 Ordinary $(d+1)$-dimensional [[Minkowski space]] may be understood as the  quotient $Iso(\mathbb{R}^{d-1,1})/(Spin(d-1,1))$ of the [[Poincare group]] by the [[spin group]] cover of  [[Lorentz group]] -- the [[translation group]].
 
 Analogously, the for each real irreducible [[spin representation]] $N$ the
-$dim(N)$-extended [[supermanifold]] **Minkowski superspace** or **super Minkowski space** is the quotient of [[supergroups]] of the [[super Poincaré group]] by the corresponding [[spin group]]
+$dim(N)$-extended [[supermanifold]] **Minkowski superspace** or **super Minkowski space** is the quotient of [[supergroups]] of the [[super Poincaré group]] by the corresponding [[spin group]] (a [[super Klein geometry]]).
 
 The _[[super-translation group]]_. See there for more details.
 
