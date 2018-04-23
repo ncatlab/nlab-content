@@ -23,7 +23,7 @@ The _super Poincar&#233; group_ is the [[Lie integration]] in [[supergeometry]] 
 
 In [[physics]] an [[action]]/[[symmetry]] of the super Poincar&#233; group is also called a _[[supersymmetry]]_.
 
-The [[coset]] of a super Poincar&#233; group by the [[orthogonal group]]/[[Lorentz group]] inside it is a [[super translation group]], whose underlying [[supermanifold]] is a [[super Minkowski spacetime]].
+The [[coset]] ([[super Klein geometry]]) of a super Poincar&#233; group by the [[Spin group]]/[[Pin group]] inside it is a [[super translation group]], whose underlying [[supermanifold]] is a [[super Minkowski spacetime]].
   
 
 ## Related concepts
@@ -61,7 +61,13 @@ Also
 
 * _Super spacetimes and super Poincar&#233;-group_ ([pdf](http://www.math.ucla.edu/~vsv/papers/ch6.pdf))
 
+[[!redirects super Poincaré groups]]
+
 [[!redirects super Poincare group]]
+[[!redirects super Poincare groups]]
 
 [[!redirects super-Poincare group]]
+[[!redirects super-Poincare groups]]
+
 [[!redirects super-Poincaré group]]
+[[!redirects super-Poincaré groups]]
