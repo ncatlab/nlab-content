@@ -13,7 +13,7 @@ $\,$
 Let 
 
 $$
-  \mathbb{H} = \langle 1, i, j , j\rangle
+  \mathbb{H} = \langle 1, i, j, k\rangle
 $$ 
 
 be the [[quaternions]] with canonical basis elements, and let 
