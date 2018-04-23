@@ -26,4 +26,6 @@ lecture notes on [[functional analysis]]:
 
 * [[wave equation]]
 
+* [[Minkowski spacetime]]
+
 category: people
