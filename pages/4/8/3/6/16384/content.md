@@ -37,7 +37,7 @@ For more see at _[composition algebra -- Hurwitz theorem](composition+algebra#Hu
 
 ### Real spinor representations and supersymmetry
 
-This classification turns out to closely connect to various other systems of exceptional structures in [[mathematics]] and [[physics]]. Notably patterns related to [[Majorana spinors]] in [[spin geometry]] are intimately related to the four normed division algebras, and, induced by this, so is the classification of [[super Poincaré Lie algebras]] and [[super Minkowski spacetimes]] (which are built from these real spin representations). For more on this see at _[[supersymmetry and division algebras]]_.
+This classification turns out to closely connect to various other systems of exceptional structures in [[mathematics]] and [[physics]]. Notably patterns related to [[Majorana spinors]] in [[spin geometry]] are intimately related to the four normed division algebras, and, induced by this, so is the classification of [[super Poincaré Lie algebras]] and [[super Minkowski spacetimes]] (which are built from these real spin representations). For more on this see at _[[supersymmetry and division algebras]]_ and _[[geometry of physics -- supersymmetry]]_.
 
 
 [[!include exceptional spinors and division algebras -- table]]
