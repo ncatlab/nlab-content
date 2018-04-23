@@ -2352,3 +2352,5 @@ The formalization as discussed above is from
 * _[[schreiber:differential cohomology in a cohesive topos]]_
 
 [[!redirects super Cartan geometry]]
+[[!redirects super Cartan geometries]]
+[[!redirects super-Cartan geometries]]
