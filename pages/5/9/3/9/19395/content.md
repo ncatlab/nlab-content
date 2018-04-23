@@ -41,9 +41,9 @@ Super Klein geometries form the _local models_ for [[super Cartan geometries]].
 | 7 | $\;\;\;\;\frac{OSp(6,2/4)}{Spin(6,1) \times SO(4)}\;\;\;\;$ |
 
 
-* The supersphere $S^{2|2}$ is the super coset space $UOSP(1|2)/U(1)$.
+* The supersphere $S^{2|2}$ is the super coset space $UOSp(1|2)/U(1)$.
 
-* The supersphere $S^{3|2}$ is the super coset space $OSP(4|2)/OSP(3|2)$.
+* The supersphere $S^{3|2}$ is the super coset space $OSp(4|2)/OSp(3|2)$.
 
 ## Related concepts
 
