@@ -55,6 +55,10 @@ For details see at _[[geometry of physics -- A first idea of quantum field theor
 
 * [[super-Minkowski spacetime]]
 
+## References
+
+Named after _[[Hermann Minkowski]]_.
+
 [[!redirects Minkowski metrics]]
 
 [[!redirects Lorentz metric]]
