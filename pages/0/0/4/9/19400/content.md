@@ -3,6 +3,12 @@
 
 ## Related $n$Lab entries
 
-* _[[group action on an n-sphere]]_
+* [[group action on an n-sphere]]
+
+* [[spherical space form]]
+
+* [[M2-brane]]
+
+* [[ABJM model]]
 
 category: people
