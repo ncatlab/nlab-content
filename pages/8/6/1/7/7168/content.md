@@ -37,7 +37,7 @@ is a [[bilinear form]].
 
 From the converse point of view, $q$ is a [[quadratic refinement]] of the bilinear form $(-,-)$.  (This always exists uniquely if $2 \in k$ is invertible, but in general the question involves the [[characteristic elements of a bilinear form|characteristic elements]] of $(-u,-)$.  See there for more.)
 
-Quadratic forms with values in the [[real numbers]] $k = \mathbb[R}$ are called _positive define_ or _negative definite_ if $q(v) \gt 0$ or $q(v) \lt 0$, respectively, for all $v \neq 0$.
+Quadratic forms with values in the [[real numbers]] $k = \mathbb{R}$ are called _positive definite_ or _negative definite_ if $q(v) \gt 0$ or $q(v) \lt 0$, respectively, for all $v \neq 0$.
 
 ## Related concepts
 
