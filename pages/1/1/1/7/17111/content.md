@@ -50,6 +50,8 @@ where $u,v \in \mathbb{C}$ are [[complex numbers]] and $\overline{(-)}$ denotes 
 
 ## Properties
 
+### General
+
 
 +-- {: .num_prop}
 ###### Proposition
@@ -196,10 +198,13 @@ These are _regular_ coadjoint orbits for $r \gt 0$.
 
 =--
 
+### Finite subgroups
+
+The [[finite subgroup of SU(2)]] have an [[ADE classification]]. See [this theorem](classification+of+finite+rotation+groups#ClassificationOfFiniteSubgroupsOfSO3).
 
 
 ## Related concepts
 
 * [[complex Hopf fibration]]
 
-* [[ADE classification]]
+
