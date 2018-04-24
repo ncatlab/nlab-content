@@ -156,8 +156,10 @@ This holds by assumption.
 
 ## Related concepts
 
-* [[free action]]
-* [[transitive action]]
+* [[transitive action]], [[free action]], [[semi-free action]], [[regular action]],
+
+* [[proper action]], [[properly discontinuous action]]
+
 * [[torsor]]
 
 ## References
