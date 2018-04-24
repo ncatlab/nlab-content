@@ -46,7 +46,7 @@ Early frameworks for [[Grothendieck topos|Grothendieck]] (as opposed to "element
 
 and due to [[Bertrand Toen|Toën]]--[[Gabriele Vezzosi|Vezzosi]] in two versions (preprints 2002), via [[simplicially enriched category|simplically enriched categories]] and via [[Segal categories]]:
 
-* [[Bertrand Toën]], [[Gabriele Vezzosi]], _Homotopical algebraic geometry. I. Topos theory_, Adv. Math. 193 (2005), no. 2, 257--372, [arXiv:math.AT/0207028](http://arxiv.org/abs/math/0207028)
+* [[Bertrand Toën]], [[Gabriele Vezzosi]], _Homotopical algebraic geometry. I. Topos theory_, Adv. Math. 193 (2005) no. 2, 257--372 [doi](https://doi.org/10.1016/j.aim.2004.05.004) [arXiv:math.AT/0207028](http://arxiv.org/abs/math/0207028)
 
 * [[Bertrand Toën]] , [[Gabriele Vezzosi]], _Segal topoi and stacks over Segal categories_, [arXiv:math.AG/0212330](http://arXiv.org/abs/math/0212330)
 
