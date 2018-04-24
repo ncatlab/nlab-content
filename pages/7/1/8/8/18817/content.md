@@ -195,7 +195,7 @@ $$
 any [[smooth function]] and $a \in \{1, 2, \cdots, n_2\}$ write
 
 $$
-  f^a \coloneqq x^k \circ f
+  f^a \coloneqq x^a \circ f
   \;\colon\;
   \mathbb{R}^{n_1}
     \overset{f}{\longrightarrow}
