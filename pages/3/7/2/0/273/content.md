@@ -287,7 +287,7 @@ In as far as nonabelian cohomology is nothing but the study of [[(infinity,1)-ca
 
 The following thesis continues Street's treatment of nonabelian cohomology
 
-* Alexander Campbell, _A higher categorical approach to Giraud's non-abelian cohomology_, PhD thesis, Macquarie University 2016 &lt;http://hdl.handle.net/1959.14/1261186>
+* [[Alexander Campbell]], _A higher categorical approach to Giraud's non-abelian cohomology_, PhD thesis, Macquarie University 2016 &lt;http://hdl.handle.net/1959.14/1261186>
 
 
 [[!redirects non-abelian cohomology]]
