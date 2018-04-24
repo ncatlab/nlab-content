@@ -22,18 +22,19 @@
 [[Riemannian geometry]] of (usually 2-[[dimension|dimensional]]) [[manifolds]] with constant negative [[scalar curvature]].
 
 ## Related concepts
+ {#RelatedConcepts}
 
-| [[synthetic geometry]]  |
-|-------------------------|
-| [[Euclidean geometry]]  |
-| [[hyperbolic geometry]] |
-| [[elliptic geometry]]   |
+| [[synthetic geometry]]  |  kind of [[space]]  |
+|-------------------------|---------------------|
+| [[Euclidean geometry]]  |  [[Euclidean space]]   |
+| [[hyperbolic geometry]] |  [[hyperbolic space]]  |
+| [[elliptic geometry]]   |    |
 
 * [[trigonometry]]
 
 * [[Riemannian geometry]]
 
-* [[hyperbolic manifold]]
+
 
 ## References
 
