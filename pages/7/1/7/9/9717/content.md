@@ -20,6 +20,8 @@
 
 ## Idea
 
+A _hyperbolic space_ is the analog of a [[Euclidean space]] as one passes from [[Euclidean geometry]] to [[hyperbolic geometry]]. The generalization of the concept of [[hyperbolic plane]] to higher [[dimension]].
+
 A _hyperbolic manifold_ is a [[Riemannian manifold]] $(X,g)$ of constant [[sectional curvature]] $-1$.
 
 ## Properties
@@ -82,7 +84,11 @@ See also
 
 ## References
 
+See also
+
 * Wikipedia, _[Hyperbolic manifold](http://en.wikipedia.org/wiki/Hyperbolic_manifold)_
+
+* Wikipedia, _[Hyperbolic space](https://en.wikipedia.org/wiki/Hyperbolic_space)_
 
 The relation of volumes of hyperbolic 3-manifolds to [[analytically continued Chern-Simons theory]]/[[Dijkgraaf-Witten theory]] is discussed in 
 
@@ -99,3 +105,6 @@ The relation of volumes of hyperbolic 3-manifolds to [[analytically continued Ch
 
 [[!redirects hyperbolic 3-manifold]]
 [[!redirects hyperbolic 3-manifolds]]
+
+[[!redirects hyperbolic space]]
+[[!redirects hyperbolic spaces]]
