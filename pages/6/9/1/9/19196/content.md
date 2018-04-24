@@ -23,6 +23,13 @@
 
 An [[action]] of a [[group]] is called _semi-free_ if it is a [[free action]] after restriction to the [[complement]] of the [[fixed points]]. In other words, it is semi-free if all its [[stabilizer groups]] are either the full group itself or the [[trivial group]].
 
+## Related concepts
+
+* [[transitive action]], [[free action]], [[semi-free action]], [[regular action]],
+
+* [[proper action]], [[properly discontinuous action]]
+
+
 ## References
 
 * {#Stong70} [[Robert Stong]], _Semi-free group actions_, Illinois Journal of Mathematics, Volume 23, Number 4, 1979 ([pdf](https://projecteuclid.org/download/pdf_1/euclid.ijm/1256047939))
