@@ -40,7 +40,7 @@ There is an evident notion of [[(∞,1)-category]] of [[module]]s over a simplic
 
 ### Connected components
 
-Given a simplicial ring $A = A_{\bullet}$, its [[connected components]] (the 0th "[[homotopy group]]")) is an ordinaty [[ring]] 
+Given a simplicial ring $A = A_{\bullet}$, its [[connected components]] (the 0th "[[homotopy group]]")) is an ordinary [[ring]] 
 
 $$
   \pi_0(A) \in Ring
