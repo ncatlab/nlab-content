@@ -39,12 +39,16 @@ The category of quasi-categories and isofibrations, inner fibrations that lift a
 
 For an overview:
 
-* Riehl and Verity [$\infty$-category theory from scratch](https://arxiv.org/abs/1608.05314)
+* [[Emily Riehl]] and [[Dominic Verity]], [$\infty$-category theory from scratch](https://arxiv.org/abs/1608.05314)
 
 For the most general notion of $\infty$-cosmos and constructions of many examples:
 
-* Riehl and Verity [Fibrations and Yoneda's lemma in an $\infty$-comos](https://arxiv.org/abs/1506.05500)
+* [[Emily Riehl]] and [[Dominic Verity]], [Fibrations and Yoneda's lemma in an $\infty$-comos](https://arxiv.org/abs/1506.05500)
 
 For a simplified notion with ``all objects cofibrant''
 
-* Riehl and Verity [Kan extensions and the calculus of modules for $\infty$-categories](https://arxiv.org/abs/1507.01460)
+* [[Emily Riehl]] and [[Dominic Verity]], [Kan extensions and the calculus of modules for $\infty$-categories](https://arxiv.org/abs/1507.01460)
+
+A book in progress, regularly being updated
+
+* [[Emily Riehl]] and [[Dominic Verity]], _$\infty$-Categories for the Working Mathematician_, (2018) ([pdf](http://www.math.jhu.edu/~eriehl/ICWM.pdf))
