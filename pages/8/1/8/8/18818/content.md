@@ -1252,7 +1252,7 @@ $$
 hence via
 
 $$
-  v = v^a x_x \mapsto \hat v = v^a \Gamma_a
+  v = v^a x_a \mapsto \hat v = v^a \Gamma_a
   \,,
 $$
 
