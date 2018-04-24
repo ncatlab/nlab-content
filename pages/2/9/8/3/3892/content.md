@@ -75,6 +75,10 @@ The text goes on to argue that spaces of this form $G/Stab_G(S)$ are of fundamen
 
 [[!include local and global geometry - table]]
 
+* [[Clifford-Klein space form]]
+
+* [[spherical space form]]
+
 
 ## References
 
