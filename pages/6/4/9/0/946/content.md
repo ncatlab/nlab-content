@@ -173,7 +173,7 @@ Details on Alexandroff spaces are in
 
 A useful discussion of the abstract relation between posets and Alexandroff [[locales]] is in section 4.1 of
 
-* Olivia Caramello, _A topos-theoretic approach to Stone-type dualities_ ([arXiv:1103.3493](http://arxiv.org/abs/1103.3493))
+* [[Olivia Caramello]], _A topos-theoretic approach to Stone-type dualities_ ([arXiv:1103.3493](http://arxiv.org/abs/1103.3493))
  {#Caramello}
 
 See also around page 45 in
