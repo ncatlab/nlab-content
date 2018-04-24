@@ -94,7 +94,12 @@ If $f$ is a proper map (def. \ref{ProperContinuous}), then it is a [[closed map]
 
 * [[open map]], [[closed map]]
 
+* [[proper group action]]
+
 [[!redirects proper maps]]
 [[!redirects proper continuous map]]
 [[!redirects proper continuous maps]]
+
+[[!redirects proper continuous function]]
+[[!redirects proper continuous functions]]
 
