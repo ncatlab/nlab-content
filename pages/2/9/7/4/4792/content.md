@@ -45,16 +45,33 @@ The _octonions_ $\mathbb{O}$ is the [[nonassociative algebra]] over the [[real n
 
 > (graphics grabbed from [Baez 02](#Baez02))
 
-=--
+This becomes a [[star-algebra]] with star [[involution]]
 
+\[
+  \label{StarInvolution}
+  \overline{(-)} \;\colon\; \mathbb{O} \longrightarrow \mathbb{O}
+\]
+
+which is the [[antihomomorphism]] $\overline{a b} = \overline{b} \overline{a}$ which is 
+
+given on the above generators by
+
+$$
+  \overline{e_i} = - e_i 
+  \phantom{AAAA}
+  i \in \{1, \cdot, 7\}
+ \,.
+$$
+
+=--
 
 +-- {: .num_example #ProductOfImaginaryOctonions}
 ###### Example
 
-The product of all the imaginary quaternions with each other, bracketed to the left, is
+The product of all the generators with each other, bracketed to the left, is
 
 $$
-  e_1 e_2 e_3 e_4 e_5 e_6 e_7
+  (((((e_1 e_2) e_3) e_4) e_5) e_6) e_7
   \;=\;
   -1
 $$
@@ -78,10 +95,40 @@ $$
     \\
     & = + \underset{ e_7 }{\underbrace{ e_2 e_6 }} e_7
     \\
-    & = e_7 e_7 
+    & = - e_7 e_7 
     \\
     & = - 1
   \end{aligned}
+$$
+
+=--
+
+
++-- {: .num_defn #RealAndImaginary}
+###### Definition
+**(real and imaginary octonions)**
+
+As for the [[complex numbers]] one says that 
+
+* an _imaginary octonion_ is an $a \in \mathbb{O}$ shuch that under the star involution (eq:StarInvolution) it is sent to its negative:
+
+  $$
+    \overline{a} = -a
+  $$
+
+* a _real octonions_ is an $a \in \mathcal{O}$ shuch that under the star involution (eq:StarInvolution) it is sent to itself
+
+  $$
+    \overline{a} = a
+  $$
+
+Accordingly every octonion decomposes into a [[real part]] and an [[imaginary part]]:
+
+$$
+  Re(a) \coloneqq \tfrac{1}{2}(a + \overline{a})
+  \phantom{AA}
+  Im(a) \coloneqq \tfrac{1}{2}(a - \overline{a})
+  \,.
 $$
 
 =--
@@ -91,9 +138,87 @@ $$
 
 ### General
 
-* The octonions are _not_ an [[associative algebra]]. The _non-zero_ octonions and the _unit_ octonions form [[Moufang loops]].
++-- {: .num_prop}
+###### Proposition
 
-* The [[automorphism group]] of the octonions is [[G2]].
+The octonions are _not_ an [[associative algebra]]. But the _non-zero_ octonions and the _unit_ octonions form [[Moufang loops]].
+
+=--
+
++-- {: .num_prop #Alternativity}
+###### Proposition
+**(octonions are alternative)**
+
+The octonions form an [[alternative algebra]]
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By linearity it is sufficient to check this on generators.
+So let $e_i \to e_j \to e_k$ be a circle or a cyclic permutation of an edge in the [[Fano plane]] as in Def. \ref{ComponentDefinition}.
+Then by definition of the octonion multiplication we have
+
+$$
+  \begin{aligned}
+    (e_i e_j) e_j
+    &=
+    e_k e_j
+    \\
+    &=
+    - e_j e_k
+    \\
+    & =
+    -e_i
+    \\
+    & =
+    e_i (e_j e_j)
+  \end{aligned}
+$$
+
+and similarly
+
+$$
+  \begin{aligned}
+    (e_i e_i ) e_j
+    &=
+    - e_j
+    \\
+    &=
+    - e_k e_i
+    \\
+    &=
+    e_i e_k
+    \\
+    &=
+    e_i (e_i e_j)
+  \end{aligned}
+  \,.
+$$
+
+=--
+
++-- {: .num_prop}
+###### Proposition
+
+The [[automorphism group]] of the octonions, as a real algebra, is the [[exceptional Lie group]] [[G2]].
+
+=--
+
+### Left multiplication by imaginary octonions
+
+Given any octonion $o$, then the operation of left multiplication by $o$
+
+$$
+  L_o \;\colon\; \mathbb{O} \longrightarrow \mathbb{O}
+$$
+
+is an $\mathbb{R}-$[[linear map]]. Under [[composition]] of linear maps, this defines an [[associativity|associative]] [[monoid]] [[action|acting]] linearly on $\mathbb{O}$.
+
+
+
+
 
 ### Basic triples
  {#ElementaryTriples}
