@@ -21,6 +21,13 @@ The possible [[actions]] of well-behaved [[topological groups]] (such as [[compa
 
 This entry is meant to eventually list and discuss some of these. For the moment it mainly just collects some references.
 
+## Spherical space forms
+
+Let $G$ be a [[discrete group]] and $\rho$ an [[action]] of $G$ on the [[n-sphere]] by [[isometries]], which is [[free action|free]] and [[properly discontinuous action|properly discontinuous]].
+
+The induced [[quotient spaces]] $S^n/G$ in this case are also called _[[spherical space forms]]_.
+
+(...)
 
 ## Properties
 
@@ -80,3 +87,6 @@ where they are related to the [[black brane|black]] [[M2-brane]] [[BPS state|BPS
 
 [[!redirects group action on n-spheres]]
 [[!redirects group actions on n-sphere]]
+
+[[!redirects group action on n-spheres]]
+[[!redirects group actions on n-spheres]]
