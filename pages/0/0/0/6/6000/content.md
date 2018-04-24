@@ -63,6 +63,10 @@ of some arbitrary element $x \in X$.  In particular, the transitivity of $*$ gua
 
 * [[torsor]]
 
+* [[transitive action]], [[free action]], [[semi-free action]], [[regular action]]
+
+* [[proper action]], [[properly discontinuous action]]
+
 ## References
 
 * Helmut Wielandt.  _Finite Permutation Groups_.  Academic Press, 1964.
