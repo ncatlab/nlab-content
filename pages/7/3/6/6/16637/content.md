@@ -127,7 +127,7 @@ Relation to the [[Milnor fibration]]:
 
 * [[Kenneth Intriligator]], [[Hans Jockers]], [[Peter Mayr]], [[David Morrison]], M. Ronen Plesser, _Conifold Transitions in M-theory on Calabi-Yau Fourfolds with Background Fluxes_, Adv.Theor.Math.Phys. 17 (2013) 601-699 ([arXiv:1203.6662](http://arxiv.org/abs/1203.6662))
 
-An [[ADE classification]] of finite subgroups of groups $SO(8)$ [[free action|acting freely]] on $S^7$ such that the quotient is spin and has at least four [[Killing spinors]] (see also at [[ABJM model]]) is in
+An [[ADE classification]] of finite subgroups of $SO(8)$ [[free action|acting freely]] on $S^7$ (see at _[[group action on an n-sphere]]_) such that the quotient is [[spin structure|spin]] and has at least four [[Killing spinors]] (see also at [[ABJM model]]) is in
 
 * Paul de Medeiros, [[José Figueroa-O'Farrill]], Sunil Gadhia, [[Elena Méndez-Escobar]], _Half-BPS quotients in M-theory: ADE with a twist_, 	JHEP 0910:038,2009 ([arXiv:0909.0163](http://arxiv.org/abs/0909.0163), [pdf slides](http://www.maths.ed.ac.uk/~jmf/CV/Seminars/YRM2010.pdf))
 
