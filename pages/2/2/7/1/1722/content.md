@@ -62,4 +62,4 @@ Another discussion more in the style of the [[Lie groupoid]] community is in sec
 
 Giraud's gerbes as being the objects classified by nonabelian cohomology are recovered from general principles in
 
-* Alexander Campbell, _A higher categorical approach to Giraud's non-abelian cohomology_, PhD thesis, Macquarie University 2016 &lt;http://hdl.handle.net/1959.14/1261186>
+* [[Alexander Campbell]], _A higher categorical approach to Giraud's non-abelian cohomology_, PhD thesis, Macquarie University 2016 &lt;http://hdl.handle.net/1959.14/1261186>
