@@ -208,15 +208,93 @@ The [[automorphism group]] of the octonions, as a real algebra, is the [[excepti
 
 ### Left multiplication by imaginary octonions
 
+
++-- {: .num_defn #LeftMultiplicationAction}
+###### Definition
+
 Given any octonion $o$, then the operation of left multiplication by $o$
 
 $$
-  L_o \;\colon\; \mathbb{O} \longrightarrow \mathbb{O}
+  \array{
+    \mathbb{O} &\overset{L_o}{\longrightarrow}& \mathbb{O}
+    \\
+    a &\mapsto& o a
+  }
 $$
 
-is an $\mathbb{R}-$[[linear map]]. Under [[composition]] of linear maps, this defines an [[associativity|associative]] [[monoid]] [[action|acting]] linearly on $\mathbb{O}$.
+is an $\mathbb{R}-$[[linear map]]. Under [[composition]] of linear maps, this defines an _[[associativity|associative]]_ [[monoid]] [[action|acting]] linearly on $\mathbb{O}$.
+
+=--
 
 
++-- {: .num_prop #CliffordActionOfImaginaryOctonions}
+###### Proposition
+**(Clifford action of imaginary octonions)**
+
+Consider the [[Clifford algebra]]
+
+$$
+  Cl(Im(\mathbb{O}), -{\vert -\vert}^2)
+$$
+
+on the underlying [[real vector space]] of that of the imaginary octonions (Def. \ref{RealAndImaginary}) regarded as an [[inner product space]] via the [[quadratic form]] given by the _negative_ square norm.
+
+Then the operation of left multiplication on $\mathbb{O}$ (def. \ref{LeftMultiplicationAction}) induces a [[representation]] of this Clifford algebra on $\mathbb{R}^8 \simeq_{\mathbb{R}} \mathbb{O}$.
+
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By [[alternative algebra|alternativity]] (Prop. \ref{Alternativity}) we have for every $v \in Im(\mathbb{O})$ and every $a \in \mathbb{O}$
+
+$$
+  \begin{aligned}
+    L_v L_v (a)
+    & \coloneqq
+    v (v a)
+    \\
+    & =
+    (v v) a 
+    \\
+    & =
+    - {\vert v\vert}^2 a
+    \\
+    & =
+    L_{- {\vert v\vert}^2} (a)
+  \end{aligned}
+$$
+
+=--
+
++-- {: .num_prop #ConsecutiveLeftActionByImaginaryGenerators}
+###### Proposition
+**(consecutive left action by imaginary generators is unity)**
+
+The consecutive left multiplication action (Def. \ref{LeftMultiplicationAction}) by all the imaginary octonion generators $e_i$ (Def. \ref{ComponentDefinition}) is $\pm$ the [[identity function]] on the octonions:
+
+$$
+  L_{e_1} L_{e_2} L_{e_3} L_{e_4} L_{e_5} L_{e_6} L_{e_7}
+  \;=\;
+  \pm Id_{\mathbb{O}}
+$$ 
+
+=--
+
++-- {: .proof}
+###### Proof
+
+All the generators $e_i$ are imaginary octonions (Def. \ref{RealAndImaginary}). By Prop. \ref{CliffordActionOfImaginaryOctonions} their left action on $\mathbb{O}$ [[representation|represents]] a [[Clifford algebra]]-action of $Cl(Im(\mathbb{O}), -{\vert-\vert}^2) \simeq Cl_{0,7}$ on $\mathbb{R}^{8} \simeq_{\mathbb{R}} \mathbb{O}$.
+
+By the [classification of real Clifford algebras](Clifford+algebra#ClassificationOverTheRealNumbers), $Cl_{0,7}$ has, up to [[isomorphism]], two different [[irreducible representation|irreducible]] [[modules]]. Their underlying vector space is $\mathbb{R}^8$ in both cases, and so the left action of imaginary octonions we have must be one of the two. The two irreps may be distinguished by the action of the "volume element" $\Gamma_1 \Gamma_2 \cdots \Gamma_7$: On one of the two it acts as the identity, on the other as minus the identity.
+
+Which of these two cases it is in the present case follows with the computation in Example \ref{ProductOfImaginaryOctonions}. 
+
+> (Only that at the moment this is written for opposite and right multiplication, instead of direct left multiplication. Need to harmonize.)
+
+
+=--
 
 
 
