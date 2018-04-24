@@ -1,4 +1,3 @@
-
 # Frequently Asked Questions
 * tic
 {:toc}
@@ -139,6 +138,8 @@ You can link directly to the version you want to cite by using a url such as
 We recommend that if you only include one URL, it be of the form `show/PageName` which will point to whatever version of the page is current when it is accessed.  This is because pages generally improve over time, and whoever is following your reference ought to be taken to the best, up-to-date version of the page.  Anyone who cares about finding the exact version of the page that you cited can figure out how to find it in the history.
 
 On the other hand, if you can give two URLs (this would be cumbersome in a printed paper, but is possible with links on a web page), then it may be helpful to give the appropriate `revision` link as well as the `show` one.
+
+*All nLab pages now include a "Cite" link at the bottom of the page which produces a BibTeX entry in accord with the suggestions above.*
 
 
 ### I want to help, but writing math on a wiki is scary; what can I do?
