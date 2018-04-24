@@ -371,6 +371,10 @@ A more model-independent abstract formulation is discussed in
 
 * {#RiehlVerity16} [[Emily Riehl]], [[Dominic Verity]], _Infinity category theory from scratch_, 2016 ([pdf](http://www.math.jhu.edu/~eriehl/scratch.pdf))
 
+And is being developed in a book in progress, regularly being updated:
+
+* [[Emily Riehl]] and [[Dominic Verity]], _$\infty$-Categories for the Working Mathematician_, (2018) ([pdf](http://www.math.jhu.edu/~eriehl/ICWM.pdf))
+
 Discussion in [[homotopy type theory]] is in
 
 * {#RiehlShulman17} [[Emily Riehl]], [[Michael Shulman]], _A type theory for synthetic $\infty$-categories_ ([arXiv:1705.07442](https://arxiv.org/abs/1705.07442))
