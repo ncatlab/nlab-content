@@ -1,4 +1,15 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+### Context
+#### Representation theory
++-- {: .hide}
+[[!include representation theory - contents]]
+=--
+=--
+=--
+
+
 #Contents#
 * table of contents
 {:toc}
@@ -13,6 +24,7 @@ An [[action]] by the [[circle group]].
 
 * [[free loop space]], [[Sullivan model of free loop spaces]]
 
+* [[group action on n-spheres]]
 
 ## References
 
