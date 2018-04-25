@@ -6,9 +6,13 @@
 +--{: .hide}
 [[!include functorial quantum field theory - contents]]
 =--
-#### Physics
+#### Super-Geometry
 +--{: .hide}
-[[!include physicscontents]]
+[[!include supergeometry - contents]]
+=--
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
 =--
 =--
 =--
@@ -19,7 +23,11 @@
 
 ## Idea
 
-The [classification](supersymmetry#ClassificationSuperconformal) of [[superconformal field theories]] predicts the existence of such a theory with $(2,0)$-[[supersymmetry]] in [[dimension]] 6, which is such that it contains a [[self-dual higher gauge theory]] whose field configurations are [[connections on a 2-bundle]] (a [[circle n-bundle with connection|circle 2-bundle with connection]] in the abelian case).
+According to the [classification of superconformal symmetry](supersymmetry#ClassificationSuperconformal), there should exists [[superconformal field theories]] in 6 dimensions...
+
+[[!include superconformal symmetry -- table]]
+
+...with $(2,0)$-[[supersymmetry]], that contain a [[self-dual higher gauge theory]] whose field configurations are [[connections on a 2-bundle]] (a [[circle n-bundle with connection|circle 2-bundle with connection]] in the abelian case).
 
 In ([Claus-Kallosh-Proeyen 97](#ClausKalloshProeyen97)) such has been derived, in the abelian case and to low order, as the small fluctuations of the [[Green-Schwarz sigma-model]] of the [[M5-brane]] around the embedding in the asymptotic boundary of the [[AdS-spacetime]] that is the [[near-horizon geometry]] of the [[black brane|black]] M5-brane.
 
@@ -200,3 +208,6 @@ April 07, 2014 - April 11, 2014](https://www.msri.org/workshops/689)_ ([web vide
 
 [[!redirects 6d (2,0)-superconformal field theory]]
 [[!redirects 6d (2,0)-superconformal field theories]]
+
+[[!redirects 6d superconformal gauge field theory]]
+[[!redirects 6d superconformal gauge field theories]]
