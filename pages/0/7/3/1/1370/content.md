@@ -7,7 +7,7 @@ Joyal  promoted [[quasi-categories]], greatly extending their theory, as a basis
 
 Joyal has contributed to the $n$Lab as 'joyal'; he is also beginning a new project at [[joyalscatlab:HomePage|joyalscatlab]].
 
-[webpage](http://www.professeurs.uqam.ca/pages/joyal.andre.htm), [wikipedia](http://en.wikipedia.org/wiki/Andr%C3%A9_Joyal)
+[webpage](http://professeurs.uqam.ca/professeur?c=joyal.andre), [wikipedia](http://en.wikipedia.org/wiki/Andr%C3%A9_Joyal)
 
 * A. Joyal, M. Tierney, _An extension of the Galois theory of Grothendieck_,  Mem. Amer. Math. Soc.  __51__  (1984),  no. 309, vii+71 pp. (historical $n$lab note: according to MR756176 (86d:18002) featured review by [[Peter Johnstone]], the main results of this monograph were obtained by the authors around 1978-1979, typed version circulated from 1982, and the results influenced the field much before the actual publication)
 
