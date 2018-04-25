@@ -1,5 +1,5 @@
 
-> Not to be confused with [[neutral element]]. For special kinds of units see also _[[unit of an adjunction]]_ and _[[unit of a monad]]_. Different (but related) is _[[physical unit]]_. 
+> For other kinds of units see also _[[unit of an adjunction]]_ and _[[unit of a monad]]_. Different (but related) is _[[physical unit]]_. 
 
 ****
 
@@ -9,7 +9,12 @@
 
 ## Idea
 
-A unit is a [[quantity]] $u$ such that every other quantity (of a certain type) is a multiple (in a certain sense) of $u$.
+Considering a [[ring]] $R$, then by _the unit element_ or _the multiplicative unit_ one usually means the [[neutral element]] $1 \in R$ with respect to [[multiplication]]. This is the sense of "unit" in terms such as _[[nonunital ring]]_.
+
+But more generally _a unit element_ in a unital (!) ring is any element that has an [[inverse element]] under [[multiplication]]. 
+
+This concept generalizes beyond [[rings]], and this is what is discussed in the following.
+
 
 
 ## Definitions
@@ -96,6 +101,11 @@ It is this meaning of 'unit' which gives rise to the [[unit of an adjunction]].
 
 * [[unit of a monad]]
 
+## References
+
+See also 
+
+* Wilkipedia, _<a href="https://en.wikipedia.org/wiki/Unit_(ring_theory)">Unit (Ring theory)</a>_
 
 [[!redirects unit]]
 [[!redirects units]]
