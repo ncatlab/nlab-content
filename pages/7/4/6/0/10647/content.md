@@ -21,7 +21,8 @@ A [[spacetime]] with vanishing Ricci curvature is also called _Ricci flat_.
 
 ## Related concepts
 
-* [[scalar curvature]]
+[[!include curvature in Riemannian geometry -- table]] 
+
 
 * [[Einstein-Hilbert action]]
 
