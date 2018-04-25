@@ -23,6 +23,8 @@ The _AdS-CFT correspondence_ (or _[Maldacena](Maldacena) duality_ ) is a class o
 
 the conjectural Ads/CFT correspondence asserts an identification of the [[state]]s of [[quantum gravity]] given by [[string theory]] on an [[asymptotically anti de Sitter spacetime|asymptotically]] [[anti-de Sitter spacetime]] with [[correlator]]s of a [[CFT|superconformal]] [[Yang-Mills theory]] on the asymptotic boundary.
 
+[[!include superconformal symmetry -- table]]
+
 ## Examples
 
 The solutions to [[supergravity]] that preserve the maximum of 32 [[supersymmetries]] are (e.g. [HEGKS 08 (1.1)](BPS+state#HEGKS08))
