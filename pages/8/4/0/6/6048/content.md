@@ -76,25 +76,24 @@ The [[near horizon geometry]] of this spacetime is the [[Freund-Rubin compactifi
 
 [[!include ADE -- table]]
 
-Here for $ 5 \leq \mathcal{N} \leq 8$-supersymmetry then the action of $G_{ADE}$ on $S^7$ is via the canonical action of $SU(2)$ as in the [[quaternionic Hopf fibration]] ([Medeiros-Figueroa 10](#MedeirosFigueroa10)), while for $\mathcal{N} = 4$ then there is an extra twist to the action  ([MFFGME 09](#MFFGME09)):
+Here for $ 5 \leq \mathcal{N} \leq 8$-supersymmetry then the action of $G_{ADE}$ on $S^7$ is via the canonical action of $SU(2)$ as in the [[quaternionic Hopf fibration]] ([Medeiros-Figueroa 10](#MedeirosFigueroa10)), while for $\mathcal{N} = 4$ then there is an extra twist to the action  ([MFFGME 09](#MFFGME09)). See the table [below](#WorldvolumeTheory).
 
-
-
-| $AdS_4 \times S^7/G_{ADE}$ [[BPS state]] | Dynkin label |  $G_{ADE} \subset SU(2)$ | [[AdS-CFT]]-dual worldvolume theory | 
-|-----|-----------|----|---|
-| $\mathcal{N} = 8$ | $A_1$ | $\mathbb{Z}/2$ ([[group of order 2]])  | [[BLG model]] |
-| $\mathcal{N} = 6$ | $A_{n-1}$ | $\mathbb{Z}/n$ ([[cyclic group]]) | [[ABJM model]] |
-| $\mathcal{N} = 5$ | $D_{n+2}$ | $2 \mathcal{D}_{2n}$ ([[binary dihedral group]]) | ? |
-| $\mathcal{N} = 5$ | $E_6$ | $2 \mathcal{T}$ ([[binary tetrahedral group]]) | ? |
-| $\mathcal{N} = 5$ | $E_7$ | $2 \mathcal{O}$ ([[binary octahedral group]]) | ? |
-| $\mathcal{N} = 5$ | $E_8$ | $2 \mathcal{I}$ ([[binary icosahedral group]]) | ? |
 
 
 ## Properties
 
 ### Worldvolume theory -- BLG and ABJM
+ {#WorldvolumeTheory}
 
-The [[worldvolume]] [[quantum field theory]] of M2-branes sitting at [[ADE singularities]] (as [above](#BlackM2AtADESingularity)) is supposed to be described by [[ABJM theory]] and, for the special case of $SU(2)$ gauge group, by the [[BLG model]]. See also at _[[gauge enhancement]]_.
+The [[worldvolume]] [[QFT]] of [[black brane|black]] M2-branes is a [[3d superconformal gauge field theory]]:
+
+[[!include superconformal symmetry -- table]]
+
+Specifically, [[worldvolume]] [[quantum field theory]] of M2-branes sitting at [[ADE singularities]] (as [above](#BlackM2AtADESingularity)) is supposed to be described by [[ABJM theory]] and, for the special case of $SU(2)$ gauge group, by the [[BLG model]]. See also at _[[gauge enhancement]]_.
+
+[[!include 7d spherical space forms -- table]]
+
+
 
 ### AdS4-CFT3 duality
 
