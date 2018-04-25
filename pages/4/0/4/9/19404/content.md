@@ -80,13 +80,8 @@ It turns out that the resulting sub-classification **for $N \geq 4$** demands $\
 
 (In the last case, while there is one nontrivial outer automorphism of the binary tetrahedral group, its twisted action yields $N =5$, hence is equivalent to one of the previous cases ([MFFGME 09, section 7.3](#MFFGME09)).)
 
-| $N$ [[Killing spinors]] <br/> on $S^7/\widehat{G}$  | $\phantom{AA}\widehat{G} =$ | [[spin group|spin]]-lift of [[subgroup]] of <br/>[[isometry group]] of [[7-sphere]] |
-|---------|----------------------------------------------|------|
-| $\phantom{AA}N = 8\phantom{AA}$ |  $\phantom{AA}\mathbb{Z}_2$ | [[cyclic group of order 2]] |
-| $\phantom{AA}N = 7\phantom{AA}$ |  ---   | --- |
-| $\phantom{AA}N = 6\phantom{AA}$ |  $\phantom{AA}\mathbb{Z}_{k\gt 2}$ | [[cyclic group]] |
-| $\phantom{AA}N = 5\phantom{AA}$ |  $\phantom{AA}2 D_{k+2}$ <br/> $2 T$, $2 O$, $2 I$ | [[binary dihedral group]], <br/> [[binary tetrahedral group]], <br/> [[binary octahedral group]], <br/> [[binary icosahedral group]] |
-| $\phantom{AA}N = 4\phantom{AA}$ |  $\phantom{A}2 D_{k+2}$ <br/> $2 O$, $2 I$ | [[binary dihedral group]], <br/> [[binary octahedral group]], <br/> [[binary icosahedral group]] |
+
+[[!include 7d spherical space forms -- table]]
 
 
 This analysis applies to the classification of the [[near horizon geometry]] of smooth (i.e. non-[[orbifold]]) $\geq \tfrac{1}{2}$ [[BPS state|BPS]] [[black brane|black]] [[M2-brane]]-solutions of the [[equations of motion]] of [[11-dimensional supergravity]]:
