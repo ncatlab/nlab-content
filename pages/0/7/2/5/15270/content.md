@@ -29,6 +29,10 @@ A long list of mathematical structures happens to have a classification that is 
 
   This is due to [MFFGME 09](#MFFGME09).
 
+
+[[!include 7d spherical space forms -- table]]
+
+
 * [[du Val singularities]] (see [[ADE singularity]])
 
 
