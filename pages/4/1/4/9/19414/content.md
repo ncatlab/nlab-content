@@ -57,6 +57,12 @@ The $N=5$-case is discussed in
 
 * {#AharonyBergmanJafferis08} [[Ofer Aharony]], Oren Bergman, Daniel Louis Jafferis, _Fractional M2-branes_, JHEP 0811:043, 2008 ([arXiv:0807.4924](https://arxiv.org/abs/0807.4924))
 
+The $N=4$-case is discussed in
+
+* {#HLLLP08b} Kazuo Hosomichi, Ki-Myeong Lee, Sangmin Lee, Sungjay Lee, Jaemo Park, _N=4 Superconformal Chern-Simons Theories with Hyper and Twisted Hyper Multiplets_, JHEP 0807:091,2008 ([arXiv:0805.3662](https://arxiv.org/abs/0805.3662))
+
+* {#ChenWu10} Fa-Min Chen, Yong-Shi Wu, _Superspace Formulation in a Three-Algebra Approach to D=3, N=4,5 Superconformal Chern-Simons Matter Theories_, Phys.Rev.D82:106012, 2010 ([arXiv:1007.5157](https://arxiv.org/abs/1007.5157))
+
 Review includes
 
 * {#KlebanovTorri10} [[Igor Klebanov]], Giuseppe Torri, _M2-branes and AdS/CFT_, Int.J.Mod.Phys.A25:332-350, 2010 ([arXiv;0909.1580](https://arxiv.org/abs/0909.1580))
