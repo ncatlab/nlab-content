@@ -72,7 +72,7 @@ The [[near horizon geometry]] of this spacetime is the [[Freund-Rubin compactifi
 
 [[!include black branes in supergravity -- table]]
 
-{#BlackM2AtADESingularity} More generally, one may classify those solutions of [[11-dimensional supergravity]] of the form $AdS_4 \times X_7$ for some [[closed manifold]] $X_7$, that are at least 1/2 [[BPS states]]. One finds ([Medeiros-Figueroa 10](#MedeirosFigueroa10)) that all these are of the form $AdS_4 \times S^7/G_{ADE}$, where $S^7 / G_{ADE}$ is an [[orbifold]] of the [[7-sphere]] (hence a [[spherical space form]] in the smooth case) by a [[finite subgroup of SU(2)]] $G_{ADE} \hookrightarrow SU(2)$, i.e. a finite group in the [[ADE-classification]]
+{#BlackM2AtADESingularity} More generally, one may classify those solutions of [[11-dimensional supergravity]] of the form $AdS_4 \times X_7$ for some [[closed manifold]] $X_7$, that are at least 1/2 [[BPS states]]. One finds ([Medeiros-Figueroa 10](#MedeirosFigueroa10)) that all these are of the form $AdS_4 \times S^7/G_{ADE}$, where $S^7 / G_{ADE}$ is an [[orbifold]] of the [[7-sphere]] (a [[spherical space form]] in the smooth case, see [there](spherical+space+form#7DSphericalSpaceFormsWithSpinStructure)) by a [[finite subgroup of SU(2)]] $G_{ADE} \hookrightarrow SU(2)$, i.e. a finite group in the [[ADE-classification]]
 
 [[!include ADE -- table]]
 
