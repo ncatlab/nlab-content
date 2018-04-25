@@ -21,6 +21,7 @@
 
 _Euclidean geometry_ ([Euclid 300BC](#Euclid300BC)) studies the [[geometry]] of [[Euclidean spaces]].  These spaces come equipped with a canonical [[metric space|metric]] in the sense of [[analysis]], in fact a [[Riemannian metric]], and Euclidean geometry may be regarded as the _local model_ for [[Riemannian geometry]], in the sense of [[Cartan geometry]].
 
+In distinction from [[non-Euclidean geometry]] ([[hyperbolic geometry]] or [[elliptic geometry]]), Euclidean geometry is [[Riemannian geometry]] of [[Riemannian manifolds]] with [[zero]] [[sectional curvature]]. 
 
 ## Properties
 
