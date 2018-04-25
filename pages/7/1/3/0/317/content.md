@@ -1,4 +1,4 @@
-The __terminal category__ or __trivial category__ is [[generalized the|the]] [[terminal object]] in [[Cat]].  It has a single [[object]] and a single [[morphism]]. It is often denoted $1$ or $\mathbf{1}$.
+The __terminal category__ or __trivial category__ or __final category__ is [[generalized the|the]] [[terminal object]] in [[Cat]].  It is the unique (up to isomorphism) category with a single [[object]] and a single (identity) arrow. It is often denoted $1$ or $\mathbf{1}$.
 
 A [[functor]] from $1$ to any [[category]] $C$ is the same thing as an [[object]] of $C$.  More generally, the [[functor category]] $[1, C] \simeq C$ from the terminal category to $C$ is canonically [[equivalence of categories|equivalent]] (in fact, isomorphic) to $C$ itself.
 
@@ -9,3 +9,4 @@ So far we have interpreted "terminal" as referring to the 1-category $Cat$.  If 
 In [[enriched category theory]], often instead of the terminal category one is interested in the [[unit enriched category]].
 
 [[!redirects trivial category]]
+[[!redirects final category]]
