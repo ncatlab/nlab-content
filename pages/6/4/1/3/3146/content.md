@@ -442,15 +442,15 @@ is the corresponding [[curvature characteristic form]].
 
 * [[connection on an ∞-bundle]]
 
-* **curvature**
-
 * [[Bianchi identity]]
 
 * [[curvature characteristic form]]
 
 * [[Chern-Simons form]]
 
-* [[p-curvature]]
+[[!include curvature in Riemannian geometry -- table]] 
+
+$\,$
 
 [[!include gauge field - table]]
 
