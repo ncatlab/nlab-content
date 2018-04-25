@@ -1,16 +1,22 @@
+
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Physics
-+--{: .hide}
-[[!include physicscontents]]
-=--
 #### Quantum field theory
 +--{: .hide}
 [[!include functorial quantum field theory - contents]]
 =--
+#### Super-Geometry
++--{: .hide}
+[[!include supergeometry - contents]]
+=--
+#### String theory
++-- {: .hide}
+[[!include string theory - contents]]
 =--
 =--
+=--
+
 
 #Contents#
 * table of contents
@@ -33,6 +39,8 @@ A version of [[mirror symmetry]] acts on the $N = 4$, $D = 3$ SYM [[moduli space
 See also the discussion at _[[symplectic duality]]_.
 
 ## Related concepts
+
+* [[3d superconformal gauge field theory]]
 
 * [[N=2 D=4 super Yang-Mills theory]]
 
