@@ -36,7 +36,7 @@ $$
 
 * [[Lichnerowicz formula]]
 
-* [[p-curvature]]
+[[!include curvature in Riemannian geometry -- table]] 
 
 [[!redirects scalar curvatures]]
 
