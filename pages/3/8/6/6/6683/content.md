@@ -28,6 +28,18 @@ Due to the matter coupling, the ABJM model is no longer a [[topological field th
 
 Notice that the worldvolume $SU(N)$ gauge group enhancement at an $\mathbb{Z}_k$-[[ADE singularity]] is akin to the [[enhanced gauge symmetry|gauge symmetry enhancement]] of the [[effective field theory]] for [[M-theory on G2-manifolds]] at the same kind of singularities (see at _[M-theory on G2-manifolds -- Nonabelian gauge groups](M-theory+on+G2-manifolds#EnhancedGaugeGroups)_).
 
+More generally, classification of the [[near horizon geometry]] of smooth (i.e. non-[[orbifold]]) $\geq \tfrac{1}{2}$ [[BPS state|BPS]] [[black brane|black]] [[M2-brane]]-solutions of the [[equations of motion]] of [[11-dimensional supergravity]] shows that these are the [[Cartesian product]] $AdS_4 \times (S^7/G)$ of 4-[[dimension|dimensional]] [[anti de Sitter spacetime]] with a 7-[[dimension|dimensional]] [[spherical space form]] $S^7/{\widehat{G}}$ with [[spin structure]] and $N \geq 4$, for $\widehat{G}$ a [[finite subgroup of SU(2)]] ([MFFGME 09](#MFFGME09), see [here](spherical+space+form#7DSphericalSpaceFormsWithSpinStructure)).
+
+| $N$ [[Killing spinors]] <br/> on $S^7/\widehat{G}$  | $\phantom{AA}\widehat{G} =$ | [[spin group|spin]]-lift of [[subgroup]] of <br/>[[isometry group]] of [[7-sphere]] |
+|---------|----------------------------------------------|------|
+| $\phantom{AA}N = 8\phantom{AA}$ |  $\phantom{AA}\mathbb{Z}_2$ | [[cyclic group of order 2]] |
+| $\phantom{AA}N = 7\phantom{AA}$ |  ---   | --- |
+| $\phantom{AA}N = 6\phantom{AA}$ |  $\phantom{AA}\mathbb{Z}_{k\gt 2}$ | [[cyclic group]] |
+| $\phantom{AA}N = 5\phantom{AA}$ |  $\phantom{AA}2 D_{k+2}$ <br/> $2 T$, $2 O$, $2 I$ | [[binary dihedral group]], <br/> [[binary tetrahedral group]], <br/> [[binary octahedral group]], <br/> [[binary icosahedral group]] |
+| $\phantom{AA}N = 4\phantom{AA}$ |  $\phantom{A}2 D_{k+2}$ <br/> $2 O$, $2 I$ | [[binary dihedral group]], <br/> [[binary octahedral group]], <br/> [[binary icosahedral group]] |
+
+{#CaseNIs5} The corresponding $N=5$-analogs of the ABJM model have been identified in ([HLLLP 08](#HLLLP08), [BHRSS 08](#BHRSS08), [Aharony-Bergman-Jafferis 08](#AharonyBergmanJafferis08)).
+
 
 ## Properties
 
@@ -43,9 +55,23 @@ Under  [[holographic duality]] supposed to be related to [[11-dimensional superg
 
 ## References
 
-The original article is
+The original article on the $N=6$-case is
 
 * {#ABJM08} [[Ofer Aharony]], Oren Bergman, Daniel Louis Jafferis, [[Juan Maldacena]], _$N=6$ superconformal Chern-Simons-matter theories, M2-branes and their gravity duals_, JHEP 0810:091,2008, [DOI:10.1088/1126-6708/2008/10/091](http://iopscience.iop.org/article/10.1088/1126-6708/2008/10/091/meta;jsessionid=FCE6764D4E19F3038C9530E50B057A56.c3.iopscience.cld.iop.org) ([arXiv:0806.1218](http://arxiv.org/abs/0806.1218))
+
+inspired by the $N=8$-case of the [[BLG model]]
+
+* {#BaggerLambert06} [[Jonathan Bagger]], [[Neil Lambert]], _Modeling Multiple M2's_, Phys. Rev. D75, 045020 (2007). ([hep-th/0611108](http://arxiv.org/abs/hep-th/0611108)). 
+
+* [[Jonathan Bagger]], [[Neil Lambert]], Phys. Rev. D77, 065008 (2008). ([arXiv:0711.0955](http://arXiv.org/abs/0711.0955)). 
+
+The $N=5$-case is discussed in
+
+* {#HLLLP08} Kazuo Hosomichi, Ki-Myeong Lee, Sangmin Lee, Sungjay Lee, Jaemo Park, _$N=5,6$ Superconformal Chern-Simons Theories and M2-branes on Orbifolds_, JHEP 0809:002, 2008 ([arXiv:0806.4977](https://arxiv.org/abs/0806.4977))
+
+* {#BHRSS08} [[Eric Bergshoeff]], [[Olaf Hohm]], Diederik Roest, [[Henning Samtleben]], [[Ergin Sezgin]], _The Superconformal Gaugings in Three Dimensions_, JHEP0809:101, 2008 ([arXiv:0807.2841](https://arxiv.org/abs/0807.2841))
+
+* {#AharonyBergmanJafferis08} [[Ofer Aharony]], Oren Bergman, Daniel Louis Jafferis, _Fractional M2-branes_, JHEP 0811:043, 2008 ([arXiv:0807.4924](https://arxiv.org/abs/0807.4924))
 
 Review includes
 
@@ -74,9 +100,9 @@ Discussion of the model as a [[higher gauge theory]] (due to its coupling to the
 
 Classification of the possible [[superpotentials]] via [[representation theory]] is due to 
 
-* Paul de Medeiros, [[José Figueroa-O'Farrill]], [[Elena Méndez-Escobar]], _Superpotentials for superconformal Chern-Simons theories from representation theory_, J. Phys. A 42:485204,2009 ([arXiv:0908.2125](http://arxiv.org/abs/0908.2125))
+* {#MFFME09} Paul de Medeiros, [[José Figueroa-O'Farrill]], [[Elena Méndez-Escobar]], _Superpotentials for superconformal Chern-Simons theories from representation theory_, J. Phys. A 42:485204,2009 ([arXiv:0908.2125](http://arxiv.org/abs/0908.2125))
 
-and derived from this a classification of the possble [[orbifold|orbifolding]] (see at _[[spherical space form]]: [7d with spin structure](spherical+space+form#7DSphericalSpaceFormsWithSpinStructure)_) is in
+and derived from this a classification of the possible [[orbifold|orbifolding]] (see at _[[spherical space form]]: [7d with spin structure](spherical+space+form#7DSphericalSpaceFormsWithSpinStructure)_) is in
 
 * {#MFFGME09} Paul de Medeiros, [[José Figueroa-O'Farrill]], [[Sunil Gadhia]], [[Elena Méndez-Escobar]], _Half-BPS quotients in M-theory: ADE with a twist_, JHEP 0910:038,2009 ([arXiv:0909.0163](http://arxiv.org/abs/0909.0163), [pdf slides](http://www.maths.ed.ac.uk/~jmf/CV/Seminars/YRM2010.pdf))
 
