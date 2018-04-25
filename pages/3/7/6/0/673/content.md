@@ -82,6 +82,8 @@ Appears in: Gazette of the Australian Mathematical Society, Vol. 41 (2014) No. 5
 
 ## Selected Talks 
 
+* _The stack of smooth maps from a manifold to a differentiable stack is differentiable_, [Topology in Australia and South Korea](https://cgp.ibs.re.kr/conferences/Topology_in_Australia_and_South_Korea/), POSTECH. 23 April 2018.
+
 * _Constructions in lower dimensional higher geometry_, [Gauge theory and higher geometry](http://iga.adelaide.edu.au/workshops/MKM60/), University of Adelaide. 29 November 2017.
 
 * _Constructing differential string structures_, [Differential geometry seminar](http://maths.adelaide.edu.au/news/geometry.html), University of Adelaide. 7 June 2017.
