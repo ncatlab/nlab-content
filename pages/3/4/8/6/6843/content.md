@@ -54,3 +54,5 @@ category: people
 
 
 [[!redirects José Miguel Figueroa-O'Farrill]]
+
+[[!redirects Figueroa-O’Farrill]]
