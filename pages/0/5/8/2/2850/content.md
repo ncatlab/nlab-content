@@ -42,6 +42,10 @@ Riemannian geometry is hence equivalently the [[Cartan geometry]] for inclusions
 
 * [[calibrated manifold]]
 
+[[!include curvature in Riemannian geometry -- table]] 
+
+$\,$
+
 [[!include local and global geometry - table]]
 
 In [[index theory]]:
