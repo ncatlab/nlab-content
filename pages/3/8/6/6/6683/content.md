@@ -20,7 +20,9 @@
 
 ## Idea
 
-The _ABJM model_ ([ABJM 08](#ABJM08)) is 3-dimensional $\mathcal{N} = 6$ [[supersymmetry|supersymmetric]] [[Chern-Simons theory]] with [[gauge group]] [[special unitary group|SU(N)]] and [[minimal coupling|coupled]] to [[matter fields]]. For [[level (Chern-Simons theory)|Chern-Simons level]] $k$ it is supposed to describe the [[worldvolume]] theory of $N$ coincident [[black brane|black]] [[M2-branes]] at an $\mathbb{Z}/k$-[[cyclic group]] [[orbifold]] [[singularity]] with [[near-horizon geometry]] $AdS_4 \times S^7/(\mathbb{Z}/k)$ (see at _[M2-branes -- As a black brane](M2-brane#AsABlackBrane)_). 
+The _ABJM model_ ([ABJM 08](#ABJM08)) is an $\mathcal{N} = 6$ [[3d superconformal gauge field theory]] involving [[Chern-Simons theory]] with [[gauge group]] [[special unitary group|SU(N)]] and [[minimal coupling|coupled]] to [[matter fields]]. For [[level (Chern-Simons theory)|Chern-Simons level]] $k$ it is supposed to describe the [[worldvolume]] theory of $N$ coincident [[black brane|black]] [[M2-branes]] at an $\mathbb{Z}/k$-[[cyclic group]] [[orbifold]] [[singularity]] with [[near-horizon geometry]] $AdS_4 \times S^7/(\mathbb{Z}/k)$ (see at _[M2-branes -- As a black brane](M2-brane#AsABlackBrane)_). 
+
+[[!include superconformal symmetry -- table]]
 
 For $k = 2$ the supersymmetry of the ABJM model increases to $\mathcal{N} = 8$. For $k = 2$ and $N = 2$ the ABJM model reduces to the [[BLG model]] ([ABJM 08, section 2.6](#ABJM08)). 
 
@@ -30,17 +32,8 @@ Notice that the worldvolume $SU(N)$ gauge group enhancement at an $\mathbb{Z}_k$
 
 More generally, classification of the [[near horizon geometry]] of smooth (i.e. non-[[orbifold]]) $\geq \tfrac{1}{2}$ [[BPS state|BPS]] [[black brane|black]] [[M2-brane]]-solutions of the [[equations of motion]] of [[11-dimensional supergravity]] shows that these are the [[Cartesian product]] $AdS_4 \times (S^7/G)$ of 4-[[dimension|dimensional]] [[anti de Sitter spacetime]] with a 7-[[dimension|dimensional]] [[spherical space form]] $S^7/{\widehat{G}}$ with [[spin structure]] and $N \geq 4$, for $\widehat{G}$ a [[finite subgroup of SU(2)]] ([MFFGME 09](#MFFGME09), see [here](spherical+space+form#7DSphericalSpaceFormsWithSpinStructure)).
 
-| $N$ [[Killing spinors]] on <br/> [[spherical space form]] $S^7/\widehat{G}$  | $\phantom{AA}\widehat{G} =$ | [[spin group|spin]]-lift of [[subgroup]] of <br/>[[isometry group]] of [[7-sphere]] | [[3d superconformal gauge field theory]] <br/> on [[black brane|back]] [[M2-branes]] <br/> with [[near horizon geometry]] $AdS_4 \times S^6/\widehat{G}$ |
-|---------|----------------------------------------------|------|----|
-| $\phantom{AA}N = 8\phantom{AA}$ |  $\phantom{AA}\mathbb{Z}_2$ | [[cyclic group of order 2]] | [[BLG model]] |
-| $\phantom{AA}N = 7\phantom{AA}$ |  ---   | --- | ---  |
-| $\phantom{AA}N = 6\phantom{AA}$ |  $\phantom{AA}\mathbb{Z}_{k\gt 2}$ | [[cyclic group]] | [[ABJM model]] |
-| $\phantom{AA}N = 5\phantom{AA}$ |  $\phantom{AA}2 D_{k+2}$ <br/> $2 T$, $2 O$, $2 I$ | [[binary dihedral group]], <br/> [[binary tetrahedral group]], <br/> [[binary octahedral group]], <br/> [[binary icosahedral group]] | [HLLLP 08](#HLLLP08), [BHRSS 08](#BHRSS08) |
-| $\phantom{AA}N = 4\phantom{AA}$ |  $\phantom{A}2 D_{k+2}$ <br/> $2 O$, $2 I$ | [[binary dihedral group]], <br/> [[binary octahedral group]], <br/> [[binary icosahedral group]] |  |
+[[!include 7d spherical space forms -- table]]
 
-{#CaseNIs5} The corresponding $N=5$-analogs of the ABJM model have been identified in ([HLLLP 08](#HLLLP08), [BHRSS 08](#BHRSS08), [Aharony-Bergman-Jafferis 08](#AharonyBergmanJafferis08)).
-
-The case $N = 4$ is discussed in [Bagger-Lambert-Mukhi-Papageorgakis 13, section 7.4](#BaggerLambertMukhiPapageorgakis13)
 
 ## Properties
 
@@ -73,6 +66,13 @@ The $N=5$-case is discussed in
 * {#BHRSS08} [[Eric Bergshoeff]], [[Olaf Hohm]], Diederik Roest, [[Henning Samtleben]], [[Ergin Sezgin]], _The Superconformal Gaugings in Three Dimensions_, JHEP0809:101, 2008 ([arXiv:0807.2841](https://arxiv.org/abs/0807.2841))
 
 * {#AharonyBergmanJafferis08} [[Ofer Aharony]], Oren Bergman, Daniel Louis Jafferis, _Fractional M2-branes_, JHEP 0811:043, 2008 ([arXiv:0807.4924](https://arxiv.org/abs/0807.4924))
+
+The $N=4$-case is discussed in
+
+* {#HLLLP08b} Kazuo Hosomichi, Ki-Myeong Lee, Sangmin Lee, Sungjay Lee, Jaemo Park, _N=4 Superconformal Chern-Simons Theories with Hyper and Twisted Hyper Multiplets_, JHEP 0807:091,2008 ([arXiv:0805.3662](https://arxiv.org/abs/0805.3662))
+
+* {#ChenWu10} Fa-Min Chen, Yong-Shi Wu, _Superspace Formulation in a Three-Algebra Approach to D=3, N=4,5 Superconformal Chern-Simons Matter Theories_, Phys.Rev.D82:106012, 2010 ([arXiv:1007.5157](https://arxiv.org/abs/1007.5157))
+
 
 Review includes
 
