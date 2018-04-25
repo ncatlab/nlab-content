@@ -19,7 +19,7 @@
 
 ## Idea
 
-[[Riemannian geometry]] of (usually 2-[[dimension|dimensional]]) [[manifolds]] with constant negative [[scalar curvature]].
+[[Riemannian geometry]] of [[Riemannian manifolds]] with [[constant function|constant]] [[negative number|negative]] [[sectional curvature]].
 
 ## Related concepts
  {#RelatedConcepts}
