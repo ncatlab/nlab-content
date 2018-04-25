@@ -120,6 +120,8 @@ Note that this violates the convention that a $1$-foo is a foo; instead the ruli
 
 ## Related concepts
 
+* [[round sphere]]
+
 * [[hemisphere]], [[equator]]
 
 * [[unit sphere]]
