@@ -38,11 +38,9 @@ The original formulation in _[[Pursuing Stacks]]_ (page 30 in the pagination of 
 
 followed by a blacked out (in most copies, but see _[[page 30.pdf|here:file]]_ about mid-page) statement of the assumption. Then comes the following:
 
->   This means 1) any equivalence $\approx: (Hot) \rightarrow (Hot)$ is isomorphic to the identity functor, and 2) any automorphism of the identity functor (possibly even any endomorphism ?) is the identity.
+>   This means 1) any equivalence $(Hot) \stackrel{\approx}{\to} (Hot)$ is isomorphic to the identity functor, and 2) any automorphism of the identity functor (possibly even any endomorphism ?) is the identity.
 >
 >   Maybe these are facts well-known to the experts, maybe not - it is not my business here anyhow to prove such kind of things. It looks pretty plausible , because if there was any non trivial autoequivalence of $(Hot)$, or automorphism of its identity functor, I guess I would have heard about it, or something of the sort would flip to my mind. It would not be so if we abelianized $(Hot)$ some way or other, as there would be the loop and suspension functor, and homotheties by $-1$ of $id_{(Hot)}$.
-
-Thr arrow is actually written as $(Hot) \rightarrow (Hot)$ with the equivalence symbol over the arrow.
 
 Later on (page 71 in the pagination of the original document, section 41, around the 24th of March 1983), Grothendieck writes the following.
 
@@ -62,7 +60,7 @@ And again on page 86, still on the same day.
 
 Next is a reference on pg.93, section 46, probably the 28th or 29th of March 1983.
 
-> (If we admit the "inspiring assumption", there is no real choice, as a matter of fatc - but we don't want to use this in a technical sense, but only as a guide and motivation.)
+> (If we admit the "inspiring assumption", there is no real choice, as a matter of fact - but we don't want to use this in a technical sense, but only as a guide and motivation.)
 
 There is also a reference on pg.216-217, section 72, 10th of June 1983.
 
