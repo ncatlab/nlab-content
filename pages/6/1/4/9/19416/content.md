@@ -24,23 +24,51 @@ The _hypothèse inspiratrice_ or _inspiring assumption_  is an assumption formul
 
 ## Proofs of lifts of the assumption
 
-The _hypothèse inspiratrice_ can be proven relatively easily if one re-formulates the question for a lift of the homotopy category to derivators, [[(∞,1)-category]], or some other such setting for [[homotopy theory]]. One such [[proof]] is given in [Cisinski 08](#Cisinski08). A different proof is given in [Toën-Vezzosi 02](#ToenVezzoi02), as the case $X=1$ of Corollary 5.2.2. 
+The _hypothèse inspiratrice_ can be proven relatively easily if one re-formulates the question for a lift of the homotopy category to [[derivator|derivators]], [[(∞,1)-category theory|(∞,1)-category]], or some other such setting for [[homotopy theory]]. One such [[proof]] is given in [Cisinski 08](#Cisinski08). A different proof is given in [Toën-Vezzosi 02](#ToenVezzoi02), as the case $X=1$ of Corollary 5.2.2. 
+
+## Proof of the analogous statement for the category of sets
+
++-- {: .num_prop}
+###### Proposition
+
+The category of auto-equivalences of [[Set]] is equivalent to the final category.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+Any equivalence of categories preserves [[colimit|colimits]]. Since [[Set]] is the [[free co-completion]] of the final category $1_{\mathsf{Cat}}$, and since $1_{\mathsf{Cat}}$ is sent to $1_{\mathsf{Set}}$ under the Yoneda embedding, any auto-equivalence $F$ of [[Set]] is determined uniquely, up to isomorphism, by $F(1_{\mathsf{Set}})$. 
+
+Now, equivalences of categories also preserve [[final object|final objects]]. Thus we have that $F(1_{\mathsf{Set}}) = 1_{\mathsf{Set}}$ for all $F$.
+
+The proposition follows immediately from these two observations.    
+
+=--
+
+This argument is rather canonical. In principle, it 'should' lift to a proof of the hypothèse inspiratrice, simply by replacing set-theoretic notions by homotopy-theoretic ones: colimits by homotopy colimits, and so on. And this does work, but with the caveat that such a proof can only be formulated if one works inside 'homotopy category theory' rather than ordinary category theory. 
 
 ## Independence from ZFC?
 
-At least one of the authors of this page (Richard) conjectures that the hypothèse inspiratrice in its original form may be independent from ZFC.
+At least one of the authors of this page (Richard) conjectures that the hypothèse inspiratrice in its original form may be independent from ZFC. The reason for this is the striking discrepancy between the ease with which one can prove the hypothèse inspiratrice if one 'lifts' it so that one can translate the proof for $\mathsf{Set}$ to homotopy theory, and the intractibility of the original statement. The idea is that the homotopy category as an ordinary category has lost too much information from the setting of homotopy category theory to be able to _prove_ things like the hypothèse inspiratrice, but that this forgetting of information does not affect what can be said about the homotopy category as a 'set-theoretic category'.
+
+This is all very vague! But perhaps it inspires someone to properly look into it. If one could prove the independence of the hypothèse inspiratrice from ZFC, it would express rigorously a fundamental distinction between set theory and homotopy theory/higher category theory that seems to be apparent in practise. 
+
+As to how to prove the independence, we have no idea! The only thing we can say is that in HoTT, it seems that one can construct models in which a form of the hypothèse inspiratrice is false (see [[Vladimir Voevodsky|Voevodsky]]'s comment in [this thread](https://groups.google.com/d/msg/homotopytypetheory/Wyxmcvo5K2Y/SUm3nwYECQAJ) on the HoTT mailing list), whilst, as above, there should certainly be models where it is true. It is not obvious how to proceed from these models of HoTT to models of ZFC in which the homotopy category comes out as the correct object, but perhaps this is an avenue to explore.
 
 ## Grothendieck's formulation
 
 The original formulation in _[[Pursuing Stacks]]_ (page 30 in the pagination of the original document, section 28, 8th of March 1983) is preceded by
 
-> Now this maybe isnt [sic] so silly after all, in view of the following Assumption:
-
-followed by a blacked out (in most copies, but see _[[page 30.pdf|here:file]]_ about mid-page) statement of the assumption. Then comes the following:
-
+> Now this maybe isnt [sic] so silly after all, in view of the following 
+>
+> Assumption: The category of equivalences of $(Hot)$ with itself, and of natural isomorphisms (possibly even any morphisms) between such, is equivalent to the one point category.
+>
 >   This means 1) any equivalence $(Hot) \stackrel{\approx}{\to} (Hot)$ is isomorphic to the identity functor, and 2) any automorphism of the identity functor (possibly even any endomorphism ?) is the identity.
 >
 >   Maybe these are facts well-known to the experts, maybe not - it is not my business here anyhow to prove such kind of things. It looks pretty plausible , because if there was any non trivial autoequivalence of $(Hot)$, or automorphism of its identity functor, I guess I would have heard about it, or something of the sort would flip to my mind. It would not be so if we abelianized $(Hot)$ some way or other, as there would be the loop and suspension functor, and homotheties by $-1$ of $id_{(Hot)}$.
+
+It most copies of Pursuing Stacks available, the assumption itself is blacked out. Tim Porter suggests that this is likely due to the text having been highlighted, probably in yellow, leading to the blacking out upon photocopying. Because of the blacking out, the assumption is also not available in circulating typed versions of Pursuing Stacks. Happily, Tim Porter has scanned _[[page 30.pdf|here:file]]_ the relevant page from his personal copy of Pursuing Stacks. The assumption is about mid-page. 
 
 Later on (page 71 in the pagination of the original document, section 41, around the 24th of March 1983), Grothendieck writes the following.
 
