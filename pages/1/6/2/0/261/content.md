@@ -257,7 +257,7 @@ A pedagogical introduction to simplicial sets is
 
 A very clear and explicit exposition on the basics of simplicial sets is
 
-* [[Emily Riehl]], _A leisurely introduction to simplicial sets_, 2008, 14 pages ([pdf](http://www.math.harvard.edu/~eriehl/ssets.pdf)).
+* [[Emily Riehl]], _A leisurely introduction to simplicial sets_, 2008, 14 pages ([pdf](http://www.math.jhu.edu/~eriehl/ssets.pdf)).
 
 Another clear exposition is in the classic
 
