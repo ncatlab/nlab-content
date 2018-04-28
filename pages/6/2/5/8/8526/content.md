@@ -24,11 +24,13 @@ It is claimed ([Mochizuki 12d](#Mochizuki12d)) but currently unchecked that a pr
 
 * [[anabelian geometry]]
 
-* [[universe polymorphism]]
+* [[étale theta function]]
 
 * [[Frobenioid]]
 
-* [[étale theta function]]
+* [[initial Θ-data]]
+
+* [[universe polymorphism]]
 
 ## References
 
