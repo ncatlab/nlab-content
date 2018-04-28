@@ -46,7 +46,7 @@ There are also larger [[local multiplier algebra]]s $M_{loc}(A)$.
 
 * Ch.A. Akemann, G.K. Pedersen, J. Tomiyama, _Multipliers of $C^*$-algebras_, J. Funct. Anal. __13__ (1973) 277&#8211;301 [MR470685](http://www.ams.org/mathscinet-getitem?mr=470685)
 
-* Paul Skoufranis, _An introduction to multiplier algebras_, [pdf](http://www.math.ucla.edu/~pskoufra/OANotes-MultiplierAlgebras.pdf)
+* Paul Skoufranis, _An introduction to multiplier algebras_, ([pdf](http://pskoufra.info.yorku.ca/files/2016/07/Multiplier-Algebras.pdf))
 
 * Corran Webster, _On unbounded operators affiliated with $C^*$-algebras_, J. Operator Theory __51__ (2004) 237-244 [dvi](http://corranwebster.com/Research/unbounded.dvi) [pdf](http://corranwebster.com/Research/unbounded.pdf) [ps](http://corranwebster.com/Research/unbounded.ps)
 
