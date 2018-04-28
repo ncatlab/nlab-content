@@ -51,8 +51,8 @@ We can define [[chain complexes]] and their homology in any [[abelian category]]
 
 Let $C$ be an [[abelian category]] and let
 $$
-  V_\bullet = ( \cdots  \to V_{n+1} \stackrel{\partial_n}{\to}
-  V_n \stackrel{\partial_{n-1}}{\to}
+  V_\bullet = ( \cdots  \to V_{n+1} \stackrel{\delta_n}{\to}
+  V_n \stackrel{\delta_{n-1}}{\to}
   V_{n-1} \to \cdots
   )
 $$
@@ -65,9 +65,9 @@ $$
     & \nearrow && \searrow && \swarrow
     \\
     V_{n+1}
-    &&\stackrel{\partial_n}{\to}&&
+    &&\stackrel{\delta_n}{\to}&&
     V_n
-    &&\stackrel{\partial_{n-1}}{\to}&&
+    &&\stackrel{\delta_{n-1}}{\to}&&
     V_{n-1}
     \\
     & &&
