@@ -119,7 +119,7 @@ $$
 
 is a [[compact closed category]].
 
-Conversely, if the $\ast$-autonomous category is not compact closed, then by this linear "[[de Morgan duality]]" the tensor product induces a second binary operation
+More generally, even if the $\ast$-autonomous category is not compact closed, then by this linear "[[de Morgan duality]]" the tensor product induces a second binary operation
 
 $$
   A \parr B \coloneqq  (A^\ast \otimes B^\ast)^\ast
