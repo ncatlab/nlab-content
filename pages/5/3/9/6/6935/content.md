@@ -117,7 +117,7 @@ The categorical interpretation of [[recursion]], hence of the absolute eliminati
 
    The interpretation of the absolute computation rule says that the morphism $W \to A$ from above is an algebra [[homomorphism]] and is unique as such.
 
-In summary this says that the recursion rules are interpretd as an [[initial algebra of an endofunctor]].
+In summary this says that the recursion rules are interpreted as an [[initial algebra of an endofunctor]].
 
 =--
 
