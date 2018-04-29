@@ -100,7 +100,7 @@ Let $\mathcal{C}$ be a [[locally cartesian closed category]] which is a [[model 
 +-- {: .num_prop }
 ###### Proposition
 
-For $A, B$ to [[cofibrant object|cofibrant]]-[[fibrant objects]] in $\mathcal{C}$,
+For $A, B$ two [[cofibrant object|cofibrant]]-[[fibrant objects]] in $\mathcal{C}$,
 a morphism $f\colon A\to B$ is a [[weak equivalence]] or equivalently a [[homotopy equivalence]] in $\mathcal{C}$ precisely when the interpretation of $isEquiv(f)$ has a [[generalized element|global point]] $* \to isEquiv(f)$.
 
 =--
