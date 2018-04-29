@@ -54,7 +54,7 @@ The original hypothèse inspiratrice is about the homotopy *1-category*, and its
 
 If we assume the law of [[excluded middle]], then there definitely exist nontrivial automorphisms of the $\infty$-groupoid of homotopy types.  For instance, if $X$ and $Y$ are two homotopy types that themselves have no nontrivial automorphisms (such as the [[empty set]] and the [[terminal set]]), then there is an automorphism of the $\infty$-groupoid of homotopy types that switches $X$ and $Y$ and leaves everything else fixed.  See for instance [[Vladimir Voevodsky|Voevodsky]]'s comment in [this thread](https://groups.google.com/d/msg/homotopytypetheory/Wyxmcvo5K2Y/SUm3nwYECQAJ) on the HoTT mailing list.  This requires excluded middle because we have to decide, for each homotopy type, whether it is equivalent to $X$ or to $Y$ or to neither.
 
-It is not known whether any nontrivial automorphisms of the $\infty$-groupoid of homotopy types can be constructed without excluded middle.  (To talk about homotopy types without assuming excluded middle, it is best to work in constructive [[homotopy type theory]].)  But it is known that certain kinds of such automorphisms (e.g. those that move the empty set) do imply excluded middle or some other nonconstructive axiom; see [BELS](#BELS).
+It is not known whether any nontrivial automorphisms of the $\infty$-groupoid of homotopy types can be constructed without excluded middle.  (To talk about homotopy types without assuming excluded middle, it is best to work in constructive [[homotopy type theory]].)  But it is known that certain kinds of such automorphisms (e.g. those that move the empty set) do imply excluded middle or some other nonconstructive axiom; see [BELS](#BELS17).
 
 
 ## Grothendieck's formulation
