@@ -73,8 +73,9 @@ One can also think of this as the top-level structure of the 4th [[oriental]]. T
 * **$K_5$** is the [dual polyhedron](http://en.wikipedia.org/wiki/Dual_polyhedron) to the [triaugmented triangular prism](http://en.wikipedia.org/wiki/Triaugmented_triangular_prism) 
 
 +--{: style="text-align:center"}
-<img src="http://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Polytope_K3.svg/180px-Polytope_K3.svg.png" alt="">
+<img src="https://ncatlab.org/nlab/files/K5associahedron.png" alt="">
 <br />
+
 (image from the [Wikimedia Commons](http://commons.wikimedia.org/wiki/File:Polytope_K3.svg))
 =--
 
