@@ -48,9 +48,14 @@ The proposition follows immediately from these two observations.
 
 This argument is rather canonical. In principle, it 'should' lift to a proof of the hypothèse inspiratrice, simply by replacing set-theoretic notions by homotopy-theoretic ones: colimits by homotopy colimits, and so on. And this does work, but with the caveat that such a proof can only be formulated if one works inside 'homotopy category theory' rather than ordinary category theory. 
 
-## In HoTT
+## Undirected version
 
-In [[homotopy type theory]] one can formulate a form of the hypothèse inspiratrice. In many cases, this formulation is provably false. See for instance [[Vladimir Voevodsky|Voevodsky]]'s comment in [this thread](https://groups.google.com/d/msg/homotopytypetheory/Wyxmcvo5K2Y/SUm3nwYECQAJ) on the HoTT mailing list.
+The original hypothèse inspiratrice is about the homotopy *1-category*, and its lifted versions are about the corresponding *$(\infty,1)$-category* of homotopy types ($\infty$-groupoids).  One might formulate an analogous conjecture about the *$\infty$-groupoid* of $\infty$-groupoids (or about its 0-truncation, the set of equivalence classes of $\infty$-groupoids).  But here the situation is rather different.
+
+If we assume the law of [[excluded middle]], then there definitely exist nontrivial automorphisms of the $\infty$-groupoid of homotopy types.  For instance, if $X$ and $Y$ are two homotopy types that themselves have no nontrivial automorphisms (such as the [[empty set]] and the [[terminal set]]), then there is an automorphism of the $\infty$-groupoid of homotopy types that switches $X$ and $Y$ and leaves everything else fixed.  See for instance [[Vladimir Voevodsky|Voevodsky]]'s comment in [this thread](https://groups.google.com/d/msg/homotopytypetheory/Wyxmcvo5K2Y/SUm3nwYECQAJ) on the HoTT mailing list.  This requires excluded middle because we have to decide, for each homotopy type, whether it is equivalent to $X$ or to $Y$ or to neither.
+
+It is not known whether any nontrivial automorphisms of the $\infty$-groupoid of homotopy types can be constructed without excluded middle.  (To talk about homotopy types without assuming excluded middle, it is best to work in constructive [[homotopy type theory]].)  But it is known that certain kinds of such automorphisms (e.g. those that move the empty set) do imply excluded middle or some other nonconstructive axiom; see [BELS](#BELS).
+
 
 ## Grothendieck's formulation
 
@@ -99,5 +104,8 @@ The final reference is on pg.273, section 83, probably the 27th or 28th of June 
 * {#Cisinski08} [[Denis-Charles Cisinski]], _Propriétés universelles et extensions de Kan dérivées_, Theory Appl. Categ. 20, 605-649 (2008). [Link to article](http://www.tac.mta.ca/tac/volumes/20/17/20-17abs.html)
 
 * {#ToenVezzoi02} [[Bertrand Toën]] and [[Gabriele Vezzosi]], _Segal topoi and Segal stacks over them_, [arXiv:math/0212330](https://arxiv.org/abs/math/0212330).
+
+* {#BELS17} [[Auke Booij]], [[Martín Escardó]], [[Peter Lumsdaine]], [[Michael Shulman]].  _Parametricity, automorphisms of the universe, and excluded middle_, [arXiv:1701.05617](https://arxiv.org/abs/1701.05617)
+
 
 [[!redirects inspiring assumption]]
