@@ -32,7 +32,7 @@ The [[salamander lemma]] can sometimes be used to give more conceptual proofs.
 
 ## Diagram chases in general abelian categories
 
-There are at least five approaches to performing diagram chases in general abelian categories (not assumed to be [[concrete category|concrete]] like [[Ab]] or $R$[[Mod]]), roughly listed in increasing order of sophistication:
+There are at least five approaches to performing diagram chases in general abelian categories (not assumed to be [[concrete category|concrete]] like [[Ab]] or $R$[[Mod]]):
 
 1. Directly use the universal properties of the objects involved ([[kernel|kernels]], [[cokernel|cokernels]] etc.).
 1. Use equivalence classes of [[generalized element|generalized elements]] to mimic naive (element-based) proofs, as detailed at _[[element in an abelian category]]_. These can only be used to show properties of already-given morphisms and not to construct morphisms (for example the [[connecting homomorphism]] of a short exact sequence) by giving their action on elements.
