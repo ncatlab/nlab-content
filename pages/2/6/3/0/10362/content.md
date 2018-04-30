@@ -31,6 +31,8 @@ A quick review is for instance in
 
 * Wikipedia, _[Bell's theorem](http://en.wikipedia.org/wiki/Bell_inequality)_
 
+See also wikipedia: [Leggett-Garg inequality](https://en.wikipedia.org/wiki/Leggett%E2%80%93Garg_inequality)
+
 [[!redirects Bell's theorem]]
 [[!redirects Bell theorem]]
 
