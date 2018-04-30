@@ -19,7 +19,7 @@
 
 ## Idea
 
-Given a nonunital [[C*-algebra]] $A$, the _multiplier algebra_ $M(A)$ is the maximal unital extension of $A$ in which $A$ is an [[essential ideal]] (an ideal having nonzero intersection with any other proper ideal). In the [[commutative ring|commutative]] case, every unital commutative extension in which $A$ is an essential ideal corresponds to a [[compactification]] of the [[spectrum]] $Spec(A)$; $M(A)$ is in that case the $C^*$-algebra of functions on the [[Stone–?ech compactification]] $\beta(Spec(A))$.
+Given a nonunital [[C*-algebra]] $A$, the _multiplier algebra_ $M(A)$ is the maximal unital extension of $A$ in which $A$ is an [[essential ideal]] (an ideal having nonzero intersection with any other proper ideal). In the [[commutative ring|commutative]] case, every unital commutative extension in which $A$ is an essential ideal corresponds to a [[compactification]] of the [[spectrum]] $Spec(A)$; $M(A)$ is in that case the $C^*$-algebra of functions on the [[Stone–Čech compactification]] $\beta(Spec(A))$.
 
 
 ## Definition
