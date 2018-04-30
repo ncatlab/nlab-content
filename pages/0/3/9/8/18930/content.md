@@ -66,11 +66,11 @@ Consider the [[cartesian product]] functor, which can be defined by saying that 
 
 whose action is defined as $R_{\times}(f,(g,h))(k,l) = (g \circ k \circ f, h \circ l \circ f)$.
 Then the universal property of the product functor $\times : C^2 \to C$ is encapsulated in the natural isomorphism $\alpha_{a,b_1,b_2} : R_{\times}(a,(b_1,b_2)) \Rightarrow C(a,b_1\times b_2)$.
-By the [[Yoneda lemma]], the inverse of $\alpha$ can be reconstructed from its action on the identity, which in this case gives us the two projections: $(\pi_1,\pi'_2) = \alpha^{-1}_{b_1\times b_2, b_1,b_2}(id)$.
+By the [[Yoneda lemma]], the inverse of $\alpha$ can be reconstructed from its action on the identity, which in this case gives us the two projections: $(\pi_1,\pi_2) = \alpha^{-1}_{b_1\times b_2, b_1,b_2}(id)$.
 
 Then, by the above theorem, the action of $\times$ on functions is equal to:
 
-$$f \times g = \alpha(f \circ \pi_1, g \circ \pi'_1)$$
+$$f \times g = \alpha(f \circ \pi_1, g \circ \pi_2)$$
 
 ## References
 
