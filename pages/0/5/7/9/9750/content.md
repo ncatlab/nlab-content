@@ -272,6 +272,8 @@ In particular
 
 ### From M-branes to F-branes
 
+* [[duality between M-theory and type IIA string theory]]
+
 [[!include F-branes -- table]]
 
 ## Related concepts
@@ -280,7 +282,8 @@ In particular
 
 ## References
 
-### General
+### Reduction of membrane to string
+
 
 The concept of double dimensional reduction was introduced, for the case of the reduction of the [[supermembrane]] in 11d to the [[Green-Schwarz superstring]] in 10d, in
 
