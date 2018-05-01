@@ -46,6 +46,8 @@ _Type II supergravity_ is a [[supergravity]] in [[dimension]] 10 which is the lo
 
 * [[3-dimensional supergravity]]
 
+* [[duality between M-theory and type IIA string theory]]
+
 * [string theory FAQ -- Does string theory predict supersymmetry?](string+theory+FAQ#DoesSTPredictSupersymmetry)
 
 
@@ -102,3 +104,7 @@ A thesis reviewing some aspects is
 
 [[!redirects type IIA supergravity]]
 [[!redirects type IIB supergravity]]
+
+[[!redirects 10d type IIA supergravity]]
+[[!redirects 10d type IIB supergravity]]
+
