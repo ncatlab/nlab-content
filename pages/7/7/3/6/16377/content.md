@@ -41,3 +41,7 @@ Proc. Roy. Soc. A270, (1962) 354-356.
 [[!redirects membranes]]
 [[!redirects supermembranes]]
 [[!redirects super-membranes]]
+
+[[!redirects super membrane]]
+[[!redirects super membranes]]
+
