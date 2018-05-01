@@ -16,7 +16,7 @@ Let $A$ be a commutative ring, and let $a$ be an element of $A$.
 +-- {: .num_defn}
 ###### Definition
 
-The _localisation of $A$ away fram $a$_, usually denoted $A_{a}$ or $A[1/a]$, is the commutative ring $A[x] / (a x - 1)$. 
+The _localisation of $A$ away from $a$_, usually denoted $A_{a}$ or $A[1/a]$, is the commutative ring $A[x] / (a x - 1)$. 
 
 =--
 
