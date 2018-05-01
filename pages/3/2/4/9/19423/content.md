@@ -21,7 +21,7 @@ The [[conjecture|conjectured]] _[[duality in string theory|duality]]_ between [[
 
 The second defining characteristic of [[M-theory]] is that at low [[energy]], hence at large [[wavelength]], it is approximated by [[11-dimensional supergravity]]. On the other hand, the low energy limit of [[type IIA string theory]] is [[10d type IIA supergravity]].
 
-In view of this, the conjectured relation betweem M-theory and [[type IIA string theory]] says, more in detail, that in the low energy limit the relation becomes that exhibited exhibited by the [[Kaluza-Klein compactification]] of [[11-dimensional supergravity]] to [[10d type IIA supergravity]] on a [[circle]] [[fiber]], such that the [[radius]] of the circle fiber is proportional to the [[coupling constant]] of type II A string theory.
+In view of this, the conjectured relation between M-theory and [[type IIA string theory]] says, more in detail, that in the low energy limit the relation becomes that exhibited exhibited by the [[Kaluza-Klein compactification]] of [[11-dimensional supergravity]] to [[10d type IIA supergravity]] on a [[circle]] [[fiber]], such that the [[radius]] of the circle fiber is proportional to the [[coupling constant]] of type II A string theory.
 
 $$
   \array{
@@ -45,7 +45,9 @@ What convinced the community that [[11-dimensional supergravity]] really is the 
 
 ## Related concepts
 
-* [[duality between type I and heterotic string theory]]
+* [[duality in string theory]]
+
+* [[duality between F-theory and heterotic string theory]]
 
 * [[duality between type I and heterotic string theory]]
 
