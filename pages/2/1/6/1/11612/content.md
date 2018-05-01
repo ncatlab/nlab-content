@@ -34,6 +34,8 @@ Bound states of M-waves and [[M5-branes]] are argued to correspond to [[self-dua
 
 * {#BergshoeffTownsend96} E. Bergshoeff, [[Paul Townsend]], _Super D-branes_, Nucl.Phys. B490 (1997) 145-162 ([arXiv:hep-th/9611173](http://arxiv.org/abs/hep-th/9611173))
 
+* {#Townsend97} [[Paul Townsend]], first pages of _M-Theory from its superalgebra_, Cargese Lectures 1997 ([arXiv:hep-th/9712004](https://arxiv.org/abs/hep-th/9712004))
+
 * {#Bandos12} [[Igor Bandos]], _Action for the eleven dimensional multiple M-wave system_, 2012 ([pdf](http://strings.na.infn.it/files/Igor.pdf))
 
 * {#ChuIsono13} Chong-Sun Chu, Hiroshi Isono, _Instanton String and M-Wave in Multiple M5-Branes System_ ([arXiv:1305.6808](http://arxiv.org/abs/1305.6808), slides: [[IsonoSlides.pdf:file]])
