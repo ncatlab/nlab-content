@@ -154,7 +154,7 @@ While there are many 7-[[dimension|dimensional]] [[manifolds]] $F$ that do yield
 
 Largely due to this result, the original pure Kaluza-Klein ansatz that starts with just pure [[Einstein gravity]] with no other [[field (physics)|fields]]) is nowadays regarded as a non-viable to produce the [[standard model of particle physics]]. But one can further play with the idea and consider more flexible [[model (physics)|models]] that still exhibit the essence of KK-reduction in parts. 
 
-Notably the [[11-dimensional supergravity]] mentioned above contains more [[field (physics)|fields]] than just the field of [[gravity]]. Specifically it contains the [[supergravity C-field]] which is a [[higher gauge theory|higher]] analog of the [[electromagnetic field]]. KK-reductions of [[11-dimensional supergravity]] and of its conjectured [[M-theory]] [[UV-completion]] for instance on [[G2-manifold]] fibers turn out to be able to yield [[model (physics)|models]] which come at least very close to the [[standard model of particle physics]]. This we come to [below](#KKReductionOf11dSupergravity).
+Notably the [[11-dimensional supergravity]] mentioned above contains more [[field (physics)|fields]] than just the field of [[gravity]]. Specifically it contains the [[supergravity C-field]] which is a [[higher gauge theory|higher]] analog of the [[electromagnetic field]]. KK-reductions of [[11-dimensional supergravity]] and of its conjectured [[M-theory]] [[UV-completion]] for instance on [[G2-manifold]] fibers turn out to be able to yield [[model (physics)|models]] which come at least very close to the [[standard model of particle physics]]. This we come to [below](#KKReductionOf11dSupergravity), see also at _[[duality between M-theory and type IIA string theory]]_.
 
 ### Reductions of type II supergravity
  {#ReductionsOfTypeIISupergravity}
@@ -183,6 +183,8 @@ For more on this see also
 
 ### KK-Reduction of 11d supergravity
  {##KKReductionOf11dSupergravity}
+
+...[[duality between M-theory and type IIA string theory]]...
 
 The lift of the [above](#ReductionsOfTypeIISupergravity) reduction of [[type II supergravity|type IIA supergravity]] on [[Calabi-Yau manifolds]] to [[M-theory]] is the KK-reduction of [[11-dimensional supergravity]]/[[M-theory]] on [[G2-manifolds]] $X_7$. The role of the [[B-field]] and [[RR-field]] is now played by the [[supergravity C-field]], a [[higher gauge field]] in [[twisted cohomology|twisted]] [[ordinary differential cohomology]] of degree 3+1. For non-vanishing [[field strength]] ("flux") of the [[supergravity C-field]] in the 4d space this is the [[Freund-Rubin compactification]] yielding [[weak G2 holonomy]] on $X_7$.
 
