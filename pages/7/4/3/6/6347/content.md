@@ -56,7 +56,11 @@ A more detailed analysis of these type II anomalies is in ([DFMI](#DFMI)) and ([
 
 [[!include string theory and cohomology theory -- table]]
 
+* [[intersecting D-brane models]]
 
+### Relation to M-theory
+
+* [[duality between M-theory and type IIA string theory]]
 
 ### F-theory description
 
