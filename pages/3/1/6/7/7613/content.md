@@ -23,20 +23,21 @@ The "reasons to doubt" that interpretation is that the [[M2-brane]] does not sup
 
 > Later, the membranes were interpreted in terms of matrices. Purely by chance, the word "matrix" also starts with "m", so for a while I would say that the M stands for magic, mystery, or matrix. ([Witten 14, last paragraph](#Witten14))
 
-
-Keeping in mind that already [[string theory]] itself and in fact already [[quantum field theory]] itself have only partially been formulated in a precise way, the M-theory conjecture is motivated from the fact that with the available knowledge of these subjects -- particularly from [[duality in string theory]] -- one can see indications that there is a kind of [[commuting diagram]] of the form
+The defining characteristic of M-theory is that it exhibits [[duality between M-theory and type IIA string theory|duality with type IIA string theory]] in the following way:
 
 $$
   \array{
-      ??? &\stackrel{low\;energy\;limit}{\to}& 11d Supergravity
+      M-Theory(?) &\stackrel{low\;energy\;limit}{\to}& 11d Supergravity
       \\
-      \downarrow && \downarrow^{\mathrlap{dimensional\;reduction}}
+      {}^{\mathllap{ \array{ small \\ coupling \\ limit}}}\downarrow && \downarrow^{\mathrlap{ \array{KK\;reduction \\ on S^1 }}}
       \\
-      StringTheory &\stackrel{low\;energy\;effective\;QFT}{\to}& 10d Supergravity
+      type IIA string theory 
+        &\stackrel{low\;energy\;effective\;QFT}{\to}&  
+      10d Supergravity
   }
 $$
 
-in some sense (see also e.g. ([Obers-Pioline 98, p. 12](#ObersPioline98))). The unknown top left corner here has optimistically been given a name, and that is "M-theory". But even the rough global structure of the top left corner has remained elusive. 
+(see also e.g. ([Obers-Pioline 98, p. 12](#ObersPioline98))). The unknown top left corner here has optimistically been given a name, and that is "M-theory". But even the rough global structure of the top left corner has remained elusive. 
 
 > We still have no fundamental formulation of "[[M-theory]]" - the hypothetical theory of which [[11-dimensional supergravity]] and the five [[string theories]] are all special limiting cases. Work on formulating the fundamental principles underlying M-theory has noticeably waned. $[...]$. If history is a good guide, then we should expect that anything as profound and far-reaching as a fully satisfactory formulation of M-theory is surely going to lead to new and novel mathematics. Regrettably, it is a problem the community seems to have put aside - temporarily. But, ultimately, Physical Mathematics must return to this grand issue.
 
