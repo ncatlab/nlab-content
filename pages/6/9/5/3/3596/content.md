@@ -123,7 +123,7 @@ $$\frac{\Gamma, x:A, y:A, p:Id_A(x,y), \Delta(x,y,p) \vdash C(x,y,p):Type \qquad
 
 This says that if $C$ is a type which we can use the eliminator $J$ to construct a term of, but we already *have* a term $t$ of that type, then if we restrict $t$ to reflexivity inputs and then apply $J$ to construct a term of type $C$, the result is the same as the term $t$ we started with.  As in the $\beta$-reduction rule, the $=$ in the conclusion refers to [[definitional equality]].
 
-This $\eta$-conversion rule has some very strong consequences.  For instance, suppose $x\colon A$, $y\colon A$, and $p\colon Id_A(x,y)$, and let $C \coloneqq A$.  Then with $t=x$, the $\eta$-conversion rule tells us that $x = J(x[y/x,r(x)/p];x,y,p)$.  And with $t=y$, the $\eta$-conversion rule tells us that $y = J(y[y/x,r(x)/p];x,y,p)$.  But substituting $y$ for $x$ (and $r(x)$ for $p$) in the term $y$ simply yields the term $x$, which is the same as the result of substituting $y$ for $x$ and $r(x)$ for $p$ in the term $x$.  Thus, we have
+This $\eta$-conversion rule has some very strong consequences.  For instance, suppose $x\colon A$, $y\colon A$, and $p\colon Id_A(x,y)$, and let $C \coloneqq A$.  Then with $t=x$, the $\eta$-conversion rule tells us that $x = J(x[y/x,r(x)/p];x,y,p)$.  And with $t=y$, the $\eta$-conversion rule tells us that $y = J(y[y/x,r(x)/p];x,y,p)$.  But substituting $y$ for $x$ (and $r(x)$ for $p$) in the term $y$ simply yields the term $y$, which is the same as the result of substituting $y$ for $x$ and $r(x)$ for $p$ in the term $x$.  Thus, we have
 
 $$x = J(x;x,y,p) = y$$
 
