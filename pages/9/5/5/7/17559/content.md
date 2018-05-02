@@ -40,7 +40,7 @@ Skolem remarks that a the "non-predicative requirement of reproduction of sets" 
 In modern language: Based on a given model of set theory, a new model is constructed by extending the underlying set by a new element.
 In a footnote Skolem speculates that the [[continuum hypothesis]] can not decided in the set theory of his time.
 
-### The fact that mathematical induciton is neceissary for the logical investigation of abstractly given systems of axioms
+### The fact that mathematical induction is necessary for the logical investigation of abstractly given systems of axioms
 
 A skeptic view on [[Hilbert's program]], that was ongoing at that point, is explained.
 In modern language the argument amounts to saying that in the metalanguage of mathematical logic the induction axiom is indispensable.
