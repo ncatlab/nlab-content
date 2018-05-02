@@ -414,11 +414,16 @@ Something related to a **fibrant replacement** functor ("$\infty$-stackification
 * [[Jacob Lurie]], [[Higher Topos Theory]]
 
 
-### Cofibrant objects {#CofibrantObjects}
+### Cofibrant objects 
+ {#CofibrantObjects}
 
-In the injective [[local model structure on simplicial presheaves]] all objects are cofibrant. For the projective local structure we have the following useful statement (see also _[[projectively cofibrant diagram]]_).
+In the injective [[local model structure on simplicial presheaves]] all objects are cofibrant. For the projective local structure 
 
-(see also [Low, remark 8.2.3](#Low)).
+necessary and sufficient conditions are given here:
+
+* {#Garner13} [[Richard Garner]], [MO comment](https://mathoverflow.net/a/127187/381)
+
+More specifically, there is the following useful statement (see also _[[projectively cofibrant diagram]]_) (see also [Low, remark 8.2.3](#Low)).
 
 +-- {: .num_defn }
 ###### Definition
