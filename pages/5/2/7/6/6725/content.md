@@ -47,7 +47,7 @@ $$
   }
 $$
 
-such that the reduction on the first factor $S^1_A$ corresponds to the [[duality between M-theory and type IIA string theory]], hence so that subsequent [[T-duality]] along the second factor yields [[type IIA string theory]] (in its [[F-theory]]-incarnation). Now the diffeomorphism which exchanges the two circle factors and hence should be a symmetry of M-theory is interpreted as [[S-duality]] in [[type II string theory]]:
+such that the reduction on the first factor $S^1_A$ corresponds to the [[duality between M-theory and type IIA string theory]], hence so that subsequent [[T-duality]] along the second factor yields [[type IIB string theory]] (in its [[F-theory]]-incarnation). Now the diffeomorphism which exchanges the two circle factors and hence should be a symmetry of M-theory is interpreted as [[S-duality]] in [[type II string theory]]:
 
 $$
   IIB \overset{S}{\leftrightarrow} IIB
