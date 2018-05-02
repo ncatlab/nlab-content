@@ -72,6 +72,16 @@ If $\mathcal{C}$ is cartesian and $H$ is a group object, then this is the "conju
 
 This result can be generalized to algebras over any [[Hopf monad]] (in the sense of Brugui&#232;res-Lack-Virelizier).
 
+## References
+
+A few references emphasizing applications to combinatorics:
+
+* [[Marcelo Aguiar]] and [[Swapneel Mahajan]]. [[Monoidal Functors, Species and Hopf Algebras]], 2010.
+
+* [[Marcelo Aguiar]] and [[Swapneel Mahajan]]. Hopf monoids in the category of species. _Contemporary Mathematics_ 585 (2013), 17–124. ([author pdf](http://www.math.cornell.edu/~maguiar/hmonoid.pdf))
+
+* [[Marcelo Aguiar]] and [[Federico Ardila]]. Hopf monoids and generalized permutahedra. [arXiv:1709.07504](https://arxiv.org/abs/1709.07504)
+
 ## Related concepts
 
 * [[bimonoid]], [[Frobenius monoid]]
