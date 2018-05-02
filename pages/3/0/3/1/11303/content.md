@@ -42,6 +42,10 @@ Specifically, the geometrically engineered QFTs are those on the [[worldvolume]]
 
 For more relations between QFTs found via string theory see at _[[string theory results applied elsewhere]]_.
 
+## Examples
+
+* For [[geometric engineering]] of the [[6d (2,0)-superconformal QFT]], see at _[duality between M-theory on Z2-orbifolds and type IIB string theory on K3-fibrations -- Geometric engineering of 6d (2,0)-SCFT](duality+between+M-theory+on+Z2-orbifolds+and+type+IIB+string+theory+on+K3-fibrations#GeometricEngineeringOfThe6d2SuperconformalQFT)_.
+
 ## Related concepts
 
 * [[quiver gauge theory]]
