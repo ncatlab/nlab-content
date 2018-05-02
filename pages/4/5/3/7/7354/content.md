@@ -29,8 +29,6 @@ Then there are the "string-string dualities":
 
 * [[duality between type I and heterotic string theory]]
 
-and 
-
 * [[duality between M-theory and type IIA superstring theory]].
 
 * [[duality between M-theory on Z2-orbifolds and type IIB string theory on K3-fibrations]]
@@ -53,6 +51,8 @@ and
 * [[duality in physics]]
 
 * [[Gopakumar-Vafa duality]]
+
+* [[Hořava-Witten theory]]
 
 ## References
 
