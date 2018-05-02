@@ -44,7 +44,7 @@ Under  [[holographic duality]] supposed to be related to [[11-dimensional superg
 
 ### Boundary conditions
 
-Discussion of [[boundary conditions]] of the BLG model, leading to [[brane intersection]] with [[M-wave]], [[M5-brane]] and [[MO9-brane]] is is [BPST 09](#BPST09)
+Discussion of [[boundary conditions]] of the BLG model, leading to [[brane intersection]] with [[M-wave]], [[M5-brane]] and [[MO9-brane]] is in ([Chu-Smith 09](#ChuSmith09), [BPST 09](#BPST09)).
 
 
 ## Related concepts
@@ -82,6 +82,8 @@ The $N=4$-case is discussed in
 * {#ChenWu10} Fa-Min Chen, Yong-Shi Wu, _Superspace Formulation in a Three-Algebra Approach to D=3, N=4,5 Superconformal Chern-Simons Matter Theories_, Phys.Rev.D82:106012, 2010 ([arXiv:1007.5157](https://arxiv.org/abs/1007.5157))
 
 Discussion of [[boundary conditions]] leading to [[brane intersection]] laws with the [[M-wave]], [[black brane|black]] [[M5-brane]] and [[MO9]] is in
+
+* {#ChuSmith09} Chong-Sun Chu, Douglas J. Smith, _Multiple Self-Dual Strings on M5-Branes_, JHEP 1001:001, 2010 ([arXiv:0909.2333](https://arxiv.org/abs/0909.2333))
 
 * {#BPST09} [[David Berman]], Malcolm J. Perry, [[Ergin Sezgin]], Daniel C. Thompson, _Boundary Conditions for Interacting Membranes_, JHEP 1004:025, 2010 ([arXiv:0912.3504](https://arxiv.org/abs/0912.3504))
 
