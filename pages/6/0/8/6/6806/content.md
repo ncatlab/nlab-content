@@ -29,7 +29,8 @@ The [[non-perturbative quantum field theory|non-perturbative]] limit of [[type I
 
 The degree-2 [[RR-field]] that the D0-brane is charged under, with local potential 1-form $A_1$ may be understood as the [[Kaluza-Klein compactification|KK-field]] induced by this compactification, hence as one part of the field of [[gravity]] in [[11-dimensional supergravity]].
 
-The D0-brane itself comes from the [[M-wave]] in [[11-dimensional supergravity]].
+
+Under the [[duality between M-theory and type IIA string theory]] the [[M-wave]] becomes the [[black brane|black]] [[D0-brane]] under [[double dimensional reduction]] ([Bergshoeff-Townsend 96](#BergshoeffTwonsend96)).
 
 One aspect of the [[M-theory]] conjecture is that [[type IIA string theory]] with a [[condensate]] of [[D0-branes]] behaves like a 10-dimensional theory that develops a further circular dimension of [[radius]] scaling with the density of [[D0-branes]].  ([Banks-Fischler-Shenker-Susskind 97](#BanksFischlerShenkerSusskind97), [Polchinski 99](#Polchinski99)). See also ([FSS 13, section 4.2](#FSS13)).
 
@@ -63,9 +64,11 @@ based on discussion of bound states of $N$ D0-branes in
 
 ### As fundamental branes
 
-Discussion as fundamental branes via [[Green-Schwarz sigma-models]] and [[super L-infinity algebras]] is in section 4.2 of
+* {#BergshoeffTownsend96} E. Bergshoeff, [[Paul Townsend]], _Super D-branes_, Nucl.Phys. B490 (1997) 145-162 ([arXiv:hep-th/9611173](http://arxiv.org/abs/hep-th/9611173))
 
-* {#FSS13} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_ ([arXiv:1308.5264](http://arxiv.org/abs/1308.5264))
+Discussion as fundamental branes via [[Green-Schwarz sigma-models]] and [[super L-infinity algebras]] is 
+
+* {#FSS13} [[Domenico Fiorenza]], [[Hisham Sati]], [[Urs Schreiber]], in section 4.2 of _[[schreiber:The brane bouquet|Super Lie n-algebra extensions, higher WZW models and super p-branes with tensor multiplet fields]]_ ([arXiv:1308.5264](http://arxiv.org/abs/1308.5264))
  
 
 
