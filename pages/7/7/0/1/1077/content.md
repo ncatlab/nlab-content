@@ -28,7 +28,7 @@
 
 A _biproduct_ in a [[category]] $\mathcal{C}$ is an operation that is both a [[product]] and a [[coproduct]], in a compatible way. Morphisms between finite biproducts are encoded in a [[matrix calculus]].
 
-Finite biproducts are best known from [[additive category|additive categories]]. A category which has biproducts but is not necessarily [[enriched category|enriched]] in [[Ab]], hence not necessatily [[additive category|additive]], is called a _semiadditive category_.
+Finite biproducts are best known from [[additive category|additive categories]]. A category which has biproducts but is not necessarily [[enriched category|enriched]] in [[Ab]], hence not necessarily [[additive category|additive]], is called a _semiadditive category_.
 
 
 ## Definition 
