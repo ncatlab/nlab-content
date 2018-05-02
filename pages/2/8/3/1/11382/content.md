@@ -34,7 +34,7 @@ Further direct detections of gravitational wave events followed. The event GW170
 
 * [[electromagnetic wave]]
 
-* [[pp-wave spacetime]]
+* [[pp-wave spacetime]], [[M-wave]]
 
 * [[radiation]]
 
