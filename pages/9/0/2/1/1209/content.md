@@ -16,8 +16,7 @@
 
 ## Idea 
 
-Bimonoid is a monoid and comonoid in compatible way. The 
-compatibility is easy to formulate in symmetric monoidal categories and much harder in nonsymmetric setup. 
+A bimonoid is something which is both a monoid and a comonoid in a compatible way. The  compatibility is easy to formulate in symmetric monoidal categories and much harder in a nonsymmetric setup. 
 
 ## Definition in symmetric monoidal categories
 
