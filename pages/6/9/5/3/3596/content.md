@@ -81,7 +81,7 @@ then we can construct a canonically defined term $J(t;x,y,p):C(x,y,p)$ for *any*
 
 A particular case is when $C$ is a term representing a proposition according to the propositions-as-types philosophy.  In this case, the elimination rule says that in order to prove a statement is true about all $x,y,p$, it suffices to prove it in the special case for $x,x,r(x)$.
 
-Finally, we have the "computation" or [[∞-reduction]] rule.  This says that if we substitute along a reflexivity proof, nothing happens.
+Finally, we have the "computation" or [[β-reduction]] rule.  This says that if we substitute along a reflexivity proof, nothing happens.
 
 **[[computation rule]]**
 
@@ -115,7 +115,7 @@ The difference here is that now $x$ is a *parameter* of the inductive definition
 ### Extensionality and $\eta$-conversion
  {#EtaConversion}
 
-Almost all types in type theory can be given both [[∞-reduction]] and [[∞-reduction]] rules.  $\beta$-reduction specifies what happens when we apply an eliminator to a term obtained by a constructor; $\eta$-reduction specifies the reverse.  Above we have formulated only the $\beta$-reduction rule for identity types; the $\eta$-conversion rule would be the following:
+Almost all types in type theory can be given both [[β-reduction]] and [[η-reduction]] rules.  $\beta$-reduction specifies what happens when we apply an eliminator to a term obtained by a constructor; $\eta$-reduction specifies the reverse.  Above we have formulated only the $\beta$-reduction rule for identity types; the $\eta$-conversion rule would be the following:
 
 $$\frac{\Gamma, x:A, y:A, p:Id_A(x,y), \Delta(x,y,p) \vdash C(x,y,p):Type \qquad
 \Gamma, x:A, y:A, p:Id_A(x,y), \Delta(x,x,r(x)) \vdash t : C(x,y,p)}
