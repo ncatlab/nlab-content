@@ -12,6 +12,8 @@ on [[monoidal functors]], [[combinatorial species]] and [[Hopf algebras]].
 
 ## related entries
 
+* [[Hopf monoid]]
+* [[partition]]
 * [[shuffle]]
 
 category: reference
