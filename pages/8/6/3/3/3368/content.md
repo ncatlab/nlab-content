@@ -154,7 +154,7 @@ Section 4.4.5 of
 
 Formalization in [[homotopy type theory]]:
 
-* {#Shulman14} [[Mike Shulman]], _[Splitting idempotents](http://homotopytypetheory.org/2014/12/08/splitting-idempotents/)_ 2014
+* {#Shulman14} [[Mike Shulman]], _Idempotents in intensional type theory_, [arXiv:1507.03634](https://arxiv.org/abs/1507.03634), [blog post](http://homotopytypetheory.org/2014/12/08/splitting-idempotents/)
 
 [[!redirects idempotent complete (∞,1)-category]]
 [[!redirects idempotent-complete (infinity,1)-category]]
