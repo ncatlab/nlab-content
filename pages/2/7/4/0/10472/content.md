@@ -32,7 +32,7 @@ A [[homomorphism]] between pointed topological space $(X,x)$ $(Y,y)$ is a [[cont
 
 ### The category of pointed topological spaces
 
-Stated in the language of [[category theory]], this mean that pointed topological spaces are the _[[pointed objects]]_ in the [[category]] [[Top]] of topological spaces. This is the [[coslice category]] $Top^{\ast/}$ of topological spaces "under" the [[point space]] $\ast$:
+Stated in the language of [[category theory]], this means that pointed topological spaces are the _[[pointed objects]]_ in the [[category]] [[Top]] of topological spaces. This is the [[coslice category]] $Top^{\ast/}$ of topological spaces "under" the [[point space]] $\ast$:
 
 an [[object]] in $Top^{\ast/}$ is equivalently a [[continuous function]] $x \colon \ast  \to (X,\tau)$, which is equivalently just a choice of point in $X$, and a [[morphism]] in $Top^{\ast/}$ is a morphism $f \colon X \to Y$ in [[Top]] (hence a continuous function), such that this triangle [[diagram]] [[commuting diagram|commutes]]
 
