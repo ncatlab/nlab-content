@@ -7,7 +7,7 @@ This conjecture is known to be false, hence the refinement of the [[Hodge conjec
 
 ## Counterexamples
 
-The integral Hodge conjecture fails in two ways: 
+The integral Hodge conjecture can fail in two ways: 
 
 * There are [[torsion]] [[cohomology classes]] which are not [[algebraic cycle|algebraic]].
 * There are [[cohomology classes]] of infinite [[order of a group|order]] which are not [[algebraic cycle|algebraic]], but for which some multiple is algebraic.
