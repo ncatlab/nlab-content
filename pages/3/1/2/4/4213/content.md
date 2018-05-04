@@ -23,6 +23,8 @@ _Doctrinal Adjunction_ is the title of a 1974 paper ([Kelly](#Kelly)) that gives
 
 Here $T$-$Alg_l$ is the 2-category of strict $T$-algebras, [[lax morphism|lax T-morphisms]], and $T$-transformations, but the result works as well for pseudo algebras.
 
+The term 'doctrinal' refers to the concept [[doctrine]], in particular to its definition as a [2-monad](doctrine#as_2monads).
+
 
 ## Statement
 
