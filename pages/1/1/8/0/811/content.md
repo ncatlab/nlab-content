@@ -159,6 +159,7 @@ Pseudo functors and non abelian weak equivalences, in "Categorical algebra and i
 [[!redirects fibred strict n-category]]
 
 [[!redirects 2-fibration]]
+[[!redirects 2-fibrations]]
 [[!redirects fibered 2-category]]
 [[!redirects fibred 2-category]]
 [[!redirects fibered bicategory]]
