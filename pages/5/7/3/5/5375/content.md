@@ -59,7 +59,7 @@ There is some discussion of the area in
 * {#Grothendieck} [[Alexander Grothendieck]], _[[Esquisse d'un programme]]_
  (1984).
 
-In [Grothendieck 84](#Grothendieck) one finds: "... C’est au cours de ce travail ("[[Long March]]") aussi (mais développé dans des notes distinctes) qu’apparaît le thème central de la géométrie algébrique anabélienne ..." there is a project to edit and transcribe this note: [Anabelian notes](https://github.com/gcarmonamateo/LaLongueMarcheAnabelian)
+In [Grothendieck 84](#Grothendieck) one finds: "... C’est au cours de ce travail ("[[Long March]]") aussi (mais développé dans des notes distinctes) qu’apparaît le thème central de la géométrie algébrique anabélienne (...) c’est alors que se dégage la “conjecture fondamentale de la géométrie algébrique anabélienne”, proche des conjectures de Mordell et de Tate que vient de démontrer Faltings." there is a project to edit this note: [Anabelian notes](https://github.com/gcarmonamateo/LaLongueMarcheAnabelian)
 
 A relation with the theory of [[motive]]s is in
 
