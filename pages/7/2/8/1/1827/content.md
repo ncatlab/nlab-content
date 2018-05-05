@@ -7,7 +7,7 @@
 
 In [[set theory]] and the [[foundations]] of mathematics, the axiom of __fullness__ is an axiom intermediate in strength between the existence of [[power sets]] and [[function sets]].  Of course, these can only be distinguished in [[constructive mathematics]], since classically power sets and function sets are equivalent (at least if you have the set $\mathbf{2} = \{\top, \bot\}$).
 
-The axiom of __subset collection__ combines fullness with of the [[axiom of collection]] to apply in the situations where fullness is used.  In the presence (I think) of either collection or [[full separation]], subset collection is equivalent to fullness.
+The axiom of __subset collection__ combines fullness with the [[axiom of collection]] to apply in the situations where fullness is used.  In the presence (I think) of either collection or [[full separation]], subset collection is equivalent to fullness.
 
 
 ## Statements
