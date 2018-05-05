@@ -38,6 +38,10 @@ A textbook providing the big picture is
 
 *  Shun-ichi Amari, Hiroshi Nagaoka, _Methods of information geometry_, Transactions of mathematical monographs; v. 191, American Mathematical Society, 2000. 
 
+For a series of articles, see
+
+* [[John Baez]], [Information Geometry](http://math.ucr.edu/home/baez/information/)
+
 
 Lecture notes include
 
