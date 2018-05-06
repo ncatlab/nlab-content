@@ -1,6 +1,8 @@
 For convenience we assume below that $M$ is a $G$-[[module]], it does not in general have to be abelian and it suffices to have it a $G$-[[group]].
 
 
+## Derivations:
+
 Suppose $G$ is a [[group]] and $M$ a $G$-[[module]] and let $\delta : G \to M$ be a __derivation__. This means $\delta(g_1g_2) = \delta(g_1) +g_1\delta(g_2)$ for all $g_1, g_2 \in G$.  (Note: *not* $\delta(g_1)g_2 + g_1\delta(g_2)$ as for the other notion of [[derivation]].)
 
 For calculations, the following lemma is very valuable, although very simple to prove.
@@ -30,7 +32,9 @@ $$\delta(1) = \delta(g^{-1}g) = \delta(g^{-1}) + g^{-1}\delta(g)$$
 to get (2), and finally induction to get (3).
 =--
 
-###Remark:
+##Remarks and examples:
+
+
 
 The [[Fox derivatives]] are examples.  It is worth noting that this lemma allows a simplification of the conditions given there (as noted there).
 
@@ -45,4 +49,17 @@ $$ \frac{\partial r}{\partial u} = 1 + u v - u v u v^{-1} u^{-1},$$
 $$ \frac{\partial r}{\partial v} = u - u v u v^{-1} -  u v u v^{-1} u^{-1} v^{-1}.$$
 This relation, $r$, is the typical [[braid group]] relation, here in $Br_3$.
 
+##Relative derivations
 
+These are a useful relative form of derivation. The notion is often avoided as it can easily be reduced to the more standard form above.
+
+Let  $\varphi  : H \rightarrow  G$  be a   homomorphism of  groups. 
+ A  _$\varphi $-derivation_ from a group to a module,
+
+$$\partial  : H \rightarrow  M,$$ 
+                               
+from  $H$  to a left  $\mathbb{Z}[G]$-module,  $M$,  is a mapping from  $H$  to  $M$,  which satisfies the equation
+
+$$\partial (h_1 h_2 ) = \partial (h_1 ) + \varphi (h_1)\partial (h_2 )$$
+  
+for all  $h_1$, $h_2  \in  H$. 
