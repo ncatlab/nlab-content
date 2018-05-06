@@ -16,13 +16,24 @@
 
 ## Idea
 
-An _ADE singularity_ is an [[orbifold]] [[fixed point]] locally of the form $\mathbb{C}^2\sslash\Gamma$ with $\Gamma \hookrightarrow SU(2)$ a [[finite group|finite]] [[subgroup]] of the [[special unitary group]] given by the [[ADE classification]] (and $SU(2)$ is understood with its defining linear [[action]] on the [[complex numbers|complex]] [[vector space]] $\mathbb{C}^2$).
+An _ADE singularity_ is an [[orbifold]] [[fixed point]] locally of the form $\mathbb{C}^2\sslash\Gamma$ with $\Gamma \hookrightarrow SU(2)$ a [[finite subgroup of SU(2)]] given by the [[ADE classification]] (and $SU(2)$ is understood with its defining linear [[action]] on the [[complex numbers|complex]] [[vector space]] $\mathbb{C}^2$).
+
+## Properties
+
+### Resolution by spheres touching along a Dynkin diagram
+ {#ResolutionBySpheresTouchingAlongADynkinDiagram}
+
+The [[blow-up]] of an ADE-singularity is given by a [[union]] of [[Riemann spheres]] that touch each other such as to form the shape of the [[Dynkin diagram]] whose A-D-E label corresponds to that of the given [[finite subgroup of SU(2)]].
+
+This statement is originally due to ([duVal 1934 I, p. 1-3 (453-455)](#duVal1934I)). A description in terms of [[hyper-Kähler geometry]] is due to [Kronheimer 89a](#Kronheimer89a).
+
+Quick survey of this fact is in [Reid 87](#Reid87), a textbook account is [Slodowy 80](#Slodowy80).
 
 <div style="float:left;margin:0 10px 10px 0;"><img src="http://ncatlab.org/nlab/files/ADE2Cycle.jpeg" width="200" alt="ADE 2Cycle" /></div> 
  
-These singularities have [[crepant resolutions]], obtained by repeatedly [[blow-up|blowing up]] at singular points. The resulting exceptional fiber (the blow-up of the singular point, an [[ALE space]]) is a [[union]] of [[Riemann spheres]] that touch each other such as to form the shape of the corresponding [[Dynkin diagram]].
-
 > (graphics grabbed from [Wijnholt 14, part III](string+phenomenology#Wijnholt14))
+
+$\,$
 
 [[!include ADE -- table]]
 
@@ -42,11 +53,11 @@ These singularities have [[crepant resolutions]], obtained by repeatedly [[blow-
 
 Original articles include
 
-* [[Patrick du Val]],  (1934a), "On isolated singularities of surfaces which do not affect the conditions of adjunction. I", Proceedings of the Cambridge Philosophical Society, 30 (4): 453–459, [doi:10.1017/S030500410001269X](https://doi.org/10.1017/S030500410001269X) 
+* {#duVal1934I} [[Patrick du Val]],  (1934a), "On isolated singularities of surfaces which do not affect the conditions of adjunction. I", Proceedings of the Cambridge Philosophical Society, 30 (4): 453–459, [doi:10.1017/S030500410001269X](https://doi.org/10.1017/S030500410001269X) 
 
-* [[Patrick du Val]],  (1934b), "On isolated singularities of surfaces which do not affect the conditions of adjunction. II", Proceedings of the Cambridge Philosophical Society, 30 (4): 460–465, [doi:10.1017/S0305004100012706](https://doi.org/10.1017/S0305004100012706)
+* {#duVal1934II} [[Patrick du Val]],  (1934b), "On isolated singularities of surfaces which do not affect the conditions of adjunction. II", Proceedings of the Cambridge Philosophical Society, 30 (4): 460–465, [doi:10.1017/S0305004100012706](https://doi.org/10.1017/S0305004100012706)
 
-* [[Patrick du Val]],  (1934c), "On isolated singularities of surfaces which do not affect the conditions of adjunction. III", Proceedings of the Cambridge Philosophical Society, 30 (4): 483–491, [doi:10.1017/S030500410001272X](https://doi.org/10.1017/S030500410001272X)
+* {#duVal1934III} [[Patrick du Val]],  (1934c), "On isolated singularities of surfaces which do not affect the conditions of adjunction. III", Proceedings of the Cambridge Philosophical Society, 30 (4): 483–491, [doi:10.1017/S030500410001272X](https://doi.org/10.1017/S030500410001272X)
 
 Textbook accounts include
 
@@ -58,6 +69,11 @@ Textbook accounts include
 
   (The last formula on page 409 has a typo: there should be no $r$ in the [[denominator]].)
 
+Discussion in terms of [[hyper-Kähler geometry]]:
+
+* {#Kronheimer89a} [[Peter Kronheimer]], _The construction of ALE spaces as hyper-K&#228;hler quotients_, J. Differential Geom. Volume 29, Number 3 (1989), 665-683. ([euclid:1214443066](https://projecteuclid.org/euclid.jdg/1214443066))
+
+* {#Kronheimer89b} [[Peter Kronheimer]], _A Torelli-type theorem for gravitational instantons_, J. Differential Geom. Volume 29, Number 3 (1989), 685-697 ([euclid:1214443067](https://projecteuclid.org/euclid.jdg/1214443067))
 
 Reviews and lecture notes include
 
