@@ -34,11 +34,11 @@ to get (2), and finally induction to get (3).
 
 ##Remarks and examples:
 
+* There is a mapping from $G$ to its [[augmentation ideal]], $I(G)$, defined by $d_G(g)= g-e_G$.  This is the [[universal derivation]] towards $G$-modules.  
 
+* The [[Fox derivatives]] are examples of derivations.  It is worth noting that this lemma allows a simplification of the conditions given there (as noted there).
 
-The [[Fox derivatives]] are examples.  It is worth noting that this lemma allows a simplification of the conditions given there (as noted there).
-
-###Example (using the [[Fox derivative]] w.r.t a generator)
+###Example calculation using the [[Fox derivative]] w.r.t a generator.
 
  Let $X = \{u,v\}$, with $r \equiv u v u v^{-1} u^{-1} v^{-1} \in F = F(u,v),$ then
 
