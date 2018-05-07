@@ -288,6 +288,9 @@ We therefore have an element of $|X|$ which distinguishes between the induced ma
 Hence $X$ is $F$--concrete.
 =--
 
+### Examples
+
+When $\mathcal{T}$ is a [[poset]], the category of saturated objects in its Isbell envelope coincides with its [[MacNeille completion]].
 
 ## References
 
