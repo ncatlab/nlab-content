@@ -989,6 +989,7 @@ Further physics texts include
 
 * {#IbanezUranga12} [[Luis Ibáñez]], [[Angel Uranga]], section 2 of _[[String Theory and Particle Physics -- An Introduction to String Phenomenology]]_, Cambridge University Press 2012
 
+* Howard E. Haber, Laurel Stephenson Haskins, _Supersymmetric Theory and Models_ ([arXiv:1712.05926](https://arxiv.org/abs/1712.05926))
 
 More mathematical accounts include
 
