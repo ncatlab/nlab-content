@@ -6,7 +6,7 @@
 
 ## Idea
 
-The notion of _initial Θ-theta data_ was introduced by [[Shinichi Mochizuki]] in §3 of [Inter-Universal Teichmüller theory I](#MochizukiIUTTI) as the starting point for the notion of a [[chain of Θ-Hodge theatres]].
+The notion of _initial Θ-theta data_ was introduced by [[Shinichi Mochizuki]] in §3 of [Inter-Universal Teichmüller theory I](#MochizukiIUTTI) as the starting point for [[inter-universal Teichmüller theory]].
 
 ## Notation
 
@@ -14,7 +14,7 @@ In order to understand the definition, we recall a little notation.
 
 1) Given a field $F$, the notation $E / F$ means that $E$ is a [[field extension]] of $F$. 
 
-2) Given a field $F$, the notation $\overline{F}$ means that we have an [[algebraic closure]] of $F$.  
+2) Given a field $F$, the notation $\overline{F}$ denotes an [[algebraic closure]] of $F$.  
 
 ## Definition
 
