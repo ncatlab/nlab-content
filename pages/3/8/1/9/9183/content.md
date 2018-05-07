@@ -61,8 +61,7 @@ Review includes
 
 * {#Resonaances} Resonaances, _[How many neutrinos in the sky](http://resonaances.blogspot.de/2013/01/how-many-neutrinos-in-sky.html)_
 
-* [[Ethan Siegel]], _[Seven independent pieces of evidence for dark matter](https://medium.com/starts-with-a-bang/7-independent-pieces-of-evidence-for-dark-matter-3692126a2283)_, _[Ten things everyone should know about dark matter](https://medium.com/starts-with-a-bang/10-facts-everyone-should-know-about-dark-matter-1ce2b222cf08)_ 2015
-
+* {#Hooper18} [[Daniel Hooper]], _In Defense of Dark Matter_, 2018 ([web](http://online.kitp.ucsb.edu/online/cdm-c18/hooper/))
 
 ### Evidence
  {#Evidence}
