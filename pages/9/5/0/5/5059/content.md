@@ -904,7 +904,7 @@ Review from the bigger perspective that also includes worlsheet supermanifolds i
 
 The observation that the Green-Schwarz action functional is an example of a [[WZW-model]] on [[super-Minkowski spacetime]] is due to
 
-* {#HenneauxMezincescu85} [[Marc Henneaux]], Luca Mezincescu, _A Sigma Model Interpretation of Green-Schwarz Covariant Superstring Action_, Phys.Lett. B152 (1985) 340 ([web](http://inspirehep.net/record/15922?ln=en))
+* {#HenneauxMezincescu85} [[Marc Henneaux]], Luca Mezincescu, _A Sigma Model Interpretation of Green-Schwarz Covariant Superstring Action_, Phys.Lett. B152 (1985) 340 ([web](http://inspirehep.net/record/15922?ln=en), <a href="https://doi.org/10.1016/0370-2693(85)90507-6">arXiv:10.1016/0370-2693(85)90507-6</a>)
 
 For more references on this WZW perspective see [below](#ReferencesWZWTerm).
 
