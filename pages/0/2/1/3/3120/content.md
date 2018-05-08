@@ -63,7 +63,7 @@ Let $(L \dashv R)$ a pair of [[adjoint (∞,1)-functors]] such that
 
 1. and $R$ preserves these
 
-then for $T \coloneqq R \circ L$ the essentially unique $(\infty,1)$-endomorphism monad structure on the composite endofunctor, there is an [[equivalence of (∞,1)-categories]] identifying the [[domain]] of $R$ with the [[(∞,1)-category of algebras over an (∞,1)-monad]] $Alg_{\mathcal{C}}(T)$ over $T$ and $R$ itself as the canonical [[forgetful functor]] $U$ from prop. \ref{CanonicalMonadicAdjunction}.
+then for $T \coloneqq R \circ L$ the essentially unique $(\infty,1)$-monad structure on the composite endofunctor, there is an [[equivalence of (∞,1)-categories]] identifying the [[domain]] of $R$ with the [[(∞,1)-category of algebras over an (∞,1)-monad]] $Alg_{\mathcal{C}}(T)$ over $T$ and $R$ itself as the canonical [[forgetful functor]] $U$ from prop. \ref{CanonicalMonadicAdjunction}.
 
 =--
 
