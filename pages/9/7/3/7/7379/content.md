@@ -14,7 +14,7 @@ Quasi-topological spaces today seem to be regarded mostly as a historical curios
 
 Let $\mathcal{C H}$ be the [[category]] of [[compact Hausdorff space|compact Hausdorff spaces]]. This may be regarded as a (large) [[site]] with the topology of finite coverings, in fact a [[concrete site]]. 
 
-+-- {: .un_def}
++-- {: .un_defn}
 ###### Definition 
 A **quasi-topological space** is a (small-set valued) [[concrete sheaf]] on $\mathcal{C H}$. 
 =-- 
