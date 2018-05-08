@@ -65,6 +65,9 @@ Textbook accounts include
 
 * {#Slodowy80} [[Peter Slodowy]], _Simple singularities and simple algebraic groups_, in Lecture Notes in Mathematics 815, Springer, Berlin, 1980.
 
+* {#Lamotke86} [[Klaus Lamotke]], chapter IV of _Regular Solids and Isolated Singularities_, Vieweg, Braunschweig, Wiesbaden 1986.
+
+
 * {#Reid87} [[Miles Reid]], _Young persons guide to canonical singularities, in [[Spencer Bloch]] (ed.), _[Algebraic geometry -- Bowdoin 1985, Part 1](https://www.ams.org/books/pspum/046.1/)_, Proc. Sympos. Pure Math. 46 Part 1, Amer. Math. Soc., Providence, RI, 1987, pp. 345-414 ([pdf](http://www.maths.ed.ac.uk/cheltsov/quotient/pdf/reid3.pdf))
 
   (The last formula on page 409 has a typo: there should be no $r$ in the [[denominator]].)
