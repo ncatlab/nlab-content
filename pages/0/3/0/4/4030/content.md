@@ -244,6 +244,13 @@ For $C = $ [[CartSp]] the [[site]] of [[Cartesian spaces]] with its [[good open 
 
 =--
 
++-- {: .num_example #LCC}
+###### Example
+
+Every locally connected geometric morphism is a [[locally cartesian closed functor]].
+
+=--
+
 +-- {: .num_example}
 ###### Example
 
@@ -279,7 +286,7 @@ $$
     \dashv 
   (\pi^\ast \simeq i_! \simeq Lan_i) 
    \dashv 
-  (pi_\ast \simeq i^\ast )
+  (\pi_\ast \simeq i^\ast )
     \dashv
   (\pi^! \simeq i_* \simeq Ran_i)
   \;\colon\;
