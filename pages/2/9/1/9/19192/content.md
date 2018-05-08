@@ -6,9 +6,9 @@
 
 including
 
-* Semisimpliziale Algebraische Topologie. Springer, Berlin, Heidelberg 1968
+* _Semisimpliziale Algebraische Topologie_, Springer, Berlin, Heidelberg 1968
 
-* Regular Solids and Isolated Singularities. Vieweg, Braunschweig, Wiesbaden 1986.
+* _Regular Solids and Isolated Singularities_, Vieweg, Braunschweig, Wiesbaden 1986.
 
 ## related $n$Lab entries
 
