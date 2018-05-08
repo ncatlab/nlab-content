@@ -66,7 +66,7 @@ While that does explain a bit, it seems the statement that both the [[icosahedra
 
 The first key insight is due to [Kronheimer 89](#Kronheimer89). He showed that the (resolutions of) the [[orbifold]] quotients $\mathbb{C}^2/\Gamma$ for finite subgroups $\Gamma$ of $SU(2)$ are precisely the generic form of the [[gauge group|gauge]] [[orbits]] of the [[direct product group]] of $U(n_i)$s acting in the evident way on the [[direct sum]] of $Hom(\mathbb{C}^{n_i}, \mathbb{C}^{n_j})$-s, where $i$ and $j$ range over the vertices of the [[Dynkin diagram]], and $(i,j)$ over its edges.
 
-This becomes more illuminating when interpreted in terms of [[gauge theory]]: in a [[quiver gauge theory]] the [[gauge group]] is a [[direct product group]] of  $U(n_i)$ factors associated with vertices of a [[quiver]], and the [[particles]] which are [[charged particle|charged]] under this gauge group arrange, as a [[linear representation]], into a 8[direct sum]] of $Hom(\mathbb{C}^{n_i}, \mathbb{C}^{n_j})$-s, for each edge of the quiver. 
+This becomes more illuminating when interpreted in terms of [[gauge theory]]: in a [[quiver gauge theory]] the [[gauge group]] is a [[direct product group]] of  $U(n_i)$ factors associated with vertices of a [[quiver]], and the [[particles]] which are [[charged particle|charged]] under this gauge group arrange, as a [[linear representation]], into a [[direct sum]] of $Hom(\mathbb{C}^{n_i}, \mathbb{C}^{n_j})$-s, for each edge of the quiver. 
 
 Pick one such particle, and follow it around as the gauge group transforms it. The space swept out is its gauge [[orbit]], and [Kronheimer 89](#Kronheimer89) says that if the quiver is a Dynkin diagram, then this gauge orbit looks like $\mathbb{C}^2/\Gamma$.
 
@@ -76,7 +76,7 @@ Now here is the final ingredient: it is [[N=2 D=4 super Yang-Mills theory]] ("[[
 
 More precisely, these theories have two different kinds of vacua, those on the "[[Coulomb branch]]" and those on the "[[Higgs branch]]" depending on whether the scalars of the "[[vector multiplets]]" (the gauge field sector) or of the "[[hypermultiplet]]" (the matter field sector) vanish. The statement above is for the Higgs branch, but the Coulomb branch is supposed to behave "dually".
 
-So that then finally is the relation, in the ADE classification, between the simple Lie groups and the finite subgroups of SU(2): start with an N=2 super Yang Mills theory with gauge group a simpe Lie group. Let it spontaneously find its vacuum and consider the orbit space of the remaining spontaneously broken symmetry group. That is (a resolution of) the orbifold quotient of $\mathbb{C}^2$ by a discrete subgroup of $SU(2)$.
+So that then finally is the relation, in the ADE classification, between the simple Lie groups and the finite subgroups of SU(2): start with an N=2 super Yang Mills theory with gauge group a simple Lie group. Let it spontaneously find its vacuum and consider the orbit space of the remaining spontaneously broken symmetry group. That is (a resolution of) the orbifold quotient of $\mathbb{C}^2$ by a discrete subgroup of $SU(2)$.
 
 
 
