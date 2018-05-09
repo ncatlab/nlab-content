@@ -40,7 +40,7 @@ which compares the categories of projective integral $\mathbb{C}$-schemes of fin
 
 * [[Alexander Grothendieck]], [[SGA]] I, Expos&#233; XII
 
-this was generalized to acomparison of proper $\mathbb{C}$-schemes locally of finite type and complex analytic spaces.
+this was generalized to a comparison of proper $\mathbb{C}$-schemes locally of finite type and complex analytic spaces.
 
 A good modern textbook account is in
 
