@@ -254,7 +254,7 @@ Hovey wants this result in view of a [[small object argument]] on the way to pro
 
 Compact objects are discussed under the term "finitely presentable" or "finitely-presentable" objects for instance in
 
-* {#AdamekRosicky94} [[Ji?í Adámek]], [[Ji?í Rosický]], _[[Locally Presentable and Accessible Categories]]_, Cambridge University Press in the London Mathematical Society Lecture Note Series, number 189, (1994)
+* {#AdamekRosicky94} [[Jiří Adámek]], [[Jiří Rosický]], _[[Locally Presentable and Accessible Categories]]_, Cambridge University Press in the London Mathematical Society Lecture Note Series, number 189, (1994)
 
 *  [[Masaki Kashiwara]], [[Pierre Schapira]], around Definition 6.3.3 of _[[Categories and Sheaves]]_;
 
