@@ -13,3 +13,5 @@
 * [[quantization of Yang-Mills theory]]
 
 category: people
+
+[[!redirects Pawel Duch]]
