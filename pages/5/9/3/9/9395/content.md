@@ -52,7 +52,7 @@ Let $X,Y $ be [[topological spaces]].
    by the [[equivalence relation]]  given by
 
    $$
-     (x_1,0) \sim (x_1,0) \;\,,\;\;  (x_1, 1) \sim (x_2, 1) \;\;\; \forall x_1,x_2 \in X
+     (x_1,0) \sim (x_2,0) \;\,,\;\;  (x_1, 1) \sim (x_2, 1) \;\;\; \forall x_1,x_2 \in X
    $$
 
 1. The [[join of topological spaces|join]] $X \ast Y$ is the [[quotient space]]
