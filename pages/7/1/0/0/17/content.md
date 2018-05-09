@@ -695,6 +695,8 @@ To upload a file, proceed as follows:
 1. in the rendered entry, find a grayish link labeled "FileName.xyz" followed by a question mark;
 
 1. click on the question mark to open an upload dialogue and follow the instructions there;
+
+   notice that the dialogue field "Description" is asking for the text that will appear hyperlinked to your file. If you put not text here, no link to your file will appear by itself;
   
 1. complete the dialogue by hitting "upload";
 
