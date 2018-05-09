@@ -17,7 +17,7 @@
 
 ## Idea
 
-The theory of [[11-dimensional supergravity]] contains a higher [[gauge field]] -- the [[supergravity C-field]] -- that naturally couples to higher electrically charged 2-[[brane]]s ([[membrane]]s). By a process called _[[double dimensional reduction]]_, these are related to [[superstrings]] ([Bergshoeff-Sezgin-Townsend 87](#BergshoeffSezginTownsend87)). (See at _[[duality between M-theory and type IIA string theory]]_.)
+The theory of [[11-dimensional supergravity]] contains a higher [[gauge field]] -- the [[supergravity C-field]] -- that naturally couples to higher electrically charged 2-[[branes]], [[membranes]] ([Bergshoeff-Sezgin-Townsend 87](#BergshoeffSezginTownsend87)). By _[[double dimensional reduction]]_, these turn into the [[superstrings]] of [[type IIA string theory]] ([Duff-Howe-Inami-Stelle 87](#DuffHoweInamiStelle87)). (See at _[[duality between M-theory and type IIA string theory]]_.)
 
 When in ([Witten95](#Witten95)) it was argued that the 10-dimensional [[target space]] theories of the five types of [[string theory|superstring theories]] are all limiting cases of one single 11-dimensional target space theory that extends [[11-dimensional supergravity]] ([[M-theory]]), it was natural to guess that this supergravity membrane accordingly yields a 3-dimensional [[sigma-model]] that reduces in limiting cases to the [[string]] [[sigma-models]].
 
@@ -130,24 +130,31 @@ _[AdS4-CFT3 duality](AdS-CFT#AdS4CFT3)_. ([Maldacena 97, section 3.2](#Maldacena
 
 The [[Green-Schwarz sigma-model]]-type formulation of the supermembrane (as in the [[brane scan]]) first appears in 
 
-* {#BergshoeffSezginTownsend87} [[Eric Bergshoeff]], [[Ergin Sezgin]], and [[Paul Townsend]], _Supermembranes and eleven-dimensional supergravity_, Phys. Lett. B189 (1987) 75&#8211;78. ([pdf](http://streaming.ictp.trieste.it/preprints/P/87/010.pdf))
+* {#BergshoeffSezginTownsend87} [[Eric Bergshoeff]], [[Ergin Sezgin]], and [[Paul Townsend]], _Supermembranes and eleven-dimensional supergravity_, Phys. Lett. B189 (1987) 75&#8211;78. ([spire:248230](http://inspirehep.net/record/248230/))
   
-and its [[quantization]] was first explored in 
+and its [[quantization]] of the was first explored in 
 
 * [[Bernard de Wit]], [[Jens Hoppe]], [[Hermann Nicolai]], _On the Quantum Mechanics of Supermembranes_, Nucl. Phys. B305 (1988) 545. ([pdf](http://pubman.mpdl.mpg.de/pubman/item/escidoc:153408:1/component/escidoc:153407/353961.pdf), [[deWitHoppeNicolai88.pdf:file]])
 
 
 * [[Bernard de Wit]], W. L&#252;scher, [[Hermann Nicolai]], _The supermembrane is unstable_, Nucl. Phys. B320 (1989) 135. 
 
+The [[double dimensional reduction]] of the M2-brane to the [[Green-Schwarz superstring]] was observed in
+
+* {#DuffHoweInamiStelle87} [[Michael Duff]], [[Paul Howe]], T. Inami, [[Kellogg Stelle]], _Superstrings in $D=10$ from Supermembranes in $D=11$_, Phys. Lett. B191 (1987) 70 and in [[Michael Duff]] (ed.) _[[The World in Eleven Dimensions]]_ 205-206 (1987) ([spire](http://inspirehep.net/record/245249))
+
+
 
 The interpretation of the membrane as as an object related to [[string theory]], hence as the _M2-brane_ was proposed in 
 
-* [[Paul Townsend]], _The eleven-dimensional supermembrane revisited_ ([arXiv:hep-th/9501068](http://arxiv.org/abs/hep-th/9501068))
+* [[Paul Townsend]], _The eleven-dimensional supermembrane revisited_, Phys.Lett.B350:184-187, 1995 ([arXiv:hep-th/9501068](http://arxiv.org/abs/hep-th/9501068))
 
 around the time when [[M-theory]] became accepted due to
 
 * {#Witten95} [[Edward Witten]], _[[String Theory Dynamics In Various Dimensions]]_ ([arXiv:hep-th/9503124](http://arxiv.org/abs/hep-th/9503124))
  
+
+
 
 The interpretation related to the [[BFSS matrix model]] of [[D0-branes]] is discussed in some detail in 
 
