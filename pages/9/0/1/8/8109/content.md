@@ -162,11 +162,11 @@ Brief surveys include
 
 A lightning review of results by Henn with Goerss, Mahowald, Rezk, and Karamanov is in 
 
-* Hans-Werner Henn, _Recent developments in stable homotopy theory_ ([pdf](http://math.berkeley.edu/~aaron/saft/henn.pdf))
+* Hans-Werner Henn, _Recent developments in stable homotopy theory_ ([pdf](https://etale.site/livetex/saft/henn.pdf),)
 
 A collection of various lecture notes and other material is kept at
 
-* [Talbot 2013: Chromatic Homotopy Theory](http://math.mit.edu/conferences/talbot/), _[2013 Pre-Talbot Seminar Chromatic homotopy theoy](http://math.northwestern.edu/~htanaka/pretalbot2013/index.php?pageID=links)_
+* [Talbot 2013: Chromatic Homotopy Theory](http://math.mit.edu/conferences/talbot/index.php?year=2013), _[2013 Pre-Talbot Seminar Chromatic homotopy theoy](http://math.northwestern.edu/~htanaka/pretalbot2013/index.php?pageID=links)_
 
 Random useful discussion is in 
 
