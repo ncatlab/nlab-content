@@ -34,6 +34,14 @@ The archetypical example is 4-dimensional [[Einstein-Maxwell theory]], where the
 
 Generalizing to 4-dimensional [[Einstein-Yang-Mills theory]] with [[nonabelian group|nonabelian]] [[gauge group]], the situation becomes much more subtle. (...) 
 
-## Wikipedia 
+### In higher supergravity
+
+...
+
+## References
+
+* {#MisnerThorneWheeler73} [[Charles Misner]], [[Kip Thorne]], [[John Archibald Wheeler]], pp. 875–876 of _Gravitation_, San Francisco: W. H. Freeman. (1973)
+
+See also
 
 * Wikipedia, _[No-hair theorem](https://en.wikipedia.org/wiki/No-hair_theorem)_
