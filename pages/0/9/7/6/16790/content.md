@@ -27,18 +27,25 @@ The [[spacetime]] geometry of a [[black hole]] or [[black brane]] close to the [
 
 * Hari K. Kunduri, James Lucietti, _Classification of Near-Horizon Geometries of Extremal Black Holes_ ([web](http://relativity.livingreviews.org/Articles/lrr-2013-8/title.html))
 
-That the near horizon geometry of [[black branes]] in [[11-dimensional supergravity]] is [[anti de Sitter spacetime]] times some compact space is due to 
+That the near horizon geometry of the [[extremal black hole|extremal]] [[Reissner-Nordström black hole]] in $\mathcal{N}=2$ [[4d supergravity]] in $AdS_2 \times S^2$ was observed in 
 
-* [[Gary Gibbons]], [[Paul Townsend]], Phys. Rev. Lett. 71, (1993) 3754
+* [[Gary Gibbons]], in F. del Aguila, [[J. de Azcarraga]]], [[Luis Ibanez]] (eds.) _Supersymmetry, Supergravity and Related Topics_
+
+That the near horizon geometry of [[black branes]] in [[11-dimensional supergravity]] is [[anti de Sitter spacetime]] times some [[compact space]] is due to 
+
+* {#GibbonsTownsend93} [[Gary Gibbons]], [[Paul Townsend]], _Vacuum interpolation in supergravity via super p-branes_, Phys. Rev. Lett. 71, (1993) 3754 ([arXiv:hep-th/9307049](https://arxiv.org/abs/hep-th/9307049))
+
+*  {#DuffGibbonsTownsend94} [[Mike Duff]], [[Gary Gibbons]], [[Paul Townsend]], _Macroscopic superstrings as interpolating solitons_, Phys. Lett. B. 332 (1994) 32 ([arXiv:hep-th/9405124](https://arxiv.org/abs/hep-th/9405124))
+
+*  {#GibbonsHorowitzTownend95} [[Gary Gibbons]], [[Gary Horowitz]], [[Paul Townsend]], _Higher-dimensional resolution of dilatonic black hole singularities_, Class. Quant. Grav. 12 (1995) 297 ([arXiv:hep-th/9410073](https://arxiv.org/abs/hep-th/9410073))
 
 * [[Gary Gibbons]], Nucl. Phys. B207, (1982) 337;
 
 * [[Renata Kallosh]], [[Amanda Peet]], Phys. Rev. B46, (1992) 5223;
 
-* S. Ferrara, G. Gibbons and R. Kallosh,
-Nucl. Phys. B500, (1997) 75;
+* [[Sergio Ferrara]], [[Gary Gibbons]], [[Renata Kallosh]], Nucl. Phys. B500, (1997) 75;
 
-* [[Ali Chamseddine]], S. Ferrara, [[Gary Gibbons]], [[Renata Kallosh]], Phys. Rev. D55, (1997) 3647
+* [[Ali Chamseddine]], [[Sergio Ferrara]], [[Gary Gibbons]], [[Renata Kallosh]], Phys. Rev. D55, (1997) 3647
 
 The observation that the resulting [[isometry group]] is the bosonic body of one of the [[orthosymplectic super groups]] is due to
 
