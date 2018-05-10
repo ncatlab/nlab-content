@@ -92,10 +92,12 @@ Review includes
  
 * Wikipedia, _[Reissner-Nordstr&#246;m metric](https://en.wikipedia.org/wiki/Reissner&#8211;Nordstr&#246;m_metric)_
 
-That the [[near horizon geometry]] of the [[extremal black hole|extremal]] Reissner-Nordström black hole in $\mathcal{N}=2$ [[4d supergravity]] in 2d [[anti de Sitter spacetime]] times the [[2-sphere]], $AdS_2 \times S^2$, was observed in 
+That the [[near horizon geometry]] of the [[extremal black hole|extremal]] Reissner-Nordström black hole in 4d ins 2d [[anti de Sitter spacetime]] times the [[2-sphere]], $AdS_2 \times S^2$, was observed in 
 
 * [[Gary Gibbons]], in F. del Aguila, [[J. de Azcarraga]], [[Luis Ibanez]] (eds.) _Supersymmetry, Supergravity and Related Topics_
 
+
+   (see section 11.1 here: [pdf](http://www.hartmanhep.net/topics2015/11-nearhorizon.pdf) [[ExtremalReissnerNordstrom.pdf:file]])
 
 Discussion of interior solutions includes
 
@@ -132,6 +134,7 @@ General Relativity_, General Relativity and Gravitation, Vol. 19, No. 7, 1987
 * {#Burghardt09} Rainer Burghardt, _Reissner exterior and interior_ [arXiv:0902.0918](https://arxiv.org/abs/0902.0918)
 
 * {#GuptaKumarPratibha12} Gupta, Y. K.; Kumar, Jitendra; Pratibha, _A Class of Well Behaved Charged Analogues of Schwarzchild's Interior Solution_, International Journal of Theoretical Physics October 2012, Volume 51, Issue 10, pp 3290&#8211;3302 ([publisher](http://link.springer.com/article/10.1007%2Fs10773-012-1209-4))
+
 
 
 [[!redirects Reissner-Nordström spacetimes]]
