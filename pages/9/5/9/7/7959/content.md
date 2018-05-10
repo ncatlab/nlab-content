@@ -223,6 +223,10 @@ Principles singling out heterotic models with three generations of fundamental p
 
 * [[Philip Candelas]], [[Xenia de la Ossa]], Yang-Hui He, Balazs Szendroi, _Triadophilia: A Special Corner in the Landscape_, Adv.Theor.Math.Phys.12:2,2008 ([arXiv:0706.3134](http://arxiv.org/abs/0706.3134))
 
+See also 
+
+* Hajime Otsuka, _$SO(32)$ heterotic line bundle models_, ([arXiv:1801.03684](https://arxiv.org/abs/1801.03684))
+
 #### Type II / F-theory models
  {#ReferencesTypeIIModels}
 
