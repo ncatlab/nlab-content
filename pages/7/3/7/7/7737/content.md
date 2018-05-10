@@ -17,7 +17,7 @@
 
 A notion of _stratified space_ is supposed to be a notion of [[topological space]] that is not necessarily a [[manifold]], but which is [[filtered topological space|filtered]] into "strata" that are.
 
-Examples include [[polyhedra]], [[algebraic varieties]], [[orbit spaces]] of many group actions on manifolds and [[mapping cylinders]] of maps between manifolds.
+Examples include [[polyhedra]], [[algebraic varieties]], [[orbit spaces]] of many [[group]] [[actions]] on manifolds and [[mapping cylinders]] of maps between manifolds.
 
 ## Definitions
 
