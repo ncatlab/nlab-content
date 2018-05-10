@@ -1,4 +1,3 @@
-[[!redirects Reissner-Nordstrom spacetime]]
 
 
 +-- {: .rightHandSide}
@@ -65,7 +64,9 @@ $$
 
 The larger of the two solutions is an [[event horizon]], the other is a [[Cauchy horizon]]. In the case that they coincide, for $M = 2\sqrt{Q^2 + P^2}$, one speaks of an [[extremal black hole]] (at least when also $P = 0$).
 
-## Interior solutions
+## Properties
+
+### Interior solutions
  {#InteriorSolutions}
 
 Instead of having a mass and charge of singular support at the singular locus of the RN-spacetime, one may consider a finite mass and charge distribution, i.e. a "charged star". Outside of this mass/charge distribution then the metric is the RN-spacetime as above, but in the interior it becomes smoothed out to a non-singular interior solution.
@@ -91,8 +92,12 @@ Review includes
  
 * Wikipedia, _[Reissner-Nordstr&#246;m metric](https://en.wikipedia.org/wiki/Reissner&#8211;Nordstr&#246;m_metric)_
 
-Discussion of interior solutions includes
+That the [[near horizon geometry]] of the [[extremal black hole|extremal]] Reissner-Nordström black hole in $\mathcal{N}=2$ [[4d supergravity]] in 2d [[anti de Sitter spacetime]] times the [[2-sphere]], $AdS_2 \times S^2$, was observed in 
 
+* [[Gary Gibbons]], in F. del Aguila, [[J. de Azcarraga]], [[Luis Ibanez]] (eds.) _Supersymmetry, Supergravity and Related Topics_
+
+
+Discussion of interior solutions includes
 
 * {#GravesBrill60} Graves J. C., Brill D. R., _Oscillatory character of Reissner-Nordstr&#246;m metric for an ideal charged wormehole._ Phys. Rev. 120, 1507, 1960
 
@@ -128,5 +133,19 @@ General Relativity_, General Relativity and Gravitation, Vol. 19, No. 7, 1987
 
 * {#GuptaKumarPratibha12} Gupta, Y. K.; Kumar, Jitendra; Pratibha, _A Class of Well Behaved Charged Analogues of Schwarzchild's Interior Solution_, International Journal of Theoretical Physics October 2012, Volume 51, Issue 10, pp 3290&#8211;3302 ([publisher](http://link.springer.com/article/10.1007%2Fs10773-012-1209-4))
 
+
+[[!redirects Reissner-Nordström spacetimes]]
+
+[[!redirects Reissner-Nordstrom spacetime]]
+[[!redirects Reissner-Nordstrom spacetimes]]
+
+[[!redirects Reissner-Nordström black hole]]
+[[!redirects Reissner-Nordström black holes]]
+
+[[!redirects Reissner-Nordstrom black hole]]
+[[!redirects Reissner-Nordstrom black holes]]
+
+
 [[!redirects charged black hole]]
 [[!redirects charged black holes]]
+
