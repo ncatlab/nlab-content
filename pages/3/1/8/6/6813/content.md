@@ -80,7 +80,7 @@ Original articles include
 
 The [[M5-brane]] was maybe first found as a black brane of [[11-dimensional supergravity]] (the [[black fivebrane]]) in 
 
-* {#Gueven92} [[Rahmi Gueven]], _Black $p$-brane solutions of $D = 11$ supergravity theory, Phys. Lett. B276 (1992) 49 and in [[Mike Duff]] (ed.) _[[The World in Eleven Dimensions]]_ 135-141 ([spire](http://inspirehep.net/record/338203?ln=en))
+* {#Gueven92} [[Rahmi Gueven]], _Black $p$-brane solutions of $D = 11$ supergravity theory, Phys. Lett. B276 (1992) 49 and in [[Mike Duff]] (ed.) _[[The World in Eleven Dimensions]]_ 135-141 ([spire:338203](http://inspirehep.net/record/338203))
 
 The observation that black $p$-branes metric for _odd_ $p$ are completely non-singular is due to
 
