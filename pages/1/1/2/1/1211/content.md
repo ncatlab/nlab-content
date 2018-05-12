@@ -62,7 +62,7 @@ Let $S$ be equipped with a binary relation $\prec$.  A __[[bisimulation]]__ on $
 
 Finsler and Scott extensionality may be understood as special cases of this for particular bisimulations $\sim$.  (So can strong extensionality, since any set equipped with a relation has a weakest bisimulation $\approx$.)  This is the approach taken by Aczel to study all the above notions of extensionality together.
 
-In particuar, strong extensionality implies Scott extensionality, and the converse holds for well-founded relations.  Thus, all forms of extensionality are equivalent for well-founded relations.
+In particular, strong extensionality implies Scott extensionality, and the converse holds for well-founded relations.  Thus, all forms of extensionality are equivalent for well-founded relations.
 
 
 ## Examples
