@@ -21,7 +21,7 @@
 
 ## Idea
 
-The _store comonad_ (also _costate comonad_) is a co[[monad (in computer science)]] used to implement computational storage and retreaval of data in [[functional programming]].
+The _store comonad_ (also _costate comonad_) is a co[[monad (in computer science)]] used to implement computational storage and retrieval of data in [[functional programming]].
 
 As a comonadic triple $(D,\varepsilon,\delta)$ it is given by an [[endofunctor]],
 $$
