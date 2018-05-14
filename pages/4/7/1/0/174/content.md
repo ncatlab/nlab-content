@@ -207,6 +207,11 @@ See also
 
 * Wikipedia, _[Black hole electron](https://en.wikipedia.org/wiki/Black_hole_electron)_
 
+The terminology "$p$-brane" originates in
+
+* {#DuffInamiPopeSezginStelle88} [[Mike Duff]], T. Inami, [[Christopher Pope]], [[Ergin Sezgin]],  [[Kellogg Stelle]], _Semiclassical Quantization of the Supermembrane_, Nucl.Phys. B297 (1988) 515-538 ([spire:247064](http://inspirehep.net/record/247064))
+
+
 
 ### General
   
