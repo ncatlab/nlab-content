@@ -31,7 +31,7 @@ exists and has the structure of an abelian [[n-group|(n+1)-group]] object. This 
 
 ## Definition
 
-Details for the smooth case are at _[[smooth ∞-groupoid]]_ in the section _<a href="http://nlab.mathforge.org/nlab/show/smooth+infinity-groupoid#CircleLienGroup">circle Lie n-group</a>_ .
+Details for the smooth case are at _[[smooth ∞-groupoid]]_ in the section [circle Lie n-group](smooth+infinity-groupoid#CircleLienGroup).
 
 ## Examples
 
