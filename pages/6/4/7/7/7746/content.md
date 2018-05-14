@@ -172,6 +172,8 @@ Some applications are
 
 * [[Ben Knudsen]], _Betti numbers and stability for configuration spaces via factorization  homology_, [arXiv:1405.6696](http://arxiv.org/abs/1405.6696).
 
+* [[Quoc Ho]], _Densities and stability via factorization homology_, [arXiv:1802.07948](https://arxiv.org/abs/1802.07948).
+
 Application to higher [[Hochschild cohomology]] is discussed in 
 
 * [[Grégory Ginot]], Thomas Tradler, [[Mahmoud Zeinalian]], _Higher Hochschild cohomology, Brane topology and centralizers of $E_n$-algebra maps_, ([arXiv:1205.7056](http://arxiv.org/abs/1205.7056))
