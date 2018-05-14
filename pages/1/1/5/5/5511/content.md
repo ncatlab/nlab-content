@@ -23,7 +23,7 @@ See also at _[[1-epimorphism]]_. However, beware of the [[red herring principle]
 
 ## Definition
 
-+-- {: .num_def}
++-- {: .num_defn}
 ###### Definition
 
 A [[morphism]] $f : Y \to X$ in an [[(∞,1)-category]] is an **effective epimorphism** if it has a [[Cech nerve]], of which it is the [[(∞,1)-colimit]]; in other words the [[augmented simplicial set|augmented simplicial]] [[diagram]]
