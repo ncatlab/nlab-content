@@ -296,7 +296,9 @@ See also
 
 * {#Moreno04} Guillermo Moreno, _Hopf construction map in higher dimensions_ ([arXiv:math/0404172](https://arxiv.org/abs/math/0404172))
 
-*  Feza Guersey, Chia-Hsiung Tze (4b.2) in _On the role of Division, Jordan and Related algebras in Particle Physics_
+*  Feza Guersey, Chia-Hsiung Tze, (4b.2) in _On the role of Division, Jordan and Related algebras in Particle Physics_
+
+
 
 Discussion of the situation in [[parameterized homotopy theory]] includes
 
