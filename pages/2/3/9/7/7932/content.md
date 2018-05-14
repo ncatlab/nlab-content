@@ -1395,7 +1395,7 @@ Given an [[∞-group]] $G$ in $\mathbf{H}$ and a $G$-action, def. \ref{GActionBy
 
 =--
 
-We indicate two proofs, the first non-elementary (making use of the [[Giraud-Rezk-Lurie theorem]]), the second [[elementary (infinity,1)-topos|elementary]]. (Following [this](http://nforum.mathforge.org/discussion/4576/nimage/?Focus=51743#Comment_51743) discussion.)
+We indicate two proofs, the first non-elementary (making use of the [[Giraud-Rezk-Lurie theorem]]), the second [[elementary (infinity,1)-topos|elementary]]. (Following [this](http://nforum.ncatlab.org/discussion/4576/nimage/?Focus=51743#Comment_51743) discussion.)
 
 +-- {: .proof}
 ###### Proof
