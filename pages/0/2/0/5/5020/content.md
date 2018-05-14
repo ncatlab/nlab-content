@@ -31,9 +31,9 @@ is a [[monomorphism in an (∞,1)-category]] in [[∞Grpd]].
 ## Examples
  {#Examples}
 
-*  A morphism $A\to B$ of [[E-infinity rings]] is an epimorphism iff $B$ is smashing over $A$, i.e., if $B\wedge_A B\approx B$.
+* A morphism $A\to B$ of [[E-infinity rings]] is an epimorphism iff $B$ is smashing over $A$, i.e., if $B\wedge_A B\approx B$.
 
-* A morphis, $X\to Y$ between [[connected spaces]] is an epimorphism iff $Y$ is formed via a Quillen-plus construction from a [[perfect group|perfect]] [[normal subgroup]] of the [[fundamental group]] $\pi_1 X$.
+* A morphism $X\to Y$ between [[connected spaces]] is an epimorphism iff $Y$ is formed via a Quillen-plus construction from a [[perfect group|perfect]] [[normal subgroup]] of the [[fundamental group]] $\pi_1 X$.
 
 
 
