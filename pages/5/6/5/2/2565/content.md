@@ -12,7 +12,7 @@ More precisely,
 
 > [[Kullback-Leibler information]], or [[relative entropy]], features as a measure of [[divergence]] (not quite a [[metric]], because it's asymmetric), and [[Fisher information]] takes the role of [[curvature]]. One useful aspect of information geometry is that it gives a means to prove results about statistical models, simply by considering them as well-behaved geometrical objects. For instance, it's basically a tautology to say that a [[manifold]] is not changing much in the vicinity of points of low curvature, and changing greatly near points of high curvature. Stated more precisely, and then translated back into probabilistic language, this becomes the [[Cramer-Rao inequality]], that the variance of a parameter estimator is at least the reciprocal of the [[Fisher information]]. ([Shalizi](#Shalizi))
 
-One of the founders of the subject is Shun-ichi [Amari](http://www.brain.riken.jp/labs/mns/amari/home-E.html).
+Founders of the systematical theory are N. N. Chentsov and Shun-ichi [Amari](http://www.brain.riken.jp/labs/mns/amari/home-E.html).
 
 ## Definitions
 
@@ -31,11 +31,12 @@ For instance ([Amari, (2.1)](#AmariTextbook)).
 
 ## References
 
-A textbook providing the big picture is
+Textbooks providing the big picture
 
+* Nihat Ay, Jürgen Jost, Hông Vân Lê, Lorenz Schwachhöfer, _Information geometry, Ergeb. der Mathematik and ihrer Grenzgebiete 3. Folge, 64, Springer 2017
 * Shun-ichi Amari, O. E. Barndorff-Nielsen, R. E. Kass, S. L. Lauritzen, and C. R. Rao, _Differential geometry in statistical inference_ ([project Euclid](http://projecteuclid.org/euclid.lnms/1215467056))
  {#AmariTextbook}
-
+* Shun-ichi Amari, _Information geometry and its applications_, Applied Mathematical Sciences 194, Springer 2016
 *  Shun-ichi Amari, Hiroshi Nagaoka, _Methods of information geometry_, Transactions of mathematical monographs; v. 191, American Mathematical Society, 2000. 
 
 For a series of articles, see
