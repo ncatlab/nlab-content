@@ -51,7 +51,7 @@ Frequently one is especially interested in pretoposes having additional properti
 
 An __infinitary pretopos__ is an [[infinitary coherent category]] which is both [[infinitary extensive category|infinitary extensive]] and [[exact category|exact]].  Giraud\'s theorem says that infinitary pretoposes with small generating sets are the same as [[Grothendieck toposes]], and in particular are [[toposes]] (although this last result is not valid in [[predicative mathematics]]).
 
-
+An infinitary pretopos (perhaps with [[well-powered category|well-poweredness]] included) is sometimes called an "$\infty$-pretopos" (e.g. in the [[Elephant]]), but we avoid that term because of potential confusion with the notion of [[(∞,1)-pretopos]].
 
 ## Properties
 
