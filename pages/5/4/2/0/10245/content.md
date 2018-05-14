@@ -34,7 +34,7 @@ The original construction is in
 
 Discussion building on that includes
 
-* M. Rocek, [[Arkady Tseytlin]], _Partial breaking of global D=4 supersymmetry, constrained superfields, and 3-brane actions_,  	Phys.Rev.D59:106001, 1999 ([arXiv:hep-th/9811232](http://arxiv.org/abs/hep-th/9811232))
+* [[Martin Rocek]], [[Arkady Tseytlin]], _Partial breaking of global D=4 supersymmetry, constrained superfields, and 3-brane actions_,  	Phys.Rev.D59:106001, 1999 ([arXiv:hep-th/9811232](http://arxiv.org/abs/hep-th/9811232))
 
 Discussion of the 3-brane in 6d explicitly as a 3-brane soliton in an [[M5-brane]]/[[NS5-brane]] [[worldvolume]] is due to
 
