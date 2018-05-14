@@ -22,6 +22,8 @@ The conformal bootstrap was proposed in the 1970s as a strategy for calculating 
 
 * [[David Simmons-Duffin]], _TASI Lectures on the Conformal Bootstrap_ ([arXiv:1602.07982](https://arxiv.org/abs/1602.07982))
 
+* David Poland, Slava Rychkov, Alessandro Vichi, _The Conformal Bootstrap: Numerical Techniques and Applications_ ([arXiv:1805.04405](https://arxiv.org/abs/1805.04405))
+
 * Wikipedia, _[Conformal bootstrap](https://en.wikipedia.org/wiki/Conformal_bootstrap)_
 
 [[!redirects conformal bootstrap program]]
