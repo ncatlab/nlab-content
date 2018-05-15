@@ -72,6 +72,6 @@ Compare to the situation 20 years later as in
 
 * [[Greg Moore]], _[[Physical Mathematics and the Future]]_, talk at [Strings 2014](http://physics.princeton.edu/strings2014/)
 
-whith its section 12: "Keep true to the dreams of thy youth: M-theory"
+with its section 12: "Keep true to the dreams of thy youth: M-theory"
 
 category: reference
