@@ -167,6 +167,11 @@ higher inductive types_, ([slides](http://home.sandiego.edu/~shulman/papers/stth
 
 * [[Georg Hegel]], [book 2](Science+of+Logic#LehreVomWesen) of _[[Science of Logic]]_
 
+For an alternative definition proven (in Theorem 3.16) to be equivalent to the one given above, see
+
+* Nima Rasekh, _A Theory of Elementary Higher Toposes_, ([arXiv:1805.03805](https://arxiv.org/abs/1805.03805))
+
+
 The construction of $n$-truncations without recursive HITs is in
 
 * {#Rijke17} [[Egbert Rijke]], *The join construction*, [arxiv:1701.07538](https://arxiv.org/abs/1701.07538)
