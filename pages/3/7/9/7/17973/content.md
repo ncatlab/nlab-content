@@ -49,7 +49,7 @@ One distinguishes [[bottom-up and top-down model building]]] strategies:
 ### Chiral fermions
   {#ChiralFermions}
 
-One of the most striking special properties of the [[standard model of particle physics]] is that its content of [[fermionic]] [[fundamental particles]] is "chiral", in that the the left and right [[Weyl spinor]]-somponents of the would-be [[Dirac spinor]]-representation of the [[quarks]], [[electrons]] and [[neutrinos]] couple _differently_ to the [[gauge fields]] (for review see e.g. [Ibanez-Uranga 12, section 1.1](#IbanezUranga12)).
+One of the most striking special properties of the [[standard model of particle physics]] is that its content of [[fermionic]] [[fundamental particles]] is "chiral", in that the the left and right [[Weyl spinor]]-components of the would-be [[Dirac spinor]]-representation of the [[quarks]], [[electrons]] and [[neutrinos]] couple _differently_ to the [[gauge fields]] (for review see e.g. [Ibanez-Uranga 12, section 1.1](#IbanezUranga12)).
 
 The observation that such [[Weyl spinor|chiral fermions]] do indeed appear when [[D6-branes]]  [[brane intersection|intersect]] at an angle on an $\mathbb{R}^{3,1}$ is due to ([Berkooz-Douglas-Leigh 96](#BerkoozDouglasLeigh96)), see also ([AFIRU 00, section 4](#AFIRU00), [BCLS 05, section 2.3](#BCLS05)).
 
@@ -84,7 +84,7 @@ See also [Ibanez-Uranga 12, fig 10.2](#IbanezUranga12):
 ### RR-Tadpole cancellation and Orientifolding
  {#Orientifolding}
 
-Consistent intersecting D-brane models have to be in [[type I string theory]], or generaly in [[type II string theory]] with [[orientifold]] backgrounds, to achieve [[RR-field tadpole cancellation]].
+Consistent intersecting D-brane models have to be in [[type I string theory]], or generally in [[type II string theory]] with [[orientifold]] backgrounds, to achieve [[RR-field tadpole cancellation]].
 
 This is a key consistency condition in intersecting D-brane model building (e.g. [BCLS 05, section 2.4](#BCLS05), [Ibanez-Uranga 12, section 4.4](#IbanezUranga12))
 
