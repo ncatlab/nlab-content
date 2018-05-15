@@ -40,7 +40,7 @@ The **model structure for quasi-categories** or **Joyal model structure** $sSet_
 
 ## Properties
 
-### As a Cisinski model strucre
+### As a Cisinski model structure
 
 The model structure for quasi-categories is the [[Cisinski model structure]] on [[sSet]] induced by the localizer which consists of the [[spine]] inclusions $\{Sp^n \hookrightarrow \Delta^n\}$. See ([Ara](#Ara)).
 
