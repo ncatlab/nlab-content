@@ -415,8 +415,7 @@ For discussion of [[tiny objects]] in $Mod$, see at _[Tiny object -- In categori
 
 Discussion of $R Mod$ in $(Ab, \otimes)$ being an [[abelian category]] is for instance in 
 
-* Rankeya Datta, _The category of modules over a commutative ring and abelian categories_ ([pdf](http://www.math.columbia.edu/~ums/pdf/Rankeya_R-
-mod_and_Abelian_Categories.pdf))
+* Rankeya Datta, _The category of modules over a commutative ring and abelian categories_ ([pdf](http://www.math.columbia.edu/~ums/pdf/Rankeya_R-mod_and_Abelian_Categories.pdf))
 
 Discussion of limits and colimits in $R Mod$ is in 
 
