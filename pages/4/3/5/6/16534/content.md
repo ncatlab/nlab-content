@@ -44,11 +44,17 @@ For more see at _[Half NS5-branes](NS5-brane#NSHalfBranes)_
 
 See at _[[E-string]]_
 
+### Membrane triple junction
+
+see at _[[membrane triple junction]]_.
+
 ## Related concepts
 
 * [[intersecting D-brane model]]
 
 * [[D1-D5 brane bound state]]
+
+
 
 ## References
 
