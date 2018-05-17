@@ -65,6 +65,10 @@ Some other general treatments of Gabriel-Ulmer duality (and generalizations to o
 
 For a 2-dimensional analogue see the slides from a 2010 talk by Makkai: [pdf](http://www.math.mcgill.ca/makkai/scans/2010Washington0001.pdf)
 
+A formal-categorical account using [[Yoneda structure|Yoneda structures]] can be found in
+
+* {#DL18} Ivan Di Liberti, [[Fosco Loregian]], _Accessibility and Presentability in 2-Categories_ , arXiv:1804.08710 (2018). ([abstract](https://arxiv.org/abs/1804.08710))
+
 The version for $V$-[[enriched categories]], where $V$ is closed symmetric monoidal category whose underlying category $V_0$ is locally small, complete and cocomplete is in section 9 (cf. theorem 9.8)
 
 * G. M. Kelly, _Structures defined by finite limits in the enriched context_, Cahiers de Topologie et G&#233;om&#233;trie Diff&#233;rentielle cat&#233;goriques, **23** no. 1 (1982), pp. 3-42, [MR648793](http://www.ams.org/mathscinet-getitem?mr=648793),[numdam](http://www.numdam.org/item?id=CTGDC_1982__23_1_3_0)
