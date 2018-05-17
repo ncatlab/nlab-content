@@ -29,7 +29,7 @@ But for the [[D6-brane]] the situation is different: the [[D6-brane]] lifts not 
 
 {#Picture} Here we discuss the picture of how [[gauge enhancement]] on [[D6-branes]] in [[type IIA string theory]] is reflected on [[Kaluza-Klein monopoles]] at [[ADE-singularities]]. The explicit realization reviewed below is due to ([Sen 97](#Sen97)).
 
-<img src="http://ncatlab.org/nlab/files/ADESingularity.jpg" width="760" alt="ADE 2Cycle" />
+<img src="http://ncatlab.org/nlab/files/ADESingularity.png" width="760" alt="ADE 2Cycle" />
 
 > graphics grabbed from [HSS18](http://ncatlab.org/schreiber/show/Equivariant+homotopy+and+super+M-branes)
  
@@ -132,6 +132,8 @@ Now as the $\vec r_i$ all approach 0 we get an 11d spacetime with a $D_N$-type [
 ([Sen 97, section 3](Sen97))
 
 ## Related concepts
+
+* [[membrane triple junction]]
 
 [[!include F-branes -- table]]
 
