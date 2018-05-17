@@ -9,7 +9,6 @@
 =--
 =--
 
-
 #Contents#
 * table of contents
 {:toc}
@@ -43,6 +42,10 @@ For more see at _[Half NS5-branes](NS5-brane#NSHalfBranes)_
 ### E-String
 
 See at _[[E-string]]_
+
+### String network
+
+See at _[[string network]]_.
 
 ### Membrane triple junction
 
