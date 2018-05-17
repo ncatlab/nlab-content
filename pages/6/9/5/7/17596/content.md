@@ -27,7 +27,12 @@ Now, as the situation is lifted to [[M-theory]], the [[D0-branes]], [[D2-branes]
 
 But for the [[D6-brane]] the situation is different: the [[D6-brane]] lifts not to an [[M-brane]], but to a configuration of the [[field (physics)|field]] of [[11-dimensional supergravity]]: the 11d [[Kaluza-Klein monopole]].
 
-Here we discuss the picture of how gauge enhancement on [[D6-branes]] in [[type IIA string theory]] is reflected on [[Kaluza-Klein monopoles]] at [[ADE-singularities]]. The explicit realization reviwed below is due to ([Sen 97](#Sen97)).
+{#Picture} Here we discuss the picture of how [[gauge enhancement]] on [[D6-branes]] in [[type IIA string theory]] is reflected on [[Kaluza-Klein monopoles]] at [[ADE-singularities]]. The explicit realization reviewed below is due to ([Sen 97](#Sen97)).
+
+<img src="http://ncatlab.org/nlab/files/ADESingularity.jpg" width="760" alt="ADE 2Cycle" />
+
+> graphics grabbed from [HSS18](http://ncatlab.org/schreiber/show/Equivariant+homotopy+and+super+M-branes)
+ 
 
 ## Construction
 
