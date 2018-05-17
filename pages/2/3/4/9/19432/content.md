@@ -12,7 +12,7 @@
 
 #Contents#
 * table of contents
-{toc}
+{:toc}
 
 ## Idea
 
@@ -29,7 +29,7 @@ This is the lift to [[M-theory]] of 3-string junctions in [[type IIB string theo
 
 ### Triple generalization of Chan-Paton factors
 
-Since [[black brane|blacm]] [[M2-branes]] may also end on [[M5-branes]], in an M-theory lift of how [[strings]] end on [[D-branes]] as quanta of [[super Yang-Mills theory]], there was the suggestion that this points to a generalization of [[gauge theories]] where [[matrix Lie algebras]] (matrices of [[Chan-Paton gauge field|Chan-Paton factors]]) are enhanced to some kind of higher or hypermatrix structure ([FLST 10](#FLST10)).
+Since [[black brane|black]] [[M2-branes]] may also end on [[M5-branes]], in an M-theory lift of how [[strings]] end on [[D-branes]] as quanta of [[super Yang-Mills theory]], there was the suggestion that this points to a generalization of [[gauge theories]] where [[matrix Lie algebras]] (matrices of [[Chan-Paton gauge field|Chan-Paton factors]]) are enhanced to some kind of higher or hypermatrix structure ([FLST 10](#FLST10)).
 
 ### Gauge enhancement at ADE-Singularities
 
@@ -44,17 +44,8 @@ Discussion of triple-membrane junction-shaped [[black brane]]-solutions to [[11-
 
 * {#Tseytlin96} [[Arkady Tseytlin]], _Harmonic superpositions of M-branes_, Nucl. Phys. B475:149-163, 1996 ([arxiv:hep-th/9604035](https://arxiv.org/abs/hep-th/9604035))
 
-Lift of and relation to [[string networks]] is discussed in
-
 * {#KroghLee97} Morten Krogh, Sangmin Lee, _String Network from M-theory_, Nucl. Phys. B516:241-254, 1998 ([arXiv:hep-th/9712050](https://arxiv.org/abs/hep-th/9712050))
 
 * {#Ramadevi99} P. Ramadevi, _Supergravity Solution for Three-String Junction in M-Theory_, JHEP 0006 (2000) 005 ([arXiv:hep-th/9906247](https://arxiv.org/abs/hep-th/9906247))
 
-Possible relation to [[hyperdeterminants]] is discussed in
-
 * {#FLST10} Yuhan Fang, Shir Levkowitz, [[Hisham Sati]], Daniel Thompson, _Hypermatrix factors for string and membrane junctions_, J.Phys.A43:505401, 2010 ([arXiv:1001.5166](https://arxiv.org/abs/1001.5166))
-
-[[!redirects triple membrane junctions]]
-
-[[!redirects membrane triple junction]]
-[[!redirects membrane triple junctions]]
