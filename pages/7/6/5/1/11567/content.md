@@ -65,7 +65,7 @@ This presents a corresponding [[equivalence of (∞,1)-categories]]. If $R$ is a
 
 =--
 
-This equivalence on the level of [[homotopy categories]] is due to ([Robinson 87](#Robinson87)). The refinement to a [[Quillen equivalence]] is ([SchwedeShipley, theorem 5.1.6](#SchwedeShipley)). See also the discussion at _[[stable model categories]]_. A direct description as an [[equivalence of (∞,1)-categories]] appears as ([[Higher Algebra|Lurie HA, theorem 7.1.2.13]]).
+This equivalence on the level of [[homotopy categories]] is due to ([Robinson 87](#Robinson87)). The refinement to a [[Quillen equivalence]] is ([Schwede-Shipley 03, theorem 5.1.6](#SchwedeShipley03)). See also the discussion at _[[stable model categories]]_. A direct description as an [[equivalence of (∞,1)-categories]] appears as ([[Higher Algebra|Lurie HA, theorem 7.1.2.13]]).
 
 For $R = \mathbb{Q}$ the [[rational numbers]], then theorem \ref{StableDoldKan} may be thought of as a stable analog of classical [[rational homotopy theory]], see at _[[rational stable homotopy theory]]_ for more on this.
 
@@ -114,7 +114,7 @@ where $H(-)$ and $\Theta(-)$ are from theorem \ref{HRAlgerasAreRdgAlgebras}.
 
 =--
 
-([Shipley 02, corollary 2.15](#Shipley02))
+([Schwede-Shipley 03, theorem 5.1.6](#SchwedeShipley03), [Shipley 02, corollary 2.15](#Shipley02))
 
 
 +-- {: .num_remark}
@@ -212,9 +212,9 @@ This is a stable version of the [[monoidal Dold-Kan correspondence]]. See there 
 
 * {#Robinson87} Alan Robinson, _The extraordinary derived category_, Math. Z. 196 (2) (1987) 231&#8211;238.
  
-* {#SchwedeShipley} [[Stefan Schwede]], [[Brooke Shipley]], _Stable model categories are categories of modules_ , Topology 42 (2003), 103-153 ([pdf](http://www.math.uic.edu/~bshipley/classTopFinal.pdf))
+* {#SchwedeShipley03} [[Stefan Schwede]], [[Brooke Shipley]], _Stable model categories are categories of modules_, Topology 42 (2003), 103-153 ([pdf](http://www.math.uic.edu/~bshipley/classTopFinal.pdf))
 
-* {#Shipley02} [[Brooke Shipley]], _$H \mathbb{Z}$-algebra spectra are differential graded algebras_ , Amer. Jour. of Math. 129 (2007) 351-379. ([arXiv:math/0209215](http://arxiv.org/abs/math/0209215))
+* {#Shipley02} [[Brooke Shipley]], _$H \mathbb{Z}$-algebra spectra are differential graded algebras_, Amer. Jour. of Math. 129 (2007) 351-379. ([arXiv:math/0209215](http://arxiv.org/abs/math/0209215))
  
 * {#Jardine91} [[John Frederick Jardine]], _Stable Dold-Kan theory_, section 4.6 of _Generalized &Eacute;tale cohomology theories_, Modern Birkh&#228;user classics (1991)
 
