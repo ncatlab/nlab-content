@@ -80,7 +80,11 @@ Early variations on the theme are in
 
 The Street quote stems from
 
-* {#Street10}[[Ross Street]], _An Australian conspectus of higher categories_ , pp.237-264 in Baez, May (eds.), _Towards Higher Categories_ , Springer Heidelberg 2010.
+* {#Street10}[[Ross Street]], _An Australian conspectus of higher categories_ , pp.237-264 in Baez, May (eds.), _Towards Higher Categories_ , Springer Heidelberg 2010. ([draft](http://maths.mq.edu.au/~street/Minneapolis.pdf))
+
+The result on locally small categories suggesting the definition of a small object is reported in
+
+* {#FS95}[[Peter Freyd]], [[Ross Street]], _On the size of categories_ , TAC **1** (1995) pp.174-185. ([abstract](http://www.tac.mta.ca/tac/volumes/1995/n9/1-09abs.html))
 
 Exact squares in Yoneda structures are studied in
 
