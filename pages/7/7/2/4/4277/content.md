@@ -88,6 +88,24 @@ which justifies calling $\Omega_\bullet^G$ both the "bordism ring" as well as th
 
 ## Properties
 
+### Relation to cohomotopy
+ {#RelationToCohomotopy}
+
+Let $X$ be a [[smooth manifold]] of [[dimension]] $n \in \mathbb{N}$ and let $k \leq n$. Then the [[Pontryagin-Thom construction]] induces a [[bijection]]
+
+$$
+  [X, S^k]
+  \overset{\simeq}{\longrightarrow}
+  \Omega^{n-k}(X)
+$$
+
+from the [[cohomotopy]] sets of $X$ to the [[cobordism group]] of $(n-k)$-dimensional [[submanifolds]] with [[normal bundle|normal]] [[framed manifold|framing]] up to normally framed [[cobordism]].
+
+In particular, the natural group structure on [[cobordism group]] (essentially given by [[disjoint union]] of submanifolds) this way induces a group structure on the cohomotopy sets.
+
+This is made explicit for instance in [Kosinski 93, chapter IX](#Kosinski93).
+
+
 
 ## Examples
 
@@ -192,7 +210,9 @@ Details for framed cobordism are spelled out in
 
 * {#Putnam} [[Andrew Putman]], _Homotopy groups of spheres and low-dimensional topology_ ([pdf](http://www.math.rice.edu/~andyp/notes/HomotopySpheresLowDimTop.pdf))
 
+The relation to [[cohomotopy]] is made explicit in
 
+* {#Kosinski93} [[Antoni Kosinski]], chapter IX of _Differential manifolds_, Academic Press 1993 ([pdf](http://www.maths.ed.ac.uk/~v1ranick/papers/kosinski.pdf))
 
 
 Further discussion of oriented cobordism includes
