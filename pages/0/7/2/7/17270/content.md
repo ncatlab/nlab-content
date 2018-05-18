@@ -397,7 +397,7 @@ $$
     Q(g)
     \colon
     &
-    Q(Y)
+    Q(X)
       &\underoverset{i}{\in W_Q}{\longrightarrow}& 
     Z
       &\underoverset{p}{\in Fib_Q}{\longrightarrow}&
