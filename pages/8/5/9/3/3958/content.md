@@ -349,6 +349,8 @@ Textbook accounts include
 
 * [[Theodore Frankel]], chapter 1 of _[[The Geometry of Physics - An Introduction]]_, Cambridge University Press (1997, 2004, 2012)
 
+* {#Kosinski93} [[Antoni Kosinski]], _Differential manifolds_, Academic Press 1993 ([pdf](http://www.maths.ed.ac.uk/~v1ranick/papers/kosinski.pdf))
+
 * John Lee, _[Introduction to Smooth Manifolds](http://www.math.washington.edu/~lee/Books/smooth.html)_, Springer Graduate Texts in Mathematics 218 ([pdf of chapter 1](http://www.math.washington.edu/~lee/Books/Smooth/c01.pdf))
 
 * {#KolarSlovakMichor93} [[Ivan Kolar]], [[Jan Slovak]] and [[Peter Michor]], _Natural operations in differential geometry_, 1993, 1999 ([web](http://www.emis.de/monographs/KSM/))
