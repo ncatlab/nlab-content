@@ -297,10 +297,10 @@ and $n \in \mathbb{N}$,
 
 More details on this are currently at _[[generalized Reedy model structure]]_. 
 
-+-- {: .num_example}
++-- {: .num_example #EveryBisimplicialSetIsReedyCofibrant}
 ###### Example
 
-If for instance in $\mathcal{C}$ all [[monomorphisms]] are cofibrations, then every object in $[\Delta^{op}, \mathcal{C}]_{Reedy}$ is cofibrant.
+If $\mathcal{C} = sSet$ is the [[classical model structure on simplicial sets]], then every object in $[\Delta^{op}, \mathcal{C}]_{Reedy}$ ([[bisimplicial sets]]) is cofibrant ([Hirschhorn 02, corollary 15.8.8](#Hirschhorn02)). 
 
 =--
 
@@ -532,32 +532,38 @@ The original text is
 
 * [[Chris Reedy]], _Homotopy Theory of Model Categories_  ([retyped pdf](http://www-math.mit.edu/~psh/reedy.pdf))
 
-A review of Reedy model structures is in section A.2.9 of
+A quick review is in section A.2.9 of
 
 * [[Jacob Lurie]], _[[Higher Topos Theory]]_ .
 
+A textbook account is in 
+
+* {#Hirschhorn02} [[Philip Hirschhorn]], chapter 15 of _Model Categories and Their Localizations_, AMS Math. Survey and Monographs Vol 99 (2002) ([AMS](http://www.ams.org/bookstore?fn=20&arg1=whatsnew&item=SURV-99), [pdf toc](http://www.gbv.de/dms/goettingen/360115845.pdf), [pdf](http://www.maths.ed.ac.uk/~aar/papers/hirschhornloc.pdf))
+
+
+
 Discussion of functoriality of Reedy model structures is in 
 
-* [[Clark Barwick]], _On Reedy Model Categories_ ([arXiv:0708.2832](http://arxiv.org/abs/0708.2832))
- {#Barwick}
+* {#Barwick} [[Clark Barwick]], _On Reedy Model Categories_ ([arXiv:0708.2832](http://arxiv.org/abs/0708.2832))
+ 
 
 The discussion of enriched Reedy model structures is in
 
-* Vigleik Angeltveit, _Enriched Reedy categories_ ([arXiv](http://arxiv.org/abs/math/0612137))
- {#Angeltveit}
+* {#Angeltveit} Vigleik Angeltveit, _Enriched Reedy categories_ ([arXiv](http://arxiv.org/abs/math/0612137))
+ 
 
 The main statement is theorem 4.7 there.
 
 
 The Reedy model structure on towers is discussed for instance in chapter 6 of 
 
-* [[Paul Goerss]], [[Rick Jardine]], _Simplicial homotopy theory_ ([dvi](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html) [PDF](http://dodo.pdmi.ras.ru/~topology/books/goerss-jardine.pdf)) 
- {#GoerssJardine}
+* {#GoerssJardine} [[Paul Goerss]], [[Rick Jardine]], _[[Simplicial homotopy theory]]_ ([dvi](http://www.maths.abdn.ac.uk/~bensondj/html/archive/goerss-jardine.html) [PDF](http://dodo.pdmi.ras.ru/~topology/books/goerss-jardine.pdf)) 
+ 
 
 The Reedy model structure on categories of simplicial objects is discussed in more detail for instance in 
 
-* [[Dan Dugger]], _Replacing model categories with simplicial ones_, Trans. Amer. Math. Soc. vol. 353, number 12 (2001), 5003-5027. ([pdf](http://hopf.math.purdue.edu/Dugger/smod.pdf)) 
-  {#Dugger}
+* {#Dugger} [[Dan Dugger]], _Replacing model categories with simplicial ones_, Trans. Amer. Math. Soc. vol. 353, number 12 (2001), 5003-5027. ([pdf](http://hopf.math.purdue.edu/Dugger/smod.pdf)) 
+  
 
 
 [[!redirects Reedy model category]]
