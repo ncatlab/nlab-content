@@ -434,6 +434,18 @@ The basic relevant [[Feynman diagrams]] are worked out here:
 
 * [pdf](http://www-personal.umich.edu/~jbourj/peskin/6-3.pdf)
 
+See also
+
+* [[Frank Wilczek]], _New Ideas in Axion Searches_, talk 2017 ([pdf](http://frankwilczek.com/2017/axion_searches_01.pdf))
+
+For the [ABRACADABRA](http://abracadabra.mit.edu/) (A Broadband/Resonant Approach to Cosmic Axion Detection with an Amplifying B-field Ring Apparatus) approach to axion detection, see
+
+* Jonathan Ouellet, _ABRACADABRA: A Broadband Search for Axion Dark Matter_, talk 2017 ([pdf](https://indico.fnal.gov/event/13702/session/3/contribution/45/material/slides/0.pdf))
+
+For the ADMX experiment:
+
+* {#Avignone18} Frank T. Avignone III, _[Homing in on Axions?](https://physics.aps.org/articles/v11/34)_, APS Physics 11, 34, 2018
+
 
 #### In cosmology
 
@@ -456,13 +468,8 @@ and as a candidate for [[dark energy]]:
 
 * [[Stephon Alexander]], [[Robert Brandenberger]], [[Juerg Froehlich]], _Tracking Dark Energy from Axion-Gauge Field Couplings_ ([arXiv:1601.00057](https://arxiv.org/abs/1601.00057))
 
-See also
 
-* [[Frank Wilczek]], _New Ideas in Axion Searches_, talk 2017 ([pdf](http://frankwilczek.com/2017/axion_searches_01.pdf))
 
-For the [ABRACADABRA](http://abracadabra.mit.edu/) (A Broadband/Resonant Approach to Cosmic Axion Detection with an Amplifying B-field Ring Apparatus) approach to axion detection, see
-
-* Jonathan Ouellet, _ABRACADABRA: A Broadband Search for Axion Dark Matter_, talk 2017 ([pdf](https://indico.fnal.gov/event/13702/session/3/contribution/45/material/slides/0.pdf))
 
 [[!redirects axions]]
 
