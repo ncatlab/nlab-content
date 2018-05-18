@@ -236,6 +236,8 @@ More generally a [[Thom isomorphism]] may not exists, but $[D X \otimes_{\mathbb
 
 ## Properties
 
+### General
+
 +-- {: .num_prop}
 ###### Proposition
 
@@ -249,6 +251,24 @@ For given $i$ all collapse maps for different choices of [[tubular neighbourhood
 By the fact that the space of [[tubular neighbourhood]]s (see there for details) is [[contractible]].
 
 =--
+
+### Relation between cohomotopy and cobordism
+
+
+Let $X$ be a [[smooth manifold]] of [[dimension]] $n \in \mathbb{N}$ and let $k \leq n$. Then the [[Pontryagin-Thom construction]] induces a [[bijection]]
+
+$$
+  [X, S^k]
+  \overset{\simeq}{\longrightarrow}
+  \Omega^{n-k}(X)
+$$
+
+from the [[cohomotopy]] sets of $X$ to the [[cobordism group]] of $(n-k)$-dimensional [[submanifolds]] with [[normal bundle|normal]] [[framed manifold|framing]] up to normally framed [[cobordism]].
+
+In particular, the natural group structure on [[cobordism group]] (essentially given by [[disjoint union]] of submanifolds) this way induces a group structure on the cohomotopy sets.
+
+This is made explicit for instance in [Kosinski 93, chapter IX](#Kosinski93).
+
 
 
 ## Related concepts
@@ -270,8 +290,9 @@ By the fact that the space of [[tubular neighbourhood]]s (see there for details)
 
 * {#Malkiewich11} [[Cary Malkiewich]], _Unoriented cobordism and MO_, 2011 ([pdf](http://math.uiuc.edu/~cmalkiew/cobordism.pdf))
 
-
 An illustration is given on [slide 15](http://www.math.wisc.edu/~gstgc/slides/Koytcheff.pdf#page=15) 
+
+* {#Kosinski93} [[Antoni Kosinski]], chapter IX of _Differential manifolds_, Academic Press 1993 ([pdf](http://www.maths.ed.ac.uk/~v1ranick/papers/kosinski.pdf))
 
 
 * [[Ralph Cohen]], John Klein, _Umkehr Maps_ ([arXiv:0711.0540](http://arxiv.org/abs/0711.0540))
