@@ -16,11 +16,33 @@
 
 ## Idea
 
-The concept of a **Yoneda structure** is an attempt to capture in a general 2-categorical setting  the formal properties of the usual presheaf construction and Yoneda embedding of (locally) [[small category|small categories]]. The thereby arising size issues are absorbed directly into the structure via a class of (locally) "small" maps. 
+The concept of a **Yoneda structure** provides in a general 2-categorical setting the axiomatic description of the formal properties of the usual presheaf construction and Yoneda embedding of (locally) [[small category|small categories]]. The size issues arising in that context are absorbed directly into the structure via a class of (locally) "small" maps. 
+
+## Preliminaries
+
+The axioms of a Yoneda structure are out to capture the properties of the presheaf construction with [[CAT]] replaced by general 2-category $\mathcal{K}$. In order to handle size issues a class of "legitimate" or "amissible" 0-cells is singled out in $|\mathcal{K}|$ as well as a class of 1-cells that behave well with respect to this class and the presheaf construction. In fact, it suffices to describe the "admissible" 1-cells since one can then identify the admissible 0-cells with the admissible identity 1-cells.
+
+In $CAT$ relative to the usual presheaf construction one should think of the [[locally small category|locally small categories]] as the admissible 0-cells i.e. those categories $\mathcal{C}$ with all Hom-sets $\mathcal{C}(x,y)$ contained in a category $Set$ of "small" sets itself contained in a [[Grothendieck universe]] $U_0$ whereas general 0-cells of $\mathcal{K}$ live in a larger universe $U_1\supset U_0$. In this setting admissible functors $f:\mathcal{A}\to\mathcal{B}$ are those with all relative Hom-sets $\mathcal{B}(f(a),b)\in Set$. Furthermore, in this situation one can show ([Freyd-Street 1995](FS95)) that _a category $\mathcal{C}\in CAT$ is small i.e. $|\mathcal{C}|\in Set$ precisely if $\mathcal{C}$ and $Set^{\mathcal{C}^{op}}$ are locally small_.
+
+Admissible functors $f$ in this sense in $CAT$ are closed under precomposition not only among themselves but with respect to arbitrary (composable) $g$ since the relative Hom-sets $\mathcal{B}(fg(x),b)$ are simply a subclass of $\mathcal{B}(f(a),b)$ namely those for which $a\in im(g)$. Whence these "relatively small" functors form a [[right ideal]]. Given the close connection between [[KZ doctrines]] and Yoneda structures it will nevertheless be useful to consider the more general case of closure in itself under composition as well, a situation which we acknowledge terminologically with the prefix "proto".
+
++-- {: .num_defn #admissible_1cell}
+###### Definition 
+Let $\mathcal{K}$ be a [[2-category]] and $A$ be a class of 1-cells. The 1-cells $f\in A$ (and by abuse, the class $A$ as well) are called _admissible_ if for all $f\in A$ and composable 1-cells $g\in \mathcal{K}$,  $f\circ g\in  A$. $f\in A$ and $A$ are called _proto-admissible_ if this closure property holds for $g\in A$.
+=--
+
+Having now "taken care" of the size issues we recall/introduce some terminology concerning [[Kan extensions]] and [[relative adjoint functor|relative adjoint functors]] that will prove effective in yielding a surprisingly austere axiomatic dsecription of the presheaf construction.
+
+
+
 
 ## Definition
 
-....
++-- {: .num_defn #yoneda_structure}
+###### Definition 
+Let $\mathcal{K}$ be a [[2-category]] and $A$ be an admissible class of 1-cells.
+
+=--
 
 ## Properties
 
@@ -107,5 +129,5 @@ More recent work include
 [[!redirects Yoneda Structure]]
 [[!redirects Yoneda-structure]]
 [[!redirects Yoneda structures]]
-
+[[!redirects admissible 1-cell]]
 
