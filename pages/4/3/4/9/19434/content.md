@@ -37,9 +37,22 @@ Let $\mathcal{K}$ be a [[2-category]] and $A$ be an admissible (resp. proto-admi
 
 =--
 
-Having now "taken care" of the size issues we recall/introduce some terminology concerning [[Kan extensions]] and [[relative adjoint functor|relative adjoint functors]] that will prove effective in yielding a surprisingly austere axiomatic dsecription of the presheaf construction.
+Having now "taken care" of the size issues we recall/introduce some terminology concerning [[Kan extensions]] and [[relative adjoint functor|relative adjoint functors]] that will prove effective in yielding a surprisingly concise axiomatic description of the presheaf construction.
 
-
++-- {: .num_defn #left_extension}
+###### Definition 
+Let $\mathcal{K}$ be a [[2-category]] and $\eta:f\to e\circ g$ be a 2-cell:
+$$
+  \array{
+     A& & \overset{f}{\longrightarrow} & &B
+     \\
+     &{}_g\searrow & \Downarrow _\eta& \nearrow _e&
+     \\
+      & & C & &
+  }
+$$
+We say that $\eta$ exhibits $e:C\to B$ as a _left extension_ of $f:A\to B$ along $g:A\to C$ iff for all parallel maps $k:C\to B$ pasting with $\eta$ induces a bijection between 2-cells $\sigma:e\Rightarrow k$ and 2-cells $f\Rightarrow k\circ g$.
+=--
 
 
 ## Definition
