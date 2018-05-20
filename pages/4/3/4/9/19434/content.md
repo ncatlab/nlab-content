@@ -60,7 +60,7 @@ $$
   \array{ &     &D    & &
      \\
 
-      &\overset{hf}{\nearrow}&\Downarrow _{id} &\overset{h}{\nwarrow}&
+      &{}^{hf}{\nearrow}&\seArrow^{id} &{\nwarrow}^h&
      \\
      A& & \overset{f}{\longrightarrow} & &B
      \\
