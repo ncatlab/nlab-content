@@ -75,8 +75,10 @@ The left extension is called _absolute_ if it is preserved by all 1-cells with d
 +-- {: .num_defn #left_lifting}
 ###### Definition 
 Let $\phi:f\Rightarrow g\circ l$ be a 2-cell:
+
 $$
   \array{
+      
      A& & \overset{l}{\longrightarrow} & &C
      \\
      &{}_f\searrow & \neArrow _\phi& \swarrow _g&
@@ -84,23 +86,21 @@ $$
       & & B & &
   }
 $$
+
 We say that $\phi$ (or, by abuse, the diagram) exhibits $l:A\to C$ as a _left lifting_ of $f:A\to B$ along $g:C\to B$ iff for all parallel maps $k:A\to C$ pasting with $\phi$ induces a bijection between 2-cells $\sigma:l\Rightarrow k$ and 2-cells $f\Rightarrow g\circ k$.
 
 We say that a 1-cell $j:D\to A$ preserves this left lifting if the following diagram exhibits $l\circ j$ as a left lifting of $f\circ j$ along $g$ :
 
 $$
   \array{
-      &  &D& &
+     D &\overset{j}{\longrightarrow} & A& \overset{l}{\longrightarrow}  &C
      \\
-       &{}^{j}\swarrow &\overset{id}{\Rightarrow}&\searrow^{l{}j}
+     &{}_{f{}j}\searrow{}^{id}{\neArrow} &{}_f\downarrow & \overset{\phi}{\Rightarrow} \swarrow_g & 
      \\
-     A& & \overset{l}{\longrightarrow} & &C
-     \\
-     &{}_f\searrow & \neArrow _\phi& \swarrow _g&
-     \\
-      & & B & &
+      & & B & & 
   }
 $$
+
 We say that the left lifting is _absolute_ if it is preserved by all 1-cells with codomain $A$.
 
 =--
