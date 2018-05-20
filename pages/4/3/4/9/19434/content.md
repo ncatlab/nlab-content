@@ -34,8 +34,9 @@ Let $\mathcal{K}$ be a [[2-category]] and $A$ be a class of 1-cells. The 1-cells
 +-- {: .num_defn #admissible_0cell}
 ###### Definition 
 Let $\mathcal{K}$ be a [[2-category]] and $A$ be an admissible (resp. proto-admissible) class of 1-cells. A 0-cell $C\in |\mathcal{K}|$ is called _admissible_ (resp. _proto-admissible_) if $id_C$ is admissible (resp. proto-admissible).
-
 =--
+
+Note that the closure properties of $A$ imply that all 1-cells into a(n) (proto-)admissible 0-cell are (proto-)admissible.
 
 Having now "taken care" of the size issues we recall/introduce some terminology concerning [[Kan extensions]] and [[relative adjoint functor|relative adjoint functors]] that will prove effective in yielding a surprisingly concise axiomatic description of the presheaf construction.
 
@@ -52,6 +53,20 @@ $$
   }
 $$
 We say that $\eta$ exhibits $e:C\to B$ as a _left extension_ of $f:A\to B$ along $g:A\to C$ iff for all parallel maps $k:C\to B$ pasting with $\eta$ induces a bijection between 2-cells $\sigma:e\Rightarrow k$ and 2-cells $f\Rightarrow k\circ g$.
+We say that a 1-cell $h:B\to D$ _preserves_ this left extension if the following diagram exhibits $h\circ e$ as a left extension of $h\circ f$ along $g$
+
+$$
+  \array{
+      &\overset{hf}{\nearrow}&\Downarrow _{id_{hf}}&\uparrow h\\
+     A& & \overset{f}{\longrightarrow} & &B
+     \\
+     &{}_g\searrow & \Downarrow _\eta& \nearrow _e&
+     \\
+      & & C & &
+  }
+$$
+
+
 =--
 
 
@@ -133,15 +148,19 @@ Exact squares in Yoneda structures are studied in
 
 * L. Van den Bril, _Exactitude dans les Yoneda-structures_ , Cah. Top. Géo. Diff. Cat. **XXIII** no.2 (1982) pp.215-224.
 
-More recent work include
+The following explores Yoneda structure arising from 2-categories with a discrete-opfibration classifier:
 
-* {#DL18} Ivan Di Liberti, [[Fosco Loregian]], _Accessibility and Presentability in 2-Categories_ , arXiv:1804.08710 (2018). ([abstract](https://arxiv.org/abs/1804.08710))
+* {#Weber07} [[Mark Weber]], _Yoneda structures from 2-toposes_ , Appl. Cat. Struc. **15** (2007) pp.259-323. ([preprint](https://sites.google.com/site/markwebersmaths/home/yoneda-structures-from-2-toposes))
+
+The following two investigate the connections with KZ doctrines:
 
 * {#Walker17} C. Walker, _Yoneda Structures and KZ Doctrines_ , arXiv:1703.08693 (2017). ([abstract](http://arxiv.org/pdf/1703.08693v3))
 
 * {#Walker18} C. Walker, _Distributive Laws via Admissibility_ , arXiv:1706.09575 (2018). ([abstract](https://arxiv.org/abs/1706.09575))
 
-* {#Weber07} [[Mark Weber]], _Yoneda structures from 2-toposes_ , Appl. Cat. Struc. **15** (2007) pp.259-323. ([preprint](https://sites.google.com/site/markwebersmaths/home/yoneda-structures-from-2-toposes))
+Yoneda structures and KZ doctrines are combined in a general account of [[accessible category|accessibility]] and [[locally presentable category|local presentability]] in
+
+* {#DL18} Ivan Di Liberti, [[Fosco Loregian]], _Accessibility and Presentability in 2-Categories_ , arXiv:1804.08710 (2018). ([abstract](https://arxiv.org/abs/1804.08710))
 
 
 [[!redirects yoneda structure]]
