@@ -313,7 +313,7 @@ Discussion from the point of view of [[Green-Schwarz action functional]]-[[schre
 
 The idea that the physics of D-branes is described by [[topological K-theory]] originates in 
 
-* [[Ruben Minasian]], [[Gregory Moore]], _K-theory and Ramond-Ramond charge_ , JHEP9711:002,1997 ([arXiv:hep-th/9710230](http://arxiv.org/abs/hep-th/9710230))
+* [[Ruben Minasian]], [[Gregory Moore]], _K-theory and Ramond-Ramond charge_, JHEP9711:002,1997 ([arXiv:hep-th/9710230](http://arxiv.org/abs/hep-th/9710230))
 
 * {#Witten98} [[Edward Witten]], _D-Branes And K-Theory_, JHEP 9812:019,1998 ([arXiv:hep-th/9810188](http://arxiv.org/abs/hep-th/9810188))
 
