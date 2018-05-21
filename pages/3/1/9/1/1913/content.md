@@ -79,7 +79,7 @@ Of particular importance are $L$-valued forms when $L$ is a [[line bundle]]; the
 
 Let $\Psi$ be the [[pseudoscalar]] bundle; that is, a section of $\Psi$ (a pseudoscalar field) is given locally by a simple [[scalar]] field (a real-valued function) for each [[orientation]] of a local patch, with opposite orientations giving oppositely-signed scalars.  A __pseudoform__ is a $\Psi$-twisted form.
 
-On an $n$-dimensional manifold $X$, the space $\Omega^n(X)$ of $n$-forms is itself a line bundle; a $p$-form twisted by this line bundle is a __densitised form__.  Sometimes an $n$-form is itself called a __density__.  Actually, as we will see under integration below, it is really an $n$-*pseudo*form that should be called a density, but that is not the traditional terminology.
+On an $n$-dimensional manifold $X$, the space $\Omega^n(X)$ of $n$-forms is itself a line bundle; a $p$-form twisted by this line bundle is a __densitised form__.  Sometimes an $n$-form is itself called a __density__.  Actually, as we will see under [integration](#integration) below, it is really an $n$-*pseudo*form that should be called a density, but that is not the traditional terminology.
 
 Given any real number $w$, there is a line bundle called the line bundle of $w$-[[weighted representation|weighted]] scalars; a form twisted by this line bundle is a __$w$-weighted form__.  Note that a $0$-weighted form is just an ordinary form; also, an $n$-pseudoform turns out to be equivalent to a $1$-weighted $0$-form.  (And thus a densitised form is equivalent to a $1$-weighted pseudoform.)
 
@@ -177,7 +177,7 @@ Thus, the operation that maps $X$ to $\Omega^*(X)$ extends to a [[contravariant 
 Note that twisted and (more general) vector-valued forms cannot be pulled back so easily.  One needs some extra structure on $f$ to do so; see the discussion of integration of $p$-pseudoforms at [[integration of differential forms]] for an example.
 
 
-### Integration of forms
+### Integration of forms {#integration}
 
 Let $X$ be an $n$-dimensional manifold, and let $\omega$ be an $n$-pseudoform on $X$.  At least when $X$ is [[paracompact space|paracompact]] and [[Hausdorff space|Hausdorff]], we may turn $\omega$ into a [[measure]] on $X$ and thereby find its [[integral]].  Conversely, any [[absolutely continuous measure|absolutely continuous]] [[Radon measure]] on $X$ arises in this way from a unique $n$-pseudoform $\omega$.
 
