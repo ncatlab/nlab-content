@@ -109,7 +109,7 @@ We can again extend (3) to get the magnitude of the cross product of any $k$ vec
 Then for an inner product space $V$ over $\mathbb{R}$ of finite dimension $n$, we have:
 
 * If $k = 0$, then there is no cross product.
-* If $k = 1$, then there is one cross product (always $0$) in dimension $0$, two cross products in dimension $2$ (one for each orientation), and no others, and uncountably many in each even dimension $n \gt 2$ (one for each way of writing $\mathbb{R}^n$ as as $n/2$-fold [[internal direct sum]] of $2$-dimensional subspaces, each of which is given an orientation, I think).
+* If $k = 1$, then there is one cross product (always $0$) in dimension $0$, two cross products in dimension $2$ (one for each orientation), uncountably many in each even dimension $n \gt 2$ (one for each way of writing $\mathbb{R}^n$ as as $n/2$-fold [[internal direct sum]] of $2$-dimensional subspaces, each of which is given an orientation, I think), and none in any odd dimension.
 * If $k = 2$, then the possibilities are as listed above for binary cross products.
 * If $k = 3$, then there is one cross product (always $0$) for $n \leq 2$, two cross products (one for each orientation) when $n = 4$, some cross products when $n = 8$ that I don\'t understand (but which are presumably related to the [[octonions]]), and no others.
 * If $3 \lt k \lt n - 1$, then there are no cross products.
