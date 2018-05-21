@@ -28,15 +28,15 @@ Admissible functors $f$ in this sense in $CAT$ are closed under precomposition n
 
 +-- {: .num_defn #admissible_1cell}
 ###### Definition 
-Let $\mathcal{K}$ be a [[2-category]] and $A$ be a class of 1-cells. The 1-cells $f\in A$ (and by abuse, the class $A$ as well) are called _admissible_ if for all $f\in A$ and composable 1-cells $g\in \mathcal{K}$,  $f\circ g\in  A$. $f\in A$ and $A$ are called _proto-admissible_ if this closure property holds for $g\in A$.
+Let $\mathcal{K}$ be a [[2-category]] and $\mathbb{A}$ be a class of 1-cells. The 1-cells $f\in \mathbb{A}$ (and by abuse, the class $\mathbb{A}$ as well) are called _admissible_ if for all $f\in \mathbb{A}$ and composable 1-cells $g\in \mathcal{K}$,  $f\circ g\in \mathbb{A}$. $f\in \mathbb{A}$ and $\mathbb{A}$ are called _proto-admissible_ if this closure property holds for $g\in \mathbb{A}$.
 =--
 
 +-- {: .num_defn #admissible_0cell}
 ###### Definition 
-Let $\mathcal{K}$ be a [[2-category]] and $A$ be an admissible (resp. proto-admissible) class of 1-cells. A 0-cell $C\in |\mathcal{K}|$ is called _admissible_ (resp. _proto-admissible_) if $id_C$ is admissible (resp. proto-admissible).
+Let $\mathcal{K}$ be a [[2-category]] and $\mathbb{A}$ be an admissible (resp. proto-admissible) class of 1-cells. A 0-cell $C\in |\mathcal{K}|$ is called _admissible_ (resp. _proto-admissible_) if every 1-cell with codomain $C$ is admissible (resp. proto-admissible). We denote the class of (proto-)admissible 0-cells by $|\mathbb{A}|$.
 =--
 
-Note that the closure properties of $A$ imply that all 1-cells into an admissible (resp. a proto-admissible) 0-cell are admissible (resp. proto-admissible).
+Due the closure properties of $\mathbb{A}$ this is equivalent to the simpler statement that $id_C$ is admissible (resp. proto-admissible) which is therefor usually taken as definition but the present formulation has the advantage that it works for [[semi-category|semi-categories]] as well.
 
 Having now "taken care" of the size issues we recall/introduce some terminology concerning [[Kan extensions]] and [[relative adjoint functor|relative adjoint functors]] that will prove effective in yielding a surprisingly concise axiomatic description of the presheaf construction.
 
@@ -109,7 +109,37 @@ We say that the left lifting is _absolute_ if it is preserved by all 1-cells wit
 
 +-- {: .num_defn #yoneda_structure}
 ###### Definition 
-Let $\mathcal{K}$ be a [[2-category]] and $A$ be an admissible class of 1-cells.
+Let $\mathcal{K}$ be a [[2-category]] and $\mathbb{A}$ be an admissible class of 1-cells.
+
+A _presheaf construction_ $\mathcal{P}$ for $\mathbb{A}$ assigns to every admissible object $A\in |\mathbb{A}|$ its _object of presheaves_ $\mathcal{P}A\in |\mathcal{K}|$ and an admissible 1-cell $y_A:A\to\mathcal{P}A$ called its _Yoneda morphism_ subject to the following conditions:
+
+1. (YS1) For each admissible 1-cell $f:A\to B$ with admissible domain $A\in |\mathbb{A}|$ there is given a 2-cell $\chi_f:y_A\Rightarrow e_f\circ f$:
+
+$$
+  \array{
+     A& & \overset{f}{\longrightarrow} & &B
+     \\
+     &{}_{y_A}\searrow & {}^{\chi_f}\neArrow& \swarrow _{e_f}&
+     \\
+      & & \mathcal{P}A & &
+  }
+$$
+
+exhibiting $f$ as an absolute left lifting of $y_A$ along $e_f$ and $e_f$ as a left extension of $y_A$ along $f$.
+
+2. (YS2) For all $A\in|\mathbb{A}|$, $id_{\mathcal{P}A}$ is the left extension of $y_A$ along itself as exhibited in
+
+$$
+  \array{
+     A& & \overset{y_A}{\longrightarrow} & &\mathcal{P}A
+     \\
+     &{}_{y_A}\searrow & \Downarrow _{id}& \nearrow _{id_{\mathcal{P}A}}&
+     \\
+      & & \mathcal{P}A & &
+  }
+$$
+
+3. (YS3) For 
 
 =--
 
