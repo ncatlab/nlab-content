@@ -113,7 +113,9 @@ This example generalizes as follows: given any [[monoidal category|monoidal]] [[
 * $K/J = \{i \in M \mid \forall_{j\in J} i\cdot j \in K \}$
 * $I\backslash K = \{j \in M \mid \forall_{i\in I} i\cdot j \in K \}$
 
-Another class of examples: internal homs $\hom_{sLat}(X, X)$ in the closed monoidal category of suplattices. For example, when the suplattice $X$ is a power set $P(S)$, one may identify $\hom_{sLat}(P(S), P(S))$ with the poset of binary relations $P(S \times S)$, ordered by inclusion and where the quantalic multiplication is relational composition. 
+Another class of examples: internal homs $\hom_{sLat}(X, X)$ in the closed monoidal category of suplattices. For example, when the suplattice $X$ is a power set $P(S)$, one may identify $\hom_{sLat}(P(S), P(S))$ with the poset of binary relations $P(S \times S)$, ordered by inclusion and where the quantalic multiplication is relational composition.
+
+An example in algebra is given by the lattice of ideals of a commutative ring, with the tensor product given by ideal multiplication, which makes it into a commutative affine quantale. Residuation in this case is *ideal division* $(\mathfrak{a} : \mathfrak{b}) = \{x | x\mathfrak{b} \subseteq \mathfrak{a}\}$.
 
 Quantales, as monoids in the symmetric monoidal category $sLat$, can be tensored to produce new quantales. 
 
