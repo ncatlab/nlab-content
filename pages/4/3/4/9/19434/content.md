@@ -52,7 +52,7 @@ $$
       & & C & &
   }
 $$
-We say that $\eta$ (or, by abuse, the diagram) exhibits $e:C\to B$ as a _left extension_ of $f:A\to B$ along $g:A\to C$ if for all parallel maps $k:C\to B$ pasting with $\eta$ induces a bijection between 2-cells $\sigma:e\Rightarrow k$ and 2-cells $f\Rightarrow k\circ g$.
+We say that $\eta$ (or, by abuse, the diagram) exhibits $e:C\to B$ as a _left extension_ of $f:A\to B$ _along_ $g:A\to C$ if for all parallel maps $k:C\to B$ pasting with $\eta$ induces a bijection between 2-cells $\sigma:e\Rightarrow k$ and 2-cells $f\Rightarrow k\circ g$.
 
 We say that a 1-cell $h:B\to D$ _preserves_ this left extension if the following diagram exhibits $h\circ e$ as a left extension of $h\circ f$ along $g$ :
 
@@ -87,7 +87,7 @@ $$
   }
 $$
 
-We say that $\phi$ (or, by abuse, the diagram) exhibits $l:A\to C$ as a _left lifting_ of $f:A\to B$ through $g:C\to B$ iff for all parallel maps $k:A\to C$ pasting with $\phi$ induces a bijection between 2-cells $\sigma:l\Rightarrow k$ and 2-cells $f\Rightarrow g\circ k$.
+We say that $\phi$ (or, by abuse, the diagram) exhibits $l:A\to C$ as a _left lifting_ of $f:A\to B$ _through_ $g:C\to B$ iff for all parallel maps $k:A\to C$ pasting with $\phi$ induces a bijection between 2-cells $\sigma:l\Rightarrow k$ and 2-cells $f\Rightarrow g\circ k$.
 
 We say that a 1-cell $j:D\to A$ preserves this left lifting if the following diagram exhibits $l\circ j$ as a left lifting of $f\circ j$ through $g$ :
 
@@ -115,7 +115,7 @@ Let $\mathcal{K}$ be a [[2-category]] and $\mathbb{A}$ be an admissible class of
 
 A _presheaf construction_ $\mathcal{P}$ for $\mathbb{A}$ assigns to every admissible object $A\in |\mathbb{A}|$ an object $\mathcal{P}A\in |\mathcal{K}|$ called its _object of presheaves_ and an admissible 1-cell $y_A:A\to\mathcal{P}A$ called its _Yoneda morphism_ subject to the following conditions:
 
-1. (**YS1**) For each admissible 1-cell $f:A\to B$ with admissible domain $A\in |\mathbb{A}|$ there is given a 2-cell $\chi_f:y_A\Rightarrow e_f\circ f$ such that the following diagram
+* (**YS1**) For each admissible 1-cell $f:A\to B$ with admissible domain $A\in |\mathbb{A}|$ there is given a 2-cell $\chi_f:y_A\Rightarrow e_f\circ f$ such that the following diagram
 
 $$
   \array{
@@ -128,7 +128,7 @@ $$
 $$
 exhibits $f$ as an absolute left lifting of $y_A$ through $e_f$ and $e_f$ as a left extension of $y_A$ along $f$.
 
-2. (**YS2**) For all $A\in|\mathbb{A}|$, $id_{\mathcal{P}A}$ is the left extension of $y_A$ along itself as exhibited in
+* (**YS2**) For all $A\in|\mathbb{A}|$, $id_{\mathcal{P}A}$ is the left extension of $y_A$ along itself as exhibited in
 
 $$
   \array{
@@ -140,7 +140,7 @@ $$
   }
 $$
 
-3. (**YS3**) For all $i:A\to B$, $j:B\to C$ such that $A,B\in |\mathbb{A}|$ and $i,j\in\mathbb{A}$ the following diagram
+* (**YS3**) For all $i:A\to B$, $j:B\to C$ such that $A,B\in |\mathbb{A}|$ and $i,j\in\mathbb{A}$ the following diagram
 
 $$
   \array{
@@ -155,7 +155,7 @@ $$
 exhibits $e_{{y_B}i}\circ e_j$ as the left extension of $y_A$ along $j\circ i$.
 
 
-The pair $(\mathbb{A},\mathcal{P})$ is called a _Yoneda structure_ on the 2-category $\mathcal{K}$.
+The pair $(\mathbb{A},\mathcal{P})$ is called a **Yoneda structure** on the 2-category $\mathcal{K}$.
 =--
 
 We desisted from tracking the prefix 'proto' through the foregoing but it should clear that a _proto-Yoneda structure_ results from replacing 'admissible' by 'proto-admissible' throughout the definition. Indeed, in (YS3) the redundant assumption that $i\in|\mathbb{A}|$ was made in proviso for the case of proto-admissible 1-cells.
@@ -164,20 +164,22 @@ In cases where we need to keep track of from which (proto-)Yoneda structure the 
 
 In Street-Walters ([1978](#SW78)) a stronger axiom (Y2') is also considered:
 
-* (**Y2'**) If the following diagram
+* (**YS2'**) If the following diagram
 
 $$
   \array{
-     A& & \overset{f}{\longrightarrow} & &B
+     A& & \overset{f}{\longrightarrow} & B&
      \\
-     &{}_{y_A}\searrow & {}^{\chi_f}\neArrow& \swarrow _{e_f}&\overset{\sigma}{\Rightarrow}\swarrow_g
+     &{}_{y_A}\searrow & \overset{\chi_f}{\Rightarrow}& \swarrow \overset{\sigma}{\Rightarrow}\swarrow_g
      \\
       & & \mathcal{P}A & &
   }
 $$
-exhibits $f$ as an absolute left lifting of $yA$ through $g$ then $\sigma$ is an isomorphism.
+exhibits $f$ as an absolute left lifting of $y_A$ through $g$ then $\sigma:e_f\Rightarrow g$ is an isomorphism.
 
-It is shown there (prop.11) that (YS1) and (YS2') imply (YS2) and (YS3). Together with a finite-completeness assumption on $\mathcal{K}$ and pointwiseness of the left extensions the resulting Yoneda structures are called **good** in Weber ([2007](#Weber07)) where it is also shown that Yoneda structures arising from presheaf constructions of the form $\mathcal{P}{}_- = \[({}_-)^{op},\Omega\]$ have this property, $\Omega$ being an abstract "small-set object" in a cartesian closed 2-category $\mathcal{K}$ with an involution $({}_-)^{op}$.
+It is shown there (prop.11) that (YS1) and (YS2') imply (YS2) and (YS3).
+
+Together with a finite-completeness assumption on $\mathcal{K}$ and pointwiseness of the left extensions the resulting Yoneda structures are called **good** in Weber ([2007](#Weber07)) where it is also shown that Yoneda structures arising from presheaf constructions of the form $\mathcal{P}({}_-) = [({}_-)^{op},\Omega]$ have this property, $\Omega$ being an abstract "object of small sets" in a cartesian closed 2-category $\mathcal{K}$ with an involution $({}_-)^{op}$.
 
 ## Properties
 
