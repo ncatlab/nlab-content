@@ -83,18 +83,55 @@ This may be used to understand the [[gauge enhancement]] to [[E8]]-[[gauge group
 
 ## References
 
+### On coincident D-branes
+  {#ReferencesOnCoincidentDBranes}
+
+The idea that on $N$ coincident D-branes there is gauge enhancement to $U(N)$-gauge field theory is due to 
+
+* {#Witten95} [[Edward Witten]], section 3 of _Bound States Of Strings And $p$-Branes_, Nucl.Phys.B460:335-350, 1996 ([arXiv:hep-th/9510135](https://arxiv.org/abs/hep-th/9510135))
+
+There, this is called an "obvious guess" (first line on p. 8). Subsequently,  most authors cite this obvious guess as a fact; for instance the review 
+
+* {#Myers03} [[Robert Myers]], section 3 of _Nonabelian Phenomena on D-branes_, Class.Quant.Grav. 20 (2003) ([arXiv:hep-th/0303072](https://arxiv.org/abs/hep-th/0303072))
+
+By actual computation in [[open string field theory]] "convincing evidence" (see bottom of p. 22) was found in
+
+* {#ColettiSigalovTaylor03} Erasmo Coletti, Ilya Sigalov, [[Washington Taylor]], _Abelian and nonabelian vector field effective actions from string field theory_, JHEP 0309 (2003) 050 ([arXiv:hep-th/0306041](https://arxiv.org/abs/hep-th/0306041))
+
+while the first actual derivation seems to be due to
+
+* {#Lee16} [[Taejin Lee]], _Covariant open bosonic string field theory on multiple D-branes in the proper-time gauge_, Journal of the Korean Physical Society December 2017, Volume 71, Issue 12, pp 886–903 ([arXiv:1609.01473](https://arxiv.org/abs/1609.01473))
+
+which is surveyed in
+
+* {#Lee17} [[Taejin Lee]], _Deformation of the Cubic Open String Field Theory_, Phys. Lett. B 768 (2017) 248 ([arXiv:1701.06154](https://arxiv.org/abs/1701.06154))
+
+That on [[D0-branes]] this reproduces the [[BFSS matrix model]] and on [[D(-1)-branes]] the [[IKKT matrix model]] is shown in
+
+* [[Taejin Lee]], _Covariant Open String Field Theory on Multiple D$p$-Branes_ ([arXiv:1703.06402](https://arxiv.org/abs/1703.06402))
+
 Discussion of gauge enhancement on coincident D-branes in terms of [[Baum-Douglas geometric cycles]] for [[K-homology]] is in 
 
-* {#ReisSzabo05} Rui Reis, [[Richard Szabo]], _Geometric K-Homology of Flat D-Branes_ ,Commun.Math.Phys. 266 (2006) 71-122 ([arXiv:hep-th/0507043](https://arxiv.org/abs/hep-th/0507043))
+* {#ReisSzabo05} Rui Reis, [[Richard Szabo]], _Geometric K-Homology of Flat D-Branes_ ,Commun.Math.Phys. 266 (2006) 71-122, Journal of the Korean Physical Society December 2017, Volume 71, Issue 12, pp 886–903 ([arXiv:hep-th/0507043](https://arxiv.org/abs/hep-th/0507043))
 
 reviewed in
 
 * {#Szabo08} [[Richard Szabo]], _D-branes and bivariant K-theory_, Noncommutative Geometry and Physics 3 1 (2013): 131. ([arXiv:0809.3029](http://arxiv.org/abs/0809.3029))
 
 
+### On M-branes at ADE-singularities
+
+The picture of [[M-theory lift of gauge enhancement on D6-branes]] is due to
+
+* {#Sen97} [[Ashoke Sen]], Section 2, _A Note on Enhanced Gauge Symmetries in M- and String Theory_, JHEP 9709:001,1997 ([arXiv:hep-th/9707123](http://arxiv.org/abs/hep-th/9707123))
+
 Review of the standard lore of gauge enhancement in M-theory includes
 
 * {#Barrett06} Adam B. Barrett, section 2.3 (following [Acharya-Gukov 04](#AcharyaGukov04)) of _M-Theory on Manifolds with $G_2$ Holonomy_, 2006 ([arXiv:hep-th/0612096](http://arxiv.org/abs/hep-th/0612096))
+
+(...)
+
+### General
 
 Original articles include
 
@@ -110,7 +147,6 @@ Original articles include
 
 * [[Philip Candelas]], Eugene Perevalov, Govindan Rajesh, _Toric Geometry and Enhanced Gauge Symmetry of F-Theory/Heterotic Vacua_, Nucl.Phys. B507 (1997) 445-474 ([arXiv:hep-th/9704097](http://arxiv.org/abs/hep-th/9704097))
 
-* {#Sen97} [[Ashoke Sen]], _A Note on Enhanced Gauge Symmetries in M- and String Theory_, JHEP 9709:001,1997 ([arXiv:hep-th/9707123](http://arxiv.org/abs/hep-th/9707123))
 
 * [[Mirjam Cvetic]], [[Chris Hull]], _Wrapped Branes and Supersymmetry_, Nucl.Phys.B519:141-158,1998 ([arXiv:hep-th/9709033](http://arxiv.org/abs/hep-th/9709033))
 
