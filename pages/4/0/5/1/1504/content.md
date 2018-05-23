@@ -681,6 +681,32 @@ See also _[[higher category theory and physics]]_ .
 #### For Yang-Mills theory
  {#ReferencesOnYMTheoryAspects}
 
+
+The idea that open strings on $N$ coincident [[D-branes]] exhibit [[gauge enhancement]] to $U(N)$-gauge field theory is due to 
+
+* {#Witten95} [[Edward Witten]], section 3 of _Bound States Of Strings And $p$-Branes_, Nucl.Phys.B460:335-350, 1996 ([arXiv:hep-th/9510135](https://arxiv.org/abs/hep-th/9510135))
+
+There, this is called an "obvious guess" (first line on p. 8). Subsequently,  most authors cite this obvious guess as a fact; for instance the review 
+
+* {#Myers03} [[Robert Myers]], section 3 of _Nonabelian Phenomena on D-branes_, Class.Quant.Grav. 20 (2003) ([arXiv:hep-th/0303072](https://arxiv.org/abs/hep-th/0303072))
+
+By actual computation in [[open string field theory]] "convincing evidence" (see bottom of p. 22) was found in
+
+* {#ColettiSigalovTaylor03} Erasmo Coletti, Ilya Sigalov, [[Washington Taylor]], _Abelian and nonabelian vector field effective actions from string field theory_, JHEP 0309 (2003) 050 ([arXiv:hep-th/0306041](https://arxiv.org/abs/hep-th/0306041))
+
+while the first actual derivation seems to be due to
+
+* {#Lee16} [[Taejin Lee]], _Covariant open bosonic string field theory on multiple D-branes in the proper-time gauge_ ([arXiv:1609.01473](https://arxiv.org/abs/1609.01473))
+
+which is surveyed in
+
+* {#Lee17} [[Taejin Lee]], _Deformation of the Cubic Open String Field Theory_, Phys. Lett. B 768 (2017) 248 ([arXiv:1701.06154](https://arxiv.org/abs/1701.06154))
+
+That on [[D0-branes]] this reproduces the [[BFSS matrix model]] and on [[D(-1)-branes]] the [[IKKT matrix model]] is shown in
+
+* [[Taejin Lee]], _Covariant Open String Field Theory on Multiple D$p$-Branes_ ([arXiv:1703.06402](https://arxiv.org/abs/1703.06402))
+
+
 Discussion of the [[L-infinity algebra]] [[schreiber:infinity-Chern-Simons theory|higher Chern-Simons theory]] of the [[Yang-Mills theory]] that appears to lowest order as the [[effective QFT]] in open string field theory is for instance in
 
 * [[Anton Zeitlin]], 
