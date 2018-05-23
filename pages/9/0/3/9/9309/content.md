@@ -33,6 +33,7 @@ A critical discussion is in
 
 * {#Schwarz01} [[John Schwarz]], section 2 of _Comments on Born-Infeld Theory_, talk presented at Strings 2001 ([arXiv:hep-th/0103165](https://arxiv.org/abs/hep-th/0103165))
 
+For actual derivation of [[gauge enhancement]] on coincident D-branes see the references [there](enhanced+gauge+symmetry#ReferencesOnCoincidentDBranes).
 
 [[!redirects DBI action]]
 
