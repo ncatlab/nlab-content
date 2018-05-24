@@ -410,6 +410,10 @@ Discussion with an eye towards [[ring spectra]] realized as [[symmetric spectra]
 
 * {#Schwede12} [[Stefan Schwede]], section III.6 of _[[Symmetric spectra]]_, 2012 ([pdf](http://www.math.uni-bonn.de/~schwede/SymSpec-v3.pdf))
 
+Discussion with application to [[homotopical algebraic quantum field theory]] is in 
+
+* {#BeniniSchenkelWoike18} [[Marco Benini]], [[Alexander Schenkel]], [[Lukas Woike]], _Homotopy theory of algebraic quantum field theories_ ([arXiv:1805.08795](https://arxiv.org/abs/1805.08795))
+
 
 [[!redirects model structures on algebras over an operad]]
 
