@@ -6,7 +6,7 @@ I work on [[bundle gerbes]], [[principal 2-bundles|2-bundles]], [[geometric stac
 
 I was a Research Associate (i.e. a postdoc) at the University of Adelaide from October 2013 to April 2015. For the period July-2017 to February 2018 I was a Lecturer in the School of Mathematical Sciences.
 
-You may also find me on: [MathSciNet](https://www.ams.org/mathscinet/search/author.html?mrauthid=788905)|[MathOverflow](https://mathoverflow.net/users/4177/david-roberts)|[Wordpress](https://thehighergeometer.wordpress.com/)|[arXiv](https://arxiv.org/a/roberts_d_1.html)|[ORCiD](http://orcid.org/0000-0002-3478-0522)|[Publons](https://publons.com/a/430214/)
+You may also find me on: [MathSciNet](https://www.ams.org/mathscinet/search/author.html?mrauthid=788905)|[MathOverflow](https://mathoverflow.net/users/4177/david-roberts)|[arXiv](https://arxiv.org/a/roberts_d_1.html)|[ORCiD](http://orcid.org/0000-0002-3478-0522)|[Publons](https://publons.com/a/430214/)|[theHigherGeometer](https://thehighergeometer.wordpress.com/)
 
 If you need it, here is my email:  droberts.[fifth and largest-known [[Fermat prime]] ]@gmail.[etc]
 
