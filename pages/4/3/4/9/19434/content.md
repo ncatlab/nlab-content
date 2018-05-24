@@ -22,7 +22,7 @@ The concept of a **Yoneda structure** provides in a general 2-categorical settin
 
 The axioms of a Yoneda structure are out to capture the properties of the presheaf construction with [[CAT]] replaced by general 2-category $\mathcal{K}$. In order to handle size issues a class of "legitimate" or "amissible" 0-cells is singled out in $|\mathcal{K}|$ as well as a class of 1-cells that behave well with respect to this class and the presheaf construction. In fact, it suffices to describe the "admissible" 1-cells since one can then identify the admissible 0-cells with the admissible identity 1-cells.
 
-In $CAT$ relative to the usual presheaf construction one should think of the [[locally small category|locally small categories]] as the admissible 0-cells i.e. those categories $\mathcal{C}$ with all Hom-sets $\mathcal{C}(x,y)$ contained in a category $Set$ of "small" sets itself contained in a [[Grothendieck universe]] $U_0$ whereas general 0-cells of $\mathcal{K}$ live in a larger universe $U_1\supset U_0$. In this setting admissible functors $f:\mathcal{A}\to\mathcal{B}$ are those with all relative Hom-sets $\mathcal{B}(f(a),b)\in Set$. Furthermore, one can show ([Freyd-Street 1995](FS95)) that _a category $\mathcal{C}\in CAT$ is small i.e. $|\mathcal{C}|\in Set$ precisely if $\mathcal{C}$ and $Set^{\mathcal{C}^{op}}$ are locally small_.
+In $CAT$ relative to the usual presheaf construction one should think of the [[locally small category|locally small categories]] as the admissible 0-cells i.e. those categories $\mathcal{C}$ with all Hom-sets $\mathcal{C}(x,y)$ contained in a category $Set$ of "small" sets itself contained as object in a larger [[Grothendieck universe]] $U_0$. In this setting admissible functors $f:\mathcal{A}\to\mathcal{B}$ are those with all relative Hom-sets $\mathcal{B}(f(a),b)\in Set$. Furthermore, one can show ([Freyd-Street 1995](FS95)) that _a category $\mathcal{C}\in CAT$ is small i.e. $|\mathcal{C}|\in Set$ precisely if $\mathcal{C}$ and $Set^{\mathcal{C}^{op}}$ are locally small_.
 
 Admissible functors $f$ in this sense in $CAT$ are closed under precomposition not only among themselves but with respect to arbitrary (composable) $g$ since the relative Hom-sets $\mathcal{B}(f{}g(x),b)$ are simply a subclass of $\mathcal{B}(f(a),b)$ namely those for which $a\in im(g)$. Whence these "relatively small" functors form a [[right ideal]]. Given the close connection between [[KZ doctrines]] and Yoneda structures it will nevertheless be useful to consider the more general case of closure in itself under composition as well, a situation which we acknowledge terminologically with the prefix "proto".
 
@@ -162,7 +162,7 @@ We desisted from tracking the prefix 'proto' through the foregoing but it should
 
 In cases where we need to keep track of from which (proto-)Yoneda structure the various structural 1- and 2-cells come from we will use the presheaf construction as a superscript for disambiguation: for (proto-)Yoneda structure $(\mathbb{A},\mathcal{P})$ we write $y_A^\mathcal{P}$ and $\chi_f^{\mathcal{P}}$ etc.
 
-In Street-Walters ([1978](#SW78)) a stronger axiom (Y2') is also considered:
+In Street-Walters ([1978](#SW78)) a stronger axiom (YS2') is also considered:
 
 * (**YS2'**) If the following diagram
 
@@ -187,7 +187,9 @@ Together with a finite-completeness assumption on $\mathcal{K}$ and pointwisenes
 
 ## Examples
 
-...
+* The primordial example is $CAT$ with $\mathcal{P}:C\mapsto Set^{C^{op}}$ with $y_C:a\mapsto Hom_C({}_-,a)$ , the Yoneda embedding. A functor $f:C\to D$ is admissible if the relative $Hom_D(f{}_-,{}_-):D\to SET^{C^{op}}$ factors through $Set^{C^{op}}$. Admissible categories are precisely the locally small categories.
+
+
 
 ## The relation to KZ doctrines
 
