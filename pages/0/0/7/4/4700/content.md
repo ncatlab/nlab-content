@@ -79,8 +79,6 @@ Cf. also [[Rozansky-Witten theory]], [[formal noncommutative symplectic geometry
 
 * [[Andrey Lazarev]], _Operads and topological conformal field theories_, [pdf](http://www.maths.lancs.ac.uk/~lazarev/1-10.pdf); and older versio: _Graduate lectures on operads and topological field theories_, zip file with 11 pdfs, [over 5 Mb](http://www2.le.ac.uk/departments/mathematics/extranet/staff-material/staff-profiles/al179/New%20Folder.zip)
 
-* [[Alastair Hamilton]], [[Andrey Lazarev]], _Graph cohomology classes in the [[BV-BRST formalism|Batalin-Vilkovisky formalism]]_, J.Geom.Phys. __59__:555-575, 2009, [arxiv/0701825](http://arxiv.org/abs/math/0701825)
-
 * [[Alastair Hamilton]], _A super-analogue of Kontsevich's theorem on graph homology_, Lett. Math. Phys. __76__ (2006), no. 1, 37--55, [math.QA/0510390](http://arxiv.org/abs/math/0510390)
 
 * A. Lazarev, A. A. Voronov, _Graph homology: Koszul and Verdier duality_, [math.QA/0702313](http://arxiv.org/abs/math/0702313)
@@ -101,9 +99,15 @@ Cf. also [[Rozansky-Witten theory]], [[formal noncommutative symplectic geometry
 
 * [[S. A. Merkulov]], _Graph complexes with loops and wheels_, in (Manin's Festschrift:) Algebra, Arithmetic, and Geometry, Progress in Mathematics __270__ (2009) 311-354, [doi](http://dx,doi.org/10.1007/978-0-8176-4747-6_10), [pdf](http://www2.math.su.se/~sm/Papers/graph_complexes.pdf)
 
+
+* M. Markl, S. Merkulov, S. Shadrin, _Wheeled PROPs, graph complexes and the master equation_, J. Pure Appl. Algebra, 213(4):496–535, 2009, [math.AT/0610683](https://arxiv.org/abs/math/0610683)
+
 The following survey has discussion of context between the graph complex and [[Batalin-Vilkovisky formalism]]:
 
 * Jian Qiu, Maxim Zabzine, _Introduction to graded geometry, Batalin-Vilkovisky formalism and their applications_, [arxiv/1105.2680](http://arxiv.org/abs/1105.2680) 
 * Jian Qiu, Maxim Zabzine, _Knot weight systems from graded symplectic geometry_, [arxiv/1110.5234](http://arxiv.org/abs/1110.5234) 
+
+* [[Alastair Hamilton]], [[Andrey Lazarev]], _Graph cohomology classes in the [[BV-BRST formalism|Batalin-Vilkovisky formalism]]_, J.Geom.Phys. __59__:555-575, 2009, [arxiv/0701825](http://arxiv.org/abs/math/0701825)
+
 [[!redirects graph cohomology]]
 [[!redirects graph complex]]
