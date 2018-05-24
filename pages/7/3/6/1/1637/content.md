@@ -86,6 +86,8 @@ Can specific references to Swan be given, anyone?
 [[Zoran Škoda]]: I agree that one should talk about copowers etc. 
 
 Anonymous Coward: With exercise 8.3.5 of Weibel in mind, what is the notion of "cylinder" meant in the assertion "the combinatorial definition of homotopy agrees with the one via the cylinder both for simplicial sets and for simplicial objects in any finitely cocomplete category" for a general finitely cocomplete category?
+
+[[Tim Porter]]:  I have transferred this question to the [nForum](https://nforum.ncatlab.org/discussion/5627/simplicial-homotopy/#Comment_69108) where it will be easier for others to reply.  In the meantime some indication is given in Kamps and Porter as referenced below. I myself do not quite understand your question as it is presently stated, but this may be that I am too near to the subject matter to see the difficulty.
 =--
 
 ##Properties##
