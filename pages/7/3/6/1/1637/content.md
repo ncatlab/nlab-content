@@ -84,6 +84,8 @@ In the case of the category of (not necessarily abelian) groups, the combinatori
 Can specific references to Swan be given, anyone?
 
 [[Zoran Škoda]]: I agree that one should talk about copowers etc. 
+
+Anonymous Coward: With exercise 8.3.5 of Weibel in mind, what is the notion of "cylinder" meant in the assertion "the combinatorial definition of homotopy agrees with the one via the cylinder both for simplicial sets and for simplicial objects in any finitely cocomplete category" for a general finitely cocomplete category?
 =--
 
 ##Properties##
