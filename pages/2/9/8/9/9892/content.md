@@ -23,6 +23,9 @@ In [AMPS 2012](#AMPS), it is proposed that infalling [[observers]] encounter a "
 
 For a rough summary, see [Wikipedia](http://en.wikipedia.org/wiki/Firewall_(physics%29) for now.
 
+## Related entries
+
+* [[holographic entanglement entropy]]
 
 ## Reading
 
