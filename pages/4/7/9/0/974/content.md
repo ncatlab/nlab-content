@@ -91,7 +91,7 @@ Thus, a locally presentable category is one which is locally $\kappa$-presentabl
 +-- {: .num_defn #LocallyFinitelyPresentable}
 ###### Definition 
 
-A locally [[?]]${}_0$-presentable category is called a 
+A locally ${\aleph}_0$-presentable category is called a 
 **[[locally finitely presentable category]]**.
 
 =--
