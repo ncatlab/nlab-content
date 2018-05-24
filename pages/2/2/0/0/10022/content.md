@@ -37,6 +37,7 @@ The correct statement of this relation turns out to be that quantum corrections 
 
 * [[p-adic AdS-CFT]]
 
+
 ## References
  {#References}
 
@@ -47,6 +48,8 @@ The original article is
 Review is in
 
 * Tatsuma Nishioka, [[Shinsei Ryu]], [[Tadashi Takayanagi]], _Holographic Entanglement Entropy: An Overview_, J.Phys.A42:504008,2009 ([arXiv:0905.0932](http://jp.arxiv.org/abs/0905.0932))
+
+* {#Harlow18} [[Daniel Harlow]], _TASI Lectures on the Emergence of Bulk Physics in AdS/CFT_ ([arXiv:1802.01040](https://arxiv.org/abs/1802.01040))
 
 Survey talks include
 
