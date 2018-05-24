@@ -76,7 +76,7 @@ $$
 
 the _[[flat modality]]_ and the _[[sharp modality]]_. The discrete objects are precisely the [[modal types]] for the [[flat modality]]. The [[codiscrete objects]] are the modal types for the [[sharp modality]].
 
-### Topological categories, fibrations, and final lifts
+### Topological categories, fibrations, and final lifts {#Fibrations}
 
 Every [[topological concrete category]] has discrete (and also codiscrete) spaces 
 
