@@ -37,6 +37,12 @@ The spatial tensor product is injective, in the sense of Grothendieck's approach
 
 In the category of operator spaces and completely contractive linear maps (completely short in nLab terminology?), one can introduce the projective tensor product and the injective tensor product in analogy with Grothendieck's definitions for the category of Banach spaces and short linear maps. Then if $A$ and $B$ are $C^*$-algebras, the injective tensor product of their underlying operator spaces is canonically isomorphic to the underlying operator space of $A\otimes_{min} B$.
 
+## Related pages
+
+
+* [[tensor product of Banach spaces]]
+* [[inductive tensor product]]
+
 
 ## References ##
 
