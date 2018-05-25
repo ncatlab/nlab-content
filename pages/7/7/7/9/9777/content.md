@@ -37,3 +37,9 @@ A lift to [[M-theory]] is proposed in
 
 * {#Hull98} [[Chris Hull]], _Massive String Theories From M-Theory and F-Theory_, JHEP 9811:027, 1998 ([arXiv:hep-th/9811021](https://arxiv.org/abs/hep-th/9811021))
 
+The role of the D8 in the [[K-theory]]-classification of [[D-branes]] is discussed in
+
+* [[John Schwarz]], sections 6.2 and 6.3 of _TASI Lectures on Non-BPS D-Brane Systems_ ([arXiv:hep-th/9908144](https://arxiv.org/abs/hep-th/9908144))
+
+* Ion V. Vancea, _On the Algebraic K-theory of The Massive D8 and M9 Branes_,   Int. J. Mod. Phys. A16 (2001) 4429-4452 ([arXiv:hep-th/9905034](https://arxiv.org/abs/hep-th/9905034))
+
