@@ -2,12 +2,14 @@
 [[!redirects Nikolaj+K]]
 [[!redirects Nikolaj-K]]
 
-I do statistical physics and am interested in clear and encompassing foundations. You can find my contact _[on my Wiki](axiomsofchoice.org)_. I also create video content on type systems and category theoretical concepts 
+I'm a physicist interested in clear and encompassing foundations. You can find my contact _[on my Wiki](axiomsofchoice.org)_. I also create video content on type systems and category theoretical concepts 
 _[on youtube](https://www.youtube.com/channel/UCcrSMnEYhIPX_p127jI23qw/videos)_.
 
 ![Me in 2014](http://i.imgur.com/mBK4dTV.jpg)
 
 <img src="http://www.ncatlab.org/nlab/files/BraidDiagramForHomologyOnTripled.jpg" width="500">
+
+![Me in 2018](https://i.imgur.com/hcXFEOC.png)
 
 +-- {: .query}
 [[Nikolaj Kuntner]]: how to do a query text
