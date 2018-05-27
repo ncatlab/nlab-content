@@ -25,7 +25,8 @@ In the case of [[dg-algebras]] in an [[abelian category]] $\mathcal{A}$, [[dg-mo
 
 More generally there are [[model structures]] on [[dg-modules]] over a [[dg-category]], analogous to [[model structures on simplicial presheaves]].
 
-## Definition
+## Definitions
+ {#Definitions}
 
 +-- {: .num_theorem #ProjectiveModelStructure}
 ###### Theorem
@@ -76,7 +77,7 @@ Section 3 of
 
 Paragraph 3.2 of
 
-* {#Keller2006} [[Bernhard Keller]], _On differential graded categories_, [arXiv:math/0601185](http://arxiv.org/abs/math/0601185).
+* {#Keller06} [[Bernhard Keller]], _On differential graded categories_, [arXiv:math/0601185](http://arxiv.org/abs/math/0601185).
 
 ### For dg-algebras
 
