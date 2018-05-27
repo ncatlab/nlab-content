@@ -105,6 +105,81 @@ We say that the left lifting is _absolute_ if it is preserved by all 1-cells wit
 
 =--
 
++-- {: .num_example #fully_faithfull}
+###### Example 
+The following diagram 
+
+$$
+  \array{
+      
+     A& & \overset{id_A}{\longrightarrow} & &C
+     \\
+     &{}_f\searrow & \neArrow _{id}& \swarrow _f&
+     \\
+      & & B & &
+  }
+$$
+exhibits $id_A$ as an absolute left lifting of $f:A\to B$ through itself iff $f:A\to B$ is _representably fully-faithful_ i.e. the functor "postcomposition with $f$" $\mathcal{K}(X,f):\mathcal{K}(X,A)\to\mathcal{K}(X,B)$ is fully-faithful for all $X\in|\mathcal{K}|$. This holds since the Hom-set $Hom_{\mathcal{K}(X,A)}(k,g)$ is precisely the set of 2-cells $k\Rightarrow g$ and $\mathcal{K}(X,f)$ acts on them by pasting with $id_f$.
+
+=--
+
+
++-- {: .num_example #adjunction}
+###### Example
+The following diagram 
+
+$$
+  \array{
+      
+     B& & \overset{g}{\longrightarrow} & &A
+     \\
+     &{}_{id_B}\searrow & \neArrow _\eta& \swarrow _f&
+     \\
+      & & B & &
+  }
+$$
+exhibits $g$ as an absolute left lifting of $id_B$ through $f$ iff there exists a 2-cell 
+$$
+  \array{
+      
+     A& & \overset{id_A}{\longrightarrow} & &A
+     \\
+&{}_{f}\searrow & \Uparrow _\epsilon& \nearrow _g&
+     \\
+      & & B & &
+  }
+$$
+such that the pasting of $\epsilon$ on $\eta$ at $g$
+$$
+  \array{
+    & &A & &
+     \\
+&{}_{f}\swarrow & \neArrow _\epsilon& \searrow _{id_A}&
+     \\   
+     B& & \overset{g}{\longrightarrow} & &A
+     \\
+     &{}_{id_B}\searrow & \neArrow _\eta& \swarrow _f&
+     \\
+      & & B & &
+  }
+$$
+and the pasting of $\epsilon$ on $\eta$ at $f$
+$$
+  \array{
+     B &\overset{g}{\longrightarrow} & A& \overset{id_A}{\longrightarrow}  &A
+     \\
+     &{}_{id_B}\searrow{}^{\eta}{\neArrow} &{}_f\downarrow & \overset{\epsilon}{\neArrow} \nearrow_g & 
+     \\
+      & & B & & 
+  }
+$$
+
+yield identity 2-cells.
+
+Of course, this situation expresses an **adjunction** $g\dashv f$ with _unit_ $\eta$ and _counit_ $\epsilon$.  Here the absolute left lifting property of $\eta$ is furthermore equivalent to the left lefting property of $\eta$ plus preservation by $f:A\to B$ (cf. [Street-Walters 1978](#SW78), prop.2).
+
+=--
+
 ## Definition
 
 We are now ready to give the definition of a Yoneda structure:
