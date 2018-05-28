@@ -68,9 +68,11 @@ which is required to satisfy the following axioms.
 
 * Finally, the map $\gamma\colon C(X,Y) \to C(I,[X,Y])$ defined by $f \mapsto [1,f](j_X)$ is a [[bijection]].
 
-This definition is from Manzyuk's paper below.  It differs slightly from Eilenberg-Kelly's original definition, which omitted $\gamma$ but assumed an "underlying-set-functor" $U\colon C \to Set$ as part of the structure, with an axiom asserting that $U([X,Y]) = C(X,Y)$ and that the resulting isomorphism
+This definition is the one used in [LaPlaza](#LaPlaza77) and [Manzyuk](#Manzyuk09).  It differs slightly from Eilenberg-Kelly's original definition, which omitted the axiom involving $\gamma$ but assumed an "underlying-set-functor" $U\colon C \to Set$ as part of the structure, with an axiom asserting that $U([X,Y]) = C(X,Y)$ and that the resulting isomorphism
 $$ C(X,X) = U([X,X]) \overset{U i_{[X,X]}}{\to} U([I,[X,X]]) = C(I,[X,X]) $$
-sends $1_X$ to $j_X$.  The two are essentially equivalent, and the one given here is perhaps a little simpler.
+sends $1_X$ to $j_X$.
+
+The two are essentially equivalent, and the one given here is perhaps a little simpler, as well as obeying the [[principle of equivalence]].  To be precise, every closed category in the sense of Eilenberg-Kelly is also one in the above sense, and conversely every closed category in the above sense is *isomorphic* to one in the sense of Eilenberg-Kelly.  The latter has the same objects and internal-homs, but new hom-sets $\hat{C}(X,Y) \coloneqq C(I,[X,Y])$, and underlying-set functor $U(X) \coloneqq C(I,X)$ (note that this is different from $\hat{C}(I,X) = C(I,[I,X])$).
 
 +-- {: .query}
 [[Tobias Fritz]]: I suspect there is a variant of the definition involving a transformation $R^Z_{X Y} \colon  [X,Y] \to [[Y,Z],[X,Z]]$ rather than $L$. Is this correct? If so, how do these two definitions relate? Can one of them be expressed in terms of the other? Or is there a refined definition which comprises both $L$ and $R$?
@@ -116,6 +118,9 @@ An alternative embedding was also sketched by Day [(1974)](#Day74), and later st
 
 Since the notion of closed category involves a contravariant functor and extranatural transformations, it cannot be expected to be [[2-monad|2-monadic]] over the [[2-category]] [[Cat]].  It is, however, 2-monadic over the 2-category $Cat_g$ of categories, functors, and natural isomorphisms, the [[core]] of [[Cat]].  In this way we obtain a 2-category $ClCat$ of closed categories, strong [[closed functors]], and [[closed natural transformations]].  One can also define a notion of non-strong, or "lax," closed functor; although these do not seemingly arise from the 2-monad in question, they generalize lax monoidal functors between closed monoidal categories.
 
+## Extension systems
+
+There is a notion that is related to a [[bicategory]] in the same way that a closed category is related to a [[monoidal category]], i.e. a [[horizontal categorification]] of a closed category.  It has a set of "objects", for any two objects $A,B$ a category $\mathcal{B}(A,B)$, and internal-hom functors like those in a [[closed bicategory]].  It was defined by [Street](#Street74) under the name **extension system**, although our page [[extension system]] is about an unrelated concept with the same name.
 
 ## Related concepts
 
@@ -142,7 +147,8 @@ Their [[coherence theorem]] was considered in terms of [[Kelly-Mac Lane graphs]]
 
 They were shown to be equivalent to closed unital [[multicategories]] here:
 
-* Oleksandr Manzyuk, _Closed categories vs. closed multicategories_, [arXiv](http://arxiv.org/abs/0904.3137).
+* Oleksandr Manzyuk, _Closed categories vs. closed multicategories_, [arXiv](http://arxiv.org/abs/0904.3137), 2009
+ {#Manzyuk09}
 
 You can get some of the idea from a [post by Owen Biesel at the $n$-Caf&#233;](http://golem.ph.utexas.edu/category/2009/02/monoidal_closed_categories_and.html#c022133).
 
@@ -155,5 +161,9 @@ The alternative embedding of closed categories based on promonoidal Day convolut
 * {#Day74} [[Brian Day]], An embedding theorem for closed categories, _Lecture Notes in Mathematics_ 420 (1974), 55-64.
 
 * {#DayLaPlaza78} B. J. Day and M. L. Laplaza, On Embedding Closed Categories, _Bull. Austral. Math. Soc._ 18 (1978), 357-371.
+
+The generalization to a bicategory-like notion ("extension systems") appears in
+
+* {#Street74} [[Ross Street]], *Elementary cosmoi I*, Category Seminar (Proc. Sem., Sydney, 1972/1973), 134–180, Lecture Notes in Math., vol. 420, Springer, Berlin, 1974.
 
 [[!redirects closed categories]]
