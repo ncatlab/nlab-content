@@ -28,6 +28,8 @@ $$
 
 is called the **fundamental solution** for $P$; alternative names like __Green function__ and __function of influence__ are also used. A particular solution of the nonhomogeneous equation for some other $g$ can be obtained by calculating the [[convolution]] with the fundamental solution. (Compare the fact that the delta distribution is the [[identity element]] for convolution.)
 
+As a first step one may also considers searching for $f$ such that $P f - \delta$ is a smooth function, the solution to the latter problem is called a [[parametrix]].
+
 ## Examples
 
 ### Propagators for free fields
@@ -36,12 +38,17 @@ The Green functions for the [[wave operator]]/[[Klein-Gordon operator]] are know
 
 [[!include propagators - table]]
 
+## Properties and results
+
+(Malgrange-Ehrenpreis theorem) If $D$ is a differential operator with constant coefficients in $n$-dimensional real space $\mathbf{R}^n$ then the fundamental solution exists in the Schwarz space $\mathcal{S}'(\mathbf{R}^n)$. The proof is using Fourier transform which sends the equation for the fundamental solution into an algebraic equation for the Fourier transform of the solution seeked; the algebraic equation requires inversion and one checks that the conditions for finding the inverse in the Schwarz space are satisfied. 
 
 ## Related concepts
 
 * [[Feynman propagator]]
 
 * [[Dirac propagator]]
+
+* [[parametrix]]
 
 ## References
 
