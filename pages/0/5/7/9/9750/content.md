@@ -306,6 +306,14 @@ The above "brane scan" table showing the double dimensional reduciton pattern of
 
 * {#Witten11} [[Edward Witten]], _Fivebranes and Knots_ ([arXiv:1101.3216](http://arxiv.org/abs/1101.3216)) 
  
+### Reduction of M-Waves and MK6s
 
+* [[José Figueroa-O'Farrill]], [[Joan Simón]], _Supersymmetric Kaluza-Klein reductions of M-waves and MKK-monopoles_, Class. Quant. Grav.19:6147-6174, 2002 ([arXiv:hep-th/0208108](https://arxiv.org/abs/hep-th/0208108))
+
+### Reduction of black M2s and black M5s
+
+* [[José Figueroa-O'Farrill]], [[Joan Simón]], _Supersymmetric Kaluza-Klein reductions of M2 and M5-branes_, Adv. Theor. Math. Phys. 6:703-793, 2003 ([arXiv:hep-th/0208107](https://arxiv.org/abs/hep-th/0208107))
+
+[[!redirects double dimensional reductions]]
 
 [[!redirects double dimensional reduction]]
