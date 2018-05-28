@@ -111,7 +111,7 @@ There are further generalizations, leading to [[separable functor|separable func
 * $n$Lab: [[separable functor]], [[separable field extension]], [[separable coring]]
 * wikipedia [separable algebra](http://en.wikipedia.org/wiki/Separable_algebra)
 
-* Marcelo Aguiar, A note on strongly separable algebras, Bolet&#237;n de la Academia Nacional de Ciencias (C&#243;rdoba, Argentina), special issue in honor of Orlando Villamayor, 65 (2000) 51-60.  ([web](http://www.math.tamu.edu/~maguiar/strongly.ps.gz)) 
+* Marcelo Aguiar, A note on strongly separable algebras, Bolet&#237;n de la Academia Nacional de Ciencias (C&#243;rdoba, Argentina), special issue in honor of Orlando Villamayor, 65 (2000) 51-60.  ([link](http://www.math.cornell.edu/~maguiar/strongly.pdf)) 
 * F. DeMeyer and E. Ingraham, _Separable algebras over commutative rings_, Lecture Notes in Mathematics **181**, Springer, Berlin, 1971.
 * K. Hirata, K. Sugano, _On semisimple and separable extensions of noncommutative rings_, J. Math. Soc. Japan 18 (1966), 360-373.
 
