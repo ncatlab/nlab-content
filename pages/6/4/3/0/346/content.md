@@ -68,7 +68,7 @@ which is required to satisfy the following axioms.
 
 * Finally, the map $\gamma\colon C(X,Y) \to C(I,[X,Y])$ defined by $f \mapsto [1,f](j_X)$ is a [[bijection]].
 
-This definition is the one used in [LaPlaza](#LaPlaza77) and [Manzyuk](#Manzyuk09).  It differs slightly from Eilenberg-Kelly's original definition, which omitted the axiom involving $\gamma$ but assumed an "underlying-set-functor" $U\colon C \to Set$ as part of the structure, with an axiom asserting that $U([X,Y]) = C(X,Y)$ and that the resulting isomorphism
+This definition is the one used in [LaPlaza](#LaPlaza77) and [Manzyuk](#Manzyuk09).  It differs slightly from Eilenberg-Kelly's original definition, which omitted the axiom involving $\gamma$ but assumed an "underlying-set-functor" $U\colon C \to Set$ as part of the structure, with an axiom asserting that $U([X,Y]) = C(X,Y)$ (naturally, i.e. as a strict equality of functors $C^{op}\times C\to Set$) and that the resulting isomorphism
 $$ C(X,X) = U([X,X]) \overset{U i_{[X,X]}}{\to} U([I,[X,X]]) = C(I,[X,X]) $$
 sends $1_X$ to $j_X$.
 
