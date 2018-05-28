@@ -19,7 +19,9 @@ arXiv:1312.1269.
 * [[André Joyal]], [[Joachim Kock]], _Feynman graphs, and nerve theorem for compact symmetric multicategories_, proceedings "Quantum Physics and Logic VI", [arxiv/0908.2675](http://arxiv.org/abs/0908.2675)
 * Joseph Chuang, Andrey Lazarev, _Dual Feynman transform for modular operads_, [arxiv/0704.2561](http://arxiv.org/abs/0704.2561)
 * Martin Markl, Steve Shnider, Jim Stasheff, _Operads in algebra, topology and physics_, Mathematical Surveys and Monographs __96__, Amer. Math. Soc. 2002. x+349 pp. [MR2003f:18011](http://www.ams.org/mathscinet-getitem?mr=2003f:18011)(for Feynman transform see page 251)
+* Michael Slawinski, _The quantum $A_\infty$-relations on the elliptic curve_, [arxiv/1711.07940](https://arxiv.org/abs/1711.07940)
 
+> We define and prove the existence of the Quantum $A_\infty$-relations on the Fukaya category of the elliptic curve, using the notion of the Feynman transform of a modular operad, as defined by Getzler and Kapranov. Following Barannikov, these relations may be viewed as defining a solution to the quantum master equation of Batalin-Vilkovisky geometry. 
 
 [[!redirects Feynman transform]]
 [[!redirects dual Feynman transform]]
