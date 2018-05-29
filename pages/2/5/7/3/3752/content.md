@@ -182,6 +182,10 @@ Accordingly, there is the semi-category analog of a [[Segal space]], called a _[
 
 ## Related concepts
 
+* [[semipresheaf]]
+
+* [[regular semicategory]]
+
 * [[non-unital ring]]
 
 * [[semi-simplicial set]]
@@ -193,6 +197,10 @@ Accordingly, there is the semi-category analog of a [[Segal space]], called a _[
 Enriched semicategory theory is developed in 
 
 * {#MBB02}M.-A. Moens, U. Bernani-Canani, [[Francis Borceux|F. Borceux]], _On regular presheaves and regular semi-categories_ , Cah. Top. G&#233;om. Diff. Cat. **XLIII** no.3 (2002) pp.163-190. ([numdam](http://www.numdam.org/item?id=CTGDC_2002__43_3_163_0))
+
+This is turned one notch further in
+
+* {#Stubbe05}[[Isar Stubbe]], _Categorical structures enriched in a quantaloid : regular presheaves, regular semicategories_ , Cah. Top. G&#233;om. Diff. Cat. **XLVI** no.2 (2005) pp.99-121. ([numdam](http://www.numdam.org/item/CTGDC_2005__46_2_99_0)
 
 Semicategories and semigroups are mentioned in section 2 in
 
@@ -215,4 +223,3 @@ Structures obtained by further relaxing also the [[associativity]] law are discu
 [[!redirects category without units]]
 [[!redirects categories without units]]
 
-[[!redirects semi-category]]
