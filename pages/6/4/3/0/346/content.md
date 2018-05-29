@@ -26,6 +26,8 @@ Although it may seem that in general the closed structure is less intuitive to w
 
 ## Definition
 
+### Basic definition
+
 A __closed category__ is a [[category]] $C$ together with the following data:
 
 * A [[functor]] $[-,-] : C^{op} \times C \to C$, called the [[internal hom]]-functor.
@@ -68,16 +70,64 @@ which is required to satisfy the following axioms.
 
 * Finally, the map $\gamma\colon C(X,Y) \to C(I,[X,Y])$ defined by $f \mapsto [1,f](j_X)$ is a [[bijection]].
 
-This definition is the one used in [LaPlaza](#LaPlaza77) and [Manzyuk](#Manzyuk09).  It differs slightly from Eilenberg-Kelly's original definition, which omitted the axiom involving $\gamma$ but assumed an "underlying-set-functor" $U\colon C \to Set$ as part of the structure, with an axiom asserting that $U([X,Y]) = C(X,Y)$ (naturally, i.e. as a strict equality of functors $C^{op}\times C\to Set$) and that the resulting isomorphism
-$$ C(X,X) = U([X,X]) \overset{U i_{[X,X]}}{\to} U([I,[X,X]]) = C(I,[X,X]) $$
-sends $1_X$ to $j_X$.
-
-The two are essentially equivalent, and the one given here is perhaps a little simpler, as well as obeying the [[principle of equivalence]].  To be precise, every closed category in the sense of Eilenberg-Kelly is also one in the above sense, and conversely every closed category in the above sense is *isomorphic* to one in the sense of Eilenberg-Kelly.  The latter has the same objects and internal-homs, but new hom-sets $\hat{C}(X,Y) \coloneqq C(I,[X,Y])$, and underlying-set functor $U(X) \coloneqq C(I,X)$ (note that this is different from $\hat{C}(I,X) = C(I,[I,X])$).
-
 +-- {: .query}
 [[Tobias Fritz]]: I suspect there is a variant of the definition involving a transformation $R^Z_{X Y} \colon  [X,Y] \to [[Y,Z],[X,Z]]$ rather than $L$. Is this correct? If so, how do these two definitions relate? Can one of them be expressed in terms of the other? Or is there a refined definition which comprises both $L$ and $R$?
 
 [Discussion](http://nforum.ncatlab.org/discussion/4632/closed-category/)
+=--
+
+### The Eilenberg-Kelly definition
+
+The above definition is the one used in [LaPlaza](#LaPlaza77) and [Manzyuk](#Manzyuk09).  It differs slightly from Eilenberg-Kelly's original definition, which omitted the axiom involving $\gamma$ but assumed an "underlying-set-functor" $U\colon C \to Set$ as part of the structure, with an axiom asserting that $U([X,Y]) = C(X,Y)$ (naturally, i.e. as a strict equality of functors $C^{op}\times C\to Set$) and that the resulting isomorphism
+$$ C(X,X) = U([X,X]) \overset{U i_{[X,X]}}{\to} U([I,[X,X]]) = C(I,[X,X]) $$
+sends $1_X$ to $j_X$.  (This is then essentially a definition of $j_X$, so that it could be omitted from the definition.)
+
+The two are essentially equivalent, and the one given here is perhaps a little simpler, as well as obeying the [[principle of equivalence]].  To be precise, every closed category in the sense of Eilenberg-Kelly is also one in the above sense, and conversely every closed category in the above sense is *isomorphic* to one in the sense of Eilenberg-Kelly.  The latter has the same objects and internal-homs, but new hom-sets $\hat{C}(X,Y) \coloneqq C(I,[X,Y])$, and underlying-set functor $U(X) \coloneqq C(I,X)$ (note that this is different from $\hat{C}(I,X) = C(I,[I,X])$).  See [Manzyuk](#Manzyuk09) for the proof.
+
+### A non-unital version
+
+The fact (discussed below) that closed categories, in the above sense, are equivalent to closed [[multicategories]] with unit, suggests that there ought to be a version of closed categories that *don't* necessarily have a unit object $I$.  In fact in this case the definition becomes simpler because we can omit all the $i$'s and $j$'s, but there is an additional wrinkle that we have to include "left evaluation" as a new operation.  Furthermore, it seems that we have to use the Eilenberg-Kelly version of the definition, not the LaPlaza one.
+
+A **non-unital closed category** is a [[category]] $C$ together with the following data:
+
+* A [[functor]] $[-,-] : C^{op} \times C \to C$, called the [[internal hom]]-functor.
+
+* A functor $U : C \to Set$.
+
+* A transformation $L^X_{Y Z} \colon  [Y,Z] \to [[X,Y],[X,Z]]$, natural in $Y$ and $Z$ and extranatural in $X$.
+
+* For any $X,Y\in C$ and $x\in U(X)$, a morphism $ev_x : [X,Y] \to Y$ in $C$.
+
+which is required to satisfy the following axioms.
+
+* $U([X,Y]) = C(X,Y)$ strictly and naturally, i.e. $U \circ [-,-] = C(-,-)$ as functors $C^{op}\times C\to Set$.
+
+* For any $X,Y\in C$ we have $U(L^X_{Y Y})(1_Y) = 1_{[X,Y]}$.  (Note that $L^X_{Y Y} : [X,X] \to [[X,Y],[X,Y]]$, so $U(L^X_{Y Y})(1_Y) : C(X,X) \to C([X,Y],[X,Y])$.)
+
+* For any $X,Y\in C$ the composite $[X,Y] \xrightarrow{L^X_{X Y}} [[X,X],[X,Y]] \xrightarrow{ev_{1_X}} [X,Y]$ is the identity.
+
+* The following diagram commutes for any $X,Y,U,V$.
+
+  $$\array{[U,V] & \overset{L^Y_{U V}}{\to} & [[Y,U],[Y,V]]\\
+  ^{L^X_{U V}}\downarrow && \\
+  [[X,U],[X,V]] & &  \downarrow^{[1,L^X_{Y V}]} \\
+  ^{L^{[X,Y]}_{[X,U],[X,V]}}\downarrow && \\
+  [[[X,Y],[X,U]],[[X,Y],[X,V]]] & \underset{[L^X_{Y U},1]}{\to} & [[Y,U],[[X,Y],[X,V]]]}$$
+
+* Some axiom(s) relating $L$ to $ev$.  For instance, for any $f:X\to Y$, the composite $[Y,Z] \xrightarrow{L^X_{Y Z}} [[X,Y],[X,Z]] \xrightarrow{ev_f} [X,Z]$ should equal the functorial action $[f,Z]$ (note that this subsumes the second identity axiom above).
+
++--{: .standout}
+I haven't worked out exactly what axioms are required here.
+=--
+
+### Symmetric and cartesian versions
+
+A symmetric closed category should be additionally equipped with isomorphisms $C^{X Y}_Z : [X,[Y,Z]] \cong [Y,[X,Z]]$ satisfying appropriate axioms.  They should correspond to [[symmetric multicategories]].
+
+Similarly, a "cartesian closed category" (there is an unfortunate terminological clash with [[cartesian closed category]]) should furthermore have morphisms $K^X_Y : Y\to [X,Y]$ and $T^X_Y : [X,[X,Y]]\to [X,Y]$ satisfying appropriate axioms.  They should correspond to [[cartesian multicategories]].  The relation to [[combinatory logic]] suggests that it should also be possible to axiomatize the cartesian case by replacing $L$, $C$, and $T$ with a single family of morphisms $S^X_{Y Z} : [X,[Y,Z]]\to [[X,Y],[X,Z]]$.
+
++--{: .standout}
+I don't know of anywhere that these details are worked out.
 =--
 
 
