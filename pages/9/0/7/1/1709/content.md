@@ -623,8 +623,7 @@ For the special case of [[generalized (Eilenberg?Steenrod) cohomology]] twisted 
 
 This in turn is based on the definition of twisted K-theory given in 
 
-* [[Michael Atiyah]] and [[Graeme Segal]], _Twisted K-theory_ . Ukr. Mat. Visn., 1(3):287&#8211;330, 2004.
-<http://front.math.ucdavis.edu/0407.5054>
+* [[Michael Atiyah]] and [[Graeme Segal]], _Twisted K-theory_, Ukr. Mat. Visn., 1(3):287&#8211;330, 2004. <http://front.math.ucdavis.edu/0407.5054>
 
 Details on Larmore's work on twisted cohomology are at
 
