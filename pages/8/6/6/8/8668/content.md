@@ -566,7 +566,7 @@ $$
 
 The standard textbook for [[locally presentable categories]] is
 
-* [[Ji?í Adámek]], [[Ji?í Rosický]], _[[Locally presentable and accessible categories]]_, Cambridge University Press, (1994)
+* [[Jiří Adámek]], [[Jiří Rosický]], _[[Locally presentable and accessible categories]]_, Cambridge University Press, (1994)
  {#AdamekRosicky}
 
 Decent accounts of [[combinatorial model categories]] include secton A.2.6 of
