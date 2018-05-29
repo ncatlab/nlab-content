@@ -103,6 +103,7 @@ The twisted theory itself is then defined to be given by the [[factorization alg
 * [[chiral ring]], [[quantum cohomology]]
 
 ## References
+  {#References}
 
 The idea of topological twisting of [[supersymmetry|supersymmetric]] quantum field theory goes back to 
 
@@ -134,8 +135,8 @@ Discussion of generalization of the twisting to [[quantum field theory on curved
 
 Section 2.2.1 of 
 
-* [[Edward Witten]], _Fivebranes and knots_ ([arXiv:1101.3216](http://arxiv.org/abs/1101.3216))
- {#Witten11}
+* {#Witten11} [[Edward Witten]], _Fivebranes and knots_ ([arXiv:1101.3216](http://arxiv.org/abs/1101.3216))
+ 
 
 briefly recalls the topological twisting of [[N=4 D=4 super Yang-Mills theory]]. Section 5.1.1 there discusses the twisting of [[N=2 D=4 super Yang-Mills theory]] (induced from the [[6d (2,0)-superconformal QFT]] on the [[M5-brane]]), which was introduced in section 3.1.2 of
 
@@ -143,10 +144,13 @@ briefly recalls the topological twisting of [[N=4 D=4 super Yang-Mills theory]].
 
 For more on this see the references listed at _[N=2 D=4 super Yang-Mills theory -- References -- Construction from 5-branes](N%3D2+D%3D4+super+Yang-Mills+theory#ReferencesConstructionFrom5Branes)_.
 
-More mathematically formalized discussion of topologically twisted supersymmetric theories in the framework of [[BV-BRST formalism]] [[perturbation theory]] (and with an eye towards the [[factorization algebra]] formulation) is from section 15 on in
+More mathematically formalized discussion of topologically twisted supersymmetric theories in the framework of [[BV-BRST formalism]] [[perturbation theory]] (and with an eye towards the [[factorization algebra]] formulation) is in
 
-* [[Kevin Costello]], _Notes on supersymmetric and holomorphic field theories in dimensions 2 and 4_ ([arXiv:1111.4234](http://arxiv.org/abs/1111.4234))
- {#Costello11}
+* {#Costello11} [[Kevin Costello]], from section 15 on in _Notes on supersymmetric and holomorphic field theories in dimensions 2 and 4_ ([arXiv:1111.4234](http://arxiv.org/abs/1111.4234))
+ 
+More in
+
+* {#ElliottSafronov18} [[Chris Elliott]], [[Pavel Safronov]], _Topological twists of supersymmetric observables_ ([arXiv:1805.10806](https://arxiv.org/abs/1805.10806))
 
 In
 
