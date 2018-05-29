@@ -316,6 +316,11 @@ $$Ho(C)(X) = Ho(C^X).$$
 If $C$ has [[limit in an (∞,1)-category|limits]] and colimits in the $(\infty,1)$-categorical sense, then $Ho(C)$ should be a derivator.
 
 
+### Exotic examples
+
+There are also examples of derivators not satisfying (Der5) that do not arise from homotopy theory or higher category theory in this way.  For instance, see Remark 5.4 and Example 5.5 in [Lagkas-Nikolos](#LN16).
+
+
 ## Properties
 
 ### As a presentation of $(\infty,1)$-categories
@@ -428,6 +433,11 @@ An introductory discussion aimed towards [[stable derivator]]s is also in
 
 * [[Moritz Groth]], _Monoidal derivators and additive derivators_, [arxiv/1203.5071](http://arxiv.org/abs/1203.5071); _Derivators, pointed derivators, and stable derivators_ ([pdf](http://www.math.uni-bonn.de/~mgroth/groth_derivators.pdf))
 {#Groth}
+
+Other references include:
+
+* Ioannis Lagkas-Nikolos, _Levelwise modules over separable monads on stable derivators_, [arXiv:1608.06340](https://arxiv.org/abs/1608.06340), 2016
+ {#IN16}
 
 
 [[!redirects derivators]]
