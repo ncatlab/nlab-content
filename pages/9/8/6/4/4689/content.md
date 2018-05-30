@@ -137,6 +137,8 @@ Exposition from the point of view of [[worldline formalism]] is in
 
 As a [[perturbative quantum field theory]], quantum gravity exists (usually thought of as an [[effective quantum field theory]]):
 
+* {#Feynman63} [[Richard Feynman]], _Quantum theory of gravitation_, Acta Phys.Polon. 24 (1963) 697-722 ([spire:9148](http://inspirehep.net/record/9148/))
+
 * [[Martinus Veltman]], _Quantum theory of Gravitation_, In Les Houches 1975, Proceedings, Methods In Field Theory, (Amsterdam 1976) 265-327 ([[VeltmanQuantumnGravity76.pdf:file]], [spire](http://inspirehep.net/record/105735?ln=en))
 
 * {#DonoghueIntroduction} John F. Donoghue, _Introduction to the Effective Field Theory Description of Gravity_ ([arXiv:gr-qc/9512024](http://arxiv.org/abs/gr-qc/9512024))
