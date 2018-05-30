@@ -24,6 +24,9 @@ A natural notion of [[smooth map]] between lctvs is given by [[Michal-Bastiani s
 
 ## Properties
 
+The category $lctvs$ is a [[symmetric monoidal category]] with the [[inductive tensor product]] and even a symmetric [[closed monoidal category]], where the internal homs are given by the space of continuous linear maps with the topology of pointwise convergence.
+
+
 ### Continuous linear functionals
  {#ContinuousLinearFunctionals}
 
