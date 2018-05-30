@@ -38,7 +38,7 @@ Let $lctvs$ denote the category of locally convex topological vector spaces and 
 +-- {: .un_theorem}
 ###### Theorem
 
-The inductive tensor product functor $\otimes_i\colon lctvs \times lctvs \to lctvs$ preserves [[inductive limits]], as does the completed inductive tensor product $\overline{\otimes} \colon lctvs_{comp} \times lctvs_{comp} \to lctvs_{comp}$. Moreover $\otimes_i$ equips $lctvs$ with the structure of a [[symmetric monoidal category]], and even a symmetric [[closed monoidal category]], by equipping the space of continuous maps with the topology of pointwise convergence.
+The inductive tensor product functor $\otimes_i\colon lctvs \times lctvs \to lctvs$ separately preserves [[inductive limits]]. Moreover $\otimes_i$ equips $lctvs$ with the structure of a [[symmetric monoidal category]], and even a symmetric [[closed monoidal category]], by equipping the space of continuous maps with the topology of pointwise convergence.
 
 =--
 
