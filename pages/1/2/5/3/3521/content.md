@@ -440,7 +440,7 @@ A detailed account of various technical aspects is in
 * [[Danny Stevenson]], _D&#233;calage and Kan's simplicial loop group functor_ ([arXiv:1112.0474](http://arxiv.org/abs/1112.0474))
  {#Stevenson11}
 
-and in secton 2.2 of
+and in section 2.2 of
 
 * [[Danny Stevenson]], _Classifying theory for simplicial parametrized groups_ ([arXiv:1203.2461](http://arxiv.org/abs/1203.2461))
  {#Stevenson12}
