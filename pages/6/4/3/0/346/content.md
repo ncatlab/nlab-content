@@ -96,7 +96,7 @@ A **non-unital closed category** is a [[category]] $C$ together with the followi
 
 * A transformation $L^X_{Y Z} \colon  [Y,Z] \to [[X,Y],[X,Z]]$, natural in $Y$ and $Z$ and extranatural in $X$.
 
-* For any $X,Y\in C$ and $x\in U(X)$, a morphism $ev_x : [X,Y] \to Y$ in $C$.
+* A transformation $ev : U(X) \cdot C([X,Y], Y)$, natural in $X$ and extranatural in $Y$.
 
 which is required to satisfy the following axioms.
 
@@ -114,11 +114,13 @@ which is required to satisfy the following axioms.
   ^{L^{[X,Y]}_{[X,U],[X,V]}}\downarrow && \\
   [[[X,Y],[X,U]],[[X,Y],[X,V]]] & \underset{[L^X_{Y U},1]}{\to} & [[Y,U],[[X,Y],[X,V]]]}$$
 
-* Some axiom(s) relating $L$ to $ev$.  For instance, for any $f:X\to Y$, the composite $[Y,Z] \xrightarrow{L^X_{Y Z}} [[X,Y],[X,Z]] \xrightarrow{ev_f} [X,Z]$ should equal the functorial action $[f,Z]$ (note that this subsumes the second identity axiom above).  And for any $x\in U(X)$ the following diagram should commute:
+* Some axiom(s) relating $L$ to $ev$.  For instance, for any $x\in U(X)$ the following diagram should commute:
 
   $$\array{ [Y,Z] & \overset{L^X_{Y Z}}{\to} & [[X,Y],[X,Z]]\\
   & _{[ev_x,Z]}\searrow & \downarrow^{[[X,Y],ev_x]} \\
   && [[X,Y],Z]} $$
+
+The second and third axioms, plus naturality of $ev$, should imply a more general form of the second axiom: for any $f:X\to Y$, the composite $[Y,Z] \xrightarrow{L^X_{Y Z}} [[X,Y],[X,Z]] \xrightarrow{ev_f} [X,Z]$ equals the functorial action $[f,Z]$.
 
 +--{: .standout}
 I haven't worked out exactly what axioms are required here.
