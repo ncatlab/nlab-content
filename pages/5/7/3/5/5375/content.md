@@ -96,7 +96,7 @@ and for [[algebraic curves]] in
 * [[Shinichi Mochizuki]], _The profinite Grothendieck conjecture for hyperbolic curves over number fields_, J. Math. Sci. Univ. Tokyo 3 (1996), 571&#8211;627.
  {#Mochizuki96}
 
-* [[Shinichi Mochizuki]], _The absolute anabelian geometry of canonical curves_ (2002) ([pdf](http://www.math.uiuc.edu/documenta/vol-kato/mochizuki.dm.pdf))
+* [[Shinichi Mochizuki]], _The absolute anabelian geometry of canonical curves_ (2002) ([pdf](http://www.kurims.kyoto-u.ac.jp/~motizuki/Canonical%20Liftings.pdf))
 
 See also 
 
