@@ -63,7 +63,11 @@ Note:
 
 * In 2-categorical language, $C[W^{-1}]$ is the [[coinverter]] of the canonical natural transformation $s\to t$, where $s,t:W\to C$ are the "source" and "target" functors and $W$ is considered as a full subcategory of the [[arrow category]] $C ^{\mathbf{2}}$.
 
-* **size issues**: If $C$ is [[large category|large]], then the existence of $C[W^{-1}]$ may depend on [[foundations]], and it will not necessarily be [[locally small category|locally small]] even if $C$ is.  The tools of [[homotopy theory]], and in particular [[model category|model categories]], can be used to address this question (see also at _[[homotopy category of a model category]]_).  
+
++-- {: .num_remark} 
+###### Remark 
+Contrary to what is sometimes asserted, the localization $C[W^{-1}]$ may generally be constructed when $C$ is large, even only in ZF where "large" means definable by class formulas. See Remark \ref{ZF} below. However, the localization might not be locally small, even if $C$ is. The tools of [[homotopy theory]], and in particular [[model category|model categories]], can be used to address this issue (see also at _[[homotopy category of a model category]]_). 
+=--  
 
 
 ### Reflective localization
@@ -118,7 +122,13 @@ $$(x;f,\overline{f};x)\sim (x;id_x;x)$$
 and
 $$(y;\overline{f},f;y)\sim (y;id_y;y)$$
 
-(Continue to show the quotient by $\sim$ gives a category, that it is locally small, and that if $C$ is small, the quotient is small.)
++-- {: .num_remark #ZF} 
+###### Remark 
+With a little care, this general construction can be enacted even for *large* categories $C$, where "large" means given by a class formula in [[ZF]]. First, to define the free category $\mathcal{P} G$ on a large graph $G$, notice that an arrow is a certain [[partial function]] or functional relation from $\mathbb{N}$ to $Arr(G)$ satisfying some conditions given by ZF formulas; each such relation is a "set" by the [[replacement axiom]], and the collection of such relations forms a definable class of sets. Second, in passing to the quotient, we remark that while the $\sim$-equivalence classes of morphisms in $\mathcal{P} G$ themselves might be large, we can always use [[Scott's trick]] and consider instead those representatives in each equivalence class that have minimal ZF rank; this collection of representatives is a *set*. Thus the collection of morphisms in the quotient may be identified with a definable class of sets. 
+
+The rub is that the localization might not be locally small, even if $C$ is.
+=--   
+
 
 +-- {: .query}
 [[David Roberts]]: This could probably be described as the [[fundamental category]] of 2-dimensional [[simplicial complex]] with the directed space structure coming from the 1-skeleton, which will be the path category above. In that case, we could/should probably leave out the paths of zero length. 
