@@ -28,6 +28,8 @@ If the transformations are invertible, then $A$ is a [[pseudoalgebra for a 2-mon
 
 * [[pseudoalgebra for a 2-monad]]
 
+* [[lax monoidal category]]
+
 
 [[!redirects lax algebra for a 2-monad]]
 [[!redirects lax algebras for a 2-monad]]
