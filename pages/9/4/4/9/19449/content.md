@@ -1,6 +1,6 @@
 ## Idea 
 
-*Scott's trick* (due to [[Dana Scott]]) is a technical device in a [[material set theory]] such as ZF, that is used to construe a [[quotient]] of a class as a class. 
+*Scott's trick* (due to [[Dana Scott]]) is a technical device in a [[material set theory]] such as ZF, that is used to construe a [[quotient]] of a [[proper class]] as another class. 
 
 ## Discussion 
 
