@@ -59,8 +59,6 @@ There is some discussion of the area in
 * {#Grothendieck} [[Alexander Grothendieck]], _[[Esquisse d'un programme]]_
  (1984).
 
-In [Grothendieck 84](#Grothendieck) one finds: "... C’est au cours de ce travail ("[[Long March]]") aussi (mais développé dans des notes distinctes) qu’apparaît le thème central de la géométrie algébrique anabélienne (...) c’est alors que se dégage la “conjecture fondamentale de la géométrie algébrique anabélienne”, proche des conjectures de Mordell et de Tate que vient de démontrer Faltings." There is a project to transcribe this note: [Notes anabéliennes](https://github.com/gcarmonamateo/LaLongueMarcheAnab)
-
 A relation with the theory of [[motive]]s is in
 
 * [[Alexander Schmidt]], _Motivic aspects of Anabelian geometry_, Advanced studies in pure mathematics 63, 2012. Galois-Teichm&#252;ller theory and Arithmetic geometry. pp 503 - 517 [pdf](https://www.mathi.uni-heidelberg.de/~schmidt/papers/63117.pdf)
