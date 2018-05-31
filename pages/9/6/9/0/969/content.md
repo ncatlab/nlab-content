@@ -130,9 +130,7 @@ The rub is that the localization might not be locally small, even if $C$ is.
 =--   
 
 
-+-- {: .query}
-[[David Roberts]]: This could probably be described as the [[fundamental category]] of 2-dimensional [[simplicial complex]] with the directed space structure coming from the 1-skeleton, which will be the path category above. In that case, we could/should probably leave out the paths of zero length. 
-=--
+
 
 
 ### Construction when there is a calculus of fractions 
