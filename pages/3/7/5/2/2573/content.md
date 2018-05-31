@@ -99,6 +99,13 @@ See also the remarks on pages 721 and 727 of ([Lawvere 2000](#Lawvere00)).
 [[!redirects axiom schema of replacement]]
 [[!redirects axiom schemas of replacement]]
 [[!redirects axiom schemata of replacement]]
+[[!redirects replacement axiom]]
+[[!redirects replacement axioms]]
+[[!redirects replacement axiom scheme]]
+[[!redirects replacement axiom schemes]]
+[[!redirects replacement axiom schema]]
+[[!redirects replacement axiom schemas]]
+[[!redirects replacement axiom schemata]]
 
 [[!redirects axiom of collection]]
 [[!redirects axioms of collection]]
@@ -107,5 +114,13 @@ See also the remarks on pages 721 and 727 of ([Lawvere 2000](#Lawvere00)).
 [[!redirects axiom schema of collection]]
 [[!redirects axiom schemas of collection]]
 [[!redirects axiom schemata of collection]]
+[[!redirects collection axiom]]
+[[!redirects collection axioms]]
+[[!redirects collection axiom scheme]]
+[[!redirects collection axiom schemes]]
+[[!redirects collection axiom schema]]
+[[!redirects collection axiom schemas]]
+[[!redirects collection axiom schemata]]
+
 
 category: foundational axiom
