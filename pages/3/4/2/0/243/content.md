@@ -122,7 +122,7 @@ Even if $V$ is not closed monoidal, we can still define a **notion** of covarian
 
 $$F(c) \times C(c, d) \to F(d)$$ 
 
-satisfying some evident unit and associativity axioms, and regard this notion as a stand-in for the notion of $V$-functor $C \to V$. Similarly we have an evident notion of contravariant $C$-action as a stand-in for a $V$-functor $C^{op} \to V$; notice that we don't even the symmetry to make sense of this. Finally, we can combine these notions into one of $C$-bimodule, where we have a function $F \colon Ob(C) \times Ob(C) \to Ob(V)$ together with a collection of morphisms 
+satisfying some evident unit and associativity axioms, and regard this notion as a stand-in for the notion of $V$-functor $C \to V$. Similarly we have an evident notion of contravariant $C$-action as a stand-in for a $V$-functor $C^{op} \to V$; notice that we don't even require symmetry to make sense of this. Finally, we can combine these notions into one of $C$-bimodule, where we have a function $F \colon Ob(C) \times Ob(C) \to Ob(V)$ together with a collection of morphisms 
 
 $$C(a, b) \otimes F(b, c) \otimes C(c, d) \to F(a, d)$$ 
 
