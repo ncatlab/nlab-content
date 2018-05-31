@@ -240,3 +240,5 @@ Lecture notes include
 
 [[!redirects realizability tripos]]
 
+[[!redirects PCA]]
+[[!redirects PCAs]]
