@@ -27,7 +27,7 @@ The beauty of [[supercommutative superalgebra]] is that it is just [[commutative
 "[[internalization|internal]]" to the [[tensor category]] of [[super vector spaces]].
 For instance an (affine algebraic) [[supergroup]] (i.e. a super [[symmetry group|symmetry-group]], i.e. a [[supersymmetry|super-symmetry]] group)
 is just a [[commutative Hopf algebra]] internal to super vector spaces.
-The beauty of [[super vector spaces]], in turn, is that these are just $\mmathbb{Z}/2$-[[graded vector spaces]]
+The beauty of [[super vector spaces]], in turn, is that these are just $\mathbb{Z}/2$-[[graded vector spaces]]
 equipped with the _unique_ non-trivial [[symmetric monoidal category|symmetric braiding]].
 Better yet, _all_ [[tensor categories]] subject to a mild size constraint are [[equivalence of categories|equivalently]]
 [[categories of representations]] of [[supergroups]]. This is the main theorem of this section, theorem \ref{TheTheorem}
