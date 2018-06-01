@@ -36,10 +36,10 @@ $$
   )
 $$
 
-and for each pair $(c \otimes q)$ with $c \in C$ and $q \in \mathcal{Q}(d_1, \cdots, d_n)$, denoted
+and for each pair $(c,q)$ with $c \in C$ and $q \in \mathcal{Q}(d_1, \cdots, d_n; d)$, denoted
 
 $$
-  (c \otimes q)
+  c \otimes q
   \in
   \mathcal{P}\otimes_{BV} \mathcal{Q}(
    (c, d_1), \cdots, (c, d_n);
