@@ -25,7 +25,7 @@
 ## Idea
  {#Idea}
 
-The term _modal logic_ refers to an enrichment of standard formal [[logic]] where the standard operations ([[and]], [[or]], [[not]], implication and perhaps [[universal quantifier|forall]], etc.) are accompanied by certain extra operations -- called _modal operators_ and often denoted by "$\diamond$" and "$\Box$" or similar -- such that for $p$ any [[proposition]] the expression $\Box p$ is a new proposition whose interpretation is roughly as "$p$ holds (only) in some _mode_" or "$p$ holds (only) _in a certain way_", such as: "$p$ is _possibly_ true", "$p$ will _eventually become_ true", "$p$ is _believed_ to be true", etc. 
+The term _modal logic_ refers to an enrichment of standard formal [[logic]] where the standard operations ([[and]], [[or]], [[not]], implication and perhaps [[universal quantifier|forall]], etc.) are accompanied by certain extra operations -- called _modal operators_ and often denoted by "$\lozenge$" and "$\Box$" or similar -- such that for $p$ any [[proposition]] the expression $\Box p$ is a new proposition whose interpretation is roughly as "$p$ holds (only) in some _mode_" or "$p$ holds (only) _in a certain way_", such as: "$p$ is _possibly_ true", "$p$ will _eventually become_ true", "$p$ is _believed_ to be true", etc. 
 
 There is no established axiom set that an operator on propositions has to satisfy to count as a _modal operator_. As a result, for instance in the preface of ([Blackburn-deRijke-Venema](#BlackburnDeRijkeVenema)) et al.) it says
 
@@ -52,18 +52,18 @@ Modal logics are built on **modal languages**, that is the usual propositional l
 'If $F F\phi$ is true, then $F\phi$ is true', which will read a 'if it is going be true in the future that $\phi$ is going to be true in the future, then ...', see [[temporal logic]].  (Is this going to be something what we might want in '[[provability logic]]'; is it the case that we should expect that if it is provable that something is provable then that something must be itself provable. This concentrates the modelling process on exactly how we wish to have our 'context' to behave.) In this way the relational nature of a context that we are looking at can get encoded into the logic.
 
 
-Modal languages add one or more modal operator, often denoted $\square$ or $\Diamond$ into the usual [[propositional logics]]. (For the moment, we will keep things fairly simple so assume these to  be unary operators and we will not be considering operators that have more than one input, for the moment at least. The general case will be considered later on, but in any case is discussed in detail in some of the books on modal logic listed below.)
+Modal languages add one or more modal operator, often denoted $\square$ or $\lozenge$ into the usual [[propositional logics]]. (For the moment, we will keep things fairly simple so assume these to  be unary operators and we will not be considering operators that have more than one input, for the moment at least. The general case will be considered later on, but in any case is discussed in detail in some of the books on modal logic listed below.)
 
-We will give a modal language with $n$ modal operators, $\Diamond_i$, $i = 1,\ldots, n$, which can  be applied to propositions of the language to form new propositions.  If $n=1$, we will refer to the language, defined below,  as the _basic modal language_.
+We will give a modal language with $n$ modal operators, $\lozenge_i$, $i = 1,\ldots, n$, which can  be applied to propositions of the language to form new propositions.  If $n=1$, we will refer to the language, defined below,  as the _basic modal language_.
 
 +-- {: .num_defn}
 ###### Definition
 
 We suppose given a set of variables, the _$n$-operator basic modal language_, $\mathcal{L}_\omega(n)$, given by  
 
-$$\phi ::= p_\lambda \mid \bot \mid \neg \phi \mid \phi_1 \vee \phi_2 \mid \Diamond_i\phi,$$  
+$$\phi ::= p_\lambda \mid \bot \mid \neg \phi \mid \phi_1 \vee \phi_2 \mid \lozenge_i\phi,$$  
 
-where the $p_\lambda$ are the propositional variables ordered by finite ordinals, $\lambda$, and, as usual, $\Diamond_i$ is a modality for each  $i=1, \ldots , n$.  
+where the $p_\lambda$ are the propositional variables ordered by finite ordinals, $\lambda$, and, as usual, $\lozenge_i$ is a modality for each  $i=1, \ldots , n$.  
 
 =--
 
@@ -94,14 +94,14 @@ The basic modal language will be $\mathcal{L}_\omega(1)$.  We will sometimes wri
 +-- {: .num_remark}
 ###### Remark
 
-The interpretation of $\Diamond \phi$ depends on the context (to some extent), but in the initial form here it is usually said to mean 'possibly $\phi$'.
+The interpretation of $\lozenge \phi$ depends on the context (to some extent), but in the initial form here it is usually said to mean 'possibly $\phi$'.
 
 =--
 
 +-- {: .num_remark}
 ###### Remark
 
-Some authors use an equivalent generation rule using $\square \phi$, which is $\neg \Diamond \neg \phi$. Of course, this interprets as 'necessarily $\phi$' in this initial form.  In [[epistemic logic]] the basic modal language interprets $\square \phi$ as saying 'the agent knows that $\phi$'.
+Some authors use an equivalent generation rule using $\square \phi$, which is $\neg \lozenge \neg \phi$. Of course, this interprets as 'necessarily $\phi$' in this initial form.  In [[epistemic logic]] the basic modal language interprets $\square \phi$ as saying 'the agent knows that $\phi$'.
 
 =--
 
