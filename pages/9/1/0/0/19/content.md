@@ -292,8 +292,7 @@ Some theorems in category theory are _[[folklore]]_.
 
 The concepts of _[[category]]_, _[[functor]]_ and _[[natural transformation]]_ were introduced in
 
-* {#EilenbergMacLane45} [[Samuel Eilenberg]], [[Saunders MacLane]], _General Theory of Natural Equivalences_,  Transactions of the American Mathematical Society
-Vol. 58, No. 2 (Sep., 1945), pp. 231-294 ([JSTOR](http://www.jstor.org/stable/1990284))
+* {#EilenbergMacLane45} [[Samuel Eilenberg]], [[Saunders MacLane]], _General Theory of Natural Equivalences_,  Transactions of the American Mathematical Society Vol. 58, No. 2 (Sep., 1945), pp. 231-294 ([JSTOR](http://www.jstor.org/stable/1990284))
   
 
 The reason for introducing [[categories]] was to introduce [[functors]], and the reason for introducing functors was to introduce [[natural transformations]] (more specifically [[natural equivalences]]) in order to define what _natural_ means in mathematics:
@@ -302,7 +301,16 @@ The reason for introducing [[categories]] was to introduce [[functors]], and the
 
 > A better (albeit not perfect) description of topology is that it is the study of continuous maps; and category theory is likewise better described as the theory of functors. Both descriptions are logically inadmissible as initial definitions, but they more accurately reflect both the present and the historical motivations of the subjects. 
 
-> {#CategoriesForNaturalTransformations} It is not too misleading, at least historically, to say that categories are what one must define in order to define natural transformations. (from [Freyd 64, page 1](#Freyd64))
+> {#CategoriesForNaturalTransformations} It is not too misleading, at least historically, to say that categories are what one must define in order to define natural transformations. 
+
+> (from [Freyd 64, page 1](#Freyd64))
+
+and
+
+> {#CategoriesForNaturalTransformationsII} Category theory is an embodiment of Klein's dictum that it is the maps that count in mathematics. If the dictum is true, then it is the functors between categories that are important, not the categories. And such is the case. Indeed, the notion of category is best excused as that which is necessary in order to have the notion of functor. But the progression does not stop here. There are maps between functors, and they are called natural transformations. And it was in order to define these that Eilenberg and MacLane first defined functors. 
+
+> (from [Freyd 65, beginning of Part Two](#Freyd65))
+
 
 
 The paper [Eilenberg-Maclane 45](#EilenbergMacLane45) was a clash of ideas from abstract [[algebra]] (Mac Lane) and [[topology]]/[[homotopy theory]] (Eilenberg). It was first rejected on the ground that it had no content but was later published. Since then category theory has flourished into almost all areas of mathematics, has found many applications outside mathematics and even attempts to build a [[foundations]] of mathematics. 
@@ -339,6 +347,8 @@ This and much more history is recalled in
 
 * {#Freyd64} [[Peter Freyd]], _Abelian Categories -- An Introduction to the theory of functors_, originally published by Harper and Row, New York(1964), Reprints in Theory and Applications of Categories, No. 3, 2003  ([TAC](http://www.emis.de/journals/TAC/reprints/articles/3/tr3abs.html), [pdf](http://emis.maths.adelaide.edu.au/journals/TAC/reprints/articles/3/tr3.pdf))
   
+* {#Freyd65} [[Peter Freyd]], _The theories of functors and models_, in Proceedings of _Symposium on the Theory of Models_, North Holland, 1965 ([web](https://www.sciencedirect.com/science/book/9780720422337))
+
 * [[Peter Freyd]] and Andre Scedrov, _[[Categories, Allegories]]_, Mathematical Library Vol 39, North-Holland (1990). ISBN 978-0-444-70368-2.
 
 * {#LawvereSchanuel09} [[F. William Lawvere]] and [[Stephen Schanuel]], _Conceptual Mathematics: a first introduction to categories_, $2^{nd}$ Edition, Cambridge University Press 2009 ([pdf](http://fef.ogu.edu.tr/matbil/eilgaz/kategori.pdf))
