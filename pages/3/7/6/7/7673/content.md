@@ -389,6 +389,8 @@ The dependent type theory which results from this structure "has no nontrivial d
 
 ## References
 
+Another overview can be found in the [HoTT wiki](https://ncatlab.org/homotopytypetheory/show/semantics).
+
 A general overview may be found in
 
 * [[Martin Hofmann]], *Syntax and semantics of dependent types*, Semantics and logics of computation (Cambridge, 1995), Publ. Newton Inst., vol. 14, Cambridge Univ. Press, Cambridge, 1997, pp. 79--130
