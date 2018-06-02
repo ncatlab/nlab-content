@@ -88,7 +88,7 @@ where $M^{'} = Hom(M, \mathbb{G}_{m, X})$. This resembles Poincar&#233; duality 
 * [[arithmetic Chern-Simons theory]]
 
 ##References
-* {#Deninger02} Christopher Deninger, _A note on arithmetic topology and dynamical systems_, ([arxiv:0204274](http://arxiv.org/abs/math/0204274))
+* {#Deninger02} [[Christopher Deninger]], _A note on arithmetic topology and dynamical systems_, ([arxiv:0204274](http://arxiv.org/abs/math/0204274))
 
 * {#Goundaroulis} Dimoklis Goundaroulis, Aristides Kontogeorgis, _On the Principal Ideal Theorem in Arithmetic Topology_, ([talk](http://users.uoa.gr/~kontogar/talks/GkountPSATHA.pdf), [paper](http://arxiv.org/abs/0705.3937))
 
@@ -109,7 +109,6 @@ for Knots_, ([pdf](http://users.math.yale.edu/users/koberda/minorthesis.pdf))
 
 * {#Morishita12} [[Masanori Morishita]], _Knots and Primes: An Introduction to Arithmetic Topology_, 2012 ([web](https://books.google.co.uk/books?id=DOnkGOTnI78C&pg=PA156#v=onepage&q&f=false))
 
-* [[Christopher Deninger]], _A note on arithmetic topology and dynamical systems_ ([arXiv:math/0204274](http://arxiv.org/abs/math/0204274))
 
 
 [[!redirects MKR dictionary]]
