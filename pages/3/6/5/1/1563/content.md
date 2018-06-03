@@ -168,7 +168,7 @@ Reprints in Theory and Applications of Categories, No. 5 (2004) pp 1-121 ([tac](
 
 
 
-* _[[Adjointness in Foundations]]_, ([TAC](http://www.emis.de/journals/TAC/reprints/articles/16/tr16abs.html)), Dialectica 23 (1969), 281-296
+* {#AdjointnessInFoundations} _[[Adjointness in Foundations]]_, ([TAC](http://www.emis.de/journals/TAC/reprints/articles/16/tr16abs.html)), Dialectica 23 (1969), 281-296
 
   (on the interpretation of [[quantifiers]] in [[categorical logic]] as [[base change]] [[adjoints]])
 
