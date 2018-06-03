@@ -27,7 +27,7 @@ This can be viewed as a strong form of [[cohesive topos|cohesiveness]] in the co
 
 Sufficient cohesion is a relative concept and requires minimally the presence of an [[essential geometric morphism]] $p:\mathcal{E}\to\mathcal{S}$. Here we state it for an [[adjoint quadruple]] between toposes 
 
-$$p_!\dashv p^* \dashv p_* \dashv p^!:\mathcal{S}\to\mathcal{E}$$
+$$p_!\dashv p^* \dashv p_* \dashv p^!\;\colon\;\mathcal{S}\to\mathcal{E}$$
 
 such that $p^!$ (and hence $p^\ast$) is [[fully faithful]] and $p_!$ preserves [[finite products]].
 
