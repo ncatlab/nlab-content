@@ -491,6 +491,10 @@ We begin by laying the foundations of [[differential geometry]]. Doing this in t
 
 =--
 
+## **Categories and Toposes**
+
+This chapter is as _[[geometry of physics -- Categories and Toposes]]_
+
 
 ## **Coordinate systems**
  {#CoordinateSystems}
