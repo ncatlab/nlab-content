@@ -71,3 +71,6 @@ In particular, in a category with a [[terminal object|terminal]] [[generator]] $
 [[!redirects external hom]]
 
 [[!redirects hom set]]
+
+[[!redirects set of morphisms]]
+[[!redirects sets of morphisms]]
