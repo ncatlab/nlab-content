@@ -21,68 +21,90 @@
 
 ## Idea
 
-The **Yoneda lemma** says that the [[set]] of [[morphisms]] from a [[representable presheaf]] $h_c$ into an arbitrary [[presheaf]] $F$ is in [[natural bijection]] with the set $F(c)$ assigned by $F$ to the representing [[object]] $c$.
+The **Yoneda lemma** says that the [[set]] of [[morphisms]] from a [[representable presheaf]] $y(c)$ into an arbitrary [[presheaf]] $X$ is in [[natural bijection]] with the set $X(c)$ assigned by $X$ to the representing [[object]] $c$.
 
-The Yoneda lemma is an elementary but deep and central result in [[category theory]] and in particular in [[sheaf and topos theory]]. It is essential background behind the central concepts of [[representable functor]], [[universal construction]], and [[universal element]]. 
+The Yoneda lemma is an elementary but deep and central result in [[category theory]] and in particular in [[sheaf and topos theory]]. It is essential background behind the central concepts of _[[representable functors]]_, _[[universal constructions]]_, and _[[universal elements]]_. 
 
-## Preliminaries
 
-Recall that for $C$ a [[locally small category]] and $[C^{op}, Set] (= Set^{C^{op}} = Hom(C^{op},Set))$ the [[category of presheaves]] on $C$, there naturally is a functor 
+## Statement and proof
+  {#StatementOfYonedaLemma}
 
-$$
-  Y : C \to [C^op,Set]
-$$
++-- {: .num_defn #FunctorUnderlyingTheYonedaEmbedding}
+###### Definition
+**([[functor]] underlying the [[Yoneda embedding]])
 
--- called the [[Yoneda embedding]] for reasons explained below -- which sends $C$ to the category of presheaves over it: this is just the image of the Hom-functor
-
-$$
-  C(-,-) : C^op \times C \to Set
-$$
-
-under the Hom-adjunction 
+For $\mathcal{C}$ a [[locally small category]] we write
 
 $$
-  Hom(C^{op} \times C, Set) \stackrel{\simeq}{\to}
+  [C^{op}, Set] \coloneqq Func(C^{op}, Set)
+$$
+
+for the [[functor category]] out of the [[opposite category]] of $\mathcal{C}$ into [[Set]].  
+
+This is also called the _[[category of presheaves]]_ on $\mathcal{C}$.
+Other notation used for it includes $Set^{C^{op}}$ or $Hom(C^{op},Set))$.
+
+There is a [[functor]]
+
+$$
+  \array{
+    C &\overset{y}{\longrightarrow}& [C^op,Set]
+    \\
+    c &\mapsto& Hom_{\mathcal{C}}(-,c)
+  }
+$$
+
+(called the _[[Yoneda embedding]]_ for reasons explained below) from $\mathcal{C}$ to its [[category of presheaves]], which sends each [[object]] to the [[hom-functor]] into that object, also called the [[representable presheaf|presheaf represented]] by $c$.
+
+=--
+
++-- {: .num_remark}
+###### Remark
+**([[Yoneda embedding]] is [[adjunct]] of [[hom-functor]])**
+
+The Yoneda embedding functor $y \;\colon\; \mathcal{C} \to [\mathcal{C}^{op}, Set]$ from Def. \ref{FunctorUnderlyingTheYonedaEmbedding} is equivalently the [[adjunct]] of the [[hom-functor]]
+
+$$
+  Hom_{\mathcal{C}}
+  \;\colon\;
+  \mathcal{C}^{op} \times \mathcal{C}
+  \longrightarrow
+  Set
+$$
+
+under the [[product category]]/[[functor category]] [[adjoint functor|adjunction]] 
+
+$$
+  Hom(C^{op} \times C, Set) 
+    \stackrel{\simeq}{\to}
   Hom(C, [C^{op}, Set])
 $$
 
 in the [[closed monoidal category|closed]] [[monoidal category|symmetric monoidal category]] of categories.
 
-Hence $Y$ sends any object $c \in C$ to the presheaf which assigns to any other object $d$ of $C$ the set of morphisms from $d$ into $c$:
+=--
 
-$$
-  Y(c) : C^{op} \stackrel{C(-,c)}{\to} Set
-  \,.
-$$
 
-### Remarks
 
-One way to appreciate the meaning of this and of what the Yoneda lemma has to say about it is to regard this in the context of [[space and quantity]]: thinking of the objects of $C$ as test spaces, presheaves on $C$ are generalized spaces modeled on $C$ which are characterized by the way one can map objects of $C$ into them. 
-
-The Yoneda lemma states that the functor $Y$ has good properties which make this interpretation consistent.
-
-## The Yoneda Lemma {#StatementOfYonedaLemma}
-
-Let $C$ be a [[locally small category]], $[C^{op}, Set]$ the category of [[presheaf|presheaves]] on $C$. Let $c \in C$ be an [[object]].
-
-The Yoneda lemma asserts that the set of morphisms from the [[presheaf]] [[representable presheaf|represented by]] $c$ into any other presheaf $X$ is in natural bijection with the set $X(c)$ that this presheaf assigns to $c$.
-
-Formally:
-
-+-- {: .un_prop} 
++-- {: .num_prop #YonedaLemma} 
 ###### Proposition
+**([[Yoneda lemma]])**
 
-There is a canonical [[isomorphism]]
+Let $\mathcal{C}$ be a [[locally small category]], with [[category of presheaves]] denoted $[\mathcal{C}^{op},Set]$, according to Def. \ref{FunctorUnderlyingTheYonedaEmbedding}. 
+
+For $X \in [\mathcal{C}^{op}, Set]$ any [[presheaf]], there is a canonical [[isomorphism]]
 
 $$
-  [C^op,Set](C(-,c),X) \simeq X(c)
+  Hom_{[C^op,Set]}(y(c),X) \;\simeq\; X(c)
 $$
 
-natural in $c$.
+between the [[hom-set]] of [[presheaf]] [[homomorphisms]] from the [[representable presheaf]] $y(c)$ to $X$, and the value of $X$ at $c$.
+
+
 
 =--
 
-Here $[C^{op}, Set]$ denotes the [[functor category]], also denoted $Set^{C^{op}}$ and $C(-,c)$ the [[representable presheaf]]. This is the standard notation used mostly in pure [[category theory]] and [[enriched category theory]]. In other parts of the literature it is customary to denote the presheaf represented by $c$ as $h_c$. In that case the above is often written
+This is the standard notation used mostly in pure [[category theory]] and [[enriched category theory]]. In other parts of the literature it is customary to denote the presheaf represented by $c$ as $h_c$. In that case the above is often written
 
 $$
   Hom(h_c, X) \simeq X(c)
@@ -100,13 +122,19 @@ to emphasize that the morphisms of presheaves are [[natural transformation]]s of
 
 +-- {: .proof} 
 ###### Proof 
-The proof is by chasing the element $Id_c \in C(c, c)$ around both legs of a naturality square for a transformation $\eta: C(-, c) \to X$: 
 
-$$\array{
-C(c, c) & \stackrel{\eta_c}{\to} & X(c) & & & & Id_c & \mapsto & \eta_c(Id_c) & \stackrel{def}{=} & \xi \\ 
+
+The proof is by chasing the element $Id_c \in C(c, c)$ around both legs of a [[naturality square]] for a [[natural transformation]] $\eta: C(-, c) \to X$ (hence a homomorphism of presheaves): 
+
+$$
+  \array{
+     C(c, c) 
+       & \stackrel{\eta_c}{\to} & 
+     X(c) & & & & Id_c & \mapsto & \eta_c(Id_c) & \stackrel{def}{=} & \xi \\ 
  _\mathllap{C(f, c)} \downarrow & & \downarrow _\mathrlap{X(f)} & & & & \downarrow & & \downarrow _\mathrlap{X(f)} & & \\ 
 C(b, c) & \underset{\eta_b}{\to} & X(b) & & & & f & \mapsto & \eta_b(f) & & 
-}$$ 
+}
+$$ 
 
 What this diagram shows is that the entire transformation $\eta: C(-, c) \to X$ is completely determined from the single value $\xi \coloneqq \eta_c(Id_c) \in X(c)$, because for each object $b$ of $C$, the component $\eta_b: C(b, c) \to X(b)$ must take an element $f \in C(b, c)$ (i.e., a morphism $f: b \to c$) to $X(f)(\xi)$, according to the commutativity of this diagram. 
 
@@ -124,7 +152,7 @@ $$
   X(c)
 $$
 
-where the first step is taking the component of a [[natural transformation]] at $c \in C$ and the second step is evaluation at $Id_c \in C(c,c)$. 
+where the first step is taking the component of a [[natural transformation]] at $c \in C$ and the second step is [[evaluation]] at $Id_c \in C(c,c)$. 
 
 The inverse of this map takes $f \in X(c)$ to the natural transformation $\eta^f$ with components
 $$
@@ -135,9 +163,6 @@ $$
 =-- 
 
 
-### Remarks
-
-In the light of the interpretation in terms of [[space and quantity]] mentioned above this says that for $X$ a generalized space modeled on $C$, and for $c$ a test space, morphisms from $c$ to $X$ with $c$ regarded as a generalized space are just the morphisms from $c$ into $X$.
 
 ## Corollaries
 
