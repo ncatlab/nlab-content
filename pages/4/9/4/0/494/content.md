@@ -14,7 +14,9 @@
 
 ## Definition 
 
-The concept of [[adjoint ffasn unctors]] is a key concept in [[category theory]], if not _the_ key concept. It embodies the concept of [[representable functors]] and has as special cases [[universal constructions]] such as [[Kan extensions]] and hence of [[limits]]/[[colimits]]. 
+The concept of _adjoint functors_ is a key concept in [[category theory]], if not _the_ key concept.[^LawvereOnAdjointFunctors] It embodies the concept of [[representable functors]] and has as special cases [[universal constructions]] such as [[Kan extensions]] and hence of [[limits]]/[[colimits]]. 
+
+[^LawvereOnAdjointFunctors]: "In all those areas where category theory is actively used the categorical concept of adjoint functor has come to play a key role." (first line from _[An interview with William Lawvere](https://ncatlab.org/nlab/show/William+Lawvere#Interview07)_, paraphrasing the first paragraph of _[Taking categories seriously](William+Lawvere#TakingCategoriesSeriously)_)
 
 More abstractly, the concept of adjoint functors is itself just the special case of the general concept of an _[[adjunction]]_ in a [[2-category]], here for the 2-category [[Cat]] of all categories. But often "[[adjunction]]" is understood by default in this special case.
 
