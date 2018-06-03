@@ -23,7 +23,7 @@ In his _[[Science of Logic]]_ [[Georg Hegel]] makes a distinction between _subje
 
 This _objective logic_ as presented by Hegel is hence rather unlike common [[predicate logic]], a fact that led to the rejection of this school of [[objective idealism]] by [[Bertrand Russell]] and the school of [[analytic philosophy]].
 
-In ([Lawvere 94b](#Lawvere94b)) it is suggested that [[universal constructions]] in [[categorical logic]] and [[topos theory]], such as [[adjunctions]], should be thought of as the formal incarnation of Hegel's _objective logic_. Related suggestions are implicit in many of [[Lawvere]]'s writings, see at _[Lawvere -- Mathematics relating to philosophy](William+Lawvere#RelationToPhilosophy)_. 
+In ([Lawvere 94](#Lawvere94)) it is suggested that [[universal constructions]] in [[categorical logic]] and [[topos theory]], such as [[adjunctions]], should be thought of as the formal incarnation of Hegel's _objective logic_. Related suggestions are implicit in many of [[Lawvere]]'s writings, see at _[Lawvere -- Mathematics relating to philosophy](William+Lawvere#RelationToPhilosophy)_. 
 
 > {#ItIsMyBelief} [Lawvere 92](#Lawvere92): It is my belief that in the next decade and in the next century the technical advances forged by category theorists will be of value to dialectical philosophy, lending precise form with disputable mathematical models to ancient philosophical distinctions such as general vs. particular, objective vs. subjective, being vs. becoming, space vs. quantity, equality vs. difference, quantitative vs. qualitative etc. In turn the explicit attention by mathematicians to such philosophical questions is necessary to achieve the goal of making mathematics (and hence other sciences) more widely learnable and useable. Of course this will require that philosophers learn mathematics and that mathematicians learn philosophy.
 
@@ -50,8 +50,7 @@ Related commentary is in ([Rodin 14](#Rodin14)).
 
 * {#Lawvere92} [[William Lawvere]], _Categories of space and quantity_, in J. Echeverria et al (eds.), _The Space of mathematics_ , de Gruyter, Berlin, New York, pages 14-30, 1992.
 
-* {#Lawvere94b} [[William Lawvere]] _[[Tools for the advancement of objective logic]]: closed categories and toposes_, in J. Macnamara and [[Gonzalo Reyes]] (Eds.), _The Logical Foundations of Cognition_, Oxford University Press 1993 (Proceedings of the Febr. 1991 Vancouver Conference "Logic and Cognition"),
-pages 43-56, 1994.
+* {#Lawvere94} [[William Lawvere]], _[[Tools for the advancement of objective logic]]: closed categories and toposes_, in J. Macnamara and [[Gonzalo Reyes]] (Eds.), _The Logical Foundations of Cognition_, Oxford University Press 1993 (Proceedings of the Febr. 1991 Vancouver Conference "Logic and Cognition"), pages 43-56, 1994.
 
 * {#LawvereRosebrugh03} [[William Lawvere]], [[Robert Rosebrugh]], _[[Sets for Mathematics]]_ , Cambridge UP  2003. ([web](http://books.google.de/books?id=h3_7aZz9ZMoC&pg=PP1&dq=sets+for+mathematics))
 
