@@ -26,6 +26,7 @@
 =--
 =--
 
+
 #Contents#
 * table of contents
 {:toc}
@@ -42,7 +43,7 @@ is an influential [[category theory|category theorist]].
 
 See 
 
-* {#Interview07} _An interview with F. William Lawvere_, [Bulletin of the International Center for Mathematics](http://www.cim.pt/?q=publications) ([part 1, December 2007](http://www.cim.pt/files/publications/b23www.pdf), [part 2, June 2008](http://www.cim.pt/files/publications/b24www.pdf),  [full pdf](http://www.mat.uc.pt/~picado/lawvere/interview.pdf))
+* {#Interview07} _An interview with F. William Lawvere_, [Bulletin of the International Center for Mathematics](http://www.cim.pt/?q=publications) ([part 1, December 2007](http://www.cim.pt/files/publications/b23www.pdf), [part 2, June 2008](http://www.cim.pt/files/publications/b24www.pdf),  [full pdf](http://www.mat.uc.pt/~picado/lawvere/interview.pdf), [[LawvereInterview.pdf:file]])
 
 for a survey of his academic path and work. See also
 
@@ -217,7 +218,7 @@ Lecture notes University of Chicago 1975.
 
   (on [[continuum mechanics]], [[variational calculus]] and [[laws of motion]] in [[synthetic differential geometry]] and in [[diffeological spaces]] and [[Frölicher spaces]], and on [[intensive and extensive]] properties in terms of [[ring objects]] and [[modules]] in a [[topos]].)
 
-* _Taking categories seriously_, Reprints in Theory and Applications of Categories, No. 8, 2005, pp. 1&#8211;24. ([pdf](http://www.emis.de/journals/TAC/reprints/articles/8/tr8.pdf))
+* {#TakingCategoriesSeriously} _Taking categories seriously_, Reprints in Theory and Applications of Categories, No. 8, 2005, pp. 1&#8211;24. ([pdf](http://www.emis.de/journals/TAC/reprints/articles/8/tr8.pdf))
 
   (reprint of a 1986 paper on the relevance of fundamental concepts in [[category theory]], such as [[Isbell duality]])
 &#8206;
