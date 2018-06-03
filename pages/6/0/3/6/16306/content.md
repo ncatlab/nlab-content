@@ -48,7 +48,7 @@ Related commentary is in ([Rodin 14](#Rodin14)).
 
 * [[Georg Hegel]], _[[Science of Logic]]_
 
-* {#Lawvere92} [[William Lawvere]], _Categories of space and quantity_ in J. Echeverria et al (eds.), _The Space of mathematics_ , de Gruyter, Berlin, New York, pages 14-30, 1992.
+* {#Lawvere92} [[William Lawvere]], _Categories of space and quantity_, in J. Echeverria et al (eds.), _The Space of mathematics_ , de Gruyter, Berlin, New York, pages 14-30, 1992.
 
 * {#Lawvere94b} [[William Lawvere]] _[[Tools for the advancement of objective logic]]: closed categories and toposes_, in J. Macnamara and [[Gonzalo Reyes]] (Eds.), _The Logical Foundations of Cognition_, Oxford University Press 1993 (Proceedings of the Febr. 1991 Vancouver Conference "Logic and Cognition"),
 pages 43-56, 1994.
@@ -56,7 +56,7 @@ pages 43-56, 1994.
 * {#LawvereRosebrugh03} [[William Lawvere]], [[Robert Rosebrugh]], _[[Sets for Mathematics]]_ , Cambridge UP  2003. ([web](http://books.google.de/books?id=h3_7aZz9ZMoC&pg=PP1&dq=sets+for+mathematics))
 
 
-* {#Rodin14} [[Andrei Rodin]], section 5.8 _Categorical Logic and Hegelian Dialectics_ of _Axiomatic Method and Category Theory_ ([arXiv:1210.1478](http://arxiv.org/abs/1210.1478)), Springer 1914
+* {#Rodin14} [[Andrei Rodin]], section 5.8 of  _Categorical Logic and Hegelian Dialectics_ of _Axiomatic Method and Category Theory_ ([arXiv:1210.1478](http://arxiv.org/abs/1210.1478)), Springer 1914
 
 
 [[!redirects subjective and objective logic]]
