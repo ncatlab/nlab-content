@@ -23,7 +23,7 @@ Historically, [[category theory]] was introduced in order to make precise the co
 
 | $\phantom{A}$ hierarchy of concepts $\phantom{A}$  | $\phantom{A}$ Definition $\phantom{A}$ |
 |------------------------|------------|
-| $\phantom{A}$ [[adjoint functor|adjunction]] / [[duality]] $\phantom{A}$  | $\phantom{A}$\ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}$\phantom{A}$ |
+| $\phantom{A}$ [[adjoint functor|adjunction]] / [[duality]] $\phantom{A}$  | $\phantom{A}$ \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets} $\phantom{A}$ |
 | $\phantom{A}$ [[natural transformation]] $\phantom{A}$ | $\phantom{A}$ \ref{NaturalTransformations} $\phantom{A}$ |
 | $\phantom{A}$ [[functor]] $\phantom{A}$ | $\phantom{A}$ \ref{Functors} $\phantom{A}$ |
 | $\phantom{A}$ [[category]] $\phantom{A}$ | $\phantom{A}$ \ref{Categories} $\phantom{A}$ |
@@ -40,9 +40,9 @@ These days, of course, _[[theories of everything]]_, such as [[string theory]], 
 as mathematical formulations of fundamental theories of physics, that could conceptually unify the hodge-podge of currently available "standard models" [[standard model of particle physics|of particle physics]] and [[standard model of cosmology|of cosmology]] to a more coherent whole.
 
 The idea of _[[duality in string theory]]_ refers to different perspectives on physics that appear dual to each other while being _equivalent_.
-One of the basic results of category theory, which we will discuss below, is that equivalence is indeed a special case of adjunction. 
+But one of the basic results of category theory, which we will discuss below, is that equivalence is indeed a special case of adjunction. This allows to explore the possibility that there is more than a coincidence of terms.
 
-But the usage of the term _[[duality in string theory]]_ is too loose for one to expect to be able to refine each occurrence of the term in the literature to a mathematical adjunction. However, we will see mathematical formalizations of core aspects of
+Of course the usage of the term _[[duality in string theory]]_ is too loose for one to expect to be able to refine each occurrence of the term in the literature to a mathematical adjunction. However, we will see mathematical formalizations of core aspects of
 key string-theoretic dualities, such as _[[topological T-duality]]_ and the _[[duality between M-theory and type IIA string theory]]_, in terms of adjunctions. Indeed, at the heart of these _[[dualities in string theory]]_ is the phenomenon of _[[double dimensional reduction]]_, which turns out to be formalized by one of the most fundamental adjunctions in ([[higher category theory|higher]] [[category theory]] ([[base change]] along the point inclusion into a [[classifying space]]).
 This suggests that there may be a deeper relation here between the superficially alien uses of the word "duality", that is worth exploring.
 
@@ -483,7 +483,8 @@ such that
 
 * for each [[morphism]] $X \overset{f}{\longrightarrow} Y$ we have
 
-  $$
+  \[
+    \label{Naturality}
     \eta_Y\circ F(X)
      \;=\;
     G(Y)\circ \eta_X
@@ -497,7 +498,7 @@ such that
        \\
        F(Y) &\underset{\eta_Y}{\longrightarrow}& G(Y)
     }
-  $$
+  \]
 
 For 
 
@@ -591,7 +592,7 @@ Essentially by Example \ref{HomFunctor}, there is the following [[functor]] (Def
 
 The [[presheaves]] $y(X) \coloneqq Hom_{\mathcal{C}}(-,X)$ in the [[image]] of this functor are called the _[[representable presheaves]]_ and $X \in Obj_{\mathcal{C}}$ is called their [[representing object]].
 
-This functor is called the _[[Yoneda embedding]]_.
+This functor is called the _[[Yoneda embedding]]_, due to Prop. \ref{YonedaEmbedding} below.
 
 =--
 
@@ -615,9 +616,11 @@ $$
   \array{
      c && \mathbf{X}(d)
      \\
-     {}^{\mathllap{ f }}\downarrow && \uparrow^{\mathrlap{ \mathbf{X}(f) }}
+     {}^{\mathllap{ f }}\big\downarrow 
+       && 
+     \big\uparrow{}^{\mathrlap{ \mathbf{X}(f) }}
      \\
-     d && \mathcal{X}(c)
+     d && \mathbf{X}(c)
   }
   \;\;\;\;\;
   \;\;\;\;
@@ -637,7 +640,233 @@ Hence the incarnation of $X \in \mathcal{C}$ as a generalized space probe-able b
 
 At this point, however, a serious consistency condition arises: The "ordinary spaces" now exist as objects of two different categories, on the one hand there is the original $X \in \mathcal{C}$, on the other hand there is its Yoneda image $y(X) \in [\mathcal{C}^{op}, Set]$ in the category of generalized spaces, and we need to know that these two perspectives are compatible, notably that maps $X \to Y$ between ordinary spaces are the same whether viewed in $\mathcal{C}$ or in the more general context of $[\mathcal{C}^{op}, Set]$. 
 
-That this is indeed the case, is the statement of the _[[Yoneda lemma]]_, to which we now turn:
+That this is indeed the case, is the statement of the _[[Yoneda lemma]]_, to which we now turn.
+
+=--
+
++-- {: .num_prop #YonedaLemma}
+###### Proposition
+**([[Yoneda lemma]])**
+
+Let $\mathcal{C}$ be a [[category]] (Def. \ref{Categories}), $X \in \mathcal{C}$ any object, and $\mathbf{Y} \in [\mathcal{C}^{op}, Set]$ a [[presheaf]] over $\mathcal{C}$ (Def. \ref{CategoryOfPresheaves}).
+
+Then there is a [[bijection]]
+
+$$
+  \array{
+    Hom_{[\mathcal{C}^{op},Set]}( y(X), \mathbf(Y) )
+      &\overset{\simeq}{\longrightarrow}&
+    \mathbf{Y}(X)
+    \\
+    \eta 
+      &\mapsto&
+    \eta_X(id_X)
+  }
+$$
+
+between the [[hom-set]] of the [[category of presheaves]] from the [[representable presheaf|presheaf represented]] by $X$ (eq:YonedaFunctor) to $\mathbf{Y}$, and the set which is assigned by $\mathbf{Y}$ to $X$.
+
+=--
+
++-- {: .proof}
+###### Proof
+
+By Example \ref{FunctorCategory}, an element in the set on the left is a [[natural transformation]] (Def. \ref{NaturalTransformations}) of the form
+
+$$
+  \mathcal{C}^{op}
+    \underoverset
+      {\underset{\mathbf{Y}}{\longrightarrow}}
+      {\overset{y(X)}{\longrightarrow}}
+      {\phantom{AA} \Downarrow \mathrlap{\eta}  \phantom{AA}}
+  Set
+$$
+
+hence given by component functions (eq:NaturalTransformationComponent)
+
+$$
+  Hom_{\mathcal{C}}(c,X)
+    \overset{\eta_c}{\longrightarrow}
+  \mathbf{Y}(X)
+$$
+
+for each $c \in \mathcal{C}$. In particular there is the component at $c = X$
+  
+$$
+  \array{
+    Hom_{\mathcal{C}}(X,X)
+      &\overset{\eta_X}{\longrightarrow}&
+    \mathbf{Y}(X)
+    \\
+    id_X &\mapsto& \eta_X(id_X)
+  }
+$$
+
+and the [[identity morphism]] $id_X$ on $X$ is a canonical element in the set on the left. The statement to be proven is hence equivalently that for every element in $\mathbf{Y}(X)$ there is precisely one $\eta$ such that this element equals $\eta_X(id_X)$.
+
+Now the condition to be satisfied by $\eta$ is that it makes its [[naturality squares]] (eq:Naturality) commute. This includes those of the form
+
+$$
+  \array{
+    id_X 
+    \in
+    & 
+    Hom_{\mathcal{C}}(X,X)
+      &\overset{\eta_X}{\longrightarrow}&
+    \mathbf{Y}(X)
+    \\ 
+    & 
+    {}^{\mathllap{ Hom_{\mathcal{C}}(f,X) }}
+    \big\downarrow 
+      && 
+    \big\downarrow{}^{\mathrlap{\mathbf{Y}(f)}}
+    \\
+    & 
+    Hom_{\mathcal{C}}(Y,X)
+    &\underset{\eta_Y}{\longrightarrow}&
+    \mathbf{Y}(Y)
+  }
+  \phantom{AAAA}
+  \array{
+     \{id_X\}
+     &\longrightarrow&
+     \{\eta_X(id_X)\}
+     \\
+     \big\downarrow 
+     &&
+     \big\downarrow
+     \\
+     \{f\}
+     &\longrightarrow&
+     \big\{ \eta_Y(F) = \mathbf{Y}(f)( \eta_X(id_X) ) \big\}
+  }
+$$
+
+for any [[morphism]] 
+
+$$
+  (Y \overset{f}{\longrightarrow} X)
+    \;\in\;
+  Hom_{\mathcal{C}}(Y,X)
+  \,.
+$$
+
+As the diagram chase of elements on the right shows, this commutativity fixes $\eta_Y(f)$ for all $Y \in \mathcal{C}$ and all $f \in Hom_{\mathcal{C}}(Y,X)$ uniquely in terms of the element $\eta_{X}(id_X)$.
+
+It remains only to see that there is no condition on the element $\eta_X(id_X)$, hence that with $\eta_Y(f)$ defined this way, the commutativity of all the remaining naturality squares is implies: The general naturality square for a morphism $Y_2 \overset{g}{\longrightarrow} Y_1$ is of the form
+
+$$
+  \array{
+    & 
+    Hom_{\mathcal{C}}(Y_1,X)
+      &\overset{\eta_{Y_1}}{\longrightarrow}&
+    \mathbf{Y}(Y_1)
+    \\ 
+    & 
+    {}^{\mathllap{ Hom_{\mathcal{C}}(g,X) }}
+    \big\downarrow 
+      && 
+    \big\downarrow{}^{\mathrlap{\mathbf{Y}(g)}}
+    \\
+    & 
+    Hom_{\mathcal{C}}(Y_2,X)
+    &\underset{\eta_{Y_2}}{\longrightarrow}&
+    \mathbf{Y}(Y_2)
+  }
+  \phantom{AAAA}
+  \array{
+     \{f_1\}
+     &\longrightarrow&
+     \{ \mathbf{Y}(f_1)( \eta_X(id_X) )  \}
+     \\
+     \big\downarrow 
+     &&
+     \big\downarrow
+     \\
+     \{f_2 = f_1\circ g\}
+     &\longrightarrow&
+     \{\mathbf{Y}(f_2)( \eta_X(id_X) ) = \mathbf{Y}(g) \circ \mathbf{Y}(f_1) ( \eta_X(id_X) ) \}
+  }
+$$
+
+As shown on the right, the commutativity of this diagram now follows from the [[functor|functoriality]] $\mathbf{Y}(f_2) = \mathbf{Y}(f_1 \circ g)$ of the [[presheaf]] $\mathbf{Y}$.
+
+=--
+
+As a direct corollary, we obtain the statement of the [[Yoneda embedding]]:
+
++-- {: .num_prop #YonedaEmbedding}
+###### Proposition
+**([[Yoneda embedding]])**
+
+The assignment of [[representable presheaves|represented presheaves]] (eq:YonedaFunctor) is a [[fully faithful functor]] (Def. \ref{FullyFaithfulFunctor}), hence exhibits a [[full subcategory]] inclusion
+
+$$
+  y
+  \;\;\colon\;\;
+  \array{
+    \mathcal{C}
+      &\overset{\phantom{AAAA}}{\hookrightarrow}&
+    [\mathcal{C}^{op}, Set]
+    \\
+    X
+    &\mapsto&
+    Hom_{\mathcal{C}}(-,X)
+  } 
+$$
+
+of the given [[category]] $\mathcal{C}$ into its [[category of presheaves]].
+
+=--
+
++-- {: .proof}
+###### Proof
+
+We need to show that for all $X_1, X_2 \in Obj_{\mathcal{C}}$ the function
+
+\[
+  \label{HomFunctionForYonedaEmbedding}
+  \array{
+    Hom_{\mathcal{C}}(X_1, X_2)
+      &\overset{ }{\longrightarrow}&
+    Hom_{[\mathcal{C}^{op}, Set]}
+    \big(
+      Hom_{\mathcal{C}}(-,X_1)
+       \;,\;
+      Hom_{\mathcal{C}}(-,X_2)
+    \big)
+    \\
+    f 
+      &\mapsto&  
+    Hom_{\mathcal{C}}(-,f)
+  }
+\]
+
+is a [[bijection]]. But the [[Yoneda lemma]] (Prop. \ref{YonedaLemma}) states a bijection the other way around
+
+$$
+  \array{
+    Hom_{[\mathcal{C}^{op}, Set]}
+    \big(
+      Hom_{\mathcal{C}}(-,X_1)
+       \;,\;
+      Hom_{\mathcal{C}}(-,X_2)
+    \big)
+      &\overset{\simeq}{\longrightarrow}&
+    Hom_{\mathcal{C}}(-,X_2)(X_1)
+      &=&
+    Hom_{\mathcal{C}}(X_1, X_2)
+    \\
+    \eta && \mapsto && \eta_{X_1}( id_{X_1} ) 
+    \\
+    Hom_{\mathcal{C}}(-,f) 
+      && \mapsto && 
+    Hom_{\mathcal{C}}(X_1,f)(id_{X_1}) = f
+   }
+$$
+
+and hence it is sufficient to see that this is a [[left inverse]] to (eq:HomFunctionForYonedaEmbedding). This follows by inspection, as shown in the third line above.
+
 
 =--
 
