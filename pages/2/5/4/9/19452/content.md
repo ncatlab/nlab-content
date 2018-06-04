@@ -159,7 +159,7 @@ The [[class]] of all [[sets]] with [[functions]] between them is a [[category]] 
 
 =--
 
-More generally all kind of _sets with [[structure]]_, in the sense going back to [[Bourbaki]], form categories, where the [[morphisms]] are the _[[homomorphisms]]_ (whence the name "morphism"!). These are called [[concrete categories]]: 
+More generally all kind of _sets with [[structure]]_, in the sense going back to [[Bourbaki]], form categories, where the [[morphisms]] are the _[[homomorphisms]]_ (whence the name "morphism"!). These are called _[[concrete categories]]_ (we characterize them precisely in Example \ref{StructuredSetsAndFaithfulFunctors}, further below): 
 
 +-- {: .num_example #ExamplesOfConcreteCategories}
 ###### Example
@@ -209,6 +209,8 @@ Let $\mathcal{C}$ and $\mathcal{D}$ be two [[categories]] (Def. \ref{Categories}
 * $(f_2, g_2) \circ (f_1, g_1) \;\coloneqq\; ( f_2 \circ f_1, g_2 \circ g_1 )$
 
 =--
+
+
 
 +-- {: .num_defn #Functors}
 ###### Definition
@@ -328,6 +330,13 @@ A [[functor]] $F \;\colon\; \mathcal{C} \to \mathcal{D}$ (Def. \ref{Functors}) i
     Hom_{\mathcal{D}}(F(X), F(Y))
   $$
 
+A [[fully faithful functor]] is also called a _[[full subcategory]]-inclusion_. We will denote this situation by
+
+$$
+  \mathcal{C} \overset{\phantom{A}F\phantom{A}}{\hookrightarrow} \mathcal{D}
+  \,.
+$$
+
 =--
 
 This allows to make precise the idea of _[[concrete category]]_ from Example \ref{ExamplesOfConcreteCategories}:
@@ -347,6 +356,104 @@ which sends each [[structured set]] to the underlying set ("forgetting" the [[st
 Conversely, it makes sense to _define_ [[structured sets]] in general to be the [[objects]] of a [[category]] $\mathcal{C}$ which is equipped with a [[faithful functor]] $\mathcal{C} \overset{faithful}{\longrightarrow} Set$ to the [[category of sets]]. See at _[[structure]]_ for more on this.
 
 =--
+
+
+
++-- {: .num_example #SpacesViaAlgebrasOfFunctions}
+###### Example
+**([[spaces]] seen via their [[algebras of functions]])**
+
+Consider 
+
+1. the [[category]] [[Top]]${}_{cpt}$ of [[compact topological space|compact]] [[topological spaces]] with [[continuous functions]] between them;
+
+1. the category [[C*Alg]] of [[C*-algebras]] over the [[complex numbers]]
+
+from Example \ref{ExamplesOfConcreteCategories}.
+
+Then there is a [[functor]] (Def. \ref{Functors})
+
+$$
+  C(-)
+  \;\colon\;
+  Top_{cpt}
+   \longrightarrow
+  C^\ast Alg^{op}
+$$
+
+from the former to the [[opposite category]] of the latter (Example \ref{OppositeCategory}) which sends any [[compact topological space|compact]] [[topological space]] $X$ to its [[C*-algebra]] $C(X)$ of [[continuous functions]] $X \overset{\phi}{\to} \mathbb{C}$ to the [[complex numbers]], and which sends every [[continuous function]] between compact spaces to the [[C*-algebra]]-[[homomorphism]] that is given by [[precomposition]]:
+
+$$
+  C(-)
+  \;\;\;\colon\;\;\;
+  \array{
+    X &\mapsto & C(X) 
+    \\
+    {}^{\mathllap{ f }}\big\downarrow 
+      && 
+    \big\uparrow^{\mathrlap{ f^\ast : \phi \mapsto \phi \circ f }}
+    \\
+    Y &\mapsto& C(Y) 
+  }
+$$
+
+Part of the statement of _[[Gelfand duality]]_ is that this is a [[fully faithful functor]], hence exhibiting a  [[full subcategory]]-inclusion (Def. \ref{FullyFaithfulFunctor}):
+
+$$
+  Top_{cpt}
+   \hookrightarrow
+  C*Alg^{op}
+  \,.
+$$
+
+Similarly, consider
+
+1. the [[category]] [[SmthMfd]]$ of [[smooth manifolds]] with [[smooth functions]] between them;
+
+1. the category [[Alg]]${}_{\mathbb{R}}$ of [[associative algebras]] over the [[real numbers]]
+
+from Example \ref{ExamplesOfConcreteCategories}.
+
+Then there is a [[functor]] (Def. \ref{Functors})
+
+$$
+  C^\infty(-)
+  \;\colon\;
+  SmthMfd^{op}
+    \longrightarrow
+  Alg_{\mathbb{R}}^{op}
+$$
+
+from the former to the [[opposite category]] of the latter (Def. \ref{OppositeCategory}), which sends any [[smooth manifold]] $X$ to its [[associative algebra]] $C^\inft(X)$ of [[continuous functions]] $X \overset{\phi}{\to} \mathbb{R}$ to the [[real numbers]], and which sends every [[smooth function]] between smooth manifolds to the [[algebra homomorphism]] that is given by [[precomposition]]:
+
+
+$$
+  C^\infty(-)
+  \;\;\;\colon\;\;\;
+  \array{
+    X &\mapsto & C^\infty(X) 
+    \\
+    {}^{\mathllap{ f }}\big\downarrow 
+      && 
+    \big\uparrow^{\mathrlap{ f^\ast : \phi \mapsto \phi \circ f }}
+    \\
+    Y &\mapsto& C^\infty(Y) 
+  }
+$$
+
+The statement of _[[Milnor's exercise]]_ is that this  this is a [[fully faithful functor]], hence exhibiting a  [[full subcategory]]-inclusion (Def. \ref{FullyFaithfulFunctor}):
+
+$$
+  SmthMfd
+   \hookrightarrow
+  Alg_{\mathbb{R}}^{op}
+  \,.
+$$
+
+These two statements, expressing categories of [[spaces]] as [[full subcategories]] of [[opposite categories]] of categories of [[algebras]], are the starting point for many developments in [[geometry]], such as _[[algebraic geometry]]_, _[[supergeometry]]_, _[[noncommutative geometry]]_ and _[[noncommutative topology]]_.
+
+=--
+
 
 
 +-- {: .num_defn #NaturalTransformations}
@@ -438,7 +545,7 @@ whose components (eq:NaturalTransformationComponent) are the [[compositions]] of
 
 +-- {: .num_example #FunctorCategory}
 ###### Example
-**([[functor category]] and [[category of presheaves]])**
+**([[functor category]])**
 
 Let $\mathcal{C}$ and $\mathcal{D}$ be [[categories]] (Def. \ref{Categories}). Then the _[[category of functors]]_ between them, to be denoted $[\mathcal{C}, \mathcal{D}]$, is the [[category]] whose [[objects]] are the [[functors]] $\mathcal{C} \overset{F}{\to} \mathcal{D}$ (Def. \ref{Functors}) and whose [[morphisms]] are the [[natural transformations]] $F \overset{\eta}{\Rightarrow} G$ between functors (Def. \ref{NaturalTransformations}) and whose [[composition]] operation is the composition of natural transformations (eq:NaturalTransformationComposition).
 
@@ -466,7 +573,74 @@ $$
 
 is hence called the _[[category of presheaves]]_ over $\mathcal{C}$.
 
+Essentially by Example \ref{HomFunctor}, there is the following [[functor]] (Def. \ref{Functors}) from $\mathcal{C}$ to its [[category of presheaves]]:
+
+\[
+  \label{YonedaFunctor}
+  y
+  \;\;\colon\;\;
+  \array{
+    \mathcal{C}
+      &\longrightarrow&
+    [\mathcal{C}^{op}, Set]
+    \\
+    X
+    &\mapsto&
+    Hom_{\mathcal{C}}(-,X)
+  } 
+\]
+
+The [[presheaves]] $y(X) \coloneqq Hom_{\mathcal{C}}(-,X)$ in the [[image]] of this functor are called the _[[representable presheaves]]_ and $X \in Obj_{\mathcal{C}}$ is called their [[representing object]].
+
+This functor is called the _[[Yoneda embedding]]_.
+
 =--
+
++-- {: .num_remark #PresaheavesAsGeneralizedSpaces}
+###### Remark
+**([[presheaves]] as generalized spaces)**
+
+If a given [[category]] $\mathcal{C}$ (Def. \ref{Categories}) is thought of as a category of _[[spaces]]_ of sorts, as those in Example \ref{SpacesViaAlgebrasOfFunctions}, then it will be most useful to think of the corresponding [[category of presheaves]] $[\mathcal{C}^{op}, Set]$ (Def. \ref{CategoryOfPresheaves}) as a category of _generalized spaces probe-able by_ the test spaces in $\mathcal{C}$.
+
+Namely, imagine a generalized space $\mathbf{X}$ which is at least probe-able by spaces in $\mathcal{C}$. This should mean that for each [[object]] $c \in \mathcal{C}$ there is some [[set]] of geometric maps "$c \to \mathcal{X}$". Here the quotation marks are to warn us that, at this point, $\mathbf{X}$ is not defined yet, and even if it were, it is not expected to be an object of $\mathcal{C}$, so that, at this point, an actual morphism from $c$ to $\mathbf{X}$ is not defined. But we may anyway consider some set
+
+$$
+  \mathbf{X}(c) \;\;\;\; \text{"set of would-be maps to c to X"}
+$$
+
+whose elements we do want to think of maps to $c$ to $X$. 
+
+A minimum consistency condition for this to make sense (we will discuss further conditions later on) is that we may consistently pre-compose the would-be maps from $c$ to $\mathbf{X}$ with actual morphisms $d \overset{f}{\to} c$ in $\mathcal{C}$. This means that for every such morphism there should be a function between these sets of would-be maps
+
+$$
+  \array{
+     c && \mathbf{X}(d)
+     \\
+     {}^{\mathllap{ f }}\downarrow && \uparrow^{\mathrlap{ \mathbf{X}(f) }}
+     \\
+     d && \mathcal{X}(c)
+  }
+  \;\;\;\;\;
+  \text{would-be pre-composition with f of would-be maps into X}
+$$
+
+which respects composition and identity morphisms. But in summary, this says that what we have defined thereby is actually a _[[presheaf]]_ on $\mathcal{C}$ (Def. \ref{CategoryOfPresheaves}), namely a functor
+
+$$
+  \mathbf{X} \;\colon\; \mathcal{C}^{op} \longrightarrow Set
+  \,.
+$$
+
+For this to make sense, it ought to be true that every "ordinary space", hence every [[object]] $X \in \mathcal{C}$ is also an example of a "generalized space probe-able by" object of $\mathcal{C}$, since, after all, these are the space which may manifestly be probed by objects $c \in \mathcal{C}$, in that morphisms $c \to X$ are already defined.
+
+Hence the incarnation of $X \in \mathcal{C}$ as a generalized space probe-able by objects of $\mathcal{C}$ should be the presheaf $Hom_{\mathcal{C}}(-,X)$, hence the [[representable presheaf|presheaf represented]] by $X$, via the Yoneda functor (eq:YonedaFunctor).
+
+At this point, however, a serious consistency condition arises: The "ordinary spaces" now exist as objects of two different categories, on the one hand there is the original $X \in \mathcal{C}$, on the other hand there is its Yoneda image $y(X) \in [\mathcal{C}^{op}, Set]$ in the category of generalized spaces, and we need to know that these two perspectives are compatible, notably that maps $X \to Y$ between ordinary spaces are the same whether viewed in $\mathcal{C}$ or in the more general context of $[\mathcal{C}^{op}, Set]$. 
+
+That this is indeed the case, is the statement of the _[[Yoneda lemma]]_, to which we now turn:
+
+=--
+
 
 
 +-- {: .num_defn #AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}
