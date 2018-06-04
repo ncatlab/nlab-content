@@ -82,7 +82,7 @@ The axioms 0 and 1 for _toposes of generalized spaces_ given there later became 
 
 Further discussion of this axiomatics for [[gros topos]]es is in
 
-* [[Bill Lawvere]], _Categories of space and quantity_ in: J. Echeverria et al (eds.), _The Space of mathematics_ , de Gruyter, Berlin, New York (1992)
+* [[Bill Lawvere]], _Categories of space and quantity_ in: J. Echeverria et al (eds.), _The Space of mathematics_, de Gruyter, Berlin, New York (1992)
 
 where a proposal for a general axiomatization of [[homotopy]]/[[homology]]-like "extensive quantities" and [[cohomology]]-like "intensive quantities") as covariant and contravariant functors out of a distributive category are considered.
 
