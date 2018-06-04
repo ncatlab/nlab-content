@@ -74,6 +74,10 @@ An argument (via [[Chern-Simons gravity]], but see the caveats there) that [[3d 
 
 * {#CoussaertHenneauxvanDriel95} O. Coussaert, [[Marc Henneaux]], P. van Driel, _The asymptotic dynamics of three-dimensional Einstein gravity with a negative cosmological constant_, Class. Quant. Grav. 12 (1995) 2961-2966 ([arXiv:gr-qc/9506019](http://arxiv.org/abs/gr-qc/9506019))
 
+Discussion of the [[Ising model]] [[2d CFT]] as a boundary theory to a 3d [[TQFT]] based on the [[Turaev-Viro model]], and the phenomenon of [[Kramers-Wannier duality]], is discussed in
+
+* {#FreedTeleman18} [[Daniel Freed]], [[Constantin Teleman]], _Topological dualities in the Ising model_ ([arXiv:1806.00008](https://arxiv.org/abs/1806.00008))
+
 ### $AdS_3$/$CFT_2$
 
 * [[Andrea Prinsloo]], [[Vidas Regelskis]], [[Alessandro Torrielli]], _Integrable open spin-chains in AdS3/CFT2_ ([arXiv:1505.06767](http://arxiv.org/abs/1505.06767))
