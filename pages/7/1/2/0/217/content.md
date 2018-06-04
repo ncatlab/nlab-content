@@ -19,7 +19,7 @@
 
 ## Idea
 
-The **Elementary Theory of the Category of Sets** , or _ETCS_ for short, is an axiomatic formulation of [[set theory]] in a [[category theory|category-theoretic]] spirit.  As such, it is the prototypical [[structural set theory]]. Proposed shortly after [[ETCC]] in ([Lawvere 65](#Lawvere65)) it is also the paradigm for a [[foundations|categorical foundation]] of mathematics.[^Law]
+The **Elementary Theory of the Category of Sets** , or _ETCS_ for short, is an axiomatic formulation of [[set theory]] in a [[category theory|category-theoretic]] spirit.  As such, it is the prototypical [[structural set theory]]. Proposed shortly after [[ETCC]] in ([Lawvere 64](#Lawvere64)) it is also the paradigm for a [[foundations|categorical foundation]] of mathematics.[^Law]
 
 The theory intends to capture in an invariant way the notion of a (constant) _'abstract set'_ whose elements lack internal structure and whose only external property is cardinality with further external relations arising from _mappings_. The membership relation is _local_ and _relative_ i.e. membership is meaningful only between an element of a set and a subset of the very same set. (See [Lawvere (1976, p.119)](#Lawvere76) for a detailed description of the notion 'abstract set'.[^cantor] [^dedekind] [^schoenflies] [^vonneumann])
 
@@ -101,13 +101,13 @@ The case $(2,2)$ is the elementary theory of the 2-category of categories ([[ETC
 
 ETCS grew out of Lawvere's experiences of teaching undergraduate foundations of analysis at Reed college in 1963 and was originally published in 
 
-* {#Lawvere65} [[William Lawvere]], _An elementary theory of the category of sets_ , Proceedings of the National Academy of Science of the U.S.A **52** pp.1506-1511 (1965). ([pdf](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC300477/pdf/pnas00186-0196.pdf))
+* {#Lawvere64} [[William Lawvere]], _An elementary theory of the category of sets_ , Proceedings of the National Academy of Science of the U.S.A **52** pp.1506-1511 (1964). ([pdf](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC300477/pdf/pnas00186-0196.pdf))
 
 A more or less contemporary review is
 
 * C.C. Elgot, _Review_,  JSL **37** no.1 (1972) pp. 191-192.
 
-A longer version of Lawvere's 1965 paper appears in
+A longer version of Lawvere's 1964 paper appears in
 
 * [[William Lawvere]], [[Colin McLarty]], _An elementary theory of the category of sets (long version) with commentary_ , Reprints in Theory and Applications of Categories **11** (2005) pp. 1-35. ([TAC](http://tac.mta.ca/tac/reprints/articles/11/tr11abs.html))
 
