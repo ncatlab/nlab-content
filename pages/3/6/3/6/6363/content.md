@@ -211,7 +211,6 @@ Gelfand duality can be extended by [[horizontal categorification]] to define the
 
 ## Related concepts
 
-
 * [[Isbell duality]]
 
   * **Gelfand duality**, [[constructive Gelfand duality theorem|constructive Gelfand duality]]
@@ -225,6 +224,10 @@ Gelfand duality can be extended by [[horizontal categorification]] to define the
     * [[Serre-Swan theorem]]
 
 * [[noncommutative topology]]
+
+The analogous statement in [[differential geometry]]:
+
+* [[embedding of smooth manifolds into formal duals of R-algebras]]
 
 ## References
 
