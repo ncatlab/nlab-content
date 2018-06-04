@@ -79,6 +79,11 @@ A relation to the [[Levin-Wen model]] is discussed in
 
 * Alexander Kirillov Jr, _String-net model of Turaev-Viro invariants_ ([arXiv:1106.6033](http://arxiv.org/abs/1106.6033))
 
+Discussion of the [[Ising model]] [[2d CFT]] as a boundary theory to a 3d [[TQFT]] based on the [[Turaev-Viro model]], similar to the [[CS-WZW correspondence]], and the phenomenon of [[Kramers-Wannier duality]], is in:
+
+* {#FreedTeleman18} [[Daniel Freed]], [[Constantin Teleman]], _Topological dualities in the Ising model_ ([arXiv:1806.00008](https://arxiv.org/abs/1806.00008))
+
+
 
 [[!redirects Turaev-Viro construction]]
 [[!redirects Turaev-Viro-Barrett-Westbury model]]
