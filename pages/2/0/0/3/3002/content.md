@@ -1,4 +1,19 @@
 
++-- {: .rightHandSide}
++-- {: .toc .clickDown tabindex="0"}
+###Context###
+#### Algebra
++--{: .hide}
+[[!include higher algebra - contents]]
+=--
+#### Category theory
++-- {: .hide}
+[[!include category theory - contents]]
+=--
+=--
+=--
+
+
 # Contents
 * table of contents
 {:toc}
@@ -82,3 +97,8 @@ Generalizing further, we may simply treat 'homomorphism' as a synonym for '[[mor
 [[!redirects rng homomorphisms]]
 [[!redirects ring homomorphism]]
 [[!redirects ring homomorphisms]]
+[[!redirects algebra homomorphism]]
+[[!redirects algebra homomorphisms]]
+
+
+
