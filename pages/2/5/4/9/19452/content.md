@@ -210,6 +210,41 @@ $$
 
 =--
 
++-- {: .num_defn #Groupoid}
+###### Definition
+**([[groupoid]])**
+
+If $\mathcal{C}$ is a [[category]] in which _every_ [[morphism]] is an [[isomorphism]] (Def. \ref{Isomorphism}), then $\mathcal{C}$ is called a _[[groupoid]]_.
+
+=--
+
++-- {: .num_example}
+###### Example
+**([[delooping]] [[groupoid]])**
+
+For $G$ a [[group]], there is a [[groupoid]] (Def. \ref{Groupoid}) $\mathbf{B}G$ with a single [[object]], whose single [[hom-set]] is $G$, with [[identity morphism]] the [[neutral element]] and [[composition]] the group operation in $G$:
+
+* $Obj_{\mathbf{B}G} = \ast$
+
+* $Hom_{\mathcal{C}}(\ast,\ast) \;=\; G$
+
+In fact every [[groupoid]] with precisely one object is of the form.
+
+=--
+
++-- {: .num_remark }
+###### Remark
+**([[groupoids]] and [[homotopy theory]])**
+
+Even though [[groupoids]] (Def. \ref{Groupoid}) are special cases of [[categories]] (Def. \ref{Categories}), the theory of groupoids in itself has a rather different flavour than that of category theory: Part of the [[homotopy hypothesis]]-theorem is that the theory of groupoids is really _[[homotopy theory]]_ for the special case of [[homotopy 1-types]].
+
+(In applications in [[homotopy theory]], groupoids are considered mostly in the case that the [[class]] $Obj_{\mathcal{C}}$ of [[objects]] is in fact a [[set]]: "[[small groupoid]]"). 
+
+For this reason we will not have more to say about [[groupoids]] here, and instead relegate their discussion to the chapter [[geometry of physics -- homotopy types|on homotopy theory]].
+
+
+=--
+
 
 There is a range of constructions that provide new categories from given ones:
 
@@ -834,8 +869,6 @@ As shown on the right, the commutativity of this diagram now follows from the [[
 
 =--
 
-spring
-
 As a direct corollary, we obtain the statement of the [[Yoneda embedding]]:
 
 +-- {: .num_prop #YonedaEmbedding}
@@ -1450,7 +1483,7 @@ for every morphism $h \colon d_1 \to d_2$ under  $y(R(-))$ (eq:YonedanotationFor
 ###### Proposition
 **([[adjoint functors]] are unique up to [[natural isomorphism]])**
 
-The [[left adjoint]] or [[right adjoint]] to a [[functor]] (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}), if it exists, is unique up to  [[natural isomorphism]].
+The [[left adjoint]] or [[right adjoint]] to a [[functor]] (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}), if it exists, is unique up to  [[natural isomorphism]] (Def. \ref{NaturalTransformations}).
 
 =--
 
@@ -1459,7 +1492,7 @@ The [[left adjoint]] or [[right adjoint]] to a [[functor]] (Def. \ref{AdjointFun
 
 Suppose the functor $L \colon \mathcal{D} \to \mathcal{C}$ is given, and we are asking for uniqueness of its right adjoint, if it exists. The other case is directly analogous.
 
-Suppose that $R_1, R_2 \;\colon\; \mathcal{C} \to \mathcal{D}$ are two [[functors]] which are [[right adjoint]] to $L$. Then for each $d \in \mathcal{D}$ the corresponding two hom-isomorphisms (eq:HomIsomorphismForAdjointFunctors) combine to say that there is a [[natural isomorphism]]
+Suppose that $R_1, R_2 \;\colon\; \mathcal{C} \to \mathcal{D}$ are two [[functors]] which both are [[right adjoint]] to $L$. Then for each $d \in \mathcal{D}$ the corresponding two hom-isomorphisms (eq:HomIsomorphismForAdjointFunctors) combine to say that there is a [[natural isomorphism]]
 
 $$
   \Phi_d
