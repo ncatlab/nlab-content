@@ -1492,7 +1492,7 @@ The [[left adjoint]] or [[right adjoint]] to a [[functor]] (Def. \ref{AdjointFun
 
 Suppose the functor $L \colon \mathcal{D} \to \mathcal{C}$ is given, and we are asking for uniqueness of its right adjoint, if it exists. The other case is directly analogous.
 
-Suppose that $R_1, R_2 \;\colon\; \mathcal{C} \to \mathcal{D}$ are two [[functors]] which both are [[right adjoint]] to $L$. Then for each $d \in \mathcal{D}$ the corresponding two hom-isomorphisms (eq:HomIsomorphismForAdjointFunctors) combine to say that there is a [[natural isomorphism]]
+Suppose that $R_1, R_2 \;\colon\; \mathcal{C} \to \mathcal{D}$ are two [[functors]] which both are [[right adjoint]] to $L$. Then for each $d \in \mathcal{D}$ the corresponding two hom-isomorphisms (eq:HomIsomorphismForAdjointFunctors) combine to say that there is a [[natural isomorphism]]/
 
 $$
   \Phi_d
@@ -1519,9 +1519,54 @@ But then the uniqueness statement of Prop. \ref{AdjointFunctorFromObjectwiseRepr
 
 =--
 
+## Sheaves
 
+We have explained in Remark \ref{PresaheavesAsGeneralizedSpaces} how [[presheaves]] on a [[category]] $\mathcal{C}$ may be thought of as _generalized spaces probe-able by the objects of $\mathcal{C}$_, and that two consistency conditions on this interpretation are provided by the [[Yoneda lemma]] (Prop. \ref{YonedaLemma}) and the resulting [[Yoneda embedding]] (Prop. \ref{YonedaEmbedding}). Here we turn to a third consistency condition that one will want to impose:
 
+If the [[objects]] of $\mathcal{C}$ are thought of as [[spaces]] of sorts, then there is typically a concept of _locality_ in these spaces, reflected by a notion of what it means to _[[cover]]_ a given space by ("smaller") spaces.
 
+But if a space $X \in \mathcal{C}$ is covered, say by two other spaces $U_1, U_2 \in \mathcal{C}$, via morphisms 
 
+$$
+  \array{
+    U_1 && && U_2
+    \\
+    & {}_{\mathllap{i_1}}\searrow && \swarrow_{\mathrlap{i_2}}
+    \\
+    && X
+  }
+$$
+
+then this must be reflected in the behaviour of the probes of any generalized space $\mathbf{Y}$ (in the sense of Remark \ref{PresaheavesAsGeneralizedSpaces}) by these test spaces:
+
+For ease of discussion, suppose that there is a sense in which these two patches above [[intersection|intersect]] in $X$ to form a space $U_1 \cap_X U_2 \in \mathcal{C}$. Then locality of probes should imply that the ways of mapping $U_1$ and $U_2$ into $\mathbf{Y}$ such that these maps agree on the intersection $U_1 \cap_X U_2$, should be equivalent to the ways of mapping all of $X$ into $\mathbf{Y}$. 
+
+$$
+  \text{locality}
+  \;:\;
+  \left\{
+    \array{
+       \text{maps from}\,U_1\,\text{and}\,U_2\,\text{to}\,\mathbf{Y}
+       \\
+       \text{that coincide on}\,U_1 \cap_X U_2
+    }
+  \right\}
+  \;\simeq\;
+  \left\{
+    \text{maps from}\,X\,\text{into}\,\mathbf{Y}
+  \right\}
+$$
+
+One could call this the condition of _locality of probes of generalized spaces probeable by objects of $\mathcal{C}$_. But the established terminology is that this is the _[[sheaf|sheaf condition]] on [[presheaves]] over $\mathcal{C}$_. Those presheaves which satisfy this condition are called the _[[sheaves]]_.
+
+ 
++-- {: .num_remark}
+###### Remark
+**Warning**
+
+Most (if not all) introductions to [[sheaf theory]] insist on motivating the concept from the special case of sheaves on [[topological spaces]]. This is good motivation for what Grothendieck called "[[petit topos]]"-theory. The motivation above, instead, naturally leads to the "[[gros topos]]"-perspective, which is more useful for discussing the [[synthetic differential geometry|synthetic]] [[higher differential geometry|higher]] [[geometry of physics -- supergeometry|supergeometry]] of [[physics]]. In fact, this is the perspective of _[[functorial geometry]]_ that has been highlighted since [Grothendieck 65](functorial+geometry#Grothendieck65), but which has maybe remained underappreciated.
+
+=--
 
 (...)
+
