@@ -50,8 +50,12 @@ In this respect it is worth noticing that core structure of string/M-theory aris
 
 Here we introduce the requisites for understanding these statements.
 
+#Contents#
+* table of contents
+{:toc}
 
-## Categories
+
+## Categories and Functors
 
 +-- {: .num_defn #Categories}
 ###### Definition
@@ -455,6 +459,12 @@ These two statements, expressing categories of [[spaces]] as [[full subcategorie
 
 
 
+
+## Natural transformations and Presheaves
+
+
+
+
 +-- {: .num_defn #NaturalTransformations}
 ###### Definition
 **([[natural transformation]])**
@@ -604,13 +614,18 @@ If a given [[category]] $\mathcal{C}$ (Def. \ref{Categories}) is thought of as a
 
 Namely, imagine a generalized space $\mathbf{X}$ which is at least probe-able by spaces in $\mathcal{C}$. This should mean that for each [[object]] $c \in \mathcal{C}$ there is some [[set]] of geometric maps "$c \to \mathcal{X}$". Here the quotation marks are to warn us that, at this point, $\mathbf{X}$ is not defined yet, and even if it were, it is not expected to be an object of $\mathcal{C}$, so that, at this point, an actual morphism from $c$ to $\mathbf{X}$ is not defined. But we may anyway consider some set
 
-$$
-  \mathbf{X}(c) \;\;\;\; \text{"set of would-be maps from c to X"}
-$$
 
-whose elements we do want to think of maps to $c$ to $X$. 
+\[
+  \label{WouldBeMapsIntoGeneralizedSpace}
+  \mathbf{X}(c)  \; \text{"=}  Hom(c,\mathbf{X})" 
+\]
 
-A minimum consistency condition for this to make sense (we will discuss further conditions later on) is that we may consistently pre-compose the would-be maps from $c$ to $\mathbf{X}$ with actual morphisms $d \overset{f}{\to} c$ in $\mathcal{C}$. This means that for every such morphism there should be a function between these sets of would-be maps
+whose elements we do want to think of maps (homomorphisms of spaces) from $c$ to $X$. 
+
+That this is indeed correct, in that we may remove the quotation remarks on the right, is the statement of the _[[Yoneda lemma]]_, which we discuss as Prop. \ref{YonedaLemma} below.
+
+
+A minimum consistency condition for this to make sense (we will consider further conditions later on when we discuss _[[sheaves]]_) is that we may consistently pre-compose the would-be maps from $c$ to $\mathbf{X}$ with actual morphisms $d \overset{f}{\to} c$ in $\mathcal{C}$. This means that for every such morphism there should be a function between these sets of would-be maps
 
 $$
   \array{
@@ -618,13 +633,10 @@ $$
      \\
      {}^{\mathllap{ f }}\big\downarrow 
        && 
-     \big\uparrow{}^{\mathrlap{ \mathbf{X}(f) }}
+     \big\uparrow{}^{\mathrlap{ \mathbf{X}(f) \, \text{"=}(-)\circ f"}}
      \\
      d && \mathbf{X}(c)
   }
-  \;\;\;\;\;
-  \;\;\;\;
-  \text{would-be pre-composition with f}
 $$
 
 which respects composition and identity morphisms. But in summary, this says that what we have defined thereby is actually a _[[presheaf]]_ on $\mathcal{C}$ (Def. \ref{CategoryOfPresheaves}), namely a functor
@@ -640,7 +652,7 @@ Hence the incarnation of $X \in \mathcal{C}$ as a generalized space probe-able b
 
 At this point, however, a serious consistency condition arises: The "ordinary spaces" now exist as objects of two different categories, on the one hand there is the original $X \in \mathcal{C}$, on the other hand there is its Yoneda image $y(X) \in [\mathcal{C}^{op}, Set]$ in the category of generalized spaces, and we need to know that these two perspectives are compatible, notably that maps $X \to Y$ between ordinary spaces are the same whether viewed in $\mathcal{C}$ or in the more general context of $[\mathcal{C}^{op}, Set]$. 
 
-That this is indeed the case, is the statement of the _[[Yoneda lemma]]_, to which we now turn.
+That this, too, holds true, is the statement of the _[[Yoneda embedding]]_, which we discuss as Prop. \ref{YonedaEmbedding} below.
 
 =--
 
@@ -793,6 +805,8 @@ As shown on the right, the commutativity of this diagram now follows from the [[
 
 =--
 
+spring
+
 As a direct corollary, we obtain the statement of the [[Yoneda embedding]]:
 
 +-- {: .num_prop #YonedaEmbedding}
@@ -870,6 +884,9 @@ and hence it is sufficient to see that this is a [[left inverse]] to (eq:HomFunc
 
 =--
 
+
+
+## Adjunction and duality
 
 
 +-- {: .num_defn #AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}
