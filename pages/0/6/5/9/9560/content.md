@@ -25,6 +25,8 @@ The universal additive split-exact and homotopy-invariant [[localization]] of $C
 
 ## Related concepts
 
+* [[Gelfand duality]]
+
 * [[noncommutative topology]]
 
 * [[homotopical structure on C*-algebras]], [[model structure on operator algebras]]
