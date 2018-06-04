@@ -2,13 +2,17 @@
 +-- {: .rightHandSide}
 +-- {: .toc .clickDown tabindex="0"}
 ###Context###
-#### Quantum field theory
-+--{: .hide}
-[[!include functorial quantum field theory - contents]]
-=--
 #### Physics
 +--{: .hide}
 [[!include physicscontents]]
+=--
+#### Algebraic Quantum Field Theory
++--{: .hide}
+[[!include AQFT and operator algebra contents]]
+=--
+#### Functorial Quantum field theory
++--{: .hide}
+[[!include functorial quantum field theory - contents]]
 =--
 =--
 =--
