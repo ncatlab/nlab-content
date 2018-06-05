@@ -238,7 +238,13 @@ A finite counter-example is given by the category with two objects $A$ and $B$, 
 
 ## The Yoneda lemma in semicategories
 
-An interesting phenomenon arises in the case of [[semicategory|semicategories]]: the Yoneda lemma fails in general, since its validity in a semicategory $\mathcal{G}$ implies that $\mathcal{G}$ is in fact already a category. But for [[regular semicategories]] $\mathcal{R}$ there is a [[unity of opposites]] in the category of all [[semipresheaves]] on $\mathcal{R}$ between the presheaves that are [[colimits]] of [[representable presheaf|representables]] and presheaves satisfying the Yoneda lemma, whence _the Yoneda lemmas holds dialectically for regular presheaves!_ For some of the details see at _[[regular semicategory]]_ and the references therein.
+An interesting phenomenon arises in the case of [[semicategory|semicategories]] i.e. "categories" (possibly) lacking [[identity morphisms]]: 
+
+the Yoneda lemma fails in general, since its validity in a semicategory $\mathcal{G}$ implies that $\mathcal{G}$ is in fact already a category because the Yoneda lemma permits to embed $\mathcal{G}$ into $PrSh(\mathcal{G})$ and the latter is always a category, the embedding then implying that $\mathcal{G}$ is itself a category!
+
+But for [[regular semicategories]] $\mathcal{R}$ there is a [[unity of opposites]] in the category of all [[semipresheaves]] on $\mathcal{R}$ between the so called regular presheaves that are [[colimits]] of [[representable presheaf|representables]] and presheaves satisfying the Yoneda lemma, whence _the Yoneda lemma holds dialectically for regular presheaves!_ 
+
+For some of the details see at _[[regular semicategory]]_ and the references therein.
 
 ## Applications
 
