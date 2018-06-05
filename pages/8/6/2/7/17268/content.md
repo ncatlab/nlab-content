@@ -34,7 +34,7 @@ $sSet_{Quillen}$ and $Top_{Quillen}$, the [[classical model structure on topolog
 There are also other model structures on [[sSet]] itself, see at _[[model structure on simplicial sets]]_ for more. This entry here focuses on just the standard classical model structure.
 
 
-## Background on combinatoral topology
+## Background on combinatorial topology
 
 This section reviews basics of the theory of [[simplicial sets]] (the modern version of the original "combinatorial topology") necessary to define, verify and analyse the classical model category structure on simplicial sets, [below](#TheClassicalModelStructure). See also at _[[simplicial homotopy theory]]_.
 
