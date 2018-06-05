@@ -535,7 +535,7 @@ These two statements, expressing categories of [[spaces]] as [[full subcategorie
 
 
 
-### Natural transformations and Presheaves
+### Natural transformations
 
 
 
