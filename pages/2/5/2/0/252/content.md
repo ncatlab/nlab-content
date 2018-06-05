@@ -63,3 +63,7 @@ Or if $\mathcal{V}$=[[topological spaces]] such that $\mathcal{C}$ is [[topologi
 
 [[!redirects hom-space]]
 [[!redirects hom-spaces]]
+
+[[!redirects object of morphisms]]
+[[!redirects objects of morphisms]]
+
