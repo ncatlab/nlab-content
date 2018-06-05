@@ -293,13 +293,19 @@ Because $U \cap -$ is left adjoint to the external operator $U \Rightarrow -$ on
 
 Normally these results are proved in the context of [[toposes]], where we may say for example that $\Omega$ is an internal [[Boolean algebra]] if and only if the topos is [[Boolean topos|Boolean]]. But as the proofs above indicate, we need only exploit the definition of subobject classifier making reference only to finite limit structure. 
 
-In a topos, the subobject classifier $\Omega$ is always [[injective object|injective]], and, so is the _power object_ $\Omega^X$ for every object $X$. In particular, every object $X$ embeds into an injective object by the singleton monomorphism $X\to\Omega^X$: 'A topos has enough injective objects!'. More generally, injective objects in a topos are percisely the ones that are retracts of some $\Omega^X$ (Cf. [Borceux 1994](#Borceux3), p.315; [Moerdijk-MacLane 1994](#MoerdijkMacLane), p.210).
+In a topos, the subobject classifier $\Omega$ is always [[injective object|injective]], and, so is the _power object_ $\Omega^X$ for every object $X$ (See at [[injective object#Exponential_injectives|injective object]] for some of the details). In particular, every object $X$ embeds into an injective object by the singleton monomorphism $X\to\Omega^X$: 'A topos has enough injective objects!'. More generally, injective objects in a topos are precisely the ones that are retracts of some $\Omega^X$ (Cf. [Borceux 1994](#Borceux3), p.315; [Moerdijk-MacLane 1994](#MoerdijkMacLane), p.210).
 
 ### Johnstone's exercise 
 
-A curiosity from Johnstone's Topos Theory, posed as an exercise, is that any monomorphism $\Omega \to \Omega$ is an isomorphism and even an [[involution]]. Thus $\Omega$ is a [[Hopfian object]]. 
+A curiosity from Johnstone's [Topos Theory](#J77), posed as an exercise, is that any monomorphism $\Omega \to \Omega$ is an isomorphism and even an [[involution]]. Thus $\Omega$ is a [[Hopfian object]]. 
 
 An online proof may be found [here](https://ncatlab.org/toddtrimble/published/Monic+endomorphisms+on+the+subobject+classifier). 
+
+## Categories with a contractible subobject classifier
+
+Suppose a topos $\mathcal{E}$ has a [[connected component|connected components functor]] $\Pi$ left adjoint to $\Delta\dashv \Gamma$ assigning to an object $X$ the set of it connected components. We call $X$ [[connected object|connected]] if $\Pi(X)$ is a singleton and [[contractible space|contractible]] if $\Pi(X^Y)$ is connected for all $Y\in\mathcal{E}$. It can be shown that provided $\Pi$ preserves finite products, $\Omega$ is contractible iff $\Omega$ is connected which in turn implies the same for all other [[injective object|injective objects]] (see at [[sufficiently cohesive topos]]).
+
+Now the subobject classifier $\Omega$ has always two disjoint points $\mathsf{true}$, $\mathsf{false}$ whence provided it is connected we can view it (together with its Heyting algebra structure) has a (highly nonlinear) generalized [[interval object]] and define a notion of homotopy relative to $\Omega$. The intuition here is that truth and falsity are continuously connected in such toposes and blend into each other, endowing (the logic in) $\mathcal{E}$ with a certain Hegelian flavor. The contractability of $\Omega$ was taken as a key property of a [[gros topos]] of spaces by [[William Lawvere]]. Further information on this particular class of [[cohesive topos|cohesive toposes]] and discussion of properties of $\Omega$ relevant in this context is at [[sufficiently cohesive topos]].
 
 ## Categories without subobject classifiers
 
@@ -373,15 +379,33 @@ Whereas for 1-toposes the _subobject classifier_ is the key structural ingredien
 
 * [[classifying morphism]]
 
+* [[sufficiently cohesive topos]]
+
+* [[localic topos]]
+
 
 ## References#
 
+The concept was introduced in
+
+* [[William Lawvere]], _Quantifiers and sheaves_ , Actes Congrès intern. math. **1** (1970), pp.329-334. ([pdf](http://www.mathunion.org/ICM/ICM1970.1/Main/icm1970.1.0329.0334.ocr.pdf)) 
+
+Discussion of the concept can be found in the usual suspects
+
 * [[Francis Borceux]], _Handbook of Categorical Algebra 3_ , Cambridge UP 1994. {#Borceux3}
+
+* {#Goldblatt84} R. Goldblatt, *Topoi - The Categorical Analysis of Logic*, 2nd ed. North-Holland Amsterdam 1984. (Dover reprint New York 2006; [project euclid](http://projecteuclid.org/euclid.bia/1403013939))
+
+* {#J77}[[Peter Johnstone]], _Topos Theory_ , Academic Press New York 1977.
 
 * [[Peter Johnstone]], _Sketches of an Elephant I_ , Oxford UP 2002.
 
 * [[Saunders MacLane]], [[Ieke Moerdijk]], _[[Sheaves in Geometry and Logic]]_ , Springer Heidelberg 1994. (section I.3-4)
  {#MacLaneMoerdijk}  
 
+See also
+
+* [[Francis Borceux]], _When is $\Omega$ a cogenerator in a topos ?_ , Cah. Top. Géom. Diff. Cat. **XVI** no.1 (1975) pp.3-15. ([numdam](http://www.numdam.org/item?id=CTGDC_1975__16_1_3_0
+))
 
 [[!redirects subobject classifiers]]
