@@ -62,9 +62,10 @@ An [[infinity-cosmos]] is a "good place in which to do higher category theory" a
 
 ## Bibliography
 
-* Street, Ross. "Elementary cosmoi I." *Category Seminar*. Springer, Berlin, Heidelberg, 1974.
-* Street, Ross. "Cosmoi of internal categories." Transactions of the American Mathematical Society 258.2 (1980): 271-318.
-* Street, Ross. "Cauchy characterization of enriched categories." Rend. Sem. Mat. Fis. Milano 51 (1981): 217-233. ([pdf](http://emis.ams.org/journals/TAC/reprints/articles/4/tr4.pdf))
+* [[Ross Street]],  _Elementary cosmoi I.  *Category Seminar*. Springer, Berlin, Heidelberg, 1974.
+* [[Ross Street]],  _Cosmoi of internal categories_, Transactions of the American Mathematical Society 258.2 (1980): 271-318.
+
+* [[Ross Street]], _Cauchy characterization of enriched categories_, Rend. Sem. Mat. Fis. Milano 51 (1981): 217-233. ([pdf](http://emis.ams.org/journals/TAC/reprints/articles/4/tr4.pdf))
 
 [[!redirects cosmoi]]
 [[!redirects Benabou cosmos]]
