@@ -105,7 +105,7 @@ The following two papers contain Lawvere's early view of a trichotomy between bi
 
 * {#Law89a} [[F. W. Lawvere]], _Qualitative Distinctions between some Toposes of Generalized Graphs_ , Cont. Math. **92** (1989) pp.261-299.
 
-* {#Law91a} [[F. W. Lawvere]], _Some Thoughts on the Future of Category Theory_ , pp.1-13 in Springer LNM **1488** (1991).
+* {#Law91a} [[F. W. Lawvere]], _[[Some Thoughts on the Future of Category Theory]]_ , pp.1-13 in Springer LNM **1488** (1991).
 
 The left and right adjoint to the global section functor as a means to identify discrete and codiscrete spaces respectively is also mentioned in
 
