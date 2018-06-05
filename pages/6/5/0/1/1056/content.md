@@ -64,7 +64,7 @@ A correction to this article was made in
 
 * [[Denis-Charles Cisinski]], _Les morphisme de Dwyer ne sont pas stables par r&eacute;tractes_, Cahiers Topologie et G&eacute;om. Diff&eacute;rentielle Cat&eacute;goriques, **40** no. 3 (1999), pp. 227--231. ([Numdam](http://www.numdam.org/item?id=CTGDC_1999__40_3_227_0))
 
-There it was clarified that every cofibrant object in the Thomason model structure is a [[poset]]. 
+There it was clarified that every cofibrant object in the Thomason model structure is a [[poset]] (although this is already explicitly mentioned in Thomason's paper -- see the beginning of section 5). 
 
 A useful review of the Thomason model structure and a generalization of the model structure to [[n-fold category|n-fold categories]] is given in 
 
