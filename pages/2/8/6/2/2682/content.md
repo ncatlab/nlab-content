@@ -207,9 +207,12 @@ Review includes
 
 The specific (but arbitrary) value  "$10^{500}$" for the typical number of flux compactification, which became iconic in public discussion of the issue, originates in 
 
-* {#Douglas04} [[Michael Douglas]], _Basic results in vacuum statistics_, Comptes Rendus Physique, vol. 5, pp. 965&#8211;977, 2004 ([arXiv:hep-th/0409207](http://arxiv.org/abs/hep-th/0409207))
+* {#Douglas04} [[Michael Douglas]], p. 4 of _Basic results in vacuum statistics_, Comptes Rendus Physique, vol. 5, pp. 965&#8211;977, 2004 ([arXiv:hep-th/0409207](http://arxiv.org/abs/hep-th/0409207))
 
 * [[Ralph Blumenhagen]], [[Florian Gmeiner]], [[Gabriele Honecker]], [[Dieter Lüst]], [[Timo Weigand]], p.3 of _The Statistics of Supersymmetric D-brane Models_, Nucl.Phys.B713:83-135, 2005 ([arXiv:hep-th/0411173](http://arxiv.org/abs/hep-th/0411173))
+
+* [[Michael Douglas]], [[Shamit Kachru]], p. 55 of _Flux Compactification_, Rev.Mod.Phys.79:733-796,2007 ([arXiv:hep-th/0610102](https://arxiv.org/abs/hep-th/0610102))
+
 
 Previously 
 
