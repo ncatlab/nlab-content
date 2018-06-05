@@ -16,7 +16,7 @@
 
 
 #Contents#
-* automatic table of contents goes here
+* table of contents
 {:toc}
 
 ## Idea
@@ -29,7 +29,7 @@ There are a number of different, inequivalent, definitions of "cosmos" in the li
 
 ## B&#233;nabou's definition
 
-Jean B&#233;nabou\'s original definition was that a **cosmos** $V$ is a [[complete category|complete]] and [[cocomplete category|cocomplete]] [[closed monoidal category|closed]] [[symmetric monoidal category]].  This is an ideal situation for studying categories [[enriched category|enriched]] over $V$.
+[[Jean Bénabou]]'s original definition (see [Street 74, p. 1](#Street74)) was that a **cosmos** $V$ is a [[complete category|complete]] and [[cocomplete category|cocomplete]] [[closed monoidal category|closed]] [[symmetric monoidal category]].  This is an ideal situation for studying categories [[enriched category|enriched]] over $V$.
 
 ## Indexed B&eacute;nabou cosmoi
 
@@ -53,7 +53,9 @@ In his paper "Cauchy characterization of enriched categories," Street instead de
 
 * Small ([[2-limit|weak, or bi-]]) [[coproduct]]s exist.
 * Each [[monad]] admits a [[Kleisli construction]] (analogous to the [[exact category|exactness]] of a topos).
+
 * It is locally small-[[cocomplete category|cocomplete]], i.e. its hom-categories have small colimits that are preserved by composition on each side.
+
 * There exists a small "Cauchy generator".
 
 These hypotheses imply that it is equivalent to the bicategory of categories and [[profunctors]] [[enriched category|enriched]] over some "base" *bicategory*.  (Note the generalization from enrichment over a monoidal category to enrichment over a bicategory.)
@@ -66,13 +68,19 @@ An [[infinity-cosmos]] is a "good place in which to do higher category theory" a
 
 ## Bibliography
 
-* [[Ross Street]],  _Elementary cosmoi I.  *Category Seminar*. Springer, Berlin, Heidelberg, 1974.
+Apparently there is no written account by [[Jean Bénabou]] of his definition of cosmos. One finds it recounted in [Street 74, p. 1](#Street74):
+
+> to J. Benabou the word means "bicomplete symmetric monoidal category", such categories $\mathcal{V}$ being rich enough so that the theory of categories enriched in  $\mathcal{V}$ develops to a large extent just as the theory of ordinary categories.
+
+* {#Street74} [[Ross Street]],  _Elementary cosmoi I.  *Category Seminar*. Springer, Berlin, Heidelberg, 1974. ([publisher](https://link.springer.com/chapter/10.1007%2FBFb0063103))
+
 * [[Ross Street]],  _Cosmoi of internal categories_, Transactions of the American Mathematical Society 258.2 (1980): 271-318.
 
 * [[Ross Street]], _Cauchy characterization of enriched categories_, Rend. Sem. Mat. Fis. Milano 51 (1981): 217-233. ([pdf](http://emis.ams.org/journals/TAC/reprints/articles/4/tr4.pdf))
 
-* [[Mike Shulman]], *Enriched indexed categories*, [TAC](http://www.tac.mta.ca/tac/volumes/28/21/28-21abs.html) 2013
- {#Shulman13}
+* {#Shulman13} [[Mike Shulman]], *Enriched indexed categories*, [TAC](http://www.tac.mta.ca/tac/volumes/28/21/28-21abs.html) 2013
+ 
+
 
 [[!redirects cosmoi]]
 [[!redirects Benabou cosmos]]
