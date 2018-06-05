@@ -1597,7 +1597,8 @@ such that
 
 * for every [[covering]] $\left\{ U_i \overset{\iota_i}{\to} X \right\}_{i \in I}$ of $X$ and every [[morphism]] $Y \overset{f}{\longrightarrow} X$ there exists a _refining covering_ $\left\{ V_j \overset{\iota_j}{\to} Y \right\}_{j \in J}$ of $Y$, meaning that for each $j \in J$ there exists $i \in I$ and a morphism $V_j \overset{\iota_{j,i}}{\to} U_i$ such that
 
-  $$
+  \[
+    \label{ConditionOnCoverage}
     f \circ \iota_j
      \;=\;
     \iota_i \circ \iota_{j,i}
@@ -1613,11 +1614,28 @@ such that
       \\
       Y &\underset{f}{\longrightarrow}& X
     }
-  $$ 
+  \] 
 
 A [[small category]] $\mathcal{C}$ equipped with a [[coverage]] is called a _[[site]]_.
 
 =--
+
++-- {: .num_example #DifferentiablyGoodOpenCoversOfSmoothManifolds}
+###### Example
+**(differentiably [[good open covers]] of [[smooth manifolds]])**
+
+The [[category]] [[SmthMfd]] of [[smooth manifold]] (Example \ref{ExamplesOfConcreteCategories}) carries a [[coverage]] (Def. \ref{Coverage}), where for $X \in SmthMfd$ any [[smooth manifold]] of [[dimension]] $D \in \mathbb{N}$, its [[coverings]] are collections of [[smooth functions]] from the [[Cartesian space]] $\mathbb{R}^D$ to $X$ whose [[image]] is the inclusion of an [[open ball]].
+
+Hence these are the usual _[[open covers]]_ of $X$, but with the extra condition that every pathch is [[diffeomorphism|diffeomorphic]] to a Cartesian space (hence to a smooth [[open ball]]).
+
+One may further constrain this and ask that also all the non-empty finite [[intersections]] of these open balls are [[diffeomorphism|diffeomorphic]] to open balls. These are the _differentiably [[good open covers]]_.
+
+To see that these coverings satisfy the condition (eq:ConditionOnCoverage): The plain pullback of an [[open cover]] along any continuous function is again an open cover, just not necessarily by patches diffeomorphic to open balls. But every open cover may be _refined_ by one that is (see at _[[good open cover]]_), and this is sufficient for (eq:ConditionOnCoverage). 
+
+=--
+
+Example \ref{DifferentiablyGoodOpenCoversOfSmoothManifolds} is further developed in the chapter _[[geometry of physics -- smooth homotopy types|on smooth homotopy types]]_.
+
 
 +-- {: .num_prop #CompatibleElements}
 ###### Definition
@@ -1730,8 +1748,10 @@ The presheaf $\mathbf{Y}$ is called a _[[sheaf]]_ if for every [[object]] $X \in
   \,.
 \]
 
-
 =--
+
+
+
 
 (...)
 
