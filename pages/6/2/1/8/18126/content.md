@@ -6473,10 +6473,10 @@ $\,$
 
 A _[[free diagram]]_ $X_\bullet$ of [[sets]] or of [[topological spaces]] is
 
-1. a [[set]] $\{ X_i \}_{i \in I}$ of [[sets]] or of [[topological spaces]], respectively;
+1. an [[indexed set]] $\{ X_i \}_{i \in I}$ of [[sets]] or of [[topological spaces]], respectively;
 
 1. for every [[pair]] $(i,j) \in I \times I$ of labels, a [[set]]
-   $\{ X_i \overset{ f_\alpha }{\longrightarrow} X_j\}_{\alpha \in I_{i,j}}$ of [[functions]] of of [[continuous functions]], respectively, between these.
+   $\{ X_i \overset{ f_\alpha }{\longrightarrow} X_j\}_{\alpha \in I_{i,j}}$ of [[functions]] of [[continuous functions]], respectively, between these.
 
 =--
 
