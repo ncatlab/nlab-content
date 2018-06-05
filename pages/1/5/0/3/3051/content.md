@@ -26,6 +26,8 @@ Jean B&#233;nabou is a French mathematician working in [[category theory]]. He s
 
 * [[Grothendieck fibration]]
 
+* [[cosmos]]
+
 category: people
 
 [[!redirects Jean Bénabou]]
