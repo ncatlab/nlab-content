@@ -230,21 +230,15 @@ The Yoneda lemma tends to carry over to all important generalizations of the con
 
 * Formulation of the lemma in [[dependent type theory]]: [A type theoretical Yoneda lemma](http://homotopytypetheory.org/2012/05/02/a-type-theoretical-yoneda-lemma/) at [homotopytypetheory.org](http://homotopytypetheory.org)
 
-## Related constructions
-
-* [[Yoneda reduction]]
-
-* [[co-Yoneda lemma]]
-
-* [[Brown representability theorem]]
-
-* [[continuation-passing style]]
-
 ## Necessity of naturality
 
 The assumption of naturality is necessary for the Yoneda lemma to hold. A simple counter-example is given by a category with two objects $A$ and $B$, in which $Hom(A,A) = Hom(A,B) = Hom(B,B) = \mathbb{Z}_{\geq 0}$, the set of integers greater than or equal to $0$, in which $Hom(B,A) = \mathbb{Z}_{\geq 1}$, the set of integers greater than or equal to $1$, and in which composition is addition. Here it is certainly the case that $Hom(A,-)$ is isomorphic to $Hom(B,-)$ for any choice of $-$, but $A$ and $B$ are not isomorphic (composition with any arrow $B \rightarrow A$ is greater than or equal to $1$, so cannot have an inverse, since $0$ is the identity on $A$ and $B$).
 
 A finite counter-example is given by the category with two objects $A$ and $B$, in which $Hom(A,A) = Hom(A,B) = Hom(B,B) = \{0, 1\}$, in which $Hom(B,A) = \{0, 2\}$, and composition is multiplication modulo 2. Here, again, it is certainly the case that $Hom(A,-)$ is isomorphic to $Hom(B,-)$ for any choice of $-$, but $A$ and $B$ are not isomorphic (composition with any arrow $B \rightarrow A$ is $0$, so cannot have an inverse, since $1$ is the identity on $A$ and $B$).
+
+## The Yoneda lemma in semicategories
+
+An interesting phenomenon arises in the case of [[semicategory|semicategories]]: the Yoneda lemma fails in general since its validity in a semicategory $\mathcal{G}$ implies that $\mathcal{G}$ is in fact already a category but for [[regular semicategory|regular semicategories]] $\mathcal{R}$ there is a [[unity of opposites]] in the category of all [[semipresheaf|semipresheaves]] on $\mathcal{R}$ between the presheaves that are colimits of representables and presheaves satisfying the Yoneda lemma whence _the Yoneda lemmas holds dialectically for regular presheaves!_ For some of the details see at [[regular semicategory]] and the references therein.
 
 ## Applications
 
@@ -253,6 +247,20 @@ A finite counter-example is given by the category with two objects $A$ and $B$, 
 * In its incarnations as [[Yoneda reduction]] the Yoneda lemma governs the algebra of [[end]]s and [[coend]]s and hence that of [[bimodule]]s and [[profunctor]]s.
 
 * The Yoneda lemma is effectively the reason that [[Isbell conjugation]] exists. This is a fundamental duality that relates [[geometry]] and [[algebra]] in large part of mathematics.
+
+## Related entries
+
+* [[Yoneda reduction]]
+
+* [[co-Yoneda lemma]]
+
+* [[Yoneda structure]]
+
+* [[Brown representability theorem]]
+
+* [[continuation-passing style]]
+
+* [[regular semicategory]]
 
 ## References
 
