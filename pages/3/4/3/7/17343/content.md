@@ -7212,7 +7212,7 @@ $$
   F \;\colon\; \mathcal{C} \longrightarrow Top_{cg}
 $$
 
-to the archetical topologically enriched category from example \ref{TopkAsATopologicallyEnrichedCategory} may be thought of as a topologically enriched [[copresheaf]], at least if $\mathcal{C}$ is [[small category|small]] (in that its [[class]] of objects is a proper [[set]]).
+to the archetypical topologically enriched category from example \ref{TopkAsATopologicallyEnrichedCategory} may be thought of as a topologically enriched [[copresheaf]], at least if $\mathcal{C}$ is [[small category|small]] (in that its [[class]] of objects is a proper [[set]]).
 
 Hence the category of topologically enriched functors
 
@@ -7486,7 +7486,9 @@ $$
   \array{
     \{id_c\} \times X &\overset{\eta_c}{\longrightarrow}& F(c)
     \\
-    {}^{\mathllap{\mathcal{C}(c,f)}}\downarrow && \downarrow^{\mathrlap{F}(f)}
+    {}^{\mathllap{\mathcal{C}(c,f)}}\downarrow 
+      && 
+    \downarrow^{\mathrlap{F(f)}}
     \\
     \{f\} \times X &\underset{\eta_d}{\longrightarrow}& F(d)
   }
