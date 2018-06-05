@@ -50,7 +50,7 @@ Note that when $S=Top$ with its local-homeomorphism topology, there is a canonic
 
 * One proposed axiomatization of the notion of big topos is that of a [[cohesive topos]].
 
-* In his early papers in the 80s, [[Lawvere]] emphasized the existence of a contractible [[subobject classifier]], a concept which together with the [[adjoint quadruple]] goes under the name [[sufficiently cohesive topos]] in the later axiomatization (modulo some footprint).
+* In his early papers in the 80s, [[Lawvere]] emphasized the existence of a contractible [[subobject classifier]], a concept which together with the [[adjoint quadruple]] goes under the name [[sufficiently cohesive topos]] in the later axiomatization (modulo some fineprint).
 
 ## Examples
 
