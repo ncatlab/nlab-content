@@ -67,7 +67,7 @@ A _[[category]]_ $\mathcal{C}$ is
 
 1. a [[class]] $Obj_{\mathcal{C}}$, called the _class of [[objects]]_;
 
-1. for each [[pair]] $X,Y \in Obj_{\mathcal{C}}$ of [[objects]], a [[set]] $Hom_{\mathcal{C}}(X,Y)$, called the _[[set of morphisms]] from $X$ to $Y$_.
+1. for each [[pair]] $X,Y \in Obj_{\mathcal{C}}$ of [[objects]], a [[set]] $Hom_{\mathcal{C}}(X,Y)$, called the _[[set of morphisms]] from $X$ to $Y$_, of the _[[hom-set]]_, for short.
 
    We denote the elements of this set by arrows like this:
 
@@ -2233,6 +2233,24 @@ to pick $id_1 \in Hom_{\mathcal{V}}(1,1)$.
 
 =--
 
++-- {: .num_example #UnderlyingSetOfInternalHomIsHomSet}
+###### Example
+*(underlying set of [[internal hom]] is [[hom-set]])**
+
+For $\mathcal{V}$ a [[cosmos]] (Def. \ref{Cosmos}), let $X,Y \in Obj_{\mathcal{V}}$ be two [[objects]]. Then the underlying set (Def. \ref{ChangeOfCosmosFromVToSet}) of their [[internal hom]] $[X,Y] \in \mathcal{V}$ (Def. \ref{ClosedMonoidalCategory}) is the [[hom-set]] (Def. \ref{Categories}):
+
+$$
+  \mathcal{Hom}_{\mathcal{V}}\left( 1, [X,Y]\right)
+  \;\simeq\;
+  Hom_{\mathcal{V}}(X,Y)
+  \,.
+$$
+
+This identification is the adjunction isomorphism (eq:HomIsomorphismForAdjointFunctors) for the internal hom adjunction (eq:InternalHomAdjunction) followed composed with a [[unitor]] (Def. \ref{MonoidalCategory}).
+
+=--
+
+
 +-- {: .num_defn #TopEnrichedCategory}
 ###### Definition
 **([[enriched category]])**
@@ -2624,7 +2642,8 @@ is
 
   such that for each [[pair]] of [[objects]] $c,d \in \mathcal{C}$ the two [[morphisms]] (in $\mathcal{V}$)
 
-$$
+\[
+  \label{OneComposite}
   \eta_d \circ F(-) 
    \;\colon\; 
   \mathcal{C}(c,d)
@@ -2634,11 +2653,12 @@ $$
   \mathcal{D}(G(c),G(d)) \otimes \mathcal{D}( F(c), G(c) ) 
     \overset{\circ_{F(c), G(c), G(d)}}{\longrightarrow} 
   \mathcal{D}(F(c), G(d))
-$$
+\]
 
 and
 
-$$
+\[
+  \label{OtherComposite}
   G(-) \circ \eta_c 
     \;\colon\; 
   \mathcal{C}(c,d) 
@@ -2648,20 +2668,37 @@ $$
   \mathcal{D}(F(d), G(d)) \otimes \mathcal{D}(F(c), F(d))
     \overset{\circ_{F(c),F(d), G(d)}}{\longrightarrow}
   \mathcal{D}(F(c), G(d))
-$$
+\]
 
 agree.
 
 =--
 
++-- {: .num_example #CategoryOfEnrichedFunctors}
+###### Example
+**([[functor category]] of [[enriched functors]])**
 
+For $\mathcal{V}$ a [[cosmos]] (Def. \ref{Cosmos})
+let $\mathcal{C}$, $\mathcal{D}$ be two $\mathcal{V}$-[[enriched categories]] (Def. \ref{TopEnrichedCategory}). Then there is a [[category]] (Def. \ref{Categories}) of [[enriched functors]] (Def. \ref{TopologicallyEnrichedFunctor}), to be denoted
+
+$$
+  [\mathcal{C}, \mathcal{D}]
+$$
+
+whose [[objects]] are the [[enriched functors]] $\mathcal{C} \overset{F}{\to} \mathcal{D}$ and whose [[morphisms]] are the [[enriched natural transformations]] between these (Def. \ref{EnrichedNaturalTransformation}).
+
+In the case that $\mathcal{V} = $ [[Set]], via Def. \ref{ExamplesOfCosmoi}, with $Set$-enriched categories identified with plain categories via Example \ref{SetEnrichedCategoriesArePlainCategories], this coincides with the [[functor category]] from Example \ref{FunctorCategory}.
+
+Notice that, at this point, $[\mathcal{C}, \mathcal{D}]$ is a plain [[category]], not itself a $\mathcal{V}$-[[enriched category]], unless $\mathcal{V} = $ [[Set]]. But it may be enhanced to one, this is Def. \ref{PointedTopologicalFunctorCategory} below.
+
+=--
 
 +-- {: .num_defn #TensoringAndPoweringOfTopologicallyEnrichedCopresheaves}
 ###### Definition
 
-Let $\mathcal{C}$ be a $\mathcal{V}$-[[enriched category]], def. \ref{TopEnrichedCategory}, with $[\mathcal{C}, \mathcal{V}]$ its category of enriched copresheaves from example \ref{TopologicallyEnrichedFunctorsToTopk}.
+Let $\mathcal{C}$ be a $\mathcal{V}$-[[enriched category]], def. \ref{TopEnrichedCategory}, with $[\mathcal{C}, \mathcal{V}]$ its [[functor category]] of [[enriched functors]] (Example \ref{CategoryOfEnrichedFunctors}).
 
-1. Define a functor
+1. Define a [[functor]]
 
    $$
      (-)\cdot(-)
@@ -2850,6 +2887,7 @@ $$
 
 +-- {: .num_example #NaturalTransformationsViaEnds}
 ###### Example
+**([[enriched natural transformations]] as [[ends]])**
 
 Let $\mathcal{C}$ be a [[small category|small]] [[enriched category]] (Def. \ref{TopEnrichedCategory}). For
 $
@@ -2908,46 +2946,12 @@ $$
       \mathcal{C}(c,d),
       [F(c),G(d)]
     )
-  \,.
+ \,,
 $$
 
-Here the object in the middle is just the set of collections of component morphisms $\left\{ F(c)\overset{\eta_c}{\to} G(c)\right\}_{c\in \mathcal{C}}$. The two parallel maps in the equalizer diagram take such a collection to the functions which send any $c \overset{f}{\to} d$ to the result of precomposing
+where we used Example \ref{UnderlyingSetOfInternalHomIsHomSet} to identify underlying sets of internal homs with [[hom-sets]].
 
-$$
-  \array{
-    F(c)
-    \\
-    {}^{\mathllap{f(f)}}\downarrow
-    \\
-    F(d) &\underset{\eta_d}{\longrightarrow}& G(d)
-  }
-$$
-
-and of postcomposing
-
-$$
-  \array{
-    F(c) &\overset{\eta_c}{\longrightarrow}& G(c)
-    \\
-    && \downarrow^{\mathrlap{G(f)}}
-    \\
-    && G(d)
-  }
-$$
-
-each component in such a collection, respectively. These two functions being equal, hence the collection $\{\eta_c\}_{c\in \mathcal{C}}$ being in the equalizer, means precisley that for all $c,d$ and all $f\colon c \to d$ the square
-
-$$
-  \array{
-    F(c) &\overset{\eta_c}{\longrightarrow}& G(c)
-    \\
-    {}^{\mathllap{F(f)}}\downarrow && \downarrow^{\mathrlap{G(f)}}
-    \\
-    F(d) &\underset{\eta_d}{\longrightarrow}& G(g)
-  }
-$$
-
-is a [[commuting square]]. This is precisley the condition that the collection $\{\eta_c\}_{c\in \mathcal{C}}$ be a [[natural transformation]].
+Here the object in the middle is just the set of [[indexed sets]] of component morphisms $\left\{ F(c)\overset{\eta_c}{\to} G(c)\right\}_{c\in \mathcal{C}}$. The two parallel maps in the equalizer diagram take such a collection to the [[indexed set]] of composites (eq:OneComposite) and (eq:OtherComposite). Hence that these two are equalized is precisely the condition that the indexed set of components constitutes an [[enriched natural transformation]].
 
 =--
 
@@ -2956,74 +2960,80 @@ Conversely, example \ref{NaturalTransformationsViaEnds} says that [[ends]] over 
 
 +-- {: .num_defn #PointedTopologicalFunctorCategory}
 ###### Definition
+**([[enriched functor category]])**
 
-Let $\mathcal{C}$ be a [[small category|small]] pointed [[topologically enriched category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopEnrichedCategory)). Define the structure of a pointed [[topologically enriched category]] on the category $[\mathcal{C}, Top_{cg}^{\ast/}]$ of pointed [[topologically enriched functors]] to $Top^{\ast/}_{cg}$ ([exmpl.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctorsToTopk)) by taking the [[hom-spaces]] to be given by the [[ends]] (def. \ref{EndAndCoendInTopcgSmash}) of example \ref{NaturalTransformationsViaEnds}:
+For $\mathcal{V}$ a [[cosmos]] (Def. \ref{Cosmos}), let $\mathcal{C}$ be a [[small category|small]] $\mathcal{V}$-[[enriched category]]. 
 
-$$
-  [\mathcal{C},Top^{\ast/}_{cg}](F,G)
-    \;\coloneqq\;
-  \int_{c\in \mathcal{C}} Maps(F(c),G(c))_\ast
-$$
+Then the $\mathcal{V}$-[[enriched functor category]] $[\mathcal{C}, \mathcal{V}]$ is the following $\mathcal{V}$-[[enriched category]] (Def. \ref{TopEnrichedCategory})
 
-The [[composition]] operation on these is defined to be the one induced by the composite maps
+1. the [[objects]] are the $\mathcal{C}$-[[enriched functors]] $\mathcal{C} \overset{F}{\to}\mathcal{V}$ (Def. \ref{TopologicallyEnrichedFunctor});
 
-$$
-  \left(
-    \underset{c\in \mathcal{C}}{\int} Maps(F(c),G(c))_\ast
-  \right)
-  \otimes
-  \left(
-    \underset{c \in \mathcal{C}}{\int} Maps(G(c),H(c))_\ast
-  \right)
-    \overset{}{\longrightarrow}
-  \underset{c\in \mathcal{C}}{\prod}
-    Maps(F(c),G(c))_\ast \otimes Maps(G(c),H(c))_\ast
-  \overset{(\circ_{F(c),G(c),H(c)})_{c\in \mathcal{C}}}{\longrightarrow}
-  \underset{c \in \mathcal{C}}{\prod}
-    Maps(F(c),H(c))_\ast
-  \,,
-$$
+1. the [[hom-objects]] are the [[ends]]
 
-where the first, morphism is degreewise given by projection out of the limits that defined the ends. This composite evidently equalizes the two relevant adjunct actions (as in the proof of example \ref{NaturalTransformationsViaEnds}) and hence defines a map into the end
+   \[
+     \label{HomObjectOfEnrichedFunctorCategoryViaEnd}
+     [\mathcal{C},Top^{\ast/}_{cg}](F,G)
+       \;\coloneqq\;
+     \int_{c\in \mathcal{C}} [F(c),G(c)]
+   \]
 
-$$
-    \left(
-    \underset{c\in \mathcal{C}}{\int} Maps(F(c),G(c))_\ast
-  \right)
-  \otimes
-  \left(
-    \underset{c \in \mathcal{C}}{\int} Maps(G(c),H(c))_\ast
-  \right)
-  \longrightarrow
-  \underset{c\in \mathcal{C}}{\int} Maps(F(c),H(c))_\ast
-  \,.
-$$
+1. the [[composition]] operation on these is defined to be the one induced by the composite maps
 
+   $$
+     \left(
+       \underset{c\in \mathcal{C}}{\int} [F(c),G(c)]
+     \right)
+     \otimes
+     \left(
+       \underset{c \in \mathcal{C}}{\int} [G(c),H(c)]
+     \right)
+       \overset{}{\longrightarrow}
+     \underset{c\in \mathcal{C}}{\prod}
+       [F(c),G(c)] \otimes [G(c),H(c)]
+     \overset{(\circ_{F(c),G(c),H(c)})_{c\in \mathcal{C}}}{\longrightarrow}
+     \underset{c \in \mathcal{C}}{\prod}
+       [F(c),H(c)]
+     \,,
+   $$
 
-The resulting pointed [[topologically enriched category]] $[\mathcal{C},Top^{\ast/}_{cg}]$ is also called the **$Top^{\ast/}_{cg}$-[[enriched functor category]]** over $\mathcal{C}$ with coefficients in $Top^{\ast/}_{cg}$.
+   where the first morphism is degreewise given by projection out of the limits that defined the ends. This composite evidently equalizes the two relevant adjunct actions (as in the proof of example \ref{NaturalTransformationsViaEnds}) and hence defines a map into the end
+
+   $$
+       \left(
+       \underset{c\in \mathcal{C}}{\int} [F(c),G(c)]
+     \right)
+     \otimes
+     \left(
+       \underset{c \in \mathcal{C}}{\int} [G(c),H(c)]
+     \right)
+     \longrightarrow
+     \underset{c\in \mathcal{C}}{\int} [F(c),H(c)]
+     \,.
+   $$
+
+By Example \ref{NaturalTransformationsViaEnds}, the underlying plain category (Example \ref{UnderlyingCategoryOfTopEnrichedCategory}) of this [[enriched functor category]] is the plain [[functor category]] of [[enriched functors]] from Example \ref{CategoryOfEnrichedFunctors}.
 
 =--
 
-This yields an equivalent formulation in terms of ends of the pointed topologically [[enriched Yoneda lemma]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedYonedaLemma)):
 
 +-- {: .num_prop #YonedaReductionTopological}
 ###### Proposition
-**(topologically [[enriched Yoneda lemma]])**
+**([[enriched Yoneda lemma]])**
 
-Let $\mathcal{C}$ be a [[small category|small]] pointed [[topologically enriched categories]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopEnrichedCategory)). For $F \colon \mathcal{C}\to Top^{\ast/}_{cg}$ a pointed [[topologically enriched functor]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctor)) and for $c\in \mathcal{C}$ an object, there is a [[natural isomorphism]]
+For $\mathcal{V}$ a [[cosmos]] (Def. \ref{Cosmos}) let $\mathcal{C}$ be a [[small category|small]] [[enriched category]] (Def. \ref{TopEnrichedCategory}). For $F \colon \mathcal{C} \to \mathcal{V}$ an [[enriched presheaf]] (Example \ref{EnrichedPresheaf}) and for $c\in \mathcal{C}$ an [[object]], there is a [[natural isomorphism]]
 
 $$
-  [\mathcal{C}, Top^{\ast/}_{cg}](\mathcal{C}(c,-),\; F)
+  [\mathcal{C}, \mathcal{V}](\mathcal{C}(c,-),\; F)
   \;\simeq\;
   F(c)
 $$
 
-between the [[hom-space]] of the pointed topological functor category, according to def. \ref{PointedTopologicalFunctorCategory}, from the [[representable functor|functor represented]] by $c$ to $F$, and the value of $F$ on $c$.
+between the [[hom-object]] of the [[enriched functor category]] (Def. \ref{PointedTopologicalFunctorCategory}), from the [[representable functor|functor represented]] by $c$ to $F$, and the value of $F$ on $c$.
 
-In terms of the [[ends]] (def. \ref{EndAndCoendInTopcgSmash}) defining these [[hom-spaces]], this means that
+In terms of the [[ends]] (def. \ref{EndAndCoendInTopcgSmash}) defining these [[hom-objects]] (eq:HomObjectOfEnrichedFunctorCategoryViaEnd), this means that
 
 $$
-  \underset{d\in \mathcal{C}}{\int} Maps(\mathcal{C}(c,d), F(d))_\ast
+  \underset{d\in \mathcal{C}}{\int} [\mathcal{C}(c,d), F(d)]
     \;\simeq\;
   F(c)
   \,.
@@ -3035,13 +3045,13 @@ In this form the statement is also known as **[[Yoneda reduction]]**.
 
 The **proof** of prop. \ref{YonedaReductionTopological} is [[formal dual|formally dual]] to the proof of the next prop. \ref{TopologicalCoYonedaLemma}.
 
-Now that [[natural transformations]] are expressed in terms of [[ends]] (example \ref{NaturalTransformationsViaEnds}), as is the Yoneda lemma (prop. \ref{YonedaReductionTopological}), it is natural to consider the [[formal duality|dual]] statement involving [[coends]]:
+Now that [[natural transformations]] are expressed in terms of [[ends]] (example \ref{NaturalTransformationsViaEnds}), as is the [[enriched Yoneda lemma]] (prop. \ref{YonedaReductionTopological}), it is natural to consider the [[formal duality|dual]] statement involving [[coends]]:
 
 +-- {: .num_prop #TopologicalCoYonedaLemma}
 ###### Proposition
 **([[co-Yoneda lemma]])**
 
-Let $\mathcal{C}$ be a [[small category|small]] pointed [[topologically enriched category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopEnrichedCategory)). For $F \colon \mathcal{C}\to Top^{\ast/}_{cg}$ a pointed [[topologically enriched functor]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctor)) and for $c\in \mathcal{C}$ an object, there is a [[natural isomorphism]]
+For $\mathcal{V}$ a [[cosmos]] (Def. \ref{Cosmos}), let $\mathcal{C}$ be a [[small category|small]] $\mathcal{V}$-[[enriched category]] (Def. \ref{TopEnrichedCategory}). For $F \colon \mathcal{C}\to \mathcal{V}$ an [[enriched presheaf]] (Def. \ref{EnrichedPresheaf}) and for $c\in \mathcal{C}$ an [[object]], there is a [[natural isomorphism]]
 
 $$
   F(-)
@@ -3059,7 +3069,7 @@ $$
   F(d)
 $$
 
-which is [[adjunct]] to the component map $\mathcal{C}(d,c) \to Maps(F(c),F(d))_{\ast}$ of the [[topologically enriched functor]] $F$.
+which is [[adjunct]] to the component map $\mathcal{C}(d,c) \to [F(c),F(d)]$ of the [[enriched functor]] $F$.
 
 =--
 
@@ -3068,9 +3078,8 @@ which is [[adjunct]] to the component map $\mathcal{C}(d,c) \to Maps(F(c),F(d))_
 +-- {: .proof}
 ###### Proof
 
-The coequalizer of pointed topological spaces that we need to consider has underlying it a coequalizer of underlying pointed sets  ([prop.](Introduction+to+Stable+homotopy+theory+--+P#DescriptionOfLimitsAndColimitsInTop), [prop.](Introduction+to+Stable+homotopy+theory+--+P#LimitsAndColimitsOfPointedObjects), [prop.](Introduction+to+Stable+homotopy+theory+--+P#kTopIsCoreflectiveSubcategory)). That in turn is the colimit over the diagram of underlying sets with the basepointe adjoined to the diagram ([prop.](Introduction+to+Stable+homotopy+theory+--+P#LimitsAndColimitsOfPointedObjects)). For a coequalizer diagram adding that extra point to the diagram clearly does not change the colimit, and so we need to consider the plain coequalizer of sets.
-
-That is just the set of [[equivalence classes]] of [[pairs]]
+Consider the case $\mathcal{V} =$ [[Set]]:
+In this case the coequalizer in question is the set of [[equivalence classes]] of [[pairs]]
 
 $$
   ( c \overset{}{\to} c_0,\; x  )
@@ -3121,28 +3130,6 @@ $$
 
 hence with $\phi(x)\in F(c_0)$.
 
-This shows the claim at the level of the underlying sets. To conclude it is now sufficient ([prop.](Introduction+to+Stable+homotopy+theory+--+P#DescriptionOfLimitsAndColimitsInTop)) to show that the topology on $F(c_0) \in Top^{\ast/}_{cg}$ is the [[final topology]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#InitialAndFinalTopologies)) of the system of component morphisms
-
-$$
-  \mathcal{C}(d,c) \otimes F(c)
-    \longrightarrow
-  \overset{c}{\int} \mathcal{C}(c,c_0) \otimes F(c)
-$$
-
-which we just found. But that system includes
-
-$$
-  \mathcal{C}(c,c) \otimes F(c) \longrightarrow F(c)
-$$
-
-which is a [[retraction]]
-
-$$
-  id \;\colon\; F(c) \longrightarrow \mathcal{C}(c,c) \otimes F(c)
-  \longrightarrow F(c)
-$$
-
-and so if all the preimages of a given subset of the coequalizer under these component maps is open, it must have already been open in $F(c)$.
 
 
 =--
