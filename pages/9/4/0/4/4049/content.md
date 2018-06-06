@@ -43,10 +43,15 @@ I \otimes C(c, d) & \underset{\eta_d \otimes F_{c, d}}{\to} & D(F d, G d) \otime
 
 (Should expand to include other notions of enriched category.) 
 
+## Related concepts
+
+* [[enriched adjunction]]
 
 ## Reference 
 
 * [[Max Kelly]], _Basic Concepts of Enriched Category Theory_, Cambridge University Press, Lecture Notes in Mathematics 64 (1982) [(pdf)](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html)
+
+* {#Borceux94} [[Francis Borceux]], Vol 2, def. 6.2.4 of _[[Handbook of Categorical Algebra]]_, Cambridge University Press (1994)
 
 * [[Emily Riehl]], chapter 3 _Basics of enriched category theory_ in _[[Categorical Homotopy Theory]]_
 
@@ -55,3 +60,6 @@ For more references see at _[[enriched category]]_.
 
 [[!redirects enriched natural transformation]]
 [[!redirects enriched natural transformations]]
+
+[[!redirects enriched natural isomorphism]]
+[[!redirects enriched natural isomorphisms]]
