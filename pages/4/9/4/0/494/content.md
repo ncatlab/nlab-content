@@ -1239,6 +1239,8 @@ Keeping that in mind, we do list some special cases and special classes of examp
 
   * [[fixed point of an adjunction]]
 
+  * [[enriched adjunction]]
+
 * [[proadjoint]], [[Hopf adjunction]]
 
 * [[2-adjunction]]
