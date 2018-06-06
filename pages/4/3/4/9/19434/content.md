@@ -355,6 +355,8 @@ Let $(P,y)$ be a locally fully-faithful KZ-doctrine on 2-category $\mathcal{K}$ 
 
 **Proof**. cf. Walker ([2017](#Walker17), p.9). $\qed$
 
+Jokingly, we may say that _a general KZ-doctrine is nothing but unfaithful Yoneda-structure without size problems!_ Conversely, the main difference between a locally fully-faithful KZ-doctrine and a Yoneda structure concerns size: For the KZ-doctrine every identity morphism is admissible and, accordingly, its presheaf construction is total whereas this need not be the case for general Yoneda structures. 
+
 ## In retrospective
 
 The following is a quote from [[Ross Street|Ross Street's]] "Australian conspectus of higher categories" ([Street 2010](#Street10), p. 241):
