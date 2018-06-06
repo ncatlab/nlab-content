@@ -19,7 +19,7 @@
 
 ## Definition
 
-A _simplicial Quillen adjunction_ is an [[sSet]]-[[enriched Quillen adjunction]]: an [[adjunction]] 
+A _simplicial Quillen adjunction_ is an [[sSet]]-[[enriched Quillen adjunction]]: an [[enriched adjunction]] 
 
 $$
   (L \dashv R) : C \stackrel{\leftarrow}{\to} D
