@@ -112,7 +112,7 @@ The following diagram
 $$
   \array{
       
-     A& & \overset{id_A}{\longrightarrow} & &C
+     A& & \overset{id_A}{\longrightarrow} & &A
      \\
      &{}_f\searrow & \neArrow _{id}& \swarrow _f&
      \\
@@ -337,6 +337,15 @@ We now attend the problem of defining a class $\mathbb{A}$ of admissible maps fo
 ###### Definition
 Given a KZ-doctrine $(P,y)$ on $\mathcal{K}$. A 1-cell $a:B\to C$ is called _P-admissible_ if the left extension of $y_B:B\to P(B)$ along $a$ exists and moreover is preserved by all left extensions $\overline{h}:P(B)\to X$ along $y_B$ of 1-cells $h:B\to X$ into a P-cocomplete 0-cell $X$.
 =--
+
+A crucial property of the Yoneda embedding is of course that is in fact an _embedding_ whence we must demand the same for the units of a KZ-doctrine: 
+
++-- {: .num_defn #locally_fully_faithful}
+###### Definition
+A KZ-doctrine $(P,y)$ on a 2-category $\mathcal{K}$ is called _locally fully-faithful_ if all $y_A: A\to P(A)$ are representably fully-faithful (cf. [ex.](#fully_faithful)).
+=--
+
+Now we are ready to state the main result of this section.
 
 +-- {: .num_prop #Yoneda_monad}
 ###### Theorem (Walker)
