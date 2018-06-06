@@ -2483,7 +2483,7 @@ such that this preserves [[composition]] and [[identity]] morphisms in the evide
 
 +-- {: .num_example #EnrichedHomFunctor}
 ###### Example
-**([[enriched category theory|enriched]] [[hom-functor]])**
+**([[enriched hom-functor]])**
 
 For $\mathcal{V}$ a [[cosmos]] (Def. \ref{Cosmos}), let $\mathcal{C}$ be a $\mathcal{V}$-[[enriched category]] (Def. \ref{TopEnrichedCategory}). Then there is a $\mathcal{V}$-[[enriched functor]] out of the enriched [[product category]] of $\mathcal{C}$ with its enriched [[opposite category]] (Def. \ref{OppositeAndProductOfPointedTopologicallyEnrichedCategory}) 
 
@@ -2531,7 +2531,7 @@ $$
   y(c) \;\coloneqq\; \mathcal{C}(c,-) 
 $$
 
-(where on the right we have the enriched hom-functor from Example \ref{EnrichedHomFunctor})
+(where on the right we have the [[enriched hom-functor]] from Example \ref{EnrichedHomFunctor})
 
 which sends objects to
 
@@ -2767,6 +2767,33 @@ Let $\mathcal{C}$ be a $\mathcal{V}$-[[enriched category]], def. \ref{TopEnriche
 
 =--
 
+There is now the following evident generalization of the concept of _[[adjoint functors]]_ (Def. \ref{AdjointFunctorsInTermsOfNaturalBijectionOfHomSets}) from plain [[category theory]] to [[enriched category theory]]:
+
++-- {: .num_defn #EnrichedAdjunction}
+###### Definition
+**([[enriched adjunction]])**
+
+For $\mathcal{V}$ a [[cosmos]] (Def. \ref{Cosmos}), let $\mathcal{C}$, $\mathcal{D}$ be two $\mathcal{V}$-[[enriched categories]] (Def. \ref{TopEnrichedCategory}). Then an _[[adjoint pair]] of $\mathcal{V}$-[[enriched functors]]_ or _[[enriched adjunction]]_ 
+
+$$
+  \mathcal{C}
+    \underoverset
+      {\underset{R}{\longrightarrow}}
+      {\overset{L}{\longleftarrow}}
+      {\bot}
+  \mathcal{D}
+$$
+
+is a [[pair]] of $\mathcal{V}$-[[enriched functors]] (Def. \ref{TopologicallyEnrichedFunctor}), as shown, such that there is a $\mathcal{V}$-[[enriched natural isomorphism]] (Def. \ref{EnrichedNaturalTransformation}) between [[enriched hom-functors]] (Def. \ref{EnrichedHomFunctor}) of the form
+
+$$
+  \mathcal{C}(L(-),-)
+  \;\simeq\;
+  \mathcal{D}(-,R(-))
+  \,.
+$$
+
+=--
 
 
 
@@ -3308,7 +3335,7 @@ Because [[limits]] commute with limits, and [[colimits]] commute with colimits.
 +-- {: .num_remark #MappingSpacePreservesEnds}
 ###### Remark
 
-Since the enriched [[hom-functor]] (Example \ref{EnrichedHomFunctor})
+Since the [[enriched hom-functor]] (Example \ref{EnrichedHomFunctor})
 
 $$
   \mathcal{C}
