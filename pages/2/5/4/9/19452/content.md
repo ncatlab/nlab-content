@@ -3049,7 +3049,7 @@ Now that [[natural transformations]] are expressed in terms of [[ends]] (example
 
 +-- {: .num_prop #TopologicalCoYonedaLemma}
 ###### Proposition
-**([[co-Yoneda lemma]])**
+**([[enriched co-Yoneda lemma]])**
 
 For $\mathcal{V}$ a [[cosmos]] (Def. \ref{Cosmos}), let $\mathcal{C}$ be a [[small category|small]] $\mathcal{V}$-[[enriched category]] (Def. \ref{TopEnrichedCategory}). For $F \colon \mathcal{C}\to \mathcal{V}$ an [[enriched presheaf]] (Def. \ref{EnrichedPresheaf}) and for $c\in \mathcal{C}$ an [[object]], there is a [[natural isomorphism]]
 
@@ -3078,7 +3078,42 @@ which is [[adjunct]] to the component map $\mathcal{C}(d,c) \to [F(c),F(d)]$ of 
 +-- {: .proof}
 ###### Proof
 
-Consider the case $\mathcal{V} =$ [[Set]]:
+By the definition of [[coends]] and the [[universal property]] of [[colimits]], [[enriched natural transformations]] of the form
+
+$$
+  \left(
+    \overset{c \in \mathcal{C}}{\int} \mathcal{C}(c,-) \otimes F(c)
+  \right)
+    \longrightarrow
+  G
+$$
+
+are given by systems of component morphisms
+
+$$
+  \mathcal{C}(c,d) \otimes F(c)
+    \longrightarrow
+  G(d)
+$$
+
+which satisfy some compatibility conditions in their dependence on $c$ and $d$ ([[enriched natural transformation|natural]] in $d$ and "[[extranatural]]" in $c$). By the [[internal hom]] [[adjunction]], these are equivalent to systems of morphisms of the form
+
+$$
+  F(c)
+   \longrightarrow
+   [\mathcal{C}(c,d), G(d)]
+$$
+
+satisfying the analogous compatibility conditions.
+
+=--
+
++-- {: .num_example}
+###### Example
+**([[co-Yoneda lemma]] over [[Set]])**
+
+Consider the [[co-Yoneda lemma]] (Prop. \ref{TopologicalCoYonedaLemma}) in the special case $\mathcal{V} =$ [[Set]] (Example \ref{ExamplesOfCosmoi}).
+
 In this case the coequalizer in question is the set of [[equivalence classes]] of [[pairs]]
 
 $$
@@ -3129,8 +3164,6 @@ $$
 $$
 
 hence with $\phi(x)\in F(c_0)$.
-
-
 
 =--
 
