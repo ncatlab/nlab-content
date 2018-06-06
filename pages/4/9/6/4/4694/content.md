@@ -406,6 +406,8 @@ In [[linear type theory]] (see there for more) the [[exponential modality]] $!$ 
 
 * [[projection formula]]
 
+* [[enriched adjunction]]
+
 [[!redirects monoidal adjunctions]]
 [[!redirects opmonoidal adjunction]]
 [[!redirects opmonoidal adjunctions]]
