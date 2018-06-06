@@ -56,7 +56,7 @@ Lecture notes include
 
 The [[Postnikov tower]] of (localizations of) the sphere spectrum is discussed in
 
-* [[Karol Szumi?o]],  _Postnikov tower of the sphere spectrum_, Master thesis 2009 ([web](https://apd.uw.edu.pl/en/diplomas/bsc-msc/62580/))
+* [[Karol Szumilo]],  _Postnikov tower of the sphere spectrum_, Master thesis 2009 ([web](https://apd.uw.edu.pl/en/diplomas/bsc-msc/62580/))
 
 * Katja Hutschenreuter, _On rigidity of the ring spectra $P_m \mathbb{S}_{(p)}$ and $k o$_, (2012) ([pdf](http://www.math.uni-bonn.de/people/grk1150/DISS/dissertation-hutschenreuter.pdf))
 
