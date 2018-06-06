@@ -23,6 +23,8 @@ The **bagdomain topos construction** is the topos analogue of the powerdomain co
 
 * [[Artin gluing]]
 
+* [[lax-idempotent 2-monad]]
+
 
 ## References
 
