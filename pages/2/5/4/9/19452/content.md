@@ -1806,6 +1806,7 @@ In analogy to the [[coherence theorem for monoidal categories]] (remark \ref{Coh
 =--
 
 
+
 +-- {: .num_defn #ClosedMonoidalCategory}
 ###### Definition
 **([[closed monoidal category]])**
@@ -1929,9 +1930,222 @@ This is the archetypical case that motivates the notation "$\otimes$" for the pa
 =--
 
 
++-- {: .num_defn #LaxMonoidalFunctor}
+###### Definition
+**([[monoidal functors]])**
+
+Let $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D},\otimes_{\mathcal{D}}, 1_{\mathcal{D}} )$ be two [[monoidal categories]] (def. \ref{MonoidalCategory}). A _[[lax monoidal functor]]_ between them is
+
+1. a [[functor]] (Def. \ref{Functors})
+
+   $$
+     F \;\colon\; \mathcal{C} \longrightarrow \mathcal{D}
+     \,,
+   $$
+
+1. a [[morphism]]
+
+   \[
+     \label{UnitComponentOfMonoidalFunctor}
+     \epsilon \;\colon\; 1_{\mathcal{D}} \longrightarrow F(1_{\mathcal{C}})
+   \]
+
+1. a [[natural transformation]] (Def. \ref{NaturalTransformations})
+
+   \[
+     \label{MonoidalComponentsOfMonoidalFunctor}
+     \mu_{x,y}
+       \;\colon\;
+     F(x) \otimes_{\mathcal{D}} F(y)
+       \longrightarrow
+     F(x \otimes_{\mathcal{C}} y)
+   \]
+
+   for all $x,y \in \mathcal{C}$
+
+satisfying the following conditions:
+
+1. **([[associativity]])** For all objects $x,y,z \in \mathcal{C}$ the following [[commuting diagram|diagram commutes]]
+
+   $$
+     \array{
+       (F(x) \otimes_{\mathcal{D}} F(y)) \otimes_{\mathcal{D}} F(z)
+         &\underoverset{\simeq}{a^{\mathcal{D}}_{F(x),F(y),F(z)}}{\longrightarrow}&
+       F(x) \otimes_{\mathcal{D}}( F(y)\otimes_{\mathcal{D}} F(z) )
+       \\
+       {}^{\mathllap{\mu_{x,y} \otimes id}}\downarrow
+         &&
+       \downarrow^{\mathrlap{id\otimes \mu_{y,z}}}
+       \\
+       F(x \otimes_{\mathcal{C}} y) \otimes_{\mathcal{D}} F(z)
+        &&
+       F(x) \otimes_{\mathcal{D}} ( F(x \otimes_{\mathcal{C}} y) )
+       \\
+       {}^{\mathllap{\mu_{x \otimes_{\mathcal{C}} y , z} } }\downarrow
+         &&
+       \downarrow^{\mathrlap{\mu_{ x, y \otimes_{\mathcal{C}} z  }}}
+       \\
+       F( ( x \otimes_{\mathcal{C}} y ) \otimes_{\mathcal{C}} z  )
+         &\underset{F(a^{\mathcal{C}}_{x,y,z})}{\longrightarrow}&
+       F( x \otimes_{\mathcal{C}} ( y \otimes_{\mathcal{C}} z ) )
+     }
+     \,,
+   $$
+
+   where $a^{\mathcal{C}}$ and $a^{\mathcal{D}}$ denote the [[associators]] of the monoidal categories;
+
+
+1. **([[unitality]])** For all $x \in \mathcal{C}$ the following [[commuting diagram|diagrams commutes]]
+
+   $$
+     \array{
+       1_{\mathcal{D}} \otimes_{\mathcal{D}} F(x)
+         &\overset{\epsilon \otimes id}{\longrightarrow}&
+       F(1_{\mathcal{C}}) \otimes_{\mathcal{D}} F(x)
+       \\
+       {}^{\mathllap{\ell^{\mathcal{D}}_{F(x)}}}\downarrow
+         &&
+       \downarrow^{\mathrlap{\mu_{1_{\mathcal{C}}, x }}}
+       \\
+       F(x)
+         &\overset{F(\ell^{\mathcal{C}}_x )}{\longleftarrow}&
+       F(1 \otimes_{\mathcal{C}} x  )
+     }
+   $$
+
+   and
+
+   $$
+     \array{
+       F(x) \otimes_{\mathcal{D}}  1_{\mathcal{D}}
+         &\overset{id \otimes \epsilon }{\longrightarrow}&
+       F(x) \otimes_{\mathcal{D}}  F(1_{\mathcal{C}})
+       \\
+       {}^{\mathllap{r^{\mathcal{D}}_{F(x)}}}\downarrow
+         &&
+       \downarrow^{\mathrlap{\mu_{x, 1_{\mathcal{C}} }}}
+       \\
+       F(x)
+         &\overset{F(r^{\mathcal{C}}_x )}{\longleftarrow}&
+       F(x \otimes_{\mathcal{C}} 1  )
+     }
+     \,,
+   $$
+
+   where $\ell^{\mathcal{C}}$, $\ell^{\mathcal{D}}$, $r^{\mathcal{C}}$, $r^{\mathcal{D}}$ denote the left and right [[unitors]] of the two monoidal categories, respectively.
+
+If $\epsilon$ and alll $\mu_{x,y}$ are [[isomorphisms]], then $F$ is called a **[[strong monoidal functor]]**.
+
+If moreover $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D},\otimes_{\mathcal{D}}, 1_{\mathcal{D}} )$ are equipped with the structure of [[braided monoidal categories]] (def. \ref{BraidedMonoidalCategory}) with [[braidings]] $\tau^{\mathcal{C}}$ and $\tau^{\mathcal{D}}$, respectively, then the lax monoidal functor $F$ is called a **[[braided monoidal functor]]** if in addition the following [[commuting diagram|diagram commutes]] for all objects $x,y \in \mathcal{C}$
+
+$$
+  \array{
+    F(x) \otimes_{\mathcal{C}} F(y)
+      &\overset{\tau^{\mathcal{D}}_{F(x), F(y)}}{\longrightarrow}&
+    F(y) \otimes_{\mathcal{D}} F(x)
+    \\
+    {}^{\mathllap{\mu_{x,y}}}\downarrow
+      &&
+    \downarrow^{\mathrlap{\mu_{y,x}}}
+    \\
+    F(x \otimes_{\mathcal{C}} y )
+      &\underset{F(\tau^{\mathcal{C}}_{x,y}  )}{\longrightarrow}&
+    F( y \otimes_{\mathcal{C}} x )
+  }
+  \,.
+$$
+
+A [[homomorphism]] $f\;\colon\; (F_1,\mu_1, \epsilon_1) \longrightarrow (F_2, \mu_2, \epsilon_2)$ between two (braided) lax monoidal functors is a **[[monoidal natural transformation]]**, in that it is a [[natural transformation]] $f_x \;\colon\; F_1(x) \longrightarrow F_2(x)$ of the underlying functors
+
+compatible with the product and the unit in that the following [[commuting diagram|diagrams commute]] for all objects $x,y \in \mathcal{C}$:
+
+$$
+  \array{
+    F_1(x) \otimes_{\mathcal{D}} F_1(y)
+      &\overset{f(x)\otimes_{\mathcal{D}} f(y)}{\longrightarrow}&
+    F_2(x) \otimes_{\mathcal{D}} F_2(y)
+    \\
+    {}^{\mathllap{(\mu_1)_{x,y}}}\downarrow
+     &&
+    \downarrow^{\mathrlap{(\mu_2)_{x,y}}}
+    \\
+    F_1(x\otimes_{\mathcal{C}} y)
+     &\underset{f(x \otimes_{\mathcal{C}} y ) }{\longrightarrow}&
+    F_2(x \otimes_{\mathcal{C}} y)
+  }
+$$
+
+and
+
+$$
+  \array{
+    && 1_{\mathcal{D}}
+    \\
+    & {}^{\mathllap{\epsilon_1}}\swarrow && \searrow^{\mathrlap{\epsilon_2}}
+    \\
+    F_1(1_{\mathcal{C}})
+     &&\underset{f(1_{\mathcal{C}})}{\longrightarrow}&&
+    F_2(1_{\mathcal{C}})
+  }
+  \,.
+$$
+
+We write $MonFun(\mathcal{C},\mathcal{D})$ for the resulting [[category]] of lax monoidal functors between monoidal categories $\mathcal{C}$ and $\mathcal{D}$, similarly $BraidMonFun(\mathcal{C},\mathcal{D})$ for the category of braided monoidal functors between [[braided monoidal categories]], and $SymMonFun(\mathcal{C},\mathcal{D})$ for the category of braided monoidal functors between [[symmetric monoidal categories]].
+
+=--
+
++-- {: .num_remark #SymmetricMonoidalFunctor}
+###### Remark
+
+In the literature the term "monoidal functor" often refers by default to what in def. \ref{LaxMonoidalFunctor} is called a _strong monoidal functor_.  But for the purpose of the discussion of [[functors with smash product]] [below](#FunctorsWithSmashProduct), it is crucial to admit the generality of lax monoidal functors.
+
+If $(\mathcal{C},\otimes_{\mathcal{C}}, 1_{\mathcal{C}})$ and $(\mathcal{D},\otimes_{\mathcal{D}}, 1_{\mathcal{D}} )$ are [[symmetric monoidal categories]] (def. \ref{SymmetricMonoidalCategory}) then a [[braided monoidal functor]] (def. \ref{LaxMonoidalFunctor}) between them  is often called a **[[symmetric monoidal functor]]**.
+
+=--
+
++-- {: .num_prop #MonoidalFunctorComp}
+###### Proposition
+
+For $\mathcal{C} \overset{F}{\longrightarrow} \mathcal{D} \overset{G}{\longrightarrow} \mathcal{E}$ two composable [[lax monoidal functors]] (def. \ref{LaxMonoidalFunctor}) between [[monoidal categories]], then their composite $F \circ G$ becomes a lax monoidal functor with structure morphisms
+
+$$
+  \epsilon^{G\circ F}
+    \;\colon\;
+  1_{\mathcal{E}}
+    \overset{\epsilon^G}{\longrightarrow}
+  G(1_{\mathcal{D}})
+    \overset{G(\epsilon^F)}{\longrightarrow}
+  G(F(1_{\mathcal{C}}))
+$$
+
+and
+
+$$
+  \mu^{G \circ F}_{c_1,c_2}
+  \;\colon\;
+  G(F(c_1)) \otimes_{\mathcal{E}} G(F(c_2))
+   \overset{\mu^{G}_{F(c_1), F(c_2)}}{\longrightarrow}
+  G( F(c_1) \otimes_{\mathcal{D}} F(c_2) )
+    \overset{G(\mu^F_{c_1,c_2})}{\longrightarrow}
+  G(F( c_1 \otimes_{\mathcal{C}} c_2 ))
+  \,.
+$$
+
+=--
+
+
 ### Enriched categories
  {#EnrichedCategories}
 
+The plain definition of [[categories]] in Def. \ref{Categories} is phrased in terms of [[sets]]. Via Example \ref{CategoryOfAllSets} this assigns a special role to the category [[Set]] of all sets, as the "base" on top, or the "[[cosmos]]" inside which [[category theory]] takes place. For instance, the fact that [[hom-sets]] in a plain [[category]] are, indeed, sets, is what makes the [[hom-functor]] (Example \ref{HomFunctor}) take values in [[Set]], and this, in turn, governs the form of the all-important [[Yoneda lemma]] (Prop. \ref{YonedaLemma}) and [[Yoneda embedding]] (Prop. \ref{YonedaEmbedding}) as statements about [[presheaves]] of sets (Example \ref{CategoryOfPresheaves}).
+
+At the same time, [[category theory]] witnesses the utility of abstracting away from concrete choices to their abstract properties that are actually used in constructions. This makes it natural to ask if one could replace the category [[Set]] by some other category $\mathcal{V}$ which could similarly serve as a "[[cosmos]]" inside which category theory may be developed.
+
+Indeed, such $\mathcal{V}$-[[enriched category theory]] (see Example  \ref{UnderlyingCategoryOfTopEnrichedCategory} below for the terminology) exists, beginning with the concept of $\mathcal{V}$-[[enriched categories]] (Def. \ref{TopEnrichedCategory} below) and from there directly paralleling, hence generalizing, plain category theory, as long as one assumes the "cosmos" category $\mathcal{V}$ to share a minimum of abstract properties with [[Set]] (Def. \ref{Cosmos} below).
+
+This turns out to be most useful. In fact, the perspective of [[enriched categories]] is helpful already when $\mathcal{V} = $ [[Set]], in which case it reproduces plain category theory (Example \ref{SetEnrichedCategoriesArePlainCategories} below), for instance in that it puts the [[limit|(co)limits]] of the special form of [[end|(co)ends]] (Def. \ref{EndAndCoendInTopcgSmash} below) to the forefront (discussed [below](#TopologicalEndsAndCoends)).
+
+$\,$
 
 +-- {: .num_defn #Cosmos}
 ###### Definition
@@ -1953,6 +2167,72 @@ The following are examples of [[cosmoi]] (Def. \ref{Cosmos})
 
 =--
 
++-- {: .num_example #ChangeOfCosmosFromVToSet}
+###### Example
+**underlying [[set]] of an object in a [[cosmos]]**
+
+Let $\mathcal{V}$ be a [[cosmos]] (Def. \ref{Cosmos}), with $1 \in \mathcal{V}$ its [[tensor unit]] (Def. \ref{MonoidalCategory}). Then the [[hom-functor]] (Def. \ref{HomFunctor}) out of $1$
+
+$$
+  Hom_{\mathcal{V}}(1,-)
+  \;\colon\;
+  \mathcal{V}
+    \longrightarrow
+  Set
+$$
+
+admits the [[structure]] of a [[lax monoidal functor]] (Def. \ref{LaxMonoidalFunctor}) to [[Set]], with the latter regarded with its [[cartesian monoidal category|cartesian monoidal]] [[structure]] from Example \ref{SetIsCartesianClosed}.
+
+Given $V \in \mathcal{V}$, we call
+
+$$
+  Hom_{\mathcal{V}}(1,V) \;\in\; Set
+$$
+
+also the _underlying_ set of $V$.
+
+=--
+
+
++-- {: .proof}
+###### Proof
+
+Take the monoidal transformations (eq"MonoidalComponentsOfMonoidalFunctor) to be
+
+
+$$
+  \array{
+    Hom_{\mathcal{V}}(1, V_1) 
+    \times
+    Hom_{\mathcal{V}}(1, V_2) 
+    \longrightarrow
+    Hom_{\mathcal{V}}(1, V_1 \otimes V_2)
+    \\
+    \big( 1 \overset{f_1}{\to} V_1\;,\; 1 \overset{f_2}{\to} V_2 \big)
+    &\mapsto&
+    \big(
+      1 \overset{\simeq}{\to} 1 \otimes 1 
+        \overset{f_1 \otimes f_2}{\longrightarrow}
+      V_1 \otimes V_2
+    \big)
+  }
+$$
+
+and take the unit transformation (eq:UnitComponentOfMonoidalFunctor)
+
+$$
+  \array{
+    \ast 
+      &\longrightarrow& 
+    Hom_{\mathcal{V}}(1,1)
+  }
+$$
+
+to pick $id_1 \in Hom_{\mathcal{V}}(1,1)$.
+
+
+=--
+
 +-- {: .num_defn #TopEnrichedCategory}
 ###### Definition
 **([[enriched category]])**
@@ -1961,7 +2241,7 @@ For $\mathcal{V}$ a [[cosmos]] (Def. \ref{Cosmos}), a  **$\mathcal{V}$-[[enriche
 
 1. a [[class]] $Obj_{\mathcal{C}}$, called the **class of [[objects]]**;
 
-1. for each $a, b\in Obj_{\mathcal{C}}$ a an [[object]]
+1. for each $a, b\in Obj_{\mathcal{C}}$, an [[object]]
 
    $$
      \mathcal{C}(a,b)\in \mathcal{V}
@@ -1986,35 +2266,46 @@ For $\mathcal{V}$ a [[cosmos]] (Def. \ref{Cosmos}), a  **$\mathcal{V}$-[[enriche
 
 such that the composition is [[associativity|associative]] and [[unitality|unital]].
 
+If the [[class]] $Obj_{\mathcal{C}}$ happens to be a [[set]] (hence a [[small set]] instead of a [[proper class]]) then we say the $\mathcal{V}$-enriched category $\mathcal{C}$ is _[[small category|small]]_, as in Def. \ref{SmallCategory}.
+
 =--
 
 +-- {: .num_example #SetEnrichedCategoriesArePlainCategories}
 ###### Example
 **([[Set]]-[[enriched categories]] are plain [[categories]])**
 
-An [[enriched category]] (Def. \ref{TopEnrichedCategory}) over the [[cosmos]] $\mathcal{V} = $ [[Set]] as in Example \ref{ExamplesOfCosmoi} is the same as a plain [[category]] (Def. \ref{Categories}).
+An [[enriched category]] (Def. \ref{TopEnrichedCategory}) over the [[cosmos]] $\mathcal{V} = $ [[Set]], as in Example \ref{ExamplesOfCosmoi}, is the same as a plain [[category]] (Def. \ref{Categories}).
 
 =--
 
-+-- {: .num_prop #UnderlyingCategoryOfTopEnrichedCategory}
-###### Proposition
++-- {: .num_example #UnderlyingCategoryOfTopEnrichedCategory}
+###### Example
 **(underlying [[category]] of an [[enriched category]])**
 
 Let $\mathcal{C}$ be a $\mathcal{V}$-[[enriched category]] (Def. \ref{TopEnrichedCategory}). 
 
-Under the [[hom functor]] (Def. \ref{HomFunctor})
+Using the [[lax monoidal functor|lax monoidal]] [[structure]] (Def. \ref{LaxMonoidalFunctor}) on the 
+[[hom functor]] (Example \ref{ChangeOfCosmosFromVToSet})
 
 $$
-  Hom_{\mathcal{V}}(I,-)
+  Hom_{\mathcal{V}}(1,-)
   \;\colon\;
   \mathcal{V} \longrightarrow Set
 $$
 
-out of the [[tensor unit]] $I \in \mathcal{C}$ this induces a [[Set]]-[[enriched category]], hence an ordinary [[category]] (Example \ref{SetEnrichedCategoriesArePlainCategories}).
+out of the [[tensor unit]] $1 \in \mathcal{C}$ this induces a [[Set]]-[[enriched category]] $\vert \mathcal{C}\vert$ with hence an ordinary [[category]] (Example \ref{SetEnrichedCategoriesArePlainCategories}), with
+
+* $Obj_{\vert \mathcal{C}\vert} \;\coloneqq\; Obj_{\mathcal{C}}$;
+
+* $Hom_{\vert \mathcal{C}\vert}( X, Y ) 
+   \;\coloneqq\; 
+  Hom_{\mathcal{V}}(1, \mathcal{C}(X,Y))$.
+
+It is in this sense that $\mathcal{C}$ is a plain [[category]] ${\vert \mathcal{C}\vert}$ equipped with [[extra structure]], and hence an "[[enriched category]]".
+
 
 =---
 
-It is in this sense that $\mathcal{C}$ is a [[category]] with [[extra structure]], and hence "[[enriched category|enriched]]".
 
 
 The archetypical example is $\mathcal{V}$ itself:
@@ -2174,7 +2465,7 @@ such that this preserves [[composition]] and [[identity]] morphisms in the evide
 
 +-- {: .num_example #EnrichedPresheaf}
 ###### Example
-**([[enriched presheaves]]
+**([[enriched presheaves]])**
 
 For $\mathcal{V}$ a [[cosmos]] (Def. \ref{Cosmos}), let $\mathcal{C}$ be a $\mathcal{V}$-[[enriched category]] (Def. \ref{TopEnrichedCategory}). Then a $\mathcal{V}$-[[enriched functor]] (Def. \ref{TopologicallyEnrichedFunctor})
 
@@ -2182,7 +2473,7 @@ $$
   F \;\colon\; \mathcal{C} \longrightarrow \mathcal{V}
 $$
 
-to the archetypical $\mathcal{V}$-[[enriched category]] from Example \ref{TopkAsATopologicallyEnrichedCategory} is equivalently
+to the archetypical $\mathcal{V}$-[[enriched category]] from Example \ref{TopkAsATopologicallyEnrichedCategory} is:
 
 1. an [[object]] $F_a \in Obj_{\mathcal{V}}$ for each object $a \in Obj_{\mathcal{C}}$;
 
@@ -2365,60 +2656,6 @@ agree.
 
 
 
-
-+-- {: .num_prop #TopologicallyEnrichedCopresheavesHaveAllLimitsAndColimits}
-###### Proposition
-
-For $\mathcal{C}$ any [[small category|small]] [[topologically enriched category]], def. \ref{TopEnrichedCategory} then the [[enriched functor category]] $[\mathcal{C}, Top_{cg}]$ from example \ref{TopologicallyEnrichedFunctorsToTopk} has all [[limits]] and [[colimits]], and they are computed objectwise:
-
-if
-
-$$
-  F_\bullet
-    \;\colon\;
-  I
-    \longrightarrow
-  [\mathcal{C}, Top_{cg}]
-$$
-
-is a [[diagram]] of [[functors]] and $c\in \mathcal{C}$ is any object, then
-
-$$
-  (\underset{\longleftarrow}{\lim}_i F_i)(c) \simeq \underset{\longleftarrow}{\lim}_i (F_i(c)) \;\;\in Top_{cg}
-$$
-
-and
-
-$$
-  (\underset{\longrightarrow}{\lim}_i F_i)(c) \simeq \underset{\longrightarrow}{\lim}_i (F_i(c)) \;\; \in Top_{cg}
-  \,.
-$$
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-First consider the underlying diagram of functors $F_i^\circ$ where the topology on the [[hom-spaces]] of $\mathcal{C}$ and of $Top_{cg}$ has been forgotten. Then one finds
-
-$$
-  (\underset{\longleftarrow}{\lim}_i F^\circ_i)(c) \simeq \underset{\longleftarrow}{\lim}_i (F^\circ_i(c)) \;\;\in Set
-$$
-
-and
-
-$$
-  (\underset{\longrightarrow}{\lim}_i F^\circ _i)(c) \simeq \underset{\longrightarrow}{\lim}_i (F^\circ_i(c)) \;\; \in Set
-$$
-
-by the [[universal property]] of limits and colimits. (Given a morphism of diagrams then a unique compatible morphism between their limits or colimits, respectively, is induced as the universal factorization of the morphism of diagrams regarded as a cone or cocone, respectvely, over the codomain or domain diagram, respectively).
-
-Hence it only remains to see that equipped with topology, these limits and colimits in $Set$ become limits and colimits in $Top_{cg}$. That is just the statement of prop. \ref{DescriptionOfLimitsAndColimitsInTop} with corollary \ref{kTopIsCoreflectiveSubcategory}.
-
-
-=--
-
-
 +-- {: .num_defn #TensoringAndPoweringOfTopologicallyEnrichedCopresheaves}
 ###### Definition
 
@@ -2465,132 +2702,6 @@ Let $\mathcal{C}$ be a $\mathcal{V}$-[[enriched category]], def. \ref{TopEnriche
 
 =--
 
-There is a full blown $\mathcal{V}$-[[enriched Yoneda lemma]]. The following records a slightly simplified version which is all that is needed here:
-
-+-- {: .num_prop #TopologicallyEnrichedYonedaLemma}
-###### Proposition
-**(topologically enriched Yoneda-lemma)**
-
-Let $\mathcal{C}$ be a [[topologically enriched category]], def. \ref{TopEnrichedCategory}, write $[\mathcal{C}, Top_{cg}]$ for its category of topologically enriched (co-)presheaves, and for $c\in Obj(\mathcal{C})$ write $y(c) = \mathcal{C}(c,-) \in [\mathcal{C}, Top_k]$ for the topologically enriched functor that it represents, all according to example \ref{TopologicallyEnrichedFunctorsToTopk}. Recall the [[tensoring]] operation $(F,X) \mapsto F \cdot X$ from def. \ref{TensoringAndPoweringOfTopologicallyEnrichedCopresheaves}.
-
-For $c\in Obj(\mathcal{C})$, $X \in Top_{cg}$ and $F \in [\mathcal{C}, Top_{cg}]$, there is a [[natural bijection]] between
-
-1. morphisms $y(c) \cdot X \longrightarrow F$ in $[\mathcal{C}, Top_{cg}]$;
-
-1. morphisms $X \longrightarrow F(c)$ in $Top_{cg}$.
-
-In short:
-
-$$
-  \frac{
-    y(c)\cdot X \longrightarrow F
-  }{
-    X \longrightarrow F(c)
-  }
-$$
-
-
-=--
-
-+-- {: .proof}
-###### Proof
-
-Given a morphism $\eta \colon y(c) \cdot X \longrightarrow F$ consider its component
-
-$$
-  \eta_c \;\colon\; \mathcal{C}(c,c)\times X \longrightarrow F(c)
-$$
-
-and restrict that to the identity morphism $id_c \in \mathcal{C}(c,c)$ in the first argument
-
-$$
-  \eta_c(id_c,-) \;\colon\; X \longrightarrow F(c)
-  \,.
-$$
-
-We claim that just this $\eta_c(id_c,-)$ already uniquely determines all components
-
-$$
-  \eta_d \;\colon\; \mathcal{C}(c,d)\times X \longrightarrow F(d)
-$$
-
-of $\eta$, for all $d \in Obj(\mathcal{C})$: By definition of the transformation $\eta$ (def. \ref{TopologicallyEnrichedFunctor}), the two functions
-
-$$
-   F(-) \circ \eta_c
-  \;\colon\;
-  \mathcal{C}(c,d)
-  \longrightarrow
-  F(d)^{\mathcal{C}(c,c) \times X}
-$$
-
-and
-
-$$
-  \eta_d  \circ \mathcal{C}(c,-) \times X
-  \;\colon\;
-  \mathcal{C}(c,d)
-  \longrightarrow
-  F(d)^{\mathcal{C}(c,c) \times X}
-$$
-
-agree. This means (remark \ref{TopologicallyEnrichedNaturalTransformationIsTransformationOfUnderlyingFunctors}) that they may be thought of jointly as a function with values in commuting squares in $Top_{cg}$ of this form:
-
-$$
-  f
-  \;\;\;\;
-  \mapsto
-  \;\;\;\;
-  \array{
-    \mathcal{C}(c,c) \times X &\overset{\eta_c}{\longrightarrow}& F(c)
-    \\
-    {}^{\mathllap{\mathcal{C}(c,f)}}\downarrow && \downarrow^{\mathrlap{F(f)}}
-    \\
-    \mathcal{C}(c,d) \times X &\underset{\eta_d}{\longrightarrow}& F(d)
-  }
-$$
-
-For any $f \in \mathcal{C}(c,d)$, consider the restriction of
-
-$$
-  \eta_d \circ \mathcal{C}(c,f) \in F(d)^{\mathcal{C}(c,c) \times X}
-$$
-
-to $id_c \in \mathcal{C}(c,c)$, hence restricting the above commuting squares to
-
-$$
-  f
-  \;\;\;\;
-  \mapsto
-  \;\;\;\;
-  \array{
-    \{id_c\} \times X &\overset{\eta_c}{\longrightarrow}& F(c)
-    \\
-    {}^{\mathllap{\mathcal{C}(c,f)}}\downarrow && \downarrow^{\mathrlap{F}(f)}
-    \\
-    \{f\} \times X &\underset{\eta_d}{\longrightarrow}& F(d)
-  }
-$$
-
-This shows that $\eta_d$ is fixed to be the function
-
-$$
-  \eta_d(f,x) = F(f)\circ \eta_c(id_c,x)
-$$
-
-and this is a continuous function since all the operations it is built from are continuous.
-
-Conversely, given a continuous function $\alpha \colon X \longrightarrow F(c)$, define for each $d$ the function
-
-$$
-  \eta_d \colon (f,x) \mapsto F(f) \circ \alpha
-  \,.
-$$
-
-Running the above analysis backwards shows that this determines a transformation $\eta \colon y(c)\times X \to F$.
-
-
-=--
 
 
 
@@ -2611,6 +2722,7 @@ For working with [[enriched categories]] (Def. \ref{TopEnrichedCategory}) , a ce
 
 +-- {: .num_defn #EndAndCoendInTopcgSmash}
 ###### Definition
+**([[end|(co)end]])**
 
 Let $\mathcal{C}$ be a [[small category|small]] $\mathcal{V}$-[[enriched category]] (Def. \ref{TopEnrichedCategory}).  Let
 
@@ -2622,10 +2734,19 @@ $$
   \mathcal{V}
 $$
 
-be an [[enriched functor]] (Def. \ref{TopologicallyEnrichedFunctor}) out of the enriched [[product category]] of $\mathcal{C}$ with its [[opposite category]], according to Def. \ref{OppositeAndProductOfPointedTopologicallyEnrichedCategory}.
+be an [[enriched functor]] (Def. \ref{TopologicallyEnrichedFunctor}) out of the enriched [[product category]] of $\mathcal{C}$ with its [[opposite category]] (Def. \ref{OppositeAndProductOfPointedTopologicallyEnrichedCategory}). Then:
 
 
-1. The  **[[coend]]** of $F$, denoted $\overset{c \in \mathcal{C}}{\int} F(c,c)$, is the [[coequalizer]] in $\mathcal{V}$ of the two [[actions]] encoded in $F$ via Example \ref{PointedTopologicalFunctorOnProductCategory}:
+1. The  **[[coend]]** of $F$, denoted 
+
+   $$
+     \overset{c \in \mathcal{C}}{\int} F(c,c)
+     \;\in\;
+     \mathcal{V}
+     \,,
+   $$
+
+   is the [[coequalizer]] in $\mathcal{V}$ of the two [[actions]] encoded in $F$ via Example \ref{PointedTopologicalFunctorOnProductCategory}:
 
    $$
      \underset{c,d \in \mathcal{C}}{\coprod} \mathcal{C}(c,d) \otimes F(d,c)
@@ -2639,7 +2760,16 @@ be an [[enriched functor]] (Def. \ref{TopologicallyEnrichedFunctor}) out of the 
      \,.
    $$
 
-1. The **[[end]]** of $F$, denoted $\underset{c\in \mathcal{C}}{\int} F(c,c)$, is the **[[equalizer]]** in $\mathcal{V}$ of the [[adjuncts]] of the two actions encoded in $F$ via example \ref{PointedTopologicalFunctorOnProductCategory}:
+1. The **[[end]]** of $F$, denoted 
+
+   $$
+     \underset{c\in \mathcal{C}}{\int} F(c,c)
+     \;\in\;
+     \mathcal{V}
+     \,,
+   $$
+
+   is the **[[equalizer]]** in $\mathcal{V}$ of the [[adjuncts]] of the two actions encoded in $F$ via example \ref{PointedTopologicalFunctorOnProductCategory}:
 
    $$
      \underset{c\in \mathcal{C}}{\int} F(c,c)
@@ -2650,7 +2780,8 @@ be an [[enriched functor]] (Def. \ref{TopologicallyEnrichedFunctor}) out of the 
         {\overset{\underset{c,d}{\sqcup} \tilde\rho_{d,c}(d)}{\longrightarrow}}
         {\phantom{AAAAAAAA}}
       \underset{c\in \mathcal{C}}{\prod}
-      Maps\left( \mathcal{C}\left(c,d\right), \;  F\left(c,d\right) \right)_\ast
+      \big[ 
+      \mathcal{C}\left(c,d\right), \;  F\left(c,d\right) \big]
      \,.
    $$
 
@@ -2704,7 +2835,7 @@ $$
   (x,\; g y)
 $$
 
-(where juxtaposition denotes left/right action) is the [[quotient]] of the plain [[tensor product]] by the [[diagonal action]] of the group $G$:
+(where juxtaposition denotes left/right action) and is the [[quotient]] of the plain [[tensor product]] by the [[diagonal action]] of the group $G$:
 
 $$
   \overset{\ast \in \mathbf{B}(G_+)}{\int}
@@ -2720,23 +2851,35 @@ $$
 +-- {: .num_example #NaturalTransformationsViaEnds}
 ###### Example
 
-Let $\mathcal{C}$ be a [[small category|small]] pointed [[topologically enriched category]] ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopEnrichedCategory)). For
+Let $\mathcal{C}$ be a [[small category|small]] [[enriched category]] (Def. \ref{TopEnrichedCategory}). For
 $
-  F,G
+  F, G
   \;\colon\;
   \mathcal{C}
     \longrightarrow
-  Top^{\ast/}_{cg}
+  \mathcal{V}
 $
-two pointed [[topologically enriched functors]], then the [[end]] (def. \ref{EndAndCoendInTopcgSmash}) of $Maps(F(-),G(-))_\ast$ is a topological space whose underlying [[pointed set]] is the pointed set of [[natural transformations]] $F\to G$ ([def.](Introduction+to+Stable+homotopy+theory+--+P#TopologicallyEnrichedFunctor)):
+two [[enriched presheaves]] (Example \ref{EnrichedPresheaf}), the [[end]] (def. \ref{EndAndCoendInTopcgSmash}) of the [[internal-hom]]-functor
 
 $$
-  U
+  [F(-),G(-)]
+  \;\colon\;
+  \mathcal{C}^{op} \times \mathcal{C}
+  \longrightarrow
+  \mathcal{V}
+$$ 
+
+is an [[object]] of $\mathcal{V}$ whose underlying [[set]] (Example \ref{ChangeOfCosmosFromVToSet}) is the set of [[enriched natural transformations]] $F \Rightarrow G$ (Def. \ref{EnrichedNaturalTransformation})
+
+$$
+  Hom_{\mathcal{V}}\left(1,
   \left(
-    \underset{c \in \mathcal{C}}{\int} Maps(F(c),G(c))_\ast
+    \underset{c \in \mathcal{C}}{\int} 
+    \big[ F(c),G(c) \big]
+  \right)
   \right)
   \;\simeq\;
-  Hom_{[\mathcal{C},Top^{\ast/}_{cg}]}(F,G)
+  Hom_{[\mathcal{C}, \mathcal{V}]}(F,G)
   \,.
 $$
 
@@ -2745,24 +2888,25 @@ $$
 +-- {: .proof}
 ###### Proof
 
-The underlying pointed set functor $U\colon Top^{\ast/}_{cg}\to Set^{\ast/}$ [[preserved limit|preserves]] all [[limits]] ([prop.](Introduction+to+Stable+homotopy+theory+--+P#DescriptionOfLimitsAndColimitsInTop), [prop.](Introduction+to+Stable+homotopy+theory+--+P#LimitsAndColimitsOfPointedObjects), [prop.](Introduction+to+Stable+homotopy+theory+--+P#kTopIsCoreflectiveSubcategory)). Therefore there is an [[equalizer]] diagram in $Set^{\ast/}$ of the form
+The underlying pointed set functor $Hom_{\mathcal{V}}(1,-)\colon \mathcal{V}\to Set$ [[preserved limit|preserves]] all [[limits]]. Therefore there is an [[equalizer]] diagram in [[Set]] of the form
 
 $$
-  U
+  Hom_{\mathcal{V}}\left(1,
   \left(
     \underset{c\in \mathcal{C}}{\int}
-    Maps(F(c),G(c))_\ast
+    [F(c),G(c)]
+  \right)
   \right)
     \overset{equ}{\longrightarrow}
-  \underset{c\in \mathcal{C}}{\prod} Hom_{Top^{\ast/}_{cg}}(F(c),G(c))
+  \underset{c\in \mathcal{C}}{\prod} Hom_{\mathcal{V}}(F(c),G(c))
       \underoverset
         {\underset{\underset{c,d}{\sqcup} U(\tilde \rho_{(c,d)}(c))  }{\longrightarrow}}
         {\overset{\underset{c,d}{\sqcup} U(\tilde\rho_{d,c}(d))}{\longrightarrow}}
         {\phantom{AAAAAAAA}}
    \underset{c,d\in \mathcal{C}}{\prod}
-    Hom_{Top^{\ast/}_{cg}}(
+    Hom_{\mathcal{V}}(
       \mathcal{C}(c,d),
-      Maps(F(c),G(d))_\ast
+      [F(c),G(d)]
     )
   \,.
 $$
