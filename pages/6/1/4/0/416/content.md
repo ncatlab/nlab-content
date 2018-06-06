@@ -104,13 +104,10 @@ Powers are frequently called _cotensors_ and a $V$-category having all powers is
 
 ## References
 
-Section 3.7 of
+* [[Max Kelly]], section 3.7 of _Basic concepts of enriched category theory_ ([tac](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html) ,[pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf))
 
-* [[Max Kelly]], _Basic concepts of enriched category theory_ ([tac](http://www.tac.mta.ca/tac/reprints/articles/10/tr10abs.html) ,[pdf](http://www.tac.mta.ca/tac/reprints/articles/10/tr10.pdf))
+* {#Borceux94} [[Francis Borceux]], Vol 2, Section 6.5 of _[[Handbook of Categorical Algebra]]_, Cambridge University Press (1994)
 
-Section 6.5 of
-
-* Francis Borceux, _Handbook of categorical algebra, vol. 2_
 
 [[!redirects cotensor]]
 [[!redirects cotensoring]]
