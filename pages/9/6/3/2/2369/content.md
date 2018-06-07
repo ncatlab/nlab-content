@@ -68,8 +68,6 @@ Conversely via the [[Brown representability theorem]] a spectrum representing a 
 
 * [[multiplicative spectral sequence]]
 
-* [[Gorenstein ring spectrum]]
-
 ## Reference
 
 * {#Adams74} [[Frank Adams]], part III, section 10 of _[[Stable homotopy and generalised homology]]_, 1974
